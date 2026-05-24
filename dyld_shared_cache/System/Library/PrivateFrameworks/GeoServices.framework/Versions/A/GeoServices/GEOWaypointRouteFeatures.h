@@ -9,17 +9,9 @@
 @interface GEOWaypointRouteFeatures
 {
     PBUnknownFields *_unknownFields;
-    _Bool _avoidsHighways;
-    _Bool _avoidsTolls;
-    _Bool _avoidsTraffic;
-    struct {
-        unsigned int has_avoidsHighways:1;
-        unsigned int has_avoidsTolls:1;
-        unsigned int has_avoidsTraffic:1;
-    } _flags;
 }
 
-+ (_Bool)nts:(id)arg1;
++ (_Bool)setOptimizeSearchRequestComponents:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -28,36 +20,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithNeedsMovedAside:message:reason: /* Error: Ran out of types for this method. */;
+- (void)y identifier state. error = %{public}@;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setSiriStateClient:(id)arg1;
+- (id)comeCurrent];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ñ¹*°1Â0@ù
 × ;
-- (id)tionZilchPointsCount;
+- (id)invalidSectionZilchPointsCount;
 - (id)G_dictionaryRepresentation;
 - (id)can only be called once per object;
 - (void)^;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidsHighways;
-@property(nonatomic) _Bool avoidsTolls;
-@property(nonatomic) _Bool avoidsTraffic;
-@property(nonatomic) _Bool hasAvoidsHighways;
 @property(nonatomic) _Bool hasAvoidsTolls;
-@property(nonatomic) _Bool hasAvoidsTraffic;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

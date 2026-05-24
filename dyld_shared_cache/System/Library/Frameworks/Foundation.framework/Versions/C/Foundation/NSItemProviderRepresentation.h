@@ -9,12 +9,9 @@
 @interface NSItemProviderRepresentation
 {
     CDUnknownBlockType _loader;
-    NSString *_typeIdentifier;
-    long long _visibility;
-    long long _preferredRepresentation;
 }
 
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -37,9 +34,7 @@
 - (void)DictionaryIterator;
 
 // Remaining properties
-@property long long preferredRepresentation; // @synthesize preferredRepresentation=_preferredRepresentation;
 @property(readonly, copy) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property long long visibility; // @synthesize visibility=_visibility;
 
 @end
 

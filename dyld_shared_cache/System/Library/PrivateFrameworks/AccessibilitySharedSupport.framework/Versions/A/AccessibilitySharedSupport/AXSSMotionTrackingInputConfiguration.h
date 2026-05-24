@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface AXSSMotionTrackingInputConfiguration
 {
     _Bool _allowSeparateInputForExpressions;
-    NSArray *_orderedInputPreference;
-    NSSet *_allowedTrackingTypes;
 }
 
 + (_Bool);
@@ -21,25 +19,21 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)@0:(id)arg1 8@"NSDictionary"16;
+- (_Bool)title %{public}@ at index %zu;
 - (void);
 - (id);
 - (void);
 - (id);
+- (_Bool)initWithStartAndEndVisitLatitude:startLongitude:endLatitude:endLongitude: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)TTVectorTimestampPersistenceAdditions;
+- (void);
+- (id);
+- (void)presentedItemURL;
+- (id)C;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSeparateInputForExpressions; // @synthesize allowSeparateInputForExpressions=_allowSeparateInputForExpressions;
-@property(copy, nonatomic) NSSet *allowedTrackingTypes; // @synthesize allowedTrackingTypes=_allowedTrackingTypes;
-@property(readonly, copy, nonatomic) NSArray *orderedCameraInputPreference;
-@property(copy, nonatomic) NSArray *orderedInputPreference; // @synthesize orderedInputPreference=_orderedInputPreference;
 @property(readonly, copy, nonatomic) NSDictionary *plistDictionary;
 
 @end

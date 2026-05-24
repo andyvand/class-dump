@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTableViewShrinkToFitController;
 @protocol TSidebarViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSidebarView
 {
     _Bool _handlingCmdMouseDown;
-    FI_TTableViewShrinkToFitController *_stfController;
-    _Bool _shouldHandleCommandClickOnMouseUp;
-    _Bool _shouldCancelPendingInvoke;
-    _Bool _keyOnMouseDown;
-    _Bool _handlingItemClick;
-    _Bool _suppressSelectionClearForScreenCapture;
 }
 
 - (_Bool);
@@ -29,42 +22,37 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct TFENode);
-- (void);
+- (void)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)d;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
+- (void)writingOptionsForType:(id)arg1 pasteboard:(id)arg2;
+- (_Bool)setHasUntrustedRemoteURLAttachments:(id)arg1;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (struct CGRect);
-- (id)lDoubleClick: /* Error: Ran out of types for this method. */;
+- (id)pathControlDoubleClick: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ì;
 - (void);
 
 // Remaining properties
 @property id <TSidebarViewDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool handlingItemClick; // @synthesize handlingItemClick=_handlingItemClick;
-@property(nonatomic) _Bool keyOnMouseDown; // @synthesize keyOnMouseDown=_keyOnMouseDown;
-@property(nonatomic) _Bool shouldCancelPendingInvoke; // @synthesize shouldCancelPendingInvoke=_shouldCancelPendingInvoke;
-@property(nonatomic) _Bool shouldHandleCommandClickOnMouseUp; // @synthesize shouldHandleCommandClickOnMouseUp=_shouldHandleCommandClickOnMouseUp;
-@property(nonatomic) _Bool suppressSelectionClearForScreenCapture; // @synthesize suppressSelectionClearForScreenCapture=_suppressSelectionClearForScreenCapture;
 
 @end
 

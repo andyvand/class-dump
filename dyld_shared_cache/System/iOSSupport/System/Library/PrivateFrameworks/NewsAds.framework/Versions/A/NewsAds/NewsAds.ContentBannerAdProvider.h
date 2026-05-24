@@ -7,7 +7,6 @@
 @interface NewsAds.ContentBannerAdProvider
 {
     id contextWrapper;
-    id debugBannerProvider;
 }
 
 @end

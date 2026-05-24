@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _CDDataCollectionAnonymizer, _CDFileUtility;
+@class _CDDataCollectionAnonymizer;
 
 @interface _CDEventHandlerForDefaultPairedNearby
 {
     _CDDataCollectionAnonymizer *_anonymizer;
-    _CDFileUtility *_utility;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)H;
+- (void)h;
 - (id);
 - (id);
 - (id);
@@ -23,14 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _CDDataCollectionAnonymizer *anonymizer; // @synthesize anonymizer=_anonymizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _CDFileUtility *utility; // @synthesize utility=_utility;
 
 @end
 

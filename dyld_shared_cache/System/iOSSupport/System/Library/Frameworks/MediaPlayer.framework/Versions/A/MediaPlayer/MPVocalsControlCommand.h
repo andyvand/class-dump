@@ -9,30 +9,22 @@
 @interface MPVocalsControlCommand : MPRemoteCommand
 {
     _Bool _vocalsControlActive;
-    _Bool _continuous;
-    float _vocalsLevel;
-    float _minVocalsLevel;
-    float _maxVocalsLevel;
 }
 
 - (float);
+- (void);
 - (void);
-- (void);
-- (float);
-- (float);
+- (float)];
+- (float)";
 - (id);
+- (void)_tablesample;
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)_payloadIPSec;
 
 // Remaining properties
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(nonatomic) float maxVocalsLevel; // @synthesize maxVocalsLevel=_maxVocalsLevel;
-@property(nonatomic) float minVocalsLevel; // @synthesize minVocalsLevel=_minVocalsLevel;
 @property(nonatomic) _Bool vocalsControlActive; // @synthesize vocalsControlActive=_vocalsControlActive;
-@property(nonatomic) float vocalsLevel; // @synthesize vocalsLevel=_vocalsLevel;
 
 @end
 

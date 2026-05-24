@@ -7,13 +7,6 @@
 @interface AppStoreKit.ArtworkLoaderConfig
 {
     id template;
-    id size;
-    id crop;
-    id scale;
-    id style;
-    id format;
-    id quality;
-    id useWideGamut;
 }
 
 @end

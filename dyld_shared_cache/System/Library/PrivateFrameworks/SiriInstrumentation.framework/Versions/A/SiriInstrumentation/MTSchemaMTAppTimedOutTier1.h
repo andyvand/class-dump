@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTLocalePair, NSData, NSString;
+@class NSString;
 
 @interface MTSchemaMTAppTimedOutTier1 : SISchemaInstrumentationMessage
 {
     NSString *_translationPayload;
-    MTSchemaMTLocalePair *_localePair;
-    _Bool _hasTranslationPayload;
-    _Bool _hasLocalePair;
 }
 
 - (id);
@@ -28,22 +25,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)pported key size;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)B,N,V_hasCdmClientWarmupContext;
-- (id)ve;
-- (void)aNLGDialogScorerType;
+- (id)deleteIsCaptive;
+- (void)NLGSchemaNLGDialogScorerType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(nonatomic) _Bool hasTranslationPayload; // @synthesize hasTranslationPayload=_hasTranslationPayload;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
 @property(copy, nonatomic) NSString *translationPayload; // @synthesize translationPayload=_translationPayload;
 
 @end

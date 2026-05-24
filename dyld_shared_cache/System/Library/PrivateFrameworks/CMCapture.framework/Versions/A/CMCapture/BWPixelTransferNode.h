@@ -6,69 +6,9 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWLimitedGMErrorLogger, BWPixelBufferPool, NSArray, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface BWPixelTransferNode : BWNode
 {
     int _cropMode;
-    int _liveCropMode;
-    struct CGRect _inputCropRect;
-    struct CGRect _liveInputCropRect;
-    _Bool _haveLiveInputCropRect;
-    _Bool _passesBuffersThroughWhenPossible;
-    _Bool _livePassesBuffersThroughWhenPossible;
-    _Bool _appliesUprightExifOrientationTransformToInput;
-    _Bool _liveAppliesUprightExifOrientationTransformToInput;
-    int _rotationDegrees;
-    int _liveRotationDegrees;
-    _Bool _flipHorizontal;
-    _Bool _liveFlipHorizontal;
-    _Bool _flipVertical;
-    _Bool _liveFlipVertical;
-    _Bool _liveZeroFillBuffers;
-    _Bool _deviceOrientationCorrectionEnabled;
-    _Bool _liveDeviceOrientationCorrectionEnabled;
-    _Bool _lowSpeed;
-    _Bool _liveLowSpeed;
-    _Bool _updatesSampleBufferMetadataForIrisVIS;
-    _Bool _liveUpdatesSampleBufferMetadataForIrisVIS;
-    unsigned long long _outputWidth;
-    unsigned long long _outputHeight;
-    unsigned int _outputPixelFormat;
-    NSArray *_preferredOutputPixelFormats;
-    int _outputColorSpaceProperties;
-    CDStruct_79c71658 _validOutputDimensions;
-    CDStruct_79c71658 _liveValidOutputDimensions;
-    int _maxOutputLossyCompressionLevel;
-    int _maxInputLossyCompressionLevel;
-    struct OpaqueVTPixelRotationSession *_rotationSession;
-    int _rotationSessionRotationDegrees;
-    _Bool _rotationSessionFlipHorizontal;
-    _Bool _rotationSessionFlipVertical;
-    _Bool _rotationSessionZeroFillBuffers;
-    _Bool _rotationSessionLowSpeed;
-    _Bool _rotationSessionEnablesHistogram;
-    int _rotationSessionColorSpaceProperties;
-    int _lastInputUprightExifOrientation;
-    struct OpaqueVTPixelTransferSession *_transferSession;
-    BWPixelBufferPool *_intermediateBufferPool;
-    CDStruct_79c71658 _intermediatePoolDimensions;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    _Bool _makeCurrentConfigurationLiveOnNextRenderCallback;
-    NSObject<OS_dispatch_semaphore> *_emitSampleBufferSemaphore;
-    _Bool _expectsMarkerBuffers;
-    _Bool _liveExpectsMarkerBuffers;
-    _Bool _appliesPrimaryCaptureRect;
-    _Bool _generatesHistogram;
-    int _conversionMethodForStillImagesDuringHDRVideo;
-    _Bool _allows422To420Conversion;
-    _Bool _isConverting10BitVideoRangeTo8BitFullRangeEncouraged;
-    struct __CVBuffer *_intermediatePixelBufferForStillHDRToSDRConversion;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    _Bool _doGMLogging;
-    _Bool _fractionalSourceRectEnabled;
-    _Bool _firstFrameProcessed;
 }
 
 + (void)rifyMovieTiming:] /* Error: Ran out of types for this method. */;
@@ -77,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)moreMidClr;
+- (void)XugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUDataRepresentation.m;
 - (int);
 - (int);
-- (void);
+- (void)o<;
 - (int);
 - (id);
 - (_Bool);
@@ -91,29 +31,29 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)kI;
 - (_Bool);
+- (void)_oldAccount;
+- (void);
+- (void);
+- (int)setHasIgnorablePredictedAsSalient: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned int);
+- (void);
+- (void) ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (int);
-- (void);
-- (unsigned int);
 - (void);
 - (void);
+- (void)RBDisplayListItemPlaceholder;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)=;
 - (void)Q$°1Â0@ù
 × ;
 - (void);
-- (CDStruct_1ef3fb1f)l;
+- (CDStruct_1ef3fb1f)_accel;
 - (id)gCaptureDeviceVendor >>>> %s:Camera %{public}@ indicates overriden calibration /* Error: Ran out of types for this method. */;
 - (void)tuck on non-node work or transitioning between nodes.;
 - (_Bool)ÿÿO|ÿÿV|ÿÿ]}ÿÿe}ÿÿm}ÿÿt~ÿÿ|~ÿÿ~ÿÿÿÿÿÿÿÿ ÿÿ§ÿÿ¯ÿÿ¶ÿÿ½ÿÿÄÿÿÌÿÿÓÿÿÚÿÿáÿÿéÿÿÿÿÿÿÿÿ"ÿÿ'ÿÿ-ÿÿ3ÿÿ:ÿÿAÿÿIÿÿPÿÿWÿÿ^ÿÿfÿÿnÿÿuÿÿ}ÿÿÿÿÿÿÿÿÿÿ¡ÿÿ¨ÿÿ°ÿÿ·ÿÿ¾ÿÿÅÿÿÍÿÿÔÿÿÛÿÿáÿÿéÿÿÿÿÿÿÿÿ#ÿÿ(ÿÿ/ÿÿ5ÿÿ;ÿÿBÿÿJÿÿQÿÿXÿÿ_ÿÿgÿÿoÿÿvÿÿ~ÿÿÿÿÿÿÿÿÿÿ¢ÿÿ©ÿÿ±ÿÿ¸ÿÿ¿ÿÿÆÿÿÎÿÿÕÿÿÛÿÿâÿÿêÿÿÿÿÿÿ"ÿÿ&ÿÿ*ÿÿ0ÿÿ6ÿÿ=ÿÿCÿÿKÿÿRÿÿYÿÿ`ÿÿhÿÿpÿÿwÿÿÿÿÿÿÿÿÿÿÿÿ¤ÿÿ«ÿÿ³ÿÿºÿÿÀÿÿÇÿÿÏÿÿÖÿÿÝÿÿãÿÿëÿÿÿÿ!ÿÿ$ÿÿ'ÿÿ,ÿÿ2ÿÿ8ÿÿ>ÿÿEÿÿLÿÿSÿÿZÿÿaÿÿiÿÿqÿÿxÿÿÿÿÿÿÿÿ ÿÿ ÿÿ¥ ÿÿ¬ ÿÿ´¡ÿÿ»¡ÿÿÂ¡ÿÿÈ¡ÿÿÐ¢ÿÿ×¢ÿÿÞ¢ÿÿä¢ÿÿì¢ÿÿ ¤ÿÿ#¤ÿÿ%¤ÿÿ)¤ÿÿ.¤ÿÿ3¤ÿÿ9¤ÿÿ?¥ÿÿF¥ÿÿM¥ÿÿT¥ÿÿ[¥ÿÿb¦ÿÿj¦ÿÿr¦ÿÿy¦ÿÿ§ÿÿ§ÿÿ§ÿÿ§ÿÿ¨ÿÿ¦¨ÿÿ­¨ÿÿµ©ÿÿ¼©ÿÿÃ©ÿÿÊ©ÿÿÑ©ÿÿØªÿÿßªÿÿåªÿÿíªÿÿ"¬ÿÿ%¬ÿÿ'¬ÿÿ+¬ÿÿ/¬ÿÿ5¬ÿÿ:­ÿÿ@­ÿÿG­ÿÿN­ÿÿU­ÿÿ\®ÿÿc®ÿÿj®ÿÿs®ÿÿz®ÿÿ¯ÿÿ¯ÿÿ¯ÿÿ¯ÿÿ °ÿÿ§°ÿÿ¯°ÿÿ¶°ÿÿ½±ÿÿÄ±ÿÿË±ÿÿÒ±ÿÿÙ±ÿÿà±ÿÿæ²ÿÿî²ÿÿ$´ÿÿ'´ÿÿ)´ÿÿ,´ÿÿ1´ÿÿ6µÿÿ;µÿÿAµÿÿHµÿÿOµÿÿVµÿÿ]¶ÿÿd¶ÿÿk¶ÿÿs¶ÿÿ{¶ÿÿ·ÿÿ·ÿÿ·ÿÿ·ÿÿ¡·ÿÿ©¸ÿÿ°¸ÿÿ¸¸ÿÿ¿¸ÿÿÅ¹ÿÿÌ¹ÿÿÓ¹ÿÿÚ¹ÿÿá¹ÿÿç¹ÿÿï¹ÿÿ&½ÿÿ(½ÿÿ+½ÿÿ.¾ÿÿ2¾ÿÿ7¾ÿÿ=¾ÿÿB¾ÿÿH¾ÿÿP¾ÿÿV¿ÿÿ]¿ÿÿd¿ÿÿl¿ÿÿt¿ÿÿ|¿ÿÿÀÿÿÀÿÿÀÿÿÀÿÿ¢ÀÿÿªÁÿÿ±Áÿÿ¹ÁÿÿÀÁÿÿÇÁÿÿÎÁÿÿÕÂÿÿÛÂÿÿâÂÿÿèÂÿÿðÂÿÿ(Æÿÿ*Æÿÿ,Æÿÿ/Æÿÿ3Æÿÿ8Æÿÿ=ÆÿÿCÆÿÿIÆÿÿPÇÿÿWÇÿÿ^ÇÿÿeÇÿÿlÇÿÿtÇÿÿ|ÈÿÿÈÿÿÈÿÿÈÿÿÈÿÿ£Èÿÿ«Èÿÿ²ÉÿÿºÉÿÿÁÉÿÿÈÉÿÿÏÉÿÿÖÉÿÿÝÉÿÿãÊÿÿéÊÿÿñÊÿÿ*Îÿÿ,Îÿÿ.Îÿÿ1Îÿÿ4Îÿÿ9Îÿÿ>ÎÿÿDÎÿÿJÏÿÿQÏÿÿWÏÿÿ^ÏÿÿeÏÿÿlÏÿÿtÐÿÿ|ÐÿÿÐÿÿÐÿÿÐÿÿÐÿÿ£Ðÿÿ«Ðÿÿ³Ðÿÿ»ÐÿÿÃÑÿÿÊÑÿÿÐÑÿÿØÑÿÿÞÑÿÿäÑÿÿëÑÿÿòÑÿÿ+Öÿÿ-Öÿÿ/Öÿÿ2Öÿÿ5Öÿÿ:Öÿÿ?×ÿÿD×ÿÿJ×ÿÿQ×ÿÿW×ÿÿ^×ÿÿe×ÿÿlØÿÿtØÿÿ{ØÿÿØÿÿØÿÿØÿÿØÿÿ£Øÿÿ«Øÿÿ³Øÿÿ¼ØÿÿÄØÿÿËØÿÿÒÙÿÿÙÙÿÿàÙÿÿæÙÿÿìÙÿÿóÙÿÿ-ßÿÿ.ßÿÿ0ßÿÿ3àÿÿ7àÿÿ;àÿÿ@àÿÿEàÿÿJàÿÿQàÿÿWàÿÿ^áÿÿeáÿÿláÿÿtáÿÿ{áÿÿáÿÿáÿÿáÿÿáÿÿ¢áÿÿªáÿÿ³áÿÿ¼áÿÿÄáÿÿÌáÿÿÓáÿÿÛáÿÿâáÿÿçáÿÿíáÿÿôáÿÿ.èÿÿ0èÿÿ2èÿÿ4èÿÿ8èÿÿ<èÿÿ@èÿÿEèÿÿKèÿÿQèÿÿWéÿÿ^éÿÿdéÿÿkéÿÿséÿÿzéÿÿéÿÿéÿÿéÿÿéÿÿ¡éÿÿ©éÿÿ±éÿÿºéÿÿÃéÿÿËéÿÿÔéÿÿÝéÿÿäéÿÿééÿÿïéÿÿõéÿÿ0ðÿÿ1ðÿÿ3ðÿÿ5ðÿÿ9ðÿÿ=ðÿÿAðÿÿFðÿÿKðÿÿRñÿÿXñÿÿ^ñÿÿdñÿÿkñÿÿsñÿÿzñÿÿñÿÿñÿÿñÿÿñÿÿ ñÿÿ§ñÿÿ¯ñÿÿ¸ñÿÿÁñÿÿÉñÿÿÒñÿÿÜðÿÿåðÿÿìðÿÿñðÿÿ÷ðÿÿ1øÿÿ3øÿÿ4øÿÿ7øÿÿ:øÿÿ>øÿÿBøÿÿGøÿÿLùÿÿRùÿÿXùÿÿ^ùÿÿdùÿÿkùÿÿrùÿÿyùÿÿùÿÿùÿÿùÿÿúÿÿùÿÿ¦ùÿÿ®ùÿÿ·ùÿÿ¿ùÿÿÇùÿÿÏùÿÿØùÿÿáøÿÿêøÿÿ÷÷øÿøøÿÿ3ÿÿÿ4ÿÿÿ6ÿÿÿ8ÿÿÿ;ÿÿÿ?ÿÿÿCÿÿÿHÿÿÿLÿÿÿRÿÿÿXÿÿÿ^ÿÿÿdÿÿÿkÿÿÿrÿÿÿyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¥ÿÿÿ­ÿÿÿµÿÿÿ½ÿÿÿÅÿÿÿÍÿÿÿÖÿÿÿßÿÿÿèÿÿÿòÿÿÿùÿÿÿ /* Error: Ran out of types for this method. */;
@@ -129,28 +69,20 @@
 - (void)ÿÆ;
 - (struct CGRect)±;
 - (void)ÀÀÿÿÉÀÿÿÓÀÿÿÜÀÿÿçÀÿÿðÀÿÿúÀÿÿÿÀÿÿÿ¿ÿÿ;
-- (void)20;
+- (void)AVCaptureSessionPreset1280x720;
 - (void)llImageNondisruptiveSwitchingFormatIndices.count;
 - (_Bool)ureSession.m:8667 /* Error: Ran out of types for this method. */;
 - (unsigned long long)terNode initWithMaxLossyCompression:filterSessionConfiguration:lowLightBandingMitigationEnabled:] /* Error: Ran out of types for this method. */;
 - (void)taTimeMachine metadataForPTSRange:(unsigned long long)arg1 timeout:] /* Error: Ran out of types for this method. */;
-- (int);
-- (int)Type;
+- (int)swfrApplied;
+- (int)semanticSceneType;
 - (_Bool)ra;
-- (void)ersonSegmentationMask;
+- (void)PersonSegmentationMask;
 - (unsigned long long)lEncodingNode.m;
 - (void)f'&;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *emitSampleBufferSemaphore;
 @property _Bool firstFrameProcessed; // @synthesize firstFrameProcessed=_firstFrameProcessed;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

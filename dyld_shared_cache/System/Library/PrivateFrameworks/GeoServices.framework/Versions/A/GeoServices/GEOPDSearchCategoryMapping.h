@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchCategoryMapping
 {
     PBDataReader *_reader;
-    NSString *_categoryId;
-    long long _densityScore;
-    NSMutableArray *_relatedCategories;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_densityScore:1;
-        unsigned int read_categoryId:1;
-        unsigned int read_relatedCategories:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)};
+- (id)ificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id)Fields"b1"read_incidentIndexs"b1"read_advisoryMessage"b1"wrote_anyField"b1};
-- (id)lter;
+- (id)_placeCollectionItemFilter;
 - (id)À>??0@;
 - (void);
 

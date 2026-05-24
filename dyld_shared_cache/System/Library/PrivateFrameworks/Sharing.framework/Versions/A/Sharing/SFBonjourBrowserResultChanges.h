@@ -11,19 +11,15 @@ __attribute__((visibility("hidden")))
 @interface SFBonjourBrowserResultChanges
 {
     NSObject<OS_nw_browse_result> *_oldResult;
-    NSObject<OS_nw_browse_result> *_freshResult;
-    unsigned long long _change;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void)irDropEnabled;
+- (void)_boopToAirDropEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long change; // @synthesize change=_change;
-@property(readonly, nonatomic) NSObject<OS_nw_browse_result> *freshResult; // @synthesize freshResult=_freshResult;
 @property(readonly, nonatomic) NSObject<OS_nw_browse_result> *oldResult; // @synthesize oldResult=_oldResult;
 
 @end

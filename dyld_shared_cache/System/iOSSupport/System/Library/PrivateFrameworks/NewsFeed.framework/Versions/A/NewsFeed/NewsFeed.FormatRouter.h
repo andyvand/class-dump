@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatRouter
 {
     id controller;
-    id resolver;
 }
 
 @end

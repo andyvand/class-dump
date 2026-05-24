@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface MPDisplayModeBucket
 {
     float _minHeight;
-    float _maxHeight;
-    float _targetHeight;
-    _Bool _usePreciseRate;
-    NSMutableArray *_modes;
 }
 
 - (id);

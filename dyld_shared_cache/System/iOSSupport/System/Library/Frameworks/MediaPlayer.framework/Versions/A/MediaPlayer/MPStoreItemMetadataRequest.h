@@ -4,52 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICClientInfo, ICStorePlatformRequest, ICUserIdentity, ICUserIdentityStore, NSArray, NSNumber, NSString;
+@class ICClientInfo;
 
 @interface MPStoreItemMetadataRequest
 {
     _Bool _requestNotificationsEnabled;
-    _Bool _allowLocalEquivalencies;
-    _Bool _shouldIgnoreCache;
-    _Bool _shouldIgnoreExpiration;
-    _Bool _shouldRequireCachedResults;
-    unsigned long long _reason;
-    NSArray *_itemIdentifiers;
-    NSNumber *_timeoutInterval;
-    NSString *_platform;
-    double _retryDelay;
-    NSString *_clientIdentifier;
-    long long _personalizationStyle;
-    long long _qualityOfService;
-    ICClientInfo *_clientInfo;
-    ICUserIdentity *_delegatedUserIdentity;
-    ICUserIdentity *_userIdentity;
-    ICUserIdentityStore *_userIdentityStore;
-    id _requestContextTag;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool allowLocalEquivalencies; // @synthesize allowLocalEquivalencies=_allowLocalEquivalencies;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(copy, nonatomic) ICClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(copy, nonatomic) ICUserIdentity *delegatedUserIdentity; // @synthesize delegatedUserIdentity=_delegatedUserIdentity;
-@property(copy, nonatomic) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(nonatomic) long long personalizationStyle; // @synthesize personalizationStyle=_personalizationStyle;
-@property(readonly, nonatomic, getter=isPersonalized) _Bool personalized;
-@property(copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) id requestContextTag; // @synthesize requestContextTag=_requestContextTag;
-@property(copy, nonatomic) NSString *requestingBundleIdentifier;
-@property(copy, nonatomic) NSString *requestingBundleVersion;
-@property(nonatomic) double retryDelay; // @synthesize retryDelay=_retryDelay;
-@property(nonatomic) _Bool shouldIgnoreCache; // @synthesize shouldIgnoreCache=_shouldIgnoreCache;
-@property(nonatomic) _Bool shouldIgnoreExpiration; // @synthesize shouldIgnoreExpiration=_shouldIgnoreExpiration;
-@property(nonatomic) _Bool shouldRequireCachedResults; // @synthesize shouldRequireCachedResults=_shouldRequireCachedResults;
-@property(readonly, copy, nonatomic) ICStorePlatformRequest *storePlatformRequest;
-@property(copy, nonatomic) NSNumber *timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(copy, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
-@property(retain, nonatomic) ICUserIdentityStore *userIdentityStore; // @synthesize userIdentityStore=_userIdentityStore;
 @end
 

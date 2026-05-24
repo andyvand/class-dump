@@ -6,12 +6,11 @@
 
 #import <TextRecognition/CRNeuralTextDetector.h>
 
-@class CRTextDetectorModelV3CoreML, CRTextDetectorModelV3E5ML;
+@class CRTextDetectorModelV3E5ML;
 
 @interface CRNeuralTextDetectorV3 : CRNeuralTextDetector
 {
     CRTextDetectorModelV3E5ML *_modelE5;
-    CRTextDetectorModelV3CoreML *_modelEIR;
 }
 
 + (_Bool);
@@ -27,12 +26,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)?=^d}}{vector<CRTableStructureMerge, std::allocator<CRTableStructureMerge>>=^{CRTableStructureMerge}^{CRTableStructureMerge}{?=^{CRTableStructureMerge}}}}16@112{vector<unsigned long, std::allocator<unsigned long>>=^Q^Q{?=^Q}}120 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CRTextDetectorModelV3E5ML *modelE5; // @synthesize modelE5=_modelE5;
-@property(retain) CRTextDetectorModelV3CoreML *modelEIR; // @synthesize modelEIR=_modelEIR;
 
 @end
 

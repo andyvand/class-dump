@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerInterstitialEvent, AVQueuePlayer, AVWeakReference, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVPlayer;
 
 @interface AVPlayerInterstitialEventMonitor
 {
     AVPlayer *_primaryPlayer;
-    AVQueuePlayer *_interstitialPlayer;
-    AVWeakReference *_weakReference;
-    struct OpaqueFigPlayerInterstitialCoordinator *_observedCoord;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    AVPlayerInterstitialEvent *_cachedCurrentEvent;
 }
 
 + (id);
@@ -26,20 +20,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id)Later;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (void)ing;
+- (void)refreshesClosedCaptionsImmediatelyAfterSeeking;
 
 // Remaining properties
-@property(readonly) AVPlayerInterstitialEvent *currentEvent;
-@property(readonly) NSString *currentEventSkipControlLabel;
-@property(readonly) long long currentEventSkippableState;
-@property(readonly, copy) NSArray *events;
-@property(readonly, nonatomic) AVQueuePlayer *interstitialPlayer;
 @property(readonly, nonatomic) __weak AVPlayer *primaryPlayer;
 
 @end

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBString;
+@class NSArray;
 
 @protocol _INPBActivity
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityDescriptors;
-@property(readonly, nonatomic) unsigned long long activityDescriptorsCount;
-@property(retain, nonatomic) _INPBString *activityType;
-@property(readonly, nonatomic) _Bool hasActivityType;
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, PXAutoloopVideoTaskDelegate;
 
 @interface PXAutoloopVideoTask
 {
     NSObject<OS_dispatch_queue> *_performQueue;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    void *_ivarQueueIdentifier;
-    id <PXAutoloopVideoTaskDelegate> _ivarQueue_delegate;
-    long long _ivarQueue_status;
-    double _ivarQueue_progress;
-    NSError *_ivarQueue_error;
-    struct {
-        _Bool respondsToProgressDidChange;
-        _Bool respondsToStatusDidChange;
-    } _ivarQueue_delegateFlags;
-    NSString *_temporaryFilesDirectory;
 }
 
 - (id);
@@ -32,24 +21,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (long long)edForAssetCollection: /* Error: Ran out of types for this method. */;
+- (long long)_areFiltersDisabledForAssetCollection: /* Error: Ran out of types for this method. */;
 - (double)ntroller.;
 - (void)PXStoryFullsizeLayout _invalidateTransitionController];
 - (void)¸süþµÁ·üÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXAutoloopVideoTaskDelegate> delegate;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) double progress;
-@property(readonly, nonatomic) long long status;
-@property(readonly, copy, nonatomic) NSString *temporaryFilesDirectory; // @synthesize temporaryFilesDirectory=_temporaryFilesDirectory;
 
 @end
 

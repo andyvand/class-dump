@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSDuration, EWSReplyBodyType, NSString;
-
 @interface EWSUserOofSettingsType
 {
     long long _OofState;
-    long long _ExternalAudience;
-    EWSDuration *_Duration;
-    EWSReplyBodyType *_InternalReply;
-    EWSReplyBodyType *_ExternalReply;
 }
 
-+ (id);
++ (id)SbSo7ADMUserCSgIeghyg_Sg;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)?kB;
 - (id);
 - (id);
 - (long long);
@@ -29,18 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSDuration *Duration; // @synthesize Duration=_Duration;
-@property(nonatomic) long long ExternalAudience; // @synthesize ExternalAudience=_ExternalAudience;
-@property(retain, nonatomic) EWSReplyBodyType *ExternalReply; // @synthesize ExternalReply=_ExternalReply;
-@property(retain, nonatomic) EWSReplyBodyType *InternalReply; // @synthesize InternalReply=_InternalReply;
 @property(nonatomic) long long OofState; // @synthesize OofState=_OofState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

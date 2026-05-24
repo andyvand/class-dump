@@ -9,9 +9,6 @@
 @interface MPSNNReduceBinary : MPSCNNBinaryKernel
 {
     CDStruct_1e3be3a8 _clipRectPrimarySource;
-    CDStruct_1e3be3a8 _secondarySourceClipRect;
-    int _reduceOp;
-    CDStruct_1e3be3a8 _primarySourceClipRect;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -21,17 +18,14 @@
 - (int);
 - (CDStruct_1e3be3a8);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id)dient object %s does not match that of state object %s;
 
 // Remaining properties
-@property(nonatomic) CDStruct_d6af7fc0 primaryOffset;
 @property(nonatomic) CDStruct_1e3be3a8 primarySourceClipRect; // @synthesize primarySourceClipRect=_primarySourceClipRect;
-@property(nonatomic) CDStruct_d6af7fc0 secondaryOffset;
-@property(nonatomic) CDStruct_1e3be3a8 secondarySourceClipRect; // @synthesize secondarySourceClipRect=_secondarySourceClipRect;
 
 @end
 

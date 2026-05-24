@@ -6,46 +6,38 @@
 
 #import <IMSharedUtilities/IMNicknameAvatar.h>
 
-@class NSString;
-
 @interface IMNicknameAvatarImage : IMNicknameAvatar
 {
     _Bool _contentIsSensitive;
-    NSString *_imageName;
-    NSString *_imageFilePath;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)	k;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)downpaymentDetails;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)OnSend;
+- (void)shouldNotifyOnSend;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contentIsSensitive; // @synthesize contentIsSensitive=_contentIsSensitive;
 @property(readonly, nonatomic) _Bool hasImage;
-@property(readonly, nonatomic) _Bool imageExists;
-@property(readonly, copy, nonatomic) NSString *imageFilePath; // @synthesize imageFilePath=_imageFilePath;
-@property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 
 @end
 

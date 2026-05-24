@@ -12,25 +12,25 @@
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setOfflineRegionSearch:(id)arg1;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)readWriteSharingACL;
+- (void)_allAccountsImpl;
+- (void),R,N,V_originatingRequestSpecifierKey;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setPendingAudioSessionActivationToken:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ñ¹*Ð1Â0@ù
 × ;
-- (id)nitWithURL:eTag: /* Error: Ran out of types for this method. */;
+- (id)initWithURL:eTag: /* Error: Ran out of types for this method. */;
 - (id)rray",R,N,V_buildingIds;
 - (id)pDataSubscriptionManager;
 - (void)

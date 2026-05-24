@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTQuery, IFTSchemaIFTTypeIdentifier, NSData;
+@class IFTSchemaIFTTypeIdentifier;
 
 @interface IFTSchemaIFTQueryValue : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTTypeIdentifier *_typeIdentifier;
-    IFTSchemaIFTQuery *_query;
-    _Bool _hasTypeIdentifier;
-    _Bool _hasQuery;
 }
 
 - (void);
@@ -22,9 +19,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)idanceState"24;
 - (id);
-- (id);
+- (id)protocolDriverSenderAPAT_GetFirstValidBufferTimestamp;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,15 +32,11 @@
 × ;
 - (void);
 - (id)CompilationStarted",&,N,V_started;
-- (id)ertisingStartEnded;
+- (id)CDASchemaCDAElectionAdvertisingStartEnded;
 - (void)íÐÿÀ®Î;#;
 - (id)©¶ÿ^O)¸%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasQuery; // @synthesize hasQuery=_hasQuery;
-@property(nonatomic) _Bool hasTypeIdentifier; // @synthesize hasTypeIdentifier=_hasTypeIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTQuery *query; // @synthesize query=_query;
 @property(retain, nonatomic) IFTSchemaIFTTypeIdentifier *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end

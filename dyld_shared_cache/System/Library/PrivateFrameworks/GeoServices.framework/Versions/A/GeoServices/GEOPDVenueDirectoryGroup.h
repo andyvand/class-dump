@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVenueLabel, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueDirectoryGroup
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _directoryGroupingId;
-    GEOPDVenueLabel *_label;
-    unsigned long long _muid;
-    struct {
-        unsigned int has_directoryGroupingId:1;
-        unsigned int has_muid:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void):(id)arg1 8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)tor<GeoCodecsVectorTilePoint>>="__begin_"^{GeoCodecsVectorTilePoint}"__end_"^{GeoCodecsVectorTilePoint}""{?="__cap_"^{GeoCodecsVectorTilePoint}}};
-- (id)wRatingCount;
+- (id)_shouldShowRatingCount;
 - (id)td;
 - (void)ÑÊ½À¬¤J@;
 

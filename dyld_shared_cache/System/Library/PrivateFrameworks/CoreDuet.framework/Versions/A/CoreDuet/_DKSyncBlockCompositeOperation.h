@@ -11,10 +11,9 @@
 @interface _DKSyncBlockCompositeOperation : _DKSyncCompositeOperation
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_blocks;
 }
 
-- (id);
+- (id)etryConnection",R,&,N,V_connection;
 - (void);
 - (id);
 - (void)1Â0@ù

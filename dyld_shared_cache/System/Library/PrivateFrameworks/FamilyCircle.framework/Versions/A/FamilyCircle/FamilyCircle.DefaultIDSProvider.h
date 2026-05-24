@@ -7,9 +7,6 @@
 @interface FamilyCircle.DefaultIDSProvider
 {
     id domain;
-    id queue;
-    id controller;
-    id authenticationController;
 }
 
 @end

@@ -4,55 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSleepAlarmAttribute, INSpeakableString, NSDateComponents, NSNumber, NSString;
+@class NSString;
 
 @interface INAlarm
 {
     NSString *_identifier;
-    NSDateComponents *_dateTime;
-    INSpeakableString *_label;
-    NSNumber *_enabled;
-    NSNumber *_firing;
-    unsigned long long _alarmRepeatScheduleOptions;
-    INSleepAlarmAttribute *_sleepAlarmAttribute;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
+- (id),;
 - (id);
+- (unsigned long long)buildLoginInterfaceResourcesForVolume:withLocalization:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (_Bool)",&,N,V_mrcInquiry;
+- (void)KindOfClass:(id)arg1 [NSDictionary class]];
 - (id);
-- (_Bool);
-- (void);
+- (id)a;
 - (id);
-- (id);
-- (id);
-- (id)fiers:error: /* Error: Ran out of types for this method. */;
-- (id)ntifier:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)securityScopedURLsForBundleIdentifiers:error: /* Error: Ran out of types for this method. */;
+- (id)_cancelTransactionDueToTimeoutWithIntentIdentifier:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)FILTER_MAINTENANCE;
 - (id)>ÞD;
 
 // Remaining properties
-@property(readonly) unsigned long long alarmRepeatScheduleOptions; // @synthesize alarmRepeatScheduleOptions=_alarmRepeatScheduleOptions;
-@property(readonly, copy) NSDateComponents *dateTime; // @synthesize dateTime=_dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy) NSNumber *firing; // @synthesize firing=_firing;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) INSpeakableString *label; // @synthesize label=_label;
-@property(readonly, copy) INSleepAlarmAttribute *sleepAlarmAttribute; // @synthesize sleepAlarmAttribute=_sleepAlarmAttribute;
-@property(readonly) Class superclass;
 
 @end
 

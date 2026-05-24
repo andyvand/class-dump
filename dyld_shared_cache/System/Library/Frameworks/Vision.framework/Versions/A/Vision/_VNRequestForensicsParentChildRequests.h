@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VNRequest;
+@class VNRequest;
 
 __attribute__((visibility("hidden")))
 @interface _VNRequestForensicsParentChildRequests
 {
     VNRequest *_parentRequest;
-    NSArray *_orderedChildRequests;
 }
 
 - (id);
@@ -19,10 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)ticsRequestPrivateRevisionStillCapturePipeline;
+- (void)VNClassifyImageAestheticsRequestPrivateRevisionStillCapturePipeline;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *orderedChildRequests; // @synthesize orderedChildRequests=_orderedChildRequests;
 @property(readonly, nonatomic) VNRequest *parentRequest; // @synthesize parentRequest=_parentRequest;
 
 @end

@@ -4,10 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, WTContext, WTSession;
+
 @protocol WTWritingToolsDelegate_Proposed_v3
+- (void);
+- (void):(WTSession *)arg1 equal_to<NSObject *__unsafe_unretained>, std:(NSArray *)arg2:(struct _NSRange)arg3 allocator<NSObject *__unsafe_unretained>>="__table_"{__hash_table<NSObject *__unsafe_unretained, std:(WTContext *)arg4:(_Bool)arg5 hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *> *>="__next_"^v}}""{?="__size_"Q"__hasher_"{hash<NSObject *__unsafe_unretained>="fHash"{hash<NSObject *>=}}}""{?="__max_load_factor_"f"__key_eq_"{equal_to<NSObject *__unsafe_unretained>="fEqual"{equal_to<NSObject *>=}}}}} /* Error: Ran out of types for this method. */;
+- (void);
+- (void)(;
+- (void)replaceElementAtIndex:(WTSession *)arg1 withElement:(void (^)(NSArray *))arg2;
 - (void)!BùQâ3°1Â0@ù
 × ;
-- (void)ftUI;
+- (void)NSForSwiftUI;
 
 @optional
 - (_Bool)cDhG;

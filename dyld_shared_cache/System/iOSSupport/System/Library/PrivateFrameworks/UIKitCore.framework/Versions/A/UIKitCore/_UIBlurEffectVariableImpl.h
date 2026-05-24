@@ -6,23 +6,18 @@
 
 #import <UIKitCore/_UIBlurEffectImpl.h>
 
-@class UIImage;
-
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectVariableImpl : _UIBlurEffectImpl
 {
     double _blurRadius;
-    double _blurScale;
-    UIImage *_imageMask;
-    _Bool _allowAXAdaptation;
 }
 
-- (id);
+- (id)_TtC12IMDaemonCore28IMDaemonCoreSpotlightManager;
 - (unsigned long long);
-- (_Bool)on:(id)arg1;
-- (void)rformUpdate:(id)arg1;
-- (void)ontext;
-- (void)ffect;
+- (_Bool)setRestoresFocusAfterTransition:(id)arg1;
+- (void)performUpdate:(id)arg1;
+- (void)CGContext;
+- (void)SDFEffect;
 - (void)T1¬ÿÎfÒð^;
 
 @end

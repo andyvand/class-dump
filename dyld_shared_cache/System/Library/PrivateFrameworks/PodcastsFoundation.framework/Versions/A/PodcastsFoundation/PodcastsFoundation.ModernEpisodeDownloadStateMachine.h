@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ModernEpisodeDownloadStateMachine
 {
     id wrappedLegacyStateMachine;
-    id currentState;
 }
 
 @end

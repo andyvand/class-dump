@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _INPBPrivateMediaIntentData;
+@class NSArray, NSData;
 
 @protocol _INPBPrivateAddMediaIntentData
+- (void);
+- (unsigned long long);
+- (NSData *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *audioSearchResults;
-@property(readonly, nonatomic) unsigned long long audioSearchResultsCount;
-@property(readonly, nonatomic) _Bool hasPegasusMetaData;
-@property(readonly, nonatomic) _Bool hasPrivateMediaIntentData;
-@property(copy, nonatomic) NSArray *internalSignals;
-@property(readonly, nonatomic) unsigned long long internalSignalsCount;
-@property(copy, nonatomic) NSData *pegasusMetaData;
-@property(retain, nonatomic) _INPBPrivateMediaIntentData *privateMediaIntentData;
 @end
 

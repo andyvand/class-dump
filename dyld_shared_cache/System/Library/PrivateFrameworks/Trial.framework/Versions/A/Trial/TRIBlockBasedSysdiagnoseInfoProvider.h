@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TRIBlockBasedSysdiagnoseInfoProvider
 {
     CDUnknownBlockType _block;
-    NSString *_outputFilename;
 }
 
-- (id);
+- (id)ր;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) NSString *outputFilename; // @synthesize outputFilename=_outputFilename;
 
 @end
 

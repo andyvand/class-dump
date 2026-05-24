@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, UIControl, UIView, _UIInteractiveHighlightEffect;
-@protocol UIInteraction, _UIInteractiveHighlighting;
+@class UIView;
 
 @interface _UIPreviewInteractionHighlighter
 {
     UIView *_view;
-    id <_UIInteractiveHighlighting> _interactiveHighlightView;
-    UIControl *_compatibilityHighlightView;
-    _UIInteractiveHighlightEffect *_interactiveHighlightEffect;
-    NSArray *_accessoryHighlightEffects;
-    _UIInteractiveHighlightEffect *_presentationControllerHighlightEffect;
-    id <UIInteraction> _interaction;
-    _Bool _active;
-    _Bool _animatesContentEffects;
-    NSUUID *_contentAnimationIdentifier;
-    _Bool _animatesBackgroundEffects;
-    long long _preferredAnimationStyle;
-    double _preferredMinimumScale;
-    double _preferredMaximumScale;
-    _Bool _shouldApplyEffectsOnProxyView;
-    _Bool _shouldApplyContentEffects;
-    _Bool _shouldApplyBackgroundEffects;
-    _Bool _shouldEndWithCancelAnimation;
-    _Bool _shouldTransferViewOwnership;
-    _Bool _cancelsInteractionWhenScrolling;
-    CDUnknownBlockType _completionBlock;
-    unsigned long long _clickEffectPhase;
-    CDUnknownBlockType _privateCompletionBlock;
-    UIView *_customContainerView;
-    UIView *_customBackgroundEffectView;
-    CDUnknownBlockType _backgroundEffectApplyBlock;
 }
 
 - (_Bool);
@@ -54,26 +28,26 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (CDUnknownBlockType);
+- (id)recoverableMessagesMetadataPendingCloudKitDeleteWithLimit: /* Error: Ran out of types for this method. */;
+- (id)recoverableMessageSyncController;
+- (unsigned long long)loadHistoryForChatWithGUID:chatIdentifiers:style:services:limit:beforeGUID:afterGUID:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)initWithBlastDoorInstanceType: /* Error: Ran out of types for this method. */;
+- (void)chat:nicknamesUpdated: /* Error: Ran out of types for this method. */;
+- (void)_screenTimeAskReponseHandler;
 - (void);
+- (void)SaySo14IMFileTransferC_SStG;
+- (void)So8NSStringCSgSo7IMDChatCSgIeyBya_;
+- (void)SDySSSo17CSSearchableIndexCGG;
+- (void)j1Sg;
+- (void)y deleted.;
+- (void)andling chat %@ being moved to recently deleted.;
+- (void)Property for buddy ID:%@   bailing /* Error: Ran out of types for this method. */;
+- (void)pam for chatGUID (%@);
+- (void):%@   Property update:%@ /* Error: Ran out of types for this method. */;
+- (void)r!;
+- (_Bool)age may be lost if restored to older devices;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)setMItemCountLabel:(id)arg1;
 - (id)rtical;
 - (CDUnknownBlockType)w. Collection view:%@; element kind:%@; index path:%@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -81,27 +55,7 @@
 - (id)þ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType backgroundEffectApplyBlock; // @synthesize backgroundEffectApplyBlock=_backgroundEffectApplyBlock;
-@property(nonatomic) _Bool cancelsInteractionWhenScrolling; // @synthesize cancelsInteractionWhenScrolling=_cancelsInteractionWhenScrolling;
-@property(nonatomic) unsigned long long clickEffectPhase; // @synthesize clickEffectPhase=_clickEffectPhase;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) UIView *customBackgroundEffectView; // @synthesize customBackgroundEffectView=_customBackgroundEffectView;
-@property(nonatomic) __weak UIView *customContainerView; // @synthesize customContainerView=_customContainerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIInteractiveHighlightEffect *interactiveHighlightEffect;
-@property(copy, nonatomic) CDUnknownBlockType privateCompletionBlock; // @synthesize privateCompletionBlock=_privateCompletionBlock;
-@property(nonatomic) _Bool shouldApplyBackgroundEffects; // @synthesize shouldApplyBackgroundEffects=_shouldApplyBackgroundEffects;
-@property(nonatomic) _Bool shouldApplyContentEffects; // @synthesize shouldApplyContentEffects=_shouldApplyContentEffects;
 @property(nonatomic) _Bool shouldApplyEffectsOnProxyView; // @synthesize shouldApplyEffectsOnProxyView=_shouldApplyEffectsOnProxyView;
-@property(nonatomic) _Bool shouldEndWithCancelAnimation; // @synthesize shouldEndWithCancelAnimation=_shouldEndWithCancelAnimation;
-@property(nonatomic) _Bool shouldTransferViewOwnership; // @synthesize shouldTransferViewOwnership=_shouldTransferViewOwnership;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

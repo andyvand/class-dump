@@ -5,5 +5,6 @@
 //
 
 @protocol BackupControllerProviding
+- (void)\Z;
 @end
 

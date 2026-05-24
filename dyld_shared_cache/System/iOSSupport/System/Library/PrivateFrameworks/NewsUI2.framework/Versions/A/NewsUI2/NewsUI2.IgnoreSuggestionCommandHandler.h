@@ -7,7 +7,6 @@
 @interface NewsUI2.IgnoreSuggestionCommandHandler
 {
     id tagService;
-    id subscriptionService;
 }
 
 @end

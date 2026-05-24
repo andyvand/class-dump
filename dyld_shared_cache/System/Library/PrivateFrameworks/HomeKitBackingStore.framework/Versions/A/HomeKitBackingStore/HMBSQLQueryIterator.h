@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBSQLQueryStatement, NSError, NSMutableArray, NSNumber;
+@class HMBSQLQueryStatement;
 
 @interface HMBSQLQueryIterator
 {
     int _sequenceBindOffset;
-    NSError *_error;
-    HMBSQLQueryStatement *_statement;
-    unsigned long long _maximumRowsPerQuery;
-    NSMutableArray *_cachedResults;
-    NSNumber *_currentSequence;
 }
 
 + (void);
@@ -30,19 +25,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)n matrix has wrong dimensions, expected 3x3;
 - (void);
 - (void);
-- (id);
+- (id)_canAdjustHorizontalPaddingForFixedSize;
 - (void);
 - (id)setCreateIfNeeded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cachedResults; // @synthesize cachedResults=_cachedResults;
-@property(retain, nonatomic) NSNumber *currentSequence; // @synthesize currentSequence=_currentSequence;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long maximumRowsPerQuery; // @synthesize maximumRowsPerQuery=_maximumRowsPerQuery;
-@property(nonatomic) int sequenceBindOffset; // @synthesize sequenceBindOffset=_sequenceBindOffset;
 @property(readonly, nonatomic) HMBSQLQueryStatement *statement; // @synthesize statement=_statement;
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIWindow;
-
 __attribute__((visibility("hidden")))
 @interface _UINSDragSessionProxy
 {
     id _localContext;
-    UIWindow *_window;
-    struct CGPoint _location;
 }
 
 - (_Bool);
@@ -26,23 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)?;
 - (void)8Ù;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsMoveOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *items;
-@property(retain, nonatomic) id localContext; // @synthesize localContext=_localContext;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(readonly, nonatomic, getter=isRestrictedToDraggingApplication) _Bool restrictedToDraggingApplication;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIWindow *window; // @synthesize window=_window;
 
 @end
 

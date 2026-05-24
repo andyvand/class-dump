@@ -6,44 +6,35 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKAccount, PKAccountWebServicePassDetailsResponse, PKPaymentPass;
+@class PKAccount;
 
 @interface PKAccountCredential : PKPaymentCredential
 {
     _Bool _isBelowMinOS;
-    PKAccount *_account;
-    PKPaymentPass *_paymentPass;
-    PKAccountWebServicePassDetailsResponse *_passDetailsResponse;
-    NSString *_sharingInstanceIdentifier;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)?;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)_rssis;
+- (id)V_packetsIn;
 - (id)äwôxdzà{;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(nonatomic) _Bool isBelowMinOS; // @synthesize isBelowMinOS=_isBelowMinOS;
-@property(readonly, copy, nonatomic) NSString *ownershipTokenIdentifier;
-@property(retain, nonatomic) PKAccountWebServicePassDetailsResponse *passDetailsResponse; // @synthesize passDetailsResponse=_passDetailsResponse;
-@property(retain, nonatomic) PKPaymentPass *paymentPass; // @synthesize paymentPass=_paymentPass;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end
 

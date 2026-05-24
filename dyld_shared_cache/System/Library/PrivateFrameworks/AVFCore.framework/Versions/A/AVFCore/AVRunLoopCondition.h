@@ -12,13 +12,13 @@
 }
 
 + (void)othFields, kVTDecompressionProperty_FieldMode_TopFieldOnly, kVTDecompressionProperty_FieldMode_BottomFieldOnly, kVTDecompressionProperty_FieldMode_SingleField, or kVTDecompressionProperty_FieldMode_DeinterlaceFields;
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_pinValidationCondition;
 - (_Bool);
 - (void);
 - (void);

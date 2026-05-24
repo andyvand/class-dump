@@ -9,11 +9,6 @@
 @interface PXCuratedLibrarySectionGeometryDescriptor
 {
     id <PXDisplayAsset> _headerAsset;
-    long long _visualPosition;
-    CDStruct_2bd92d94 _headerCornerRadius;
-    struct CGRect _sectionRect;
-    struct CGRect _keyAssetRect;
-    struct CGRect _headerRect;
 }
 
 - (long long);
@@ -27,10 +22,10 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa);
 - (id);
-- (CDStruct_2bd92d94);
-- (struct CGRect);
+- (CDStruct_c2259bfa);
+- (struct CGRect)	;
 - (id);
 - (id);
 - (unsigned long long);
@@ -38,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> headerAsset; // @synthesize headerAsset=_headerAsset;
-@property(readonly, nonatomic) CDStruct_2bd92d94 headerCornerRadius; // @synthesize headerCornerRadius=_headerCornerRadius;
-@property(readonly, nonatomic) struct CGRect headerRect; // @synthesize headerRect=_headerRect;
-@property(readonly, nonatomic) struct CGRect keyAssetRect; // @synthesize keyAssetRect=_keyAssetRect;
 @property(readonly, nonatomic) struct CGRect sectionRect; // @synthesize sectionRect=_sectionRect;
-@property(readonly, nonatomic) long long visualPosition; // @synthesize visualPosition=_visualPosition;
 
 @end
 

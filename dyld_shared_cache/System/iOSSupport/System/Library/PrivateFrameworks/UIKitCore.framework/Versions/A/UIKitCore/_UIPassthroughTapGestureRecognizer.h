@@ -19,11 +19,11 @@
 - (id);
 - (void)
 × ;
-- (void)tProgress:(id)arg1 animated:duration:delay:options: /* Error: Ran out of types for this method. */;
-- (void)forBeginState:(id)arg1 restartIfNecessary:(id)arg2;
+- (void)setProgress:(id)arg1 animated:duration:delay:options: /* Error: Ran out of types for this method. */;
+- (void)queryDelegateToBeginTouch:(id)arg1 forBeginState:(id)arg2 restartIfNecessary: /* Error: Ran out of types for this method. */;
 - (void)_ui_setComponents:(id)arg1;
-- (void)d;
-- (void)abelMetrics_sourceRect;
+- (void)_endInteractionEffectIfNeeded;
+- (void)UILabelMetrics_sourceRect;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool tapWasCommandModified; // @synthesize tapWasCommandModified=_tapWasCommandModified;

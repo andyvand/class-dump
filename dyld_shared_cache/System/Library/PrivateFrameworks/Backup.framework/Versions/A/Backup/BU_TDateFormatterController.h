@@ -10,38 +10,21 @@ __attribute__((visibility("hidden")))
 @interface BU_TDateFormatterController
 {
     BU_TValidatingDateFormatter *_shortDateTimeFormatter;
-    BU_TValidatingDateFormatter *_shortDateTimeFormatterRelative;
-    BU_TValidatingDateFormatter *_shortDateOnlyFormatter;
-    BU_TValidatingDateFormatter *_shortDateOnlyFormatterRelative;
-    BU_TValidatingDateFormatter *_mediumDateTimeFormatter;
-    BU_TValidatingDateFormatter *_mediumDateTimeFormatterRelative;
-    BU_TValidatingDateFormatter *_mediumDateOnlyFormatter;
-    BU_TValidatingDateFormatter *_mediumDateOnlyFormatterRelative;
-    BU_TValidatingDateFormatter *_longDateTimeFormatter;
-    BU_TValidatingDateFormatter *_longDateTimeFormatterRelative;
-    BU_TValidatingDateFormatter *_fullDateTimeFormatter;
-    BU_TValidatingDateFormatter *_fullDateTimeFormatterRelative;
-    BU_TValidatingDateFormatter *_fullDateOnlyFormatter;
-    BU_TValidatingDateFormatter *_fullDateOnlyFormatterRelative;
-    BU_TValidatingDateFormatter *_timeOnlyFormatter;
-    BU_TValidatingDateFormatter *_fileNameTimeFormatter;
-    BU_TValidatingDateFormatter *_fileNameDateTimeFormatter;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
 }
 
-+ (id);
++ (id)k@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)4;
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 

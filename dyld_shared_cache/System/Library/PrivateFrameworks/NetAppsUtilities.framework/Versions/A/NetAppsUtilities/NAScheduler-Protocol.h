@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NACancelable;
+
 @protocol NAScheduler
+- (id <NACancelable>);
 @end
 

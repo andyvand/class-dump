@@ -7,13 +7,6 @@
 @interface PhotosUICore.FullscreenPlaybackOverlayModel__priv_0E853E2C700EA3B4244BBA71526175F9
 {
     id _storyViewModel;
-    id _canBeVisible;
-    id _wantsOverlayVisible;
-    id _isPlaying;
-    id _currentTime;
-    id _totalDuration;
-    id storyViewModelObservation;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,10 +7,9 @@
 @interface NewsPersonalization.EventHistoryAggregateStoreStateModeResolver
 {
     id userEventHistoryAggregateStoreFactory;
-    id lazyMode;
 }
 
-- (id);
+- (id)'�h;
 - (id);
 - (id);
 - (void)Áeð!´Aù±sð1Â0@ù

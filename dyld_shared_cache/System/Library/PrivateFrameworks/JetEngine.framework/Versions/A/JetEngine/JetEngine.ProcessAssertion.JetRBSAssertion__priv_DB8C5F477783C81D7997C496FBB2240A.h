@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (void);
+- (id)serialNumber;
+- (void)x#;
 
 @end
 

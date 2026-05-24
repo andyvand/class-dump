@@ -6,24 +6,14 @@
 
 #import <Silex/SXGalleryComponentView.h>
 
-@class NSMutableArray, NSMutableSet, NSString, SXFullscreenCanvasController, SXMediaViewEvent, SXMosaicGalleryLayouter, UIView;
 @protocol SXGalleryItemImageViewFactory;
 
 @interface SXMosaicGalleryComponentView : SXGalleryComponentView
 {
     _Bool _loadedAtleastOneImage;
-    _Bool _layoutRequired;
-    id <SXGalleryItemImageViewFactory> _imageViewFactory;
-    SXFullscreenCanvasController *_fullScreenCanvasController;
-    UIView *_galleryView;
-    NSMutableArray *_imageViews;
-    NSMutableArray *_visibleImageViews;
-    SXMediaViewEvent *_mediaViewEvent;
-    SXMosaicGalleryLayouter *_galleryLayouter;
-    NSMutableSet *_exposedGalleryItems;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -91,23 +81,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *exposedGalleryItems; // @synthesize exposedGalleryItems=_exposedGalleryItems;
-@property(readonly, nonatomic) SXFullscreenCanvasController *fullScreenCanvasController; // @synthesize fullScreenCanvasController=_fullScreenCanvasController;
-@property(retain, nonatomic) SXMosaicGalleryLayouter *galleryLayouter; // @synthesize galleryLayouter=_galleryLayouter;
-@property(retain, nonatomic) UIView *galleryView; // @synthesize galleryView=_galleryView;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXGalleryItemImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(readonly, nonatomic) NSMutableArray *imageViews; // @synthesize imageViews=_imageViews;
-@property(nonatomic, getter=isLayoutRequired) _Bool layoutRequired; // @synthesize layoutRequired=_layoutRequired;
-@property(nonatomic) _Bool loadedAtleastOneImage; // @synthesize loadedAtleastOneImage=_loadedAtleastOneImage;
-@property(retain, nonatomic) SXMediaViewEvent *mediaViewEvent; // @synthesize mediaViewEvent=_mediaViewEvent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *visibleImageViews; // @synthesize visibleImageViews=_visibleImageViews;
 
 @end
 

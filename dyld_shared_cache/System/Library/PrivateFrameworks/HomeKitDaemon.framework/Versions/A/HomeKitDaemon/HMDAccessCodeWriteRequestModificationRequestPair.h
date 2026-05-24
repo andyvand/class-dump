@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicWriteRequest, NSArray;
+@class HMDCharacteristicWriteRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessCodeWriteRequestModificationRequestPair
 {
     HMDCharacteristicWriteRequest *_writeRequest;
-    NSArray *_modificationRequests;
 }
 
-- (id);
+- (id)ic}@] only %lu/%lu participants are currently reachable for initial state;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *modificationRequests; // @synthesize modificationRequests=_modificationRequests;
 @property(readonly) HMDCharacteristicWriteRequest *writeRequest; // @synthesize writeRequest=_writeRequest;
 
 @end

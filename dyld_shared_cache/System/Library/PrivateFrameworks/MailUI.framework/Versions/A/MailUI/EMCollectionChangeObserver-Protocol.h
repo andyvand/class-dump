@@ -5,5 +5,8 @@
 //
 
 @protocol EMCollectionChangeObserver
+
+@optional
+- (void)(;
 @end
 

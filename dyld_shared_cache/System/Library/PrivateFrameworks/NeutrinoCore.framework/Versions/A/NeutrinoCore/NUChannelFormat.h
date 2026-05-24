@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUChannel;
-
 @interface NUChannelFormat
 {
 }
@@ -31,11 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelFormat *arrayItemFormat;
-@property(readonly, nonatomic) long long channelType; // @dynamic channelType;
-@property(readonly, nonatomic) NUChannel *elementChannel;
 @property(readonly, nonatomic) _Bool isArray;
-@property(readonly, nonatomic) _Bool isGeneric;
 
 @end
 

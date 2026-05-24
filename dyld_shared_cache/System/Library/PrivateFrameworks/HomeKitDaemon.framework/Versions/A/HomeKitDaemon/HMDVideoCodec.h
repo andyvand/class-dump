@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)ìö\;
-- (id);
+- (id)immutableObjectProtocol;
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)1;
 - (_Bool);
 - (void);
-- (id)rtsAccessCodes;
+- (id)primaryResidentSupportsAccessCodes;
 
 // Remaining properties
 @property(readonly, nonatomic) long long codecType; // @synthesize codecType=_codecType;

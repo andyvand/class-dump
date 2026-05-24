@@ -9,14 +9,13 @@
 @interface ABPersonSorting
 {
     long long _nameSorting;
-    ABAddressBook *_addressBook;
 }
 
 + (id);
 - (void);
 - (long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly) long long nameSorting; // @synthesize nameSorting=_nameSorting;
 
 @end
 

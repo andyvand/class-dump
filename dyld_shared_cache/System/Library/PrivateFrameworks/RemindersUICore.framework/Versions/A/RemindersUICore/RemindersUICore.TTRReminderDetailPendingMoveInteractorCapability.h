@@ -7,15 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailPendingMoveInteractorCapability
 {
     id delegate;
-    id store;
-    id undoManager;
-    id persistLastSelectedListID;
-    id initialListChangeItem;
-    id reminderChangeItemsProvider;
-    id pendingMoveTargetList;
-    id pendingMoveTargetSection;
-    id pendingCustomSmartListToMatch;
-    id initialCustomSmartListIDToMatch;
 }
 
 @end

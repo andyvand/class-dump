@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryGeoNormalizerMetadata
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _normalizers;
-    NSString *_floor;
-    NSString *_mailStop;
-    NSString *_poPox;
-    NSString *_unitNumber;
-    NSString *_unitTypeId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_normalizers:1;
-        unsigned int read_floor:1;
-        unsigned int read_mailStop:1;
-        unsigned int read_poPox:1;
-        unsigned int read_unitNumber:1;
-        unsigned int read_unitTypeId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)as it contains non-plist types:(id)arg1 %@;
+- (id)dataWithJSONObject:options:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)read_unknownFields"b1"read_effectiveTimeRange"b1"read_restrictionDetails"b1"read_subTitleString"b1"read_titleString"b1"wrote_anyField"b1};
-- (id)totypes;
+- (id)_prototypes;
 - (id)à ¼´l< ðø ;
 - (void)b¡Ö4ïÚH@;
 

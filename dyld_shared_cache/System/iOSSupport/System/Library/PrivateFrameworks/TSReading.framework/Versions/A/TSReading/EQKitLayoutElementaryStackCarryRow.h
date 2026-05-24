@@ -6,8 +6,6 @@
 
 #import <TSReading/EQKitLayoutElementaryStackDigitRow.h>
 
-@class NSString;
-
 @interface EQKitLayoutElementaryStackCarryRow : EQKitLayoutElementaryStackDigitRow
 {
     struct vector<EQKitTypes::Crossout::Enum, std::allocator<EQKitTypes::Crossout::Enum>> mCrossouts;
@@ -21,17 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long firstColumnIndex;
-@property(readonly, nonatomic) double followingSpace;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool spansStack;
-@property(readonly) Class superclass;
 
 @end
 

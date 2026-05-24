@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RRSchemaRRPullerEnded : SISchemaInstrumentationMessage
 {
     int _name;
-    int _entityCount;
-    struct {
-        unsigned int name:1;
-        unsigned int entityCount:1;
-    } _has;
 }
 
-- (void);
+- (void)*;
 - (_Bool);
 - (void);
 - (void);
@@ -29,20 +22,16 @@
 - (int);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobActivity_macOS.m:46 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)cordRef, CFStringRef, CFStringRef, CFStringRef, CFStringRef, CFStringRef);
 - (id);
-- (id);
-- (id)ppUsageCountFromSiri14Days;
+- (id)H;
+- (id)appUsageCountFromSiri14Days;
 - (id)tionWeight;
 - (void)ed;
 
 // Remaining properties
-@property(nonatomic) int entityCount; // @synthesize entityCount=_entityCount;
-@property(nonatomic) _Bool hasEntityCount;
-@property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
 
 @end

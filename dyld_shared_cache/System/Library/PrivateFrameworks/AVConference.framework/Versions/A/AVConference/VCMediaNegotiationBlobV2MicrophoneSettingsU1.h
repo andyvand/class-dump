@@ -10,53 +10,41 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2MicrophoneSettingsU1
 {
     int _cipherSuites;
-    unsigned int _payloads;
-    unsigned int _rtpSSRC;
-    struct {
-        unsigned int cipherSuites:1;
-        unsigned int payloads:1;
-        unsigned int rtpSSRC:1;
-    } _has;
 }
 
 + (int);
 + (int);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)kL
+;
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)`";
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)T*;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)toothManager;
 - (unsigned int)Ïÿ%rê¼&;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *audioPayloads;
-@property(nonatomic) int cipherSuites; // @synthesize cipherSuites=_cipherSuites;
-@property(nonatomic) _Bool hasCipherSuites;
-@property(nonatomic) _Bool hasPayloads;
-@property(nonatomic) _Bool hasRtpSSRC;
-@property(nonatomic) unsigned int payloads; // @synthesize payloads=_payloads;
-@property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
 
 @end
 

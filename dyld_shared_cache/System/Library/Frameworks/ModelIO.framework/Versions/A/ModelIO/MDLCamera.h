@@ -11,22 +11,6 @@
 @interface MDLCamera : MDLObject
 {
     struct RTCamera *_camera;
-    float _worldToMetersConversionScale;
-    CAAnimation *_focalDistanceAnimation;
-    CAAnimation *_fStopAnimation;
-    CAAnimation *_focalLengthAnimation;
-    CAAnimation *_apertureAnimation;
-    CAAnimation *_apertureAspectAnimation;
-    float _barrelDistortion;
-    float _fisheyeDistortion;
-    float _opticalVignetting;
-    float _chromaticAberration;
-    float _fStop;
-    float _maximumCircleOfConfusion;
-    unsigned long long _projection;
-    unsigned long long _apertureBladeCount;
-    double _shutterOpenInterval;
-    id _flash;
 }
 
 - (float);
@@ -36,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -51,9 +35,9 @@
 - (id);
 - (float);
 - (float);
-- (void);
-- (CDStruct_95fa7c00);
-- (CDStruct_95fa7c00);
+- (void);
+- (CDStruct_34f00414);
+- (CDStruct_34f00414);
 - (float);
 - (id);
 - (float);
@@ -61,35 +45,35 @@
 - (id);
 - (float);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (float);
-- (float);
-- (id);
-- (id);
+- (void)variatesIndices,covariatesValues FROM sessions_old;
+- (void)estamp,modelHandleId,label,covariatesLength,covariatesIndices,covariatesValues FROM sessions_old;
+- (void)EATE INDEX IF NOT EXISTS ix_trainingLog_modelHandleId_creationTimestamp             ON trainingLog (modelHandleId, creationTimestamp);
+- (void)ssions_modelHandleId             ON sessions (modelHandleId ASC);
+- (void)NOT NULL                                    );
+- (void)sDescriptors sd CROSS JOIN lastFeaturizations lf ON lf.sessionDescriptorId = sd.id WHERE sd.name = :(float)arg1 name AND sd.locale = :locale /* Error: Ran out of types for this method. */;
+- (void)e = :(float)arg1 name AND sd.locale = :locale /* Error: Ran out of types for this method. */;
+- (void)= %lu AND sessions.id in (SELECT sessionId from sessionsItemIds WHERE lastUsed < %f AND timesAccessed < %lu) ;
+- (float)s.id, sessions.label, sessions.covariatesLength, sessions.covariatesIndices, sessions.covariatesValues, sessionsItemIds.timesAccessed FROM sessions JOIN sessionsItemIds ON sessions.id = sessionsItemIds.sessionId AND sessions.sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :name AND version = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.label IN _pas_nsarray(:labels) ORDER BY RANDOM() limit :limit /* Error: Ran out of types for this method. */;
+- (float)24@"NSDictionary"32^B40;
 - (float);
 - (id);
+- (id);
 - (float);
+- (id);
+- (float);
 - (unsigned long long);
 - (void);
 - (float);
 - (float);
 - (void);
+- (void);
 - (void);
-- (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
 - (unsigned long long);
 - (void);
@@ -98,46 +82,20 @@
 - (void);
 - (void);
 - (float);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)lic}@[CBConnectionsObserver] subscribed to notifications %@ 
+;
 - (float);
 - (void);
 - (float);
 - (id);
 - (float);
-- (void);
+- (void)`;
 - (float)BufferZone>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CAAnimation *apertureAnimation; // @synthesize apertureAnimation=_apertureAnimation;
-@property(copy, nonatomic) CAAnimation *apertureAspectAnimation; // @synthesize apertureAspectAnimation=_apertureAspectAnimation;
-@property(nonatomic) unsigned long long apertureBladeCount; // @synthesize apertureBladeCount=_apertureBladeCount;
-@property(nonatomic) float barrelDistortion; // @synthesize barrelDistortion=_barrelDistortion;
-@property(nonatomic) float chromaticAberration; // @synthesize chromaticAberration=_chromaticAberration;
-@property(nonatomic) id exposure;
-@property(nonatomic) id exposureCompression;
-@property(nonatomic) float fStop; // @synthesize fStop=_fStop;
-@property(copy, nonatomic) CAAnimation *fStopAnimation; // @synthesize fStopAnimation=_fStopAnimation;
-@property(nonatomic) float farVisibilityDistance;
-@property(nonatomic) float fieldOfView;
-@property(nonatomic) float fisheyeDistortion; // @synthesize fisheyeDistortion=_fisheyeDistortion;
-@property(nonatomic) id flash; // @synthesize flash=_flash;
-@property(copy, nonatomic) CAAnimation *focalDistanceAnimation; // @synthesize focalDistanceAnimation=_focalDistanceAnimation;
-@property(nonatomic) float focalLength;
 @property(copy, nonatomic) CAAnimation *focalLengthAnimation; // @synthesize focalLengthAnimation=_focalLengthAnimation;
-@property(nonatomic) float focusDistance;
-@property(nonatomic) float maximumCircleOfConfusion; // @synthesize maximumCircleOfConfusion=_maximumCircleOfConfusion;
-@property(nonatomic) float nearVisibilityDistance;
-@property(nonatomic) float opticalVignetting; // @synthesize opticalVignetting=_opticalVignetting;
-@property(nonatomic) unsigned long long projection; // @synthesize projection=_projection;
-@property(readonly, nonatomic) CDStruct_95fa7c00 projectionMatrix;
-@property(nonatomic) float sensorAspect;
-@property(nonatomic) id sensorEnlargement;
-@property(nonatomic) id sensorShift;
-@property(nonatomic) float sensorVerticalAperture;
-@property(nonatomic) double shutterOpenInterval; // @synthesize shutterOpenInterval=_shutterOpenInterval;
-@property(nonatomic) float worldToMetersConversionScale; // @synthesize worldToMetersConversionScale=_worldToMetersConversionScale;
 
 @end
 

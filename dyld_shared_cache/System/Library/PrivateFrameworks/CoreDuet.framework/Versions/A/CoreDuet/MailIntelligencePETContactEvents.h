@@ -11,11 +11,11 @@
     NSMutableArray *_contactEvents;
 }
 
-+ (Class);
++ (Class)c';
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -26,7 +26,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

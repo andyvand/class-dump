@@ -7,11 +7,6 @@
 @interface Foundation.__DataStorage
 {
     id _bytes;
-    id _length;
-    id _capacity;
-    id _offset;
-    id _deallocator;
-    id _needToZero;
 }
 
 @end

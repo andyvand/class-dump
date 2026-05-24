@@ -14,11 +14,11 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (_Bool);
@@ -27,14 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hi8J;
 - (id);
 - (long long);
 - (void);
 - (void)32@40Q48@56@64*72;
 
 // Remaining properties
-@property(readonly, nonatomic) long long orientation;
 @property(retain) NUImageTransform *transform; // @synthesize transform=_transform;
 
 @end

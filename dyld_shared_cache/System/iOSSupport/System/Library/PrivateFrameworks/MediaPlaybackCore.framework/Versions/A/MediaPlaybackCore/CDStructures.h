@@ -21,29 +21,17 @@ struct AudioBufferList {
     struct AudioBuffer _field2[1];
 };
 
-struct AudioQueueBuffer {
-    unsigned int _field1;
-    void *_field2;
-    unsigned int _field3;
-    void *_field4;
-    unsigned int _field5;
-    struct AudioStreamPacketDescription *_field6;
-    unsigned int _field7;
-};
-
 struct AudioStreamBasicDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
+    double _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
+    unsigned int _field9;
 };
-
-struct AudioStreamPacketDescription;
 
 struct AudioTimeStamp {
     double mSampleTime;
@@ -68,11 +56,6 @@ struct CGRect {
 struct CGSize {
     double _field1;
     double _field2;
-};
-
-struct DSPSplitComplex {
-    float *realp;
-    float *imagp;
 };
 
 struct MPCAudioFrequencyBand {
@@ -119,24 +102,13 @@ struct _MPCLoggingConsumerChartState {
     long long task;
 };
 
-struct _MPCLoggingConsumerChartStatus {
-    _Bool userExpectsAudio;
-    _Bool waitingInteruptEnd;
-    long long timeControlStatus;
-};
-
 struct _MSVSignedRange {
-    long long location;
-    long long length;
+    long long _field1;
+    long long _field2;
 };
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
 };
 
 #pragma mark Typedef'd Structures
@@ -155,29 +127,29 @@ typedef struct {
 } CDStruct_8024420c;
 
 typedef struct {
-    unsigned long long flags;
-    unsigned long long machAbsoluteTime;
-    unsigned long long rawNanoSeconds;
-    unsigned long long timebase;
-    double userSecondsSinceReferenceDate;
-} CDStruct_aeb9a598;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    double _field5;
+} CDStruct_aee2c4da;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
-    double snapshotTime;
-    double startTime;
-    double endTime;
-    double duration;
-    double elapsedDuration;
-    float rate;
-    float defaultRate;
-    _Bool isLiveContent;
-    _Bool isLoading;
-    _Bool isInTransition;
-} CDStruct_8b36af64;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    float _field6;
+    float _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+} CDStruct_ef20cf08;
 
 typedef struct {
     long long _field1;
@@ -187,10 +159,10 @@ typedef struct {
 } CDStruct_198678f7;
 
 typedef struct {
-    long long tokenID;
-    int tokenRevision;
-    unsigned int databaseStorage;
-} CDStruct_1328dfc9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+} CDStruct_e426e184;
 
 typedef struct {
     long long _field1;
@@ -205,13 +177,7 @@ typedef struct {
 } CDStruct_c6d350ec;
 
 typedef struct {
-    long long reverseCount;
-    long long forwardCount;
-} CDStruct_339ad95e;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int representativeItemCloudID:1;
-    unsigned int storeAdamID:1;
-} CDStruct_c223d907;
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 

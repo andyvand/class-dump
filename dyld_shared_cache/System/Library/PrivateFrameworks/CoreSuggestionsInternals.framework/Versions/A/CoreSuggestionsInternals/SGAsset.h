@@ -11,7 +11,7 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)initWithSuiteName: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

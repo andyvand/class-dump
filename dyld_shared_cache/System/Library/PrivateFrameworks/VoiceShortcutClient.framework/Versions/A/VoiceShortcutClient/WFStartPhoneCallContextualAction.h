@@ -13,9 +13,9 @@
 }
 
 + (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)z;
+- (id)UIColor",&,N,V_backgroundLinesColor;
 - (id);
 
 // Remaining properties

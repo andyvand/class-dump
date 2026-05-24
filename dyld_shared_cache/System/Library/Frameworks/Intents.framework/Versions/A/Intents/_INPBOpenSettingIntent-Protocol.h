@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata, _INPBSettingMetadata;
+@class _INPBIntentMetadata, _INPBSettingMetadata;
 
 @protocol _INPBOpenSettingIntent
-- (_Bool)Control;
+- (_INPBSettingMetadata *);
+- (void);
+- (_Bool)enableClimateControl;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSearchQuery;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *searchQuery;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
 @end
 

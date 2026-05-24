@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterClientRetryIntervals
 {
     NSArray *_intervals;
-    long long _currentIndex;
 }
 
 + (id);
@@ -20,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void)0-0000-0000-0000-C2EE6102B308;
 
 // Remaining properties
-@property long long currentIndex; // @synthesize currentIndex=_currentIndex;
 @property(readonly) NSArray *intervals; // @synthesize intervals=_intervals;
 
 @end

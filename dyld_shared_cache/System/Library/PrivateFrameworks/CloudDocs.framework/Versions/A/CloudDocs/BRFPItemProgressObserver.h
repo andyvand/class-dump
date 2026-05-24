@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemID, NSNumber, NSObject, NSProgress;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface BRFPItemProgressObserver
 {
     _Bool _started;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSProgress *_downloadProgress;
-    NSProgress *_uploadProgress;
-    CDUnknownBlockType _progressHandler;
-    FPItemID *_fpItemID;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@9)@9;
 - (id);
 - (void);
 - (id);
@@ -34,9 +28,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *downloadPercentCompleted;
-@property(readonly, nonatomic) FPItemID *fpItemID; // @synthesize fpItemID=_fpItemID;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 @property(readonly, nonatomic) NSNumber *uploadPercentCompleted;
 
 @end

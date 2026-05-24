@@ -9,13 +9,6 @@
 @interface NSDragEventTracker : NSEventTracker
 {
     unsigned long long _discardEventMask;
-    double _movementThreshold;
-    double _timeoutThreshold;
-    _Bool _routesScrollWheelEventsToWindow;
-    _Bool _wantsRightMouseEvents;
-    double _gestureAmount;
-    long long _stage;
-    struct CGPoint _location;
 }
 
 - (_Bool);
@@ -24,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)or the version string;
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
-- (unsigned long long);
+- (double)_onqueue_setTransportConnection: /* Error: Ran out of types for this method. */;
+- (unsigned long long)V_domain;
 - (_Bool);
 - (long long);
 - (void);
@@ -41,14 +34,7 @@
 ¨WI;
 
 // Remaining properties
-@property unsigned long long discardEventMask; // @synthesize discardEventMask=_discardEventMask;
-@property double gestureAmount; // @synthesize gestureAmount=_gestureAmount;
 @property struct CGPoint location; // @synthesize location=_location;
-@property double movementThreshold; // @synthesize movementThreshold=_movementThreshold;
-@property _Bool routesScrollWheelEventsToWindow; // @synthesize routesScrollWheelEventsToWindow=_routesScrollWheelEventsToWindow;
-@property long long stage; // @synthesize stage=_stage;
-@property double timeoutThreshold; // @synthesize timeoutThreshold=_timeoutThreshold;
-@property _Bool wantsRightMouseEvents; // @synthesize wantsRightMouseEvents=_wantsRightMouseEvents;
 
 @end
 

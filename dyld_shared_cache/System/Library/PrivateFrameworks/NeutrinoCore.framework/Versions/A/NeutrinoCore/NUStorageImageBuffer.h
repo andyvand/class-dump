@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat, NUPurgeableStoragePool;
 @protocol NUPurgeableStorage;
 
 @interface NUStorageImageBuffer
 {
     id <NUPurgeableStorage> _storage;
-    NUPurgeableStoragePool *_pool;
 }
 
 + (id);
@@ -22,24 +20,12 @@
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
-- (id);
+- (id)L;
 - (void)ð!dGùâ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *CVPixelBuffer;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUPurgeableStoragePool *pool; // @synthesize pool=_pool;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @property(readonly, nonatomic) id <NUPurgeableStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

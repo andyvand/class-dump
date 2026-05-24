@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"b1};
-- (id);
+- (id)_browseCategorys;
 - (id)` ü³ä`4ü³ `hü³`|ü³L`ü³`¡`¤ü³©`èü³Ü©`üü³È­`Hý³p¼`\ý³Á`pý³¼aý³à$aÜÿ³x,ax;
 - (void);
 

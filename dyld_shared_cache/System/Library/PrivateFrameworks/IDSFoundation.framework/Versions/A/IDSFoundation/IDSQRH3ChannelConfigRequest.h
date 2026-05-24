@@ -7,7 +7,6 @@
 @interface IDSQRH3ChannelConfigRequest
 {
     unsigned int _configCounter;
-    unsigned int _overrideIdleTimeoutSeconds;
 }
 
 - (void);
@@ -19,13 +18,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setNotifyOnKeyboard:(id)arg1;
+- (void)ResumeKey;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int configCounter; // @synthesize configCounter=_configCounter;
 @property(nonatomic) unsigned int overrideIdleTimeoutSeconds; // @synthesize overrideIdleTimeoutSeconds=_overrideIdleTimeoutSeconds;
 
 @end

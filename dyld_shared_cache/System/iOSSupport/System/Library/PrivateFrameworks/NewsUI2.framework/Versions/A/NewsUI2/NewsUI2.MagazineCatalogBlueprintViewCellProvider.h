@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineCatalogBlueprintViewCellProvider
 {
     id feedItemRenderer;
-    id offlineIssueManager;
 }
 
 @end

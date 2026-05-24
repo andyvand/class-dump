@@ -4,63 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSString, UIColor, UIDictationGlowEffect, UIStandardTextCursorView, UIView, _UIDictationAudioLevelSmoother;
-@protocol _UIStandardTextCursorViewAudioLevelProvider;
+@class UIStandardTextCursorView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextCursorDictationAnimation
 {
     _Bool _soundReactiveCursorEnabled;
-    _Bool _needsInitialDictationAnimation;
-    CADisplayLink *_soundReactiveCursorDisplayLink;
-    UIView *_glowContainerView;
-    UIView *_glowShapeView;
-    UIDictationGlowEffect *_glowEffect;
-    _UIDictationAudioLevelSmoother *_levelSmoother;
-    double _animationStartTime;
-    _Bool _enabled;
-    UIView *_cursorShapeView;
-    UIStandardTextCursorView *_cursorView;
-    UIColor *_tintColor;
-    id <_UIStandardTextCursorViewAudioLevelProvider> _audioLevelProvider;
-    struct CGRect _animatedCursorShapeBounds;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (struct CGRect);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id)q72;
+- (struct CGRect)40@48^@56;
+- (void)_setObject:(_Bool)arg1 forKey:forDictionary:shouldSetBuild: /* Error: Ran out of types for this method. */;
+- (id)s.;
+- (void)g received message:(_Bool)arg1 %@;
+- (void)0;
+- (void)SString",C,N,V_payloadOrganizationAddress;
 - (_Bool);
-- (id)on: /* Error: Ran out of types for this method. */;
+- (id)_applyTraitStorageRecordsForTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)
 ¿7yU
 ¿7_G;
 - (void)\ùÊÿUà<;
 
 // Remaining properties
-@property(nonatomic) struct CGRect animatedCursorShapeBounds; // @synthesize animatedCursorShapeBounds=_animatedCursorShapeBounds;
-@property(nonatomic) __weak id <_UIStandardTextCursorViewAudioLevelProvider> audioLevelProvider; // @synthesize audioLevelProvider=_audioLevelProvider;
-@property(readonly, nonatomic) __weak UIView *cursorShapeView; // @synthesize cursorShapeView=_cursorShapeView;
 @property(nonatomic) __weak UIStandardTextCursorView *cursorView; // @synthesize cursorView=_cursorView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

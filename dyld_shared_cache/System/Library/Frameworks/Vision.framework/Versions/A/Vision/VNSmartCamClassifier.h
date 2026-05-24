@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (shared_ptr_b26ea6de);
-+ (shared_ptr_047f28ed);
++ (shared_ptr_76176f90);
 + (id);
 + (id);
 - (_Bool);

@@ -7,15 +7,6 @@
 @interface PKStrokeSelectionImageConfig
 {
     _Bool _invertedColors;
-    _Bool _rotated;
-    _Bool _sixChannel;
-    _Bool _transparentBlending;
-    _Bool _highlighted;
-    _Bool _extendedDynamicRange;
-    double _scale;
-    struct CGSize _imageSize;
-    struct CGRect _strokeBounds;
-    struct CGRect _imageViewBounds;
 }
 
 - (_Bool);
@@ -34,16 +25,7 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool extendedDynamicRange; // @synthesize extendedDynamicRange=_extendedDynamicRange;
-@property(readonly, nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, nonatomic) struct CGRect imageViewBounds; // @synthesize imageViewBounds=_imageViewBounds;
-@property(readonly, nonatomic) _Bool invertedColors; // @synthesize invertedColors=_invertedColors;
-@property(readonly, nonatomic) _Bool rotated; // @synthesize rotated=_rotated;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) _Bool sixChannel; // @synthesize sixChannel=_sixChannel;
 @property(readonly, nonatomic) struct CGRect strokeBounds; // @synthesize strokeBounds=_strokeBounds;
-@property(readonly, nonatomic) _Bool transparentBlending; // @synthesize transparentBlending=_transparentBlending;
 
 @end
 

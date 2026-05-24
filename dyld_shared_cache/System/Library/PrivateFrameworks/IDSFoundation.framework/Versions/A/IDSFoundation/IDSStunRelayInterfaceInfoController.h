@@ -16,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void)for %@;
 
 @end

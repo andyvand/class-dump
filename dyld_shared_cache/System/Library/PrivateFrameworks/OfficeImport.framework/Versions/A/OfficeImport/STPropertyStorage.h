@@ -10,18 +10,18 @@ __attribute__((visibility("hidden")))
     struct _SsrwPropertyStorage *m_pPropertyStorage;
 }
 
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)`;
 - (id);
 - (int);
 - (id);
 - (id);
-- (short);
-- (void);
+- (short);
+- (void);
 
 @end
 

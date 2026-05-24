@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSMatrix, NSProgressIndicator, NSString, NSTextField, NSWindow;
-@protocol SSSessionSelectViewControllerDelegate><SSConnectionPromptObserver;
+@class NSString;
 
 @interface SSSessionSelectViewController
 {
     NSString *displayIsBusyDescriptiveText;
-    NSString *logIntoYourAccountRadioTitle;
-    NSString *authenticatingUser;
-    NSString *machineName;
-    NSString *userOnMainDisplay;
-    NSWindow *waitingForAnswerSheet;
-    NSProgressIndicator *waitingForAnswerProgress;
-    NSButton *waitingButton;
-    NSTextField *waitingMessageTextField;
-    NSMatrix *askOrLoginRadioButtons;
-    id <SSSessionSelectViewControllerDelegate><SSConnectionPromptObserver> delegate;
-    NSString *_mainDisplayButtonText;
-    NSString *_shareDisplayInformativeText;
 }
 
 + (id);
@@ -43,41 +30,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)#;
+- (id)vipTextFeatureTypes;
 - (id);
 - (void);
 
 // Remaining properties
-@property NSMatrix *askOrLoginRadioButtons; // @synthesize askOrLoginRadioButtons;
-@property(copy) NSString *authenticatingUser; // @synthesize authenticatingUser;
-@property id <SSSessionSelectViewControllerDelegate><SSConnectionPromptObserver> delegate; // @synthesize delegate;
-@property(readonly) NSString *displayIsBusyDescriptiveText; // @synthesize displayIsBusyDescriptiveText;
-@property(readonly) NSString *logIntoYourAccountRadioTitle; // @synthesize logIntoYourAccountRadioTitle;
-@property(copy) NSString *machineName; // @synthesize machineName;
-@property(copy) NSString *mainDisplayButtonText; // @synthesize mainDisplayButtonText=_mainDisplayButtonText;
 @property(copy) NSString *shareDisplayInformativeText; // @synthesize shareDisplayInformativeText=_shareDisplayInformativeText;
-@property(copy) NSString *userOnMainDisplay; // @synthesize userOnMainDisplay;
-@property NSButton *waitingButton; // @synthesize waitingButton;
-@property NSProgressIndicator *waitingForAnswerProgress; // @synthesize waitingForAnswerProgress;
-@property NSWindow *waitingForAnswerSheet; // @synthesize waitingForAnswerSheet;
-@property NSTextField *waitingMessageTextField; // @synthesize waitingMessageTextField;
 
 @end
 

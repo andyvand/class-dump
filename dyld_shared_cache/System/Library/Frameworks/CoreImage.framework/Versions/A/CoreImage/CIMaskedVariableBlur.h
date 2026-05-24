@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIMaskedVariableBlur : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputMask;
-    NSNumber *inputRadius;
 }
 
 + (id);
@@ -26,14 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)%}Si;
 - (id)VbZbssssjwv|wwwwfjejN]RdG\PmYrmg~|iohxUkdqsssspqltHf_wivrzswsxq}}}Vhbn^XL^ASF\jjjjyyyyptbnjunplszzzz`qpu>\SkD]TfK[Pa6I9X0H8\YkfrwwwwjjejbkglrrrrooooZbZddbYdcplsv{{{Ze^n[d\kamirpxy{Pc_hYYYYAI>K6>/CCC=CIJ>JMYO]¤¤fYoh|llkleeee`````bbbggggnnnny}|©©©©xtqx^d\eeeaeqvvvinihqnt2QDc_hchhoooXhcruvtzgtqxqwuy££££©¨©©|\{xizwjqlydjcsvvvvqtst_lhmoooozzzzvrrrrTVQVDD8D6&C0G;Timlnq|{|{zxt|KbYkW\Q_LXMZ6OBYCUI^de\fljblgmgorrrrrrrrvvtv}    mUuo««««|¢­®«®®¥¨¨qyv~AYMi=SDbbe[l}kr{w\kdrggagWd\goqntryuqpvs|~tutzgnjq_mimnnnnxxxx©©©©¡¨¨¤£¤¤`nyuwwwwckdqCd\te{}}}}}ppppU`Xd]hbly£ªºººº²²²²ri\s`aSktrkvmmjm?NBYYYQYiiiidy{{cggg?H;NBG9GONAOcccczzzzf{x®®®®­­­­NeZvuupugz}}:YSeGVOYXXXXR[X\DZUbajhqCTHd,@/MED5F8I;OeeeerrrrkidkF\Sfppppyyyy||||{{{{ttttlmjossssvvvvjjjj@UK^`d^fxxxxwyu~Umd}otn{roispngpbkesu|{||ªªªª¥¥¥¥N`Wh4F5UETG^`pluvmwwwwdkgmZd]hmlgmp~~~nyx|bbYljnis}etqt||||O^Ve/J;]ehbn_wv~_pl|>b[teolqssssavux}yyxy_ibqif\pPg^r^kcv[xtªªªª¥¥¥¥npnqW`Yh^kiqavs|eaViF\PdkkckgtpzxXpmytttt]d\mtzy|qyyyyV]Sf+H7[baVdyyyynyw~Ykfqoooowwww~~~~x¡¡¡¡}}}}]{x¢¢¢¢[xt\njvqqqqqqqqad]e7N@\ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputMask; // @synthesize inputMask;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, MKMapView, MKModernControlAppearanceHelper, NSArray, NSNumber, NSString, UIHoverGestureRecognizer, UIImage, UIPanGestureRecognizer, UITapGestureRecognizer;
+@class MKModernControlAppearanceHelper;
 
 @interface _MKModernCompassView
 {
     MKModernControlAppearanceHelper *_appearanceHelper;
-    CALayer *_compassLayerMain;
-    CALayer *_assetLayer;
-    UIImage *_compassAsset;
-    UIHoverGestureRecognizer *_hoverRecognizer;
-    UIPanGestureRecognizer *_dragRecognizer;
-    UITapGestureRecognizer *_tapRecognizer;
-    struct CGPoint _dragMapScreenPoint;
-    double _compassRotationInitialOffset;
-    NSNumber *_lastMaybeDraggingNSNumber;
-    NSArray *_compassPointLocalizedAbbreviations;
-    int _lastDrawnCompassDirection;
-    _Bool _hovering;
-    _Bool _hoveringOnInnerRadius;
-    _Bool _dragging;
-    _Bool _maybeDragging;
-    MKMapView *_mapView;
-    double _mapHeading;
 }
 
 + (id);
@@ -40,22 +23,22 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (_Bool);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)U;
 - (id);
 - (void);
 - (void);
@@ -66,32 +49,19 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (void)ect:(id)arg1 balloonBundleID:(id)arg2 payloadData:expressiveSendStyleID:threadIdentifier:scheduleType:scheduleState:messageSummaryInfo: /* Error: Ran out of types for this method. */;
+- (void)bestAccountFromAccounts: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (void)0@ù
 × ;
-- (void)ID:nightMode: /* Error: Ran out of types for this method. */;
-- (id)erator;
+- (void)imageForStyle:size:forScale:format:customIconID:nightMode: /* Error: Ran out of types for this method. */;
+- (id)_textForTruncationGenerator;
 - (void)tyMapping",R,N,G_sortPriorityMapping,V_sortPriorityMapping;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragGestureEnabled) _Bool dragGestureEnabled;
-@property(nonatomic) _Bool dragging; // @synthesize dragging=_dragging;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool hovering; // @synthesize hovering=_hovering;
-@property(nonatomic) _Bool hoveringOnInnerRadius; // @synthesize hoveringOnInnerRadius=_hoveringOnInnerRadius;
-@property(nonatomic) double mapHeading; // @synthesize mapHeading=_mapHeading;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool maybeDragging; // @synthesize maybeDragging=_maybeDragging;
-@property(readonly) Class superclass;
 
 @end
 

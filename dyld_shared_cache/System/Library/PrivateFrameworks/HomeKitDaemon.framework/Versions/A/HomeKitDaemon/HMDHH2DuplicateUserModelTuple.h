@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDHH2DuplicateUserModelTuple
 {
     NSUUID *_homeModelID;
-    NSString *_userMergeID;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)EventTriggerFromBuilderMessage;
+- (void)HMUpdateEventTriggerFromBuilderMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *homeModelID; // @synthesize homeModelID=_homeModelID;
-@property(readonly, nonatomic) NSString *userMergeID; // @synthesize userMergeID=_userMergeID;
 
 @end
 

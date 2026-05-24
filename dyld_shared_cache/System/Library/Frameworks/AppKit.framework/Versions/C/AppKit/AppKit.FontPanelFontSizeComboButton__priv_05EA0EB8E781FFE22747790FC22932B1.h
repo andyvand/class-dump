@@ -9,21 +9,18 @@
 @interface AppKit.FontPanelFontSizeComboButton__priv_05EA0EB8E781FFE22747790FC22932B1 : NSComboBox
 {
     id fontSizeDelegate;
-    id selectedFontSize;
-    id fieldEditor;
-    id fontSizes;
 }
 
-- (void);
-- (long long);
+- (void)ft_"^v}}""{?="__size_"Q}}}};
+- (long long)outstanding auth tasks %@;
+- (_Bool)s.;
+- (void)_immediate_buffer_was_set;
+- (id)__kCFStreamPropertyNWProxyConfigurationBlock;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id)ppressedKeyPath;
+- (id)_specificSuppressedKeyPath;
 - (void)ÂtnE;
 
 // Remaining properties

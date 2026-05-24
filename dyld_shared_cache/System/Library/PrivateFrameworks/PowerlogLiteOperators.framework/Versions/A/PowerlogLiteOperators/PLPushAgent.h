@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, PLTimer, PLXPCListenerOperatorComposition;
+@class PLXPCListenerOperatorComposition;
 
 @interface PLPushAgent
 {
     PLXPCListenerOperatorComposition *_receivedPushListener;
-    PLXPCListenerOperatorComposition *_sentPushListener;
-    PLXPCListenerOperatorComposition *_suppressedPushesListener;
-    PLXPCListenerOperatorComposition *_sentKeepAliveListener;
-    PLXPCListenerOperatorComposition *_receivedKeepAliveListener;
-    PLTimer *_runTimeAggregatorTimer;
-    unsigned long long _numKeepAlives;
-    PLXPCListenerOperatorComposition *_apsdConnectedListener;
-    NSMutableDictionary *_pushUsageDict;
-    NSDate *_detectionStartTime;
-    PLXPCListenerOperatorComposition *_messageSentListener;
-    PLXPCListenerOperatorComposition *_messageReceivedListener;
-    PLXPCListenerOperatorComposition *_pushProxyIncomingListener;
-    PLXPCListenerOperatorComposition *_pushProxyOutgoingListener;
 }
 
 + (id);
 + (_Bool);
 + (id);
++ (id));
 + (id);
 + (id);
 + (id);
@@ -38,6 +26,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -45,9 +34,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void)_CLTM_P12;
++ (void)GPU_CLTM_P12;
 - (id);
 - (void);
 - (void);
@@ -62,49 +49,36 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (id)@;
+- (void);
+- (void):(id)arg1 ;
+- (void);
+- (id);
+- (id)a;
+- (void);
+- (void)A!;
 - (void)_btConnectionNotification;
 - (void)t:rxBurnNumForcedDiffMode(493) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *apsdConnectedListener; // @synthesize apsdConnectedListener=_apsdConnectedListener;
-@property(retain) NSDate *detectionStartTime; // @synthesize detectionStartTime=_detectionStartTime;
-@property(retain) PLXPCListenerOperatorComposition *messageReceivedListener; // @synthesize messageReceivedListener=_messageReceivedListener;
-@property(retain) PLXPCListenerOperatorComposition *messageSentListener; // @synthesize messageSentListener=_messageSentListener;
-@property unsigned long long numKeepAlives; // @synthesize numKeepAlives=_numKeepAlives;
-@property(retain) PLXPCListenerOperatorComposition *pushProxyIncomingListener; // @synthesize pushProxyIncomingListener=_pushProxyIncomingListener;
-@property(retain) PLXPCListenerOperatorComposition *pushProxyOutgoingListener; // @synthesize pushProxyOutgoingListener=_pushProxyOutgoingListener;
-@property(retain) NSMutableDictionary *pushUsageDict; // @synthesize pushUsageDict=_pushUsageDict;
-@property(retain) PLXPCListenerOperatorComposition *receivedKeepAliveListener; // @synthesize receivedKeepAliveListener=_receivedKeepAliveListener;
 @property(retain) PLXPCListenerOperatorComposition *receivedPushListener; // @synthesize receivedPushListener=_receivedPushListener;
-@property(retain) PLTimer *runTimeAggregatorTimer; // @synthesize runTimeAggregatorTimer=_runTimeAggregatorTimer;
-@property(retain) PLXPCListenerOperatorComposition *sentKeepAliveListener; // @synthesize sentKeepAliveListener=_sentKeepAliveListener;
-@property(retain) PLXPCListenerOperatorComposition *sentPushListener; // @synthesize sentPushListener=_sentPushListener;
-@property(retain) PLXPCListenerOperatorComposition *suppressedPushesListener; // @synthesize suppressedPushesListener=_suppressedPushesListener;
 
 @end
 

@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)DataFormat;
+- (void)termsDataFormat;
 
 // Remaining properties
 @property(readonly, nonatomic) PKSharedAccountCloudStore *sharedAccountCloudStore; // @synthesize sharedAccountCloudStore=_sharedAccountCloudStore;

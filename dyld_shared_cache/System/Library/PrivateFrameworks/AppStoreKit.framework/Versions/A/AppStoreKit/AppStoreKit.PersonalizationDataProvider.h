@@ -7,8 +7,6 @@
 @interface AppStoreKit.PersonalizationDataProvider
 {
     id dataSourceMap;
-    id supportedStyles;
-    id onPersonalizationDidRefresh;
 }
 
 @end

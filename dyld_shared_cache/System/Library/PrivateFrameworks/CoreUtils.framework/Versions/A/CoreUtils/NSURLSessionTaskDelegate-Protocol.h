@@ -9,6 +9,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
 - (void)sory added:(NSURLSession *)arg1 %@, %{mask}, '%@'
 ;
 - (void)res a value;

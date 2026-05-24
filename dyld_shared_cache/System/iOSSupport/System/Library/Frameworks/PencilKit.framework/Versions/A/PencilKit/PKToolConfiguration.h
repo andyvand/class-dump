@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKFloatRange, UIBezierPath, UIColor, UIImage;
+@class PKFloatRange;
 
 @interface PKToolConfiguration
 {
     PKFloatRange *_cachedStrokeWeightRange;
-    _Bool _wantsStrokeWeightControl;
-    _Bool _wantsTopLevelOpacityControl;
-    _Bool _supportsColor;
-    _Bool _supportsOpacity;
-    _Bool _supportsLassoToolEditingView;
-    _Bool _isEraserTool;
-    _Bool _shouldShowAzimuthInColorPicker;
-    NSString *_localizedName;
-    UIImage *_baseImage;
-    UIBezierPath *_shadowPath;
-    UIColor *_defaultColor;
-    double _opacityLabelVerticalOffset;
-    UIImage *_bandMaskImage;
-    UIImage *_bandContourImage;
-    double _bandVerticalOffset;
-    UIImage *_tipMaskImage;
-    UIImage *_tipContourImage;
-    UIBezierPath *_shadowPathIncludingTip;
-    NSDictionary *_strokeWeightsToButtonImages;
-    double _minimumBandThickness;
-    double _maximumBandThickness;
-    NSArray *_baseImagesForAzimuth;
-    NSArray *_tipMaskImagesForAzimuth;
-    NSArray *_tipContourImagesForAzimuth;
-    UIColor *_weightButtonTintColorOverride;
-    CDUnknownBlockType _viewControllerProvider;
-    long long _inkVersion;
-    CDUnknownBlockType _imageProvider;
 }
 
 + (id);
@@ -94,25 +66,25 @@
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)pinnedConversationActivitySnapshotContentScaleSecondMostRecent;
+- (void)pinnedConversationActivityBroadShadowLightOffset;
 - (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@!a;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -120,38 +92,7 @@
 - (void)fineController;
 
 // Remaining properties
-@property(copy, nonatomic) UIImage *bandContourImage; // @synthesize bandContourImage=_bandContourImage;
-@property(copy, nonatomic) UIImage *bandMaskImage; // @synthesize bandMaskImage=_bandMaskImage;
-@property(nonatomic) double bandVerticalOffset; // @synthesize bandVerticalOffset=_bandVerticalOffset;
-@property(copy, nonatomic) UIImage *baseImage; // @synthesize baseImage=_baseImage;
-@property(copy, nonatomic) NSArray *baseImagesForAzimuth; // @synthesize baseImagesForAzimuth=_baseImagesForAzimuth;
-@property(readonly, nonatomic) UIColor *defaultColor; // @synthesize defaultColor=_defaultColor;
-@property(copy, nonatomic) UIImage *image;
-@property(copy, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(readonly, nonatomic) long long inkVersion; // @synthesize inkVersion=_inkVersion;
-@property(readonly, nonatomic) _Bool isEraserTool; // @synthesize isEraserTool=_isEraserTool;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) double maximumBandThickness; // @synthesize maximumBandThickness=_maximumBandThickness;
-@property(readonly, nonatomic) double minimumBandThickness; // @synthesize minimumBandThickness=_minimumBandThickness;
-@property(nonatomic) double opacityLabelVerticalOffset; // @synthesize opacityLabelVerticalOffset=_opacityLabelVerticalOffset;
-@property(copy, nonatomic) UIBezierPath *shadowPath; // @synthesize shadowPath=_shadowPath;
-@property(readonly, nonatomic) UIBezierPath *shadowPathIncludingTip; // @synthesize shadowPathIncludingTip=_shadowPathIncludingTip;
-@property(nonatomic) _Bool shouldShowAzimuthInColorPicker; // @synthesize shouldShowAzimuthInColorPicker=_shouldShowAzimuthInColorPicker;
-@property(readonly, nonatomic) _Bool shouldShowOpacityInColorPicker;
-@property(readonly, nonatomic) _Bool shouldShowStrokeWeightControl;
-@property(readonly, nonatomic) _Bool shouldShowTopLevelOpacityControl;
-@property(readonly, nonatomic) struct CGSize strokeWeightButtonSize;
-@property(copy, nonatomic) NSDictionary *strokeWeightsToButtonImages; // @synthesize strokeWeightsToButtonImages=_strokeWeightsToButtonImages;
-@property(readonly, nonatomic) _Bool supportsColor; // @synthesize supportsColor=_supportsColor;
 @property(nonatomic) _Bool supportsLassoToolEditingView; // @synthesize supportsLassoToolEditingView=_supportsLassoToolEditingView;
-@property(readonly, nonatomic) _Bool supportsOpacity; // @synthesize supportsOpacity=_supportsOpacity;
-@property(readonly, nonatomic) _Bool supportsStrokeWeight;
-@property(copy, nonatomic) UIImage *tipContourImage; // @synthesize tipContourImage=_tipContourImage;
-@property(copy, nonatomic) NSArray *tipContourImagesForAzimuth; // @synthesize tipContourImagesForAzimuth=_tipContourImagesForAzimuth;
-@property(readonly, nonatomic) UIImage *tipMaskImage; // @synthesize tipMaskImage=_tipMaskImage;
-@property(copy, nonatomic) NSArray *tipMaskImagesForAzimuth; // @synthesize tipMaskImagesForAzimuth=_tipMaskImagesForAzimuth;
-@property(copy, nonatomic) CDUnknownBlockType viewControllerProvider; // @synthesize viewControllerProvider=_viewControllerProvider;
-@property(readonly, nonatomic) UIColor *weightButtonTintColorOverride; // @synthesize weightButtonTintColorOverride=_weightButtonTintColorOverride;
 
 @end
 

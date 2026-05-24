@@ -10,18 +10,19 @@
 
 + (void);
 + (id);
++ (void)d;
++ (id);
++ (id)_TtCO14CloudKitDaemon15CKDSessionCheck17DataSecurityCheck;
++ (id);
++ (id);
++ (id);
++ (id)y
+;
++ (id);
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)acked;
 + (id);
 
 @end

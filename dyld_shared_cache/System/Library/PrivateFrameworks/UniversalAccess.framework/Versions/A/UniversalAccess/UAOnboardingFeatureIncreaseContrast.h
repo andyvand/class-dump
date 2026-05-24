@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)ErrorCode"b1"openAIErrorCode"b1"errorCode"b1};
+- (long long)ype"b1"subDomain"b1"quality"b1"answerClass"b1};
+- (id)xecutionTier1";
+- (void)1"isWebExtractedFact"b1};
 - (id);
 
 @end

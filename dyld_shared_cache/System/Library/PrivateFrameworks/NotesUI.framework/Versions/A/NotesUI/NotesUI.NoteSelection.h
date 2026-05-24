@@ -7,7 +7,6 @@
 @interface NotesUI.NoteSelection
 {
     id noteID;
-    id noteTitle;
 }
 
 - (id);

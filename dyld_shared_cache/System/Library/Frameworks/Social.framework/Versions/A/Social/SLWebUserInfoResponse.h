@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSString;
-
 @interface SLWebUserInfoResponse
 {
     long long _statusCode;
-    NSString *_displayName;
-    NSArray *_emailAddresses;
-    NSError *_error;
-    NSString *_errorMessage;
-    NSDictionary *_userInfo;
 }
 
 - (void);
 - (id);
+- (id)_removedIdentifiers;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)initWithMetadataManager:(id)arg1;
+- (id)
+};
 - (id);
 - (void);
+- (void);
+- (void)SURLSession can not link %@ to %@:(id)arg1 %@;
 - (id);
+- (void);
+- (id)densityLoc;
 - (long long);
 
 // Remaining properties
-@property(readonly) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) NSString *emailAddress;
-@property(readonly) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
 @property(readonly) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

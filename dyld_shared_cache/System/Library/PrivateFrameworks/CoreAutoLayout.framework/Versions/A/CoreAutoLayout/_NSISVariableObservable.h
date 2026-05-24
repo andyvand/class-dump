@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISEngine, NSISVariable;
-
 __attribute__((visibility("hidden")))
 @interface _NSISVariableObservable
 {
     _NSISVariableObservable *_nextDirtyObservable;
-    _NSISVariableObservable *_prevDirtyObservable;
-    double _lastValue;
-    NSISVariable *_variable;
-    NSISEngine *_associatedEngine;
-    unsigned int _hasLastValue:1;
-    unsigned int _valueIsDirtied:1;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)MLCustomLayerWrapper;
 - (void);
 
 @end

@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SCNAction;
+
 @protocol SCNActionJSExport
++ (SCNAction *);
++ (SCNAction *);
++ (SCNAction *)9?;
++ (SCNAction *);
+- (float (^)(float));;
 - (id), vec3 large, float t )
 {  
     
@@ -79,8 +86,5 @@ void main (void)
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) double speed;
-@property(nonatomic) CDUnknownBlockType timingFunction;
-@property(nonatomic) long long timingMode;
 @end
 

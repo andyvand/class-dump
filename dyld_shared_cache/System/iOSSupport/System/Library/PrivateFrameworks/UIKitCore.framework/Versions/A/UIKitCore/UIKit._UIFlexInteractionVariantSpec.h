@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewSpringAnimationBehaviorSettings;
-
 @interface UIKit._UIFlexInteractionVariantSpec
 {
     double associatedDimension;
-    double bigGlowOpacity;
-    double littleGlowOpacity;
-    double littleGlowDissipationDistance;
-    double liftScalePoints;
-    double scaleDistanceThreshold;
-    double movementNormalizationFactor;
-    double movementScalePts;
-    double movementMinScale;
-    double movementMaxScale;
-    double interactionPulseNormalizationFactor;
-    double interactionPulseScalePtsX;
-    double interactionPulseScalePtsY;
-    double interactionPulseDriftRatio;
-    UIViewSpringAnimationBehaviorSettings *scaleSpring;
 }
 
 + (id);
@@ -49,7 +33,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -61,20 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) double associatedDimension; // @synthesize associatedDimension;
-@property(nonatomic) double bigGlowOpacity; // @synthesize bigGlowOpacity;
-@property(nonatomic) double interactionPulseDriftRatio; // @synthesize interactionPulseDriftRatio;
-@property(nonatomic) double interactionPulseNormalizationFactor; // @synthesize interactionPulseNormalizationFactor;
-@property(nonatomic) double interactionPulseScalePtsX; // @synthesize interactionPulseScalePtsX;
-@property(nonatomic) double interactionPulseScalePtsY; // @synthesize interactionPulseScalePtsY;
-@property(nonatomic) double liftScalePoints; // @synthesize liftScalePoints;
-@property(nonatomic) double littleGlowDissipationDistance; // @synthesize littleGlowDissipationDistance;
-@property(nonatomic) double littleGlowOpacity; // @synthesize littleGlowOpacity;
-@property(nonatomic) double movementMaxScale; // @synthesize movementMaxScale;
-@property(nonatomic) double movementMinScale; // @synthesize movementMinScale;
-@property(nonatomic) double movementNormalizationFactor; // @synthesize movementNormalizationFactor;
-@property(nonatomic) double movementScalePts; // @synthesize movementScalePts;
-@property(nonatomic) double scaleDistanceThreshold; // @synthesize scaleDistanceThreshold;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *scaleSpring; // @synthesize scaleSpring;
 
 @end
 

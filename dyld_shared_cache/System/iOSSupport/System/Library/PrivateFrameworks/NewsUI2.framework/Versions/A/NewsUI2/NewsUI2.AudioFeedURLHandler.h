@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioFeedURLHandler
 {
     id patterns;
-    id navigator;
-    id headlineProviderFactory;
-    id bundleSubscriptionManager;
-    id featureAvailability;
-    id commandCenter;
 }
 
 @end

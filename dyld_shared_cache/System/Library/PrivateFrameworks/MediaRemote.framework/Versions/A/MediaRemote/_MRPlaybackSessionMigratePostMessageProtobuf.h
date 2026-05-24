@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRDictionaryProtobuf, _MRErrorProtobuf, _MRNowPlayingPlayerPathProtobuf, _MRPlaybackSessionMigrateRequestProtobuf;
+@class _MRErrorProtobuf;
 
 @interface _MRPlaybackSessionMigratePostMessageProtobuf
 {
     _MRErrorProtobuf *_error;
-    _MRDictionaryProtobuf *_metrics;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    _MRPlaybackSessionMigrateRequestProtobuf *_request;
-    NSString *_setPlaybackSessionCommandID;
 }
 
 - (id);
@@ -20,38 +16,29 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)__swift5_fieldmd__TEXT;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)"!;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)ModelNumber;
 - (void);
 - (void);
 - (void);
-- (void)er;
+- (void)_sessionIdentifier;
 - (_Bool)d Scan;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) _MRErrorProtobuf *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasError;
-@property(readonly, nonatomic) _Bool hasMetrics;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
 @property(readonly, nonatomic) _Bool hasRequest;
-@property(readonly, nonatomic) _Bool hasSetPlaybackSessionCommandID;
-@property(retain, nonatomic) _MRDictionaryProtobuf *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) _MRPlaybackSessionMigrateRequestProtobuf *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSString *setPlaybackSessionCommandID; // @synthesize setPlaybackSessionCommandID=_setPlaybackSessionCommandID;
 
 @end
 

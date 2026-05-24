@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DPPrioPlusPlusMetadataValueRandomizer
 {
     _Bool _dynamicVectorSize;
-    double _epsilon;
-    unsigned long long _p;
 }
 
-+ (id);
++ (id));
 - (id);
 - (id);
 - (id);
@@ -26,16 +22,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool dynamicVectorSize; // @synthesize dynamicVectorSize=_dynamicVectorSize;
 @property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long p; // @synthesize p=_p;
-@property(readonly) Class superclass;
 
 @end
 

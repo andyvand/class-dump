@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADPresetDash : OADDash
 {
     BOOL mType;
-    unsigned int mIsTypeOverridden:1;
 }
 
 + (id);

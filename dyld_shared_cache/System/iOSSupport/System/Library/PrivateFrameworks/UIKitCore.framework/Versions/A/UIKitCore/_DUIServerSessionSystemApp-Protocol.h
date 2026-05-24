@@ -5,5 +5,6 @@
 //
 
 @protocol _DUIServerSessionSystemApp
+- (oneway void);
 @end
 

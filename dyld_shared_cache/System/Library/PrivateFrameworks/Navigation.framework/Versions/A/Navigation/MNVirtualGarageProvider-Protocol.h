@@ -7,11 +7,12 @@
 @protocol MNVirtualGarageProviderDelegate;
 
 @protocol MNVirtualGarageProvider
+- (id <MNVirtualGarageProviderDelegate>);
+- (void)4L!
+;
+- (_Bool)_CoordinateSpaceModifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assumesFullCharge;
-@property(readonly, nonatomic) _Bool isStarted;
-@property(readonly, nonatomic) unsigned long long vehiclesCount;
 @property(nonatomic) __weak id <MNVirtualGarageProviderDelegate> virtualGarageDelegate;
 @end
 

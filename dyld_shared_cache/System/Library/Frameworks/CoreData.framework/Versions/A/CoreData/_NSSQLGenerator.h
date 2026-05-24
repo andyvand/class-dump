@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSSQLiteAdapter, NSSQLiteStatement;
+@class NSSQLiteStatement;
 
 __attribute__((visibility("hidden")))
 @interface _NSSQLGenerator
 {
     NSSQLiteStatement *_statement;
-    NSSQLiteAdapter *_adapter;
-    NSMutableString *_sqlString;
-    NSMutableString *_whereClause;
-    NSMutableString *_selectList;
 }
 
 + (void)ailed because committing the metadata changes hit an unhandled exception.;

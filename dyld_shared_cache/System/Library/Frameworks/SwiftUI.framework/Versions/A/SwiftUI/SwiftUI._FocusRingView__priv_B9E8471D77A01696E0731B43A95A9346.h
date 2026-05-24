@@ -7,22 +7,18 @@
 @interface SwiftUI._FocusRingView__priv_B9E8471D77A01696E0731B43A95A9346
 {
     id focused;
-    id responder;
-    id $__lazy_storage_$_helper;
 }
 
 - (id);
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)1;
+- (id)C;
 - (void)É"Y77»;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _isTransparentFocusItem;
-@property(nonatomic, readonly) _Bool canBecomeKeyView;
 @property(nonatomic, readonly) struct CGRect focusRingMaskBounds;
 
 @end

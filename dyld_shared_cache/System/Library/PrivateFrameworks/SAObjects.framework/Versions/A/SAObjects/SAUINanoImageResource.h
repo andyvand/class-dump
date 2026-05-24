@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAUIImageResource.h>
 
-@class NSString, SAUIDecoratedText;
-
 @interface SAUINanoImageResource : SAUIImageResource
 {
 }
@@ -17,19 +15,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundNeeded;
-@property(copy, nonatomic) NSString *imageDownloadType;
-@property(retain, nonatomic) SAUIDecoratedText *monogram;
-@property(copy, nonatomic) NSString *placeholderImage;
 
 @end
 

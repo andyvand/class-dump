@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITargetedPreview, UIView;
+@protocol _UIViewMaterial;
+
 @protocol _UIMorphableInternal
+- (id <_UIViewMaterial>)notifyDidSendMessageID: /* Error: Ran out of types for this method. */;
+- (UIView *)chatsFilteredUsingPredicate:sortedUsingDescriptors:limit: /* Error: Ran out of types for this method. */;
+- (UITargetedPreview *)chatStyle;
+- (UIView *)chatStatusChangeContextForUpdateType:participant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint _morphCenterPoint;

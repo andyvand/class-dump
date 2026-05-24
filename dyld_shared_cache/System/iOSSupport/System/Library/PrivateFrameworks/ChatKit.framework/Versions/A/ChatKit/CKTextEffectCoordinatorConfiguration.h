@@ -7,11 +7,10 @@
 @interface CKTextEffectCoordinatorConfiguration
 {
     id logIdentifier;
-    id loopDelayProvider;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)PlaybackButtonStyleKey;
 - (id);
 - (void)âË;
 

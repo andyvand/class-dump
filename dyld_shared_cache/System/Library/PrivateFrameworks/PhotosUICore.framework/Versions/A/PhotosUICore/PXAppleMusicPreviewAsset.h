@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, PXAppleMusicAsset;
-@protocol PXAudioAsset, PXAudioCueSource, PXDisplayAsset;
+@class PXAppleMusicAsset;
+@protocol PXAudioAsset;
 
 @interface PXAppleMusicPreviewAsset
 {
@@ -23,45 +23,15 @@
 - (Class);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)So16FCReadingHistoryC;
 - (long long);
 - (_Bool);
 - (id)ecisionListsProducerFactory:(struct _NSZone *)arg1 autoCurationProducerFactory: /* Error: Ran out of types for this method. */;
-- (unsigned long long)UICore31LemonadeMockBookmarksDataSource;
+- (unsigned long long)_TtC12PhotosUICore31LemonadeMockBookmarksDataSource;
 - (void)ToolbarButtonModifier;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *albumTitle; // @dynamic albumTitle;
-@property(readonly, copy, nonatomic) NSString *artistName; // @dynamic artistName;
-@property(readonly, nonatomic) id <PXDisplayAsset> artworkDisplayAsset; // @dynamic artworkDisplayAsset;
-@property(readonly, copy, nonatomic) NSString *assetTagsDescription; // @dynamic assetTagsDescription;
-@property(readonly, nonatomic) Class audioSessionClass;
-@property(readonly, nonatomic) long long catalog; // @dynamic catalog;
-@property(readonly, copy, nonatomic) NSString *colorGradeCategory; // @dynamic colorGradeCategory;
-@property(readonly, nonatomic) id <PXAudioCueSource> cueSource; // @dynamic cueSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) Class defaultMediaProviderClass; // @dynamic defaultMediaProviderClass;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, copy, nonatomic) NSArray *entryPoints; // @dynamic entryPoints;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 exportableDuration;
-@property(readonly, nonatomic) unsigned long long flags; // @dynamic flags;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, copy, nonatomic) NSNumber *loudnessMainPeak; // @dynamic loudnessMainPeak;
-@property(readonly, copy, nonatomic) NSNumber *loudnessMainValue; // @dynamic loudnessMainValue;
-@property(readonly, nonatomic) PXAppleMusicAsset *originalAsset; // @synthesize originalAsset=_originalAsset;
-@property(readonly, nonatomic) long long pace; // @dynamic pace;
-@property(readonly, nonatomic) id <PXAudioAsset> previewAudioAsset;
-@property(readonly, nonatomic) NSString *px_storyResourceIdentifier;
-@property(readonly, nonatomic) long long px_storyResourceKind;
 @property(readonly, nonatomic) id <PXAudioAsset> px_storyResourceSongAsset;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @dynamic subtitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class CalUISuggestionsField, EKEventSuggestionGenerator, NSDictionary, NSString;
+@class CalUISuggestionsField;
 
 @interface EKUITitleGadget : EKUISingleViewGadget
 {
     _Bool _shouldConvertNewEventTitleToPlaceholder;
-    CalUISuggestionsField *_titleField;
-    double _cachedMaxHeight;
-    NSDictionary *_placeholderAttributes;
-    EKEventSuggestionGenerator *_eventSuggestionGenerator;
 }
 
 + (id);
@@ -34,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,12 +46,12 @@
 - (_Bool);
 - (double);
 - (double);
-- (void);
+- (void)4	)~))JK	)>);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -65,22 +61,10 @@
 - (id);
 - (void);
 - (void);
-- (double);
-- (void);
+- (double);
+- (void)d offer with success:%d, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double cachedMaxHeight; // @synthesize cachedMaxHeight=_cachedMaxHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) EKEventSuggestionGenerator *eventSuggestionGenerator; // @synthesize eventSuggestionGenerator=_eventSuggestionGenerator;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *placeholderAttributes; // @synthesize placeholderAttributes=_placeholderAttributes;
-@property _Bool shouldConvertNewEventTitleToPlaceholder; // @synthesize shouldConvertNewEventTitleToPlaceholder=_shouldConvertNewEventTitleToPlaceholder;
-@property(readonly) Class superclass;
-@property(readonly) CalUISuggestionsField *textField;
 @property(retain) CalUISuggestionsField *titleField; // @synthesize titleField=_titleField;
 
 @end

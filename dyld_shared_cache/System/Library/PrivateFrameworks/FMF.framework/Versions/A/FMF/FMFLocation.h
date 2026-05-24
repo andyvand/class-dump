@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, FMAccuracyOverlay, FMFHandle, FMFPlacemark, NSColor, NSDate, NSImage, NSString;
+@class FMFHandle;
 
 @interface FMFLocation
 {
     _Bool _locatingInProgress;
-    _Bool _isBorderEnabled;
-    long long _locationType;
-    CLLocation *_location;
-    long long _activityState;
-    FMAccuracyOverlay *_overlay;
-    double _horizontalAccuracy;
-    NSImage *_smallAnnotationIcon;
-    NSImage *_smallOverlayIcon;
-    NSImage *_largeOverlayIcon;
-    NSImage *_largeAnnotationIcon;
-    double _distanceFromUser;
-    NSColor *_tintColor;
-    FMFPlacemark *_placemark;
-    FMFHandle *_handle;
-    NSString *_longAddress;
-    NSDate *_timestamp;
-    NSString *_label;
-    NSString *_shortAddressString;
-    double _maxLocatingInterval;
-    double _TTL;
-    double _distance;
-    NSString *_distanceDescription;
-    NSString *_age;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 + (_Bool);
@@ -43,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,13 +30,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -77,7 +53,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_stopObservingBeneficiaryChanges;
 - (long long);
 - (id);
 - (id);
@@ -90,26 +66,26 @@
 - (double);
 - (double);
 - (_Bool);
+- (void)initWithActionName:(id)arg1 contactStore:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)prepareDataDirectoryWithName:containerPath: /* Error: Ran out of types for this method. */;
+- (id)ckTimeoutForRequest;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void){;
 - (id);
-- (id);
+- (id)didRequestSubmit;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)(A;
 - (void);
 - (double);
 - (void);
@@ -117,47 +93,7 @@
 - (void);
 
 // Remaining properties
-@property double TTL; // @synthesize TTL=_TTL;
-@property long long activityState; // @synthesize activityState=_activityState;
-@property(retain) NSString *age; // @synthesize age=_age;
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double distance; // @synthesize distance=_distance;
-@property(retain) NSString *distanceDescription; // @synthesize distanceDescription=_distanceDescription;
-@property(nonatomic) double distanceFromUser; // @synthesize distanceFromUser=_distanceFromUser;
 @property(retain) FMFHandle *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) _Bool isBorderEnabled; // @synthesize isBorderEnabled=_isBorderEnabled;
-@property(retain) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSImage *largeAnnotationIcon; // @synthesize largeAnnotationIcon=_largeAnnotationIcon;
-@property(retain, nonatomic) NSImage *largeOverlayIcon; // @synthesize largeOverlayIcon=_largeOverlayIcon;
-@property(getter=isLocatingInProgress) _Bool locatingInProgress; // @synthesize locatingInProgress=_locatingInProgress;
-@property(retain) CLLocation *location; // @synthesize location=_location;
-@property long long locationType; // @synthesize locationType=_locationType;
-@property(copy) NSString *longAddress; // @synthesize longAddress=_longAddress;
-@property double maxLocatingInterval; // @synthesize maxLocatingInterval=_maxLocatingInterval;
-@property(retain, nonatomic) FMAccuracyOverlay *overlay; // @synthesize overlay=_overlay;
-@property(retain) FMFPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(readonly, copy) NSString *shortAddress;
-@property(copy) NSString *shortAddressString; // @synthesize shortAddressString=_shortAddressString;
-@property(retain, nonatomic) NSImage *smallAnnotationIcon; // @synthesize smallAnnotationIcon=_smallAnnotationIcon;
-@property(retain, nonatomic) NSImage *smallOverlayIcon; // @synthesize smallOverlayIcon=_smallOverlayIcon;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(copy) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

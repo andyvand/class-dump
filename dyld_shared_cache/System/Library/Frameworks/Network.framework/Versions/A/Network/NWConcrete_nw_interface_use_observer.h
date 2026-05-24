@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_interface_use_observer
 {
     char *notification_name;
-    struct retained_ptr<NSObject<OS_dispatch_queue>*> client_queue;
-    struct retained_ptr<void (^)(bool)> update_block;
-    int notify_token;
 }
 
-- (void);
+- (void)nd.base;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

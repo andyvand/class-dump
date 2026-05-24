@@ -11,7 +11,7 @@
     id <CNUIParentContainerCache> _parentContainerCache;
 }
 
-- (id);
+- (id)0;
 - (void);
 - (id);
 - (id);

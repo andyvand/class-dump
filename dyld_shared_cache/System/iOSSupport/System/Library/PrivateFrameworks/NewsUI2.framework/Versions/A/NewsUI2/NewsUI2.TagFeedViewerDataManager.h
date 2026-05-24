@@ -7,21 +7,6 @@
 @interface NewsUI2.TagFeedViewerDataManager
 {
     id delegate;
-    id $__lazy_storage_$_unavailableItemAlpha;
-    id cloudContext;
-    id feedDescriptor;
-    id tagService;
-    id issueModelFactory;
-    id subscriptionService;
-    id commandCenter;
-    id membershipController;
-    id sportsGraphManager;
-    id sportsDataService;
-    id localDataManager;
-    id offlineManager;
-    id featureAvailability;
-    id topLevelSportsTags;
-    id _request;
 }
 
 - (void);

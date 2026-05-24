@@ -4,40 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, QCSCN_MaterialProperty, QCSCN_Program;
-
 @interface QCSCN_MaterialReserved
 {
     struct __C3DMaterial *_material;
-    QCSCN_MaterialProperty *_ambient;
-    QCSCN_MaterialProperty *_diffuse;
-    QCSCN_MaterialProperty *_specular;
-    QCSCN_MaterialProperty *_emission;
-    QCSCN_MaterialProperty *_reflective;
-    QCSCN_MaterialProperty *_transparent;
-    QCSCN_MaterialProperty *_multiply;
-    QCSCN_MaterialProperty *_normal;
-    struct __C3DScene *_sceneRef;
-    unsigned int _presentationInstance:1;
-    NSMutableDictionary *_animations;
-    NSString *_name;
-    NSString *_identifier;
-    float _shininess;
-    float _transparency;
-    int _transparencyMode;
-    NSString *_lightingModel;
-    _Bool _perPixelLit;
-    _Bool _doubleSided;
-    int _cullMode;
-    id _shader;
-    QCSCN_Program *_program;
-    _Bool _locksAmbientWithDiffuse;
-    _Bool _avoidsOverLighting;
-    _Bool _writeToDepth;
 }
 
 - (void);
-- (void);
+- (void);
 
 @end
 

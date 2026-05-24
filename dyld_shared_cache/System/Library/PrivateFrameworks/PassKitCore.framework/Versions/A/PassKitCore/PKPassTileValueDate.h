@@ -11,10 +11,6 @@
 @interface PKPassTileValueDate : PKPassTileValue
 {
     _Bool _ignoresTimeZone;
-    _Bool _isRelative;
-    NSString *_content;
-    long long _dateStyle;
-    long long _timeStyle;
 }
 
 + (id);
@@ -26,28 +22,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void)R;
+- (void)_;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)blacklistingRecord;
 - (void);
 - (id)løÿ"nøÿ;
 - (void)ing devicePrimaryInAppPaymentApplication. (%@ %@ initialized via initWithCoder:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) long long dateStyle; // @synthesize dateStyle=_dateStyle;
-@property(nonatomic) _Bool ignoresTimeZone; // @synthesize ignoresTimeZone=_ignoresTimeZone;
-@property(nonatomic) _Bool isRelative; // @synthesize isRelative=_isRelative;
-@property(nonatomic) long long timeStyle; // @synthesize timeStyle=_timeStyle;
 
 @end
 

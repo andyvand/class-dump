@@ -10,36 +10,31 @@ __attribute__((visibility("hidden")))
 @interface NSDeviceCMYKColor : NSColor
 {
     double cyanComponent;
-    double magentaComponent;
-    double yellowComponent;
-    double blackComponent;
-    double alphaComponent;
-    struct CGColor *_cachedCGColor;
 }
 
-+ (id);
++ (id)the deleteStmt. r = %d;
+- (double)16@"NSHTTPURLResponse"24@"NSURLRequest"32@?<v@?@"NSURLRequest">40;
+- (_Bool)set_preventsIdleSystemSleep: /* Error: Ran out of types for this method. */;
+- (id)_timeoutIntervalForResource_ivar;
+- (void)URLSession:(double *)arg1 task:(double *)arg2 _conditionalRequirementsChanged:(double *)arg3;
+- (void)URLSession:(double *)arg1 task:_alternatePathAvailable: /* Error: Ran out of types for this method. */;
+- (void)NSURLSessionAVAssetDownloadTask;
 - (double);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
 - (id);
 - (id);
-- (double);
+- (double)NULL response provided!;
 - (double);
 - (id);
 - (struct CGColor *);
-- (void);
+- (void)�;
 - (id);
 - (Class);
-- (unsigned long long);
+- (unsigned long long)kDeleteBackupSnapShotOperation;
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (long long)tedAccessoryView;
+- (long long)_deprecatedAccessoryView;
 - (struct CGColor *)t be mounted.;
 - (void)¿ïèD;
 - (void)¨¯ÿ½ç`ûE;

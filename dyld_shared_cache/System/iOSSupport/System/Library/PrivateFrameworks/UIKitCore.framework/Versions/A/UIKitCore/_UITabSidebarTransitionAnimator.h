@@ -4,61 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIView;
+@class NSMutableArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarTransitionAnimator
 {
     NSMutableArray *_animationBlocks;
-    NSMutableArray *_completionBlocks;
-    _Bool _completed;
-    double _transitionDuration;
-    UIView *_containerView;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)__AUTH_CONST;
+- (void);
+- (id)f read receipt, no messages found for guid:(id)arg1 %@;
 - (id)mode if necessary for change in width from %g to %g;
-- (long long)aseTime;
+- (long long)releaseTime;
 - (_Bool)ring *getIAPayloadKeySafariScale(void);
-- (double)hangedNotification;
-- (id)n;
+- (double)UIAXZoomFocusChangedNotification;
+- (id)percentFullScreen;
 - (_Bool);
 - (struct CGAffineTransform);
 - (_Bool)¢;
 - (_Bool)yxG;
 - (void);
-- (_Bool)n;
+- (_Bool)UIBackgroundConfiguration;
 - (_Bool)NR013dð;
 - (void)HÃ,<ä;
 - (_Bool);
-- (id)Driver;
+- (id)_UIFluidSliderElasticPanDriver;
 - (double)¸Fqþ;
 - (double)É43@tþ;
 - (void)[;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
 @property(readonly, nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
 
 @end
 

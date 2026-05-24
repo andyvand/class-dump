@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface AWDMDNSResponderResolveStatsDomain
 {
     NSMutableArray *_hostnames;
-    NSString *_name;
 }
 
 + (Class);
@@ -22,9 +21,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)h.;
+- (void)";
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSMutableArray *hostnames; // @synthesize hostnames=_hostnames;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

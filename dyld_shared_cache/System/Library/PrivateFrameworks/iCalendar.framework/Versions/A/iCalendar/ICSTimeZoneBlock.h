@@ -6,7 +6,7 @@
 
 #import <iCalendar/ICSComponent.h>
 
-@class ICSDate, NSArray;
+@class ICSDate;
 
 @interface ICSTimeZoneBlock : ICSComponent
 {
@@ -15,27 +15,22 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)*;
 - (_Bool);
 - (long long);
 
 // Remaining properties
 @property(retain, nonatomic) ICSDate *dtstart;
-@property(retain, nonatomic) NSArray *rdate;
-@property(retain, nonatomic) NSArray *rrule;
-@property(nonatomic) NSArray *tzname;
-@property(nonatomic) long long tzoffsetfrom;
-@property(nonatomic) long long tzoffsetto;
 
 @end
 

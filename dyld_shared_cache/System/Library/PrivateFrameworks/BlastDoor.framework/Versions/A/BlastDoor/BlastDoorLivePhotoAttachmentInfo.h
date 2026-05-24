@@ -14,11 +14,10 @@
 - (id);
 - (id);
 - (id);
-- (void)IAUserAction;
+- (void)BIAUserAction;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *iris;
 
 @end
 

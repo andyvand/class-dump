@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeBoxInitialImportStartupTask
 {
     id executionPhase;
-    id featureAvailability;
-    id headlineService;
-    id readingList;
-    id recipeBox;
-    id userInfo;
 }
 
 @end

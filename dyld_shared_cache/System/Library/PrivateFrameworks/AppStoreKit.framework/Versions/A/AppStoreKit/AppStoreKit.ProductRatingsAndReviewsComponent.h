@@ -7,8 +7,6 @@
 @interface AppStoreKit.ProductRatingsAndReviewsComponent
 {
     id componentType;
-    id id;
-    id impressionMetrics;
 }
 
 @end

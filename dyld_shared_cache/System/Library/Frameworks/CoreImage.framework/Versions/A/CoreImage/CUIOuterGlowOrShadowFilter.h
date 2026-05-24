@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIOuterGlowOrShadowFilter : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputOffset;
-    NSNumber *inputRange;
-    NSNumber *inputRadius;
-    NSNumber *inputSize;
-    NSNumber *inputSpread;
-    CIColor *inputColor;
 }
 
 + (id);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)O(O8OOO(O;
 - (void);
 - (id);
 - (id);
@@ -39,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)btqyyyyywwwwfzx~¥¥¥¥£¢££]}xisk|PjdvSbZmyyyy~~~~ssss\d\lwwtws{wyn_|z~w~~~vvvvtrot~k|wo{§£§§·¼½½¾¿ÀÀ¦©®µ¢¥±¶¶¶¶°°°°r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputOffset; // @synthesize inputOffset;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputRange; // @synthesize inputRange;
-@property(retain, nonatomic) NSNumber *inputSize; // @synthesize inputSize;
-@property(retain, nonatomic) NSNumber *inputSpread; // @synthesize inputSpread;
 
 @end
 

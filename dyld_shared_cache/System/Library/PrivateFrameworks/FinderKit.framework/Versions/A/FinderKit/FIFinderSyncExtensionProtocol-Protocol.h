@@ -5,5 +5,7 @@
 //
 
 @protocol FIFinderSyncExtensionProtocol
+- (void)(;
+- (void);
 @end
 

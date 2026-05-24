@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Trimming)
-- (id);
+- (id)c;
 @end
 

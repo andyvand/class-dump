@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarControllerSidebarAnimator
@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)Two: /* Error: Ran out of types for this method. */;
+- (id)D;
+- (id)_animateInProcessAsTwoPartsWithKeyframeID:overlap:partOne:partTwo: /* Error: Ran out of types for this method. */;
 - (void)usly:(CDUnknownBlockType)arg1 , only colorPickerViewController:didSelectColor:continuous:will be called. /* Error: Ran out of types for this method. */;
 - (void)m/Library/Frameworks/AudioToolbox.framework/AudioToolbox;
 - (void);
@@ -25,14 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animationBlocks; // @synthesize animationBlocks=_animationBlocks;
-@property(retain, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

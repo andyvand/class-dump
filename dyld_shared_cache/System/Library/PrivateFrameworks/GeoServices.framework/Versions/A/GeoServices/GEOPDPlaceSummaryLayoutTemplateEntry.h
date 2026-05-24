@@ -4,68 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPlaceSummaryLayoutTemplateEntry
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _trailingEntityTypeOrders;
-    NSMutableArray *_lines;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _platformType;
-    int _trailingEntityType;
-    _Bool _shouldDisableActionMenuAffordance;
-    struct {
-        unsigned int has_platformType:1;
-        unsigned int has_trailingEntityType:1;
-        unsigned int has_shouldDisableActionMenuAffordance:1;
-        unsigned int read_trailingEntityTypeOrders:1;
-        unsigned int read_lines:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)nUserLibrary:(id)arg1;
++ (Class)r;
++ (_Bool)setInUserLibrary:(id)arg1;
+- (unsigned long long)currentAccounts;
+- (id)"CNResult",R,V_preparationResult;
+- (int *)",R,N,V_cacheQueue;
+- (id),N,V_storeDescription;
+- (int)CNPersistentStoreDescription",R,N,V_storeDescription;
+- (_Bool);
+- (void)rt observing;
+- (void)ustom property “%@”.;
+- (void)CNCDContainer"8Q16^B24;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (int);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int);
+- (_Bool);
+- (int);
+- (int);
+- (int);
+- (void);
 - (unsigned long long);
-- (id);
-- (int *);
-- (id);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (int);
-- (int);
-- (int);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_listenPollingTimer;
+- (void)ssTriggerMachAbsoluteTime:(id)arg1 %llu;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -73,21 +57,13 @@
 - (id);
 - (void);
 - (id)ge="start"{PolylineCoordinate="index"I"offset"f}"end"{PolylineCoordinate="index"I"offset"f}};
-- (id)riEngaged;
+- (id)_isSiriEngaged;
 - (id)û;
-- (id)tersectingFeatureGeoId;
+- (id)intersectingFeatureGeoId;
 - (void)ÍÌÌÌÌÌ+@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasPlatformType;
-@property(nonatomic) _Bool hasShouldDisableActionMenuAffordance;
-@property(nonatomic) _Bool hasTrailingEntityType;
-@property(retain, nonatomic) NSMutableArray *lines;
-@property(nonatomic) int platformType;
-@property(nonatomic) _Bool shouldDisableActionMenuAffordance;
-@property(nonatomic) int trailingEntityType;
-@property(readonly, nonatomic) int *trailingEntityTypeOrders;
-@property(readonly, nonatomic) unsigned long long trailingEntityTypeOrdersCount;
 
 @end
 

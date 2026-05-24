@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
-
 @protocol MFUIMailbox
+- (_Bool)@;
+- (_Bool)9C;
+- (_Bool)׀;
+- (_Bool)҉;
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *accountIcon;
-@property(readonly, copy, nonatomic) NSString *accountURLString;
-@property(readonly, nonatomic) _Bool canBeRenamed;
-@property(readonly, copy) NSArray *children;
-@property(readonly) unsigned long long displayCount;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *extendedDisplayName;
-@property(readonly) _Bool hasChildren;
-@property(readonly, nonatomic) _Bool isAccountActive;
-@property(readonly, nonatomic) _Bool isContainer;
-@property(readonly, nonatomic) _Bool isLocal;
-@property(readonly, nonatomic) _Bool isPlaceholder;
-@property(readonly, nonatomic) _Bool isSpotlightMailbox;
-@property(readonly, nonatomic) _Bool isStore;
-@property(readonly) _Bool isVisibleFlaggedMailbox;
 @property int mailboxType;
-@property(readonly) unsigned long long numberOfChildren;
-@property(readonly, copy, nonatomic) NSString *persistentUIIdentifier;
 @end
 

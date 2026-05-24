@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface EKTravelEngineThrottle
 {
     _Bool _running;
-    NSString *_eventExternalURL;
-    CDUnknownBlockType _requestHypothesisRefreshBlock;
-    CDUnknownBlockType _cancelHypothesisRequestRefreshBlock;
-    CDUnknownBlockType _emissionBlock;
-    NSObject<OS_dispatch_queue> *_throttleQueue;
-    NSDate *_nextEmissionDate;
 }
 
 + (double);
 + (double);
 - (void);
 - (void);
+- (void)@N;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (void)T?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	@9)	;
 - (void);
 - (void);
 - (id);
@@ -45,20 +36,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)!S !Aùqá#ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelHypothesisRequestRefreshBlock; // @synthesize cancelHypothesisRequestRefreshBlock=_cancelHypothesisRequestRefreshBlock;
-@property(copy, nonatomic) CDUnknownBlockType emissionBlock; // @synthesize emissionBlock=_emissionBlock;
-@property(retain) NSString *eventExternalURL; // @synthesize eventExternalURL=_eventExternalURL;
-@property(retain, nonatomic) NSDate *nextEmissionDate; // @synthesize nextEmissionDate=_nextEmissionDate;
-@property(copy, nonatomic) CDUnknownBlockType requestHypothesisRefreshBlock; // @synthesize requestHypothesisRefreshBlock=_requestHypothesisRefreshBlock;
 @property(nonatomic) _Bool running; // @synthesize running=_running;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *throttleQueue; // @synthesize throttleQueue=_throttleQueue;
 
 @end
 

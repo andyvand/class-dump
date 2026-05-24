@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (MPAdditions)
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (id);
-- (id);
+- (id):(id)arg1 unable to convert BMPBIntentType enum value:(CDUnknownBlockType)arg2 %@;
 @end
 

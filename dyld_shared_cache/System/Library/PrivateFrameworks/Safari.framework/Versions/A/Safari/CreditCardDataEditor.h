@@ -4,61 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthorizationRequest, CreditCardDetailViewController, CreditCardNumberFieldEditor, CreditCardNumberTextField, LAContext, NSArray, NSBox, NSButton, NSImageView, NSMapTable, NSMutableArray, NSProgressIndicator, NSSegmentedControl, NSStackView, NSString, NSTableView, NSTextField, NSView, SensitiveDetailTextField, WBSCreditCardFormatter, WBSCreditCardSecurityCodeFormatter;
-@protocol CreditCardDataEditorDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CreditCardDataEditor
 {
     _Bool _shouldPreventResigningFirstResponder;
-    unsigned long long _ignoringCreditCardDataChangeNotifications;
-    AuthorizationRequest *_canShowCardNumbersAuthorizationRequest;
-    CreditCardNumberFieldEditor *_creditCardNumberFieldEditor;
-    NSMutableArray *_virtualCardData;
-    NSArray *_creditCardAndVirtualCardData;
-    long long _lastSelectedRowInSidebar;
-    CreditCardDetailViewController *_creditCardDetailViewController;
-    WBSCreditCardFormatter *_creditCardFormatter;
-    WBSCreditCardSecurityCodeFormatter *_securityCodeFormatter;
-    NSMapTable *_pkVirtualCardToCorrespondingCardData;
-    id <CreditCardDataEditorDelegate> _delegate;
-    LAContext *_localAuthenticationContext;
-    NSArray *_creditCardData;
-    NSTableView *_tableView;
-    NSBox *_detailViewContainer;
-    NSView *_virtualCardView;
-    NSView *_keychainCardView;
-    NSSegmentedControl *_addOrRemoveCreditCardButton;
-    NSTextField *_noCreditCardsDetailLabel;
-    NSView *_virtualCardContentView;
-    NSProgressIndicator *_virtualCardDetailSpinner;
-    NSStackView *_virtualCardErrorMessageStackView;
-    NSImageView *_virtualDetailViewCardImage;
-    NSTextField *_cardNameLabel;
-    NSTextField *_virtualCardNumberLabel;
-    NSButton *_viewVirtualCardDetailsButton;
-    NSTextField *_virtualCardFooterLabel;
-    NSImageView *_keychainDetailViewCardImage;
-    NSTextField *_cardNicknameTextField;
-    NSTextField *_cardholderNameTextField;
-    CreditCardNumberTextField *_cardNumberTextField;
-    NSTextField *_expirationTextField;
-    SensitiveDetailTextField *_securityCodeTextField;
 }
 
 + (id);
 - (id);
+- (id);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)b;
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,18 +48,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
+- (void)+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -117,10 +83,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -143,7 +109,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)download[%s]:failed to write bytes. OutputStream error:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -156,36 +122,7 @@ __attribute__((visibility("hidden")))
 - (id)è--;
 
 // Remaining properties
-@property(nonatomic) __weak NSSegmentedControl *addOrRemoveCreditCardButton; // @synthesize addOrRemoveCreditCardButton=_addOrRemoveCreditCardButton;
-@property(nonatomic) __weak NSTextField *cardNameLabel; // @synthesize cardNameLabel=_cardNameLabel;
-@property(nonatomic) __weak NSTextField *cardNicknameTextField; // @synthesize cardNicknameTextField=_cardNicknameTextField;
-@property(nonatomic) __weak CreditCardNumberTextField *cardNumberTextField; // @synthesize cardNumberTextField=_cardNumberTextField;
-@property(nonatomic) __weak NSTextField *cardholderNameTextField; // @synthesize cardholderNameTextField=_cardholderNameTextField;
 @property(copy, nonatomic) NSArray *creditCardData; // @synthesize creditCardData=_creditCardData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CreditCardDataEditorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSBox *detailViewContainer; // @synthesize detailViewContainer=_detailViewContainer;
-@property(nonatomic) __weak NSTextField *expirationTextField; // @synthesize expirationTextField=_expirationTextField;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSView *keychainCardView; // @synthesize keychainCardView=_keychainCardView;
-@property(nonatomic) __weak NSImageView *keychainDetailViewCardImage; // @synthesize keychainDetailViewCardImage=_keychainDetailViewCardImage;
-@property(retain, nonatomic) LAContext *localAuthenticationContext; // @synthesize localAuthenticationContext=_localAuthenticationContext;
-@property(nonatomic) __weak NSTextField *noCreditCardsDetailLabel; // @synthesize noCreditCardsDetailLabel=_noCreditCardsDetailLabel;
-@property(nonatomic) __weak SensitiveDetailTextField *securityCodeTextField; // @synthesize securityCodeTextField=_securityCodeTextField;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTableView *tableView; // @synthesize tableView=_tableView;
-@property(nonatomic) __weak NSButton *viewVirtualCardDetailsButton; // @synthesize viewVirtualCardDetailsButton=_viewVirtualCardDetailsButton;
-@property(nonatomic) __weak NSView *virtualCardContentView; // @synthesize virtualCardContentView=_virtualCardContentView;
-@property(nonatomic) __weak NSProgressIndicator *virtualCardDetailSpinner; // @synthesize virtualCardDetailSpinner=_virtualCardDetailSpinner;
-@property(nonatomic) __weak NSStackView *virtualCardErrorMessageStackView; // @synthesize virtualCardErrorMessageStackView=_virtualCardErrorMessageStackView;
-@property(nonatomic) __weak NSTextField *virtualCardFooterLabel; // @synthesize virtualCardFooterLabel=_virtualCardFooterLabel;
-@property(nonatomic) __weak NSTextField *virtualCardNumberLabel; // @synthesize virtualCardNumberLabel=_virtualCardNumberLabel;
-@property(retain, nonatomic) NSView *virtualCardView; // @synthesize virtualCardView=_virtualCardView;
-@property(nonatomic) __weak NSImageView *virtualDetailViewCardImage; // @synthesize virtualDetailViewCardImage=_virtualDetailViewCardImage;
 
 @end
 

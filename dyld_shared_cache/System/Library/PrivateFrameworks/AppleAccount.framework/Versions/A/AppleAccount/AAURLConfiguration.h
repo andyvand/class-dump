@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSArray, NSDictionary;
 
 @interface AAURLConfiguration
 {
@@ -26,6 +26,34 @@ SYfyJW´9yäðU*ÀAÁ¹êíw'/ØEæ6W¢¢KoëÉÐÕ"åq2Z
 - (id);
 - (id);
 - (id);
+- (id)A;
+- (id);
+- (id);
+- (id)!%;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)A9	;
+- (id);
+- (id);
+- (id);
+- (id)h;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,46 +64,19 @@ SYfyJW´9yäðU*ÀAÁ¹êíw'/ØEæ6W¢¢KoëÉÐÕ"åq2Z
 - (id);
 - (id);
 - (id);
+- (id)R%;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id)i;
 - (id);
 - (id);
 - (id);
@@ -92,6 +93,9 @@ SYfyJW´9yäðU*ÀAÁ¹êíw'/ØEæ6W¢¢KoëÉÐÕ"åq2Z
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)setMakeSheetCritical: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -100,16 +104,12 @@ SYfyJW´9yäðU*ÀAÁ¹êíw'/ØEæ6W¢¢KoëÉÐÕ"åq2Z
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setNumberStyle: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id)
 × ;
-- (void)vite: /* Error: Ran out of types for this method. */;
+- (void)setIsChildTransferInvite: /* Error: Ran out of types for this method. */;
 - (id)0;
 - (id).custodian.setup.ownerGenerateEncryptedCPRK;
 - (id)ãlA%CÔfùÕÇëipìN_9>©ÑüOqOjåÈ¬Ê]ïp\NbàùeÇÖ°· XuÆøÆ93 ËDi1k6üNÑýïÃAX Äf/wùÔgYg±pÿÒ¶ÐGõjFTxúãÝÌª­:BoÜâÜ
@@ -123,89 +123,7 @@ SYfyJW´9yäðU*ÀAÁ¹êíw'/ØEæ6W¢¢KoëÉÐÕ"åq2Z
 - (id)ëÁGëÁÙëÁëÁ½ëÁ"ëÁÏëÁIëÁwëÁtëÁëÁ­ëÁ6ëÁºëÁmëÁëÁëÁfëÁÍëÁÄëÁëÁçëÁ¢ëÁDëÁXëÁëÁäëÁ!ëÁÃëÁîëÁëÁ´ëÁ²ëÁÉëÁæëÁëÁëÁyëÁëÁOëÁëÁØëÁÈëÁ$ëÁ#ëÁëÁáëÁëÁëÁëÁVëÁëÁëÁëÁúëÁ8ëÁ¿ëÁpëÁëÁ¡ëÁnëÁ§ëÁ;ëÁbëÁ7ëÁQëÁ3ëÁëÁ(ëÁqëÁ1ëÁCëÁëÁ£ëÁ)ëÁ-ëÁUëÁðëÁ¯ëÁ}ëÁ&ëÁBëÁ¹ëÁéëÁ³ëÁjëÁPëÁÆëÁzëÁÖëÁ¸ëÁiëÁöëÁÑëÁëÁÁëÁëÁkëÁ%ëÁûëÁëÁëÁëÁëÁxëÁËëÁµëÁZëÁøëÁ¨ëÁëëÁcëÁåëÁeëÁ©ëÁÅëÁëÁ`ëÁàëÁWëÁAëÁëÁëÁ®ëÁKëÁ ëÁ¤ëÁëÁNëÁþëÁëÁ2ëÁÕëÁuëÁëÁTëÁëÁLëÁëÁëÁëÁïëÁ÷ëÁëÁëÁ4ëÁëÁëÁëÁâëÁ	ëÁÎëÁYëÁ¶ëÁrëÁÜëÁvëÁèëÁëÁ]ëÁ5ëÁüëÁëÁhëÁëÁ¼ëÁRëÁ_ëÁÒëÁÚëÁ×ëÁëÁìëÁRl~.hX;{8oË÷!¿ ­¡;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aboutURL;
-@property(readonly, copy, nonatomic) NSNumber *absintheEnable;
-@property(readonly, nonatomic) NSString *acceptChildTransferURL;
-@property(readonly, nonatomic) NSString *acceptFamilyInviteURL;
-@property(readonly, nonatomic) NSString *acceptFamilyInviteV2URL;
-@property(readonly, nonatomic) NSString *accountCreationUIURL;
-@property(readonly, nonatomic) NSString *accountCreationURL;
-@property(readonly, nonatomic) NSString *accountManagementUIURL;
-@property(readonly, nonatomic) NSString *addEmailURL;
-@property(readonly, nonatomic) NSString *addFamilyMemberUIURL;
-@property(readonly, nonatomic) NSString *apsEnvironment;
-@property(readonly, copy, nonatomic) NSNumber *apsProdEnvironment;
-@property(readonly, nonatomic) NSString *authenticateURL;
-@property(readonly, nonatomic) NSString *checkiCloudMembershipURL;
-@property(readonly, nonatomic) NSString *childAccountCreationUIURL;
-@property(readonly, nonatomic) NSString *cloudKitDevicesListURL;
-@property(readonly, nonatomic) NSString *cloudKitMigrationStateURL;
-@property(readonly, nonatomic) NSString *cloudKitStartMigrationURL;
-@property(readonly, nonatomic) NSString *completeValidateEmailURL;
-@property(readonly, nonatomic) NSString *createDelegatesURL;
-@property(readonly, nonatomic) NSString *declineFamilyInviteURL;
-@property(readonly, nonatomic) NSString *deviceListURL;
-@property(readonly, nonatomic) NSString *devicesUIURL;
-@property(readonly, nonatomic) NSString *dismissAlertURL;
-@property(readonly, nonatomic) NSString *emailLookupURL;
-@property(readonly, nonatomic) NSString *existingAppleIDTermsUIURL;
-@property(readonly, nonatomic) NSString *familyEligibilityURL;
-@property(readonly, nonatomic) NSString *familyInviteSentV2URL;
-@property(readonly, nonatomic) NSString *familyLearnMoreURL;
-@property(readonly, nonatomic) NSString *familyMemberDetailsUIURL;
-@property(readonly, nonatomic) NSString *familyPaymentCardUIURL;
-@property(readonly, nonatomic) NSString *familyPaymentInfoURL;
-@property(readonly, nonatomic) NSString *familySetupUIURL;
-@property(readonly, nonatomic) NSString *familyUIURL;
-@property(readonly, nonatomic) NSString *fetchAccountSettingsURL;
-@property(readonly, nonatomic) NSString *fetchFamilyInviteV2URL;
-@property(readonly, nonatomic) NSString *finishProvisioningURL;
-@property(readonly, nonatomic) NSString *fmipAuthenticate;
-@property(readonly, nonatomic) NSString *genericTermsURL;
-@property(readonly, nonatomic) NSString *getAccountEventDetailsURL;
-@property(readonly, nonatomic) NSString *getDeviceListURL;
-@property(readonly, nonatomic) NSString *getFamilyDetailsURL;
-@property(readonly, nonatomic) NSString *getFamilyMemberPhotoURL;
-@property(readonly, nonatomic) NSString *getFamilyPushDetailsURL;
-@property(readonly, nonatomic) NSString *getMyPhotoURL;
-@property(readonly, nonatomic) NSString *grandslamURL;
-@property(readonly, copy, nonatomic) NSNumber *homepodSetupiCloudTerms;
-@property(readonly, nonatomic) NSString *iForgotUIURL;
-@property(readonly, nonatomic) NSString *initiateFamilyV2URL;
-@property(readonly, nonatomic) NSString *initiateValidateEmailURL;
-@property(readonly, nonatomic) NSString *loginAccountURL;
-@property(readonly, nonatomic) NSString *loginDelegatesURL;
-@property(readonly, nonatomic) NSString *loginOrCreateDelegatesURL;
-@property(readonly, nonatomic) NSString *mobileMeOfferAlertURL;
-@property(readonly, nonatomic) NSString *passwordSecurityUIURL;
-@property(readonly, nonatomic) NSString *paymentInfoUIURL;
-@property(readonly, nonatomic) NSString *paymentSummaryURL;
-@property(readonly, nonatomic) NSString *pendingFamilyInvitesUIURL;
-@property(readonly, nonatomic) NSString *personalInfoUIURL;
-@property(readonly, copy, nonatomic) NSNumber *preProxTermsEnabled;
-@property(readonly, nonatomic) NSString *registerDeviceURL;
-@property(readonly, nonatomic) NSString *registerURL;
-@property(readonly, nonatomic) NSString *rejectChildTransferURL;
-@property(readonly, nonatomic) NSString *repairCloudAccountUIURL;
-@property(readonly, nonatomic) NSString *secondaryAuthenticationURL;
-@property(readonly, nonatomic) NSString *sendCodeURL;
-@property(readonly, nonatomic) NSString *signInURL;
-@property(readonly, nonatomic) NSString *signingSessionCertURL;
-@property(readonly, nonatomic) NSString *signingSessionURL;
-@property(readonly, nonatomic) NSString *startFamilyInviteV2URL;
-@property(readonly, nonatomic) NSString *syncMachineURL;
-@property(readonly, nonatomic) NSString *termsReportUserActionURL;
-@property(readonly, copy, nonatomic) NSNumber *termsUIType;
-@property(readonly, nonatomic) NSString *unregisterDeviceURL;
-@property(readonly, nonatomic) NSString *updateAccountUIURL;
-@property(readonly, nonatomic) NSString *updateAccountURL;
-@property(readonly, nonatomic) NSString *updateMyPhotoURL;
-@property(readonly, nonatomic) NSString *updateNameURL;
 @property(readonly, nonatomic) NSArray *urlsStoringCookies;
-@property(readonly, copy, nonatomic) NSNumber *usePDS;
-@property(readonly, nonatomic) NSString *validateURL;
-@property(readonly, nonatomic) NSString *verifyCodeURL;
-@property(readonly, nonatomic) NSString *walrusWebAccessPCSAuthURL;
 
 @end
 

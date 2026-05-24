@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PLPidAndProcessName
 {
     NSNumber *_pid;
-    NSString *_processName;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain) NSNumber *pid; // @synthesize pid=_pid;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
 
 @end
 

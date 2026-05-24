@@ -9,7 +9,6 @@
 @interface MPStoreModelObjectBuilder
 {
     _Bool _preventStoreItemMetadataCaching;
-    MPPropertySet *_requestedPropertySet;
 }
 
 + (id);
@@ -23,10 +22,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)latformDictionary;
+- (void)_storePlatformDictionary;
 
 // Remaining properties
-@property(nonatomic) _Bool preventStoreItemMetadataCaching; // @synthesize preventStoreItemMetadataCaching=_preventStoreItemMetadataCaching;
 @property(readonly, nonatomic) MPPropertySet *requestedPropertySet; // @synthesize requestedPropertySet=_requestedPropertySet;
 
 @end

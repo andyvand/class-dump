@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISDocumentRecipe
 {
     _Bool _maskBadgeResource;
-    _Bool _badgeWithSymbol;
-    _Bool _hasText;
-    _Bool _hasBespokeBackground;
-    _Bool _treatLikeSymbol;
-    unsigned long long _platform;
 }
 
 - (void);
@@ -30,31 +23,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)16@24@32;
+- (id)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (_Bool)componentsJoinedByString: /* Error: Ran out of types for this method. */;
+- (id)attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
+- (_Bool)arrayWithObjects: /* Error: Ran out of types for this method. */;
+- (void)$;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property _Bool badgeWithSymbol; // @synthesize badgeWithSymbol=_badgeWithSymbol;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasBespokeBackground; // @synthesize hasBespokeBackground=_hasBespokeBackground;
-@property _Bool hasText; // @synthesize hasText=_hasText;
-@property(readonly) unsigned long long hash;
 @property _Bool maskBadgeResource; // @synthesize maskBadgeResource=_maskBadgeResource;
-@property unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly) Class superclass;
-@property _Bool treatLikeSymbol; // @synthesize treatLikeSymbol=_treatLikeSymbol;
 
 @end
 

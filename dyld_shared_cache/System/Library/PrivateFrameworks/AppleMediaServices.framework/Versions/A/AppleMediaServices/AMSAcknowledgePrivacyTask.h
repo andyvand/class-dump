@@ -11,7 +11,6 @@
 @interface AMSAcknowledgePrivacyTask : AMSTask
 {
     ACAccount *_account;
-    NSSet *_privacyIdentifiers;
 }
 
 - (void);
@@ -25,12 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e published value;
 - (void)ventsData;
 - (void)|×õZ·çôúÈ%(Õíê;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
 @property(copy) NSSet *privacyIdentifiers; // @synthesize privacyIdentifiers=_privacyIdentifiers;
 
 @end

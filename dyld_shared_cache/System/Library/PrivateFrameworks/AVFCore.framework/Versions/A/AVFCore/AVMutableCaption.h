@@ -16,18 +16,18 @@
 - (void);
 - (void);
 - (void);
+- (void)ș;
+- (void);
+- (void);
+- (void);
+- (void)r;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),m;
 - (void);
 - (long long);
 - (id);
@@ -35,13 +35,12 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415);
 - (long long)rceloader.state;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text;
-@property(nonatomic) CDStruct_e83c9415 timeRange;
 
 @end
 

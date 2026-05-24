@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardCollectionView, ABCardCollectionViewController, ABCardViewStyleProvider, AKCardViewDataSource, CNContact, CNUIEditingRules, NSString;
-@protocol CNContactDetailsViewControllerDelegate;
+@class CNUIEditingRules;
 
 @interface CNContactDetailsViewController
 {
     _Bool _isUnified;
-    CNContact *_contact;
-    id <CNContactDetailsViewControllerDelegate> _controllerDelegate;
-    ABCardViewStyleProvider *_styleProvider;
-    AKCardViewDataSource *_dataSource;
-    unsigned long long _mode;
-    CNUIEditingRules *_editingRules;
-    ABCardCollectionView *_cardCollectionView;
-    ABCardCollectionViewController *_cardCollectionViewController;
 }
 
 - (id);
@@ -33,13 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -50,7 +41,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,7 +50,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)anguageMismatch;
 - (void);
 - (void);
 - (void);
@@ -67,29 +58,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool)n:toColumn: /* Error: Ran out of types for this method. */;
+- (void)";
+- (_Bool)tableView:shouldReorderColumn:toColumn: /* Error: Ran out of types for this method. */;
 - (void)GÄéGyÄéGyk÷éGGG;
 - (id)AEyACy(äJ_.ÿÿtGGA2_GtGGG_(äJQo__Qo_;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ABCardCollectionView *cardCollectionView; // @synthesize cardCollectionView=_cardCollectionView;
-@property(retain, nonatomic) ABCardCollectionViewController *cardCollectionViewController; // @synthesize cardCollectionViewController=_cardCollectionViewController;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) __weak id <CNContactDetailsViewControllerDelegate> controllerDelegate; // @synthesize controllerDelegate=_controllerDelegate;
-@property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CNUIEditingRules *editingRules; // @synthesize editingRules=_editingRules;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isUnified; // @synthesize isUnified=_isUnified;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
 
 @end
 

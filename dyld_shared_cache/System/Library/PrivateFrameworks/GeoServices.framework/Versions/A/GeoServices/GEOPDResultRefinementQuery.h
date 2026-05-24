@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRefinementSessionState, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPDResultRefinementQuery
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_refinementSections;
-    GEOPDRefinementSessionState *_refinementSessionState;
-    NSMutableArray *_refinements;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultRefinementOriginType;
-    struct {
-        unsigned int has_resultRefinementOriginType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_refinementSections:1;
-        unsigned int read_refinementSessionState:1;
-        unsigned int read_refinements:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)sCodeInfo:(id)arg1;
++ (_Bool)setIncludeStatusCodeInfo:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -51,14 +35,14 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)B;
 - (id);
 - (void);
+- (void);
+- (id)_voiceTriggerAssetDownloadMonitor;
+- (void)audioProvider found for streamHandleId :(id)arg1 %{public}llu;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -66,19 +50,13 @@
 - (id);
 - (void);
 - (id)loadResponse"b1"wrote_anyField"b1};
-- (id)ta: /* Error: Ran out of types for this method. */;
+- (id)_notifyWithActiveRouteDetailsData: /* Error: Ran out of types for this method. */;
 - (id)ô¡;
-- (id)_ADDRESS;
+- (id)AUTOCOMPLETE_RESULT_TYPE_FILTER_ADDRESS;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRefinementSessionState;
-@property(nonatomic) _Bool hasResultRefinementOriginType;
-@property(retain, nonatomic) NSMutableArray *refinementSections;
-@property(retain, nonatomic) GEOPDRefinementSessionState *refinementSessionState;
 @property(retain, nonatomic) NSMutableArray *refinements;
-@property(nonatomic) int resultRefinementOriginType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

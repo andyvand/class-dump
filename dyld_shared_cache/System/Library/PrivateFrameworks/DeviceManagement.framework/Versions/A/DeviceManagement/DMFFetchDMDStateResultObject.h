@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H};
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dmdStateDescription; // @synthesize dmdStateDescription=_dmdStateDescription;

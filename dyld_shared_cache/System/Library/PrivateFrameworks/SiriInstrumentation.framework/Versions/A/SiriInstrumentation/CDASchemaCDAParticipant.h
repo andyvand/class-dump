@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface CDASchemaCDAParticipant : SISchemaInstrumentationMessage
 {
     unsigned int _goodnessScore;
-    int _deviceClass;
-    unsigned int _productType;
-    SISchemaUUID *_electionParticipantId;
-    SISchemaUUID *_rotatedElectionParticipantId;
-    struct {
-        unsigned int goodnessScore:1;
-        unsigned int deviceClass:1;
-        unsigned int productType:1;
-    } _has;
-    _Bool _hasElectionParticipantId;
-    _Bool _hasRotatedElectionParticipantId;
 }
 
 - (void);
@@ -31,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (id);
 - (void);
@@ -41,8 +28,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned int);
-- (id);
+- (unsigned int)0:8@"NSTextView"16@"NSArray"24 /* Error: Ran out of types for this method. */;
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -52,8 +39,8 @@
 - (_Bool);
 - (id);
 - (id)tus"b1"bypassReason"b1"maxRss"b1};
-- (int)ng: /* Error: Ran out of types for this method. */;
-- (id)ntEagerExecutionCancelled;
+- (int)setIsApprovedForGrading: /* Error: Ran out of types for this method. */;
+- (id)CNVSchemaCNVIntentEagerExecutionCancelled;
 - (id)¬±Ð±ä³´Ð¶ô¶@¸d¸´¹Ø¹ä»¼X½|½Ì¾ð¾XÃ|ÃÅ¬ÅøÆÇlÈÈàÉÊÌÌðÌ@ÎdÎpÐÐ\ÓÓÐÔôÔ¼×à×ôÙÚhÛÛTÞxÞÈßìß<á`áðäå(çLçèÀè;
 - (void)ài¯ÿhz°É_&;
 - (void)Ç(;
@@ -62,17 +49,7 @@
 - (unsigned int)»;
 
 // Remaining properties
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(retain, nonatomic) SISchemaUUID *electionParticipantId; // @synthesize electionParticipantId=_electionParticipantId;
 @property(nonatomic) unsigned int goodnessScore; // @synthesize goodnessScore=_goodnessScore;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasElectionParticipantId; // @synthesize hasElectionParticipantId=_hasElectionParticipantId;
-@property(nonatomic) _Bool hasGoodnessScore;
-@property(nonatomic) _Bool hasProductType;
-@property(nonatomic) _Bool hasRotatedElectionParticipantId; // @synthesize hasRotatedElectionParticipantId=_hasRotatedElectionParticipantId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int productType; // @synthesize productType=_productType;
-@property(retain, nonatomic) SISchemaUUID *rotatedElectionParticipantId; // @synthesize rotatedElectionParticipantId=_rotatedElectionParticipantId;
 
 @end
 

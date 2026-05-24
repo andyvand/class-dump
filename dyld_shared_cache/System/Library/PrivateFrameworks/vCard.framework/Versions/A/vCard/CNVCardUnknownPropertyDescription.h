@@ -9,19 +9,17 @@
 @interface CNVCardUnknownPropertyDescription
 {
     NSString *_propertyName;
-    NSString *_originalLine;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *originalLine; // @synthesize originalLine=_originalLine;
 @property(copy) NSString *propertyName; // @synthesize propertyName=_propertyName;
 
 @end

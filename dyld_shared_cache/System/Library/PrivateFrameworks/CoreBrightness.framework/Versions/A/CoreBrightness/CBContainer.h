@@ -5,22 +5,19 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBContainer
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    CDUnknownBlockType _notificationBlock;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Chinese (Mandarin);
+- (void)	?֔";
 
 @end
 

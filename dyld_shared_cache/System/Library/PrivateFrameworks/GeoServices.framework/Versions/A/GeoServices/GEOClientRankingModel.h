@@ -11,8 +11,8 @@
     NSArray *_features;
 }
 
-- (id);
-- (id);
+- (id)publish;
+- (id)SpeakerRecognitionScoreCard:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ft,@;
 - (void)0Vÿ×76H6;

@@ -9,7 +9,6 @@
 @interface _CHSWidgetRelevancePropertiesBufBuilder
 {
     AFBBufferBuilder *_owner;
-    struct WidgetRelevancePropertiesBufBuilder *_bldr;
 }
 
 - (void);

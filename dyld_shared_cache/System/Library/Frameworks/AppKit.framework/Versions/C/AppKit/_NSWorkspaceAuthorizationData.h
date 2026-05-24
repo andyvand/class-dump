@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _NSWorkspaceAuthorizationData
 {
     CDStruct_48875a69 _authExt;
-    struct AuthorizationOpaqueRef *_auth;
-    long long _type;
 }
 
-- (struct AuthorizationOpaqueRef *);
-- (id);
-- (CDStruct_48875a69);
+- (struct AuthorizationOpaqueRef *);
+- (id)_ZN19URLConnectionLoader26protocolDidReceiveResponseEP14_CFURLResponse;
+- (CDStruct_48875a69)failed.  Errno=%{errno}d;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly) struct AuthorizationOpaqueRef *auth; // @synthesize auth=_auth;
 @property(readonly) CDStruct_48875a69 authExt; // @synthesize authExt=_authExt;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

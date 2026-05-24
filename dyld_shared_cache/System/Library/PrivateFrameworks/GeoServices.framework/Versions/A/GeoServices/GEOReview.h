@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOUser, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOReview
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_languageCode;
-    NSString *_partnersResourceUrl;
-    double _reviewTime;
-    GEOUser *_reviewer;
-    double _score;
-    NSString *_snippet;
-    NSString *_uid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isChinaSuppressed;
-    struct {
-        unsigned int has_reviewTime:1;
-        unsigned int has_score:1;
-        unsigned int has_isChinaSuppressed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_languageCode:1;
-        unsigned int read_partnersResourceUrl:1;
-        unsigned int read_reviewer:1;
-        unsigned int read_snippet:1;
-        unsigned int read_uid:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
+- (id)P;
+- (void):(id)arg1 byProducingResumeData:completing with nil /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ctorizations.
+;
 - (_Bool);
 - (id);
 - (id)="has_refineSearchType"b1"has_searchType"b1"read_searchString"b1"read_suggestionItems"b1"wrote_anyField"b1};
-- (id)lterID;
-- (id)ation;
+- (id)filterID;
+- (id)_GEOTileDBDeleteTileOperation;
 - (void)ôåPP@;
 
 @end

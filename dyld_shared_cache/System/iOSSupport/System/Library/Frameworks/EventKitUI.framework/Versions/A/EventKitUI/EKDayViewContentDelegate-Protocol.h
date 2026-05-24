@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol EKDayViewContentDelegate
+- (void)ber";
+- (NSArray *)X;
+
+@optional
+- (void)X%s;
+- (void);
+- (void)ccount"16@"ACDAccountStore"24^@32;
+- (void);
 @end
 

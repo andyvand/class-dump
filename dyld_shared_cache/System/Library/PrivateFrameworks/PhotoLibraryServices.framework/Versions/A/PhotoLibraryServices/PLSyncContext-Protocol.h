@@ -5,5 +5,8 @@
 //
 
 @protocol PLSyncContext
+- (id)K
+;
+- (id);
 @end
 

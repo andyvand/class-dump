@@ -9,14 +9,12 @@
 @interface RTFusedInferredMapItem
 {
     RTMapItem *_mapItem;
-    double _confidence;
-    unsigned long long _source;
 }
 
 + (id);
+- (id)batchSignWithNGMIdentity:(id)arg1 forType:(double)arg2 error:(unsigned long long)arg3;
 - (id);
-- (id);
-- (id);
+- (id)didate pairs:%@, %@ return /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,14 +24,12 @@
 - (double);
 - (void)!°Bù1A,Ð1Â0@ù
 × ;
-- (id)eWithInterval:leeway: /* Error: Ran out of types for this method. */;
-- (void)Store;
+- (id)fireWithInterval:leeway: /* Error: Ran out of types for this method. */;
+- (void)RTEnumerableStore;
 - (void)tive}@, lifespan %{sensitive}f, numOfClustEntries %{sensitive}d, LastLoc Dist to Clust %{sensitive}f, ageLatestClust visit %{sensitive}f, Max Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f ;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(retain, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.HistoryFeedSectionFactory
 {
     id headlineModelFactory;
-    id tagService;
 }
 
 @end

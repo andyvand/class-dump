@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet, NSURL, SMPathStats, SMPaths;
+@class NSURL, SMPathStats;
 
 @interface SMPathsDirectoryClassifier
 {
     SMPathStats *statsForSystemFiles;
-    SMPathStats *statsForPrinterFiles;
-    SMPathStats *statsForLibraryFiles;
-    SMPathStats *statsForSlashFiles;
-    SMPathStats *statsForApplicationsFiles;
-    SMPathStats *statsForLibraryPreferencesFiles;
-    SMPathStats *statsForLibraryPreferencesDirectoryServiceFiles;
-    SMPathStats *statsForSystemLibraryPrivateFrameworksFiles;
-    SMPathStats *statsForServerFiles;
-    SMPathStats *statsForLegacyServerFiles;
-    SMPathStats *statsForIncompatibleApps;
-    SMPathStats *statsForActiveUserFiles;
-    _Bool _containsSystemRuleClaimedFiles;
-    _Bool _containsDoNotScanPaths;
-    _Bool _doNotCoalesce;
-    _Bool _statistical;
-    NSURL *_directory;
-    SMPaths *_pather;
-    NSMutableSet *_systemFiles;
-    NSMutableSet *_printerFiles;
-    NSMutableSet *_libraryFiles;
-    NSMutableSet *_slashFiles;
-    NSMutableSet *_applicationsFiles;
-    NSMutableSet *_libraryPreferencesFiles;
-    NSMutableSet *_libraryPreferencesDirectoryServiceFiles;
-    NSMutableSet *_systemLibraryPrivateFrameworksFiles;
-    NSMutableSet *_serverFiles;
-    NSMutableSet *_legacyServerFiles;
-    NSMutableSet *_incompatibleAppsFiles;
-    NSMutableSet *_skippedBundles;
-    NSDictionary *_prefixToGrouping;
-    NSArray *_sortedPrefixes;
-    NSMutableSet *_activeUserFileClassification;
 }
 
 - (unsigned long long);
@@ -71,23 +39,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -100,31 +68,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSMutableSet *activeUserFileClassification; // @synthesize activeUserFileClassification=_activeUserFileClassification;
-@property(retain, nonatomic) NSMutableSet *applicationsFiles; // @synthesize applicationsFiles=_applicationsFiles;
-@property(nonatomic) _Bool containsDoNotScanPaths; // @synthesize containsDoNotScanPaths=_containsDoNotScanPaths;
-@property(nonatomic) _Bool containsSystemRuleClaimedFiles; // @synthesize containsSystemRuleClaimedFiles=_containsSystemRuleClaimedFiles;
 @property(retain, nonatomic) NSURL *directory; // @synthesize directory=_directory;
-@property(nonatomic) _Bool doNotCoalesce; // @synthesize doNotCoalesce=_doNotCoalesce;
-@property(retain, nonatomic) NSMutableSet *incompatibleAppsFiles; // @synthesize incompatibleAppsFiles=_incompatibleAppsFiles;
-@property(retain, nonatomic) NSMutableSet *legacyServerFiles; // @synthesize legacyServerFiles=_legacyServerFiles;
-@property(retain, nonatomic) NSMutableSet *libraryFiles; // @synthesize libraryFiles=_libraryFiles;
-@property(retain, nonatomic) NSMutableSet *libraryPreferencesDirectoryServiceFiles; // @synthesize libraryPreferencesDirectoryServiceFiles=_libraryPreferencesDirectoryServiceFiles;
-@property(retain, nonatomic) NSMutableSet *libraryPreferencesFiles; // @synthesize libraryPreferencesFiles=_libraryPreferencesFiles;
-@property(nonatomic) __weak SMPaths *pather; // @synthesize pather=_pather;
-@property(retain, nonatomic) NSDictionary *prefixToGrouping; // @synthesize prefixToGrouping=_prefixToGrouping;
-@property(retain, nonatomic) NSMutableSet *printerFiles; // @synthesize printerFiles=_printerFiles;
-@property(retain, nonatomic) NSMutableSet *serverFiles; // @synthesize serverFiles=_serverFiles;
-@property(retain, nonatomic) NSMutableSet *skippedBundles; // @synthesize skippedBundles=_skippedBundles;
-@property(retain, nonatomic) NSMutableSet *slashFiles; // @synthesize slashFiles=_slashFiles;
-@property(retain, nonatomic) NSArray *sortedPrefixes; // @synthesize sortedPrefixes=_sortedPrefixes;
-@property(nonatomic) _Bool statistical; // @synthesize statistical=_statistical;
-@property(retain, nonatomic) NSMutableSet *systemFiles; // @synthesize systemFiles=_systemFiles;
-@property(retain, nonatomic) NSMutableSet *systemLibraryPrivateFrameworksFiles; // @synthesize systemLibraryPrivateFrameworksFiles=_systemLibraryPrivateFrameworksFiles;
 
 @end
 

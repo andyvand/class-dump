@@ -9,9 +9,9 @@
     _Bool _supportsDeviceToDeviceEncryption;
 }
 
-+ (Class);
++ (Class)r";
 + (id)a;
-- (_Bool);
+- (_Bool)isDoAPSupported;
 - (void);
 
 // Remaining properties

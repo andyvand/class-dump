@@ -9,7 +9,6 @@
 @interface ControlCenter.SystemItemMenuBarPreferences : ControlCenter.SecuredPreferencesController
 {
     id logger;
-    id systemAppsKeyPaths;
 }
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface PKLongTermPrivacyKey
 {
     NSString *_keyIdentifier;
-    NSData *_publicKey;
-    NSDate *_creationDate;
-    NSString *_groupIdentifier;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)R(!ȚI;
+- (id)!@9?];
 - (id);
 - (id);
 - (void);
@@ -26,10 +23,7 @@
 - (id)ÿA©;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(retain, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 
 @end
 

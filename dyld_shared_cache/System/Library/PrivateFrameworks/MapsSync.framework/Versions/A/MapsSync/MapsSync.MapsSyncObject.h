@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSync.MapsSyncStore, NSDate, NSLock, NSManagedObjectID, NSString, NSUUID;
-
 @interface MapsSync.MapsSyncObject
 {
     id _store;
-    id _managedObjectId;
-    id _propertyLock;
-    id _editBlocks;
-    _Bool lazyLoad;
-    id cachedHashingDescriptor;
-    id _identifier;
-    id _createTime;
-    id _modificationTime;
 }
 
 + (id);
 + (id);
 + (Class);
 + (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -37,8 +27,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)oUnitStarted;
+- (id)ssionWithDestination:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
@@ -46,7 +36,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)updateNoRemoteState:state: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -56,17 +46,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *createTime;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool hasChanges;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSUUID *identifier;
-@property(nonatomic, readonly) _Bool isStored;
 @property(nonatomic, readonly) _Bool lazyLoad; // @synthesize lazyLoad;
-@property(nonatomic, retain) NSManagedObjectID *managedId;
-@property(nonatomic, copy) NSDate *modificationTime;
-@property(nonatomic, readonly) NSLock *propertyLock;
-@property(nonatomic, readonly) MapsSync.MapsSyncStore *store;
 
 @end
 

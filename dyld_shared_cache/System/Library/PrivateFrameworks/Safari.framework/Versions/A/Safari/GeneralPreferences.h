@@ -6,55 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class DownloadLocationRemoteViewController, HomepageHostViewController, NSArray, NSButton, NSLayoutConstraint, NSMenuItem, NSPopUpButton, NSString, NSTextField, NSURL, NSView, SafariWebExtensionsController, WKWebpagePreferences;
+@class NSTextField, NSView;
 
 __attribute__((visibility("hidden")))
 @interface GeneralPreferences : PreferencesModule
 {
     NSTextField *defaultBrowserMessageField;
-    NSTextField *homePageField;
-    NSButton *useCurrentPageButton;
-    NSButton *autoOpenDownloadsCheckbox;
-    NSTextField *launchBehaviorLabel;
-    NSPopUpButton *launchBehaviorPopUp;
-    NSTextField *newWindowBehaviorLabel;
-    NSPopUpButton *newWindowBehaviorPopUp;
-    NSPopUpButton *newTabBehaviorPopUp;
-    NSPopUpButton *downloadLocationPopUp;
-    NSPopUpButton *downloadsClearingPolicyPopUp;
-    NSPopUpButton *historyAgeLimitPopUp;
-    NSTextField *historyAgeLimitLabel;
-    NSMenuItem *historyAgeLimitOneMonthItem;
-    _Bool _confirmingHomePageURL;
-    double _forcedWindowHeight;
-    HomepageHostViewController *_remoteHomepageViewController;
-    DownloadLocationRemoteViewController *_downloadLocationRemoteViewController;
-    NSURL *_cachedDownloadLocationURL;
-    _Bool _cachedAlwaysPromptForDownloadPath;
-    _Bool _cachedDownloadLocationIsForced;
-    _Bool _launchBehaviorMenuItemsAreHidden;
-    _Bool _registeredForDefaultBrowserChangedNotifications;
-    long long _defaultBrowserState;
-    NSArray *_identifiersForExtensionsWithOverridePages;
-    _Bool _applyingHomePageBeforeClosing;
-    WKWebpagePreferences *_defaultWebpagePreferences;
-    SafariWebExtensionsController *_webExtensionsController;
-    NSTextField *_managedHomepageBehaviorTextField;
-    NSTextField *_managedNewTabAndWindowBehaviorTextField;
-    NSView *_mainContentView;
-    NSTextField *_downloadLocationTextField;
-    NSLayoutConstraint *_downloadLocationPopUpButtonMinimizeWidthConstraint;
-    NSTextField *_favoritesCollectionTextField;
-    NSPopUpButton *_favoritesCollectionPopUpButton;
-    NSTextField *_numberOfTopSitesTextField;
-    NSPopUpButton *_numberOfTopSitesPopUp;
-    NSView *_nonDefaultBrowserInformativeView;
-    NSView *_homepageFieldContainerView;
-    NSLayoutConstraint *_nonDefaultBrowserInformativeViewTopSpaceConstraint;
-    NSLayoutConstraint *_nonDefaultBrowserInformativeViewTrailingSpaceConstraint;
-    NSLayoutConstraint *_nonDefaultBrowserInformativeViewBottomSpaceToMainContentViewConstraint;
-    NSLayoutConstraint *_nonDefaultBrowserInformativeViewLeadingSpaceConstraint;
-    NSLayoutConstraint *_nonDefaultBrowserInformativeViewCenteringConstraint;
 }
 
 - (void);
@@ -122,7 +79,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -131,7 +88,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -139,7 +96,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t create IMFileTransfer from RemoteIntentFileTransfer.dictionaryRepresentation;
 - (id);
 - (void)ø;
 - (void) ;
@@ -148,27 +105,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSLayoutConstraint *downloadLocationPopUpButtonMinimizeWidthConstraint; // @synthesize downloadLocationPopUpButtonMinimizeWidthConstraint=_downloadLocationPopUpButtonMinimizeWidthConstraint;
-@property(nonatomic) __weak NSTextField *downloadLocationTextField; // @synthesize downloadLocationTextField=_downloadLocationTextField;
-@property(nonatomic) __weak NSPopUpButton *favoritesCollectionPopUpButton; // @synthesize favoritesCollectionPopUpButton=_favoritesCollectionPopUpButton;
-@property(nonatomic) __weak NSTextField *favoritesCollectionTextField; // @synthesize favoritesCollectionTextField=_favoritesCollectionTextField;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSView *homepageFieldContainerView; // @synthesize homepageFieldContainerView=_homepageFieldContainerView;
 @property(nonatomic) __weak NSView *mainContentView; // @synthesize mainContentView=_mainContentView;
-@property(retain, nonatomic) NSView *nonDefaultBrowserInformativeView; // @synthesize nonDefaultBrowserInformativeView=_nonDefaultBrowserInformativeView;
-@property(retain, nonatomic) NSLayoutConstraint *nonDefaultBrowserInformativeViewBottomSpaceToMainContentViewConstraint; // @synthesize nonDefaultBrowserInformativeViewBottomSpaceToMainContentViewConstraint=_nonDefaultBrowserInformativeViewBottomSpaceToMainContentViewConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *nonDefaultBrowserInformativeViewCenteringConstraint; // @synthesize nonDefaultBrowserInformativeViewCenteringConstraint=_nonDefaultBrowserInformativeViewCenteringConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *nonDefaultBrowserInformativeViewLeadingSpaceConstraint; // @synthesize nonDefaultBrowserInformativeViewLeadingSpaceConstraint=_nonDefaultBrowserInformativeViewLeadingSpaceConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *nonDefaultBrowserInformativeViewTopSpaceConstraint; // @synthesize nonDefaultBrowserInformativeViewTopSpaceConstraint=_nonDefaultBrowserInformativeViewTopSpaceConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *nonDefaultBrowserInformativeViewTrailingSpaceConstraint; // @synthesize nonDefaultBrowserInformativeViewTrailingSpaceConstraint=_nonDefaultBrowserInformativeViewTrailingSpaceConstraint;
-@property(nonatomic) __weak NSPopUpButton *numberOfTopSitesPopUp; // @synthesize numberOfTopSitesPopUp=_numberOfTopSitesPopUp;
-@property(nonatomic) __weak NSTextField *numberOfTopSitesTextField; // @synthesize numberOfTopSitesTextField=_numberOfTopSitesTextField;
-@property(readonly) Class superclass;
 
 @end
 

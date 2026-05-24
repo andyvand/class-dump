@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NWConcrete_nwswifttlsconfig
+- (void);
 
 // Remaining properties
 @property _Bool enable_early_data;

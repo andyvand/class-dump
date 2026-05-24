@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol NSAccessibilitySlider
+- (_Bool);
+- (id)c;
 - (NSString *)xElement:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -11,13 +11,12 @@
     id sMSParserAttachmentPart;
 }
 
-- (id);
+- (id)%{bool}d.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contentLocation;
 @property(nonatomic, readonly) NSString *description;
 
 @end

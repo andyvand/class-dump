@@ -7,14 +7,6 @@
 @interface GEOViewportFrame
 {
     _Bool _hasViewTargetBounds;
-    float _heading;
-    float _pitch;
-    float _distance;
-    double _altitude;
-    double _latitude;
-    double _longitude;
-    CDStruct_071ac149 _minViewTargetBounds;
-    CDStruct_071ac149 _maxViewTargetBounds;
 }
 
 - (CDStruct_39925896);
@@ -22,23 +14,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (float);
+- (float)s no longer supported.;
 - (double)b1"read_phoneticName"b1"wrote_anyField"b1};
-- (float)Venue;
-- (float)egoryIntent;
-- (double)ilter;
+- (float)describesParentVenue;
+- (float)GEOPDSearchCategoryIntent;
+- (double)transitAssociatedInfoFilter;
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(readonly, nonatomic) float distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) _Bool hasViewTargetBounds; // @synthesize hasViewTargetBounds=_hasViewTargetBounds;
-@property(readonly, nonatomic) float heading; // @synthesize heading=_heading;
-@property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) CDStruct_39925896 maxViewTargetBounds; // @synthesize maxViewTargetBounds=_maxViewTargetBounds;
-@property(readonly, nonatomic) CDStruct_39925896 minViewTargetBounds; // @synthesize minViewTargetBounds=_minViewTargetBounds;
-@property(readonly, nonatomic) float pitch; // @synthesize pitch=_pitch;
 
 @end
 

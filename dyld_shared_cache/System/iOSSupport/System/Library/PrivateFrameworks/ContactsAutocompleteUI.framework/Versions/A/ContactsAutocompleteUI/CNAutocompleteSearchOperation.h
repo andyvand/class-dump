@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSearchManager, NSNumber, NSString;
+@class CNAutocompleteSearchManager;
 
 @interface CNAutocompleteSearchOperation
 {
     CNAutocompleteSearchManager *_owner;
-    NSNumber *_taskID;
-    NSString *_text;
-    NSString *_sendingAddress;
 }
 
 + (id);
@@ -24,10 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNAutocompleteSearchManager *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(readonly, nonatomic) NSNumber *taskID; // @synthesize taskID=_taskID;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

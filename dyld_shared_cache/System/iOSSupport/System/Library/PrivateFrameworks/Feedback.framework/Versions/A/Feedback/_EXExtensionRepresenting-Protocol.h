@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIcon, NSArray, NSDictionary, NSString, NSUUID;
+@class NSDictionary, NSString, NSXPCConnection;
 
 @protocol _EXExtensionRepresenting
+- (_Bool);
+- (_Bool);
+- (id)	;
+- (NSXPCConnection *)_validateAndInsertRawEvents:(id *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (NSString *)h;
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly) NSDictionary *attributes;
 @property(readonly) NSString *bundleIdentifier;
 @property(readonly) NSString *extensionPointIdentifier;
-@property(readonly) ISIcon *icon;
-@property(readonly) NSString *localizedName;
-@property(readonly) _Bool presentsUserInterface;
-@property(readonly) _Bool requiresFBSceneHosting;
-@property(readonly) _Bool requiresLegacyInfrastructure;
-@property(readonly) _Bool requiresMacCatalystBehavior;
-@property(readonly) NSArray *roles;
-@property(readonly) NSUUID *uniqueIdentifier;
 @end
 

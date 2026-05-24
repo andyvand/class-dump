@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPRequestResponseController;
+
 @protocol MPRequestResponseControllerDelegate
+
+@optional
+- (void)monthDayNodesForLocalDate:(MPRequestResponseController *)arg1 inGraph: /* Error: Ran out of types for this method. */;
+- (void)graphConsistencyPercentageThresholdForTTR;
+- (_Bool)futureMemoryCollisionUniversalDateInterval;
+- (void)futureMemoriesForConfiguration:(MPRequestResponseController *)arg1 withGraph:(void (^)(void))arg2 progressReporter: /* Error: Ran out of types for this method. */;
 @end
 

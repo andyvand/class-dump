@@ -7,13 +7,15 @@
 @interface FTEmbeddedReachability
 {
     _Bool localWiFiRef;
-    struct __SCNetworkReachability *reachabilityRef;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ted_team_ids (
+    team_id TEXT PRIMARY KEY,
+    signature BLOB NOT NULL
+);
 - (long long);
 - (long long);
 - (void);

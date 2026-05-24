@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface ICBackgroundTaskScheduler
 {
     NSMutableDictionary *_registeredTasks;
-    NSMutableSet *_scheduledTasks;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)nodeWithSession:(id)arg1 name:error: /* Error: Ran out of types for this method. */;
+- (void)initByFindingExistingLocaleWithName:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *registeredTasks; // @synthesize registeredTasks=_registeredTasks;
-@property(retain, nonatomic) NSMutableSet *scheduledTasks; // @synthesize scheduledTasks=_scheduledTasks;
 
 @end
 

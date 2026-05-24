@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, SKStatusSubscriptionService;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface IMHandleAvailabilityManager
 {
     long long _subscriptionServiceOnceToken;
-    NSMutableDictionary *_currentSubscriptionCache;
-    NSMutableDictionary *_lastKnownSubscriptionCache;
-    long long _currentCacheGeneration;
-    NSMutableSet *_pendingFetchesForCacheKeys;
-    SKStatusSubscriptionService *_subscriptionService;
-    NSObject<OS_dispatch_queue> *_privateWorkQueue;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)�;
 - (long long);
 - (id);
 - (long long);
@@ -41,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)#;
 - (id);
 - (void);
 - (void);
@@ -50,23 +43,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)m/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation;
 - (void)P±ì²d³;
 
 // Remaining properties
-@property(nonatomic) long long currentCacheGeneration; // @synthesize currentCacheGeneration=_currentCacheGeneration;
 @property(retain, nonatomic) NSMutableDictionary *currentSubscriptionCache; // @synthesize currentSubscriptionCache=_currentSubscriptionCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *lastKnownSubscriptionCache; // @synthesize lastKnownSubscriptionCache=_lastKnownSubscriptionCache;
-@property(retain, nonatomic) NSMutableSet *pendingFetchesForCacheKeys; // @synthesize pendingFetchesForCacheKeys=_pendingFetchesForCacheKeys;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateWorkQueue; // @synthesize privateWorkQueue=_privateWorkQueue;
-@property(retain, nonatomic) SKStatusSubscriptionService *subscriptionService; // @synthesize subscriptionService=_subscriptionService;
-@property(readonly) Class superclass;
 
 @end
 

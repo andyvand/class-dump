@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface CRKValidXPCConnectionProvider
 {
     NSXPCConnection *_backingConnection;
-    CDUnknownBlockType _builder;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -23,17 +20,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)	DK
+;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)dy;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *backingConnection; // @synthesize backingConnection=_backingConnection;
-@property(readonly, nonatomic) CDUnknownBlockType builder; // @synthesize builder=_builder;
-@property(readonly) NSXPCConnection *connection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

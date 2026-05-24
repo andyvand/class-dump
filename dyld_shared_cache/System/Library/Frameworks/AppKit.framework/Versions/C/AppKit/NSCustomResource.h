@@ -4,55 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageSymbolConfiguration, NSNumber, NSString;
+@class NSString;
 
 @interface NSCustomResource
 {
     NSString *className;
-    NSString *resourceName;
-    NSString *resourceCatalogName;
-    NSNumber *imageIsTemplate;
-    NSImageSymbolConfiguration *imageSymbolConfiguration;
-    double variableValue;
 }
 
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (void)tG;
++ (void)5;
++ (id)%@
+;
++ (id)ameSite:%@
+ /* Error: Ran out of types for this method. */;
 + (void)0Í$ÿËhH;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)taskDependencyWithMainDocumentTask:(id)arg1;
+- (id)taskDependencyDescriptionWithMimeType:(id)arg1 parentURLPath:(id)arg2;
+- (id)taskDependencyDescriptionWithMimeType:(id)arg1 parentMimeType:(id)arg2;
+- (id)taskDependencyDescription;
+- (id)task:(id)arg1 _getAuthHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)false_start_used;
 - (id);
 - (id);
 - (void);
 - (void)Qà3ð1Â0@ù
 × ;
-- (double)ey: /* Error: Ran out of types for this method. */;
+- (double)setRecentDocumentRecordsKey: /* Error: Ran out of types for this method. */;
 - (id)4d;
 - (void)H;
 - (id)rI;
 
 // Remaining properties
 @property(copy) NSString *className;
-@property(copy) NSNumber *imageIsTemplate;
-@property(copy) NSImageSymbolConfiguration *imageSymbolConfiguration;
-@property(copy) NSString *resourceCatalogName;
-@property(copy) NSString *resourceName;
-@property double variableValue;
 
 @end
 

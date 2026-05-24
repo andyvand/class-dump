@@ -7,17 +7,12 @@
 @interface PXOverlayFeedLayoutMetrics
 {
     _Bool _useSimpleLayout;
-    double _firstRowTopMargin;
-    double _regularItemAspectRatio;
-    double _largeItemAspectRatio;
-    struct CGSize _interItemSpacing;
-    struct NSEdgeInsets _contentInsets;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -26,15 +21,10 @@
 - (void);
 - (struct NSEdgeInsets);
 - (void);
-- (id);
+- (id)px_image;
 
 // Remaining properties
 @property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(nonatomic) double firstRowTopMargin; // @synthesize firstRowTopMargin=_firstRowTopMargin;
-@property(nonatomic) struct CGSize interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(nonatomic) double largeItemAspectRatio; // @synthesize largeItemAspectRatio=_largeItemAspectRatio;
-@property(nonatomic) double regularItemAspectRatio; // @synthesize regularItemAspectRatio=_regularItemAspectRatio;
-@property(nonatomic) _Bool useSimpleLayout; // @synthesize useSimpleLayout=_useSimpleLayout;
 
 @end
 

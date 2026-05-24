@@ -8,18 +8,12 @@ __attribute__((visibility("hidden")))
 @interface TMNodeCacheEntry
 {
     unsigned long long _destinationFileID;
-    unsigned long long _sourceFileID;
-    unsigned int _flags;
-    struct {
-        unsigned int destinationFileID:1;
-        unsigned int sourceFileID:1;
-    } _has;
 }
 
 - (unsigned long long);
+- (void)Na;
 - (void);
-- (void);
-- (void);
+- (void)Qy;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hallenge"24@?<v@?q@"NSURLCredential">32;
 - (_Bool);
 - (void);
 - (id);
@@ -37,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long destinationFileID; // @synthesize destinationFileID=_destinationFileID;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) _Bool hasDestinationFileID;
 @property(nonatomic) _Bool hasSourceFileID;
-@property(nonatomic) unsigned long long sourceFileID; // @synthesize sourceFileID=_sourceFileID;
 
 @end
 

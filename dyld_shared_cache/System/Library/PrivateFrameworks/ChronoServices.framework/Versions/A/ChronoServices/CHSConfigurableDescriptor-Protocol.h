@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSIntentReference, NSString;
+@class NSString;
 
 @protocol CHSConfigurableDescriptor
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConfigurable) _Bool configurable;
-@property(readonly, copy, nonatomic) CHSIntentReference *defaultIntentReference;
 @property(readonly, copy, nonatomic) NSString *intentType;
 @end
 

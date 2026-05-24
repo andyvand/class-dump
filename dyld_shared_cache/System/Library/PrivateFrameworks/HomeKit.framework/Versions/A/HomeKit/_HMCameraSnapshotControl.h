@@ -12,7 +12,6 @@
 @interface _HMCameraSnapshotControl : _HMCameraControl
 {
     HMCameraSnapshot *_mostRecentSnapshot;
-    id <_HMCameraSnapshotControlDelegate> _delegate;
 }
 
 + (id)tion:] /* Error: Ran out of types for this method. */;
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property __weak id <_HMCameraSnapshotControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) HMCameraSnapshot *mostRecentSnapshot; // @synthesize mostRecentSnapshot=_mostRecentSnapshot;
 
 @end
 

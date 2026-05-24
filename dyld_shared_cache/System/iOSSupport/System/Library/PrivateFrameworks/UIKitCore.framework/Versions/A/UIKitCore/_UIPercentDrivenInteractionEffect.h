@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIPercentDrivenInteractionEffect
 {
     CDUnknownBlockType _progressBlock;
 }
 
-- (void);
-- (void);
+- (void)5;
+- (void)routingControllerAvailableRoutesDidChange:(id)arg1;
 - (CDUnknownBlockType);
 - (id)1Â0@ù
 × ;
-- (void)Effect;
+- (void)UIHoverAutomaticEffect;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly) Class superclass;
 
 @end
 

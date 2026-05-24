@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (unsigned long long)(;
+- (void);
+- (_Bool)willAddToWebView;
 - (id);
-- (void);
+- (void)set_stopIcon: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AXKTextElementEditListener> listener; // @synthesize listener=_listener;

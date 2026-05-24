@@ -23,7 +23,6 @@
 - (void)@"NSString",R,C,N,V_tabGroupUUID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType operationCompletionHandler; // @synthesize operationCompletionHandler=_operationCompletionHandler;
 @property(readonly, nonatomic) WBSLPLinkMetadataRequest *request; // @dynamic request;
 
 @end

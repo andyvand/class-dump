@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SiriUIIntArray2D
 {
     long long *_arrayData;
-    unsigned long long _iSize;
-    unsigned long long _jSize;
-    _Bool _shouldBoundsCheck;
 }
 
 + (id);
@@ -24,13 +21,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)anicImageContentBorderLayer;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long iSize; // @synthesize iSize=_iSize;
-@property(readonly, nonatomic) unsigned long long jSize; // @synthesize jSize=_jSize;
-@property(nonatomic) _Bool shouldBoundsCheck; // @synthesize shouldBoundsCheck=_shouldBoundsCheck;
 
 @end
 

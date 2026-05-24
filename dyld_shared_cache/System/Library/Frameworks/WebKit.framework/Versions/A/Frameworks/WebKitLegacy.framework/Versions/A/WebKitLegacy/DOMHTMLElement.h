@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMElement.h>
 
-@class DOMHTMLCollection, NSString;
+@class NSString;
 
 @interface DOMHTMLElement : DOMElement
 {
@@ -17,24 +17,24 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)N;
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -45,24 +45,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
-- (id);
+- (id)NSSecureCoding;
 
 // Remaining properties
-@property(copy) NSString *accessKey;
-@property(readonly) DOMHTMLCollection *children;
-@property(copy) NSString *contentEditable;
-@property(copy) NSString *dir;
-@property(copy) NSString *idName;
-@property(copy) NSString *innerText;
-@property(readonly) _Bool isContentEditable;
-@property(copy) NSString *lang;
-@property(copy) NSString *outerText;
-@property int tabIndex;
 @property(copy) NSString *title;
-@property(readonly, copy) NSString *titleDisplayString;
 
 @end
 

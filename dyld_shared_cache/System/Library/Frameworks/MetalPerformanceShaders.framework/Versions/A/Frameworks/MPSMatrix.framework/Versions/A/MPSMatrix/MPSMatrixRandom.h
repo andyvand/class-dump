@@ -7,9 +7,6 @@
 @interface MPSMatrixRandom
 {
     unsigned int _destinationDataType;
-    unsigned long long _distributionType;
-    unsigned long long _batchStart;
-    unsigned long long _batchSize;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -18,19 +15,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)";
 - (unsigned int);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)k ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) unsigned long long batchStart; // @synthesize batchStart=_batchStart;
 @property(readonly, nonatomic) unsigned int destinationDataType; // @synthesize destinationDataType=_destinationDataType;
-@property(readonly, nonatomic) unsigned long long distributionType; // @synthesize distributionType=_distributionType;
 
 @end
 

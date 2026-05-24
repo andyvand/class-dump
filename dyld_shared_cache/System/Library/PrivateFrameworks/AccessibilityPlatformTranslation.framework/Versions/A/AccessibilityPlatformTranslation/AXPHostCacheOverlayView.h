@@ -9,7 +9,6 @@
 @interface AXPHostCacheOverlayView
 {
     NSString *_deviceIdentifier;
-    struct CGSize _deviceSize;
 }
 
 - (void);
@@ -24,13 +23,12 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ject;
+- (id)%{public}s from %{public}@ succeeded;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(nonatomic) struct CGSize deviceSize; // @synthesize deviceSize=_deviceSize;
 
 @end
 

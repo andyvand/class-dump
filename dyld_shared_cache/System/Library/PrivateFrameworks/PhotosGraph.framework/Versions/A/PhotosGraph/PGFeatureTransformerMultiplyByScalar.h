@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (id);
-- (float);
++ (id)displayableImageForImage:withRequiredImageSize:fontSize:fontWeight:fontDesign:baselineOffset:backgroundColor:cornerRadius:title:url: /* Error: Ran out of types for this method. */;
+- (float)accessibilitySections;
 - (id);
 - (id);
 - (id);

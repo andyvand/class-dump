@@ -6,12 +6,11 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLAppleWordEmbeddingParameters, NSString;
+@class MLAppleWordEmbeddingParameters;
 
 @interface MLAppleWordEmbedding : MLModel
 {
     void *wordEmbeddingModel;
-    MLAppleWordEmbeddingParameters *_parameters;
 }
 
 + (_Bool);
@@ -23,14 +22,7 @@
 - (void)kings cannot be used for a dynamic output feature named '%@'.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLAppleWordEmbeddingParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface SSDownloadManifestResponse
 {
     NSArray *_invalidDownloads;
-    NSArray *_validDownloads;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)5;
 
 // Remaining properties
 @property(retain) NSArray *invalidDownloads;
-@property(retain) NSArray *validDownloads;
 
 @end
 

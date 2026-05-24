@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSURL, SSRSpeakerRecognitionContext;
-@protocol OS_dispatch_queue, SSRSpeakerAnalyzerSATDelegate;
+@protocol SSRSpeakerAnalyzerSATDelegate;
 
 @interface SSRSpeakerAnalyzerSAT
 {
     void *_novDetect;
-    unsigned long long _numSamplesProcessed;
-    _Bool _triggerPhraseDetectedOnTap;
-    id <SSRSpeakerAnalyzerSATDelegate> _delegate;
-    NSURL *_configFilePath;
-    NSURL *_resourceFilePath;
-    SSRSpeakerRecognitionContext *_context;
-    NSDictionary *_voiceProfilesModelFilePaths;
-    NSDictionary *_voiceProfilesExpModelFilePaths;
-    NSArray *_satScorers;
-    NSDictionary *_scoreCard;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -54,15 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(retain, nonatomic) SSRSpeakerRecognitionContext *context; // @synthesize context=_context;
 @property(nonatomic) __weak id <SSRSpeakerAnalyzerSATDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURL *resourceFilePath; // @synthesize resourceFilePath=_resourceFilePath;
-@property(retain, nonatomic) NSArray *satScorers; // @synthesize satScorers=_satScorers;
-@property(retain, nonatomic) NSDictionary *scoreCard; // @synthesize scoreCard=_scoreCard;
-@property(retain, nonatomic) NSDictionary *voiceProfilesExpModelFilePaths; // @synthesize voiceProfilesExpModelFilePaths=_voiceProfilesExpModelFilePaths;
-@property(retain, nonatomic) NSDictionary *voiceProfilesModelFilePaths; // @synthesize voiceProfilesModelFilePaths=_voiceProfilesModelFilePaths;
 
 @end
 

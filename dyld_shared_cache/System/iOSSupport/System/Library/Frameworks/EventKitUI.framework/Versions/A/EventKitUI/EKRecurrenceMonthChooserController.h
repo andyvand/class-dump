@@ -11,28 +11,26 @@
 @interface EKRecurrenceMonthChooserController : EKRecurrenceGridChooserController
 {
     NSMutableSet *_monthsOfTheYearSet;
-    _Bool _prohibitsMultipleMonthsInYearlyRecurrence;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)%s;
 - (id);
-- (id);
+- (id)O|-;
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (_Bool);
 - (void);
 - (id);
-- (void)kDayLabel: /* Error: Ran out of types for this method. */;
+- (void)setWeekDayLabel: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *monthsOfTheYear;
-@property(nonatomic) _Bool prohibitsMultipleMonthsInYearlyRecurrence; // @synthesize prohibitsMultipleMonthsInYearlyRecurrence=_prohibitsMultipleMonthsInYearlyRecurrence;
 
 @end
 

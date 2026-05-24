@@ -6,25 +6,12 @@
 
 #import <CMCapture/FigCaptureSinkConfiguration.h>
 
-@class FigCaptureSemanticStyle, NSArray;
-
 @interface FigCaptureVideoPreviewSinkConfiguration : FigCaptureSinkConfiguration
 {
     _Bool _depthDataDeliveryEnabled;
-    _Bool _filterRenderingEnabled;
-    NSArray *_filters;
-    float _portraitLightingEffectStrength;
-    _Bool _semanticStyleRenderingEnabled;
-    FigCaptureSemanticStyle *_semanticStyle;
-    _Bool _primaryCaptureRectModificationEnabled;
-    double _primaryCaptureRectAspectRatio;
-    struct CGPoint _primaryCaptureRectCenter;
-    long long _primaryCaptureRectUniqueID;
-    _Bool _zoomPIPOverlayEnabled;
-    _Bool _portraitAutoSuggestEnabled;
 }
 
-- (void);
+- (void)createOrientedBoundsWithBounds: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -46,30 +33,19 @@
 - (void)e when initialized with _providesBackPressure=NO;
 - (_Bool)ne Monitoring Intermediate;
 - (long long)ensorTemp.front;
-- (id)ptureParams;
+- (id)timeMachineBracketedCaptureParams;
 - (double)iceWillStartStreaming];
-- (_Bool)te;
-- (void)nalImageDeliverySupported;
+- (_Bool)PreferredPreviewMaxFrameRate;
+- (void)HDROriginalImageDeliverySupported;
 - (void)reSource.m:(_Bool)arg1 1464;
 - (_Bool)ags & kCMTimeFlags_Valid) != 0))) || ((Boolean)(CMTimeCompare(adjustedTime, _lastVideoAdjustedTime) > 0)) );
-- (float);
+- (float)qta;
 - (void)AND GDC enabled without scaler chaining.;
 - (void);
 - (_Bool)¥9%;
 
 // Remaining properties
 @property(nonatomic) _Bool depthDataDeliveryEnabled; // @synthesize depthDataDeliveryEnabled=_depthDataDeliveryEnabled;
-@property(nonatomic) _Bool filterRenderingEnabled; // @synthesize filterRenderingEnabled=_filterRenderingEnabled;
-@property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) _Bool portraitAutoSuggestEnabled; // @synthesize portraitAutoSuggestEnabled=_portraitAutoSuggestEnabled;
-@property(nonatomic) float portraitLightingEffectStrength; // @synthesize portraitLightingEffectStrength=_portraitLightingEffectStrength;
-@property(nonatomic) double primaryCaptureRectAspectRatio; // @synthesize primaryCaptureRectAspectRatio=_primaryCaptureRectAspectRatio;
-@property(nonatomic) struct CGPoint primaryCaptureRectCenter; // @synthesize primaryCaptureRectCenter=_primaryCaptureRectCenter;
-@property(nonatomic) _Bool primaryCaptureRectModificationEnabled; // @synthesize primaryCaptureRectModificationEnabled=_primaryCaptureRectModificationEnabled;
-@property(nonatomic) long long primaryCaptureRectUniqueID; // @synthesize primaryCaptureRectUniqueID=_primaryCaptureRectUniqueID;
-@property(retain, nonatomic) FigCaptureSemanticStyle *semanticStyle; // @synthesize semanticStyle=_semanticStyle;
-@property(nonatomic) _Bool semanticStyleRenderingEnabled; // @synthesize semanticStyleRenderingEnabled=_semanticStyleRenderingEnabled;
-@property(nonatomic) _Bool zoomPIPOverlayEnabled; // @synthesize zoomPIPOverlayEnabled=_zoomPIPOverlayEnabled;
 
 @end
 

@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface CPXNotificationCenter
 {
     struct CGXSession *_session;
-    struct CGXSessionProcessData *_sessionData;
 }
 
-- (void);
-- (void);
+- (void)@ SET %@ = ? WHERE %@ = ? AND %@ = ?;
+- (void)nverting the metadata plist data:(unsigned int)arg1 %@;
 - (id);
 
 @end

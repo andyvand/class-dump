@@ -4,52 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IDSStunMessage
 {
     long long _type;
-    unsigned short _len;
-    NSData *_transactionID;
-    NSString *_requestID;
-    struct IDSStunAttribute _attributes[20];
-    int _numAttribute;
-    NSData *_key;
-    _Bool _requiresAES128CTR;
-    double _startTime;
-    struct _CCCryptor *_cryptorRef;
 }
 
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (long long);
-- (id);
+- (long long)ewData: /* Error: Ran out of types for this method. */;
+- (id)_CFData=}16C24;
 - (_Bool);
-- (void);
+- (void)rack;
 - (void);
 - (id)0@ù
 × ;
@@ -57,10 +46,6 @@
 - (void)cipantID map for link %d:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSData *transactionID; // @synthesize transactionID=_transactionID;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsSubscription.LandingPageDecider
 {
     id headlineService;
-    id coreConfigurationManager;
-    id offerManager;
 }
 
 @end

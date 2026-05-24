@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDraggingSession, UINSDragSession;
-@protocol UINSDragOperationMasks, UINSDragSessionHandler;
+@class NSDraggingSession;
 
 __attribute__((visibility("hidden")))
 @interface _UINSSessionWrapper
 {
     NSDraggingSession *_internalDragSession;
-    UINSDragSession *_externalDragSession;
-    id <UINSDragSessionHandler> _sessionHandler;
-    id <UINSDragOperationMasks> _operationMasks;
 }
 
 - (void);
-- (void);
+- (void)ʋ;
 - (void);
 - (void);
 - (id);
@@ -27,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) UINSDragSession *externalDragSession; // @synthesize externalDragSession=_externalDragSession;
 @property(retain) NSDraggingSession *internalDragSession; // @synthesize internalDragSession=_internalDragSession;
-@property(retain) id <UINSDragOperationMasks> operationMasks; // @synthesize operationMasks=_operationMasks;
-@property(retain) id <UINSDragSessionHandler> sessionHandler; // @synthesize sessionHandler=_sessionHandler;
 
 @end
 

@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class);
 + (Class);
 - (id);
-- (id);
+- (id)_INPBCarChargingConnectorPower;
 
 @end
 

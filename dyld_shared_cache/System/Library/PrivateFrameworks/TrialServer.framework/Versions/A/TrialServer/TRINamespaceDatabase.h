@@ -12,14 +12,14 @@
 }
 
 - (struct _PASDBTransactionCompletion_);
-- (CDStruct_69d7cc99);
-- (_Bool);
+- (CDStruct_69d7cc99)t;
+- (_Bool)initWithTransport:(id)arg1 operationQueue:encryptedSession: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)?;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)eport;
 - (_Bool);
 - (CDStruct_69d7cc99);
 - (void)×!8@ù1!°1Â0@ù

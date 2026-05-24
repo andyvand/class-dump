@@ -7,7 +7,6 @@
 @interface NewsSubscription.ProxyEmailGenerationResponse__priv_AAA2A8DD3F83AA64AD1FDBD84255A7FD
 {
     id diagnostics;
-    id proxyEmailInfo;
 }
 
 @end

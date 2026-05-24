@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACUISetupManagerViewController, NSButton;
+@class ACUISetupManagerViewController;
 
 @interface ACUIAccountTypeRowRadio
 {
     ACUISetupManagerViewController *_setupManager;
-    NSButton *_radioButton;
 }
 
 - (void);
@@ -18,10 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (void)ller;
+- (void)ACUIAccountSetupViewController;
 
 // Remaining properties
-@property(retain) NSButton *radioButton; // @synthesize radioButton=_radioButton;
 @property __weak ACUISetupManagerViewController *setupManager; // @synthesize setupManager=_setupManager;
 
 @end

@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHServerFallbackFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)<p;
 - (id);
 - (id)Ar°!¬EùñÝ°1Â0@ù
 × ;
-- (id)ftModelInferenceCallCount;
+- (id)_draftModelInferenceCallCount;
 - (id)aintenanceEnded",&,N,V_ended;
-- (void)ClientEvent;
+- (void)RFGSchemaRFGClientEvent;
 - (int)ù&°Å.%;
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

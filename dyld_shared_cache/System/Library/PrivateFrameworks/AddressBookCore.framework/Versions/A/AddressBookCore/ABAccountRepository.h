@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABDefaultAccountPreference, NSArray, NSMutableDictionary, NSString;
+@class ABDefaultAccountPreference, NSMutableDictionary;
 
 @interface ABAccountRepository
 {
     NSMutableDictionary *_existingAccounts;
-    NSMutableDictionary *_hiddenAccounts;
-    NSMutableDictionary *_deletingAccounts;
-    _Bool _areExistingAccountsValid;
-    _Bool _areHiddenAccountsValid;
-    id _futureAutocompletionAccounts;
-    id _factory;
-    id _defaultAccountPreference;
 }
 
 + (id);
@@ -53,7 +46,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -66,15 +59,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -91,41 +84,23 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)_inquiryCache_Enable;
+- (void)!;
+- (id);
+- (id);
+- (id)mmunicationsFilter;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void):(id)arg1 persistentStoreUrls: /* Error: Ran out of types for this method. */;
-- (id)y: /* Error: Ran out of types for this method. */;
+- (void)publicRecordWithUniqueId:(id)arg1 inAddressBook:persistentStoreUrls: /* Error: Ran out of types for this method. */;
+- (id)copyMultiValueWithRecord:withProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAccounts;
-@property(readonly, copy) NSString *basePath;
-@property(readonly) _Bool canBeReplacedByCachedAccounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) ABAccount *defaultAccount;
 @property(retain) ABDefaultAccountPreference *defaultAccountPreference; // @synthesize defaultAccountPreference=_defaultAccountPreference;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *hiddenAccounts;
-@property(readonly, copy) NSArray *persistentAccounts;
-@property(readonly) Class superclass;
-@property(copy) NSString *tag;
 
 @end
 

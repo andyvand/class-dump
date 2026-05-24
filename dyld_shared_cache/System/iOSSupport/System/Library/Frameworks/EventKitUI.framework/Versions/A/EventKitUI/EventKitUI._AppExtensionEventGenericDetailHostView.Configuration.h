@@ -7,12 +7,6 @@
 @interface EventKitUI._AppExtensionEventGenericDetailHostView.Configuration
 {
     id identity;
-    id sceneID;
-    id viewID;
-    id _customViewConfigurationChangedPublisher;
-    id leftBarButtonTappedCallback;
-    id rightBarButtonTappedCallback;
-    id bottomStatusButtonTappedCallback;
 }
 
 @end

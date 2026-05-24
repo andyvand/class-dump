@@ -5,5 +5,8 @@
 //
 
 @protocol PKMetalRendererControllerDelegate
+
+@optional
+- (void);
 @end
 

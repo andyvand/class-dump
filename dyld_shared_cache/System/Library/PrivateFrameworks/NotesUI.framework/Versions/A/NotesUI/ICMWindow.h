@@ -9,7 +9,6 @@
 @interface ICMWindow
 {
     _Bool _disableFirstResponderChanges;
-    NSMutableSet *_activeCorrectionPanels;
 }
 
 - (void);
@@ -19,13 +18,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void)butes;
+- (id);
+- (void)_surroundingAttributes;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *activeCorrectionPanels; // @synthesize activeCorrectionPanels=_activeCorrectionPanels;
-@property(nonatomic) _Bool disableFirstResponderChanges; // @synthesize disableFirstResponderChanges=_disableFirstResponderChanges;
-@property(readonly, nonatomic) _Bool hasActiveCorrectionPanel;
 
 @end
 

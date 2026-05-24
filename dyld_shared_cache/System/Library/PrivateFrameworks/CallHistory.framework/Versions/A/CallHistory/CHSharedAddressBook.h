@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (id)éÿe¤Ö»;
 - (void);
-- (id);
+- (id)SpatialOverCapture;
 - (void);
 - (id);
 - (unsigned long long);
@@ -26,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)P;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *addressBookCache; // @synthesize addressBookCache=_addressBookCache;

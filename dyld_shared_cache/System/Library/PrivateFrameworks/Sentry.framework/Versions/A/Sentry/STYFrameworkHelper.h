@@ -5,14 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_dispatch_queue;
 
 @interface STYFrameworkHelper
 {
     NSObject<OS_dispatch_queue> *_sharedSerialQueueAtUtility;
-    NSObject<OS_dispatch_queue> *_sharedConcurrentQueueAtUtility;
-    NSObject<OS_dispatch_queue> *_sharedConcurrentQueueAtBackground;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 + (id);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(retain) NSObject<OS_dispatch_queue> *sharedConcurrentQueueAtBackground; // @synthesize sharedConcurrentQueueAtBackground=_sharedConcurrentQueueAtBackground;
-@property(retain) NSObject<OS_dispatch_queue> *sharedConcurrentQueueAtUtility; // @synthesize sharedConcurrentQueueAtUtility=_sharedConcurrentQueueAtUtility;
 @property(retain) NSObject<OS_dispatch_queue> *sharedSerialQueueAtUtility; // @synthesize sharedSerialQueueAtUtility=_sharedSerialQueueAtUtility;
 
 @end

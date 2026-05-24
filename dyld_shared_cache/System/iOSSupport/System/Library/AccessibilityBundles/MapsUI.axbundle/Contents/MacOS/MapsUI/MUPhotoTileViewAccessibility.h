@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)e a bug with PEP Accessibility. %@;
 + (void);
-- (_Bool);
+- (_Bool)_NSRange=QQ},R,N;
 - (unsigned long long);
 - (id);
 

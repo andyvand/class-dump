@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDSessionCounts : SISchemaInstrumentationMessage
 {
     unsigned int _usdxSessionCount;
-    struct {
-        unsigned int usdxSessionCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -32,8 +27,6 @@
 - (id)dateTier1s;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsdxSessionCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int usdxSessionCount; // @synthesize usdxSessionCount=_usdxSessionCount;
 
 @end

@@ -13,14 +13,12 @@
 
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriSnippetViewController:pushSirilandSnippets: /* Error: Ran out of types for this method. */;
 - (void)ÈrÊÿ@Å§6X;
 - (id)~ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct _NSRange range;
-@property(nonatomic, readonly) NSString *uri;
 
 @end
 

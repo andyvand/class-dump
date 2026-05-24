@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface ADMFirewallConfig
 {
     _Bool _requiresAuthorization;
-    NSXPCConnection *_connection;
-    NSData *_authorizationData;
 }
 
 + (id);
@@ -22,9 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) _Bool requiresAuthorization; // @synthesize requiresAuthorization=_requiresAuthorization;
 
 @end
 

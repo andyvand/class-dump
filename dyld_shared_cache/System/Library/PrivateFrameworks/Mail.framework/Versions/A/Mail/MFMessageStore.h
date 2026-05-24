@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCActivityMonitor, MCInvocationQueue, MFMailAccount, MFMailbox, NSArray, NSCache, NSDate, NSMutableArray, NSMutableSet, NSOperationQueue, NSString, NSTimer;
+@class MCActivityMonitor;
 
 @interface MFMessageStore
 {
     id _retainCountLock;
-    _Bool _isWritingChangesToDisk;
-    _Bool _isTryingToClose;
-    id _cacheLock;
-    NSCache *_headerCache;
-    NSCache *_bodyCache;
-    _Atomic int _storeState;
-    NSTimer *_timer;
-    MFMailbox *_mailbox;
-    NSMutableArray *_allMessages;
-    MFMailAccount *_account;
-    NSMutableSet *_uniqueStrings;
-    _Bool _isReadOnly;
-    _Bool _compactOnClose;
-    _Bool _hasUnsavedChangesToMessageData;
-    _Bool _forceInvalidation;
-    MCActivityMonitor *_openMonitor;
-    NSOperationQueue *_deleteQueue;
-    MCInvocationQueue *_openAndCloseMailboxQueue;
 }
 
 + (void);
 + (void);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
-+ (id);
-+ (id);
++ (id)h;
++ (id);
 + (_Bool);
 + (id);
 + (void);
@@ -45,34 +27,34 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)%@q!;
 - (void);
 - (int);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)q;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -84,7 +66,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (_Bool);
 - (id);
@@ -93,44 +75,44 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)?;
 - (_Bool);
-- (_Bool);
+- (unsigned long long)<;
+- (void)@;
+- (id);
 - (void);
+- (oneway void)LegacyWebArchive}};
+- (id)webView:didPerformServerRedirectFromURL:toURL:inFrame: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (oneway void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)RWIProtocolDOMAudioMediaStats;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (long long);
+- (id)m;
+- (void);
+- (long long)setAccessibilitySelectedChildren:(id)arg1;
 - (id);
-- (id);
+- (id)Y;
 - (void);
 - (_Bool);
 - (id);
@@ -143,14 +125,14 @@
 - (_Bool)ð!ÄBùQ°1Â0@ù
 × ;
 - (unsigned long long)× ;
-- (id)eAncestorContiguously;
-- (void)ent;
-- (_Bool)isActiveMailboxID: /* Error: Ran out of types for this method. */;
-- (_Bool)FlagWritten;
-- (id)tionScheduler;
+- (id)matchedEntireAncestorContiguously;
+- (void)associatedCalendarEvent;
+- (_Bool)_isActiveMailboxID: /* Error: Ran out of types for this method. */;
+- (_Bool)_dontIndexFlagWritten;
+- (id)_categoryMigrationScheduler;
 - (void)astStatusCode;
-- (void)ession;
-- (_Bool)iftIMAPBodyFetchContext;
+- (void)rightExpression;
+- (_Bool)MFSwiftIMAPBodyFetchContext;
 - (void);
 - (id)´Ý;
 - (void)û!;
@@ -167,49 +149,14 @@
 - (id)k source messages %{public}s as deleted.;
 - (_Bool)) processed %ld new actions;
 - (void)ublic}@;
-- (void)ultRule;
+- (void)isDefaultRule;
 - (id)dropping index;
 - (void)ons(ROWID) ON DELETE CASCADE, imap_uid INTEGER, date_seen REAL);;
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) MFMailAccount *account;
-@property(readonly, copy, nonatomic) NSArray *allMailboxRepresentations;
-@property(readonly, nonatomic) _Bool allowsAppend;
-@property(readonly, nonatomic) _Bool allowsDeleteInPlace;
-@property(readonly, nonatomic) _Bool allowsOverwrite;
-@property(readonly, nonatomic) _Bool canCompact;
-@property(readonly) _Bool canRebuild;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSOperationQueue *deleteQueue; // @synthesize deleteQueue=_deleteQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) const char *displayNameForLogging;
-@property _Bool forceInvalidation; // @synthesize forceInvalidation=_forceInvalidation;
-@property _Bool hasUnsavedChangesToMessageData; // @synthesize hasUnsavedChangesToMessageData=_hasUnsavedChangesToMessageData;
-@property(readonly) unsigned long long hash;
-@property _Bool isFirstTimeSync;
-@property(readonly, nonatomic) _Bool isOpened;
-@property _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly) _Bool isSortedAscending;
-@property(readonly, nonatomic) _Bool isTrash;
-@property(readonly) NSDate *lastSyncDate;
-@property(readonly, nonatomic) MFMailbox *mailbox;
-@property(readonly, nonatomic) MCInvocationQueue *openAndCloseMailboxQueue; // @synthesize openAndCloseMailboxQueue=_openAndCloseMailboxQueue;
 @property(retain) MCActivityMonitor *openMonitor; // @synthesize openMonitor=_openMonitor;
-@property(readonly, nonatomic) _Bool shouldCallCompactWhenClosing;
-@property(readonly, copy, nonatomic) NSString *sortOrder;
-@property(readonly, copy, nonatomic) NSString *status;
-@property(readonly) int storeState;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long totalCount;
 
 @end
 

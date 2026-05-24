@@ -7,12 +7,10 @@
 @class INBillPayee, INDateComponentsRange;
 
 @protocol INSearchForBillsIntentExport
+- (INDateComponentsRange *);
+- (long long)A;
 
 // Remaining properties
 @property(copy) INBillPayee *billPayee;
-@property long long billType;
-@property(copy) INDateComponentsRange *dueDateRange;
-@property(copy) INDateComponentsRange *paymentDateRange;
-@property long long status;
 @end
 

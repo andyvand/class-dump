@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)leafNodePredicate;
 + (void);
 - (struct CGRect);
 - (void);

@@ -13,14 +13,14 @@
     NSArray *_languageValues;
 }
 
-- (id);
-- (id);
+- (id)V;
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)opinionated;
 - (id);
 - (void)hË;
 

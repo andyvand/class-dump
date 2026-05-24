@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPassAuxiliaryCapabilityKeyCreationMetadata.h>
 
-@class NSData, NSUUID;
+@class NSData;
 
 @interface PKPassAuxiliaryCapabilitySignatureAliroHomeKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     NSData *_readerIdentifier;
-    NSData *_readerPublicKey;
-    NSUUID *_homeIdentifier;
 }
 
 + (_Bool)X"°!Ä@ùî%1Â0@ù
@@ -21,17 +19,15 @@
 - (id);
 - (id);
 - (id);
+- (id)d;
 - (id);
-- (id);
-- (void);
+- (void)NW_L2_RADIO_TECHNOLOGY_TYPE_WIFI11B;
 - (id);
 - (id);
 - (void)berStyleScientific, PKNumberStyleSpellOut, WLNumberStyleSpellOut;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;
 @property(readonly, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(readonly, nonatomic) NSData *readerPublicKey; // @synthesize readerPublicKey=_readerPublicKey;
 
 @end
 

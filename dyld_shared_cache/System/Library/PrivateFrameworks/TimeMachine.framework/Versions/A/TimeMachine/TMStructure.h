@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSString, NSURL;
-@protocol TMStructureProtocol;
+@class NSURL;
 
 @interface TMStructure
 {
     _Bool _needsRefreshFromDisk;
-    struct os_unfair_lock_s _childrenLock;
-    id <TMStructureProtocol> _parent;
-    NSString *_uuid;
-    NSURL *_url;
-    NSMutableOrderedSet *_mutableChildren;
 }
 
 + (id);
@@ -25,8 +19,8 @@
 + (id);
 + (void);
 + (_Bool);
-+ (id);
-+ (id);
++ (id)T;
++ (id);
 + (_Bool);
 + (id);
 + (void);
@@ -43,9 +37,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)1;
 - (_Bool);
-- (_Bool);
+- (_Bool)z;
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
@@ -62,32 +56,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)[;
+- (id)6;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *children;
-@property(readonly) struct os_unfair_lock_s childrenLock; // @synthesize childrenLock=_childrenLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableOrderedSet *mutableChildren; // @synthesize mutableChildren=_mutableChildren;
-@property _Bool needsRefreshFromDisk; // @synthesize needsRefreshFromDisk=_needsRefreshFromDisk;
-@property __weak id <TMStructureProtocol> parent; // @synthesize parent=_parent;
-@property(readonly) NSString *structureType;
-@property(readonly) Class superclass;
 @property(retain) NSURL *url; // @synthesize url=_url;
-@property(readonly, retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

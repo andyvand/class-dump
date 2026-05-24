@@ -7,6 +7,7 @@
 @protocol UIDragInteractionDelegate_Private
 
 @optional
+- (long long);
 - (long long)pÛ;
 @end
 

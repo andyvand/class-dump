@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGMeaningLocationCriteria
 {
     _Bool _excludeFrequentLocations;
-    _Bool _excludeHomeWorkLocations;
-    _Bool _includeHomeLocations;
-    _Bool _includeWorkLocations;
-    _Bool _includeFrequentLocations;
 }
 
++ (id)P;
 + (id);
-+ (id);
 - (void);
+- (void)ions/A/SkyLight;
+- (void)PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight;
+- (void)__AUTH_CONST;
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CursorScreen;
+- (_Bool)setApplicationManager:,V__applicationManager /* Error: Ran out of types for this method. */;
+- (_Bool)nagerDelegate>",W;
+- (_Bool)ACMParseAclAndCopyConstraintCharacteristics;
+- (_Bool)ACMGlobalContextVerifyPolicy;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool excludeFrequentLocations; // @synthesize excludeFrequentLocations=_excludeFrequentLocations;
-@property(nonatomic) _Bool excludeHomeWorkLocations; // @synthesize excludeHomeWorkLocations=_excludeHomeWorkLocations;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeFrequentLocations; // @synthesize includeFrequentLocations=_includeFrequentLocations;
-@property(nonatomic) _Bool includeHomeLocations; // @synthesize includeHomeLocations=_includeHomeLocations;
-@property(nonatomic) _Bool includeWorkLocations; // @synthesize includeWorkLocations=_includeWorkLocations;
-@property(readonly) Class superclass;
 
 @end
 

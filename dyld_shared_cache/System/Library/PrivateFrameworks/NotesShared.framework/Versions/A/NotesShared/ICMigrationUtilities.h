@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)bundleForClass:(id)arg1;
 + (void);
 + (void);
 + (void);

@@ -5,6 +5,7 @@
 //
 
 @protocol GCScreenRecorderService
+- (void);
 - (_Bool)recording end...;
 
 // Remaining properties

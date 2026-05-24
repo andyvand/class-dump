@@ -5,6 +5,7 @@
 //
 
 @protocol ICAirDropDocument
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id activityItem;

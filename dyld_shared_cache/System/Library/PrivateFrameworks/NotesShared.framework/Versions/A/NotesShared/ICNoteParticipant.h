@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, NSString;
+@class ICNote;
 
 @interface ICNoteParticipant
 {
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) ICNote *note; // @dynamic note;
-@property(retain, nonatomic) NSString *participantID; // @dynamic participantID;
-@property(retain, nonatomic) NSString *userID; // @dynamic userID;
 @end
 

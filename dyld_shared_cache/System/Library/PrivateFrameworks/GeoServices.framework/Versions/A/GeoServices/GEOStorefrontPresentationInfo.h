@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorefrontView, NSURL;
+@class GEOStorefrontView;
 
 @interface GEOStorefrontPresentationInfo
 {
     GEOStorefrontView *_closeUpView;
-    GEOStorefrontView *_standOffView;
-    NSURL *_overlayImageURL;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOStorefrontView *closeUpView; // @synthesize closeUpView=_closeUpView;
-@property(readonly, nonatomic) NSURL *overlayImageURL; // @synthesize overlayImageURL=_overlayImageURL;
-@property(readonly, nonatomic) GEOStorefrontView *standOffView; // @synthesize standOffView=_standOffView;
 
 @end
 

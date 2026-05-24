@@ -6,28 +6,10 @@
 
 #import <SceneKit/SCNExportOperation.h>
 
-@class NSDictionary, NSError, NSURL, SCNNode, SCNRenderer, SCNScene;
-
 __attribute__((visibility("hidden")))
 @interface _SCNExportOperation : SCNExportOperation
 {
     void *_userInfo;
-    SEL _didEndSelector;
-    SCNScene *_scene;
-    struct CGSize _size;
-    SCNNode *_pointOfView;
-    double _startTime;
-    double _endTime;
-    double _systemTime;
-    _Bool _canceled;
-    _Bool _succeded;
-    double _progress;
-    NSError *_error;
-    id _delegate;
-    NSDictionary *_attributes;
-    NSURL *_outputURL;
-    SCNRenderer *_renderer;
-    unsigned long long _antialiasingMode;
 }
 
 - (_Bool);
@@ -38,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (SEL);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void *);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)S;
 - (id);
 - (void);
 - (id);
@@ -53,12 +35,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)t5;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)ld - %{public}@ (%{public}@);
 - (void);
 - (id);
 - (double);
@@ -66,22 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode; // @synthesize antialiasingMode=_antialiasingMode;
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
 @property(nonatomic) id delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) SEL didEndSelector; // @synthesize didEndSelector=_didEndSelector;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(retain, nonatomic) SCNNode *pointOfView; // @synthesize pointOfView=_pointOfView;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) SCNRenderer *renderer; // @synthesize renderer=_renderer;
-@property(retain, nonatomic) SCNScene *scene; // @synthesize scene=_scene;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) _Bool succeded; // @synthesize succeded=_succeded;
-@property(nonatomic) void *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

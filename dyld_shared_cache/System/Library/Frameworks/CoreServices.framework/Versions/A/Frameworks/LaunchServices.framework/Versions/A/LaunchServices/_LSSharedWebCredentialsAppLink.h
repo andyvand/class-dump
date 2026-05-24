@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _LSSharedWebCredentialsAppLink : LSAppLink
 {
     struct LSBinding _binding;
-    _SWCServiceDetails *_serviceDetails;
 }
 
 + (long long);
@@ -21,13 +20,13 @@ __attribute__((visibility("hidden")))
 + (void);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)9,;
++ (id);
++ (_Bool)haredEvent>"Q>32;
 + (void)nable to load bundleRef for application, so returning an error.;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,11 +38,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)( ;
 - (void);
 
 // Remaining properties
-@property(readonly) struct LSBinding binding; // @synthesize binding=_binding;
 @property(retain, nonatomic) _SWCServiceDetails *serviceDetails; // @synthesize serviceDetails=_serviceDetails;
 
 @end

@@ -7,15 +7,6 @@
 @interface MailUI.FeedbackListViewModel
 {
     id messageProvider;
-    id _state;
-    id _canDonate;
-    id _diagnosticsHelper;
-    id _diagnosticsHelperToken;
-    id _selectedBucket;
-    id _selectedMailboxes;
-    void _cancellationHandler;
-    id _daemonInterface;
-    id _$observationRegistrar;
 }
 
 - (void);
@@ -24,12 +15,11 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void)ilUnreadIndicatorColor;
+- (CDUnknownBlockType);
+- (void)mailUnreadIndicatorColor;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType _cancellationHandler;
-@property(nonatomic, copy) CDUnknownBlockType cancellationHandler;
 
 @end
 

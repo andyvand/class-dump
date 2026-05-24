@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)kMRMediaRemoteCommandInfoSupportedShuffleModes;
 - (id);
 - (_Bool);
 - (_Bool)¹k,ïTß<x}«RÅvòÅVëu¨ÃçJÓlçjRò6>QW!Db,ïTí¦¿E7Å$tQ?

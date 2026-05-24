@@ -6,22 +6,18 @@
 
 #import <HomeKitDaemon/HMDCameraStreamSession.h>
 
-@class HMDCameraMediaParameterSelection, HMDCameraNetworkConfig, NSString;
 @protocol HMDCameraRemoteStreamSenderProtocol;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraLocalStreamSession : HMDCameraStreamSession
 {
     id <HMDCameraRemoteStreamSenderProtocol> _streamSender;
-    HMDCameraMediaParameterSelection *_parameterSelection;
-    unsigned long long _streamState;
-    HMDCameraNetworkConfig *_localNetworkConfig;
 }
 
 + (id)üÅÿ;
-- (id);
-- (void);
-- (id);
+- (id)_mapItemStorage;
+- (void)acts;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -34,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)õ!üxA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDCameraNetworkConfig *localNetworkConfig; // @synthesize localNetworkConfig=_localNetworkConfig;
-@property(retain) HMDCameraMediaParameterSelection *parameterSelection; // @synthesize parameterSelection=_parameterSelection;
-@property(readonly, copy) NSString *stateDescription;
 @property(readonly) id <HMDCameraRemoteStreamSenderProtocol> streamSender; // @synthesize streamSender=_streamSender;
-@property unsigned long long streamState; // @synthesize streamState=_streamState;
-@property(readonly) Class superclass;
 
 @end
 

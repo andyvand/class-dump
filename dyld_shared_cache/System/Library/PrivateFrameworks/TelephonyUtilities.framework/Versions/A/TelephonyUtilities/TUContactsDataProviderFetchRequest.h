@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface TUContactsDataProviderFetchRequest
 {
     _Bool _useNetworkCountryCode;
-    _Bool _emergency;
-    _Bool _callerIDBlocked;
-    _Bool _conversation;
-    _Bool _verified;
-    _Bool _incoming;
-    NSString *_contactIdentifier;
-    NSArray *_auxiliaryKeysToFetch;
-    NSString *_phoneNumberPrefixHint;
-    NSString *_isoCountryCode;
-    NSArray *_handles;
 }
 
 - (_Bool);
@@ -31,33 +19,23 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, const WTF::MediaTime &)>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void)AuthorizedBundleIdentifiers: /* Error: Ran out of types for this method. */;
-- (id)ndoff;
+- (void)7!;
+- (void)setActivityAuthorizedBundleIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)handoff;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *auxiliaryKeysToFetch; // @synthesize auxiliaryKeysToFetch=_auxiliaryKeysToFetch;
-@property(readonly, nonatomic, getter=isCallerIDBlocked) _Bool callerIDBlocked; // @synthesize callerIDBlocked=_callerIDBlocked;
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic, getter=isConversation) _Bool conversation; // @synthesize conversation=_conversation;
 @property(readonly, nonatomic, getter=isEmergency) _Bool emergency; // @synthesize emergency=_emergency;
-@property(copy, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly, nonatomic, getter=isIncoming) _Bool incoming; // @synthesize incoming=_incoming;
-@property(readonly, copy, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(copy, nonatomic) NSString *phoneNumberPrefixHint; // @synthesize phoneNumberPrefixHint=_phoneNumberPrefixHint;
-@property(nonatomic) _Bool useNetworkCountryCode; // @synthesize useNetworkCountryCode=_useNetworkCountryCode;
-@property(readonly, nonatomic, getter=isVerified) _Bool verified; // @synthesize verified=_verified;
 
 @end
 

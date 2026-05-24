@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)ons: /* Error: Ran out of types for this method. */;
++ (Class)_updateState:message:options: /* Error: Ran out of types for this method. */;
 
 @end
 

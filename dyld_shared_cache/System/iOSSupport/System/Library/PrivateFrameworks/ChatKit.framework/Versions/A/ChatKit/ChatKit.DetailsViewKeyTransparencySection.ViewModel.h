@@ -9,8 +9,6 @@
 @interface ChatKit.DetailsViewKeyTransparencySection.ViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id _isPresentingClearAlertController;
-    id _isPresentingContactVerificationUI;
-    id _$observationRegistrar;
 }
 
 @end

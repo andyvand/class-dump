@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSURL;
+@class NSURL;
 
 @interface CalOpenFileURLWrapper
 {
     NSURL *_url;
-    NSFileHandle *_file;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileHandle *file; // @synthesize file=_file;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

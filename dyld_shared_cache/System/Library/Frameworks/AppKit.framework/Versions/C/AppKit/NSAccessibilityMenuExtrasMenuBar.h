@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)kDB - unable to start a DB transaction.  Error-code=%d;
+- (_Bool)nnection=%p) insert SQL stmnt. is nil for storage:%@ /* Error: Ran out of types for this method. */;
+- (id)ance %p>;
+- (id)on Start;
+- (id)viable;
 - (id);
 - (void);
 

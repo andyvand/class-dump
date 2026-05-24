@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class NSArray;
 
 @interface UIInterfaceActionSeparatorAttributes
 {
     NSArray *_filters;
-    UIColor *_backgroundColor;
-    double _opacity;
 }
 
-- (id);
+- (id)ion block with transfers to delete count:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id)ectionHighlight: /* Error: Ran out of types for this method. */;
-- (_Bool)InRange:(id)arg1 options:passingTest: /* Error: Ran out of types for this method. */;
-- (void)ailingInsetConstraint;
-- (double)alues: /* Error: Ran out of types for this method. */;
-- (id)ut;
+- (id)setFakeTextSelectionHighlight: /* Error: Ran out of types for this method. */;
+- (_Bool)indexesInRange:(id)arg1 options:passingTest: /* Error: Ran out of types for this method. */;
+- (void)_trailingInsetConstraint;
+- (double)_numberOfSectionsUsingPresentationValues: /* Error: Ran out of types for this method. */;
+- (id)_UIButtonBarItemGroupLayout;
 - (void)@;
-- (id)ass;
+- (id)posterSwitcherGlass;
 - (void)E13ÔþþM13¸ì¸þ;
 - (void)lE;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 
 @end
 

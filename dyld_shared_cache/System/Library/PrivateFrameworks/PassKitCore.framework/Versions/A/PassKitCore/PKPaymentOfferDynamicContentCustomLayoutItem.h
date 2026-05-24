@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaymentOfferDynamicContentCustomLayoutItemTextDetails;
-
 @interface PKPaymentOfferDynamicContentCustomLayoutItem
 {
     unsigned long long _type;
-    PKPaymentOfferDynamicContentCustomLayoutItemTextDetails *_leadingText;
-    PKPaymentOfferDynamicContentCustomLayoutItemTextDetails *_trailingText;
 }
 
 + (_Bool);
@@ -21,18 +17,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)NSObject<OS_dispatch_queue>";
+- (_Bool)setLastScanType:(id)arg1;
+- (void)AWDCoreRoutineLearnedLocationReconciliationVisitDensity;
 - (id);
 - (void);
 - (id);
-- (id)dressForPrimaryAccountIdentifier:(id)arg1;
+- (id)defaultBillingAddressForPrimaryAccountIdentifier:(id)arg1;
 - (void)tion;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferDynamicContentCustomLayoutItemTextDetails *leadingText; // @synthesize leadingText=_leadingText;
-@property(retain, nonatomic) PKPaymentOfferDynamicContentCustomLayoutItemTextDetails *trailingText; // @synthesize trailingText=_trailingText;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

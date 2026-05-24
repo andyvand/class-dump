@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)T@"NSMutableDictionary",R,N,V_threadwideDictionary;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)CandQualityFilter).;
 - (id);
 - (void);
 

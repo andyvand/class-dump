@@ -11,8 +11,6 @@
 @interface _EARCombinedResult : _EARSystemResult
 {
     NSArray *_nBestStrings;
-    NSArray *_nBestSourceIndexes;
-    NSArray *_originalRanks;
 }
 
 - (void);
@@ -24,9 +22,7 @@
 - (void)ø´	´;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *nBestSourceIndexes; // @synthesize nBestSourceIndexes=_nBestSourceIndexes;
 @property(copy, nonatomic) NSArray *nBestStrings; // @synthesize nBestStrings=_nBestStrings;
-@property(copy, nonatomic) NSArray *originalRanks; // @synthesize originalRanks=_originalRanks;
 
 @end
 

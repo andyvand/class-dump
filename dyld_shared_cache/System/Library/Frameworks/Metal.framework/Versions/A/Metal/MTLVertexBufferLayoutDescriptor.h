@@ -12,12 +12,10 @@
 + (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long stepFunction; // @dynamic stepFunction;
-@property(nonatomic) unsigned long long stepRate; // @dynamic stepRate;
 @property(nonatomic) unsigned long long stride; // @dynamic stride;
 
 @end

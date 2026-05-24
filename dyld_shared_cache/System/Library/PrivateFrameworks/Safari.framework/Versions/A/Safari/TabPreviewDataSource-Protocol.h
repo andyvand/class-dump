@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, UnifiedTabBarItem, WBTab;
-@protocol TabBarViewItem, TabPreviewDataSourceDelegate;
+@class NSString, WBTab;
+@protocol TabPreviewDataSourceDelegate;
 
 @protocol TabPreviewDataSource
+- (WBTab *);
+- (void)$;
 - (NSString *)tension for %{private}@, %{private}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *secondaryTitle;
-@property(readonly, nonatomic) id <TabBarViewItem> tabBarViewItem;
-@property(readonly, nonatomic) struct CGSize tabContentSize;
-@property(readonly, nonatomic) WBTab *tabGroupTab;
 @property(nonatomic) __weak id <TabPreviewDataSourceDelegate> tabPreviewDataSourceDelegate;
-@property(readonly, nonatomic) NSView *tabThumbnailView;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) UnifiedTabBarItem *unifiedTabBarItem;
 @end
 

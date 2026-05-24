@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSNumber, NSString, SASRecordingInfo;
+@class NSString;
 
 @interface SASUpdateAudioInfo : SABaseCommand
 {
@@ -16,31 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *audioDestination;
-@property(copy, nonatomic) NSString *audioSource;
-@property(nonatomic) int codec;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdentifier;
-@property(copy, nonatomic) NSString *deviceModel;
-@property(copy, nonatomic) NSString *dspStatus;
-@property(copy, nonatomic) NSString *firmwareVersion;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *headsetAddress;
-@property(copy, nonatomic) NSString *headsetId;
-@property(copy, nonatomic) NSString *headsetName;
-@property(copy, nonatomic) NSNumber *noiseReductionLevel;
-@property(copy, nonatomic) NSString *origin;
-@property(copy, nonatomic) NSString *productId;
-@property(retain, nonatomic) SASRecordingInfo *recordingInfo;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool triggeredTwoShotBorealis;
-@property(copy, nonatomic) NSString *vendorId;
 
 @end
 

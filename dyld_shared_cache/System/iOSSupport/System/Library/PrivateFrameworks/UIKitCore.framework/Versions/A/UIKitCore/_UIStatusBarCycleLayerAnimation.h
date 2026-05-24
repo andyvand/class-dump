@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarCycleLayerAnimation
 {
     CALayer *_layer;
-    CAAnimation *_animation;
-    CAAnimation *_originalAnimation;
-    NSString *_key;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)newDefaultLibrary;
+- (id);
 - (id)aÐ!°Aùñ^°1Â0@ù
 × ;
-- (void)undleIdentifiers;
+- (void)bundleIdentifiers;
 - (id)mum must be greater than or equal to 0.0;
 - (void)) -> %@;
 - (void)w with an unsupported style constant:(id)arg1 %d. This is probably not what you want.;
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)<ØÌÁ[;
 
 // Remaining properties
-@property(retain, nonatomic) CAAnimation *animation; // @synthesize animation=_animation;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
 @property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(retain, nonatomic) CAAnimation *originalAnimation; // @synthesize originalAnimation=_originalAnimation;
 
 @end
 

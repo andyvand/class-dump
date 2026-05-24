@@ -5,5 +5,7 @@
 //
 
 @protocol GFGestureNodeContainer
+- (_Bool)brary/BuildRoots/4~CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/utility.c;
+- (_Bool)(;
 @end
 

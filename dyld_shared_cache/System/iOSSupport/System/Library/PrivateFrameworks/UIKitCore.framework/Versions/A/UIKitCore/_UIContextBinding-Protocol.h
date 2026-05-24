@@ -7,7 +7,7 @@
 @class CAContext;
 
 @protocol _UIContextBinding
-- (void)eringMode:(CAContext *)arg1;
-- (void)ent:(CAContext *)arg1 ofCount:withSizeLeft: /* Error: Ran out of types for this method. */;
+- (void)setDefaultRenderingMode:(CAContext *)arg1;
+- (void)_delegateWidthForComponent:(CAContext *)arg1 ofCount:withSizeLeft: /* Error: Ran out of types for this method. */;
 @end
 

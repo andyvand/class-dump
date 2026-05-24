@@ -10,12 +10,9 @@
 @interface _UIAsyncInvocationObserver
 {
     NSObject<OS_dispatch_queue> *_postCompletionQueue;
-    NSObject<OS_dispatch_queue> *_completionQueueManagementQueue;
-    _Bool _suspendedPostCompletionQueue;
-    _Bool _resumedPostCompletionQueue;
 }
 
-+ (void);
++ (void)e:(id)arg1 %ld  local path:(CDUnknownBlockType)arg2 %@  transferred name:%@  guid:%@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

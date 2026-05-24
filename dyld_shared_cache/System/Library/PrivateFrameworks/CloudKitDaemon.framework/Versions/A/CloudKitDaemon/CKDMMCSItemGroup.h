@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssetDownloadPreauthorization, NSArray, NSData, NSError, NSMutableArray, NSString, NSURL;
-@protocol MMCSOperationMetric;
+@class NSMutableArray, NSURL;
 
 @interface CKDMMCSItemGroup
 {
     NSMutableArray *_items;
-    unsigned long long _cachedHash;
-    _Bool _complete;
-    NSError *_error;
-    id <MMCSOperationMetric> _metrics;
-    NSData *_authPutRequest;
-    NSData *_cloneContext;
-    NSURL *_contentBaseURL;
-    NSString *_owner;
-    NSString *_requestor;
-    CKAssetDownloadPreauthorization *_downloadPreauthorization;
 }
 
-- (id);
+- (id)noVerb::common_ActivationValue /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)tus manager_registerForNotifications(FigEndpointManagerRef)_block_invoke_3;
+- (id)setLinkRssiLt90: /* Error: Ran out of types for this method. */;
+- (id),N,V_avgSnr;
 - (void);
 - (void);
 - (_Bool);
@@ -37,25 +26,16 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)etionBlock;
+- (_Bool)_acceptCompletionBlock;
 - (id)cordType;
-- (id)okupInfos: /* Error: Ran out of types for this method. */;
+- (id)setLookupInfos: /* Error: Ran out of types for this method. */;
 - (id)Ø@ÛàÞxáèáäæè´éêë ì;
 - (void)jectCreateFromExportedWithKeyedPCSAndOptionsWithTrusts(PCSShareProtectionRef, NSDictionary<PCSFPOption,id> *__strong, CFDataRef, NSArray *__strong, CFErrorRef *);
-- (void)iceID;
+- (void)deviceID;
 - (id)%@:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authPutRequest; // @synthesize authPutRequest=_authPutRequest;
-@property(retain, nonatomic) NSData *cloneContext; // @synthesize cloneContext=_cloneContext;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
 @property(readonly, nonatomic) NSURL *contentBaseURL; // @synthesize contentBaseURL=_contentBaseURL;
-@property(readonly, nonatomic) CKAssetDownloadPreauthorization *downloadPreauthorization; // @synthesize downloadPreauthorization=_downloadPreauthorization;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) id <MMCSOperationMetric> metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) NSString *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSString *requestor; // @synthesize requestor=_requestor;
 
 @end
 

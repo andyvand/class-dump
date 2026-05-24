@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBCollectionStyleRow
 {
     _Bool _drawPlattersIfNecessary;
-    _Bool _isInsetGrouped;
-    int _rowStyle;
 }
 
 - (void);
@@ -23,24 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)internalSortDescriptorsWithCreationDateAscending:(id)arg1;
+- (id)back memory candidates;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool drawPlattersIfNecessary; // @synthesize drawPlattersIfNecessary=_drawPlattersIfNecessary;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInsetGrouped; // @synthesize isInsetGrouped=_isInsetGrouped;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rowStyle; // @synthesize rowStyle=_rowStyle;
-@property(readonly) Class superclass;
 
 @end
 

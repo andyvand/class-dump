@@ -6,14 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDTokenRegistrationURLRequest : CKDURLRequest
 {
     _Bool _skipBundleIDCheck;
-    NSData *_apsToken;
-    NSString *_apsEnvironmentString;
-    NSString *_bundleID;
 }
 
 - (_Bool);
@@ -37,10 +34,7 @@
 - (id)d share PCS data. Record %p recordID %@ shareID %@ share PCS etag %{public}@%@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apsEnvironmentString; // @synthesize apsEnvironmentString=_apsEnvironmentString;
 @property(retain, nonatomic) NSData *apsToken; // @synthesize apsToken=_apsToken;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) _Bool skipBundleIDCheck; // @synthesize skipBundleIDCheck=_skipBundleIDCheck;
 
 @end
 

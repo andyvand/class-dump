@@ -6,12 +6,11 @@
 
 #import <ProtectedCloudStorage/PCSCKKSOperation.h>
 
-@class CKKSControl, PCSCKKSItemModifyContext;
+@class PCSCKKSItemModifyContext;
 
 @interface PCSCKKSSyncViewOperation : PCSCKKSOperation
 {
     PCSCKKSItemModifyContext *_context;
-    CKKSControl *_CKKSControl;
 }
 
 - (void);
@@ -20,12 +19,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id);
+- (void)ontents of %@ - ignoring;
 
 // Remaining properties
-@property(retain) CKKSControl *CKKSControl; // @synthesize CKKSControl=_CKKSControl;
 @property(readonly) PCSCKKSItemModifyContext *context; // @synthesize context=_context;
 
 @end

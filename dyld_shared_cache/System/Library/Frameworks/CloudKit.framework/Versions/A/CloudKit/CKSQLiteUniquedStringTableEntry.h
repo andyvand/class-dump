@@ -6,24 +6,22 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CKSQLiteUniquedStringTableEntry : CKSQLiteTableEntry
 {
     NSNumber *_primaryKey;
-    NSString *_string;
 }
 
 + (Class);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)L.Specification.MILSpec.Argument.Binding;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *primaryKey; // @synthesize primaryKey=_primaryKey;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

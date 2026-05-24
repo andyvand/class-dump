@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityDataType;
-@property(copy, nonatomic) NSString *activityView;
 
 @end
 

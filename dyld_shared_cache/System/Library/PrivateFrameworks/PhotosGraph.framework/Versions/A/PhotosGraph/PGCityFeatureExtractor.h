@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)_addElement:(id)arg1 atRowIndex:(id)arg2 inRows:(id)arg3 atColumnIndex:inColumns:withRowCount:forceSplit:addToTopRow: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

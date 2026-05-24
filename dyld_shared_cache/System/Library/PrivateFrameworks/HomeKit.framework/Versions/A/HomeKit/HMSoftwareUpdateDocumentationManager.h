@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMSoftwareUpdateDocumentationManager
 {
     struct os_unfair_lock_s _lock;
-    _HMContext *_context;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_assetCompletionPairByDigestUUID;
 }
 
 + (id)ForSetting:value:completionHandler:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)i.;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)skHandling;
+- (void)HMCameraClipDownloadAssetDataTaskHandling;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *assetCompletionPairByDigestUUID; // @synthesize assetCompletionPairByDigestUUID=_assetCompletionPairByDigestUUID;
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

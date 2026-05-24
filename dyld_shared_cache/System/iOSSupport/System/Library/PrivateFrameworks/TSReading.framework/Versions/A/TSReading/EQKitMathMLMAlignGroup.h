@@ -11,7 +11,7 @@
 }
 
 - (const void *);
-- (struct Schemata);
+- (struct Schemata)B;
 - (id);
 
 @end

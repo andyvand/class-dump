@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class)ptions:locale: /* Error: Ran out of types for this method. */;
++ (Class)initWithFormat:options:locale: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

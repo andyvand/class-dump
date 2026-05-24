@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface PXSettings
 {
     NSMutableSet *_archivedSettings;
-    NSSet *_cachedTransientProperties;
-    _Bool _hasUserDefaultsOverrides;
-    long long _version;
-    NSArray *_reparentedRootSettings;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)er",R,W,N,V_tangierController;
 + (_Bool)ù
 × ;
 + (id);
@@ -33,36 +29,32 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)4;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (long long)lculator>"16@?0@"<TFResolver>"8;
 - (void);
 - (void)tchAudioMixModeAction:No asset found /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDefaultValues;
-@property(readonly, nonatomic) _Bool hasUserDefaultsOverrides;
 @property(readonly, nonatomic) PXSettings *parentSettings;
-@property(readonly, nonatomic) NSArray *reparentedRootSettings; // @synthesize reparentedRootSettings=_reparentedRootSettings;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

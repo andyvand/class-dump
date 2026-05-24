@@ -5,6 +5,9 @@
 //
 
 @protocol ECMessageFlagsBuilder
+- (void);
+- (void);
+- (_Bool);
 - (void)%
 
 
@@ -1638,16 +1641,6 @@ $$'''''''''
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool deleted;
-@property(nonatomic) _Bool draft;
-@property(nonatomic) unsigned long long flagColor;
-@property(nonatomic) _Bool flagged;
-@property(nonatomic) _Bool forwarded;
-@property(nonatomic) unsigned long long junkLevel;
-@property(nonatomic) _Bool junkLevelSetByUser;
 @property(nonatomic) _Bool read;
-@property(nonatomic) _Bool redirected;
-@property(nonatomic) _Bool replied;
-@property(nonatomic) _Bool touchedByCleanup;
 @end
 

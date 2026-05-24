@@ -6,21 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaRequestLinkInfo;
+@class SISchemaRequestLinkInfo;
 
 @interface LRSchemaLRComponentIdentifierRedactionSignal : SISchemaInstrumentationMessage
 {
     SISchemaRequestLinkInfo *_componentId;
-    _Bool _redactConnectedEvents;
-    struct {
-        unsigned int redactConnectedEvents:1;
-    } _has;
-    _Bool _hasComponentId;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,20 +27,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)rridesTime;
-- (id)easureEnded;
+- (id)pgOverridesTime;
+- (id)USPSchemaUSPMeasureEnded;
 - (void)»ö!;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaRequestLinkInfo *componentId; // @synthesize componentId=_componentId;
-@property(nonatomic) _Bool hasComponentId; // @synthesize hasComponentId=_hasComponentId;
-@property(nonatomic) _Bool hasRedactConnectedEvents;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool redactConnectedEvents; // @synthesize redactConnectedEvents=_redactConnectedEvents;
 
 @end
 

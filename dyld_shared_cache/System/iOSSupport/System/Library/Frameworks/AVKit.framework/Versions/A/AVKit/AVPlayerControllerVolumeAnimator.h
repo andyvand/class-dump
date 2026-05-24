@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerControllerVolumeAnimator
 {
     _Bool _animatingTowardsZero;
-    _Bool _animatingAwayFromZero;
-    AVPlayerController *_playerController;
-    double _volumeToRestore;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (void);
@@ -32,9 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingAwayFromZero) _Bool animatingAwayFromZero; // @synthesize animatingAwayFromZero=_animatingAwayFromZero;
-@property(nonatomic, getter=isAnimatingTowardsZero) _Bool animatingTowardsZero; // @synthesize animatingTowardsZero=_animatingTowardsZero;
-@property(readonly, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
 @property(nonatomic) double volumeToRestore; // @synthesize volumeToRestore=_volumeToRestore;
 
 @end

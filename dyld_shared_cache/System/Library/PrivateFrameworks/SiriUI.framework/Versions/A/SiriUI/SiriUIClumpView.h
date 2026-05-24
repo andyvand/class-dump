@@ -6,15 +6,11 @@
 
 #import <SiriUI/SiriUIScrollView.h>
 
-@class NSCollectionView, NSCollectionViewLayout;
-@protocol SiriUIClumpViewDelegate;
+@class NSCollectionView;
 
 @interface SiriUIClumpView : SiriUIScrollView
 {
     _Bool _allowsQuickLook;
-    NSCollectionView *_collectionView;
-    NSCollectionViewLayout *_collectionViewLayout;
-    id <SiriUIClumpViewDelegate> _clumpViewDelegate;
 }
 
 - (void);
@@ -24,20 +20,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)7h8;
+- (void)tPickerViewControllerProtocol>",&,N,V_effectPickerViewController;
 - (id);
 - (id);
 - (void)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool acceptsFirstMouse;
-@property _Bool allowsQuickLook; // @synthesize allowsQuickLook=_allowsQuickLook;
-@property __weak id <SiriUIClumpViewDelegate> clumpViewDelegate; // @synthesize clumpViewDelegate=_clumpViewDelegate;
 @property(readonly) NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property __weak NSCollectionViewLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
 
 @end
 

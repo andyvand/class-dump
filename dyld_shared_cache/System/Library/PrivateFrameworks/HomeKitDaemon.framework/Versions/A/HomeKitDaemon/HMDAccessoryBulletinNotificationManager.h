@@ -4,48 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDBulletinNotificationRegistrationSource, HMDHome, HMDNotificationConditionEvaluator, HMFTimer, NSArray, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDAppleAccountManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBulletinNotificationManager
 {
     _Bool _currentPrimary;
-    HMDAppleAccountManager *_accountManager;
-    NSNotificationCenter *_notificationCenter;
-    CDUnknownBlockType _synchronizeWithPrimaryDebounceTimerFactory;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_synchronizeWithPrimaryDebounceTimer;
-    HMDNotificationConditionEvaluator *_evaluator;
 }
 
 + (id);
 + (id);
 + (id)C;
+- (void)tacts:(id)arg1 %@;
+- (void)%{private}@, %{private}@%s, %lu%s trips;
+- (void)nnection:(id)arg1 %@;
+- (void)out of range (%lu);
+- (CDUnknownBlockType):%i) /* Error: Ran out of types for this method. */;
+- (id)BICYCLE;
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (id)>;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -64,48 +56,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)infoDictionary;
+- (id)0;
+- (void)eader _produceMessageBody:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (id)letion: /* Error: Ran out of types for this method. */;
-- (id)Device:source: /* Error: Ran out of types for this method. */;
+- (id)configureAccessoryWithNfcReaderKey:accessory:flow:completion: /* Error: Ran out of types for this method. */;
+- (id)_updateReachability:forResidentDevice:source: /* Error: Ran out of types for this method. */;
 - (void)5DemoModeConfigurationDataP;
 - (void))¿¢ìn=;
 - (void)ly?;
 - (id)Y7ÿm4;
 
 // Remaining properties
-@property(readonly) NSArray *accessoryRegistrations;
-@property(readonly) NSArray *accessoryRegistrationsForCurrentDevice;
 @property(readonly) HMDAppleAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property _Bool currentPrimary; // @synthesize currentPrimary=_currentPrimary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDNotificationConditionEvaluator *evaluator; // @synthesize evaluator=_evaluator;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSArray *serviceRegistrationsForCurrentDevice;
-@property(readonly) HMDBulletinNotificationRegistrationSource *source;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *synchronizeWithPrimaryDebounceTimer; // @synthesize synchronizeWithPrimaryDebounceTimer=_synchronizeWithPrimaryDebounceTimer;
-@property(copy) CDUnknownBlockType synchronizeWithPrimaryDebounceTimerFactory; // @synthesize synchronizeWithPrimaryDebounceTimerFactory=_synchronizeWithPrimaryDebounceTimerFactory;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

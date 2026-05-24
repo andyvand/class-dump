@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKOperationConfiguration, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface HMBCloudDatabaseConfiguration
 {
     _Bool _manateeContainer;
-    CKContainerID *_containerID;
-    NSString *_sourceApplicationBundleIdentifier;
-    CKOperationConfiguration *_defaultOperationConfiguration;
-    long long _subscriptionPushRegistrationAction;
-    NSObject<OS_dispatch_queue> *_operationQueue;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)d_devicesChanged:(struct _NSZone *)arg1 Device [%{public}@], change [%{private}@] -> [%{private}@];
 - (void);
 - (long long);
 - (void);
@@ -28,19 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)6;
+- (_Bool)rameworks/CloudDocs.framework/CloudDocs;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(copy) CKOperationConfiguration *defaultOperationConfiguration; // @synthesize defaultOperationConfiguration=_defaultOperationConfiguration;
 @property(getter=isManateeContainer) _Bool manateeContainer; // @synthesize manateeContainer=_manateeContainer;
-@property(retain) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(copy) NSString *sourceApplicationBundleIdentifier; // @synthesize sourceApplicationBundleIdentifier=_sourceApplicationBundleIdentifier;
-@property long long subscriptionPushRegistrationAction; // @synthesize subscriptionPushRegistrationAction=_subscriptionPushRegistrationAction;
 
 @end
 

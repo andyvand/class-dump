@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _NSStateMachine
 {
     unsigned long long _stateCount;
-    unsigned long long _eventCount;
-    struct {
-        unsigned long long _field1;
-        unsigned long long _field2;
-        _Bool _field3;
-        unsigned long long _field4;
-        CDUnknownBlockType _field5;
-        CDUnknownBlockType _field6;
-    } *_transitionTable;
-    NSMutableDictionary *_stateChangeObservers;
-    unsigned long long _state;
 }
 
 + (void);
@@ -34,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)eInterface.m;
 - (void)Selector:contextInfo:]_block_invoke_6 /* Error: Ran out of types for this method. */;
 
 // Remaining properties

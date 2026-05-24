@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaQuery, NSString;
-@protocol MPLocalPickerResponder;
+@class MPMediaQuery;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerRootViewController
 {
     _Bool _mPlaylistsLoading;
-    MPMediaQuery *_mUserPlaylistQuery;
-    id <MPLocalPickerResponder> _mPickerResponder;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)j(8;
 - (void);
 - (void);
 - (void);
@@ -31,26 +28,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)transmitted with error:(_Bool)arg1 %@;
 - (void);
 - (void)String",C,N,V_routingContextUID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <MPLocalPickerResponder> mPickerResponder; // @synthesize mPickerResponder=_mPickerResponder;
-@property(nonatomic) _Bool mPlaylistsLoading; // @synthesize mPlaylistsLoading=_mPlaylistsLoading;
 @property(retain, nonatomic) MPMediaQuery *mUserPlaylistQuery; // @synthesize mUserPlaylistQuery=_mUserPlaylistQuery;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPMediaQuery *userPlaylistQuery;
 
 @end
 

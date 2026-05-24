@@ -7,10 +7,6 @@
 @interface ConversationKit.ConversationControlsJoinCountdownActionController
 {
     id countdownInfo;
-    id countdownVouchers;
-    id countdownTimer;
-    id countdownSoundPlayer;
-    id hasStartedSoundPlayerSetup;
 }
 
 @end

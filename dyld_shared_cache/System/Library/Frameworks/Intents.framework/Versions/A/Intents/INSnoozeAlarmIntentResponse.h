@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSnoozeAlarmIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)restoreGraphicsState;
++ (long long)removeAllAdditions;
++ (_Bool)plistInExtendedAttributeNamed:(long long)arg1 flags:onFileDescriptor:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (id)setOverlayPresented:(id)arg1;
+- (id);
+- (void)S (%{public}@);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)sHomeAutomationEntityProvider;
+- (long long)hasHomeAutomationEntityProvider;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath;
+
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool);
+- (void)ation [%ld edits remain] activeEdits=%{public}@;
+- (void);
+- (NSIndexPath *)P;
+- (_Bool)0;
 @end
 

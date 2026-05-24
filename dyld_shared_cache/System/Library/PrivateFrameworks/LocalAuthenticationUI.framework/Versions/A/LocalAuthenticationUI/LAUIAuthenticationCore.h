@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSDictionary, NSObject, NSView;
-@protocol LAUIAuthenticationCoreDelegate;
-
 __attribute__((visibility("hidden")))
 @interface LAUIAuthenticationCore
 {
     _Bool _doneMatching;
-    _Bool _doneWatch;
-    _Bool _usesInternalContext;
-    _Bool _mirroringToDefaultUI;
-    long long _lastState;
-    _Bool _supportsConcurrentEvaluations;
-    _Bool _applicationActive;
-    _Bool _keyWindow;
-    _Bool _uiActive;
-    NSObject<LAUIAuthenticationCoreDelegate> *_delegate;
-    NSView *_view;
-    long long _biometryType;
-    unsigned long long _enabledMechanisms;
-    unsigned long long _activeMechanisms;
-    LAContext *_context;
-    NSDictionary *_faceIdResult;
 }
 
 + (void);
@@ -68,24 +50,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)used location updates.;
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)ictionary!;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeMechanisms; // @synthesize activeMechanisms=_activeMechanisms;
-@property(nonatomic, getter=isApplicationActive) _Bool applicationActive; // @synthesize applicationActive=_applicationActive;
-@property(readonly, nonatomic) long long biometryType; // @synthesize biometryType=_biometryType;
-@property(retain, nonatomic) LAContext *context; // @synthesize context=_context;
-@property(nonatomic) __weak NSObject<LAUIAuthenticationCoreDelegate> *delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) unsigned long long enabledMechanisms; // @synthesize enabledMechanisms=_enabledMechanisms;
-@property(readonly, nonatomic) NSDictionary *faceIdResult; // @synthesize faceIdResult=_faceIdResult;
-@property(nonatomic, getter=isKeyWindow) _Bool keyWindow; // @synthesize keyWindow=_keyWindow;
-@property(nonatomic, getter=isUiActive) _Bool uiActive; // @synthesize uiActive=_uiActive;
-@property(nonatomic) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

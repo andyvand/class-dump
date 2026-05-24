@@ -13,12 +13,13 @@
 
 + (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)�
+;
+- (void)MAV_QMI_MEAS_ERROR_BAD_MEAS_ID;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)collectionId;
 - (id);
 
 // Remaining properties

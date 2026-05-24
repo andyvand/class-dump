@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReferencingDelegateStorage, NSMutableArray;
+@class AVWeakReferencingDelegateStorage;
 @protocol AVCapturePhotoOutputReadinessCoordinatorDelegate;
 
 @interface AVCapturePhotoOutputReadinessCoordinator
 {
     AVWeakReferencingDelegateStorage *_delegateStorage;
-    long long _captureReadiness;
-    struct AVCapturePhotoOutputCaptureReadinessState _captureReadinessState;
-    NSMutableArray *_trackedPhotoSettingsArray;
 }
 
 + (_Bool);
 + (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)FRunLoopSource=},N;
+- (id)Connection state .ready;
+- (void)id MSVLaunchApplicationWithOptions(NSString *__strong, NSDictionary *__strong, __strong dispatch_queue_t, void (^__strong)(NSError *__strong));
+- (void)bjc_ivar=}8r*16r*24^v32;
+- (void)error un-premultiplying image data. (%zd);
+- (void)lor:(CDUnknownBlockType)arg1 {%@};
+- (void)notifyRemoteDevicesOfModifiedAccount:withChangeType:options:completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long captureReadiness;
 @property __weak id <AVCapturePhotoOutputReadinessCoordinatorDelegate> delegate;
 
 @end

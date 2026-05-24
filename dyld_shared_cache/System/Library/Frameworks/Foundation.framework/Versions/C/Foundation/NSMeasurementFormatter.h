@@ -6,8 +6,6 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSLocale, NSNumberFormatter;
-
 @interface NSMeasurementFormatter : NSFormatter
 {
     void *_formatter;
@@ -16,10 +14,7 @@
 + (_Bool)ss:andEventID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSLocale *locale;
-@property(copy) NSNumberFormatter *numberFormatter;
 @property unsigned long long unitOptions;
-@property long long unitStyle;
 
 @end
 

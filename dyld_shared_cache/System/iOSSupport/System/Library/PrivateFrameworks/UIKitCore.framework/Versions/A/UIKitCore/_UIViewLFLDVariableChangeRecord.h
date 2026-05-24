@@ -6,27 +6,23 @@
 
 #import <UIKitCore/_UIViewLFLDChangeRecord.h>
 
-@class NSISVariable, UIView;
+@class NSISVariable;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewLFLDVariableChangeRecord : _UIViewLFLDChangeRecord
 {
     NSISVariable *_variable;
-    double _value;
-    UIView *_variableDelegate;
 }
 
 - (id);
-- (id);
+- (id)qah;
 - (id);
 - (id);
 - (double)sibility;
 - (void)ontainerCSbIggyygd_;
 
 // Remaining properties
-@property(readonly, nonatomic) double value; // @synthesize value=_value;
 @property(readonly, nonatomic) NSISVariable *variable; // @synthesize variable=_variable;
-@property(readonly, nonatomic) UIView *variableDelegate; // @synthesize variableDelegate=_variableDelegate;
 
 @end
 

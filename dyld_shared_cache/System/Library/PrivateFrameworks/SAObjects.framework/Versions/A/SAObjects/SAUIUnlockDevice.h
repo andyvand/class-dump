@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cancellationCommands;
-@property(copy, nonatomic) NSArray *failureCommands;
-@property(copy, nonatomic) NSArray *successCommands;
 
 @end
 

@@ -9,21 +9,17 @@
 @interface ECRawMessageHeader
 {
     NSString *_name;
-    NSString *_transmittedName;
-    NSString *_body;
 }
 
+- (id)t completion handler with playbackState:(id)arg1 %@;
+- (id)n already tracking.;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *transmittedName; // @synthesize transmittedName=_transmittedName;
 
 @end
 

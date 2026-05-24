@@ -5,5 +5,9 @@
 //
 
 @protocol AXKInputMarkingSessionDelegate
+
+@optional
+- (void)?;
+- (void)}�;
 @end
 

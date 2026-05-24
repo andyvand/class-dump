@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
-+ (id);
++ (id)_calcTimingFunction;
 - (void);
 
 @end

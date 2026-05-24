@@ -4,51 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUBonjourAdvertiser, CUNetInterfaceMonitor, CUReachabilityMonitor, NSData, NSDictionary, NSError, NSMutableArray, NSObject, NSString, SFSession;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CUBonjourAdvertiser, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SFDeviceOperationHandlerWiFiSetup
 {
     CUBonjourAdvertiser *_bonjourAdvertiser;
-    _Bool _invalidateCalled;
-    CUNetInterfaceMonitor *_interfaceMonitor;
-    NSObject<OS_dispatch_source> *_ip4Timeout;
-    _Bool _ip4WaitDone;
-    CUReachabilityMonitor *_reachabilityMonitor;
-    CDUnknownBlockType _responseHandler;
-    NSDictionary *_scanResult;
-    int _state;
-    _Bool _stepDone;
-    NSError *_stepError;
-    _Bool _ipAssigned;
-    _Bool _reachabilityEnabled;
-    _Bool _ensureIP4Configured;
-    unsigned int _repairFlags;
-    unsigned int _setupFlags;
-    int _wifiChannel;
-    _Bool _wifiDirected;
-    id _wifiEAPConfig;
-    id _wifiEAPTrustExceptions;
-    _Bool _wifiHomeNetwork;
-    NSString *_wifiPassword;
-    NSData *_wifiPSK;
-    NSString *_wifiSSID;
-    _Bool _wifiSkipReachbility;
-    unsigned long long _wiFiJoinLimit;
-    unsigned long long _wiFiScanLimit;
-    unsigned long long _currentWiFiJoinChannelCount;
-    unsigned long long _currentWiFiScanChannelCount;
-    unsigned long long _currentWiFiJoinNoChannelCount;
-    unsigned long long _currentWiFiScanNoChannelCount;
-    unsigned long long _scanStartTicks;
-    unsigned long long _joinStartTicks;
-    NSMutableArray *_wiFiRetryMetrics;
-    _Bool _isRetrySetup;
-    unsigned long long _ipAssignStartTicks;
-    double _ipAssignSecs;
-    long long _operationType;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SFSession *_sfSession;
 }
 
 - (id);
@@ -65,19 +26,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) SFSession *sfSession; // @synthesize sfSession=_sfSession;
 
 @end
 

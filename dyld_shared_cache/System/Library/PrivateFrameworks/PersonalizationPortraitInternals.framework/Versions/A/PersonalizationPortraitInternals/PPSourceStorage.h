@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPContactStorage, PPSQLDatabase;
+@class PPSQLDatabase;
 
 @interface PPSourceStorage
 {
     PPSQLDatabase *_db;
-    PPContactStorage *_contactStorage;
 }
 
 + (double);
 - (id);
-- (id);
-- (long long);
-- (id);
+- (id);
+- (long long)to query chipID;
+- (id)So7NSArrayC;
 - (long long);
 - (_Bool);
 - (id);

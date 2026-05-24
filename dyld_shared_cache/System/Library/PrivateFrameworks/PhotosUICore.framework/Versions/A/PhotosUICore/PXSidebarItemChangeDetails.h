@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, PXArrayChangeDetails, PXDataSection;
+@class PXArrayChangeDetails;
 
 @interface PXSidebarItemChangeDetails
 {
     _Bool _hasContentChanges;
-    _Bool _needsReload;
-    PXArrayChangeDetails *_arrayChangeDetails;
-    PXDataSection *_previousDataSection;
-    NSArray *_removedItems;
-    NSArray *_changedItems;
 }
 
 + (void);
@@ -23,25 +18,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)`;
 - (id);
 - (_Bool);
-- (id)tDrop:indexPath:dropOperation: /* Error: Ran out of types for this method. */;
-- (id)viderRequest;
+- (id);
+- (_Bool);
+- (id)collectionView:acceptDrop:indexPath:dropOperation: /* Error: Ran out of types for this method. */;
+- (id)PXDisplayAssetVideoContentProviderRequest;
 - (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) PXArrayChangeDetails *arrayChangeDetails; // @synthesize arrayChangeDetails=_arrayChangeDetails;
-@property(readonly, nonatomic) NSArray *changedItems; // @synthesize changedItems=_changedItems;
-@property(readonly, nonatomic) _Bool hasContentChanges; // @synthesize hasContentChanges=_hasContentChanges;
-@property(readonly, nonatomic) _Bool hasMoves;
-@property(readonly, copy, nonatomic) NSIndexSet *insertedIndexes;
-@property(readonly, nonatomic) _Bool needsReload; // @synthesize needsReload=_needsReload;
-@property(readonly, nonatomic) PXDataSection *previousDataSection; // @synthesize previousDataSection=_previousDataSection;
-@property(readonly, copy, nonatomic) NSIndexSet *removedIndexes;
-@property(readonly, nonatomic) NSArray *removedItems; // @synthesize removedItems=_removedItems;
 
 @end
 

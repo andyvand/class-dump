@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaAutoPunctuationEdit : SISchemaInstrumentationMessage
 {
     NSString *_recognizedPunctuation;
-    NSString *_correctedPunctuation;
-    _Bool _hasRecognizedPunctuation;
-    _Bool _hasCorrectedPunctuation;
 }
 
 - (void);
@@ -25,23 +22,20 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)j;
 - (id);
+- (void)A;
+- (unsigned long long)ASDAppQueryExecutor;
+- (_Bool)preferredForName;
+- (_Bool)e AS m  ON m.ROWID = crmj.message_id WHERE crmj.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'   UNION ALL SELECT c.guid, rmp.message_id, m.guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'  LIMIT ?;;
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ntTurn;
-- (id)ionTimeInMs;
-- (void)UETOOTHWIRELESSSPLITTERSESSIONSTATE_ACTIVE;
+- (id)rComponent %u not a supported bitdepth
+;
+- (id)currentTurn;
+- (id)_answerSynthesisTotalHydrationTimeInMs;
+- (void)MHBLUETOOTHWIRELESSSPLITTERSESSIONSTATE_ACTIVE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *correctedPunctuation; // @synthesize correctedPunctuation=_correctedPunctuation;
-@property(nonatomic) _Bool hasCorrectedPunctuation; // @synthesize hasCorrectedPunctuation=_hasCorrectedPunctuation;
-@property(nonatomic) _Bool hasRecognizedPunctuation; // @synthesize hasRecognizedPunctuation=_hasRecognizedPunctuation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *recognizedPunctuation; // @synthesize recognizedPunctuation=_recognizedPunctuation;
 
 @end

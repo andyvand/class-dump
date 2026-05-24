@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKApplyWebServiceApplyStepInfo
 {
     NSString *_conversationIdentifier;
-    unsigned long long _contextType;
-    NSArray *_pages;
-    NSString *_coreIDVSessionID;
-    NSString *_coreIDVServiceProviderName;
-    NSString *_coreIDVTier;
-    NSArray *_encryptionCertificates;
-    NSString *_encryptionVersion;
 }
 
 - (id);
@@ -28,18 +21,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void)Label;
-- (id)lletDataClassAvailableForManagedAccount;
+- (void)imageLabel;
+- (id)walletDataClassAvailableForManagedAccount;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long contextType; // @synthesize contextType=_contextType;
 @property(copy, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, copy, nonatomic) NSString *coreIDVServiceProviderName; // @synthesize coreIDVServiceProviderName=_coreIDVServiceProviderName;
-@property(readonly, copy, nonatomic) NSString *coreIDVSessionID; // @synthesize coreIDVSessionID=_coreIDVSessionID;
-@property(readonly, copy, nonatomic) NSString *coreIDVTier; // @synthesize coreIDVTier=_coreIDVTier;
-@property(readonly, copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(readonly, copy, nonatomic) NSArray *pages; // @synthesize pages=_pages;
 
 @end
 

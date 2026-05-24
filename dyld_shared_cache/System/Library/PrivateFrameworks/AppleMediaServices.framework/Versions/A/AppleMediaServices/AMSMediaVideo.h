@@ -14,12 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id)LinkAtPath:(id)arg1 withDestinationPath:error: /* Error: Ran out of types for this method. */;
+- (id)createSymbolicLinkAtPath:(id)arg1 withDestinationPath:error: /* Error: Ran out of types for this method. */;
 - (void)âÍBFZï`Ûà2P;
 
 // Remaining properties
 @property(readonly) NSURL *URL;
-@property(readonly, copy) NSDictionary *videoDictionary; // @synthesize videoDictionary=_videoDictionary;
 
 @end
 

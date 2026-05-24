@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (id)shRotation;
+- (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id)_finishRotation;
 - (void);
 
 // Remaining properties

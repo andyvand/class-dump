@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSObject, PFStoryAutoEditConfiguration, PFStoryClusteringProperties, PXStoryAutoEditConcreteMomentsStatistics;
-@protocol OS_os_log, PXDisplayAssetCollection, PXDisplayAssetFetchResult, PXStoryAutoEditMomentsStatistics;
+@class NSArray, PFStoryAutoEditConfiguration;
 
 @interface PXStoryAutoEditMomentsProvider
 {
     NSArray *_moments;
-    PXStoryAutoEditConcreteMomentsStatistics *_statistics;
-    NSObject<OS_os_log> *_log;
-    PFStoryClusteringProperties *_clusteringProperties;
-    NSError *_error;
-    PFStoryAutoEditConfiguration *_configuration;
-    id <PXDisplayAssetCollection> _assetCollection;
-    id <PXDisplayAssetFetchResult> _displayAssets;
 }
 
 - (void);
@@ -24,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,14 +35,7 @@
 - (void)-Ë;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(retain, nonatomic) PFStoryClusteringProperties *clusteringProperties; // @synthesize clusteringProperties=_clusteringProperties;
 @property(retain, nonatomic) PFStoryAutoEditConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) id <PXDisplayAssetFetchResult> displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSArray *moments;
-@property(readonly, nonatomic) id <PXStoryAutoEditMomentsStatistics> statistics;
 
 @end
 

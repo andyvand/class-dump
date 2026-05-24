@@ -9,12 +9,11 @@
 @interface IMActionDialPhone
 {
     void phoneNumber;
-    void fallbackUrl;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (long long);
 - (_Bool);
 - (id);
@@ -23,8 +22,6 @@
 - (void)t %ld GUID(s) have changed in a way that alters unread counts;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

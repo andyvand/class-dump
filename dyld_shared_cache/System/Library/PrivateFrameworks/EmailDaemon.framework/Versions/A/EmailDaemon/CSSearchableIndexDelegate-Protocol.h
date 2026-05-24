@@ -5,5 +5,7 @@
 //
 
 @protocol CSSearchableIndexDelegate
+- (void)service %{public}@;
+- (void);
 @end
 

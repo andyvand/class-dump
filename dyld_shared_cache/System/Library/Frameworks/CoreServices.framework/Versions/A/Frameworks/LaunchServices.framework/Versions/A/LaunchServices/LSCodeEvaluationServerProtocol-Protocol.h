@@ -5,5 +5,8 @@
 //
 
 @protocol LSCodeEvaluationServerProtocol
+- (void);
+- (void);
+- (void);
 @end
 

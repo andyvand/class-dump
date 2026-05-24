@@ -4,55 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCoarseLocationRing, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOCoarseLocationPolygon
 {
     PBDataReader *_reader;
-    NSMutableArray *_holes;
-    GEOCoarseLocationRing *_shell;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_holes:1;
-        unsigned int read_shell:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)etHasNorthLatE7:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setHasNorthLatE7:(id)arg1;
+- (void);
+- (void)B;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)descriptionWithAddress;
+- (void)setIsTimerPlayingOnAccessory:(id)arg1 isTimerPlaying: /* Error: Ran out of types for this method. */;
+- (void)initWithLocaleIdentifier:(id)arg1;
+- (id)completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)(;
+- (id)translationInView: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (id)sultIndex:(struct _NSZone *)arg1 stepID: /* Error: Ran out of types for this method. */;
+- (id)routeDetailsWithResultIndex:(struct _NSZone *)arg1 stepID: /* Error: Ran out of types for this method. */;
 - (id)Ôá;
-- (id)rride;
+- (id)is_override;
 - (id)|;
 - (id)V¶Q@;
 - (void)Û%;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasShell;
-@property(retain, nonatomic) NSMutableArray *holes;
-@property(retain, nonatomic) GEOCoarseLocationRing *shell;
 
 @end
 

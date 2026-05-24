@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDConfiguration, DEDController, DEDDiagnosticCollector, NSArray, NSOperationQueue, NSString;
+@class DEDConfiguration;
 
 @interface DEDDaemon
 {
     _Bool _embeddedInApp;
-    DEDConfiguration *_config;
-    NSOperationQueue *_backgroundOpQueue;
-    NSOperationQueue *_userInitiatedOpQueue;
-    NSArray *_cachedExtensionsForThisDevice;
-    DEDDiagnosticCollector *__diagnosticCollector;
-    DEDController *_controller;
 }
 
 + (id);
@@ -29,8 +23,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)setRepeatEverySec: /* Error: Ran out of types for this method. */;
+- (id)y validated signature %@ with service %{public}@;
 - (id);
 - (void);
 - (void);
@@ -46,42 +40,29 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)oordinate,iOSTime,%.1lf,mcTime,%.1lf,gregTime,%s,latitude,%.7lf,longitude,%.7lf,course,%.2lf,speed,%.2lf,type,%d,distance,%.1lf,weight_factor,%.1lf;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)__objc_classlist__DATA_CONST;
+- (void)e header;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9;
 - (void);
-- (long long);
+- (long long);
 - (void);
-- (void)t:(id)arg1;
+- (void)sandboxExtensionHandleWithErrorOut:(id)arg1;
 
 // Remaining properties
-@property(retain) DEDDiagnosticCollector *_diagnosticCollector; // @synthesize _diagnosticCollector=__diagnosticCollector;
-@property(retain) NSOperationQueue *backgroundOpQueue; // @synthesize backgroundOpQueue=_backgroundOpQueue;
-@property(retain) NSArray *cachedExtensionsForThisDevice; // @synthesize cachedExtensionsForThisDevice=_cachedExtensionsForThisDevice;
 @property(retain) DEDConfiguration *config; // @synthesize config=_config;
-@property(retain) DEDController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool embeddedInApp; // @synthesize embeddedInApp=_embeddedInApp;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSOperationQueue *userInitiatedOpQueue; // @synthesize userInitiatedOpQueue=_userInitiatedOpQueue;
 
 @end
 

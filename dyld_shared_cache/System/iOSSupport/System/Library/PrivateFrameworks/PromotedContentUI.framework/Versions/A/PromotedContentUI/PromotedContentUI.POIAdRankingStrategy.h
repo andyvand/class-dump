@@ -7,18 +7,6 @@
 @interface PromotedContentUI.POIAdRankingStrategy
 {
     id filter;
-    id metricReceiver;
-    id systemInfoProvider;
-    id idAccount;
-    id coreSettings;
-    id frequencyCapProvider;
-    id locationManager;
-    id clientRequestId;
-    id anonymousSessionId;
-    id metricsHelper;
-    id executionEnvironment;
-    id routingInfoProvider;
-    id timer;
 }
 
 @end

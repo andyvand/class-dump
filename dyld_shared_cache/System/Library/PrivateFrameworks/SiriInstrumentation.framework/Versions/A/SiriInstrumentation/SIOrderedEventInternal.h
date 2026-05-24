@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SIComponentIdentifier, SILogicalTimestampInternal, SISchemaTopLevelUnionType;
+@class SILogicalTimestampInternal;
 
 @interface SIOrderedEventInternal
 {
     SILogicalTimestampInternal *logicalTimestamp;
-    SISchemaTopLevelUnionType *tluEvent;
-    void messageUUID;
-    SIComponentIdentifier *clusterId;
-    void testFingerprint;
-    void altDsId;
 }
 
 + (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *altDsId;
-@property(nonatomic, retain) SIComponentIdentifier *clusterId; // @synthesize clusterId;
 @property(nonatomic, retain) SILogicalTimestampInternal *logicalTimestamp; // @synthesize logicalTimestamp;
-@property(nonatomic, copy) NSUUID *messageUUID;
-@property(nonatomic, copy) NSUUID *testFingerprint;
-@property(nonatomic, retain) SISchemaTopLevelUnionType *tluEvent; // @synthesize tluEvent;
 
 @end
 

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface UIEventSessionHeatMapTouch
 {
     long long _upDownState;
-    long long _tapDragState;
-    double _dragDistance;
-    NSDate *_touchDownTime;
-    NSDate *_touchUpTime;
-    struct CGPoint _lastLocation;
-    CDStruct_3f566597 _lastVisitedCoordinate;
 }
 
 - (long long);
@@ -24,31 +16,22 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_3f566597);
+- (void)erring %@ because it does not have a creation date;
+- (void)he background;
+- (void)eport junk address - %@;
+- (void)L}d  Repaired Chat Identifier:(double)arg1 %{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (CDStruct_a01601a5)oes this device have SMS Relay capable devices on its account? %{BOOL}d;
 - (long long);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
-- (struct CGPoint)entOffsetOrDeferredContentOffset;
+- (struct CGPoint)_contentOffsetOrDeferredContentOffset;
 - (void)P	°
 Ø¼È(h;
 - (void)½¨ÌüQh;
 
 // Remaining properties
-@property(nonatomic) double dragDistance; // @synthesize dragDistance=_dragDistance;
-@property(readonly, nonatomic) long long dragDistanceForAnalytics;
-@property(nonatomic) struct CGPoint lastLocation; // @synthesize lastLocation=_lastLocation;
-@property(nonatomic) CDStruct_3f566597 lastVisitedCoordinate; // @synthesize lastVisitedCoordinate=_lastVisitedCoordinate;
-@property(nonatomic) long long tapDragState; // @synthesize tapDragState=_tapDragState;
-@property(readonly, nonatomic) double touchDownDuration;
-@property(readonly, nonatomic) long long touchDownDurationMS;
-@property(retain, nonatomic) NSDate *touchDownTime; // @synthesize touchDownTime=_touchDownTime;
-@property(retain, nonatomic) NSDate *touchUpTime; // @synthesize touchUpTime=_touchUpTime;
 @property(nonatomic) long long upDownState; // @synthesize upDownState=_upDownState;
 
 @end

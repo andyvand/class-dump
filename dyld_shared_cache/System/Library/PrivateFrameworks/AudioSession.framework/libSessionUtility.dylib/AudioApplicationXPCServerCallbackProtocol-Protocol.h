@@ -5,5 +5,6 @@
 //
 
 @protocol AudioApplicationXPCServerCallbackProtocol
+- (void);
 @end
 

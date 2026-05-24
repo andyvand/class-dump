@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPassUpcomingPassInformationEntryContentEvent, PKPassUpcomingPassInformationImageManifest;
+@class PKPassUpcomingPassInformationEntryContentEvent;
 
 @interface PKPassUpcomingPassInformationEntryContent
 {
     unsigned long long _type;
-    NSArray *_additionalInfoFields;
-    NSArray *_backFields;
-    NSArray *_auxiliaryStoreIdentifiers;
-    PKPassUpcomingPassInformationImageManifest *_headerManifest;
 }
 
-+ (id);
++ (id);
 + (unsigned long long);
 + (id);
 + (_Bool)0@ù
@@ -31,17 +27,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void)ferTandCPunchCard;
+- (_Bool)setHasMigratorFailed:(id)arg1;
+- (void)activity_Roaming;
+- (void)availableOfferTandCPunchCard;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *additionalInfoFields; // @synthesize additionalInfoFields=_additionalInfoFields;
-@property(readonly, copy, nonatomic) NSArray *auxiliaryStoreIdentifiers; // @synthesize auxiliaryStoreIdentifiers=_auxiliaryStoreIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *backFields; // @synthesize backFields=_backFields;
 @property(readonly, nonatomic) PKPassUpcomingPassInformationEntryContentEvent *eventContent;
-@property(readonly, nonatomic) PKPassUpcomingPassInformationImageManifest *headerManifest; // @synthesize headerManifest=_headerManifest;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

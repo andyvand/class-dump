@@ -7,7 +7,6 @@
 @interface PhotosUICore.GenerativeStoryPromptEntryViewMenuBuilder
 {
     id viewModel;
-    id logger;
 }
 
 @end

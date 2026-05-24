@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPARAssetMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
 }
 
 + (_Bool);
-- (void);
+- (void)stopPlayback;
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (id);
-- (id);
+- (id)_menu;
+- (id)- serviceViewControllerDidAwake %@;
+- (id)head;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -32,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

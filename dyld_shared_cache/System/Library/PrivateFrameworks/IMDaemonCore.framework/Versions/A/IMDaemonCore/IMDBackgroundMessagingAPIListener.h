@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface IMDBackgroundMessagingAPIListener
 {
     NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_activeConnections;
 }
 
 + (id);
@@ -24,13 +21,7 @@
 - (void)Error pulling existing message to update after re-inferencing with guid %s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

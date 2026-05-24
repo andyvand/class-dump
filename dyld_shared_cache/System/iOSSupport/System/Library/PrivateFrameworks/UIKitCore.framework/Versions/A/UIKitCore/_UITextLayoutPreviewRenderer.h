@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextLayoutManager, NSTextRange, UIImage;
+@class NSTextLayoutManager;
 
 @interface _UITextLayoutPreviewRenderer
 {
     _Bool _calculated;
-    _Bool _unifyRects;
-    struct CGRect _firstRect;
-    struct CGRect _lastRect;
-    struct CGRect _middleRect;
-    UIImage *_image;
-    _Bool _excludeBackground;
-    NSTextLayoutManager *_textLayoutManager;
-    NSTextRange *_range;
 }
 
 - (void);
@@ -25,28 +17,15 @@
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect)SPersistentStoreDescription"8@"NSError"16;
+- (void)6@"IDSAccount"24B32@"NSString"36@"NSData"44;
+- (void)scheduleMessageGUIDsUpToLimit:flag:lane:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id)º;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bodyRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool excludeBackground; // @synthesize excludeBackground=_excludeBackground;
-@property(readonly, nonatomic) struct CGRect firstLineRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) struct CGRect lastLineRect;
-@property(readonly, nonatomic) NSTextRange *range; // @synthesize range=_range;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSTextLayoutManager *textLayoutManager; // @synthesize textLayoutManager=_textLayoutManager;
 
 @end

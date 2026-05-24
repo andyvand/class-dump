@@ -5,5 +5,9 @@
 //
 
 @protocol NSMorphingDragImageControllerDragSource
+
+@optional
+- (void)ThreadRadioMacAddress;
+- (void)ration;
 @end
 

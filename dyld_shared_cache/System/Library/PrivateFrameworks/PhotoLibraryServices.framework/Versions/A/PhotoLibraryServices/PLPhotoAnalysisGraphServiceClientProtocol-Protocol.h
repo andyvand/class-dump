@@ -5,5 +5,8 @@
 //
 
 @protocol PLPhotoAnalysisGraphServiceClientProtocol
+- (id);
+- (short)9+HF
+;
 @end
 

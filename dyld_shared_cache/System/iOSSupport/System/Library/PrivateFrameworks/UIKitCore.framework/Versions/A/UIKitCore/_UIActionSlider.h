@@ -6,102 +6,76 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSString, UIBezierPath, UIColor, UIFont, UIImage, UIImageView, UILabel, UIPanGestureRecognizer, UIView, _UIActionSliderKnob, _UIBackdropView, _UIVibrantSettings;
-@protocol _UIActionSliderDelegate, _UIActionSliderLabel;
+@class UIView;
 
 @interface _UIActionSlider : UIControl
 {
     UIView *_contentView;
-    UIView *_trackDodgeView;
-    UIView *_trackBackgroundView;
-    _UIBackdropView *_trackBlurView;
-    UIView *_trackSolidView;
-    _UIActionSliderKnob *_knobView;
-    UIImageView *_knobImageView;
-    UIView<_UIActionSliderLabel> *_trackLabel;
-    UIPanGestureRecognizer *_slideGestureRecognizer;
-    struct CGPoint _slideGestureInitialPoint;
-    double _knobPosition;
-    double _trackWidthProportion;
-    _Bool _showingTrackLabel;
-    _Bool _animating;
-    long long _style;
-    long long _textStyle;
-    NSString *_trackText;
-    UIFont *_trackFont;
-    double _trackTextBaselineFromBottom;
-    id <_UIActionSliderDelegate> _delegate;
-    double _knobWidth;
-    double _cachedTrackMaskWidth;
-    _UIVibrantSettings *_vibrantSettings;
-    struct CGSize _knobImageOffset;
-    struct CGSize _trackSize;
-    struct UIEdgeInsets _knobInsets;
 }
 
 - (_Bool);
 - (void);
-- (double);
+- (double)iS}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (struct CGRect);
+- (double)v64@0:8Q16Q24@32@40@48@?56 /* Error: Ran out of types for this method. */;
+- (id)0:8@16@24@32@40@48B56 /* Error: Ran out of types for this method. */;
+- (struct CGSize)ndlerListener>"16;
+- (id)24@32@40B48;
+- (id)@16@24C32@36@44;
+- (id)0:8@16C24@28@36 /* Error: Ran out of types for this method. */;
+- (id)0:8@16@24{_NSRange=QQ}32@48 /* Error: Ran out of types for this method. */;
+- (id)sortUsingComparator: /* Error: Ran out of types for this method. */;
+- (_Bool)setRelayEnrollmentController:(double)arg1;
+- (void)sendReadReceiptForMessage:(id)arg1 toChatID:identifier:style:reflectOnly: /* Error: Ran out of types for this method. */;
+- (void)samplingUUID;
+- (void)runWithCompletion:(id)arg1;
+- (void)runUntilDate:(struct CGSize)arg1;
+- (void)runIndividuallyWithInput:(id)arg1;
+- (void)reflectAcceptChatToPeerDevicesForMessageGUID:(_Bool)arg1;
+- (void)invitePerson:(struct CGPath *)arg1 withMessage:(id)arg2 toChat:style: /* Error: Ran out of types for this method. */;
+- (void)inviteHandleIDToShareMyScreen:(id)arg1 isContact:(id)arg2;
+- (void)initWithMemberStatus:(double)arg1 forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:(double)arg1 forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:(struct UIEdgeInsets)arg1 forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:(struct CGSize)arg1 forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)yle:(id)arg1;
+- (void)sation:(double)arg1;
+- (void)_bestGuessURI;
+- (double)__message_defaultFileTransferEnforceMaxFileSize:withCompletion: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ly;
+- (double)PCSReportManateeStatusAsync:timeout: /* Error: Ran out of types for this method. */;
+- (id)gNeedsSync;
+- (struct UIEdgeInsets)PCSKeyRollPending;
+- (id)sting;
+- (_Bool)ndlers;
+- (id)4;
+- (void);
+- (double);
+- (struct CGRect)ew timer with retryAfter %f;
+- (void)und;
+- (double)DaemonCore.IMDBatchSimulatedEntryProcessor;
+- (double)RemoteIntentFileSafeRenderProvider;
+- (void);
+- (double)leSafeRenderArchiveProvider;
+- (double)pple.Messages.IntentFileSafeRenderArchiveProvider;
+- (double)hiveForTransfer(_:) /* Error: Ran out of types for this method. */;
+- (double);
+- (double)r:useOriginalOnFailure:) /* Error: Ran out of types for this method. */;
+- (double);
+- (void)?0@"IMDChat"8;
+- (void);
+- (void);
 - (double);
 - (id);
 - (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
-- (double);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (double);
-- (struct CGRect);
-- (void);
-- (double);
-- (double);
-- (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (struct CGSize);
 - (void);
 - (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void)payloadFont;
 - (struct CGSize);
 - (id);
 - (void);
@@ -110,10 +84,10 @@
 × ;
 - (void)!(Dù1fð1Â0@ù
 × ;
-- (void);
-- (void)olKeyAt: /* Error: Ran out of types for this method. */;
-- (void)t:(long long)arg1;
-- (id)accessoriesByIdentifier;
+- (void)initWithAttributedName:(id)arg1 image:target:selector: /* Error: Ran out of types for this method. */;
+- (void)frameForLeftControlKeyAt: /* Error: Ran out of types for this method. */;
+- (void)constraintGreaterThanOrEqualToConstant:(long long)arg1;
+- (id)_accessoriesByIdentifier;
 - (void)d'È(¬);
 - (_Bool)|;
 - (id)ewRecord"8Q16^B24;
@@ -121,37 +95,7 @@
 - (long long)Éßþ;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) double cachedTrackMaskWidth; // @synthesize cachedTrackMaskWidth=_cachedTrackMaskWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIActionSliderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *knobColor;
-@property(retain, nonatomic) UIImage *knobImage;
-@property(nonatomic) struct CGSize knobImageOffset; // @synthesize knobImageOffset=_knobImageOffset;
-@property(nonatomic) struct UIEdgeInsets knobInsets; // @synthesize knobInsets=_knobInsets;
-@property(readonly, nonatomic) UIBezierPath *knobMaskPath;
-@property(nonatomic) double knobPosition; // @synthesize knobPosition=_knobPosition;
-@property(readonly, nonatomic) struct CGRect knobRect;
-@property(readonly, nonatomic, getter=_knobView) UIView *knobView; // @synthesize knobView=_knobView;
-@property(nonatomic) double knobWidth; // @synthesize knobWidth=_knobWidth;
-@property(nonatomic, getter=isShowingTrackLabel) _Bool showingTrackLabel; // @synthesize showingTrackLabel=_showingTrackLabel;
-@property(readonly, nonatomic) UIPanGestureRecognizer *slideGestureRecognizer; // @synthesize slideGestureRecognizer=_slideGestureRecognizer;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) long long textStyle; // @synthesize textStyle=_textStyle;
-@property(retain, nonatomic) UIFont *trackFont; // @synthesize trackFont=_trackFont;
-@property(readonly, retain, nonatomic) UILabel *trackLabel;
-@property(nonatomic) struct CGSize trackSize; // @synthesize trackSize=_trackSize;
-@property(copy, nonatomic) NSString *trackText; // @synthesize trackText=_trackText;
-@property(nonatomic) double trackTextBaselineFromBottom; // @synthesize trackTextBaselineFromBottom=_trackTextBaselineFromBottom;
-@property(readonly, nonatomic) struct CGRect trackTextRect;
 @property(nonatomic) double trackWidthProportion; // @synthesize trackWidthProportion=_trackWidthProportion;
-@property(retain, nonatomic) _UIVibrantSettings *vibrantSettings; // @synthesize vibrantSettings=_vibrantSettings;
 
 @end
 

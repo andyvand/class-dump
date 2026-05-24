@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface UnknownClass (CalUserManagement)
 - (id);
@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)(8!;
 - (_Bool);
 - (long long);
 - (id);
@@ -60,7 +60,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (id);
 - (id);
@@ -73,7 +73,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)J);
 - (id);
 - (id);
 - (_Bool);
@@ -81,51 +81,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)F;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)N;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *calAccountFullName;
-@property _Bool calAttachmentDownloadHasTakenPlace;
-@property(readonly) NSArray *calCalDAVChildAccounts;
-@property(retain) NSString *calCollectionSetName;
-@property(readonly) NSURL *calExchangeWebServicesURL;
-@property(readonly) NSURL *calExternalExchangeWebServicesURL;
-@property(copy) NSURL *calExternalURL;
-@property(retain) NSString *calHostname;
-@property(copy) NSString *calIdentityEmailAddress;
-@property(readonly) _Bool calIsAutoRefreshed;
-@property(readonly) _Bool calIsCalDAVAccount;
-@property(readonly) _Bool calIsDirty;
-@property(readonly) _Bool calIsEnabled;
-@property _Bool calIsEnabledForCalendar;
-@property _Bool calIsEnabledForReminders;
-@property(readonly) _Bool calIsExchangeAccount;
-@property(readonly) _Bool calIsGenericCalDAVAccount;
-@property(readonly) _Bool calIsMissingParentAccount;
-@property(readonly) _Bool calIsRestrictedForCalendar;
-@property(readonly) _Bool calIsiCloudCalDAVAccount;
-@property _Bool calLocalDataMigrationHasTakenPlace;
-@property(copy) NSString *calMainPrincipalUID;
-@property(copy) NSNumber *calPort;
-@property(readonly, copy) NSDictionary *calPrincipals;
-@property _Bool calPushDisabled;
-@property long long calRefreshInterval;
-@property(copy) NSString *calRootFolderID;
-@property _Bool calServerSyncHasTakenPlace;
-@property(copy) NSURL *calServerURL;
-@property _Bool calSkipCredentialVerification;
-@property(readonly) _Bool calSupportsPush;
-@property _Bool calUseExternalURL;
-@property _Bool calUseKerberos;
-@property _Bool calUseSSL;
-@property(copy) NSString *calWebServicesRecordGUID;
 @property(readonly, nonatomic) NSString *cal_personaIdentifier;
 @end
 

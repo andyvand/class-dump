@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXScrollInfo, PXTilingCoordinateSpace;
+@class PXScrollInfo;
 @protocol PXTilingLayoutObserver;
 
 @interface PXTilingLayout
 {
     PXScrollInfo *_scrollInfo;
-    void *_coordinateSpaceIdentifier;
-    id <PXTilingLayoutObserver> _observer;
-    PXTilingCoordinateSpace *_coordinateSpace;
-    struct CGSize _referenceSize;
-    struct CGSize _visibleSize;
-    struct CGPoint _visibleOrigin;
-    struct NSEdgeInsets _contentInset;
 }
 
 - (struct CGPoint);
@@ -26,39 +19,27 @@
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void *);
+- (void *);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (struct NSEdgeInsets);
 - (void);
 - (struct CGRect);
-- (void)arentView;
+- (void)parentView;
 - (void)±c²¨¡;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowHorizontalFlip;
-@property(readonly, nonatomic) struct CGRect contentBounds;
-@property(nonatomic) struct NSEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, nonatomic) PXTilingCoordinateSpace *coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, nonatomic) void *coordinateSpaceIdentifier; // @synthesize coordinateSpaceIdentifier=_coordinateSpaceIdentifier;
 @property(nonatomic) __weak id <PXTilingLayoutObserver> observer; // @synthesize observer=_observer;
-@property(nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(readonly, nonatomic) struct CGRect scrollBounds;
-@property(readonly, copy, nonatomic) PXScrollInfo *scrollInfo; // @synthesize scrollInfo=_scrollInfo;
-@property(readonly, nonatomic) _Bool shouldFlipHorizontally;
-@property(nonatomic) struct CGPoint visibleOrigin; // @synthesize visibleOrigin=_visibleOrigin;
-@property(readonly, nonatomic) struct CGRect visibleRect;
-@property(nonatomic) struct CGSize visibleSize; // @synthesize visibleSize=_visibleSize;
 
 @end
 

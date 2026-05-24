@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, TIInputMode, TIKeyboardInputManager;
+@class TIInputMode;
 
 @interface TIEmojiCandidateGenerator
 {
     void *m_emojiGeneratorPrimaryLanguage;
-    void *m_emojiGeneratorSecondaryLanguage;
-    void *m_emojiGeneratorTertiaryLanguage;
-    _Bool m_didAttemptPrimaryEmojiGeneratorLoad;
-    _Bool m_didAttemptSecondaryEmojiGeneratorLoad;
-    _Bool m_didAttemptTertiaryEmojiGeneratorLoad;
-    _Bool m_shouldShowEmojis;
-    struct __EmojiLocaleDataWrapper *m_emojiDataForPrimaryLocale;
-    struct __EmojiLocaleDataWrapper *m_emojiDataForSecondaryLocale;
-    struct __EmojiLocaleDataWrapper *m_emojiDataForTertiaryLocale;
-    _Bool m_didAttemptPrimaryLocaleForEmojiLoad;
-    _Bool m_didAttemptSecondaryLocaleForEmojiLoad;
-    _Bool m_didAttemptTertiaryLocaleForEmojiLoad;
-    _Bool m_isEmojiInputModeEnabled;
-    NSSet *m_disabledLocales;
-    TIKeyboardInputManager *m_inputManager;
-    NSArray *_activeInputModes;
 }
 
+- (id)X;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)@ (by %fs overall) first sample for this thread;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -44,30 +28,29 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)derstandingAsrHammer;
 - (id);
-- (id);
-- (struct __EmojiLocaleDataWrapper *);
-- (id);
-- (id);
-- (id);
+- (id)__crash_info;
+- (struct __EmojiLocaleDataWrapper *)privacyAcknowledgementRequiredForMusic;
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void *);
+- (id);
+- (id);
+- (id);
+- (long long)%d %d %d %d %d %@ %@ %@ %f %f %@ (%p, %p, %lu);
+- (void *);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)/C/AppKit;
+- (void)*;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeInputModes; // @synthesize activeInputModes=_activeInputModes;
 @property(readonly, nonatomic) TIInputMode *primaryInputMode;
 
 @end

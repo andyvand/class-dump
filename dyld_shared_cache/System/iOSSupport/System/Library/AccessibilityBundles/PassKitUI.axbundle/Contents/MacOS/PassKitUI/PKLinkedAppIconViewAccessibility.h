@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCImageAnalysisResult;
 + (void);
 - (void);
 - (void);

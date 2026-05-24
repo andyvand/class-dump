@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSImageView, NSObject, NSTrackingArea, NSVisualEffectView, PXStoryChromeButtonConfiguration, PXUpdater, UXImageView, UXLabel, UXView;
-@protocol OS_os_log;
+@class PXUpdater;
 
 @interface PXStoryChromeButton
 {
     _Bool _isMenuOpen;
-    _Bool _isHovered;
-    PXStoryChromeButtonConfiguration *_userData;
-    PXUpdater *_updater;
-    NSVisualEffectView *_effectView;
-    UXView *_backgroundView;
-    NSImageView *_systemImageView;
-    NSVisualEffectView *_systemImageVisualEffectView;
-    NSImageView *_badgeSystemImageView;
-    UXImageView *_assetImageView;
-    UXLabel *_label;
-    NSImage *_assetImage;
-    long long _imageRequestID;
-    NSTrackingArea *_trackingArea;
-    NSColor *_tintColor;
-    NSObject<OS_os_log> *_log;
-    struct CGRect _clippingRect;
 }
 
 + (_Bool);
@@ -34,8 +17,8 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (void);
+- (id)֢;
+- (void)0;
 - (void);
 - (long long);
 - (id);
@@ -57,10 +40,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)tv;
 - (void);
 - (id);
 - (void);
@@ -77,18 +60,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_targetInverseTransformInRoot;
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (void)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v},R,N;
+- (id);
+- (void)setReferencedItemsDescription:(id)arg1;
+- (id)setCreatedCollection: /* Error: Ran out of types for this method. */;
 - (void)g;
-- (id)ssaging;
+- (id)ICQInAppMessaging;
 - (id)0@"PXSnappingController"8Q16^B24;
 - (id)ScrollLayout _invalidateContentScrollPositionWithReason:] /* Error: Ran out of types for this method. */;
 - (void)ÿ;
@@ -100,35 +83,7 @@
 - (void):(id)arg1 ÊÿÎýNg<;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *assetImage; // @synthesize assetImage=_assetImage;
-@property(readonly, nonatomic) UXImageView *assetImageView; // @synthesize assetImageView=_assetImageView;
-@property(retain, nonatomic) UXView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) NSImageView *badgeSystemImageView; // @synthesize badgeSystemImageView=_badgeSystemImageView;
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(retain, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) long long imageRequestID; // @synthesize imageRequestID=_imageRequestID;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property(nonatomic) _Bool isMenuOpen; // @synthesize isMenuOpen=_isMenuOpen;
-@property(readonly, nonatomic) UXLabel *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSImageView *systemImageView; // @synthesize systemImageView=_systemImageView;
-@property(readonly, nonatomic) NSVisualEffectView *systemImageVisualEffectView; // @synthesize systemImageVisualEffectView=_systemImageVisualEffectView;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(copy, nonatomic) PXStoryChromeButtonConfiguration *userData; // @synthesize userData=_userData;
 
 @end
 

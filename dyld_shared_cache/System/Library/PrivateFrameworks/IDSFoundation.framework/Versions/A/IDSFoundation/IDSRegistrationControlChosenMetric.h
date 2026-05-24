@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBCodable;
-@protocol NSCopying;
-
 @interface IDSRegistrationControlChosenMetric
 {
     long long _registrationType;
-    long long _registrationControlStatus;
-    _Bool _isInterestingRegion;
-    long long _controlRegistrationType;
 }
 
 - (long long);
@@ -24,19 +18,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly) PBCodable<NSCopying> *awdRepresentation;
 @property(readonly, nonatomic) long long controlRegistrationType; // @synthesize controlRegistrationType=_controlRegistrationType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInterestingRegion; // @synthesize isInterestingRegion=_isInterestingRegion;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) long long registrationControlStatus; // @synthesize registrationControlStatus=_registrationControlStatus;
-@property(readonly) Class superclass;
 
 @end
 

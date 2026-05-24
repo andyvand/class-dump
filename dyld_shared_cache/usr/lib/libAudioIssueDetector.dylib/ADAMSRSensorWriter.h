@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, SRSensorWriterProvider;
+@protocol SRSensorWriterProvider;
 
 __attribute__((visibility("hidden")))
 @interface ADAMSRSensorWriter
 {
     id <SRSensorWriterProvider> _provider;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isValidSRSensorWriterPresent;
-    _Bool _isMonitoring;
-    _Bool _isBundleIdentifierEligible;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)0o^@48;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBundleIdentifierEligible; // @synthesize isBundleIdentifierEligible=_isBundleIdentifierEligible;
-@property(readonly, nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
 @property(readonly, nonatomic) _Bool isValidSRSensorWriterPresent; // @synthesize isValidSRSensorWriterPresent=_isValidSRSensorWriterPresent;
 
 @end

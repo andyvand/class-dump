@@ -6,13 +6,11 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SFQuickLookThumbnailImage : SFImage
 {
     NSURL *_filePath;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
 + (_Bool);

@@ -9,15 +9,13 @@
 @interface LPSharingMetadataWrapper
 {
     _Bool _hasFetchedSubresources;
-    _Bool _hasCompletedFetch;
-    LPLinkMetadata *_metadata;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)toolbarPresentPermanentDeletionConfirmationsForConversations:(_Bool)arg1 sender: /* Error: Ran out of types for this method. */;
+- (void)toolbarItemsForRecentlyDeletedFilterHasConversations:(_Bool)arg1 hasSelectedConversations: /* Error: Ran out of types for this method. */;
+- (_Bool):associatedLayoutIntent: /* Error: Ran out of types for this method. */;
+- (_Bool)targetWithScreenCoordinate:initialSize:scale:meshScaleFactor:rotation:associatedLayoutIntent: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasCompletedFetch; // @synthesize hasCompletedFetch=_hasCompletedFetch;
-@property(nonatomic) _Bool hasFetchedSubresources; // @synthesize hasFetchedSubresources=_hasFetchedSubresources;
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

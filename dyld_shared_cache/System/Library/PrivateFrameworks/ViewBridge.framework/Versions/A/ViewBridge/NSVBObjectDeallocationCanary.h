@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (unsigned char);
++ (unsigned char);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 
 @end

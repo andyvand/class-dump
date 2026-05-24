@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)_isConnectable;
 
 // Remaining properties
 @property(retain) SFURLCopyItem *item; // @dynamic item;

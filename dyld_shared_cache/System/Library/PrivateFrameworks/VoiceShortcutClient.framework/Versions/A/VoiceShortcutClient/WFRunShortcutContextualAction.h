@@ -15,9 +15,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id){;
+- (id);
+- (id)ew",&,N,V_dot;
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowDescriptor *workflow;

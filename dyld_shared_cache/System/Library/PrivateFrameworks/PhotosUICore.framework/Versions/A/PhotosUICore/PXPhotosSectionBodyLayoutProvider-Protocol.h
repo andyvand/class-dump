@@ -7,6 +7,7 @@
 @protocol PXPhotosSectionBodyLayoutProviderInvalidationDelegate;
 
 @protocol PXPhotosSectionBodyLayoutProvider
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate;

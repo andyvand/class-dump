@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBProbabilityPerLabel
 {
     double _probability;
-    NSString *_label;
-    struct {
-        unsigned int probability:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)cess;
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -35,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasProbability;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
 
 @end
 

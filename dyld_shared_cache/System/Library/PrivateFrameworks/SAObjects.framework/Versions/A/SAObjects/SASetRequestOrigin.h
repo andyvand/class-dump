@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSNumber, NSString;
-
 @interface SASetRequestOrigin : SABaseCommand
 {
 }
@@ -16,51 +14,32 @@
 + (id);
 - (void);
 - (void);
-- (double);
+- (double)rminizeStateTableIS7_NS_18IntegerFilterStateIaEEEEEE;
 - (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
+- (void)h;
 - (double);
 - (id);
+- (id);
+- (id);
+- (void)\x;
+- (void);
 - (void);
 - (double);
+- (void)(pA9;
+- (id);
+- (double)!;
+- (id);
+- (void);
+- (double);
 - (_Bool);
-- (double)tCandidateSelected;
-- (void)ationBundleIdentifier;
+- (double)resultCandidateSelected;
+- (void)directInvocationBundleIdentifier;
 - (double)ÄQ;
-- (void)IC;
+- (void)ROMANTIC;
 - (id).messages;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSNumber *age;
-@property(nonatomic) double altitude;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *desiredAccuracy;
-@property(nonatomic) double direction;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalAccuracy;
 @property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(copy, nonatomic) NSNumber *preciseLocationEnabled;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(nonatomic) double speed;
-@property(copy, nonatomic) NSString *status;
-@property(readonly) Class superclass;
-@property(nonatomic) double verticalAccuracy;
 
 @end
 

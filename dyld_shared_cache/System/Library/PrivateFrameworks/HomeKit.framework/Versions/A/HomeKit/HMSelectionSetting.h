@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)all_uuid;
 - (_Bool);
 - (void),;
 

@@ -7,27 +7,17 @@
 #import <Metal/MTLAccelerationStructureGeometryDescriptor.h>
 
 @class NSArray;
-@protocol MTLBuffer;
 
 @interface MTLAccelerationStructureMotionTriangleGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     NSArray *_vertexBuffers;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _triangleCount;
-    unsigned long long _vertexStride;
-    unsigned long long _vertexFormat;
-    id <MTLBuffer> _transformationMatrixBuffer;
-    unsigned long long _transformationMatrixBufferOffset;
-    long long _transformationMatrixLayout;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@y?;
 - (void);
 - (void);
 - (void);
@@ -50,19 +40,10 @@
 - (id);
 - (unsigned long long)
 × ;
-- (id)2P_PACKED_HLG;
+- (id)YCBCR12_422_2P_PACKED_HLG;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(retain, nonatomic) id <MTLBuffer> transformationMatrixBuffer; // @synthesize transformationMatrixBuffer=_transformationMatrixBuffer;
-@property(nonatomic) unsigned long long transformationMatrixBufferOffset; // @synthesize transformationMatrixBufferOffset=_transformationMatrixBufferOffset;
-@property(nonatomic) long long transformationMatrixLayout; // @synthesize transformationMatrixLayout=_transformationMatrixLayout;
-@property(nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
 @property(copy, nonatomic) NSArray *vertexBuffers; // @synthesize vertexBuffers=_vertexBuffers;
-@property(nonatomic) unsigned long long vertexFormat; // @synthesize vertexFormat=_vertexFormat;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

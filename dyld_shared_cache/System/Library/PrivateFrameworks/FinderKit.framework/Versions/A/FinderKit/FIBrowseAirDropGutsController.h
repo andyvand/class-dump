@@ -6,21 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FIBrowseAirDropContainerController, FI_TBrowserContentViewController, FI_TContainerLayoutManager, NSArray, _FIBrowseAirDropView;
+@class FI_TBrowserContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface FIBrowseAirDropGutsController : FI_TViewController
 {
     FI_TBrowserContentViewController *_contentViewController;
-    struct TKeyValueBinder _activeContainerBinder;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    NSArray *_excludedURLs;
-    struct vector<TString, std::allocator<TString>> _excludedPaths;
-    _Bool _alreadyMovedIntoAWindow;
-    FIBrowseAirDropContainerController *_activeContainer;
-    _FIBrowseAirDropView *_browseAirDropView;
-    NSArray *_selectedURLs;
-    struct TFENode _pendingTarget;
 }
 
 - (void);
@@ -39,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct TFENode);
-- (void);
+- (void)qA;
 - (id);
 - (void);
 - (void);
@@ -47,8 +38,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)I}S�;
 - (void);
 - (void);
 - (void);
@@ -63,22 +54,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)convertPointToScreen: /* Error: Ran out of types for this method. */;
+- (void)compose.ornament.formattingButton;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)ode7CGPointEEE;
 
 // Remaining properties
-@property(retain, nonatomic) FIBrowseAirDropContainerController *activeContainer; // @synthesize activeContainer=_activeContainer;
 @property(nonatomic) _Bool alreadyMovedIntoAWindow; // @synthesize alreadyMovedIntoAWindow=_alreadyMovedIntoAWindow;
-@property(nonatomic) _FIBrowseAirDropView *browseAirDropView; // @synthesize browseAirDropView=_browseAirDropView;
-@property(nonatomic) struct TFENode pendingTarget; // @synthesize pendingTarget=_pendingTarget;
-@property(copy, nonatomic) NSArray *selectedURLs; // @synthesize selectedURLs=_selectedURLs;
 
 @end
 

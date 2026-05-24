@@ -7,7 +7,6 @@
 @interface NEIKEv2EncryptionProtocol
 {
     unsigned short _keyLength;
-    unsigned long long _wireType;
 }
 
 - (id);

@@ -4,55 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFAnalyticsConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_source> *_idleTimer;
-    unsigned long long _numberOfEventsBeingSent;
-    NSObject<OS_dispatch_group> *_group;
-    _Bool _needsCleanUpConnection;
 }
 
 - (oneway void);
 - (oneway void);
-- (void);
+- (void);
 - (_Bool);
 - (oneway void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)completion: /* Error: Ran out of types for this method. */;
+- (void)%@; ;
+- (void)to be a dictionary. Found object of class %@.;
 - (oneway void);
 - (id);
 - (oneway void);
-- (void);
+- (void);
 - (oneway void);
 - (oneway void);
 - (void);
-- (void)tialProvider;
+- (void)AFInterstitialProvider;
 - (void)ntent.Launch.WithUserActivity.Begin;
-- (id)lientConfiguration::carOwnsMainAudio /* Error: Ran out of types for this method. */;
+- (id)AFClientConfiguration::carOwnsMainAudio /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool needsCleanUpConnection; // @synthesize needsCleanUpConnection=_needsCleanUpConnection;
-@property(readonly) Class superclass;
 
 @end
 

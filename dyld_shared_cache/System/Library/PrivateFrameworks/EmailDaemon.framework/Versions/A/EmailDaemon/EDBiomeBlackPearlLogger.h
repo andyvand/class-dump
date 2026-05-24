@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, BMStream, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface EDBiomeBlackPearlLogger
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BMStream *_stream;
-    BMSource *_source;
 }
 
 + (id);
@@ -32,26 +30,18 @@
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)2;
 - (void);
-- (void);
+- (void)ampleRange SUCCESS for hose [%{ptr}] flushPendingCount = %d
+;
 - (id);
-- (id);
-- (id);
+- (id)updateBandUsageFor:With: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)ate_received);;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) BMSource *source; // @synthesize source=_source;
-@property(retain, nonatomic) BMStream *stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
 
 @end
 

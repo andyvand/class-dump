@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)ptyFolder;
+- (void)= %@, preferredLocation = %@, conferenceURLIsBroadcast = %@, conferenceURLIsBroadcast = %@, mailtoURL = %@, hasSuggestedLocation = %@, eventHasAlarms = %@, allowsLocationAlerts = %@, forceDisplayOfNewTravelAdvisoryHypotheses = %@, travelAdvisoryDisabled = %@, locationWithoutPrediction = %@);
+- (void)setImageInterpolation:(NSURLSession *)arg1;
+- (void)private}@;
+- (void)ErrorCannotEmptyFolder;
 - (void)IsMeetingRequestSpecified;
 @end
 

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @protocol SFStoreButtonItem
+- (void)fetchResultsRequestsForChangesToBlueprints;
+- (int);
+- (void)nc/Profiles/Generic Gray Gamma 2.2 Profile.icc;
+- (NSDictionary *)A;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) int identifierType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldOpenAppAfterInstallCompletes;
 @end
 

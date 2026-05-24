@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHACoreDuetDatasetStorage, PHAPrivateFederatedLearningRecipeOptions;
+@class NSArray, PHAPrivateFederatedLearningRecipeOptions;
 
 @interface PHADatasetBuilder
 {
     PHAPrivateFederatedLearningRecipeOptions *_options;
-    NSArray *_positiveLocalIdentifiers;
-    NSArray *_negativeLocalIdentifiers;
-    PHACoreDuetDatasetStorage *_datasetStore;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (void);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)}SI;
 - (id);
 - (id);
 - (id);
@@ -49,19 +46,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)gestions: /* Error: Ran out of types for this method. */;
+- (void)_retireAndUnfeatureSuggestions:didUnfeatureSuggestions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PHACoreDuetDatasetStorage *datasetStore; // @synthesize datasetStore=_datasetStore;
-@property(retain, nonatomic) NSArray *negativeLocalIdentifiers; // @synthesize negativeLocalIdentifiers=_negativeLocalIdentifiers;
-@property(readonly, nonatomic) PHAPrivateFederatedLearningRecipeOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSArray *positiveLocalIdentifiers; // @synthesize positiveLocalIdentifiers=_positiveLocalIdentifiers;
 
 @end

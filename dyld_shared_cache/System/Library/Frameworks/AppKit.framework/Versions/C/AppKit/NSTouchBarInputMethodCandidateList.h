@@ -9,8 +9,6 @@
 @interface NSTouchBarInputMethodCandidateList
 {
     NSArray *_list;
-    long long _listType;
-    unsigned long long _numberOfFixedWidthCandidates;
 }
 
 + (_Bool);
@@ -20,15 +18,13 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)tedString:paragraphRange:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ä;
 - (void)e UI;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *list; // @synthesize list=_list;
 @property(nonatomic) long long listType; // @synthesize listType=_listType;
-@property(nonatomic) unsigned long long numberOfFixedWidthCandidates; // @synthesize numberOfFixedWidthCandidates=_numberOfFixedWidthCandidates;
 
 @end
 

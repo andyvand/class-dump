@@ -8,11 +8,12 @@
 @protocol MTLDevice;
 
 @protocol MTLArgumentEncoder
+- (void);
+- (void)_;
+- (NSString *)5;
+- (void)J;
 
 // Remaining properties
-@property(readonly) unsigned long long alignment;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long encodedLength;
-@property(copy) NSString *label;
 @end
 

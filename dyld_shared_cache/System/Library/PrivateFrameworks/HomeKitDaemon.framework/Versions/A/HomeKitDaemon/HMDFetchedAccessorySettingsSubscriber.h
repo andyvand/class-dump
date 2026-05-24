@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol HMDFetchedAccessorySettingsSubscriberDelegate, HMESubscriptionProviding, OS_dispatch_queue;
+@protocol HMDFetchedAccessorySettingsSubscriberDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchedAccessorySettingsSubscriber
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_cachedSettings;
-    id <HMDFetchedAccessorySettingsSubscriberDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    NSArray *_keyPaths;
-    NSUUID *_homeUUID;
 }
 
 + (id)¢Îÿû £B;
 - (void);
 - (void);
-- (void);
+- (void)6@"NSError"24;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void)blic}@Leaving message in queue until device is found for message:(id)arg1 %@;
 - (void)HomeKit_roomName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDFetchedAccessorySettingsSubscriberDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

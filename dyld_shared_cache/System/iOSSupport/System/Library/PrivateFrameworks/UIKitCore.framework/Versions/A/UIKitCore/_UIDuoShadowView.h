@@ -12,25 +12,21 @@ __attribute__((visibility("hidden")))
 @interface _UIDuoShadowView : UIView
 {
     UIView *_secondaryShadowView;
-    _UIShadowProperties *_primaryShadow;
-    _UIShadowProperties *_secondaryShadow;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)ageCount:notifyInternalSecurity:isJunkReportedToCarrier:reportReason:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (struct CACornerRadii)gisterImageWithDescription: /* Error: Ran out of types for this method. */;
-- (void)BackgroundColor;
-- (id)reen;
-- (void)GestureFeature;
+- (struct CACornerRadii)_withLock_unregisterImageWithDescription: /* Error: Ran out of types for this method. */;
+- (void)_sectionBackgroundColor;
+- (id)_containerScreen;
+- (void)_UISEMuxGestureFeature;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CACornerRadii cornerRadii;
 @property(retain, nonatomic) _UIShadowProperties *primaryShadow; // @synthesize primaryShadow=_primaryShadow;
-@property(retain, nonatomic) _UIShadowProperties *secondaryShadow; // @synthesize secondaryShadow=_secondaryShadow;
 
 @end
 

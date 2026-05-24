@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDChildPlace, NSString;
+@class GEOPDChildPlace, NSString;
 
 @interface GEOMapItemChildPlace
 {
     GEOPDChildPlace *_childPlace;
-    GEOMapItemIdentifier *_identifier;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)ã;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
 @property(readonly, nonatomic) NSString *name;
 
 @end

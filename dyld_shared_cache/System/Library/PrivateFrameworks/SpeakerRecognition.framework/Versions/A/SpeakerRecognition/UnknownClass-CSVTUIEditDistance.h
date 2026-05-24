@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CSVTUIEditDistance)
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

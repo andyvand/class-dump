@@ -6,16 +6,15 @@
 
 #import <OfficeImport/OISFUDataRepresentation.h>
 
-@class NSString, OISFUFileDataRepresentation;
+@class OISFUFileDataRepresentation;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipArchiveFileDataRepresentation : OISFUDataRepresentation
 {
     OISFUFileDataRepresentation *mFileRepresentation;
-    int mFd;
 }
 
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (void);
@@ -27,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

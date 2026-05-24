@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSError, NSMutableArray, NSString;
-@protocol EFFutureDelegate, EFObserver;
+@class NSConditionLock;
 
 @interface EFFuture
 {
     NSConditionLock *_stateLock;
-    id _result;
-    NSError *_error;
-    NSMutableArray *_completionBlocks;
-    id <EFFutureDelegate> _delegate;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -40,17 +35,17 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)T7;
 - (id);
+- (void)HAPCharacteristicValueTransitionControl;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)ATV_LE_REMOTE_1;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -62,34 +57,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool)etTable:(id)arg1;
+- (_Bool)setTable:(id)arg1;
 - (void)DEFAULT %@;
 - (void);
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType boolErrorCompletionHandlerAdapter;
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly) CDUnknownBlockType completionHandlerAdapter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EFFutureDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) CDUnknownBlockType errorOnlyCompletionHandlerAdapter;
-@property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) id <EFObserver> firstResultObserverAdapter;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id result;
-@property(readonly, nonatomic) id resultIfAvailable;
-@property(readonly) id <EFObserver> resultsObserverAdapter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
     CTLazuliChatBotSuggestedChipList *_chipList;
 }
 
-+ (_Bool);
++ (_Bool)yerItemLikelyToKeepUpEvent:%p %@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LACContextProviding;
 - (id);
 - (void)&Ð!ØEùª)Ð1Â0@ù
 × ;

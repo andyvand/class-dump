@@ -27,7 +27,7 @@
 + (id);
 + (id);
 + (void);
-+ (long long)ù¥á;
++ (long long);
 + (long long);
 + (id);
 + (id);
@@ -39,17 +39,17 @@
 + (void);
 + (unsigned long long);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)descriptionForIntent:(unsigned long long)arg1;
++ (id)_exitingUserIdentifiers;
++ (id)etrics.plist;
 + (void);
 + (unsigned long long);
 + (id);
 + (void);
-+ (void);
++ (void)setStarted:(id)arg1;
 
 @end
 

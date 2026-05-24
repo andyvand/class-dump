@@ -9,10 +9,6 @@
 @interface _TIKeyboardSecureCandidate
 {
     NSString *_secureHeader;
-    NSString *_secureContent;
-    NSString *_secureFormattedContent;
-    NSString *_input;
-    NSString *_truncationSentinel;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)recordAssetIDForWallpaperFavoriteAlbumRemoval: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -33,12 +29,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long candidateHash;
-@property(readonly, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSString *secureContent; // @synthesize secureContent=_secureContent;
-@property(readonly, nonatomic) NSString *secureFormattedContent; // @synthesize secureFormattedContent=_secureFormattedContent;
 @property(readonly, nonatomic) NSString *secureHeader; // @synthesize secureHeader=_secureHeader;
-@property(readonly, nonatomic) NSString *truncationSentinel; // @synthesize truncationSentinel=_truncationSentinel;
 
 @end
 

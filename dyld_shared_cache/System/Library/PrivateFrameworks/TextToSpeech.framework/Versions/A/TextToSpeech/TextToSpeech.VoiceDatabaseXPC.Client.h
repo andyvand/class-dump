@@ -7,8 +7,6 @@
 @interface TextToSpeech.VoiceDatabaseXPC.Client
 {
     id $defaultActor;
-    id _connection;
-    id progressContinuations;
 }
 
 @end

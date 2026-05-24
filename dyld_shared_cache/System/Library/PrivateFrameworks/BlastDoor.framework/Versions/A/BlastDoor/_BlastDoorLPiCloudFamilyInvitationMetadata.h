@@ -6,21 +6,16 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiCloudFamilyInvitationMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_action;
-    NSString *_kind;
-    _BlastDoorLPImage *_image;
-    _BlastDoorLPImage *_icon;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)6;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -37,15 +32,10 @@
 - (id)4ßùÿlýÿò×úÿ;
 - (id)Âlýÿ;
 - (void);
-- (id)hment;
+- (id)linkPresentation_Video_Attachment;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _BlastDoorLPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_ScalarArrayOpExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _opno;
-    id _opfuncid;
-    id _useOr;
-    id _inputcollid;
-    id _args;
-    id _location;
 }
 
 @end

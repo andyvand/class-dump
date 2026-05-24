@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (unsigned long long)yAssertionRequestParametersForApplicationIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
++ (unsigned long long)getPasskeyAssertionRequestParametersForApplicationIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)R;
 
 @end
 

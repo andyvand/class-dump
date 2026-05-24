@@ -4,74 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLBackgroundActivity, CPLEngineScheduler, CPLScopeFilter, CPLSyncSessionPredictor, NSArray, NSDate, NSMutableArray, NSMutableSet, NSSet, NSString;
-@protocol CPLSyncSessionRescheduler, CPLSyncSessionRuntimeCharacteristics;
+@class CPLEngineScheduler;
 
 @interface CPLSyncSession
 {
     struct os_unfair_lock_s _lock;
-    _Bool _watchingPredictor;
-    NSMutableSet *_scopeIdentifiersExcludedFromMingling;
-    NSMutableSet *_scopeIdentifiersExcludedFromPushToTransport;
-    NSMutableArray *_sessionInformation;
-    _Bool _hasNotifiedClientOfChangesToPull;
-    NSString *_descriptionSuffix;
-    _Bool _shouldBeTemporarilyNonDiscretionary;
-    _Bool _isJustInCaseSession;
-    _Bool _allowsLocalConflictResolutionWhenOverQuota;
-    _Bool _allowsLocalConflictResolution;
-    _Bool _isComputeStateTaskUploadEnabled;
-    _Bool _shouldCheckEPPCapability;
-    _Bool _shouldRescheduleASyncSession;
-    _Bool _shouldRequestMoreTime;
-    _Bool _shouldHaveRequestedMoreTime;
-    _Bool _shouldConsiderRequestingMoreTime;
-    id <CPLSyncSessionRescheduler> _rescheduler;
-    CPLBackgroundActivity *_detachedActivity;
-    long long _maximumComputeStatesToUploadPerBatch;
-    unsigned long long _currentState;
-    CPLEngineScheduler *_scheduler;
-    NSDate *_expectedDate;
-    unsigned long long _sequenceNumber;
-    unsigned long long _requiredStateAtEndOfSyncSession;
-    NSDate *_proposedRescheduleDate;
-    CPLSyncSessionPredictor *_predictor;
-    CPLScopeFilter *_scopeFilter;
 }
 
 + (id);
 + (id);
-+ (void)BÀ%à7@ù¿àª;$àª9$àª7$àª5$õ°;
++ (void);
+- (id)atures;
+- (void)commute1Hr15MinWarningEntityRelevanceWiFiAndTimeOfDayFeatures;
+- (void)commute1Hr15MinWarningEntityRelevanceLOIFeatures;
+- (void)commute1Hr15MinWarningEntityRelevanceDayOfWeekFeatures;
+- (_Bool)commute15MinWarningEntityRelevanceCoarseGeoHashAndDayOfWeekFeatures;
+- (_Bool)carPlaySignal;
+- (_Bool)bluetoothDeviceEntityRelevanceWiFiAndCoarseTimeOfDayFeatures;
+- (_Bool)bluetoothDeviceEntityRelevanceUserFocusModeAndDayOfWeekFeatures;
+- (_Bool)bluetoothDeviceEntityRelevanceUserFocusModeAndDayOfWeekFeatures;
+- (void)bluetoothDeviceEntityRelevanceSpecificGeoHashAndCoarseTimeOfDayFeatures;
+- (void)bluetoothDeviceEntityRelevanceLargeGeoHashAndTimeOfDayFeatures;
+- (void)bluetoothDeviceEntityRelevanceLargeGeoHashAndCoarseTimeOfDayFeatures;
+- (void)appEntityRelevanceSpecificGeoHashAndTimeOfDayFeatures;
+- (void)appEntityRelevanceCoarseGeoHashAndTimeOfDayFeatures;
+- (void);
+- (void)airGeneration_INIntent_person;
+- (void)_INIntent_person;
+- (id)ing_CNContact_person;
+- (id)g-pairGeneration_CNContact_document;
+- (id)ration_CNContact_person;
+- (id)-blocking_CNContact_organization;
+- (void)organizationSubgraph;
+- (id)eventAlias;
+- (void)behaviorSequenceSignal;
+- (void)userFocusComputedModeSignal;
+- (void)rt-174.8
+;
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -91,7 +64,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -99,67 +72,28 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)Name for bundleId:%@ with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long)ýª·ó;
-- (_Bool)Cýà;
-- (unsigned long long)1\íò0
-ÁÚð;
+- (long long);
+- (_Bool);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long activityState;
-@property(readonly) _Bool allowsLocalConflictResolution; // @synthesize allowsLocalConflictResolution=_allowsLocalConflictResolution;
-@property(readonly) _Bool allowsLocalConflictResolutionWhenOverQuota; // @synthesize allowsLocalConflictResolutionWhenOverQuota=_allowsLocalConflictResolutionWhenOverQuota;
-@property(readonly, nonatomic) NSArray *currentSessionInformation;
-@property(readonly) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDetached) _Bool detached;
-@property(retain, nonatomic) CPLBackgroundActivity *detachedActivity; // @synthesize detachedActivity=_detachedActivity;
-@property(readonly, nonatomic) double estimatedRemainingTime;
-@property(readonly, nonatomic) NSDate *expectedDate; // @synthesize expectedDate=_expectedDate;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isComputeStateTaskUploadEnabled; // @synthesize isComputeStateTaskUploadEnabled=_isComputeStateTaskUploadEnabled;
-@property _Bool isJustInCaseSession; // @synthesize isJustInCaseSession=_isJustInCaseSession;
-@property(readonly) long long maximumComputeStatesToUploadPerBatch; // @synthesize maximumComputeStatesToUploadPerBatch=_maximumComputeStatesToUploadPerBatch;
-@property(readonly, nonatomic) _Bool needsToAcquireRescheduler;
-@property(readonly, nonatomic) CPLSyncSessionPredictor *predictor; // @synthesize predictor=_predictor;
-@property(readonly, nonatomic) NSDate *proposedRescheduleDate; // @synthesize proposedRescheduleDate=_proposedRescheduleDate;
-@property(readonly, nonatomic) unsigned long long requiredStateAtEndOfSyncSession; // @synthesize requiredStateAtEndOfSyncSession=_requiredStateAtEndOfSyncSession;
-@property(retain, nonatomic) id <CPLSyncSessionRescheduler> rescheduler; // @synthesize rescheduler=_rescheduler;
-@property(readonly) id <CPLSyncSessionRuntimeCharacteristics> runtimeCharacteristics;
 @property(readonly, nonatomic) __weak CPLEngineScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly, nonatomic) CPLScopeFilter *scopeFilter; // @synthesize scopeFilter=_scopeFilter;
-@property(readonly, nonatomic) NSSet *scopeIdentifiersExcludedFromMingling;
-@property(readonly, nonatomic) NSSet *scopeIdentifiersExcludedFromPushToTransport; // @synthesize scopeIdentifiersExcludedFromPushToTransport=_scopeIdentifiersExcludedFromPushToTransport;
-@property(readonly, nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, nonatomic) _Bool shouldBeDiscretionary;
-@property(readonly, nonatomic) _Bool shouldBeTemporarilyNonDiscretionary; // @synthesize shouldBeTemporarilyNonDiscretionary=_shouldBeTemporarilyNonDiscretionary;
-@property(readonly, nonatomic) _Bool shouldCheckEPPCapability; // @synthesize shouldCheckEPPCapability=_shouldCheckEPPCapability;
-@property(nonatomic) _Bool shouldConsiderRequestingMoreTime; // @synthesize shouldConsiderRequestingMoreTime=_shouldConsiderRequestingMoreTime;
-@property(readonly, nonatomic) _Bool shouldDefer;
-@property(nonatomic) _Bool shouldHaveRequestedMoreTime; // @synthesize shouldHaveRequestedMoreTime=_shouldHaveRequestedMoreTime;
-@property(nonatomic) _Bool shouldRequestMoreTime; // @synthesize shouldRequestMoreTime=_shouldRequestMoreTime;
-@property(readonly, nonatomic) _Bool shouldRescheduleASyncSession; // @synthesize shouldRescheduleASyncSession=_shouldRescheduleASyncSession;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *whenItWillStartDescription;
 
 @end
 

@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface AVSpatialVideoConfiguration
 {
     NSArray *_cameraCalibrationDataLensCollection;
-    NSNumber *_horizontalFieldOfView;
-    NSNumber *_cameraSystemBaseline;
-    NSNumber *_disparityAdjustment;
 }
 
+- (void)_dispatchTranslationRequest:(id)arg1 isFinal:spans:translator:sourceLocale:targetLocale:options:completion: /* Error: Ran out of types for this method. */;
+- (void)_continuousListeningResultHelper;
+- (void)_accumulatedProcessingTime;
+- (void)_abortCommandSuppression;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long);
+- (id);
+- (_Bool)?kB;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy) NSArray *cameraCalibrationDataLensCollection; // @synthesize cameraCalibrationDataLensCollection=_cameraCalibrationDataLensCollection;
-@property(copy) NSNumber *cameraSystemBaseline; // @synthesize cameraSystemBaseline=_cameraSystemBaseline;
-@property(copy) NSNumber *disparityAdjustment; // @synthesize disparityAdjustment=_disparityAdjustment;
-@property(copy) NSNumber *horizontalFieldOfView; // @synthesize horizontalFieldOfView=_horizontalFieldOfView;
 
 @end
 

@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDTriggerPolicy, HMDUser, HMFMessageDispatcher, NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDTrigger
 {
     struct os_unfair_lock_s _lock;
-    _Bool _active;
-    NSString *_name;
-    NSString *_configuredName;
-    NSUUID *_uuid;
-    HMDHome *_home;
-    HMDUser *_owner;
-    HMDTriggerPolicy *_policy;
-    NSMutableDictionary *_actionSetMappings;
-    NSMutableArray *_actionSetUUIDs;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    unsigned long long _triggerType;
-    NSDate *_mostRecentFireDate;
 }
 
-+ (id);
++ (id)enumerateSocialGroupsIncludingMeNode:(id)arg1 validGroupsBlock:(id)arg2 invalidGroupsBlock:(id)arg3 averageWeight: /* Error: Ran out of types for this method. */;
 + (_Bool)ìM;
 + (id)&C;
 - (void);
@@ -48,87 +34,87 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)/CoreParsec;
+- (_Bool)p;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)senderRules;
+- (_Bool)MSPTransitStorageIncident;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)permitted for Share ETA;
+- (void)due to immutable transfer error.;
+- (id)MSPShareETACapabilityFetcherRetryIntervalKey;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)H-;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)u;
+- (void);
+- (void)qb;
+- (void){;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)__objc_protolist__DATA_CONST;
+- (id)closeOpenProModeSession;
+- (void)mConnectingText;
+- (id)eed to scale cursor;
+- (id);
+- (unsigned long long)P;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)";
+- (void);
+- (_Bool)�@9*;
+- (void);
+- (id)%;
 - (id);
 - (id)1ð1Â0@ù
 × ;
 - (id);
-- (id)ibility_interaction_ignoreRepeat_enabled_writeVersion;
-- (void):(id)arg1 queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)root_general_accessibility_interaction_ignoreRepeat_enabled_writeVersion;
+- (void)electDeviceForUser:(id)arg1 destination:deviceCapabilities:queue:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)¤:(id)arg1 =`=¢>£Ì>¤?¥H@;
 - (id)/Íþ4ÍþìÍþ°8ÍþØ?Íþ8CÍþ8GÍþ4iÍþxrÍþÜÍþàÎþ Îþ¬×ÎþäáÎþÐþ|Ðþ§ÐþTÑþÑþÑþ,5ÑþJÑþØNÑþ¸jÑþ`~ÑþÑþÀÑþ¤§Ñþ$³ÑþdºÑþ×Ñþ|ÛÑþèÑþ¤éÑþ0êÑþàþÑþPÒþ,Òþ|=Òþ¤«Òþ¤ÉÒþ ôÒþ|þÒþÓþ(Óþ¼0ÓþÄ<ÓþT@ÓþØDÓþ¼jÓþl}ÓþÄìÓþÔûÓþì3Ôþ9Ôþ>ÔþKÔþ¬PÔþTUÔþÈkÔþ;
 - (id)est with options:%lu was not granted with error:%@. /* Error: Ran out of types for this method. */;
@@ -147,39 +133,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionContext;
-@property(retain, nonatomic) NSMutableDictionary *actionSetMappings; // @synthesize actionSetMappings=_actionSetMappings;
-@property(retain, nonatomic) NSMutableArray *actionSetUUIDs; // @synthesize actionSetUUIDs=_actionSetUUIDs;
-@property(readonly, copy) NSArray *actionSets;
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) NSDictionary *bulletinContext;
-@property(readonly, nonatomic, getter=isConfigured) _Bool configured;
-@property(retain, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
-@property(readonly, copy, nonatomic) NSString *contextID;
-@property(readonly, copy, nonatomic) NSUUID *contextSPIUniqueIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSDate *mostRecentFireDate; // @synthesize mostRecentFireDate=_mostRecentFireDate;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isOwnedByThisDevice) _Bool ownedByThisDevice;
-@property(retain, nonatomic) HMDUser *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) HMDTriggerPolicy *policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) _Bool requiresDataVersion4;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long triggerType; // @synthesize triggerType=_triggerType;
-@property(readonly, copy) NSString *urlString;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

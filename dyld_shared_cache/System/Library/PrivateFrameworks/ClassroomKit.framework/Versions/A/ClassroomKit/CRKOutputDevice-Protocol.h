@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol CRKOutputDevice
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

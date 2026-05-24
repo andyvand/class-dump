@@ -9,10 +9,9 @@
 @interface CAValueFunction
 {
     NSString *_string;
-    void *_impl;
 }
 
-+ (void);
++ (void);
 + (id);
 + (_Bool);
 - (unsigned long long);
@@ -22,7 +21,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (struct Object *);
+- (struct Object *)registerPersonaListUpdateObserver:withMachService:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)th-request;

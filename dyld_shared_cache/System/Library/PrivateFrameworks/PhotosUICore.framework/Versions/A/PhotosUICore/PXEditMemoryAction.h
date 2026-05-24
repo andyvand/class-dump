@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSData, PHAsset, PHMemory, PXMemoryCustomUserAssetsEdit;
-@protocol NSFastEnumeration;
+@class PHMemory;
 
 @interface PXEditMemoryAction : PXPhotosAction
 {
     PHMemory *_memory;
-    NSData *_redoPhotosGraphData;
-    NSData *_undoPhotosGraphData;
-    long long _undoStoryColorGradeKind;
-    long long _redoStoryColorGradeKind;
-    PHAsset *_undoKeyAsset;
-    PHAsset *_redoKeyAsset;
-    id <NSFastEnumeration> _undoUserCuratedAssets;
-    id <NSFastEnumeration> _redoUserCuratedAssets;
-    PXMemoryCustomUserAssetsEdit *_undoCustomUserAssetsEdit;
-    PXMemoryCustomUserAssetsEdit *_redoCustomUserAssetsEdit;
 }
 
 - (id);
@@ -29,33 +18,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (id)_+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
-@property(readonly, nonatomic) PXMemoryCustomUserAssetsEdit *redoCustomUserAssetsEdit; // @synthesize redoCustomUserAssetsEdit=_redoCustomUserAssetsEdit;
-@property(readonly, nonatomic) PHAsset *redoKeyAsset; // @synthesize redoKeyAsset=_redoKeyAsset;
-@property(readonly, nonatomic) NSData *redoPhotosGraphData; // @synthesize redoPhotosGraphData=_redoPhotosGraphData;
-@property(readonly, nonatomic) long long redoStoryColorGradeKind; // @synthesize redoStoryColorGradeKind=_redoStoryColorGradeKind;
-@property(readonly, nonatomic) id <NSFastEnumeration> redoUserCuratedAssets; // @synthesize redoUserCuratedAssets=_redoUserCuratedAssets;
-@property(readonly, nonatomic) PXMemoryCustomUserAssetsEdit *undoCustomUserAssetsEdit; // @synthesize undoCustomUserAssetsEdit=_undoCustomUserAssetsEdit;
-@property(readonly, nonatomic) PHAsset *undoKeyAsset; // @synthesize undoKeyAsset=_undoKeyAsset;
-@property(readonly, nonatomic) NSData *undoPhotosGraphData; // @synthesize undoPhotosGraphData=_undoPhotosGraphData;
-@property(readonly, nonatomic) long long undoStoryColorGradeKind; // @synthesize undoStoryColorGradeKind=_undoStoryColorGradeKind;
-@property(readonly, nonatomic) id <NSFastEnumeration> undoUserCuratedAssets; // @synthesize undoUserCuratedAssets=_undoUserCuratedAssets;
 
 @end
 

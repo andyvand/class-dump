@@ -4,61 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoriesInfo, GEOPBTransitRoutingIncidentMessage, GEOTransitEngineDebugData, GEOTransitRouteDisplayStrings, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitSuggestedRoute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _routeBadges;
-    GEOAdvisoriesInfo *_advisoriesInfo;
-    GEOTransitRouteDisplayStrings *_displayStrings;
-    GEOTransitEngineDebugData *_engineDebugData;
-    NSData *_routeHandle;
-    NSMutableArray *_routePlanningArtworks;
-    NSMutableArray *_sectionOptions;
-    NSMutableArray *_sections;
-    NSMutableArray *_steps;
-    GEOPBTransitRoutingIncidentMessage *_transitIncidentMessage;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _absEndTime;
-    unsigned int _absStartTime;
-    unsigned int _rank;
-    unsigned int _travelTimeAggressiveEstimate;
-    unsigned int _travelTimeConservativeEstimate;
-    _Bool _supportsRouteUpdates;
-    struct {
-        unsigned int has_absEndTime:1;
-        unsigned int has_absStartTime:1;
-        unsigned int has_rank:1;
-        unsigned int has_travelTimeAggressiveEstimate:1;
-        unsigned int has_travelTimeConservativeEstimate:1;
-        unsigned int has_supportsRouteUpdates:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_routeBadges:1;
-        unsigned int read_advisoriesInfo:1;
-        unsigned int read_displayStrings:1;
-        unsigned int read_engineDebugData:1;
-        unsigned int read_routeHandle:1;
-        unsigned int read_routePlanningArtworks:1;
-        unsigned int read_sectionOptions:1;
-        unsigned int read_sections:1;
-        unsigned int read_steps:1;
-        unsigned int read_transitIncidentMessage:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)nSessionState:(id)arg1 transportType:navigationType:isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
++ (Class)NSTemporaryDirectory;
++ (Class)initWithResult: /* Error: Ran out of types for this method. */;
++ (_Bool)setNavigationSessionState:(id)arg1 transportType:navigationType:isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
 + (Class)8f=;
 - (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -68,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -79,7 +39,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)C;
 - (id);
 - (unsigned long long);
 - (id);
@@ -97,26 +57,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)willRefresh: /* Error: Ran out of types for this method. */;
+- (_Bool)urlAddresses;
+- (void)xInfoSequenceNumberInUse;
+- (void)TB,R,N,V_shouldCreateEmptyDatabase;
+- (void)neDatabase,V_pristineDatabase;
+- (void)icted;
+- (id)arytG;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
+- (void)n the file system (%{public}ld %{public}s);
+- (void)op identifier;
+- (unsigned int)w' file from an in-place migration:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned int)eck file permissions.;
 - (id);
 - (_Bool);
 - (id);
 - (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)rCadence",C,V_cadence;
 - (void);
 - (void);
 - (id);
@@ -127,11 +87,11 @@
 - (void);
 - (void);
 - (id);
+- (void)multiUserLowScoreThreshold;
 - (void);
-- (void);
+- (id)on notification from corespeechd;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -142,7 +102,7 @@
 × ;
 - (id)ead_userGeneratedGuides"b1"read_userLibUserNoteClientFix"b1"read_userNote"b1"read_visitedPlace"b1"wrote_anyField"b1};
 - (unsigned long long)="read_unknownFields"b1"read_center"b1"read_collectionIds"b1"wrote_anyField"b1};
-- (id)s:sectionOptions:decoderData:tripIndex:stepRange:transitStepRange:pointRange:segmentIndex: /* Error: Ran out of types for this method. */;
+- (id)initWithComposedRoute:rideSelections:sectionOptions:decoderData:tripIndex:stepRange:transitStepRange:pointRange:segmentIndex: /* Error: Ran out of types for this method. */;
 - (void)escription;
 - (id)"GEOComposedString",R,N,V_titleString;
 - (void)@ªª;
@@ -153,43 +113,7 @@
 - (id)2;
 
 // Remaining properties
-@property(nonatomic) unsigned int absEndTime;
-@property(nonatomic) unsigned int absStartTime;
-@property(retain, nonatomic) GEOAdvisoriesInfo *advisoriesInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOTransitRouteDisplayStrings *displayStrings;
-@property(retain, nonatomic) GEOTransitEngineDebugData *engineDebugData;
-@property(nonatomic) _Bool hasAbsEndTime;
-@property(nonatomic) _Bool hasAbsStartTime;
-@property(readonly, nonatomic) _Bool hasAdvisoriesInfo;
-@property(readonly, nonatomic) _Bool hasDisplayStrings;
-@property(readonly, nonatomic) _Bool hasEngineDebugData;
-@property(nonatomic) _Bool hasRank;
-@property(readonly, nonatomic) _Bool hasRouteHandle;
-@property(nonatomic) _Bool hasSupportsRouteUpdates;
-@property(readonly, nonatomic) _Bool hasTransitIncidentMessage;
-@property(nonatomic) _Bool hasTravelTimeAggressiveEstimate;
-@property(nonatomic) _Bool hasTravelTimeConservativeEstimate;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int rank;
-@property(readonly, nonatomic) int *routeBadges;
-@property(readonly, nonatomic) unsigned long long routeBadgesCount;
-@property(retain, nonatomic) NSData *routeHandle;
-@property(retain, nonatomic) NSMutableArray *routePlanningArtworks;
-@property(retain, nonatomic) NSMutableArray *sectionOptions;
-@property(retain, nonatomic) NSMutableArray *sections;
-@property(retain, nonatomic) NSMutableArray *steps;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsRouteUpdates;
-@property(retain, nonatomic) GEOPBTransitRoutingIncidentMessage *transitIncidentMessage;
-@property(nonatomic) unsigned int travelTimeAggressiveEstimate;
-@property(nonatomic) unsigned int travelTimeConservativeEstimate;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic, getter=isWalkingOnlyRoute) _Bool walkingOnlyRoute;
 
 @end
 

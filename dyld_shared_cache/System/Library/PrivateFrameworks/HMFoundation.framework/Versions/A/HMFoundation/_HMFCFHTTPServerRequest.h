@@ -6,18 +6,15 @@
 
 #import <HMFoundation/HMFHTTPRequestInternal.h>
 
-@class NSMutableData, _HMFCFHTTPServerConnection;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface _HMFCFHTTPServerRequest : HMFHTTPRequestInternal
 {
     struct _CFHTTPServerRequest *_requestRef;
-    struct __CFReadStream *_bodyStream;
-    _HMFCFHTTPServerConnection *_connection;
-    NSMutableData *_bodyData;
 }
 
-- (id);
+- (id);
 - (id);
 - (struct __CFReadStream *);
 - (void);
@@ -35,13 +32,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)imeInterval:repeats:block: /* Error: Ran out of types for this method. */;
+- (id)scheduledTimerWithTimeInterval:repeats:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableData *bodyData; // @synthesize bodyData=_bodyData;
-@property(readonly, nonatomic) struct __CFReadStream *bodyStream; // @synthesize bodyStream=_bodyStream;
-@property(readonly, nonatomic) __weak _HMFCFHTTPServerConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) struct _CFHTTPServerRequest *requestRef; // @synthesize requestRef=_requestRef;
 
 @end
 

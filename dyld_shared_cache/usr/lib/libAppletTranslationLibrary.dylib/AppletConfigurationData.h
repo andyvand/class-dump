@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AppletConfigurationData
 {
     NSObject<OS_dispatch_queue> *queue;
-    NSDictionary *config;
-    NSMutableDictionary *pluginCache;
-    unsigned long long maErrorCount;
-    _Bool retryInProgress;
-    double maMetadataQueryInterval;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (void);
++ (void)x-apple-mme-sharedstreams-client-token;
 + (id);
 + (id);
 + (_Bool);

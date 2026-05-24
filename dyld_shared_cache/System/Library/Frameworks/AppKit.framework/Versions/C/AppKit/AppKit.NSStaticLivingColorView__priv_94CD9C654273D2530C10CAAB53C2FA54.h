@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)creen;
+- (id)_splitsFollowToolbarHiddenInFullscreen;
 
 @end
 

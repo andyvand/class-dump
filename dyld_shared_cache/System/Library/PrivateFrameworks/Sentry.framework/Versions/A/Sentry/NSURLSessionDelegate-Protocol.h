@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLAuthenticationChallenge, NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void);
+- (void)initWithInterfaceName:(NSURLSession *)arg1 interfaceAddr:(NSURLAuthenticationChallenge *)arg2 isEnabled:(void (^)(long long, NSURLCredential *))arg3 band24GHz:band5GHz:supportsDualBand:supportsSimultaneousDualBand:primaryChannel:secondaryChannel:infraChannel:preferredChannelsCount:preferredChannelNumbers: /* Error: Ran out of types for this method. */;
 @end
 

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool);
 - (id)ead_comment"b1"read_language"b1"wrote_anyField"b1};
 - (id)weekday;
 - (id)ÐD²@T²¬d²t²²ø²h¤²Ø´²;

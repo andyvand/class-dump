@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont;
+@class UIFont;
 
 @interface TSUFont
 {
     struct __CTFont *_ctFont;
 }
 
++ (id)I226ContentShortcutsModuleTypeP;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct __CTFont *);
+- (id)FeedServiceConfig;
+- (id)interstellarEnabled;
+- (id)featuredIssueArticleKnobs;
+- (id);
+- (id);
+- (struct __CTFont *);
 - (double);
 - (double);
 - (id);
@@ -35,16 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CTFont *CTFont; // @synthesize CTFont=_ctFont;
-@property(readonly, nonatomic) double ascender;
-@property(readonly, nonatomic) double capHeight;
-@property(readonly, nonatomic) double descender;
-@property(readonly, retain, nonatomic) NSString *familyName;
-@property(readonly, retain, nonatomic) NSString *fontName;
-@property(readonly, nonatomic) double lineHeight;
 @property(readonly, nonatomic) UIFont *platformFont;
-@property(readonly, nonatomic) double pointSize;
-@property(readonly, nonatomic) double xHeight;
 
 @end
 

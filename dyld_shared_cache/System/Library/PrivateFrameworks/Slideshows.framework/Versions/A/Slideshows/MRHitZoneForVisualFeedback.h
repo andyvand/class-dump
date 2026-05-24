@@ -7,25 +7,19 @@
 @interface MRHitZoneForVisualFeedback
 {
     _Bool _hasEnded;
-    double _timestamp;
-    float *_vertices;
-    unsigned long long _countOfVertices;
 }
 
-- (void);
+- (void)stringRepresentation;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (float *);
 - (void);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long countOfVertices; // @synthesize countOfVertices=_countOfVertices;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly) float *vertices; // @synthesize vertices=_vertices;
 
 @end
 

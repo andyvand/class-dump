@@ -7,9 +7,6 @@
 @interface NewsFeed.HeadlineService
 {
     id tagService;
-    id coreConfigurationManager;
-    id cloudContext;
-    id paidAccessChecker;
 }
 
 @end

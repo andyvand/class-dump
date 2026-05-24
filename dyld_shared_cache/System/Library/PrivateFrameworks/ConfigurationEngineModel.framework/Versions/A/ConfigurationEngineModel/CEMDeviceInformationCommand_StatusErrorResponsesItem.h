@@ -6,15 +6,14 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMDeviceInformationCommand_StatusErrorResponsesItem : CEMPayloadBase
 {
     NSString *_statusCode;
-    NSArray *_statusErrorChain;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusCode; // @synthesize statusCode=_statusCode;
-@property(copy, nonatomic) NSArray *statusErrorChain; // @synthesize statusErrorChain=_statusErrorChain;
 
 @end
 

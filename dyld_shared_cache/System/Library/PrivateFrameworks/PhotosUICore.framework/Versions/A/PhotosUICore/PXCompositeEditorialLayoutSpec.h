@@ -9,10 +9,6 @@
 @interface PXCompositeEditorialLayoutSpec
 {
     NSArray *_templates;
-    long long _minNumberOfRects;
-    long long _maxNumberOfRects;
-    long long _minNumberOfColumns;
-    NSMapTable *_preferredNextTemplatesByCurrentTemplate;
 }
 
 + (id);
@@ -28,11 +24,7 @@
 - (void)¨Ðêµ~¸Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) long long maxNumberOfRects; // @synthesize maxNumberOfRects=_maxNumberOfRects;
-@property(readonly, nonatomic) long long minNumberOfColumns; // @synthesize minNumberOfColumns=_minNumberOfColumns;
-@property(readonly, nonatomic) long long minNumberOfRects; // @synthesize minNumberOfRects=_minNumberOfRects;
 @property(readonly, nonatomic) NSMapTable *preferredNextTemplatesByCurrentTemplate; // @synthesize preferredNextTemplatesByCurrentTemplate=_preferredNextTemplatesByCurrentTemplate;
-@property(readonly, nonatomic) NSArray *templates; // @synthesize templates=_templates;
 
 @end
 

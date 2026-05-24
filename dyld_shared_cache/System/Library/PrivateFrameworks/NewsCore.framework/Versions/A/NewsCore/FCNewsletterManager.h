@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKPrivateDatabase, FCCommandQueue, FCNewsletterEndpointConnection, FCUserInfo, NFPromise, NSArray, NSDate, NSHashTable, NSString;
-@protocol FCAppleAccount, FCBundleSubscriptionManagerType, FCNewsAppConfigurationManager;
-
 @interface FCNewsletterManager
 {
     long long _subscription;
-    long long _includeOptions;
-    NSArray *_cachedNewsletters;
-    FCNewsletterEndpointConnection *_endpointConnection;
-    FCCommandQueue *_endpointCommandQueue;
-    id <FCAppleAccount> _appleAccount;
-    id <FCNewsAppConfigurationManager> _appConfig;
-    FCUserInfo *_userInfo;
-    NSString *_activeiTunesAccountName;
-    id <FCBundleSubscriptionManagerType> _bundleSubscriptionManager;
-    FCCKPrivateDatabase *_database;
-    NSHashTable *_observers;
-    NSDate *_cacheExpiration;
-    NFPromise *_updateSubscriptionPromise;
-    NFPromise *_getWebTokenPromise;
-    NSString *_cachedVector;
-    NSString *_cachedWebToken;
-    NSDate *_webTokenExpiration;
 }
 
 - (void);
@@ -38,11 +18,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -55,15 +35,117 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_updateTargetAreaWithRect:(id)arg1;
 - (_Bool);
+- (void)samplesPerPass;
+- (id)kernel vec4 convertFromRGBToYIQ(sampler src) __attribute__ ((preserves_opacity))	
+{																					
+    vec3 pix2;																		
+    vec4 pix;																		
+    pix = unpremultiply(sample(src, samplerCoord(src)));							
+    pix.rgb = sqrt(max(pix.rgb, 0.0));												
+    pix2 = pix.r * vec3(0.299, 0.596, 0.212) +										
+		   pix.g * vec3(0.587, -0.2755, -0.523) + 									
+	       pix.b * vec3(0.114, -0.321, 0.311);										
+    return vec4(pix2, pix.a);														
+}																					
+					 																
+kernel vec4 convertFromYIQToRGB(sampler src) __attribute__ ((preserves_opacity))	
+{																					
+    vec4 color, pix;																
+    pix = sample(src, samplerCoord(src));											
+    color.rgb = pix.r * vec3(1.00048, 0.999864, 0.999446) + 						
+				pix.g * vec3(0.955558, -0.271545, -1.10803) + 						
+				pix.b * vec3(0.619549, -0.646786, 1.70542);							
+    color.rgb = max(color.rgb, vec3(0.0));											
+    color.rgb = color.rgb*color.rgb;												
+    color.a = pix.a;																
+    return premultiply(color);														
+}																					
+																					
+vec2 CalEffectAmount(float slum, float lum,											
+	vec2 coeff1, vec2 coeff2, vec2 coeff3, vec2 coeff4, 							
+	vec2 coeff5, vec2 coeff6, vec2 coeff7)											
+{																					
+    vec2 base, gg, gg2, att;														
+    vec2 effectAmount;																
+    base = clamp(vec2(slum, 1.0 - (lum + slum) * 0.5), 0.0, 1.0);					
+    att = exp2(base*coeff2)*coeff1 + coeff5;										
+    gg = clamp(base*coeff6 + coeff3, 0.0, 1.0);										
+    gg2 = gg * gg;																	
+    effectAmount = att*(1.0 + gg2*(coeff4 + coeff7*gg));							
+    return effectAmount;															
+}																					
+																					
+// note:operates in YIQ space (unpremultiplied)									
+kernel vec4 shadowHighlight3(sampler src, sampler srcblum,							
+	vec2 coeff1, vec2 coeff2, vec2 coeff3, vec2 coeff4,								
+	vec2 coeff5, vec2 coeff6, vec2 coeff7, vec4 k)									
+{																					
+    float midPix, slum, hltPix;														
+    vec2 effectAmount;																
+    vec4 opix, opix1, opix2, opix3, pix, spix, shdPix;								
+    pix = sample(src, samplerCoord(src));											
+	spix = sample(srcblum, samplerCoord(srcblum));									
+																					
+	slum = spix.r;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix1 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix1.r, k.y);												
+    slum = mix(opix1.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix1.rgb = mix(pix.rgb, opix1.rgb, k.w);										
+    opix1.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	slum = spix.g;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix2 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix2.r, k.y);												
+    slum = mix(opix2.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix2.rgb = mix(pix.rgb, opix2.rgb, k.w);										
+    opix2.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	slum = spix.b;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix3 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix3.r, k.y);												
+    slum = mix(opix3.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix3.rgb = mix(pix.rgb, opix3.rgb, k.w);										
+    opix3.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	opix = (opix1 + opix2 + opix3) * 0.33333333;									
+	opix.a = pix.a;																	
+																					
+    return opix;																	
+}																					
+					 																
+kernel vec4 luminize (sampler src1, sampler src2, sampler src3)						
+	__attribute__ ((no_merge_sample))												
+{																					
+	vec4 pix, outv;																	
+	pix = unpremultiply(sample(src1, samplerCoord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+ /* Error: Ran out of types for this method. */;
+- (void);
+- (double)legateShouldSelectItemAtIndexPath"b1"delegateShouldDeselectItemAtIndexPath"b1"delegateDidSelectItemAtIndexPath"b1"delegateDidDeselectItemAtIndexPath"b1"delegateSelectionWillAddAndRemove"b1"delegateSelectionDidAddAndRemove"b1"delegateSectionsForSelectAllAction"b1"delegateMouseDownWithEvent"b1"delegateItemWasDoubleClickedAtIndexPathWithEvent"b1"delegateItemWasRightClickedAtIndexPathWithEvent"b1"delegateWillDisplayCell"b1"delegateDidEndDisplayingCellForItemAtIndexPath"b1"delegateDidEndDisplayingSupplementaryViewForElementOfKindAtIndexPath"b1"delegateDidPrepareForOverdraw"b1"delegateTargetContentOffsetForProposedContentOffset"b1"delegateTargetContentOffsetOnResizeForProposedContentOffset"b1"delegateAllowedDropPositionsForItemsAtIndexPathsMovedToIndexPath"b1"delegateDragOperationForItemsAtIndexPathsMovedOntoItemAtIndexPath"b1"dataSourceNumberOfSections"b1"dataSourceViewForSupplementaryElement"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"skipCellsUpdateDuringResizing"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"accessibilityDelegateShouldPrepareAccessibilitySection"b1"accessibilityDelegateAXRoleDescription"b1"viewIsPrepared"b1"performingHitTest"b1};
 - (void);
-- (id);
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)isAllowedOnHomeScreenCondition;
 - (_Bool);
 - (id);
 - (long long);
@@ -81,11 +163,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setLoopingEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)setSwapAssociationDuration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -99,47 +181,15 @@
 - (long long)@ù
 × ;
 - (_Bool)ed: /* Error: Ran out of types for this method. */;
-- (_Bool)ortMethod:lifetimeHint: /* Error: Ran out of types for this method. */;
+- (_Bool)assetHandleForURL:prefetchedFileURL:importMethod:lifetimeHint: /* Error: Ran out of types for this method. */;
 - (void)C,N,V_cardForegroundColor;
 - (void);
-- (void)ShortName;
-- (id)rculationConfig;
+- (void)secondaryShortName;
+- (id)issueArticleRecirculationConfig;
 - (void)Ë;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeNewsletter;
-@property(copy, nonatomic) NSString *activeiTunesAccountName; // @synthesize activeiTunesAccountName=_activeiTunesAccountName;
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfig; // @synthesize appConfig=_appConfig;
-@property(readonly, nonatomic) id <FCAppleAccount> appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, nonatomic) id <FCBundleSubscriptionManagerType> bundleSubscriptionManager; // @synthesize bundleSubscriptionManager=_bundleSubscriptionManager;
-@property(retain, nonatomic) NSDate *cacheExpiration; // @synthesize cacheExpiration=_cacheExpiration;
-@property(retain, nonatomic) NSArray *cachedNewsletters; // @synthesize cachedNewsletters=_cachedNewsletters;
-@property(retain, nonatomic) NSString *cachedVector; // @synthesize cachedVector=_cachedVector;
-@property(copy) NSString *cachedWebToken; // @synthesize cachedWebToken=_cachedWebToken;
-@property(readonly, nonatomic) _Bool canSubscribe;
-@property(readonly, nonatomic) _Bool canUnsubscribe;
-@property(readonly, nonatomic) FCCKPrivateDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) FCCommandQueue *endpointCommandQueue; // @synthesize endpointCommandQueue=_endpointCommandQueue;
-@property(readonly, nonatomic) FCNewsletterEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(retain, nonatomic) NFPromise *getWebTokenPromise; // @synthesize getWebTokenPromise=_getWebTokenPromise;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeBundleSubscribedVector;
-@property(nonatomic) long long includeOptions; // @synthesize includeOptions=_includeOptions;
-@property(readonly, nonatomic) _Bool includeSportsVector;
-@property(readonly, nonatomic) _Bool includeUserVector;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(nonatomic) long long subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NFPromise *updateSubscriptionPromise; // @synthesize updateSubscriptionPromise=_updateSubscriptionPromise;
-@property(readonly, nonatomic) FCUserInfo *userInfo; // @synthesize userInfo=_userInfo;
-@property(copy) NSDate *webTokenExpiration; // @synthesize webTokenExpiration=_webTokenExpiration;
 
 @end
 

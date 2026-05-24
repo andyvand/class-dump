@@ -5,5 +5,8 @@
 //
 
 @protocol AFAudioPlaybackService
+- (void)$;
+- (void)gs1DataBarExpanded;
+- (void)propertyListWithData:(_Bool)arg1 options:(void (^)(void))arg2 format:error: /* Error: Ran out of types for this method. */;
 @end
 

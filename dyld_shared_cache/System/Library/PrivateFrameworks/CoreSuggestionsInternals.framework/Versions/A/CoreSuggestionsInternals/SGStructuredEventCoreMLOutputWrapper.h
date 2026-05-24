@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface SGStructuredEventCoreMLOutputWrapper
 {
     MLMultiArray *_location;
-    MLMultiArray *_time;
-    MLMultiArray *_title;
-    MLMultiArray *_core;
-    MLMultiArray *_bi_lstm_0_h_out;
-    MLMultiArray *_bi_lstm_0_c_out;
-    MLMultiArray *_bi_lstm_0_h_out_rev;
-    MLMultiArray *_bi_lstm_0_c_out_rev;
 }
 
 - (void);
@@ -29,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)CalUISuggestionsFieldController;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)OKit.dylib;
+- (id)__objc_protolist__DATA_CONST;
 - (id);
 - (void)!øFù1m$1Â0@ù
 × ;
@@ -42,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)f?7*;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_c_out; // @synthesize bi_lstm_0_c_out=_bi_lstm_0_c_out;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_c_out_rev; // @synthesize bi_lstm_0_c_out_rev=_bi_lstm_0_c_out_rev;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_h_out; // @synthesize bi_lstm_0_h_out=_bi_lstm_0_h_out;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_h_out_rev; // @synthesize bi_lstm_0_h_out_rev=_bi_lstm_0_h_out_rev;
-@property(retain, nonatomic) MLMultiArray *core; // @synthesize core=_core;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *location; // @synthesize location=_location;
-@property(retain, nonatomic) MLMultiArray *time; // @synthesize time=_time;
-@property(retain, nonatomic) MLMultiArray *title; // @synthesize title=_title;
 
 @end
 

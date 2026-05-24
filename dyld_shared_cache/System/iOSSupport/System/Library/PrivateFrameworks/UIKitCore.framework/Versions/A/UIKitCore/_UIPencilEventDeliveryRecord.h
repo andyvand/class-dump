@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIPencilEventDeliveryRecord
@@ -13,26 +13,24 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_mutableInteractions;
 }
 
+- (void)IMAuxVideoProviderChangedState;
 - (void);
-- (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long):options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)loadJaliscoUpdateProgressWithCompletionHandler:(id)arg1;
+- (id)MPModelPropertyArtistDownloadedSongCount;
 - (id);
 - (void)
 × ;
 - (id)qd1Â0@ù
 × ;
-- (id)alPlatterRect;
+- (id)_finalPlatterRect;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long deliveredPhase; // @synthesize deliveredPhase=_deliveredPhase;
-@property(readonly, nonatomic) NSSet *interactions;
-@property(retain, nonatomic) NSMutableSet *mutableInteractions; // @synthesize mutableInteractions=_mutableInteractions;
 
 @end
 

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     Class isa;
 }
 
-+ (void)int;
++ (void)OS_nw_endpoint;
 
 @end
 

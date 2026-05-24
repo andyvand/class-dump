@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptorInternal, NSDictionary, NSString;
+@class AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptorInternal;
 
 @interface AVAssetWriterInputPixelBufferAdaptor
 {
     AVAssetWriterInputPixelBufferAdaptorInternal *_internal;
 }
 
-+ (id);
++ (id)l;
 - (id);
 - (id);
 - (void);
@@ -26,15 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AVAssetWriterInput *assetWriterInput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __CVPixelBufferPool *pixelBufferPool;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,10 +13,10 @@
 
 + (id);
 - (id);
-- (void);
+- (void)sPayloadUploader initWithAppConfigurationManager:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (void);
 - (CDUnknownBlockType);

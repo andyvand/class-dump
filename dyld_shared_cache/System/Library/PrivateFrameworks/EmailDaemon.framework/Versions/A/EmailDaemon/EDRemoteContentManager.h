@@ -4,42 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDRemoteContentPersistence, EFLocked, EFManualCancelationToken, EMRemoteContentURLSession, NSBackgroundActivityScheduler, NSDate, NSLock;
-@protocol EDRemoteContentManagerTestDelegate, EFScheduler;
+@class EDRemoteContentPersistence, NSBackgroundActivityScheduler;
 
 @interface EDRemoteContentManager
 {
     NSBackgroundActivityScheduler *_requestScheduler;
-    id <EFScheduler> _unconditionalRequestScheduler;
-    unsigned long long _remainingCountToSchedule;
-    struct os_unfair_lock_s _requestSchedulerLock;
-    struct os_unfair_lock_s _timeoutLock;
-    struct os_unfair_lock_s _schedulingLock;
-    EFManualCancelationToken *_token;
-    EFLocked *_remoteLinkVerificationTimes;
-    EDRemoteContentPersistence *_remoteContentPersistence;
-    EMRemoteContentURLSession *_urlSession;
-    id <EFScheduler> _backgroundWorkScheduler;
-    NSLock *_requestLock;
-    unsigned long long _requestedSinceLastPrune;
-    double _minimumTimeout;
-    double _maximumTimeout;
-    NSDate *_timeoutLastUpdate;
-    double _requestInterval;
-    unsigned long long _batchSize;
-    NSDate *_schedulingLastUpdate;
-    id <EDRemoteContentManagerTestDelegate> _testDelegate;
-    CDUnknownBlockType _requestSchedulerBlock;
-    unsigned long long _pruneFrequency;
 }
 
 - (_Bool);
+- (void)macOS;
+- (unsigned long long);
 - (void);
-- (unsigned long long);
 - (void);
-- (void);
-- (double);
-- (unsigned long long);
+- (double)TUIStickerRenderer";
+- (unsigned long long)reset;
 - (void);
 - (void);
 - (void);
@@ -47,30 +25,31 @@
 - (unsigned long long);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)_TtC12SiriOntology50UsoEntityBuilder_applePhoneCall_PhoneCallAttribute;
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)UsoEntityBuilderProtocol_common_RecurringDateTimeRange;
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (double);
-- (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (double)@9;
+- (id)ssing;
+- (void)endpointAggregate_updateGroupIDIfNeeded;
+- (void)eer) [%{ptr}] (%@) Primed -> Ready because peer was primed or better
+;
+- (id)essionRef);
+- (_Bool)rappedEndpoint(FigEndpointRef, CFDictionaryRef, FigEndpointRef *);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)setLast_CellularState:(id)arg1;
+- (void)cellularFallbackEnabledAtLinkDown;
 - (unsigned long long);
 - (void);
 - (double);
@@ -83,21 +62,7 @@
 - (id)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFScheduler> backgroundWorkScheduler; // @synthesize backgroundWorkScheduler=_backgroundWorkScheduler;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) double maximumTimeout; // @synthesize maximumTimeout=_maximumTimeout;
-@property(nonatomic) double minimumTimeout; // @synthesize minimumTimeout=_minimumTimeout;
-@property(nonatomic) unsigned long long pruneFrequency; // @synthesize pruneFrequency=_pruneFrequency;
 @property(readonly, nonatomic) EDRemoteContentPersistence *remoteContentPersistence; // @synthesize remoteContentPersistence=_remoteContentPersistence;
-@property(nonatomic) double requestInterval; // @synthesize requestInterval=_requestInterval;
-@property(readonly, nonatomic) NSLock *requestLock; // @synthesize requestLock=_requestLock;
-@property(copy, nonatomic) CDUnknownBlockType requestSchedulerBlock; // @synthesize requestSchedulerBlock=_requestSchedulerBlock;
-@property(nonatomic) unsigned long long requestedSinceLastPrune; // @synthesize requestedSinceLastPrune=_requestedSinceLastPrune;
-@property(retain, nonatomic) NSDate *schedulingLastUpdate; // @synthesize schedulingLastUpdate=_schedulingLastUpdate;
-@property(nonatomic) __weak id <EDRemoteContentManagerTestDelegate> testDelegate; // @synthesize testDelegate=_testDelegate;
-@property(retain, nonatomic) NSDate *timeoutLastUpdate; // @synthesize timeoutLastUpdate=_timeoutLastUpdate;
-@property(readonly, nonatomic) id <EFScheduler> unconditionalRequestScheduler;
-@property(readonly, nonatomic) EMRemoteContentURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

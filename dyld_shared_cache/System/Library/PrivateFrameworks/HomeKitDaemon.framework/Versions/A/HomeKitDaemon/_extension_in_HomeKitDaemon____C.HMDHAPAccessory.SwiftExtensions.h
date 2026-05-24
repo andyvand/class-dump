@@ -7,11 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDHAPAccessory.SwiftExtensions
 {
     id dataSource;
-    id configuredAsValenciaThermostat;
-    id climateStorage;
-    id localPresenceObserver;
-    id localPresenceObserverTask;
-    id localPresenceBulletinNotificationCoordinator;
 }
 
 - (id);

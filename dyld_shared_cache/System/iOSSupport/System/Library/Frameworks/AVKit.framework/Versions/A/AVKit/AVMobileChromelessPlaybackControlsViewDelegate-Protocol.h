@@ -5,5 +5,6 @@
 //
 
 @protocol AVMobileChromelessPlaybackControlsViewDelegate
+- (void)g;
 @end
 

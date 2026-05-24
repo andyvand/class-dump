@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CKContextExecutor
 {
     NSObject<OS_dispatch_queue> *_workItemQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSObject<OS_dispatch_group> *_group;
-    unsigned long long _timeoutAfter;
-    NSCondition *_completionCondition;
-    CDUnknownBlockType _completionHandler;
-    _Atomic _Bool _done;
-    id _context;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)me/Core/C3DFloor.c;
 - (void);
 - (id);
+- (void)@;
 - (void);
+- (void);
+- (id)`b;
+- (void)ing deprecated contentItem-based artwork.;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id context; // @synthesize context=_context;
 @property(readonly) _Atomic _Bool done; // @synthesize done=_done;
 
 @end

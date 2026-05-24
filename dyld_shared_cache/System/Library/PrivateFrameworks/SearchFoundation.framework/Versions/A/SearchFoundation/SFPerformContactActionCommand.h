@@ -6,8 +6,6 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
-
 @interface SFPerformContactActionCommand : SFCommand
 {
     struct {
@@ -15,30 +13,12 @@
         unsigned int didDisplayHandleOptions:1;
         unsigned int didSelectFromOptionsMenu:1;
     } _has;
-    _Bool _didDisplayHandleOptions;
-    _Bool _didSelectFromOptionsMenu;
-    int _contactActionType;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
 @property(nonatomic) int contactActionType; // @synthesize contactActionType=_contactActionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool didDisplayHandleOptions; // @synthesize didDisplayHandleOptions=_didDisplayHandleOptions;
-@property(nonatomic) _Bool didSelectFromOptionsMenu; // @synthesize didSelectFromOptionsMenu=_didSelectFromOptionsMenu;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

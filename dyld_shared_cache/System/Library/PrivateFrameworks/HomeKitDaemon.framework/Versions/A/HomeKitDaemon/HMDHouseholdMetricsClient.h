@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, HMMDateProvider, NSDictionary;
-@protocol HMDHouseholdMetricsMessaging, HMDHouseholdMetricsRequestCountProvider;
+@class HMDEventCountersManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdMetricsClient
 {
     HMDEventCountersManager *_countersManager;
-    HMMDateProvider *_dateProvider;
-    id <HMDHouseholdMetricsMessaging> _remoteMessageDispatcher;
-    id <HMDHouseholdMetricsRequestCountProvider> _requestCountProvider;
-    NSDictionary *_logEventFactories;
-    CDUnknownBlockType _isDNUEnabledBlock;
 }
 
 + (id)§B;
 - (void);
-- (id);
+- (id)disallowSharePlaySelection;
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)erences:(id)arg1;
+- (id)setPreferences:(id)arg1;
 - (id);
 - (void){public}@Adding cloud query database operation %{public}@;
 - (void)ameraRecordingAnalysisNode"8;
@@ -36,11 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, nonatomic) CDUnknownBlockType isDNUEnabledBlock; // @synthesize isDNUEnabledBlock=_isDNUEnabledBlock;
-@property(readonly, nonatomic) NSDictionary *logEventFactories; // @synthesize logEventFactories=_logEventFactories;
-@property(readonly, nonatomic) __weak id <HMDHouseholdMetricsMessaging> remoteMessageDispatcher; // @synthesize remoteMessageDispatcher=_remoteMessageDispatcher;
-@property(readonly, nonatomic) __weak id <HMDHouseholdMetricsRequestCountProvider> requestCountProvider; // @synthesize requestCountProvider=_requestCountProvider;
 
 @end
 

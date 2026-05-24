@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol DEDXPCProtocol;
 
 @interface DEDXPCOutbound
@@ -25,36 +24,29 @@
 - (void);
 - (void);
 - (void);
+- (id)RemoveMatchedTapIns:(id)arg1 transactionsInProgress: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void))	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)hX5;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)eCollectionCompletion:(id)arg1 forIdentifier: /* Error: Ran out of types for this method. */;
+- (void)storeCollectionCompletion:(id)arg1 forIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id <DEDXPCProtocol> remoteObject; // @synthesize remoteObject=_remoteObject;
-@property(readonly) Class superclass;
 
 @end
 

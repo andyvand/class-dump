@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, NSData, NSString;
+@class NSString;
 
 @interface ICAuthorizeMachineRequest
 {
     NSString *_keybagPath;
-    long long _qualityOfService;
-    NSString *_reason;
-    ICStoreRequestContext *_requestContext;
-    NSData *_tokenData;
 }
 
 - (void);
 - (id);
 - (id);
+- (void));
+- (id)(%@);
+- (long long)#;
+- (id);
+- (void);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)Wired;
+- (void)ethernetWired;
 - (void)ÁØÁàÁ,ÃàÃ;
 - (void)%{public}@:(long long)arg1 _initLazily %{BOOL}u;
 - (id)+l;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keybagPath; // @synthesize keybagPath=_keybagPath;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(copy, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;
 
 @end
 

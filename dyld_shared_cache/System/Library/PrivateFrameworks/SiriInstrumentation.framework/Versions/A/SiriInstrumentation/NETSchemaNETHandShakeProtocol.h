@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETHandShakeProtocol : SISchemaInstrumentationMessage
 {
     int _protocol;
-    unsigned int _handShakeRTT;
-    unsigned long long _handShakeDuration;
-    struct {
-        unsigned int protocol:1;
-        unsigned int handShakeRTT:1;
-        unsigned int handShakeDuration:1;
-    } _has;
 }
 
 - (void);
@@ -34,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)-IssCap-CVM;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,12 +38,6 @@
 - (void)pGÀÿtC¬GÍ$;
 
 // Remaining properties
-@property(nonatomic) unsigned long long handShakeDuration; // @synthesize handShakeDuration=_handShakeDuration;
-@property(nonatomic) unsigned int handShakeRTT; // @synthesize handShakeRTT=_handShakeRTT;
-@property(nonatomic) _Bool hasHandShakeDuration;
-@property(nonatomic) _Bool hasHandShakeRTT;
-@property(nonatomic) _Bool hasProtocol;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int protocol; // @synthesize protocol=_protocol;
 
 @end

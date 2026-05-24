@@ -7,8 +7,6 @@
 @interface IKLinkedList
 {
     id _first;
-    id _last;
-    unsigned long long _count;
 }
 
 - (void);

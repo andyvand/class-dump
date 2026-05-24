@@ -11,36 +11,6 @@
 @interface DGColorOperation : DGOperation
 {
     NSNumber *_inputFilterVersion;
-    double _inputRedsHueBase;
-    double _inputRedsHueShift;
-    double _inputRedsSaturation;
-    double _inputRedsLuminance;
-    double _inputRedsSpread;
-    double _inputYellowsHueBase;
-    double _inputYellowsHueShift;
-    double _inputYellowsSaturation;
-    double _inputYellowsLuminance;
-    double _inputYellowsSpread;
-    double _inputGreensHueBase;
-    double _inputGreensHueShift;
-    double _inputGreensSaturation;
-    double _inputGreensLuminance;
-    double _inputGreensSpread;
-    double _inputCyansHueBase;
-    double _inputCyansHueShift;
-    double _inputCyansSaturation;
-    double _inputCyansLuminance;
-    double _inputCyansSpread;
-    double _inputBluesHueBase;
-    double _inputBluesHueShift;
-    double _inputBluesSaturation;
-    double _inputBluesLuminance;
-    double _inputBluesSpread;
-    double _inputMagentasHueBase;
-    double _inputMagentasHueShift;
-    double _inputMagentasSaturation;
-    double _inputMagentasLuminance;
-    double _inputMagentasSpread;
 }
 
 + (id);
@@ -48,7 +18,7 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)=;
 + (id);
 + (void);
 + (void);
@@ -65,6 +35,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,8 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (double);
 - (double);
@@ -126,36 +96,7 @@
 - (id);
 
 // Remaining properties
-@property double inputBluesHueBase; // @synthesize inputBluesHueBase=_inputBluesHueBase;
-@property double inputBluesHueShift; // @synthesize inputBluesHueShift=_inputBluesHueShift;
-@property double inputBluesLuminance; // @synthesize inputBluesLuminance=_inputBluesLuminance;
-@property double inputBluesSaturation; // @synthesize inputBluesSaturation=_inputBluesSaturation;
-@property double inputBluesSpread; // @synthesize inputBluesSpread=_inputBluesSpread;
-@property double inputCyansHueBase; // @synthesize inputCyansHueBase=_inputCyansHueBase;
-@property double inputCyansHueShift; // @synthesize inputCyansHueShift=_inputCyansHueShift;
-@property double inputCyansLuminance; // @synthesize inputCyansLuminance=_inputCyansLuminance;
-@property double inputCyansSaturation; // @synthesize inputCyansSaturation=_inputCyansSaturation;
-@property double inputCyansSpread; // @synthesize inputCyansSpread=_inputCyansSpread;
-@property double inputGreensHueBase; // @synthesize inputGreensHueBase=_inputGreensHueBase;
-@property double inputGreensHueShift; // @synthesize inputGreensHueShift=_inputGreensHueShift;
-@property double inputGreensLuminance; // @synthesize inputGreensLuminance=_inputGreensLuminance;
-@property double inputGreensSaturation; // @synthesize inputGreensSaturation=_inputGreensSaturation;
-@property double inputGreensSpread; // @synthesize inputGreensSpread=_inputGreensSpread;
-@property double inputMagentasHueBase; // @synthesize inputMagentasHueBase=_inputMagentasHueBase;
-@property double inputMagentasHueShift; // @synthesize inputMagentasHueShift=_inputMagentasHueShift;
-@property double inputMagentasLuminance; // @synthesize inputMagentasLuminance=_inputMagentasLuminance;
-@property double inputMagentasSaturation; // @synthesize inputMagentasSaturation=_inputMagentasSaturation;
-@property double inputMagentasSpread; // @synthesize inputMagentasSpread=_inputMagentasSpread;
 @property double inputRedsHueBase; // @synthesize inputRedsHueBase=_inputRedsHueBase;
-@property double inputRedsHueShift; // @synthesize inputRedsHueShift=_inputRedsHueShift;
-@property double inputRedsLuminance; // @synthesize inputRedsLuminance=_inputRedsLuminance;
-@property double inputRedsSaturation; // @synthesize inputRedsSaturation=_inputRedsSaturation;
-@property double inputRedsSpread; // @synthesize inputRedsSpread=_inputRedsSpread;
-@property double inputYellowsHueBase; // @synthesize inputYellowsHueBase=_inputYellowsHueBase;
-@property double inputYellowsHueShift; // @synthesize inputYellowsHueShift=_inputYellowsHueShift;
-@property double inputYellowsLuminance; // @synthesize inputYellowsLuminance=_inputYellowsLuminance;
-@property double inputYellowsSaturation; // @synthesize inputYellowsSaturation=_inputYellowsSaturation;
-@property double inputYellowsSpread; // @synthesize inputYellowsSpread=_inputYellowsSpread;
 
 @end
 

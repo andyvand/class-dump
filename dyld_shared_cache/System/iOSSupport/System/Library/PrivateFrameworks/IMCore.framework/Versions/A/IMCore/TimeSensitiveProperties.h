@@ -9,7 +9,6 @@
 @interface TimeSensitiveProperties
 {
     _Bool _hasOneTimePasscode;
-    NSDate *_expirationDate;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool hasOneTimePasscode; // @synthesize hasOneTimePasscode=_hasOneTimePasscode;
 
 @end
 

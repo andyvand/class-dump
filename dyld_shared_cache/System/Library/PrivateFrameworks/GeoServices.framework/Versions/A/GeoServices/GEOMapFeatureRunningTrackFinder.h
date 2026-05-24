@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id)PlaceActionDetails;
+- (id)mayShowLocalContactsAccountsForBundleID:(CDUnknownBlockType)arg1 sourceAccountManagement: /* Error: Ran out of types for this method. */;
+- (id)hasPlaceActionDetails;
 - (id);
 
 @end

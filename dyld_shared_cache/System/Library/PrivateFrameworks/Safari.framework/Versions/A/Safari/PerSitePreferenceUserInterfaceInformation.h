@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PerSitePreferenceUserInterfaceInformation
 {
     NSString *_localizedPopoverName;
-    long long _popoverDisplayOption;
-    NSString *_localizedPreferencePaneName;
-    NSString *_localizedPreferencePaneDescription;
-    NSString *_localizedPreferencePaneTableAccessibilityLabel;
-    NSImage *_preferencePaneIcon;
-    NSString *_localizedPlaceholderToDisplayIfNotConfigurable;
-    NSString *_localizedDefaultPolicyLabel;
 }
 
 - (id);
@@ -36,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedDefaultPolicyLabel; // @synthesize localizedDefaultPolicyLabel=_localizedDefaultPolicyLabel;
-@property(readonly, copy, nonatomic) NSString *localizedPlaceholderToDisplayIfNotConfigurable; // @synthesize localizedPlaceholderToDisplayIfNotConfigurable=_localizedPlaceholderToDisplayIfNotConfigurable;
 @property(readonly, copy, nonatomic) NSString *localizedPopoverName; // @synthesize localizedPopoverName=_localizedPopoverName;
-@property(readonly, copy, nonatomic) NSString *localizedPreferencePaneDescription; // @synthesize localizedPreferencePaneDescription=_localizedPreferencePaneDescription;
-@property(readonly, copy, nonatomic) NSString *localizedPreferencePaneName; // @synthesize localizedPreferencePaneName=_localizedPreferencePaneName;
-@property(readonly, copy, nonatomic) NSString *localizedPreferencePaneTableAccessibilityLabel; // @synthesize localizedPreferencePaneTableAccessibilityLabel=_localizedPreferencePaneTableAccessibilityLabel;
-@property(readonly, nonatomic) long long popoverDisplayOption; // @synthesize popoverDisplayOption=_popoverDisplayOption;
-@property(readonly, nonatomic) NSImage *preferencePaneIcon; // @synthesize preferencePaneIcon=_preferencePaneIcon;
 
 @end
 

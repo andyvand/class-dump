@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSUAFAssetManager, NSString;
+@class CSUAFAssetManager;
 
 @interface SSRUafAssetProvider
 {
@@ -14,19 +14,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CSUAFAssetManager *uafAssetManager; // @synthesize uafAssetManager=_uafAssetManager;
 
 @end

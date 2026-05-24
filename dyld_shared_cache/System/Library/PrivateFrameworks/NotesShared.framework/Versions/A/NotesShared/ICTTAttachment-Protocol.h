@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class ICAttachment, NSString;
 
 @protocol ICTTAttachment
+- (ICAttachment *);
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *attachmentIdentifier;
-@property(readonly, copy, nonatomic) NSString *attachmentUTI;
 @end
 

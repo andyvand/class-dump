@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
 @protocol TRILatencyMetricTelemetryValidating;
 
 @interface TRIDownloadLatencyTaskResultTelemetryBuilder
 {
     id <TRILatencyMetricTelemetryValidating> _validator;
-    NSMutableDictionary *_telemetryForDeployment;
 }
 
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
@@ -25,7 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *telemetryForDeployment; // @synthesize telemetryForDeployment=_telemetryForDeployment;
 @property(readonly, nonatomic) id <TRILatencyMetricTelemetryValidating> validator; // @synthesize validator=_validator;
 
 @end

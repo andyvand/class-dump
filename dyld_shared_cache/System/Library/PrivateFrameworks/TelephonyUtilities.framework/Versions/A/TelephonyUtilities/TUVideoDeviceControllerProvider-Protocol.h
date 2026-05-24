@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, NSArray, NSString, VideoAttributes;
-@protocol TUVideoDeviceControllerProviderDelegate;
-
 @protocol TUVideoDeviceControllerProvider
+- (void);
+- (void);
 - (void),N,V_localizedServiceName;
 
 // Remaining properties
-@property(nonatomic, getter=isCameraBlurEnabled) _Bool cameraBlurEnabled;
-@property(nonatomic, getter=isCinematicFramingEnabled) _Bool cinematicFramingEnabled;
-@property(nonatomic) __weak id <TUVideoDeviceControllerProviderDelegate> delegate;
-@property(readonly, nonatomic) _Bool hasAvailableDeskViewCameras;
-@property(readonly, copy, nonatomic) NSArray *inputDevices;
-@property(readonly, copy, nonatomic) NSString *localCameraUID;
-@property(copy, nonatomic) VideoAttributes *localVideoAttributes;
 @property(readonly, nonatomic, getter=isPreviewRunning) _Bool previewRunning;
-@property(nonatomic, getter=isReactionEffectGestureEnabled) _Bool reactionEffectGestureEnabled;
-@property(nonatomic, getter=isStudioLightEnabled) _Bool studioLightEnabled;
-@property(readonly, nonatomic) AVCaptureDevice *userPreferredCamera;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, VNRecognizedPoints3DSpecifier;
+@class VNRecognizedPoints3DSpecifier;
 
 @interface VNRecognizedPoints3DObservation : VNObservation
 {
@@ -15,22 +15,20 @@
 
 + (_Bool);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)fp_strippedError;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void)ationOptionNumberOfBuffers;
+- (void)VNImageBufferAugmentationOptionNumberOfBuffers;
 
 // Remaining properties
-@property(readonly, copy) NSArray *availableGroupKeys;
-@property(readonly, copy) NSArray *availableKeys;
 @property(readonly, nonatomic) VNRecognizedPoints3DSpecifier *recognizedPointsSpecifier;
 
 @end

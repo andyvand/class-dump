@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSFileProviderDiagnosticAttributesDescriptor, NSString;
+@class NSString;
 
 @interface FPImportItemError
 {
     NSString *_itemIdentifier;
-    NSError *_error;
-    long long _retryCount;
-    NSFileProviderDiagnosticAttributesDescriptor *_diagnosticAttributes;
 }
 
 + (_Bool);
-- (void);
+- (void)aM;
 - (id);
 - (id);
 - (id);
@@ -23,14 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (long long)te;
+- (long long)_contentModificationDate;
 - (id)ead of %@;
 
 // Remaining properties
-@property(copy, nonatomic) NSFileProviderDiagnosticAttributesDescriptor *diagnosticAttributes; // @synthesize diagnosticAttributes=_diagnosticAttributes;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
 
 @end
 

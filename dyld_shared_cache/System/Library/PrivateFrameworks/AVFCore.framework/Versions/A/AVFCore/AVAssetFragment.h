@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (id);
+- (id)N3fst17StateIteratorBaseINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE0EEEEE;
 - (void);
 - (id);
 - (long long);

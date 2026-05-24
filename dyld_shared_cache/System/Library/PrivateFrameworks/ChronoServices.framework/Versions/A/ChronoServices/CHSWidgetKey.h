@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidget, CHSWidgetMetrics, NSString;
+@class CHSWidget;
 
 @interface CHSWidgetKey
 {
     CHSWidget *_widget;
-    CHSWidgetMetrics *_metrics;
-    NSString *_hostIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
-@property(readonly, nonatomic) CHSWidgetMetrics *metrics; // @synthesize metrics=_metrics;
 @property(readonly, nonatomic) CHSWidget *widget; // @synthesize widget=_widget;
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (unsigned int);
 - (id);
@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)skipButtonLongPressTriggered: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned int boardID; // @synthesize boardID=_boardID;

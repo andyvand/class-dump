@@ -14,17 +14,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (_Bool);
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double batteryPercentRemaining;
 @property(readonly, nonatomic) _Bool isExternalPowerConnected;
 
 @end

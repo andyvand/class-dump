@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface SFImage
 {
     struct {
@@ -17,19 +15,6 @@
         unsigned int source:1;
         unsigned int cornerRoundingStyle:1;
     } _has;
-    _Bool _isTemplate;
-    _Bool _shouldCropToCircle;
-    int _source;
-    int _cornerRoundingStyle;
-    NSData *_imageData;
-    double _cornerRadius;
-    double _scale;
-    NSString *_contentType;
-    NSString *_keyColor;
-    NSString *_identifier;
-    NSString *_accessibilityLabel;
-    SFImage *_badgingImage;
-    struct CGSize _size;
 }
 
 + (id);

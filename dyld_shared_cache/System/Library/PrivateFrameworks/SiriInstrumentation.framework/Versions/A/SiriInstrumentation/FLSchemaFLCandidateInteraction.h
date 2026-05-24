@@ -6,44 +6,37 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLCandidateIdentifier, NSData;
+@class FLSchemaFLCandidateIdentifier;
 
 @interface FLSchemaFLCandidateInteraction : SISchemaInstrumentationMessage
 {
     FLSchemaFLCandidateIdentifier *_identifier;
-    int _alignment;
-    CDStruct_14ec7c27 _has;
-    _Bool _hasIdentifier;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)actsViewController _startObservingBeneficiaryChanges] called.;
 - (_Bool);
+- (id)mework/Versions/A/SoftwareUpdateCore;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)egate>",W,N,V_delegate;
 - (_Bool);
-- (int);
+- (int)2@"NSArray"40q48@?<v@?@"NSArray">56;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)leted: /* Error: Ran out of types for this method. */;
-- (_Bool)ctionGrainSummary;
+- (id)setContextualReplayBiomeRecordDeleted: /* Error: Ran out of types for this method. */;
+- (_Bool)deletePnrodIntelligenceFlowActionGrainSummary;
 - (id)ariablesSet;
 - (id)Ô3(7ü;°=;
 - (void)þ;
-- (void)DMESSAGETYPE_PHOTO;
+- (void)FLOWREADMESSAGETYPE_PHOTO;
 - (void);$;
 
 // Remaining properties
-@property(nonatomic) int alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool hasAlignment;
-@property(nonatomic) _Bool hasIdentifier; // @synthesize hasIdentifier=_hasIdentifier;
 @property(retain, nonatomic) FLSchemaFLCandidateIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

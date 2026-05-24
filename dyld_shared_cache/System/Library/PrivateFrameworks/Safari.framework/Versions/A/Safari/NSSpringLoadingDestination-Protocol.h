@@ -5,5 +5,8 @@
 //
 
 @protocol NSSpringLoadingDestination
+
+@optional
+- (unsigned long long)P;
 @end
 

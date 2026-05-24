@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAFloatMatrix, MAIndexCache, NSArray, NSString;
+@class MAIndexCache, NSString;
 
 @interface MADataFrame
 {
     NSString *_name;
-    MAIndexCache *_rowIndexCache;
-    MAIndexCache *_columnIndexCache;
-    MAFloatMatrix *_matrix;
 }
 
 - (id);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -34,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MAIndexCache *columnIndexCache; // @synthesize columnIndexCache=_columnIndexCache;
-@property(readonly, copy, nonatomic) NSArray *columnLabels;
-@property(readonly, copy, nonatomic) MAFloatMatrix *matrix; // @synthesize matrix=_matrix;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) MAIndexCache *rowIndexCache; // @synthesize rowIndexCache=_rowIndexCache;
-@property(readonly, copy, nonatomic) NSArray *rowLabels;
 
 @end
 

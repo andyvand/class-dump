@@ -12,12 +12,12 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)cMessage;
+- (void)AFMyriadAccessoryMetricMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) AKAccountManager *accountManager; // @synthesize accountManager=_accountManager;

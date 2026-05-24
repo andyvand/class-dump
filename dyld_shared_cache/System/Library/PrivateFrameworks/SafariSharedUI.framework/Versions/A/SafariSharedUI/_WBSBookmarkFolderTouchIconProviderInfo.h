@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage;
+@class NSArray;
 
 @interface _WBSBookmarkFolderTouchIconProviderInfo
 {
     NSArray *_thumbnailImages;
-    NSArray *_backgroundColors;
-    NSImage *_touchIcon;
 }
 
 + (id);
@@ -18,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)kgroundImageThumbnailResponseForRequest: /* Error: Ran out of types for this method. */;
+- (id)?;
+- (void)_cachedBackgroundImageThumbnailResponseForRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *backgroundColors; // @synthesize backgroundColors=_backgroundColors;
 @property(readonly, copy, nonatomic) NSArray *thumbnailImages; // @synthesize thumbnailImages=_thumbnailImages;
-@property(readonly, nonatomic) NSImage *touchIcon; // @synthesize touchIcon=_touchIcon;
 
 @end
 

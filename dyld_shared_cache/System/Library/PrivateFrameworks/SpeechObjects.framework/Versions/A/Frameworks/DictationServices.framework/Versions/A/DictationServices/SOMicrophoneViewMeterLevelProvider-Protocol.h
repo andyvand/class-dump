@@ -5,5 +5,6 @@
 //
 
 @protocol SOMicrophoneViewMeterLevelProvider
+- (float);
 @end
 

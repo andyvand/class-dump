@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TIconCollectionViewKeepArrangedLayout
 {
     vector_3f2cadd7 _columnOffsets;
-    _Bool _justifiedLayout;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)@qa;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columnOffsetCount;
 @property(nonatomic, getter=isJustifiedLayout) _Bool justifiedLayout; // @synthesize justifiedLayout=_justifiedLayout;
 
 @end

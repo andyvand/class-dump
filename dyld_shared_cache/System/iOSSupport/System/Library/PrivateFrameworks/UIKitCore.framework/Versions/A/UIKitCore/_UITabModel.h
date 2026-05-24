@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPointerArray, NSString, UITab, UITabBarController, _UITabCustomizationStore;
+@class NSPointerArray, UITabBarController;
 
 @interface _UITabModel
 {
     NSPointerArray *_observers;
-    struct {
-        unsigned int isBroadcasting:1;
-        unsigned int ignoreSelectedLeafChanges:1;
-        unsigned int notifyTabBarControllerOnLeafReselection:1;
-        unsigned int allowUpdatesDuringBroadcast:1;
-    } _flags;
-    _Bool _editable;
-    _Bool _editing;
-    _UITabCustomizationStore *_customizationStore;
-    UITabBarController *_tabBarController;
-    NSArray *_tabItems;
-    UITab *_selectedItem;
-    UITab *_selectedLeaf;
-    NSString *_persistenceIdentifier;
 }
 
 - (void);
@@ -33,10 +19,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -46,16 +32,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)relay:(CDUnknownBlockType)arg1 sendInitateRequest:toPerson:account: /* Error: Ran out of types for this method. */;
+- (void)relay:sendCancel:toPerson:account: /* Error: Ran out of types for this method. */;
+- (void)account:(id)arg1 buddyProperties:(_Bool)arg2 buddyPictures: /* Error: Ran out of types for this method. */;
+- (void):(CDUnknownBlockType)arg1;
+- (void)nnedChatIdentifiers:(CDUnknownBlockType)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_createWrapperForTransfer:(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;
@@ -63,28 +49,14 @@
 × ;
 - (void)textMenuConfiguration"16;
 - (void)2;
-- (void)elocity:(_Bool)arg1 forItem: /* Error: Ran out of types for this method. */;
-- (void)yleSheet;
+- (void)addLinearVelocity:(_Bool)arg1 forItem: /* Error: Ran out of types for this method. */;
+- (void)_WKUserStyleSheet;
 - (_Bool)¿7Gt;
 - (void)y/Frameworks/StickerKit.framework/StickerKit;
 - (_Bool)»;
 
 // Remaining properties
-@property(readonly, nonatomic) _UITabCustomizationStore *customizationStore; // @synthesize customizationStore=_customizationStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditable) _Bool editable; // @synthesize editable=_editable;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *persistenceIdentifier; // @synthesize persistenceIdentifier=_persistenceIdentifier;
-@property(readonly, nonatomic) UITab *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly, nonatomic) UITab *selectedLeaf; // @synthesize selectedLeaf=_selectedLeaf;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UITabBarController *tabBarController; // @synthesize tabBarController=_tabBarController;
-@property(retain, nonatomic) NSArray *tabItems; // @synthesize tabItems=_tabItems;
 
 @end
 

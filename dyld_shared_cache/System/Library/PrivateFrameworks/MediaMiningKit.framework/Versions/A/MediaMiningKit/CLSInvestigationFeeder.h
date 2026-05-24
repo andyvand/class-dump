@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSSet, NSString;
+@class NSMutableSet;
 
 @interface CLSInvestigationFeeder
 {
     unsigned long long _locationClusteringAlgorithm;
-    _Bool _allowsInterview;
-    NSMutableSet *_focusItems;
-    NSSet *_focusPersonLocalIdentifiers;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -32,34 +29,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)allowChillMixElection;
+- (id)ating: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsInterview; // @synthesize allowsInterview=_allowsInterview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSMutableSet *focusItems; // @synthesize focusItems=_focusItems;
-@property(retain, nonatomic) NSSet *focusPersonLocalIdentifiers; // @synthesize focusPersonLocalIdentifiers=_focusPersonLocalIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *localEndDate;
-@property(readonly, nonatomic) NSDate *localStartDate;
-@property(nonatomic) unsigned long long locationClusteringAlgorithm; // @synthesize locationClusteringAlgorithm=_locationClusteringAlgorithm;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate;
 
 @end
 

@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
+- (id)ooglemail;
+- (void)ata.c;
 - (_Bool);
-- (void)Context;
+- (void)NSTouchBarViewControllerObservationContext;
 
 // Remaining properties
 @property NSRulerView *rulerView; // @synthesize rulerView=_rulerView;

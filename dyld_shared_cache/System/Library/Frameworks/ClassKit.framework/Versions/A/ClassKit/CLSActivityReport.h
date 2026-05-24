@@ -6,33 +6,23 @@
 
 #import <ClassKit/CLSReportItem.h>
 
-@class CLSActivityReportItem, CLSAggregatedValue, NSArray, NSString;
-
 @interface CLSActivityReport : CLSReportItem
 {
     int _handoutAttachmentType;
-    long long _contextType;
-    NSString *_contextTopic;
-    NSString *_contextTitle;
-    NSString *_contextAppBundleIdentifier;
-    NSString *_contextID;
-    CLSAggregatedValue *_time;
-    CLSAggregatedValue *_progress;
-    CLSActivityReportItem *_primaryReportItem;
-    NSArray *_additionalReportItems;
-    NSString *_contextStableObjectID;
-    NSString *_handoutAuthorizedObjectID;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)_appTokenID;
+- (void)supported.;
+- (void)ed
+;
+- (void)d_info() for THREAD_SCHED_RR_INFO failed
+;
+- (void)ANEServicesProgramProcessRequestDirect;
+- (void)ANEServicesProgramDestroy;
+- (void)ANEServicesProgramChainingSetActiveProcedure;
+- (void)ANEServicesProgramPrepare;
+- (void)ramId:(id)arg1 %d
+;
 - (id);
 - (id);
 - (int);
@@ -45,8 +35,8 @@
 - (id);
 - (id);
 - (void);
-- (long long);
-- (id);
+- (long long)T;
+- (id)5;
 - (void);
 - (id);
 - (id);
@@ -60,18 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalReportItems; // @synthesize additionalReportItems=_additionalReportItems;
-@property(copy, nonatomic) NSString *contextAppBundleIdentifier; // @synthesize contextAppBundleIdentifier=_contextAppBundleIdentifier;
-@property(copy, nonatomic) NSString *contextID; // @synthesize contextID=_contextID;
-@property(copy, nonatomic) NSString *contextStableObjectID; // @synthesize contextStableObjectID=_contextStableObjectID;
-@property(copy, nonatomic) NSString *contextTitle; // @synthesize contextTitle=_contextTitle;
-@property(copy, nonatomic) NSString *contextTopic; // @synthesize contextTopic=_contextTopic;
 @property(nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) int handoutAttachmentType; // @synthesize handoutAttachmentType=_handoutAttachmentType;
-@property(copy, nonatomic) NSString *handoutAuthorizedObjectID; // @synthesize handoutAuthorizedObjectID=_handoutAuthorizedObjectID;
-@property(copy, nonatomic) CLSActivityReportItem *primaryReportItem; // @synthesize primaryReportItem=_primaryReportItem;
-@property(copy, nonatomic) CLSAggregatedValue *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) CLSAggregatedValue *time; // @synthesize time=_time;
 
 @end
 

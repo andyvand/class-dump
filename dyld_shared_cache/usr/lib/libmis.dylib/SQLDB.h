@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_semaphore;
+@class NSURL;
 
 @interface SQLDB
 {
     NSURL *_url;
-    _Bool _readonly;
-    struct sqlite3 *_db;
-    double _totalSizeMB;
-    NSObject<OS_dispatch_semaphore> *_transactionSemaphore;
 }
 
 + (id);
@@ -42,10 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *dbURL; // @synthesize dbURL=_url;
-@property(readonly, nonatomic) NSURL *shmURL;
-@property(readonly, nonatomic) double totalSizeMB; // @synthesize totalSizeMB=_totalSizeMB;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *transactionSemaphore; // @synthesize transactionSemaphore=_transactionSemaphore;
-@property(readonly, nonatomic) NSURL *walURL;
 
 @end
 

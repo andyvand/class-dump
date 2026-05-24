@@ -9,14 +9,10 @@
 @interface _MRConfigureConnectionMessageProtobuf
 {
     NSString *_destinationOutputDeviceUID;
-    NSString *_groupID;
-    NSString *_serviceName;
-    NSString *_sourceOutputDeviceName;
-    NSString *_sourceOutputDeviceUID;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,28 +26,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ler";
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)confidenceScore=%@, source=%@, interpretation=%@;
 - (_Bool);
-- (_Bool);
+- (_Bool)(yhx";
 - (id);
-- (void)ntentItemID;
+- (void)_contentItemID;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationOutputDeviceUID; // @synthesize destinationOutputDeviceUID=_destinationOutputDeviceUID;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) _Bool hasDestinationOutputDeviceUID;
 @property(readonly, nonatomic) _Bool hasGroupID;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) _Bool hasSourceOutputDeviceName;
-@property(readonly, nonatomic) _Bool hasSourceOutputDeviceUID;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) NSString *sourceOutputDeviceName; // @synthesize sourceOutputDeviceName=_sourceOutputDeviceName;
-@property(retain, nonatomic) NSString *sourceOutputDeviceUID; // @synthesize sourceOutputDeviceUID=_sourceOutputDeviceUID;
 
 @end
 

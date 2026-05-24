@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIConfidence, NSArray, NSDictionary, NSString;
+@class HMIConfidence;
 
 @interface HMIVideoAnalyzerEvent
 {
     HMIConfidence *_confidence;
-    NSDictionary *_userInfo;
-    struct CGRect _boundingBox;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -38,24 +36,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allEvents;
-@property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
 @property(readonly) HMIConfidence *confidence; // @synthesize confidence=_confidence;
-@property(readonly) long long confidenceLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

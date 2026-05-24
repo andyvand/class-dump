@@ -8,9 +8,10 @@
 @protocol UIDropSession, _UICollectionViewDropPlaceholderContext;
 
 @protocol _UICollectionViewDropCoordinator
+- (id <UIDropSession>);
 - (id <_UICollectionViewDropPlaceholderContext>)1fÐ1Â0@ù
 × ;
-- (void)InputViewSet:(NSIndexPath *)arg1;
+- (void)canAnimateToInputViewSet:(NSIndexPath *)arg1;
 - (void);
 
 // Remaining properties

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKMatchingNotification, NSMutableSet, NSString;
+@class IOKMatchingNotification;
 
 @interface _TSF_TSDIOKServiceMatcher
 {
     IOKMatchingNotification *_matchNotification;
-    IOKMatchingNotification *_terminateNotification;
-    NSMutableSet *_matchedEntryIDs;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

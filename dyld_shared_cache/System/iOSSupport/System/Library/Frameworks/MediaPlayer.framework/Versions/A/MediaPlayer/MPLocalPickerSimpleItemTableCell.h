@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UILabel *_trackNumber;
 }
 
-+ (id);
++ (id)P;
 - (void);
 - (void);
 - (void)videoTaskToData;

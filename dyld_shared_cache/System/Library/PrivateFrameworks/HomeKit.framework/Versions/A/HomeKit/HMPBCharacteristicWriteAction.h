@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBCharacteristicReference, NSData;
+@class NSData;
 
 @interface HMPBCharacteristicWriteAction
 {
     NSData *_actionUUID;
-    HMPBCharacteristicReference *_characteristicReference;
-    NSData *_targetValue;
 }
 
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,20 +24,15 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)horde;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void)èD$H;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *actionUUID; // @synthesize actionUUID=_actionUUID;
-@property(retain, nonatomic) HMPBCharacteristicReference *characteristicReference; // @synthesize characteristicReference=_characteristicReference;
 @property(readonly, nonatomic) _Bool hasActionUUID;
-@property(readonly, nonatomic) _Bool hasCharacteristicReference;
-@property(readonly, nonatomic) _Bool hasTargetValue;
-@property(retain, nonatomic) NSData *targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

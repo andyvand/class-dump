@@ -9,10 +9,6 @@
 @interface CRDetectionResult
 {
     void lines;
-    id tableRegionsMutex;
-    void pyramidPreIntraScaleNMSTextFeatures;
-    void pyramidScaleSize;
-    void pyramidScaleName;
 }
 
 - (id);
@@ -21,19 +17,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)etBaselineOrigin:toplineOrigin:slope: /* Error: Ran out of types for this method. */;
+- (id)Rollback apply operation only supported for Splat asset types. Asset Type %@ unsupported;
+- (void)setBaselineOrigin:toplineOrigin:slope: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *lines;
-@property(nonatomic, copy) NSArray *pyramidPreIntraScaleNMSTextFeatures;
-@property(nonatomic, copy) NSArray *pyramidScaleName;
-@property(nonatomic, copy) NSArray *pyramidScaleSize;
-@property(nonatomic, copy) NSArray *tableRegions;
 
 @end
 

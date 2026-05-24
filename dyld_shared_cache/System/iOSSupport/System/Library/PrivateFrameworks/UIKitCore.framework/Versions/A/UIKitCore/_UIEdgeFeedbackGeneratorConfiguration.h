@@ -6,30 +6,18 @@
 
 #import <UIKitCore/_UIFeedbackGeneratorUserInteractionDrivenConfiguration.h>
 
-@class NSString, _UIFeedback;
-@protocol _UIFeedbackContinuousPlayable, _UIFeedbackDiscretePlayable;
+@class _UIFeedback;
+@protocol _UIFeedbackDiscretePlayable;
 
 @interface _UIEdgeFeedbackGeneratorConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_userInteractingThresholdFeedback;
-    CDUnknownBlockType _userInteractingThresholdFeedbackUpdateBlock;
-    _UIFeedback<_UIFeedbackContinuousPlayable> *_userInteractingBeyondEdgeFeedback;
-    CDUnknownBlockType _userInteractingBeyondEdgeFeedbackUpdateBlock;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_userInteractingReleaseFeedback;
-    CDUnknownBlockType _userInteractingReleaseFeedbackUpdateBlock;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_animatingThresholdFeedback;
-    CDUnknownBlockType _animatingThresholdFeedbackUpdateBlock;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_animatingMaximumExtentFeedback;
-    CDUnknownBlockType _animatingMaximumExtentFeedbackUpdateBlock;
-    NSString *_hidFeedbackPatternName;
-    long long _defaultAxis;
-    double _minDistanceFromEdge;
 }
 
 + (id);
-+ (id)gedAtLocation: /* Error: Ran out of types for this method. */;
-+ (id)onCountForPageViewController: /* Error: Ran out of types for this method. */;
-+ (id)aseShadowUpdatesOnly;
++ (id)selectionChangedAtLocation: /* Error: Ran out of types for this method. */;
++ (id)presentationCountForPageViewController: /* Error: Ran out of types for this method. */;
++ (id)_rebaseShadowUpdatesOnly;
 + (id)Command;
 + (id)À;
 + (id)Scale Stretchiness Lower Bound;
@@ -38,16 +26,16 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)(!Ț	;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)removedItemIdentifiers;
+- (CDUnknownBlockType)_artworkView;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -60,27 +48,15 @@
 × ;
 - (long long)1"sessionDidEnd"b1"previewForDroppingItem"b1"willAnimateDropWithAnimator"b1"dataOwnerForSession"b1"delayedPreviewProviderForDroppingItem"b1"customSpringAnimationBehaviorForDroppingItem"b1"shouldPlayDropFeedbackForSession"b1};
 - (id)Transform=dddddd}16;
-- (CDUnknownBlockType)dSelectSuggestion: /* Error: Ran out of types for this method. */;
-- (void)ionView:(id)arg1 tableLayout:estimatedHeightForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)searchTextField:didSelectSuggestion: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(id)arg1 tableLayout:estimatedHeightForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)entSizeWhenEdgeAttached;
 - (void);
 - (id)tyleProvider;
 - (void)Hp\;
 
 // Remaining properties
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *animatingMaximumExtentFeedback; // @synthesize animatingMaximumExtentFeedback=_animatingMaximumExtentFeedback;
-@property(copy, nonatomic) CDUnknownBlockType animatingMaximumExtentFeedbackUpdateBlock; // @synthesize animatingMaximumExtentFeedbackUpdateBlock=_animatingMaximumExtentFeedbackUpdateBlock;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *animatingThresholdFeedback; // @synthesize animatingThresholdFeedback=_animatingThresholdFeedback;
-@property(copy, nonatomic) CDUnknownBlockType animatingThresholdFeedbackUpdateBlock; // @synthesize animatingThresholdFeedbackUpdateBlock=_animatingThresholdFeedbackUpdateBlock;
 @property(nonatomic, getter=_defaultAxis, setter=_setDefaultAxis:) long long defaultAxis; // @synthesize defaultAxis=_defaultAxis;
-@property(retain, nonatomic) NSString *hidFeedbackPatternName; // @synthesize hidFeedbackPatternName=_hidFeedbackPatternName;
-@property(nonatomic) double minDistanceFromEdge; // @synthesize minDistanceFromEdge=_minDistanceFromEdge;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackContinuousPlayable> *userInteractingBeyondEdgeFeedback; // @synthesize userInteractingBeyondEdgeFeedback=_userInteractingBeyondEdgeFeedback;
-@property(copy, nonatomic) CDUnknownBlockType userInteractingBeyondEdgeFeedbackUpdateBlock; // @synthesize userInteractingBeyondEdgeFeedbackUpdateBlock=_userInteractingBeyondEdgeFeedbackUpdateBlock;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *userInteractingReleaseFeedback; // @synthesize userInteractingReleaseFeedback=_userInteractingReleaseFeedback;
-@property(copy, nonatomic) CDUnknownBlockType userInteractingReleaseFeedbackUpdateBlock; // @synthesize userInteractingReleaseFeedbackUpdateBlock=_userInteractingReleaseFeedbackUpdateBlock;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *userInteractingThresholdFeedback; // @synthesize userInteractingThresholdFeedback=_userInteractingThresholdFeedback;
-@property(copy, nonatomic) CDUnknownBlockType userInteractingThresholdFeedbackUpdateBlock; // @synthesize userInteractingThresholdFeedbackUpdateBlock=_userInteractingThresholdFeedbackUpdateBlock;
 
 @end
 

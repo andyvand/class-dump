@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentApplication, PKPaymentPass, PKRemotePaymentInstrument;
+@class PKPaymentPass;
 
 @interface PKPaymentPreferenceCardEntry
 {
     _Bool _shouldShowCardUI;
-    _Bool _isSelectable;
-    _Bool _insetsSeparatorByTextOffset;
-    PKPaymentPass *_pass;
-    PKRemotePaymentInstrument *_remotePaymentInstrument;
-    PKPaymentApplication *_paymentApplication;
-    NSString *_displayName;
-    NSString *_availabilityString;
-    CDUnknownBlockType _actionBlock;
 }
 
-- (_Bool);
+- (_Bool)@;
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -40,15 +32,7 @@
 - (void)ces.unregister;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(copy, nonatomic) NSString *availabilityString; // @synthesize availabilityString=_availabilityString;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool insetsSeparatorByTextOffset; // @synthesize insetsSeparatorByTextOffset=_insetsSeparatorByTextOffset;
-@property(nonatomic) _Bool isSelectable; // @synthesize isSelectable=_isSelectable;
 @property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) PKPaymentApplication *paymentApplication; // @synthesize paymentApplication=_paymentApplication;
-@property(retain, nonatomic) PKRemotePaymentInstrument *remotePaymentInstrument; // @synthesize remotePaymentInstrument=_remotePaymentInstrument;
-@property(nonatomic) _Bool shouldShowCardUI; // @synthesize shouldShowCardUI=_shouldShowCardUI;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, iCloudAccountDetailsWebTabView;
+@class iCloudAccountDetailsWebTabView;
 
 @interface NSAccountDetailsWebTabViewItem
 {
     iCloudAccountDetailsWebTabView *_webView;
-    NSView *_generalView;
-    struct CGSize _contentSize;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize):shouldCreate:withWindow:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id)10;
 
 // Remaining properties
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property NSView *generalView; // @synthesize generalView=_generalView;
 @property(retain) iCloudAccountDetailsWebTabView *webView; // @synthesize webView=_webView;
 
 @end

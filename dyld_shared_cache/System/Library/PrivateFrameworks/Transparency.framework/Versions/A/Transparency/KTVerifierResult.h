@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTAccountPublicID, KTVerifierResultQueryPerformance, NSArray, NSDate, NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface KTVerifierResult
 {
     _Bool _optedIn;
-    _Bool _staticAccountKeyEnforced;
-    _Bool _everOptedIn;
-    _Bool _recentlyOptedIn;
-    NSString *_uri;
-    NSString *_application;
-    unsigned long long _succeed;
-    unsigned long long _staticAccountKeyStatus;
-    KTAccountPublicID *_publicID;
-    NSArray *_loggableDatas;
-    NSError *_failure;
-    unsigned long long _uiStatus;
-    KTVerifierResultQueryPerformance *_queryPerformance;
-    NSDate *_validUntil;
 }
 
 + (_Bool);
@@ -34,14 +21,14 @@
 - (void);
 - (void);
 - (void);
+- (void)M;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)L;
 - (id);
 - (id);
 - (_Bool);
@@ -49,20 +36,20 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)addOovsFromSentence: /* Error: Ran out of types for this method. */;
+- (_Bool)_isEmojiPersonalizationUsed;
+- (id);
+- (id);
+- (void);
+- (void)`;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)Length;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -71,21 +58,7 @@
 - (id)rencyIDSRepair;
 
 // Remaining properties
-@property(retain) NSString *application; // @synthesize application=_application;
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property _Bool everOptedIn; // @synthesize everOptedIn=_everOptedIn;
-@property(retain) NSError *failure; // @synthesize failure=_failure;
-@property(retain) NSArray *loggableDatas; // @synthesize loggableDatas=_loggableDatas;
-@property _Bool optedIn; // @synthesize optedIn=_optedIn;
-@property(retain) KTAccountPublicID *publicID; // @synthesize publicID=_publicID;
-@property(retain) KTVerifierResultQueryPerformance *queryPerformance; // @synthesize queryPerformance=_queryPerformance;
-@property _Bool recentlyOptedIn; // @synthesize recentlyOptedIn=_recentlyOptedIn;
-@property _Bool staticAccountKeyEnforced; // @synthesize staticAccountKeyEnforced=_staticAccountKeyEnforced;
-@property unsigned long long staticAccountKeyStatus; // @synthesize staticAccountKeyStatus=_staticAccountKeyStatus;
-@property unsigned long long succeed; // @synthesize succeed=_succeed;
-@property unsigned long long uiStatus; // @synthesize uiStatus=_uiStatus;
 @property(retain) NSString *uri; // @synthesize uri=_uri;
-@property(retain) NSDate *validUntil; // @synthesize validUntil=_validUntil;
 
 @end
 

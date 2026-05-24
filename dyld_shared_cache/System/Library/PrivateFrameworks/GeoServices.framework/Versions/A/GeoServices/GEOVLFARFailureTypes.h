@@ -9,33 +9,27 @@
 @interface GEOVLFARFailureTypes
 {
     PBUnknownFields *_unknownFields;
-    _Bool _arWalkingNoLabels;
-    _Bool _arWalkingUndulationFailure;
-    struct {
-        unsigned int has_arWalkingNoLabels:1;
-        unsigned int has_arWalkingUndulationFailure:1;
-    } _flags;
 }
 
-+ (_Bool)lacesInGuide:(id)arg1;
++ (_Bool)setNumPlacesInGuide:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_defaultAccount;
+- (_Bool)DDateComponents",&,D,N;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)saveRecordingBufferToEndFrom:(id)arg1 toURL: /* Error: Ran out of types for this method. */;
+- (id)gerSecondPass _reportModelProcessingLatency];
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id)0@ù
 × ;
@@ -45,11 +39,7 @@
 - (void)R¸ëQ@¼t6Q@;
 
 // Remaining properties
-@property(nonatomic) _Bool arWalkingNoLabels;
-@property(nonatomic) _Bool arWalkingUndulationFailure;
 @property(nonatomic) _Bool hasArWalkingNoLabels;
-@property(nonatomic) _Bool hasArWalkingUndulationFailure;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

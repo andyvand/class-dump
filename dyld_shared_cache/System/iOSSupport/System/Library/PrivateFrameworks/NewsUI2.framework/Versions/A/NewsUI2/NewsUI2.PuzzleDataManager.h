@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleDataManager
 {
     id puzzleService;
-    id puzzleTypeSettings;
 }
 
 @end

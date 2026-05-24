@@ -6,15 +6,9 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetAddress, NSString;
-@protocol HMFNetMonitorDelegate;
-
 @interface HMFNetMonitor : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    _Bool _reachable;
-    id <HMFNetMonitorDelegate> _delegate;
-    HMFNetAddress *_netAddress;
 }
 
 + (id);
@@ -30,17 +24,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFNetMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) HMFNetAddress *netAddress; // @synthesize netAddress=_netAddress;
-@property(readonly) unsigned long long reachabilityPath;
 @property(getter=isReachable) _Bool reachable;
-@property(readonly) Class superclass;
 
 @end
 

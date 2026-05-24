@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemStandardCardSection
+- (void);
+- (_SFPBRFTextProperty *)rs";
+- (NSData *)highlightDebugInformationForHighlightWithLocalIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool suppress_text_2_if_text_1_exceeds_a_single_line;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2s;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

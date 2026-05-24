@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineStore, CPLEngineWriteTransactionBlocker, CPLTransaction, NSError, NSMutableArray, NSString, NSThread;
+@class CPLEngineWriteTransactionBlocker, NSThread;
 
 @interface CPLEngineStoreTransaction
 {
     NSThread *_currentThread;
-    _Bool _forWrite;
-    NSMutableArray *_cleanupBlocks;
-    CPLTransaction *_dirty;
-    NSError *_error;
-    NSString *_name;
-    CPLEngineStore *_store;
-    CPLEngineWriteTransactionBlocker *_blocker;
 }
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)Ð1Â0@ù
-× ;
-- (void)`@ùâªãªïÊ`@ùâªãªëÊàª¯àª­àªý{C©ôOB©öWA©ÿÿ#ÕÐÊP;
-- (id);
-- (id);
-- (_Bool);
+- (void)Domain for %s;
 - (void);
 - (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)!;
+- (id);
+- (void);
+- (id)!;
 - (void);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CPLEngineWriteTransactionBlocker *blocker; // @synthesize blocker=_blocker;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool isLibraryClosed;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) CPLEngineStore *store; // @synthesize store=_store;
 
 @end
 

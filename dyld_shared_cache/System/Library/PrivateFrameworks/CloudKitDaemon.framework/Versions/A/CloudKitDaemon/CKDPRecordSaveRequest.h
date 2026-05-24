@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPRecordSaveRequestConflictLoserUpdate, CKDPRecordSaveRequestShareIdUpdate, CKDPRequestedFields, NSMutableArray, NSString;
+@class CKDPRecordSaveRequestConflictLoserUpdate;
 
 @interface CKDPRecordSaveRequest
 {
     CKDPRecordSaveRequestConflictLoserUpdate *_conflictLoserUpdate;
-    NSMutableArray *_conflictLosersToResolves;
-    NSString *_etag;
-    NSMutableArray *_fieldsToDeleteIfExistOnMerges;
-    NSString *_parentChainProtectionInfoTag;
-    CKDPRecord *_record;
-    NSString *_recordProtectionInfoTag;
-    CKDPRequestedFields *_requestedFields;
-    int _saveSemantics;
-    NSString *_shareEtag;
-    CKDPRecordSaveRequestShareIdUpdate *_shareIDUpdate;
-    NSString *_zoneProtectionInfoTag;
-    _Bool _merge;
-    struct {
-        unsigned int saveSemantics:1;
-        unsigned int merge:1;
-    } _has;
 }
 
 + (id);
@@ -44,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)˿;
 - (id);
 - (id);
 - (id);
@@ -56,23 +40,25 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)alidating MetadataSender [%{ptr}]
+;
+- (_Bool)date BadgeType to %@ at remoteMediaTime = %1.3f (%ld/%d);
+- (unsigned long long)[0x%04X] SetRate 0 success for hose [%{ptr}] (%@); firstAvailableTransportTS:%@
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
-- (int);
+- (void)powerBudgetMaxDuration;
+- (int)imeAtLastJoin;
 - (id);
 - (void);
 - (void);
-- (void);
-- (int);
+- (void)c}@ excluded:(int)arg1 %{public}@;
+- (int)�;
 - (_Bool);
-- (id);
+- (id)istence firstObjectIDNotMatchingSortKey:otherSortKeys:inThreadScope:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -82,41 +68,40 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)7:(id)arg1 30:35:8a:76:8e:c2:23:fb:44:22:bd:96:f6:aa:55:bf:4d:11:b1:0e:c4:7f:cf:86:8d:f8:30:dd:80:48:5d:9e:41:4e:e0:29:96:25:cc:d6:4a:0d:47:05:87:c4:61:f6:b0:1e:1a:da:48:56:a3:c1:c1:56:95:b3:4e:84:82:1b:a5:4d:d3:d0:5d:60:cf:fd:e5:75:3c:91:13:e2:e4:f1:60:4a:58:93:de:3f:e9:3c:bf:da:c9:f6:ef:9b:9e:b1:6e:78:9e:81:f6:e7:4c:09:b3:1c:87:25:bf:8f:6e:3f:d6:03:53:1e:09:a3:5b:00:4b:9e:98:fb:ae:13:86:e4:47:6a:1a:44:f8:15:c8:fb:30:c7:bd:b0:e8:8c:ac:2d:73:08:af:ed:b2:e8:f5:6d:a1:e2:d9:45:de:d5:b9:98:89:16:72
+-----BEGIN CERTIFICATE-----
+MIIDdjCCAl6gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBgDELMAkGA1UEBhMCVVMx
+EzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRp
+b24gQXV0aG9yaXR5MTQwMgYDVQQDFCtbVEVTVF0gQXBwbGUgaVBob25lIENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MB4XDTA3MDMyMTA2MjA1MFoXDTIyMDMxMjA2MjA1
+MFowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xFTATBgNVBAsT
+DEFwcGxlIGlQaG9uZTEnMCUGA1UEAxQeW1RFU1RdIEFwcGxlIGlQaG9uZSBBY3Rp
+dmF0aW9uMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzYmXsSN3d7UTU8f77
+wm9C0IIJAwCmAeixBwkmWxJl239RFe9PRbOPzk0WHTiEARBXToxx4V7eZxR12kia
+TG/wRWVm6Jy1okz0U8HsmGKQsJS+EvKgrFx3FgdzclqXulBOZzBSHvAwTo+ypNPR
++vhmeYeRL6HvTuZBjZQYKeDyzwIDAQABo4GbMIGYMA4GA1UdDwEB/wQEAwIHgDAM
+BgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTAbzpKG+1R3Z2jS8BB9moR+auL8TAfBgNV
+HSMEGDAWgBRFokypiltKJ16Fpk0FHCdEpYd2FzA4BgNVHR8EMTAvMC2gK6Aphido
+dHRwOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhL2lwaG9uZS5jcmwwDQYJKoZIhvcN
+AQEFBQADggEBAA5PVQCdHkx1KOh5u9tcXMxFk0bTOxQALVuwjC4VPhlgQyVZf3s6
+snzPwpbdsNdwWo4oxMwyLPTCQ+PhH7Ox3+yG3UOTRWChUwW6anBDRBGhnt3BcYvL
+MM3TFSHgJzA1inaOwiP7RCK9lvaqVb9NEbEOxH/Pho34MN2ASF2eQU7gKZYlzNZK
+DUcFh8Rh9rAeGtpIVqPBwVaVs06EghulTdPQXWDP/eV1PJET4uTxYEpYk94/6Ty/
+2sn275uesW54noH250wJsxyHJb+Pbj/WA1MeCaNbAEuemPuuE4bkR2oaRPgVyPsw
+x72w6IysLXMIr+2y6PVtoeLZRd7VuZiJFnI=
+-----END CERTIFICATE-----
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)5;
 - (id);
-- (Class)edentials;
+- (Class)hasCredentials;
 - (void);
 - (_Bool)hare invitedPCS using per-participant PCS;
 - (void){public}@ and/or containerID %@;
 - (void)ublic identity %@ on pcs %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPRecordSaveRequestConflictLoserUpdate *conflictLoserUpdate; // @synthesize conflictLoserUpdate=_conflictLoserUpdate;
-@property(retain, nonatomic) NSMutableArray *conflictLosersToResolves; // @synthesize conflictLosersToResolves=_conflictLosersToResolves;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSMutableArray *fieldsToDeleteIfExistOnMerges; // @synthesize fieldsToDeleteIfExistOnMerges=_fieldsToDeleteIfExistOnMerges;
-@property(readonly, nonatomic) _Bool hasConflictLoserUpdate;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(nonatomic) _Bool hasMerge;
-@property(readonly, nonatomic) _Bool hasParentChainProtectionInfoTag;
 @property(readonly, nonatomic) _Bool hasRecord;
-@property(readonly, nonatomic) _Bool hasRecordProtectionInfoTag;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(nonatomic) _Bool hasSaveSemantics;
-@property(readonly, nonatomic) _Bool hasShareEtag;
-@property(readonly, nonatomic) _Bool hasShareIDUpdate;
-@property(readonly, nonatomic) _Bool hasZoneProtectionInfoTag;
-@property(nonatomic) _Bool merge; // @synthesize merge=_merge;
-@property(retain, nonatomic) NSString *parentChainProtectionInfoTag; // @synthesize parentChainProtectionInfoTag=_parentChainProtectionInfoTag;
-@property(retain, nonatomic) CKDPRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) NSString *recordProtectionInfoTag; // @synthesize recordProtectionInfoTag=_recordProtectionInfoTag;
-@property(retain, nonatomic) CKDPRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(nonatomic) int saveSemantics; // @synthesize saveSemantics=_saveSemantics;
-@property(retain, nonatomic) NSString *shareEtag; // @synthesize shareEtag=_shareEtag;
-@property(retain, nonatomic) CKDPRecordSaveRequestShareIdUpdate *shareIDUpdate; // @synthesize shareIDUpdate=_shareIDUpdate;
-@property(retain, nonatomic) NSString *zoneProtectionInfoTag; // @synthesize zoneProtectionInfoTag=_zoneProtectionInfoTag;
 
 @end
 

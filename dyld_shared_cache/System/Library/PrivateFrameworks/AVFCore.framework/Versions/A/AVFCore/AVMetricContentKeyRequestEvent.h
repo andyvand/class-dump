@@ -6,20 +6,17 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVContentKeySpecifier, AVMetricMediaResourceRequestEvent, NSString;
+@class AVContentKeySpecifier;
 
 @interface AVMetricContentKeyRequestEvent : AVMetricEvent
 {
     AVContentKeySpecifier *_contentKeySpecifier;
-    NSString *_mediaType;
-    _Bool _isClientInitiated;
-    AVMetricMediaResourceRequestEvent *_mediaResourceRequestEvent;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly) AVContentKeySpecifier *contentKeySpecifier;
-@property(readonly) _Bool isClientInitiated;
-@property(readonly) AVMetricMediaResourceRequestEvent *mediaResourceRequestEvent;
-@property(readonly) NSString *mediaType;
 
 @end
 

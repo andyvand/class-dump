@@ -10,17 +10,17 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)locationType;
 + (id);
 + (_Bool);
 - (void);
 - (void);
+- (void)t;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)|;
 
 @end
 

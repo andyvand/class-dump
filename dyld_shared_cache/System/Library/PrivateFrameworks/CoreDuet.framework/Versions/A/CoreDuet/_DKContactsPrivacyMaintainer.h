@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserDefaults, _CDSpotlightItemRecorder, _PASSimpleCoalescingTimer;
-@protocol NSObject, _DKKnowledgeQuerying;
+@protocol _DKKnowledgeQuerying;
 
 @interface _DKContactsPrivacyMaintainer
 {
     id <_DKKnowledgeQuerying> _knowledgeStore;
-    _CDSpotlightItemRecorder *_spotlightRecorder;
-    NSUserDefaults *_userDefaults;
-    int _notifyToken;
-    id <NSObject> _notificationCenterToken;
-    _PASSimpleCoalescingTimer *_coalescingContactChangeTimer;
 }
 
 - (void);
-- (void);
+- (void)m;
 - (id);
 - (void);
 - (void);
+- (void)wf;
+- (void)u;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void)ñ©3Ð1Â0@ù
 × ;
 

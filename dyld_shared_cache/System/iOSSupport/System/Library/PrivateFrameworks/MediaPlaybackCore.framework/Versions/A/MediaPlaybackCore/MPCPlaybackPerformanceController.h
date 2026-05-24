@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSString;
+@class NSDate, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackPerformanceController
 {
     NSMutableDictionary *_trialExperiments;
-    struct os_unfair_lock_s _lock;
-    NSDate *_lastCDNWarming;
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)_userVisibleDataclasses;
+- (id)aclass actions:(id)arg1 %@;
+- (id)DisableImagePlaygroundiCloudSetting;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)}]¼;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *deploymentID;
-@property(readonly, copy, nonatomic) NSString *experimentID;
 @property(retain, nonatomic) NSDate *lastCDNWarming; // @synthesize lastCDNWarming=_lastCDNWarming;
-@property(readonly, copy, nonatomic) NSString *treatmentID;
 
 @end
 

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, TKSharedResourceSlot, TKTokenDriverContext;
-@protocol TKTokenDriverDelegate;
+@class TKTokenDriverContext;
 
 @interface TKTokenDriver
 {
     id _keepAlive;
-    id <TKTokenDriverDelegate> _delegate;
-    TKTokenDriverContext *_context;
-    NSMutableDictionary *_tokenConnections;
-    TKSharedResourceSlot *_keepAliveResourceSlot;
-    NSDictionary *_extensionAttributes;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,28 +25,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
-- (void);
+- (void)ink:o:path:/System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *classID;
 @property(nonatomic) __weak TKTokenDriverContext *context; // @synthesize context=_context;
-@property __weak id <TKTokenDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSDictionary *extensionAttributes; // @synthesize extensionAttributes=_extensionAttributes;
-@property(retain, nonatomic) id keepAlive;
-@property(retain, nonatomic) TKSharedResourceSlot *keepAliveResourceSlot; // @synthesize keepAliveResourceSlot=_keepAliveResourceSlot;
-@property(readonly, nonatomic) NSMutableDictionary *tokenConnections; // @synthesize tokenConnections=_tokenConnections;
-@property(readonly, nonatomic) NSArray *tokenSessions;
 
 @end
 

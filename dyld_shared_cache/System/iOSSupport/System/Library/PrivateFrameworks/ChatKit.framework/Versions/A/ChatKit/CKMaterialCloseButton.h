@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatKit.CKUnborderedBackdropMaterialView, ChatKit.VibrancyBackgroundLayerView, UIButtonConfiguration, UIColor, UIImage, UIImageView;
+@class ChatKit.CKUnborderedBackdropMaterialView;
 
 @interface CKMaterialCloseButton
 {
     id $__lazy_storage_$_materialBackgroundView;
-    ChatKit.VibrancyBackgroundLayerView *vibrancyBorderView;
-    UIImageView *buttonImageView;
-    UIImage *symbolImage;
-    UIColor *symbolColor;
-    double cornerRadius;
-    UIColor *materialColor;
-    double padding;
 }
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)a;
+- (void)s;
+- (id)il-queue;
+- (id)ICExpansionStateItemTypeSectionIdentifier;
 - (id);
 - (void);
 - (void);
@@ -46,16 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UIImageView *buttonImageView; // @synthesize buttonImageView;
-@property(nonatomic, retain) UIButtonConfiguration *configuration;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius;
-@property(nonatomic) _Bool enabled;
 @property(nonatomic, retain) ChatKit.CKUnborderedBackdropMaterialView *materialBackgroundView;
-@property(nonatomic, retain) UIColor *materialColor; // @synthesize materialColor;
-@property(nonatomic) double padding; // @synthesize padding;
-@property(nonatomic, retain) UIColor *symbolColor; // @synthesize symbolColor;
-@property(nonatomic, retain) UIImage *symbolImage; // @synthesize symbolImage;
-@property(nonatomic, readonly) ChatKit.VibrancyBackgroundLayerView *vibrancyBorderView; // @synthesize vibrancyBorderView;
 
 @end
 

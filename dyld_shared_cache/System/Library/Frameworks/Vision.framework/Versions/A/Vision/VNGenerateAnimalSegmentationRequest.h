@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNGenerateAnimalSegmentationRequest : VNImageBasedRequest
 {
 }
@@ -15,20 +13,18 @@
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
+- (long long)R	;
+- (void)containsObject:(unsigned int)arg1;
+- (id)archiving pose configuration:(unsigned long long)arg1 %@;
+- (unsigned int)CNContactPosterDataDirectAccessErrorDomain;
+- (void)toContact;
 - (long long)=¦TÜ;
-- (_Bool)pertyOrientation;
-- (id)ingKeys;
+- (_Bool)CGImagePropertyOrientation;
+- (id)CodingKeys;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int outputPixelFormat;
 @property(nonatomic) long long qualityLevel;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

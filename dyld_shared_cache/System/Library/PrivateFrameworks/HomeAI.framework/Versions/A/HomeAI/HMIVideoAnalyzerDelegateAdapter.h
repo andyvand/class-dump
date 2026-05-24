@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMIVideoAnalyzerDelegateAdapter
 {
     CDUnknownBlockType _analyzerDidAnalyzeFrameWithResult;
-    CDUnknownBlockType _analyzerDidAnalyzeFragmentWithResult;
-    CDUnknownBlockType _analyzerDidFailWithError;
-    CDUnknownBlockType _analyzerDidCreateTimelapseFragment;
-    CDUnknownBlockType _analyzerDidProduceAnalysisStateUpdate;
 }
 
 - (void);
@@ -33,18 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType analyzerDidAnalyzeFragmentWithResult; // @synthesize analyzerDidAnalyzeFragmentWithResult=_analyzerDidAnalyzeFragmentWithResult;
 @property(copy) CDUnknownBlockType analyzerDidAnalyzeFrameWithResult; // @synthesize analyzerDidAnalyzeFrameWithResult=_analyzerDidAnalyzeFrameWithResult;
-@property(copy) CDUnknownBlockType analyzerDidCreateTimelapseFragment; // @synthesize analyzerDidCreateTimelapseFragment=_analyzerDidCreateTimelapseFragment;
-@property(copy) CDUnknownBlockType analyzerDidFailWithError; // @synthesize analyzerDidFailWithError=_analyzerDidFailWithError;
-@property(copy) CDUnknownBlockType analyzerDidProduceAnalysisStateUpdate; // @synthesize analyzerDidProduceAnalysisStateUpdate=_analyzerDidProduceAnalysisStateUpdate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

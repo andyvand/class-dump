@@ -7,12 +7,6 @@
 @interface NewsUI2.NewsFormatLayoutViewRouter
 {
     id activityFactory;
-    id tracker;
-    id navigator;
-    id commandCenter;
-    id contextBuilder;
-    id issueRouteFactory;
-    id articleRouteModelFactory;
 }
 
 @end

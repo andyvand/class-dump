@@ -6,47 +6,27 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSDictionary, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebMarketingItemAction : AMSUIWebAction
 {
     ACAccount *_account;
-    NSString *_clientIdentifier;
-    NSDictionary *_contextInfo;
-    NSString *_clientVersion;
-    NSString *_offerHints;
-    NSString *_placement;
-    NSString *_serviceType;
 }
 
+- (id)lapsed since last update:%f, date:%@ /* Error: Ran out of types for this method. */;
+- (id)"NSString"8@"NSString"16^B24;
+- (id)DP_VideoPoster;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setInterruptionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)AMSUIWebToolbarModel";
 - (id)yAAyKâ=_AByABy¿5Ó@²=GÔ=GANtGGtG;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *offerHints; // @synthesize offerHints=_offerHints;
-@property(readonly) NSString *placement; // @synthesize placement=_placement;
-@property(readonly) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

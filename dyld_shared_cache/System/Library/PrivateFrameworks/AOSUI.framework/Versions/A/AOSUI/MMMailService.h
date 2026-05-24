@@ -6,13 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class MMWebKitViewController, NSString;
+@class MMWebKitViewController;
 
 __attribute__((visibility("hidden")))
 @interface MMMailService : MMService
 {
     MMWebKitViewController *_webKitViewController;
-    _Bool _shouldEnable;
 }
 
 - (_Bool);
@@ -44,14 +43,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldEnable; // @synthesize shouldEnable=_shouldEnable;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end

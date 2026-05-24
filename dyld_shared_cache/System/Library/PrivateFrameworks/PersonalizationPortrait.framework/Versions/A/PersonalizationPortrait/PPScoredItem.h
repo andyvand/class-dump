@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol NSCopying><NSSecureCoding;
-
 @interface PPScoredItem
 {
     unsigned short _resultPosition;
-    unsigned short _resultCount;
-    NSObject<NSCopying><NSSecureCoding> *_item;
-    double _score;
 }
 
 + (_Bool);
-- (id);
+- (id)copyAndAddStroke:(id)arg1 transform: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -27,14 +21,11 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void);
 - (unsigned short)@_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<NSCopying><NSSecureCoding> *item; // @synthesize item=_item;
-@property(readonly, nonatomic) unsigned short resultCount; // @synthesize resultCount=_resultCount;
 @property(readonly, nonatomic) unsigned short resultPosition; // @synthesize resultPosition=_resultPosition;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

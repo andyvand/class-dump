@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageSymbolConfiguration;
+@class UIImage;
 
 @interface _UIContentViewImageViewConfiguration
 {
@@ -16,31 +16,24 @@
         unsigned int hasCustomizedReservedLayoutSize:1;
         unsigned int hasCustomizedMaximumSize:1;
     } _configurationFlags;
-    UIImage *_image;
-    UIImageSymbolConfiguration *_preferredSymbolConfiguration;
-    UIColor *_tintColor;
-    double _cornerRadius;
-    UIImage *_highlightedImage;
-    struct CGSize _reservedLayoutSize;
-    struct CGSize _maximumSize;
 }
 
 + (_Bool)UITextView _baselineOffsetFromBottom];
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)setSyncControllerSyncState:(double)arg1 withRecordType: /* Error: Ran out of types for this method. */;
+- (double)_FTCopyOptionallyGzippedData;
+- (void)>;
 - (void);
 - (void);
-- (id);
-- (id);
+- (void)CardDAVHostName;
 - (void);
 - (id);
+- (id);
 - (void);
-- (struct CGSize);
 - (id);
+- (void);
+- (struct CGSize)Failed to prepareToPlay error=%{public}@;
 - (id);
+- (id);
 - (unsigned long long);
 - (struct CGSize);
 - (id);
@@ -49,9 +42,9 @@
 - (_Bool);
 - (double)1Â0@ù
 × ;
-- (_Bool);
-- (void)n:(id)arg1 heightCanBeGuessed: /* Error: Ran out of types for this method. */;
-- (void)ableView:(struct CGSize)arg1 dataOwnerForDropSession:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)setUseSimpleVibrancy:(id)arg1;
+- (void)rectForHeaderInSection:(id)arg1 heightCanBeGuessed: /* Error: Ran out of types for this method. */;
+- (void)_tableView:(struct CGSize)arg1 dataOwnerForDropSession:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
 - (id)V_clickUpFeedback;
 - (id)arBackground",R,N,V_backgroundView;
 - (void)",R,N;
@@ -72,20 +65,7 @@
 - (void)ÔÀAÿlºÏ3d;
 
 // Remaining properties
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
 @property(retain, nonatomic, setter=_setImage:) UIImage *_image; // @synthesize _image;
-@property(nonatomic, setter=_setMaximumSize:) struct CGSize _maximumSize; // @synthesize _maximumSize;
-@property(copy, nonatomic, setter=_setPreferredSymbolConfiguration:) UIImageSymbolConfiguration *_preferredSymbolConfiguration; // @synthesize _preferredSymbolConfiguration;
-@property(nonatomic, setter=_setReservedLayoutSize:) struct CGSize _reservedLayoutSize; // @synthesize _reservedLayoutSize;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor; // @synthesize _tintColor;
-@property(nonatomic) double cornerRadius;
-@property(retain, nonatomic) UIImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
-@property(nonatomic) double horizontalCenteringWidth;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) struct CGSize maximumSize;
-@property(copy, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(nonatomic) struct CGSize reservedLayoutSize;
-@property(retain, nonatomic) UIColor *tintColor;
 
 @end
 

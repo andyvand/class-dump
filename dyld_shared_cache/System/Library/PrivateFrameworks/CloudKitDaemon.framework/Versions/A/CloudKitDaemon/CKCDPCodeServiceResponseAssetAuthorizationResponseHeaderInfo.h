@@ -9,19 +9,18 @@
 @interface CKCDPCodeServiceResponseAssetAuthorizationResponseHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)K;
+- (void)@;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)erCreate(CFAllocatorRef, const AudioStreamBasicDescription *, FigEndpointAudioSourceRef *);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)webView:(id)arg1 didFinishNavigation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHeaderKey;
-@property(readonly, nonatomic) _Bool hasHeaderValue;
-@property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

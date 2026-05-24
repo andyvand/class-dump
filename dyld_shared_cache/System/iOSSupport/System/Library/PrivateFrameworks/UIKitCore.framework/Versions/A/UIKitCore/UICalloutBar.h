@@ -6,18 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIResponder;
-
 @interface UICalloutBar : UIView
 {
     _Bool _supressesHorizontalMovement;
-    int _targetDirection;
-    UIView *_targetView;
-    UIResponder *_responderTarget;
-    NSArray *_extraItems;
-    NSString *_untruncatedString;
-    struct CGPoint _targetPoint;
-    struct CGRect _targetRect;
 }
 
 + (id);
@@ -25,15 +16,15 @@
 × ;
 + (id)urrent Object for State Restoration at index [%d] is %@:%@ /* Error: Ran out of types for this method. */;
 + (void)@"NSDictionary"16^B24;
-- (id);
-- (struct CGPoint);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)ling into priorityMessageToPeerDevicesForMessageGUIDs:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)incoming message:%@ in chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ID:%@ /* Error: Ran out of types for this method. */;
+- (void)my local paired device for messages:(id)arg1 %@;
+- (void)und breadcrumb %@ with payload history:(struct CGRect)arg1 %tu items.;
+- (void)rom IDS so just returning;
+- (void)e:(id)arg1 %@;
+- (void)o convert to CKRecord, loop %lu.;
+- (void)ed existing session:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -52,15 +43,7 @@
 - (_Bool)p;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *extraItems; // @synthesize extraItems=_extraItems;
-@property(nonatomic) __weak UIResponder *responderTarget; // @synthesize responderTarget=_responderTarget;
-@property(nonatomic) _Bool supressesHorizontalMovement; // @synthesize supressesHorizontalMovement=_supressesHorizontalMovement;
-@property(readonly, nonatomic) int targetDirection; // @synthesize targetDirection=_targetDirection;
 @property(readonly, nonatomic) struct CGPoint targetPoint; // @synthesize targetPoint=_targetPoint;
-@property(readonly, nonatomic) struct CGRect targetRect; // @synthesize targetRect=_targetRect;
-@property(readonly, nonatomic) __weak UIView *targetView; // @synthesize targetView=_targetView;
-@property(copy, nonatomic) NSString *untruncatedString; // @synthesize untruncatedString=_untruncatedString;
-@property(readonly, nonatomic) _Bool visible;
 
 @end
 

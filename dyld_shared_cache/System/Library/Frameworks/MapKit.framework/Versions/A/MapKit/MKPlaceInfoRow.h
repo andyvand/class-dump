@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPlaceSectionRowView;
-
 __attribute__((visibility("hidden")))
 @interface MKPlaceInfoRow
 {
     _Bool _enable;
-    _Bool _showIcon;
-    unsigned long long _type;
-    MKPlaceSectionRowView *_rowView;
 }
 
 + (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (_Bool)%lld/%lld out %lld/%lld)]overall verdict is drop, dropping the flow;
+- (void)moveToMarker:withHeading:animated:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool enable; // @synthesize enable=_enable;
-@property(readonly, nonatomic) MKPlaceSectionRowView *rowView; // @synthesize rowView=_rowView;
-@property(nonatomic) _Bool showIcon; // @synthesize showIcon=_showIcon;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

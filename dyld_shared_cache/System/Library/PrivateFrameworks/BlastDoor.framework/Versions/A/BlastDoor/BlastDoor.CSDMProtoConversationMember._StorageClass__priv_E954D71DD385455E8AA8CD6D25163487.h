@@ -7,14 +7,6 @@
 @interface BlastDoor.CSDMProtoConversationMember._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _version;
-    id _handle;
-    id _nickname;
-    id _lightweightPrimary;
-    id _lightweightPrimaryParticipantID;
-    id _validationSource;
-    id _associationVoucher;
-    id _stableDeviceIdentifier;
-    id _proposedCluster;
 }
 
 @end

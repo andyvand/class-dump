@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSValue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAirMessage
 {
     unsigned int _type;
-    NSString *_itemIdentifier;
-    NSString *_MIMEType;
-    NSString *_extendedLanguageTag;
-    NSValue *_value;
-    NSData *_rawData;
-    NSArray *_array;
-    NSDictionary *_dictionary;
-    NSDictionary *_initialRepresentation;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -32,48 +24,38 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)tributedText;
++ (id)_scrubInstructionsAttributedText;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)2;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)replaceOccurrencesOfString:(id)arg1 withString:options:range: /* Error: Ran out of types for this method. */;
+- (id)"CKDPRecordFieldIdentifier",&,N,V_fieldIdentifier;
+- (void)set",&,N,V_assetValue;
+- (void)%|;
+- (void);
 - (id);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)dataWithLength:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ct={CGPoint=dd}{CGSize=dd}},R,N;
 - (void);
 - (id)ÁÐ! @ùÑZ°1Â0@ù
 × ;
 - (void)4;
-- (id)ABEL_QUARTER_SPEED_SCRUBBING_TEXT;
+- (id)PLAYBACK_CONTROLS_VIEW_CONTROLLER_SCRUB_INSTRUCTIONS_SUBTITLE_LABEL_QUARTER_SPEED_SCRUBBING_TEXT;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(retain, nonatomic) NSArray *array; // @synthesize array=_array;
-@property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *extendedLanguageTag; // @synthesize extendedLanguageTag=_extendedLanguageTag;
-@property(readonly, nonatomic) NSDictionary *initialRepresentation; // @synthesize initialRepresentation=_initialRepresentation;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) NSData *jsonDataRepresentation;
-@property(retain, nonatomic) NSData *rawData; // @synthesize rawData=_rawData;
-@property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
-@property(retain, nonatomic) NSValue *value; // @synthesize value=_value;
 
 @end
 

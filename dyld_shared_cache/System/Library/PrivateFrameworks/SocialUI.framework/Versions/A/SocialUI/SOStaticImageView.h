@@ -9,26 +9,24 @@
 @interface SOStaticImageView
 {
     _Bool _imageIsOpaque;
-    NSImage *_image;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)__DATA;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)rh;
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id)tributesFactoryTypeP;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property _Bool imageIsOpaque; // @synthesize imageIsOpaque=_imageIsOpaque;
 
 @end
 

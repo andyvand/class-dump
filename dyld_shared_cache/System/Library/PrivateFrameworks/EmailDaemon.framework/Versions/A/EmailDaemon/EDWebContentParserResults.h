@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @interface EDWebContentParserResults
 {
     NSArray *_remoteContentLinks;
-    NSDictionary *_dataDetectionResults;
-    NSArray *_richLinkResults;
-    NSString *_oneTimeCode;
 }
 
 - (void);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dataDetectionResults; // @synthesize dataDetectionResults=_dataDetectionResults;
-@property(copy, nonatomic) NSString *oneTimeCode; // @synthesize oneTimeCode=_oneTimeCode;
-@property(copy, nonatomic) NSArray *remoteContentLinks; // @synthesize remoteContentLinks=_remoteContentLinks;
-@property(copy, nonatomic) NSArray *richLinkResults; // @synthesize richLinkResults=_richLinkResults;
 
 @end
 

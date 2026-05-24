@@ -11,7 +11,7 @@
     int _orientationAnimation;
 }
 
-- (int);
+- (int)TLS1_CHANGE_CIPHER_STATE;
 - (void);
 - (id);
 - (_Bool)1Â0@ù

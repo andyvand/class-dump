@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusSystem, _UIFocusMovementInfo, _UIFocusSearchInfo;
-@protocol UICoordinateSpace, _UIFocusMapArea;
+@class UIFocusSystem;
 
 @protocol _UIFocusRegionSearchContext
 
 // Remaining properties
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
 @property(readonly, nonatomic) __weak UIFocusSystem *focusSystem;
-@property(readonly, nonatomic) _UIFocusMovementInfo *movementInfo;
-@property(readonly, nonatomic) id <_UIFocusMapArea> searchArea;
-@property(readonly, nonatomic) _UIFocusSearchInfo *searchInfo;
 @end
 

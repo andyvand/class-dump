@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureOutput, NSMutableArray, NSObject;
-@protocol AVCaptureDataOutputDelegateOverride, OS_dispatch_queue;
+@class AVCaptureOutput;
+@protocol AVCaptureDataOutputDelegateOverride;
 
 __attribute__((visibility("hidden")))
 @interface AVCDOSDataOutputStorage
 {
     AVCaptureOutput<AVCaptureDataOutputDelegateOverride> *_dataOutput;
-    NSMutableArray *_synchronizedDataQueue;
-    NSObject<OS_dispatch_queue> *_delegateOverrideCallbackQueue;
-    NSMutableArray *_timestampAdjustmentsDataQueue;
 }
 
-- (void);
+- (void)ts, but unknown object type.;
+- (id)ary"8;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)iTunesMetadata;
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void);
+- (id)ureSemaphoreInitialValue > 0;
 
 // Remaining properties
 @property(readonly, nonatomic) AVCaptureOutput<AVCaptureDataOutputDelegateOverride> *dataOutput; // @synthesize dataOutput=_dataOutput;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue; // @synthesize delegateOverrideCallbackQueue=_delegateOverrideCallbackQueue;
-@property(readonly, nonatomic, getter=isLive) _Bool live;
-@property(readonly, nonatomic) NSMutableArray *synchronizedDataQueue; // @synthesize synchronizedDataQueue=_synchronizedDataQueue;
-@property(retain, nonatomic) NSMutableArray *timestampAdjustmentsDataQueue; // @synthesize timestampAdjustmentsDataQueue=_timestampAdjustmentsDataQueue;
 
 @end
 

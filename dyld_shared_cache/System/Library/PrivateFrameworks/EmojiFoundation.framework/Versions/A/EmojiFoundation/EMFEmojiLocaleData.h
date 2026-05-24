@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFAnchoredSearchManager, EMFEmojiSearchEngine, NSArray, NSString;
+@class EMFEmojiSearchEngine, NSString;
 
 @interface EMFEmojiLocaleData
 {
     NSString *_localeIdentifier;
-    struct __EmojiLocaleDataWrapper *_localeDataRef;
-    _Bool _didTryLoadingSearchEngine;
-    EMFEmojiSearchEngine *_searchEngine;
-    EMFAnchoredSearchManager *_anchoredSearchManager;
 }
 
++ (id)EnableDevelopMenuButtonServiceViewController;
 + (id);
-+ (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct __EmojiLocaleDataWrapper *);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id)ab Bar;
+- (void)didPerformDelayedLaunchOperationsNotification;
+- (id)AlertDialogView;
+- (id)the address is invalid.;
+- (struct __EmojiLocaleDataWrapper *)dismiss an in-tab prompt about an error when tracking a wallet order;
+- (unsigned long long)te has been blocked from automatically starting a call.;
+- (id)B16@?0q8;
+- (id)EnableDevelopMenuButtonServiceViewController;
+- (void)\;
 - (id);
 - (void);
 - (id);
@@ -37,10 +33,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) EMFAnchoredSearchManager *anchoredSearchManager; // @synthesize anchoredSearchManager=_anchoredSearchManager;
-@property(readonly, nonatomic) const struct __EmojiLocaleDataWrapper *emojiLocaleDataRef; // @synthesize emojiLocaleDataRef=_localeDataRef;
-@property(readonly, copy, nonatomic) NSArray *emojiTokens;
-@property(readonly, copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 @property(readonly, retain, nonatomic) EMFEmojiSearchEngine *searchEngine; // @synthesize searchEngine=_searchEngine;
 
 @end

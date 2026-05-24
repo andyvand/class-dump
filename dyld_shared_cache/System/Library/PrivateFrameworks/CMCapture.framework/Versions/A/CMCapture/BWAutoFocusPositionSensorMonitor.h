@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureDisplayLayoutMonitor, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BWAutoFocusPositionSensorMonitor
 {
     NSObject<OS_dispatch_queue> *_apsMonitorQueue;
-    FigCaptureDisplayLayoutMonitor *_displayLayoutMonitor;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (id)UniqueID:] /* Error: Ran out of types for this method. */;
 + (void)e.video-preview-metadata-fanout;

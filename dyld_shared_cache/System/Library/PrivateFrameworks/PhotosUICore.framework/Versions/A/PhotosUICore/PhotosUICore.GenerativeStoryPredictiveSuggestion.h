@@ -7,10 +7,6 @@
 @interface PhotosUICore.GenerativeStoryPredictiveSuggestion
 {
     id id;
-    id localizedText;
-    id matchRangeOfSearchText;
-    id customImage;
-    id searchSuggestion;
 }
 
 @end

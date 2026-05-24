@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAuthScheme, NSArray, NSDate, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol MCAccount
++ (NSString *);
+- (void);
+- (void);
+- (void);
+- (void);
+- (NSString *)8_C;
+- (_Bool);
+- (NSDate *)caretRectForPosition: /* Error: Ran out of types for this method. */;
+- (NSArray *)Mo7sBgpqDcdKx0/Library/Caches/com.apple.xbs/TemporaryDirectory.p935c6/Sources/dcerpc/dcerpc/ncklib/cncassm.c;
+- (NSString *)_stopSession;
+- (long long)8@0:8@16^{__CVBuffer=}24@32^@40 /* Error: Ran out of types for this method. */;
+- (void)T;
+- (_Bool)in yy_get_next_buffer();
 - (void)Ü;
 - (void)Assistant;
 - (void)È;
 - (NSString *)p;
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *accountTypeString;
-@property _Bool allowInsecureAuthentication;
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(copy) NSString *authenticationScheme;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(copy) NSString *canonicalEmailAddress;
-@property(readonly, copy) NSString *clientInfo;
-@property _Bool configureDynamically;
-@property(readonly, copy, nonatomic) NSDate *expiryDate;
-@property(copy) NSString *externalHostname;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property(readonly) _Bool isYahooAccount;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(copy) NSString *password;
-@property long long portNumber;
-@property(retain) ECAuthScheme *preferredAuthScheme;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
-@property long long securityLayerType;
-@property _Bool shouldUseAuthentication;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property _Bool usesSSL;
 @end
 

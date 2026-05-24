@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PARSessionEngagementsByTrigger
 {
 }
 
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)9;
 
 // Remaining properties
 @property(nonatomic) short client; // @dynamic client;
-@property(nonatomic) short go; // @dynamic go;
-@property(nonatomic) _Bool isSuggestion; // @dynamic isSuggestion;
-@property(nonatomic) _Bool isTopHit; // @dynamic isTopHit;
-@property(nonatomic) short tap; // @dynamic tap;
-@property(nonatomic, copy) NSDate *timestamp; // @dynamic timestamp;
 
 @end
 

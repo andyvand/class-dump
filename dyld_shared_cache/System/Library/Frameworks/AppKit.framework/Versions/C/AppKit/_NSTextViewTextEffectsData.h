@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSScrollView;
-
 __attribute__((visibility("hidden")))
 @interface _NSTextViewTextEffectsData
 {
     _Bool _isAnimatingReplacement;
-    _Bool _shouldFuseChunks;
-    NSMutableArray *_textAnimationContexts;
-    NSScrollView *_enclosingScrollView;
 }
 
 - (id);
@@ -22,15 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)ption:(id)arg1;
+- (void)setSupportsIncludeAttachmentsOption:(id)arg1;
 - (void)accommodatePresentedItemDisconnectionWithCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak NSScrollView *enclosingScrollView; // @synthesize enclosingScrollView=_enclosingScrollView;
 @property(nonatomic) _Bool isAnimatingReplacement; // @synthesize isAnimatingReplacement=_isAnimatingReplacement;
-@property(nonatomic) _Bool shouldFuseChunks; // @synthesize shouldFuseChunks=_shouldFuseChunks;
-@property(retain, nonatomic) NSMutableArray *textAnimationContexts; // @synthesize textAnimationContexts=_textAnimationContexts;
 
 @end
 

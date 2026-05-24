@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, REMAccountCapabilities, REMBaseSectionStorage, REMObjectID, REMResolutionTokenMap, REMStore;
+@class REMStore;
 
 @interface REMBaseSection
 {
     REMStore *_store;
-    REMBaseSectionStorage *_storage;
-    REMAccountCapabilities *_accountCapabilities;
 }
 
 + (id);
@@ -18,12 +16,12 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)nt string:%{sensitive}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -34,18 +32,6 @@
 - (id)= %ld;};
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccountCapabilities *accountCapabilities; // @synthesize accountCapabilities=_accountCapabilities;
-@property(retain, nonatomic) REMObjectID *accountID; // @dynamic accountID;
-@property(readonly, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(retain, nonatomic) REMObjectID *parentID; // @dynamic parentID;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(readonly, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(copy, nonatomic) REMBaseSectionStorage *storage; // @synthesize storage=_storage;
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
 
 @end

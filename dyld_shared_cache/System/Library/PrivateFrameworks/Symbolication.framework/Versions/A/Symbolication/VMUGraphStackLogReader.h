@@ -6,23 +6,11 @@
 
 #import <Symbolication/VMUStackLogReaderBase.h>
 
-@class NSData, NSSet, NSString, VMUDebugTimer, VMUProcessObjectGraph, VMURangeToStringMap, VMUVMRegionTracker;
+@class VMUProcessObjectGraph;
 
 @interface VMUGraphStackLogReader : VMUStackLogReaderBase
 {
     VMUProcessObjectGraph *_graph;
-    NSData *_diskLogs;
-    VMUDebugTimer *_debugTimer;
-    unsigned int _nodeNamespaceSize;
-    unsigned int *_nodeToStackIndexTable;
-    unsigned long long *_nodeToTimestampTable;
-    unsigned long long *_nodeToMSLPayloadTable;
-    struct vmu_backtrace_uniquing_table_t *_backtraceUniquingTable;
-    struct backtrace_uniquing_table *_originalUniquingTable;
-    VMURangeToStringMap *_functionNameRanges;
-    VMURangeToStringMap *_sourceInfoRanges;
-    unsigned long long _maxTimestampDelta;
-    unsigned long long _mslRecordsCount;
 }
 
 + (_Bool);
@@ -36,19 +24,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)persistentID;
 - (struct _VMURange);
 - (unsigned long long);
-- (id);
+- (id)] w;
 - (void);
 - (int);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -62,38 +50,15 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id)CùQ[Ð1Â0@ù
 × ;
-- (_Bool)l_malloc_bytes;
+- (_Bool)cuml_malloc_bytes;
 - (void)ata;
 
 // Remaining properties
-@property(readonly) _Bool coldestFrameIsNotThreadId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *diskLogs; // @synthesize diskLogs=_diskLogs;
-@property(retain, nonatomic) NSSet *excludedFrames;
 @property(nonatomic) __weak VMUProcessObjectGraph *graph; // @synthesize graph=_graph;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool inspectingLiveProcess;
-@property(readonly) _Bool is64bit;
-@property(readonly, nonatomic) unsigned long long maxTimestampDelta; // @synthesize maxTimestampDelta=_maxTimestampDelta;
-@property(readonly, nonatomic) unsigned long long mslRecordsCount; // @synthesize mslRecordsCount=_mslRecordsCount;
-@property(readonly) unsigned long long nodesInUniquingTable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) VMUVMRegionTracker *regionTracker;
-@property(readonly) Class superclass;
-@property(readonly) struct _CSTypeRef symbolicator;
-@property(readonly) unsigned int task;
-@property(readonly) _Bool usesCoreFile;
-@property(readonly) _Bool usesLiteMode;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AADeviceProvisioningRequest : AARequest
 {
     NSString *_dsid;
-    NSString *_url;
-    NSData *_data;
 }
 
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)nfiguration;
+- (id)setpasscodeupdatestate returned %d;
+- (id)@;
+- (void)initWithHttpStatus:responseBody: /* Error: Ran out of types for this method. */;
+- (id)configuration;
 
 @end
 

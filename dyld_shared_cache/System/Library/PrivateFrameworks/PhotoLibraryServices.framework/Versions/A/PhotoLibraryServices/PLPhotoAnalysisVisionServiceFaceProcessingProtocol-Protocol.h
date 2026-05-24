@@ -5,5 +5,8 @@
 //
 
 @protocol PLPhotoAnalysisVisionServiceFaceProcessingProtocol
+- (id);
+- (id);
+- (id);
 @end
 

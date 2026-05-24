@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSNotificationCenter, NSObject, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface HMMigrationBoost
 {
     NSUUID *_messageTarget;
-    NSNotificationCenter *_notificationCenter;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -26,10 +22,7 @@
 - (id)veRoom:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
 @property(readonly, nonatomic) NSUUID *messageTarget; // @synthesize messageTarget=_messageTarget;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

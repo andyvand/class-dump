@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString, PKIDSService, PKProximityAdvertiser;
-@protocol OS_dispatch_queue, PKIDSManagerDataSource;
+@class NSMutableArray;
 
 @interface PKIDSManager
 {
     NSMutableArray *_remoteDevices;
-    NSMutableArray *_paymentRequests;
-    NSMutableDictionary *_completionHandlers;
-    NSMutableDictionary *_thumbnailCompletionHandlers;
-    PKProximityAdvertiser *_proximityAdvertiser;
-    NSHashTable *_delegates;
-    struct os_unfair_lock_s _delegatesLock;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    int _requestCLTMThrottleUncapToken;
-    id <PKIDSManagerDataSource> _dataSource;
-    NSMutableArray *_pendingCancellations;
-    NSMutableDictionary *_pendingDiscoveries;
-    PKIDSService *_service;
-    NSMutableDictionary *_recentlySeenUUIDs;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)4	;
 - (void);
-- (id);
+- (id)s;
 - (void);
-- (id);
+- (id)h;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k!;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)8;
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (void);
+- (void)3;
 - (id);
 - (id);
 - (id);
@@ -61,22 +45,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)AAPL:(id)arg1 AKExtras;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)iFiMetricsManagerChipCounters";
+- (void)setTxLatencyBKs:(id)arg1;
+- (id)linkQualSamplesCount;
+- (id);
+- (void)ijh8	;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -85,43 +69,28 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)X ;
 - (id);
 - (id)Y"ð!Dùñï%Ð1Â0@ù
 × ;
 - (void)
 × ;
-- (void)putBorderTrim:(id)arg1;
-- (void)thorizationStatusForCapability: /* Error: Ran out of types for this method. */;
-- (void)signedAuthToken;
-- (void)e;
+- (void)setOutputBorderTrim:(id)arg1;
+- (void)authorizationStatusForCapability: /* Error: Ran out of types for this method. */;
+- (void)_signedAuthToken;
+- (void)_participantHandle;
 - (id)shouldAdvertise;
 - (void)tring",&,N,V_region;
 - (void)à;
-- (void)rviceProviderDataRequiresAppletData;
-- (void)rocessingRequest;
+- (void)serviceProviderDataRequiresAppletData;
+- (void)processingRequest;
 - (void)user %@ does not have an account user defined;
 - (id)Ãÿkl$;
 - (void)ÆÿçJdr;
 - (void)âÖÿ,@ ;
 
 // Remaining properties
-@property(nonatomic) id <PKIDSManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly, nonatomic) NSArray *paymentRequests;
 @property(retain, nonatomic) NSMutableArray *pendingCancellations; // @synthesize pendingCancellations=_pendingCancellations;
-@property(retain, nonatomic) NSMutableDictionary *pendingDiscoveries; // @synthesize pendingDiscoveries=_pendingDiscoveries;
-@property(retain, nonatomic) NSMutableDictionary *recentlySeenUUIDs; // @synthesize recentlySeenUUIDs=_recentlySeenUUIDs;
-@property(readonly, nonatomic) __weak NSArray *remoteDevices;
-@property(retain, nonatomic) PKIDSService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

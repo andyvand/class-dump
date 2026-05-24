@@ -4,64 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewPropertyAnimator;
 @protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionPresentationTransition
 {
     id <UIViewControllerContextTransitioning> _transitionContext;
-    UIViewPropertyAnimator *_presentationAnimator;
-    double _interactiveTransitionFraction;
-    _Bool _shouldPerformAsDismissTransition;
-    _Bool _didScheduleFinishTransition;
-    _Bool _didScheduleCancelTransition;
 }
 
 - (double);
+- (void)systemApplicationDidSuspendForEventsOnly;
+- (_Bool)_resetSyncStateAndAttemptCounts;
+- (id);
+- (id);
+- (id)1GG;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ed group with non UUID style groupID, lets fix this chat:(id)arg1 %@;
 - (void);
 - (double);
-- (id);
+- (id)ropertyRecordLabelArtwork;
 - (id)usBarCellularSignalView";
 - (_Bool)dd}56;
-- (void)plitSliceMap:(_Bool)arg1;
-- (void)InputModePreference;
+- (void)set_splitSliceMap:(_Bool)arg1;
+- (void)_setCurrentAndNextInputModePreference;
 - (void);
 - (void)Äþÿ&Ãþÿ;
-- (void)rViewRepresentation;
+- (void)SearchBarViewRepresentation;
 
 // Remaining properties
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double interactiveTransitionFraction; // @dynamic interactiveTransitionFraction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

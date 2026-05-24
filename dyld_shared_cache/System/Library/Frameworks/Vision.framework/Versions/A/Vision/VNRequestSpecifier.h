@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface VNRequestSpecifier
 {
     unsigned int _requestClassCode;
-    unsigned long long _requestRevision;
-    NSString *_cachedRequestClassName;
-    Class _cachedRequestClass;
 }
 
++ (id)6@24B32;
 + (id);
 + (id);
++ (id)@;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)iCEq;
 + (id);
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (id)ingestFromCacheItemWithIdentifier:(id)arg1 requestedFields:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)redicateForContactsMatchingName:(Class)arg1 ];
 - (Class);
 - (_Bool);
 - (void);
@@ -49,22 +44,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)aryHandle;
+- (_Bool)programLibraryHandle;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allModelEquivalents;
-@property(readonly) _Bool isPrivate;
-@property(readonly) _Bool isPrivateRequestClass;
-@property(readonly) _Bool isPrivateRevision;
-@property(readonly) _Bool isPublic;
-@property(readonly) _Bool isPublicRequestClass;
-@property(readonly) _Bool isPublicRevision;
-@property(readonly) _Bool observationProvidesBoundsNormalizedToROI;
 @property(readonly) unsigned int requestClassCode;
-@property(readonly, copy) NSString *requestClassName;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 
 @end
 

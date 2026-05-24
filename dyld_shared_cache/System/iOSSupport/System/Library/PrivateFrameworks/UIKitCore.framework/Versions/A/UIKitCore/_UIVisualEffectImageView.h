@@ -6,26 +6,24 @@
 
 #import <UIKitCore/UIImageView.h>
 
-@class NSArray, NSString, UIView, _UIVisualEffectViewBackdropCaptureGroup;
-@protocol _UIVisualEffectViewParticipating, _UIVisualEffectViewSubviewMonitoring;
+@class _UIVisualEffectViewBackdropCaptureGroup;
+@protocol _UIVisualEffectViewSubviewMonitoring;
 
 __attribute__((visibility("hidden")))
 @interface _UIVisualEffectImageView : UIImageView
 {
     _UIVisualEffectViewBackdropCaptureGroup *_primaryCaptureGroup;
-    NSArray *_viewEffects;
-    NSArray *_filters;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)lServerAuthentication: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)@;
+- (id);
+- (void)indexSetWithIndexesInRange: /* Error: Ran out of types for this method. */;
+- (void)ource:(_Bool)arg1 -URLSession:dataTask:willCacheResponse:completionHandler:Decided on storage policy %lu for dataTask=%{public}@. responseURL=%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)ð!0Bù1_1Â0@ù
@@ -34,27 +32,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)g1Â0@ù
 × ;
-- (id)FrameInvalid: /* Error: Ran out of types for this method. */;
-- (void)iew;
-- (void)Platters;
+- (id)_setFrame:forView:isOldFrameInvalid: /* Error: Ran out of types for this method. */;
+- (void)containerScrollView;
+- (void)fromPlatters;
 - (id)attempt to transition from a transitioning helper effect.;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableGroupFiltering;
-@property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *primaryCaptureGroup; // @synthesize primaryCaptureGroup=_primaryCaptureGroup;
 @property(nonatomic) __weak id <_UIVisualEffectViewSubviewMonitoring> subviewMonitor;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *viewEffects; // @synthesize viewEffects=_viewEffects;
 
 @end
 

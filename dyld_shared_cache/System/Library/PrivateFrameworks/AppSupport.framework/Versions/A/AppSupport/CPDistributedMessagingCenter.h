@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPDistributedMessagingCallout, NSLock, NSMutableDictionary, NSOperationQueue, NSString;
+@class NSString;
 
 @interface CPDistributedMessagingCenter
 {
     NSString *_centerName;
-    NSLock *_lock;
-    unsigned int _sendPort;
-    NSOperationQueue *_asyncQueue;
-    struct __CFRunLoopSource *_serverSource;
-    NSString *_requiredEntitlement;
-    NSMutableDictionary *_callouts;
-    unsigned int _parkedServerPort;
-    CPDistributedMessagingCallout *_currentCallout;
-    unsigned int _replyPort;
-    _Bool _portPassing;
-    _Bool _delayedReply;
-    _Bool _requireLookupByPID;
-    int _targetPID;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
+- (void);
+- (void)";
 - (_Bool);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)/;
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -52,7 +39,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)%@;
 - (unsigned int);
 - (void);
 - (void);

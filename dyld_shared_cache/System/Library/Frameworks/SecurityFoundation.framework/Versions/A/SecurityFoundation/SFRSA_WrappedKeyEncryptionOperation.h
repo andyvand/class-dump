@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFRSAEncryptionOperation, SFSymmetricEncryptionOperation, _SFKeySpecifier;
+@class SFRSAEncryptionOperation;
 
 __attribute__((visibility("hidden")))
 @interface SFRSA_WrappedKeyEncryptionOperation
@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)R( ;
+- (id)@;
+- (id){handle};
 - (id);
 - (id);
 - (id);
@@ -29,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) _SFKeySpecifier *encryptionKeySpecifier;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) SFRSAEncryptionOperation *keyWrappingOperation;
-@property(copy, nonatomic) SFSymmetricEncryptionOperation *sessionEncryptionOperation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-- (void);
-- (unsigned char);
+- (void)messagingAddresses;
+- (unsigned char)ostalAddressCityKey(void);
 - (id);
 - (id);
-- (void);
+- (void)�;
 
 // Remaining properties
 @property(nonatomic) unsigned char primitiveLocalValidation; // @synthesize primitiveLocalValidation=_primitiveLocalValidation;

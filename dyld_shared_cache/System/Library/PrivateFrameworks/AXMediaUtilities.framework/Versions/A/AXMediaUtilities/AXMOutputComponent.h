@@ -11,12 +11,12 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)F,{;
 
 // Remaining properties
 @property(nonatomic) long long componentState; // @synthesize componentState=_componentState;

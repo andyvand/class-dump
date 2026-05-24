@@ -6,29 +6,25 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVAssetVariant, NSArray;
+@class AVAssetVariant;
 
 @interface AVMetricPlayerItemLikelyToKeepUpEvent : AVMetricEvent
 {
     AVAssetVariant *_variant;
-    double _timeTaken;
-    NSArray *_loadedTimeRanges;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)Ld;
+- (void);
 - (id);
 - (void);
-- (id);
-- (id)edMovie: /* Error: Ran out of types for this method. */;
-- (id)ropertyDict;
+- (id);
+- (id)addFragmentedMovie: /* Error: Ran out of types for this method. */;
+- (id)_fourCCToFigPropertyDict;
 
 // Remaining properties
-@property(readonly) NSArray *loadedTimeRanges;
-@property(readonly) double timeTaken;
 @property(readonly) AVAssetVariant *variant;
 
 @end

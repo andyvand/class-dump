@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHResultSelected : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)*7;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)guationReason;
-- (id)tionStatus: /* Error: Ran out of types for this method. */;
-- (_Bool)_REQUIRED;
-- (_Bool)onState;
+- (id)_disambiguationReason;
+- (id)setHasItunesSubscriptionStatus: /* Error: Ran out of types for this method. */;
+- (_Bool)FLOWSTATUSREASON_CONFIRM_AUTHENTICATION_REQUIRED;
+- (_Bool)NETSchemaNETSessionState;
 - (void)w½ÿ#`¶%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

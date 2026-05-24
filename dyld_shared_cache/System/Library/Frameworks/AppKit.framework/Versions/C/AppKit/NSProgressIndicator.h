@@ -6,28 +6,9 @@
 
 #import <AppKit/NSView.h>
 
-@class NSFont, NSObject, NSProgress, NSProgressIndicatorConfiguration;
-@protocol NSObject, NSProgressIndicatorVisualProvider;
-
 @interface NSProgressIndicator : NSView
 {
     double _minimum;
-    double _maximum;
-    double _value;
-    double _animationDelay;
-    NSProgress *_observedProgress;
-    NSFont *_font;
-    id <NSObject> _systemColorsChangedNotificationToken;
-    NSObject<NSProgressIndicatorVisualProvider> *_visualProvider;
-    struct {
-        unsigned int isSpinning:1;
-        unsigned int hideWhenStopped:1;
-        unsigned int controlTint:3;
-        unsigned int spinningTint:2;
-        unsigned int isHidden:1;
-        unsigned int isBezeled:1;
-    } _progressIndicatorFlags;
-    NSProgressIndicatorConfiguration *_configuration;
 }
 
 @end

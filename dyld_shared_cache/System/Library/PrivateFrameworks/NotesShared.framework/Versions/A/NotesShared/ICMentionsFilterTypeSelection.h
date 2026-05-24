@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (long long);
 
 // Remaining properties

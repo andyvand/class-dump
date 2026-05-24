@@ -6,24 +6,22 @@
 
 #import <AudioServerDriver/ASDDSPItemInfo.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ASDPropertyStripInfo : ASDDSPItemInfo
 {
     NSString *_path;
-    NSDictionary *_value;
 }
 
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool).;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSDictionary *value; // @synthesize value=_value;
 
 @end
 

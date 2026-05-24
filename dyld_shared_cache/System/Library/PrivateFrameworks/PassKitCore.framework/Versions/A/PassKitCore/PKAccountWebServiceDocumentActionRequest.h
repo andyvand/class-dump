@@ -6,32 +6,26 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceDocumentActionRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_documentIdentifier;
-    long long _action;
 }
 
 - (id);
 - (void);
 - (id);
-- (long long)rAddress;
+- (long long)receiverAddress;
 - (void)@;
 - (id)e;
-- (void)htFury;
+- (void)NightFury;
 - (void);
 - (id)¬;
 - (void)ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *documentIdentifier; // @synthesize documentIdentifier=_documentIdentifier;
 
 @end
 

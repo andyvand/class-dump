@@ -8,13 +8,13 @@
 {
 }
 
++ (id)	;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ionAcquireCredential ntlm %@;
 
 @end
 

@@ -6,23 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCNetworkActivity, FCTodayFeedConfigRequest, NFUnfairLock, NSData, NSDictionary;
-@protocol FCContentContext, FCNewsAppConfiguration;
+@class NFUnfairLock;
 
 @interface FCTodayFeedConfigOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    FCTodayFeedConfigRequest *_request;
-    FCCachePolicy *_cachePolicy;
-    FCNetworkActivity *_parentNetworkActivity;
-    NFUnfairLock *_completionLock;
-    CDUnknownBlockType _reusableCompletionHandler;
-    id <FCContentContext> _context;
-    id <FCNewsAppConfiguration> _appConfig;
-    NSData *_resultCKConfigData;
-    NSDictionary *_resultCKRecordsByType;
-    NSData *_resultNewsEdgeConfigData;
-    FCNetworkActivity *_networkActivity;
 }
 
 - (void);
@@ -43,30 +31,19 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id)utMidSrcBlue;
 - (void);
 - (id);
 - (id);
-- (void)entationExploreClickValue;
+- (void)recommendationPresentationExploreClickValue;
 - (void)nager addObserver:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)TFG9GadApfLpwQ;
+- (void)THls6_XANTFG9GadApfLpwQ;
 - (void);
 - (id);
 - (_Bool)¥jÔº¶ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfig; // @synthesize appConfig=_appConfig;
-@property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
 @property(readonly, nonatomic) NFUnfairLock *completionLock; // @synthesize completionLock=_completionLock;
-@property(readonly, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(retain, nonatomic) FCNetworkActivity *networkActivity; // @synthesize networkActivity=_networkActivity;
-@property(retain, nonatomic) FCNetworkActivity *parentNetworkActivity; // @synthesize parentNetworkActivity=_parentNetworkActivity;
-@property(readonly, copy, nonatomic) FCTodayFeedConfigRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSData *resultCKConfigData; // @synthesize resultCKConfigData=_resultCKConfigData;
-@property(retain, nonatomic) NSDictionary *resultCKRecordsByType; // @synthesize resultCKRecordsByType=_resultCKRecordsByType;
-@property(retain, nonatomic) NSData *resultNewsEdgeConfigData; // @synthesize resultNewsEdgeConfigData=_resultNewsEdgeConfigData;
-@property(copy, nonatomic) CDUnknownBlockType reusableCompletionHandler; // @synthesize reusableCompletionHandler=_reusableCompletionHandler;
 
 @end
 

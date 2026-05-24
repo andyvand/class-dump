@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteAttributes;
-
 __attribute__((visibility("hidden")))
 @interface _MNETAUpdateRequestParameters
 {
     _Bool _shouldUseConditionalRequest;
-    _Bool _shouldRepeatAfterCompletion;
-    _Bool _shouldRetryImmediatelyOnError;
-    _Bool _shouldTrackPendingRequest;
-    unsigned long long _reason;
-    GEORouteAttributes *_routeAttributes;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)3
+;
 - (void);
 - (void);
 - (void);
@@ -34,11 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(nonatomic) _Bool shouldRepeatAfterCompletion; // @synthesize shouldRepeatAfterCompletion=_shouldRepeatAfterCompletion;
-@property(nonatomic) _Bool shouldRetryImmediatelyOnError; // @synthesize shouldRetryImmediatelyOnError=_shouldRetryImmediatelyOnError;
-@property(nonatomic) _Bool shouldTrackPendingRequest; // @synthesize shouldTrackPendingRequest=_shouldTrackPendingRequest;
-@property(nonatomic) _Bool shouldUseConditionalRequest; // @synthesize shouldUseConditionalRequest=_shouldUseConditionalRequest;
 
 @end
 

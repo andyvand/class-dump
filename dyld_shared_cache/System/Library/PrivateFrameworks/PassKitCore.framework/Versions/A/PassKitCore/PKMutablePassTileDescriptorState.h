@@ -6,8 +6,6 @@
 
 #import <PassKitCore/PKPassTileDescriptorState.h>
 
-@class NSString, PKPassTileState;
-
 @interface PKMutablePassTileDescriptorState : PKPassTileDescriptorState
 {
 }
@@ -15,15 +13,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)Þÿ(shg;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) unsigned long long enabled; // @dynamic enabled;
-@property(nonatomic, getter=isInProgress) _Bool inProgress; // @dynamic inProgress;
-@property(copy, nonatomic) NSString *stateIdentifier; // @dynamic stateIdentifier;
-@property(retain, nonatomic) PKPassTileState *stateOverride; // @dynamic stateOverride;
 @property(nonatomic, getter=isSupported) _Bool supported; // @dynamic supported;
 
 @end

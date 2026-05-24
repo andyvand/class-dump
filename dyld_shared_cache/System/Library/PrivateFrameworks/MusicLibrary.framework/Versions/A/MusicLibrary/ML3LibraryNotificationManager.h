@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSMutableArray, NSMutableOrderedSet, NSObject, NSString;
+@class ML3MusicLibrary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ML3LibraryNotificationManager
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_notificationObservers;
-    NSMutableOrderedSet *_queuedLocalNotifications;
-    NSMutableOrderedSet *_queuedDistributedNotificationNames;
-    ML3MusicLibrary *_library;
 }
 
-- (void);
+- (void)cummerbund;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ry setting due to unknown accessory identifier:(id)arg1 %@;
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id)saction: /* Error: Ran out of types for this method. */;
+- (id)_performPurchaseHistoryImportWithTransaction: /* Error: Ran out of types for this method. */;
 - (void)s shown for internal users only, and will be dismissed in 30s with no selection.];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak ML3MusicLibrary *library; // @synthesize library=_library;
-@property(readonly) Class superclass;
 
 @end
 

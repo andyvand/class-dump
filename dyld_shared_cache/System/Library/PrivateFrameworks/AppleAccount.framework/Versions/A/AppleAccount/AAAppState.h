@@ -7,16 +7,14 @@
 @interface AAAppState
 {
     _Bool _isInstalled;
-    _Bool _isRestricted;
 }
 
-- (id);
+- (id)class;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInstalled; // @synthesize isInstalled=_isInstalled;
-@property(readonly, nonatomic) _Bool isRestricted; // @synthesize isRestricted=_isRestricted;
 
 @end
 

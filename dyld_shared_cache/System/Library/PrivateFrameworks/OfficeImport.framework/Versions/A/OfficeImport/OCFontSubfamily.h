@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OCFontMetadata;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OCFontSubfamily
 {
     NSString *_name;
-    OCFontMetadata *_metadata;
 }
 
 + (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void)ô;
 
 // Remaining properties
-@property(readonly, nonatomic) OCFontMetadata *metadata; // @synthesize metadata=_metadata;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

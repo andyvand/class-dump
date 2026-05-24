@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBTimer;
+@class _INPBIntentMetadata;
 
 @protocol _INPBResumeTimerIntent
-- (_Bool)iguousPlay;
+- (_INPBIntentMetadata *);
+- (_Bool)hasIsAmbiguousPlay;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasResumeMultiple;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool resumeMultiple;
-@property(retain, nonatomic) _INPBTimer *targetTimer;
 @end
 

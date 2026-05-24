@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDate, NSString, NSTimeZone;
+
 @protocol SGEventForGeocode
+- (NSString *)d,V_dayNumberBackgroundXOffset;
+- (unsigned long long)ckgroundView;
+- (id)initWithDomain:(NSDate *)arg1;
+- (NSTimeZone *)hourInCalendar: /* Error: Ran out of types for this method. */;
+- (NSDate *)get",&,V_startTimeGadget;
+- (NSArray *)heightBetweenMonthAndDayNumbers;
+- (NSTimeZone *)et;
+- (NSDate *)adget",&,V_repeatPickerGadget;
+- (NSString *)containsUuidSet: /* Error: Ran out of types for this method. */;
 @end
 

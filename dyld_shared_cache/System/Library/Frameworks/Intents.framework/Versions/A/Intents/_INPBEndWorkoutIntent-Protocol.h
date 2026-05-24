@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBEndWorkoutIntent
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)date %@ on '%@', error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)addShortcutAvailability: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasWorkoutName;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *workoutName;
 @end
 

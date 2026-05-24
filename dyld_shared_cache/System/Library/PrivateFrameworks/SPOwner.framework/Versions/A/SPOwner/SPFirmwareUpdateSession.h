@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFuture, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class FMXPCSession;
 
 @interface SPFirmwareUpdateSession
 {
     FMXPCSession *_session;
-    NSObject<OS_dispatch_queue> *_queue;
-    FMFuture *_sessionInvalidationFuture;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!`;
 - (void);
 - (id);
 - (id);
@@ -27,16 +24,7 @@
 - (id)¬=É¾;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) FMFuture *sessionInvalidationFuture; // @synthesize sessionInvalidationFuture=_sessionInvalidationFuture;
-@property(readonly) Class superclass;
 
 @end
 

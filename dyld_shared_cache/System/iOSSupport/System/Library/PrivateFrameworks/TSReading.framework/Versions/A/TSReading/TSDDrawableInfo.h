@@ -6,52 +6,39 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, TSDDefaultPartitioner, TSDExteriorTextWrap, TSDInfoGeometry, TSPLazyReference, TSSPropertySetChangeDetails;
-@protocol TSDAnnotationHosting, TSDContainerInfo, TSDOwningAttachment;
+@class TSDInfoGeometry;
 
 @interface TSDDrawableInfo : TSPObject
 {
     TSDInfoGeometry *mGeometry;
-    NSObject<TSDContainerInfo> *mParentInfo;
-    TSPLazyReference *mParentInfoReference;
-    _Bool mLocked;
-    _Bool mAspectRatioLocked;
-    TSSPropertySetChangeDetails *mChanges;
-    TSDExteriorTextWrap *mExteriorTextWrap;
-    TSPObject<TSDOwningAttachment> *mOwningAttachment;
-    TSDDefaultPartitioner *mDefaultPartitioner;
-    NSURL *mHyperlinkURL;
-    id <TSDAnnotationHosting> mComment;
-    NSString *mAccessibilityDescription;
-    NSMutableDictionary *mAccessibilityDescriptions;
 }
 
 + (void);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool);
+- (void)initialTransitionsMode;
+- (void)initialPrivateListeningMode;
+- (void)finalPrivateListeningMode;
+- (void)privateListeningChangeCount;
+- (void)repeatChangeCount;
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)PlaybackStackControllerDelegate;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)PlaybackSessionSummary;
 - (void);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)U;
 - (id);
 - (Class);
 - (double);
@@ -68,7 +55,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
@@ -82,11 +69,11 @@
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -94,7 +81,7 @@
 - (id);
 - (void);
 - (struct CGAffineTransform);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -104,51 +91,17 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (Class);
 - (id);
 - (id);
 - (void);
 - (int);
-- (void)rrentTime:(id)arg1;
+- (void)setAbsoluteCurrentTime:(id)arg1;
 - (id)newTextureWithDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=mAccessibilityDescription;
-@property(retain, nonatomic) NSMutableDictionary *accessibilityDescriptions; // @synthesize accessibilityDescriptions=mAccessibilityDescriptions;
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText;
-@property(nonatomic) _Bool aspectRatioLocked; // @synthesize aspectRatioLocked=mAspectRatioLocked;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(readonly, nonatomic) _Bool canSizeBeChangedIncrementally;
-@property(copy, nonatomic) id <TSDAnnotationHosting> comment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) Class editorClass;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T#,?,R,N
-
-@property(copy, nonatomic) TSDExteriorTextWrap *exteriorTextWrap;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText;
-@property(copy, nonatomic) TSDInfoGeometry *geometry;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *hyperlinkURL; // @synthesize hyperlinkURL=mHyperlinkURL;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText;
-@property(readonly, nonatomic) _Bool isUserModifiable;
-@property(readonly, nonatomic, getter=isLockable) _Bool lockable;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=mLocked;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @synthesize owningAttachment=mOwningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @synthesize parentInfo=mParentInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAttachedComments;
-@property(readonly, nonatomic) _Bool supportsHyperlinks;
 
 @end
 

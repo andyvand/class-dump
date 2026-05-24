@@ -6,25 +6,21 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSString;
-
 @interface SLSBridgedSpaceSetNameOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSString *_name;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ndexes can only be created for floats or integers < 32 bit).;
+- (id)during SQL execution :(unsigned long long)arg1 %s;
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

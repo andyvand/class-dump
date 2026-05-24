@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)';
 - (struct CGPoint);
 - (double);
+- (struct UIEdgeInsets);
+- (double)SgXw;
+- (id)So13IMMessageItemC;
 - (struct UIEdgeInsets);
-- (double);
-- (id);
-- (struct UIEdgeInsets);
-- (double);
+- (double)So19IMDSpotlightQueries_p;
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id).;
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -35,17 +35,17 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
+- (double)E7;
+- (double)D;
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
+- (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)=;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,52 +54,64 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
+- (struct CGPoint):%@ (cloudKitSyncEnabled:%d, wasReportedJunk:%d, senderIsPairedWatch:%d) /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ities:%@ foundEndpoint:%@ /* Error: Ran out of types for this method. */;
+- (double)Deleted:marking clean:Using partIndex fallback:could not convert message to CKRecord with metadata:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ot in the registry. This is likely because the registry failed it's chat load. OriginalGroupID:%@ Chat:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)t allow it when Messages is uninstalled:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)l recordID and cache;
+- (id)s dirty so we send a nickname on the next message send;
+- (id)sked for the nickname feature info;
+- (struct CGPoint)d activity result %d;
+- (double). Set state attachment filesizes updated activity result %d;
+- (id)ctionItem called on object %@ %@;
+- (id)*Error compressedProtobufDataForGroupActionItem called on object %@ %@;
+- (id)aForLocationShareStatusChangeItem called on object %@ %@;
+- (long long)tChangeItemFields called on object %@ %@;
+- (struct CGPoint)database;
+- (_Bool)message timeout because it was successfully sent on another service;
+- (_Bool)callerID %@;
+- (double)SMS Relay, Returning %@;
+- (struct CGPoint)unt:%@ /* Error: Ran out of types for this method. */;
+- (double)t, but found no service; %@;
+- (struct UIEdgeInsets)s! ***
+
+Chats were found using the provided identifiers %@ and participants %@ that had no matching participants.
+
+Chats Found:(unsigned long long)arg1 %@
+
+Identifiers:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)logs from all participants! ***
+
+Chats were found using the provided identifiers %@ and participants %@ that had no matching participants.
+
+Chats Found:%@
+
+Identifiers:%@ /* Error: Ran out of types for this method. */;
+- (double)[FindChat] Found Chat By Identifier With No Matching Participants;
+- (double)witchcompleted;
+- (struct CGPoint)UpdateInfoIncluded;
+- (double)MessageStore;
+- (struct CGPoint)tics-reporting;
+- (CDStruct_cccd6e1b)ges on iCloud Debug UI;
+- (CDStruct_cccd6e1b)leteSyncedDBDate %@;
 - (struct CGPoint);
+- (id);
 - (struct CGPoint);
-- (double);
+- (double);
 - (struct CGPoint);
-- (struct CGPoint);
+- (double)R;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (struct CGPoint);
-- (double);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (struct);
-- (struct);
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (double);
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,7 +119,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGPoint);
-- (double);
+- (double);
 - (id);
 - (double);
 - (_Bool);
@@ -125,11 +137,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGPoint);
 - (struct CGPoint)r"32@0:8@"NSString"16@"UIInterfaceActionViewState"24 /* Error: Ran out of types for this method. */;
-- (struct CGPoint)r:willDisplayItemsForCustomization: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)dRecordExtendedLaunchTime;
-- (struct CGPoint)eyHitTest;
-- (struct CGPoint)multiplier: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)cy;
+- (struct CGPoint)tabBar:willDisplayItemsForCustomization: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldRecordExtendedLaunchTime;
+- (struct CGPoint)layoutForKeyHitTest;
+- (struct CGPoint)constraintGreaterThanOrEqualToSystemSpacingAfterAnchor:multiplier: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_reducedTransperancy;
 - (double);
 - (struct CGPoint)XäxÄ !;
 - (struct UIEdgeInsets);

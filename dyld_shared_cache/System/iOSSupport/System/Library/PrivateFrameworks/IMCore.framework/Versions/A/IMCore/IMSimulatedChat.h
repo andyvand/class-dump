@@ -6,19 +6,11 @@
 
 #import <IMCore/IMChat.h>
 
-@class IMSimulatedAccount, NSMutableArray, NSMutableDictionary, NSString;
-@protocol IMSimulatedChatDelegate;
+@class IMSimulatedAccount;
 
 @interface IMSimulatedChat : IMChat
 {
     _Bool _useTimedAck;
-    id <IMSimulatedChatDelegate> _delegate;
-    IMSimulatedAccount *_simulatedAccount;
-    unsigned long long _currentMessageID;
-    NSString *_simulatedChatIdentifier;
-    NSMutableArray *_simulatedAttachments;
-    NSString *_simulatedDisplayName;
-    NSMutableDictionary *_guidToMessageItemNeedingAckMap;
 }
 
 - (id);
@@ -46,11 +38,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)printing.;
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id)>!;
 - (id);
 - (void);
 - (void);
@@ -59,21 +51,7 @@
 - (id)ago;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentMessageID; // @synthesize currentMessageID=_currentMessageID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMSimulatedChatDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *guidToMessageItemNeedingAckMap; // @synthesize guidToMessageItemNeedingAckMap=_guidToMessageItemNeedingAckMap;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IMSimulatedAccount *simulatedAccount; // @synthesize simulatedAccount=_simulatedAccount;
-@property(readonly, nonatomic) NSMutableArray *simulatedAttachments; // @synthesize simulatedAttachments=_simulatedAttachments;
-@property(copy, nonatomic) NSString *simulatedChatIdentifier; // @synthesize simulatedChatIdentifier=_simulatedChatIdentifier;
-@property(copy, nonatomic) NSString *simulatedDisplayName; // @synthesize simulatedDisplayName=_simulatedDisplayName;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=shouldUseTimedAck) _Bool useTimedAck; // @synthesize useTimedAck=_useTimedAck;
 
 @end
 

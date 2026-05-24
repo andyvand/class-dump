@@ -9,21 +9,21 @@
 @interface CKDPResponseOperationHeaderAssetAuthorizationResponseHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)] %sresumed for %s, APAT enabled %s, stream [%{ptr}] no longer supports APAT. Posting 'ActiveConfigurationDidBecomeInvalid'!
+;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)°1Â0@ù
 × ;
 - (void)Ø
@@ -31,7 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

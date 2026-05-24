@@ -6,18 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LCServiceBlackListedField : SISchemaInstrumentationMessage
 {
     NSString *_fullyQualifiedPath;
-    _Bool _hasFullyQualifiedPath;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void);
@@ -28,13 +27,11 @@
 - (id)!8Fù±ß°1Â0@ù
 × ;
 - (id)N,V_executionMetadataReported;
-- (id)ssociatedSchemaIdentifier;
+- (id)SUTSchemaTestAssociatedSchemaIdentifier;
 - (void)@³;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fullyQualifiedPath; // @synthesize fullyQualifiedPath=_fullyQualifiedPath;
-@property(nonatomic) _Bool hasFullyQualifiedPath; // @synthesize hasFullyQualifiedPath=_hasFullyQualifiedPath;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

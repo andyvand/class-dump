@@ -6,69 +6,55 @@
 
 #import <AppKit/NSRuleEditorViewSlice.h>
 
-@class NSBannerView, NSButton, NSMutableArray;
+@class NSMutableArray;
 
 @interface NSRuleEditorViewSliceRow : NSRuleEditorViewSlice
 {
     NSMutableArray *_ruleOptionViews;
-    NSMutableArray *_ruleOptionFrames;
-    NSMutableArray *_correspondingRuleItems;
-    NSMutableArray *_ruleOptionInitialViewFrames;
-    NSBannerView *_bannerView;
-    NSButton *_addButton;
-    NSButton *_subtractButton;
-    long long _rowType;
-    long long _plusButtonRowType;
-    struct {
-        unsigned int editable:1;
-        unsigned int horizontalLayoutWasInvalidated:1;
-        unsigned int reserved:30;
-    } _sliceRowFlags;
-    id _sliceRowReserved;
 }
 
 + (void)æãÿ~$>H;
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)phskip_cookieStorage;
+- (void)loadingPriority;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (double);
-- (double);
-- (double);
-- (void);
+- (void)@ will override HSTS policy for %@;
+- (void):(id)arg1 cannot initWithResumeData with unsupported draft version:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)request;
+- (double)reused=1, reused_after_ms=%u, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (double)_ms=%u, response_status=%ld, connection=%llu, reused=1, reused_after_ms=%u, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (double)<%lu> summary for %{public}s {transaction_duration_ms=%u, response_status=%ld, connection=%llu, reused=1, reused_after_ms=%u, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (double);
+- (double)_preventsAppSSO;
+- (_Bool)EntryNewTubeCreated;
+- (_Bool)s == kSHTTPConnectionCacheEntryNewTubeCreated;
+- (double)ithPath:] /* Error: Ran out of types for this method. */;
+- (double)<cookies not yet read>;
+- (void)CFURLCredential;
+- (void)ream error:%d /* Error: Ran out of types for this method. */;
+- (_Bool)request timed out;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
@@ -77,7 +63,7 @@
 - (void)¡ð/Ð!$CùQç31Â0@ù
 × ;
 - (void)Segment Selection and Content;
-- (void)ightParsingType;
+- (void)AXHighlightParsingType;
 - (_Bool)Óp°A;
 - (_Bool)°Oþþbí;
 

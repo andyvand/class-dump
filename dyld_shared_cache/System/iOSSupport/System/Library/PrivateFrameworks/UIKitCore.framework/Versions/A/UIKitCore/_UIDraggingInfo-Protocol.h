@@ -5,6 +5,8 @@
 //
 
 @protocol _UIDraggingInfo
+- (struct CGPoint)/System/Library/PrivateFrameworks/GPUSupport.framework/Versions/A/Libraries/libGPUSupportMercury.dylib;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long draggingSourceOperationMask;

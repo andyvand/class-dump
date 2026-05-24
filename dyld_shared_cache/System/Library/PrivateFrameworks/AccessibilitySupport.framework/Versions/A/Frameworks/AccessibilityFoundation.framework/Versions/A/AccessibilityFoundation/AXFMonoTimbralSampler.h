@@ -7,9 +7,6 @@
 @interface AXFMonoTimbralSampler
 {
     _Bool __graphOwner;
-    struct OpaqueAUGraph *_graph;
-    struct ComponentInstanceRecord *_sampler;
-    struct ComponentInstanceRecord *_defaultIO;
 }
 
 - (struct OpaqueAUGraph *);
@@ -19,15 +16,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (struct ComponentInstanceRecord *);
+- (struct ComponentInstanceRecord *)_unobscuredCenterAreaLayoutGuide;
 - (void);
 - (struct OpaqueAUGraph *);
 
 // Remaining properties
 @property(nonatomic) _Bool _graphOwner; // @synthesize _graphOwner=__graphOwner;
-@property(readonly, nonatomic) struct ComponentInstanceRecord *defaultIO; // @synthesize defaultIO=_defaultIO;
-@property(readonly, nonatomic) struct OpaqueAUGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) struct ComponentInstanceRecord *sampler; // @synthesize sampler=_sampler;
 
 @end
 

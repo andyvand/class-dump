@@ -6,8 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString, SASTTemplateContentRating;
-@protocol SAAceSerializable;
+@class NSArray;
 
 @interface SAUIListItem : SAAceView
 {
@@ -18,17 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SASTTemplateContentRating *contentRating;
-@property(copy, nonatomic) NSString *imageType;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *labelValue;
-@property(retain, nonatomic) id <SAAceSerializable> object;
-@property(copy, nonatomic) NSString *primaryDescriptiveText;
-@property(copy, nonatomic) NSString *secondaryDescriptiveText;
-@property(copy, nonatomic) NSString *selectionResponse;
-@property(copy, nonatomic) NSString *selectionText;
-@property(copy, nonatomic) NSString *speakableSelectionResponse;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

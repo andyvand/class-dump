@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.RelativeTimeFrame__priv_1BCBFD7ABCCFB491369827E4E6338C4D
 {
     id referenceTime;
-    id clock;
-    id lastOrder;
 }
 
 @end

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemID, FPSandboxingURLWrapper, NSDate, NSFileProviderItemVersion, NSObject, NSPersonNameComponents, NSString, NSURL;
-@protocol GSAdditionStoring, NSCopying><NSSecureCoding;
+@class FPSandboxingURLWrapper;
 
 @interface FPFileVersion
 {
     FPSandboxingURLWrapper *_wrapper;
-    NSURL *_url;
-    int _notifyToken;
-    _Bool _hasThumbnail;
-    NSFileProviderItemVersion *_version;
-    NSString *_displayName;
-    unsigned long long _size;
-    NSDate *_modificationDate;
-    NSPersonNameComponents *_lastEditorNameComponents;
-    NSURL *_originalURL;
-    FPItemID *_fpItemIdentifier;
-    NSObject<GSAdditionStoring> *_storage;
 }
 
 + (id);
@@ -35,45 +23,32 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)ary/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)h
+;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id)portsSyncingTrash;
+- (id)SupportsSyncingTrash;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *etag;
-@property(readonly, nonatomic) FPItemID *fpItemIdentifier; // @synthesize fpItemIdentifier=_fpItemIdentifier;
 @property(nonatomic) _Bool hasThumbnail; // @synthesize hasThumbnail=_hasThumbnail;
-@property(readonly, copy, nonatomic) NSString *lastEditorDeviceName;
-@property(readonly, nonatomic) NSString *lastEditorFormattedName;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *lastEditorNameComponents; // @synthesize lastEditorNameComponents=_lastEditorNameComponents;
-@property(readonly, copy, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly, copy, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(readonly, nonatomic) id <NSCopying><NSSecureCoding> persistentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *physicalURL;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(retain, nonatomic) NSObject<GSAdditionStoring> *storage; // @synthesize storage=_storage;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, copy, nonatomic) NSFileProviderItemVersion *version; // @synthesize version=_version;
 
 @end
 

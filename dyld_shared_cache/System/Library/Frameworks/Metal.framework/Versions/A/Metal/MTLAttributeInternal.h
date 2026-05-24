@@ -6,15 +6,10 @@
 
 #import <Metal/MTLAttribute.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLAttributeInternal : MTLAttribute
 {
     unsigned char _flags;
-    NSString *_name;
-    unsigned long long _attributeIndex;
-    unsigned long long _attributeType;
 }
 
 - (id);

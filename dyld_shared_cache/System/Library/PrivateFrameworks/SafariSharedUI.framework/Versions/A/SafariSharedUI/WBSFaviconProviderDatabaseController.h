@@ -8,15 +8,15 @@
 {
 }
 
+- (void)(;
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)f;
+- (void)7L;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,24 +29,24 @@
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)(;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (int);

@@ -14,12 +14,12 @@
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)Errors(%lu total);
+- (void)UnsubscribeTextOverride;
+- (id)DDMessageBotReplyValueKey;
+- (id)%lld %@;
 - (id);
-- (id);
-- (id);
-- (id):(id)arg1;
+- (id)_internalHandleHIDEventBypassingUIEvent:(id)arg1;
 - (id)hould be created up front and reused. Registration:(id)arg1 %@;
 - (void)l÷g;
 

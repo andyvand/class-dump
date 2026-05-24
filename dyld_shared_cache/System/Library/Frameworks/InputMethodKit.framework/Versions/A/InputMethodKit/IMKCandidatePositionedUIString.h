@@ -9,8 +9,6 @@
 @interface IMKCandidatePositionedUIString
 {
     IMKCandidateUIString *_string;
-    double _position;
-    _Bool _rightAligned;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(nonatomic) _Bool rightAligned; // @synthesize rightAligned=_rightAligned;
 @property(retain, nonatomic) IMKCandidateUIString *string; // @synthesize string=_string;
 
 @end

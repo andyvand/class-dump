@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)cludeEtaRouteIncidents:(id)arg1;
++ (_Bool)setIncludeEtaRouteIncidents:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)`.;
+- (void)Id:(id)arg1 %{private}@) start listening now, CSVoiceTriggerFirstPassRemora can stop listening now;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (id)?40;
-- (id)ow;
+- (id)_low;
 - (id)@üýýTþ,ÿÀ;
-- (id)up_result;
+- (id)maps_identifier_place_lookup_result;
 
 @end
 

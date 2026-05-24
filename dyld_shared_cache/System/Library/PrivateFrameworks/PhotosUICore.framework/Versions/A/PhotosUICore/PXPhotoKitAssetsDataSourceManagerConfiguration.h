@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXPhotoKitAssetsDataSourceManagerConfiguration
 {
     _Bool _ignoreSharedLibraryFilters;
-    _Bool _reverseSortOrder;
-    _Bool _canIncludeUnsavedSyndicatedAssets;
-    _Bool _includeSharedCollectionAssets;
-    PHFetchResult *_existingAssetsFetchResult;
-    PHFetchResult *_existingKeyAssetsFetchResult;
-    NSArray *_fetchPropertySets;
-    NSPredicate *_basePredicate;
-    unsigned long long _options;
 }
 
 - (void);
@@ -29,26 +21,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void)ctedPersonSuggestions:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)yLayout;
+- (unsigned long long)`/;
+- (void)personSuggestionsForPerson:(_Bool)arg1 confirmedPersonSuggestions:rejectedPersonSuggestions:completion: /* Error: Ran out of types for this method. */;
+- (id)bodyLayout;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *basePredicate; // @synthesize basePredicate=_basePredicate;
-@property(nonatomic) _Bool canIncludeUnsavedSyndicatedAssets; // @synthesize canIncludeUnsavedSyndicatedAssets=_canIncludeUnsavedSyndicatedAssets;
 @property(retain, nonatomic) PHFetchResult *existingAssetsFetchResult; // @synthesize existingAssetsFetchResult=_existingAssetsFetchResult;
-@property(retain, nonatomic) PHFetchResult *existingKeyAssetsFetchResult; // @synthesize existingKeyAssetsFetchResult=_existingKeyAssetsFetchResult;
-@property(retain, nonatomic) NSArray *fetchPropertySets; // @synthesize fetchPropertySets=_fetchPropertySets;
-@property(nonatomic) _Bool ignoreSharedLibraryFilters; // @synthesize ignoreSharedLibraryFilters=_ignoreSharedLibraryFilters;
-@property(nonatomic) _Bool includeSharedCollectionAssets; // @synthesize includeSharedCollectionAssets=_includeSharedCollectionAssets;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) _Bool reverseSortOrder; // @synthesize reverseSortOrder=_reverseSortOrder;
 
 @end
 

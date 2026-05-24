@@ -9,14 +9,11 @@
 @interface NUSoftwareVersion
 {
     NSString *_platform;
-    NSString *_buildNumber;
-    NSString *_appVersion;
-    long long _schemaRevision;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)MULTI_COLOR_HEADWEAR_PRIMARY;
 + (id);
 + (id);
 - (void);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ePath != NULL;
 - (_Bool);
 - (id);
 - (id);
@@ -37,10 +34,7 @@
 - (id)not implemented;
 
 // Remaining properties
-@property(copy) NSString *appVersion; // @synthesize appVersion=_appVersion;
-@property(copy) NSString *buildNumber; // @synthesize buildNumber=_buildNumber;
 @property(copy) NSString *platform; // @synthesize platform=_platform;
-@property long long schemaRevision; // @synthesize schemaRevision=_schemaRevision;
 
 @end
 

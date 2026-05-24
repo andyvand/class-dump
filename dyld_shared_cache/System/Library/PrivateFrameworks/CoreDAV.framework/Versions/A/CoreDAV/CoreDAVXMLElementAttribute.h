@@ -9,25 +9,21 @@
 @interface CoreDAVXMLElementAttribute
 {
     NSString *_name;
-    NSString *_nameSpace;
-    NSString *_value;
 }
 
+- (void);
+- (id);
+- (id)autocomplete;
+- (id);
+- (id);
+- (id)-;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)EWSFileAsMappingTypeDefinition;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *nameSpace; // @synthesize nameSpace=_nameSpace;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

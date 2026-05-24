@@ -25,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id).3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropStraightenPipeline.m;
 - (void);
 - (void);
 - (id);
 - (id)
 × ;
-- (void)geAccessoryUUIDStringKey;
+- (void)HMDAccessoryMatterAttributeMessageAccessoryUUIDStringKey;
 
 // Remaining properties
 @property __weak HMDHome *home; // @synthesize home=_home;

@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface OSSystemExtensionOrphanCleanerResult
 {
     NSMutableArray *_s;
-    NSMutableDictionary *_f;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%@ wantsAppAck %@ compressed %@ peerResponseIdentifier %@ messageUUID %@ expiryDate %@;
+- (void)nding message %@ (size:(id)arg1 %lu) to file %@;
+- (void)ResourceTransferReceiver:(id)arg1 appending message %@ (size:%lu decompressed:%lu) to file %@ /* Error: Ran out of types for this method. */;
+- (id)hort for payload, payloadOffset %u additionalFieldSize %u packet length %u
+;
+- (id)aining data, offset %u packet length %u
+;
+- (id)packet length %u
+;
+- (id)onfiguration %@;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *f; // @synthesize f=_f;
-@property(readonly) NSDictionary *failedToCleanup;
 @property(retain) NSMutableArray *s; // @synthesize s=_s;
-@property(readonly) NSArray *successfullyCleanedUp;
 
 @end
 

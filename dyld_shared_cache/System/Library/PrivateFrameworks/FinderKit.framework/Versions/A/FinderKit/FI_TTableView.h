@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_nextMondayMorning;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)suggestionWithURL:(id)arg1 title:richLinkID:authors:authorEmailAddresses:objectID:messageID:messageList: /* Error: Ran out of types for this method. */;
+- (void)setSecondaryTextColor: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -32,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(nonatomic) _Bool autoforwardsScrollWheelEvents;
-@property unsigned long long controlSize;
 
 @end
 

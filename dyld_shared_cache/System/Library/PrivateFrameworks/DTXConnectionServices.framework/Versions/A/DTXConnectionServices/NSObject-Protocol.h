@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)st:preItnOneBestIndices:nbestSize: /* Error: Ran out of types for this method. */;
+- (id)correctedResultWithKeyword:tokenizedKeyword:preItnSausage:preItnOneBest:preItnOneBestIndices:nbestSize: /* Error: Ran out of types for this method. */;
+- (id)correctPartialResultIndexList;
+- (id)correctAlignedPartialResultIndexList;
+- (id)copyWithoutModifiers;
+- (Class)coordinateReadingItemAtURL:options:error:byAccessor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Hh;
+- (unsigned long long);
+- (id)5;
+- (_Bool));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

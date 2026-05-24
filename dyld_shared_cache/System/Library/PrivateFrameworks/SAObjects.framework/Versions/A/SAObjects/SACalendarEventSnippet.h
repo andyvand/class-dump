@@ -6,13 +6,13 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface SACalendarEventSnippet : SAUISnippet
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *events;
-@property(copy, nonatomic) NSDate *snippetEndDate;
-@property(copy, nonatomic) NSDate *snippetStartDate;
-@property(copy, nonatomic) NSString *timeZoneId;
 
 @end
 

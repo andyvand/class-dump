@@ -7,10 +7,10 @@
 @class NSData, _SFPBGraphicalFloat;
 
 @protocol _SFPBPointSize
+- (void);
+- (NSData *)tagRangeWithFilter:withCSAttributedEntityKey:startDate:endDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBGraphicalFloat *height;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBGraphicalFloat *width;
 @end
 

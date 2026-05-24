@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (long long);
+- (void);
+- (long long)LDM;
 - (void);
 - (_Bool);
-- (id);
+- (id)؂;
 - (void);
-- (void);
-- (long long);
+- (void);
+- (long long)dyld_sim_shared_cache_;
 - (id);
 - (id);
 

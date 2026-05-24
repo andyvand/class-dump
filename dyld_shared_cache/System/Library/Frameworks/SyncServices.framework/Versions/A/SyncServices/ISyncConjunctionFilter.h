@@ -9,10 +9,6 @@
 @interface ISyncConjunctionFilter
 {
     NSArray *_filters;
-    NSArray *_supportedEntityNames;
-    _Bool _isAndConjunction;
-    _Bool _shouldApplyUnsupportedRecords;
-    _Bool _ignoreLocals;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Hv;
 - (_Bool);
 - (void);
 

@@ -11,12 +11,12 @@
     NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool)@"AVAssetReader"8@"NSDictionary"16;
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetTrack, AVSampleBufferGenerator, AVSampleCursor, VideoDecompressor;
+@class AVSampleBufferGenerator;
 
 @interface VideoAccessRand
 {
     unsigned int _recurs;
-    AVAsset *asset;
-    AVAssetTrack *videoTrack;
-    AVSampleBufferGenerator *_sampBufGen;
-    VideoDecompressor *_vidDecompr;
-    AVSampleCursor *_cursor;
-    struct __CFDictionary *_currentChunk;
-    CDStruct_1b6d18a9 _frameTime2x;
 }
 
 - (id);
@@ -27,10 +20,10 @@
 - (unsigned int);
 - (id);
 - (int);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (int);
 - (struct __CFDictionary *);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7)9Q;
 - (void);
 - (id);
 - (void);
@@ -40,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) AVAsset *asset; // @synthesize asset;
-@property struct __CFDictionary *currentChunk; // @synthesize currentChunk=_currentChunk;
-@property(retain) AVSampleCursor *cursor; // @synthesize cursor=_cursor;
-@property CDStruct_1b6d18a9 frameTime2x; // @synthesize frameTime2x=_frameTime2x;
-@property unsigned int recurs; // @synthesize recurs=_recurs;
 @property(retain) AVSampleBufferGenerator *sampBufGen; // @synthesize sampBufGen=_sampBufGen;
-@property(retain) VideoDecompressor *vidDecompr; // @synthesize vidDecompr=_vidDecompr;
-@property(readonly) AVAssetTrack *videoTrack; // @synthesize videoTrack;
 
 @end
 

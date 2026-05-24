@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMZoomController, NSString;
+@class ICMZoomController;
 
 @interface ICNoteEditorIconImageView
 {
     ICMZoomController *_zoomController;
-    double _maxZoomFactor;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C#M	;
 - (double);
 - (struct CGSize);
-- (void)ew:printFrame:pdfFirstPageSize:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:printFrame:pdfFirstPageSize:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxZoomFactor; // @synthesize maxZoomFactor=_maxZoomFactor;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ICMZoomController *zoomController; // @synthesize zoomController=_zoomController;
 
 @end

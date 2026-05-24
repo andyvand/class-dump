@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorAPSQuickRelaySelfAllocToken
 {
@@ -16,25 +16,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_relayPort;
-@property(nonatomic, readonly) _Bool has_relayProvider;
-@property(nonatomic, readonly) NSData *relayAccessToken;
-@property(nonatomic, readonly) NSData *relayIp;
-@property(nonatomic, readonly) NSData *relayIpv6;
-@property(nonatomic, readonly) long long relayPort;
-@property(nonatomic, readonly) long long relayProvider;
-@property(nonatomic, readonly) NSData *relaySessionId;
-@property(nonatomic, readonly) NSData *relaySessionKey;
 
 @end
 

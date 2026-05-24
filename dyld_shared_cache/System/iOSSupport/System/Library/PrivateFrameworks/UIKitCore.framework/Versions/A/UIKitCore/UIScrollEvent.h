@@ -6,24 +6,11 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSMapTable, NSMutableSet, UIGestureRecognizer;
-@protocol _UIScrollEventAsyncDeliveryTarget;
+@class NSMapTable;
 
 @interface UIScrollEvent : UIEvent
 {
     NSMapTable *_gestureRecognizersByWindow;
-    struct CGPoint _sceneReferenceLocation;
-    unsigned long long _lastDeliveredPhase;
-    id <_UIScrollEventAsyncDeliveryTarget> _asyncDeliveryTarget;
-    UIGestureRecognizer *_asyncDeliveryGesture;
-    _Bool _isDoingAsyncDelivery;
-    _Bool _isCloneForAsyncDelivery;
-    NSMutableSet *_outstandingSnapshotEventsForAsyncDelivery;
-    _Bool _isStiflingDeltas;
-    _Bool _hasSimulatedMomentumDelta;
-    struct CGVector _simulatedMomentumDelta;
-    unsigned long long _phase;
-    struct CGVector _stifledDelta;
 }
 
 - (unsigned long long);
@@ -32,7 +19,7 @@
 - (struct CGVector);
 - (void);
 - (id);
-- (void);
+- (void)ce>",&,N,V_dataSource;
 - (_Bool);
 - (_Bool)dCù±^1Â0@ù
 × ;
@@ -44,14 +31,14 @@
 × ;
 - (struct CGVector)houldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
 - (_Bool)dgeInsets=dddd}16;
-- (void)act;
-- (void);
-- (void)ainerSizeDependentAxes;
-- (struct CGPoint)leCaptureModesForCameraDevice:(id)arg1;
-- (_Bool)on:completion: /* Error: Ran out of types for this method. */;
-- (double)rHostView;
-- (struct CGVector)ivate;
-- (id)orTrackingGroup;
+- (void)overrideUISplitViewControllerToCompact;
+- (void)initWithTraitTokenValue: /* Error: Ran out of types for this method. */;
+- (void)containerSizeDependentAxes;
+- (struct CGPoint)availableCaptureModesForCameraDevice:(id)arg1;
+- (_Bool)_animateToPlatterDismissedWithDuration:completion: /* Error: Ran out of types for this method. */;
+- (double)_UILayerHostView;
+- (struct CGVector)UIStringDrawingPrivate;
+- (id)_UIViewPropertyAnimatorTrackingGroup;
 - (struct CGVector)¤L¤Ð¤4¦Ä¦;
 - (unsigned long long)P¯;
 - (_Bool);
@@ -68,14 +55,7 @@
 - (id)ÿ(£Ó@¸i;
 
 // Remaining properties
-@property(readonly) struct CGVector acceleratedDelta;
-@property(readonly, nonatomic, getter=_beganScrollTimestamp) double beganScrollTimestamp;
-@property(readonly) _Bool directionInvertedFromDevice;
-@property(readonly) struct CGVector nonAcceleratedDelta;
-@property(readonly) unsigned long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic, getter=_scrollDeviceCategory) unsigned long long scrollDeviceCategory;
 @property(readonly, nonatomic, getter=_scrollType) unsigned long long scrollType;
-@property(readonly, nonatomic, getter=_stifledDelta) struct CGVector stifledDelta; // @synthesize stifledDelta=_stifledDelta;
 
 @end
 

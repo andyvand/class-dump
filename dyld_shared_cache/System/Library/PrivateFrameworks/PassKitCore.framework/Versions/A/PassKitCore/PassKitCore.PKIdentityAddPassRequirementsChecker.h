@@ -7,14 +7,11 @@
 @interface PassKitCore.PKIdentityAddPassRequirementsChecker
 {
     id documentType;
-    id configuration;
-    id device;
-    id region;
 }
 
 - (_Bool);
 - (id);
-- (void)ningStepPrecursorPass;
+- (void)ProvisioningStepPrecursorPass;
 
 @end
 

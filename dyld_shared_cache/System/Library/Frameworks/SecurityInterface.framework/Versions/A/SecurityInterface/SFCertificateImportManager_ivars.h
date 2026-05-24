@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, NSWindow;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SFCertificateImportManager_ivars
 {
     NSArray *_sfCertificates;
-    NSEnumerator *_sfCertEnumerator;
-    struct __SecPolicy *_sfPolicy;
-    struct __SecKeychain *_sfDestKeychain;
-    NSWindow *_sfParentWindow;
-    _Bool _sfDetailsDisclosedBefore;
-    SEL _clientDidEndSelector;
-    id _clientDelegate;
-    void *_clientContextInfo;
-    _Bool _noSheetsAppeared;
 }
 
 - (void);

@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAnimatedImageView, NSArray, NSDate, NSLayoutConstraint, NSString, UIButton, UIDateLabel, UIHoverGestureRecognizer, UILabel, UIView;
-@protocol CKStickerDetailCellDelegate;
+@class CKAnimatedImageView;
 
 __attribute__((visibility("hidden")))
 @interface CKStickerDetailCell
 {
     id _stickerPreview;
-    NSString *_titleText;
-    NSString *_subtitleText;
-    NSDate *_timestampDate;
-    unsigned long long _additionalActionType;
-    id <CKStickerDetailCellDelegate> _delegate;
-    CKAnimatedImageView *_stickerView;
-    UIView *_labelContainerView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIDateLabel *_timestampLabel;
-    UIButton *_viewButton;
-    UIButton *_saveButton;
-    NSArray *_buttonsHiddenConstraints;
-    NSArray *_saveButtonVisibleConstraints;
-    NSArray *_viewButtonVisibleConstraints;
-    NSLayoutConstraint *_subtitleLabelTopSpacingConstraint;
-    NSLayoutConstraint *_timestampLabelTopSpacingConstraint;
-    UIHoverGestureRecognizer *_hoverGestureRecognizer;
-    UIButton *_closeButton;
 }
 
-+ (id)ocation: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
++ (id)attachElasticEffectsForLocation: /* Error: Ran out of types for this method. */;
+- (id)useConstraintBasedRendering;
+- (id)setDivergedV1NeoMainKey: /* Error: Ran out of types for this method. */;
+- (id)setDivergedV1MainKey: /* Error: Ran out of types for this method. */;
+- (id)setDisplayingTitleCheckingResult: /* Error: Ran out of types for this method. */;
+- (id)removeListStyleBeforeDeletingParagraphContentIfNecessaryForTextView:textStorage:rangeToBeDeleted:blockBeforeEndEditing: /* Error: Ran out of types for this method. */;
+- (id)refreshTextStylingForTextStorage:withTextController: /* Error: Ran out of types for this method. */;
+- (void)invalidate;
+- (void)initWithPCMFormat:(id)arg1 bufferListNoCopy:deallocator: /* Error: Ran out of types for this method. */;
+- (void)initWithOwner:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)delayLoadingURLs:(id)arg1;
+- (void)initWithBottomLeft:(id)arg1 bottomRight:topLeft:topRight: /* Error: Ran out of types for this method. */;
+- (void)ssingBlock:(id)arg1 completionBlock:fallbackBlock:queue: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForDateTextWithZoomFactor:(id)arg1;
+- (void)fixTextColorsInAttributedString:(id)arg1;
+- (void)cancelGenerationOfPendingPreviews;
+- (void)attributedStringFromHTMLString:(unsigned long long)arg1 baseURL:readerDelegate: /* Error: Ran out of types for this method. */;
+- (id)_sharedObjectsInSource;
 - (id);
 - (void);
 - (void);
+- (id)t;
+- (unsigned long long)e;
+- (void)CGImageRef or PDFPage ready.;
+- (void)es — deleting duplicated note {originalNote:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
+- (void)account;
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)R;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -77,35 +57,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (void)s: /* Error: Ran out of types for this method. */;
-- (id)eRecognizer;
+- (void)setCellFrameFromLayoutAttributes: /* Error: Ran out of types for this method. */;
+- (id)dismissGestureRecognizer;
 - (id)ViewController;
 - (void)<Â#ÿ!;
-- (id);
+- (id)t;
 
 // Remaining properties
-@property(nonatomic) unsigned long long additionalActionType; // @synthesize additionalActionType=_additionalActionType;
-@property(retain, nonatomic) NSArray *buttonsHiddenConstraints; // @synthesize buttonsHiddenConstraints=_buttonsHiddenConstraints;
-@property(retain, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(nonatomic) __weak id <CKStickerDetailCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIHoverGestureRecognizer *hoverGestureRecognizer; // @synthesize hoverGestureRecognizer=_hoverGestureRecognizer;
-@property(retain, nonatomic) UIView *labelContainerView; // @synthesize labelContainerView=_labelContainerView;
-@property(retain, nonatomic) UIButton *saveButton; // @synthesize saveButton=_saveButton;
-@property(retain, nonatomic) NSArray *saveButtonVisibleConstraints; // @synthesize saveButtonVisibleConstraints=_saveButtonVisibleConstraints;
-@property(retain, nonatomic) id stickerPreview; // @synthesize stickerPreview=_stickerPreview;
 @property(retain, nonatomic) CKAnimatedImageView *stickerView; // @synthesize stickerView=_stickerView;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *subtitleLabelTopSpacingConstraint; // @synthesize subtitleLabelTopSpacingConstraint=_subtitleLabelTopSpacingConstraint;
-@property(retain, nonatomic) NSString *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(retain, nonatomic) NSDate *timestampDate; // @synthesize timestampDate=_timestampDate;
-@property(retain, nonatomic) UIDateLabel *timestampLabel; // @synthesize timestampLabel=_timestampLabel;
-@property(retain, nonatomic) NSLayoutConstraint *timestampLabelTopSpacingConstraint; // @synthesize timestampLabelTopSpacingConstraint=_timestampLabelTopSpacingConstraint;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(retain, nonatomic) UIButton *viewButton; // @synthesize viewButton=_viewButton;
-@property(retain, nonatomic) NSArray *viewButtonVisibleConstraints; // @synthesize viewButtonVisibleConstraints=_viewButtonVisibleConstraints;
 
 @end
 

@@ -9,28 +9,26 @@
 @interface AFBundleResource
 {
     NSString *_name;
-    NSString *_extension;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
+- (id)enumerateHunks:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (_Bool)@"NSFont";
+- (void)P;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)FAnnouncementRequestCapabilityProvidingDelegate;
+- (id)e;
+- (void)AFAnnouncementRequestCapabilityProvidingDelegate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *extension; // @synthesize extension=_extension;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

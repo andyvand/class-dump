@@ -4,54 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, UIAction;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSection
 {
     NSUUID *_identifier;
-    _Bool _overridesCellSizeForLargeText;
-    _Bool _isRoot;
-    _Bool _wantsSectionSeparator;
-    _Bool _isMultiColorPalette;
-    _Bool _hasImageInLargeCell;
-    _Bool _wantsContentMarginsForSelection;
-    NSString *_title;
-    UIAction *_accessoryAction;
-    long long _preferredCellSize;
-    long long _layout;
-    unsigned long long _actionLineLimit;
 }
 
 + (id);
 - (_Bool);
 - (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (long long)initWithAccountID:service:guid:groupID:chatIdentifier:participants:roomName:displayName:lastAddressedLocalHandle:lastAddressedSIMID:properties:state:style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)attributedChipList;
+- (_Bool)_calculateHandleInfoOverrideIfPermittedForChatIdentifier:style:completion: /* Error: Ran out of types for this method. */;
+- (long long)h;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool)ions:(id)arg1;
-- (_Bool);
-- (id)dexPaths;
+- (_Bool)set_options:(id)arg1;
+- (_Bool)_swizzleContent: /* Error: Ran out of types for this method. */;
+- (id)CollectionViewSelectedCellIndexPaths;
 - (long long);
 - (void)¨];
 
 // Remaining properties
-@property(readonly, nonatomic) UIAction *accessoryAction; // @synthesize accessoryAction=_accessoryAction;
-@property(readonly, nonatomic) unsigned long long actionLineLimit; // @synthesize actionLineLimit=_actionLineLimit;
-@property(readonly, nonatomic) _Bool hasImageInLargeCell; // @synthesize hasImageInLargeCell=_hasImageInLargeCell;
-@property(readonly, nonatomic) _Bool isMultiColorPalette; // @synthesize isMultiColorPalette=_isMultiColorPalette;
 @property(nonatomic) _Bool isRoot; // @synthesize isRoot=_isRoot;
-@property(readonly, nonatomic) long long layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) long long preferredCellSize; // @synthesize preferredCellSize=_preferredCellSize;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool wantsContentMarginsForSelection; // @synthesize wantsContentMarginsForSelection=_wantsContentMarginsForSelection;
-@property(nonatomic) _Bool wantsSectionSeparator; // @synthesize wantsSectionSeparator=_wantsSectionSeparator;
 
 @end
 

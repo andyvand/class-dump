@@ -9,11 +9,10 @@
 @interface NWStatisticsQUICSource : NWStatisticsSource
 {
     struct nstat_tcp_descriptor _descriptor;
-    unsigned long long _eventFlags;
 }
 
-- (id);
-- (id);
+- (id)ientSessions;
+- (id)TRITaskCapabilityUtilities;
 - (int);
 
 @end

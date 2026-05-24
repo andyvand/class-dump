@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOPBTransitStop, NSArray;
+@class GEOComposedRoute;
 
 @interface GEOComposedRouteSegment
 {
     GEOComposedRoute *_composedRoute;
-    unsigned long long _segmentIndex;
-    struct _NSRange _pointRange;
-    struct _NSRange _stepRange;
 }
 
 + (_Bool)/eTag (%{public}@);
@@ -24,22 +21,22 @@
 - (double);
 - (double);
 - (struct _NSRange);
-- (unsigned long long);
-- (id);
-- (id);
-- (double);
-- (id);
-- (unsigned long long);
+- (unsigned long long){flock=qqiss}24;
+- (id)essionTask"24@"NSURLSessionTaskMetrics"32;
+- (id)componentsInTimeZone:(id)arg1 fromDate:(struct _NSRange)arg2;
+- (double)c}@;
+- (id)expected behavior may follow:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)(code 0x%llx);
 - (CDStruct_3f2a7a20);
+- (unsigned int)und primary iCloud ACAccount with appleID:%@ /* Error: Ran out of types for this method. */;
+- (id)honetic Serbia;
 - (unsigned int);
-- (id);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned long long)5;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)~;
+- (long long)_scheduleDataUpdateForTransitItemAtDate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void)sí;
@@ -48,26 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak GEOComposedRoute *composedRoute; // @synthesize composedRoute=_composedRoute;
-@property(readonly, nonatomic) unsigned int endPointIndex;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 endRouteCoordinate;
-@property(readonly, nonatomic) unsigned long long endStepIndex;
-@property(readonly, nonatomic) GEOPBTransitStop *endingTransitStop;
-@property(readonly, nonatomic) double expectedTime;
-@property(readonly, nonatomic) GEOComposedRouteSegment *nextSegment;
-@property(readonly, nonatomic) unsigned long long numberOfTransitStops;
-@property(readonly, nonatomic) unsigned long long pointCount;
-@property(readonly, nonatomic) struct _NSRange pointRange; // @synthesize pointRange=_pointRange;
-@property(readonly, nonatomic) unsigned long long segmentIndex; // @synthesize segmentIndex=_segmentIndex;
-@property(readonly, nonatomic) unsigned int startPointIndex;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 startRouteCoordinate;
-@property(readonly, nonatomic) unsigned long long startStepIndex;
-@property(readonly, nonatomic) GEOPBTransitStop *startingTransitStop;
-@property(readonly, nonatomic) unsigned long long stepCount;
-@property(readonly, nonatomic) struct _NSRange stepRange; // @synthesize stepRange=_stepRange;
-@property(readonly, nonatomic) NSArray *steps;
-@property(readonly, nonatomic) struct _NSRange transitStepRange;
-@property(readonly, nonatomic) int transportType;
-@property(readonly, nonatomic) long long type;
 
 @end
 

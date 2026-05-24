@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _ICLLPlaybackControlSettings *_settings;
 }
 
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
 - (_Bool);

@@ -11,8 +11,6 @@
 @interface PAGLFramebuffer : PAGLObject
 {
     NSMutableDictionary *_attachements;
-    PAOpenGLContext *_context;
-    unsigned int _target;
 }
 
 + (void);
@@ -24,7 +22,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)NetworkErrorExplanation;
 - (unsigned int);
 - (id);
 - (void);
@@ -32,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PAOpenGLContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) unsigned int target; // @synthesize target=_target;
 
 @end
 

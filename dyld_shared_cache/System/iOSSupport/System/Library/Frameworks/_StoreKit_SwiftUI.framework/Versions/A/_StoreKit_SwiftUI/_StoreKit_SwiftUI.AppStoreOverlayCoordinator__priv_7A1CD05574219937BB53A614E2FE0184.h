@@ -8,14 +8,12 @@
 {
     id isPresented;
     id overlayState;
-    id overlay;
-    id scene;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)y/PrivateFrameworks/CallsAppUI.framework/Versions/A/CallsAppUI;
 - (id);
 - (void)`	úÿ´	úÿ;
 

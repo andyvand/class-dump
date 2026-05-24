@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _PSInteractionInformation
 {
     NSString *_accountHandle;
-    NSDictionary *_interactionInfo;
 }
 
+- (id)_contexts;
 - (id);
-- (id);
-- (id);
+- (id)u;
 - (void);
 
 @end

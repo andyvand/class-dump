@@ -6,13 +6,10 @@
 
 #import <Safari/ToolbarButtonPlus.h>
 
-@class ToolbarDownloadsButtonProgressBar;
-
 __attribute__((visibility("hidden")))
 @interface ToolbarDownloadsButton : ToolbarButtonPlus
 {
     float _lastUpdatedProgress;
-    ToolbarDownloadsButtonProgressBar *_progressBar;
 }
 
 + (Class);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)ved position; ignoring;
-- (id);
+- (id)e;
 - (void)ion;
 - (void);
 

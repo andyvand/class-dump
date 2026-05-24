@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface PKPackageRequirements
 {
     NSString *_identifier;
-    NSString *_destinationPath;
-    NSCache *_onDiskHashCache;
-    NSMutableDictionary *_actualPathByComponentIdent;
 }
 
 - (void);
@@ -20,9 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)
+;
 - (id);
-- (void);
+- (void)	;
 
 @end
 

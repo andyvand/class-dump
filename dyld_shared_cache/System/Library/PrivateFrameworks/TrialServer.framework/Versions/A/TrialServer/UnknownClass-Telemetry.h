@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Telemetry)
-- (_Bool);
+- (_Bool)keyForIdentifier:(long long)arg1;
 - (_Bool);
 - (id)e to find rollout;
 @end

@@ -5,10 +5,10 @@
 //
 
 @protocol MPMutableLocalLibraryIdentifiers
+- (long long);
+- (long long)isEqualToArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long containedPersistentID;
 @property(nonatomic) long long persistentID;
-@property(nonatomic) long long syncID;
 @end
 

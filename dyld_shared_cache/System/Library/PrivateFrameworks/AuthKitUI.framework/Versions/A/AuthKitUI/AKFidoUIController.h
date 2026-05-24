@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFXPCSession, AKFidoRVSBootstrapper, AKFidoRVSRemoteViewController, NSString, NSWindow;
+@class NSWindow;
 
 @interface AKFidoUIController
 {
     NSWindow *_hostWindow;
-    NSWindow *_remoteWindow;
-    AKFidoRVSRemoteViewController *_helper;
-    AKFidoRVSBootstrapper *_remoteViewServiceBootstrapper;
-    AAFXPCSession *_remoteService;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)RO;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void)&,N,V_handlers;
+- (id)CalAdditions;
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -35,18 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKFidoRVSRemoteViewController *helper; // @synthesize helper=_helper;
 @property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain, nonatomic) AAFXPCSession *remoteService; // @synthesize remoteService=_remoteService;
-@property(retain, nonatomic) AKFidoRVSBootstrapper *remoteViewServiceBootstrapper; // @synthesize remoteViewServiceBootstrapper=_remoteViewServiceBootstrapper;
-@property(retain, nonatomic) NSWindow *remoteWindow; // @synthesize remoteWindow=_remoteWindow;
-@property(readonly) Class superclass;
 
 @end
 

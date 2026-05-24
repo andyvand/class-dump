@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)Installed;
+- (void)_truncatedRegionsBuffer;
+- (_Bool);
+- (struct CGRect)_performDelegateCalloutForSection:(struct CGRect)arg1 block: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -28,9 +28,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)Qg1Â0@ù
 × ;
-- (void)eyboardSuppressionAssertionForReason:(_Bool)arg1;
-- (struct CGRect)ertion;
-- (struct CGRect)s;
+- (void)vendKeyboardSuppressionAssertionForReason:(_Bool)arg1;
+- (struct CGRect)inputModeAssertion;
+- (struct CGRect)canOverflowItems;
 - (id):(struct CGRect)arg1;
 - (void)ssory type.;
 - (struct CGRect)`Å];

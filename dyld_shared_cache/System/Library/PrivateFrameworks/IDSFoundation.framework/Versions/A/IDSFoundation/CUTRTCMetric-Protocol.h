@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned short rtcType;
 @end
 

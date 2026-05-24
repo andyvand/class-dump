@@ -6,36 +6,27 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CLSTimeInterval : CLSObject
 {
     NSDate *_startTime;
-    double _length;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_destructiveActionRequiresAuth;
 - (id);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)"BMStoreEvent"8;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

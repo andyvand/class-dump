@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)om.apple.arkit.worldTracking.warningSounds;
 + (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)setAccessibilityCustomActions: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 

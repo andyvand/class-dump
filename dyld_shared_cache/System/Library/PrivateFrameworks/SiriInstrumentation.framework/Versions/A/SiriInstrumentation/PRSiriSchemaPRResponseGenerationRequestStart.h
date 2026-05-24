@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PRSiriSchemaPRResponseGenerationRequestStart : SISchemaInstrumentationMessage
 {
@@ -22,18 +22,17 @@
 - (unsigned int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)onse;
+- (id)_sonicResponse;
 - (id)ata;
-- (void)_UNSET_RELATIONSHIP;
+- (void)FLOWSTATETYPE_CHECK_UNSET_RELATIONSHIP;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionStatementIds; // @synthesize actionStatementIds=_actionStatementIds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

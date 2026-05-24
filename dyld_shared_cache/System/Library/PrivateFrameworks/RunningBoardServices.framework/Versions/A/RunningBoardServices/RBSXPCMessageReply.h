@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBSXPCCoder, RBSXPCMessageContext;
+@class RBSXPCCoder;
 @protocol RBSXPCEncoding><RBSXPCDecoding;
 
 @interface RBSXPCMessageReply
 {
     RBSXPCCoder *_payload;
-    RBSXPCMessageContext *_context;
-    _Bool _sent;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)anslocationBundlePath;
+- (void)beforeTranslocationBundlePath;
 
 // Remaining properties
 @property(readonly, nonatomic) id <RBSXPCEncoding><RBSXPCDecoding> payload; // @synthesize payload=_payload;

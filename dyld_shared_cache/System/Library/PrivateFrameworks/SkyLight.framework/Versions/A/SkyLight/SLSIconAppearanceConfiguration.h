@@ -7,9 +7,6 @@
 @interface SLSIconAppearanceConfiguration
 {
     unsigned int _iconAppearanceTheme;
-    unsigned int _iconTintColorName;
-    unsigned int _appearanceTheme;
-    struct CGColor *_otherIconTintColor;
 }
 
 @end

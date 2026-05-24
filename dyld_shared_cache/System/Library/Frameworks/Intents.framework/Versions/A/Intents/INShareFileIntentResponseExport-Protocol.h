@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray, NSNumber;
 
 @protocol INShareFileIntentResponseExport
-- (NSNumber *)etion: /* Error: Ran out of types for this method. */;
-- (long long)s;
-- (NSArray *)boundedValue;
-- (void)OCAL_EMERGENCY;
+- (void);
+- (NSNumber *);
+- (NSNumber *)resolveTemporalEventTriggerForSetTemporalSetting:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)includeUserActivityTypes;
+- (NSArray *)_boundedValue;
+- (void)LOCAL_EMERGENCY;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *confirm;
-@property(copy) NSArray *recipients;
-@property(copy) NSString *shareMode;
-@property(copy) NSNumber *success;
 @end
 

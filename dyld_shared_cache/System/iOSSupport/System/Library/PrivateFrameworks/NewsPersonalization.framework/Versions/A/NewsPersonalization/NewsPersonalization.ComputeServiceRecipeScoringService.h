@@ -7,11 +7,6 @@
 @interface NewsPersonalization.ComputeServiceRecipeScoringService
 {
     id bundleSubscriptionManager;
-    id computeService;
-    id featuresFactory;
-    id personalizationTreatment;
-    id recipeHistory;
-    id userEventHistoryFeaturesFactory;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMColor, REMListBadge, REMSmartListChangeItem;
+@class REMSmartListChangeItem;
 
 @interface REMSmartListCustomContextChangeItem
 {
@@ -17,16 +17,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)o prepare tombstones needing sync query:(id)arg1 %{public}@;
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)s then it's fine {class:%{public}@, self-map:%@, other-map:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) REMListBadge *badge;
-@property(copy, nonatomic) REMColor *color;
-@property(copy, nonatomic) NSString *name;
 @property(retain, nonatomic) REMSmartListChangeItem *smartListChangeItem; // @synthesize smartListChangeItem=_smartListChangeItem;
 
 @end

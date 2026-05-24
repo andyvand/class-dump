@@ -6,16 +6,11 @@
 
 #import <OnBoardingKit/OBWelcomeController.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 @interface OBPrivacyCombinedController : OBWelcomeController
 {
     _Bool _underlineLinks;
-    _Bool _allowsOpeningSafari;
-    _Bool _presentedFromPrivacyPane;
-    UIColor *_customTintColor;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
 }
 
 + (void);
@@ -30,7 +25,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
@@ -38,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
 @property(retain, nonatomic) UIColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property _Bool presentedFromPrivacyPane; // @synthesize presentedFromPrivacyPane=_presentedFromPrivacyPane;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end
 

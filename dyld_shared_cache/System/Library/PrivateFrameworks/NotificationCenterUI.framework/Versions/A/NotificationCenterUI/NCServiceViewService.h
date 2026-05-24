@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NCRemoteViewServiceContainerView, NCServiceWindow, NSString, NSUUID, NSView;
+@class NCRemoteViewServiceContainerView, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface NCServiceViewService
 {
     NCRemoteViewServiceContainerView *_rootContainer;
-    NCServiceWindow *_ncServiceWindow;
-    NSUUID *_uuid;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)[;
 - (id);
 - (_Bool);
 - (id);
@@ -31,15 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSView *rootContainer;
-@property(readonly) NCServiceWindow *serviceWindow; // @synthesize serviceWindow=_ncServiceWindow;
-@property(readonly) Class superclass;
 @property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

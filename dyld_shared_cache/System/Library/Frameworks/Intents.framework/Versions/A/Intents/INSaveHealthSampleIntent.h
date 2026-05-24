@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class HKUnit, INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange;
 
 @interface INSaveHealthSampleIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool)H;
 - (void);
 - (void);
 - (void);
@@ -23,32 +23,21 @@
 - (void);
 - (id);
 - (id);
+- (void)makeAdditionFromStagingURL:(id)arg1 metadata:inStorage:error: /* Error: Ran out of types for this method. */;
+- (id)setIcscEntryView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)6Q24q32;
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long objectType;
 @property(readonly, copy) INDateComponentsRange *recordDate;
-@property(readonly, copy) NSArray *sampleMetadatas;
-@property(readonly) Class superclass;
-@property(readonly, copy) HKUnit *unit;
-@property(readonly, copy) NSArray *values;
 
 @end
 

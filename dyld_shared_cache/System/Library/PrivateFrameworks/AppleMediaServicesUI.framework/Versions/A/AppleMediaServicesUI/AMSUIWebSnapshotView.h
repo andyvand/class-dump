@@ -12,23 +12,21 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebSnapshotView : AMSUICommonView
 {
     NSView *_snapshot;
-    double _originalRatio;
 }
 
-+ (void);
++ (void)$;
 + (id);
+- (void) ;
+- (id)et type:%{public}@ /* Error: Ran out of types for this method. */;
+- (double):%d, cachedOnly:%d /* Error: Ran out of types for this method. */;
+- (id)exist:(id)arg1 %@;
 - (void);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
+- (void)tlightReindexingRequested;
 - (void)dd}{CGSize=dd}}16;
-- (void)ngsNavigationProxy;
+- (void)_disableSettingsNavigationProxy;
 - (id)=yl=yACyACyACy¥S='=GbJ=ydN=SgGG{B=y%S=GG_	=Qo_=Gt;
 
 // Remaining properties
-@property double originalRatio; // @synthesize originalRatio=_originalRatio;
 @property(retain) NSView *snapshot; // @synthesize snapshot=_snapshot;
 
 @end

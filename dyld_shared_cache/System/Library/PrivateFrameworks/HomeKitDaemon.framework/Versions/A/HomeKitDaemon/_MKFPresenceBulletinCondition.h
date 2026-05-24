@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFBulletinCondition.h>
 
-@class MKFPresenceBulletinConditionDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFBulletinRegistration, MKFHome;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFPresenceBulletinCondition : _MKFBulletinCondition
@@ -21,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)V_maxPostedNotifications;
+- (id)"<GEOTransitTextDataSource>",R,N;
+- (id)minimalStrategyIdentifiersCount;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -33,24 +32,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFBulletinRegistration> bulletinRegistration;
-@property(readonly, copy, nonatomic) MKFPresenceBulletinConditionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSArray *guests;
-@property(retain, nonatomic) NSSet *guests_; // @dynamic guests_;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
 @property(copy, nonatomic) NSNumber *presenceEventType; // @dynamic presenceEventType;
-@property(copy, nonatomic) NSNumber *presenceEventUserType; // @dynamic presenceEventUserType;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *users;
-@property(retain, nonatomic) NSSet *users_; // @dynamic users_;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

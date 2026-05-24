@@ -7,11 +7,9 @@
 @interface CKTranscriptTextEffectsState
 {
     _Bool inTransition;
-    _Bool isReady;
-    _Bool hasAttention;
 }
 
-- (void);
+- (void)d;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -21,10 +19,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasAttention; // @synthesize hasAttention;
 @property(nonatomic) _Bool inTransition; // @synthesize inTransition;
-@property(nonatomic, readonly) _Bool isPaused;
-@property(nonatomic) _Bool isReady; // @synthesize isReady;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactActionsView, CNUIUserActionListDataSource, NSString;
-@protocol CNContactActionsObserver, CNContactActionsViewControllerDelegate, CNUIUserActionContext;
+@class CNContactActionsView;
+@protocol CNContactActionsViewControllerDelegate;
 
 @interface CNContactActionsViewController
 {
     id <CNContactActionsViewControllerDelegate> _delegate;
-    long long _quickActionViewStyle;
-    CNUIUserActionListDataSource *_userActionListDataSource;
-    id <CNContactActionsObserver> _observer;
-    CNContactActionsView *_contactActionsView;
-    id <CNUIUserActionContext> _actionContext;
 }
 
 - (id);
@@ -26,21 +21,21 @@
 - (long long);
 - (void);
 - (id);
+- (void);
+- (double);
+- (double);
 - (void);
-- (double);
-- (double);
 - (void);
-- (void);
-- (void);
+- (void));
 - (id);
-- (void);
+- (void)T';
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)U;
 - (void);
-- (id);
+- (id)assistiveTouchSwitches;
 - (void);
 - (void);
 - (void);
@@ -52,19 +47,7 @@
 YêGGtGGAZGAEG_AByOTêGAZGêGyNêG_»@êGQo_SgA18_½iäJt;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNUIUserActionContext> actionContext; // @synthesize actionContext=_actionContext;
 @property(retain, nonatomic) CNContactActionsView *contactActionsView; // @synthesize contactActionsView=_contactActionsView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactActionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNContactActionsObserver> observer; // @synthesize observer=_observer;
-@property(nonatomic) long long quickActionViewStyle; // @synthesize quickActionViewStyle=_quickActionViewStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNUIUserActionListDataSource *userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
 
 @end
 

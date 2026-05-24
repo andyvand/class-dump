@@ -6,31 +6,27 @@
 
 #import <IMCore/IMMessageStatusChatItem.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IMMessageAttributionChatItem : IMMessageStatusChatItem
 {
     _Bool _showsLearnMoreLink;
-    NSDictionary *_attributionInfo;
-    long long _attributionType;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)tream groups. mediaType=%@ mediaState=%@ error=%@;
+- (_Bool)entTargetQueueSize=%f
+;
+- (id)tter[%p] AudioTierPicker was reset. Current audioTier info from default tier:(unsigned long long)arg1 payload=%u audioCodecBitrate=%u redNumPayloads=%u packetsPerBundle=%u operatingMode=%d.;
+- (id)%s:(id)arg1 %d %@(%p) Media states for mediaType=%@ are mismatched state=%@ != state=%@;
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void)245D6;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly, nonatomic) long long attributionType; // @synthesize attributionType=_attributionType;
-@property(readonly, copy, nonatomic) NSString *bundleID;
-@property(readonly, nonatomic) _Bool showsLearnMoreLink; // @synthesize showsLearnMoreLink=_showsLearnMoreLink;
 
 @end
 

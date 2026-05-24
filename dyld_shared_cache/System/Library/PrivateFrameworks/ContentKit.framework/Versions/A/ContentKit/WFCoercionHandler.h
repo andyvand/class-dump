@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFCoercionHandler
 {
     CDUnknownBlockType _block;
-    CDUnknownBlockType _asynchronousBlock;
-    NSString *_keyPath;
-    CDUnknownBlockType _availabilityCheck;
 }
 
 + (id);
@@ -35,11 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType asynchronousBlock; // @synthesize asynchronousBlock=_asynchronousBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType availabilityCheck; // @synthesize availabilityCheck=_availabilityCheck;
-@property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly, nonatomic) long long concurrencyMode;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 
 @end
 

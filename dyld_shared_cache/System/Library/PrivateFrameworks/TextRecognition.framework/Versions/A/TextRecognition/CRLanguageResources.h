@@ -9,12 +9,6 @@
 @interface CRLanguageResources
 {
     NSLocale *_locale;
-    void *_lmCharacterLanguageModel;
-    struct CVNLPLanguageModel *_cvnlpCharacterLanguageModel;
-    struct _LXLexicon *_staticLexicon;
-    void *_wordLanguageModel;
-    void *_wordTokenizer;
-    CVNLPLanguageResourceBundle *__cvnlpLanguageResourceBundle;
 }
 
 + (_Bool);
@@ -28,7 +22,7 @@
 - (void);
 - (void *);
 - (_Bool);
-- (id);
+- (id)";
 - (id);
 - (struct CVNLPLanguageModel *);
 - (id);
@@ -40,13 +34,6 @@
 
 // Remaining properties
 @property(retain) CVNLPLanguageResourceBundle *_cvnlpLanguageResourceBundle; // @synthesize _cvnlpLanguageResourceBundle=__cvnlpLanguageResourceBundle;
-@property(readonly, nonatomic) struct CVNLPLanguageModel *cvnlpCharacterLanguageModel; // @synthesize cvnlpCharacterLanguageModel=_cvnlpCharacterLanguageModel;
-@property(readonly, nonatomic) _Bool isCustomWordsSupported;
-@property(readonly, nonatomic) void *lmCharacterLanguageModel; // @synthesize lmCharacterLanguageModel=_lmCharacterLanguageModel;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) struct _LXLexicon *staticLexicon; // @synthesize staticLexicon=_staticLexicon;
-@property(readonly, nonatomic) void *wordLanguageModel; // @synthesize wordLanguageModel=_wordLanguageModel;
-@property(readonly, nonatomic) void *wordTokenizer; // @synthesize wordTokenizer=_wordTokenizer;
 
 @end
 

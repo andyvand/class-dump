@@ -4,71 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageAttachmentUpload
 {
     unsigned long long _timestamp;
-    unsigned int _attachmentSize;
-    unsigned int _connectionType;
-    int _firstLevelMMCSError;
-    NSString *_firstLevelMMCSErrorDomain;
-    int _fourthLevelMMCSError;
-    NSString *_fourthLevelMMCSErrorDomain;
-    int _fzError;
-    int _genericError;
-    NSString *_guid;
-    unsigned int _lastPrewarmDuration;
-    int _linkQuality;
-    unsigned int _messageError;
-    int _secondLevelMMCSError;
-    NSString *_secondLevelMMCSErrorDomain;
-    int _thirdLevelMMCSError;
-    NSString *_thirdLevelMMCSErrorDomain;
-    unsigned int _timeFromLastPrewarm;
-    unsigned int _tokenError;
-    unsigned int _uploadDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int attachmentSize:1;
-        unsigned int connectionType:1;
-        unsigned int firstLevelMMCSError:1;
-        unsigned int fourthLevelMMCSError:1;
-        unsigned int fzError:1;
-        unsigned int genericError:1;
-        unsigned int lastPrewarmDuration:1;
-        unsigned int linkQuality:1;
-        unsigned int messageError:1;
-        unsigned int secondLevelMMCSError:1;
-        unsigned int thirdLevelMMCSError:1;
-        unsigned int timeFromLastPrewarm:1;
-        unsigned int tokenError:1;
-        unsigned int uploadDuration:1;
-    } _has;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)@9	;
 - (int);
 - (void);
 - (void);
 - (void);
+- (void)r;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R);
 - (void);
 - (void);
 - (void);
@@ -82,25 +44,25 @@
 - (int);
 - (unsigned int);
 - (_Bool);
+- (_Bool) *;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)R_;
+- (_Bool);
+- (_Bool)}S	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)I#;
 - (id);
 - (int);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)	;
 - (int);
 - (void);
 - (unsigned int);
@@ -109,23 +71,23 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (unsigned long long)?6;
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void)o;
 - (void);
-- (void);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)y;
+- (int);
 - (void);
 - (_Bool);
 - (void);
@@ -134,46 +96,7 @@
 - (void)ðzèÿoÅ	;
 
 // Remaining properties
-@property(nonatomic) unsigned int attachmentSize; // @synthesize attachmentSize=_attachmentSize;
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int firstLevelMMCSError; // @synthesize firstLevelMMCSError=_firstLevelMMCSError;
-@property(retain, nonatomic) NSString *firstLevelMMCSErrorDomain; // @synthesize firstLevelMMCSErrorDomain=_firstLevelMMCSErrorDomain;
-@property(nonatomic) int fourthLevelMMCSError; // @synthesize fourthLevelMMCSError=_fourthLevelMMCSError;
-@property(retain, nonatomic) NSString *fourthLevelMMCSErrorDomain; // @synthesize fourthLevelMMCSErrorDomain=_fourthLevelMMCSErrorDomain;
-@property(nonatomic) int fzError; // @synthesize fzError=_fzError;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasAttachmentSize;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasFirstLevelMMCSError;
-@property(readonly, nonatomic) _Bool hasFirstLevelMMCSErrorDomain;
-@property(nonatomic) _Bool hasFourthLevelMMCSError;
-@property(readonly, nonatomic) _Bool hasFourthLevelMMCSErrorDomain;
-@property(nonatomic) _Bool hasFzError;
-@property(nonatomic) _Bool hasGenericError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasLastPrewarmDuration;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasMessageError;
-@property(nonatomic) _Bool hasSecondLevelMMCSError;
-@property(readonly, nonatomic) _Bool hasSecondLevelMMCSErrorDomain;
-@property(nonatomic) _Bool hasThirdLevelMMCSError;
-@property(readonly, nonatomic) _Bool hasThirdLevelMMCSErrorDomain;
-@property(nonatomic) _Bool hasTimeFromLastPrewarm;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTokenError;
-@property(nonatomic) _Bool hasUploadDuration;
-@property(nonatomic) unsigned int lastPrewarmDuration; // @synthesize lastPrewarmDuration=_lastPrewarmDuration;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) unsigned int messageError; // @synthesize messageError=_messageError;
-@property(nonatomic) int secondLevelMMCSError; // @synthesize secondLevelMMCSError=_secondLevelMMCSError;
-@property(retain, nonatomic) NSString *secondLevelMMCSErrorDomain; // @synthesize secondLevelMMCSErrorDomain=_secondLevelMMCSErrorDomain;
-@property(nonatomic) int thirdLevelMMCSError; // @synthesize thirdLevelMMCSError=_thirdLevelMMCSError;
-@property(retain, nonatomic) NSString *thirdLevelMMCSErrorDomain; // @synthesize thirdLevelMMCSErrorDomain=_thirdLevelMMCSErrorDomain;
-@property(nonatomic) unsigned int timeFromLastPrewarm; // @synthesize timeFromLastPrewarm=_timeFromLastPrewarm;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int tokenError; // @synthesize tokenError=_tokenError;
-@property(nonatomic) unsigned int uploadDuration; // @synthesize uploadDuration=_uploadDuration;
 
 @end
 

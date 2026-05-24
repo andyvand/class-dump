@@ -5,10 +5,11 @@
 //
 
 @protocol _UISEGestureFeatureSettings
+- (double)ts:| clearing result [not found] result=%@ /* Error: Ran out of types for this method. */;
+- (double);
 - (struct CGRect)!;
 - (double)!üDùQfð1Â0@ù
 × ;
-- (double);
 - (unsigned long long)neDelegate",R,N;
 - (double)entifier;
 - (double)ºîÿ;
@@ -17,20 +18,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double backProjectTime;
-@property(readonly, nonatomic) double bottomEdgeAngleWindow;
-@property(readonly, nonatomic) double bottomEdgeRegionSize;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) double cornerAngleWindow;
-@property(readonly, nonatomic) _Bool disableEdgeRegionEnforcement;
-@property(readonly, nonatomic) double edgeAngleWindow;
-@property(readonly, nonatomic) double edgeAngleWindowDecayTime;
-@property(readonly, nonatomic) double edgeRegionSize;
-@property(readonly, nonatomic) double hysteresis;
-@property(readonly, nonatomic) _Bool ignoreHIDEdgeFlags;
-@property(readonly, nonatomic) unsigned long long interfaceBottomEdge;
-@property(readonly, nonatomic) double maximumBackProjectTimeFactor;
-@property(readonly, nonatomic) double maximumSwipeDuration;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfSubfeatures;
-@property(readonly, nonatomic) unsigned long long targetEdges;
 @end
 

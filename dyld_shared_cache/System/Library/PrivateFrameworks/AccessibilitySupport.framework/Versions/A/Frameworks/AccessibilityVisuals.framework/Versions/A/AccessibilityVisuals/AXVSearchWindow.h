@@ -6,21 +6,11 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVSearchTextField, NSColor, NSImageView, NSString;
-@protocol AXVSearchTextFieldUpdateListener;
+@class AXVSearchTextField;
 
 @interface AXVSearchWindow : AXVVoiceOverStyleWindow
 {
     _Bool __isTransparent;
-    _Bool __defaultOpaque;
-    _Bool __defaultHasShadow;
-    double _baseFontSize;
-    AXVSearchTextField *__searchTextField;
-    NSImageView *__searchIconImageView;
-    NSColor *__defaultBackgroundColor;
-    double __defaultSearchIconImageViewAlpha;
-    double __defaultSearchTextFieldAlpha;
-    double __defaultVisualeffectViewAlpha;
 }
 
 - (void);
@@ -43,11 +33,11 @@
 - (double);
 - (double);
 - (double);
+- (_Bool)y	?%@qa;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@y;
 - (id);
 - (id);
 - (void);
@@ -57,26 +47,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)/;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *_defaultBackgroundColor; // @synthesize _defaultBackgroundColor=__defaultBackgroundColor;
-@property(nonatomic) _Bool _defaultHasShadow; // @synthesize _defaultHasShadow=__defaultHasShadow;
-@property(nonatomic) _Bool _defaultOpaque; // @synthesize _defaultOpaque=__defaultOpaque;
-@property(nonatomic) double _defaultSearchIconImageViewAlpha; // @synthesize _defaultSearchIconImageViewAlpha=__defaultSearchIconImageViewAlpha;
-@property(nonatomic) double _defaultSearchTextFieldAlpha; // @synthesize _defaultSearchTextFieldAlpha=__defaultSearchTextFieldAlpha;
-@property(nonatomic) double _defaultVisualeffectViewAlpha; // @synthesize _defaultVisualeffectViewAlpha=__defaultVisualeffectViewAlpha;
-@property(nonatomic) _Bool _isTransparent; // @synthesize _isTransparent=__isTransparent;
-@property(retain, nonatomic, setter=_setSearchIconImageView:) NSImageView *_searchIconImageView; // @synthesize _searchIconImageView=__searchIconImageView;
 @property(retain, nonatomic, setter=_setSearchTextField:) AXVSearchTextField *_searchTextField; // @synthesize _searchTextField=__searchTextField;
-@property(nonatomic) double baseFontSize; // @synthesize baseFontSize=_baseFontSize;
-@property(copy, nonatomic) NSString *searchText;
-@property(nonatomic) __weak id <AXVSearchTextFieldUpdateListener> searchTextUpdateListener;
-@property(nonatomic) struct _NSRange selectionRange;
 
 @end
 

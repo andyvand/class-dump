@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, NSString, RTDefaultsManager, RTTimer, RTTimerManager, SMWatchdogRecord;
-@protocol OS_dispatch_queue;
-
 @interface SMWatchdog
 {
     CDUnknownBlockType _handler;
-    RTDefaultsManager *_defaultsManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    SMWatchdogRecord *_mostRecentRecord;
-    double _heartbeatInterval;
-    RTTimer *_watchdogTimer;
-    NSDate *_watchdogTimerFireDate;
-    RTTimerManager *_timerManager;
-    NSMutableArray *_records;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -38,8 +27,8 @@
 - (void);
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
+- (void)recordIDStatment;
 - (id);
 - (void);
 - (void);
@@ -60,22 +49,7 @@
 Skipping place inference in multi class model because all the longest biome stream bucketed values are <= 1. It means the stream doesn't exist or the values are less than 10 mins each.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double heartbeatInterval; // @synthesize heartbeatInterval=_heartbeatInterval;
-@property(retain, nonatomic) SMWatchdogRecord *mostRecentRecord; // @synthesize mostRecentRecord=_mostRecentRecord;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
-@property(retain, nonatomic) NSDate *watchdogTimerFireDate; // @synthesize watchdogTimerFireDate=_watchdogTimerFireDate;
 
 @end
 

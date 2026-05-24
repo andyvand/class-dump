@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol DDSAssetProvidingDelegate;
 
 @protocol DDSAssetProviding
+- (void);
+- (NSArray *);
 
 // Remaining properties
 @property(retain, nonatomic) id <DDSAssetProvidingDelegate> delegate;

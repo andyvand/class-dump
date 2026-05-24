@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVTAvatarAttributeEditorLayout
 {
     _Bool _showSideGroupPicker;
-    _Bool _RTL;
-    double _userInfoViewHeight;
-    double _screenScale;
-    NSString *_contentSizeCategory;
-    double _maxGroupLabelWidth;
-    struct CGSize _containerSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 - (struct CGRect);
@@ -33,40 +24,20 @@
 - (double);
 - (struct CGRect);
 - (struct CGRect);
-- (double);
+- (double);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (id);
+- (id)latedTimeBetweenXfers(230):Cannot add 2 elements to context /* Error: Ran out of types for this method. */;
 - (double);
 - (struct CGSize);
-- (id);
+- (id)nstant answers] %{public}@ _searchFoundInstantAnswers:%@ isFinished:%d with instant answers count:%ld /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool RTL; // @synthesize RTL=_RTL;
-@property(readonly, nonatomic) struct CGRect attributesContentViewFrame;
-@property(readonly, nonatomic) struct UIEdgeInsets attributesContentViewInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets attributesContentViewScrollIndicatorInsets;
-@property(readonly, nonatomic) double avatarContainerAlpha;
-@property(readonly, nonatomic) struct CGRect avatarContainerFrame;
 @property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, copy, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly, nonatomic) struct CGRect groupDialContainerFrame;
-@property(readonly, nonatomic) double headerMaskingViewAlpha;
-@property(readonly, nonatomic) struct CGRect headerMaskingViewFrame;
-@property(readonly, nonatomic) double maxGroupLabelWidth; // @synthesize maxGroupLabelWidth=_maxGroupLabelWidth;
-@property(readonly, nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(readonly, nonatomic) _Bool showSideGroupPicker; // @synthesize showSideGroupPicker=_showSideGroupPicker;
-@property(readonly, nonatomic) struct CGRect sideGroupContainerFrame;
-@property(readonly, nonatomic) unsigned long long supportedLayoutOrientation;
-@property(readonly, nonatomic) struct CGRect userInfoFrame;
-@property(readonly, nonatomic) double userInfoViewHeight; // @synthesize userInfoViewHeight=_userInfoViewHeight;
-@property(readonly, nonatomic) double verticalRuleAlpha;
-@property(readonly, nonatomic) struct CGRect verticalRuleFrame;
 
 @end
 

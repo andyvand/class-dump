@@ -6,71 +6,40 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSColorSpace, NSData, NSMutableArray, NSMutableData, NSMutableDictionary;
 @protocol NSObject;
 
 @interface NSBitmapImageRep : NSImageRep
 {
     unsigned int _bytesPerRow;
-    struct {
-        unsigned int bitsPerPixel:8;
-        unsigned int isPlanar:1;
-        unsigned int explicitPlanes:1;
-        unsigned int imageSourceIsIndexed:1;
-        unsigned int dataLoaded:1;
-        unsigned int colorModel:4;
-        unsigned int tierTwoInfoIsLoaded:1;
-        unsigned int respectO:1;
-        unsigned int compressionFactor:14;
-        unsigned int imageNumber:8;
-        unsigned int bitmapFormat:3;
-        unsigned int cgImageIsPrimary:1;
-        unsigned int compression:20;
-    } _moreRepFlags;
-    id <NSObject> _backing;
-    NSMutableData *_mutableDataBacking;
-    NSMutableArray *_previousMutableDataBackings;
-    NSMutableDictionary *_properties;
-    NSData *_tiffData;
 }
 
 + (void);
++ (void)_allowsReachabilityCheck;
++ (id);
++ (id)etup will wait for reply:(unsigned long long)arg1 session %@ with identifier %@;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (void);
++ (_Bool)TTPServerRequest}^{PendingQueue}^{ActiveResponseInfo}^{__CFData}^{LeftoverBuffer}q@@^{__CFRunLoopTimer}}8;
++ (_Bool), local %s => peer %s %s};
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)$;
++ (id)d
+;
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)5[;
 + (id);
 + (_Bool);
 + (void)c"RéH;
 
 // Remaining properties
-@property(readonly) struct CGImage *CGImage;
-@property(readonly, copy) NSData *TIFFRepresentation;
 @property(retain, setter=_setBacking:) id <NSObject> _backing; // @synthesize _backing;
-@property(readonly) char *bitmapData;
-@property(readonly) unsigned long long bitmapFormat;
-@property(readonly) long long bitsPerPixel;
-@property(readonly) long long bytesPerPlane;
-@property(readonly) long long bytesPerRow;
-@property(readonly) NSColorSpace *colorSpace;
-@property(readonly) long long numberOfPlanes;
-@property(readonly, getter=isPlanar) _Bool planar;
-@property(readonly) long long samplesPerPixel;
 
 @end
 

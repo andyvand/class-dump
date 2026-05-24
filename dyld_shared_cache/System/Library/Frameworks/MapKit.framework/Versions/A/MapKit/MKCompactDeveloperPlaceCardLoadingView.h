@@ -12,8 +12,8 @@
 }
 
 + (struct CGSize)½¶;
-- (id);
-- (void)eason:userInfo: /* Error: Ran out of types for this method. */;
+- (id)ot get confidence output. Error = %s;
+- (void)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

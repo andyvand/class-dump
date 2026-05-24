@@ -6,14 +6,11 @@
 
 #import <Silex/SXAnalyticsEvent.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SXComponentExposureEvent : SXAnalyticsEvent
 {
     NSString *_componentIdentifier;
-    NSString *_componentType;
-    NSString *_componentRole;
-    NSDictionary *_metaData;
 }
 
 - (id);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(readonly, nonatomic) NSString *componentRole; // @synthesize componentRole=_componentRole;
-@property(readonly, nonatomic) NSString *componentType; // @synthesize componentType=_componentType;
-@property(readonly, nonatomic) NSDictionary *metaData; // @synthesize metaData=_metaData;
 
 @end
 

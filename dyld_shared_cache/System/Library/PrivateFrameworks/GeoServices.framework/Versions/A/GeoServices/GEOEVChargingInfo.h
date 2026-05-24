@@ -4,65 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOChargerPlugsInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOEVChargingInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOChargerPlugsInfo *_chargerPlugsInfo;
-    unsigned int _batteryChargeAfterCharging;
-    unsigned int _batteryPercentageAfterCharging;
-    unsigned int _chargingTime;
-    struct {
-        unsigned int has_batteryChargeAfterCharging:1;
-        unsigned int has_batteryPercentageAfterCharging:1;
-        unsigned int has_chargingTime:1;
-    } _flags;
 }
 
-+ (_Bool)imestamp:(id)arg1;
++ (_Bool)setHasRelativeTimestamp:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)applicationProxyForIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)addCompletionBlock:orCallWithFutureResult: /* Error: Ran out of types for this method. */;
+- (_Bool)addCancelationBlock: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)updateAccessToRecordedAudioForVoiceIdentificationTraining:(id)arg1 forResultCandidateId:sharedUserId: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)core:(struct _NSZone *)arg1;
-- (id)ceDataComponentKey;
+- (id)setHasResponsivenessScore:(struct _NSZone *)arg1;
+- (id)GEOPlaceDataComponentKey;
 - (id);
 - (id)88;
 - (void)Jí4;
 
 // Remaining properties
-@property(nonatomic) unsigned int batteryChargeAfterCharging;
-@property(nonatomic) unsigned int batteryPercentageAfterCharging;
-@property(retain, nonatomic) GEOChargerPlugsInfo *chargerPlugsInfo;
-@property(nonatomic) unsigned int chargingTime;
-@property(nonatomic) _Bool hasBatteryChargeAfterCharging;
-@property(nonatomic) _Bool hasBatteryPercentageAfterCharging;
-@property(readonly, nonatomic) _Bool hasChargerPlugsInfo;
 @property(nonatomic) _Bool hasChargingTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

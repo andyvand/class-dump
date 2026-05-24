@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _StartPageCollectionLayoutEnvironment
 {
@@ -19,8 +17,6 @@ __attribute__((visibility("hidden")))
         _Bool requiresFullRows;
         _Bool shouldUseContentWidth;
     } _currentLayoutValues;
-    struct NSDirectionalEdgeInsets _contentInsets;
-    double _contentWidth;
 }
 
 - (long long);
@@ -28,22 +24,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (double);
-- (double);
-- (double);
-- (struct NSDirectionalEdgeInsets);
+- (double);
+- (double)?רC;
+- (struct NSDirectionalEdgeInsets)letions;
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) double contentWidth; // @synthesize contentWidth=_contentWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double effectiveContentWidth;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double interItemSpacingWidth;
-@property(readonly) Class superclass;
 
 @end
 

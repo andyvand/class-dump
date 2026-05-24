@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSUUID;
 @protocol VCCaptionsSource;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsManagerStreamTokenClientList
 {
     long long _streamToken;
-    NSUUID *_translatorIdentifier;
-    id <VCCaptionsSource> _captionsSource;
-    NSMutableArray *_clientContextList;
-    _Bool _sourceLocaleEligibleToBeModified;
-    _Bool _sourceLocaleHasBeenSet;
-    NSString *_sourceLocaleIdentifier;
 }
 
 + (long long);
@@ -25,26 +18,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)!;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void)!;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <VCCaptionsSource> captionsSource; // @synthesize captionsSource=_captionsSource;
-@property(readonly, nonatomic) NSArray *clientContextList; // @synthesize clientContextList=_clientContextList;
-@property(nonatomic) _Bool sourceLocaleEligibleToBeModified; // @synthesize sourceLocaleEligibleToBeModified=_sourceLocaleEligibleToBeModified;
-@property(nonatomic) _Bool sourceLocaleHasBeenSet; // @synthesize sourceLocaleHasBeenSet=_sourceLocaleHasBeenSet;
-@property(copy, nonatomic) NSString *sourceLocaleIdentifier; // @synthesize sourceLocaleIdentifier=_sourceLocaleIdentifier;
-@property(readonly, nonatomic) long long streamToken;
-@property(copy, nonatomic) NSUUID *translatorIdentifier; // @synthesize translatorIdentifier=_translatorIdentifier;
 
 @end
 

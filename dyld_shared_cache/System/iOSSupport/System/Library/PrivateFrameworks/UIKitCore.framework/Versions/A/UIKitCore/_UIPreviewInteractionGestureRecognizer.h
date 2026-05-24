@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)Progress:forceUpdate:animated: /* Error: Ran out of types for this method. */;
-- (void)nchingAssertionAttributes:(id)arg1;
-- (void)rViews;
-- (void)tForState:(id)arg1;
+- (void)setBackgroundTransitionProgress:forceUpdate:animated: /* Error: Ran out of types for this method. */;
+- (void)remoteTargetWithLaunchingAssertionAttributes:(id)arg1;
+- (void)_updateConstantsForVisibleCellsAndHeaderFooterViews;
+- (void)_fallbackFontForState:(id)arg1;
 - (void)UINavigationBackButtonAccessibilityBackgroundLandscape.png;
 
 @end

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMediaTaskTypeConfig, NSArray, NSDictionary, NSString;
-@protocol AMSBagProtocol;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSMediaTaskURLBuilder
 {
     _Bool _charts;
-    NSArray *_additionalPlatforms;
-    NSDictionary *_additionalQueryParams;
-    NSString *_appDistributionCountryCodeOverride;
-    id <AMSBagProtocol> _bag;
-    NSArray *_bundleIdentifiers;
-    NSString *_clientVersion;
-    AMSMediaTaskTypeConfig *_config;
-    NSDictionary *_filters;
-    NSArray *_includedResultKeys;
-    NSArray *_itemIdentifiers;
-    NSString *_logKey;
-    NSString *_searchTerm;
 }
 
 - (void);
@@ -30,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -48,11 +35,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)4¨þÿàNþÿ¨þÿ;
@@ -71,18 +58,6 @@ W à /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSArray *additionalPlatforms; // @synthesize additionalPlatforms=_additionalPlatforms;
-@property(retain) NSDictionary *additionalQueryParams; // @synthesize additionalQueryParams=_additionalQueryParams;
-@property(retain) NSString *appDistributionCountryCodeOverride; // @synthesize appDistributionCountryCodeOverride=_appDistributionCountryCodeOverride;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property _Bool charts; // @synthesize charts=_charts;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly) AMSMediaTaskTypeConfig *config; // @synthesize config=_config;
-@property(retain) NSDictionary *filters; // @synthesize filters=_filters;
-@property(retain) NSArray *includedResultKeys; // @synthesize includedResultKeys=_includedResultKeys;
-@property(retain) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
 
 @end
 

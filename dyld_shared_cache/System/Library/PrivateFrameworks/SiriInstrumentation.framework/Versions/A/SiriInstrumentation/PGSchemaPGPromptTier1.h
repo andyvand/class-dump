@@ -6,54 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGPromptTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_prompt;
-    NSString *_grammar;
-    _Bool _hasLinkId;
-    _Bool _hasPrompt;
-    _Bool _hasGrammar;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)cation %@;
+- (void)arate call (enableFindMyAfterSignInForAccount);
+- (id)t.;
+- (_Bool)6;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)chat failed;
 - (id);
 - (id);
 - (id)r°!EùÝÐ1Â0@ù
 × ;
-- (id)HandleTime;
+- (id)_hasQueryDecorationHandleTime;
 - (id)hasCnvUsoGraphTier1;
 - (void)Xô;
-- (void)EASON_PERSONALIZED_HEY_SIRI_SETUP;
+- (void)CDATRUMPREASON_PERSONALIZED_HEY_SIRI_SETUP;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *grammar; // @synthesize grammar=_grammar;
-@property(nonatomic) _Bool hasGrammar; // @synthesize hasGrammar=_hasGrammar;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasPrompt; // @synthesize hasPrompt=_hasPrompt;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
 
 @end
 

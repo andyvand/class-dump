@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString, UNNotification;
+@class UNNotification;
 
 @interface UNNotificationResponse
 {
     UNNotification *_notification;
-    NSString *_actionIdentifier;
-    NSString *_originIdentifier;
-    BSServiceConnectionEndpoint *_targetConnectionEndpoint;
-    NSString *_targetSceneIdentifier;
 }
 
 @end

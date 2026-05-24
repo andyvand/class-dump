@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNNOPRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _detectorWantsAnisotropicScaling;
-    VNSupportedImageSize *_detectorPreferredImageSize;
-    double _detectorExecutionTimeInterval;
 }
 
 - (void);
@@ -24,12 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)oxNormalized;
+- (void)stubBoxNormalized;
 
 // Remaining properties
-@property(nonatomic) double detectorExecutionTimeInterval; // @synthesize detectorExecutionTimeInterval=_detectorExecutionTimeInterval;
 @property(retain, nonatomic) VNSupportedImageSize *detectorPreferredImageSize; // @synthesize detectorPreferredImageSize=_detectorPreferredImageSize;
-@property(nonatomic) _Bool detectorWantsAnisotropicScaling; // @synthesize detectorWantsAnisotropicScaling=_detectorWantsAnisotropicScaling;
 
 @end
 

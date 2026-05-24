@@ -7,21 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceManager
 {
     id _selectedWorkspace;
-    id _selectedDevice;
-    id _message;
-    id _progress;
-    id progressIdentifier;
-    id _workspaceCanvasSort;
-    id _userData;
-    id _sharedWorkspaces;
-    id _configFile;
-    id _workspaces;
-    id workspaceMap;
-    id categoryWorkspaces;
-    id bindingService;
-    id serverService;
-    id groupWorkspace;
-    id feedWorkspaces;
 }
 
 @end

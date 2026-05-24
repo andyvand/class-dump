@@ -6,34 +6,27 @@
 
 #import <OfficeImport/OADDrawableProperties.h>
 
-@class NSArray, NSString, OADFill, OADScene3D, OADShape3D, OADStroke;
+@class OADFill;
 
 __attribute__((visibility("hidden")))
 @interface OADGraphicProperties : OADDrawableProperties
 {
     OADFill *mFill;
-    NSArray *mEffects;
-    NSArray *mExts;
-    OADScene3D *mScene3D;
-    OADShape3D *mShape3D;
-    OADStroke *mStroke;
-    unsigned int mHasIsBehindText:1;
-    unsigned int mIsBehindText:1;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (_Bool);
 - (void);
@@ -41,25 +34,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id);
 - (void)°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

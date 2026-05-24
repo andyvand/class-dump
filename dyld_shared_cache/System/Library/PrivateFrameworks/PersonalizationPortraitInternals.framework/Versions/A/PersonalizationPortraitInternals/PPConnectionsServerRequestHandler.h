@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager;
+@class NSString;
 @protocol PPConnectionsClientProtocol;
 
 @interface PPConnectionsServerRequestHandler
 {
     id <PPConnectionsClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)utScalarRSentimentScore;
+- (void)useCachedPortraitScores;
+- (void)PPTopicAggScoreInputScalarRSentimentScore;
 - (void)tributedResults;
 - (void)B5;
 - (id)ÿçôÎ;

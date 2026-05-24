@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PBMutableData
 {
     char *p;
-    char *buffer;
-    char *end;
 }
 
 - (void);

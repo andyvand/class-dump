@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKDownloaderSpeedTracker
 {
     unsigned long long _averageBytesPerSecond;
-    NSDate *_queueStartTime;
-    unsigned long long _bytesSinceQueueStart;
-    unsigned long long _bytesAtLastUpdate;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)y;
 
 @end
 

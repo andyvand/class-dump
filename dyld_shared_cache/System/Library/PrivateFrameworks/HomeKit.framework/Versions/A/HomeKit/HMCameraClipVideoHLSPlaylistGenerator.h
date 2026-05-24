@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableString, NSURL;
+@class NSMutableString;
 
 @interface HMCameraClipVideoHLSPlaylistGenerator
 {
     NSMutableString *_hlsPlaylistString;
-    NSURL *_url;
 }
 
 + (id);
@@ -23,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSData *hlsPlaylist;
 @property(readonly) NSMutableString *hlsPlaylistString; // @synthesize hlsPlaylistString=_hlsPlaylistString;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
 
 @end
 

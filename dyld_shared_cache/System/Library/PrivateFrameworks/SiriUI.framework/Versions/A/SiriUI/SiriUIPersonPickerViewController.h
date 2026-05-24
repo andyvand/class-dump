@@ -6,7 +6,7 @@
 
 #import <SiriUI/SiriUIObjectPickerViewController.h>
 
-@class CNContactPicker, NSString;
+@class CNContactPicker;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIPersonPickerViewController : SiriUIObjectPickerViewController
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CNContactPicker *_peoplePicker;
 }
 
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void);
@@ -24,13 +24,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

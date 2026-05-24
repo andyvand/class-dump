@@ -4,67 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDatePicker, UIView, _UIDatePickerContainerViewController, _UIDatePickerOverlayPlatterView;
-@protocol _UIDatePickerOverlayPresentationDelegate;
+@class _UIDatePickerContainerViewController;
 
 @interface _UIDatePickerOverlayPresentation
 {
     CDUnknownBlockType _containerPresentCompletion;
-    _Bool _defersAutomaticKeyboardAvoidanceAdjustments;
-    _Bool _accessoryViewIgnoresDefaultInsets;
-    _Bool _presentingContainerViewController;
-    _Bool _ignoresPassthroughOnSourceView;
-    long long _activeMode;
-    UIDatePicker *_activeDatePicker;
-    UIView *_sourceView;
-    long long _alignment;
-    long long _overlayAnchor;
-    UIView *_accessoryView;
-    _UIDatePickerContainerViewController *_containerViewController;
-    _UIDatePickerOverlayPlatterView *_platterView;
-    CDUnknownBlockType _dismissHandler;
-    id <_UIDatePickerOverlayPresentationDelegate> _delegate;
-    struct CGRect _sourceRect;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)16@0:(long long)arg1 8;
+- (void)@"IDSAccount"24@"NSString"32B40@"NSError"44@"IDSMessageContext"52;
+- (void)truncatedSortedChatsGroupedByPersonCentricID:(_Bool)arg1 count:pinnedChatIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)setIsAuxImage:(long long)arg1;
+- (void)le:(_Bool)arg1;
+- (void)requestReason;
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)reportMessageDictionaryToApple:forChat:isJunk:context: /* Error: Ran out of types for this method. */;
+- (void)markChatsAsReadFilteredUsingPredicate:(id)arg1;
+- (long long)initWithHost:port:delegate: /* Error: Ran out of types for this method. */;
+- (_Bool)copyCKRecordRepresentationsWithZoneID:salt:error: /* Error: Ran out of types for this method. */;
+- (_Bool)copyCKRecordRepresentationWithZoneID:salt:error: /* Error: Ran out of types for this method. */;
+- (_Bool)containsWarnState;
+- (_Bool)_numReadReceiptsV1;
+- (void)V_changedParticipants;
+- (_Bool)e;
+- (void)m;
 - (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)&;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
+- (void):(id)arg1 %@ to mark as played, trying again in a bit;
+- (void)%@   from chat:(CDUnknownBlockType)arg1 %@ due to send on different service;
+- (unsigned long long)found for chat:%@ /* Error: Ran out of types for this method. */;
+- (long long)ty chat GUID.;
+- (struct CGPoint)noring update T1 message:(struct CGPoint)arg1 message not found for id %@ (it may have been deleted);
+- (double)is a typing message, not storing %@;
+- (struct _UIDatePickerOverlayPlatterLayout). This is a serious issue that needs to be identified and addressed.;
+- (struct CGRect);
 - (struct CGPoint);
-- (double);
-- (struct _UIDatePickerOverlayPlatterLayout);
-- (struct CGRect);
-- (struct CGPoint);
-- (void);
+- (void)viceError, NSNumber *, NSNumber *, NSNumber *, NSNumber *, NSNumber *, BOOL, BOOL, BOOL, FTAWDNetworkCheckResult, NSNumber *, NSNumber *, NSNumber *, NSNumber *, NSNumber *, FTAWDNetworkConnectionType, FTAWDNetworkConnectionType, FTAWDConnectionType, BOOL, NSNumber *, NSNumber *, NSNumber *, BOOL, BOOL, BOOL, NSNumber *, NSNumber *, BOOL)_block_invoke;
 - (id);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -72,7 +56,7 @@
 × ;
 - (void)!èAù1e1Â0@ù
 × ;
-- (void)fersSingleCharacter;
+- (void)previewImagePrefersSingleCharacter;
 - (struct CGRect)Collection: /* Error: Ran out of types for this method. */;
 - (id)´åæXæ@çpèlé´édë°ë	$ìì;
 - (void)éÿAéÿ(AéÿxAéÿ´Aéÿ¤Béÿ CéÿÔCéÿDéÿ¨EéÿhFéÿ|Féÿ FéÿhHéÿtHéÿHéÿPIéÿIéÿÐIéÿÄOéÿèOéÿôOéÿPéÿTPéÿxPéÿPéÿÀPéÿTRéÿRéÿ¤RéÿØRéÿSéÿÐSéÿôSéÿØTéÿüTéÿ UéÿDUéÿHVéÿ¤VéÿðVéÿüVéÿ¤Wéÿ°Wéÿ¼WéÿÈWéÿÔWéÿàWéÿXéÿYéÿ¸YéÿèYéÿ Zéÿ8ZéÿtZéÿZéÿÄZéÿL[éÿ`[éÿl]éÿx]éÿ]éÿ$aéÿ`aéÿaéÿaéÿaéÿ¨aéÿ´aéÿÀaéÿÌaéÿØaéÿäaéÿðaéÿüaéÿbéÿ béÿ8béÿtbéÿbéÿÈbéÿ\céÿhcéÿÄdéÿèdéÿ;
@@ -83,23 +67,7 @@
 - (void)Poc;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) _Bool accessoryViewIgnoresDefaultInsets; // @synthesize accessoryViewIgnoresDefaultInsets=_accessoryViewIgnoresDefaultInsets;
-@property(readonly, nonatomic) __weak UIDatePicker *activeDatePicker; // @synthesize activeDatePicker=_activeDatePicker;
-@property(readonly, nonatomic) long long activeMode; // @synthesize activeMode=_activeMode;
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
 @property(retain, nonatomic) _UIDatePickerContainerViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(nonatomic) _Bool defersAutomaticKeyboardAvoidanceAdjustments; // @synthesize defersAutomaticKeyboardAvoidanceAdjustments=_defersAutomaticKeyboardAvoidanceAdjustments;
-@property(nonatomic) __weak id <_UIDatePickerOverlayPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(nonatomic) _Bool ignoresPassthroughOnSourceView; // @synthesize ignoresPassthroughOnSourceView=_ignoresPassthroughOnSourceView;
-@property(readonly, nonatomic) _Bool isPresentingOverlay;
-@property(nonatomic) long long overlayAnchor; // @synthesize overlayAnchor=_overlayAnchor;
-@property(retain, nonatomic) _UIDatePickerOverlayPlatterView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic, getter=isPresentingContainerViewController) _Bool presentingContainerViewController; // @synthesize presentingContainerViewController=_presentingContainerViewController;
-@property(readonly, nonatomic) struct CGRect resolvedSourceRect;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(readonly, nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

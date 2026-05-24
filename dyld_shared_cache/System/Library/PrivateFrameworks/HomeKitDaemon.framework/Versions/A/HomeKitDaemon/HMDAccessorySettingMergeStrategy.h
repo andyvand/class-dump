@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingMergeStrategy
 {
     NSNumber *_conflictValue;
-    long long _strategy;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *conflictValue; // @synthesize conflictValue=_conflictValue;
-@property(readonly, nonatomic) long long strategy; // @synthesize strategy=_strategy;
 
 @end
 

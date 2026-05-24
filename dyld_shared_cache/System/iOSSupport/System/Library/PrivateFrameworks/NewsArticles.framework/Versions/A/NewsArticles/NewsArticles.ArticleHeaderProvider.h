@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleHeaderProvider
 {
     id resolver;
-    id featureAvailability;
-    id appConfigurationManager;
 }
 
 @end

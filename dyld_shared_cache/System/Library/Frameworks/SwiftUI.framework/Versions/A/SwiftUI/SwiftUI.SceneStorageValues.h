@@ -7,9 +7,6 @@
 @interface SwiftUI.SceneStorageValues
 {
     id encodedValues;
-    id entries;
-    id encodedValueCount;
-    id associatedHost;
 }
 
 @end

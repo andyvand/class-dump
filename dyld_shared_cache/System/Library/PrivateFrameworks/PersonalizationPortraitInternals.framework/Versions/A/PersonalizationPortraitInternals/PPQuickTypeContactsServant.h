@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, PPLocalContactStore;
+@class PPLocalContactStore;
 
 @interface PPQuickTypeContactsServant
 {
     PPLocalContactStore *_localContactStore;
-    NSCache *_meQuickTypeItemCache;
-    NSCache *_cachedNameLookups;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)T;
+- (id)signing only, skip claiming;
+- (id)initWithChatRegistry:(unsigned char)arg1 vocabulary: /* Error: Ran out of types for this method. */;
 - (void)!TEù÷ð1Â0@ù
 × ;
 - (void)tactNameRecord StringAsChangeType:] /* Error: Ran out of types for this method. */;

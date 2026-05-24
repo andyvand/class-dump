@@ -12,24 +12,24 @@
 }
 
 + (Class);
-+ (_Bool)Elements:(id)arg1 count: /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool)setJunctionElements:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void)fetchRequestForStoresMatchingDescriptors:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (id);
+- (void)\E;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id)read_userLocation"b1"wrote_anyField"b1};
-- (id)exs;
+- (id)artworkIndexs;
 - (id)t¦§Ð§;
 - (id)led once per object;
 - (void)oÕu¨¦ÎM@;

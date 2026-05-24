@@ -7,7 +7,6 @@
 @interface ContentKit.WFMontaraEnablementHelper
 {
     id observers;
-    id availability;
 }
 
 - (id);

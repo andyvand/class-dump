@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDAccountStoreFilter, NSMutableDictionary, NSNumber, NSString, NSXPCConnection;
+@class NSString, NSXPCConnection;
 
 @interface ACDClient
 {
     NSXPCConnection *_connection;
-    struct __CFBundle *_bundle;
-    NSString *_bundleID;
-    _Bool _didManuallySetBundleID;
-    NSNumber *_pid;
-    NSString *_localizedAppName;
-    NSString *_name;
-    NSMutableDictionary *_entitlementChecks;
-    struct os_unfair_lock_s _clientPropertyLock;
-    ACDAccountStoreFilter *_filter;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)mEndnoteRestart;
 - (void);
 - (id);
 - (id);
@@ -32,26 +23,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CRCodeRedeemerLayer;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id));
+- (id)_actionsOnly;
+- (id)ots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUZipArchive.m;
 - (_Bool);
 - (id);
 - (struct __CFBundle *);
-- (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSString *adamOrDisplayID;
-@property(readonly) struct __CFBundle *bundle;
 @property(retain) NSString *bundleID;
-@property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) ACDAccountStoreFilter *filter; // @synthesize filter=_filter;
-@property(readonly) NSString *localizedAppName;
-@property(readonly) NSString *name;
-@property(readonly) NSNumber *pid;
 
 @end
 

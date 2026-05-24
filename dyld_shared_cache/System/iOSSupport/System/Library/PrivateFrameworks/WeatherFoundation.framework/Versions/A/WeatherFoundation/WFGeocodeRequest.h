@@ -6,15 +6,11 @@
 
 #import <WeatherFoundation/WFTask.h>
 
-@class MKLocalSearchCompletion, NSString, WFLocation;
+@class NSString;
 
 @interface WFGeocodeRequest : WFTask
 {
     CDUnknownBlockType _resultHandler;
-    NSString *_searchString;
-    MKLocalSearchCompletion *_autocompleteSearchResult;
-    WFLocation *_geocodedResult;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 - (void);
@@ -28,23 +24,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)move-on-animation-end;
 - (struct CLLocationCoordinate2D);
 - (void);
-- (id);
+- (id)M;
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)× ;
 
 // Remaining properties
-@property(retain) MKLocalSearchCompletion *autocompleteSearchResult; // @synthesize autocompleteSearchResult=_autocompleteSearchResult;
-@property struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(retain) WFLocation *geocodedResult; // @synthesize geocodedResult=_geocodedResult;
-@property(readonly) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 @property(retain) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) NSString *searchTerm;
 
 @end
 

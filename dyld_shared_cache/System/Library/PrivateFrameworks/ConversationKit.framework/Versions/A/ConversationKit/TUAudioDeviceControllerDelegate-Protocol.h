@@ -5,5 +5,10 @@
 //
 
 @protocol TUAudioDeviceControllerDelegate
+
+@optional
+- (void)Qr;
+- (void);
+- (void);
 @end
 

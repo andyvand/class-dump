@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.ServerChapterAttributes
 {
     id artwork;
-    id inTableOfContents;
-    id name;
-    id source;
 }
 
 @end

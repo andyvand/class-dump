@@ -10,7 +10,8 @@
 
 - (void);
 - (id);
-- (void);
+- (void)alid output buffer rowBytes (%d)!
+;
 
 @end
 

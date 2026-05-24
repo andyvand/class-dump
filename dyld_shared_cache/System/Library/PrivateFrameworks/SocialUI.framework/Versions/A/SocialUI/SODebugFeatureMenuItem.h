@@ -22,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isFeatureEnabled) _Bool featureEnabled; // @dynamic featureEnabled;
 @property(readonly, copy) NSString *userDefaultsKey; // @synthesize userDefaultsKey=_userDefaultsKey;
 
 @end

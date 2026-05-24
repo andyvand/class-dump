@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBarButtonItem, UITableView;
-@protocol CKAppManagerViewControllerDelegate;
+@class UITableView;
 
 @interface CKAppManagerViewController
 {
     UITableView *_tableView;
-    UIBarButtonItem *_dismissButton;
-    _Bool _isManagingStickers;
-    id <CKAppManagerViewControllerDelegate> _delegate;
-    NSArray *_plugins;
-    NSArray *_deletableIMessageApps;
-    NSArray *_appContainedPlugins;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void)i;
 - (void);
+- (_Bool)KRecord"8@"NSError"16;
+- (_Bool)y"16;
+- (id)cation date;
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1;
 - (_Bool);
 - (void);
 - (id);
@@ -47,35 +40,24 @@
 - (double);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)<;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)@;
 - (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void)DetailsInfoTabView15FaceTimeSection14ActionHandlers;
+- (void)_TtCOV7ChatKit18DetailsInfoTabView15FaceTimeSection14ActionHandlers;
 - (void)(length:(_Bool)arg1 %lu) or URL (%@);
 - (void)didCalculateForCloudKit:(_Bool)arg1;
 - (void);
 - (void)$ê^ÿgÜ>52;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *appContainedPlugins; // @synthesize appContainedPlugins=_appContainedPlugins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKAppManagerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *deletableIMessageApps; // @synthesize deletableIMessageApps=_deletableIMessageApps;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isManagingStickers; // @synthesize isManagingStickers=_isManagingStickers;
-@property(retain, nonatomic) NSArray *plugins; // @synthesize plugins=_plugins;
-@property(readonly) Class superclass;
 
 @end
 

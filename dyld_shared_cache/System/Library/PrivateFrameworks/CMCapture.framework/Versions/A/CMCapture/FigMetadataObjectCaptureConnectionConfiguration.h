@@ -11,79 +11,49 @@
 @interface FigMetadataObjectCaptureConnectionConfiguration : FigCaptureConnectionConfiguration
 {
     NSArray *_metadataIdentifiers;
-    struct CGRect _metadataRectOfInterest;
-    int _faceTrackingMaxFaces;
-    _Bool _faceTrackingUsesFaceRecognition;
-    _Bool _faceTrackingPlusEnabled;
-    _Bool _faceTrackingSuspended;
-    float _faceTrackingNetworkFailureThresholdMultiplier;
-    float _faceTrackingFailureFieldOfViewModifier;
-    _Bool _attentionDetectionEnabled;
-    _Bool _periocularForFaceIDReadinessEnabled;
-    _Bool _attentionForFaceIDReadinessRequired;
-    _Bool _faceOcclusionDetectionEnabled;
-    float _motionToWakeTargetFrameRate;
-    float _objectDetectionTargetFrameRate;
-    _Bool _attachMetadataToVideoBuffers;
-    _Bool _emitsEmptyObjectDetectionMetadata;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)p_scientificFormatters;
+- (_Bool)clippingIsRestarted;
+- (void)Defaults",&,N,VmLineDefaults;
 - (float);
 - (void);
 - (id);
 - (int);
 - (float);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)equest's completion handler and call it when done.";
 - (void);
 - (float);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)U;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void)bled:(int)arg1;
-- (void)yzerSinkOutput;
+- (void)setPreLTMThumbnailOnVideoCaptureOutputEnabled:(int)arg1;
+- (void)_sensitiveContentAnalyzerSinkOutput;
 - (_Bool)ovieInfo;
-- (id)ticStyleRenderingSuspended;
+- (id)semanticStyleRenderingSuspended;
 - (void);
 - (id)Ê+ÿ«Ë1ÿ¶Í7ÿÂÎ<ÿÎÐAÿ×Î@ÿàÍ?ÿêÍ@ÿ÷ÎAÿÿÏEÿÿÑHÿÿÑHÿÿÑGÿ;
 - (void)ports;
 - (_Bool)veHostSession:] /* Error: Ran out of types for this method. */;
-- (float)0;
+- (float)H10;
 
 // Remaining properties
-@property(nonatomic) _Bool attachMetadataToVideoBuffers; // @synthesize attachMetadataToVideoBuffers=_attachMetadataToVideoBuffers;
-@property(nonatomic) _Bool attentionDetectionEnabled; // @synthesize attentionDetectionEnabled=_attentionDetectionEnabled;
-@property(nonatomic) _Bool attentionForFaceIDReadinessRequired; // @synthesize attentionForFaceIDReadinessRequired=_attentionForFaceIDReadinessRequired;
-@property(nonatomic) _Bool emitsEmptyObjectDetectionMetadata; // @synthesize emitsEmptyObjectDetectionMetadata=_emitsEmptyObjectDetectionMetadata;
-@property(nonatomic) _Bool faceOcclusionDetectionEnabled; // @synthesize faceOcclusionDetectionEnabled=_faceOcclusionDetectionEnabled;
-@property(nonatomic) float faceTrackingFailureFieldOfViewModifier; // @synthesize faceTrackingFailureFieldOfViewModifier=_faceTrackingFailureFieldOfViewModifier;
-@property(nonatomic) int faceTrackingMaxFaces; // @synthesize faceTrackingMaxFaces=_faceTrackingMaxFaces;
-@property(nonatomic) float faceTrackingNetworkFailureThresholdMultiplier; // @synthesize faceTrackingNetworkFailureThresholdMultiplier=_faceTrackingNetworkFailureThresholdMultiplier;
-@property(nonatomic) _Bool faceTrackingPlusEnabled; // @synthesize faceTrackingPlusEnabled=_faceTrackingPlusEnabled;
-@property(nonatomic) _Bool faceTrackingSuspended; // @synthesize faceTrackingSuspended=_faceTrackingSuspended;
-@property(nonatomic) _Bool faceTrackingUsesFaceRecognition; // @synthesize faceTrackingUsesFaceRecognition=_faceTrackingUsesFaceRecognition;
 @property(copy, nonatomic) NSArray *metadataIdentifiers; // @synthesize metadataIdentifiers=_metadataIdentifiers;
-@property(nonatomic) struct CGRect metadataRectOfInterest; // @synthesize metadataRectOfInterest=_metadataRectOfInterest;
-@property(nonatomic) float motionToWakeTargetFrameRate; // @synthesize motionToWakeTargetFrameRate=_motionToWakeTargetFrameRate;
-@property(nonatomic) float objectDetectionTargetFrameRate; // @synthesize objectDetectionTargetFrameRate=_objectDetectionTargetFrameRate;
-@property(nonatomic) _Bool periocularForFaceIDReadinessEnabled; // @synthesize periocularForFaceIDReadinessEnabled=_periocularForFaceIDReadinessEnabled;
 
 @end
 

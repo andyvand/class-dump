@@ -8,9 +8,9 @@
 {
 }
 
-+ (id)undleChannelIDs:bundleChannelIDsVersion:purchaseID:purchaseValidationState:dateOfExpiration:hasShownRenewalNotice:inTrialPeriod:isPurchaser:servicesBundlePurchaseID:isAmplifyUser:isPaidBundleViaOfferActivated:initialPurchaseTimestamp: /* Error: Ran out of types for this method. */;
++ (id)initWithEntryID:bundleChannelIDs:bundleChannelIDsVersion:purchaseID:purchaseValidationState:dateOfExpiration:hasShownRenewalNotice:inTrialPeriod:isPurchaser:servicesBundlePurchaseID:isAmplifyUser:isPaidBundleViaOfferActivated:initialPurchaseTimestamp: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)yticsNotificationReceiptBaseUrl;
+- (void)appAnalyticsNotificationReceiptBaseUrl;
 
 @end
 

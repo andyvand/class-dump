@@ -4,10 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface UnknownClass (SafariSharedCloudKitExtras)
-+ (void);
++ (void);
 + (void);
 + (CDUnknownBlockType);
 + (void);
@@ -39,18 +37,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *safari_errorByAddingRequestUUIDInPrivacyPreservingUserInfo;
-@property(readonly, nonatomic) _Bool safari_isCloudKitBatchTooLargeError;
-@property(readonly, nonatomic) _Bool safari_isCloudKitMissingZoneError;
-@property(readonly, nonatomic) _Bool safari_isCloudKitNonExistentRecordError;
-@property(readonly, nonatomic) _Bool safari_isInCloudKitErrorDomain;
-@property(readonly, nonatomic) _Bool safari_isOrContainsClientSideNetworkError;
-@property(readonly, nonatomic) _Bool safari_isOrContainsCloudKitMissingZoneError;
-@property(readonly, nonatomic) _Bool safari_isOrContainsNetworkUnavailableError;
-@property(readonly, nonatomic) _Bool safari_isSQLiteCorruptionError;
-@property(readonly, nonatomic) _Bool safari_isSQLiteError;
 @property(readonly, nonatomic) _Bool safari_isUnrecoverableCloudKitError;
-@property(readonly, copy, nonatomic) NSString *safari_privacyPreservingDescription;
-@property(readonly, copy, nonatomic) NSError *safari_privacyPreservingError;
 @end
 

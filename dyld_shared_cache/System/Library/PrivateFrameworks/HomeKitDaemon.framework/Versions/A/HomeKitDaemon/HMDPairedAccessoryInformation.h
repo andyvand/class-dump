@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol HMDAccessoryBrowserDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPairedAccessoryInformation
 {
     NSString *_identifier;
-    NSData *_setupHash;
-    unsigned long long _transports;
-    id <HMDAccessoryBrowserDelegate> _delegate;
 }
 
-- (id);
+- (id)nderSession rulesPath %@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <HMDAccessoryBrowserDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSData *setupHash; // @synthesize setupHash=_setupHash;
-@property(readonly) unsigned long long transports; // @synthesize transports=_transports;
 
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CUIVectorGlyphGraphicVariantOptions
 {
     long long shape;
-    long long fill;
-    NSArray *fillColors;
-    long long contentEffect;
-    id monochromeForegroundColor;
-    double roundedRectCornerRadius;
-    long long imageCentering;
-    long long imageScaling;
-    long long imageAlignment;
-    long long shapeEffect;
-    id borderColor;
-    double borderWidth;
-    struct CGSize imageOffset;
 }
 
 + (double);
@@ -41,8 +27,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_mlsinf;
+- (void)e>",R,N,V_metalDevice;
 - (long long);
 - (long long);
 - (long long);
@@ -53,26 +39,14 @@
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (double);
 - (void)¬¾;
-- (void)lorEngravedTextBold;
+- (void)kCUIColorEngravedTextBold;
 
 // Remaining properties
-@property(retain, nonatomic) id borderColor; // @synthesize borderColor;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth;
-@property(nonatomic) long long contentEffect; // @synthesize contentEffect;
-@property(nonatomic) long long fill; // @synthesize fill;
-@property(copy, nonatomic) NSArray *fillColors; // @synthesize fillColors;
-@property(nonatomic) long long imageAlignment; // @synthesize imageAlignment;
-@property(nonatomic) long long imageCentering; // @synthesize imageCentering;
-@property(nonatomic) struct CGSize imageOffset; // @synthesize imageOffset;
-@property(nonatomic) long long imageScaling; // @synthesize imageScaling;
-@property(retain, nonatomic) id monochromeForegroundColor; // @synthesize monochromeForegroundColor;
-@property(nonatomic) double roundedRectCornerRadius; // @synthesize roundedRectCornerRadius;
 @property(nonatomic) long long shape; // @synthesize shape;
-@property(nonatomic) long long shapeEffect; // @synthesize shapeEffect;
 
 @end
 

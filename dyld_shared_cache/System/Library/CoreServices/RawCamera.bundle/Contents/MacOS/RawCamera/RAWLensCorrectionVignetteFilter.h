@@ -6,15 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 @interface RAWLensCorrectionVignetteFilter : RAWFilter
 {
     CIImage *inputImage;
-    NSData *inputVignetteTable;
-    NSNumber *inputVignetteAmount;
-    id inputColorSpace;
-    CIImage *vigImg;
 }
 
 + (id);

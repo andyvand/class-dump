@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _EARASRTaggerCreateMLConfig;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _EARASRTaggerConfig
 {
     NSString *_modelVersion;
-    unsigned long long _taggerType;
-    _EARASRTaggerCreateMLConfig *_createMLConfig;
-    shared_ptr_0ad4eadf _electraConfig;
 }
 
 + (void)y;
 - (unsigned long long);
 - (void);
-- (shared_ptr_0ad4eadf);
-- (id);
-- (id);
+- (shared_ptr_ea32eee7)A/AppleAccount;
+- (id)amework/Versions/A/ManagedOrganizationContacts;
+- (id);
 - (id);
 - (void)3;
 - (id)u;
 
 // Remaining properties
-@property(readonly, nonatomic) _EARASRTaggerCreateMLConfig *createMLConfig; // @synthesize createMLConfig=_createMLConfig;
-@property(nonatomic) shared_ptr_0ad4eadf electraConfig; // @synthesize electraConfig=_electraConfig;
-@property(readonly, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly, nonatomic) unsigned long long taggerType; // @synthesize taggerType=_taggerType;
+@property(nonatomic) shared_ptr_ea32eee7 electraConfig; // @synthesize electraConfig=_electraConfig;
 
 @end
 

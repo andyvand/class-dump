@@ -7,7 +7,6 @@
 @interface Accelerate.BNNS.RandomGenerator
 {
     id bnnsRandomGenerator;
-    id seed;
 }
 
 @end

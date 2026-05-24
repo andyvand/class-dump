@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKIdentityProofingConfiguration, PKOSVersionRequirement, PKPassUpgradePrecursorPassRequest, PKPaymentWebService, PKSecureElementPass;
+@class PKSecureElementPass;
 @protocol PKPrecursorPassUpgradeControllerDelegate;
 
 @interface PKPrecursorPassUpgradeController
 {
     PKSecureElementPass *_pass;
-    PKPaymentWebService *_webService;
-    _Bool _hasLoadedConfiguration;
-    NSArray *_seids;
-    NSString *_deviceClass;
-    PKOSVersionRequirement *_deviceVersion;
-    PKIdentityProofingConfiguration *_currentProofingConfiguration;
-    id <PKPrecursorPassUpgradeControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)`@9;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)ng",R,C;
+- (void)registerMerchantTokenKey;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPrecursorPassUpgradeControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *devicePrecursorRequests;
-@property(readonly, nonatomic) PKPassUpgradePrecursorPassRequest *devicePrimaryPrecursorRequest;
 
 @end
 

@@ -18,17 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)[;
 - (id);
 - (id);
-- (id);
+- (id)remoteDisplayTryPassword: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *asrStatus;
-@property(copy, nonatomic) NSString *domain;
-@property(copy, nonatomic) NSString *executionInputSystem;
-@property(copy, nonatomic) NSString *requestHandlingStatus;
 
 @end
 

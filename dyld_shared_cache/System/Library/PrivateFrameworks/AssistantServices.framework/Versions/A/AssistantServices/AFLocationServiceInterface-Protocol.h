@@ -5,5 +5,7 @@
 //
 
 @protocol AFLocationServiceInterface
+- (oneway void);
+- (oneway void);
 @end
 

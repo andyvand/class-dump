@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)nNodeCollection;
+- (id)response;
+- (id)PGGraphNamedLocationNodeCollection;
 
 @end
 

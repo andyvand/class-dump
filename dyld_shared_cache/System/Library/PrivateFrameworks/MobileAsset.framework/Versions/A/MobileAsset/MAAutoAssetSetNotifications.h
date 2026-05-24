@@ -7,32 +7,24 @@
 @interface MAAutoAssetSetNotifications
 {
     _Bool _atomicInstanceDiscovered;
-    _Bool _atomicInstanceAvailableForUse;
-    _Bool _lockUsageCheck;
-    _Bool _filesystemSpaceCritical;
-    _Bool _atomicInstancePurged;
-    _Bool _downloadPending;
-    _Bool _downloadProgress;
-    _Bool _downloadAbandoned;
-    _Bool _downloadedBecameIncomplete;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)k`;
+- (_Bool)p;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)longLongValue;
+- (_Bool)eateRemoteSignedOctetVectorUsingPrimeKey:] failed /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -41,20 +33,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)rgs %s, err = %s (%u)
+;
+- (_Bool)ould not decode service dict for volume:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool atomicInstanceAvailableForUse; // @synthesize atomicInstanceAvailableForUse=_atomicInstanceAvailableForUse;
 @property(nonatomic) _Bool atomicInstanceDiscovered; // @synthesize atomicInstanceDiscovered=_atomicInstanceDiscovered;
-@property(nonatomic) _Bool atomicInstancePurged; // @synthesize atomicInstancePurged=_atomicInstancePurged;
-@property(nonatomic) _Bool downloadAbandoned; // @synthesize downloadAbandoned=_downloadAbandoned;
-@property(nonatomic) _Bool downloadPending; // @synthesize downloadPending=_downloadPending;
-@property(nonatomic) _Bool downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(nonatomic) _Bool downloadedBecameIncomplete; // @synthesize downloadedBecameIncomplete=_downloadedBecameIncomplete;
-@property(nonatomic) _Bool filesystemSpaceCritical; // @synthesize filesystemSpaceCritical=_filesystemSpaceCritical;
-@property(nonatomic) _Bool lockUsageCheck; // @synthesize lockUsageCheck=_lockUsageCheck;
 
 @end
 

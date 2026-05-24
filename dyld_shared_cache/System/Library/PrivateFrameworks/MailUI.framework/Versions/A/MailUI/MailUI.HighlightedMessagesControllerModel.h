@@ -7,10 +7,6 @@
 @interface MailUI.HighlightedMessagesControllerModel
 {
     id $defaultActor;
-    id messageList;
-    id updateHandler;
-    id highlightedMessages;
-    id collectionItemIDs;
 }
 
 @end

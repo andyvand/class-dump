@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AudioAnalyticsReporter, CAReportingPerformanceObject, NSDate, NSDictionary, NSMutableDictionary;
+@class AudioAnalyticsReporter;
 
 @interface CAReporter
 {
     _Bool _started;
-    _Bool _removedByClient;
-    _Bool _connected;
-    unsigned short _serviceType;
-    long long _reporterID;
-    NSDictionary *_configuration;
-    AudioAnalyticsReporter *_swiftReporter;
-    NSMutableDictionary *_internalConfiguration;
-    NSDate *_startDate;
-    CAReportingPerformanceObject *_perfObject;
-    unsigned long long _signpostID;
 }
 
 + (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@28@0:(unsigned short)arg1 8@16B24;
+- (void)r",&,N,V_anomalyAlertManager;
+- (void)tchdogProtocol>",W,N,V_object;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -39,32 +29,47 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)Active:%@
+                               Name:%@
+
+DETERMINE:SetConfigurationsCount:%llu
+                    SetTargetsCount:%llu
+                 ScheduledJobsCount:%llu
+
+CANDIDATES:CandidatesForStagingCount:%llu
+             SetConfigurationsCount:%llu
+              SetLookupResultsCount:%llu
+     BaseForStagingDescriptorsCount:%llu
+         DeterminingBySelectorCount:%llu
+
+AVAILABLE-OR-STAGED:AvailableForStagingCount:%llu
+        AwaitingStagingAttemptCount:%llu
+            SuccessfullyStagedCount:%llu
+
+PROGRESS:OverallStagedTotalExpectedBytes:%llu
+  OverallStagedDownloadedSoFarBytes:%llu
+      CurrentStagedLastWrittenBytes:%llu
+        CurrentStagedRemainingBytes:%llu
+
+ELIMINATION:SelectorsCount:%llu
+    SetConfigurationCurrentJob:%@
+    SelectorsAcknowledgedCount:%llu
+<<<] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)-FD8k-KfKToUWm4_m05xykBn9t4/Library/Caches/com.apple.xbs/TemporaryDirectory.PO9Uds/Sources/ATS/FontObjects/Sources/ATSFontAutoActivate.cc;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool)NewReporterID called;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property _Bool connected; // @synthesize connected=_connected;
-@property(retain) NSMutableDictionary *internalConfiguration; // @synthesize internalConfiguration=_internalConfiguration;
-@property(retain) CAReportingPerformanceObject *perfObject; // @synthesize perfObject=_perfObject;
-@property _Bool removedByClient; // @synthesize removedByClient=_removedByClient;
-@property(readonly) long long reporterID; // @synthesize reporterID=_reporterID;
-@property(nonatomic) unsigned short serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property _Bool started; // @synthesize started=_started;
 @property(retain, nonatomic) AudioAnalyticsReporter *swiftReporter; // @synthesize swiftReporter=_swiftReporter;
 
 @end

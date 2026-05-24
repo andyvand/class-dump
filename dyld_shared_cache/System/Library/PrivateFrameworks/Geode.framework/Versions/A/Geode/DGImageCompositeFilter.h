@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGImageCompositeFilter
 {
     CIImage *inputImage;
-    NSNumber *inputOpacity;
-    CIImage *inputBackgroundImage;
 }
 
 + (id);
-+ (void)king;
++ (void)PA2DBufferTiledBacking;
 - (id);
 - (id);
 

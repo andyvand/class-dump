@@ -9,12 +9,11 @@
 @interface _ANEDaemonConnection
 {
     _Bool _restricted;
-    NSXPCConnection *_daemonConnection;
 }
 
 + (id);
 + (id);
-+ (id)cessEntitlement;
++ (id)memoryUnwireAccessEntitlement;
 - (void);
 - (void);
 - (void);
@@ -33,11 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (id)stsInFlight: /* Error: Ran out of types for this method. */;
+- (id)setCurrentAsyncRequestsInFlight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property(readonly, nonatomic) _Bool restricted; // @synthesize restricted=_restricted;
 
 @end
 

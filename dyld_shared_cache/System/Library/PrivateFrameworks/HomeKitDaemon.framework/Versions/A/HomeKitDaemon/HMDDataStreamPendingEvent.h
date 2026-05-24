@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamPendingEvent
 {
     NSString *_topic;
-    NSString *_protocol;
-    NSDictionary *_payload;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)ChangeThresholding: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)characteristicsByDestinationForCharacteristics:applyChangeThresholding: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)>àì3?;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
 @property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end

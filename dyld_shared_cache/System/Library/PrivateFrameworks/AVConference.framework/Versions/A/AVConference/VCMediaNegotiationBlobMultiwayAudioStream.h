@@ -8,34 +8,18 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobMultiwayAudioStream
 {
     unsigned int _maxMediaBitrate;
-    unsigned int _maxNetworkBitrate;
-    float _maxPacketsPerSecond;
-    unsigned int _qualityIndex;
-    unsigned int _repairedMaxNetworkBitrate;
-    unsigned int _repairedStreamID;
-    unsigned int _ssrc;
-    unsigned int _streamID;
-    unsigned int _supportedPayloads;
-    struct {
-        unsigned int maxMediaBitrate:1;
-        unsigned int maxNetworkBitrate:1;
-        unsigned int maxPacketsPerSecond:1;
-        unsigned int repairedMaxNetworkBitrate:1;
-        unsigned int repairedStreamID:1;
-        unsigned int supportedPayloads:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (void);
-- (id);
+- (void);
+- (id)9	;
 - (float);
 - (unsigned int);
 - (id);
@@ -54,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -71,21 +55,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxMediaBitrate;
-@property(nonatomic) _Bool hasMaxNetworkBitrate;
-@property(nonatomic) _Bool hasMaxPacketsPerSecond;
-@property(nonatomic) _Bool hasRepairedMaxNetworkBitrate;
-@property(nonatomic) _Bool hasRepairedStreamID;
-@property(nonatomic) _Bool hasSupportedPayloads;
-@property(nonatomic) unsigned int maxMediaBitrate; // @synthesize maxMediaBitrate=_maxMediaBitrate;
-@property(nonatomic) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(nonatomic) float maxPacketsPerSecond; // @synthesize maxPacketsPerSecond=_maxPacketsPerSecond;
-@property(nonatomic) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrate; // @synthesize repairedMaxNetworkBitrate=_repairedMaxNetworkBitrate;
-@property(nonatomic) unsigned int repairedStreamID; // @synthesize repairedStreamID=_repairedStreamID;
 @property(nonatomic) unsigned int ssrc; // @synthesize ssrc=_ssrc;
-@property(nonatomic) unsigned int streamID; // @synthesize streamID=_streamID;
-@property(nonatomic) unsigned int supportedPayloads; // @synthesize supportedPayloads=_supportedPayloads;
 
 @end
 

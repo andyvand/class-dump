@@ -6,45 +6,32 @@
 
 #import <SearchFoundation/SFDomainSubscriptionRequestItem.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFSportsSubscriptionRequestItem : SFDomainSubscriptionRequestItem
 {
     NSString *_canonicalIdentifier;
-    NSString *_sportIdentifier;
-    NSString *_leagueIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
-- (id);
+- (id)videoTaskToCacheStoragePolicy;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_vibrationIdentifierForDeemphasizingAlert;
+- (id);
+- (id)PHQuestionTypeSurveyFrequentLocation;
+- (id)%@ request opportunistically stored image in cache for asset:(struct _NSZone *)arg1 %@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)CollectionsRetrieved;
+- (void)hasCollectionsRetrieved;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalIdentifier; // @synthesize canonicalIdentifier=_canonicalIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *leagueIdentifier; // @synthesize leagueIdentifier=_leagueIdentifier;
-@property(copy, nonatomic) NSString *sportIdentifier; // @synthesize sportIdentifier=_sportIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

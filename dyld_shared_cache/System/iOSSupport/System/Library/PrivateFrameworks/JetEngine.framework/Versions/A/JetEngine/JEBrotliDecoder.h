@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (id);
+- (id)categories;
 - (struct BrotliDecoderStateStruct *);
 
 // Remaining properties

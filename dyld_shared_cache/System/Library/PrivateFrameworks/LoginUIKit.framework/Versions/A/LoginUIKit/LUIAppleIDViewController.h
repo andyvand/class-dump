@@ -6,19 +6,11 @@
 
 #import <LoginUIKit/LUIPopoverViewController.h>
 
-@class NSButton, NSProgressIndicator, NSSecureTextField, NSString, NSTextField;
+@class NSTextField;
 
 @interface LUIAppleIDViewController : LUIPopoverViewController
 {
     NSTextField *_titleTextField;
-    NSTextField *_infoTextField;
-    NSTextField *_appleIDLabel;
-    NSTextField *_appleIDTextField;
-    NSTextField *_passwordLabel;
-    NSSecureTextField *_passwordSecureTextField;
-    NSButton *_cancelButton;
-    NSButton *_resetPasswordButton;
-    NSProgressIndicator *_progressIndicator;
 }
 
 - (void);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S`ccqH9;
 - (void);
 - (void);
 - (void);
@@ -41,7 +33,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -54,24 +46,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(retain) NSTextField *appleIDLabel; // @synthesize appleIDLabel=_appleIDLabel;
-@property(retain) NSTextField *appleIDTextField; // @synthesize appleIDTextField=_appleIDTextField;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSTextField *infoTextField; // @synthesize infoTextField=_infoTextField;
-@property(retain) NSTextField *passwordLabel; // @synthesize passwordLabel=_passwordLabel;
-@property(retain) NSSecureTextField *passwordSecureTextField; // @synthesize passwordSecureTextField=_passwordSecureTextField;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(retain) NSButton *resetPasswordButton; // @synthesize resetPasswordButton=_resetPasswordButton;
-@property(readonly) Class superclass;
 @property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
-
 @interface AXDataSeriesDescriptor
 {
     _Bool _isContinuous;
-    NSAttributedString *_attributedName;
-    NSArray *_dataPoints;
-    NSString *_meanValueDescription;
 }
 
+- (void)dadr=%@ path=%@ opts=%u cb=%p ctx=%p argscfstr**=%p;
+- (void)guments(), diskRef=%p pathURL=%@;
 - (void);
+- (double)x%04X;
+- (id)ote:dissent=%d dissenterstatus=0x%04X /* Error: Ran out of types for this method. */;
+- (id)k:(id)arg1 error:(_Bool)arg2 ];
+- (id)vertRequirements(%@);
+- (id)HIS LV:PausedProp=%d && BootVol=%d = NoHopeOfResumeUntilReboot=%d /* Error: Ran out of types for this method. */;
+- (id)Ecrypting=%d;
+- (void)le.corestorage.lvf.revertState;
+- (id).. considerThisLV=%d;
 - (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)-;
 - (id);
 - (_Bool);
 - (id);
@@ -36,19 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedName; // @synthesize attributedName=_attributedName;
-@property(copy, nonatomic) NSArray *dataPoints; // @synthesize dataPoints=_dataPoints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContinuous; // @synthesize isContinuous=_isContinuous;
-@property(copy, nonatomic) NSString *meanValueDescription; // @synthesize meanValueDescription=_meanValueDescription;
 @property(readonly, nonatomic) double meanYValue;
-@property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

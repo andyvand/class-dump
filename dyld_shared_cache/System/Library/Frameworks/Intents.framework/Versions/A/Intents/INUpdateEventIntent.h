@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface INUpdateEventIntent : INIntent
 {
@@ -43,21 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *addParticipants;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *removeLocation;
-@property(readonly, copy) NSArray *removeParticipants;
-@property(readonly, copy) INDateComponentsRange *setDateTimeRange;
-@property(readonly, copy) CLPlacemark *setLocation;
-@property(readonly, copy) NSString *setTitle;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *targetEventIdentifier;
-@property(readonly, copy) NSNumber *updateAllOccurrences;
 
 @end
 

@@ -11,7 +11,7 @@
     NSArray *_colors;
 }
 
-- (id);
+- (id)tchQueue already went away. We are NOT setting a timer.;
 - (id);
 - (void)troller commandStoreFileName];
 

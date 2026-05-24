@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPZoneCapabilities, NSString;
+@class CKDPZoneCapabilities;
 
 @interface CKDPZoneSaveResponse
 {
     CKDPZoneCapabilities *_capabilities;
-    NSString *_etag;
-    CKDPDate *_expirationTime;
-    CKDPDate *_localExpirationTime;
-    _Bool _expired;
-    struct {
-        unsigned int expired:1;
-    } _has;
 }
 
 - (id);
 - (void);
+- (void)@;
+- (id);
+- (void)H;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)CFStringRef, const void *, CFTypeRef);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ler %p completed migration. Will notify %u other thread query handlers about the state change.;
+- (void)`;
 - (_Bool);
 - (void);
 - (id);
@@ -43,20 +36,11 @@
 - (id);
 - (_Bool)QÛÐ1Â0@ù
 × ;
-- (void)oneRetrieveChangesResponse;
+- (void)hasZoneRetrieveChangesResponse;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPZoneCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) CKDPDate *expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(nonatomic) _Bool expired; // @synthesize expired=_expired;
 @property(readonly, nonatomic) _Bool hasCapabilities;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasExpirationTime;
-@property(nonatomic) _Bool hasExpired;
-@property(readonly, nonatomic) _Bool hasLocalExpirationTime;
-@property(retain, nonatomic) CKDPDate *localExpirationTime; // @synthesize localExpirationTime=_localExpirationTime;
 
 @end
 

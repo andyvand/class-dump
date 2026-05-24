@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVURLAsset, FCContentArchive, FCContentManifest, NFUnfairLock, NSDictionary, NSString, NSURL;
-@protocol FCAVAssetCacheType, FCAVAssetKeyCacheType, FCAVAssetKeyManagerType, FCAVAssetResourceLoaderType;
+@class AVURLAsset, NSString;
 
 @interface FCAVAsset
 {
     AVURLAsset *_asset;
-    NSString *_identifier;
-    NSDictionary *_assetOptions;
-    NFUnfairLock *_assetLock;
-    id <FCAVAssetCacheType> _assetCache;
-    id <FCAVAssetKeyCacheType> _assetKeyCache;
-    id <FCAVAssetResourceLoaderType> _assetResourceLoader;
-    id <FCAVAssetKeyManagerType> _assetKeyManager;
-    NSURL *_remoteURL;
 }
 
 - (void);
@@ -32,9 +23,6 @@
 - (void)ExternalAnalyticsConfig"16@?0@"NSDictionary"8;
 
 // Remaining properties
-@property(readonly, nonatomic) AVURLAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

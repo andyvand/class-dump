@@ -9,7 +9,7 @@
     id colorPalette;
 }
 
-+ (id);
++ (id)T;
 + (id);
 + (id);
 - (id);

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSView;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SOCorrectionCollectionHeaderView
 {
     NSTextField *_headerText;
-    NSView *_keyLine;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)MetaDataE;
 - (id);
 - (id);
-- (id);
+- (id)initWithStreamToken:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSTextField *headerText; // @synthesize headerText=_headerText;
-@property(retain) NSView *keyLine; // @synthesize keyLine=_keyLine;
 
 @end
 

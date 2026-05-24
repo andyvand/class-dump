@@ -7,19 +7,20 @@
 @class NSOperationQueue, NSString, NSURL;
 
 @protocol NSFileProvider
+- (NSOperationQueue *)tem/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
 - (NSURL *)ð1Â0@ù
 × ;
 
 @optional
+- (void)L;
+- (void);
+- (void);
+- (NSString *)createFromData:deviceIdentifier:sequenceNumber: /* Error: Ran out of types for this method. */;
+- (void)kLSSharedTagFileListItemPinned;
 - (void)Ôaî/! @ù1ä3°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *_fileReactorID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSOperationQueue *_providedItemsOperationQueue;
 @property(readonly, copy) NSURL *_providedItemsURL;
 @end
 

@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskWorkBlockOp : __NSCFURLLocalStreamTaskWork
 {
     CDUnknownBlockType _block;
-    _Bool _shouldWaitForTls;
 }
 
-- (void);
+- (void)gpasquare;
 
 @end
 

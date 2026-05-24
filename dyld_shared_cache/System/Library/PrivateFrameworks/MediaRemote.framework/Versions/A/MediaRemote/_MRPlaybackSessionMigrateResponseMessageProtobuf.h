@@ -17,17 +17,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)rid feature flag:%d, device should run hybrid mode? %d /* Error: Ran out of types for this method. */;
 - (void);
-- (void)s;
-- (_Bool)uageOptions;
+- (void)_supportedPlaybackSessionIdentifiers;
+- (_Bool)includeLanguageOptions;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) _MRPlaybackSessionMigrateRequestProtobuf *request; // @synthesize request=_request;
 
 @end
 

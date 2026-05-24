@@ -5,5 +5,6 @@
 //
 
 @protocol _UIClickInteractionDelegate
+- (void);
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SSCAMLDurationStats, SSCAMetalLayerStats;
+@class SSCAMetalLayerStats;
 
 @interface SSCAMetalLayerFrameStats
 {
     unsigned long long _frameCount;
-    SSCAMLDurationStats *_totalEndToEndWalltimeStats;
-    SSCAMLDurationStats *_cpuEndToEndWalltimeStats;
-    SSCAMLDurationStats *_gpuEndToEndWalltimeStats;
-    SSCAMLDurationStats *_onGPUWalltimeStats;
-    SSCAMLDurationStats *_gpuDoneToCompletedWalltimeStats;
-    unsigned long long _commandBufferCount;
-    SSCAMetalLayerStats *_parentIntervalStats;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id)T";
 - (double);
 - (unsigned long long);
 - (id);
@@ -35,23 +28,7 @@
 - (unsigned long long)Extension;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long commandBufferCount; // @synthesize commandBufferCount=_commandBufferCount;
-@property(readonly, nonatomic) double commandBuffersPerSecond;
-@property(readonly, nonatomic) SSCAMLDurationStats *cpuEndToEndWalltimeStats; // @synthesize cpuEndToEndWalltimeStats=_cpuEndToEndWalltimeStats;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly, nonatomic) double framesPerSecond;
-@property(readonly, nonatomic) SSCAMLDurationStats *gpuDoneToCompletedWalltimeStats; // @synthesize gpuDoneToCompletedWalltimeStats=_gpuDoneToCompletedWalltimeStats;
-@property(readonly, nonatomic) SSCAMLDurationStats *gpuEndToEndWalltimeStats; // @synthesize gpuEndToEndWalltimeStats=_gpuEndToEndWalltimeStats;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SSCAMLDurationStats *onGPUWalltimeStats; // @synthesize onGPUWalltimeStats=_onGPUWalltimeStats;
 @property(readonly, nonatomic) __weak SSCAMetalLayerStats *parentIntervalStats; // @synthesize parentIntervalStats=_parentIntervalStats;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SSCAMLDurationStats *totalEndToEndWalltimeStats; // @synthesize totalEndToEndWalltimeStats=_totalEndToEndWalltimeStats;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AVFormatSpecification
 {
     AVOutputSettings *_outputSettings;
-    struct opaqueCMFormatDescription *_sourceFormatDescription;
 }
 
 + (id);

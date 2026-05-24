@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitSystem, GEOStyleAttributes, NSString;
-@protocol GEOTransitArtworkDataSource;
+@class GEOPBTransitSystem, GEOStyleAttributes;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitSystem
@@ -14,27 +13,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)computing travelDuration because last step on route was not found:%@ /* Error: Ran out of types for this method. */;
+- (id)_shouldCache;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ord device
+;
 - (unsigned long long);
-- (id);
+- (id)MediaType %@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
 
 @end
 

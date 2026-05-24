@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPPersistLabelChangesOperationDelegate
+- (void);
 @end
 

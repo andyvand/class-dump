@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCCaptionsClient, NSString;
 @protocol TUCaptionsClientDelegate;
 
 @interface TUCaptionsClient
 {
     id <TUCaptionsClientDelegate> _delegate;
-    AVCCaptionsClient *_avcCaptionsClient;
 }
 
 - (id);
@@ -25,19 +23,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)dboxedURLGreeting:forAccountUUID: /* Error: Ran out of types for this method. */;
+- (id)8;
+- (void)saveCustomSandboxedURLGreeting:forAccountUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AVCCaptionsClient *avcCaptionsClient; // @synthesize avcCaptionsClient=_avcCaptionsClient;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) id <TUCaptionsClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

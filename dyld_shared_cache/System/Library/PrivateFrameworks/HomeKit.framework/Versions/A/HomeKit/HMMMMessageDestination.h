@@ -11,7 +11,6 @@
 @interface HMMMMessageDestination : HMMMMessageDestinationBase
 {
     NSString *_idsIdentifier;
-    NSString *_idsTokenURI;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(readonly, nonatomic) NSString *idsTokenURI; // @synthesize idsTokenURI=_idsTokenURI;
 
 @end
 

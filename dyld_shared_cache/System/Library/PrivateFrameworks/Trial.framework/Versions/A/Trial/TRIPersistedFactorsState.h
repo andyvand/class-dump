@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIPersistedExperimentFactorsState;
-
 @interface TRIPersistedFactorsState
 {
 }
@@ -13,7 +11,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPersistedExperimentFactorsState *experiment; // @dynamic experiment;
 @property(readonly, nonatomic) int stateOneOfCase; // @dynamic stateOneOfCase;
 
 @end

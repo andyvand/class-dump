@@ -7,18 +7,6 @@
 @interface Calculate.CalculateExpression.PlainExpression
 {
     id parent;
-    id needsUpdate;
-    id checkedSyntax;
-    id tokens;
-    id _findSymbols;
-    id _declaredSymbol;
-    id _foundSymbols;
-    id graphableType;
-    id graphableVariables;
-    id _isLikelyMath;
-    id _isSingleTerm;
-    id _hasExponent;
-    id _isWrapped;
 }
 
 @end

@@ -7,17 +7,15 @@
 @interface BMPendingWrite
 {
     id _event;
-    double _timestamp;
 }
 
 + (id);
 - (double);
-- (id);
+- (id)productByLoadingProductAtURL:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id event; // @synthesize event=_event;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

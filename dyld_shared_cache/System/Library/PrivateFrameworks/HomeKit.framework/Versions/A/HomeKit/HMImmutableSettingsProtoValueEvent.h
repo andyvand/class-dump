@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMImmutableSettingsProtoBoolValueEvent, HMImmutableSettingsProtoIntegerValueEvent, HMImmutableSettingsProtoLanguageValueEvent, HMImmutableSettingsProtoStringValueEvent;
+@class HMImmutableSettingsProtoBoolValueEvent;
 
 @interface HMImmutableSettingsProtoValueEvent
 {
     HMImmutableSettingsProtoBoolValueEvent *_boolValueEvent;
-    HMImmutableSettingsProtoIntegerValueEvent *_integerValueEvent;
-    HMImmutableSettingsProtoLanguageValueEvent *_languageValueEvent;
-    int _settingValueEvent;
-    HMImmutableSettingsProtoStringValueEvent *_stringValueEvent;
-    struct {
-        unsigned int settingValueEvent:1;
-    } _has;
 }
 
 - (id);
@@ -34,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (int);
 - (id);
@@ -42,23 +35,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)monastic;
+- (void);
 - (id);
 - (id);
 - (void)ZT\;
 
 // Remaining properties
-@property(retain, nonatomic) HMImmutableSettingsProtoBoolValueEvent *boolValueEvent; // @synthesize boolValueEvent=_boolValueEvent;
-@property(readonly, nonatomic) _Bool hasBoolValueEvent;
-@property(readonly, nonatomic) _Bool hasIntegerValueEvent;
-@property(readonly, nonatomic) _Bool hasLanguageValueEvent;
-@property(nonatomic) _Bool hasSettingValueEvent;
 @property(readonly, nonatomic) _Bool hasStringValueEvent;
-@property(retain, nonatomic) HMImmutableSettingsProtoIntegerValueEvent *integerValueEvent; // @synthesize integerValueEvent=_integerValueEvent;
-@property(retain, nonatomic) HMImmutableSettingsProtoLanguageValueEvent *languageValueEvent; // @synthesize languageValueEvent=_languageValueEvent;
-@property(nonatomic) int settingValueEvent; // @synthesize settingValueEvent=_settingValueEvent;
-@property(retain, nonatomic) HMImmutableSettingsProtoStringValueEvent *stringValueEvent; // @synthesize stringValueEvent=_stringValueEvent;
 
 @end
 

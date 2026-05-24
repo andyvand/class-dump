@@ -8,8 +8,6 @@
 {
     id _calloutQueue;
     id _queue;
-    id _queue_connection;
-    id _queue_invalidated;
 }
 
 - (id);

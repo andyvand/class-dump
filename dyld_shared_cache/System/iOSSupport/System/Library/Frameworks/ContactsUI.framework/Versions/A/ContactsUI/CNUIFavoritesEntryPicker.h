@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionMenuHelper, CNContact, CNContactActionsController, NSString, UIAlertController, UIContextMenuInteraction;
+@class UIAlertController;
 @protocol CNUIFavoritesEntryPickerDelegate;
 
 @interface CNUIFavoritesEntryPicker
 {
     id <CNUIFavoritesEntryPickerDelegate> _delegate;
-    CNContact *_contact;
-    CNContactActionsController *_actionsController;
-    UIAlertController *_alertController;
-    CNActionMenuHelper *_actionMenuHelper;
-    UIContextMenuInteraction *_contextMenuInteraction;
 }
 
-+ (id);
++ (id)*;
 + (id)
 × ;
-+ (id)rainedMaxHeight;
++ (id)shouldUseConstrainedMaxHeight;
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void)J;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)Ț(;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id)in TOTAL below;
+- (id)ng to be writable -- socket:(id)arg1 <%p %{public}@:%ld> -- thread:%p /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)ell: /* Error: Ran out of types for this method. */;
+- (void)applyBackgroundColorToBackgroundConfiguration:usingState:forCell: /* Error: Ran out of types for this method. */;
 - (id)edProfileCellMenuButton",&,N,V_menuButton;
 
 // Remaining properties
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
-@property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
 @property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIFavoritesEntryPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

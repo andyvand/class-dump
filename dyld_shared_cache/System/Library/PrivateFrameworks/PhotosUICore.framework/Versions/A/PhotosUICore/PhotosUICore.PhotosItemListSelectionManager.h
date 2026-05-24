@@ -7,12 +7,6 @@
 @interface PhotosUICore.PhotosItemListSelectionManager
 {
     id _selectionSnapshot;
-    id observable;
-    id sectionedSelectionManager;
-    id itemListManager;
-    id selectionManagerObservation;
-    id itemListManagerObservation;
-    id changeRepository;
 }
 
 @end

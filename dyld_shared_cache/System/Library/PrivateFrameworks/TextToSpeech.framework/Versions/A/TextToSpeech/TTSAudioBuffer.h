@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPCMBuffer, TTSAudioFormat;
+@class TTSAudioFormat;
 
 @interface TTSAudioBuffer
 {
     TTSAudioFormat *format;
-    unsigned int frameCapacity;
-    unsigned int frameLength;
-    struct AudioBufferList *mutableAudioBufferList;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
-- (struct AudioBufferList *);
-- (void);
+- (struct AudioBufferList *)tearDown;
+- (void)sortedSourcesEnabledForEntityType:(unsigned int)arg1;
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)r;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) AVAudioPCMBuffer *avBuffer;
 @property(nonatomic, readonly) TTSAudioFormat *format; // @synthesize format;
-@property(nonatomic, readonly) unsigned int frameCapacity; // @synthesize frameCapacity;
-@property(nonatomic) unsigned int frameLength; // @synthesize frameLength;
-@property(nonatomic, readonly) struct AudioBufferList *mutableAudioBufferList; // @synthesize mutableAudioBufferList;
 
 @end
 

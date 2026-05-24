@@ -9,14 +9,6 @@
 @interface ASDSystemAppMetadata
 {
     _Bool _oneShot;
-    _Bool _suppressDialogs;
-    _Bool _userInitiated;
-    _Bool _userWaiting;
-    _Bool _shouldAskForRatingException;
-    _Bool _isDefaultBrowser;
-    NSString *_bundleID;
-    unsigned long long _ageRatingValue;
-    NSString *_clientID;
 }
 
 + (_Bool);
@@ -37,31 +29,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)MNErrorCode_XPCInterruption;
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)%;
 - (void)IconCompatibleArtworkURLString;
 
 // Remaining properties
-@property(nonatomic) unsigned long long ageRatingValue; // @synthesize ageRatingValue=_ageRatingValue;
 @property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDefaultBrowser; // @synthesize isDefaultBrowser=_isDefaultBrowser;
-@property(readonly) long long metadataType;
-@property(getter=isOneShot) _Bool oneShot; // @synthesize oneShot=_oneShot;
-@property(nonatomic) _Bool shouldAskForRatingException; // @synthesize shouldAskForRatingException=_shouldAskForRatingException;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressDialogs; // @synthesize suppressDialogs=_suppressDialogs;
-@property(getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(getter=isUserWaiting) _Bool userWaiting; // @synthesize userWaiting=_userWaiting;
 
 @end
 

@@ -13,7 +13,7 @@
 }
 
 + (struct CGContext *);
-+ (struct CGContext *);
++ (struct CGContext *)Є;
 - (id);
 - (float *);
 - (id);
@@ -27,10 +27,10 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (float *);
+- (struct CGRect);
+- (float *);
 - (void);
 - (id);
 - (void);

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, StartPageCollectionViewLayoutSection;
-@protocol StartPageCollectionSectionProviderDelegate, StartPagePrivateRelayInPrivateBrowsingSectionProviderDelegate;
+@class StartPageCollectionViewLayoutSection;
+@protocol StartPagePrivateRelayInPrivateBrowsingSectionProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivateRelayInPrivateBrowsingSectionProvider
 {
     StartPageCollectionViewLayoutSection *_cachedLayoutSection;
-    _Bool _usesPrivateBrowsing;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
-    id <StartPagePrivateRelayInPrivateBrowsingSectionProviderDelegate> _delegate;
 }
 
 - (void);
@@ -22,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)G)(**;
 - (id);
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)�E;
 - (void);
 - (id);
 - (id);
@@ -37,35 +33,13 @@ __attribute__((visibility("hidden")))
 - (long long)!hEù¢°1Â0@ù
 × ;
 - (long long)16@"NSArray"24Q32B40;
-- (id)ndler: /* Error: Ran out of types for this method. */;
+- (id)removeDataOfTypes:modifiedSince:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)|;
 - (_Bool)Är+;
 - (void)ÁØö-;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <StartPagePrivateRelayInPrivateBrowsingSectionProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

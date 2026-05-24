@@ -4,81 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCalendar, NSColor, NSData, NSFileWrapper, NSMapTable, NSMutableArray, NSMutableAttributedString, NSMutableData, NSMutableDictionary, NSTextTable;
+@class NSMutableAttributedString;
 
 @interface NSRTFReader
 {
     NSMutableAttributedString *_topAttributedString;
-    NSMutableAttributedString *_curAttributedString;
-    NSMutableArray *_attributesStack;
-    NSMutableDictionary *_curAttributes;
-    unsigned int _level;
-    NSData *_rtfData;
-    NSMutableDictionary *_fontTable;
-    NSFileWrapper *_document;
-    union {
-        unsigned char thin[128];
-        unsigned short fat[128];
-    } _textBuffer;
-    unsigned long long _textBufferIndex;
-    int _rtfVersion;
-    int _cocoaVersion;
-    int _cocoaSubVersion;
-    int _readOnly;
-    int _usesScreenFonts;
-    int _colorTblColorSpace;
-    unsigned int _defaultToUniCharEncoding;
-    struct _NSAttributeInfo _attributeInfo;
-    NSMutableData *_attributeInfoStack;
-    struct CGSize _paperSize;
-    double _lMargin;
-    double _rMargin;
-    double _bMargin;
-    double _tMargin;
-    NSMutableDictionary *_documentInfoDictionary;
-    struct CGSize _viewSize;
-    int _viewScale;
-    int _viewKind;
-    NSMapTable *_cachedRTFFontTable;
-    double _hyphenationFactor;
-    double _defaultTabInterval;
-    NSColor *_documentBackgroundColor;
-    struct _NSRTFPriv _private;
-    _Bool _textBufferContentsIsFat;
-    _Bool _explicitCharSetEncountered;
-    _Bool _isRTLDocument;
-    long long _readLimit;
-    long long _thumbnailLimit;
-    _Bool _limitReached;
-    unsigned char _textFlow;
-    NSMutableArray *_layoutOrientationSections;
-    unsigned long long _verticalOrientationLocation;
-    NSArray *_textBlocks;
-    NSMutableArray *_nestedTables;
-    NSTextTable *_currentTable;
-    NSTextTable *_previousTable;
-    NSMutableArray *_currentRowArray;
-    NSMutableArray *_previousRowArray;
-    int _currentRow;
-    int _currentColumn;
-    int _currentDefinitionColumn;
-    _Bool _currentRowIsLast;
-    _Bool _setTableCells;
-    unsigned long long _currentBorderEdge;
-    _Bool _currentBorderIsTable;
-    NSMutableDictionary *_listDefinitions;
-    int _currentListNumber;
-    int _currentListLevel;
-    NSCalendar *_gregorianCalendar;
-    NSMutableDictionary *_fontAttributesTable;
-    long long _cocoaTextScaling;
-    long long _cocoaPlatform;
-    long long _targetTextScaling;
-    long long _sourceTextScaling;
-    long long _finalTextScaling;
-    NSArray *_highlightStyles;
-    NSArray *_highlightColorSchemes;
-    _Bool _includesTextListMarkers;
 }
 
 + (id);
@@ -92,15 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
@@ -110,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -118,7 +48,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -137,12 +67,13 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (void);
+- (struct CGSize)I	K()qS
+;
+- (void)isPSN:(double)arg1 equalToPSN: /* Error: Ran out of types for this method. */;
+- (void)SLSBridgedWindowManagementOperationWindowIDResult;
+- (double)SLSScreenTelemetryResultsSnapshotZoneRowDataWrapper;
+- (long long)WSSidecar2EventProcessor;
+- (void);
 - (void);
 - (id);
 - (void);

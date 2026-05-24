@@ -6,30 +6,21 @@
 
 #import <CMCapture/FigCaptureStillImageSettings.h>
 
-@class FigCaptureMovieFileRecordingSettings, FigCaptureSemanticStyle, NSArray, NSURL;
-
 @interface FigCaptureIrisStillImageSettings : FigCaptureStillImageSettings
 {
     int _movieMode;
-    FigCaptureMovieFileRecordingSettings *_movieRecordingSettings;
-    NSURL *_movieURLForOriginalImage;
-    NSArray *_movieLevelMetadataForOriginalImage;
-    NSURL *_spatialOverCaptureMovieURLForOriginalImage;
-    NSArray *_spatialOverCaptureMovieLevelMetadataForOriginalImage;
-    struct CGSize _nonDestructiveCropSize;
-    FigCaptureSemanticStyle *_semanticStyle;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (int);
+- (void)idden;
+- (void)PO;
+- (int)TSUCustomFormat p_isEqual:matchingFullName:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)tokensMatchedDetailTypeForContact:(id)arg1 contactEntityId:detailEntityId:matchinfoData:tokens: /* Error: Ran out of types for this method. */;
+- (void)linguisticTagsInRange:(id)arg1 scheme:options:orthography:tokenRanges: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -44,14 +35,7 @@
 - (void)ationSize == serializedLivePhotoMetadataSize;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *movieLevelMetadataForOriginalImage; // @synthesize movieLevelMetadataForOriginalImage=_movieLevelMetadataForOriginalImage;
 @property(nonatomic) int movieMode; // @synthesize movieMode=_movieMode;
-@property(copy, nonatomic) FigCaptureMovieFileRecordingSettings *movieRecordingSettings; // @synthesize movieRecordingSettings=_movieRecordingSettings;
-@property(copy, nonatomic) NSURL *movieURLForOriginalImage; // @synthesize movieURLForOriginalImage=_movieURLForOriginalImage;
-@property(nonatomic) struct CGSize nonDestructiveCropSize; // @synthesize nonDestructiveCropSize=_nonDestructiveCropSize;
-@property(retain, nonatomic) FigCaptureSemanticStyle *semanticStyle; // @synthesize semanticStyle=_semanticStyle;
-@property(copy, nonatomic) NSArray *spatialOverCaptureMovieLevelMetadataForOriginalImage; // @synthesize spatialOverCaptureMovieLevelMetadataForOriginalImage=_spatialOverCaptureMovieLevelMetadataForOriginalImage;
-@property(copy, nonatomic) NSURL *spatialOverCaptureMovieURLForOriginalImage; // @synthesize spatialOverCaptureMovieURLForOriginalImage=_spatialOverCaptureMovieURLForOriginalImage;
 
 @end
 

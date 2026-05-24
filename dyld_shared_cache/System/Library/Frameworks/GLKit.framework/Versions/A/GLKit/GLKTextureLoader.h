@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSOpenGLContext;
+@class NSOpenGLContext;
 
 @interface GLKTextureLoader
 {
     NSOpenGLContext *_glContext;
-    NSLock *_nsLock;
 }
 
 + (void);
@@ -26,7 +25,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -47,7 +46,6 @@
 
 // Remaining properties
 @property(retain) NSOpenGLContext *glContext; // @synthesize glContext=_glContext;
-@property(retain) NSLock *nsLock; // @synthesize nsLock=_nsLock;
 
 @end
 

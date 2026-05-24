@@ -4,52 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarAccessoryView, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNVisualIdentityAvatarLayoutManager
 {
     long long _maxAvatarCount;
-    unsigned long long _layoutType;
-    NSArray *_avatarLayerItems;
-    CNAvatarAccessoryView *_mediaContextBadge;
-    NSArray *_avatarViewAdHocLayoutConfiguration;
-    NSArray *_avatarViewLayoutConfiguration;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)qA;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (id);
+- (id)syncValueForKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void)edAvatarInView: /* Error: Ran out of types for this method. */;
+- (void)avatarFrameForFocusedAvatarInView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *avatarLayerItems; // @synthesize avatarLayerItems=_avatarLayerItems;
 @property(retain, nonatomic) NSArray *avatarViewAdHocLayoutConfiguration; // @synthesize avatarViewAdHocLayoutConfiguration=_avatarViewAdHocLayoutConfiguration;
-@property(retain, nonatomic) NSArray *avatarViewLayoutConfiguration; // @synthesize avatarViewLayoutConfiguration=_avatarViewLayoutConfiguration;
-@property(readonly, nonatomic) unsigned long long layoutType; // @synthesize layoutType=_layoutType;
-@property(readonly, nonatomic) long long maxAvatarCount; // @synthesize maxAvatarCount=_maxAvatarCount;
-@property(retain, nonatomic) CNAvatarAccessoryView *mediaContextBadge; // @synthesize mediaContextBadge=_mediaContextBadge;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48 /* Error: Ran out of types for this method. */;
 
 @end
 

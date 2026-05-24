@@ -7,17 +7,6 @@
 @interface MediaPlaybackCore.PlayerObserver
 {
     id $__lazy_storage_$_eventStream;
-    id player;
-    id behavior;
-    id queue;
-    id reporter;
-    id pivotTimeObserver;
-    id transitionStartTimeObserver;
-    id transitionEndTimeObserver;
-    id nextItemObserver;
-    id chapterTimeObserver;
-    id configuration;
-    id observations;
 }
 
 @end

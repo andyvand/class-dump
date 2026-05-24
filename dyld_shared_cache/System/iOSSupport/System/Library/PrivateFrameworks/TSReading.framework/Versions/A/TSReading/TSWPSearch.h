@@ -6,31 +6,25 @@
 
 #import <TSReading/TSKSearch.h>
 
-@class NSString, TSWPFilteredString, TSWPStorage;
+@class NSString, TSWPFilteredString;
 
 @interface TSWPSearch : TSKSearch
 {
     NSString *_searchedString;
-    TSWPFilteredString *_filteredString;
-    TSWPStorage *_storage;
-    struct _NSRange _range;
 }
 
-- (id);
+- (id)ce;
 - (id);
 - (void);
 - (id);
 - (void);
 - (struct _NSRange);
 - (void);
-- (id);
+- (id)?;
 - (_Bool)ared/drawables/TSDBitmapRenderingQualityInfo.m;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) TSWPFilteredString *filteredString; // @synthesize filteredString=_filteredString;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) NSString *searchedString; // @synthesize searchedString=_searchedString;
-@property(readonly, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
 
 @end
 

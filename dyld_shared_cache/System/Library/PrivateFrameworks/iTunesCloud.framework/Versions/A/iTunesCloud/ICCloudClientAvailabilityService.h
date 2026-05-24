@@ -4,47 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol ICCloudServerListenerEndpointProviding, OS_dispatch_queue;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface ICCloudClientAvailabilityService
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    id <ICCloudServerListenerEndpointProviding> _listenerEndpointProvider;
 }
 
 - (id);
 - (_Bool);
+- (_Bool)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)osfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)QCMaximumCacheRAM;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)AKHighlightAnnotationRenderer;
 - (void)ÈmÐnØn´q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <ICCloudServerListenerEndpointProviding> listenerEndpointProvider; // @synthesize listenerEndpointProvider=_listenerEndpointProvider;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

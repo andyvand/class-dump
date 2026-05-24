@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIImageProcessorInOut.h>
 
-@protocol MTLCommandBuffer, MTLTexture;
+@protocol MTLCommandBuffer;
 
 __attribute__((visibility("hidden")))
 @interface CIImageProcessorOutput : CIImageProcessorInOut
 {
     id <MTLCommandBuffer> _cmdBuffer;
-    void *_task;
 }
 
 - (struct CGColorSpace *);
@@ -28,15 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) void *baseAddress;
-@property(readonly, nonatomic) unsigned long long bytesPerRow;
-@property(readonly, nonatomic) unsigned long long digest;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) id <MTLCommandBuffer> metalCommandBuffer;
-@property(readonly, nonatomic) id <MTLTexture> metalTexture;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
 @property(readonly, nonatomic) struct CGRect region;
-@property(readonly, nonatomic) struct __IOSurface *surface;
 
 @end
 

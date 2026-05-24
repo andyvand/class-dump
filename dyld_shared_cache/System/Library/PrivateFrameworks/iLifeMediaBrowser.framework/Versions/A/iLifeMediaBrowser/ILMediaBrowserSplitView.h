@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)pdates(_:(struct CGRect)arg1 completion:) /* Error: Ran out of types for this method. */;
 
 @end
 

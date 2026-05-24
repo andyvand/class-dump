@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOAutomobileOptions, MapsSuggestionsCanKicker, MapsSuggestionsCompositeSource, MapsSuggestionsObservers, MapsSuggestionsTracker, NSArray, NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol MapsSuggestionsLocationUpdater, MapsSuggestionsStrategy, OS_dispatch_queue;
+@class NSObject;
+@protocol MapsSuggestionsStrategy, OS_dispatch_queue;
 
 @interface MapsSuggestionsManager
 {
     NSObject<OS_dispatch_queue> *_gatheringQueue;
-    NSObject<OS_dispatch_queue> *_storageQueue;
-    id <MapsSuggestionsStrategy> _strategy;
-    NSMutableDictionary *_additionalFiltersPerSink;
-    MapsSuggestionsTracker *_tracker;
-    NSDate *_etaValidUntil;
-    MapsSuggestionsObservers *_sinks;
-    MapsSuggestionsCompositeSource *_compositeSource;
-    NSMutableDictionary *_storage;
-    NSArray *_latestResults;
-    int _defaultTansportType;
-    MapsSuggestionsCanKicker *_expiredEntryInvalidator;
-    MapsSuggestionsCanKicker *_wipeStaleETAWiper;
-    MapsSuggestionsCanKicker *_deferredSourcesUpdater;
-    CLLocation *_oldLocation;
-    _Bool _sourcesRunning;
-    int _mapType;
-    GEOAutomobileOptions *_automobileOptions;
-    id <MapsSuggestionsLocationUpdater> _locationUpdater;
 }
 
 - (void);
@@ -48,7 +30,7 @@
 - (void);
 - (BOOL);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -66,11 +48,11 @@
 - (id);
 - (BOOL);
 - (id);
-- (id);
+- (id)DGRedEyeFilter;
 - (BOOL);
 - (void);
 - (void);
-- (void);
+- (void)moveItemAtIndexPath:(id)arg1 toIndexPath:(long long)arg2;
 - (void);
 - (id)× ;
 - (id)!hGùÑõð1Â0@ù
@@ -79,18 +61,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <MapsSuggestionsLocationUpdater> locationUpdater; // @synthesize locationUpdater=_locationUpdater;
-@property(nonatomic) int mapType; // @synthesize mapType=_mapType;
 @property(retain, nonatomic) id <MapsSuggestionsStrategy> strategy; // @synthesize strategy=_strategy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

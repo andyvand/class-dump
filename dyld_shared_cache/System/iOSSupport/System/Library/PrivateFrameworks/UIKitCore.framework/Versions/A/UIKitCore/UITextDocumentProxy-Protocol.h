@@ -7,15 +7,13 @@
 @class NSString, NSUUID, UITextInputMode;
 
 @protocol UITextDocumentProxy
+- (NSString *);
+- (NSUUID *)MissingPropertySetMappingEntityType;
 - (UITextInputMode *)1;
-- (void)ationScheduler;
+- (void)AnimationScheduler;
 - (NSString *)xÁ[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *documentContextAfterInput;
 @property(readonly, nonatomic) NSString *documentContextBeforeInput;
-@property(readonly, copy, nonatomic) NSUUID *documentIdentifier;
-@property(readonly, nonatomic) UITextInputMode *documentInputMode;
-@property(readonly, nonatomic) NSString *selectedText;
 @end
 

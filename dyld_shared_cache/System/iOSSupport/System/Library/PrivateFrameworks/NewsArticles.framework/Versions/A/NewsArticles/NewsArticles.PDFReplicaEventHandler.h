@@ -7,8 +7,6 @@
 @interface NewsArticles.PDFReplicaEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

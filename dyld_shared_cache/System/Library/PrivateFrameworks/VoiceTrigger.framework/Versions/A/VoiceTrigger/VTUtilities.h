@@ -12,12 +12,12 @@
 + (double);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)`;
 + (double);
-+ (id);
++ (id)ponse parsing failed with error:%{public}@. /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long))A;
 + (double);
 + (_Bool);
 + (id);
@@ -28,7 +28,7 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)allowAvatarAndNicknameChanges;
 + (_Bool);
 + (id);
 + (_Bool);

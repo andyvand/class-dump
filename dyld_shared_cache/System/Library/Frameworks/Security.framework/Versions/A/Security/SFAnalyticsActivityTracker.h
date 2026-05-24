@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, NSString;
+@class NSNumber, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFAnalyticsActivityTracker
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_name;
-    Class _clientClass;
-    unsigned long long _start;
-    _Bool _canceled;
-    NSNumber *_measurement;
 }
 
 - (void);
@@ -26,7 +21,7 @@
 - (void);
 - (id);
 - (void)¸;
-- (void)M_ALGID_SSL3PrimaryDerive;
+- (void)CSSM_ALGID_SSL3PrimaryDerive;
 
 // Remaining properties
 @property(retain) NSNumber *measurement; // @synthesize measurement=_measurement;

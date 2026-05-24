@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
-- (_Bool);
+- (_Bool)tring"40;
 - (unsigned long long);
 - (id);
 

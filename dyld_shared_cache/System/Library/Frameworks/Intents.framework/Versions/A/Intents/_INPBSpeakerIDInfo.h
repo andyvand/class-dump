@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBSpeakerIDInfo
 {
     struct {
         unsigned int speakerIDConfidence:1;
     } _has;
-    int _speakerIDConfidence;
-    _INPBString *_sharedUserID;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void);
@@ -29,24 +27,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)eapFAST;
 - (id);
 - (id);
-- (void)NDeleteTasksIntentResponseCodeFailureRequiringAppLaunch;
+- (void)INDeleteTasksIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSharedUserID;
-@property(nonatomic) _Bool hasSpeakerIDConfidence;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBString *sharedUserID; // @synthesize sharedUserID=_sharedUserID;
-@property(nonatomic) int speakerIDConfidence; // @synthesize speakerIDConfidence=_speakerIDConfidence;
-@property(readonly) Class superclass;
 
 @end
 

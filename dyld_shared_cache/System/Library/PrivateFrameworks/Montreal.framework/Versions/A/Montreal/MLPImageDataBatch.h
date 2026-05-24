@@ -11,11 +11,9 @@
 @interface MLPImageDataBatch : MLPDataBatch
 {
     NSArray *_images;
-    NSArray *_lossLabels;
-    NSArray *_labels;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain) NSArray *images; // @synthesize images=_images;
-@property(retain) NSArray *labels; // @synthesize labels=_labels;
-@property(retain) NSArray *lossLabels; // @synthesize lossLabels=_lossLabels;
 
 @end
 

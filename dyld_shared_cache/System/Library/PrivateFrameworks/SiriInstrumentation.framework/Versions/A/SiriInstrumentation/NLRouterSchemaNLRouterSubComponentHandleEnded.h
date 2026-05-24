@@ -6,30 +6,25 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterSubComponentHandleEndedData, NSData;
-
 @interface NLRouterSchemaNLRouterSubComponentHandleEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NLRouterSchemaNLRouterSubComponentHandleEndedData *_nlRouterSubComponentHandleEndedData;
-    CDStruct_b33ad018 _has;
-    _Bool _hasNlRouterSubComponentHandleEndedData;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)ublic}@, targeting:(_Bool)arg1 %{public}@);
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)short;
+- (unsigned long long)C;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id)backConfirmationOutcomeReceived;
 - (id)PLUSContactSuggesterQueryContext",&,N,V_contactSuggesterQueryContext;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasNlRouterSubComponentHandleEndedData; // @synthesize hasNlRouterSubComponentHandleEndedData=_hasNlRouterSubComponentHandleEndedData;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentHandleEndedData *nlRouterSubComponentHandleEndedData; // @synthesize nlRouterSubComponentHandleEndedData=_nlRouterSubComponentHandleEndedData;
 
 @end
 

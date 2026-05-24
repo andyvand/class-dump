@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSAppleConnectCredentials, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSURLCredential, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface BKSJob
 {
     unsigned char _state;
-    _Bool _applyTimeoutPerBatch;
-    _Bool _needsSegmentInfo;
-    _Bool _shouldReadFromKeychain;
-    _Bool _force3rdPartySymbolication;
-    CDUnknownBlockType _odCredentialProvidingBlock;
-    CDUnknownBlockType _acCredentialBlock;
-    CDUnknownBlockType _acOAuthCredentialBlock;
-    double _timeoutInSec;
-    NSString *_groupName;
-    unsigned long long _reachabilityTimeoutInSec;
-    NSUUID *_uuid;
-    CDUnknownBlockType _completionBlock;
-    NSMutableArray *_dataTasks;
-    unsigned long long _currentDataTaskIndex;
-    NSArray *_symbolicationRequests;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSMutableDictionary *_perUUIDSymbolicationRequests;
-    NSMutableDictionary *_dyldSharedCacheLayoutRequests;
-    NSURLCredential *_odCredentials;
-    BKSAppleConnectCredentials *_acCredentials;
-    NSMutableDictionary *_oAuthCredentials;
-    CDUnknownBlockType _credentialsCachingBlock;
-    NSMutableDictionary *_uuidToSymbolOwnerDict;
-    NSMutableArray *_results;
-    NSMutableDictionary *_dyldSharedCacheLayoutResults;
 }
 
 + (_Bool);
-+ (id);
++ (id)T@@y	?%@qa;
 + (_Bool);
 - (id);
 - (double);
@@ -49,28 +23,28 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (unsigned long long)TI�;
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (CDUnknownBlockType);
+- (_Bool);
+- (void);
+- (void)@y	?%@qa;
+- (CDUnknownBlockType)T;
+- (id);
 - (CDUnknownBlockType);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (CDUnknownBlockType);
-- (_Bool);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -90,59 +64,33 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@y	?%@qa;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (void)qa;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)~;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)0;
 - (void);
 - (unsigned char);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (CDUnknownBlockType);
-- (void);
+- (void)A;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _shouldPerformThirdPartySymbolication;
-@property(copy, nonatomic) CDUnknownBlockType acCredentialBlock; // @synthesize acCredentialBlock=_acCredentialBlock;
-@property(retain, nonatomic) BKSAppleConnectCredentials *acCredentials; // @synthesize acCredentials=_acCredentials;
-@property(copy, nonatomic) CDUnknownBlockType acOAuthCredentialBlock; // @synthesize acOAuthCredentialBlock=_acOAuthCredentialBlock;
-@property(nonatomic) _Bool applyTimeoutPerBatch; // @synthesize applyTimeoutPerBatch=_applyTimeoutPerBatch;
-@property(readonly, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, nonatomic) CDUnknownBlockType credentialsCachingBlock; // @synthesize credentialsCachingBlock=_credentialsCachingBlock;
-@property(readonly, nonatomic) unsigned long long currentDataTaskIndex; // @synthesize currentDataTaskIndex=_currentDataTaskIndex;
-@property(readonly, nonatomic) NSMutableArray *dataTasks; // @synthesize dataTasks=_dataTasks;
-@property(readonly, nonatomic) NSMutableDictionary *dyldSharedCacheLayoutRequests; // @synthesize dyldSharedCacheLayoutRequests=_dyldSharedCacheLayoutRequests;
-@property(readonly, nonatomic) NSMutableDictionary *dyldSharedCacheLayoutResults; // @synthesize dyldSharedCacheLayoutResults=_dyldSharedCacheLayoutResults;
-@property(nonatomic) _Bool force3rdPartySymbolication; // @synthesize force3rdPartySymbolication=_force3rdPartySymbolication;
-@property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(nonatomic) _Bool needsSegmentInfo; // @synthesize needsSegmentInfo=_needsSegmentInfo;
-@property(retain, nonatomic) NSMutableDictionary *oAuthCredentials; // @synthesize oAuthCredentials=_oAuthCredentials;
-@property(copy, nonatomic) CDUnknownBlockType odCredentialProvidingBlock; // @synthesize odCredentialProvidingBlock=_odCredentialProvidingBlock;
-@property(retain, nonatomic) NSURLCredential *odCredentials; // @synthesize odCredentials=_odCredentials;
-@property(readonly, nonatomic) NSMutableDictionary *perUUIDSymbolicationRequests; // @synthesize perUUIDSymbolicationRequests=_perUUIDSymbolicationRequests;
-@property(nonatomic) unsigned long long reachabilityTimeoutInSec; // @synthesize reachabilityTimeoutInSec=_reachabilityTimeoutInSec;
-@property(readonly, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) _Bool shouldReadFromKeychain; // @synthesize shouldReadFromKeychain=_shouldReadFromKeychain;
-@property unsigned char state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSArray *symbolicationRequests; // @synthesize symbolicationRequests=_symbolicationRequests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(readonly, nonatomic) double timeoutInSec; // @synthesize timeoutInSec=_timeoutInSec;
 @property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) NSMutableDictionary *uuidToSymbolOwnerDict; // @synthesize uuidToSymbolOwnerDict=_uuidToSymbolOwnerDict;
 
 @end
 

@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
-
 @interface ICQueryObjC
 {
     id entity;
-    id type;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)?0@"NSError"8;
++ (id)ion interrupted;
++ (id)ceboard.state;
++ (id)rror:(id)arg1 %@;
++ (id)of %s;
++ (id)bytes);
++ (id)ng assets:(_Bool)arg1 0%%...;
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (void);
 - (id)ng, but should be %ld.;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBeEdited;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *entityName;
 @property(nonatomic, readonly) long long minimumSupportedVersion;
-@property(nonatomic, readonly) NSPredicate *predicate;
 
 @end
 

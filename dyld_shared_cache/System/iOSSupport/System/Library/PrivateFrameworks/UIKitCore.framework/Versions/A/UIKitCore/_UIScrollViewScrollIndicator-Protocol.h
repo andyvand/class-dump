@@ -4,9 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @protocol _UIScrollViewScrollIndicator
+- (void);
 - (void)0@ù
 × ;
 - (unsigned long long)!T@ùñ_°1Â0@ù
@@ -16,13 +15,8 @@
 × ;
 - (void)pageScrollView;
 - (void)°¿R0;
-- (UIColor *);
 
 // Remaining properties
-@property(nonatomic) _Bool expandedForDirectManipulation;
-@property(retain, nonatomic) UIColor *foregroundColor;
-@property(readonly, nonatomic) struct CGSize layoutOffset;
-@property(nonatomic) long long style;
 @property(nonatomic) unsigned long long type;
 @end
 

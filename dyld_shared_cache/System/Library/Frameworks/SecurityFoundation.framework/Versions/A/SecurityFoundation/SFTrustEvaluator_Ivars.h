@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SFRevocationPolicy, SFTrustPolicy;
+@class SFTrustPolicy;
 
 __attribute__((visibility("hidden")))
 @interface SFTrustEvaluator_Ivars
 {
     SFTrustPolicy *trustPolicy;
-    SFRevocationPolicy *revocationPolicy;
-    NSArray *applicationAnchorCertificates;
-    struct {
-        unsigned int allowCertificateFetching:1;
-        unsigned int trustSystemAnchorCertificates:1;
-    } trustEvaluatorFlags;
 }
 
 - (void);

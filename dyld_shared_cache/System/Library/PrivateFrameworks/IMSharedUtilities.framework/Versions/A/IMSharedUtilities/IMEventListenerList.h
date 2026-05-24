@@ -11,13 +11,13 @@
     NSMutableArray *_eventListeners;
 }
 
-- (id);
+- (id)PKForceSignDataApplicationStateForegroundRunningCheckKey;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)dismissMsgOnUnlock;
 - (unsigned long long);
-- (void)oot;
+- (void)Root;
 
 @end
 

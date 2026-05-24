@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerView, CALayer, NSString, NSView, VPPresenterView, _AKDismissableView;
+@class NSString, VPPresenterView;
 
 @interface AKProximityAuthViewController
 {
     NSString *_verificationCode;
-    VPPresenterView *_visualPairingView;
-    AVPlayer *_videoPlayer;
-    AVPlayerView *_videoPlayerView;
-    NSView *_visualMaskView;
-    CALayer *_maskLayer;
-    _AKDismissableView *_dismissView;
 }
 
 - (id);
@@ -26,11 +20,11 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
-- (struct CGColor *);
+- (unsigned int);
+- (struct CGColor *);
 - (struct CGColor *);
 - (_Bool);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -45,11 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _AKDismissableView *dismissView; // @synthesize dismissView=_dismissView;
-@property(retain, nonatomic) CALayer *maskLayer; // @synthesize maskLayer=_maskLayer;
-@property(retain, nonatomic) AVPlayer *videoPlayer; // @synthesize videoPlayer=_videoPlayer;
-@property(retain, nonatomic) AVPlayerView *videoPlayerView; // @synthesize videoPlayerView=_videoPlayerView;
-@property(retain, nonatomic) NSView *visualMaskView; // @synthesize visualMaskView=_visualMaskView;
 @property(retain, nonatomic) VPPresenterView *visualPairingView; // @synthesize visualPairingView=_visualPairingView;
 
 @end

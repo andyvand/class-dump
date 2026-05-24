@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WBSHistory;
+@class NSMutableArray;
 
 @interface WBSRecentWebSearchesController
 {
     NSMutableArray *_recentSearchEntries;
-    WBSHistory *_history;
-    WBSRecentWebSearchesController *_defaultController;
 }
 
 + (_Bool);
@@ -26,15 +24,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)(=;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)V;
 - (id);
 - (id);
 - (id);

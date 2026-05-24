@@ -6,13 +6,10 @@
 
 #import <GeoServices/GEOMapAccessLine.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOMapAccessRoad : GEOMapAccessLine
 {
     shared_ptr_92bc9970 _roadEdge;
-    unsigned long long _roadID;
 }
 
 + (double);
@@ -25,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (double);
-- (int);
+- (int)annot be turned on since builtIn speaker is active and playback volume is high;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -42,28 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)"3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int formOfWay;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *internalRoadName;
-@property(readonly, nonatomic) _Bool isBridge;
-@property(readonly, nonatomic) _Bool isRail;
-@property(readonly, nonatomic) _Bool isTunnel;
-@property(readonly, nonatomic) double length;
-@property(readonly, nonatomic) int rampType;
 @property(readonly, nonatomic) int roadClass;
-@property(readonly, nonatomic) unsigned long long roadID;
-@property(readonly, nonatomic) double roadWidth;
-@property(readonly, nonatomic) unsigned long long speedLimit;
-@property(readonly, nonatomic) _Bool speedLimitIsMPH;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int travelDirection;
 
 @end
 

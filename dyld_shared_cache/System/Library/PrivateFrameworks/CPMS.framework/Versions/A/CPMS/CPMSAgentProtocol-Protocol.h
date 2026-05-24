@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol CPMSAgentProtocol
++ (_Bool)';
++ (_Bool);
+- (NSDictionary *);
 @end
 

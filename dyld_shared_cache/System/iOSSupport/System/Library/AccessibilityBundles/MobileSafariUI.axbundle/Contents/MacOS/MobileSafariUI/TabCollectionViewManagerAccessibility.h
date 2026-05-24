@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemCondensedElementAccessorySymbolCustomImageKey;
 + (id);
 + (void);
 - (void);

@@ -7,15 +7,6 @@
 @interface ChatKit.PhotosSendMenuListItem
 {
     id $__lazy_storage_$_title;
-    id $__lazy_storage_$_lightModeImage;
-    id $__lazy_storage_$_darkModeImage;
-    id iconIsUsersNewestPhoto;
-    id $__lazy_storage_$_customIconLayer;
-    id $__lazy_storage_$_mostRecentPhoto;
-    id lightModeImageCompositingFilter;
-    id darkModeImageCompositingFilter;
-    id imageInsets;
-    id isEnabled;
 }
 
 @end

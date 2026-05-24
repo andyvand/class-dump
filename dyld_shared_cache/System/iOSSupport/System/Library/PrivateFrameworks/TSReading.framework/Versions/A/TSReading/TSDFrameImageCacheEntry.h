@@ -9,14 +9,10 @@
 @interface TSDFrameImageCacheEntry
 {
     TSDFrameSpec *mFrameSpec;
-    double mAssetScale;
-    struct CGSize mSize;
-    double mViewScale;
-    struct CGImage *mImages[4];
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGImage *);
 - (id);
@@ -28,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double assetScale; // @synthesize assetScale=mAssetScale;
 @property(nonatomic) TSDFrameSpec *frameSpec; // @synthesize frameSpec=mFrameSpec;
-@property(nonatomic) struct CGSize size; // @synthesize size=mSize;
-@property(nonatomic) double viewScale; // @synthesize viewScale=mViewScale;
 
 @end
 

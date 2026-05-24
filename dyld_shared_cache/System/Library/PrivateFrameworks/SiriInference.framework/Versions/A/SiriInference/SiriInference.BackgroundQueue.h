@@ -7,10 +7,6 @@
 @interface SiriInference.BackgroundQueue
 {
     id lock;
-    id pauseRequests;
-    id queue;
-    id queueKey;
-    id queueKeyValue;
 }
 
 - (id);

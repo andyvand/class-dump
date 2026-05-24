@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface QLThumbnailCachedAddition
 {
     GSAddition *_addition;
-    unsigned long long _fileID;
 }
 
 - (void);

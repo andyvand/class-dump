@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol TIUserDictionaryServing
+- (void)paceName:(void (^)(NSArray *))arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *userDictionaryUUID;

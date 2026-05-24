@@ -6,12 +6,9 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@protocol NSSecureCoding;
-
 @interface ICRemoteRequestOperation : ICRequestOperation
 {
     _Bool __shadowOperationForRemoteExecution;
-    id <NSSecureCoding> _response;
 }
 
 + (_Bool);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_isShadowOperationForRemoteExecution, setter=_setShadowOperationForRemoteExecution:) _Bool _shadowOperationForRemoteExecution; // @synthesize _shadowOperationForRemoteExecution=__shadowOperationForRemoteExecution;
-@property(retain, nonatomic) id <NSSecureCoding> response; // @synthesize response=_response;
 
 @end
 

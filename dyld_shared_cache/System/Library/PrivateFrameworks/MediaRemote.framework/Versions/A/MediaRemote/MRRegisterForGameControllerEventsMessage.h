@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)ed:(unsigned int)arg1 %@;
+- (unsigned long long)ve_ARGB8888();
 - (unsigned int)em = %@. Ignoring command;
 
 // Remaining properties

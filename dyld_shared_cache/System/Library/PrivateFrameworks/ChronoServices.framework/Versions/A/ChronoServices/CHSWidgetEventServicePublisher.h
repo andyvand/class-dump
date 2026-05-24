@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CHSWidgetEventServicePublisher
 {
     NSString *_machServiceName;
-    BSServiceConnection *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    _Bool _active;
 }
 
 - (void);
@@ -25,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

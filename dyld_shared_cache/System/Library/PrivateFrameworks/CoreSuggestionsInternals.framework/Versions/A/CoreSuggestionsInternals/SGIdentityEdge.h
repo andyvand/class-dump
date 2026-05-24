@@ -9,8 +9,6 @@
 @interface SGIdentityEdge
 {
     SGRecordId *a;
-    SGRecordId *b;
-    double strength;
 }
 
 - (void)ø{4;

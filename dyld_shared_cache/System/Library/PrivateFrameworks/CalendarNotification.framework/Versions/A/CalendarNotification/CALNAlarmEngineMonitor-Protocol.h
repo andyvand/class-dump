@@ -5,5 +5,6 @@
 //
 
 @protocol CALNAlarmEngineMonitor
+- (void);
 @end
 

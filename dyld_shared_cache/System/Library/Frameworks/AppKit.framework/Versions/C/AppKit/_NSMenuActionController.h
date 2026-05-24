@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSMenuActionController
 {
     NSView *_view;
-    id _item;
-    struct CGRect _itemFrame;
-    struct CGRect _aimFrame;
-    struct {
-        unsigned int _qlPreviewItem:1;
-        unsigned int _reserved:31;
-    } _flags;
 }
 
 - (id);
@@ -26,25 +19,15 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (id);
 - (struct CGRect);
-- (unsigned long long);
-- (void);
+- (unsigned long long)proxy cred %p;
+- (void)P;
 - (id);
 - (id);
-- (id)plyPresentationFilters: /* Error: Ran out of types for this method. */;
-- (struct CGRect)owCustomizationElementKindSectionBackground;
+- (id)applyPresentationFilters: /* Error: Ran out of types for this method. */;
+- (struct CGRect)NSFunctionRowCustomizationElementKindSectionBackground;
 - (void)r;
 
 // Remaining properties
-@property(readonly) struct CGRect aimFrame; // @synthesize aimFrame=_aimFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id item; // @synthesize item=_item;
-@property(readonly) struct CGRect itemFrame; // @synthesize itemFrame=_itemFrame;
-@property(readonly) Class superclass;
 @property(readonly) __weak NSView *view; // @synthesize view=_view;
 
 @end

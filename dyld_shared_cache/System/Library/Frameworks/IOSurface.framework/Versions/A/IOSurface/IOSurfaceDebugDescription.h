@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOSurfaceDebugDescription
 {
 }
 
-+ (id);
++ (id)* ((mask.r > threshold) ? 1.0 :0.0);
+}
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocationSize; // @dynamic allocationSize;
-@property(readonly) unsigned long long dirtySize; // @dynamic dirtySize;
-@property(readonly) unsigned long long height; // @dynamic height;
-@property(readonly) _Bool isWired; // @dynamic isWired;
-@property(readonly) NSString *name; // @dynamic name;
-@property(readonly) unsigned int pixelFormat; // @dynamic pixelFormat;
-@property(readonly) NSString *pixelFormatString; // @dynamic pixelFormatString;
-@property(readonly) unsigned long long residentSize; // @dynamic residentSize;
-@property(readonly) unsigned int surfaceID; // @dynamic surfaceID;
 @property(readonly) unsigned long long virtualAddress; // @dynamic virtualAddress;
-@property(readonly) unsigned long long width; // @dynamic width;
 
 @end
 

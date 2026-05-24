@@ -9,9 +9,9 @@
     id wrapped;
 }
 
-- (void);
+- (void)IMDCKAccountStatusLoggedInWithD2DEncryptionSupport;
 - (_Bool);
-- (id);
+- (id)+;
 
 // Remaining properties
 @property(nonatomic) _Bool prefersAudioReactivity;

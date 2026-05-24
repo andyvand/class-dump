@@ -5,5 +5,8 @@
 //
 
 @protocol NSDraggingDestination
+
+@optional
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, PXMonthsLayoutGenerator, PXMonthsLayoutMetrics;
+@class NSIndexSet, PXMonthsLayoutMetrics;
 
 @interface PXMonthsSublayoutComposition
 {
     NSIndexSet *_indexesOfChapterHeaders;
-    NSIndexSet *_indexesOfHeroes;
-    PXMonthsLayoutGenerator *_layoutGenerator;
-    PXMonthsLayoutMetrics *_metrics;
 }
 
 - (void);
@@ -24,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) PXMonthsLayoutMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) _Bool presentedSingleColumn;
 
 @end
 

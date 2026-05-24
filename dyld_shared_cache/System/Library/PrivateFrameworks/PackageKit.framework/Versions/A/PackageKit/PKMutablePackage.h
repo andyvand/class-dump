@@ -6,35 +6,27 @@
 
 #import <PackageKit/PKPackage.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKMutablePackage : PKPackage
 {
     NSArray *_onDiskComponents;
-    NSString *_payloadRoot;
-    NSString *_baselinePayloadRoot;
-    _Bool _generateBinaryPatches;
-    NSString *_scriptRoot;
-    NSArray *_maskExpressions;
-    CDUnknownBlockType _ownershipModifier;
-    CDUnknownBlockType _modeModifier;
-    CDUnknownBlockType _baselineNameMapper;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)93;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);

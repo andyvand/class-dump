@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ingfulEventLooseRequiredCriteriaFactory;
+- (id)representativeURLForTabGroupConfirmationAlert: /* Error: Ran out of types for this method. */;
+- (id)PGMeaningfulEventLooseRequiredCriteriaFactory;
 
 @end
 

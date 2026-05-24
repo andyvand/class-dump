@@ -11,9 +11,6 @@
 @interface NUNumberSetting : NUSetting
 {
     NSNumber *_minimumValue;
-    NSNumber *_maximumValue;
-    NSNumber *_ui_minimumValue;
-    NSNumber *_ui_maximumValue;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -36,12 +33,7 @@
 - (id)Failed to create image asset:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSNumber *defaultValue;
-@property(readonly) NSNumber *identityValue;
-@property(readonly) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly) NSNumber *ui_maximumValue; // @synthesize ui_maximumValue=_ui_maximumValue;
-@property(readonly) NSNumber *ui_minimumValue; // @synthesize ui_minimumValue=_ui_minimumValue;
 
 @end
 

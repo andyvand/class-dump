@@ -7,10 +7,6 @@
 @interface ReminderKitInternal.REMFilteredTitleEmbedding
 {
     id revision;
-    id lang;
-    id wordEmbedding;
-    id stopWords;
-    id tokenizer;
 }
 
 @end

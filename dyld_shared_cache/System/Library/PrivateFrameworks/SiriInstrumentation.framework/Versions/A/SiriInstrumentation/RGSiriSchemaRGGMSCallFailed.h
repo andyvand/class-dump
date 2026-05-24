@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGGMSCallFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)g_macOS.m:56 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)to add column message_action_type to the message table.;
+- (_Bool)te_date != 0);
 - (void);
 - (id);
-- (id);
-- (id)bSearchExecutions:(id)arg1;
+- (id)A;
+- (id)addMultistepSubSearchExecutions:(id)arg1;
 - (id),V_accuracyOnAnyUserParse;
 - (void)ml.siri.home.HOMEClientEvent.HOMEAssistantDeviceBirthday;
 - (void)bundleId;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

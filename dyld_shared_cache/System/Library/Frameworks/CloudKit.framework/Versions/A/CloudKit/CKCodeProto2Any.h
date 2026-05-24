@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKCodeProto2Any
 {
     NSString *_typeUrl;
-    NSData *_value;
 }
 
 - (void);
@@ -17,9 +16,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)(;
+- (void)h;
+- (unsigned long long)populateConstraintsForArrayFeatureType:dataType:constraintClass:defaultOptionalValue: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTypeUrl;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *typeUrl; // @synthesize typeUrl=_typeUrl;
-@property(retain, nonatomic) NSData *value; // @synthesize value=_value;
 
 @end
 

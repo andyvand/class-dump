@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNPhysicsVehicle;
+@class SCNNode;
 
 @interface SCNPhysicsVehicleWheel
 {
     SCNNode *_node;
-    SCNPhysicsVehicle *_vehicle;
-    int _wheelIndex;
-    double _suspensionStiffness;
-    double _suspensionCompression;
-    double _suspensionDamping;
-    double _maximumSuspensionTravel;
-    double _frictionSlip;
-    double _maximumSuspensionForce;
-    struct SCNVector3 _connectionPosition;
-    struct SCNVector3 _steeringAxis;
-    struct SCNVector3 _axle;
-    double _radius;
-    double _suspensionRestLength;
-    _Bool _isFront;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)er:] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
@@ -54,11 +40,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
+- (void)GRect={CGPoint=dd}{CGSize=dd}}16;
 - (void);
-- (void);
-- (id);
-- (double);
+- (id)@a `*L`	;
+- (double)24;
 - (id)NABLE_SOFT
 uniform sampler2D u_depthSampler0;
 uniform vec4 u_softParameters; 
@@ -121,18 +107,7 @@ void main(){
 - (id);
 
 // Remaining properties
-@property struct SCNVector3 axle;
-@property struct SCNVector3 connectionPosition;
-@property double frictionSlip;
-@property double maximumSuspensionForce;
-@property double maximumSuspensionTravel;
 @property(readonly) SCNNode *node;
-@property double radius;
-@property struct SCNVector3 steeringAxis;
-@property double suspensionCompression;
-@property double suspensionDamping;
-@property double suspensionRestLength;
-@property double suspensionStiffness;
 
 @end
 

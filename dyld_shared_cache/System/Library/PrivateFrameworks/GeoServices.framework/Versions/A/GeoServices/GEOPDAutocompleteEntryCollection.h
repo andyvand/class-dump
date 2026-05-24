@@ -4,32 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteEntryCollection
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_collectionId;
 }
 
-+ (_Bool)sBackground:(id)arg1;
++ (_Bool)setHasWasBackground:(id)arg1;
 - (_Bool);
-- (void);
-- (id);
+- (void)ons;
+- (id)elements;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)NviAsdPayloadSignalType;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ewedAudioSheetBTHFP"b1"wirelessRoutesAvailable"b1}};
-- (id)n:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
 - (id)³²=#(³²ì=#8³²~#H³²°#t³²¬#´²¬#D´²ô#P´²#p´²¤¾#´²ÄÎ#µ²;
 - (id)ER JOIN data ON tiles.data_pk == data.rowid    WHERE tiles.key_a == @tiles_key_a AND tiles.key_b == @tiles_key_b AND tiles.key_c == @tiles_key_c AND tiles.key_d == @tiles_key_d;;
 - (void)cality (	
@@ -56,9 +55,7 @@ SubPremiseH
 UNIT /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDMapsIdentifier *collectionId;
 @property(readonly, nonatomic) _Bool hasCollectionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

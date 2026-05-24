@@ -6,16 +6,12 @@
 
 #import <IMAP/IMAPNetworkTaskOperation.h>
 
-@class NSIndexSet, NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol IMAPSyncSkeletonsOperationDelegate;
 
 @interface IMAPSyncSkeletonsOperation : IMAPNetworkTaskOperation
 {
     NSMutableArray *_fetchResponses;
-    _Bool _useUIDs;
-    _Bool _includeLabels;
-    NSIndexSet *_messageNumbers;
-    id <IMAPSyncSkeletonsOperationDelegate> _delegate;
 }
 
 - (id);
@@ -24,25 +20,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool),;
+- (id)C9;
 - (id);
-- (id);
-- (id);
+- (id)tureCG;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <IMAPSyncSkeletonsOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeLabels; // @synthesize includeLabels=_includeLabels;
-@property(readonly, copy, nonatomic) NSIndexSet *messageNumbers; // @synthesize messageNumbers=_messageNumbers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useUIDs; // @synthesize useUIDs=_useUIDs;
 
 @end
 

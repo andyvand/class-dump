@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)4;
 + (id);
 + (id);
 + (id);
@@ -26,24 +26,10 @@
 + (long long);
 + (id);
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) long long colorType;
-@property(nonatomic) double faceI;
-@property(nonatomic) double faceQ;
-@property(nonatomic) double faceStrength;
-@property(nonatomic) double faceWarmth;
-@property(nonatomic) double grayI;
-@property(nonatomic) double grayQ;
-@property(nonatomic) double grayStrength;
-@property(nonatomic) double grayWarmth;
-@property(nonatomic) double grayY;
-@property(nonatomic) double temperature;
-@property(nonatomic) double tint;
-@property(nonatomic) _Bool warmFace;
-@property(nonatomic) double warmTemp;
-@property(nonatomic) double warmTint;
 
 @end
 

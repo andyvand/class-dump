@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ringItems: /* Error: Ran out of types for this method. */;
+- (id)owseInfo"8^B16;
+- (void)setSharingItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MessageSelectionStrategyDataSource> dataSource; // @synthesize dataSource=_dataSource;

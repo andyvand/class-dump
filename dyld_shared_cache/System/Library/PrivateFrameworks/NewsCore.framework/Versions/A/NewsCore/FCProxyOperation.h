@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (void);
++ (void)B0;
 - (unsigned long long);
 - (void);
 - (void);

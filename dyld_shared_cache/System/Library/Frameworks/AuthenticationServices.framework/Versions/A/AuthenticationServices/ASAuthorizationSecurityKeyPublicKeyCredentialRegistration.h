@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialPRFRegistrationOutput, ASCSecurityKeyPublicKeyCredentialRegistration, NSArray, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialPRFRegistrationOutput, ASCSecurityKeyPublicKeyCredentialRegistration;
 
 @interface ASAuthorizationSecurityKeyPublicKeyCredentialRegistration
 {
@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)optionIdentifier;
+- (id)A/CoreMedia;
 - (id);
 - (void);
 - (id);
@@ -28,19 +28,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFRegistrationOutput *__prfSwift;
-@property(readonly, nonatomic) ASCSecurityKeyPublicKeyCredentialRegistration *coreCredential; // @synthesize coreCredential=_coreCredential;
-@property(readonly, copy, nonatomic) NSData *credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ASAuthorizationPublicKeyCredentialPRFRegistrationOutput *prf;
-@property(readonly, copy, nonatomic) NSData *rawAttestationObject;
-@property(readonly, copy, nonatomic) NSData *rawClientDataJSON;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *transports;
 
 @end
 

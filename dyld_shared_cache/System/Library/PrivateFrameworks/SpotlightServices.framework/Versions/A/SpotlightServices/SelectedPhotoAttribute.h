@@ -7,8 +7,6 @@
 @interface SelectedPhotoAttribute
 {
     float _maxAttributeFreq;
-    float _selectedTokenPercentage;
-    unsigned long long _selectedAttribute;
 }
 
 - (void);
@@ -20,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property float maxAttributeFreq; // @synthesize maxAttributeFreq=_maxAttributeFreq;
 @property unsigned long long selectedAttribute; // @synthesize selectedAttribute=_selectedAttribute;
-@property float selectedTokenPercentage; // @synthesize selectedTokenPercentage=_selectedTokenPercentage;
 
 @end
 

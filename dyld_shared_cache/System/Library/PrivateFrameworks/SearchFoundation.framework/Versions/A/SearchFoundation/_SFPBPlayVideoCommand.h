@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class _SFPBURL;
 
 @interface _SFPBPlayVideoCommand
 {
@@ -16,23 +16,15 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)$;
+- (id)preflightConversionRequest:(id)arg1;
+- (id)is the most recent;
+- (id);
 - (id);
 - (id);
 - (void)@"SFKeyValueDataCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBURL *url; // @synthesize url=_url;
 
 @end

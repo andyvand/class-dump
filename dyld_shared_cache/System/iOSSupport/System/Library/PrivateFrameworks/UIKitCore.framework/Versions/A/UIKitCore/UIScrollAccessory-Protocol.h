@@ -12,8 +12,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long edge;
-@property(readonly, nonatomic) _Bool overlay;
 @property(nonatomic) __weak UIScrollView *scrollView;
 @end
 

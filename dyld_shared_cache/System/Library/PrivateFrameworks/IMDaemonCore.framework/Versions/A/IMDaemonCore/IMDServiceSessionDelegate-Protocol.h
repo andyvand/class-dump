@@ -5,5 +5,9 @@
 //
 
 @protocol IMDServiceSessionDelegate
+
+@optional
+- (void)H;
+- (void)  ;
 @end
 

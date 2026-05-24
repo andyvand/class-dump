@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol PKPlugInProxy, PKPropertyList;
+@class NSString;
+@protocol PKPropertyList;
 
 @protocol PKPlugInRecordProxy
+- (id <PKPropertyList>)`;
+- (NSString *);
 
 // Remaining properties
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) id <PKPlugInProxy> compatibilityObject;
-@property(readonly) id <PKPropertyList> entitlements;
 @property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(readonly) NSUUID *uniqueIdentifier;
 @end
 

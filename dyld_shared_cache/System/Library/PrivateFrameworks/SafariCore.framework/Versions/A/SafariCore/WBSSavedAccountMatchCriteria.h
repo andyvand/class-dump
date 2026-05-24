@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString, NSURL, WBSAutoFillAssociatedDomainsManager, WBSGlobalFrameIdentifier, WBSSavedAccountContext, WBSStringQuery;
-
 @interface WBSSavedAccountMatchCriteria
 {
     unsigned long long _options;
-    NSURL *_URL;
-    WBSStringQuery *_userNameQuery;
-    WBSSavedAccountContext *_context;
-    WBSAutoFillAssociatedDomainsManager *_associatedDomainsManager;
-    WBSStringQuery *_titleQuery;
-    NSData *_passkeyCredentialIdentifier;
-    WBSGlobalFrameIdentifier *_webFrameIdentifier;
-    NSString *_appID;
 }
 
 + (id);
@@ -39,16 +29,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (id)_setupPreviewForPatch: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (unsigned long long)VerificationContext"24@0:8^@16 /* Error: Ran out of types for this method. */;
+- (id)ICMutableUserIdentityProperties;
+- (id);
+- (void)ʠRc;
 - (void);
 - (id)0@ù
 × ;
@@ -57,23 +47,7 @@
 - (void)countStore _fetchAndFilterPasskeysData]_block_invoke;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
-@property(readonly, nonatomic) NSSet *associatedDomainsForURL;
-@property(retain, nonatomic) WBSAutoFillAssociatedDomainsManager *associatedDomainsManager; // @synthesize associatedDomainsManager=_associatedDomainsManager;
-@property(copy, nonatomic) WBSSavedAccountContext *context; // @synthesize context=_context;
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSData *passkeyCredentialIdentifier; // @synthesize passkeyCredentialIdentifier=_passkeyCredentialIdentifier;
-@property(readonly, nonatomic) _Bool queryShouldIncludePasskeyMatchesForNonAutoFillContext;
-@property(readonly, nonatomic) _Bool queryShouldIncludeSavedAccountsWithDoNotSaveMarkers;
-@property(readonly, nonatomic) _Bool queryShouldOmitAutoFillPasskeyMatches;
-@property(readonly, nonatomic) _Bool queryShouldOnlyIncludePasswordsWithoutWebsites;
-@property(readonly, nonatomic) _Bool queryShouldReturnSavedAccountsMatchingAssociatedDomains;
-@property(readonly, nonatomic) _Bool queryShouldReturnSavedAccountsMatchingHighLevelAndSimplifiedDomains;
-@property(readonly, nonatomic) _Bool queryShouldReturnSavedAccountsWithEmptyUsernames;
-@property(retain, nonatomic) WBSStringQuery *titleQuery; // @synthesize titleQuery=_titleQuery;
-@property(retain, nonatomic) WBSStringQuery *userNameQuery; // @synthesize userNameQuery=_userNameQuery;
-@property(readonly, nonatomic) WBSGlobalFrameIdentifier *webFrameIdentifier; // @synthesize webFrameIdentifier=_webFrameIdentifier;
 
 @end
 

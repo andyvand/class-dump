@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface PFParallaxAssetResource
 {
     unsigned int _orientation;
-    long long _type;
-    struct CGImage *_proxyImage;
-    NSURL *_imageFileURL;
-    NSString *_fileType;
-    NSURL *_videoFileURL;
-    NSString *_adjustmentFormat;
-    NSString *_adjustmentVersion;
-    NSData *_adjustmentData;
-    NSURL *_archiveURL;
 }
 
 + (_Bool);
@@ -35,11 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct CGImage *);
+- (id);
+- (struct CGImage *)common_PostalAddress;
 - (void);
 - (id);
-- (void);
+- (void)_receiveBiomeCollector;
 - (id);
 - (id);
 - (long long);
@@ -51,17 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *adjustmentData; // @synthesize adjustmentData=_adjustmentData;
-@property(copy, nonatomic) NSString *adjustmentFormat; // @synthesize adjustmentFormat=_adjustmentFormat;
-@property(copy, nonatomic) NSString *adjustmentVersion; // @synthesize adjustmentVersion=_adjustmentVersion;
 @property(readonly, nonatomic) NSURL *archiveURL; // @synthesize archiveURL=_archiveURL;
-@property(copy, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
-@property(copy, nonatomic) NSURL *imageFileURL; // @synthesize imageFileURL=_imageFileURL;
-@property(nonatomic) unsigned int orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) struct CGImage *proxyImage; // @synthesize proxyImage=_proxyImage;
-@property(readonly, nonatomic, getter=isProxyOnly) _Bool proxyOnly;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSURL *videoFileURL; // @synthesize videoFileURL=_videoFileURL;
 
 @end
 

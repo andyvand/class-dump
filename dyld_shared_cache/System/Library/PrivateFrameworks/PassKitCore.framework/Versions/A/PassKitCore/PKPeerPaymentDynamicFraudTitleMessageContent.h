@@ -9,7 +9,6 @@
 @interface PKPeerPaymentDynamicFraudTitleMessageContent
 {
     NSString *_title;
-    NSString *_message;
 }
 
 + (_Bool)qî%°1Â0@ù
@@ -17,15 +16,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)tivityDurMS"b1"phyTxActivityDurMS"b1"rC1CoexDurationMS"b1"rC2CoexDurationMS"b1"rSSI"b1"rxAmpduTxBaMismatch"b1"rxCRSErrs"b1"rxDecryErrs"b1"rxDupErrs"b1"rxFCSErrs"b1"rxFrames"b1"rxGoodPlcps"b1"rxLowFrameCountFalse"b1"rxLowFrameCountTrue"b1"rxOvflErrs"b1"rxPLCPErrs"b1"rxPhyRate"b1"rxReplayErrs"b1"rxRetries"b1"rxThroughput"b1"sNR"b1"symptomsFails"b1"tVPMActiveDurationMS"b1"testThroughput"b1"timeSinceLastRecovery"b1"timestamp"b1"txAMPDUDensity"b1"txCompBytes"b1"txCompPkts"b1"txDelayBytes"b1"txExpectedAMPDUDensity"b1"txFails"b1"txFrames"b1"txLowFrameCountFalse"b1"txLowFrameCountTrue"b1"txOutputBelowExpectedFalse"b1"txOutputBelowExpectedTrue"b1"txOutputBelowInputFalse"b1"txOutputBelowInputTrue"b1"txPhyRate"b1"txQueueFullFalse"b1"txQueueFullTrue"b1"txRetries"b1"txSubBytes"b1"txSubPkts"b1};
+- (void)setRequestsBLE:(id)arg1;
 - (id);
-- (id)putURL:(id)arg1;
-- (id)Coordinator:didEncounterAuthorizationEvent: /* Error: Ran out of types for this method. */;
-- (void)eneficiary;
+- (id)initWithFileDescriptor:(id)arg1 error:outputURL: /* Error: Ran out of types for this method. */;
+- (id)paymentAuthorizationCoordinator:didEncounterAuthorizationEvent: /* Error: Ran out of types for this method. */;
+- (void)wallet_savings_beneficiary;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

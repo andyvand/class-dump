@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRUserEditExperimentRedecodingResults : SISchemaInstrumentationMessage
 {
     NSString *_datapackVersion;
-    NSArray *_confusionPairs;
-    SISchemaUUID *_asrId;
-    int _errorCode;
-    SISchemaUUID *_linkId;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasDatapackVersion;
-    _Bool _hasAsrId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -26,51 +18,42 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (unsigned long long)**7;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id)ogus string from iap2d with the following error:(id)arg1 %@;
+- (_Bool)kIPCGuidanceStateReplyTimeToNextManeuverKey;
+- (id)disableCompletionNotification;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)icsSignals";
-- (id)EGASUSAsrCorrectionInfo;
+- (id)PEGASUSSchemaPEGASUSAsrCorrectionInfo;
 - (id)T;
 - (void)¨¸ÿÖø¬L%;
 - (void)P&';
 - (int)®æ=,;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *asrId; // @synthesize asrId=_asrId;
-@property(copy, nonatomic) NSArray *confusionPairs; // @synthesize confusionPairs=_confusionPairs;
 @property(copy, nonatomic) NSString *datapackVersion; // @synthesize datapackVersion=_datapackVersion;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasAsrId; // @synthesize hasAsrId=_hasAsrId;
-@property(nonatomic) _Bool hasDatapackVersion; // @synthesize hasDatapackVersion=_hasDatapackVersion;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end
 

@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater;
-@property(readonly, copy, nonatomic) CDUnknownBlockType editorUpdater;
 @end
 

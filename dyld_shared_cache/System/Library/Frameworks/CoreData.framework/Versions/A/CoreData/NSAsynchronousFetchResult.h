@@ -6,13 +6,11 @@
 
 #import <CoreData/NSPersistentStoreAsynchronousResult.h>
 
-@class NSArray, NSAsynchronousFetchRequest;
+@class NSAsynchronousFetchRequest;
 
 @interface NSAsynchronousFetchResult : NSPersistentStoreAsynchronousResult
 {
     NSAsynchronousFetchRequest *_fetchRequest;
-    NSArray *_finalResult;
-    id _intermediateResultCallback;
 }
 
 - (void);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) NSAsynchronousFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly) NSArray *finalResult;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIDragItem;
+@class UIDragItem;
 
 @protocol UICollectionViewDropItem
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragItem *dragItem;
-@property(readonly, nonatomic) struct CGSize previewSize;
-@property(readonly, nonatomic) NSIndexPath *sourceIndexPath;
 @end
 

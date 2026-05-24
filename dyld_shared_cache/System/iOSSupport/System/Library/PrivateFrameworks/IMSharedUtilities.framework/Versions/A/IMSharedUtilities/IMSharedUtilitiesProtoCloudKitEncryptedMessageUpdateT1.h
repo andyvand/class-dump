@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageUpdateT1
 {
     NSString *_msgid;
-    NSData *_padding;
-    NSString *_threadGuid;
-    NSString *_threadPart;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (_Bool);
@@ -37,23 +32,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id)p;
+- (id)LastUnreadStamp;
 - (void)nylist;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMsgid;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(readonly, nonatomic) _Bool hasThreadGuid;
-@property(readonly, nonatomic) _Bool hasThreadPart;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *msgid; // @synthesize msgid=_msgid;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSString *threadGuid; // @synthesize threadGuid=_threadGuid;
-@property(retain, nonatomic) NSString *threadPart; // @synthesize threadPart=_threadPart;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

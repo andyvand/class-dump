@@ -5,5 +5,20 @@
 //
 
 @protocol LSApplicationWorkspaceObserverProtocol
+
+@optional
+- (void)P;
+- (void);
+- (void)k
+;
+- (void){;
+- (void)et to %d;
+- (void)?;
+- (void) ;
+- (void);
+- (void);
+- (void) ;
+- (void);
+- (void)__thread_bss;
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDPProtectionInfo
 {
     NSData *_protectionInfo;
-    NSString *_protectionInfoTag;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)useGroupActivation;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -24,16 +23,13 @@
 - (void);
 - (id);
 - (id);
-- (id)etParentRowID: /* Error: Ran out of types for this method. */;
+- (id)setParentRowID: /* Error: Ran out of types for this method. */;
 - (void)ü	;
 - (void)Ivc2FmYXJpLXRhYi1ncm91cHMvPyoiIH0sCiAgICAgICAgICAgIHsgIi8iOiAiL2ZyZWVmb3JtL2NvcHkvKiIsICJleGNsdWRlIjogdHJ1ZSB9LAogICAgICAgICAgICB7ICIvIjogIi9mcmVlZm9ybS8/KiIgfSwKICAgICAgICAgICAgeyAiLyI6ICIvdi8/KiIgfQogICAgICAgIF0sCiAgICAgICAgImFsd2F5c0VuYWJsZWQiOiB0cnVlCiAgICAgIH0KICAgIF0KICB9Cn0K;
 - (_Bool)d requests, triggering %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(readonly, nonatomic) _Bool hasProtectionInfoTag;
-@property(retain, nonatomic) NSData *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) NSString *protectionInfoTag; // @synthesize protectionInfoTag=_protectionInfoTag;
 
 @end
 

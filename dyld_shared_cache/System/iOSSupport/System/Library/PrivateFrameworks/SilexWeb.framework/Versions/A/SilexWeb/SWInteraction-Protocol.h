@@ -5,6 +5,7 @@
 //
 
 @protocol SWInteraction
+- (void)columnStyleAtCharIndex:effectiveRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type;

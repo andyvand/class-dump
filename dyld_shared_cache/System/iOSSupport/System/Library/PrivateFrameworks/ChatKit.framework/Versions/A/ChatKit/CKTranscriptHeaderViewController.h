@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptHeaderViewController
 {
     _Bool _shouldInvalidateOnAddressBookChange;
-    CKConversation *_conversation;
 }
 
-- (_Bool);
+- (_Bool)removeShareIfNeededWithOwnedObjectID:countParticipants:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)izeEdges;
+- (void)inputNormalizeEdges;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, nonatomic) _Bool shouldInvalidateOnAddressBookChange; // @synthesize shouldInvalidateOnAddressBookChange=_shouldInvalidateOnAddressBookChange;
 
 @end
 

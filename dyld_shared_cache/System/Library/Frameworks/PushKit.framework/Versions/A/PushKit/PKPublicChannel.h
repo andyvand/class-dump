@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKPublicChannel
 {
     NSString *_tokenName;
-    NSString *_channelID;
-    NSString *_channelTopic;
-    NSString *_environment;
-    unsigned long long _checkpoint;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)orIS3_EEEE;
+- (id)ivE;
 - (id);
 - (id);
 - (unsigned long long);
@@ -38,11 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(retain, nonatomic) NSString *channelTopic; // @synthesize channelTopic=_channelTopic;
-@property(nonatomic) unsigned long long checkpoint; // @synthesize checkpoint=_checkpoint;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) NSString *tokenName; // @synthesize tokenName=_tokenName;
 
 @end
 

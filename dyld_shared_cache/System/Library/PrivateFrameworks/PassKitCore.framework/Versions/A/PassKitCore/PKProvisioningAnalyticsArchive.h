@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKProvisioningAnalyticsSessionCampaignAttributionSubjectHandle, PKProvisioningAnalyticsSessionMarketingSubjectHandle, PKProvisioningAnalyticsSessionProvisioningSubjectHandle, PKProvisioningAnalyticsState;
+@class NSData, PKProvisioningAnalyticsState;
 
 @interface PKProvisioningAnalyticsArchive
 {
     NSData *_provisioningSubjectToken;
-    NSData *_provisioningMarketingSubjectToken;
-    NSData *_campaignAttributionSubjectToken;
-    PKProvisioningAnalyticsState *_state;
 }
 
 + (id);
@@ -23,14 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)tailsDeleteCardAlert;
+- (id)riting it as well-formed XML. Any entities not defined in XML 1.0 will be written as numeric entities to allow them to be parsed by a XML parser. The original case of tags and attributes will be preserved, regardless of other options. ;
+- (void)_coreRoutineTransitionMotionTypeStationary;
+- (void)passDetailsDeleteCardAlert;
 
 // Remaining properties
-@property(readonly, nonatomic) PKProvisioningAnalyticsSessionCampaignAttributionSubjectHandle *campaignAttributionSubjectHandle;
-@property(readonly, nonatomic) PKProvisioningAnalyticsSessionMarketingSubjectHandle *marketingSubjectHandle;
-@property(readonly, nonatomic) PKProvisioningAnalyticsSessionProvisioningSubjectHandle *provisioningSubjectHandle;
 @property(readonly, nonatomic) PKProvisioningAnalyticsState *state; // @synthesize state=_state;
 
 @end

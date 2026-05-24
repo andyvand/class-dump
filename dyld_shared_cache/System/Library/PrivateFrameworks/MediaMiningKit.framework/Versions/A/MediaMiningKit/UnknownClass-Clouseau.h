@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponents;
+@class NSDate;
 
 @interface UnknownClass (Clouseau)
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *cls_localEndDate;
-@property(readonly, nonatomic) NSDateComponents *cls_localEndDateComponents;
-@property(readonly, nonatomic) NSDate *cls_localStartDate;
-@property(readonly, nonatomic) NSDateComponents *cls_localStartDateComponents;
-@property(readonly, nonatomic) NSDate *cls_universalEndDate;
 @property(readonly, nonatomic) NSDate *cls_universalStartDate;
 @end
 

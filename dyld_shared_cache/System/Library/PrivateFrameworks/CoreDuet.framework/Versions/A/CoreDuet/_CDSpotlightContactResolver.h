@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class _PASLock;
 
 @interface _CDSpotlightContactResolver
 {
     _PASLock *_cachedContactsForHandle;
-    NSObject<OS_dispatch_queue> *_cacheInvalidationTimerQueue;
-    NSObject<OS_dispatch_source> *_cacheInvalidationTimer;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)DeviceSupportsAutoLowLightVideo;
 - (void)0@ù
 × ;
 

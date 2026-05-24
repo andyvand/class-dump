@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface NLTagger
 {
     NSArray *_schemes;
-    NSString *_string;
-    void *_tagger;
-    NSMutableDictionary *_customModels;
-    NSMutableDictionary *_customModelDictionaries;
-    NSMutableDictionary *_classifierCaches;
-    NSMutableDictionary *_sequenceCaches;
-    NSMutableDictionary *_customGazetteers;
-    NSMutableDictionary *_customGazetteerDictionaries;
 }
 
 + (void);
@@ -29,49 +21,40 @@
 + (id);
 + (id);
 + (id);
+- (struct _NSRange)CIMPreferencesDidChangeNotification;
+- (id);
+- (void)fr;
+- (id)preferredLanguage2;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)canMarkAsynchronousLocalRenderAsOptionalForProgress:(id)arg1;
+- (void)batchFetchFaceGroupByFaceUUIDWithFaceUUIDs:(id)arg1 predicate:(id)arg2 library:completion: /* Error: Ran out of types for this method. */;
+- (id);
 - (struct _NSRange);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct _NSRange);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (struct _NSRange);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *dominantLanguage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *string;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSArray *tagSchemes;
 
 @end

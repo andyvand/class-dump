@@ -7,9 +7,6 @@
 @interface TeaUI.ScreenScaleImageRequest
 {
     id assetHandles;
-    id cacheIdentifier;
-    id screenScale;
-    id assetScale;
 }
 
 @end

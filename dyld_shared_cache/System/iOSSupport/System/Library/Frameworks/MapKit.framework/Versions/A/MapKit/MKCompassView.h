@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, MKCompassLayer, NSString, UIHoverGestureRecognizer;
-
 @interface MKCompassView
 {
     _Bool _enabled;
-    double _mapHeading;
-    CABackdropLayer *_blurLayer;
-    MKCompassLayer *_displayLayer;
-    MKCompassLayer *_maskLayer;
-    UIHoverGestureRecognizer *_hoverRecognizer;
 }
 
 + (void);
@@ -22,10 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,24 +27,16 @@
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)	;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)ForComponentIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_relatedPlaceListForComponentIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double mapHeading; // @synthesize mapHeading=_mapHeading;
-@property(readonly) Class superclass;
 
 @end
 

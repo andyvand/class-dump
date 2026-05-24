@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIPageControlVisualProvider.h>
 
-@class CADisplayLink, CAMediaTimingFunction, NSString, UIDelayedAction, UIImpactFeedbackGenerator, UILongPressGestureRecognizer, UISelectionFeedbackGenerator, UITapGestureRecognizer, UIView, UIViewFloatAnimatableProperty, _UIPageControlContentView, _UIPageControlIndicatorContentView, _UIPageControlInteractor, _UIPageIndicatorFeed, _UIPageIndicatorStore;
+@class _UIPageControlContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIInteractivePageControlVisualProvider : _UIPageControlVisualProvider
@@ -16,33 +16,6 @@ __attribute__((visibility("hidden")))
         unsigned int platterExpanded:1;
         unsigned int didScrubPastInitialThreshold:1;
     } _state;
-    long long _indicatorStartIndex;
-    long long _numberOfVisibleIndicators;
-    long long _targetPage;
-    long long _currentTick;
-    long long _tickThreshold;
-    double _panDistance;
-    double _indicatorPaddingOffset;
-    double _continuousStartIndex;
-    UIView *_backgroundView;
-    _UIPageControlContentView *_contentView;
-    _UIPageControlIndicatorContentView *_indicatorContentView;
-    CADisplayLink *_displayLink;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UILongPressGestureRecognizer *_scrubbingGestureRecognizer;
-    double _preciseTouchedPage;
-    UIDelayedAction *_successiveTapAction;
-    long long _previousMoveDirection;
-    _UIPageIndicatorFeed *_indicatorFeed;
-    _UIPageIndicatorStore *_indicatorStore;
-    _UIPageControlInteractor *_interactor;
-    UIViewFloatAnimatableProperty *_continuousDisplayedPage;
-    UIViewFloatAnimatableProperty *_scrubProgress;
-    CAMediaTimingFunction *_indicatorTransformCurve;
-    long long _resolvedDirection;
-    UISelectionFeedbackGenerator *_selectionFeedbackGenerator;
-    UIImpactFeedbackGenerator *_joggingFeedbackGenerator;
-    struct CGPoint _previousTouchLocation;
 }
 
 - (void);
@@ -54,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)kMDItemApplicationCategories;
+- (long long)8@"NSError"16;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)setPayloadDisplayName: /* Error: Ran out of types for this method. */;
+- (_Bool)r",C,N,V_payloadAllowDockFixupOverride;
 - (_Bool);
 - (double);
 - (long long);
@@ -67,13 +40,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)st message;
 - (unsigned long long);
 - (void);
-- (double);
-- (id);
+- (double)performSelector:withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (id)",R,N;
 - (_Bool);
-- (void);
+- (void)PBeginLoadingContentCallback(MRMediaRemoteIndexPath, void *, void (^__strong)(CFErrorRef))_block_invoke;
 - (_Bool);
 - (void);
 - (void);
@@ -103,29 +76,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long)6;
 - (void)b1"maskedCorners"b4"hasDefaultLayoutMargins"b1"removeMaskViewAfterAnimation"b1"pinningAlignment"b4"pinnedToVisibleBounds"b1"hasCustomAttributes"b1};
-- (struct CGSize)elayRecognizer:(id)arg1;
-- (void)erTreeSizeThresholdForReset: /* Error: Ran out of types for this method. */;
-- (void)ter:(id)arg1;
-- (id)FrameMode: /* Error: Ran out of types for this method. */;
-- (long long)Out:(long long)arg1;
-- (long long)yle;
-- (double);
-- (void)nterLiftMoveHysteresis;
-- (struct CGSize)ropAnimationForPlatterView:(id)arg1;
-- (struct CGPoint)hevronImage;
-- (long long)thParameters: /* Error: Ran out of types for this method. */;
-- (void)ertController:forPresentation:inContainerView:descendantOfContainerView:duration:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ryView:(id)arg1 withCellAccessoryType:(unsigned long long)arg2 forState:(id)arg3;
-- (id)hod: /* Error: Ran out of types for this method. */;
-- (long long)input:modifierFlags: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (double)abledTextColor;
-- (void)Step:(id)arg1;
-- (_Bool)nt;
-- (void)rence;
+- (struct CGSize)smallDelayRecognizer:(id)arg1;
+- (void)setRenderTreeSizeThresholdForReset: /* Error: Ran out of types for this method. */;
+- (void)setInitialSettingsUpdater:(id)arg1;
+- (id)setContentsFrameMode: /* Error: Ran out of types for this method. */;
+- (long long)searchDidTimeOut:(long long)arg1;
+- (long long)requestedStyle;
+- (double)popEnvironment;
+- (void)pointerLiftMoveHysteresis;
+- (struct CGSize)defaultDropAnimationForPlatterView:(id)arg1;
+- (struct CGPoint)chevronImage;
+- (long long)applicationInitializationContextWithParameters: /* Error: Ran out of types for this method. */;
+- (void)animateAlertControllerView:ofAlertController:forPresentation:inContainerView:descendantOfContainerView:duration:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_updateSystemTypeAccessoryView:(id)arg1 withCellAccessoryType:(unsigned long long)arg2 forState:(id)arg3;
+- (id)_setTypeSelectInputMethod: /* Error: Ran out of types for this method. */;
+- (long long)_keyCommandForAction:input:modifierFlags: /* Error: Ran out of types for this method. */;
+- (_Bool)_initialDragLocation;
+- (double)_hasResolvedDisabledTextColor;
+- (void)_animatorStep:(id)arg1;
+- (_Bool)_activeAssertionCount;
+- (void)UILanguagePreference;
 - (double)T{UIEdgeInsets=dddd},N;
-- (void)ockState;
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)_splitLockState;
+- (_Bool)setMinimumDate: /* Error: Ran out of types for this method. */;
 - (double)ISplitViewControllerDelegatePrivate><UISplitViewControllerDelegate>",R,N;
 - (void)$Y;
 - (id)^;
@@ -137,22 +110,22 @@ __attribute__((visibility("hidden")))
 - (double)ÕY¬7_¬7ÈyþB;
 - (void);
 - (void);
-- (double)ate;
-- (id)rdinator;
-- (void);
-- (void)ment_airplay_;
+- (double)plainItemAppearanceNeedsUpdate;
+- (id)Coordinator;
+- (void)softEdgePadding;
+- (void)_media_element_airplay_;
 - (void);
 - (double)bleViewDropLocation _UITableViewDropLocationForDropIntent(UITableViewDropIntent);
-- (id)ttingViewControllerDecreaseIndentationChange;
+- (id)UITextFormattingViewControllerDecreaseIndentationChange;
 - (void)keyboardResponderDisableKeyboardUI;
-- (_Bool)a30;
-- (_Bool)r10KeyLightControlKeySeparator;
-- (void)ification;
+- (_Bool)UIKBColorWhite_Alpha30;
+- (_Bool)UIKBColor10KeyLightControlKeySeparator;
+- (void)UICompatibilityInputViewControllerShouldUpdateNotification;
 - (void)out of bounds. %@ %@;
 - (void)support;
 - (void)based updateItem cannot have both an initial+final indexPath == nil. Faulty updateItem is (%@);
 - (void)ions-panel;
-- (void)te;
+- (void)learningFlagsForLastAcceptedCandidate;
 - (void)h doesn't own it;
 - (id)ot available. Use a designated initializer instead.;
 - (_Bool)ns to %@ (%lu);
@@ -165,14 +138,14 @@ __attribute__((visibility("hidden")))
 - (id)Sg;
 - (double)G5valuet;
 - (id)xtViewAnimatedPlaceholderIdentifierC ¿7G;
-- (void)rollerAdaptivePanelLayoutC;
+- (void)So41_UISplitViewControllerAdaptivePanelLayoutC;
 - (id)®GÁ?¤p=
 ×£°¿çû©ñÒMÒ?Âõ(\Ú?ClçË?Tã¥Ä ì?ClçË¿!°rhíà¿0ä.ÿ++;
 - (void);
 - (void) 13eb;
-- (double)veDetent;
+- (double)OffsetForCurrentActiveDetent;
 - (void);
-- (void);
+- (void)SettingsProvider;
 - (struct CGSize);
 - (struct CGAffineTransform)1[43$btþ1[43°btþ1[43¸Fqþ;
 - (void)=43ï;
@@ -194,32 +167,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) _UIPageControlContentView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *continuousDisplayedPage; // @synthesize continuousDisplayedPage=_continuousDisplayedPage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIPageControlIndicatorContentView *indicatorContentView; // @synthesize indicatorContentView=_indicatorContentView;
-@property(retain, nonatomic) _UIPageIndicatorFeed *indicatorFeed; // @synthesize indicatorFeed=_indicatorFeed;
-@property(retain, nonatomic) _UIPageIndicatorStore *indicatorStore; // @synthesize indicatorStore=_indicatorStore;
-@property(retain, nonatomic) CAMediaTimingFunction *indicatorTransformCurve; // @synthesize indicatorTransformCurve=_indicatorTransformCurve;
-@property(retain, nonatomic) _UIPageControlInteractor *interactor; // @synthesize interactor=_interactor;
-@property(retain, nonatomic) UIImpactFeedbackGenerator *joggingFeedbackGenerator; // @synthesize joggingFeedbackGenerator=_joggingFeedbackGenerator;
-@property(nonatomic, getter=isPlatterExpanded) _Bool platterExpanded;
-@property(nonatomic) double preciseTouchedPage; // @synthesize preciseTouchedPage=_preciseTouchedPage;
-@property(nonatomic) long long previousMoveDirection; // @synthesize previousMoveDirection=_previousMoveDirection;
-@property(nonatomic) struct CGPoint previousTouchLocation; // @synthesize previousTouchLocation=_previousTouchLocation;
-@property(readonly, nonatomic) long long resolvedDirection; // @synthesize resolvedDirection=_resolvedDirection;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *scrubProgress; // @synthesize scrubProgress=_scrubProgress;
-@property(nonatomic, getter=isScrubbing) _Bool scrubbing;
-@property(retain, nonatomic) UILongPressGestureRecognizer *scrubbingGestureRecognizer; // @synthesize scrubbingGestureRecognizer=_scrubbingGestureRecognizer;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *selectionFeedbackGenerator; // @synthesize selectionFeedbackGenerator=_selectionFeedbackGenerator;
-@property(retain, nonatomic) UIDelayedAction *successiveTapAction; // @synthesize successiveTapAction=_successiveTapAction;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end
 

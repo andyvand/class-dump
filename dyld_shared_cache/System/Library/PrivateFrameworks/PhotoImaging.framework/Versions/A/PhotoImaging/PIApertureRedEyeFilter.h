@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray;
+@class CIImage;
 
 @interface PIApertureRedEyeFilter
 {
     CIImage *inputImage;
-    NSArray *inputSpots;
 }
 
 - (id);
-- (void)Adjustment:forMediaType: /* Error: Ran out of types for this method. */;
+- (void)pasteAdjustment:forMediaType: /* Error: Ran out of types for this method. */;
 
 @end
 

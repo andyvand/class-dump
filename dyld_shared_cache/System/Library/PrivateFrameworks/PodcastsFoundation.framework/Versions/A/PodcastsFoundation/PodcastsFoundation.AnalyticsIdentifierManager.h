@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.AnalyticsIdentifierManager
 {
     id $__lazy_storage_$_store;
-    id accountStore;
-    id identifierPromise;
-    id promiseLock;
 }
 
 + (id);

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPLinkMetadataStoreTransformer, NSString;
+
 @protocol LPLinkMetadataStoreTransformer
+- (NSString *)unitTestRunner:(LPLinkMetadataStoreTransformer *)arg1 testCase:didFailWithDescription:inFile:atLine: /* Error: Ran out of types for this method. */;
 @end
 

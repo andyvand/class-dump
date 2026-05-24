@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, RTFingerprintMO;
+@class NSNumber;
 
 @interface RTWiFiAccessPointMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)setPrimarySerializedEscrowRecord:(id)arg1;
++ (id)onnection;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *age; // @dynamic age;
-@property(copy, nonatomic) NSNumber *channel; // @dynamic channel;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(retain, nonatomic) RTFingerprintMO *fingerprint; // @dynamic fingerprint;
-@property(copy, nonatomic) NSString *mac; // @dynamic mac;
-@property(copy, nonatomic) NSNumber *rssi; // @dynamic rssi;
 
 @end
 

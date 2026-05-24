@@ -6,14 +6,14 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSNumber, NSString, SADataSourceInfo;
+@class SADataSourceInfo;
 
 @interface SATimerObject : SADomainObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -26,16 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)sistant;
+- (id)P;
+- (void)createAssistant;
 
 // Remaining properties
 @property(retain, nonatomic) SADataSourceInfo *dataSourceInfo;
-@property(copy, nonatomic) NSNumber *isFiring;
-@property(copy, nonatomic) NSString *state;
-@property(copy, nonatomic) NSNumber *timerValue;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

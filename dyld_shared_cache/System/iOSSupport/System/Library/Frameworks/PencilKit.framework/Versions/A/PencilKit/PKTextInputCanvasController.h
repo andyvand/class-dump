@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet, NSString, PKStroke, PKTextInputFloatingBackgroundView, PKTiledCanvasView, UIColor;
-@protocol PKTextInputCanvasControllerChangeObserver, PKTextInputCanvasControllerDelegate, UICoordinateSpace;
+@class NSMutableSet, PKTiledCanvasView;
 
 @interface PKTextInputCanvasController
 {
     NSMutableSet *_recentlyRemovedStrokeIDs;
-    _Bool _useSlidingCanvas;
-    vector_9651d273 _currentStrokePoints;
-    NSMutableDictionary *_strokeColorForStrokeUUID;
-    PKStroke *_currentStroke;
-    _Bool _wantsCanvasVisible;
-    _Bool _wantsCanvasViewLoaded;
-    id <PKTextInputCanvasControllerDelegate> _delegate;
-    id <PKTextInputCanvasControllerChangeObserver> _changeObserver;
-    UIColor *_strokeColor;
-    PKTiledCanvasView *__canvasView;
-    PKTextInputFloatingBackgroundView *__floatingBackgroundView;
-    struct CGRect _floatingBackgroundRect;
 }
 
 + (void);
@@ -79,37 +66,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)croll: /* Error: Ran out of types for this method. */;
+- (void)setShouldHideCanvasAfterScroll: /* Error: Ran out of types for this method. */;
 - (void)H;
 
 // Remaining properties
 @property(retain, nonatomic) PKTiledCanvasView *_canvasView; // @synthesize _canvasView=__canvasView;
-@property(retain, nonatomic) PKTextInputFloatingBackgroundView *_floatingBackgroundView; // @synthesize _floatingBackgroundView=__floatingBackgroundView;
-@property(readonly, nonatomic) id <UICoordinateSpace> canvasCoordinateSpace;
-@property(readonly, nonatomic) _Bool canvasHasVisibleStrokes;
-@property(nonatomic) __weak id <PKTextInputCanvasControllerChangeObserver> changeObserver; // @synthesize changeObserver=_changeObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UIColor *defaultStrokeColor;
-@property(nonatomic) __weak id <PKTextInputCanvasControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect floatingBackgroundRect; // @synthesize floatingBackgroundRect=_floatingBackgroundRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKStroke *inProgressStroke;
-@property(readonly, nonatomic) _Bool isDrawing;
-@property(readonly, nonatomic) NSSet *recentlyRemovedStrokeIDs;
-@property(readonly, nonatomic) struct CGRect renderedStrokesBounds;
-@property(retain, nonatomic, setter=_setStrokeColor:) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsCanvasViewLoaded; // @synthesize wantsCanvasViewLoaded=_wantsCanvasViewLoaded;
-@property(nonatomic) _Bool wantsCanvasVisible; // @synthesize wantsCanvasVisible=_wantsCanvasVisible;
 
 @end
 

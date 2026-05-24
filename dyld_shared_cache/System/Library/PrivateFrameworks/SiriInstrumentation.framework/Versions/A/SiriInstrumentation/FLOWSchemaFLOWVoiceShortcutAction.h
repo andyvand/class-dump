@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWVoiceShortcutAction : SISchemaInstrumentationMessage
 {
     NSString *_appId;
-    NSString *_intentCategory;
-    NSString *_intentName;
-    NSString *_intentNLDomain;
-    _Bool _hasAppId;
-    _Bool _hasIntentCategory;
-    _Bool _hasIntentName;
-    _Bool _hasIntentNLDomain;
 }
 
 - (void);
@@ -33,34 +26,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)- %@;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)SUMacControllerProgressManager] Calculated progress (%{public}@):start=%f end=%f availableWidth=%f progress.portionComplete=%f progressSoFar=%f reportedPortionCompleted=%f /* Error: Ran out of types for this method. */;
+- (id);
+- (void)`";
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)DividerRowViewIdentifier;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)`;
 - (id)lannerInferenceInvocationSource"b1};
-- (id)edUrl;
+- (id)_hasEnrichedUrl;
 - (id)xrèt$u;
 - (id)soEntitySpans.properties.valueString;
 - (void)§$;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(nonatomic) _Bool hasAppId; // @synthesize hasAppId=_hasAppId;
-@property(nonatomic) _Bool hasIntentCategory; // @synthesize hasIntentCategory=_hasIntentCategory;
-@property(nonatomic) _Bool hasIntentNLDomain; // @synthesize hasIntentNLDomain=_hasIntentNLDomain;
-@property(nonatomic) _Bool hasIntentName; // @synthesize hasIntentName=_hasIntentName;
-@property(copy, nonatomic) NSString *intentCategory; // @synthesize intentCategory=_intentCategory;
-@property(copy, nonatomic) NSString *intentNLDomain; // @synthesize intentNLDomain=_intentNLDomain;
-@property(copy, nonatomic) NSString *intentName; // @synthesize intentName=_intentName;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

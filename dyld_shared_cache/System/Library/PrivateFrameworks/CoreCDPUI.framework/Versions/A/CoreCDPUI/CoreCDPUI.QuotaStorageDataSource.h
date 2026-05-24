@@ -7,11 +7,6 @@
 @interface CoreCDPUI.QuotaStorageDataSource
 {
     id $defaultActor;
-    id account;
-    id httpMethod;
-    id delegate;
-    id urlRequest;
-    id akUrlSession;
 }
 
 - (id);

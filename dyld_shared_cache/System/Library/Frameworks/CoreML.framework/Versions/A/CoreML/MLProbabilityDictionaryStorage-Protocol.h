@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol MLProbabilityDictionaryStorage
+- (NSNumber *)refitInstanceLeafNodeIndirectKernel;
+- (unsigned long long);
 - (unsigned long long)±þ01Â0@ù
 × ;
 @end

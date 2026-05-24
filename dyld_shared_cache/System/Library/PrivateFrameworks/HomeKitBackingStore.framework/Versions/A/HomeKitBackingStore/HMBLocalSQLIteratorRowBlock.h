@@ -9,8 +9,6 @@
 @interface HMBLocalSQLIteratorRowBlock : HMBSQLQueryIterator
 {
     _Bool _ascending;
-    int _zoneRowBindOffset;
-    unsigned long long _zoneRow;
 }
 
 - (int);
@@ -21,8 +19,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAscending) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
 @property(readonly, nonatomic) int zoneRowBindOffset; // @synthesize zoneRowBindOffset=_zoneRowBindOffset;
 
 @end

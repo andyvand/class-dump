@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntriesList, ABRecordContext, NSDictionary, NSString;
+@class ABRecordContext, NSDictionary;
 
 @interface ABBookGroupDeleteCommand
 {
     ABRecordContext *_recordContext;
-    NSString *_groupUid;
-    Class _groupClass;
-    NSDictionary *_undoState;
-    ABGroupEntriesList *_groupEntriesList;
-    int _containmentPersonality;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (id);
@@ -22,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);

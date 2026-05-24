@@ -7,9 +7,10 @@
 @class NSArray;
 
 @protocol _INPBSendAnnouncementIntentResponse
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *sentAnnouncements;
-@property(readonly, nonatomic) unsigned long long sentAnnouncementsCount;
 @end
 

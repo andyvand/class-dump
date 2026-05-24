@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol UIContextMenuInteractionAnimating
+- (UIViewController *);
 - (void)ectionView internal inconsistency:(void (^)(void))arg1 attempted to reuse view for a nil collection view;
 - (void);
 

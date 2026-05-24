@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface RFAspectRatio
 {
     NSNumber *_width;
-    NSNumber *_height;
 }
 
 + (_Bool);
-- (id);
+- (id)initWithStoreAdamID:(id)arg1 tasteType: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)reportCallWithUUID:endedAtDate:reason: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)setUserCuratedAssets:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -28,16 +27,6 @@
 - (void)V_catModel;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *height; // @synthesize height=_height;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSNumber *width; // @synthesize width=_width;
 
 @end

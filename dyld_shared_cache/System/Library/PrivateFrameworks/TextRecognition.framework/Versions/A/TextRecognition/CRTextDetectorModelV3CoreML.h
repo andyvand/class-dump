@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSUUID;
+@class NSUUID;
 
 @interface CRTextDetectorModelV3CoreML
 {
     NSUUID *_owner;
-    MLModel *_model;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 - (void)@0:8d16{CGSize=dd}24^{CGSize=dd}40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;
 @property(retain) NSUUID *owner; // @synthesize owner=_owner;
 
 @end

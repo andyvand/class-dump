@@ -15,21 +15,18 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)s0;
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)nGroupWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)registerClass:forAceClassName:inGroupWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id)ùÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *columns;
-@property(copy, nonatomic) NSArray *entities;
-@property(copy, nonatomic) NSArray *selectedEntities;
-@property(nonatomic) _Bool showCardinalPositions;
 
 @end
 

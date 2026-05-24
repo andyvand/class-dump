@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFWoBLEInfo, HMFWoWLANInfo, NSArray, NSNumber, NSString;
+@class HMFWoBLEInfo, NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMFConnectivityInfo
 {
     NSNumber *_woWLANDarkPollMinimumInterval;
-    NSString *_accessoryIdentifier;
-    HMFWoBLEInfo *_woBLEInfo;
-    NSArray *_woWLANInfos;
 }
 
 + (id);
@@ -29,28 +26,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)initWithCoder:(id)arg1;
+- (id)initWithCapabilityType:(id)arg1 serviceName:(id)arg2 status:(id)arg3;
 - (void);
 - (id);
-- (id);
+- (id)scaleFactor %f;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)redMessageNames: /* Error: Ran out of types for this method. */;
+- (void)ignoredMessageNames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
 @property(retain, nonatomic) HMFWoBLEInfo *woBLEInfo; // @synthesize woBLEInfo=_woBLEInfo;
-@property(retain, nonatomic) NSNumber *woWLANDarkPollMinimumInterval; // @synthesize woWLANDarkPollMinimumInterval=_woWLANDarkPollMinimumInterval;
-@property(readonly, nonatomic) NSNumber *woWLANDarkPollMinimumIntervalInSeconds;
-@property(readonly, nonatomic) HMFWoWLANInfo *woWLANInfo;
-@property(retain, nonatomic) NSArray *woWLANInfos; // @synthesize woWLANInfos=_woWLANInfos;
-@property(readonly, nonatomic) _Bool woWLANSupportsBSP;
-@property(readonly, nonatomic) _Bool woWLANSupportsDarkPoll;
-@property(readonly, nonatomic) unsigned char woWLANVersion;
-@property(readonly, nonatomic) long long woWLANWakeUpTypeSupport;
 
 @end
 

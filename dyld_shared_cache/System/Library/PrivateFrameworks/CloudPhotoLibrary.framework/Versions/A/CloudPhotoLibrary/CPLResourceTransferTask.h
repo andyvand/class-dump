@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLResource, CPLResourceTransferTaskOptions, NSString;
+@class CPLResource, CPLResourceTransferTaskOptions;
 
 @interface CPLResourceTransferTask
 {
     CPLResourceTransferTaskOptions *_options;
-    _Bool _cancelled;
-    CPLResource *_resource;
-    NSString *_taskIdentifier;
-    NSString *_clientBundleID;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id)ªáªX_àªf`à7@ùd`àªb`à#@ù``à@ù^`à@ù\`à@ùZ`àªX`àªV`ý{K©ôOJ©öWI©ø_H©é#Gmÿÿ_Ö#ÕôO¾©ý{©ýC;
++ (id);
 + (_Bool);
-- (id);
-- (void);
+- (id)P$;
+- (void)bedding at index %lu;
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (Class);
 - (void);
@@ -32,26 +28,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)oadTask:didProgress: /* Error: Ran out of types for this method. */;
-- (id)à3;
-- (id)Ð;
-- (_Bool)ôO¾©ý{©ýC;
-- (void);
-- (void);
+- (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (Class);
+- (void);
+- (void);
+- (_Bool)z;
+- (Class));
 - (void)1Â0@ù
 × ;
 - (id)ThroughputReporter"8;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(nonatomic, getter=isHighPriority) _Bool highPriority;
-@property(nonatomic) unsigned long long intent;
-@property(copy, nonatomic) CPLResourceTransferTaskOptions *options;
 @property(readonly, nonatomic) CPLResource *resource; // @synthesize resource=_resource;
-@property(readonly, copy, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

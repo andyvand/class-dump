@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 @interface NSWindowActivationRequestOptions
 {
     _Bool _becomeKey;
-    _Bool _allowAnimation;
-    _Bool _recalculateKeyWindow;
-    _Bool _forDockMiniaturize;
-    _Bool _preferConditionalOrdering;
-    _Bool _needsSheetAnimation;
-    _Bool _uninhibitedOrdering;
-    _Bool _synchronizingOrderingGroupVisibility;
-    _Bool _forHideUnhide;
-    id _requestor;
-    unsigned long long _preferredPresentationStyle;
-    long long _orderingMode;
-    long long _relativeTo;
 }
 
 + (id);
 + (id);
+- (_Bool)128 bits long:argument digest_len = %lu /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a-activation;
+- (void)DeviceSupportsAdvancedMapRendering;
+- (void)0gkWjKWKuS2gqzTaFHKxqw;
+- (void)ctType;
+- (void)AppleHDQGasGaugeControl;
+- (void)tory signed:(_Bool)arg1 %@;
+- (void)tton-location;
+- (void)LU;
+- (void)VikxgsK3LmzdJGsKgCEZLA;
+- (void)YvpnX39g;
 - (void);
 - (void);
 - (id);
@@ -54,24 +40,10 @@
 - (id);
 - (id)_unsafe_unretained Class);
 - (void)rRootView.m;
-- (void)tToken;
+- (void)auditToken;
 
 // Remaining properties
-@property _Bool allowAnimation; // @synthesize allowAnimation=_allowAnimation;
-@property _Bool becomeKey; // @synthesize becomeKey=_becomeKey;
-@property _Bool forDockMiniaturize; // @synthesize forDockMiniaturize=_forDockMiniaturize;
-@property _Bool forHideUnhide; // @synthesize forHideUnhide=_forHideUnhide;
-@property _Bool needsSheetAnimation; // @synthesize needsSheetAnimation=_needsSheetAnimation;
-@property long long orderingMode; // @synthesize orderingMode=_orderingMode;
-@property _Bool preferConditionalOrdering; // @synthesize preferConditionalOrdering=_preferConditionalOrdering;
-@property unsigned long long preferredPresentationStyle; // @synthesize preferredPresentationStyle=_preferredPresentationStyle;
-@property _Bool recalculateKeyWindow; // @synthesize recalculateKeyWindow=_recalculateKeyWindow;
 @property long long relativeTo; // @synthesize relativeTo=_relativeTo;
-@property(readonly) __weak NSWindow *requestingWindow;
-@property __weak id requestor; // @synthesize requestor=_requestor;
-@property _Bool synchronizingOrderingGroupVisibility; // @synthesize synchronizingOrderingGroupVisibility=_synchronizingOrderingGroupVisibility;
-@property(readonly) unsigned long long tileSpaceToJoin;
-@property _Bool uninhibitedOrdering; // @synthesize uninhibitedOrdering=_uninhibitedOrdering;
 
 @end
 

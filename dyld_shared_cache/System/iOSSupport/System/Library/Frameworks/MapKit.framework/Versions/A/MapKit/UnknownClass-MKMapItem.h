@@ -8,7 +8,7 @@
 
 @interface UnknownClass (MKMapItem)
 - (void);
-- (void);
+- (void)=mE;
 - (id);
 - (void);
 

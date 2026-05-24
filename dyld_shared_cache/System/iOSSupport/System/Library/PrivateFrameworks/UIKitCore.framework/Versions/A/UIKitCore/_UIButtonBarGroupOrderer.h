@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSMutableSet, NSString;
+@class NSMutableOrderedSet;
 @protocol _UIButtonBarGroupOrderOwner;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarGroupOrderer
 {
     NSMutableOrderedSet *_includedItems;
-    NSMutableSet *_excludedItems;
-    NSArray *_orderedGroups;
-    NSArray *_orderedGroupsPartitionedIntoSections;
-    NSString *_customizationIdentifier;
-    id <_UIButtonBarGroupOrderOwner> _owner;
 }
 
 + (id);
+- (void)plainTextRelayPartWithString:(id)arg1 index:(id)arg2;
+- (id)_resetKeepMessagesSettingandBroadcastToAllDevices;
+- (void);
 - (void);
-- (id);
+- (void)ccessfully synced attachments as needing sync;
+- (id)ssion:(id)arg1 %@ of service type:(id)arg2 %@   (Session class:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)allowed;
+- (void)9;
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)epareTitleLabel;
+- (id)_prepareTitleLabel;
 - (void)aToolbox.framework/MediaToolbox;
 - (void)(ç3ÿ÷cÖB^;
 - (id);
 - (id)Ëd;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *customizationIdentifier; // @synthesize customizationIdentifier=_customizationIdentifier;
-@property(readonly, nonatomic) __weak NSArray *groups;
-@property(readonly, copy, nonatomic) NSArray *orderedGroups;
 @property(nonatomic) __weak id <_UIButtonBarGroupOrderOwner> owner; // @synthesize owner=_owner;
 
 @end

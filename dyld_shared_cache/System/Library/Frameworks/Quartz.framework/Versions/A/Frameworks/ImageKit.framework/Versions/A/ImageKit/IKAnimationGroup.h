@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface IKAnimationGroup
 {
     NSArray *_cells;
-    float _timeValue;
-    NSMutableDictionary *_parameters;
-    _Bool _finished;
 }
 
 - (_Bool);
@@ -20,7 +17,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)3;
 - (void);
 - (float);
 - (void);
@@ -29,7 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)%@;
 - (void)ImageViewHandler",V_handler;
 - (int)ÿbí;
 

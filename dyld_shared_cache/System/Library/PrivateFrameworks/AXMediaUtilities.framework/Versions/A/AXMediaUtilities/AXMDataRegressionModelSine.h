@@ -12,11 +12,11 @@
 
 - (id);
 - (int);
-- (id);
-- (CDUnknownBlockType);
+- (id)Az;
+- (CDUnknownBlockType);
 - (void);
-- (double);
-- (void);
+- (double);
+- (void)z;
 - (id);
 
 @end

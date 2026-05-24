@@ -5,5 +5,11 @@
 //
 
 @protocol NSURLAuthenticationChallengeSender
+- (void)a5;
+- (void)A;
+
+@optional
+- (void);
+- (void){;
 @end
 

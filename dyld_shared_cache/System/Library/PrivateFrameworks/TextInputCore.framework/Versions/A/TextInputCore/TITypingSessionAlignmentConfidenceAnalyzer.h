@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TITypingSession, TITypingSessionAligned;
+@class TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TITypingSessionAlignmentConfidenceAnalyzer
 {
     TITypingSession *_session;
-    TITypingSessionAligned *_alignedSession;
-    NSMutableDictionary *_payload;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)initByGeneratingNormalMapWithTexture:(id)arg1 name:(id)arg2 smoothness:(unsigned long long)arg3 contrast: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)tCustomInfo:(id)arg1;
+- (void)__gcc_except_tab__TEXT;
+- (id)setCustomInfo:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

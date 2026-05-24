@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPersistedTaskAttribution, TRIPersistedTaskCapabilityModifier;
+@class NSString;
 
 @interface TRIActivateTargetedRolloutDeploymentPersistedTask
 {
@@ -13,16 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPersistedTaskCapabilityModifier *capabilityModifier; // @dynamic capabilityModifier;
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(copy, nonatomic) NSString *factorPackSetId; // @dynamic factorPackSetId;
-@property(nonatomic) _Bool hasCapabilityModifier; // @dynamic hasCapabilityModifier;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasFactorPackSetId; // @dynamic hasFactorPackSetId;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end
 

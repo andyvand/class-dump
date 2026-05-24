@@ -7,12 +7,6 @@
 @interface PhotosUICore.TTRWorkflowDataSource
 {
     id workflow;
-    id completion;
-    id delegate;
-    id customWorkflowPaths;
-    id customWorkflowPathHistory;
-    id stepIdHistory;
-    id radarHistory;
 }
 
 @end

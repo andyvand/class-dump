@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface UIDisplayP3Color : UIColor
 {
     double redComponent;
-    double greenComponent;
-    double blueComponent;
-    double alphaComponent;
-    _Atomic struct CGColor *_cachedColor;
 }
 
 - (id);
 - (struct CGColor *);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool)eToURL:(id)arg1;
+- (_Bool)fileURLWithFileSystemRepresentation:(id)arg1 isDirectory:relativeToURL: /* Error: Ran out of types for this method. */;
 - (id),p;
 - (struct CGColor *)`#a;
 - (void)´ð^þ²ZÐälk;

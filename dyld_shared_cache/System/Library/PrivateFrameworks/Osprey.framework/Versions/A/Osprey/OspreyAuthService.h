@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, OspreyGRPCChannel;
+@class OspreyGRPCChannel;
 
 __attribute__((visibility("hidden")))
 @interface OspreyAuthService
 {
     OspreyGRPCChannel *_channel;
-    NSUUID *_authUUID;
-    unsigned long long _authStrategyVersion;
 }
 
 - (id);

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (void);
 - (void);
@@ -19,10 +19,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)CKDetailsSearchViewController;
 
 @end
 

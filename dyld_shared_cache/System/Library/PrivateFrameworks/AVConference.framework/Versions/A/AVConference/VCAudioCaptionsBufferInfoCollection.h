@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioCaptionsBufferInfoCollection
 {
     NSMutableArray *_bufferInfos;
-    double _bufferLength;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
 - (id);

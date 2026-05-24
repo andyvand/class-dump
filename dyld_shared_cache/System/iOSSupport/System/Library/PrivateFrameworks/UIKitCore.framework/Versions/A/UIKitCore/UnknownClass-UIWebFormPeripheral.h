@@ -6,7 +6,7 @@
 
 @interface UnknownClass (UIWebFormPeripheral)
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -15,10 +15,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)h;
 - (id)A°!XAù`°1Â0@ù
 × ;
 - (_Bool)DÝ¼ÿ;

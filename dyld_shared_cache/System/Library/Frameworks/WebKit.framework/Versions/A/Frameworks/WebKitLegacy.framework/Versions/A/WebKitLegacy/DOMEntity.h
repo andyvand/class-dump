@@ -17,9 +17,7 @@
 - (id)nge=QQ}40^q56;
 
 // Remaining properties
-@property(readonly, copy) NSString *notationName;
 @property(readonly, copy) NSString *publicId;
-@property(readonly, copy) NSString *systemId;
 
 @end
 

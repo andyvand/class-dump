@@ -9,14 +9,10 @@
 @interface _UINavigationBarPlatterContentView : _UITouchPassthroughView
 {
     id itemViews;
-    id badgeViews;
-    id glassView;
-    id itemContainer;
-    id badgeContainer;
 }
 
 - (id);
-- (id)Only;
+- (id)UITable_ForMailOnly;
 - (void);
 
 @end

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString, NSURL;
+
 @protocol TSWPNSAttributedStringAttachmentConversionDelegate
+
+@optional
+- (NSURL *)work identifier from animated artwork loading than when we requested %@ -> %@;
+- (NSAttributedString *)FailedToEndPlayback;
+- (NSAttributedString *)TranscriptAlignmentController;
 @end
 

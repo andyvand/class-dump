@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SPOrphanedRecords
 {
     NSString *_recordType;
-    NSArray *_records;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)";
+- (id)Перекладено:(struct _NSZone *)arg1 %@;
 - (void);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(copy, nonatomic) NSArray *records; // @synthesize records=_records;
 
 @end
 

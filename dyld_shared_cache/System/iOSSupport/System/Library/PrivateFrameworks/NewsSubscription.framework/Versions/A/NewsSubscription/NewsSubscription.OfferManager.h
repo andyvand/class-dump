@@ -7,29 +7,12 @@
 @interface NewsSubscription.OfferManager
 {
     id clientIdentifier;
-    id clientVersion;
-    id serviceType;
-    id cachedBestOffers;
-    id cachedServicesBundleOffers;
-    id cachedNewsPlusOffers;
-    id lastSeenBestOffers;
-    id configurationManager;
-    id processQueue;
-    id observers;
-    id lastSessionEndTime;
-    id offersResetTimeInterval;
-    id bundleSubscriptionManager;
-    id deduper;
-    id featureAvailability;
-    id configurableOffersConfigFetcher;
-    id offerConfigMatcher;
-    id deduperToken;
 }
 
 - (void);
-- (id);
+- (id)ts/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDGroupLayout.m;
 - (void);
-- (void);
+- (void)s;
 - (void);
 
 @end

@@ -7,6 +7,7 @@
 @class NSURLRequest;
 
 @protocol WKURLSchemeTask
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

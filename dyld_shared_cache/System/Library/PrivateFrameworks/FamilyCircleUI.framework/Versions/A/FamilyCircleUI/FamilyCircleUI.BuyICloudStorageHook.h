@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.BuyICloudStorageHook
 {
     id familyBuyStorage;
-    id purchaseStorageController;
 }
 
 @end

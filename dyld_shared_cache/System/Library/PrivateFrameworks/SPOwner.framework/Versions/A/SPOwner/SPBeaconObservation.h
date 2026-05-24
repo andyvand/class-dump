@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SPObservationLocation;
+@class NSUUID;
 
 @interface SPBeaconObservation
 {
     NSUUID *_beaconIdentifier;
-    long long _type;
-    NSDate *_date;
-    SPObservationLocation *_location;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (void);
+- (long long);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) SPObservationLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

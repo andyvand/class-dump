@@ -13,12 +13,12 @@
 
 - (long long);
 - (long long);
-- (long long);
+- (long long)ؘ;
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

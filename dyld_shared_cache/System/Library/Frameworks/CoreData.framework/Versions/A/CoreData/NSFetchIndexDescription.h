@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEntityDescription, NSPredicate, NSString;
+@class NSString;
 
 @interface NSFetchIndexDescription
 {
     NSString *_name;
-    NSArray *_elements;
-    NSEntityDescription *_entity;
-    NSPredicate *_partialIndexPredicate;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (_Bool);
@@ -39,10 +36,7 @@
 - (void)lass to save data to the store;
 
 // Remaining properties
-@property(copy) NSArray *elements;
-@property(readonly, nonatomic) NSEntityDescription *entity;
 @property(copy) NSString *name;
-@property(copy) NSPredicate *partialIndexPredicate;
 
 @end
 

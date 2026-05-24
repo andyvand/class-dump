@@ -6,31 +6,27 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class AKSignature, NSString, UIColor;
+@class AKSignature;
 
 @interface AKSignatureAnnotation : AKAnnotation
 {
     AKSignature *_signature;
-    UIColor *_strokeColorHDR;
-    UIColor *_strokeColorSDR;
-    double _rotationAngle;
-    struct CGRect _rectangle;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)selection;
+- (id)for local only use.;
+- (id)to decode LPLinkMetadata intended for local only use.;
+- (_Bool)timeControlStatus;
 - (void);
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -38,28 +34,16 @@
 - (void);
 - (double);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)!;
+- (void);
+- (id) ;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(retain) AKSignature *signature; // @synthesize signature=_signature;
-@property(copy) UIColor *strokeColor;
-@property(retain) UIColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) UIColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
-@property(readonly) Class superclass;
 
 @end
 

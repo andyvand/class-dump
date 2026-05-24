@@ -4,45 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WiFiAnalyticsAWDWiFiNWActivityAggregateMetrics, WiFiAnalyticsAWDWiFiNWActivityBtCoex, WiFiAnalyticsAWDWiFiNWActivityImpedingFunctions, WiFiAnalyticsAWDWiFiNWActivityOMI, WiFiAnalyticsAWDWiFiNWActivityPowerPStats, WiFiAnalyticsAWDWiFiNWActivityRateAndAggregation, WiFiAnalyticsAWDWiFiNWActivityRuUsage, WiFiAnalyticsAWDWiFiNWActivityScanActivity;
-
 @interface WiFiAnalyticsAWDWiFiNWActivityControllerStats
 {
     unsigned long long _commandsIssued;
-    WiFiAnalyticsAWDWiFiNWActivityAggregateMetrics *_aggregateMetrics;
-    unsigned int _backoffStuck;
-    WiFiAnalyticsAWDWiFiNWActivityBtCoex *_btCoex;
-    unsigned int _ccCaptureDriverLogs;
-    unsigned int _channel;
-    unsigned int _channelBandwidth;
-    unsigned int _channelsVisited0;
-    unsigned int _channelsVisited1;
-    unsigned int _commanderHalted;
-    unsigned int _controllerResets;
-    WiFiAnalyticsAWDWiFiNWActivityImpedingFunctions *_impedingFunctions;
-    unsigned int _iorSuccess;
-    unsigned int _iorWA;
-    WiFiAnalyticsAWDWiFiNWActivityOMI *_omi;
-    WiFiAnalyticsAWDWiFiNWActivityRateAndAggregation *_phyrate;
-    WiFiAnalyticsAWDWiFiNWActivityPowerPStats *_powerActivity;
-    WiFiAnalyticsAWDWiFiNWActivityRuUsage *_ruUsage;
-    NSMutableArray *_rxmdpuLosts;
-    NSMutableArray *_rxmpduWMEs;
-    WiFiAnalyticsAWDWiFiNWActivityScanActivity *_scanActivity;
-    NSMutableArray *_txmpduWMEs;
-    struct {
-        unsigned int commandsIssued:1;
-        unsigned int backoffStuck:1;
-        unsigned int ccCaptureDriverLogs:1;
-        unsigned int channel:1;
-        unsigned int channelBandwidth:1;
-        unsigned int channelsVisited0:1;
-        unsigned int channelsVisited1:1;
-        unsigned int commanderHalted:1;
-        unsigned int controllerResets:1;
-        unsigned int iorSuccess:1;
-        unsigned int iorWA:1;
-    } _has;
 }
 
 + (Class);
@@ -60,23 +24,23 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)quest already handled with decision ;
+- (void)er);
+- (void)RawValue;
+- (void);
+- (void);
+- (void)ss9OptionSetP;
+- (void);
+- (void)SVSg;
+- (void)ܸC;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -87,10 +51,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)8J;
 - (unsigned int);
 - (unsigned int);
 - (id);
@@ -116,7 +80,7 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (unsigned int);
+- (unsigned int)@9	;
 - (id);
 - (void);
 - (void);
@@ -126,11 +90,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)due to proxy xpc error {name:%{public}@, error:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -138,55 +102,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (unsigned int);
+- (id)kCLConnectionMessageSedentaryTimerQuery;
+- (unsigned int)8;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityAggregateMetrics *aggregateMetrics; // @synthesize aggregateMetrics=_aggregateMetrics;
-@property(nonatomic) unsigned int backoffStuck; // @synthesize backoffStuck=_backoffStuck;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityBtCoex *btCoex; // @synthesize btCoex=_btCoex;
-@property(nonatomic) unsigned int ccCaptureDriverLogs; // @synthesize ccCaptureDriverLogs=_ccCaptureDriverLogs;
-@property(nonatomic) unsigned int channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned int channelBandwidth; // @synthesize channelBandwidth=_channelBandwidth;
-@property(nonatomic) unsigned int channelsVisited0; // @synthesize channelsVisited0=_channelsVisited0;
-@property(nonatomic) unsigned int channelsVisited1; // @synthesize channelsVisited1=_channelsVisited1;
-@property(nonatomic) unsigned int commanderHalted; // @synthesize commanderHalted=_commanderHalted;
-@property(nonatomic) unsigned long long commandsIssued; // @synthesize commandsIssued=_commandsIssued;
-@property(nonatomic) unsigned int controllerResets; // @synthesize controllerResets=_controllerResets;
-@property(readonly, nonatomic) _Bool hasAggregateMetrics;
-@property(nonatomic) _Bool hasBackoffStuck;
-@property(readonly, nonatomic) _Bool hasBtCoex;
-@property(nonatomic) _Bool hasCcCaptureDriverLogs;
-@property(nonatomic) _Bool hasChannel;
-@property(nonatomic) _Bool hasChannelBandwidth;
-@property(nonatomic) _Bool hasChannelsVisited0;
-@property(nonatomic) _Bool hasChannelsVisited1;
-@property(nonatomic) _Bool hasCommanderHalted;
-@property(nonatomic) _Bool hasCommandsIssued;
 @property(nonatomic) _Bool hasControllerResets;
-@property(readonly, nonatomic) _Bool hasImpedingFunctions;
-@property(nonatomic) _Bool hasIorSuccess;
-@property(nonatomic) _Bool hasIorWA;
-@property(readonly, nonatomic) _Bool hasOmi;
-@property(readonly, nonatomic) _Bool hasPhyrate;
-@property(readonly, nonatomic) _Bool hasPowerActivity;
-@property(readonly, nonatomic) _Bool hasRuUsage;
-@property(readonly, nonatomic) _Bool hasScanActivity;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityImpedingFunctions *impedingFunctions; // @synthesize impedingFunctions=_impedingFunctions;
-@property(nonatomic) unsigned int iorSuccess; // @synthesize iorSuccess=_iorSuccess;
-@property(nonatomic) unsigned int iorWA; // @synthesize iorWA=_iorWA;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityOMI *omi; // @synthesize omi=_omi;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityRateAndAggregation *phyrate; // @synthesize phyrate=_phyrate;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityPowerPStats *powerActivity; // @synthesize powerActivity=_powerActivity;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityRuUsage *ruUsage; // @synthesize ruUsage=_ruUsage;
-@property(retain, nonatomic) NSMutableArray *rxmdpuLosts; // @synthesize rxmdpuLosts=_rxmdpuLosts;
-@property(retain, nonatomic) NSMutableArray *rxmpduWMEs; // @synthesize rxmpduWMEs=_rxmpduWMEs;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityScanActivity *scanActivity; // @synthesize scanActivity=_scanActivity;
-@property(retain, nonatomic) NSMutableArray *txmpduWMEs; // @synthesize txmpduWMEs=_txmpduWMEs;
 
 @end
 

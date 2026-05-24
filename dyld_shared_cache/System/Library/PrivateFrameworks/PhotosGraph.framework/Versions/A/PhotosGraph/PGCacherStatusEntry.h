@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PGCacherStatusEntry
@@ -15,8 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *category; // @dynamic category;
-@property(nonatomic, copy) NSDate *lastFailedFetchedDate; // @dynamic lastFailedFetchedDate;
-@property(nonatomic, copy) NSDate *lastSuccessfulFetchedDate; // @dynamic lastSuccessfulFetchedDate;
 
 @end
 

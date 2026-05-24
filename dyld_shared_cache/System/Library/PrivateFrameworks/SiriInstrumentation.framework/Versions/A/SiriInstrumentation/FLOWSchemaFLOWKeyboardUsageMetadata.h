@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWKeyboardUsageMetadata : SISchemaInstrumentationMessage
 {
     unsigned int _numCharsAdded;
-    unsigned int _numCharsDeleted;
-    unsigned int _levenshteinEditDistance;
-    _Bool _isEmojiUsed;
-    struct {
-        unsigned int numCharsAdded:1;
-        unsigned int numCharsDeleted:1;
-        unsigned int levenshteinEditDistance:1;
-        unsigned int isEmojiUsed:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -53,15 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEmojiUsed;
-@property(nonatomic) _Bool hasLevenshteinEditDistance;
-@property(nonatomic) _Bool hasNumCharsAdded;
-@property(nonatomic) _Bool hasNumCharsDeleted;
-@property(nonatomic) _Bool isEmojiUsed; // @synthesize isEmojiUsed=_isEmojiUsed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int levenshteinEditDistance; // @synthesize levenshteinEditDistance=_levenshteinEditDistance;
 @property(nonatomic) unsigned int numCharsAdded; // @synthesize numCharsAdded=_numCharsAdded;
-@property(nonatomic) unsigned int numCharsDeleted; // @synthesize numCharsDeleted=_numCharsDeleted;
 
 @end
 

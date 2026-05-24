@@ -7,22 +7,19 @@
 @interface _NSCollectionLayoutSpacing
 {
     double _spacing;
-    _Bool _isFlexible;
 }
 
 + (id);
 + (id);
-+ (id)ectingLevel;
++ (id)_NSCGSWindowLocalOrderingStateInsertWindowRespectingLevel;
 - (id);
-- (id);
+- (id)iled :error %ld:%d [%d] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)t:(struct _NSZone *)arg1 offset:event:pasteboard:source:slideBack: /* Error: Ran out of types for this method. */;
+- (id)dragImage:(struct _NSZone *)arg1 at:offset:event:pasteboard:source:slideBack: /* Error: Ran out of types for this method. */;
 - (double)G;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFixedSpacing;
-@property(readonly, nonatomic) _Bool isFlexibleSpacing;
 @property(readonly, nonatomic) double spacing;
 
 @end

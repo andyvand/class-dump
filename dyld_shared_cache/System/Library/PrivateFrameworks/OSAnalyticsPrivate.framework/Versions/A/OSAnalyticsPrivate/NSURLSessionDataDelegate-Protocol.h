@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)time stamp token;
+- (void)<;
 @end
 

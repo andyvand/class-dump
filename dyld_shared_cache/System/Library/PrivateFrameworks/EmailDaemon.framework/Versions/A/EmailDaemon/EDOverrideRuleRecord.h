@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
-@protocol EDPersistedMessage;
+@class NSNumber;
 
 @interface EDOverrideRuleRecord
 {
     NSNumber *_category;
-    NSDate *_date;
-    id <EDPersistedMessage> _message;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)roperty:%@ /* Error: Ran out of types for this method. */;
+- (id)#
+;
 - (id);
 - (void)EDSortableThreadProxy.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) id <EDPersistedMessage> message; // @synthesize message=_message;
 
 @end
 

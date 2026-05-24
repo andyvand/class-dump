@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, MKServerFormattedStringParameters;
 @protocol GEOServerFormattedString;
 
 @interface MKServerFormattedString
 {
     id <GEOServerFormattedString> _geoServerString;
-    MKServerFormattedStringParameters *_parameters;
-    GEOComposedString *_composedString;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
@@ -26,8 +23,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)©;
+- (id)0x%04X;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -35,12 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (void)atibleDictionaryFromStandardOptions: /* Error: Ran out of types for this method. */;
+- (void)plistCompatibleDictionaryFromStandardOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedString *composedString; // @synthesize composedString=_composedString;
 @property(readonly, nonatomic) id <GEOServerFormattedString> geoServerString; // @synthesize geoServerString=_geoServerString;
-@property(readonly, copy, nonatomic) MKServerFormattedStringParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

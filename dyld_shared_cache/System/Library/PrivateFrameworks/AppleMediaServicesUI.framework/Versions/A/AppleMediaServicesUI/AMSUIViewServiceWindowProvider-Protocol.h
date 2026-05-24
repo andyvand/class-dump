@@ -5,5 +5,6 @@
 //
 
 @protocol AMSUIViewServiceWindowProvider
+- (id)_triNamespaceName;
 @end
 

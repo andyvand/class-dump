@@ -4,41 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, _UIFlowLayoutInfo;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIFlowLayoutSection
 {
     _Bool _isValid;
-    struct CGRect _validRect;
-    struct CGRect _rectToKeepValid;
-    NSMutableSet *_invalidatedIndexPaths;
-    _Bool _fixedItemSize;
-    _Bool _lastRowIncomplete;
-    NSMutableArray *_items;
-    NSMutableArray *_rows;
-    double _lineSpacing;
-    double _interItemSpacing;
-    double _headerDimension;
-    double _footerDimension;
-    _UIFlowLayoutInfo *_layoutInfo;
-    double _otherMargin;
-    double _beginMargin;
-    double _endMargin;
-    double _actualGap;
-    double _lastRowBeginMargin;
-    double _lastRowEndMargin;
-    double _lastRowActualGap;
-    long long _itemsCount;
-    long long _itemsByRowCount;
-    long long _indexOfIncompleteRow;
-    CDStruct_2f5e8405 _rowAlignmentOptions;
-    struct CGSize _itemSize;
-    struct _NSRange _validItemRange;
-    struct UIEdgeInsets _sectionMargins;
-    struct CGRect _frame;
-    struct CGRect _headerFrame;
-    struct CGRect _footerFrame;
 }
 
 - (void);
@@ -46,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (long long);
-- (id);
+- (long long)payloadAcceptEAPTypes;
+- (id);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (double);
 - (void);
@@ -59,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (void);
-- (double);
+- (void);
+- (double)A;
 - (struct CGRect);
 - (double);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (struct CGSize);
 - (void);
@@ -85,22 +56,22 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)Â0@ù
 × ;
-- (CDStruct_2f5e8405)@"UIPreviewParameters";
+- (CDStruct_77932685)@"UIPreviewParameters";
 - (double)ash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (double)>";
-- (struct CGRect)peBarButtonTitleTextAttributes:forState: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ner: /* Error: Ran out of types for this method. */;
-- (id)FromCandidateBar: /* Error: Ran out of types for this method. */;
-- (double)tEmojiPopover;
-- (void)r;
-- (struct UIEdgeInsets)t;
-- (struct CGRect)AffectedByScrollNotification:(id)arg1;
-- (long long)ScrollInset;
-- (long long)immingView;
-- (struct _NSRange)ted: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setScopeBarButtonTitleTextAttributes:forState: /* Error: Ran out of types for this method. */;
+- (struct CGRect)initWithTextView:textContentStorage:textContainer: /* Error: Ran out of types for this method. */;
+- (id)didCommitTextFromCandidateBar: /* Error: Ran out of types for this method. */;
+- (double)canPresentEmojiPopover;
+- (void)avoidanceCoordinator;
+- (struct UIEdgeInsets)_layoutContent;
+- (struct CGRect)_isAffectedByScrollNotification:(id)arg1;
+- (long long)_contentScrollInset;
+- (long long)_allowsFocusBehindDimmingView;
+- (struct _NSRange)__viewControllerWillBePresented: /* Error: Ran out of types for this method. */;
 - (void)sEffect",C,N;
 - (double)stUndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
-- (void)xtInputMode;
+- (void)UITextInputMode;
 - (void)D;
 - (void)ry, ignoring:(struct CGSize)arg1 %@;
 - (id)tion != nil;
@@ -112,35 +83,7 @@ __attribute__((visibility("hidden")))
 - (id)0;
 
 // Remaining properties
-@property(readonly, nonatomic) double actualGap; // @synthesize actualGap=_actualGap;
-@property(readonly, nonatomic) double beginMargin; // @synthesize beginMargin=_beginMargin;
-@property(readonly, nonatomic) struct CGRect effectiveFooterFrameWithSectionMarginsApplied;
-@property(readonly, nonatomic) struct CGRect effectiveHeaderFrameWithSectionMarginsApplied;
-@property(readonly, nonatomic) double endMargin; // @synthesize endMargin=_endMargin;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(readonly, nonatomic) double footerDimension; // @synthesize footerDimension=_footerDimension;
-@property(nonatomic) struct CGRect footerFrame; // @synthesize footerFrame=_footerFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) double headerDimension; // @synthesize headerDimension=_headerDimension;
-@property(nonatomic) struct CGRect headerFrame; // @synthesize headerFrame=_headerFrame;
-@property(readonly, nonatomic) long long indexOfIncompleteRow; // @synthesize indexOfIncompleteRow=_indexOfIncompleteRow;
-@property(nonatomic) double interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(readonly, nonatomic) NSArray *invalidatedIndexPaths;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
 @property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) long long itemsByRowCount; // @synthesize itemsByRowCount=_itemsByRowCount;
-@property(nonatomic) long long itemsCount; // @synthesize itemsCount=_itemsCount;
-@property(readonly, nonatomic) double lastRowActualGap; // @synthesize lastRowActualGap=_lastRowActualGap;
-@property(readonly, nonatomic) double lastRowBeginMargin; // @synthesize lastRowBeginMargin=_lastRowBeginMargin;
-@property(readonly, nonatomic) double lastRowEndMargin; // @synthesize lastRowEndMargin=_lastRowEndMargin;
-@property(readonly, nonatomic) _Bool lastRowIncomplete; // @synthesize lastRowIncomplete=_lastRowIncomplete;
-@property(nonatomic) __weak _UIFlowLayoutInfo *layoutInfo; // @synthesize layoutInfo=_layoutInfo;
-@property(nonatomic) double lineSpacing; // @synthesize lineSpacing=_lineSpacing;
-@property(readonly, nonatomic) double otherMargin; // @synthesize otherMargin=_otherMargin;
-@property(nonatomic) CDStruct_2f5e8405 rowAlignmentOptions; // @synthesize rowAlignmentOptions=_rowAlignmentOptions;
-@property(readonly, nonatomic) NSMutableArray *rows; // @synthesize rows=_rows;
-@property(nonatomic) struct UIEdgeInsets sectionMargins; // @synthesize sectionMargins=_sectionMargins;
-@property(readonly, nonatomic) struct _NSRange validItemRange; // @synthesize validItemRange=_validItemRange;
 
 @end
 

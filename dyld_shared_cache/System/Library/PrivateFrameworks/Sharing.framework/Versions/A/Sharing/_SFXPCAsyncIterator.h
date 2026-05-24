@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _SFXPCAsyncIterator
 {
     id uuid;
-    id iterator;
-    id containerRegistry;
-    id currentTask;
 }
 
 - (void);

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface TIRequestedInputModes
 {
     _Bool _didLoad;
-    NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableDictionary *_inputModesByDate;
 }
 
 + (id);
+- (void)didRemoveCapabilitiesForSenderIdentityWithUUID:(id)arg1;
+- (void)didChangeWiFiCallingCapabilitiesForSenderIdentityWithUUID:(CDUnknownBlockType)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ʬ;
+- (id)(@;
 - (void);
 - (void);
 - (void);

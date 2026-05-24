@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MHSchemaMHVoiceProfileConfusionScoresForEnrollmentUtterance : SISchemaInstrumentationMessage
 {
     unsigned int _enrollmentUtteranceNumber;
-    NSArray *_voiceProfileConfusionScores;
-    struct {
-        unsigned int enrollmentUtteranceNumber:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -31,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec_oct.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,13 +34,10 @@
 × ;
 - (id)hInfo",&,N,V_matchInfo;
 - (id)rror;
-- (void)listSetting;
+- (void)SISchemaSpokenNotificationsWhitelistSetting;
 
 // Remaining properties
 @property(nonatomic) unsigned int enrollmentUtteranceNumber; // @synthesize enrollmentUtteranceNumber=_enrollmentUtteranceNumber;
-@property(nonatomic) _Bool hasEnrollmentUtteranceNumber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *voiceProfileConfusionScores; // @synthesize voiceProfileConfusionScores=_voiceProfileConfusionScores;
 
 @end
 

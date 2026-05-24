@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol SLXPCExportable
+- (NSObject<OS_xpc_object> *)gForChanges:] /* Error: Ran out of types for this method. */;
 @end
 

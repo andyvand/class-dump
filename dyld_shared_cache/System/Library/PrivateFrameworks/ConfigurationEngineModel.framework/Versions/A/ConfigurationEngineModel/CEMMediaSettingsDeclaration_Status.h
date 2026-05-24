@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)__DATA_CONST;
++ (id)Q;
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ccessibilityUIServer;
 
 @end
 

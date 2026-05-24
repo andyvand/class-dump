@@ -7,6 +7,7 @@
 @class NSTextStorage;
 
 @protocol NSTextStorageObserving
+- (void);
 
 // Remaining properties
 @property(retain) NSTextStorage *textStorage;

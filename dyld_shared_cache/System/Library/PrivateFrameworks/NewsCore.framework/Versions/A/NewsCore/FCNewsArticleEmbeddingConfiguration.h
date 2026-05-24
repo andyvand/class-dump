@@ -7,7 +7,6 @@
 @interface FCNewsArticleEmbeddingConfiguration
 {
     _Bool _shouldFetch;
-    _Bool _shouldPersist;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool shouldFetch; // @synthesize shouldFetch=_shouldFetch;
-@property(nonatomic) _Bool shouldPersist; // @synthesize shouldPersist=_shouldPersist;
 
 @end
 

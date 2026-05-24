@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)";
 - (void)ð!TDùqdð1Â0@ù
 × ;
 - (_Bool)s navigation item in document picker;

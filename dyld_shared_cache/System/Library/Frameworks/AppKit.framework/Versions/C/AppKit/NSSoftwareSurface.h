@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIOSurfacePool;
-
 __attribute__((visibility("hidden")))
 @interface NSSoftwareSurface
 {
     unsigned int _connectionID;
-    unsigned int _windowID;
-    NSIOSurfacePool *_surfacePool;
 }
 
+- (id)notification %s, token %d:(unsigned int)arg1 %u;
 - (id);
-- (id);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
+- (unsigned int)<;
 
 // Remaining properties
 @property(readonly) unsigned int connectionID;
-@property(readonly) unsigned int windowID;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface SiriIntentEvents.ConfirmationOffer
 {
     id parameterName;
-    id intentType;
-    id multicardinalIndexValue;
-    id item;
-    id timestamp;
 }
 
 @end

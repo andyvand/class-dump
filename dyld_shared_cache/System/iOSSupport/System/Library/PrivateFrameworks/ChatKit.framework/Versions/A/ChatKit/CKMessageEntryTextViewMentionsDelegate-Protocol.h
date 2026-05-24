@@ -5,7 +5,19 @@
 //
 
 @protocol CKMessageEntryTextViewMentionsDelegate
-- (_Bool)wDelegate;
+- (void);
+- (_Bool)ManagedObject"8^B16;
+- (void)locationForCharacterIndex:dataSourceLocationsOnly:actualRange: /* Error: Ran out of types for this method. */;
+- (void)location;
+- (void)_legacyViewContext;
+- (void)_legacyManagedObjectContext;
+- (void)_keepNSTextTableAttributes;
+- (void)_invitationObjectIDs;
+- (void)displayDate;
+- (_Bool)0_GAJGA12_GAJGGtGG;
+- (struct _NSRange)e;
+- (void)url:(unsigned long long)arg1 %s};
+- (_Bool)CKInlineMediaViewDelegate;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentTappedCharacterIndex;

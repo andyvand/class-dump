@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface NewsArticles.DarkModeConfiguration
 {
     id headline;
@@ -15,14 +13,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)sages;
+- (void)supportedMessages;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool autoDarkModeEnabled;
-@property(nonatomic, readonly) NSDictionary *colors;
-@property(nonatomic, readonly) unsigned long long inversionBehavior;
-@property(nonatomic, readonly) double saturationThreshold;
 
 @end
 

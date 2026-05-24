@@ -7,7 +7,6 @@
 @interface AppleMediaServices.ShutdownState
 {
     id sigtermSource;
-    id _isShuttingDown;
 }
 
 @end

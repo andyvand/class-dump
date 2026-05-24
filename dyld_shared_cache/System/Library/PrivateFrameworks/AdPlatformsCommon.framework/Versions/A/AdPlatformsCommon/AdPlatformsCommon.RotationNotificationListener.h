@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.RotationNotificationListener
 {
     id notificationQueue;
-    id notificationDelegate;
-    id token;
 }
 
 @end

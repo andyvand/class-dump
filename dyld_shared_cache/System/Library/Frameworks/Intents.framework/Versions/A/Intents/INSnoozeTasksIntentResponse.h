@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSnoozeTasksIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)sandboxExtensionConsume:(long long)arg1;
++ (long long)removeCachedResourceValueForKey:(int)arg1;
++ (_Bool)preFPFSDownloadThumbnailAtTaggedURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
+- (id)setPositive:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)already active/pending, ignoring redundant invocation;
 - (id);
 - (id);
 - (long long)N,V_associatedItems;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *snoozedTasks;
-@property(readonly) Class superclass;
 
 @end
 

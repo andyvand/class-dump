@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface READSchemaREADRequestStarted : SISchemaInstrumentationMessage
 {
     int _trigger;
-    struct {
-        unsigned int trigger:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)gDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAccountLookupResponse_macOS.m:38 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)Dictionary}^{__CFDictionary}^{__CFDictionary}^{__CFSet}B{?=b1b1}^?^{__CFSet}^{__CFDictionary}^vi{?=ii^q^{__CFSet}}}8;
 - (id);
 - (id);
-- (id)chOneof_Promptselection;
+- (id)_whichOneof_Promptselection;
 - (id)V_voiceProfilePitchInHz;
-- (int)DDRESSTOSPEAK;
+- (int)DIALOGENGINENAMEDENTITYPARAMETER__GEO__FOUNDNEARREAD__ADDRESSTOSPEAK;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int trigger; // @synthesize trigger=_trigger;
 
 @end

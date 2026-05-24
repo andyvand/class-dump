@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void)0@ù
 × ;
-- (id)rScale:(struct CGRect)arg1 complexPinPath: /* Error: Ran out of types for this method. */;
+- (id)_batteryPinImageWithSize:(struct CGRect)arg1 forScale:complexPinPath: /* Error: Ran out of types for this method. */;
 - (void)8`¹Ô¹hºiÌ»jp¾ÂÃkÄlÅm|ÉnìÉopÍp´Íq¼ÎtÐÜÐ;
 - (void)tems and indexPaths have different amount of items;
 - (void)@];

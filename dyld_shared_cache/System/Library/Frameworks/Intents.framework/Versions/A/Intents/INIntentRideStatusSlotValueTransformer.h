@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)ngAsRadioType:(id)arg1;
+- (id)StringAsRadioType:(id)arg1;
 
 @end
 

@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WPClient
 {
     unsigned char _type;
-    _Bool _isTestClient;
-    _Bool _isBubbleTestClient;
-    _Bool _peerTrackingSlotsAvailable;
-    _Bool _needsToRegister;
-    _Bool _registering;
-    _Bool _servicesAdded;
-    long long _state;
-    long long _advertiserState;
-    long long _scannerState;
-    long long _pipeState;
-    long long _connectionUseCase;
-    long long _maxAllowedConnectionDelayMs;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSObject<OS_dispatch_queue> *_daemonDeliveryQueue;
-    NSObject<OS_dispatch_semaphore> *_daemonRegisteredSemaphore;
-    NSString *_machName;
-    NSXPCConnection *_xpcConnection;
-    NSXPCListener *_xpcListener;
 }
 
 + (_Bool);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)$;
 + (_Bool);
 + (void);
-- (void);
-- (void);
+- (void)m;
+- (void)W;
 - (void);
 - (void);
 - (void);
@@ -64,7 +46,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)xa;
 - (void);
 - (_Bool);
 - (void);
@@ -79,88 +61,63 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)tableView:(id)arg1 draggingSession:endedAtPoint:operation: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (void)e={__CFRuntimeBase=QAQ}II^I^^IiIIII{os_unfair_lock_s=I}QQQQ^{IOGPUDeviceCommPage}^{IOGPUClientSharedGlobalRO}@?{os_unfair_lock_s=I}{shmemlog_list=^{_s_shmemlog_}}QQQ{IOGPUDeviceConfigData=IIQQIIQQQII}}16Q24;
+- (void);
+- (void)_localURL;
+- (void)n:(CDUnknownBlockType)arg1 %@);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_`;
+- (void);
 - (void);
 - (void);
 - (unsigned char);
 - (long long);
+- (void)ntDidPerform %@ (dataclasses:(_Bool)arg1 %@);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0:8@"NSDictionary"16@?<v@?@"NSArray"@"NSDictionary"@"NSArray"@"NSDictionary">24 /* Error: Ran out of types for this method. */;
+- (id)eractions:Encountered INInteraction with nil identifier. /* Error: Ran out of types for this method. */;
+- (_Bool)dalcanal;
 - (void);
 - (id);
+- (void);
+- (void)+;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)Timer;
+- (void)lockScanTimer;
 - (void)uetoothd to get power stats. ERROR:(id)arg1 %@;
 - (void)ertising stopped with error:(id)arg1 %@;
 - (void)ìjÿÿ: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long advertiserState; // @synthesize advertiserState=_advertiserState;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property long long connectionUseCase; // @synthesize connectionUseCase=_connectionUseCase;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *daemonDeliveryQueue; // @synthesize daemonDeliveryQueue=_daemonDeliveryQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *daemonRegisteredSemaphore; // @synthesize daemonRegisteredSemaphore=_daemonRegisteredSemaphore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isBubbleTestClient; // @synthesize isBubbleTestClient=_isBubbleTestClient;
-@property _Bool isTestClient; // @synthesize isTestClient=_isTestClient;
-@property(retain, nonatomic) NSString *machName; // @synthesize machName=_machName;
-@property long long maxAllowedConnectionDelayMs; // @synthesize maxAllowedConnectionDelayMs=_maxAllowedConnectionDelayMs;
-@property _Bool needsToRegister; // @synthesize needsToRegister=_needsToRegister;
-@property _Bool peerTrackingSlotsAvailable; // @synthesize peerTrackingSlotsAvailable=_peerTrackingSlotsAvailable;
-@property(readonly) long long pipeState; // @synthesize pipeState=_pipeState;
-@property _Bool registering; // @synthesize registering=_registering;
-@property long long scannerState; // @synthesize scannerState=_scannerState;
-@property _Bool servicesAdded; // @synthesize servicesAdded=_servicesAdded;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property unsigned char type; // @synthesize type=_type;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end
 

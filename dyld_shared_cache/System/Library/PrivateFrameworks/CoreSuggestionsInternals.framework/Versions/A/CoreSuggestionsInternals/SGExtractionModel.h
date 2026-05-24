@@ -12,14 +12,14 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned long long);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (unsigned long long):(id)arg1 8@16@24@32{_NSRange=QQ}40^q56;
++ (id)webLoginEndedWithError:(id)arg1;
++ (void)saveVerifiedAccount:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
++ (void)saveAccountWithVerificationOptions:dataclassActions: /* Error: Ran out of types for this method. */;
++ (void)saveAccountSucceeded;
++ (id)insertRowsAtIndexes:(id)arg1 withAnimation: /* Error: Ran out of types for this method. */;
++ (id)initialWebRequest;
++ (id)initWithRect:(id)arg1 options:owner:userInfo: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 

@@ -9,7 +9,6 @@
 @interface PPM2SourceAlgPair
 {
     NSString *_algorithm;
-    NSString *_source;
 }
 
 - (_Bool);
@@ -18,10 +17,10 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)?;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,10 +29,7 @@
 - (void)deleteAllTopicsFromSourcesWithBundleId:(id)arg1 groupId:olderThanDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) _Bool hasAlgorithm;
 @property(readonly, nonatomic) _Bool hasSource;
-@property(retain, nonatomic) NSString *source; // @synthesize source=_source;
 
 @end
 

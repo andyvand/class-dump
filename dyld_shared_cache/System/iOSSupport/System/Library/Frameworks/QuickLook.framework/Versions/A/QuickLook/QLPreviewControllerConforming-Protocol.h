@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol QLPreviewControllerConformingDataSource, QLPreviewControllerConformingDelegate, QLPreviewItem;
+@protocol QLPreviewControllerConformingDataSource;
 
 @protocol QLPreviewControllerConforming
++ (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) id <QLPreviewItem> currentPreviewItem;
-@property long long currentPreviewItemIndex;
 @property(nonatomic) __weak id <QLPreviewControllerConformingDataSource> dataSource;
-@property(nonatomic) __weak id <QLPreviewControllerConformingDelegate> delegate;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSMutableData, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_xpc_object;
+@class NSFileHandle;
 
 @interface SecAsyncPiper
 {
     NSFileHandle *_readHandle;
-    NSObject<OS_xpc_object> *_writeXpcFd;
-    NSMutableData *_bigData;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_semaForTestingOnly;
 }
 
 + (void);
@@ -21,26 +16,22 @@
 - (id);
 - (id);
 - (void);
+- (void);;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)S;
 - (id);
 - (void)ÿ914@èHØ;
 
 // Remaining properties
-@property(retain) NSMutableData *bigData; // @synthesize bigData=_bigData;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain) NSFileHandle *readHandle; // @synthesize readHandle=_readHandle;
-@property(retain) NSObject<OS_dispatch_semaphore> *semaForTestingOnly; // @synthesize semaForTestingOnly=_semaForTestingOnly;
-@property(retain) NSObject<OS_xpc_object> *writeXpcFd; // @synthesize writeXpcFd=_writeXpcFd;
 
 @end
 

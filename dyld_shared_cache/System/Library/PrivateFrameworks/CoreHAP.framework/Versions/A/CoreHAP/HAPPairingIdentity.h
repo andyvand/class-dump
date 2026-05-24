@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAPPairingIdentity
 {
     unsigned long long _permissions;
-    NSString *_controllerKeyIdentifier;
 }
 
 @end

@@ -6,43 +6,30 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface GEOMapsURLShortenerRequest : GEOXPCRequest
 {
     _Bool _shorten;
-    unsigned int _options;
-    NSURL *_url;
-    double _timeout;
 }
 
-+ (Class);
-- (void);
-- (_Bool);
-- (void);
++ (Class)credentialItemForKey: /* Error: Ran out of types for this method. */;
+- (void)\;
+- (_Bool)typeOfHandleString: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
+- (void)8;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)unlockAndRestoreContext:glContext: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (void);
-- (id)byWidget;
-- (void)r;
+- (void)@m;
+- (id)mapsNearbyWidget;
+- (void)chargingStopAddedThroughSar;
 - (double)Ré@:7Íùyé@ /* Error: Ran out of types for this method. */;
 - (void)1¹¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int options; // @synthesize options=_options;
-@property(nonatomic) _Bool shorten; // @synthesize shorten=_shorten;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -6,14 +6,14 @@
 
 #import <ExchangeWebServices/SOAPBaseDocument.h>
 
-@class NSString, SOAPEnvelope;
+@class SOAPEnvelope;
 
 @interface SOAPDocument : SOAPBaseDocument
 {
     SOAPEnvelope *_Envelope;
 }
 
-+ (id);
++ (id)Qo__Qo__SSADQo__Qo_;
 - (void);
 - (void);
 - (void);
@@ -23,17 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SOAPEnvelope *Envelope; // @synthesize Envelope=_Envelope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

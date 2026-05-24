@@ -11,7 +11,7 @@
     NSMutableDictionary *_types;
 }
 
-- (void);
+- (void)R;
 - (unsigned long long);
 - (id);
 - (_Bool);

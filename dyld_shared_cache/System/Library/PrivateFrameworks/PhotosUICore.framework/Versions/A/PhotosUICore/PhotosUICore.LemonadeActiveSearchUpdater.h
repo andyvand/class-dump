@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeActiveSearchUpdater
 {
     id pendingUpdateForSearchText;
-    id pendingUpdateForContainer;
-    id pendingUpdateForIsEditing;
-    id currentActiveSearch;
 }
 
 @end

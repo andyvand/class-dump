@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITransform.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface UITransformer : UITransform
 {
@@ -14,22 +14,15 @@
     NSMutableArray *_transformReasonAssociations;
 }
 
+- (id)ʬ;
 - (id);
-- (id);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (id);
-- (_Bool)ntHandler:(id)arg1;
+- (_Bool)setContentFulfillmentHandler:(id)arg1;
 - (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSArray *transforms; // @synthesize transforms=_transforms;
 
 @end

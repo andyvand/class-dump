@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, TDElementProduction;
+@class NSString;
 
 @interface TDNamedElement
 {
@@ -12,9 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(retain, nonatomic) NSNumber *identifier; // @dynamic identifier;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) TDElementProduction *production; // @dynamic production;
 @end
 

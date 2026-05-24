@@ -6,16 +6,11 @@
 
 #import <QuartzComposer/QCSourceTextView.h>
 
-@class NSImageView, NSPopUpButton, NSTextField, NSTimer, QCPatch;
+@class QCPatch;
 
 @interface QCSourceCodeView : QCSourceTextView
 {
     QCPatch *_rootPatch;
-    NSTextField *_statusField;
-    NSImageView *_statusImage;
-    NSPopUpButton *_functionList;
-    NSTimer *_typingTimer;
-    void *_unused2[5];
 }
 
 + (id);

@@ -9,17 +9,9 @@
 @interface GEOVLFCorrection
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _altitudeCorrectionMagnitude;
-    unsigned int _headingCorrectionMagnitude;
-    unsigned int _locationCorrectionMagnitude;
-    struct {
-        unsigned int has_altitudeCorrectionMagnitude:1;
-        unsigned int has_headingCorrectionMagnitude:1;
-        unsigned int has_locationCorrectionMagnitude:1;
-    } _flags;
 }
 
-+ (_Bool)etNumberOfAlertingResponses:(id)arg1;
++ (_Bool)setNumberOfAlertingResponses:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -29,35 +21,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)ier;
+- (void)messagingAddresses;
+- (void)mo.%K IN %@)).@count;
 - (void);
-- (void);
-- (void);
+- (id)Q;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)secondPassFirstAudioPacketReceptionTime;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)�
+;
 - (_Bool);
 - (void);
 - (id)	'Ð!,Cùº*Ð1Â0@ù
 × ;
-- (id)gress:endpoint: /* Error: Ran out of types for this method. */;
+- (id)initWithMirroredProgress:endpoint: /* Error: Ran out of types for this method. */;
 - (id),N;
-- (id)riaUtil;
+- (id)GloriaUtil;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int altitudeCorrectionMagnitude;
-@property(nonatomic) _Bool hasAltitudeCorrectionMagnitude;
-@property(nonatomic) _Bool hasHeadingCorrectionMagnitude;
 @property(nonatomic) _Bool hasLocationCorrectionMagnitude;
-@property(nonatomic) unsigned int headingCorrectionMagnitude;
-@property(nonatomic) unsigned int locationCorrectionMagnitude;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

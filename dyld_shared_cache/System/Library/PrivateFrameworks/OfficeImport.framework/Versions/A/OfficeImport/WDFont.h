@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface WDFont
 {
     NSString *mName;
-    NSMutableArray *mAlternateNames;
-    int mFontFamily;
-    int mCharacterSet;
-    int mPitch;
 }
 
 + (int);
@@ -27,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)CGFloat);
 - (int);
-- (int);
+- (int)@24@32;
 - (void)ehavior";
 - (void);
 - (void)ryptoUtils sha256HashFromData:] /* Error: Ran out of types for this method. */;

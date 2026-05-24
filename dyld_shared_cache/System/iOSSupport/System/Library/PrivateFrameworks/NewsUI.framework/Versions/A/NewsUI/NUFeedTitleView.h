@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NUTitleView, NUTitleViewUpdate;
-@protocol NUFeedTitleViewDelegate, NUTitleViewStyler;
+@class NUTitleViewUpdate;
+@protocol NUFeedTitleViewDelegate;
 
 @interface NUFeedTitleView
 {
     id <NUFeedTitleViewDelegate> _delegate;
-    NUTitleView *_titleView;
-    NUTitleViewUpdate *_lastQueuedTitleViewUpdate;
-    NSMutableArray *_titleViewUpdateStack;
 }
 
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (unsigned long long)32@0:(unsigned long long)arg1 8Q16^{_NSRange=QQ}24;
+- (void)splitLine:(id)arg1 lineSegmentRects:(unsigned long long)arg2 polygon:type:skipHint: /* Error: Ran out of types for this method. */;
+- (void)/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/text/TSWPTestChangeSessionManager.mm;
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NUFeedTitleViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NUTitleViewUpdate *lastQueuedTitleViewUpdate; // @synthesize lastQueuedTitleViewUpdate=_lastQueuedTitleViewUpdate;
-@property(retain, nonatomic) id <NUTitleViewStyler> styler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NUTitleView *titleView; // @synthesize titleView=_titleView;
-@property(readonly, nonatomic) NSMutableArray *titleViewUpdateStack; // @synthesize titleViewUpdateStack=_titleViewUpdateStack;
 
 @end
 

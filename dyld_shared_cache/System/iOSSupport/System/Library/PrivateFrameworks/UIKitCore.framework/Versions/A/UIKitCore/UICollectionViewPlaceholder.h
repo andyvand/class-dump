@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSIndexPath;
 
 @interface UICollectionViewPlaceholder
 {
     NSIndexPath *_insertionIndexPath;
-    NSString *_cellReuseIdentifier;
-    CDUnknownBlockType _cellUpdateHandler;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ing file sizes, returning;
+- (void)ublic}s Transfer with guid %@ is in thumbnail state, skipping retrieve;
+- (void)lready exists on disk at path %@;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -24,8 +22,6 @@
 - (void)H);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cellReuseIdentifier; // @synthesize cellReuseIdentifier=_cellReuseIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType cellUpdateHandler; // @synthesize cellUpdateHandler=_cellUpdateHandler;
 @property(retain, nonatomic) NSIndexPath *insertionIndexPath; // @synthesize insertionIndexPath=_insertionIndexPath;
 
 @end

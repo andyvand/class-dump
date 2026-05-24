@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNAutocompleteQueryResponsePreparer, CNAutocompleteUserSession, CNCancelationToken, NSString;
-@protocol CNAutocompleteFetchDelegate, CNScheduler;
+@protocol CNAutocompleteFetchDelegate;
 
 @interface CNAutocompleteDelegateWrapper
 {
     id <CNAutocompleteFetchDelegate> _delegate;
-    id <CNScheduler> _scheduler;
-    CNAutocompleteQueryResponsePreparer *_responsePreparer;
-    unsigned long long _openNetworkActivityCalls;
-    CNCancelationToken *_cancelationToken;
-    CNAutocompleteUserSession *_userSession;
-    CNAutocompleteFetchRequest *_fetchRequest;
 }
 
 + (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)q;
 - (void);
 - (id);
 - (void);
@@ -32,7 +25,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -40,30 +33,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)!;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNCancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <CNAutocompleteFetchDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNAutocompleteFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long openNetworkActivityCalls; // @synthesize openNetworkActivityCalls=_openNetworkActivityCalls;
-@property(readonly, nonatomic) CNAutocompleteQueryResponsePreparer *responsePreparer; // @synthesize responsePreparer=_responsePreparer;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNAutocompleteUserSession *userSession; // @synthesize userSession=_userSession;
 
 @end
 

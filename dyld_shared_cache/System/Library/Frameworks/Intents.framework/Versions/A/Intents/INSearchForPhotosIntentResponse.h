@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INSearchForPhotosIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)2@0:(long long)arg1 8@16Q24@32@40Q48@56@64;
++ (int)isItemAtURLInsidePermanentStorage:(long long)arg1 error: /* Error: Ran out of types for this method. */;
++ (long long)initWithPrincipalObject:(int)arg1;
++ (_Bool)initWithFPItem:(long long)arg1 automaticallyGenerated: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -23,25 +21,17 @@
 - (long long);
 - (id);
 - (long long);
+- (id)eForExtractionToPath:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
+- (id)physicalDevice:(id)arg1 setAdaptiveTriggersPayload:forIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)ic}s:(id)arg1 %u) IOServiceAddMatchingNotification() failed with error %d (%@:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long)ray",R,N,V_currencyCodes;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *searchResultsCount;
-@property(readonly) Class superclass;
 
 @end
 

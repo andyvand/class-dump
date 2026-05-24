@@ -7,13 +7,10 @@
 #import <MetalTools/MTLToolsIndirectRenderCommand.h>
 
 @class MTLIndirectCommandBufferDescriptor;
-@protocol MTLIndirectCommandBuffer, MTLIndirectCommandBufferSPI;
 
 @interface MTLDebugIndirectRenderCommand : MTLToolsIndirectRenderCommand
 {
     MTLIndirectCommandBufferDescriptor *_desc;
-    unsigned long long _index;
-    id <MTLIndirectCommandBufferSPI> _iCB;
 }
 
 - (void);
@@ -37,6 +34,7 @@
 - (id);
 - (void);
 - (void);
+- (void)	˿;
 - (void);
 - (void);
 - (void);
@@ -44,15 +42,13 @@
 - (void);
 - (void);
 - (void);
+- (id)o;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long index;
-@property(readonly) id <MTLIndirectCommandBuffer> indirectCommandBuffer;
 
 @end
 

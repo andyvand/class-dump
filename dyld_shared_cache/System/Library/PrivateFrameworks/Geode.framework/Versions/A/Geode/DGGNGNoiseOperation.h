@@ -11,7 +11,6 @@
 @interface DGGNGNoiseOperation : DGOperation
 {
     NSNumber *_inputRadius;
-    NSNumber *_inputEdgeDetail;
 }
 
 + (id);
@@ -42,7 +41,6 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
 @property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end

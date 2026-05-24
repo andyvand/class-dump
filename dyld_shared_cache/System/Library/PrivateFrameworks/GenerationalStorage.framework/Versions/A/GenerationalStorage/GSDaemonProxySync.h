@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
+@class NSObject;
 @protocol GSProtocol;
 
 __attribute__((visibility("hidden")))
 @interface GSDaemonProxySync
 {
     NSObject<GSProtocol> *_target;
-    NSError *_error;
-    id _result;
 }
 
 + (id);
@@ -27,10 +25,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) id result; // @synthesize result=_result;
 
 @end

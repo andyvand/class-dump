@@ -6,22 +6,10 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVMobileGlassAuxiliaryControlsView, AVMobileGlassContentTagView, AVMobileGlassControlsStyleSheet, AVMobileGlassTimelineView, AVMobileTitlebarView;
-@protocol AVMobileGlassTransportControlsViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassTransportControlsView : AVGlassBackedView
 {
     AVGlassBackedView *_inlineTransportControlsBackgroundView;
-    _Bool _layoutAllowed;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    long long _timelineBackgroundMaterialMode;
-    AVMobileGlassAuxiliaryControlsView *_auxiliaryControlsView;
-    AVMobileGlassContentTagView *_liveEdgeContentTagView;
-    AVMobileGlassTimelineView *_timelineView;
-    AVMobileTitlebarView *_titlebarView;
-    id <AVMobileGlassTransportControlsViewDelegate> _delegate;
-    struct AVMobileGlassControlsLayoutConfiguration _layoutConfiguration;
 }
 
 - (void);
@@ -38,30 +26,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)NGMPBFullDeviceIdentity;
+- (void)TetraMessage;
+- (void)ty fetching limit for tests;
 - (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void),V_color;
 - (id);
 - (void)AÐ!@ùq[Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileGlassAuxiliaryControlsView *auxiliaryControlsView; // @synthesize auxiliaryControlsView=_auxiliaryControlsView;
-@property(nonatomic) __weak id <AVMobileGlassTransportControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool layoutAllowed; // @synthesize layoutAllowed=_layoutAllowed;
 @property(nonatomic) struct AVMobileGlassControlsLayoutConfiguration layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) AVMobileGlassContentTagView *liveEdgeContentTagView; // @synthesize liveEdgeContentTagView=_liveEdgeContentTagView;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(nonatomic) long long timelineBackgroundMaterialMode; // @synthesize timelineBackgroundMaterialMode=_timelineBackgroundMaterialMode;
-@property(retain, nonatomic) AVMobileGlassTimelineView *timelineView; // @synthesize timelineView=_timelineView;
-@property(retain, nonatomic) AVMobileTitlebarView *titlebarView; // @synthesize titlebarView=_titlebarView;
 
 @end
 

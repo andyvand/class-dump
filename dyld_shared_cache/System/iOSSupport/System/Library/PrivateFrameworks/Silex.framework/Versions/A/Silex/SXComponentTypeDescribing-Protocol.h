@@ -9,7 +9,6 @@
 @protocol SXComponentTypeDescribing
 
 // Remaining properties
-@property(readonly, nonatomic) int role;
 @property(readonly, nonatomic) NSString *type;
 @end
 

@@ -5,7 +5,8 @@
 //
 
 @interface UnknownClass (TextEffects)
-- (void);
+- (void)޶
+;
 - (void);
 - (void);
 - (void);

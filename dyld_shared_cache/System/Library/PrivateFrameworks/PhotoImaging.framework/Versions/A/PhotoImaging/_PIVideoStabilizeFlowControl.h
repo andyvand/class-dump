@@ -7,16 +7,13 @@
 @interface _PIVideoStabilizeFlowControl
 {
     CDUnknownBlockType _progressHandler;
-    double _rangeMin;
-    double _rangeMax;
-    CDUnknownBlockType _shouldCancelHandler;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)荭r;
 - (double);
 - (void);
 - (_Bool);
@@ -142,9 +139,6 @@ return vec4(sum.rgb / max(sum.a, 0.001), 1.0);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic) double rangeMax; // @synthesize rangeMax=_rangeMax;
-@property(nonatomic) double rangeMin; // @synthesize rangeMin=_rangeMin;
-@property(copy, nonatomic) CDUnknownBlockType shouldCancelHandler; // @synthesize shouldCancelHandler=_shouldCancelHandler;
 
 @end
 

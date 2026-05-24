@@ -16,17 +16,10 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *RuleId; // @synthesize RuleId=_RuleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

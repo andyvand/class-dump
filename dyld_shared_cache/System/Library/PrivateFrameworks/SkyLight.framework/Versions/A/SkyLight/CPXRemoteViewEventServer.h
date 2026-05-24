@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, NSMutableSet, NSString;
-@protocol CPXRemoteViewEventServerConfig;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface CPXRemoteViewEventServer
 {
     NSMutableSet *_pendingLock_pendingConnections;
-    struct os_unfair_lock_s _pendingLock;
-    BSServiceConnectionListener *_listener;
-    id <CPXRemoteViewEventServerConfig> _config;
 }
 
 + (id)ÿÿ;
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)= ? WHERE %@ = ? AND %@ = ?;
+- (void)enerations due to its large size (%lld);
+- (void)x;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)s;;
 - (id);
 - (void)ÿÿ(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

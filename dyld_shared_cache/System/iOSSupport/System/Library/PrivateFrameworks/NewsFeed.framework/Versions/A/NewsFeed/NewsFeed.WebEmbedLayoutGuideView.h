@@ -7,13 +7,10 @@
 @interface NewsFeed.WebEmbedLayoutGuideView
 {
     id layoutGuide;
-    id contentFrameView;
-    id contentSafeAreaFrameView;
-    id systemSafeAreaFrameView;
 }
 
 - (id);
-- (void);
+- (void)was clamped to max;
 - (id)1Â0@ù
 × ;
 - (void);

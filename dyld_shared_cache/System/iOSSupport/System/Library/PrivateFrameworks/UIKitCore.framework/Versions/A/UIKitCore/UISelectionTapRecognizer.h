@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (void)
 × ;
-- (void)Identifier:(id)arg1 textColor:forceTextAlignmentCentered: /* Error: Ran out of types for this method. */;
+- (void)initWithStyle:(id)arg1 reuseIdentifier:textColor:forceTextAlignmentCentered: /* Error: Ran out of types for this method. */;
 - (id)is will become an assert in a future version.;
 - (_Bool)\;
 

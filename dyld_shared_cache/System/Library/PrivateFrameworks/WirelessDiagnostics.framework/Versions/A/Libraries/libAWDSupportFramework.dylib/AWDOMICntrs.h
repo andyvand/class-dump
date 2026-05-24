@@ -7,32 +7,12 @@
 @interface AWDOMICntrs
 {
     unsigned int _heOmitxDlmursdrec;
-    unsigned int _heOmitxDlmursdrecAck;
-    unsigned int _heOmitxDur;
-    unsigned int _heOmitxRetries;
-    unsigned int _heOmitxSched;
-    unsigned int _heOmitxSuccess;
-    unsigned int _heOmitxTxnsts;
-    unsigned int _heOmitxTxnstsAck;
-    unsigned int _heOmitxUlmucfg;
-    unsigned int _heOmitxUlmucfgAck;
-    struct {
-        unsigned int heOmitxDlmursdrec:1;
-        unsigned int heOmitxDlmursdrecAck:1;
-        unsigned int heOmitxDur:1;
-        unsigned int heOmitxRetries:1;
-        unsigned int heOmitxSched:1;
-        unsigned int heOmitxSuccess:1;
-        unsigned int heOmitxTxnsts:1;
-        unsigned int heOmitxTxnstsAck:1;
-        unsigned int heOmitxUlmucfg:1;
-        unsigned int heOmitxUlmucfgAck:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)?
+k);
 - (void);
 - (void);
 - (void);
@@ -51,7 +31,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -62,7 +42,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,7 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -81,26 +61,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeOmitxDlmursdrec;
-@property(nonatomic) _Bool hasHeOmitxDlmursdrecAck;
-@property(nonatomic) _Bool hasHeOmitxDur;
-@property(nonatomic) _Bool hasHeOmitxRetries;
 @property(nonatomic) _Bool hasHeOmitxSched;
-@property(nonatomic) _Bool hasHeOmitxSuccess;
-@property(nonatomic) _Bool hasHeOmitxTxnsts;
-@property(nonatomic) _Bool hasHeOmitxTxnstsAck;
-@property(nonatomic) _Bool hasHeOmitxUlmucfg;
-@property(nonatomic) _Bool hasHeOmitxUlmucfgAck;
-@property(nonatomic) unsigned int heOmitxDlmursdrec; // @synthesize heOmitxDlmursdrec=_heOmitxDlmursdrec;
-@property(nonatomic) unsigned int heOmitxDlmursdrecAck; // @synthesize heOmitxDlmursdrecAck=_heOmitxDlmursdrecAck;
-@property(nonatomic) unsigned int heOmitxDur; // @synthesize heOmitxDur=_heOmitxDur;
-@property(nonatomic) unsigned int heOmitxRetries; // @synthesize heOmitxRetries=_heOmitxRetries;
-@property(nonatomic) unsigned int heOmitxSched; // @synthesize heOmitxSched=_heOmitxSched;
-@property(nonatomic) unsigned int heOmitxSuccess; // @synthesize heOmitxSuccess=_heOmitxSuccess;
-@property(nonatomic) unsigned int heOmitxTxnsts; // @synthesize heOmitxTxnsts=_heOmitxTxnsts;
-@property(nonatomic) unsigned int heOmitxTxnstsAck; // @synthesize heOmitxTxnstsAck=_heOmitxTxnstsAck;
-@property(nonatomic) unsigned int heOmitxUlmucfg; // @synthesize heOmitxUlmucfg=_heOmitxUlmucfg;
-@property(nonatomic) unsigned int heOmitxUlmucfgAck; // @synthesize heOmitxUlmucfgAck=_heOmitxUlmucfgAck;
 
 @end
 

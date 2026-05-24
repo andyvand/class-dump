@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)s;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (id);

@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)BN hash_table_size is zero;
 
 @end
 

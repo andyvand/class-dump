@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote;
 @protocol ICAttachmentInsertionDelegate;
 
 @interface ICAttachmentInsertionController
 {
     id <ICAttachmentInsertionDelegate> _attachmentDelegate;
-    ICNote *_note;
 }
 
 - (void);
@@ -29,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ICAttachmentInsertionDelegate> attachmentDelegate; // @synthesize attachmentDelegate=_attachmentDelegate;
-@property(readonly, nonatomic) __weak ICNote *note; // @synthesize note=_note;
 
 @end
 

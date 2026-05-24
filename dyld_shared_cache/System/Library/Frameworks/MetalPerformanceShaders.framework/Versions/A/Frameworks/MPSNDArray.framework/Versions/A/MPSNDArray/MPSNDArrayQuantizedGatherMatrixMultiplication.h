@@ -9,7 +9,6 @@
 @interface MPSNDArrayQuantizedGatherMatrixMultiplication : MPSNDArrayQuantizedMatrixMultiplication
 {
     _Bool _isSorted;
-    unsigned long long _batchDims;
 }
 
 + (_Bool);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long))	Ӛ?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batchDims; // @synthesize batchDims=_batchDims;
 @property(readonly, nonatomic) _Bool isSorted; // @synthesize isSorted=_isSorted;
 
 @end

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CUICustomFontCacheKey
 {
     NSString *_name;
-    double _pointSize;
-    unsigned long long _hash;
-    _Bool _hasHash;
 }
 
 - (void);
@@ -26,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) double pointSize;
 
 @end
 

@@ -6,29 +6,15 @@
 
 #import <UIKitCore/UITextInteraction.h>
 
-@class UITextGestureTuning, UITextLoupeSession, _UIKeyboardTextSelectionController;
-@protocol _UIInvalidatable;
-
 __attribute__((visibility("hidden")))
 @interface UITextSelectionInteraction : UITextInteraction
 {
     double _lastTapTimestamp;
-    struct CGPoint _lastTapLocation;
-    UITextGestureTuning *_gestureTuning;
-    _Bool _indirectSelectionType;
-    _Bool _viewConformsToTextInput;
-    struct CGRect _originalCaretRect;
-    _Bool _wasOriginallyFirstResponder;
-    long long _granularityToHandOff;
-    _Bool _isCharacterGranularityOnMarkedTextPresenceEnabled;
-    UITextLoupeSession *_activeLoupeSession;
-    _UIKeyboardTextSelectionController *_activeSelectionController;
-    id <_UIInvalidatable> _grabberSuppressionAssertion;
 }
 
 - (void);
 - (void);
-- (id);
+- (id):(long long)arg1 withLabel:withIcon: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -53,18 +39,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)d1Â0@ù
 × ;
-- (_Bool)arButton:(id)arg1;
-- (void)lText;
-- (void)ForInsertedItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)extEffectsWindowSafeAreaInsets;
-- (void)essoryContainer;
-- (void)nDidRecieveDidBeginDictationNotification:(id)arg1;
-- (void)rBackgroundColor;
+- (_Bool)set_clearButton:(id)arg1;
+- (void)processedOriginalText;
+- (void)initialLayoutAttributesForInsertedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateTextEffectsWindowSafeAreaInsets;
+- (void)_titleWithAccessoryContainer;
+- (void)_dictationDidRecieveDidBeginDictationNotification:(id)arg1;
+- (void)_allowsHighContrastForBackgroundColor;
 - (_Bool)LensViewSmallVariantSpec",N,&,Vsmall;
 - (void);
 - (_Bool)SLocationInRange(splitIndex, range);
-- (_Bool)dSectionHeaderHeight;
-- (void)nactive;
+- (_Bool)UIEstimatedSectionHeaderHeight;
+- (void)deactivateToInactive;
 - (id)cene with a nil display configuration is not supported:(long long)arg1 %@;
 - (void)¸þ;
 - (void)\1a;

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserDefaults;
-@protocol EFCancelable, MSBucketBarConfigurationProviderDelegate;
+@protocol MSBucketBarConfigurationProviderDelegate;
 
 @interface MSUserDefaultsBucketBarConfigurationProvider
 {
     void delegate;
-    NSUserDefaults *userDefaults;
-    void bucketBarConfigurationKey;
-    void bucketSelectionConfigurationKey;
-    id <EFCancelable> token;
-    id skipNextUpdate;
 }
 
 - (void);
@@ -24,20 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)s.wifi.strength.3.withNetwork%@%@;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *bucketBarConfigurationKey;
-@property(nonatomic, readonly) NSString *bucketSelectionConfigurationKey;
 @property(nonatomic) __weak id <MSBucketBarConfigurationProviderDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) id <EFCancelable> token; // @synthesize token;
-@property(nonatomic, readonly) NSUserDefaults *userDefaults; // @synthesize userDefaults;
 
 @end
 

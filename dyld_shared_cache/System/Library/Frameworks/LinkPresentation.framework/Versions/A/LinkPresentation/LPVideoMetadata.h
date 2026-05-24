@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPVideoMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
-    struct CGSize _size;
 }
 
 + (_Bool);
@@ -20,9 +14,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Number",&,N,V_isManatee;
 - (unsigned int);
-- (id);
+- (id)/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/ProtectedCloudStorage/CKDPCSIdentityManager.m;
 - (id);
 - (unsigned long long);
 - (struct CGSize);
@@ -34,17 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

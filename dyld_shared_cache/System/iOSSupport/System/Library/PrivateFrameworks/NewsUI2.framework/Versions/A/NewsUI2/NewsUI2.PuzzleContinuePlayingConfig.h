@@ -7,12 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingConfig
 {
     id feedContext;
-    id formatContent;
-    id layoutOptionsProvider;
-    id log;
-    id feedKind;
-    id puzzleType;
-    id knobConfig;
 }
 
 @end

@@ -7,14 +7,12 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBLongValue
+- (long long);
 - (_Bool)T@"_INPBFile",&,N,V_audioMessageFile;
 - (void)VisualCodeIntentResponse;
 - (_INPBValueMetadata *).intent.home.communication.ReadAnnouncementIntentResponse;
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) long long value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

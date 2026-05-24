@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
-
 @interface TBTileMO
 {
 }
 
 + (id);
-+ (void);
++ (void)"AVTCoreModelGroup",R,N,V_modelGroup;
 + (id);
 + (void);
 + (id)y %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *created; // @dynamic created;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *etag; // @dynamic etag;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long key; // @dynamic key;
-@property(readonly, nonatomic) long long networkCount; // @dynamic networkCount;
-@property(retain, nonatomic) NSSet *networks; // @dynamic networks;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) unsigned long long key; // @dynamic key;
 
 @end
 

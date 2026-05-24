@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CaptiveNetworkPlugin)
-- (void);
+- (void)setLastConsecutivePHSRejects:(struct __CNPluginCommand *)arg1;
 @end
 

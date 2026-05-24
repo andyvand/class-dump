@@ -16,21 +16,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)_performBlock:(id)arg1 afterDelay:(id)arg2;
+- (id)IMAccount;
+- (id)w;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool)ration;
-- (id)me;
+- (_Bool)sheetClientConfiguration;
+- (id)_computeAndUpdateAdjustedContentFrame;
 - (id)ew",&,N,V_revealPlatterView;
 - (void);
 - (id)ØþäÊ{d;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIDatePickerCalendarMonth *assignedMonth; // @synthesize assignedMonth=_assignedMonth;
-@property(readonly, nonatomic) _Bool isToday;
 @property(readonly, nonatomic) _UIDatePickerCalendarMonth *month; // @synthesize month=_month;
 
 @end

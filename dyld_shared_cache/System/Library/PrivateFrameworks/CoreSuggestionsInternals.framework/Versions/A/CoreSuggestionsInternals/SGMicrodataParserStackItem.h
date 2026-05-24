@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGMicrodataDocument;
+@class SGMicrodataDocument;
 
 @interface SGMicrodataParserStackItem
 {
     SGMicrodataDocument *_document;
-    SGMicrodataParserStackItem *_parent;
-    NSArray *_textConsumers;
-    NSArray *_itemScopes;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)L;
 - (id);
 - (id);
 - (void)ä¾¼¿À¼À
@@ -25,9 +22,6 @@ $Ã<ÅÆÈË;
 
 // Remaining properties
 @property(readonly) SGMicrodataDocument *document; // @synthesize document=_document;
-@property(readonly) NSArray *itemScopes; // @synthesize itemScopes=_itemScopes;
-@property(readonly) SGMicrodataParserStackItem *parent; // @synthesize parent=_parent;
-@property(readonly) NSArray *textConsumers; // @synthesize textConsumers=_textConsumers;
 
 @end
 

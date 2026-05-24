@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)t head %@ has mismatching number of scores (%@) and labels (%@);
 
 @end
 

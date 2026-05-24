@@ -7,21 +7,16 @@
 @interface NewsUI2.FollowingNotificationsDataManager
 {
     id delegate;
-    id subscriptionService;
-    id tagService;
-    id notificationService;
-    id configurationManager;
-    id sportsOnboardingManager;
 }
 
 - (void);
+- (void)ypeIdentifier:(id)arg1 );
+- (void)conversation link resulted in error:(id)arg1 %@;
+- (void)tting link for Apple Mail;
+- (void)cause the URL is invalid.;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SuspendControlCodingKeys;
 - (id);
 - (void)0K;
 

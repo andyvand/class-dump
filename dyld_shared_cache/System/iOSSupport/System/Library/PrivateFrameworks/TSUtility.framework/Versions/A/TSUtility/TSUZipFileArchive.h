@@ -6,30 +6,27 @@
 
 #import <TSUtility/TSUZipArchive.h>
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_queue, TSUReadChannel;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TSUZipFileArchive : TSUZipArchive
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    unsigned long long _archiveLength;
-    id <TSUReadChannel> _archiveReadChannel;
-    NSURL *_temporaryDirectoryURL;
 }
 
-+ (void);
++ (void)P;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)thumbnailSmallMetadata;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
+- (id)ortsEventProviding>",R,N;
 - (id);
-- (id);
-- (void);
+- (void)@;
 
 @end
 

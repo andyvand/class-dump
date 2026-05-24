@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (FPUIAdditions)
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned int);
-- (id);
-- (id);
++ (id)_buyProductURLKeysForProductType:(id)arg1 prefix:(unsigned long long)arg2;
++ (id)_buyParamsStringFromAuthenticationContext:(id)arg1;
++ (id)_bundleURL;
++ (unsigned int)en:(unsigned long long)arg1;
+- (id)_buttons;
+- (id)_bundleRecordForIdentifier:(id)arg1;
 @end
 

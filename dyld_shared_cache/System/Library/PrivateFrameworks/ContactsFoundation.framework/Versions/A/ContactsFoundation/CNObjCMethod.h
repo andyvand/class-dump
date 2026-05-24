@@ -9,26 +9,22 @@
 @interface CNObjCMethod
 {
     NSString *_name;
-    CDUnknownFunctionPointerType _implementation;
-    NSString *_typeEncoding;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)`
+;
 - (id);
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
-- (SEL);
+- (SEL)ic}@;
 - (void);
 
 // Remaining properties
-@property(readonly) CDUnknownFunctionPointerType implementation; // @synthesize implementation=_implementation;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 @property(readonly) SEL selector;
-@property(readonly, copy) NSString *typeEncoding; // @synthesize typeEncoding=_typeEncoding;
 
 @end
 

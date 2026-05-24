@@ -6,26 +6,9 @@
 
 #import <MediaPlayer/MPModelRequest.h>
 
-@class MPMediaLibrary, MPMediaQuery, MPPropertySet, NSArray, NSString;
-
 @interface MPModelLibraryRequest : MPModelRequest
 {
     _Bool _wantsDetailedKeepLocalRequestableResponse;
-    _Bool _sortUsingAllowedItemIdentifiers;
-    _Bool _isUpgradedSmartPlaylistLegacyMediaQuery;
-    _Bool _disableImplicitSectioning;
-    MPMediaLibrary *_mediaLibrary;
-    NSArray *_allowedItemIdentifiers;
-    NSArray *_allowedSectionIdentifiers;
-    NSArray *_scopedContainers;
-    unsigned long long _filteringOptions;
-    NSString *_filterText;
-    NSString *_sectionFilterText;
-    NSArray *_itemPropertyFilters;
-    NSArray *_sectionPropertyFilters;
-    MPMediaQuery *_legacyMediaQuery;
-    MPPropertySet *_scopedContainersPropertySet;
-    struct _NSRange _contentRange;
 }
 
 + (_Bool);

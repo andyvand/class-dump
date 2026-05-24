@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (int);
+- (int)PLResourceDataStore.m;
 - (id);
 - (id);
 - (id);
@@ -19,9 +19,9 @@
 - (id);
 - (_Bool);
 - (void);
+- (int)Spatiotemporal upsampler expects interpolation phase being 0.5;
 - (int);
-- (int);
-- (id);
+- (id)reconstruct;
 - (_Bool);
 - (id);
 - (_Bool);

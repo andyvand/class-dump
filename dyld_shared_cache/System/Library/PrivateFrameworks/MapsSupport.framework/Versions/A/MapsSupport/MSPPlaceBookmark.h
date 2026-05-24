@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapItemStorage, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPPlaceBookmark
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_droppedPinCoordinate;
-    int _droppedPinFloorOrdinal;
-    GEOMapItemStorage *_mapItemStorage;
-    int _origin;
-    NSString *_title;
-    struct {
-        unsigned int droppedPinFloorOrdinal:1;
-        unsigned int origin:1;
-    } _has;
 }
 
 - (void);
@@ -27,8 +18,8 @@
 - (void);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)le satisfied message criteria;
+- (void)ersationCalculationPerformance] descendantsOfMessageToSplitTime %f count %lu;
 - (id);
 - (int);
 - (id);
@@ -38,7 +29,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,17 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *droppedPinCoordinate; // @synthesize droppedPinCoordinate=_droppedPinCoordinate;
-@property(nonatomic) int droppedPinFloorOrdinal; // @synthesize droppedPinFloorOrdinal=_droppedPinFloorOrdinal;
-@property(readonly, nonatomic) _Bool hasDroppedPinCoordinate;
-@property(nonatomic) _Bool hasDroppedPinFloorOrdinal;
 @property(readonly, nonatomic) _Bool hasMapItemStorage;
-@property(nonatomic) _Bool hasOrigin;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOMapItemStorage *mapItemStorage; // @synthesize mapItemStorage=_mapItemStorage;
-@property(nonatomic) int origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

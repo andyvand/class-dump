@@ -4,73 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientMetrics, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEONetworkEventData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_additionalStates;
-    NSString *_appIdentifier;
-    GEOClientMetrics *_clientMetrics;
-    NSString *_countryCode;
-    long long _errorCode;
-    NSString *_errorDomain;
-    double _eventTimestamp;
-    NSString *_locale;
-    NSString *_manifestEnvironment;
-    NSString *_requestingAppIdentifier;
-    NSString *_requestingAppMajorVer;
-    NSString *_requestingAppMinorVer;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _dataRequestKindSubtype;
-    int _dataRequestKindType;
-    unsigned int _datasetId;
-    int _networkService;
-    unsigned int _tilesetId;
-    _Bool _usedBackgroundUrl;
-    struct {
-        unsigned int has_errorCode:1;
-        unsigned int has_eventTimestamp:1;
-        unsigned int has_dataRequestKindSubtype:1;
-        unsigned int has_dataRequestKindType:1;
-        unsigned int has_datasetId:1;
-        unsigned int has_networkService:1;
-        unsigned int has_tilesetId:1;
-        unsigned int has_usedBackgroundUrl:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_additionalStates:1;
-        unsigned int read_appIdentifier:1;
-        unsigned int read_clientMetrics:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_errorDomain:1;
-        unsigned int read_locale:1;
-        unsigned int read_manifestEnvironment:1;
-        unsigned int read_requestingAppIdentifier:1;
-        unsigned int read_requestingAppMajorVer:1;
-        unsigned int read_requestingAppMinorVer:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ndTime:(id)arg1;
++ (_Bool)setHasTurnaroundTime:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -87,40 +43,40 @@
 - (double);
 - (int);
 - (int);
-- (void);
+- (void)A/ContactsFoundation;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (int);
-- (void);
-- (_Bool);
+- (void)T;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)P;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
+- (void)setFMMGoodSamaritanMessage:(_Bool)arg1 _withAuthorization: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)spIdUnknownUserScore;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ingModel";
 - (id);
 - (int);
 - (_Bool);
@@ -132,8 +88,8 @@
 - (id)End"b1"has_requestStart"b1"has_responseEnd"b1"has_responseStart"b1"has_secureConnectEnd"b1"has_secureConnectStart"b1"has_multipathServiceType"b1"has_protocolName"b1"has_resourceFetchType"b1"has_isMultipath"b1"has_proxyConnection"b1"has_reusedConnection"b1"has_usedCellular"b1};
 - (void)ionSearchHome"b1};
 - (id)b1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16I24@28Q36@44C52@56@?64;
-- (_Bool)Coordinate:radius:categories:dateInterval:maxResultCount: /* Error: Ran out of types for this method. */;
-- (id)ationType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithCoordinate:radius:categories:dateInterval:maxResultCount: /* Error: Ran out of types for this method. */;
+- (id)setAutocompleteOriginationType: /* Error: Ran out of types for this method. */;
 - (unsigned int)L¡;
 - (void)t;
 - (_Bool)<ÖÌ
@@ -162,7 +118,7 @@
 h²$ô
 ü²l9T²0F²TÈ²ø¢Ü²ì¦ð²p°²ð´²Ø¾,² À@²`ÂT²ìÊh²ÌÎ|²Ð²Ô¤² /* Error: Ran out of types for this method. */;
 - (id)E°Ì¹;
-- (id)eFrame;
+- (id)referenceFrame;
 - (id)CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/text_format.cc;
 - (void)ø¬;
 - (void)Lqÿ;
@@ -170,42 +126,7 @@
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *additionalStates;
-@property(retain, nonatomic) NSString *appIdentifier;
-@property(retain, nonatomic) GEOClientMetrics *clientMetrics;
-@property(retain, nonatomic) NSString *countryCode;
-@property(nonatomic) int dataRequestKindSubtype;
-@property(nonatomic) int dataRequestKindType;
-@property(nonatomic) unsigned int datasetId;
-@property(nonatomic) long long errorCode;
-@property(retain, nonatomic) NSString *errorDomain;
-@property(nonatomic) double eventTimestamp;
-@property(readonly, nonatomic) _Bool hasAppIdentifier;
 @property(readonly, nonatomic) _Bool hasClientMetrics;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(nonatomic) _Bool hasDataRequestKindSubtype;
-@property(nonatomic) _Bool hasDataRequestKindType;
-@property(nonatomic) _Bool hasDatasetId;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasEventTimestamp;
-@property(readonly, nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) _Bool hasManifestEnvironment;
-@property(nonatomic) _Bool hasNetworkService;
-@property(readonly, nonatomic) _Bool hasRequestingAppIdentifier;
-@property(readonly, nonatomic) _Bool hasRequestingAppMajorVer;
-@property(readonly, nonatomic) _Bool hasRequestingAppMinorVer;
-@property(nonatomic) _Bool hasTilesetId;
-@property(nonatomic) _Bool hasUsedBackgroundUrl;
-@property(retain, nonatomic) NSString *locale;
-@property(retain, nonatomic) NSString *manifestEnvironment;
-@property(nonatomic) int networkService;
-@property(retain, nonatomic) NSString *requestingAppIdentifier;
-@property(retain, nonatomic) NSString *requestingAppMajorVer;
-@property(retain, nonatomic) NSString *requestingAppMinorVer;
-@property(nonatomic) unsigned int tilesetId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) _Bool usedBackgroundUrl;
 
 @end
 

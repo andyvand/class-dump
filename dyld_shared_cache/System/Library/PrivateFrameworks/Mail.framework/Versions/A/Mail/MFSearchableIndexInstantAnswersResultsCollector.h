@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, EFFuture, EMSearchableIndexTopHitsQuery, MFMessageCriterion, NSArray, NSString;
-@protocol MFMessageConsumer, MFSearchableIndexQueryResultProcessor;
+@class EMSearchableIndexTopHitsQuery;
 
 @interface MFSearchableIndexInstantAnswersResultsCollector
 {
     unsigned int _options;
-    MFMessageCriterion *_criterion;
-    id <MFMessageConsumer> _target;
-    NSArray *_filterQueries;
-    NSString *_logIdentifier;
-    NSString *_bundleID;
-    CSSuggestion *_updatedSuggestion;
-    NSString *_sessionID;
-    NSString *_queryID;
-    EMSearchableIndexTopHitsQuery *_instantAnswersQuery;
-    id <MFSearchableIndexQueryResultProcessor> _processor;
-    NSArray *_instantAnswersResults;
 }
 
 + (void);
 + (id);
 + (id)?,)yù,)};#__GG;
 - (void);
+- (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)WebDOMRangeOperations;
 - (void);
 - (void);
 - (void);
@@ -48,9 +36,9 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id).declaredColorSchemes=function(){var e=window.getComputedStyle(document.documentElement).colorScheme;if(e&&"auto"!==e&&"normal"!==e){let t=e.split(/\s+/);if(t&&t.length)return t}var t=document.querySelectorAll("meta[name='color-scheme']");t||(t=document.querySelectorAll("meta[name='supported-color-schemes']"));var n=t?t[t.length-1]:null;if(n&&n.content){let e=n.content.toLowerCase().split(/\s+/);if(e&&e.length)return e}return null},MUIWebDocumentDisplayControllerDelegate.prototype.setupRedundantContent=function(){MUIWebDocumentDisplayController_sharedInstance.loadContext.showRedundantContent?this.expandAllRedundantContent():(this.documentContentState||(this.documentContentState=new MUIDocumentContentState,this.redundantContentAbbreviators=MUIRedundantContentAbbreviator_abbreviatorsForDocumentState(this.documentContentState)),this.collapseAllRedundantContent()),MUIWebDocumentDisplayController_sharedInstance.loadContext.showRedundantContentLinks?this.showRedundantContentLinks():this.hideRedundantContentLinks()},MUIWebDocumentDisplayControllerDelegate.prototype.setupLeadingMargin=function(){MUIWebDocumentDisplayController_sharedInstance.loadContext.isSingleton?document.body.classList.add("Singleton"):document.body.classList.remove("Singleton")},MUIWebDocumentDisplayControllerDelegate.prototype.initializeEdgeToEdgeMediaStyle=function(){var e=function(){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(this)};Array.prototype.slice.call(document.body.querySelectorAll("img.Apple-web-attachment")).forEach(function(t){t.onload=e});var t=function(){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(this)};Array.prototype.slice.call(document.body.querySelectorAll("video.Apple-web-attachment")).forEach(function(e){e.onloadeddata=t})},MUIWebDocumentDisplayControllerDelegate.prototype.updateEdgeToEdgeMediaStyles=function(){Array.prototype.slice.call(document.body.querySelectorAll("img.Apple-web-attachment, video.Apple-web-attachment")).forEach(function(e){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(e)})},MUIWebDocumentDisplayControllerDelegate.prototype.updateEdgeToEdgeMediaStyleForMediaElement=function(e){if(!e.classList.contains("lp-rich-link-mediaImage")){var t,n=document.body.getBoundingClientRect().width,o=document.body.clientWidth;if("IMG"===e.nodeName.toUpperCase()){var a=e.getAttribute("width");t=a||e.naturalWidth}else t=e.videoWidth;t>n?(e.classList.add("Apple-edge-to-edge-visual-media"),t>o?e.style.removeProperty("margin"):e.style.margin="0 "+(o-n-(o-t))/-2+"px"):(e.classList.remove("Apple-edge-to-edge-visual-media"),e.style.removeProperty("margin")),document.body.classList.contains("Singleton")?e.classList.add("Singleton"):e.classList.remove("Singleton")}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForWebDocument=function(){if(!this.expandedAbbreviatorIndexes){this.expandedAbbreviatorIndexes=[];for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].isAbbreviated||this.expandedAbbreviatorIndexes.push(e);this.expandAllRedundantContent()}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForDisplay=function(){if(this.expandedAbbreviatorIndexes){for(var e=0;e<this.redundantContentAbbreviators.length;e++)-1===this.expandedAbbreviatorIndexes.indexOf(e)&&this.redundantContentAbbreviators[e].abbreviate();this.expandedAbbreviatorIndexes=null}},MUIWebDocumentDisplayControllerDelegate.prototype.expandAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.expandRedundantContentAbbreviatorAtIndex=function(e){this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.collapseAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].abbreviate()},MUIWebDocumentDisplayControllerDelegate.prototype.showRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].showLink()},MUIWebDocumentDisplayControllerDelegate.prototype.hideRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].hideLink()},MUIWebDocumentDisplayControllerDelegate.prototype.printingDataCollapsingRedundantContent=function(e,t){e?this.collapseAllRedundantContent():this.expandAllRedundantContent(),document.documentElement.style.zoom=t;var n=document.documentElement.cloneNode(!0),o=n.getElementsByTagName("head"),a=document.createElement("style");if(a.type="text/css",a.textContent="@[EFFECTIVE_USER_STYLE]",o.length){var l=(o=o[0]).firstChild;l?o.insertBefore(a,l):o.appendChild(a)}else{o=document.createElement("head");var r=document.body;r?n.insertBefore(o,r):n.appendChild(o),o.appendChild(a)}var i={scrollHeight:document.body.scrollHeight,scrollWidth:document.body.scrollWidth,displayHTML:n.outerHTML};return JSON.stringify(i)},MUIWebDocumentDisplayControllerDelegate.prototype.verticalFoldPositionForRedundantContentAbbreviatorAtIndex=function(e){return this.redundantContentAbbreviators[e].verticalFoldPosition()};var MUIWebDocumentDisplayControllerDelegate_sharedInstance=new MUIWebDocumentDisplayControllerDelegate; /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void)¸$l;
 - (id)yª;
 - (void)MLX for âreply workaroundâ for UID %u.;
@@ -61,26 +49,7 @@
 - (id)H# .;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) MFMessageCriterion *criterion; // @synthesize criterion=_criterion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
-@property(readonly, nonatomic) EFFuture *gatheredFuture;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) EMSearchableIndexTopHitsQuery *instantAnswersQuery; // @synthesize instantAnswersQuery=_instantAnswersQuery;
-@property(copy, nonatomic) NSArray *instantAnswersResults; // @synthesize instantAnswersResults=_instantAnswersResults;
-@property(copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(nonatomic) unsigned int options; // @synthesize options=_options;
-@property(retain, nonatomic) id <MFSearchableIndexQueryResultProcessor> processor; // @synthesize processor=_processor;
-@property(copy, nonatomic) NSString *queryID; // @synthesize queryID=_queryID;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MFMessageConsumer> target; // @synthesize target=_target;
-@property(retain, nonatomic) CSSuggestion *updatedSuggestion; // @synthesize updatedSuggestion=_updatedSuggestion;
 
 @end
 

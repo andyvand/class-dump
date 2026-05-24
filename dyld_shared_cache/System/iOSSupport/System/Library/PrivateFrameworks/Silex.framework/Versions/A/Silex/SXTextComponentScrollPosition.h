@@ -9,7 +9,6 @@
 @interface SXTextComponentScrollPosition : SXComponentScrollPosition
 {
     long long _characterIndex;
-    double _relativeTextOffset;
 }
 
 + (_Bool);
@@ -20,11 +19,10 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long characterIndex; // @synthesize characterIndex=_characterIndex;
-@property(readonly, nonatomic) double relativeTextOffset; // @synthesize relativeTextOffset=_relativeTextOffset;
 
 @end
 

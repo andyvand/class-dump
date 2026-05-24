@@ -7,7 +7,6 @@
 @interface NewsArticles.TipConfigFactory
 {
     id appConfigurationManager;
-    id bundleSubscriptionManager;
 }
 
 @end

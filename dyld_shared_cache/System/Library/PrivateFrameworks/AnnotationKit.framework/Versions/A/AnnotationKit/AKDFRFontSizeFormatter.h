@@ -9,7 +9,7 @@
 }
 
 - (_Bool);
-- (id)ToAnnotationLayers;
+- (id)annotationsToAnnotationLayers;
 
 @end
 

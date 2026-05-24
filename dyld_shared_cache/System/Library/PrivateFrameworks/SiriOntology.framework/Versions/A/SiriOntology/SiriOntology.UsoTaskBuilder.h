@@ -9,10 +9,6 @@
 @interface SiriOntology.UsoTaskBuilder : SiriOntology.UsoBuilder
 {
     id baseEntityString;
-    id verbString;
-    id verbName;
-    id entityName;
-    id argumentsMap;
 }
 
 @end

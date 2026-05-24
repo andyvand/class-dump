@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTPlaylist, MTPodcast, NSOrderedSet, NSString;
-
 @interface MTPodcastPlaylistSettings
 {
 }
@@ -15,21 +13,6 @@
 
 // Remaining properties
 @property(nonatomic) int downloaded; // @dynamic downloaded;
-@property(nonatomic) double earliestEpisodeAvailabilityDate; // @dynamic earliestEpisodeAvailabilityDate;
-@property(nonatomic) long long episodeCount; // @dynamic episodeCount;
-@property(retain, nonatomic) NSOrderedSet *episodes; // @dynamic episodes;
-@property(nonatomic) long long episodesToShow; // @dynamic episodesToShow;
-@property(nonatomic) long long flags; // @dynamic flags;
-@property(nonatomic) double latestEpisodeAvailabilityDate; // @dynamic latestEpisodeAvailabilityDate;
-@property(nonatomic) long long mediaType; // @dynamic mediaType;
-@property(nonatomic) long long playOrder; // @dynamic playOrder;
-@property(retain, nonatomic) MTPlaylist *playlist; // @dynamic playlist;
-@property(retain, nonatomic) MTPlaylist *playlistIfDefault; // @dynamic playlistIfDefault;
-@property(retain, nonatomic) MTPodcast *podcast; // @dynamic podcast;
-@property(nonatomic) _Bool showPlayedEpisodes; // @dynamic showPlayedEpisodes;
-@property(nonatomic) long long sortOrder; // @dynamic sortOrder;
-@property(retain, nonatomic) NSString *uuid; // @dynamic uuid;
-@property(nonatomic) _Bool visible; // @dynamic visible;
 
 @end
 

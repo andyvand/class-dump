@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPUserPath
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _nativePaths;
-    NSMutableArray *_webPaths;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_nativePaths:1;
-        unsigned int read_webPaths:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)edMapsCategoryName:(id)arg1;
++ (_Bool)setLocalizedMapsCategoryName:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (int *);
-- (int);
+- (unsigned long long)customPropertyValues;
+- (id)customPropertyFromDescription:(int)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (int *)customPropertyFromDescription:inContext: /* Error: Ran out of types for this method. */;
+- (int)customPropertyDefinitionsToDelete;
 - (void);
 - (void);
 - (void);
@@ -41,29 +29,26 @@
 - (int);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)-;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void)ggerResult;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)ecodedMessage;
+- (id)decodedMessage;
 - (id)þ	8	d,			¸l	(#	;
-- (id)2;
+- (id)amenityV2;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *nativePaths;
 @property(readonly, nonatomic) unsigned long long nativePathsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *webPaths;
 
 @end
 

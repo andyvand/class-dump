@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionInsetsOptions, AVPlayer, AVPlayerLayerIntermediateLayer, AVPlayerLayerSubtitlePreviewHelper, CALayer, FigSubtitleCALayer, NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class FigSubtitleCALayer;
 
 @interface AVPlayerCaptionLayer
 {
     FigSubtitleCALayer *_subtitleLayer;
-    AVPlayerLayerIntermediateLayer *_closedCaptionLayer;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_configurationQueue;
-    AVPlayer *_player;
-    AVPlayerCaptionLayer *_interstitialLayer;
-    _Bool _showInterstitialInstead;
-    CALayer *_subtitlePreviewLayer;
-    AVPlayerLayerSubtitlePreviewHelper *_subtitlePreviewHelper;
-    struct CGPoint _captionPreviewPosition;
-    AVPlayer *_playerBeingObserved;
-    NSSet *_KVOInvokers;
-    struct NSEdgeInsets _legibleContentInsets;
-    _Bool _overscanSubtitleSupportEnabled;
-    AVCaptionInsetsOptions *_insetsOptions;
-    struct CGPoint __captionPreviewPosition;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)numTokensExcludingTriggerPhrase;
+- (void)okens;
+- (void)_userId;
+- (void),V_recognizeEagerCandidates;
+- (void)_EARLanguageModel;
+- (void)_EARGeoLMHelper;
+- (_Bool)|;
 - (id);
 - (struct NSEdgeInsets);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -49,9 +33,9 @@
 - (id);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id)h;
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -59,10 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGPoint _captionPreviewPosition; // @synthesize _captionPreviewPosition=__captionPreviewPosition;
-@property(nonatomic) struct NSEdgeInsets captionContentInsets;
-@property(copy, nonatomic) AVCaptionInsetsOptions *insetsOptions; // @synthesize insetsOptions=_insetsOptions;
-@property(nonatomic, getter=isOverscanSubtitleSupportEnabled) _Bool overscanSubtitleSupportEnabled; // @synthesize overscanSubtitleSupportEnabled=_overscanSubtitleSupportEnabled;
-@property(retain, nonatomic) AVPlayer *player;
 
 @end
 

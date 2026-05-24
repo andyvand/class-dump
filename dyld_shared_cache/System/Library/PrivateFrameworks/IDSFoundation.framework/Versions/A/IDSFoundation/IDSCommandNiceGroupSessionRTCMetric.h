@@ -4,44 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSCommandNiceGroupSessionRTCMetric
 {
     _Bool _success;
-    long long _command;
-    NSString *_errorDomain;
-    long long _errorCode;
-    long long _retryCount;
 }
 
 - (id);
 - (id);
-- (unsigned short);
-- (id);
-- (id);
+- (unsigned short)tem.B.dylib;
+- (id)lConnected:error:] /* Error: Ran out of types for this method. */;
+- (id)_;
 - (long long);
 - (_Bool)ÈM;
 - (void)y.siri.proxy;
-- (long long)ced_disconnection_timeout_seconds;
+- (long long)server_enforced_disconnection_timeout_seconds;
 - (long long)Ò1t;
 
 // Remaining properties
-@property(readonly, nonatomic) long long command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly, nonatomic) unsigned short rtcType;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

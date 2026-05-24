@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFSession, IMFindMyDevice, NSString;
+@class FMFSession, IMFindMyDevice;
 
 @interface IMFMFSession
 {
     FMFSession *_session;
-    IMFindMyDevice *_activeDevice;
-    NSString *_establishingAccountID;
-    id _fmlSession;
-    unsigned long long _fmfProvisionedState;
 }
 
 + (id)rÊÿÿr;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)I;
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -37,7 +33,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)RK;
 - (id);
 - (id);
 - (id);
@@ -49,13 +45,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)P;
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -64,7 +60,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (Class);
@@ -75,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4h"A9;
 - (id);
 - (id);
 - (void);
@@ -89,7 +85,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)seIntroScreenLayout;
 - (void)$S;
 - (void);
 - (id)type: /* Error: Ran out of types for this method. */;
@@ -97,19 +93,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMFindMyDevice *activeDevice; // @synthesize activeDevice=_activeDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disableLocationSharing;
-@property(retain, nonatomic) NSString *establishingAccountID; // @synthesize establishingAccountID=_establishingAccountID;
-@property(nonatomic) unsigned long long fmfProvisionedState; // @synthesize fmfProvisionedState=_fmfProvisionedState;
-@property(retain, nonatomic) id fmlSession; // @synthesize fmlSession=_fmlSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool restrictLocationSharing;
-@property(retain, nonatomic) FMFSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

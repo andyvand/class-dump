@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactProperty, CNUIContactPropertyIDSHandle, NSString;
+@class CNContactProperty, CNUIContactPropertyIDSHandle;
 
 __attribute__((visibility("hidden")))
 @interface CNUIPropertyGroupItemIDSHandle
 {
     CNContactProperty *_contactProperty;
-    CNUIContactPropertyIDSHandle *_contactPropertyHandle;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool)y;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
+- (id)H;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)cordForBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)authorizationRecordForBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *_cnui_IDSIDRepresentation;
-@property(readonly, copy, nonatomic) CNContactProperty *contactProperty; // @synthesize contactProperty=_contactProperty;
 @property(readonly, nonatomic) CNUIContactPropertyIDSHandle *contactPropertyHandle; // @synthesize contactPropertyHandle=_contactPropertyHandle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

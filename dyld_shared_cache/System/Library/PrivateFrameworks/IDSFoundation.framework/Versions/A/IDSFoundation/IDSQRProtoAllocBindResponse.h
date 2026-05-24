@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface IDSQRProtoAllocBindResponse
 {
     CDStruct_9f2792e4 _ackedStaleLinkIds;
-    CDStruct_62a50c50 _lightweightParticipantIdLists;
-    CDStruct_9f2792e4 _peerSubscribedStreamIds;
-    NSMutableArray *_activeExperiments;
-    unsigned int _channelId;
-    unsigned int _channelSettings;
-    NSString *_clientAddress;
-    unsigned int _generationCounter;
-    NSMutableArray *_joinedParticipants;
-    NSMutableArray *_leftParticipants;
-    unsigned int _linkId;
-    NSMutableArray *_materials;
-    unsigned int _participantType;
-    NSMutableArray *_peerPublishedStreams;
-    NSMutableArray *_quicConnectionInfos;
-    NSData *_reportingDataBlob;
-    unsigned int _sessionStateCounter;
-    NSString *_software;
-    NSMutableArray *_updatedParticipants;
-    _Bool _isNewlyJoined;
-    struct {
-        unsigned int channelSettings:1;
-        unsigned int generationCounter:1;
-        unsigned int linkId:1;
-        unsigned int participantType:1;
-        unsigned int sessionStateCounter:1;
-        unsigned int isNewlyJoined:1;
-    } _has;
 }
 
 + (Class);
@@ -45,7 +18,7 @@
 + (Class);
 + (Class);
 + (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -78,10 +51,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int *);
+- (unsigned int *);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (unsigned long long);
@@ -105,7 +78,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -119,7 +92,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -127,23 +100,23 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)9;
 - (unsigned int *);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (void);
+- (void)1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)ing"24B32B36B40@?<v@?@"NSArray"@"PCSMTT"@"NSError">44;
+- (_Bool)setServiceRecordWithSDPPlist:(id)arg1;
+- (void)o XPC endpoint;
 - (id);
 - (id);
 - (id);
@@ -152,37 +125,7 @@
 - (unsigned int)·ÿÕ]1Õ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *ackedStaleLinkIds;
-@property(readonly, nonatomic) unsigned long long ackedStaleLinkIdsCount;
-@property(retain, nonatomic) NSMutableArray *activeExperiments; // @synthesize activeExperiments=_activeExperiments;
-@property(nonatomic) unsigned int channelId; // @synthesize channelId=_channelId;
-@property(nonatomic) unsigned int channelSettings; // @synthesize channelSettings=_channelSettings;
 @property(retain, nonatomic) NSString *clientAddress; // @synthesize clientAddress=_clientAddress;
-@property(nonatomic) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(nonatomic) _Bool hasChannelSettings;
-@property(nonatomic) _Bool hasGenerationCounter;
-@property(nonatomic) _Bool hasIsNewlyJoined;
-@property(nonatomic) _Bool hasLinkId;
-@property(nonatomic) _Bool hasParticipantType;
-@property(readonly, nonatomic) _Bool hasReportingDataBlob;
-@property(nonatomic) _Bool hasSessionStateCounter;
-@property(readonly, nonatomic) _Bool hasSoftware;
-@property(nonatomic) _Bool isNewlyJoined; // @synthesize isNewlyJoined=_isNewlyJoined;
-@property(retain, nonatomic) NSMutableArray *joinedParticipants; // @synthesize joinedParticipants=_joinedParticipants;
-@property(retain, nonatomic) NSMutableArray *leftParticipants; // @synthesize leftParticipants=_leftParticipants;
-@property(readonly, nonatomic) unsigned long long *lightweightParticipantIdLists;
-@property(readonly, nonatomic) unsigned long long lightweightParticipantIdListsCount;
-@property(nonatomic) unsigned int linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) NSMutableArray *materials; // @synthesize materials=_materials;
-@property(nonatomic) unsigned int participantType; // @synthesize participantType=_participantType;
-@property(retain, nonatomic) NSMutableArray *peerPublishedStreams; // @synthesize peerPublishedStreams=_peerPublishedStreams;
-@property(readonly, nonatomic) unsigned int *peerSubscribedStreamIds;
-@property(readonly, nonatomic) unsigned long long peerSubscribedStreamIdsCount;
-@property(retain, nonatomic) NSMutableArray *quicConnectionInfos; // @synthesize quicConnectionInfos=_quicConnectionInfos;
-@property(retain, nonatomic) NSData *reportingDataBlob; // @synthesize reportingDataBlob=_reportingDataBlob;
-@property(nonatomic) unsigned int sessionStateCounter; // @synthesize sessionStateCounter=_sessionStateCounter;
-@property(retain, nonatomic) NSString *software; // @synthesize software=_software;
-@property(retain, nonatomic) NSMutableArray *updatedParticipants; // @synthesize updatedParticipants=_updatedParticipants;
 
 @end
 

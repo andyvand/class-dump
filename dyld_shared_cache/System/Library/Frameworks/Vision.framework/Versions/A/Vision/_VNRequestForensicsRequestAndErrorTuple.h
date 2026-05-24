@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, VNRequest;
+@class VNRequest;
 
 __attribute__((visibility("hidden")))
 @interface _VNRequestForensicsRequestAndErrorTuple
 {
     VNRequest *_request;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void)eneNetV4;
+- (void)VNClassifyImageAestheticsRequestPrivateRevisionSceneNetV4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) VNRequest *request; // @synthesize request=_request;
 
 @end

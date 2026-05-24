@@ -10,24 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _UIUserNotificationAlertView : UIAlertView
 {
     struct __CFUserNotification *_userNotification;
-    struct __CFRunLoopSource *_userNotificationRunLoopSource;
-    id _strongDelegate;
-    id _retainedSelf;
 }
 
 + (void)X@n;
 - (void);
 - (void);
+- (void)_messageGUIDForMessageWithFallbackHash:chat: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)the chat exists;
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void)edCornerRadius"b1"hasCustomizedBackgroundInsets"b1"hasCustomizedEdgesAddingLayoutMarginsToBackgroundInsets"b1"hasCustomizedBackgroundColor"b1"hasCustomizedBackgroundColorTransformer"b1"hasCustomizedVisualEffect"b1"hasCustomizedVisualEffectGroupName"b1"hasCustomizedVisualEffectblurClippingMode"b1"hasCustomizedImage"b1"hasCustomizedImageContentMode"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1"hasCustomizedMaskedCorners"b1"hasCustomizedMaterial"b1};
 - (void)û¶.3GGSOGGGAJG_kØ.3Qo__ò¾7Qo__áx.3Qo__Qo_AFyò§.3GG_G;
-- (_Bool)elligenceLightSourceConfiguration;
+- (_Bool)_UIIntelligenceLightSourceConfiguration;
 
 @end
 

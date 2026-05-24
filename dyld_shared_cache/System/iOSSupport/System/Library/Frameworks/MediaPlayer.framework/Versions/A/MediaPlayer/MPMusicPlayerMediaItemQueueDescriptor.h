@@ -6,21 +6,17 @@
 
 #import <MediaPlayer/MPMusicPlayerQueueDescriptor.h>
 
-@class MPMediaItem, MPMediaItemCollection, MPMediaQuery;
+@class MPMediaQuery;
 
 @interface MPMusicPlayerMediaItemQueueDescriptor : MPMusicPlayerQueueDescriptor
 {
     MPMediaQuery *_query;
-    MPMediaItemCollection *_itemCollection;
-    MPMediaItem *_startItem;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) MPMediaItemCollection *itemCollection;
 @property(readonly, copy, nonatomic) MPMediaQuery *query;
-@property(retain, nonatomic) MPMediaItem *startItem; // @synthesize startItem=_startItem;
 
 @end
 

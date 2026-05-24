@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOperationQueue, NSString, VSDelayOperation, VSLinkedOnOrAfterChecker, VSRemoteNotifier, VSSecurityTask, VSSubscriptionFetchOptionsValidator, VSSubscriptionPredicateFactory, VSSubscriptionServiceConnection;
+@class NSOperationQueue, VSSubscriptionPredicateFactory;
 
 @interface VSSubscriptionRegistrationCenter
 {
     VSSubscriptionPredicateFactory *_predicateFactory;
-    VSSubscriptionFetchOptionsValidator *_fetchOptionsValidator;
-    NSOperationQueue *_privateQueue;
-    NSMutableDictionary *_subscriptionsByOptions;
-    VSDelayOperation *_expirationOperation;
-    VSRemoteNotifier *_remoteNotifier;
-    VSSubscriptionServiceConnection *_connection;
-    VSSecurityTask *_currentTask;
-    VSLinkedOnOrAfterChecker *_linkedOnOrAfterChecker;
 }
 
 + (id);
+- (id)4;
+- (void);
+- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)vEEE;
+- (void)llable_details15callable_holderIZ67-[FI_TBrowserViewController actionControllerDidFinishAction:(id)arg1 error:]E4$_17vJEEE /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -43,10 +35,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)nToken;continue}if(T===s){o.ControlClassification=WBSCredentialCurrentPasswordClassificationToken;continue}const B=o.AddressBookValueSpecifier?.classification;if(B===WBSContactEmailClassificationToken){o.ControlClassification=WBSContactEmailClassificationToken;continue}if(T===i){o.ControlClassification=WBSCredentialUsernameClassificationToken;continue}if(!c&&o.ControlLooksLikeCreditCardCardholderField){if(c=!0,B&&WBSNameOrderedPartTokensSet.has(B)){const e=this.classifyControlsRelatedToNameParts(t,S,WBSCreditCardHolderNameClassificationToken);if(e.length>1){let t=++u,o=0;for(let r of e)r.ControlContinuationID=t,r.ControlContinuationIndex=o++}k=e.length;continue}o.ControlClassification=WBSCreditCardHolderNameClassificationToken,o.ControlOrderedParts=WBSCreditCardHolderNameClassificationDefaultOrderedParts;continue}if(!l&&o.ControlLooksLikeCreditCardNumberField){l=!0;const e=this.continuingFieldsInFormControls(t,S,!0,!1);let o=0,r=e.length>1?++u:(id)arg1 0;for(let t of e)t.ControlClassification=WBSCreditCardNumberClassificationToken,t.ControlContinuationID=r,t.ControlContinuationIndex=o++;k=e.length;continue}const P=this.fieldLooksLikeDateField(o)||o.ControlLooksLikeCreditCardCompositeExpirationDateField;if(!C&&P){let e=f||c||l;if(e||=!o.ControlLooksLikeOneTimeCodeField&&1===t.filter((e=>AllowedControlTagsForStandaloneCreditCardCompositeExpirationControl.has(e.ControlTagName.toLowerCase()))).length,e){C=!0;const e=this.continuingFieldsInFormControls(t,S,!1,!0);let o=e.length>1?++u:0;this.classifyDateFields(e,WBSCreditCardExpirationClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,void 0,o,WBSLocaleForCreditCardExpirationDate),k=e.length;continue}}if(h||!o.ControlLooksLikeCreditCardSecurityCodeField)if(f||!o.ControlLooksLikeCreditCardTypeField)if(B){const r=o.AddressBookValueSpecifier.classificationHint;if(B===WBSContactNameClassificationToken){o.ControlClassification=B,o.ControlOrderedParts=WBSContactNameClassificationDefaultOrderedParts;continue}if(WBSNameOrderedPartTokensSet.has(B)){const e=this.classifyControlsRelatedToNameParts(t,S,WBSContactNameClassificationToken);if(e.length>1){let t=++u,o=0;for(let r of e)r.ControlContinuationID=t,r.ControlContinuationIndex=o++}k=e.length;continue}if(B===WBSContactPostalCodeClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!1);let o=e.length>1?++u:0,r=0;for(let t of e)t.ControlClassification=WBSContactPostalCodeClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=r++;k=e.length;continue}if(B===WBSContactStreetAddressClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!0);let o=e.length>1?++u:0,r=0;for(let t of e)t.ControlClassification=WBSContactStreetAddressClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=r++;if(1===e.length){let t=e[0];t.ControlOrderedParts=this.#n(t)}else 2===e.length?(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken,WBSContactStreetAddressLine3OrderedPartToken]):e.length>=3&&(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken],e[2].ControlOrderedParts=[WBSContactStreetAddressLine3OrderedPartToken]);k=e.length;continue}if(B===WBSContactInstantMessageClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!0);1===e.length&&(e[0].ControlClassification=WBSContactInstantMessageClassificationToken,r&&(e[0].ControlClassificationHints=[r])),k=e.length;continue}if(B.startsWith(WBSContactTelephoneClassificationToken)){const e=this.continuingFieldsInFormControls(t,S,!0,!1);if(1==e.length){e[0].ControlClassification=WBSContactTelephoneClassificationToken,e[0].ControlOrderedParts=WBSTelephoneDefaultOrderedParts,r&&(e[0].ControlClassificationHints=[r]);continue}let o=++u,n=0;for(let t of e)t.ControlClassification=WBSContactTelephoneClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=n++,r&&(t.ControlClassificationHints=[r]);2===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken,WBSTelephoneLocalSuffixOrderedPartToken]):3===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):4===e.length?(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken],e[4].ControlOrderedParts=[WBSTelephoneExtensionOrderedPartToken]),k=e.length;continue}if(B===WBSContactBirthdayClassificationToken){const o=this.continuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)N11flatbuffers16DefaultAllocatorE;
 - (void);
 - (id);
 - (void);
@@ -54,22 +47,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) VSSubscriptionServiceConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) VSSecurityTask *currentTask; // @synthesize currentTask=_currentTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) VSDelayOperation *expirationOperation; // @synthesize expirationOperation=_expirationOperation;
-@property(retain) VSSubscriptionFetchOptionsValidator *fetchOptionsValidator; // @synthesize fetchOptionsValidator=_fetchOptionsValidator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VSLinkedOnOrAfterChecker *linkedOnOrAfterChecker; // @synthesize linkedOnOrAfterChecker=_linkedOnOrAfterChecker;
-@property(retain) VSSubscriptionPredicateFactory *predicateFactory; // @synthesize predicateFactory=_predicateFactory;
 @property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(retain, nonatomic) NSMutableDictionary *subscriptionsByOptions; // @synthesize subscriptionsByOptions=_subscriptionsByOptions;
-@property(readonly) Class superclass;
 
 @end
 

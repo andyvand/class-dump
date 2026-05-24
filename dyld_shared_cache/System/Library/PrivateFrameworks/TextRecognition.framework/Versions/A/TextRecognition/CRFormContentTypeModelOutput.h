@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface CRFormContentTypeModelOutput
 {
@@ -15,11 +15,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ht: /* Error: Ran out of types for this method. */;
+- (void)textFeaturebyPaddingToWidth:height: /* Error: Ran out of types for this method. */;
 - (id)d, scene %@);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *score; // @synthesize score=_score;
 
 @end

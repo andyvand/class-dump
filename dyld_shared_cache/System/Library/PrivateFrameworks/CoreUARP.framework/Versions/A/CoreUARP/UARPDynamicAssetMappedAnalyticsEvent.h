@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSURL, UARPDynamicAssetTmapDatabase, UARPSuperBinaryAsset;
-@protocol OS_os_log;
+@class NSURL;
 
 @interface UARPDynamicAssetMappedAnalyticsEvent
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSMutableArray *_coreAnalyticsEvents;
-    NSMutableArray *_payloads;
-    UARPDynamicAssetTmapDatabase *_tmapDatabase;
-    NSObject<OS_os_log> *_log;
-    NSString *_serialNumber;
 }
 
 + (id);
 - (_Bool);
 - (id);
+- (_Bool)};
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)H;
 - (id);
-- (id);
-- (id);
+- (id)AMSBridgedBagValue;
+- (id)0
+;
 - (void);
 - (void)ess payload to %@;
 

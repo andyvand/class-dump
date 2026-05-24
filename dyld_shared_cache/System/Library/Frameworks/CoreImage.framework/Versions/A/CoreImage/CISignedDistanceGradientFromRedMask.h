@@ -6,25 +6,23 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISignedDistanceGradientFromRedMask : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputMaximumDistance;
 }
 
-+ (id);
++ (id)N;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)r{z|{}}}}wwwwVnjv¡¡¡¡¨¨¨¨¨¨¨¨¡¡¡¡vvuvVWK_5H7W9PBadqot_xx}ltrwNjdqOd[q_ng{b}z{xrEe\xxxvxuuuuUcZjDZMeSbWmGh_xn{wp~o}xwwwww`cZiQ^UgUgbq{{{{{{{{[pkx}zw}b~~zzzzTibrruuuttttCZMhKO>[YVFYbaVbmmmmjmmmKZNdV_TellllQibopsnvt^|uW{tv    ¡¡¡¡ ag}yxvqxXd[jQ^Th]miu~Thbodd]dEXK^9O?`Hd[q ¦ªªª¤§§§swwwwYqmv||||};
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputMaximumDistance; // @synthesize inputMaximumDistance;
 
 @end
 

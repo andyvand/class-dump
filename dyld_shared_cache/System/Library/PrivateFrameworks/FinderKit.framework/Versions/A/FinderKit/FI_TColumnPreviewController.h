@@ -6,29 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TColumnPreviewHeaderViewController, FI_TColumnPreviewInfoViewController, FI_TColumnPreviewViewController, FI_TContainerLayoutManager, FI_TPreviewOptions, NSArray, NSLayoutConstraint, NSStackView, NSString;
+@class FI_TColumnPreviewViewController, FI_TContainerLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface FI_TColumnPreviewController : FI_TViewController
 {
     FI_TColumnPreviewViewController *_previewViewController;
-    FI_TColumnPreviewHeaderViewController *_headerViewController;
-    FI_TColumnPreviewInfoViewController *_infoViewController;
-    NSStackView *_stackView;
-    NSLayoutConstraint *_metaTitleWidthConstraint;
-    NSArray *_viewControllers;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TFENodeVector _targetInfoNodes;
-    unsigned int _targetInfoNodeNotificationOptions;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    struct TKeyValueObserver _contentInsetsDidChangeObserver;
-    NSArray *_layoutConstraints;
-    NSLayoutConstraint *_minHeightLayoutConstraint;
-    struct TNotificationCenterObserver _clipViewBoundsChangedObserver;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    _Bool _isTornDown;
-    _Bool _inColumnView;
-    FI_TPreviewOptions *_previewOptions;
 }
 
 - (struct CGRect);
@@ -49,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))A;
+- (void)S�;
 - (void);
 - (const void *);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)NSUndoManager"24@0:(_Bool)arg1 8@"NSTextView"16;
+- (void)Q20@0:8i16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -68,16 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inColumnView; // @synthesize inColumnView=_inColumnView;
-@property(retain, nonatomic) FI_TPreviewOptions *previewOptions; // @synthesize previewOptions=_previewOptions;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end
 

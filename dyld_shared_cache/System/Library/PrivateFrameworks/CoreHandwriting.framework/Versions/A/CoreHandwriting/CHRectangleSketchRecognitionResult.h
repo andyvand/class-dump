@@ -9,28 +9,20 @@
 @interface CHRectangleSketchRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _upperLeftPoint;
-    struct CGPoint _upperRightPoint;
-    struct CGPoint _lowerLeftPoint;
-    struct CGPoint _lowerRightPoint;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_hasCoverflowSubLayout;
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)P;
 - (struct CGPoint);
 - (id);
 - (struct CGSize);
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGPoint lowerLeftPoint; // @synthesize lowerLeftPoint=_lowerLeftPoint;
-@property(readonly) struct CGPoint lowerRightPoint; // @synthesize lowerRightPoint=_lowerRightPoint;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 @property(readonly) struct CGPoint upperLeftPoint; // @synthesize upperLeftPoint=_upperLeftPoint;
-@property(readonly) struct CGPoint upperRightPoint; // @synthesize upperRightPoint=_upperRightPoint;
 
 @end
 

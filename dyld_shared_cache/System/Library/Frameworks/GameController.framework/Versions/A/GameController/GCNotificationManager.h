@@ -9,7 +9,6 @@
 @interface GCNotificationManager
 {
     UNUserNotificationCenter *_userNotificationCenter;
-    _Bool _isPermissionGranted;
 }
 
 + (id);

@@ -11,11 +11,11 @@
     NSDateComponents *_expirationDate;
 }
 
-+ (_Bool);
++ (_Bool)32@?0@"NSString"8Q16^B24;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)will be allowed for now. Error:(id)arg1 %{public}@;
 - (id);
 - (void)0@ù
 × ;

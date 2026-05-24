@@ -7,18 +7,10 @@
 @interface ChatKit.TapbackAttributionAnimationController
 {
     id _delegate;
-    id _currentPresentationScaleX;
-    id _currentPresentationScaleY;
-    id _currentPresentationVerticalOffset;
-    id _currentPresentationOpacity;
-    id _currentPresentationBlur;
-    id _enlargedTapbackOverlay;
-    id presentationValues;
-    id _$observationRegistrar;
 }
 
 - (id);
-- (void)ersationIntentError;
+- (void)MuteConversationIntentError;
 
 @end
 

@@ -9,20 +9,16 @@
 @interface SSRDonationUtteranceData
 {
     NSString *_donationId;
-    unsigned long long _triggerPhrase;
-    NSString *_locale;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void){;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *donationId; // @synthesize donationId=_donationId;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) unsigned long long triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
 
 @end
 

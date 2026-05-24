@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsynchronousVideoCompositionRequest, CIImage;
+@class AVAsynchronousVideoCompositionRequest;
 
 __attribute__((visibility("hidden")))
 @interface AVAsynchronousCIImageFilteringRequestInternal
 {
     AVAsynchronousVideoCompositionRequest *_compositingRequest;
-    CDUnknownBlockType _cancellationTest;
-    CDUnknownBlockType _defaultCIContextProvider;
-    CDUnknownBlockType _completionHandler;
-    CIImage *_sourceCIImage;
-    struct __CVBuffer *_sourcePBuf;
 }
 
 - (struct __CVBuffer *);
@@ -27,18 +22,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)4sts;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancellationTest; // @synthesize cancellationTest=_cancellationTest;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) AVAsynchronousVideoCompositionRequest *compositingRequest; // @synthesize compositingRequest=_compositingRequest;
-@property(copy, nonatomic) CDUnknownBlockType defaultCIContextProvider; // @synthesize defaultCIContextProvider=_defaultCIContextProvider;
-@property(retain, nonatomic) CIImage *sourceCIImage; // @synthesize sourceCIImage=_sourceCIImage;
-@property(retain, nonatomic) struct __CVBuffer *sourcePBuf; // @synthesize sourcePBuf=_sourcePBuf;
 
 @end
 

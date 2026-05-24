@@ -13,7 +13,7 @@
     NSString *_text;
 }
 
-- (id);
+- (id)robing:(id)arg1 Start active probing because connection for duplication was last updated using probing results %f seconds ago, and duplication is still active.;
 - (id);
 - (void)` ,¥x¬;
 

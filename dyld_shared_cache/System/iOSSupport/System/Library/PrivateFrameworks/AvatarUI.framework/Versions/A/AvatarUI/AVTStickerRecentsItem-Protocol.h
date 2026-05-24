@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UIImage;
+@class NSString;
 
 @protocol AVTStickerRecentsItem
+- (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image;
 @property(readonly, copy, nonatomic) NSString *localizedDescription;
-@property(readonly, copy, nonatomic) CDUnknownBlockType provider;
-@property(retain, nonatomic) NSURL *url;
 @end
 

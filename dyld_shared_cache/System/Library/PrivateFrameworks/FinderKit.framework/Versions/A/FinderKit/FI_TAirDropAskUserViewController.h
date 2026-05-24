@@ -6,21 +6,12 @@
 
 #import <FinderKit/FI_IAirDropStateViewController.h>
 
-@class FI_IAirDropProgressViewController, FI_TButton, FI_TImageView, FI_TTextField, NSStackView, NSString;
+@class FI_IAirDropProgressViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropAskUserViewController : FI_IAirDropStateViewController
 {
     struct TNSWeakPtr<FI_IAirDropProgressViewController> _weakProgressViewController;
-    FI_TImageView *_imageView;
-    FI_TTextField *_mainTextFld;
-    NSStackView *_stackView;
-    FI_TButton *_otherButton;
-    struct TString _mainTextStr;
-    struct TString _okButtonTitle;
-    struct TString _cancelButtonTitle;
-    struct TString _otherButtonTitle;
-    int _viewType;
 }
 
 - (void);
@@ -28,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)qA;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)setCutoutFramesInWindowCoordinates: /* Error: Ran out of types for this method. */;
+- (void)C;
 - (void);
 - (id);
 - (int);
@@ -43,12 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cancelButtonTitle;
-@property(copy, nonatomic) NSString *mainTextStr;
-@property(copy, nonatomic) NSString *okButtonTitle;
-@property(copy, nonatomic) NSString *otherButtonTitle;
 @property(nonatomic) __weak FI_IAirDropProgressViewController *progressViewController;
-@property(readonly, nonatomic) int viewType; // @synthesize viewType=_viewType;
 
 @end
 

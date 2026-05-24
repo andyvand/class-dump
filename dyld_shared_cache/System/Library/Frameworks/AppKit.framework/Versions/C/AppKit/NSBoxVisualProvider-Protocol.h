@@ -7,18 +7,16 @@
 @class NSBox;
 
 @protocol NSBoxVisualProvider
+- (void)1DQNgySZSIjPqLWroIzfiQ;
+- (void)RbiXiBQAmypd3Btw3jADAw;
+- (_Bool)iZ0Lzlk7FU6w6Q;
+- (_Bool)vNNUKuv+iJ4m9xtiw;
+- (struct CGSize);
 - (void)SWindow(NSScreenLayout) _adjustWindowFrame:fromScreen:toScreen:respectingResizeGeneration:] /* Error: Ran out of types for this method. */;
 - (void)NSTagNames;
 - (struct NSEdgeInsets)after calling endModalSesion:. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) struct CGRect borderRect;
 @property __weak NSBox *box;
-@property(readonly) struct CGSize intrinsicContentSize;
-@property(readonly) _Bool isFixedHeight;
-@property(readonly) _Bool isFixedWidth;
-@property(readonly) struct CGRect titleRect;
-@property(readonly) _Bool wantsSubviews;
 @end
 

@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPURLSessionItem, NSDictionary, NSURL;
+@class HLPURLSessionItem;
 
 @interface HLPRemoteDataController
 {
     _Bool _loading;
     _Bool _hasLoaded;
-    NSURL *_URL;
-    NSDictionary *_headerFields;
-    HLPURLSessionItem *_URLSessionItem;
 }
 
 - (void);
 - (void);
+- (void)S;
+- (void)W;
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)Night;
 - (id);
 - (_Bool);
 - (void);
@@ -35,10 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(retain, nonatomic) HLPURLSessionItem *URLSessionItem; // @synthesize URLSessionItem=_URLSessionItem;
-@property(nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(retain, nonatomic) NSDictionary *headerFields; // @synthesize headerFields=_headerFields;
 @property(nonatomic) _Bool loading; // @synthesize loading=_loading;
 
 @end

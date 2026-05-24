@@ -7,14 +7,11 @@
 @interface PKXPCForwarder
 {
     struct os_unfair_lock_s _lock;
-    _Atomic _Bool _invalidated;
-    id _target;
-    Class _targetClass;
 }
 
+- (id)_;
 - (id);
-- (id);
-- (void);
+- (void)setCircleStatus:(id)arg1;
 - (id)!Gùï%°1Â0@ù
 × ;
 - (void)ment"8Q16^B24;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CMStyle
 {
     NSMutableDictionary *properties;
-    NSMutableString *mStyleString;
 }
 
 - (id);
@@ -18,12 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (_Bool);
-- (id);
+- (id)_;
 - (void);
 - (id)ø4Ü¬Ø¸;
 

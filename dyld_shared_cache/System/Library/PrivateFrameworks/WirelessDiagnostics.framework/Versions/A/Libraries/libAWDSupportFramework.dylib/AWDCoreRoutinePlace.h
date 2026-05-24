@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineMapItem, NSMutableArray;
+@class NSMutableArray;
 
 @interface AWDCoreRoutinePlace
 {
     NSMutableArray *_distanceToOtherPlaces;
-    AWDCoreRoutineMapItem *_mapItem;
 }
 
 + (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long)7;
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)	;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,9 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *distanceToOtherPlaces; // @synthesize distanceToOtherPlaces=_distanceToOtherPlaces;
 @property(readonly, nonatomic) _Bool hasMapItem;
-@property(retain, nonatomic) AWDCoreRoutineMapItem *mapItem; // @synthesize mapItem=_mapItem;
 
 @end
 

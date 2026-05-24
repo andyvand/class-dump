@@ -12,12 +12,12 @@
 
 - (void);
 - (void);
+- (void)kNewServingNetworkNotifyObservers;
+- (void)kConfiguring;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@9I;
+- (void)ter";
+- (void)seamlessOpener:(id)arg1 sourcePreviewViewForPreviewItem:(unsigned long long)arg2;
 - (void);
 - (void);
 - (void);
@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,7 +58,7 @@
 - (void);
 - (void *);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);

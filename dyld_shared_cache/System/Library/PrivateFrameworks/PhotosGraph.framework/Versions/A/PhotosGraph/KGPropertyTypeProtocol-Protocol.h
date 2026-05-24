@@ -5,6 +5,7 @@
 //
 
 @protocol KGPropertyTypeProtocol
+- (long long)__AUTH_CONST;
 
 // Remaining properties
 @property(readonly) long long kgPropertyType;

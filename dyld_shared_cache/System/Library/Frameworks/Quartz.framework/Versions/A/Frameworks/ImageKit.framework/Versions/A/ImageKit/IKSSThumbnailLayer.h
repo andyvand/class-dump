@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
-
 __attribute__((visibility("hidden")))
 @interface IKSSThumbnailLayer
 {
     _Bool _invalidated;
-    CALayer *_spinner;
-    unsigned long long _index;
 }
 
 - (void);
@@ -27,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)entedControl",V_deleteControl;
 
 // Remaining properties
-@property unsigned long long index; // @synthesize index=_index;
 @property _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property CALayer *spinner; // @synthesize spinner=_spinner;
 
 @end
 

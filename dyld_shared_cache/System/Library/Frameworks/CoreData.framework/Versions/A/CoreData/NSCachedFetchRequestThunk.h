@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NSCachedFetchRequestThunk
 {
     NSSQLiteStatement *_limitedStatement;
-    NSSQLiteStatement *_unlimitedStatement;
-    id _connection;
 }
 
 - (void);
-- (id);
+- (id)initWithPredicate:(id)arg1 context:allowLaunch:service: /* Error: Ran out of types for this method. */;
 
 @end
 

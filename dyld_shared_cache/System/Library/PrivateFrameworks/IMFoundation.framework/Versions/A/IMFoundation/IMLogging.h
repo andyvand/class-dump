@@ -10,17 +10,17 @@
 
 + (id);
 + (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (_Bool)lient"16;
++ (void)lt"16@"NSError"24;
++ (void)Array"16@"NSError"24;
++ (void)TTripLocationPropagator";
++ (void)viderUserCurationParameters";
++ (void)^@32^@40^@48;
++ (void)THint";
++ (void)tayCluster";
++ (void)stinationState";
++ (void)88@96@104@112@120@128@136B144@148@156@164Q172@180@188;
++ (id)shiftCoordinate:accuracy:withCompletionHandler:mustGoToNetworkCallback:errorHandler:callbackQueue: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

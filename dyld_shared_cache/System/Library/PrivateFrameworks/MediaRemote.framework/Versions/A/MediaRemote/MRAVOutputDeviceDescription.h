@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _MRAVOutputDeviceDescriptorProtobuf;
+@class NSArray;
 @protocol MRAVOutputDeviceDescriptionImpl;
 
 @interface MRAVOutputDeviceDescription
 {
     NSArray *_subComponents;
-    id <MRAVOutputDeviceDescriptionImpl> _impl;
 }
 
 - (id);
@@ -23,15 +22,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)watchingForUserAttributeChanges;
+- (void)isUnderFirstDataProtectionLock;
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)FAssertionCoordinator";
+- (id);
+- (id);
+- (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -41,20 +40,7 @@
 - (id)/ù;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClusterLeader) _Bool clusterLeader;
-@property(readonly, nonatomic) unsigned int clusterType;
-@property(readonly, nonatomic) NSString *composedTypeDescription;
-@property(readonly, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *descriptor;
-@property(readonly, nonatomic) unsigned int deviceSubtype;
-@property(readonly, nonatomic) unsigned int deviceType;
 @property(retain, nonatomic) id <MRAVOutputDeviceDescriptionImpl> impl; // @synthesize impl=_impl;
-@property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *roomID;
-@property(readonly, nonatomic) NSString *roomName;
-@property(retain, nonatomic) NSArray *subComponents; // @synthesize subComponents=_subComponents;
-@property(readonly, nonatomic) _Bool supportsEngageOnClusterActivation;
-@property(readonly, nonatomic) NSString *uid;
 
 @end
 

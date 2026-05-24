@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatAlertManager.AlertPresentation__priv_5C948E3317A79E164D8B002B3F1297FD
 {
     id alert;
-    id alertController;
 }
 
 @end

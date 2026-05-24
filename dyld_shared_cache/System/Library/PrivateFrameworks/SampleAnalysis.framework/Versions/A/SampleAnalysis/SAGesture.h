@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SATimeRange;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SAGesture
 {
     NSMutableArray *_hidEvents;
-    int _pid;
-    NSString *_gestureType;
-    SATimeRange *_timeRange;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityCustomRotors;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -26,13 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

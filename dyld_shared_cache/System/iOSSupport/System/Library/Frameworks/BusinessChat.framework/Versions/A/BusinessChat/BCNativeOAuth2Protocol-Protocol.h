@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSURL;
+
 @protocol BCNativeOAuth2Protocol
+- (NSURL *)reset;
+- (NSString *)requestedFromAnotherDevice;
 @end
 

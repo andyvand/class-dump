@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ContactsAutoFillChoicesMenuItemView : SafeAutoFillChoicesMenuItemView
 {
     NSLayoutConstraint *_sectionTitleLabelLeadingConstraint;
-    NSLayoutConstraint *_contentValueLabelLeadingConstraint;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSLayoutConstraint *contentValueLabelLeadingConstraint; // @synthesize contentValueLabelLeadingConstraint=_contentValueLabelLeadingConstraint;
 @property(nonatomic) __weak NSLayoutConstraint *sectionTitleLabelLeadingConstraint; // @synthesize sectionTitleLabelLeadingConstraint=_sectionTitleLabelLeadingConstraint;
 
 @end

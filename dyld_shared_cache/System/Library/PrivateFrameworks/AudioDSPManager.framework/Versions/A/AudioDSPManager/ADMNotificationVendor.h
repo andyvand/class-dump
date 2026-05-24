@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ADMNotificationVendor
 {
     id builder;
-    id broadcasters;
-    id nextAvailableListenerKey;
 }
 
 + (id);

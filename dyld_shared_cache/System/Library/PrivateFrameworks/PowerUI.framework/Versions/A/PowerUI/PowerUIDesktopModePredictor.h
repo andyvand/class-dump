@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSDate, NSObject, NSString, PowerUITrialManager;
-@protocol OS_os_log, _CDLocalContext;
+@class NSString;
 
 @interface PowerUIDesktopModePredictor
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _loadModelLock;
-    MLModel *_model;
-    NSDate *_pluginDate;
-    double _pluginBatteryLevel;
-    double _desktopEntryThreshold;
-    NSString *_defaultsDomain;
-    NSObject<OS_os_log> *_log;
-    double _threshold;
-    id <_CDLocalContext> _context;
-    PowerUITrialManager *_trialManager;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (id);
@@ -42,13 +31,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (struct os_unfair_lock_s);
 - (void)0@ù
 × ;
@@ -58,17 +47,7 @@
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
 @property(retain, nonatomic) NSString *defaultsDomain; // @synthesize defaultsDomain=_defaultsDomain;
-@property(nonatomic) double desktopEntryThreshold; // @synthesize desktopEntryThreshold=_desktopEntryThreshold;
-@property(nonatomic) struct os_unfair_lock_s loadModelLock; // @synthesize loadModelLock=_loadModelLock;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, retain, nonatomic) MLModel *model; // @synthesize model=_model;
-@property(nonatomic) double pluginBatteryLevel; // @synthesize pluginBatteryLevel=_pluginBatteryLevel;
-@property(retain, nonatomic) NSDate *pluginDate; // @synthesize pluginDate=_pluginDate;
-@property(nonatomic) double threshold; // @synthesize threshold=_threshold;
-@property(retain, nonatomic) PowerUITrialManager *trialManager; // @synthesize trialManager=_trialManager;
 
 @end
 

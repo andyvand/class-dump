@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVPlayerInterstitialEventMonitor.h>
 
-@class NSArray, NSBundle, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AVPlayerInterstitialEventController : AVPlayerInterstitialEventMonitor
@@ -26,13 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(copy) NSArray *events; // @dynamic events;
-@property(copy) NSBundle *localizedStringsBundle;
-@property(copy) NSString *localizedStringsTableName;
 
 @end
 

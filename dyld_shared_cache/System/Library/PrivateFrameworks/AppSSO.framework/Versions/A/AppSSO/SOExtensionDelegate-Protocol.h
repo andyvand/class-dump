@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SOExtensionDelegate
+- (void)enumerateRangesUsingBlock:(NSString *)arg1;
+
+@optional
+- (void);
 @end
 

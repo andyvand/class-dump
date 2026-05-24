@@ -14,32 +14,32 @@ __attribute__((visibility("hidden")))
     NSString *_displayPattern;
 }
 
++ (id)ince it's trying to overwrite a httpony cookie with a non-httponly cookie. Cookie = %@;
++ (_Bool)Connection %llu:(id)arg1 ALPN selected protocol (%{public}@) was not offered - ignoring it;
++ (id)CFString=}8@?0;
 + (id);
-+ (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (Class);
++ (id)@;
+- (Class)6 ;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)setTaskDescription:(id)arg1;
+- (id);
+- (id)nviable handle %p;
+- (void)ath to the FS cached data at %@;
+- (void)}}8;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ensions;
+- (void)ing operation to create zone;
 - (void);
 - (void)Jl;
 

@@ -4,11 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSCoder, NSEvent, NSNotification, NSScreen, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *);
+- (NSWindow *)erDelegate>";
+- (void)ze=dd}}24^Q32;
+- (void)ize=dd}}32;
+- (void)6@24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (void)6@24;
+- (void)=dd}{CGSize=dd}}32@0:(NSNotification *)arg1 8@"NSSharingService"16@24;
+- (void)6^{CGRect={CGPoint=dd}{CGSize=dd}}24^Q32;
+- (void)erDelegate>"16;
+- (struct CGSize)sharingService:(NSWindow *)arg1 transitionImageForShareItem:(struct CGSize)arg2 contentRect:(struct CGSize)arg3;
+- (void)sharingService:(NSWindow *)arg1 sourceFrameOnScreenForShareItem:(NSCoder *)arg2;
+- (void)sharingService:(NSWindow *)arg1 didShareItems:(double)arg2;
+- (void)setPreferredSendingEmailAddress:(NSWindow *)arg1;
+- (void)setMessageBody:(NSWindow *)arg1 isHTML:(NSScreen *)arg2;
+- (_Bool)presentSheetOverWindow:(NSWindow *)arg1;
+- (_Bool)performSelector:(NSWindow *)arg1 withObject:(NSEvent *)arg2 withObject:(struct CGPoint)arg3;
+- (void)hash;
+- (NSArray *)_presentAlertSheetWithTitle:(NSWindow *)arg1 message:buttonTitles:styles:completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)_preparePreviewContainerWithPreview:(NSWindow *)arg1 source:(NSScreen *)arg2 initialTransform: /* Error: Ran out of types for this method. */;
+- (NSArray *)_prepareForReuse;
+- (void)setCredentialsWithRecordType:(NSNotification *)arg1 recordName:password:error: /* Error: Ran out of types for this method. */;
+- (struct CGRect)R;
+- (struct CGSize)le because it has no metadata asset handle;
+- (void)`";
+- (void)__DATA_CONST;
 - (void)Ð!Gù±	ð1Â0@ù
 × ;
 - (void)1Â0@ù
@@ -17,15 +42,15 @@
 × ;
 - (void)@ù
 × ;
-- (unsigned long long)ration:(NSWindow *)arg1;
-- (void)orForBusinessHandle:(NSNotification *)arg1;
-- (void)StoredIn:(NSNotification *)arg1;
-- (void)flags:(NSNotification *)arg1 error:guid:subject:balloonBundleID:payloadData:expressiveSendStyleID:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (struct CGRect)isplayingSupplementaryView:(NSWindow *)arg1 forElementOfKind:(NSWindow *)arg2 atIndexPath:(struct CGRect)arg3;
-- (void)ze:(NSNotification *)arg1 invertColor:additionalCacheKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)window:(NSWindow *)arg1 startCustomAnimationToEnterFullScreenOnScreen:(unsigned long long)arg2 withDuration: /* Error: Ran out of types for this method. */;
+- (void)secondaryBrandColorForBusinessHandle:(NSNotification *)arg1;
+- (void)inputLineStringStoredIn:(NSNotification *)arg1;
+- (void)initWithSender:(NSNotification *)arg1 time:text:messageSubject:fileTransferGUIDs:flags:error:guid:subject:balloonBundleID:payloadData:expressiveSendStyleID:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (struct CGRect)collectionView:(NSWindow *)arg1 didEndDisplayingSupplementaryView:(NSWindow *)arg2 forElementOfKind:(struct CGRect)arg3 atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_cacheName:(NSNotification *)arg1 messagesImageState:size:invertColor:additionalCacheKey: /* Error: Ran out of types for this method. */;
 - (void)r",N,V_buddyCSSProvider;
-- (_Bool)ionsForDelegate:(NSWindow *)arg1;
-- (void)essageStatusLayoutItem;
+- (_Bool)cancelNotificationsForDelegate:(NSWindow *)arg1;
+- (void)SOEffectControlMessageStatusLayoutItem;
 - (void)out;
 - (struct CGSize)O LIBRARY;
 @end

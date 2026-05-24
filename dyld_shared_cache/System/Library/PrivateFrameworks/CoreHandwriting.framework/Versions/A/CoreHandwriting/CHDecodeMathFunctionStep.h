@@ -6,20 +6,18 @@
 
 #import <CoreHandwriting/CHMathPostprocessingStep.h>
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface CHDecodeMathFunctionStep : CHMathPostprocessingStep
 {
     NSDictionary *_mathFunctionNameMapping;
-    NSDictionary *_stemFunctionMappings;
-    NSSet *_decoratedFunctions;
 }
 
 + (_Bool);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

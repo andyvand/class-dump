@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDMAssetURLProtocol, NSString;
+@class DDMAssetURLProtocol;
 
 @interface DDMAssetURLProtocolDelegate
 {
@@ -13,22 +13,15 @@
 
 - (void);
 - (void);
-- (id);
+- (id)MTPodcastAutoDownloadStateDefaultKey;
 - (void);
+- (void)A;
 - (void);
-- (void);
-- (id);
+- (id)__AUTH;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak DDMAssetURLProtocol *protocol; // @synthesize protocol=_protocol;
-@property(readonly) Class superclass;
 
 @end
 

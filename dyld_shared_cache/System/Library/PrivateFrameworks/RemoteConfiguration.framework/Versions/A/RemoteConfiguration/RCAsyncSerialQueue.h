@@ -13,20 +13,19 @@
 
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *serialOperationQueue; // @synthesize serialOperationQueue=_serialOperationQueue;
-@property(nonatomic) _Bool suspended;
 
 @end
 

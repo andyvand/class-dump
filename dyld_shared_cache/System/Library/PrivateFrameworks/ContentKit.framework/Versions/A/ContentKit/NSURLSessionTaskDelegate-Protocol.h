@@ -7,6 +7,10 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
+- (void)Z;
 - (void)Library/Frameworks/Contacts.framework/Contacts;
 - (void)Àvèÿp;
 @end

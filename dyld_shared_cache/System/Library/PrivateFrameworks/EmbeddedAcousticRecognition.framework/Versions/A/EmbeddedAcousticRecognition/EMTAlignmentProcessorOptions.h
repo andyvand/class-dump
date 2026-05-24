@@ -7,12 +7,10 @@
 @interface EMTAlignmentProcessorOptions
 {
     _Bool _wordLevelAlignments;
-    _Bool _avoidCrossingWords;
-    _Bool _useStrippedTokenText;
 }
 
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -20,8 +18,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool avoidCrossingWords; // @synthesize avoidCrossingWords=_avoidCrossingWords;
-@property(nonatomic) _Bool useStrippedTokenText; // @synthesize useStrippedTokenText=_useStrippedTokenText;
 @property(nonatomic) _Bool wordLevelAlignments; // @synthesize wordLevelAlignments=_wordLevelAlignments;
 
 @end

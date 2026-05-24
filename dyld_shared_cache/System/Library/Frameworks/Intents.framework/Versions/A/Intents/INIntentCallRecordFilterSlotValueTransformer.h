@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)H;
 + (Class);
 + (long long)V_payloadTemperatureValues;
 - (id);
-- (id)tReferenceIntentExport;
+- (id)INResolveObjectReferenceIntentExport;
 
 @end
 

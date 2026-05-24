@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSExtendedSpellCheckingResult
 {
     struct _NSRange _sentenceRange;
-    NSDictionary *_detail;
 }
 
 - (struct _NSRange);
-- (_Bool);
-- (id);
+- (_Bool)untimeBase=QAQ}^{__CFCachedURLResponse}}16;
+- (id)set_expiredDNSBehavior:(struct _NSRange)arg1;
 - (id);
 - (void);
 

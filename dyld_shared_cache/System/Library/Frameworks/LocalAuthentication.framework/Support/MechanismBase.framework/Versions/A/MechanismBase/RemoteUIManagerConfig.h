@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, RemoteUIActivating;
-
 @interface RemoteUIManagerConfig
 {
     double _activateTimeout;
-    double _longActivateTimeout;
-    double _deactivateTimeout;
-    id <RemoteUIActivating> _activator;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
+- (void)xLogSoftmaxLayer:(double)arg1:NFixLogSoftmaxLayer() - logadd table not defined /* Error: Ran out of types for this method. */;
+- (void):(double)arg1 compute() - Layer uninitialized;
+- (void)itialize() - Incorrect data size;
+- (void)yer:(double)arg1:compute() - Layer uninitialized /* Error: Ran out of types for this method. */;
+- (double)mponentScore() - not supported for this distribution type;
+- (double)ianMixtureModelsHeader:(id)arg1:readAscii()  - only INVAR type supported for variances in GMIR (file %s) /* Error: Ran out of types for this method. */;
+- (double)odelsHeader::read() - invalid cookie /* Error: Ran out of types for this method. */;
+- (id)eset() can only be called after sat_initialize();
+- (double)can only be called after initialize();
 - (id);
 - (void);
 - (id);
@@ -32,10 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) double activateTimeout; // @synthesize activateTimeout=_activateTimeout;
-@property(retain, nonatomic) id <RemoteUIActivating> activator; // @synthesize activator=_activator;
-@property(nonatomic) double deactivateTimeout; // @synthesize deactivateTimeout=_deactivateTimeout;
-@property(nonatomic) double longActivateTimeout; // @synthesize longActivateTimeout=_longActivateTimeout;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

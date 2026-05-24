@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SOQueueItem;
+@class NSString;
 
 @interface SORequestQueue
 {
     NSString *_identifier;
-    NSMutableArray *_queue;
-    id <SOQueueItem> _processingItem;
-    CDUnknownBlockType _processItemBlock;
 }
 
 + (id);
 + (void);
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)	?׃;
+- (void);
 - (unsigned long long);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)_titleWidthConstraint;
+- (void)P;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType processItemBlock; // @synthesize processItemBlock=_processItemBlock;

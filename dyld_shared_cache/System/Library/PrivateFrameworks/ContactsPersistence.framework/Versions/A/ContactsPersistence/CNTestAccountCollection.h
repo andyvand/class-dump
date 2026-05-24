@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservable, CNPublishingSubject, NSArray, NSMutableArray, NSString, NSURL;
-@protocol CNAccountDescription;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CNTestAccountCollection
 {
     NSMutableArray *_allAccountsImpl;
-    CNPublishingSubject *_enabledAccountsSubject;
-    CNPublishingSubject *_enabledPersistentAccountsSubject;
-    _Bool _includeLocalAccount;
-    NSURL *_baseURL;
-    id <CNAccountDescription> _defaultAccount;
-    NSString *_tag;
 }
 
 - (void);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -37,22 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAccounts;
-@property(readonly, copy) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <CNAccountDescription> defaultAccount; // @synthesize defaultAccount=_defaultAccount;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) CNObservable *enabledAccountsObservable; // @synthesize enabledAccountsObservable=_enabledAccountsSubject;
-@property(readonly) CNObservable *enabledPersistentAccountsObservable; // @synthesize enabledPersistentAccountsObservable=_enabledPersistentAccountsSubject;
-@property(readonly) unsigned long long hash;
 @property _Bool includeLocalAccount; // @synthesize includeLocalAccount=_includeLocalAccount;
-@property(readonly, copy) NSArray *persistentEnabledAccounts;
-@property(readonly) Class superclass;
-@property(copy) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

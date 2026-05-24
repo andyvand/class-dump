@@ -9,31 +9,27 @@
 @interface IMParentalControls
 {
     _Bool _shouldPostNotifications;
-    _Bool _active;
-    _Bool _disableAV;
-    _Bool _forceChatLogging;
-    NSMutableDictionary *_parentalControls;
 }
 
-+ (id);
-+ (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
++ (id)[%s] %s:%d Transmitter object is nil /* Error: Ran out of types for this method. */;
++ (id)consumedSessionPayloads;
+- (_Bool)scriptor %d;
+- (void)ettings is missing for mediaType=%@;
+- (_Bool)s:(id)arg1 %d %@(%p) Invalid state=%u;
+- (_Bool)@ error=%@;
+- (_Bool)[%s] %s:(id)arg1 %d Failed to delete filePath=%@ error=%@;
+- (_Bool):(id)arg1 %d Successfully deleted filePath=%@;
+- (_Bool)vice-sendText;
+- (id)kbps redPlayedRate=%ukbps redDiscardedRate=%ukbps;
+- (id)sReceived=%d mediaBitrateNoRed=%ukbps redPlayedRate=%ukbps redDiscardedRate=%ukbps;
+- (_Bool)ength paddingLength:(id)arg1 %zu;
+- (_Bool)AudioReceiver [%s] %s:(id)arg1 %d Bad buffer length bufferLength:%zu /* Error: Ran out of types for this method. */;
+- (void)=%d enableAACELDInactiveFrameDetection=%d;
+- (id)r=%p with context=%p;
+- (id)(%p) no active capture session;
+- (void)tion is nil;
+- (_Bool)are mismatched state=%@ != state=%@;
+- (_Bool)t' message from remote participant '%@';
 - (void);
 - (_Bool);
 - (id);
@@ -44,13 +40,7 @@
 - (_Bool)IMChat"8;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _disableAV; // @synthesize _disableAV;
-@property(readonly, nonatomic) _Bool _forceChatLogging; // @synthesize _forceChatLogging;
 @property(readonly, nonatomic) NSMutableDictionary *_parentalControls; // @synthesize _parentalControls;
-@property(readonly, nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) _Bool disableAV;
-@property(readonly, nonatomic) _Bool forceChatLogging;
-@property(nonatomic) _Bool shouldPostNotifications; // @synthesize shouldPostNotifications=_shouldPostNotifications;
 
 @end
 

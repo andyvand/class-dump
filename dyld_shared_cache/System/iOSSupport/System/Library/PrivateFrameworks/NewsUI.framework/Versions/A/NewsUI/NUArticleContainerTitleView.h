@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUPageStyle, NUTitleView;
+@class NUTitleView;
 
 @interface NUArticleContainerTitleView
 {
     NUTitleView *_titleView;
-    NUPageStyle *_pageStyle;
 }
 
 - (void);
@@ -18,10 +17,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9;
 
 // Remaining properties
-@property(retain, nonatomic) NUPageStyle *pageStyle; // @synthesize pageStyle=_pageStyle;
 @property(readonly, nonatomic) NUTitleView *titleView; // @synthesize titleView=_titleView;
 
 @end

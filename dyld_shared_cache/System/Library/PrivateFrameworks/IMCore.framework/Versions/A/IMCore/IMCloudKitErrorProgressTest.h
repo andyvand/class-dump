@@ -13,8 +13,8 @@
     NSError *_error;
 }
 
-- (void);
-- (id);
+- (void)%s] %s:(id)arg1 %d AVCVideoStream:didStartConnectionBlock strongSelf started(%d) /* Error: Ran out of types for this method. */;
+- (id)",N,R;
 - (id);
 - (void);
 - (void);

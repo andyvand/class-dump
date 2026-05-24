@@ -5,5 +5,6 @@
 //
 
 @protocol TRIPBDictionaryInternalsProtocol
+- (void)#k;
 @end
 

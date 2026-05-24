@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface AVPictureInPictureUIViewAccessibility
+#import <AVKit/__AVPictureInPictureUIViewAccessibility_super.h>
+
+@interface AVPictureInPictureUIViewAccessibility : __AVPictureInPictureUIViewAccessibility_super
 {
 }
 

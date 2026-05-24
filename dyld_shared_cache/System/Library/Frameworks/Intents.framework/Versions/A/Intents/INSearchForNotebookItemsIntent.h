@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INSearchForNotebookItemsIntent : INIntent
 {
@@ -17,7 +17,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -34,11 +34,11 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)];
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)setTypesForWhichUpdateBlockHasBeenCalled:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -49,33 +49,14 @@
 - (id);
 - (id);
 - (void);
-- (id)etUserUtterance: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)opertyRelationshipPredicateName;
+- (id)setUserUtterance: /* Error: Ran out of types for this method. */;
+- (id)setSpotlightName: /* Error: Ran out of types for this method. */;
+- (id)__INCodableAttributeRelationshipINTypePropertyRelationshipPredicateName;
 - (long long)$õÿ;
 - (void)ÕMz;
 - (void)ø×ÿöMî^;
 
 // Remaining properties
-@property(readonly, copy) NSString *content;
-@property(readonly) long long dateSearchType;
-@property(readonly, copy) INDateComponentsRange *dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) INSpeakableString *groupName;
-@property(readonly) unsigned long long hash;
-@property _Bool includeAllNoteContents;
-@property(readonly) long long itemType;
-@property(readonly, copy) CLPlacemark *location;
-@property(readonly) long long locationSearchType;
-@property(readonly, copy) NSString *notebookItemIdentifier;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
-@property(readonly) long long taskPriority;
-@property(readonly) unsigned long long temporalEventTriggerTypes;
 @property(readonly, copy) INSpeakableString *title;
 
 @end

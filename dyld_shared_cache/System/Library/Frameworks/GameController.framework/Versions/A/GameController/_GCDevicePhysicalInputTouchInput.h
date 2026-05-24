@@ -6,48 +6,31 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputTouchInput : _GCDevicePhysicalInputView
 {
     unsigned long long _sourcesSlot;
-    unsigned long long _touchedThresholdSlot;
-    unsigned long long _touchedChangedHandlerSlot;
-    unsigned long long _valueSlot;
-    unsigned long long _touchedTimestampSlot;
 }
 
 + (unsigned short);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
+- (id)_;
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastTouchedStateLatency;
-@property(readonly) double lastTouchedStateTimestamp;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
-@property(readonly, getter=isTouched) _Bool touched;
 @property(copy) CDUnknownBlockType touchedDidChangeHandler;
 
 @end

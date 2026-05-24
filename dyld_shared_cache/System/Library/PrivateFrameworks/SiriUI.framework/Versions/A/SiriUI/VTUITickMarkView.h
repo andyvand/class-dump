@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor;
-
 __attribute__((visibility("hidden")))
 @interface VTUITickMarkView
 {
     float _phase;
-    NSColor *_redColor;
-    NSColor *_blueColor;
-    NSColor *_backgroundColor;
-    CALayer *_checkMaskLayer;
-    CALayer *_xMaskLayer;
-    _Bool _isSAEMacBuddy;
-    int _glyph;
 }
 
-+ (id);
++ (id)CNAtomViewResembling;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (float);
+- (float)_maxHeightForSourceView;
 - (void);
 - (struct CGSize);
 - (void);
 - (int);
-- (id);
+- (id)?;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int glyph; // @synthesize glyph=_glyph;
 @property float phase;
 
 @end

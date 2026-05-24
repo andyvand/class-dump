@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotPageField
 {
     unsigned long long mFieldId;
-    NSString *mCap;
-    NSString *mName;
 }
 
 + (id);
@@ -20,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
+- (id)ted type of device sampling!;
 - (id);
-- (id);
-- (void)ListStyle:(id)arg1;
+- (void)setParentTextListStyle:(id)arg1;
 - (void);
 
 @end

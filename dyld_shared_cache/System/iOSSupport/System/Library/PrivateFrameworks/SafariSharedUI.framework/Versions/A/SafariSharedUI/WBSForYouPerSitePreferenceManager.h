@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
+@class WBSPerSitePreferencesSQLiteStore;
 
 @interface WBSForYouPerSitePreferenceManager
 {
     WBSPerSitePreferencesSQLiteStore *_preferencesStore;
-    WBSPerSitePreference *_preference;
 }
 
 - (void);
-- (void);
+- (void)@;
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)CheckIntegrity:createIfNeeded:fallBackToMemoryStoreIfError:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)openAndCheckIntegrity:createIfNeeded:fallBackToMemoryStoreIfError:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

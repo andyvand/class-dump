@@ -11,7 +11,6 @@
 @interface _PXSimulatedFailingMediaRequest : _PXSimulatedMediaRequest
 {
     NSError *_error;
-    _Bool _didReturnError;
 }
 
 - (id);

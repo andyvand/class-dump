@@ -5,6 +5,6 @@
 //
 
 @protocol CNTCCSimulation
-- (_Bool)w;
+- (_Bool)cw;
 @end
 

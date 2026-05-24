@@ -7,16 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionAccessRenewalTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id priority;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id photoLibrary;
-    id log;
-    id logger;
 }
 
 @end

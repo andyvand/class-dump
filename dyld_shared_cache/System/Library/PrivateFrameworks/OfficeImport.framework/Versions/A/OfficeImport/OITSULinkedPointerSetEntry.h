@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OITSULinkedPointerSetEntry
 {
     id mObject;
-    OITSULinkedPointerSetEntry *mPrevious;
-    OITSULinkedPointerSetEntry *mNext;
 }
 
 - (id);

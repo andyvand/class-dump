@@ -6,24 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaErrorInfo;
-
 @interface ORCHSchemaORCHRequestFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    int _errorDomain;
-    int _orchErrorCode;
-    SISchemaErrorInfo *_error;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int errorDomain:1;
-        unsigned int orchErrorCode:1;
-    } _has;
-    _Bool _hasError;
 }
 
-- (void);
-- (void);
+- (void)(=;
+- (void)8;
 - (int);
 - (_Bool);
 - (void);
@@ -31,23 +20,23 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)"NSString"16@"NSString"24@?<v@?@"NSNumber">32;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)f;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ting migration step %ld;
 - (_Bool);
 - (int);
 - (id);
 - (id)
 × ;
-- (id)ontext;
+- (id)_deviceDynamicContext;
 - (id)ime;
 - (void)tifier.custom.bundleId;
 - (void);
@@ -56,15 +45,7 @@
 - (int)¼æ»ÿÁ´8%;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaErrorInfo *error; // @synthesize error=_error;
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasOrchErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int orchErrorCode; // @synthesize orchErrorCode=_orchErrorCode;
 
 @end
 

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _DPPrivacyBudgetProperties
 {
     NSString *_name;
-    NSNumber *_interval;
-    NSNumber *_intervalBudgetValue;
-    NSNumber *_intervalCohortAggregateBudgetValue;
-    NSNumber *_intervalChunksValue;
-    NSNumber *_refillInterval;
-    NSNumber *_refillAmount;
 }
 
 + (id);
 + (void);
++ (id)ror"8;
 + (id);
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -37,18 +31,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)SUCoreBorder_MSUAssetCalculateApplySize;
+- (void)showExternalCredentialAuthenticationWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSNumber *intervalBudgetValue; // @synthesize intervalBudgetValue=_intervalBudgetValue;
-@property(retain, nonatomic) NSNumber *intervalChunksValue; // @synthesize intervalChunksValue=_intervalChunksValue;
-@property(retain, nonatomic) NSNumber *intervalCohortAggregateBudgetValue; // @synthesize intervalCohortAggregateBudgetValue=_intervalCohortAggregateBudgetValue;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSNumber *refillAmount; // @synthesize refillAmount=_refillAmount;
-@property(retain, nonatomic) NSNumber *refillInterval; // @synthesize refillInterval=_refillInterval;
 
 @end
 

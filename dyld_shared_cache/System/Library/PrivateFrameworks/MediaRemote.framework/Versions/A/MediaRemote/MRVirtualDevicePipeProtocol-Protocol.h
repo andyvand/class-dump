@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol MRVirtualDevicePipeProtocol
+- (void)updateDiscoveryEngagementMessageWithIdentifier:(NSData *)arg1 forAction:completion: /* Error: Ran out of types for this method. */;
 @end
 

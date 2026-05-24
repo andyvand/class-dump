@@ -9,20 +9,18 @@
 @interface TUSmartHoldingSessionRequest
 {
     NSUUID *_uuid;
-    NSUUID *_callUUID;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)fDerefTraits<WebCore::MediaSourcePrivate>] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void)ror: /* Error: Ran out of types for this method. */;
+- (id)_;
+- (id)n.framework/Versions/C/Foundation;
+- (void)writeToURL:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

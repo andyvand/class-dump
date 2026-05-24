@@ -4,69 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UILabel, UIView;
+@class UILabel;
 
 @interface AXElementNamesItemView
 {
     UILabel *_label;
-    UIView *_backgroundView;
-    UIImageView *_backgroundMaskView;
-    _Bool _isSpacer;
-    long long _labelPosition;
-    struct CGSize _forcedLabelContainerSize;
-    struct CGSize _labelContainerSize;
-    struct CGPoint _arrowTipLocation;
-    struct CGRect _elementFrame;
-    struct CGRect _availableBounds;
-    struct CGRect _labelContainerFrame;
 }
 
-- (void);
+- (void)ji{;
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGRect);
-- (struct CGSize);
+- (struct CGRect)#ĭz;
+- (struct CGSize)|;
 - (struct CGRect);
 - (void);
-- (void);
-- (_Bool);
-- (double);
+- (void)[h|;
+- (_Bool)|;
+- (double)dOh|;
 - (id);
 - (struct CGRect);
-- (void);
+- (void)s;
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)m;
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (struct CGRect);
-- (_Bool);
+- (struct CGRect)s;
+- (_Bool)s;
 - (double);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (long long);
+- (struct CGRect)tm;
+- (void)+o;
+- (_Bool);
+- (long long);
 - (id);
 - (void);
-- (double);
-- (void);
+- (double);
+- (void)accountsWithAccountType:(long long)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint arrowTipLocation; // @synthesize arrowTipLocation=_arrowTipLocation;
-@property(readonly, nonatomic) struct CGRect availableBounds; // @synthesize availableBounds=_availableBounds;
-@property(readonly, nonatomic) struct CGRect elementFrame; // @synthesize elementFrame=_elementFrame;
-@property(nonatomic) struct CGSize forcedLabelContainerSize; // @synthesize forcedLabelContainerSize=_forcedLabelContainerSize;
-@property(readonly, nonatomic) _Bool hasExtendedArrow;
-@property(nonatomic) _Bool isSpacer; // @synthesize isSpacer=_isSpacer;
-@property(nonatomic) struct CGRect labelContainerFrame; // @synthesize labelContainerFrame=_labelContainerFrame;
 @property(nonatomic) struct CGSize labelContainerSize; // @synthesize labelContainerSize=_labelContainerSize;
-@property(nonatomic) long long labelPosition; // @synthesize labelPosition=_labelPosition;
-@property(readonly, nonatomic) NSString *name;
 
 @end
 

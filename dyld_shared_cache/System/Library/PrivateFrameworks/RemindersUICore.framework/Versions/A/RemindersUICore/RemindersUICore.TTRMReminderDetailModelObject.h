@@ -7,35 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailModelObject
 {
     id presenter;
-    id _isInResizableContainer;
-    id _allowsCommit;
-    id _allControlsAreDisabled;
-    id _maxHeight;
-    id _supportsListPicker;
-    id _listPickerViewModel;
-    id _listShouldCategorizeGroceryItems;
-    id textEditorDelegate;
-    id titleEditorProxy;
-    id _titleViewModel;
-    id notesEditorProxy;
-    id _notesViewModel;
-    id _urlState;
-    id urlTextEditorDelegate;
-    id _appLink;
-    id dueDateModelObject;
-    id _priorityLevel;
-    id _flaggedState;
-    id locationEditorDelegate;
-    id _locationState;
-    id _personState;
-    id _assigneeOptionsState;
-    id _hashtagsState;
-    id _hashtagsAugmentation;
-    id _urgentAlertState;
-    id _subtaskState;
-    id attachmentModelObject;
-    id _areRevertApplyControlsVisible;
-    id _$observationRegistrar;
 }
 
 @end

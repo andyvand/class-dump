@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface ICLocalFileWrapper
 {
     NSURL *_localURL;
-    NSData *_cachedData;
 }
 
 + (_Bool);
@@ -29,18 +28,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_handleDampeningConfigurationDictMessage:(id)arg1 state:transaction: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)<X<¤<H=°=ø=$HH;
 - (id)::sharedContextReferenceCount = %lld /* Error: Ran out of types for this method. */;
 - (id)è×ÿ"V¾;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cachedData; // @synthesize cachedData=_cachedData;
 @property(retain, nonatomic) NSURL *localURL; // @synthesize localURL=_localURL;
 
 @end

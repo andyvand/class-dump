@@ -6,20 +6,17 @@
 
 #import <AVConference/VCXPCManager.h>
 
-@class AVConferenceXPCClient, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaAnalyzerManager : VCXPCManager
 {
     NSMutableDictionary *_streamTokenList;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
 }
 
 + (id)CRateControlMediaController pauseVideoByUser:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)';
 - (void);
 - (void);
 - (void);
@@ -30,16 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)Bits: /* Error: Ran out of types for this method. */;
+- (void)transmitEncodedVideoFrame:cameraStatusBits: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

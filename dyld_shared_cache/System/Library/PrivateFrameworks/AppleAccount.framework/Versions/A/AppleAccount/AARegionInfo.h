@@ -12,10 +12,10 @@
 }
 
 - (id);
+- (id)dictionaryWithObjects:(struct _NSZone *)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)H;
 - (id);
-- (id);
-- (id);
-- (void)eportEvent;
+- (void)reportEvent;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayedHostname;

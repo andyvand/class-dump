@@ -7,13 +7,6 @@
 @interface MediaPlaybackCore.AssetReaderOutput
 {
     id $defaultActor;
-    id asset;
-    id aligner;
-    id audioFormat;
-    id currentReadTask;
-    id completionContinuation;
-    id isStopped;
-    id cachedAudioTrack;
 }
 
 @end

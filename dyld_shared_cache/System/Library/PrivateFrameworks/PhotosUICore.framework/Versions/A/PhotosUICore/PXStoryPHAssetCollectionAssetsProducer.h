@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHAssetCollection, PHFetchResult;
+@class PHAssetCollection;
 
 @interface PXStoryPHAssetCollectionAssetsProducer
 {
     PHAssetCollection *_assetCollection;
-    NSArray *_referencePersons;
-    PHFetchResult *_keyAsset;
-    long long _curationKind;
-    unsigned long long _options;
 }
 
 + (_Bool);
@@ -20,19 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)qa;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ignoreClusteringForImages:withOptions: /* Error: Ran out of types for this method. */;
 - (void)à­pÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) long long curationKind; // @synthesize curationKind=_curationKind;
-@property(readonly, nonatomic) PHFetchResult *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSArray *referencePersons; // @synthesize referencePersons=_referencePersons;
 
 @end
 

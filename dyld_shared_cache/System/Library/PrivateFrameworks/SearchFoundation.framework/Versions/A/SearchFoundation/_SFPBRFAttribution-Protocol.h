@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFAttribution
+- (void);
+- (NSData *)imageDelegate;
 - (void)ngTrailingCardSection;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *commandReference;
-@property(retain, nonatomic) _SFPBRFVisualProperty *image;
-@property(nonatomic) int index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *localized_index;
-@property(copy, nonatomic) NSString *localized_separator;
-@property(retain, nonatomic) _SFPBRFTextProperty *secondary_title;
-@property(retain, nonatomic) _SFPBRFTextProperty *subtitle;
 @property(retain, nonatomic) _SFPBRFTextProperty *title;
 @end
 

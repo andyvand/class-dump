@@ -9,29 +9,24 @@
 @interface TSDBrushStrokeLoader
 {
     NSMutableDictionary *_lineEnds;
-    NSMutableDictionary *_images;
-    NSMutableDictionary *_textureIndex;
-    NSMutableDictionary *_options;
-    NSMutableDictionary *_paths;
-    NSMutableDictionary *_bounds;
 }
 
 + (id);
 + (id);
-+ (double);
++ (double)";
 + (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)b;
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ontents;
+- (void)kTableOfContents;
 
 @end
 

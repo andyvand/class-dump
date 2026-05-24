@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 @protocol AFClockItemStorageDelegate;
 
 @interface AFClockItemStorage
 {
     id <AFClockItemStorageDelegate> _delegate;
-    long long _groupingDepth;
-    unsigned long long _workingGeneration;
-    NSDate *_workingDate;
-    NSMutableDictionary *_workingItemsByID;
-    NSString *_identifier;
-    unsigned long long _generation;
-    NSDate *_date;
-    NSDictionary *_itemsByID;
 }
 
-- (void);
+- (void)V_passPresentationSuppressionFromBackground;
 - (id);
 - (id);
 - (void);
@@ -31,24 +23,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id)eWithUpdateViewsCommand:(id)arg1;
-- (void)ceTriggerEndTime;
-- (void)lity;
+- (id)updateWithUpdateViewsCommand:(id)arg1;
+- (void)_voiceTriggerEndTime;
+- (void)AFHomeAnnouncementSnapshotMutability;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *itemsByID; // @synthesize itemsByID=_itemsByID;
-@property(readonly) Class superclass;
 
 @end
 

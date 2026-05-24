@@ -5,5 +5,6 @@
 //
 
 @protocol MKUserLocationHeadingAnimatableIndicator
+- (void)firstMessageItem;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PREResponseItem
 {
     NSNumber *_categoryId;
-    NSNumber *_modelId;
-    NSNumber *_responseClassId;
-    NSNumber *_replySubgroupId;
-    NSNumber *_replyTextId;
-    NSString *_replyText;
-    NSString *_language;
-    NSNumber *_isCustomResponse;
-    NSNumber *_isRobotResponse;
 }
 
 + (id);
@@ -29,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (id);
 - (id);
@@ -40,14 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *categoryId; // @synthesize categoryId=_categoryId;
-@property(readonly, nonatomic) NSNumber *isCustomResponse; // @synthesize isCustomResponse=_isCustomResponse;
-@property(readonly, nonatomic) NSNumber *isRobotResponse; // @synthesize isRobotResponse=_isRobotResponse;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) NSNumber *modelId; // @synthesize modelId=_modelId;
-@property(readonly, nonatomic) NSNumber *replySubgroupId; // @synthesize replySubgroupId=_replySubgroupId;
-@property(readonly, nonatomic) NSString *replyText; // @synthesize replyText=_replyText;
-@property(readonly, nonatomic) NSNumber *replyTextId; // @synthesize replyTextId=_replyTextId;
-@property(readonly, nonatomic) NSNumber *responseClassId; // @synthesize responseClassId=_responseClassId;
 
 @end
 

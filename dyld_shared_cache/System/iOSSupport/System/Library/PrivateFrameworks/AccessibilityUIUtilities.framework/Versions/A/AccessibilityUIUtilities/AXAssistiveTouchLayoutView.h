@@ -4,47 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface AXAssistiveTouchLayoutView
 {
     NSArray *_itemConstraints;
-    NSMutableArray *_positioningLayoutGuides;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (double);
-+ (double);
-+ (id);
-+ (double);
-+ (id);
++ (double)|;
 + (id);
 + (double);
 + (id);
++ (id)#h|;
++ (double)h|;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)g|;
++ (id);
++ (id)g|;
++ (id);
+- (void)|;
+- (void);
+- (id)|;
 - (void);
 - (void);
+- (void){;
+- (void)h|;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)h|;
+- (id)h|;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *itemConstraints; // @synthesize itemConstraints=_itemConstraints;
-@property(retain, nonatomic) NSMutableArray *positioningLayoutGuides; // @synthesize positioningLayoutGuides=_positioningLayoutGuides;
 
 @end
 

@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBatchReverseGeocodeResult, GEOPDCollectionResult, GEOPDPlace, GEOPDPlaceQuestionnaireResult, GEOPDPublisherResult, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDMapsResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDBatchReverseGeocodeResult *_batchReverseGeocode;
-    GEOPDCollectionResult *_collection;
-    GEOPDPlaceQuestionnaireResult *_placeQuestionnaire;
-    GEOPDPlace *_place;
-    GEOPDPublisherResult *_publisher;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultType;
-    struct {
-        unsigned int has_resultType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_batchReverseGeocode:1;
-        unsigned int read_collection:1;
-        unsigned int read_placeQuestionnaire:1;
-        unsigned int read_place:1;
-        unsigned int read_publisher:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)erlinkType:(id)arg1;
++ (_Bool)setHyperlinkType:(id)arg1;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)musicHapticsEnabled;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)_appendDictationApplicationInfoSettings: /* Error: Ran out of types for this method. */;
+- (void)cs:(id)arg1 ];
 - (_Bool);
-- (void);
+- (void)G5>*K	;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)Request status was %d;
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void)Ô	'!@CùQ¹*Ð1Â0@ù
 × ;
 - (id)"has_urgency"b1"has_includeSource"b1};
 - (_Bool)AssociatedInfo"16@0:8 /* Error: Ran out of types for this method. */;
 - (id)ownFields"b1"read_etaFilter"b1"read_evChargingMetadata"b1"read_originalWaypointRoute"b1"read_routeId"b1"read_sessionState"b1"read_zilchPointSegments"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (void)RequestQueue:(id)arg1;
-- (_Bool);
-- (id): /* Error: Ran out of types for this method. */;
-- (id)aneSideFor: /* Error: Ran out of types for this method. */;
+- (void)setRequestQueue:(id)arg1;
+- (_Bool)richProviderId;
+- (id)replacePointerAtIndex:withPointer: /* Error: Ran out of types for this method. */;
+- (id)_flippedBikeLaneSideFor: /* Error: Ran out of types for this method. */;
 - (id)°tà¡¬£ð£0¤;
-- (void)epIndex;
-- (id)CORRECTION_TYPE_LINE_EDIT;
+- (void)problematicStepIndex;
+- (id)TRANSIT_POI_CORRECTION_TYPE_LINE_EDIT;
 - (int);
 - (id)oogle.protobuf.FieldDescriptorProto.Type
 	type_name (	
@@ -189,19 +169,7 @@ deprecated (:false
 - (void)4Õ4;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDBatchReverseGeocodeResult *batchReverseGeocode;
-@property(retain, nonatomic) GEOPDCollectionResult *collection;
-@property(readonly, nonatomic) _Bool hasBatchReverseGeocode;
-@property(readonly, nonatomic) _Bool hasCollection;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceQuestionnaire;
-@property(readonly, nonatomic) _Bool hasPublisher;
 @property(nonatomic) _Bool hasResultType;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEOPDPlaceQuestionnaireResult *placeQuestionnaire;
-@property(retain, nonatomic) GEOPDPublisherResult *publisher;
-@property(nonatomic) int resultType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

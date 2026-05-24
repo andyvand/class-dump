@@ -13,11 +13,11 @@
     id <NUChannelOutputPort> _port;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)lic}@ of %{public}@ with error %{public}@;
 - (id);
 - (id);
 - (id);

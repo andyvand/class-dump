@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSPPrivacyProxyConfiguration;
+@class NSPPrivacyProxyConfiguration;
 
 @interface NSPPrivacyProxySignedConfiguration
 {
     int _algorithm;
-    NSMutableArray *_certificates;
-    NSPPrivacyProxyConfiguration *_configuration;
-    NSData *_signature;
-    struct {
-        unsigned int algorithm:1;
-    } _has;
 }
 
 + (Class);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (_Bool);
 - (void);
@@ -46,11 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(retain, nonatomic) NSMutableArray *certificates; // @synthesize certificates=_certificates;
 @property(retain, nonatomic) NSPPrivacyProxyConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

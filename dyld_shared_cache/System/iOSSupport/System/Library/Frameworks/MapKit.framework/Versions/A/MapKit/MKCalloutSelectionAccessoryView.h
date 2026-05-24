@@ -6,27 +6,16 @@
 
 #import <MapKit/MKSelectionAccessoryView.h>
 
-@class CAShapeLayer, NSLayoutConstraint, NSString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface MKCalloutSelectionAccessoryView : MKSelectionAccessoryView
 {
     MKSelectionAccessoryView *_wrappedView;
-    CAShapeLayer *_shadowLayer;
-    NSLayoutConstraint *_wrappedViewWidthConstraint;
-    NSLayoutConstraint *_wrappedViewHeightConstraint;
-    NSLayoutConstraint *_wrappedViewMaxHeightConstraint;
-    double _pointerUnitLocation;
-    UIColor *_fillColor;
-    UIColor *_borderColor;
-    long long _calloutStyle;
-    long long _pointerEdge;
 }
 
 + (double);
 + (double);
 + (Class);
-- (long long);
+- (long long)#;
 - (void);
 - (id);
 - (void);
@@ -36,21 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (void);
 - (void);
-- (void)preloadedTransitInfo;
+- (void)_preloadedTransitInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) long long calloutStyle; // @synthesize calloutStyle=_calloutStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long pointerEdge; // @synthesize pointerEdge=_pointerEdge;
-@property(readonly) Class superclass;
 
 @end
 

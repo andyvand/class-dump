@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMLocalizedTapbackStringFormat
 {
     long long _localizedStringFormatType;
-    NSString *_localizedFormatString;
 }
 
 - (long long);
 - (id);
 - (id);
-- (id);
-- (void)appedValue;
+- (id)(;
+- (void)wrappedValue;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedFormatString; // @synthesize localizedFormatString=_localizedFormatString;
 @property(readonly, nonatomic) long long localizedStringFormatType; // @synthesize localizedStringFormatType=_localizedStringFormatType;
 
 @end

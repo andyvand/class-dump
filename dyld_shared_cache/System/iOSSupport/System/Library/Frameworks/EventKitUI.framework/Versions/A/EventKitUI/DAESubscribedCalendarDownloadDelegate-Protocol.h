@@ -5,5 +5,7 @@
 //
 
 @protocol DAESubscribedCalendarDownloadDelegate
+- (void);
+- (void)X%s;
 @end
 

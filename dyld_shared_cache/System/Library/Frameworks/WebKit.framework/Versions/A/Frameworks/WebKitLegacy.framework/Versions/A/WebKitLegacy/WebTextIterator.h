@@ -17,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ublic}@:No pending update available (may have expired) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

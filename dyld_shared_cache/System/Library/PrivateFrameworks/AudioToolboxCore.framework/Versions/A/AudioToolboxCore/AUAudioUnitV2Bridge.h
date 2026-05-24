@@ -6,26 +6,12 @@
 
 #import <AudioToolboxCore/AUAudioUnit.h>
 
-@class AUParameterTree, AUV2BridgeBusArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AUAudioUnitV2Bridge : AUAudioUnit
 {
     NSObject<OS_dispatch_queue> *_eventListenerQueue;
-    struct AUListenerBase *_eventListener;
-    struct AUListenerBase *_parameterListener;
-    _Bool _removingObserverWithContext;
-    struct atomic<bool> _willSetFullState;
-    struct atomic<unsigned int> _eventsTriggeringParameterTreeInvalidation;
-    NSObject<OS_dispatch_queue> *_parameterTreeRebuildQueue;
-    struct OpaqueAudioComponentInstance *_audioUnit;
-    _Bool _audioUnitIsOwned;
-    AUV2BridgeBusArray *_inputBusses;
-    AUV2BridgeBusArray *_outputBusses;
-    AUParameterTree *_cachedParameterTree;
-    struct unique_ptr<AUAudioUnitV2Bridge_Renderer, std::default_delete<AUAudioUnitV2Bridge_Renderer>> _renderer;
-    CDUnknownBlockType _MIDIOutputEventBlock;
-    CDUnknownBlockType _MIDIOutputEventListBlock;
 }
 
 + (_Bool)<¤;
@@ -34,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (_Bool);
 - (id);
 - (id);
@@ -64,7 +50,7 @@
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)EE3$_0FvvEEE;
 - (id);
 - (void);
 - (void);
@@ -72,7 +58,7 @@
 - (struct OpaqueAudioComponentInstance *);
 - (void);
 - (void);
-- (void)ertComplexBufferEjPK15AudioBufferListPS1_;
+- (void)_ZN14pooledRenderer17AudioConverterOOP20convertComplexBufferEjPK15AudioBufferListPS1_;
 - (void)OA order definition Channels = (order+1)^2);
 
 // Remaining properties

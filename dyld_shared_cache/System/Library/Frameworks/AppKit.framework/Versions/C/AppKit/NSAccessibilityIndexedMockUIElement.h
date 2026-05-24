@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     long long _index;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)%llu;
++ (id)val_len;
+- (void)overwriteHTTPOnlyCookies;
+- (id):(id)arg1 %ld [%ld:(id)arg2 %d]);
+- (id)d]);
+- (id)Unavailable;
+- (id)B=%@ is NOT valid.  Unable to determine schema version.;
 - (unsigned long long);
 - (_Bool);
 - (long long)l API and cannot be used.;

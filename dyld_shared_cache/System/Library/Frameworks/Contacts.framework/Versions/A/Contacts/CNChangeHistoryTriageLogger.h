@@ -4,61 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CNChangeHistoryTriageLogger
 {
     unsigned char _defaultLogType;
-    unsigned char _destructiveLogType;
-    NSObject<OS_os_log> *_os_log;
 }
 
++ (id)4@?0@"CTPhoneNumberInfo"8@"NSError"16;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (void);
 - (unsigned char);
+- (void)r *)>>>>="__tree_"{__tree<std:(id)arg1:__value_type<__CTAssertionType *, std::pair<dispatch::queue, void (^)(NSError *)>>, std::__map_value_compare<__CTAssertionType *, std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>, std::less<__CTAssertionType *>>, std::allocator<std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
+- (void)hiddenData;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ple.ipTelephony.sipIncoming;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (id);
+- (void)displayName;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned char);
-- (void);
+- (void)oundTask;
 - (void);
 - (void);
 - (void)terDataFetchRequest"16^@24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) unsigned char defaultLogType; // @synthesize defaultLogType=_defaultLogType;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned char destructiveLogType; // @synthesize destructiveLogType=_destructiveLogType;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_os_log> *os_log; // @synthesize os_log=_os_log;
-@property(readonly) Class superclass;
 
 @end
 

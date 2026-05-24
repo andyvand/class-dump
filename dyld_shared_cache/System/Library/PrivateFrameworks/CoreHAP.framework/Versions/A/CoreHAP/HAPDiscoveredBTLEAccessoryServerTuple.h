@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HAPDiscoveredBTLEAccessoryServerTuple
 {
     HAPAccessoryServerBTLE *_accessoryServer;
-    double _lastSeen;
 }
 
 + (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HAPAccessoryServerBTLE *accessoryServer; // @synthesize accessoryServer=_accessoryServer;
-@property(nonatomic) double lastSeen; // @synthesize lastSeen=_lastSeen;
 
 @end
 

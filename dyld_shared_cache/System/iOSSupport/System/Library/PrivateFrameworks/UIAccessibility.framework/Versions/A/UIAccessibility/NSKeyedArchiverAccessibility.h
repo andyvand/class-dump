@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)STScreenTimeConfiguration";
 + (id);
 - (id)@"UITextPosition"16q24;
 - (void)yConstants.h for the list of valid values.;

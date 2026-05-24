@@ -6,55 +6,42 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PNRODSchemaPNRError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    int _source;
-    struct {
-        unsigned int code:1;
-        unsigned int source:1;
-    } _has;
-    _Bool _hasDomain;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)isParking;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)c %@ starred %@ hidden %@ userInteracted %@;
 - (void);
 - (id);
 - (int);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id);
+- (id)_isDiagnosticsAndUsageEnabled;
 - (id)ersion;
 - (long long)0÷ÿ;
-- (_Bool)_CATEGORY_LOCATION;
-- (void)E;
+- (_Bool)FLOWMAPSQUERYLABEL_POI_CATEGORY_LOCATION;
+- (void)COUNTRYCODE_VE;
 - (void)d;
-- (void)LREASON_RECOGNITION_CANCELLED;
+- (void)ASRCANCELREASON_RECOGNITION_CANCELLED;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

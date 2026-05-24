@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 @interface _MLSNVGGishFrontendProcessing
 {
     id <MLCustomModel> _frontendProcessingModel;
-    MLModelDescription *_modelDescription;
 }
 
-- (id);
+- (id)atomic_compare_exchange;
 - (id);
 - (id);
 - (void)dly didn't reuse the E5 stream.;

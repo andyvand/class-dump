@@ -11,18 +11,16 @@
 @interface HMAccessorySettingsMessageDispatcherStartSendingMessageEvent : HMCoreAnalyticsMetricEvent
 {
     NSString *_messageName;
-    NSString *_updateKeyPath;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)facemarkCandidate;
 - (void)ì;
 
 // Remaining properties
 @property(readonly, copy) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, copy) NSString *updateKeyPath; // @synthesize updateKeyPath=_updateKeyPath;
 
 @end
 

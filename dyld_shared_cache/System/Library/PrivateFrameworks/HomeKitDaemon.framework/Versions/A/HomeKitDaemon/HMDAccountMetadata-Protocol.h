@@ -11,8 +11,6 @@
 - (NSString *)rigger belongs to user %@, this device's user %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *firstName;
 @property(readonly, copy) NSString *iCloudAltDSID;
-@property(readonly, copy) NSString *lastName;
 @end
 

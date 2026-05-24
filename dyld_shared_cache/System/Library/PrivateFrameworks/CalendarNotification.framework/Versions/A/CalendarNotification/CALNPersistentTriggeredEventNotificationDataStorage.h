@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNInMemoryTriggeredEventNotificationDataStorage, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CALNPersistentTriggeredEventNotificationDataStorage
 {
     _Bool _protected;
-    NSString *_path;
-    CALNInMemoryTriggeredEventNotificationDataStorage *_inMemoryStorage;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
-+ (id);
++ (id)!;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)_messageTraceTravelTimeDurationSelected: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CALNInMemoryTriggeredEventNotificationDataStorage *inMemoryStorage; // @synthesize inMemoryStorage=_inMemoryStorage;
 @property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

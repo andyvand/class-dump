@@ -7,9 +7,6 @@
 @interface MediaPlaybackCore._CriticalSectionContinuation__priv_D1952812ADC71DAE08E6CF49EC227596
 {
     id name;
-    id actions;
-    id ready;
-    id counter;
 }
 
 - (id);

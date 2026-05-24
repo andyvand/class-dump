@@ -6,30 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSArray, NSNumber;
+@class CIImage;
 
 @interface RAWConvert : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSArray *inputNeutral;
-    NSNumber *inputRange;
-    NSNumber *inputFactor;
-    NSNumber *inputCalibrationIlluminant1;
-    NSNumber *inputCalibrationIlluminant2;
-    NSArray *inputXYZtoCamera1;
-    NSArray *inputXYZtoCamera2;
-    NSArray *inputCameraCalibration1;
-    NSArray *inputCameraCalibration2;
-    NSArray *inputReduction1;
-    NSArray *inputReduction2;
-    NSArray *inputForwardMatrix1;
-    NSArray *inputForwardMatrix2;
-    NSNumber *inputShouldUseForwardMatrix;
-    NSNumber *inputShouldRecoverHighlights;
-    NSNumber *inputShouldLinearize;
-    CIVector *inputBlacks;
-    NSNumber *inputTargetRange;
 }
 
 + (id);

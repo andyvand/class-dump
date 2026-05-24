@@ -6,31 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLSchemaDODMLClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_dodMlId;
-    NSString *_experimentName;
-    NSString *_trialExperimentId;
-    SISchemaUUID *_trialTreatmentId;
-    long long _trialDeploymentId;
-    struct {
-        unsigned int trialDeploymentId:1;
-    } _has;
-    _Bool _hasDodMlId;
-    _Bool _hasExperimentName;
-    _Bool _hasTrialExperimentId;
-    _Bool _hasTrialTreatmentId;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
@@ -44,17 +33,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ved an XPC_ERROR_CONNECTION_INTERRUPTED error.
+;
+- (void);
+- (id)dLength:(id)arg1 toAPDU:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)b;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)lationCard"b1"timeToCancel"b1"status"b1};
-- (id)SServerEventMetadata;
+- (id)PEGASUSSchemaPEGASUSServerEventMetadata;
 - (id)üö÷Ðø4ùÜúû;
 - (void)Ðv¸ÿ7>±%%;
 - (id)Ù;
@@ -63,16 +53,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *dodMlId; // @synthesize dodMlId=_dodMlId;
-@property(copy, nonatomic) NSString *experimentName; // @synthesize experimentName=_experimentName;
-@property(nonatomic) _Bool hasDodMlId; // @synthesize hasDodMlId=_hasDodMlId;
-@property(nonatomic) _Bool hasExperimentName; // @synthesize hasExperimentName=_hasExperimentName;
-@property(nonatomic) _Bool hasTrialDeploymentId;
-@property(nonatomic) _Bool hasTrialExperimentId; // @synthesize hasTrialExperimentId=_hasTrialExperimentId;
-@property(nonatomic) _Bool hasTrialTreatmentId; // @synthesize hasTrialTreatmentId=_hasTrialTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long trialDeploymentId; // @synthesize trialDeploymentId=_trialDeploymentId;
-@property(copy, nonatomic) NSString *trialExperimentId; // @synthesize trialExperimentId=_trialExperimentId;
-@property(retain, nonatomic) SISchemaUUID *trialTreatmentId; // @synthesize trialTreatmentId=_trialTreatmentId;
 
 @end
 

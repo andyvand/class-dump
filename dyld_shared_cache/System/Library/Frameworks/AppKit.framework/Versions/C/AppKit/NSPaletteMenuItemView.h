@@ -6,27 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMenuItem;
-
 __attribute__((visibility("hidden")))
 @interface NSPaletteMenuItemView : NSView
 {
     void menuItem;
-    double fontSizeOverride;
-    id borderLayer;
-    id gapWidth;
-    id outlineWidth;
-    id _isHighlighted;
-    id hasCircleLayers;
-    id hasOutlineLayers;
-    _Bool isHighlighted;
-    id $__lazy_storage_$_imageView;
-    id $__lazy_storage_$_backgroundView;
-    id $__lazy_storage_$_selectionBackgroundView;
-    id $__lazy_storage_$_outlineView;
-    id $__lazy_storage_$_normalSymbolConfiguration;
-    id $__lazy_storage_$_overlaySymbolConfiguration;
-    id $__lazy_storage_$_symbolPath;
 }
 
 - (_Bool);
@@ -34,22 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)initInNSMemoryHTTPCookie2Storage;
 - (id);
 - (void);
 - (id)nnedSupplementaryItemIndexes:(struct CGRect)arg1;
 - (void)\¼;
-- (void)get;
+- (void)NSColorWellPullDownTarget;
 - (void);
 - (_Bool)B;
 - (id)C;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBeHighlighted;
-@property(nonatomic) double fontSizeOverride; // @synthesize fontSizeOverride;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted;
-@property(nonatomic) __weak NSMenuItem *menuItem; // @synthesize menuItem;
-@property(nonatomic, readonly) _Bool wantsSelectionMaterial;
 
 @end
 

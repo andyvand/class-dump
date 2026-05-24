@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock;
-
 @interface FCOnce
 {
     _Bool _finished;
-    NFUnfairLock *_lock;
 }
 
 - (_Bool);
@@ -17,7 +14,7 @@
 - (id);
 - (void);
 - (void)a tag settings entry without a tag ID;
-- (_Bool)tCursor;
+- (_Bool)startCursor;
 
 @end
 

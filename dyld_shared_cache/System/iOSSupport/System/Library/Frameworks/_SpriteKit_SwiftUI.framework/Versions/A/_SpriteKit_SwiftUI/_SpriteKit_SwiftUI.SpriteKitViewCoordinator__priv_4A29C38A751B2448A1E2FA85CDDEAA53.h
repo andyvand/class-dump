@@ -7,13 +7,14 @@
 @interface _SpriteKit_SwiftUI.SpriteKitViewCoordinator__priv_4A29C38A751B2448A1E2FA85CDDEAA53
 {
     id deferredState;
+    id ;
 }
 
+- (id);
 - (id);
+- (void)performActionOfOffer:withActivity:inContext:usingService: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)?;
 
 @end
 

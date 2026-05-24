@@ -14,12 +14,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)�2;
 - (int);
 - (unsigned int);
 - (void);
@@ -31,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)isWeekend: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

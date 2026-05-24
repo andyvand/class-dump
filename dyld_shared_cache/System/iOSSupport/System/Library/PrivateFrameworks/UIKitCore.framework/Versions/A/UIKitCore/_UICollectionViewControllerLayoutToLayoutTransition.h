@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionViewLayout, UIPercentDrivenInteractiveTransition;
+@class UICollectionViewLayout;
 
 @interface _UICollectionViewControllerLayoutToLayoutTransition
 {
     _Bool _crossFadeNavigationBar;
-    _Bool _crossFadeBottomBars;
-    UICollectionViewLayout *_toLayout;
-    UIPercentDrivenInteractiveTransition *_interactionController;
-    long long _operation;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)ousekeeping, currently under unit testing;
+- (void)populateIMMessageItemWithProtobufFields:(_Bool)arg1 withProtobufDataP4: /* Error: Ran out of types for this method. */;
+- (void)populateIMMessageItemWithProtobufFields:(_Bool)arg1 withProtobufDataP4: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)DidChangeExternallyNotification missing reason.;
+- (_Bool)pty:%s /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
+- (id)@] dispatch | asserting [already dispatched];
 - (void)Ð1Â0@ù
 × ;
-- (void)Classes;
-- (void)boardCrossFadeOpacity;
+- (void)restrictedSplashboardClasses;
+- (void)_keyboardCrossFadeOpacity;
 - (void)vider:(id)arg1 ,V__metadataProvider;
 - (id);
 - (void)80éþ©;
@@ -35,17 +31,6 @@
 - (void)Ù;
 
 // Remaining properties
-@property(nonatomic) _Bool crossFadeBottomBars; // @synthesize crossFadeBottomBars=_crossFadeBottomBars;
-@property(nonatomic) _Bool crossFadeNavigationBar; // @synthesize crossFadeNavigationBar=_crossFadeNavigationBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) UIPercentDrivenInteractiveTransition *interactionController; // @synthesize interactionController=_interactionController;
-@property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UICollectionViewLayout *toLayout; // @synthesize toLayout=_toLayout;
 
 @end

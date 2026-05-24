@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface ILCommunication
 {
     NSString *_sender;
-    NSDate *_dateReceived;
 }
 
-+ (_Bool);
++ (_Bool)llingObserver",R,N,V_scrollingObserver;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)ils",&,N,V_ipV4DetailsPrevSession;
+- (id)uld not populate GPS to UTC conversion parameters,subsecond,%i,leapsecond,%i;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
 @property(readonly, copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end

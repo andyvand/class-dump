@@ -5,5 +5,8 @@
 //
 
 @protocol PXPlacesMapViewDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DDHighlightRequest
 {
     NSString *_webViewIdentifier;
-    NSArray *_highlightObjects;
-    id _webView;
-    _Bool _webViewDisplayed;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id)ge should be included in streetRange;
 
 // Remaining properties
-@property(retain) NSArray *highlightObjects; // @synthesize highlightObjects=_highlightObjects;
-@property(retain) id webView; // @synthesize webView=_webView;
-@property _Bool webViewDisplayed;
 @property(copy) NSString *webViewIdentifier; // @synthesize webViewIdentifier=_webViewIdentifier;
 
 @end

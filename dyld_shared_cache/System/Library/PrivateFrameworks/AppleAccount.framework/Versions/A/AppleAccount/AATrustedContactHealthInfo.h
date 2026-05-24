@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface AATrustedContactHealthInfo
 {
     NSUUID *_identifier;
-    NSDate *_lastValidCheckTimestamp;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ration profile contains missing or invalid information for PayloadIdentifier;
+- (id)config payload not dictionary;
+- (id);
 - (id);
 - (void);
+- (id)initWithTitle:(struct _NSZone *)arg1 subtitle:iconUTI:linkToBundleIdentifier:resources:submissionStrategy:executionContext:hostAppAuditToken: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)ssProperties: /* Error: Ran out of types for this method. */;
+- (void)setDataclassProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDate *lastValidCheckTimestamp; // @synthesize lastValidCheckTimestamp=_lastValidCheckTimestamp;
 
 @end
 

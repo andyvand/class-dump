@@ -7,26 +7,6 @@
 @interface PhotosUICore.SharedAlbumsActivityEntryItemListManager
 {
     id photoLibrary;
-    id _itemList;
-    id _fetching;
-    id _canFetchMoreItems;
-    id activityEntries;
-    id _observedOids;
-    id _observedAssetOids;
-    id reverseSortOrder;
-    id _batchFetchLimit;
-    id highPriorityFetching;
-    id filter;
-    id changeDetailsRepository;
-    id observable;
-    id activityEntryRepository;
-    id unreadOnly;
-    id __cachedLastSeenUnreadDate;
-    id __lastSeenNotificationObserver;
-    id displayUseCase;
-    id sharedAlbumsAvailabilityObserver;
-    id logIdentifier;
-    id _$observationRegistrar;
 }
 
 - (void);

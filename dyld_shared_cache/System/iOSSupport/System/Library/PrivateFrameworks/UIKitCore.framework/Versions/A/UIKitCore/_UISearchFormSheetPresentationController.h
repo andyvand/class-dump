@@ -6,18 +6,15 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSString, UIView, _UISearchPresentationAssistant;
-@protocol _UISearchControllerPresenting;
+@class UIView, _UISearchPresentationAssistant;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchFormSheetPresentationController : UIPresentationController
 {
     _UISearchPresentationAssistant *_assistant;
-    UIView *_wrapperView;
-    struct CGRect finalFrameForContainerView;
 }
 
-- (_Bool);
+- (_Bool)_permanentTransferGUIDForExistingTransferWithTemporaryGUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGRect);
@@ -31,19 +28,19 @@ __attribute__((visibility("hidden")))
 - (void)Ø}ÿÿÚïÿÚ}ÿÿèÉïÿà}ÿÿèÉïÿ´ïÿ®úîÿ;
 - (void)(same);
 - (_Bool)inatorContext.m;
-- (_Bool)ldRemoteContentRegistry;
+- (_Bool)_UIChildRemoteContentRegistry;
 - (_Bool)TraitUIOptimized ;
 - (unsigned long long)rting.;
-- (double)atorViewStyleStatusBarLockScreenSync;
+- (double)UIActivityIndicatorViewStyleStatusBarLockScreenSync;
 - (struct CGRect)ternalUserInfo:%@ /* Error: Ran out of types for this method. */;
-- (void)ssEffectDiffusionDidChangeNotification;
-- (_Bool)ent;
+- (void)NSGlassEffectDiffusionDidChangeNotification;
+- (_Bool)childEnvironment;
 - (void)indof UICellAccessory * _Nonnull _accessoryAsClass(UICellAccessory * _Nonnull __strong, Class  _Nonnull __unsafe_unretained);
 - (_Bool)lProvider(_UISearchBarVisualProviderBase *__strong);
-- (void)ISceneDidChangeSettingsSceneNotification;
+- (void)_UISceneDidChangeSettingsSceneNotification;
 - (struct CGRect)ª;
 - (id)yN¼.3GGSOGGGAPG_¾Ý.3Qo__AFQo__7~.3Qo__Qo_ALyH­.3GGGG;
-- (void)ceReorderingHandlersC;
+- (void)So52UICollectionViewDiffableDataSourceReorderingHandlersC;
 - (id)pGG;
 - (void);
 - (id)íµ ÷Æ°>;
@@ -57,26 +54,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;
-@property(readonly, nonatomic) _Bool animatorShouldLayoutPresentationViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long edgeForHidingNavigationBar;
-@property(readonly, nonatomic) struct CGRect finalFrameForContainerView; // @synthesize finalFrameForContainerView;
-@property(readonly, nonatomic) _Bool forceObeyNavigationBarInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double resultsControllerContentOffset;
-@property(readonly, nonatomic) _Bool resultsUnderlapsSearchBar;
-@property(readonly, nonatomic) _Bool searchBarCanContainScopeBar;
 @property(readonly, retain, nonatomic) UIView *searchBarContainerView;
-@property(readonly, nonatomic) _Bool searchBarShouldClipToBounds;
-@property(readonly, nonatomic) _Bool searchBarToBecomeTopAttached;
-@property(readonly, nonatomic) _Bool shouldAccountForStatusBar;
-@property(readonly, nonatomic) double statusBarAdjustment;
-@property(readonly) Class superclass;
 
 @end
 

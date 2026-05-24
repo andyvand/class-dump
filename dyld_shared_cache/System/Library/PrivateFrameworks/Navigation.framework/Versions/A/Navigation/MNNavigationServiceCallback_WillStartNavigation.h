@@ -6,16 +6,9 @@
 
 #import <Navigation/MNNavigationServiceCallbackParameters.h>
 
-@class MNActiveRouteInfo, NSString;
-
 @interface MNNavigationServiceCallback_WillStartNavigation : MNNavigationServiceCallbackParameters
 {
     _Bool _isResumingMultiStopRoute;
-    long long _navigationType;
-    long long _simulationType;
-    MNActiveRouteInfo *_routeInfo;
-    unsigned long long _initialRouteSource;
-    NSString *_voiceLanguage;
 }
 
 + (_Bool);
@@ -27,22 +20,17 @@
 - (id);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (unsigned long long);
+- (void)DebugUsageDictValueForKey;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id)@32@40d48d56;
 
 // Remaining properties
-@property(nonatomic) unsigned long long initialRouteSource; // @synthesize initialRouteSource=_initialRouteSource;
-@property(nonatomic) _Bool isResumingMultiStopRoute; // @synthesize isResumingMultiStopRoute=_isResumingMultiStopRoute;
 @property(nonatomic) long long navigationType; // @synthesize navigationType=_navigationType;
-@property(retain, nonatomic) MNActiveRouteInfo *routeInfo; // @synthesize routeInfo=_routeInfo;
-@property(nonatomic) long long simulationType; // @synthesize simulationType=_simulationType;
-@property(copy, nonatomic) NSString *voiceLanguage; // @synthesize voiceLanguage=_voiceLanguage;
 
 @end
 

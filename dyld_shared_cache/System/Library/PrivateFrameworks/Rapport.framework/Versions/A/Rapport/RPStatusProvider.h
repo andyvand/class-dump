@@ -4,63 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, RPSignedInUserProvider;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPStatusProvider
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    id <RPSignedInUserProvider> _userProvider;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableDictionary *_currentlyProviding;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ement for completed registration;
+- (id)__lme_fst_arcs;
+- (void)stic model are the input to the realignment model, otherwise use the same features as the main acoustic model as input;
+- (id)pLatticeERNS_6vectorIPNS4_3ArcENS_9allocatorIS8_EEEEbE3$_1FdRKS7_EEE;
+- (id)T;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (_Bool)ID '%@' to <%@> error:%{error}
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *currentlyProviding; // @synthesize currentlyProviding=_currentlyProviding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
 
 @end
 

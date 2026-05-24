@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLTexture, MDLTextureFilter, MDLTransform;
+@class MDLTexture;
 
 @interface MDLTextureSampler
 {
     MDLTexture *texture;
-    MDLTextureFilter *hardwareFilter;
-    MDLTransform *transform;
-    unsigned long long mappingChannel;
-    long long textureComponents;
 }
 
 - (void);
 - (long long);
-- (void);
-- (id);
+- (void)rId ON lastFeaturizations (sessionDescriptorId);
+- (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)playName;
 - (id);
-- (id);
+- (id)r characteristic %@ because there is no server.;
 - (void);
 - (void);
 - (id)_;
 
 // Remaining properties
-@property(retain, nonatomic) MDLTextureFilter *hardwareFilter; // @synthesize hardwareFilter;
 @property(nonatomic) unsigned long long mappingChannel; // @synthesize mappingChannel;
-@property(retain, nonatomic) MDLTexture *texture; // @synthesize texture;
-@property(nonatomic) long long textureComponents; // @synthesize textureComponents;
-@property(retain, nonatomic) MDLTransform *transform; // @synthesize transform;
 
 @end
 

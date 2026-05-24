@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchCapabilitiesParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOPDViewportInfo *_viewportInfo;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)optoutIncidentReporting"b1"read_unknownFields"b1"read_userPreferences"b1"read_vehicleSpecifications"b1"wrote_anyField"b1};
-- (id)ilsTransitPlaceCardTransitDepartureSequenceUsageLineId;
+- (id)_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageLineId;
 - (id)¼Ø¼;
 - (void)Ý´§!H@;
 

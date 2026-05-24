@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ERS_MAX_BUFFER_SIZE;
 + (id);
 
 @end

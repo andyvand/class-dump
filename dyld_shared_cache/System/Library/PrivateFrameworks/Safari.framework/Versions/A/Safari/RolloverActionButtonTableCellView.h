@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSLayoutConstraint, NSTrackingArea, RolloverImageButton;
-@protocol RolloverActionButtonTableCellViewDelegate;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface RolloverActionButtonTableCellView
 {
     _Bool _cancelRemoveButtonAnimation;
-    NSArray *_actionButtonLayoutConstraints;
-    NSLayoutConstraint *_titleFieldTrailingConstraintWhenActionButtonIsVisible;
-    _Bool _showsActionButton;
-    _Bool _updatesTitleTextFieldFrameWhenActionButtonVisibilityChanges;
-    int _actionButtonState;
-    id <RolloverActionButtonTableCellViewDelegate> _delegate;
-    RolloverImageButton *_actionButton;
-    NSImage *_actionButtonImage;
-    double _actionButtonVerticalMargin;
-    double _actionButtonHorizontalMargin;
-    double _actionButtonYOffsetWhenVerticallyCentered;
-    double _actionButtonAnimationDuration;
-    NSTrackingArea *_trackingArea;
 }
 
 + (id);
-+ (double);
++ (double);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -58,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -69,17 +55,7 @@ __attribute__((visibility("hidden")))
 - (void)Ð;
 
 // Remaining properties
-@property(nonatomic) __weak RolloverImageButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(nonatomic) double actionButtonAnimationDuration; // @synthesize actionButtonAnimationDuration=_actionButtonAnimationDuration;
-@property(nonatomic) double actionButtonHorizontalMargin; // @synthesize actionButtonHorizontalMargin=_actionButtonHorizontalMargin;
-@property(retain, nonatomic) NSImage *actionButtonImage; // @synthesize actionButtonImage=_actionButtonImage;
-@property(nonatomic) int actionButtonState; // @synthesize actionButtonState=_actionButtonState;
-@property(nonatomic) double actionButtonVerticalMargin; // @synthesize actionButtonVerticalMargin=_actionButtonVerticalMargin;
-@property(nonatomic) double actionButtonYOffsetWhenVerticallyCentered; // @synthesize actionButtonYOffsetWhenVerticallyCentered=_actionButtonYOffsetWhenVerticallyCentered;
-@property(nonatomic) __weak id <RolloverActionButtonTableCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool showsActionButton; // @synthesize showsActionButton=_showsActionButton;
 @property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
-@property(nonatomic) _Bool updatesTitleTextFieldFrameWhenActionButtonVisibilityChanges; // @synthesize updatesTitleTextFieldFrameWhenActionButtonVisibilityChanges=_updatesTitleTextFieldFrameWhenActionButtonVisibilityChanges;
 
 @end
 

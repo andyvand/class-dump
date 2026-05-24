@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TLAlertConfiguration;
-
 @interface NCNotificationSound
 {
     long long _soundType;
     unsigned int _systemSoundID;
-    unsigned long long _soundBehavior;
-    NSString *_ringtoneName;
-    NSDictionary *_vibrationPattern;
-    _Bool _repeats;
-    double _maxDuration;
-    NSDictionary *_controllerAttributes;
-    NSString *_songPath;
-    TLAlertConfiguration *_alertConfiguration;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)must implement -singleStateClass;
+- (unsigned long long)ript access to the web page?;
+- (id)actionList;
+- (id)enter asked to perform Siri request %@ while no action is running;
+- (id)Focus filter.;
+- (id)WFShortcutsPrivateSharingEnabled;
 - (id);
 - (double);
-- (id);
+- (id)ArithmeticBinaryOperatorNode;
 - (id);
 - (id);
 - (unsigned int);
@@ -38,29 +28,14 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)J);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) TLAlertConfiguration *alertConfiguration; // @synthesize alertConfiguration=_alertConfiguration;
-@property(readonly, copy, nonatomic) NSDictionary *controllerAttributes; // @synthesize controllerAttributes=_controllerAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxDuration; // @synthesize maxDuration=_maxDuration;
-@property(readonly, nonatomic, getter=isRepeating) _Bool repeats; // @synthesize repeats=_repeats;
-@property(readonly, copy, nonatomic) NSString *ringtoneName; // @synthesize ringtoneName=_ringtoneName;
-@property(readonly, copy, nonatomic) NSString *songPath; // @synthesize songPath=_songPath;
-@property(readonly, nonatomic) unsigned long long soundBehavior; // @synthesize soundBehavior=_soundBehavior;
 @property(readonly, nonatomic) long long soundType; // @synthesize soundType=_soundType;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned int systemSoundID; // @synthesize systemSoundID=_systemSoundID;
-@property(readonly, copy, nonatomic) NSDictionary *vibrationPattern; // @synthesize vibrationPattern=_vibrationPattern;
 
 @end
 

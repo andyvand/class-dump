@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @protocol INSearchForPhotosIntentResponseExport
-- (long long)argetRelationship;
+- (long long)hasTargetRelationship;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *searchResultsCount;
 @end
 

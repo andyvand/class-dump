@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface _CDContactStatistics
 {
     unsigned long long _outgoingRecipientCount;
-    unsigned long long _incomingSenderCount;
-    unsigned long long _incomingRecipientCount;
-    NSDate *_lastOutgoingRecipientDate;
-    NSDate *_lastIncomingSenderDate;
-    NSDate *_lastIncomingRecipientDate;
-    NSDate *_firstOutgoingRecipientDate;
-    NSDate *_firstIncomingSenderDate;
-    NSDate *_firstIncomingRecipientDate;
 }
 
 + (_Bool);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
@@ -34,22 +24,22 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)\8;
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double)N~;
 - (unsigned long long);
 - (double);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -58,14 +48,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *firstIncomingRecipientDate; // @synthesize firstIncomingRecipientDate=_firstIncomingRecipientDate;
-@property(copy, nonatomic) NSDate *firstIncomingSenderDate; // @synthesize firstIncomingSenderDate=_firstIncomingSenderDate;
-@property(copy, nonatomic) NSDate *firstOutgoingRecipientDate; // @synthesize firstOutgoingRecipientDate=_firstOutgoingRecipientDate;
-@property unsigned long long incomingRecipientCount; // @synthesize incomingRecipientCount=_incomingRecipientCount;
-@property unsigned long long incomingSenderCount; // @synthesize incomingSenderCount=_incomingSenderCount;
-@property(copy, nonatomic) NSDate *lastIncomingRecipientDate; // @synthesize lastIncomingRecipientDate=_lastIncomingRecipientDate;
-@property(copy, nonatomic) NSDate *lastIncomingSenderDate; // @synthesize lastIncomingSenderDate=_lastIncomingSenderDate;
-@property(copy, nonatomic) NSDate *lastOutgoingRecipientDate; // @synthesize lastOutgoingRecipientDate=_lastOutgoingRecipientDate;
 @property unsigned long long outgoingRecipientCount; // @synthesize outgoingRecipientCount=_outgoingRecipientCount;
 
 @end

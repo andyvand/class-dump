@@ -12,7 +12,7 @@
 }
 
 - (double);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (struct CGSize);
 - (id);

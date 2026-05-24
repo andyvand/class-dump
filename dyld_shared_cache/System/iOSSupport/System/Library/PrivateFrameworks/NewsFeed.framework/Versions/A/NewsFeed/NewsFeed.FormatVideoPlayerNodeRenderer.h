@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerNodeRenderer
 {
     id imageRenderer;
-    id reuseManager;
 }
 
 @end

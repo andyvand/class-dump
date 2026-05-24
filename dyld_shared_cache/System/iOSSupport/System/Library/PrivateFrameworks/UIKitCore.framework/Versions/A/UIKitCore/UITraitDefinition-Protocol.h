@@ -9,6 +9,6 @@
 @protocol UITraitDefinition
 
 @optional
-+ (NSString *)33_2ED668DD1C0D8968A321F2B9D51C08016Handle;
++ (NSString *)_TtCC5UIKit34_UILightEffectTransitionControllerP33_2ED668DD1C0D8968A321F2B9D51C08016Handle;
 @end
 

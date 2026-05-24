@@ -9,24 +9,22 @@
 @interface IMDaemonQueryController
 {
     IMDaemonController *_daemonController;
-    NSMutableDictionary *_queries;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ow packet lifetime and erasures;
+- (void)er [%s] %s:(id)arg1 %d Queue Steering:(_Bool)arg2 Growing queue to protect against low packet lifetime and erasures;
+- (void)uffer corrupted. Packet too short (%d < %d), payload=%d;
+- (void)stics has reverse history! byte count is not incremental, serverStatsDiff:(id)arg1 %d, currentCount:(id)arg2 %llu, previousCount:%llu, time:%f, index:%d /* Error: Ran out of types for this method. */;
+- (void)x:(id)arg1 %d;
+- (void)t result=0x%x;
+- (void)isLocal=%d;
+- (void)age;
 - (id);
 - (id);
 - (id);
 - (void)L;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;
 @property(readonly, nonatomic) NSMutableDictionary *queries; // @synthesize queries=_queries;
 
 @end

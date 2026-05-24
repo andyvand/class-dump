@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableURLRequest, NSString, NSURL, NSURLRequest, NSURLResponse, WebArchive, WebFrame, WebResource;
-@protocol WebDocumentRepresentation;
+@class NSData;
 
 @interface WebDataSource
 {
@@ -15,19 +14,19 @@
 + (Class);
 + (id);
 + (void)Scrolling Animator;
-- (id);
+- (id)q;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)�$;
 - (id);
 - (void);
 - (void);
+- (void)[;
+- (void)|;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -35,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (NakedPtr_2c503e7f);
+- (NakedPtr_2c503e7f));
 - (id);
 - (void);
 - (_Bool);
@@ -43,14 +42,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)b
+;
 - (id);
 - (id);
+- (void)unavailable from amsaccountsd.;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)1>;
 - (id);
 - (id);
 - (_Bool)ValueType &) [Key = int, Value = WTF::KeyValuePair<int, unsigned long>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<int, unsigned long>>, HashFunctions = WTF::DefaultHash<int>, Traits = WTF::HashMap<int, unsigned long>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<int>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -58,18 +58,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSURLRequest *initialRequest;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(readonly, nonatomic) WebResource *mainResource;
-@property(readonly, copy, nonatomic) NSString *pageTitle;
-@property(readonly, nonatomic) id <WebDocumentRepresentation> representation;
-@property(readonly, nonatomic) NSMutableURLRequest *request;
-@property(readonly, nonatomic) NSURLResponse *response;
-@property(readonly, copy, nonatomic) NSArray *subresources;
-@property(readonly, copy, nonatomic) NSString *textEncodingName;
-@property(readonly, nonatomic) NSURL *unreachableURL;
-@property(readonly, nonatomic) WebArchive *webArchive;
-@property(readonly, nonatomic) WebFrame *webFrame;
 
 @end
 

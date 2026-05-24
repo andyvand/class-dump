@@ -11,15 +11,15 @@
 + (unsigned long long);
 - (void);
 - (void);
+- (void)nse",R,C;
+- (id)NSURLSessionDelegateImplementsWillSendRequestForEstablishedConnectionKey;
+- (id)ion-delegate;
+- (id)ot supported in background sessions;
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType)@;
 - (void);
 - (id);
 

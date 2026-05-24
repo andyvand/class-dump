@@ -11,20 +11,18 @@
 @interface MAParallelProgressReporter : MAProgressReporter
 {
     MAParallelProgress *_parallelProgress;
-    unsigned long long _index;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)<x;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)PAChecksum",R,N,V_checksum;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) MAParallelProgress *parallelProgress; // @synthesize parallelProgress=_parallelProgress;
 
 @end

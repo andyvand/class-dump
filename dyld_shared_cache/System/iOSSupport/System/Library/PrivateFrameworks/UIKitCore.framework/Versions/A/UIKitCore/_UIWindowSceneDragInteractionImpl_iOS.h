@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPanGestureRecognizer, UIView, _UIClientToHostRelationshipGestureInteraction, _UIDoubleTapInteraction, _UIRelationshipGestureRecognizer;
+@class UIView, _UIClientToHostRelationshipGestureInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneDragInteractionImpl_iOS
 {
     UIView *_view;
-    _UIClientToHostRelationshipGestureInteraction *_clientRelationshipInteraction;
-    _UIDoubleTapInteraction *_doubleTapInteraction;
-    UIPanGestureRecognizer *_directTouchPanGestureRecognizer;
-    UIPanGestureRecognizer *_pointerTouchPanGestureRecognizer;
-    _UIRelationshipGestureRecognizer *_failureRelationshipGestureRecognizer;
 }
 
 - (void);
@@ -25,31 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Array",R,N,V_replicationSessions;
 - (void);
+- (id)eason.;
 - (id);
-- (id);
-- (id)orHeaderInSection: /* Error: Ran out of types for this method. */;
-- (id)ionary;
+- (id)_delegateViewForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (id)_actionDictionary;
 - (void)@;
 - (void)ÿ0ÌèÿTÌèÿÌèÿÄÌèÿXÍèÿ;
-- (void)IVibrancyEffectFilterType;
+- (void)UIVibrancyEffectFilterType;
 - (void)îÈþÿ;
 
 // Remaining properties
 @property(retain, nonatomic) _UIClientToHostRelationshipGestureInteraction *clientRelationshipInteraction; // @synthesize clientRelationshipInteraction=_clientRelationshipInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIPanGestureRecognizer *directTouchPanGestureRecognizer; // @synthesize directTouchPanGestureRecognizer=_directTouchPanGestureRecognizer;
-@property(retain, nonatomic) _UIDoubleTapInteraction *doubleTapInteraction; // @synthesize doubleTapInteraction=_doubleTapInteraction;
-@property(retain, nonatomic) _UIRelationshipGestureRecognizer *failureRelationshipGestureRecognizer; // @synthesize failureRelationshipGestureRecognizer=_failureRelationshipGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIPanGestureRecognizer *pointerTouchPanGestureRecognizer; // @synthesize pointerTouchPanGestureRecognizer=_pointerTouchPanGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

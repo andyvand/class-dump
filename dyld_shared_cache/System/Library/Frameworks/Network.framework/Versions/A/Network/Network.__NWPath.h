@@ -9,15 +9,11 @@
 @interface Network.__NWPath
 {
     id path;
-    id lock;
-    id nexusKeyStorage;
-    id reasonDescriptionStorage;
-    id nat64PrefixStorage;
 }
 
-- (void);
+- (void)kCGImageSurfaceFormatRequest;
 - (id);
-- (id);
+- (id)W;
 - (void)@;
 
 // Remaining properties

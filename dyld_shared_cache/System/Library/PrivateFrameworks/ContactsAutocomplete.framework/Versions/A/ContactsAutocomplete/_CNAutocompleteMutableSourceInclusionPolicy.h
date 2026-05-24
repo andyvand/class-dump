@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _CNAutocompleteMutableSourceInclusionPolicy
 {
     _Bool _includeContacts;
-    _Bool _includeRecents;
-    _Bool _includeSuggestions;
-    _Bool _includeLocalExtensions;
-    _Bool _includeDirectoryServers;
-    _Bool _includeCalendarServers;
-    _Bool _includeSupplementalResults;
-    _Bool _includePredictions;
 }
 
 - (void);
@@ -23,34 +14,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool includeCalendarServers; // @synthesize includeCalendarServers=_includeCalendarServers;
 @property _Bool includeContacts; // @synthesize includeContacts=_includeContacts;
-@property _Bool includeDirectoryServers; // @synthesize includeDirectoryServers=_includeDirectoryServers;
-@property _Bool includeLocalExtensions; // @synthesize includeLocalExtensions=_includeLocalExtensions;
-@property _Bool includePredictions; // @synthesize includePredictions=_includePredictions;
-@property _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
-@property _Bool includeSupplementalResults; // @synthesize includeSupplementalResults=_includeSupplementalResults;
-@property(readonly) Class superclass;
 
 @end
 

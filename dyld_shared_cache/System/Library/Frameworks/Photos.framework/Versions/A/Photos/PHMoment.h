@@ -6,35 +6,23 @@
 
 #import <Photos/PHAssetCollection.h>
 
-@class NSDate, NSString;
-
 @interface PHMoment : PHAssetCollection
 {
     unsigned short _sharingComposition;
-    unsigned short _processedLocation;
-    short _originatorState;
-    int _timeZoneOffset;
-    float _aggregationScore;
-    NSDate *_modificationDate;
-    NSDate *_representativeDate;
-    NSString *_subtitle;
-    double _approximateLatitude;
-    double _approximateLongitude;
-    double _gpsHorizontalAccuracy;
 }
 
 + (id);
++ (id)@;
++ (id);
++ (id);
++ (id);
++ (id)getVerificationContextForUserIdentity:error: /* Error: Ran out of types for this method. */;
++ (_Bool)ize=dd},N,V_preferredArtworkSize;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id):(id)arg1;
++ (id)_handleCachingImageRequestResult:(id)arg1 request:(id)arg2 context: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 

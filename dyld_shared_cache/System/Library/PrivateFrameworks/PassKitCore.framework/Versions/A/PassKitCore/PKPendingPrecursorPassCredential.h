@@ -11,17 +11,16 @@
 @interface PKPendingPrecursorPassCredential : PKPendingProvisioning
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -29,11 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)S_BOARDING_FLIGHT_CODE_CHANGE_MESSAGE;
+- (void),V_resultResponseTimeoutCount;
+- (void)SEMANTICS_BOARDING_FLIGHT_CODE_CHANGE_MESSAGE;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

@@ -6,22 +6,19 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCQoSMonitorManager : VCObject
 {
     NSMutableDictionary *_sources;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    long long _reportingInterval;
 }
 
-+ (id)HopByHopEncryptionSupported;
++ (id)VCConnection_IsHopByHopEncryptionSupported;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

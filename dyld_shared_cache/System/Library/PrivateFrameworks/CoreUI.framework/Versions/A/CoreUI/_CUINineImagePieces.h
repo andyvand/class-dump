@@ -10,25 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _CUINineImagePieces
 {
     CUIImage *_center;
-    CUIImage *_topLeft;
-    CUIImage *_top;
-    CUIImage *_topRight;
-    CUIImage *_right;
-    CUIImage *_bottomRight;
-    CUIImage *_bottom;
-    CUIImage *_bottomLeft;
-    CUIImage *_left;
-    _Bool _tileCenterAndEdges;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (id)* @9;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)n;
+- (id)ou can't move participants between shares. Create a new participant to add to this share;
 - (id);
 - (id);
 - (id);

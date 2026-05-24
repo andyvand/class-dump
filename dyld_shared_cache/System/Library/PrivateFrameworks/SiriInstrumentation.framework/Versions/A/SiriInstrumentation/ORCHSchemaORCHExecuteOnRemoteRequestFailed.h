@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHExecuteOnRemoteRequestFailed : SISchemaInstrumentationMessage
 {
     int _aceCommandType;
-    CDStruct_f67dc06f _has;
 }
 
 - (void);
@@ -23,16 +20,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (id);
 - (id);
-- (id)QueueStateInfoTier1;
+- (id)_audioQueueStateInfoTier1;
 - (id)&,N,V_failed;
 
 // Remaining properties
 @property(nonatomic) int aceCommandType; // @synthesize aceCommandType=_aceCommandType;
-@property(nonatomic) _Bool hasAceCommandType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

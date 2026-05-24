@@ -6,27 +6,21 @@
 
 #import <UIKitCore/_UIToolbarVisualProvider.h>
 
-@class NSString, UIView, _UIBarBackground, _UIBarBackgroundLayout, _UIToolbarContentView;
+@class _UIBarBackground;
 
 @interface _UIToolbarVisualProviderModernIOS : _UIToolbarVisualProvider
 {
     _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayout *_backgroundViewLayout;
-    UIView *_customBackgroundView;
-    _UIToolbarContentView *_contentView;
-    long long _itemDistribution;
-    _Bool _useModernAppearance;
-    double _backgroundTransitionProgress;
 }
 
 - (void);
+- (void)n@;
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (struct NSDirectionalEdgeInsets)!;
 - (void)× ;
 - (struct CGSize)_1Â0@ù
@@ -35,21 +29,21 @@
 × ;
 - (id)!CùQb1Â0@ù
 × ;
-- (void)ngAnimator: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (_Bool)rtText:forKey: /* Error: Ran out of types for this method. */;
-- (void)ttributes: /* Error: Ran out of types for this method. */;
-- (void)omponents:(id)arg1;
-- (struct CGRect)mageRep;
+- (void)tabBarController:interactionControllerUsingAnimator: /* Error: Ran out of types for this method. */;
+- (void)setProminentButtonAppearance:(id)arg1;
+- (_Bool)insertText:forKey: /* Error: Ran out of types for this method. */;
+- (void)addPreferredAttributes: /* Error: Ran out of types for this method. */;
+- (void)_cancelComponents:(id)arg1;
+- (struct CGRect)NSUIImageAssetImageRep;
 - (struct CGRect)¬ô;
 - (void)userInfo dictionary;
-- (void)FinalSpring;
+- (void)collapseFinalSpring;
 - (void);
 - (void);
 - (_Bool);
 - (void)[sþ;
-- (id)le;
-- (double)Traits;
+- (id)Style;
+- (double)UIMutableTraits;
 - (void)AàÕ;
 - (void)ôª[;
 - (void);
@@ -60,13 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

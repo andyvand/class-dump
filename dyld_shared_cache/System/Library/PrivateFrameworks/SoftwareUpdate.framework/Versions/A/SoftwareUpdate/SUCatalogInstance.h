@@ -10,26 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SUCatalogInstance
 {
     _Bool _predicateScanOnly;
-    NSString *_catalogURL;
-    NSString *_catalogName;
-    long long _scanInterval;
-    long long _stagingDelay;
 }
 
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *catalogName; // @synthesize catalogName=_catalogName;
 @property(readonly) NSString *catalogURL; // @synthesize catalogURL=_catalogURL;
-@property(readonly) _Bool predicateScanOnly; // @synthesize predicateScanOnly=_predicateScanOnly;
-@property(readonly) long long scanInterval; // @synthesize scanInterval=_scanInterval;
-@property(readonly) long long stagingDelay; // @synthesize stagingDelay=_stagingDelay;
 
 @end
 

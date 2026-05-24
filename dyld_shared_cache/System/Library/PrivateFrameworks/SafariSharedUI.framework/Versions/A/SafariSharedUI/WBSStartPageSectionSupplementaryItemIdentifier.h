@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)3;
+- (_Bool);
 - (void)ogressAnimation;
 
 @end

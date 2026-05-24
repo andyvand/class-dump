@@ -5,6 +5,7 @@
 //
 
 @protocol GEOMapServiceWiFiQualityNetworkSearchTicket
-- (void)estination_sharing_enabled;
+- (void).apple.networkextension.necp.plist;
+- (void)destination_sharing_enabled;
 @end
 

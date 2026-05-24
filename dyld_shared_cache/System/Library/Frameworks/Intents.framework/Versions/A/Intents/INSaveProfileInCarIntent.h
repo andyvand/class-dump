@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface INSaveProfileInCarIntent : INIntent
 {
@@ -14,7 +14,7 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (id);
@@ -24,25 +24,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)4;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *profileLabel;
-@property(readonly, copy) NSString *profileName;
-@property(readonly, copy) NSNumber *profileNumber;
-@property(readonly) Class superclass;
 
 @end
 

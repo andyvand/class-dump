@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SMSFilterExtensionParams
 {
     unsigned long long _action;
-    unsigned long long _subAction;
-    unsigned long long _filterMode;
-    unsigned long long _orderOfPlacementInUI;
-    unsigned long long _category;
-    unsigned long long _subCategory;
-    NSString *_filterModeStringValue;
-    NSString *_label;
-    NSString *_iconName;
-    NSString *_folderName;
 }
 
 + (void);
 + (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)A:a /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -34,30 +23,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)assTileMetadataVerticalFlowGroup",R,N;
+- (id)vehicleData;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)r
+;
 - (void);
-- (void)oday;
+- (void)isToday;
 - (void);
 
 // Remaining properties
 @property unsigned long long action; // @synthesize action=_action;
-@property unsigned long long category; // @synthesize category=_category;
-@property unsigned long long filterMode; // @synthesize filterMode=_filterMode;
-@property(retain, nonatomic) NSString *filterModeStringValue; // @synthesize filterModeStringValue=_filterModeStringValue;
-@property(retain, nonatomic) NSString *folderName; // @synthesize folderName=_folderName;
-@property(retain, nonatomic) NSString *iconName; // @synthesize iconName=_iconName;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property unsigned long long orderOfPlacementInUI; // @synthesize orderOfPlacementInUI=_orderOfPlacementInUI;
-@property unsigned long long subAction; // @synthesize subAction=_subAction;
-@property unsigned long long subCategory; // @synthesize subCategory=_subCategory;
 
 @end
 

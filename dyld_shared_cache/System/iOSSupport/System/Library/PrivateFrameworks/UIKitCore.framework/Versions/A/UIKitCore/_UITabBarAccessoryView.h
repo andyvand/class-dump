@@ -12,12 +12,12 @@
     struct CGSize _preferredSize;
 }
 
-- (void);
+- (void);
 - (struct CGSize);
-- (id);
-- (id)geFile;
+- (id)aryPersonalizationCollectionDataSource %p:identifiersForItemAtIndexPath returning MPIdentifierSet.emptyIdentifierSet [effectiveOriginalObject has no identifiers] indexPath=%{public}@ effectiveOriginalObject=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)_launchImageFile;
 - (void);
-- (_Bool)ketCollectorModel;
+- (_Bool)_UIHideScrollPocketCollectorModel;
 - (void);
 - (id);
 

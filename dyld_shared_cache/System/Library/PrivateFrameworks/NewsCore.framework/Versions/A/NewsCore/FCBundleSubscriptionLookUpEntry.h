@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface FCBundleSubscriptionLookUpEntry
 {
     _Bool _hasShownRenewalNotice;
-    _Bool _inTrialPeriod;
-    _Bool _isPurchaser;
-    _Bool _isAmplifyUser;
-    _Bool _isPaidBundleViaOfferActivated;
-    NSString *_identifier;
-    NSString *_purchaseID;
-    NSDate *_dateOfExpiration;
-    unsigned long long _purchaseValidationState;
-    NSString *_servicesBundlePurchaseID;
-    NSArray *_bundleChannelIDs;
-    NSString *_bundleChannelIDsVersion;
-    NSNumber *_initialPurchaseTimestamp;
 }
 
 - (void);
@@ -44,34 +30,22 @@
 - (void);
 - (id);
 - (id);
+- (void)on:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H[;
 - (id);
-- (_Bool);
+- (_Bool)_totalTimeSpentWaitingForSpotlight;
 - (id);
 - (id);
-- (id)adlineScoringOutputName;
+- (id)_shadowNewspaperGroupMagazineFeedHeadlineScoringOutputName;
 - (void)ger != nil;
-- (_Bool)XXrpT5KgQ8dQBBTJJA;
+- (_Bool)T3XEgXXrpT5KgQ8dQBBTJJA;
 - (id)ion with duration=%llums, id=%{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bundleChannelIDs; // @synthesize bundleChannelIDs=_bundleChannelIDs;
-@property(copy, nonatomic) NSString *bundleChannelIDsVersion; // @synthesize bundleChannelIDsVersion=_bundleChannelIDsVersion;
-@property(copy, nonatomic) NSDate *dateOfExpiration; // @synthesize dateOfExpiration=_dateOfExpiration;
-@property(nonatomic) _Bool hasShownRenewalNotice; // @synthesize hasShownRenewalNotice=_hasShownRenewalNotice;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool inTrialPeriod; // @synthesize inTrialPeriod=_inTrialPeriod;
-@property(copy, nonatomic) NSNumber *initialPurchaseTimestamp; // @synthesize initialPurchaseTimestamp=_initialPurchaseTimestamp;
-@property(nonatomic) _Bool isAmplifyUser; // @synthesize isAmplifyUser=_isAmplifyUser;
-@property(nonatomic) _Bool isPaidBundleViaOfferActivated; // @synthesize isPaidBundleViaOfferActivated=_isPaidBundleViaOfferActivated;
-@property(nonatomic) _Bool isPurchaser; // @synthesize isPurchaser=_isPurchaser;
-@property(copy, nonatomic) NSString *purchaseID; // @synthesize purchaseID=_purchaseID;
 @property(nonatomic) unsigned long long purchaseValidationState; // @synthesize purchaseValidationState=_purchaseValidationState;
-@property(copy, nonatomic) NSString *servicesBundlePurchaseID; // @synthesize servicesBundlePurchaseID=_servicesBundlePurchaseID;
 
 @end
 

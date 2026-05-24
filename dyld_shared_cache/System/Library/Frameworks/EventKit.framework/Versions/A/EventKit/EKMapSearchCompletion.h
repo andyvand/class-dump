@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLocalSearchCompletion, MKMapItem, NSString;
+@class MKLocalSearchCompletion;
 
 @interface EKMapSearchCompletion
 {
@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,10 +22,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) MKMapItem *mapItem;
 @property(retain, nonatomic) MKLocalSearchCompletion *mapSearchCompletion; // @synthesize mapSearchCompletion=_mapSearchCompletion;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

@@ -4,49 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiMetricNetworkPrefs
 {
     unsigned long long _timestamp;
-    unsigned int _adhocNetsCount;
-    unsigned int _applePersHotspotNetsCount;
-    unsigned int _atjCanceledCount;
-    unsigned int _atjUsedCount;
-    unsigned int _captiveNetsCount;
-    unsigned int _eapNetsCount;
-    unsigned int _hiddenNetsCount;
-    unsigned int _mostUsedCount;
-    NSMutableArray *_mostUsedNetworks;
-    unsigned int _openNonCaptiveNetsCount;
-    unsigned int _prefNetsCount;
-    unsigned int _wapiNetsCount;
-    unsigned int _wepNetsCount;
-    unsigned int _wpaNetsCount;
-    _Bool _atjEnabled;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int adhocNetsCount:1;
-        unsigned int applePersHotspotNetsCount:1;
-        unsigned int atjCanceledCount:1;
-        unsigned int atjUsedCount:1;
-        unsigned int captiveNetsCount:1;
-        unsigned int eapNetsCount:1;
-        unsigned int hiddenNetsCount:1;
-        unsigned int mostUsedCount:1;
-        unsigned int openNonCaptiveNetsCount:1;
-        unsigned int prefNetsCount:1;
-        unsigned int wapiNetsCount:1;
-        unsigned int wepNetsCount:1;
-        unsigned int wpaNetsCount:1;
-        unsigned int atjEnabled:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)	;
+- (unsigned int)3;
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -67,6 +33,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,24 +42,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)q!;
 - (unsigned int);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)F;
 - (unsigned int);
 - (_Bool);
+- (_Bool))";
+- (_Bool);
+- (_Bool);
+- (_Bool)+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -102,57 +68,27 @@
 - (unsigned int);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)?	;
+- (unsigned long long);
+- (_Bool);
+- (_Bool)\#)_c;
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int adhocNetsCount; // @synthesize adhocNetsCount=_adhocNetsCount;
-@property(nonatomic) unsigned int applePersHotspotNetsCount; // @synthesize applePersHotspotNetsCount=_applePersHotspotNetsCount;
-@property(nonatomic) unsigned int atjCanceledCount; // @synthesize atjCanceledCount=_atjCanceledCount;
-@property(nonatomic) _Bool atjEnabled; // @synthesize atjEnabled=_atjEnabled;
-@property(nonatomic) unsigned int atjUsedCount; // @synthesize atjUsedCount=_atjUsedCount;
-@property(nonatomic) unsigned int captiveNetsCount; // @synthesize captiveNetsCount=_captiveNetsCount;
-@property(nonatomic) unsigned int eapNetsCount; // @synthesize eapNetsCount=_eapNetsCount;
-@property(nonatomic) _Bool hasAdhocNetsCount;
-@property(nonatomic) _Bool hasApplePersHotspotNetsCount;
-@property(nonatomic) _Bool hasAtjCanceledCount;
 @property(nonatomic) _Bool hasAtjEnabled;
-@property(nonatomic) _Bool hasAtjUsedCount;
-@property(nonatomic) _Bool hasCaptiveNetsCount;
-@property(nonatomic) _Bool hasEapNetsCount;
-@property(nonatomic) _Bool hasHiddenNetsCount;
-@property(nonatomic) _Bool hasMostUsedCount;
-@property(nonatomic) _Bool hasOpenNonCaptiveNetsCount;
-@property(nonatomic) _Bool hasPrefNetsCount;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWapiNetsCount;
-@property(nonatomic) _Bool hasWepNetsCount;
-@property(nonatomic) _Bool hasWpaNetsCount;
-@property(nonatomic) unsigned int hiddenNetsCount; // @synthesize hiddenNetsCount=_hiddenNetsCount;
-@property(nonatomic) unsigned int mostUsedCount; // @synthesize mostUsedCount=_mostUsedCount;
-@property(retain, nonatomic) NSMutableArray *mostUsedNetworks; // @synthesize mostUsedNetworks=_mostUsedNetworks;
-@property(nonatomic) unsigned int openNonCaptiveNetsCount; // @synthesize openNonCaptiveNetsCount=_openNonCaptiveNetsCount;
-@property(nonatomic) unsigned int prefNetsCount; // @synthesize prefNetsCount=_prefNetsCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int wapiNetsCount; // @synthesize wapiNetsCount=_wapiNetsCount;
-@property(nonatomic) unsigned int wepNetsCount; // @synthesize wepNetsCount=_wepNetsCount;
-@property(nonatomic) unsigned int wpaNetsCount; // @synthesize wpaNetsCount=_wpaNetsCount;
 
 @end
 

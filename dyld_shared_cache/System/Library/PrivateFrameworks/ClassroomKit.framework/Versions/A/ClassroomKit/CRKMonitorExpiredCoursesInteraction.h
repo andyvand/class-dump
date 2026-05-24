@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATSerialOperationQueue, CRKCourseEnrollmentController, NSMutableSet;
-@protocol CRKExpiredCoursesInteractionDelegate, CRKRequestPerformingProtocol;
+@protocol CRKRequestPerformingProtocol;
 
 @interface CRKMonitorExpiredCoursesInteraction
 {
     _Bool mIsObservingEnrollmentController;
-    id <CRKRequestPerformingProtocol> _studentDaemonProxy;
-    id <CRKExpiredCoursesInteractionDelegate> _expiredCoursesInteractionDelegate;
-    CRKCourseEnrollmentController *_enrollmentController;
-    NSMutableSet *_expiredCoursesToPresent;
-    CATSerialOperationQueue *_serialOperationQueue;
 }
 
 - (void);
@@ -26,17 +20,13 @@
 - (void);
 - (id);
 - (id);
+- (void)ssd.dadOperation;
 - (void);
-- (void);
-- (void);
+- (void)N;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKCourseEnrollmentController *enrollmentController; // @synthesize enrollmentController=_enrollmentController;
-@property(readonly, nonatomic) id <CRKExpiredCoursesInteractionDelegate> expiredCoursesInteractionDelegate; // @synthesize expiredCoursesInteractionDelegate=_expiredCoursesInteractionDelegate;
-@property(readonly, nonatomic) NSMutableSet *expiredCoursesToPresent; // @synthesize expiredCoursesToPresent=_expiredCoursesToPresent;
-@property(readonly, nonatomic) CATSerialOperationQueue *serialOperationQueue; // @synthesize serialOperationQueue=_serialOperationQueue;
 @property(readonly, nonatomic) id <CRKRequestPerformingProtocol> studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
 
 @end

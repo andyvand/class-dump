@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)re",&,N,V_scoreFuture;
 + (Class)Ä	ð$;
 - (id);
 

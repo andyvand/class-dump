@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneDisplaySettingsDiffAction
@@ -13,19 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id)!;
-- (void)imationsWithPreferredFrameRateRange:(id)arg1 updateReason:animations: /* Error: Ran out of types for this method. */;
-- (void)versize:(id)arg1 extremeSizing:(id)arg2;
+- (void)sticker_modifyAnimationsWithPreferredFrameRateRange:(id)arg1 updateReason:animations: /* Error: Ran out of types for this method. */;
+- (void)_applicableContentOutsetsFromFontsOversize:(id)arg1 extremeSizing:(id)arg2;
 - (void):Çþÿ¦ÒþÿÓþÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *sceneSettingsDisplayDiffInspector; // @synthesize sceneSettingsDisplayDiffInspector=_sceneSettingsDisplayDiffInspector;
-@property(readonly) Class superclass;
 
 @end
 

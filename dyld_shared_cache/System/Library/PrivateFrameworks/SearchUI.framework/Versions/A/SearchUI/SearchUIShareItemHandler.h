@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AXComboBox;
 - (void);
 
 // Remaining properties

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet, NSString;
-@protocol AXFFaultingArrayDataSource;
-
 @interface AXFFaultingArray
 {
     unsigned long long __count;
-    NSMutableIndexSet *__faultedBlocks;
-    id <AXFFaultingArrayDataSource> __source;
-    id *_elements;
-    unsigned long long _blockSize;
 }
 
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -33,26 +26,16 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)apshots.failures;
 - (unsigned long long);
 - (id);
-- (void);
+- (unsigned long long);
+- (id)";
+- (void)an audio;
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long _count; // @synthesize _count=__count;
-@property(retain, nonatomic) NSMutableIndexSet *_faultedBlocks; // @synthesize _faultedBlocks=__faultedBlocks;
-@property(retain, nonatomic) id <AXFFaultingArrayDataSource> _source; // @synthesize _source=__source;
-@property(nonatomic) unsigned long long blockSize; // @synthesize blockSize=_blockSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

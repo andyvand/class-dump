@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class INDateComponentsRange, INPerson, NSNumber, NSString;
-
 @interface INSearchCallHistoryIntent : INIntent
 {
 }
@@ -15,20 +13,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long callCapabilities;
 @property(readonly) long long callType;
-@property(readonly) unsigned long long callTypes;
-@property(readonly, copy) INDateComponentsRange *dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long preferredCallProvider;
-@property(readonly, copy) INPerson *recipient;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *unseen;
 
 @end
 

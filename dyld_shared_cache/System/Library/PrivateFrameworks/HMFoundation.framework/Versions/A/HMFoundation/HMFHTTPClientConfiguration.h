@@ -9,33 +9,25 @@
 @interface HMFHTTPClientConfiguration : HMFObject
 {
     _Bool _requiresEncryption;
-    _Bool _allowsAnonymousConnection;
-    _Bool _allowsCellularAccess;
-    _Bool _supportsWakeOnLAN;
-    _Bool _monitorsReachability;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)iewService;
 - (_Bool);
 - (void)°1Â0@ù
 × ;
 - (_Bool)ÜUøÿÿÿÿÿ;
 
 // Remaining properties
-@property _Bool allowsAnonymousConnection; // @synthesize allowsAnonymousConnection=_allowsAnonymousConnection;
-@property _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property _Bool monitorsReachability; // @synthesize monitorsReachability=_monitorsReachability;
 @property _Bool requiresEncryption; // @synthesize requiresEncryption=_requiresEncryption;
-@property _Bool supportsWakeOnLAN; // @synthesize supportsWakeOnLAN=_supportsWakeOnLAN;
 
 @end
 

@@ -4,31 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATStateMachine, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol CATTaskServerDelegate, OS_dispatch_group;
+@class CATStateMachine;
+@protocol CATTaskServerDelegate;
 
 @interface CATTaskServer
 {
     CATStateMachine *mFSM;
-    NSMutableSet *mSessions;
-    NSMutableDictionary *mActiveSessionsByUUID;
-    NSMutableDictionary *mInvalidatingSessionsByUUID;
-    NSMutableDictionary *mConnectedSessionsByUUID;
-    CATTaskServer *mStrongSelf;
-    NSObject<OS_dispatch_group> *mAllSessionsDidInvalidateGroup;
-    CATOperationQueue *mOrphanedOperationQueue;
-    id <CATTaskServerDelegate> _delegate;
-    NSDictionary *_userInfo;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)dd}}16f48;
+- (void)cameraDevice:(id)arg1 didReceiveThumbnail:forItem:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_trackedView;
 - (void);
 - (void);
 - (void);
@@ -37,38 +36,20 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)4;
+- (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *clientSessions;
-@property(readonly, copy, nonatomic) NSArray *connectedClientSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CATTaskServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

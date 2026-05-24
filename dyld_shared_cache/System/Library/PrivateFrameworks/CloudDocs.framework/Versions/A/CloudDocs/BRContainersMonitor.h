@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRDarwinNotifyReceiver, NSMutableDictionary, NSObject, NSUserDefaults, br_pacer;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface BRContainersMonitor
 {
     NSMutableDictionary *_observersByContainerID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_defaults;
-    NSMutableDictionary *_observedContainerIDsToLatestForegroundStatus;
-    BRDarwinNotifyReceiver *_foregroundChangesReceiver;
-    br_pacer *_foregroundChangesPacer;
 }
 
 + (void);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)u;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)S;
++ (id)h;
 + (id);
 + (double);
 - (void);

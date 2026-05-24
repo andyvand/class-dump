@@ -6,18 +6,15 @@
 
 #import <Catalyst/CATTransport.h>
 
-@class CATIDSServiceConnection, NSMutableArray;
+@class CATIDSServiceConnection;
 
 @interface CATIDSServiceTransport : CATTransport
 {
     CATIDSServiceConnection *mConnection;
-    NSMutableArray *mReceiveQueue;
-    _Bool mIsActive;
-    _Bool mDidDelegateInvalidation;
 }
 
 - (id);
-- (void);
+- (void)CHStatusKeyLastDurationDetailed;
 - (id);
 - (void);
 - (void);

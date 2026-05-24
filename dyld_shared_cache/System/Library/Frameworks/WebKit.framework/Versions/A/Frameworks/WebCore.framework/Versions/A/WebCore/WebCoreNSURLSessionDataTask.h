@@ -4,47 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURLRequest, NSURLResponse, WebCoreNSURLSession;
+@class WebCoreNSURLSession;
 
 __attribute__((visibility("hidden")))
 @interface WebCoreNSURLSessionDataTask
 {
     struct WeakObjCPtr<WebCoreNSURLSession> _session;
-    struct RefPtr<WTF::GuaranteedSerialFunctionDispatcher, WTF::RawPtrTraits<WTF::GuaranteedSerialFunctionDispatcher>, WTF::DefaultRefDerefTraits<WTF::GuaranteedSerialFunctionDispatcher>> _targetDispatcher;
-    struct RefPtr<WebCore::PlatformMediaResource, WTF::RawPtrTraits<WebCore::PlatformMediaResource>, WTF::DefaultRefDerefTraits<WebCore::PlatformMediaResource>> _resource;
-    struct RetainPtr<NSURLResponse> _response;
-    unsigned long long _taskIdentifier;
-    struct RetainPtr<NSURLRequest> _originalRequest;
-    struct RetainPtr<NSURLRequest> _currentRequest;
-    long long _countOfBytesReceived;
-    long long _countOfBytesSent;
-    long long _countOfBytesExpectedToSend;
-    long long _countOfBytesExpectedToReceive;
-    struct atomic<NSURLSessionTaskState> _state;
-    struct RetainPtr<NSError> _error;
-    struct RetainPtr<NSString> _taskDescription;
-    float _priority;
-    unsigned int _resumeSessionID;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)ۗ;
+- (void)@6;
+- (void)s;
 - (void);
+- (void)s;
 - (void);
+- (id);
+- (void);
+- (void)";
 - (long long);
 - (id);
 - (long long);
@@ -61,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (id)>];
 - (void)::HashTraits<const JSC::JSObject *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::QualifiedName>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)lue;
+- (void)attributeOldValue;
 - (id)Dä;
 - (id)Cbalanãáanäà*×spinalcïá}K­á|èá8ä!«ùá~óà%Hleùa8æàHófinåà;¦-estate-açá:üforäao``và$ùtaøà²£exchangå`Æá /* Error: Ran out of types for this method. */;
 - (void)mìbÙàdÕpageóð-_®ðõøãdlÌì|°êðÖXackeôpÀ¬à5íhamííÍ--paçâ«!ën©$áøðdheòîB6âðÚáà+ËòðàótoavoéïüÓinhumáåíeèthatóæûa.paìèðæ-íðw-íìc£äððtouòì:ãiÞç /* Error: Ran out of types for this method. */;
@@ -72,19 +57,7 @@ __attribute__((visibility("hidden")))
 3;
 
 // Remaining properties
-@property long long countOfBytesExpectedToReceive; // @synthesize countOfBytesExpectedToReceive=_countOfBytesExpectedToReceive;
-@property long long countOfBytesExpectedToSend; // @synthesize countOfBytesExpectedToSend=_countOfBytesExpectedToSend;
-@property long long countOfBytesReceived; // @synthesize countOfBytesReceived=_countOfBytesReceived;
-@property long long countOfBytesSent; // @synthesize countOfBytesSent=_countOfBytesSent;
-@property(readonly, copy) NSURLRequest *currentRequest;
-@property(readonly, copy) NSError *error;
-@property(readonly, copy) NSURLRequest *originalRequest;
-@property float priority; // @synthesize priority=_priority;
-@property(readonly, copy) NSURLResponse *response;
 @property WebCoreNSURLSession *session;
-@property(readonly) long long state;
-@property(copy) NSString *taskDescription;
-@property unsigned long long taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

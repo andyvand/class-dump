@@ -28,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

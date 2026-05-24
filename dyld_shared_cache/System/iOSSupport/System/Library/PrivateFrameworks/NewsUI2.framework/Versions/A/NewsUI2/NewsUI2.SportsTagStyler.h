@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsTagStyler
 {
     id baseStyler;
-    id feedNavImageStyler;
-    id headlineFontMetrics;
-    id subtitleFontMetrics;
 }
 
 @end

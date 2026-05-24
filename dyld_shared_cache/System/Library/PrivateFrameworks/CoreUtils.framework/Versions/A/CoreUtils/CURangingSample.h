@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CURangingSample
 {
     int _channel;
-    int _rawRSSI;
-    NSData *_deviceAddress;
-    NSString *_deviceModel;
 }
 
 - (void);
 - (void);
 - (int);
 - (id);
-- (id);
-- (void);
+- (id)primaryEmailAddress;
+- (void)MPSCNNPooling_new_tex2darray_tex2darray_avg_swEdge_4x2_0;
 - (int);
-- (void);
-- (void)tateHandle:(id)arg1;
+- (void)initWithPID:flags:reason:name:withHandler:acquire: /* Error: Ran out of types for this method. */;
+- (void)setStateHandle:(id)arg1;
 - (id)' option bad argument '%s'
 ;
 
 // Remaining properties
 @property(nonatomic) int channel; // @synthesize channel=_channel;
-@property(copy, nonatomic) NSData *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(nonatomic) int rawRSSI; // @synthesize rawRSSI=_rawRSSI;
 
 @end
 

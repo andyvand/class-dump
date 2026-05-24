@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorPreviewModeOptions;
-
 @interface AVTAvatarAttributeEditorPreviewMode
 {
     unsigned long long _type;
-    AVTAvatarAttributeEditorPreviewModeOptions *_options;
 }
 
 + (unsigned long long);
 - (id);
-- (id);
+- (id)FT;
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTAvatarAttributeEditorPreviewModeOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

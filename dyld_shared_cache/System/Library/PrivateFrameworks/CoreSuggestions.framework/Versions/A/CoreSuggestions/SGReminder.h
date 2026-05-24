@@ -6,27 +6,17 @@
 
 #import <CoreSuggestions/SGObject.h>
 
-@class NSDate, NSDateComponents, NSString, NSURL, SGLocation;
+@class NSString;
 
 @interface SGReminder : SGObject
 {
     unsigned char _dueLocationType;
-    unsigned char _dueLocationTrigger;
-    unsigned char _reminderStatus;
-    NSString *_title;
-    NSDateComponents *_dueDateComponents;
-    SGLocation *_dueLocation;
-    NSURL *_sourceURL;
-    NSDate *_creationDate;
-    NSString *_opaqueKey;
-    NSString *_uniqueKey;
-    NSString *_contactIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)3;
++ (_Bool)h;
 - (unsigned char);
 - (_Bool);
 - (id);
@@ -34,12 +24,12 @@
 - (id);
 - (id);
 - (unsigned char);
+- (id){public}@:[%{public}@] Failed to find AFDS value /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)tes. Checking continuation ...;
 - (_Bool);
 - (id);
 - (void);
@@ -48,21 +38,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)+%;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSDateComponents *dueDateComponents; // @synthesize dueDateComponents=_dueDateComponents;
-@property(readonly, nonatomic) SGLocation *dueLocation; // @synthesize dueLocation=_dueLocation;
-@property(readonly, nonatomic) unsigned char dueLocationTrigger; // @synthesize dueLocationTrigger=_dueLocationTrigger;
-@property(readonly, nonatomic) unsigned char dueLocationType; // @synthesize dueLocationType=_dueLocationType;
-@property(readonly, nonatomic) NSString *opaqueKey; // @synthesize opaqueKey=_opaqueKey;
-@property(readonly, nonatomic) unsigned char reminderStatus; // @synthesize reminderStatus=_reminderStatus;
-@property(readonly, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSString *uniqueKey; // @synthesize uniqueKey=_uniqueKey;
 
 @end
 

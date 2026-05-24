@@ -6,16 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSDate, NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPFileMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_name;
-    NSString *_type;
-    unsigned long long _size;
-    _BlastDoorLPImage *_thumbnail;
-    _BlastDoorLPImage *_icon;
-    NSDate *_creationDate;
 }
 
 + (id);
@@ -29,24 +24,19 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ary/Frameworks/Cocoa.framework/Versions/A/Cocoa;
 - (_Bool);
-- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)pe;
+- (void)keyboardType;
 - (id);
 - (void)àÌÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(retain, nonatomic) _BlastDoorLPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, PXObservable;
+@class PXObservable;
 
 @protocol PXAppleMusicStatusProvider
 - (PXObservable *)ÿ¸´üþÿ¸ôüþñþ¸üþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, nonatomic) PXObservable *observable;
 @end
 

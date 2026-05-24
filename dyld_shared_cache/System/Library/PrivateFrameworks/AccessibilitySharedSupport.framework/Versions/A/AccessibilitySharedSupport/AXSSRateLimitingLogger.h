@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol OS_os_log;
+@class NSDate;
 
 @interface AXSSRateLimitingLogger
 {
     unsigned char _logLevel;
-    double _timeInterval;
-    NSObject<OS_os_log> *_categoryLog;
-    NSDate *__dateSinceLastLog;
 }
 
 - (void);
@@ -24,13 +20,10 @@
 - (_Bool);
 - (unsigned char);
 - (void);
-- (double);
+- (double)decodeObjectOfClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *_dateSinceLastLog; // @synthesize _dateSinceLastLog=__dateSinceLastLog;
-@property(retain, nonatomic) NSObject<OS_os_log> *categoryLog; // @synthesize categoryLog=_categoryLog;
-@property(readonly, nonatomic) unsigned char logLevel; // @synthesize logLevel=_logLevel;
-@property(readonly, nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
 
 @end
 

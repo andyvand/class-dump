@@ -6,42 +6,11 @@
 
 #import <UIKitCore/UIPercentDrivenInteractiveTransition.h>
 
-@class CADisplayLink, NSString, UIGestureRecognizer, UIPanGestureRecognizer, UIView, UIViewController, _UINavigationParallaxTransition, _UIParallaxTransitionPanGestureRecognizer;
-@protocol _UINavigationInteractiveTransitionBaseDelegate;
+@class UIView;
 
 @interface _UINavigationInteractiveTransitionBase : UIPercentDrivenInteractiveTransition
 {
     UIView *_gestureRecognizerView;
-    UIPanGestureRecognizer *_gestureRecognizer;
-    _UIParallaxTransitionPanGestureRecognizer *_contentSwipeGestureRecognizer;
-    long long __interactionState;
-    _Bool __transitionWasStopped;
-    _Bool __stoppedTransitionWasCancelled;
-    UIViewController *__parent;
-    _Bool __useAugmentedShouldPopDecisionProcedure;
-    _Bool __completesTransitionOnEnd;
-    double _percentCompleteWhenPaused;
-    _Bool _wantsInteractiveStart;
-    CADisplayLink *_displayLink;
-    double _timestamps[3];
-    double _velocities[3];
-    double _accelerations[3];
-    _Bool _shouldReverseTranslation;
-    _Bool __shouldReverseLayoutDirection;
-    _Bool _isInEdgeFlickPhase;
-    UIPanGestureRecognizer *_edgeSwipeGestureRecognizer;
-    _UINavigationParallaxTransition *_animationController;
-    id <_UINavigationInteractiveTransitionBaseDelegate> _delegate;
-    unsigned long long _sampleCount;
-    double _totalDistance;
-    double _skipTimeStamp;
-    double _previousTimeStamp;
-    double _previousDisplacement;
-    double _previousVelocity;
-    double _previousAcceleration;
-    double _averageVelocity;
-    double _averageAcceleration;
-    double _startingVelocity;
 }
 
 - (void);
@@ -57,15 +26,15 @@
 - (_Bool);
 - (void);
 - (double);
+- (void)nlierLimit;
 - (void);
-- (void);
-- (double);
+- (double)ping existing http request;
 - (long long);
 - (void);
 - (void);
 - (double);
-- (double);
-- (void);
+- (double)setGlobalPrivacyClientWithAuditToken: /* Error: Ran out of types for this method. */;
+- (void)__MPModelPropertyMovieLibraryAddEligible__MAPPING_MISSING__;
 - (_Bool);
 - (void);
 - (void);
@@ -96,12 +65,12 @@
 - (id)rData";
 - (_Bool)bContainerView"16;
 - (_Bool)des: /* Error: Ran out of types for this method. */;
-- (double)ForState:traitCollection: /* Error: Ran out of types for this method. */;
-- (double)sedTopSpacing;
-- (id)sectionSnapshotHandlers;
-- (_Bool)osition;
+- (double)defaultGroupedFooterConfigurationForState:traitCollection: /* Error: Ran out of types for this method. */;
+- (double)_wantsCollapsedTopSpacing;
+- (id)_sectionSnapshotHandlers;
+- (_Bool)_scopeBarPosition;
 - (void)_makeDraggingPanGestureRecognizer;
-- (_Bool)dingConstraint;
+- (_Bool)_buttonBarLeadingConstraint;
 - (void)ightDidChange;
 - (id)@"NSObject<WebOpenPanelResultListener>",&,N,V_resultListener;
 - (void);
@@ -114,7 +83,7 @@
 - (double)24;
 - (id);
 - (void);
-- (void)alHelper;
+- (void)PortalHelper;
 - (id);
 - (unsigned long long);
 - (void)r^;
@@ -122,50 +91,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setCompletesTransitionOnEnd:) _Bool _completesTransitionOnEnd; // @synthesize _completesTransitionOnEnd=__completesTransitionOnEnd;
-@property(nonatomic, setter=_setInteractionState:) long long _interactionState; // @synthesize _interactionState=__interactionState;
-@property(nonatomic, setter=_setParent:) __weak UIViewController *_parent; // @synthesize _parent=__parent;
-@property(nonatomic, setter=_setShouldReverseLayoutDirection:) _Bool _shouldReverseLayoutDirection; // @synthesize _shouldReverseLayoutDirection=__shouldReverseLayoutDirection;
-@property(nonatomic, setter=_setStoppedTransitionWasCancelled:) _Bool _stoppedTransitionWasCancelled; // @synthesize _stoppedTransitionWasCancelled=__stoppedTransitionWasCancelled;
-@property(nonatomic, setter=_setTransitionWasStopped:) _Bool _transitionWasStopped; // @synthesize _transitionWasStopped=__transitionWasStopped;
-@property(nonatomic, setter=_setUseAugmentedShouldPopDecisionProcedure:) _Bool _useAugmentedShouldPopDecisionProcedure; // @synthesize _useAugmentedShouldPopDecisionProcedure=__useAugmentedShouldPopDecisionProcedure;
-@property(retain, nonatomic) _UINavigationParallaxTransition *animationController; // @synthesize animationController=_animationController;
-@property(nonatomic) double averageAcceleration; // @synthesize averageAcceleration=_averageAcceleration;
-@property(nonatomic) double averageVelocity; // @synthesize averageVelocity=_averageVelocity;
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) UIPanGestureRecognizer *contentSwipeGestureRecognizer; // @synthesize contentSwipeGestureRecognizer=_contentSwipeGestureRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UINavigationInteractiveTransitionBaseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIPanGestureRecognizer *edgeSwipeGestureRecognizer; // @synthesize edgeSwipeGestureRecognizer=_edgeSwipeGestureRecognizer;
-@property(readonly, nonatomic) __weak UIPanGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInEdgeFlickPhase; // @synthesize isInEdgeFlickPhase=_isInEdgeFlickPhase;
-@property(readonly, nonatomic, getter=_navigationGesture) UIGestureRecognizer *navigationGesture;
-@property(nonatomic) double previousAcceleration; // @synthesize previousAcceleration=_previousAcceleration;
-@property(nonatomic) double previousDisplacement; // @synthesize previousDisplacement=_previousDisplacement;
-@property(nonatomic) double previousTimeStamp; // @synthesize previousTimeStamp=_previousTimeStamp;
-@property(nonatomic) double previousVelocity; // @synthesize previousVelocity=_previousVelocity;
 @property(nonatomic) unsigned long long sampleCount; // @synthesize sampleCount=_sampleCount;
-@property(nonatomic) _Bool shouldReverseTranslation; // @synthesize shouldReverseTranslation=_shouldReverseTranslation;
-@property(nonatomic) double skipTimeStamp; // @synthesize skipTimeStamp=_skipTimeStamp;
-@property(nonatomic) double startingVelocity; // @synthesize startingVelocity=_startingVelocity;
-@property(readonly) Class superclass;
-@property(nonatomic) double totalDistance; // @synthesize totalDistance=_totalDistance;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

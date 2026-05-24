@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSDate, NSNumber, NSObject, NSOperationQueue, NSSet, NSString, NSUUID, NSUserDefaults;
-@protocol OS_dispatch_queue, SPBeaconManagerXPCProtocol;
+@class NSUUID, NSUserDefaults;
 
 @interface SPSettingsConfiguration
 {
     NSUserDefaults *_sharedDefaults;
-    NSString *_serviceState;
-    NSSet *_serviceDisabledReasons;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_userAgentServiceDescription;
-    FMXPCSession *_userAgentSession;
-    id <SPBeaconManagerXPCProtocol> _proxy;
-    id <SPBeaconManagerXPCProtocol> _userAgentProxy;
-    id _serviceSettingsChangedNotificationToken;
-    NSOperationQueue *_notificationQueue;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -35,18 +23,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)i!ɚ;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)(a
+8l;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)T@"NSData",&,N,V_typingIndicatorIcon;
 - (void);
 - (id);
 - (void);
@@ -61,28 +50,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *baUUID;
-@property(readonly, copy, nonatomic) NSDate *beaconZoneCreationDate;
-@property(readonly, copy, nonatomic) NSNumber *beaconZoneCreationErrorCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSDate *lastKeyRollDate;
-@property(retain, nonatomic) NSOperationQueue *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(retain, nonatomic) id <SPBeaconManagerXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(copy, nonatomic) NSSet *serviceDisabledReasons; // @synthesize serviceDisabledReasons=_serviceDisabledReasons;
-@property(nonatomic) __weak id serviceSettingsChangedNotificationToken; // @synthesize serviceSettingsChangedNotificationToken=_serviceSettingsChangedNotificationToken;
-@property(copy, nonatomic) NSString *serviceState; // @synthesize serviceState=_serviceState;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) NSUserDefaults *sharedDefaults; // @synthesize sharedDefaults=_sharedDefaults;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <SPBeaconManagerXPCProtocol> userAgentProxy; // @synthesize userAgentProxy=_userAgentProxy;
-@property(retain, nonatomic) FMXPCServiceDescription *userAgentServiceDescription; // @synthesize userAgentServiceDescription=_userAgentServiceDescription;
-@property(retain, nonatomic) FMXPCSession *userAgentSession; // @synthesize userAgentSession=_userAgentSession;
 
 @end
 

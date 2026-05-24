@@ -15,10 +15,10 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)ܙz;
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RTDarwinNotificationRecord
 {
     NSString *_notificationName;
-    NSNumber *_registrationToken;
-    CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id)endpoint;
 - (id);
 - (void);
 - (id);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(copy, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(copy, nonatomic) NSNumber *registrationToken; // @synthesize registrationToken=_registrationToken;
 
 @end
 

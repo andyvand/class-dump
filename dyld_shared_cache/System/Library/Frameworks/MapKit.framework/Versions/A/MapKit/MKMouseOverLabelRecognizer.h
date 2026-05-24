@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTrackingArea, NSView, VKLabelMarker;
-@protocol MKMouseOverLabelRecognizerDelegate, MKMouseOverLabelTarget;
+@class VKLabelMarker;
 
 __attribute__((visibility("hidden")))
 @interface MKMouseOverLabelRecognizer
 {
     VKLabelMarker *_labelMarker;
-    NSTrackingArea *_trackingArea;
-    id <MKMouseOverLabelTarget> _target;
-    long long _state;
-    id <MKMouseOverLabelRecognizerDelegate> _delegate;
-    NSView *_view;
 }
 
 - (void);
@@ -25,31 +19,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)r %@;
+- (id);
+- (void)getLimitedAccessLastSyncSequenceNumberWithReply:(id)arg1;
 - (id);
 - (void);
+- (id)Observation"16;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)irstPassOnsetChannel;
 - (void);
 - (id);
-- (void)nRegion: /* Error: Ran out of types for this method. */;
+- (void)locationManager:didRangeBeacons:inRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKMouseOverLabelRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) VKLabelMarker *labelMarker; // @synthesize labelMarker=_labelMarker;
-@property(readonly, nonatomic) _Bool recognizesMouseOverSelectablePartsOnly;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) __weak id <MKMouseOverLabelTarget> target; // @synthesize target=_target;
-@property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
-@property(nonatomic) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SMConversation;
+@class NSUUID;
 
 @interface SMInitiatorSessionInitializationRequest
 {
     NSUUID *_sessionID;
-    SMConversation *_conversation;
-    CDUnknownBlockType _handler;
-    NSDate *_startDate;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)5;
 - (id);
 - (void)ailed;
 
 // Remaining properties
-@property(readonly, nonatomic) SMConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

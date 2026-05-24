@@ -4,103 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapItemIdentifier, MSPTransitStorageArtwork, MSPTransitStorageSystem, NSArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageLine
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    MSPTransitStorageArtwork *_alternateArtwork;
-    MSPTransitStorageArtwork *_artwork;
-    MSPTransitStorageArtwork *_headerArtwork;
-    NSString *_lineColorString;
-    GEOLatLng *_locationHint;
-    MSPTransitStorageArtwork *_modeArtwork;
-    NSString *_name;
-    MSPTransitStorageSystem *_system;
-    CDStruct_e99c65f7 _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)m the server.;
+- (void)iately:(id)arg1 %hhd;
+- (void)ED:(id)arg1 URL %{public}@ could not be converted to filesystem path;
 - (void);
-- (void);
-- (void);
+- (id)mp messages_new table;
+- (id)e mailbox with name:%@.  Reason:POP accounts cannot create mailboxes /* Error: Ran out of types for this method. */;
+- (id)MFMessageSecurityExtensionHasChanged;
+- (_Bool)MailboxUidWasRenamedChildrenKey;
+- (id)!= 0 THEN 1 ELSE 0 END) AS deleted_count,                                                           ((SELECT count() FROM duplicates_unread_count WHERE mailbox_id = mailboxes.ROWID AND unread_count != 0) + sum(CASE WHEN flags&%lld = 0 AND flags&%lld = 0 AND message_id = 0 THEN 1 ELSE 0 END)) AS unread_count_adjusted_for_duplicates                                                           FROM messages JOIN mailboxes ON mailboxes.ROWID = messages.mailbox WHERE mailboxes.source ISNULL;
+- (_Bool)ction class]];
+- (_Bool)quest;
+- (_Bool)sponse isKindOfClass:[EWSCreateFolderResponseType class]] /* Error: Ran out of types for this method. */;
+- (_Bool)om pending actions;
+- (_Bool)sage_tombstones table;
+- (_Bool)ntacts%1$lu%2$lu;
+- (unsigned long long)or creating read_later table;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
+- (id)P;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (void)FIBrowseAirDropGutsController;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id)Pp;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSPTransitStorageArtwork *alternateArtwork; // @synthesize alternateArtwork=_alternateArtwork;
-@property(retain, nonatomic) MSPTransitStorageArtwork *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
-@property(readonly, nonatomic) _Bool departuresAreVehicleSpecific;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlternateArtwork;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasHeaderArtwork;
-@property(readonly, nonatomic) _Bool hasLineColorString;
-@property(readonly, nonatomic) _Bool hasLocationHint;
-@property(readonly, nonatomic) _Bool hasModeArtwork;
-@property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasSystem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MSPTransitStorageArtwork *headerArtwork; // @synthesize headerArtwork=_headerArtwork;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) _Bool isBus;
-@property(retain, nonatomic) NSString *lineColorString; // @synthesize lineColorString=_lineColorString;
-@property(retain, nonatomic) GEOLatLng *locationHint; // @synthesize locationHint=_locationHint;
-@property(retain, nonatomic) MSPTransitStorageArtwork *modeArtwork; // @synthesize modeArtwork=_modeArtwork;
-@property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) _Bool showVehicleNumber;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MSPTransitStorageSystem *system; // @synthesize system=_system;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) unsigned long long muid;
 
 @end
 

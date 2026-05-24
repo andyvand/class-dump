@@ -7,18 +7,6 @@
 @interface NewsUI2.HeadlineModel
 {
     id headline;
-    id audioTrack;
-    id likedState;
-    id savedState;
-    id sharedState;
-    id offensiveState;
-    id draggableState;
-    id accessLevel;
-    id deletedState;
-    id nativeAdInfo;
-    id blockedState;
-    id premiumBadge;
-    id liveState;
 }
 
 @end

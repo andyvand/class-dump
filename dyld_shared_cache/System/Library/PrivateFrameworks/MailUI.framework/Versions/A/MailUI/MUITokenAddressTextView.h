@@ -15,11 +15,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)qA;
 - (id);
-- (id);
-- (id);
-- (void)tionState: /* Error: Ran out of types for this method. */;
+- (id)?;
+- (id)_condition;
+- (void)setAuthenticationState: /* Error: Ran out of types for this method. */;
 - (void)Ä0;
 - (void)ÿ$I;
 - (_Bool)Ýÿ_;

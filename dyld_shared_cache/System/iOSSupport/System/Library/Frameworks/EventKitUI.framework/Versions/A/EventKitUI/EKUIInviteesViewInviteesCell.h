@@ -4,83 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUILabeledAvatarView, NSArray, UIActivityIndicatorView, UIImageView, UILabel, UIView;
+@class UILabel;
 
 @interface EKUIInviteesViewInviteesCell
 {
     _Bool _hideStatus;
-    _Bool _showSpinner;
-    UILabel *_nameLabel;
-    UILabel *_rsvpStatusLabel;
-    UILabel *_commentLabel;
-    UILabel *_optionalInviteeLabel;
-    UIImageView *_statusImageView;
-    EKUILabeledAvatarView *_contactAvatarView;
-    UIView *_textContainerView;
-    UIView *_rsvpStatusContainerView;
-    NSArray *_persistentConstraints;
-    NSArray *_removableConstraints;
-    UIActivityIndicatorView *_spinner;
-    UIView *_optionalStatusContainerView;
-    UIImageView *_conflictImageView;
 }
 
++ (id)s;
 + (id);
-+ (id);
+- (void)+s;
 - (void);
+- (void);
+- (id);
+- (void)+s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)%s;
+- (void)D%s;
+- (void);
+- (void)L+s;
+- (void);
+- (id)&s;
+- (id);
+- (id);
+- (id);
+- (_Bool)ب&s;
+- (id)s;
+- (id);
+- (id)ب&s;
+- (void)s;
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool)n;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)el;
+- (void)titleLabel;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *commentLabel; // @synthesize commentLabel=_commentLabel;
-@property(retain, nonatomic) UIImageView *conflictImageView; // @synthesize conflictImageView=_conflictImageView;
-@property(retain, nonatomic) EKUILabeledAvatarView *contactAvatarView; // @synthesize contactAvatarView=_contactAvatarView;
-@property _Bool hideStatus; // @synthesize hideStatus=_hideStatus;
 @property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(retain, nonatomic) UILabel *optionalInviteeLabel; // @synthesize optionalInviteeLabel=_optionalInviteeLabel;
-@property(retain, nonatomic) UIView *optionalStatusContainerView; // @synthesize optionalStatusContainerView=_optionalStatusContainerView;
-@property(retain, nonatomic) NSArray *persistentConstraints; // @synthesize persistentConstraints=_persistentConstraints;
-@property(retain, nonatomic) NSArray *removableConstraints; // @synthesize removableConstraints=_removableConstraints;
-@property(retain, nonatomic) UIView *rsvpStatusContainerView; // @synthesize rsvpStatusContainerView=_rsvpStatusContainerView;
-@property(retain, nonatomic) UILabel *rsvpStatusLabel; // @synthesize rsvpStatusLabel=_rsvpStatusLabel;
-@property(nonatomic) _Bool showSpinner; // @synthesize showSpinner=_showSpinner;
-@property(retain, nonatomic) UIActivityIndicatorView *spinner; // @synthesize spinner=_spinner;
-@property(retain, nonatomic) UIImageView *statusImageView; // @synthesize statusImageView=_statusImageView;
-@property(retain, nonatomic) UIView *textContainerView; // @synthesize textContainerView=_textContainerView;
 
 @end
 

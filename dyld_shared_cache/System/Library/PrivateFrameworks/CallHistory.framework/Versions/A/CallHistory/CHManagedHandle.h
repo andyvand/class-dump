@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHandle, NSSet, NSString;
+@class CHHandle;
 
 __attribute__((visibility("hidden")))
 @interface CHManagedHandle
@@ -13,17 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)etStage > PLManagedAssetComputeSyncHighestAllowedStage Local(%zu), StageDecision:NO /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CHHandle *chHandle;
-@property(retain, nonatomic) NSSet *localParticipantCalls; // @dynamic localParticipantCalls;
-@property(copy, nonatomic) NSString *normalizedValue; // @dynamic normalizedValue;
-@property(retain, nonatomic) NSSet *remoteParticipantCalls; // @dynamic remoteParticipantCalls;
-@property(nonatomic) short type; // @dynamic type;
-@property(retain, nonatomic) NSString *value; // @dynamic value;
 
 @end
 

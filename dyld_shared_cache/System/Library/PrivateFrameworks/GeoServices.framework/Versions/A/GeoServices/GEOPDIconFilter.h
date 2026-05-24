@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)lds"b1"read_addressHint"b1"read_addressObjectHint"b1"read_formattedAddressLineHints"b1"read_locationHint"b1"read_mapsId"b1"read_placeNameHint"b1"wrote_anyField"b1};
-- (id)ptions:transitOptions:walkingOptions:cyclingOptions: /* Error: Ran out of types for this method. */;
+- (id)_etaFilterWithTransportTypes:transportTypesCount:automobileOptions:transitOptions:walkingOptions:cyclingOptions: /* Error: Ran out of types for this method. */;
 - (id)p;
 - (void);
 

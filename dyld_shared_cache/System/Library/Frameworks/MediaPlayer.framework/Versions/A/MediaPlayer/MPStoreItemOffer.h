@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSArray, NSDictionary;
 
 @interface MPStoreItemOffer
 {
@@ -19,20 +19,15 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)akDefaultInkWithIdentifier:(id)arg1 color:strokeWidth: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)e;
+- (void)_shouldPlaybackRequireSubscriptionLease;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets;
-@property(readonly, copy, nonatomic) NSString *buyParameters;
-@property(readonly, copy, nonatomic) NSString *formattedPrice;
-@property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, copy, nonatomic) NSString *offerType;
-@property(readonly, copy, nonatomic) NSNumber *price;
 
 @end
 

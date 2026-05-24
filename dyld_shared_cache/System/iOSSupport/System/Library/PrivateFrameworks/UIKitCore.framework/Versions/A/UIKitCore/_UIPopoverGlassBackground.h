@@ -6,33 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIBezierPath, UIPopoverPresentationController, UITraitCollection;
+@class UIBezierPath;
 
 @interface _UIPopoverGlassBackground : UIView
 {
     id $__lazy_storage_$_hostingView;
-    UIBezierPath *shapePath;
-    UITraitCollection *_traitCollectionForGlassContent;
-    void presentationController;
 }
 
-- (id);
-- (id);
+- (id)ginal isFromMe %ld, edit isFromMe %ld;
+- (id)e.messages.ubiquitousStoreQueue;
+- (void)pressedSMSRecents.zip;
+- (void)sSyncingPaused:(id)arg1 %@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
+- (void)BusinessInitiatedAlertSpam;
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)ITableViewCellContentMirror;
+- (id)@9*!;
+- (id)UITableViewCellContentMirror;
 - (void)Ù;
 - (id)úq;
 
 // Remaining properties
-@property(nonatomic, retain) UITraitCollection *_traitCollectionForGlassContent; // @synthesize _traitCollectionForGlassContent;
-@property(nonatomic) __weak UIPopoverPresentationController *presentationController; // @synthesize presentationController;
 @property(nonatomic, retain) UIBezierPath *shapePath; // @synthesize shapePath;
-@property(nonatomic, readonly) UITraitCollection *traitCollectionForGlassContent;
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <Safari/WebViewController.h>
 
-@class BrowserViewController, NSArray, NSString, ReaderAppearanceViewController, ReaderNavigationDelegate, ReaderUIDelegate, ReaderWKView, WBSReaderConfigurationManager, WBSReaderFont, WBSReaderFontManager, _WKRemoteObjectInterface;
+@class ReaderWKView, _WKRemoteObjectInterface;
 
 __attribute__((visibility("hidden")))
 @interface ReaderViewController : WebViewController
 {
     _WKRemoteObjectInterface *_readerViewControllerMessageReceiverInterface;
-    WBSReaderFontManager *_fontManager;
-    ReaderAppearanceViewController *_readerAppearanceViewController;
-    ReaderNavigationDelegate *_navigationDelegate;
-    ReaderUIDelegate *_UIDelegate;
-    _Bool _isObservingKeyValueChanges;
-    void *_readerController;
-    WBSReaderConfigurationManager *_configurationManager;
 }
 
 - (void);
@@ -36,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -61,19 +54,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)initWithSuccess:userInfo:error: /* Error: Ran out of types for this method. */;
+- (void)d;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)ationViewController:didFinishWithCredential:error:completion: /* Error: Ran out of types for this method. */;
+- (id)credentialAuthenticationViewController:didFinishWithCredential:error:completion: /* Error: Ran out of types for this method. */;
 - (void)roup:(id)arg1 %{public}@;
 - (id)ou Are Not Connected to the Internet;
 - (void)¤
@@ -82,23 +75,7 @@ __attribute__((visibility("hidden")))
 - (double)Cì;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *availableFonts;
-@property(readonly, nonatomic) WBSReaderConfigurationManager *configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) WBSReaderFont *font;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPresentingAppearanceCustomizationPopover;
-@property(readonly, nonatomic) BrowserViewController *originalArticleViewController;
-@property(readonly, copy, nonatomic) NSArray *possibleFonts;
-@property(readonly, nonatomic) void *readerController; // @synthesize readerController=_readerController;
 @property(readonly, nonatomic) ReaderWKView *readerView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long theme;
-@property(nonatomic) unsigned long long zoomIndex;
 
 @end
 

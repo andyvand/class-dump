@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface AXSSPunctuationGroup
 {
     _Bool _inCloud;
-    _Bool _inDatabase;
-    unsigned short _version;
-    NSUUID *_uuid;
-    NSString *_name;
-    NSArray *_entries;
-    NSSet *_autoSwitchContexts;
-    NSUUID *_basePunctuationUUID;
-    NSString *_ckChangeTag;
-    NSDate *_lastModifiedDate;
-    NSDate *_ckRecordProcessDate;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -35,15 +25,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)BD;
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ted state:(id)arg1 %{public}@;
 - (void);
 - (id);
-- (id);
+- (id)updateReminderChangeItem:fromICSTodo:icsCalendar:isNew:withOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -53,20 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *autoSwitchContexts; // @synthesize autoSwitchContexts=_autoSwitchContexts;
-@property(retain, nonatomic) NSUUID *basePunctuationUUID; // @synthesize basePunctuationUUID=_basePunctuationUUID;
-@property(retain, nonatomic) NSString *ckChangeTag; // @synthesize ckChangeTag=_ckChangeTag;
-@property(retain, nonatomic) NSDate *ckRecordProcessDate; // @synthesize ckRecordProcessDate=_ckRecordProcessDate;
-@property(retain, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(nonatomic) _Bool inCloud; // @synthesize inCloud=_inCloud;
-@property(nonatomic) _Bool inDatabase; // @synthesize inDatabase=_inDatabase;
-@property(readonly, nonatomic) _Bool isSystemPunctuationGroup;
-@property(readonly, nonatomic) NSDictionary *jsonDictionary;
-@property(readonly, nonatomic) NSData *jsonRepresentation;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) unsigned short version; // @synthesize version=_version;
 
 @end
 

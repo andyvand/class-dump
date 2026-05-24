@@ -6,63 +6,38 @@
 
 #import <ViewBridge/VBXPCConnection.h>
 
-@class CAContext, CAFenceHandle, NSString, NSXPCConnection, NSXPCInterface;
-@protocol NSVBXPCConnectionClient;
-
 __attribute__((visibility("hidden")))
 @interface VBXPCConnectionFenced : VBXPCConnection
 {
     unsigned int _invalid:1;
-    unsigned char _memberOfFenceGroup;
-    unsigned int _fenceGroupAcquisition;
-    unsigned int _durableFenceGroupAcquisition;
-    unsigned int _fenceGroupAcquisitionDurability;
-    _Bool _activeFencingEnabled;
-    NSXPCConnection *auxiliaryServiceConnection;
-    id <NSVBXPCConnectionClient> _client;
-    CAFenceHandle *_mostRecentIncomingFenceHandle;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)T_;
+- (_Bool)9;
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (void)h;
+- (id);
+- (void);
+- (_Bool)_globalProgressSubscriber;
+- (id)to do;
 - (void);
 - (void);
 
 // Remaining properties
 @property _Bool activeFencingEnabled; // @synthesize activeFencingEnabled=_activeFencingEnabled;
-@property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceIncoming;
-@property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceOutgoing;
-@property __weak NSXPCConnection *auxiliaryServiceConnection; // @synthesize auxiliaryServiceConnection;
-@property __weak id <NSVBXPCConnectionClient> client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) CAContext *fenceContext;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isValid;
-@property(retain) CAFenceHandle *mostRecentIncomingFenceHandle; // @synthesize mostRecentIncomingFenceHandle=_mostRecentIncomingFenceHandle;
-@property(readonly) Class superclass;
 
 @end
 

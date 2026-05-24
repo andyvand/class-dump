@@ -6,26 +6,22 @@
 
 #import <ChatKit/CKBrowserViewController.h>
 
-@class CKAppManagerViewController, NSString, UINavigationController;
-@protocol CKBrowserAppManagerViewControllerDelegate;
+@class UINavigationController;
 
 @interface CKBrowserAppManagerViewController : CKBrowserViewController
 {
     UINavigationController *_navController;
-    CKAppManagerViewController *_appViewController;
-    _Bool _isManagingStickers;
-    id <CKBrowserAppManagerViewControllerDelegate> _delegate;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)olors;
+- (_Bool),N,V_lockedObjectInSource;
+- (_Bool)t;
 - (_Bool);
 - (void);
-- (id);
+- (id)p;
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)udeHierarchicalShare=%@;
+- (_Bool)System Paper thumbnail;
 - (void);
 - (long long);
 - (void);
@@ -40,20 +36,12 @@
 - (void);
 - (void)splay as blank space.;
 - (_Bool)nes, via messages settings;
-- (id)cation;
+- (id)CKConversationPreferredServiceChangedNotification;
 - (void)å(j¸Êÿ;
 - (void)O9¨3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserAppManagerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isManagingStickers; // @synthesize isManagingStickers=_isManagingStickers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SWTransparencyXPCProtocol
+- (void);
 @end
 

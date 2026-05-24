@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMCSSRule.h>
 
-@class DOMCSSStyleDeclaration, NSString;
+@class NSString;
 
 @interface DOMCSSStyleRule : DOMCSSRule
 {
@@ -14,11 +14,10 @@
 
 - (void);
 - (id);
-- (id);
+- (id)$;
 
 // Remaining properties
 @property(copy) NSString *selectorText;
-@property(readonly) DOMCSSStyleDeclaration *style;
 
 @end
 

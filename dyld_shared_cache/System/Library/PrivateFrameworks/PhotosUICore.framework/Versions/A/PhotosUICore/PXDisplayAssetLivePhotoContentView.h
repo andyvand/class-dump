@@ -11,12 +11,10 @@
 @interface PXDisplayAssetLivePhotoContentView : PXDisplayAssetContentView
 {
     ISLivePhotoNSView *_livePhotoView;
-    AVPlayerItem *_videoPlayerItem;
-    double _playerItemLoadingProgress;
 }
 
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (double);
 - (void);
@@ -31,14 +29,13 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)w;
 - (double);
 - (void)	;
 - (void);
 - (id)¨êÿ:t /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double playerItemLoadingProgress; // @synthesize playerItemLoadingProgress=_playerItemLoadingProgress;
 @property(retain, nonatomic) AVPlayerItem *videoPlayerItem; // @synthesize videoPlayerItem=_videoPlayerItem;
 
 @end

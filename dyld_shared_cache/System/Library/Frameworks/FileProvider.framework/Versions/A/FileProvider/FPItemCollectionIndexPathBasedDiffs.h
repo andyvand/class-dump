@@ -6,16 +6,12 @@
 
 #import <FileProvider/FPItemCollectionDiffs.h>
 
-@class NSMutableArray, NSMutableIndexSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FPItemCollectionIndexPathBasedDiffs : FPItemCollectionDiffs
 {
     NSMutableArray *_movedSourceIndexPaths;
-    NSMutableArray *_movedDestinationIndexPaths;
-    NSMutableIndexSet *_deletedIndexes;
-    NSMutableIndexSet *_insertedIndexes;
-    NSMutableIndexSet *_updatedIndexes;
 }
 
 - (id);
@@ -26,18 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?	;
 - (id);
 - (id);
 - (void)Ñç)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSMutableIndexSet *deletedIndexes; // @synthesize deletedIndexes=_deletedIndexes;
-@property(retain) NSMutableIndexSet *insertedIndexes; // @synthesize insertedIndexes=_insertedIndexes;
-@property(retain) NSMutableArray *movedDestinationIndexPaths; // @synthesize movedDestinationIndexPaths=_movedDestinationIndexPaths;
 @property(retain) NSMutableArray *movedSourceIndexPaths; // @synthesize movedSourceIndexPaths=_movedSourceIndexPaths;
-@property(retain) NSMutableIndexSet *updatedIndexes; // @synthesize updatedIndexes=_updatedIndexes;
 
 @end
 

@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFSportsItem
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    NSString *_identifier;
 }
 
 + (_Bool);
-- (id);
+- (id)videoCache;
 - (unsigned long long);
-- (int);
+- (int)schemaVersionWithError: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)_underlyingPlaybackArchiveForToneIdentifier:(id)arg1;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)PHQuestionTypeSurveyBusinessItem;
+- (id)Type:(struct _NSZone *)arg1 %@;
 - (void);
 - (id);
 - (id);
 - (_Bool)!,@ùñ¦1Â0@ù
 × ;
-- (void)eDeviceTokens;
+- (void)hasCaptureDeviceTokens;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

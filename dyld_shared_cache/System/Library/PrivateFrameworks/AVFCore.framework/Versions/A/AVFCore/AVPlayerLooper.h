@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerLooperInternal, NSArray, NSError;
+@class AVPlayerLooperInternal;
 
 @interface AVPlayerLooper
 {
@@ -14,28 +14,25 @@
 + (id);
 + (id);
 + (void)eDuration must be an NSDictionary;
-- (id);
-- (long long);
+- (id)_EARAudioAnalytics;
+- (long long)_EARSpeechRecognitionToken;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@P;
 - (void);
 - (void);
 - (int);
-- (void);
-- (void);
-- (id);
+- (void)`;
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly) NSError *error;
-@property(readonly) long long loopCount;
-@property(readonly) NSArray *loopingPlayerItems;
 @property(readonly) long long status;
 
 @end

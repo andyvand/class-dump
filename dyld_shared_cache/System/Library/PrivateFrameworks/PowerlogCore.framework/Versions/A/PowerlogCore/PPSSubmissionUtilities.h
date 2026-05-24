@@ -9,7 +9,8 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)CFJF'
+;
 
 @end
 

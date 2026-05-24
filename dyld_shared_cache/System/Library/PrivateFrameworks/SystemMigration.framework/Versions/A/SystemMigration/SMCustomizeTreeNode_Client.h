@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSImage, NSMutableArray, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SMCustomizeTreeNode_Client
 {
     _Bool _sizeIsAvailable;
-    _Bool _selectedItemsStillSizing;
-    _Bool _displaysExtraInfo;
-    _Bool _performingSelectionUpdates;
-    _Bool _userEditable;
-    _Bool _canSelectOnlyParent;
-    _Bool _accountForLocalNodeSize;
-    _Bool _allowMixedStateWhenAllChildrenSelected;
-    _Bool _selectWhenParentHasMixedState;
-    _Bool _selectionDisabled;
-    _Bool _enabled;
-    _Bool _needsAttention;
-    NSColor *_overrideSizeTextColor;
-    NSMutableArray *_childNodes;
-    NSString *_name;
-    NSColor *_nameTextColor;
-    NSString *_extraInfo;
-    NSNumber *_size;
-    NSNumber *_localNodeSize;
-    long long _userSelected;
-    unsigned long long _textMode;
-    unsigned long long _type;
-    NSImage *_image;
-    SMCustomizeTreeNode_Client *_parent;
-    id _representedObject;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
 }
 
 + (id);
@@ -50,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +46,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -83,10 +57,10 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (_Bool);
 - (id);
@@ -96,7 +70,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -114,36 +88,7 @@
 × ;
 
 // Remaining properties
-@property _Bool accountForLocalNodeSize; // @synthesize accountForLocalNodeSize=_accountForLocalNodeSize;
-@property _Bool allowMixedStateWhenAllChildrenSelected; // @synthesize allowMixedStateWhenAllChildrenSelected=_allowMixedStateWhenAllChildrenSelected;
-@property _Bool canSelectOnlyParent; // @synthesize canSelectOnlyParent=_canSelectOnlyParent;
 @property(retain) NSMutableArray *childNodes; // @synthesize childNodes=_childNodes;
-@property(readonly) __weak NSArray *childNodesCopy;
-@property _Bool displaysExtraInfo; // @synthesize displaysExtraInfo=_displaysExtraInfo;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSString *extraInfo; // @synthesize extraInfo=_extraInfo;
-@property(retain) NSImage *image; // @synthesize image=_image;
-@property(readonly) _Bool isLeaf;
-@property(copy) NSNumber *localNodeSize; // @synthesize localNodeSize=_localNodeSize;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) NSColor *nameTextColor; // @synthesize nameTextColor=_nameTextColor;
-@property _Bool needsAttention; // @synthesize needsAttention=_needsAttention;
-@property(retain) NSColor *overrideSizeTextColor; // @synthesize overrideSizeTextColor=_overrideSizeTextColor;
-@property(retain) SMCustomizeTreeNode_Client *parent; // @synthesize parent=_parent;
-@property _Bool performingSelectionUpdates; // @synthesize performingSelectionUpdates=_performingSelectionUpdates;
-@property(readonly) _Bool preliminarySizeIsAvailable;
-@property(retain) NSObject<OS_dispatch_queue> *propertyQueue; // @synthesize propertyQueue=_propertyQueue;
-@property(retain) id representedObject; // @synthesize representedObject=_representedObject;
-@property _Bool selectWhenParentHasMixedState; // @synthesize selectWhenParentHasMixedState=_selectWhenParentHasMixedState;
-@property _Bool selectedItemsStillSizing; // @synthesize selectedItemsStillSizing=_selectedItemsStillSizing;
-@property _Bool selectionDisabled; // @synthesize selectionDisabled=_selectionDisabled;
-@property(copy) NSNumber *size; // @synthesize size=_size;
-@property _Bool sizeIsAvailable; // @synthesize sizeIsAvailable=_sizeIsAvailable;
-@property(readonly) NSColor *sizeTextColor;
-@property unsigned long long textMode; // @synthesize textMode=_textMode;
-@property unsigned long long type; // @synthesize type=_type;
-@property _Bool userEditable; // @synthesize userEditable=_userEditable;
-@property long long userSelected; // @synthesize userSelected=_userSelected;
 
 @end
 

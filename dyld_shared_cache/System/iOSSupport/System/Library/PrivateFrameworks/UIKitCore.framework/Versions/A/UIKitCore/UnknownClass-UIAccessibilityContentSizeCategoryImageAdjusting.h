@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (UIAccessibilityContentSizeCategoryImageAdjusting)
-+ (id);
-+ (id);
-+ (_Bool);
-- (_Bool);
++ (id)Received request to update vocabulary for renamed chat, but chat registry is not yet loaded. Deferring update. Renamed Chat:(id)arg1 %@;
++ (id)P�P;
++ (_Bool);
+- (_Bool)setStringValue: /* Error: Ran out of types for this method. */;
 - (void)rÔ´T»¿äÀàÂÄ ÇÌÈ`ÉØÊ;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

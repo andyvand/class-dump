@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface FirefoxCredentialDecrypter
 {
     id <FirefoxCryptoKeyStorage> _keyStore;
-    NSString *_masterPassword;
 }
 
 + (id);
@@ -46,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,7 +54,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *masterPassword; // @synthesize masterPassword=_masterPassword;
-@property(readonly, nonatomic, getter=isMasterPasswordCorrect) _Bool masterPasswordCorrect;
 
 @end
 

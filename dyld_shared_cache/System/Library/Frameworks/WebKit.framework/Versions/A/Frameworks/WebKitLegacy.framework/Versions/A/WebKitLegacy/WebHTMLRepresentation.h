@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebHTMLRepresentationPrivate;
+@class WebHTMLRepresentationPrivate;
 
 @interface WebHTMLRepresentation
 {
@@ -14,41 +14,35 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)d->;
++ (id)dsE;
+- (id)-:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)5;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)p;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)5:(id)arg1;
+- (void)2>o;
+- (_Bool);
 - (id);
+- (id);
+- (id);
+- (void)public}@;
+- (id)G;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_drain_duration_var_at_charge_start_secs_curr_dynamic_bin_4;
+- (id)sessionHintWithModel:hint:options:report:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

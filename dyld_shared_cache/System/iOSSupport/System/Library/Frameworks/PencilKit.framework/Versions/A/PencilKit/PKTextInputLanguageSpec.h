@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKTextInputLanguageSpec
 {
     long long __languageBehavior;
-    long long __commitDelayBehavior;
-    NSArray *__locales;
 }
 
 - (long long);
@@ -26,14 +22,7 @@
 - (void)elegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _commitDelayBehavior; // @synthesize _commitDelayBehavior=__commitDelayBehavior;
 @property(readonly, nonatomic) long long _languageBehavior; // @synthesize _languageBehavior=__languageBehavior;
-@property(readonly, nonatomic) NSArray *_locales; // @synthesize _locales=__locales;
-@property(readonly, nonatomic) NSArray *debugLocaleDescriptions;
-@property(readonly, nonatomic) double singleCharacterCommitDelay;
-@property(readonly, nonatomic) double standardCommitDelay;
-@property(readonly, nonatomic) double strokeFadeOutDuration;
-@property(readonly, nonatomic) long long uncommittedTokenColumnCount;
 
 @end
 

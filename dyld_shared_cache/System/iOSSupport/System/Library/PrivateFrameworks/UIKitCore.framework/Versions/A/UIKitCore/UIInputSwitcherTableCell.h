@@ -12,36 +12,27 @@ __attribute__((visibility("hidden")))
 @interface UIInputSwitcherTableCell : UITableViewCell
 {
     _Bool _usesDarkTheme;
-    _Bool _usesStraightLeftEdge;
-    _Bool _first;
-    _Bool _last;
-    struct UIEdgeInsets _interactiveInsets;
 }
 
 + (id);
+- (_Bool)L;
+- (_Bool);
+- (void)t notification since we couldn't fetch initiator from conversation %@;
+- (void)nversation %@;
+- (void)d chat join states for chats with guids:(struct UIEdgeInsets)arg1 %@;
+- (struct UIEdgeInsets)%@ ;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)t;
-- (id)ICTFontTextStyleSection3;
+- (void)_resetTextInput;
+- (id)UICTFontTextStyleSection3;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIInputSwitcherTableCellBackgroundView *backgroundView; // @dynamic backgroundView;
-@property(nonatomic, getter=isFirst) _Bool first; // @synthesize first=_first;
-@property(nonatomic) struct UIEdgeInsets interactiveInsets; // @synthesize interactiveInsets=_interactiveInsets;
-@property(nonatomic, getter=isLast) _Bool last; // @synthesize last=_last;
-@property(nonatomic) _Bool usesDarkTheme; // @synthesize usesDarkTheme=_usesDarkTheme;
-@property(nonatomic) _Bool usesStraightLeftEdge; // @synthesize usesStraightLeftEdge=_usesStraightLeftEdge;
 
 @end
 

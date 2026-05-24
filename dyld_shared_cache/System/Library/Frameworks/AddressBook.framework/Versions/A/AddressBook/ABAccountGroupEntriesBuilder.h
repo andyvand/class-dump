@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook;
+@class ABAccount;
 
 @interface ABAccountGroupEntriesBuilder
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    _Bool _shouldCreateProvisionalEntryForNewGroup;
 }
 
 - (_Bool);
@@ -18,10 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id)p;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (void)Qª°1Â0@ù
 × ;
 

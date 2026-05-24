@@ -7,18 +7,11 @@
 @interface SystemProtectedConfig
 {
     int _biometryEnabled;
-    int _unlockEnabled;
-    int _identificationEnabled;
-    int _loginEnabled;
-    int _unlockTokenMaxLifetime;
-    int _bioMatchLifespan;
-    int _passcodeInputLifespan;
-    int _periocularMatchEnabled;
 }
 
 - (int);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -35,14 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int bioMatchLifespan; // @synthesize bioMatchLifespan=_bioMatchLifespan;
 @property(nonatomic) int biometryEnabled; // @synthesize biometryEnabled=_biometryEnabled;
-@property(nonatomic) int identificationEnabled; // @synthesize identificationEnabled=_identificationEnabled;
-@property(nonatomic) int loginEnabled; // @synthesize loginEnabled=_loginEnabled;
-@property(nonatomic) int passcodeInputLifespan; // @synthesize passcodeInputLifespan=_passcodeInputLifespan;
-@property(nonatomic) int periocularMatchEnabled; // @synthesize periocularMatchEnabled=_periocularMatchEnabled;
-@property(nonatomic) int unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
-@property(nonatomic) int unlockTokenMaxLifetime; // @synthesize unlockTokenMaxLifetime=_unlockTokenMaxLifetime;
 
 @end
 

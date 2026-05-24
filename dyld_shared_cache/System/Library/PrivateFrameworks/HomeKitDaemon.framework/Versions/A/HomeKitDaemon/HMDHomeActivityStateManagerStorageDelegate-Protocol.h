@@ -5,5 +5,8 @@
 //
 
 @protocol HMDHomeActivityStateManagerStorageDelegate
+
+@optional
+- (void);
 @end
 

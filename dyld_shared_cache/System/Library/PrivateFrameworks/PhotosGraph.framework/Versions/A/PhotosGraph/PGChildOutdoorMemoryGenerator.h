@@ -6,43 +6,35 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGGraphROINodeCollection, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class PGGraphROINodeCollection;
 
 @interface PGChildOutdoorMemoryGenerator : PGOverTimeMemoryGenerator
 {
     PGGraphROINodeCollection *_outdoorROINodes;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    unsigned long long _minimumNumberOfDefaultMemories;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGOverTheYearsMemoryConfiguration *_fallbackOverTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_fallbackFeaturedYearConfiguration;
 }
 
+- (id)set_didRegisterWindowDidDeminiaturizeNotification:(id)arg1;
+- (void)commandWithStandardCommandIdentifier:(_Bool)arg1;
+- (void)colorWithColorSpace:(_Bool)arg1 components:count: /* Error: Ran out of types for this method. */;
+- (void)_previousSelectionRange;
+- (_Bool),V_content;
+- (_Bool)ePageElements;
+- (id)_selectedRangeWithinLineContent;
+- (id)AppleCredentialManager;
+- (id)ACMContextGetDataProperty;
+- (unsigned long long)eStateWithAttributes;
+- (id);
+- (unsigned long long)/;
+- (unsigned long long);
+- (unsigned long long)g69;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void)tentScore;
+- (void)clsContentScore;
 
 @end
 

@@ -9,6 +9,9 @@
 @protocol __TFTypographySettingsContentViewController
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: @"<__TFTypographySettingsContentViewControllerDelegate>"16@0:8
+// Property attributes: v24@0:8@"<__TFTypographySettingsContentViewControllerDelegate>"16
+
 @property(nonatomic) __weak id <__TFTypographySettingsContentViewControllerDelegate> _delegate;
 @end
 

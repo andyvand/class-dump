@@ -9,17 +9,10 @@
 @interface NSSortDescriptor
 {
     unsigned long long _sortDescriptorFlags;
-    NSString *_key;
-    SEL _selector;
-    id _selectorOrBlock;
 }
 
 
 // Remaining properties
-@property(readonly) _Bool ascending;
-@property(readonly) CDUnknownBlockType comparator;
 @property(readonly, copy) NSString *key;
-@property(readonly, retain) id reversedSortDescriptor;
-@property(readonly) SEL selector;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactProperty, NSDictionary, NSString;
+@class CNContact, NSString;
 
 @interface CNUIUserActionItem
 {
     NSString *_type;
-    NSString *_bundleIdentifier;
-    CNContactProperty *_contactProperty;
-    NSString *_appName;
-    long long _group;
-    unsigned long long _options;
-    NSString *_teamIdentifier;
-    NSDictionary *_associatedRecentContactMetadata;
 }
 
 + (id);
@@ -23,6 +16,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -33,26 +27,25 @@
 + (id);
 + (id);
 + (id);
++ (id)k";
++ (id);
++ (id)	;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
+- (id));
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -67,9 +60,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -78,31 +71,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)didDismissUINotification:forPlannedDestination:dismissalType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
 - (void)iniManager";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(readonly, nonatomic) NSString *applicationName;
-@property(readonly, copy, nonatomic) NSDictionary *associatedRecentContactMetadata; // @synthesize associatedRecentContactMetadata=_associatedRecentContactMetadata;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, copy, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) CNContactProperty *contactProperty; // @synthesize contactProperty=_contactProperty;
-@property(readonly, nonatomic) long long group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool isSuggested;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSString *sanitizedTargetHandle;
-@property(readonly, nonatomic) _Bool shouldCurateIfPerformed;
-@property(readonly, nonatomic) _Bool shouldGroupByBundleIdentifier;
-@property(readonly, nonatomic) _Bool shouldOpenToBundleIdentifier;
-@property(readonly, nonatomic) _Bool shouldPromoteLoneActionToBeDefault;
-@property(readonly, nonatomic) NSString *targetHandle;
-@property(copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

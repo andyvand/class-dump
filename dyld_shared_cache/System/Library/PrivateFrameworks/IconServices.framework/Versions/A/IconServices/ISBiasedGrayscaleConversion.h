@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface ISBiasedGrayscaleConversion : ISGrayscaleConversion
 {
     float _saturation;
-    float _energyRatio;
 }
 
-- (float);
-- (id);
-- (id);
+- (float)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (id)replaceObjectAtIndex:(int)arg1 withObject:(int)arg2;
+- (id)removeLastObject;
 - (void);
 - (id);
 - (void);
 - (float)@"NSArray",R,C,N;
 
 // Remaining properties
-@property(nonatomic) float energyRatio; // @synthesize energyRatio=_energyRatio;
 @property(nonatomic) float saturation; // @synthesize saturation=_saturation;
 
 @end

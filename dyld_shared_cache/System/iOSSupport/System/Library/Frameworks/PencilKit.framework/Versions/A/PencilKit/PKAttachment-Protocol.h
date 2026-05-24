@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAttachmentView, PKDrawing, PKRecognitionController, PKStrokeSpatialCache, UIView;
+@class NSSet, PKDrawing, UIView;
 
 @protocol PKAttachment
+- (UIView *)__got;
+
+@optional
+- (UIView *);
+- (NSSet *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *attachmentContainerView;
-@property(readonly, nonatomic) PKAttachmentView *attachmentView;
 @property(copy, nonatomic) PKDrawing *drawing;
-@property(readonly, nonatomic) struct CGAffineTransform drawingTransform;
-@property(readonly, nonatomic) _Bool isAtEndOfDocument;
-@property(readonly, nonatomic) _Bool isExternalAttachment;
-@property(readonly, nonatomic) PKRecognitionController *recognitionController;
-@property(readonly, nonatomic) PKStrokeSpatialCache *strokeSpatialCache;
-@property(readonly, nonatomic) UIView *tileContainerView;
-@property(readonly, nonatomic) UIView *tileMaskView;
-@property(readonly, nonatomic) UIView *viewRep;
 @end
 

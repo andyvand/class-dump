@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVErrorItem, CoreDAVItem, CoreDAVXMLElementGenerator, NSError, NSSet, NSString, NSURL;
+@class CoreDAVXMLElementGenerator;
 
 @interface CoreDAVXMLParser
 {
     CoreDAVXMLElementGenerator *_rootElementGenerator;
-    CoreDAVXMLElementGenerator *_rootErrorGenerator;
-    NSSet *_parseHints;
-    NSURL *_baseURL;
 }
 
 + (_Bool);
@@ -19,32 +16,19 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)queueDidEndNetworkActivityMessageForFetch: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)EWSFreeBusyViewTypeDefinition;
+- (void)zT;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *parseHints; // @synthesize parseHints=_parseHints;
-@property(readonly) NSError *parserError; // @dynamic parserError;
-@property(readonly, nonatomic) CoreDAVItem *rootElement;
 @property(retain, nonatomic) CoreDAVXMLElementGenerator *rootElementGenerator; // @synthesize rootElementGenerator=_rootElementGenerator;
-@property(readonly, nonatomic) CoreDAVErrorItem *rootError;
-@property(retain, nonatomic) CoreDAVXMLElementGenerator *rootErrorGenerator; // @synthesize rootErrorGenerator=_rootErrorGenerator;
-@property(readonly) Class superclass;
 
 @end
 

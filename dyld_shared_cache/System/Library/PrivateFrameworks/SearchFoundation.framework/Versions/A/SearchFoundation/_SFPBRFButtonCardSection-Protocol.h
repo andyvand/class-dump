@@ -7,10 +7,11 @@
 @class NSData, _SFPBButtonItem;
 
 @protocol _SFPBRFButtonCardSection
+- (NSData *)tHelper",R,N,V_rejectedFacesHelper;
+- (id);
 - (_SFPBButtonItem *)cardWithPBData:encoding: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBButtonItem *button;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

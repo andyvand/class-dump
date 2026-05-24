@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBLocation;
+@class NSString;
 
 @interface _INPBSearchForPhotosIntentResponse
 {
     CDStruct_a60b8694 _has;
-    int _searchResultsCount;
-    NSString *_albumName;
-    _INPBLocation *_locationCreated;
 }
 
 + (_Bool);
@@ -22,33 +19,21 @@
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id)P;
 - (void);
-- (void);
-- (unsigned long long);
+- (void)ound Machines List, setting to Black;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)Unit;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumName; // @synthesize albumName=_albumName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasLocationCreated;
-@property(nonatomic) _Bool hasSearchResultsCount;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBLocation *locationCreated; // @synthesize locationCreated=_locationCreated;
-@property(nonatomic) int searchResultsCount; // @synthesize searchResultsCount=_searchResultsCount;
-@property(readonly) Class superclass;
 
 @end
 

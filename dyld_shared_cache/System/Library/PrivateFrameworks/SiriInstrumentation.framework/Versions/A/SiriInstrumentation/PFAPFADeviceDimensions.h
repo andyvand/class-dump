@@ -6,25 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PFAPFADeviceDimensions : SISchemaInstrumentationMessage
 {
     NSString *_systemBuild;
-    NSString *_deviceType;
-    int _programCode;
-    CDStruct_d31a5c96 _has;
-    _Bool _hasSystemBuild;
-    _Bool _hasDeviceType;
 }
 
-- (id);
+- (id)�ab;
 - (void);
 - (void);
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)TH;
 - (void);
 - (void);
 - (void);
@@ -33,25 +28,19 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)/;
+- (_Bool)%@ from index with error %@;
 - (void);
 - (id);
 - (id)
 × ;
-- (id)sMentionResolverEndedTier1;
+- (id)_hasMarrsMentionResolverEndedTier1;
 - (id)rationInMs;
 - (id)r;
-- (void)Version;
+- (void)datapackVersion;
 - (void).;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasProgramCode;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int programCode; // @synthesize programCode=_programCode;
 @property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 
 @end

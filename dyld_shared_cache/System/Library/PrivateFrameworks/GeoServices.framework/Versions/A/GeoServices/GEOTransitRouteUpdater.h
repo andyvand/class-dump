@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol GEOTransitRouteUpdaterDelegate;
 
 @interface GEOTransitRouteUpdater
 {
     id <GEOTransitRouteUpdaterDelegate> _delegate;
-    _Bool _active;
-    NSSet *_requests;
 }
 
 - (id);
@@ -20,14 +17,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id)setHasMapSettingsPauseSpokenAudioEnabled: /* Error: Ran out of types for this method. */;
 - (void)t@öíGQ@;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(nonatomic) __weak id <GEOTransitRouteUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSSet *requests; // @synthesize requests=_requests;
 
 @end
 

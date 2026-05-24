@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, TUMomentsControllerDataSourceDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUMomentsControllerXPCClient
 {
     int _token;
-    id <TUMomentsControllerDataSourceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (id);
@@ -20,7 +17,7 @@
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void)pG9q*F9`Cy;
 - (oneway void);
 - (void);
 - (void);
@@ -30,7 +27,7 @@
 - (void);
 - (void);
 - (oneway void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -49,31 +46,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)h;
+- (void)b;
 - (int);
 - (id);
 - (id);
 - (id);
 - (int);
 - (void);
-- (void)yle: /* Error: Ran out of types for this method. */;
+- (void)stringFromContact:style: /* Error: Ran out of types for this method. */;
 - (id)Xû;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUMomentsControllerDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int processIdentifier;
-@property(readonly, copy, nonatomic) NSString *processName;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int token; // @synthesize token=_token;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

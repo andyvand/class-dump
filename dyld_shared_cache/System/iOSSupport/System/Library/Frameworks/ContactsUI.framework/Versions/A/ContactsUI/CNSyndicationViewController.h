@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionsView, CNContact, CNContactFormatter, CNGroupAvatarViewController, CNGroupIdentity, CNGroupIdentityInlineActionsViewConfiguration, NSString, UILabel, UIView;
+@class CNGroupIdentity, NSString;
 
 @interface CNSyndicationViewController
 {
     NSString *_subtitleText;
-    CNGroupIdentity *_group;
-    CNContact *_senderContact;
-    CNContactFormatter *_contactFormatter;
-    CNGroupIdentityInlineActionsViewConfiguration *_actionsViewConfiguration;
-    UIView *_nameContainerView;
-    CNGroupAvatarViewController *_groupAvatarViewController;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    CNActionsView *_actionsView;
-    UIView *_actionsContainerView;
 }
 
-+ (id)uldEnableMultiSelectContextMenus;
++ (id)shouldEnableMultiSelectContextMenus;
 - (id);
 - (void);
 - (void);
@@ -32,38 +22,28 @@
 - (void);
 - (id);
 - (id);
+- (id)`B;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)thorized: /* Error: Ran out of types for this method. */;
-- (id)UpdateLayout;
+- (void)addContact:toGroupWithIdentifier:moveWasAuthorized: /* Error: Ran out of types for this method. */;
+- (id)_needsUpdateLayout;
 - (id)G_AFyqìøyAFyxVø;MøyVøSgGGGÛ'øGSgtGGpøG_AyFyAGyAEyAI_dWøAFyAI-øGtGGAXGëøyAFyAKyAIGAXG_§ÍÿÿQo_tGADGG;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *actionsContainerView; // @synthesize actionsContainerView=_actionsContainerView;
-@property(retain, nonatomic) CNActionsView *actionsView; // @synthesize actionsView=_actionsView;
-@property(readonly, nonatomic) CNGroupIdentityInlineActionsViewConfiguration *actionsViewConfiguration; // @synthesize actionsViewConfiguration=_actionsViewConfiguration;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
 @property(retain, nonatomic) CNGroupIdentity *group; // @synthesize group=_group;
-@property(retain, nonatomic) CNGroupAvatarViewController *groupAvatarViewController; // @synthesize groupAvatarViewController=_groupAvatarViewController;
-@property(retain, nonatomic) UIView *nameContainerView; // @synthesize nameContainerView=_nameContainerView;
-@property(retain, nonatomic) CNContact *senderContact; // @synthesize senderContact=_senderContact;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(copy, nonatomic) NSString *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

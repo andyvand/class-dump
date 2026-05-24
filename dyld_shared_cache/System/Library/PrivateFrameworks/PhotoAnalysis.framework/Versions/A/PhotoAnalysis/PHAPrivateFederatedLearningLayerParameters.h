@@ -9,18 +9,16 @@
 @interface PHAPrivateFederatedLearningLayerParameters
 {
     MAFloatVector *_weights;
-    MAFloatVector *_bias;
 }
 
 - (id);
-- (void);
+- (void)reportFetchCompletionWithMetadata:(id)arg1 error:didUseOffScreenWebView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)WithSubtype:personLocalIdentifiers:suggestionUUIDsToAvoid: /* Error: Ran out of types for this method. */;
+- (void)baseSuggestionFetchOptionsWithSubtype:personLocalIdentifiers:suggestionUUIDsToAvoid: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MAFloatVector *bias; // @synthesize bias=_bias;
 @property(retain, nonatomic) MAFloatVector *weights; // @synthesize weights=_weights;
 
 @end

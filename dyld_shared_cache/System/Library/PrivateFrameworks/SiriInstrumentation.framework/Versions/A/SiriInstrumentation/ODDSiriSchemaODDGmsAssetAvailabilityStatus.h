@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDGmsAssetAvailabilityStatus : SISchemaInstrumentationMessage
 {
     unsigned long long _timestampInSecondsSince1970;
-    unsigned long long _statusMessage;
-    struct {
-        unsigned int timestampInSecondsSince1970:1;
-        unsigned int statusMessage:1;
-    } _has;
 }
 
 - (unsigned long long);
+- (void)@;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@9*E;
 - (_Bool);
 - (void);
 - (void);
@@ -39,10 +32,6 @@
 - (id)ontext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatusMessage;
-@property(nonatomic) _Bool hasTimestampInSecondsSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long statusMessage; // @synthesize statusMessage=_statusMessage;
 @property(nonatomic) unsigned long long timestampInSecondsSince1970; // @synthesize timestampInSecondsSince1970=_timestampInSecondsSince1970;
 
 @end

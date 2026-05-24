@@ -7,18 +7,15 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
+- (double);
+- (unsigned long long);
+- (double)6;
+- (NSDictionary *)d conflicting bundle prior to shove:%@ /* Error: Ran out of types for this method. */;
 - (NSDate *)1Â0@ù
 × ;
-- (double)pressionValue;
+- (double)shareImpressionValue;
 
 // Remaining properties
-@property(readonly, nonatomic) double clicks;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double ctr;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long eventCount;
 @property(readonly, nonatomic) NSString *featureKey;
-@property(readonly, nonatomic) double impressions;
-@property(readonly, nonatomic) NSDate *lastModified;
 @end
 

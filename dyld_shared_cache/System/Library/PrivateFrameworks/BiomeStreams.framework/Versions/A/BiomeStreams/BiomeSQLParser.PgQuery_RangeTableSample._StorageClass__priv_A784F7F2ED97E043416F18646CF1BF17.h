@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RangeTableSample._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _relation;
-    id _method;
-    id _args;
-    id _repeatable;
-    id _location;
 }
 
 @end

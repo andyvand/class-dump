@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCPersistentDataStore;
+@class VCPersistentDataStore;
 
 __attribute__((visibility("hidden")))
 @interface VCRemoteDataCollectionDumpProducer
 {
     VCPersistentDataStore *_dataStore;
-    struct sqlite3 *_database;
-    NSString *_databasePath;
 }
 
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)b;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)/;
 
 @end
 

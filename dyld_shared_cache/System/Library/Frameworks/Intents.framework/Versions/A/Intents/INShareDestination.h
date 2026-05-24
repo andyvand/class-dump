@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSString;
+@class INPerson;
 
 @interface INShareDestination
 {
     INPerson *_contact;
-    NSString *_deviceType;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)setEmulatedControllerMapping:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool):(id)arg1 assetVersion:error: /* Error: Ran out of types for this method. */;
+- (void)for device with ID = %@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)stPaymentIntentPayerUnsupportedReason;
-- (void)xValue;
+- (id)hasRequestPaymentIntentPayerUnsupportedReason;
+- (void)maxValue;
 - (id)KÎ;
 
 // Remaining properties
-@property(readonly, copy) INPerson *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *deviceType; // @synthesize deviceType=_deviceType;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

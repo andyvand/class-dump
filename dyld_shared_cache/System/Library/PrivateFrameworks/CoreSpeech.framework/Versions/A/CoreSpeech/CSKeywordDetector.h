@@ -4,70 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSKeywordAnalyzerQuasar, CSSpeechManager, NSObject, NSString;
-@protocol CSVoiceTriggerDelegate, OS_dispatch_queue;
+@class CSSpeechManager;
 
 @interface CSKeywordDetector
 {
     _Bool _isRunningRecognizer;
-    float _keywordThreshold;
-    id <CSVoiceTriggerDelegate> _delegate;
-    CSSpeechManager *_speechManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerQuasar *_keywordAnalyzer;
-    unsigned long long _analyzedSampleCount;
-    unsigned long long _decisionWaitSampleCount;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void)k;
 - (void);
+- (void)Y;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)writePrefKey:(id)arg1 value:source:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (float);
 - (void);
 - (id);
+- (id)L|;
 - (id);
-- (id);
+- (void)initWithRequestRevision:(id)arg1 outputBufferWidth:outputBufferHeight:outputBufferData:numberOfFaceSegments:faceSegmentBBox:faceSegmentLabelToProbabilityMap: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)ame;
-- (void)Key;
+- (void)deviceName;
+- (void)CSP2P_GradingDataTransferStatus_Key;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long analyzedSampleCount; // @synthesize analyzedSampleCount=_analyzedSampleCount;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long decisionWaitSampleCount; // @synthesize decisionWaitSampleCount=_decisionWaitSampleCount;
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunningRecognizer; // @synthesize isRunningRecognizer=_isRunningRecognizer;
-@property(retain, nonatomic) CSKeywordAnalyzerQuasar *keywordAnalyzer; // @synthesize keywordAnalyzer=_keywordAnalyzer;
-@property(nonatomic) float keywordThreshold; // @synthesize keywordThreshold=_keywordThreshold;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) __weak CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol HMDDatabaseZoneManagerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

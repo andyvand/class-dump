@@ -4,69 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSLock, NSString, NSURLRequest;
+@class NSString;
 
 @interface SSDownloadAsset
 {
     NSString *_downloadFileName;
-    NSString *_downloadFolderName;
-    long long _fileSize;
-    NSString *_finalizedFileName;
-    NSArray *_hashes;
-    NSArray *_clearHashes;
-    long long _numberOfBytesToHash;
-    _Bool _isExternal;
-    NSLock *_lock;
-    NSString *_processedPath;
-    long long _type;
-    long long _subType;
-    NSURLRequest *_urlRequest;
-    NSString *_customDownloadPath;
-    _Bool _useUniqueDownloadFolder;
-    _Bool _skipInstallPhase;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    _Bool _deltaUpdateFailed;
-    _Bool _localDeltaUpdateFailed;
-    NSDictionary *_deltaPackage;
-    NSError *_localCachingError;
-    long long _localFullPackageFailureCount;
-    long long _hashAlgorithm;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -82,40 +59,18 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id))=;
 - (void);
 - (void);
+- (void)r;
+- (_Bool)0'F'
+;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)h;
 - (long long)rnal/Library/BuildRoots/4~CNq4ugDaAWdUnNWOjGwo_we9b0TL3ErS6EezKWQ/Library/Caches/com.apple.xbs/TemporaryDirectory.o484aD/Sources/Commerce/StoreFoundation/StoreFoundation/ISStoreClient.m;
 
 // Remaining properties
-@property(retain) NSURLRequest *URLRequest;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(retain) NSArray *clearHashes;
-@property(retain) NSString *customDownloadPath; // @synthesize customDownloadPath=_customDownloadPath;
-@property(retain) NSDictionary *deltaPackage; // @synthesize deltaPackage=_deltaPackage;
-@property _Bool deltaUpdateFailed; // @synthesize deltaUpdateFailed=_deltaUpdateFailed;
-@property(retain) NSString *downloadFileName;
-@property(readonly) NSString *downloadPath;
-@property(getter=isExternal) _Bool external;
-@property long long fileSize; // @synthesize fileSize=_fileSize;
-@property(retain) NSString *finalizedFileName;
-@property(readonly) NSString *finalizedPath;
-@property long long hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;
-@property(retain) NSArray *hashes;
-@property(retain) NSError *localCachingError; // @synthesize localCachingError=_localCachingError;
-@property _Bool localDeltaUpdateFailed; // @synthesize localDeltaUpdateFailed=_localDeltaUpdateFailed;
-@property long long localFullPackageFailureCount; // @synthesize localFullPackageFailureCount=_localFullPackageFailureCount;
-@property long long numberOfBytesToHash;
-@property(retain) NSString *processedPath;
-@property _Bool skipInstallPhase; // @synthesize skipInstallPhase=_skipInstallPhase;
-@property long long subType; // @synthesize subType=_subType;
 @property long long type;
-@property _Bool useUniqueDownloadFolder; // @synthesize useUniqueDownloadFolder=_useUniqueDownloadFolder;
 
 @end
 

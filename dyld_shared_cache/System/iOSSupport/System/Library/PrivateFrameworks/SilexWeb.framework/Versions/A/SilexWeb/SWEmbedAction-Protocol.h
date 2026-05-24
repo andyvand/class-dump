@@ -7,9 +7,10 @@
 @class NSDictionary;
 
 @protocol SWEmbedAction
+- (void)columnCount;
+- (NSDictionary *)tableView:accessoryButtonTappedForRowWithIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *info;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void)elay;
+- (void)_retryDelay;
 
 @end
 

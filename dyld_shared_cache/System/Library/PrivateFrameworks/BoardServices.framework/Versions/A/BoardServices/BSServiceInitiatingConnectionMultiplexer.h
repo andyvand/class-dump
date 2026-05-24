@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface BSServiceInitiatingConnectionMultiplexer
 {
     NSMutableDictionary *_lock_endpointToOutgoingRootConnections;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_invalidated;
-    _Bool _userInteractive;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)authenticateUser:targetDisk:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)
+;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)createUser:identityCreationPolicy:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

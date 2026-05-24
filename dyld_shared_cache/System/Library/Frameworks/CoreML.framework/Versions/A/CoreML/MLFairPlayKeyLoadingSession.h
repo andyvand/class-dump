@@ -9,17 +9,15 @@
 @interface MLFairPlayKeyLoadingSession
 {
     unsigned int _sessionID;
-    NSString *_keyIdentifier;
-    CDStruct_6463db26 *_sessionContext;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (CDStruct_6463db26 *);
+- (id);
+- (CDStruct_6463db26 *)findMyAccessoryManager:didUnpairFromDevice:withError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(copy) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property CDStruct_6463db26 *sessionContext; // @synthesize sessionContext=_sessionContext;
-@property unsigned int sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

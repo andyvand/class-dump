@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)c;
 
 // Remaining properties
 @property(retain) NSTextField *cameraDisabledReasonTextField; // @synthesize cameraDisabledReasonTextField=_cameraDisabledReasonTextField;

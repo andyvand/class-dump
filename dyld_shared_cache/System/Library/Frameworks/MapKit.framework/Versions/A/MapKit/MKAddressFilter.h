@@ -7,10 +7,9 @@
 @interface MKAddressFilter
 {
     unsigned long long _includedOptions;
-    unsigned long long _excludedOptions;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (_Bool);
@@ -21,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)~;
+- (id).;
 - (_Bool);
 - (void);
 - (id);

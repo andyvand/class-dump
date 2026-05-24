@@ -9,12 +9,11 @@
 @interface GEOMapFeatureRayTracingTile
 {
     GEOTileData *_tileData;
-    GEOMapRegion *_boundingBox;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)¨½ÿ;
 

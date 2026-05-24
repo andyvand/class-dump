@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOStepGroup
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _stepIds;
-    GEOFormattedString *_groupInstruction;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_stepIds:1;
-        unsigned int read_groupInstruction:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ns:(id)arg1;
++ (_Bool)setMatchedTokens:(id)arg1;
 - (unsigned long long);
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_cn_flatten;
+- (id)ABCDSubscribedContact;
+- (void)externalHash;
 - (void);
 - (unsigned int *);
 - (void);
@@ -40,25 +28,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)audioEngineDidStartRecord:(id)arg1 audioStreamHandleId:successfully:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)[~;
 - (id);
 - (void);
 - (id)_endState"b1"has_endView"b1"has_numberOfAvailableExtensions"b1"has_statusIssue"b1"has_comparedRideOptions"b1"has_exploredOtherOptions"b1"has_installedApp"b1"has_movedPickupLocation"b1"has_paymentIsApplePay"b1"has_showedSurgePricingAlert"b1"has_switchedApp"b1"has_unavailable"b1"read_destinationBlurred"b1"read_errorMessages"b1"read_intentResponseFailures"b1"read_originBlurred"b1"read_rideAppId"b1"read_rideAppVersion"b1"read_rideBookingSessionId"b1"read_rideType"b1"wrote_anyField"b1};
-- (id)ortMode;
-- (id)ry;
-- (id)ontainment_type;
+- (id)hasMapSettingsTransportMode;
+- (id)GEOPDPlaceSummaryLayoutUnitCategory;
+- (id)containment_type;
 - (void)ï­HLPøP@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *groupInstruction;
 @property(readonly, nonatomic) _Bool hasGroupInstruction;
-@property(readonly, nonatomic) unsigned int *stepIds;
-@property(readonly, nonatomic) unsigned long long stepIdsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

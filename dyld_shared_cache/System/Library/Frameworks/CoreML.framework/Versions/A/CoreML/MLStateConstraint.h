@@ -9,15 +9,14 @@
 @interface MLStateConstraint
 {
     NSArray *_bufferShape;
-    long long _dataType;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)`;
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)A;
+- (id)efore DTLS started.;
 - (id);
 - (void);
 - (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bufferShape; // @synthesize bufferShape=_bufferShape;
-@property(readonly, nonatomic) long long dataType; // @synthesize dataType=_dataType;
 
 @end
 

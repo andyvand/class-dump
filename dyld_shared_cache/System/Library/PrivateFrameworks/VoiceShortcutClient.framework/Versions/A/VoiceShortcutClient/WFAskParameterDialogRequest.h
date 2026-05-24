@@ -6,43 +6,31 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSDictionary, NSString, WFDialogButton;
+@class NSString;
 
 @interface WFAskParameterDialogRequest : WFDialogRequest
 {
     _Bool _focusImmediatelyWhenPresented;
-    NSString *_actionIdentifier;
-    NSString *_parameterKey;
-    NSDictionary *_serializedParameterStates;
-    long long _style;
-    WFDialogButton *_cancelButton;
-    WFDialogButton *_doneButton;
 }
 
+- (id)3|;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
 - (id);
 - (_Bool);
-- (id);
+- (id){;
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)32@0:(id)arg1 8q16q24;
 - (id);
 - (void)AU°!Eùñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy, nonatomic) WFDialogButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly, nonatomic) _Bool focusImmediatelyWhenPresented; // @synthesize focusImmediatelyWhenPresented=_focusImmediatelyWhenPresented;
-@property(readonly, copy, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;
-@property(readonly, copy, nonatomic) NSDictionary *serializedParameterStates; // @synthesize serializedParameterStates=_serializedParameterStates;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

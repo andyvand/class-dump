@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface SFKeychainFetchResult_Ivars
 {
     long long resultType;
-    id value;
-    NSError *error;
 }
 
 - (void);

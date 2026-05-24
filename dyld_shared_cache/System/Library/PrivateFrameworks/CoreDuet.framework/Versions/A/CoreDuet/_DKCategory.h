@@ -6,30 +6,27 @@
 
 #import <CoreDuet/_DKObject.h>
 
-@class NSString, _DKCategoryType;
-
 @interface _DKCategory : _DKObject
 {
     long long _integerValue;
-    _DKCategoryType *_categoryType;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id).o5;
 + (_Bool);
 + (id)k/CoreDuetFramework/CDMonitorManager.m:339 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)8;
 - (_Bool);
 - (double);
 - (void);
@@ -41,15 +38,7 @@
 × ;
 
 // Remaining properties
-@property(retain) _DKCategoryType *categoryType; // @synthesize categoryType=_categoryType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property long long integerValue; // @synthesize integerValue=_integerValue;
-@property(readonly) Class superclass;
 
 @end
 

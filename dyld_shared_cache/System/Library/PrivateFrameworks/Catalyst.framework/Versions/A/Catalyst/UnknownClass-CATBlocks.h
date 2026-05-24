@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CATBlocks)
 + (void);
-+ (void);
++ (void);
 - (void);
 - (void);
 @end

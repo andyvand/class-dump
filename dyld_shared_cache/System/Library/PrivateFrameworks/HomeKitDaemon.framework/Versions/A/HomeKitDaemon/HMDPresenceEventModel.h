@@ -6,31 +6,20 @@
 
 #import <HomeKitDaemon/HMDEventModel.h>
 
-@class NSArray, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDPresenceEventModel : HMDEventModel
 {
 }
 
 + (id);
-+ (id);
++ (id)`;
 + (id);
 + (Class)× ;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *activation; // @dynamic activation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *presenceType; // @dynamic presenceType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *users; // @dynamic users;
 
 @end
 

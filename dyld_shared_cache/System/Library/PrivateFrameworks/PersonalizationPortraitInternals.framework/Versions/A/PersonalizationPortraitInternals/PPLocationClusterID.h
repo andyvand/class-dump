@@ -9,11 +9,6 @@
 @interface PPLocationClusterID
 {
     NSString *_name;
-    NSString *_subThoroughfare;
-    NSString *_thoroughfare;
-    NSString *_subLocality;
-    NSString *_locality;
-    NSString *_administrativeArea;
 }
 
 + (_Bool);
@@ -35,19 +30,14 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void)I28@0:8@16C24 /* Error: Ran out of types for this method. */;
 - (void)re.recentLocationsForConsumer;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(retain, nonatomic) NSString *locality; // @synthesize locality=_locality;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
-@property(retain, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
-@property(retain, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end
 

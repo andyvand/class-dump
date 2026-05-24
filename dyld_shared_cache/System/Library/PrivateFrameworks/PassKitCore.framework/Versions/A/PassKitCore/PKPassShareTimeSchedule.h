@@ -9,13 +9,9 @@
 @interface PKPassShareTimeSchedule
 {
     NSArray *_hoursOfDay;
-    NSArray *_daysOfWeek;
-    NSArray *_daysOfMonth;
-    unsigned long long _interval;
-    unsigned long long _frequency;
 }
 
-+ (id);
++ (id)TH;
 + (_Bool)0@ù
 × ;
 - (void);
@@ -31,21 +27,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setHasIpFltrAdd:(id)arg1;
+- (void)heCapabilitiesIE;
+- (void)IGNORED_GENERATED_PASSWORD;
 - (id);
-- (id);
+- (id)Ti;
 - (id)bestHeroImageForSize:(id)arg1 allowSmaller: /* Error: Ran out of types for this method. */;
-- (void)ENERIC_MESSAGE;
+- (void)SHARE_REDEMEPTION_ERROR_GENERIC_MESSAGE;
 - (unsigned long long)Îÿel4;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *daysOfMonth; // @synthesize daysOfMonth=_daysOfMonth;
-@property(retain, nonatomic) NSArray *daysOfWeek; // @synthesize daysOfWeek=_daysOfWeek;
-@property(nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
 @property(retain, nonatomic) NSArray *hoursOfDay; // @synthesize hoursOfDay=_hoursOfDay;
-@property(nonatomic) unsigned long long interval; // @synthesize interval=_interval;
 
 @end
 

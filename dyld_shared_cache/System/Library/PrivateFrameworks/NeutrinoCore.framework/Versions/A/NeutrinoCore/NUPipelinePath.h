@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NUPipelinePath
 {
@@ -33,9 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) _Bool isAbsolute;
-@property(readonly, nonatomic) _Bool isRelative;
-@property(readonly, copy, nonatomic) NSString *string;
 
 @end
 

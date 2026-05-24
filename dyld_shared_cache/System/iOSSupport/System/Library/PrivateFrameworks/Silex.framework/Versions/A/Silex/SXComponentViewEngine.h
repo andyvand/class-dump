@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentTypeMatching;
-@protocol SXComponentViewPostProcessorManager;
+@class SXComponentTypeMatching;
 
 @interface SXComponentViewEngine
 {
     SXComponentTypeMatching *_factoryMatching;
-    id <SXComponentViewPostProcessorManager> _postProcessorManager;
 }
 
 - (id);
@@ -22,15 +20,7 @@
 - (void)}}24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) SXComponentTypeMatching *factoryMatching; // @synthesize factoryMatching=_factoryMatching;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXComponentViewPostProcessorManager> postProcessorManager; // @synthesize postProcessorManager=_postProcessorManager;
-@property(readonly) Class superclass;
 
 @end
 

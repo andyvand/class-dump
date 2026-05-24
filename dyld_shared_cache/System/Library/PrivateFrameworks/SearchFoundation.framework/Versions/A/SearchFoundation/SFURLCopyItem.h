@@ -6,25 +6,16 @@
 
 #import <SearchFoundation/SFCopyItem.h>
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface SFURLCopyItem : SFCopyItem
 {
     NSURL *_url;
 }
 
-+ (_Bool);
++ (_Bool)D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

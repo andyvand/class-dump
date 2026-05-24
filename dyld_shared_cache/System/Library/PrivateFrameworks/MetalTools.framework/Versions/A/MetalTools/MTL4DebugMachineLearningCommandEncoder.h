@@ -6,14 +6,12 @@
 
 #import <MetalTools/MTL4ToolsMachineLearningCommandEncoder.h>
 
-@class MTL4DebugCommandEncoder, MTL4ToolsMachineLearningPipelineState;
+@class MTL4DebugCommandEncoder;
 @protocol MTL4MachineLearningPipelineState;
 
 @interface MTL4DebugMachineLearningCommandEncoder : MTL4ToolsMachineLearningCommandEncoder
 {
     MTL4DebugCommandEncoder *_debugCommandEncoder;
-    MTL4ToolsMachineLearningPipelineState *_currentPipelineState;
-    id <MTL4MachineLearningPipelineState> _mlPipelineState;
 }
 
 - (void);

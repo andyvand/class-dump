@@ -6,14 +6,11 @@
 
 #import <SystemMigration/SMCopyEngineCopier.h>
 
-@class SMWindowsComponent, SMWindowsMacPathMapper;
+@class SMWindowsComponent;
 
 @interface SMCopyEngineWindowsCopier : SMCopyEngineCopier
 {
     id _context;
-    SMWindowsMacPathMapper *_windowsMacPathMap;
-    SMWindowsComponent *_windowsComponent;
-    unsigned long long _quantityDataReceived;
 }
 
 - (id);
@@ -30,21 +27,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_newEmptyTiles:fill: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) id context; // @synthesize context=_context;
-@property unsigned long long quantityDataReceived; // @synthesize quantityDataReceived=_quantityDataReceived;
 @property(retain) SMWindowsComponent *windowsComponent; // @synthesize windowsComponent=_windowsComponent;
-@property(retain) SMWindowsMacPathMapper *windowsMacPathMap; // @synthesize windowsMacPathMap=_windowsMacPathMap;
 
 @end
 

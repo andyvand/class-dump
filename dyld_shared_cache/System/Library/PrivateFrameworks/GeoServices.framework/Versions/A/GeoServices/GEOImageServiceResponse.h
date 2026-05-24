@@ -9,42 +9,34 @@
 @interface GEOImageServiceResponse
 {
     NSMutableArray *_images;
-    unsigned int _height;
-    int _status;
-    unsigned int _width;
-    struct {
-        unsigned int has_height:1;
-        unsigned int has_status:1;
-        unsigned int has_width:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)utePaused:(id)arg1;
++ (_Bool)setHasRoutePaused:(id)arg1;
+- (id);
+- (void)k6)y)2;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
+- (void){OpaqueFFTSetup=};
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)setSeeMoreButtonText: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id)ntResolvedTypeDeprecateds:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (int)BusinessReviews;
+- (id)setKnownClientResolvedTypeDeprecateds:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (int)_maxBusinessReviews;
 - (void)sidered;
-- (id)dApp;
+- (id)GEOAssociatedApp;
 - (id)walk;
-- (id)ap;
-- (_Bool)teID;
+- (id)geo_type_map;
+- (_Bool)departureRouteID;
 - (id)ÿÿ;
 - (id)d;
 - (_Bool);
@@ -58,13 +50,7 @@
 Ý;;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasWidth;
-@property(nonatomic) unsigned int height;
-@property(retain, nonatomic) NSMutableArray *images;
-@property(nonatomic) int status;
-@property(nonatomic) unsigned int width;
 
 @end
 

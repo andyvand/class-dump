@@ -5,6 +5,7 @@
 //
 
 @protocol HMDAccessorySettingsMessageHandler
+- (void);
 - (void)@;
 @end
 

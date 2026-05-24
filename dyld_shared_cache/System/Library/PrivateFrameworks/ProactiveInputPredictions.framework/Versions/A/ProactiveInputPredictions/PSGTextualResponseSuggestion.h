@@ -9,14 +9,13 @@
 @interface PSGTextualResponseSuggestion
 {
     NSString *_responseText;
-    NSString *_responseCategory;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)generateBestRepresentationForRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *responseCategory; // @synthesize responseCategory=_responseCategory;
 @property(readonly, nonatomic) NSString *responseText; // @synthesize responseText=_responseText;
 
 @end

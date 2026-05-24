@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetClimateSettingsInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)ndexInterface>";
++ (int)performSelector:(long long)arg1;
++ (long long)isLowQuality;
++ (_Bool)ies:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
+- (id)rightTrigger;
+- (id)\;
+- (void)exist;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)Mode;
+- (long long)_enableAutoMode;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

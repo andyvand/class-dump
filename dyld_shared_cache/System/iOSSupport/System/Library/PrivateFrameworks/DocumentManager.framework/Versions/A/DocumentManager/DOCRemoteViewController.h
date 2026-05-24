@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOCAppearance, DOCConfiguration, DOCRemoteContext;
-@protocol DOCRemoteViewControllerDelegate;
+@class DOCRemoteContext;
 
 @interface DOCRemoteViewController
 {
     _Bool _isBrowserViewController;
-    id <DOCRemoteViewControllerDelegate> _delegate;
-    DOCRemoteContext *_hostContext;
-    DOCConfiguration *_configuration;
-    DOCAppearance *_lastAppearance;
 }
 
 + (id);
@@ -30,19 +25,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)userAngle;
+- (id)ngKeyboardControllerDelegate>",W,N,V_delegate;
+- (id)tRemapChatsWithLastAddressedSIMIDToNewLastAddressedIDs %@ ;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) DOCConfiguration *configuration; // @synthesize configuration=_configuration;
-@property __weak id <DOCRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) DOCRemoteContext *hostContext; // @synthesize hostContext=_hostContext;
-@property _Bool isBrowserViewController; // @synthesize isBrowserViewController=_isBrowserViewController;
-@property(retain) DOCAppearance *lastAppearance; // @synthesize lastAppearance=_lastAppearance;
 
 @end
 

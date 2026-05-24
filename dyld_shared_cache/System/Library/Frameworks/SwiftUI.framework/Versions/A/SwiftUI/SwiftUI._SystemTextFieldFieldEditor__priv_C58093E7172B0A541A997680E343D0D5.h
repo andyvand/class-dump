@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)ndowController;
+- (void)AppKitWindowController;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCharacterPickerTouchBarItem;

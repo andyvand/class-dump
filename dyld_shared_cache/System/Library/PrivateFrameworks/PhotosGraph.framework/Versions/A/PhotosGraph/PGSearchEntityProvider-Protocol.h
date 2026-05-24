@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PGGraphSearchEntity;
+@class NSDictionary;
 
 @protocol PGSearchEntityProvider
 
 // Remaining properties
-@property(nonatomic, readonly) PGGraphSearchEntity *mePersonEntity;
-@property(nonatomic, readonly) NSDictionary *relatedPersonAndPetDescriptorByRelatedPersonIdentifier;
 @property(nonatomic, readonly) NSDictionary *searchEntitiesByMomentUUID;
 @end
 

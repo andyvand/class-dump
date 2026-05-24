@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSData, NSSet;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeWalletKeyAccessoryManagerDeviceCredentialKeyOperation
 {
     NSData *_deviceCredentialKey;
-    NSSet *_accessoriesUUIDs;
-    HMDUser *_user;
 }
 
+- (id)addSharingWith:(id)arg1;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)igNamespace:(struct _NSZone *)arg1 rootEntity: /* Error: Ran out of types for this method. */;
+- (id)i	J);
+- (id)initWithModel:(struct _NSZone *)arg1 configNamespace:rootEntity: /* Error: Ran out of types for this method. */;
 - (id)@Ignoring characteristic value updated notification since we are not the primary resident;
 - (void)ce ID;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *accessoriesUUIDs; // @synthesize accessoriesUUIDs=_accessoriesUUIDs;
 @property(readonly, copy) NSData *deviceCredentialKey; // @synthesize deviceCredentialKey=_deviceCredentialKey;
-@property(readonly) __weak HMDUser *user; // @synthesize user=_user;
 
 @end
 

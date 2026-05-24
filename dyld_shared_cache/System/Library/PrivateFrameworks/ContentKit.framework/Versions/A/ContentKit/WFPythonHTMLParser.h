@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegularExpression, NSString;
-@protocol WFPythonHTMLParserDelegate;
+@class NSRegularExpression;
 
 __attribute__((visibility("hidden")))
 @interface WFPythonHTMLParser
 {
     long long _currentLineNumber;
-    long long _currentOffset;
-    id <WFPythonHTMLParserDelegate> _delegate;
-    NSRegularExpression *_interestingExpression;
-    NSRegularExpression *_incompleteExpression;
-    NSRegularExpression *_entityrefExpression;
-    NSRegularExpression *_charrefExpression;
-    NSRegularExpression *_startTagOpenExpression;
-    NSRegularExpression *_commentCloseExpression;
-    NSRegularExpression *_tagFindExpression;
-    NSRegularExpression *_attributeFindExpression;
-    NSRegularExpression *_locateStartTagEndExpression;
-    NSRegularExpression *_endEndTagExpression;
-    NSRegularExpression *_endTagFindExpression;
-    NSString *_rawData;
-    NSString *_cdataElement;
 }
 
 - (long long);
@@ -63,37 +47,168 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)ph";
+- (long long)achment view not found from drawing;
 - (void);
-- (long long);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)buffer(TESSELLATION_LEVEL_BUFFER_INDEX) ]],
+                               unsigned                               thread_position_in_grid        [[ thread_position_in_grid ]],
+                               unsigned                               thread_position_in_threadgroup [[ thread_position_in_threadgroup ]],
+                               unsigned                               threadgroup_position_in_grid   [[ threadgroup_position_in_grid ]],
+                               OsdPatchParamBufferSet                 osdBuffers, 
+                               device MTLQuadTessellationFactorsHalf* quadTessellationFactors        [[ buffer(QUAD_TESSFACTORS_INDEX) ]]
+#if OSD_USE_PATCH_INDEX_BUFFER
+                               ,device unsigned* patchIndex                                          [[ buffer(OSD_PATCH_INDEX_BUFFER_INDEX) ]]
+                               ,device MTLDrawPatchIndirectArguments* drawIndirectCommands           [[ buffer(OSD_DRAWINDIRECT_BUFFER_INDEX) ]]
+#endif
+                         )
+{
+    
+    
+    
+    
+    
+    
+    
+    threadgroup int3 patchParam[PATCHES_PER_THREADGROUP];
+    
+    threadgroup PatchVertexType patchVertices[PATCHES_PER_THREADGROUP * CONTROL_POINTS_PER_PATCH];
+    
+    const auto real_threadgroup = thread_position_in_grid / REAL_THREADGROUP_DIVISOR;
+    const auto subthreadgroup_in_threadgroup = thread_position_in_threadgroup / REAL_THREADGROUP_DIVISOR;
+    const auto real_thread_in_threadgroup = thread_position_in_threadgroup & (REAL_THREADGROUP_DIVISOR - 1);
+    
+#if NEEDS_BARRIER
+    const auto validThread = thread_position_in_grid * CONTROL_POINTS_PER_THREAD < osdBuffers.kernelExecutionLimit;
+#else
+    const auto validThread = true;
+    if(thread_position_in_grid * CONTROL_POINTS_PER_THREAD >= osdBuffers.kernelExecutionLimit)
+        return;
+#endif
+    
+    
+    
+    
+    if(validThread)
+    {
+        patchParam[subthreadgroup_in_threadgroup] = OsdGetPatchParam(real_threadgroup, osdBuffers.patchParamBuffer);
+        
+        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
+        {
+            const auto vertexId = osdBuffers.indexBuffer[(thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset) * IndexLookupStride];
+            const auto v = osdBuffers.vertexBuffer[vertexId];
+            
+            threadgroup auto& patchVertex = patchVertices[thread_position_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset];
+            
+            
+            
+            
+            
+            OsdComputePerVertex(float4(v.position,1), patchVertex, vertexId, transforms.modelViewProjectionTransform, osdBuffers);
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_threadgroup);
+#endif
+    
+    
+    
+    
+    
+    if(validThread)
+    {
+#if PATCHES_PER_THREADGROUP > 1
+        auto patch = patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_THREAD * CONTROL_POINTS_PER_PATCH;
+#else
+        
+        auto patch = patchVertices;
+#endif
+        
+        if(!OsdCullPerPatchVertex(patch, transforms.modelViewTransform))
+        {
+#if !OSD_USE_PATCH_INDEX_BUFFER
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[0] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[1] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[2] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[3] = 0.0h;
+            quadTessellationFactors[real_threadgroup].insideTessellationFactor[0] = 0.0h;
+            quadTessellationFactors[real_threadgroup].insideTessellationFactor[1] = 0.0h;
+#endif
+            
+            patchParam[subthreadgroup_in_threadgroup].z = -1;
+#if !NEEDS_BARRIER
+            return;
+#endif
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_threadgroup);
+#endif
+    
+    
+    
+    
+    if(validThread && patchParam[subthreadgroup_in_threadgroup].z != -1)
+    {
+        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
+        {
+            OsdComputePerPatchVertex(
+                                     patchParam[subthreadgroup_in_threadgroup],
+                                     real_thread_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     real_threadgroup,
+                                     thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                     osdBuffers
+                                     );
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_device_and_threadgroup);
+#endif
+    
+    
+    
+    
+    if(validThread && real_thread_in_threadgroup == 0)
+    {
+        
+#if OSD_USE_PATCH_INDEX_BUFFER
+        const auto patchId = atomic_fetch_add_explicit((device atomic_uint*)&drawIndirectCommands->patchCount, 1, memory_order_relaxed);
+        patchIndex[patchId] = real_threadgroup;
+#else
+        const auto patchId = real_threadgroup;
+#endif
+        
+        OsdComputePerPatchFactors(
+                                  patchParam[subthreadgroup_in_threadgroup],
+                                  tessellationLevel,
+                                  real_threadgroup,
+                                  transforms.projectionTransform,
+                                  transforms.modelViewTransform,
+                                  osdBuffers,
+                                  patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                  quadTessellationFactors[patchId]
+                                  );
+    }
+}
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)te(READER_UNIQUE_ID_ATTRIBUTE_KEY);let t=this.pageMetadataCommonToTextAnalysisAndArticleContent();if(e){const n=e.innerHTML;t.body=n}this.updateArticleBylineAndDateElementsIfNecessary();const n=this.articleDateElement();n&&(t.publishedDate=trimmedInnerTextIgnoringTextTransform(n));const i=this.articleBylineElement();return!t.author&&i&&(t.author=trimmedInnerTextIgnoringTextTransform(i)),t}catch(e){let t={};const n=e.message,i=e.stack;return n&&(t.error=n),i&&(t.stack=i),t}},readerUniqueIDOfElementPinnedToTopOfViewport:function(){const e=120;if(window.scrollY<e)return null;const t=this.articleNode();if(!t)return null;const n=t.getBoundingClientRect(),i=(n.left+n.right)/2;for(const e of[0,15,35,50,80,110]){const n=t.ownerDocument.elementFromPoint(i,e);if(n!==t&&(t.contains(n)||n===this._articleTitleElement||n===this._articleSubheadElement)){const e=this._weakMapOfOriginalElementToUniqueID.get(n);if(e)return e}}return null},scrollToElementWithUniqueID:function(e,t){const n=this._rectOfElementWithReaderUniqueID(e);if(!n||!n.top||isNaN(n.top)||!n.height||isNaN(n.height))return;const i=-t*n.height;this.scrollToOffset(n.top+i)},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){const e=this.readerUniqueIDOfElementPinnedToTopOfViewport();if(!e)return[null,null];const t=this._rectOfElementWithReaderUniqueID(e);if(!t||!t.top||isNaN(t.top)||!t.height||isNaN(t.height))return[null,null];return[e,(t.top-this.scrollY())/t.height]},_rectOfElementWithReaderUniqueID:function(e){function t(e){return{top:e.top+window.scrollY,right:e.right+window.scrollX,bottom:e.bottom+window.scrollY,left:e.left+window.scrollX,width:e.width,height:e.height}}if(!this._mapOfUniqueIDToOriginalElement)return null;let n=this._mapOfUniqueIDToOriginalElement.get(e);return n&&n.parentElement?t(n.getBoundingClientRect()):null},scrollY:function(){return window.scrollY},scrollToOffset:function(e){if("number"==typeof e)try{clearCachedElementBoundingRects(),this.cacheWindowScrollPosition(),this.contentDocument.scrollingElement.scrollTop=e}catch(e){}},documentURLString:function(){return this.contentDocument.location.href},baseURI:function(){return this.contentDocument.baseURI},usesSearchEngineOptimizationMetadata:function(){return!!document.head.querySelector('meta[property^="og:"]')},extractCanonicalLink:function(){var e=document.head.querySelector("link[rel='canonical']");if(!e)return null;var t=e.getAttribute("href");if(!t)return null;var n=document.baseURI,i=urlFromString(t,n);return"/"!==document.location.pathname&&"/"===i.pathname||"localhost"===i.hostname&&"localhost"!==document.location.hostname?null:i.href},setSuppressBoundingRectCalculationForSkippedElements:function(e){this._shouldSuppressBoundingRectCalculationForSkippedElements=e},shouldSuppressBoundingRectCalculationForSkippedElements:function(){return!!this._shouldSuppressBoundingRectCalculationForSkippedElements},handleNavigation:function(e){e.hashChange||this.resetArticleInformation()}};var ReaderArticleFinderJS=new ReaderArticleFinder(document);navigation.addEventListener("navigate",(e=>{ReaderArticleFinderJS.handleNavigation(e)}));
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSRegularExpression *attributeFindExpression; // @synthesize attributeFindExpression=_attributeFindExpression;
-@property(copy, nonatomic) NSString *cdataElement; // @synthesize cdataElement=_cdataElement;
-@property(readonly, nonatomic) NSRegularExpression *charrefExpression; // @synthesize charrefExpression=_charrefExpression;
-@property(readonly, nonatomic) NSRegularExpression *commentCloseExpression; // @synthesize commentCloseExpression=_commentCloseExpression;
-@property(nonatomic) long long currentLineNumber; // @synthesize currentLineNumber=_currentLineNumber;
-@property(nonatomic) long long currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(nonatomic) __weak id <WFPythonHTMLParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSRegularExpression *endEndTagExpression; // @synthesize endEndTagExpression=_endEndTagExpression;
-@property(readonly, nonatomic) NSRegularExpression *endTagFindExpression; // @synthesize endTagFindExpression=_endTagFindExpression;
-@property(readonly, nonatomic) NSRegularExpression *entityrefExpression; // @synthesize entityrefExpression=_entityrefExpression;
-@property(readonly, nonatomic) NSRegularExpression *incompleteExpression; // @synthesize incompleteExpression=_incompleteExpression;
 @property(retain, nonatomic) NSRegularExpression *interestingExpression; // @synthesize interestingExpression=_interestingExpression;
-@property(readonly, nonatomic) NSRegularExpression *locateStartTagEndExpression; // @synthesize locateStartTagEndExpression=_locateStartTagEndExpression;
-@property(copy, nonatomic) NSString *rawData; // @synthesize rawData=_rawData;
-@property(readonly, nonatomic) NSRegularExpression *startTagOpenExpression; // @synthesize startTagOpenExpression=_startTagOpenExpression;
-@property(readonly, nonatomic) NSRegularExpression *tagFindExpression; // @synthesize tagFindExpression=_tagFindExpression;
 
 @end
 

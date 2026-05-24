@@ -23,7 +23,7 @@
 - (void);
 - (struct __CFLocale *);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -35,7 +35,7 @@
 - (void);
 - (void);
 - (void)xtTangierFlowRep"16;
-- (struct CGSize)nForVisibleViewControllers;
+- (struct CGSize)performAppearanceTransitionForVisibleViewControllers;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *addedChildren; // @synthesize addedChildren=_addedChildren;

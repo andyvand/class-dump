@@ -6,24 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIKeyboardMenuView;
-
 __attribute__((visibility("hidden")))
 @interface UIInputSwitcherSelectionExtraView : UIView
 {
     double m_pointerOffset;
-    unsigned long long _roundedCorners;
-    UIKeyboardMenuView *_menu;
-    struct CGRect _keyRect;
 }
 
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (double);
+- (void)already logged in;
+- (void)ount %@ for replication based on loginID %@ canonicalLoginID %@;
+- (void)g:(struct CGRect)arg1 New participant (%@) added to chat (%@) is a known contact.;
+- (unsigned long long)%@;
+- (double)ment as dirty and clearing the state;
 - (struct CGRect);
-- (void);
+- (void);
 - (id)nteractionHighlighting>",W,N,V_currentHighlighter;
 - (void)e view layers instead of UIView API on the views. 
 	view:(struct CGRect)arg1 %@
@@ -33,10 +28,7 @@ Break on UIViewReportBrokenSuperviewChain to debug. /* Error: Ran out of types f
 - (id)ÓLgj;
 
 // Remaining properties
-@property(nonatomic) struct CGRect keyRect; // @synthesize keyRect=_keyRect;
-@property(nonatomic) UIKeyboardMenuView *menu; // @synthesize menu=_menu;
 @property(nonatomic) double pointerOffset; // @synthesize pointerOffset=m_pointerOffset;
-@property(nonatomic) unsigned long long roundedCorners; // @synthesize roundedCorners=_roundedCorners;
 
 @end
 

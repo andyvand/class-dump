@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TSUEncodedBlockInfoInternal
 {
@@ -13,22 +11,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long decodedLength;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long encodedLength; // @synthesize encodedLength=_encodedLength;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface UIEventAttribution
 {
     unsigned char _sourceIdentifier;
-    NSURL *_destinationURL;
-    NSURL *_reportEndpoint;
-    NSString *_sourceDescription;
-    NSString *_purchaser;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id)ctionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (_Bool)n:(id)arg1;
+- (_Bool)forwardDictationEvent_stopDictation:(id)arg1;
 - (id)esEvent",R,N;
 - (id);
 - (id);
@@ -30,10 +24,6 @@
 - (void)@7h;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, copy, nonatomic) NSString *purchaser; // @synthesize purchaser=_purchaser;
-@property(readonly, copy, nonatomic) NSURL *reportEndpoint; // @synthesize reportEndpoint=_reportEndpoint;
-@property(readonly, copy, nonatomic) NSString *sourceDescription; // @synthesize sourceDescription=_sourceDescription;
 @property(readonly, nonatomic) unsigned char sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 
 @end

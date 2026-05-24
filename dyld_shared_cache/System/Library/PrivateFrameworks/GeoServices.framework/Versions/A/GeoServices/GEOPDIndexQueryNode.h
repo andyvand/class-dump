@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIndexQueryNode
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_field;
-    NSMutableArray *_operands;
-    NSString *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    CDStruct_dc56225f _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)Count;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ata"b1"read_displayLanguages"b1"read_displayRegion"b1"read_handleData"b1"read_partiallyComposedSearchResultRequestedComponents"b1"read_placeRequestParameters"b1"read_privacyMetadata"b1"read_requestedComponents"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (id)ons;
+- (id)_etauPositions;
 - (id)çÔç;
 - (void);
 

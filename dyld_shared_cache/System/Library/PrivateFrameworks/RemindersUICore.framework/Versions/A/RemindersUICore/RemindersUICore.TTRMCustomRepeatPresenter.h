@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMCustomRepeatPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id $__lazy_storage_$_availableRecurrenceFrequencies;
-    id interactor;
-    id router;
-    id prohibitsHourlyRecurrence;
 }
 
 @end

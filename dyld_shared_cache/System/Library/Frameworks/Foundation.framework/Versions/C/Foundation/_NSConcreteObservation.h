@@ -7,14 +7,12 @@
 #import <Foundation/NSObservation.h>
 
 @class NSObject;
-@protocol NSObservable, NSObserver;
+@protocol NSObservable;
 
 __attribute__((visibility("hidden")))
 @interface _NSConcreteObservation : NSObservation
 {
     NSObject<NSObservable> *_LHSobservable;
-    NSObject<NSObserver> *_RHSobserver;
-    id _observers[4];
 }
 
 - (void *);

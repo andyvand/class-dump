@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (void)A;
 + (void);
-+ (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (int);
@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (struct OADAdjustCoord);
++ (id)63;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (int);
 + (void);
 + (id);

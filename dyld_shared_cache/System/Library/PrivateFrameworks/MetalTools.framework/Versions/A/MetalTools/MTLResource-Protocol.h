@@ -5,23 +5,16 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
+- (NSString *);
 - (unsigned long long)1i6Ð1Â0@ù
 × ;
 - (unsigned long long)fer",R,N;
 - (id <MTLHeap>)xture:sourceSlice:sourceLevel:toTexture:destinationSlice:destinationLevel:sliceCount:levelCount:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

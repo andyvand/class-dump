@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMLinkTextField, MMPinFieldView, NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView, iCloudTouchBarController;
-@protocol MMCSCSMSTargetRecoveryViewControllerDelegate;
+@class MMPinFieldView;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCSMSTargetRecoveryViewController
 {
     MMPinFieldView *_smsTargetPinFieldView;
-    NSString *_smsTargetCountryCode;
-    NSString *_smsTarget;
-    NSString *_smsVerificationToken;
-    id <MMCSCSMSTargetRecoveryViewControllerDelegate> _delegate;
-    NSImageView *_smsTargetImageView;
-    NSTextField *_smsTargetTitle;
-    MMLinkTextField *_smsTargetMessage;
-    NSView *_smsTargetPinFieldPlaceholder;
-    NSLayoutConstraint *_smsTargetPinFieldWidthConstraint;
-    NSButton *_smsTargetConfirmButton;
-    NSButton *_smsTargetCancelButton;
-    NSButton *_smsTargetHelpButton;
-    NSProgressIndicator *_smsTargetProgressIndicator;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
@@ -43,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -57,9 +42,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)K11㍃R?kQ3;
+- (void)AuthProviderInternal>",&,N,V_recoveryAuthProvider;
+- (void)SControl"16@"NSString"24@"NSString"32;
 - (id);
 - (void);
 - (id);
@@ -72,29 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)rDidFinishLoading:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCSMSTargetRecoveryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *smsTarget; // @synthesize smsTarget=_smsTarget;
-@property __weak NSButton *smsTargetCancelButton; // @synthesize smsTargetCancelButton=_smsTargetCancelButton;
-@property __weak NSButton *smsTargetConfirmButton; // @synthesize smsTargetConfirmButton=_smsTargetConfirmButton;
-@property(copy) NSString *smsTargetCountryCode; // @synthesize smsTargetCountryCode=_smsTargetCountryCode;
-@property __weak NSButton *smsTargetHelpButton; // @synthesize smsTargetHelpButton=_smsTargetHelpButton;
-@property __weak NSImageView *smsTargetImageView; // @synthesize smsTargetImageView=_smsTargetImageView;
-@property __weak MMLinkTextField *smsTargetMessage; // @synthesize smsTargetMessage=_smsTargetMessage;
-@property __weak NSView *smsTargetPinFieldPlaceholder; // @synthesize smsTargetPinFieldPlaceholder=_smsTargetPinFieldPlaceholder;
 @property(retain) MMPinFieldView *smsTargetPinFieldView; // @synthesize smsTargetPinFieldView=_smsTargetPinFieldView;
-@property __weak NSLayoutConstraint *smsTargetPinFieldWidthConstraint; // @synthesize smsTargetPinFieldWidthConstraint=_smsTargetPinFieldWidthConstraint;
-@property __weak NSProgressIndicator *smsTargetProgressIndicator; // @synthesize smsTargetProgressIndicator=_smsTargetProgressIndicator;
-@property __weak NSTextField *smsTargetTitle; // @synthesize smsTargetTitle=_smsTargetTitle;
-@property(copy) NSString *smsVerificationToken; // @synthesize smsVerificationToken=_smsVerificationToken;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end
 

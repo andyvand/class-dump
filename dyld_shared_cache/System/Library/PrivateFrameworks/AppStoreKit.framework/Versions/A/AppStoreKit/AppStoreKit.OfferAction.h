@@ -9,14 +9,6 @@
 @interface AppStoreKit.OfferAction : AppStoreKit.Action
 {
     id purchaseToken;
-    id adamId;
-    id parentAdamId;
-    id bundleId;
-    id lineItem;
-    id buyCompletedAction;
-    id includeBetaApps;
-    id requiresExceptionRequest;
-    id forceAskToBuyReason;
 }
 
 @end

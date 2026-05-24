@@ -11,11 +11,11 @@
     NSMapTable *_inputModeToWordSearchMapping;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)preferredRelayNumber;
 - (void);
 - (id);
 - (void);

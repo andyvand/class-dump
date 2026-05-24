@@ -7,12 +7,10 @@
 @interface SwiftUI.TooltipBridge
 {
     id host;
-    id hasTooltipSeed;
-    id tooltipInteraction;
 }
 
 - (id);
-- (id);
+- (id)setDidPopuldateAppInfo: /* Error: Ran out of types for this method. */;
 - (void)(UÆþ=§Ð(UÆþ;
 
 @end

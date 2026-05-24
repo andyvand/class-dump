@@ -5,6 +5,7 @@
 //
 
 @protocol UIKeyInput
+- (void)EGER, delete_date INTEGER, part_text BLOB NOT NULL, ck_sync_state INTEGER DEFAULT 0, PRIMARY KEY (chat_id, message_id, part_index), CHECK (delete_date != 0);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

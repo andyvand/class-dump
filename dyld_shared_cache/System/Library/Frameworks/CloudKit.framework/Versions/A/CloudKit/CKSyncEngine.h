@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, CKSyncEngineState, NSArray, NSString;
-@protocol CKSyncEngineDataSource;
-
 @interface CKSyncEngine
 {
     id swiftEngine;
-    id delegateAdapter;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id));
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ires a distance function to be set.;
 - (void);
 - (void);
 - (id);
@@ -44,21 +40,12 @@
 - (void);
 - (void);
 - (_Bool)8@0:8@16q24@32@?40 /* Error: Ran out of types for this method. */;
-- (void)g;
+- (void)NSMutableCopying;
 - (void);
-- (id)ptedWrapKey;
+- (id)encryptedWrapKey;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticSyncingEnabled;
-@property(nonatomic, readonly) id <CKSyncEngineDataSource> dataSource;
-@property(nonatomic, readonly) CKDatabase *database;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool hasPendingModifications;
-@property(nonatomic, readonly) NSArray *recordIDsToDelete;
-@property(nonatomic, readonly) NSArray *recordIDsToSave;
-@property(nonatomic, readonly) CKSyncEngineState *state;
-@property(nonatomic, readonly) NSString *syncBackgroundTaskIdentifier;
-@property(nonatomic, readonly) _Bool useOpportunisticPushTopic;
 
 @end
 

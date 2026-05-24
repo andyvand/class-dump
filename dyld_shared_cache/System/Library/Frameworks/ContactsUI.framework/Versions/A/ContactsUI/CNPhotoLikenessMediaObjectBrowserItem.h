@@ -9,13 +9,12 @@
 @interface CNPhotoLikenessMediaObjectBrowserItem
 {
     MLMediaObject *_mediaObject;
-    unsigned long long _imageVersion;
 }
 
++ (id)?;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id).;
 - (void);
 - (id);
 - (unsigned long long);
@@ -29,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long imageVersion; // @synthesize imageVersion=_imageVersion;
 @property(retain) MLMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 
 @end

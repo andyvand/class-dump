@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSAuthenticateOptions, NSError;
+@class ACAccount;
 
 @interface AMSAuthenticateMetricsContext
 {
     _Bool _isServerRequested;
-    ACAccount *_account;
-    NSError *_error;
-    AMSAuthenticateOptions *_options;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Backward compatibility messages never include sender name.;
 - (void);
 - (id);
 - (void);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool isServerRequested; // @synthesize isServerRequested=_isServerRequested;
-@property(retain) AMSAuthenticateOptions *options; // @synthesize options=_options;
 
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)Ήz;
 - (id);
 
 // Remaining properties

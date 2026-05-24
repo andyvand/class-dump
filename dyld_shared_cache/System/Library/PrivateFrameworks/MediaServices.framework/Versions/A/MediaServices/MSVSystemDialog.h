@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSystemDialogOptions, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MSVSystemDialog
 {
     NSMutableArray *_textFields;
-    struct __CFUserNotification *_preparedUserNotification;
-    struct __CFUserNotification *_presentedUserNotification;
-    struct __CFRunLoopSource *_activeRunLoopSource;
-    CDUnknownBlockType _pendingCompletion;
-    MSVSystemDialogOptions *_options;
 }
 
 + (id);
@@ -23,24 +18,20 @@
 - (struct __CFUserNotification *);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (struct __CFRunLoopSource *);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct __CFRunLoopSource *activeRunLoopSource;
-@property(readonly, nonatomic) MSVSystemDialogOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) CDUnknownBlockType pendingCompletion;
 @property(nonatomic) struct __CFUserNotification *presentedUserNotification;
-@property(readonly, nonatomic) NSArray *textFields; // @synthesize textFields=_textFields;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol NSTableViewDataSource
+
+@optional
+- (_Bool);
 @end
 

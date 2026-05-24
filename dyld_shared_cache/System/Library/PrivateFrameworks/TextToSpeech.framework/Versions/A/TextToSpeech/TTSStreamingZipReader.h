@@ -9,7 +9,6 @@
 @interface TTSStreamingZipReader
 {
     NSString *_zipPath;
-    NSString *_password;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
 @property(retain, nonatomic) NSString *zipPath; // @synthesize zipPath=_zipPath;
 
 @end

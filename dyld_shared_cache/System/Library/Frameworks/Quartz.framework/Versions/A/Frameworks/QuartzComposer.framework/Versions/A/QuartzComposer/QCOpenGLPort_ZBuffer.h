@@ -9,9 +9,6 @@
 @interface QCOpenGLPort_ZBuffer : QCIndexPort
 {
     unsigned char _enabled;
-    int _function;
-    int _mask;
-    void *_unused4[4];
 }
 
 - (void);

@@ -7,35 +7,21 @@
 @interface OSASharedCacheEntry
 {
     _Bool _isDefaultSharedCache;
-    unsigned int _sharedCacheID;
-    unsigned int _layoutImageCount;
-    unsigned long long _sharedCacheSlide;
-    unsigned long long _sharedCacheUnreliableSlidBaseAddress;
-    char (*_sharedCacheUuid)[37];
-    struct dyld_shared_cache_loadinfo_v2 *_original;
-    struct dyld_uuid_info_64 *_layout;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned int);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (char (*)[37]);
+- (unsigned long long)dowBasedViews;
+- (unsigned long long)mage;
+- (unsigned int)ntent;
+- (void)CompactWidth;
+- (void)FilterBar;
+- (unsigned int)ldUseStandardSectionInsets;
+- (_Bool)r;
+- (char (*)[37]),N,V_provider;
 - (struct dyld_shared_cache_loadinfo_v2 *);
-- (struct dyld_uuid_info_64 *);
+- (struct dyld_uuid_info_64 *)getPreferredResolver:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDefaultSharedCache; // @synthesize isDefaultSharedCache=_isDefaultSharedCache;
-@property(readonly, nonatomic) struct dyld_uuid_info_64 *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) unsigned int layoutImageCount; // @synthesize layoutImageCount=_layoutImageCount;
-@property(readonly, nonatomic) struct dyld_shared_cache_loadinfo_v2 *original; // @synthesize original=_original;
 @property(readonly, nonatomic) unsigned int sharedCacheID; // @synthesize sharedCacheID=_sharedCacheID;
-@property(readonly, nonatomic) unsigned long long sharedCacheSlide; // @synthesize sharedCacheSlide=_sharedCacheSlide;
-@property(readonly, nonatomic) unsigned long long sharedCacheUnreliableSlidBaseAddress; // @synthesize sharedCacheUnreliableSlidBaseAddress=_sharedCacheUnreliableSlidBaseAddress;
-@property(readonly, nonatomic) char (*sharedCacheUuid)[37]; // @synthesize sharedCacheUuid=_sharedCacheUuid;
 
 @end
 

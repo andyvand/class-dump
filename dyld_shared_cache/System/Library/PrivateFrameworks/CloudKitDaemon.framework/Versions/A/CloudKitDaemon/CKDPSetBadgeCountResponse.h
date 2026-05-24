@@ -11,11 +11,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)mpleRange:Could not process all valid samples at this time. Prepared:%u nextRemoteMediaTimestamp %1.3f (sample time %1.3f), flushSampleRangeStart %1.3f
+ /* Error: Ran out of types for this method. */;
+- (_Bool)(	?נ;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

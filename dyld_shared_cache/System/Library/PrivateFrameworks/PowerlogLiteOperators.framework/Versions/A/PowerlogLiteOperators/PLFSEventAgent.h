@@ -9,7 +9,6 @@
 @interface PLFSEventAgent
 {
     PLXPCResponderOperatorComposition *_fileListResponder;
-    struct __FSEventStream *_stream;
 }
 
 + (id);
@@ -17,16 +16,16 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void)ate;
++ (id);
++ (void)IOMFBNativeRate;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
-- (void);
+- (void);
 - (struct __FSEventStream *);
 - (void);
 - (void)(Ï;
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(retain) PLXPCResponderOperatorComposition *fileListResponder; // @synthesize fileListResponder=_fileListResponder;
-@property struct __FSEventStream *stream; // @synthesize stream=_stream;
 
 @end
 

@@ -5,19 +5,16 @@
 //
 
 @class NSString;
-@protocol WKNavigationDelegate><WKScriptMessageHandlerWithReply><WKURLSchemeHandler><AMSUIWebSafariWebDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebSafariWebView
 {
     NSString *_logKey;
-    id <WKNavigationDelegate><WKScriptMessageHandlerWithReply><WKURLSchemeHandler><AMSUIWebSafariWebDelegate> _safariDelegate;
-    NSString *_scheme;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)d, holding with pending assertions...;
 - (id);
 - (void);
 - (void);
@@ -32,17 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)up5vH6w¨7D88À:(id)arg1 xX;y0<z=è=A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSString *logKey; // @synthesize logKey=_logKey;
-@property __weak id <WKNavigationDelegate><WKScriptMessageHandlerWithReply><WKURLSchemeHandler><AMSUIWebSafariWebDelegate> safariDelegate; // @synthesize safariDelegate=_safariDelegate;
-@property __weak NSString *scheme; // @synthesize scheme=_scheme;
-@property(readonly) Class superclass;
-@property double topInset;
 
 @end
 

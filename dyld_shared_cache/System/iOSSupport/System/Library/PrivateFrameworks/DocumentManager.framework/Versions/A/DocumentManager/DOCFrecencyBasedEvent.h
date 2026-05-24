@@ -9,7 +9,6 @@
 @interface DOCFrecencyBasedEvent
 {
     NSDate *_lastUsedDate;
-    double _frecency;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double frecency; // @synthesize frecency=_frecency;
 @property(retain, nonatomic) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
 
 @end

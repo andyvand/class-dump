@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
 

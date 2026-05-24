@@ -4,26 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, UITraitCollection;
+@protocol _UINavigationBarTitleViewDataSource;
 
 @protocol _UINavigationBarAugmentedTitleView
+- (_Bool);
+- (void)setCompletionBlocksForAssetFetchOperations:(id <_UINavigationBarTitleViewDataSource>)arg1;
+- (long long)groupIDIsHistoricalIdentifier;
+- (long long)getNicknameWithRecordID:decryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag:isKnownSender:shouldDecodeImageFields:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)eventData;
+- (void)compressedProtobuf2DataForParticipantChangeItem;
+- (void)compressedProtobuf2DataForGroupActionItem;
+- (void)compressFileTransfer:(UITraitCollection *)arg1 completionBlock:(UITraitCollection *)arg2;
+- (double)componentsWithURL:resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (double)compareBySequenceNumberAndDateDescending: /* Error: Ran out of types for this method. */;
+- (_Bool)commandHandlerRegistry;
+- (NSArray *)collaborationInitiationRequestInfo;
+- (double)collaborationHighlightForIdentifier:error: /* Error: Ran out of types for this method. */;
+- (double)codeInvalidationTimer;
+- (double)cloudkitStateEnabledReturnedWithNotification: /* Error: Ran out of types for this method. */;
+- (double)cloudkitRecordsKVStore;
+- (_Bool)_deleteHandleIDFromHandledMap: /* Error: Ran out of types for this method. */;
+- (_Bool)_deleteFilesOnDiskAndUpdateTransfers: /* Error: Ran out of types for this method. */;
+- (_Bool)_deleteDataUnderScrutiny;
+- (_Bool)_deleteContext;
+- (long long);
+- (_Bool)B,GisRecovered;
+- (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _disallowNavigationBarMinimumTopPadding;
-@property(readonly, nonatomic) long long _displayLayer;
-@property(readonly, nonatomic) _Bool _hideNavigationBarBackButton;
-@property(readonly, nonatomic) _Bool _hideNavigationBarCenterBarButtons;
-@property(readonly, nonatomic) _Bool _hideNavigationBarLeadingBarButtons;
-@property(readonly, nonatomic) _Bool _hideNavigationBarStandardTitle;
-@property(readonly, nonatomic) _Bool _hideNavigationBarTrailingBarButtons;
-@property(readonly, nonatomic) double _navigationBarBackButtonAlpha;
-@property(readonly, nonatomic) double _navigationBarBackButtonMaximumWidth;
-@property(readonly, nonatomic) double _navigationBarContentHeight;
-@property(readonly, nonatomic) double _navigationBarContentHeightExtension;
-@property(readonly, copy, nonatomic) NSArray *_navigationBarContentOverlayRects;
 @property(readonly, nonatomic) _Bool _navigationBarHeightShouldBeIncreasedByTabBarHeight;
-@property(readonly, nonatomic) double _navigationBarLeadingBarButtonsAlpha;
-@property(readonly, nonatomic) double _navigationBarTrailingBarButtonsAlpha;
-@property(readonly, nonatomic) long long _preferredAlignment;
 @end
 

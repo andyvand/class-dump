@@ -6,18 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMAnyPayload, NSString;
+@class NSString;
 
 @interface CEMNetworkDNSProxyDeclaration : CEMConfigurationBase
 {
     NSString *_payloadAppBundleIdentifier;
-    NSString *_payloadProviderBundleIdentifier;
-    CEMAnyPayload *_payloadProviderConfiguration;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,28 +24,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)~!`!j*;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)(O&I));
 - (id);
-- (void);
+- (void)DSA-AES256-SHA384;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadAppBundleIdentifier; // @synthesize payloadAppBundleIdentifier=_payloadAppBundleIdentifier;
-@property(copy, nonatomic) NSString *payloadProviderBundleIdentifier; // @synthesize payloadProviderBundleIdentifier=_payloadProviderBundleIdentifier;
-@property(copy, nonatomic) CEMAnyPayload *payloadProviderConfiguration; // @synthesize payloadProviderConfiguration=_payloadProviderConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRecord, AVTClippableImageStore, AVTImageStore, AVTUIEnvironment, AVTUIStickerGeneratorPool, AVTUIStickerRenderer, NSLock, NSObject;
-@protocol AVTTaskScheduler, AVTUILogger, OS_dispatch_queue, OS_os_transaction;
+@class AVTUIEnvironment;
 
 @interface AVTUIImageRenderService
 {
     AVTUIEnvironment *_environment;
-    AVTImageStore *_imageStore;
-    AVTClippableImageStore *_clippableImageStore;
-    id <AVTUILogger> _logger;
-    AVTUIStickerGeneratorPool *_generatorPool;
-    id <AVTTaskScheduler> _taskScheduler;
-    long long _activeTransactionCount;
-    NSLock *_transactionCountLock;
-    NSObject<OS_os_transaction> *_transaction;
-    CDUnknownBlockType _cleanupBlock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    AVTAvatarRecord *_currentAvatarRecord;
-    AVTUIStickerRenderer *_currentStickerRenderer;
 }
 
 + (id);
@@ -53,32 +40,20 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)+;
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id)Ì;
 
 // Remaining properties
-@property(nonatomic) long long activeTransactionCount; // @synthesize activeTransactionCount=_activeTransactionCount;
-@property(nonatomic) __weak CDUnknownBlockType cleanupBlock; // @synthesize cleanupBlock=_cleanupBlock;
-@property(readonly, nonatomic) AVTClippableImageStore *clippableImageStore; // @synthesize clippableImageStore=_clippableImageStore;
-@property(retain, nonatomic) AVTAvatarRecord *currentAvatarRecord; // @synthesize currentAvatarRecord=_currentAvatarRecord;
-@property(retain, nonatomic) AVTUIStickerRenderer *currentStickerRenderer; // @synthesize currentStickerRenderer=_currentStickerRenderer;
 @property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) AVTUIStickerGeneratorPool *generatorPool; // @synthesize generatorPool=_generatorPool;
-@property(readonly, nonatomic) AVTImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <AVTTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
-@property(retain, nonatomic) NSLock *transactionCountLock; // @synthesize transactionCountLock=_transactionCountLock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

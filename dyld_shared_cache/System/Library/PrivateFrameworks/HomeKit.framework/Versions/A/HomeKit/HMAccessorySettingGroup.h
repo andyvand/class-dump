@@ -6,15 +6,11 @@
 
 #import <HomeKit/HMSettingGroup.h>
 
-@class NSArray, NSMutableSet, NSString, _HMAccessorySettingGroup;
+@class _HMAccessorySettingGroup;
 
 @interface HMAccessorySettingGroup : HMSettingGroup
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_settings;
-    NSMutableSet *_groups;
-    _HMAccessorySettingGroup *_internal;
-    HMAccessorySettingGroup *_group;
 }
 
 + (id)nHandler:] /* Error: Ran out of types for this method. */;
@@ -22,7 +18,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,29 +35,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)eo compression session invalidated already!
+;
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)erogenic;
+- (id)arrayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)blic}@[%{public,uuid_t}.16P] Failing active stream due to daemon reconnection;
 - (id)a User to %@;
 - (id)e(HMTrigger) removeMediaSystem:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak HMAccessorySettingGroup *group; // @synthesize group=_group;
-@property(readonly, copy) NSArray *groups;
-@property(readonly) unsigned long long hash;
 @property(readonly) _HMAccessorySettingGroup *internal; // @synthesize internal=_internal;
-@property(readonly, copy) NSString *localizedTitle;
-@property(readonly, copy) NSArray *settings;
-@property(readonly) Class superclass;
 
 @end
 

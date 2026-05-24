@@ -9,40 +9,34 @@
 @interface GEODodgeballDetails
 {
     PBUnknownFields *_unknownFields;
-    int _dodgeballAction;
-    struct {
-        unsigned int has_dodgeballAction:1;
-    } _flags;
 }
 
-+ (_Bool)pe:(id)arg1;
++ (_Bool)setHasProactiveItemType:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_capacity;
+- (id)8;
 - (int);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setUncompressedAudioLogging:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id)r;
-- (id)_GEOCAT_BOUNDED_BIZ_SEARCH_ERROR_COUNT;
+- (_Bool)\E;
+- (_Bool)I;
+- (void)A;
+- (id)setHasIsNonApplePayFpanTransaction:(struct _NSZone *)arg1;
+- (id)GEOExternalTileLoader;
+- (id)MSL_MIXEDINTENT_GEOCAT_BOUNDED_BIZ_SEARCH_ERROR_COUNT;
 - (id)ÿÿ;
 - (void)L-5;
 
 // Remaining properties
-@property(nonatomic) int dodgeballAction;
 @property(nonatomic) _Bool hasDodgeballAction;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFAppleMediaAccessoryPowerActionDatabaseID, NSNumber;
+@class NSNumber;
 @protocol MKFAppleMediaAccessory, MKFHome;
 
 @protocol MKFAppleMediaAccessoryPowerAction
+- (id <MKFAppleMediaAccessory>);
 - (id <MKFHome>)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAppleMediaAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFAppleMediaAccessoryPowerActionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *targetSleepWakeState;
 @end
 

@@ -10,36 +10,28 @@ __attribute__((visibility("hidden")))
 @interface _UIBackdropViewSettingsCombiner : _UIBackdropViewSettings
 {
     _UIBackdropViewSettings *_inputSettingsA;
-    _UIBackdropViewSettings *_inputSettingsB;
-    double _weighting;
-    _UIBackdropViewSettings *_outputSettingsA;
-    _UIBackdropViewSettings *_outputSettingsB;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)requestTranscriptBackgroundIfNecessary:(_Bool)arg1 incomingVersion:toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
+- (void)processName;
+- (void)processMessagesThatWereJustMarkedReadWithChatGUID:(id)arg1 messageGUIDs:readDate:fromMe: /* Error: Ran out of types for this method. */;
+- (void)loadPagedHistoryAroundMessageWithGUID:(id)arg1 chatGUID:chatIdentifiers:style:services:numberOfMessagesBefore:numberOfMessagesAfter:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (void)loadPagedHistoryAroundMessageWithGUID:(id)arg1 chatGUID:chatIdentifiers:style:services:numberOfMessagesBefore:numberOfMessagesAfter:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)broadcasterForSentMessageListenersSupportingService: /* Error: Ran out of types for this method. */;
+- (id)IMAKUserInfoChangedAltDSIDKey;
+- (id)lbackGUIDs;
+- (void);
 - (id);
 - (id);
 - (void);
 - (double);
 - (_Bool);
-- (void)aturalSearchFieldContainerHeight;
+- (void)naturalSearchFieldContainerHeight;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UIBackdropViewSettings *inputSettingsA; // @synthesize inputSettingsA=_inputSettingsA;
-@property(retain, nonatomic) _UIBackdropViewSettings *inputSettingsB; // @synthesize inputSettingsB=_inputSettingsB;
 @property(retain, nonatomic) _UIBackdropViewSettings *outputSettingsA; // @synthesize outputSettingsA=_outputSettingsA;
-@property(retain, nonatomic) _UIBackdropViewSettings *outputSettingsB; // @synthesize outputSettingsB=_outputSettingsB;
-@property(nonatomic) double weighting; // @synthesize weighting=_weighting;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaDestinationsManagerDelegate
+- (void);
 @end
 

@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface MKBlurBackingLayer
 {
     CALayer *_backdropLayer;
-    struct CGColor *_fallbackColor;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)BackingStore>::isValidHeader -- cannot open source file '%s' /* Error: Ran out of types for this method. */;
+- (void)addCharactersInRange: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)o;
+- (void)encyclopedicInfo;
 
 @end
 

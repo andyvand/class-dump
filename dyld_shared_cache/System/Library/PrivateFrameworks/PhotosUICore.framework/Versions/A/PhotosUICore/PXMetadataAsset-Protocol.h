@@ -9,12 +9,10 @@
 @protocol PXMetadataAsset
 - (CLLocation *)n value:"%@" /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, nonatomic) _Bool cloudIsDeletable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
+@optional
+- (_Bool);
 
+// Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) CLLocation *location;
 @end
 

@@ -7,19 +7,12 @@
 @interface PhotoAnalysis.LegacyStorytellingService
 {
     id $defaultActor;
-    id identifier;
-    id worker;
-    id associatedWorkers;
-    id stateHolder;
-    id operationManager;
-    id currentTaskIdentifiers;
-    id operationID;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B6;
 - (void);
 
 @end

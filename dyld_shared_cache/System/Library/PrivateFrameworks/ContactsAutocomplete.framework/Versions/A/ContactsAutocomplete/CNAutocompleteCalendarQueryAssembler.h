@@ -9,25 +9,19 @@
 @interface CNAutocompleteCalendarQueryAssembler
 {
     CNObservable *_cachedObservable;
-    CNObservable *_uncachedObservable;
-    CNObservable *_rawCachedObservable;
-    CNObservable *_rawUncachedObservable;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) CNObservable *cachedObservable; // @synthesize cachedObservable=_cachedObservable;
 @property(readonly) CNObservable *rawCachedObservable; // @synthesize rawCachedObservable=_rawCachedObservable;
-@property(readonly) CNObservable *rawUncachedObservable; // @synthesize rawUncachedObservable=_rawUncachedObservable;
-@property(readonly) CNObservable *uncachedObservable; // @synthesize uncachedObservable=_uncachedObservable;
 
 @end
 

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, GEOComposedStringOptions;
-
 @interface GEOComposedStringSubstitutionCandidate
 {
     int _waypointCategory;
-    GEOComposedString *_composedString;
-    GEOComposedStringOptions *_optionsToUse;
 }
 
 + (_Bool)y path "%@" - %@;
 - (int);
-- (id);
+- (id)mpleted>;
 - (id);
 - (_Bool);
 - (void);
-- (id)itute:(struct _NSZone *)arg1;
+- (id)setDisplayHeaderSubstitute:(struct _NSZone *)arg1;
 - (void)pÅeÿxt9Ò 5;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedString *composedString; // @synthesize composedString=_composedString;
 @property(readonly, nonatomic) int waypointCategory; // @synthesize waypointCategory=_waypointCategory;
 
 @end

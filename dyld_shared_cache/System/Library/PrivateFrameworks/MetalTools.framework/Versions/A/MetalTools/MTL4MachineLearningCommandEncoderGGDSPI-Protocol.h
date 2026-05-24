@@ -5,5 +5,6 @@
 //
 
 @protocol MTL4MachineLearningCommandEncoderGGDSPI
+- (unsigned long long)a;
 @end
 

@@ -4,52 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL, SPBeaconRole, SPUnknownProductMetadata;
-
 @interface SPDiscoveredAccessoryProductInformation
 {
     _Bool _eligibleForPairing;
-    _Bool _hidden;
-    _Bool _isHELEAccessory;
-    _Bool _isManagedAccessory;
-    _Bool _supportBeaconGroupInfo;
-    _Bool _isAirTag;
-    _Bool _isAppleAudioAccessory;
-    long long _beaconGroupVersion;
-    NSString *_findmyProductId;
-    NSString *_modelName;
-    NSString *_manufacturerName;
-    SPBeaconRole *_defaultRole;
-    NSString *_appBundleIdentifier;
-    NSURL *_lowBatteryInfoURL;
-    NSURL *_disableURL;
-    NSString *_version;
-    NSData *_encryptionKeyE1;
-    NSData *_encryptionKeyE2;
-    NSData *_verificationKeyS2;
-    double _txPower;
-    double _rangeDistanceInMeters;
-    unsigned long long _capabilities;
-    NSArray *_layoutTemplate;
-    NSURL *_defaultHeroIcon;
-    NSURL *_defaultListIcon;
-    NSURL *_defaultHeroIcon2x;
-    NSURL *_defaultListIcon2x;
-    NSURL *_defaultHeroIcon3x;
-    NSURL *_defaultListIcon3x;
-    SPUnknownProductMetadata *_learnModeMetadata;
-    SPUnknownProductMetadata *_disableMetadata;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,10 +56,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)價;
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
@@ -101,47 +69,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)logCNContact:(_Bool)arg1;
+- (id)IMFileTransferStateKey;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)umStagingInterval:stagingBackstopHour:assumedKeyRollHour:scanInterval:surfaceImmediatelyBetweenBackstopAndKeyroll:maxExpectedWildInterval:shouldAlertImmediatelyForImmediateTypes:durationOfConsideration:thresholdOfLocationRelevance:thresholdOfSignificantDuration:thresholdOfSignificantDistance:capOfReasonableWalkingSpeed:allowNavGeoHintAsPrivateVehicleHint: /* Error: Ran out of types for this method. */;
+- (id)initWithType:expiryTimeInterval:keepAliveInterval:minimumStagingInterval:stagingBackstopHour:assumedKeyRollHour:scanInterval:surfaceImmediatelyBetweenBackstopAndKeyroll:maxExpectedWildInterval:shouldAlertImmediatelyForImmediateTypes:durationOfConsideration:thresholdOfLocationRelevance:thresholdOfSignificantDuration:thresholdOfSignificantDistance:capOfReasonableWalkingSpeed:allowNavGeoHintAsPrivateVehicleHint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
 @property(nonatomic) long long beaconGroupVersion; // @synthesize beaconGroupVersion=_beaconGroupVersion;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(copy, nonatomic) NSURL *defaultHeroIcon; // @synthesize defaultHeroIcon=_defaultHeroIcon;
-@property(copy, nonatomic) NSURL *defaultHeroIcon2x; // @synthesize defaultHeroIcon2x=_defaultHeroIcon2x;
-@property(copy, nonatomic) NSURL *defaultHeroIcon3x; // @synthesize defaultHeroIcon3x=_defaultHeroIcon3x;
-@property(copy, nonatomic) NSURL *defaultListIcon; // @synthesize defaultListIcon=_defaultListIcon;
-@property(copy, nonatomic) NSURL *defaultListIcon2x; // @synthesize defaultListIcon2x=_defaultListIcon2x;
-@property(copy, nonatomic) NSURL *defaultListIcon3x; // @synthesize defaultListIcon3x=_defaultListIcon3x;
-@property(copy, nonatomic) SPBeaconRole *defaultRole; // @synthesize defaultRole=_defaultRole;
-@property(copy, nonatomic) SPUnknownProductMetadata *disableMetadata; // @synthesize disableMetadata=_disableMetadata;
-@property(copy, nonatomic) NSURL *disableURL; // @synthesize disableURL=_disableURL;
-@property(nonatomic) _Bool eligibleForPairing; // @synthesize eligibleForPairing=_eligibleForPairing;
-@property(copy, nonatomic) NSData *encryptionKeyE1; // @synthesize encryptionKeyE1=_encryptionKeyE1;
-@property(copy, nonatomic) NSData *encryptionKeyE2; // @synthesize encryptionKeyE2=_encryptionKeyE2;
-@property(copy, nonatomic) NSString *findmyProductId; // @synthesize findmyProductId=_findmyProductId;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic) _Bool isAirTag; // @synthesize isAirTag=_isAirTag;
-@property(nonatomic) _Bool isAppleAudioAccessory; // @synthesize isAppleAudioAccessory=_isAppleAudioAccessory;
-@property(nonatomic) _Bool isHELEAccessory; // @synthesize isHELEAccessory=_isHELEAccessory;
-@property(nonatomic) _Bool isManagedAccessory; // @synthesize isManagedAccessory=_isManagedAccessory;
-@property(copy, nonatomic) NSArray *layoutTemplate; // @synthesize layoutTemplate=_layoutTemplate;
-@property(copy, nonatomic) SPUnknownProductMetadata *learnModeMetadata; // @synthesize learnModeMetadata=_learnModeMetadata;
-@property(copy, nonatomic) NSURL *lowBatteryInfoURL; // @synthesize lowBatteryInfoURL=_lowBatteryInfoURL;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) double rangeDistanceInMeters; // @synthesize rangeDistanceInMeters=_rangeDistanceInMeters;
-@property(nonatomic) _Bool supportBeaconGroupInfo; // @synthesize supportBeaconGroupInfo=_supportBeaconGroupInfo;
-@property(nonatomic) double txPower; // @synthesize txPower=_txPower;
-@property(copy, nonatomic) NSData *verificationKeyS2; // @synthesize verificationKeyS2=_verificationKeyS2;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

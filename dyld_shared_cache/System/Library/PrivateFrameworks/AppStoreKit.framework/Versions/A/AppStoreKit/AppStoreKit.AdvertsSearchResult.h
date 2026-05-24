@@ -9,8 +9,6 @@
 @interface AppStoreKit.AdvertsSearchResult : AppStoreKit.SearchResult
 {
     id lockups;
-    id displaysScreenshots;
-    id itemBackground;
 }
 
 @end

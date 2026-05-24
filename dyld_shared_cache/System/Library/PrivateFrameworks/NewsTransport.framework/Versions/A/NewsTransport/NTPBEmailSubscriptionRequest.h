@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBEmailSubscriptionRequest
 {
     long long _dsId;
-    NSString *_languageCode;
-    NSString *_userStorefrontId;
-    struct {
-        unsigned int dsId:1;
-    } _has;
 }
 
+- (id)dataSourceToPipelineMap;
+- (void)cropForAsset:(id)arg1 withTargetSize: /* Error: Ran out of types for this method. */;
+- (void)th:(_Bool)arg1 sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (void)assistantViewController:(long long)arg1 pushViewController:animated: /* Error: Ran out of types for this method. */;
+- (_Bool)addCloudCommentsChangeObserver:asset: /* Error: Ran out of types for this method. */;
+- (long long)_updateAppearance;
+- (_Bool)_subtitlePositionInFrame:titleCategory:displayAsset:currentAssetCropRect:kind:relativeTo:extendedTraitCollectionSnapshot:fixedBottomPadding:isTitleVertical:isSubtitleVertical: /* Error: Ran out of types for this method. */;
+- (id)lbarPosition;
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)nction6__funcIZNK15InputTranscoder14LRNNRecognizer9recognizeERKNS2_14InputProcessorERNS2_18TranscoderMediatorEE3$_0FNS_4spanIKfLm18446744073709551615EEERNS2_13MontrealModelEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,16 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)roxyConnection;
+- (_Bool)_%;
+- (void)isProxyConnection;
 
 // Remaining properties
-@property(nonatomic) long long dsId; // @synthesize dsId=_dsId;
 @property(nonatomic) _Bool hasDsId;
-@property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(readonly, nonatomic) _Bool hasUserStorefrontId;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain, nonatomic) NSString *userStorefrontId; // @synthesize userStorefrontId=_userStorefrontId;
 
 @end
 

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface VNFaceExpressionDetector : VNDetector
 {
     struct shared_ptr<vision::mod::LandmarkAttributes> m_FaceAttributesImpl;
-    _Bool _modelFilesWereMemmapped;
 }
 
-+ (int);
++ (int);
 + (id);
 + (id);
-+ (id);
++ (id)_TtC8Contacts17DuplicateContacts;
 + (id);
 - (void);
 - (_Bool);

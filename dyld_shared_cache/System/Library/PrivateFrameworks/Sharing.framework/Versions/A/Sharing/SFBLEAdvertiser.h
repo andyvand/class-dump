@@ -4,82 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CURetrier, NSArray, NSData, NSDictionary, NSObject, NSString, WPNearby;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface SFBLEAdvertiser
 {
     _Bool _activateCalled;
-    long long _advertiseState;
-    _Bool _invalidateCalled;
-    NSData *_payloadDataCurrent;
-    NSData *_payloadDataPrevious;
-    NSDictionary *_payloadFields;
-    NSString *_payloadIdentifier;
-    long long _payloadType;
-    CURetrier *_startRetrier;
-    WPNearby *_wpNearby;
-    long long _wpNearbyType;
-    struct LogCategory *_ucat;
-    long long _advertiseRate;
-    CDUnknownBlockType _advertiseStateChangedHandler;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    CDUnknownBlockType _connectionHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSArray *_lePipeDevices;
 }
 
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (int);
+- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)@;
+- (id)?;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void)OBEXSetPath:(id)arg1 constants:(id)arg2 optionalHeaders:(long long)arg3 optionalHeadersLength:(id)arg4 eventSelector:selectorTarget:refCon: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void)_dispatch_queue";
-- (void)riority:(id)arg1 mode: /* Error: Ran out of types for this method. */;
-- (void)te;
+- (void)startAdvertisingOfType:(id)arg1 data:priority:mode: /* Error: Ran out of types for this method. */;
+- (void)hasReceivedStateUpdate;
 - (void)@ supports 5GHz.;
 
 // Remaining properties
-@property(nonatomic) long long advertiseRate; // @synthesize advertiseRate=_advertiseRate;
-@property(copy, nonatomic) CDUnknownBlockType advertiseStateChangedHandler; // @synthesize advertiseStateChangedHandler=_advertiseStateChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType connectionHandler; // @synthesize connectionHandler=_connectionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(copy, nonatomic) NSArray *lePipeDevices; // @synthesize lePipeDevices=_lePipeDevices;
-@property(readonly) Class superclass;
 
 @end
 

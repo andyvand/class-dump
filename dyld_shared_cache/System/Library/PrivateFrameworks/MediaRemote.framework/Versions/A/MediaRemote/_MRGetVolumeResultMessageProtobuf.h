@@ -7,26 +7,24 @@
 @interface _MRGetVolumeResultMessageProtobuf
 {
     float _volume;
-    CDStruct_731552e5 _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)t;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (float);
 - (id);
-- (id);
+- (id)unified_asset_namespace;
 - (void);
-- (_Bool)sProactive;
+- (_Bool)prepareForSetQueueIsProactive;
 
 // Remaining properties
 @property(nonatomic) _Bool hasVolume;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

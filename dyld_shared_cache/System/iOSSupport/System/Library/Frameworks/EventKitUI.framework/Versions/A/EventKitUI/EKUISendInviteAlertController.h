@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController;
-
 @interface EKUISendInviteAlertController
 {
     CDUnknownBlockType _completionHandler;
-    UIAlertController *_alertController;
-    EKUISendInviteAlertController *_strongSelf;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
++ (id)_*s;
++ (id)%s;
+- (id)Y%s;
+- (_Bool);
+- (void);
+- (void)s;
 - (void);
 - (void);
+- (id);
+- (id)o;
 - (void);
 - (void);
-- (id);
-- (id);
+- (CDUnknownBlockType)groupedFeatureWithElementRect:uiClass:confidence:label:canvasSize:subElements: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void)Inset;
+- (void)xInset;
 - (void)V_disallowAccessibilityTextSizes;
 
 // Remaining properties
-@property(retain) UIAlertController *alertController; // @synthesize alertController=_alertController;
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) EKUISendInviteAlertController *strongSelf; // @synthesize strongSelf=_strongSelf;
-@property(readonly) Class superclass;
 
 @end
 

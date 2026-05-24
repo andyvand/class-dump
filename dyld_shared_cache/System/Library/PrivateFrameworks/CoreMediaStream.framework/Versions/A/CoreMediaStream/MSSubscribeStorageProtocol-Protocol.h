@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol MSSubscribeStorageProtocolDelegate;
 
 @protocol MSSubscribeStorageProtocol
+- (void)ession with HMDCameraSnapshotRemoteRelayReceiver:(NSArray *)arg1 no remote access device;
 
 // Remaining properties
 @property(nonatomic) id <MSSubscribeStorageProtocolDelegate> delegate;

@@ -9,9 +9,6 @@
 @interface FBSApplicationTerminationAssertion
 {
     BKSTerminationAssertion *_assertion;
-    long long _assertionState;
-    NSString *_bundleID;
-    NSString *_reason;
 }
 
 - (id);
@@ -24,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long assertionState;
 @property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

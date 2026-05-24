@@ -5,9 +5,16 @@
 //
 
 @protocol APPCMediaMetricsHelping
+- (void (^)(long long, long long));
+- (void);
+- (void);
+- (void)IssueListTagFeedGroupKnobs;
+- (void)NewsWebArchiveURLSchemeHandlerFactory;
+- (void)LoadState;
+- (void)ContentShortcutsStorageManager;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long visiblePercentage;
-@property(nonatomic, copy) CDUnknownBlockType visiblePercentageChanged;
 @end
 

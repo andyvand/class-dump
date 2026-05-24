@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, PKPrintSettings;
-
 @interface PKMutableJobState
 {
     long long _localJobID;
-    NSData *_printerEndpointData;
-    NSString *_printerDisplayName;
-    NSString *_printerLocation;
-    long long _printerKind;
-    PKPrintSettings *_settings;
-    NSDate *_timeAtCreation;
-    long long _state;
-    long long _mediaSheetsCompleted;
-    NSDate *_timeAtProcessing;
-    NSDate *_timeAtCompleted;
-    long long _mediaSheets;
-    long long _mediaProgress;
-    long long _remoteJobId;
-    NSString *_PIN;
-    NSString *_jobPrinterStateMessage;
-    NSArray *_jobPrinterStateReasons;
-    NSString *_jobStateMessage;
-    NSArray *_jobStateReasons;
-    NSData *_thumbnailImage;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -40,29 +19,29 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
+- (void)?רRC9;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)�I;
 - (void);
 - (id);
 - (id);
@@ -70,44 +49,18 @@
 - (id);
 - (id);
 - (void);
+- (id)I;
 - (id);
+- (void)(;
+- (void)T;
+- (long long)	;
 - (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)ap<WTF:(struct _NSZone *)arg1:String, WTF::Ref<WTF::JSONImpl::Value>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *PIN; // @synthesize PIN=_PIN;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *jobPrinterStateMessage; // @synthesize jobPrinterStateMessage=_jobPrinterStateMessage;
-@property(copy) NSArray *jobPrinterStateReasons; // @synthesize jobPrinterStateReasons=_jobPrinterStateReasons;
-@property(copy) NSString *jobStateMessage; // @synthesize jobStateMessage=_jobStateMessage;
-@property(copy) NSArray *jobStateReasons; // @synthesize jobStateReasons=_jobStateReasons;
 @property long long localJobID; // @synthesize localJobID=_localJobID;
-@property long long mediaProgress; // @synthesize mediaProgress=_mediaProgress;
-@property long long mediaSheets; // @synthesize mediaSheets=_mediaSheets;
-@property long long mediaSheetsCompleted; // @synthesize mediaSheetsCompleted=_mediaSheetsCompleted;
-@property(copy) NSString *printerDisplayName; // @synthesize printerDisplayName=_printerDisplayName;
-@property(copy) NSData *printerEndpointData; // @synthesize printerEndpointData=_printerEndpointData;
-@property long long printerKind; // @synthesize printerKind=_printerKind;
-@property(copy) NSString *printerLocation; // @synthesize printerLocation=_printerLocation;
-@property long long remoteJobId; // @synthesize remoteJobId=_remoteJobId;
-@property(copy) PKPrintSettings *settings; // @synthesize settings=_settings;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy) NSData *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(copy) NSDate *timeAtCompleted; // @synthesize timeAtCompleted=_timeAtCompleted;
-@property(copy) NSDate *timeAtCreation; // @synthesize timeAtCreation=_timeAtCreation;
-@property(copy) NSDate *timeAtProcessing; // @synthesize timeAtProcessing=_timeAtProcessing;
 
 @end
 

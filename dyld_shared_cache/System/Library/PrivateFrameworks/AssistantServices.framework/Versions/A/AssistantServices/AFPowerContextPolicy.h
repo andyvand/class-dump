@@ -7,11 +7,6 @@
 @interface AFPowerContextPolicy
 {
     unsigned long long _thermalMitigationLevel;
-    unsigned long long _platformContext;
-    struct AFPowerContext _asrAssistantPolicy;
-    struct AFPowerContext _asrDictationPolicy;
-    struct AFPowerContext _ttsPolicy;
-    struct AFPowerContext _siriUIPolicy;
 }
 
 + (_Bool);
@@ -23,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@4;
 - (id);
 - (unsigned long long);
 - (struct AFPowerContext);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct AFPowerContext asrAssistantPolicy; // @synthesize asrAssistantPolicy=_asrAssistantPolicy;
-@property(readonly, nonatomic) struct AFPowerContext asrDictationPolicy; // @synthesize asrDictationPolicy=_asrDictationPolicy;
-@property(readonly, nonatomic) unsigned long long platformContext; // @synthesize platformContext=_platformContext;
-@property(readonly, nonatomic) struct AFPowerContext siriUIPolicy; // @synthesize siriUIPolicy=_siriUIPolicy;
-@property(readonly, nonatomic) unsigned long long thermalMitigationLevel; // @synthesize thermalMitigationLevel=_thermalMitigationLevel;
-@property(readonly, nonatomic) struct AFPowerContext ttsPolicy; // @synthesize ttsPolicy=_ttsPolicy;
 
 @end
 

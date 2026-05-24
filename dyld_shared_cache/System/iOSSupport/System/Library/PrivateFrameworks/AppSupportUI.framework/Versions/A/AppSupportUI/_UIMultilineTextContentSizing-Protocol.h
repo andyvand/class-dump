@@ -5,5 +5,7 @@
 //
 
 @protocol _UIMultilineTextContentSizing
+- (void): /* Error: Ran out of types for this method. */;
+- (void)qa;
 @end
 

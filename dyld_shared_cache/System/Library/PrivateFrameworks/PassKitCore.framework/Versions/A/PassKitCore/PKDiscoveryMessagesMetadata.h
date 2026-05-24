@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface PKDiscoveryMessagesMetadata
 {
     long long _version;
-    NSURL *_messagesBundleURL;
 }
 
 + (_Bool)0@ù
 × ;
-- (id);
+- (id)#;
 - (long long);
 - (id);
-- (void);
-- (id)heduleWithBackoff;
-- (void)edentialTypes;
+- (void)qRn}q;
+- (id)_rescheduleWithBackoff;
+- (void)expressCredentialTypes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *messagesBundleURL; // @synthesize messagesBundleURL=_messagesBundleURL;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

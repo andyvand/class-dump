@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMicaPackage, NSString, UIImageView, UIPointerInteraction, UIView;
-@protocol AVMobileVolumeChromlesButtonControlDelegate;
+@class AVMicaPackage;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileVolumeChromelessButtonControl
 {
     struct CGPoint _startPoint;
-    _Bool _hasStartedPanning;
-    UIPointerInteraction *_micaPackageContainerPointerInteraction;
-    NSString *_volumeIconState;
-    id <AVMobileVolumeChromlesButtonControlDelegate> _delegate;
-    AVMicaPackage *_micaPackage;
-    UIImageView *_imageView;
-    UIView *_micaPackageContainerView;
 }
 
-- (_Bool);
+- (_Bool)et key IDs from zone PCS %@ for zone %@;
 - (void);
 - (void);
 - (void);
@@ -28,16 +20,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)logisticBatch;
 - (id);
-- (id);
+- (id)edLanguages;
 - (void);
 - (_Bool);
-- (void);
+- (void)stringFromDate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -48,22 +40,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)A°!Aùq[°1Â0@ù
 × ;
-- (void)ontrollerAnimated:(id)arg1 completion:(id)arg2;
+- (void)dismissViewControllerAnimated:(id)arg1 completion:(id)arg2;
 - (_Bool)"<AVPictureInPictureContentSource>",&,N,V_sourceIfRetainedDuringPictureInPicturePlayback;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AVMobileVolumeChromlesButtonControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
 @property(retain, nonatomic) AVMicaPackage *micaPackage; // @synthesize micaPackage=_micaPackage;
-@property(retain, nonatomic) UIView *micaPackageContainerView; // @synthesize micaPackageContainerView=_micaPackageContainerView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *volumeIconState; // @synthesize volumeIconState=_volumeIconState;
 
 @end
 

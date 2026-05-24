@@ -9,29 +9,23 @@
 @interface EQKitRule : EQKitBox
 {
     double mHeight;
-    double mDepth;
-    double mWidth;
-    struct CGColor *mCGColor;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (double);
 - (double);
-- (struct CGColor *);
+- (struct CGColor *)ession.;
 - (_Bool);
 - (id);
 - (double)Åò;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=mCGColor;
-@property(readonly, nonatomic) double depth; // @synthesize depth=mDepth;
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) double width; // @synthesize width=mWidth;
 
 @end
 

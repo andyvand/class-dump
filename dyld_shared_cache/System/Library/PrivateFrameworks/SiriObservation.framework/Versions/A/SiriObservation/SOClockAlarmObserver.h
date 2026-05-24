@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFClockAlarmSnapshot, AFClockItemStorage, AFInstanceContext, NSHashTable, NSMutableOrderedSet, NSObject, NSString, NSUUID, SOClockAlarmManager;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SOClockAlarmObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFInstanceContext *_instanceContext;
-    NSHashTable *_listeners;
-    SOClockAlarmManager *_alarmManager;
-    AFClockAlarmSnapshot *_alarmSnapshot;
-    NSObject<OS_dispatch_group> *_alarmSnapshotGroup;
-    long long _alarmSnapshotGroupDepth;
-    AFClockItemStorage *_alarmStorage;
-    NSMutableOrderedSet *_notifiedFiringAlarmIDs;
-    NSUUID *_alarmsChangedToken;
 }
 
 + (void);
@@ -35,10 +26,10 @@
 - (void);
 - (id);
 - (void);
+- (void)h:y /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
@@ -52,13 +43,7 @@
 - (void)rmDismissed:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

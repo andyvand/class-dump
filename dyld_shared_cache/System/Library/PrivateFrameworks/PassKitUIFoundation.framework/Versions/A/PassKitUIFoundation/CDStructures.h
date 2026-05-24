@@ -29,11 +29,9 @@ struct CATransform3D {
     double _field16;
 };
 
-struct CGColorSpace;
-
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
@@ -42,47 +40,29 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct PKEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct vImage_CGImageFormat {
-    unsigned int bitsPerComponent;
-    unsigned int bitsPerPixel;
-    struct CGColorSpace *colorSpace;
-    unsigned int bitmapInfo;
-    unsigned int version;
-    double *decode;
-    int renderingIntent;
-};
-
 #pragma mark Typedef'd Structures
-
-typedef struct {
-    id vector;
-} CDStruct_da14d750;
 
 typedef struct {
     id columns[4];
@@ -100,22 +80,4 @@ typedef struct {
     float created;
     CDStruct_95fa7c00 color__matrix;
 } CDStruct_0923410a;
-
-typedef struct {
-    double startTime;
-    unsigned long long bucketCount;
-    double *magnitudeForBucket;
-    void *colorForBucket;
-    struct {
-        CDStruct_95fa7c00 projectionMatrix;
-        CDStruct_95fa7c00 motionMatrix;
-        id data;
-    } uniforms;
-    CDStruct_0923410a singleCircle;
-    unsigned long long circleCount;
-    CDStruct_0923410a circles[88];
-    unsigned long long categoryCount;
-    unsigned int gravity__framesToRender;
-    _Bool isAnimating;
-} CDStruct_8fa5c6c3;
 

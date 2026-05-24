@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSData, NSMutableDictionary, NSString, TRIFile, TRIMobileAssetReference;
-
 @interface TRILevel : TRIPBMessage
 {
 }
@@ -18,19 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *binaryValue; // @dynamic binaryValue;
-@property(nonatomic) _Bool booleanValue; // @dynamic booleanValue;
-@property(retain, nonatomic) TRIFile *directoryValue; // @dynamic directoryValue;
-@property(nonatomic) double doubleValue; // @dynamic doubleValue;
-@property(retain, nonatomic) TRIFile *fileValue; // @dynamic fileValue;
-@property(nonatomic) float floatValue; // @dynamic floatValue;
-@property(nonatomic) int intValue; // @dynamic intValue;
 @property(readonly, nonatomic) int levelOneOfCase; // @dynamic levelOneOfCase;
-@property(nonatomic) long long longValue; // @dynamic longValue;
-@property(retain, nonatomic) NSMutableDictionary *metadata; // @dynamic metadata;
-@property(readonly, nonatomic) unsigned long long metadata_Count; // @dynamic metadata_Count;
-@property(retain, nonatomic) TRIMobileAssetReference *mobileAssetReferenceValue; // @dynamic mobileAssetReferenceValue;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
 
 @end
 

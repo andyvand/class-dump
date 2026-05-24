@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)_written;
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

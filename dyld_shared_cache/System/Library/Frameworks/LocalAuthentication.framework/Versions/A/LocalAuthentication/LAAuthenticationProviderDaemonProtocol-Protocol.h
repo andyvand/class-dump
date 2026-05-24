@@ -5,5 +5,8 @@
 //
 
 @protocol LAAuthenticationProviderDaemonProtocol
+- (void);
+- (void);
+- (void);
 @end
 

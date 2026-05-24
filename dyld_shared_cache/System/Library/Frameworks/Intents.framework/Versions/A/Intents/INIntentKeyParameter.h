@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttribute, INImage;
+@class INCodableAttribute;
 
 @interface INIntentKeyParameter
 {
     INCodableAttribute *_codableAttribute;
-    id _value;
-    INImage *_image;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ntityNameOptionsCollectionForGetFileInformation:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsCollectionForGetFileInformation:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) INCodableAttribute *codableAttribute; // @synthesize codableAttribute=_codableAttribute;
-@property(readonly, nonatomic) INImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

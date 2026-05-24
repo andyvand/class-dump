@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)n't have an EKEventStore right now.;
+- (void)__TEXT;
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType filter; // @synthesize filter=_filter;

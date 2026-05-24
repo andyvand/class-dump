@@ -5,5 +5,8 @@
 //
 
 @protocol RPRemoteDisplayXPCDaemonInterface
+- (void);
+- (void);
+- (void)T;
 @end
 

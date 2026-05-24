@@ -7,66 +7,14 @@
 @interface ConversationKit.ConversationControlsManager
 {
     id callCenter;
-    id ignoredScreenSharingRequestUUIDs;
-    id initiallyActiveParticipantIdentifiers;
-    id conversationController;
-    id coreAnalyticsReporter;
-    id noticeCoordinator;
-    id activeNoticeCancellable;
-    id gameOverlayController;
-    id contentExtractor;
-    void presentContactCard;
-    void presentAddParticipantSheet;
-    id isOnScreenSubscription;
-    id defaults;
-    id cnkFeatures;
-    id notificationCenter;
-    id observation;
-    id systemBannerPresenter;
-    id systemConversationControlsDelegate;
-    id systemAudioConversationControlsDelegate;
-    id inCallConversationControlsDelegate;
-    id inCallDetailsViewControllerDelegate;
-    id audioRoutingDelegate;
-    id localAudioTogglingDelegate;
-    id handoffCompletedDelegate;
-    id approvalDelegate;
-    id conduitLagunaNoticeManager;
-    id lagunaQueue;
-    id conversationDidChangePublisher;
-    id _shouldOpenMessages;
-    id _shouldEnableStartingStagedActivity;
-    id activityManager;
-    id bannerActivityManager;
-    id incomingScreenSharingRequestActivity;
-    id _audioRoute;
-    id _bluetoothAudioFormat;
-    id _localAudioEnabled;
-    id _localVideoButtonState;
-    id cancellables;
-    id _foregroundApp;
-    id postedCollaborationPrompts;
-    id foregroundCollaborationState;
-    id collaborationInitiationManager;
-    id shouldShowDelayedLMIBanner;
-    id entitlementsChecker;
-    id isWaitingOnFirstRemoteFrame;
-    id activityLaunchTimer;
-    id tccServer;
-    id applicationState;
-    id _secondaryPillButtonType;
-    id featureFlags;
-    id updateForegroundCollaborationStateTask;
-    id screenShareCountdownTimer;
-    id participantStateDidChangeSubject;
 }
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType)Qr;
+- (CDUnknownBlockType)r;
+- (void)r;
+- (void)HgQr;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,15 +22,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)u;
 - (void)ºoþÿMüÿVüÿÔMüÿ;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType presentAddParticipantSheet;
 @property(nonatomic, copy) CDUnknownBlockType presentContactCard;
 
 @end

@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @protocol _DKStandingQuery
+- (void)V@;
+- (NSString *)l*;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_xpc_object> *activity;
 @property(retain, nonatomic) NSString *queryIdentifier;
 @end
 

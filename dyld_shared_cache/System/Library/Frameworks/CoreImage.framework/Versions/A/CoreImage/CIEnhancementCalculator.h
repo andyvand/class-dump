@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CIEnhancementCalculator : CIEnhancementCalculation
 {
     _Bool faceBalanceEnabled;
-    _Bool vibranceEnabled;
-    _Bool curvesEnabled;
-    _Bool shadowsEnabled;
 }
 
 - (void);
@@ -32,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property _Bool curvesEnabled; // @synthesize curvesEnabled;
 @property _Bool faceBalanceEnabled; // @synthesize faceBalanceEnabled;
-@property _Bool shadowsEnabled; // @synthesize shadowsEnabled;
-@property _Bool vibranceEnabled; // @synthesize vibranceEnabled;
 
 @end
 

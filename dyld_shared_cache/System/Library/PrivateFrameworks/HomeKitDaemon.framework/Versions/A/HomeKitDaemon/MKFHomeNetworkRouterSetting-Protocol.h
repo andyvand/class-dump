@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeNetworkRouterSettingDatabaseID, NSString;
-@protocol MKFHAPAccessory;
+@class NSString;
 
 @protocol MKFHomeNetworkRouterSetting
+- (NSString *):%{public}@, hasETAInfos:%{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activeNetworkRouterInitialSetupNeededUUID;
-@property(readonly, copy, nonatomic) MKFHomeNetworkRouterSettingDatabaseID *databaseID;
-@property(copy, nonatomic) NSString *minHomeKitVersionForAccessoryNetworkProtectionChange;
-@property(copy, nonatomic) NSString *minimumNetworkRouterSupportHomeKitVersion;
-@property(retain, nonatomic) id <MKFHAPAccessory> networkAccessory;
 @end
 

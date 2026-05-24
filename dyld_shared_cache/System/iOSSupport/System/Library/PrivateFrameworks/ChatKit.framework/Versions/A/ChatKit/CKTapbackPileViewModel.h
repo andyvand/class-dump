@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAggregateAcknowledgmentChatItem, IMTapback, NSArray;
-
 @interface CKTapbackPileViewModel
 {
     long long totalDisplayCount;
-    _Bool leftLayoutDirection;
-    _Bool useTailOffset;
-    _Bool showBottomPeekPlatter;
-    void tapbackChatItems;
-    CKAggregateAcknowledgmentChatItem *aggregateAcknowledgmentChatItem;
 }
 
 + (long long);
 - (_Bool);
-- (long long);
+- (long long)7J9;
 - (id);
 - (_Bool);
+- (void)r;
+- (void)e;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)i;
+- (_Bool)generatedPreviewImage;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) CKAggregateAcknowledgmentChatItem *aggregateAcknowledgmentChatItem; // @synthesize aggregateAcknowledgmentChatItem;
-@property(nonatomic) _Bool leftLayoutDirection; // @synthesize leftLayoutDirection;
-@property(nonatomic, readonly) IMTapback *sentTapback;
-@property(nonatomic) _Bool showBottomPeekPlatter; // @synthesize showBottomPeekPlatter;
-@property(nonatomic, readonly) NSArray *tapbackChatItems;
 @property(nonatomic) long long totalDisplayCount; // @synthesize totalDisplayCount;
-@property(nonatomic) _Bool useTailOffset; // @synthesize useTailOffset;
 
 @end
 

@@ -11,35 +11,24 @@
 @interface GEOConfigStorageSetValueForKeyRequest : GEOXPCRequest
 {
     NSString *_keyString;
-    unsigned long long _keyOptions;
-    id _keyValue;
 }
 
-+ (Class);
++ (Class)SLYahooOAuth2MigrationRequest;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)multiPartWithName:payload:type:multiPartBoundary: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)_creationDatetime;
 - (void)Ì2¸34x5L687809;
-- (void)d_distance_offset_cm;
+- (void)end_valid_distance_offset_cm;
 - (id)$ô;
 - (id)¦;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long keyOptions; // @synthesize keyOptions=_keyOptions;
 @property(retain, nonatomic) NSString *keyString; // @synthesize keyString=_keyString;
-@property(retain, nonatomic) id keyValue; // @synthesize keyValue=_keyValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APNSURLSessionDemultiplexerManager, APProxySessionConfigurationProvider, APProxyURLCredentialService;
+@class APProxySessionConfigurationProvider;
 
 @interface APProxyProtocolProperties
 {
     APProxySessionConfigurationProvider *_proxySessionConfigurationProvider;
-    APNSURLSessionDemultiplexerManager *_sessionDemultiplexerManager;
-    APProxyURLCredentialService *_proxyURLCredentialService;
 }
 
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)SFUCryptor;
 
 // Remaining properties
 @property(retain, nonatomic) APProxySessionConfigurationProvider *proxySessionConfigurationProvider; // @synthesize proxySessionConfigurationProvider=_proxySessionConfigurationProvider;
-@property(retain, nonatomic) APProxyURLCredentialService *proxyURLCredentialService; // @synthesize proxyURLCredentialService=_proxyURLCredentialService;
-@property(retain, nonatomic) APNSURLSessionDemultiplexerManager *sessionDemultiplexerManager; // @synthesize sessionDemultiplexerManager=_sessionDemultiplexerManager;
 
 @end
 

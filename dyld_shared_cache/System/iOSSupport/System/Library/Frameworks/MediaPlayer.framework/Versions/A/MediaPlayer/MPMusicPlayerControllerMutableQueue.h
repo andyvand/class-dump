@@ -6,12 +6,11 @@
 
 #import <MediaPlayer/MPMusicPlayerControllerQueue.h>
 
-@class MPMusicPlayerControllerApplicationQueueModifications, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPMusicPlayerControllerMutableQueue : MPMusicPlayerControllerQueue
 {
     NSMutableDictionary *_insertedDescriptors;
-    NSMutableArray *_removedItems;
 }
 
 - (void);
@@ -19,17 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)aexprNotBetweenSym;
+- (void)alterExtensionStmt;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void)onstraints__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumKeepLocalConstraints__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *insertedDescriptors; // @synthesize insertedDescriptors=_insertedDescriptors;
-@property(readonly, nonatomic) MPMusicPlayerControllerApplicationQueueModifications *modifications;
-@property(retain, nonatomic) NSMutableArray *removedItems; // @synthesize removedItems=_removedItems;
 
 @end
 

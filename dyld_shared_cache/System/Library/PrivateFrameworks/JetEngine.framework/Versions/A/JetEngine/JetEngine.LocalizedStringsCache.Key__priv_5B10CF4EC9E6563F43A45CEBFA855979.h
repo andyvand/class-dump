@@ -7,12 +7,12 @@
 @interface JetEngine.LocalizedStringsCache.Key__priv_5B10CF4EC9E6563F43A45CEBFA855979
 {
     id key;
-    id domain;
 }
 
-- (id);
+- (id)0;
 - (long long);
-- (_Bool);
+- (_Bool)Count - Empty (%d) Reserved (%d) Written (%d) Padding (%d) Capture (%d) Skip (%d),prevread offset %u, new read offset %u, prev seq %u, expected seq %u entry %u, ring state readoff %u, write offset %u
+;
 - (void)dHÆÿOi	tHÆÿOi	HÆÿOi	HÆÿOi	¤HÆÿOi	´HÆÿ]Oi	ÄHÆÿOi	ÔHÆÿOi	äHÆÿOi	ôHÆÿOi	IÆÿOi	IÆÿ5Oi	$IÆÿuNi	4IÆÿeNi	DIÆÿmNi	TIÆÿmNi	dIÆÿmNi	xIÆÿ}Ni	IÆÿ}Ni	IÆÿ}Ni	¬IÆÿ}Ni	ÀIÆÿNi	ÐIÆÿENi	ôIÆÿmNi	JÆÿuNi	JÆÿuNi	(JÆÿuNi	<JÆÿuNi	LJÆÿNi	JÆÿ½Mi	¼JÆÿ½Mi	ÌJÆÿÍMi	ÜJÆÿ;
 
 // Remaining properties

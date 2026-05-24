@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageCropView, NSButton, NSImage, NSSlider;
+@class NSImage;
 
 @interface IKPTCropView
 {
     NSImage *_image;
-    IKImageCropView *_cropView;
-    NSSlider *_slider;
-    NSButton *_leftButton;
-    NSButton *_rightButton;
 }
 
 - (void);
@@ -22,16 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (id);
-- (void);
+- (void)%8.4f;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *croppedImage;
 @property(retain, nonatomic) NSImage *image;
 
 @end

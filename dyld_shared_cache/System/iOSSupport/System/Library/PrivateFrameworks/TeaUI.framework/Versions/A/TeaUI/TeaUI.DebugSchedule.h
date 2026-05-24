@@ -7,15 +7,12 @@
 @interface TeaUI.DebugSchedule
 {
     id seconds;
-    id block;
-    id label;
-    id timer;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)groupActionTitle;
+- (id)setSurfacedByFlags:(struct CGRect)arg1;
 - (void);
 
 @end

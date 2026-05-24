@@ -4,94 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDocument, NSDocumentControllerPersistentRestoration, NSDocumentControllerSubMenuDelegate, NSLock, NSMenuItem, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSSharingServicePicker, NSString, NSTouchBar, NSWindow, _NSDocumentRecentItemsMenuController;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface NSDocumentController
 {
     NSMutableArray *_documents;
-    NSArray *_cachedTypeDescriptions;
-    _NSDocumentRecentItemsMenuController *_recentItemsController;
-    NSLock *_documentOpeningSessionLock;
-    NSString *_bundleIdentifierOfSourceAppForDocumentOpeningSession;
-    NSMutableSet *_pathsOfDocumentsForCurrentOpeningSession;
-    _Bool _shouldCreateUI;
-    double _autosavingDelay;
-    int _cachedUTIUsage;
-    NSDocumentControllerSubMenuDelegate *_subMenuDelegate;
-    unsigned long long _isAutoreopening;
-    NSArray *_autoreopenRecordsBeingReopened;
-    NSMutableArray *_autoreopenRecordsForMissingDocuments;
-    _Bool _hasAutoreopened;
-    _Bool _isClosingBeforeSavingDuringTermination;
-    _Bool _isClosingAfterSavingDuringTermination;
-    NSMutableArray *_autoreopenRecordsBeingCollectedDuringTermination;
-    _Bool _autoreopenRecordsNeedRewritingDuringTermination;
-    _Bool _isAsyncOpeningOrPrinting;
-    CDUnknownBlockType _asyncOpeningOrPrintingWaiter;
-    NSArray *_batchedOpenings;
-    _Bool _batchedOpeningTriedToReopen;
-    NSMutableDictionary *_documentOpeningWaitersByURL;
-    NSMutableArray *_autoreopenRecordsAlreadyReopenedByTAL;
-    NSString *_untitledTypeToCreate;
-    NSWindow *_windowThatBecameKeyDuringOpening;
-    _Bool _appIsBecomingActiveDuringOpening;
-    id _appWillBecomeActiveObserver;
-    id _windowDidBecomeKeyObserver;
-    id _appDidBecomeActiveObserver;
-    _Bool _appIsResigningActiveDuringOpening;
-    id _appWillResignActiveObserver;
-    id _windowDidResignKeyObserver;
-    id _appDidResignActiveObserver;
-    NSObject<OS_dispatch_queue> *_mainThreadUnblockingQueue;
-    NSMutableArray *_mainThreadUnblockerStack;
-    NSMutableArray *_mainThreadBlockingInterrupters;
-    NSDocumentControllerPersistentRestoration *_restorationInfo;
-    _Bool _dontDisplayDuringReopening;
-    NSMutableSet *_reservedAutosavingContentsPaths;
-    NSDocument *_documentBeingDuplicated;
-    NSOperationQueue *_documentCoordinatingQueue;
-    NSOperationQueue *_documentOpeningQueue;
-    NSMutableArray *_documentsStillPreservingVersions;
-    NSMutableSet *_openRecentDocumentIDs;
-    NSOperationQueue *_openRecentDocumentUpdatingQueue;
-    _Bool _requestingSecurityScopedURLsFromOpenPanel;
-    _Bool _shouldInvertImplicitTabbingBehavior;
-    _Bool _tabPlusButtonWasClicked;
-    NSTouchBar *_newDocumentTouchBar;
-    _Bool _showNewDocumentTouchBar;
-    NSSharingServicePicker *_currentSharingServicePicker;
-    NSMenuItem *_selectedSharingServiceMenuItem;
 }
 
-+ (id);
++ (id)ock_opaque"I}};
 + (void);
 + (id);
 + (void);
 + (void);
 + (Class);
-+ (Class);
++ (Class);
 + (void);
 + (_Bool);
-+ (id);
++ (id)@;
 + (id);
 + (long long);
 + (_Bool);
 + (id);
-+ (_Bool)yKEMask;
++ (_Bool)hotKeyKEMask;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)xpc_connection_create_mach_service(%s, XPC_CONNECTION_MACH_SERVICE_PRIVILEGED) failed for delegate class %llu;
 - (void);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -107,34 +54,34 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)Priority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (id)fHTTPNumFastLanes"i"fHTTPMinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (id)ionary=}24;
+- (id)tor}i}16@0:(id)arg1 8;
+- (void):(id)arg1 8;
+- (id)ssionAppleIDContext>";
+- (id)*"dst_size"Q"src_ptr"*"src_size"Q"state"^v};
+- (void)40@48;
+- (id)6@0:(id)arg1 8^{_CFURLConnection=}16^{_CFURLRequest=}24^{_CFURLResponse=}32@40@48;
+- (_Bool)_privacyProxyFailClosedForUnreachableNonMainHosts;
+- (void)_initWithCFURLProtectionSpace:(id)arg1;
+- (id)URLSession:task:_isWaitingForConnectionWithReason: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(id)arg1 readClosedForStreamTask: /* Error: Ran out of types for this method. */;
+- (id)initWithCFNetworkReport:(id)arg1 length:(_Bool)arg2;
+- (id)tream",R,&;
+- (id)ge",R;
+- (id)_onqueue_postConnectConfiguration:parameters:completionHandler: /* Error: Ran out of types for this method. */;
+- (Class)_onqueue_postConnectConfiguration:(id)arg1 parameters:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)AVBackgroundSessionConfigurationWithIdentifier:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)@;
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (Class);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)er;
+- (void)sk.;
+- (_Bool)fW.CT(%{public}@);
+- (void)P;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -145,51 +92,57 @@
 - (void);
 - (void);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (id)t;
 - (id);
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)e;
+- (_Bool)dentifier;
+- (_Bool)CFNETWORK_IO_LOG_STDERR;
+- (_Bool)ctionary=}16;
+- (void)CFNetwork.Instruments;
+- (void)he;
+- (void)useEnhancedPrivacyMode;
+- (void)fer)) == _dataBufferSize;
+- (void)countOfAvailableBytes;
+- (void)nsurlsessiond;
+- (void)6@?0^{__CFReadStream=}8;
+- (void)mp_index ON cfurl_cache_response(time_stamp);;
+- (long long)Viable;
+- (void);
+- (void)Synchronous;
+- (id)d;
+- (void)tingBodySize > 0;
+- (void)HTTPCookiePolicyPropertyCookieAcceptPolicy;
+- (_Bool);
+- (void);
+- (id)@@[[]]~~;
+- (id)||)|8|#	##(#>	>>(>##
+####)#8#>>
+>>>>)>8>;
+- (id)#>>;
+- (id)++
+++++)+8+|	||(|##>>;
+- (void)uuu)u8u:(id)arg1 ::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
 - (id);
+- (void)@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (struct OpaqueLSSharedFileListRef *);
@@ -227,7 +180,7 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)@;
 - (void);
 - (void);
 - (id);
@@ -238,32 +191,32 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
-- (void);
+- (void)i;
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (double);
 - (void);
@@ -273,38 +226,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)R3410-94;
 - (id);
 - (void);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)ckTileImage;
+- (id)_updateDockTileImage;
 - (void);
 - (void)ð,ÿ;
 - (_Bool);
 - (_Bool)¿tG;
 
 // Remaining properties
-@property(readonly) _Bool allowsAutomaticShareMenu;
-@property double autosavingDelay;
-@property(readonly, copy) NSString *currentDirectory;
-@property(readonly) NSDocument *currentDocument;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSString *defaultType;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *documentClassNames;
-@property(readonly, copy) NSArray *documents;
-@property(readonly) _Bool hasEditedDocuments;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long maximumRecentDocumentCount;
-@property(readonly, copy) NSArray *recentDocumentURLs;
-@property(readonly) Class superclass;
 
 @end
 

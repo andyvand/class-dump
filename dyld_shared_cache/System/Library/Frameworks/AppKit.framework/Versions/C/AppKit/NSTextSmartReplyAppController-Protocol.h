@@ -5,5 +5,9 @@
 //
 
 @protocol NSTextSmartReplyAppController
+- (_Bool)ks/CoreServices.framework/Versions/A/CoreServices;
+- (_Bool);
+- (void)hf8N+2w;
+- (unsigned long long)HTTPReferrer;
 @end
 

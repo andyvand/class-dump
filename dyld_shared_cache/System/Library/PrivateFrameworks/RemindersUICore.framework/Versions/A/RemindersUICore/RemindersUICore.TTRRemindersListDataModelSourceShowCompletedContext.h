@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersListDataModelSourceShowCompletedContext
 {
     id delegate;
-    id userDefaultsProperty;
-    id showCompletedSnapshot;
-    id allowlistCompletedReminderIDs;
 }
 
 @end

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSContactGroundTruth, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalPlusId;
-    PLUSSchemaPLUSContactGroundTruth *_groundTruth;
-    _Bool _hasOriginalPlusId;
-    _Bool _hasGroundTruth;
 }
 
 - (void);
@@ -31,19 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)tachment is flagged as CommSafety sensitive. attachmentGUID:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)sSearchTool;
+- (id)_hasSearchTool;
 - (id)ged;
-- (void)omparatorName;
+- (void)comparatorName;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSContactGroundTruth *groundTruth; // @synthesize groundTruth=_groundTruth;
-@property(nonatomic) _Bool hasGroundTruth; // @synthesize hasGroundTruth=_hasGroundTruth;
-@property(nonatomic) _Bool hasOriginalPlusId; // @synthesize hasOriginalPlusId=_hasOriginalPlusId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalPlusId; // @synthesize originalPlusId=_originalPlusId;
 
 @end

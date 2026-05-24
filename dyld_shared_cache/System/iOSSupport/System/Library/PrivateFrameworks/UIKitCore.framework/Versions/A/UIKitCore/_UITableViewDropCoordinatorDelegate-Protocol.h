@@ -11,7 +11,7 @@
 - (id <UIDragAnimating>)!FùñfÐ1Â0@ù
 × ;
 - (id <UIDragAnimating>)e=dd}}28B60B64;
-- (id <UIDragAnimating>)Manager;
+- (id <UIDragAnimating>)assetManager;
 - (void);
 - (id <UIDragAnimating>)%@;
 - (UITableView *)+¸þh®xþ;

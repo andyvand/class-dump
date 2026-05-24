@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPPrintBorderView, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface CDPRecoveryKeyPrintController
 {
     NSString *_cdpKeyPrintText;
-    NSTextField *_cdpKeyPrintTextField;
-    CDPPrintBorderView *_cdpRecoveryKeyBorderView;
-    NSTextField *_footerLabel;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id)h;
 - (void);
-- (id);
+- (void);
+- (id)h;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cdpKeyPrintText; // @synthesize cdpKeyPrintText=_cdpKeyPrintText;
 @property(retain) NSTextField *cdpKeyPrintTextField; // @synthesize cdpKeyPrintTextField=_cdpKeyPrintTextField;
-@property(retain) CDPPrintBorderView *cdpRecoveryKeyBorderView; // @synthesize cdpRecoveryKeyBorderView=_cdpRecoveryKeyBorderView;
-@property(retain) NSTextField *footerLabel; // @synthesize footerLabel=_footerLabel;
 
 @end
 

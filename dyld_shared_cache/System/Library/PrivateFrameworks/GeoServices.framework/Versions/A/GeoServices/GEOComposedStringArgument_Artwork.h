@@ -6,13 +6,11 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class GEOPBTransitArtwork, NSString;
+@class GEOPBTransitArtwork;
 
 @interface GEOComposedStringArgument_Artwork : GEOComposedStringArgument
 {
     GEOPBTransitArtwork *_artwork;
-    NSString *_fallbackStringValue;
-    CDUnknownBlockType _attributedStringHandler;
 }
 
 + (_Bool)iled to copy resource '%{public}@':%{public}@ /* Error: Ran out of types for this method. */;
@@ -25,7 +23,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)ationSharingEnabled:(struct _NSZone *)arg1;
+- (id)setDestinationSharingEnabled:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties

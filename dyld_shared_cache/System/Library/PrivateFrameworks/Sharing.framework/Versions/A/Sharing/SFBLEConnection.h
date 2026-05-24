@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CURetrier, NSMutableArray, NSMutableSet, NSObject, NSString, SFBLEData, SFBLEDevice, WPNearby;
-@protocol OS_dispatch_queue;
-
 @interface SFBLEConnection
 {
     _Bool _acceptor;
-    _Bool _activateCalled;
-    NSMutableSet *_clients;
-    _Bool _connected;
-    _Bool _connecting;
-    double _connectStartTime;
-    CURetrier *_connectRetrier;
-    SFBLEData *_currentData;
-    NSMutableArray *_dataSendQueue;
-    _Bool _invalidateCalled;
-    WPNearby *_wpNearby;
-    struct LogCategory *_ucat;
-    _Bool _bleEncrypted;
-    _Bool _latencyCritical;
-    _Bool _lePipeCapable;
-    unsigned int _sessionFlags;
-    unsigned int _useCase;
-    CDUnknownBlockType _bluetoothBandwidthChangedHandler;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    CDUnknownBlockType _connectionStateChangedHandler;
-    CDUnknownBlockType _dataHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    SFBLEDevice *_peerDevice;
 }
 
 - (void);
@@ -51,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -68,10 +42,10 @@
 - (long long);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -81,32 +55,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)esForType:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)previewImage;
+- (void)listEligibleDevicesForType:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_previewImage;
 - (_Bool)XÐÓÿÂ;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptor; // @synthesize acceptor=_acceptor;
 @property(nonatomic) _Bool bleEncrypted; // @synthesize bleEncrypted=_bleEncrypted;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothBandwidthChangedHandler; // @synthesize bluetoothBandwidthChangedHandler=_bluetoothBandwidthChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(readonly, nonatomic) long long connectionState;
-@property(copy, nonatomic) CDUnknownBlockType connectionStateChangedHandler; // @synthesize connectionStateChangedHandler=_connectionStateChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType dataHandler; // @synthesize dataHandler=_dataHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) _Bool latencyCritical; // @synthesize latencyCritical=_latencyCritical;
-@property(nonatomic) _Bool lePipeCapable; // @synthesize lePipeCapable=_lePipeCapable;
-@property(retain, nonatomic) SFBLEDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(nonatomic) unsigned int sessionFlags; // @synthesize sessionFlags=_sessionFlags;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int useCase; // @synthesize useCase=_useCase;
 
 @end
 

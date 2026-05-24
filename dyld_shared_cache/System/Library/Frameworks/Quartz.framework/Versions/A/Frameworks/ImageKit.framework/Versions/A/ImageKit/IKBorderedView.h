@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSGradient, NSView;
+@class NSColor;
 
 @interface IKBorderedView
 {
     NSColor *_topBorderColor;
-    NSColor *_bottomBorderColor;
-    NSColor *_leftBorderColor;
-    NSColor *_rightBorderColor;
-    NSColor *_topInactiveBorderColor;
-    NSColor *_bottomInactiveBorderColor;
-    NSColor *_leftInactiveBorderColor;
-    NSColor *_rightInactiveBorderColor;
-    NSColor *_shadowColor;
-    NSColor *_backgroundColor;
-    NSColor *_inactiveBackgroundColor;
-    NSGradient *_backgroundGradient;
-    NSGradient *_inactiveBackgroundGradient;
-    NSView *_contentView;
-    int _verticalContentViewResizingMode;
-    int _horizontalContentViewResizingMode;
-    int _borderSides;
-    int _shadowSides;
 }
 
 - (id);
@@ -48,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -73,39 +56,21 @@
 - (_Bool);
 - (void);
 - (CDStruct_d2b197d1);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)int resources for asset with uuid:(struct CGRect)arg1 %{public}@...;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)setHasPurgeabilityLevel:(struct CGRect)arg1;
 - (void);
 - (struct CGRect);
-- (id);
+- (id)t="x"d"y"d}"location"{CGPoint="x"d"y"d})"force"d"azimuth"d"altitude"d"velocity"d"directionAngle"d"zPosition"d"timestamp"d"predicted"B"estimationUpdateIndex"q"length"d"distance"d"hasEstimatedAltitudeAndAzimuth"B"rollAngle"d"estimatedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
 - (id);
 - (void)dToiPhotoButton;
 - (id)°Mñÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSGradient *backgroundGradient; // @synthesize backgroundGradient=_backgroundGradient;
 @property(nonatomic) int borderSides; // @synthesize borderSides=_borderSides;
-@property(copy, nonatomic) NSColor *bottomBorderColor; // @synthesize bottomBorderColor=_bottomBorderColor;
-@property(copy, nonatomic) NSColor *bottomInactiveBorderColor; // @synthesize bottomInactiveBorderColor=_bottomInactiveBorderColor;
-@property(readonly) struct CGRect contentRect;
-@property(nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) int horizontalContentViewResizingMode; // @synthesize horizontalContentViewResizingMode=_horizontalContentViewResizingMode;
-@property(copy, nonatomic) NSColor *inactiveBackgroundColor; // @synthesize inactiveBackgroundColor=_inactiveBackgroundColor;
-@property(copy, nonatomic) NSGradient *inactiveBackgroundGradient; // @synthesize inactiveBackgroundGradient=_inactiveBackgroundGradient;
-@property(copy, nonatomic) NSColor *leftBorderColor; // @synthesize leftBorderColor=_leftBorderColor;
-@property(copy, nonatomic) NSColor *leftInactiveBorderColor; // @synthesize leftInactiveBorderColor=_leftInactiveBorderColor;
-@property(copy, nonatomic) NSColor *rightBorderColor; // @synthesize rightBorderColor=_rightBorderColor;
-@property(copy, nonatomic) NSColor *rightInactiveBorderColor; // @synthesize rightInactiveBorderColor=_rightInactiveBorderColor;
-@property(copy, nonatomic) NSColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(nonatomic) int shadowSides; // @synthesize shadowSides=_shadowSides;
-@property(copy, nonatomic) NSColor *topBorderColor; // @synthesize topBorderColor=_topBorderColor;
-@property(copy, nonatomic) NSColor *topInactiveBorderColor; // @synthesize topInactiveBorderColor=_topInactiveBorderColor;
-@property(nonatomic) int verticalContentViewResizingMode; // @synthesize verticalContentViewResizingMode=_verticalContentViewResizingMode;
 
 @end
 

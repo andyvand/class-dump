@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.DefaultHAPAccessoryClimateStorage
 {
     id $defaultActor;
-    id home;
-    id uuid;
-    id logID;
-    id thermostatSuggestedLogEventFactory;
 }
 
 @end

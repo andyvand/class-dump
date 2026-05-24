@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SPAccessoryLayoutTemplate
 {
     unsigned char _partIdentifier;
-    _Bool _isPrimary;
-    NSString *_partType;
-    NSString *_partName;
-    NSString *_partSymbol;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned char);
@@ -27,16 +21,12 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)es.IMMetricsCollectorEventMessageMarkedAsSpam;
 - (id);
-- (id);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
 @property(nonatomic) unsigned char partIdentifier; // @synthesize partIdentifier=_partIdentifier;
-@property(copy, nonatomic) NSString *partName; // @synthesize partName=_partName;
-@property(copy, nonatomic) NSString *partSymbol; // @synthesize partSymbol=_partSymbol;
-@property(copy, nonatomic) NSString *partType; // @synthesize partType=_partType;
 
 @end
 

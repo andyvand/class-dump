@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFStateCaptureEventLog;
-
 @interface PHChangeHandlingDebugger
 {
     unsigned long long _maxPreviousEvents;
-    PFStateCaptureEventLog *_eventLog;
-    struct os_unfair_lock_s _activeLock;
-    _Bool _activeLock_isActive;
-    double _activeLock_isActiveTimestamp;
-    struct os_unfair_lock_s _pendingLock;
-    _Bool _pendingLock_isChangeProcessingPending;
-    double _pendingLock_isChangeProcessingPendingTimestamp;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id)sDerivative;
+- (id)isDerivative;
 - (void)sion;
 
 @end

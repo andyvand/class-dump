@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_attributedButtonText;
 }
 
+- (void)hasHeader;
+- (void)collapseItemIdentifier:context: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)p;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)imageByApplyingSymbolConfiguration:(struct CGRect)arg1;
 - (void);
 
 // Remaining properties

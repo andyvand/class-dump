@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, SFLBookmark, _SFLItem;
+@class _SFLItem;
 
 __attribute__((visibility("hidden")))
 @interface _SFLItemWrapper
 {
     _SFLItem *_internalItem;
-    SFLBookmark *_bookmark;
-    NSString *_listIdentifier;
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (id)V_NLPGazetteerModelIsRevisionSupportedImpl;
+- (void)?);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (unsigned long long)Error;
+- (void);
+- (id)4;
+- (void)d
+;
+- (void);
+- (id);
+- (unsigned long long)_SFL_BookmarkResolvedToURLInTrashError;
 
 // Remaining properties
-@property(copy) SFLBookmark *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSUUID *identifier;
 @property(readonly) _SFLItem *internalItem; // @synthesize internalItem=_internalItem;
-@property(copy) NSString *listIdentifier; // @synthesize listIdentifier=_listIdentifier;
-@property(copy) NSString *name;
-@property(copy) NSDictionary *properties;
-@property unsigned long long seed;
-@property(readonly) Class superclass;
 
 @end
 

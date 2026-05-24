@@ -6,14 +6,12 @@
 
 #import <Safari/TabButton.h>
 
-@class NSString;
 @protocol ButtonInTabSyncGroupDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TabBarEmptyRegionPlaceholderButton : TabButton
 {
     _Bool _syncedWithOtherButton;
-    id <ButtonInTabSyncGroupDelegate> _buttonInTabSyncGroupDelegate;
 }
 
 - (void);
@@ -27,14 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <ButtonInTabSyncGroupDelegate> buttonInTabSyncGroupDelegate; // @synthesize buttonInTabSyncGroupDelegate=_buttonInTabSyncGroupDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSyncedWithOtherButton) _Bool syncedWithOtherButton; // @synthesize syncedWithOtherButton=_syncedWithOtherButton;
 
 @end
 

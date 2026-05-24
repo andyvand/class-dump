@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     AVAudioOutputSettings *_avAudioOutputSettings;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)readPropertiesFromXmlNode:toProperties:drawingState: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

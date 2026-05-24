@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSXPCListener;
+@class NSXPCListener;
 @protocol AXDragEndpointVendorDelegate;
 
 @interface AXDragEndpointVendor
 {
     NSXPCListener *_listener;
-    NSMutableSet *_activeConnections;
-    id <AXDragEndpointVendorDelegate> _delegate;
 }
 
 - (void);
+- (id)|;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)@@"NSString";
 - (void);
 - (_Bool);
-- (void);
+- (void)Z;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AXDragEndpointVendorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

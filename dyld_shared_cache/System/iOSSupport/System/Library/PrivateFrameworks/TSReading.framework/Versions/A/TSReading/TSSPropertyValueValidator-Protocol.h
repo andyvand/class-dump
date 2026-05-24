@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSSPropertySet;
+
 @protocol TSSPropertyValueValidator
++ (_Bool)ReshuffleFailedToFindStartItem;
++ (_Bool)StateRestorationFailed;
++ (_Bool)UnsupportedRadioStation;
++ (_Bool)ResponseContainsNoStoreItems;
++ (_Bool)PerformInsertCommandFailed;
++ (TSSPropertySet *)ctivation-attempts;
++ (_Bool);
+- (_Bool)learKind;
+- (_Bool)tion:(int *)arg1 .;
+- (_Bool)did not call block passed to defersResponse:(int *)arg1 completion:(int)arg2 .;
+- (_Bool)nseLoading.;
+- (_Bool)m.apple.MediaPlaybackCore/MPCRequestController;
+- (_Bool);
 @end
 

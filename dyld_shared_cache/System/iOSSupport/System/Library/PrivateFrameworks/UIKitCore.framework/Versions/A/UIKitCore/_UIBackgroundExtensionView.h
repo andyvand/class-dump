@@ -15,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)n;
+- (id)UIContextualAction;
 
 // Remaining properties
 @property(nonatomic) _Bool disableAutomaticLayout;

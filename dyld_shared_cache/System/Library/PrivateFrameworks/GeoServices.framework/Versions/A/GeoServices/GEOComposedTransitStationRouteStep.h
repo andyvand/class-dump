@@ -6,26 +6,22 @@
 
 #import <GeoServices/GEOComposedTransitRouteStep.h>
 
-@class GEOPBTransitAccessPoint, GEOTransitEnterExitInfo, GEOTransitTransferInfo, NSString;
+@class GEOPBTransitAccessPoint;
 
 @interface GEOComposedTransitStationRouteStep : GEOComposedTransitRouteStep
 {
     unsigned int _expectedTime;
-    _Bool _isArrivalUncertain;
-    GEOTransitTransferInfo *_transitTransfer;
-    GEOTransitEnterExitInfo *_enterExitInfo;
-    GEOPBTransitAccessPoint *_accessPoint;
 }
 
 + (_Bool)delete unpacked resource at "%{public}@", it does not match resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (CDStruct_39925896);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)setFeatureFlags: /* Error: Ran out of types for this method. */;
+- (id)errorWithCode:(id)arg1 underlyingException:(id)arg2;
+- (_Bool)CNBehaviorSubject;
 - (unsigned int);
 - (id);
-- (CDStruct_39925896);
-- (_Bool);
+- (CDStruct_39925896)y;
+- (_Bool)rectory;
 - (id);
 - (id);
 - (id);
@@ -34,12 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOPBTransitAccessPoint *accessPoint; // @synthesize accessPoint=_accessPoint;
-@property(readonly, nonatomic) _Bool displayStop;
-@property(readonly, nonatomic) NSString *exitSign;
-@property(readonly, nonatomic) unsigned int expectedTime; // @synthesize expectedTime=_expectedTime;
-@property(readonly, nonatomic) _Bool hasDisplayStop;
-@property(readonly, nonatomic) _Bool isArrivalUncertain; // @synthesize isArrivalUncertain=_isArrivalUncertain;
-@property(readonly, nonatomic) GEOTransitTransferInfo *transitTransfer; // @synthesize transitTransfer=_transitTransfer;
 
 @end
 

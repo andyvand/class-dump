@@ -9,20 +9,18 @@
 @interface IDSGFTMetricsReferencePointEvent
 {
     NSNumber *_reason;
-    NSNumber *_time;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_	;
 - (void);
 - (id);
 - (void);
-- (void)istrationProfileHandleOperationValidateHandles;
+- (void)IDSRegistrationProfileHandleOperationValidateHandles;
 
 // Remaining properties
 @property(copy) NSNumber *reason; // @synthesize reason=_reason;
-@property(copy) NSNumber *time; // @synthesize time=_time;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface SGXPCActivityManager
 {
     NSMutableArray *_activities;
-    NSMutableArray *_lastCriteria;
-    NSMutableArray *_handlers;
-    NSMutableDictionary *_currentTasks;
-    _Bool _registered;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 + (id);
@@ -23,12 +18,12 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)php;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void)eMailMessageId;
 
 @end

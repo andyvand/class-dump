@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface DDLogFileInfo
 {
     NSString *filePath;
-    NSString *fileName;
-    NSDictionary *fileAttributes;
-    NSDate *creationDate;
-    NSDate *modificationDate;
-    unsigned long long fileSize;
 }
 
 + (id);
 - (void);
+- (long long)3;
 - (long long);
-- (long long);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)86Z;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)Ȑ;
+- (id)@;
+- (id)base64EncodedStringWithOptions:(id)arg1;
 - (_Bool);
-- (id);
+- (id)didFinishRecognitionHandlers;
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned long long)Queue: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setDelegateQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double age; // @dynamic age;
-@property(readonly, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, nonatomic) NSDictionary *fileAttributes; // @dynamic fileAttributes;
-@property(readonly, nonatomic) NSString *fileName; // @dynamic fileName;
 @property(readonly, nonatomic) NSString *filePath; // @synthesize filePath;
-@property(readonly, nonatomic) unsigned long long fileSize; // @dynamic fileSize;
-@property(nonatomic) _Bool isArchived; // @dynamic isArchived;
-@property(readonly, nonatomic) NSDate *modificationDate; // @dynamic modificationDate;
 
 @end
 

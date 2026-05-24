@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface RTEventModelUserInteractionMO
 {
 }
 
-+ (id);
++ (id)completePoint:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
 @property(copy, nonatomic) NSString *feedback; // @dynamic feedback;
-@property(retain, nonatomic) NSNumber *interaction; // @dynamic interaction;
-@property(copy, nonatomic) NSString *locationOfInterestIdentifier; // @dynamic locationOfInterestIdentifier;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FCFetchRequest
 {
     NSString *_entity;
-    NSString *_predicate;
-    NSDictionary *_sortDesc1;
-    NSDictionary *_sortDesc2;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
++ (id)initWithSetupContext:(id)arg1 credential:previouslyAcceptedTerms: /* Error: Ran out of types for this method. */;
++ (id)initWithSelectionCriteria:(id)arg1 readerIdentifier:associatedReaders: /* Error: Ran out of types for this method. */;
+- (id)initWithTargetDeviceDelegate: /* Error: Ran out of types for this method. */;
+- (id)initWithTargetDevice: /* Error: Ran out of types for this method. */;
+- (void)colVersions:(id)arg1;
+- (void)dExpeditedTransactionProtocolVersions:(id)arg1;
+- (id)initWithSetupContext:credential:previouslyAcceptedTerms: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain) NSString *entity; // @synthesize entity=_entity;
-@property(retain) NSString *predicate; // @synthesize predicate=_predicate;
-@property(retain) NSDictionary *sortDesc1; // @synthesize sortDesc1=_sortDesc1;
-@property(retain) NSDictionary *sortDesc2; // @synthesize sortDesc2=_sortDesc2;
 
 @end
 

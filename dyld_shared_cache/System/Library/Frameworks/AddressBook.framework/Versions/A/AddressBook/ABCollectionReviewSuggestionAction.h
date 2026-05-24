@@ -6,20 +6,16 @@
 
 #import <AddressBook/ABCollectionAbstractAction.h>
 
-@class ABCollectionViewItem, ABSuggestedValueViewController, NSPopover, NSString;
-@protocol ABCardCollectionViewDelegate;
+@class ABCollectionViewItem;
 
 @interface ABCollectionReviewSuggestionAction : ABCollectionAbstractAction
 {
     ABCollectionViewItem *_targetItem;
-    id <ABCardCollectionViewDelegate> _collectionViewDelegate;
-    ABSuggestedValueViewController *_viewController;
-    NSPopover *_popover;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
@@ -30,34 +26,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)&;
+- (void)=;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_recentCharacterEntityAtIndex:(id)arg1 inCategory: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak id <ABCardCollectionViewDelegate> collectionViewDelegate; // @synthesize collectionViewDelegate=_collectionViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSPopover *popover; // @synthesize popover=_popover;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak ABCollectionViewItem *targetItem; // @synthesize targetItem=_targetItem;
-@property(retain, nonatomic) ABSuggestedValueViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

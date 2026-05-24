@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)h: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 

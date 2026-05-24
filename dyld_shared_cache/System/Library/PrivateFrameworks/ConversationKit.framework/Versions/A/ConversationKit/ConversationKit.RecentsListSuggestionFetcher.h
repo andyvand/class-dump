@@ -9,7 +9,7 @@
     id delegate;
 }
 
-- (id);
+- (id)__DATA_CONST;
 - (void)>&ýÿPDÿÿ@&ýÿ;
 
 @end

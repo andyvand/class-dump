@@ -6,24 +6,11 @@
 
 #import <MetalTools/MTLToolsComputePipelineState.h>
 
-@class MTL4ComputePipelineDescriptor, MTLComputePipelineDescriptor, MTLComputePipelineReflection;
 @protocol MTLFunction;
 
 @interface MTLDebugComputePipelineState : MTLToolsComputePipelineState
 {
     unsigned long long _maxThreadPositionInGrid[3];
-    unsigned long long _maxThreadsPerGrid[3];
-    unsigned long long _maxThreadPositionInThreadgroup[3];
-    unsigned long long _maxThreadIndexInThreadgroup[3];
-    unsigned long long _maxThreadsPerThreadgroup[3];
-    unsigned long long _maxThreadgroupPositionInGrid[3];
-    unsigned long long _maxThreadgroupsPerGrid[3];
-    unsigned long long _maxStageInGridSize[3];
-    unsigned long long _maxStageInGridOrigin[3];
-    MTLComputePipelineReflection *_validationReflection;
-    id <MTLFunction> _function;
-    MTLComputePipelineDescriptor *_descriptor;
-    MTL4ComputePipelineDescriptor *_mtl4Descriptor;
 }
 
 - (id);
@@ -43,8 +30,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)L;
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -56,12 +43,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) MTLComputePipelineDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 @property(readonly, nonatomic) id <MTLFunction> function; // @synthesize function=_function;
-@property(readonly, nonatomic) MTL4ComputePipelineDescriptor *mtl4Descriptor; // @synthesize mtl4Descriptor=_mtl4Descriptor;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly, nonatomic) MTLComputePipelineReflection *validationReflection; // @synthesize validationReflection=_validationReflection;
 
 @end
 

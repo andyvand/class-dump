@@ -6,13 +6,10 @@
 
 #import <Foundation/NSScriptTypeDescription.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NSScriptComplexTypeDescription : NSScriptTypeDescription
 {
     unsigned int _appleEventCode;
-    NSArray *_alternativeTypeDescriptions;
 }
 
 - (SEL);
@@ -28,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)getAUParameter:onServer:audioUnit:scope:element:copiedIntoValue: /* Error: Ran out of types for this method. */;
 
 @end
 

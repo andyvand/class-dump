@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AXEHIDDeviceDetectorDelegate;
-
 @interface AXEHIDDeviceDetector
 {
     _Bool _detectDevices;
-    id <AXEHIDDeviceDetectorDelegate> _delegate;
-    struct __IOHIDManager *__hidManager;
 }
 
 + (id);
@@ -19,14 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (struct __IOHIDManager *);
-- (void);
+- (struct __IOHIDManager *)";
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct __IOHIDManager *_hidManager; // @synthesize _hidManager=__hidManager;
-@property(nonatomic) __weak id <AXEHIDDeviceDetectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool detectDevices; // @synthesize detectDevices=_detectDevices;
 
 @end
 

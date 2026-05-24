@@ -7,13 +7,11 @@
 @interface TeaUI.SwipeActionView
 {
     id button;
-    id onTap;
-    id swipeAction;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)pinnedArticles;
+- (id)setTerminateAppOnBackgroundAfterJoiningOrLeavingExperiment:(struct CGRect)arg1;
 - (void)ýÿ;
 
 @end

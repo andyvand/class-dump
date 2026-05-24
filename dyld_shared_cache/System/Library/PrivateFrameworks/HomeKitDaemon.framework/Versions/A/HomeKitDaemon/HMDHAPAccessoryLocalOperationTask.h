@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSDictionary *_logEvents;
 }
 
-- (void);
+- (void)deleteContentsObjectAtIndex:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *activityRequestEventName;
-@property(readonly) NSString *activityResponseEventName;
-@property(retain) NSDictionary *logEvents; // @synthesize logEvents=_logEvents;
 
 @end
 

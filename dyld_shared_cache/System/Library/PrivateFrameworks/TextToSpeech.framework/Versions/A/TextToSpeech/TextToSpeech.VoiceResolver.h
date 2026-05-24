@@ -7,25 +7,15 @@
 @interface TextToSpeech.VoiceResolver
 {
     id executor;
-    id voiceSource;
-    id requiredTraits;
-    id forbiddenTraits;
-    id sortMode;
-    id selectionProviders;
-    id cachedSystemLocale;
-    id cachedLocales;
-    id languageChangeTask;
-    id voiceCacheTask;
-    id voiceResolutionCache;
 }
 
-+ (void);
++ (void)e media packet history;
 + (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);

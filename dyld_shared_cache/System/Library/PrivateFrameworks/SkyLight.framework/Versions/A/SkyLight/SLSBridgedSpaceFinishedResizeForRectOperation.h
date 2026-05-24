@@ -9,19 +9,19 @@
 @interface SLSBridgedSpaceFinishedResizeForRectOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    struct CGRect _rect;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)_;
+- (void)RDER BY COUNT DESC;
+- (id):(unsigned long long)arg1 ss value:(struct CGRect)arg2 %@
+	pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id)1;
 - (void);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly) struct CGRect rect; // @synthesize rect=_rect;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

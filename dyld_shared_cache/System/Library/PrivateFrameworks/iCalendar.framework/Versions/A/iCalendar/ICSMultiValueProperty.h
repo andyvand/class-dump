@@ -11,12 +11,12 @@
 }
 
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ergedLocalSection;
 - (id);
 
 @end

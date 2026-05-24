@@ -6,63 +6,43 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface FAFetchFamilyPhotoRequest : FAFamilyCircleRequest
 {
     _Bool _localFallback;
-    _Bool _useMonogramAsLastResort;
-    NSNumber *_memberDSID;
-    NSString *_memberHashedDSID;
-    unsigned long long _requestedSize;
-    double _requiredWidth;
-    double _requiredHeight;
-    double _monogramDiameter;
-    NSString *_fullname;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)secondaryButtonAction;
+- (void)Paused;
+- (void)globalTimeout;
+- (void)request;
+- (void)CloseAssistant;
+- (double)secondaryDescriptiveText;
+- (unsigned long long)primaryDescriptiveText;
+- (double)Preferred;
+- (id)DeleteAssistantHistory;
+- (id)syncType;
+- (_Bool)msgSender;
+- (id)audioDestination;
+- (id)AppAuthorizationStatusResponse;
+- (id)RunSiriKitExecutorCompleted;
+- (id)W;
+- (id);
+- (void)ԓy;
 - (double);
-- (unsigned long long);
-- (double);
+- (void)1";require;explicit;
 - (id);
 - (id);
-- (_Bool);
+- (void);
 - (id);
 - (id);
+- (void)p needs repair because a data partition needs loader space;
 - (id);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(copy) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(copy) NSString *fullname; // @synthesize fullname=_fullname;
-@property(readonly) _Bool localFallback; // @synthesize localFallback=_localFallback;
 @property(readonly, copy) NSNumber *memberDSID; // @synthesize memberDSID=_memberDSID;
-@property(readonly, copy) NSString *memberHashedDSID; // @synthesize memberHashedDSID=_memberHashedDSID;
-@property double monogramDiameter; // @synthesize monogramDiameter=_monogramDiameter;
-@property(copy) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly) unsigned long long requestedSize; // @synthesize requestedSize=_requestedSize;
-@property double requiredHeight; // @synthesize requiredHeight=_requiredHeight;
-@property double requiredWidth; // @synthesize requiredWidth=_requiredWidth;
-@property _Bool useMonogramAsLastResort; // @synthesize useMonogramAsLastResort=_useMonogramAsLastResort;
 
 @end
 

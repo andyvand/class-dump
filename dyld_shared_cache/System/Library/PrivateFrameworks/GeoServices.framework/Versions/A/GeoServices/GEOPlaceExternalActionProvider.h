@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDActionLink, NSArray, NSMapTable, NSString;
+@class GEOPDActionLink, NSString;
 
 @interface GEOPlaceExternalActionProvider
 {
     GEOPDActionLink *_actionLink;
-    NSMapTable *_attributionMap;
-    NSString *_identifier;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)Mapping;
+- (id)GEOLPRValueMapping;
 - (void)å,î?fK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamId;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *supportedIntegrations;
 
 @end
 

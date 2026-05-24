@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _EARSyncSpeechRecognizer;
+@class _EARSyncSpeechRecognizer;
 
 @interface SSRTriggerPhraseDetectorQuasar
 {
     _EARSyncSpeechRecognizer *_syncRecognizer;
-    NSString *_locale;
 }
 
 - (id);
-- (void);
+- (void)eateAndStoreEventHandlerForActiveObjectINS1_16MovingStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (id);
 - (void);

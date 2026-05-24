@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HAPWiFiConfigurationOperationTypeWrapper, HAPWiFiConfigurationUpdateStatusWrapper, HAPWiFiStationConfiguration, NSString;
+@class HAPWiFiConfigurationOperationTypeWrapper;
 
 @interface HAPWiFiConfigurationControl
 {
     HAPWiFiConfigurationOperationTypeWrapper *_operationType;
-    HAPTLVUnsignedNumberValue *_cookie;
-    HAPWiFiConfigurationUpdateStatusWrapper *_updateStatus;
-    HAPTLVUnsignedNumberValue *_operationTimeout;
-    NSString *_countryCodeConfiguration;
-    HAPWiFiStationConfiguration *_stationConfiguration;
 }
 
 + (id);
@@ -26,32 +21,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)__DATA;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id);
 - (void)UnpairedAccessoryServer>"24@?<v@?@"NSString"@"NSError">32;
-- (void)ithServiceSignatureList:(id)arg1;
+- (void)initWithServiceSignatureList:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *cookie; // @synthesize cookie=_cookie;
-@property(retain, nonatomic) NSString *countryCodeConfiguration; // @synthesize countryCodeConfiguration=_countryCodeConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *operationTimeout; // @synthesize operationTimeout=_operationTimeout;
 @property(retain, nonatomic) HAPWiFiConfigurationOperationTypeWrapper *operationType; // @synthesize operationType=_operationType;
-@property(retain, nonatomic) HAPWiFiStationConfiguration *stationConfiguration; // @synthesize stationConfiguration=_stationConfiguration;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPWiFiConfigurationUpdateStatusWrapper *updateStatus; // @synthesize updateStatus=_updateStatus;
 
 @end
 

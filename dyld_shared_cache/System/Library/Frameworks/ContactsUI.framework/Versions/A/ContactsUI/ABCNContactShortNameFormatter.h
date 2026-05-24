@@ -7,7 +7,6 @@
 @interface ABCNContactShortNameFormatter
 {
     unsigned long long _style;
-    _Bool _preferNickname;
 }
 
 + (id);

@@ -6,25 +6,23 @@
 
 #import <SyncServices/ISyncRecordReference.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ISyncConcreteRecordReference : ISyncRecordReference
 {
     NSString *_globalRecordIdentifier;
-    int _entityNumber;
-    NSDictionary *_attributes;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 

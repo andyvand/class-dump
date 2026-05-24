@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
-
 @interface RWIProtocolDOMAccessibilityProperties : RWIProtocolJSONObject
 {
 }
@@ -16,21 +14,21 @@
 - (void);
 - (void);
 - (void);
+- (void)7_;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (int);
 - (long long);
 - (id);
@@ -40,13 +38,13 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (int);
 - (double);
 - (void);
@@ -54,7 +52,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -62,58 +60,26 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)q;
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)rpc_x_endpoint_not_found;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool)uldAllowDebuggingOnThisAMDeviceRef:udid: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldAllowDebuggingOnThisAMDeviceRef:udid: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void)tor (%{public}@) has an unsupported device class `%@`.;
 - (void)OR:(_Bool)arg1 Unexpected entitlement type attempting to verify entitlement on XPC connection.;
-- (long long)argetAllowsAutomaticInspectionInSameProcess;
+- (long long)WIRTargetAllowsAutomaticInspectionInSameProcess;
 
 // Remaining properties
-@property(nonatomic) int activeDescendantNodeId;
-@property(nonatomic) _Bool busy;
-@property(nonatomic) long long checked;
-@property(copy, nonatomic) NSArray *childNodeIds;
-@property(copy, nonatomic) NSArray *controlledNodeIds;
-@property(nonatomic) long long current;
-@property(nonatomic) _Bool disabled;
 @property(nonatomic) _Bool exists;
-@property(nonatomic) _Bool expanded;
-@property(copy, nonatomic) NSArray *flowedNodeIds;
-@property(nonatomic) _Bool focused;
-@property(nonatomic) double headingLevel;
-@property(nonatomic) _Bool hidden;
-@property(nonatomic) double hierarchyLevel;
-@property(nonatomic) _Bool ignored;
-@property(nonatomic) _Bool ignoredByDefault;
-@property(nonatomic) long long invalid;
-@property(nonatomic) _Bool isPopUpButton;
-@property(copy, nonatomic) NSString *label;
-@property(nonatomic) _Bool liveRegionAtomic;
-@property(copy, nonatomic) NSArray *liveRegionRelevant;
-@property(nonatomic) long long liveRegionStatus;
-@property(nonatomic) int mouseEventNodeId;
-@property(nonatomic) int nodeId;
-@property(copy, nonatomic) NSArray *ownedNodeIds;
-@property(nonatomic) int parentNodeId;
-@property(nonatomic) _Bool pressed;
-@property(nonatomic) _Bool readonly;
-@property(nonatomic) _Bool required;
-@property(copy, nonatomic) NSString *role;
-@property(nonatomic) _Bool selected;
-@property(copy, nonatomic) NSArray *selectedChildNodeIds;
-@property(nonatomic) long long switchState;
 
 @end
 

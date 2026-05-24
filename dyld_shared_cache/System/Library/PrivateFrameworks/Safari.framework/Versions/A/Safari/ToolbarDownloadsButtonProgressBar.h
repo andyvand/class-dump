@@ -8,22 +8,20 @@ __attribute__((visibility("hidden")))
 @interface ToolbarDownloadsButtonProgressBar
 {
     _Bool _indeterminate;
-    float _progress;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)CommSafetySensitiveProvider:adaptiveImageGlyphProvider:senderDisplayName:isFromMe:effectString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (float)gGGAKyurf5SgGGAKy9g5GGAByABy|-f5yn0f5yX0f5yAH¨rf5GG_Qo_AKyÊ%f5GGAKyð6f5GGAAtGGAIGAAt;
 - (id)hange title of nonexistent bookmark (identifier:%{public}@) /* Error: Ran out of types for this method. */;
-- (id);
+- (id)t;
 - (void)ÿÿÿÿ	;
 
 // Remaining properties
-@property(nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
 @property(nonatomic) float progress; // @synthesize progress=_progress;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol LAContextEventFeedbackProt
+- (void);
+- (void)(;
 @end
 

@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)v24@0:(CDUnknownBlockType)arg1 8^{__IOSurface=}16;
 - (void);
 
 // Remaining properties

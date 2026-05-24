@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableSet, UIGestureGraph;
-@protocol BSInvalidatable, GFGestureNodeCoordinator;
+@protocol GFGestureNodeCoordinator;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureEnvironment
 {
     struct __CFRunLoopObserver *_gestureEnvironmentUpdateObserver;
-    NSMutableSet *_gestureRecognizersNeedingUpdate;
-    NSMutableSet *_gestureRecognizersNeedingReset;
-    NSMutableSet *_gestureRecognizersNeedingRemoval;
-    NSMutableArray *_dirtyGestureRecognizers;
-    NSMutableSet *_gestureRecognizersBlockedFromReset;
-    unsigned long long _lastBlockedResetEvaluationMachTime;
-    id <BSInvalidatable> _blockedResetStateCaptureToken;
-    NSMapTable *_touchContinuationDeliveryActions;
-    _Bool _dirtyGestureRecognizersUnsorted;
-    _Bool _updateExclusivity;
-    _Bool _isUpdatingGestureEnvironment;
-    UIGestureGraph *_dependencyGraph;
-    NSMapTable *_nodesByGestureRecognizer;
-    id <GFGestureNodeCoordinator> _nodeCoordinator;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)mapPropertyKey:(id)arg1 toPayloadKeyPath: /* Error: Ran out of types for this method. */;
+- (void)initWithMetadataDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)ctt;
+- (void)failed to find match] dsid=%{public}@ considerations=%{public}@;
 - (void);
 - (void);
 - (id);
@@ -52,16 +37,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)1Â0@ù
 × ;
-- (_Bool)kdropRenderConfig:(id)arg1;
-- (void)tContainerOnly:(id)arg1;
-- (void)Additive;
-- (_Bool)sertion;
-- (id)rvingTextEffectsWindowRotation;
-- (void)rentState:(id)arg1 fallbackBackgroundColor:(id)arg2 contentScale: /* Error: Ran out of types for this method. */;
-- (id)asureTitles;
-- (void)anchorBarButtonItem;
+- (_Bool)updateBackdropRenderConfig:(id)arg1;
+- (void)textLayoutManagerAllowsSimpleRectangularTextContainerOnly:(id)arg1;
+- (void)isAdditive;
+- (_Bool)grabberSuppressionAssertion;
+- (id)_observingTextEffectsWindowRotation;
+- (void)_morphPreviewFromCurrentState:(id)arg1 fallbackBackgroundColor:(id)arg2 contentScale: /* Error: Ran out of types for this method. */;
+- (id)_cacheAndMeasureTitles;
+- (void)_anchorBarButtonItem;
 - (void)NSIndexPath",R,N,V_initialIndexPath;
-- (void)nRoutePickerViewController;
+- (void)_UIScreenRoutePickerViewController;
 - (void);
 - (void)bþøºþÿ{íÿ;
 - (void)iewController;

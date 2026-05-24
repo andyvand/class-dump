@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)bundleWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *allowUserToHide; // @synthesize allowUserToHide=_allowUserToHide;

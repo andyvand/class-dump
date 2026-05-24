@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, _UIColorSamplerSettings;
 @protocol EDServiceServer;
 
 @interface _UIColorSampler
 {
     id <EDServiceServer> _eyeDropperServerProxy;
-    _UIColorSamplerSettings *_settings;
-    NSXPCConnection *_eyeDropperConnection;
-    CDUnknownBlockType _eyeDropperSelectionBlock;
-    _Bool _floatEyedropperOnStart;
 }
 
+- (void)setBlockIdleStatus:(_Bool)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)_relayMessageToPairedDevice:messageID:hasAttachments: /* Error: Ran out of types for this method. */;
+- (_Bool)service:account:inviteDroppedForSessionID:fromID:context:error: /* Error: Ran out of types for this method. */;
+- (void)devices;
+- (void)IMAssociatedMessageProcessingParameter;
+- (void)Service (%@);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)VShowEditorNotes;
 - (id);
 - (void)Ò{];
 

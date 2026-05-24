@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, _PASSqliteDatabase;
+@class NSObject;
 @protocol _PASDatabaseMigrationProtocol;
 
 @interface _PASDatabaseMigrationContext
 {
     NSObject<_PASDatabaseMigrationProtocol> *object;
-    _PASSqliteDatabase *db;
-    unsigned int version;
-    NSDictionary *migrations;
 }
 
 - (id);
-- (void);
+- (void)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
 
 @end
 

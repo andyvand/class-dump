@@ -9,12 +9,6 @@
 @interface SXSearchContext
 {
     _Bool _isBeginningFilterActive;
-    NSString *_searchTerm;
-    unsigned long long _options;
-    unsigned long long _total;
-    unsigned long long _index;
-    unsigned long long _action;
-    unsigned long long _keyboardHeight;
 }
 
 - (void);
@@ -34,13 +28,7 @@
 - (void)"<SXComponentLayout>",R,N,V_componentLayout;
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isBeginningFilterActive; // @synthesize isBeginningFilterActive=_isBeginningFilterActive;
-@property(nonatomic) unsigned long long keyboardHeight; // @synthesize keyboardHeight=_keyboardHeight;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(nonatomic) unsigned long long total; // @synthesize total=_total;
 
 @end
 

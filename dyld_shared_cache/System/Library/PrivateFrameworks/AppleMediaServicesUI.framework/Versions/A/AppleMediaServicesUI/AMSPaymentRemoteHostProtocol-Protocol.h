@@ -5,5 +5,7 @@
 //
 
 @protocol AMSPaymentRemoteHostProtocol
+- (void){%@};
+- (void)ForUnitTesting;
 @end
 

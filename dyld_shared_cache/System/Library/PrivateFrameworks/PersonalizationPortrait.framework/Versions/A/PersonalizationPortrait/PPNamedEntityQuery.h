@@ -4,52 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 @interface PPNamedEntityQuery
 {
     _Bool _matchCategory;
-    _Bool _excludeWithoutSentiment;
-    _Bool _orderByName;
-    _Bool _orderByAscendingDate;
-    _Bool _removeNearDuplicates;
-    _Bool _isForRecordMonitoring;
-    _Bool _filterByRelevanceDate;
-    unsigned long long _limit;
-    NSDate *_fromDate;
-    NSDate *_toDate;
-    NSDate *_scoringDate;
-    NSSet *_matchingSourceBundleIds;
-    NSSet *_excludingSourceBundleIds;
-    NSSet *_matchingSourceGroupIds;
-    NSSet *_matchingSourceDocumentIds;
-    unsigned long long _deviceFilter;
-    double _decayRate;
-    NSString *_matchingName;
-    NSSet *_matchingNames;
-    NSSet *_matchingCategories;
-    NSSet *_excludingAlgorithms;
-    NSString *_matchingContactHandle;
-    NSString *_matchingEntityTrie;
-    unsigned long long _locationConsumer;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)ntains bad experiment deployment:(_Bool)arg1 %@ for map:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)CKVTokenChain;
 - (_Bool);
-- (id);
+- (id)_noButtonImageTinted;
 - (void);
 - (void);
-- (id);
+- (id)calculateSourceRectForTile:(id)arg1 tileTransform:destinationQuadOut: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -67,9 +44,10 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)y
+;
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -81,51 +59,27 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)getSSOServiceTicketAsOnConsoleUserWithUI:(id)arg1 serviceID:outUsername:error: /* Error: Ran out of types for this method. */;
+- (_Bool)nchAnyQuitApps]_block_invoke;
+- (_Bool)(;
+- (unsigned long long)detectPresenceWithOptions:async:withReply: /* Error: Ran out of types for this method. */;
+- (void)Number class]];
+- (id)aMessageQueue:dataAggregator:assertion:workQueue:delegateQueue:destinationAddress:sourceAppleID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long)el:value: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (unsigned long long)initWithLabel:value: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
-@property(nonatomic) unsigned long long deviceFilter; // @synthesize deviceFilter=_deviceFilter;
-@property(nonatomic) _Bool excludeWithoutSentiment; // @synthesize excludeWithoutSentiment=_excludeWithoutSentiment;
-@property(retain, nonatomic) NSSet *excludingAlgorithms; // @synthesize excludingAlgorithms=_excludingAlgorithms;
-@property(retain, nonatomic) NSSet *excludingSourceBundleIds; // @synthesize excludingSourceBundleIds=_excludingSourceBundleIds;
-@property(nonatomic) _Bool filterByRelevanceDate; // @synthesize filterByRelevanceDate=_filterByRelevanceDate;
-@property(retain, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(nonatomic) _Bool isForRecordMonitoring; // @synthesize isForRecordMonitoring=_isForRecordMonitoring;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(nonatomic) unsigned long long locationConsumer; // @synthesize locationConsumer=_locationConsumer;
-@property(nonatomic) _Bool matchCategory; // @synthesize matchCategory=_matchCategory;
-@property(retain, nonatomic) NSSet *matchingCategories; // @synthesize matchingCategories=_matchingCategories;
-@property(retain, nonatomic) NSString *matchingContactHandle; // @synthesize matchingContactHandle=_matchingContactHandle;
 @property(retain, nonatomic) NSString *matchingEntityTrie; // @synthesize matchingEntityTrie=_matchingEntityTrie;
-@property(copy, nonatomic) NSString *matchingName; // @synthesize matchingName=_matchingName;
-@property(copy, nonatomic) NSSet *matchingNames; // @synthesize matchingNames=_matchingNames;
-@property(retain, nonatomic) NSSet *matchingSourceBundleIds; // @synthesize matchingSourceBundleIds=_matchingSourceBundleIds;
-@property(retain, nonatomic) NSSet *matchingSourceDocumentIds; // @synthesize matchingSourceDocumentIds=_matchingSourceDocumentIds;
-@property(retain, nonatomic) NSSet *matchingSourceGroupIds; // @synthesize matchingSourceGroupIds=_matchingSourceGroupIds;
-@property(nonatomic) _Bool orderByAscendingDate; // @synthesize orderByAscendingDate=_orderByAscendingDate;
-@property(nonatomic) _Bool orderByName; // @synthesize orderByName=_orderByName;
-@property(nonatomic) _Bool overrideDecayRate;
-@property(nonatomic) _Bool removeNearDuplicates; // @synthesize removeNearDuplicates=_removeNearDuplicates;
-@property(retain, nonatomic) NSDate *scoringDate; // @synthesize scoringDate=_scoringDate;
-@property(retain, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

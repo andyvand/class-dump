@@ -4,59 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCurrencyAmountValue, _INPBDecimalNumberValue, _INPBValueMetadata;
+@class _INPBCurrencyAmountValue;
 
 @interface _INPBBalanceAmountValue
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBCurrencyAmountValue *_currencyAmount;
-    _INPBDecimalNumberValue *_customAmount;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (_Bool)h";
+- (id)b;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)URL"@"NSString"@"NSFileHandle"@"NSError">16;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)wifiNetworkSharingAccessoryID;
+- (void):(id)arg1 CWFEventTypeDHCPChanged:(%@) /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (int);
 - (id)N;
 - (_Bool)h\;
-- (_Bool)P2Identifier;
-- (void)t;
-- (void)DE;
+- (_Bool)iAP2Identifier;
+- (void)headUnit;
+- (void)CHLORIDE;
 - (void);
 - (id)ø;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmountValue *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) _INPBDecimalNumberValue *customAmount; // @synthesize customAmount=_customAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasCustomAmount;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

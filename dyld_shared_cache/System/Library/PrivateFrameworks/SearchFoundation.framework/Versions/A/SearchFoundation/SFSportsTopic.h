@@ -17,26 +17,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)volumeCapabilities;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void)chInAttachmentNames;
+- (void)alertWithConfiguration:(id)arg1;
+- (id)s evicted with inflight request ID, cancelling now;
+- (void)hasCountBigramPrefixMatchInAttachmentNames;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *query;
-@property(readonly, nonatomic) int queryType;
 @property(copy, nonatomic) NSString *requestedEntityType; // @synthesize requestedEntityType=_requestedEntityType;
-@property(readonly) Class superclass;
 
 @end
 

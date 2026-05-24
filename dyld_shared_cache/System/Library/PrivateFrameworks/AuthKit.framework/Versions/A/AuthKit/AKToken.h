@@ -9,33 +9,27 @@
 @interface AKToken
 {
     NSDate *_expirationDate;
-    NSString *_stringValue;
-    NSDate *_creationDate;
-    NSString *_name;
 }
 
 + (id);
++ (id)$;
 + (id);
++ (id)H  ,;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)! ;
 - (id);
 - (id);
-- (id);
+- (id)K;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)erface;
+- (void)AKPrivateEmailDaemonInterface;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsUI2.LatestStoriesTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id paidAccessChecker;
-    id cloudContext;
-    id name;
 }
 
 @end

@@ -8,8 +8,9 @@
 {
 }
 
-+ (int);
-+ (int);
++ (int)development;
++ (int)s Payload %@
+;
 
 @end
 

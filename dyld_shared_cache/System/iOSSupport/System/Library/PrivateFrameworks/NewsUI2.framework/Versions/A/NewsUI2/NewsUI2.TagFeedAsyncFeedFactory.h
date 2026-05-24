@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedAsyncFeedFactory
 {
     id appConfigurationManager;
-    id feedAvailabilityService;
 }
 
 @end

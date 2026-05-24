@@ -7,9 +7,6 @@
 @interface PhotosGraph.SocialGroupsRandom
 {
     id priority;
-    id triggerResults;
-    id supportsFutureLookup;
-    id futureLookupResults;
 }
 
 @end

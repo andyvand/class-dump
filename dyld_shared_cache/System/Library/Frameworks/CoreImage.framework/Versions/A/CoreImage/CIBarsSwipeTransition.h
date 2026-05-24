@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIBarsSwipeTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    NSNumber *inputAngle;
-    NSNumber *inputWidth;
-    NSNumber *inputBarOffset;
-    NSNumber *inputTime;
 }
 
 + (id);
@@ -29,19 +24,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)N
+N1!;
 - (id);
 - (void);
 - (id);
 - (id)-A0N9QF\llklTf_n=YLnjpiz~~~~utnu]qmuxxxxfrnwsoisdnhqqssswwwwcvq}f|wmxpj~|yUcZs[kdt~b}~pzy}t|{¢¢¢¢~zu~bws|{{{{knhqmmjmqqqqvvvvo{{{~~~~zzzznjcpMaWmyyyyx{w\qi|]e]l(>)Q3F4SUd^jbvs~JcWqcofv|lst~lut|zzzzqqqqK^Ui\oiz««««««¬¬±±±±¼¼¼¼º»»»¡¡dogx=N=[FTE\gurx¢¢¢¢q    nuqyuutunyx{m~~rzrxyyvvvvttttJd]qF]QsIjb~o{swsyP]Pl`f\o}}}}w{{{{Rb[hX`ZckkkkmmmmK`YfL_VgrqlrbwtfWrlGg^zzzzzffff[[V[``[`pppp}}}}~~~~oooo<NE[3C7NJLBO[[[[mmmm}}}}|m~|¡¡¡¡¬¬¬¬ £££Qh\yQkaz{{{{wwwwyozyfkflDQDZFRFW````QfbimrqvimkmZa[affffxxxxxwtxI_Vk]hfhddddee`e~§§§§¯¯¯¯vJZQbSSPSRZTZNc]l||n|bqmw?XMcdd^duuuu{[hcjNNGNBB5BEJ@J__Z_xxxx}¤¼¼¼¼¸¸¸¸?TChFN:ZL[Meuwsxevrctph¨¦¨¨ÅÅÅÅËÒÒÒÇÇÇÇ¨¨¨¨ryw}LXKbbbZbnnmnxvsx~{axtw|z{{{{opjpRdZmzzwzvx{z|EZPgY]Scnnjnbrqyyyyynnnneecejjjj||||}}}}}^fbiK\Uajjjjuuuuzzzz{{{{}}}}stttHVJZ8K<Saa_attttyyyyxxxx||||pjurx[mgv~tdpix-H6`<O@^hhhhnnnn^snz°°°° ¯³³¡|ousuZf]nyyyy~r}}}}Rgbv\f`o\b[iQe`lvvvvnxxxclirnnnnfgggNXN[UVKVeeee    ¬«¯¯¦¨Xsn_souNc\lQ\Qdkmjmyyyy}}}}]sp|o~uz{}rrqrllllkkfkmmmmllllpohp        lk||k}dd\kEYNf^tsw~~~myyyyWbZiiidipqpqqqqqccccNNFN@@1CHK?O`hfm<_WqR`Wlzzzzn~~~sssskkfkadYmkzv}\phxtsltjvryo}}}zzzztrktZjau~}z~C]SpK]Qj /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) NSNumber *inputBarOffset; // @synthesize inputBarOffset;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

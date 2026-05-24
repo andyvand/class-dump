@@ -7,9 +7,6 @@
 @interface Network.NWMulticastGroup
 {
     id groupAddresses;
-    id sourceFilter;
-    id isUnicastDisabled;
-    id _nw;
 }
 
 @end

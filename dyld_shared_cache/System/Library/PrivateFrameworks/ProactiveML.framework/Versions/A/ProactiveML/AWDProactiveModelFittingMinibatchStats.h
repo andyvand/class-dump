@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDProactiveModelFittingMinibatchStats
 {
     unsigned long long _batchSize;
-    NSMutableArray *_perLabelSupports;
-    float _support;
-    struct {
-        unsigned int batchSize:1;
-        unsigned int support:1;
-    } _has;
 }
 
 + (id);
@@ -34,26 +26,22 @@
 - (void);
 - (float);
 - (id);
-- (id);
+- (id)streamWriter;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)er>";
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) _Bool hasBatchSize;
 @property(nonatomic) _Bool hasSupport;
-@property(retain, nonatomic) NSMutableArray *perLabelSupports; // @synthesize perLabelSupports=_perLabelSupports;
-@property(nonatomic) float support; // @synthesize support=_support;
 
 @end
 

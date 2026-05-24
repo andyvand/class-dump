@@ -6,40 +6,33 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemAirdropDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowAirDrop;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ice TCC for %@. granted=%@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowAirDrop; // @synthesize payloadAllowAirDrop=_payloadAllowAirDrop;
-@property(readonly) Class superclass;
 
 @end
 

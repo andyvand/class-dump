@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INShortcut, NSDate, NSString, NSUserActivity;
+@class NSDate, NSString;
 
 @interface VCUserActivityDonation
 {
     NSString *_identifier;
-    NSString *_sourceAppIdentifier;
-    NSDate *_date;
-    INShortcut *_shortcut;
-    NSDate *_endDate;
 }
 
-+ (id);
++ (id)s;
+- (id);
+- (id).&{;
 - (id);
 - (id);
+- (id)l;
+- (id)z;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%{;
 - (id);
 - (unsigned long long);
 - (id);
@@ -37,26 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSString *fullDescription;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) INShortcut *shortcut; // @synthesize shortcut=_shortcut;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifier; // @synthesize sourceAppIdentifier=_sourceAppIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifierForDisplay;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifierForLaunching;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *suggestedPhrase;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) id uniqueProperty;
-@property(readonly, nonatomic) NSUserActivity *userActivity;
 
 @end
 

@@ -6,21 +6,11 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSDate, NSString, NSTimeZone;
+@class NSTimeZone;
 
 @interface NSDateCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
-    double _duration;
-    NSDate *_referenceDate;
-    id _underlyingResult;
-    _Bool _timeIsSignificant;
-    _Bool _timeIsApproximate;
-    _Bool _timeIsPast;
-    NSString *_leadingText;
-    NSString *_trailingText;
 }
 
 + (_Bool);
@@ -41,7 +31,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)i-Medium;
 - (double);
 - (_Bool);
 - (struct _NSRange);
@@ -51,13 +41,7 @@
 - (id).,: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double duration;
-@property(readonly) NSDate *referenceDate;
-@property(readonly) _Bool timeIsApproximate;
-@property(readonly) _Bool timeIsPast;
-@property(readonly) _Bool timeIsSignificant;
 @property(readonly) NSTimeZone *timeZone;
-@property(readonly) void *underlyingResult;
 
 @end
 

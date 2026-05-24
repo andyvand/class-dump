@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAccoladeValue, NSMapTable, NSString;
+@class GEOPDAccoladeValue, NSString;
 
 @interface GEOAccoladeItem
 {
     GEOPDAccoladeValue *_accoladeValue;
-    NSMapTable *_attributionMap;
 }
 
 + (id);
 - (_Bool);
-- (id);
-- (unsigned int);
+- (id)ult"16;
+- (unsigned int)reet, State, ZIP, City, Country;
 - (id);
 - (id);
 - (void)þ7;
 - (id)>;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accoladeText;
-@property(readonly, nonatomic) unsigned int iconId;
-@property(readonly, nonatomic) _Bool shouldDisplayAccoladeText;
 @property(readonly, nonatomic) NSString *vendorName;
 
 @end

@@ -11,10 +11,10 @@
     id _predicate;
 }
 
-+ (id);
++ (id)IA;
 - (void);
 - (void);
-- (id)RetryBackgroundDataTask:(CDUnknownBlockType)arg1;
+- (id)URLSession:(CDUnknownBlockType)arg1 _willRetryBackgroundDataTask: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,20 +7,18 @@
 @interface USORedactedNode
 {
     unique_ptr_455d35d0 mUsoGraph;
-    long long _index;
 }
 
 - (id);
 - (unique_ptr_455d35d0);
 - (void);
-- (id);
+- (id)log2n;
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;
-@property(nonatomic) unique_ptr_455d35d0 usoGraph;
 
 @end
 

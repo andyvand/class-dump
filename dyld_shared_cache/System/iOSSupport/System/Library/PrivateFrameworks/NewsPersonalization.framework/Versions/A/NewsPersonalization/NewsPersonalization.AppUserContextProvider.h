@@ -7,7 +7,6 @@
 @interface NewsPersonalization.AppUserContextProvider
 {
     id cloudContext;
-    id locationDetectionManager;
 }
 
 @end

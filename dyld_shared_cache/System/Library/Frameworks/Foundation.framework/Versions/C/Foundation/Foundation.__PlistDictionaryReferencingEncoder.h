@@ -9,7 +9,6 @@
 @interface Foundation.__PlistDictionaryReferencingEncoder : Foundation.__PlistDictionaryEncoder
 {
     id encoder;
-    id reference;
 }
 
 @end

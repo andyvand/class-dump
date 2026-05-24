@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneClientIdentity, FBSceneWorkspace, NSOrderedSet, NSString, UIApplicationSceneSpecification;
+@class FBSSceneClientIdentity;
 
 @interface _UISceneHostingControllerAdvancedConfiguration
 {
     FBSSceneClientIdentity *_clientIdentity;
-    UIApplicationSceneSpecification *_sceneSpecification;
-    NSOrderedSet *_additionalExtensions;
-    CDUnknownBlockType _initialSettingsUpdater;
-    CDUnknownBlockType _initialClientSettingsUpdater;
-    NSString *_sceneIdentifier;
-    FBSceneWorkspace *_sceneWorkspace;
 }
 
 - (void);
@@ -27,22 +21,16 @@
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id)Store: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Alignment"b3"wasLastHighlightSuccessful"b1"touchHasHighlighted"b1"enableSymbolAnimations"b1"hasPointerInteraction"b1"hasProxyPointerInteraction"b1"hasContextMenuInteraction"b1"highlightForMenuPresentation"b1"showsMenuFromSource"b1"currentlyDeferringFinalActions"b1"wasTouchInside"b1};
 - (void)nCount;
 - (id)swift;
-- (void)mationVector;
+- (void)UIBridgedAnimationVector;
 - (id)tÌæþy;
 
 // Remaining properties
-@property(retain, nonatomic) NSOrderedSet *additionalExtensions; // @synthesize additionalExtensions=_additionalExtensions;
 @property(readonly, nonatomic) FBSSceneClientIdentity *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(copy, nonatomic) CDUnknownBlockType initialClientSettingsUpdater; // @synthesize initialClientSettingsUpdater=_initialClientSettingsUpdater;
-@property(copy, nonatomic) CDUnknownBlockType initialSettingsUpdater; // @synthesize initialSettingsUpdater=_initialSettingsUpdater;
-@property(retain, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(retain, nonatomic) UIApplicationSceneSpecification *sceneSpecification; // @synthesize sceneSpecification=_sceneSpecification;
-@property(retain, nonatomic) FBSceneWorkspace *sceneWorkspace; // @synthesize sceneWorkspace=_sceneWorkspace;
 
 @end
 

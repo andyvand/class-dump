@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatAnimationNodeBasicAnimation
 {
     id keyPath;
-    id cumulative;
-    id additive;
-    id mediaTiming;
 }
 
 @end

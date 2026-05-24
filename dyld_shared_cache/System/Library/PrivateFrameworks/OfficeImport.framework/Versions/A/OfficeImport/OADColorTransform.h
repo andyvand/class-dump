@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
     int mType;
 }
 
-+ (id);
++ (id))!;
 + (id);
 + (id);
 + (id);
 + (float);
 + (float);
-- (id);
+- (id)I;
 - (unsigned long long);
 - (int);
 - (_Bool);

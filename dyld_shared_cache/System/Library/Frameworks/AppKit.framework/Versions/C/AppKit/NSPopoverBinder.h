@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)nown incoming stream type (0x%02x);
++ (id)_delegate_didStopBuffering;
 - (Class);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface CKDPRecordResolveTokenRequest
 {
     NSString *_participantId;
-    NSMutableArray *_rootRecordDesiredKeys;
-    NSString *_routingKey;
-    NSData *_shortTokenHash;
-    _Bool _forceFetch;
-    _Bool _shouldFetchRootRecord;
-    struct {
-        unsigned int forceFetch:1;
-        unsigned int shouldFetchRootRecord:1;
-    } _has;
 }
 
 + (Class);
@@ -32,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ing"16@?0@"<AVTAvatarAttributeEditorSection>"8;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,31 +36,22 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ceived sample with duration:%1.3f, set nextRemoteMediaTimestamp to duration of the sample:%1.6f (%lld/%d)
+ receivedTruncatedSbuf:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)1;
+- (id);
 - (id);
-- (id);
-- (void);
-- (Class)ord:error: /* Error: Ran out of types for this method. */;
+- (void)setEphemeralPubKey:(id)arg1;
+- (Class)handleQueryDidFetchForRecordID:record:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)PCS data was fetched from the database for record %@;
 
 // Remaining properties
-@property(nonatomic) _Bool forceFetch; // @synthesize forceFetch=_forceFetch;
-@property(nonatomic) _Bool hasForceFetch;
-@property(readonly, nonatomic) _Bool hasParticipantId;
 @property(readonly, nonatomic) _Bool hasRoutingKey;
-@property(readonly, nonatomic) _Bool hasShortTokenHash;
-@property(nonatomic) _Bool hasShouldFetchRootRecord;
-@property(retain, nonatomic) NSString *participantId; // @synthesize participantId=_participantId;
-@property(retain, nonatomic) NSMutableArray *rootRecordDesiredKeys; // @synthesize rootRecordDesiredKeys=_rootRecordDesiredKeys;
-@property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
 
 @end
 

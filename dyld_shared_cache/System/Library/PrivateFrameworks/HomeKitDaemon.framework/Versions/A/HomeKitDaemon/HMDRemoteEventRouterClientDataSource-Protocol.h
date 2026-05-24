@@ -4,7 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDRemoteEventRouterClient, NSSet;
+
 @protocol HMDRemoteEventRouterClientDataSource
+- (void);
+- (void)_currentStateSnapshot;
+- (_Bool)edDestinationsStatus error %@;
+- (_Bool)void*)0);
+- (NSSet *)NULL;
+- (void)uding now:(HMDRemoteEventRouterClient *)arg1 %@;
+- (void)AGE] Found file not excluded from backup, excluding now:(HMDRemoteEventRouterClient *)arg1 %@;
 - (_Bool)±ð1Â0@ù
 × ;
 @end

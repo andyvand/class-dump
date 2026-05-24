@@ -7,25 +7,6 @@
 @interface Speech.TranscriberCommon
 {
     id locale;
-    id taskHint;
-    id modelOptions;
-    id transcriptionOptions;
-    id reportingOptions;
-    id attributeOptions;
-    id _results;
-    id _multisegmentResults;
-    id _muxMultisegmentResults;
-    id lastRecognizedFinalMultisegmentResult;
-    id preferredModelTaskNames;
-    id modelTaskAssetType;
-    id singleUtterance;
-    id concatenateUtterances;
-    id redact;
-    id assetsTaskName;
-    id _workerWithLocked;
-    id resultsBuilder;
-    id multisegmentResultsBuilder;
-    id muxMultisegmentResultsBuilder;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface SoundAnalysis.SNAudioCorrelator
 {
     id graphStorage;
-    id referenceAudioFile;
-    id referenceSampleRate;
-    id channelCount;
-    id framesProcessed;
-    id overlapFactor;
 }
 
 @end

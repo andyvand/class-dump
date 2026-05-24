@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSUndoManager;
 
 @protocol AKControllerDelegateProtocol
+- (NSUndoManager *)q;
+
+@optional
+- (void);
+- (void)P;
+- (void)qa;
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *originalImageDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool supportsFormFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _Bool supportsImageDescriptionEditing;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

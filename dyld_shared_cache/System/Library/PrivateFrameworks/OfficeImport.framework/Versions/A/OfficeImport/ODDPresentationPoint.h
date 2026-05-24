@@ -6,13 +6,10 @@
 
 #import <OfficeImport/ODDPoint.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface ODDPresentationPoint : ODDPoint
 {
     ODDPresentationPoint *mParent;
-    NSMutableArray *mChildren;
 }
 
 - (void);

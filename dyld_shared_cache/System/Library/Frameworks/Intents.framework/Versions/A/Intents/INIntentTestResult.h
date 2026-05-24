@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentResponse, NSDictionary;
+@class INIntent;
 
 @interface INIntentTestResult
 {
     _Bool _resolvedAllParametersSuccesfully;
-    INIntent *_resolvedIntent;
-    NSDictionary *_resolvedParameters;
-    INIntentResponse *_confirmResponse;
-    INIntentResponse *_handleResponse;
 }
 
 - (id);
@@ -22,16 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)boolValue;
-- (void):withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsCollectionForSearchForFiles:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) INIntentResponse *confirmResponse; // @synthesize confirmResponse=_confirmResponse;
-@property(readonly) INIntentResponse *handleResponse; // @synthesize handleResponse=_handleResponse;
-@property(readonly) _Bool resolvedAllParametersSuccesfully; // @synthesize resolvedAllParametersSuccesfully=_resolvedAllParametersSuccesfully;
 @property(readonly) INIntent *resolvedIntent; // @synthesize resolvedIntent=_resolvedIntent;
-@property(readonly, copy) NSDictionary *resolvedParameters; // @synthesize resolvedParameters=_resolvedParameters;
 
 @end
 

@@ -4,41 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSString, NSURLSessionConfiguration, NWURLSessionDelegateWrapper;
-@protocol NSURLSessionDelegate, OS_dispatch_queue, OS_nw_array, OS_nw_authentication_credential_storage, OS_nw_context, OS_nw_http_connection_state_storage, OS_nw_http_cookie_storage, OS_sec_protocol_configuration;
+@class NSOperationQueue;
 
 @interface NWURLSession
 {
     unsigned char uuid[16];
-    struct os_unfair_lock_s lock;
-    _Bool _invalidated;
-    unsigned int _nextTaskIdentifier;
-    unsigned int _rootPort;
-    unsigned int _notifierObject;
-    NSObject<OS_nw_http_cookie_storage> *_HTTPCookieStorage;
-    NSObject<OS_nw_authentication_credential_storage> *_URLCredentialStorage;
-    NSObject<OS_nw_array> *_URLCredentialCache;
-    NSObject<OS_nw_http_connection_state_storage> *_connectionStateStorage;
-    NSObject<OS_nw_array> *_connectionProxyArray;
-    NSObject<OS_sec_protocol_configuration> *_atsConfig;
-    NSString *_sessionDescription;
-    NSURLSessionConfiguration *_internalConfiguration;
-    NSHashTable *_weakUnresumedTasks;
-    NSMutableSet *_runningTasks;
-    NSMutableDictionary *_trustExceptions;
-    struct IONotificationPort *_notifyPortRef;
-    id _retainedSelf;
-    NSObject<OS_dispatch_queue> *_queue;
-    NWURLSessionDelegateWrapper *_delegateWrapper;
-    NSObject<OS_nw_context> *_context;
 }
 
 + (id);
 + (void);
 + (void);
 + (id);
-+ (_Bool);
-+ (id)e_browse_result_locked_block_invoke_2;
++ (_Bool)terfaceItem:(Class)arg1 targetIdentifier:sender:]_block_invoke /* Error: Ran out of types for this method. */;
++ (id)nw_browser_app_svc_update_browse_result_locked_block_invoke_2;
 + (void)CefcCefeCefiCefoCefsCeft.ef;
 - (id);
 - (id);
@@ -53,51 +31,47 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)^@16@24;
+- (id)ItemOverlayOptions"48;
+- (id)respondsToAction:(id)arg1 fromTask:(id)arg2;
+- (id)responder:(id)arg1 isFieldEditorFor:(id)arg2;
+- (id)resignKeyWindow:(id)arg1;
+- (id)remoteViewReceivedLeftMouseDown:(id)arg1;
+- (id)remoteViewMarshal:(id)arg1 withErrorHandler:(id)arg2;
+- (id)remoteViewKeyTestWindowResignedKey;
+- (id)remoteViewKeyTestWindowBecameKey:(id)arg1;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)fileURLWithPathComponents:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)keyHeightScale;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
+- (void);
+- (id)vImageConvert_ARGB8888To420Yp8_Cb8_Cr8;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
 - (id)À;
 - (_Bool);
 - (void)þÿ",ÿÿ;
-- (id)parameters_get_minimum_tls_protocol_version;
+- (id)nw_parameters_get_minimum_tls_protocol_version;
 - (id)_;
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_nw_context> *_networkContext;
-@property(readonly, copy, nonatomic) NSURLSessionConfiguration *configuration;
-@property(readonly, nonatomic) id <NSURLSessionDelegate> delegate;
 @property(readonly, nonatomic) NSOperationQueue *delegateQueue;
-@property(copy) NSString *sessionDescription; // @synthesize sessionDescription=_sessionDescription;
 
 @end
 

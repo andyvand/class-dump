@@ -6,30 +6,15 @@
 
 #import <UIKitCore/UIWindow.h>
 
-@class CAContext, NSString, NSUUID, UIColor, UITraitCollection, _UIHostedWindowHostingHandle, _UIHostedWindowMacComponent;
-@protocol _UIHostedWindowDelegate;
-
 @interface _UIHostedWindow : UIWindow
 {
     _Bool _wantsTraitPropagation;
-    _Bool __hostViewUnderlapsStatusBar;
-    _Bool _hostIsInternal;
-    long long _hostTintAdjustmentMode;
-    UIColor *__hostTintColor;
-    UITraitCollection *_hostTraitCollection;
-    NSString *_hostSDKVersion;
-    _UIHostedWindowMacComponent *_macComponent;
-    NSUUID *_extensionIdentifier;
-    CDUnknownBlockType _frameChangeHandler;
-    id <_UIHostedWindowDelegate> __hostedWindowDelegate;
-    NSString *__hostBundleIdentifier;
-    CDStruct_4c969caf _hostAuditToken;
 }
 
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (_Bool);
+- (id)groupName;
+- (CDUnknownBlockType)deregisterThroughputTrackingFor:withEndTime:error: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDaemonCloudSyncProtocol;
 - (struct CGRect);
 - (_Bool);
 - (void);
@@ -38,48 +23,48 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)=?;
 - (_Bool);
+- (_Bool)cPreReqsVerifyingP;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)- ;
+- (void);
+- (_Bool);
+- (_Bool)******;
+- (id)Wrote message with GUID %@, error %@, recordName:%@ /* Error: Ran out of types for this method. */;
+- (id)at CKRecords;
+- (id)x number of attempts to creat CKRecords;
+- (long long)ze exceeds max limit.;
+- (id)ook %f seconds to process;
+- (void)%@;
+- (long long)to send BlastDoor metric, but disabled via server bag.;
+- (_Bool)ecord date has been modified, changing it from %@ to %@. Are we in exit state ? %@;
+- (_Bool)DaemonCoreLocalization;
+- (void)s not yet met;
+- (_Bool)lastScheduledMessageCreatedDate;
+- (id)^B24;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (CDStruct_6ad76789);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (CDStruct_4c969caf);
-- (void);
-- (void);
+- (void)D;
 - (id)0@ù
 × ;
 - (id)!ðDù±_ð1Â0@ù
 × ;
 - (unsigned int);
-- (id)ion;
-- (void)eViewDropItem;
+- (id)_delegatesAllowingTextItemMenuInteraction;
+- (void)UITableViewDropItem;
 - (id)ç;
 - (void)type %@ does not conform to _UISheetHostManagerProvider.;
-- (_Bool)tainerView;
+- (_Bool)_UITextSelectionRangeAdjustmentContainerView;
 - (long long)freshLandscape.png;
 - (void)ª13ä§nþ¥ª13¨ãnþ;
 - (void)=;
@@ -89,20 +74,7 @@
 - (long long)¸Ha;
 
 // Remaining properties
-@property(nonatomic, setter=_setHostAuditToken:) CDStruct_4c969caf _hostAuditToken; // @synthesize _hostAuditToken;
-@property(retain, nonatomic, setter=_setHostBundleIdentifier:) NSString *_hostBundleIdentifier; // @synthesize _hostBundleIdentifier=__hostBundleIdentifier;
-@property(readonly, nonatomic) _Bool _hostIsInternal; // @synthesize _hostIsInternal;
-@property(readonly, nonatomic) NSString *_hostSDKVersion; // @synthesize _hostSDKVersion;
 @property(nonatomic, setter=_setHostTintAdjustmentMode:) long long _hostTintAdjustmentMode; // @synthesize _hostTintAdjustmentMode;
-@property(retain, nonatomic, setter=_setHostTintColor:) UIColor *_hostTintColor; // @synthesize _hostTintColor=__hostTintColor;
-@property(retain, nonatomic, setter=_setHostTraitCollection:) UITraitCollection *_hostTraitCollection; // @synthesize _hostTraitCollection;
-@property(nonatomic) __weak id <_UIHostedWindowDelegate> _hostedWindowDelegate; // @synthesize _hostedWindowDelegate=__hostedWindowDelegate;
-@property(readonly, nonatomic) _UIHostedWindowMacComponent *_macComponent; // @synthesize _macComponent;
-@property(nonatomic, setter=_setWantsTraitPropagation:) _Bool _wantsTraitPropagation; // @synthesize _wantsTraitPropagation;
-@property(retain, nonatomic) NSUUID *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType frameChangeHandler; // @synthesize frameChangeHandler=_frameChangeHandler;
-@property(readonly, nonatomic) _UIHostedWindowHostingHandle *hostingHandle;
-@property(readonly, nonatomic) __weak CAContext *layerContext;
 
 @end
 

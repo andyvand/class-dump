@@ -7,28 +7,6 @@
 @interface NewsUI2.TodayFeedGroupKnobs
 {
     id newspaperKnobs;
-    id localNewsKnobs;
-    id trendingKnobs;
-    id forYouKnobs;
-    id missedStoriesKnobs;
-    id latestStoriesKnobs;
-    id topicKnobs;
-    id channelKnobs;
-    id magazineKnobs;
-    id newFollowKnobs;
-    id subscriptionKnobs;
-    id suggestionKnobs;
-    id spotlightKnobs;
-    id seenContentMarkKnobs;
-    id curatedKnobs;
-    id sharedWithYouKnobs;
-    id engagementKnobs;
-    id mySportsKnobs;
-    id introToSportsKnobs;
-    id shortcutsKnobs;
-    id savedStoriesKnobs;
-    id channelPickerKnobs;
-    id foodKnobs;
 }
 
 @end

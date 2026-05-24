@@ -10,22 +10,16 @@ __attribute__((visibility("hidden")))
 @interface OCDSummary
 {
     NSString *mTitle;
-    NSString *mAuthor;
-    NSString *mKeywords;
-    NSString *mComments;
-    NSString *mHyperlinkBase;
-    NSString *_subject;
-    NSString *_company;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)age_$_funcSFPWAPasswordEvaluator;
 - (id);
 - (void)$1Â0@ù
 × ;
@@ -37,7 +31,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSString *company; // @synthesize company=_company;
 @property(retain) NSString *subject; // @synthesize subject=_subject;
 
 @end

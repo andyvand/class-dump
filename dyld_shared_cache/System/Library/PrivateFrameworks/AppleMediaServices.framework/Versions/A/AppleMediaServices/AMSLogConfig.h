@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface AMSLogConfig
 {
     NSString *_category;
-    NSObject<OS_os_log> *_OSLogObject;
-    NSString *_subsystem;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)_isHandleIDEligibleToReceiveAutomaticInvitation:(id)arg1 isContact: /* Error: Ran out of types for this method. */;
+- (id)RemoteIntentSetupXPCObjectRequest;
 - (unsigned long long);
+- (id)heySiri:(struct _NSZone *)arg1 failedToStartAdvertisingWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)callProviderIdentifier;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)setPendingDestination:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -30,10 +27,7 @@
 - (void)i_ß¯Nmv?ò#ñysòU]hÆ´úED<cfzß×6_BZxs¡,õ³ÎB¡ÕË§S¬/¥O²{'Ú!²ºQ÷c'gÄ³á;
 
 // Remaining properties
-@property(retain) NSObject<OS_os_log> *OSLogObject; // @synthesize OSLogObject=_OSLogObject;
 @property(copy) NSString *category; // @synthesize category=_category;
-@property(readonly) _Bool debugLogsEnabled;
-@property(copy) NSString *subsystem; // @synthesize subsystem=_subsystem;
 
 @end
 

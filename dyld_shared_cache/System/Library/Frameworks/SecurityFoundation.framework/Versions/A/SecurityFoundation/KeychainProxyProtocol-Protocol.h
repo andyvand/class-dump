@@ -5,5 +5,8 @@
 //
 
 @protocol KeychainProxyProtocol
+- (void) ;
+- (void);
+- (void) ;
 @end
 

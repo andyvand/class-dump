@@ -9,7 +9,6 @@
 @interface HMBMirrorOutputGroup
 {
     HMBProcessingOptions *_options;
-    unsigned long long _blockRow;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long blockRow; // @synthesize blockRow=_blockRow;
-@property(readonly, nonatomic) HMBProcessingOptions *options; // @synthesize options=_options;
 
 @end
 

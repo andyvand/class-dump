@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 @interface TUConversationReport
 {
     NSDate *_timebase;
-    NSUUID *_conversationID;
-    NSUUID *_paddingForHashedValue;
 }
 
 + (_Bool);
@@ -19,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,11 +25,9 @@
 - (void);
 - (id);
 - (id);
-- (void)SceneID: /* Error: Ran out of types for this method. */;
+- (void)setSceneID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, nonatomic) NSUUID *paddingForHashedValue; // @synthesize paddingForHashedValue=_paddingForHashedValue;
 @property(readonly, nonatomic) NSDate *timebase; // @synthesize timebase=_timebase;
 
 @end

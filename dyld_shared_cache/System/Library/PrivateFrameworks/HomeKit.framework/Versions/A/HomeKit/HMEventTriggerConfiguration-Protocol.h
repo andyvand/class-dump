@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
-
 @protocol HMEventTriggerConfiguration
+- (void);
+- (void)d;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *endEvents;
-@property(readonly, copy, nonatomic) NSArray *events;
 @property(readonly, nonatomic) _Bool executeOnce;
-@property(readonly, copy, nonatomic) NSPredicate *predicate;
-@property(readonly, copy, nonatomic) NSArray *recurrences;
 @end
 

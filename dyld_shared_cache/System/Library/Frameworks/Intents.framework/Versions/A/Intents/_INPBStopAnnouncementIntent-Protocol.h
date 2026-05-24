@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBStopAnnouncementIntent
-- (_Bool)playName:contactIdentifier: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)T@"TMMessageSerializer",R,V_serializer;
+- (_Bool)initWithHandle:displayName:contactIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

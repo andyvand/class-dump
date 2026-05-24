@@ -6,45 +6,14 @@
 
 #import <MessageUI/MFComposeHeaderView.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, NSTimer, NSUndoManager, UIButton, UIColor, UIFont, UITextView, UIView, _MFAtomTextAttachment, _MFAtomTextView;
-@protocol MFComposeRecipientTextViewDelegate;
+@class _MFAtomTextAttachment, _MFAtomTextView;
 
 @interface MFComposeRecipientTextView : MFComposeHeaderView
 {
     _MFAtomTextView *_textView;
-    UITextView *_inactiveTextView;
-    UIColor *_inactiveTextColor;
-    NSMutableArray *_atomViews;
-    NSMutableDictionary *_atomPresentationOptionsByRecipient;
-    NSMutableDictionary *_atomLayoutOptionsByRecipient;
-    struct CGRect _currentTextRect;
-    long long _atomViewAnimationDepth;
-    _Bool _parentIsClosing;
-    _Bool _textViewExclusionPathsAreValid;
-    _Bool _isTextFieldCollapsed;
-    _Bool _collapsedStateInitialized;
-    _Bool _indicatesUnsafeRecipientsWhenCollapsed;
-    _Bool _notifyDelegateOfSizeChange;
-    NSTimer *_collapsableUpdateTimer;
-    NSArray *_properties;
-    NSMutableArray *_recipientsBeingRemoved;
-    NSUndoManager *_undoManager;
-    struct CGRect _addButtonFrame;
-    _Bool _editable;
-    _Bool _separatorHidden;
-    _Bool _expanded;
-    _Bool _didIgnoreFirstResponderResign;
-    _Bool _showsAddButtonWhenExpanded;
-    UIFont *_baseFont;
-    long long _maxRecipients;
-    UIButton *_addButton;
-    UIColor *_typingTextColor;
-    long long _hideLastAtomComma;
-    _MFAtomTextAttachment *_placeholderAttachment;
-    UIView *_atomContainerView;
 }
 
-+ (id);
++ (id)postNotificationName:object: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (_Bool);
@@ -54,25 +23,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)L@�(;
 - (double);
 - (unsigned long long);
 - (long long);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (void);
@@ -92,7 +61,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -104,13 +73,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct _NSRange);
-- (id);
+- (id);
 - (struct _NSRange);
 - (void);
 - (void);
@@ -140,7 +109,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_ObjCBasicTapBackWrapper;
 - (void);
 - (void);
 - (_Bool);
@@ -157,12 +126,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_refinableStrokes;
+- (void)plyLayersColorAttachmentIndexOffset;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)IMDFamilyInviteNotificationContext;
 - (void);
 - (id);
 - (void);
@@ -177,35 +146,7 @@
 - (_Bool)lVþÿ`Ñã>;
 
 // Remaining properties
-@property(readonly, nonatomic) UIButton *addButton; // @synthesize addButton=_addButton;
-@property(copy, nonatomic) NSArray *addresses;
-@property(readonly, nonatomic) UIView *atomContainerView; // @synthesize atomContainerView=_atomContainerView;
-@property(retain, nonatomic) UIFont *baseFont; // @synthesize baseFont=_baseFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFComposeRecipientTextViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didIgnoreFirstResponderResign; // @synthesize didIgnoreFirstResponderResign=_didIgnoreFirstResponderResign;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long hideLastAtomComma; // @synthesize hideLastAtomComma=_hideLastAtomComma;
-@property(retain, nonatomic) UIColor *inactiveTextColor;
-@property(nonatomic) _Bool indicatesUnsafeRecipientsWhenCollapsed; // @synthesize indicatesUnsafeRecipientsWhenCollapsed=_indicatesUnsafeRecipientsWhenCollapsed;
-@property(nonatomic) long long maxRecipients; // @synthesize maxRecipients=_maxRecipients;
-@property(readonly, nonatomic) unsigned long long numberOfRowsOfTextInField;
-@property(readonly, nonatomic) double offsetForRowWithTextField;
 @property(retain, nonatomic) _MFAtomTextAttachment *placeholderAttachment; // @synthesize placeholderAttachment=_placeholderAttachment;
-@property(copy, nonatomic) NSArray *recipients;
-@property(nonatomic, getter=isSeparatorHidden) _Bool separatorHidden; // @synthesize separatorHidden=_separatorHidden;
-@property(nonatomic) _Bool showsAddButtonWhenExpanded; // @synthesize showsAddButtonWhenExpanded=_showsAddButtonWhenExpanded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) UITextView *textView;
-@property(retain, nonatomic) UIColor *typingTextColor; // @synthesize typingTextColor=_typingTextColor;
-@property(readonly, copy, nonatomic) NSArray *uncommentedAddresses;
 
 @end
 

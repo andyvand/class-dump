@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSReauthorizationProtocol, NSError;
+
 @protocol MSReauthorizationProtocolDelegate
+- (void)ain:(MSReauthorizationProtocol *)arg1 %@;
+- (void)publish:(MSReauthorizationProtocol *)arg1 %@ for domain:(NSError *)arg2 %@;
 @end
 

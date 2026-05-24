@@ -6,21 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLGSchemaNLGDialogCandidateStatistics, NLGSchemaNLGDialogScorer, NLGSchemaNLGScoredDialog, NSData;
+@class NLGSchemaNLGDialogScorer;
 
 @interface NLGSchemaNLGScoredDialogSelected : SISchemaInstrumentationMessage
 {
     NLGSchemaNLGDialogScorer *_dialogScorer;
-    NLGSchemaNLGDialogCandidateStatistics *_dialogCandidateStatistics;
-    NLGSchemaNLGScoredDialog *_selectedScoredDialog;
-    _Bool _hasDialogScorer;
-    _Bool _hasDialogCandidateStatistics;
-    _Bool _hasSelectedScoredDialog;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)certificateRevocationList;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -43,17 +38,11 @@
 - (id)1Â0@ù
 × ;
 - (id)asNlRouterPromptGenerationSignalsCaptured;
-- (id)edToken;
+- (id)recognizedToken;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLGSchemaNLGDialogCandidateStatistics *dialogCandidateStatistics; // @synthesize dialogCandidateStatistics=_dialogCandidateStatistics;
 @property(retain, nonatomic) NLGSchemaNLGDialogScorer *dialogScorer; // @synthesize dialogScorer=_dialogScorer;
-@property(nonatomic) _Bool hasDialogCandidateStatistics; // @synthesize hasDialogCandidateStatistics=_hasDialogCandidateStatistics;
-@property(nonatomic) _Bool hasDialogScorer; // @synthesize hasDialogScorer=_hasDialogScorer;
-@property(nonatomic) _Bool hasSelectedScoredDialog; // @synthesize hasSelectedScoredDialog=_hasSelectedScoredDialog;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLGSchemaNLGScoredDialog *selectedScoredDialog; // @synthesize selectedScoredDialog=_selectedScoredDialog;
 
 @end
 

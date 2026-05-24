@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, CKServerChangeToken, ICAccount, NSData, NSString;
+@class CKRecordZoneID, NSString;
 
 @interface ICServerChangeToken
 {
     CKRecordZoneID *_zoneID;
-    CKServerChangeToken *_ckServerChangeToken;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)U;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void)leteRecordZoneWithID:(long long)arg1 accountID: /* Error: Ran out of types for this method. */;
+- (void)cloudContext:(long long)arg1 userDidDeleteRecordZoneWithID:accountID: /* Error: Ran out of types for this method. */;
 - (void)$;
 
 // Remaining properties
-@property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(retain, nonatomic) CKServerChangeToken *ckServerChangeToken; // @synthesize ckServerChangeToken=_ckServerChangeToken;
-@property(retain, nonatomic) NSData *ckServerChangeTokenData; // @dynamic ckServerChangeTokenData;
-@property(nonatomic) long long databaseScope; // @dynamic databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *ownerName; // @dynamic ownerName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 @property(retain, nonatomic) NSString *zoneName; // @dynamic zoneName;
 
 @end

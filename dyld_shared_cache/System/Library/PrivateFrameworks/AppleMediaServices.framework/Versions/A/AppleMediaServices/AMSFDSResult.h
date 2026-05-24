@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSFDSResult
 {
     unsigned long long _action;
-    NSString *_sessionIdentifier;
-    NSString *_value;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Ԯ8;
 - (id);
 - (id);
 - (unsigned long long)	
@@ -38,8 +34,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long action; // @synthesize action=_action;
-@property(copy) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, copy) NSString *value; // @synthesize value=_value;
 
 @end
 

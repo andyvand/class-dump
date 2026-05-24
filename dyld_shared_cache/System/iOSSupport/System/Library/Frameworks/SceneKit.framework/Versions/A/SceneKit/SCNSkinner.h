@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SCNGeometry, SCNGeometrySource, SCNNode;
+@class SCNNode;
 
 @interface SCNSkinner
 {
     struct __C3DSkinner *_skinner;
-    SCNGeometry *_baseGeometry;
-    _Bool _bonesAndIndicesCompression;
-    SCNNode *_skeleton;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) SCNGeometry *baseGeometry;
-@property(nonatomic) struct SCNMatrix4 baseGeometryBindTransform;
-@property(readonly, nonatomic) SCNGeometrySource *boneIndices;
-@property(readonly, nonatomic) NSArray *boneInverseBindTransforms;
-@property(readonly, nonatomic) SCNGeometrySource *boneWeights;
-@property(readonly, nonatomic) NSArray *bones;
 @property(nonatomic) __weak SCNNode *skeleton;
 @end
 

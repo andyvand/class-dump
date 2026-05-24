@@ -8,17 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCEmulatedPacket
 {
     unsigned int _packetID;
-    unsigned int _size;
-    unsigned int _sequenceNumber;
-    double _arrivalTime;
-    double _networkServiceTime;
-    double _departureTime;
-    _Bool _isLost;
-    _Bool _isDroppedByAQM;
-    char *_datagramPtr;
-    unsigned char _datagram[1500];
-    struct tagIDSDatagramStruct _metadata;
-    long long _type;
 }
 
 - (void);
@@ -27,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (char *);
@@ -35,28 +24,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (long long);
-- (void);
-- (unsigned int);
+- (void)rveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}76;
+- (unsigned int)setRecordIdentifier: /* Error: Ran out of types for this method. */;
 - (struct tagIDSDatagramStruct);
 - (_Bool);
-- (void);
+- (void)SRFLockStateNotifier;
 - (void)generate the negotation data entry;
 
 // Remaining properties
-@property(nonatomic) double arrivalTime; // @synthesize arrivalTime=_arrivalTime;
-@property(nonatomic) char *datagram; // @synthesize datagram=_datagramPtr;
-@property(nonatomic) double departureTime; // @synthesize departureTime=_departureTime;
-@property(nonatomic) _Bool isDroppedByAQM; // @synthesize isDroppedByAQM=_isDroppedByAQM;
-@property(nonatomic) _Bool isLost; // @synthesize isLost=_isLost;
-@property struct tagIDSDatagramStruct metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) double networkServiceTime; // @synthesize networkServiceTime=_networkServiceTime;
 @property(readonly, nonatomic) unsigned int packetID; // @synthesize packetID=_packetID;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned int size; // @synthesize size=_size;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

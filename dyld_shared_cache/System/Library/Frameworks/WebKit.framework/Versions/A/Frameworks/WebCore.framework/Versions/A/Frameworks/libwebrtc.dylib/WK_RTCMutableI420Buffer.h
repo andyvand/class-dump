@@ -6,38 +6,17 @@
 
 #import <webrtc/WK_RTCI420Buffer.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WK_RTCMutableI420Buffer : WK_RTCI420Buffer
 {
 }
 
+- (char *)Analysis;
 - (char *);
-- (char *);
-- (char *);
+- (char *)caught in the client code;
 
 // Remaining properties
-@property(readonly, nonatomic) int chromaHeight;
 @property(readonly, nonatomic) int chromaWidth;
-@property(readonly, nonatomic) const char *dataU;
-@property(readonly, nonatomic) const char *dataV;
-@property(readonly, nonatomic) const char *dataY;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int height;
-@property(readonly, nonatomic) char *mutableDataU;
-@property(readonly, nonatomic) char *mutableDataV;
-@property(readonly, nonatomic) char *mutableDataY;
-@property(readonly, nonatomic) int strideU;
-@property(readonly, nonatomic) int strideV;
-@property(readonly, nonatomic) int strideY;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int width;
 
 @end
 

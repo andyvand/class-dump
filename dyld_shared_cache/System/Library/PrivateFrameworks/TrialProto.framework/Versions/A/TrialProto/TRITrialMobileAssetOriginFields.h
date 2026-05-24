@@ -7,9 +7,6 @@
 @interface TRITrialMobileAssetOriginFields
 {
     _Bool _isMobileAsset;
-    struct {
-        unsigned int isMobileAsset:1;
-    } _has;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h result:(id)arg1 %@, info:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsMobileAsset;
-@property(nonatomic) _Bool isMobileAsset; // @synthesize isMobileAsset=_isMobileAsset;
 
 @end
 

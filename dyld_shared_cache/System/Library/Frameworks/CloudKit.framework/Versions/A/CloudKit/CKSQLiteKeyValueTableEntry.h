@@ -6,17 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface CKSQLiteKeyValueTableEntry : CKSQLiteTableEntry
 {
     NSNumber *_rowid;
-    NSString *_key;
-    NSNumber *_number;
-    NSString *_string;
-    NSData *_data;
-    NSDate *_date;
-    NSUUID *_UUID;
 }
 
 + (Class);
@@ -33,17 +27,11 @@
 - (void);
 - (void);
 - (void);
-- (void)RecordChangeTag:(id)arg1;
+- (void)setRecordChangeTag:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSNumber *number; // @synthesize number=_number;
 @property(retain, nonatomic) NSNumber *rowid; // @synthesize rowid=_rowid;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

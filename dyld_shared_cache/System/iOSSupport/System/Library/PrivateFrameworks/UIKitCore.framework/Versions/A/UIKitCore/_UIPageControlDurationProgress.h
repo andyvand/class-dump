@@ -21,16 +21,14 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
-- (_Bool);
+- (id)y";
+- (_Bool)SyncStateManaging;
 - (void);
 - (void)cceptedTextCompletion;
 - (void)×^;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIPageControlDurationProgressDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) double pageDuration;
-@property(nonatomic) _Bool resetsToInitialPageAtEnd;
 
 @end
 

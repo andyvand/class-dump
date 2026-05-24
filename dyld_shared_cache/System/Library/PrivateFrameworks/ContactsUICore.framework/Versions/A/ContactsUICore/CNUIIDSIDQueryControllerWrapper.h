@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)Provider: /* Error: Ran out of types for this method. */;
+- (void)validateHandlesForFaceTime:schedulerProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) IDSIDQueryController *controller; // @synthesize controller=_controller;

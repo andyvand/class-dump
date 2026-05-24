@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIVibrantColorMatrixConfiguration
 {
     _Bool _preservesHue;
-    double _maxColorComponent;
-    struct CAColorMatrix _colorMatrix;
 }
 
 + (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CAColorMatrix colorMatrix; // @synthesize colorMatrix=_colorMatrix;
-@property(nonatomic) double maxColorComponent; // @synthesize maxColorComponent=_maxColorComponent;
-@property(nonatomic) _Bool preservesHue; // @synthesize preservesHue=_preservesHue;
 
 @end
 

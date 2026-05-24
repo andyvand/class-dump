@@ -4,75 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEVInfo, GEOLPRInfo, GEOVehicleInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVehicleSpecifications
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOEVInfo *_evInfo;
-    GEOLPRInfo *_lprInfo;
-    GEOVehicleInfo *_vehicleInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _lprPlateMissingReason;
-    struct {
-        unsigned int has_lprPlateMissingReason:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_evInfo:1;
-        unsigned int read_lprInfo:1;
-        unsigned int read_vehicleInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)es:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setObservationImageIndices:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (_Bool);
+- (_Bool)__DATA_DIRTY;
+- (_Bool)__data;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (int);
-- (void);
+- (id)r assignment. Assigning the contact to %@. Please remember to assign contacts to containers to avoid recurring container lookup and contact re-validation costs.;
+- (int)preferredApplePersonaIdentifier;
+- (void)ABCDAlertTone;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)setIsAlarmPlayingOnAccessory:(id)arg1 isAlarmPlaying: /* Error: Ran out of types for this method. */;
+- (id)SSVCADeviceSimpleMicSensitivityOffset;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool).;
 - (id);
 - (void);
 - (id)0@ù
 × ;
 - (id)ludeDistance:additionalTransportTypesRequested: /* Error: Ran out of types for this method. */;
-- (id)rtsDodgeballCameraInput;
+- (id)hasSupportsDodgeballCameraInput;
 - (id)NearTurnAroundManeuver;
-- (void)RepeatedFieldWrapperIbEE;
+- (void)N6google8protobuf8internal20RepeatedFieldWrapperIbEE;
 
 // Remaining properties
-@property(retain, nonatomic) GEOEVInfo *evInfo;
-@property(readonly, nonatomic) _Bool hasEvInfo;
 @property(readonly, nonatomic) _Bool hasLprInfo;
-@property(nonatomic) _Bool hasLprPlateMissingReason;
-@property(readonly, nonatomic) _Bool hasVehicleInfo;
-@property(retain, nonatomic) GEOLPRInfo *lprInfo;
-@property(nonatomic) int lprPlateMissingReason;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOVehicleInfo *vehicleInfo;
 
 @end
 

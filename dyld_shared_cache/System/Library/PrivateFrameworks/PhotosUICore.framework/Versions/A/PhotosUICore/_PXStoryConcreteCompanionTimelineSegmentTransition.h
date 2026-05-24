@@ -10,13 +10,11 @@
 }
 
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)localRecipeManager;
 - (CDStruct_cac3ced6);
 - (long long)«;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, nonatomic) long long kind;
 @property(readonly, nonatomic) CDStruct_cac3ced6 transitionInfo; // @synthesize transitionInfo=_transitionInfo;
 
 @end

@@ -4,34 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, NSSet, NSString, RBSProcessHandle;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface RBSProcessState
 {
     NSObject<OS_xpc_object> *_codedState;
-    unsigned long long _codedValues;
-    NSMutableDictionary *_codedStateCache;
-    struct os_unfair_lock_s _lock;
-    unsigned char _taskState;
-    unsigned char _debugState;
-    unsigned char _terminationResistance;
-    unsigned char _cpuRole;
-    _Bool _preventedFromLaunching;
-    unsigned short _appNapState;
-    RBSProcessHandle *_process;
-    NSSet *_endowmentNamespaces;
-    NSSet *_tags;
-    NSSet *_legacyAssertions;
-    NSSet *_primitiveAssertions;
-    NSDate *_lastStateChangeTimestamp;
-    NSSet *_endowmentInfos;
-    NSSet *_prefetchPageScenarios;
 }
 
 + (_Bool);
 + (void);
-+ (id);
++ (id)C~;
 + (id);
 + (id);
 + (id);
@@ -40,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (void);
 - (id);
@@ -50,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned char);
 - (unsigned long long);
 - (void);
@@ -58,7 +41,7 @@
 - (unsigned char);
 - (unsigned short);
 - (_Bool);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,7 +54,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)b;
 - (_Bool);
 - (_Bool);
 - (unsigned char);
@@ -82,36 +65,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned short appNapState; // @synthesize appNapState=_appNapState;
-@property(readonly, copy, nonatomic) NSSet *assertions;
-@property(readonly, copy, nonatomic) NSObject<OS_xpc_object> *codedState; // @synthesize codedState=_codedState;
-@property(nonatomic) unsigned char cpuRole; // @synthesize cpuRole=_cpuRole;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned char debugState; // @synthesize debugState=_debugState;
-@property(readonly, nonatomic, getter=isDebugging) _Bool debugging;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmptyState) _Bool emptyState;
-@property(copy, nonatomic) NSSet *endowmentInfos; // @synthesize endowmentInfos=_endowmentInfos;
-@property(copy, nonatomic) NSSet *endowmentNamespaces; // @synthesize endowmentNamespaces=_endowmentNamespaces;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastStateChangeTimestamp; // @synthesize lastStateChangeTimestamp=_lastStateChangeTimestamp;
-@property(copy, nonatomic) NSSet *legacyAssertions; // @synthesize legacyAssertions=_legacyAssertions;
-@property(copy, nonatomic) NSSet *prefetchPageScenarios; // @synthesize prefetchPageScenarios=_prefetchPageScenarios;
-@property(readonly, nonatomic, getter=isPreventedFromLaunching) _Bool preventedFromLaunching; // @synthesize preventedFromLaunching=_preventedFromLaunching;
-@property(copy, nonatomic) NSSet *primitiveAssertions; // @synthesize primitiveAssertions=_primitiveAssertions;
-@property(readonly, nonatomic) RBSProcessHandle *process; // @synthesize process=_process;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *tags; // @synthesize tags=_tags;
 @property(nonatomic) unsigned char taskState; // @synthesize taskState=_taskState;
-@property(nonatomic) unsigned char terminationResistance; // @synthesize terminationResistance=_terminationResistance;
 
 @end
 

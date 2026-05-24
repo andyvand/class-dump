@@ -6,16 +6,11 @@
 
 #import <Slideshows/MRLayer.h>
 
-@class MCContainerParallelizer, NSArray, NSMutableArray, NSMutableDictionary;
+@class MCContainerParallelizer, NSArray;
 
 @interface MRLayerParallelizer : MRLayer
 {
     MCContainerParallelizer *mContainer;
-    NSMutableArray *mSublayers;
-    NSMutableDictionary *mSublayersForPlugs;
-    float mBackgroundColor[4];
-    _Bool mNeedsToUpdateSublayersOrdering;
-    _Bool mNeedsToUpdateBackgroundColor;
 }
 
 - (id);
@@ -24,26 +19,26 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (double);
-- (double);
+- (_Bool)distantPast;
+- (void)pe:completion: /* Error: Ran out of types for this method. */;
+- (double)cacheCoordinatorPreemptiveFlushSize:(id)arg1;
+- (double)cacheCoordinatorCurrentSizeWithReadLock:(id)arg1;
+- (id)assemblePayloadsWithEntries:(double)arg1 lastUploadDatesByContentType:(id)arg2 droppedEnvelopeReasonsToUpload:(id)arg3 envelopeSizeByEntry:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)genderConfidenceLevel;
+- (_Bool)isUserIDTemporary;
+- (double)newsEdgeWidgetConfigAndTodayConfigLite;
+- (double)newsEdgeWidgetConfig;
 - (id);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)parServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
+- (_Bool)y.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)entationsOfEntries(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
+- (void)for '%s';
+- (id)alyticsEnvelopeManager _handleDroppedEnvelopesForLocalReasons:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)32@?0@"NSNumber"8@"NSArray"16^B24;
+- (void)ContentEnvironmentData;
 - (void);
 - (void);
 - (void);
@@ -77,10 +72,9 @@
 - (id);
 - (id);
 - (const float *);
-- (void)Vertical;
+- (void)TransitionCrossWipeVertical;
 
 // Remaining properties
-@property const float *backgroundColor;
 @property(readonly) NSArray *sublayers; // @synthesize sublayers=mSublayers;
 
 @end

@@ -9,36 +9,30 @@
 @interface LPMessagesPayload
 {
     _Bool _placeholder;
-    _Bool _needsSubresourceFetch;
-    _Bool _needsCompleteFetch;
-    LPLinkMetadata *_metadata;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)splitViewControllerInteractivePresentationGestureWillBegin:(id)arg1;
++ (id)shouldPresentAsTapbackKeyboardInput;
++ (id)_wantsUnanimatedPresentation;
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)tintColorForRecipient:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)timingFunction;
+- (void)textFieldDidBeginEditing:(id)arg1;
+- (_Bool)textEffectsCoordinator;
+- (_Bool)textEffectCoordinatorPaused;
+- (_Bool)successfullyGeneratedPreviewForTransfer:withPreviewSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)á÷!8GùQð1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool needsCompleteFetch; // @synthesize needsCompleteFetch=_needsCompleteFetch;
-@property(nonatomic) _Bool needsSubresourceFetch; // @synthesize needsSubresourceFetch=_needsSubresourceFetch;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 
 @end
 

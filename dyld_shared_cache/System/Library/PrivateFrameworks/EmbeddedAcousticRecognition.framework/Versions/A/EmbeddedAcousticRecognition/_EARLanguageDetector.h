@@ -7,7 +7,6 @@
 @interface _EARLanguageDetector
 {
     struct unique_ptr<quasar::LanguageDetector, std::default_delete<quasar::LanguageDetector>> languageDetector;
-    unsigned int _featureQueuePriority;
 }
 
 + (shared_ptr_9fadee34);
@@ -15,7 +14,7 @@
 + (id);
 + (void)h;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned int);

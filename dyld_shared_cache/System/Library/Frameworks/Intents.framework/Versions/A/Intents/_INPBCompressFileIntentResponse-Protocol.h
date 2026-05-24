@@ -7,14 +7,13 @@
 @class _INPBString;
 
 @protocol _INPBCompressFileIntentResponse
-- (_Bool)etDescriptiveText: /* Error: Ran out of types for this method. */;
-- (void)STINATION;
+- (_Bool);
+- (void);
+- (_Bool)setDescriptiveText: /* Error: Ran out of types for this method. */;
+- (void)REDIAL_DESTINATION;
 - (_INPBString *)east 1 resolution result returned for the .%{public}@ property of %{public}@, since there was at least 1 input value.;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success;
 @end
 

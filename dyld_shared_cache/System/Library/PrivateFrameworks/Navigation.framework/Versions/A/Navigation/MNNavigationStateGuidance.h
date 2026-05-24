@@ -6,20 +6,19 @@
 
 #import <Navigation/MNNavigationState.h>
 
-@class MNNavigationSessionManager, MNStartNavigationDetails;
+@class MNNavigationSessionManager;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationStateGuidance : MNNavigationState
 {
     MNNavigationSessionManager *_navigationSessionManager;
-    MNStartNavigationDetails *_startDetails;
 }
 
-+ (id);
++ (id)_TexturedPullDownMenuButtonStyle;
 - (id);
-- (id);
+- (id)LayoutPlatformItemListFlags;
 - (_Bool);
-- (_Bool);
+- (_Bool)ButtonContainerIsBorderedInput;
 - (void);
 - (void);
 - (id);
@@ -37,14 +36,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)x;
+- (void);
+- (void)filter data, connectionID %u
+;
+- (void)%d;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)write:(unsigned long long)arg1 maxLength: /* Error: Ran out of types for this method. */;
+- (void)ertSerial:(id)arg1 %lu bytes 
+;
 - (void);
 - (void);
 - (void)0@ù
@@ -60,14 +61,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)q1Â0@ù
 × ;
-- (void)nt:(_Bool)arg1;
-- (void)aypoint:(_Bool)arg1 endOfLegIndex:reason: /* Error: Ran out of types for this method. */;
-- (void)urrentLogType;
+- (void)setMaxRouteCount:(_Bool)arg1;
+- (void)navigationSessionManager:(_Bool)arg1 didResumeNavigatingFromWaypoint:endOfLegIndex:reason: /* Error: Ran out of types for this method. */;
+- (void)_currentLogType;
 - (void)ÿÿ;
 - (void)last failed request is %{private}0.1f meters.;
 - (void)modified date is too old:%@ /* Error: Ran out of types for this method. */;
 - (void)- actual status might be different.;
-- (void)Coordinate;
+- (void)_locationCoordinate;
 - (void)NTiCYB0uPioBY9TDbg0/Library/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Misc/MNNotificationManager.m;
 - (void);
 

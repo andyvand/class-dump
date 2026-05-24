@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CAReportingClient
 {
     NSXPCConnection *_connection;
-    NSMutableDictionary *_clientReporters;
 }
 
 + (id);
-+ (void);
++ (void)ocessName;
 + (id);
-- (void);
+- (void),N,V_accountStore;
 - (unsigned short);
-- (id);
+- (id)ation requires a restoration identifier.;
+- (void)RE;
 - (void);
-- (void);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
@@ -29,21 +28,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
+- (void)to (%p) %@;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)9.	;
+- (void)ATSIsApplicationReadyForAutoFontActivation;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *clientReporters; // @synthesize clientReporters=_clientReporters;
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

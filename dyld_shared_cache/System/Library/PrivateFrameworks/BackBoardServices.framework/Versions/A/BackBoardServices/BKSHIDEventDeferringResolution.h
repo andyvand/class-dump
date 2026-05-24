@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, BKSHIDEventDispatchingTarget, BKSHIDEventDisplay, NSString;
+@class BKSHIDEventDisplay;
 
 @interface BKSHIDEventDeferringResolution
 {
     BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringEnvironment *_environment;
-    long long _versionedPID;
-    int _pid;
-    BKSHIDEventDeferringToken *_token;
-    NSString *_processDescription;
-    BKSHIDEventDispatchingTarget *_dispatchingTarget;
-    _Bool _isBuffer;
 }
 
 + (id);

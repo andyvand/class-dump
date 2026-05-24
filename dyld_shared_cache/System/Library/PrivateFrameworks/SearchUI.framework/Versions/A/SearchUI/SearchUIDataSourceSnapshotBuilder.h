@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSSet;
 
 @interface SearchUIDataSourceSnapshotBuilder
 {
     NSSet *_expandedSections;
-    NSSet *_expandedCollectionSections;
-    NSMutableSet *_rowModelIdentifiers;
-    NSMutableSet *_sectionModelIdentifiers;
 }
 
 - (void);
@@ -26,6 +23,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,19 +40,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *expandedCollectionSections; // @synthesize expandedCollectionSections=_expandedCollectionSections;
 @property(retain, nonatomic) NSSet *expandedSections; // @synthesize expandedSections=_expandedSections;
-@property(retain, nonatomic) NSMutableSet *rowModelIdentifiers; // @synthesize rowModelIdentifiers=_rowModelIdentifiers;
-@property(retain, nonatomic) NSMutableSet *sectionModelIdentifiers; // @synthesize sectionModelIdentifiers=_sectionModelIdentifiers;
 
 @end
 

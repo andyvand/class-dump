@@ -9,8 +9,8 @@
     CDStruct_e83c9415 _presentationTimeRange;
 }
 
-- (CDStruct_e83c9415);
-- (id);
+- (CDStruct_e83c9415)Q,R,N,V_commandParserMachContinuousEndTicks;
+- (id),V_pronunciations;
 - (id);
 - (id);
 - (unsigned long long);

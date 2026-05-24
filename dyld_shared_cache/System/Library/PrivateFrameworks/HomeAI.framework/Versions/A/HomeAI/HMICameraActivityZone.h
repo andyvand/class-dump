@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HMICameraActivityZone
 {
     _Bool _inclusion;
-    NSArray *_points;
 }
 
 + (void);
@@ -17,9 +16,9 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)eTimestamp;
++ (id)lastUpdateTimestamp;
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -30,23 +29,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)t;
+- (unsigned long long)(;
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isInclusion) _Bool inclusion; // @synthesize inclusion=_inclusion;
 @property(readonly, copy) NSArray *points; // @synthesize points=_points;
-@property(readonly) Class superclass;
 
 @end
 

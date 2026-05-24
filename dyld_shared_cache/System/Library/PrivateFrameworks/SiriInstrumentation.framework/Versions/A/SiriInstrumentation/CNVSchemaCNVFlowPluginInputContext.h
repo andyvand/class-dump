@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVFlowPluginInputEnded, CNVSchemaCNVFlowPluginInputStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVFlowPluginInputContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CNVSchemaCNVFlowPluginInputStarted *_startedOrChanged;
-    CNVSchemaCNVFlowPluginInputEnded *_ended;
-    SISchemaUUID *_hypothesisId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasHypothesisId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -33,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -42,13 +34,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)__TEXT;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)aHOMEAssistantInfoReported";
-- (id)SchemaINFERENCEPervasiveEntityResolutionGroundTruthGenerated;
+- (id)INFERENCESchemaINFERENCEPervasiveEntityResolutionGroundTruthGenerated;
 - (id)`oäoXtut{´};
 - (void)`Ñ³ÿ;
 - (void)äþpÿ#ÿ³­ë+;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CNVSchemaCNVFlowPluginInputEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasHypothesisId; // @synthesize hasHypothesisId=_hasHypothesisId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *hypothesisId; // @synthesize hypothesisId=_hypothesisId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CNVSchemaCNVFlowPluginInputStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _SFPBRFMapCardSection
 {
     _Bool _showsUserLocation;
-    int _sizeFormat;
-    NSArray *_markers;
-    NSArray *_annotations;
-    NSArray *_polylines;
-    double _cameraDistance;
 }
 
 - (int);
@@ -22,20 +15,20 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (unsigned long long)h";
+- (void);
+- (void)+;
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (void);
+- (void)Stream"32;
 - (id);
 - (id);
 - (void);
@@ -44,29 +37,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)queryForParentHighlightForPhotosHighlight:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)ory. Create a feedback on PHPerson instead. negativeUserFeedbackForMemoryFeature function will return nil.;
 - (id);
 - (id);
 - (void)edImageCardSection";
-- (id)ReservationCommand;
+- (id)manageReservationCommand;
 - (void)¿;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *annotations; // @synthesize annotations=_annotations;
-@property(nonatomic) double cameraDistance; // @synthesize cameraDistance=_cameraDistance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *markers; // @synthesize markers=_markers;
-@property(copy, nonatomic) NSArray *polylines; // @synthesize polylines=_polylines;
-@property(nonatomic) _Bool showsUserLocation; // @synthesize showsUserLocation=_showsUserLocation;
 @property(nonatomic) int sizeFormat; // @synthesize sizeFormat=_sizeFormat;
-@property(readonly) Class superclass;
 
 @end
 

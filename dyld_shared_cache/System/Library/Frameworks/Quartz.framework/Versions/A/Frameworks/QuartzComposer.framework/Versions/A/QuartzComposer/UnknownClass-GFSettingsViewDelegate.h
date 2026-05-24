@@ -10,7 +10,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -24,7 +24,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);

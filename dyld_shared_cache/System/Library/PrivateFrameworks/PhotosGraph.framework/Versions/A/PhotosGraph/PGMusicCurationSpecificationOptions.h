@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSArray;
 
 @interface PGMusicCurationSpecificationOptions
 {
     _Bool _isTrip;
-    _Bool _shouldDownloadKeyFlexSong;
-    NSArray *_titles;
-    NSArray *_artists;
-    NSArray *_genres;
-    NSNumber *_length;
-    NSArray *_moodsText;
-    NSArray *_phMoods;
-    NSDictionary *_weightByLanguage;
-    NSDictionary *_weightByRegion;
 }
 
 + (unsigned long long);
@@ -25,8 +16,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)KElementDescriberConfiguration";
+- (_Bool)XEGestureEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
 - (id);
 - (id);
 - (id);
@@ -38,17 +29,7 @@
 - (void)8@"PGGraphRelationshipEdge"16^B24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *artists; // @synthesize artists=_artists;
-@property(readonly, copy, nonatomic) NSArray *genres; // @synthesize genres=_genres;
-@property(readonly, nonatomic) _Bool isQUEmpty;
-@property(readonly, nonatomic) _Bool isTrip; // @synthesize isTrip=_isTrip;
-@property(readonly, copy, nonatomic) NSNumber *length; // @synthesize length=_length;
-@property(readonly, copy, nonatomic) NSArray *moodsText; // @synthesize moodsText=_moodsText;
-@property(readonly, copy, nonatomic) NSArray *phMoods; // @synthesize phMoods=_phMoods;
-@property(readonly, nonatomic) _Bool shouldDownloadKeyFlexSong; // @synthesize shouldDownloadKeyFlexSong=_shouldDownloadKeyFlexSong;
 @property(readonly, copy, nonatomic) NSArray *titles; // @synthesize titles=_titles;
-@property(readonly, nonatomic) NSDictionary *weightByLanguage; // @synthesize weightByLanguage=_weightByLanguage;
-@property(readonly, nonatomic) NSDictionary *weightByRegion; // @synthesize weightByRegion=_weightByRegion;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol RecordStoreProviding
+- (void)te>";
+- (void)ideographic;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishEmbeddingModelOutput
 {
@@ -12,14 +12,13 @@
 }
 
 - (void);
-- (id);
+- (id)),;
 - (id);
 - (id);
 - (void)LûúÿXûúÿdûúÿpûúÿ|ûúÿûúÿûúÿ ûúÿ¬ûúÿ¸ûúÿÄûúÿÐûúÿÜûúÿèûúÿôûúÿ;
 - (id)ÿ`!28½óÿñ_!2@½óÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output1; // @synthesize output1=_output1;
 
 @end

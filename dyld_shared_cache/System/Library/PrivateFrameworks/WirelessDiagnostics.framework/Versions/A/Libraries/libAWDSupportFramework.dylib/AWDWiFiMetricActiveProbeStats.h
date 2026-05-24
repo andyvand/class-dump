@@ -7,33 +7,6 @@
 @interface AWDWiFiMetricActiveProbeStats
 {
     unsigned long long _timestamp;
-    unsigned int _avgRTTLargePktSize;
-    unsigned int _avgRTTMediumPktSize;
-    unsigned int _avgRTTSmallPktSize;
-    unsigned int _maxRTTLargePktSize;
-    unsigned int _maxRTTMediumPktSize;
-    unsigned int _maxRTTSmallPktSize;
-    unsigned int _minRTTLargePktSize;
-    unsigned int _minRTTMediumPktSize;
-    unsigned int _minRTTSmallPktSize;
-    unsigned int _perLargePktSize;
-    unsigned int _perMediumPktSize;
-    unsigned int _perSmallPktSize;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int avgRTTLargePktSize:1;
-        unsigned int avgRTTMediumPktSize:1;
-        unsigned int avgRTTSmallPktSize:1;
-        unsigned int maxRTTLargePktSize:1;
-        unsigned int maxRTTMediumPktSize:1;
-        unsigned int maxRTTSmallPktSize:1;
-        unsigned int minRTTLargePktSize:1;
-        unsigned int minRTTMediumPktSize:1;
-        unsigned int minRTTSmallPktSize:1;
-        unsigned int perLargePktSize:1;
-        unsigned int perMediumPktSize:1;
-        unsigned int perSmallPktSize:1;
-    } _has;
 }
 
 - (void);
@@ -42,6 +15,7 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -51,9 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)TH;
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -99,32 +72,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int avgRTTLargePktSize; // @synthesize avgRTTLargePktSize=_avgRTTLargePktSize;
-@property(nonatomic) unsigned int avgRTTMediumPktSize; // @synthesize avgRTTMediumPktSize=_avgRTTMediumPktSize;
-@property(nonatomic) unsigned int avgRTTSmallPktSize; // @synthesize avgRTTSmallPktSize=_avgRTTSmallPktSize;
-@property(nonatomic) _Bool hasAvgRTTLargePktSize;
-@property(nonatomic) _Bool hasAvgRTTMediumPktSize;
-@property(nonatomic) _Bool hasAvgRTTSmallPktSize;
-@property(nonatomic) _Bool hasMaxRTTLargePktSize;
-@property(nonatomic) _Bool hasMaxRTTMediumPktSize;
-@property(nonatomic) _Bool hasMaxRTTSmallPktSize;
-@property(nonatomic) _Bool hasMinRTTLargePktSize;
-@property(nonatomic) _Bool hasMinRTTMediumPktSize;
-@property(nonatomic) _Bool hasMinRTTSmallPktSize;
-@property(nonatomic) _Bool hasPerLargePktSize;
-@property(nonatomic) _Bool hasPerMediumPktSize;
-@property(nonatomic) _Bool hasPerSmallPktSize;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int maxRTTLargePktSize; // @synthesize maxRTTLargePktSize=_maxRTTLargePktSize;
-@property(nonatomic) unsigned int maxRTTMediumPktSize; // @synthesize maxRTTMediumPktSize=_maxRTTMediumPktSize;
-@property(nonatomic) unsigned int maxRTTSmallPktSize; // @synthesize maxRTTSmallPktSize=_maxRTTSmallPktSize;
-@property(nonatomic) unsigned int minRTTLargePktSize; // @synthesize minRTTLargePktSize=_minRTTLargePktSize;
-@property(nonatomic) unsigned int minRTTMediumPktSize; // @synthesize minRTTMediumPktSize=_minRTTMediumPktSize;
-@property(nonatomic) unsigned int minRTTSmallPktSize; // @synthesize minRTTSmallPktSize=_minRTTSmallPktSize;
-@property(nonatomic) unsigned int perLargePktSize; // @synthesize perLargePktSize=_perLargePktSize;
-@property(nonatomic) unsigned int perMediumPktSize; // @synthesize perMediumPktSize=_perMediumPktSize;
-@property(nonatomic) unsigned int perSmallPktSize; // @synthesize perSmallPktSize=_perSmallPktSize;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

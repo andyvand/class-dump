@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPVSignaturePayload, NSData;
-
 @interface PVDummySignature
 {
     _Bool _cannotDecrypt;
-    AKPVSignaturePayload *_payload;
-    NSData *_undecryptedData;
 }
 
 + (_Bool);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -24,12 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void)tracedPathAndReturnDrawing:(id)arg1;
+- (void)copyPotracedPathAndReturnDrawing:(id)arg1;
 
 // Remaining properties
 @property _Bool cannotDecrypt; // @synthesize cannotDecrypt=_cannotDecrypt;
-@property(retain) AKPVSignaturePayload *payload; // @synthesize payload=_payload;
-@property(retain) NSData *undecryptedData; // @synthesize undecryptedData=_undecryptedData;
 
 @end
 

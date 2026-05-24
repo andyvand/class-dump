@@ -6,29 +6,25 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class IMAPDownloadCache, NSArray;
+@class NSArray;
 @protocol IMAPGetAttachmentsDownloadsOperationDelegate;
 
 @interface IMAPGetAttachmentsDownloadsOperation : IMAPPersistenceTaskOperation
 {
     NSArray *_messages;
-    id <IMAPGetAttachmentsDownloadsOperationDelegate> _delegate;
-    IMAPDownloadCache *_downloadCache;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)XUy6gUe9;
 - (void);
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPGetAttachmentsDownloadsOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) IMAPDownloadCache *downloadCache; // @synthesize downloadCache=_downloadCache;
-@property(readonly, copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 
 @end
 

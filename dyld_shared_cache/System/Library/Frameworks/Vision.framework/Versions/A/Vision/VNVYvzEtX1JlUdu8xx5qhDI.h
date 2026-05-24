@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)+VG;
 - (_Bool)¿ÿ;
 - (id);
 - (_Bool)T@!

@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UIVectorTextLayoutInfo
 {
     _UIVectorTextLayoutParameters *_parameters;
-    struct __CTFrame *_frame;
-    struct CGAffineTransform _coordinateAdjustment;
 }
 
 - (void);
 - (struct CGAffineTransform);
-- (void);
+- (void);
 - (double);
 - (struct __CTFrame *)Q24q32;
-- (void)idePresentationPoint;
-- (void)ewController;
+- (void)__overridePresentationPoint;
+- (void)_isCreatedBySplitViewController;
 - (id)ttonConfiguration",C,N;
 - (void)Ø.3GÊ¶.3y.3y®¾7GGGAByAByAByáª;
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform coordinateAdjustment; // @synthesize coordinateAdjustment=_coordinateAdjustment;
-@property(nonatomic) struct __CTFrame *frame; // @synthesize frame=_frame;
 @property(retain, nonatomic) _UIVectorTextLayoutParameters *parameters; // @synthesize parameters=_parameters;
 
 @end

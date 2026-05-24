@@ -9,8 +9,6 @@
 @interface DRSSubmittedLogInfo
 {
     _Bool _transferOwnership;
-    NSString *_path;
-    NSString *_sandboxExtension;
 }
 
 + (id);
@@ -19,12 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)w;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
-@property(readonly, nonatomic) _Bool transferOwnership; // @synthesize transferOwnership=_transferOwnership;
 
 @end
 

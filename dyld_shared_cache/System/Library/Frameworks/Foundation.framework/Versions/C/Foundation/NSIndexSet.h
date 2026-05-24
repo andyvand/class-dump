@@ -11,18 +11,6 @@
         unsigned int _hasBitfield:1;
         unsigned int _reservedArrayBinderController:30;
     } _indexSetFlags;
-    union {
-        struct {
-            struct _NSRange _range;
-        } _singleRange;
-        struct {
-            void *_data;
-            void *_reserved;
-        } _multipleRanges;
-        struct {
-            unsigned long long _bitfield;
-        } _singleBitfield;
-    } _internal;
 }
 
 @end

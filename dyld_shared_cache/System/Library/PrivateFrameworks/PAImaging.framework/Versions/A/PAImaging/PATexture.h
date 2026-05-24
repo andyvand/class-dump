@@ -9,21 +9,6 @@
 @interface PATexture
 {
     PAOpenGLDevice *_device;
-    unsigned long long _bufferSize;
-    void *_buffer;
-    struct PFIntSize_st _size;
-    _Bool _flipped;
-    int _glInternalFormat;
-    unsigned int _glFormat;
-    unsigned int _glType;
-    unsigned long long _bitsPerComponent;
-    unsigned long long _alignedBytesPerRow;
-    unsigned int _textureID;
-    unsigned int _fbo;
-    NSString *_textureName;
-    _Bool _opaque;
-    unsigned int _type;
-    struct CGColorSpace *_colorSpace;
 }
 
 - (void);
@@ -33,7 +18,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (long long);
+- (long long)R(*;
 - (void);
 - (void);
 - (void);
@@ -53,16 +38,13 @@
 - (unsigned int);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool),;
 - (void);
 - (void);
 - (void *);
 
 // Remaining properties
-@property(readonly, nonatomic) PAOpenGLDevice *device; // @synthesize device=_device;
-@property(readonly, nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
 @property(retain) NSString *textureName; // @synthesize textureName=_textureName;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

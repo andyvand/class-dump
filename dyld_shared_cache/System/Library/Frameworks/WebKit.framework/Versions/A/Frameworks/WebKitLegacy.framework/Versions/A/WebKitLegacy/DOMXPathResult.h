@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMNode, NSString;
-
 @interface DOMXPathResult : DOMObject
 {
 }
@@ -15,22 +13,16 @@
 - (unsigned int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)+;
 - (id);
-- (void);
+- (void)%lld;
 - (double);
 - (_Bool);
 - (id);
-- (unsigned short);
+- (unsigned short)9;
 
 // Remaining properties
-@property(readonly) _Bool booleanValue;
-@property(readonly) _Bool invalidIteratorState;
-@property(readonly) double numberValue;
 @property(readonly) unsigned short resultType;
-@property(readonly) DOMNode *singleNodeValue;
-@property(readonly) unsigned int snapshotLength;
-@property(readonly, copy) NSString *stringValue;
 
 @end
 

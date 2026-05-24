@@ -5,5 +5,9 @@
 //
 
 @protocol _UIWindowSceneActivator_Internal
+
+@optional
+- (void)availabilityOffGridRecipientEncryptionValidationToken;
+- (_Bool)So37IMDaemonPersistentTaskExecutorMonitor_p;
 @end
 

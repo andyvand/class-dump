@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPTime, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface FPFootprint
 {
     NSArray *_processes;
-    NSMutableDictionary *_pidToFootprint;
-    NSDictionary *_allPIDsIOSurfaceDescriptions;
-    struct os_unfair_lock_s _allPIDsIOSurfaceDescriptionsLock;
-    NSDictionary *_allPIDsIOAccelMemoryInfos;
-    struct os_unfair_lock_s _allPIDsIOAccelMemoryInfosLock;
-    struct _os_opaque_64_map_s _memoryObjects;
-    struct _os_opaque_64_map_s _textMemoryObjects;
-    struct _os_opaque_64_map_s _linkeditMemoryObjects;
-    NSMutableDictionary *_sharedCacheMemoryObjectsTable;
-    _Bool _memoryObjectMapsInitialized;
-    NSMutableArray *_outputFormatters;
-    _Bool _earlyExit;
-    unsigned int _qualityOfService;
-    FPTime *_gatherStartTime;
-    FPTime *_gatherEndTime;
 }
 
 + (int);
 + (void);
 + (_Bool);
 + (id);
-+ (void);
-+ (void);
++ (void)";
++ (void)stering %@ for %@ argument #%lu;
 + (_Bool);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)� ;
 - (id);
 - (id);
 - (id);
@@ -51,17 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FPTime *gatherEndTime; // @synthesize gatherEndTime=_gatherEndTime;
-@property(readonly, nonatomic) FPTime *gatherStartTime; // @synthesize gatherStartTime=_gatherStartTime;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *processes; // @synthesize processes=_processes;
-@property(nonatomic) unsigned int qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface BluetoothManager
 {
     struct BTLocalDeviceImpl *_localDevice;
-    struct BTSessionImpl *_session;
-    int _available;
-    int _state;
-    _Bool _airplaneMode;
-    _Bool _audioConnected;
-    _Bool _scanningEnabled;
-    _Bool _scanningInProgress;
-    unsigned int _scanningServiceMask;
-    struct BTDiscoveryAgentImpl *_discoveryAgent;
-    struct BTPairingAgentImpl *_pairingAgent;
-    struct BTAccessoryManagerImpl *_accessoryManager;
-    NSMutableDictionary *_btAddrDict;
-    NSMutableDictionary *_btDeviceDict;
-    _Bool _denylistEnabled;
 }
 
-+ (id);
++ (id)alloonSelectionManager"16@"CKChatItem"24;
 + (int);
 + (void);
-+ (id);
++ (id)_draw;
 - (_Bool);
 - (void);
 - (void);
@@ -56,23 +40,23 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void)8M;
+- (void);
+- (void);
+- (void)qP;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -80,7 +64,7 @@
 - (void);
 - (struct BTAccessoryManagerImpl *);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -90,8 +74,8 @@
 - (void);
 - (void);
 - (int);
-- (void);
-- (void);
+- (void)navBarHeaderVideoImage;
+- (void)_addChatItemsToInputContextHistory:(id)arg1 signalingResponseContextChangeIfNeeded: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -100,12 +84,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)/A/QuartzCore;
+- (_Bool)eArray",&,V_aliasTimers;
 - (_Bool)|;
 
 // Remaining properties

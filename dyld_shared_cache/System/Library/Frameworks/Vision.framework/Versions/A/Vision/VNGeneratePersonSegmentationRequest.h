@@ -11,8 +11,6 @@
 @interface VNGeneratePersonSegmentationRequest : VNStatefulRequest
 {
     NSArray *_previousObservations;
-    unsigned long long _previousImageWidth;
-    unsigned long long _previousImageHeight;
 }
 
 + (id);
@@ -22,17 +20,19 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
+- (id)_bouncedItems;
 - (id);
 - (id);
-- (id);
+- (void)setAddressType:(unsigned int)arg1;
 - (void);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
+- (id)le Items;
+- (unsigned int)ngHandleStrings:inContainersWithIdentifiers:] /* Error: Ran out of types for this method. */;
+- (void)rkaround. Please open a radar to Contacts (New Bugs).
+
+%@;
 - (float);
 - (void)from file;
 - (long long);
@@ -41,10 +41,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) float minimumConfidence;
-@property(nonatomic) unsigned int outputPixelFormat;
-@property(nonatomic) unsigned long long qualityLevel;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(nonatomic) _Bool useTiling;
 
 @end

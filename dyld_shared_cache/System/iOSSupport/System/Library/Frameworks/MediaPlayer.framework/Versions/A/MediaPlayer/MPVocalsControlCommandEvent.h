@@ -11,17 +11,15 @@
 @interface MPVocalsControlCommandEvent : MPRemoteCommandEvent
 {
     NSNumber *_active;
-    NSNumber *_level;
 }
 
 - (id);
-- (void)isplayName;
+- (void)_authorDisplayName;
 - (id)v16@?0@"NSXPCListenerEndpoint"8;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *active; // @synthesize active=_active;
-@property(readonly, nonatomic) NSNumber *level; // @synthesize level=_level;
 
 @end
 

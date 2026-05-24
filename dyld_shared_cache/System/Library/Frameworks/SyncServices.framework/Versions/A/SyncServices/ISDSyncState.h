@@ -6,29 +6,18 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class NSArray, NSCalendarDate, NSString;
+@class NSString;
 
 @interface ISDSyncState : ISDDataObject
 {
     NSString *_entityName;
-    NSArray *_propertyNames;
-    NSCalendarDate *_lastSyncDate;
-    int _lastSyncStatus;
-    unsigned int _lastSyncGeneration;
-    int _syncMode;
-    int _requestedMode;
-    _Bool _clientCanPullOnly;
-    _Bool _clientCanPushOnly;
-    _Bool _enabled;
-    _Bool _clientWantsToPullTruth;
-    _Bool _shouldRefilter;
 }
 
-+ (void)tClients;
-- (_Bool);
++ (void)autoregisterDefaultClients;
+- (_Bool)#;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +30,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,7 +43,7 @@
 - (int);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id)fter = %@

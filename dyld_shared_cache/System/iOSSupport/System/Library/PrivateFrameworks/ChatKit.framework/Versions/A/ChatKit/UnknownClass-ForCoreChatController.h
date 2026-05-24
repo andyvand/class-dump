@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (ForCoreChatController)
 - (double);
 - (id);
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_cachedActualColumnWidths;
+- (_Bool)sAlternativeAuthenticationIfAvailable;
 - (long long);
-- (_Bool);
+- (_Bool)WithCoalescingAndDelay;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *balloonBackdropGroupName;
-@property(nonatomic, readonly) long long ck_systemUserInterfaceStyle;
-@property(nonatomic, readonly) _Bool isDiffusedSystemGlassSettingEnabled;
-@property(nonatomic, readonly) _Bool isTranscriptBackgroundActive;
-@property(nonatomic, readonly) long long systemGlassLegibilitySetting;
-@property(nonatomic, readonly) NSString *tapbackBackdropGroupName;
 @property(nonatomic, readonly) double transcriptBackgroundLuminosity;
 @end
 

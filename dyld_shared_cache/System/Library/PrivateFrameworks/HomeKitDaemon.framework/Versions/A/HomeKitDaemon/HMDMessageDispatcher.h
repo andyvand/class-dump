@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDMessageFilterChain, HMDSecureRemoteMessageFilter, HMDSecureRemoteMessageTransport, HMDXPCMessageTransport, NSCache, NSMutableDictionary;
+@class HMDXPCMessageTransport, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDMessageDispatcher
 {
     HMDXPCMessageTransport *_XPCTransport;
-    HMDSecureRemoteMessageTransport *_secureRemoteTransport;
-    HMDMessageFilterChain *_messageFilterChain;
-    NSMutableDictionary *_remoteGateways;
-    HMDSecureRemoteMessageFilter *_secureRemoteMessageFilter;
-    NSCache *_homeForTarget;
-    HMDHomeManager *_homeManager;
 }
 
 + (id);
@@ -30,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)$Bùñ1Â0@ù
@@ -50,18 +44,12 @@ __attribute__((visibility("hidden")))
 - (id)bool nor integer;
 - (id)dio destination removal transaction completed with error:%@ /* Error: Ran out of types for this method. */;
 - (void)gger owning device in HH2;
-- (id)t;
+- (id)electionV2PrimaryChangedCount;
 - (void)significantEvent = %@, significantEventOffset = %tu, repeatInterval:%@, recurrences = %@ /* Error: Ran out of types for this method. */;
 - (id)&¼äóþ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDXPCMessageTransport *XPCTransport; // @synthesize XPCTransport=_XPCTransport;
-@property(readonly, nonatomic) NSCache *homeForTarget; // @synthesize homeForTarget=_homeForTarget;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) HMDMessageFilterChain *messageFilterChain; // @synthesize messageFilterChain=_messageFilterChain;
 @property(retain, nonatomic) NSMutableDictionary *remoteGateways; // @synthesize remoteGateways=_remoteGateways;
-@property(readonly, nonatomic) HMDSecureRemoteMessageFilter *secureRemoteMessageFilter; // @synthesize secureRemoteMessageFilter=_secureRemoteMessageFilter;
-@property(readonly, nonatomic) HMDSecureRemoteMessageTransport *secureRemoteTransport; // @synthesize secureRemoteTransport=_secureRemoteTransport;
 
 @end
 

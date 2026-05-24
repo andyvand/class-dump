@@ -6,51 +6,13 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSDictionary, NSImage, NSNumber, NSObject, NSOrderedSet, NSString, NSURL, SMNConnection, SMNNetServiceResolver, SMNNetworkSession, SMNetworkSourceProxy;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface SMSystem_Daemon_Network : SMSystem_Daemon
 {
     _Bool connected;
-    _Bool _connectOK;
-    _Bool _connecting;
-    _Bool _determiningFastestConnection;
-    _Bool _sourceKnowsPasscode;
-    _Bool _connectionMethodHasChanged;
-    _Bool _usedSWAP;
-    _Bool _isCheckingForNewConnectionMethods;
-    _Bool _attemptingWirelessSwitch;
-    NSString *secretPassword;
-    NSURL *_url;
-    NSImage *_icon;
-    SMNNetworkSession *_session;
-    NSObject<OS_dispatch_semaphore> *_waitForCallbackSemaphore;
-    NSObject<OS_dispatch_queue> *_atomicConnectionQueue;
-    SMNetworkSourceProxy *_networkProxy;
-    unsigned long long _networkState;
-    NSString *_handoffHint;
-    NSString *_remoteClientVersion;
-    unsigned long long _remoteCapabilities;
-    NSString *_remoteOSVersion;
-    NSString *_serviceName;
-    unsigned long long _effectiveConnectionMethod;
-    unsigned long long _localConnectionMethod;
-    unsigned long long _remoteConnectionMethod;
-    double _activeConnectionBenchmark;
-    unsigned long long _availableConnectionMethods;
-    NSString *_fasterInterfaceRecommendation;
-    NSDictionary *_allEstablishedConnections;
-    NSString *_serviceType;
-    NSDictionary *_descriptionData;
-    NSString *_networkUUID;
-    SMNConnection *_activeConnection;
-    NSOrderedSet *_auxConnections;
-    SMNNetServiceResolver *_serviceResolver;
-    struct __SecCertificate *_trustedRemoteCertificate;
 }
 
-+ (unsigned long long);
-+ (id);
++ (unsigned long long);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -65,6 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,6 +45,7 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -89,9 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,7 +71,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -118,7 +80,7 @@
 - (void);
 - (void);
 - (id);
-- (Class);
+- (Class);
 - (id);
 - (void);
 - (void);
@@ -163,20 +125,20 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24;
+- (void)tripWeight3;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -196,65 +158,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_errorForNULLCGImageWithURL:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)reverse;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)D;
 - (void);
 - (void)n OD Database to clear Migration mark.;
 - (_Bool)account, skipping;
 - (_Bool)ªG§0;
 
 // Remaining properties
-@property(retain) SMNConnection *activeConnection; // @synthesize activeConnection=_activeConnection;
-@property double activeConnectionBenchmark; // @synthesize activeConnectionBenchmark=_activeConnectionBenchmark;
-@property(retain) NSDictionary *allEstablishedConnections; // @synthesize allEstablishedConnections=_allEstablishedConnections;
-@property(retain) NSObject<OS_dispatch_queue> *atomicConnectionQueue; // @synthesize atomicConnectionQueue=_atomicConnectionQueue;
-@property(getter=isAttemptingWirelessSwitch) _Bool attemptingWirelessSwitch; // @synthesize attemptingWirelessSwitch=_attemptingWirelessSwitch;
-@property(retain) NSOrderedSet *auxConnections; // @synthesize auxConnections=_auxConnections;
-@property unsigned long long availableConnectionMethods; // @synthesize availableConnectionMethods=_availableConnectionMethods;
-@property(readonly) unsigned long long commonCapabilities;
-@property _Bool connectOK; // @synthesize connectOK=_connectOK;
-@property _Bool connected; // @synthesize connected;
-@property _Bool connecting; // @synthesize connecting=_connecting;
-@property(readonly) NSOrderedSet *connectionFamilies;
-@property _Bool connectionMethodHasChanged; // @synthesize connectionMethodHasChanged=_connectionMethodHasChanged;
-@property(retain) NSDictionary *descriptionData; // @synthesize descriptionData=_descriptionData;
-@property _Bool determiningFastestConnection; // @synthesize determiningFastestConnection=_determiningFastestConnection;
-@property unsigned long long effectiveConnectionMethod; // @synthesize effectiveConnectionMethod=_effectiveConnectionMethod;
-@property(readonly) NSString *fasterInterfaceRecommendation; // @synthesize fasterInterfaceRecommendation=_fasterInterfaceRecommendation;
-@property(readonly) NSOrderedSet *fasterInterfaceRecommendations;
-@property(retain) NSString *handoffHint; // @synthesize handoffHint=_handoffHint;
-@property(readonly) _Bool hasSWAPConnection;
-@property(retain) NSImage *icon; // @synthesize icon=_icon;
-@property _Bool isCheckingForNewConnectionMethods; // @synthesize isCheckingForNewConnectionMethods=_isCheckingForNewConnectionMethods;
-@property unsigned long long localConnectionMethod; // @synthesize localConnectionMethod=_localConnectionMethod;
-@property(retain) SMNetworkSourceProxy *networkProxy; // @synthesize networkProxy=_networkProxy;
-@property unsigned long long networkState; // @synthesize networkState=_networkState;
-@property(retain) NSString *networkUUID; // @synthesize networkUUID=_networkUUID;
-@property(readonly) __weak NSNumber *passcode;
-@property(readonly) unsigned long long protocolVersion;
 @property unsigned long long remoteCapabilities; // @synthesize remoteCapabilities=_remoteCapabilities;
-@property(retain) NSString *remoteClientVersion; // @synthesize remoteClientVersion=_remoteClientVersion;
-@property unsigned long long remoteConnectionMethod; // @synthesize remoteConnectionMethod=_remoteConnectionMethod;
-@property(readonly) _Bool remoteIsROSV;
-@property(retain) NSString *remoteOSVersion; // @synthesize remoteOSVersion=_remoteOSVersion;
-@property(retain) NSString *secretPassword; // @synthesize secretPassword;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain) SMNNetServiceResolver *serviceResolver; // @synthesize serviceResolver=_serviceResolver;
-@property(retain) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(retain) SMNNetworkSession *session; // @synthesize session=_session;
-@property(readonly) _Bool shouldSwitchToAccessPoint;
-@property _Bool sourceKnowsPasscode; // @synthesize sourceKnowsPasscode=_sourceKnowsPasscode;
-@property(nonatomic) struct __SecCertificate *trustedRemoteCertificate; // @synthesize trustedRemoteCertificate=_trustedRemoteCertificate;
-@property(retain) NSURL *url; // @synthesize url=_url;
-@property _Bool usedSWAP; // @synthesize usedSWAP=_usedSWAP;
-@property(retain) NSObject<OS_dispatch_semaphore> *waitForCallbackSemaphore; // @synthesize waitForCallbackSemaphore=_waitForCallbackSemaphore;
 
 @end
 

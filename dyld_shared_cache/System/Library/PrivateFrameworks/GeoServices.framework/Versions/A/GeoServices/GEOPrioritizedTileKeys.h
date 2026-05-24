@@ -11,16 +11,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned int);
-- (id);
-- (_Bool);
+- (unsigned int)sar";
+- (id)processASRFeatures:fromServer: /* Error: Ran out of types for this method. */;
+- (_Bool)ticketForSearchQuery:(struct _GEOTileKey *)arg1 completionItem:(unsigned int *)arg2 maxResults:traits: /* Error: Ran out of types for this method. */;
 - (void)6@"NSObject<OS_dispatch_queue>"24@?<v@?@"NSDate"ddd>32;
-- (id)nApplePayFpanTransaction;
+- (id)isNonApplePayFpanTransaction;
 - (unsigned long long);
 - (void)Ô^ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) unsigned int highestPriority;
 
 @end

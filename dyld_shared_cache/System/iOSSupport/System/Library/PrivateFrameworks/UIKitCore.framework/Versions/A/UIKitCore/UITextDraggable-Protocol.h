@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction;
 @protocol UITextDragDelegate;
 
 @protocol UITextDraggable
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isTextDragActive) _Bool textDragActive;
 @property(nonatomic) __weak id <UITextDragDelegate> textDragDelegate;
-@property(readonly, nonatomic) UIDragInteraction *textDragInteraction;
-@property(nonatomic) long long textDragOptions;
 @end
 

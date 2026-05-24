@@ -9,21 +9,10 @@
 @interface SwiftUI.DragAndDropBridge : SwiftUI.AnyDragAndDropBridge
 {
     id host;
-    id hasDragItemsSeed;
-    id dragTimingsSeed;
-    id dragInteraction;
-    id canDropSeed;
-    id dropInteraction;
-    id canSpringLoadSeed;
-    id springLoadedInteraction;
-    id activeSpringLoadedResponder;
-    id activeDrop;
-    id onSessionBegan;
-    id onSessionEnded;
 }
 
 - (id);
-- (id);
+- (id)4@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -32,7 +21,7 @@ Xì|ìTíØíüí;
 - (id)ü<,=;
 - (void)0{öÿ;
 - (void);
-- (void)el;
+- (void)label;
 - (void)y15_IdentifiedViewbùÿQyd___Ãy÷0ÃyN9ÃGGAEyqd_0_AIGtG;
 - (id)4jùÿ¬4øÿ§Ðÿ@=
 ;
@@ -41,7 +30,7 @@ Xì|ìTíØíüí;
 - (void);
 - (id);
 - (void);
-- (void)estureAccessibilityProvider;
+- (void)SwiftUIGestureAccessibilityProvider;
 - (void);
 - (_Bool)hange;
 

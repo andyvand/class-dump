@@ -5,6 +5,7 @@
 //
 
 @protocol ACDDataclassOwnersManagerProtocol
+- (void)Tm;
 - (void)Ô ;
 @end
 

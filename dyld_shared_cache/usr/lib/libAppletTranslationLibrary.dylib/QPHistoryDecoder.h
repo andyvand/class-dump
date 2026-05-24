@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (unsigned short);
++ (unsigned short)<;
 + (id);
 + (id);
 + (unsigned short);

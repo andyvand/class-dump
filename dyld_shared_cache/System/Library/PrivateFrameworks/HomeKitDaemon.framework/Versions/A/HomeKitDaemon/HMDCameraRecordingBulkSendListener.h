@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol HMDCameraRecordingBulkSendListenerDelegate, OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingBulkSendListener
 {
     NSUUID *_UUID;
-    id <HMDCameraRecordingBulkSendListenerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _pendingOpenSessionCallback;
 }
 
 + (id)ÕßÿÌ`C;
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h8);
 - (id);
 - (id);
 - (void);
@@ -35,15 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraRecordingBulkSendListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isSessionOpenInProgress) _Bool sessionOpenInProgress;
-@property(readonly) Class superclass;
 
 @end
 

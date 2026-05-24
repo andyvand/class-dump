@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSMutableArray, NSScrollView, NSSegmentedControl, NSTableView, NSTextField, NSWindowController;
+@class NSMutableArray;
 
 @interface AirPortOptionsTabView
 {
     id _owner;
-    NSTextField *_networksTableLabel;
-    NSTableView *_networksTable;
-    NSScrollView *_networksScrollView;
-    NSSegmentedControl *_addRemoveEditButton;
-    NSTextField *_networkTableControlLabel;
-    NSButton *_alwaysRemember;
-    NSButton *_allowLegacyNetworksCheckbox;
-    NSButton *_requireAdminPowerToggleCheckbox;
-    NSButton *_requireAdminNetworkChangeCheckbox;
-    NSTextField *_airportID;
-    NSTextField *_airportIDLabel;
-    NSMutableArray *_preferredNetworks;
-    NSMutableArray *_removeNetworks;
-    NSMutableArray *_removeNetworksLocalOnly;
-    NSWindowController *_currentDialog;
-    _Bool _supportsWPA3Personal;
 }
 
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,10 +40,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)i;
+- (void)(;
+- (void)kb;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,17 +61,13 @@
 - (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void)/&;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSWindowController *currentDialog; // @synthesize currentDialog=_currentDialog;
-@property(retain) NSMutableArray *preferredNetworks; // @synthesize preferredNetworks=_preferredNetworks;
 @property(retain) NSMutableArray *removeNetworks; // @synthesize removeNetworks=_removeNetworks;
-@property(retain) NSMutableArray *removeNetworksLocalOnly; // @synthesize removeNetworksLocalOnly=_removeNetworksLocalOnly;
-@property _Bool supportsWPA3Personal; // @synthesize supportsWPA3Personal=_supportsWPA3Personal;
 
 @end
 

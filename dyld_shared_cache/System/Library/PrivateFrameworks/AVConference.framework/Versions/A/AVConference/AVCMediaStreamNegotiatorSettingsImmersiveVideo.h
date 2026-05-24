@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (struct OpaqueCMTagCollection *);
 - (struct __CFArray *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)R;
 - (unsigned int);
 - (id);
 - (unsigned char);
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (int);
-- (id)ePacketDelayMs;
+- (id)averagePacketDelayMs;
 
 @end
 

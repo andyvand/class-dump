@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _SiriCoreSQLiteIndexInfo
 {
     NSString *_name;
-    NSArray *_columns;
 }
 
-- (id);
-- (id);
+- (id)IncludeSearchResultsFromJunkMailboxes;
+- (id)B;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

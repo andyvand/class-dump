@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
 @protocol NSObject><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface CNTestFuture
 {
     id <NSObject><NSSecureCoding> _result;
-    NSError *_error;
 }
 
 + (id);
@@ -21,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)dataUsingEncoding:(id)arg1;
 - (id)!ìCùñsð1Â0@ù
 × ;
-- (void)er:inContainerWithIdentifier:moveWasAuthorized: /* Error: Ran out of types for this method. */;
+- (void)addContacts:toGroupWithIdentifier:inContainerWithIdentifier:moveWasAuthorized: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) id <NSObject><NSSecureCoding> result; // @synthesize result=_result;
 
 @end

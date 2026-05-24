@@ -16,13 +16,9 @@ struct RawData {
     int _field3;
 };
 
-struct SuddenTerminationDisabler;
-
-struct _CCECCryptor;
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _malloc_zone_t {
@@ -53,32 +49,15 @@ struct _malloc_zone_t {
     CDUnknownFunctionPointerType _field25;
 };
 
-struct atomic_flag {
-    _Atomic _Bool _Value;
-};
-
-struct cc_blinding_keys_ctx {
-    unsigned long long _field1;
-    struct _CCECCryptor *_field2;
-    struct _CCECCryptor *_field3;
-};
-
 struct in6_addr {
     union {
-        unsigned char __u6_addr8[16];
-        unsigned short __u6_addr16[8];
-        unsigned int __u6_addr32[4];
-    } __u6_addr;
+        unsigned char _field1[16];
+        unsigned short _field2[8];
+        unsigned int _field3[4];
+    } _field1;
 };
 
 struct malloc_introspection_t;
-
-struct malloc_statistics_t {
-    unsigned int blocks_in_use;
-    unsigned long long size_in_use;
-    unsigned long long max_size_in_use;
-    unsigned long long size_allocated;
-};
 
 struct os_state_data_decoder_s {
     char _field1[64];
@@ -156,12 +135,6 @@ struct task_vm_info {
     long long ledger_swapins;
     long long ledger_tag_neural_nofootprint_total;
     long long ledger_tag_neural_nofootprint_peak;
-};
-
-struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> {
-    struct {
-        struct SuddenTerminationDisabler *__ptr_;
-    } ;
 };
 
 #pragma mark Typedef'd Structures

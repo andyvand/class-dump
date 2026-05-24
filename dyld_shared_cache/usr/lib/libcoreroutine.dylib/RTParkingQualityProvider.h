@@ -9,26 +9,24 @@
 @interface RTParkingQualityProvider
 {
     NSMutableArray *_movingHistorgram;
-    unsigned long long _parkingQualityIndicator;
 }
 
 - (void);
-- (void);
+- (void)9;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (int);
 - (id);
+- (unsigned long long)*;
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)iled to find %@ from local keychain:(id)arg1 %@;
 - (void);
 - (id);
 - (void)urrent working hypothesis, %{sensitive}@ (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *movingHistorgram; // @synthesize movingHistorgram=_movingHistorgram;
-@property(nonatomic) unsigned long long parkingQualityIndicator; // @synthesize parkingQualityIndicator=_parkingQualityIndicator;
 
 @end
 

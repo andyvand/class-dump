@@ -13,10 +13,10 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)1Â0@ù
 × ;
-- (id)mentObservingForSuppressedContentObjects:(struct CGRect)arg1;
+- (id)_startRearrangementObservingForSuppressedContentObjects:(struct CGRect)arg1;
 - (void)(¶L;
 - (_Bool);
 

@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliGroupChatInformation, CTLazuliMessageID;
+@class CTLazuliGroupChatInformation;
 
 @interface CTLazuliMessageGroupDispositionNotification
 {
     CTLazuliGroupChatInformation *_chatInformation;
-    long long _deliveryType;
-    CTLazuliMessageID *_messageID;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)etricPlayerItemVariantSwitchStartEvent:%p %@ fromVariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
-- (void);
+- (void)_autoRetry;
 - (id);
-- (void);
+- (void);
 - (void)
 × ;
 - (id)lte-device;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliGroupChatInformation *chatInformation; // @synthesize chatInformation=_chatInformation;
 @property(nonatomic) long long deliveryType; // @synthesize deliveryType=_deliveryType;
-@property(retain, nonatomic) CTLazuliMessageID *messageID; // @synthesize messageID=_messageID;
 
 @end
 

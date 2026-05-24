@@ -4,41 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface NSPPrivacyProxyProxyInfo
 {
     int _algorithm;
-    NSMutableArray *_allowedNextHops;
-    NSMutableArray *_bootstrapAddresses;
-    NSString *_preferredPathConfigUri;
-    NSMutableArray *_preferredPathPatterns;
-    int _proxyHop;
-    unsigned int _proxyIndex;
-    NSMutableArray *_proxyKeyInfos;
-    NSString *_proxyURL;
-    NSString *_proxyVersion;
-    NSString *_tcpProxyFqdn;
-    NSData *_tokenChallenge;
-    NSData *_tokenKeyInfo;
-    NSString *_vendor;
-    _Bool _fallbackSupportsUDPProxying;
-    _Bool _supportsFallback;
-    _Bool _supportsResumption;
-    struct {
-        unsigned int algorithm:1;
-        unsigned int proxyIndex:1;
-        unsigned int fallbackSupportsUDPProxying:1;
-        unsigned int supportsFallback:1;
-        unsigned int supportsResumption:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -61,23 +36,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (_Bool);
-- (void);
+- (void)A;
 - (int);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (id)Æàª$àª×²÷¢3âª{ýª);
-- (unsigned long long)=\juøj5øàªe\juøâªúÆàªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
+- (id);
+- (unsigned long long);
 - (int);
 - (id);
 - (void);
@@ -100,18 +75,18 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)CPSPreferenceOnlyKeepThumbnailsKey;
 - (void);
 - (void);
 - (void);
@@ -120,33 +95,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(retain, nonatomic) NSMutableArray *allowedNextHops; // @synthesize allowedNextHops=_allowedNextHops;
-@property(retain, nonatomic) NSMutableArray *bootstrapAddresses; // @synthesize bootstrapAddresses=_bootstrapAddresses;
-@property(nonatomic) _Bool fallbackSupportsUDPProxying; // @synthesize fallbackSupportsUDPProxying=_fallbackSupportsUDPProxying;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(nonatomic) _Bool hasFallbackSupportsUDPProxying;
-@property(readonly, nonatomic) _Bool hasPreferredPathConfigUri;
-@property(nonatomic) _Bool hasProxyIndex;
-@property(readonly, nonatomic) _Bool hasProxyVersion;
-@property(nonatomic) _Bool hasSupportsFallback;
-@property(nonatomic) _Bool hasSupportsResumption;
-@property(readonly, nonatomic) _Bool hasTcpProxyFqdn;
-@property(readonly, nonatomic) _Bool hasTokenChallenge;
-@property(readonly, nonatomic) _Bool hasVendor;
-@property(retain, nonatomic) NSString *preferredPathConfigUri; // @synthesize preferredPathConfigUri=_preferredPathConfigUri;
-@property(retain, nonatomic) NSMutableArray *preferredPathPatterns; // @synthesize preferredPathPatterns=_preferredPathPatterns;
 @property(nonatomic) int proxyHop; // @synthesize proxyHop=_proxyHop;
-@property(nonatomic) unsigned int proxyIndex; // @synthesize proxyIndex=_proxyIndex;
-@property(retain, nonatomic) NSMutableArray *proxyKeyInfos; // @synthesize proxyKeyInfos=_proxyKeyInfos;
-@property(retain, nonatomic) NSString *proxyURL; // @synthesize proxyURL=_proxyURL;
-@property(retain, nonatomic) NSString *proxyVersion; // @synthesize proxyVersion=_proxyVersion;
-@property(nonatomic) _Bool supportsFallback; // @synthesize supportsFallback=_supportsFallback;
-@property(nonatomic) _Bool supportsResumption; // @synthesize supportsResumption=_supportsResumption;
-@property(retain, nonatomic) NSString *tcpProxyFqdn; // @synthesize tcpProxyFqdn=_tcpProxyFqdn;
-@property(retain, nonatomic) NSData *tokenChallenge; // @synthesize tokenChallenge=_tokenChallenge;
-@property(retain, nonatomic) NSData *tokenKeyInfo; // @synthesize tokenKeyInfo=_tokenKeyInfo;
-@property(retain, nonatomic) NSString *vendor; // @synthesize vendor=_vendor;
 
 @end
 

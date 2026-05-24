@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface CHSWidgetExtensionContainer
 {
     id storage;
-    id iconResolver;
-    id $__lazy_storage_$__hash;
 }
 
 - (id);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (long long);
 - (id);
 - (id);
@@ -31,14 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *allExtensions;
 @property(nonatomic, readonly) NSString *containerBundleIdentifier;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *iconVersion;
-@property(nonatomic, readonly) NSArray *localExtensions;
-@property(nonatomic, readonly) NSString *localizedContainerDisplayName;
-@property(nonatomic, readonly) NSDictionary *remoteExtensionsByDeviceIdentifier;
 
 @end
 

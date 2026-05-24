@@ -5,5 +5,7 @@
 //
 
 @protocol CKXPCLogicalDeviceScopedDaemon
+- (void);
+- (void);
 @end
 

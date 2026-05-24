@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMSongLibrary, NSCountedSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXFlexMusicLibrary
 {
     NSObject<OS_dispatch_queue> *_queue;
-    FMSongLibrary *_queue_library;
-    NSCountedSet *_queue_downloadingAssetsRequestCount;
 }
 
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)_	;
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
@@ -37,7 +35,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (id);

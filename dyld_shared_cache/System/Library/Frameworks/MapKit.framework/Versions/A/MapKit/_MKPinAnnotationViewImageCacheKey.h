@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKPinAnnotationViewImageCacheKey
 {
     unsigned long long _mapType;
-    NSColor *_pinColor;
-    NSString *_appearanceName;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)ShieldHeight: /* Error: Ran out of types for this method. */;
+- (void)setMaxShieldHeight: /* Error: Ran out of types for this method. */;
 
 @end
 

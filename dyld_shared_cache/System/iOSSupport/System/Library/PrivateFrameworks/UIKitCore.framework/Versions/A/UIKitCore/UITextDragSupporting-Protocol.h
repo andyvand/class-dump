@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextRange;
+@protocol UITextDraggableGeometry, _UITextPreviewRenderer;
+
 @protocol UITextDragSupporting
+- (void);
+- (id <_UITextPreviewRenderer>)dispatcher:(UITextRange *)arg1 didReceiveDismissalReflectionForNoticeGUIDs:(_Bool)arg2;
+- (_Bool);
 
 @optional
+- (id <UITextDraggableGeometry>)telephonyCountryCodesEligibleForJunkFiltering;
 - (_Bool)pointerInteraction;
 @end
 

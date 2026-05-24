@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, TRIClientRolloutArtifact, TRIRolloutDeployment;
-@protocol TRIFactorPackSetId, TRIRampId;
+@class TRIRolloutDeployment;
 
 @interface TRIRolloutRecord
 {
     TRIRolloutDeployment *_deployment;
-    NSString<TRIRampId> *_rampId;
-    NSString<TRIFactorPackSetId> *_activeFactorPackSetId;
-    NSNumber *_activeTargetingRuleIndex;
-    NSString<TRIFactorPackSetId> *_targetedFactorPackSetId;
-    NSNumber *_targetedTargetingRuleIndex;
-    long long _status;
-    NSArray *_namespaces;
-    TRIClientRolloutArtifact *_artifact;
 }
 
-+ (id);
++ (id)inactiveForegroundLayer;
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,31 +25,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) `;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)ected type compatible with %s
+;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)a×ð!Bù1!1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *activeFactorPackSetId; // @synthesize activeFactorPackSetId=_activeFactorPackSetId;
-@property(readonly, nonatomic) NSNumber *activeTargetingRuleIndex; // @synthesize activeTargetingRuleIndex=_activeTargetingRuleIndex;
-@property(readonly, nonatomic) TRIClientRolloutArtifact *artifact; // @synthesize artifact=_artifact;
 @property(readonly, nonatomic) TRIRolloutDeployment *deployment; // @synthesize deployment=_deployment;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSString<TRIRampId> *rampId; // @synthesize rampId=_rampId;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *targetedFactorPackSetId; // @synthesize targetedFactorPackSetId=_targetedFactorPackSetId;
-@property(readonly, nonatomic) NSNumber *targetedTargetingRuleIndex; // @synthesize targetedTargetingRuleIndex=_targetedTargetingRuleIndex;
 
 @end
 

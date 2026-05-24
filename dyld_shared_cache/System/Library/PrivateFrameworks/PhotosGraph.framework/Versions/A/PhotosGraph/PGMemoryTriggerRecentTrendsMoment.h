@@ -13,10 +13,10 @@
     PGGraphSceneFeatureNodeCollection *_trendsSceneFeatureNodes;
 }
 
+- (id).framework/Versions/A/Frameworks/AccessibilityVisuals.framework/Versions/A/AccessibilityVisuals;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)";
+- (unsigned long long)commendation"16;
 - (void);
 
 @end

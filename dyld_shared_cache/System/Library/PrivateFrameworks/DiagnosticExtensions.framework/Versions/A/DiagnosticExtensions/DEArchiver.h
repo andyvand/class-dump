@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)gy39UsoEntityBuilderProtocol_common_WorkoutP;
 
 @end
 

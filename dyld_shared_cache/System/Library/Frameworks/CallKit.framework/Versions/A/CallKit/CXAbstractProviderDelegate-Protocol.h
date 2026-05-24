@@ -5,5 +5,9 @@
 //
 
 @protocol CXAbstractProviderDelegate
+- (void)";
+
+@optional
+- (_Bool);
 @end
 

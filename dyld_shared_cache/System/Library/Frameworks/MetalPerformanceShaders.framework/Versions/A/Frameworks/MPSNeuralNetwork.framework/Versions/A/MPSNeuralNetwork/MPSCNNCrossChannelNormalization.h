@@ -9,9 +9,6 @@
 @interface MPSCNNCrossChannelNormalization : MPSCNNKernel
 {
     unsigned long long _kernelSize;
-    float _alpha;
-    float _beta;
-    float _delta;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(readonly, nonatomic) unsigned long long kernelSize; // @synthesize kernelSize=_kernelSize;
 
 @end
 

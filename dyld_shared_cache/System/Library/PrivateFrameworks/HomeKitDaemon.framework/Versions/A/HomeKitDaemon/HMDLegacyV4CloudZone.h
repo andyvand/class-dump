@@ -10,28 +10,24 @@ __attribute__((visibility("hidden")))
 @interface HMDLegacyV4CloudZone
 {
     NSSet *_participants;
-    long long _keyStatus;
-    NSString *_rootRecordName;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)stopAllSharingWithReason:completion: /* Error: Ran out of types for this method. */;
+- (id)stopAllSharingWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)status;
+- (id)failedDirectionsSettingsPath;
+- (id)etaController:(id)arg1 sharedTripDidBecomeAvailable: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)setProgressValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void).BackingStore;
 
 // Remaining properties
-@property(readonly, nonatomic) long long keyStatus; // @synthesize keyStatus=_keyStatus;
-@property(readonly, nonatomic) NSSet *participants; // @synthesize participants=_participants;
 @property(readonly) NSString *rootRecordName; // @synthesize rootRecordName=_rootRecordName;
 
 @end

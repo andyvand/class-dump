@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)create an IMDChat with an empty display name. Setting display name to nil instead.;
 + (id);
 - (void);
 

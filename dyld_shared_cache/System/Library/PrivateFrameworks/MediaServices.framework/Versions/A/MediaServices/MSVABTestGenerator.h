@@ -7,14 +7,11 @@
 @interface MSVABTestGenerator
 {
     float _probabilityForOutcomeA;
-    long long _totalExperiments;
-    long long _totalForOutcomeA;
-    long long _totalForOutcomeB;
 }
 
 - (void);
 - (long long);
-- (long long);
+- (long long)#;
 - (long long);
 - (float);
 - (long long);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float probabilityForOutcomeA; // @synthesize probabilityForOutcomeA=_probabilityForOutcomeA;
-@property(readonly, nonatomic) long long totalExperiments; // @synthesize totalExperiments=_totalExperiments;
-@property(readonly, nonatomic) long long totalForOutcomeA; // @synthesize totalForOutcomeA=_totalForOutcomeA;
-@property(readonly, nonatomic) long long totalForOutcomeB; // @synthesize totalForOutcomeB=_totalForOutcomeB;
 
 @end
 

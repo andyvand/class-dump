@@ -6,7 +6,7 @@
 
 #import <Contacts/CNGroup.h>
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface CNMutableGroup : CNGroup
 {
@@ -14,16 +14,6 @@
 
 
 // Remaining properties
-@property(copy) NSDate *creationDate; // @dynamic creationDate;
-@property(copy) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(copy) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(copy) NSData *externalRepresentation; // @dynamic externalRepresentation;
 @property(copy) NSString *externalURI; // @dynamic externalURI;
-@property(copy) NSString *externalUUID; // @dynamic externalUUID;
-@property int iOSLegacyIdentifier; // @dynamic iOSLegacyIdentifier;
-@property(copy) NSString *identifier; // @dynamic identifier;
-@property(copy) NSDate *modificationDate; // @dynamic modificationDate;
-@property(copy) NSString *name; // @dynamic name;
-@property(copy, nonatomic) CNGroup *snapshot; // @dynamic snapshot;
 @end
 

@@ -7,7 +7,7 @@
 @class MLFeatureValue, NSSet;
 
 @protocol MLFeatureProvider
-- (MLFeatureValue *)_bin_4;
+- (MLFeatureValue *)_drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

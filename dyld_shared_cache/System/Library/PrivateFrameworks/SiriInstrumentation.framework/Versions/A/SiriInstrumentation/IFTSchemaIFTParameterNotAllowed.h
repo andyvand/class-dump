@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTTypedValue, NSData, NSString;
-
 @interface IFTSchemaIFTParameterNotAllowed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_parameterId;
-    IFTSchemaIFTTypedValue *_value;
-    int _reason;
-    CDStruct_592e509c _has;
-    _Bool _hasParameterId;
-    _Bool _hasValue;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,12 +28,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE reply_to_guid = ?;;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)qualifiedIdentifier;
+- (id)r:failed to get image data 1 from cvPixelBuffer.
+ /* Error: Ran out of types for this method. */;
 - (id)!PCùQàð1Â0@ù
 × ;
 - (id)nputModeSwitchEnded",&,N,V_ended;
@@ -54,14 +47,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) IFTSchemaIFTTypedValue *value; // @synthesize value=_value;
 
 @end
 

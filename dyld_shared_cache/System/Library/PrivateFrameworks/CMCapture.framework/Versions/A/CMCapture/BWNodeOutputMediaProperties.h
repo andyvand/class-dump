@@ -4,59 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWDataBufferPool, BWFormat, BWNodeOutput, BWPixelBufferPool, BWPointCloudFormat, BWVideoFormat, NSString;
+@class BWFormat, NSString;
 
 @interface BWNodeOutputMediaProperties
 {
     NSString *_associatedAttachedMediaKey;
-    BWNodeOutput *_owningNodeOutput;
-    BWFormat *_resolvedFormat;
-    BWFormat *_liveFormat;
-    BWPixelBufferPool *_preparedPixelBufferPool;
-    BWPixelBufferPool *_livePixelBufferPool;
-    int _preparedPixelBufferPoolSize;
-    int _livePixelBufferPoolSize;
-    BWDataBufferPool *_preparedDataBufferPool;
-    BWDataBufferPool *_liveDataBufferPool;
-    int _preparedDataBufferPoolSize;
-    int _liveDataBufferPoolSize;
-    int _resolvedRetainedBufferCount;
-    struct os_unfair_lock_s _bufferPoolsLock;
-    unsigned int _mediaType;
 }
 
 - (void);
+- (id)TCMessageEntry;
+- (void)(;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
-- (id);
-- (id);
-- (int);
-- (int);
+- (unsigned int);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (int);
-- (int);
 - (id);
 - (id);
 - (int);
+- (int);
 - (void);
-- (void)TS;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (int);
+- (int);
+- (id);
+- (id);
+- (int)a;
+- (void);
+- (void)_prevBoxedFacePTS;
 - (void)eSettings",R;
 - (void)Nv;
 - (id);
@@ -64,23 +50,7 @@
 - (id)d:BWGraph.m:3365 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) BWDataBufferPool *liveDataBufferPool;
-@property(nonatomic) int liveDataBufferPoolSize; // @synthesize liveDataBufferPoolSize=_liveDataBufferPoolSize;
 @property(retain, nonatomic) BWFormat *liveFormat; // @synthesize liveFormat=_liveFormat;
-@property(retain, nonatomic) BWPixelBufferPool *livePixelBufferPool;
-@property(nonatomic) int livePixelBufferPoolSize; // @synthesize livePixelBufferPoolSize=_livePixelBufferPoolSize;
-@property(readonly, nonatomic) BWVideoFormat *liveVideoFormat;
-@property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) BWDataBufferPool *preparedDataBufferPool; // @synthesize preparedDataBufferPool=_preparedDataBufferPool;
-@property(nonatomic) int preparedDataBufferPoolSize; // @synthesize preparedDataBufferPoolSize=_preparedDataBufferPoolSize;
-@property(readonly, nonatomic) BWDataBufferPool *preparedOrLiveDataBufferPool;
-@property(readonly, nonatomic) BWPixelBufferPool *preparedOrLivePixelBufferPool;
-@property(retain, nonatomic) BWPixelBufferPool *preparedPixelBufferPool; // @synthesize preparedPixelBufferPool=_preparedPixelBufferPool;
-@property(nonatomic) int preparedPixelBufferPoolSize; // @synthesize preparedPixelBufferPoolSize=_preparedPixelBufferPoolSize;
-@property(retain, nonatomic) BWFormat *resolvedFormat;
-@property(readonly, nonatomic) BWPointCloudFormat *resolvedPointCloudFormat;
-@property(nonatomic) int resolvedRetainedBufferCount; // @synthesize resolvedRetainedBufferCount=_resolvedRetainedBufferCount;
-@property(readonly, nonatomic) BWVideoFormat *resolvedVideoFormat;
 
 @end
 

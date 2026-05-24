@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3AggregateQuery, ML3MusicLibrary, ML3Predicate, NSArray, NSString;
+@class ML3MusicLibrary, NSString;
 
 @interface ML3Query
 {
     ML3MusicLibrary *_library;
-    Class _entityClass;
-    ML3Predicate *_predicate;
-    NSArray *_orderingTerms;
-    NSString *_propertyToCount;
-    ML3AggregateQuery *_nonDirectAggregateQuery;
-    _Bool _usingSections;
-    long long _options;
-    _Bool _filtersOnDynamicProperties;
-    unsigned long long _limit;
 }
 
 + (_Bool);
-- (id);
+- (id)nfo.plist content);
 - (id);
 - (id);
 - (void);
@@ -32,13 +23,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)!;
+- (id)L[;
 - (void);
-- (void);
+- (void)initWithUTF8String:(id)arg1;
 - (id);
 - (id);
-- (id);
+- (id)__DATA_CONST;
 - (id)0@ù
 × ;
 - (id)Ô°!DDù°1Â0@ù
@@ -50,16 +41,16 @@
 - (_Bool)!Ð!<GùQ1Â0@ù
 × ;
 - (id)4;
-- (id)rogress: /* Error: Ran out of types for this method. */;
-- (void)anceTasksUsingActivity:(id)arg1;
-- (id)ction: /* Error: Ran out of types for this method. */;
-- (id)ementRevisionForRevisionTypeContentWithConnection:deletionType:persistentIDs: /* Error: Ran out of types for this method. */;
-- (Class)sChapterMetadataUrl;
-- (id)ntRevisionCompletionBlocks;
-- (id)ithError:(id)arg1;
+- (id)updateImportProgress: /* Error: Ran out of types for this method. */;
+- (void)performMainentanceTasksUsingActivity:(id)arg1;
+- (id)isBusyConnection: /* Error: Ran out of types for this method. */;
+- (id)incrementRevisionForRevisionTypeContentWithConnection:deletionType:persistentIDs: /* Error: Ran out of types for this method. */;
+- (Class)hasChapterMetadataUrl;
+- (id)_updateToLibraryCurrentRevisionCompletionBlocks;
+- (id)_processTrackAsset:(id)arg1 forSource:(_Bool)arg2 withError: /* Error: Ran out of types for this method. */;
 - (_Bool)N,V_terminable;
 - (unsigned long long)dId;
-- (void)uralStatement;
+- (void)ML3DatabaseNaturalStatement;
 - (void)Ø\;
 - (id)|	`  -¤-¬809P>Ô>¨E;
 - (_Bool)L;
@@ -70,8 +61,8 @@
 - (void)or %@ / %@;
 - (id)ISTS ItemArtistKeepLocal ON item_artist (keep_local ASC);
 - (id)_setInMyLibraryColumn AFTER INSERT ON item_store BEGIN UPDATE item SET in_my_library = ( CASE WHEN new.home_sharing_id OR (new.store_saga_id AND new.cloud_in_my_library) OR new.purchase_history_id OR (new.sync_id AND new.sync_in_my_library) OR new.is_ota_purchased THEN 1 ELSE 0 END) WHERE item_pid = new.item_pid; END;;
-- (void)ltered;
-- (id)e_guid;
+- (void)filtered;
+- (id)source_device_guid;
 - (id)que collections. This should be impossible!;
 - (_Bool)id;
 - (id)sion_type, deleted, class FROM entity_revision ;
@@ -91,30 +82,11 @@
 - (_Bool);
 - (_Bool)X;
 - (_Bool)	;
-- (id)portItem;
+- (id)32ML3ITunesSyncContainerImportItem;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long anyEntityPersistentID;
-@property(readonly, nonatomic) unsigned long long countOfEntities;
-@property(readonly, nonatomic) Class entityClass; // @synthesize entityClass=_entityClass;
-@property(readonly, nonatomic) _Bool filtersOnDynamicProperties; // @synthesize filtersOnDynamicProperties=_filtersOnDynamicProperties;
-@property(readonly, nonatomic) _Bool hasEntities;
-@property(nonatomic) _Bool ignoreRestrictionsPredicates;
-@property(nonatomic) _Bool ignoreSystemFilterPredicates;
-@property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) ML3AggregateQuery *nonDirectAggregateQuery; // @synthesize nonDirectAggregateQuery=_nonDirectAggregateQuery;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSArray *orderingTerms; // @synthesize orderingTerms=_orderingTerms;
-@property(readonly, nonatomic) NSString *persistentIDProperty;
-@property(readonly, nonatomic) ML3Predicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) ML3Predicate *predicateIncludingSystemwidePredicates;
-@property(readonly, nonatomic) NSString *propertyToCount; // @synthesize propertyToCount=_propertyToCount;
-@property(readonly, nonatomic) NSString *sectionProperty;
-@property(readonly, nonatomic) NSString *selectCountSQL;
 @property(readonly, nonatomic) NSString *selectPersistentIDsSQL;
-@property(readonly, nonatomic) _Bool usingSections; // @synthesize usingSections=_usingSections;
 
 @end
 

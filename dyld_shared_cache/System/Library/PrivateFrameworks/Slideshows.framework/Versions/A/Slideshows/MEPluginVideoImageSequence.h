@@ -11,10 +11,9 @@
 @interface MEPluginVideoImageSequence : MEPlugin
 {
     MERenderer *_renderer;
-    unsigned int *_renderBuffer;
 }
 
-+ (void);
++ (void)C;
 + (_Bool);
 - (id);
 - (_Bool);

@@ -7,16 +7,11 @@
 @interface NSScriptExecutionContext
 {
     id _topLevelObject;
-    id _objectBeingTested;
-    id _rangeContainerObject;
-    id _moreVars;
 }
 
 + (id);
 
 // Remaining properties
-@property(retain) id objectBeingTested;
-@property(retain) id rangeContainerObject;
 @property(retain) id topLevelObject;
 
 @end

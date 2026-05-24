@@ -5,13 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface _GEOProgressForReceivingOverXPC
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);

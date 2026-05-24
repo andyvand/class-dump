@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentityProperties, ICUserIdentityStore, NSArray, NSMapTable, NSMutableArray, NSMutableDictionary;
+@class ICUserIdentityProperties;
 
 __attribute__((visibility("hidden")))
 @interface _ICUserCredentialProviderRequestSession
 {
     ICUserIdentityProperties *_activeICloudAccountProperties;
-    NSArray *_credentialRequests;
-    NSMapTable *_delegationCredentialRequestToSpecificUserIdentity;
-    NSMapTable *_delegationCredentialRequestToIdentityProperties;
-    NSMutableDictionary *_delegationUserIdentityToUUIDs;
-    long long _maximumQualityOfService;
-    NSMutableArray *_pendingPropertyLoadCredentialRequests;
-    NSMutableArray *_pendingResponseCredentialRequests;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType)VWXYZabcdefghijklmnopqrstuvwxyz0123456789 !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -37,22 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ionTime: /* Error: Ran out of types for this method. */;
-- (void)IdentityProperties;
+- (id)setLastAllowedInteractiveAuthenticationTime: /* Error: Ran out of types for this method. */;
+- (void)delegationCredentialRequestToIdentityProperties;
 - (void)ctiveWatchKitUser,V_activeWatchKitUser;
 
 // Remaining properties
 @property(copy, nonatomic) ICUserIdentityProperties *activeICloudAccountProperties; // @synthesize activeICloudAccountProperties=_activeICloudAccountProperties;
-@property(readonly, copy, nonatomic) NSArray *credentialRequests; // @synthesize credentialRequests=_credentialRequests;
-@property(retain, nonatomic) NSMapTable *delegationCredentialRequestToIdentityProperties; // @synthesize delegationCredentialRequestToIdentityProperties=_delegationCredentialRequestToIdentityProperties;
-@property(retain, nonatomic) NSMapTable *delegationCredentialRequestToSpecificUserIdentity; // @synthesize delegationCredentialRequestToSpecificUserIdentity=_delegationCredentialRequestToSpecificUserIdentity;
-@property(retain, nonatomic) NSMutableDictionary *delegationUserIdentityToUUIDs; // @synthesize delegationUserIdentityToUUIDs=_delegationUserIdentityToUUIDs;
-@property(readonly, nonatomic) _Bool hasPendingResponses;
-@property(readonly, nonatomic) ICUserIdentityStore *identityStore;
-@property(readonly, nonatomic) long long maximumQualityOfService; // @synthesize maximumQualityOfService=_maximumQualityOfService;
-@property(retain, nonatomic) NSMutableArray *pendingPropertyLoadCredentialRequests; // @synthesize pendingPropertyLoadCredentialRequests=_pendingPropertyLoadCredentialRequests;
-@property(retain, nonatomic) NSMutableArray *pendingResponseCredentialRequests; // @synthesize pendingResponseCredentialRequests=_pendingResponseCredentialRequests;
-@property(readonly, copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

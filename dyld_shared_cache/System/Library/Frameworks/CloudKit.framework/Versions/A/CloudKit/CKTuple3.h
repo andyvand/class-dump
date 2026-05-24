@@ -9,8 +9,6 @@
 @interface CKTuple3 : CKTuple
 {
     id _v1;
-    id _v2;
-    id _v3;
 }
 
 - (id);
@@ -23,13 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void)RegistryDelegate;
+- (void)CKPKPushRegistryDelegate;
 - (id)Ü;
 
 // Remaining properties
 @property(retain, nonatomic) id v1; // @synthesize v1=_v1;
-@property(retain, nonatomic) id v2; // @synthesize v2=_v2;
-@property(retain, nonatomic) id v3; // @synthesize v3=_v3;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface CEMActivationSimpleDeclaration_StatusInstalledConfigurationsItem : CEMPayloadBase
 {
     NSString *_statusIdentifier;
-    NSString *_statusServerHash;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusIdentifier; // @synthesize statusIdentifier=_statusIdentifier;
-@property(copy, nonatomic) NSString *statusServerHash; // @synthesize statusServerHash=_statusServerHash;
 
 @end
 

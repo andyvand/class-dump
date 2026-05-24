@@ -11,18 +11,16 @@
 @interface TLKRoundedCornerLabel : TLKView
 {
     TLKLabel *_label;
-    unsigned long long _sizeConfiguration;
-    NSView *_borderView;
 }
 
 - (unsigned long long);
 - (void);
 - (double);
-- (void);
+- (void)command dictionary to FDR Service.;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSView *borderView; // @synthesize borderView=_borderView;
-@property(retain, nonatomic) TLKLabel *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long sizeConfiguration; // @synthesize sizeConfiguration=_sizeConfiguration;
 
 @end
 

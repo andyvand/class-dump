@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, RWIProtocolCSSRule;
+@class RWIProtocolCSSRule;
 
 @interface RWIProtocolCSSRuleMatch : RWIProtocolJSONObject
 {
@@ -15,11 +15,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@9(;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *matchingSelectors;
 @property(retain, nonatomic) RWIProtocolCSSRule *rule;
 
 @end

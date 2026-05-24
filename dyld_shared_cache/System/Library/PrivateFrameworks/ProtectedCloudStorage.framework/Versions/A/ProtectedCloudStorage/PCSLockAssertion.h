@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PCSLockManager;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PCSLockAssertion
 {
     _Bool _held;
-    NSString *_name;
-    PCSLockManager *_manager;
 }
 
 - (void);
@@ -24,11 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)in info at %@%s;
 
 // Remaining properties
-@property _Bool held; // @synthesize held=_held;
-@property(retain) PCSLockManager *manager; // @synthesize manager=_manager;
 @property(retain) NSString *name; // @synthesize name=_name;
 
 @end

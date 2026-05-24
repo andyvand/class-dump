@@ -6,23 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 @interface RAWDemosaicFilter : RAWFilter
 {
     CIImage *inputImage;
-    CIVector *inputBlacks;
-    NSNumber *inputRange;
-    CIVector *inputFactors;
-    NSNumber *inputPattern;
-    NSNumber *inputDespeckle;
-    CIVector *inputCropRect;
-    NSNumber *inputRepresentativeNoise;
-    NSNumber *inputDraftMode;
-    NSNumber *inputScaleFactor;
-    CIVector *inputNoiseModel;
-    NSNumber *inputBaselineExposure;
-    NSNumber *inputVersion;
 }
 
 - (int);
@@ -33,7 +21,7 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)RB;
 - (int);
 - (id);
 - (struct CGRect);

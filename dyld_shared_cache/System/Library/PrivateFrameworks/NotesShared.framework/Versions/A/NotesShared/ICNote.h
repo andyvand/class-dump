@@ -6,33 +6,11 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICMergeableDictionary, ICOutlineState, ICSelectorDelayer, ICTTMergeableStringVersionedDocument, ICTTVectorMultiTimestamp, NSData, NSDate, NSMutableArray, NSUUID;
+@class NSUUID;
 
 @interface ICNote : ICCloudSyncingObject
 {
     NSUUID *_uuid;
-    id _noteDidSaveObserver;
-    NSMutableArray *_noteDidSaveBlocks;
-    _Bool needsRefresh;
-    _Bool needsToSaveLastViewedTimestamp;
-    _Bool preventReleasingTextStorage;
-    _Bool shouldAddMediaAsynchronously;
-    _Bool isRecoveringCryptoWrappedKey;
-    _Bool _isPerformingMerge;
-    _Bool _isNewNoteWithHashtagsInsertedIntoBody;
-    _Bool wasAuthenticatedBeforeTurningIntoFault;
-    ICTTVectorMultiTimestamp *archivedTimestamp;
-    NSData *decryptedData;
-    ICTTMergeableStringVersionedDocument *_document;
-    ICTTVectorMultiTimestamp *_lastNotifiedTimestamp;
-    ICTTVectorMultiTimestamp *_lastViewedTimestamp;
-    id _reservedForCollaborationColorManager;
-    id _reservedForTextContentStorage;
-    NSDate *_recentUpdatesGenerationDate;
-    NSDate *_recentUpdatesFirstSeenDate;
-    ICOutlineState *_outlineState;
-    ICSelectorDelayer *updateLinksSelectorDelayer;
-    ICMergeableDictionary *_replicaIDToUserID;
 }
 
 @end

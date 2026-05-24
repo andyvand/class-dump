@@ -5,23 +5,16 @@
 //
 
 @class UITextRange;
-@protocol NSObject><NSCopying;
 
 @protocol UITextSearching
 - (UITextRange *)F::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @optional
-- (_Bool)tusBarIsVisible;
+- (_Bool);
+- (void);
+- (_Bool)WebPage_SetStatusBarIsVisible;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
+- (id);
 - (id);
-- (id);
-- (id)Buffer;
+- (id)clearWeightsAndBiasesBuffer;
 
 @end
 

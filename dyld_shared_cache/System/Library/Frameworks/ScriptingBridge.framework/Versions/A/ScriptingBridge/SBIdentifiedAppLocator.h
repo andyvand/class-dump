@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (const struct AEDesc *);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);

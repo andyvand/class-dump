@@ -7,11 +7,6 @@
 @interface PodcastsUI.DynamicImpressionsCalculator
 {
     id tracker;
-    id calculator;
-    id parentID;
-    id elementPositions;
-    id applicationLifecycleObserver;
-    id wasVisibleBeforeGoingIntoBackground;
 }
 
 @end

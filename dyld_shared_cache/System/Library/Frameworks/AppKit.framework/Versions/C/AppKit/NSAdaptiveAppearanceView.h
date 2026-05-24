@@ -6,38 +6,28 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 @interface NSAdaptiveAppearanceView : NSView
 {
     _Bool animatesAppearanceTransitions;
-    double lightThreshold;
-    double darkThreshold;
-    double _luma;
 }
 
 - (_Bool);
+- (void)backgroundTask:(double)arg1 getAuthHeadersForResponse:reply: /* Error: Ran out of types for this method. */;
+- (void)attributeWithCompletionPolicy:(_Bool)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)H,;
 - (double);
-- (double);
-- (void);
+- (double)Credential=^^?^{__CFAllocator}i^^?^{_CFURLCredential}iQ}>24;
+- (void);
 - (_Bool);
 - (double);
 - (id);
-- (id)oAdaptiveColorMapping;
+- (id)_shouldDoAdaptiveColorMapping;
 - (id)ÿÿÇ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double _luma; // @synthesize _luma;
 @property(nonatomic) _Bool animatesAppearanceTransitions; // @synthesize animatesAppearanceTransitions;
-@property(nonatomic, readonly) double darkThreshold; // @synthesize darkThreshold;
-@property(nonatomic, copy) NSString *groupName;
-@property(nonatomic, readonly) double lightThreshold; // @synthesize lightThreshold;
-@property(nonatomic) _Bool windowServerAware;
 
 @end
 

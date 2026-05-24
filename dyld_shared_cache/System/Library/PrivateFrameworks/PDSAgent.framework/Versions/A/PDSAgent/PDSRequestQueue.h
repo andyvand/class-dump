@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTMessageDelivery, NSDate, NSObject, PDSRequest, PDSUserTracker;
-@protocol OS_dispatch_queue, PDSRequestQueueDelegate;
+@class PDSRequest;
+@protocol PDSRequestQueueDelegate;
 
 @interface PDSRequestQueue
 {
     id <PDSRequestQueueDelegate> _delegate;
-    long long _messageTimeout;
-    PDSRequest *_inflightRequest;
-    PDSRequest *_queuedRequest;
-    NSObject<OS_dispatch_queue> *_queue;
-    FTMessageDelivery *_messageDelivery;
-    PDSUserTracker *_userTracker;
-    CDUnknownBlockType _pushTokenBlock;
-    CDUnknownBlockType _entryStoreBlock;
-    long long _authRetries;
-    NSDate *_lastReauthAttempt;
 }
 
+- (void)}@ Releasing UI busy count. Now busy = %d, UI busy = %d;
+- (void)blic}@ Retaining UI busy count. Now busy = %d, UI busy = %d;
+- (void). Now busy = %d, UI busy = %d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)Attempting to enqueue a command without a command string. Rejected and ignored.;
+- (long long)c}@:Failed to delete sharing relationship %@. Error:%{public}@. Reset-syncing ACLs. /* Error: Ran out of types for this method. */;
+- (id)blic}@. Setting relationship states to Failed.;
+- (id)@:(id)arg1 Failed to add empty asset collection. Error:(id)arg2 %{public}@.;
+- (long long)blic}@. Reset-syncing album.;
+- (void)iled to set synced state for asset collection %{public}@ in album %{public}@. Error:(id)arg1 %{public}@. Requesting latest state.;
+- (void)lbum %{public}@. Error:(id)arg1 %{public}@. Requesting latest state.;
+- (id)set synced state for album %{public}@. Error:%{public}@. Requesting latest state. /* Error: Ran out of types for this method. */;
+- (void)m synced state;
+- (void)@:(id)arg1 Finished checking album synced state;
+- (_Bool)xists. Ignoring.;
+- (id)blic}@ that no lenger exists. Ignoring.;
+- (void)Error:(long long)arg1 %{public}@. Reset-syncing albums.;
+- (id)from album GUID %{public}@. Error:%{public}@. Reset-syncing albums. /* Error: Ran out of types for this method. */;
+- (void)cribe from album GUID %{public}@. Error:(id)arg1 %{public}@. Reset-syncing albums.;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -51,27 +41,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)leEvent(pos),not configured;
+- (CDUnknownBlockType)set_activity_type;
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long authRetries; // @synthesize authRetries=_authRetries;
-@property(nonatomic) __weak id <PDSRequestQueueDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType entryStoreBlock; // @synthesize entryStoreBlock=_entryStoreBlock;
 @property(retain, nonatomic) PDSRequest *inflightRequest; // @synthesize inflightRequest=_inflightRequest;
-@property(retain, nonatomic) NSDate *lastReauthAttempt; // @synthesize lastReauthAttempt=_lastReauthAttempt;
-@property(retain, nonatomic) FTMessageDelivery *messageDelivery; // @synthesize messageDelivery=_messageDelivery;
-@property(nonatomic) long long messageTimeout; // @synthesize messageTimeout=_messageTimeout;
-@property(copy, nonatomic) CDUnknownBlockType pushTokenBlock; // @synthesize pushTokenBlock=_pushTokenBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) PDSRequest *queuedRequest; // @synthesize queuedRequest=_queuedRequest;
-@property(retain, nonatomic) PDSUserTracker *userTracker; // @synthesize userTracker=_userTracker;
 
 @end
 

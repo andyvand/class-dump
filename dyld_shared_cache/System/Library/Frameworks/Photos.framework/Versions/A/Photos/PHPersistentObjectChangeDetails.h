@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PHPersistentObjectChangeDetails
 {
     long long _objectType;
-    NSSet *_insertedLocalIdentifiers;
-    NSSet *_updatedLocalIdentifiers;
-    NSSet *_deletedLocalIdentifiers;
 }
 
 - (id);
-- (id);
+- (id)yS;
 - (id);
 - (id);
 - (long long);
 - (void),GisUserCreated,V_userCreated;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *deletedLocalIdentifiers; // @synthesize deletedLocalIdentifiers=_deletedLocalIdentifiers;
-@property(readonly, nonatomic) NSSet *insertedLocalIdentifiers; // @synthesize insertedLocalIdentifiers=_insertedLocalIdentifiers;
 @property(readonly, nonatomic) long long objectType; // @synthesize objectType=_objectType;
-@property(readonly, nonatomic) NSSet *updatedLocalIdentifiers; // @synthesize updatedLocalIdentifiers=_updatedLocalIdentifiers;
 
 @end
 

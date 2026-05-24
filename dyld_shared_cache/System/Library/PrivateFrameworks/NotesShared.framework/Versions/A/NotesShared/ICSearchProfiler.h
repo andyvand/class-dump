@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)ons/C/Foundation;
 + (void);
 + (void);
 

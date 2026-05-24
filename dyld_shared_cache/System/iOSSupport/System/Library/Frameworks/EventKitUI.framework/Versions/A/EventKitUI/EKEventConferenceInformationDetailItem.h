@@ -14,7 +14,7 @@
 + (id);
 + (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)rying to cache all records for a full sync;
 - (_Bool);
 
 @end

@@ -8,16 +8,10 @@ __attribute__((visibility("hidden")))
 @interface GEOTileCacheReserved
 {
     struct mutex _reservedLock;
-    struct list<CacheItem, std::allocator<CacheItem>> _reservedList;
-    struct unordered_map<_GEOTileKey, std::__list_iterator<CacheItem, void *>, hashkey, eqkey, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>>> _reservedMap;
-    unsigned long long _reservedMaxCapacity;
-    unsigned long long _reservedMaxCost;
-    unsigned long long _reservedCurrentCost;
-    unsigned long long _reservedCurrentCount;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)SLTwitterUpdateMultiPartStatusURL;
 - (void);
 
 @end

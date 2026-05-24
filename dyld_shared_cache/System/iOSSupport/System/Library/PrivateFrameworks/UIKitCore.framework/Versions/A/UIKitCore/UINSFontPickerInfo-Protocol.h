@@ -7,20 +7,15 @@
 @class NSArray, NSAttributedString, NSString;
 
 @protocol UINSFontPickerInfo
+- (_Bool);
+- (NSString *);
 - (NSString *)!Eù1^ð1Â0@ù
 × ;
-- (NSAttributedString *)portedOrientations;
+- (NSAttributedString *)_ignoreAppSupportedOrientations;
 - (NSArray *)o12UIScrollViewCG;
 - (NSString *))è23PSþ;
 
 // Remaining properties
-@property(readonly) NSAttributedString *attributedString;
-@property(readonly) struct __CTFontDescriptor *ctFontDescriptor;
-@property(readonly) NSArray *faces;
 @property(readonly) NSString *familyName;
-@property(readonly) _Bool fontFamilyAvailable;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *postscriptName;
-@property(readonly) NSString *styleName;
 @end
 

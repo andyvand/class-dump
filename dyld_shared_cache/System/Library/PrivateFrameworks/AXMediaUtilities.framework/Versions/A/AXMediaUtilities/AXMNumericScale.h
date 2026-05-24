@@ -9,31 +9,25 @@
 @interface AXMNumericScale : AXMScale
 {
     double _lowerBound;
-    double _upperBound;
-    CDUnknownBlockType _apply;
-    CDUnknownBlockType _invert;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
 - (double);
 - (id);
-- (double);
+- (double);
 - (void);
-- (void);
+- (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)o find Darwin Cache directory:%{errno}d /* Error: Ran out of types for this method. */;
 - (void);
-- (CDUnknownBlockType)rideScaleMethod: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setOverrideScaleMethod: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType apply; // @synthesize apply=_apply;
-@property(copy, nonatomic) CDUnknownBlockType invert; // @synthesize invert=_invert;
 @property(nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

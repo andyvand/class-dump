@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
-
 @interface AXKStringTokenizer
 {
     struct __CFStringTokenizer *_tokenizer;
-    _Bool _shouldTrimWhitespaceAndNewLine;
-    NSLocale *_locale;
-    NSString *_currentToken;
-    NSString *_currentTokenLanguageID;
-    NSString *_inputString;
-    long long _tokenizerUnit;
-    struct _NSRange _currentTokenRange;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (long long);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (void);
-- (void);
+- (void));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,21 +32,14 @@
 - (struct __CFStringTokenizer *);
 - (void);
 - (void);
+- (id)(;
+- (id);
+- (id)RemoteMediaSessionManagerEnabled;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)setStickyKeysAlwaysHidden: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currentToken; // @synthesize currentToken=_currentToken;
-@property(copy, nonatomic) NSString *currentTokenLanguageID; // @synthesize currentTokenLanguageID=_currentTokenLanguageID;
 @property(nonatomic) struct _NSRange currentTokenRange; // @synthesize currentTokenRange=_currentTokenRange;
-@property(readonly, copy, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, nonatomic) _Bool isCurrentTokenValid;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) _Bool shouldTrimWhitespaceAndNewLine; // @synthesize shouldTrimWhitespaceAndNewLine=_shouldTrimWhitespaceAndNewLine;
-@property(readonly, nonatomic) long long tokenizerUnit; // @synthesize tokenizerUnit=_tokenizerUnit;
 
 @end
 

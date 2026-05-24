@@ -7,19 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileDownloadManager
 {
     id fileSizeLimit;
-    id maxDownloadAttempts;
-    id downloadTaskLimit;
-    id concurrentDownloadLimit;
-    id downloadTaskTimeoutSeconds;
-    id quarantinedGUIDLimit;
-    id listener;
-    id delegate;
-    id allDownloadTasks;
-    id retryDownloadTasks;
-    id activeDownloadTasks;
-    id suspendedDownloadTaskContinuations;
-    id downloadObserver;
-    id quarantinedGUIDs;
 }
 
 @end

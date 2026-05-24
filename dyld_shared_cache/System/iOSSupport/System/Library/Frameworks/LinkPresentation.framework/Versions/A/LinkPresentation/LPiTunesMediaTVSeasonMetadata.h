@@ -6,35 +6,30 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaTVSeasonMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startObservingHandles:callerHandle:groupName: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)tuConversationBalloonJoinButtonTapped:(id)arg1;
+- (void)transcriptMessageStatusFont;
+- (id)transcriptContactImageDiameter;
+- (id)transcriptCollectionViewNeedsScrollIntentEnforced:(id)arg1 withAnimationProperties: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewControllerWillScrollToBottom:(id)arg1;
+- (void)transcriptCollectionViewControllerWillBeginFullscreenEffectAnimationForOutgoingMessage:(id)arg1;
+- (_Bool)tokenizer;
+- (void)tapbackPickerBalloonParentViewReturningToSuggestionPicker:(CDUnknownBlockType)arg1;
+- (id)systemImageNamed: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)LPMetadataARAssetURL;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -47,19 +42,7 @@
 - (id)ÈÇ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

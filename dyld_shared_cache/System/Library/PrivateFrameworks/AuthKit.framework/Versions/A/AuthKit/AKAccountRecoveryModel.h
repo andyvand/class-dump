@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationCommandLineContext, AKCommandLineUtilities, AKServerRequestConfiguration;
+@class AKAppleIDAuthenticationCommandLineContext;
 
 @interface AKAccountRecoveryModel
 {
     AKAppleIDAuthenticationCommandLineContext *_context;
-    AKServerRequestConfiguration *_configuration;
-    AKCommandLineUtilities *_cliUtilities;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void)ü;
 
 // Remaining properties
-@property(retain, nonatomic) AKCommandLineUtilities *cliUtilities; // @synthesize cliUtilities=_cliUtilities;
-@property(retain, nonatomic) AKServerRequestConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) AKAppleIDAuthenticationCommandLineContext *context; // @synthesize context=_context;
 
 @end

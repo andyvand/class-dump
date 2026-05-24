@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface C2MultipeerChunkDataResponse
 {
     NSUUID *_requestUUID;
-    NSData *_chunkData;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *chunkData; // @synthesize chunkData=_chunkData;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
 
 @end

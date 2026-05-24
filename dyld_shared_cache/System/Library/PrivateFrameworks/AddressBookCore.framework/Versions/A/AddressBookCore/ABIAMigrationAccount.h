@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-@protocol ABAccountConfiguration;
+@class NSString;
 
 @interface ABIAMigrationAccount
 {
     NSString *_identifier;
-    id <ABAccountConfiguration> _config;
-    Class _sourceClass;
-    NSURL *_baseUrl;
 }
 
 - (Class);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)Hh;
 - (id);
 - (id);
-- (id);
+- (id)indexPathsFromIndexSet: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSURL *baseUrl; // @synthesize baseUrl=_baseUrl;
-@property(readonly, retain) id <ABAccountConfiguration> config; // @synthesize config=_config;
-@property(readonly) _Bool hasACAccountIdentifier;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *password;
-@property(readonly) Class sourceClass; // @synthesize sourceClass=_sourceClass;
 
 @end
 

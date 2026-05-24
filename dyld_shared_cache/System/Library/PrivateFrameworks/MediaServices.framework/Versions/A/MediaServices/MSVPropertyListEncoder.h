@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDateFormatter, NSFileHandle, NSMutableArray, NSMutableData, NSMutableString;
+@class NSData, NSFileHandle;
 
 @interface MSVPropertyListEncoder
 {
     NSData *_arrayOpeningTagData;
-    NSData *_arrayClosingTagData;
-    NSData *_dictionaryOpeningTagData;
-    NSData *_dictionaryClosingTagData;
-    NSData *_keyOpeningTagData;
-    NSData *_keyClosingTagData;
-    NSData *_stringOpeningTagData;
-    NSData *_stringClosingTagData;
-    NSData *_dataOpeningTagData;
-    NSData *_dataClosingTagData;
-    NSData *_boolTrueTagData;
-    NSData *_boolFalseTagData;
-    NSFileHandle *_outputFileHandle;
-    NSMutableData *_outputBuffer;
-    NSDateFormatter *_dateFormatter;
-    NSMutableArray *_containerStack;
-    NSMutableString *_tabPrefix;
-    NSData *_tabPrefixData;
 }
 
 - (id);
@@ -37,29 +20,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)k;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +50,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)-x;
 - (id);
 - (void);
 - (void);
@@ -75,28 +58,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *arrayClosingTagData; // @synthesize arrayClosingTagData=_arrayClosingTagData;
-@property(readonly, nonatomic) NSData *arrayOpeningTagData; // @synthesize arrayOpeningTagData=_arrayOpeningTagData;
-@property(readonly, nonatomic) NSData *boolFalseTagData; // @synthesize boolFalseTagData=_boolFalseTagData;
-@property(readonly, nonatomic) NSData *boolTrueTagData; // @synthesize boolTrueTagData=_boolTrueTagData;
-@property(retain, nonatomic) NSMutableArray *containerStack; // @synthesize containerStack=_containerStack;
-@property(readonly, nonatomic) NSData *dataClosingTagData; // @synthesize dataClosingTagData=_dataClosingTagData;
-@property(readonly, nonatomic) NSData *dataOpeningTagData; // @synthesize dataOpeningTagData=_dataOpeningTagData;
-@property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(readonly, nonatomic) NSData *dictionaryClosingTagData; // @synthesize dictionaryClosingTagData=_dictionaryClosingTagData;
-@property(readonly, nonatomic) NSData *dictionaryOpeningTagData; // @synthesize dictionaryOpeningTagData=_dictionaryOpeningTagData;
-@property(readonly, nonatomic) NSData *keyClosingTagData; // @synthesize keyClosingTagData=_keyClosingTagData;
-@property(readonly, nonatomic) NSData *keyOpeningTagData; // @synthesize keyOpeningTagData=_keyOpeningTagData;
-@property(retain, nonatomic) NSMutableData *outputBuffer; // @synthesize outputBuffer=_outputBuffer;
 @property(retain, nonatomic) NSFileHandle *outputFileHandle; // @synthesize outputFileHandle=_outputFileHandle;
-@property(readonly, nonatomic) NSData *stringClosingTagData; // @synthesize stringClosingTagData=_stringClosingTagData;
-@property(readonly, nonatomic) NSData *stringOpeningTagData; // @synthesize stringOpeningTagData=_stringOpeningTagData;
-@property(retain, nonatomic) NSMutableString *tabPrefix; // @synthesize tabPrefix=_tabPrefix;
-@property(retain, nonatomic) NSData *tabPrefixData; // @synthesize tabPrefixData=_tabPrefixData;
 
 @end
 

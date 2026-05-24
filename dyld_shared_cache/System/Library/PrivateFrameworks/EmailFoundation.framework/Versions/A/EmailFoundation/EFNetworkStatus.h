@@ -5,23 +5,20 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_nw_path, OS_nw_path_monitor;
+@protocol OS_nw_path_monitor;
 
 @interface EFNetworkStatus
 {
     struct os_unfair_lock_s _currentPathLock;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSObject<OS_dispatch_queue> *_monitorQueue;
-    NSObject<OS_nw_path> *_currentPath;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)l;
 - (id);
 - (id);
-- (id);
+- (id)irMessageDispatcher sendMessage:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -30,11 +27,6 @@
 - (_Bool):Î /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(readonly, nonatomic, getter=isConstrained) _Bool constrained;
-@property(readonly, nonatomic) NSObject<OS_nw_path> *currentPath; // @synthesize currentPath=_currentPath;
-@property(readonly, nonatomic, getter=isExpensive) _Bool expensive;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *monitorQueue; // @synthesize monitorQueue=_monitorQueue;
 @property(readonly, nonatomic) NSObject<OS_nw_path_monitor> *pathMonitor; // @synthesize pathMonitor=_pathMonitor;
 
 @end

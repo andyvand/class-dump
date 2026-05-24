@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray;
+@class NSArray;
 
 @interface MLCTensorOptimizerDeviceData
 {
     NSArray *_momentumVectors;
-    NSArray *_velocityVectors;
-    NSArray *_centerWeightVectors;
-    id _gpuOps;
-    NSMutableArray *_momentumData;
-    NSMutableArray *_momentumDataBytes;
-    NSData *_sourceBNNSDesc;
-    NSData *_gradientBNNSDesc;
 }
 
 + (id);
@@ -23,12 +16,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)TH;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)R$;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,14 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *centerWeightVectors; // @synthesize centerWeightVectors=_centerWeightVectors;
-@property(retain, nonatomic) id gpuOps; // @synthesize gpuOps=_gpuOps;
-@property(retain, nonatomic) NSData *gradientBNNSDesc; // @synthesize gradientBNNSDesc=_gradientBNNSDesc;
-@property(retain, nonatomic) NSMutableArray *momentumData; // @synthesize momentumData=_momentumData;
-@property(retain, nonatomic) NSMutableArray *momentumDataBytes; // @synthesize momentumDataBytes=_momentumDataBytes;
 @property(retain, nonatomic) NSArray *momentumVectors; // @synthesize momentumVectors=_momentumVectors;
-@property(retain, nonatomic) NSData *sourceBNNSDesc; // @synthesize sourceBNNSDesc=_sourceBNNSDesc;
-@property(retain, nonatomic) NSArray *velocityVectors; // @synthesize velocityVectors=_velocityVectors;
 
 @end
 

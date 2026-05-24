@@ -9,15 +9,12 @@
 @interface IMCommLimitsPolicyCache
 {
     NSMutableDictionary *_conversationContextToParticipantIDsHash;
-    NSMutableDictionary *_participantIDsHashToConversationContext;
-    NSMutableDictionary *_participantIDsHashToChatIdentifier;
-    NSMutableDictionary *_chatIdentifierToParticipantIDsHash;
 }
 
+- (void)U;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)<;
 - (void);
 - (id);
 - (id);
@@ -30,15 +27,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void)3;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *chatIdentifierToParticipantIDsHash; // @synthesize chatIdentifierToParticipantIDsHash=_chatIdentifierToParticipantIDsHash;
 @property(retain, nonatomic) NSMutableDictionary *conversationContextToParticipantIDsHash; // @synthesize conversationContextToParticipantIDsHash=_conversationContextToParticipantIDsHash;
-@property(retain, nonatomic) NSMutableDictionary *participantIDsHashToChatIdentifier; // @synthesize participantIDsHashToChatIdentifier=_participantIDsHashToChatIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *participantIDsHashToConversationContext; // @synthesize participantIDsHashToConversationContext=_participantIDsHashToConversationContext;
 
 @end
 

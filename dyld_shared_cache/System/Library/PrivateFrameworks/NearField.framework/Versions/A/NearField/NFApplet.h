@@ -4,38 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSObject, NSString;
+@class NSObject;
 @protocol NFAppletCollection;
 
 @interface NFApplet
 {
     NSObject<NFAppletCollection> *_appletCollection;
-    NSData *_groupHeadIDAsData;
-    NSArray *_groupMemberIDs;
-    NSArray *_referencedAppIDs;
-    NSData *_packageIdentifierAsData;
-    NSData *_moduleIdentifierAsData;
-    NSArray *_multiSEApplicationGroupMemberIDs;
-    NSData *_typeFSystemCode;
-    unsigned char _groupActivationStyle;
-    _Bool _isContainer;
-    _Bool _isProxy;
-    unsigned char _appletGPState;
-    unsigned char _family;
-    unsigned char _activationState;
-    _Bool _authTransientSupport;
-    _Bool _authTransientConfigurable;
-    _Bool _managedBySP;
-    NSString *_seIdentifier;
-    NSData *_identifierAsData;
-    NSData *_discretionaryData;
-    long long _seOS;
-    NSData *_instanceACL;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -46,7 +25,7 @@
 - (unsigned char);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -67,12 +46,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (_Bool);
 - (id);
 - (unsigned char);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (unsigned char);
@@ -86,40 +65,7 @@
 - (long long)øÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char activationState; // @synthesize activationState=_activationState;
 @property __weak NSObject<NFAppletCollection> *appletCollection;
-@property(readonly, nonatomic) _Bool authTransientConfigurable; // @synthesize authTransientConfigurable=_authTransientConfigurable;
-@property(readonly, nonatomic) _Bool authTransientSupport; // @synthesize authTransientSupport=_authTransientSupport;
-@property(readonly, nonatomic) long long classification;
-@property(readonly, nonatomic) _Bool containsSubKeys;
-@property(readonly, retain, nonatomic) NSData *discretionaryData; // @synthesize discretionaryData=_discretionaryData;
-@property(readonly, nonatomic) unsigned char family; // @synthesize family=_family;
-@property(readonly) unsigned char groupActivationStyle;
-@property(readonly, retain, nonatomic) NFApplet *groupHead;
-@property(readonly, nonatomic) NSString *groupHeadID; // @dynamic groupHeadID;
-@property(readonly, nonatomic) NSData *groupHeadIDAsData;
-@property(readonly, nonatomic) NSArray *groupMemberIDs;
-@property(readonly, retain, nonatomic) NSArray *groupMembers;
-@property(readonly, retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, retain, nonatomic) NSData *identifierAsData; // @synthesize identifierAsData=_identifierAsData;
-@property(readonly, nonatomic) NSData *instanceACL; // @synthesize instanceACL=_instanceACL;
-@property(readonly, nonatomic) _Bool isContainer;
-@property(readonly, nonatomic) _Bool isGPLocked;
-@property(readonly, nonatomic) _Bool isProxy;
-@property(readonly, nonatomic) _Bool isTypeF;
-@property(readonly, nonatomic) unsigned char lifecycleState;
-@property(readonly, nonatomic) _Bool managedBySP; // @synthesize managedBySP=_managedBySP;
-@property(readonly, nonatomic) NSString *moduleIdentifier; // @dynamic moduleIdentifier;
-@property(readonly, nonatomic) NSData *moduleIdentifierAsData;
-@property(readonly, nonatomic) NSArray *multiSEGroupMemberIDs;
-@property(readonly, retain, nonatomic) NSString *packageIdentifier; // @dynamic packageIdentifier;
-@property(readonly, nonatomic) unsigned long long rawGPState;
-@property(readonly, retain, nonatomic) NSArray *referencedApps;
-@property(readonly, retain, nonatomic) NSString *seIdentifier; // @synthesize seIdentifier=_seIdentifier;
-@property(readonly, nonatomic) long long seOS; // @synthesize seOS=_seOS;
-@property(readonly, nonatomic) unsigned char supportedTypeFSystem;
-@property(readonly, nonatomic) _Bool suppressTypeA;
-@property(readonly, nonatomic) _Bool suppressTypeB;
 
 @end
 

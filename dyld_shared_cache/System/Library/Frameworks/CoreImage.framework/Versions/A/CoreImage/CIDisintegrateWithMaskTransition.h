@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisintegrateWithMaskTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIImage *inputMaskImage;
-    NSNumber *inputTime;
-    NSNumber *inputShadowRadius;
-    NSNumber *inputShadowDensity;
-    CIVector *inputShadowOffset;
 }
 
 + (id);
@@ -25,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)@;
+- (id)?;
 - (id);
+- (id)W;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)';
+- (void) ;
 - (id);
 - (void);
 - (id);
@@ -41,12 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputMaskImage; // @synthesize inputMaskImage;
-@property(retain, nonatomic) NSNumber *inputShadowDensity; // @synthesize inputShadowDensity;
-@property(retain, nonatomic) CIVector *inputShadowOffset; // @synthesize inputShadowOffset;
-@property(retain, nonatomic) NSNumber *inputShadowRadius; // @synthesize inputShadowRadius;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
 
 @end
 

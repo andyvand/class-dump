@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSImage, NSString, NSWindow, iCloudAccountDetailsWebTabView;
+@class ACAccount, NSWindow;
 
 @interface FACreateChildController
 {
     NSWindow *_hostWindow;
-    NSImage *_displayImage;
-    ACAccount *_appleAccount;
-    iCloudAccountDetailsWebTabView *_repairView;
 }
 
 - (void);
@@ -32,8 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)?;
 - (id);
 - (void);
 - (void);
@@ -41,16 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain, nonatomic) iCloudAccountDetailsWebTabView *repairView; // @synthesize repairView=_repairView;
-@property(readonly) Class superclass;
 
 @end
 

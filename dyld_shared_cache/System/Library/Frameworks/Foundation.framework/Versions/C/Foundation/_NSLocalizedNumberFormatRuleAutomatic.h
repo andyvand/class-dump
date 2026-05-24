@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)t:%f at time:%f) 1 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

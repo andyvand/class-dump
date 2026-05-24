@@ -9,17 +9,12 @@
 @interface PHRecyclableObjectVendor
 {
     NSMutableArray *_recycledObjects;
-    Class _targetClass;
-    struct os_unfair_lock_s _lock;
-    _Bool _repsondsToPrepareForReuse;
-    _Bool _threadSafe;
-    CDUnknownBlockType _builder;
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)HalftoneInfo}^{QuartzFilterShadingInfo}^{QuartzFilterPDFX3Info}^v^{QuartzFilterPDFSpecialInfo}};
 - (void)itivityAnalysis;
 
 @end

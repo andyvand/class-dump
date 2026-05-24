@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface AVSlowMotionSliderTrackView
 {
     double _minValue;
-    double _maxValue;
 }
 
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)p;
 - (double)ä;
 
 // Remaining properties
-@property double maxValue; // @synthesize maxValue=_maxValue;
 @property double minValue; // @synthesize minValue=_minValue;
 
 @end

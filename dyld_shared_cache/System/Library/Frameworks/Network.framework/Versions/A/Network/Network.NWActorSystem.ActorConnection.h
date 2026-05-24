@@ -7,18 +7,6 @@
 @interface Network.NWActorSystem.ActorConnection
 {
     id nwConnection;
-    id remoteCallHandler;
-    id connectionInvalidated;
-    id actorResolutionHandler;
-    id disableCompression;
-    id lock;
-    id inFlightCalls;
-    id tasksByCallID;
-    id resolvedActorIDContinuation;
-    id _associatedActorIDs;
-    id isDisconnected;
-    id interruptionHandlers;
-    id connectionEstablishedActivity;
 }
 
 @end

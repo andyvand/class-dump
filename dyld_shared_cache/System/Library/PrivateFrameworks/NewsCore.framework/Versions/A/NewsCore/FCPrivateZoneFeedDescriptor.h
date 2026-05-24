@@ -6,14 +6,11 @@
 
 #import <NewsCore/FCFeedDescriptor.h>
 
-@class FCPrivateDataController, FCTagChannelPickerConfiguration;
+@class FCPrivateDataController;
 
 @interface FCPrivateZoneFeedDescriptor : FCFeedDescriptor
 {
     _Bool _feedIsSponsored;
-    long long _feedType;
-    FCTagChannelPickerConfiguration *_channelPickerConfiguration;
-    FCPrivateDataController *_privateDataController;
 }
 
 - (id);
@@ -22,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)th auditToken %p. length:(id)arg1 %d;
 - (long long);
 - (void)e"8^B16;
 

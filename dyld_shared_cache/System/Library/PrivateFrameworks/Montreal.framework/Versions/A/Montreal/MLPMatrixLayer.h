@@ -6,18 +6,13 @@
 
 #import <Montreal/MLPLayer.h>
 
-@class NSMutableDictionary;
-
 @interface MLPMatrixLayer : MLPLayer
 {
     unsigned long long _numInputs;
-    unsigned long long _numOutputs;
-    NSMutableDictionary *_inputMatrixToSecondKernel;
-    NSMutableDictionary *_inputMatrixToFirstKernel;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *inputMatrixToFirstKernel; // @synthesize inputMatrixToFirstKernel=_inputMatrixToFirstKernel;
-@property(retain) NSMutableDictionary *inputMatrixToSecondKernel; // @synthesize inputMatrixToSecondKernel=_inputMatrixToSecondKernel;
 @property unsigned long long numInputs; // @synthesize numInputs=_numInputs;
-@property unsigned long long numOutputs; // @synthesize numOutputs=_numOutputs;
 
 @end
 

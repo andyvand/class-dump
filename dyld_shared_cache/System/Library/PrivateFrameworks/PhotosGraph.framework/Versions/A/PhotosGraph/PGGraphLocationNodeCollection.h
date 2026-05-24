@@ -6,35 +6,27 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphAddressNodeCollection, PGGraphFeatureNodeCollection;
+@class PGGraphAddressNodeCollection;
 
 @interface PGGraphLocationNodeCollection : PGGraphNodeCollection
 {
 }
 
 + (Class);
+- (id)applicationControllerForProcessIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_navigationOrderChildControllers;
+- (id)_navigationMapForElement:(id)arg1;
+- (id)_navigateToTheNextValidElementFromElement:(id)arg1 direction:type: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphAddressNodeCollection *addressNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

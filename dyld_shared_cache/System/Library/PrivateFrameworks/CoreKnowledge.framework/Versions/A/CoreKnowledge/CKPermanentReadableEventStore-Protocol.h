@@ -5,5 +5,6 @@
 //
 
 @protocol CKPermanentReadableEventStore
+- (void);
 @end
 

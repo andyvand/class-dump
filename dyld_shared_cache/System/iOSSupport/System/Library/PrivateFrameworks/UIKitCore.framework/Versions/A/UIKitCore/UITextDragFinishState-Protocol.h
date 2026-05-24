@@ -5,6 +5,7 @@
 //
 
 @protocol UITextDragFinishState
+- (_Bool)__DATA_DIRTY;
 - (struct CGPoint)Manager"8@"NSTextContainer"16;
 
 // Remaining properties

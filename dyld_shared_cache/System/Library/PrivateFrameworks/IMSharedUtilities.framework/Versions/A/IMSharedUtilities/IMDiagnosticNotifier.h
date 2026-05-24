@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (id);
+- (id)PKUserCanResetApplePayManateeViewKey;
 - (void);
 - (void)ompressingSo14NSOutputStreamC0aF0t;
-- (id)rnEnabled;
+- (id)isTranslationReportAConcernEnabled;
 - (void);
 
 // Remaining properties

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFSpeechAnalyzer;
+
 @protocol SFSpeechAnalyzerSpeechDetectorResultDelegate
+- (void)setPublicDNSMinRTT:(SFSpeechAnalyzer *)arg1;
+- (void)setPrivateRelayEnabled:(SFSpeechAnalyzer *)arg1;
 @end
 

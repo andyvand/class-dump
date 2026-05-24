@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemPairCardSection
+- (void)R&;
+- (_SFPBRFTextProperty *):8@"PDFPage"16^i24 /* Error: Ran out of types for this method. */;
+- (NSData *)StyleRenderingVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_7;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_8;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_2;
 @end
 

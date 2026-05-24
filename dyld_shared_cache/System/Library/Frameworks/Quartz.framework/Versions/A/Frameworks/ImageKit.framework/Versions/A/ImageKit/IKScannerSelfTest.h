@@ -9,12 +9,6 @@
 @interface IKScannerSelfTest
 {
     NSString *_path;
-    NSString *_fileFormat;
-    long long _bitDepth;
-    unsigned long long _pixelDataType;
-    _Bool _rotate;
-    _Bool _colorCorrect;
-    _Bool _didScan;
 }
 
 - (void);
@@ -23,26 +17,20 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)#;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property long long bitDepth; // @synthesize bitDepth=_bitDepth;
-@property _Bool colorCorrect; // @synthesize colorCorrect=_colorCorrect;
-@property _Bool didScan; // @synthesize didScan=_didScan;
-@property(copy) NSString *fileFormat; // @synthesize fileFormat=_fileFormat;
 @property(copy) NSString *path; // @synthesize path=_path;
-@property unsigned long long pixelDataType; // @synthesize pixelDataType=_pixelDataType;
-@property _Bool rotate; // @synthesize rotate=_rotate;
 
 @end
 

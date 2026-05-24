@@ -7,13 +7,6 @@
 @interface HomeKitDaemon.MatterServices.Service
 {
     id $defaultActor;
-    id name;
-    id specification;
-    id serverEndpoint;
-    id state;
-    id preparationHandler;
-    id stateUpdateHandler;
-    id allowedDevices;
 }
 
 @end

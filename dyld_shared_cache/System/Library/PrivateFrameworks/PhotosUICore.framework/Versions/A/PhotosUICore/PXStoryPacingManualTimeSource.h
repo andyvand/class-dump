@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PXStoryPacingTimeSourceDelegate;
 
 @interface PXStoryPacingManualTimeSource
 {
     _Bool _active;
-    id <PXStoryPacingTimeSourceDelegate> _delegate;
-    CDStruct_1b6d18a9 _currentTime;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)niformTypeIdentifiers.dylib;
+- (_Bool)setDynamicVBOVertex2DTexturePointer: /* Error: Ran out of types for this method. */;
+- (void)kMPAuthoringCustomDurations;
 - (CDStruct_1b6d18a9)assetRequestsBySize;
 - (void)á³æöþ±³¼<qÿ;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime; // @synthesize currentTime=_currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXStoryPacingTimeSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRealTime;
-@property(readonly) Class superclass;
 
 @end
 

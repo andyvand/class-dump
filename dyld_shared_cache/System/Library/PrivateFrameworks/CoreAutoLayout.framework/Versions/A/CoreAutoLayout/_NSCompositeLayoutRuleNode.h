@@ -6,7 +6,7 @@
 
 #import <CoreAutoLayout/_NSLayoutRuleNode.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface _NSCompositeLayoutRuleNode : _NSLayoutRuleNode
 {
@@ -16,18 +16,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ModelSpecification;
 - (id);
 
 // Remaining properties
 @property(readonly, copy) NSArray *_childRuleNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

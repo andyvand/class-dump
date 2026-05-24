@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)toMLMultiArrayConvertFromFloatScalar:error: /* Error: Ran out of types for this method. */;
 
 @end
 

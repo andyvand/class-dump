@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)resses;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__TEXT;
 - (void);
 - (unsigned long long)0@ù
 × ;

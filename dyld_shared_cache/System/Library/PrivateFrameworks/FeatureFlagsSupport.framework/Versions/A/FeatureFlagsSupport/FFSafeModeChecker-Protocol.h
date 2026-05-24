@@ -5,5 +5,6 @@
 //
 
 @protocol FFSafeModeChecker
+- (_Bool)%ld;
 @end
 

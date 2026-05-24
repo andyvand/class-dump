@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIDynamicViewController, NSString;
+@class AMSUIDynamicViewController;
 @protocol AMSUIDynamicViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIDynamicViewControllerDelegateProxy
 {
     id <AMSUIDynamicViewControllerDelegate> _delegate;
-    AMSUIDynamicViewController *_dynamicViewController;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void)sM;
 - (void);
 - (void);
-- (void);
+- (id)L;
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void)utomaticallyForwardAppearanceMethods;
+- (void)shouldAutomaticallyForwardAppearanceMethods;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIDynamicViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property __weak AMSUIDynamicViewController *dynamicViewController; // @synthesize dynamicViewController=_dynamicViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

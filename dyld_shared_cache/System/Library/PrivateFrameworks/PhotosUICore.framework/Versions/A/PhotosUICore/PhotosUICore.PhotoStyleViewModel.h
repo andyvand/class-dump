@@ -7,11 +7,6 @@
 @interface PhotosUICore.PhotoStyleViewModel
 {
     id styleCollections;
-    id _mostFocusedPageIndex;
-    id _targetFocusedPageIndex;
-    id _viewMode;
-    id _selectedCollectionIndex;
-    id observable;
 }
 
 @end

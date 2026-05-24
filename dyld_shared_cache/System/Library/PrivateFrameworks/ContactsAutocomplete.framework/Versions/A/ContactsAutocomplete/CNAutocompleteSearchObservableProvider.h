@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, NSObject, NSString;
-@protocol CNAutocompleteSearchProvider, CNScheduler, OS_os_log;
+@protocol CNAutocompleteSearchProvider;
 
 @interface CNAutocompleteSearchObservableProvider
 {
     id <CNAutocompleteSearchProvider> _searchProvider;
-    CNAutocompleteFetchRequest *_fetchRequest;
-    id <CNScheduler> _scheduler;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)q;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)9(;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNAutocompleteFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
 @property(readonly, nonatomic) id <CNAutocompleteSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly) Class superclass;
 
 @end
 

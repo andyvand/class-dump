@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSViewController;
-@protocol ContactsUI.ContactHeaderViewWrapperDelegate;
+@class NSViewController;
 
 @interface ContactsUI.ContactHeaderViewWrapper
 {
     NSViewController *hostingController;
-    void delegate;
-    CNContact *contact;
-    _Bool enableStatusBadges;
-    long long quickActionViewStyle;
-    id model;
-    id statusBadgeModel;
 }
 
 - (void);
@@ -27,20 +20,15 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
-- (void);
+- (id)HomeButtonAssistantPreference;
+- (void):(id)arg1;
 - (void);
 - (id);
 - (void)áb !0FùÑñ#1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, retain) CNContact *contact; // @synthesize contact;
-@property(nonatomic) __weak id <ContactsUI.ContactHeaderViewWrapperDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) double desiredHeight;
-@property(nonatomic) _Bool enableStatusBadges; // @synthesize enableStatusBadges;
 @property(nonatomic, retain) NSViewController *hostingController; // @synthesize hostingController;
-@property(nonatomic) long long quickActionViewStyle; // @synthesize quickActionViewStyle;
 
 @end
 

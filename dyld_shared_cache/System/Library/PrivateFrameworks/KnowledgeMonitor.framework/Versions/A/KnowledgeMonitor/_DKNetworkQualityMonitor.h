@@ -6,30 +6,17 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class NSArray, NSMutableDictionary, NSObject, NWNetworkOfInterest, NWNetworkOfInterestManager, _CDContextualKeyPath;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface _DKNetworkQualityMonitor : _DKMonitor
 {
     _Bool _initialized;
-    _Bool _enabled;
-    NSArray *_noiKeyPaths;
-    NSObject<OS_dispatch_queue> *_noiManagerQueue;
-    NWNetworkOfInterestManager *_noiManager;
-    NWNetworkOfInterest *_noi;
-    long long _previousQuality;
-    long long _interfaceType;
-    _CDContextualKeyPath *_qualityKeyPath;
-    _CDContextualKeyPath *_predictedQualityKeyPath;
-    _CDContextualKeyPath *_discretionaryInvitedKeyPath;
-    _CDContextualKeyPath *_statusKeyPath;
-    NSMutableDictionary *_statusDictionary;
 }
 
 + (id);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void)x"A�;
 - (void);
 - (void);
 - (void);
@@ -54,11 +41,11 @@
 - (void);
 - (id);
 - (void);
+- (void)realistic night brightness.;
+- (void);
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -66,28 +53,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)tring"16@?<v@?@"NSArray"@"NSError">24;
+- (_Bool)mediaUsageStream;
+- (void)+;
 - (void);
 - (void);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _CDContextualKeyPath *discretionaryInvitedKeyPath; // @synthesize discretionaryInvitedKeyPath=_discretionaryInvitedKeyPath;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(nonatomic) long long interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(retain, nonatomic) NWNetworkOfInterest *noi; // @synthesize noi=_noi;
 @property(retain, nonatomic) NSArray *noiKeyPaths; // @synthesize noiKeyPaths=_noiKeyPaths;
-@property(retain, nonatomic) NWNetworkOfInterestManager *noiManager; // @synthesize noiManager=_noiManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *noiManagerQueue; // @synthesize noiManagerQueue=_noiManagerQueue;
-@property(retain, nonatomic) _CDContextualKeyPath *predictedQualityKeyPath; // @synthesize predictedQualityKeyPath=_predictedQualityKeyPath;
-@property(nonatomic) long long previousQuality; // @synthesize previousQuality=_previousQuality;
-@property(retain, nonatomic) _CDContextualKeyPath *qualityKeyPath; // @synthesize qualityKeyPath=_qualityKeyPath;
-@property(retain, nonatomic) NSMutableDictionary *statusDictionary; // @synthesize statusDictionary=_statusDictionary;
-@property(retain, nonatomic) _CDContextualKeyPath *statusKeyPath; // @synthesize statusKeyPath=_statusKeyPath;
 
 @end
 

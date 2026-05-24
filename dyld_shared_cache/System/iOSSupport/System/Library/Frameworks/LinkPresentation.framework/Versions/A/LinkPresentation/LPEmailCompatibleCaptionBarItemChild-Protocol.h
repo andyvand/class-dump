@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPPadding;
+
 @protocol LPEmailCompatibleCaptionBarItemChild
+- (LPPadding *)transcriptBalloonCell:layoutAttributesForTextBalloonView:messageDisplayViewFrame:inContainerFrame:proposedAttributes: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface OITSUDateFormatCategoryEntry
 {
     unsigned short _separator;
-    NSMutableArray *_formatters;
-    NSMutableSet *_formatStrings;
 }
 
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (unsigned short);
+- (unsigned short)VarBstrFromUI1;
 - (void)4P°;
 
 @end

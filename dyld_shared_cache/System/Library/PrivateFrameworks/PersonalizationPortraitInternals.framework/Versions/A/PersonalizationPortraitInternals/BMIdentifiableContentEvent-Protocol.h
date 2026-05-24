@@ -7,17 +7,9 @@
 @class NSString;
 
 @protocol BMIdentifiableContentEvent
+- (double)EM to DER:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *domainId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *uniqueId;
 @end
 

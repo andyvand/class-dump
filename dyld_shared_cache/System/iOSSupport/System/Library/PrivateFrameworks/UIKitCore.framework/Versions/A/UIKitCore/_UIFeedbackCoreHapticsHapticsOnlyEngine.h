@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id)0@ù
 × ;
-- (id);
+- (id)SyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 
 @end
 

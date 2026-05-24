@@ -13,7 +13,7 @@
     NSArray *_credentials;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)payment.pnr.payment.authorized;
 

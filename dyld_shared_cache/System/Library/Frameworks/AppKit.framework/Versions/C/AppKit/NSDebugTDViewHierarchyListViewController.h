@@ -6,17 +6,12 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSDebugTDViewHierarchyItem, NSDebugTDViewHierarchyListView, NSDebugTDViewHierarchyOutlineTreeNode, NSMutableArray, NSMutableOrderedSet, NSString;
+@class NSDebugTDViewHierarchyListView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDViewHierarchyListViewController : NSViewController
 {
     NSDebugTDViewHierarchyListView *_viewHierarchyListView;
-    NSDebugTDViewHierarchyOutlineTreeNode *_viewHierarchyRootNode;
-    NSMutableOrderedSet *_suggestedVHItems;
-    NSMutableArray *_potentialVHItemsToSuggest;
-    NSDebugTDViewHierarchyItem *_selectedItem;
-    NSDebugTDViewHierarchyOutlineTreeNode *_inspectorRootNode;
 }
 
 - (id);
@@ -26,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)iled to get the current OS version;
+- (void)bytes;
 - (void);
 - (void);
 - (void);
@@ -45,8 +40,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)netServiceWillResolve: /* Error: Ran out of types for this method. */;
+- (void)}@ headers=%@ error=%@;
 - (void);
 - (void);
 - (void);
@@ -54,19 +49,7 @@ __attribute__((visibility("hidden")))
 - (void)æÿz¾äHI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDebugTDViewHierarchyOutlineTreeNode *inspectorRootNode; // @synthesize inspectorRootNode=_inspectorRootNode;
-@property(retain, nonatomic) NSMutableArray *potentialVHItemsToSuggest; // @synthesize potentialVHItemsToSuggest=_potentialVHItemsToSuggest;
-@property(retain, nonatomic) NSDebugTDViewHierarchyItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(retain, nonatomic) NSMutableOrderedSet *suggestedVHItems; // @synthesize suggestedVHItems=_suggestedVHItems;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSDebugTDViewHierarchyListView *viewHierarchyListView; // @synthesize viewHierarchyListView=_viewHierarchyListView;
-@property(retain, nonatomic) NSDebugTDViewHierarchyOutlineTreeNode *viewHierarchyRootNode; // @synthesize viewHierarchyRootNode=_viewHierarchyRootNode;
 
 @end
 

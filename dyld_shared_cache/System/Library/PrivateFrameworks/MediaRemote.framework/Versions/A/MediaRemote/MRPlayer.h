@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface MRPlayer
 {
     unsigned int _audioSessionID;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSURL *_appIcon;
-    long long _audioSessionType;
-    NSSet *_mxSessionIDs;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)EnableManuallyAckMessages;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,27 +29,18 @@
 - (void);
 - (void);
 - (id);
+- (id)participationsPublished;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)j;
 - (long long);
 - (void)otobuf",&,N,V_request;
-- (id)ngPlayerPathUserInfoKey;
+- (id)kMROriginActiveNowPlayingPlayerPathUserInfoKey;
 - (unsigned int)dentifer;
-- (void)utputDeviceDidChangeVolumeMutedNotification;
+- (void)MROutputContextDataSourceOutputDeviceDidChangeVolumeMutedNotification;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *appIcon; // @synthesize appIcon=_appIcon;
-@property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(nonatomic) long long audioSessionType; // @synthesize audioSessionType=_audioSessionType;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, nonatomic, getter=isDefaultPlayer) _Bool defaultPlayer;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasAuxiliaryProperties;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSSet *mxSessionIDs; // @synthesize mxSessionIDs=_mxSessionIDs;
-@property(readonly, nonatomic) MRPlayer *skeleton;
 
 @end
 

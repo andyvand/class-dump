@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSViewController, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface DDDataDetectorsViewHost
 {
     _Bool _lookup;
-    _Bool _observersSet;
-    _Bool _closeRequested;
-    _Bool _isValid;
-    id _bridge;
-    NSWindow *_hostingWindow;
-    id _globalEventMonitor;
-    NSViewController *_contentController;
-    CDUnknownBlockType _behaviorChangeBlock;
 }
 
 - (void);
@@ -31,24 +23,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)#;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)4;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
@@ -60,13 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType behaviorChangeBlock; // @synthesize behaviorChangeBlock=_behaviorChangeBlock;
-@property __weak id bridge; // @synthesize bridge=_bridge;
-@property _Bool closeRequested; // @synthesize closeRequested=_closeRequested;
-@property(retain) NSViewController *contentController; // @synthesize contentController=_contentController;
-@property(retain) id globalEventMonitor; // @synthesize globalEventMonitor=_globalEventMonitor;
 @property(retain) NSWindow *hostingWindow; // @synthesize hostingWindow=_hostingWindow;
-@property _Bool isValid; // @synthesize isValid=_isValid;
 
 @end
 

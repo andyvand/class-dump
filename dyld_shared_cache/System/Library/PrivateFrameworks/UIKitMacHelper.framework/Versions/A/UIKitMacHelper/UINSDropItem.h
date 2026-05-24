@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)espaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Value = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
 @property(readonly, copy, nonatomic) NSArray *typeIdentifiers;
 
 @end

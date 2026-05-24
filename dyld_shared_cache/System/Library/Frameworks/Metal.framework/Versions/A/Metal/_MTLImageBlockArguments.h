@@ -7,16 +7,14 @@
 @interface _MTLImageBlockArguments
 {
     unsigned long long _width;
-    unsigned long long _height;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)singapore;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long height; // @synthesize height=_height;
 @property(nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end

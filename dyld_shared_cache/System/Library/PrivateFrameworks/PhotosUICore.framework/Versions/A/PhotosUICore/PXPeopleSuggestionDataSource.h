@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHFetchResult;
+@class NSArray;
 
 @interface PXPeopleSuggestionDataSource
 {
     unsigned long long _initialPageLimit;
-    unsigned long long _suggestionFetchType;
-    unsigned long long _flowType;
-    NSArray *_mergeCandidates;
-    PHFetchResult *_mergeCandidateFetchResult;
 }
 
 + (void);
@@ -31,24 +27,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long flowType; // @synthesize flowType=_flowType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long initialPageLimit; // @synthesize initialPageLimit=_initialPageLimit;
-@property(copy, nonatomic) PHFetchResult *mergeCandidateFetchResult; // @synthesize mergeCandidateFetchResult=_mergeCandidateFetchResult;
 @property(copy, nonatomic) NSArray *mergeCandidates; // @synthesize mergeCandidates=_mergeCandidates;
-@property(nonatomic) unsigned long long suggestionFetchType; // @synthesize suggestionFetchType=_suggestionFetchType;
-@property(readonly) Class superclass;
 
 @end
 

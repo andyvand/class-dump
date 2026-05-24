@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FCTagMetadata
 {
     _Bool _isArticleMetadata;
-    NSString *_identifier;
-    unsigned long long _tagType;
-    NSString *_nameImage;
-    NSString *_nameImageForDarkBackground;
-    NSString *_nameImageMetadata;
-    NSString *_nameImageMask;
-    NSString *_name;
-    NSString *_groupTitleColor;
-    NSDictionary *_dictionary;
 }
 
 - (id);
@@ -47,50 +38,22 @@
 - (id);
 - (id);
 - (id);
+- (id)MapsSuggestionsDOoMWakeUpLeewayKey;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)SString",C,N,V_dtPlatformName;
 - (unsigned long long);
 - (id);
-- (id)eID:inFeedID:withProperties: /* Error: Ran out of types for this method. */;
-- (void)axNumberOfSuggestions;
+- (id)updateArticleID:inFeedID:withProperties: /* Error: Ran out of types for this method. */;
+- (void)maxNumberOfSuggestions;
 - (id)$;
-- (void)nfig;
+- (void)shadowLocalSectionGroupOntologyLevelConfig;
 - (id),¡;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *coverImage;
-@property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSString *feedNavDarkModeImage;
-@property(readonly, nonatomic) NSString *feedNavDarkModeImageHQ;
-@property(readonly, nonatomic) NSString *feedNavImage;
-@property(readonly, nonatomic) NSString *feedNavImageHQ;
-@property(retain, nonatomic) NSString *groupTitleColor; // @synthesize groupTitleColor=_groupTitleColor;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isArticleMetadata; // @synthesize isArticleMetadata=_isArticleMetadata;
-@property(readonly, nonatomic) _Bool isAthlete;
-@property(readonly, nonatomic) _Bool isLocalNews;
-@property(readonly, nonatomic) _Bool isPublic;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *nameImage; // @synthesize nameImage=_nameImage;
-@property(readonly, nonatomic) long long nameImageBaselineShift;
-@property(retain, nonatomic) NSString *nameImageForDarkBackground; // @synthesize nameImageForDarkBackground=_nameImageForDarkBackground;
-@property(retain, nonatomic) NSString *nameImageMask; // @synthesize nameImageMask=_nameImageMask;
-@property(retain, nonatomic) NSString *nameImageMetadata; // @synthesize nameImageMetadata=_nameImageMetadata;
-@property(readonly, nonatomic) long long nameImageScaleFactor;
-@property(readonly, nonatomic) NSString *publisherPaidAuthorizationURL;
-@property(readonly, nonatomic) NSString *publisherPaidVerificationURL;
-@property(readonly, nonatomic) NSString *sportsFullName;
-@property(readonly, nonatomic) unsigned long long sportsLeagueType;
-@property(readonly, nonatomic) NSString *sportsLogoImageCompact;
-@property(readonly, nonatomic) NSString *sportsPrimaryColor;
-@property(readonly, nonatomic) NSString *sportsPrimaryName;
-@property(readonly, nonatomic) NSString *sportsSecondaryName;
-@property(readonly, nonatomic) NSString *sportsSecondaryShortName;
-@property(readonly, nonatomic) unsigned long long tagType; // @synthesize tagType=_tagType;
 
 @end
 

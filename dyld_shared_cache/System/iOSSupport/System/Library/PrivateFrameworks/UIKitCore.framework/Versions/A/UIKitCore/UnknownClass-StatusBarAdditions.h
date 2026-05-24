@@ -9,7 +9,7 @@
 @interface UnknownClass (StatusBarAdditions)
 + (_Bool);
 + (double);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (void);
@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

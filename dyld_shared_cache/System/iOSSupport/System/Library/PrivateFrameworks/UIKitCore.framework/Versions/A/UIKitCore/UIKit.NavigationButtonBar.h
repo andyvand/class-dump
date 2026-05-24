@@ -4,51 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, _UIBarButtonItemAppearanceStorage;
-
 @interface UIKit.NavigationButtonBar
 {
     id buttonVisualProviderClass;
-    id position;
-    id transitionGroupIdentifier;
-    id sectionLayouts;
-    id effectiveLayout;
-    id groupLayoutMap;
-    _UIBarButtonItemAppearanceStorage *appearanceStorage;
-    id isCompact;
-    id assistant;
-    id supportsAlwaysOverflowGroups;
-    id isInLayoutReentrancyGuard;
-    id effectiveLayoutHasCriticalGroup;
-    id needsAppearanceUpdate;
-    id plainAppearanceChanged;
-    id doneAppearanceChanged;
-    id denyPointerInteractions;
-    id popOverPresentingSourceItem;
-    id delegate;
-    id plainItemAppearanceNeedsUpdate;
-    id plainItemAppearance;
-    id prominentItemAppearanceNeedsUpdate;
-    id prominentItemAppearance;
-    id layoutMetrics;
-    id groupOrderer;
-    id fixedLeadingGroups;
-    id fixedTrailingGroups;
-    id forceFixedSpacing;
-    id supportsOverflow;
-    id resolvedSections;
-    id sectionedBarButtonGroups;
-    id implicitGroups;
-    id isGeneratingItemGroups;
-    id barSections;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)"16@0:(id)arg1 8;
+- (void)cachedOffGridModeAndLastPublisherForHandle:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)IMDaemonChatProtocol;
+- (void);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)AppleServiceSession;
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
@@ -62,11 +28,11 @@
 - (double)dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
 - (_Bool)CGPoint=dd}{CGSize=dd}}24;
 - (id)ct={CGPoint=dd}{CGSize=dd}}24@56d64B72;
-- (unsigned long long)reviousLastBaselineOffsetForAttributeLowering;
-- (id)ions:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)previousLastBaselineOffsetForAttributeLowering;
+- (id)animateWithParameters:animations:completion: /* Error: Ran out of types for this method. */;
 - (double)TB,N,S_setInteractiveScrollActive: /* Error: Ran out of types for this method. */;
 - (id)ring",N;
-- (id)isualStyle;
+- (id)_UIBadgeVisualStyle;
 - (double)nSerifs ;
 - (double)ull __strong, _UIFocusGroup * _Nonnull __strong);
 - (_Bool)imationsNewRenderController(void);
@@ -76,16 +42,7 @@
 - (void)X¹ÿ;
 
 // Remaining properties
-@property(nonatomic, retain) _UIBarButtonItemAppearanceStorage *appearanceStorage; // @synthesize appearanceStorage;
-@property(nonatomic, readonly) double backButtonMargin;
-@property(nonatomic, readonly) double backButtonMaximumWidth;
 @property(nonatomic, readonly) long long barType;
-@property(nonatomic, readonly) struct CGRect bounds;
-@property(nonatomic, readonly) _Bool centerTextButtons;
-@property(nonatomic, readonly) _Bool compactMetrics;
-@property(nonatomic, readonly) double defaultEdgeSpacing;
-@property(nonatomic, readonly) double defaultTextPadding;
-@property(nonatomic, readonly) UIColor *tintColor;
 
 @end
 

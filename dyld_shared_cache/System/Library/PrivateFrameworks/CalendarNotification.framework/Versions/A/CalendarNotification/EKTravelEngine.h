@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, EKTimedEventStorePurger, NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol CALNRouteHypothesizerProvider, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol CALNRouteHypothesizerProvider, OS_dispatch_queue;
 
 @interface EKTravelEngine
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_source> *_syncYieldTimer;
-    _Bool _running;
-    _Bool _needsRefresh;
-    _Bool _databaseIsEncryptedAndUnreadable;
-    _Bool _yieldingToSync;
-    NSMutableDictionary *_eventExternalURLsToAgendaEntries;
-    CLLocationManager *_locationManager;
-    EKTimedEventStorePurger *_timedEventStorePurger;
-    NSDate *_lastRefreshDate;
-    _Bool _authorizedInternal;
-    CDUnknownBlockType _adviceBlock;
-    CDUnknownBlockType _authorizationChangedBlock;
-    CDUnknownBlockType _eventSignificantlyChangedBlock;
-    id <CALNRouteHypothesizerProvider> _routeHypothesizerProvider;
 }
 
-+ (id);
-+ (id);
-+ (double);
++ (id)~)M;
++ (id)P;
++ (double);
 + (id);
 + (double);
 + (double);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -56,7 +41,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType))	;
 - (_Bool);
 - (void);
 - (void);
@@ -66,8 +51,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)	ka;
+- (void)EKUIPublicCalendarGadget;
 - (void);
 - (void);
 - (void);
@@ -83,19 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType adviceBlock; // @synthesize adviceBlock=_adviceBlock;
-@property(copy, nonatomic) CDUnknownBlockType authorizationChangedBlock; // @synthesize authorizationChangedBlock=_authorizationChangedBlock;
-@property(readonly, nonatomic) _Bool authorized;
-@property(nonatomic) _Bool authorizedInternal; // @synthesize authorizedInternal=_authorizedInternal;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType eventSignificantlyChangedBlock; // @synthesize eventSignificantlyChangedBlock=_eventSignificantlyChangedBlock;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CALNRouteHypothesizerProvider> routeHypothesizerProvider; // @synthesize routeHypothesizerProvider=_routeHypothesizerProvider;
-@property(readonly) Class superclass;
 
 @end
 

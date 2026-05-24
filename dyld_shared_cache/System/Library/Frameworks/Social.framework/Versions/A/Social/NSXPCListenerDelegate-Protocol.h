@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCConnection, NSXPCListener;
+
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)RecordingForEndpointReason:(NSXPCListener *)arg1 withEndpointMetrics:(NSXPCConnection *)arg2 ];
 @end
 

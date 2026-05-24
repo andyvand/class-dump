@@ -13,13 +13,11 @@
 
 - (id);
 - (id);
-- (unsigned long long);
-- (struct _NSRange);
+- (unsigned long long)scanForServices: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)siriui_attributedStringValueWithAttribute:value:forRegionsWithProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct _NSRange range;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

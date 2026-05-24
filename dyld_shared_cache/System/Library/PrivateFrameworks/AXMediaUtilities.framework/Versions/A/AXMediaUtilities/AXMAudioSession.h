@@ -11,9 +11,9 @@
     NSMutableArray *_notificationObserverTokens;
 }
 
-- (void);
+- (void)|;
 - (id);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (void);
 - (id);

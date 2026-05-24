@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRangeValue;
+@class _INPBDateTimeRangeValue;
 
 @interface _INPBTemporalEventTrigger
 {
     struct _has;
-    _INPBDateTimeRangeValue *_dateTime;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)otNavigating;
+- (void)INStopShareETAIntentResponseCodeFailureNotNavigating;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRangeValue *dateTime; // @synthesize dateTime=_dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPVisualMediaProperties, NSData, NSString, NSURL;
+@class NSData;
 
 @interface LPVisualMedia
 {
     NSData *_data;
-    NSString *_MIMEType;
-    NSURL *_fileURL;
-    LPVisualMediaProperties *_properties;
 }
 
 + (_Bool);
+- (id)textViewOnscreenWithEntryView;
+- (id)textViewIdentifier;
+- (_Bool)supportsRelayPhoneCallsCalls;
+- (id);
+- (id)supportsCustomizationForLinkPreviewTextAttachment:(id)arg1;
+- (id)supportsCustomizationForEmbeddedRichLinkView:(id)arg1;
+- (id)supportsContentExtensions;
+- (unsigned long long)supplementaryItemWithLayoutSize:elementKind:containerAnchor: /* Error: Ran out of types for this method. */;
+- (_Bool)suggestionCategorySupportsBatchDismissal;
+- (id)suggestionCategoryLocalizedCountOfItems: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ProtectionInfoKey;
+- (void);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)ompatibleCaptionBarItemChild;
+- (id)LPEmailCompatibleCaptionBarItemChild;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
 @property(readonly, copy, nonatomic) NSData *_cachedData;
-@property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;
-@property(readonly, nonatomic) unsigned long long _encodedSize;
-@property(copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) LPVisualMediaProperties *properties;
-@property(readonly) Class superclass;
 
 @end
 

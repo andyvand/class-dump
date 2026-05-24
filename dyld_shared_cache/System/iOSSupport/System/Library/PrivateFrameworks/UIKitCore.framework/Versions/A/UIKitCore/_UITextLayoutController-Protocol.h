@@ -4,10 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIStyleEffectConfiguration, NSArray, NSAttributedString, NSDictionary, NSLayoutManager, NSTextContainer, NSTextStorage, UITextPosition, UITextRange;
+@class CUIStyleEffectConfiguration, NSArray, NSAttributedString, NSDictionary, NSTextContainer, NSTextStorage, UITextPosition, UITextRange;
 @protocol NSLayoutManagerDelegate;
 
 @protocol _UITextLayoutController
+- (void)j48;
+- (_Bool)(;
+- (UITextRange *)`;
+- (void)isCellularDataRestricted;
+- (UITextRange *)hasPerformedErrorResolution;
+- (struct CGRect)encodingDelayInFrames;
+- (UITextPosition *)ility.dylib;
 - (UITextRange *)ñZ°1Â0@ù
 × ;
 - (struct CGRect)
@@ -21,58 +28,41 @@
 - (void)!(Eùñfð1Â0@ù
 × ;
 - (void)tAnyContent>"48@0:(UITextRange *)arg1 8@"_UISlotView"16@"<UISSlotAnyContent>"24@"UISSlotStyle"32@"UISSlotTag"40;
-- (UITextRange *)PreparationHandler:(struct _NSRange)arg1;
-- (void)formKeyboardOutput: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)nitWithCTRun:(UITextPosition *)arg1 lineIndex:(long long)arg2 layoutInfo: /* Error: Ran out of types for this method. */;
-- (void)ain;
-- (void)e:(struct CGRect)arg1;
-- (NSArray *)State:(UITextRange *)arg1;
+- (UITextRange *)setPreparationHandler:(struct _NSRange)arg1;
+- (void)performKeyboardOutput: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)initWithCTRun:(UITextPosition *)arg1 lineIndex:(long long)arg2 layoutInfo: /* Error: Ran out of types for this method. */;
+- (struct CGRect)gridRows;
+- (void)drain;
+- (void)canPresentDictationMenuWithAnimationStyle:(struct CGRect)arg1;
+- (NSArray *)actionTitleLabelColorForViewState:(UITextRange *)arg1;
+- (void)_setUseShortcutIntrinsicContentSize:(id <NSLayoutManagerDelegate>)arg1;
 - (struct _NSRange)tioningBottomBarIsTabBar;
-- (struct _NSRange)ene:(UITextRange *)arg1;
+- (struct _NSRange)sceneDisplayLinkForWindowScene:(UITextRange *)arg1;
 - (struct CGRect)ions;
 - (UITextRange *)pd;
 - (NSTextStorage *)LÜN;
 - (struct CGRect)¬	È
 ;
 - (UITextRange *)@) in %@;
-- (struct _NSRange)KBColorKeyNumberPadDarkGradientStart;
+- (struct _NSRange)UIKBColorKeyNumberPadDarkGradientStart;
 - (void)UILabelConfiguration_hasCustomized_cuiCatalog;
-- (NSTextContainer *)entifier;
+- (NSTextContainer *)UIIdentifier;
 - (UITextPosition *)tonGroupAssignRepresentative(UIBarButtonItem *__strong, UIBarButtonItemGroup *__strong);
-- (long long)itySwitchControlStatusDidChangeNotification;
+- (long long)UIAccessibilitySwitchControlStatusDidChangeNotification;
 - (long long)ror message when the attempt to start renaming a document fails.;
 - (void);
-- (long long)extFormattingViewControllerComponentGroupCG;
+- (long long)SaySo44UITextFormattingViewControllerComponentGroupCG;
 - (UITextRange *)¢Ý2;
 - (NSAttributedString *)Éz43ôsþ;
 
 @optional
-- (long long);
+- (void)comparisonForRangeInDocument:(_Bool)arg1;
 - (UITextPosition *)ctCorners;
-- (_Bool)thGuideTimer;
+- (_Bool)UIContinuousPathGuideTimer;
 - (void)transitionProgress=%f;
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic) _Bool canAccessLayoutManager;
-@property(readonly, nonatomic) UITextRange *documentRange;
-@property(nonatomic) _Bool drawsDebugBaselines;
-@property(getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(readonly, nonatomic) NSTextContainer *firstTextContainer;
-@property(readonly, nonatomic) _Bool includesTextListMarkers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSLayoutManager *layoutManager;
-@property(nonatomic) __weak id <NSLayoutManagerDelegate> layoutManagerDelegate;
-@property(nonatomic) double maxTileHeight;
-@property(copy, nonatomic) CUIStyleEffectConfiguration *styleEffectConfiguration;
-@property(readonly, copy, nonatomic) NSArray *textContainers;
 @property(readonly, nonatomic) NSTextStorage *textStorage;
-@property(nonatomic) _Bool usesTiledViews;
 @end
 

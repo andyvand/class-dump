@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ExifMetadataExtractor, IrisVideoMetadataExtractor, NSArray, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PregateFeatureBuilder
 {
     NSMutableDictionary *featuresDict;
-    NSArray *stdProcessInputKeysArray;
-    IrisVideoMetadataExtractor *irisVideoExtractor;
-    ExifMetadataExtractor *irisStillExtractor;
-    NSMutableDictionary *fullFeaturesDict;
-    NSDictionary *_stillImageMetadata;
-    NSArray *_facesArray;
-    NSArray *_movieMetadata;
-    NSDictionary *_videoTrackMetadataDict;
-    vector_aad29ef0 _frameTimes;
-    vector_54189413 _frameOffsets;
-    vector_54189413 _frameBlurVectors;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (int);
+- (int);
+- (int);
+- (int)@9Q;
+- (int);
+- (int);
+- (int)9Q;
 - (int);
 - (int);
 - (int);
@@ -42,21 +38,14 @@
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (id);
+- (int);
+- (id)?;
 - (id);
 - (id);
 - (vector_aad29ef0);
-- (vector_54189413);
-- (vector_54189413);
-- (int);
+- (vector_42d71437)9);
+- (vector_42d71437);
+- (int);
 - (id);
 - (id);
 - (void);
@@ -67,18 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *facesArray; // @synthesize facesArray=_facesArray;
-@property(readonly) NSMutableDictionary *featuresDict; // @synthesize featuresDict;
-@property vector_54189413 frameBlurVectors; // @synthesize frameBlurVectors=_frameBlurVectors;
-@property vector_54189413 frameOffsets; // @synthesize frameOffsets=_frameOffsets;
 @property vector_aad29ef0 frameTimes; // @synthesize frameTimes=_frameTimes;
-@property(readonly) NSMutableDictionary *fullFeaturesDict; // @synthesize fullFeaturesDict;
-@property(retain) ExifMetadataExtractor *irisStillExtractor; // @synthesize irisStillExtractor;
-@property(retain) IrisVideoMetadataExtractor *irisVideoExtractor; // @synthesize irisVideoExtractor;
-@property(retain) NSArray *movieMetadata; // @synthesize movieMetadata=_movieMetadata;
-@property(retain) NSArray *stdProcessInputKeysArray; // @synthesize stdProcessInputKeysArray;
-@property(retain) NSDictionary *stillImageMetadata; // @synthesize stillImageMetadata=_stillImageMetadata;
-@property(retain) NSDictionary *videoTrackMetadataDict; // @synthesize videoTrackMetadataDict=_videoTrackMetadataDict;
 
 @end
 

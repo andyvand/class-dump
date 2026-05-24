@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface CPAnalyticsConditional
 {
     NSString *_property;
-    NSPredicate *_predicate;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly, nonatomic) NSString *property; // @synthesize property=_property;
 
 @end

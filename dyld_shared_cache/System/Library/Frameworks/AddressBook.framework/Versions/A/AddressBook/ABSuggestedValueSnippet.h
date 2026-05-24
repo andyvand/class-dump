@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface ABSuggestedValueSnippet
 {
     NSString *_text;
-    struct _NSRange _range;
-    NSURL *_url;
-    NSString *_senderName;
-    NSString *_subject;
-    NSString *_appName;
-    NSDate *_dateReceived;
 }
 
 - (void);
@@ -22,26 +16,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct _NSRange);
-- (void);
+- (void)ent;
 - (void);
 - (id);
-- (void);
+- (void)P^_;
 - (void);
 - (void)!0EùÑ©°1Â0@ù
 × ;
-- (id)or: /* Error: Ran out of types for this method. */;
+- (id)observerWithWeakTarget:resultSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *appName; // @synthesize appName=_appName;
-@property(copy) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property struct _NSRange range; // @synthesize range=_range;
-@property(copy) NSString *senderName; // @synthesize senderName=_senderName;
-@property(copy) NSString *subject; // @synthesize subject=_subject;
 @property(copy) NSString *text; // @synthesize text=_text;
-@property(copy) NSURL *url; // @synthesize url=_url;
 
 @end
 

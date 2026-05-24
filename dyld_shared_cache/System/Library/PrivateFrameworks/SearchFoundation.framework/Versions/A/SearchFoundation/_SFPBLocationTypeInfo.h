@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBLocationTypeInfo
 {
@@ -17,23 +17,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)orPredicateWithSubpredicates:(id)arg1;
+- (id){public}@ with success performing changes:%d and success creating request:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)enString;
+- (id)6;
+- (void)tokenString;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

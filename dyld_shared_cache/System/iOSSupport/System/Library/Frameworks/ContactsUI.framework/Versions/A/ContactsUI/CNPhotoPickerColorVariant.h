@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerColorVariant
 {
     UIColor *_color;
-    NSString *_colorName;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void)tionDomains;
+- (void)_interactionDomains;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetExtensionProviderOptions, NSData, NSSet;
+@class NSData, NSSet;
 
 @interface CHSWidgetExtensionsBox
 {
     NSData *_archivedData;
-    NSSet *_extensions;
-    CHSWidgetExtensionProviderOptions *_options;
-    unsigned long long _sequenceNumber;
 }
 
 + (_Bool);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (id);
@@ -30,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *extensions; // @synthesize extensions=_extensions;
-@property(retain, nonatomic) CHSWidgetExtensionProviderOptions *options; // @synthesize options=_options;
-@property(nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

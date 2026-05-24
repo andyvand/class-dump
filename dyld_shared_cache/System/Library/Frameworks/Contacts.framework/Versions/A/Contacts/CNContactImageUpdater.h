@@ -9,7 +9,6 @@
 @interface CNContactImageUpdater
 {
     CNMutableContact *_contact;
-    CNContactStore *_contactStore;
 }
 
 + (void);
@@ -19,13 +18,12 @@
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)+*;
 - (void)ontact"16;
 - (void)$!<YoungerSiblingInLaw>!$_;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 
 @end

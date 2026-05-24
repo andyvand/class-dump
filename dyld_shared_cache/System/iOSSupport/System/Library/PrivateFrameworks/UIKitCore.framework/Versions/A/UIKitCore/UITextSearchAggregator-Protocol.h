@@ -7,6 +7,7 @@
 @class NSOrderedSet;
 
 @protocol UITextSearchAggregator
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *allFoundRanges;

@@ -7,8 +7,6 @@
 @interface NewsUI2.ContinueReadingPromptPresenter
 {
     id navigator;
-    id presentationOperationManager;
-    id eligibleContent;
 }
 
 @end

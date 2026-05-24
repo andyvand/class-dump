@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol NSInputAlignmentControllerDelegate;
 
 @interface NSInputAlignmentController
 {
     id <NSInputAlignmentControllerDelegate> _delegate;
-    NSMutableArray *_sessions;
-    id _reserved0;
 }
 
-+ (struct CGPoint);
++ (struct CGPoint)ConnectionClientInterface=^^?}8;
 - (void);
-- (void);
+- (void)set_storagePartitionIdentifier:(id)arg1;
+- (id)@"NSURL",R,C;
 - (id);
-- (id);
-- (id);
+- (id)_NSURLErrorWebSocketHandshakeFailureReasonKey;
 - (_Bool);
 - (void);
-- (id);
+- (id)L;
 - (id);
 - (void);
 - (void)/A;

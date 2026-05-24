@@ -9,33 +9,31 @@
 @interface HMBCloudZoneRebuilderStatus
 {
     long long _keyStatus;
-    NSString *_message;
-    unsigned long long _rebuildState;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)eMechanism:(unsigned long long)arg1 inplaceNorm: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (long long);
 - (id);
+- (id)%{public}s
+deviceClass:(struct _NSZone *)arg1 %{public}@
+productType:%{public}@
+color:%{public}@
+enclosureColor:%{public}@
+homeButtonType:%li
+isHomeKitResident:%d
+mediaSystemRole:%li
+capabilities:%{public}@
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)GPoint=dd}24;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long keyStatus; // @synthesize keyStatus=_keyStatus;
 @property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) unsigned long long rebuildState; // @synthesize rebuildState=_rebuildState;
-@property(readonly) Class superclass;
 
 @end
 

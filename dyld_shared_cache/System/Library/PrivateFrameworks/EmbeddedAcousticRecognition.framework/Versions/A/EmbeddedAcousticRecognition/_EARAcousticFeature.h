@@ -9,7 +9,6 @@
 @interface _EARAcousticFeature
 {
     NSArray *_acousticFeatureValuePerFrame;
-    double _frameDuration;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *acousticFeatureValuePerFrame; // @synthesize acousticFeatureValuePerFrame=_acousticFeatureValuePerFrame;
-@property(readonly, nonatomic) double frameDuration; // @synthesize frameDuration=_frameDuration;
 
 @end
 

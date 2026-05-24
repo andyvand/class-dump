@@ -5,5 +5,6 @@
 //
 
 @protocol LACEnvironmentServiceXPC
+- (void)86;
 @end
 

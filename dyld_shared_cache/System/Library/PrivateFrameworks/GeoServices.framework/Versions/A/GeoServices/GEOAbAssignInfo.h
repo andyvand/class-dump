@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOAbAssignInfo
 {
     PBUnknownFields *_unknownFields;
-    NSString *_abAssignId;
-    unsigned long long _createdAtTimestamp;
-    unsigned long long _relativeTimestamp;
-    struct {
-        unsigned int has_createdAtTimestamp:1;
-        unsigned int has_relativeTimestamp:1;
-    } _flags;
 }
 
-+ (_Bool)bled:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsSpeedLimitEnabled:(id)arg1;
+- (void)initWithQueue:(_Bool)arg1 schedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)canAccessProviderContainerWithIdentifier:(unsigned long long)arg1;
+- (void)_delayToken;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -31,8 +24,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_languageDetectionUserContext;
+- (void)$�;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -42,21 +35,15 @@
 × ;
 - (unsigned long long)¡	'ð!|EùQº*°1Â0@ù
 × ;
-- (id)unarEventsFrom:(struct _NSZone *)arg1 to: /* Error: Ran out of types for this method. */;
+- (id)lunarEventsFrom:(struct _NSZone *)arg1 to: /* Error: Ran out of types for this method. */;
 - (id)ÈiXk;
-- (id)lertKey;
+- (id)GEOTTLETADebugAlertKey;
 - (id);
 - (void)èþNÝ5d3;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abAssignId;
-@property(nonatomic) unsigned long long createdAtTimestamp;
-@property(readonly, nonatomic) _Bool hasAbAssignId;
 @property(nonatomic) _Bool hasCreatedAtTimestamp;
-@property(nonatomic) _Bool hasRelativeTimestamp;
-@property(nonatomic) unsigned long long relativeTimestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

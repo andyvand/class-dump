@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, MLMediaLibraryService, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class MLMediaLibraryService;
 
 @interface ML3StatementAccumulator
 {
     MLMediaLibraryService *_xpcService;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _statementThreshold;
-    NSMutableArray *_statementQueue;
-    NSString *_databasePath;
-    ML3DatabaseConnection *_connection;
-    NSUUID *_existingTransactionIdentifier;
-    unsigned long long _priorityLevel;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)_calculateUnpauseTimeForPauseTime: /* Error: Ran out of types for this method. */;
+- (id)_calculateStackAssetForAssetCount:autoPicks:userFavorites: /* Error: Ran out of types for this method. */;
+- (void)_bundleIdentifier;
+- (void)inManagedObjectContext:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_assetIDsByNodeIDFromAssetPersonEdgeDictionaries:(id)arg1 assetIDsNeedingContainmentUpdates:inContext: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_addVisualUnderstandingClusterIndexStatusToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)es;
+- (id)rceMaxPrefetchRetry;
+- (_Bool)firstGroupId;
+- (_Bool)requestGraphPerformQuery:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)utedStringWidthBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)extra USING (item_pid) JOIN item_stats USING (item_pid) WHERE (item.base_location_id > 0 AND item.remote_location_id < 200) OR (item.base_location_id = 0 AND item.keep_local_status = 1);
 - (id)path = 'CloudAssets');
 
 // Remaining properties
-@property(readonly, nonatomic) ML3DatabaseConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(retain, nonatomic) NSUUID *existingTransactionIdentifier; // @synthesize existingTransactionIdentifier=_existingTransactionIdentifier;
-@property(nonatomic) unsigned long long priorityLevel; // @synthesize priorityLevel=_priorityLevel;
-@property(readonly, nonatomic) NSMutableArray *statementQueue; // @synthesize statementQueue=_statementQueue;
 @property(nonatomic) unsigned long long statementThreshold; // @synthesize statementThreshold=_statementThreshold;
 
 @end

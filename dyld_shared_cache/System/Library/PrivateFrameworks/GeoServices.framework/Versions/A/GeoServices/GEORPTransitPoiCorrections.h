@@ -4,52 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPAccessPointCorrections, GEORPAmenityCorrections, GEORPCorrectedCoordinate, GEORPMapLocation, GEORPPlaceContainmentCorrections, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTransitPoiCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPAccessPointCorrections *_accessPoint;
-    GEORPAmenityCorrections *_amenity;
-    NSMutableArray *_businessHours;
-    GEORPPlaceContainmentCorrections *_containmentCorrections;
-    GEORPCorrectedCoordinate *_coordinate;
-    GEORPMapLocation *_mapLocation;
-    NSString *_name;
-    NSString *_originalName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _lineScheduleDelay;
-    _Bool _lineShapeIncorrect;
-    struct {
-        unsigned int has_lineScheduleDelay:1;
-        unsigned int has_lineShapeIncorrect:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_accessPoint:1;
-        unsigned int read_amenity:1;
-        unsigned int read_businessHours:1;
-        unsigned int read_containmentCorrections:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_mapLocation:1;
-        unsigned int read_name:1;
-        unsigned int read_originalName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)zedCategorys:(id)arg1;
++ (_Bool)setLocalizedCategorys:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)_registeredForDidSaveNotification;
+- (_Bool)Migrate;
+- (_Bool)dAside;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,23 +45,23 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ationEnabled:isVibrationSupported:suppressStartAlert:activationHostTime:isVoiceOverSiriSoundsEnabled: /* Error: Ran out of types for this method. */;
+- (void)eEstimator",&,N,V_speechEndHostTimeEstimator;
+- (id)d for SignalType:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)`b;
+- (void)h(8T;
 - (id);
 - (id)unterPersistence";
-- (id)ption;
+- (id)dataSetDescription;
 - (id)T;
 - (id)dam IDs:(id)arg1 %@;
 - (_Bool)/Contacts;
@@ -97,26 +69,7 @@
 - (void)rùé·P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAccessPointCorrections *accessPoint;
-@property(retain, nonatomic) GEORPAmenityCorrections *amenity;
-@property(retain, nonatomic) NSMutableArray *businessHours;
-@property(retain, nonatomic) GEORPPlaceContainmentCorrections *containmentCorrections;
-@property(retain, nonatomic) GEORPCorrectedCoordinate *coordinate;
-@property(readonly, nonatomic) _Bool hasAccessPoint;
-@property(readonly, nonatomic) _Bool hasAmenity;
-@property(readonly, nonatomic) _Bool hasContainmentCorrections;
-@property(readonly, nonatomic) _Bool hasCoordinate;
-@property(nonatomic) _Bool hasLineScheduleDelay;
-@property(nonatomic) _Bool hasLineShapeIncorrect;
-@property(readonly, nonatomic) _Bool hasMapLocation;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasOriginalName;
-@property(nonatomic) _Bool lineScheduleDelay;
-@property(nonatomic) _Bool lineShapeIncorrect;
-@property(retain, nonatomic) GEORPMapLocation *mapLocation;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *originalName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

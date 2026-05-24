@@ -4,37 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMapTable, NSMutableArray, NSString, SGTQueryGenius;
-@protocol SGTInputDelegate;
+@class NSString;
 
 @interface SGTInput
 {
     NSString *inputString;
-    _Bool _containsCJK;
-    _Bool _containsCJKDirtyFlag;
-    unsigned long long userTypedStringLength;
-    NSArray *attributeNames;
-    SGTQueryGenius *genius;
-    id delegate;
-    NSString *filterQueryString;
-    NSIndexSet *validatedSuggestionScopes;
-    CDUnknownBlockType suggestersAreReadyBlock;
-    void *evaluator;
-    NSMapTable *suggesterStates;
-    NSMutableArray *pendingSuggestions;
-    unsigned long long pendingSuggesters;
-    long long typingScope;
-    _Bool valid;
-    _Bool started;
-    _Bool preparing;
-    _Bool flushScheduled;
-    struct _NSRange _searchFieldRange;
-    NSString *substringOfInterest;
 }
 
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -45,13 +24,13 @@
 - (void);
 - (void);
 - (struct _NSRange);
-- (id);
+- (id)_;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -63,31 +42,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)-;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rm=},R;
 - (void)e;
 
 // Remaining properties
-@property(readonly) NSArray *attributeNames; // @synthesize attributeNames;
-@property(readonly) _Bool containsCJK;
-@property __weak id <SGTInputDelegate> delegate; // @synthesize delegate;
-@property(readonly) NSString *filterQueryString; // @synthesize filterQueryString;
-@property(readonly) SGTQueryGenius *genius;
-@property(readonly, copy) NSString *inputString; // @synthesize inputString;
-@property(copy) NSString *substringOfInterest; // @synthesize substringOfInterest;
-@property(copy) CDUnknownBlockType suggestersAreReadyBlock; // @synthesize suggestersAreReadyBlock;
-@property long long typingScope; // @synthesize typingScope;
 @property(readonly) unsigned long long userTypedStringLength; // @synthesize userTypedStringLength;
-@property(readonly, getter=isValid) _Bool valid; // @synthesize valid;
-@property(readonly) NSIndexSet *validatedSuggestionScopes; // @synthesize validatedSuggestionScopes;
 
 @end
 

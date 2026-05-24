@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIStatusBarCellularCondensedItemAccessibility_super;
++ (void)KitBarButtonItem;
 - (void);
-- (void);
+- (void)A;
 - (id);
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, NSObject, NSString, NSURL, PGManager, PHPhotoLibrary, VCPMediaAnalysisService;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSString;
 
 @interface PHAWallpaperSuggestionRefreshSession
 {
     NSString *_refreshSessionIdentifier;
-    NSURL *_refreshSessionURL;
-    VCPMediaAnalysisService *_mediaAnalysisService;
-    PGManager *_graphManager;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CPAnalytics *_analytics;
 }
 
 + (void);

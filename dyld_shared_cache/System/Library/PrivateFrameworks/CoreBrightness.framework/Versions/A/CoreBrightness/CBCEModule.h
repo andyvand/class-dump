@@ -6,20 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CBCEModule : CBModule
 {
     NSMutableDictionary *_alsEvents;
-    NSMutableDictionary *_currentInputDict;
-    NSMutableDictionary *_currentOutputDict;
-    id _model;
-    id _overriddenInput;
-    id _currentInput;
-    _Bool _overriding;
-    Class _modelClass;
-    Class _modelInputClass;
 }
 
 - (id);
@@ -31,24 +23,16 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)<hP4	;
+- (id)TimeMachineBracketedCaptureParams;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (Class);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property Class modelClass; // @synthesize modelClass=_modelClass;
-@property Class modelInputClass; // @synthesize modelInputClass=_modelInputClass;
-@property(readonly) Class superclass;
 
 @end
 

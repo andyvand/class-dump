@@ -11,7 +11,6 @@
 @interface SFQueryTopic : SFTopic
 {
     int _queryType;
-    NSString *_query;
 }
 
 + (_Bool);
@@ -19,27 +18,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setVolumeNormalization:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)me:(id)arg1;
 - (int);
-- (id);
-- (void)InfoTuples: /* Error: Ran out of types for this method. */;
+- (id)albumCloudShared;
+- (void)addInfoTuples: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(nonatomic) int queryType; // @synthesize queryType=_queryType;
-@property(readonly) Class superclass;
 
 @end
 

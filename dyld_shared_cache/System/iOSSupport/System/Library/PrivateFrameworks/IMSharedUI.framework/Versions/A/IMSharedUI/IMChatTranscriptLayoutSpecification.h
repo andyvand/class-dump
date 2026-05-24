@@ -7,36 +7,27 @@
 @interface IMChatTranscriptLayoutSpecification
 {
     double _maximumBubbleWidth;
-    double _topMargin;
-    double _bottomMargin;
-    double _leadingMargin;
-    double _trailingMargin;
-    double _zeroVerticalItemSpacing;
-    double _smallVerticalItemSpacing;
-    double _mediumVerticalItemSpacing;
-    double _largeVerticalItemSpacing;
-    struct CGSize _layoutBoundsSize;
 }
 
 - (double);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
+- (void);
 - (void);
 - (void);
 - (double);
 - (double);
 - (struct CGSize);
-- (double);
-- (void);
-- (void);
-- (double);
-- (void);
+- (double);
+- (void)WebSharedWorkerServerConnection:(double)arg1:resumeForBackForwardCache:sharedWorkerObjectIdentifier=%{public}s /* Error: Ran out of types for this method. */;
+- (void)coa.mm 336:(double)arg1 Invalid message dispatched %{public}s;
+- (double)long long>, bool>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)entifierGeneric<WebCore:(double)arg1:RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::FontCustomPlatformData>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (double);
 - (void);
 - (_Bool);
@@ -44,16 +35,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double bottomMargin; // @synthesize bottomMargin=_bottomMargin;
-@property(nonatomic) double largeVerticalItemSpacing; // @synthesize largeVerticalItemSpacing=_largeVerticalItemSpacing;
 @property(nonatomic) struct CGSize layoutBoundsSize; // @synthesize layoutBoundsSize=_layoutBoundsSize;
-@property(nonatomic) double leadingMargin; // @synthesize leadingMargin=_leadingMargin;
-@property(nonatomic) double maximumBubbleWidth; // @synthesize maximumBubbleWidth=_maximumBubbleWidth;
-@property(nonatomic) double mediumVerticalItemSpacing; // @synthesize mediumVerticalItemSpacing=_mediumVerticalItemSpacing;
-@property(nonatomic) double smallVerticalItemSpacing; // @synthesize smallVerticalItemSpacing=_smallVerticalItemSpacing;
-@property(nonatomic) double topMargin; // @synthesize topMargin=_topMargin;
-@property(nonatomic) double trailingMargin; // @synthesize trailingMargin=_trailingMargin;
-@property(nonatomic) double zeroVerticalItemSpacing; // @synthesize zeroVerticalItemSpacing=_zeroVerticalItemSpacing;
 
 @end
 

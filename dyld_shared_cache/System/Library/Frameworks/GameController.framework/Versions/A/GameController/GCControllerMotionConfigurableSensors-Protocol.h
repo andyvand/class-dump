@@ -5,6 +5,7 @@
 //
 
 @protocol GCControllerMotionConfigurableSensors
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool sensorsActive;

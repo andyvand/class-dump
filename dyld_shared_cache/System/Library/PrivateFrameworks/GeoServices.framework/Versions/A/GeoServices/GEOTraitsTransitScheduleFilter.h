@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTraitsTransitScheduleModeFilter, GEOTraitsTransitScheduleTimeRange, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTraitsTransitScheduleFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOTraitsTransitScheduleModeFilter *_highFrequencyFilter;
-    GEOTraitsTransitScheduleModeFilter *_lowFrequencyFilter;
-    GEOTraitsTransitScheduleTimeRange *_operatingHoursRange;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_highFrequencyFilter:1;
-        unsigned int read_lowFrequencyFilter:1;
-        unsigned int read_operatingHoursRange:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sFromStartOfRoute:(id)arg1;
++ (_Bool)setMetersFromStartOfRoute:(id)arg1;
+- (void)x;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void):(id)arg1 audioDeviceID:voiceTriggerEventInfo:activationAlertStartTimestamp:startRecordingTimestamp:firstBufferTimestamp:firstBufferHostTime:estimatedSpeechEndHostTime:deviceIdentifier:includeBTInfo:speechEvent: /* Error: Ran out of types for this method. */;
+- (id)user offset %{public}f;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -48,20 +34,14 @@
 - (void);
 - (id)Stops"b1"has_originalWaypointId"b1};
 - (_Bool)EOPDPlaceSummaryLayoutUnitUGCUserSubmittedRecommendations";
-- (id);
-- (id)etails;
-- (id)r_country_code;
+- (id)hasUniqueWaypointID;
+- (id)GEOLogMsgStateActionButtonDetails;
+- (id)viewport_center_country_code;
 - (void)"ÃBAÿYóã/WQ@;
 - (id)P;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHighFrequencyFilter;
-@property(readonly, nonatomic) _Bool hasLowFrequencyFilter;
-@property(readonly, nonatomic) _Bool hasOperatingHoursRange;
-@property(retain, nonatomic) GEOTraitsTransitScheduleModeFilter *highFrequencyFilter;
-@property(retain, nonatomic) GEOTraitsTransitScheduleModeFilter *lowFrequencyFilter;
-@property(retain, nonatomic) GEOTraitsTransitScheduleTimeRange *operatingHoursRange;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -9,21 +9,18 @@
 @interface PKPhysicsJointRope : PKPhysicsJoint
 {
     struct b2RopeJointDef _jointDef;
-    struct b2RopeJoint *_joint;
-    struct CGPoint _anchorA;
-    struct CGPoint _anchorB;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (struct b2JointDef *);
 - (struct b2Joint *);
 - (id);
-- (id);
-- (void);
+- (id)FullFeedRequest;
+- (void)PrioritizedDownloadConsistencyResolutionStrategy;
 - (void);
 - (void);
 - (double);

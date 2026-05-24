@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLatLng;
+@class NSData, NSString, SFLatLng;
 
 @protocol SFBeginMapsRoutingCommand
+- (NSData *);
+- (NSString *)__swift5_reflstr__TEXT;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int directionsMode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFLatLng *location;
-@property(copy, nonatomic) NSData *mapsData;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
 @end
 

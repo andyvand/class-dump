@@ -9,12 +9,12 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (long long)tasource;
++ (long long)whichDatasource;
 - (id);
-- (id)NCodableAttributeEnumTypeKey;
+- (id)__INCodableAttributeEnumTypeKey;
 
 @end
 

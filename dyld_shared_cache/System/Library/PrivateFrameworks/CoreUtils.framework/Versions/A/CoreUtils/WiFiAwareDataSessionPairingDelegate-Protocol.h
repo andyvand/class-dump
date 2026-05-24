@@ -5,5 +5,10 @@
 //
 
 @protocol WiFiAwareDataSessionPairingDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

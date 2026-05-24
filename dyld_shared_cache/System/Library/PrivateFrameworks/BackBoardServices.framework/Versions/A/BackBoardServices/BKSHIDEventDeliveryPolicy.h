@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHIDEventDeliveryPolicy
 {
     _Bool _finalStringTokenInChain;
-    long long _deferringPolicyStatus;
 }
 
 - (long long);
@@ -21,15 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) long long deferringPolicyStatus; // @synthesize deferringPolicyStatus=_deferringPolicyStatus;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool finalStringTokenInChain;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

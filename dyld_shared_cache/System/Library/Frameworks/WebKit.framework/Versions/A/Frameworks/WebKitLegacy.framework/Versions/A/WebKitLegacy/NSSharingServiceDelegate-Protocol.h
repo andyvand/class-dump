@@ -5,5 +5,8 @@
 //
 
 @protocol NSSharingServiceDelegate
+
+@optional
+- (void)G;
 @end
 

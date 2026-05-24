@@ -10,9 +10,6 @@
 @interface MTLDynamicLibraryDescriptorSPI
 {
     NSURL *_url;
-    id <MTLLibrary> _library;
-    unsigned long long _options;
-    unsigned long long _globalConstantsTag;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)h ;
 - (_Bool);
 - (id);
 - (id);
@@ -29,10 +26,7 @@
 - (id)ationBufferOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long globalConstantsTag; // @synthesize globalConstantsTag=_globalConstantsTag;
 @property(retain, nonatomic) id <MTLLibrary> library; // @synthesize library=_library;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

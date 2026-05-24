@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteEventRouterProtoChangeRegistrationsMessage, HMDRemoteEventRouterProtoConnectMessage, HMDRemoteEventRouterProtoDisconnectMessage, HMDRemoteEventRouterProtoFetchEventsMessage, HMDRemoteEventRouterProtoKeepAliveMessage, NSString;
+@class HMDRemoteEventRouterProtoChangeRegistrationsMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoMessage
 {
     HMDRemoteEventRouterProtoChangeRegistrationsMessage *_changeRegistrations;
-    HMDRemoteEventRouterProtoConnectMessage *_connect;
-    HMDRemoteEventRouterProtoDisconnectMessage *_disconnect;
-    HMDRemoteEventRouterProtoFetchEventsMessage *_fetchEvents;
-    NSString *_identifier;
-    HMDRemoteEventRouterProtoKeepAliveMessage *_keepAlive;
-    int _request;
-    struct {
-        unsigned int request:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Data;
+- (_Bool)er.data;
+- (_Bool)capabilities;
+- (_Bool)ke;
+- (_Bool)%@ (%@);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (int);
-- (void);
+- (void)8hjh8;
 - (void);
 - (int);
 - (id);
@@ -43,37 +34,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)= %s;
 - (_Bool);
 - (void)0@ù
 × ;
 - (void)!Ì@ùq1Â0@ù
 × ;
-- (id)hanges;
+- (id)madeChanges;
 - (id)acteristicName;
 - (id);
 - (_Bool)ÐQ;
 - (void)ng cloud transform, no home manager;
-- (void)cureTriggerTimeoutInSeconds;
-- (id)er;
+- (void)BulletinSecureTriggerTimeoutInSeconds;
+- (id)CommunicationTrustHandler;
 - (id)ã;
 - (_Bool)äh?;
 
 // Remaining properties
-@property(retain, nonatomic) HMDRemoteEventRouterProtoChangeRegistrationsMessage *changeRegistrations; // @synthesize changeRegistrations=_changeRegistrations;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoConnectMessage *connect; // @synthesize connect=_connect;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoDisconnectMessage *disconnect; // @synthesize disconnect=_disconnect;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoFetchEventsMessage *fetchEvents; // @synthesize fetchEvents=_fetchEvents;
-@property(readonly, nonatomic) _Bool hasChangeRegistrations;
-@property(readonly, nonatomic) _Bool hasConnect;
-@property(readonly, nonatomic) _Bool hasDisconnect;
-@property(readonly, nonatomic) _Bool hasFetchEvents;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasKeepAlive;
-@property(nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoKeepAliveMessage *keepAlive; // @synthesize keepAlive=_keepAlive;
-@property(nonatomic) int request; // @synthesize request=_request;
 
 @end
 

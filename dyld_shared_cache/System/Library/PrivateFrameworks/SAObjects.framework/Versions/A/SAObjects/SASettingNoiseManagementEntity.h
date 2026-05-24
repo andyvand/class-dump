@@ -12,10 +12,10 @@
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
-- (id);
+- (void)silStartMilliSeconds;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *previousValue;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

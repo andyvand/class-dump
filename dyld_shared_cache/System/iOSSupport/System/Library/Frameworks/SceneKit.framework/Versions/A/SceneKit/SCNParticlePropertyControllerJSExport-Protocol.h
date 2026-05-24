@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSString, SCNNode;
+@class CAAnimation;
 
 @protocol SCNParticlePropertyControllerJSExport
+- (void);
 - (id)t fogFactor = pow(clamp(viewPos.z * u_fogParameters.x + u_fogParameters.y, 0.0, u_fogColor.a), u_fogParameters.z);
         #ifdef ENABLE_CUBE_MAP
             v_normal.a = fogFactor;
@@ -52,10 +53,5 @@ _output.color.rgba += floorColor.rgba;
 
 // Remaining properties
 @property(retain, nonatomic) CAAnimation *animation;
-@property(nonatomic) double inputBias;
-@property(nonatomic) long long inputMode;
-@property(nonatomic) SCNNode *inputOrigin;
-@property(copy, nonatomic) NSString *inputProperty;
-@property(nonatomic) double inputScale;
 @end
 

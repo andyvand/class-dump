@@ -9,7 +9,6 @@
 @protocol _INPBGetVisualCodeIntentResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasVisualCodeImage;
 @property(retain, nonatomic) _INPBImageValue *visualCodeImage;
 @end
 

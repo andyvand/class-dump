@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
     id <LPComponentViewHost> _host;
 }
 
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)tableView:(id)arg1 shouldSpringLoadRowAtIndexPath:withContext: /* Error: Ran out of types for this method. */;
+- (id)suggestionCategoryBackgroundVisualEffectView;
+- (void)suggestionCategoryBackgroundColor;
+- (void)startListeningToVideoPlayer;
 - (struct CGSize);
-- (id);
-- (id);
+- (id)setFireDate:(id)arg1;
+- (id)_calDescription;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)v"L�h;
 - (void);
 - (void)á÷ð!tFùqð1Â0@ù
 × ;

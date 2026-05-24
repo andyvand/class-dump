@@ -9,9 +9,6 @@
 @interface _NURAWCameraSpaceProperties
 {
     NSArray *_xyzToCamera1;
-    NSArray *_xyzToCamera2;
-    double _whiteValue;
-    double _whiteFactor;
 }
 
 - (id);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property double whiteFactor; // @synthesize whiteFactor=_whiteFactor;
-@property double whiteValue; // @synthesize whiteValue=_whiteValue;
 @property(retain) NSArray *xyzToCamera1; // @synthesize xyzToCamera1=_xyzToCamera1;
-@property(retain) NSArray *xyzToCamera2; // @synthesize xyzToCamera2=_xyzToCamera2;
 
 @end
 

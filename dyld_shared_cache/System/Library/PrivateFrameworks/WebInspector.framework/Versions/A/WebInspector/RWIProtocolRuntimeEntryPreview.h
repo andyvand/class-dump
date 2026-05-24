@@ -13,13 +13,12 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolRuntimeObjectPreview *key;
 @property(retain, nonatomic) RWIProtocolRuntimeObjectPreview *value;
 
 @end

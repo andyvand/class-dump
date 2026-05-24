@@ -12,24 +12,18 @@ __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingLanguageValue : HMDCompositeSettingValue
 {
     NSString *_inputLanguageCode;
-    NSString *_outputVoiceGenderCode;
-    NSString *_outputVoiceLanguageCode;
-    NSString *_voiceName;
 }
 
 - (id);
 - (id);
+- (id)g, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)ext resolution result:%@ from resident for access code identifier:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void)t.daemon.camera.setting.proactive.reader;
 
 // Remaining properties
 @property(readonly, copy) NSString *inputLanguageCode; // @synthesize inputLanguageCode=_inputLanguageCode;
-@property(readonly, copy) NSString *outputVoiceGenderCode; // @synthesize outputVoiceGenderCode=_outputVoiceGenderCode;
-@property(readonly, copy) NSString *outputVoiceLanguageCode; // @synthesize outputVoiceLanguageCode=_outputVoiceLanguageCode;
-@property(readonly, copy) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

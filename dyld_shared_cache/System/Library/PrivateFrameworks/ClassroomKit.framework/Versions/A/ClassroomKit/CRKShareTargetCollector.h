@@ -10,11 +10,9 @@
 @interface CRKShareTargetCollector
 {
     id <CRKShareTargetCollectorDelegate> _delegate;
-    NSSet *_studentTargets;
-    NSSet *_instructorTargets;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -29,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CRKShareTargetCollectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSSet *instructorTargets; // @synthesize instructorTargets=_instructorTargets;
 @property(copy, nonatomic) NSSet *studentTargets; // @synthesize studentTargets=_studentTargets;
 
 @end

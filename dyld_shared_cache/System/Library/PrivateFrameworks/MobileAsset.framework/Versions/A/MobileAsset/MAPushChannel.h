@@ -9,15 +9,13 @@
 @interface MAPushChannel
 {
     NSString *_identifier;
-    long long _populationType;
-    NSString *_base64ChannelId;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
+- (id)removeKeychainItemsInDomain:(id)arg1 keepIdentity: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)_modifyMonitoringWithConfiguration:handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -31,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *base64ChannelId; // @synthesize base64ChannelId=_base64ChannelId;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long populationType; // @synthesize populationType=_populationType;
 
 @end
 

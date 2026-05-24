@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFMapRegion
 {
     struct {
@@ -15,11 +13,6 @@
         unsigned int eastLng:1;
         unsigned int altitudeInMeters:1;
     } _has;
-    double _southLat;
-    double _westLng;
-    double _northLat;
-    double _eastLng;
-    double _altitudeInMeters;
 }
 
 + (_Bool);
@@ -35,33 +28,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (double);
 - (double);
-- (id);
+- (id)setMediaLibraryOverrideForTestingOnly:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ne asset because property %{public}@ is not loaded.;
 - (id);
-- (id);
-- (id);
+- (id)LibrarySizeRangeVerySmall;
+- (id)lid PHInsertChangeRequest;
 - (id);
 
 // Remaining properties
-@property(nonatomic) double altitudeInMeters; // @synthesize altitudeInMeters=_altitudeInMeters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double eastLng; // @synthesize eastLng=_eastLng;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double northLat; // @synthesize northLat=_northLat;
 @property(nonatomic) double southLat; // @synthesize southLat=_southLat;
-@property(readonly) Class superclass;
-@property(nonatomic) double westLng; // @synthesize westLng=_westLng;
 
 @end
 

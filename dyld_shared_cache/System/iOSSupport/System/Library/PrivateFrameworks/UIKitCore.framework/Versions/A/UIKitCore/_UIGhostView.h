@@ -15,16 +15,16 @@
 }
 
 + (id);
-- (id);
+- (id)subscriptionStateChanged: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (struct CGSize);
 - (id)
 × ;
-- (void)State;
-- (void)me;
+- (void)magicKeyboardState;
+- (void)_hasMaskViewFrame;
 - (id)ranslator",&,N,V_sectionGeometryTranslator;
-- (_Bool)AccessibilityInvertColors;
+- (_Bool)UIAccessibilityInvertColors;
 - (void)$º;
 - (void)w[;
 - (id);

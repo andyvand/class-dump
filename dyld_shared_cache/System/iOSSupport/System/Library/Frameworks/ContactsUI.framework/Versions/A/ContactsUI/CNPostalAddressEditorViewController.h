@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCardPropertyGroup, CNMutableContact, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CNPostalAddressEditorViewController
 {
     NSMutableArray *_propertyItems;
-    NSString *_propertyKey;
-    CNMutableContact *_contact;
-    CNCardPropertyGroup *_propertyGroup;
-    _Bool _editNames;
-    _Bool _editingExistingContact;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -30,29 +25,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)o;
 - (_Bool);
 - (double);
+- (id)x;
+- (long long)removeObjectsAtIndexes:(id)arg1;
+- (void);
+- (void)=;
+- (void);
 - (id);
-- (long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)iders;
+- (void)_providers;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isPresentingModalViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface VGChargingNetworksStorage
 {
     NSMutableArray *_networks;
-    _Bool _usesPreferredNetworksForRouting;
-    struct {
-        unsigned int usesPreferredNetworksForRouting:1;
-    } _has;
 }
 
 + (Class);
@@ -26,11 +22,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)aringServiceDelegate>"32@0:(id)arg1 8@"NSSharingServicePicker"16@"NSSharingService"24;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@"NSView",&,N,V_viewModeContactCard;
 - (id);
 - (id);
 - (void);
@@ -38,9 +34,7 @@
 - (id)s not have a displayable battery percentage, fallback to `batteryPercentageBasedOfCapacity`.;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsesPreferredNetworksForRouting;
 @property(retain, nonatomic) NSMutableArray *networks; // @synthesize networks=_networks;
-@property(nonatomic) _Bool usesPreferredNetworksForRouting; // @synthesize usesPreferredNetworksForRouting=_usesPreferredNetworksForRouting;
 
 @end
 

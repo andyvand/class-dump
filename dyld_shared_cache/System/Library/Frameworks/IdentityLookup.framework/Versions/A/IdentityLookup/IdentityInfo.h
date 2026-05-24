@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IdentityLookup.LiveLookupDBExtension, NSDate, NSString;
+@class NSDate;
 
 @interface IdentityInfo
 {
@@ -13,12 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) IdentityLookup.LiveLookupDBExtension *dbExtension; // @dynamic dbExtension;
 @property(nonatomic, copy) NSDate *expiration; // @dynamic expiration;
-@property(nonatomic, copy) NSString *handle; // @dynamic handle;
-@property(nonatomic, copy) NSString *iconURL; // @dynamic iconURL;
-@property(nonatomic, copy) NSString *name; // @dynamic name;
-@property(nonatomic) int type; // @dynamic type;
 
 @end
 

@@ -9,30 +9,24 @@
 @interface EKEventMapCell
 {
     _Bool _currentlyLoading;
-    _Bool _mapViewSetup;
-    _Bool _setupAsEmptyView;
-    EKEventMapDetailItem *_detailItem;
 }
 
-- (_Bool);
+- (_Bool)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)x.%s;
+- (void)&s;
+- (void);
+- (_Bool)*s;
 - (id);
 - (_Bool);
+- (void)|R&;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)CopyView: /* Error: Ran out of types for this method. */;
+- (id)%@, reason:(long long)arg1 %@ (Silently dropping.);
+- (void)setIsSelectedCopyView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool currentlyLoading; // @synthesize currentlyLoading=_currentlyLoading;
 @property(nonatomic) __weak EKEventMapDetailItem *detailItem; // @synthesize detailItem=_detailItem;
-@property(nonatomic) _Bool mapViewSetup; // @synthesize mapViewSetup=_mapViewSetup;
-@property(nonatomic) _Bool setupAsEmptyView; // @synthesize setupAsEmptyView=_setupAsEmptyView;
 
 @end
 

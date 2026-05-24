@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MSVSystemDialogResponse
 {
     long long _buttonIdentifier;
-    NSArray *_textFieldValues;
 }
 
-- (id);
+- (id)C;
 - (long long);
 - (id);
 - (id);
@@ -20,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long buttonIdentifier; // @synthesize buttonIdentifier=_buttonIdentifier;
-@property(readonly, nonatomic) NSArray *textFieldValues; // @synthesize textFieldValues=_textFieldValues;
 
 @end
 

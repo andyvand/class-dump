@@ -4,30 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventRealtimeTrafficProbe
 {
     PBUnknownFields *_unknownFields;
-    NSData *_locationCollection;
 }
 
-+ (_Bool)e:(id)arg1;
++ (_Bool)setHasStateTime:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)\x;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_portStateMachine;
 - (_Bool);
 - (void);
-- (id)nsitShields:(struct _NSZone *)arg1;
+- (id)setTransitShields:(struct _NSZone *)arg1;
 - (id)_relatedSearchSuggestion;
 - (id)equired;
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocationCollection;
-@property(retain, nonatomic) NSData *locationCollection;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

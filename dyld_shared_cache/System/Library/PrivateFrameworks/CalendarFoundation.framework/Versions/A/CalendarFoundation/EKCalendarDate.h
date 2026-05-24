@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSDateComponents, NSString;
+@class NSCalendar;
 
 @interface EKCalendarDate
 {
     NSCalendar *_calendar;
-    NSCalendar *_americanCalendar;
-    NSDate *_date;
-    NSDateComponents *_components;
-    NSString *_dateCacheKey;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
-+ (id);
++ (id)accessoryInfoForConnection:(id)arg1 withReply:(id)arg2;
 + (id);
 + (id);
 + (void);
@@ -27,30 +22,31 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (long long)works/ImageIO.framework/Versions/A/ImageIO;
+- (id)!;
+- (double)(}S;
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)CalDAVReportJunkTaskGroup;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (long long);
+- (id)me:(long long)arg1 %s; rc = %d
+;
+- (unsigned long long)se, true>::data_map_ids_get_locked_with_hash(DATA_ID_T *, uint32_t, uint32_t, const uint8_t *, ssize_t) [DATA_ID_T = unsigned int, EXT = false, STORE_HASH = false, USE_ACTIVITY_JOURNAL = true] /* Error: Ran out of types for this method. */;
+- (id)long long, true, true, false>::data_map_init_with_ctx(data_map_init_ctx *) [DATA_ID_T = unsigned long long, EXT = true, STORE_HASH = true, USE_ACTIVITY_JOURNAL = false] /* Error: Ran out of types for this method. */;
+- (id)? @!A"B#C$D%E&F'G(H)I*J+K,L-M.N/O0123456789:(struct _NSZone *)arg1 ;<=>?@ A!B"C#D$E%F&G'H(I)J*K+L,M-N.O/P;
 - (id);
-- (double);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -63,37 +59,37 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)ount %@  enable is %d;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (unsigned long long);
 - (CDStruct_deff9ab7);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)mouseEventWithType:(long long)arg1 location:(long long *)arg2 modifierFlags:timestamp:windowNumber:context:eventNumber:clickCount:pressure: /* Error: Ran out of types for this method. */;
+- (id)imageViewWithImage:(id)arg1;
+- (id)setKeyIncrease:(id)arg1;
+- (id);
+- (long long)ConfigForScreen:Screen most not be nil! /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long);
 - (id);
-- (long long);
+- (long long)P;
 - (long long);
 - (double);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?=IIII}{?={?=II}{?=III}}})})}}{MSRHcuEntryHeader_t=II}{?=I}{MSRHcuEntryHeader_t=II}{?={?=fffff}}{MSRHcuEntryHeader_t=II}{?={?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}}{MSRHcuEntryHeader_t=II}{?={?=IIIII}{?=IIIII}{?=IIIII}}{MSRHcuEntryHeader_t=II}{?=[4{?=b11b11b10}][4{?=b12b12b8}][4{?=b11b11b10}]}}16;
 - (id);
-- (long long)eKey;
-- (id)nCalendar: /* Error: Ran out of types for this method. */;
+- (long long)_dateCacheKey;
+- (id)CalDateByComponentwiseAddingMinutes:inCalendar: /* Error: Ran out of types for this method. */;
 - (long long)y year on a specific day of the year;
 - (id)very %ld months on %@;
 - (long long)jûÿ±È;

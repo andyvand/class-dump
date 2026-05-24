@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, _UITabBarItemAppearanceStorage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarAppearanceStorage
 {
     UIImage *backgroundImage;
-    UIImage *shadowImage;
-    UIImage *selectionIndicatorImage;
-    UIColor *barTintColor;
-    UIColor *selectedImageTintColor;
-    _UITabBarItemAppearanceStorage *tabItemAppearanceStorage;
-    UIColor *_unselectedImageTintColor;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)payloadHESSID;
 - (void);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void);
+- (id)stateMachineUpdateFromState:toState: /* Error: Ran out of types for this method. */;
+- (void)_prefetchDataSourceProxy;
 - (id)À2;
 - (id);
 - (void);
@@ -38,16 +32,10 @@ __attribute__((visibility("hidden")))
 	local.performActionInvoked = %@, 
 	_actionsWithInvokedHandlers = %@;
 - (void);
-- (void)eetPresentationControllerDetentIdentifier;
+- (void)NUISheetPresentationControllerDetentIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage;
-@property(retain, nonatomic) UIColor *barTintColor; // @synthesize barTintColor;
-@property(retain, nonatomic) UIColor *selectedImageTintColor; // @synthesize selectedImageTintColor;
-@property(retain, nonatomic) UIImage *selectionIndicatorImage; // @synthesize selectionIndicatorImage;
-@property(retain, nonatomic) UIImage *shadowImage; // @synthesize shadowImage;
-@property(retain, nonatomic) _UITabBarItemAppearanceStorage *tabItemAppearanceStorage;
-@property(retain, nonatomic) UIColor *unselectedImageTintColor; // @synthesize unselectedImageTintColor=_unselectedImageTintColor;
 
 @end
 

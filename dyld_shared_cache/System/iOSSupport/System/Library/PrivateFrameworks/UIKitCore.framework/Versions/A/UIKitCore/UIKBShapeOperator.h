@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
-- (struct CGPoint);
-- (id);
+- (struct CGRect)e %@ utiType %@ guid %@);
+- (struct CGPoint)a is nil, not writing to disk;
+- (id):(id)arg1 (%@)  new:(struct CGSize)arg2 (%@);
 - (struct CGRect);
 - (CDStruct_c3b9c2ee);
 - (id);

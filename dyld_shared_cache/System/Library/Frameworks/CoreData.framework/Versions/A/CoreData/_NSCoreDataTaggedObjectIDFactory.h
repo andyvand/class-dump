@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCoreDataTaggedObjectIDFactory
 {
     int _cd_rc;
-    unsigned int _taggedPoolIndex;
-    id _fallbackFactories;
 }
 
 + (id)ERE %@ IN %@;
@@ -21,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (oneway void);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void)3;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id)hot class was nil;
-- (id)plates;
+- (id)NSFetchRequestTemplates;
 
 @end
 

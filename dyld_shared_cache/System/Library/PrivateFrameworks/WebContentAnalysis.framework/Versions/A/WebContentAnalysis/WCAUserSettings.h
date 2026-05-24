@@ -9,7 +9,6 @@
 @interface WCAUserSettings
 {
     NSDictionary *_userSettings;
-    NSString *_userName;
 }
 
 - (id);

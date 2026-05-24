@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXComponentInteraction, UIViewController;
+@class SXComponentInteraction;
 
 @interface SXComponentInteractionPreview
 {
     SXComponentInteraction *_interaction;
-    UIViewController *_viewController;
 }
 
 - (void)nvasShowable>"24;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPostalAddress, NSURL;
+@class CNPostalAddress;
 
 @interface ABMapsLaunchRequest
 {
     _Bool _presentDirections;
-    CNPostalAddress *_postalAddress;
-    NSURL *_fallbackURL;
 }
 
 - (_Bool);
@@ -21,9 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *fallbackURL; // @synthesize fallbackURL=_fallbackURL;
 @property(readonly, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(readonly, nonatomic) _Bool presentDirections; // @synthesize presentDirections=_presentDirections;
 
 @end
 

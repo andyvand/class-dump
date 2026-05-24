@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVIntentReformationEnded, CNVSchemaCNVIntentReformationFailed, CNVSchemaCNVIntentReformationStarted, NSData;
+@class CNVSchemaCNVIntentReformationStarted;
 
 @interface CNVSchemaCNVIntentReformationContext : SISchemaInstrumentationMessage
 {
     CNVSchemaCNVIntentReformationStarted *_startedOrChanged;
-    CNVSchemaCNVIntentReformationEnded *_ended;
-    CNVSchemaCNVIntentReformationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,28 +28,22 @@
 - (void);
 - (id);
 - (id);
+- (id)4
+;
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)"IFTSchemaIFTContextRetrieved";
-- (id)ioInitEnded;
+- (id)MHSchemaMHAssistantDaemonAudioInitEnded;
 - (id)no¬pôpDst;
 - (void)ï%;
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVIntentReformationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CNVSchemaCNVIntentReformationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CNVSchemaCNVIntentReformationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

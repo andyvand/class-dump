@@ -6,17 +6,9 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSArray, NSData, NSString;
-
 @interface PKPeerPaymentStatusResponse : PKPeerPaymentWebServiceResponse
 {
     long long _status;
-    NSString *_paymentIdentifier;
-    NSString *_transactionIdentifier;
-    NSString *_recurringPaymentIdentifier;
-    NSArray *_actions;
-    NSData *_amountHash;
-    NSString *_signature;
 }
 
 - (id);
@@ -27,17 +19,11 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)r;
 - (void)l:%@;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy, nonatomic) NSData *amountHash; // @synthesize amountHash=_amountHash;
-@property(readonly, copy, nonatomic) NSString *paymentIdentifier; // @synthesize paymentIdentifier=_paymentIdentifier;
-@property(readonly, copy, nonatomic) NSString *recurringPaymentIdentifier; // @synthesize recurringPaymentIdentifier=_recurringPaymentIdentifier;
-@property(readonly, copy, nonatomic) NSString *signature; // @synthesize signature=_signature;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

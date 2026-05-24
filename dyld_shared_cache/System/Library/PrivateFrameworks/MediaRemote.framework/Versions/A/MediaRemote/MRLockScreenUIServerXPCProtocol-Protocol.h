@@ -5,5 +5,7 @@
 //
 
 @protocol MRLockScreenUIServerXPCProtocol
+- (void);
+- (void);
 @end
 

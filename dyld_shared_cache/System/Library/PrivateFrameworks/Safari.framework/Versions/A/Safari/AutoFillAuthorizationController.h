@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AutoFillLocalAuthenticationManager, LAAuthenticationSheetController, LAContext, NSData, NSView;
+@class LAAuthenticationSheetController, NSData;
 
 @interface AutoFillAuthorizationController
 {
     LAAuthenticationSheetController *_sheetController;
-    LAContext *_currentLAContext;
-    AutoFillLocalAuthenticationManager *_localAuthenticationManager;
 }
 
 - (id);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *currentExternalizedContext;
-@property(readonly, nonatomic) NSView *view;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDSupportedRTPConfiguration
@@ -14,17 +14,16 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)d÷° ø0!ùL"°"h#x$\%Ü'Ä)ä*ú+û<,|,ü(-;
 - (id);
-- (id);
+- (id)oppedPinFloorOrdinal;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)r writing message errno:(id)arg1 %d, fd:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ot_general_accessibility_vision_voiceOver_enabled_writeVersion;
+- (void)root_general_accessibility_vision_voiceOver_enabled_writeVersion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *srtpCryptoSuites; // @synthesize srtpCryptoSuites=_srtpCryptoSuites;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

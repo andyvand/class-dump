@@ -15,15 +15,15 @@
 }
 
 + (_Bool)cking remote view controller:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)searchableItemsDidUpdate:(_Bool)arg1 mask: /* Error: Ran out of types for this method. */;
+- (_Bool)_metricIdentifierIfMalformed:domain:subType: /* Error: Ran out of types for this method. */;
+- (_Bool)rom %@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)aint:(id)arg1;
-- (void)h:(id)arg1;
+- (_Bool)setSeparatedHeaderContentViewControllerContainerViewWidthConstraint:(id)arg1;
+- (void)preUpdateFrameForDecorationViewOfKind:(id)arg1 withInitialIndexPath: /* Error: Ran out of types for this method. */;
 - (id)",&,N,V_grayscaleTintMaskViewContainer;
 - (id)ingDebugInfo(SEL _Nonnull);
 - (void)Ë_Ìt^;

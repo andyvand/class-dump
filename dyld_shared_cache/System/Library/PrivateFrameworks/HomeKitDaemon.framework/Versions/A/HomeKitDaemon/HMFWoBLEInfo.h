@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)¬É;
+- (id)messageForNonRoutable;
 - (id);
-- (id);
-- (id);
+- (id)learSessionStateAndDisconnect  should disconnect %d should dismiss notification overlay %d;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)ssageKeyEcosystemName;
+- (void)HMDCharacteristicEventReportMessageKeyEcosystemName;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *bleIdentifier; // @synthesize bleIdentifier=_bleIdentifier;

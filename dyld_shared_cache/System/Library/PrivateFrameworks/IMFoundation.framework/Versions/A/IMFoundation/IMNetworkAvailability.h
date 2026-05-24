@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDispatchTimer, NSString;
+@class NSString;
 
 @interface IMNetworkAvailability
 {
     NSString *_guid;
-    IMDispatchTimer *_timer;
-    double _timeout;
-    double _wifiTimeout;
-    double _startTime;
-    unsigned long long _flags;
-    unsigned long long _options;
-    CDUnknownBlockType _completionBlock;
-    void *_context;
 }
 
 - (id);
@@ -26,10 +18,10 @@
 - (void);
 - (void);
 - (void);
-- (void *);
+- (void *)+;
+- (void)ures enable size invalid or not available;
 - (void);
-- (void);
-- (void);
+- (void)AudioDSPGraph;
 - (void);
 
 // Remaining properties

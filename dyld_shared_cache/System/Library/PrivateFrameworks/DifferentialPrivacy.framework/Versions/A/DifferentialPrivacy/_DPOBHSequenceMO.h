@@ -16,8 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *plainSequence; // @dynamic plainSequence;
-@property(nonatomic) long long sequenceBitPosition; // @dynamic sequenceBitPosition;
-@property(nonatomic) _Bool sequenceBitValue; // @dynamic sequenceBitValue;
 
 @end
 

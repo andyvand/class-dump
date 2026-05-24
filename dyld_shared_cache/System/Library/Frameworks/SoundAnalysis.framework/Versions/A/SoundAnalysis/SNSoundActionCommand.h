@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNSoundActionCommand
 {
     id impl;
@@ -24,14 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)omeStreams.framework/Versions/A/BiomeStreams;
 - (void);
 
 // Remaining properties
 @property(nonatomic) double confidenceThreshold;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) long long minDurationBlocks;
-@property(nonatomic, copy) NSString *name;
 
 @end
 

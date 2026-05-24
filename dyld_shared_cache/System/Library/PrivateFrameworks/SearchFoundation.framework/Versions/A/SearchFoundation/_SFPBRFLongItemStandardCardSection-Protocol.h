@@ -7,13 +7,11 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFLongItemStandardCardSection
+- (void);
+- (_SFPBRFTextProperty *)0:8@16q24{CGPoint=dd}32^v48 /* Error: Ran out of types for this method. */;
+- (NSData *)_fetchPhotosHighlightUUIDByAssetUUIDForAssetUUIDs:photoLibrary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool has_background_platter;
-@property(nonatomic) _Bool is_fresh;
-@property(nonatomic) _Bool is_markdown;
-@property(nonatomic) _Bool is_quote;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @end
 

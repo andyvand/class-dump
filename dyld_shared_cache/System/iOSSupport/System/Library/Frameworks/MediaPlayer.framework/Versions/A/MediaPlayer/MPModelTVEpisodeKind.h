@@ -9,24 +9,22 @@
 @interface MPModelTVEpisodeKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id)_windowClause;
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)9);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)MLocationManager does not have location authorization;
+- (unsigned long long)nextOccurrenceDateWithEKRecurrences:forCalendarItem:exceptionDates:initialDate:afterDate:inclusive: /* Error: Ran out of types for this method. */;
+- (id)32;
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

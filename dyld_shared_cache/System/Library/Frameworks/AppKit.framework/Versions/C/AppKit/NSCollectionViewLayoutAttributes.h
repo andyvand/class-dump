@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSString;
 
 @interface NSCollectionViewLayoutAttributes
 {
     NSString *_elementKind;
-    NSString *_reuseIdentifier;
-    struct CGPoint _center;
-    struct CGSize _size;
-    struct CGRect _frame;
-    double _alpha;
-    struct CATransform3D _transform;
-    NSIndexPath *_indexPath;
-    NSString *_isCloneString;
-    struct {
-        unsigned int isCellKind:1;
-        unsigned int isDecorationView:1;
-        unsigned int isHidden:1;
-        unsigned int isClone:1;
-        unsigned int isInterItemGap:1;
-        unsigned int isInterSectionGap:1;
-        unsigned int isHorizontalGap:1;
-        unsigned int pinnedEdges:4;
-    } _layoutFlags;
-    long long _zIndex;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id)tepBehavior;
++ (id)ctory:(id)arg1 %@;
++ (id)ile at location of downloads directory:(id)arg1 %@;
++ (id)or removing file at location of downloads directory:(id)arg1 %@;
++ (id)valueStepBehavior;
 + (id)$	;
 
 // Remaining properties
-@property double alpha; // @synthesize alpha=_alpha;
 @property struct CGRect frame;
-@property(getter=isHidden) _Bool hidden;
-@property(retain) NSIndexPath *indexPath;
-@property(readonly) long long representedElementCategory;
-@property(readonly) NSString *representedElementKind;
-@property struct CGSize size;
-@property long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

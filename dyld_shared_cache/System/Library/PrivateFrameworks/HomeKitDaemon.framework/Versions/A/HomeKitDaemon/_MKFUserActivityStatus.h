@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFUserActivityStatusDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFGuest, MKFUser;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface _MKFUserActivityStatus : _MKFModel
@@ -17,28 +16,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)5;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFUserActivityStatusDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFGuest> guest; // @dynamic guest;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDate *lastReportTimestamp; // @dynamic lastReportTimestamp;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSNumber *state; // @dynamic state;
-@property(copy, nonatomic) NSNumber *statusChangeReason; // @dynamic statusChangeReason;
-@property(copy, nonatomic) NSDate *statusChangedTimestamp; // @dynamic statusChangedTimestamp;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *transitionTimestamp; // @dynamic transitionTimestamp;
-@property(copy, nonatomic) NSNumber *type; // @dynamic type;
-@property(retain, nonatomic) id <MKFUser> user; // @dynamic user;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

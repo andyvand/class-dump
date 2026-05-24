@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ICAMSBagValuePromise
 {
     NSString *_bagKey;
-    unsigned long long _bagValueType;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bagKey; // @synthesize bagKey=_bagKey;
-@property(readonly, nonatomic) unsigned long long bagValueType; // @synthesize bagValueType=_bagValueType;
 
 @end
 

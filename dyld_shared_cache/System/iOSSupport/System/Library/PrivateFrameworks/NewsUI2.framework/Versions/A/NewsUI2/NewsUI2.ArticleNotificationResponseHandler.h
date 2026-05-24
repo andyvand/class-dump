@@ -7,11 +7,6 @@
 @interface NewsUI2.ArticleNotificationResponseHandler
 {
     id featureAvailability;
-    id commandContainer;
-    id tagController;
-    id assetManager;
-    id appConfigManager;
-    id paidAccessChecker;
 }
 
 @end

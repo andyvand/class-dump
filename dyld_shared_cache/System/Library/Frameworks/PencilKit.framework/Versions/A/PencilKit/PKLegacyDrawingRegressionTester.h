@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)a;
 + (double);
 + (struct CGImage *);
 + (double);

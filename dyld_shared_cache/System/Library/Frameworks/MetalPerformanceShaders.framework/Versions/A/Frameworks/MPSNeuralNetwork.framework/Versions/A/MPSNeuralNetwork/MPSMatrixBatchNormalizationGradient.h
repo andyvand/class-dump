@@ -7,12 +7,6 @@
 @interface MPSMatrixBatchNormalizationGradient
 {
     int _neuronType;
-    float _neuronA;
-    float _neuronB;
-    float _neuronC;
-    float _epsilon;
-    unsigned long long _sourceNumberOfFeatureVectors;
-    unsigned long long _sourceInputFeatureChannels;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -31,23 +25,17 @@
 - (id);
 - (id);
 - (void);
-- (float);
+- (float);
 - (void);
 - (int);
 - (void);
 - (float);
 - (float);
-- (float)ClipMin: /* Error: Ran out of types for this method. */;
+- (float)setGradientClipMin: /* Error: Ran out of types for this method. */;
 - (id)MPSRNNGRURecursion1half00_11;
 
 // Remaining properties
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) float neuronA; // @synthesize neuronA=_neuronA;
-@property(nonatomic) float neuronB; // @synthesize neuronB=_neuronB;
-@property(nonatomic) float neuronC; // @synthesize neuronC=_neuronC;
 @property(nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
-@property(nonatomic) unsigned long long sourceInputFeatureChannels; // @synthesize sourceInputFeatureChannels=_sourceInputFeatureChannels;
-@property(nonatomic) unsigned long long sourceNumberOfFeatureVectors; // @synthesize sourceNumberOfFeatureVectors=_sourceNumberOfFeatureVectors;
 
 @end
 

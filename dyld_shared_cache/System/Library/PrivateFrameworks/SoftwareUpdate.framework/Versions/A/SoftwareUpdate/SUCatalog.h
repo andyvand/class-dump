@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SUCatalog
 {
     NSURL *_catalogURL;
-    NSDictionary *_dictionaryRepresentation;
 }
 
 + (void);
+- (id)[;
 - (id);
 - (id);
 - (id);
@@ -21,9 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id);
+- (long long);
+- (id)\;
 - (id);
 - (void);
 - (id);

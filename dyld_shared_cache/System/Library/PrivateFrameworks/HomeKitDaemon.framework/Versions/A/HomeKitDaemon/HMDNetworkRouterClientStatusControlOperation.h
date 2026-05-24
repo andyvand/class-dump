@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientStatusControlOperation
 {
     long long _operation;
 }
 
-+ (id);
++ (id)momentNodeAsCollectionByMomentUUID;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)e:(struct _NSZone *)arg1;
+- (id)isCarPlayAccessAllowedForActionSet:(struct _NSZone *)arg1 withMessage:fromSource: /* Error: Ran out of types for this method. */;
 - (long long)éþ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 
 @end
 

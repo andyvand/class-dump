@@ -20,7 +20,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cropProcessingGroup for face observations:(id)arg1 %@. currentDetector:%@; group:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

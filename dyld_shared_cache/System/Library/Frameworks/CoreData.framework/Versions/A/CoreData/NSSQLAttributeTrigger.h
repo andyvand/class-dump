@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableString, NSPredicate, NSSQLAttribute, NSSQLEntity, NSSQLRelationship, NSString;
+@class NSArray, NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLAttributeTrigger
 {
     NSPredicate *_predicate;
-    NSString *_predicateString;
-    NSSQLEntity *_entity;
-    NSSQLAttribute *_attribute;
-    NSSQLRelationship *_relationship;
-    NSSQLEntity *_destinationEntity;
-    NSArray *_destinationAttributes;
-    NSMutableString *_mToManyInnerFetchWhereClause;
-    NSMutableString *_mToManyDecrementWhenClause;
-    NSMutableString *_mToManyIncrementWhenClause;
-    NSMutableString *_mOfClause;
-    NSMutableString *_mOldMatchingClause;
-    NSMutableString *_mNewMatchingClause;
-    NSMutableString *_mColumnChangedClause;
-    NSMutableArray *_mSqlDropStrings;
-    NSMutableArray *_mBulkChangeStrings;
-    NSArray *_insertSQLStrings;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)h8(hh8?k`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bulkUpdateSQLStrings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *dropSQLStrings;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *insertSQLStrings; // @synthesize insertSQLStrings=_insertSQLStrings;
-@property(readonly) Class superclass;
 
 @end
 

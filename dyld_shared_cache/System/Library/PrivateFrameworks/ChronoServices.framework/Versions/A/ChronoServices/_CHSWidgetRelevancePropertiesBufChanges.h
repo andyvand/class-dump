@@ -7,17 +7,6 @@
 @interface _CHSWidgetRelevancePropertiesBufChanges
 {
     unsigned char _changeTypeExtensionIdentity;
-    unsigned int _replacementExtensionIdentity;
-    unsigned char _changeTypeKind;
-    unsigned int _replacementKind;
-    unsigned char _changeTypeSupportsBackgroundRefresh;
-    _Bool _replacementSupportsBackgroundRefresh;
-    unsigned char _changeTypeIsDeletion;
-    _Bool _replacementIsDeletion;
-    unsigned char _changeTypeLastRelevanceUpdate;
-    double _replacementLastRelevanceUpdate;
-    unsigned char _changeTypeRelevances;
-    unsigned int _replacementRelevances;
 }
 
 - (void);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);

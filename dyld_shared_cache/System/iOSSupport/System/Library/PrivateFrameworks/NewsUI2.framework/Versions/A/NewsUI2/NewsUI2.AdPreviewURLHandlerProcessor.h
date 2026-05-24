@@ -7,7 +7,6 @@
 @interface NewsUI2.AdPreviewURLHandlerProcessor
 {
     id patterns;
-    id previewQueue;
 }
 
 @end

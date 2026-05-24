@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIFocusEnvironment, UIFocusItem, UIFocusItemScrollableContainer;
+@protocol UIFocusItem;
 
 @interface _UIFocusScrollBoundaryMetrics
 {
     _Bool _shouldSearchX;
-    _Bool _shouldSearchY;
-    _Bool _isMinX;
-    _Bool _isMaxX;
-    _Bool _isMinY;
-    _Bool _isMaxY;
-    id <UIFocusItem> _focusItem;
-    id <UIFocusEnvironment> _owningEnvironment;
-    id <UIFocusItemScrollableContainer> _scrollableContainer;
-    struct CGPoint _localFocusedCenter;
-    struct CGPoint _minContentOffset;
-    struct CGPoint _maxContentOffset;
-    struct CGRect _localFocusedRect;
 }
 
 - (_Bool);
@@ -29,40 +17,28 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)4@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (id)setHighlightChangeEventType: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)richBodyWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)requestBuddyPicturesAndPropertiesForAccount: /* Error: Ran out of types for this method. */;
+- (struct CGRect)eName:completion: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)relayRequestTranslationWithText:sourceLocaleIdentifier:destinationLocaleIdentifier:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)numReadReceiptsV1NoQOIMarkedMessageAfterInitial;
+- (_Bool)numReadReceiptsV1NoQOIMarkedMessageAfterInitial;
+- (_Bool)numReadReceiptsNoMessage;
+- (_Bool)numChatsMarkedReadWithV1NoQOI;
+- (id)handler:(id)arg1 incomingSMSFilteringSettingsMessage:(id)arg2 fromToken: /* Error: Ran out of types for this method. */;
+- (id)tamp:(id)arg1 storageContext:(id)arg2;
+- (_Bool)deleteAllNoticesWithCollaborationIdentifier: /* Error: Ran out of types for this method. */;
+- (id)clearLocalCloudKitSyncState: /* Error: Ran out of types for this method. */;
+- (_Bool)_createSuperFormattedStringWithAttributedString:(id)arg1;
+- (_Bool)__im_isWellFormedChatGUID;
+- (_Bool)ation with title:"%@" message:"%@" /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIFocusItem> focusItem; // @synthesize focusItem=_focusItem;
-@property(nonatomic) _Bool isMaxX; // @synthesize isMaxX=_isMaxX;
-@property(nonatomic) _Bool isMaxY; // @synthesize isMaxY=_isMaxY;
-@property(nonatomic) _Bool isMinX; // @synthesize isMinX=_isMinX;
-@property(nonatomic) _Bool isMinY; // @synthesize isMinY=_isMinY;
-@property(readonly, nonatomic) struct CGPoint localFocusedCenter; // @synthesize localFocusedCenter=_localFocusedCenter;
-@property(readonly, nonatomic) struct CGRect localFocusedRect; // @synthesize localFocusedRect=_localFocusedRect;
-@property(readonly, nonatomic) struct CGPoint maxContentOffset; // @synthesize maxContentOffset=_maxContentOffset;
-@property(readonly, nonatomic) struct CGPoint minContentOffset; // @synthesize minContentOffset=_minContentOffset;
-@property(readonly, nonatomic) id <UIFocusEnvironment> owningEnvironment; // @synthesize owningEnvironment=_owningEnvironment;
-@property(readonly, nonatomic) id <UIFocusItemScrollableContainer> scrollableContainer; // @synthesize scrollableContainer=_scrollableContainer;
-@property(readonly, nonatomic) _Bool shouldSearchX; // @synthesize shouldSearchX=_shouldSearchX;
-@property(readonly, nonatomic) _Bool shouldSearchY; // @synthesize shouldSearchY=_shouldSearchY;
 
 @end
 

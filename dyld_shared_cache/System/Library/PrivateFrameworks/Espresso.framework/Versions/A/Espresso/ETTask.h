@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETImageDescriptorExtractor, ETModelDef, ETOptimizerDef;
+@class ETModelDef;
 
 @interface ETTask
 {
     shared_ptr_d082c67d network;
-    _Bool _dumpData;
-    ETModelDef *_model;
-    ETOptimizerDef *_optimizer;
-    ETImageDescriptorExtractor *_extractor;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (vector_64acebbd);
+- (vector_76d36e47);
 - (_Bool);
 - (id);
 - (id);
@@ -31,22 +27,20 @@
 - (float);
 - (_Bool);
 - (_Bool);
+- (void)runningTitleSearch;
+- (id)reportSharedCalendarInviteAsJunkForCalendarWithID:accountID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (id)failed to write %d bytes at %lld to to_fdp
+;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ttlLocationStatusWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool dumpData; // @synthesize dumpData=_dumpData;
-@property(retain, nonatomic) ETImageDescriptorExtractor *extractor; // @synthesize extractor=_extractor;
 @property(retain, nonatomic) ETModelDef *model; // @synthesize model=_model;
-@property(retain, nonatomic) ETOptimizerDef *optimizer; // @synthesize optimizer=_optimizer;
 
 @end
 

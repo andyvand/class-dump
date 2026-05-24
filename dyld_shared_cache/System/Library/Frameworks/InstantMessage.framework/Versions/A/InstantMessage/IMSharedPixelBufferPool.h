@@ -9,17 +9,6 @@
 @interface IMSharedPixelBufferPool
 {
     NSString *_poolName;
-    int _shmFd;
-    void *_shmAddr;
-    unsigned long long _shmSize;
-    int *_shmSem;
-    int _bufferCount;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _rowBytes;
-    unsigned int _pixelFormat;
-    unsigned int *_refCounts;
-    struct CGColorSpace *_defaultColorSpace;
 }
 
 + (void);

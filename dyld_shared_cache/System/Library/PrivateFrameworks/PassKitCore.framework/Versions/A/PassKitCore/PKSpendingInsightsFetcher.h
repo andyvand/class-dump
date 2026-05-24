@@ -7,7 +7,6 @@
 @interface PKSpendingInsightsFetcher
 {
     _Bool _foundFHInsightsDiscrepancy;
-    _Bool _useFinHealth;
 }
 
 - (_Bool);

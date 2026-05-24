@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (REMHumanReadableIdentifier)
-- (id);
+- (id);
 @end
 

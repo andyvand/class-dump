@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSAttributedString, NSString;
+@class AXFUIElement;
 
 @interface AXKScreenDescriberReadableContent
 {
     AXFUIElement *_element;
-    AXFUIElement *_applicationElement;
-    AXFUIElement *_windowElement;
-    AXFUIElement *_topLevelElement;
-    NSAttributedString *_content;
-    NSString *_applicationIdentifier;
-    NSString *_contentTitle;
-    struct CGRect _frame;
 }
 
+- (id);
+- (id)Q	;
 - (id);
 - (id);
 - (id);
+- (struct CGRect)able Trusted Types;
+- (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)setSearchWindowIsHighContrast: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AXFUIElement *applicationElement; // @synthesize applicationElement=_applicationElement;
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, nonatomic) NSAttributedString *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSString *contentTitle; // @synthesize contentTitle=_contentTitle;
 @property(readonly, nonatomic) AXFUIElement *element; // @synthesize element=_element;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) AXFUIElement *topLevelElement; // @synthesize topLevelElement=_topLevelElement;
-@property(readonly, nonatomic) AXFUIElement *windowElement; // @synthesize windowElement=_windowElement;
 
 @end
 

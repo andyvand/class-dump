@@ -4,16 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSDictionary, NSObject, NSString;
 @protocol MZEffectTiming;
 
 @protocol MPEffectSupport
+- (void);
+- (void)nal.framework/Versions/A/NewsServicesInternal;
+- (void);
+- (void)nTask"24@"NSHTTPURLResponse"32;
+- (void)allenge"32@?<v@?q@"NSURLCredential">40;
+- (void)PURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
+- (NSObject<MZEffectTiming> *)URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)&,N,V_backgroundSession;
+- (void)opeContentTypeConfig *__strong _Nonnull);
+- (void)ll NDAnalyticsEntryDeliveryWindow(NSDate *__strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (void)contentTypeConfig;
+- (void)NetworkEventData;
+- (void)SessionData;
+- (long long)?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *effectID;
-@property(readonly, nonatomic) NSObject<MZEffectTiming> *effectTiming;
-@property(copy, nonatomic) NSString *presetID;
-@property(readonly, nonatomic) NSArray *slides;
-@property(readonly, nonatomic) NSArray *texts;
 @end
 

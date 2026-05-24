@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TRINotificationToken;
-
 @protocol TRINamespaceUpdateProtocol
+- (unsigned int)omTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int namespaceId;
-@property(readonly, nonatomic) NSString *namespaceName;
-@property(readonly, nonatomic) id <TRINotificationToken> token;
 @end
 

@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NENexusAgent, NENexusFlowManager, NEPolicySession, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol NENexusDelegate, OS_nw_nexus;
-
 @interface NENexus
 {
     _Bool _asserted;
-    unsigned long long _level;
-    NSString *_name;
-    unsigned long long _availability;
-    NSArray *_localAddresses;
-    NSArray *_dnsServerAddresses;
-    unsigned long long _maximumTransmissionUnit;
-    NSObject<OS_nw_nexus> *_userNexus;
-    NSMutableDictionary *_userNexusInstances;
-    NSMutableDictionary *_userNexusClientCount;
-    NSMutableDictionary *_userNexusClientFlows;
-    NSMutableDictionary *_assertions;
-    struct NEVirtualInterface_s *_virtualInterface;
-    NENexusFlowManager *_flowManager;
-    NEPolicySession *_policySession;
-    NENexusAgent *_agent;
-    NSObject<NENexusDelegate> *_delegate;
-    NSMutableDictionary *_kernelNexusClientFlows;
 }
 
 - (struct NEVirtualInterface_s *);
@@ -46,11 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)eport event:%@ /* Error: Ran out of types for this method. */;
+- (void)vp;
 - (void);
 - (void);
 - (void)y"24;
@@ -58,21 +38,6 @@
 
 // Remaining properties
 @property(getter=isAsserted) _Bool asserted; // @synthesize asserted=_asserted;
-@property(nonatomic) unsigned long long availability; // @synthesize availability=_availability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *dnsServerAddresses; // @synthesize dnsServerAddresses=_dnsServerAddresses;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *interfaceName;
-@property(readonly) unsigned long long level; // @synthesize level=_level;
-@property(retain, nonatomic) NSArray *localAddresses; // @synthesize localAddresses=_localAddresses;
-@property(nonatomic) unsigned long long maximumTransmissionUnit; // @synthesize maximumTransmissionUnit=_maximumTransmissionUnit;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property struct NEVirtualInterface_s *virtualInterface; // @synthesize virtualInterface=_virtualInterface;
 
 @end
 

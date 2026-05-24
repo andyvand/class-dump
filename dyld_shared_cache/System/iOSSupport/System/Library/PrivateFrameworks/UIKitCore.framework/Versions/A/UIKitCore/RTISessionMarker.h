@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionHandler;
 }
 
-- (CDUnknownBlockType)curePasteAuthentication;
+- (CDUnknownBlockType)_shouldAttemptSecurePasteAuthentication;
 - (void)¡8Z;
 - (void);
 

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)N,V_gpuPipelineStatesConcatBool;
 - (id);
 
 @end

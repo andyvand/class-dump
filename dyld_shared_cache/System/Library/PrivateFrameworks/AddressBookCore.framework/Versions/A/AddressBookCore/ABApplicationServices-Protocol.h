@@ -5,5 +5,6 @@
 //
 
 @protocol ABApplicationServices
+- (void)9;
 @end
 

@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface ISCompositingDescriptor
 {
     _Bool _useLegacyCompatibilityMode;
-    _Bool _shouldApplyMask;
-    _Bool _cacheFinalizedIconOnGeneratedImage;
-    double _scale;
-    unsigned long long _platformStyle;
-    IFColor *_tintColor;
-    long long _appearance;
-    long long _appearanceVariant;
-    unsigned long long _background;
-    unsigned long long _platform;
-    unsigned long long _languageDirection;
-    unsigned long long _shape;
-    double _relativeInset;
-    unsigned long long _assetPlatformHint;
-    struct CGSize _size;
 }
 
-+ (long long);
++ (long long)attributedSubstringFromRange:(long long)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -34,17 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (long long);
-- (id);
-- (long long);
-- (unsigned long long);
+- (_Bool)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (unsigned long long)spotlightSuggestionsEnabled;
+- (long long)NSArray",&,N,V_mockMLResults;
+- (id)URLQueryAllowedCharacterSet;
+- (long long)seekToEndOfFile;
+- (unsigned long long)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (double);
 - (void);
-- (id);
+- (id)in a sandboxed process;
 - (id);
 - (unsigned long long);
 - (void);
@@ -52,48 +36,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)#;
 - (void);
 - (unsigned long long);
+- (void)A�C;
+- (unsigned long long);
 - (void);
+- (id)ptationIntegratedSupport ;
 - (id);
-- (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (long long);
-- (_Bool);
+- (unsigned long long)(;
+- (long long)_isWWANInterfaceUp;
+- (_Bool)I;
 - (void);
 - (void);
 - (void);
 - (unsigned long long)ù
 × ;
-- (_Bool)ant: /* Error: Ran out of types for this method. */;
+- (_Bool)genericAppIconResourceForPlatform:variant: /* Error: Ran out of types for this method. */;
 - (id)p;
 - (void)÷:(id)arg1 y?æ>y?ÕBy?ÃFy?¡Jy?Ny?nRy?KVy?:Zy?^y?öay?Ãey?¡iy?nmy?Lqy?uy?æxy?³|y?y?My?	y?Öy?y?Oy?y?Èy?y?@¢y?ì¥y?¨©y?T­y?ÿ°y?«´y?V¸y?¼y?­¿y?HÃy?óÆy?Êy?)Îy?ÄÑy?^Õy?ùØy?Üy?ày?¹ãy?Cçy?Íêy?Wîy?áñy?jõy?ôøy?~üy?øÿy?qz?ûz?t
 z?íz?fz?Ïz?Hz?Áz?*z?"z?&z?t)z?Ü,z?40z?3z?7z?\:z?Å=z?Az?tDz?ËGz?#Kz?{Nz?ÒQz?Uz?qXz?¸[z?ÿ^z?Ebz?ez?Óhz?lz?aoz?rz?Þuz?yz?J|z?z?¶z?ìz?"z?Xz?~z?´z?Ùz?þz?4z?Zz?¢z?¥z?¹¨z?Þ«z?ó®z?²z?-µz?A¸z?V»z?j¾z?Áz?Äz?Çz?¬Êz?¯Íz?ÄÐz?ÈÓz?ËÖz?ÏÙz?ÓÜz?×ßz?Úâz?Íåz?Ñèz?Äëz?Èîz?»ñz?®ôz?¡÷z?úz?ýz?i /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long appearance; // @synthesize appearance=_appearance;
-@property long long appearanceVariant; // @synthesize appearanceVariant=_appearanceVariant;
-@property(readonly) long long assetAppearance;
-@property(readonly) unsigned long long assetPlatform;
-@property unsigned long long assetPlatformHint; // @synthesize assetPlatformHint=_assetPlatformHint;
-@property unsigned long long background; // @synthesize background=_background;
-@property _Bool cacheFinalizedIconOnGeneratedImage; // @synthesize cacheFinalizedIconOnGeneratedImage=_cacheFinalizedIconOnGeneratedImage;
-@property(readonly) NSUUID *digest;
-@property unsigned long long languageDirection; // @synthesize languageDirection=_languageDirection;
-@property unsigned long long platform; // @synthesize platform=_platform;
-@property unsigned long long platformStyle; // @synthesize platformStyle=_platformStyle;
-@property(nonatomic) double relativeInset; // @synthesize relativeInset=_relativeInset;
-@property double scale; // @synthesize scale=_scale;
-@property(nonatomic) unsigned long long shape; // @synthesize shape=_shape;
-@property _Bool shouldApplyMask; // @synthesize shouldApplyMask=_shouldApplyMask;
 @property struct CGSize size; // @synthesize size=_size;
-@property(copy) IFColor *tintColor; // @synthesize tintColor=_tintColor;
-@property _Bool useLegacyCompatibilityMode; // @synthesize useLegacyCompatibilityMode=_useLegacyCompatibilityMode;
 
 @end
 

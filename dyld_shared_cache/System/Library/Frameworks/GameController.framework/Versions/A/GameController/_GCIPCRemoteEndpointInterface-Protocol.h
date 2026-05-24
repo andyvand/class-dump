@@ -5,5 +5,6 @@
 //
 
 @protocol _GCIPCRemoteEndpointInterface
+- (void)ifer(%@) should no longer be present;
 @end
 

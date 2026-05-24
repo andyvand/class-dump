@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDelegateController, NSString;
 @protocol CHCallInteractionDataSource;
 
 @interface CHCallInteractionManager
 {
     id <CHCallInteractionDataSource> _dataSource;
-    CHDelegateController *_delegateController;
 }
 
 - (void);
@@ -24,14 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CHCallInteractionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) CHDelegateController *delegateController; // @synthesize delegateController=_delegateController;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

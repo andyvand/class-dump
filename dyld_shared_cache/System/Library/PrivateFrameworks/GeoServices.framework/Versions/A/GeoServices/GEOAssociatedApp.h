@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAssociatedApp, NSArray, NSString;
+@class GEOPDAssociatedApp;
 
 @interface GEOAssociatedApp
 {
     GEOPDAssociatedApp *_geoAssociatedApp;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)synchronousDataWithContentsOfURL:(id)arg1 timeout: /* Error: Ran out of types for this method. */;
+- (id)atomicCacheScheduler;
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void)È6;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternateAppAdamIds;
 @property(retain, nonatomic) GEOPDAssociatedApp *geoAssociatedApp; // @synthesize geoAssociatedApp=_geoAssociatedApp;
-@property(readonly, nonatomic) _Bool hasPreferredAppAdamId;
-@property(readonly, nonatomic) NSString *preferredAppAdamId;
 
 @end
 

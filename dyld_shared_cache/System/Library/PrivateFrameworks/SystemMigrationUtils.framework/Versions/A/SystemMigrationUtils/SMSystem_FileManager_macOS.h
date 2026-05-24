@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKReceipt;
+@class PKReceipt;
 
 @interface SMSystem_FileManager_macOS
 {
     PKReceipt *_templateReceipt;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)h�Gr;
 - (id);
 - (id);
 - (_Bool);
@@ -22,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *buildVersion; // @dynamic buildVersion;
-@property(readonly, getter=isFileSystemReady) _Bool fileSystemReady; // @dynamic fileSystemReady;
-@property(readonly) NSString *productVersion; // @dynamic productVersion;
-@property(readonly) NSURL *slash; // @dynamic slash;
 @property(readonly) PKReceipt *templateReceipt; // @synthesize templateReceipt=_templateReceipt;
-@property(readonly) NSURL *userContentRoot; // @dynamic userContentRoot;
-@property(readonly) NSURL *userHomeRoot; // @dynamic userHomeRoot;
 
 @end
 

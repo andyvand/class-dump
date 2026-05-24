@@ -11,7 +11,6 @@
 @interface SKCSPVDisk : SKDisk
 {
     NSString *_csLVGUUID;
-    NSString *_csDiskUUID;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)?;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain) NSString *csDiskUUID; // @synthesize csDiskUUID=_csDiskUUID;
-@property(retain) NSString *csLVGUUID; // @synthesize csLVGUUID=_csLVGUUID;
 
 @end
 

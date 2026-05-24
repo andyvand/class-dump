@@ -5,5 +5,8 @@
 //
 
 @protocol CSSearchableIndexDelegate_Private
+
+@optional
+- (void);
 @end
 

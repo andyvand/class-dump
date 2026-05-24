@@ -5,5 +5,8 @@
 //
 
 @protocol SearchableWKViewCancelDelegate
+
+@optional
+- (_Bool);
 @end
 

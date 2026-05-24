@@ -6,41 +6,33 @@
 
 #import <SearchFoundation/SFEndSearchFeedback.h>
 
-@class SFEmbeddingState, SFPhotosRankingInfo, SFQueryUnderstandingParse;
+@class SFQueryUnderstandingParse;
 
 @interface SFEndLocalSearchFeedback : SFEndSearchFeedback
 {
     unsigned int _l1ToL2ResultCount;
-    unsigned int _coreSpotlightIndexCount;
-    SFQueryUnderstandingParse *_quParse;
-    SFPhotosRankingInfo *_photosRankingInfo;
-    SFEmbeddingState *_embeddingState;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)seedPlaylistWithIdentifier:(id)arg1 withItemWithIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)sectionedIdentifierList:(id)arg1 dataSourceDidChangeItems:(id)arg2 inSection:(unsigned int)arg3;
 - (void);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
+- (void)RINGTONE_PICKER_DEFAULT_MODERN_RINGTONE_NAME;
 - (void);
-- (void);
-- (void);
+- (void)_assetThumbnailHighPriorityRequests;
 - (unsigned int);
 - (void)_directionsMode;
 
 // Remaining properties
-@property(nonatomic) unsigned int coreSpotlightIndexCount; // @synthesize coreSpotlightIndexCount=_coreSpotlightIndexCount;
-@property(retain, nonatomic) SFEmbeddingState *embeddingState; // @synthesize embeddingState=_embeddingState;
-@property(nonatomic) unsigned int l1ToL2ResultCount; // @synthesize l1ToL2ResultCount=_l1ToL2ResultCount;
-@property(retain, nonatomic) SFPhotosRankingInfo *photosRankingInfo; // @synthesize photosRankingInfo=_photosRankingInfo;
 @property(retain, nonatomic) SFQueryUnderstandingParse *quParse; // @synthesize quParse=_quParse;
 
 @end

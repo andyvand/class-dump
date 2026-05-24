@@ -9,7 +9,6 @@
 @interface RTCameraManagerNotificationCameraPowerChanged : RTNotification
 {
     long long _powerState;
-    long long _cameraType;
 }
 
 - (long long);
@@ -17,7 +16,6 @@
 - (long long)tenceContextOptionsAllowTombstones.;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cameraType; // @synthesize cameraType=_cameraType;
 @property(readonly, nonatomic) long long powerState; // @synthesize powerState=_powerState;
 
 @end

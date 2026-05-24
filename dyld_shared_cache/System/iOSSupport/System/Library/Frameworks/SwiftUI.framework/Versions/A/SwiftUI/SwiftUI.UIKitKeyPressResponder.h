@@ -9,11 +9,9 @@
 @interface SwiftUI.UIKitKeyPressResponder
 {
     id eventBindingManager;
-    id fallbackResponderProvider;
-    id tracker;
 }
 
-- (id);
+- (id)onTransportDelegate>";
 - (void);
 - (void)pûÿÿÄ%öÿ@«ÿ;
 - (void)%.Î;

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)@0:(id)arg1 8@16@24@32@40;
 
 @end
 

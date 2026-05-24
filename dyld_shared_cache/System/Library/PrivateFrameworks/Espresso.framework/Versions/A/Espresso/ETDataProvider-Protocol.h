@@ -5,5 +5,6 @@
 //
 
 @protocol ETDataProvider
+- (unsigned long long)%s);
 @end
 

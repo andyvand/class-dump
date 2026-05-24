@@ -14,16 +14,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nMigration;
 - (void);
 - (unsigned long long);
 - (void);
-- (id)t:exportedInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (id)initWithWithExportedObject:exportedInterfaceProtocol: /* Error: Ran out of types for this method. */;
 - (id)initWithProfileConnection: /* Error: Ran out of types for this method. */;
-- (void)ask;
+- (void)CNFutureTask;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) id peek;
 
 @end

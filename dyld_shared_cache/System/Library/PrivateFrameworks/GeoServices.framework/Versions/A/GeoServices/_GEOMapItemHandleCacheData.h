@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapItemHandleCacheData
 {
     NSDate *_timestamp;
-    NSData *_data;
 }
 
 - (id);
+- (id)_MKLocalSearchMerchantParameters;
 - (id);
-- (id);
-- (unsigned long long)ithMap:roadFeature:shouldFlip: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithMap:roadFeature:shouldFlip: /* Error: Ran out of types for this method. */;
 - (void)ÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cost;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

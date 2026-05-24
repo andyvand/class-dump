@@ -7,12 +7,13 @@
 @class NSArray, _INPBCondition;
 
 @protocol _INPBLongList
++ (Class);
+- (_Bool);
+- (unsigned long long);
+- (NSArray *);
 - (_INPBCondition *)Intent' AND (property.supportsDynamicEnumeration == YES OR property.supportsResolution == NO)) OR unit.name == 'Multiple';
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType;
-@property(copy, nonatomic) NSArray *dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, nonatomic) _Bool hasConditionType;
 @end
 

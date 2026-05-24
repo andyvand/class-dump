@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSMutableArray, NSMutableDictionary, NSString, SearchUIButtonItemFactory;
-@protocol SearchUIButtonItemStackViewDelegate;
+@class NSArray;
 
 @interface SearchUIButtonItemStackView
 {
     _Bool _shouldReverseButtonOrder;
-    _Bool _isCompact;
-    _Bool _isDoneUpdating;
-    _Bool _countMoreButtonTowardsMaxCount;
-    _Bool _hasLeftMainThread;
-    NSColor *_overridenButtonColor;
-    id <SearchUIButtonItemStackViewDelegate> _buttonItemStackViewDelegate;
-    NSArray *_buttonItems;
-    SearchUIButtonItemFactory *_buttonItemFactory;
-    NSMutableDictionary *_buttonItemViewControllersForClassNames;
-    NSMutableArray *_currentButtonItemViewControllers;
 }
 
 - (id);
@@ -46,31 +35,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)sSY;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIButtonItemFactory *buttonItemFactory; // @synthesize buttonItemFactory=_buttonItemFactory;
-@property(nonatomic) __weak id <SearchUIButtonItemStackViewDelegate> buttonItemStackViewDelegate; // @synthesize buttonItemStackViewDelegate=_buttonItemStackViewDelegate;
-@property(retain, nonatomic) NSMutableDictionary *buttonItemViewControllersForClassNames; // @synthesize buttonItemViewControllersForClassNames=_buttonItemViewControllersForClassNames;
 @property(retain, nonatomic) NSArray *buttonItems; // @synthesize buttonItems=_buttonItems;
-@property _Bool countMoreButtonTowardsMaxCount; // @synthesize countMoreButtonTowardsMaxCount=_countMoreButtonTowardsMaxCount;
-@property(retain, nonatomic) NSMutableArray *currentButtonItemViewControllers; // @synthesize currentButtonItemViewControllers=_currentButtonItemViewControllers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasLeftMainThread; // @synthesize hasLeftMainThread=_hasLeftMainThread;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property(nonatomic) _Bool isDoneUpdating; // @synthesize isDoneUpdating=_isDoneUpdating;
-@property(retain, nonatomic) NSColor *overridenButtonColor; // @synthesize overridenButtonColor=_overridenButtonColor;
-@property(nonatomic) _Bool shouldReverseButtonOrder; // @synthesize shouldReverseButtonOrder=_shouldReverseButtonOrder;
-@property(readonly) Class superclass;
 
 @end
 

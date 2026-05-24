@@ -5,5 +5,6 @@
 //
 
 @protocol SMReceiverProtocol
+- (void)(;
 @end
 

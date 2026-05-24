@@ -11,9 +11,9 @@
     struct CGRect _caretRect;
 }
 
-+ (id);
++ (id)%@;
 - (id);
-- (struct CGRect)ewsOfCell: /* Error: Ran out of types for this method. */;
+- (struct CGRect)layoutSubviewsOfCell: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect caretRect; // @synthesize caretRect=_caretRect;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SXTextStyleAttributes
 {
     NSMutableDictionary *_mutableAttributes;
-    struct _NSRange _range;
 }
 
 + (id);
@@ -24,9 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes;
 @property(readonly, nonatomic) NSMutableDictionary *mutableAttributes; // @synthesize mutableAttributes=_mutableAttributes;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

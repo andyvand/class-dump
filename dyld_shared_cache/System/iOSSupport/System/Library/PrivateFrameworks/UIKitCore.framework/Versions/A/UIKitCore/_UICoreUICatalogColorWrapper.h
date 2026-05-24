@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIColor;
+@class NSString;
 
 @interface _UICoreUICatalogColorWrapper
 {
     NSString *_nibLoadingBundleID;
-    NSMutableDictionary *_colorCache;
-    _Bool _hasLoggedFailure;
-    NSString *_name;
-    NSString *_bundleID;
-    UIColor *_fallbackColor;
 }
 
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)broadcastHandlesSharingNicknamesDidChange;
+- (id)_replicatedFallbackGUIDs;
+- (id)"TUConversationManager",R,N,V_conversationManager;
 - (struct CGColor *);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)adgesEnabled:withSoundsEnabled:withShowInCarPlay:withEmergencyEnabled:withCriticalAlertEnabled:withGroupingType: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id)oint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80B88;
-- (_Bool)igationItem;
-- (void)itionContext:(id)arg1;
+- (_Bool)setupTopNavigationItem;
+- (void)renditionWithSize:(id)arg1 scale:renditionContext: /* Error: Ran out of types for this method. */;
 - (id),V_passthroughScrollInteraction;
 - (id)found a source node to copy data from at this point.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) UIColor *color;
-@property(readonly, nonatomic) UIColor *fallbackColor; // @synthesize fallbackColor=_fallbackColor;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

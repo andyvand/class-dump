@@ -4,42 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, IDSBaseSocketPairConnection, IDSLinkSelectionStrategy, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
-
 @interface _IDSSession
 {
     id _delegateContext;
-    id _boostContext;
-    NSString *_uniqueID;
-    NSString *_accountID;
-    NSSet *_destinations;
-    IDSBaseSocketPairConnection *_unreliableSocketPairConnection;
-    CUTWeakReference *_delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned int _state;
-    long long _transportType;
-    unsigned long long _initialLinkType;
-    int _socket;
-    _Bool _isAudioEnabled;
-    _Bool _isMuted;
-    _Bool _isLegacy;
-    long long _inviteTimeout;
-    unsigned long long _connectionCountHint;
-    _Bool _needsToWaitForPreConnectionData;
-    _Bool _disallowCellularInterface;
-    _Bool _disallowWifiInterface;
-    unsigned long long _preferredAddressFamily;
-    _Bool _preferCellularForCallSetup;
-    NSString *_clientUUID;
-    _Bool _disableEncryption;
-    _Bool _shouldUseSocketForTransport;
-    _Bool _enableSingleChannelDirectMode;
-    _Bool _alwaysSkipSelf;
-    unsigned int _sessionEndedReason;
-    IDSLinkSelectionStrategy *_linkSelectionStrategy;
-    NSMutableDictionary *_preferences;
-    NSMutableDictionary *_sessionConfig;
 }
 
 - (_Bool);
@@ -57,14 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -86,7 +53,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -96,8 +63,8 @@
 - (void);
 - (void);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int)initWithEndpoint:parameters: /* Error: Ran out of types for this method. */;
+- (void)om.apple.private.alloy.groupRemoteControl.cloud;
 - (void);
 - (id);
 - (void);
@@ -109,21 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id boostContext; // @synthesize boostContext=_boostContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long initialLinkType; // @synthesize initialLinkType=_initialLinkType;
-@property(nonatomic) long long inviteTimeout;
-@property(retain, nonatomic) IDSLinkSelectionStrategy *linkSelectionStrategy;
-@property(readonly, nonatomic) unsigned int sessionEndedReason;
 @property(readonly, nonatomic) int socket;
-@property(readonly, nonatomic) unsigned int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueID;
 
 @end
 

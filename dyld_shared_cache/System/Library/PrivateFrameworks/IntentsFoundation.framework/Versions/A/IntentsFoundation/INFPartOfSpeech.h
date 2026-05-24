@@ -11,26 +11,22 @@
 @interface INFPartOfSpeech : INFSentenceToken
 {
     NSString *_identifier;
-    unsigned long long _gender;
-    NSString *_language;
-    unsigned long long _partOfSpeechType;
-    NSMutableDictionary *_variants;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,9 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long gender; // @synthesize gender=_gender;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) unsigned long long partOfSpeechType; // @synthesize partOfSpeechType=_partOfSpeechType;
 @property(retain, nonatomic) NSMutableDictionary *variants; // @synthesize variants=_variants;
 
 @end

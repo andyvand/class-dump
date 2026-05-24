@@ -18,22 +18,22 @@
 + (void);
 + (id);
 + (id);
++ (id)endPresentationTransition;
++ (id)UsefulUserFacingResults;
++ (void);
 + (id);
 + (id);
++ (id)hasShouldForceRemoteControlabillity;
++ (id)_MRMediaRemotePlayerSupportedCommandsDidChangeNotification;
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (void);
-+ (id)AA4C5BFE8754B925F1C10622BagServiceValueFetcher;
-+ (id)DictionaryData;
++ (id)_TtC18AppleMediaServicesP33_DB210F3D31AA4C5BFE8754B925F1C10622BagServiceValueFetcher;
++ (id)bagDictionaryData;
 + (id)wâõ¨À1H÷éM©^Ü
 ä!ªvíÑÉ0`»Ö}Íª¶ø×éÑì6@ä«{?×§²LzS"y=]Aÿô:{´«U&@}P<ùÔe|¡ú¬ /* Error: Ran out of types for this method. */;
 

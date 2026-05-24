@@ -11,20 +11,16 @@
 @interface IMBlockedConversationChatItem : IMTranscriptChatItem
 {
     _Bool _canLeaveChat;
-    _Bool _isGroupMessage;
-    NSArray *_blockedRecipients;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ptureDevice-startVirtualCapture;
+- (id)%s] %s:%d %@(%p) Failed to create the delegate queue /* Error: Ran out of types for this method. */;
+- (id)angeCounter=%d;
+- (_Bool)i;
 - (void)fKÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *blockedRecipients; // @synthesize blockedRecipients=_blockedRecipients;
-@property(readonly, nonatomic) _Bool canLeaveChat; // @synthesize canLeaveChat=_canLeaveChat;
-@property(readonly, nonatomic) _Bool isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
 
 @end
 

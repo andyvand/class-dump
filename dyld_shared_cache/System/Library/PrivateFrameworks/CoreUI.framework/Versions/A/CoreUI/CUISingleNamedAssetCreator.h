@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIMutableCommonAssetStorage, NSMutableArray, NSMutableDictionary, NSString;
+@class CUIMutableCommonAssetStorage, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CUISingleNamedAssetCreator
 {
     NSString *_primaryName;
-    unsigned long long _primaryIndex;
-    NSMutableArray *_names;
-    NSMutableArray *_generators;
-    CUIMutableCommonAssetStorage *_store;
-    double _radiosityCompressionQuaility;
-    double _flattenedCompressionQuality;
-    double _layersCompressionQuality;
-    long long _compressionType;
-    NSMutableDictionary *_mappings;
-    _Bool _allowsWideGamutImages;
-    _Bool _allowsPaletteImageCompression;
-    _Bool _generateFlattenedImages;
-    _Bool _checkForMonochrome;
-    long long _targetPlatform;
 }
 
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -49,28 +35,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (double);
-- (double);
+- (double)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)\�;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (const struct _renditionkeyfmt *);
@@ -78,11 +64,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)q;
+- (id)_5q;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9?Uq;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -95,28 +81,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)reviewHostViewController handleKeyEquivalent:(id)arg1 eventOwner:reply:] /* Error: Ran out of types for this method. */;
 - (id)§Ó;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPaletteImageCompression; // @synthesize allowsPaletteImageCompression=_allowsPaletteImageCompression;
-@property(nonatomic) _Bool allowsWideGamutImages; // @synthesize allowsWideGamutImages=_allowsWideGamutImages;
-@property(nonatomic) _Bool checkForMonochrome; // @synthesize checkForMonochrome=_checkForMonochrome;
-@property(nonatomic) double compressionQuality;
-@property(nonatomic) long long compressionType;
-@property(nonatomic) _Bool generateFlattenedImages; // @synthesize generateFlattenedImages=_generateFlattenedImages;
-@property(retain) NSMutableArray *generators; // @synthesize generators=_generators;
-@property(retain) NSMutableArray *names; // @synthesize names=_names;
-@property unsigned long long primaryIndex; // @synthesize primaryIndex=_primaryIndex;
-@property(retain) NSString *primaryName; // @synthesize primaryName=_primaryName;
 @property(retain) CUIMutableCommonAssetStorage *store; // @synthesize store=_store;
-@property(nonatomic) long long targetPlatform; // @synthesize targetPlatform=_targetPlatform;
 
 @end
 

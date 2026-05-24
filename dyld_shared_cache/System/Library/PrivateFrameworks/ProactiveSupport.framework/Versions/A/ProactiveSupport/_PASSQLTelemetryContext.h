@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _PASBloomFilterForWriting, _PASBloomFilterHashArray;
-
 @interface _PASSQLTelemetryContext
 {
     struct sqlite3 *_dbConnection;
-    NSString *_sql;
-    NSString *_targetProcess;
-    NSString *_sqlEventsLog;
-    _Bool _filterPii;
-    _Bool _shouldSendTelemetry;
-    NSDictionary *_eventToStringMap;
-    _PASBloomFilterForWriting *_bloomFilter;
-    _PASBloomFilterHashArray *_bloomHashes;
-    CDUnknownBlockType _authorizerStatusBlock;
 }
 
+- (id)t find downstream endpoint;
+- (id)uarpMsgRecvDownstreamEndpointReachable;
+- (void)d <%u>, got <%u>;
+- (void)Length too small ! expected <%u>, got <%u>;
+- (void)powerLogManager;
+- (void)HDS, UUID = %@;
+- (_Bool)ress Phase:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)ion:%@
+ /* Error: Ran out of types for this method. */;
+- (id)rvice BSD Notifications = %@;
+- (id)rts MTIC = YES;
+- (_Bool)Supports HSML = YES;
+- (id)galName=%@, companyPreferredName=%@, accessoryMarketingName=%@, productLabel=%@, accessoryCategoryNumber=%llu, accessoryInstallationGuideURL=%@;
+- (id)accessoryProductLabel;
+- (id)accessoryMarketingName;
+- (CDUnknownBlockType)ssetCrashLogDecoder createDictionary:inDictionary:] /* Error: Ran out of types for this method. */;
+- (void)ecoder copySectionName:(CDUnknownBlockType)arg1 inDictionary:] /* Error: Ran out of types for this method. */;
+- (_Bool)signatureValidationNeeded;
+- (void)releaseNotesFileSize;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)transparencyTypeFromCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType authorizerStatusBlock; // @synthesize authorizerStatusBlock=_authorizerStatusBlock;

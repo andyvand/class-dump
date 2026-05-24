@@ -5,5 +5,6 @@
 //
 
 @protocol ISStoreServiceProtocol
+- (void)s;
 @end
 

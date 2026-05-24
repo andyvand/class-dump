@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GEOTileDBTrackFailureOperation
 {
     struct _GEOTileKey _key;
-    CDUnion_20bcf645 _tileSet;
-    _Bool _shouldProactivelyLoad;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)eRemoteVoiceProfileWithAudioFiles:(id)arg1 aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (struct _GEOTileKey *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _GEOTileKey *key;
-@property(readonly, nonatomic) unsigned long long sizeInBytes;
-@property(readonly) Class superclass;
 
 @end
 

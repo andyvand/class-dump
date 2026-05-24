@@ -7,7 +7,6 @@
 @interface ConversationKit.DeviceRingerStateObserver__priv_F8EDAF315591376F1595355A6F29B22B
 {
     id ringerSwitchStateToken;
-    id ringerSwitchEnabled;
 }
 
 @end

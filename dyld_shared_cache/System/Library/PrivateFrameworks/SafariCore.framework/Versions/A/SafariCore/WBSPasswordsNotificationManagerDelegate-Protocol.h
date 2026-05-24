@@ -5,5 +5,6 @@
 //
 
 @protocol WBSPasswordsNotificationManagerDelegate
+- (void)B�C�;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, ABCollectionRowViewFactory;
-@protocol CNUIUserActionContext, CNUIUserActionListDataSource;
+@protocol CNUIUserActionListDataSource;
 
 @interface ABCollectionViewItemFactory
 {
     id <CNUIUserActionListDataSource> _userActionListDataSource;
-    id <CNUIUserActionContext> _userActionContext;
-    _Bool _shouldFormatURLs;
-    _Bool _shouldShowActionMenu;
-    ABCardViewStyleProvider *_styleProvider;
-    ABCollectionRowViewFactory *_rowViewFactory;
-    ABCollectionRowViewFactory *_rowViewEditModeFactory;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (void):notLinked: /* Error: Ran out of types for this method. */;
++ (void)categorizeUpdatedRecords:asLinked:notLinked: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R{;
 - (id);
 - (id);
 - (void);
@@ -64,11 +57,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldBuildActionGlyphs;
-@property(nonatomic) _Bool shouldFormatURLs; // @synthesize shouldFormatURLs=_shouldFormatURLs;
-@property(nonatomic) _Bool shouldShowActionMenu; // @synthesize shouldShowActionMenu=_shouldShowActionMenu;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly, nonatomic) id <CNUIUserActionContext> userActionContext; // @synthesize userActionContext=_userActionContext;
 @property(readonly, nonatomic) __weak id <CNUIUserActionListDataSource> userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
 
 @end

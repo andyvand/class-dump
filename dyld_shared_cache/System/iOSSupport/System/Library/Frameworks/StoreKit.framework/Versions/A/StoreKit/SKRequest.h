@@ -5,7 +5,6 @@
 //
 
 @class SKPaymentQueueClient;
-@protocol SKRequestDelegate;
 
 @interface SKRequest
 {
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SKRequestDelegate> delegate;
 @property(copy, nonatomic) SKPaymentQueueClient *paymentQueueClient;
 
 @end

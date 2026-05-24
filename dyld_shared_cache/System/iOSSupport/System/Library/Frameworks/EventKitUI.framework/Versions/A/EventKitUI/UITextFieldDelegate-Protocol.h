@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol UITextFieldDelegate
+
+@optional
+- (_Bool)_m;
+- (_Bool)m;
+- (_Bool)9_m;
+- (void)1_m;
+- (void);
+- (void){;
+- (void);
+- (UIMenu *)x֐z;
 @end
 

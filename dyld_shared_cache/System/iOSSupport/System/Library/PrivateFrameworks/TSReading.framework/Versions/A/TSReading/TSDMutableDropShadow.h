@@ -10,22 +10,17 @@
 {
 }
 
+- (void)privateListeningFocusFilterChangeDuration;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double angle; // @dynamic angle;
-@property(nonatomic) struct CGColor *color; // @dynamic color;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @dynamic enabled;
-@property(nonatomic) double offset; // @dynamic offset;
-@property(nonatomic) double opacity; // @dynamic opacity;
-@property(nonatomic) double radius; // @dynamic radius;
 
 @end
 

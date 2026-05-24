@@ -6,68 +6,53 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, IFTSchemaIFTStatementResultPayload, NSData, NSString, SISchemaUUID;
-
 @interface IFTSchemaIFTStatementResult : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_resultStatementId;
-    IFTSchemaIFTStatementId *_originProgramStatementId;
-    IFTSchemaIFTStatementResultPayload *_payload;
-    NSString *_toolId;
-    SISchemaUUID *_actionEventId;
-    IFTSchemaIFTStatementId *_originTaskStatementId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasResultStatementId;
-    _Bool _hasOriginProgramStatementId;
-    _Bool _hasPayload;
-    _Bool _hasToolId;
-    _Bool _hasActionEventId;
-    _Bool _hasOriginTaskStatementId;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
+- (void);
+- (void)+;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id)
 × ;
 - (id)intStop;
-- (id)torStringQueryLocationCallContext;
+- (id)ExecutorSiriSchemaExecutorStringQueryLocationCallContext;
 - (_Bool)SISchemaUserViewInteraction;
 - (void)Â²¶#;
 - (_Bool);
@@ -75,21 +60,7 @@
 - (void)¦);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *actionEventId; // @synthesize actionEventId=_actionEventId;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasActionEventId; // @synthesize hasActionEventId=_hasActionEventId;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOriginProgramStatementId; // @synthesize hasOriginProgramStatementId=_hasOriginProgramStatementId;
-@property(nonatomic) _Bool hasOriginTaskStatementId; // @synthesize hasOriginTaskStatementId=_hasOriginTaskStatementId;
-@property(nonatomic) _Bool hasPayload; // @synthesize hasPayload=_hasPayload;
-@property(nonatomic) _Bool hasResultStatementId; // @synthesize hasResultStatementId=_hasResultStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originProgramStatementId; // @synthesize originProgramStatementId=_originProgramStatementId;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originTaskStatementId; // @synthesize originTaskStatementId=_originTaskStatementId;
-@property(retain, nonatomic) IFTSchemaIFTStatementResultPayload *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *resultStatementId; // @synthesize resultStatementId=_resultStatementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateListDictionary, IMKUICandidateLayout, NSArray, NSButton, NSView, NSViewController;
-@protocol IMKCandidateBarFunctionRowButtonProtocol, IMKUICandidateControllerDelegate;
+@class NSButton;
+@protocol IMKCandidateBarFunctionRowButtonProtocol;
 
 @interface IMKUICandidateTouchBarCandidateListItemController
 {
     NSButton<IMKCandidateBarFunctionRowButtonProtocol> *_button;
-    IMKCandidateListDictionary *_candidateGroups;
-    id <IMKUICandidateControllerDelegate> _delegate;
-    IMKCandidate *_selectedCandidate;
-    _Bool _showsChevron;
-    double _surfaceWidth;
-    NSViewController *_viewController;
-    NSView *_view;
-    IMKUICandidateLayout *_layout;
 }
 
 - (void);
@@ -32,13 +24,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool);
+- (void)`;
+- (_Bool)9�;
 - (void);
 - (void);
 - (void);
@@ -46,26 +38,18 @@
 - (void);
 - (void);
 - (double);
+- (id)ction"I"outputTransferFunction"I"inputWidth"Q"inputHeight"Q"outputWidth"Q"outputHeight"Q"enableReshaping"B"enableToneMapping"B"enableConverting"B"dpcParam"{_DpcParam="alpha"f"alphaPrime"f"rangeMax"f"gain"f"on"B"gcpcOn"B"gcpcGamma"f"gcpcStage"I"gcpcRefWhiteNits"f}"originalInputTransferFunction"I"inputIsSRGBEncodedEdr"B"enablePassthroughPrecisionScale"B};
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)J;
 - (id){CGSize=dd}}16B48B52;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSButton<IMKCandidateBarFunctionRowButtonProtocol> *button; // @synthesize button=_button;
-@property(retain, nonatomic) IMKCandidateListDictionary *candidateGroups; // @synthesize candidateGroups=_candidateGroups;
-@property(nonatomic) __weak id <IMKUICandidateControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isUsingDebugColoring;
-@property(retain, nonatomic) IMKCandidate *selectedCandidate; // @synthesize selectedCandidate=_selectedCandidate;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(nonatomic) double surfaceWidth; // @synthesize surfaceWidth=_surfaceWidth;
-@property(readonly, nonatomic) NSViewController *viewController;
-@property(readonly, nonatomic) NSArray *visibleCandidates;
 
 @end
 

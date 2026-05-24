@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet;
-@protocol ViewReuseManagerDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ViewReuseManager
 {
     NSMutableArray *_trackedViews;
-    NSMutableSet *_reusableViews;
-    NSMutableSet *_viewsPendingRecycling;
-    long long _firstPreviouslyVisibleRepresentedObjectIndex;
-    _Bool _alwaysSendPrepareForReuse;
-    Class _reusableViewClass;
-    id <ViewReuseManagerDelegate> _delegate;
 }
 
 - (void);
@@ -31,19 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)dB;
+- (void);
 - (void)¤	;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysSendPrepareForReuse; // @synthesize alwaysSendPrepareForReuse=_alwaysSendPrepareForReuse;
-@property(nonatomic) __weak id <ViewReuseManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) Class reusableViewClass; // @synthesize reusableViewClass=_reusableViewClass;
-@property(readonly, copy, nonatomic) NSArray *trackedViews; // @synthesize trackedViews=_trackedViews;
 
 @end
 

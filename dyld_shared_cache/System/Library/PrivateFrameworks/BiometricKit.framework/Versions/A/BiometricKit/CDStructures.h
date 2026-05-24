@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -13,10 +11,10 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    NSData *imageData;
-    unsigned int width;
-    unsigned int height;
-} CDStruct_ee380287;
+    id _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+} CDStruct_c6a50590;
 
 typedef struct {
     short _field1;
@@ -25,22 +23,6 @@ typedef struct {
 } CDStruct_da492c19;
 
 typedef struct CDStruct_183601bc;
-
-typedef struct {
-    int count;
-    int capa;
-    CDStruct_183601bc **items;
-    int unusedImageCount;
-    int componentCount;
-    int componentCapa;
-    int bestComponentIndex;
-    int bestMapiComponentIndex;
-    CDStruct_183601bc **components;
-    short mapiNodeAddedIndex;
-    short mapiNodeRemovedIndex;
-    int updateCount;
-    _Bool structureIsInconsistent;
-} CDStruct_87aaca7b;
 
 typedef struct {
     short _field1;

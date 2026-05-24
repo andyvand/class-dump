@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSKeychainOptions, AMSProcessInfo, LAContext, NSDictionary, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSBiometricsSignatureRequest
 {
     _Bool _dualAction;
-    _Bool _useApplePayClassic;
-    _Bool _useAutoEnrollment;
-    struct __SecAccessControl *_localAuthAccessControlRef;
-    LAContext *_localAuthContext;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_challenge;
-    AMSProcessInfo *_clientInfo;
-    AMSKeychainOptions *_keychainOptions;
-    NSDictionary *_localAuthOptions;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,8 +28,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)tion message but caught an exception %@;
+- (void);
 - (id)FHSöäÒáiO¿V·jiRðL7ÿóº¯¡GVÐF&Së¾=ÓáÍ=«ü|î}ÐdâéÙ±LÛÙ7«\f¶õ±_%%[Å´Ú;
 - (id)953ÕS~BXùº	ÌqÆÜ¼Ê$¶÷»©c;
 - (void)ËjïsFOªää&¾k":_%DcEÒÔª´}rawÊÈKå«ü¨º$:´[j\g+te±¢êÔ­C¤²<Í²ÅZdJxoúÑS÷¨¿¹Î©6
@@ -50,16 +39,6 @@ Hxn£tWàj¹Ã@ßdØ&vXs¡×hÚX®Æ|Èo@9F¦w ±øæP¶ºlÿ
 
 // Remaining properties
 @property(readonly, copy) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *challenge; // @synthesize challenge=_challenge;
-@property(readonly, copy) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(getter=isDualAction) _Bool dualAction; // @synthesize dualAction=_dualAction;
-@property(readonly) AMSKeychainOptions *keychainOptions; // @synthesize keychainOptions=_keychainOptions;
-@property(readonly) struct __SecAccessControl *localAuthAccessControlRef; // @synthesize localAuthAccessControlRef=_localAuthAccessControlRef;
-@property(readonly) LAContext *localAuthContext; // @synthesize localAuthContext=_localAuthContext;
-@property(readonly) NSDictionary *localAuthOptions; // @synthesize localAuthOptions=_localAuthOptions;
-@property(getter=shouldUseApplePayClassic) _Bool useApplePayClassic; // @synthesize useApplePayClassic=_useApplePayClassic;
-@property(getter=shouldUseAutoEnrollment) _Bool useAutoEnrollment; // @synthesize useAutoEnrollment=_useAutoEnrollment;
 
 @end
 

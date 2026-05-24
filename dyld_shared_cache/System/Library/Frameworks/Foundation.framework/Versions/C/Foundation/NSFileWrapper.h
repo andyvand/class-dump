@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSHashTable, NSString, NSURL;
+@class NSDictionary;
 
 @interface NSFileWrapper
 {
     NSDictionary *_fileAttributes;
-    NSString *_preferredFileName;
-    NSString *_fileName;
-    id _contents;
-    id _icon;
-    NSString *_fileType;
-    NSURL *_contentsURL;
-    NSHashTable *_parents;
-    NSError *_contentsLazyReadingError;
-    NSDictionary *_cachedDirectoryChildrenAsDictionary;
-    struct os_unfair_lock_s _propertyLock;
-    _Bool _contentsMustBeReadWithoutMapping;
-    _Bool _attributesMustBeWrittenSoNoHardLinking;
 }
 
 @end

@@ -5,6 +5,9 @@
 //
 
 @protocol _UITabContainerViewDelegate
-- (void)vementDecay;
+- (void);
+- (void)
+;
+- (void)rateOfMinimumMovementDecay;
 @end
 

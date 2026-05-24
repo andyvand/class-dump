@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CRCTLDDelegateTablesCoarse
 {
     NSArray *_tableGroups;
-    NSArray *_textRegions;
 }
 
 + (id);
 - (id);
 - (id);
-- (long long);
-- (id);
-- (void)Change;
+- (long long)_textForFormAutoFillItem:(id)arg1;
+- (id)_textForCreditCardCompletionListItem:(id)arg1;
+- (void)significantTranscriptChange;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

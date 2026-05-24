@@ -7,9 +7,6 @@
 @interface SiriUI.TalkToSiriButtonModel
 {
     id _isListening;
-    id _isDisabled;
-    id onTap;
-    id _$observationRegistrar;
 }
 
 @end

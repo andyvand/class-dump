@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSString, PKTool, UIColor;
+@class NSHashTable, UIColor;
 
 @interface PKToolPickerItem
 {
     NSHashTable *_observers;
-    PKTool *__tool;
 }
 
 - (void);
@@ -19,31 +18,25 @@
 - (id);
 - (id);
 - (id);
+- (void)5;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)�#;
 - (id);
 - (id);
-- (id);
+- (id)ication trying local fetch;
 - (void)w",&,N,V_lastSelectedToolView;
-- (void)ongActive;
+- (void)scribbleHoverStrongActive;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_dictionaryRepresentation;
-@property(retain, nonatomic) PKTool *_tool; // @synthesize _tool=__tool;
-@property(readonly, nonatomic) _Bool _toolShouldBeSetOnCanvasView;
 @property(retain, nonatomic) UIColor *color;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) PKTool *tool;
-@property(nonatomic) double width;
 
 @end
 

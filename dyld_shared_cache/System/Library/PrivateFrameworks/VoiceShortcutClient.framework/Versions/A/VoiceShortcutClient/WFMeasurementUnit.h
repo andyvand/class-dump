@@ -8,19 +8,19 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)z;
 + (Class);
-+ (id);
-+ (id);
++ (id)|;
++ (id)z;
 + (long long);
 + (id);
 + (id);
-+ (id);
++ (id){;
 + (id);
 
 @end

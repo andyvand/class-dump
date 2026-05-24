@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCDataDetectorElementViewAccessibility;
 + (void);
 - (id);
 

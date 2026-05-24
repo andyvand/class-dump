@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCommSafetyRequestsManager, IMCommSafetySettingsManager, NSString;
+@class IMCommSafetyRequestsManager, IMCommSafetySettingsManager;
 
 @interface IMAssistantCommSafetyManager
 {
@@ -16,22 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool checksForSensitivityOnReceive;
-@property(readonly, nonatomic) _Bool checksForSensitivityOnSend;
 @property(readonly, nonatomic) IMCommSafetyRequestsManager *commSafetyRequestsManager; // @synthesize commSafetyRequestsManager=_commSafetyRequestsManager;
 @property(readonly, nonatomic) IMCommSafetySettingsManager *commSafetySettingsManager; // @synthesize commSafetySettingsManager=_commSafetySettingsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

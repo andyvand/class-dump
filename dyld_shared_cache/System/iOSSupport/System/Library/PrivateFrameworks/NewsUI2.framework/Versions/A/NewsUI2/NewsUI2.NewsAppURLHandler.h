@@ -7,7 +7,6 @@
 @interface NewsUI2.NewsAppURLHandler
 {
     id tracker;
-    id app;
 }
 
 @end

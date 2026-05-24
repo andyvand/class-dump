@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, UIButton, UIImageView, UILabel, UIStackView, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface OBBulletedListItem
 {
     _Bool _usesAttributedString;
-    _Bool _showsBackground;
-    UIView *_imageContainer;
-    UIImageView *_imageView;
-    UIStackView *_stackView;
-    UILabel *_titleLabel;
-    UILabel *_descriptionLabel;
-    NSLayoutConstraint *_stackViewLeadingConstraintVertical;
-    NSLayoutConstraint *_stackViewLeadingConstraintHorizontal;
-    NSLayoutConstraint *_stackViewTrailingConstraint;
-    UIButton *_accessoryButton;
-    NSArray *_imageContainerSizeConstraints;
-    NSLayoutConstraint *_topConstraintToStackView;
-    NSLayoutConstraint *_bottomConstraintToStackView;
-    NSLayoutConstraint *_topConstraintToImageContainer;
-    NSLayoutConstraint *_bottomConstraintToImageContainer;
 }
 
 - (_Bool);
@@ -34,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,48 +45,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)"NSObject<OS_dispatch_queue>";
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)VF;
 - (_Bool);
 - (double);
+- (id)or select:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)tter webNavigation.onErrorOccurred in %{public}s world;
+- (void)%{public}s world;
+- (double)ageManager::cacheStoragePutRecords(IPC::Connection &, WebCore::DOMCacheIdentifier, Vector<WebCore::DOMCacheEngine::CrossThreadRecord> &&, WebCore::DOMCacheEngine::RecordIdentifiersCallback &&) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
-- (double);
-- (void);
+- (void)@;
+- (void)(;
+- (double);
+- (void)T;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
-@property(retain, nonatomic) NSLayoutConstraint *bottomConstraintToImageContainer; // @synthesize bottomConstraintToImageContainer=_bottomConstraintToImageContainer;
-@property(retain, nonatomic) NSLayoutConstraint *bottomConstraintToStackView; // @synthesize bottomConstraintToStackView=_bottomConstraintToStackView;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
 @property(retain, nonatomic) UIView *imageContainer; // @synthesize imageContainer=_imageContainer;
-@property(retain, nonatomic) NSArray *imageContainerSizeConstraints; // @synthesize imageContainerSizeConstraints=_imageContainerSizeConstraints;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
-@property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSLayoutConstraint *stackViewLeadingConstraintHorizontal; // @synthesize stackViewLeadingConstraintHorizontal=_stackViewLeadingConstraintHorizontal;
-@property(retain, nonatomic) NSLayoutConstraint *stackViewLeadingConstraintVertical; // @synthesize stackViewLeadingConstraintVertical=_stackViewLeadingConstraintVertical;
-@property(retain, nonatomic) NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraintToImageContainer; // @synthesize topConstraintToImageContainer=_topConstraintToImageContainer;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraintToStackView; // @synthesize topConstraintToStackView=_topConstraintToStackView;
-@property(nonatomic) _Bool usesAttributedString; // @synthesize usesAttributedString=_usesAttributedString;
 
 @end
 

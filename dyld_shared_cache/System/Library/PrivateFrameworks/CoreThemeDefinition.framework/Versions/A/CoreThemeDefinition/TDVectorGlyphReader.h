@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSURL;
-
 @interface TDVectorGlyphReader
 {
     struct os_unfair_lock_s _lock;
-    struct CGSVGDocument *_svgDocument;
-    NSURL *_fileURL;
-    NSDictionary *_guideNodes;
-    NSDictionary *_vectorGlyphNodes;
-    NSDictionary *_vectorGlyphRotateAnchorNodes;
-    NSDictionary *_vectorGlyphDrawAttachmentDataNodes;
-    NSMutableDictionary *_vectorGlyphWithWeightSize;
-    long long _platform;
-    float _templateVersion;
-    _Bool _isInterpolatable;
-    double _sourcePointSize;
-    double _defaultPointSize;
-    struct CGSVGNode *_layerTreeNode;
-    double _drawingPointSize;
-    double _drawingScale;
-    struct CGSVGDocument *_drawingSymbol;
 }
 
 + (id);
@@ -51,17 +33,17 @@
 - (struct CGSize);
 - (_Bool);
 - (double);
-- (CDStruct_3c058996);
+- (CDStruct_d2b197d1);
 - (void);
 - (void);
-- (double);
-- (_Bool);
+- (double);
+- (_Bool);
+- (id);
 - (id);
 - (id);
+- (CDStruct_d2b197d1);
 - (id);
-- (CDStruct_3c058996);
-- (id);
-- (CDStruct_3c058996);
+- (CDStruct_d2b197d1);
 - (struct CGSVGNode *);
 - (_Bool);
 - (id);
@@ -90,7 +72,7 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
+- (id)stopLocationInformationForAccessoryUUID:(id)arg1;
 - (id);
 
 // Remaining properties

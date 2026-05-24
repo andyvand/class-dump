@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMIVideoFrameTrackerFrameCandidate
 {
     float _score;
-    struct opaqueCMSampleBuffer *_sbuf;
-    NSArray *_motionDetections;
-    NSSet *_tracks;
 }
 
 - (struct opaqueCMSampleBuffer *);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (float);
 - (void);
 - (id)´;
 
 // Remaining properties
-@property(readonly) NSArray *motionDetections; // @synthesize motionDetections=_motionDetections;
 @property(readonly) struct opaqueCMSampleBuffer *sbuf; // @synthesize sbuf=_sbuf;
-@property(readonly) float score; // @synthesize score=_score;
-@property(readonly) NSSet *tracks; // @synthesize tracks=_tracks;
 
 @end
 

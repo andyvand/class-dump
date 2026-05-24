@@ -10,13 +10,6 @@
 @interface WBSBiomeDonationManager
 {
     NSObject<OS_dispatch_queue> *_streamAccessQueue;
-    _WBSBiomeStream *_autoPlayStream;
-    _WBSBiomeStream *_navigationsStream;
-    _WBSBiomeStream *_webPagePerformanceStream;
-    _WBSBiomeStream *_webAppInFocusStream;
-    _WBSBiomeStream *_pageLoadStream;
-    _WBSBiomeStream *_websitesBlockingQuitStream;
-    _WBSBiomeStream *_windowProxyStream;
 }
 
 + (_Bool);

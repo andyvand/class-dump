@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKPrivateDatabaseVersionMapping, NSArray, NSDictionary;
+@class FCCKPrivateDatabaseVersionMapping;
 
 @interface FCCKPrivateDatabaseSchema
 {
     FCCKPrivateDatabaseVersionMapping *_zoneNameVersionMapping;
-    FCCKPrivateDatabaseVersionMapping *_recordTypeVersionMapping;
-    FCCKPrivateDatabaseVersionMapping *_recordNameVersionMapping;
-    NSDictionary *_zoneSchemasByName;
-    NSArray *_defaultZoneSchemas;
-    NSDictionary *_recordSchemasByType;
 }
 
 - (id);

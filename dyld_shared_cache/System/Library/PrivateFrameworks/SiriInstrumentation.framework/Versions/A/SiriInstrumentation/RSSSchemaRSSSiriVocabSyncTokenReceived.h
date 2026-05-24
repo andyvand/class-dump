@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncTokenReceived : SISchemaInstrumentationMessage
 {
     int _reason;
-    unsigned long long _syncTokenTransferLatencyInMs;
-    struct {
-        unsigned int reason:1;
-        unsigned int syncTokenTransferLatencyInMs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -28,22 +21,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)/AppStoreDaemon/Stubs/ASDInstallManifestRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)|;
+- (_Bool)ier;
 - (void);
 - (id);
 - (id);
-- (id)ported;
+- (id)assistantdLaunchMetadataReported;
 - (id),N,V_appUsageCountForEntity7Days;
-- (void)URCE_DICTATION_INPUT_FIELD_MIC_BUTTON;
+- (void)INVOCATIONSOURCE_DICTATION_INPUT_FIELD_MIC_BUTTON;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasSyncTokenTransferLatencyInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned long long syncTokenTransferLatencyInMs; // @synthesize syncTokenTransferLatencyInMs=_syncTokenTransferLatencyInMs;
 
 @end
 

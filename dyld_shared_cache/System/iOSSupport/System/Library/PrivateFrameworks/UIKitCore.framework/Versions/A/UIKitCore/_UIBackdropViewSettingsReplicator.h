@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool)cachedAvailabilityTokensForHandleID: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void)vigationBar:metricsForOrientation:hasPrompt: /* Error: Ran out of types for this method. */;
+- (void)navigationBar:metricsForOrientation:hasPrompt: /* Error: Ran out of types for this method. */;
 
 @end
 

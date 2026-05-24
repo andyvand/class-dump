@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 
 @end

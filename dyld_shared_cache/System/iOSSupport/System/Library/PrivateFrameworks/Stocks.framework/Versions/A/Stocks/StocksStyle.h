@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
+@class UIColor;
 
 @interface StocksStyle
 {
     UIColor *_chartHighlightColor;
-    UIFont *_mainFont;
-    UIFont *_chartLabelFont;
 }
 
 + (id);
 - (id);
+- (id)m|;
+- (id)m|;
 - (id);
+- (id)o|;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id):(double)arg1;
 - (id);
 - (void);
-- (void);
+- (void)_domainWithName:profilable: /* Error: Ran out of types for this method. */;
 
 @end
 

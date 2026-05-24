@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void)dDownloadAfterComplete;
+- (void)attemptedDownloadAfterComplete;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *responseHandlers; // @synthesize responseHandlers=_responseHandlers;

@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaSSUBackgroundUpdateStarted : SISchemaInstrumentationMessage
 {
     int _backgroundUpdateType;
-    struct {
-        unsigned int backgroundUpdateType:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)|;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int backgroundUpdateType; // @synthesize backgroundUpdateType=_backgroundUpdateType;
-@property(nonatomic) _Bool hasBackgroundUpdateType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

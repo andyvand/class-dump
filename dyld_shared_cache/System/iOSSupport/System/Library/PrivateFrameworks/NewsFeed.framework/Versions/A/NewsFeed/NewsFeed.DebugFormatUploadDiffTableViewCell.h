@@ -9,7 +9,7 @@
     id label;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)±2: /* Error: Ran out of types for this method. */;
 

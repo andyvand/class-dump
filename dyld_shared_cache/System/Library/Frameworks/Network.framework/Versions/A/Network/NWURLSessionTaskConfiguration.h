@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSURLRequest, NSURLSessionConfiguration, NWURLSessionTask;
-@protocol OS_nw_activity;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionTaskConfiguration
 {
     NSData *_atsState;
-    NSURLSessionConfiguration *_configuration;
-    NWURLSessionTask *_task;
-    NSURLRequest *_request;
-    NSObject<OS_nw_activity> *_internalActivity;
 }
 
 - (void)@;

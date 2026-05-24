@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (long long)Subnormal;
+- (long long)positiveSubnormal;
 
 @end
 

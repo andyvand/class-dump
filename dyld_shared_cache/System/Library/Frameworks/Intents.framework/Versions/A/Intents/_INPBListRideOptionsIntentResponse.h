@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBTimestamp;
+@class _INPBTimestamp;
 
 @interface _INPBListRideOptionsIntentResponse
 {
     struct {
         unsigned int supportsApplePayForPayment:1;
     } _has;
-    _Bool _supportsApplePayForPayment;
-    _INPBTimestamp *_expirationDate;
-    NSArray *_paymentMethods;
-    NSArray *_rideOptions;
 }
 
-+ (Class);
-+ (Class);
++ (Class)l;
++ (Class)setObject:forKey: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -47,24 +43,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ntLocation;
+- (void)restaurantLocation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBTimestamp *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool hasExpirationDate;
-@property(nonatomic) _Bool hasSupportsApplePayForPayment;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *paymentMethods; // @synthesize paymentMethods=_paymentMethods;
-@property(readonly, nonatomic) unsigned long long paymentMethodsCount;
-@property(copy, nonatomic) NSArray *rideOptions; // @synthesize rideOptions=_rideOptions;
-@property(readonly, nonatomic) unsigned long long rideOptionsCount;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsApplePayForPayment; // @synthesize supportsApplePayForPayment=_supportsApplePayForPayment;
 
 @end
 

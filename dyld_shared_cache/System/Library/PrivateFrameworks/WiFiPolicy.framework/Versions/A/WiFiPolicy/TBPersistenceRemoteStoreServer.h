@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL, NSXPCStoreServer;
+@class NSXPCStoreServer;
 
 @interface TBPersistenceRemoteStoreServer
 {
     NSXPCStoreServer *_xpcStoreServer;
-    NSURL *_storeURL;
-    NSURL *_modelURL;
-    NSDictionary *_serverOptions;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (void);
@@ -24,13 +21,10 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)FO;
+- (void)TAG_CTLQM_CHIP_INFO;
 - (id).wifi.LQM_generic_distribution;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(retain, nonatomic) NSDictionary *serverOptions; // @synthesize serverOptions=_serverOptions;
-@property(retain, nonatomic) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 @property(retain, nonatomic) NSXPCStoreServer *xpcStoreServer; // @synthesize xpcStoreServer=_xpcStoreServer;
 
 @end

@@ -11,23 +11,21 @@
 @interface MSHistoryRideShareItem : MSHistoryItem
 {
     id _endWaypoint;
-    id _startWaypoint;
 }
 
-+ (Class);
-- (void);
++ (Class);
+- (void)n;
 - (id);
+- (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSData *endWaypoint;
-@property(nonatomic, copy) NSData *startWaypoint;
 
 @end
 

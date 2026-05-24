@@ -4,59 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryRecipeDisplayAssetNormalization, PXStoryResourcesDataSource;
-@protocol PXStoryResource;
-
 @interface PXStoryConcreteClip
 {
     long long _identifier;
-    id <PXStoryResource> _resource;
-    long long _resourceKind;
-    long long _resourceIndex;
-    long long _resourceOccurrenceIndex;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    CDStruct_c0304e72 _info;
 }
 
 - (CDStruct_e83c9415);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)A�7;
 - (CDStruct_e83c9415);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (CDStruct_e83c9415);
-- (_Bool);
+- (_Bool)#A�|;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (long long)anoramaSettings;
-- (CDStruct_c0304e72)ØÉ;
+- (long long)PXStoryMultipartPanoramaSettings;
+- (CDStruct_58af7e62)ØÉ;
 - (long long)sView.m;
 - (void)áÎ´n;
 
 // Remaining properties
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDStruct_c0304e72 info; // @synthesize info=_info;
-@property(readonly, nonatomic) id <PXStoryResource> resource; // @synthesize resource=_resource;
-@property(readonly, nonatomic) long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
 @property(readonly, nonatomic) long long resourceKind; // @synthesize resourceKind=_resourceKind;
-@property(readonly, nonatomic) long long resourceOccurrenceIndex; // @synthesize resourceOccurrenceIndex=_resourceOccurrenceIndex;
-@property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange;
 
 @end
 

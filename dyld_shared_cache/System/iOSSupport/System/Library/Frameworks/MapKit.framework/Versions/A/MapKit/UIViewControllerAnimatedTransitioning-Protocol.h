@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIViewImplicitlyAnimating;
+
 @protocol UIViewControllerAnimatedTransitioning
+- (void);
+
+@optional
+- (id <UIViewImplicitlyAnimating>)9;
 @end
 

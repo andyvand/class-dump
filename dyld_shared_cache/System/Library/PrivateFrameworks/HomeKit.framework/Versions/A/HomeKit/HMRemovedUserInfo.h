@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface HMRemovedUserInfo
 {
     NSString *_name;
-    NSUUID *_userUUID;
-    NSString *_userID;
-    NSDate *_dateRemoved;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (unsigned long long)T;
+- (_Bool)awake;
+- (id)hieroglyph;
+- (id)synthetically;
 - (void);
 - (id);
 - (id);
@@ -33,27 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSDate *dateRemoved; // @synthesize dateRemoved=_dateRemoved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *userID; // @synthesize userID=_userID;
-@property(readonly, copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

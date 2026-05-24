@@ -6,26 +6,85 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaIFError;
+@class SISchemaIFError;
 
 @interface ExecutorSiriSchemaExecutorRequestFailed : SISchemaInstrumentationMessage
 {
     SISchemaIFError *_error;
-    _Bool _hasError;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)Volume:%@
+        deviceSupportsMobileGestalt:%@
+         deviceSupportsCoreServices:%@
+ deviceSupportsAppleInternalVariant:%@
+       deviceSupportsRestoreVersion:%@
+     deviceSupportsSFRSystemVersion:%@
+    deviceSupportsSFRRestoreVersion:%@
+      deviceSupportsMultiVolumeBoot:%@
+  deviceSupportsSplatRestoreVersion:%@
+   deviceSupportsSplatSystemVersion:%@
+                       buildVersion:%@
+                     productVersion:%@
+                      hwModelString:%@
+                        deviceClass:%@
+               marketingProductName:%@
+                        productType:%@
+                        releaseType:%@
+                      deviceBoardID:%@
+                           hwTarget:%@
+                         isInternal:%@
+           isBootedOSSecureInternal:%@
+                     restoreVersion:%@
+                      hasEmbeddedOS:%@
+                        hasBridgeOS:%@
+                 bridgeBuildVersion:%@
+               bridgeRestoreVersion:%@
+                   isBridgeInternal:%@
+                             hasSFR:%@
+                  sfrProductVersion:%@
+                    sfrBuildVersion:%@
+                  sfrRestoreVersion:%@
+                     sfrReleaseType:%@
+                      hasRecoveryOS:%@
+           recoveryOSProductVersion:%@
+             recoveryOSBuildVersion:%@
+           recoveryOSRestoreVersion:%@
+              recoveryOSReleaseType:%@
+              factoryRestoreVersion:%@
+     preservedFactoryRestoreVersion:%@
+                           hasSplat:%@
+        hasSplatOnlyUpdateInstalled:%@
+                splatRestoreVersion:%@
+                splatProductVersion:%@
+           splatProductVersionExtra:%@
+                  splatBuildVersion:%@
+                   splatReleaseType:%@
+                hasEligibleRollback:%@
+        splatRollbackRestoreVersion:%@
+        splatRollbackProductVersion:%@
+   splatRollbackProductVersionExtra:%@
+          splatRollbackBuildVersion:%@
+           splatRollbackReleaseType:%@
+                 hasSemiSplatActive:%@
+        splatCryptex1RestoreVersion:%@
+        splatCryptex1ProductVersion:%@
+   splatCryptex1ProductVersionExtra:%@
+          splatCryptex1BuildVersion:%@
+  splatCryptex1BuildVersionOverride:%@
+           splatCryptex1ReleaseType:%@
+<<<] /* Error: Ran out of types for this method. */;
+- (id)onnectionID %u
+;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)J;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id)nectionQuality";
-- (id)aSiriResponseContext;
+- (id)SISchemaSiriResponseContext;
 - (id)Þ ÞÜà;
 - (void)I%;
 - (void)µ!­G9';
@@ -33,8 +92,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaIFError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

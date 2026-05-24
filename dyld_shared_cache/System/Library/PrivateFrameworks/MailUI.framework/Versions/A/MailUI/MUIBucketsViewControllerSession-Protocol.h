@@ -5,5 +5,6 @@
 //
 
 @protocol MUIBucketsViewControllerSession
+- (void);
 @end
 

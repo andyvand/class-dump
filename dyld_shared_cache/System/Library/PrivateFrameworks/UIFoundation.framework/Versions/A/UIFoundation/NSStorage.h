@@ -7,8 +7,6 @@
 @interface NSStorage
 {
     id _storage;
-    long long _hintCapacity;
-    unsigned long long _reserved[4];
 }
 
 + (void)attributedStringByResolvingString: /* Error: Ran out of types for this method. */;
@@ -17,15 +15,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void *);
+- (void)2Pt;
+- (void)6Ay;
+- (void *)R;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)boringssl_ciphers_fillout_configuration_string;
 - (void);
-- (unsigned long long);
-- (struct __CFStorage *);
+- (unsigned long long);
+- (struct __CFStorage *)engagementType;
 - (void);
 - (void *);
 - (unsigned long long);

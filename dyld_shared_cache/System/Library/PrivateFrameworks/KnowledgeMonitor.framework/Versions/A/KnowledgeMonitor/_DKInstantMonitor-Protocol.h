@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DKEvent;
-
 @protocol _DKInstantMonitor
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _DKEvent *currentEvent;
 @property(copy, nonatomic) CDUnknownBlockType instantHandler;
 @end
 

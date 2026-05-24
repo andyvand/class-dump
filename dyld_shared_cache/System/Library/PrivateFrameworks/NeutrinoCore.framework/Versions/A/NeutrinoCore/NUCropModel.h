@@ -7,15 +7,6 @@
 @interface NUCropModel
 {
     id _imageCenter;
-    struct CGRect _cropRect;
-    double _pitchRadians;
-    double _yawRadians;
-    double _rollRadians;
-    double _fovRadians;
-    _Bool _isAutoCrop;
-    unsigned long long _hitVertexID;
-    CDStruct_d58201db _aspectRatio;
-    struct CGRect _masterImageRect;
 }
 
 + (CDStruct_912cb5d2);
@@ -23,7 +14,7 @@
 + (struct CGRect);
 + (CDStruct_95fa7c00);
 - (double);
-- (double);
+- (double)(;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -35,7 +26,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (double);
 - (double);
@@ -58,14 +49,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)P;
 - (unsigned long long);
 - (unsigned long long);
 - (CDStruct_95fa7c00);
@@ -80,7 +71,7 @@
 - (void);
 - (CDStruct_912cb5d2);
 - (double);
-- (struct CGRect);
+- (struct CGRect)_;
 - (struct CGRect);
 - (void);
 - (unsigned long long);
@@ -89,32 +80,19 @@
 - (_Bool);
 - (_Bool);
 - (CDStruct_912cb5d2);
-- (void);
-- (void);
+- (void);
+- (void)AVTCompositorPipelineCache;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)Ve;
 - (_Bool);
 - (id);
 - (struct CGRect)ialize contents;
 - (CDStruct_912cb5d2)ÌÔ;
 
 // Remaining properties
-@property(nonatomic) CDStruct_912cb5d2 aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property struct CGRect cropRect;
-@property(readonly, nonatomic) double fovRadians; // @synthesize fovRadians=_fovRadians;
-@property(readonly) _Bool hasCrop;
-@property(readonly) unsigned long long hitVertexID; // @synthesize hitVertexID=_hitVertexID;
-@property(nonatomic) _Bool isAutoCrop; // @synthesize isAutoCrop=_isAutoCrop;
-@property(readonly, nonatomic) struct CGRect masterImageRect; // @synthesize masterImageRect=_masterImageRect;
-@property(readonly, nonatomic) struct CGSize masterImageSize;
-@property(readonly, nonatomic) double pitchDegreeUI;
 @property(nonatomic) double pitchRadians;
-@property(readonly, nonatomic) double rollDegreeUI;
-@property(nonatomic) double rollRadians;
-@property(readonly, nonatomic) double yawDegreeUI;
-@property(nonatomic) double yawRadians;
 
 @end
 

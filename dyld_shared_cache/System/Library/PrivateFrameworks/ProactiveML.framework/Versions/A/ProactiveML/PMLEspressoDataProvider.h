@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableData, NSString;
+@class NSArray;
 
 @interface PMLEspressoDataProvider
 {
     NSArray *_rowsData;
-    NSData *_labelsData;
-    NSString *_inputName;
-    unsigned long long _inputDim;
-    NSString *_trueLabelName;
-    unsigned long long _numberOfDataPoints;
-    NSMutableData *_inputBuffer;
-    NSMutableData *_trueLabelBuffer;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

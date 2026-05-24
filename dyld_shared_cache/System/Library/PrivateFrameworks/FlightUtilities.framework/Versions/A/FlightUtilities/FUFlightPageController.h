@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     _Bool _canSwipe;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)for frame:(_Bool)arg1 %u is beyond totalFrames:%u:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)dDataWithRootObject returned nil;
+- (_Bool)emotePrimaryIdentifier:(long long)arg1 ,V_relayRemotePrimaryIdentifier;
 - (void);
 
 // Remaining properties

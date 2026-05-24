@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicValueRange, HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface HAPCharacteristicValueLinearDerivedTransition
 {
     NSMutableArray *_transitionPoints;
-    HAPTLVUnsignedNumberValue *_sourceHAPInstanceID;
-    HAPCharacteristicValueRange *_sourceValueRange;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,21 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)lastPathComponent;
+- (_Bool)t;
 - (id);
 - (void)4^@32B40^@44;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *sourceHAPInstanceID; // @synthesize sourceHAPInstanceID=_sourceHAPInstanceID;
-@property(retain, nonatomic) HAPCharacteristicValueRange *sourceValueRange; // @synthesize sourceValueRange=_sourceValueRange;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *transitionPoints; // @synthesize transitionPoints=_transitionPoints;
 
 @end

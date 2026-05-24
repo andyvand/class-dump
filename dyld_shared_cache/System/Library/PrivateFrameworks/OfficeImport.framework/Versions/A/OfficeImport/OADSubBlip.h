@@ -6,19 +6,13 @@
 
 #import <OfficeImport/OCDDelayedMedia.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface OADSubBlip : OCDDelayedMedia
 {
     int mType;
-    NSData *mData;
-    struct CGSize mSizeInPoints;
-    int mSizeInBytes;
-    struct CGRect mFrame;
 }
 
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (void);
@@ -27,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (_Bool);
-- (id);
+- (id)`";
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool)ridden;
+- (_Bool)fontOverridden;
 - (void)¼?;
 
 @end

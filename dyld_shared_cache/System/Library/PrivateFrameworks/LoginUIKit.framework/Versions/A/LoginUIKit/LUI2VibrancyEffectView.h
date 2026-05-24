@@ -9,7 +9,6 @@
 @interface LUI2VibrancyEffectView
 {
     NSView *_contentView;
-    NSColor *_tintColor;
 }
 
 - (_Bool);
@@ -25,9 +24,7 @@
 - (id)T^{CGImage=},R;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView;
-@property(readonly, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(nonatomic) _Bool wantsLayer;
+@property(nonatomic, readonly) NSColor *tintColor;
 
 @end
 

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, RTIColor;
+@class NSData;
 
 @interface RTITextInputKeyboardActionButtonConfiguration
 {
     _Bool _isEnabled;
-    NSData *_imageData;
-    RTIColor *_backgroundColor;
-    NSString *_accessibilityTitle;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)3;
 - (id);
 - (id);
 - (void);
@@ -32,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;
-@property(copy, nonatomic) RTIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
 
 @end
 

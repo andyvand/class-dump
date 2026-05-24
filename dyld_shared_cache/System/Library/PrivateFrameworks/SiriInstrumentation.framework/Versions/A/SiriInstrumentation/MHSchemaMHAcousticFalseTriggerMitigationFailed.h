@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAcousticFalseTriggerMitigationFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)navigationServiceProxy:didEnterPreArrivalStateForWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)pple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_int.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)enerated:(id)arg1;
+- (id)setHasAppIntentSignalGenerated:(id)arg1;
 - (id)eAdvertisingEndContext",&,N,V_cdaAdvertisingEndChanged;
 - (void)`a#;
 - (unsigned int)Ðx(;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

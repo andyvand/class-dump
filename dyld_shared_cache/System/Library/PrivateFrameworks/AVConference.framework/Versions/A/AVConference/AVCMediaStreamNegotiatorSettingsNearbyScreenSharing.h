@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (id);
 - (unsigned char);

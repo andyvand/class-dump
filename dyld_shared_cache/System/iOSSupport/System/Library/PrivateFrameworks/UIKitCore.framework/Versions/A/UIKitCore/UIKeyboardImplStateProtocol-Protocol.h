@@ -10,10 +10,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (TIKeyboardState *)ansformedFrame;
+- (TIKeyboardState *)UntransformedFrame;
 - (void)hP;
 - (void)â;
-- (_Bool)rdShortcutEnumerationPriority;
+- (_Bool)_UIMenuLeafKeyboardShortcutEnumerationPriority;
 - (void)àôsþ|43Üõsþ;
 - (void)àÆR0í430r;
 - (void)@i[;

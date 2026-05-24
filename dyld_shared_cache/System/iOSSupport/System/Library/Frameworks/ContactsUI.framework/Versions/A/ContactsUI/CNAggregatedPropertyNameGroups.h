@@ -17,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void)outConfiguration;
-- (id)LOCK;
+- (id)CARD_ACTION_BLOCK;
 - (void)øyADyADyÕøyADyÔøyïØøyAÊøyÓÔøy]øy·Gøyá,%_ã,%tGG_Qo_G_Qo__SiQo_4-øG_õWùQo_E7øy¿øGGèøG*'øGGA_G;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) _Bool modified;
 
 @end
 

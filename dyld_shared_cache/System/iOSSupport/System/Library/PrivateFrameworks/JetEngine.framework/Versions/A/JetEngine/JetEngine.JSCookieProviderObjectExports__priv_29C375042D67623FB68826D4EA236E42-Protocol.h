@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol JetEngine.JSCookieProviderObjectExports__priv_29C375042D67623FB68826D4EA236E42
+- (JSValue *);
 @end
 

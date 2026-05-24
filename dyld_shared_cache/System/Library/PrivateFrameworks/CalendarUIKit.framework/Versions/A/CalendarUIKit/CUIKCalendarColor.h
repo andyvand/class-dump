@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)IëÁ;
++ (id);
 + (id)y¢¡/yADyFn¡/yAEyABy¡/yADyAEy¡/yd¡/G_º¡/yAJyAFyADyAEyAEy­¡/AHGIKÿÿG_AEyAEy@Y¡/AHG¡/yR{¡/GGAEyALòJÿÿGtGGAFyADyAEyAkMG_AtEyAkUGtGGGAYGAGtGGGAHG'¡/y©¢4A8_SQ12CoreGraphicsyHCg_GG_ÝHÿÿtGSg_¡/ySnySiGSiADyêHÿÿ_AGSgtGGtGGGG;
 - (id);
-- (void)con: /* Error: Ran out of types for this method. */;
+- (void)setInternalIcon: /* Error: Ran out of types for this method. */;
 
 @end
 

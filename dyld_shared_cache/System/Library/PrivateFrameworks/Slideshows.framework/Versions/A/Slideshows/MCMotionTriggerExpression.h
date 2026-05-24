@@ -6,12 +6,11 @@
 
 #import <Slideshows/MCMotionTrigger.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface MCMotionTriggerExpression : MCMotionTrigger
 {
     NSString *_expression;
-    NSDictionary *_attributes;
 }
 
 + (id);
@@ -20,14 +19,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(copy) NSString *expression; // @synthesize expression=_expression;
 
 @end

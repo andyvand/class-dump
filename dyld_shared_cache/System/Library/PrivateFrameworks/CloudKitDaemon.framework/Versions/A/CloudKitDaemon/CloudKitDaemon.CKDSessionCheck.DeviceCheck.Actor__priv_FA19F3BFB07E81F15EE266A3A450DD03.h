@@ -7,10 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.DeviceCheck.Actor__priv_FA19F3BFB07E81F15EE266A3A450DD03
 {
     id $defaultActor;
-    id sessionConfiguration;
-    id testDeviceReferenceProtocol;
-    id readinessSink;
-    id state;
 }
 
 @end

@@ -6,33 +6,28 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class ECLocalMessageActionResults, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface MFEWSLocalActionSyncTask : MFEWSTask
 {
     NSMutableArray *_messageActions;
-    NSMutableDictionary *_progressesByActionIDs;
-    _Bool _actionOperationRunning;
-    _Bool _needToCheckForActions;
-    _Bool _needToPersistResults;
-    ECLocalMessageActionResults *_resultsToPersist;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)q;
 - (void);
 - (id);
+- (void)a;
+- (void);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -42,16 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool actionOperationRunning; // @synthesize actionOperationRunning=_actionOperationRunning;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needToCheckForActions; // @synthesize needToCheckForActions=_needToCheckForActions;
-@property(nonatomic) _Bool needToPersistResults; // @synthesize needToPersistResults=_needToPersistResults;
-@property(retain, nonatomic) ECLocalMessageActionResults *resultsToPersist; // @synthesize resultsToPersist=_resultsToPersist;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSDictionary, NSString;
+@class NSString;
 @protocol MTVisualStyleSetProviding;
 
 @interface MTCoreMaterialVisualStyling
 {
     id <MTVisualStyleSetProviding> _visualStyleSet;
-    NSString *_visualStyleName;
-    CAFilter *_composedFilter;
-    NSDictionary *_tintColorDescription;
-    struct CGColor *_tintColor;
-    double _tintAlpha;
-    NSString *_tintColorName;
-    long long _tintColorUIStyle;
-    NSString *_compositingFilter;
-    NSString *_filterType;
-    NSDictionary *_filterProperties;
-    NSDictionary *_userInfo;
 }
 
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -43,26 +32,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)cdpRecoveryKeyEntryView;
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_composedFilter) CAFilter *composedFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double tintAlpha;
-@property(readonly, nonatomic) struct CGColor *tintColor;
-@property(readonly, copy, nonatomic) NSDictionary *tintColorDescription;
-@property(readonly, copy, nonatomic) NSString *tintColorName;
-@property(readonly, nonatomic) long long tintColorUIStyle;
-@property(readonly, nonatomic) NSString *visualStyleName;
 @property(readonly, nonatomic) NSString *visualStyleSetName;
 
 @end

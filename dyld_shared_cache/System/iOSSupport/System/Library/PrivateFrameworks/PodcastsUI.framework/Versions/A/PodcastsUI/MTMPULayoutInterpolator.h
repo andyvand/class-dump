@@ -7,12 +7,11 @@
 @interface MTMPULayoutInterpolator
 {
     struct vector<MTMPU::LayoutInterpolator::EntriesContainer, std::allocator<MTMPU::LayoutInterpolator::EntriesContainer>> _entriesContainers;
-    _Bool _hasEntryWithSpecificSecondaryReferenceMetric;
 }
 
 - (double);
 - (double);
-- (void);
+- (void)&;
 - (void);
 - (vector_fc3c0f11);
 - (void);

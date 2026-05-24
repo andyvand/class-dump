@@ -7,13 +7,6 @@
 @interface AppStoreKit.InformationRibbon
 {
     id badges;
-    id hasTopSeparator;
-    id hasBottomSeparator;
-    id separatorsAreFullWidth;
-    id alignment;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

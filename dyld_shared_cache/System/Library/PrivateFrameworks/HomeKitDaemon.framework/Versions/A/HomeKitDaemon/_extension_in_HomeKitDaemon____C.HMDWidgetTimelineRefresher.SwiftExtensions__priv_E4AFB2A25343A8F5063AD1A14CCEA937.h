@@ -7,8 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDWidgetTimelineRefresher.SwiftExtensions__priv_E4AFB2A25343A8F5063AD1A14CCEA937
 {
     id dataSource;
-    id reachabilityMonitor;
-    id reachabilityMonitorDelegateAdapter;
 }
 
 - (id);

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LADomainStateBiometry, LADomainStateCompanion, NSData;
+@class LADomainStateBiometry, NSData;
 
 @interface LADomainState
 {
     NSData *_stateHash;
-    LADomainStateBiometry *_biometry;
-    LADomainStateCompanion *_companion;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LADomainStateBiometry *biometry; // @synthesize biometry=_biometry;
-@property(readonly, nonatomic) LADomainStateCompanion *companion; // @synthesize companion=_companion;
-@property(readonly, nonatomic) NSData *stateHash;
 
 @end
 

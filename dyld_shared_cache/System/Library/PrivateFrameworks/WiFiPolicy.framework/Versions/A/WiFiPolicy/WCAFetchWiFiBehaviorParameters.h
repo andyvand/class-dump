@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface WCAFetchWiFiBehaviorParameters
 {
     NSArray *_internalSSIDs;
-    NSDictionary *_disabledMacRandomizationVersions;
-    NSDictionary *_softErrors;
-    NSDictionary *_datapathTelemetry;
-    NSDictionary *_jtrnDefaults;
-    NSArray *_ambiguousSSIDs;
-    NSDictionary *_apProfile;
-    NSDictionary *_beaconParsing;
-    NSDictionary *_lqmDistribution;
 }
 
 + (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)lastViewedCommentDateForAssetCollectionWithGUID:(id)arg1;
 - (id);
 - (void);
+- (void);
+- (id)d52;
+- (void)initWithStorage:(id)arg1 variationStore: /* Error: Ran out of types for this method. */;
+- (id)showsLabel;
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (id);
@@ -42,15 +34,7 @@
 - (id)Address;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *ambiguousSSIDs; // @synthesize ambiguousSSIDs=_ambiguousSSIDs;
-@property(retain, nonatomic) NSDictionary *apProfile; // @synthesize apProfile=_apProfile;
-@property(retain, nonatomic) NSDictionary *beaconParsing; // @synthesize beaconParsing=_beaconParsing;
-@property(retain, nonatomic) NSDictionary *datapathTelemetry; // @synthesize datapathTelemetry=_datapathTelemetry;
-@property(retain, nonatomic) NSDictionary *disabledMacRandomizationVersions; // @synthesize disabledMacRandomizationVersions=_disabledMacRandomizationVersions;
 @property(retain, nonatomic) NSArray *internalSSIDs; // @synthesize internalSSIDs=_internalSSIDs;
-@property(retain, nonatomic) NSDictionary *jtrnDefaults; // @synthesize jtrnDefaults=_jtrnDefaults;
-@property(retain, nonatomic) NSDictionary *lqmDistribution; // @synthesize lqmDistribution=_lqmDistribution;
-@property(retain, nonatomic) NSDictionary *softErrors; // @synthesize softErrors=_softErrors;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface AuthenticationServices.ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest : ASAuthorizationRequest
 {
     id acceptedContactIdentifiers;
-    id shouldRequestName;
-    id relyingPartyIdentifier;
-    id challenge;
-    id userID;
 }
 
 - (_Bool);

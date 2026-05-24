@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSURL *_url;
 }
 
-+ (id);
++ (id)Bx3;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)contactChangeIDs;
 - (id);
 - (void);
 

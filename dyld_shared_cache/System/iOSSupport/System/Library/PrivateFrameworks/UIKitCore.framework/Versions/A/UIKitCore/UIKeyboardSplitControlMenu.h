@@ -6,30 +6,26 @@
 
 #import <UIKitCore/UIKeyboardMenuView.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSplitControlMenu : UIKeyboardMenuView
 {
     struct CGSize m_preferredSize;
-    NSArray *_items;
-    CDUnknownBlockType _finishSplitTransitionBlock;
 }
 
 + (id)îâþ;
 + (id)èl;
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)failed, couldn't find msg (%@) or chat (%@) for transfer %@;
+- (void)rriding sender URI to be %@ using Last addressed handle %@;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)destination %@;
 - (void);
 - (struct CGSize);
-- (id)oveUp:(struct CGRect)arg1;
+- (id)moveUp:(struct CGRect)arg1;
 - (unsigned long long);
 - (void),ÿ;
 

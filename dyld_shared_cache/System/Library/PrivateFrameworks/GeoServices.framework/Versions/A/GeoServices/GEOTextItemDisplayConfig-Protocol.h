@@ -5,9 +5,9 @@
 //
 
 @protocol GEOTextItemDisplayConfig
+- (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int maxItemsPerRow;
-@property(readonly, nonatomic) unsigned int maxRowCount;
 @end
 

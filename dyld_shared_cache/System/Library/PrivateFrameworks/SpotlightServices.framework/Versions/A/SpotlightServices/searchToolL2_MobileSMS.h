@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 + (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)(;
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (void)nt;
+- (void)intent;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

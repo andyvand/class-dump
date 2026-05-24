@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBStrokeAnimationCardSection
-- (int);
+- (NSString *);
+- (NSString *)0;
+- (_Bool)setHasCommandType: /* Error: Ran out of types for this method. */;
+- (_Bool)setDelegationCredentialRequestToIdentityProperties: /* Error: Ran out of types for this method. */;
+- (NSData *)ortSource",&,N,V_importSource;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *characters;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *pronunciations;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *strokeAnimationRepresentation;
-@property(copy, nonatomic) NSArray *strokeNames;
-@property(copy, nonatomic) NSString *type;
 @end
 

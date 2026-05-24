@@ -9,14 +9,11 @@
 @interface PKTransitAppletStateDirty
 {
     NSString *_passUniqueIdentifier;
-    NSString *_secureElementIdentifier;
-    NSString *_applicationIdentifier;
-    NSString *_dpanIdentifier;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
@@ -26,17 +23,14 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)avgCCASocialChannelsCount;
 - (id);
-- (id)ndColor;
+- (id)secondaryBackgroundColor;
 - (void)Name:'%@';  /* Error: Ran out of types for this method. */;
 - (void)¯llö;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
 @property(copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
 
 @end
 

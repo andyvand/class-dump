@@ -5,44 +5,37 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface PLXPCRelay
 {
     _Bool _relayActive;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_xpc_object> *_relayConnection;
-    NSObject<OS_xpc_object> *_xpcCrashMoverConn;
-    NSObject<OS_dispatch_queue> *_crashMoverQueue;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ed;
 - (void);
 - (void);
 - (void);
+- (void)t];
 - (void);
+- (id)JFJBH
+;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *crashMoverQueue; // @synthesize crashMoverQueue=_crashMoverQueue;
-@property _Bool relayActive; // @synthesize relayActive=_relayActive;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *relayConnection; // @synthesize relayConnection=_relayConnection;
 @property(retain) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain) NSObject<OS_xpc_object> *xpcCrashMoverConn; // @synthesize xpcCrashMoverConn=_xpcCrashMoverConn;
 
 @end
 

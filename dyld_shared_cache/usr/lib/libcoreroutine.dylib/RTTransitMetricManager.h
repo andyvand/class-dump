@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationManager, RTLearnedLocationStore;
-@protocol OS_dispatch_queue;
+@class RTDefaultsManager;
 
 @interface RTTransitMetricManager
 {
     RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)';
 - (id);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)ecords match our DBR Record!;
+- (double)deviceNumber INTEGER NOT NULL, pubkeyNumber INTEGER NOT NULL, current INTEGER DEFAULT 0, PRIMARY KEY (deviceNumber,pubkeyNumber) ) ;CREATE TABLE IF NOT EXISTS EscrowedKeys ( publicKey TEXT PRIMARY KEY NOT NULL, escrow BLOB,dsid TEXT NOT NULL );CREATE TRIGGER IF NOT EXISTS removeSyncedKeys DELETE ON SyncDevices    FOR EACH ROW BEGIN        DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.deviceNumber ;    END  ; CREATE TRIGGER IF NOT EXISTS removeMirrorKeys DELETE ON MirrorKeys    FOR EACH ROW BEGIN        DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
 - (void);
 - (id);
 - (id);
@@ -34,10 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

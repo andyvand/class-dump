@@ -6,17 +6,14 @@
 
 #import <TSReading/EQKitMathMLNode.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EQKitMathMLMRow : EQKitMathMLNode
 {
     NSArray *mChildren;
-    struct {
-        unsigned int mImplied;
-    } mFlags;
 }
 
-- (id);
+- (id);
 - (id);
 - (const void *);
 - (struct Schemata);
@@ -28,16 +25,10 @@
 - (void);
 - (id);
 - (id);
-- (id)namicOutsets;
+- (id)mUseDynamicOutsets;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ButtonInTabSyncGroupDelegate> buttonInTabSyncGroupDelegate;
-@property(nonatomic, getter=isSyncedWithOtherButton) _Bool syncedWithOtherButton;
 @end
 

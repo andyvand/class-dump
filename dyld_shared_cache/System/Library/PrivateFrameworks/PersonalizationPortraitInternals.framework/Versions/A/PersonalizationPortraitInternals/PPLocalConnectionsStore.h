@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, PPConnectionsDonationStore, PPConnectionsPredictionStore;
+@class PPConnectionsPredictionStore;
 
 @interface PPLocalConnectionsStore
 {
     PPConnectionsPredictionStore *_predictionStore;
-    PPConnectionsDonationStore *_donationStore;
-    NSCache *_identifierToSourceBundleMap;
-    NSCache *_nameToIdentifierMap;
 }
 
 + (id);

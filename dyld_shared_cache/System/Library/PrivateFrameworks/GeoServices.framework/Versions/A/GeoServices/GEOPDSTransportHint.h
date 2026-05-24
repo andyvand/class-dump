@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSTransportHint
 {
     PBUnknownFields *_unknownFields;
-    int _transportType;
-    struct {
-        unsigned int has_transportType:1;
-    } _flags;
 }
 
-- (id);
+- (id)5
+;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)<GEOMapItemTransitInfo>"16@0:(struct _NSZone *)arg1 8;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)_performOnCallbackQueue: /* Error: Ran out of types for this method. */;
 - (id)Ø;
 - (void);
 

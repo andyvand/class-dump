@@ -4,57 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOElevationSegmentDescription
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_formattedDescription;
-    unsigned int _endOffsetM;
-    unsigned int _startOffsetM;
-    struct {
-        unsigned int has_endOffsetM:1;
-        unsigned int has_startOffsetM:1;
-    } _flags;
 }
 
-+ (_Bool)unt:(id)arg1;
++ (_Bool)setHasRenderedImageCount:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
+- (_Bool)formatIntegerByRoundingForPrivacy: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateMethodsOfClass:withBlock: /* Error: Ran out of types for this method. */;
+- (id)_debugIsInhibiting;
+- (unsigned int)initWithSeed:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)@;
 - (void);
-- (_Bool);
-- (_Bool);
 - (id);
-- (unsigned int);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)vtEndInSampleCount;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)asShowedSurgePricingAlert:(struct _NSZone *)arg1;
-- (id)omposedDrivingRouteSegment;
+- (id)setHasShowedSurgePricingAlert:(struct _NSZone *)arg1;
+- (id)GEOComposedDrivingRouteSegment;
 - (id)on to listener %{private}s was invalidated.;
 - (id);
 - (void)&ß4;
 
 // Remaining properties
-@property(nonatomic) unsigned int endOffsetM;
-@property(retain, nonatomic) GEOFormattedString *formattedDescription;
-@property(nonatomic) _Bool hasEndOffsetM;
-@property(readonly, nonatomic) _Bool hasFormattedDescription;
 @property(nonatomic) _Bool hasStartOffsetM;
-@property(nonatomic) unsigned int startOffsetM;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

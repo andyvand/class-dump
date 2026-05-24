@@ -4,25 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAudioStreamInterface, HMDCameraStreamSessionInfo, HMDCameraStreamSnapshotHandler, HMDVideoStreamInterface, NSNumber, NSObject, NSString;
-@protocol HMDAVCRemoteVideoClient, HMDCameraStreamManagerDataSourceProtocol, HMDCameraStreamManagerDelegate, OS_dispatch_queue;
+@class HMDCameraStreamSessionInfo, NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamManager
 {
     NSNumber *_slotIdentifier;
-    NSNumber *_aspectRatio;
-    HMDVideoStreamInterface *_videoStreamInterface;
-    HMDAudioStreamInterface *_audioStreamInterface;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCameraStreamManagerDelegate> _delegate;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    id <HMDAVCRemoteVideoClient> _avcRemoteVideo;
-    id <HMDCameraStreamManagerDataSourceProtocol> _dataSource;
 }
 
 + (id)ÿB;
+- (id)waypointResumeNotificationBody;
+- (void)waypointInfosCount;
+- (void)waypointIndex;
+- (void)visibleState;
+- (void)virtualReceiverWithHandle:(id)arg1;
+- (void)valueForKeyPath:(id)arg1;
+- (void)setItemData:(id)arg1;
+- (void)setComposedRouteFromState:(_Bool)arg1;
+- (void)numberWithUnsignedInteger:(id)arg1;
+- (void)numberWithUnsignedInt:(unsigned long long)arg1;
+- (id)cancelCapabilityLevelRequestForContacts: /* Error: Ran out of types for this method. */;
+- (id)bundleIdentifier;
+- (void)_setQueue:(id)arg1;
+- (void)TransitStorageLineItem",&,N,V_transitLineItem;
+- (void)%@;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -30,35 +38,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)setPreCalculatedPhotoLibrarySize: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -71,24 +61,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(copy) NSNumber *aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly) HMDAudioStreamInterface *audioStreamInterface; // @synthesize audioStreamInterface=_audioStreamInterface;
-@property(readonly) unsigned long long audioStreamSetting;
-@property(retain) id <HMDAVCRemoteVideoClient> avcRemoteVideo; // @synthesize avcRemoteVideo=_avcRemoteVideo;
-@property(readonly) id <HMDCameraStreamManagerDataSourceProtocol> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraStreamManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
 @property(readonly) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) HMDCameraStreamSnapshotHandler *streamSnapshotHandler; // @synthesize streamSnapshotHandler=_streamSnapshotHandler;
-@property(readonly) Class superclass;
-@property(readonly) HMDVideoStreamInterface *videoStreamInterface; // @synthesize videoStreamInterface=_videoStreamInterface;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

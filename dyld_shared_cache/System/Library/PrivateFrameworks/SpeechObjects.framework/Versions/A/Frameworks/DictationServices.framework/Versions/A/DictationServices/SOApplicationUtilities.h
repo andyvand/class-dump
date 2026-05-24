@@ -8,16 +8,16 @@
 {
 }
 
++ (id)c;
 + (id);
-+ (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (void);
 + (void);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 
 @end
 

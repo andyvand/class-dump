@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPaymentEligibilityFIDOProfile
 {
     NSString *_relyingPartyIdentifier;
-    NSString *_accountHash;
-    NSData *_keyHash;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)sionHandoffToken:(id)arg1;
-- (void)usQueryListenerID;
+- (id)createSessionHandoffToken:(id)arg1;
+- (void)SubcredentialIDSStatusQueryListenerID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountHash; // @synthesize accountHash=_accountHash;
-@property(readonly, copy, nonatomic) NSData *keyHash; // @synthesize keyHash=_keyHash;
 @property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
 
 @end

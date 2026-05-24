@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSImage, NSNumber, NSString, TIMIconLabel;
-@protocol InputSourceOwnerProtocol;
+@class NSImage;
 
 @interface InputSource
 {
     struct __TSMInputSource *fSourceRef;
-    NSString *fSourceDisplayName;
-    NSString *fSourceClassString;
-    unsigned int fSourceClass;
-    NSString *fIntendedLanguage;
-    short fSourceScript;
-    NSImage *fIconImage;
-    NSImage *fOriginalIconImage;
-    NSImage *fAlternateIconImage;
-    NSImage *fPaletteIconImage;
-    NSString *fKeyEquivalent;
-    long long fKeyEquivalentModifiers;
-    _Bool fVisible;
-    _Bool fSelected;
-    _Bool fDisabled;
-    _Bool fAvailable;
-    id <InputSourceOwnerProtocol> fOwner;
-    int fMessageError;
-    unsigned long long fSerialNumber;
-    double fTimeLastUsed;
-    TIMIconLabel *fPrimaryIconLabel;
-    TIMIconLabel *fSecondaryIconLabel;
-    NSImage *fCustomIcon;
-    NSNumber *transliterationInputModeCache;
 }
 
 + (id);
@@ -41,15 +17,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
 + (void);
-- (void);
+- (void)C;
 - (struct __TSMInputSource *);
 - (id);
-- (id);
+- (id);
 - (struct __TISInputSource *);
 - (void);
 - (void);
@@ -60,10 +36,10 @@
 - (short);
 - (id);
 - (struct CGSize);
+- (id)C;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -78,7 +54,7 @@
 - (id);
 - (void);
 - (id);
-- (struct __CFData *);
+- (struct __CFData *);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -89,7 +65,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (unsigned int);
@@ -99,13 +75,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)iB;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (short);
 - (void);
 - (id);
@@ -113,45 +89,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)__objc_classlist__DATA_CONST;
+- (void)5#;
+- (_Bool)SPScheduler publishImmediatelyWithCompletion;
 - (void)Ô ;
-- (_Bool)IgnoreNextFlagChangedEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)setIgnoreNextFlagChangedEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long UIOrder; // @dynamic UIOrder;
-@property(readonly) NSString *abbreviatedHudDisplayName; // @dynamic abbreviatedHudDisplayName;
-@property(readonly) NSImage *alternateIcon; // @dynamic alternateIcon;
-@property(getter=isAvailable) _Bool available; // @synthesize available=fAvailable;
-@property(readonly) NSBundle *bundle; // @dynamic bundle;
-@property(readonly) NSString *bundleID; // @dynamic bundleID;
-@property(readonly) NSImage *customIcon; // @synthesize customIcon=fCustomIcon;
-@property(getter=isDisabled) _Bool disabled; // @synthesize disabled=fDisabled;
-@property(readonly) NSString *displayName; // @synthesize displayName=fSourceDisplayName;
 @property(readonly, nonatomic) NSImage *floatingIndicatorIcon;
-@property(readonly) NSString *hudDisplayName; // @dynamic hudDisplayName;
-@property(readonly) NSImage *icon; // @dynamic icon;
-@property(readonly) NSArray *inputModes; // @dynamic inputModes;
-@property(readonly) NSString *intendedLanguage; // @synthesize intendedLanguage=fIntendedLanguage;
-@property(readonly) _Bool isEnabled; // @dynamic isEnabled;
-@property(readonly) NSString *keyEquivalent; // @synthesize keyEquivalent=fKeyEquivalent;
-@property(readonly) long long keyEquivalentModifiers; // @synthesize keyEquivalentModifiers=fKeyEquivalentModifiers;
-@property double lastTimeUsed; // @synthesize lastTimeUsed=fTimeLastUsed;
-@property(readonly) NSString *menuTitleName; // @dynamic menuTitleName;
-@property(readonly) NSImage *originalIcon; // @dynamic originalIcon;
-@property(readonly) __weak id <InputSourceOwnerProtocol> owner; // @synthesize owner=fOwner;
-@property(readonly) NSImage *paletteIcon; // @dynamic paletteIcon;
-@property(readonly) InputSource *parent; // @dynamic parent;
-@property(readonly) short parentScript; // @dynamic parentScript;
-@property(readonly) TIMIconLabel *primaryIconLabel; // @synthesize primaryIconLabel=fPrimaryIconLabel;
-@property(readonly) short script; // @synthesize script=fSourceScript;
-@property(readonly) TIMIconLabel *secondaryIconLabel; // @synthesize secondaryIconLabel=fSecondaryIconLabel;
-@property(readonly, getter=isSelected) _Bool selected; // @synthesize selected=fSelected;
-@property(readonly) unsigned int sourceClass; // @synthesize sourceClass=fSourceClass;
-@property(retain) NSNumber *transliterationInputModeCache; // @synthesize transliterationInputModeCache;
-@property(readonly) NSString *uniqueIdentifier;
-@property(readonly, getter=isVisible) _Bool visible; // @synthesize visible=fVisible;
 
 @end
 

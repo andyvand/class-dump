@@ -4,79 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteAttributes, NSData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAddStopRouteInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSData *_originalWaypointRouteRepresentation;
-    GEORouteAttributes *_routeAttributes;
-    NSData *_routeId;
-    NSData *_sessionState;
-    NSData *_zilchData;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_originalWaypointRouteRepresentation:1;
-        unsigned int read_routeAttributes:1;
-        unsigned int read_routeId:1;
-        unsigned int read_sessionState:1;
-        unsigned int read_zilchData:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)el:(id)arg1;
++ (_Bool)setHasMapViewStyleZoomLevel:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)ccountSink>",R,N,V_accountSink;
+- (_Bool)oa;
+- (_Bool)count"8;
+- (_Bool)Job"8@"CNVirtualSchedulerJob"16;
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)_refreshSpeakerRecognitionAssets;
+- (id);
+- (void)Ǡ;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)
 × ;
-- (id)datesInSeconds;
+- (id)maximumTimeBetweenConsecutiveHypothesisUpdatesInSeconds;
 - (id)°: /* Error: Ran out of types for this method. */;
-- (id)tryNames;
-- (void)ll_screen_photo_gallery;
+- (id)PNRUseSystemCountryNames;
+- (void)display_full_screen_photo_gallery;
 - (id)ÿÿ;
 - (id)¹BA9DÜJVP@;
 - (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOriginalWaypointRouteRepresentation;
-@property(readonly, nonatomic) _Bool hasRouteAttributes;
-@property(readonly, nonatomic) _Bool hasRouteId;
-@property(readonly, nonatomic) _Bool hasSessionState;
-@property(readonly, nonatomic) _Bool hasZilchData;
-@property(retain, nonatomic) NSData *originalWaypointRouteRepresentation;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes;
-@property(retain, nonatomic) NSData *routeId;
-@property(retain, nonatomic) NSData *sessionState;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSData *zilchData;
 
 @end
 

@@ -7,20 +7,18 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
+- (double);
+- (double)InCallControlsTitleCellViewModel;
+- (double)SharedContentViewDelegate;
+- (NSString *)";
+- (unsigned long long)p;
 - (double)CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (NSDictionary *)H;
 - (double)p icon...;
 - (NSDate *)n_;
-- (double)arModuleType;
+- (double)MagazineSectionBarModuleType;
 
 // Remaining properties
-@property(readonly, nonatomic) double clicks;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double ctr;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long eventCount;
 @property(readonly, nonatomic) NSString *featureKey;
-@property(readonly, nonatomic) double impressions;
-@property(readonly, nonatomic) NSDate *lastModified;
 @end
 

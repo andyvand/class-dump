@@ -12,21 +12,18 @@
 @interface MSVAsyncBlockOperation : MSVAsyncOperation
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    CDUnknownBlockType _cancellationHandler;
-    CDUnknownBlockType _startHandler;
 }
 
 - (id);
-- (void);
+- (void)( ;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancellationHandler;
 @property(readonly, copy, nonatomic) CDUnknownBlockType startHandler; // @synthesize startHandler=_startHandler;
 
 @end

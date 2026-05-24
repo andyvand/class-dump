@@ -7,6 +7,7 @@
 @protocol IMTSMSupport
 
 @optional
+- (_Bool)ֈ@9�;
 - (unsigned long long)0@ù
 × ;
 @end

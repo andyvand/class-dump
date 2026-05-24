@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath;
-
 __attribute__((visibility("hidden")))
 @interface _UIDynamicTransformer
 {
@@ -13,34 +11,17 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _action;
 }
 
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)MPModelPropertyTVSeasonYear;
 - (struct CGPoint)!äAùQ`1Â0@ù
 × ;
 - (struct CGRect);
-- (void)uotesType;
-- (void)ollectionChange;
+- (void)smartQuotesType;
+- (void)UIDisableUpdateTextColorOnTraitCollectionChange;
 - (void)z\;
 - (id)];
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
 @property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
 
 @end
 

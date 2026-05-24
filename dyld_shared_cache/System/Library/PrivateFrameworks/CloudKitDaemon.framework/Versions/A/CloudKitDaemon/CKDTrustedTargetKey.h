@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)LqmSessionLastUpdatedTime;
 - (void)2;
 
 // Remaining properties

@@ -6,17 +6,15 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class NSArray, NSString, TIKeyboardLayout;
+@class NSString;
 
 @interface TITypologyRecordReplacements : TITypologyRecord
 {
     NSString *_string;
-    TIKeyboardLayout *_keyLayout;
-    NSArray *_candidates;
 }
 
 + (_Bool);
-- (id);
+- (id)d bag type %i successfully;
 - (id);
 - (void);
 - (id);
@@ -32,11 +30,9 @@
 ¡
 À
 ;
-- (void)opriator;
+- (void)appropriator;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(retain, nonatomic) TIKeyboardLayout *keyLayout; // @synthesize keyLayout=_keyLayout;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

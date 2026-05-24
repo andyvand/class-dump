@@ -7,10 +7,6 @@
 @interface NewsArticles.SavedRecipeService
 {
     id recipeBox;
-    id commandCenter;
-    id recipeService;
-    id tracker;
-    id recipeCoordinatorContainer;
 }
 
 @end

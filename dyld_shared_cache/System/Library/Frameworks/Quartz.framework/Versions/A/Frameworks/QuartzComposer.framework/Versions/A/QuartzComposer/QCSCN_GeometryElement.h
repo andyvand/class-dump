@@ -11,21 +11,18 @@
     id _reserved;
 }
 
-+ (id);
++ (id);
 - (struct __C3DMeshElement *);
-- (id);
+- (id);
 - (long long);
-- (long long);
+- (long long);
 - (int);
 - (void);
-- (id);
+- (id)_pid FROM container WHERE smart_criteria IS NULL OR smart_is_genius;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerIndex;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long primitiveCount;
-@property(readonly, nonatomic) int primitiveType;
 
 @end
 

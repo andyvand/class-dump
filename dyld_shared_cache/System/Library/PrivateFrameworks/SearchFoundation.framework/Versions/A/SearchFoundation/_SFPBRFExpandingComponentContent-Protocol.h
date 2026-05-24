@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFLongItemStandardCardSection, _SFPBRFReferenceFootnoteCardSection;
+@class NSData, _SFPBRFLongItemStandardCardSection;
 
 @protocol _SFPBRFExpandingComponentContent
+- (NSData *)vice",&,V_camera;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFLongItemStandardCardSection *long_item_standard_card_section;
-@property(retain, nonatomic) _SFPBRFReferenceFootnoteCardSection *reference_footnote_card_section;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

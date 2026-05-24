@@ -7,11 +7,6 @@
 @interface AWDLibnetcoreRNFActivityNotification
 {
     unsigned long long _timestamp;
-    _Bool _hasRnfActivity;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int hasRnfActivity:1;
-    } _has;
 }
 
 - (void);
@@ -21,22 +16,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)v";
+- (unsigned long long)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasRnfActivity;
-@property(nonatomic) _Bool hasRnfActivity; // @synthesize hasRnfActivity=_hasRnfActivity;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

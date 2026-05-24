@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PXSearchActiveSearch
 {
     NSString *_searchText;
-    NSArray *_searchTokens;
-    NSArray *_representedObjects;
-    NSString *_priorityAssetUUID;
-    unsigned long long _libraryScope;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -30,24 +26,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)phaXY.x, borderAlphaXY.y); 
+		} 
+		;
 - (_Bool);
-- (id)lwaysShowCurationToggleButton:(struct _NSZone *)arg1;
+- (id)setAlwaysShowCurationToggleButton:(struct _NSZone *)arg1;
 - (_Bool)<õçÿ`õçÿõçÿöçÿ<öçÿ`öçÿT÷çÿl÷çÿ÷çÿ¨÷çÿÌ÷çÿ\øçÿøçÿ¤øçÿàøçÿùçÿäùçÿúçÿ<úçÿ;
 - (void)ñxµÅ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSearchText;
-@property(readonly, nonatomic) _Bool hasSearchTokens;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) unsigned long long libraryScope; // @synthesize libraryScope=_libraryScope;
-@property(retain, nonatomic) NSString *priorityAssetUUID; // @synthesize priorityAssetUUID=_priorityAssetUUID;
-@property(retain, nonatomic) NSArray *representedObjects; // @synthesize representedObjects=_representedObjects;
-@property(readonly, nonatomic) unsigned long long searchTermCount;
-@property(readonly, nonatomic) NSString *searchTermsString;
 @property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly, nonatomic) unsigned long long searchTokenCount;
-@property(retain, nonatomic) NSArray *searchTokens; // @synthesize searchTokens=_searchTokens;
 
 @end
 

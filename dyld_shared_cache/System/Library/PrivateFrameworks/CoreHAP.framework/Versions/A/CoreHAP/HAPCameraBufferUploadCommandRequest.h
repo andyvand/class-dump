@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraBufferUploadCommandTypeWrapper, HAPCameraBufferUploadStopActionWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferUploadCommandRequest
 {
     HAPTLVUnsignedNumberValue *_sessionID;
-    HAPCameraBufferUploadCommandTypeWrapper *_command;
-    HAPTLVUnsignedNumberValue *_start;
-    HAPTLVUnsignedNumberValue *_stop;
-    HAPCameraBufferUploadStopActionWrapper *_stopAction;
 }
 
 + (id);
@@ -20,12 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)frameCountFromStartTime:(id)arg1 endTime: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -33,21 +29,10 @@
 - (id);
 - (void);
 - (void)2EncodedRequest>"32@0:8@"HAPCharacteristic"16^@24 /* Error: Ran out of types for this method. */;
-- (void)imumPairVerifyFailureCount;
+- (void)maximumPairVerifyFailureCount;
 
 // Remaining properties
-@property(retain, nonatomic) HAPCameraBufferUploadCommandTypeWrapper *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *sessionID; // @synthesize sessionID=_sessionID;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *start; // @synthesize start=_start;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *stop; // @synthesize stop=_stop;
-@property(retain, nonatomic) HAPCameraBufferUploadStopActionWrapper *stopAction; // @synthesize stopAction=_stopAction;
-@property(readonly) Class superclass;
 
 @end
 

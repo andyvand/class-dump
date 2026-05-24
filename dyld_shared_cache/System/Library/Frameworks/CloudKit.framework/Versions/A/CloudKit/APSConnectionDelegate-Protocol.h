@@ -7,9 +7,14 @@
 @class APSConnection;
 
 @protocol APSConnectionDelegate
-- (void)lingOperationQueue:(APSConnection *)arg1;
+- (void)addPreparedOperationToBackgroundThrottlingOperationQueue:(APSConnection *)arg1;
 
 @optional
+- (void);
+- (void)i8iE;
+- (void);
+- (void);
+- (void)-;
 - (void)[;
 - (void)ng asset syncs:(APSConnection *)arg1 %@;
 - (void)sync engine metadata:(APSConnection *)arg1 %@;

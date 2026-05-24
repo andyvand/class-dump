@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);

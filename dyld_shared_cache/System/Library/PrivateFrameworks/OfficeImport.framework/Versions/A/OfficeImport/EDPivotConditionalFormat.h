@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotConditionalFormat
 {
     unsigned long long mPriority;
-    int mType;
-    int mScope;
-    EDCollection *mPivotAreas;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (int);
+- (void);
+- (id)GMS_PREWARM_OUTCOME_MATCHING_INFERENCE_EVENT;
+- (int);
 - (int);
 - (void);
 - (void);

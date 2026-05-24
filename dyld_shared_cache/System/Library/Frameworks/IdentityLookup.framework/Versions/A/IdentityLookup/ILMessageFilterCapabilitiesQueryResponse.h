@@ -9,8 +9,6 @@
 @interface ILMessageFilterCapabilitiesQueryResponse
 {
     NSArray *_transactionalSubActions;
-    NSArray *_promotionalSubActions;
-    NSString *_version;
 }
 
 + (_Bool);
@@ -19,19 +17,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)er for frequency could not be found in active list,freq,%i;
+- (id)meters,gps-leap-second,%i,gps-to-utc,%i;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void);
+- (void)1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *promotionalSubActions; // @synthesize promotionalSubActions=_promotionalSubActions;
-@property(copy, nonatomic) NSArray *transactionalSubActions; // @synthesize transactionalSubActions=_transactionalSubActions;
 @property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

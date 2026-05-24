@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     CalLocation *_calLocation;
 }
 
-+ (id);
++ (id)mediaPlaybackVolume;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)ackQueue took %f seconds;
 - (void)¡#°!ÄAùQ2'°1Â0@ù
 × ;
 

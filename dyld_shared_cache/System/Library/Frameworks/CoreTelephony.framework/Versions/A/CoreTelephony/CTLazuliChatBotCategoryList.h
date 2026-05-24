@@ -11,15 +11,15 @@
     NSArray *_categoryList;
 }
 
-+ (_Bool);
++ (_Bool)ionID:%@ date:%@ mediaTime:%f /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)ؗ;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ǐ;
 - (void);
 - (id)îÿ;
 

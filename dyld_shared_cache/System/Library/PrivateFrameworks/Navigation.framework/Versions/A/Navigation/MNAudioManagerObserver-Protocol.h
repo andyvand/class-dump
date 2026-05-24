@@ -5,5 +5,7 @@
 //
 
 @protocol MNAudioManagerObserver
+- (void)ScrollOverlayView;
+- (void);
 @end
 

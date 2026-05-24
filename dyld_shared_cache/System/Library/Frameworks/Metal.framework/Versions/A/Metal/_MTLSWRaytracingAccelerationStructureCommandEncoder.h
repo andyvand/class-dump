@@ -6,24 +6,18 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSString, _MTLCommandBuffer;
-@protocol MTLCommandBuffer, MTLComputeCommandEncoderSPI, MTLDevice;
+@protocol MTLDevice;
 
 @interface _MTLSWRaytracingAccelerationStructureCommandEncoder : _MTLObjectWithLabel
 {
     id <MTLDevice> _device;
-    _MTLCommandBuffer<MTLCommandBuffer> *_commandBuffer;
-    id <MTLComputeCommandEncoderSPI> _computeEncoder;
-    CDStruct_183601bc *_progressBins;
-    _Bool _virtualSubstreamsEnabled;
-    _Bool _virtualSubstreamOpen;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,6 +44,7 @@
 - (void);
 - (void);
 - (void);
+- (void)Rd]i;
 - (void);
 - (void);
 - (void);
@@ -61,27 +56,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)MK Client side!! ;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)c7 -1 roll execendrestore} bind def/BuildChar{1 index /Encoding get exch get1 index /BuildGlyph get exec} bind def/$SP{3 -1 roll dup /SetupSubFont get execdup setfontexch 0 0 2 index stringwidth} bind def/$SPW{4 -1 roll dup /SetupSubFont get execdup setfont3 1 roll 0 0 0 4 2 roll} bind def/$SPTW{5 -1 roll dup /SetupSubFont get execdup setfont4 1 roll neg  0 3 -1 roll 0} bind def/$RP{6 -1 roll dup /SetupSubFont get execdup setfont 5 1 rolltranslate -90 rotate 0 0 0 4 2 roll} bind def/SetupSubFont{dup /PaintType get 1 index /StrokeWidth get3 -1 roll /$SubFontArray get 4 1 roll3 index 3 index getdup /PaintType known{dup /PaintType get}{0}ifelse1 index /StrokeWidth known{1 index /StrokeWidth get}{0}ifelse3 index ne exch 4 index ne or{dup length 2 add dict begin{1 index /FID eq {pop pop}{def}ifelse}forall/StrokeWidth exch def/PaintType exch defcurrentdict enddup /CIDFontName known{/Anonymous exch /CIDFont defineresource}{/Anonymous exch definefont}ifelsedup 4 1 roll put}{ pop pop pop get}ifelse} bind def/ShowProc{systemdict /rectfill known{0 setcachelimit}if6 -1 roll dup /FontMatrix get exch /FontBBox get aload pop4 index transform 4 2 roll5 -1 roll transform 4 2 rollsetcachedevicemoveto dup type /stringtype eq {show}{glyphshow} ifelse} bind def;
 - (void);
-- (void)AccelerationStructureAtIndex:(id)arg1 inIndirectArgumentBuffer:atOffset: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ts:count: /* Error: Ran out of types for this method. */;
+- (void)uniqueIdentifierForPrimitiveAccelerationStructureAtIndex:(id)arg1 inIndirectArgumentBuffer:atOffset: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addInternalResidencySets:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

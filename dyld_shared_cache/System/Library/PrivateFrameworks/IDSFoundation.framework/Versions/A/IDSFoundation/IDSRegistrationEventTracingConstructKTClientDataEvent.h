@@ -9,14 +9,14 @@
 @interface IDSRegistrationEventTracingConstructKTClientDataEvent
 {
     void name;
-    id registerID;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)AddressArray;
-- (void)ressBookSync;
+- (id)T
+;
+- (void)_interfaceAddressArray;
+- (void)AddressBookSync;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *name;

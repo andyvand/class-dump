@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)framework/Versions/C/Foundation;
 
 @end
 

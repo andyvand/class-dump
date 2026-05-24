@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFInvertedIndex, EMFQueryResultOverrideList;
+@class EMFInvertedIndex;
 
 @interface EMFQueryEvaluator
 {
     EMFInvertedIndex *_index;
-    EMFQueryResultOverrideList *_overrideList;
 }
 
-- (void);
+- (void)DebugLabelPreviousSearchesInCompletionList;
+- (id)ShowStatusBarDisabled;
+- (id)0@"WKContentRuleList"8;
+- (id)ab prompt asking the user if they want to allow a website to show a wallet order;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)B(c@ a%;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) EMFInvertedIndex *index; // @synthesize index=_index;
-@property(retain, nonatomic) EMFQueryResultOverrideList *overrideList; // @synthesize overrideList=_overrideList;
 
 @end
 

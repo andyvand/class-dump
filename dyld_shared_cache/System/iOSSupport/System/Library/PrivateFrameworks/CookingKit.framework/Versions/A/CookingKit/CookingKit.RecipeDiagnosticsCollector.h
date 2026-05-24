@@ -8,7 +8,6 @@
 {
     id recipeStore;
     id recipeUserDataManager;
-    id unitManager;
 }
 
 @end

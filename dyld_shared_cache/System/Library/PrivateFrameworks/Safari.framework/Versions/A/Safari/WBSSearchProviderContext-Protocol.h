@@ -5,21 +5,13 @@
 //
 
 @class NSDictionary, NSString;
-@protocol WBSSearchProviderProtocol;
 
 @protocol WBSSearchProviderContext
-- (_Bool)ord;
-- (NSString *)CredentialAutoFillItem: /* Error: Ran out of types for this method. */;
-- (long long);
+- (NSDictionary *);
+- (_Bool)previouslyGeneratedAlphanumericPassword;
+- (NSString *)_isCredentialAutoFillItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *carrierTemplateParameterValues;
-@property(readonly, copy, nonatomic) NSString *countryCode;
-@property(readonly, nonatomic) id <WBSSearchProviderProtocol> defaultSeachProviderForPrivateBrowsing;
-@property(readonly, nonatomic) id <WBSSearchProviderProtocol> defaultSearchProvider;
 @property(readonly, nonatomic) long long deviceType;
-@property(readonly, nonatomic) _Bool isChinaDevice;
-@property(readonly, copy, nonatomic) NSString *systemLanguage;
-@property(readonly, copy, nonatomic) NSDictionary *templateParameterValues;
 @end
 

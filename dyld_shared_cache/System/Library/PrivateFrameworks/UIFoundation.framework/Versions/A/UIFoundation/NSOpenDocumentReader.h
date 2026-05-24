@@ -4,61 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableAttributedString, NSMutableDictionary, NSMutableParagraphStyle, NSMutableString, NSString, NSZipFileArchive;
+@class NSMutableAttributedString;
 
 @interface NSOpenDocumentReader
 {
     NSMutableAttributedString *_attrStr;
-    NSMutableDictionary *_documentAttrs;
-    NSZipFileArchive *_archive;
-    NSMutableDictionary *_styles;
-    NSMutableDictionary *_defaultStyles;
-    NSMutableDictionary *_listStyles;
-    long long _errorCode;
-    long long _parseState;
-    long long _recursionLevel;
-    long long _indexingLimit;
-    long long _thumbnailLimit;
-    NSMutableDictionary *_namespaces;
-    NSMutableDictionary *_elementValues;
-    NSMutableArray *_qualifiedAttributeNames;
-    NSMutableParagraphStyle *_curParStyle;
-    id _curLink;
-    NSMutableArray *_textLists;
-    NSMutableArray *_textListLocations;
-    NSMutableDictionary *_curListStyle;
-    NSArray *_curLists;
-    NSMutableArray *_textBlocks;
-    NSMutableArray *_textTables;
-    NSMutableArray *_textTableRows;
-    NSMutableArray *_textTableRowArrays;
-    NSMutableArray *_tabStops;
-    NSMutableDictionary *_curParAttributes;
-    NSMutableDictionary *_curAttributes;
-    NSMutableDictionary *_fontCache;
-    NSMutableString *_curString;
-    NSString *_curDocumentAttribute;
-    NSString *_curStyleName;
-    double _defaultTabInterval;
-    _Bool seenSect;
-    _Bool _includesTextListMarkers;
 }
 
 + (id);
 + (id)ing:%.1fpx;  /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)U;
 - (void);
 - (void);
 - (void);
@@ -66,18 +26,18 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)h";
+- (void);
+- (void);
 - (id);
-- (_Bool);
+- (void);
+- (void);
+- (id)ror=%d;
+- (_Bool)1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool includesTextListMarkers; // @synthesize includesTextListMarkers=_includesTextListMarkers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,14 @@
 
 #import <MediaPlayer/MPServerObjectDatabaseAssetImportRequest.h>
 
-@class NSString;
-
 @interface MPServerObjectDatabaseSINFImportRequest : MPServerObjectDatabaseAssetImportRequest
 {
     id _requestPayload;
-    NSString *_hashedPersonID;
 }
 
-- (_Bool);
+- (_Bool)D;
 - (id);
-- (void)MAPPING_MISSING__;
+- (void)__MPModelRelationshipTVEpisodeStoreAsset__MAPPING_MISSING__;
 
 @end
 

@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonProtocol;
-
 @protocol IMDaemonConnectionManaging
+- (void);
+- (void):(void (^)(NSDictionary *))arg1 @ AVAudioClient-setInputDevice;
+- (void)d Removed remote NW endpoint=%s;
+- (void)the connection;
+- (void)ange to oneToOneEnabled[%d];
+- (void (^)(NSDictionary *))er resolution=%zux%zu;
 - (void)ø;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;
-@property(nonatomic, copy) CDUnknownBlockType onSetupComplete;
-@property(nonatomic, readonly) id <IMDaemonProtocol> remoteObjectProxy;
-@property(nonatomic, readonly) id <IMDaemonProtocol> synchronousRemoteObjectProxy;
 @end
 

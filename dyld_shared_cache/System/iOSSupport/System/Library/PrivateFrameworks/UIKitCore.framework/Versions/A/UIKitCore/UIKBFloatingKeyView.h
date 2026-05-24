@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     _Bool _isUsingCustomSize;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)ice:(struct CGRect)arg1 %@ from %@;
+- (id)cord for the notice URL:(struct CGRect)arg1 %@;
+- (id)"8;
 - (void);
 - (void);
 - (void);

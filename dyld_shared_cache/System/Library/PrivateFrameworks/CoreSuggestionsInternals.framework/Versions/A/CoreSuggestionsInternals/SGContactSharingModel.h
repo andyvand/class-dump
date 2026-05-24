@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)k';
 + (long long);
 
 @end

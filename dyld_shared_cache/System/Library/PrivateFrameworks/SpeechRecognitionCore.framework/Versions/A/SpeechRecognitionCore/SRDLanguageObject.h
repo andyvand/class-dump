@@ -9,19 +9,17 @@
 @interface SRDLanguageObject
 {
     SRDTranscriptionResult *_transcriptionResult;
-    struct __RXLanguageObject *_languageObject;
 }
 
 - (id);
 - (void);
 - (void);
 - (struct __RXLanguageObject *);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property struct __RXLanguageObject *languageObject; // @synthesize languageObject=_languageObject;
 @property(retain) SRDTranscriptionResult *transcriptionResult; // @synthesize transcriptionResult=_transcriptionResult;
 
 @end

@@ -9,25 +9,24 @@
 @interface TSDStyledLayout : TSDDrawableLayout
 {
     _Bool mIsUpdatingOpacity;
-    double mDynamicOpacity;
 }
 
-- (id);
+- (id)er;
+- (struct CGRect)ER EVENT IGNORED      〔;
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect)ԅ;
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
-- (double);
+- (double)1;
 
 // Remaining properties
 @property(readonly, nonatomic) double opacity;

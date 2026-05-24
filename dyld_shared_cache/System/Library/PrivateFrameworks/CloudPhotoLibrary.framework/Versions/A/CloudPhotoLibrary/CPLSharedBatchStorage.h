@@ -6,22 +6,14 @@
 
 #import <CloudPhotoLibrary/CPLEngineTransientRepositoryBatchStorage.h>
 
-@class CPLEngineCloudCache, CPLEngineIgnoredRecords, CPLEngineRemappedRecords, CPLEngineScope, NSDate, NSMutableDictionary, NSString;
-@protocol CPLSharedRecordMerger;
+@class CPLEngineCloudCache, CPLEngineScope;
 
 @interface CPLSharedBatchStorage : CPLEngineTransientRepositoryBatchStorage
 {
     CPLEngineCloudCache *_cloudCache;
-    CPLEngineRemappedRecords *_remappedRecords;
-    CPLEngineIgnoredRecords *_ignoredRecords;
-    NSMutableDictionary *_alreadyProcessedChanges;
-    NSDate *_now;
-    _Bool _automaticallyFixBadPrivateAsset;
-    CPLEngineScope *_sharedScope;
-    id <CPLSharedRecordMerger> _merger;
 }
 
-- (_Bool);
+- (_Bool)topic;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,18 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);
@@ -54,22 +35,25 @@
 - (id);
 - (id);
 - (id);
-- (id)è;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)le to stat path at ';
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)aÂ!èGùÑ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CPLSharedRecordMerger> merger; // @synthesize merger=_merger;
 @property(readonly, nonatomic) CPLEngineScope *sharedScope; // @synthesize sharedScope=_sharedScope;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)ification"8;
 + (void);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)ctedLock;
 - (unsigned long long);
 - (id);
 

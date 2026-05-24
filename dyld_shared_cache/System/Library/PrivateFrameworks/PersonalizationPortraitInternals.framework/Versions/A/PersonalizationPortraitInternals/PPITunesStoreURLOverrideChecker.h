@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet;
-
 @interface PPITunesStoreURLOverrideChecker
 {
     CDUnknownBlockType _isAppAvailableToOpenURLBlock;
-    NSDictionary *_propertyList;
-    NSMutableDictionary *_compiledPatterns;
-    NSMutableSet *_supportedSchemes;
-    NSMutableSet *_failedSchemes;
-    NSMutableSet *_failedHosts;
 }
 
 - (id);

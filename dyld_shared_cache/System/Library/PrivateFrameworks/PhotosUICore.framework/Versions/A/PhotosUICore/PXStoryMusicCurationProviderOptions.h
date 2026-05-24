@@ -9,7 +9,6 @@
 @interface PXStoryMusicCurationProviderOptions
 {
     NSSet *_categories;
-    unsigned long long _logContext;
 }
 
 - (unsigned long long);
@@ -18,13 +17,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)ted:(struct _NSZone *)arg1;
-- (void)sible;
+- (id)setMuted:(struct _NSZone *)arg1;
+- (void)_isFeedHUDVisible;
 - (void)pÿpÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *categories; // @synthesize categories=_categories;
-@property(nonatomic) unsigned long long logContext; // @synthesize logContext=_logContext;
 
 @end
 

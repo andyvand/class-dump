@@ -11,7 +11,6 @@
 @interface ILWatchedNode : ILObserverNode
 {
     NSString *path;
-    long long fd;
 }
 
 - (void);

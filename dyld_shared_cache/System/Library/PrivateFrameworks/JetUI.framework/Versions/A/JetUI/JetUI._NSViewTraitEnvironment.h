@@ -9,8 +9,6 @@
 @interface JetUI._NSViewTraitEnvironment
 {
     id view;
-    id viewObservations;
-    JUTraitCollection *traitCollection;
 }
 
 - (void);

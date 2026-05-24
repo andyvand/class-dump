@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FMDSharedConfigurationEntry
 {
     _Bool _enabled;
-    NSString *_title;
-    NSString *_message;
-    NSString *_disclaimer;
 }
 
-- (void);
+- (void)=dd}ddddddddd}16d112;
 - (id);
 - (void);
-- (void);
+- (void)cat_dataFromDictionary:(id)arg1;
 - (id);
 - (_Bool);
 - (void);
@@ -26,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *disclaimer; // @synthesize disclaimer=_disclaimer;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, NSTimer;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CPKCategoryButton
 {
     CALayer *highlightLayer;
-    _Bool _selected;
-    unsigned long long _pageIndex;
-    unsigned long long _iconIndex;
-    NSTimer *_hoveringTimer;
-    NSString *_tooltipIdentifier;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)T;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)[/;
 - (void);
 - (void);
 - (_Bool);
@@ -39,17 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)1Â0@ù
 × ;
-- (_Bool)orDrag: /* Error: Ran out of types for this method. */;
+- (_Bool)collectionView:updateDraggingItemsForDrag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *hoveringTimer; // @synthesize hoveringTimer=_hoveringTimer;
-@property(nonatomic) unsigned long long iconIndex; // @synthesize iconIndex=_iconIndex;
 @property(nonatomic) unsigned long long pageIndex; // @synthesize pageIndex=_pageIndex;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(copy, nonatomic) NSString *tooltipIdentifier; // @synthesize tooltipIdentifier=_tooltipIdentifier;
 
 @end
 

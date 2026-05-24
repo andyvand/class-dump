@@ -5,5 +5,6 @@
 //
 
 @protocol PFMediaRequestTelemetryIntervals
+- (void);
 @end
 

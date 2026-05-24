@@ -12,7 +12,7 @@
 }
 
 + (void);
-+ (id);
++ (id)localWakingRegistrationWithIdentifier:contextualPredicate:clientIdentifier:callback: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

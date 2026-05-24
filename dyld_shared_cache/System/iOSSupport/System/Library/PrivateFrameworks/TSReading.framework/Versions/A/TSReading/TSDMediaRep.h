@@ -6,31 +6,25 @@
 
 #import <TSReading/TSDStyledRep.h>
 
-@class CALayer, CAShapeLayer, TSDFrameRep, TSDMediaInfo, TSDMediaLayout;
+@class TSDMediaInfo;
 
 @interface TSDMediaRep : TSDStyledRep
 {
     _Bool mIsZooming;
-    CALayer *mTapToReplaceLayer;
-    CAShapeLayer *mMaskLayer;
-    CAShapeLayer *mStrokeLayer;
-    CALayer *mFrameMaskLayer;
-    TSDFrameRep *mFrameRep;
-    struct CGRect mLastPictureFrameLayerRect;
 }
 
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)InternalPlayerController - Player.items synchronized to Player.itemsToPrebuffer: /* Error: Ran out of types for this method. */;
+- (id)Saving playback resume time: /* Error: Ran out of types for this method. */;
+- (void)d due to player losing speedRamp support;
+- (_Bool)playedDurationSeconds;
+- (_Bool)xp_amp_podcasts_paf;
+- (_Bool)n/e;
+- (_Bool);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id);
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize)AssetProducer;
 - (void);
 - (id);
 - (id);
@@ -44,14 +38,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (_Bool)actions;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDMediaInfo *mediaInfo;
-@property(readonly, nonatomic) TSDMediaLayout *mediaLayout;
-@property(readonly, nonatomic) _Bool shouldShowMediaReplaceUI;
 
 @end
 

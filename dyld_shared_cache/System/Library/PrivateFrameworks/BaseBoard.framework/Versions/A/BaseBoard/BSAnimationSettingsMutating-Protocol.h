@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction;
-
 @protocol BSAnimationSettingsMutating
+- (double);
+- (unsigned int)16@24@?32;
 - (struct CAFrameRateRange)
 × ;
-- (void);
+- (void)E;
 
 // Remaining properties
-@property(nonatomic) double beginTime;
 @property(nonatomic) double delay;
-@property(nonatomic) double frameInterval;
-@property(nonatomic) unsigned int highFrameRateReason;
-@property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
-@property(nonatomic) float speed;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction;
 @end
 

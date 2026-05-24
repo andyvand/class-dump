@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer;
+@class NSDate;
 
 @interface NADecayingTimer
 {
     NSDate *_referenceDate;
-    unsigned long long _minimumUnit;
-    CDUnknownBlockType _block;
-    NSTimer *_timer;
 }
 
 + (id);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) unsigned long long minimumUnit; // @synthesize minimumUnit=_minimumUnit;
 @property(readonly, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @protocol AXMDataAxisDescriptor
-- (void);
+- (_Bool);
+- (double)p_Lm;
+- (double);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
-@property(readonly, nonatomic) _Bool isCategoricalAxis;
 @property(copy, nonatomic) NSString *title;
 @end
 

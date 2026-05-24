@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SGTABPerson
 {
     NSString *uniqueId;
-    NSURL *url;
 }
 
 + (id);
@@ -18,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)4;
+- (void)PQ;
 
 // Remaining properties
-@property(readonly, copy) NSURL *URLToPerson;
 @property(readonly) NSString *uniqueId; // @synthesize uniqueId;
 
 @end

@@ -5,6 +5,8 @@
 //
 
 @protocol CSAudioSessionProviding
+- (_Bool)initWithMemberAltDSID:(id *)arg1 ephemeralAuthResults: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void)ces selectBuiltInInjectionDeviceWithUUID:(unsigned int)arg1 handlingDaemon:(float)arg2 completion:(float)arg3 ];
 @end
 

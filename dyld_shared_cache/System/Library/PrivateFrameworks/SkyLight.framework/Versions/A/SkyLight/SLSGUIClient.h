@@ -6,32 +6,25 @@
 
 #import <SkyLight/SLSDisplayControlClient.h>
 
-@class NSString, SLSXPCService;
+@class SLSXPCService;
 
 @interface SLSGUIClient : SLSDisplayControlClient
 {
     SLSXPCService *_service;
 }
 
-+ (id);
-- (int);
++ (id); ;
+- (int)gDelegate _recoverConflictedZoneShares:(id)arg1 forStore:inMonitor:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)NSError"24;
+- (unsigned long long)NSPersistentStoreMirroringOptionsKey;
+- (id)of type '%@'.;
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)!e;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SLSXPCService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

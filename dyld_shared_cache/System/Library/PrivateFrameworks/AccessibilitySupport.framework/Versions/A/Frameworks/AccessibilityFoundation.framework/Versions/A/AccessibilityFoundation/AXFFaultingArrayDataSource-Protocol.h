@@ -5,5 +5,6 @@
 //
 
 @protocol AXFFaultingArrayDataSource
+- (unsigned long long);
 @end
 

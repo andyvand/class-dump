@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRecursiveLock;
-
 __attribute__((visibility("hidden")))
 @interface NSHTTPCookieStorageInternal
 {
     struct OpaqueCFHTTPCookieStorage *storage;
-    struct OpaqueCFHTTPCookieStorage *privateStorage;
-    NSRecursiveLock *dataLock;
-    _Bool privateBrowsing;
 }
 
-- (void);
-- (void);
+- (void)between curves/lines;
+- (void)|SJ;
 - (void);
 
 @end

@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSProgress, NSString;
-
 @interface GEOMapDataSubscriptionState
 {
     struct os_unfair_lock_s _lock;
-    long long _loadState;
-    long long _downloadState;
-    NSProgress *_progress;
-    NSError *_lastError;
-    NSDictionary *_userInfo;
-    unsigned long long _dataCount;
-    unsigned long long _dataSize;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (long long);
-- (id);
+- (id)in batch %{public}@;
 - (id);
 - (void)addMapRule:(id)arg1;
 - (id)ó;
@@ -32,20 +23,7 @@
 - (long long)°ªkþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSProgress *downloadProgress;
-@property(readonly, nonatomic) long long downloadState;
-@property(readonly, nonatomic) unsigned long long downloadedDataCount;
-@property(readonly, nonatomic) unsigned long long downloadedDataSize;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSError *lastError;
 @property(readonly, nonatomic) long long loadState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 
 @end
 

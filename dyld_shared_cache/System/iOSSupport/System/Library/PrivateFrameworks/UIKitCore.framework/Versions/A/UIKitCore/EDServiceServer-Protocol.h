@@ -5,5 +5,7 @@
 //
 
 @protocol EDServiceServer
+- (void);
+- (void)ng reindex for %{public}s;
 @end
 

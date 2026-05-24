@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UNMachSendRight;
 @protocol _UNNotificationContentExtensionVendorSizingViewDelegate;
 
 @interface _UNNotificationContentExtensionVendorSizingView
 {
     _Bool _inSetFrame;
-    _UNMachSendRight *_currentFence;
-    _Bool _sendFrameChangesToHost;
-    id <_UNNotificationContentExtensionVendorSizingViewDelegate> _delegate;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)b[;;
 - (void);
-- (void);
+- (void)SNAP_DISPLAY_PREFERENCE_REVERT_TO_CUSTOM_MENU_TITLE;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UNNotificationContentExtensionVendorSizingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool sendFrameChangesToHost; // @synthesize sendFrameChangesToHost=_sendFrameChangesToHost;
 
 @end
 

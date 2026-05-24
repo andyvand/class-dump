@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface FI_TGenericPropertyValueApplicatorStub : FI_IPropertyValueApplicator
 {
     function_36f871d1 _valueApplicator;
-    function_37a5b018 _canModifyGetter;
 }
 
 - (void);
 - (void);
-- (int);
-- (function_37a5b018);
+- (int)9;
+- (function_bd37e46c);
 - (function_36f871d1);
 - (_Bool);
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) function_37a5b018 canModifyGetter; // @synthesize canModifyGetter=_canModifyGetter;
 @property(nonatomic) function_36f871d1 valueApplicator; // @synthesize valueApplicator=_valueApplicator;
 
 @end

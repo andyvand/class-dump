@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSWindowRestorationOptions;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIAggregateUnarchiver
 {
     NSArray *_unarchivers;
-    NSPersistentUIAggregateUnarchiver *_secureCoder;
-    NSWindowRestorationOptions *_restorationOptions;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)Set",C,V_statusCodes;
+- (id)e since it's not in the domain of the inURL. Cookie ignored = %@;
 - (id);
 - (_Bool);
 - (void);
@@ -26,10 +24,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (_Bool)ouchBarListViewTemplate;
+- (_Bool)NSTouchBarListViewTemplate;
 - (_Bool)(_principalMenuRef, toSet, toClear);
-- (int)wo;
-- (float)oat;
+- (int)CollectionOfTwo;
+- (float)NSAnimatableScaledFloat;
 - (void);
 - (long long)T@;
 - (_Bool)Ãÿ+Ì¼@;

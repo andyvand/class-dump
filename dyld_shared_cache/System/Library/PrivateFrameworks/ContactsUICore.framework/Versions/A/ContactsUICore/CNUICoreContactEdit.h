@@ -9,25 +9,22 @@
 @interface CNUICoreContactEdit
 {
     CNContact *_original;
-    CNContact *_modified;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (void)ontactPropertyKeys;
+- (id);
+- (void)supportedContactPropertyKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *modified; // @synthesize modified=_modified;
 @property(readonly, nonatomic) CNContact *original; // @synthesize original=_original;
-@property(readonly, nonatomic) _Bool originalAndModifiedDiffer;
 
 @end
 

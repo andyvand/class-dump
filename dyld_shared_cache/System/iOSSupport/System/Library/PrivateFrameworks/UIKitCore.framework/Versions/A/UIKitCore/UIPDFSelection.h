@@ -9,47 +9,41 @@
 @interface UIPDFSelection
 {
     UIPDFPage *_page;
-    struct CGPDFSelection *_cgSelection;
-    _Bool _dirty;
-    struct __CFString *_string;
-    long long _cachedStartIndex;
-    long long _cachedEndIndex;
-    CDStruct_627e0f85 stringRange;
 }
 
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2)4XLY4\;
 - (id);
-- (CDStruct_f9662865);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (double);
-- (id);
+- (CDStruct_f9662865)message %s matches an existing message %s at message part %ld.;
+- (unsigned long long)o defer from server bag %@;
+- (_Bool)because its expire state %d is already %d;
+- (id)(%@);
+- (id), type:(id)arg1 %d;
+- (id)ched salt %@, error %@;
+- (_Bool)for handle id %@ from record id %@ to new record id %@;
+- (void)please set them:defaults write com.apple.madrid EnableCacheDelete -bool YES /* Error: Ran out of types for this method. */;
+- (unsigned long long)Dictionary -- volume:(unsigned long long)arg1 %@ purgeableSpace:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)thread:(unsigned long long)arg1 %@;
+- (void)oup chats;
+- (id)ring;
+- (double)nse with answer:(unsigned long long)arg1 %@;
+- (id)MDIDS (%@), can't determien region -- falling through.;
 - (void);
 - (id);
 - (struct CGPDFSelection *);
-- (id);
+- (id)totalAttachmentCount;
 - (_Bool);
 - (CDStruct_912cb5d2);
 - (unsigned long long);
-- (void);
+- (void)_payloadAppBundleIdentifier;
 - (id);
-- (id);
-- (struct CGAffineTransform);
+- (id)_insertPlaceholderObjectStatement;
+- (struct CGAffineTransform)`;
 - (id);
 - (id);
 - (id)±aÐ1Â0@ù
 × ;
 - (struct CGRect)0:8@16^d24^d32 /* Error: Ran out of types for this method. */;
-- (unsigned long long)TransientHaptic;
+- (unsigned long long)_isTransientHaptic;
 - (_Bool)kipping scene restoration;
 - (id)xXþ;
 

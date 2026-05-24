@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)H;
 - (void);
 
 @end

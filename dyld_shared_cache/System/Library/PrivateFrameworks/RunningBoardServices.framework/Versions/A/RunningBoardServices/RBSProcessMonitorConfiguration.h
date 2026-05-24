@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, RBSProcessHandle, RBSProcessStateDescriptor;
+@class RBSProcessHandle;
 
 @interface RBSProcessMonitorConfiguration
 {
     RBSProcessHandle *_lastMatch;
-    struct os_unfair_lock_s _lock;
-    NSString *_desc;
-    int _clientPid;
-    unsigned int _serviceClass;
-    unsigned long long _identifier;
-    NSArray *_predicates;
-    RBSProcessStateDescriptor *_stateDescriptor;
-    unsigned long long _events;
-    CDUnknownBlockType _updateHandler;
-    CDUnknownBlockType _preventLaunchUpdateHandler;
 }
 
 + (_Bool);
-- (void);
+- (void)T8E;
 - (id);
 - (id);
 - (unsigned long long);
@@ -46,19 +36,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long events; // @synthesize events=_events;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *predicates; // @synthesize predicates=_predicates;
-@property(nonatomic) unsigned int serviceClass; // @synthesize serviceClass=_serviceClass;
-@property(copy, nonatomic) RBSProcessStateDescriptor *stateDescriptor; // @synthesize stateDescriptor=_stateDescriptor;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;
 
 @end
 

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGImage *);
 - (id);
-- (unsigned long long);
+- (unsigned long long)id=%llu;
 - (void);
 
 // Remaining properties

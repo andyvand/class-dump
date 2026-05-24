@@ -5,5 +5,15 @@
 //
 
 @protocol TSDCanvasDelegate
+
+@optional
+- (struct CGRect)lcontroller - init];
+- (_Bool)2;
+- (_Bool)Error"16;
+- (_Bool);
+- (void)-	;
+- (void)PodcastsManagedQueue;
+- (void);
+- (_Bool);
 @end
 

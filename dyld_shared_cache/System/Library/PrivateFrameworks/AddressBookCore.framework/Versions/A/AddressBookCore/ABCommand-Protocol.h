@@ -6,6 +6,9 @@
 
 @protocol ABCommand
 
+@optional
+- (_Bool);
+
 // Remaining properties
 @property(nonatomic) _Bool ignoresGuardianRestrictions;
 // Preceding property had unknown attributes: ?

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol AppStoreKit.OnDevicePersonalizationDataExports__priv_7D048109B600E8984488198FE492563E
+- (double);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *appId;
-@property(nonatomic, readonly) double onDeviceSignals;
-@property(nonatomic, readonly) NSArray *userSegments;
 @end
 

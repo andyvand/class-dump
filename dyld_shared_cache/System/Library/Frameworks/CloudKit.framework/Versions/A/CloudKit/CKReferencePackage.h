@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKPackage.h>
 
-@class CKAssetTransferOptions, CKPackageReference, NSData, NSUUID;
+@class CKPackageReference, NSUUID;
 
 @interface CKReferencePackage : CKPackage
 {
     NSUUID *_uuid;
-    NSData *_boundaryKey;
-    CKAssetTransferOptions *_assetTransferOptions;
-    CKPackageReference *_packageReference;
 }
 
 + (_Bool);

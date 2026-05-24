@@ -9,7 +9,6 @@
 @protocol _INPBSetTimerAttributeIntentResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUpdatedTimer;
 @property(retain, nonatomic) _INPBTimer *updatedTimer;
 @end
 

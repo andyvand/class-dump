@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactDataSourceSafeDelegate, CNContactFilter, CNContactFormatter, CNContactStore, CNContactStoreFilter, CNPublishingSubject, NSArray, NSDictionary, NSMutableArray, NSString;
-@protocol CNCancelable, CNContactDataSourceDelegate, CNSchedulerProvider;
+@class CNContactDataSourceSafeDelegate, CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAsyncDataSource
 {
     CNContactDataSourceSafeDelegate *_delegate;
-    CNContactFormatter *_contactFormatter;
-    CNContactStore *_store;
-    CNContactStoreFilter *_filter;
-    NSArray *_allKeysToFetchForTransientContacts;
-    id <CNCancelable> _searchCancelationToken;
-    id <CNCancelable> _reloadStreamCancelationToken;
-    id <CNSchedulerProvider> _reloadSchedulerProvider;
-    CNPublishingSubject *_reloadStream;
-    NSMutableArray *_resultingContacts;
 }
 
 - (_Bool);
@@ -28,80 +18,44 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)pn,;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)R	jA;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)correct format for interface start address;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (_Bool);
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)s;
+- (id)P;
+- (void);
 - (void)menuButton;
-- (void)p;
+- (void)allowsEditInApp;
 - (id)«}°;
 - (void)Ô ;
 - (id)Üÿ;
 - (void)Äº;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allKeysToFetchForTransientContacts; // @synthesize allKeysToFetchForTransientContacts=_allKeysToFetchForTransientContacts;
-@property(readonly, nonatomic) _Bool canReload;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFormatter",?,&,N,V_contactFormatter
-
-@property(readonly, nonatomic) NSDictionary *contactMatchInfos;
-@property(readonly, nonatomic) NSArray *contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactDataSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) CNContactFilter *effectiveFilter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFilter",?,R,N
-
-@property(copy, nonatomic) CNContactStoreFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *indexSections;
-@property(retain, nonatomic) id <CNSchedulerProvider> reloadSchedulerProvider; // @synthesize reloadSchedulerProvider=_reloadSchedulerProvider;
-@property(retain, nonatomic) CNPublishingSubject *reloadStream; // @synthesize reloadStream=_reloadStream;
-@property(retain, nonatomic) id <CNCancelable> reloadStreamCancelationToken; // @synthesize reloadStreamCancelationToken=_reloadStreamCancelationToken;
-@property(retain, nonatomic) NSMutableArray *resultingContacts; // @synthesize resultingContacts=_resultingContacts;
-@property(retain, nonatomic) id <CNCancelable> searchCancelationToken; // @synthesize searchCancelationToken=_searchCancelationToken;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) _Bool shouldReturnToAccountsAndGroupsViewAfterSearchIsCanceled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(retain, nonatomic) CNContactStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

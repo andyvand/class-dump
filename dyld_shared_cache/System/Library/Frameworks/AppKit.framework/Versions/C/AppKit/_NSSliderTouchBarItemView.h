@@ -6,48 +6,30 @@
 
 #import <AppKit/NSView.h>
 
-@class NSLayoutConstraint, NSSlider, NSSliderAccessory, NSStackView, NSString, NSUserInterfaceCompressionOptions;
-
 @interface _NSSliderTouchBarItemView : NSView
 {
     id _autounbinder;
-    NSSlider *_slider;
-    id _target;
-    SEL _action;
-    NSStackView *_layoutView;
-    NSString *_label;
-    NSSliderAccessory *_minimumValueAccessory;
-    NSSliderAccessory *_maximumValueAccessory;
-    double _valueAccessoryWidth;
-    double _minimumSliderWidth;
-    double _maximumSliderWidth;
-    _Bool _modelCollapsed;
-    _Bool _presentationCollapsed;
-    _Bool _showsValueAccessories;
-    _Bool _showsLabel;
-    NSLayoutConstraint *_minimumSliderWidthConstraint;
-    NSLayoutConstraint *_maximumSliderWidthConstraint;
 }
 
++ (id)_ZN5STube26_onqueue_notifyTubeManagerE13CFStreamError;
++ (id)LoadOriginStart;
++ (id)_ZN19URLConnectionLoader26protocolDidReceiveResponseEP14_CFURLResponse;
++ (id)_ZN19URLConnectionLoader15protocolDidFailEP9__CFError;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)CookieHeadersForTask:completionHandler:] /* Error: Ran out of types for this method. */;
++ (id)t now;
++ (_Bool)veCachedResponseForRequest:subclass should implement /* Error: Ran out of types for this method. */;
 - (double);
+- (void)@zA;
 - (void);
 - (void);
 - (void);
+- (void)irstChar:(id)arg1;
+- (void)copyNumberFromDeviceTree:(double)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)uation with error %d;
+- (void)y(0)_allocAndCopyString(const char *__single __terminated_by(0), size_t);
 - (id);
 - (double);
 - (struct CGSize);
@@ -74,12 +56,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)hostOnly;
 - (id);
 - (Class);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)`	;
+- (_Bool)one?;
+- (_Bool)h task;
 - (id);
 - (void);
 - (void);
@@ -92,7 +74,7 @@
 - (void);
 - (void);
 - (id)osure"b1"__reserved4"b2"imageAndText"b1"bottomOrLeft"b1"horizontal"b1"imageOverlaps"b1"bordered"b1"drawing"b1"lightByGray"b1"lightByBackground"b1"lightByContents"b1"changeGray"b1"changeBackground"b1"changeContents"b1"pushIn"b1};
-- (double)titleVisibilityIsHidden;
+- (double)_titleVisibilityIsHidden;
 - (double);
 - (void)ø
 ;
@@ -104,42 +86,10 @@
 - (void)Focus Navigation Loop Validation;
 - (void)owForSheet, so the move panel cannot be displayed.;
 - (void)¹óh;
-- (double);
+- (double)C;
 
 // Remaining properties
-@property(readonly) _Bool _hasStepBehaviorContext;
-@property(readonly) _Bool _labelIsHidden;
-@property(readonly) struct NSEdgeInsets _layoutEdgeInsets;
-@property(readonly) NSStackView *_layoutView; // @synthesize _layoutView;
-@property(readonly) _Bool _maxValueAccessoryIsHidden;
-@property(readonly) _Bool _minValueAccessoryIsHidden;
-@property _Bool _modelCollapsed; // @synthesize _modelCollapsed;
-@property _Bool _presentationCollapsed; // @synthesize _presentationCollapsed;
-@property _Bool _showsLabel; // @synthesize _showsLabel;
-@property _Bool _showsValueAccessories; // @synthesize _showsValueAccessories;
-@property(readonly) _Bool _sliderIsHidden;
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSUserInterfaceCompressionOptions *activeCompressionOptions;
-@property(getter=isCollapsed) _Bool collapsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double incrementValue;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property double maximumSliderWidth; // @synthesize maximumSliderWidth=_maximumSliderWidth;
-@property double maximumValue;
-@property(retain) NSSliderAccessory *maximumValueAccessory; // @synthesize maximumValueAccessory=_maximumValueAccessory;
-@property double minimumSliderWidth; // @synthesize minimumSliderWidth=_minimumSliderWidth;
-@property double minimumValue;
-@property(retain) NSSliderAccessory *minimumValueAccessory; // @synthesize minimumValueAccessory=_minimumValueAccessory;
-@property(retain) NSSlider *slider;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
 @property double value;
-@property double valueAccessoryWidth; // @synthesize valueAccessoryWidth=_valueAccessoryWidth;
 
 @end
 

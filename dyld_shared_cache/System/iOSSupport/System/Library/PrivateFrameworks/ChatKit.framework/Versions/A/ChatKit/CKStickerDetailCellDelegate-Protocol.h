@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath;
+
 @protocol CKStickerDetailCellDelegate
+- (void)prepareToPlayAttachment:(NSIndexPath *)arg1;
+- (void);
 @end
 

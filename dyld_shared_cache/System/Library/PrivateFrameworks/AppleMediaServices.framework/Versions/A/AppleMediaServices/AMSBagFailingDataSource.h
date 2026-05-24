@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSError, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagFailingDataSource
 {
     NSDate *_expirationDate;
-    NSString *_profile;
-    NSString *_profileVersion;
-    AMSProcessInfo *processInfo;
-    double _delay;
-    NSError *_error;
 }
 
 - (id);
@@ -44,33 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)l8;
 
 // Remaining properties
-@property(readonly, copy) NSString *bagLoadingPartialIdentifier;
-@property(copy) CDUnknownBlockType dataSourceChangedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(copy) CDUnknownBlockType dataSourceDataInvalidatedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property double delay; // @synthesize delay=_delay;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *descriptionExtended;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&
-
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(readonly, copy) AMSProcessInfo *processInfo; // @synthesize processInfo;
-@property(copy) NSString *profile; // @synthesize profile=_profile;
-@property(copy) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly) Class superclass;
 
 @end
 

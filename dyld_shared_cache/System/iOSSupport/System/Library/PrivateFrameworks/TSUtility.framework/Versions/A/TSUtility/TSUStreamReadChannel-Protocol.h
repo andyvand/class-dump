@@ -5,5 +5,6 @@
 //
 
 @protocol TSUStreamReadChannel
+- (void)personalizationService;
 @end
 

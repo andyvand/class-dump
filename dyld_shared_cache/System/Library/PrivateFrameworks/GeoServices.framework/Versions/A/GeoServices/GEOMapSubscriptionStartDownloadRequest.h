@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapSubscriptionStartDownloadRequest : GEOXPCRequest
 {
     NSArray *_identifiers;
-    unsigned long long _downloadMode;
 }
 
-+ (Class);
++ (Class)base64EncodedDataWithOptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)Summary;
+- (_Bool)parser:foundElementDeclarationWithName:model: /* Error: Ran out of types for this method. */;
+- (void)canBeDisplayedInPlaceSummary;
 - (void)Áæ2;
 - (id)9N8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long downloadMode; // @synthesize downloadMode=_downloadMode;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,32 +6,18 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class MSAnonymousCredential, MSCommunityID, NSData, NSDate, NSNumber;
-
 @interface MSReviewedPlace : MapsSync.MapsSyncObject
 {
     id _hasUserReviewed;
-    id _lastSuggestedReviewDate;
-    id _latitude;
-    id _longitude;
-    id _mapItemIdComparableRepresentation;
-    id _mapItemLastRefreshed;
-    id _mapItemStorage;
-    id _muid;
-    id _positionIndex;
-    id _rating;
-    id _resultProviderIdentifier;
-    id _uploadedPhotosCount;
-    id _version;
 }
 
 + (id);
 + (Class);
 - (int);
 - (void);
+- (void)ym;
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -52,33 +38,19 @@
 - (void);
 - (id);
 - (void);
-- (short);
+- (short)C])S}IiiiiSiii^{tagCONNRESULT}i}16I24;
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void)quugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/ViceroyTrace.subproj/Sources/ReportingVC.m:(id)arg1 %d:reportingConnecting:error code %d. /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (id)ies:regions:dateRanges:sortDescriptors:range:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)fetchWithSearchTerm:topLevelCategories:regions:dateRanges:sortDescriptors:range:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) MSAnonymousCredential *anonymousCredential;
-@property(nonatomic, readonly) MSCommunityID *communityID;
 @property(nonatomic) _Bool hasUserReviewed;
-@property(nonatomic, copy) NSDate *lastSuggestedReviewDate;
-@property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, copy) NSData *mapItemIdComparableRepresentation;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed;
-@property(nonatomic, copy) NSData *mapItemStorage;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, retain) NSNumber *rating;
-@property(nonatomic, retain) NSNumber *resultProviderIdentifier;
-@property(nonatomic) int uploadedPhotosCount;
-@property(nonatomic) short version;
 
 @end
 

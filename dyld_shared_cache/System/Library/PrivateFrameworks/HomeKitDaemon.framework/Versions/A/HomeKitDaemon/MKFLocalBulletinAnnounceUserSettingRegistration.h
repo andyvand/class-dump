@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/MKFLocalBulletinRegistration.h>
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface MKFLocalBulletinAnnounceUserSettingRegistration : MKFLocalBulletinRegistration
 {
@@ -18,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long announceNotificationMode; // @dynamic announceNotificationMode;
-@property(copy, nonatomic) NSUUID *homeUUID; // @dynamic homeUUID;
 
 @end
 

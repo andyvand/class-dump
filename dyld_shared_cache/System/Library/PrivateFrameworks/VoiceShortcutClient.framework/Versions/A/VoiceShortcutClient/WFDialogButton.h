@@ -9,22 +9,18 @@
 @interface WFDialogButton
 {
     NSString *_identifier;
-    NSString *_title;
-    long long _style;
 }
 
++ (id)xW{;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id){;
 + (id);
 + (_Bool);
 + (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

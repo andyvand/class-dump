@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)__cikl2metal_pre;
+- (void)CIKeystoneCorrectionCombined;
 - (void);
 - (void);
 - (void);
@@ -28,12 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)otoCompressionSessionAddAuxiliaryImage:(unsigned long long)arg1 [session:%p]  err=%d
+ /* Error: Ran out of types for this method. */;
+- (void)NSt3__114default_deleteIN14AdobeXMPCommon16IUTF8StringProxyEEE;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (_Bool);
 - (id);
@@ -41,12 +42,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)P	;
+- (_Bool)	@9;
 - (CDStruct_da2e99ad);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (id);
 - (void);
@@ -62,25 +63,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)9;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)k!;
 - (void);
 - (void);
 - (unsigned long long);
 - (id)
 × ;
-- (void)ToSet:(id)arg1;
+- (void)isEqualToSet:(id)arg1;
 - (id)%u, path = %s, attempting to create intermediate subdir '%.*s', possible sandbox issue?);
 - (void)e.;
 - (long long)solveFilter.;
-- (id)TLPixelFormatBC1_RGBA;
-- (id)l_gt2r0;
+- (id)MTLPixelFormatBC1_RGBA;
+- (id)intelgpu_kbl_gt2r0;
 - (id)àÄ;
 - (const struct MTLComputePipelineDescriptorPrivate *);
 - (id) ;

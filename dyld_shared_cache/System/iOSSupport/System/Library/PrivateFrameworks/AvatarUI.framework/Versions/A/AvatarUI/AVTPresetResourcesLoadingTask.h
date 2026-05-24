@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AVTPresetResourcesLoadingTask
 {
     _Bool canceled;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_presetResources;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)B\;
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(getter=isCanceled) _Bool canceled; // @synthesize canceled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *presetResources; // @synthesize presetResources=_presetResources;
-@property(readonly) Class superclass;
 
 @end
 

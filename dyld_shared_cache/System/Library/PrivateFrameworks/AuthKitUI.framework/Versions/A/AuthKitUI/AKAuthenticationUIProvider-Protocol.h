@@ -5,5 +5,7 @@
 //
 
 @protocol AKAuthenticationUIProvider
+- (void)Tq,R,N,V_dayOfTheWeek;
+- (void)ɞ@9(;
 @end
 

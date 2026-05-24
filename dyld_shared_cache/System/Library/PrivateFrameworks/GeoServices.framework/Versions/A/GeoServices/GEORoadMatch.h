@@ -9,28 +9,22 @@
 @interface GEORoadMatch
 {
     GEOMultiSectionFeature *_roadFeature;
-    NSString *_roadName;
-    CDStruct_071ac149 _coordinateOnRoad;
-    double _courseOnRoad;
-    double _distanceFromRoad;
-    double _roadWidth;
-    double _distanceFromJunction;
-    double _junctionRadius;
 }
 
 + (_Bool)string beginning "%@";
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)s/A/ApplePushService;
+- (void)ce;
 - (void);
 - (void);
 - (id);
+- (double)respondsToSelector: /* Error: Ran out of types for this method. */;
+- (id)_couldAffectSync;
 - (double);
-- (id);
 - (double);
-- (double);
-- (double);
+- (double)7
+;
 - (CDStruct_39925896);
 - (void);
 - (id);
@@ -41,14 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_39925896 coordinateOnRoad; // @synthesize coordinateOnRoad=_coordinateOnRoad;
-@property(nonatomic) double courseOnRoad; // @synthesize courseOnRoad=_courseOnRoad;
-@property(nonatomic) double distanceFromJunction; // @synthesize distanceFromJunction=_distanceFromJunction;
-@property(nonatomic) double distanceFromRoad; // @synthesize distanceFromRoad=_distanceFromRoad;
-@property(nonatomic) double junctionRadius; // @synthesize junctionRadius=_junctionRadius;
-@property(readonly, nonatomic) GEOMultiSectionFeature *roadFeature; // @synthesize roadFeature=_roadFeature;
 @property(copy, nonatomic) NSString *roadName; // @synthesize roadName=_roadName;
-@property(nonatomic) double roadWidth; // @synthesize roadWidth=_roadWidth;
 
 @end
 

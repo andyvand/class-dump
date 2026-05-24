@@ -10,11 +10,11 @@
 
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)onEnded:(id)arg1 ];
 - (id);
 - (id);
 

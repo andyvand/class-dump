@@ -7,9 +7,6 @@
 @interface AWDIDSWiProxDidDisconnectFromPeer
 {
     unsigned long long _duration;
-    unsigned long long _resultCode;
-    unsigned long long _timestamp;
-    CDStruct_8322d489 _has;
 }
 
 - (_Bool);
@@ -25,22 +22,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void)etHasNData:(_Bool)arg1;
-- (unsigned long long)BssSteering;
+- (void)setHasNData:(_Bool)arg1;
+- (unsigned long long)_selfSidecarBssSteering;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasResultCode;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

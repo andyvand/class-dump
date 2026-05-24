@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id).;
+- (id)either telephony roaming, Junk Call, or Emergency or not a U+1 audio call from a contact;
 - (id);
 - (_Bool);
 - (id)const WebCore:(id)arg1:CryptoAlgorithmParameters] /* Error: Ran out of types for this method. */;

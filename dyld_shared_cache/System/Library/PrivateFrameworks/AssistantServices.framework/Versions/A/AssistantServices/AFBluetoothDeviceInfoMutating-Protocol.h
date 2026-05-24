@@ -7,6 +7,8 @@
 @class NSUUID;
 
 @protocol AFBluetoothDeviceInfoMutating
+- (void);
+- (void);
 - (void)ssion state;
 - (void)Localization outputVoiceDescriptorForOutputLanguageCode:(NSUUID *)arg1 voiceName:] /* Error: Ran out of types for this method. */;
 @end

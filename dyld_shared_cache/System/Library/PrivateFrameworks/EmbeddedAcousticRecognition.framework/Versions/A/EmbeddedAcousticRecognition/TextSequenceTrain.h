@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TextSequenceTrain
 {
     NSMutableArray *_sequence;
-    NSMutableArray *_target;
-    NSMutableArray *_mask;
 }
 
+- (void);
 - (void);
-- (void);
+- (id)ted mask algorithm;
 - (id);
 - (id);
-- (id);
-- (id)_name;
+- (id)pronguess_paramset_name;
 - (id)!Hà!;
 - (void)3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

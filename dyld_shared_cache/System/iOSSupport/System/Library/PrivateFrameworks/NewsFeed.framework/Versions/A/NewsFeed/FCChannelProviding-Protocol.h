@@ -7,18 +7,13 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
+- (NSString *);
+- (_Bool);
+- (NSArray *)webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
 - (NSString *){~Ðd\|ÄHÔpÄ ô£¤`¥;
 - (NSArray *)n content marker with no parent, cursor=%@;
-- (NSString *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *backIssuesListID;
-@property(readonly, nonatomic) unsigned long long channelType;
-@property(readonly, copy, nonatomic) NSArray *currentIssueIDs;
-@property(readonly, copy, nonatomic) NSString *defaultSectionID;
-@property(readonly, nonatomic) _Bool isWhitelisted;
-@property(readonly, copy, nonatomic) NSArray *recentIssueIDs;
 @property(readonly, copy, nonatomic) NSArray *sectionIDs;
-@property(readonly, nonatomic) _Bool supportsNotifications;
 @end
 

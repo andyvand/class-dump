@@ -14,10 +14,11 @@
 + (id);
 - (unsigned char);
 - (unsigned char);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct __CFDictionary *);
+- (_Bool)A;
+- (_Bool)metryForIndexWithOptions failed
+;
+- (void)kVTPixelTransferNotSupportedErr;
+- (struct __CFDictionary *)kCGImageSourceThumbnailMaxPixelSize;
 - (id);
 - (void);
 - (unsigned char);
@@ -26,18 +27,18 @@
 - (void);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (void);
 - (unsigned char);
-- (id);
+- (id)AXWindowMiniaturized;
 - (id);
 - (unsigned char);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)u;
 - (id);
 - (unsigned char);
 - (unsigned char);
@@ -52,7 +53,7 @@
 - (double);
 - (id);
 - (struct __CFArray *);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
@@ -64,19 +65,19 @@
 - (id);
 - (_Bool);
 - (unsigned char);
-- (unsigned char);
-- (unsigned char);
-- (unsigned char);
+- (unsigned char)MTL4CommandAllocatorDescriptor;
+- (unsigned char)_MTLIndirectDispatchThreadgroupsArguments;
+- (unsigned char)Short4Normalized;
 - (void);
 - (id);
 - (unsigned char);
 - (id);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *));
 - (unsigned char);
 - (unsigned char);
 - (_Bool);
-- (int);
-- (unsigned char)ngRouteVariables;
+- (int)ient when fetching entitlements;
+- (unsigned char)CLRacingRouteVariables;
 - (unsigned char)ng course,reason,at intersection,fabsCourseDifference,%{public}.1lf;
 
 @end

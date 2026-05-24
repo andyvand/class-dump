@@ -18,20 +18,16 @@
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-- (id);
++ (void)ismatched data versions (%u != %u) cannot deserialize;
++ (void)Unable to create json from object:%@ /* Error: Ran out of types for this method. */;
++ (void)Mismatched data versions (%u != %u) cannot deserialize;
++ (void)convert BMLastAlarmEventType v2 enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)Event:tried to initialize with a non-_DKPREvent proto /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *shortDescriptionText; // @dynamic shortDescriptionText;
 
 @end
 

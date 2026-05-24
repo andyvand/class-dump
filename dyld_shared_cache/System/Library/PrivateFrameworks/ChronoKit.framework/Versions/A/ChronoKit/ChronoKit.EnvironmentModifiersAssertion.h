@@ -7,9 +7,6 @@
 @interface ChronoKit.EnvironmentModifiersAssertion
 {
     id _lock;
-    id _lock_invalidationBlock;
-    id _lock_invalidated;
-    id _lock_environmentModifiers;
 }
 
 @end

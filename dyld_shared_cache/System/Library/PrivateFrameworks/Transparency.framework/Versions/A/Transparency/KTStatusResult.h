@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary;
-
 @interface KTStatusResult
 {
     _Bool _optInState;
-    _Bool _pendingStatusChanges;
-    unsigned long long _optIn;
-    unsigned long long _accountStatus;
-    unsigned long long _systemStatus;
-    unsigned long long _selfStatus;
-    unsigned long long _idsAccountStatus;
-    unsigned long long _serverOptIn;
-    NSArray *_recentFailedEventIds;
-    NSDate *_expectedSelfResolutionDate;
 }
 
 + (_Bool);
@@ -37,11 +26,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)",&,V_destinationPath;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -49,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long accountStatus; // @synthesize accountStatus=_accountStatus;
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property(retain) NSDate *expectedSelfResolutionDate; // @synthesize expectedSelfResolutionDate=_expectedSelfResolutionDate;
-@property unsigned long long idsAccountStatus; // @synthesize idsAccountStatus=_idsAccountStatus;
 @property unsigned long long optIn; // @synthesize optIn=_optIn;
-@property _Bool optInState; // @synthesize optInState=_optInState;
-@property _Bool pendingStatusChanges; // @synthesize pendingStatusChanges=_pendingStatusChanges;
-@property(retain) NSArray *recentFailedEventIds; // @synthesize recentFailedEventIds=_recentFailedEventIds;
-@property unsigned long long selfStatus; // @synthesize selfStatus=_selfStatus;
-@property unsigned long long serverOptIn; // @synthesize serverOptIn=_serverOptIn;
-@property unsigned long long systemStatus; // @synthesize systemStatus=_systemStatus;
 
 @end
 

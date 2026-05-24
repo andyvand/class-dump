@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudSyncingObject, NSDate;
-
 @interface ICCloudState
 {
 }
 
-- (_Bool);
+- (_Bool)fetchMissingOrOutdatedImageClassificationSummaryAttachmentIDsInContext:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ICCloudSyncingObject *cloudSyncingObject; // @dynamic cloudSyncingObject;
-@property(nonatomic) long long currentLocalVersion; // @dynamic currentLocalVersion;
 @property(nonatomic) _Bool inCloud; // @dynamic inCloud;
-@property(nonatomic) long long latestVersionSyncedToCloud; // @dynamic latestVersionSyncedToCloud;
-@property(retain, nonatomic) NSDate *localVersionDate; // @dynamic localVersionDate;
 
 @end
 

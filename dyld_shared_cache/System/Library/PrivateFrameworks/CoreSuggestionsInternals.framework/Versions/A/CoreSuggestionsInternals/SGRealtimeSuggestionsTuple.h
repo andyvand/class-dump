@@ -9,23 +9,17 @@
 @interface SGRealtimeSuggestionsTuple
 {
     NSArray *_contacts;
-    NSArray *_events;
-    NSArray *_reminders;
-    NSArray *_deliveries;
-    NSArray *_invalidatedIdentifiers;
-    NSArray *_walletOrders;
-    NSArray *_walletPasses;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)__swift5_mpenum;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_credentialPromptViewController;
+- (id)_commentGadgets;
 - (void);
 - (id);
 - (unsigned long long);
@@ -39,12 +33,6 @@
 
 // Remaining properties
 @property(retain) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain) NSArray *deliveries; // @synthesize deliveries=_deliveries;
-@property(retain) NSArray *events; // @synthesize events=_events;
-@property(retain) NSArray *invalidatedIdentifiers; // @synthesize invalidatedIdentifiers=_invalidatedIdentifiers;
-@property(retain) NSArray *reminders; // @synthesize reminders=_reminders;
-@property(retain) NSArray *walletOrders; // @synthesize walletOrders=_walletOrders;
-@property(retain) NSArray *walletPasses; // @synthesize walletPasses=_walletPasses;
 
 @end
 

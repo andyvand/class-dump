@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSDictionary, PXStoryBufferingController, PXStoryModel, PXStoryViewModel;
+@class PXStoryModel;
 
 @interface PXStoryViewBufferingController : PXStoryController
 {
     _Bool _isActive;
-    _Bool _wantsBufferingHUDVisible;
-    _Bool _didShowBufferingHUDAutomatically;
-    _Bool _originalIsHUDVisible;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_model;
-    PXStoryBufferingController *_bufferingController;
-    long long _originalHUDType;
 }
 
 - (_Bool);
@@ -42,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,26 +44,15 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id)tosaveName: /* Error: Ran out of types for this method. */;
+- (_Bool)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24{CGSize=dd}32;
+- (id)setAutosaveName: /* Error: Ran out of types for this method. */;
 - (void)peSongResourceProducer init];
 - (void)Tzÿ|zÿ;
 - (void);
-- (id)r_lock_s;
+- (id)os_unfair_lock_s;
 
 // Remaining properties
-@property(retain, nonatomic) PXStoryBufferingController *bufferingController; // @synthesize bufferingController=_bufferingController;
-@property(nonatomic) _Bool didShowBufferingHUDAutomatically; // @synthesize didShowBufferingHUDAutomatically=_didShowBufferingHUDAutomatically;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) double lastCriticalBufferingDuration;
-@property(readonly, nonatomic) double lastNoncriticalBufferingDuration;
 @property(retain, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(nonatomic) long long originalHUDType; // @synthesize originalHUDType=_originalHUDType;
-@property(nonatomic) _Bool originalIsHUDVisible; // @synthesize originalIsHUDVisible=_originalIsHUDVisible;
-@property(readonly, nonatomic) double totalBufferingTimeInterval;
-@property(readonly, nonatomic) NSDictionary *totalBufferingTimeIntervalsPerReason;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(nonatomic) _Bool wantsBufferingHUDVisible; // @synthesize wantsBufferingHUDVisible=_wantsBufferingHUDVisible;
 
 @end
 

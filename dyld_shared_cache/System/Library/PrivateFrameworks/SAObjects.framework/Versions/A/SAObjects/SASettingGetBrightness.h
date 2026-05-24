@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)directories;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSUAFAssetManager, NSHashTable, NSObject;
+@class NSHashTable, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerAssetHandler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CSUAFAssetManager *_uafAssetManager;
-    NSHashTable *_observers;
 }
 
 + (id);
@@ -21,13 +19,13 @@
 - (void);
 - (void);
 - (id);
+- (void)7;
 - (void);
-- (void);
-- (void);
+- (void)printFromCSUBuffer:(id)arg1 originatingRequestSpecifier:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)erPacket;
+- (void)inputRecordingFramesPerPacket;
 - (id)is deprecated;
 - (id)ck_invoke;
 - (void)le to replace current item of player.;
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSUAFAssetManager *uafAssetManager; // @synthesize uafAssetManager=_uafAssetManager;
 
 @end
 

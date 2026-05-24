@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MPCModelRadioPersonalizationResponse
 {
     MPStoreLibraryPersonalizationResponse *_personalizationResponse;
-    MPSectionedCollection *_radioStationTracks;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) MPSectionedCollection *radioStationTracks; // @synthesize radioStationTracks=_radioStationTracks;
-@property(readonly, copy, nonatomic) MPSectionedCollection *results; // @dynamic results;
 
 @end
 

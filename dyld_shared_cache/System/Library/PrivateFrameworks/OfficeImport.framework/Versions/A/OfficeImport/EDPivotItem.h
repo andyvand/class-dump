@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotItem
 {
     unsigned int mRepeatedItemCounts;
-    int mType;
-    EDCollection *mItemIndexes;
 }
 
 + (id);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)ted type of aggregated!;
 - (int);
 - (void);
 - (void);

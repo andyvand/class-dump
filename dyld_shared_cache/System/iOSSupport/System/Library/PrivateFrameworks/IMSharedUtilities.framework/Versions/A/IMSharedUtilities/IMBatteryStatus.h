@@ -17,7 +17,6 @@
 - (void)4G;
 
 // Remaining properties
-@property(readonly, getter=isCharging) _Bool charging;
 @property(nonatomic) __weak id <IMBatteryStatusTestDelegate> testDelegate; // @synthesize testDelegate=_testDelegate;
 
 @end

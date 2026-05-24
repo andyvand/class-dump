@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 + (id)*@;
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)!!;
+- (void)essages with guids:(id)arg1 %@;
 - (id);
 - (void)óáþØÈâb;
 

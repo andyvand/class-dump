@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, TSUReadChannel;
+@protocol TSUReadChannel;
 
 __attribute__((visibility("hidden")))
 @interface TSUReadChannelInputStreamAdapter
 {
     id <TSUReadChannel> _readChannel;
-    NSObject<OS_dispatch_data> *_leftoverData;
-    long long _offset;
 }
 
 - (unsigned long long);
@@ -22,20 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ctionary",R,C,N,V_escrowRecord;
 - (void)5$1Â0@ù
 × ;
 - (void)matString:currencyCode:] /* Error: Ran out of types for this method. */;
 - (long long)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

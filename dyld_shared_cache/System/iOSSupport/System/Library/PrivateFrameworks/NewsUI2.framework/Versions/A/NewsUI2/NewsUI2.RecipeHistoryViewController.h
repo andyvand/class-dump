@@ -7,10 +7,6 @@
 @interface NewsUI2.RecipeHistoryViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id titleViewProvider;
-    id $__lazy_storage_$_clearButton;
 }
 
 - (void);

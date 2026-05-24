@@ -10,16 +10,14 @@
 @interface CRKConcreteNetworkEndpoint
 {
     NSString *_IPAddress;
-    NSObject<OS_nw_endpoint> *_underlyingEndpoint;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *IPAddress; // @synthesize IPAddress=_IPAddress;
 @property(readonly, nonatomic) NSObject<OS_nw_endpoint> *underlyingEndpoint; // @synthesize underlyingEndpoint=_underlyingEndpoint;
 
 @end

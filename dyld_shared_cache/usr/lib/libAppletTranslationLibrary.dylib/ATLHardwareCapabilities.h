@@ -7,7 +7,6 @@
 @interface ATLHardwareCapabilities
 {
     _Bool _supportsTypeAExpress;
-    _Bool _supportsQuickModeToGenericAFallback;
 }
 
 - (_Bool);
@@ -16,7 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool supportsQuickModeToGenericAFallback; // @synthesize supportsQuickModeToGenericAFallback=_supportsQuickModeToGenericAFallback;
 @property _Bool supportsTypeAExpress; // @synthesize supportsTypeAExpress=_supportsTypeAExpress;
 
 @end

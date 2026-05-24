@@ -12,7 +12,6 @@
 @interface TSKLowPriorityThreadDispatcher : TSKThreadDispatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _suspendCount;
 }
 
 + (id);
@@ -21,9 +20,9 @@
 - (id);
 - (unsigned long long);
 - (oneway void);
+- (id)C;
 - (id);
-- (id);
-- (void);
+- (void)sizeFromBannerContentSizeIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

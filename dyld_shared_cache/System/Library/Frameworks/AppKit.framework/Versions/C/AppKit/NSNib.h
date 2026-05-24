@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSData, NSString;
+@class NSData;
 
 @interface NSNib
 {
     NSData *_data;
-    NSArray *_images;
-    NSArray *_sounds;
-    NSBundle *_bundle;
-    struct _NSNibFlags _flags;
-    NSString *_path;
-    id _reusableDecoder;
 }
 
 + (_Bool);

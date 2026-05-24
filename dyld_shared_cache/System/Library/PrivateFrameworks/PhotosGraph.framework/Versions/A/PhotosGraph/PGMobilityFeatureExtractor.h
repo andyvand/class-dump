@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)paragraphTokenizerWithString:(long long)arg1 locale:(id *)arg2;
 - (id);
 
 @end

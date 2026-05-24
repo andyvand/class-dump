@@ -9,13 +9,11 @@
 @interface CHSynthesisModelHashes
 {
     NSString *_latin;
-    NSString *_zhJa;
-    NSString *_ko;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)_imagePropertiesPriv;
+- (id));
 - (void);
 - (void);
 - (id);
@@ -29,9 +27,7 @@
 - (void)è;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ko; // @synthesize ko=_ko;
 @property(readonly, nonatomic) NSString *latin; // @synthesize latin=_latin;
-@property(readonly, nonatomic) NSString *zhJa; // @synthesize zhJa=_zhJa;
 
 @end
 

@@ -6,53 +6,43 @@
 
 #import <ChatKit/CKMediaObject.h>
 
-@class CKImageData, IMSticker, NSNumber, NSString, NSURL, PHLivePhoto, UIImage;
+@class CKImageData;
 
 @interface CKImageMediaObject : CKMediaObject
 {
     CKImageData *_imageData;
-    CKImageData *_backgroundImageData;
-    NSURL *_appendedBundleURL;
-    struct CGSize _originalSize;
-    NSString *_irisVideoPath;
-    NSNumber *_isIrisAsset;
-    _Bool _isSticker;
-    _Bool _isAdaptiveImageGlyph;
-    PHLivePhoto *_livePhoto;
-    UIImage *_thumbnail;
-    IMSticker *_sticker;
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)Selection;
 + (Class);
 + (id);
 + (_Bool);
-+ (_Bool)eCategoryDependentConstraints;
-- (_Bool);
-- (_Bool);
++ (_Bool)contentSizeCategoryDependentConstraints;
+- (_Bool)ic_isPublicShare;
+- (_Bool)ascendingTimelineSectionsForNoteObjectIds:dates:referenceDate:direction: /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)o;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)e;
+- (id)g;
+- (id)o;
+- (_Bool)ject"8Q16^B24;
+- (_Bool)mentions are only viewable on iOS 14.5, iPadOS 14.5, and macOS 11.3 and later. Your devices that need upgrading;
+- (id)ration initWithThumbnailType:uniqueKey:associatedObject:associatedObjectIdentifier:associatedObjectTitle:accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)e who currently have access to these may lose it.;
+- (id)s shared notes and folders. People who currently have access to these may lose it.;
+- (id)attachmentbrick_list_loading_web;
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool)";
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -62,7 +52,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)_;
 - (struct CGSize);
 - (id)y=]y¸¢\AAyà§\yAAyAG_L¨\AGtGG_ùy\y=]yAHyAAyAI_AgItGGGÍ\y¦\SgGGtG¼¬\G_½ÛAFyAgAyQ1]yAG±ÛG_AZyAG­ÛGAZyAGªÛGAZyAG§ÛGAZyAG¤ÛGAZyAG¡ÛGAZyAGÛGtGAWGAFyAgZyAGÛGAWGAFyAgAyAZyAGÛG_A19_A19_A19_A19_A19_A19_tGAWGiÛtGG_Qo__Qo__5]y_5]y_ú/]yyt¢9]yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_Ò;]yAGú¥\GQo__p;]yAByAC9]yo;]yÙ:]y39]yADyAeFyAgAyAZyAGíÚG_AZyAGéÚGAZyAGæÚGtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_tG /* Error: Ran out of types for this method. */;
 - (id)luginCounts.swift;
@@ -71,14 +61,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;
-@property(readonly, nonatomic) CKImageData *imageData;
-@property(readonly, nonatomic) _Bool isAdaptiveImageGlyph; // @synthesize isAdaptiveImageGlyph=_isAdaptiveImageGlyph;
-@property(readonly, nonatomic) _Bool isIrisAsset;
-@property(readonly, nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(readonly, nonatomic) PHLivePhoto *livePhoto; // @synthesize livePhoto=_livePhoto;
-@property(readonly, nonatomic, getter=isScreenshot) _Bool screenshot;
-@property(retain, nonatomic) IMSticker *sticker; // @synthesize sticker=_sticker;
-@property(retain, nonatomic) UIImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

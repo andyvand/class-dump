@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface POMMESSchemaPOMMESOnDeviceMetadata : SISchemaInstrumentationMessage
 {
     NSString *_onScreenAppBundleIdDomain;
-    NSString *_onScreenUriDomain;
-    _Bool _hasOnScreenAppBundleIdDomain;
-    _Bool _hasOnScreenUriDomain;
 }
 
 - (void);
@@ -22,27 +19,23 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)nal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPushCacheDeleteUpdateRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)read originator associated messages without thread_originator_guid with associated message GUID:(id)arg1 %@;
 - (id);
 - (id);
-- (id)e;
+- (id)_preSearchTime;
 - (id),V_hasVersion;
-- (void)ADES;
+- (void)FLOWHOMEKITSERVICETYPE_SHADES;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOnScreenAppBundleIdDomain; // @synthesize hasOnScreenAppBundleIdDomain=_hasOnScreenAppBundleIdDomain;
-@property(nonatomic) _Bool hasOnScreenUriDomain; // @synthesize hasOnScreenUriDomain=_hasOnScreenUriDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *onScreenAppBundleIdDomain; // @synthesize onScreenAppBundleIdDomain=_onScreenAppBundleIdDomain;
-@property(copy, nonatomic) NSString *onScreenUriDomain; // @synthesize onScreenUriDomain=_onScreenUriDomain;
 
 @end
 

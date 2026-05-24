@@ -13,8 +13,8 @@
 - (struct __CFString *);
 - (int);
 - (struct __CFDate *);
-- (id);
-- (id)e;
+- (id)7P;
+- (id)free;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageP3
 {
     unsigned int _cmmAssetOffset;
-    unsigned int _cmmState;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int cmmAssetOffset:1;
-        unsigned int cmmState:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +18,7 @@
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void)P;
 - (unsigned int);
 - (id);
 - (void);
@@ -37,23 +27,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)@;
 - (id);
 - (id);
 - (_Bool);
-- (id)creenEffectsEnabled;
-- (void)utePaddingForStorage;
+- (id)wolfFullScreenEffectsEnabled;
+- (void)SecMPComputePaddingForStorage;
 
 // Remaining properties
-@property(nonatomic) unsigned int cmmAssetOffset; // @synthesize cmmAssetOffset=_cmmAssetOffset;
-@property(nonatomic) unsigned int cmmState; // @synthesize cmmState=_cmmState;
-@property(nonatomic) _Bool hasCmmAssetOffset;
-@property(nonatomic) _Bool hasCmmState;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

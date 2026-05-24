@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet, PGCurationOptions, PGDejunkerDeduperOptions, PGTitleGenerator;
+@protocol PGChapterTitleGeneratorProtocol, PGTriggeredMemoryProtocol;
+
 @protocol PGMemoryEnrichmentProtocol
+- (NSSet *);
+- (PGTitleGenerator *);
+- (PGDejunkerDeduperOptions *)sharedWiFiClient;
+- (PGCurationOptions *)defaultsValueForKey:(NSSet *)arg1;
+- (id <PGChapterTitleGeneratorProtocol>)_shouldProcessSharedFocusedElementRowChange:(id <PGTriggeredMemoryProtocol>)arg1;
 @end
 

@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIPassthroughGateGestureRecognizer, _UIPassthroughScrollGestureRecognizer;
-@protocol _UIPassthroughScrollInteractionDelegate;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPassthroughScrollInteraction
 {
     _Bool _recognizeOnPrimaryButtonDown;
-    _Bool _recognizeOnSecondaryButtonDown;
-    _Bool _eatsTouches;
-    _Bool _configuredForInactiveInteractionEventsOnly;
-    UIView *_view;
-    UIView *_touchFallbackView;
-    _UIPassthroughScrollGestureRecognizer *_passthroughScrollGestureRecognizer;
-    _UIPassthroughGateGestureRecognizer *_gestureGate;
-    id <_UIPassthroughScrollInteractionDelegate> _delegate;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)R,N,GisAirPlayVideoActive;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -30,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)aQuery",&,N,V_mQueryToLoad;
+- (id)ing for MPModelPropertyAlbumIsPinned;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,20 +32,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)PinchInteractiveScale:(_Bool)arg1;
-- (void)nCollectionView: /* Error: Ran out of types for this method. */;
-- (void)iew:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
-- (void)meWithDismissalHandler:(_Bool)arg1;
-- (_Bool)ionElement;
-- (id)setUpdateSearchTextOnDidSelectSuggestion: /* Error: Ran out of types for this method. */;
-- (_Bool)yNavBarDidEnd:(id)arg1;
-- (_Bool):(id)arg1 toState:(id)arg2;
+- (void)setPinchInteractiveScale:(_Bool)arg1;
+- (void)numberOfSectionsInCollectionView: /* Error: Ran out of types for this method. */;
+- (void)newViewRecordForView:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)hideAfterMinimumUptimeWithDismissalHandler:(_Bool)arg1;
+- (_Bool)accessibilityPreviousTextNavigationElement;
+- (id)_setUpdateSearchTextOnDidSelectSuggestion: /* Error: Ran out of types for this method. */;
+- (_Bool)_dismissalTransitionWithSearchBarNotHostedByNavBarDidEnd:(id)arg1;
+- (_Bool)_canTransitionFromState:(id)arg1 toState:(id)arg2;
 - (id);
 - (_Bool);
-- (_Bool)dScrollEvent;
-- (void)yCorrectTextContainerSize:(_Bool)arg1;
+- (_Bool)sendScrollEvent;
+- (void)_applyCorrectTextContainerSize:(_Bool)arg1;
 - (void)¨0ÿÿØ0ÿÿ1ÿÿ(1ÿÿH1ÿÿt1ÿÿ1ÿÿø1ÿÿ42ÿÿ2ÿÿÀ2ÿÿ3ÿÿH3ÿÿ`3ÿÿ3ÿÿ¤3ÿÿÐ3ÿÿ4ÿÿ 4ÿÿ5ÿÿ<5ÿÿd5ÿÿ¤5ÿÿ¼5ÿÿà5ÿÿ6ÿÿ$6ÿÿ<6ÿÿ\6ÿÿ6ÿÿ6ÿÿÄ6ÿÿÜ6ÿÿô6ÿÿ7ÿÿ$7ÿÿ7ÿÿ¨7ÿÿÈ7ÿÿø7ÿÿ8ÿÿT8ÿÿ8ÿÿ¼8ÿÿÔ8ÿÿì8ÿÿ9ÿÿT9ÿÿà9ÿÿø9ÿÿ:(id)arg1 ÿÿ0:ÿÿP:ÿÿÀ:ÿÿà:ÿÿp;ÿÿ°;ÿÿÈ;ÿÿè;ÿÿ0<ÿÿx<ÿÿ <ÿÿà<ÿÿ=ÿÿX=ÿÿx=ÿÿ=ÿÿ°=ÿÿÐ=ÿÿ8>ÿÿ`>ÿÿx>ÿÿ>ÿÿÈ>ÿÿ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)titleRenamerSession;
 - (void)in a binder which doesn't own it;
 - (void)t __strong, const BOOL);
 - (void);
@@ -65,23 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)&ª±;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIPassthroughGateGestureRecognizer *_gestureGate; // @synthesize _gestureGate;
-@property(readonly, nonatomic) _UIPassthroughScrollGestureRecognizer *_passthroughScrollGestureRecognizer; // @synthesize _passthroughScrollGestureRecognizer;
 @property(readonly, nonatomic) UIView *_touchFallbackView; // @synthesize _touchFallbackView;
-@property(nonatomic) _Bool configuredForInactiveInteractionEventsOnly; // @synthesize configuredForInactiveInteractionEventsOnly=_configuredForInactiveInteractionEventsOnly;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIPassthroughScrollInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool eatsTouches; // @synthesize eatsTouches=_eatsTouches;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hitTestsAsOpaque;
-@property(nonatomic) _Bool recognizeOnPrimaryButtonDown; // @synthesize recognizeOnPrimaryButtonDown=_recognizeOnPrimaryButtonDown;
-@property(nonatomic) _Bool recognizeOnSecondaryButtonDown; // @synthesize recognizeOnSecondaryButtonDown=_recognizeOnSecondaryButtonDown;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

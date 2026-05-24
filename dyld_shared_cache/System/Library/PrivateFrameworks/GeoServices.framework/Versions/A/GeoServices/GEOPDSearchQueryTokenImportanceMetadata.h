@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)_routeCameraInputInfos"b1"read_routeDescriptions"b1"read_routeLabelDetailText"b1"read_routeLineStyleInfos"b1"read_routePlanningDescription"b1"read_segmentNameInfos"b1"read_startingRouteInstructions"b1"read_stepGroups"b1"read_steps"b1"read_trafficColorInfos"b1"read_trafficDescriptionLong"b1"read_trafficDescription"b1"read_unpackedLatLngVertices"b1"read_updateLocations"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)NeuralRewriteMetadata;
+- (id)_queryNeuralRewriteMetadata;
 - (id)tn;
 - (void)_í(I@;
 

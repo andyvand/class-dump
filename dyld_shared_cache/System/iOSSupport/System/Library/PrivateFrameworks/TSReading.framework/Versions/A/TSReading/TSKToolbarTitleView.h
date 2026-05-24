@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface TSKToolbarTitleView
 {
     NSString *_title;
-    UIColor *_titleColor;
 }
 
-- (void);
+- (void)(=;
 - (id);
-- (void);
+- (void)B;
 - (id);
-- (void)llColor;
+- (void)fillColor;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UIColor *titleColor; // @synthesize titleColor=_titleColor;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (void);
+- (void)Er;
 - (void);
 - (id);
 - (id);

@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder, PGSocialGroupPersistenceActions;
+@class PGGraphBuilder, PGSocialGroupPersistenceActions;
 
 @interface PGGraphIngestSocialGroupsProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGSocialGroupPersistenceActions *_persistenceActions;
 }
 
-+ (unsigned long long);
++ (unsigned long long)tySecureTap;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)startObservingApplications;
+- (void)inputMarkingSession:(_Bool)arg1 contentDeleted:(id)arg2;
+- (id)applicationControllerWindowDidResize:windowElement: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)%s Attempted to register class %@ with only an applicationIdentifier %@ and predicate. This is not supported.;
+- (id)1;
 - (void)rLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Data Model Enrichment/PGGraphPhotosHighlightEnrichmentProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) PGSocialGroupPersistenceActions *persistenceActions; // @synthesize persistenceActions=_persistenceActions;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSpatialEventLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _categoryFilters;
-    GEOLatLng *_center;
-    struct GEOPDTimeRange _timeRange;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _count;
-    int _radius;
-    struct {
-        unsigned int has_timeRange:1;
-        unsigned int has_count:1;
-        unsigned int has_radius:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_categoryFilters:1;
-        unsigned int read_center:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_path;
+- (id)gnizedText:correctedText:selectedAlternatives:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"GEOUserReportLocationDetails";
-- (id)resourceType;
+- (id)_resourceType;
 - (id)DÌ;
 - (void)­§V_]I@;
 

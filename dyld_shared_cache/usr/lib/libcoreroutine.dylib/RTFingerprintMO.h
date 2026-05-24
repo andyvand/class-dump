@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSSet, NSUUID;
+@class NSUUID;
 
 @interface RTFingerprintMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)createIdentity:(id)arg1 complete:(id)arg2;
++ (id)IdMSPasswordVerifierIterations;
++ (id)LIGHTWEIGHT;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSNumber *settledState; // @dynamic settledState;
-@property(copy, nonatomic) NSDate *start; // @dynamic start;
-@property(retain, nonatomic) NSSet *wifiAccessPoints; // @dynamic wifiAccessPoints;
 
 @end
 

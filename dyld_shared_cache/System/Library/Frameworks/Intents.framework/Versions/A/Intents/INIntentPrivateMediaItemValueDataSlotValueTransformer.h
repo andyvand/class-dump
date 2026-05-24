@@ -13,7 +13,7 @@
 + (Class);
 + (long long)",C,V_estimatedPickupDate;
 - (id);
-- (id)nationType:(id)arg1;
+- (id)StringAsMediaDestinationType:(id)arg1;
 
 @end
 

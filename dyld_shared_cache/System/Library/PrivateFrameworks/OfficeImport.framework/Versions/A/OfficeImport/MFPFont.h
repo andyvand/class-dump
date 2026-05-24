@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MFPFont
 {
     float mSize;
-    int mUnit;
-    unsigned int mFlags;
-    NSString *mName;
 }
 
 - (struct __CTFont *);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (void)ath:(id)arg1;
+- (void)subtractBezierPath:(id)arg1;
 - (void)ì;
 - (int)òÿ{¥v¦!;
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface CalendarWidget.SpatialEventViewModel
 {
     id event;
-    id id;
-    id delegate;
-    id lineHeight;
-    id viewStartDate;
-    id viewEndDate;
-    id frame;
-    id visibleHeight;
-    id travelTimeHeight;
-    struct CGRect unPinnedViewFrame;
-    id viewMetrics;
-    _Bool hideTravelTime;
-    _Bool visibleHeightLocked;
 }
 
 + (double);
@@ -28,7 +14,7 @@
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (_Bool);
@@ -41,21 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)SessionEndedReason;
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSDate *end;
-@property(nonatomic, readonly) double enoughHeightForOneLine;
-@property(nonatomic, readonly) NSString *eventIdentifier;
-@property(nonatomic) _Bool hideTravelTime; // @synthesize hideTravelTime;
-@property(nonatomic, readonly) NSDate *start;
-@property(nonatomic, readonly) NSDate *startWithTravelTime;
 @property(nonatomic) struct CGRect unPinnedViewFrame; // @synthesize unPinnedViewFrame;
-@property(nonatomic, readonly) double viewMaxNaturalTextHeight;
-@property(nonatomic) _Bool visibleHeightLocked; // @synthesize visibleHeightLocked;
 
 @end
 

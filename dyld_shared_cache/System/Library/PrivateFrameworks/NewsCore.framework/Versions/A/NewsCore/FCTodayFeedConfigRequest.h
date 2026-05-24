@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface FCTodayFeedConfigRequest
 {
     unsigned long long _feedType;
-    NSString *_forYouConfigID;
-    NSString *_formatVersion;
-    NSArray *_additionalRecordIDs;
 }
 
 + (_Bool);
@@ -22,17 +17,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)v@?Q@"NSError">56;
 - (void);
 - (id);
 - (unsigned long long);
-- (void)dayWidgetClickClickValue;
+- (void)newsTodayWidgetClickClickValue;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *additionalRecordIDs; // @synthesize additionalRecordIDs=_additionalRecordIDs;
 @property(readonly, nonatomic) unsigned long long feedType; // @synthesize feedType=_feedType;
-@property(readonly, copy, nonatomic) NSString *forYouConfigID; // @synthesize forYouConfigID=_forYouConfigID;
-@property(readonly, copy, nonatomic) NSString *formatVersion; // @synthesize formatVersion=_formatVersion;
 
 @end
 

@@ -4,55 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteEventRouterPrimaryResidentClient, HMDUserMessagePolicy, HMEDelegatingEventRouter, HMFFuture, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol HMDHomeRemoteEventRouterClientControllerDataSource, HMDHomeRemoteEventRouterClientFactory, OS_dispatch_queue;
+@class HMEDelegatingEventRouter;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeRemoteEventRouterClientController
 {
     struct os_unfair_lock_s _lock;
-    HMEDelegatingEventRouter *_residentDelegatingEventRouter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_messageTargetUUID;
-    NSString *_requestMessageName;
-    NSString *_updateMessageName;
-    NSString *_multiHopFetchResponseMessageName;
-    id <HMDHomeRemoteEventRouterClientControllerDataSource> _dataSource;
-    HMDUserMessagePolicy *_clientUserMessagePolicy;
-    id <HMDHomeRemoteEventRouterClientFactory> _routerClientFactory;
-    HMDRemoteEventRouterPrimaryResidentClient *_remoteEventRouterPrimaryResidentClient;
-    NSMutableArray *_residentClients;
-    NSUUID *_currentAccessoryUUID;
-    HMFFuture *_remoteTransportStartFuture;
 }
 
 - (void);
+- (_Bool)service:(id)arg1 nearbyDevicesChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)service:(id)arg1 didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
+- (id)service:(id)arg1 didSendOpportunisticDataWithIdentifier:toIDs: /* Error: Ran out of types for this method. */;
+- (id)service:(id)arg1 didCancelMessageWithSuccess:(out id *)arg2 error:identifier: /* Error: Ran out of types for this method. */;
+- (id)initWithPersistenceFileAtURL: /* Error: Ran out of types for this method. */;
+- (void)etaController:(id)arg1 sharedTripDidClose: /* Error: Ran out of types for this method. */;
+- (_Bool)g",R,N,V_historySyncedMarkerFile;
+- (id)gsPath;
+- (void)@D;
+- (_Bool)16@?0@"<MSPMutableObject>"8;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)est",&,N,V_request;
+- (id)A;
 - (_Bool);
 - (id);
 - (id)¡àÐ!Gù1°1Â0@ù
@@ -62,17 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)rectory.4buT1B/Sources/HomeKit_executables/Sources/homed/Accessory/Thread/HMDHAPAccessory+ThreadManagement.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *homeUUID;
-@property(readonly, nonatomic) _Bool isCachedEventSourceCurrentProcess;
-@property(readonly, nonatomic) _Bool primaryResidentClientHasConnectivity;
 @property(readonly) HMEDelegatingEventRouter *residentDelegatingEventRouter; // @synthesize residentDelegatingEventRouter=_residentDelegatingEventRouter;
-@property(readonly) Class superclass;
 
 @end
 

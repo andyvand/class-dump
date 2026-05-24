@@ -7,7 +7,7 @@
 @interface UnknownClass (AXSideStorage)
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);

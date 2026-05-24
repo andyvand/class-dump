@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface PHLocalIdentifierMapping
 {
     NSString *_localIdentifier;
-    NSError *_error;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)essageContext;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
 
 @end

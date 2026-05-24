@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUISiriStatusViewDelegate
+- (void)*A;
 @end
 

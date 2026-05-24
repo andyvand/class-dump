@@ -7,8 +7,6 @@
 @interface HMDACWGKeyManager
 {
     id $defaultActor;
-    id queue;
-    id keychainStore;
 }
 
 + (id)Õÿ+

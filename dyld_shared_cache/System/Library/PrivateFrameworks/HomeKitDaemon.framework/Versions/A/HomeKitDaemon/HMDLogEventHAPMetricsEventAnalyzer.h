@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id),V_askToControlRequest;
 - (void)lic}@Validating minimum brightness transition points dictionary;
 - (id)pping thread network for fabric ID:(id)arg1 %@;
 - (void)ibutes to monitor %s;

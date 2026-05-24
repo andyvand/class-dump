@@ -5,5 +5,6 @@
 //
 
 @protocol VFXMaterialPropertyTextureProvider
+- (void);
 @end
 

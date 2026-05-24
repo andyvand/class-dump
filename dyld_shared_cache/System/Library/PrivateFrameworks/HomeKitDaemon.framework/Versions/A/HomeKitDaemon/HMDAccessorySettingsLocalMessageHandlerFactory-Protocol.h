@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAccessorySettingsLocalMessageHandler;
+
 @protocol HMDAccessorySettingsLocalMessageHandlerFactory
+- (HMDAccessorySettingsLocalMessageHandler *){public}@] migration | - Found blocklist data in iCloud KVS, will migrate in background;
 @end
 

@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCArticleController, FCAssetManager, FCFlintResourceManager, FCHeldRecords, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString;
+@protocol FCAVAssetFactoryType, FCFeedItemFactoryType, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (NSURL *);
+- (FCHeldRecords *);
+- (FCTagController *)overlayTimeout;
+- (FCArticleController *)ypeP;
+- (NSString *);
 - (FCAssetManager *)\HÛÿHÛÿ¤HÛÿàHÛÿIÛÿ(LÛÿLLÛÿLÛÿ¼LÛÿàLÛÿMÛÿ(MÛÿdMÛÿMÛÿ¬MÛÿèMÛÿNÛÿ@NÛÿ|NÛÿ NÛÿÄNÛÿèNÛÿ$OÛÿHOÛÿ|OÛÿ¸OÛÿÜOÛÿ;
 - (NSString *)7Óúÿ;
 - (long long)Ôñüÿ½ôÿôªÿ\e;
@@ -16,45 +19,17 @@
 - (FCFlintResourceManager *)Ü w;
 - (NSString *)ºþyÕ=6{þyÕ= pzþ;
 - (id <FCFeedItemFactoryType>);
-- (id <FCRecipeItemFactoryType>)viderType;
-- (id <FCPPTContext>)aglessNotification;
-- (FCPuzzleTypeController *)ntrollerFactory;
+- (id <FCRecipeItemFactoryType>)FeedIssueOfflineProviderType;
+- (NSString *)FeedGroupConfigSlotResolverTarget;
+- (id <FCPPTContext>)TaglessNotification;
+- (FCPuzzleTypeController *)OfflineAlertControllerFactory;
 - (id <FCAVAssetFactoryType>)>(Ç{þf>p{þ;
 - (FCSportsEventController *)0;£þ;
 - (void)r;
+- (FCPuzzleController *)NSUnderlineStyle;
 - (NSString *)E@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;
-@property(readonly, nonatomic) FCArticleController *articleController;
-@property(readonly, nonatomic) NSURL *assetCacheDirectoryURL;
-@property(readonly, nonatomic) FCAssetManager *assetManager;
-@property(readonly, nonatomic) id <FCAVAssetFactoryType> avAssetFactory;
-@property(readonly, nonatomic) id <FCAVAssetPrewarming> avAssetPrewarmer;
-@property(readonly, nonatomic) __weak id <FCBackgroundTaskable> backgroundTaskable;
-@property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager;
-@property(readonly, copy, nonatomic) NSString *contentDirectory;
-@property(readonly, copy, nonatomic) NSString *contentEnvironment;
-@property(readonly, copy, nonatomic) NSString *contentEnvironmentToken;
-@property(readonly, nonatomic) NSURL *contentHostDirectoryURL;
 @property(readonly, copy, nonatomic) NSString *contentStoreFrontID;
-@property(readonly, nonatomic) FCFeedDatabase *feedDatabase;
-@property(readonly, nonatomic) id <FCFeedItemFactoryType> feedItemFactory;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager;
-@property(readonly, nonatomic) id <FCContentContextInternal> internalContentContext;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability;
-@property(readonly, nonatomic) id <FCPPTContext> pptContext;
-@property(readonly, nonatomic) FCPuzzleController *puzzleController;
-@property(readonly, nonatomic) FCPuzzleTypeController *puzzleTypeController;
-@property(readonly, nonatomic) id <FCRecipeItemFactoryType> recipeItemFactory;
-@property(readonly, nonatomic) FCSportsEventController *sportsEventController;
-@property(readonly, nonatomic) long long storageSize;
-@property(readonly, copy, nonatomic) NSString *supportedContentStoreFrontID;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectoryLegacy;
-@property(readonly, copy, nonatomic) NSString *tabiRequestsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectoryLegacy;
-@property(readonly, nonatomic) FCTagController *tagController;
 @end
 

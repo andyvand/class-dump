@@ -9,20 +9,13 @@
 @interface SGPostalAddressComponents
 {
     NSString *_street;
-    NSString *_subLocality;
-    NSString *_city;
-    NSString *_subAdministrativeArea;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_country;
-    NSString *_isoCountryCode;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
-- (id);
+- (id)AL9;
 - (id);
 - (id);
 - (id);
@@ -40,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *city; // @synthesize city=_city;
-@property(readonly, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(readonly, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(readonly, nonatomic) NSString *state; // @synthesize state=_state;
 @property(readonly, nonatomic) NSString *street; // @synthesize street=_street;
-@property(readonly, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(readonly, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
 
 @end
 

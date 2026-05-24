@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FIAirDropViewGutsController, NSArray, NSImage, NSString;
-@protocol FIAirDropViewDelegate;
-
 @interface FIAirDropView
 {
     id _controller;
-    id _reserved;
-    FIAirDropViewGutsController *_gutsController;
-    struct TKeyValueObserver _isTransferInProgressObserver;
-    _Bool _isTransferInProgress;
 }
 
 + (void);
 + (id);
 - (id);
-- (void);
+- (void)I}S�;
 - (void);
 - (void);
 - (void);
@@ -32,10 +25,10 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)removeExtendedAttributePlistFromEmlxFile:(id)arg1;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -44,13 +37,7 @@
 - (void)Àc;
 
 // Remaining properties
-@property(copy) NSString *clientBundleID;
-@property __weak id <FIAirDropViewDelegate> delegate;
 @property(nonatomic) _Bool isTransferInProgress; // @synthesize isTransferInProgress=_isTransferInProgress;
-@property(copy) NSImage *largeThumbnail;
-@property(copy) NSImage *mediumThumbnail;
-@property(copy) NSImage *smallThumbnail;
-@property(copy) NSArray *urlsToSend;
 
 @end
 

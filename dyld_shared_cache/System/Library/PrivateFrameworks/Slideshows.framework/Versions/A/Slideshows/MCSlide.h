@@ -6,39 +6,18 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCAssetVideo, MCContainerEffect, MCPlugSlide, MCSong, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSSet;
 
 @interface MCSlide : MCObject
 {
     id *mSlideAsset;
-    NSMutableDictionary *mFrameAttributes;
-    NSMutableSet *mAnimationPaths;
-    NSMutableSet *mFilters;
-    NSArray *mCachedOrderedFilters;
-    unsigned long long mFlags;
-    float mAudioVolume;
-    float mAudioDuckLevel;
-    MCPlugSlide *mPlug;
-    MCSong *mSong;
-    unsigned long long mIndex;
-    double mAudioFadeInDuration;
-    double mAudioFadeOutDuration;
-    double mAudioDuckInDuration;
-    double mAudioDuckOutDuration;
-    double mStartTime;
-    double mDuration;
-    NSString *mFrameID;
-    MCContainerEffect *mContainer;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)ks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (void)ovider init];
+- (void)yticsPayloadAssemblerConfigProvider init];
+- (_Bool)lemetryUploader:storeDirectoryFileURL:URLSessionQueue:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -51,11 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);;
+- (id)(;
 - (id);
 - (id);
 - (void);
@@ -66,17 +48,17 @@
 - (void);
 - (void);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char)f.;
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (double);
+- (double)5;
 - (double);
 - (float);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -89,19 +71,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (double);
 - (double);
 - (double);
 - (void);
-- (id);
+- (id);
 - (float);
 - (double);
 - (void);
 - (id);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id)_textFlow;
 - (void);
 - (void);
 - (unsigned long long);
@@ -114,33 +96,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *animationPaths;
-@property(retain) MCAssetVideo *asset;
-@property(nonatomic) double audioDuckInDuration; // @synthesize audioDuckInDuration=mAudioDuckInDuration;
-@property(nonatomic) float audioDuckLevel; // @synthesize audioDuckLevel=mAudioDuckLevel;
-@property(nonatomic) double audioDuckOutDuration; // @synthesize audioDuckOutDuration=mAudioDuckOutDuration;
-@property(nonatomic) double audioFadeInDuration; // @synthesize audioFadeInDuration=mAudioFadeInDuration;
-@property(nonatomic) double audioFadeOutDuration; // @synthesize audioFadeOutDuration=mAudioFadeOutDuration;
-@property(nonatomic) float audioVolume; // @synthesize audioVolume=mAudioVolume;
-@property(nonatomic) struct CGPoint center;
-@property MCContainerEffect *container; // @synthesize container=mContainer;
-@property(readonly) unsigned long long countOfAnimationPaths;
-@property(readonly, nonatomic) unsigned long long countOfFilters;
-@property(readonly) unsigned char countOfLayouts;
-@property(nonatomic) unsigned char currentLayoutIndex;
-@property(nonatomic) double duration; // @synthesize duration=mDuration;
-@property(readonly) _Bool durationIsDefined;
-@property(readonly) NSSet *filters;
-@property(copy) NSDictionary *frameAttributes;
-@property(copy) NSString *frameID; // @synthesize frameID=mFrameID;
-@property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
-@property(copy) NSString *kenBurnsType;
-@property(readonly) NSArray *orderedFilters;
-@property(retain) MCPlugSlide *plug; // @synthesize plug=mPlug;
-@property(nonatomic) double rotation;
-@property(nonatomic) double scale;
-@property(readonly) MCSong *song; // @synthesize song=mSong;
-@property(nonatomic) double startTime; // @synthesize startTime=mStartTime;
-@property(readonly) _Bool startTimeIsDefined;
 
 @end
 

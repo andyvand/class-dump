@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification;
+
 @protocol NSWindowDelegate
+
+@optional
+- (void);
+- (void);
+- (void)setCachedFormattedHandle:(NSNotification *)arg1;
+- (struct CGRect);
+- (void)a;
 @end
 

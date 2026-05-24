@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WADeploymentAnalyzerDefaults, WAPersistentContainer;
+@class WADeploymentAnalyzerDefaults;
 
 @interface WADeploymentAnalyzer
 {
     WADeploymentAnalyzerDefaults *_defaults;
-    WAPersistentContainer *_persistentContainer;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)3;
 - (void);
 - (id);
 - (unsigned long long);
 - (short);
 - (short);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) WADeploymentAnalyzerDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) WAPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 
 @end
 

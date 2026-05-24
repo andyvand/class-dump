@@ -15,11 +15,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)p;
 - (void);
-- (void);
-- (void);
+- (void)w;
 - (void);
 - (void);
 - (void);
@@ -30,12 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RWIProtocolDOMRGBAColor *gridColor;
-@property(nonatomic) _Bool showAreaNames;
-@property(nonatomic) _Bool showExtendedGridLines;
-@property(nonatomic) _Bool showLineNames;
-@property(nonatomic) _Bool showLineNumbers;
-@property(nonatomic) _Bool showOrderNumbers;
-@property(nonatomic) _Bool showTrackSizes;
 
 @end
 

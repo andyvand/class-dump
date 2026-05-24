@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)p;
+- (_Bool);
 - (id);
 - (id);
 - (void)uest",&,N,V_currentURLRequest;

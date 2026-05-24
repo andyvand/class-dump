@@ -9,14 +9,11 @@
 @interface TSWPTranscriber
 {
     NSString *_displayName;
-    NSString *_identifier;
-    NSString *_transformIdentifier;
-    NSLocale *_romanizationLocale;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)PlayerBoundaryTimeSubscription;
+- (id)ave chapters:(id)arg1 %@.;
+- (id)actions:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

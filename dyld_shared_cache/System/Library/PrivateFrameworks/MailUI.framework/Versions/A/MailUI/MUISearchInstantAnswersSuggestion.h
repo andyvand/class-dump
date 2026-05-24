@@ -6,18 +6,16 @@
 
 #import <MailUI/MUISearchSuggestion.h>
 
-@class EMMessage, EMMessageList, MUISearchInstantAnswer, NSString, SFCard;
+@class EMMessageList;
 @protocol EMCollectionItemID;
 
 @interface MUISearchInstantAnswersSuggestion : MUISearchSuggestion
 {
     EMMessageList *_messageList;
-    EMMessage *_message;
-    MUISearchInstantAnswer *_instantAnswer;
-    SFCard *_feedbackInlineCard;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,18 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ccessibilityFrontmost: /* Error: Ran out of types for this method. */;
+- (id)ID;
+- (id)"AXEEventTapManager"16@"AXEGestureEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
+- (void)setAccessibilityFrontmost: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SFCard *feedbackInlineCard; // @synthesize feedbackInlineCard=_feedbackInlineCard;
-@property(readonly, nonatomic) MUISearchInstantAnswer *instantAnswer; // @synthesize instantAnswer=_instantAnswer;
 @property(readonly, nonatomic) id <EMCollectionItemID> itemID;
-@property(readonly, nonatomic) EMMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *messageConversationID;
-@property(readonly, nonatomic) EMMessageList *messageList; // @synthesize messageList=_messageList;
 
 @end
 

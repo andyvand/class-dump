@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFPunchout;
+@class NSString, SFImage;
 
 @protocol SFAppLink
+- (void)nitor.isExplicitSettingEnabledForCurrentUser returning fallback value=%{BOOL}u [monitorForCurrentUser=nil];
+- (SFImage *)T;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFPunchout *appPunchout;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *title;
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSMutableOrderedSet, NSString;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSNotifyingWrapperMutableOrderedSet
 {
     NSManagedObject *_container;
-    NSString *_key;
-    NSMutableOrderedSet *_mutableOrderedSet;
 }
 
 + (Class)an immutable model.;
@@ -23,55 +21,55 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (Class);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (unsigned long long)@k;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)RBSXPCMessageReply;
+- (void);
+- (id);
+- (void)`;
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)#;
+- (id)_owningAccount;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)with generated columns:%s /* Error: Ran out of types for this method. */;
+- (id)Type is %d;
 - (void);
 - (void);
-- (void);
+- (void)U;
 - (id);
 - (void);
 - (void);

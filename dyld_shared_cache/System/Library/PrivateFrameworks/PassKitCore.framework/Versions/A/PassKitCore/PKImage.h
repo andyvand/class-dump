@@ -9,13 +9,6 @@
 @interface PKImage
 {
     struct os_unfair_lock_s _lock;
-    _Bool _shouldTile;
-    _Bool _shouldStretch;
-    struct PKEdgeInsets _capInsets;
-    NSData *_imageData;
-    struct CGImage *_imageRef;
-    double _scale;
-    long long _orientation;
 }
 
 + (id);
@@ -30,14 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct PKEdgeInsets capInsets;
 @property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, nonatomic) struct CGImage *imageRef; // @synthesize imageRef=_imageRef;
-@property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) _Bool stretches;
-@property(readonly, nonatomic) _Bool tiles;
 
 @end
 

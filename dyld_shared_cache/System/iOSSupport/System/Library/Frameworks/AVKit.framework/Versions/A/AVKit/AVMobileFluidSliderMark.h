@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileFluidSliderMark
 {
     float _startValue;
-    float _endValue;
-    UIColor *_filledColor;
-    UIColor *_unfilledColor;
-    unsigned long long _markType;
 }
 
 + (id);
@@ -22,17 +16,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (float);
-- (float);
+- (float);
 - (unsigned long long);
 - (void)AÐ!Dùq[ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) float endValue; // @synthesize endValue=_endValue;
-@property(readonly, nonatomic) UIColor *filledColor; // @synthesize filledColor=_filledColor;
-@property(readonly, nonatomic) unsigned long long markType; // @synthesize markType=_markType;
 @property(readonly, nonatomic) float startValue; // @synthesize startValue=_startValue;
-@property(readonly, nonatomic) UIColor *unfilledColor; // @synthesize unfilledColor=_unfilledColor;
 
 @end
 

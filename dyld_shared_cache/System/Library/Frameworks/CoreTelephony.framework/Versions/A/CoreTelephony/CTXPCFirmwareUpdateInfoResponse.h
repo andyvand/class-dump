@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSDictionary *_firmwareInfo;
 }
 
-+ (_Bool);
++ (_Bool)cannot copy sample buffers when attached to an adaptor;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)setObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)tbI(g;
 - (void)a&°!ÄCùQª)ð1Â0@ù
 × ;
 

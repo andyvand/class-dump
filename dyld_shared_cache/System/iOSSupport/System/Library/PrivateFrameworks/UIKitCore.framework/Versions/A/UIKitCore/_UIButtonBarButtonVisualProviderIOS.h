@@ -6,33 +6,11 @@
 
 #import <UIKitCore/_UIButtonBarButtonVisualProvider.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableDictionary, UIImageView, _UIBackButtonMaskView, _UIModernBarButton;
-@protocol _UIButtonBarAppearanceDelegate;
+@class NSMutableDictionary;
 
 @interface _UIButtonBarButtonVisualProviderIOS : _UIButtonBarButtonVisualProvider
 {
     NSMutableDictionary *_currentConstraints;
-    NSMutableDictionary *_oldConstraints;
-    _UIModernBarButton *_backIndicatorButton;
-    _UIBackButtonMaskView *_backButtonMask;
-    _UIModernBarButton *_titleButton;
-    _UIModernBarButton *_imageButton;
-    UIImageView *_backgroundView;
-    id <_UIButtonBarAppearanceDelegate> _appearanceDelegate;
-    NSArray *_barButtonTitleAttributes;
-    NSArray *_finalTitleAttributes;
-    NSMutableDictionary *_backgroundImages;
-    NSArray *_titleContent;
-    NSMutableDictionary *_titleLookup;
-    NSLayoutConstraint *_backButtonTitleMaxWidthConstraint;
-    CDUnknownBlockType _menuProvider;
-    long long _systemItem;
-    struct {
-        unsigned int imageHasBaseline:1;
-        unsigned int backButtonMaskEnabled:1;
-        unsigned int style:3;
-        unsigned int isSystemItem:1;
-    } _flags;
 }
 
 - (struct UIOffset);
@@ -55,9 +33,9 @@
 - (void);
 - (void);
 - (double);
-- (struct UIOffset);
-- (void);
-- (void);
+- (struct UIOffset)initWithRouteDescription:(_Bool)arg1;
+- (void)Entry;
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -85,18 +63,18 @@
 - (void)Ô ;
 - (void)ardInputMode"16;
 - (id)ollectionLayoutSection"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)redicate:(id)arg1;
-- (void)y:(double)arg1;
-- (void)apseItem: /* Error: Ran out of types for this method. */;
-- (id)efaultPrevented;
-- (id)dexPath:withInsets: /* Error: Ran out of types for this method. */;
+- (id)set_swiftPredicate:(id)arg1;
+- (void)setXPCType:(double)arg1 forSelector:(double)arg2 argumentIndex:(_Bool)arg3 ofReply: /* Error: Ran out of types for this method. */;
+- (void)sectionController:shouldCollapseItem: /* Error: Ran out of types for this method. */;
+- (id)isDefaultPrevented;
+- (id)dropLocationForPoint:atIndexPath:withInsets: /* Error: Ran out of types for this method. */;
 - (double)_willHandoffLoupeMagnifier;
-- (id)SizeGuide;
-- (id)ingTimingParameters;
-- (id)ationAttributedText:(_Bool)arg1 lastDictationAttributedTextRange:currentDictationAttributedTextRange: /* Error: Ran out of types for this method. */;
-- (id)ngUnderneathDescendantForDepthLevel;
-- (id)terfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
-- (void)ordSet;
+- (id)_verticalSizeGuide;
+- (id)_springTimingParameters;
+- (id)_prefixTokensForDictationAttributedText:(_Bool)arg1 lastDictationAttributedTextRange:currentDictationAttributedTextRange: /* Error: Ran out of types for this method. */;
+- (id)__isHidingUnderneathDescendantForDepthLevel;
+- (id)pageViewControllerPreferredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
+- (void)emailKeywordSet;
 - (id)Delegate>",W,N,V_delegate;
 - (struct CGSize)",R,N,V_substrate;
 - (void)4ä& èXÈð4;
@@ -107,16 +85,16 @@
 - (struct UIEdgeInsets)%@;
 - (void);
 - (void);
-- (id)nimation;
+- (id)defaultAnimation;
 - (void)n=%ld, newSectionCount=%ld);
 - (double)%ld-%.2fx;
 - (double)apDataFromDataWithRectAndRadii(const _UIBoundingPathBitmapData, const _UIIntegralRect, const _UIIntegralCornerRadii);
-- (_Bool)ngeNotification;
+- (_Bool)UIAccessibilityCarPlayBoldTextStatusDidChangeNotification;
 - (id);
 - (struct UIOffset)Ê;
 - (id)3ySbGG_SbQo_;
 - (void);
-- (_Bool);
+- (_Bool)t8_;
 - (void)b;
 - (void)Cÿ[C;
 - (void)É× c;

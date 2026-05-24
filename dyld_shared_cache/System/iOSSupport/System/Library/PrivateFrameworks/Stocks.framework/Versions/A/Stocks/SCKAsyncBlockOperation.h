@@ -7,16 +7,14 @@
 @interface SCKAsyncBlockOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    CDUnknownBlockType _block;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
-- (_Bool)ErrorCode: /* Error: Ran out of types for this method. */;
+- (void)/Frameworks/CoreGraphics.framework/CoreGraphics;
+- (_Bool)sck_hasUnderlyingErrorCode: /* Error: Ran out of types for this method. */;
 - (_Bool)ck"8B16;
 
 // Remaining properties

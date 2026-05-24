@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContact, FMFMapViewController;
+
 @protocol FMFMapViewControllerDelegate
+
+@optional
+- (void)setShouldIncludeLegacyAccounts:(FMFMapViewController *)arg1;
+- (void)setServiceType:(FMFMapViewController *)arg1;
+- (void)SObject<OS_dispatch_queue>",R,N,V_queue;
+- (void)_completionQueue;
+- (void)setSectionType:(FMFMapViewController *)arg1;
+- (CNContact *);
 @end
 

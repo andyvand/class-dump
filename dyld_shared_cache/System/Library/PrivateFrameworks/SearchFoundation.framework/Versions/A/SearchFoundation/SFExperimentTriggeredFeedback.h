@@ -6,12 +6,11 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSUUID, SFCounterfactualInfo;
+@class SFCounterfactualInfo;
 
 @interface SFExperimentTriggeredFeedback : SFFeedback
 {
     SFCounterfactualInfo *_counterfactual;
-    NSUUID *_codepathId;
 }
 
 + (_Bool);
@@ -21,13 +20,12 @@
 - (void);
 - (id);
 - (id);
+- (id)setAllowsSynchronousArtworkCatalogsBlockExecution:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)in TLAlertType_Internal.h.;
 - (void)V_style;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *codepathId; // @synthesize codepathId=_codepathId;
 @property(retain, nonatomic) SFCounterfactualInfo *counterfactual; // @synthesize counterfactual=_counterfactual;
 
 @end

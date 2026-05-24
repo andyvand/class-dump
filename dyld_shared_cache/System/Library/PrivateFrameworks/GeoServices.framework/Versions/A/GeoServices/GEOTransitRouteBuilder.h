@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)&,V_signalToken;
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)7;
 + (struct _NSRange);
 + (double);
 + (id);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSString;
+@class MLModel;
 
 @interface CRLineWrappingClassifier
 {
     MLModel *_model;
-    NSString *_locale;
 }
 
 + (id);
@@ -19,18 +18,15 @@
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)completeAssertionRequestWithSelectedPasskeyCredential:(id)arg1 completionHandler:(id *)arg2;
 - (id);
 - (id);
 - (id);
 - (void)quence_length"Q"stride_width"Q"stride_height"Q"stride_channels"Q"stride_batch_number"Q"stride_sequence_length"Q"storage_type"i})"__engaged_"B};
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long featureCount;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *modelLocale;
 
 @end
 

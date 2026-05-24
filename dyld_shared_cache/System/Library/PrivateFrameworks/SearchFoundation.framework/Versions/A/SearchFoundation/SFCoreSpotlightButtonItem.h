@@ -6,47 +6,32 @@
 
 #import <SearchFoundation/SFButtonItem.h>
 
-@class NSArray, NSData, NSDictionary, NSString, SFButtonItemAppearance;
+@class NSArray;
 
 @interface SFCoreSpotlightButtonItem : SFButtonItem
 {
     NSArray *_actionItemTypes;
-    NSString *_applicationBundleIdentifier;
-    NSString *_coreSpotlightIdentifier;
 }
 
 + (_Bool);
-- (void);
+- (void)R;
 - (void);
 - (id);
-- (id);
+- (id)requestColorAnalysisWithAlgorithm:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)= %llu;
+- (id){_NSRange=QQ}32@48;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)orite != 0 AND rejected == 0;
+- (id)Rl;
 - (id);
 - (void);
 - (void)CardType;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionItemTypes; // @synthesize actionItemTypes=_actionItemTypes;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId;
 
 @end
 

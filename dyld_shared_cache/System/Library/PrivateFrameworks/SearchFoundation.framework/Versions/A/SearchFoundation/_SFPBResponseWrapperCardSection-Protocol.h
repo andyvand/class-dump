@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBCATModel, _SFPBPatternModel;
+@class NSData, _SFPBCATModel;
 
 @protocol _SFPBResponseWrapperCardSection
+- (void);
+- (NSData *)_editorBundleID;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCATModel *catModel;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPatternModel *pattern_model;
-@property(copy, nonatomic) NSArray *pattern_models;
-@property(copy, nonatomic) NSData *visualCATOutput;
 @end
 

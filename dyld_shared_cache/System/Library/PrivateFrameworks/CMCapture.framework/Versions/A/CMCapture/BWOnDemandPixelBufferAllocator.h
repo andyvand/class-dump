@@ -4,50 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWMemoryPool, BWVideoFormat, NSDictionary, NSString;
+@class BWVideoFormat, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWOnDemandPixelBufferAllocator
 {
     BWVideoFormat *_videoFormat;
-    NSString *_name;
-    NSDictionary *_pixelBufferAttributes;
-    BWMemoryPool *_memoryPool;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (void)uffer, requiredAction );
 - (id);
 - (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)hasStrikeThroughType;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nsarray(:ids) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (unsigned long long)kqÿhoÿfnÿdkÿ¤aiÿ¬^fÿ²[dÿ¸Ybÿ»W`ÿ¼U_ÿ;ssÿ;ssÿ;ssÿ;ssÿ<ssÿ<ssÿ<srÿ<rrÿ>rrÿCrrÿGsrÿLssÿQssÿVssÿ\ttÿbttÿguuÿluuÿrvvÿwwwÿ{vvÿuuÿssÿqqÿooÿmmÿ§jjÿ¯ggÿ¶deÿ»bbÿ¿`aÿÀ^_ÿ@zuÿ@ztÿ@ztÿ@ztÿ@ytÿ@ytÿ@ytÿAytÿAysÿFysÿJytÿOytÿTytÿYzuÿ_zuÿd{vÿj{wÿn|xÿt}xÿy~yÿyÿ~xÿ}vÿ{sÿyqÿ¢wnÿªtkÿ³qhÿ¹oeÿ¿lcÿÃjaÿÄi_ÿDvÿDvÿDvÿDvÿDvÿDuÿDuÿDuÿEuÿGuÿLuÿQvÿVvÿ[wÿ_xÿdxÿjyÿozÿuzÿ{{ÿ{ÿzÿyÿvÿsÿ¥pÿ­mÿ¶|iÿ½zfÿÃxcÿÇvaÿÈt`ÿGwÿGwÿGwÿGwÿGwÿGwÿGwÿGwÿHvÿHvÿMwÿOyÿTyÿYzÿ_zÿe{ÿj{ÿp|ÿw|ÿ}}ÿ|ÿ{ÿ{ÿxÿ¡vÿ¨rÿ°oÿ¹kÿÀgÿÆdÿÊbÿÌ`ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿE|ÿF|ÿF{ÿI{ÿN|ÿS|ÿX|ÿ_}ÿe}ÿk~ÿq~ÿx~ÿ~ÿ~ÿ}ÿ{ÿzÿ¥wÿ¬tÿ´pÿ¼lÿÃiÿÉfÿÎcÿÏaÿEÿEÿEÿFÿFÿFÿF~ÿF~ÿF~ÿG~ÿG~ÿL~ÿR~ÿW ÿ^¡ÿd¢ÿk£ÿr¤ÿy¤ÿ¥ÿ¦ÿ§~ÿ¨|ÿ ©yÿªªxÿ±§tÿ¸¥qÿÀ£mÿÇ¡jÿÍ gÿÑdÿÓbÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿF¨ÿG¨ÿG¨ÿG¨ÿG¨ÿJ¨ÿP©ÿVªÿ]«ÿd¬ÿk­ÿr®ÿz¯ÿ°ÿ±ÿ²ÿ³|ÿ¢´yÿ«µwÿµµuÿ¼³qÿÄ±mÿË¯jÿÑ®gÿÕ­eÿ×¬cÿF±ÿF±ÿF±ÿF±ÿF±ÿG±ÿG±ÿG±ÿG±ÿG±ÿH±ÿH±ÿN²ÿT³ÿ\´ÿcµÿj¶ÿr·ÿ{¹ÿºÿ»ÿ¼ÿ½}ÿ¤¾zÿ­¿vÿ·ÀtÿÁÁrÿÉ¿mÿÏ½jÿÕ¼gÿÙ»eÿÛ»cÿG¹ÿG¹ÿG¹ÿG¹ÿGºÿGºÿGºÿGºÿHºÿHºÿHºÿIºÿKºÿR¼ÿ[½ÿb¾ÿj¿ÿrÁÿ{ÂÿÃÿÄÿÆÿÇ~ÿ¦É{ÿ¯Êwÿ¹ËsÿÃÌqÿÍÍnÿÔÌkÿÚËhÿÝËeÿßËdÿGÀÿGÀÿGÀÿGÀÿGÀÿHÀÿHÀÿHÀÿHÀÿIÀÿIÀÿIÀÿJÁÿQÂÿYÃÿaÅÿjÆÿrÇÿ|ÉÿÊÿËÿÍÿÎÿ©Ð|ÿ²Òxÿ»ÓtÿÄÔpÿÏÖmÿ××kÿÝÖhÿàÖfÿâÖdÿHÅÿHÅÿHÅÿHÅÿHÅÿHÅÿIÅÿIÅÿIÅÿIÅÿJÅÿJÆÿJÆÿOÆÿXÈÿaÉÿiËÿrÌÿ|ÎÿÏÿÐÿÒÿ ÓÿªÕ}ÿ³×yÿ¼ÙtÿÆÛpÿÐÜmÿØÞjÿßßhÿâßfÿäßdÿIÈÿIÈÿIÈÿIÈÿIÈÿIÈÿIÉÿIÉÿJÉÿJÉÿJÉÿKÉÿKÉÿNÊÿWËÿ`ÌÿiÎÿrÏÿ|ÑÿÒÿÓÿÕÿ¡Öÿ«Ø}ÿ´Úyÿ½ÜtÿÆÞpÿÐàlÿÙâiÿßãgÿääfÿæädÿIËÿIËÿIËÿIËÿIËÿJËÿJËÿJËÿJËÿKËÿKËÿKËÿLËÿMËÿVÍÿ_ÎÿhÏÿqÑÿ|ÒÿÓÿÕÿÖÿ¡Øÿ«Ú}ÿ´Üyÿ½ÞtÿÆàpÿÐâkÿÙähÿßåfÿäæeÿæçcÿ;
 - (CDStruct_1ef3fb1f)¿ÒµÿÈÑ·ÿÑÑ¸ÿ×Î´ÿÞÌ°ÿæÊ­ÿíÈ«ÿôÆ¨ÿýÅ¦ÿÿÄ¥ÿÿÃ£ÿÿÂ¢ÿÿÂ¡ÿ;
-- (unsigned int)pipeline_trace;
+- (unsigned int)capturemoviefilesinkpipeline_trace;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f dimensions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long height;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int pixelFormat;
-@property(readonly, nonatomic) unsigned long long sliceCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesMemoryPool;
-@property(readonly, nonatomic) unsigned long long width;
 
 @end
 

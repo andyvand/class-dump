@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol NCPushRegistrationDelegate, OS_xpc_object;
+@class NSString;
+@protocol NCPushRegistrationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NCPushRegistration
 {
     NSString *_identifier;
-    NSObject<OS_xpc_object> *_connection;
-    _Bool _needsRegistration;
-    _Bool _neverReconnect;
-    unsigned long long _types;
-    id <NCPushRegistrationDelegate> _delegate;
-    NSData *_token;
 }
 
 - (id);
-- (id);
+- (id)_static_bin;
+- (void)drain_duration_p_0_25_at_charge_start_secs_curr_dynamic_bin_2;
+- (void)drain_duration_p_0_25_at_charge_start_secs_curr_dynamic_bin_2;
+- (void)drain_duration_p_0_10_at_charge_start_secs_curr_dynamic_bin_2;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)setPrimitiveCanvasSize: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)rno=%d;
 - (id);
 - (void);
-- (void);
-- (unsigned long long)anelWasDismissedCallback: /* Error: Ran out of types for this method. */;
+- (void)?;
+- (unsigned long long)setPrintOrExportPanelWasDismissedCallback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <NCPushRegistrationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSData *token; // @synthesize token=_token;
-@property(nonatomic) unsigned long long types; // @synthesize types=_types;
 
 @end
 

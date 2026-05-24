@@ -8,13 +8,12 @@
 {
     id state;
     id url;
-    id sandboxToken;
 }
 
 + (_Bool);
+- (id)setUpCustomDiffableDataSource;
 - (id);
-- (id);
-- (void);
+- (void)?;
 - (void);
 
 @end

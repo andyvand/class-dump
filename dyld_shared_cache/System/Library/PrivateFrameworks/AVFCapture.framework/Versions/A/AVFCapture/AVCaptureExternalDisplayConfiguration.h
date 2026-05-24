@@ -7,21 +7,17 @@
 @interface AVCaptureExternalDisplayConfiguration
 {
     _Bool _shouldMatchFrameRate;
-    _Bool _bypassColorSpaceConversion;
-    CDStruct_79c71658 _preferredResolution;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (CDStruct_79c71658);
-- (_Bool);
+- (_Bool)tesWritten:%d /* Error: Ran out of types for this method. */;
+- (void)base transaction];
+- (void)%p> Starting QUIC connection.;
+- (void)song duration;
+- (CDStruct_1ef3fb1f)it-;
+- (_Bool)J0;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool bypassColorSpaceConversion; // @synthesize bypassColorSpaceConversion=_bypassColorSpaceConversion;
-@property(nonatomic) CDStruct_79c71658 preferredResolution; // @synthesize preferredResolution=_preferredResolution;
 @property(nonatomic) _Bool shouldMatchFrameRate; // @synthesize shouldMatchFrameRate=_shouldMatchFrameRate;
 
 @end

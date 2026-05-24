@@ -11,12 +11,12 @@
     NSMutableOrderedSet *_elementStack;
 }
 
-+ (id);
++ (id)k!;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

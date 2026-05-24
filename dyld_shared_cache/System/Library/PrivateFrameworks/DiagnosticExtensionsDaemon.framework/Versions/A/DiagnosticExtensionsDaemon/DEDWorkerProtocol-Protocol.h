@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol DEDWorkerProtocol
-- (void)ssionWithFoundDevice:(NSString *)arg1 fromInbound: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)trySessionWithFoundDevice:(NSString *)arg1 fromInbound: /* Error: Ran out of types for this method. */;
 @end
 

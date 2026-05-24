@@ -7,7 +7,6 @@
 @interface Foundation.__JSONEncoder
 {
     id options;
-    id optionsLock;
 }
 
 @end

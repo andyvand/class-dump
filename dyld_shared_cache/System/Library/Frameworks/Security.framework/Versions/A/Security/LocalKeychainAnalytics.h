@@ -6,25 +6,17 @@
 
 #import <Security/SFAnalytics.h>
 
-@class NSDate, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface LocalKeychainAnalytics : SFAnalytics
 {
     _Bool _probablyInClassD;
-    NSMutableArray *_pendingReports;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _notificationToken;
-    NSDate *_backupStartTime;
-    int _backupType;
 }
 
-+ (id)ateKey;
++ (id)MLDSAPrivateKey;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

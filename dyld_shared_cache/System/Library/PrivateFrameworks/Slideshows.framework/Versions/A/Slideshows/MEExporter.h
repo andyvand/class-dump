@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MEExporterManager, MPDocument, NSCondition, NSString;
+@class MEExporterManager, MPDocument;
 
 @interface MEExporter
 {
     MEExporterManager *_manager;
-    MPDocument *_document;
-    SEL _progressSelector;
-    id _progressTarget;
-    id _progressObject;
-    _Bool _progressEnableImage;
-    _Bool _cancelled;
-    _Bool _paused;
-    NSCondition *_pauseCondition;
-    NSString *_tmpDirectory;
 }
 
 + (void);
@@ -29,13 +20,13 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)_ּ;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)0;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,15 +36,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)eInfoFor:time:start:end: /* Error: Ran out of types for this method. */;
+- (id)_bestTimeInfoFor:time:start:end: /* Error: Ran out of types for this method. */;
 - (_Bool)pÎ;
 
 // Remaining properties
 @property(readonly, nonatomic) MPDocument *document;
-@property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_cancelled;
-@property(readonly, nonatomic) _Bool isPaused; // @synthesize isPaused=_paused;
-@property(readonly, nonatomic) _Bool isProgressImageEnabled; // @synthesize isProgressImageEnabled=_progressEnableImage;
-@property(readonly, nonatomic) NSString *tmpDirectory; // @synthesize tmpDirectory=_tmpDirectory;
 
 @end
 

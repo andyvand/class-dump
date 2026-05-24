@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, EDString, OADGraphicProperties;
+@class EDResources, EDString;
 
 __attribute__((visibility("hidden")))
 @interface CHDDataLabel
 {
     EDResources *mResources;
-    EDString *mString;
-    unsigned long long mContentFormatId;
-    int mPosition;
-    _Bool mShowLeaderLines;
-    _Bool mShowCategoryName;
-    _Bool mShowSeriesName;
-    _Bool mShowPercent;
-    _Bool mShowBubbleSize;
-    _Bool mShowValue;
-    _Bool mShowLegendKey;
-    _Bool mIsPositionAffineTransform;
-    _Bool mContentFormatDerived;
-    _Bool mDeleted;
-    _Bool mExtensionDetected;
-    double mRotation;
-    OADGraphicProperties *mGraphicProperties;
-    OADGraphicProperties *mLeaderlineGraphicProperties;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (void);
-- (void)ouble:(int)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)encodeDouble:(int)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void)Pô*;
 - (void);
 

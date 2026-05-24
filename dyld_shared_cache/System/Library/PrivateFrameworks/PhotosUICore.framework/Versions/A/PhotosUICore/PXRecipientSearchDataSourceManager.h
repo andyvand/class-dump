@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PXRecipientSearchDataSource;
+@class NSString;
 
 @interface PXRecipientSearchDataSourceManager
 {
     NSString *_queryString;
-    NSSet *_usedAddresses;
-    unsigned long long _searchState;
 }
 
 - (id);
@@ -24,10 +22,7 @@
 - (void)movieCurationAffordance;
 
 // Remaining properties
-@property(readonly, nonatomic) PXRecipientSearchDataSource *dataSource; // @dynamic dataSource;
-@property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 @property(nonatomic) unsigned long long searchState; // @synthesize searchState=_searchState;
-@property(copy, nonatomic) NSSet *usedAddresses; // @synthesize usedAddresses=_usedAddresses;
 
 @end
 

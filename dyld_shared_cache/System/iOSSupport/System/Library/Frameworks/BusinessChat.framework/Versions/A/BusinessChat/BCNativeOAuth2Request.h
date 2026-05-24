@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id),N,V_percentageComplete;
 
 @end
 

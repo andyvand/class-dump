@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface PXFileNameUniquifierInMemoryCacheSource
 {
     NSMutableSet *_knownFilePaths;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -19,14 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableSet *knownFilePaths; // @synthesize knownFilePaths=_knownFilePaths;
-@property(readonly) Class superclass;
 
 @end
 

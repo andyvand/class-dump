@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.LocationSection.ActionHandlers
 {
     id stageLocationRequest;
-    id stopSharingLocation;
-    id sendCurrentLocation;
-    id shareLocation;
 }
 
 - (id);

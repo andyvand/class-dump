@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)ò;
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)blic}@] updateGroupSessionStorage;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (void)Not logging aggregate stats for existing memory blockable feature type %lu;
+- (id)IMAGE:(id)arg1 %d, %d;
+- (id);
+- (unsigned long long);
+- (_Bool)q;
 - (void);
 
 // Remaining properties

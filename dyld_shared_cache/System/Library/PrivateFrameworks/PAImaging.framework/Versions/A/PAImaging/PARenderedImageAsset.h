@@ -11,22 +11,20 @@
 @interface PARenderedImageAsset : PAImageAsset
 {
     long long _updateNumber;
-    _Bool _isInteractive;
-    NUComposition *_composition;
 }
 
 - (long long);
-- (CDStruct_19170857);
+- (CDStruct_912cb5d2);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct PFIntSize_st);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (long long);
+- (long long)FCArticleModalBrandBarConfig"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

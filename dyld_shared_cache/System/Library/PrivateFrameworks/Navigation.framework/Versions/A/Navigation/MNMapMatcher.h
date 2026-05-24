@@ -7,23 +7,12 @@
 @interface MNMapMatcher
 {
     id _route;
-    id _matchedPathSegmentsOnRoute;
-    id _roadIdsOnRoute;
-    id _locationHistory;
-    id _locationHistoryDistance;
-    id _routeRadiusPinnedCenter;
-    id _backwardsMovementDistance;
-    id _routeMatchedLocationHistory;
-    id _hasBeenOnRouteOnce;
-    id $__lazy_storage_$__routePartitionTree;
-    id $__lazy_storage_$__mapFeatureAccess;
-    id $__lazy_storage_$__pathMatcher;
 }
 
 + (id);
 - (void);
 - (id);
-- (void)eRouteInfo: /* Error: Ran out of types for this method. */;
+- (void)validTrafficIncidentAlertsForETAUpdate:alternateRouteInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

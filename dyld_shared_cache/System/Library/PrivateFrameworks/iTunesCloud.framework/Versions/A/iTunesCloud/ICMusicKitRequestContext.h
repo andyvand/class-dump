@@ -6,20 +6,17 @@
 
 #import <iTunesCloud/ICStoreRequestContext.h>
 
-@class NSString;
 @protocol ICDeveloperTokenProvider;
 
 @interface ICMusicKitRequestContext : ICStoreRequestContext
 {
     id <ICDeveloperTokenProvider> _developerTokenProvider;
-    long long _personalizationMethod;
-    NSString *_cachedDescription;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (long long);
 - (unsigned long long);
@@ -28,18 +25,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_initWithAnnotation:(CDUnknownBlockType)arg1 andPageController: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long)
 × ;
-- (void)kQueueEvent;
+- (void)ICLiveLinkQueueEvent;
 - (long long)ic}@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _storeRequestPersonalizationStyle;
-@property(readonly, nonatomic) id <ICDeveloperTokenProvider> developerTokenProvider; // @synthesize developerTokenProvider=_developerTokenProvider;
-@property(readonly, nonatomic) long long personalizationMethod; // @synthesize personalizationMethod=_personalizationMethod;
-@property(readonly, nonatomic) long long personalizationStyle;
 
 @end
 

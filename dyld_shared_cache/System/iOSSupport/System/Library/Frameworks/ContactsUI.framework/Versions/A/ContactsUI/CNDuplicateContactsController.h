@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, CNUIContactsEnvironment, ContactsUI.DuplicatesUIHelper, NSObject;
-@protocol CNContactDataSource, CNDuplicateContactsControllerDelegate;
+@class ContactsUI.DuplicatesUIHelper;
 
 __attribute__((visibility("hidden")))
 @interface CNDuplicateContactsController
 {
     _Bool _isPerformingMerge;
-    _Bool _isAlreadyFindingDuplicates;
-    NSObject<CNContactDataSource> *_dataSource;
-    id <CNDuplicateContactsControllerDelegate> _delegate;
-    ContactsUI.DuplicatesUIHelper *_duplicatesUIHelper;
-    CNContactFormatter *_contactFormatter;
-    CNUIContactsEnvironment *_environment;
-    long long _newDuplicatesCount;
-    long long _allDuplicatesCount;
-    double _mergeCompletedAt;
 }
 
 + (id);
@@ -35,15 +25,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_allGlobalIdsStatement;
 - (long long);
 - (_Bool);
 - (void);
 - (id);
+- (void)im_eventWithDefaultTopic;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)modulesMetadata;
 - (_Bool);
 - (long long);
 - (void);
@@ -56,12 +46,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)appendString: /* Error: Ran out of types for this method. */;
+- (_Bool)ing initial for host instead:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (void)_NSRange=QQ}16;
 - (double);
 - (void);
 - (id);
@@ -69,25 +59,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)1Â0@ù
 × ;
-- (void)carSystemFocusLabelColor;
+- (void)_carSystemFocusLabelColor;
 - (id);
 - (id)è6|+;
 - (_Bool)î;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long allDuplicatesCount; // @synthesize allDuplicatesCount=_allDuplicatesCount;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(readonly, nonatomic) CNContactStore *contactStore;
-@property(retain, nonatomic) NSObject<CNContactDataSource> *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <CNDuplicateContactsControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) ContactsUI.DuplicatesUIHelper *duplicatesUIHelper; // @synthesize duplicatesUIHelper=_duplicatesUIHelper;
-@property(retain, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool isAlreadyFindingDuplicates; // @synthesize isAlreadyFindingDuplicates=_isAlreadyFindingDuplicates;
-@property(nonatomic) _Bool isPerformingMerge; // @synthesize isPerformingMerge=_isPerformingMerge;
-@property(nonatomic) long long lastIgnoredNewDuplicatesCount;
-@property(nonatomic) double mergeCompletedAt; // @synthesize mergeCompletedAt=_mergeCompletedAt;
-@property(nonatomic) long long newDuplicatesCount; // @synthesize newDuplicatesCount=_newDuplicatesCount;
 
 @end
 

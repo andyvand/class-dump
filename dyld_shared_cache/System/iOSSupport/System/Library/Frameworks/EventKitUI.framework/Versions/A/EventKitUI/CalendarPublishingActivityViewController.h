@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void)ed;
+- (id);
+- (void)s;
+- (_Bool)s;
+- (void)isBeingDismissed;
 
 // Remaining properties
 @property __weak id <CalendarPublishingActivityDelegate> activityDelegate; // @synthesize activityDelegate=_activityDelegate;

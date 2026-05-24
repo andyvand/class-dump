@@ -6,13 +6,9 @@
 
 #import <UIFoundation/UIPointFIFO.h>
 
-@class _UIPointVector;
-
 @interface UIBoxcarFilterPointFIFO : UIPointFIFO
 {
     unsigned long long _width;
-    float _spacing;
-    _UIPointVector *_prevPoints;
 }
 
 - (void);
@@ -27,11 +23,9 @@
 - (void);
 - (void);
 - (float);
-- (void)tor;
+- (void)_UIPointVector;
 
 // Remaining properties
-@property(retain, nonatomic) _UIPointVector *prevPoints; // @synthesize prevPoints=_prevPoints;
-@property(nonatomic) float spacing; // @synthesize spacing=_spacing;
 @property(nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end

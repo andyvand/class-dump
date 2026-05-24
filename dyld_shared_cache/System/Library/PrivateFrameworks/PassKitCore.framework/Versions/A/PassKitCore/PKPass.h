@@ -6,82 +6,11 @@
 
 #import <PassKitCore/PKObject.h>
 
-@class NSArray, NSData, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSURL, PKImage, PKLiveRenderedShaderSet, PKNFCPayload;
+@class PKLiveRenderedShaderSet;
 
 @interface PKPass : PKObject
 {
     PKLiveRenderedShaderSet *_liveRenderedShaderSet;
-    _Bool _remotePass;
-    _Bool _isCloudKitArchived;
-    _Bool _isCloudKitSecurelyArchived;
-    _Bool _voided;
-    _Bool _hasStoredValue;
-    _Bool _liveRenderedBackground;
-    _Bool _supportsCategoryVisualization;
-    _Bool _liveRenderingRequiresEnablement;
-    _Bool _muteReadyForUseNotification;
-    _Bool _supportsLifecycleUpdates;
-    _Bool _revoked;
-    NSArray *_embeddedLocations;
-    unsigned long long _passType;
-    NSString *_serialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_organizationName;
-    NSArray *_relevantDates;
-    NSDictionary *_userInfo;
-    NSURL *_passURL;
-    NSString *_deviceName;
-    NSString *_passLibraryMachServiceName;
-    NSNumber *_sequenceCounter;
-    NSData *_cloudKitMetadata;
-    NSData *_cloudKitSecureMetadata;
-    NSString *_teamID;
-    NSDate *_expirationDate;
-    NSString *_groupingID;
-    NSSet *_embeddedBeacons;
-    NSURL *_webLocationsURL;
-    NSURL *_localLocationsURL;
-    long long _sharingMethod;
-    NSURL *_sharingURL;
-    NSString *_sharingText;
-    NSSet *_associatedPassTypeIdentifiers;
-    PKNFCPayload *_nfcPayload;
-    NSURL *_transferURL;
-    NSURL *_sellURL;
-    NSURL *_upgradeURL;
-    NSURL *_managementURL;
-    NSURL *_bagPolicyURL;
-    NSURL *_orderFoodURL;
-    NSURL *_transitInformationURL;
-    NSURL *_parkingInformationURL;
-    NSURL *_directionsInformationURL;
-    NSURL *_merchandiseURL;
-    NSURL *_accessibilityURL;
-    NSURL *_purchaseParkingURL;
-    NSURL *_partnerAddOnURL;
-    NSURL *_purchaseWifiURL;
-    NSURL *_changeSeatURL;
-    NSURL *_entertainmentURL;
-    NSURL *_standbyListURL;
-    NSURL *_purchaseAdditionalBaggageURL;
-    NSURL *_purchaseLoungeAccessURL;
-    NSURL *_reportLostBagURL;
-    NSURL *_trackBagsURL;
-    NSURL *_requestWheelchairURL;
-    NSURL *_registerServiceAnimalURL;
-    NSURL *_contactVenuePhoneNumber;
-    NSURL *_contactVenueEmail;
-    NSURL *_contactVenueWebsite;
-    NSURL *_transitProviderPhoneNumberURL;
-    NSURL *_transitProviderEmailURL;
-    NSURL *_transitProviderWebsiteURL;
-    PKImage *_partialFrontFaceImagePlaceholder;
-    unsigned long long _liveRenderType;
-    unsigned long long _homeKeyLiveRenderType;
-    NSString *_provisioningCredentialHash;
-    NSString *_cardholderInfoSectionTitle;
-    NSDate *_ingestedDate;
-    NSDate *_modifiedDate;
 }
 
 @end

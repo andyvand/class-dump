@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSourceConfiguration, FigMetadataObjectCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration;
+@class FigVideoCaptureConnectionConfiguration;
 
 @interface FigCaptureSessionParsedVideoDataSinkConfiguration
 {
     FigVideoCaptureConnectionConfiguration *_videoDataConnectionConfiguration;
-    FigMetadataObjectCaptureConnectionConfiguration *_metadataObjectConnectionConfiguration;
-    FigCaptureSourceConfiguration *_cameraConfiguration;
-    int _sourceDeviceType;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)readTriggerEvent:timeCondition: /* Error: Ran out of types for this method. */;
+- (id)m.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUDateParser.m;
+- (id);
 - (id);
 - (int)ed rectangle [x:%.3f,y:%.3f,w:%.3f,h:%.3f] from DeskCamSession for Desk View zoom factor %.3f on capture device (%p) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FigCaptureSourceConfiguration *cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
-@property(readonly, nonatomic) FigMetadataObjectCaptureConnectionConfiguration *metadataObjectConnectionConfiguration; // @synthesize metadataObjectConnectionConfiguration=_metadataObjectConnectionConfiguration;
-@property(readonly, nonatomic) int sourceDeviceType; // @synthesize sourceDeviceType=_sourceDeviceType;
 @property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoDataConnectionConfiguration; // @synthesize videoDataConnectionConfiguration=_videoDataConnectionConfiguration;
 
 @end

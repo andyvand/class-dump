@@ -14,8 +14,8 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)H[\|;
+- (id);
 - (id);
 - (void);
 - (void);

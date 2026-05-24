@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleMediaAccessoryLocalMessageHandler, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDMessageRouter, OS_dispatch_queue;
+@class NSUUID;
+@protocol HMDMessageRouter;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryMessenger
 {
     id <HMDMessageRouter> _router;
-    NSUUID *_identifier;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDAppleMediaAccessoryLocalMessageHandler *_localHandler;
 }
 
 + (id)ÿB;
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (id);
 - (id);
 - (id);
@@ -30,22 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)Ü*>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMDAppleMediaAccessoryLocalMessageHandler *localHandler; // @synthesize localHandler=_localHandler;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) id <HMDMessageRouter> router; // @synthesize router=_router;
-@property(readonly) Class superclass;
 
 @end
 

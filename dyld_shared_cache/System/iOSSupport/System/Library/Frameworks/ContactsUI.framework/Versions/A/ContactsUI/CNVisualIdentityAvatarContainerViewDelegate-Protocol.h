@@ -5,5 +5,6 @@
 //
 
 @protocol CNVisualIdentityAvatarContainerViewDelegate
+- (struct CGSize)S;
 @end
 

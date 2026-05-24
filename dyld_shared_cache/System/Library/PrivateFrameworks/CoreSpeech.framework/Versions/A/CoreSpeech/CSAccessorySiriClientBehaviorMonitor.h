@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSAccessorySiriClientBehaviorMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
 }
 
-+ (id)tType;
++ (id)_lastUpdatedAssetType;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)h:(id)arg1;
 - (void);
 - (void);
 - (id);
+- (void)faceObservationCountsDistribution;
+- (void);
 - (id);
-- (void)k;
+- (id);
+- (void)_timerCallback;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

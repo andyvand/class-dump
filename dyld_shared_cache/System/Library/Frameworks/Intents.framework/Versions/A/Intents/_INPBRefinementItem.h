@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBSelectionItem;
+@class _INPBSelectionItem;
 
 @interface _INPBRefinementItem
 {
     struct _has;
-    _INPBSelectionItem *_item;
-    NSString *_subKeyPath;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (_Bool)a;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)extBatchSlotResolutionQueue;
+- (void)INCExtensionContextBatchSlotResolutionQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasItem;
-@property(readonly, nonatomic) _Bool hasSubKeyPath;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBSelectionItem *item; // @synthesize item=_item;
-@property(copy, nonatomic) NSString *subKeyPath; // @synthesize subKeyPath=_subKeyPath;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,22 +7,18 @@
 @interface IKSyncTaskBagItem
 {
     id image;
-    id cell;
-    id source;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)set info from database for %lu file sizes:(id)arg1 %g;
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain) id cell; // @synthesize cell;
 @property(retain) id image; // @synthesize image;
-@property(retain) id source; // @synthesize source;
 
 @end
 

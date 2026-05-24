@@ -9,7 +9,6 @@
 @interface REMReplicaManagerSerializedData
 {
     NSData *_managerData;
-    unsigned long long _version;
 }
 
 + (id);
@@ -20,15 +19,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)$;
 - (void);
 - (void)áê!@GùÑr Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isRepresentingDiscardedReplicaManager;
-@property(readonly, nonatomic) NSData *managerData; // @synthesize managerData=_managerData;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

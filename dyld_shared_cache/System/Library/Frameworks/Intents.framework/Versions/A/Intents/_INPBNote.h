@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBDateTime;
+@class NSString;
 
 @interface _INPBNote
 {
     struct _has;
-    NSString *_accountIdentifier;
-    NSArray *_contents;
-    _INPBDateTime *_createdDateTime;
-    _INPBDataString *_groupName;
-    NSString *_identifier;
-    _INPBDateTime *_modifiedDateTime;
-    _INPBDataString *_title;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class)LxU;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)__objc_classrefs__DATA;
 - (id);
-- (void);
+- (void)K;
 - (id);
 - (void);
 - (unsigned long long);
@@ -50,33 +43,13 @@
 - (id);
 - (id)!%!ÔAùQ¿(1Â0@ù
 × ;
-- (id)nDate;
+- (id)hasExpirationDate;
 - (void)em/Library/PrivateFrameworks/IntentsUI.framework/Contents/MacOS/IntentsUI;
-- (void)t:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideParticipantsOptionsForCreateEvent:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (void)÷çÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(retain, nonatomic) _INPBDateTime *createdDateTime; // @synthesize createdDateTime=_createdDateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDataString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasAccountIdentifier;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime; // @synthesize modifiedDateTime=_modifiedDateTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

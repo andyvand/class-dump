@@ -6,12 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFHTTPRequest, HMFHTTPResponseInternal, NSData, NSDictionary;
+@class HMFHTTPResponseInternal;
 
 @interface HMFHTTPResponse : HMFObject
 {
     HMFHTTPResponseInternal *_internal;
-    HMFHTTPRequest *_request;
 }
 
 - (id);
@@ -20,18 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)HMFetchCurrentHomeActivityStateMessage;
 - (id);
 - (void);
-- (id)ce:data:salts: /* Error: Ran out of types for this method. */;
+- (id)hmf_UUIDWithNamespace:data:salts: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *body;
-@property(readonly, nonatomic) NSDictionary *headerFields;
 @property(readonly, nonatomic) HMFHTTPResponseInternal *internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) HMFHTTPRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) long long statusCode;
 
 @end
 

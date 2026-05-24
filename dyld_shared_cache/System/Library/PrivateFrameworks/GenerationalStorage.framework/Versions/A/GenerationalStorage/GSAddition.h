@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol GSAdditionStoring><GSAdditionStoringPrivate;
 
 @interface GSAddition
 {
     NSObject<GSAdditionStoring><GSAdditionStoringPrivate> *_storage;
-    unsigned long long _options;
-    NSNumber *_size;
-    NSString *_namespace;
-    NSURL *_url;
-    NSString *_originalName;
-    NSString *_displayName;
-    NSDictionary *_userInfo;
-    _Bool _savedConflictResolved;
 }
 
 @end

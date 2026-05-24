@@ -9,13 +9,9 @@
 @interface PKColor
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
-    _Atomic struct CGColor *_colorRef;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -24,17 +20,15 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)2;
+- (_Bool)hasMaxDLCAConfigured;
 - (void);
-- (id);
+- (id);
 - (double)!4Cùñï%ð1Â0@ù
 × ;
 - (struct CGColor *)Cannot Present - already performing action;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColor *CGColor;
-@property(readonly, nonatomic) unsigned long long hash;
 @property(readonly, nonatomic) __weak NSString *string;
 
 @end

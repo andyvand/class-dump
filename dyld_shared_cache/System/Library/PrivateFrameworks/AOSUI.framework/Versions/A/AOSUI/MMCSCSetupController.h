@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMCSCOptionsSetupViewController, MMCSCPassPhraseSetupViewController, MMCSCPinSetupViewController, MMCSCSMSTargetSetupViewController, NSMutableDictionary, NSString, NSWindow;
-@protocol MMCSCSetupControllerDelegate;
+@class NSWindow;
 
 @interface MMCSCSetupController
 {
     NSWindow *_parentWindow;
-    NSString *_passPhrase;
-    NSString *_smsCountryCode;
-    NSString *_smsCountryPrefix;
-    NSString *_smsTarget;
-    long long _currentView;
-    NSMutableDictionary *_setupContext;
-    _Bool _isUpdatingPassphrase;
-    _Bool _usingNumericPassphrase;
-    int _numericPassphraseLength;
-    id <MMCSCSetupControllerDelegate> _delegate;
-    NSWindow *_dialog;
-    MMCSCPinSetupViewController *_cscPinVC;
-    MMCSCOptionsSetupViewController *_cscOptionsVC;
-    MMCSCPassPhraseSetupViewController *_cscPassPhraseVC;
-    MMCSCSMSTargetSetupViewController *_cscSMSTargetVC;
 }
 
 - (_Bool);
@@ -42,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)q3;
 - (void);
 - (void);
 - (void);
@@ -55,22 +39,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool)b;
+- (_Bool)i;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -81,30 +65,7 @@
 × ;
 
 // Remaining properties
-@property(retain) MMCSCOptionsSetupViewController *cscOptionsVC; // @synthesize cscOptionsVC=_cscOptionsVC;
-@property(retain) MMCSCPassPhraseSetupViewController *cscPassPhraseVC; // @synthesize cscPassPhraseVC=_cscPassPhraseVC;
-@property(retain) MMCSCPinSetupViewController *cscPinVC; // @synthesize cscPinVC=_cscPinVC;
-@property(retain) MMCSCSMSTargetSetupViewController *cscSMSTargetVC; // @synthesize cscSMSTargetVC=_cscSMSTargetVC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCSetupControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property __weak NSWindow *dialog; // @synthesize dialog=_dialog;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSecurePassphrase; // @dynamic isSecurePassphrase;
-@property _Bool isUpdatingPassphrase; // @synthesize isUpdatingPassphrase=_isUpdatingPassphrase;
-@property int numericPassphraseLength; // @synthesize numericPassphraseLength=_numericPassphraseLength;
 @property(retain) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
-@property(retain) NSMutableDictionary *setupContext; // @synthesize setupContext=_setupContext;
-@property(copy) NSString *smsCountryCode; // @synthesize smsCountryCode=_smsCountryCode;
-@property(copy) NSString *smsCountryPrefix; // @synthesize smsCountryPrefix=_smsCountryPrefix;
-@property(copy) NSString *smsTarget; // @synthesize smsTarget=_smsTarget;
-@property(readonly) Class superclass;
-@property(readonly) _Bool usingComplexPassphrase; // @dynamic usingComplexPassphrase;
-@property _Bool usingNumericPassphrase; // @synthesize usingNumericPassphrase=_usingNumericPassphrase;
 
 @end
 

@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKPaper
 {
     NSString *_name;
-    NSString *_cachedBaseName;
-    int _width;
-    int _height;
-    int _leftMargin;
-    int _topMargin;
-    int _rightMargin;
-    int _bottomMargin;
-    NSDictionary *_mediaInfo;
 }
 
 + (_Bool);
 + (id);
 + (id);
++ (id)NC9;
 + (id);
 + (id);
 + (id);
@@ -31,24 +24,23 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)~));
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)k�;
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -64,7 +56,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize))};
 - (int);
 - (id);
 - (id);
@@ -73,38 +65,20 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int);
 - (int);
 - (id);
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id)eRepeatCountUpdated;
 - (int);
 - (id);
 - (int);
-- (void);
+- (void)AXKElementCacheValue;
 
 // Remaining properties
-@property(readonly) unsigned long long bottomMarginInPoints; // @dynamic bottomMarginInPoints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int height;
-@property(readonly) struct CGRect imageableAreaRect;
-@property(readonly) _Bool isRoll; // @dynamic isRoll;
 @property(readonly) NSString *localizedName; // @dynamic localizedName;
-@property(readonly) unsigned long long maxCutLength; // @dynamic maxCutLength;
-@property(readonly) NSDictionary *mediaInfo;
-@property(readonly) NSString *mediaTypeName; // @dynamic mediaTypeName;
-@property(readonly) unsigned long long minCutLength; // @dynamic minCutLength;
-@property(readonly) struct CGSize paperSize;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long topMarginInPoints; // @dynamic topMarginInPoints;
-@property(readonly, nonatomic) int width;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol WCMClientDelegate
+- (void);
 @end
 

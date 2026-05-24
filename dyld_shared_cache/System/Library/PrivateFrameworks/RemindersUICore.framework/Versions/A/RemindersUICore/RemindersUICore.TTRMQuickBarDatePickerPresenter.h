@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarDatePickerPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id editingSession;
-    id dateOnlyComponents;
-    id timeToPreserve;
 }
 
 @end

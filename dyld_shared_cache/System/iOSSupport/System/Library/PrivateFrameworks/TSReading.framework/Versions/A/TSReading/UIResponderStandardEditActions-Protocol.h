@@ -7,14 +7,17 @@
 @protocol UIResponderStandardEditActions
 
 @optional
+- (void)ipt_user_channel_context_data_dictionary;
+- (void)UserNotifications;
+- (void);
+- (void)A;
 - (void)0@ù
 × ;
-- (void)las;
+- (void)mDontInflateFormulas;
 - (void)ts;
 - (void)during threaded layout;
 - (void)dViewController showPopoverFromRect:(id)arg1 inView:arrowDirection:animated:constrainToView:withPadding:fromToolbar:] /* Error: Ran out of types for this method. */;
-- (void)oldCurveControlPointDistance;
-- (void);
+- (void)thresholdCurveControlPointDistance;
 - (void)Ä;
 - (void)àôÀ(;
 - (void)¦Å;

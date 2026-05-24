@@ -6,22 +6,19 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSOperationQueue, NSURLSessionTask, VSAuditToken, VSOptional;
+@class NSURLSessionTask, VSAuditToken;
 
 @interface VSVerificationStateResetOperation : VSAsyncOperation
 {
     VSAuditToken *_auditToken;
-    VSOptional *_result;
-    NSURLSessionTask *_resetStateTask;
-    NSOperationQueue *_privateQueue;
 }
 
-- (void);
+- (void);
 - (id);
+- (id)nablerNS_9allocatorISF_EEEE;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ps://ph.search.yahoo.com/ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) VSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
 @property(retain, nonatomic) NSURLSessionTask *resetStateTask; // @synthesize resetStateTask=_resetStateTask;
-@property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end
 

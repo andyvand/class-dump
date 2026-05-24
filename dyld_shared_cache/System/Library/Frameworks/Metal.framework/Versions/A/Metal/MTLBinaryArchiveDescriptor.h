@@ -9,7 +9,6 @@
 @interface MTLBinaryArchiveDescriptor
 {
     NSURL *_url;
-    unsigned long long _options;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)kEventTSMDocumentAccessGetFont;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) unsigned long long writingOptions;
 
 @end
 

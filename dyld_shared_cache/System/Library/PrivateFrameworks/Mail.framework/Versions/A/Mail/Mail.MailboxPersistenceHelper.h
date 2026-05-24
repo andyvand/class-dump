@@ -7,17 +7,6 @@
 @interface Mail.MailboxPersistenceHelper
 {
     id mailbox;
-    id mailboxURL;
-    id mailboxRowID;
-    id mailboxPersistence;
-    id store;
-    id serverMessagePersistence;
-    id messageChangeManager;
-    id mimeCache;
-    id analytics;
-    id logger;
-    id recentMessageSummaries;
-    id mailboxMetadata;
 }
 
 @end

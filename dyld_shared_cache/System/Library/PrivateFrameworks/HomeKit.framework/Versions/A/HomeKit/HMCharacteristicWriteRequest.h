@@ -6,7 +6,6 @@
 
 #import <HomeKit/HMCharacteristicRequest.h>
 
-@class NSString;
 @protocol NSCopying><NSObject;
 
 @interface HMCharacteristicWriteRequest : HMCharacteristicRequest
@@ -17,18 +16,11 @@
 + (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)photography;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <NSCopying><NSObject> value; // @synthesize value=_value;
 
 @end

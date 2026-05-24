@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaGroupsStageManagerDelegate
+- (void)String;
 @end
 

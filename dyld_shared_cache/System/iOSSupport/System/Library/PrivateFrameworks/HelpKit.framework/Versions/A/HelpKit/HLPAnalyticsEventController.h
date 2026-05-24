@@ -10,20 +10,18 @@
 {
     NSDictionary *_requiredKeys;
     NSMutableDictionary *_countersByKey;
-    NSString *_identifier;
-    NSString *_version;
 }
 
 + (id);
-- (void);
-- (void);
+- (void);
+- (void)M;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
-- (void);
+- (void)40Q48;
 - (id);
 - (void);
 - (id);
@@ -31,8 +29,6 @@
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *countersByKey; // @synthesize countersByKey=_countersByKey;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *requiredKeys; // @synthesize requiredKeys=_requiredKeys;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

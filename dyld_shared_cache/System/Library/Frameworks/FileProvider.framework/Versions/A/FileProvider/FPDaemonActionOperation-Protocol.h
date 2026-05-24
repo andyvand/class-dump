@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
+
 @protocol FPDaemonActionOperation
+- (NSProgress *)M;
+- (void)NSt3__120__shared_ptr_emplaceI11SipAuthInfoNS_9allocatorIS1_EEEE;
 @end
 

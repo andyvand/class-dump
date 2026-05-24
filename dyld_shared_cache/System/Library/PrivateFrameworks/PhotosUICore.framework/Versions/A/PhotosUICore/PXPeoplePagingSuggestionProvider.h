@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface PXPeoplePagingSuggestionProvider
 {
     NSArray *_currentSuggestions;
-    NSMutableArray *_unvisitedSuggestions;
-    NSMutableArray *_visitedSuggestions;
 }
 
 - (id);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *currentSuggestions; // @synthesize currentSuggestions=_currentSuggestions;
-@property(retain, nonatomic) NSMutableArray *unvisitedSuggestions; // @synthesize unvisitedSuggestions=_unvisitedSuggestions;
-@property(retain, nonatomic) NSMutableArray *visitedSuggestions; // @synthesize visitedSuggestions=_visitedSuggestions;
 
 @end
 

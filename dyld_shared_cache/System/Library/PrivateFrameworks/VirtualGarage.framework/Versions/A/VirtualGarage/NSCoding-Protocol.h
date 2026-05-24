@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)AXUnitTesting;
+- (void)copyAttributedTokensForMessage:(NSCoder *)arg1 conversationTurns:metadata:languageID: /* Error: Ran out of types for this method. */;
 @end
 

@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)T_;
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *iCloudIcon; // @synthesize iCloudIcon=_iCloudIcon;

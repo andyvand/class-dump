@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSString;
+@class CKRecordID;
 
 @interface PKCloudDeletedRecord
 {
     CKRecordID *_recordID;
-    NSString *_recordType;
 }
 
 + (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)�;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)hasHeapFreeMax;
 - (void);
-- (void)tificationAssetIdentifier;
+- (void)marketNotificationAssetIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPass;
-@property(readonly, nonatomic) _Bool isPassCatalog;
-@property(readonly, nonatomic) _Bool isRemoteAsset;
 @property(readonly, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly, copy, nonatomic) NSString *recordName;
-@property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 
 @end
 

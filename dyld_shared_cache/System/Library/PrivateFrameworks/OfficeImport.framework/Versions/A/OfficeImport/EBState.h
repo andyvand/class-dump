@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, EDWorkbook;
 @protocol TCCancelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EBState
 {
     void *mXlLinkTable;
-    void *mXlNameTable;
-    void *mSheetNames;
-    void *mXlFormulaProcessor;
-    EDWorkbook *mWorkbook;
-    EDResources *mResources;
-    id <TCCancelDelegate> mCancelDelegate;
 }
 
 - (void *);

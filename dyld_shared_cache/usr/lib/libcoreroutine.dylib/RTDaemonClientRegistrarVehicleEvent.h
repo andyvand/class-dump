@@ -6,27 +6,20 @@
 
 #import <coreroutine/RTDaemonClientRegistrar.h>
 
-@class NSObject, NSString, RTInvocationDispatcher, RTVehicleLocationProvider;
-@protocol OS_dispatch_queue, RTDaemonClientRegistrarVehicleEventProtocol;
-
 @interface RTDaemonClientRegistrarVehicleEvent : RTDaemonClientRegistrar
 {
     _Bool _registered;
-    id <RTDaemonClientRegistrarVehicleEventProtocol> _delegate;
-    RTInvocationDispatcher *_dispatcher;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (void);
-- (long long);
+- (long long)ication on %@;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)Q28;
+- (id)continuity:didStopTrackingPeer:type: /* Error: Ran out of types for this method. */;
+- (id)H;
 - (void);
 - (id);
 - (void)0@ù
@@ -40,18 +33,7 @@
 - (void)L;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RTDaemonClientRegistrarVehicleEventProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) _Bool registered; // @synthesize registered=_registered;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
 
 @end
 

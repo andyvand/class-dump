@@ -11,21 +11,6 @@
 @interface WiFiUsageLQMKernelSampleRxAmpdu : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _rxAmpdu;
-    unsigned long long _rxMpduDensity;
-    unsigned long long _rxBarOverRxAmpdu;
-    unsigned long long _rxQueuedOverRxAmpdu;
-    unsigned long long _rxAmpduAll;
-    unsigned long long _rxHoles;
-    unsigned long long _rxDup;
-    unsigned long long _rxStuck;
-    unsigned long long _rxOow;
-    unsigned long long _rxOos;
-    unsigned long long _rxAddBaReq;
-    unsigned long long _txAddBaResp;
-    unsigned long long _txDelBa;
-    unsigned long long _rxDelBa;
 }
 
 + (id);
@@ -48,7 +33,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -59,29 +44,14 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double)multicolorSectionProviderForCoreMulticolorPicker:platform:configuration:imageProvider:colorLayerProvider:editingColors:colorDefaultsProvider:modelManager:previousSectionMap:pairingPickers: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long rxAddBaReq; // @synthesize rxAddBaReq=_rxAddBaReq;
-@property(nonatomic) unsigned long long rxAmpdu; // @synthesize rxAmpdu=_rxAmpdu;
-@property(nonatomic) unsigned long long rxAmpduAll; // @synthesize rxAmpduAll=_rxAmpduAll;
-@property(nonatomic) unsigned long long rxBarOverRxAmpdu; // @synthesize rxBarOverRxAmpdu=_rxBarOverRxAmpdu;
-@property(nonatomic) unsigned long long rxDelBa; // @synthesize rxDelBa=_rxDelBa;
-@property(nonatomic) unsigned long long rxDup; // @synthesize rxDup=_rxDup;
-@property(nonatomic) unsigned long long rxHoles; // @synthesize rxHoles=_rxHoles;
-@property(nonatomic) unsigned long long rxMpduDensity; // @synthesize rxMpduDensity=_rxMpduDensity;
-@property(nonatomic) unsigned long long rxOos; // @synthesize rxOos=_rxOos;
-@property(nonatomic) unsigned long long rxOow; // @synthesize rxOow=_rxOow;
-@property(nonatomic) unsigned long long rxQueuedOverRxAmpdu; // @synthesize rxQueuedOverRxAmpdu=_rxQueuedOverRxAmpdu;
-@property(nonatomic) unsigned long long rxStuck; // @synthesize rxStuck=_rxStuck;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long txAddBaResp; // @synthesize txAddBaResp=_txAddBaResp;
-@property(nonatomic) unsigned long long txDelBa; // @synthesize txDelBa=_txDelBa;
 
 @end
 

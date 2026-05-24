@@ -4,48 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNPhotoPickerProviderItem, CNPhotoPickerVariantsManager, CNVisualIdentityEditablePrimaryAvatarTextField, NSString, UIFont, UIImageView, UIView;
+@class UIImageView;
 @protocol CNVisualIdentityEditablePrimaryAvatarViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNVisualIdentityEditablePrimaryAvatarViewController
 {
     id <CNVisualIdentityEditablePrimaryAvatarViewControllerDelegate> _delegate;
-    double _desiredFontSize;
-    CNPhotoPickerProviderItem *_providerItem;
-    UIImageView *_imageContainerView;
-    CNVisualIdentityEditablePrimaryAvatarTextField *_textField;
-    UIFont *_originalFont;
-    CAShapeLayer *_clippingLayer;
-    UIView *_imageContentView;
-    CNPhotoPickerVariantsManager *_variantsManager;
 }
 
 - (id);
+- (id)xb;
 - (id);
+- (void);
+- (void);
+- (void)I;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)f;
 - (void);
 - (double);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)T?	;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (void);
@@ -55,9 +47,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)K;
+- (id);
+- (void)?k@;
 - (id);
 - (void);
 - (void);
@@ -72,27 +64,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (void)etrics: /* Error: Ran out of types for this method. */;
+- (void)backgroundImageForState:barMetrics: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityEditablePrimaryAvatarViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double desiredFontSize; // @synthesize desiredFontSize=_desiredFontSize;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIImageView *imageContainerView; // @synthesize imageContainerView=_imageContainerView;
-@property(retain, nonatomic) UIView *imageContentView; // @synthesize imageContentView=_imageContentView;
-@property(retain, nonatomic) UIFont *originalFont; // @synthesize originalFont=_originalFont;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *providerItem; // @synthesize providerItem=_providerItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *text;
-@property(retain, nonatomic) CNVisualIdentityEditablePrimaryAvatarTextField *textField; // @synthesize textField=_textField;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
+- (void)== 'hidden' || documentElementStyle.pointerEvents === 'none')            return true;    }    return false;})();;
 - (void);
 - (id);
-- (void)tentUserAccount;
+- (void)VSPersistentUserAccount;
 - (id);
 
 // Remaining properties

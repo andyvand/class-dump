@@ -5,6 +5,10 @@
 //
 
 @protocol HMDHouseholdActivityLogEventContributing
+- (void)MSPTransitStorageSystem;
+- (void)MSPMapsPushDaemonRemoteProxy;
+- (void)h height %lu %lu;
+- (void)P;
 - (void)ceBulletinConditionDatabaseID",R,C,N;
 - (void);
 @end

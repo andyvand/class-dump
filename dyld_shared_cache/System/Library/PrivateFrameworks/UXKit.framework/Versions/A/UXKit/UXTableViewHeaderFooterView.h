@@ -6,37 +6,30 @@
 
 #import <UXKit/UXCollectionReusableView.h>
 
-@class NSMutableArray, UXLabel, UXView;
+@class NSMutableArray, UXLabel;
 
 @interface UXTableViewHeaderFooterView : UXCollectionReusableView
 {
     NSMutableArray *_constraints;
-    UXLabel *_textLabel;
-    UXLabel *_detailTextLabel;
-    UXView *_contentView;
-    UXView *_backgroundView;
 }
 
+- (void)nInitialized;
+- (void)linePlayback;
+- (id)R,N,V_viewModel;
+- (id)ecorded events:(id)arg1 %@;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)} kernel vec4 meaningBlur(sampler image, sampler blur) { vec4 im = sample(image, samplerCoord(image)) ; vec4 b = sample(blur, samplerCoord(blur)) ; vec4 result = im; float thresh = 0.1; float g1 = max(max(im.r, im.g), im.b); float g2 = dot(b.rgb, vec3(1.0/3.0)); float diff = max(g2-g1, -1.0); diff = smoothstep(0.1-thresh, 0.1+thresh, diff); result.rgb = mix(im.rgb, b.rgb, diff+0.5); return result; };
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)Container;
+- (id)detachedBarsContainer;
 
 // Remaining properties
-@property(retain, nonatomic) UXView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UXLabel *detailTextLabel; // @synthesize detailTextLabel=_detailTextLabel;
 @property(retain, nonatomic) UXLabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end

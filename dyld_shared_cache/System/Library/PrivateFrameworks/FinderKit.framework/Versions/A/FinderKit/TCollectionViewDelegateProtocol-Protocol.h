@@ -5,5 +5,6 @@
 //
 
 @protocol TCollectionViewDelegateProtocol
+- (_Bool);
 @end
 

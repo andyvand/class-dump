@@ -6,21 +6,18 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRImageProvider, MRTextRenderer;
+@class MRImageProvider;
 
 @interface MREffectShatterTitle : MREffect
 {
     MRImageProvider *mMasks[9];
-    MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)peStoreObserver>",W,N,V_observer;
+- (_Bool)8p;
+- (_Bool)ytics/NDAnalyticsUploadScheduler.m;
+- (id)Assembler assemblePayloadsWithEntries:(id)arg1 lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:] /* Error: Ran out of types for this method. */;
+- (_Bool)peManager initWithAppConfigurationManager:(struct CGPoint (*)[4])arg1 telemetryUploader:(float [16])arg2 storeDirectoryFileURL:(id)arg3 URLSessionQueue:] /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (long long);

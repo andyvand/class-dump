@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)d}"size"{CGSize="width"d"height"d}};
 - (id)T\;
 
 @end

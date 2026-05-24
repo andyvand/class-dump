@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UINSSuggestionItemSection
 {
     NSString *_title;
-    NSArray *_items;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (void);
+- (void)tring",&,V_fbq;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADSequenceToken, EKTimedEventStorePurger, NSDate, NSDateFormatter, NSObject, NSString, NSTimer, RTRoutineManager;
-@protocol OS_dispatch_queue;
+@class CADSequenceToken;
 
 @interface _EKAlarmEngine
 {
     CADSequenceToken *_lastDBSequenceToken;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSDate *_nextFireDate;
-    NSDate *_lastCheckpoint;
-    _Bool _populating;
-    NSDate *_populateStart;
-    NSTimer *_syncTimer;
-    _Bool _pendingChanges;
-    _Bool _needsAlarmTablePopulation;
-    NSDateFormatter *_dateFormatter;
-    RTRoutineManager *_routineManager;
-    NSDate *_tomorrow;
-    _Bool _shouldUpdateWithForceForAlarmTable;
-    EKTimedEventStorePurger *_timedEventStorePurger;
 }
 
 + (id);
@@ -30,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (_Bool);
@@ -49,13 +35,13 @@
 - (void);
 - (void);
 - (void);
+- (void)26RegistrationModelInterface;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)graphableFunction2D;
 - (void);
 - (void);
 - (void);
@@ -64,13 +50,7 @@
 - (id)ove the associated refresh timer for source client identifier = %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

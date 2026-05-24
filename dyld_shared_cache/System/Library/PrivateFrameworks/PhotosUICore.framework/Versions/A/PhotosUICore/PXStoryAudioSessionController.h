@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class ISWrappedAVAudioSession, NSObject, PXStoryModel;
-@protocol OS_dispatch_queue;
+@class ISWrappedAVAudioSession;
 
 @interface PXStoryAudioSessionController : PXStoryController
 {
     _Bool _shouldMixWithOthers;
-    PXStoryModel *_model;
-    ISWrappedAVAudioSession *_audioSession;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (_Bool);
@@ -22,23 +18,20 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (id)A;
 - (id);
-- (id);
-- (id)tViewControllerForCollection: /* Error: Ran out of types for this method. */;
+- (id)presentViewControllerForCollection: /* Error: Ran out of types for this method. */;
 - (id)en;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) ISWrappedAVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) _Bool shouldMixWithOthers; // @synthesize shouldMixWithOthers=_shouldMixWithOthers;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

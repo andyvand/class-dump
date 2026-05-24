@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface RPNWActivityEventMetrics : RPNWActivityMetrics
 {
     NSString *_destination;
-    unsigned long long _eventSize;
 }
 
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(nonatomic) unsigned long long eventSize; // @synthesize eventSize=_eventSize;
 
 @end
 

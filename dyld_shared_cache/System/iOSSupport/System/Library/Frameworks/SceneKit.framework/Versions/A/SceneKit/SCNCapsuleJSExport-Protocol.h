@@ -5,12 +5,10 @@
 //
 
 @protocol SCNCapsuleJSExport
++ (id);
+- (void)_bottomRightButtonsContainer;
 
 // Remaining properties
 @property(nonatomic) double capRadius;
-@property(nonatomic) long long capSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @end
 

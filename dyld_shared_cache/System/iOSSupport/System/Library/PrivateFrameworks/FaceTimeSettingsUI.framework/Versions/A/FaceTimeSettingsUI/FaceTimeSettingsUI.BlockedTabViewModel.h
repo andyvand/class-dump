@@ -8,14 +8,9 @@
 {
     id _blockedList;
     id blockedTabManager;
-    id privacyManager;
-    id _cancellable;
-    id logger;
-    id $__lazy_storage_$_addContactPopoverHelper;
-    id _$observationRegistrar;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

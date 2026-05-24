@@ -7,18 +7,13 @@
 @interface SwiftUI.MenuBarExtraController
 {
     id sceneID;
-    id configuration;
-    id statusItem;
-    id buttonHost;
-    id behavior;
-    id platformItem;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)x;
+- (void)AnyDragStorageBox;
 
 @end
 

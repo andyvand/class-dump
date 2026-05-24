@@ -4,49 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPointerArray;
-@protocol OS_dispatch_queue;
+@class NSPointerArray;
 
 @interface AXFUserSessionObserver
 {
     _Bool __observingNotifications;
-    NSPointerArray *__observers;
-    NSObject<OS_dispatch_queue> *__localQueue;
 }
 
 + (_Bool);
-+ (id);
++ (id)Type:%u /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void)lookupValues;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_avChat;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_localQueue; // @synthesize _localQueue=__localQueue;
 @property(retain, nonatomic) NSPointerArray *_observers; // @synthesize _observers=__observers;
-@property(nonatomic) _Bool _observingNotifications; // @synthesize _observingNotifications=__observingNotifications;
-@property(readonly, nonatomic) _Bool isLoginDone;
-@property(readonly, nonatomic) _Bool isScreenSaverShowing;
-@property(readonly, nonatomic) _Bool isScreenSharing;
-@property(readonly, nonatomic) _Bool onConsole;
-@property(readonly, nonatomic) _Bool screenLocked;
 
 @end
 

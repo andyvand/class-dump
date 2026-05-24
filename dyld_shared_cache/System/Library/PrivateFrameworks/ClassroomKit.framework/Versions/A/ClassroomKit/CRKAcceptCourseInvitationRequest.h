@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSDictionary, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKAcceptCourseInvitationRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_pin;
-    NSDictionary *_studentInformation;
 }
 
 + (_Bool);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(copy, nonatomic) NSString *pin; // @synthesize pin=_pin;
-@property(copy, nonatomic) NSDictionary *studentInformation; // @synthesize studentInformation=_studentInformation;
 
 @end
 

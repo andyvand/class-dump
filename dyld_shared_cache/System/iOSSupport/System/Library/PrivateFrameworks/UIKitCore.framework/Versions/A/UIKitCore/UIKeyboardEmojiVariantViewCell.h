@@ -6,19 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIKBRenderConfig, UIKeyboardEmojiDraggableView;
+@class NSString, UIKeyboardEmojiDraggableView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiVariantViewCell : UIView
 {
     UIKeyboardEmojiDraggableView *_labelView;
-    UIView *_backgroundView;
-    _Bool _highlighted;
-    UIKBRenderConfig *_renderConfig;
 }
 
-- (void);
-- (id);
+- (void)nt> Started processing recover junk command for message GUID:(id)arg1 %@;
+- (id)ssage:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct CGSize)!;
@@ -31,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)åáÿ"Ï@?k;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *emoji;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=_renderConfig;
-@property(readonly) Class superclass;
 
 @end
 

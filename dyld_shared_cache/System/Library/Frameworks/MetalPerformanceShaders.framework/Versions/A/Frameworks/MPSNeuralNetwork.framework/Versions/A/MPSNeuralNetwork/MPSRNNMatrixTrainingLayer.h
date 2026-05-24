@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSMatrixMultiplication, NSMutableArray;
-
 @interface MPSRNNMatrixTrainingLayer
 {
     int layerType;
-    void *layer;
-    MPSMatrixMultiplication *gemmKernel;
-    MPSMatrixMultiplication *gemmKernel_noAccumulate;
-    MPSMatrixMultiplication *gemmKernelNonTranspose;
-    MPSMatrixMultiplication *gemmKernelNonTranspose_noAccumulate;
-    MPSMatrixMultiplication *gemmKernelTN;
-    MPSMatrixMultiplication *gemmKernelTN_accumulate;
-    NSMutableArray *weightDescriptors;
-    _Bool _recurrentOutputIsTemporary;
-    _Bool _trainingStateIsTemporary;
-    _Bool _storeAllIntermediateStates;
-    _Bool _accumulateWeightGradients;
-    _Bool _propagateFullRecurrentRows;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -34,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,22 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
+- (void)_ ;
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) _Bool accumulateWeightGradients; // @synthesize accumulateWeightGradients=_accumulateWeightGradients;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
 @property(nonatomic) _Bool propagateFullRecurrentRows; // @synthesize propagateFullRecurrentRows=_propagateFullRecurrentRows;
-@property(nonatomic) _Bool recurrentOutputIsTemporary; // @synthesize recurrentOutputIsTemporary=_recurrentOutputIsTemporary;
-@property(nonatomic) _Bool storeAllIntermediateStates; // @synthesize storeAllIntermediateStates=_storeAllIntermediateStates;
-@property(nonatomic) _Bool trainingStateIsTemporary; // @synthesize trainingStateIsTemporary=_trainingStateIsTemporary;
 
 @end
 

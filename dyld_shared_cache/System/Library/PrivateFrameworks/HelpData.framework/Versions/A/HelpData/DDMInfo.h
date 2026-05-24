@@ -6,24 +6,20 @@
 
 #import <HelpData/DDMObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface DDMInfo : DDMObject
 {
     NSArray *_platforms;
-    NSArray *_versions;
-    NSString *_locale;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
 @property(readonly) NSArray *platforms; // @synthesize platforms=_platforms;
-@property(readonly) NSArray *versions; // @synthesize versions=_versions;
 
 @end
 

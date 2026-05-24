@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSString, PBUnknownFields;
-@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
+@class PBUnknownFields;
 
 @interface GEOTransitClusterArtworkItem
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_text;
-    unsigned int _artworkIndex;
-    struct {
-        unsigned int has_artworkIndex:1;
-    } _flags;
 }
 
 + (_Bool)setMinimumFractionDigits:(id)arg1;
@@ -25,9 +19,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (int);
-- (int);
-- (unsigned int);
+- (int)up damaged property descriptor of type %{public}@-%{public}@;
+- (int)e cleaned database:%@ %@ /* Error: Ran out of types for this method. */;
+- (unsigned int)uccess:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -35,16 +29,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)initWithResults:(id)arg1 score:threshold: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)*;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id)as_linkType"b1"has_type"b1"has_isGroup"b1"read_unknownFields"b1"read_classification"b1"read_metadata"b1"read_vendor"b1"wrote_anyField"b1};
-- (id)WifiRxPhyRate;
-- (id)NObjectWithData:options:error: /* Error: Ran out of types for this method. */;
+- (id)hasWifiRxPhyRate;
+- (id)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (void)p@;
 - (id)-------------
 --- Dropped %lu Log entries for facility(%@) due to 'no disk space' error ---
@@ -55,26 +49,7 @@
 - (void)ÂMFaUQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityText;
-@property(nonatomic) unsigned int artworkIndex;
 @property(readonly, nonatomic) int artworkSourceType;
-@property(readonly, nonatomic) int artworkUseType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasArtworkIndex;
-@property(readonly, nonatomic) _Bool hasRoutingIncidentBadge;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOFormattedString *text;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

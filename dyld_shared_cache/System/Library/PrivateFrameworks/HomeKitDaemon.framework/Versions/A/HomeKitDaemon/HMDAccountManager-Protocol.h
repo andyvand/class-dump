@@ -7,12 +7,12 @@
 @class HMDBackingStore, HMDDevice;
 
 @protocol HMDAccountManager
-- (_Bool)Factory;
+- (_Bool)contextFactory;
 - (_Bool)_handlePathMonitorUpdate:(HMDDevice *)arg1;
 - (_Bool)Xçèç;
 - (_Bool)}@Failed to create keep alive IDSDeviceConnection;
 - (_Bool)ublic}@Handling transaction updated;
-- (_Bool)ragment;
+- (_Bool)didReadFirstFragment;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDBackingStore *backingStore;

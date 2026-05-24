@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface SKCompletionHandler
 {
     CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _errorBlock;
-    CDUnknownBlockType _progressBlock;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    const char *_functionName;
 }
 
 - (id);
@@ -26,14 +19,10 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (const char *);
+- (const char *);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;
-@property(readonly, nonatomic) const char *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id)tPanelVisible;
++ (id)fontPanelVisible;
 
 @end
 

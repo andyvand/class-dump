@@ -20,13 +20,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)!c;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)H;
 
 // Remaining properties
 @property(copy) NSDate *changeOnDate; // @synthesize changeOnDate=_changeOnDate;

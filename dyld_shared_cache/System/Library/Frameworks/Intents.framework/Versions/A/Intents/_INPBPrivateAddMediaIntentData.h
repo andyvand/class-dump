@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _INPBPrivateMediaIntentData;
+@class NSArray;
 
 @interface _INPBPrivateAddMediaIntentData
 {
     struct _has;
-    NSArray *_audioSearchResults;
-    NSArray *_internalSignals;
-    NSData *_pegasusMetaData;
-    _INPBPrivateMediaIntentData *_privateMediaIntentData;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)a,;
 - (void);
 - (void);
 - (void);
@@ -28,39 +24,25 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)k;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)9h;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (void)Activity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *audioSearchResults; // @synthesize audioSearchResults=_audioSearchResults;
-@property(readonly, nonatomic) unsigned long long audioSearchResultsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPegasusMetaData;
-@property(readonly, nonatomic) _Bool hasPrivateMediaIntentData;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, nonatomic) unsigned long long internalSignalsCount;
-@property(copy, nonatomic) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(retain, nonatomic) _INPBPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

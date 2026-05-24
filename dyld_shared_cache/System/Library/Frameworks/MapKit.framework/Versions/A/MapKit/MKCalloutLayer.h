@@ -10,32 +10,26 @@ __attribute__((visibility("hidden")))
 @interface MKCalloutLayer
 {
     long long _anchorPosition;
-    long long _contentMode;
-    CALayer *_layerA;
-    CALayer *_layerB;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)@yq;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (long long)B;
+- (id);
+- (void);
+- (id)detected -- zero element size detected for file '%s';
 - (long long);
-- (id);
 - (void);
-- (id);
-- (long long);
-- (void);
-- (void)pdates;
+- (void)endUpdates;
 
 // Remaining properties
-@property(nonatomic) long long anchorPosition; // @synthesize anchorPosition=_anchorPosition;
-@property(readonly, nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
 @property(retain, nonatomic) CALayer *layerA; // @synthesize layerA=_layerA;
-@property(retain, nonatomic) CALayer *layerB; // @synthesize layerB=_layerB;
 
 @end
 

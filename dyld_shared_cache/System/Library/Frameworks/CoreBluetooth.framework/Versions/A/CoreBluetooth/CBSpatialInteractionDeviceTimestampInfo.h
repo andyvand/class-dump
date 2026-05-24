@@ -7,8 +7,6 @@
 @interface CBSpatialInteractionDeviceTimestampInfo
 {
     unsigned char _duplicateCount;
-    unsigned char _reason;
-    double _timestamp;
 }
 
 - (void);
@@ -17,13 +15,11 @@
 - (id);
 - (unsigned char);
 - (double);
-- (void);
+- (void)1	?ןF;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned char duplicateCount; // @synthesize duplicateCount=_duplicateCount;
-@property(nonatomic) unsigned char reason; // @synthesize reason=_reason;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

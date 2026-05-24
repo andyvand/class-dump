@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFIdentityAttributes, _SFCertificate, _SFKeyPair, _SFPublicKey;
+@class _SFPublicKey;
 
 __attribute__((visibility("hidden")))
 @interface SFIdentity_Ivars
 {
     _SFPublicKey *publicKey;
-    _SFKeyPair *keyPair;
-    _SFCertificate *certificate;
-    SFIdentityAttributes *attributes;
 }
 
 - (void);

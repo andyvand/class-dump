@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SFDigestOperation, SFKeyDerivingOperation;
+@protocol SFKeyDerivingOperation;
 
 __attribute__((visibility("hidden")))
 @interface SFX963KeyDerivationOperation_Ivars
 {
     id <SFKeyDerivingOperation> sharedSecretOperation;
-    id <SFDigestOperation> digestOperation;
 }
 
 - (void);

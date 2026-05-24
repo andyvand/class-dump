@@ -6,34 +6,20 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMapTable, NSMutableArray;
-
 @interface NSGridView : NSView
 {
     long long _xPlacement;
-    long long _yPlacement;
-    long long _rowAlignment;
-    double _rowSpacing;
-    double _colSpacing;
-    NSMutableArray *_columns;
-    NSMutableArray *_rows;
-    NSMapTable *_cellTable;
-    long long _currentConstraintGeneration;
-    struct {
-        unsigned int isDecoding:1;
-        unsigned int _unused:31;
-    } _flags;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool)0@ù
 × ;
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (id);
@@ -46,63 +32,57 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (long long)set_shouldSkipPreferredClientCertificateLookup:(id)arg1;
+- (long long)set_requiresSustainedDataDelivery:(id)arg1;
+- (void)_basePrioritySetExplicitly;
+- (void)_avAssetDownloadChildDownloadSessionIdentifier;
+- (id)_CFURLCache;
+- (double)nary;
+- (id),&,N,V_expirationDate;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)_ZN19URLConnectionLoader24protocolDidFinishLoadingEv;
+- (id)ntireFileSystemStore - failed to remove existing target dir %s.  Errno=%{errno}d;
+- (id)yscheduler;
+- (id)tivity configuration. If this is intended, please reach out to cfnetwork / duetactivityscheduler;
+- (_Bool)l be canceled;
+- (void)ity(%p);
+- (_Bool)%p);
+- (_Bool)canceled;
+- (void)p;
+- (void)stopSecure;
+- (void)CantCreateWriteStream;
+- (_Bool)readFileToCookies;
+- (id)__kCFStreamPropertyNWProxyConfigurationBlock;
+- (id)classes of NSURLRequest are not supported in background sessions. Attempted to use a request of class %@;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)TLSV1_ALERT_INSUFFICIENT_SECURITY;
 - (id);
 - (void);
 - (void);
-- (id)equenceNumber;
+- (id)draggingSequenceNumber;
 - (double)us sent to a view whose window is deferred and does not yet have a corresponding platform window;
-- (long long)mateWhenNotInTheWindow;
+- (long long)onlySmoothAnimateWhenNotInTheWindow;
 - (void)rdÆD;
 - (long long)ÿÔ1¨?H;
 
 // Remaining properties
-@property double columnSpacing;
-@property(readonly) long long numberOfColumns;
 @property(readonly) long long numberOfRows;
-@property long long rowAlignment; // @synthesize rowAlignment=_rowAlignment;
-@property double rowSpacing;
-@property long long xPlacement; // @synthesize xPlacement=_xPlacement;
-@property long long yPlacement; // @synthesize yPlacement=_yPlacement;
 
 @end
 

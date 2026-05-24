@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface SMMedicalIDMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)quePCSShareProtection={__CFRuntimeBase=QAQ}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
++ (id)ata}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
++ (id)t [C%llu], adding as child;
 
 // Remaining properties
-@property(nonatomic) short age; // @dynamic age;
-@property(copy, nonatomic) NSString *allergiesAndRestrictions; // @dynamic allergiesAndRestrictions;
-@property(copy, nonatomic) NSString *bloodType; // @dynamic bloodType;
-@property(retain, nonatomic) NSSet *emergencyContacts; // @dynamic emergencyContacts;
-@property(nonatomic) short height; // @dynamic height;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *medicalConditions; // @dynamic medicalConditions;
-@property(copy, nonatomic) NSString *medicalNotes; // @dynamic medicalNotes;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *primaryLanguage; // @dynamic primaryLanguage;
-@property(nonatomic) short weight; // @dynamic weight;
 
 @end
 

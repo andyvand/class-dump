@@ -14,11 +14,11 @@
 }
 
 + (_Bool);
-- (id);
+- (id)setAlphaValue: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)le:options:withHandler: /* Error: Ran out of types for this method. */;
+- (void)enumerateTokensForString:locale:options:withHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;

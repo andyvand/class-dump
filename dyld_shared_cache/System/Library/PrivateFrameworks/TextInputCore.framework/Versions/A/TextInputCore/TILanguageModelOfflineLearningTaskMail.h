@@ -6,21 +6,18 @@
 
 #import <TextInputCore/TILanguageModelOfflineLearningTask.h>
 
-@class NSCharacterSet, NSSet;
-@protocol TILinguisticDataSource;
+@class NSCharacterSet;
 
 __attribute__((visibility("hidden")))
 @interface TILanguageModelOfflineLearningTaskMail : TILanguageModelOfflineLearningTask
 {
     NSCharacterSet *_linePaddingCharacters;
-    NSSet *_forwardedMessageSeparators;
-    id <TILinguisticDataSource> _dataSource;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)received on non-endpoint and non-host device. Ignoring request for call %@;
+- (id)message type for update messages:(id)arg1 %@;
+- (id)e.MobileAsset.DictionaryServices.dictionaryOSX;
 - (id);
 - (void)QiÐ1Â0@ù
 × ;

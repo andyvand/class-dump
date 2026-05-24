@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPAnimationPath, NSDictionary, NSString;
+
 @protocol MPAnimationSupport
+- (void);
+- (NSDictionary *)genderConfidenceLevel;
+
+@optional
+- (_Bool)setPayloadAssembler:(NSString *)arg1;
+- (MPAnimationPath *)So29FCNewsAppConfigurationManager_p;
 @end
 

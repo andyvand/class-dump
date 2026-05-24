@@ -6,29 +6,15 @@
 
 #import <CalDAV/CalDAVOperation.h>
 
-@class NSError, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol CalDAVCalendarPropertyRefreshDelegate, OS_dispatch_group;
+@class NSError, NSString;
 
 @interface CalDAVCalendarPropertyRefreshOperation : CalDAVOperation
 {
     NSError *_savedError;
-    NSMutableDictionary *_ctags;
-    NSMutableDictionary *_syncTokens;
-    NSMutableDictionary *_pathToLocalCalendar;
-    NSMutableSet *_localCalendarsWithNoPath;
-    NSMutableSet *_updatedCalendars;
-    _Bool _didFinish;
-    _Bool _didMakeCalendars;
-    _Bool _isSecondRefresh;
-    int _nextCalendarOrder;
-    _Bool _useCalendarHomeSyncReport;
-    _Bool _forceClearCalendarHomeSyncToken;
-    NSString *_calendarHomeSyncToken;
-    NSObject<OS_dispatch_group> *_outstandingTasksGroup;
 }
 
 - (void);
-- (id);
+- (id))JI	Ji;
 - (_Bool);
 - (id);
 - (void);
@@ -41,13 +27,13 @@
 - (void);
 - (void);
 - (void);
+- (void)A!;
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)0;
 - (id);
-- (id);
-- (void);
+- (void)?@"NSArray">16;
 - (void);
 - (void);
 - (id);
@@ -59,7 +45,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (_Bool);
 - (void);
@@ -70,17 +56,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *calendarHomeSyncToken; // @synthesize calendarHomeSyncToken=_calendarHomeSyncToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CalDAVCalendarPropertyRefreshDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceClearCalendarHomeSyncToken; // @synthesize forceClearCalendarHomeSyncToken=_forceClearCalendarHomeSyncToken;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *outstandingTasksGroup; // @synthesize outstandingTasksGroup=_outstandingTasksGroup;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCalendarHomeSyncReport; // @synthesize useCalendarHomeSyncReport=_useCalendarHomeSyncReport;
 
 @end
 

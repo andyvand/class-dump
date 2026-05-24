@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface CKBrowserSelectionLabelAccessoryView
 {
     UIImageView *_plusLView;
-    UIImageView *_plusDView;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)t;
+- (id)e;
+- (id)ry ID to %@;
 - (struct CGSize);
 - (id);
 - (id);
 - (void)¨ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *plusDView; // @synthesize plusDView=_plusDView;
 @property(retain, nonatomic) UIImageView *plusLView; // @synthesize plusLView=_plusLView;
 
 @end

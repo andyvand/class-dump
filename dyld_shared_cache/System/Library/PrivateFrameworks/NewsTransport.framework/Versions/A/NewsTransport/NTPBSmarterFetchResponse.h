@@ -7,35 +7,27 @@
 @interface NTPBSmarterFetchResponse
 {
     long long _toTimestamp;
-    int _recordCount;
-    struct {
-        unsigned int toTimestamp:1;
-        unsigned int recordCount:1;
-    } _has;
 }
 
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (long long)initWithDisplayAssets:indicesArray:diagnosticDistanceCalculator: /* Error: Ran out of types for this method. */;
+- (void)ription:(_Bool)arg1;
+- (void)getAvalancheDeleteWarning:(_Bool)arg1 actualDeletionCount:forAssets: /* Error: Ran out of types for this method. */;
+- (_Bool)desiredPlaceholderStyleInLayout: /* Error: Ran out of types for this method. */;
+- (_Bool)decisionsDidChangeInScript:timeRange: /* Error: Ran out of types for this method. */;
+- (void)changeDetails;
 - (id);
+- (void)ageRecording:(id)arg1 %{public}hhd with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_setIsAttemptingToPlayback: /* Error: Ran out of types for this method. */;
+- (_Bool)on error:(id)arg1 name is empty or whitespace-only after trimming:'%@' (names are required in macOS) /* Error: Ran out of types for this method. */;
+- (_Bool)ticles from CK, operation=%{public}s, range=%{public}@, feeds=%{public}s;
 - (void);
 - (int);
-- (id);
+- (id)A;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasRecordCount;
-@property(nonatomic) _Bool hasToTimestamp;
-@property(nonatomic) int recordCount; // @synthesize recordCount=_recordCount;
-@property(nonatomic) long long toTimestamp; // @synthesize toTimestamp=_toTimestamp;
 
 @end
 

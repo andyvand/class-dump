@@ -7,6 +7,7 @@
 @class NSMenuItem;
 
 @protocol NSDebugMenuItemProvider
+- (NSMenuItem *)RegionalBehaviorNoPasscodeLocationTiles;
 
 // Remaining properties
 @property(readonly, copy) NSMenuItem *menuItem;

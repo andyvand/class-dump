@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSString, NSUserActivity;
-
 @interface INReservationAction
 {
     long long _type;
-    INDateComponentsRange *_validDuration;
-    NSUserActivity *_userActivity;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)hasClients;
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)isEqualToAutoJoinStatistics:(id)arg1;
+- (void)t telemetry metricDict:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
-- (id)hIdentifiers:(unsigned long long)arg1;
+- (id)deleteInteractionsWithIdentifiers:(unsigned long long)arg1;
 - (void)taskPriority;
 - (id)>ÞD;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, copy) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
-@property(readonly, copy) INDateComponentsRange *validDuration; // @synthesize validDuration=_validDuration;
 
 @end
 

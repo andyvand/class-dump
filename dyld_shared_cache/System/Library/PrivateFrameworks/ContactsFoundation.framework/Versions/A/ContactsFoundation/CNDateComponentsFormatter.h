@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSLocale;
 
 @interface CNDateComponentsFormatter
 {
     NSLocale *_locale;
-    NSArray *_lazyFormatterFutures;
-    NSString *_dateFormatPlaceholderString;
 }
 
 + (_Bool);
@@ -49,7 +47,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)A;
 - (id)setIsAddressingGrammarAccessGrantedCachedValue:(id)arg1;
 
 // Remaining properties

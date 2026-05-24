@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPosterDataPersistentStoreManager, NSString;
+@class CNContactPosterDataPersistentStoreManager;
 
 __attribute__((visibility("hidden")))
 @interface CNContactPosterDataDirectAccess
@@ -15,25 +15,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (long long)isDeviceSupportedOnXROS:(id)arg1;
 - (void)6B24B28@32@40@48;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) CNContactPosterDataPersistentStoreManager *storeManager; // @synthesize storeManager=_storeManager;
-@property(readonly) Class superclass;
 
 @end
 

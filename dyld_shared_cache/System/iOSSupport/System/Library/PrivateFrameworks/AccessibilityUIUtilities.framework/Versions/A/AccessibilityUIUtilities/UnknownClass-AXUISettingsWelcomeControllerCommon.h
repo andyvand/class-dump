@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface UnknownClass (AXUISettingsWelcomeControllerCommon)
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)sh|;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_atvaccessibilityITMLAccessibilityContent;
-@property(retain, nonatomic, setter=ax_setBuddyDynamicHeightConstraints:) NSMutableArray *ax_buddyDynamicHeightConstraints;
 @property(retain, nonatomic, setter=ax_setBuddyObservedTableViews:) NSMutableArray *ax_buddyObservedTableViews;
 @end
 

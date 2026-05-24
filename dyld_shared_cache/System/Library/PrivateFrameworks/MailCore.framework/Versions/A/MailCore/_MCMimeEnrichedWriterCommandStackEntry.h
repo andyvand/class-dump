@@ -9,9 +9,6 @@
 @interface _MCMimeEnrichedWriterCommandStackEntry
 {
     NSString *_command;
-    unsigned long long _attrStringIndex;
-    id _parameter;
-    _MCMimeEnrichedWriterCommandStackEntry *_parent;
 }
 
 - (void);
@@ -21,15 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_actionRemindMeInMinutesWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long attrStringIndex; // @synthesize attrStringIndex=_attrStringIndex;
 @property(nonatomic) __weak NSString *command; // @synthesize command=_command;
-@property(retain, nonatomic) id parameter; // @synthesize parameter=_parameter;
-@property(retain, nonatomic) _MCMimeEnrichedWriterCommandStackEntry *parent; // @synthesize parent=_parent;
 
 @end
 

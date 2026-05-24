@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
-
 @interface _SFPBProductInventory
 {
     int _type;
-    int _availabilityStatus;
-    float _distance;
-    int _distanceUnit;
-    NSString *_storeId;
-    _SFPBDate *_timestamp;
-    NSString *_storeName;
-    NSString *_storeAddress;
 }
 
 - (id);
@@ -34,33 +25,18 @@
 - (int);
 - (float);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)presentedSubitemAtURL:(id)arg1 didResolveConflictVersion: /* Error: Ran out of types for this method. */;
+- (void)t, error opening container:(id)arg1 %ld;
+- (id)PLSearchBackendIndexEntitiesMatchingText;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)on"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)lnPropertyIdentifier;
+- (void)_lnPropertyIdentifier;
 - (void)icalFloat",&,N,V_score;
 
 // Remaining properties
-@property(nonatomic) int availabilityStatus; // @synthesize availabilityStatus=_availabilityStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float distance; // @synthesize distance=_distance;
-@property(nonatomic) int distanceUnit; // @synthesize distanceUnit=_distanceUnit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *storeAddress; // @synthesize storeAddress=_storeAddress;
-@property(copy, nonatomic) NSString *storeId; // @synthesize storeId=_storeId;
-@property(copy, nonatomic) NSString *storeName; // @synthesize storeName=_storeName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

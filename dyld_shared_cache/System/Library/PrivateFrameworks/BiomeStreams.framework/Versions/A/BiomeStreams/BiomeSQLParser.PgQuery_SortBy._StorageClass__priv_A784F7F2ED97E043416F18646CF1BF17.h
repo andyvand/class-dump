@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SortBy._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _node;
-    id _sortbyDir;
-    id _sortbyNulls;
-    id _useOp;
-    id _location;
 }
 
 @end

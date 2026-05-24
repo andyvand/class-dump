@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKStudentDaemonProxy, NSString;
+@class CRKStudentDaemonProxy;
 
 @interface CRKConnectedStudentDaemonProxyFactory
 {
     CRKStudentDaemonProxy *_studentDaemonProxy;
-    CDUnknownBlockType _didConnectHandler;
-    CRKConnectedStudentDaemonProxyFactory *_selfReference;
 }
 
 + (void);
@@ -25,16 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didConnectHandler; // @synthesize didConnectHandler=_didConnectHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CRKConnectedStudentDaemonProxyFactory *selfReference; // @synthesize selfReference=_selfReference;
 @property(readonly, nonatomic) CRKStudentDaemonProxy *studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
-@property(readonly) Class superclass;
 
 @end
 

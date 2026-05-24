@@ -9,13 +9,9 @@
 @interface ABShadowTextFieldCell
 {
     NSTextView *_fieldEditor;
-    NSAttributedString *_originalPlaceholder;
-    NSAttributedString *_alternatePlaceholder;
-    _Bool _displaysAlternatePlaceholder;
-    _Bool _ignoredByAccessibility;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,9 +25,6 @@
 × ;
 
 // Remaining properties
-@property(copy) NSAttributedString *alternatePlaceholder; // @synthesize alternatePlaceholder=_alternatePlaceholder;
-@property(nonatomic) _Bool displaysAlternatePlaceholder; // @synthesize displaysAlternatePlaceholder=_displaysAlternatePlaceholder;
-@property(getter=accessibilityIsIgnored) _Bool ignoredByAccessibility; // @synthesize ignoredByAccessibility=_ignoredByAccessibility;
 @property(copy) NSAttributedString *originalPlaceholder; // @synthesize originalPlaceholder=_originalPlaceholder;
 
 @end

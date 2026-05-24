@@ -7,17 +7,6 @@
 @interface IKSlideshowDataSourceHandler
 {
     id _dataSource;
-    unsigned long long _numberOfItems;
-    id _previousItem;
-    id _currentItem;
-    id _nextItem;
-    long long _previousItemIndex;
-    long long _currentItemIndex;
-    long long _nextItemIndex;
-    _Bool _dataSourceRespondsToNameOfSlideshowItemAtIndex;
-    _Bool _dataSourceRespondsToSlideshowWillStart;
-    _Bool _dataSourceRespondsToSlideshowDidStop;
-    _Bool _dataSourceRespondsToSlideshowDidChangeCurrentIndex;
 }
 
 - (void);

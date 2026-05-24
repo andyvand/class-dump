@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _CLRangingPeerInternal
 {
     unsigned long long _macAddress;
-    NSData *_secureRangingKeyID;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)CGGetImageIOVersion;
+- (id)setShouldMaximizeConcurrentCompilation:(struct _NSZone *)arg1;
 
 @end
 

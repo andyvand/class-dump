@@ -7,26 +7,25 @@
 @interface FTNetworkSupport
 {
     _Bool _enableCriticalReliability;
-    _Bool _criticalReliabilityEnabledState;
 }
 
 + (id);
 - (_Bool);
+- (_Bool)startCapFade;
+- (_Bool);
+- (void)24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (_Bool)6q24;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)dataWithBytes:length: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,16 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowAnyNetwork;
-@property(readonly, nonatomic) _Bool dataActiveAndReachable;
-@property(nonatomic) _Bool enableCriticalReliability;
-@property(readonly, nonatomic) _Bool networkActive;
-@property(readonly, nonatomic) _Bool networkEnabled;
-@property(readonly, nonatomic) _Bool networkReachable;
-@property(readonly, nonatomic) _Bool validNetworkActive;
-@property(readonly, nonatomic) _Bool validNetworkEnabled;
-@property(readonly, nonatomic) _Bool validNetworkReachable;
-@property(readonly, nonatomic) _Bool wiFiActiveAndReachable;
-@property(readonly, nonatomic) _Bool willSearchForNetwork;
 
 @end
 

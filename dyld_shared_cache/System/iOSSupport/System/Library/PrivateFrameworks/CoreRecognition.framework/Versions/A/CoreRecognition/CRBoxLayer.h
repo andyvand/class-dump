@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CATextLayer, NSMutableArray;
+@class CAShapeLayer, CATextLayer;
 
 __attribute__((visibility("hidden")))
 @interface CRBoxLayer
 {
     _Bool _customInit;
     double _frameRatio;
-    CAShapeLayer *_reticleLayer;
-    CATextLayer *_codeLayer;
-    NSMutableArray *_completionBlocks;
-    double _demoSpeed;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -42,14 +38,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) CATextLayer *codeLayer; // @synthesize codeLayer=_codeLayer;
-@property(retain) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property _Bool customInit; // @synthesize customInit=_customInit;
-@property double demoSpeed; // @synthesize demoSpeed=_demoSpeed;
-@property(nonatomic) double frameRatio; // @synthesize frameRatio=_frameRatio;
 @property(retain) CAShapeLayer *reticleLayer; // @synthesize reticleLayer=_reticleLayer;
 
 @end

@@ -9,12 +9,9 @@
 @interface MTUIFocusedTouchGestureRecognizer
 {
     NSMutableSet *_activeTouches;
-    _Bool _didTouchOutside;
-    UIView *_focusedView;
-    struct UIEdgeInsets _touchAllowance;
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)+;
 - (void);
 - (id);
 - (id);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *focusedView; // @synthesize focusedView=_focusedView;
-@property(nonatomic) struct UIEdgeInsets touchAllowance; // @synthesize touchAllowance=_touchAllowance;
 
 @end
 

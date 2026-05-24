@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id) ;
+- (id)ATTACHMENT_TYPE_TITLE;
 - (void);
 - (void);
 - (id);

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__UIWindowSceneAccessibility_super;
 - (id);
 
 @end

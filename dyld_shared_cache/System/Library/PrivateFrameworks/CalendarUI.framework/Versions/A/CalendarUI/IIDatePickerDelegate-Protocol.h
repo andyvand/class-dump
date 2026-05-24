@@ -5,5 +5,9 @@
 //
 
 @protocol IIDatePickerDelegate
+- (void)S;
+
+@optional
+- (void);
 @end
 

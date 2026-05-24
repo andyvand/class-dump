@@ -7,8 +7,6 @@
 @interface SoundAnalysis.CombineSubscriberFromXPCAdapter
 {
     id subscriber;
-    id connectionState;
-    id taskQueue;
 }
 
 @end

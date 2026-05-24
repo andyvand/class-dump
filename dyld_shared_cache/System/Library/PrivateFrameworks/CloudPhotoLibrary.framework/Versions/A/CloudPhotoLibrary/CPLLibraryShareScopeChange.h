@@ -6,16 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLScopeChange.h>
 
-@class NSArray, NSData, NSDate, NSSet;
+@class NSSet;
 
 @interface CPLLibraryShareScopeChange : CPLScopeChange
 {
     NSSet *_exitingUserIdentifiers;
-    long long _exitType;
-    long long _exitRetentionPolicy;
-    long long _exitSource;
-    NSData *_userDefinedRules;
-    NSDate *_userViewedParticipantTrashNotificationDate;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)QUPP_ARG_EVENT_TYPE_PARTY;
 - (void);
 - (_Bool);
 - (void);
@@ -34,29 +29,23 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)PrefixStartBonus;
+- (id)searchToolL2Score;
+- (void)setBucketThresholdPerfectScore:(id)arg1;
+- (void)e;
+- (void)onFromQU;
+- (void)V_normalizedSearchTermsPersonFromQU;
+- (_Bool),;
+- (long long)r:%@! /* Error: Ran out of types for this method. */;
+- (long long)] [L2] L2 models prediction error:%@! /* Error: Ran out of types for this method. */;
+- (_Bool)LOCAL_TOPHIT_CANDIDATE_LIKELIHOOD_SPECIAL_CASE_THRESHOLD;
 - (long long);
-- (long long);
-- (_Bool);
-- (long long);
-- (long long);
+- (long long)kLG;
 - (void)Â°!¬EùñÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) long long exitRetentionPolicy; // @synthesize exitRetentionPolicy=_exitRetentionPolicy;
-@property(nonatomic) long long exitSource; // @synthesize exitSource=_exitSource;
-@property(readonly, nonatomic) long long exitState;
-@property(nonatomic) long long exitType; // @synthesize exitType=_exitType;
-@property(copy, nonatomic) NSArray *exitingUserIdentifiers;
-@property(copy, nonatomic) NSData *userDefinedRules; // @synthesize userDefinedRules=_userDefinedRules;
-@property(copy, nonatomic) NSDate *userViewedParticipantTrashNotificationDate; // @synthesize userViewedParticipantTrashNotificationDate=_userViewedParticipantTrashNotificationDate;
 
 @end
 

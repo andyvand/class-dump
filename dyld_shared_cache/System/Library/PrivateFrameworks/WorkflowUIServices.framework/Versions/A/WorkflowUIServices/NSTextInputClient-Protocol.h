@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSTextInputClient
+- (unsigned long long)0;
 - (void)onTableBundleURL:widgetBundleScopedURL:family:widgetConfigurationStyle:widgetConfigurationType:defaultCardSize:initialCardFrame:widgetDisplayName:widgetDescription:widgetPrimaryColor:widgetTintColor:usesWidgetAccentColor:remoteDeviceIdentifier:remoteAppLocalizedName:remoteAppIcon:] /* Error: Ran out of types for this method. */;
 - (_Bool)°y°°GGèu°yACyn°jd°yARGGGG°GèYQGGGAVyACyACyADA3_Géq°GSgGGA7_GSg_G;
 
 @optional
+- (NSArray *);
+- (_Bool);
+- (double)@?;
 - (_Bool)12²Xé;
 
 // Remaining properties
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) struct CGRect unionRectInVisibleSelectedRange;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R

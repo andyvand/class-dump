@@ -18,7 +18,7 @@
 + (_Bool);
 + (_Bool);
 + (const CDStruct_47876580 *);
-+ (long long)xport_table;
++ (long long)participant_export_table;
 + (void)pple.IMDPersistenceIPCQueue;
 - (id);
 

@@ -9,21 +9,17 @@
 @interface CNPostalAddressFormattingSpecification
 {
     NSArray *_displayFieldArrangement;
-    NSArray *_editingFieldArrangement;
-    NSDictionary *_fieldLabelMap;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)!q&!tEù*Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *displayFieldArrangement; // @synthesize displayFieldArrangement=_displayFieldArrangement;
-@property(readonly, nonatomic) NSArray *editingFieldArrangement; // @synthesize editingFieldArrangement=_editingFieldArrangement;
 @property(readonly, nonatomic) NSDictionary *fieldLabelMap; // @synthesize fieldLabelMap=_fieldLabelMap;
 
 @end

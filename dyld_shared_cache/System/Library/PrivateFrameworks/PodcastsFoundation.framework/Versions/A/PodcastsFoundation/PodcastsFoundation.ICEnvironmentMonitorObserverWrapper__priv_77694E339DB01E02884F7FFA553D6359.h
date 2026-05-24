@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ICEnvironmentMonitorObserverWrapper__priv_77694E339DB01E02884F7FFA553D6359
 {
     id delegate;
-    id environmentMonitor;
 }
 
 - (void);

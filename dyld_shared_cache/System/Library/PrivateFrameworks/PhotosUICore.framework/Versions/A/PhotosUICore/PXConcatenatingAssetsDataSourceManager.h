@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
+@class NSPredicate;
 
 @interface PXConcatenatingAssetsDataSourceManager
 {
     id mode;
-    id dataSourceManagers;
 }
 
 - (void);
@@ -28,13 +27,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)<;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)Date:(_Bool)arg1;
+- (void)copyIfNeededWithUpdatedConsiderNewAfterDate:(_Bool)arg1;
 - (void);
 - (id)ource for asset reference ;
 - (void);
@@ -43,9 +42,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSPredicate *filterPredicate;
-@property(nonatomic) _Bool includeOthersInSocialGroupAssets;
-@property(nonatomic) _Bool reverseSortOrder;
-@property(nonatomic, copy) NSArray *sortDescriptors;
 
 @end
 

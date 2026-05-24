@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, QFilter;
+@class NSMenuItem;
 
 @interface QFilterActionMenu
 {
     NSMenuItem *LockUnlockMenuItem;
-    NSMenuItem *ColorSubmenu;
-    NSMenuItem *AssignProfileMenuItem;
-    NSMenuItem *DefaultProfileMenuItem;
-    NSMenuItem *RenderIntentMenuItem;
-    NSMenuItem *IntermediateTransformMenuItem;
-    NSMenuItem *ConvertToProfileMenuItem;
-    NSMenuItem *ImageSubmenu;
-    NSMenuItem *ColorImageSamplingMenuItem;
-    NSMenuItem *GrayImageSamplingMenuItem;
-    NSMenuItem *ImageCompressionMenuItem;
-    NSMenuItem *ImageConvolutionMenuItem;
-    NSMenuItem *PDFSubmenu;
-    NSMenuItem *PDFPoliciesMenuItem;
-    NSMenuItem *PDFX3MenuItem;
-    NSMenuItem *DomainItem;
-    NSMenuItem *CommentItem;
-    QFilter *filter;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

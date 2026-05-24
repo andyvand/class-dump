@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface CMIOExtensionStreamCustomClockConfiguration
 {
     NSString *_clockName;
-    NSUUID *_sourceIdentifier;
-    CDStruct_1b6d18a9 _getTimeCallMinimumInterval;
-    unsigned int _numberOfEventsForRateSmoothing;
-    unsigned int _numberOfAveragesForRateSmoothing;
 }
 
 + (id);
 + (_Bool);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (CDStruct_1b6d18a9);
-- (id);
+- (CDStruct_198678f7);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(readonly) NSString *clockName; // @synthesize clockName=_clockName;
-@property(readonly) CDStruct_1b6d18a9 getTimeCallMinimumInterval; // @synthesize getTimeCallMinimumInterval=_getTimeCallMinimumInterval;
-@property(readonly) unsigned int numberOfAveragesForRateSmoothing; // @synthesize numberOfAveragesForRateSmoothing=_numberOfAveragesForRateSmoothing;
-@property(readonly) unsigned int numberOfEventsForRateSmoothing; // @synthesize numberOfEventsForRateSmoothing=_numberOfEventsForRateSmoothing;
-@property(readonly) NSUUID *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 
 @end
 

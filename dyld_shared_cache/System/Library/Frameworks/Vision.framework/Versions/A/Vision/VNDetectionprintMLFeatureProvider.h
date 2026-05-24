@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, VNDetectionprint;
-@protocol MLFeatureProvider;
+@class NSSet, VNDetectionprint;
 
 __attribute__((visibility("hidden")))
 @interface VNDetectionprintMLFeatureProvider
 {
     VNDetectionprint *_detectionprint;
-    NSDictionary *_detectionprintFeatureDescriptions;
-    id <MLFeatureProvider> _originalFeatureProvider;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id)È;
 - (void)nnot be nil;

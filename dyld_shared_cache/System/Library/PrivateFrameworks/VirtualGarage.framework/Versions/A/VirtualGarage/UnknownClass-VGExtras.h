@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (VGExtras)
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (long long);

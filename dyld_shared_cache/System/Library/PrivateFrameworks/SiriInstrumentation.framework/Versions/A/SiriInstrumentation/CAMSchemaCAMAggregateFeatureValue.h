@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAMSchemaCAMAggregateFeatureValue : SISchemaInstrumentationMessage
 {
     double _mean;
-    double _variance;
-    unsigned int _numInteractions;
-    struct {
-        unsigned int mean:1;
-        unsigned int variance:1;
-        unsigned int numInteractions:1;
-    } _has;
 }
 
 - (void);
@@ -35,24 +26,18 @@
 - (double);
 - (void);
 - (double);
-- (id);
+- (id);/;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ActionSelectedInLastDisambiguation"b1"minutesSinceLastDisambiguationForSameActions"b1};
-- (id)ctiveConfigUpdateStarted;
+- (id)ASRSchemaASRActiveConfigUpdateStarted;
 - (id)âöÿ¬âöÿÐâöÿôâöÿãöÿ<ãöÿ`ãöÿãöÿ¨ãöÿÌãöÿðãöÿäöÿ8äöÿ\äöÿäöÿ¤äöÿÈäöÿìäöÿåöÿ4åöÿXåöÿ|åöÿ åöÿÄåöÿèåöÿæöÿ0æöÿTæöÿxæöÿæöÿÀæöÿäæöÿçöÿ,çöÿPçöÿtçöÿçöÿ¼çöÿàçöÿèöÿ(èöÿLèöÿpèöÿèöÿ¸èöÿÜèöÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMean;
-@property(nonatomic) _Bool hasNumInteractions;
-@property(nonatomic) _Bool hasVariance;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double mean; // @synthesize mean=_mean;
-@property(nonatomic) unsigned int numInteractions; // @synthesize numInteractions=_numInteractions;
-@property(nonatomic) double variance; // @synthesize variance=_variance;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TSyncBadgeButtonContainer
+- (void)@9;
 @end
 

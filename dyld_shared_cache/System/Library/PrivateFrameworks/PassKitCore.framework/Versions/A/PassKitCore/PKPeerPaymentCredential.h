@@ -6,28 +6,22 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKCurrencyAmount, PKPeerPaymentAccount, PKPeerPaymentPassDetailsResponse;
+@class NSString, PKPeerPaymentAccount;
 
 @interface PKPeerPaymentCredential : PKPaymentCredential
 {
     NSString *_pendingPaymentSenderName;
-    PKPeerPaymentAccount *_account;
-    PKPeerPaymentPassDetailsResponse *_passDetailsResponse;
-    PKCurrencyAmount *_amount;
-    unsigned long long _flowState;
-    NSString *_pendingPaymentSenderAddress;
-    unsigned long long _paymentMode;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id):(id)arg1 @9;
+- (unsigned long long)%;
 - (id);
 - (id);
 - (_Bool);
@@ -37,19 +31,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)"b1"rxgiant"b1"rxnobuf"b1"rxnondata"b1"rxnoscb"b1"rxrtry"b1"rxrunt"b1};
+- (id)setTxPackets: /* Error: Ran out of types for this method. */;
 - (void)de:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned long long flowState; // @synthesize flowState=_flowState;
-@property(readonly, copy, nonatomic) NSString *ownershipTokenIdentifier;
-@property(retain, nonatomic) PKPeerPaymentPassDetailsResponse *passDetailsResponse; // @synthesize passDetailsResponse=_passDetailsResponse;
-@property(nonatomic) unsigned long long paymentMode; // @synthesize paymentMode=_paymentMode;
-@property(copy, nonatomic) NSString *pendingPaymentSenderAddress; // @synthesize pendingPaymentSenderAddress=_pendingPaymentSenderAddress;
-@property(readonly, copy, nonatomic) NSString *pendingPaymentSenderName;
 
 @end
 

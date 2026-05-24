@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryEmbeddingMetadata
 {
     PBDataReader *_reader;
-    CDStruct_fae3dc92 _embeddings;
-    NSString *_embeddingId;
-    NSMutableArray *_modelVersions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_embeddings:1;
-        unsigned int read_embeddingId:1;
-        unsigned int read_modelVersions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ble to write domain dictionary to file %@:(id)arg1 %@;
+- (id)currentMaximumBufferSize;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)solution"b1"read_unknownFields"b1"read_relativeDistanceToDestinations"b1"read_baseLocation"b1"read_encodedDistancesToDestination"b1"read_encodedLats"b1"read_encodedLngs"b1"read_encodedTimestamps"b1"read_relativeLocations"b1"wrote_anyField"b1};
-- (id)ocessResponse:error: /* Error: Ran out of types for this method. */;
+- (id)_processResponse:error: /* Error: Ran out of types for this method. */;
 - (id)pý ÿðÿ¼H	P,	80ìÀ;
 - (void);
 

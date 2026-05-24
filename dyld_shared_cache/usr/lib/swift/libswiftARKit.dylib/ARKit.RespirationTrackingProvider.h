@@ -8,9 +8,6 @@
 {
     id _cRespirationTrackingProvider;
     id _cRespirationTrackingConfiguration;
-    id respirationUpdateContinuations;
-    id respirationDebugContinuations;
-    id updateQueue;
 }
 
 @end

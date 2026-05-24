@@ -6,7 +6,7 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDGroupsWithIdentifiersPredicate : CNPredicate
@@ -15,21 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)ng offer;
 - (id);
 - (id);
-- (id);
-- (void)IndexWithSummmary: /* Error: Ran out of types for this method. */;
+- (void)verifiedIndexWithSummmary: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

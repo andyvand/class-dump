@@ -9,27 +9,25 @@
 @interface ISRootMigrator : ISMigrator
 {
     _Bool _isErase;
-    _Bool _isRestoreFromBackup;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)dataOffset;
+- (_Bool)cylinderWithRadius:height:options: /* Error: Ran out of types for this method. */;
+- (void)copyFromBuffer:(_Bool)arg1 sourceOffset:sourceBytesPerRow:sourceBytesPerImage:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
+- (void)copyCGLPixelFormatForDisplayMask:(_Bool)arg1;
+- (id)conformsToProtocol:(id)arg1;
+- (id)captureDeviceOutputConsumerWithOptions:(id)arg1;
+- (id)captureDeviceOutputConsumerSource;
+- (void)canDrawInOpenGLContext:pixelFormat:forLayerTime:displayTime: /* Error: Ran out of types for this method. */;
+- (void)bindTo:withKeyPath:valueTransformerName: /* Error: Ran out of types for this method. */;
+- (id)automaticallyAdjustsZRange;
+- (_Bool)areRasterOrderGroupsSupported;
+- (id)applyBrakingForce:(id)arg1 forWheelAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)lic, signpost.telemetry:string1, name=type}s /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool isErase; // @synthesize isErase=_isErase;
-@property(nonatomic) _Bool isRestoreFromBackup; // @synthesize isRestoreFromBackup=_isRestoreFromBackup;
 
 @end
 

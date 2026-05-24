@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CASublayerEnumerator
 {
     CALayer *_mask;
-    NSArray *_sublayers;
-    unsigned long long _index;
-    unsigned long long _count;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

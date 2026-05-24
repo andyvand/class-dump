@@ -7,25 +7,19 @@
 @interface ICParticipantBaseColorValues
 {
     double _redValue;
-    double _greenValue;
-    double _blueValue;
-    double _alphaValue;
 }
 
 - (void);
 - (double);
-- (double);
-- (double);
+- (double)iew;
+- (double)a;
 - (void);
 - (void);
 - (double);
 - (id);
-- (void)parserType;
+- (void)_parserType;
 
 // Remaining properties
-@property(nonatomic) double alphaValue; // @synthesize alphaValue=_alphaValue;
-@property(nonatomic) double blueValue; // @synthesize blueValue=_blueValue;
-@property(nonatomic) double greenValue; // @synthesize greenValue=_greenValue;
 @property(nonatomic) double redValue; // @synthesize redValue=_redValue;
 
 @end

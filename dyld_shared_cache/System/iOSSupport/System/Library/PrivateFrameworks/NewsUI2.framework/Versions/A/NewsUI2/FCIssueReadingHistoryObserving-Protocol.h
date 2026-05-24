@@ -5,5 +5,8 @@
 //
 
 @protocol FCIssueReadingHistoryObserving
+
+@optional
+- (void);
 @end
 

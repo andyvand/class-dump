@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface DFRTouchBar
 {
     struct os_unfair_lock_s _lock;
-    _Atomic unsigned long long _epoch;
-    struct DFRTouchBarHandle _handle;
-    _Atomic long long _style;
-    _Atomic long long _visiblePlacements;
-    _Atomic double _bezelBrightness;
-    _Atomic long long _colorTemperature;
-    _Atomic double _glyphBrightness;
-    _Atomic double _scale;
-    struct CGRect _frames[24];
 }
 
 + (id);

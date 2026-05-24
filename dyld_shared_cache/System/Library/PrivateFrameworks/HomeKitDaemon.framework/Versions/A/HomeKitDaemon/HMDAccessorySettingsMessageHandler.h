@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDAccessorySettingsMessageController, OS_dispatch_queue;
+@protocol HMDAccessorySettingsMessageController;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingsMessageHandler
 {
     id <HMDAccessorySettingsMessageController> _messageController;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
-+ (id);
++ (id)averageNumberOfPromotedHighlightsPerMonthPastYear;
 + (id)C;
 - (void);
 - (void);
@@ -31,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)be converted into HMIHomePersonManagerSettings:%@ /* Error: Ran out of types for this method. */;
 - (void)eractive;
 - (void);
@@ -40,21 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)Tb~ÿK`jà+D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak id <HMDAccessorySettingsMessageController> messageController; // @synthesize messageController=_messageController;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

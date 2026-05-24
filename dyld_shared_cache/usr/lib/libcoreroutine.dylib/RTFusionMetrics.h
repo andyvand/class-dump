@@ -6,51 +6,38 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface RTFusionMetrics : RTMetric
 {
     NSArray *_bluePOICandidates;
-    NSArray *_localHintCandidates;
-    NSArray *_learnedPlaceCandidatesExcludingHomeWork;
-    NSArray *_learnedPlaceHomeWorkCandidates;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)PCSDBRRecordChangeBlob;
++ (id)s;
++ (id)LooseLeaves;
++ (id)PCSEventMBValidate;
 + (CDStruct_b8464340);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)/libc++.1.dylib;
 - (id);
+- (id).framework/Versions/A/MediaToolbox;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)catch;
 - (void)Dens %{sensitive}f, dailyDens %{sensitive}f ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bluePOICandidates; // @synthesize bluePOICandidates=_bluePOICandidates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *learnedPlaceCandidatesExcludingHomeWork; // @synthesize learnedPlaceCandidatesExcludingHomeWork=_learnedPlaceCandidatesExcludingHomeWork;
-@property(retain, nonatomic) NSArray *learnedPlaceHomeWorkCandidates; // @synthesize learnedPlaceHomeWorkCandidates=_learnedPlaceHomeWorkCandidates;
-@property(retain, nonatomic) NSArray *localHintCandidates; // @synthesize localHintCandidates=_localHintCandidates;
-@property(readonly) Class superclass;
 
 @end
 

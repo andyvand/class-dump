@@ -7,17 +7,6 @@
 @interface NewsFeed.FormatIssueCoverNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id style;
-    id issueCoverViewLayoutAttributes;
-    id auxViewRequirements;
 }
 
 @end

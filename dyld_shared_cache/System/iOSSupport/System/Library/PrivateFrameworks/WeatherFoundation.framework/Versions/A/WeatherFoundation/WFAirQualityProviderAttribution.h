@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSURL, UIImage, WFAirQualityProviderStation;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface WFAirQualityProviderAttribution
 {
     _Bool _logoRequestInFlight;
-    struct os_unfair_lock_s _dataSynchronizationLock;
-    NSString *_name;
-    long long _dataOrigination;
-    UIImage *_cachedLogoImage;
-    WFAirQualityProviderStation *_station;
-    NSObject<OS_dispatch_queue> *_logoImageLoadingQueue;
-    NSMutableArray *_outstandingRequestsCompletionBlocks;
-    NSURL *_logoURL;
 }
 
-+ (id);
++ (id)sform3D=dddddddddddddddd}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -42,15 +33,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)=qq}{?=qq}}16;
+- (id)@16Q24Q32;
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)TranscriptEventGUIDKey;
 - (id);
 - (struct os_unfair_lock_s);
 - (void);
@@ -59,15 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) UIImage *cachedLogoImage; // @synthesize cachedLogoImage=_cachedLogoImage;
-@property(nonatomic) long long dataOrigination; // @synthesize dataOrigination=_dataOrigination;
-@property(nonatomic) struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *logoImageLoadingQueue; // @synthesize logoImageLoadingQueue=_logoImageLoadingQueue;
-@property(nonatomic) _Bool logoRequestInFlight; // @synthesize logoRequestInFlight=_logoRequestInFlight;
-@property(copy, nonatomic) NSURL *logoURL; // @synthesize logoURL=_logoURL;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *outstandingRequestsCompletionBlocks; // @synthesize outstandingRequestsCompletionBlocks=_outstandingRequestsCompletionBlocks;
-@property(retain, nonatomic) WFAirQualityProviderStation *station; // @synthesize station=_station;
 
 @end
 

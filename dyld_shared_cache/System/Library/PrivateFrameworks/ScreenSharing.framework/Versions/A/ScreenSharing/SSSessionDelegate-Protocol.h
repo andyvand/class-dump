@@ -7,22 +7,11 @@
 @protocol SSSessionDelegate
 
 @optional
+- (void);
+- (void);
 - (struct CGSize)ed:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGSize contentSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) unsigned int desiredLayerRotation;
-@property(readonly) _Bool keyboardFocusEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGRect sessionFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
 @property(readonly) _Bool useAVConference;
 @end
 

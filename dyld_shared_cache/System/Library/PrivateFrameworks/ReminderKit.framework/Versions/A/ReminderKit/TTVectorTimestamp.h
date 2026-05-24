@@ -21,12 +21,12 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (unsigned long long)modelSourceFromURL:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)cheCleared-com.apple.MobileAsset.LinguisticData;
 - (id);
 - (id);
 - (void)±r Ð1Â0@ù

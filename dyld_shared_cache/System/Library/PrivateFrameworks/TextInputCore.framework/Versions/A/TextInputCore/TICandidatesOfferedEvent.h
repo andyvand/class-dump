@@ -17,7 +17,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)constrained %d wq cooperative %d wq active constrained %d) backfilled to all (%d) task states (indexes %lu-%lu)
+;
 - (void);
 - (void);
 

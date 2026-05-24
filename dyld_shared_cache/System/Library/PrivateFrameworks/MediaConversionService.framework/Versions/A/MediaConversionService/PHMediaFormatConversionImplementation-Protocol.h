@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol PHMediaFormatConversionImplementation
 
 // Remaining properties
 @property(readonly) long long transferBehaviorUserPreference;
-@property(readonly) NSSet *ut_objectsToBeDeallocatedWithReceiver;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
 @end
 

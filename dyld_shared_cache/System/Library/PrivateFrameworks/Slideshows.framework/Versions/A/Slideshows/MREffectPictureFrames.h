@@ -6,44 +6,29 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImageProvider, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MREffectPictureFrames : MREffect
 {
     NSMutableDictionary *mSprites;
-    NSMutableDictionary *mFrameProviders;
-    MRCroppingSprite *mFrameSprite;
-    MRImageProvider *mWallProvider;
-    MRImageProvider *mGradientProvider;
-    NSMutableArray *mTableProviders;
-    NSMutableArray *mWallSprites;
-    NSMutableArray *mLayoutWidths;
-    double mTotalWidth;
-    double mXOffset;
-    _Bool mIsLoaded;
-    NSMutableArray *mLayouts;
-    NSMutableArray *mFrames;
-    NSMutableArray *mSlideOrder;
-    NSMutableArray *mAspectRatios;
-    NSString *mFirstFrame;
-    NSString *mLastFrame;
 }
 
-+ (id);
++ (id)q
+;
 + (_Bool);
 + (void)`&;
 - (double);
 - (double);
-- (void);
-- (void);
+- (void)superclass;
+- (void)4;
 - (_Bool);
-- (double);
-- (id);
+- (double)ed(NSDate *__strong _Nonnull, NSDate *__strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (id)ics/NDAnalyticsUploadScheduler.m;
+- (_Bool)peTracker.m;
+- (id)s:(id)arg1 ]_block_invoke;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -67,9 +52,7 @@
 - (void),V_textureName;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 
 @end
 

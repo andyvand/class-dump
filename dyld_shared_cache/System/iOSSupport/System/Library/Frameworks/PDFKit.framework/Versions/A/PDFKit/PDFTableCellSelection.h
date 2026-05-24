@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPage, PDFSelection;
-
 __attribute__((visibility("hidden")))
 @interface PDFTableCellSelection
 {
     struct CGPDFPageLayoutTable *_table;
-    PDFPage *_page;
-    PDFSelection *_selection;
-    long long _startCellIndex;
-    struct CGPoint _startPoint;
 }
 
 - (long long);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (struct CGPDFPageLayoutTable *);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (void);
@@ -31,14 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)Â0@ù
 × ;
-- (id)y: /* Error: Ran out of types for this method. */;
+- (id)_setStyleFromDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PDFPage *page; // @synthesize page=_page;
-@property(retain) PDFSelection *selection; // @synthesize selection=_selection;
-@property(readonly, nonatomic) struct CGRect selectionRect;
-@property(nonatomic) long long startCellIndex; // @synthesize startCellIndex=_startCellIndex;
-@property struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 @property(nonatomic) struct CGPDFPageLayoutTable *table;
 
 @end

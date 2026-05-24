@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 @interface BMCache
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_mapTable;
-    BMCache *_fallback;
-    CDUnknownBlockType _isExpiredBlock;
 }
 
 + (id);

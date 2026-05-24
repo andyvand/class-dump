@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface PLSQLStatement
 {
     _Bool _isInsert;
-    _Bool _isDelete;
-    struct sqlite3_stmt *_statement;
-    NSObject<OS_dispatch_semaphore> *_dbSem;
 }
 
 - (id);
@@ -23,16 +17,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)K;
+- (_Bool)initWithURL:cachePolicy:timeoutInterval: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)e %@, error = %@;
-- (struct sqlite3_stmt *)TL210;
+- (struct sqlite3_stmt *)MCPU1DTL210;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_semaphore> *dbSem; // @synthesize dbSem=_dbSem;
-@property(readonly) _Bool isDelete; // @synthesize isDelete=_isDelete;
-@property(readonly) _Bool isInsert; // @synthesize isInsert=_isInsert;
 @property struct sqlite3_stmt *statement; // @synthesize statement=_statement;
 
 @end

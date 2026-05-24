@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXFormattedText;
-@protocol SXFullscreenCaptionDataSource;
+@class NSString;
 
 @interface SXFullscreenCaption
 {
     NSString *_text;
-    SXFormattedText *_caption;
-    id <SXFullscreenCaptionDataSource> _dataSource;
 }
 
 - (id);
 - (id);
+- (id)C;
+- (id);
+- (id)5
+;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Ҳ;
 - (id);
 - (void)WKWebView"16@?<v@?@"UIViewController"@"NSError">24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdatePolicyCharacteristicConfiguration
 {
     NSString *_type;
-    NSString *_format;
-    NSArray *_values;
-    NSNumber *_settlingTime;
 }
 
 - (id);
 - (id);
-- (id)y: /* Error: Ran out of types for this method. */;
+- (id)doesContainAnyAccessory: /* Error: Ran out of types for this method. */;
 - (id)homeUUID:%@  succeeded timeout:%f /* Error: Ran out of types for this method. */;
 - (id)}û|&¨ÿÿÿû|&¨ÿÿÿ;
 - (void)ëÐ;
@@ -25,17 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)`¡B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNumber *settlingTime; // @synthesize settlingTime=_settlingTime;
-@property(readonly) Class superclass;
 @property(readonly) NSString *type; // @synthesize type=_type;
-@property(readonly) NSArray *values; // @synthesize values=_values;
 
 @end
 

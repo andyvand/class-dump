@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 
 @end
 

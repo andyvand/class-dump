@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface _CDKeywordRecord
 {
 }
@@ -13,7 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSSet *interactions; // @dynamic interactions;
-@property(retain, nonatomic) NSString *keyword; // @dynamic keyword;
 @end
 

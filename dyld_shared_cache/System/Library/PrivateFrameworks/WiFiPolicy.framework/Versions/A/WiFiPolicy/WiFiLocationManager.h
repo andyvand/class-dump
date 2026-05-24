@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLLocationManager, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, WiFiLocationManagerDelegate;
+@class CLLocationManager;
 
 @interface WiFiLocationManager
 {
     unsigned char _shouldMonitorVisits;
-    unsigned char _isAuthorized;
-    int _locationManagerState;
-    id <WiFiLocationManagerDelegate> _delegate;
-    CLLocation *_latestLocation;
-    CLLocationManager *_clLocationManager;
-    NSMutableArray *_clientsDataArray;
-    NSMutableArray *_visitClientsDataArray;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
@@ -28,16 +19,16 @@
 + (unsigned char)es;
 - (void);
 - (void);
+- (void);;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)R;
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id)populated;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,34 +45,19 @@
 - (int);
 - (id);
 - (void);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void)
 × ;
-- (unsigned char)cOrLowRSSIOnly: /* Error: Ran out of types for this method. */;
+- (unsigned char)setPingPongSequenceIsReassocOrLowRSSIOnly: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CLLocationManager *clLocationManager; // @synthesize clLocationManager=_clLocationManager;
-@property(retain, nonatomic) NSMutableArray *clientsDataArray; // @synthesize clientsDataArray=_clientsDataArray;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WiFiLocationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned char isAuthorized; // @synthesize isAuthorized=_isAuthorized;
-@property(retain) CLLocation *latestLocation; // @synthesize latestLocation=_latestLocation;
-@property int locationManagerState; // @synthesize locationManagerState=_locationManagerState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned char shouldMonitorVisits; // @synthesize shouldMonitorVisits=_shouldMonitorVisits;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *visitClientsDataArray; // @synthesize visitClientsDataArray=_visitClientsDataArray;
 
 @end
 

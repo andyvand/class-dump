@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol DDSManaging, DDSManagingDelegate, OS_dispatch_queue;
+@protocol DDSManaging, DDSManagingDelegate;
 
 @interface DDSInterface
 {
     id <DDSManagingDelegate> _delegate;
-    NSString *_xpcServiceName;
-    id <DDSManaging> _serverOverride;
-    NSXPCConnection *_remoteServer;
-    DDSInterface *_sharedInstance;
-    NSObject<OS_dispatch_queue> *_connectionUsageQueue;
 }
 
 + (unsigned long long);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -31,35 +25,23 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)nPaymentToken"@"NSError">16;
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id)categoryName;
+- (void)layButtonView",&,N,V__playButtonView;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *connectionUsageQueue; // @synthesize connectionUsageQueue=_connectionUsageQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DDSManagingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCConnection *remoteServer; // @synthesize remoteServer=_remoteServer;
 @property(retain, nonatomic) id <DDSManaging> serverOverride; // @synthesize serverOverride=_serverOverride;
-@property(readonly, nonatomic) DDSInterface *sharedInstance; // @synthesize sharedInstance=_sharedInstance;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *xpcServiceName; // @synthesize xpcServiceName=_xpcServiceName;
 
 @end
 

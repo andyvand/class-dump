@@ -7,19 +7,12 @@
 @interface FMNetworking.FMNPushNotificatonHandler
 {
     id topic;
-    id namedDelegatePort;
-    id apsQueue;
-    id pendingTopicTokenFutures;
-    id topicAPSToken;
-    id publicAPSToken;
-    id _apsConnection;
-    id $__lazy_storage_$_apsConnection;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)SuggestionsResumeRouteAndRestaurantDeduper.m;
 - (void);
 - (void);
 

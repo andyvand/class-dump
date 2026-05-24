@@ -6,161 +6,153 @@
 
 #import <IMDaemonCore/IMDServiceSession.h>
 
-@class IMDFilteringController, IMDPlainTextTapbackInterpreter, IMDRelayAttachmentController, IMDRelayEnrollmentController, IMDRelayServiceController, IMDService, IMMultiQueue, NSArray, NSMutableDictionary, NSMutableSet, NSString;
+@class IMDService, NSMutableSet;
 
 @interface IMDTelephonyServiceSession : IMDServiceSession
 {
     NSMutableSet *_originatedMessages;
-    _Bool _pendingOriginatedMessagesTimer;
-    _Bool _isRegisteredForCTPhoneNumberNotifications;
-    IMDPlainTextTapbackInterpreter *_tapbackInterpreter;
-    IMDRelayAttachmentController *_attachmentController;
-    IMDRelayServiceController *_relayController;
-    IMDRelayEnrollmentController *_relayEnrollmentController;
-    NSMutableDictionary *_outgoingRelayMessageTimerMap;
-    IMMultiQueue *_incomingMessageMultiQueue;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void).  #@ `*;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@ ;
+- (void);
+- (void);
+- (void);
+- (void)<f;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)k;
+- (_Bool);
 - (id);
+- (_Bool);
+- (id)`*;
+- (void)(.;
+- (_Bool);
+- (_Bool)ha;
+- (_Bool);
+- (void);
+- (void)q;
+- (void)q;
+- (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)h@w;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)m;
 - (id);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void)c;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)';
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)u;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (unsigned long long);
+- (id)!8*N!;
+- (id)!�Nސ;
+- (id);
+- (id)H;
+- (_Bool);
 - (_Bool);
 - (id);
+- (void)'H;
+- (void);
+- (void)H;
+- (void)".;
+- (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)9 !"h;
+- (void)b!Lb!@bP;
+- (void);
+- (void);
+- (id)c#c";
+- (unsigned long long)-t;
+- (_Bool).  ";
+- (id);
+- (void)@;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void) H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h.;
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (void);
-- (id);
+- (id)!  b&;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)  h;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -184,51 +176,30 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@9;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)";
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void),()ÿ9,;
 - (id)nt out and message was force failed so that user can pick correct subscription to send with %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) IMDRelayAttachmentController *attachmentController; // @synthesize attachmentController=_attachmentController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IMDFilteringController *filteringController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMMultiQueue *incomingMessageMultiQueue; // @synthesize incomingMessageMultiQueue=_incomingMessageMultiQueue;
-@property(nonatomic) _Bool isRegisteredForCTPhoneNumberNotifications; // @synthesize isRegisteredForCTPhoneNumberNotifications=_isRegisteredForCTPhoneNumberNotifications;
-@property(retain, nonatomic) NSMutableSet *originatedMessages; // @synthesize originatedMessages=_originatedMessages;
-@property(retain, nonatomic) NSMutableDictionary *outgoingRelayMessageTimerMap; // @synthesize outgoingRelayMessageTimerMap=_outgoingRelayMessageTimerMap;
-@property(nonatomic) _Bool pendingOriginatedMessagesTimer; // @synthesize pendingOriginatedMessagesTimer=_pendingOriginatedMessagesTimer;
-@property(retain, nonatomic) IMDRelayServiceController *relayController; // @synthesize relayController=_relayController;
-@property(retain, nonatomic) IMDRelayEnrollmentController *relayEnrollmentController; // @synthesize relayEnrollmentController=_relayEnrollmentController;
 @property(readonly, nonatomic) IMDService *service;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"IMDService",?,R,N
 
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMDPlainTextTapbackInterpreter *tapbackInterpreter; // @synthesize tapbackInterpreter=_tapbackInterpreter;
 
 @end
 

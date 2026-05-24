@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBDistanceList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_distances;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)`;
 - (unsigned long long);
 - (id);
 - (void);
@@ -28,24 +26,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)-sharing] Accessory is not connected/available (clientID=%{public}@);
+- (id)P;
 - (void);
 - (id);
 - (void)entityVerbs;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *distances; // @synthesize distances=_distances;
-@property(readonly, nonatomic) unsigned long long distancesCount;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

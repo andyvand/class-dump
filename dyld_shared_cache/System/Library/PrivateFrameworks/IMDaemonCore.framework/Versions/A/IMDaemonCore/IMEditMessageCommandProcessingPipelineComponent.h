@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)n!h@w;
+- (double)H;
 - (id);
 - (double);
 - (id);

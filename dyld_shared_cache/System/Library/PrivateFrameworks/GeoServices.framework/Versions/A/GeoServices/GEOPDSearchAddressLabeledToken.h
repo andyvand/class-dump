@@ -4,42 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchGeoDecoration, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchAddressLabeledToken
 {
     PBDataReader *_reader;
-    GEOPDSearchGeoDecoration *_abbrDecoration;
-    NSMutableArray *_geoDecorations;
-    NSString *_label;
-    GEOPDSearchGeoDecoration *_streetRelaxationDecoration;
-    NSString *_token;
-    NSMutableArray *_unPaddedDoorNumbers;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _labelType;
-    struct {
-        unsigned int read_abbrDecoration:1;
-        unsigned int read_geoDecorations:1;
-        unsigned int read_label:1;
-        unsigned int read_streetRelaxationDecoration:1;
-        unsigned int read_token:1;
-        unsigned int read_unPaddedDoorNumbers:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)audioMetricProvider;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)@?32@?40;
-- (id)ributionPreferencesUpdateResult;
+- (id)_photoAttributionPreferencesUpdateResult;
 - (id)h°±;
 - (void);
 

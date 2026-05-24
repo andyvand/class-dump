@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSAppleCardSilentEnrollment
 {
@@ -16,17 +14,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)ê$¡71HÄâá(K+Éð³sJH#Ø@*ªï%øÉÔèv
 8[ÅPL4ïw¥~Èt6×ÍÌc´,3²G	/9jZqq)YvD2ö¶Þ=@;ÅEói0(O~0:+1ê¶¾UuºÞ×³lÀrÿÛô.C;Ó¢²¼KµaísâÅÙ¾6þpáÆUÅ*ý_ËßWéH½÷6<%4£4¢¦P<M³¿oÐ.Ç/ÂUÏ?ÊßZ¶ò¿¶ÿ¢¤<.Î¯¨¤³4¼¨¡TÌèzíBKìülqý>Q4MY /* Error: Ran out of types for this method. */;
-+ (id)roller;
++ (id)StoreReviewGatingController;
 + (id)Ù`Äí;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

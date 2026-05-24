@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _NSXPCConnectionImportInfo
 {
     unsigned long long _generationCount;
-    struct __CFDictionary *_proxyNumberToCount;
-    void *_secTaskRef;
-    struct os_unfair_lock_s _lock;
-    _Bool _secTaskClearedOnce;
 }
 
-- (void);
+- (void)B;
 - (id);
 
 @end

@@ -10,7 +10,6 @@
 @interface TRIRuleQualifiedFactorPackSetId
 {
     int _targetingRuleIndex;
-    NSString<TRIFactorPackSetId> *_ident;
 }
 
 + (id);
@@ -20,16 +19,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)texAttributeNamed:(id)arg1 materialPropertyNamed: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIFactorPackSetId> *ident; // @synthesize ident=_ident;
-@property(readonly, nonatomic) int targetingRuleIndex; // @synthesize targetingRuleIndex=_targetingRuleIndex;
 
 @end
 

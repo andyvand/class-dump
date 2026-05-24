@@ -7,9 +7,6 @@
 @interface NewsUI2.MainTabBarEngagementModifier
 {
     id tabBarController;
-    id mainTabManager;
-    id bootstrapperDidComplete;
-    id tipManager;
 }
 
 @end

@@ -11,7 +11,7 @@
     AVFrameRateRangeInternal *_internal;
 }
 
-+ (id);
++ (id)c}@ Preparing still image capture (deprecated path) for %@, settings:(int)arg1 %@;
 + (void);
 - (void);
 - (CDStruct_1b6d18a9);
@@ -25,9 +25,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 maxFrameDuration;
-@property(readonly) double maxFrameRate;
-@property(readonly) CDStruct_1b6d18a9 minFrameDuration;
 @property(readonly) double minFrameRate;
 
 @end

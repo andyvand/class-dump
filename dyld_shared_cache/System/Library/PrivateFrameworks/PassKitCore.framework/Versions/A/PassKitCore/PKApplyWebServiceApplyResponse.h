@@ -6,15 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceResponse.h>
 
-@class NSSet, PKAccount, PKFeatureApplication;
+@class PKFeatureApplication;
 
 @interface PKApplyWebServiceApplyResponse : PKApplyWebServiceResponse
 {
     _Bool _requiresODIAssessment;
-    PKFeatureApplication *_featureApplication;
-    PKAccount *_account;
-    unsigned long long _requiredDeviceMetadataFields;
-    NSSet *_actionIdentifiersRequiringAuthentication;
 }
 
 + (_Bool);
@@ -23,18 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id)�;
 - (id);
+- (void);T;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)liveRenderingRequiresEnablement;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSSet *actionIdentifiersRequiringAuthentication; // @synthesize actionIdentifiersRequiringAuthentication=_actionIdentifiersRequiringAuthentication;
 @property(readonly, nonatomic) PKFeatureApplication *featureApplication; // @synthesize featureApplication=_featureApplication;
-@property(readonly, nonatomic) unsigned long long requiredDeviceMetadataFields; // @synthesize requiredDeviceMetadataFields=_requiredDeviceMetadataFields;
-@property(readonly, nonatomic) _Bool requiresODIAssessment; // @synthesize requiresODIAssessment=_requiresODIAssessment;
 
 @end
 

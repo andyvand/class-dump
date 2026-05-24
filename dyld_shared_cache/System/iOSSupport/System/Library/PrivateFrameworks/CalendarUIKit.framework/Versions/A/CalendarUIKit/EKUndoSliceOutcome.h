@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKPostSliceDescription, EKSeriesDetails;
+@class EKEvent;
 
 @interface EKUndoSliceOutcome
 {
     EKEvent *_masterToDelete;
-    EKSeriesDetails *_mainSeriesDetails;
-    EKSeriesDetails *_createdSeriesDetails;
-    EKPostSliceDescription *_originalPostSliceDescription;
 }
 
 - (void);
@@ -24,14 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ource: /* Error: Ran out of types for this method. */;
+- (id)setTimeZoneRelativeEndDate:(struct _NSZone *)arg1;
+- (void)temporarilyIgnoreInvalidCredentialsErrorForSource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) EKSeriesDetails *createdSeriesDetails; // @synthesize createdSeriesDetails=_createdSeriesDetails;
-@property(copy) EKSeriesDetails *mainSeriesDetails; // @synthesize mainSeriesDetails=_mainSeriesDetails;
 @property(copy) EKEvent *masterToDelete; // @synthesize masterToDelete=_masterToDelete;
-@property(readonly) EKPostSliceDescription *originalPostSliceDescription; // @synthesize originalPostSliceDescription=_originalPostSliceDescription;
 
 @end
 

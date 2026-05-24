@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSMutableDictionary, NSString;
+@class NSDecimalNumber, NSString;
 
 @interface PKNumericSuggestionLastInput
 {
     NSString *_serialNumber;
-    NSMutableDictionary *_passLastInputDictionary;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)�	;
+- (id);
 - (id);
 - (void)iled to sign challange. Error:%@ /* Error: Ran out of types for this method. */;
 - (void)de other than %%@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *value;
-@property(nonatomic) _Bool wentToMax;
 
 @end
 

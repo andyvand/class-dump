@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFXPCConnection, NSMutableSet;
+@class CWFXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CWFXPCConnectionMessageProxy
 {
     CWFXPCConnection *_target;
-    NSMutableSet *_methodSignatures;
 }
 
-+ (_Bool);
++ (_Bool)_filterGeneratorMap;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)__addXPCGetRequestWithType:requestParams:reply: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioInjectionFileOption, NSMutableArray, NSObject, NSUUID;
-@protocol CSAudioInjectionEngineDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSFileAudioInjectionEngine
 {
     _Bool _isRecording;
-    _Bool _didSetScaleFactor;
-    float _scaleFactor;
-    unsigned int _inputRecordingNumberOfChannels;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioInjectionEngineDelegate> _delegate;
-    unsigned long long _audioStreamHandleId;
-    CSAudioInjectionFileOption *_fileOption;
-    NSObject<OS_dispatch_source> *_audioFeedTimer;
-    double _bufferDuration;
-    NSMutableArray *_injectionAudioFileList;
-    NSMutableArray *_injectionStartNotifyBlocks;
-    NSMutableArray *_injectionCompletionNotifyBlocks;
-    CDUnknownBlockType _startInjectBlock;
-    NSUUID *_uuid;
-    struct OpaqueAudioConverter *_deinterleaver;
-    struct AudioBufferList *_pNonInterleavedABL;
-    struct AudioStreamBasicDescription _outASBD;
 }
 
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void)Q;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)\;
+- (void)];
 - (void);
 - (void);
 - (void);
 - (struct AudioBufferList *);
 - (id);
-- (id);
+- (id)__objc_classname__TEXT;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -73,11 +56,11 @@
 - (_Bool);
 - (struct AudioStreamBasicDescription);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithOriginatingRequestSpecifier:(id)arg1 boundingBox:groupId: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (id);
@@ -85,28 +68,11 @@
 - (float);
 - (void);
 - (void);
-- (void)ileWriterForRemoteVADWithInputFormat:outputFormat:withLoggingUUID: /* Error: Ran out of types for this method. */;
+- (void)createAudioFileWriterForRemoteVADWithInputFormat:outputFormat:withLoggingUUID: /* Error: Ran out of types for this method. */;
 - (_Bool)e:voiceTriggerEventInfo:otherCtxt:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *audioFeedTimer; // @synthesize audioFeedTimer=_audioFeedTimer;
-@property(nonatomic) unsigned long long audioStreamHandleId; // @synthesize audioStreamHandleId=_audioStreamHandleId;
-@property(nonatomic) double bufferDuration; // @synthesize bufferDuration=_bufferDuration;
-@property(nonatomic) struct OpaqueAudioConverter *deinterleaver; // @synthesize deinterleaver=_deinterleaver;
-@property(nonatomic) __weak id <CSAudioInjectionEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didSetScaleFactor; // @synthesize didSetScaleFactor=_didSetScaleFactor;
-@property(retain, nonatomic) CSAudioInjectionFileOption *fileOption; // @synthesize fileOption=_fileOption;
-@property(retain, nonatomic) NSMutableArray *injectionAudioFileList; // @synthesize injectionAudioFileList=_injectionAudioFileList;
-@property(retain, nonatomic) NSMutableArray *injectionCompletionNotifyBlocks; // @synthesize injectionCompletionNotifyBlocks=_injectionCompletionNotifyBlocks;
-@property(retain, nonatomic) NSMutableArray *injectionStartNotifyBlocks; // @synthesize injectionStartNotifyBlocks=_injectionStartNotifyBlocks;
-@property(nonatomic) unsigned int inputRecordingNumberOfChannels; // @synthesize inputRecordingNumberOfChannels=_inputRecordingNumberOfChannels;
-@property(nonatomic) _Bool isRecording; // @synthesize isRecording=_isRecording;
-@property(nonatomic) struct AudioStreamBasicDescription outASBD; // @synthesize outASBD=_outASBD;
-@property(nonatomic) struct AudioBufferList *pNonInterleavedABL; // @synthesize pNonInterleavedABL=_pNonInterleavedABL;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(copy, nonatomic) CDUnknownBlockType startInjectBlock; // @synthesize startInjectBlock=_startInjectBlock;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

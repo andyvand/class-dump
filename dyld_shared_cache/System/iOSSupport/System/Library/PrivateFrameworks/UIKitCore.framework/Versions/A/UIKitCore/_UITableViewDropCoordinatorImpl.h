@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSString, UITableViewDropProposal;
-@protocol UIDropSession, _UITableViewDropCoordinatorDelegate;
+@protocol _UITableViewDropCoordinatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropCoordinatorImpl
 {
     id <_UITableViewDropCoordinatorDelegate> _delegate;
-    NSArray *_items;
-    NSIndexPath *_destinationIndexPath;
-    NSIndexPath *_translatedDestinationIndexPath;
-    UITableViewDropProposal *_proposal;
-    id <UIDropSession> _session;
 }
 
 - (void);
@@ -24,53 +18,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)keyEnumerator;
+- (id)existingChatsForIDs:onService:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (void)chat:(id)arg1 lastAddressedHandleIDUpdated:lastAddressedSIMIDUpdated: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
+- (void)T;
+- (id)};
+- (void);
 - (id);
+- (id)guid is nil when setting batch of update records:%@ /* Error: Ran out of types for this method. */;
+- (void)rking it as clean and moving on.;
 - (id);
+- (id);
 - (id);
 - (id)q^Ð1Â0@ù
 × ;
 - (void);
 - (void)0@ù
 × ;
-- (id)ype;
+- (id)m_presentingKeyboardMenuType;
 - (id)D=ddd},N,V_center;
 - (id)dbackConductor;
 - (id)@ÿÿÿÿ°ÿÿ´ÿÿØÿÿðÿÿÿÿ ÿÿÿÿÌÿÿ,ÿÿÿÿ4ÿÿlÿÿÜÿÿp	ÿÿx
 ÿÿð
 ÿÿ4ÿÿxÿÿ¼ÿÿèÿÿ4ÿÿÿÿ´ÿÿÀÿÿ8ÿÿXÿÿxÿÿÿÿ¨ÿÿÐÿÿÔÿÿìÿÿÿÿÿÿHÿÿtÿÿTÿÿlÿÿÿÿ¤ÿÿÿÿ<ÿÿÿÿøÿÿøÿÿìÿÿÿÿÿÿtÿÿhÿÿ¨ÿÿÀÿÿØÿÿÿÿ0ÿÿHÿÿ¨ÿÿÀÿÿØÿÿðÿÿPÿÿhÿÿpÿÿÿÿ ÿÿ¤ÿÿÄÿÿüÿÿDÿÿ\ÿÿ¨ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ`ÿÿ¤ÿÿ¼ÿÿÔÿÿìÿÿ ÿÿ ÿÿ4 ÿÿL ÿÿ<#ÿÿ#ÿÿ¤#ÿÿÌ#ÿÿ$ÿÿ%ÿÿx%ÿÿ%ÿÿ¸%ÿÿà%ÿÿø%ÿÿ&ÿÿH&ÿÿ&ÿÿÀ&ÿÿø&ÿÿ'ÿÿ('ÿÿ@'ÿÿX'ÿÿp'ÿÿ'ÿÿ 'ÿÿ¸'ÿÿÐ'ÿÿè'ÿÿt(ÿÿ¸(ÿÿ)ÿÿø)ÿÿ`*ÿÿ*ÿÿ*ÿÿ+ÿÿ0+ÿÿH+ÿÿ`+ÿÿx+ÿÿ+ÿÿ¨+ÿÿ;
-- (void)s;
+- (void)amplifyDelays;
 - (void)X2¿7cG;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexPath *_destinationIndexPath;
-@property(readonly, nonatomic) UITableViewDropProposal *_dropProposal;
-@property(readonly, nonatomic) id <UIDropSession> _dropSession;
-@property(readonly, nonatomic) NSArray *_items;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UITableViewDropCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSIndexPath *destinationIndexPath; // @synthesize destinationIndexPath=_destinationIndexPath;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) UITableViewDropProposal *proposal; // @synthesize proposal=_proposal;
-@property(retain, nonatomic) id <UIDropSession> session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, getter=_translatedDestinationIndexPath, setter=_setTranslatedDestinationIndexPath:) NSIndexPath *translatedDestinationIndexPath; // @synthesize translatedDestinationIndexPath=_translatedDestinationIndexPath;
 
 @end
 

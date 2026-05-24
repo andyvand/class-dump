@@ -4,44 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIImage, _UIPageIndicatorStoreObject;
-@protocol _UIPageIndicatorStoreDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageIndicatorStore
 {
-    CDStruct_d0d7e7b7 _cache;
-    CDStruct_d0d7e7b7 _expandedCache;
-    UIImage *_defaultImage;
-    _UIPageIndicatorStoreObject *_defaultObject;
-    id <_UIPageIndicatorStoreDelegate> _delegate;
-    UIImage *_preferredImage;
-    UIImage *_preferredActiveImage;
-    double _indicatorSpacing;
-    long long _direction;
-    NSMutableArray *_store;
+    struct {
+        struct SizeForMaximumContentSizeCache fittingSize;
+        struct NumberOfVisibleIndicatorsForStartIndexCache indicatorCount;
+        struct ContentSizeForNumberOfPagesCache contentSize;
+        struct MinimumContentSizeForIndicatorsInRangeCache contentSizeInRange;
+    } _cache;
 }
 
 - (void);
 - (long long);
 - (id);
 - (void);
-- (double);
-- (id);
-- (id);
+- (double)kdiskio_bytesread;
+- (id)setPayloadAllowDriverDoNotDisturbModifications: /* Error: Ran out of types for this method. */;
+- (id)sionIdentifier;
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
+- (void)=%{public}@;
+- (id)MPModelRelationshipAlbumRepresentativeSong;
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (struct CGSize);
 - (void);
 - (struct CGSize);
-- (id);
+- (struct CGSize);
+- (void);
+- (struct CGSize);
+- (id);
 - (struct CGSize)× ;
 - (void);
 - (void)°!,GùdÐ1Â0@ù
@@ -50,19 +45,19 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGSize),FùqgÐ1Â0@ù
 × ;
-- (void)gCurrentSelection:(long long)arg1;
-- (void)IfNecessary:(id)arg1;
+- (void)rangeByMovingCurrentSelection:(long long)arg1;
+- (void)_updateVisibleCellsForRanges:(id)arg1 createIfNecessary: /* Error: Ran out of types for this method. */;
 - (id): /* Error: Ran out of types for this method. */;
-- (id)dateContentMargins;
-- (double)abBarBackgroundUpdates;
-- (id)tSecondaryAuxiliarySwitchState: /* Error: Ran out of types for this method. */;
-- (id)ndexPaths:forUserSelectedIndexPath:session: /* Error: Ran out of types for this method. */;
+- (id)_updateContentMargins;
+- (double)_suspendAllTabBarBackgroundUpdates;
+- (id)_setSecondaryAuxiliarySwitchState: /* Error: Ran out of types for this method. */;
+- (id)_filterCandidateIndexPaths:forUserSelectedIndexPath:session: /* Error: Ran out of types for this method. */;
 - (void)onfiguration;
 - (long long)|;
 - (long long)ýÑ2 ;
-- (void)edFilter;
+- (void)resolvedFilter;
 - (id)uches:(long long)arg1 phase:event:index:] /* Error: Ran out of types for this method. */;
-- (struct CGSize)dDisplayStringKey;
+- (struct CGSize)UITextInputReturnKeyStateChangedDisplayStringKey;
 - (void)Appearance;
 - (long long)¤ÿÿ;
 - (id)cÄ;
@@ -70,13 +65,6 @@ __attribute__((visibility("hidden")))
 - (long long)ÿø;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIPageIndicatorStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) UIImage *indicatorImage;
-@property(nonatomic) double indicatorSpacing; // @synthesize indicatorSpacing=_indicatorSpacing;
-@property(readonly, nonatomic) long long numberOfPages;
-@property(retain, nonatomic) UIImage *preferredActiveImage; // @synthesize preferredActiveImage=_preferredActiveImage;
-@property(retain, nonatomic) UIImage *preferredImage; // @synthesize preferredImage=_preferredImage;
 @property(retain, nonatomic) NSMutableArray *store; // @synthesize store=_store;
 
 @end

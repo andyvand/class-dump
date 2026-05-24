@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GEORouteMatcherScoreInfo
 {
     long long _type;
-    double _rawScore;
-    double _weight;
 }
 
 - (id);

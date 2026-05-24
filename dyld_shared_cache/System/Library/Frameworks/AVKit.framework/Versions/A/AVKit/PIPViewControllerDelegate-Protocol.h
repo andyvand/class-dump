@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PIPViewController;
+
 @protocol PIPViewControllerDelegate
+
+@optional
+- (void)qualityRowVisible;
+- (void)qlOperationDidFinished:(PIPViewController *)arg1;
+- (void)qcComposition;
+- (void)ter:(PIPViewController *)arg1;
+- (void)r:(PIPViewController *)arg1 bottomLeftCorner:alignOnPixelCenter: /* Error: Ran out of types for this method. */;
+- (void)pushRoundedRectPath:(PIPViewController *)arg1 inContext:withCornerRadius:topLeftCorner:topRightCorner:bottomRightCorner:bottomLeftCorner:alignOnPixelCenter: /* Error: Ran out of types for this method. */;
+- (void)r:(PIPViewController *)arg1;
+- (void)pushRoundedRectPath:(PIPViewController *)arg1 inContext:withCornerRadius:alignOnPixelCenter: /* Error: Ran out of types for this method. */;
+- (void)purgeItemsOutOfDate;
+- (void)proxySize;
+- (void)originalImageFileWillChangeOnDiskTo:(PIPViewController *)arg1;
+- (void)openURL:(PIPViewController *)arg1;
 @end
 

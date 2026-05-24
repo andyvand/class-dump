@@ -7,8 +7,6 @@
 @interface TimeMachine.LogLimiter__priv_CB59652EB581F6BEDA983A6861A55DA0
 {
     id countedOccurrences;
-    id alreadyLimited;
-    id lock;
 }
 
 @end

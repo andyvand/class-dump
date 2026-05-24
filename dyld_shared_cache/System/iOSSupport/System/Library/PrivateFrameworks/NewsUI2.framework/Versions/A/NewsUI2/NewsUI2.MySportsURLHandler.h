@@ -7,9 +7,6 @@
 @interface NewsUI2.MySportsURLHandler
 {
     id patterns;
-    id navigator;
-    id feedViewContextFactory;
-    id appConfigurationManager;
 }
 
 @end

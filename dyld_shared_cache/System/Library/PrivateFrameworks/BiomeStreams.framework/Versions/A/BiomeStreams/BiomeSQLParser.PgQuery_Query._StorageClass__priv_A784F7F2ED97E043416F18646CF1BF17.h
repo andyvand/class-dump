@@ -7,41 +7,6 @@
 @interface BiomeSQLParser.PgQuery_Query._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _commandType;
-    id _querySource;
-    id _canSetTag;
-    id _utilityStmt;
-    id _resultRelation;
-    id _hasAggs_p;
-    id _hasWindowFuncs_p;
-    id _hasTargetSrfs_p;
-    id _hasSubLinks_p;
-    id _hasDistinctOn_p;
-    id _hasRecursive_p;
-    id _hasModifyingCte_p;
-    id _hasForUpdate_p;
-    id _hasRowSecurity_p;
-    id _cteList;
-    id _rtable;
-    id _jointree;
-    id _targetList;
-    id _override;
-    id _onConflict;
-    id _returningList;
-    id _groupClause;
-    id _groupingSets;
-    id _havingQual;
-    id _windowClause;
-    id _distinctClause;
-    id _sortClause;
-    id _limitOffset;
-    id _limitCount;
-    id _limitOption;
-    id _rowMarks;
-    id _setOperations;
-    id _constraintDeps;
-    id _withCheckOptions;
-    id _stmtLocation;
-    id _stmtLen;
 }
 
 @end

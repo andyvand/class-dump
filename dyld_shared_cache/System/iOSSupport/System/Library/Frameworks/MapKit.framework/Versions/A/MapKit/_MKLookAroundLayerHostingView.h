@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
-- (void);
-- (id);
+- (void)k;
 - (void);
 - (id);
+- (void)addLoginIMHandle:(struct CGRect)arg1;
+- (id);
 - (void);
-- (void)geByClampingToRect: /* Error: Ran out of types for this method. */;
+- (void)imageByClampingToRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VKMapView *lookAroundView; // @synthesize lookAroundView=_lookAroundView;

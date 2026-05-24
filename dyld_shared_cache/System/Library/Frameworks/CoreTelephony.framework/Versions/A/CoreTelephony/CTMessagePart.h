@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CTMessagePart
 {
     NSString *_contentType;
-    NSMutableDictionary *_contentTypeParams;
-    NSString *_contentId;
-    NSString *_contentLocation;
-    NSData *_data;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)~;
 - (id);
-- (void);
+- (void)SAUIAssistantHintView;
 - (void);
 - (id);
 - (id);
@@ -31,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentId; // @synthesize contentId=_contentId;
-@property(copy, nonatomic) NSString *contentLocation; // @synthesize contentLocation=_contentLocation;
 @property(copy, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 
 @end
 

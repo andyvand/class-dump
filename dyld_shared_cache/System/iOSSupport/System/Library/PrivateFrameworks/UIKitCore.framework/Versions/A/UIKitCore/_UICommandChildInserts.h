@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
+- (id)Q;
+- (void)plicated message %@;
 - (void)¼ÿ;
 
 // Remaining properties

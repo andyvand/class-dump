@@ -7,13 +7,6 @@
 @interface ConversationKit.CaptioningStateManager
 {
     id captioningStateSubject;
-    id _call;
-    id _asrAssetIdentifier;
-    id _asrAvailability;
-    id capabilities;
-    id _captionsRecognizerStateManager;
-    id _cancellables;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface UASharedPasteboardTypeInfo
 {
     _Bool _preferFileRep;
-    NSString *_type;
-    NSUUID *_uuid;
-    NSNumber *_offset;
-    long long _size;
-    NSFileHandle *_dataFile;
-    NSString *_typeHint;
-    NSNumber *_index;
 }
 
 + (_Bool);
@@ -43,14 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSFileHandle *dataFile; // @synthesize dataFile=_dataFile;
-@property(copy) NSNumber *index; // @synthesize index=_index;
-@property(copy) NSNumber *offset; // @synthesize offset=_offset;
-@property _Bool preferFileRep; // @synthesize preferFileRep=_preferFileRep;
-@property long long size; // @synthesize size=_size;
 @property(copy) NSString *type; // @synthesize type=_type;
-@property(copy) NSString *typeHint; // @synthesize typeHint=_typeHint;
-@property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -9,14 +9,10 @@
 @interface SGEventDonationEnablementManager
 {
     NSSet *_llmPreferredLocales;
-    NSSet *_textMessageUnsupportedCategories;
-    NSSet *_overallUnsupportedCategories;
-    NSSet *_textMessageUnsupportedStatuses;
-    NSSet *_overallUnsupportedStatuses;
 }
 
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (void);
@@ -26,19 +22,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id){;
 - (void)¤-4;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *llmPreferredLocales; // @synthesize llmPreferredLocales=_llmPreferredLocales;
-@property(retain, nonatomic) NSSet *overallUnsupportedCategories; // @synthesize overallUnsupportedCategories=_overallUnsupportedCategories;
-@property(retain, nonatomic) NSSet *overallUnsupportedStatuses; // @synthesize overallUnsupportedStatuses=_overallUnsupportedStatuses;
-@property(retain, nonatomic) NSSet *textMessageUnsupportedCategories; // @synthesize textMessageUnsupportedCategories=_textMessageUnsupportedCategories;
-@property(retain, nonatomic) NSSet *textMessageUnsupportedStatuses; // @synthesize textMessageUnsupportedStatuses=_textMessageUnsupportedStatuses;
 
 @end
 

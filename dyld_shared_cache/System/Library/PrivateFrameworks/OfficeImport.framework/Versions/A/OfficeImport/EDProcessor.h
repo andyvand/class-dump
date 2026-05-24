@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, EDWorkbook, NSMutableArray;
+@class EDWorkbook;
 
 __attribute__((visibility("hidden")))
 @interface EDProcessor
 {
     EDWorkbook *mWorkbook;
-    EDResources *mResources;
-    NSMutableArray *mObjects;
 }
 
 - (void);

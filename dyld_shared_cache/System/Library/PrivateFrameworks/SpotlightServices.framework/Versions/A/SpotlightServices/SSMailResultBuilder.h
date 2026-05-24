@@ -6,63 +6,49 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class CNContact, NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface SSMailResultBuilder : SSResultBuilder
 {
     NSDate *_creationDate;
-    NSString *_body;
-    NSString *_subject;
-    NSString *_author;
-    NSString *_authorEmail;
-    CNContact *_authorContact;
-    NSArray *_recipients;
-    NSArray *_recipientEmails;
 }
 
-+ (id);
-+ (id);
-+ (long long);
++ (id)_setInComposeContext:(id)arg1;
++ (id)_muteButtonOpacity;
++ (long long)streamAudioFromFileUrl:audioStreamBasicDescriptor:samplesPerStreamChunk:audioDataAvailableHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
++ (_Bool)$c;
 + (id);
 + (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (id)showPlayIndicator: /* Error: Ran out of types for this method. */;
+- (id)setDirectionsSourceLocationName: /* Error: Ran out of types for this method. */;
+- (id)setCumulative: /* Error: Ran out of types for this method. */;
+- (id)setClientInfo: /* Error: Ran out of types for this method. */;
+- (id)setCallback: /* Error: Ran out of types for this method. */;
+- (id)setAudios: /* Error: Ran out of types for this method. */;
+- (id)setAllowsDominantImageBackgroundColorAsCaptionBackground: /* Error: Ran out of types for this method. */;
+- (id)setAllowedUnits: /* Error: Ran out of types for this method. */;
+- (id)originatingSynapseContentItem;
+- (void)layer;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void)setIds:(id)arg1;
+- (void)TRIAssetDiffQueryGuardedData;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ecuteFetchRequest:error: /* Error: Ran out of types for this method. */;
+- (void)executeFetchRequest:error: /* Error: Ran out of types for this method. */;
 - (id)le.Spotlight.suggestions;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *author; // @synthesize author=_author;
-@property(retain, nonatomic) CNContact *authorContact; // @synthesize authorContact=_authorContact;
-@property(retain, nonatomic) NSString *authorEmail; // @synthesize authorEmail=_authorEmail;
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSArray *recipientEmails; // @synthesize recipientEmails=_recipientEmails;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) NSString *subject; // @synthesize subject=_subject;
 
 @end
 

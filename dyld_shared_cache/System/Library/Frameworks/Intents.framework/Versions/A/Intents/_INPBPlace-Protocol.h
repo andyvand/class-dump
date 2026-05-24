@@ -7,17 +7,12 @@
 @class NSArray, _INPBString;
 
 @protocol _INPBPlace
-- (_INPBString *)IntentParameterMetadataCustomUTIs;
-- (_Bool)ctionForGetCarPowerLevelStatus:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBString *)T;
+- (NSArray *);
+- (_INPBString *)__INCodableFileAttributeMetadataINIntentParameterMetadataCustomUTIs;
+- (_Bool)provideCarNameOptionsCollectionForGetCarPowerLevelStatus:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPersonalPlaceType;
-@property(readonly, nonatomic) _Bool hasPlaceSubType;
-@property(readonly, nonatomic) _Bool hasPlaceType;
 @property(nonatomic) int personalPlaceType;
-@property(copy, nonatomic) NSArray *placeDescriptors;
-@property(readonly, nonatomic) unsigned long long placeDescriptorsCount;
-@property(retain, nonatomic) _INPBString *placeSubType;
-@property(retain, nonatomic) _INPBString *placeType;
 @end
 

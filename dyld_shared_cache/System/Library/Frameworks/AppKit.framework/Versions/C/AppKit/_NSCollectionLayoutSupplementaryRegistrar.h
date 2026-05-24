@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSSet, NSString;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSupplementaryRegistrar
 {
     NSMutableOrderedSet *_enrollmentIdentifiers;
-    NSMutableSet *_uncommittedEnrollmentIdentifiers;
-    NSMutableDictionary *_enrollmentsDict;
-    NSMutableDictionary *_kindEnrollmentsDict;
 }
 
 - (void);
@@ -21,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)0Q48B56;
 - (void);
 - (void)Ô¡ï/! DùÑå3ð1Â0@ù
 × ;
@@ -36,23 +33,11 @@ __attribute__((visibility("hidden")))
 - (void)Ä;
 - (id)H;
 - (long long)truncatesLastVisibleLine;
-- (id);
+- (id)B;
 - (void)ViewLiveScrollMaxValue;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableOrderedSet *enrollmentIdentifiers; // @synthesize enrollmentIdentifiers=_enrollmentIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *enrollmentsDict; // @synthesize enrollmentsDict=_enrollmentsDict;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *kindEnrollmentsDict; // @synthesize kindEnrollmentsDict=_kindEnrollmentsDict;
-@property(readonly, nonatomic) NSSet *kinds;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *uncommittedEnrollmentIdentifiers; // @synthesize uncommittedEnrollmentIdentifiers=_uncommittedEnrollmentIdentifiers;
 
 @end
 

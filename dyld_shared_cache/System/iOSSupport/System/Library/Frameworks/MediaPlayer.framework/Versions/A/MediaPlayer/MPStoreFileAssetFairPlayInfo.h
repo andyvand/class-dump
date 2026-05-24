@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreFileAssetFairPlayInfo, NSData, NSDictionary;
+@class ICStoreFileAssetFairPlayInfo, NSDictionary;
 
 @interface MPStoreFileAssetFairPlayInfo
 {
     ICStoreFileAssetFairPlayInfo *_internalInfo;
 }
 
+- (id)-;
+- (id)0i;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)materializedView;
+- (id)ory, error:%@ /* Error: Ran out of types for this method. */;
 - (long long);
-- (void)oArtworkCatalogBlock_KEY;
+- (void)__heroArtworkCatalogBlock_KEY;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *dpInfoData;
-@property(readonly, nonatomic) long long identifier;
-@property(readonly, copy, nonatomic) NSData *pinfData;
-@property(readonly, copy, nonatomic) NSDictionary *purchaseBundleSinfDictionary;
 @property(readonly, copy, nonatomic) NSDictionary *responseSinfDictionary;
-@property(readonly, copy, nonatomic) NSData *sinf2Data;
-@property(readonly, copy, nonatomic) NSData *sinfData;
 
 @end
 

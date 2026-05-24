@@ -9,13 +9,9 @@
 @interface GEORPIncidentLocation
 {
     GEOLatLng *_latLng;
-    unsigned int _zoomLevel;
-    struct {
-        unsigned int has_zoomLevel:1;
-    } _flags;
 }
 
-+ (_Bool)SocUpdateDate:(id)arg1;
++ (_Bool)setLastSocUpdateDate:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -23,8 +19,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)5;
+- (void)CSAudioSessionInfoProviding;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -32,18 +28,15 @@
 - (_Bool);
 - (void);
 - (id)nownFields"b1"read_latLng"b1"read_nameDisplayString"b1"read_styleAttributes"b1"read_timezone"b1"read_zoomNames"b1"wrote_anyField"b1};
-- (id)M;
+- (id)cellVoiceLQM;
 - (id)¼ ";
-- (id)ervationExtensionSupport;
+- (id)restaurantReservationExtensionSupport;
 - (void)öÑ©+ïN@;
 - (void)ÀM@;
 - (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLatLng;
-@property(nonatomic) _Bool hasZoomLevel;
-@property(retain, nonatomic) GEOLatLng *latLng;
-@property(nonatomic) unsigned int zoomLevel;
 
 @end
 

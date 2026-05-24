@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIUIAssignment_ExplicitBuckets;
-
 @interface TRIUIAssignment : TRIPBMessage
 {
 }
@@ -16,12 +14,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int bucketingOneOfCase; // @dynamic bucketingOneOfCase;
-@property(nonatomic) _Bool control; // @dynamic control;
-@property(retain, nonatomic) TRIUIAssignment_ExplicitBuckets *explicitBuckets; // @dynamic explicitBuckets;
-@property(nonatomic) _Bool hasControl; // @dynamic hasControl;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(nonatomic) unsigned int numBuckets; // @dynamic numBuckets;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagnosticCaseStorage, NSDate, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UploadRecord
@@ -15,22 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id)aServiceDescriptorChanged: /* Error: Ran out of types for this method. */;
+- (id)currentDataServiceDescriptorChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCellular; // @dynamic allowsCellular;
-@property(retain, nonatomic) DiagnosticCaseStorage *caseStorage; // @dynamic caseStorage;
 @property(nonatomic) short environment; // @dynamic environment;
-@property(retain, nonatomic) NSMutableArray *fileURLs; // @synthesize fileURLs;
-@property(copy, nonatomic) NSDate *finishTime; // @dynamic finishTime;
-@property(nonatomic) short numberOfFiles; // @dynamic numberOfFiles;
-@property(copy, nonatomic) NSString *operationID; // @dynamic operationID;
-@property(nonatomic) short preflightResult; // @dynamic preflightResult;
-@property(nonatomic) short priority; // @dynamic priority;
-@property(nonatomic) float progress; // @dynamic progress;
-@property(copy, nonatomic) NSDate *startTime; // @dynamic startTime;
-@property(nonatomic) long long totalBytes; // @dynamic totalBytes;
-@property(nonatomic) short uploadState; // @dynamic uploadState;
 
 @end
 

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponents, NSTimeZone;
+@class NSDate, NSTimeZone;
 
 @protocol HMTimerTriggerBuilder
-- (NSTimeZone *)teMessageName;
+- (void);
+- (NSTimeZone *)UserPresenceUpdateMessageName;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *fireDate;
-@property(copy, nonatomic) NSDateComponents *recurrence;
-@property(copy, nonatomic) NSTimeZone *timeZone;
 @end
 

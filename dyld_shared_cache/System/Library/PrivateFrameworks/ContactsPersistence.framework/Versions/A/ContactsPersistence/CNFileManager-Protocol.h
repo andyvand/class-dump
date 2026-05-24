@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNResult;
+
 @protocol CNFileManager
+- (CNResult *)`b;
+- (_Bool)isEmpty;
+- (CNResult *)upHeader;
 @end
 

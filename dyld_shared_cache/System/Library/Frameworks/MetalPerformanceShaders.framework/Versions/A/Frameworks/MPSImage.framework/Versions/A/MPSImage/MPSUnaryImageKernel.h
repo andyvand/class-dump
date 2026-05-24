@@ -7,19 +7,12 @@
 @interface MPSUnaryImageKernel
 {
     CDStruct_d6af7fc0 _offset;
-    CDStruct_1e3be3a8 _clipRect;
-    unsigned long long _edgeMode;
-    int _checkFlags;
-    CDUnknownFunctionPointerType _encode;
-    CDUnknownFunctionPointerType _encodeKernelDAG;
-    void *_encodeData;
-    CDUnknownFunctionPointerType _getPreferredTileSize;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
@@ -29,9 +22,9 @@
 - (void);
 - (id);
 - (struct MPSRegion);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)initWithQueryString:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (CDStruct_d6af7fc0)than 4 feature channels for MPSUnaryImageKernels
@@ -39,8 +32,6 @@
 - (id)ÒSJ$?;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1e3be3a8 clipRect; // @synthesize clipRect=_clipRect;
-@property(nonatomic) unsigned long long edgeMode; // @synthesize edgeMode=_edgeMode;
 @property(nonatomic) CDStruct_d6af7fc0 offset; // @synthesize offset=_offset;
 
 @end

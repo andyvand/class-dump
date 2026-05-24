@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatAccessibilityNode
 {
     id _identifier;
-    id property;
-    id invalidation;
-    id flex;
 }
 
 @end

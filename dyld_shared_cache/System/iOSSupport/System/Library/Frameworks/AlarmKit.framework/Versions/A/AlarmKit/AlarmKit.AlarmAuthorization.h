@@ -7,11 +7,12 @@
 @interface AlarmKit.AlarmAuthorization
 {
     id client;
+    id;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 

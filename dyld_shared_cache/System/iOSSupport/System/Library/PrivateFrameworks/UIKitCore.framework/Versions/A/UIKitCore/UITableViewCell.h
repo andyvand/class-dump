@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSIndexPath, NSMutableDictionary, NSString, UIButton, UICellAccessoryManager, UIColor, UIControl, UIEditMenuInteraction, UIFocusContainerGuide, UIImageView, UILabel, UILongPressGestureRecognizer, UIStoryboardPreviewingSegueTemplateStorage, UITableMetricsAdapter, UITextField, UIVisualEffect, _UIFloatingContentView, _UISystemBackgroundView, _UITableViewCellSeparatorView;
-@protocol UITableConstants, UITable_UITableViewCellDelegate, _UIBackgroundConfigurationInternal, _UIContentViewInternal;
-
 @interface UITableViewCell : UIView
 {
     struct {
@@ -95,73 +92,6 @@
         unsigned int automaticIntrinsicContentSizeInvalidationEnabled:1;
         unsigned int shouldSkipPrepareForConfigurationStateUpdate:1;
     } _tableCellFlags;
-    NSMutableDictionary *__editingControlTintColors;
-    id <UITable_UITableViewCellDelegate> _tableView;
-    id _layoutManager;
-    id _target;
-    SEL _editAction;
-    SEL _accessoryAction;
-    id _editingData;
-    long long _indentationLevel;
-    double _indentationWidth;
-    double _extraLeadingLayoutMarginForIndentation;
-    NSString *_reuseIdentifier;
-    _UIFloatingContentView *_floatingContentView;
-    long long _lineBreakModeBeforeFocus;
-    UIView *_contentView;
-    UIImageView *_imageView;
-    UILabel *_textLabel;
-    UILabel *_detailTextLabel;
-    UIView *_backgroundView;
-    UIView *_selectedBackgroundView;
-    UIView *_multipleSelectionBackgroundView;
-    UIView *_selectedOverlayView;
-    double _selectionFadeDuration;
-    id <_UIContentViewInternal> _viewForContentConfiguration;
-    _UISystemBackgroundView *_systemBackgroundView;
-    CDUnknownBlockType _contentViewConfigurationProvider;
-    CDUnknownBlockType _backgroundViewConfigurationProvider;
-    id <_UIBackgroundConfigurationInternal> _lastNormalBackgroundViewConfiguration;
-    UIColor *_separatorColor;
-    UIVisualEffect *_separatorEffect;
-    UIColor *_sectionBorderColor;
-    UIView *_floatingSeparatorView;
-    UIView *_topShadowAnimationView;
-    UIView *_bottomShadowAnimationView;
-    id _badge;
-    struct __CFDictionary *_unhighlightedStates;
-    id _selectionSegueTemplate;
-    id _accessoryActionSegueTemplate;
-    UIStoryboardPreviewingSegueTemplateStorage *_accessoryActionPreviewingSegueTemplateStorage;
-    UIControl *_accessoryView;
-    UIControl *_editingAccessoryView;
-    UIView *_customAccessoryView;
-    UIView *_customEditingAccessoryView;
-    _UITableViewCellSeparatorView *_separatorView;
-    _UITableViewCellSeparatorView *_topSeparatorView;
-    UITextField *_editableTextField;
-    double _textFieldOffset;
-    double _indexBarExtentFromEdge;
-    struct UIEdgeInsets _separatorInset;
-    struct UIEdgeInsets _backgroundInset;
-    SEL _returnAction;
-    UIColor *_selectionTintColor;
-    NSArray *_selectionEffects;
-    UIColor *_accessoryTintColor;
-    UILongPressGestureRecognizer *_longPressGesture;
-    NSIndexPath *_representedIndexPath;
-    UIView *_clearBlendingView;
-    double _defaultLeadingMarginWidth;
-    double _defaultTrailingCellMarginWidth;
-    UIFocusContainerGuide *_editingControlsFocusGuide;
-    id <UITableConstants> _constants;
-    UITableMetricsAdapter *_metricsAdapter;
-    long long _dragState;
-    long long _dropState;
-    UIEditMenuInteraction *_editMenuInteraction;
-    CDUnknownBlockType _configurationUpdateHandler;
-    UICellAccessoryManager *_accessoryManager;
-    UIButton *__popupMenuButton;
 }
 
 @end

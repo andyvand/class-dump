@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
-
 @protocol _INPBTicketedEvent
+- (_Bool);
+- (void);
+- (void)ks/CoreWLAN.framework/Versions/A/CoreWLAN;
 - (_Bool);
 - (void)Å>;
 
 // Remaining properties
 @property(nonatomic) int category;
-@property(retain, nonatomic) _INPBDateTimeRange *eventDuration;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasEventDuration;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) _INPBLocationValue *location;
-@property(copy, nonatomic) NSString *name;
 @end
 

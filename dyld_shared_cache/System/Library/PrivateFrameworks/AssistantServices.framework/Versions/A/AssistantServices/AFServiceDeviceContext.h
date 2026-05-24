@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface AFServiceDeviceContext
 {
     NSUUID *_identifier;
-    NSString *_assistantIdentifier;
-    NSString *_mediaSystemIdentifier;
-    NSString *_mediaRouteIdentifier;
-    NSString *_sharedUserID;
-    NSString *_roomName;
-    long long _proximity;
-    NSDictionary *_serializedContextByKey;
-    NSDictionary *_metricsContext;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_roughnessMaterialPropertyImage;
+- (id)PKPeerPaymentAllowUploadIDVImageFromWalletTestKey;
 - (id);
 - (id);
 - (id);
@@ -36,7 +28,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)m.apple.Messages.IMMetricsCollectorEventIMessageAttachmentUploadSingleComponent;
 - (id);
 - (id);
 - (void)shouldGenerateVoiceCommandCandidates;
@@ -44,15 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *mediaRouteIdentifier; // @synthesize mediaRouteIdentifier=_mediaRouteIdentifier;
-@property(readonly, copy, nonatomic) NSString *mediaSystemIdentifier; // @synthesize mediaSystemIdentifier=_mediaSystemIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *metricsContext; // @synthesize metricsContext=_metricsContext;
-@property(readonly, nonatomic) long long proximity; // @synthesize proximity=_proximity;
-@property(readonly, copy, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(readonly, copy, nonatomic) NSDictionary *serializedContextByKey; // @synthesize serializedContextByKey=_serializedContextByKey;
-@property(readonly, copy, nonatomic) NSString *sharedUserID; // @synthesize sharedUserID=_sharedUserID;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemChildAction, GEOMapItemChildPlace, GEOPublisherResult;
-
 @interface GEOMapItemChildItem
 {
     long long _childItemType;
-    GEOMapItemChildPlace *_childItemPlace;
-    GEOMapItemChildAction *_childItemAction;
-    GEOPublisherResult *_publisherResult;
 }
 
 - (void);
@@ -22,15 +17,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)_targetClass;
+- (id)_cn_objectOrDefaultToEmptyArrayForKey: /* Error: Ran out of types for this method. */;
 - (void)¨i½ÿ°|7û2;
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapItemChildAction *childItemAction; // @synthesize childItemAction=_childItemAction;
-@property(retain, nonatomic) GEOMapItemChildPlace *childItemPlace; // @synthesize childItemPlace=_childItemPlace;
 @property(nonatomic) long long childItemType; // @synthesize childItemType=_childItemType;
-@property(readonly, nonatomic) GEOPublisherResult *publisherResult; // @synthesize publisherResult=_publisherResult;
 
 @end
 

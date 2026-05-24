@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarActionsProvider, AVTAvatarEditorViewController, AVTAvatarRecordDataSource, AVTUIEnvironment, AVTViewSessionProvider, NSArray, NSString;
-@protocol AVTAvatarActionsControllerDelegate;
+@class NSArray;
 
 @interface AVTAvatarInlineActionsController
 {
     _Bool _shouldHideUserInfoView;
-    _Bool _buttonsDisabled;
-    _Bool _isCreatingAvatar;
-    AVTAvatarActionsProvider *_actionsModel;
-    AVTAvatarRecordDataSource *_dataSource;
-    id <AVTAvatarActionsControllerDelegate> _delegate;
-    NSArray *_inlineActionButtons;
-    AVTAvatarEditorViewController *_editorViewController;
-    AVTViewSessionProvider *_avtViewSessionProvider;
-    AVTUIEnvironment *_environment;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,30 +38,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (void);
-- (void);
+- (void)logSmartKeyboardStatus;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatarActionsProvider *actionsModel; // @synthesize actionsModel=_actionsModel;
-@property(readonly, nonatomic) AVTViewSessionProvider *avtViewSessionProvider; // @synthesize avtViewSessionProvider=_avtViewSessionProvider;
-@property(nonatomic) _Bool buttonsDisabled; // @synthesize buttonsDisabled=_buttonsDisabled;
-@property(retain, nonatomic) AVTAvatarRecordDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVTAvatarEditorViewController *editorViewController; // @synthesize editorViewController=_editorViewController;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *inlineActionButtons; // @synthesize inlineActionButtons=_inlineActionButtons;
-@property(nonatomic) _Bool isCreatingAvatar; // @synthesize isCreatingAvatar=_isCreatingAvatar;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(readonly) Class superclass;
 
 @end
 

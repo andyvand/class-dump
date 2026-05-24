@@ -7,8 +7,6 @@
 @interface AppStoreKit.ArcadeWelcomeItem
 {
     id headline;
-    id body;
-    id artwork;
 }
 
 @end

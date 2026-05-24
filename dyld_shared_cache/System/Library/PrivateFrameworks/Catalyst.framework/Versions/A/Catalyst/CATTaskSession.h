@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATStateMachine, CATTransport, NSDictionary, NSHashTable, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol CATTaskSessionDelegate, OS_dispatch_group;
+@class CATStateMachine, NSDictionary;
 
 @interface CATTaskSession
 {
     CATStateMachine *mFSM;
-    CATTransport *mTransport;
-    NSMutableSet *mOperations;
-    NSMutableDictionary *mOperationByRemoteUUID;
-    NSMutableArray *mEnqueuedMessages;
-    CATTaskSession *mStrongSelf;
-    NSHashTable *mOrphanedTransports;
-    CATOperationQueue *mOrphanedOperationQueue;
-    NSDictionary *mPreviousSessionInfo;
-    NSMapTable *mRemoteUUIDsByFinishedOperationProgressUpdates;
-    NSObject<OS_dispatch_group> *mSessionDidInvalidateGroup;
-    _Bool mIsStarting;
-    CATOperationQueue *mDelegationQueue;
-    NSUUID *_sessionUUID;
-    id <CATTaskSessionDelegate> _delegate;
-    NSDictionary *_userInfo;
-    NSDictionary *_clientUserInfo;
 }
 
 - (id);
@@ -40,25 +23,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)initWithDataset: /* Error: Ran out of types for this method. */;
+- (void)service to finish simulation. timeout:(id)arg1 %@ seconds;
 - (void);
 - (id);
 - (void);
@@ -69,14 +35,31 @@
 - (void);
 - (id);
 - (void);
+- (void)zPosition;
+- (void)setIgnoreWindowUpdates:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)remainingCharacterSetFromPromptCharacterSet:(id)arg1 withSample:(id)arg2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)size mismatch for SingleValueDecodingContainer4OptionalPrimitive;
+- (void)floatValue;
 - (void);
 - (void);
 - (id);
@@ -84,30 +67,19 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void)_pitch;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id)ùÑ> °1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *clientUserInfo; // @synthesize clientUserInfo=_clientUserInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CATTaskSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CATTransport *transport; // @synthesize transport=mTransport;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

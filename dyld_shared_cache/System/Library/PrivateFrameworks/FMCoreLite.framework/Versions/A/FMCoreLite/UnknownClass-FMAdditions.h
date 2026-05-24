@@ -6,9 +6,9 @@
 
 @interface UnknownClass (FMAdditions)
 - (void);
+- (void)@A;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 @end

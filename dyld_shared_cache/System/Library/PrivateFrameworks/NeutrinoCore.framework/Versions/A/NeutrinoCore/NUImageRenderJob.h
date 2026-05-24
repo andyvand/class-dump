@@ -6,21 +6,11 @@
 
 #import <NeutrinoCore/NURenderJob.h>
 
-@class CIRenderTask, NUColorSpace, NUPixelFormat, NUPurgeableImageAccessGuard, NUPurgeableStoragePool, NURegion, NUStorageImageBuffer;
-@protocol NUMutablePurgeableImage, NUPurgeableImage;
+@class NUPixelFormat, NUPurgeableImageAccessGuard;
 
 @interface NUImageRenderJob : NURenderJob
 {
     NUPurgeableImageAccessGuard *_accessRegionGuard;
-    float _contentHeadroom;
-    NUPixelFormat *_pixelFormat;
-    NUColorSpace *_colorSpace;
-    NURegion *_regionToRender;
-    id <NUMutablePurgeableImage> _targetImage;
-    NURegion *_renderedRegion;
-    id <NUPurgeableImage> _renderedImage;
-    NUStorageImageBuffer *_renderBuffer;
-    CIRenderTask *_renderTask;
 }
 
 - (_Bool);
@@ -33,22 +23,22 @@
 - (id);
 - (id);
 - (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)layback:(out id *)arg1 ];
 - (void);
 - (id);
 - (id);
@@ -58,19 +48,10 @@
 - (void)0@ù
 × ;
 - (void)ace=};
-- (id)eue:block: /* Error: Ran out of types for this method. */;
+- (id)addCancelObserver:queue:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) float contentHeadroom; // @synthesize contentHeadroom=_contentHeadroom;
 @property(retain, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) NURegion *regionToRender; // @synthesize regionToRender=_regionToRender;
-@property(readonly, nonatomic) NUStorageImageBuffer *renderBuffer; // @synthesize renderBuffer=_renderBuffer;
-@property(retain, nonatomic) CIRenderTask *renderTask; // @synthesize renderTask=_renderTask;
-@property(readonly, nonatomic) id <NUPurgeableImage> renderedImage; // @synthesize renderedImage=_renderedImage;
-@property(readonly, nonatomic) NURegion *renderedRegion; // @synthesize renderedRegion=_renderedRegion;
-@property(readonly, nonatomic) NUPurgeableStoragePool *storagePool;
-@property(readonly, nonatomic) id <NUMutablePurgeableImage> targetImage; // @synthesize targetImage=_targetImage;
 
 @end
 

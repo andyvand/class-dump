@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (struct SCNMatrix4);
+- (struct SCNMatrix4);
 - (void);
 - (id);
-- (struct SCNMatrix4);
+- (struct SCNMatrix4);
 - (struct SCNVector3);
 - (void);
-- (void)PlayerForKey:(struct SCNVector3)arg1;
+- (void)animationPlayerForKey:(struct SCNVector3)arg1;
 
 @end
 

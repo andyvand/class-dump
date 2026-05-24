@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, NSURL;
+@class NSData, NSURL;
 
 @interface MDLArchiveAssetResolver
 {
     NSURL *_archiveURL;
-    NSMutableDictionary *_archiveDictionary;
-    NSString *_rootUSDPath;
-    NSData *_data;
 }
 
-- (id);
+- (id)?�`#;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)x;
 - (id);
 - (id);
-- (void);
+- (void)ym.dylib;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

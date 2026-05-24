@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSQLiteDatabaseStatistics, NSString, PHFetchResult;
+@class PHFetchResult;
 
 @interface PHFetchResultInstrumentation
 {
     PHFetchResult *_fetchResult;
-    NSString *_importantFetchName;
-    CDStruct_05ad12cd _fetchSignpost;
-    CDStruct_05ad12cd _importantFetchSignpost;
-    _Bool _wasTrackingStatistics;
-    NSSQLiteDatabaseStatistics *_statsStart;
-    double _timeStart;
-    long long _byteCount;
-    long long _rowCount;
-    double _duration;
-    _Bool _suppressSlowFetchReports;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned char);
 - (void);
 - (_Bool);
@@ -38,13 +28,7 @@
 - (void)cloudOwnerEmail;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

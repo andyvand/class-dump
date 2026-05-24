@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (_PSInteractionAndContactMonitor)
-- (void *);
+- (void *)re;
 @end
 

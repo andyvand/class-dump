@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.DistributedScheduler.ExecutionPolicy.HasCurrentAccessory
 {
     id notificationCenter;
-    id notificationTasks;
 }
 
 @end

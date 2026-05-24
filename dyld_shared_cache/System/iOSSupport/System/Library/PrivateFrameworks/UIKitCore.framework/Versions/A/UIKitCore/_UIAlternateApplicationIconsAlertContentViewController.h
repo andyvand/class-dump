@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void)teractionState;
 - (void)äÓ^;
 - (void)Àíâþ;

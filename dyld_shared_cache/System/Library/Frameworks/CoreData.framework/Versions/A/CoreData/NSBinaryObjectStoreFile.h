@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSBinaryObjectStoreFile
 {
     int _databaseVersion;
-    NSDictionary *_fullMetadata;
-    unsigned long long _primaryKeyGeneration;
-    NSMutableDictionary *_mapData;
-    NSDictionary *_storeOptions;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)K;
+- (void);
 
 @end
 

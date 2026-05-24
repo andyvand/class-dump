@@ -18,28 +18,26 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)transcodeFallbackFileTransferContents:(id)arg1 utiType:allowUnfilteredUTIs:target:sizes:commonCapabilities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)indexImmediately;
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)itemIdentifier:%s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
+- (void)temCount:%{public}ld mask:%{public}ld itemIdentifiers:%s /* Error: Ran out of types for this method. */;
+- (void)nd relay to watch;
 - (id);
 - (void)0@ù
 × ;
 - (_Bool)ð»îÿ;
 - (id)ed.TitleTextAttributes;
 - (void)@?0@"_UIDragInteractionDriver"8Q16Q24;
-- (_Bool)dChangeNotification;
-- (void)G9distancesSaySo21CAMediaTimingFunctionCG14interpolationst;
+- (_Bool)_UIDeviceRemoteHasMuteDidChangeNotification;
+- (void)SaySo7UIColorCG6colors_SaySdG9distancesSaySo21CAMediaTimingFunctionCG14interpolationst;
 - (void)ßAÛ\;
 - (void)*l;
 - (void)tjåþ3Ô;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIDocumentUnavailableBrowserPresentationControllerDelegate> browserDelegate; // @synthesize browserDelegate=_browserDelegate;
-@property(nonatomic) double mediumDetentFraction; // @synthesize mediumDetentFraction=_mediumDetentFraction;
-@property(readonly, nonatomic) double smallestDetentValue;
 
 @end
 

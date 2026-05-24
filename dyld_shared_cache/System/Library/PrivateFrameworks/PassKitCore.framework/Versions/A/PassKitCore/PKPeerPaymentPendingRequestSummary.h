@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PKPeerPaymentPendingRequestSummary
 {
     NSString *_requestToken;
-    NSString *_status;
-    NSArray *_actions;
-    NSDate *_expiryDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id)SessionIdentifier:(id)arg1 originatorIDSHandle:invitationData: /* Error: Ran out of types for this method. */;
+- (_Bool)ers"b1};
+- (id);
+- (id)initWithIdentifier:(id)arg1 sharingSessionIdentifier:originatorIDSHandle:invitationData: /* Error: Ran out of types for this method. */;
 - (void)lity.png;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 @property(readonly, copy, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
-@property(readonly, copy, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end
 

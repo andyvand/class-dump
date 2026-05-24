@@ -11,14 +11,6 @@
 @interface MRTransitionTileFlip : MRTransition
 {
     NSMutableArray *mSortedTiles;
-    unsigned int mNumberOfTilesX;
-    unsigned int mNumberOfTilesY;
-    float mFlipOverlap;
-    _Bool mUseLighting;
-    double _x0;
-    double _y0;
-    double _x;
-    double _y;
 }
 
 - (_Bool);

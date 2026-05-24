@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioRuleCollectionConfiguration
 {
     _Bool _continuity;
-    _Bool _allowAudioSwitching;
-    _Bool _usesSBR;
-    _Bool _addACC24;
-    _Bool _allowLargerBlockSizes;
-    unsigned short _minBlockSize;
-    int _aacBlockSize;
-    unsigned long long _channelCount;
 }
 
 - (void);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned short);
+- (unsigned short)Rd;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)è0i';
 
 // Remaining properties
-@property(nonatomic) int aacBlockSize; // @synthesize aacBlockSize=_aacBlockSize;
-@property(nonatomic) _Bool addACC24; // @synthesize addACC24=_addACC24;
-@property(nonatomic) _Bool allowAudioSwitching; // @synthesize allowAudioSwitching=_allowAudioSwitching;
-@property(nonatomic) _Bool allowLargerBlockSizes; // @synthesize allowLargerBlockSizes=_allowLargerBlockSizes;
-@property(nonatomic) unsigned long long channelCount; // @synthesize channelCount=_channelCount;
 @property(nonatomic, getter=isContinuity) _Bool continuity; // @synthesize continuity=_continuity;
-@property(nonatomic) unsigned short minBlockSize; // @synthesize minBlockSize=_minBlockSize;
-@property(nonatomic) _Bool usesSBR; // @synthesize usesSBR=_usesSBR;
 
 @end
 

@@ -6,21 +6,17 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class UIColor, UIImageView;
-
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarAccessoryView : LPComponentView
 {
     long long _type;
-    UIColor *_color;
-    UIImageView *_accessoryView;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)stopExpandAnimatorAndCleanupState;
+- (id)erMode:(id)arg1 unreadMessages:(long long)arg2 storedFilterModes:(long long)arg3;
+- (id)stageFPLinkViewWithConversation:pluginPayload:url:shareOptions:mediaObjectComposition:navigationProvider:animated: /* Error: Ran out of types for this method. */;
+- (id)ForScenes:(id)arg1;
+- (id)fmfMappingPacket;
 - (struct CGSize);
 - (void)0@ù
 × ;

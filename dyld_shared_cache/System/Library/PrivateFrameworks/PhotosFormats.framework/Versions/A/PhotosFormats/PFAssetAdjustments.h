@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSDate, NSString;
 
 @interface PFAssetAdjustments
 {
     NSDate *_adjustmentTimestamp;
-    NSDictionary *_propertyListDictionary;
 }
 
 + (id);
@@ -17,11 +16,11 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)a nil public identity;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)x};
 - (id);
 - (long long);
 - (void);
@@ -29,6 +28,7 @@
 - (id);
 - (id);
 - (unsigned int);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,20 +36,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)m_block->m_size >= BlockCtrlUnits;
 
 // Remaining properties
-@property(readonly, nonatomic) long long adjustmentBaseVersion;
-@property(readonly, nonatomic) NSData *adjustmentData;
 @property(readonly, copy, nonatomic) NSString *adjustmentFormatIdentifier;
-@property(readonly, copy, nonatomic) NSString *adjustmentFormatVersion;
-@property(readonly, nonatomic) unsigned int adjustmentRenderTypes;
-@property(nonatomic) NSDate *adjustmentTimestamp;
-@property(readonly, copy, nonatomic) NSString *editorBundleID;
-@property(retain, nonatomic) NSDictionary *propertyListDictionary; // @synthesize propertyListDictionary=_propertyListDictionary;
 
 @end
 

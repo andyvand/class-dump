@@ -6,12 +6,11 @@
 
 #import <Slideshows/MCAnimationPath.h>
 
-@class NSMutableSet, NSSet, NSString;
+@class NSMutableSet, NSSet;
 
 @interface MCAnimationPathCombo : MCAnimationPath
 {
     NSMutableSet *mAnimationPaths;
-    NSString *mCombineOperation;
 }
 
 - (void);
@@ -26,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *animationPaths;
-@property(copy) NSString *combineOperation; // @synthesize combineOperation=mCombineOperation;
-@property(readonly) unsigned long long countOfAnimationPaths;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CIImage *inputImage;
 }
 
-+ (id);
++ (id)T);
 - (id);
 - (void);
 - (id)©«­­¯´´´­­­­x[oh|}gzNbSuA\Mnkphvozu~rrorlljlnnnnrrrrknkpelhsPha|\vt~~~~nwq{s©©©©¯¯¯¯    bf_fRQDRLOBO^^V^huuuo|zTjcobcYc:RBc]ldz««««   zhg{v^[N^<K:Smmmm_sq|?^Uopngvt\kdtUbXjttttxxxxbkfk\\Q\WWNW<RFZKWLcMkewNqkHh`||zd|z\rmnvrz|zzzxzfrpsggggTUJU.=)H5C1MbbbbqqqqUleupxu|_up~uxs}³³³³¸¸¸¸¢¢¢¢w~~~R`XbSXM^luuuevrszxz|y¤¤¤¤°°°°¥­­¡¡¡¡krlRmgy¡¡¡¡I^StvxvyThdn?NAZ^^^^ /* Error: Ran out of types for this method. */;

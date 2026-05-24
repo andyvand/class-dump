@@ -10,6 +10,6 @@
 
 @optional
 - (id <NSSecureCoding>)w¯ÿÿ¨õþÿ;
-- (void)GPoint;
+- (void)CGPoint;
 @end
 

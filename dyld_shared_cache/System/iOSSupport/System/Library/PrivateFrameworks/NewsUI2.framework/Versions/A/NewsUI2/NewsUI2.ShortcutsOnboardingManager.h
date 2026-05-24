@@ -7,12 +7,10 @@
 @interface NewsUI2.ShortcutsOnboardingManager
 {
     id observers;
-    id userInfo;
-    id featureAvailability;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)ÔÑXÿ;
 

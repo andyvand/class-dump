@@ -7,9 +7,6 @@
 @interface JetEngine.ContainerLocation
 {
     id containerDirectoryURL;
-    id cacheDirectoryUrl;
-    id tmpDirectoryUrl;
-    id sandboxTokenHandle;
 }
 
 @end

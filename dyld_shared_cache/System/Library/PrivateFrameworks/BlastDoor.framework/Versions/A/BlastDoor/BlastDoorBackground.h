@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorWatchBackground, NSData, NSString;
+@class NSString;
 
 @interface BlastDoorBackground
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSData *poster;
-@property(nonatomic, readonly) BlastDoorWatchBackground *watchBackground;
 
 @end
 

@@ -7,6 +7,6 @@
 @interface UnknownClass (PersonaKit)
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 @end
 

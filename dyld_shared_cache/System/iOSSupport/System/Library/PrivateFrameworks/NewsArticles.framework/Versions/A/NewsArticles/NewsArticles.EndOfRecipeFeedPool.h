@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfRecipeFeedPool
 {
     id sourceRecipe;
-    id fetchTask;
 }
 
 @end

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, NSXPCListenerEndpoint;
+@class NSUUID;
 
 @interface WBSPasskeyAutoFillFromNearbyDeviceOptions
 {
     NSUUID *_operationUUID;
-    NSXPCListenerEndpoint *_agentEndpoint;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSXPCListenerEndpoint *agentEndpoint; // @synthesize agentEndpoint=_agentEndpoint;
 @property(readonly, copy, nonatomic) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
 
 @end

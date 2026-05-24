@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly) _Bool isThumbnailGeneratorDisabled;
-@property(readonly) unsigned long long minimumThumbnailSize;
 @end
 

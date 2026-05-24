@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDailyScheduler, NSString, NSUUID;
-@protocol HMDCloudShareTrustManagerMetricsEventDispatcherDataSource, HMMLogEventSubmitting;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudShareTrustManagerMetricsEventDispatcher
 {
     _Bool _registered;
-    NSUUID *_identifier;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMMDailyScheduler *_dailyScheduler;
-    id <HMDCloudShareTrustManagerMetricsEventDispatcherDataSource> _dataSource;
 }
 
 + (id)u;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mapItemStorage;
+- (void)luckierReceiverCapabilities;
+- (void)longitude;
+- (void)interfaceWithProtocol:(long long)arg1;
+- (void)instanceMethodForSelector:(long long)arg1;
+- (void)initialNotificationSubtitle;
+- (void)�;
 - (id);
 - (id);
 - (id);
 - (id)0@ù
 × ;
 - (id)ïð;
-- (void)Bins;
+- (void)intervalBins;
 - (void);
 - (id)ñÿ»Ì?;
 - (void)ø=êÿÿ7
@@ -39,18 +34,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Æ+;
 
 // Remaining properties
-@property(readonly) HMMDailyScheduler *dailyScheduler; // @synthesize dailyScheduler=_dailyScheduler;
-@property(readonly) __weak id <HMDCloudShareTrustManagerMetricsEventDispatcherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property _Bool registered; // @synthesize registered=_registered;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DCContext;
 @protocol DCCryptoProxy;
 
 @interface DCDDeviceMetadata
 {
     id <DCCryptoProxy> _cryptoProxy;
-    DCContext *_context;
 }
 
-- (id);
+- (id)initWithBundleIdentifier:(id)arg1;
+- (void)initWithBlock:(CDUnknownBlockType)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 
 @end
 

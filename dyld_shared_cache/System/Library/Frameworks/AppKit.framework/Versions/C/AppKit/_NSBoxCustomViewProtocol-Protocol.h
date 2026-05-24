@@ -7,18 +7,15 @@
 @class NSColor;
 
 @protocol _NSBoxCustomViewProtocol
-- (NSColor *)ount;
+- (NSColor *)_scrollCount;
 - (double)w %lu bytes);
 - (NSColor *)ng zeroScreen=%p;
 - (void)should move to using NSString identifiers for table columns.;
-- (void)tartAsyncSave;
+- (void)WillStartAsyncSave;
 - (double)NSSet;
 - (void)h¼y;
 
 // Remaining properties
-@property(copy) NSColor *borderColor;
-@property double borderWidth;
-@property double cornerRadius;
 @property(copy) NSColor *fillColor;
 @end
 

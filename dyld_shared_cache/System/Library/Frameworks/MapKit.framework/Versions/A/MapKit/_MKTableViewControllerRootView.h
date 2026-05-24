@@ -6,29 +6,26 @@
 
 #import <MapKit/_MKUIViewControllerRootView.h>
 
-@class NSLayoutConstraint, NSTableView;
+@class NSLayoutConstraint;
 
 @interface _MKTableViewControllerRootView : _MKUIViewControllerRootView
 {
     NSLayoutConstraint *_heightConstraint;
-    _Bool _performedInitialTableReload;
-    NSTableView *_tableView;
 }
 
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)blic}lu, stopOptions=%{public}@, _numTrailingSamplesAfterSchedulingStop=%{public}lu, maxAllowedSamples=%{public}lu;
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)ransactionId: /* Error: Ran out of types for this method. */;
-- (void)UpdateYawNotification;
+- (void)setTransactionId: /* Error: Ran out of types for this method. */;
+- (void)_postDidUpdateYawNotification;
 - (id)Codes;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(nonatomic) __weak NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

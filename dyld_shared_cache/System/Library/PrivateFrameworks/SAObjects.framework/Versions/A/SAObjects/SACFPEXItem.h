@@ -6,37 +6,27 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SACFPEXItem : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)`;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *itemSource;
-@property(copy, nonatomic) NSNumber *score;
-@property(copy, nonatomic) NSString *sourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

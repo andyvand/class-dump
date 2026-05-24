@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSLocalDeliverySocketOpened
 {
     unsigned long long _isToDefaultPairedDevice;
-    unsigned long long _openError;
-    unsigned long long _priority;
-    unsigned long long _socketError;
-    unsigned long long _timestamp;
-    NSString *_guid;
-    NSString *_service;
-    NSString *_streamName;
-    struct {
-        unsigned int isToDefaultPairedDevice:1;
-        unsigned int openError:1;
-        unsigned int priority:1;
-        unsigned int socketError:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (_Bool);
 - (id)eHealthBeforeDecision"b1"numIpv4DnsServers"b1"numIpv6DnsServers"b1"numLocalDnsServers"b1"numRemoteDnsServers"b1"stallscoreAtStudyEnd"b1"stallscoreAtStudyStart"b1"stallscoreHealthAfterDecision"b1"stallscoreHealthBeforeDecision"b1"suppressedReason"b1"symptomsDnsRecommendation"b1"totalDnsServers"b1"wanHealthAfterDecision"b1"wanHealthBeforeDecision"b1"dpsNotificationReceivedDuringStudy"b1"isCaptiveServerIPResolved"b1"isPingEnqueueFailing"b1"slowWiFiNotificationReceivedDuringStudy"b1"symptomsDnsscreenStateOn"b1};
@@ -66,22 +50,7 @@
 - (void)WoËú	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsToDefaultPairedDevice;
-@property(nonatomic) _Bool hasOpenError;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasService;
-@property(nonatomic) _Bool hasSocketError;
-@property(readonly, nonatomic) _Bool hasStreamName;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(nonatomic) unsigned long long openError; // @synthesize openError=_openError;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long socketError; // @synthesize socketError=_socketError;
-@property(retain, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

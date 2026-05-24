@@ -9,23 +9,19 @@
 @interface PXProgrammaticNavigationRequest
 {
     PXProgrammaticNavigationDestination *_destination;
-    unsigned long long _options;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mbnails;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)CAb;
 - (void)ardScrolling;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) PXProgrammaticNavigationDestination *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

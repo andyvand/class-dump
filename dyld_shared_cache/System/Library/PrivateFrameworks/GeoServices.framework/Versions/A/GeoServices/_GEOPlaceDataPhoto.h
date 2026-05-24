@@ -4,70 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemPhotosAttribution, GEOPDCaptionedPhoto, GEOPDPhoto, NSDate, NSString, NSURL;
-@protocol GEOPhotoInfoSource;
+@class GEOPDPhoto, NSString;
 
 @interface _GEOPlaceDataPhoto
 {
     GEOPDPhoto *_photo;
-    GEOPDCaptionedPhoto *_captionedPhoto;
-    id <GEOPhotoInfoSource> _photoInfoSource;
-    GEOMapItemPhotosAttribution *_attribution;
 }
 
 - (_Bool);
 - (double);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)v16;
+- (id)"16;
+- (id)ate>";
 - (id);
+- (id)time:%f /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)40;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemPhotosAttribution *attribution;
 @property(readonly, nonatomic) NSString *author;
-@property(readonly, nonatomic) NSString *backgroundJoeColor;
-@property(readonly, nonatomic) _Bool businessProvided;
-@property(readonly, nonatomic) NSString *caption;
-@property(readonly, nonatomic) NSDate *dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displayFullScreenPhotoGallery;
-@property(readonly, nonatomic) NSString *firstPhotoUrl;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool highQuality;
-@property(readonly, nonatomic) _Bool isBackgroundJoeColorCurated;
-@property(readonly, nonatomic) NSString *licenseDescription;
-@property(readonly, nonatomic) NSURL *licenseURL;
-@property(readonly, nonatomic) _Bool needsObfuscationWhenRenderedInFullScreen;
-@property(readonly, nonatomic) double sizeRatio;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uid;
-@property(readonly, nonatomic) _Bool useGallery;
 
 @end
 

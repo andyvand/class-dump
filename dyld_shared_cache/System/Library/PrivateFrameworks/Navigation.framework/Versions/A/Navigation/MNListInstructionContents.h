@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, GEOComposedWaypoint, NSArray, NSString;
-@protocol GEOServerFormattedString;
-
 @interface MNListInstructionContents
 {
     double _distance;
-    id <GEOServerFormattedString> _distanceFormat;
-    NSArray *_instructionFormats;
-    int _maneuverType;
-    int _transportType;
-    NSString *_intersectionName;
-    NSString *_destinationName;
-    NSString *_exitNumber;
-    NSArray *_branchNames;
-    NSArray *_towardNames;
-    int _junctionAngle;
-    _Bool _toFreeway;
-    _Bool _suppressNames;
-    _Bool _suppressFallback;
-    NSArray *_instructionStrings;
-    NSString *_roadName;
-    GEOComposedWaypoint *_destination;
-    GEOComposedString *_distanceString;
 }
 
 + (id);
@@ -34,48 +14,37 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)4P:(_Bool)arg1 6iiY7;
 - (void);
+- (void)EffectiveFormStyle;
+- (void)StyleKey;
+- (id);
+- (id);
+- (_Bool)$;
+- (void)TransferNavigationColumnSearchPreferencesModifier;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (long long);
 - (double);
-- (void);
+- (void)e.CharacterPicker.searchCategoryTitle;
 - (id);
 - (void);
 - (void)ùÐ1Â0@ù
 × ;
 - (void)NavigationService"16@"NSSet"24;
-- (void)mnDouble:(double)arg1;
-- (int)structionString;
+- (void)columnDouble:(double)arg1;
+- (int)_primaryTimeInstructionString;
 
 // Remaining properties
-@property(readonly, nonatomic) long long context;
-@property(retain, nonatomic) GEOComposedWaypoint *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) NSString *destinationName; // @synthesize destinationName=_destinationName;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) id <GEOServerFormattedString> distanceFormat; // @synthesize distanceFormat=_distanceFormat;
-@property(retain, nonatomic) GEOComposedString *distanceString; // @synthesize distanceString=_distanceString;
-@property(readonly, nonatomic) _Bool hasServerContent;
-@property(retain, nonatomic) NSArray *instructionFormats; // @synthesize instructionFormats=_instructionFormats;
-@property(retain, nonatomic) NSString *roadName; // @synthesize roadName=_roadName;
-@property(nonatomic) _Bool suppressFallback; // @synthesize suppressFallback=_suppressFallback;
-@property(nonatomic) _Bool suppressNames; // @synthesize suppressNames=_suppressNames;
 @property(nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)scopedNetworkAgent: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)ainNibFile;
+- (void)NSMainNibFile;
 
 @end
 

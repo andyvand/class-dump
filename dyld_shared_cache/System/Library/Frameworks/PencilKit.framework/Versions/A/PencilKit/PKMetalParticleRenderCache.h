@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PKInk;
+@class NSArray, NSMutableArray;
 
 @interface PKMetalParticleRenderCache
 {
     NSMutableArray *_buffers;
-    NSMutableArray *_secondaryBuffers;
-    unsigned long long _totalCost;
-    long long _renderZoomFactor;
-    PKInk *_ink;
-    unsigned long long _lastRandomNumberBufferIndex;
-    double _lastDistanceToNextPoint;
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (double);
@@ -30,22 +24,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)-;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(nonatomic) double lastDistanceToNextPoint; // @synthesize lastDistanceToNextPoint=_lastDistanceToNextPoint;
-@property(nonatomic) unsigned long long lastRandomNumberBufferIndex; // @synthesize lastRandomNumberBufferIndex=_lastRandomNumberBufferIndex;
-@property(readonly, nonatomic) NSArray *secondaryBuffers;
-@property(readonly) Class superclass;
 
 @end
 

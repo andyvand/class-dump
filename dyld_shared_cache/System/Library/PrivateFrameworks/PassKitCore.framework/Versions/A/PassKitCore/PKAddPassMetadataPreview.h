@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKImage;
+@class NSString;
 
 @interface PKAddPassMetadataPreview
 {
     NSString *_localizedDescription;
-    PKImage *_pkPassThumbnailImage;
-    NSURL *_thumbnailURL;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (struct CGImage *);
 - (id);
-- (void);
+- (void)@9;
 - (id);
 - (void);
 - (void);
@@ -30,13 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (void)rPaymentMessagesExtensionVisibilityChangedNotification;
+- (void)PKPeerPaymentMessagesExtensionVisibilityChangedNotification;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(nonatomic) struct CGImage *passThumbnailImage;
-@property(retain, nonatomic) PKImage *pkPassThumbnailImage; // @synthesize pkPassThumbnailImage=_pkPassThumbnailImage;
-@property(retain, nonatomic) NSURL *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
 
 @end
 

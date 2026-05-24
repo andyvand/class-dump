@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSProgress, NSString, PHPhotoLibrary, PLCPLSettingsObserver;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXCPLPhotoLibrarySource
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    long long _percentCompletedForRebuild;
-    _Bool _isCloudPhotosEnabled;
-    _Bool _isLocalModeEnabled;
-    _Bool _isKeepOriginalsEnabled;
-    _Bool _isRebuildingThumbnails;
-    PHPhotoLibrary *_photoLibrary;
-    PLCPLSettingsObserver *_cplSettingsObserver;
-    NSObject<OS_dispatch_queue> *_sharedQueue;
-    NSProgress *_postOpenProgress;
 }
 
-+ (id)tMessage_InitialSyncNotComplete;
++ (id)PXSharedLibrary_InvitationAlertMessage_InitialSyncNotComplete;
+- (void)`R;
 - (void);
-- (void);
-- (void);
+- (void)}S?;
 - (void);
 - (void);
 - (_Bool);
@@ -34,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,31 +37,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4	;
 - (void);
-- (id);
+- (id)e;
 - (_Bool);
-- (id)FeedbackUserLikedDetailViewSourceMoment;
+- (id)kPXFeedbackUserLikedDetailViewSourceMoment;
 - (void)Õ¿lCÿÕ¿hCÿÕ¿(}ÿ;
 - (id)òcP=;
 
 // Remaining properties
-@property(readonly, nonatomic) PLCPLSettingsObserver *cplSettingsObserver; // @synthesize cplSettingsObserver=_cplSettingsObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float fractionCompletedForRebuild;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCloudPhotosEnabled; // @synthesize isCloudPhotosEnabled=_isCloudPhotosEnabled;
-@property(readonly, nonatomic) _Bool isKeepOriginalsEnabled; // @synthesize isKeepOriginalsEnabled=_isKeepOriginalsEnabled;
-@property(nonatomic) _Bool isLocalModeEnabled; // @synthesize isLocalModeEnabled=_isLocalModeEnabled;
-@property(nonatomic) _Bool isRebuildingThumbnails; // @synthesize isRebuildingThumbnails=_isRebuildingThumbnails;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain) NSProgress *postOpenProgress; // @synthesize postOpenProgress=_postOpenProgress;
 @property(retain) NSObject<OS_dispatch_queue> *sharedQueue; // @synthesize sharedQueue=_sharedQueue;
-@property(readonly) Class superclass;
 
 @end
 

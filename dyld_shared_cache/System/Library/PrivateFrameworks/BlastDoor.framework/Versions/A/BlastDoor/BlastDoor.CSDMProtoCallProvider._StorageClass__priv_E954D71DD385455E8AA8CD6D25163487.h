@@ -7,23 +7,6 @@
 @interface BlastDoor.CSDMProtoCallProvider._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _identifier;
-    id _localizedName;
-    id _bundleUrlstring;
-    id _maximumCallGroups;
-    id _maximumCallsPerCallGroup;
-    id _supportsAudioOnly;
-    id _supportsAudioAndVideo;
-    id _supportsEmergency;
-    id _supportsVoicemail;
-    id _ringtoneSoundUrlstring;
-    id _originalRingtoneSoundUrlstring;
-    id _handoffIdentifier;
-    id _protoSupportedHandleType;
-    id _emergencyLabeledHandles;
-    id _supportsRecents;
-    id _prioritizedSenderIdentities;
-    id _emergencyHandles;
-    id _bundleIdentifier;
 }
 
 @end

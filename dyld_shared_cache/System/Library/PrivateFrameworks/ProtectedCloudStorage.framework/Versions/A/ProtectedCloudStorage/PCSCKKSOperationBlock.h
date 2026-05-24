@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)is banned;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType block; // @synthesize block=_block;

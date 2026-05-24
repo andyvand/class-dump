@@ -8,9 +8,6 @@
 {
     id _shouldShowRatingsView;
     id _shouldShowNutrition;
-    id _hasHardPaywall;
-    id _notesStatus;
-    id _$observationRegistrar;
 }
 
 @end

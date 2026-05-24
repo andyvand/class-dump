@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol HMDAccessorySymptomsDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSymptomContainer
 {
     NSString *_idsIdentifier;
-    id <HMDAccessorySymptomsDelegate> _delegate;
-    NSSet *_symptoms;
 }
 
-- (id);
+- (id)chargingStopNotificationSubtitle;
 - (id);
 - (void);
-- (id);
+- (id)Hkh8;
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)RateSection_speakingRate_writeVersion;
+- (void)root_general_accessibility_vision_speakingRateSection_speakingRate_writeVersion;
 
 // Remaining properties
-@property(nonatomic) __weak id <HMDAccessorySymptomsDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(copy, nonatomic) NSSet *symptoms; // @synthesize symptoms=_symptoms;
 
 @end
 

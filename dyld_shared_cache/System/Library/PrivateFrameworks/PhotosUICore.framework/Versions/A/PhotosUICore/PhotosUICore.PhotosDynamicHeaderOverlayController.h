@@ -7,13 +7,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderOverlayController
 {
     id _viewportSize;
-    id _mainContentInsets;
-    id _floatingInsets;
-    id _maximumFloatingAreaInsets;
-    id _wantsBlur;
-    id _wantsTitleLegibilityGradient;
-    id _colorScheme;
-    id model;
 }
 
 @end

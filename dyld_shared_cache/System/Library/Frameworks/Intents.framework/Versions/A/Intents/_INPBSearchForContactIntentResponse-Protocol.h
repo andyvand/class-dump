@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBSearchForContactIntentResponse
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *matchedContacts;
-@property(readonly, nonatomic) unsigned long long matchedContactsCount;
 @end
 

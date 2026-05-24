@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol MTL4BinaryFunction
+- (NSString *);
 - (unsigned long long)X	;
 
 // Remaining properties
-@property(readonly) unsigned long long functionType;
 @property(readonly) NSString *name;
 @end
 

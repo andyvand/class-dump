@@ -5,5 +5,6 @@
 //
 
 @protocol SFSpeechProfileResourceMonitorObserver
+- (void)j;
 @end
 

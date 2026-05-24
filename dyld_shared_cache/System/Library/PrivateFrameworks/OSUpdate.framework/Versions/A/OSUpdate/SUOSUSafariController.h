@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SUOSUClient, SUOSUProduct, SUOSUSafariUpdateContent;
+@class SUOSUSafariUpdateContent;
 @protocol SUOSUSafariControllerDelegate;
 
 @interface SUOSUSafariController
 {
     SUOSUSafariUpdateContent *_content;
-    id <SUOSUSafariControllerDelegate> _delegate;
-    SUOSUClient *_client;
-    SUOSUProduct *_productToDisplay;
-    NSArray *_minorUpdates;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)n;
 - (id);
 - (id);
 - (void);
@@ -32,18 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) SUOSUClient *client; // @synthesize client=_client;
-@property(retain) SUOSUSafariUpdateContent *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) __weak id <SUOSUSafariControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *minorUpdates; // @synthesize minorUpdates=_minorUpdates;
-@property(retain) SUOSUProduct *productToDisplay; // @synthesize productToDisplay=_productToDisplay;
-@property(readonly) Class superclass;
 
 @end
 

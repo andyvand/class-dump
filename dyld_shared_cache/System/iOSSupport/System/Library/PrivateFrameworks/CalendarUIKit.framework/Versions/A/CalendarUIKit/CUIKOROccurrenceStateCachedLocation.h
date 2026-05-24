@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSURL;
+@class NSAttributedString;
 
 @interface CUIKOROccurrenceStateCachedLocation
 {
     _Bool _originalOccurrenceLocationIsPrediction;
-    _Bool _originalHasNewTimeProposed;
-    NSAttributedString *_generatedLocationString;
-    NSString *_locationImageName;
-    NSString *_originalOccurrenceLocation;
-    NSString *_originalOccurrenceLocationWithoutPrediction;
-    NSURL *_originalConferenceURL;
 }
 
 - (id);
@@ -25,16 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void)pecifier: /* Error: Ran out of types for this method. */;
+- (void)setPerSectionShowAllHideAllButtonSpecifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *generatedLocationString; // @synthesize generatedLocationString=_generatedLocationString;
-@property(readonly, nonatomic) NSString *locationImageName; // @synthesize locationImageName=_locationImageName;
-@property(readonly, nonatomic) NSURL *originalConferenceURL; // @synthesize originalConferenceURL=_originalConferenceURL;
-@property(readonly, nonatomic) _Bool originalHasNewTimeProposed; // @synthesize originalHasNewTimeProposed=_originalHasNewTimeProposed;
-@property(readonly, nonatomic) NSString *originalOccurrenceLocation; // @synthesize originalOccurrenceLocation=_originalOccurrenceLocation;
-@property(readonly, nonatomic) _Bool originalOccurrenceLocationIsPrediction; // @synthesize originalOccurrenceLocationIsPrediction=_originalOccurrenceLocationIsPrediction;
-@property(readonly, nonatomic) NSString *originalOccurrenceLocationWithoutPrediction; // @synthesize originalOccurrenceLocationWithoutPrediction=_originalOccurrenceLocationWithoutPrediction;
 
 @end
 

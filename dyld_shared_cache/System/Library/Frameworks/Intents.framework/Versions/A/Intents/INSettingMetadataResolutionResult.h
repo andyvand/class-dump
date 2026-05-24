@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)rary/PrivateFrameworks/ANECompiler.framework/Versions/A/ANECompiler;
 - (id);
 - (id);
 

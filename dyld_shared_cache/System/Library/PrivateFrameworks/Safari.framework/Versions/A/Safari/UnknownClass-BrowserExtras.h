@@ -12,7 +12,7 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);

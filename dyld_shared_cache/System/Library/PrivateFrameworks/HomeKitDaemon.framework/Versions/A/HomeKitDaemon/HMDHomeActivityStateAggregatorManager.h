@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeActivityHomeAwayAggregator, HMDHomeActivityStateMachine, HMDUserActivityReportFactory, HMFFuture, HMFPromise, NSArray, NSString;
-@protocol HMDHomeActivityStateAggregatorManagerStorage, HMDHomeActivityStateAggregatorStateDataSource, HMDHomeActivityStateManagerDataSource, HMDHomeUserActivityStatesDetails;
+@protocol HMDHomeActivityStateManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateAggregatorManager
 {
     id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    id <HMDHomeActivityStateAggregatorStateDataSource> _aggregatorStateDataSource;
-    HMDUserActivityReportFactory *_userActivityReportFactory;
-    NSArray *_aggregators;
-    id <HMDHomeActivityStateAggregatorManagerStorage> _storage;
-    HMDHomeActivityStateMachine *_homeActivityStateMachine;
-    NSString *_refreshTimerIdentifier;
-    HMDHomeActivityHomeAwayAggregator *_homeAwayStateAggregator;
-    HMFPromise *_configurePromise;
-    HMFFuture *_configureFuture;
 }
 
 + (_Bool);
 + (id)ÇÏÿkM;
 - (id);
+- (void)oreMedia.dylib;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)addNetworkReachableObserver:selector: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (void);
@@ -43,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -53,20 +43,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)H;
+- (id)<;
 - (void)ecause existing one was not found:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) id <HMDHomeUserActivityStatesDetails> userActivityStatesDetails;
 
 @end
 

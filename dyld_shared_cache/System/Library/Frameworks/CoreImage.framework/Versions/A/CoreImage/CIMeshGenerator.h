@@ -6,18 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, NSArray, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface CIMeshGenerator : CIFilter
 {
     NSNumber *inputWidth;
-    CIColor *inputColor;
-    NSArray *inputMesh;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -27,14 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)O)O;
 - (id);
 - (id)hqnt2QDc_hchhoooXhcruvtzgtqxqwuy££££©¨©©|\{xizwjqlydjcsvvvvqtst_lhmoooozzzzvrrrrTVQVDD8D6&C0G;Timlnq|{|{zxt|KbYkW\Q_LXMZ6OBYCUI^de\fljblgmgorrrrrrrrvvtv}    mUuo««««|¢­®«®®¥¨¨qyv~AYMi=SDbbe[l}kr{w\kdrggagWd\goqntryuqpvs|~tutzgnjq_mimnnnnxxxx©©©©¡¨¨¤£¤¤`nyuwwwwckdqCd\te{}}}}}ppppU`Xd]hbly£ªºººº²²²²ri\s`aSktrkvmmjm?NBYYYQYiiiidy{{cggg?H;NBG9GONAOcccczzzzf{x®®®®­­­­NeZvuupugz}}:YSeGVOYXXXXR[X\DZUbajhqCTHd,@/MED5F8I;OeeeerrrrkidkF\Sfppppyyyy||||{{{{ttttlmjossssvvvvjjjj@UK^`d^fxxxxwyu~Umd}otn{roispngpbkesu|{||ªªªª¥¥¥¥N`Wh4F5UETG^`pluvmwwwwdkgmZd]hmlgmp~~~nyx|bbYljnis}etqt||||O^Ve/J;]ehbn_wv~_pl|>b[teolqssssavux}yyxy_ibqif\pPg^r^kcv[xtªªªª¥¥¥¥npnqW`Yh^kiqavs|eaViF\PdkkckgtpzxXpmytttt]d\mtzy|qyyyyV]Sf+H7[baVdyyyynyw~Ykfqoooowwww~~~~x¡¡¡¡}}}}]{x¢¢¢¢[xt\njvqqqqqqqqad]e7N@\ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
-@property(retain, nonatomic) NSArray *inputMesh; // @synthesize inputMesh;
 @property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end

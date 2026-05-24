@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPCModelStorePlaybackItemsRequest, MPMutableSectionedCollection, MPPropertySet, MPSectionedCollection, MPServerObjectDatabase, NSError, NSMutableArray, NSOperationQueue, NSString;
-@protocol MPObjectDatabase;
+@class MPCModelStorePlaybackItemsRequest;
 
 __attribute__((visibility("hidden")))
 @interface _MPCModelStorePlaybackItemsRequestAccumulator_Modern
 {
     MPCModelStorePlaybackItemsRequest *_request;
-    MPServerObjectDatabase *_sod;
-    id <MPObjectDatabase> _lod;
-    NSString *_personID;
-    MPPropertySet *_requestPropertySet;
-    NSMutableArray *_importResults;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
-    MPMutableSectionedCollection *_progressiveResults;
-    NSMutableArray *_prioritizedProgressiveResults;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _objectDatabaseOptions;
-    long long _storePersonalizationStyle;
-    unsigned int _piaTag;
-    NSError *_accumulationError;
-    NSOperationQueue *_operationQueue;
 }
 
 + (_Bool);
-- (void);
+- (void)aclasses should be disabled from user defaults.;
 - (unsigned int);
 - (id);
 - (id);
@@ -58,21 +43,7 @@ __attribute__((visibility("hidden")))
 - (void){public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *accumulationError; // @synthesize accumulationError=_accumulationError;
-@property(readonly, nonatomic) struct MPCModelStorePlaybackItemsRequestAccumulatorResult accumulatorResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long failedIDsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) long long pendingIDsCount;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics;
 @property(readonly, nonatomic) unsigned int piaTag;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors;
 
 @end
 

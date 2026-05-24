@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface UnknownClass (SafariNSViewExtras)
 + (void)­ÿÅx+;
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)P;
 - (void);
 - (long long);
 - (long long);
@@ -31,7 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,7 +57,5 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=safari_setBackgroundColor:) NSColor *safari_backgroundColor;
-@property(readonly, copy, nonatomic) NSString *safari_recursiveDescription;
-@property(readonly, nonatomic) _Bool safari_shouldDisableAutomaticFocusRing;
 @end
 

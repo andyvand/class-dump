@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol CLLocationManagerRoutineClientInterface
+- (void);
 - (void):(NSArray *)arg1 %{public, location:CLClientAuthorizationStatus}lld} /* Error: Ran out of types for this method. */;
 @end
 

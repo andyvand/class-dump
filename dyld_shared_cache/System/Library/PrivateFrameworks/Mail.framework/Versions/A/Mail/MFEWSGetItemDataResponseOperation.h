@@ -6,12 +6,11 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSGetItemResponseType, NSArray;
+@class NSArray;
 
 @interface MFEWSGetItemDataResponseOperation : MFEWSResponseOperation
 {
     CDUnknownBlockType _dataHandler;
-    NSArray *_itemIdTypes;
 }
 
 - (void);
@@ -25,9 +24,7 @@
 - (void)Ü ¼	;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType dataHandler; // @synthesize dataHandler=_dataHandler;
 @property(retain, nonatomic) NSArray *itemIdTypes; // @synthesize itemIdTypes=_itemIdTypes;
-@property(retain) EWSGetItemResponseType *response;
 
 @end
 

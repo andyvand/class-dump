@@ -12,13 +12,43 @@ __attribute__((visibility("hidden")))
     struct MTLSamplerDescriptorPrivate _private;
 }
 
-- (void);
+- (void)mp(pix.rgb, 1e-5, 9.999900e-01);
+  float gray = ((clamped.r + clamped.g) + clamped.b) * 3.333300e-01;
+  float gi = 1.0 / gray;
+  float gii = 1.0 / (1.0 - gray);
+  float rgbsat = max((clamped.r - gray) * gii, (gray - clamped.r) * gi);
+  float skin = min(1.0, ((max(0.0, min(clamped.r - clamped.g, (clamped.g * 2.0) - clamped.b)) * 4.0) * (1.0 - rgbsat)) * gi);
+  skin = 1.500000e-01 + (skin * 7.000000e-01);
+  vec3 rgbExp = pow(vec3(2.0), (-shadAmt) - blur.rgb);
+  float uniformExp = min(rgbExp.r, min(rgbExp.g, rgbExp.b));
+  vec3 shadExp = mix(rgbExp, vec3(uniformExp), skin);
+  float nopMix = params.z;
+  shadExp = mix(shadExp, vec3(1.0, 1.0, 1.0), nopMix);
+  vec3 shad = (sign(pix.rgb) * pow(abs(pix.rgb) * 0.5, shadExp)) * 2.0;
+  float maxChan = max(0.0, max(max(blur.r, blur.g), blur.b));
+  float blurLum = sqrt(maxChan);
+  float origPercent = sqrt(smoothstep(0.0, 0.1 + ((0.5 * shadAmt) * shadAmt), blurLum));
+  origPercent *= 1.0 - origPercent;
+  shad = mix(shad, pix.rgb, origPercent);
+  vec3 high = sign(pix.rgb) * pow(abs(pix.rgb) * params.w, vec3(2.0 - params.y));
+  origPercent = 1.0 - smoothstep(2.000000e-01, 8.000000e-01, blurLum);
+  high = mix(high, pix.rgb, origPercent);
+  vec4 result;
+  result.rgb = mix(shad, high, blurLum);
+  float Y = dot(result.rgb, vec3(0.299, 0.587, 0.114));
+  float effectAmount = max(max(((((-2.600) * Y) * Y) - (2.600 * Y)) + 9.800000e-01, ((((-6.250) * Y) * Y) - (6.250 * Y)) + 5.965000e-01), 1.0);
+  vec3 mid = mix(vec3(0.5), result.rgb, 1.0 + (abs(shadAmt) * 5.000000e-02));
+  result.rgb = mix(result.rgb, mid.rgb, min(effectAmount, (3.000000e+01 * blurLum) * blurLum));
+  result.a = pix.a;
+  return result;
+}
+;
 - (unsigned long long);
 - (void);
 - (float);
 - (_Bool);
 - (void);
-- (void);
+- (void)@i`;
 - (void);
 - (void);
 - (_Bool);
@@ -31,42 +61,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (const struct MTLSamplerDescriptorPrivate *);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (void);
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (unsigned int);
+- (void)v20@0:(float)arg1 8B16;
+- (void)menuID;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (float)7A74DB40DD02;
 - (_Bool);
-- (void);
-- (float);
-- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void)}@;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void)t:(id)arg1;
+- (unsigned long long)NS0_23guarded_edges_allocatorINS0_22consolidating_free_mapIS5_Lm10485760EEELm4EEEEENS0_18tracking_allocatorIS5_EEEEE;
+- (void)resolveCounters:(id)arg1 inRange:destinationBuffer:destinationOffset: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned int)%d, which does not support any textureType other than MTLTextureType2D;
 - (void);
@@ -75,12 +105,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long borderColorSPI;
-@property(nonatomic) unsigned int customBorderColorValue_0;
-@property(nonatomic) unsigned int customBorderColorValue_1;
-@property(nonatomic) unsigned int customBorderColorValue_2;
-@property(nonatomic) unsigned int customBorderColorValue_3;
-@property(nonatomic) _Bool forceSeamsOnCubemapFiltering;
-@property(nonatomic) unsigned long long reductionMode;
 
 @end
 

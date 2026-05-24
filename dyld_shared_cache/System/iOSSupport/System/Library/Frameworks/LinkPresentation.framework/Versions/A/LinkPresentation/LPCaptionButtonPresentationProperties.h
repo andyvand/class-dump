@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonCollapsedPresentationProperties, LPImage, NSArray, NSAttributedString, NSNumber, NSString, UIColor;
+@class NSString;
 
 @interface LPCaptionButtonPresentationProperties
 {
     _Bool _disabled;
-    NSString *_text;
-    NSAttributedString *_attributedText;
-    LPImage *_icon;
-    CDUnknownBlockType _callback;
-    long long _type;
-    long long _shape;
-    UIColor *_foregroundColor;
-    UIColor *_backgroundColor;
-    LPCaptionButtonCollapsedPresentationProperties *_collapsedButton;
-    NSArray *_actions;
-    double _minimumWidth;
-    NSNumber *_requiresInlineButton;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)systemCorrectSpellingAutomatically;
+- (void)supportsOrbPreviewsInConversationList;
+- (id)supportIndirectCommandBuffers;
+- (id)shouldStageAsEmbeddedTextAttachment;
+- (void)� ;
+- (id)!;
 - (id);
 - (double);
 - (long long);
@@ -53,19 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) LPCaptionButtonCollapsedPresentationProperties *collapsedButton; // @synthesize collapsedButton=_collapsedButton;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(retain, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(retain, nonatomic) NSNumber *requiresInlineButton; // @synthesize requiresInlineButton=_requiresInlineButton;
-@property(nonatomic) long long shape; // @synthesize shape=_shape;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

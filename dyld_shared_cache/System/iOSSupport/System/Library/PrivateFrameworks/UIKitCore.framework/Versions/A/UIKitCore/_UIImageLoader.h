@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, UIImage;
-
 @interface _UIImageLoader
 {
     struct atomic_flag _started;
-    _Atomic _Bool _finished;
-    _Atomic _Bool _cancelled;
-    UIImage *_image;
-    NSError *_error;
-    struct os_unfair_lock_s _trampolineLock;
-    NSMutableArray *_completionTrampolines;
 }
 
 + (id);
@@ -22,19 +14,16 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)onitor for login of account:(id)arg1 %@;
+- (_Bool)CEMManagementTestMessageMessage;
 - (id);
-- (id);
-- (_Bool)nagerForTableViewCellStyle: /* Error: Ran out of types for this method. */;
+- (id)|;;
+- (_Bool)layoutManagerForTableViewCellStyle: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)S~;
 - (void)ËÜ%[;
 
 // Remaining properties
-@property(readonly) NSError *_error;
-@property(readonly) UIImage *_image;
-@property(readonly) _Bool _isCancelled;
 @property(readonly) _Bool _isFinished;
 
 @end

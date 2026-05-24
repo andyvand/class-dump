@@ -20,17 +20,16 @@
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)R);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)#;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long countOfSubdownloads;
 @property(readonly, copy) NSArray *subdownloads;
 
 @end

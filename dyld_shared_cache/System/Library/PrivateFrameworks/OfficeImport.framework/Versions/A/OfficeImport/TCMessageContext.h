@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface TCMessageContext
 {
     NSMutableSet *m_warnings;
-    NSMutableSet *m_errors;
-    NSMutableArray *m_affectedObjectStack;
-    NSMutableDictionary *m_placeholderToObjectMap;
-    NSObject<OS_dispatch_queue> *mMessageSyncQueue;
 }
 
++ (void)(;
++ (unsigned long long)P;
 + (void);
-+ (unsigned long long);
-+ (void);
-+ (void);
++ (void)0;
 + (void);
 + (void);
 + (void);
@@ -37,11 +32,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void)_cacheDirectory;
 + (void)O;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
@@ -51,10 +46,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (void)DZD;
 
 @end

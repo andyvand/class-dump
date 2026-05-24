@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, REMStoreContainerToken, _REMInProgressSaveRequestsContainer;
-@protocol REMDaemonController;
+@class _REMInProgressSaveRequestsContainer;
 
 @interface REMStore
 {
     _Bool _assertOnMainThreadFetches;
-    struct os_unfair_lock_s _lock;
-    _REMInProgressSaveRequestsContainer *_l_inProgressSaveRequestsContainer;
-    id <REMDaemonController> _daemonController;
-    REMStoreContainerToken *_storeContainerToken;
-    unsigned long long _mode;
-    NSNumber *_unitTest_forceSupportsAutoCategorizationModels;
-    REMStore *_nonUserInteractiveStore;
 }
 
-+ (_Bool);
++ (_Bool)ation changed to match previous line, line text:'%{sensitive}@' starting orientation:%lf new orientation:%lf /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (id);
@@ -31,14 +23,7 @@
 + (void)°RÔUÜU´W¼W;
 
 // Remaining properties
-@property(nonatomic) _Bool assertOnMainThreadFetches; // @synthesize assertOnMainThreadFetches=_assertOnMainThreadFetches;
-@property(retain, nonatomic) id <REMDaemonController> daemonController; // @synthesize daemonController=_daemonController;
 @property(readonly, nonatomic) _REMInProgressSaveRequestsContainer *l_inProgressSaveRequestsContainer; // @synthesize l_inProgressSaveRequestsContainer=_l_inProgressSaveRequestsContainer;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) REMStore *nonUserInteractiveStore; // @synthesize nonUserInteractiveStore=_nonUserInteractiveStore;
-@property(readonly, nonatomic) REMStoreContainerToken *storeContainerToken; // @synthesize storeContainerToken=_storeContainerToken;
-@property(retain, nonatomic) NSNumber *unitTest_forceSupportsAutoCategorizationModels; // @synthesize unitTest_forceSupportsAutoCategorizationModels=_unitTest_forceSupportsAutoCategorizationModels;
 
 @end
 

@@ -9,29 +9,23 @@
 @interface AppStoreKit.DynamicTypeTextField
 {
     id fontUseCaseContentSizeCategory;
-    id contentSizeCategoryMapping;
-    id fontUseCase;
-    id _allowsVibrancy;
-    id directionalTextAlignment;
 }
 
 + (void);
 + (Class);
 - (void);
-- (void);
-- (id);
+- (void)I;
+- (id)P;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void)dayPageFooter;
+- (void)todayPageFooter;
 - (void)So11NSTextFieldC;
 
 // Remaining properties
-@property(nonatomic) long long alignment;
-@property(nonatomic) _Bool allowsVibrancy;
 @property(nonatomic, retain) NSFont *font;
 
 @end

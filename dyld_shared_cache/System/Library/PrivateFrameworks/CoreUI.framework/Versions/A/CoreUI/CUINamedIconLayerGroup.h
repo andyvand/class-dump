@@ -6,57 +6,46 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class CUINamedGradient, NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface CUINamedIconLayerGroup : CUINamedLookup
 {
     NSMutableArray *_layers;
-    double _opacity;
-    int _blendMode;
-    double _blurStrength;
-    NSString *_gradientOrColorName;
-    _Bool _hasLightingEffects;
-    _Bool _gathersSpecularByElement;
-    long long _shadowStyle;
-    double _shadowOpacity;
-    _Bool _hasSpecular;
-    id _gradientOrColor;
-    double _translucency;
 }
 
 - (double);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (double);
+- (double)a;
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)9(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
+- (long long)_NLPGazetteerModelCopyLabelForStringImpl;
 - (void);
-- (long long);
 - (void);
-- (void);
-- (int);
+- (int)CKIsDebuggerAttached;
 - (double);
 - (struct CGColor *);
 - (id);
@@ -64,23 +53,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)to re-box %@;
+- (id);
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) double blurStrength; // @synthesize blurStrength=_blurStrength;
-@property(readonly, nonatomic) struct CGColor *color;
-@property(nonatomic) _Bool gathersSpecularByElement; // @synthesize gathersSpecularByElement=_gathersSpecularByElement;
-@property(readonly, nonatomic) CUINamedGradient *gradient;
-@property(copy, nonatomic) NSString *gradientOrColorName; // @synthesize gradientOrColorName=_gradientOrColorName;
-@property(nonatomic) _Bool hasLightingEffects; // @synthesize hasLightingEffects=_hasLightingEffects;
-@property(nonatomic) _Bool hasSpecular; // @synthesize hasSpecular=_hasSpecular;
 @property(retain, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) long long shadowStyle; // @synthesize shadowStyle=_shadowStyle;
-@property(nonatomic) double translucency; // @synthesize translucency=_translucency;
 
 @end
 

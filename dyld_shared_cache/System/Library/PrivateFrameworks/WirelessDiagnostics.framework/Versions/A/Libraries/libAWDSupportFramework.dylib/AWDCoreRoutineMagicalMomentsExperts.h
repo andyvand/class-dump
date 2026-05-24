@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineMagicalMomentsExperts
 {
     unsigned long long _timestamp;
-    int _durationSinceLastSuccessfulTraining;
-    NSMutableArray *_experts;
-    NSMutableArray *_suggestions;
-    int _trainingTime;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int durationSinceLastSuccessfulTraining:1;
-        unsigned int trainingTime:1;
-    } _has;
 }
 
 + (Class);
@@ -38,34 +27,27 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
+- (_Bool);
+- (void)e;
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)i58`;
 - (id);
 - (id);
 - (void)taRcv;
 
 // Remaining properties
-@property(nonatomic) int durationSinceLastSuccessfulTraining; // @synthesize durationSinceLastSuccessfulTraining=_durationSinceLastSuccessfulTraining;
-@property(retain, nonatomic) NSMutableArray *experts; // @synthesize experts=_experts;
-@property(nonatomic) _Bool hasDurationSinceLastSuccessfulTraining;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTrainingTime;
-@property(retain, nonatomic) NSMutableArray *suggestions; // @synthesize suggestions=_suggestions;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int trainingTime; // @synthesize trainingTime=_trainingTime;
 
 @end
 

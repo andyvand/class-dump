@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVAudioNotification
 {
     unsigned long long type;
-    NSString *propertyName;
 }
 
 - (void);
@@ -19,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *propertyName; // @synthesize propertyName;
 @property(nonatomic) unsigned long long type; // @synthesize type;
 
 @end

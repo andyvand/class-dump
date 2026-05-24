@@ -6,22 +6,19 @@
 
 #import <HomeKitDaemon/HMDCameraIDSSessionHandler.h>
 
-@class AVCPacketRelay, HMDCameraNetworkConfig, HMDDevice, HMFOSTransaction, NSNumber, NSString;
+@class AVCPacketRelay;
 @protocol HMDCameraIDSSessionInitiatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSSessionInitiator : HMDCameraIDSSessionHandler
 {
     id <HMDCameraIDSSessionInitiatorDelegate> _delegate;
-    HMDDevice *_device;
-    HMDCameraNetworkConfig *_localNetworkConfig;
-    AVCPacketRelay *_packetRelay;
-    HMFOSTransaction *_packetRelayTransaction;
 }
 
 + (id)$C;
-- (void);
-- (void);
+- (void)_MSPContainerEditReplacedEntirely;
+- (void)utingPathLegs:(id)arg1 %{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -39,28 +36,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)т#;
 - (void);
 - (id);
+- (void);
+- (id)uartzCore.dylib;
 - (void);
 - (id)8K°(C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraIDSSessionInitiatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDCameraNetworkConfig *localNetworkConfig; // @synthesize localNetworkConfig=_localNetworkConfig;
-@property(readonly, nonatomic) NSNumber *mtu;
 @property(retain) AVCPacketRelay *packetRelay; // @synthesize packetRelay=_packetRelay;
-@property(retain) HMFOSTransaction *packetRelayTransaction; // @synthesize packetRelayTransaction=_packetRelayTransaction;
-@property(readonly) Class superclass;
 
 @end
 

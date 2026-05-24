@@ -9,10 +9,6 @@
 @interface AppStoreKit.WriteReviewAction : AppStoreKit.Action
 {
     id adamId;
-    id url;
-    id appName;
-    id itemDescription;
-    id appIcon;
 }
 
 @end

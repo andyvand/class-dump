@@ -6,21 +6,17 @@
 
 #import <AppleMediaServicesUI/AMSUICommonView.h>
 
-@class NSButton, NSTextField;
-@protocol AMSUIWebActionRunnable;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCameraReaderInfoView : AMSUICommonView
 {
     NSButton *_bottomLink;
-    id <AMSUIWebActionRunnable> _bottomLinkAction;
-    NSTextField *_primaryLabel;
-    NSTextField *_secondaryLabel;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)DDS folder is present at %{public}@;
+- (void)failed;
+- (void)e is failed;
 - (id);
 - (id);
 - (id);
@@ -35,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSButton *bottomLink; // @synthesize bottomLink=_bottomLink;
-@property(retain, nonatomic) id <AMSUIWebActionRunnable> bottomLinkAction; // @synthesize bottomLinkAction=_bottomLinkAction;
-@property(retain, nonatomic) NSTextField *primaryLabel; // @synthesize primaryLabel=_primaryLabel;
-@property(retain, nonatomic) NSTextField *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
 
 @end
 

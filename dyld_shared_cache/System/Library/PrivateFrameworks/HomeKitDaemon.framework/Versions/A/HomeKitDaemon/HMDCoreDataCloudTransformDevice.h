@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)tionCameraNotificationSettingsToDisk;
-+ (_Bool):(id)arg1;
++ (_Bool)storeMigrationCameraNotificationSettingsToDisk;
++ (_Bool)isAccessoryRegistered:(id)arg1;
 
 @end
 

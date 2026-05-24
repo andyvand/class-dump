@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLNetworkWatcher, NSMutableDictionary, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class CPLEngineLibrary;
 
 @interface CPLEngineSystemMonitor
 {
     _Bool _closed;
-    NSURL *_volumeURL;
-    NSObject<OS_dispatch_queue> *_queue;
-    CPLNetworkWatcher *_watcher;
-    _Bool _supportsBudgetOverride;
-    _Bool _modifyingBudgetOverride;
-    unsigned long long _newBudgetsToOverride;
-    unsigned long long _newBudgetsToStopOverriding;
-    NSMutableDictionary *_reasonsToOverrideSystemBudget;
-    NSMutableDictionary *_scheduledOverrides;
-    _Bool _allowOperationsBoost;
-    _Bool _allowBackgroundOperationsBoost;
-    _Bool _hasSetupBatteryMonitor;
-    CPLEngineLibrary *_engineLibrary;
 }
 
 + (id);
 + (double);
-+ (void);
++ (void)RE;
 + (void);
 + (_Bool);
 + (id);
 + (void)to be staged and needs to be cleaned-up before allowing metadata sync;
-- (_Bool);
-- (double);
+- (_Bool)nd
+  FROM ;
+- (double);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void)ÔAÂÐ!,Fù±°1Â0@ù
-× ;
-- (void)ÿîÒþ;
-- (void)@ù¨øàªÂ;
-- (_Bool).@ù`.;
-- (void)è;
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -67,23 +53,7 @@
 - (id)»;
 
 // Remaining properties
-@property(readonly) _Bool canBoostBackgroundOperations;
-@property(readonly) _Bool canBoostOperations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long diskPressureState;
 @property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(readonly) unsigned long long freeDiskSpaceSize;
-@property(readonly) _Bool hasEnoughPowerForAutomaticOverride;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isDataBudgetOverriden;
-@property(readonly) _Bool isNetworkConnected;
-@property(readonly) _Bool isNetworkConstrained;
-@property(readonly) _Bool isOnCellularOrUnknown;
-@property(readonly) Class superclass;
 
 @end
 

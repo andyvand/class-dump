@@ -7,39 +7,21 @@
 @interface PFCropUtilitiesPosterOutputData
 {
     _Bool _clockOverlapAcceptable;
-    _Bool _headroomEngaged;
-    double _cropScore;
-    double _layoutScore;
-    double _adaptiveHeadroom;
-    double _maxClockShift;
-    unsigned long long _layoutVariant;
-    double _notificationRoom;
-    struct CGRect _visibleRect;
-    struct CGRect _adaptiveVisibleRect;
 }
 
 - (double);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (struct CGRect);
 - (double);
-- (unsigned long long);
+- (unsigned long long)C;
 - (double);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) double adaptiveHeadroom; // @synthesize adaptiveHeadroom=_adaptiveHeadroom;
-@property(readonly, nonatomic) struct CGRect adaptiveVisibleRect; // @synthesize adaptiveVisibleRect=_adaptiveVisibleRect;
-@property(readonly, nonatomic) _Bool clockOverlapAcceptable; // @synthesize clockOverlapAcceptable=_clockOverlapAcceptable;
-@property(readonly, nonatomic) double cropScore; // @synthesize cropScore=_cropScore;
-@property(readonly, nonatomic) _Bool headroomEngaged; // @synthesize headroomEngaged=_headroomEngaged;
-@property(readonly, nonatomic) double layoutScore; // @synthesize layoutScore=_layoutScore;
-@property(readonly, nonatomic) unsigned long long layoutVariant; // @synthesize layoutVariant=_layoutVariant;
-@property(readonly, nonatomic) double maxClockShift; // @synthesize maxClockShift=_maxClockShift;
-@property(readonly, nonatomic) double notificationRoom; // @synthesize notificationRoom=_notificationRoom;
 @property(readonly, nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
 
 @end

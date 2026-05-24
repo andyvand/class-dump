@@ -9,7 +9,6 @@
 @interface TUCallSoundPlayer
 {
     long long _currentlyPlayingSoundType;
-    TUNSSoundPlayer *_player;
 }
 
 - (_Bool);
@@ -21,15 +20,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long currentlyPlayingSoundType; // @synthesize currentlyPlayingSoundType=_currentlyPlayingSoundType;
 @property(retain, nonatomic) TUNSSoundPlayer *player; // @synthesize player=_player;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
 
 @end
 

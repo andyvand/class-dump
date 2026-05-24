@@ -7,13 +7,12 @@
 @interface ABActionAutovalidatorCacheEntry
 {
     _Bool _validation;
-    unsigned long long _hitCount;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties

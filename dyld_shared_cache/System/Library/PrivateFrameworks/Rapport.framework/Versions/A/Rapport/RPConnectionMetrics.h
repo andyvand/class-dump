@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RPConnectionMetrics
 {
     struct os_unfair_lock_s _reportLock;
-    NSObject<OS_dispatch_queue> *_reportQueue;
-    NSObject<OS_dispatch_source> *_reportTimer;
-    _Bool _sendReport;
-    unsigned long long _eventCount;
-    NSMutableDictionary *_rttMetrics;
 }
 
-+ (id);
++ (id);
 - (void);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (void);
 - (void);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned char);
 - (unsigned char);
-- (id);
+- (id)	;
 - (void);
 
 // Remaining properties

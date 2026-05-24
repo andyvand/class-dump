@@ -10,7 +10,7 @@
 
 + (id);
 + (void);
-+ (void);
++ (void)C;
 + (Class);
 + (id);
 + (id);
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

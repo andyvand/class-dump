@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer, MTLDevice;
+@protocol MTLDevice;
 
 @interface MPSVector
 {
     void *_device;
-    unsigned long long _length;
-    unsigned long long _vectors;
-    unsigned long long _vectorBytes;
-    unsigned long long _offset;
-    unsigned int _dataType;
-    struct MPSAutoBuffer _buffer;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id)c*;
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)0;
 - (id);
 - (unsigned long long);
 - (id);
@@ -36,13 +30,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> data;
-@property(readonly, nonatomic) unsigned int dataType; // @synthesize dataType=_dataType;
 @property(readonly, retain, nonatomic) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) unsigned long long vectorBytes; // @synthesize vectorBytes=_vectorBytes;
-@property(readonly, nonatomic) unsigned long long vectors; // @synthesize vectors=_vectors;
 
 @end
 

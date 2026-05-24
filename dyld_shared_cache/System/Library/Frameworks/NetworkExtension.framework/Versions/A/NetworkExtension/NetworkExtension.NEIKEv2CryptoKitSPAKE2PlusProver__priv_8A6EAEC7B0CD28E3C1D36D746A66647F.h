@@ -11,10 +11,10 @@
     id prover;
 }
 
+- (id)=;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)initWithNetworkAgentSession:name: /* Error: Ran out of types for this method. */;
 
 @end
 

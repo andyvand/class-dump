@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol VCMediaAnalyzerSource;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaAnalyzerManagerStreamTokenClientList
 {
     long long _streamToken;
-    id <VCMediaAnalyzerSource> _mediaAnalyzerSource;
-    NSMutableArray *_clientContextList;
 }
 
 + (long long);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)s#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clientContextList; // @synthesize clientContextList=_clientContextList;
 @property(readonly, nonatomic) id <VCMediaAnalyzerSource> mediaAnalyzerSource; // @synthesize mediaAnalyzerSource=_mediaAnalyzerSource;
 
 @end

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBButtonItem, _SFPBRFTextProperty;
+@class _SFPBButtonItem, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSimpleItemPlayerCardSection
+- (void);
+- (_SFPBRFTextProperty *)@0:8{CGPoint=dd}16{CGPoint=dd}32{CGPoint=dd}48d64 /* Error: Ran out of types for this method. */;
+- (_SFPBButtonItem *),R,N,V_isHintBased;
+- (void)ate == nil;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBButtonItem *player;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
 @end
 

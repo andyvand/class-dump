@@ -9,11 +9,9 @@
 @interface PXPhotosDataSourceSettings : PXSettings
 {
     _Bool _slowBackgroundFetch;
-    _Bool _disableKeyAssetCuration;
-    double _delayChanges;
 }
 
-+ (id);
++ (id)StyleMerger;
 + (id)Àb: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double delayChanges; // @synthesize delayChanges=_delayChanges;
-@property(nonatomic) _Bool disableKeyAssetCuration; // @synthesize disableKeyAssetCuration=_disableKeyAssetCuration;
 @property(nonatomic) _Bool slowBackgroundFetch; // @synthesize slowBackgroundFetch=_slowBackgroundFetch;
 
 @end

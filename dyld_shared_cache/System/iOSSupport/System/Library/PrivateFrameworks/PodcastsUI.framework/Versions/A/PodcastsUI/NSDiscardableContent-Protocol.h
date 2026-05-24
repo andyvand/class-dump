@@ -5,5 +5,6 @@
 //
 
 @protocol NSDiscardableContent
+- (_Bool);
 @end
 

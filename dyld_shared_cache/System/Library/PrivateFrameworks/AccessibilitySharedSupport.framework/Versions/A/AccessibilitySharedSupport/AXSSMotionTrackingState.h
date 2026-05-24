@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSSet, NSString;
+@class NSError;
 
 @interface AXSSMotionTrackingState
 {
     NSError *_error;
-    NSSet *_expressions;
-    struct CGPoint _lookAtPoint;
 }
 
 + (_Bool);
@@ -25,18 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)oInsertAfter;
+- (_Bool)%{public}@) from %{public}@ to %{public}@;
 - (void);
 - (id);
-- (void);
+- (void)setToolbarParentViewNeedingUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *debugString;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSSet *expressions; // @synthesize expressions=_expressions;
-@property(readonly, nonatomic) _Bool hasFace;
-@property(nonatomic) struct CGPoint lookAtPoint; // @synthesize lookAtPoint=_lookAtPoint;
 
 @end
 

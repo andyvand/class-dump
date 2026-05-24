@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPDataStreamHAPControllerPayload
 {
     NSData *_payload;
-    HAPTLVUnsignedNumberValue *_sessionIdentifier;
-    HAPTLVUnsignedNumberValue *_forceClose;
 }
 
 + (id);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)removeEventsFrom:(id)arg1 to:reason:pruneFutureEvents:shouldDeleteUsingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)BTLE";
@@ -30,16 +28,7 @@
 - (void)y %@ with no transport;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *forceClose; // @synthesize forceClose=_forceClose;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

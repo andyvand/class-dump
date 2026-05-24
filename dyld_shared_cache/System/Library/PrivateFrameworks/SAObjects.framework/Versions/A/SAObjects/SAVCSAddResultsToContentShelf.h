@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUIAddContentToView.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAVCSAddResultsToContentShelf : SAUIAddContentToView
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -28,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentShelfViewId;
-@property(copy, nonatomic) NSArray *fetchMoreResultsCommands;
-@property(nonatomic) long long pageNumber;
-@property(copy, nonatomic) NSArray *results;
 
 @end
 

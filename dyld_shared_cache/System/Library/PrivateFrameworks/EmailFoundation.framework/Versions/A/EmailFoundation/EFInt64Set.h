@@ -12,26 +12,26 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (struct _EFInt64Range);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)q;
 - (void);
-- (id);
+- (id)d %d, error=%@;
 - (long long);
-- (unsigned long long);
+- (unsigned long long)x;
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)4;
+- (id)showAlertForPID:languageItem:completion: /* Error: Ran out of types for this method. */;
+- (id)rust Object Digest:(struct _NSZone *)arg1;
 - (void);
 - (unsigned long long);
 - (id);
@@ -40,18 +40,7 @@
 - (void)ocable;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *commaSeparatedString;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly, nonatomic) long long firstIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long lastIndex;
-@property(readonly) Class superclass;
 
 @end
 

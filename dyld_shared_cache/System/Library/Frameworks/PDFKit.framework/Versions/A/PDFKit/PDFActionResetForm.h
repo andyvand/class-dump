@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *fields;
-@property(nonatomic) _Bool fieldsIncludedAreCleared;
 
 @end
 

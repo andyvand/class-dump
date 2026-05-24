@@ -6,20 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class InlineAuthorizationViewController, NSLayoutConstraint, NSMutableArray, NSView, NSViewController, NSWindow, PMSafariAccountsViewController, SecureWindowLockPolicyEnforcer;
-@protocol PreferencesViewController;
+@class NSView, PMSafariAccountsViewController;
 
 __attribute__((visibility("hidden")))
 @interface PasswordsPreferences : PreferencesModule
 {
     PMSafariAccountsViewController *_accountsViewController;
-    NSLayoutConstraint *_accountsViewControllerWidthConstraint;
-    NSLayoutConstraint *_accountsViewControllerHeightConstraint;
-    NSMutableArray *_blocksToPerformAfterAuthentication;
-    InlineAuthorizationViewController *_authorizationViewController;
-    SecureWindowLockPolicyEnforcer *_lockPolicyEnforcer;
-    NSView *_containerView;
-    NSViewController<PreferencesViewController> *_viewController;
 }
 
 + (_Bool);
@@ -35,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -43,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -58,14 +50,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)ÿ¿§ÇÙ_-;
 
 // Remaining properties
-@property(readonly, nonatomic) PMSafariAccountsViewController *accountsViewController; // @synthesize accountsViewController=_accountsViewController;
-@property(readonly, nonatomic) InlineAuthorizationViewController *authorizationViewController; // @synthesize authorizationViewController=_authorizationViewController;
 @property __weak NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) SecureWindowLockPolicyEnforcer *lockPolicyEnforcer; // @synthesize lockPolicyEnforcer=_lockPolicyEnforcer;
-@property(readonly, nonatomic) __weak NSViewController<PreferencesViewController> *viewController; // @synthesize viewController=_viewController;
-@property(readonly, nonatomic) NSWindow *window;
-@property(readonly, nonatomic) NSWindow *windowToSecure;
-@property(readonly, nonatomic) _Bool windowToSecureIsMainWindow;
 
 @end
 

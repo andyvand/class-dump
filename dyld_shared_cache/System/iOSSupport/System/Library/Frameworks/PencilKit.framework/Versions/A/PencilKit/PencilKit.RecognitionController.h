@@ -7,13 +7,6 @@
 @interface PencilKit.RecognitionController
 {
     id $defaultActor;
-    id strokeProvider;
-    id autoRefineTaskControllerDelegate;
-    id autoRefineController;
-    id autoRefineTaskCoordinator;
-    id autoRefineCanvasView;
-    id autoRefineMode;
-    id refineStrokesBlock;
 }
 
 @end

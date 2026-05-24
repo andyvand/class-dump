@@ -7,11 +7,9 @@
 @class NSView;
 
 @protocol SearchUIHighlightTarget
+- (NSView *);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect highlightFrame;
-@property(readonly, nonatomic) double highlightFrameCornerRadius;
 @property(readonly, nonatomic) _Bool highlightFrameMatchesHighlightView;
-@property(readonly, nonatomic) NSView *highlightReferenceView;
 @end
 

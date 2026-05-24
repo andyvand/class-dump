@@ -15,26 +15,23 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)";
+- (void)CKFetchRecordZoneChangesConfiguration;
 - (int);
 - (void);
+- (void);
+- (id)P;
+- (void)_ensureAuxServiceAwareOfHostApp_block_invoke_2;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)bled: /* Error: Ran out of types for this method. */;
+- (_Bool)setSecureIndicatorsEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *depthNormalization;
-@property _Bool preallocatesBounds;
-@property _Bool replicatesEdges;
-@property int subdivisionSteps;
 
 @end
 

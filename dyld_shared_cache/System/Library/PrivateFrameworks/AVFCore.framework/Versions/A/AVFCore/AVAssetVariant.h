@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetVariantAudioAttributes, AVAssetVariantVideoAttributes, FigAlternateObjC, NSURL;
+@class FigAlternateObjC;
 
 @interface AVAssetVariant
 {
     FigAlternateObjC *_figAlternateObjC;
-    AVAssetVariantVideoAttributes *_videoAttributes;
-    AVAssetVariantAudioAttributes *_audioAttributes;
-    struct OpaqueFigSimpleMutex *_mutex;
 }
 
 + (_Bool);
@@ -21,18 +18,14 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) AVAssetVariantAudioAttributes *audioAttributes;
-@property(readonly, nonatomic) double averageBitRate;
 @property(readonly, nonatomic) double peakBitRate;
-@property(readonly, nonatomic) AVAssetVariantVideoAttributes *videoAttributes;
 
 @end
 

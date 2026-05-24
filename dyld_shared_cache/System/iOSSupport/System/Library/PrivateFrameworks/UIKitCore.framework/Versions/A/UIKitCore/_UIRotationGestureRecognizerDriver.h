@@ -6,28 +6,10 @@
 
 #import <UIKitCore/_UIGestureRecognizerDriver.h>
 
-@class NSArray, _UIGestureRecognizerTransformAnalyzer;
-
 __attribute__((visibility("hidden")))
 @interface _UIRotationGestureRecognizerDriver : _UIGestureRecognizerDriver
 {
     double _initialTouchDistance;
-    double _initialTouchAngle;
-    double _currentTouchAngle;
-    long long _currentRotationCount;
-    double _lastTouchTime;
-    double _velocity;
-    double _previousVelocity;
-    _UIGestureRecognizerTransformAnalyzer *_transformAnalyzer;
-    NSArray *_touches;
-    float _preRecognitionWeight;
-    float _postRecognitionWeight;
-    struct {
-        unsigned int receivedTwoTouches:1;
-    } _flags;
-    _Bool _hysteresisEnabled;
-    struct CGPoint _anchorPoint;
-    struct CGPoint _initialAnchorPoint;
 }
 
 - (void);
@@ -36,31 +18,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
-- (id);
+- (id)MPModelRelationshipGenericPodcast;
 - (double)±bÐ1Â0@ù
 × ;
-- (void)oadComplete;
-- (void)ollView:(id)arg1 viewController:(id)arg2 getTabBarRequiresStandardBackground: /* Error: Ran out of types for this method. */;
-- (double)imulationDuration;
-- (void)eToContentView:(id)arg1;
-- (void)wipeActionHost;
+- (void)resetTilingAfterLoadComplete;
+- (void)_updateObservingScrollViewWithScrollView:(id)arg1 viewController:(id)arg2 getTabBarRequiresStandardBackground: /* Error: Ran out of types for this method. */;
+- (double)_simulationDuration;
+- (void)_forwardsSystemLayoutFittingSizeToContentView:(id)arg1;
+- (void)swipeActionHost;
 - (struct CGPoint)üùîÿÐøîÿ;
 - (double)sessionSource must be non-nil;
 - (void)];
-- (void)MatrixWhite;
+- (void)inputShadowColorMatrixWhite;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(nonatomic, getter=isHysteresisEnabled) _Bool hysteresisEnabled; // @synthesize hysteresisEnabled=_hysteresisEnabled;
-@property(readonly, nonatomic) struct CGPoint initialAnchorPoint; // @synthesize initialAnchorPoint=_initialAnchorPoint;
-@property(nonatomic, getter=_postRecognitionWeight, setter=_setPostRecognitionWeight:) double postRecognitionWeight;
-@property(nonatomic, getter=_preRecognitionWeight, setter=_setPreRecognitionWeight:) double preRecognitionWeight;
 @property(nonatomic) double rotation;
-@property(readonly, nonatomic) double velocity;
 
 @end
 

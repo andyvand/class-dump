@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAccountOverrideInfo, CKContainerID, CKContainerOptions, NSArray, NSString;
+@class CKAccountOverrideInfo, CKContainerOptions;
 
 @interface CKContainerSetupInfo
 {
     CKContainerOptions *_containerOptions;
-    CKContainerID *_containerID;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
+- (id)	ka;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)reusableForOutputBacking:willBindDirectly: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -32,26 +31,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)onBlock;
 - (void)dêüê¼ë;
 - (id)pple.private.cloudkit.zoneprotectiondata;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CKAccountOverrideInfo *accountInfoOverride;
 @property(readonly, copy, nonatomic) CKAccountOverrideInfo *accountOverrideInfo;
-@property(readonly, copy, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, copy, nonatomic) CKContainerOptions *containerOptions; // @synthesize containerOptions=_containerOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
 
 @end
 

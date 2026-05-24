@@ -7,16 +7,13 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (oneway void)supplementalResourceAAEIdentifier;
+- (NSString *)recordCurrentMigrationStateInManagedObjectContext:withPathManager:migrationType:forceRebuildReason:sourceModelVersion:updateLegacyMigrationState:journalRebuildRequred:origin:libraryCreateOptions:hardwareModel:deviceUniqueID:cplEnabled:initialSyncDate: /* Error: Ran out of types for this method. */;
 - (_Bool)H©¾' ;
-- (struct _NSZone *)e;
+- (struct _NSZone *)misfeature;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

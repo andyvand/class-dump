@@ -6,8 +6,6 @@
 
 #import <HomeKit/HMAssistantAccessControl.h>
 
-@class NSArray;
-
 @interface HMMutableAssistantAccessControl : HMAssistantAccessControl
 {
 }
@@ -17,8 +15,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)InactivityMPCBeaconsScheduled;
+- (void)x;
 - (void);
 - (void);
 - (_Bool);
@@ -27,9 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSArray *accessories;
-@property(getter=areActivityNotificationsEnabledForPersonalRequests) _Bool activityNotificationsEnabledForPersonalRequests;
-@property _Bool allowUnauthenticatedRequests;
 @property(getter=isEnabled) _Bool enabled;
 
 @end

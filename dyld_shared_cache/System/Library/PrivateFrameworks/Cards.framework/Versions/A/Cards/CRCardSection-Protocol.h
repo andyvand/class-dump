@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol SFCardSection;
+@class NSSet, NSString;
 
 @protocol CRCardSection
 
+@optional
+- (NSSet *)inputDetailAmount;
+- (_Bool)inputSharpenEdgeIntensity;
+
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actionCommands;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) id <SFCardSection> backingCardSection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SFCardSection>",?,R,N
-
 @property(readonly, nonatomic) NSString *cardSectionIdentifier;
-@property(readonly, nonatomic) _Bool hasNextCard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *resolvedCardSections;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @end
 

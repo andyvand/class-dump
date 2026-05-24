@@ -4,56 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
 @protocol NSSoundEngineDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSCoreAudioSoundEngine
 {
     id <NSSoundEngineDelegate> _delegate;
-    NSData *_data;
-    struct OpaqueAudioConverter *_audioConverter;
-    struct AudioBuffer _converterBuffer;
-    struct ComponentInstanceRecord *_outputUnit;
-    struct OpaqueAudioFileID *_audioFile;
-    struct AudioStreamBasicDescription _audioFormat;
-    long long _audioDataReadHeadPosition;
-    unsigned long long _audioDataLength;
-    long long _audioValidFrameCount;
-    unsigned int _maximumPackets;
-    struct AudioStreamPacketDescription *_audioPacketDescriptions;
-    struct os_unfair_lock_s _lock;
-    _Bool _lockedShouldLoop;
-    _Bool _tracksDefaultOutput;
-    _Bool _audioUnitIsPlaying;
 }
 
-- (void);
+- (void)cations in ne_session_is_always_on_vpn_enabled:%u /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)phers %d, bundle %d, builtin %d};
 - (void);
 - (void);
 - (double);
 - (void);
-- (id)leCellsPass;
-- (void)e;
-- (_Bool)tionInContext: /* Error: Ran out of types for this method. */;
+- (id)hasLeftVisibleCellsPass;
+- (void)_updateCache;
+- (_Bool)_adjustedRangeForInitialSelectionInContext: /* Error: Ran out of types for this method. */;
 - (double)taryItems;
 - (void)ÔÅÿÜ4NB;
 - (_Bool)rXÖF;
 
 // Remaining properties
-@property double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) double duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,19 +7,13 @@
 @interface SMSessionTriggerDestinationETAUpdateState
 {
     _Bool _nominalTravelTimeShorter;
-    _Bool _remainingDistanceShorter;
-    _Bool _shouldUpdateETAUpperBound;
-    double _distanceRemaining;
-    double _distanceDifference;
-    double _nominalTravelTimeRemaining;
-    double _nominalTravelTimeDifference;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)|@9;
+- (void)~q;
 - (void);
 - (void);
 - (void);
@@ -28,20 +22,14 @@
 - (double);
 - (double);
 - (id);
+- (double);
 - (double);
-- (double);
-- (void);
+- (void)dropHSM;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double distanceDifference; // @synthesize distanceDifference=_distanceDifference;
 @property(nonatomic) double distanceRemaining; // @synthesize distanceRemaining=_distanceRemaining;
-@property(nonatomic) double nominalTravelTimeDifference; // @synthesize nominalTravelTimeDifference=_nominalTravelTimeDifference;
-@property(nonatomic) double nominalTravelTimeRemaining; // @synthesize nominalTravelTimeRemaining=_nominalTravelTimeRemaining;
-@property(nonatomic) _Bool nominalTravelTimeShorter; // @synthesize nominalTravelTimeShorter=_nominalTravelTimeShorter;
-@property(nonatomic) _Bool remainingDistanceShorter; // @synthesize remainingDistanceShorter=_remainingDistanceShorter;
-@property(nonatomic) _Bool shouldUpdateETAUpperBound; // @synthesize shouldUpdateETAUpperBound=_shouldUpdateETAUpperBound;
 
 @end
 

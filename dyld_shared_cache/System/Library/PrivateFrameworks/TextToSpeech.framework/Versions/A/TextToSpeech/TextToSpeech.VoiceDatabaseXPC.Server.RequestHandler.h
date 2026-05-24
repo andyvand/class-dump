@@ -7,8 +7,6 @@
 @interface TextToSpeech.VoiceDatabaseXPC.Server.RequestHandler
 {
     id id;
-    id server;
-    id session;
 }
 
 @end

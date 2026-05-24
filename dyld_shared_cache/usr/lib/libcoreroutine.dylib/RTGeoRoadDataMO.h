@@ -8,19 +8,11 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)dbrStateForDSID:(id)arg1;
++ (id)uint32_value;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clRoadID; // @dynamic clRoadID;
-@property(nonatomic) short geoFormOfWay; // @dynamic geoFormOfWay;
-@property(nonatomic) short geoRoadClass; // @dynamic geoRoadClass;
-@property(nonatomic) double geoRoadEndLatitude; // @dynamic geoRoadEndLatitude;
-@property(nonatomic) double geoRoadEndLongitude; // @dynamic geoRoadEndLongitude;
-@property(nonatomic) unsigned long long geoRoadID; // @dynamic geoRoadID;
 @property(nonatomic) double geoRoadStartLatitude; // @dynamic geoRoadStartLatitude;
-@property(nonatomic) double geoRoadStartLongitude; // @dynamic geoRoadStartLongitude;
-@property(nonatomic) unsigned int roadTraversedCount; // @dynamic roadTraversedCount;
 
 @end
 

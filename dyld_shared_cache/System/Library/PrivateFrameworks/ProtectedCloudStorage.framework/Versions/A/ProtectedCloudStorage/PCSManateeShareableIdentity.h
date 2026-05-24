@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PCSManateeShareableIdentity
 {
     PCSManateePrivateKey *_encryptionPrivateKey;
-    PCSManateePrivateKey *_signingPrivateKey;
 }
 
 - (id);
@@ -28,13 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)thumbnail %@;
 
 // Remaining properties
-@property(retain, nonatomic) PCSManateePrivateKey *encryptionPrivateKey; // @synthesize encryptionPrivateKey=_encryptionPrivateKey;
 @property(readonly, nonatomic) _Bool hasEncryptionPrivateKey;
-@property(readonly, nonatomic) _Bool hasSigningPrivateKey;
-@property(retain, nonatomic) PCSManateePrivateKey *signingPrivateKey; // @synthesize signingPrivateKey=_signingPrivateKey;
 
 @end
 

@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _EARASRTaggerFstLM
 {
     struct unique_ptr<quasar::ASRTaggerFstLM, std::default_delete<quasar::ASRTaggerFstLM>> scorer;
-    shared_ptr_dcd14800 tokenizer;
 }
 
 + (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 

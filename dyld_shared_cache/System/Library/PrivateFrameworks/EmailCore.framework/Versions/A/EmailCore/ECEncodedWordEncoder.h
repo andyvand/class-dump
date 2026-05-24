@@ -4,31 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ECEncodedWordEncoder
 {
     unsigned long long _stringEncoding;
-    NSString *_language;
-    NSString *_string;
-    NSString *_characterSet;
-    long long _encodedWordEncoding;
-    NSData *_decodedText;
-    unsigned long long _singleEncodedWordLength;
 }
 
+- (unsigned long long)shouldShowPlaybackControls:%d {
+	wantsPlaybackControlsVisible:%d
+	isUserInteracting:%d
+	isPictureInPictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (void)ng for playerController %{public}@;
+- (void)otation for window:(long long)arg1 %p;
+- (unsigned long long)ay, client reported restore is ready:%@ /* Error: Ran out of types for this method. */;
+- (id)ition to momentum phase with remaining velocity %f.;
+- (long long)message yet; please wait for output stream to finish opening!;
+- (unsigned long long)a channel to the AirPlay receiver (if there is one).;
+- (id)as not been set!;
+- (void)n we have arranged subviews. Number of arranged subviews:(char *)arg1 %ld -- current frame index:(const char *)arg2 %ld;
+- (unsigned long long)m %ld ==> %ld. Ignoring.;
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (const char *);
@@ -37,20 +38,13 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)_appleInternalIsKnown;
+- (void)lockOnSuccess:(id)arg1 perRecordCompletionBlockOnError:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)tem with id %@ to json.;
+- (void)ame.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *characterSet; // @synthesize characterSet=_characterSet;
-@property(copy, nonatomic) NSData *decodedText; // @synthesize decodedText=_decodedText;
-@property(nonatomic) long long encodedWordEncoding; // @synthesize encodedWordEncoding=_encodedWordEncoding;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) unsigned long long minimumLengthOfEncodedWord;
-@property(nonatomic) unsigned long long singleEncodedWordLength; // @synthesize singleEncodedWordLength=_singleEncodedWordLength;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 @property(readonly, nonatomic) unsigned long long stringEncoding; // @synthesize stringEncoding=_stringEncoding;
 
 @end

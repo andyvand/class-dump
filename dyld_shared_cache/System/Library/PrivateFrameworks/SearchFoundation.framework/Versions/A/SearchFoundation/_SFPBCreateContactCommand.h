@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPerson;
+@class _SFPBPerson;
 
 @interface _SFPBCreateContactCommand
 {
     _Bool _addToExistingContact;
-    _SFPBPerson *_person;
 }
 
 - (void);
@@ -19,25 +18,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)isVerified;
+- (id)eo export output:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)sServerEntity: /* Error: Ran out of types for this method. */;
+- (void)setIsServerEntity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool addToExistingContact; // @synthesize addToExistingContact=_addToExistingContact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

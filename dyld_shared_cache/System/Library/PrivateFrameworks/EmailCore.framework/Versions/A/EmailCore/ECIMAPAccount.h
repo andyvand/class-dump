@@ -14,20 +14,20 @@
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)l;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_NUAuxiliaryPropertiesResult;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)1;
 - (id);
 - (long long);
 - (long long);
@@ -35,49 +35,32 @@
 - (long long);
 - (_Bool);
 - (void);
+- (void)imageWithStyle:(_Bool)arg1 tag:forRemote: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool)`;
+- (_Bool);
+- (id)enumerateResourceURLs:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)_cccdResult;
+- (void)t;
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)hive.2.dylib;
 - (void);
-- (void);
-- (void);
+- (void)tion to HasTRB Tool;
 
 // Remaining properties
 @property(nonatomic) _Bool compactWhenClosingMailboxes;
-@property(copy, nonatomic) NSDate *dateOfLastSync; // @synthesize dateOfLastSync=_dateOfLastSync;
-@property(nonatomic) long long daysBetweenSyncs;
-@property(nonatomic) _Bool hasServerDefinedAllMailMailbox;
-@property(nonatomic) _Bool hasServerDefinedArchiveMailbox;
-@property(nonatomic) _Bool hasServerDefinedDraftsMailbox;
-@property(nonatomic) _Bool hasServerDefinedJunkMailbox;
-@property(nonatomic) _Bool hasServerDefinedSentMailbox;
-@property(nonatomic) _Bool hasServerDefinedTrashMailbox;
-@property(nonatomic) _Bool ignoreServerDefinedArchiveMailbox;
-@property(nonatomic) _Bool ignoreServerDefinedDraftsMailbox;
-@property(nonatomic) _Bool ignoreServerDefinedJunkMailbox;
-@property(nonatomic) _Bool ignoreServerDefinedSentMailbox;
-@property(nonatomic) _Bool ignoreServerDefinedTrashMailbox;
-@property(nonatomic) _Bool needsGmailLablesCleanup;
-@property(nonatomic) _Bool queriedUserToSetPathPrefix;
-@property(nonatomic) _Bool shouldUseGmailLabelStores;
-@property(readonly, nonatomic) _Bool shouldUseGmailLabelStoresIsSet;
 
 @end
 

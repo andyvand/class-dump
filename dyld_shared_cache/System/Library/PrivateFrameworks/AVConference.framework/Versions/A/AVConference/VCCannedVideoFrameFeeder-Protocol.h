@@ -5,6 +5,7 @@
 //
 
 @protocol VCCannedVideoFrameFeeder
+- (_Bool)I;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldScaleAndPad;

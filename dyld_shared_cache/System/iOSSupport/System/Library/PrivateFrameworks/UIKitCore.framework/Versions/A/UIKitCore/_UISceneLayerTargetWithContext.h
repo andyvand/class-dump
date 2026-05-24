@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneLayerTargetWithContext
 {
     id _context;
-    unsigned long long _equalityType;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)setLibraryPublicEntityFilterPredicatesWithCloudFilteringType:(id)arg1 additionalFilterPredicates: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool)6@24B32;
-- (id)dingAutocorrection;
-- (id)_activationObserver;
+- (id)_hasPendingAutocorrection;
+- (id)__activationObserver;
 - (_Bool)!Ìüø¸;
 - (void)M;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

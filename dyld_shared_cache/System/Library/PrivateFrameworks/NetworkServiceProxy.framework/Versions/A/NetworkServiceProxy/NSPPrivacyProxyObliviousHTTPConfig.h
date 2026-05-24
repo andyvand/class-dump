@@ -9,14 +9,6 @@
 @interface NSPPrivacyProxyObliviousHTTPConfig
 {
     NSData *_obliviousHTTPConfig;
-    int _obliviousHTTPType;
-    NSMutableArray *_obliviousTargets;
-    NSData *_transparencyInternalProof;
-    NSData *_transparencyKeyBundle;
-    NSData *_transparencyProof;
-    struct {
-        unsigned int obliviousHTTPType:1;
-    } _has;
 }
 
 + (Class);
@@ -28,17 +20,17 @@
 - (int);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (void);
-- (_Bool);
-- (id)©ÿCÿ_ÖÆ ;
+- (_Bool)h2;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -50,21 +42,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)getResourceValue:(id)arg1 forKey:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)rameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage;
 
 // Remaining properties
-@property(nonatomic) _Bool hasObliviousHTTPType;
-@property(readonly, nonatomic) _Bool hasTransparencyInternalProof;
-@property(readonly, nonatomic) _Bool hasTransparencyKeyBundle;
-@property(readonly, nonatomic) _Bool hasTransparencyProof;
-@property(retain, nonatomic) NSData *obliviousHTTPConfig; // @synthesize obliviousHTTPConfig=_obliviousHTTPConfig;
-@property(nonatomic) int obliviousHTTPType; // @synthesize obliviousHTTPType=_obliviousHTTPType;
 @property(retain, nonatomic) NSMutableArray *obliviousTargets; // @synthesize obliviousTargets=_obliviousTargets;
-@property(retain, nonatomic) NSData *transparencyInternalProof; // @synthesize transparencyInternalProof=_transparencyInternalProof;
-@property(retain, nonatomic) NSData *transparencyKeyBundle; // @synthesize transparencyKeyBundle=_transparencyKeyBundle;
-@property(retain, nonatomic) NSData *transparencyProof; // @synthesize transparencyProof=_transparencyProof;
 
 @end
 

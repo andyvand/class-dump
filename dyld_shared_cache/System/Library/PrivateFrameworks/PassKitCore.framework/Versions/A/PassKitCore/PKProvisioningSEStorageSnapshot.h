@@ -20,18 +20,18 @@
 - (id);
 - (long long);
 - (long long);
-- (long long);
-- (void);
+- (long long)L;
+- (void)TiL;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (long long)SGTPromoteRecentSuggestions;
+- (void)_firmwareFreePacket;
 - (id);
-- (long long);
-- (void);
-- (id);
-- (void)oveActivity;
+- (void)removeActivity;
 
 @end
 

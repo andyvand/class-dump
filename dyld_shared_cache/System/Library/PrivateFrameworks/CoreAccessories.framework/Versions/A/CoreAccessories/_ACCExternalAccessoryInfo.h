@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface _ACCExternalAccessoryInfo
 {
     NSDictionary *_fullAccessoryInfo;
-    NSString *_primaryUUID;
-    NSString *_name;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_serial;
-    NSString *_firmwareRevisionActive;
-    NSString *_firmwareRevisionPending;
-    NSString *_hardwareRevision;
-    NSString *_ppid;
-    NSNumber *_vendorID;
-    NSNumber *_productID;
-    unsigned long long _destinationSharingOptions;
-    NSNumber *_transportType;
-    NSNumber *_isMFiCharger;
 }
 
 + (id);
@@ -43,7 +29,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)ificationsLock;
 - (void);
 - (void);
 - (void);
@@ -58,28 +44,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)te;
 - (id);
 - (id);
 - (void);
 - (id)bleDictionary",&,V_endpointPropertyChangeHandlers;
 
 // Remaining properties
-@property unsigned long long destinationSharingOptions; // @synthesize destinationSharingOptions=_destinationSharingOptions;
-@property(retain) NSString *firmwareRevisionActive; // @synthesize firmwareRevisionActive=_firmwareRevisionActive;
-@property(retain) NSString *firmwareRevisionPending; // @synthesize firmwareRevisionPending=_firmwareRevisionPending;
 @property(retain) NSDictionary *fullAccessoryInfo; // @synthesize fullAccessoryInfo=_fullAccessoryInfo;
-@property(retain) NSString *hardwareRevision; // @synthesize hardwareRevision=_hardwareRevision;
-@property(retain) NSNumber *isMFiCharger; // @synthesize isMFiCharger=_isMFiCharger;
-@property(retain) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain) NSString *model; // @synthesize model=_model;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *ppid; // @synthesize ppid=_ppid;
-@property(retain) NSString *primaryUUID; // @synthesize primaryUUID=_primaryUUID;
-@property(retain) NSNumber *productID; // @synthesize productID=_productID;
-@property(retain) NSString *serial; // @synthesize serial=_serial;
-@property(retain) NSNumber *transportType; // @synthesize transportType=_transportType;
-@property(retain) NSNumber *vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

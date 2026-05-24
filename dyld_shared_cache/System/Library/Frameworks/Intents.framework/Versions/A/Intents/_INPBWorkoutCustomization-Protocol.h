@@ -7,13 +7,11 @@
 @class NSString;
 
 @protocol _INPBWorkoutCustomization
+- (_Bool)iskimage-bundle-type;
 - (NSString *)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *environment;
-@property(copy, nonatomic) NSString *focus;
-@property(readonly, nonatomic) _Bool hasEnvironment;
-@property(readonly, nonatomic) _Bool hasFocus;
 @end
 

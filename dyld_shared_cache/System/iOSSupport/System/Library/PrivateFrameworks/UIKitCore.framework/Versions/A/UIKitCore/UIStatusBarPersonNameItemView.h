@@ -12,15 +12,17 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarPersonNameItemView : UIStatusBarItemView
 {
     NSString *_personNameString;
-    double _letterSpacing;
-    double _maxWidth;
 }
 
-- (_Bool);
+- (_Bool)_updateNicknameInHandledMap:(id)arg1 updateType:(int)arg2 broadcastUpdates: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (id);
-- (double);
+- (double)%d
+isRCS:%d
+didSupportEncryption:%d
+serviceForSendingResult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (id)mand %@;
+- (double)rd %@;
 - (double);
 - (_Bool);
 - (void)Ñÿ;

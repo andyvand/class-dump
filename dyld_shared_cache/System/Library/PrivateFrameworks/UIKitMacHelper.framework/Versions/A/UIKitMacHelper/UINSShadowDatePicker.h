@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSDatePicker, NSLocale, NSTimeZone;
-@protocol UINSShadowDatePickerDelegate;
+@class NSDatePicker;
 
 __attribute__((visibility("hidden")))
 @interface UINSShadowDatePicker
 {
     _Bool _isSettingDate;
-    NSDate *_dateValue;
-    NSLocale *_locale;
-    NSTimeZone *_timeZone;
-    NSCalendar *_calendar;
-    id <UINSShadowDatePickerDelegate> _delegate;
-    NSDatePicker *_backingDatePicker;
 }
 
 - (void);
@@ -24,49 +17,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r%
+B;
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)Rj`;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)v76@0:8B16{CGRect={CGPoint=dd}{CGSize=dd}}20@52^{CGContext=}60B68B72 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)oduleDigitizer;
+- (void);
+- (id);
+- (id);
+- (id)initWithDisplayName:keyID: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)UINSGameModuleDigitizer;
 - (id)strong _Nonnull);
 - (id)ibrary/PrivateFrameworks/UIKitCore.framework/UIKitCore;
 
 // Remaining properties
 @property(retain, nonatomic) NSDatePicker *backingDatePicker; // @synthesize backingDatePicker=_backingDatePicker;
-@property(readonly, nonatomic) NSDate *backingDatePickerDateValue;
-@property(readonly, nonatomic) struct CGRect backingDatePickerSubfieldsFrame;
-@property(retain, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(copy, nonatomic) NSDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(nonatomic) __weak id <UINSShadowDatePickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isSettingDate; // @synthesize isSettingDate=_isSettingDate;
-@property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSDate *maxDate;
-@property(copy, nonatomic) NSDate *minDate;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

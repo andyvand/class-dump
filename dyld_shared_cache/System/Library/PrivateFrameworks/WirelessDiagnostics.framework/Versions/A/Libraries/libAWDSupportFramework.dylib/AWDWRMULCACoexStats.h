@@ -7,37 +7,16 @@
 @interface AWDWRMULCACoexStats
 {
     unsigned long long _timestamp;
-    unsigned int _uLCACriCarDLBW;
-    unsigned int _uLCACriCarDLFreq;
-    unsigned int _uLCACriCarULBW;
-    unsigned int _uLCACriCarULFreq;
-    unsigned int _uLCAPriCarDLBW;
-    unsigned int _uLCAPriCarDLFreq;
-    unsigned int _uLCAPriCarULBW;
-    unsigned int _uLCAPriCarULFreq;
-    _Bool _uLCAHasCoexBand;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int uLCACriCarDLBW:1;
-        unsigned int uLCACriCarDLFreq:1;
-        unsigned int uLCACriCarULBW:1;
-        unsigned int uLCACriCarULFreq:1;
-        unsigned int uLCAPriCarDLBW:1;
-        unsigned int uLCAPriCarDLFreq:1;
-        unsigned int uLCAPriCarULBW:1;
-        unsigned int uLCAPriCarULFreq:1;
-        unsigned int uLCAHasCoexBand:1;
-    } _has;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)RF;
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)h;
 - (void);
 - (void);
 - (void);
@@ -45,15 +24,15 @@
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(!`;
+- (void)`!;
 - (void);
 - (void);
 - (_Bool);
@@ -62,10 +41,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)҃;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -77,30 +56,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasULCACriCarDLBW;
-@property(nonatomic) _Bool hasULCACriCarDLFreq;
-@property(nonatomic) _Bool hasULCACriCarULBW;
-@property(nonatomic) _Bool hasULCACriCarULFreq;
-@property(nonatomic) _Bool hasULCAHasCoexBand;
-@property(nonatomic) _Bool hasULCAPriCarDLBW;
-@property(nonatomic) _Bool hasULCAPriCarDLFreq;
-@property(nonatomic) _Bool hasULCAPriCarULBW;
-@property(nonatomic) _Bool hasULCAPriCarULFreq;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int uLCACriCarDLBW; // @synthesize uLCACriCarDLBW=_uLCACriCarDLBW;
-@property(nonatomic) unsigned int uLCACriCarDLFreq; // @synthesize uLCACriCarDLFreq=_uLCACriCarDLFreq;
-@property(nonatomic) unsigned int uLCACriCarULBW; // @synthesize uLCACriCarULBW=_uLCACriCarULBW;
-@property(nonatomic) unsigned int uLCACriCarULFreq; // @synthesize uLCACriCarULFreq=_uLCACriCarULFreq;
-@property(nonatomic) _Bool uLCAHasCoexBand; // @synthesize uLCAHasCoexBand=_uLCAHasCoexBand;
-@property(nonatomic) unsigned int uLCAPriCarDLBW; // @synthesize uLCAPriCarDLBW=_uLCAPriCarDLBW;
-@property(nonatomic) unsigned int uLCAPriCarDLFreq; // @synthesize uLCAPriCarDLFreq=_uLCAPriCarDLFreq;
-@property(nonatomic) unsigned int uLCAPriCarULBW; // @synthesize uLCAPriCarULBW=_uLCAPriCarULBW;
-@property(nonatomic) unsigned int uLCAPriCarULFreq; // @synthesize uLCAPriCarULFreq=_uLCAPriCarULFreq;
 
 @end
 

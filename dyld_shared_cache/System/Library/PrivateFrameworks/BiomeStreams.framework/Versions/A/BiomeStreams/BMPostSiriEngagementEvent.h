@@ -6,21 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMPostSiriEngagementEvent : BMEventBase
 {
     _Bool _hasTaskSuccess;
-    _Bool _hasIsUserAbandoned;
-    _Bool _isUserAbandoned;
-    _Bool _hasIsUserCancelled;
-    _Bool _isUserCancelled;
-    int _taskSuccess;
-    NSString *_UISessionID;
-    NSString *_taskID;
-    NSString *_taskType;
-    NSString *_conversationPath;
-    NSArray *_pseEvents;
 }
 
 + (id);
@@ -50,24 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UISessionID; // @synthesize UISessionID=_UISessionID;
-@property(readonly, nonatomic) NSString *conversationPath; // @synthesize conversationPath=_conversationPath;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasIsUserAbandoned; // @synthesize hasIsUserAbandoned=_hasIsUserAbandoned;
-@property(nonatomic) _Bool hasIsUserCancelled; // @synthesize hasIsUserCancelled=_hasIsUserCancelled;
-@property(nonatomic) _Bool hasTaskSuccess; // @synthesize hasTaskSuccess=_hasTaskSuccess;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUserAbandoned; // @synthesize isUserAbandoned=_isUserAbandoned;
-@property(readonly, nonatomic) _Bool isUserCancelled; // @synthesize isUserCancelled=_isUserCancelled;
-@property(readonly, nonatomic) NSArray *pseEvents; // @synthesize pseEvents=_pseEvents;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *taskID; // @synthesize taskID=_taskID;
-@property(readonly, nonatomic) int taskSuccess; // @synthesize taskSuccess=_taskSuccess;
-@property(readonly, nonatomic) NSString *taskType; // @synthesize taskType=_taskType;
 
 @end
 

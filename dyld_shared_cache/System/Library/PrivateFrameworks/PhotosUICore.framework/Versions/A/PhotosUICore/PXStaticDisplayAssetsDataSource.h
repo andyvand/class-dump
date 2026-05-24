@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXPhotosDataSource;
+@class PXPhotosDataSource;
 
 @interface PXStaticDisplayAssetsDataSource
 {
     long long _sectionContent;
-    NSArray *_assetCollectionBySection;
-    NSArray *_assetsBySection;
-    NSArray *_curatedAssetsBySection;
-    NSArray *_keyAssetsBySection;
-    NSArray *_exposedAssetsBySection;
 }
 
-- (id);
+- (id);
 - (long long);
 - (id);
 - (long long);
@@ -38,18 +33,12 @@
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
-- (long long)teReason: /* Error: Ran out of types for this method. */;
+- (long long)setTargetEndUpdateReason: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)=aÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assetCollectionBySection; // @synthesize assetCollectionBySection=_assetCollectionBySection;
-@property(readonly, nonatomic) NSArray *assetsBySection; // @synthesize assetsBySection=_assetsBySection;
-@property(readonly, nonatomic) NSArray *curatedAssetsBySection; // @synthesize curatedAssetsBySection=_curatedAssetsBySection;
-@property(readonly, nonatomic) NSArray *exposedAssetsBySection; // @synthesize exposedAssetsBySection=_exposedAssetsBySection;
-@property(readonly, nonatomic) NSArray *keyAssetsBySection; // @synthesize keyAssetsBySection=_keyAssetsBySection;
 @property(readonly, nonatomic) PXPhotosDataSource *photosDataSource;
-@property(readonly, nonatomic) long long sectionContent; // @synthesize sectionContent=_sectionContent;
 
 @end
 

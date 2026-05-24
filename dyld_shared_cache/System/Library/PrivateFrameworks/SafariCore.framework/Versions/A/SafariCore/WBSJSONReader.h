@@ -14,7 +14,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)p_computeAngle:point:cutSegment:cutT:forLineEndAtHead: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, NSError, NSString, NSUUID;
+@class HMAccessoryCategory, NSString, NSUUID;
 
 @protocol HMDDeviceSetupTrackingInfoMutable
+- (NSString *);
+- (void);
+- (unsigned long long);
+- (HMAccessoryCategory *)initWithColor:clockColor:colorSuggestions: /* Error: Ran out of types for this method. */;
+- (void)So12BGSystemTaskC;
 - (unsigned long long)1Â0@ù
 × ;
 - (void)ÿÿ:(NSString *)arg1;
-- (NSUUID *);
 - (void)dn=;
 
 // Remaining properties
-@property(copy) HMAccessoryCategory *accessoryCategory;
-@property(copy) NSString *accessoryIDSIdentifier;
 @property(copy) NSUUID *accessoryUUID;
-@property(copy) NSString *category;
-@property unsigned long long endTime;
-@property(copy) NSError *sessionError;
-@property(copy) NSString *setupClientBundleID;
-@property unsigned long long startTime;
 @end
 

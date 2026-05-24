@@ -7,7 +7,7 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
+- (void)Chunkserver__PutFileChunkKeys;
 - (void)xt <%p> does not have status code!;
 @end
 

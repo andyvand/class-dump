@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlSessionIdentifier, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CRKASMClassSessionInvitation
 {
     NSUUID *_invitationIdentifier;
-    NSString *_instructorIdentifier;
-    DMFControlSessionIdentifier *_sessionIdentifier;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)aceOrientation;
-- (id)on;
+- (id)interfaceOrientation;
+- (id)courseDescription;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, copy, nonatomic) NSString *instructorIdentifier; // @synthesize instructorIdentifier=_instructorIdentifier;
 @property(readonly, nonatomic) NSUUID *invitationIdentifier; // @synthesize invitationIdentifier=_invitationIdentifier;
-@property(readonly, nonatomic) DMFControlSessionIdentifier *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

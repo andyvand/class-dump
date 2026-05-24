@@ -5,5 +5,9 @@
 //
 
 @protocol UITextViewDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

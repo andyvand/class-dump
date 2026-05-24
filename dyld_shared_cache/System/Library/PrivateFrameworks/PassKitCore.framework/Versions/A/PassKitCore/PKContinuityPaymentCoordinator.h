@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PKContinuityPaymentService, PKRemotePaymentRequest;
-@protocol OS_dispatch_queue, OS_dispatch_source, PKContinuityPaymentCoordinatorDelegate;
+@class PKContinuityPaymentService;
+@protocol PKContinuityPaymentCoordinatorDelegate;
 
 @interface PKContinuityPaymentCoordinator
 {
     PKContinuityPaymentService *_continuityPaymentService;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_source> *_deviceUpdateTimeoutTimer;
-    NSObject<OS_dispatch_source> *_deviceTotalUpdateTimeoutTimer;
-    _Bool _isUpdatingDevices;
-    PKRemotePaymentRequest *_currentRemotePaymentRequest;
-    long long _messageSendCount;
-    long long _messageSendCompleteCount;
-    id <PKContinuityPaymentCoordinatorDelegate> _delegate;
-    double _updatePaymentDeviceTimeout;
 }
 
 - (void);
 - (double);
+- (void)q`;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,36 +25,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)	;
+- (_Bool){;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ransactionData;
+- (void)transactionData;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAwaitingReply) _Bool awaitingReply;
-@property(readonly, nonatomic) PKRemotePaymentRequest *currentRemotePaymentRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PKContinuityPaymentCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double updatePaymentDeviceTimeout; // @synthesize updatePaymentDeviceTimeout=_updatePaymentDeviceTimeout;
 
 @end
 

@@ -9,12 +9,10 @@
 @interface IGPopupWindowController
 {
     NSView *_parentView;
-    NSView *_containerView;
-    NSView *_initialFirstResponder;
 }
 
 - (void);
-- (long long);
+- (long long)b;
 - (void);
 - (void);
 - (void);
@@ -22,9 +20,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id)g:(id)arg1;
+- (void)(;
+- (void)@0:8@?<v@?@"NSError">16 /* Error: Ran out of types for this method. */;
+- (id)setAnimating:(id)arg1;
 
 // Remaining properties
 @property(retain) NSView *initialFirstResponder; // @synthesize initialFirstResponder=_initialFirstResponder;

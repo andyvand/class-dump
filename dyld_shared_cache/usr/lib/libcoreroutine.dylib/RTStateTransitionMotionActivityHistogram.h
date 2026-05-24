@@ -9,8 +9,6 @@
 @interface RTStateTransitionMotionActivityHistogram
 {
     NSMutableArray *_histogramBins;
-    long long _activityChangeCount;
-    double _cumulativeInterval;
 }
 
 - (void);
@@ -20,13 +18,11 @@
 - (id);
 - (unsigned long long);
 - (double);
-- (long long);
-- (void);
+- (long long)accountStatus;
+- (void)nt";
 - (void)%{sensitive}@;
 
 // Remaining properties
-@property(nonatomic) long long activityChangeCount; // @synthesize activityChangeCount=_activityChangeCount;
-@property(nonatomic) double cumulativeInterval; // @synthesize cumulativeInterval=_cumulativeInterval;
 @property(retain, nonatomic) NSMutableArray *histogramBins; // @synthesize histogramBins=_histogramBins;
 
 @end

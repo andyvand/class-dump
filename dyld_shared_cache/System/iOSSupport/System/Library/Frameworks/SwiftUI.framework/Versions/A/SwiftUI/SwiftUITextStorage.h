@@ -7,9 +7,6 @@
 @interface SwiftUITextStorage
 {
     double _baselineDelta;
-    _Bool _forceWordWrapping;
-    _Bool _wrappedByCluster;
-    double _defaultTighteningFactor;
 }
 
 - (_Bool);
@@ -19,16 +16,13 @@
 - (void);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)URLByAppendingPathExtension: /* Error: Ran out of types for this method. */;
+- (_Bool)nalyticsTrackerInternal;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, setter=_setBaselineDelta:) double _baselineDelta; // @synthesize _baselineDelta;
-@property(nonatomic, setter=_setForceWordWrapping:) _Bool _forceWordWrapping; // @synthesize _forceWordWrapping;
-@property(nonatomic, setter=_setWrappedByCluster:) _Bool _wrappedByCluster; // @synthesize _wrappedByCluster;
-@property(nonatomic) double defaultTighteningFactor; // @synthesize defaultTighteningFactor=_defaultTighteningFactor;
 
 @end
 

@@ -9,16 +9,16 @@
 }
 
 + (id);
+- (void)_needsFetchedResultsControllerUpdate;
+- (void)_mutableFailedSketches;
+- (id)_invalidHighlightsTextStorage;
+- (_Bool)9;
+- (id)at we haven't downloaded yet for a note (%@). Creating a temporary one.;
+- (id)ted result:(id)arg1 %@;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey;
+- (void)to lock. You need to remove or reduce attachments and other content, then try again.;
+- (id)?0q8;
 - (id);
 - (_Bool);
 - (void);

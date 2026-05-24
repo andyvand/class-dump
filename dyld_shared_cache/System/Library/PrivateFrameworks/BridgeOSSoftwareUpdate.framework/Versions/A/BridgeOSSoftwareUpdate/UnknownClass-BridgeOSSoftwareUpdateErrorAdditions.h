@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (BridgeOSSoftwareUpdateErrorAdditions)
-- (unsigned long long);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (unsigned long long)okGroupCopyCommand";
+- (id)<ABSaveRequestCommand>"16;
+- (long long)ableCommand>"16;
+- (_Bool)mand>";
+- (_Bool):8@"ABCNSaveRequest"16 /* Error: Ran out of types for this method. */;
+- (_Bool)v24@0:8@"<ABCommandVisitor>"16 /* Error: Ran out of types for this method. */;
+- (long long)aringService"16^{CGRect={CGPoint=dd}{CGSize=dd}}24^Q32;
+- (_Bool)gService"16@24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
 
 // Remaining properties
-@property(readonly) long long amAuthInstallErrorCode;
-@property(readonly) _Bool fullReplacementRequired;
-@property(readonly) _Bool isAMAuthInstallError;
 @property(readonly) _Bool isMSUError;
-@property(readonly) long long msuErrorCode;
-@property(readonly) NSString *msuErrorDescription;
-@property(readonly) _Bool networkRequired;
-@property(readonly) unsigned long long systemPartitionSize;
 @end
 

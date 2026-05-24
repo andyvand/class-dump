@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSManagedObjectModel, NSString, NSURL;
+@class NSURL;
 
 @interface NSManagedObjectModelReference
 {
     NSURL *_fileURL;
-    NSString *_versionChecksum;
-    NSBundle *_bundle;
-    NSString *_modelName;
-    NSDictionary *_entityVersionHashes;
-    NSManagedObjectModel *_model;
-    NSManagedObjectModel *_resolvedModel;
 }
 
 - (void);
@@ -22,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,21 +24,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)istoryPredicateForEntity:fromClientWithContext: /* Error: Ran out of types for this method. */;
-- (void)on:(id)arg1 usingObjects: /* Error: Ran out of types for this method. */;
+- (id)H+;
+- (id)\;
+- (void)*2
+;
+- (id)restrictingPullChangeHistoryPredicateForEntity:fromClientWithContext: /* Error: Ran out of types for this method. */;
+- (void)didChangeValueForKey:(id)arg1 withSetMutation:usingObjects: /* Error: Ran out of types for this method. */;
 - (id)= %@ and userInfo = %@;
 
 // Remaining properties
-@property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain) NSDictionary *entityVersionHashes; // @synthesize entityVersionHashes=_entityVersionHashes;
 @property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain) NSManagedObjectModel *model; // @synthesize model=_model;
-@property(retain) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly) NSManagedObjectModel *resolvedModel; // @synthesize resolvedModel=_resolvedModel;
-@property(readonly) NSString *versionChecksum; // @synthesize versionChecksum=_versionChecksum;
 
 @end
 

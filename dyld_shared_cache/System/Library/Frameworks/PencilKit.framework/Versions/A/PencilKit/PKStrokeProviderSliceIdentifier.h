@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface PKStrokeProviderSliceIdentifier
 {
     NSUUID *_strokeUUID;
-    double _tStart;
-    double _tEnd;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (double);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *strokeUUID; // @synthesize strokeUUID=_strokeUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double tEnd; // @synthesize tEnd=_tEnd;
-@property(readonly, nonatomic) double tStart; // @synthesize tStart=_tStart;
 
 @end
 

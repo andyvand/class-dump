@@ -7,9 +7,6 @@
 @interface CoreCDPUI.AdvancedDataProtectionReporter
 {
     id cdpContext;
-    id accountManager;
-    id cdpAccount;
-    id icdpStatusProvider;
 }
 
 @end

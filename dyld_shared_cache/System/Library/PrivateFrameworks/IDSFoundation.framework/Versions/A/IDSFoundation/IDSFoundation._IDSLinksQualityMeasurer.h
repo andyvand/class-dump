@@ -7,20 +7,12 @@
 @interface IDSFoundation._IDSLinksQualityMeasurer
 {
     id $defaultActor;
-    id links;
-    id linksByUniqueID;
-    id task;
-    id lburst;
-    id packetID;
-    id timeSource;
-    id report;
-    id continuationsByPacketID;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)7;
 
 @end
 

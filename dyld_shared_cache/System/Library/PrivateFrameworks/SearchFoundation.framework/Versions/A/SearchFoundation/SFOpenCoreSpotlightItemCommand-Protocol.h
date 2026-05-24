@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFOpenCoreSpotlightItemCommand
+- (NSString *)dToggleMagicMenu;
+- (NSString *)cameraFiles;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

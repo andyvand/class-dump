@@ -13,11 +13,10 @@
 }
 
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *hashedRouteUID;
-@property(nonatomic) long long rating;
 
 @end
 

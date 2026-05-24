@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, WFTaskIdentifier;
+@class WFTaskIdentifier;
 
 @interface WFTask
 {
     _Bool _requiresResponse;
-    WFTaskIdentifier *_identifier;
-    NSProgress *_progress;
 }
 
 + (id);
@@ -19,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Locations option;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -34,9 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WFTaskIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) _Bool requiresResponse; // @synthesize requiresResponse=_requiresResponse;
 
 @end
 

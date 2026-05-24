@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileGlassAuxiliaryControlsViewDelegate
+
+@optional
+- (void);
 @end
 

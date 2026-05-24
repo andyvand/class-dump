@@ -9,12 +9,11 @@
 @interface CKComposeTransitionCoordinator
 {
     ChatKit.TranscriptNavigationBarPrincipalView *temporaryPrincipalView;
-    id morphAnimator;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)G;
+- (void)l;
+- (void)ing share for objectID %@ succeeded;
 - (id);
 - (void)ZGÿåíkZGÿîkZGÿîkøYGÿÝíkº©ÿ%îkìYGÿîkèYGÿ%îkäYGÿÍíkàYGÿ;
 

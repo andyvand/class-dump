@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUXPCAgent, CUXPCAgentConnection, NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFNFCTagReaderUIController
 {
     _Bool _activateCalled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    long long _nfcTagScanCount;
-    _Bool _nfcTagScanPending;
-    CUXPCAgent *_xpcAgent;
-    NSXPCConnection *_xpcCnx;
-    CUXPCAgentConnection *_xpcUICnx;
-    CDUnknownBlockType _invalidationHandler;
-    long long _mode;
-    long long _operationMode;
-    NSString *_purpose;
 }
 
 - (void);
@@ -32,15 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -50,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) long long operationMode; // @synthesize operationMode=_operationMode;
-@property(copy, nonatomic) NSString *purpose; // @synthesize purpose=_purpose;
 
 @end
 

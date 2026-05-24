@@ -8,18 +8,18 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)increaseLengthBy:(id)arg1;
++ (id)componentsSeparatedByCharactersInSet:(id)arg1;
++ (id)compare:(id)arg1;
++ (id)chapterBeginDurationMultiplier;
++ (id)channelLayoutUsesHigherOrderAmbisonics;
++ (id)channelLayoutUsesHOA;
++ (id)channelLayoutUsesChannelDescriptions;
++ (id)capabilitiesForCurrentDeviceWithOptions:(id)arg1;
++ (id)canonTIFFRAWImageType;
++ (id)burstUuidMetadataKey;
++ (id)breadcrumbDescription;
++ (id)bottomAreaHeight;
 + (id);
 - (id);
 - (void)?24@?32;

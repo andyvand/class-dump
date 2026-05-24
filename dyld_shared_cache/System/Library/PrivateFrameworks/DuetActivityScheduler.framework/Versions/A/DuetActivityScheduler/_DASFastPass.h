@@ -9,22 +9,20 @@
 @interface _DASFastPass
 {
     NSArray *_processingTaskIdentifiers;
-    long long _semanticVersion;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)hj;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *processingTaskIdentifiers; // @synthesize processingTaskIdentifiers=_processingTaskIdentifiers;
-@property(nonatomic) long long semanticVersion; // @synthesize semanticVersion=_semanticVersion;
 
 @end
 

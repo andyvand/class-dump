@@ -9,10 +9,14 @@
 @protocol RTIInputSystemSessionDelegate
 
 @optional
-- (void)ationResponse:(RTIInputSystemSession *)arg1;
+- (void)q;
+- (void)@"NSNumber",C,N,V_payloadForceTLS;
+- (void)`;
+- (void);
+- (void)_updateAutorotationResponse:(RTIInputSystemSession *)arg1;
 - (void);
 - (void)ouping check:(RTIInputSystemSession *)arg1 Beginning at indexPath:(RTISessionOptions *)arg2 %@;
 - (void)Ref);
-- (void)terfaceOrientation;
+- (void)SplitViewInterfaceOrientation;
 @end
 

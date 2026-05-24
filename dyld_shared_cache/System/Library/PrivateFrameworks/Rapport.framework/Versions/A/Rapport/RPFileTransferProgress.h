@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface RPFileTransferProgress
 {
     int _linkType;
-    int _type;
-    double _bytesPerSecond;
-    double _remainingSeconds;
-    double _compressionRate;
-    NSString *_currentFilename;
-    NSError *_error;
-    long long _transferredByteCount;
-    long long _totalByteCount;
-    long long _transferredFileCount;
-    long long _totalFileCount;
 }
 
 + (_Bool);
+- (long long));
 - (long long);
-- (long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (double);
 - (double);
-- (double);
 - (id);
 - (double);
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)senderContactID;
+- (id)Comma-separated list of 3 positive numbers that should sum to 1. Example:0.7:0.2:0.1 means data will be split as follows:70%% train, 20%% dev, and 10%% test /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void);
@@ -54,16 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) double bytesPerSecond; // @synthesize bytesPerSecond=_bytesPerSecond;
-@property(nonatomic) double compressionRate; // @synthesize compressionRate=_compressionRate;
-@property(copy, nonatomic) NSString *currentFilename; // @synthesize currentFilename=_currentFilename;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) int linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) double remainingSeconds; // @synthesize remainingSeconds=_remainingSeconds;
-@property(nonatomic) long long totalByteCount; // @synthesize totalByteCount=_totalByteCount;
-@property(nonatomic) long long totalFileCount; // @synthesize totalFileCount=_totalFileCount;
-@property(nonatomic) long long transferredByteCount; // @synthesize transferredByteCount=_transferredByteCount;
-@property(nonatomic) long long transferredFileCount; // @synthesize transferredFileCount=_transferredFileCount;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

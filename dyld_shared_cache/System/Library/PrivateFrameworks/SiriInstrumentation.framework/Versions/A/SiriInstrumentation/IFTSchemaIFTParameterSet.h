@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTParameterSet : SISchemaInstrumentationMessage
 {
@@ -25,16 +25,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)__swift5_types;
 - (id)QàÐ1Â0@ù
 × ;
 - (id);
 - (id)pearStarted",&,N,V_startedOrChanged;
-- (id)Instrumentation;
+- (id)SiriInstrumentation;
 - (void),ëÏÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end

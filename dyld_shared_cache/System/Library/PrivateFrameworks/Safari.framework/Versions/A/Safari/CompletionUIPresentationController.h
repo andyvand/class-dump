@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CompletionWindow, NSArray, NSLayoutConstraint, NSString, NSView, NSWindow, SpringAnimationEvaluator;
 @protocol CompletionUIPresentationControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CompletionUIPresentationController
 {
     struct CGRect _sourceRectInParentWindowCoordinates;
-    NSArray *_insetConstraints;
-    NSLayoutConstraint *_contentWidthConstraint;
-    NSLayoutConstraint *_contentHeightConstraint;
-    SpringAnimationEvaluator *_presentationSpringAnimationEvaluator;
-    _Bool _includeTopContentInset;
-    _Bool _includeBottomContentInset;
-    _Bool _presentsCentered;
-    id <CompletionUIPresentationControllerDelegate> _delegate;
-    CompletionWindow *_completionWindow;
-    NSView *_contentView;
-    NSWindow *_parentWindow;
-    struct CGSize _contentSize;
 }
 
 + (double);
@@ -44,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -59,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct NSEdgeInsets);
-- (id);
+- (id)ystem message;
 - (void);
 - (void)Ñ£1Â0@ù
 × ;
@@ -69,22 +56,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)ñsÈD/;
 
 // Remaining properties
-@property(readonly, nonatomic) CompletionWindow *completionWindow; // @synthesize completionWindow=_completionWindow;
-@property(readonly, nonatomic) struct NSEdgeInsets contentInset;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CompletionUIPresentationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(nonatomic) _Bool presentsCentered; // @synthesize presentsCentered=_presentsCentered;
-@property(readonly, nonatomic, getter=isShowingCompletionUI) _Bool showingCompletionUI;
-@property(readonly, nonatomic) struct CGRect sourceRectInScreenCoordinates;
-@property(readonly) Class superclass;
 
 @end
 

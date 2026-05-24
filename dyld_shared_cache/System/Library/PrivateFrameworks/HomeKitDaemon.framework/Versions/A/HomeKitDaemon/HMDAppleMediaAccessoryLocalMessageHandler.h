@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAssistantSettingsConnection, NSString, NSUUID;
+@class NSUUID;
 @protocol HMDAppleMediaAccessoryLocalMessageHandlerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryLocalMessageHandler
 {
     id <HMDAppleMediaAccessoryLocalMessageHandlerDataSource> _dataSource;
-    NSUUID *_identifier;
-    HMDAssistantSettingsConnection *_assistantSettingsConnection;
 }
 
 + (id)ÿB;
@@ -20,24 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id).0;
+- (void)m;
 - (id)!à!Fùq°1Â0@ù
 × ;
 - (id)èÁ;
-- (void)foSnapshot;
+- (void)AccessoryDiagnosticInfoProtoDiagnosticInfoSnapshot;
 
 // Remaining properties
-@property(readonly) HMDAssistantSettingsConnection *assistantSettingsConnection; // @synthesize assistantSettingsConnection=_assistantSettingsConnection;
-@property __weak id <HMDAppleMediaAccessoryLocalMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

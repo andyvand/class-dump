@@ -7,18 +7,6 @@
 @interface PhotosUICore.GenerativeStorySuggestionViewModel
 {
     id modelIdentifier;
-    id _userPrompt;
-    id backgroundAssetsManager;
-    id _selectedSuggestion;
-    id _lastSuggestionsFetchedDate;
-    id _hideSuggestions;
-    id _selectedIndex;
-    id _forceSuggestionsVisibility;
-    id _playedIntroAnimation;
-    id logger;
-    id promptSuggestionManager;
-    id internalSuggestionViewModel;
-    id _$observationRegistrar;
 }
 
 @end

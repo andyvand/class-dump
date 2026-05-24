@@ -6,14 +6,11 @@
 
 #import <IOBluetooth/IOBluetoothObject.h>
 
-@class IOBluetoothDevice, NSMutableSet;
+@class IOBluetoothDevice;
 
 @interface IOBluetoothRFCOMMConnection : IOBluetoothObject
 {
     unsigned int mMasterPort;
-    IOBluetoothDevice *mReferenceDevice;
-    NSMutableSet *mPendingChannels;
-    struct IONotificationPort *mNotificationPort;
 }
 
 + (id);
@@ -21,10 +18,10 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (id);
 - (void);

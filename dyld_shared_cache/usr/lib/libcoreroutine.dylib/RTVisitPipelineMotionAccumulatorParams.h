@@ -7,18 +7,14 @@
 @interface RTVisitPipelineMotionAccumulatorParams
 {
     double _maxTimeToTrim;
-    double _motionLookWindowOutsideVisit;
-    double _minMotionDurationAtHighConfidence;
-    double _minMotionDurationAtMediumConfidence;
-    double _maxAllowedGapBetweenActiveMotionStates;
 }
 
-+ (double);
++ (double)logUnrecoverableError:(id)arg1 forEvent:(id)arg2 withAttributes:(double)arg3;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -28,11 +24,7 @@
 - (id)Url:(id)arg1 %@,handle:%@,fromMe:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double maxAllowedGapBetweenActiveMotionStates; // @synthesize maxAllowedGapBetweenActiveMotionStates=_maxAllowedGapBetweenActiveMotionStates;
 @property(nonatomic) double maxTimeToTrim; // @synthesize maxTimeToTrim=_maxTimeToTrim;
-@property(nonatomic) double minMotionDurationAtHighConfidence; // @synthesize minMotionDurationAtHighConfidence=_minMotionDurationAtHighConfidence;
-@property(nonatomic) double minMotionDurationAtMediumConfidence; // @synthesize minMotionDurationAtMediumConfidence=_minMotionDurationAtMediumConfidence;
-@property(nonatomic) double motionLookWindowOutsideVisit; // @synthesize motionLookWindowOutsideVisit=_motionLookWindowOutsideVisit;
 
 @end
 

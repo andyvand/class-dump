@@ -9,12 +9,6 @@
 @interface GEOVehicleInfo
 {
     PBUnknownFields *_unknownFields;
-    int _carPlayConnectionStatus;
-    int _intentsConnectionStatus;
-    struct {
-        unsigned int has_carPlayConnectionStatus:1;
-        unsigned int has_intentsConnectionStatus:1;
-    } _flags;
 }
 
 + (_Bool)setObservationImageIndices:(id)arg1 count: /* Error: Ran out of types for this method. */;
@@ -26,33 +20,29 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
-- (int);
-- (int);
+- (id)inProcessPreparationTaskWithRequest:(int)arg1;
+- (int)importMeCard;
+- (int)folderName;
+- (int)humbnailcache;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setInteractionIDforCurrentRequest:(id)arg1;
+- (id)SSVCAExponentialDistanceHistoryDegradationFactor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)ureDate:currentLocation:includeDistance:automobileOptions:transitOptions:walkingOptions:cyclingOptions: /* Error: Ran out of types for this method. */;
-- (id)ngCard;
+- (id)initWithSource:toDestination:departureDate:currentLocation:includeDistance:automobileOptions:transitOptions:walkingOptions:cyclingOptions: /* Error: Ran out of types for this method. */;
+- (id)hasSpeedingCard;
 - (id)ning tile is missing for feature:(id)arg1 %s.;
-- (void)atedFieldWrapperIyEE;
+- (void)N6google8protobuf8internal20RepeatedFieldWrapperIyEE;
 
 // Remaining properties
-@property(nonatomic) int carPlayConnectionStatus;
 @property(nonatomic) _Bool hasCarPlayConnectionStatus;
-@property(nonatomic) _Bool hasIntentsConnectionStatus;
-@property(nonatomic) int intentsConnectionStatus;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

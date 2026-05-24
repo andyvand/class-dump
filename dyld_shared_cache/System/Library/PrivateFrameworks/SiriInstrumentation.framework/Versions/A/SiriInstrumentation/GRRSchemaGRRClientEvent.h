@@ -6,24 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class GRRSchemaGRRClientEventMetadata, GRRSchemaGRRFeatureExtractionContext, GRRSchemaGRRHypothesisRankingContext, GRRSchemaGRRSystemErrorOccurred, NSData, SISchemaInstrumentationMessage;
+@class GRRSchemaGRRClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface GRRSchemaGRRClientEvent : SISchemaTopLevelUnionType
 {
     GRRSchemaGRRClientEventMetadata *_eventMetadata;
-    GRRSchemaGRRFeatureExtractionContext *_featureExtractionContext;
-    GRRSchemaGRRHypothesisRankingContext *_hypothesisRankingContext;
-    GRRSchemaGRRSystemErrorOccurred *_systemErrorOccurred;
-    _Bool _hasEventMetadata;
-    _Bool _hasFeatureExtractionContext;
-    _Bool _hasHypothesisRankingContext;
-    _Bool _hasSystemErrorOccurred;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)4;
 - (id);
 - (void);
 - (void);
@@ -39,23 +31,23 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)_sockListenSource;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)"16@"NSArray"24@"NSPasteboard"32;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)witch alert;
 - (id)ction"b1};
-- (id)ceFallbackOccurred;
+- (id)hasVoiceFallbackOccurred;
 - (unsigned long long),N,V_assetId;
 - (id)res;
 - (id)ce<fÀfüh@lLm;
@@ -63,17 +55,7 @@
 - (void)8$;
 
 // Remaining properties
-@property(retain, nonatomic) GRRSchemaGRRClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) GRRSchemaGRRFeatureExtractionContext *featureExtractionContext; // @synthesize featureExtractionContext=_featureExtractionContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFeatureExtractionContext; // @synthesize hasFeatureExtractionContext=_hasFeatureExtractionContext;
-@property(nonatomic) _Bool hasHypothesisRankingContext; // @synthesize hasHypothesisRankingContext=_hasHypothesisRankingContext;
-@property(nonatomic) _Bool hasSystemErrorOccurred; // @synthesize hasSystemErrorOccurred=_hasSystemErrorOccurred;
-@property(retain, nonatomic) GRRSchemaGRRHypothesisRankingContext *hypothesisRankingContext; // @synthesize hypothesisRankingContext=_hypothesisRankingContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) GRRSchemaGRRSystemErrorOccurred *systemErrorOccurred; // @synthesize systemErrorOccurred=_systemErrorOccurred;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsUI2.TagViewRenderer
 {
     id rendererEnvironment;
-    id styler;
-    id imageApplier;
-    id accessoryButtonRenderer;
-    id featureAvailability;
 }
 
 @end

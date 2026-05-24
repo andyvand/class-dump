@@ -11,23 +11,20 @@
 @interface UICellAccessoryCustomView : UICellAccessory
 {
     _Bool _maintainsFixedSize;
-    UIView *_customView;
-    long long _placement;
-    CDUnknownBlockType _position;
 }
 
 + (_Bool)reuse identifier:%@; Original reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
+- (void)after replaying messages;
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (CDUnknownBlockType)neditable: /* Error: Ran out of types for this method. */;
-- (_Bool)BackgroundStyle;
-- (void)ts;
+- (CDUnknownBlockType)shouldHandleOneFingerTapInUneditable: /* Error: Ran out of types for this method. */;
+- (_Bool)didUpdateBackgroundStyle;
+- (void)_updateFonts;
 - (id)-T/;
 - (_Bool)e application's info.plist;
 - (id)\;
@@ -37,9 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(nonatomic) _Bool maintainsFixedSize; // @synthesize maintainsFixedSize=_maintainsFixedSize;
-@property(readonly, nonatomic) long long placement; // @synthesize placement=_placement;
-@property(copy, nonatomic) CDUnknownBlockType position; // @synthesize position=_position;
 
 @end
 

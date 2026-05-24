@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNMonogrammer;
+
 @protocol CKAddressBookMonogrammerProvider
+- (CNMonogrammer *)convertRect:(long long)arg1 fromView:(double)arg2;
 @end
 

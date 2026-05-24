@@ -7,7 +7,7 @@
 @class NSDictionary, NSString;
 
 @protocol MCDiagnosticsLoggable
-- (NSDictionary *)eCached;
+- (NSDictionary *)canResultsBeCached;
 
 // Remaining properties
 @property(readonly) NSString *diagnosticsCategory;

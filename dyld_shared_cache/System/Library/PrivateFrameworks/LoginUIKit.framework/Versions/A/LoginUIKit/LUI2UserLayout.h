@@ -9,26 +9,25 @@
 @interface LUI2UserLayout
 {
     NSMutableDictionary *_cachedItemFrames;
-    struct CGSize __contentSize;
-    CDStruct_fa0fd69b _userViewDimensions;
 }
 
 + (unsigned long long);
 + (Class);
-- (CDStruct_fa0fd69b);
+- (CDStruct_3817e2c3);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)!;
 - (id);
 - (_Bool);
-- (id);
+- (id)u
+;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (long long);
+- (void);
+- (long long)P;
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
@@ -39,10 +38,6 @@
 
 // Remaining properties
 @property(getter=_contentSize, setter=_setContentSize:) struct CGSize _contentSize; // @synthesize _contentSize=__contentSize;
-@property(readonly) _Bool appearsAsButtonToAccessibility;
-@property(retain) NSMutableDictionary *cachedItemFrames; // @synthesize cachedItemFrames=_cachedItemFrames;
-@property(readonly) struct CGRect layoutBounds;
-@property(readonly) CDStruct_fa0fd69b userViewDimensions; // @synthesize userViewDimensions=_userViewDimensions;
 
 @end
 

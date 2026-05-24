@@ -6,12 +6,9 @@
 
 #import <NotesShared/ICAttachmentModel.h>
 
-@class ICTTAudioDocument;
-
 @interface ICAttachmentAudioModel : ICAttachmentModel
 {
     _Bool _recordedInNotes;
-    ICTTAudioDocument *_audioDocument;
 }
 
 @end

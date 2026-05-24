@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (MKMapItemAdditions)
+- (id)__gcc_except_tab__TEXT;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)TO;
 @end
 

@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFormatRequirements, NSArray, NSString;
+@class BWFormatRequirements, NSString;
 
 @interface BWNodeOutputMediaConfiguration
 {
     NSString *_associatedAttachedMediaKey;
-    BWFormatRequirements *_formatRequirements;
-    NSArray *_indexesOfInputsWhichDrivesThisOutput;
-    NSString *_attachedMediaKeyOfInputWhichDrivesThisOutput;
-    int _passthroughMode;
-    int _indexOfInputWhichDrivesThisOutput;
-    int _owningNodeRetainedBufferCount;
-    _Bool _providesPixelBufferPool;
-    _Bool _providesDataBufferPool;
-    _Bool _pixelBufferPoolProvidesBackPressure;
-    _Bool _pixelBufferPoolReportSlowBackPressureAllocations;
-    _Bool _performsAttachedMediaRemapping;
-    int _owningNodeIndefinitelyHeldBufferCount;
 }
 
 - (void);
 - (_Bool);
-- (int);
-- (void);
+- (int)?";
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,11 +28,11 @@
 - (id)ublic}@ %{public}@%{public}@;
 - (void)îÿW¸ïÿb¸ïÿn¹ðÿxºðÿ»ñÿ»ñÿ¼òÿ¼òÿ©¼óÿ²¼ôÿ¼¼õÿÇ»öÿÒºøÿÞ¹øÿê¹øÿ÷¸÷ÿÿ¸öÿÿ·õÿÿ·ôÿÿ·óÿ;
 - (_Bool)atorPipelineStage];
-- (void)htMaxLuxLevelThreshold;
-- (void)turesEnabled;
-- (void)ResSupported;
+- (void)TooBrightMaxLuxLevelThreshold;
+- (void)SuppressedGesturesEnabled;
+- (void)ProResSupported;
 - (int)ure.mrc;
-- (void)te1;
+- (void)numberOfButtonMashingEventsAtRate1;
 - (int)nsicMatrixReferenceDimensions;
 - (_Bool)WCoreImageFilterRendererParameters >>>> Fig;
 - (id)Çÿ;
@@ -52,18 +40,7 @@
 - (_Bool)É&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attachedMediaKeyOfInputWhichDrivesThisOutput;
 @property(retain, nonatomic) BWFormatRequirements *formatRequirements; // @synthesize formatRequirements=_formatRequirements;
-@property(nonatomic) int indexOfInputWhichDrivesThisOutput;
-@property(copy, nonatomic) NSArray *indexesOfInputsWhichDrivesThisOutput;
-@property(nonatomic) int owningNodeIndefinitelyHeldBufferCount; // @synthesize owningNodeIndefinitelyHeldBufferCount=_owningNodeIndefinitelyHeldBufferCount;
-@property(nonatomic) int owningNodeRetainedBufferCount; // @synthesize owningNodeRetainedBufferCount=_owningNodeRetainedBufferCount;
-@property(nonatomic) int passthroughMode; // @synthesize passthroughMode=_passthroughMode;
-@property(readonly, nonatomic) _Bool performsAttachedMediaRemapping;
-@property(nonatomic) _Bool pixelBufferPoolProvidesBackPressure; // @synthesize pixelBufferPoolProvidesBackPressure=_pixelBufferPoolProvidesBackPressure;
-@property(nonatomic) _Bool pixelBufferPoolReportSlowBackPressureAllocations; // @synthesize pixelBufferPoolReportSlowBackPressureAllocations=_pixelBufferPoolReportSlowBackPressureAllocations;
-@property(nonatomic) _Bool providesDataBufferPool; // @synthesize providesDataBufferPool=_providesDataBufferPool;
-@property(nonatomic) _Bool providesPixelBufferPool; // @synthesize providesPixelBufferPool=_providesPixelBufferPool;
 
 @end
 

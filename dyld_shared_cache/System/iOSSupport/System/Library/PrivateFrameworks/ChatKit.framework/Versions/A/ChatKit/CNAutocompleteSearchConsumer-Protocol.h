@@ -5,5 +5,11 @@
 //
 
 @protocol CNAutocompleteSearchConsumer
+
+@optional
+- (void)V_authorHighlightsController;
+- (void);
+- (void);
+- (void);
 @end
 

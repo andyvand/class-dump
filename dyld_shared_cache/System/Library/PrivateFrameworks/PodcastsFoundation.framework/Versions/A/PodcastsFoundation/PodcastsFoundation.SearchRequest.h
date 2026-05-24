@@ -9,12 +9,10 @@
 @interface PodcastsFoundation.SearchRequest : MTBaseMAPIRequest
 {
     id contentTypes;
-    id limit;
-    id term;
 }
 
 - (void);
-- (id);
+- (id)i;
 - (void)y_­$y?$So15NSManagedObjectCGU$ySayADGGSgGmUyAKeVGG;
 
 @end

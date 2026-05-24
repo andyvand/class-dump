@@ -4,49 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceInitiatingConnectionMultiplexer, BSServiceInterface, BSServiceQuality, BSServiceQueue, BSXPCServiceConnection, NSObject, NSString;
-@protocol NSCopying, OS_dispatch_queue, OS_xpc_object;
-
 @interface _BSServiceConnectionConfiguration
 {
     struct os_unfair_lock_s _lock;
-    BSXPCServiceConnection *_connection;
-    NSString *_service;
-    NSString *_instance;
-    BSServiceInitiatingConnectionMultiplexer *_multiplexer;
-    NSObject<OS_xpc_object> *_clientContext;
-    id <NSCopying> _userInfo;
-    NSString *_name;
-    BSServiceInterface *_interface;
-    id _target;
-    CDUnknownBlockType _activationHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    BSServiceQueue *_queue;
-    BSServiceQuality *_serviceQuality;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    BSServiceQueue *_queueOfTargetQueue;
-    CDUnknownBlockType _batchingHandler;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _errorHandler;
-    unsigned char _state;
-    _Bool _requiresMessagingAfterHandshake;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)tial transfer, file = %@, fileOffset = %ld
+;
+- (void);
+- (void)r^v36Q44;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)synchronous:(CDUnknownBlockType)arg1 remoteSlotClientWithErrorHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

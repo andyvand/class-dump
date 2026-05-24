@@ -6,36 +6,27 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphFeatureNodeCollection, PGGraphHighlightGroupNodeCollection, PGGraphHighlightNodeCollection;
+@class PGGraphHighlightNodeCollection;
 
 @interface PGGraphHighlightTypeNodeCollection : PGGraphNodeCollection
 {
 }
 
++ (id)_navigationMapHashForElement:(id)arg1;
++ (id)_menuWasCreated:(id)arg1;
++ (id),V__titleTextView;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (Class);
 - (id);
 - (id);
-- (id);
+- (id)uncIZ61-[FI_TBaseBrowserViewController browserViewWillMoveToWindow:]E3$_9FvP14NSNotificationEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PGGraphHighlightGroupNodeCollection *highlightGroupNodes;
 @property(readonly, nonatomic) PGGraphHighlightNodeCollection *highlightNodes;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AVCaptureDeviceDiscoverySession_Tundra
 {
     NSArray *_deviceTypes;
-    long long _position;
-    NSString *_mediaType;
-    _Bool _allowIOSMacEnvironment;
-    NSArray *_devices;
-    struct os_unfair_lock_s _devicesLock;
 }
 
 + (id);
@@ -24,19 +19,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_accountsWithAccountType:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)tageRectOfInterest: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setCenterStageRectOfInterest: /* Error: Ran out of types for this method. */;
 - (id)ncDevice",R,N,V_externalSyncDevice;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) NSArray *supportedMultiCamDeviceSets;
 
 @end
 

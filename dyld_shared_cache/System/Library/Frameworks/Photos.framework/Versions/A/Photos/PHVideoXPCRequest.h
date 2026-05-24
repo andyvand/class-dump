@@ -9,19 +9,18 @@
 @interface PHVideoXPCRequest
 {
     PHVideoRequestBehaviorSpec *_behaviorSpec;
-    struct CGSize _size;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)time:(id)arg1 %.3f seconds.
+;
 - (struct CGSize);
 - (id);
 - (void);
-- (void)tionsSortingComparator;
+- (void)_childCollectionsSortingComparator;
 
 // Remaining properties
-@property(readonly, nonatomic) PHVideoRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

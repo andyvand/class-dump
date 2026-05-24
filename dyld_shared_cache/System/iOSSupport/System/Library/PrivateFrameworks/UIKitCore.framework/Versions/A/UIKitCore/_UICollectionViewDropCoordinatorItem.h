@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIDragItem, UIDragPreviewTarget, _UIDropAnimationHandlers;
+@class UIDragItem;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewDropCoordinatorItem
 {
     _Bool _shouldRemainInHierarchy;
-    int _kind;
-    NSIndexPath *_destinationIndexPath;
-    UIDragItem *_dragItem;
-    UIDragPreviewTarget *_target;
-    _UIDropAnimationHandlers *_animationHandlers;
-    CDUnknownBlockType _previewParametersProvider;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)@0:(_Bool)arg1 8@16@24@32B40;
+- (void)transcodeFileTransferContents:(CDUnknownBlockType)arg1 utiType:target:transcoderUserInfo:isSticker:highQualityMaxByteSize:lowQualityMaxByteSize:representations:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)replicationRequirementsSatisfiedForPhoneNumber:(id)arg1 simID: /* Error: Ran out of types for this method. */;
+- (void)relay:(id)arg1 sendUpdate:toPerson: /* Error: Ran out of types for this method. */;
+- (void)markTransferAsNotSuccessfullyDownloadedFromCloud:(id)arg1;
+- (CDUnknownBlockType)didUpdateChatStatus:chat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed: /* Error: Ran out of types for this method. */;
+- (id)ingBackFromStorage;
+- (id)t;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)j1_pG;
 - (id);
 - (id);
 - (id);
@@ -43,20 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)¬uÿ`Ô;
 
 // Remaining properties
-@property(retain, nonatomic) _UIDropAnimationHandlers *animationHandlers; // @synthesize animationHandlers=_animationHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSIndexPath *destinationIndexPath; // @synthesize destinationIndexPath=_destinationIndexPath;
 @property(nonatomic) __weak UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) CDUnknownBlockType previewParametersProvider; // @synthesize previewParametersProvider=_previewParametersProvider;
-@property(nonatomic) _Bool shouldRemainInHierarchy; // @synthesize shouldRemainInHierarchy=_shouldRemainInHierarchy;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) UIDragPreviewTarget *target; // @synthesize target=_target;
 
 @end
 

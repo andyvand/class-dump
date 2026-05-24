@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSWPEquationLayoutContext
 {
     struct __CFString *_fontName;
-    double _fontSize;
-    double _columnWidth;
 }
 
-- (id);
+- (id)I;
 - (double);
 - (struct __CFString *);
 - (double);
 - (void);
-- (void);
+- (void);
 - (double);
-- (_Bool);
+- (_Bool)failed;
 - (double);
-- (void)TexCoordAttribute;
+- (void)particleTexCoordAttribute;
 
 // Remaining properties
-@property(nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

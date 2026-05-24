@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSOrientationUpdate
 {
     long long _orientation;
-    unsigned long long _sequenceNumber;
-    double _duration;
-    long long _rotationDirection;
 }
 
 + (_Bool);
 - (id);
-- (double);
+- (double)`B;
 - (void);
 - (id);
 - (void);
@@ -30,17 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) long long rotationDirection; // @synthesize rotationDirection=_rotationDirection;
-@property(nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,23 +6,21 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUISDFClamp : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputFrame;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)+;
 - (void);
 - (id)r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputFrame; // @synthesize inputFrame;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

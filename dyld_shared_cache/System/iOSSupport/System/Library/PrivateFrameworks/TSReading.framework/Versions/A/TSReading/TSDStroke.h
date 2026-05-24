@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDStrokePattern, TSUColor;
-
 @interface TSDStroke
 {
     int _cap;
-    int _join;
-    TSUColor *_color;
-    double _width;
-    double _miterLimit;
-    TSDStrokePattern *_pattern;
-    double _actualWidth;
 }
 
 + (id);
@@ -27,21 +19,21 @@
 + (_Bool);
 + (Class);
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)No player for preroll;
+- (_Bool)Controller - Queue -> Player setQueueWithItem starting - queue item: /* Error: Ran out of types for this method. */;
+- (double)ted - AVPlayer current rate: /* Error: Ran out of types for this method. */;
+- (id)artTimeOverride set on queue item] - target time:(struct CGAffineTransform)arg1;
+- (_Bool)mpleted activationToken: /* Error: Ran out of types for this method. */;
+- (_Bool)〔;
+- (void)teHelper;
+- (void)aybackCore.PodcastsPlaybackRateHelper;
+- (void)s found.;
+- (void)PlaybackRateMigrationAttempted;
+- (void)l;
 - (double);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (_Bool);
 - (id);
-- (struct CGPath *);
+- (struct CGPath *);
 - (id);
 - (void);
 - (void);
@@ -55,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)o;
 - (id);
 - (void);
 - (void);
@@ -63,12 +55,12 @@
 - (void);
 - (id);
 - (double);
-- (int);
+- (int);
 - (int);
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (double);
@@ -76,7 +68,7 @@
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -88,7 +80,7 @@
 - (_Bool);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)t is not available, feedDescriptor=%{public}@, reason=%{public}@;
 - (id);
 - (void);
 - (void);
@@ -97,7 +89,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (int);
 - (int);
 - (double);
@@ -108,57 +100,13 @@
 - (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)LegacyUnfinishedTransactionsTask;
 - (id);
 - (id);
 - (void)move:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double actualWidth;
-@property(readonly, nonatomic) _Bool canApplyDirectlyToRepRenderable;
-@property(readonly, nonatomic) _Bool canApplyToShapeRenderable;
-@property(readonly, nonatomic) int cap;
-@property(readonly, copy, nonatomic) TSUColor *color;
-@property(readonly, nonatomic) double dashSpacing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool dontClearBackground;
-@property(readonly, nonatomic) _Bool drawsInOneStep;
-@property(readonly, nonatomic) _Bool drawsOutsideStrokeBounds;
-@property(readonly, nonatomic) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double i_actualWidth; // @synthesize i_actualWidth=_actualWidth;
-@property(nonatomic, setter=i_setCap:) int i_cap; // @synthesize i_cap=_cap;
-@property(copy, nonatomic) TSUColor *i_color; // @synthesize i_color=_color;
-@property(nonatomic) int i_join; // @synthesize i_join=_join;
-@property(nonatomic) double i_miterLimit; // @synthesize i_miterLimit=_miterLimit;
-@property(copy, nonatomic, setter=i_setPattern:) TSDStrokePattern *i_pattern; // @synthesize i_pattern=_pattern;
-@property(nonatomic) double i_width; // @synthesize i_width=_width;
-@property(readonly, nonatomic) _Bool isDash;
-@property(readonly, nonatomic) _Bool isFrame;
-@property(readonly, nonatomic) _Bool isNearlyWhite;
-@property(readonly, nonatomic) _Bool isNullStroke;
-@property(readonly, nonatomic) _Bool isRoundDash;
-@property(readonly, nonatomic) int join;
-@property(readonly, nonatomic) double miterLimit;
-@property(readonly, nonatomic) _Bool needsToExtendJoinsForBoundsCalculation;
-@property(readonly, nonatomic) struct _TSDStrokeOutsets outsets;
-@property(readonly, copy, nonatomic) TSDStrokePattern *pattern;
-@property(readonly, nonatomic) _Bool prefersToApplyToShapeRenderableDuringManipulation;
-@property(readonly, nonatomic) double renderedWidth;
-@property(readonly, nonatomic) _Bool shouldAntialiasDefeat;
-@property(readonly, nonatomic) _Bool shouldRender;
-@property(readonly, nonatomic) _Bool solid;
-@property(readonly, nonatomic) double suggestedMinimumLineWidth;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsColor;
-@property(readonly, nonatomic) _Bool supportsLineOptions;
-@property(readonly, nonatomic) _Bool supportsPattern;
-@property(readonly, nonatomic) _Bool supportsWidth;
-@property(readonly, nonatomic) double width;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PhotosUICore.SocialGroupCropManager
 {
     id resultCache;
-    id resultQueue;
-    id requestsByRequestIDs;
-    id requestQueue;
-    id $__lazy_storage_$_changeObserverDelegateProxy;
 }
 
 @end

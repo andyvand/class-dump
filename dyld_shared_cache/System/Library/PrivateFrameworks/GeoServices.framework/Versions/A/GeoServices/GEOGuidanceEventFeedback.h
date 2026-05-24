@@ -4,54 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOJunctionViewGuidanceFeedback, GEOSignGuidanceFeedback, GEOSpokenGuidanceFeedback, GEOTrafficCameraInformation, NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEOGuidanceEventFeedback
 {
     PBDataReader *_reader;
-    GEOJunctionViewGuidanceFeedback *_junctionViewGuidanceFeedback;
-    NSData *_routeID;
-    GEOSignGuidanceFeedback *_signGuidanceFeedback;
-    GEOSpokenGuidanceFeedback *_spokenGuidanceFeedback;
-    GEOTrafficCameraInformation *_trafficCameraGuidanceFeedback;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _distanceToManeuver;
-    float _duration;
-    unsigned int _enrouteNoticeIndex;
-    unsigned int _eventIndex;
-    unsigned int _stepID;
-    float _timeToManeuver;
-    int _trafficSpeed;
-    float _vehicleSpeed;
-    struct {
-        unsigned int has_distanceToManeuver:1;
-        unsigned int has_duration:1;
-        unsigned int has_enrouteNoticeIndex:1;
-        unsigned int has_eventIndex:1;
-        unsigned int has_stepID:1;
-        unsigned int has_timeToManeuver:1;
-        unsigned int has_trafficSpeed:1;
-        unsigned int has_vehicleSpeed:1;
-        unsigned int read_junctionViewGuidanceFeedback:1;
-        unsigned int read_routeID:1;
-        unsigned int read_signGuidanceFeedback:1;
-        unsigned int read_spokenGuidanceFeedback:1;
-        unsigned int read_trafficCameraGuidanceFeedback:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasRoundTripTimeAvgActive:(id)arg1;
 - (float);
 - (id);
 - (int);
 - (id);
 - (float);
 - (unsigned int);
+- (id)P;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -71,29 +39,30 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
+- (_Bool)24@32;
+- (_Bool)0:8@?16@?24@?32 /* Error: Ran out of types for this method. */;
+- (_Bool)CFStringTokenizer=};
+- (_Bool)efaults>";
+- (_Bool)B32;
+- (_Bool)@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLSessionTaskMetrics"32 /* Error: Ran out of types for this method. */;
+- (_Bool)observableForKeyPath:ofObject:withOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)numberWithCNFeatureFlag: /* Error: Ran out of types for this method. */;
+- (_Bool)makeAssistingStrategyIfNecessary;
+- (unsigned int)assertCurrentThreadIsOwner;
+- (unsigned int)absoluteURL;
+- (float)_domainVersion;
+- (_Bool)y
+Country;
+- (_Bool);
+- (_Bool);
+- (int)س;
+- (void);
+- (id);
+- (id);
 - (float);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
 - (void);
-- (id);
-- (id);
-- (float);
-- (void);
-- (void);
-- (id);
+- (void)est";
+- (id)chXPC supportsMultiPhraseVoiceTriggerForEngineVersion:engineMinorVersion:accessoryRTModelType:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -101,8 +70,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)InvalidatePoiCache:(struct _NSZone *)arg1;
-- (_Bool)ion;
+- (id)setInvalidatePoiCache:(struct _NSZone *)arg1;
+- (_Bool)_urlSession;
 - (id)S";
 - (id)ing to fail.;
 - (id);
@@ -111,32 +80,7 @@
 - (void)­J:Gã4 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float distanceToManeuver;
-@property(nonatomic) float duration;
-@property(nonatomic) unsigned int enrouteNoticeIndex;
-@property(nonatomic) unsigned int eventIndex;
-@property(nonatomic) _Bool hasDistanceToManeuver;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasEnrouteNoticeIndex;
-@property(nonatomic) _Bool hasEventIndex;
-@property(readonly, nonatomic) _Bool hasJunctionViewGuidanceFeedback;
 @property(readonly, nonatomic) _Bool hasRouteID;
-@property(readonly, nonatomic) _Bool hasSignGuidanceFeedback;
-@property(readonly, nonatomic) _Bool hasSpokenGuidanceFeedback;
-@property(nonatomic) _Bool hasStepID;
-@property(nonatomic) _Bool hasTimeToManeuver;
-@property(readonly, nonatomic) _Bool hasTrafficCameraGuidanceFeedback;
-@property(nonatomic) _Bool hasTrafficSpeed;
-@property(nonatomic) _Bool hasVehicleSpeed;
-@property(retain, nonatomic) GEOJunctionViewGuidanceFeedback *junctionViewGuidanceFeedback;
-@property(retain, nonatomic) NSData *routeID;
-@property(retain, nonatomic) GEOSignGuidanceFeedback *signGuidanceFeedback;
-@property(retain, nonatomic) GEOSpokenGuidanceFeedback *spokenGuidanceFeedback;
-@property(nonatomic) unsigned int stepID;
-@property(nonatomic) float timeToManeuver;
-@property(retain, nonatomic) GEOTrafficCameraInformation *trafficCameraGuidanceFeedback;
-@property(nonatomic) int trafficSpeed;
-@property(nonatomic) float vehicleSpeed;
 
 @end
 

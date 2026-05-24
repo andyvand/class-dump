@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol CRKKeychainItem;
 
 @interface CRKAnnotatedCredential
 {
     id <CRKKeychainItem> _credential;
-    NSDictionary *_annotation;
 }
 
 - (id);
@@ -22,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *annotation; // @synthesize annotation=_annotation;
 @property(readonly, nonatomic) id <CRKKeychainItem> credential; // @synthesize credential=_credential;
 
 @end

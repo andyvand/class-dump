@@ -14,10 +14,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)hasQbssLoad;
 - (void)!Gùñî%1Â0@ù
 × ;
-- (void)tWebServiceC;
+- (void)So23PKPeerPaymentWebServiceC;
 
 @end
 

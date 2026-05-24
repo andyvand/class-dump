@@ -9,9 +9,6 @@
 @interface PPQuickTypeLabeledValue
 {
     unsigned int _fields;
-    NSString *_label;
-    NSString *_value;
-    double _scoreBoost;
 }
 
 + (id);
@@ -26,10 +23,7 @@
 - (unsigned int)clp_subThoroughfare || ' ' || clp_thoroughfare,                    clp_thoroughfare,                    clp_locality,                    clp_administrativeArea,                    hex(uuid)) AS lc_description FROM loc_records;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int fields; // @synthesize fields=_fields;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) double scoreBoost; // @synthesize scoreBoost=_scoreBoost;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

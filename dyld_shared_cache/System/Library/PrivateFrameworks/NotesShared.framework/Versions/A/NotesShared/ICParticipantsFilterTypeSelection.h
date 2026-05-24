@@ -6,53 +6,43 @@
 
 #import <NotesShared/ICFilterTypeSelection.h>
 
-@class NSArray, NSManagedObjectContext, NSSet, NSString;
+@class NSManagedObjectContext;
 
 @interface ICParticipantsFilterTypeSelection : ICFilterTypeSelection
 {
     NSManagedObjectContext *_managedObjectContext;
-    unsigned long long _selectionType;
-    unsigned long long _joinOperator;
-    NSSet *_participantUserIDs;
 }
 
 + (id);
-- (id);
+- (id)for LDAP mod keys;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
+- (id);
+- (unsigned long long)nodeWithSession:type:error: /* Error: Ran out of types for this method. */;
+- (_Bool)record:(id)arg1 %@ (%d);
+- (id);
+- (id)';
+- (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (void)`j;
 - (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
-- (id);
+- (id)e;
 - (_Bool);
 - (id);
 - (void)à+l,°,(-Ä-,/01t1$2Ø2t38H99ü9¨:;¬; /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long joinOperator; // @synthesize joinOperator=_joinOperator;
 @property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(retain, nonatomic) NSSet *participantUserIDs; // @synthesize participantUserIDs=_participantUserIDs;
-@property(readonly, nonatomic) NSArray *participants;
-@property(nonatomic) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
-@property(readonly, nonatomic) NSString *summary;
-@property(readonly, nonatomic) NSString *summaryWithJoinOperatorMenu;
-@property(readonly, nonatomic) NSArray *unresolvedParticipants;
 
 @end
 

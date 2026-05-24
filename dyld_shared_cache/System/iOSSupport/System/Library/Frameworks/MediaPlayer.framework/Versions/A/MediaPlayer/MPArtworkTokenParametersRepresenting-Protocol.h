@@ -5,5 +5,6 @@
 //
 
 @protocol MPArtworkTokenParametersRepresenting
++ (id);
 @end
 

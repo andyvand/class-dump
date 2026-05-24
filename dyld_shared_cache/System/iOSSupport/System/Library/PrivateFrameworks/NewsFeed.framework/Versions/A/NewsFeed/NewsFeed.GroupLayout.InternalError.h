@@ -7,7 +7,6 @@
 @interface NewsFeed.GroupLayout.InternalError
 {
     id model;
-    id key;
 }
 
 @end

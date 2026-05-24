@@ -5,5 +5,6 @@
 //
 
 @protocol MPCQueueControllerBehaviorMusicDelegate
+- (void);
 @end
 

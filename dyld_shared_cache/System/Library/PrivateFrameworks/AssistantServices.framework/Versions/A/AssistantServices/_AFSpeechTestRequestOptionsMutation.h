@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechTestRequestOptions, NSArray, NSString;
+@class AFSpeechTestRequestOptions;
 
 @interface _AFSpeechTestRequestOptionsMutation
 {
     AFSpeechTestRequestOptions *_base;
-    NSArray *_jitContext;
-    NSString *_overrideModelPath;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasJitContext:1;
-        unsigned int hasOverrideModelPath:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)er:(id)arg1 didReceivePunchoutOutcome: /* Error: Ran out of types for this method. */;
-- (void)pt;
+- (id)taskmaster:(id)arg1 didReceivePunchoutOutcome: /* Error: Ran out of types for this method. */;
+- (void)_recentSiriIntercept;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

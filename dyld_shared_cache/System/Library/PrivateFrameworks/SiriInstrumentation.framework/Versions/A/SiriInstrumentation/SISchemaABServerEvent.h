@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaABExperimentServerFeatureTriggered, SISchemaABSeverEventMetadata, SISchemaInstrumentationMessage;
+@class SISchemaABSeverEventMetadata, SISchemaInstrumentationMessage;
 
 @interface SISchemaABServerEvent : SISchemaTopLevelUnionType
 {
     SISchemaABSeverEventMetadata *_eventMetadata;
-    SISchemaABExperimentServerFeatureTriggered *_serverFeatureTriggered;
-    _Bool _hasEventMetadata;
-    _Bool _hasServerFeatureTriggered;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -27,33 +23,27 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ups:(id)arg1 %@ %@;
+- (_Bool)relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
-- (id);
+- (id);
 - (id)0@ù
 × ;
-- (unsigned long long)tTimeInNsList;
-- (id)ainedNetworkAccessResponse;
+- (unsigned long long)deleteTokenSilenceStartTimeInNsList;
+- (id)constrainedNetworkAccessResponse;
 - (id)rLocationFetch;
-- (void)OVENANCE_CONTACTS;
+- (void)LRONDEVICEINFODATAPROVENANCE_CONTACTS;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaABSeverEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasServerFeatureTriggered; // @synthesize hasServerFeatureTriggered=_hasServerFeatureTriggered;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaABExperimentServerFeatureTriggered *serverFeatureTriggered; // @synthesize serverFeatureTriggered=_serverFeatureTriggered;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSMSReceivedMessage
 {
     unsigned long long _timestamp;
-    int _ctError;
-    int _fzError;
-    NSString *_guid;
-    unsigned int _hasAttachments;
-    unsigned int _isFromEmail;
-    unsigned int _isFromPhoneNumber;
-    unsigned int _isGroupMessage;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int ctError:1;
-        unsigned int fzError:1;
-        unsigned int hasAttachments:1;
-        unsigned int isFromEmail:1;
-        unsigned int isFromPhoneNumber:1;
-        unsigned int isGroupMessage:1;
-    } _has;
 }
 
+- (void)R;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,10 +19,10 @@
 - (void);
 - (unsigned int);
 - (unsigned int);
+- (_Bool)@9;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (int);
@@ -49,9 +31,9 @@
 - (unsigned int);
 - (void);
 - (id);
+- (void)	k;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -63,29 +45,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)O»;
 
 // Remaining properties
-@property(nonatomic) int ctError; // @synthesize ctError=_ctError;
-@property(nonatomic) int fzError; // @synthesize fzError=_fzError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) unsigned int hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(nonatomic) _Bool hasCtError;
-@property(nonatomic) _Bool hasFzError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasHasAttachments;
-@property(nonatomic) _Bool hasIsFromEmail;
-@property(nonatomic) _Bool hasIsFromPhoneNumber;
-@property(nonatomic) _Bool hasIsGroupMessage;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isFromEmail; // @synthesize isFromEmail=_isFromEmail;
-@property(nonatomic) unsigned int isFromPhoneNumber; // @synthesize isFromPhoneNumber=_isFromPhoneNumber;
-@property(nonatomic) unsigned int isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

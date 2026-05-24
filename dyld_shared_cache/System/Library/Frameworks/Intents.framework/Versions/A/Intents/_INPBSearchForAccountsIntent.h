@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBSearchForAccountsIntent
 {
@@ -12,14 +12,9 @@
         unsigned int accountType:1;
         unsigned int requestedBalanceType:1;
     } _has;
-    int _accountType;
-    int _requestedBalanceType;
-    _INPBDataString *_accountNickname;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_organizationName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,47 +23,31 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (id);
-- (int);
+- (int);
 - (int);
 - (void);
-- (int);
+- (int)n.;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)&,N,V_targetDevice;
-- (void)eateTimer;
+- (void)CreateTimer;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *accountNickname; // @synthesize accountNickname=_accountNickname;
-@property(nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccountNickname;
-@property(nonatomic) _Bool hasAccountType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(nonatomic) _Bool hasRequestedBalanceType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDataString *organizationName; // @synthesize organizationName=_organizationName;
-@property(nonatomic) int requestedBalanceType; // @synthesize requestedBalanceType=_requestedBalanceType;
-@property(readonly) Class superclass;
 
 @end
 

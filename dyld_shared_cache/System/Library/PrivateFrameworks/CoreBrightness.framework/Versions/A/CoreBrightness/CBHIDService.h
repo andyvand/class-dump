@@ -11,10 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBHIDService
 {
     NSObject<OS_os_log> *_logHandle;
-    struct __IOHIDServiceClient *_service;
-    unsigned long long _registryID;
-    struct __IOHIDEvent *_event;
-    _Bool _builtIn;
 }
 
 - (_Bool);
@@ -26,15 +22,12 @@ __attribute__((visibility("hidden")))
 - (struct __IOHIDServiceClient *);
 - (void);
 - (id);
-- (id);
+- (id)DistortionOpticalCenter;
 - (struct __IOHIDEvent *);
 - (unsigned long long)Cd£}DADXôCÏ#D?-EDøøCÃD;
 - (void)'>Ó;
 
 // Remaining properties
-@property(readonly) _Bool builtIn; // @synthesize builtIn=_builtIn;
-@property struct __IOHIDEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long registryID; // @synthesize registryID=_registryID;
 @property(readonly) struct __IOHIDServiceClient *service; // @synthesize service=_service;
 
 @end

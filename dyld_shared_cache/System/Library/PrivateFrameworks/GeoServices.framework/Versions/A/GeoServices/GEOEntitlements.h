@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)initWithCapacity:(id)arg1;
++ (id)CSFileAudioInjectionEngine;
 
 @end
 

@@ -6,41 +6,37 @@
 
 #import <coreroutine/RTService.h>
 
-@class AWDServerConnection, NSArray, RTManagedConfiguration, RTPlatform, RTXPCActivityManager;
+@class RTPlatform;
 
 @interface RTMetricManager : RTService
 {
     RTPlatform *_platform;
-    NSArray *_configuredMetricClasses;
-    AWDServerConnection *_awdServerConnection;
-    RTManagedConfiguration *_managedConfigurationManager;
-    RTXPCActivityManager *_xpcActivityManager;
 }
 
 + (double);
 + (int);
++ (int)nkID missing child connection ID - skip for now;
++ (id)kInboundBytes;
++ (id)missing protocol info;
 + (int);
-+ (id);
-+ (id);
-+ (int);
 - (void);
 - (id);
-- (void);
+- (void)s:(unsigned long long)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)ithError:(id)arg1 ];
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)Array",C,V_limitToProtocols;
 - (id);
 - (void);
 - (id);
@@ -52,11 +48,7 @@
 - (void)ng transaction history for the local store, error, %@;
 
 // Remaining properties
-@property(retain, nonatomic) AWDServerConnection *awdServerConnection; // @synthesize awdServerConnection=_awdServerConnection;
-@property(retain, nonatomic) NSArray *configuredMetricClasses; // @synthesize configuredMetricClasses=_configuredMetricClasses;
-@property(retain, nonatomic) RTManagedConfiguration *managedConfigurationManager; // @synthesize managedConfigurationManager=_managedConfigurationManager;
 @property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

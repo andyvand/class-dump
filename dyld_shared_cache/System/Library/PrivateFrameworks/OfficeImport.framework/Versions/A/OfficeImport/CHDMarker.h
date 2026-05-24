@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADGraphicProperties;
-
 __attribute__((visibility("hidden")))
 @interface CHDMarker
 {
     unsigned int mSize;
-    int mStyle;
-    OADGraphicProperties *mGraphicProperties;
 }
 
 - (void);

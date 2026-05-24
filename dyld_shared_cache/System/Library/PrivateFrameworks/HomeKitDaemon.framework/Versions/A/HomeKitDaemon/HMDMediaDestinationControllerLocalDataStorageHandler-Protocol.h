@@ -5,5 +5,7 @@
 //
 
 @protocol HMDMediaDestinationControllerLocalDataStorageHandler
+- (void);
+- (void)R;
 @end
 

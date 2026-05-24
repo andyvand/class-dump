@@ -9,23 +9,21 @@
 @interface FMAlertManager
 {
     NSMutableDictionary *_activeAlerts;
-    NSMutableDictionary *_activeCFNotificationsByCategory;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)_endProxySession;
+- (void)_encodeRetryError;
+- (id)_atqa;
+- (void)_assertionTime;
+- (id)_appletsById;
+- (id)q,R,V_actionSheetUI;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *activeAlerts; // @synthesize activeAlerts=_activeAlerts;
-@property(retain, nonatomic) NSMutableDictionary *activeCFNotificationsByCategory; // @synthesize activeCFNotificationsByCategory=_activeCFNotificationsByCategory;
 
 @end
 

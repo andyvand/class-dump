@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSLinkSelectorPrimarySecondary, IDSRelayLinkProvider, NSString;
+@class IDSRelayLinkProvider;
 
 @interface IDSGLLinkEngine
 {
@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,10 +35,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)h;
 - (void);
 - (void);
 - (id);
@@ -50,24 +50,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)f
+;
 - (id);
-- (void)ManyFileDescriptors;
+- (void)TooManyFileDescriptors;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long allocateType;
-@property(nonatomic) _Bool allowOngoingTasks;
-@property(nonatomic, readonly) IDSLinkSelectorPrimarySecondary *idsPrimarySecondaryLinkSelector;
-@property(nonatomic, copy) NSString *idsSessionID;
-@property(nonatomic) _Bool isH2Enabled;
-@property(nonatomic) _Bool isQUICAndH2Enabled;
-@property(nonatomic, copy) NSString *qrSessionID;
-@property(nonatomic) long long relayConnectionBehavior;
 @property(nonatomic, readonly) IDSRelayLinkProvider *relayLinkProvider;
-@property(nonatomic) _Bool shouldFallbackToTCPFirst;
-@property(nonatomic) _Bool shouldPreferIPv6;
-@property(nonatomic, copy) NSString *tag;
 
 @end
 

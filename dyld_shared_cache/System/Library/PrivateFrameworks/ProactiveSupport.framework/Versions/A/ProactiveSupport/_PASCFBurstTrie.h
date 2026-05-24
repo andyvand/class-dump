@@ -9,7 +9,7 @@
     struct _CFBurstTrie *_trie;
 }
 
-- (void);
+- (void)= %d;
 - (unsigned int);
 - (id);
 - (unsigned int);

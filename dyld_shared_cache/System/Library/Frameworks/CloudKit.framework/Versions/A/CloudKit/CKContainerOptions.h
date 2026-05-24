@@ -4,49 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAccountOverrideInfo, CKPersona, CKUploadRequestConfiguration, NSArray, NSDictionary, NSNumber, NSString;
-@protocol CKTestDeviceReferenceProtocol, NSSecureCoding><CKSQLiteItem;
-
 @interface CKContainerOptions
 {
     _Bool _captureResponseHTTPHeaders;
-    _Bool _useZoneWidePCS;
-    _Bool _isServiceManatee;
-    _Bool _bypassPCSEncryption;
-    _Bool _enforceNamedOperationGroups;
-    _Bool _forceEnableReadOnlyManatee;
-    _Bool _useClearAssetEncryption;
-    _Bool _accountInfoCacheIsDisabled;
-    _Bool _useAnonymousToServerShareParticipants;
-    _Bool _encryptMergeableValueMetadata;
-    _Bool _maintainRecordUploadOrder;
-    _Bool _addDatabaseScopeToZoneIDs;
-    _Bool _fetchChangesForMergeableValues;
-    _Bool _prefersHiddenAllowedSharingOptionsUI;
-    _Bool _acceptServerSignedRecords;
-    _Bool _returnPCSMetadata;
-    _Bool _returnRequestOperationProto;
-    _Bool _holdAllOperations;
-    NSDictionary *_fakeEntitlements;
-    NSArray *_supportedDeviceCapabilities;
-    CKAccountOverrideInfo *_accountOverrideInfo;
-    unsigned long long _mmcsEncryptionSupport;
-    NSString *_encryptionServiceName;
-    NSString *_applicationBundleIdentifierOverrideForContainerAccess;
-    NSString *_applicationBundleIdentifierOverrideForNetworkAttribution;
-    NSString *_applicationBundleIdentifierOverrideForPushTopicGeneration;
-    NSString *_applicationBundleIdentifierOverrideForTCC;
-    long long _qualityOfService;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
-    CKPersona *_persona;
-    id <NSSecureCoding><CKSQLiteItem> _ckSessionConfiguration;
-    id <NSSecureCoding><CKSQLiteItem> _ckSessionAcquiredInfo;
-    NSNumber *_immediateUseDatabaseScopeForTesting;
-    id <CKTestDeviceReferenceProtocol> _testDeviceReferenceProtocol;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
@@ -71,10 +35,29 @@
 - (void);
 - (long long);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id)supportsRasterizationRateMapWithLayerCount: /* Error: Ran out of types for this method. */;
+- (unsigned long long)resultWithClassProbability:additionalFeatures:classLabelOfMaxProbability: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %s (%d);
+- (_Bool);
+- (void);
+- (void)VQi;
+- (_Bool);
+- (_Bool)8h;
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -83,25 +66,6 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -125,7 +89,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)DString;
 - (void);
 - (void);
 - (void);
@@ -133,60 +97,16 @@
 - (id);
 - (id);
 - (void)C,V_pcsKeyID;
-- (id)leEntryEnumerator;
+- (id)CKPackageSectionTableEntryEnumerator;
 - (_Bool)1ø1p2è4P55Ü5¼6ä7;
 - (void)dÓ;
 - (void)[%@] Handling activity state update:(long long)arg1 %@;
 - (void)XýÿXýÿ0YýÿPYýÿhYýÿYýÿØYýÿüYýÿZýÿ,ZýÿDZýÿ\ZýÿtZýÿZýÿ¤Zýÿ¼ZýÿÔZýÿìZýÿ[ýÿ[ýÿH[ýÿ`[ýÿ¼[ýÿÔ[ýÿì[ýÿ\ýÿ<\ýÿt\ýÿl]ýÿ]ýÿ¨]ýÿÔ]ýÿ^ýÿ¸^ýÿÜ^ýÿ_ýÿ@_ýÿX_ýÿ_ýÿ0`ýÿT`ýÿl`ýÿð`ýÿ4aýÿXaýÿ|aýÿ aýÿ¸aýÿÜaýÿ@býÿxbýÿ¼býÿ@cýÿÄcýÿHdýÿÌdýÿeýÿHeýÿeýÿfýÿ8fýÿpfýÿ°fýÿ|iýÿ¼iýÿôiýÿjýÿ$jýÿ<jýÿTjýÿjýÿÄjýÿÜjýÿkýÿ;
-- (id)I;
+- (id)AlwaysShowShareAccessRequestUI;
 - (id)hïûÿ¶è¹;
 
 // Remaining properties
-@property _Bool acceptServerSignedRecords; // @synthesize acceptServerSignedRecords=_acceptServerSignedRecords;
-@property _Bool accountInfoCacheIsDisabled; // @synthesize accountInfoCacheIsDisabled=_accountInfoCacheIsDisabled;
-@property(copy) CKAccountOverrideInfo *accountInfoOverride;
-@property(copy) CKAccountOverrideInfo *accountOverrideInfo; // @synthesize accountOverrideInfo=_accountOverrideInfo;
-@property _Bool addDatabaseScopeToZoneIDs; // @synthesize addDatabaseScopeToZoneIDs=_addDatabaseScopeToZoneIDs;
-@property(copy) NSString *applicationBundleIdentifierOverrideForContainerAccess; // @synthesize applicationBundleIdentifierOverrideForContainerAccess=_applicationBundleIdentifierOverrideForContainerAccess;
-@property(copy) NSString *applicationBundleIdentifierOverrideForNetworkAttribution; // @synthesize applicationBundleIdentifierOverrideForNetworkAttribution=_applicationBundleIdentifierOverrideForNetworkAttribution;
-@property(copy) NSString *applicationBundleIdentifierOverrideForPushTopicGeneration; // @synthesize applicationBundleIdentifierOverrideForPushTopicGeneration=_applicationBundleIdentifierOverrideForPushTopicGeneration;
-@property(copy) NSString *applicationBundleIdentifierOverrideForTCC; // @synthesize applicationBundleIdentifierOverrideForTCC=_applicationBundleIdentifierOverrideForTCC;
-@property _Bool bypassPCSEncryption; // @synthesize bypassPCSEncryption=_bypassPCSEncryption;
-@property _Bool captureResponseHTTPHeaders; // @synthesize captureResponseHTTPHeaders=_captureResponseHTTPHeaders;
-@property(retain) id <NSSecureCoding><CKSQLiteItem> ckSessionAcquiredInfo;
-@property(retain) id <NSSecureCoding><CKSQLiteItem> ckSessionConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool encryptMergeableValueMetadata; // @synthesize encryptMergeableValueMetadata=_encryptMergeableValueMetadata;
-@property(copy) NSString *encryptionServiceName; // @synthesize encryptionServiceName=_encryptionServiceName;
-@property _Bool enforceNamedOperationGroups; // @synthesize enforceNamedOperationGroups=_enforceNamedOperationGroups;
-@property(copy) NSDictionary *fakeEntitlements;
-@property _Bool fetchChangesForMergeableValues; // @synthesize fetchChangesForMergeableValues=_fetchChangesForMergeableValues;
-@property _Bool forceEnableReadOnlyManatee; // @synthesize forceEnableReadOnlyManatee=_forceEnableReadOnlyManatee;
-@property(readonly) unsigned long long hash;
-@property _Bool holdAllOperations;
-@property(copy) NSNumber *immediateUseDatabaseScopeForTesting;
-@property(readonly) _Bool isCloudCoreSession;
-@property _Bool isServiceManatee;
-@property _Bool maintainRecordUploadOrder; // @synthesize maintainRecordUploadOrder=_maintainRecordUploadOrder;
-@property unsigned long long mmcsEncryptionSupport; // @synthesize mmcsEncryptionSupport=_mmcsEncryptionSupport;
-@property(copy) CKPersona *persona;
-@property(copy) NSString *personaIdentifier;
-@property(readonly, copy) NSString *personaUniqueString;
-@property _Bool prefersHiddenAllowedSharingOptionsUI; // @synthesize prefersHiddenAllowedSharingOptionsUI=_prefersHiddenAllowedSharingOptionsUI;
-@property long long qualityOfService;
-@property _Bool returnPCSMetadata;
-@property _Bool returnRequestOperationProto;
-@property(readonly) Class superclass;
-@property(copy) NSArray *supportedDeviceCapabilities; // @synthesize supportedDeviceCapabilities=_supportedDeviceCapabilities;
-@property(retain) id <CKTestDeviceReferenceProtocol> testDeviceReferenceProtocol;
-@property(retain) CKUploadRequestConfiguration *uploadRequestConfiguration;
-@property _Bool useAnonymousToServerShareParticipants; // @synthesize useAnonymousToServerShareParticipants=_useAnonymousToServerShareParticipants;
-@property _Bool useClearAssetEncryption; // @synthesize useClearAssetEncryption=_useClearAssetEncryption;
-@property _Bool useZoneWidePCS; // @synthesize useZoneWidePCS=_useZoneWidePCS;
+@property long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UITableViewDropProposal;
-@protocol UIDropSession;
+@class NSArray, NSIndexPath;
+@protocol UIDropSession, _UITableViewPlaceholderContext;
 
 @protocol _UITableViewDropCoordinator
+- (id <UIDropSession>)moveMessageRecordsToRecoveryForChatRecordsWithGUIDs:deleteDate: /* Error: Ran out of types for this method. */;
+- (void)@"NSDictionary",R,N,V_batchContext;
+- (void)messagePartBody;
+- (id <_UITableViewPlaceholderContext>)NSDictionary",N,R;
+- (NSIndexPath *)preview;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexPath *_destinationIndexPath;
-@property(readonly, nonatomic) UITableViewDropProposal *_dropProposal;
-@property(readonly, nonatomic) id <UIDropSession> _dropSession;
 @property(readonly, nonatomic) NSArray *_items;
 @end
 

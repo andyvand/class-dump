@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface SECSFAActionAutomaticBugCapture
 {
     NSString *_domain;
-    NSString *_subtype;
-    NSString *_type;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)֏@;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -35,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)Ø6¨8;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasSubtype;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

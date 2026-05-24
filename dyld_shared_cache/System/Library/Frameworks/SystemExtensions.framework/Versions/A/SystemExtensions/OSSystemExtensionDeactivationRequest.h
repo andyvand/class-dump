@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)dentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
+- (void)t cancelReason;
+- (_Bool)ceTransferMessage:(const struct AuthorizationOpaqueRef **)arg1 resource transfer type %d does not support cancelReason;
+- (void)cket length %u
+;
 - (void);
 
 @end

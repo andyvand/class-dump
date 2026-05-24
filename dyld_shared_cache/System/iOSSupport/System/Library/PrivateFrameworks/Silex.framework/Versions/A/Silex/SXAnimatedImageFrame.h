@@ -9,10 +9,6 @@
 @interface SXAnimatedImageFrame
 {
     SXAnimatedImageViewCache *_cache;
-    struct CGImageSource *_imageSource;
-    double _duration;
-    unsigned long long _index;
-    long long _imageType;
 }
 
 - (void);

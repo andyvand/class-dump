@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSMutableDictionary;
+@class CHDrawing;
 
 @interface CHRecognizerInferenceCache
 {
     CHDrawing *_lastDrawing;
-    NSMutableDictionary *_cachedActivationMatrices;
-    NSMutableDictionary *_cachedStrokeIndexMappings;
-    NSMutableDictionary *_cachedStrokeEndings;
-    NSMutableDictionary *_cachedPrincipalPoints;
 }
 
 - (id);

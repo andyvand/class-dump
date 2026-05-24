@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, UIScene;
+@class NSHashTable, UIScene;
 
 @interface _UIPlaybackControlsStateManager
 {
     UIScene *_scene;
-    NSHashTable *_fullscreenPlaybackAssertions;
-    NSHashTable *_controlsPresentedAssertions;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)sortUsingSelector: /* Error: Ran out of types for this method. */;
+- (id)markJunkForTrustKitDecisionWithGUID:reason:metadataData:fromService: /* Error: Ran out of types for this method. */;
+- (void)latestTaskReports;
+- (void)chatGUID;
+- (id)adForTesting in non unit tests is not supported ***** ;
+- (void)ckname info to a specific device %@;
+- (void)Date is > 30 days old and we need to upload the asset to CloudKit;
+- (id)@;
 - (void);
 - (id);
 - (void);
@@ -28,16 +26,7 @@
 - (void)Ð<];
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) NSHashTable *controlsPresentedAssertions; // @synthesize controlsPresentedAssertions=_controlsPresentedAssertions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSHashTable *fullscreenPlaybackAssertions; // @synthesize fullscreenPlaybackAssertions=_fullscreenPlaybackAssertions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

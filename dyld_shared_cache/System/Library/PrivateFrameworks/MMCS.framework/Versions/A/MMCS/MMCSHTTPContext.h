@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSInputStream, NSOutputStream, NSString, NSURLSession, NSURLSessionDataTask;
-
 __attribute__((visibility("hidden")))
 @interface MMCSHTTPContext
 {
     _Bool _didOpen;
-    _Bool _isValid;
-    _Bool _isTaskDone;
-    _Bool _requestIsStreamed;
-    _Bool _isHandlingError;
-    struct mmcs_http_context *_hc;
-    NSURLSession *_urlSession;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    NSURLSessionDataTask *_dataTask;
-    NSDictionary *_timingData;
-    struct os_activity_s *_activityMarker;
-    long long _containerType;
 }
 
 - (id);
@@ -35,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)hasMessageWithServiceCapability:(id)arg1;
 - (void);
 - (_Bool);
 - (struct os_activity_s *);
@@ -45,17 +31,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d to %f;
+- (void)TopicStore.m;
+- (void)tingsChanged;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -71,31 +57,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (struct __CFError *)kSpaceMode;
-- (void)hunkserver__StorageContainerError;
+- (struct __CFError *)kMMCSRequestOptionInsufficientDiskSpaceMode;
+- (void)Chunkserver__StorageContainerError;
 - (void)must have CFDataRef referenceObject.;
 
 // Remaining properties
-@property(nonatomic) struct os_activity_s *activityMarker; // @synthesize activityMarker=_activityMarker;
-@property(nonatomic) long long containerType; // @synthesize containerType=_containerType;
-@property(retain, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didOpen; // @synthesize didOpen=_didOpen;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct mmcs_http_context *hc; // @synthesize hc=_hc;
-@property(retain, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(nonatomic) _Bool isHandlingError; // @synthesize isHandlingError=_isHandlingError;
-@property(nonatomic) _Bool isTaskDone; // @synthesize isTaskDone=_isTaskDone;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(retain, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(nonatomic) _Bool requestIsStreamed; // @synthesize requestIsStreamed=_requestIsStreamed;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *timingData; // @synthesize timingData=_timingData;
-@property(retain, nonatomic) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

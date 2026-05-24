@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol WKWebExtensionWindow;
+
 @protocol WKWebExtensionControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (id <WKWebExtensionWindow>);
+- (void);
 @end
 

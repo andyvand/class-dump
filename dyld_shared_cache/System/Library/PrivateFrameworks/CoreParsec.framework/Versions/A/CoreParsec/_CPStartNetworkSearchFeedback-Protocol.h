@@ -4,30 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol _CPStartNetworkSearchFeedback
+- (unsigned long long)readAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)m.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/UserContent/WebUserContentControllerProxy.cpp;
+- (void)icTimeline>>, Traits = WTF:(int)arg1:HashTraits<WTF::Ref<WebKit::RemoteMonotonicTimeline>>, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::RemoteMonotonicTimeline>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(NSString *)arg1:(NSString *)arg2 ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::Ref<WebKit::RemoteMonotonicTimeline>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ultHash<WTF:(unsigned long long)arg1:ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)oid (WebCore::PushPermissionState)> &&) /* Error: Ran out of types for this method. */;
+- (int)ebKit::ProcessAssertion>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)Extractor<WTF:(id *)arg1:(NSString *)arg2 KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<API::DataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<API::DataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)t>> WTF::downcast(RefPtr<Source, PtrTraits, RefDerefTraits>) [Target = WebKit::RemoteMediaSessionProxy, Source = WebCore::PlatformMediaSessionInterface, PtrTraits = WTF::RawPtrTraits<WebCore::PlatformMediaSessionInterface>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::PlatformMediaSessionInterface>] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long);
+- (NSString *);
+- (void);
+- (void)CNAutocompleteResultWindow;
+- (NSString *)2;
+- (void)defaultBehavior;
+- (NSData *)lingSupported:%@, relayCallingAvailability:%d, isAnyCallHostedElsewhere:%@, preferRelay:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)yingFaceTimeVideoCalls:%@
+ /* Error: Ran out of types for this method. */;
+- (void);
 - (void)!ÈAùqÆ!1Â0@ù
 × ;
-- (int)idGoToSearchFeedback;
+- (int)didGoToSearchFeedback;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *bodyData;
-@property(nonatomic) unsigned long long compressedRequestSize;
-@property(nonatomic) int endpoint;
-@property(copy, nonatomic) NSString *experimentId;
-@property(copy, nonatomic) NSDictionary *headers;
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int lookupSelectionType;
-@property(nonatomic) unsigned long long queryId;
-@property(nonatomic) unsigned long long rawRequestSize;
-@property(nonatomic) int searchType;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *treatmentId;
-@property(nonatomic) int triggerEvent;
-@property(copy, nonatomic) NSString *url;
-@property(copy, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) unsigned long long whichTrigger;
 @end
 

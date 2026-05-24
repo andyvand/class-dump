@@ -7,8 +7,6 @@
 @interface NewsFeed.CoverChannelViewRenderer
 {
     id rendererTool;
-    id imageCache;
-    id commandCenter;
 }
 
 @end

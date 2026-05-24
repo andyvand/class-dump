@@ -7,40 +7,25 @@
 @interface ConversationKit.CallControlsView
 {
     id delegate;
-    id containerStackView;
-    id joinConversationButton;
-    id cancelButton;
-    id endButton;
-    id toggleAudioButton;
-    id toggleVideoButton;
-    id toggleCallControls;
-    id expandButton;
-    id screenShareButton;
-    id localVideoRecordButton;
-    id shouldHideContact;
-    id enabled;
-    _Bool isScreenSharing;
-    id remoteParticipantsSupportScreenSharing;
-    id mode;
 }
 
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)XPqm;
+- (void)l;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (void);
 

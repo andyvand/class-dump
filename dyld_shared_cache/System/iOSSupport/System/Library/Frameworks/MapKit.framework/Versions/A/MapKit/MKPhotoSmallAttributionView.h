@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _MKUILabel;
+@class _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKPhotoSmallAttributionView
 {
     _MKUILabel *_label;
-    UIView *_backgroundView;
-    struct CGSize _labelSize;
 }
 
 - (id);
-- (void);
+- (void)@R;
 - (struct CGSize);
 - (id);
-- (void)utorelease;
+- (void)autorelease;
 
 @end
 

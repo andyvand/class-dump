@@ -5,5 +5,8 @@
 //
 
 @protocol RBSAssertionObserving
+
+@optional
+- (void);
 @end
 

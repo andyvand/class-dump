@@ -9,18 +9,9 @@
 @interface PPM2TopicsScoredForMapping
 {
     NSString *_activeTreatments;
-    NSString *_bundleId;
-    NSString *_mappingId;
-    unsigned int _resultSizeLog10;
-    _Bool _error;
-    _Bool _exclusionSpec;
-    _Bool _limitHit;
-    _Bool _timeLimited;
-    _Bool _timeSpec;
-    CDStruct_68ee747f _has;
 }
 
-- (_Bool);
+- (_Bool)pg_query__partition_bound_spec__get_packed_size;
 - (void);
 - (void);
 - (void);
@@ -37,7 +28,7 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
+- (_Bool)didStopSharingMyLocationWithHandle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -50,7 +41,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_findPluginsInPathInternal: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -62,29 +53,12 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (_Bool)onationsAtIndex: /* Error: Ran out of types for this method. */;
-- (void)xnWitness:(_Bool)arg1;
+- (_Bool)extractedDonationsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_updatePreexistingTopicsMatchingTopics:(_Bool)arg1 source:algorithm:txnWitness: /* Error: Ran out of types for this method. */;
 - (_Bool)tering.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool error; // @synthesize error=_error;
-@property(nonatomic) _Bool exclusionSpec; // @synthesize exclusionSpec=_exclusionSpec;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasExclusionSpec;
-@property(nonatomic) _Bool hasLimitHit;
-@property(readonly, nonatomic) _Bool hasMappingId;
-@property(nonatomic) _Bool hasResultSizeLog10;
-@property(nonatomic) _Bool hasTimeLimited;
-@property(nonatomic) _Bool hasTimeSpec;
-@property(nonatomic) _Bool limitHit; // @synthesize limitHit=_limitHit;
-@property(retain, nonatomic) NSString *mappingId; // @synthesize mappingId=_mappingId;
-@property(nonatomic) unsigned int resultSizeLog10; // @synthesize resultSizeLog10=_resultSizeLog10;
-@property(nonatomic) _Bool timeLimited; // @synthesize timeLimited=_timeLimited;
-@property(nonatomic) _Bool timeSpec; // @synthesize timeSpec=_timeSpec;
 
 @end
 

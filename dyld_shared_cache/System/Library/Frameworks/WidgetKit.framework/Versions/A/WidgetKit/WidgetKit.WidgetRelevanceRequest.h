@@ -7,13 +7,12 @@
 @interface WidgetKit.WidgetRelevanceRequest
 {
     id kind;
-    id archiveFileHandle;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)taintyX:(id)arg1 deltaPositionUncertaintyY:deltaPositionUncertaintyZ:deviceLocation:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

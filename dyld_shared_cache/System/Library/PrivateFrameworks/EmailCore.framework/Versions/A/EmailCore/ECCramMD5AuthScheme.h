@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-- (id);
+- (id)tion.;
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
 
 @end

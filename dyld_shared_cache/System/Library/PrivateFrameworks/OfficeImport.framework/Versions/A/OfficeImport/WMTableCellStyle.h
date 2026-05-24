@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WMTableCellStyle : WMStyle
 {
     double mLeftPadding;
-    double mRightPadding;
 }
 
 + (id);

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCarPlayAuxiliaryControl, GEORPWatchAuxiliaryControl, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPAuxiliaryControl
 {
     PBDataReader *_reader;
-    GEORPCarPlayAuxiliaryControl *_car;
-    GEORPWatchAuxiliaryControl *_watch;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_car:1;
-        unsigned int read_watch:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)arCurrentlyDisplayedStep:(id)arg1;
++ (_Bool)setIsNearCurrentlyDisplayedStep:(id)arg1;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -32,24 +22,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)secondPassTransaction;
+- (void)is currently active.;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)nFields"b1"read_entitys"b1"read_placecardEnrichmentMetadata"b1"wrote_anyField"b1};
-- (id)ltIndex:targetID: /* Error: Ran out of types for this method. */;
+- (id)actionDetailsWithMapItem:timestamp:resultIndex:targetID: /* Error: Ran out of types for this method. */;
 - (id)0:; =p>E¤FÈHJ	ÜMOøRèT¸UVXWdZ\\] /* Error: Ran out of types for this method. */;
 - (id)st status from server;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPCarPlayAuxiliaryControl *car;
-@property(readonly, nonatomic) _Bool hasCar;
 @property(readonly, nonatomic) _Bool hasWatch;
-@property(retain, nonatomic) GEORPWatchAuxiliaryControl *watch;
 
 @end
 

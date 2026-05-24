@@ -5,5 +5,9 @@
 //
 
 @protocol WFOutOfProcessWorkflowControllerDelegate
+- (void)$|;
+
+@optional
+- (void);
 @end
 

@@ -6,33 +6,27 @@
 
 #import <UIKitCore/_UITabBarVisualProvider.h>
 
-@class UIMotionEffect, UIScrollView, UIView, _UIBarBackground, _UIBarBackgroundLayoutLegacy;
+@class _UIBarBackground;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarVisualProviderLegacyTVOS : _UITabBarVisualProvider
 {
     _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayoutLegacy *_backgroundViewLayout;
-    UIView *_customBackgroundView;
-    UIView *_accessoryView;
-    UIScrollView *_itemsScrollView;
-    UIView *_focusedItemHighlightView;
-    UIMotionEffect *_focusedItemHighlightMotionEffect;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)notifyClientsOfState: /* Error: Ran out of types for this method. */;
+- (void)movedMessageGUIDsToRecentlyDeleted:(long long)arg1 forChatWithGUID:(_Bool)arg2 queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (void)moveOneTimeCodeToRecentlyDeleted: /* Error: Ran out of types for this method. */;
+- (void)chatForOutgoingMessage:fromIdentifier:isInProxyMode:createIfNotExists:error: /* Error: Ran out of types for this method. */;
+- (void)_oneToOneChatForRemoteHandle:(_Bool)arg1;
 - (id);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)N,V_payloadLDAPAccountHostName;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)initWithData:(id)arg1 encoding: /* Error: Ran out of types for this method. */;
+- (void)sing mapping for MPModelPropertyPodcastEpisodeAreChaptersGenerated;
 - (void);
 - (void);
 - (id)1^1Â0@ù
@@ -41,24 +35,24 @@ __attribute__((visibility("hidden")))
 - (void)ion";
 - (void)dddd}48;
 - (void)8@"UIFocusUpdateContext"16@"UIFocusAnimationCoordinator"24;
-- (void):(id)arg1;
-- (void)oizedSupplementaryHostContainer;
-- (_Bool)hIndex:contextID: /* Error: Ran out of types for this method. */;
-- (struct CGRect)sertion;
-- (id)ionDidBegin;
-- (void)ppearance;
-- (void);
-- (void)UUID;
+- (void)setLastTransitionWasPresentation:(id)arg1;
+- (void)memoizedSupplementaryHostContainer;
+- (_Bool)_validSubrangeForTextAnimation:withIndex:contextID: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_processAssertion;
+- (id)_interactionDidBegin;
+- (void)_effectiveAppearance;
+- (void)_dci_searchController:didChangeToSearchBarPlacement: /* Error: Ran out of types for this method. */;
+- (void)_activeReviewingUUID;
 - (double)T@"NSLayoutConstraint",&,V_contentViewControllerViewLeftConstraint;
-- (void)former:(id)arg1;
+- (void)setTransformer:(id)arg1;
 - (void)<;
 - (id);
 - (void)Ävîÿ;
-- (void);
+- (void)r2;
 - (void)er *__strong, NSMutableArray *__strong, NSMutableArray *__strong);
-- (struct CGSize);
+- (struct CGSize)_ChangeType;
 - (id)nonexistent URL (%@) in Move or Export mode;
-- (void)ry;
+- (void)UIContextMenuIsPrimary;
 - (void);
 - (void)omDiagnosticReporter;
 - (void);

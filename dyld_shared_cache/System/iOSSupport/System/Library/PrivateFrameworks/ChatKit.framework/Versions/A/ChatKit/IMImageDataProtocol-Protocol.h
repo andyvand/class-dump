@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UIImage;
+@class NSArray, NSData, NSString, UIImage;
 
 @protocol IMImageDataProtocol
++ (NSString *)erval %f to %@;
 + (_Bool)÷8;
+- (NSArray *);
+- (UIImage *);
+- (struct CGSize)mainContextObjectForObjectIDURIString: /* Error: Ran out of types for this method. */;
+- (struct CGSize)locationInWindow;
+- (NSArray *)_note;
+- (id)cpm;
+- (id)_recentsBundleIdentifier;
 - (unsigned long long)P;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType;
-@property(readonly, copy, nonatomic) NSString *UTIType;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) long long orientation;
-@property(readonly, nonatomic) struct CGSize ptSize;
-@property(readonly, nonatomic) struct CGSize pxSize;
 @end
 

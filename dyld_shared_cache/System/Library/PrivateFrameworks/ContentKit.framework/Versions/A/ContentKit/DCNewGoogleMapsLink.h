@@ -6,23 +6,12 @@
 
 #import <ContentKit/DCMapsLink.h>
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface DCNewGoogleMapsLink : DCMapsLink
 {
     _Bool _showsTransit;
-    _Bool _showsBicycling;
-    _Bool _showsStreetView;
-    _Bool _showsTraffic;
-    _Bool _parsed;
-    int _linkType;
-    unsigned long long _mapType;
-    unsigned long long _directionsMode;
-    long long _zoomLevel;
-    NSURL *_URL;
-    NSArray *_mapsURLComponents;
-    NSString *_location;
 }
 
 + (id);
@@ -46,27 +35,78 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)<string>vec3</string>
+		</dict>
+		<key>u_floorExtent</key>
+		<dict>
+			<key>type</key>
+			<string>vec2</string>
+		</dict>
+		<key>u_floor_viewport</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorReflectivity</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorMVP_i</key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+		<key>u_floorPlane</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorFalloff</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorFalloffStart</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-Floor-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+		<key>SceneKit-Floor-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)setHasPrbOnFloorsEstimate: /* Error: Ran out of types for this method. */;
 - (void)Áõ	!lEùñÐ1Â0@ù
 × ;
 - (long long)
 × ;
 - (int)ing photos or videos;
-- (void)r;
+- (void)center;
 - (void)ÇýÿB;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) int linkType; // @synthesize linkType=_linkType;
-@property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSArray *mapsURLComponents; // @synthesize mapsURLComponents=_mapsURLComponents;
-@property(readonly, nonatomic) _Bool parsed; // @synthesize parsed=_parsed;
 
 @end
 

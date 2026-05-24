@@ -9,33 +9,27 @@
 @interface PKPassDateField : PKPassField
 {
     _Bool _isRelative;
-    _Bool _ignoresTimeZone;
-    long long _dateStyle;
-    long long _timeStyle;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)?;
 - (_Bool);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)direct_connection_first_byte_buckets;
+- (id)h;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long dateStyle; // @synthesize dateStyle=_dateStyle;
-@property(nonatomic) _Bool ignoresTimeZone; // @synthesize ignoresTimeZone=_ignoresTimeZone;
-@property(nonatomic) _Bool isRelative; // @synthesize isRelative=_isRelative;
-@property(nonatomic) long long timeStyle; // @synthesize timeStyle=_timeStyle;
 
 @end
 

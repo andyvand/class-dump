@@ -9,19 +9,17 @@
 @interface PXSTableCellView
 {
     NSView *_nameView;
-    NSView *_valueView;
 }
 
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
-- (void)nadeEventsFeatureFeedTitle;
-- (void)ebugOverlay;
+- (void)LemonadeEventsFeatureFeedTitle;
+- (void)PXLemonadeDynamicHeaderDebugOverlay;
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *nameView; // @synthesize nameView=_nameView;
-@property(readonly, nonatomic) NSView *valueView; // @synthesize valueView=_valueView;
 
 @end
 

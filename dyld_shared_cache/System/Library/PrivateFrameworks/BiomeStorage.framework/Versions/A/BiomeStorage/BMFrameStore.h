@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileHandle, BMMemoryMapping, NSMutableOrderedSet, NSString;
+@class NSMutableOrderedSet;
 
 @interface BMFrameStore
 {
     NSMutableOrderedSet *_framePointers;
-    NSString *_cachedPrintablePath;
-    _Bool _isRemoteSegment;
-    _Bool _isTombstoneSegment;
-    _Bool _filterByAgeOnRead;
-    _Bool _pruneOnAccess;
-    unsigned int _datastoreVersion;
-    double _maxAge;
-    unsigned long long _frameStoreSize;
-    BMMemoryMapping *_header;
-    BMMemoryMapping *_frames;
-    BMFileHandle *_backingFile;
-    unsigned long long _permission;
-    double _lastAbsoluteTimestamp;
-    NSString *_cachedPrintablePathV2;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
 + (unsigned int);
 + (_Bool);
@@ -40,7 +26,7 @@
 - (unsigned char);
 - (unsigned int);
 - (void);
-- (id);
+- (id)PC;
 - (id);
 - (int);
 - (_Bool);
@@ -51,31 +37,31 @@
 - (int);
 - (double);
 - (void);
-- (void);
+- (void)MI}.*P];
 - (unsigned char);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)u] needs pairing [%lu] waiting [%lu] not available [%lu];
 - (_Bool);
 - (unsigned char);
 - (_Bool);
-- (void);
+- (void)setSkipPeerErrorReason:(id)arg1;
 - (void);
 - (void *);
 - (unsigned char);
 - (int);
 - (void);
-- (double);
+- (double)J;
 - (_Bool);
 - (void);
-- (unsigned char);
-- (unsigned char);
+- (unsigned char),R,N,GisEmpty;
+- (unsigned char)LPiTunesMediaPlaylistUnresolvedMetadata;
 - (id);
 - (_Bool);
 - (id);
@@ -90,39 +76,39 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
+- (void)presentationControllerForPresentedViewController:(id)arg1 presentingViewController:(unsigned int)arg2 sourceViewController: /* Error: Ran out of types for this method. */;
+- (void)contentTransitioningView:(unsigned int)arg1 shouldBeginTransitionWithDirection: /* Error: Ran out of types for this method. */;
+- (void)attributedText;
+- (unsigned int)AVMobileGlassControlsView;
+- (void)]`];
 - (unsigned char);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)upperFrontRoot_DYN;
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 - (unsigned char);
 - (void);
-- (CDStruct_4b6ff52f *);
+- (CDStruct_155a8949 *);
 - (void);
-- (void);
+- (void)/System/Library/PrivateFrameworks/HearingCore.framework/Versions/A/HearingCore;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (int);
-- (void);
+- (void)stringByAppendingString: /* Error: Ran out of types for this method. */;
+- (id)convertToSchemaEnumWithPhId: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (void);
 - (int);
 - (unsigned int);
@@ -131,26 +117,11 @@
 - (void)ð1Â0@ù
 × ;
 - (void)gerDelegate>";
-- (id)tLockingCXReceived: /* Error: Ran out of types for this method. */;
+- (id)setLockingCXReceived: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) BMFileHandle *backingFile; // @synthesize backingFile=_backingFile;
 @property(readonly) unsigned int bytesUsed;
-@property(retain, nonatomic) NSString *cachedPrintablePathV2; // @synthesize cachedPrintablePathV2=_cachedPrintablePathV2;
-@property(nonatomic) unsigned int datastoreVersion; // @synthesize datastoreVersion=_datastoreVersion;
-@property(nonatomic) _Bool filterByAgeOnRead; // @synthesize filterByAgeOnRead=_filterByAgeOnRead;
-@property(nonatomic) unsigned long long frameStoreSize; // @synthesize frameStoreSize=_frameStoreSize;
-@property(retain, nonatomic) BMMemoryMapping *frames; // @synthesize frames=_frames;
-@property(retain, nonatomic) BMMemoryMapping *header; // @synthesize header=_header;
-@property(readonly, nonatomic) _Bool isRemoteSegment; // @synthesize isRemoteSegment=_isRemoteSegment;
-@property(readonly, nonatomic) _Bool isTombstoneSegment; // @synthesize isTombstoneSegment=_isTombstoneSegment;
-@property(nonatomic) double lastAbsoluteTimestamp; // @synthesize lastAbsoluteTimestamp=_lastAbsoluteTimestamp;
-@property(nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(nonatomic) unsigned long long permission; // @synthesize permission=_permission;
-@property(nonatomic) _Bool pruneOnAccess; // @synthesize pruneOnAccess=_pruneOnAccess;
-@property(readonly, nonatomic) NSString *segmentName;
-@property(readonly, nonatomic) NSString *segmentPath;
 
 @end
 

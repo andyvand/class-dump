@@ -12,26 +12,22 @@ __attribute__((visibility("hidden")))
         unsigned long long count;
         unsigned long long size;
     } _persistentIDs;
-    _Bool _shouldContain;
-    struct {
-        unsigned int shouldContain:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
+- (void)XC;
+- (void)=;
+- (unsigned long long)T T;
+- (long long);
 - (long long *);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)b;
+- (unsigned long long)scoringContextWithError: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -40,9 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasShouldContain;
-@property(readonly, nonatomic) long long *persistentIDs;
-@property(readonly, nonatomic) unsigned long long persistentIDsCount;
-@property(nonatomic) _Bool shouldContain; // @synthesize shouldContain=_shouldContain;
 
 @end
 

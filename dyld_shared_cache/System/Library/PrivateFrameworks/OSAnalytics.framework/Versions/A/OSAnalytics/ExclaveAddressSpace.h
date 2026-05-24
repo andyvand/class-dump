@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface ExclaveAddressSpace
 {
     NSNumber *_addressSpaceId;
-    NSNumber *_layoutId;
-    NSString *_name;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)kView",&,N,V_stackView;
+- (void)eaderView;
+- (id)etailsView;
+- (id)abel",&,N,V_thumbnailOverlayLabel;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *addressSpaceId; // @synthesize addressSpaceId=_addressSpaceId;
-@property(retain, nonatomic) NSNumber *layoutId; // @synthesize layoutId=_layoutId;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

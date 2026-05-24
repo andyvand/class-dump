@@ -7,19 +7,15 @@
 @interface CTMessageStatus
 {
     unsigned int _messageId;
-    int _messageType;
-    int _result;
 }
 
 - (id);
 - (unsigned int);
 - (int);
-- (int);
+- (int)(a;
 
 // Remaining properties
 @property(readonly) unsigned int messageId; // @synthesize messageId=_messageId;
-@property(readonly) int messageType; // @synthesize messageType=_messageType;
-@property(readonly) int result; // @synthesize result=_result;
 
 @end
 

@@ -8,18 +8,6 @@ __attribute__((visibility("hidden")))
 @interface EDPageSetup
 {
     int mOrientation;
-    int mPageOrder;
-    _Bool mCustomFirstPageNumber;
-    unsigned long long mFirstPageNumber;
-    unsigned long long mFitToHeight;
-    unsigned long long mFitToWidth;
-    unsigned long long mScale;
-    float mLeftMargin;
-    float mRightMargin;
-    float mTopMargin;
-    float mBottomMargin;
-    float mHeaderMargin;
-    float mFooterMargin;
 }
 
 + (id);
@@ -31,27 +19,27 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)>;
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
 - (id);
-- (id);
+- (id)GMS_LOAD_REASON_POLICY_CHANGE;
 - (unsigned long long);
-- (float);
-- (int);
-- (float);
+- (float)_keysToFetch;
+- (int))A;
+- (float)EWSSetFolderFieldTypeFolderDefinition;
 - (void);
 - (void);
 - (int)0@ù
 × ;
 - (float)¬;
-- (void);
+- (void)E;
 
 @end
 

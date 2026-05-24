@@ -17,19 +17,19 @@
 - (id);
 - (id);
 - (unsigned long long *);
-- (id);
+- (id){;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)z;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)SString";
+- (id);
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long){B;
 
 @end
 

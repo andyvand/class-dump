@@ -6,30 +6,21 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOMAResourceCalculateFreeableSizeRequest : GEOXPCRequest
 {
     int _urgency;
 }
 
-+ (Class);
++ (Class)_updateLocationsPopup;
 - (id);
-- (unsigned long long);
+- (unsigned long long)I;
 - (id);
 - (_Bool);
-- (void)oute:(id)arg1;
-- (int)BELS;
+- (void)addClientSuggestedRoute:(id)arg1;
+- (int)RASTER_STANDARD_LABELS;
 - (void)íÐè$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int urgency; // @synthesize urgency=_urgency;
 
 @end

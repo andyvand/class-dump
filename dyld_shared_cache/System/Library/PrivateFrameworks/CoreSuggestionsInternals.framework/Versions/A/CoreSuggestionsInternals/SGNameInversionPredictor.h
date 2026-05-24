@@ -9,8 +9,6 @@
 @interface SGNameInversionPredictor
 {
     NSDictionary *_tradToTrie;
-    NSDictionary *_tradToInversionRate;
-    double _confidenceThreshold;
 }
 
 + (_Bool);
@@ -19,7 +17,7 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
+- (id);
 - (void)C;
 
 @end

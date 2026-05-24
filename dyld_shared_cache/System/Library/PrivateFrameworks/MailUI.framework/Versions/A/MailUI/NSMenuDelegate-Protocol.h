@@ -9,6 +9,6 @@
 @protocol NSMenuDelegate
 
 @optional
-- (_Bool)ibilityValue:(NSMenu *)arg1;
+- (_Bool)setAccessibilityValue:(NSMenu *)arg1;
 @end
 

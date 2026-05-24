@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIClientTreatment : TRIPBMessage
 {
@@ -14,9 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *factorLevelArray; // @dynamic factorLevelArray;
-@property(readonly, nonatomic) unsigned long long factorLevelArray_Count; // @dynamic factorLevelArray_Count;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
 @property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 @end
 

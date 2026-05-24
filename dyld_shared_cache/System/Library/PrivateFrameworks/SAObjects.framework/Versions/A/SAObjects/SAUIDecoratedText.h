@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAUIDecoratedText : AceObject
 {
@@ -16,24 +16,15 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)EmptyERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PNS0_6vectorIS6_NS4_IS6_EEEEE3$_0;
+- (id)ʢ;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *ducId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *regions;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

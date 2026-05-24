@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)c/rosetta/runtime;
 - (id);
 - (void);
 - (void);
@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)raitsIcEENS_9allocatorIcEEEEEEE;
 
 @end
 

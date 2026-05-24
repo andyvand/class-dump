@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDAcceptedContactStoreChanges
 {
     NSDictionary *_updatedMap;
-    NSArray *_deletedCNIDs;
-    NSArray *_deletedAliases;
 }
 
 - (id);
@@ -19,12 +17,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)PKPaymentOffersUseAuthenticationServicesKey;
 - (void)Ó;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *deletedAliases; // @synthesize deletedAliases=_deletedAliases;
-@property(retain, nonatomic) NSArray *deletedCNIDs; // @synthesize deletedCNIDs=_deletedCNIDs;
 @property(retain, nonatomic) NSDictionary *updatedMap; // @synthesize updatedMap=_updatedMap;
 
 @end

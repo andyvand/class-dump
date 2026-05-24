@@ -7,8 +7,6 @@
 @interface TSNewsActivitySender
 {
     id viewController;
-    id presentationTransitionFactory;
-    id dismissalTransitionFactory;
 }
 
 - (id);

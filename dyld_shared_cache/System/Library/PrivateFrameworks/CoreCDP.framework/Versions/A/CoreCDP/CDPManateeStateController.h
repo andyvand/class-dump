@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext;
 @protocol CDPDCircleProxy;
 
 @interface CDPManateeStateController
 {
     id <CDPDCircleProxy> _circleProxy;
-    CDPContext *_context;
 }
 
-- (id);
-- (_Bool);
+- (id))I?;
+- (_Bool)clientAudioClockDeviceUID;
 - (id);
 - (_Bool);
 - (id);

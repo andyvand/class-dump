@@ -9,15 +9,14 @@
 @interface LUIODTrigger
 {
     NSString *_userName;
-    unsigned long long _type;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)J;
++ (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)cketUsed,V_greenCarTicketUsed;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 @property(readonly, copy) NSString *userName; // @synthesize userName=_userName;
 
 @end

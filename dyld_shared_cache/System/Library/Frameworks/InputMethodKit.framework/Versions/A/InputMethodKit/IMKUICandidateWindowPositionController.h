@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateWindowController, NSAttributedString;
-@protocol IMKTextInput><NSObject;
-
 @interface IMKUICandidateWindowPositionController
 {
     long long _alignment;
-    id <IMKTextInput><NSObject> _client;
-    IMKUICandidateWindowController *_candidateController;
-    long long _effectiveHorizontalPositionHint;
-    unsigned long long _effectivePositionType;
-    _Bool _forceNoIncrementalSearchPositioning;
-    NSAttributedString *_inlineText;
-    _Bool _isUsingIncrementalSearch;
-    unsigned long long _preferredPositionType;
-    _Bool _rightAlignWhenOverflowingRight;
-    struct CGRect _screenVisibleFrame;
-    struct CGRect _textFrame;
-    double _textRectMargin;
-    _Bool _updatePositionOnEachKeyPress;
-    struct CGRect _windowFrame;
-    struct CGRect _fallbackTextFrame;
 }
 
 - (struct CGRect);
@@ -35,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void)A9;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,32 +46,16 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)caLayerFront;
 - (long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (id)moteObjectProxy;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) __weak IMKUICandidateWindowController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) id client; // @synthesize client=_client;
 @property(nonatomic) long long effectiveHorizontalPositionHint; // @synthesize effectiveHorizontalPositionHint=_effectiveHorizontalPositionHint;
-@property(nonatomic) unsigned long long effectivePositionType; // @synthesize effectivePositionType=_effectivePositionType;
-@property(nonatomic) struct CGRect fallbackTextFrame; // @synthesize fallbackTextFrame=_fallbackTextFrame;
-@property(nonatomic) _Bool forceNoIncrementalSearchPositioning; // @synthesize forceNoIncrementalSearchPositioning=_forceNoIncrementalSearchPositioning;
-@property(copy, nonatomic) NSAttributedString *inlineText; // @synthesize inlineText=_inlineText;
-@property(nonatomic) _Bool isUsingIncrementalSearch; // @synthesize isUsingIncrementalSearch=_isUsingIncrementalSearch;
-@property(nonatomic) unsigned long long preferredPositionType; // @synthesize preferredPositionType=_preferredPositionType;
-@property(nonatomic) _Bool rightAlignWhenOverflowingRight; // @synthesize rightAlignWhenOverflowingRight=_rightAlignWhenOverflowingRight;
-@property(nonatomic) struct CGRect screenVisibleFrame; // @synthesize screenVisibleFrame=_screenVisibleFrame;
-@property(nonatomic) struct CGRect textFrame; // @synthesize textFrame=_textFrame;
-@property(nonatomic) double textRectMargin; // @synthesize textRectMargin=_textRectMargin;
-@property(readonly, nonatomic) struct CGPoint topWindowPosition;
-@property(nonatomic) _Bool updatePositionOnEachKeyPress; // @synthesize updatePositionOnEachKeyPress=_updatePositionOnEachKeyPress;
-@property(nonatomic) struct CGRect windowFrame; // @synthesize windowFrame=_windowFrame;
 
 @end
 

@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AACustodianInvitationResponseContext
 {
     _Bool _accepted;
-    _Bool _autoAction;
-    NSUUID *_custodianID;
-    NSString *_altDSID;
-    NSString *_telemetryFlowID;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
++ (_Bool);
+- (void)etManagedClientKeyPathRulesForFilteringPayload MIG_GetFilterRules returned %d;
+- (void)filtered);
+- (_Bool)length = %d;
+- (_Bool)ength = %d;
+- (id)EAPClientProfile mcxUsr_createeapclientprofile profileID = %s;
+- (id)user from _lpadmin group (%ld:%s) /* Error: Ran out of types for this method. */;
+- (void)CPGetActivationRecordViaManagedClient;
 - (id);
 - (void);
-- (void)veryContact: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)initWhenAccountHasRecoveryContact: /* Error: Ran out of types for this method. */;
 - (id)ðûÊóîzËT.@cXvª4LÎ«hºµ&³ÍñÁ%¿Wo£awÐmBäêÂgHÿÉÅÚ¨Þ ;Sãü¹`¶ÖíÕYÌÔDpÜ^úÑì+]ÒA>';
 
 // Remaining properties
-@property(nonatomic, getter=isAccepted) _Bool accepted; // @synthesize accepted=_accepted;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic, getter=isAutoAction) _Bool autoAction; // @synthesize autoAction=_autoAction;
 @property(copy, nonatomic) NSUUID *custodianID; // @synthesize custodianID=_custodianID;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AXMChartDictionaryRepresentable
+- (id)@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
 @end
 

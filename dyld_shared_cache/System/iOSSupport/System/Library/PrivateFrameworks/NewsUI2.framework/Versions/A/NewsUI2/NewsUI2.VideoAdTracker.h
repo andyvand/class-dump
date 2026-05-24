@@ -7,7 +7,6 @@
 @interface NewsUI2.VideoAdTracker
 {
     id tracker;
-    id trackerConfiguration;
 }
 
 @end

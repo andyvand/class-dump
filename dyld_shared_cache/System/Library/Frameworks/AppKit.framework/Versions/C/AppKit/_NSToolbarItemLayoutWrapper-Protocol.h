@@ -8,12 +8,11 @@
 @protocol NSISEngineDelegate;
 
 @protocol _NSToolbarItemLayoutWrapper
+- (void)s.U%d.G%u.%s;
+- (NSObject<NSISEngineDelegate> *);
 - (struct CGSize)@ requires a height greater than 0.;
-- (struct CGSize);
 
 // Remaining properties
-@property(readonly) struct CGSize maxSize;
 @property(readonly) struct CGSize minSize;
-@property __weak NSObject<NSISEngineDelegate> *secondaryEngineDelegate;
 @end
 

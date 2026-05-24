@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSessionProvider, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CMIODALExtensionPlugIn
 {
     void *_plugIn;
-    CMIOExtensionSessionProvider *_provider;
-    struct os_unfair_lock_s _initLock;
-    struct os_unfair_lock_s _devicesLock;
-    NSArray *_devices;
-    NSMutableDictionary *_devicesMap;
-    struct os_unfair_lock_s _propertiesLock;
-    NSDictionary *_properties;
-    _Bool _devicesAndPropertiesHaveBeenInitialized;
-    NSString *_description;
-    NSMutableSet *_unpublishedDevices;
 }
 
 - (void);
@@ -33,23 +23,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)lDay;
 - (void);
 - (id);
 - (id);
 - (void)°ûÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSArray *devices;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *properties;
-@property(readonly, retain) CMIOExtensionSessionProvider *provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
 
 @end
 

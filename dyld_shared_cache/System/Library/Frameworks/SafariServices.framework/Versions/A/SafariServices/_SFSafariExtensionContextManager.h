@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _SFSafariExtensionContextManager
 {
     NSMutableDictionary *_contexts;
-    SFSafariExtensionContext *_mostRecentContext;
-    SFSafariExtensionContext *_currentContext;
 }
 
 + (id);
@@ -20,7 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fo -> %p(UnlockedMatchRetryLimit:(id)arg1 %d,kBiometricKitUnlockedMatchRetryCount:%d)
+ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

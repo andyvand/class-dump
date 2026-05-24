@@ -6,15 +6,11 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSArray, NSOperation, VSAccountChannels, VSOptional, VSPersistentStorage;
+@class NSArray, VSOptional;
 
 @interface VSAccountSaveOperation : VSAsyncOperation
 {
     VSOptional *_result;
-    NSArray *_unsavedAccounts;
-    VSPersistentStorage *_storage;
-    VSAccountChannels *_unsavedChannels;
-    NSOperation *_currentOperation;
 }
 
 - (void);
@@ -26,9 +22,9 @@
 - (id);
 - (void);
 - (id);
+- (void)extractTemplateIconURLAndColor;
 - (void);
-- (void);
-- (id);
+- (id);];
 - (id);
 - (void);
 - (id);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperation *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
-@property(retain, nonatomic) VSPersistentStorage *storage; // @synthesize storage=_storage;
 @property(copy, nonatomic) NSArray *unsavedAccounts; // @synthesize unsavedAccounts=_unsavedAccounts;
-@property(retain, nonatomic) VSAccountChannels *unsavedChannels; // @synthesize unsavedChannels=_unsavedChannels;
 
 @end
 

@@ -6,17 +6,16 @@
 
 #import <HomeKitDaemon/_MKFEvent.h>
 
-@class CLRegion, MKFLocationEventDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFEventTrigger, MKFHome, MKFUser;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFLocationEvent : _MKFEvent
 {
 }
 
-+ (id);
++ (id);
 + (Class);
-+ (id);
++ (id)C;
 + (id);
 - (_Bool);
 - (void);
@@ -26,29 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFLocationEventDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endEvent;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) CLRegion *region; // @dynamic region;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger;
-@property(retain, nonatomic) id <MKFUser> user; // @dynamic user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

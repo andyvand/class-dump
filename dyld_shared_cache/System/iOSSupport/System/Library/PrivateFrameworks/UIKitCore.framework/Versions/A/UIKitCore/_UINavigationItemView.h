@@ -6,32 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UILabel, UINavigationItem;
+@class UINavigationItem;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationItemView : UIView
 {
     UINavigationItem *_item;
-    struct CGSize _titleSize;
-    UIView *_topCrossView;
-    UIView *_bottomCrossView;
-    _Bool _isCrossFading;
-    _Bool _customFontSet;
-    UILabel *_label;
-    _Bool __isFadingInFromCustomAlpha;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)*;
+- (void)_getPendingNicknameForUpload;
+- (void)_getNewFileTransferForStoredAttachmentPayloadDataWithTransferGUID:messageGUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)te. Value = [%@], string in range;
+- (void)dly nil;
+- (void)cache limit, has %llu messages (limit %llu);
 - (id);
 - (void);
 - (struct CGSize);
@@ -42,13 +35,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)dth;
-- (void)iewsNeedDisplay;
-- (id)dowControllerHostingItem;
+- (void)_hasCustomCenterViewControllerWidth;
+- (void)_layoutFragmentViewsNeedDisplay;
+- (id)UIInputWindowControllerHostingItem;
 - (id)?À?;
 - (id)ïÿ\ïÿ;
-- (void)ionsLocationKey;
-- (id)tMatch;
+- (void)UIApplicationLaunchOptionsLocationKey;
+- (id)IOServiceFirstMatch;
 - (void);
 
 // Remaining properties

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedPersonalizingEnvironment, NSString;
-@protocol FCFeedPersonalizing, FCPersonalizationFunctionProviding;
+@protocol FCFeedPersonalizing;
 
 @interface FCLegacyFeedPersonalizer
 {
     id <FCFeedPersonalizing> _feedPersonalizer;
-    id <FCPersonalizationFunctionProviding> _functionProvider;
 }
 
 - (id);
@@ -25,23 +23,11 @@
 - (id);
 - (double);
 - (id);
-- (void)ItemShortcutIDKey;
+- (void)ShortcutItemShortcutIDKey;
 - (id)ïF£;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <FCFeedPersonalizing> feedPersonalizer; // @synthesize feedPersonalizer=_feedPersonalizer;
-@property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCFeedPersonalizingEnvironment",?,R,N
-
-@property(readonly, nonatomic) id <FCPersonalizationFunctionProviding> functionProvider; // @synthesize functionProvider=_functionProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

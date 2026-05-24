@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)_processSelectRetry:(id)arg1 originalRequest:responseHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

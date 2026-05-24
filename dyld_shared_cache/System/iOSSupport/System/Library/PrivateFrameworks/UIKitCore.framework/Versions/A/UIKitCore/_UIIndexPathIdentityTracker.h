@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, UICollectionView, UITableView;
+@class UITableView;
 
 __attribute__((visibility("hidden")))
 @interface _UIIndexPathIdentityTracker
 {
     UITableView *_tableView;
-    UICollectionView *_collectionView;
-    id _identityBasedDataSource;
-    NSMapTable *_mapping;
-    _Bool _enforcesManualMapping;
 }
 
 - (void);
+- (void)deletionController;
+- (id)aperMetadataTag:(id)arg1 avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
+- (id)SyncController when trying report _PCSTestBackupStateDidChange;
+- (void)PATH FOR ENCODED ITEM>;
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)etStateChangeObserver:(id)arg1 observer: /* Error: Ran out of types for this method. */;
+- (id)T";
+- (id)setStateChangeObserver:(id)arg1 observer: /* Error: Ran out of types for this method. */;
 - (id)Updating battery data based on properties:(id)arg1 %{public}@;
-- (void)ViewControllerFormattingDescriptorAttributeState;
+- (void)NUITextFormattingViewControllerFormattingDescriptorAttributeState;
 - (id);
 
 @end

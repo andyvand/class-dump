@@ -10,7 +10,7 @@
 {
 }
 
-- (void)tion;
+- (void)isApplication;
 
 @end
 

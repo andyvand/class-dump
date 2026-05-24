@@ -6,22 +6,13 @@
 
 #import <NetworkExtension/NEIKEv2RequestContext.h>
 
-@class NSObject, NSString, NWEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface NEIKEv2MOBIKEContext : NEIKEv2RequestContext
 {
     _Bool _invalidateTransport;
-    unsigned int _maxRetries;
-    NSString *_mobikeInterface;
-    NWEndpoint *_mobikeEndpoint;
-    unsigned long long _retryIntervalInMilliseconds;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _callback;
 }
 
-- (id);
-- (void)haredSecretReference;
+- (id)u2A;
+- (void)sharedSecretReference;
 - (int)d);
 
 @end

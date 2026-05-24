@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPLocalContactStore, PPXPCServerPipelinedBatchQueryManager;
+@class NSString;
 @protocol PPContactClientProtocol;
 
 @interface PPContactServerRequestHandler
 {
     id <PPContactClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    _Atomic _Bool _isTerminated;
-    PPLocalContactStore *_store;
-    NSString *_clientProcessName;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)p;
+- (void)%p, %u, %p, %llu, %u) = %#x;
+- (void)pendingGroupModification;
+- (void)�c;
 - (void);
 - (void);
 - (void);
+- (void)rtHistoricalMessages:(id)arg1 queryID:(unsigned long long)arg2 hasMessagesBefore:hasMessagesAfter:isReplacingItems:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)moveMemberFromGroupEvent: /* Error: Ran out of types for this method. */;
+- (void)visitRemoveMemberFromGroupEvent: /* Error: Ran out of types for this method. */;
 - (id)Metadata"16@?0@"PPEventMetadata"8;
-- (void)RLengthCharacters;
+- (void)PPTopicAggScoreInputScalarRLengthCharacters;
 - (void)ityDissector:(id)arg1 topicDissector:) /* Error: Ran out of types for this method. */;
 - (void);
 - (id)À;

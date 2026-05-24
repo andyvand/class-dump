@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (void);
+- (void)@?0@"_PASSqliteStatement"8;
 
 @end
 

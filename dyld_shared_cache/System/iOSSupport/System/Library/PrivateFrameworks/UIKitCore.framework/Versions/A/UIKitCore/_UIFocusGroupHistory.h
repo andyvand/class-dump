@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

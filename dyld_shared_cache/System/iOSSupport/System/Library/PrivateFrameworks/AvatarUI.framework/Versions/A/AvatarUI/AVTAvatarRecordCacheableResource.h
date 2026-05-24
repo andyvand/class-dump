@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, NSString;
-@protocol AVTAvatarRecord;
+@class AVTUIEnvironment;
 
 @interface AVTAvatarRecordCacheableResource
 {
     _Bool _includeAvatarData;
-    id <AVTAvatarRecord> _record;
-    AVTUIEnvironment *_environment;
 }
 
 + (id);
@@ -27,20 +24,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeAvatarData; // @synthesize includeAvatarData=_includeAvatarData;
-@property(readonly, nonatomic) id <AVTAvatarRecord> record; // @synthesize record=_record;
-@property(readonly) Class superclass;
 
 @end
 

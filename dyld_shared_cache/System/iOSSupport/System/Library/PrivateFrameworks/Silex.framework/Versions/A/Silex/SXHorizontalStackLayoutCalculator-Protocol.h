@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SXHorizontalStackLayout;
+
 @protocol SXHorizontalStackLayoutCalculator
+- (id <SXHorizontalStackLayout>);
 @end
 

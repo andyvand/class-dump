@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)tokenizeNameString:inferredNameOrder: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

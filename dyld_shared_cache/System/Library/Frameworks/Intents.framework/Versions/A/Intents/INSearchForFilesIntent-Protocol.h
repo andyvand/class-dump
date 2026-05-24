@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INSearchForFilesIntent
+- (NSString *)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)d;
 - (NSString *)ü;
 
 // Remaining properties
-@property(copy) NSString *appId;
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
-@property(copy) NSArray *properties;
-@property(copy) NSString *scope;
-@property(copy) NSString *scopeEntityName;
 @end
 

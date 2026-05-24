@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface BPSFutureResult
 {
     long long _state;
-    NSError *_error;
-    id _value;
 }
 
 + (id);
@@ -22,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface IMAP2Protocol.ParsedStringCache
 {
     id randomNumberGenerator;
-    id elements;
-    id hitCount;
-    id missCount;
 }
 
 @end

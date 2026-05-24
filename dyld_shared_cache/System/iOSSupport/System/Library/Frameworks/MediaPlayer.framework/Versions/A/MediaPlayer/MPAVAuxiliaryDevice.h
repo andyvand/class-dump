@@ -9,10 +9,6 @@
 @interface MPAVAuxiliaryDevice
 {
     _Bool _playing;
-    NSString *_uniqueID;
-    NSString *_productName;
-    NSString *_deviceName;
-    NSString *_modelIdentifier;
 }
 
 + (id);
@@ -22,14 +18,10 @@
 - (id);
 - (_Bool)!Bù?°1Â0@ù
 × ;
-- (void)el: /* Error: Ran out of types for this method. */;
-- (id)rInfoKeyDeltaRequest;
+- (void)setArtistLabel: /* Error: Ran out of types for this method. */;
+- (id)_MPContentItemDidChangeUserInfoKeyDeltaRequest;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(readonly, nonatomic) NSString *productName; // @synthesize productName=_productName;
 @property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

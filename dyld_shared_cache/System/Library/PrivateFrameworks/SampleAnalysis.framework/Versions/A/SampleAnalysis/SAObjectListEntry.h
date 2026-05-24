@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SAObjectListEntry
 {
     id <SASerializable> _instance;
-    unsigned long long _size;
 }
 
 - (void);

@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitBanner
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    GEOFormattedString *_primaryText;
-    GEOFormattedString *_secondaryText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_primaryText:1;
-        unsigned int read_secondaryText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ayTime:(id)arg1;
++ (_Bool)setMinDisplayTime:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)lastObject;
 - (void);
 - (void);
 - (id);
@@ -37,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithIdentifier:(id)arg1 queue:effectiveDate:expirationDuration:heartBeatInterval:heartBeatHandler:invalidationHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -48,20 +34,14 @@
 - (void);
 - (void);
 - (id)Value"b1};
-- (id)asVendor;
-- (id)User;
-- (id)n_address;
+- (id)hasVendor;
+- (id)GEOLogMsgStateUser;
+- (id)has_spoken_address;
 - (void)OÃBAõ·CÃVQ@;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, nonatomic) _Bool hasArtwork;
 @property(readonly, nonatomic) _Bool hasPrimaryText;
-@property(readonly, nonatomic) _Bool hasSecondaryText;
-@property(retain, nonatomic) GEOFormattedString *primaryText;
-@property(retain, nonatomic) GEOFormattedString *secondaryText;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface QCProfileView
 {
     unsigned long long _size;
-    id *_colors;
-    id *_names;
-    NSString *_label;
-    double _units;
-    double *_buffer;
-    unsigned long long _bufferStart;
-    unsigned long long _bufferLength;
-    double *_min;
-    double *_max;
-    void *_unused[4];
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)_remoteParticipantHandles;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)%d, pid=%lld;
 - (id);
 - (void)¸	 ôH
 d,ô4;

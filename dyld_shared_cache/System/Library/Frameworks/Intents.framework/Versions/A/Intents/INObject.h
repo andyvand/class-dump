@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSArray, NSMutableDictionary, NSString;
-
 @interface INObject
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_valueForKeyDictionary;
-    NSString *_identifier;
-    NSString *_displayString;
-    NSString *_pronunciationHint;
-    NSString *_subtitleString;
-    INImage *_displayImage;
-    NSArray *_alternativeSpeakableMatches;
 }
 
 + (_Bool);

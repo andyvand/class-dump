@@ -5,6 +5,7 @@
 //
 
 @protocol LACUIUserPasswordViewController
+- (_Bool)P;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool invalid;

@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLKMeshBufferAllocator, NSMutableOrderedSet, NSString;
-@protocol MDLMeshBufferAllocator;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface GLKMeshBufferZone
 {
     NSMutableOrderedSet *_buffers;
-    _Bool _destroyInvoked;
-    GLKMeshBufferAllocator *_allocator;
-    unsigned int _glBufferName;
-    unsigned long long _capacity;
 }
 
 - (unsigned int);
-- (id);
-- (id);
-- (void);
+- (id)S M  S  F
+;
+- (id)drive can't write index points. Failing.
+;
+- (void)urns will be test burns
+;
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MDLMeshBufferAllocator> allocator; // @synthesize allocator=_allocator;
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int glBufferName; // @synthesize glBufferName=_glBufferName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

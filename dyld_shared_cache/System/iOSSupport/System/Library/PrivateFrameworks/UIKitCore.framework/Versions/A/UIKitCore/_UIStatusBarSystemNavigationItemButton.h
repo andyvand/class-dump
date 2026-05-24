@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (_Bool);
 - (struct CGRect)an assertion that is already invalid. %@;
-- (struct CGRect)PresentationModifierGroupCG;
+- (struct CGRect)ySo27CAPresentationModifierGroupCG;
 
 @end
 

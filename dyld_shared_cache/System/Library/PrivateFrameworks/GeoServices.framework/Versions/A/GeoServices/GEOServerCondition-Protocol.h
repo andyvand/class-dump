@@ -7,12 +7,11 @@
 @class NSArray, NSDate;
 
 @protocol GEOServerCondition
+- (NSArray *)P;
 - (NSDate *)riginationRoutePlanningParameters",&,N;
 - (long long)þ>Q@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long conditionType;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) NSArray *subconditions;
 @end
 

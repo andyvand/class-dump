@@ -5,5 +5,11 @@
 //
 
 @protocol _DASActivitySchedulerIntrospectingServer
+- (void)C;
+- (void)RH;
+- (void)?;
+- (void);
+- (void);
+- (void);
 @end
 

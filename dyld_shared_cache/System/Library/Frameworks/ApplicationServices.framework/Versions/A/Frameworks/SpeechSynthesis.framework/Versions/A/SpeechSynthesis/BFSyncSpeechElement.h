@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)i;
+- (void)controlShadowColor;
 - (void);
 
 // Remaining properties

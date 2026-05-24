@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     VKMapView *_lookAroundView;
 }
 
-- (id);
+- (id)pairWithFirst:second: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)s. Aborting -updateAcconuts:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)info for type %{public}.4s %{public}.4s;
 - (void);
-- (void)rderView: /* Error: Ran out of types for this method. */;
+- (void)setInnerBorderView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VKMapView *lookAroundView; // @synthesize lookAroundView=_lookAroundView;

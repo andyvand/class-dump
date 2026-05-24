@@ -6,32 +6,22 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKMarkAssetBrokenOperationInfo, CKRecordID, CKUploadRequestConfiguration, NSString;
-@protocol CKMarkAssetBrokenOperationCallbacks;
+@class CKRecordID;
 
 @interface CKMarkAssetBrokenOperation : CKDatabaseOperation
 {
     _Bool _touchRepairZone;
-    _Bool _bypassPCSEncryptionForTouchRepairZone;
-    _Bool _simulateCorruptAsset;
-    _Bool _writeRepairRecord;
-    CDUnknownBlockType _markAssetBrokenCompletionBlock;
-    CKRecordID *_recordID;
-    NSString *_field;
-    long long _listIndex;
-    CKRecordID *_repairRecordID;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
 }
 
 + (SEL);
 + (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -41,14 +31,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?+;
 - (void);
 - (void);
 - (void);
@@ -61,26 +51,7 @@
 - (void)ÐoøÿSØí;
 
 // Remaining properties
-@property(nonatomic) _Bool bypassPCSEncryptionForTouchRepairZone; // @synthesize bypassPCSEncryptionForTouchRepairZone=_bypassPCSEncryptionForTouchRepairZone;
-@property(readonly, nonatomic) id <CKMarkAssetBrokenOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *field; // @synthesize field=_field;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long listIndex; // @synthesize listIndex=_listIndex;
-@property(copy, nonatomic) CDUnknownBlockType markAssetBrokenCompletionBlock; // @synthesize markAssetBrokenCompletionBlock=_markAssetBrokenCompletionBlock;
-@property(readonly, nonatomic) CKMarkAssetBrokenOperationInfo *operationInfo; // @dynamic operationInfo;
 @property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) CKRecordID *repairRecordID; // @synthesize repairRecordID=_repairRecordID;
-@property(readonly, copy, nonatomic) CKUploadRequestConfiguration *resolvedUploadRequestConfiguration;
-@property(nonatomic) _Bool simulateCorruptAsset; // @synthesize simulateCorruptAsset=_simulateCorruptAsset;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool touchRepairZone; // @synthesize touchRepairZone=_touchRepairZone;
-@property(copy, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
-@property(nonatomic) _Bool writeRepairRecord; // @synthesize writeRepairRecord=_writeRepairRecord;
 
 @end
 

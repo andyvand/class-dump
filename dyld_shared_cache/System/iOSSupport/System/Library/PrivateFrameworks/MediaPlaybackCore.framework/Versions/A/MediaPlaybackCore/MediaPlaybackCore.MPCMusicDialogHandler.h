@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.MPCMusicDialogHandler
 {
     id publisher;
-    id metrics;
 }
 
 @end

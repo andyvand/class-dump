@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol FBSSceneComponent, FBSSceneObserver;
+@protocol FBSSceneObserver;
 
 @interface FBSSceneObserver
 {
     id <FBSSceneObserver> _observer;
-    id <FBSSceneComponent> _component;
-    unsigned long long _observerAddress;
-    Class _extension;
-    NSSet *_settings;
-    NSSet *_clientSettings;
-    NSSet *_actions;
-    CDUnknownBlockType _settingsHandler;
-    CDUnknownBlockType _clintSettingsHandler;
-    CDUnknownBlockType _actionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    _Bool _respondsToHostHandle;
-    _Bool _respondsToSettings;
-    _Bool _respondsToClientSettings;
-    _Bool _respondsToActions;
-    _Bool _respondsToInvalidate;
-    _Bool _respondsToPrivateActions;
 }
 
 - (void);
@@ -50,18 +33,12 @@
 - (void);
 - (void);
 - (Class);
-- (id);
+- (id)RIs;
 - (void);
-- (id)Option;
+- (id)_showsArchiveOption;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

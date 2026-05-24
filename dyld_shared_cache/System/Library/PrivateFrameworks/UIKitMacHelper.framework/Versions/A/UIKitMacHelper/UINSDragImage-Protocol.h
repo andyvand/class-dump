@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol UINSDragImage
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *imageData;
 @property(readonly, nonatomic) unsigned int slotID;
 @end
 

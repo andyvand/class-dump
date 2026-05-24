@@ -5,5 +5,8 @@
 //
 
 @protocol MNTimeAndDistanceUpdaterDelegate
+- (void);
+- (void)!
+;
 @end
 

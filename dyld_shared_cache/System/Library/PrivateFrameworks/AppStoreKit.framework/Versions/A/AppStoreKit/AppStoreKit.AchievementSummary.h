@@ -7,14 +7,6 @@
 @interface AppStoreKit.AchievementSummary
 {
     id bundleId;
-    id completedAchievements;
-    id totalAchievements;
-    id completedText;
-    id achievements;
-    id action;
-    id clickSender;
-    id id;
-    id automationMetadata;
 }
 
 @end

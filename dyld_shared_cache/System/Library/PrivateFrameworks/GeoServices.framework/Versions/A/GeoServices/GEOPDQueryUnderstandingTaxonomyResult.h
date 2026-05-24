@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDQueryUnderstandingTaxonomyResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_resultItems;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)EORouteHypothesizer";
-- (id)tanceFromRoad;
+- (id)_maxDistanceFromRoad;
 - (id)B°D;
 - (void);
 

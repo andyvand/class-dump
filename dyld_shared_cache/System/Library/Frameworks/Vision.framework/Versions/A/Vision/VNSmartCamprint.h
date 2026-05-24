@@ -24,12 +24,12 @@
 + (id)h;
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_֠;
+- (id);
+- (id)w;
+- (id)n:(id)arg1 changedFields:domainVersion:rawFields:snapshotVersion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)shadow;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *labelsAndConfidence; // @synthesize labelsAndConfidence=_labelsAndConfidence;

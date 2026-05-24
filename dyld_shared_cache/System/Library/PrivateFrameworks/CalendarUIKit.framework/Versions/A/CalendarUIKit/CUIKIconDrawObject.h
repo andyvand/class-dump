@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSString;
+@class NSCalendar;
 
 @interface CUIKIconDrawObject
 {
     NSCalendar *_calendar;
-    NSString *_dayNumber;
-    NSString *_monthName;
-    double _canvasScale;
-    unsigned long long _layers;
-    struct CGSize _canvasSize;
 }
 
-- (id)@ù	;
-- (id);
-- (double)ÿ_Ö#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÑôªøªùªúªö;
-- (id)ëÀ÷ÿT4;
-- (id)}²	;
-- (id)#ÕôO¾©ý{©ýC;
-- (void)#Ó¡¼!Cù¢¼BTCù£¼c4Cùà;
-- (void)_Ö#Õÿ;
-- (id)r;
+- (id);
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (struct CGSize);
 - (double);
@@ -37,11 +32,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, nonatomic) double canvasScale; // @synthesize canvasScale=_canvasScale;
-@property(readonly, nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;
-@property(readonly, copy, nonatomic) NSString *dayNumber; // @synthesize dayNumber=_dayNumber;
-@property(readonly, nonatomic) unsigned long long layers; // @synthesize layers=_layers;
-@property(readonly, copy, nonatomic) NSString *monthName; // @synthesize monthName=_monthName;
 
 @end
 

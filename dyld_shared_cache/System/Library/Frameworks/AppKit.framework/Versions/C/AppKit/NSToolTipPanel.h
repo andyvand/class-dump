@@ -13,7 +13,7 @@
     NSString *_toolTipString;
 }
 
-- (id);
+- (id)OPzhvROZUqCZhgYMyve5BA;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -23,8 +23,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)LProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (void)3;
 - (_Bool)public}@ %p with display name %{sensitive}@ is not waiting to do %{public}@ file access (%{private}@).;
 
 // Remaining properties

@@ -7,8 +7,6 @@
 @interface NewsFeed.FeaturePromotionResolvedDataSourceFactory
 {
     id tagService;
-    id feedPersonalizationService;
-    id subscriptionController;
 }
 
 @end

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, StartPageTitleViewItem;
-@protocol StartPageCollectionSectionProviderDelegate;
+@class NSAppearance, NSString;
 
 __attribute__((visibility("hidden")))
 @interface StartPageTitleSectionProvider
 {
     NSString *_profileIdentifier;
-    NSString *_title;
-    StartPageTitleViewItem *_item;
-    _Bool _usesPrivateBrowsing;
-    _Bool _usesCompactAppearance;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
-    NSAppearance *_appearance;
 }
 
 - (_Bool);
@@ -26,47 +18,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (long long)
 × ;
 - (long long)"NSEvent"32;
-- (id)tesWithURLHost:inProfile: /* Error: Ran out of types for this method. */;
+- (id)removeIgnoredSiriSuggestedSitesWithURLHost:inProfile: /* Error: Ran out of types for this method. */;
 - (void)(;
 - (_Bool);
 - (void)åÿ&XÆtæ-;
 
 // Remaining properties
 @property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

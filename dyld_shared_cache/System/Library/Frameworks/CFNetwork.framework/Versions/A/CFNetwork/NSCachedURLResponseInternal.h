@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURLResponse;
+@class NSURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface NSCachedURLResponseInternal
 {
     NSURLResponse *response;
-    NSData *data;
-    NSDictionary *userInfo;
-    unsigned long long storagePolicy;
-    struct _CFCachedURLResponse *_cachedURLResponse;
 }
 
-- (void);
+- (void)%d (length %d)
+;
 
 @end
 

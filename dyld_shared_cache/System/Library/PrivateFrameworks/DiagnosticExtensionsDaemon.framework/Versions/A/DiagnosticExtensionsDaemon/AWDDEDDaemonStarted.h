@@ -7,26 +7,24 @@
 @interface AWDDEDDaemonStarted
 {
     unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
-- (id);
-- (void);
+- (id)removeObjectForKey: /* Error: Ran out of types for this method. */;
+- (void)needsDecryption;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)lid(value);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)J;
+- (id)0;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

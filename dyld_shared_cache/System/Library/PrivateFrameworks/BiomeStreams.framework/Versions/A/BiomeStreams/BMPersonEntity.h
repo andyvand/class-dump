@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface BMPersonEntity
 {
     NSArray *_names;
-    NSString *_customId;
-    NSString *_contactId;
-    NSArray *_emailAddresses;
-    NSArray *_addresses;
-    NSArray *_phoneNumbers;
-    NSArray *_socialMediaHandles;
-    NSDictionary *_attributes;
 }
 
 - (id);
@@ -24,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)rule_stmt__pack;
+- (id)pg_query__rule_stmt__pack;
 - (id)k %p;
 - (void);
 - (id)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÃÿÿBÿÿDÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÿØö´ÛÜÝÞàáâãäåÿÿopÿÿÿÿÿÿÜÿÿÿÿÿÿÿÿyÿÿÿÿÿÿÿÿ
@@ -36,14 +29,7 @@
 - (id)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSString *contactId; // @synthesize contactId=_contactId;
-@property(readonly, nonatomic) NSString *customId; // @synthesize customId=_customId;
-@property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
 @property(readonly, nonatomic) NSArray *names; // @synthesize names=_names;
-@property(readonly, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, nonatomic) NSArray *socialMediaHandles; // @synthesize socialMediaHandles=_socialMediaHandles;
 
 @end
 

@@ -11,12 +11,12 @@
     id <WFToolKitVariableContent> _variableContent;
 }
 
-+ (id);
++ (id)m2|;
 + (_Bool);
+- (id)2|;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)h:(id)arg1 y;
+- (void)unenrollWithProfileIdentifier:(id)arg1 enrollmentType:scope:error: /* Error: Ran out of types for this method. */;
 - (void)AU°!Eùñ^Ð1Â0@ù
 × ;
 

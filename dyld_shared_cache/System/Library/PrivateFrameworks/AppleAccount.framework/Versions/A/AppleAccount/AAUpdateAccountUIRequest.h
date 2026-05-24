@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)or(Tesla):(id)arg1 dict should not be NULL;
+- (id)backupUuid;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol SXScrollPositionRestoring;
 
 @protocol SXScrollPositionManager
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXScrollPositionRestoring> scrollPositionRestoring;

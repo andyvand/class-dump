@@ -7,11 +7,6 @@
 @interface NewsPersonalization.FileLog
 {
     id configuration;
-    id _targetDirectory;
-    id _targetDirectoryURL;
-    id files;
-    id urls;
-    id targetDirectoryProcessingStatus;
 }
 
 @end

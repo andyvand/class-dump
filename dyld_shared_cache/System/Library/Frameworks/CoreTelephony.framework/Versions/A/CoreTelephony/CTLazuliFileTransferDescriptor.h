@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliCustomMetaData, CTLazuliFileDispositionInformation, CTLazuliFileThumbnailInformation;
+@class CTLazuliFileThumbnailInformation;
 
 @interface CTLazuliFileTransferDescriptor
 {
     CTLazuliFileThumbnailInformation *_thumbnail;
-    CTLazuliFileDispositionInformation *_file;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)e:%f previousRate:%f variant:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)@�?;
 - (void);
 - (void);
 - (id);
@@ -23,15 +21,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)V_authenticationMethod;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliFileDispositionInformation *file; // @synthesize file=_file;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 @property(retain, nonatomic) CTLazuliFileThumbnailInformation *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface WFExecutableAppShortcutIdentifier
 {
     NSString *_bundleIdentifier;
-    NSString *_basePhraseTemplate;
-    NSString *_actionIdentifier;
-    NSUUID *_parameterIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)(F3e;
 
 @end
 

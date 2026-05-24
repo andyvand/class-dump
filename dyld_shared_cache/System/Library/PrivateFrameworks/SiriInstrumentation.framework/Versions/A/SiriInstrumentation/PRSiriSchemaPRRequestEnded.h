@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PRSiriSchemaPRRequestEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_transcriptEventId;
-    int _eventName;
-    struct {
-        unsigned int eventName:1;
-    } _has;
-    _Bool _hasTranscriptEventId;
 }
 
 - (id);
@@ -30,21 +25,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)Metadata/ASDWatchAppMetadata.m:156 :Unsupported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)j6;
+- (_Bool)on completed in %f seconds;
 - (int);
 - (id);
 - (id);
-- (id)rentPronunciation;
+- (id)_siriCurrentPronunciation;
 - (id)V_isSummarized;
-- (void)ECASE_EVENT_WINNER;
+- (void)FLOWSPORTSUSECASE_EVENT_WINNER;
 
 // Remaining properties
-@property(nonatomic) int eventName; // @synthesize eventName=_eventName;
-@property(nonatomic) _Bool hasEventName;
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end

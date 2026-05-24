@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned int);
-- (int);
-- (id);
+- (int);
+- (id);
 - (int);
 - (_Bool);
 - (void);

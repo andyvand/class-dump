@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMApplicationListInstalledApplicationsCommand : CEMCommandBase
 {
@@ -23,19 +23,12 @@
 - (id);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)mmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadBundleIdentifiers; // @synthesize payloadBundleIdentifiers=_payloadBundleIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

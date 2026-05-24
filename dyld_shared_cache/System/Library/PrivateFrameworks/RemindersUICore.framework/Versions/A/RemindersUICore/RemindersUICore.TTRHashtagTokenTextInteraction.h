@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRHashtagTokenTextInteraction
 {
     id tokenEditingBehavior;
-    id tokenEditor;
 }
 
 @end

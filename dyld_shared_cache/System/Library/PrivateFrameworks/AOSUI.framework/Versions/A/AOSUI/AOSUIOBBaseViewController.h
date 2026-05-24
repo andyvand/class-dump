@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUIAccountContactBaseViewModel, AOSUIOBTemplateContainerViewController, OBTemplateView;
-@protocol AOSUIOBBaseViewControllerDelegate;
+@class AOSUIAccountContactBaseViewModel, OBTemplateView;
 
 @interface AOSUIOBBaseViewController
 {
     AOSUIAccountContactBaseViewModel *_currentViewModel;
-    AOSUIOBTemplateContainerViewController *_containerView;
-    id <AOSUIOBBaseViewControllerDelegate> _delegate;
-    OBTemplateView *_templateView;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
@@ -32,11 +28,9 @@
 - (void)QY1Â0@ù
 × ;
 - (void);
-- (id)optionsViewRandomRadioButton;
+- (id)_optionsViewRandomRadioButton;
 
 // Remaining properties
-@property(retain, nonatomic) AOSUIOBTemplateContainerViewController *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) __weak id <AOSUIOBBaseViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end

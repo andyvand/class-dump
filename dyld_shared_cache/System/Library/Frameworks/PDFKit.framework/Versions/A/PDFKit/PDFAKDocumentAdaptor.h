@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKModelController, NSString, NSView, PDFDocument, PDFView;
-@protocol PDFAKControllerDelegateProtocol;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKDocumentAdaptor
 {
     _Bool _isTornDown;
-    PDFDocument *_pdfDocument;
-    PDFView *_pdfView;
-    AKController *_akController;
-    id <PDFAKControllerDelegateProtocol> _pdfAKControllerDelegate;
-    double _modelBaseScaleFactor;
 }
 
-+ (void);
++ (void)@;
 + (_Bool);
 - (void);
 - (id);
@@ -42,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)6u;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -83,35 +77,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)geometryElementWithData:primitiveType:primitiveCount:bytesPerIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PDFAKControllerDelegateProtocol> PDFAKControllerDelegate;
-@property(readonly, nonatomic) AKModelController *akDocumentModelController;
-@property(readonly, nonatomic) AKController *akMainController;
-@property(readonly, nonatomic) NSView *akToolbarView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *originalImageDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) __weak PDFDocument *pdfDocument;
 @property(nonatomic) __weak PDFView *pdfView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsFormFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImageDescriptionEditing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

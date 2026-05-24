@@ -6,28 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface DUSchemaDUSpeechAudioRecord : SISchemaInstrumentationMessage
 {
     NSString *_language;
-    NSString *_codec;
-    SISchemaUUID *_interactionId;
-    SISchemaUUID *_speechId;
-    NSString *_speechIdString;
-    unsigned long long _audioCreatedTimestampMs;
-    struct {
-        unsigned int audioCreatedTimestampMs:1;
-    } _has;
-    _Bool _hasLanguage;
-    _Bool _hasCodec;
-    _Bool _hasInteractionId;
-    _Bool _hasSpeechId;
-    _Bool _hasSpeechIdString;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -46,14 +33,14 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)x;
+- (void);
+- (id);
+- (void)o}d, err_string:(id)arg1 %{public}s;
 - (_Bool);
+- (id)_xpc_iapd_handle_message_block_invoke;
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)sertion:(id)arg1 onBehalfOf:behaviourWhenSleepStarted:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -69,19 +56,7 @@
 - (id)+;
 
 // Remaining properties
-@property(nonatomic) unsigned long long audioCreatedTimestampMs; // @synthesize audioCreatedTimestampMs=_audioCreatedTimestampMs;
-@property(copy, nonatomic) NSString *codec; // @synthesize codec=_codec;
-@property(nonatomic) _Bool hasAudioCreatedTimestampMs;
-@property(nonatomic) _Bool hasCodec; // @synthesize hasCodec=_hasCodec;
-@property(nonatomic) _Bool hasInteractionId; // @synthesize hasInteractionId=_hasInteractionId;
-@property(nonatomic) _Bool hasLanguage; // @synthesize hasLanguage=_hasLanguage;
-@property(nonatomic) _Bool hasSpeechId; // @synthesize hasSpeechId=_hasSpeechId;
-@property(nonatomic) _Bool hasSpeechIdString; // @synthesize hasSpeechIdString=_hasSpeechIdString;
-@property(retain, nonatomic) SISchemaUUID *interactionId; // @synthesize interactionId=_interactionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) SISchemaUUID *speechId; // @synthesize speechId=_speechId;
-@property(copy, nonatomic) NSString *speechIdString; // @synthesize speechIdString=_speechIdString;
 
 @end
 

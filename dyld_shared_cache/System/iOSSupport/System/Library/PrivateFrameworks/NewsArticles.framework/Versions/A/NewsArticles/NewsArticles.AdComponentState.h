@@ -9,12 +9,11 @@
 @interface NewsArticles.AdComponentState
 {
     void identifier;
-    id bannerState;
 }
 
 - (id);
-- (id);
-- (void)ismiss;
+- (id)ns"16;
+- (void)dismiss;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

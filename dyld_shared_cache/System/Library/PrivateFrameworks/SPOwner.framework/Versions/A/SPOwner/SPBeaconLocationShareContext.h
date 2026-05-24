@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, SPBeaconSharingAppBundleIdentifier;
+@class NSUUID;
 
 @interface SPBeaconLocationShareContext
 {
     NSUUID *_beaconIdentifier;
-    SPBeaconSharingAppBundleIdentifier *_bundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)track_count;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, copy, nonatomic) SPBeaconSharingAppBundleIdentifier *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 
 @end
 

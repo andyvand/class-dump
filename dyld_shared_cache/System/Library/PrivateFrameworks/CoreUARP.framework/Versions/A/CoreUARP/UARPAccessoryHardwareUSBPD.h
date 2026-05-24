@@ -9,36 +9,23 @@
 @interface UARPAccessoryHardwareUSBPD : UARPAccessoryHardwareID
 {
     long long _usbpdClass;
-    _Bool _isMagSafeCable;
-    _Bool _isPowerAdapter;
-    _Bool _isUSBCLightning;
-    _Bool _supportsAccMode7;
-    unsigned short _vendorID;
-    unsigned short _productID;
-    long long _location;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_TtC18AppleMediaServicesP33_228D6351502E5848C4E12250F24ED40C10FinishOnce;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned short);
-- (_Bool);
+- (_Bool)Q#Q	y;
 - (long long);
-- (unsigned short);
+- (unsigned short),;
 
 // Remaining properties
-@property(readonly) _Bool isMagSafeCable; // @synthesize isMagSafeCable=_isMagSafeCable;
-@property(readonly) _Bool isPowerAdapter; // @synthesize isPowerAdapter=_isPowerAdapter;
-@property(readonly) _Bool isUSBCLightning; // @synthesize isUSBCLightning=_isUSBCLightning;
-@property(readonly) long long location; // @synthesize location=_location;
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
-@property(readonly) _Bool supportsAccMode7; // @synthesize supportsAccMode7=_supportsAccMode7;
 @property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 
 @end

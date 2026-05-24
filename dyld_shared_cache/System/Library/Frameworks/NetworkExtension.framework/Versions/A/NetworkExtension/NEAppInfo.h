@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
-
 @interface NEAppInfo
 {
     int _pid;
-    NSUUID *_uuid;
-    NSString *_bundleID;
-    NSString *_appVersion;
-    NSData *_cdHash;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)setInterruptionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)undDevice:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)Code;
+- (void)opCode;
 
 @end
 

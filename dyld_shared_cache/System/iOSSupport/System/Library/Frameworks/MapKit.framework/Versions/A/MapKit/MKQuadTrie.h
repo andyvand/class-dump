@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MKQuadTrie
 {
     unsigned int _maxItems;
-    CDStruct_8caa76fc _minSize;
-    CDStruct_02837cd9 _initialRegion;
-    void *__root;
 }
 
 - (id);
@@ -20,15 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)c@9;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool)adPhotos;
+- (_Bool)_loadPhotos;
 
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void)ta IS NOT NULL;
 - (id);
 - (id);
-- (id);
+- (id)setReferenceItemIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

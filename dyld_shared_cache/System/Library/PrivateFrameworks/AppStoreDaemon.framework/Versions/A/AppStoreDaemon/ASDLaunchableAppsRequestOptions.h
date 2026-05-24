@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (id)ases:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (id)processPurchases:withReplyHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;

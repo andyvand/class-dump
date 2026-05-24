@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDistributedTimestampClockVector, CKDistributedTimestampStateVector;
+@class CKDistributedTimestampClockVector;
 
 @interface CKMergeableDeltaVectors
 {
     CKDistributedTimestampClockVector *_previous;
-    CKDistributedTimestampStateVector *_contents;
-    CKDistributedTimestampStateVector *_removals;
-    CKDistributedTimestampClockVector *_dependencies;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id)eZoneIDsToSaveForSerializationTests:(id)arg1;
++ (id)setFakeZoneIDsToSaveForSerializationTests:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,20 +23,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)validateExpectationsWithDirectlyBoundInputs:outputs:error: /* Error: Ran out of types for this method. */;
+- (id)isAllowedValue:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)br_URLByResolvingInProcessExternalDocumentReferenceWithProperties: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)(µÉÿÿÿÿÿ´;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CKDistributedTimestampStateVector *contents; // @synthesize contents=_contents;
-@property(readonly, copy, nonatomic) CKDistributedTimestampClockVector *dependencies; // @synthesize dependencies=_dependencies;
 @property(readonly, copy, nonatomic) CKDistributedTimestampClockVector *previous; // @synthesize previous=_previous;
-@property(readonly, copy, nonatomic) CKDistributedTimestampStateVector *removals; // @synthesize removals=_removals;
 
 @end
 

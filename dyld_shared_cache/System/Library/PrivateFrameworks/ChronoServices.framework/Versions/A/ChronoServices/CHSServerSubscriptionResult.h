@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
 @protocol BSInvalidatable;
 
 @interface CHSServerSubscriptionResult
 {
     id <BSInvalidatable> _assertion;
-    NSObject *_value;
-    NSError *_error;
 }
 
 - (id);
@@ -24,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <BSInvalidatable> assertion; // @synthesize assertion=_assertion;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSObject *value; // @synthesize value=_value;
 
 @end
 

@@ -6,13 +6,9 @@
 
 #import <PhotosImagingFoundation/IPAAdjustment.h>
 
-@class NSDictionary, NSString;
-
 @interface IPAPhotoAdjustment : IPAAdjustment
 {
     _Bool _enabled;
-    NSString *_maskUUID;
-    NSDictionary *_autoSettings;
 }
 
 - (void);
@@ -23,12 +19,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)setFeaturesDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *autoSettings; // @synthesize autoSettings=_autoSettings;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSString *maskUUID; // @synthesize maskUUID=_maskUUID;
 
 @end
 

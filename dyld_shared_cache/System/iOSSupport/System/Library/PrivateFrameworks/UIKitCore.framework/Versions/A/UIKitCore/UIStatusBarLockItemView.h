@@ -6,56 +6,45 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class NSString, UIView, _UIExpandingGlyphsView, _UIStatusBarLockItemPadlockView;
+@class _UIStatusBarLockItemPadlockView;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarLockItemView : UIStatusBarItemView
 {
     _Bool _alongsideViewIsBecomingVisible;
-    int _animationCount;
-    UIView *_viewToAnimateAlongside;
-    _UIStatusBarLockItemPadlockView *_padlockView;
-    UIView *_textClippingView;
-    _UIExpandingGlyphsView *_textView;
-    double _padlockViewCenterOffsetFromForegroundViewCenter;
-    UIView *_timeItemSnapshot;
-    double _timeItemSnapshotCenterOffsetFromForegroundViewCenter;
-    double _widthNeededDuringAnimation;
-    double _widthNeededForFinalState;
-    CDUnknownBlockType _animationCompletionBlock;
 }
 
 + (double);
+- (double)chat:updateLastAddressedSIMID: /* Error: Ran out of types for this method. */;
 - (double);
+- (id)beginPeriodicSyncWithChecks:priority:reason: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateDeviceConditionsToCheckIfNeededForCurrentBatchCount:(id)arg1 maxBatchCount:(int)arg2;
+- (double)_transferId;
+- (double)_mininimumServerBagClientValue;
+- (id)_minimumChatComingOnlineSyncInterval;
+- (id)_isMessageFromPairedDeviceFromIdentifier:toIdentifier:fromToken:checkFor: /* Error: Ran out of types for this method. */;
+- (void)ncProtocol>",N,R;
+- (void)_changedBuddies;
+- (void)PCSKeyRollPendingAsync:(_Bool)arg1 timeout:(struct CGRect)arg2;
+- (void)DisplayName;
+- (void)N;
+- (void)dateFromString:(id)arg1;
+- (void)W,N,V_mainService;
+- (void);
+- (void);
+- (void);
 - (double);
 - (id);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
+- (void) ;
+- (CDUnknownBlockType)but no information were provided;
+- (void)umber (%lu, old:(id)arg1 %lu), dropping deny/allow list update;
+- (_Bool)ad to done;
 - (void);
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (void)onWithClass:(id)arg1;
+- (void)interactionWithClass:(id)arg1;
 - (id)ics] setSessionIdentifier:%@ -> %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
@@ -64,25 +53,7 @@ __attribute__((visibility("hidden")))
 - (id)@z;
 
 // Remaining properties
-@property(nonatomic) _Bool alongsideViewIsBecomingVisible; // @synthesize alongsideViewIsBecomingVisible=_alongsideViewIsBecomingVisible;
-@property(copy, nonatomic) CDUnknownBlockType animationCompletionBlock; // @synthesize animationCompletionBlock=_animationCompletionBlock;
-@property(nonatomic) int animationCount; // @synthesize animationCount=_animationCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _UIStatusBarLockItemPadlockView *padlockView; // @synthesize padlockView=_padlockView;
-@property(nonatomic) double padlockViewCenterOffsetFromForegroundViewCenter; // @synthesize padlockViewCenterOffsetFromForegroundViewCenter=_padlockViewCenterOffsetFromForegroundViewCenter;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *textClippingView; // @synthesize textClippingView=_textClippingView;
-@property(retain, nonatomic) _UIExpandingGlyphsView *textView; // @synthesize textView=_textView;
-@property(retain, nonatomic) UIView *timeItemSnapshot; // @synthesize timeItemSnapshot=_timeItemSnapshot;
-@property(nonatomic) double timeItemSnapshotCenterOffsetFromForegroundViewCenter; // @synthesize timeItemSnapshotCenterOffsetFromForegroundViewCenter=_timeItemSnapshotCenterOffsetFromForegroundViewCenter;
-@property(nonatomic) __weak UIView *viewToAnimateAlongside; // @synthesize viewToAnimateAlongside=_viewToAnimateAlongside;
-@property(nonatomic) double widthNeededDuringAnimation; // @synthesize widthNeededDuringAnimation=_widthNeededDuringAnimation;
-@property(nonatomic) double widthNeededForFinalState; // @synthesize widthNeededForFinalState=_widthNeededForFinalState;
 
 @end
 

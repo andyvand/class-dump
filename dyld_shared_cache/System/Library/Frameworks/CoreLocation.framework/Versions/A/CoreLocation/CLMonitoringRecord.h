@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCondition, CLMonitoringEvent, NSString;
+@class CLCondition, NSString;
 
 @interface CLMonitoringRecord
 {
     CLCondition *_condition;
-    CLMonitoringEvent *_lastEvent;
-    unsigned long long _options;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ContextDrawImageWithOptions failed -- falling back to CGContextDrawImage
+;
 - (id);
 - (id);
 - (id);
@@ -33,11 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) CLCondition *condition; // @synthesize condition=_condition;
-@property(readonly) CLCondition *constraint;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly) CLMonitoringEvent *lastEvent; // @synthesize lastEvent=_lastEvent;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

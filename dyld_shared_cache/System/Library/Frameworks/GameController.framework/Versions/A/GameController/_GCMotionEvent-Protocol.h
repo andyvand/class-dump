@@ -5,21 +5,11 @@
 //
 
 @protocol _GCMotionEvent
+- (_Bool);
+- (_Bool)L;
+- (double)2;
 
 // Remaining properties
-@property(readonly) double accelerometerX;
-@property(readonly) double accelerometerY;
-@property(readonly) double accelerometerZ;
-@property(readonly) double attitudeW;
-@property(readonly) double attitudeX;
-@property(readonly) double attitudeY;
-@property(readonly) double attitudeZ;
-@property(readonly) double gyroPitch;
-@property(readonly) double gyroRoll;
-@property(readonly) double gyroYaw;
-@property(readonly) _Bool hasAccelerometer;
-@property(readonly) _Bool hasAttitude;
-@property(readonly) _Bool hasGyro;
 @property(readonly) unsigned long long timestamp;
 @end
 

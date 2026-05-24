@@ -6,14 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLRecordView.h>
 
-@class CPLRecordChange, CPLScopedIdentifier;
-@protocol CPLEngineIDMapping;
+@class CPLScopedIdentifier;
 
 @interface CPLClientCacheRecordView : CPLRecordView
 {
     CPLScopedIdentifier *_localScopedIdentifier;
-    CPLRecordChange *_cloudRecord;
-    id <CPLEngineIDMapping> _idMapping;
 }
 
 - (id);
@@ -21,12 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%;
 - (id);
 - (Class);
 - (id);
-- (id)Áú;
-- (id)©°BÀ?àªTýªL]ö;
+- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -34,8 +31,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLRecordChange *cloudRecord; // @synthesize cloudRecord=_cloudRecord;
-@property(readonly, nonatomic) id <CPLEngineIDMapping> idMapping; // @synthesize idMapping=_idMapping;
 @property(readonly, nonatomic) CPLScopedIdentifier *localScopedIdentifier;
 
 @end

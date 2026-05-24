@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableArray, NSObject, SCNMaterial;
-@protocol OS_dispatch_queue;
-
 @interface PKPeerPayment3DStore
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_activeScenes;
-    NSCache *_cache;
-    SCNMaterial *_textMaterial;
-    NSObject<OS_dispatch_queue> *_sceneLoadingQueue;
-    CDStruct_95fa7c00 _rotationMatrix;
-    id _skew;
-    id _lastRollPitch;
-    CDStruct_95fa7c00 _staticRotationMatrix;
-    id _staticSkew;
 }
 
 + (id);
@@ -26,13 +14,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)LPLinkViewRepresentable;
+- (id)CB;
 - (void);
 - (void);
 

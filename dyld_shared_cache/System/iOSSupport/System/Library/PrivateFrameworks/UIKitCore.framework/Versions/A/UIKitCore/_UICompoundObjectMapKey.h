@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)nager:(id)arg1;
+- (_Bool)setUinsSheetManager:(id)arg1;
 - (id)PickerRemoteViewController",R,&,N,G_remoteViewController;
 - (void)ï×ÿi`;
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @protocol INImageExport
++ (id)(;
+- (NSString *)T;
+- (NSString *)ation;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setBundlePath:) NSString *_bundlePath;
 @property(readonly, copy, nonatomic) NSString *_identifier;
-@property(copy, nonatomic, setter=_setImageData:) NSData *_imageData;
-@property(copy, nonatomic, setter=_setName:) NSString *_name;
-@property(copy, nonatomic, setter=_setUri:) NSURL *_uri;
 @end
 

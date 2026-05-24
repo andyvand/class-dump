@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSMutableDictionary, NSProgressIndicator, NSStackView, NSTextField;
+@class NSButton, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SidecarPopoverViewController
 {
     NSMutableDictionary *_imageViewCache;
-    NSBox *_horizontalLine;
-    NSButton *_cancelButton;
-    NSStackView *_imageStack;
-    NSProgressIndicator *_progress;
-    NSTextField *_textField;
-    unsigned int _deallocating:1;
 }
 
-- (id);
+- (id)akSetFont:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)akModelToCanvasFixedPixelScaleOfFirstEncounteredPage;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)ledAppSet];
 - (void);
 - (void);
 - (void);

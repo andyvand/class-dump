@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDShareIDCacheRecordTable, CKDShareIDCacheTable, CKDZoneIDCacheTable, CKDZoneShareCacheTable;
+@class CKContainerID;
 
 @interface CKDShareIDSQLCache
 {
     CKContainerID *_containerID;
-    CKDZoneIDCacheTable *_zoneIDTable;
-    CKDShareIDCacheTable *_shareIDTable;
-    CKDZoneShareCacheTable *_zoneShareTable;
-    CKDShareIDCacheRecordTable *_recordTable;
 }
 
 + (id);
@@ -25,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)&;
 - (void);
 - (id);
 - (void);
@@ -42,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, nonatomic) CKDShareIDCacheRecordTable *recordTable; // @synthesize recordTable=_recordTable;
-@property(readonly, nonatomic) CKDShareIDCacheTable *shareIDTable; // @synthesize shareIDTable=_shareIDTable;
-@property(readonly, nonatomic) CKDZoneIDCacheTable *zoneIDTable; // @synthesize zoneIDTable=_zoneIDTable;
-@property(readonly, nonatomic) CKDZoneShareCacheTable *zoneShareTable; // @synthesize zoneShareTable=_zoneShareTable;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMDrawableMapper, NSAffineTransform, NSMutableArray;
+@class CMDrawableMapper;
 
 __attribute__((visibility("hidden")))
 @interface CMDrawingContext
 {
     CMDrawableMapper *_mapper;
-    NSMutableArray *_actions;
-    struct CGRect _frame;
-    struct CGRect _finalFrame;
-    struct __CFData *_data;
-    struct CGDataConsumer *_dataConsumer;
-    struct CGContext *_cgContext;
-    NSAffineTransform *_currentTransform;
-    NSMutableArray *_transforms;
-    struct CGImage *_fillImage;
 }
 
 - (struct CGRect);
@@ -47,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (void)6I20i24i28;
-- (void)sFlipped:(struct CGColor *)arg1;
+- (void)drawInRect:(struct CGColor *)arg1 fromRect:isFlipped: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿ¾;
 

@@ -6,41 +6,27 @@
 
 #import <CoreDAV/CoreDAVTask.h>
 
-@class NSData, NSDictionary, NSMutableSet, NSSet, NSString;
+@class NSDictionary, NSString;
 
 @interface CoreDAVBulkChangeTask : CoreDAVTask
 {
     NSString *_appSpecificNamespace;
-    NSString *_appSpecificDataProp;
-    NSDictionary *_uuidsToAddActions;
-    NSDictionary *_hrefsToModDeleteActions;
-    NSString *_checkCTag;
-    _Bool _simple;
-    _Bool _returnChangedData;
-    NSData *_pushedData;
-    _Bool _validCTag;
-    NSString *_nextCTag;
-    NSMutableSet *_bulkChangeResponses;
-    NSString *_requestDataContentType;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)s;
+- (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)P;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)xmlsoap.org/soap/envelope/;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *bulkChangeResponses; // @synthesize bulkChangeResponses=_bulkChangeResponses;
-@property(readonly, nonatomic) NSDictionary *hrefsToModDeleteActions; // @synthesize hrefsToModDeleteActions=_hrefsToModDeleteActions;
-@property(readonly, nonatomic) NSString *nextCTag; // @synthesize nextCTag=_nextCTag;
 @property(readonly, nonatomic) NSDictionary *uuidsToAddActions; // @synthesize uuidsToAddActions=_uuidsToAddActions;
 
 @end

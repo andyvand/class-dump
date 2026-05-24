@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TMTime
 {
     _Bool _synthesized;
-    _Bool _reliability;
-    long long _rtc_ns;
-    long long _utc_ns;
-    double _utcUnc_s;
-    double _sf;
-    double _sfUnc;
-    NSString *_source;
 }
 
-+ (id);
++ (id)';
 + (id);
 + (_Bool);
 - (void);
 - (void);
+- (void)!;
+- (id)processing:(id)arg1 Whether to preserve compound words that exist in the units file, if set to true, the compound word won't be split. Example:If New_York is a unit, 'New_York' will not be split into 'New York' /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (long long);
+- (long long);
 - (double);
 - (void);
 - (id);
@@ -45,25 +36,16 @@
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (double);
-- (long long);
-- (void);
+- (long long)TA];
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool reliability; // @synthesize reliability=_reliability;
-@property(nonatomic) long long rtc_ns; // @synthesize rtc_ns=_rtc_ns;
 @property(nonatomic) double rtc_s;
-@property(nonatomic) double sf; // @synthesize sf=_sf;
-@property(nonatomic) double sfUnc; // @synthesize sfUnc=_sfUnc;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(nonatomic, getter=isSynthesized) _Bool synthesized; // @synthesize synthesized=_synthesized;
-@property(nonatomic) double utcUnc_s; // @synthesize utcUnc_s=_utcUnc_s;
-@property(nonatomic) long long utc_ns; // @synthesize utc_ns=_utc_ns;
-@property(nonatomic) double utc_s;
 
 @end
 

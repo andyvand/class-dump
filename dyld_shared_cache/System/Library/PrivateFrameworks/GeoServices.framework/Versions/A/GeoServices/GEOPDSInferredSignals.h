@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSInferredInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSInferredSignals
 {
     PBUnknownFields *_unknownFields;
-    GEOPDSInferredInfo *_inferredInfo;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"read_problemCategoriesURLLegacy"b1"read_problemOptInURLLegacy"b1"read_problemStatusURLLegacy"b1"read_problemSubmissionURLLegacy"b1"read_realtimeTrafficProbeURLLegacy"b1"read_regionalResourceCanonicalNameToFileName"b1"read_regionalResourceRegions"b1"read_regionalResourceTiles"b1"read_regionalResourcesURLLegacy"b1"read_regionalResources"b1"read_releaseInfo"b1"read_reserved"b1"read_resourceCanonicalNameToFileName"b1"read_resourcesURLLegacy"b1"read_resources"b1"read_reverseGeocoderVersionsURLLegacy"b1"read_searchAttributionManifestURLLegacy"b1"read_simpleETAURLLegacy"b1"read_spatialLookupURLLegacy"b1"read_staleResources"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileSets"b1"read_uniqueIdentifier"b1"read_urlInfoSet"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)harge;
+- (id)_outOfCharge;
 - (id)]à^ø_Papbøc¼e(gDhi;
 - (void);
 

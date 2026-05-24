@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _INPBIntentResponsePayloadSuccess
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasResponseMessageData;
-@property(readonly, nonatomic) _Bool hasResponseTypeName;
-@property(nonatomic) _Bool hasShouldOpenContainingApplication;
 @property(copy, nonatomic) NSData *responseMessageData;
-@property(copy, nonatomic) NSString *responseTypeName;
-@property(nonatomic) _Bool shouldOpenContainingApplication;
 @end
 

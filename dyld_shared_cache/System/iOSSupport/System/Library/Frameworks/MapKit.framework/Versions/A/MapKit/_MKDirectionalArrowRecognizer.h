@@ -8,29 +8,21 @@ __attribute__((visibility("hidden")))
 @interface _MKDirectionalArrowRecognizer
 {
     id _target;
-    SEL _action;
-    long long _state;
-    long long _arrows;
-    long long _lastArrows;
-    long long _modifierFlags;
 }
 
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void)=(;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void)ont;
+- (void)hasLookAroundStorefront;
 
 // Remaining properties
-@property(readonly, nonatomic) long long arrows; // @synthesize arrows=_arrows;
-@property(readonly, nonatomic) long long lastArrows; // @synthesize lastArrows=_lastArrows;
-@property(nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
 @property(nonatomic) long long state; // @synthesize state=_state;
 
 @end

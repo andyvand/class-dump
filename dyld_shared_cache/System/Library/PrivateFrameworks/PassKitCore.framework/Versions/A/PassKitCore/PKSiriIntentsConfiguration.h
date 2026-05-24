@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)_uLCAPriCarDLFreq;
 - (id);
-- (id)e;
+- (id)participantHandle;
 - (void);
 
 // Remaining properties

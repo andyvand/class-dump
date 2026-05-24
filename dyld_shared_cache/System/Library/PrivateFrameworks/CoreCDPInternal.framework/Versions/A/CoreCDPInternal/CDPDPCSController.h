@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext;
 @protocol CDPProtectedCloudStorageProxy;
 
 @interface CDPDPCSController
 {
     id <CDPProtectedCloudStorageProxy> _pcsProxy;
-    CDPContext *_context;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (struct _PCSIdentitySetData *);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)WBSOfflineSearchSuggestionsFetcherDelegate;
+- (void)TitleAndStackViewController;
+- (void)ExtensionIconTintedImageRep;
+- (void)TabSearchTabInfoForFiltering;
+- (void)StartPageFeatureAvailabilityCollectionViewItemDelegate;
+- (void)StartPageFeatureAvailabilitySectionProvider;
+- (id)StartPageCollectionViewLayout;
+- (id)StartPageCollectionViewControllerItemRegister;
+- (_Bool)SpringAnimationEvaluator;
+- (_Bool)SpotlightBookmarksWriter;
+- (id)SecureDefaultsMigrator;
+- (void)SandboxExtensionPresentationController;
+- (void)_SandboxDownloadEntry;
+- (void)`;
+- (void)SafariNSFileManagerExtras;
+- (_Bool)RemoteNotificationCenterRequest;
+- (void)ReadingListFetcherNavigationDelegate;
+- (void)ReaderContainerViewController;
+- (id)PreferencesModule;
+- (struct _PCSIdentitySetData *)AccordionHostable;
+- (id)LibraryTableCellViewDelegate;
+- (void)HomepageServiceViewController;
+- (id)FrecentsStartPagePlaceholderViewItem;
+- (void)_ASCredentialListViewControllerDelegate;
 - (id);
 - (void);
 - (void);
@@ -45,7 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CDPContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) id <CDPProtectedCloudStorageProxy> pcsProxy; // @synthesize pcsProxy=_pcsProxy;
 
 @end

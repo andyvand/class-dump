@@ -5,5 +5,11 @@
 //
 
 @protocol IMKCandidatesDelegate
+- (void)Ts";
+- (void);
+- (void)T;
+
+@optional
+- (unsigned long long);
 @end
 

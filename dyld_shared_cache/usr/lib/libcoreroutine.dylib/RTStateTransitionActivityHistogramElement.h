@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     double _interval;
 }
 
-- (double);
+- (double)lAddressChange: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)P;
 
 // Remaining properties
 @property(nonatomic) double interval; // @synthesize interval=_interval;

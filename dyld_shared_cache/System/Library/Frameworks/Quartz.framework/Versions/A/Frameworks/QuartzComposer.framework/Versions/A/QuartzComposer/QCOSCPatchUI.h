@@ -6,19 +6,17 @@
 
 #import <QuartzComposer/QCNetworkPatchUI.h>
 
-@class NSPopUpButton, NSTableView, NSTextField;
+@class NSTextField;
 
 @interface QCOSCPatchUI : QCNetworkPatchUI
 {
     NSTextField *portName;
-    NSPopUpButton *portType;
-    NSTableView *tableView;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_binaryIPv4NetworkSignature;
+- (void)Enabled;
 - (id);
 - (long long);
 

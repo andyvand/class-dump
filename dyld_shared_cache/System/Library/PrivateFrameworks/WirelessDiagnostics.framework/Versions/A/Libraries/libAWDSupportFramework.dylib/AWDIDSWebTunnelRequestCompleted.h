@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSWebTunnelRequestCompleted
 {
     unsigned long long _requestSize;
-    unsigned long long _timeTaken;
-    unsigned long long _timestamp;
-    int _deliveryType;
-    NSString *_serviceIdentifier;
-    int _tunnelError;
-    _Bool _reversePushAttempted;
-    struct {
-        unsigned int requestSize:1;
-        unsigned int timeTaken:1;
-        unsigned int timestamp:1;
-        unsigned int deliveryType:1;
-        unsigned int tunnelError:1;
-        unsigned int reversePushAttempted:1;
-    } _has;
 }
 
 - (int);
@@ -30,11 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)l	
+J;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)A|;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,40 +29,27 @@
 - (unsigned long long);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)_;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
-- (id);
-- (_Bool)rfaceIdentifier;
+- (id);
+- (_Bool)_interfaceIdentifier;
 
 // Remaining properties
-@property(nonatomic) int deliveryType; // @synthesize deliveryType=_deliveryType;
-@property(nonatomic) _Bool hasDeliveryType;
-@property(nonatomic) _Bool hasRequestSize;
-@property(nonatomic) _Bool hasReversePushAttempted;
-@property(readonly, nonatomic) _Bool hasServiceIdentifier;
-@property(nonatomic) _Bool hasTimeTaken;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTunnelError;
-@property(nonatomic) unsigned long long requestSize; // @synthesize requestSize=_requestSize;
-@property(nonatomic) _Bool reversePushAttempted; // @synthesize reversePushAttempted=_reversePushAttempted;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(nonatomic) unsigned long long timeTaken; // @synthesize timeTaken=_timeTaken;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int tunnelError; // @synthesize tunnelError=_tunnelError;
 
 @end
 

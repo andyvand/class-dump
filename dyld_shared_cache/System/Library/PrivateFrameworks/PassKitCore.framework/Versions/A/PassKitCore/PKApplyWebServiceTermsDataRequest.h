@@ -6,15 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKApplyWebServiceTermsDataRequest : PKApplyWebServiceRequest
 {
     NSURL *_baseURL;
-    unsigned long long _featureIdentifier;
-    NSString *_applicationIdentifier;
-    NSString *_termsIdentifier;
-    NSString *_termsDataFormat;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -25,21 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)3+;
 - (void);
 - (unsigned long long);
-- (id)ropertyImage;
+- (id)_transparentMaterialPropertyImage;
 - (void);
 - (void);
 - (id)¯ÿÆ¾½;
 - (void)n`Ñ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSString *termsDataFormat; // @synthesize termsDataFormat=_termsDataFormat;
-@property(copy, nonatomic) NSString *termsIdentifier; // @synthesize termsIdentifier=_termsIdentifier;
 
 @end
 

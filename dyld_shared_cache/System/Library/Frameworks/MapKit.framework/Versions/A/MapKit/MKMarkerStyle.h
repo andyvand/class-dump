@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMarkerStyleConfiguration, NSColor, NSImage;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface MKMarkerStyle
 {
     NSImage *_balloonImage;
-    NSImage *_dotImage;
-    NSColor *_defaultGlyphColor;
-    double _balloonYOffset;
-    MKMarkerStyleConfiguration *_configuration;
-    struct CGPoint _anchorPoint;
-    struct CGRect _contentRect;
-    struct CGRect _balloonRect;
-    struct CGRect _dotRect;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (id)2;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)J;
 - (struct CGRect);
 - (id);
 - (id);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint)getDiagnosticCaseSummariesWithIdentifiers:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (struct CGRect)osticReporter:Connection invalidated. /* Error: Ran out of types for this method. */;
+- (id)CNOpenDirectoryFacadeTestDouble;
 - (struct CGRect);
+- (struct CGPoint).z;
 - (id);
-- (struct CGRect);
-- (struct CGPoint);
-- (id);
-- (void)YouForGEOTrafficIncidentType: /* Error: Ran out of types for this method. */;
+- (void)localizedReportedByYouForGEOTrafficIncidentType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
 @property(readonly, nonatomic) NSImage *balloonImage; // @synthesize balloonImage=_balloonImage;
-@property(readonly, nonatomic) struct CGRect balloonRect; // @synthesize balloonRect=_balloonRect;
-@property(readonly, nonatomic) double balloonYOffset; // @synthesize balloonYOffset=_balloonYOffset;
-@property(readonly, nonatomic) MKMarkerStyleConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, nonatomic) NSColor *defaultGlyphColor; // @synthesize defaultGlyphColor=_defaultGlyphColor;
-@property(readonly, nonatomic) NSImage *dotImage; // @synthesize dotImage=_dotImage;
-@property(readonly, nonatomic) struct CGRect dotRect; // @synthesize dotRect=_dotRect;
 
 @end
 

@@ -6,21 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWHomeAutomationCommand, FLOWSchemaFLOWHomeContext, NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWHomeAutomationContext : SISchemaInstrumentationMessage
 {
     NSArray *_homeKitServiceResponses;
-    FLOWSchemaFLOWHomeContext *_homeContext;
-    FLOWSchemaFLOWHomeAutomationCommand *_homeAutomationCommand;
-    _Bool _hasHomeContext;
-    _Bool _hasHomeAutomationCommand;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ka.;
 - (id);
 - (unsigned long long);
 - (id);
@@ -34,9 +30,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,12 +43,7 @@
 - (void)²µÀú$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeAutomationCommand; // @synthesize hasHomeAutomationCommand=_hasHomeAutomationCommand;
-@property(nonatomic) _Bool hasHomeContext; // @synthesize hasHomeContext=_hasHomeContext;
-@property(retain, nonatomic) FLOWSchemaFLOWHomeAutomationCommand *homeAutomationCommand; // @synthesize homeAutomationCommand=_homeAutomationCommand;
-@property(retain, nonatomic) FLOWSchemaFLOWHomeContext *homeContext; // @synthesize homeContext=_homeContext;
 @property(copy, nonatomic) NSArray *homeKitServiceResponses; // @synthesize homeKitServiceResponses=_homeKitServiceResponses;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

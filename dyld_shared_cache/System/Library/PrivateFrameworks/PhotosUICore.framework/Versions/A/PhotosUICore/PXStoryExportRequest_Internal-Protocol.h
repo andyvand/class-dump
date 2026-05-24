@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStoryStyle;
-
 @protocol PXStoryExportRequest_Internal
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 exportDuration;
-@property(readonly, nonatomic) id <PXStoryStyle> exportedStyle;
 @end
 

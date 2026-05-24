@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol CSSmartSiriVolumeClientDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol CSSmartSiriVolumeClientDelegate;
 
 @interface CSSmartSiriVolumeClient
 {
     id <CSSmartSiriVolumeClientDelegate> _delegate;
-    NSXPCConnection *_ssvConnection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -23,17 +21,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)numberOfFaceSegments;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)thConfigFile:sampleRate:context:queue:delegate:osdAnalyzerAssetLocker: /* Error: Ran out of types for this method. */;
+- (void)initWithConfigFile:sampleRate:context:queue:delegate:osdAnalyzerAssetLocker: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSSmartSiriVolumeClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSXPCConnection *ssvConnection; // @synthesize ssvConnection=_ssvConnection;
 
 @end

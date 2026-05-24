@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathUnderOverExpression : SCRCMathExpression
 {
     SCRCMathExpression *_under;
-    SCRCMathExpression *_over;
-    SCRCMathExpression *_base;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)wz;
+- (id)u{;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)-m;
 - (id);
 - (id);
 - (void);
@@ -33,8 +31,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SCRCMathExpression *base; // @synthesize base=_base;
-@property(retain, nonatomic) SCRCMathExpression *over; // @synthesize over=_over;
 @property(retain, nonatomic) SCRCMathExpression *under; // @synthesize under=_under;
 
 @end

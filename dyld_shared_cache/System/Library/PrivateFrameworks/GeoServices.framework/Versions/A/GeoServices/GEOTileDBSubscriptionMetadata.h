@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOTileDBSubscriptionMetadata
 {
     long long _downloadState;
-    NSArray *_dataStates;
 }
 
 - (_Bool);

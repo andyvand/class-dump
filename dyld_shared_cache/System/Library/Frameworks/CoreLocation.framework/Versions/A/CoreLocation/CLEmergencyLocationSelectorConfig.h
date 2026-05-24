@@ -4,41 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLEmergencyLocationUsabilityCriteria;
-
 @interface CLEmergencyLocationSelectorConfig
 {
     _Bool _firstLocationEarlyReturnEnabled;
-    _Bool _firstUpdateEnabled;
-    _Bool _periodicUpdatesEnabled;
-    double _firstLocationTimeout;
-    double _locationUpdateTimeout;
-    double _locationUpdateMinDelay;
-    long long _feature;
-    double _firstUpdateTimeout;
-    CLEmergencyLocationUsabilityCriteria *_firstLocationUsabilityCriteria;
-    double _firstLocationMaxEarlyReturnHunc;
-    double _firstLocationMaxEarlyReturnVunc;
-    CLEmergencyLocationUsabilityCriteria *_locationUpdateUsabilityCriteria;
-    double _locationUpdateHuncReductionToSendEarly;
-    double _locationUpdateVuncReductionToSendEarly;
-    double _locationUpdateDistanceMovedToSendEarly;
-    double _locationUpdateChangeInAltitudeToSendEarly;
 }
 
 + (id);
 - (void);
+- (void);
+- (void)v;
+- (void)�m 6v;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +29,7 @@
 - (void);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -56,31 +39,17 @@
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (double);
 - (_Bool);
-- (void);
+- (void)nexpected pixelWidth == %d
+;
 - (void),static,%{public}d;
 - (long long);
 
 // Remaining properties
 @property(nonatomic) long long feature; // @synthesize feature=_feature;
-@property(nonatomic) _Bool firstLocationEarlyReturnEnabled; // @synthesize firstLocationEarlyReturnEnabled=_firstLocationEarlyReturnEnabled;
-@property(nonatomic) double firstLocationMaxEarlyReturnHunc; // @synthesize firstLocationMaxEarlyReturnHunc=_firstLocationMaxEarlyReturnHunc;
-@property(nonatomic) double firstLocationMaxEarlyReturnVunc; // @synthesize firstLocationMaxEarlyReturnVunc=_firstLocationMaxEarlyReturnVunc;
-@property(nonatomic) double firstLocationTimeout; // @synthesize firstLocationTimeout=_firstLocationTimeout;
-@property(retain, nonatomic) CLEmergencyLocationUsabilityCriteria *firstLocationUsabilityCriteria; // @synthesize firstLocationUsabilityCriteria=_firstLocationUsabilityCriteria;
-@property(nonatomic) _Bool firstUpdateEnabled; // @synthesize firstUpdateEnabled=_firstUpdateEnabled;
-@property(nonatomic) double firstUpdateTimeout; // @synthesize firstUpdateTimeout=_firstUpdateTimeout;
-@property(nonatomic) double locationUpdateChangeInAltitudeToSendEarly; // @synthesize locationUpdateChangeInAltitudeToSendEarly=_locationUpdateChangeInAltitudeToSendEarly;
-@property(nonatomic) double locationUpdateDistanceMovedToSendEarly; // @synthesize locationUpdateDistanceMovedToSendEarly=_locationUpdateDistanceMovedToSendEarly;
-@property(nonatomic) double locationUpdateHuncReductionToSendEarly; // @synthesize locationUpdateHuncReductionToSendEarly=_locationUpdateHuncReductionToSendEarly;
-@property(nonatomic) double locationUpdateMinDelay; // @synthesize locationUpdateMinDelay=_locationUpdateMinDelay;
-@property(nonatomic) double locationUpdateTimeout; // @synthesize locationUpdateTimeout=_locationUpdateTimeout;
-@property(retain, nonatomic) CLEmergencyLocationUsabilityCriteria *locationUpdateUsabilityCriteria; // @synthesize locationUpdateUsabilityCriteria=_locationUpdateUsabilityCriteria;
-@property(nonatomic) double locationUpdateVuncReductionToSendEarly; // @synthesize locationUpdateVuncReductionToSendEarly=_locationUpdateVuncReductionToSendEarly;
-@property(nonatomic) _Bool periodicUpdatesEnabled; // @synthesize periodicUpdatesEnabled=_periodicUpdatesEnabled;
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <Intents/INIntentForwardingAction.h>
 
-@class NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection;
 @protocol INIntentResponseObserver;
 
 @interface INStartSendingUpdatesForwardingAction : INIntentForwardingAction
 {
     id <INIntentResponseObserver> _observer;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_endpoint;
 }
 
 + (_Bool);
@@ -21,26 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)sForDeleteHealthSample: /* Error: Ran out of types for this method. */;
+- (void)defaultSampleUuidsForDeleteHealthSample: /* Error: Ran out of types for this method. */;
 - (id)úÆÿ@³;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <INIntentResponseObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

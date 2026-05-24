@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface UIAccessibilityBridgeAXActionMessage
 {
     int _axAction;
-    id _value;
-    NSData *_elementRefData;
 }
 
 + (_Bool);
@@ -19,16 +15,14 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)labelFontOfSize:(id)arg1;
 - (id);
-- (void);
+- (void)SArray",R,C,N,V_relatedArticleIDs;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int axAction; // @synthesize axAction=_axAction;
-@property(retain, nonatomic) NSData *elementRefData; // @synthesize elementRefData=_elementRefData;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

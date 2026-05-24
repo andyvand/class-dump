@@ -11,7 +11,6 @@
 @interface MSParsecSearchSessionInstantAnswer : MSParsecSearchSessionMessageResult
 {
     _Bool _isInstantAnswerUpdated;
-    SFCard *_inlineCard;
 }
 
 + (id);
@@ -19,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%@ %@;
 
 // Remaining properties
 @property(readonly, nonatomic) SFCard *inlineCard; // @synthesize inlineCard=_inlineCard;
-@property(readonly, nonatomic) _Bool isInstantAnswerUpdated; // @synthesize isInstantAnswerUpdated=_isInstantAnswerUpdated;
 
 @end
 

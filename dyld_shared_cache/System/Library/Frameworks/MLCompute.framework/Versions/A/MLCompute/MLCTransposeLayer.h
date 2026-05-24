@@ -11,7 +11,6 @@
 @interface MLCTransposeLayer : MLCLayer
 {
     NSArray *_dimensions;
-    NSArray *_shape;
 }
 
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *dimensions; // @synthesize dimensions=_dimensions;
 @property(readonly, nonatomic) NSArray *shape; // @synthesize shape=_shape;
 
 @end

@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface FCAppActivationMonitor
 {
     NSDate *_lastActivationDate;
-    NSDate *_lastBackgroundDate;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)rsEnabledLevel;
+- (void)configurableOffersEnabledLevel;
 - (void)ðs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSDate *lastActivationDate; // @synthesize lastActivationDate=_lastActivationDate;
-@property(retain) NSDate *lastBackgroundDate; // @synthesize lastBackgroundDate=_lastBackgroundDate;
-@property(readonly) Class superclass;
 
 @end
 

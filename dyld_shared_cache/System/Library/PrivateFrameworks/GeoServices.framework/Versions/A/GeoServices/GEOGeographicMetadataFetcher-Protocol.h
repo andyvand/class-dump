@@ -5,7 +5,8 @@
 //
 
 @protocol GEOGeographicMetadataFetcher
-- (unsigned int)ndingRequestsLock;
+- (void);
+- (unsigned int)_pendingRequestsLock;
 - (void)ÀP;
 
 // Remaining properties

@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface OADExportedEmbeddedMediaFile : OADEmbeddedMediaFile
 {
     _Bool isAudioOnly;
-    TSPData *_tspData;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void)¬Ì;
 
 // Remaining properties

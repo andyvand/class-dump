@@ -6,30 +6,22 @@
 
 #import <MechanismBase/MechanismBase.h>
 
-@class ACMContextRecord, NSNumber;
-
 @interface MechanismACM : MechanismBase
 {
     struct __ACMHandle *_acmContext;
-    unsigned long long _acmFlags;
-    ACMContextRecord *_acmContextRecord;
-    NSNumber *_updateConstraintOffset;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)GaussianMixtureModelsHeader::readAscii()  - only LOG type supported for weights (file %s) /* Error: Ran out of types for this method. */;
+- (void)odelsHeader:(id)arg1:read() - invalid cookie /* Error: Ran out of types for this method. */;
+- (id)not initialized in config;
+- (id)use_percentile_score;
+- (unsigned long long)d() - file "%s" not opened in read mode;
+- (id)is not open;
 - (struct __ACMHandle *);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __ACMHandle *acmContext; // @synthesize acmContext=_acmContext;
-@property(readonly, nonatomic) ACMContextRecord *acmContextRecord; // @synthesize acmContextRecord=_acmContextRecord;
-@property(readonly, nonatomic) unsigned long long acmFlags; // @synthesize acmFlags=_acmFlags;
-@property(retain, nonatomic) NSNumber *updateConstraintOffset; // @synthesize updateConstraintOffset=_updateConstraintOffset;
 
 @end
 

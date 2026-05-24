@@ -6,29 +6,21 @@
 
 #import <EventKit/EKObjectChange.h>
 
-@class NSString;
-
 @interface EKCalendarChange : EKObjectChange
 {
     _Bool _titleChanged;
-    _Bool _colorChanged;
-    _Bool _orderChanged;
-    NSString *_calendarIdentifier;
 }
 
 + (int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
+- (_Bool)obuf %@ in content item %@;
+- (id)plicationConnection]<%p> handleMessage - connection is in state:(id)arg1 %@ after acceptance -> invalidating;
+- (_Bool)l device connection for distant device %p endpoint did change to %{public}@;
 - (id);
 - (void)±2'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(readonly, nonatomic) _Bool colorChanged; // @synthesize colorChanged=_colorChanged;
-@property(readonly, nonatomic) _Bool orderChanged; // @synthesize orderChanged=_orderChanged;
 @property(readonly, nonatomic) _Bool titleChanged; // @synthesize titleChanged=_titleChanged;
 
 @end

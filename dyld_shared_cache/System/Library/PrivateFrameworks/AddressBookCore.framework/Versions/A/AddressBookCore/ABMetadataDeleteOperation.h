@@ -6,12 +6,11 @@
 
 #import <AddressBookCore/ABMetadataOperation.h>
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface ABMetadataDeleteOperation : ABMetadataOperation
 {
     NSArray *_uniqueIds;
-    NSMutableArray *_quantumBaseURLs;
 }
 
 - (id);

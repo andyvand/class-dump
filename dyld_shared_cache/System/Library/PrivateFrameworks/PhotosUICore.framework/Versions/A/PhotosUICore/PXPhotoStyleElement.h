@@ -9,18 +9,14 @@
 @interface PXPhotoStyleElement
 {
     void id;
-    id semanticStyle;
-    id legacyFilter;
-    id _contentVersion;
-    id observable;
 }
 
 - (_Bool);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -28,20 +24,11 @@
 - (id);
 - (double);
 - (double);
-- (id)uratedAssetsWithOptions:(void *)arg1 targetOverallDurationInfo:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)requestCuratedAssetsWithOptions:(void *)arg1 targetOverallDurationInfo:resultHandler: /* Error: Ran out of types for this method. */;
 - (void)\;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *cast;
-@property(nonatomic, readonly) double color;
-@property(nonatomic, readonly) double defaultColor;
-@property(nonatomic, readonly) double defaultIntensity;
 @property(nonatomic, readonly) NSString *defaultName;
-@property(nonatomic, readonly) double defaultTone;
-@property(nonatomic, readonly) _Bool hasNonDefaultValues;
-@property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) double intensity;
-@property(nonatomic, readonly) double tone;
 
 @end
 

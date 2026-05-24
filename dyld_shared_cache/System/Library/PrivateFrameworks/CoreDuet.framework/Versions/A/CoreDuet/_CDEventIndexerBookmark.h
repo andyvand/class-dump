@@ -9,9 +9,6 @@
 @interface _CDEventIndexerBookmark
 {
     NSDate *_earliestCreationDate;
-    NSDate *_latestCreationDate;
-    NSDate *_latestTombstoneDate;
-    long long _version;
 }
 
 + (_Bool);

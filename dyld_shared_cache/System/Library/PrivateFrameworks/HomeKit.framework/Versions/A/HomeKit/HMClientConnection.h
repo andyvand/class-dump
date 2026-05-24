@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _HMContext;
-@protocol HMDarwinNotificationProvider;
-
 @interface HMClientConnection
 {
     _Bool _homesConfigured;
-    _HMContext *_context;
-    id <HMDarwinNotificationProvider> _darwinNotificationProvider;
 }
 
 + (id);
@@ -25,33 +20,24 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)_delayedAssetsNeedingSocialGroupContainmentUpdates;
 + (id);
 + (id){public}@Merging staged logged in account:%@ /* Error: Ran out of types for this method. */;
-+ (id)sses;
-- (void);
-- (void);
++ (id)Ipv6Addresses;
+- (void)9;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_invalidateDatabaseContext;
 - (id);
-- (id);
+- (id)(	G	;
 - (void)m;
 - (id)Say¶;
 
 // Remaining properties
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=areHomesConfigured) _Bool homesConfigured; // @synthesize homesConfigured=_homesConfigured;
-@property(readonly) Class superclass;
 
 @end
 

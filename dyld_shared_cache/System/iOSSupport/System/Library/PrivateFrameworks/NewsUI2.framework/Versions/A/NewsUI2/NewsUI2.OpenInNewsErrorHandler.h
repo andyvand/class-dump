@@ -7,7 +7,6 @@
 @interface NewsUI2.OpenInNewsErrorHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

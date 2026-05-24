@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 @protocol TCollectionViewItemViewProtocol;
 
 __attribute__((visibility("hidden")))
@@ -17,26 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ize=dd}}52@0:8{CGPoint=dd}16d32i40Q44 /* Error: Ran out of types for this method. */;
+- (void)0:(_Bool)arg1 8@"NSTextView"16@"NSArray"24{_NSRange=QQ}32^q48;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)hotelReservationForTelephone;
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct TFENode)rTableViewP18FI_TColumnCellViewlEEE;
+- (id)";
+- (struct TFENode)NSt3__110__function6__baseIFvP20FI_TBrowserTableViewP18FI_TColumnCellViewlEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 @property(retain) NSView<TCollectionViewItemViewProtocol> *view;
 
 @end

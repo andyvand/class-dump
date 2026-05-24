@@ -6,53 +6,43 @@
 
 #import <MediaConversionService/PHMediaFormatConversionContent.h>
 
-@class NSString, NSURL, PFVideoExportRangeCoordinator;
+@class NSURL, PFVideoExportRangeCoordinator;
 
 @interface PHMediaFormatConversionDestination : PHMediaFormatConversionContent
 {
     NSURL *_temporaryFilesURLToDelete;
-    NSURL *_temporaryOutputDirectoryURL;
-    NSURL *_temporaryOutputFileURL;
-    PFVideoExportRangeCoordinator *_singlePassVideoExportRangeCoordinator;
-    NSString *_outputPathExtension;
-    unsigned long long _singlePassVideoConversionTargetLength;
 }
 
++ (id);
 + (id);
-+ (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)>;
+- (void)y^;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)@yb@y;
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)ecord for update:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)commute15MinWarningEntityRelevanceSpecificGeoHashFeatures;
 
 // Remaining properties
-@property(retain) NSString *outputPathExtension; // @synthesize outputPathExtension=_outputPathExtension;
-@property unsigned long long singlePassVideoConversionTargetLength; // @synthesize singlePassVideoConversionTargetLength=_singlePassVideoConversionTargetLength;
 @property(retain) PFVideoExportRangeCoordinator *singlePassVideoExportRangeCoordinator; // @synthesize singlePassVideoExportRangeCoordinator=_singlePassVideoExportRangeCoordinator;
-@property(readonly) NSURL *temporaryOutputDirectoryURL;
-@property(readonly) NSURL *temporaryOutputFileURL;
-@property(readonly) _Bool usesSinglePassVideoConversion;
 
 @end
 

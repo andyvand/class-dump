@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLGazetteer, NLTagger, NLTokenizer;
+@class NLGazetteer;
 
 @interface CRNamedEntityRecognizer
 {
     NLGazetteer *_nameGazetteer;
-    NLGazetteer *_lastNameGazetteer;
-    NLTagger *_tagger;
-    NLTokenizer *_tokenizer;
 }
 
-+ (id);
++ (id)C;
 - (double);
 - (double);
 - (id);

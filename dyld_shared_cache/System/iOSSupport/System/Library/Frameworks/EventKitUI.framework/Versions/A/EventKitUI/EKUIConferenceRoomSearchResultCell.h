@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIActivityIndicatorView, UIImageView, UILabel;
+@class UILabel;
 
 @interface EKUIConferenceRoomSearchResultCell
 {
     UILabel *_title;
-    UIImageView *_image;
-    UIActivityIndicatorView *_spinner;
-    NSString *_accessibilityLabel;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void)outPrediction;
+- (void)structuredLocationWithoutPrediction;
 
 @end
 

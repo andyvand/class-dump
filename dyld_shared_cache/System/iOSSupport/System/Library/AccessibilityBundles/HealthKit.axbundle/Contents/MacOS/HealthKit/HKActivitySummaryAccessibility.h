@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)V;
++ (id);
 + (void);
 - (id);
 

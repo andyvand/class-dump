@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MFBitmap, MFBrush, MFPen, MFRegion;
+
 @protocol MFDeviceDriver
+- (int);
+- (int);
+- (int)(;
+- (int)[;
+- (int);
+- (MFBrush *)Q?i;
+- (MFRegion *);
+- (MFPen *)+;
+- (MFBitmap *);
+- (MFBitmap *);
 @end
 

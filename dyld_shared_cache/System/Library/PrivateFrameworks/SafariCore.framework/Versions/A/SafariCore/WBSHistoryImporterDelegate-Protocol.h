@@ -5,5 +5,6 @@
 //
 
 @protocol WBSHistoryImporterDelegate
+- (void);
 @end
 

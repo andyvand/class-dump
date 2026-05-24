@@ -9,41 +9,39 @@
 @interface TSTHiddenRowsColumnsCache
 {
     TSTHiddenDimensionCache *mHiddenRows;
-    TSTHiddenDimensionCache *mHiddenColumns;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)tracklist;
+- (id)isteningItem"8q16^B24;
+- (void)BehaviorMusicSharePlay.m;
+- (void)set-load-info;
+- (void)xisting transition:(id)arg1;
+- (unsigned short)rrent time is past crossfade start;
+- (unsigned char);
+- (unsigned short)een set on ;
+- (unsigned char)lling crossfade;
+- (unsigned short);
+- (unsigned short);
 - (unsigned short);
 - (unsigned char);
-- (unsigned short);
-- (unsigned char);
-- (unsigned short);
-- (unsigned short);
-- (unsigned short);
-- (unsigned char);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (unsigned short);
 - (unsigned short);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *visibleColumnIndices;
 @property(readonly, nonatomic) NSIndexSet *visibleRowIndices;
 
 @end

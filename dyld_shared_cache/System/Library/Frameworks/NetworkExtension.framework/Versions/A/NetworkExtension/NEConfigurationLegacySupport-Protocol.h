@@ -5,5 +5,6 @@
 //
 
 @protocol NEConfigurationLegacySupport
+- (id)c.manager;
 @end
 

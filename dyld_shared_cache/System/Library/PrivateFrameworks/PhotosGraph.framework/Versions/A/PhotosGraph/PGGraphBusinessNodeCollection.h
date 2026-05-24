@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphBusinessCategoryNodeCollection, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGGraphPublicEventNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphBusinessNodeCollection : PGGraphNodeCollection
 {
@@ -23,18 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *businessNames;
-@property(readonly, nonatomic) PGGraphBusinessCategoryNodeCollection *categoryNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphPublicEventNodeCollection *publicEventNodes;
-@property(readonly) Class superclass;
 
 @end
 

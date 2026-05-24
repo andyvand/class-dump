@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIDynamicAnimator;
+@class NSArray, UIDynamicAnimator;
 
 @interface UIDynamicBehavior
 {
     UIDynamicAnimator *_context;
-    NSMutableArray *_items;
-    NSMutableArray *_behaviors;
-    NSMutableArray *_addedBehaviors;
-    CDUnknownBlockType _action;
 }
 
 + (_Bool);
 + (void)Æy;
 - (void);
-- (void);
+- (void)r not found;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ng message %@ as played for App Message;
+- (id)HomeFax;
 - (void);
 - (void);
 - (void);
@@ -40,16 +36,14 @@
 - (id);
 - (void)!ðFùfÐ1Â0@ù
 × ;
-- (void)ipes;
-- (id)ewWithMenu:position: /* Error: Ran out of types for this method. */;
+- (void)indexPathsWithActiveSwipes;
+- (id)_newListViewWithMenu:position: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)SpringAnimationParameters;
 - (void)<v\;
 - (void)xeh;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
 @property(readonly, copy, nonatomic) NSArray *childBehaviors;
-@property(readonly, nonatomic) UIDynamicAnimator *dynamicAnimator;
 
 @end
 

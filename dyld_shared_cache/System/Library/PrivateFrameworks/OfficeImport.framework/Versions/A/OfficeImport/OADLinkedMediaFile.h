@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OADLinkedMediaFile : OADMovie
 {
     NSURL *mUrl;
-    _Bool mIsExternal;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool isExternal; // @synthesize isExternal=mIsExternal;
 @property(retain) NSURL *url; // @synthesize url=mUrl;
 
 @end

@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAssistantCommandHelper, HMDAssistantGather, HMDHome, HMDHomeManager, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDAssistantGather;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantCommand
 {
     _Bool _completionHandlerCalled;
-    HMDHomeManager *_homeManager;
-    HMDAssistantGather *_gather;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_homeKitObjects;
-    long long _numberOfHomes;
-    NSString *_primaryHomeName;
-    NSString *_primaryHomeAssistantIdentifier;
-    NSString *_currentHomeName;
-    NSString *_currentHomeAssistantIdentifier;
-    HMDAssistantCommandHelper *_assistantCommandHelper;
-    HMDHome *_home;
-    unsigned long long _startTime;
 }
 
 + (void)²ÔøÜA;
 + (id)7;
-- (id);
-- (id);
+- (id)y",R,N,V_replacementImmutableObjects;
+- (id)@"NSArray",R,N,V_objects;
 - (void);
+- (void)RIDESHARE;
+- (void)km);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (id);
@@ -80,21 +67,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)P;
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -103,7 +90,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -113,7 +100,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (id)DNotificationRegistryActionSetRequest;
+- (id)HMDNotificationRegistryActionSetRequest;
 - (id);
 - (id):%@ /* Error: Ran out of types for this method. */;
 - (id)MDHouseholdHomeActivityStateTransitionTypeByReasonLogEvent counters for home with UUID %@:fromState %@ toState %@ and reason %@ /* Error: Ran out of types for this method. */;
@@ -122,26 +109,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMDAssistantCommandHelper *assistantCommandHelper; // @synthesize assistantCommandHelper=_assistantCommandHelper;
-@property(nonatomic) _Bool completionHandlerCalled; // @synthesize completionHandlerCalled=_completionHandlerCalled;
-@property(retain, nonatomic) NSString *currentHomeAssistantIdentifier; // @synthesize currentHomeAssistantIdentifier=_currentHomeAssistantIdentifier;
-@property(retain, nonatomic) NSString *currentHomeName; // @synthesize currentHomeName=_currentHomeName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) HMDAssistantGather *gather; // @synthesize gather=_gather;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSArray *homeKitObjects; // @synthesize homeKitObjects=_homeKitObjects;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) long long numberOfHomes; // @synthesize numberOfHomes=_numberOfHomes;
-@property(retain, nonatomic) NSString *primaryHomeAssistantIdentifier; // @synthesize primaryHomeAssistantIdentifier=_primaryHomeAssistantIdentifier;
-@property(retain, nonatomic) NSString *primaryHomeName; // @synthesize primaryHomeName=_primaryHomeName;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

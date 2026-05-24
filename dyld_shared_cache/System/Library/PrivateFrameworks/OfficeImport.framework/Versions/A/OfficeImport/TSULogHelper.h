@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface TSULogHelper
 {
     unsigned long long _throttleCount;
-    NSDate *_lastThrottleCheck;
 }
 
 + (id);
@@ -22,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void)matter(Private) p_createHarmonizedCFNumberFormatterOfStyle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *lastThrottleCheck; // @synthesize lastThrottleCheck=_lastThrottleCheck;
 @property unsigned long long throttleCount; // @synthesize throttleCount=_throttleCount;
 
 @end

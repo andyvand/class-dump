@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDCameraResidentMessageHandler, HMDCameraSnapshotRequestHandler, HMDCameraSnapshotSessionInfo, HMDDevice, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotReceiver
 {
     NSUUID *_uniqueIdentifier;
-    HMDCameraSnapshotSessionInfo *_snapshotSessionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDAccessory *_accessory;
-    HMDCameraSnapshotRequestHandler *_snapshotRequestHandler;
-    HMDCameraResidentMessageHandler *_residentMessageHandler;
-    HMDDevice *_remoteDevice;
 }
 
 + (id)p$ßB;
-- (id);
-- (id);
+- (id)issions: /* Error: Ran out of types for this method. */;
+- (id)_handleCheckinWithSharingIdentity:activeRecipients:serviceNamesByHandle:receivedTrips:permissions: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setForbiddenAssetUUIDs:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -37,20 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDDevice *remoteDevice; // @synthesize remoteDevice=_remoteDevice;
-@property(readonly, nonatomic) HMDCameraResidentMessageHandler *residentMessageHandler; // @synthesize residentMessageHandler=_residentMessageHandler;
-@property(readonly, nonatomic) HMDCameraSnapshotRequestHandler *snapshotRequestHandler; // @synthesize snapshotRequestHandler=_snapshotRequestHandler;
-@property(readonly, nonatomic) HMDCameraSnapshotSessionInfo *snapshotSessionInfo; // @synthesize snapshotSessionInfo=_snapshotSessionInfo;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

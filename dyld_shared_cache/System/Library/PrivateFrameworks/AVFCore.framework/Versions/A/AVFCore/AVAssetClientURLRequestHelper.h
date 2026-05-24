@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetResourceLoader, AVWeakReference;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetClientURLRequestHelper
 {
     AVWeakReference *_weakReferenceToSelf;
-    AVWeakReference *_weakReferenceToAsset;
-    CDUnknownBlockType _figAssetProvider;
-    AVWeakReference *_weakReferenceToResourceLoader;
 }
 
 - (void);
@@ -25,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)a;
 
 // Remaining properties
-@property(readonly, nonatomic) struct OpaqueFigAsset *figAsset;
 @property(copy, nonatomic) CDUnknownBlockType figAssetProvider; // @synthesize figAssetProvider=_figAssetProvider;
-@property(nonatomic) __weak AVAssetResourceLoader *resourceLoader;
 
 @end
 

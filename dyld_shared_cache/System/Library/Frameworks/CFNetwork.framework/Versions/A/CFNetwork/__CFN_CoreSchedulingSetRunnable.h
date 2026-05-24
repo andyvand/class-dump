@@ -11,20 +11,10 @@ __attribute__((visibility("hidden")))
 @interface __CFN_CoreSchedulingSetRunnable
 {
     NSObject<OS_dispatch_semaphore> *_sem;
-    CDUnknownBlockType _setup;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_tid;
-    struct __CFRunLoop *_rl;
-    long long _performCount;
-    struct __CFRunLoopSource *_pinnedSource;
-    long long _count[5];
 }
 
 + (void);
-- (void);
+- (void)dalettserehebrew;
 
 @end
 

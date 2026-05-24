@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSArray, NSString;
 
 @interface IMMessageDescriptor
 {
     NSArray *_messageParts;
-    NSString *_messageGUID;
-    NSAttributedString *_messageBody;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)leNameKey;
+- (id)updateAddress;
+- (void)lowResFileNameKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *messageBody; // @synthesize messageBody=_messageBody;
 @property(readonly, copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) NSArray *messageParts; // @synthesize messageParts=_messageParts;
 
 @end
 

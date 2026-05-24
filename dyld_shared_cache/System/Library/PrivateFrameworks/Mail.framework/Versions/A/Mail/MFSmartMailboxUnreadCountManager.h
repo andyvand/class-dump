@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFCancelationToken, EMFocus, NSConditionLock, NSMutableArray, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString;
-@protocol EFScheduler;
+@class EMFocus, NSMutableArray;
 
 @interface MFSmartMailboxUnreadCountManager
 {
     NSMutableArray *_smartMailboxes;
-    NSMutableDictionary *_smartMailboxesOpenDates;
-    _Bool _updateNeededAfterOpeningMailboxes;
-    NSMutableDictionary *_unreadMessagesBySmartMailbox;
-    NSMutableDictionary *_smartMailboxesUpdates;
-    NSConditionLock *_watchedMessagesLock;
-    NSMutableDictionary *_watchedMessages;
-    NSMutableDictionary *_messagesNeedingToBeIndexed;
-    NSConditionLock *_isUpdatingStateLock;
-    NSConditionLock *_isDirtyStateLock;
-    NSConditionLock *_obsoleteMessageKeysLock;
-    NSMutableSet *_obsoleteMessageKeys;
-    NSMutableSet *_restartingUnreadCountQueryMailboxes;
-    double _lastUnreadCountQueryRestartTime;
-    double _restartDelay;
-    id <EFScheduler> _restartingUnreadCountQueryScheduler;
-    struct os_unfair_lock_s _currentFocusLock;
-    _Bool _suspendSmartMailboxUnreadCountCalculations;
-    double _lastModificationToUpdate;
-    long long _unreadQueryCount;
-    EMFocus *_currentFocus;
-    EFCancelationToken *_focusObservationToken;
-    NSOperationQueue *_spotlightQueue;
 }
 
 + (id)_¨;
@@ -50,11 +27,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*A;
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -62,10 +39,10 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)9i;
 - (void);
 - (void);
 - (void);
@@ -79,44 +56,28 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Rh;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)T?	;
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
+- (id)set_preHoldTapRecognizer:(id)arg1;
 - (void)es_new table;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EMFocus *currentFocus; // @synthesize currentFocus=_currentFocus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain, nonatomic) EFCancelationToken *focusObservationToken; // @synthesize focusObservationToken=_focusObservationToken;
-@property(readonly) unsigned long long hash;
-@property double lastModificationToUpdate; // @synthesize lastModificationToUpdate=_lastModificationToUpdate;
-@property(readonly, nonatomic) NSOperationQueue *spotlightQueue; // @synthesize spotlightQueue=_spotlightQueue;
-@property(readonly) Class superclass;
-@property _Bool suspendSmartMailboxUnreadCountCalculations; // @synthesize suspendSmartMailboxUnreadCountCalculations=_suspendSmartMailboxUnreadCountCalculations;
-@property long long unreadQueryCount; // @synthesize unreadQueryCount=_unreadQueryCount;
 
 @end
 

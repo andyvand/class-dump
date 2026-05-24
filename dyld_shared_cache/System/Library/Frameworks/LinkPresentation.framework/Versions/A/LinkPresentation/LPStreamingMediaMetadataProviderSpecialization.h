@@ -6,22 +6,17 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class AVAssetImageGenerator, LPLinkMetadata, LPMediaAssetFetcher;
-
 __attribute__((visibility("hidden")))
 @interface LPStreamingMediaMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    LPMediaAssetFetcher *_fetcher;
-    AVAssetImageGenerator *_videoImageGenerator;
-    LPLinkMetadata *_metadata;
 }
 
 + (id);
-+ (unsigned long long);
-- (void);
-- (void);
-- (void);
++ (unsigned long long);
+- (void)isDFSChannel;
+- (void)A;
+- (void)`;
 - (void);
 - (void)
 ;

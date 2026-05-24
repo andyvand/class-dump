@@ -9,25 +9,6 @@
 @interface ChronoKit.WidgetEntry
 {
     id protectionType;
-    id key;
-    id entrySupportsRendering;
-    id _lock;
-    id _lock_cachedViewableEntry;
-    id _lock_configuredDate;
-    id _lock_shouldSilencePublisher;
-    id _lock_currentEntry;
-    id _environmentProvider;
-    id _lock_content;
-    id _lock_contentLoadErrorDate;
-    id _lock_contentLoadError;
-    id _objectWillChangePublisher;
-    id objectWillChange;
-    id _contentDidChangePublisher;
-    id contentDidChangePublisher;
-    id _descriptorDidChangePublisher;
-    id descriptorDidChangePublisher;
-    id _lock_descriptor;
-    id descriptorObserver;
 }
 
 - (id);

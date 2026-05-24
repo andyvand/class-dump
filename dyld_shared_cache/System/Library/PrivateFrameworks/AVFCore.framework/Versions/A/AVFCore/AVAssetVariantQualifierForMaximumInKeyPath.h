@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)W;
 - (id);
 
 @end

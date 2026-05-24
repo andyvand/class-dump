@@ -7,8 +7,6 @@
 @interface MailUI.AboutCategoriesStatisticsProvider
 {
     id daemonInterface;
-    id maxSenderNameCount;
-    id queryTimeout;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void)rowseDirection: /* Error: Ran out of types for this method. */;
+- (void)setUserBrowseDirection: /* Error: Ran out of types for this method. */;
 
 @end
 

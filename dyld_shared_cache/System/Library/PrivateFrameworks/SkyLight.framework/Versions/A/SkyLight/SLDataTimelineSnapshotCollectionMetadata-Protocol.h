@@ -5,12 +5,14 @@
 //
 
 @protocol SLDataTimelineSnapshotCollectionMetadata
+- (unsigned long long)ailed with error:%@ userInfo:%@
+ /* Error: Ran out of types for this method. */;
+- (double)ike:variant must be an integer in the range [0,3] /* Error: Ran out of types for this method. */;
+- (unsigned long long)number of parameters;
+- (double)dable:failed to reverse transform data /* Error: Ran out of types for this method. */;
+- (unsigned long long)CoreDataConvertTransformableToCodable:failed to reverse transform data /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long newestSnapshotIndex;
-@property(readonly, nonatomic) double newestSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long oldestSnapshotIndex;
-@property(readonly, nonatomic) double oldestSnapshotTimestamp;
 @property(readonly, nonatomic) unsigned long long snapshotCount;
 @end
 

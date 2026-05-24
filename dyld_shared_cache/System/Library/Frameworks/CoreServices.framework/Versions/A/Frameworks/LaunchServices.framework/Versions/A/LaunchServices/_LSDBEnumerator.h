@@ -10,17 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _LSDBEnumerator : LSEnumerator
 {
     struct Context _context;
-    unsigned long long _index;
-    id _lastFastObject;
-    unsigned int _hasReachedEnd:1;
-    unsigned int _hasTriedToPrepare:1;
-    unsigned int _hasPrepared:1;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);;
 - (id);
 - (id);
 - (_Bool);

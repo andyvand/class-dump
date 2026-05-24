@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DODMLASRSchemaDODMLASRPersonalizationExperimentEnded, DODMLASRSchemaDODMLASRPersonalizationExperimentStarted, NSData;
+@class DODMLASRSchemaDODMLASRPersonalizationExperimentStarted;
 
 @interface DODMLASRSchemaDODMLASRPersonalizationExperimentContext : SISchemaInstrumentationMessage
 {
     DODMLASRSchemaDODMLASRPersonalizationExperimentStarted *_startedOrChanged;
-    DODMLASRSchemaDODMLASRPersonalizationExperimentEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,31 +18,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)nav_frameworkShouldPollNotification;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)7;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)okPayloadPresent"b1"isNotebookGroupPresent"b1};
-- (id)hemaODMSiriClientEvent;
+- (id)ODMSiriSchemaODMSiriClientEvent;
 - (id)ÄUØV;
 - (void)C·ÿVE®r§%;
 
 // Remaining properties
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRPersonalizationExperimentEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) DODMLASRSchemaDODMLASRPersonalizationExperimentStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface CSGestureDropEvent
 {
     double _droppingPrediction;
-    double _droppedPrediction;
-    double _timestamp;
 }
 
 - (id);
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)";
 - (double);
-- (id);
+- (id)FLMs_UsrFacingBBoxX;
 
 // Remaining properties
-@property(readonly, nonatomic) double droppedPrediction; // @synthesize droppedPrediction=_droppedPrediction;
 @property(readonly, nonatomic) double droppingPrediction; // @synthesize droppingPrediction=_droppingPrediction;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcObject;
 
 @end
 

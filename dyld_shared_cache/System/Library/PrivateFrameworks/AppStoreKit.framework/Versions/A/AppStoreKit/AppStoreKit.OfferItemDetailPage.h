@@ -9,15 +9,6 @@
 @interface AppStoreKit.OfferItemDetailPage : AppStoreKit.AppPromotionDetailPage
 {
     id offerItem;
-    id artwork;
-    id video;
-    id mediaOverlayStyle;
-    id includeBorderInDarkMode;
-    id additionalInfo;
-    id learnMoreTitle;
-    id learnMoreActionMetrics;
-    id backButtonActionMetrics;
-    id closeButtonActionMetrics;
 }
 
 @end

@@ -11,27 +11,25 @@
 @interface CKWatchfaceMediaObject : CKMediaObject
 {
     BOOL _cachedOrientation;
-    LPLinkMetadata *_linkMetadata;
-    double _cachedWidth;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
-- (void);
-- (Class);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)performBlockInPersonaContext:(BOOL)arg1;
+- (Class)imageWithSystemSymbolName:accessibilityDescription: /* Error: Ran out of types for this method. */;
+- (Class)hintTextField;
+- (id)attributesForInlineAttachmentUIModel;
+- (id)_icaxGalleryViewDescriptionForAttachment:(double)arg1 fromAttachments:(BOOL)arg2 orInlineAttachments: /* Error: Ran out of types for this method. */;
+- (id)ICMProgressWindowControllerDelegate;
+- (_Bool)ICPreviewDeviceContext;
+- (id)ICAuthorHighlightValueAttribute;
 - (BOOL);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)h;
+- (void){note:(double)arg1 %@};
+- (_Bool)y** made edits;
 - (void);
 - (id);
 - (int);
@@ -39,8 +37,6 @@
 - (void)duration calculation;
 
 // Remaining properties
-@property(nonatomic) BOOL cachedOrientation; // @synthesize cachedOrientation=_cachedOrientation;
-@property(nonatomic) double cachedWidth; // @synthesize cachedWidth=_cachedWidth;
 @property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 
 @end

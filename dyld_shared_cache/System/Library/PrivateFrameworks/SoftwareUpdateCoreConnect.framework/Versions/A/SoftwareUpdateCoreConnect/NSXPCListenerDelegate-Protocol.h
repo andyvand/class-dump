@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)T event {%@} segment duration is %d, total duration is %d;
 @end
 

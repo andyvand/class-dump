@@ -9,7 +9,6 @@
 @interface EWSPermissionType : EWSBasePermissionType
 {
     long long _ReadItems;
-    long long _PermissionLevel;
 }
 
 + (id);
@@ -17,10 +16,9 @@
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)B;
 
 // Remaining properties
-@property(nonatomic) long long PermissionLevel; // @synthesize PermissionLevel=_PermissionLevel;
 @property(nonatomic) long long ReadItems; // @synthesize ReadItems=_ReadItems;
 
 @end

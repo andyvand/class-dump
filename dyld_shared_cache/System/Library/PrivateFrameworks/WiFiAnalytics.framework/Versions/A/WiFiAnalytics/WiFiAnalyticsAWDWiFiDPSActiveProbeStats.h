@@ -7,35 +7,16 @@
 @interface WiFiAnalyticsAWDWiFiDPSActiveProbeStats
 {
     unsigned long long _timestamp;
-    unsigned int _rttGatewayBE;
-    unsigned int _rttGatewayBK;
-    unsigned int _rttGatewayVI;
-    unsigned int _rttGatewayVO;
-    unsigned int _rttPrimaryDnsBE;
-    unsigned int _rttPrimaryDnsBK;
-    unsigned int _rttPrimaryDnsVI;
-    unsigned int _rttPrimaryDnsVO;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int rttGatewayBE:1;
-        unsigned int rttGatewayBK:1;
-        unsigned int rttGatewayVI:1;
-        unsigned int rttGatewayVO:1;
-        unsigned int rttPrimaryDnsBE:1;
-        unsigned int rttPrimaryDnsBK:1;
-        unsigned int rttPrimaryDnsVI:1;
-        unsigned int rttPrimaryDnsVO:1;
-    } _has;
 }
 
+- (void)ompression.dylib;
+- (void)8;
+- (void)lib/libicucore.A.dylib;
 - (void);
+- (void)work/Versions/A/PowerLog;
+- (void)vateFrameworks/PowerLog.framework/Versions/A/PowerLog;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)aturalLanguage;
 - (void);
 - (void);
 - (void);
@@ -45,54 +26,37 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (unsigned int);
+- (unsigned int)C;
+- (_Bool);
+- (_Bool);
+- (id)token in this history {clientID:%{public}@, account:%{public}@} /* Error: Ran out of types for this method. */;
+- (void)2;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)reMotion.CMAudioAccessoryUsage;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRttGatewayBE;
-@property(nonatomic) _Bool hasRttGatewayBK;
-@property(nonatomic) _Bool hasRttGatewayVI;
-@property(nonatomic) _Bool hasRttGatewayVO;
-@property(nonatomic) _Bool hasRttPrimaryDnsBE;
-@property(nonatomic) _Bool hasRttPrimaryDnsBK;
-@property(nonatomic) _Bool hasRttPrimaryDnsVI;
-@property(nonatomic) _Bool hasRttPrimaryDnsVO;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int rttGatewayBE; // @synthesize rttGatewayBE=_rttGatewayBE;
-@property(nonatomic) unsigned int rttGatewayBK; // @synthesize rttGatewayBK=_rttGatewayBK;
-@property(nonatomic) unsigned int rttGatewayVI; // @synthesize rttGatewayVI=_rttGatewayVI;
-@property(nonatomic) unsigned int rttGatewayVO; // @synthesize rttGatewayVO=_rttGatewayVO;
-@property(nonatomic) unsigned int rttPrimaryDnsBE; // @synthesize rttPrimaryDnsBE=_rttPrimaryDnsBE;
-@property(nonatomic) unsigned int rttPrimaryDnsBK; // @synthesize rttPrimaryDnsBK=_rttPrimaryDnsBK;
-@property(nonatomic) unsigned int rttPrimaryDnsVI; // @synthesize rttPrimaryDnsVI=_rttPrimaryDnsVI;
-@property(nonatomic) unsigned int rttPrimaryDnsVO; // @synthesize rttPrimaryDnsVO=_rttPrimaryDnsVO;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

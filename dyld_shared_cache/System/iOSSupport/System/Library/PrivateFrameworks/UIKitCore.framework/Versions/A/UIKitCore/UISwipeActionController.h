@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSMutableSet, NSSet, NSString, UIScrollView, UISwipeActionsConfiguration, UISwipeOccurrence, UIView, _UISwipeHandler;
-@protocol UISwipeActionHost, UISwipeActionHost_Internal;
+@class UISwipeActionsConfiguration, UISwipeOccurrence;
 
 @interface UISwipeActionController
 {
     UISwipeOccurrence *_preparingSwipeOccurrence;
-    struct {
-        unsigned int didResetWhilePreparingSwipeOccurrence:1;
-    } _flags;
-    id <UISwipeActionHost> _swipeActionHost;
-    unsigned long long _style;
-    UISwipeActionsConfiguration *_incomingSwipeActionsConfiguration;
-    UIScrollView *_containerView;
-    _UISwipeHandler *_swipeHandler;
-    NSMutableSet *_swipeOccurrences;
-    UISwipeOccurrence *_currentSwipeOccurrence;
 }
 
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)sl/t1_enc.c;
 - (void);
 - (id);
 - (void);
@@ -34,11 +23,11 @@
 - (void);
 - (void);
 - (void);
+- (void)encodeObject:(id)arg1 forKey:(CDStruct_b06b0113)arg2;
+- (void)addAccessory:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (CDStruct_324b76a9);
+- (_Bool)c;
+- (CDStruct_d18b0196)C;
 - (id);
 - (void);
 - (id);
@@ -58,21 +47,21 @@
 × ;
 - (id)2Q40;
 - (id)@"UIView"16@?<@"UIPointerShape"@?>24;
-- (void)le;
-- (void)izeGivenSize:(unsigned long long)arg1;
-- (void)opSidebarInset;
-- (unsigned long long)d;
-- (void)nDidEnd;
-- (id)iveToURL: /* Error: Ran out of types for this method. */;
+- (void)sceneTitle;
+- (void)intrinsicContentSizeGivenSize:(unsigned long long)arg1;
+- (void)_topSidebarInset;
+- (unsigned long long)_delegateScrollViewAnimationEnded;
+- (void)_client_sessionDidEnd;
+- (id)URLWithDataRepresentation:relativeToURL: /* Error: Ran out of types for this method. */;
 - (void)int=dd},N,V_screenEntryPoint;
 - (void)andler,S_setDidEndSwipingHandler:(id)arg1 ,V_didEndSwipingHandler;
-- (id)ape: /* Error: Ran out of types for this method. */;
+- (id)styleWithShape: /* Error: Ran out of types for this method. */;
 - (void)ymbolContentTransition",&,N,V_contentTransition;
 - (id):(id)arg1 ,V_delegate;
 - (id);
 - (void)ë¸ë;
-- (void)lidChunkType;
-- (struct CGRect)imary;
+- (void)invalidChunkType;
+- (struct CGRect)AccompaniedPrimary;
 - (id)edForSceneAndIdiom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
 - (void)l=(ÿØÄ;
 - (void)ÈÌ¸Yc;
@@ -83,26 +72,7 @@
 - (void)i;
 
 // Remaining properties
-@property(nonatomic) __weak UIScrollView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) __weak UISwipeOccurrence *currentSwipeOccurrence; // @synthesize currentSwipeOccurrence=_currentSwipeOccurrence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UISwipeActionsConfiguration *incomingSwipeActionsConfiguration; // @synthesize incomingSwipeActionsConfiguration=_incomingSwipeActionsConfiguration;
-@property(readonly, nonatomic, getter=_internalSwipeActionHost) id <UISwipeActionHost_Internal> internalSwipeActionHost;
-@property(readonly, nonatomic, getter=_prefersRTL) _Bool prefersRTL;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <UISwipeActionHost> swipeActionHost; // @synthesize swipeActionHost=_swipeActionHost;
-@property(nonatomic) _Bool swipeEnabled;
-@property(retain, nonatomic) _UISwipeHandler *swipeHandler; // @synthesize swipeHandler=_swipeHandler;
-@property(retain, nonatomic) NSMutableSet *swipeOccurrences; // @synthesize swipeOccurrences=_swipeOccurrences;
-@property(readonly, nonatomic) NSIndexPath *swipedIndexPath;
-@property(readonly, nonatomic) NSSet *swipedIndexPaths;
-@property(readonly, nonatomic) UIView *swipedItemView;
 
 @end
 

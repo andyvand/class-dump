@@ -9,13 +9,13 @@
     _Bool _isContentProtectionAvailable;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
++ (id)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
++ (_Bool)c authentication for URL %@;
+- (void)_activatedImage;
 - (id);
-- (void);
+- (void)";
 - (_Bool);
-- (_Bool);
+- (_Bool)setTouchSensitiveButtonNormalizedPositionX: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool isContentProtectionAvailable; // @synthesize isContentProtectionAvailable=_isContentProtectionAvailable;

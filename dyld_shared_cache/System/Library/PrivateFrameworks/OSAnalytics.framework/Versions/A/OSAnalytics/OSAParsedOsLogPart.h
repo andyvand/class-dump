@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface OSAParsedOsLogPart
 {
     _Bool _isSafe;
-    _Bool _isArgument;
-    NSString *_stringValue;
-    NSString *_argSpecifier;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)zontalAxis:(id)arg1;
+- (id)View",&,N,V_labelsStackView;
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *argSpecifier; // @synthesize argSpecifier=_argSpecifier;
-@property(readonly) _Bool isArgument; // @synthesize isArgument=_isArgument;
 @property(readonly) _Bool isSafe; // @synthesize isSafe=_isSafe;
-@property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

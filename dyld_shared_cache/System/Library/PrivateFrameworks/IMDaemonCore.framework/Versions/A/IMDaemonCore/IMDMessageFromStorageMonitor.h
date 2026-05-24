@@ -7,11 +7,10 @@
 @interface IMDMessageFromStorageMonitor
 {
     id messageCount;
-    id totalElapsedTimeSec;
 }
 
 + (id);
-- (void);
+- (void)"@@;
 - (void);
 - (id);
 - (void)to %s.;

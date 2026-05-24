@@ -7,9 +7,6 @@
 @interface Network.NWEthernetChannel
 {
     id _nw;
-    id lock;
-    id etherType;
-    id interface;
 }
 
 @end

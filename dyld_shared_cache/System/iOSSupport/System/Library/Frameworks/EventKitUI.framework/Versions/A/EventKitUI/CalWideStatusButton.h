@@ -8,7 +8,7 @@
 {
 }
 
-- (struct CGRect)teResponseVisibility;
+- (struct CGRect)_updateResponseVisibility;
 
 @end
 

@@ -6,15 +6,12 @@
 
 #import <ViewBridge/HostOrService.h>
 
-@class NSArray, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface ViewService : HostOrService
 {
     NSMutableSet *_spawnedRendezvousChildWindows;
-    NSArray *_keyboardEventSpecs;
-    struct CGRect _frameInScreenCoords;
-    _Bool _allowKeyboardEvents;
 }
 
 - (void);
@@ -22,28 +19,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)I;
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)(;
 - (_Bool);
-- (void);
+- (void)Rj;
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)�
+;
 - (void);
 
 // Remaining properties
 @property(readonly) _Bool allowKeyboardEvents; // @synthesize allowKeyboardEvents=_allowKeyboardEvents;
-@property struct CGRect frameInScreenCoords; // @synthesize frameInScreenCoords=_frameInScreenCoords;
-@property(readonly) _Bool hasKeyboardEventSpecs;
 
 @end
 

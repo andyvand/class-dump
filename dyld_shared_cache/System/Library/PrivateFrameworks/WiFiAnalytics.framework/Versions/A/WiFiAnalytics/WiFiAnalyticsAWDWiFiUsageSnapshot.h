@@ -7,40 +7,33 @@
 @interface WiFiAnalyticsAWDWiFiUsageSnapshot
 {
     unsigned long long _ts;
-    unsigned int _duration;
-    unsigned int _use;
-    CDStruct_92f5e503 _has;
 }
 
-- (unsigned long long);
+- (unsigned long long)K;
 - (void);
 - (void);
 - (void);
+- (_Bool)+1;
 - (_Bool);
-- (_Bool);
 - (void);
+- (unsigned int)wiFiActiveAndReachable;
+- (id)template {objectID:%{public}@} /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
+- (void);
+- (void)(
+;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)kCMDeviceMotionCodingKeyMagneticFieldCalibrationLevel;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasTs;
-@property(nonatomic) _Bool hasUse;
-@property(nonatomic) unsigned long long ts; // @synthesize ts=_ts;
-@property(nonatomic) unsigned int use; // @synthesize use=_use;
 
 @end
 

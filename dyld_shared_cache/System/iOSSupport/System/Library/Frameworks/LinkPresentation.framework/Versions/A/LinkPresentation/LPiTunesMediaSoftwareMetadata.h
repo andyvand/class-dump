@@ -6,80 +6,51 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, LPVideo, NSArray, NSString;
-
 @interface LPiTunesMediaSoftwareMetadata : LPSpecializationMetadata
 {
     _Bool _isMessagesOnlyApp;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_subtitle;
-    NSString *_genre;
-    NSString *_platform;
-    LPImage *_icon;
-    NSArray *_screenshots;
-    LPVideo *_previewVideo;
-    LPImage *_messagesAppIcon;
 }
 
-+ (id);
++ (id)startGrowAnimation;
 + (_Bool);
+- (id)translationSecondaryTextSize;
+- (void);
+- (void)transcriptSatelliteSuppressedNotificationColor;
+- (void)transcriptOverlayViewControllerIsAnimatingOut:(_Bool)arg1;
+- (id)transcriptCollectionViewControllerShouldSuppressDockingBehavior: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewControllerDidAddTapback:tapbackChatItem: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewControllerClass;
+- (id)transcriptCollectionViewControllerBottomDockingPadding:(id)arg1;
+- (id)transcriptCollectionViewControllerAdditionalFullscreenEffectViews:(id)arg1;
+- (void);
+- (_Bool)transcriptCollectionViewController:chatItemForContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)titleIconImageTypesSupportingRotation;
+- (void)tableView:(CDUnknownBlockType)arg1 willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)syncedSyndicationRanges;
+- (id)syncProgressUserActionButtonTextColor;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)__kIMPhoneNumberAttributeName;
 - (unsigned long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)eIO;
+- (void)i;
+- (void).dylib;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isMessagesOnlyApp; // @synthesize isMessagesOnlyApp=_isMessagesOnlyApp;
-@property(retain, nonatomic) LPImage *messagesAppIcon; // @synthesize messagesAppIcon=_messagesAppIcon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) LPVideo *previewVideo; // @synthesize previewVideo=_previewVideo;
-@property(copy, nonatomic) NSArray *screenshots; // @synthesize screenshots=_screenshots;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 
 @end
 

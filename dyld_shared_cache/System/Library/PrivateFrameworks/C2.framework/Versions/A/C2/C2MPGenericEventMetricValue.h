@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPGenericEventMetricValue
 {
     unsigned long long _dateValue;
-    double _doubleValue;
-    NSString *_stringValue;
-    struct {
-        unsigned int dateValue:1;
-        unsigned int doubleValue:1;
-    } _has;
 }
 
-- (void);
+- (void)5;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void));
+- (void)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);
@@ -41,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dateValue; // @synthesize dateValue=_dateValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasDateValue;
-@property(nonatomic) _Bool hasDoubleValue;
 @property(readonly, nonatomic) _Bool hasStringValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

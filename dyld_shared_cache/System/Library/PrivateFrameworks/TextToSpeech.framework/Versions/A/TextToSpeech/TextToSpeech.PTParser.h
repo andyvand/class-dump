@@ -7,16 +7,6 @@
 @interface TextToSpeech.PTParser
 {
     id plainTalkString;
-    id currentRate;
-    id currentVolume;
-    id currentPitch;
-    id currentPitchMod;
-    id characterLiteralMode;
-    id numberLiteralMode;
-    id parsedSpeechElements;
-    id parserState;
-    id ctxSpeakElements;
-    id curIdx;
 }
 
 @end

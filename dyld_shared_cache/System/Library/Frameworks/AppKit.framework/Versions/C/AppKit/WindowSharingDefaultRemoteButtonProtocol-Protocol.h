@@ -5,5 +5,6 @@
 //
 
 @protocol WindowSharingDefaultRemoteButtonProtocol
+- (void)_AMFDRDecodeEvaluateCertificateProperties;
 @end
 

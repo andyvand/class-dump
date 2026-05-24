@@ -6,48 +6,33 @@
 
 #import <AnnotationKit/AKArrowAnnotation.h>
 
-@class NSString, UIColor;
-
 @interface AKArrowShapeAnnotation : AKArrowAnnotation
 {
     double _arrowLineWidth;
-    double _arrowHeadWidth;
-    double _arrowHeadLength;
 }
 
-+ (id);
-+ (id);
++ (id));
++ (id);
 + (id);
 + (_Bool);
 - (void);
+- (void)K;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct CGRect);
 - (double);
 - (double);
 - (double);
 - (id);
+- (id)^B24;
+- (id)`
+;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property double arrowHeadLength; // @synthesize arrowHeadLength=_arrowHeadLength;
-@property double arrowHeadWidth; // @synthesize arrowHeadWidth=_arrowHeadWidth;
 @property double arrowLineWidth; // @synthesize arrowLineWidth=_arrowLineWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) UIColor *fillColor;
-@property(retain) UIColor *fillColorHDR;
-@property(retain) UIColor *fillColorSDR;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

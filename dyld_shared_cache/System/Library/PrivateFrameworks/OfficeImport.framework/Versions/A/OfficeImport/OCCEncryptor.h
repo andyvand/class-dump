@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface OCCEncryptor
 {
     NSString *mOutputFilename;
-    struct OCCStreamer *mStreamer;
 }
 
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool))	;
 - (_Bool);
 - (void);
 - (void);

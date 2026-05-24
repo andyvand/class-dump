@@ -6,18 +6,14 @@
 
 #import <CryptoTokenKit/TKSmartCardUserInteraction.h>
 
-@class NSArray, NSData, NSLocale;
+@class NSLocale;
 
 @interface TKSmartCardUserInteractionForPINOperation : TKSmartCardUserInteraction
 {
     NSLocale *_locale;
-    unsigned short _resultSW;
-    unsigned long long _PINCompletion;
-    NSArray *_PINMessageIndices;
-    NSData *_resultData;
 }
 
-+ (_Bool);
++ (_Bool)getSpeechSynthesisVolumeWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -26,20 +22,16 @@
 - (unsigned short);
 - (id);
 - (unsigned long long);
+- (id)`;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)hentication_Private.LASRPSession;
 
 // Remaining properties
 @property unsigned long long PINCompletion; // @synthesize PINCompletion=_PINCompletion;
-@property(retain) NSArray *PINMessageIndices; // @synthesize PINMessageIndices=_PINMessageIndices;
-@property(retain) NSLocale *locale;
-@property(retain) NSData *resultData; // @synthesize resultData=_resultData;
-@property unsigned short resultSW; // @synthesize resultSW=_resultSW;
 
 @end
 

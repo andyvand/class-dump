@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLStatus, NSDate;
+@class CPLStatus;
 
 @interface PHPhotoLibraryCloudStatus
 {
     CPLStatus *_cplStatus;
-    _Bool _cloudSyncEnabled;
-    NSDate *_lastSyncProgressDate;
-    NSDate *_firstSyncCompletionDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Received authentication error. server response=%{public}@;
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, getter=isCloudSyncEnabled) _Bool cloudSyncEnabled; // @synthesize cloudSyncEnabled=_cloudSyncEnabled;
-@property(readonly) NSDate *firstSyncCompletionDate; // @synthesize firstSyncCompletionDate=_firstSyncCompletionDate;
-@property(readonly) NSDate *lastSyncProgressDate; // @synthesize lastSyncProgressDate=_lastSyncProgressDate;
 
 @end
 

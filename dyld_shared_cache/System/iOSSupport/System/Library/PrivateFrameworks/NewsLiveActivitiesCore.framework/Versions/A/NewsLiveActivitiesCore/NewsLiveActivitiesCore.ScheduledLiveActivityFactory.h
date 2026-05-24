@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.ScheduledLiveActivityFactory
 {
     id appConfigurationManager;
+    id;
 }
 
 @end

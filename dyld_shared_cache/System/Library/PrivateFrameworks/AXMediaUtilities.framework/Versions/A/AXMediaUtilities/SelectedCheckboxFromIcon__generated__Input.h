@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface SelectedCheckboxFromIcon__generated__Input
 {
@@ -14,12 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct __CVBuffer *);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)URLSession:dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithX:(id)arg1 y:additionalValues:label: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) struct __CVBuffer *image; // @synthesize image=_image;
 
 @end

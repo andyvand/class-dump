@@ -12,7 +12,7 @@
 {
 }
 
-+ (void);
++ (void)8;
 + (id);
 + (id);
 + (id);
@@ -29,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)@@y	?%@q;
 - (id);
 - (id);
 - (_Bool);
@@ -40,19 +40,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)?׀;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hc9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (void);
 - (_Bool);
 - (void);
@@ -66,7 +66,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MFMailbox *outboxMailbox;
-@property(readonly, nonatomic) MFMailbox *sendLaterMailbox;
 
 @end
 

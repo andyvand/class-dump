@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void);
++ (void)Warning:(id)arg1 SCNSimpleAnimationToCABasicAnimation - can't convert endValue;
 
 @end
 

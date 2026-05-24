@@ -5,5 +5,6 @@
 //
 
 @protocol STYWakeDataConsumer
+- (void);
 @end
 

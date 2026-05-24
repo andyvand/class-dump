@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMapItemAddressBookAttributes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_addressIdentifier;
-    NSString *_contactIdentifier;
-    NSString *_name;
-    NSString *_spokenName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _addressType;
-    _Bool _isMe;
-    struct {
-        unsigned int has_addressType:1;
-        unsigned int has_isMe:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_addressIdentifier:1;
-        unsigned int read_contactIdentifier:1;
-        unsigned int read_name:1;
-        unsigned int read_spokenName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setHasSupportsRestaurantQueueing:(id)arg1;
@@ -37,36 +17,36 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)@24@0:(int)arg1 8#16;
+- (int)k:(id)arg1;
+- (void)Failed with error:(int)arg1 %@>;
+- (int)torsoprintRequestRevision;
+- (void);
 - (_Bool);
-- (id);
-- (int);
-- (void);
-- (int);
-- (void);
-- (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)kDeleteUserPreserveVarFolders;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)us = %@ according to MobileTimer notification.;
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (void),R,N,G_venueFeatureType;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool)teSet"b1};
-- (id)hargeOptions;
+- (id)transitSurchargeOptions;
 - (id)nfo",&,N;
 - (id)Xø;
 - (id);
@@ -74,19 +54,7 @@
 - (void)¬3;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *addressIdentifier;
-@property(nonatomic) int addressType;
-@property(retain, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) _Bool hasAddressIdentifier;
 @property(nonatomic) _Bool hasAddressType;
-@property(readonly, nonatomic) _Bool hasContactIdentifier;
-@property(nonatomic) _Bool hasIsMe;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasSpokenName;
-@property(nonatomic) _Bool isMe;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *spokenName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PKIDSDestination
 {
     NSString *_deviceIdentifier;
-    NSString *_name;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

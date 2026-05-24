@@ -4,90 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSPredicate, NSSet, NSString;
+@class NSString;
 
 @interface _PSInteractionsStatisticsConfig
 {
     double _maxComputationTime;
-    double _anchorTimeStamp;
-    NSDate *_rightBoundDate;
-    NSDictionary *_sceneCategoryTagThresholds;
-    NSDictionary *_shareExtToAppBundleIdMapping;
-    _Bool _isFallbackFetch;
-    _Bool _shouldUseSuggestionEngaged;
-    _Bool _isWeekendShare;
-    NSString *_sourceBundleId;
-    NSArray *_staticFeatures;
-    NSArray *_dynamicFeatureRecipe;
-    NSDictionary *_sceneCategoryTagMapping;
-    NSString *_topDomainURL;
-    NSArray *_sortOrderFeatureNames;
-    NSDictionary *_defaultValues;
-    NSDate *_anchorDate;
-    NSDate *_leftBoundDate;
-    unsigned long long _fetchLimit;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)_hasBluetoothDisabled;
+- (id)_hasAudioAlbum;
+- (id)_hasAttentionInvocationDigestsReported;
+- (id)_hasAsvOutputVolumeQueried;
+- (_Bool)_hasAssistantVoicesDigestsReported;
+- (id)_hasAssistantExperimentDigestReported;
+- (void)_hasAssistantDaemonAudioRecordingFailureInsufficientPriority;
+- (void)_hasAsrRank;
+- (void)_hasAsrFullPayloadCorrectedToUserEdit;
+- (void)_hasAsrFeatureLatencyDistribution;
+- (void)_hasAsrEuclidEmbedding;
+- (void)_hasApplicationPlaybackAttempted;
+- (void)_hasApplicationParameters;
+- (void)_hasAceCommandContext;
+- (void)_hasAccent;
+- (void)_followUpDurationSinceSiriRequestInSeconds;
+- (id)_firstIdentityReceived;
+- (id)_firstBufferReceiptTimeOffsetInNs;
+- (id)_finalAudioPacketContainingSpeechReceived;
+- (double)_endMilliseconds;
+- (id)_durationFromClassCUnlockToFirstRequestSeconds;
+- (_Bool)_domainConfiguredState;
+- (id)_dictationContentEdited;
+- (id)_completedUIAppTaskCount;
+- (id)_completedSiriAppTaskCount;
+- (id)_audioQueueStateInfoTier1;
+- (id)_audioPacketContainingEndOfFirstWordReadyUpstream;
+- (id)_appUsageCountForEntityInf;
+- (id)_appEntityQueryResponseTime;
+- (id)_allocations;
 - (id);
 - (double);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
+- (void);
+- (void)PhyCalibrationCount;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)_customViewController;
 - (void);
 - (unsigned long long)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *anchorDate; // @synthesize anchorDate=_anchorDate;
-@property(readonly, nonatomic) double anchorTimeStamp; // @synthesize anchorTimeStamp=_anchorTimeStamp;
-@property(readonly, nonatomic) NSPredicate *communicationInteractionPredicate;
-@property(readonly, nonatomic) NSSet *configuredSceneCategoryTagNames;
-@property(retain, nonatomic) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(retain, nonatomic) NSArray *dynamicFeatureRecipe; // @synthesize dynamicFeatureRecipe=_dynamicFeatureRecipe;
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(nonatomic) _Bool isFallbackFetch; // @synthesize isFallbackFetch=_isFallbackFetch;
-@property(readonly, nonatomic) _Bool isWeekendShare; // @synthesize isWeekendShare=_isWeekendShare;
-@property(readonly, nonatomic) NSDate *leftBoundDate; // @synthesize leftBoundDate=_leftBoundDate;
-@property(nonatomic) double maxComputationTime; // @synthesize maxComputationTime=_maxComputationTime;
-@property(readonly, nonatomic) NSDate *rightBoundDate; // @synthesize rightBoundDate=_rightBoundDate;
-@property(retain, nonatomic) NSDictionary *sceneCategoryTagMapping; // @synthesize sceneCategoryTagMapping=_sceneCategoryTagMapping;
-@property(readonly, nonatomic) NSPredicate *sharingInteractionPredicate;
-@property(nonatomic) _Bool shouldUseSuggestionEngaged; // @synthesize shouldUseSuggestionEngaged=_shouldUseSuggestionEngaged;
-@property(retain, nonatomic) NSArray *sortOrderFeatureNames; // @synthesize sortOrderFeatureNames=_sortOrderFeatureNames;
 @property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
-@property(retain, nonatomic) NSArray *staticFeatures; // @synthesize staticFeatures=_staticFeatures;
-@property(retain, nonatomic) NSString *topDomainURL; // @synthesize topDomainURL=_topDomainURL;
 
 @end
 

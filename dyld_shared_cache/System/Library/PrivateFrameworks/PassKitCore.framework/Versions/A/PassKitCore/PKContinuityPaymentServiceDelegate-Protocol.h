@@ -5,5 +5,8 @@
 //
 
 @protocol PKContinuityPaymentServiceDelegate
+
+@optional
+- (void);
 @end
 

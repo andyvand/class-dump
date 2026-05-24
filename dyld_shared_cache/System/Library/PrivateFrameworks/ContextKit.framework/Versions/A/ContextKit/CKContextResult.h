@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateComponents, NSDictionary, NSOrderedSet, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface CKContextResult
 {
     _Bool _exactMatch;
-    _Bool _onScreen;
-    NSString *_title;
-    NSString *_query;
-    long long _minPrefix;
-    NSURL *_url;
-    NSString *_topicId;
-    NSString *_category;
-    NSString *_debug;
-    NSOrderedSet *_relatedItems;
-    NSSet *_tags;
-    NSDateComponents *_extractedStartDateComponents;
-    NSDateComponents *_extractedEndDateComponents;
-    NSDictionary *_extractedAddressComponents;
-    NSString *_sceneIdentifier;
-    NSArray *_associatedResults;
-    struct CGPoint _absoluteOriginOnScreen;
-    struct CGRect _frameInWindow;
 }
 
 + (id);
@@ -43,29 +26,29 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_drawImageForSignature:(struct CGPoint)arg1 withFillColor:scale:pathOffset:inContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)_dataSubscriptionContext;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)sinf, sinfs FROM assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND LENGTH(mini_sinf) > 1 AND url_expiration_date > @now;
+- (void)to fetch saga ID tree for playlist with persistent id %lld, but data provider is missing implementation;
 - (id);
 - (id);
 - (void);
 - (id);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (long long);
 - (void);
@@ -80,25 +63,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint absoluteOriginOnScreen; // @synthesize absoluteOriginOnScreen=_absoluteOriginOnScreen;
-@property(copy, nonatomic) NSArray *associatedResults; // @synthesize associatedResults=_associatedResults;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(copy, nonatomic) NSString *debug; // @synthesize debug=_debug;
-@property(nonatomic, getter=isExactMatch) _Bool exactMatch; // @synthesize exactMatch=_exactMatch;
-@property(copy, nonatomic) NSDictionary *extractedAddressComponents; // @synthesize extractedAddressComponents=_extractedAddressComponents;
-@property(copy, nonatomic) NSDateComponents *extractedEndDateComponents; // @synthesize extractedEndDateComponents=_extractedEndDateComponents;
-@property(copy, nonatomic) NSDateComponents *extractedStartDateComponents; // @synthesize extractedStartDateComponents=_extractedStartDateComponents;
-@property(nonatomic) struct CGRect frameInWindow; // @synthesize frameInWindow=_frameInWindow;
-@property(nonatomic) long long minPrefix; // @synthesize minPrefix=_minPrefix;
-@property(nonatomic, getter=isOnScreen) _Bool onScreen; // @synthesize onScreen=_onScreen;
-@property(copy, nonatomic) NSString *portraitId;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(copy, nonatomic) NSOrderedSet *relatedItems; // @synthesize relatedItems=_relatedItems;
-@property(copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(copy, nonatomic) NSSet *tags; // @synthesize tags=_tags;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *topicId; // @synthesize topicId=_topicId;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

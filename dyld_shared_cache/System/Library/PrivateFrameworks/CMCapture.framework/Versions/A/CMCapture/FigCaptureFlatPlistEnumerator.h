@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureFlatPlistEnumerator
 {
     FigCaptureFlatPlist *_flatPlist;
-    const CDStruct_e993e376 *_bplist;
-    unsigned long long _offset;
-    unsigned long long _count;
-    unsigned long long _index;
 }
 
 - (void);

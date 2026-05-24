@@ -7,23 +7,19 @@
 @interface LPSpecializationMetadata
 {
     _Bool __dummyPropertyForObservation;
-    _Bool __canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
-    _Bool __disallowsURLOverrideByDelegate;
 }
 
-+ (id);
++ (id)stageFindMyCompositionWithShareType: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (_Bool)stickerWithMSMessageMediaPayload: /* Error: Ran out of types for this method. */;
+- (_Bool)stateChangeAnimationDuration;
 - (id);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _canDeferAsynchronousFieldsMetadataUpdateUntilCompletion; // @synthesize _canDeferAsynchronousFieldsMetadataUpdateUntilCompletion=__canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
-@property(readonly, nonatomic) _Bool _disallowsURLOverrideByDelegate; // @synthesize _disallowsURLOverrideByDelegate=__disallowsURLOverrideByDelegate;
 @property(readonly, nonatomic) _Bool _dummyPropertyForObservation; // @synthesize _dummyPropertyForObservation=__dummyPropertyForObservation;
 
 @end

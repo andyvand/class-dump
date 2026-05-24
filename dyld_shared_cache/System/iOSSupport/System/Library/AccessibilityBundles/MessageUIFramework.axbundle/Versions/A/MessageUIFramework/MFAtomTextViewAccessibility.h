@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIDatePickerCompactTimeLabelAccessibility;
++ (void)ftUI.FocusRingNSButton;
 - (void);
 - (id);
-- (id);
+- (id)`;
 
 @end
 

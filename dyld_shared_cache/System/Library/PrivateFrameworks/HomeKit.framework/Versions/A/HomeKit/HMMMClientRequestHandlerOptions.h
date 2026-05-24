@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMMMessageDestination, HMUser, NSString;
+@class HMMMMessageDestination;
 
 @interface HMMMClientRequestHandlerOptions
 {
     HMMMMessageDestination *_peerDestination;
-    NSString *_messageName;
-    HMUser *_user;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (id)software update controller:context is nil /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
 @property(readonly, nonatomic) HMMMMessageDestination *peerDestination; // @synthesize peerDestination=_peerDestination;
-@property(readonly, nonatomic) HMUser *user; // @synthesize user=_user;
 
 @end
 

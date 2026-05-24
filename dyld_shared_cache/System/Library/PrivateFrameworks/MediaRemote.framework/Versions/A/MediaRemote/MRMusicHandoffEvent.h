@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRMusicHandoffEventProtobuf;
+@class NSString;
 
 @interface MRMusicHandoffEvent
 {
     long long _type;
-    NSString *_sessionIdentifier;
 }
 
 - (id);
-- (long long);
+- (long long)IMConversationListFilterModeNoJunk;
 - (void);
 - (id);
 - (id);
@@ -23,10 +22,7 @@
 - (id)gPlayerPathCopy(MRNowPlayingPlayerPathRef);
 
 // Remaining properties
-@property(readonly, nonatomic) _MRMusicHandoffEventProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
 @property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

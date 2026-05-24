@@ -6,48 +6,10 @@
 
 #import <CoreHAP/HAPAccessoryServerBTLE.h>
 
-@class CBCharacteristic, CBService, HAPSecuritySession, NSMapTable, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _HAPAccessoryServerBTLE100 : HAPAccessoryServerBTLE
 {
     struct PairingSessionPrivate *_pairingSession;
-    _Bool _startPairingRequested;
-    _Bool _pairingFeaturesRead;
-    _Bool _securitySessionOpening;
-    _Bool _disconnecting;
-    _Bool _unpairedIdentifyRequested;
-    _Bool _removeOnDisconnect;
-    unsigned long long _state;
-    unsigned long long _connectionRetryCount;
-    NSMapTable *_btleServiceToHAPServiceMap;
-    unsigned long long _characteristicDiscoveryRequestCount;
-    unsigned long long _characteristicValueReadCount;
-    unsigned long long _metadataDiscoveryRequestCount;
-    unsigned long long _metadataValueReadCount;
-    unsigned long long _availableInstanceID;
-    NSMapTable *_btleCharacteristicToHAPCharacteristicMap;
-    NSMapTable *_hapCharacteristicReadCompletionQueues;
-    NSMapTable *_hapCharacteristicWriteCompletionQueues;
-    NSMapTable *_hapCharacteristicEnableEventCompletionQueues;
-    NSMutableArray *_addRemovePairingOperationsQueue;
-    CBService *_pairingService;
-    CBCharacteristic *_pairSetupCharacteristic;
-    CBCharacteristic *_pairVerifyCharacteristic;
-    CBCharacteristic *_pairingFeaturesCharacteristic;
-    CBCharacteristic *_pairingsCharacteristic;
-    CBService *_accessoryInfoService;
-    CBCharacteristic *_identifyCharacteristic;
-    CBCharacteristic *_modelCharacteristic;
-    CBCharacteristic *_serialNumberCharacteristic;
-    CBCharacteristic *_manufacturerCharacteristic;
-    CDUnknownBlockType _pairVerifyCompletionBlock;
-    unsigned long long _pairingFeatureFlags;
-    HAPSecuritySession *_securitySession;
-    NSObject<OS_dispatch_source> *_connectionLifetimeTimer;
-    double _idleConnectionTimeoutInSec;
-    CDUnknownBlockType _unpairedIdentifyCompletionBlock;
 }
 
 + (id);
@@ -111,20 +73,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)P;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -150,13 +112,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (id);
@@ -168,7 +130,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -200,76 +162,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (int)r::Configure() called more than once /* Error: Ran out of types for this method. */;
+- (_Bool)ake JSON;
+- (void)_curatedLibraryCropForAspectRatio:(id)arg1 verticalContentMode:(id)arg2 cropMode:(id)arg3 sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (void)_curatedLibraryAdjustedRectWithFaceAreaRect:(id)arg1 proposedCropRect:(id)arg2 assetRect:(id)arg3 verticalContentMode: /* Error: Ran out of types for this method. */;
+- (void)_creationTimeZone;
+- (void)_createTemporaryDirectory;
+- (void)ange:(id)arg1 forExport:(id)arg2 allocator:outTimeRangeMapper:outError: /* Error: Ran out of types for this method. */;
+- (void)_createPredrawnImage:(id)arg1;
+- (void):(id)arg1 allocator:(id)arg2;
+- (void)sourceImageSize;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)Date;
 - (void):8@16@24*32 /* Error: Ran out of types for this method. */;
 - (void)ries with Identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)isDiscovering:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CBService *accessoryInfoService; // @synthesize accessoryInfoService=_accessoryInfoService;
-@property(retain, nonatomic) NSMutableArray *addRemovePairingOperationsQueue; // @synthesize addRemovePairingOperationsQueue=_addRemovePairingOperationsQueue;
-@property(nonatomic) unsigned long long availableInstanceID; // @synthesize availableInstanceID=_availableInstanceID;
-@property(retain, nonatomic) NSMapTable *btleCharacteristicToHAPCharacteristicMap; // @synthesize btleCharacteristicToHAPCharacteristicMap=_btleCharacteristicToHAPCharacteristicMap;
-@property(retain, nonatomic) NSMapTable *btleServiceToHAPServiceMap; // @synthesize btleServiceToHAPServiceMap=_btleServiceToHAPServiceMap;
-@property(nonatomic) unsigned long long characteristicDiscoveryRequestCount; // @synthesize characteristicDiscoveryRequestCount=_characteristicDiscoveryRequestCount;
-@property(nonatomic) unsigned long long characteristicValueReadCount; // @synthesize characteristicValueReadCount=_characteristicValueReadCount;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *connectionLifetimeTimer; // @synthesize connectionLifetimeTimer=_connectionLifetimeTimer;
-@property(nonatomic) unsigned long long connectionRetryCount; // @synthesize connectionRetryCount=_connectionRetryCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDisconnecting) _Bool disconnecting; // @synthesize disconnecting=_disconnecting;
-@property(retain, nonatomic) NSMapTable *hapCharacteristicEnableEventCompletionQueues; // @synthesize hapCharacteristicEnableEventCompletionQueues=_hapCharacteristicEnableEventCompletionQueues;
-@property(retain, nonatomic) NSMapTable *hapCharacteristicReadCompletionQueues; // @synthesize hapCharacteristicReadCompletionQueues=_hapCharacteristicReadCompletionQueues;
-@property(retain, nonatomic) NSMapTable *hapCharacteristicWriteCompletionQueues; // @synthesize hapCharacteristicWriteCompletionQueues=_hapCharacteristicWriteCompletionQueues;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CBCharacteristic *identifyCharacteristic; // @synthesize identifyCharacteristic=_identifyCharacteristic;
-@property(nonatomic) double idleConnectionTimeoutInSec; // @synthesize idleConnectionTimeoutInSec=_idleConnectionTimeoutInSec;
-@property(retain, nonatomic) CBCharacteristic *manufacturerCharacteristic; // @synthesize manufacturerCharacteristic=_manufacturerCharacteristic;
-@property(nonatomic) unsigned long long metadataDiscoveryRequestCount; // @synthesize metadataDiscoveryRequestCount=_metadataDiscoveryRequestCount;
-@property(nonatomic) unsigned long long metadataValueReadCount; // @synthesize metadataValueReadCount=_metadataValueReadCount;
-@property(retain, nonatomic) CBCharacteristic *modelCharacteristic; // @synthesize modelCharacteristic=_modelCharacteristic;
-@property(retain, nonatomic) CBCharacteristic *pairSetupCharacteristic; // @synthesize pairSetupCharacteristic=_pairSetupCharacteristic;
-@property(retain, nonatomic) CBCharacteristic *pairVerifyCharacteristic; // @synthesize pairVerifyCharacteristic=_pairVerifyCharacteristic;
-@property(copy, nonatomic) CDUnknownBlockType pairVerifyCompletionBlock; // @synthesize pairVerifyCompletionBlock=_pairVerifyCompletionBlock;
-@property(nonatomic) unsigned long long pairingFeatureFlags; // @synthesize pairingFeatureFlags=_pairingFeatureFlags;
-@property(retain, nonatomic) CBCharacteristic *pairingFeaturesCharacteristic; // @synthesize pairingFeaturesCharacteristic=_pairingFeaturesCharacteristic;
-@property(nonatomic) _Bool pairingFeaturesRead; // @synthesize pairingFeaturesRead=_pairingFeaturesRead;
-@property(retain, nonatomic) CBService *pairingService; // @synthesize pairingService=_pairingService;
-@property(retain, nonatomic) CBCharacteristic *pairingsCharacteristic; // @synthesize pairingsCharacteristic=_pairingsCharacteristic;
-@property(nonatomic) _Bool removeOnDisconnect; // @synthesize removeOnDisconnect=_removeOnDisconnect;
-@property(retain, nonatomic) HAPSecuritySession *securitySession; // @synthesize securitySession=_securitySession;
-@property(nonatomic, getter=isSecuritySessionOpening) _Bool securitySessionOpening; // @synthesize securitySessionOpening=_securitySessionOpening;
-@property(retain, nonatomic) CBCharacteristic *serialNumberCharacteristic; // @synthesize serialNumberCharacteristic=_serialNumberCharacteristic;
-@property(nonatomic) _Bool startPairingRequested; // @synthesize startPairingRequested=_startPairingRequested;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType unpairedIdentifyCompletionBlock; // @synthesize unpairedIdentifyCompletionBlock=_unpairedIdentifyCompletionBlock;
-@property(nonatomic) _Bool unpairedIdentifyRequested; // @synthesize unpairedIdentifyRequested=_unpairedIdentifyRequested;
 
 @end
 

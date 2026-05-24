@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssistantActivityItem, PXAssistantButtonItem, PXAssistantTemplateView;
+@class PXAssistantTemplateView;
 @protocol PXAssistantViewControllerDelegate;
 
 @interface PXAssistantTemplateViewController
 {
     id <PXAssistantViewControllerDelegate> _assistantViewControllerDelegate;
-    PXAssistantActivityItem *_activityItem;
-    PXAssistantButtonItem *_firstButtonItem;
-    PXAssistantButtonItem *_secondButtonItem;
-    PXAssistantButtonItem *_thirdButtonItem;
 }
 
 - (void);
@@ -34,19 +30,7 @@
 - (void)ÉØ¸Ìöþ¡Ø¸ÌöþñØ¸ ÌöþØ¸,ÌöþØ¸P]ÿþÉØ¸DÌöþÙ¸LÌöþÑØ¸\Ìöþ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssistantActivityItem *activityItem; // @synthesize activityItem=_activityItem;
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate; // @synthesize assistantViewControllerDelegate=_assistantViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXAssistantButtonItem *firstButtonItem; // @synthesize firstButtonItem=_firstButtonItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXAssistantButtonItem *secondButtonItem; // @synthesize secondButtonItem=_secondButtonItem;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXAssistantTemplateView *templateView;
-@property(readonly, nonatomic) PXAssistantButtonItem *thirdButtonItem; // @synthesize thirdButtonItem=_thirdButtonItem;
 
 @end
 

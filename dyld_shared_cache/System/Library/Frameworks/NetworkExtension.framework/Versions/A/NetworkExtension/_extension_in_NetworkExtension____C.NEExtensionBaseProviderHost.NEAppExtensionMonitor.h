@@ -7,8 +7,6 @@
 @interface (extension in NetworkExtension):__C.NEExtensionBaseProviderHost.NEAppExtensionMonitor
 {
     id monitor;
-    id state;
-    id appExtensionPoint;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface CRKSetRequestingUnenrollmentFromControlGroupRequest
 {
     _Bool _requestingUnenroll;
-    DMFControlGroupIdentifier *_groupIdentifier;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(nonatomic) _Bool requestingUnenroll; // @synthesize requestingUnenroll=_requestingUnenroll;
 
 @end
 

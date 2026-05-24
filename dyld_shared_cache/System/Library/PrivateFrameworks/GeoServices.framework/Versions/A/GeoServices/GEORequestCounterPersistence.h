@@ -9,8 +9,6 @@
 @interface GEORequestCounterPersistence
 {
     GEOSQLiteDB *_db;
-    double _maxAge;
-    _Bool _enabled;
 }
 
 + (id);

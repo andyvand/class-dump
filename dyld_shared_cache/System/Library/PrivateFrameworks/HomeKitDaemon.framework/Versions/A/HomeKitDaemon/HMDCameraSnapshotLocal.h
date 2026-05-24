@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDCameraSnapshotSessionInfo, NSObject, NSString;
-@protocol HMDCameraSnapshotLocalDelegate, HMDCameraSnapshotRequestHandlerProtocol, OS_dispatch_queue;
+@class HMDCameraSnapshotSessionInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotLocal
 {
     HMDCameraSnapshotSessionInfo *_snapshotSessionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDAccessory *_accessory;
-    id <HMDCameraSnapshotLocalDelegate> _delegate;
-    id <HMDCameraSnapshotRequestHandlerProtocol> _snapshotRequestHandler;
 }
 
 + (id)ÂÿÏË@ÆB;
-- (id);
-- (id);
+- (id)_editDetectorDidDetectUpdateForObject: /* Error: Ran out of types for this method. */;
+- (id)_duplicatesPolicy;
 - (id);
 - (void);
 - (void);
@@ -35,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)!u}&Håþu}&ô|ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDCameraSnapshotLocalDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <HMDCameraSnapshotRequestHandlerProtocol> snapshotRequestHandler; // @synthesize snapshotRequestHandler=_snapshotRequestHandler;
 @property(readonly, nonatomic) HMDCameraSnapshotSessionInfo *snapshotSessionInfo; // @synthesize snapshotSessionInfo=_snapshotSessionInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -9,13 +9,9 @@
 @interface GEOMeasurementData
 {
     PBUnknownFields *_unknownFields;
-    _Bool _enableUnitScaling;
-    struct {
-        unsigned int has_enableUnitScaling:1;
-    } _flags;
 }
 
-+ (_Bool)sTrafficVersion:(id)arg1;
++ (_Bool)setHasTrafficVersion:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -23,24 +19,22 @@
 - (void);
 - (id);
 - (id);
+- (void)@"<XPCWriteConfigOneway>",R,D;
 - (void);
-- (void);
-- (void);
+- (void)SiriSpeechRecordingContext endRecordingAudio]_block_invoke_2;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)j/;
 - (id)b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)tEnabled;
+- (id)hasMapSettingsSpeedLimitEnabled;
 - (id)°¯^|;
-- (id)Hash;
+- (id)kMitzenmacherMultiHash;
 - (void)xÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool enableUnitScaling;
 @property(nonatomic) _Bool hasEnableUnitScaling;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

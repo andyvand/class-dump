@@ -5,5 +5,9 @@
 //
 
 @protocol PKSystemProvider
+- (void);
+- (unsigned int)�;
+- (int)'(*;
+- (int);
 @end
 

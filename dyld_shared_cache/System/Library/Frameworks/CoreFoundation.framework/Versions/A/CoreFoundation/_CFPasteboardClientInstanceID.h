@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface _CFPasteboardClientInstanceID
 {
     struct __CFUUID *_uuid;
-    NSObject<OS_xpc_object> *_conn;
-    CDStruct_4c969caf _auditToken;
-    _Bool _hasCheckedPath;
-    _Bool _isCSUIA;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
-- (struct __CFUUID *)r;
+- (struct __CFUUID *)CIFilterListProvider;
 
 // Remaining properties
-@property(readonly) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly) NSObject<OS_xpc_object> *connection; // @synthesize connection=_conn;
-@property(readonly) _Bool isCSUIA;
 @property(readonly) struct __CFUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

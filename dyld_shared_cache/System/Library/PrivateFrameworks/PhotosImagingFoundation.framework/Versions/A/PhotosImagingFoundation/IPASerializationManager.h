@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)Status;
++ (id)AVPartialAsyncProperty;
 + (id);
 + (id);
 + (id);
@@ -17,7 +17,7 @@
 + (id);
 + (BOOL);
 + (BOOL);
-+ (id);
++ (id),;
 + (id);
 + (id);
 + (void);

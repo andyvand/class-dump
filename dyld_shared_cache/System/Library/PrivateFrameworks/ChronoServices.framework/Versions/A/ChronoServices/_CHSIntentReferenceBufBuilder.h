@@ -9,10 +9,9 @@
 @interface _CHSIntentReferenceBufBuilder
 {
     AFBBufferBuilder *_owner;
-    struct IntentReferenceBufBuilder *_bldr;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);

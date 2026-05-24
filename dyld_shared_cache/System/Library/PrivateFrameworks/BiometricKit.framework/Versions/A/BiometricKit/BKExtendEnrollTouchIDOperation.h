@@ -6,29 +6,26 @@
 
 #import <BiometricKit/BKOperation.h>
 
-@class BKIdentity, NSData;
+@class BKIdentity;
 @protocol BKExtendEnrollTouchIDOperationDelegate;
 
 @interface BKExtendEnrollTouchIDOperation : BKOperation
 {
     BKIdentity *_identity;
-    NSData *_credentialSet;
 }
 
 - (void);
 - (id);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *credentialSet; // @synthesize credentialSet=_credentialSet;
 @property(nonatomic) __weak id <BKExtendEnrollTouchIDOperationDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) BKIdentity *identity; // @synthesize identity=_identity;
 
 @end
 

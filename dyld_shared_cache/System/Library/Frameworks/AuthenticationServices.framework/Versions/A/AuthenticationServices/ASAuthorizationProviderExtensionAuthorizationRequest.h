@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationProviderExtensionLoginManager, NSData, NSDictionary, NSString, NSURL, SOAuthorizationRequest;
+@class SOAuthorizationRequest;
 
 @interface ASAuthorizationProviderExtensionAuthorizationRequest
 {
@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)40@48B56@?60;
+- (id)abs to save for profileIdentifier = %@ :(%lu pinned tabs) %{sensitive}@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,21 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *authorizationOptions;
 @property(readonly, nonatomic) SOAuthorizationRequest *authorizationRequest; // @synthesize authorizationRequest=_authorizationRequest;
-@property(readonly, nonatomic) NSData *callerAuditToken;
-@property(readonly, copy, nonatomic) NSString *callerBundleIdentifier;
-@property(readonly, nonatomic, getter=isCallerManaged) _Bool callerManaged;
-@property(readonly, nonatomic) NSString *callerTeamIdentifier;
-@property(readonly, nonatomic) NSDictionary *extensionData;
-@property(readonly, nonatomic) NSData *httpBody;
-@property(readonly, nonatomic) NSDictionary *httpHeaders;
-@property(readonly, nonatomic) NSString *localizedCallerDisplayName;
-@property(readonly, nonatomic) ASAuthorizationProviderExtensionLoginManager *loginManager;
-@property(readonly, copy, nonatomic) NSString *realm;
-@property(readonly, nonatomic) NSString *requestedOperation;
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic, getter=isUserInterfaceEnabled) _Bool userInterfaceEnabled;
 
 @end
 

@@ -4,67 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableEnum, INCodableEnumValue, NSString;
+@class INCodableEnumValue;
 
 @interface INCodableEnumValueSynonym
 {
     INCodableEnumValue *_codableEnumValue;
-    NSString *_pronunciationHint;
-    NSString *_pronunciationHintLocID;
-    NSString *_synonym;
-    NSString *_synonymLocID;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id)ctType:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)@9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_GCControllerSpatialComponent;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)R;
+- (id)getCString:maxLength:encoding: /* Error: Ran out of types for this method. */;
+- (_Bool)__IPv4StateConfigForServiceID:(id)arg1;
+- (void)initHomeManagerInstance];
+- (id)6C63EC20EEBLLO;
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void)ssWithResolvedModifyRelationship:(id)arg1;
+- (void)successWithResolvedModifyRelationship:(id)arg1;
 - (void)ent.notes.AppendToNoteIntentResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak INCodableEnum *_codableEnum;
 @property(nonatomic, setter=_setCodableEnumValue:) __weak INCodableEnumValue *_codableEnumValue; // @synthesize _codableEnumValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedPronunciationHint;
-@property(readonly, copy) NSString *localizedSynonym;
-@property(copy, nonatomic) NSString *pronunciationHint; // @synthesize pronunciationHint=_pronunciationHint;
-@property(copy, nonatomic) NSString *pronunciationHintLocID; // @synthesize pronunciationHintLocID=_pronunciationHintLocID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *synonym; // @synthesize synonym=_synonym;
-@property(copy, nonatomic) NSString *synonymLocID; // @synthesize synonymLocID=_synonymLocID;
 
 @end
 

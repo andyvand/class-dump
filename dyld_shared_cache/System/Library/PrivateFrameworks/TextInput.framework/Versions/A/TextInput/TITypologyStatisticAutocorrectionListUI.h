@@ -9,11 +9,6 @@
 @interface TITypologyStatisticAutocorrectionListUI : TITypologyStatistic
 {
     _Bool _didSetListUIDisplayed;
-    _Bool _listUIDisplayed;
-    long long _inputsWhileHidden;
-    long long _inputsWhileDisplayed;
-    long long _hiddenToDisplayed;
-    long long _displayedToHidden;
 }
 
 - (void);
@@ -23,14 +18,11 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)predictionFromFeatures:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)ly: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long displayedToHidden; // @synthesize displayedToHidden=_displayedToHidden;
-@property(readonly, nonatomic) long long hiddenToDisplayed; // @synthesize hiddenToDisplayed=_hiddenToDisplayed;
-@property(readonly, nonatomic) long long inputsWhileDisplayed; // @synthesize inputsWhileDisplayed=_inputsWhileDisplayed;
 @property(readonly, nonatomic) long long inputsWhileHidden; // @synthesize inputsWhileHidden=_inputsWhileHidden;
 
 @end

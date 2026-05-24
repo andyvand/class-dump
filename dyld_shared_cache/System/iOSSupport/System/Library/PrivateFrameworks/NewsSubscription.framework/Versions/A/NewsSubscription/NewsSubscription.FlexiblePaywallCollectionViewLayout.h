@@ -7,17 +7,15 @@
 @interface NewsSubscription.FlexiblePaywallCollectionViewLayout
 {
     id layoutProvider;
-    id itemAttributes;
-    id supplementaryItemAttributes;
 }
 
 - (id);
-- (id);
+- (id)hes/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDGroupInfo.m;
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (id)mentSectionItemHeightProvider;
+- (id)NUDocumentSectionItemHeightProvider;
 - (id)¨;
 
 // Remaining properties

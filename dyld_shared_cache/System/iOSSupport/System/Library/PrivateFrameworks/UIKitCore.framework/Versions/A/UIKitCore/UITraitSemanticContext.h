@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)ostDidPromoteFirstResponderUserInfoKey;
++ (id)_UIWindowHostDidPromoteFirstResponderUserInfoKey;
 + (long long)ÞÍAíi;
 
 @end

@@ -15,11 +15,10 @@
 - (void);
 - (id);
 - (unsigned short);
-- (void);
+- (void)bag:%{public}@, clientInfo:%{public}@, urlKnownToBeTrusted:%{public}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *cssText;
-@property(readonly) unsigned short cssValueType;
 
 @end
 

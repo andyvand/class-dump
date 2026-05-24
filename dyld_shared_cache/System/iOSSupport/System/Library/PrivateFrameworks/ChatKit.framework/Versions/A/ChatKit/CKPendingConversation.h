@@ -11,42 +11,34 @@
 @interface CKPendingConversation : CKConversation
 {
     _Bool _noAvailableServices;
-    _Bool _sendingServiceEncrypted;
-    _Bool _pendingChat;
-    IMService *_previousSendingService;
-    IMService *_composeSendingService;
 }
 
-+ (id);
++ (id)ationDate:(id)arg1 %@, previewUpdateDate:%@). /* Error: Ran out of types for this method. */;
+- (void)callHandler;
+- (void)attachmentViewControllerClass;
+- (void)addExtraLinesIfNeededToTextStorage:(_Bool)arg1 editedRange:actualLengthIncrease: /* Error: Ran out of types for this method. */;
+- (void)TQ,N,V_edgesToRemoveEndPoint;
+- (id)edObjectIDs;
+- (id)T@"NSMutableSet",&,N,V_needsUpdateManagedObjectIDs;
+- (id)setDisplayDate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void),V_appearanceInfo;
+- (void)_icaxUnfilteredAttributedString;
+- (void)ationsDisplayLink;
+- (id)ICMarkdownRepresentation;
 - (_Bool);
 - (_Bool);
+- (_Bool)backgroundColor;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)?5;
+- (id)h;
+- (void)LockedAttachmentViewLayout;
 - (id);
 - (id);
 - (void)Hü;
 
 // Remaining properties
 @property(nonatomic) __weak IMService *composeSendingService; // @synthesize composeSendingService=_composeSendingService;
-@property(nonatomic) _Bool noAvailableServices; // @synthesize noAvailableServices=_noAvailableServices;
-@property(nonatomic) _Bool pendingChat; // @synthesize pendingChat=_pendingChat;
-@property(nonatomic) __weak IMService *previousSendingService; // @synthesize previousSendingService=_previousSendingService;
-@property(nonatomic, getter=isSendingServiceEncrypted) _Bool sendingServiceEncrypted; // @synthesize sendingServiceEncrypted=_sendingServiceEncrypted;
 
 @end
 

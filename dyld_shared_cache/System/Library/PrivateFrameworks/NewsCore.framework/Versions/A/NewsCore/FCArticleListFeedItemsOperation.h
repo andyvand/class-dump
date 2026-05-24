@@ -6,41 +6,30 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCEdgeCacheHint, NSArray;
-@protocol FCContentContext;
+@class FCEdgeCacheHint;
 
 @interface FCArticleListFeedItemsOperation : FCOperation
 {
     FCEdgeCacheHint *_edgeCacheHint;
-    CDUnknownBlockType _feedItemHandler;
-    CDUnknownBlockType _articleListHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_networkEvents;
-    id <FCContentContext> _context;
-    NSArray *_articleListIDs;
 }
 
 - (void);
-- (void);
+- (void)k`;
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id)ngRequestForKey:completion: /* Error: Ran out of types for this method. */;
-- (void)iveActivityID;
+- (id)finishPrewarmingRequestForKey:completion: /* Error: Ran out of types for this method. */;
+- (void)_primaryLiveActivityID;
 - (void)s;
 - (void)g user event history JSON directory at path %{public}@;
 - (void)esponse for key %{public}@;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType articleListHandler; // @synthesize articleListHandler=_articleListHandler;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(copy, nonatomic) CDUnknownBlockType feedItemHandler; // @synthesize feedItemHandler=_feedItemHandler;
-@property(readonly, nonatomic) NSArray *networkEvents;
 
 @end
 

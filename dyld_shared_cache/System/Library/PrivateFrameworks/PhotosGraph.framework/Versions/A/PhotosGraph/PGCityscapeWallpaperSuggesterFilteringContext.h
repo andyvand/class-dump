@@ -7,34 +7,25 @@
 @interface PGCityscapeWallpaperSuggesterFilteringContext
 {
     _Bool _ignoreClockOverlap;
-    _Bool _bypassCropScoreCheck;
-    long long _orientation;
-    double _minimumWallpaperScore;
-    double _absoluteMinimumWallpaperScore;
-    double _minimumCropScore;
-    double _cropScorePenaltyCutOff;
-    double _timeIntervalForCandidateDeduping;
-    double _maximumLowLightScore;
-    double _maximumCropZoomRatio;
 }
 
-- (void);
+- (void)32;
+- (double)set_inlineSessionTracker: /* Error: Ran out of types for this method. */;
+- (void)eventTapManager:(double)arg1 passivelyTappedEvent:type:withProxy: /* Error: Ran out of types for this method. */;
+- (void)_setDockProcessSwitcherListElementController:(double)arg1;
+- (void)_readableDescendantForElement:(double)arg1 visitedElements: /* Error: Ran out of types for this method. */;
+- (void)_parentController;
+- (void)_overrides;
+- (void)_infoString;
+- (void)_currentInputMethodWindow;
+- (void)_becomeFrontmostApplication;
+- (void)__previousValues;
+- (double)(;
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
 - (double);
-- (double);
-- (double);
-- (id);
-- (id);
+- (id)e;
+- (id)֟;
 - (id);
 - (_Bool);
 - (double);
@@ -44,19 +35,10 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)convertVideoAtSourceURL:(struct _NSZone *)arg1 toDestinationURL:options:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double absoluteMinimumWallpaperScore; // @synthesize absoluteMinimumWallpaperScore=_absoluteMinimumWallpaperScore;
-@property(nonatomic) _Bool bypassCropScoreCheck; // @synthesize bypassCropScoreCheck=_bypassCropScoreCheck;
-@property(nonatomic) double cropScorePenaltyCutOff; // @synthesize cropScorePenaltyCutOff=_cropScorePenaltyCutOff;
-@property(nonatomic) _Bool ignoreClockOverlap; // @synthesize ignoreClockOverlap=_ignoreClockOverlap;
-@property(nonatomic) double maximumCropZoomRatio; // @synthesize maximumCropZoomRatio=_maximumCropZoomRatio;
-@property(nonatomic) double maximumLowLightScore; // @synthesize maximumLowLightScore=_maximumLowLightScore;
-@property(nonatomic) double minimumCropScore; // @synthesize minimumCropScore=_minimumCropScore;
-@property(nonatomic) double minimumWallpaperScore; // @synthesize minimumWallpaperScore=_minimumWallpaperScore;
 @property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double timeIntervalForCandidateDeduping; // @synthesize timeIntervalForCandidateDeduping=_timeIntervalForCandidateDeduping;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OCPPackageRelationshipCollection
 {
     NSMutableDictionary *mIdentifierMap;
-    NSMutableDictionary *mTypeMap;
 }
 
 - (id);

@@ -9,13 +9,12 @@
 @interface MKFitnessRAPReport
 {
     GEORPFeedbackRequestParameters *_feedbackRequestParameters;
-    GEORPFeedbackRequestParameters *_requestParameters;
 }
 
-- (int);
+- (int)>;
 - (id);
 - (id);
-- (void)ing:willDecelerate: /* Error: Ran out of types for this method. */;
+- (void)gestureControllerDidStopRotating:willDecelerate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) GEORPFeedbackRequestParameters *requestParameters; // @synthesize requestParameters=_requestParameters;

@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.MockMomentContextProvider
 {
     id logger;
-    id filePath;
 }
 
 @end

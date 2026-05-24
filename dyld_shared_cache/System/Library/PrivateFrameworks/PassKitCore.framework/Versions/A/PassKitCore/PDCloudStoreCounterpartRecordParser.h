@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet;
-@protocol PDCloudStoreCounterpartRecordParserDataSource;
+@class NSMutableDictionary;
 
 @interface PDCloudStoreCounterpartRecordParser
 {
     NSMutableDictionary *_itemTypeToParserIdentifiers;
-    NSSet *_recordNamePrefixes;
-    id <PDCloudStoreCounterpartRecordParserDataSource> _dataSource;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

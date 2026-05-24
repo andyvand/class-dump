@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKTextDocumentTraits, NSMutableArray, NSString;
-@protocol IMKCandidateMenu, IMKTextDocument;
+@class IMKTextDocumentTraits, NSString;
 
 @protocol IMKTextDocument
+- (void);
+- (NSString *);
+- (unsigned long long)(   k;
+- (void)b;
+- (void)ڗ];
+- (IMKTextDocumentTraits *)eBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}40^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}48^{EngineHDRContext=IIiIIIIIIIIIIQQQQBBB{_DpcParam=ffffBBfIf}I}56;
+- (_Bool)updateTargetBitrateOneToOne:rateChangeCounter: /* Error: Ran out of types for this method. */;
 - (NSString *)isalignment. Expected '%{private}@', found '%{private}@';
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMKCandidateMenu> candidateMenu;
-@property(readonly, nonatomic) id <IMKTextDocument> composingText;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) _Bool hasSelection;
-@property(readonly, nonatomic) NSString *selectedText;
-@property(nonatomic) _Bool showsWithMarking;
-@property(retain, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSMutableArray *textSegmentationCharacterCounts;
 @property(readonly, nonatomic) IMKTextDocumentTraits *traits;
 @end
 

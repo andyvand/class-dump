@@ -4,65 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCorrectedCoordinate, GEORPCorrectedLabel, GEORPCorrectedSearch, GEORPDirectionsProblem, GEORPMapLocation, GEORPMerchantLookupCorrections, GEORPPlaceProblem, NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPProblemCorrections
 {
     PBDataReader *_reader;
-    NSString *_comments;
-    GEORPCorrectedCoordinate *_correctedCoordinate;
-    NSMutableArray *_correctedFields;
-    NSMutableArray *_correctedFlags;
-    GEORPCorrectedLabel *_correctedLabel;
-    GEORPMapLocation *_correctedMapLocation;
-    GEORPCorrectedSearch *_correctedSearch;
-    GEORPDirectionsProblem *_directionsProblem;
-    GEORPMerchantLookupCorrections *_merchantLookupCorrections;
-    NSMutableArray *_photoWithMetadatas;
-    GEORPPlaceProblem *_placeProblem;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _delayed;
-    struct {
-        unsigned int has_delayed:1;
-        unsigned int read_comments:1;
-        unsigned int read_correctedCoordinate:1;
-        unsigned int read_correctedFields:1;
-        unsigned int read_correctedFlags:1;
-        unsigned int read_correctedLabel:1;
-        unsigned int read_correctedMapLocation:1;
-        unsigned int read_correctedSearch:1;
-        unsigned int read_directionsProblem:1;
-        unsigned int read_merchantLookupCorrections:1;
-        unsigned int read_photoWithMetadatas:1;
-        unsigned int read_placeProblem:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setLicensePlateInfos:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (void)t"16@?<v@?@"CNCDDatabasePreparationResult"@"NSError">24;
+- (void)withCoordinator:(_Bool)arg1 resultOfBlock: /* Error: Ran out of types for this method. */;
+- (void)updateMetdataIfNeeded;
+- (void)updateLabelsForEntityNamed:(id)arg1 fromLabel:toLabel: /* Error: Ran out of types for this method. */;
+- (void)updateLabelsForEntityNamed:(id)arg1 fromLabel:toLabel: /* Error: Ran out of types for this method. */;
+- (void)updateDictionary:(id)arg1 shouldMigrateIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)updateDictionary:(id)arg1 isReadOnly: /* Error: Ran out of types for this method. */;
+- (void)updateDictionary:(id)arg1 byAddingProxyLockForURL:fileUtilities: /* Error: Ran out of types for this method. */;
+- (void)temporaryCopyingPathForDatabasePath:(id)arg1;
+- (id)_storeDescription;
+- (unsigned long long)_persistenceBackend;
+- (id)_permissions;
+- (id)_objectID;
+- (id)fetchCustomPropertiesWithNames: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -96,42 +66,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)0:8@"CSAudioRecordContext"16^@24 /* Error: Ran out of types for this method. */;
+- (void)@"CSSiriAssertionMonitor",&,N,V_assertionMonitor;
+- (void)reshold;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)"b1"has_muteSpeechOverride"b1"has_pauseSpokenAudio"b1"has_shouldUseGuidanceEventManager"b1"has_speechEnabled"b1};
-- (id): /* Error: Ran out of types for this method. */;
+- (id)closeAndReturnError: /* Error: Ran out of types for this method. */;
 - (id)(üxTÔ;
-- (id)nceInKm;
+- (id)distanceInKm;
 - (void)ãn­ÉO@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comments;
-@property(retain, nonatomic) GEORPCorrectedCoordinate *correctedCoordinate;
 @property(retain, nonatomic) NSMutableArray *correctedFields;
-@property(retain, nonatomic) NSMutableArray *correctedFlags;
-@property(retain, nonatomic) GEORPCorrectedLabel *correctedLabel;
-@property(retain, nonatomic) GEORPMapLocation *correctedMapLocation;
-@property(retain, nonatomic) GEORPCorrectedSearch *correctedSearch;
-@property(nonatomic) _Bool delayed;
-@property(retain, nonatomic) GEORPDirectionsProblem *directionsProblem;
-@property(readonly, nonatomic) _Bool hasComments;
-@property(readonly, nonatomic) _Bool hasCorrectedCoordinate;
-@property(readonly, nonatomic) _Bool hasCorrectedLabel;
-@property(readonly, nonatomic) _Bool hasCorrectedMapLocation;
-@property(readonly, nonatomic) _Bool hasCorrectedSearch;
-@property(nonatomic) _Bool hasDelayed;
-@property(readonly, nonatomic) _Bool hasDirectionsProblem;
-@property(readonly, nonatomic) _Bool hasMerchantLookupCorrections;
-@property(readonly, nonatomic) _Bool hasPlaceProblem;
-@property(retain, nonatomic) GEORPMerchantLookupCorrections *merchantLookupCorrections;
-@property(retain, nonatomic) NSMutableArray *photoWithMetadatas;
-@property(retain, nonatomic) GEORPPlaceProblem *placeProblem;
 
 @end
 

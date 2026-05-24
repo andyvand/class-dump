@@ -7,11 +7,10 @@
 @interface PhotosUICore.SocialGroupReorderGroupActionPerformer
 {
     id sourceGroup;
-    id destinationIndex;
 }
 
 - (id);
-- (void);
+- (void)T;
 - (void)áMv: /* Error: Ran out of types for this method. */;
 
 @end

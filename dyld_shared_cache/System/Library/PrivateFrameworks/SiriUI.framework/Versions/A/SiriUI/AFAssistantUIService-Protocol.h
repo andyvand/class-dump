@@ -5,5 +5,9 @@
 //
 
 @protocol AFAssistantUIService
+
+@optional
+- (void);
+- (void);
 @end
 

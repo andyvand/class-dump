@@ -6,14 +6,11 @@
 
 #import <SyncServices/ISyncRecordSnapshot.h>
 
-@class ISDRecordIdMapper, ISDRecordStore, ISyncSession, NSArray;
+@class ISDRecordStore;
 
 @interface ISyncConcreteRecordSnapshot : ISyncRecordSnapshot
 {
     ISDRecordStore *_truth;
-    ISDRecordIdMapper *_mapper;
-    NSArray *_entityNames;
-    ISyncSession *_session;
 }
 
 - (id);
@@ -27,10 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)4`;
 - (id);
 - (void);
-- (id);
+- (id)G;
 - (id);
 - (void);
 

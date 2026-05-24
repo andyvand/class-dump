@@ -12,16 +12,15 @@
 }
 
 - (void);
-- (id);
+- (id)a'm;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *colorString;
 @property(retain, nonatomic) NSString *symbolicColorName; // @synthesize symbolicColorName=_symbolicColorName;
 
 @end

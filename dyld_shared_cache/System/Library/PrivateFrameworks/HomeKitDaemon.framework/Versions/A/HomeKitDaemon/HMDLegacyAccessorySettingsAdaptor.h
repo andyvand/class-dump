@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol HMDLegacyAccessorySettingsAdaptorDelegate, HMDLegacyAccessorySettingsAdaptorSettingsOperationProvider, HMESubscriptionProviding, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDLegacyAccessorySettingsAdaptorDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDLegacyAccessorySettingsAdaptor
 {
     id <HMDLegacyAccessorySettingsAdaptorDelegate> delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_homeUUID;
-    NSUUID *_accessoryUUID;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    id <HMDLegacyAccessorySettingsAdaptorSettingsOperationProvider> _currentAccessorySettingsController;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)`;
 + (id)cÿ~+fC;
 - (void);
+- (id)o delay timer;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,23 +31,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)egateData",R,C;
-- (void)emovedTrigger;
+- (void)HMDNotificationHomeRemovedTrigger;
 - (id)¢ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, nonatomic) __weak id <HMDLegacyAccessorySettingsAdaptorSettingsOperationProvider> currentAccessorySettingsController; // @synthesize currentAccessorySettingsController=_currentAccessorySettingsController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDLegacyAccessorySettingsAdaptorDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) id <HMESubscriptionProviding> subscriptionProvider; // @synthesize subscriptionProvider=_subscriptionProvider;
-@property(readonly) Class superclass;
 
 @end
 

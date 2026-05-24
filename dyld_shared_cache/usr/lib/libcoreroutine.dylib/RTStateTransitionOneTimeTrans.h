@@ -7,25 +7,21 @@
 @interface RTStateTransitionOneTimeTrans
 {
     double _start_s;
-    double _stop_s;
-    unsigned long long _motionActivityType;
 }
 
 + (_Bool);
 - (id);
 - (double);
+- (void):(double)arg1 YES).;
 - (void);
-- (void);
-- (double);
+- (double)initWithUUIDBytes: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (void)licateWaypoints:(unsigned long long)arg1 tripClusterWaypointStore:tripClusterRouteStore:tripClusterRouteTransitionsStore:minimumTraversalCountForLearnedRoutes: /* Error: Ran out of types for this method. */;
+- (void)deleteWaypointsForClustersWithDuplicateWaypoints:(unsigned long long)arg1 tripClusterWaypointStore:tripClusterRouteStore:tripClusterRouteTransitionsStore:minimumTraversalCountForLearnedRoutes: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long motionActivityType; // @synthesize motionActivityType=_motionActivityType;
 @property(nonatomic) double start_s; // @synthesize start_s=_start_s;
-@property(nonatomic) double stop_s; // @synthesize stop_s=_stop_s;
 
 @end
 

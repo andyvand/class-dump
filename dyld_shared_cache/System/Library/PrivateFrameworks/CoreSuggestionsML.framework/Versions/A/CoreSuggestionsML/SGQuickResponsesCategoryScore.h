@@ -7,18 +7,15 @@
 @interface SGQuickResponsesCategoryScore
 {
     unsigned long long _modelCount;
-    double _average;
-    double _maximum;
 }
 
 - (void);
-- (id);
+- (id)P;
 - (double);
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double average; // @synthesize average=_average;
-@property(readonly, nonatomic) double maximum; // @synthesize maximum=_maximum;
 
 @end
 

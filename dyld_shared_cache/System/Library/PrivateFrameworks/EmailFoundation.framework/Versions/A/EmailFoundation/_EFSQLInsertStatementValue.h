@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
+@class NSMutableOrderedSet;
 
 @interface _EFSQLInsertStatementValue
 {
     NSMutableOrderedSet *_requiredColumns;
-    NSMutableDictionary *_bindables;
-    NSMutableDictionary *_expressables;
 }
 
 - (void);

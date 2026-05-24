@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, SABinary;
+@class NSMutableArray;
 
 @interface SASegment
 {
     NSMutableArray *_symbols;
-    NSMutableDictionary *_inlineSymbols;
-    unsigned long long _length;
-    NSString *_name;
-    long long _offsetIntoBinary;
-    SABinary *_binary;
-    NSMutableDictionary *_instructions;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)	;
 - (unsigned long long);
 - (id);
 - (id);
@@ -36,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak SABinary *binary; // @synthesize binary=_binary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long length;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) long long offsetIntoBinary;
-@property(readonly) Class superclass;
 
 @end
 

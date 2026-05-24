@@ -6,26 +6,21 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRIExperimentDeployment, TRIExperimentTaskSupport;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class TRIExperimentDeployment, TRIExperimentTaskSupport;
 
 @interface TRITargetingTask : TRIBaseTask
 {
     TRIExperimentTaskSupport *_support;
-    _Bool _includeDependencies;
-    id <TRITaskAttributing> _taskAttributing;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
-+ (id);
++ (id)16@0:(id)arg1 8;
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)ta>"16@"<HAP2AccessoryServerControllerPrivate>"24;
+- (id)%@ Failed to validate accessory with instance id %@:(id)arg1 %@;
 - (_Bool);
 - (id);
 - (id);
@@ -34,17 +29,26 @@
 - (id);
 - (void);
 - (id);
+- (void)s.m;
+- (id)im.g), im.b); 
+  luma = 0.5 * (luma + maxRGB); 
+  float gain = gm.r; 
+  const float e = 0.01; 
+  luma = (1 - e) * luma + e; 
+  gain = (1 - e) * gain + e; 
+  float light = gain * luma; 
+  return vec4(light, light, light, 1.0); 
+}
+;
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 - (void)!Ð1Â0@ù
 × ;
 - (id);
@@ -52,27 +56,12 @@
 - (id);
 - (id)etedBundleIds:%@ factorLevelStrings:%@> /* Error: Ran out of types for this method. */;
 - (int)ifact key "deploymentDate" (expected %@, decoded %@);
-- (void)chValidTreatment;
+- (void)FailedToFetchValidTreatment;
 - (int)ManagedPath:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TRIExperimentDeployment *experiment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

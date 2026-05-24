@@ -13,10 +13,10 @@
     RTDistanceCalculator *_distanceCalculator;
 }
 
-- (void);
+- (void)double;
 - (id);
 - (void);
-- (id);
+- (id)@9;
 - (id);
 - (void);
 - (id);

@@ -13,7 +13,7 @@
 
 + (id)¨¼þþ;
 - (id);
-- (void);
+- (void);
 - (void)sprovider.update;
 - (void);
 

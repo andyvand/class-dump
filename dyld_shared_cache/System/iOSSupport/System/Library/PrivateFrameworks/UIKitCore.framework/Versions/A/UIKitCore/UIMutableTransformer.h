@@ -18,9 +18,9 @@
 - (void);
 - (void)Ð!ØEùqeÐ1Â0@ù
 × ;
-- (void)SelectedCircleBlendMode:(id)arg1;
+- (void)setSelectedCircleBlendMode:(id)arg1;
 - (void)oveDirection;
-- (id)PageIndicatorStoreDelegate;
+- (id)_UIPageIndicatorStoreDelegate;
 - (void)¨~;
 - (void);
 - (id)ÿtÔk;

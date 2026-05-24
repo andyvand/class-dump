@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface CVNLPCaptionRuntimeParameters
 {
     int _excludeGenderStrategy;
-    int _genderOption;
-    double _captionModelMinimumConfidence;
-    double _captionModelLengthNormalizationFactor;
-    NSDictionary *_classifierRevisions;
-    NSDictionary *_sensitiveImageParameters;
-    NSArray *_replacements;
-    NSArray *_genderedTokens;
-    NSArray *_blackListRules;
-    NSArray *_excludeGenderReplacements;
-    NSArray *_excludeGenderTriggers;
 }
 
 - (void);
@@ -28,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�';
 - (void);
 - (void);
 - (id);
@@ -38,27 +26,17 @@
 - (int);
 - (id);
 - (id);
-- (double);
-- (double);
+- (double)E2H1;
+- (double);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blackListRules; // @synthesize blackListRules=_blackListRules;
-@property(nonatomic) double captionModelLengthNormalizationFactor; // @synthesize captionModelLengthNormalizationFactor=_captionModelLengthNormalizationFactor;
 @property(nonatomic) double captionModelMinimumConfidence; // @synthesize captionModelMinimumConfidence=_captionModelMinimumConfidence;
-@property(retain, nonatomic) NSDictionary *classifierRevisions; // @synthesize classifierRevisions=_classifierRevisions;
-@property(retain, nonatomic) NSArray *excludeGenderReplacements; // @synthesize excludeGenderReplacements=_excludeGenderReplacements;
-@property(nonatomic) int excludeGenderStrategy; // @synthesize excludeGenderStrategy=_excludeGenderStrategy;
-@property(retain, nonatomic) NSArray *excludeGenderTriggers; // @synthesize excludeGenderTriggers=_excludeGenderTriggers;
-@property(nonatomic) int genderOption; // @synthesize genderOption=_genderOption;
-@property(retain, nonatomic) NSArray *genderedTokens; // @synthesize genderedTokens=_genderedTokens;
-@property(retain, nonatomic) NSArray *replacements; // @synthesize replacements=_replacements;
-@property(retain, nonatomic) NSDictionary *sensitiveImageParameters; // @synthesize sensitiveImageParameters=_sensitiveImageParameters;
 
 @end
 

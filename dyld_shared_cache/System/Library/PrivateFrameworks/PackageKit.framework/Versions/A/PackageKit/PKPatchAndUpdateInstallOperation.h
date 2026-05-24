@@ -9,13 +9,12 @@
 @interface PKPatchAndUpdateInstallOperation : PKPatchFilesInstallOperation
 {
     unsigned long long _totalPatchAndUpdateSize;
-    unsigned long long _patchAndUpdateSizeCompleted;
 }
 
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
+- (double)y:W /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

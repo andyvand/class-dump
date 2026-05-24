@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFKeySearchFilter_Ivars
 {
     NSArray *specifiers;
-    NSArray *domains;
 }
 
 - (void);

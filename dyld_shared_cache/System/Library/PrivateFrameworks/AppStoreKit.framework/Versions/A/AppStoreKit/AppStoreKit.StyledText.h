@@ -7,10 +7,6 @@
 @interface AppStoreKit.StyledText
 {
     id rawText;
-    id rawTextType;
-    id cachedAttributedStrings;
-    id cachedAttributedString;
-    id $__lazy_storage_$_plainText;
 }
 
 @end

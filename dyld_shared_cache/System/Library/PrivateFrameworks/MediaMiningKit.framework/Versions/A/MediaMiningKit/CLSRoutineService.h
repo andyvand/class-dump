@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, CLSLocationOfInterestCache, NSDateInterval, NSMutableSet;
+@class NSDateInterval;
 
 @interface CLSRoutineService
 {
     NSDateInterval *_fetchDateInterval;
-    CLSLocationOfInterestCache *_visitsCache;
-    NSMutableSet *_pendingPinningVisitIdentifiers;
-    CLSLocationCache *_locationCache;
-    _Bool _routineIsAvailable;
-    struct CLSRoutineServiceStatisticsStruct _statistics;
 }
 
 - (void);
@@ -27,13 +22,13 @@
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ring tier identifiers %@ because of subscription info.;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)PGLocationTitleFormatMultipleLocationsWithWorkAndFamilyHome;
 - (id);
 - (void);
 - (id);
@@ -42,13 +37,12 @@
 - (struct CLSRoutineServiceStatisticsStruct);
 - (_Bool);
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool routineIsAvailable; // @synthesize routineIsAvailable=_routineIsAvailable;
-@property(readonly) struct CLSRoutineServiceStatisticsStruct statistics; // @synthesize statistics=_statistics;
 
 @end
 

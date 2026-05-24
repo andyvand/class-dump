@@ -7,7 +7,6 @@
 @interface _PASUnlockBlock
 {
     CDUnknownBlockType block;
-    unsigned int qos;
 }
 
 - (void);

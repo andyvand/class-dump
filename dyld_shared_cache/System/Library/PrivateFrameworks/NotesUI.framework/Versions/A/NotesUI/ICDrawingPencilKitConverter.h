@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface ICDrawingPencilKitConverter
 {
     _Bool _isThrowaway;
-    NSOperationQueue *_converterQueue;
-    NSMapTable *_lastOperationForAttachmentID;
-    NSObject<OS_dispatch_queue> *_convertDispatchQueue;
-    NSMutableArray *_mutableFailedSketches;
 }
 
 + (id);
@@ -26,39 +21,34 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)utedStringByHighlightingRegexMatches:withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
+- (id)E;
+- (void)_ic_attributedStringByHighlightingRegexMatches:withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *convertDispatchQueue; // @synthesize convertDispatchQueue=_convertDispatchQueue;
 @property(retain, nonatomic) NSOperationQueue *converterQueue; // @synthesize converterQueue=_converterQueue;
-@property(readonly, nonatomic) NSArray *failedSketches;
-@property(nonatomic) _Bool isThrowaway; // @synthesize isThrowaway=_isThrowaway;
-@property(retain, nonatomic) NSMapTable *lastOperationForAttachmentID; // @synthesize lastOperationForAttachmentID=_lastOperationForAttachmentID;
-@property(retain, nonatomic) NSMutableArray *mutableFailedSketches; // @synthesize mutableFailedSketches=_mutableFailedSketches;
 
 @end
 

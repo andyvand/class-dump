@@ -5,5 +5,7 @@
 //
 
 @protocol AMSAccountCachedServerDataServiceInterface
+- (void);
+- (void);
 @end
 

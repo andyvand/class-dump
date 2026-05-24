@@ -9,18 +9,17 @@
 @interface CTLazuliLocationCoordinates
 {
     NSNumber *_longitude;
-    NSNumber *_latitude;
 }
 
-+ (_Bool);
++ (_Bool)didSeekInBuffer;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)44;
 - (_Bool);
-- (void);
+- (void)"NSUUID",&,N,V_uuid;
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void)&°!ÌGùª)°1Â0@ù
 × ;
@@ -29,7 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
 @property(copy, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
 
 @end

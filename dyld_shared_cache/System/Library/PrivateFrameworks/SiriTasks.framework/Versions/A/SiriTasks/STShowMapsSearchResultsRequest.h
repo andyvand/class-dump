@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, STSiriLocation;
+@class STSiriLocation;
 
 @interface STShowMapsSearchResultsRequest
 {
     STSiriLocation *_searchResults;
-    NSString *_extSessionGuid;
-    NSDate *_extSessionGuidCreatedTimestamp;
 }
 
-+ (_Bool);
++ (_Bool)z?k;
 - (id);
 - (id);
+- (id);
+- (id)p;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)SNode"@"NSError">;
+- (void)onList";
 - (void);
 
 @end

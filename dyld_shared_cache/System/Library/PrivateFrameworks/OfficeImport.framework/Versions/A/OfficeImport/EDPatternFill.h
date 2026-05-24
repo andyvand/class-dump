@@ -6,18 +6,14 @@
 
 #import <OfficeImport/EDFill.h>
 
-@class EDColorReference;
-
 __attribute__((visibility("hidden")))
 @interface EDPatternFill : EDFill
 {
     int mType;
-    EDColorReference *mBackColorReference;
-    EDColorReference *mForeColorReference;
 }
 
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (id);
 - (void);

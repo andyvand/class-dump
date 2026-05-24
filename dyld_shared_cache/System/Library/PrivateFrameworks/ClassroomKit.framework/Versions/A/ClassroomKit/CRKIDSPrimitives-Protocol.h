@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol CRKIDSPrimitives
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *debugInfo;

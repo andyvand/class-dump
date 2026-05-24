@@ -22,7 +22,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (void)abels;
++ (void)emailLabels;
 - (id);
 - (id);
 - (id);

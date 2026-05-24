@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned char);
-+ (void);
++ (void)Attribtue to CopyAppTokensWithAA;
 + (id);
 + (id);
 - (struct CGRect);

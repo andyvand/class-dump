@@ -4,37 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CAPContactFillerContactFillerEventForShare
 {
     NSString *_sessionId;
-    NSMutableArray *_shareEvents;
 }
 
-+ (Class);
-- (unsigned long long);
-- (id);
-- (id);
++ (Class)V_trialDisambiguationRate;
+- (unsigned long long)_cpuTicksNice;
+- (id)_cpuRealTimeFactor;
+- (id)_cpuInstructionsInMillionsPerSecond;
+- (void)ontentDurationBucket;
+- (void)yPartialAppCount1Day;
+- (void)Reasons;
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)6*F
+;
+- (id)9;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)r query:(%{public}@) /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) NSMutableArray *shareEvents; // @synthesize shareEvents=_shareEvents;
 
 @end
 

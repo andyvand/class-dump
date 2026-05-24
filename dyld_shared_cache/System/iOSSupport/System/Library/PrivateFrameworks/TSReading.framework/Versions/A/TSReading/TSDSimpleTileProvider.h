@@ -11,9 +11,9 @@
     SEL mAction;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)];
 - (SEL);
 - (void)~!4Bùqð1Â0@ù
 × ;

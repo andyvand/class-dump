@@ -9,11 +9,10 @@
 @interface PHEntityKeyMap
 {
     NSDictionary *_propertyKeysByEntityKey;
-    NSDictionary *_entityKeysByPropertyKey;
 }
 
 + (void);
-+ (id);
++ (id)NSt3__113basic_fstreamIcNS_11char_traitsIcEEEE;
 - (id);
 - (id);
 - (id);

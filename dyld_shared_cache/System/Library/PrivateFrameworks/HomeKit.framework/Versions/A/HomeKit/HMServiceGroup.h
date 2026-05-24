@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMApplicationData, HMHome, HMMutableArray, NSArray, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMServiceGroup
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_uuid;
-    NSString *_name;
-    HMHome *_home;
-    HMApplicationData *_applicationData;
-    _HMContext *_context;
-    HMMutableArray *_currentServices;
 }
 
 + (_Bool);
@@ -35,40 +28,25 @@
 - (void);
 - (id);
 - (void);
+- (id)_processCinematicVideoItemsPrompt;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)setKeyEquivalent:(id)arg1;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)qa;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)bleMediaSystemData;
+- (void)HMMutableMediaSystemData;
 - (id)%{public}@Daemon HH2 migration enabled status:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HMApplicationData *applicationData; // @synthesize applicationData=_applicationData;
-@property(readonly, copy) NSUUID *applicationDataIdentifier;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) HMMutableArray *currentServices; // @synthesize currentServices=_currentServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *services;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

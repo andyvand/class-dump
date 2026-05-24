@@ -10,16 +10,12 @@ __attribute__((visibility("hidden")))
 @interface LPContactsBadgeStyle
 {
     _Bool _useShadow;
-    LPPointUnit *_size;
-    double _margin;
-    double _iconOffset;
-    long long _location;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (_Bool)tapbackSupplementaryItemForChatItem:layoutEnvironment: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 numberOfRowsInSection: /* Error: Ran out of types for this method. */;
+- (void)systemApplicationDidResumeForEventsOnly;
+- (double)stickerRepositionGestureDelegate;
 - (id);
 - (void);
 - (void);
@@ -31,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)èf;
 
 // Remaining properties
-@property(nonatomic) double iconOffset; // @synthesize iconOffset=_iconOffset;
-@property(nonatomic) long long location; // @synthesize location=_location;
-@property(nonatomic) double margin; // @synthesize margin=_margin;
 @property(retain, nonatomic) LPPointUnit *size; // @synthesize size=_size;
-@property(nonatomic) _Bool useShadow; // @synthesize useShadow=_useShadow;
 
 @end
 

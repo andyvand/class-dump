@@ -9,8 +9,6 @@
 @interface WBSFormTelemetryData
 {
     NSDictionary *_fieldIDToSingleFieldData;
-    long long _formID;
-    unsigned long long _formType;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *fieldIDToSingleFieldData; // @synthesize fieldIDToSingleFieldData=_fieldIDToSingleFieldData;
-@property(readonly, nonatomic) long long formID; // @synthesize formID=_formID;
-@property(readonly, nonatomic) unsigned long long formType; // @synthesize formType=_formType;
 
 @end
 

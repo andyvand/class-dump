@@ -6,24 +6,11 @@
 
 #import <AccountsUI/ACUIViewController.h>
 
-@class ACUIAccountDetailsViewController, ACUICredentialPromptViewController, NSButton, NSProgressIndicator, NSStackView, NSString, NSTextField, NSView;
+@class NSString, NSView;
 
 @interface ACUIAccountInfoViewController : ACUIViewController
 {
     NSString *_password;
-    NSView *_dataclassesTableView;
-    NSButton *_helpButton;
-    NSView *_headerLogo;
-    NSView *_headerLogoWithDetails;
-    NSView *_headerLogoWithDetailsNoFullName;
-    NSView *_headerGenericAccount;
-    NSView *_enableAccountView;
-    NSTextField *_descriptionField;
-    NSTextField *_fullNameField;
-    NSView *_dataclassesTableViewWithPadding;
-    NSProgressIndicator *_spinner;
-    ACUIAccountDetailsViewController *_accountDetailsVC;
-    ACUICredentialPromptViewController *_credentialPromptVC;
 }
 
 - (_Bool);
@@ -42,19 +29,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)X;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,37 +59,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) ACUIAccountDetailsViewController *accountDetailsVC; // @synthesize accountDetailsVC=_accountDetailsVC;
-@property(retain) ACUICredentialPromptViewController *credentialPromptVC; // @synthesize credentialPromptVC=_credentialPromptVC;
-@property(retain) NSView *dataclassesTableView; // @synthesize dataclassesTableView=_dataclassesTableView;
-@property(retain) NSView *dataclassesTableViewWithPadding; // @synthesize dataclassesTableViewWithPadding=_dataclassesTableViewWithPadding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSTextField *descriptionField; // @synthesize descriptionField=_descriptionField;
-@property(retain) NSView *enableAccountView; // @synthesize enableAccountView=_enableAccountView;
-@property(retain) NSTextField *fullNameField; // @synthesize fullNameField=_fullNameField;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *headerGenericAccount; // @synthesize headerGenericAccount=_headerGenericAccount;
 @property(retain) NSView *headerLogo; // @synthesize headerLogo=_headerLogo;
-@property(retain) NSView *headerLogoWithDetails; // @synthesize headerLogoWithDetails=_headerLogoWithDetails;
-@property(retain) NSView *headerLogoWithDetailsNoFullName; // @synthesize headerLogoWithDetailsNoFullName=_headerLogoWithDetailsNoFullName;
-@property(retain) NSButton *helpButton; // @synthesize helpButton=_helpButton;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(readonly) Class superclass;
-@property(retain) NSStackView *view; // @dynamic view;
 
 @end
 

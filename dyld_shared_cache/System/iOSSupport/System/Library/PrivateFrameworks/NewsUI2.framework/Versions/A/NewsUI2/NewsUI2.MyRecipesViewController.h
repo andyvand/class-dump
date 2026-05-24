@@ -7,11 +7,6 @@
 @interface NewsUI2.MyRecipesViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id blueprintHorizontalShimView;
 }
 
 - (id);

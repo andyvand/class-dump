@@ -6,24 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMClientWarmupFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    CDStruct_7b2c8649 _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)beginModalDialogWithParentWindow:shouldNest:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)SMIME_read_PKCS7;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,11 +33,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

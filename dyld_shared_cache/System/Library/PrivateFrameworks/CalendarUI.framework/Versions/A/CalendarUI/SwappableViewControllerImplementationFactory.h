@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (id);
-+ (Class);
++ (id);
++ (Class)	;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TSidebarViewDelegate
+- (unsigned long long)qa;
 @end
 

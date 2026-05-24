@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)N;
 - (void);
 - (id)submitMigrationLogEvent;
-- (void)l;
+- (void)BiomeEventManagerProtocol;
 
 // Remaining properties
 @property(readonly) __weak id <HMDAuthServerDelegate> delegate; // @synthesize delegate=_delegate;

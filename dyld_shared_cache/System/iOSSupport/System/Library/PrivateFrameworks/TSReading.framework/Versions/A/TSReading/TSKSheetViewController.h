@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, UIViewController;
+@class UIViewController;
 @protocol TSKSheetViewControllerDelegate;
 
 @interface TSKSheetViewController
 {
     UIViewController *_contentViewController;
-    NSLayoutConstraint *_contentVerticalConstraint;
-    _Bool _isContentHidden;
-    id <TSKSheetViewControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -21,26 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)or reason=%{public}@;
 - (_Bool);
 - (double);
 - (id);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (_Bool);
-- (void)rProtoIndex:(_Bool)arg1;
-- (id)eadOnly;
+- (_Bool)p;
+- (void)numberOfColumnsForProtoIndex:(_Bool)arg1;
+- (id)makeDocumentReadOnly;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <TSKSheetViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

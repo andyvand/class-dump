@@ -5,5 +5,9 @@
 //
 
 @protocol CWWiFiUIProxyRequest
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

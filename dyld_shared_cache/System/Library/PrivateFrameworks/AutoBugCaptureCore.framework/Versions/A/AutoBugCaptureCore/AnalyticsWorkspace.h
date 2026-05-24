@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSError, NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString, NSXPCConnection;
-@protocol AnalyticsWorkspaceHealthDelegate;
+@class NSError, NSString;
 
 @interface AnalyticsWorkspace
 {
     NSString *backingStore;
-    _Bool readOnly;
-    _Bool pathKnownToFail;
-    NSString *storeKind;
-    _Bool __persistent;
-    _Bool _forceIntegrityCheck;
-    _Bool _forceDestroyPersistentStore;
-    _Bool _forceDeleteFile;
-    _Bool _integrityCheckFailed;
-    NSPersistentStoreCoordinator *__persistentStoreCoordinator;
-    NSManagedObjectContext *__mainObjectContext;
-    NSManagedObjectModel *__objectModel;
-    CDUnknownBlockType __resetCompletionBlock;
-    NSXPCConnection *__connection;
-    id <AnalyticsWorkspaceHealthDelegate> _healthDelegate;
-    NSString *_objectModelName;
-    NSBundle *_objectModelResidentBundle;
-    NSError *_persistentStoreError;
 }
 
 + (id);
@@ -40,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
@@ -63,30 +45,17 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)@;
 - (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool)k, APSRTPEnqueueNodeCallback, void *);
 - (id);
-- (id);
+- (id)_updateFormatter;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=__connection;
-@property(nonatomic) _Bool forceDeleteFile; // @synthesize forceDeleteFile=_forceDeleteFile;
-@property(nonatomic) _Bool forceDestroyPersistentStore; // @synthesize forceDestroyPersistentStore=_forceDestroyPersistentStore;
-@property(nonatomic) _Bool forceIntegrityCheck; // @synthesize forceIntegrityCheck=_forceIntegrityCheck;
-@property(retain, nonatomic) id <AnalyticsWorkspaceHealthDelegate> healthDelegate; // @synthesize healthDelegate=_healthDelegate;
-@property(readonly, nonatomic) _Bool integrityCheckFailed; // @synthesize integrityCheckFailed=_integrityCheckFailed;
-@property(readonly, retain, nonatomic) NSManagedObjectContext *mainObjectContext; // @synthesize mainObjectContext=__mainObjectContext;
-@property(readonly, retain, nonatomic) NSManagedObjectModel *objectModel; // @synthesize objectModel=__objectModel;
-@property(retain, nonatomic) NSString *objectModelName; // @synthesize objectModelName=_objectModelName;
-@property(retain, nonatomic) NSBundle *objectModelResidentBundle; // @synthesize objectModelResidentBundle=_objectModelResidentBundle;
-@property(readonly, nonatomic) _Bool persistent; // @synthesize persistent=__persistent;
-@property(readonly, retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 @property(retain, nonatomic) NSError *persistentStoreError; // @synthesize persistentStoreError=_persistentStoreError;
-@property(copy, nonatomic) CDUnknownBlockType resetCompletionBlock; // @synthesize resetCompletionBlock=__resetCompletionBlock;
 
 @end
 

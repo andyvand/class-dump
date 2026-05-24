@@ -7,7 +7,6 @@
 @interface AppleMediaServices.FinishOnce__priv_228D6351502E5848C4E12250F24ED40C
 {
     id promise;
-    id gate;
 }
 
 @end

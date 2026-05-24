@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface MTLIOAccelServiceDescriptor
 {
     unsigned int _acceleratorPort;
-    Class _deviceClass;
 }
 
 - (id);
 - (void);
-- (Class);
+- (Class)	;
 - (unsigned int)è¡ùÿ(;
 
 // Remaining properties
 @property(readonly) unsigned int acceleratorPort;
-@property(readonly) Class deviceClass;
 
 @end
 

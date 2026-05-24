@@ -5,6 +5,7 @@
 //
 
 @protocol IMDServiceReachabilityDelegatePrivate
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInternationalSpamFilteringEnabled;

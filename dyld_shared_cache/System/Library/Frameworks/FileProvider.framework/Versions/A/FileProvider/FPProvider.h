@@ -6,19 +6,18 @@
 
 #import <FileProvider/FPProviderDomain.h>
 
-@class NSArray, NSFileProviderDomain, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface FPProvider : FPProviderDomain
 {
     NSArray *_supportedSortDescriptors;
-    long long _type;
 }
 
 + (void);
-+ (void);
++ (void)kCTSettingCallBarringFacilityIncomingWhileRoamingOutsideHomeCountry;
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,14 +30,7 @@
 - (id)¨{	8}	d~~;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *bundleURL;
-@property(readonly, nonatomic) NSFileProviderDomain *domain; // @dynamic domain;
 @property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *providerIdentifier;
-@property(readonly, nonatomic) NSURL *storageURL;
-@property(readonly, nonatomic) NSArray *supportedSortDescriptors; // @synthesize supportedSortDescriptors=_supportedSortDescriptors;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

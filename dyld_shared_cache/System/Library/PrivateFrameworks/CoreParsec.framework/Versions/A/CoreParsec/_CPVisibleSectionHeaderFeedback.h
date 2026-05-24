@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPVisibleSectionHeaderFeedback
 {
     int _headerType;
-    unsigned long long _timestamp;
-    NSString *_sectionId;
 }
 
 - (void);
@@ -19,25 +15,15 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)#;
+- (_Bool)`b;
+- (id);
 - (id);
 - (void);
-- (int);
+- (int)setIsSendingAudio: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int headerType; // @synthesize headerType=_headerType;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *sectionId; // @synthesize sectionId=_sectionId;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

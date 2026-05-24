@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKSyncEngine, CKUploadRequestManagerInternals, CKUploadRequestManagerResponseActionThrottler, CKUploadRequestPersistentStore, NSString;
+@class CKUploadRequestManagerInternals;
 
 @interface CKUploadRequestManager
 {
@@ -18,18 +18,18 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)i^@9*;
 - (double);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)`;
 - (long long);
-- (id);
+- (id)a;
 - (void);
 - (id);
 - (void);
@@ -41,15 +41,15 @@
 - (long long);
 - (double);
 - (id);
-- (void);
+- (void)OperationClient>"16@"NSURL"24B32@?<v@?@"FPSandboxingURLWrapper"@"NSError">36;
 - (double);
 - (void);
 - (void);
 - (CDUnknownBlockType)0@ù
 × ;
 - (id);
-- (void)tchedAssetEvent;
-- (void)neKeyRollingInPerRecordPCSZonesForAllContainers;
+- (void)CKSyncEngineFetchedAssetEvent;
+- (void)AllowZoneKeyRollingInPerRecordPCSZonesForAllContainers;
 - (id)htFile;
 - (void)ialize a CKSyncEngine for a CKDatabase with a nil container. This usually means that you don't have a strong reference to your CKContainer. database=;
 - (void);
@@ -57,24 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activityIdentifierForSchedulingRepairs;
-@property(nonatomic) double assetRepairSchedulerDefaultSuspensionTime;
-@property(nonatomic) long long assetRepairSchedulerRepairBatchCountLimit;
-@property(nonatomic) long long assetRepairSchedulerRepairRetryCount;
-@property(copy) CDUnknownBlockType assetRequestCallback;
-@property(nonatomic) double cancelledErrorRetryTime;
-@property(readonly, nonatomic) CKUploadRequestPersistentStore *database;
 @property(readonly, nonatomic) CKUploadRequestManagerInternals *internals; // @synthesize internals=_internals;
-@property(copy) NSString *machServiceName;
-@property(nonatomic) double notificationDebouncePeriod;
-@property(copy) CDUnknownBlockType packageRequestCallback;
-@property(nonatomic) double recurringFetchPeriod;
-@property(readonly, nonatomic) CKContainer *repairContainer;
-@property(readonly, nonatomic) CKSyncEngine *repairZoneSyncEngine;
-@property(readonly, nonatomic) CKUploadRequestManagerResponseActionThrottler *responseActionThrottler;
-@property(nonatomic) double retryableErrorMaxRetryCount;
-@property(nonatomic) double retryableErrorRetryTime;
-@property(nonatomic) double tryAgainLaterRetryTime;
 
 @end
 

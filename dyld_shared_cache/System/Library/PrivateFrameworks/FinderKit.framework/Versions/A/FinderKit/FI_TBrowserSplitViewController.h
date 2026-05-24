@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserViewController, FI_TSplitView, FI_TTagColumnTableViewController, FI_TUpdateLayerView, NSSplitViewItem, NSView;
+@class NSSplitViewItem;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserSplitViewController
 {
     NSSplitViewItem *_browserSplitViewItem;
-    double _tagsColumnWidthCache;
-    _Bool _isPreviewColumnCollapsed;
-    NSView *_browserView;
-    FI_TBrowserViewController *_browserViewController;
-    FI_TTagColumnTableViewController *_tagColumnTableViewController;
-    NSSplitViewItem *_tagsSplitViewItem;
 }
 
 + (id);
@@ -30,35 +24,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?kb;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)_categoryType;
+- (void)searchInAllMailboxesSuggestion;
+- (_Bool)encodeBool:forKey: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) FI_TUpdateLayerView *browserColumnView;
-@property(retain, nonatomic) NSView *browserView; // @synthesize browserView=_browserView;
-@property(retain, nonatomic) FI_TBrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(readonly, nonatomic) _Bool isPreviewColumnCollapsed; // @synthesize isPreviewColumnCollapsed=_isPreviewColumnCollapsed;
-@property(readonly, nonatomic) _Bool isTagsColumnCollapsed;
-@property(retain) FI_TSplitView *splitView;
-@property(retain, nonatomic) FI_TTagColumnTableViewController *tagColumnTableViewController; // @synthesize tagColumnTableViewController=_tagColumnTableViewController;
 @property(readonly, nonatomic) NSSplitViewItem *tagsSplitViewItem; // @synthesize tagsSplitViewItem=_tagsSplitViewItem;
 
 @end

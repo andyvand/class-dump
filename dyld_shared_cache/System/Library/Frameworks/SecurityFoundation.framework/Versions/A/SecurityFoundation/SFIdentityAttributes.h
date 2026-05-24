@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFKeySpecifier;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SFIdentityAttributes
 {
     id _identityAttributesInternal;
-    NSString *persistentIdentifier;
-    NSString *_privateKeyDomain;
 }
 
 + (_Bool);
@@ -19,33 +17,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id)|| kMDItemEventFlightArrivalAirportAddress="%@*"cwd || kMDItemEventFlightArrivalAirportStreetAddress="%@*"cwd || kMDItemEventFlightArrivalAirportLocality="%@*"cwd || kMDItemEventFlightArrivalAirportRegion="%@*"cwd || kMDItemEventFlightArrivalAirportCountry="%@*"cwd);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (id)ficInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCertificate;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identityName;
-@property(readonly, copy, nonatomic) _SFKeySpecifier *keySpecifier;
-@property(copy, nonatomic) NSString *localizedDescription;
-@property(copy, nonatomic) NSString *localizedLabel;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier;
-@property(readonly, copy, nonatomic) NSString *privateKeyDomain; // @synthesize privateKeyDomain=_privateKeyDomain;
-@property(readonly) Class superclass;
 
 @end
 

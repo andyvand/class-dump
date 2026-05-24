@@ -7,6 +7,8 @@
 @class CNContactFormatter, CNContactStore;
 
 @protocol ContactsUI.DuplicatesUIHelperDelegate
+- (void)N;
+- (void);
 - (CNContactFormatter *)=ÿÿà>ÿÿ,?ÿÿD?ÿÿ\?ÿÿt?ÿÿ?ÿÿ@ÿÿ @ÿÿè@ÿÿ;
 - (CNContactStore *)Üÿÿ;
 - (CNContactFormatter *)Qÿÿ0QÿÿHQÿÿRÿÿ8RÿÿÀRÿÿSÿÿ0SÿÿHSÿÿ`SÿÿxSÿÿSÿÿ°SÿÿÈSÿÿìSÿÿlTÿÿTÿÿTÿÿ´TÿÿÌTÿÿäTÿÿUÿÿ;
@@ -14,6 +16,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactFormatter *contactFormatter;
-@property(readonly, nonatomic) CNContactStore *contactStore;
 @end
 

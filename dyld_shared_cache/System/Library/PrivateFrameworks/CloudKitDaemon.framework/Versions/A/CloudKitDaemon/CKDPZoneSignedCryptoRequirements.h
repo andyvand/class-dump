@@ -9,9 +9,6 @@
 @interface CKDPZoneSignedCryptoRequirements
 {
     NSData *_serializedRequirements;
-    NSData *_signature;
-    int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (void);
@@ -23,25 +20,20 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ndpointStream(%{ptr}) does not support kAPEndpointStreamProperty_SupportedAudioFormatList;
 - (_Bool);
 - (_Bool);
+- (void)_addKeyPathsForDisplayMessageChangeToKeyPaths:(int)arg1;
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
-- (id)LevelCapabilities: /* Error: Ran out of types for this method. */;
+- (id)setRecordLevelCapabilities: /* Error: Ran out of types for this method. */;
 - (void)8;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSerializedRequirements;
-@property(readonly, nonatomic) _Bool hasSignature;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *serializedRequirements; // @synthesize serializedRequirements=_serializedRequirements;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

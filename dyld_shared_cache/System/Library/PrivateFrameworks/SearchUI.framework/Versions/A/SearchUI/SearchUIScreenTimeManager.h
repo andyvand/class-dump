@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFApplicationPolicyMonitor, NSCache, NSObject, NSString, TLKAsyncCache;
-@protocol OS_dispatch_queue;
+@class DMFApplicationPolicyMonitor;
 
 @interface SearchUIScreenTimeManager
 {
     DMFApplicationPolicyMonitor *_monitor;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSCache *_possiblyCorrectCache;
 }
 
 + (id);
+- (void);
+- (id);
+- (void)tation:(id)arg1 %{public}@;
 - (void);
 - (id);
-- (void);
-- (void);
+- (id){?=b1b1})I}16Q24@32;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)getIntegerForColumnName:(id)arg1 table: /* Error: Ran out of types for this method. */;
 - (void);
 - (id),tj,y'j,GGSgG_{F1Qo_j,GG|F1G_Ýi,Qo_}F1GSgtGG_(j,tGGACyADyAI_A5_A2_tGGGÎøi,GAXGAMy"j,SgGG;
 
 // Remaining properties
-@property(readonly) TLKAsyncCache *cacheToPrewarm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) DMFApplicationPolicyMonitor *monitor; // @synthesize monitor=_monitor;
-@property(retain) NSCache *possiblyCorrectCache; // @synthesize possiblyCorrectCache=_possiblyCorrectCache;
-@property(retain) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

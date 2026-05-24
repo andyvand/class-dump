@@ -9,12 +9,6 @@
 @interface UIKit.UIDirectionalLightEffectView.WaveView__priv_FFDE3B7A64024E6DED98D26CC792816C : UIView
 {
     id fillColor;
-    id gradientColors;
-    id gradientView;
-    id clippingView;
-    id clippingMaskView;
-    id fillView;
-    id fillTrailView;
 }
 
 - (id);

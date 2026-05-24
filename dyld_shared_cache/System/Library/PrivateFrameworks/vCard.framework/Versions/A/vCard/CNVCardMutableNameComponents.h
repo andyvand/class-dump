@@ -19,17 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSString *companyName; // @dynamic companyName;
-@property(copy) NSString *firstName; // @dynamic firstName;
 @property(copy) NSString *formattedName; // @dynamic formattedName;
-@property _Bool isCompany; // @dynamic isCompany;
-@property(copy) NSString *lastName; // @dynamic lastName;
-@property(copy) NSString *middleName; // @dynamic middleName;
-@property(copy) NSString *suffix; // @dynamic suffix;
-@property(copy) NSString *title; // @dynamic title;
 
 @end
 

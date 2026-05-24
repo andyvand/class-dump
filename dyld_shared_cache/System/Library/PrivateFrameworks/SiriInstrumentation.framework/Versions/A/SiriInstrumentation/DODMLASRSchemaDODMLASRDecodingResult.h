@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DODMLASRSchemaDODMLASRDecodingMetrics, NSArray, NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRDecodingResult : SISchemaInstrumentationMessage
 {
     NSString *_configName;
-    NSArray *_tokens;
-    NSArray *_utterances;
-    DODMLASRSchemaDODMLASRDecodingMetrics *_decodingMetrics;
-    unsigned long long _decodeDurationInNs;
-    NSArray *_alignments;
-    NSArray *_entityScoreResults;
-    unsigned int _oneBestTranscriptLinkIndex;
-    struct {
-        unsigned int decodeDurationInNs:1;
-        unsigned int oneBestTranscriptLinkIndex:1;
-    } _has;
-    _Bool _hasConfigName;
-    _Bool _hasDecodingMetrics;
 }
 
 - (id);
@@ -36,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)IA	*5;
 - (void);
 - (void);
 - (unsigned int);
@@ -59,7 +46,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void);
@@ -72,34 +59,22 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)OwnsPhysicalConnector;
+- (id)requestInfo;
+- (id)wp;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id)SpeechAlternativeRanks";
-- (id)DAssetAvailabilityFromBootTuples;
+- (id)ODDSiriSchemaODDAssetAvailabilityFromBootTuples;
 - (id)$ð`ð;
 - (void)ð¶ÿþ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alignments; // @synthesize alignments=_alignments;
 @property(copy, nonatomic) NSString *configName; // @synthesize configName=_configName;
-@property(nonatomic) unsigned long long decodeDurationInNs; // @synthesize decodeDurationInNs=_decodeDurationInNs;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRDecodingMetrics *decodingMetrics; // @synthesize decodingMetrics=_decodingMetrics;
-@property(copy, nonatomic) NSArray *entityScoreResults; // @synthesize entityScoreResults=_entityScoreResults;
-@property(nonatomic) _Bool hasConfigName; // @synthesize hasConfigName=_hasConfigName;
-@property(nonatomic) _Bool hasDecodeDurationInNs;
-@property(nonatomic) _Bool hasDecodingMetrics; // @synthesize hasDecodingMetrics=_hasDecodingMetrics;
-@property(nonatomic) _Bool hasOneBestTranscriptLinkIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int oneBestTranscriptLinkIndex; // @synthesize oneBestTranscriptLinkIndex=_oneBestTranscriptLinkIndex;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(copy, nonatomic) NSArray *utterances; // @synthesize utterances=_utterances;
 
 @end
 

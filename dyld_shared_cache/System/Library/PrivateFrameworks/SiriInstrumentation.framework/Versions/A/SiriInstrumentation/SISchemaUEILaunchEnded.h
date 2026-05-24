@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEILaunchEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)incoming;
 - (id);
 - (id);
-- (id)eExtractionContext;
-- (id)rmupContext;
-- (_Bool)S_INDICATOR_ERROR;
-- (_Bool)ITEMSEMPTYLIBRARY;
+- (id)deleteFeatureExtractionContext;
+- (id)_hasCdmClientWarmupContext;
+- (_Bool)RFCOMPONENT_STATUS_INDICATOR_ERROR;
+- (_Bool)DIALOGENGINENAMEDENTITYCATID__PLAYMEDIAINTENT__UNSUPPORTEDMEDIAITEMSEMPTYLIBRARY;
 - (void)ãÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

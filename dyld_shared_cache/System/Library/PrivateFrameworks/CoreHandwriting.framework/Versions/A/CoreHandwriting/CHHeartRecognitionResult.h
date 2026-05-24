@@ -9,19 +9,17 @@
 @interface CHHeartRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_fastMipmapItemForSize:forOpenGL:useMinimumQualityThreshold: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
-- (void);
+- (void)ookmark for set:(id)arg1 %@;
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

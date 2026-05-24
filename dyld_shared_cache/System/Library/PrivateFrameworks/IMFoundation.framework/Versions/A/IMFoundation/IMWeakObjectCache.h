@@ -9,10 +9,6 @@
 @interface IMWeakObjectCache
 {
     NSMutableDictionary *_weakObjectCache;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _tableLock;
 }
 
 + (id);

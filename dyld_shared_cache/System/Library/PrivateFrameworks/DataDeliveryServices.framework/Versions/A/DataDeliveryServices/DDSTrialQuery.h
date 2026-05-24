@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DDSTrialQuery
 {
     int _projectId;
-    unsigned int _namespaceId;
-    NSString *_description;
 }
 
-+ (id);
++ (id)setHasCirFallbackTriggered: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)setHasCpuRealTimeFactor:(int)arg1;
 - (id);
-- (id);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (unsigned int);
-- (id);
+- (void)`;
+- (unsigned int)`;
+- (id)n;
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int namespaceId; // @synthesize namespaceId=_namespaceId;
 @property(readonly) int projectId; // @synthesize projectId=_projectId;
 
 @end

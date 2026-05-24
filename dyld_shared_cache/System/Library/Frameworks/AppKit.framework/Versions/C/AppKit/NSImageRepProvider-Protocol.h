@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSImage, NSString;
 
 @protocol NSImageRepProvider
 
 @optional
+- (_Bool);
+- (_Bool);
+- (NSImage *)lar;
 - (struct CGSize)
 × ;
 - (NSString *)0;
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) _Bool _isSymbolImage;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) NSString *symbolName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
 
 @end
 

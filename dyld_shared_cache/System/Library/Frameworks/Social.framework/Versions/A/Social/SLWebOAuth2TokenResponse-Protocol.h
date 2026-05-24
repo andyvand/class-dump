@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSError, NSString;
+@class NSError, NSString;
 
 @protocol SLWebOAuth2TokenResponse
-- (long long)areLocationPopUpButtonCell;
+- (NSString *);
+- (NSError *)_thumbnailImageData;
+- (long long)SLXShareLocationPopUpButtonCell;
 
 // Remaining properties
-@property(readonly) NSString *GUID;
-@property(readonly) NSDictionary *data;
-@property(readonly) NSError *error;
-@property(readonly) NSString *errorMessage;
-@property(readonly) NSDate *expiryDate;
-@property(readonly) NSArray *grantedDataclasses;
-@property(readonly) NSString *idToken;
-@property(readonly) NSString *refreshToken;
 @property(readonly) long long statusCode;
-@property(readonly) NSString *token;
 @end
 

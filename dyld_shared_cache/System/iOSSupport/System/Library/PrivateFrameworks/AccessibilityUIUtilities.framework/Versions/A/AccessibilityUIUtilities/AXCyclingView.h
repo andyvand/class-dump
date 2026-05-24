@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol AXCyclingViewDelegate;
-
 @interface AXCyclingView
 {
     _Bool _isMakingNextViewVisible;
-    _Bool _shouldSkipMakingNextViewVisible;
-    id <AXCyclingViewDelegate> _delegate;
-    unsigned long long _cycleIndex;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)z;
 - (void);
 - (_Bool);
-- (id);
 - (void);
+- (_Bool);
+- (id)z;
+- (void)s;
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void){;
 - (void);
 - (id);
 - (void);
@@ -33,10 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long cycleIndex; // @synthesize cycleIndex=_cycleIndex;
-@property(nonatomic) __weak id <AXCyclingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isMakingNextViewVisible; // @synthesize isMakingNextViewVisible=_isMakingNextViewVisible;
-@property(nonatomic) _Bool shouldSkipMakingNextViewVisible; // @synthesize shouldSkipMakingNextViewVisible=_shouldSkipMakingNextViewVisible;
-@property(readonly, nonatomic) NSArray *viewsInCycle;
 
 @end
 

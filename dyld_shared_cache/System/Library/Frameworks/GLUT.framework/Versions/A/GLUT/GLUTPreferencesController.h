@@ -4,49 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSPopUpButton, NSTabView, NSTextField, NSView;
+@class NSTabView;
 
 __attribute__((visibility("hidden")))
 @interface GLUTPreferencesController
 {
     NSTabView *prefsTabView;
-    NSButton *launchUseMacOSXCoords;
-    NSButton *launchUseCurrWD;
-    NSButton *launchUseExtendedDesktop;
-    NSButton *launchIconic;
-    NSButton *launchDebugMode;
-    NSButton *launchGamemodeCaptureSingle;
-    NSButton *launchSyncToVBL;
-    NSTextField *launchInitWidth;
-    NSTextField *launchInitHeight;
-    NSTextField *launchInitX;
-    NSTextField *launchInitY;
-    NSTextField *launchMenuIdle;
-    NSTextField *launchFadeTime;
-    NSTextField *mouseDetected;
-    NSButton *mouseEmulation;
-    NSPopUpButton *mouseMiddleConfigMenu;
-    NSPopUpButton *mouseRightConfigMenu;
-    NSTextField *mouseAssignWarningText;
-    NSImageView *mouseAssignWarningIcon;
-    NSView *mouseTabItemView;
-    NSPopUpButton *joyDeviceMenu;
-    NSPopUpButton *joyInputMenu;
-    NSButton *joyInverted;
-    NSButton *joyAssign;
-    NSTextField *joyElement;
-    NSTextField *joyAssignNote;
-    NSImageView *joyAssignWarningIcon;
-    NSView *joyTabItemView;
-    NSPopUpButton *spaceDeviceMenu;
-    NSPopUpButton *spaceInputMenu;
-    NSButton *spaceInverted;
-    NSButton *spaceReAssign;
-    NSTextField *spaceElement;
-    NSTextField *spaceAssignNote;
-    NSImageView *spaceAssignWarningIcon;
-    NSView *spaceTabItemView;
-    _Bool updatingDevices;
 }
 
 - (void);
@@ -69,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,13 +41,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Count (less backoff):(id)arg1 %f;
+- (void);
+- (id);
+- (void)4;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)nt inactive;
 
 @end
 

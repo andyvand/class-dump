@@ -9,29 +9,23 @@
 @interface EKConferenceRoom
 {
     _Bool _supportsAvailability;
-    _Bool _availabilityRequestInProgress;
-    EKDirectoryLocation *_location;
-    long long _availability;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)UI service endpoint.;
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)@9h;
+- (void);
 - (id);
 - (void)!àCù±2'1Â0@ù
 × ;
 - (void)¾k[d~;
 
 // Remaining properties
-@property(nonatomic) long long availability; // @synthesize availability=_availability;
-@property(nonatomic) _Bool availabilityRequestInProgress; // @synthesize availabilityRequestInProgress=_availabilityRequestInProgress;
 @property(retain, nonatomic) EKDirectoryLocation *location; // @synthesize location=_location;
-@property(nonatomic) _Bool supportsAvailability; // @synthesize supportsAvailability=_supportsAvailability;
 
 @end
 

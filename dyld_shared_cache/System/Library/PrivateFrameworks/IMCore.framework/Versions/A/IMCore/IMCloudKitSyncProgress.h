@@ -4,61 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncState, IMCloudKitSyncStatistics, NSArray, NSString;
+@class IMCloudKitSyncState;
 
 @interface IMCloudKitSyncProgress
 {
     IMCloudKitSyncState *syncState;
-    IMCloudKitSyncStatistics *syncStatistics;
-    long long type;
-    id descriptor;
-    double progressBarValue;
-    double progressBarMax;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
-- (_Bool);
+- (id)..;
+- (id)int=%@;
+- (_Bool)d];
+- (_Bool)k for screen enabled[%d] did succeed[%d];
+- (_Bool)ucceed[%d];
+- (double)ce Media | All. Average JB queue size is negative! Current size:%f, new size:%f, jitter samples:%f /* Error: Ran out of types for this method. */;
+- (id)%d samplesInfo pointer is NULL;
+- (double)SeqStart=%d SeqEnd=%d endSequenceNumber=%d;
+- (double)readIndex=%d writeIndex=%d SeqStart=%d SeqEnd=%d endSequenceNumber=%d;
+- (id)download time [%@];
+- (id):(long long)arg1 payload=%u audioCodecBitrate=%u redNumPayloads=%u packetsPerBundle=%u operatingMode=%d.;
+- (double)yptMessageWithMKI='%@' message='%@', sequenceNumber='%d';
+- (_Bool)%s:%d %@(%p) no driver reference for audio server driver plug in /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)__metricValidationError:withSubtypePrefix:chatGUID:serviceName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ì6;
 - (double)ÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *actionLabel;
-@property(nonatomic, readonly) double broadcastDeferralOverride;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *errors;
-@property(nonatomic, readonly) _Bool isHidden;
-@property(nonatomic, readonly) double percentComplete;
-@property(nonatomic, readonly) NSString *percentCompleteString;
-@property(nonatomic, readonly) double progressBarMax; // @synthesize progressBarMax;
-@property(nonatomic, readonly) double progressBarValue; // @synthesize progressBarValue;
-@property(nonatomic, readonly) NSString *progressLabel;
-@property(nonatomic, readonly) double remainingItems;
-@property(nonatomic, readonly) _Bool shouldShowIndeterminateProgress;
-@property(nonatomic, readonly) _Bool shouldShowProgressBar;
-@property(nonatomic, readonly) _Bool shouldShowUserActionLabel;
-@property(nonatomic, readonly) _Bool shouldShowUserMessageLabel;
 @property(nonatomic, readonly) IMCloudKitSyncState *syncState; // @synthesize syncState;
-@property(nonatomic, readonly) IMCloudKitSyncStatistics *syncStatistics; // @synthesize syncStatistics;
-@property(nonatomic, readonly) long long type; // @synthesize type;
-@property(nonatomic, readonly) NSString *userMessageLabel;
 
 @end
 

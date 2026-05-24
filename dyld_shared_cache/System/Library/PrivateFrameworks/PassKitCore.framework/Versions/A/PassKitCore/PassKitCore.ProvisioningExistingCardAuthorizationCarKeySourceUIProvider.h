@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningExistingCardAuthorizationCarKeySourceUIProvider
 {
     id webService;
-    id existingHandle;
-    id paymentService;
 }
 
 @end

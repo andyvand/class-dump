@@ -8,6 +8,6 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_34f00414);
+- (CDStruct_34f00414)B;
 @end
 

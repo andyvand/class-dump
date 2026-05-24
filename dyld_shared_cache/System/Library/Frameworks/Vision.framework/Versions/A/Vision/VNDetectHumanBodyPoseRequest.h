@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNDetectHumanBodyPoseRequest : VNImageBasedRequest
 {
     _Bool _detectsHands;
@@ -19,19 +17,18 @@
 + (id);
 + (id);
 + (Class);
-+ (const CDStruct_3a02d5a8 *);
++ (const CDStruct_3a02d5a8 *);
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)ge history protocol error:(unsigned long long)arg1 Delete + Add (%{public}@); will treat as an Update.;
 - (id);
 - (_Bool)ÿ+l?;
 
 // Remaining properties
 @property(nonatomic) _Bool detectsHands; // @synthesize detectsHands=_detectsHands;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

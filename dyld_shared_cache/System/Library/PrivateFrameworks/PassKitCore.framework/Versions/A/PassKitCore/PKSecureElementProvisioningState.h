@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKPaymentEligibilityResponse, PKPaymentProvisioningResponse, PKPaymentRequirementsResponse;
+@class NSString;
 
 @interface PKSecureElementProvisioningState
 {
     NSString *_nonce;
-    _Bool _hasAcquiredProvisioningAssertion;
-    NSString *_sid;
-    NSData *_externalizedAuth;
-    NSString *_secureElementReservationGroupIdentifier;
-    NSString *_referrerIdentifier;
-    NSString *_productIdentifier;
-    NSData *_provisioningStepState;
-    PKPaymentRequirementsResponse *_requirementsResponse;
-    PKPaymentEligibilityResponse *_eligibilityResponse;
-    PKPaymentProvisioningResponse *_provisioningResponse;
 }
 
-+ (_Bool);
++ (_Bool)rtFramework.dylib;
 - (id);
 - (void);
 - (void);
@@ -29,15 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (void)m;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -48,23 +38,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qB;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_rxLowFrameCountTrue;
 - (void)"PKBillPaymentSuggestedAmount"8Q16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentEligibilityResponse *eligibilityResponse; // @synthesize eligibilityResponse=_eligibilityResponse;
-@property(retain, nonatomic) NSData *externalizedAuth; // @synthesize externalizedAuth=_externalizedAuth;
-@property(nonatomic) _Bool hasAcquiredProvisioningAssertion; // @synthesize hasAcquiredProvisioningAssertion=_hasAcquiredProvisioningAssertion;
-@property(retain, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(retain, nonatomic) PKPaymentProvisioningResponse *provisioningResponse; // @synthesize provisioningResponse=_provisioningResponse;
-@property(retain, nonatomic) NSData *provisioningStepState; // @synthesize provisioningStepState=_provisioningStepState;
-@property(retain, nonatomic) NSString *referrerIdentifier; // @synthesize referrerIdentifier=_referrerIdentifier;
-@property(retain, nonatomic) PKPaymentRequirementsResponse *requirementsResponse; // @synthesize requirementsResponse=_requirementsResponse;
-@property(retain, nonatomic) NSString *secureElementReservationGroupIdentifier; // @synthesize secureElementReservationGroupIdentifier=_secureElementReservationGroupIdentifier;
 @property(readonly, nonatomic) NSString *sid; // @synthesize sid=_sid;
 
 @end

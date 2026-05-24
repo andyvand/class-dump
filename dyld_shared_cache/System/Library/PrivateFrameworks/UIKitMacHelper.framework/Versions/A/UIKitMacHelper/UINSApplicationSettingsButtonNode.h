@@ -12,38 +12,24 @@ __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsButtonNode : UINSApplicationSettingsNode
 {
     NSString *_localizedLabel;
-    NSString *_selector;
-    NSString *_localizedDescription;
-    NSString *_disabledStateKey;
-    NSString *_localizedDisabledDescription;
-    NSString *_localizedConfirmationPrompt;
-    NSString *_localizedConfirmText;
-    NSString *_localizedDenyText;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�r;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)|7;
+- (void)Ȋ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *disabledStateKey; // @synthesize disabledStateKey=_disabledStateKey;
-@property(readonly, nonatomic) NSString *localizedConfirmText; // @synthesize localizedConfirmText=_localizedConfirmText;
-@property(readonly, nonatomic) NSString *localizedConfirmationPrompt; // @synthesize localizedConfirmationPrompt=_localizedConfirmationPrompt;
-@property(readonly, nonatomic) NSString *localizedDenyText; // @synthesize localizedDenyText=_localizedDenyText;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, nonatomic) NSString *localizedDisabledDescription; // @synthesize localizedDisabledDescription=_localizedDisabledDescription;
 @property(readonly, nonatomic) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
-@property(readonly, nonatomic) NSString *selector; // @synthesize selector=_selector;
 
 @end
 

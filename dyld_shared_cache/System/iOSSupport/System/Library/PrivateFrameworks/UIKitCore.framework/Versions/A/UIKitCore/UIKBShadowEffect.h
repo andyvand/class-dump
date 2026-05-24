@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBGradient;
+@class NSString;
 
 @interface UIKBShadowEffect
 {
     NSString *_colorName;
-    double _weight;
-    struct CGSize _offset;
-    struct UIEdgeInsets _insets;
-    struct UIEdgeInsets _concaveInsets;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)sync to CloudKit in-memory transfer:(struct UIEdgeInsets)arg1 %@ newGUID:%@ /* Error: Ran out of types for this method. */;
+- (id)ling exitRecordDateWithCompletion date:(id)arg1 %@ error:(struct CGSize)arg2 %@ fetchedExitDateOnLaunch:(struct UIEdgeInsets)arg3 %@;
 - (struct UIEdgeInsets);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)ize:scale: /* Error: Ran out of types for this method. */;
-- (void)ifier:(id)arg1;
-- (struct UIEdgeInsets)yRect;
-- (_Bool)me:(id)arg1 view: /* Error: Ran out of types for this method. */;
-- (id)rHeightForStyle: /* Error: Ran out of types for this method. */;
-- (void)eFactor:(struct UIEdgeInsets)arg1;
-- (id)rAdditions;
+- (_Bool)targetWithSize:scale: /* Error: Ran out of types for this method. */;
+- (void)setHostBundleIdentifier:(id)arg1;
+- (struct UIEdgeInsets)queryRect;
+- (_Bool)initWithName:(id)arg1 view: /* Error: Ran out of types for this method. */;
+- (id)defaultHeaderHeightForStyle: /* Error: Ran out of types for this method. */;
+- (void)_ui_attributedSubstringFromRange:(struct UIEdgeInsets)arg1 scaledByScaleFactor: /* Error: Ran out of types for this method. */;
+- (id)UIViewControllerAdditions;
 - (double)Ø&;
 - (void)ServicePhotos(void);
-- (void)ffectsApplicationKeyWindow;
+- (void)affectsApplicationKeyWindow;
 - (struct CGColor *)ØT_;
 - (void)$ÚðþÜKÑlf;
 - (struct CGSize)|® ÿ4ñÙøj;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets concaveInsets; // @synthesize concaveInsets=_concaveInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIKBGradient *gradient;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;
-@property(readonly, nonatomic) _Bool isValid;
 @property(nonatomic) struct CGSize offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) _Bool renderUnder;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesRGBColors;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol _SGSuggestionsServiceBaseProtocol
+- (void);
+- (_Bool)PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils;
 - (void);
 @end
 

@@ -9,18 +9,17 @@
 @interface GEODisplayString
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_localizedStrings;
 }
 
-+ (Class);
-+ (_Bool)ilterType:(id)arg1;
++ (Class)viceProxy;
++ (_Bool)setHasPrivacyFilterType:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)%;
 - (void);
-- (void);
-- (void);
+- (void)setTrpId:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
@@ -29,17 +28,16 @@
 - (_Bool);
 - (void);
 - (void)Ô ;
-- (id)hedLocation:(struct _NSZone *)arg1;
-- (id):(unsigned long long)arg1 queue:callback: /* Error: Ran out of types for this method. */;
-- (id)ate;
-- (id)RROR_COUNT;
+- (id)setHasIsMatchedLocation:(struct _NSZone *)arg1;
+- (id)getStaleTileKeysUsedSince:(unsigned long long)arg1 fromTileSets:maxCount:maxTotalSize:queue:callback: /* Error: Ran out of types for this method. */;
+- (id)NSURLSessionDataDelegate;
+- (id)MSL_MIXEDINTENT_MARKERPOIBIZ_BOUNDED_BIZ_SEARCH_ERROR_COUNT;
 - (id)	Ä;
 - (id)ÿ;
 - (void)6,5;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *localizedStrings;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

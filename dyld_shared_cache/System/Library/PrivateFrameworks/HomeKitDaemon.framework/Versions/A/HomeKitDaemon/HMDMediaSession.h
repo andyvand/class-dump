@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaEndpoint, HMDMediaSessionState, HMFTimer, NSArray, NSMutableArray, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDMediaEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaSession
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_mediaProfiles;
-    _Bool _connected;
-    _Bool _currentAccessorySession;
-    NSString *_sessionIdentifier;
-    HMDMediaEndpoint *_endpoint;
-    HMDMediaSessionState *_state;
-    NSString *_logID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_uuid;
-    NSMutableArray *_setPlaybackStateCompletionHandlers;
-    HMFTimer *_setPlaybackStateTimer;
 }
 
 + (id);
@@ -37,10 +25,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)32;
+- (void)stringValue;
+- (id)GEOMapServiceCancellableTicket;
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -49,66 +51,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)s:(id)arg1 %@, openInFullScreen:%d, showConnectionProgress:%d, skipUserPassDialogIfPossible:%d, recoveryAction:%ld, noReconnect:%d, sourceAppWindowRect:%@, windowAlignment:%ld, numVirtualDisplays:%ld, hdr:%d, displayID:%u, inviterAppIsMessages:%d, idsDeviceAudioStreamPausedAtStart:%d /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool)<;
 - (id)st mode config request:HH2 demo mode is not enabled:%@ /* Error: Ran out of types for this method. */;
 - (id)stination;
 - (void)hare token, will attempt to re-grant access for user:(id)arg1 %@;
-- (void)ETIN_LOCK_ACTION_JAMMED;
+- (void)BULLETIN_LOCK_ACTION_JAMMED;
 - (id);
 - (void)Øÿ;l	;
 - (id)xÁtÿ	?;
 
 // Remaining properties
-@property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(nonatomic, getter=isCurrentAccessorySession) _Bool currentAccessorySession; // @synthesize currentAccessorySession=_currentAccessorySession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) HMDMediaEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *logID; // @synthesize logID=_logID;
-@property(readonly, nonatomic) NSArray *mediaProfiles;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) NSMutableArray *setPlaybackStateCompletionHandlers; // @synthesize setPlaybackStateCompletionHandlers=_setPlaybackStateCompletionHandlers;
-@property(retain, nonatomic) HMFTimer *setPlaybackStateTimer; // @synthesize setPlaybackStateTimer=_setPlaybackStateTimer;
-@property(retain, nonatomic) HMDMediaSessionState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

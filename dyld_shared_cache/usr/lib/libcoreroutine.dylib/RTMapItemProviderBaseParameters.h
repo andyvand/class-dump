@@ -7,9 +7,6 @@
 @interface RTMapItemProviderBaseParameters
 {
     double _locationUncertaintyMax;
-    double _locationUncertaintyMin;
-    double _mapItemUncertaintyMax;
-    double _mapItemUncertaintyMin;
 }
 
 - (double);
@@ -22,9 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double locationUncertaintyMax; // @synthesize locationUncertaintyMax=_locationUncertaintyMax;
-@property(readonly, nonatomic) double locationUncertaintyMin; // @synthesize locationUncertaintyMin=_locationUncertaintyMin;
-@property(readonly, nonatomic) double mapItemUncertaintyMax; // @synthesize mapItemUncertaintyMax=_mapItemUncertaintyMax;
-@property(readonly, nonatomic) double mapItemUncertaintyMin; // @synthesize mapItemUncertaintyMin=_mapItemUncertaintyMin;
 
 @end
 

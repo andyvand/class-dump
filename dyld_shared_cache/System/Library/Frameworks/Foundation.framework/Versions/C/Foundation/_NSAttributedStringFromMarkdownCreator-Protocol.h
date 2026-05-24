@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol _NSAttributedStringFromMarkdownCreator
+- (unsigned short)C;
 - (void)Û¡ÿ;
 
 @optional
-- (void);
+- (NSDictionary *);
 @end
 

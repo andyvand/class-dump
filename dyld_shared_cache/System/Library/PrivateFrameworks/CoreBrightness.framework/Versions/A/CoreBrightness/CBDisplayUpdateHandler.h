@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBDisplayUpdateHandler
 {
     NSObject<OS_os_log> *_logHandle;
-    NSArray *_onlineDisplays;
-    NSArray *_onlineDisplayAliases;
 }
 
-+ (id);
++ (id)q;
 + (id)¸;
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -25,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (void);
-- (void);
-- (oneway void);
+- (void)et too big:%ld /* Error: Ran out of types for this method. */;
+- (void);
+- (oneway void)';
 - (id);
 - (id);
 - (id);

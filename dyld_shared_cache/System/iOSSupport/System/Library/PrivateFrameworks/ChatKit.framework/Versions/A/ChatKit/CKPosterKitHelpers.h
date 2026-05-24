@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)te result {note:(id)arg1 %s};
 + (void);
 
 @end

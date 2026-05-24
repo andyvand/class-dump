@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)2MLMultiArrayC;
+- (id)So12MLMultiArrayC;
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *featureNames;

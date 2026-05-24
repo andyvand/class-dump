@@ -9,12 +9,10 @@
 @interface _SNSoundPrintAFeatureEmbeddingCustomModel : _SNSoundPrintFeatureEmbeddingCustomModel
 {
     id inputFeatureName;
-    id outputFeatureName;
-    id outputShape;
 }
 
 - (id);
-- (id);
+- (id)ܥ;
 - (void)HØøÿlØøÿØøÿ´ØøÿðØøÿÙøÿPÙøÿtÙøÿÙøÿ¼ÙøÿøÙøÿÚøÿ@Úøÿ|Úøÿ ÚøÿÄÚøÿ;
 
 @end

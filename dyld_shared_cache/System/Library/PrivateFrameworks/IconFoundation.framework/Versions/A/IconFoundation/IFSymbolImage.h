@@ -11,38 +11,23 @@
 @interface IFSymbolImage : IFImage
 {
     _Bool _flippable;
-    struct CGImage *_internalCGImage;
-    double _internalScale;
-    double _pointSize;
-    unsigned long long _symbolSize;
-    long long _symbolWeight;
-    double _referencePointSize;
-    double _fontMatchingScaleFactor;
-    double _baselineOffset;
-    double _capHeight;
-    long long _layoutDirection;
-    CUINamedVectorGlyph *_vectorGlyph;
-    struct CGSize _internalSize;
-    struct CGPoint _metricCenter;
-    struct CGRect _alignmentRect;
-    struct CGRect _contentBounds;
 }
 
-- (id);
+- (id)4F;
 - (id);
 - (void);
-- (double);
-- (double);
-- (struct CGPoint);
-- (_Bool);
+- (double);
+- (double)EHD'F'E-E/;
+- (struct CGPoint)�';
+- (_Bool)1;
 - (struct CGRect);
-- (double);
+- (double);
 - (struct CGRect);
 - (void);
 - (unsigned long long);
-- (double);
+- (double)M;
 - (struct CGSize);
-- (id);
+- (id)hunk_offset64_4cc));
 - (long long);
 - (struct CGImage *);
 - (double);
@@ -51,18 +36,6 @@
 - (long long)re;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect; // @synthesize alignmentRect=_alignmentRect;
-@property(readonly, nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(readonly, nonatomic) double capHeight; // @synthesize capHeight=_capHeight;
-@property(readonly, nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;
-@property(readonly, nonatomic, getter=isFlippable) _Bool flippable; // @synthesize flippable=_flippable;
-@property(readonly, nonatomic) double fontMatchingScaleFactor; // @synthesize fontMatchingScaleFactor=_fontMatchingScaleFactor;
-@property(readonly, nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(readonly, nonatomic) struct CGPoint metricCenter; // @synthesize metricCenter=_metricCenter;
-@property(readonly, nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
-@property(readonly, nonatomic) double referencePointSize; // @synthesize referencePointSize=_referencePointSize;
-@property(readonly, nonatomic) unsigned long long symbolSize; // @synthesize symbolSize=_symbolSize;
-@property(readonly, nonatomic) long long symbolWeight; // @synthesize symbolWeight=_symbolWeight;
 @property(retain) CUINamedVectorGlyph *vectorGlyph; // @synthesize vectorGlyph=_vectorGlyph;
 
 @end

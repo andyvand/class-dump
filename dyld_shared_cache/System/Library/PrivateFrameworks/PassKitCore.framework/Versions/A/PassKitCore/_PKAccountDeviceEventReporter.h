@@ -9,11 +9,10 @@
 @interface _PKAccountDeviceEventReporter
 {
     id paymentWebService;
-    PKAccount *account;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (void);

@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedCursorStoreManager
 {
     id lock;
-    id cursorStores;
 }
 
 @end

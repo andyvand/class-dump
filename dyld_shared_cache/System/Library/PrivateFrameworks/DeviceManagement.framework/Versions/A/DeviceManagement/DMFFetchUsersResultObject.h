@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)erRecipientAddresses;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *users; // @synthesize users=_users;

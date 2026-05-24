@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)copyWithRemoteName:(id)arg1;
 - (unsigned char);
-- (id);
+- (id)leTCONDP855BuildIdentityPathKey;
 - (id)
 × ;
 

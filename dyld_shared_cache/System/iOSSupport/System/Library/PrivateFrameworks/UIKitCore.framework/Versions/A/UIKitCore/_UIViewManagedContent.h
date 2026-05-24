@@ -11,7 +11,7 @@
 
 - (id);
 - (long long);
-- (_Bool)Responder:(id)arg1;
+- (_Bool)autoFillModeForResponder:(id)arg1;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

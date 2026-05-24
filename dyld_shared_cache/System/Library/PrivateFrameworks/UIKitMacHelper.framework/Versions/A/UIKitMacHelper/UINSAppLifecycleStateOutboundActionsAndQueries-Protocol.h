@@ -5,5 +5,8 @@
 //
 
 @protocol UINSAppLifecycleStateOutboundActionsAndQueries
+- (void)h;
+- (void);
+- (void);
 @end
 

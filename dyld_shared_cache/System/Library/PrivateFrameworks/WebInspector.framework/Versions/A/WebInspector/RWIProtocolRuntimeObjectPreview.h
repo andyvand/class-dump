@@ -6,21 +6,19 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
-
 @interface RWIProtocolRuntimeObjectPreview : RWIProtocolJSONObject
 {
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)y;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -28,16 +26,9 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *entries;
-@property(nonatomic) _Bool lossless;
-@property(nonatomic) _Bool overflow;
-@property(copy, nonatomic) NSArray *properties;
-@property(nonatomic) int size;
-@property(copy, nonatomic) NSString *stringRepresentation;
-@property(nonatomic) long long subtype;
 @property(nonatomic) long long type;
 
 @end

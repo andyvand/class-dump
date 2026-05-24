@@ -4,16 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction, UIDragItem, UITargetedDragPreview;
+@class NSArray, UIDragInteraction, UIDragItem, UITargetedDragPreview;
 @protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
+- (NSArray *);
 
 @optional
+- (UITargetedDragPreview *)NSArray",R,C,N;
+- (_Bool)stringByTrimmingCharactersInSet:(UIDragInteraction *)arg1;
 - (void)0@ù
 × ;
 - (void)v40@0:(UIDragInteraction *)arg1 8@16:(id <UIDragSession>)arg2 24@32;
-- (UITargetedDragPreview *)hTimeInterval:(UIDragInteraction *)arg1 repeats:(UIDragItem *)arg2 block:(id <UIDragSession>)arg3;
+- (UITargetedDragPreview *)scheduledTimerWithTimeInterval:(UIDragInteraction *)arg1 repeats:(UIDragItem *)arg2 block:(id <UIDragSession>)arg3;
 - (_Bool)_¦2øAKyAFyAFyAE>(øy ,øSgGGAZy4,øSgGGAFyAFyAO{"øGA7_GGtGGAGySaySiGSiAFyAlTGGAVGtGG;
 @end
 

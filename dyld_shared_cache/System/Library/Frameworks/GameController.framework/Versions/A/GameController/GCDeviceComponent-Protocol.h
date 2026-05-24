@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol GCDeviceComponent;
+
 @protocol GCDeviceComponent
+
+@optional
+- (id <GCDeviceComponent>)h phone number;
+- (void);
 @end
 

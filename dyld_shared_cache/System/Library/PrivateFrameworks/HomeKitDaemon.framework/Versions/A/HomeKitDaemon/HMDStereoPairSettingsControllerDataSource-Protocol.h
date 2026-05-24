@@ -10,7 +10,7 @@
 @protocol HMDStereoPairSettingsControllerDataSource
 - (HMDHome *)0@ù
 × ;
-- (id <HMELastEventStoreReadHandle>)piryDate;
-- (id <HMEEventForwarder>)eline;
+- (id <HMELastEventStoreReadHandle>)expiryDate;
+- (id <HMEEventForwarder>)HMDCameraRecordingH264ProfileTypeBaseline;
 @end
 

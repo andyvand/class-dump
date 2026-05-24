@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBUnsendMessagesIntent
+- (_INPBIntentMetadata *)_computerScopeLocationsForBackup:queryKind: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool)lDuration:unseen:numberOfCalls: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *messageIdentifiers;
-@property(readonly, nonatomic) unsigned long long messageIdentifiersCount;
 @end
 

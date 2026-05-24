@@ -6,29 +6,19 @@
 
 #import <CoreHAP/HAP2EncodedCharacteristicResponse.h>
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface HAP2EncodedEnableNotificationResponse : HAP2EncodedCharacteristicResponse
 {
     NSSet *_updatedValues;
-    NSSet *_valueResponses;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)terval: /* Error: Ran out of types for this method. */;
+- (void)setBroadcastInterval: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSSet *updatedValues; // @synthesize updatedValues=_updatedValues;
 
 @end

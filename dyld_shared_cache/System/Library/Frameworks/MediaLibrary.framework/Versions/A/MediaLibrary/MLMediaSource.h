@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaGroup, MLMediaLibrary, MLMediaSourceImpl, NSDictionary, NSString;
+@class MLMediaSourceImpl, NSDictionary;
 
 @interface MLMediaSource
 {
@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -36,9 +36,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *attributes;
-@property(readonly) MLMediaLibrary *mediaLibrary;
-@property(readonly, copy) NSString *mediaSourceIdentifier;
-@property(readonly, retain) MLMediaGroup *rootMediaGroup;
 
 @end
 

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _ICLLParticipantQuery;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLParticipantChangeAction
 {
     long long _participantId;
-    _ICLLParticipantQuery *_participantQuery;
-    int _status;
-    struct {
-        unsigned int participantId:1;
-        unsigned int status:1;
-    } _has;
 }
 
 - (id);

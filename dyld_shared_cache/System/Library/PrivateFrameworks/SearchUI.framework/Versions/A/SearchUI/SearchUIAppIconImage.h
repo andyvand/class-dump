@@ -6,14 +6,9 @@
 
 #import <SearchUI/SearchUIImage.h>
 
-@class NSString, NSURL;
-
 @interface SearchUIAppIconImage : SearchUIImage
 {
     _Bool _isOnenessApp;
-    NSString *_bundleIdentifier;
-    unsigned long long _variant;
-    NSURL *_url;
 }
 
 + (id);
@@ -27,17 +22,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
 - (id);
+- (id)iple characteristic values request:%0.4f sec /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)q@;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -46,9 +41,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property _Bool isOnenessApp; // @synthesize isOnenessApp=_isOnenessApp;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(nonatomic) unsigned long long variant; // @synthesize variant=_variant;
 
 @end

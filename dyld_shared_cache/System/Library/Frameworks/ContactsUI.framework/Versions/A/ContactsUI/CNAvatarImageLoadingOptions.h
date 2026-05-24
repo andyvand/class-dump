@@ -7,27 +7,21 @@
 @interface CNAvatarImageLoadingOptions
 {
     _Bool _selected;
-    _Bool _maskedByCircle;
-    double _diameter;
-    long long _backgroundStyle;
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)g;
 - (long long);
 - (_Bool)Ë;
 
 // Remaining properties
-@property long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
 @property double diameter; // @synthesize diameter=_diameter;
-@property _Bool maskedByCircle; // @synthesize maskedByCircle=_maskedByCircle;
-@property _Bool selected; // @synthesize selected=_selected;
 
 @end
 

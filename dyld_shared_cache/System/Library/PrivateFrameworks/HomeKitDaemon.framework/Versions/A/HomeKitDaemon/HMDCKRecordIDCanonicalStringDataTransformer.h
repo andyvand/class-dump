@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)her:(id)arg1 notificationCenter:(id *)arg2 dataSource:delegate: /* Error: Ran out of types for this method. */;
-+ (Class)teAccessoryFirmwareVersion: /* Error: Ran out of types for this method. */;
++ (id)initWithDestination:(id)arg1 messageDispatcher:(id *)arg2 notificationCenter:dataSource:delegate: /* Error: Ran out of types for this method. */;
++ (Class)_updateAccessoryFirmwareVersion: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSMutableArray, NSMutableDictionary, NSProtocolChecker, NSString;
+@class NSMutableDictionary;
 
 @interface _IMLegacyDaemonListener
 {
     _Bool _hidingDisconnect;
-    _Bool _setupComplete;
-    _Bool _holdingChatMessages;
-    _Bool _postedSetupComplete;
-    _Bool _hasPendingProcessChange;
-    NSMutableDictionary *_contexts;
-    NSMutableArray *_handlers;
-    NSString *_myStatusMessage;
-    unsigned long long _vcCapabilities;
-    NSMutableDictionary *_properties;
-    NSMutableDictionary *_persistentProperties;
-    NSProtocolChecker *_protocol;
-    NSMutableArray *_deferredChatMessages;
-    NSMutableDictionary *_services;
-    NSDate *_myIdleSince;
-    NSData *_myPicture;
-    unsigned long long _myStatus;
-    NSString *_myNowPlayingString;
 }
 
 - (unsigned long long);
@@ -35,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,7 +37,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)9A;
 - (void);
 - (void);
 - (void);
@@ -78,6 +61,8 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,13 +70,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -125,66 +108,40 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id)(;
 - (id);
-- (id);
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void)
+;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id)hatContext;
+- (id)IMItemChatContext;
 - (void);
-- (void)pant;
+- (void)fallbackAccountParticipant;
 - (id)ble;
-- (void)abled;
+- (void)RCSEncryptionOptInTestEnabled;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_contexts; // @synthesize _contexts;
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect; // @synthesize _hidingDisconnect;
-@property(readonly, nonatomic) NSArray *allServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *deferredChatMessages; // @synthesize deferredChatMessages=_deferredChatMessages;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(nonatomic) _Bool hasPendingProcessChange; // @synthesize hasPendingProcessChange=_hasPendingProcessChange;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete; // @synthesize hasPostedSetupComplete=_postedSetupComplete;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;
-@property(retain, nonatomic) NSDate *myIdleSince; // @synthesize myIdleSince=_myIdleSince;
-@property(readonly, nonatomic) unsigned int myIdleTime;
-@property(retain, nonatomic) NSString *myNowPlayingString; // @synthesize myNowPlayingString=_myNowPlayingString;
-@property(retain, nonatomic) NSData *myPicture; // @synthesize myPicture=_myPicture;
-@property(nonatomic) unsigned long long myStatus; // @synthesize myStatus=_myStatus;
-@property(retain, nonatomic) NSString *myStatusMessage; // @synthesize myStatusMessage=_myStatusMessage;
-@property(retain, nonatomic) NSMutableDictionary *persistentProperties; // @synthesize persistentProperties=_persistentProperties;
 @property(retain, nonatomic) NSMutableDictionary *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSProtocolChecker *protocol; // @synthesize protocol=_protocol;
-@property(retain, nonatomic) NSMutableDictionary *services; // @synthesize services=_services;
-@property(readonly, nonatomic, getter=isSetupComplete) _Bool setupComplete; // @synthesize setupComplete=_setupComplete;
-@property(readonly, nonatomic) _Bool shouldHoldChatMessages; // @synthesize shouldHoldChatMessages=_holdingChatMessages;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long vcCapabilities; // @synthesize vcCapabilities=_vcCapabilities;
 
 @end
 

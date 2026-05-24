@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview, UIView, UIViewController, UIViewPropertyAnimator, _UIPortalView, _UIPreviewInteractionHighlighter, _UIPreviewInteractionViewControllerPresentation;
+@class _UIPreviewInteractionViewControllerPresentation;
 @protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionPresentationAssistant
 {
     id <UIViewControllerContextTransitioning> _currentContext;
-    _Bool _isAppearing;
-    UIViewPropertyAnimator *_presentationAnimator;
-    _UIPreviewInteractionHighlighter *_highlighter;
-    _UIPreviewInteractionViewControllerPresentation *_presentation;
-    _UIPortalView *_presentationSourcePortalView;
-    UITargetedPreview *_sourcePreview;
-    UIViewController *_stashedParentViewController;
-    UIView *_stashedSuperView;
-    CDUnknownBlockType _dismissalCompletion;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)__TEXT;
+- (void)hu;
 - (void);
 - (void);
 - (id);
@@ -34,43 +25,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)setDeviceSupport: /* Error: Ran out of types for this method. */;
+- (void)oggedOut;
+- (id)setCountryCode: /* Error: Ran out of types for this method. */;
+- (void)e;
+- (void)view OOP with tmpURL %@ finalURL %@ previewURL %@ maxWidth %f scale %f;
+- (void)stry;
+- (void)Recovery Resync!;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)h;
 - (id);
 - (double);
 - (id);
-- (void)ntationAndDismissal:(id)arg1;
+- (void)_setCornerRadiusForPresentationAndDismissal:(id)arg1;
 - (id);
 - (void)á©13eß;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissalCompletion; // @synthesize dismissalCompletion=_dismissalCompletion;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIPreviewInteractionHighlighter *highlighter; // @synthesize highlighter=_highlighter;
-@property(nonatomic) _Bool isAppearing; // @synthesize isAppearing=_isAppearing;
 @property(retain, nonatomic) _UIPreviewInteractionViewControllerPresentation *presentation; // @synthesize presentation=_presentation;
-@property(readonly, nonatomic) UIViewPropertyAnimator *presentationAnimator; // @synthesize presentationAnimator=_presentationAnimator;
-@property(retain, nonatomic) _UIPortalView *presentationSourcePortalView; // @synthesize presentationSourcePortalView=_presentationSourcePortalView;
-@property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
-@property(retain, nonatomic) UIViewController *stashedParentViewController; // @synthesize stashedParentViewController=_stashedParentViewController;
-@property(retain, nonatomic) UIView *stashedSuperView; // @synthesize stashedSuperView=_stashedSuperView;
-@property(readonly) Class superclass;
 
 @end
 

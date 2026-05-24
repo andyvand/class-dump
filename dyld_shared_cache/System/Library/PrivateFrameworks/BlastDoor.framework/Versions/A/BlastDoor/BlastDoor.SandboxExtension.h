@@ -7,7 +7,6 @@
 @interface BlastDoor.SandboxExtension
 {
     id token;
-    id state;
 }
 
 @end

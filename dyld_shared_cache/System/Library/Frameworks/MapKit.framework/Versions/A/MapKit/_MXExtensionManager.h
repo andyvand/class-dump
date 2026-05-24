@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MXExtensionProvider;
-@protocol _MXExtensionLookupPolicy, _MXExtensionManagerDelegate;
+@protocol _MXExtensionLookupPolicy;
 
 @interface _MXExtensionManager
 {
     id <_MXExtensionLookupPolicy> _lookupPolicy;
-    id _matchingContext;
-    id <_MXExtensionManagerDelegate> _delegate;
-    _MXExtensionProvider *_extensionProvider;
 }
 
 + (id);
@@ -20,32 +16,29 @@
 + (id);
 + (id);
 + (id);
++ (id)7;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
+- (id)returnValue=%hd;
+- (id)@_%@_%@_%@;
+- (id)cessingDB.BGSQL;
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)undTaskProtocolP;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void)ntSelf;
+- (void)shouldRepresentSelf;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MXExtensionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _MXExtensionProvider *extensionProvider; // @synthesize extensionProvider=_extensionProvider;
-@property(readonly, nonatomic) id <_MXExtensionLookupPolicy> lookupPolicy; // @synthesize lookupPolicy=_lookupPolicy;
 @property(retain, nonatomic) id matchingContext; // @synthesize matchingContext=_matchingContext;
 
 @end

@@ -8,17 +8,16 @@ __attribute__((visibility("hidden")))
 @interface AudioComponentPrefRegConnection
 {
     void *mImpl;
-    struct ConnectionInfo mConnInfo;
 }
 
+- (void)q,;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

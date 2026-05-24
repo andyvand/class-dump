@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPTextLine, CPZone;
+@class CPZone;
 
 __attribute__((visibility("hidden")))
 @interface CPHighlighter
 {
     CPZone *boundingZone;
-    CPTextLine *textLine;
-    struct CGColor *color;
-    struct CPPDFStyle *style;
-    struct CPPDFStyle *highlightedStyle;
 }
 
 + (_Bool);
@@ -23,12 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CPPDFStyle *);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *)A;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *color; // @synthesize color;
-@property(nonatomic) struct CPPDFStyle *highlightedStyle; // @synthesize highlightedStyle;
-@property(nonatomic) struct CPPDFStyle *style; // @synthesize style;
 
 @end
 

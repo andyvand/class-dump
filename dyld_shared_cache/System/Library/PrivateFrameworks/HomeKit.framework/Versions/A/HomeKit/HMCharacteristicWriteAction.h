@@ -7,13 +7,10 @@
 #import <HomeKit/HMAction.h>
 
 @class HMCharacteristic;
-@protocol NSCopying;
 
 @interface HMCharacteristicWriteAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    HMCharacteristic *_characteristic;
-    id <NSCopying> _targetValue;
 }
 
 + (id);
@@ -30,14 +27,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)persistence;
 - (id);
 - (id);
 - (_Bool);
@@ -45,7 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly, copy, nonatomic) id <NSCopying> targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

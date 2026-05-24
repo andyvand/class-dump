@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSUUID, _UIWTCProofreadingDecorationInfo;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _UIWTCProofreadingSuggestionInfo
 {
     NSUUID *_identifier;
-    NSUUID *_contextID;
-    NSAttributedString *_attributedString;
-    long long _lengthDelta;
-    long long _state;
-    NSArray *_singleContainerSubrangesOfAdjustedOriginalRange;
-    _UIWTCProofreadingDecorationInfo *_underlineInfo;
-    _UIWTCProofreadingDecorationInfo *_highlightInfo;
-    struct _NSRange _originalRange;
 }
 
 - (id);
@@ -28,27 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)chat, but has %ld participants. Not repairing participants.;
 - (struct _NSRange);
 - (long long);
 - (id);
 - (id);
 - (long long)1Â0@ù
 × ;
-- (id)URLOptions;
-- (id)5UIKit19_UILatencyLightView;
+- (id)UISceneOpenExternalURLOptions;
+- (id)_TtC5UIKit19_UILatencyLightView;
 - (void)ðÀþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) NSUUID *contextID; // @synthesize contextID=_contextID;
-@property(retain, nonatomic) _UIWTCProofreadingDecorationInfo *highlightInfo; // @synthesize highlightInfo=_highlightInfo;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long lengthDelta; // @synthesize lengthDelta=_lengthDelta;
-@property(readonly, nonatomic) struct _NSRange originalRange; // @synthesize originalRange=_originalRange;
-@property(copy, nonatomic) NSArray *singleContainerSubrangesOfAdjustedOriginalRange; // @synthesize singleContainerSubrangesOfAdjustedOriginalRange=_singleContainerSubrangesOfAdjustedOriginalRange;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) _UIWTCProofreadingDecorationInfo *underlineInfo; // @synthesize underlineInfo=_underlineInfo;
 
 @end
 

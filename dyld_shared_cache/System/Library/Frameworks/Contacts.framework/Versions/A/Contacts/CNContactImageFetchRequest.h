@@ -11,7 +11,6 @@
 @interface CNContactImageFetchRequest : CNContactPosterDataFetchRequest
 {
     NSArray *_contactIdentifiers;
-    long long _recencyType;
 }
 
 + (id);
@@ -26,16 +25,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ss barring change;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void)0:8@16@24@32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) long long recencyType; // @synthesize recencyType=_recencyType;
 
 @end
 

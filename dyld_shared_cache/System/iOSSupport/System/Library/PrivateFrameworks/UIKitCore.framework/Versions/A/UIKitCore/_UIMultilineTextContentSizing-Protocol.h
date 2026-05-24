@@ -5,5 +5,8 @@
 //
 
 @protocol _UIMultilineTextContentSizing
+- (void)setResult:(_Bool)arg1;
+- (void)nicknameForRecordID: /* Error: Ran out of types for this method. */;
+- (_Bool)_handleCapabilitiesChanged: /* Error: Ran out of types for this method. */;
 @end
 

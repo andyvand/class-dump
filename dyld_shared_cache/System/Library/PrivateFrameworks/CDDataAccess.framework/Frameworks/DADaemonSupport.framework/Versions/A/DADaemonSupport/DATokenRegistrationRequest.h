@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDSession, DARefreshWrapper, NSData, NSMutableURLRequest, NSString, NSURLSession, NSURLSessionDataTask;
-@protocol DATokenRegistrationDelegate;
-
 @interface DATokenRegistrationRequest
 {
     _Bool _finished;
-    struct os_unfair_lock_s _lock;
-    id <DATokenRegistrationDelegate> _delegate;
-    DARefreshWrapper *_wrapper;
-    NSString *_onBehalfOfBundleIdentifier;
-    NSData *_token;
-    NSString *_pushKey;
-    NSMutableURLRequest *_request;
-    NSURLSession *_session;
-    NSURLSessionDataTask *_task;
-    AKAppleIDSession *_hsa2Session;
 }
 
 + (id);
@@ -43,13 +30,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/io/zero_copy_stream.cc;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,24 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DATokenRegistrationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKAppleIDSession *hsa2Session; // @synthesize hsa2Session=_hsa2Session;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSString *onBehalfOfBundleIdentifier; // @synthesize onBehalfOfBundleIdentifier=_onBehalfOfBundleIdentifier;
-@property(nonatomic) __weak NSString *pushKey; // @synthesize pushKey=_pushKey;
-@property(retain, nonatomic) NSMutableURLRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURLSessionDataTask *task; // @synthesize task=_task;
-@property(nonatomic) __weak NSData *token; // @synthesize token=_token;
-@property(nonatomic) __weak DARefreshWrapper *wrapper; // @synthesize wrapper=_wrapper;
 
 @end
 

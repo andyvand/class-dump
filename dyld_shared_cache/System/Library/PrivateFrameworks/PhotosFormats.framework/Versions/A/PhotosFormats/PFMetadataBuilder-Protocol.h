@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSString, NSTimeZone;
+@class NSArray, NSDate, NSString, NSTimeZone;
 
 @protocol PFMetadataBuilder
-- (void)eOverlapCheckTopForTimeRect:(NSArray *)arg1;
+- (NSTimeZone *)_TtCO10Accelerate4BNNS14ReductionLayer;
+- (NSDate *);
+- (NSArray *);
+- (void)timeOverlapCheckTopForTimeRect:(NSArray *)arg1;
 - (void)Ö@qÖãvä?í¦Ðâ«@è?Mâ·ÀÎ§?V]}m2¶?Ù?R¸ëÑ@Ù?ClgÀÉ?òÒMbXÙ?A`åÐ"Ó?bX9´Èâ?333333@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(copy, nonatomic) NSString *caption;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSTimeZone *creationTimeZone;
-@property(copy, nonatomic) NSArray *keywords;
-@property(copy, nonatomic) CLLocation *location;
-@property(copy, nonatomic) NSArray *peopleNames;
 @property(copy, nonatomic) NSString *title;
 @end
 

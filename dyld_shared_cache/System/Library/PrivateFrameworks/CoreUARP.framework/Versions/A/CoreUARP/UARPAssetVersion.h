@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UARPAssetVersion
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _releaseVersion;
-    unsigned long long _buildVersion;
 }
 
 + (_Bool);
@@ -19,10 +14,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)F;
 - (id);
 - (id);
-- (id);
+- (id)_TtC18AppleMediaServices27FailingMockAuthenticateTask;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,12 +29,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly) _Bool isValid;
 @property(readonly) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly) unsigned long long releaseVersion; // @synthesize releaseVersion=_releaseVersion;
-@property(readonly) NSString *versionString;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.PuzzleTagConverter
 {
     id openingTag;
-    id $__lazy_storage_$_tagEscapingMappings;
-    id $__lazy_storage_$_tagTranslationMappings;
-    id $__lazy_storage_$_tagDecodingMappings;
 }
 
 @end

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, NSTitlebarAccessoryViewController, NSWindow, PopupWindowUnifiedField, PopupWindowUnifiedFieldViewController;
+@class BrowserViewController, PopupWindowUnifiedField;
 
 __attribute__((visibility("hidden")))
 @interface FullscreenUnifiedFieldWindowController
 {
     BrowserViewController *_browserViewController;
-    PopupWindowUnifiedFieldViewController *_unifiedFieldViewController;
-    NSTitlebarAccessoryViewController *_titlebarBottomSeparatorViewController;
-    NSWindow *_window;
-    PopupWindowUnifiedField *_unifiedField;
 }
 
-- (id);
+- (id)`";
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Z;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (void);
 - (void)¸;
@@ -67,13 +63,6 @@ __attribute__((visibility("hidden")))
 - (void)/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PopupWindowUnifiedField *unifiedField; // @synthesize unifiedField=_unifiedField;
 
 @end

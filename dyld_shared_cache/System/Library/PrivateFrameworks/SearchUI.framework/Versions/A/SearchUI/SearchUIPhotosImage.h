@@ -11,16 +11,15 @@
 @interface SearchUIPhotosImage : SearchUIImage
 {
     PHAsset *_asset;
-    struct CGSize _pixelSize;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)ureResponseHandler;
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain) PHAsset *asset; // @synthesize asset=_asset;
-@property struct CGSize pixelSize; // @synthesize pixelSize=_pixelSize;
 
 @end
 

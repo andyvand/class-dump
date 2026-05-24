@@ -5,5 +5,6 @@
 //
 
 @protocol ISyncAlertCallback
+- (oneway void);
 @end
 

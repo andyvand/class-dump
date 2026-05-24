@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)c;
+- (_Bool)L;
 - (void);
 - (id);
 - (id);

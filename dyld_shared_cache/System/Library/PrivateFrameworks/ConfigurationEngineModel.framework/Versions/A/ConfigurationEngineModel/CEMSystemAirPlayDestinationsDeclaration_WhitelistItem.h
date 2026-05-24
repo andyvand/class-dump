@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)rules;
+- (id)�;
+- (void)0;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadDeviceID; // @synthesize payloadDeviceID=_payloadDeviceID;

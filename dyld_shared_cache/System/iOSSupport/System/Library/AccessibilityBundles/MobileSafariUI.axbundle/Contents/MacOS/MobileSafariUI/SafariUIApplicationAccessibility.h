@@ -10,14 +10,15 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemElementImageKey;
 + (id);
 + (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)�
+,mX� ;
 - (id);
 - (_Bool);
 - (_Bool);

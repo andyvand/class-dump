@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class NSString;
 
 @interface _SFPBProduct
 {
     _Bool _buyable;
-    NSString *_identifier;
-    NSString *_productIdentifier;
-    _SFPBURL *_availabilityURL;
-    NSString *_displayName;
 }
 
 - (void);
@@ -29,27 +25,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)prepareForServicePreflightCheck:(id)arg1;
+- (id)ublic}@, error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)tion"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *availabilityURL; // @synthesize availabilityURL=_availabilityURL;
-@property(nonatomic) _Bool buyable; // @synthesize buyable=_buyable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

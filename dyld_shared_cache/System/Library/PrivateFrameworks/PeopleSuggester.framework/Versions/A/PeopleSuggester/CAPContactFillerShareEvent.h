@@ -4,37 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPContactFillerUserEvent, NSMutableArray;
+@class NSMutableArray;
 
 @interface CAPContactFillerShareEvent
 {
     NSMutableArray *_contactEvents;
-    CAPContactFillerUserEvent *_userEvent;
 }
 
-+ (Class);
++ (Class);
+- (id)_didConnectionTimeOut;
+- (void)_cpuRealTimeFactor;
+- (void);
+- (unsigned long long)!	;
+- (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)JA;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)*J
+;
 - (id);
-- (id);
+- (id)h
+;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *contactEvents; // @synthesize contactEvents=_contactEvents;
-@property(retain, nonatomic) CAPContactFillerUserEvent *userEvent; // @synthesize userEvent=_userEvent;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMReminder;
+@class REMReminder;
 
 @interface REMReminderAttachmentContext
 {
@@ -23,11 +23,7 @@
 - (id)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) NSArray *fileAttachments;
-@property(readonly, nonatomic) NSArray *imageAttachments;
 @property(retain, nonatomic) REMReminder *reminder; // @synthesize reminder=_reminder;
-@property(readonly, nonatomic) NSArray *urlAttachments;
 
 @end
 

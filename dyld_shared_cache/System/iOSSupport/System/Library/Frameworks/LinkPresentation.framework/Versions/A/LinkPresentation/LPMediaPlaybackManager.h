@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)Ô ;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)textReplyBalloonCornerRadius;
+- (_Bool)textRangeToRestore;
+- (void)textDrawEmitterLayers;
+- (void)textDraggableView:(id)arg1 willAnimateLiftWithAnimator:(_Bool)arg2 session: /* Error: Ran out of types for this method. */;
+- (void)startTimerIfNeeded;
+- (void)splitViewControllerSupportedInterfaceOrientations:(id)arg1;
+- (id)shareBeacon;
 - (void)á÷!GùQð1Â0@ù
 × ;
 

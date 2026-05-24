@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CRKIDSMessageOptions
 {
     _Bool _fireAndForget;
-    NSNumber *_deliveryTimeout;
 }
 
 + (_Bool);
@@ -17,14 +14,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)s;
+- (id)v;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *deliveryTimeout; // @synthesize deliveryTimeout=_deliveryTimeout;
 @property(nonatomic, getter=shouldFireAndForget) _Bool fireAndForget; // @synthesize fireAndForget=_fireAndForget;
 
 @end

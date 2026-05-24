@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)Ac;
 - (long long);
 - (void)1Â0@ù
 × ;

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_os_log;
+
 @protocol EFLoggable
++ (NSObject<OS_os_log> *);
 @end
 

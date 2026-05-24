@@ -13,7 +13,7 @@
     NSArray *_accounts;
 }
 
-+ (id);
++ (id)q ;
 - (id);
 - (id);
 - (void);

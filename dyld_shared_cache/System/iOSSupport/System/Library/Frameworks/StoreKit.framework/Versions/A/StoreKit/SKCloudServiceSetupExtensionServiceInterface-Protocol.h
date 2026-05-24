@@ -5,5 +5,8 @@
 //
 
 @protocol SKCloudServiceSetupExtensionServiceInterface
+- (void)= 1, download_attempts = 0, schedule_from = ;
+- (void)tamp = NULL, modified_at = ;
+- (void)url = ;
 @end
 

@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPower;
-
 @interface _INPBCarChargingConnectorPower
 {
     struct {
         unsigned int chargingConnector:1;
     } _has;
-    int _chargingConnector;
-    _INPBPower *_maximumPower;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (_Bool);
 - (id);
 - (int);
 - (int);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)d to stat %s :%s /* Error: Ran out of types for this method. */;
+- (_Bool)Contents/MacOS/UniversalAccessCore;
+- (id)rvice"24@"NSError"32;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)r">40;
+- (void)blic}@);
 - (id);
-- (id);
-- (void)tsIntentResponse;
+- (id);
+- (void)GetAvailableRestaurantReservationBookingDefaultsIntentResponse;
 
 // Remaining properties
 @property(nonatomic) int chargingConnector; // @synthesize chargingConnector=_chargingConnector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasChargingConnector;
-@property(readonly, nonatomic) _Bool hasMaximumPower;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBPower *maximumPower; // @synthesize maximumPower=_maximumPower;
-@property(readonly) Class superclass;
 
 @end
 

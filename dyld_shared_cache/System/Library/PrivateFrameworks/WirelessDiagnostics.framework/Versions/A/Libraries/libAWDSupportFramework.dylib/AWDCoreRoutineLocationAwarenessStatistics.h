@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineLocationAwarenessBasicHistogram;
-
 @interface AWDCoreRoutineLocationAwarenessStatistics
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestCount;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestInterrupted;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestTimeoutWithCoarseLocation;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestTimeoutWithLocationServiceDisabled;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestTimeoutWithLocationServiceEnabledRoutineDisabled;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestTimeoutWithLocationServiceEnabledRoutineEnabledWifiOff;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_activeRequestTimeoutWithOtherReasons;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_skippedRequestDueToRecentFix;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_skippedRequestDueToStationary;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_timerFiringCount;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_timerFiringDelayedCount;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_timerFiringDelayedMaxSeconds;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_timerFiringDelayedTotalSeconds;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_validLocationCount;
-    CDStruct_9b5766a4 _has;
 }
 
 @end

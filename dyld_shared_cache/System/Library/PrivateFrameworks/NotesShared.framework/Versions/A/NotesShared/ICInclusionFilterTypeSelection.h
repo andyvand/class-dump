@@ -9,7 +9,6 @@
 @interface ICInclusionFilterTypeSelection : ICFilterTypeSelection
 {
     unsigned long long _hash;
-    unsigned long long _inclusionType;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)";
 - (id);
 
 // Remaining properties

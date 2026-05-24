@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMetadataItemValueRequest, NSError, NSMutableArray, NSObject, NSString;
-@protocol NSObject><NSCopying, OS_dispatch_queue;
+@protocol NSObject><NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface AVLazyValueLoadingMetadataItemInternal
 {
     id <NSObject><NSCopying> value;
-    NSString *dataType;
-    AVMetadataItemValueRequest *valueRequest;
-    CDUnknownBlockType valueLoadingHandler;
-    long long valueStatus;
-    NSError *valueLoadingError;
-    NSMutableArray *loadingCompletionHandlers;
-    NSObject<OS_dispatch_queue> *readWriteQueue;
 }
 
 @end

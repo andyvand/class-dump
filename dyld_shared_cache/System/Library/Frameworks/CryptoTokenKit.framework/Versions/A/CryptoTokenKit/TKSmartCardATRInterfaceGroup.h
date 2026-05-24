@@ -9,23 +9,19 @@
 @interface TKSmartCardATRInterfaceGroup
 {
     NSNumber *_ABC[3];
-    NSNumber *_protocol;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)with %@;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *TA;
-@property(readonly, nonatomic) NSNumber *TB;
-@property(readonly, nonatomic) NSNumber *TC;
-@property(readonly, nonatomic) NSNumber *protocol; // @synthesize protocol=_protocol;
 
 @end
 

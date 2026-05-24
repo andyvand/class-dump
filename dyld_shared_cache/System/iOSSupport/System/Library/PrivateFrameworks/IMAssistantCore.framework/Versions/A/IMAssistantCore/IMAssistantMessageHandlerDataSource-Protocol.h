@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache;
-@protocol IMAssistantAccountDataSource, IMAssistantChatDataSource, IMAssistantCommSafetyManager, IMAssistantContactsDataSource, IMAssistantCoreTelephonySubscriptionsDataSource, IMAssistantFileManager, IMFileTransferCenter, IMLocationManager;
+@protocol IMAssistantChatDataSource, IMAssistantContactsDataSource, IMAssistantCoreTelephonySubscriptionsDataSource;
 
 @protocol IMAssistantMessageHandlerDataSource
+- (_Bool)#;
+- (id <IMAssistantCoreTelephonySubscriptionsDataSource>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMAssistantAccountDataSource> accountDataSource;
 @property(readonly, nonatomic) id <IMAssistantChatDataSource> chatDataSource;
-@property(readonly, nonatomic) id <IMAssistantCommSafetyManager> commSafetyDataSource;
-@property(readonly, nonatomic) NSCache *contactIdentifierToUnifiedContactIdentifierCache;
 @property(readonly, nonatomic) id <IMAssistantContactsDataSource> contactsDataSource;
-@property(readonly, nonatomic) id <IMAssistantCoreTelephonySubscriptionsDataSource> coreTelephonySubscriptionsDataSource;
-@property(readonly, nonatomic) id <IMAssistantFileManager> fileManagerDataSource;
-@property(readonly, nonatomic) id <IMFileTransferCenter> fileTransferCenterDataSource;
-@property(readonly, nonatomic) NSCache *handleToContactIdentifierCache;
-@property(readonly, nonatomic) _Bool isInternationalSpamFilteringEnabled;
-@property(readonly, nonatomic) id <IMLocationManager> locationManagerDataSource;
-@property(readonly, nonatomic) NSCache *spiHandleToPersonCache;
 @end
 

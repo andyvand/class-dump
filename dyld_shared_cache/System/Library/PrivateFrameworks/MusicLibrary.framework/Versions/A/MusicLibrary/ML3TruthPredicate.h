@@ -14,15 +14,15 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)_abortWithRebuildReasonPLRebuildReasonPathCorruption;
+- (_Bool)_abortWithRebuildReasonPLRebuildReasonLightweightMigration;
+- (id)onManager",R;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)r;
+- (void)localeIdentifier;
 
 @end
 

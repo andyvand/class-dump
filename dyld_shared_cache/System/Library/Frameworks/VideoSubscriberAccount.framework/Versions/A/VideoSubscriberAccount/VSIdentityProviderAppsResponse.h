@@ -10,25 +10,23 @@ __attribute__((visibility("hidden")))
 @interface VSIdentityProviderAppsResponse
 {
     NSArray *_providerAppAdamIDs;
-    NSArray *_channelMappings;
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)qA;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_performFetchAfterNextSave;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *channelMappings; // @synthesize channelMappings=_channelMappings;
 @property(copy, nonatomic) NSArray *providerAppAdamIDs; // @synthesize providerAppAdamIDs=_providerAppAdamIDs;
 
 @end

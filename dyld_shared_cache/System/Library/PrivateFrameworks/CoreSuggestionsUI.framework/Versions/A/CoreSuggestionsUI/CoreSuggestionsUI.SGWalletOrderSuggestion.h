@@ -9,13 +9,6 @@
 @interface CoreSuggestionsUI.SGWalletOrderSuggestion
 {
     void suggestionDelegate;
-    id state;
-    id orderHelpers;
-    id orderBundleURL;
-    id orderDictionary;
-    id logger;
-    id realtimeOrderSuggestion;
-    id bannerForVisionDevice;
 }
 
 - (long long);

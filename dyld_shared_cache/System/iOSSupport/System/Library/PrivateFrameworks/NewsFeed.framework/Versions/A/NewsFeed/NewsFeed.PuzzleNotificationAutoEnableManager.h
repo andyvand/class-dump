@@ -7,10 +7,6 @@
 @interface NewsFeed.PuzzleNotificationAutoEnableManager
 {
     id puzzleHistoryService;
-    id appConfigurationManager;
-    id bundleSubscriptionManager;
-    id notificationController;
-    id userInfo;
 }
 
 @end

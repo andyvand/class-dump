@@ -11,7 +11,7 @@
 
 + (id);
 - (void);
-- (id)ailBiometry:(CDUnknownBlockType)arg1 allowingPasscodeFallback: /* Error: Ran out of types for this method. */;
+- (id)confirmButtonSubPaneDidFailBiometry:(CDUnknownBlockType)arg1 allowingPasscodeFallback: /* Error: Ran out of types for this method. */;
 
 @end
 

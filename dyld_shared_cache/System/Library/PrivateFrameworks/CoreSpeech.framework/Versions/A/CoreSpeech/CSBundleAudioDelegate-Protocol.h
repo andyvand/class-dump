@@ -5,5 +5,8 @@
 //
 
 @protocol CSBundleAudioDelegate
+
+@optional
+- (void);
 @end
 

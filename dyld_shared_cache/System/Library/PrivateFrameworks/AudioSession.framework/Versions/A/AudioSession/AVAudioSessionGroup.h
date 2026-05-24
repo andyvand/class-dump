@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AVAudioSessionGroup
 {
 }
 
-- (void);
+- (void)AndMNCs;
 - (unsigned long long);
 - (id);
 - (void);
@@ -19,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long behaviors;
-@property(retain, nonatomic) NSArray *sessions;
 
 @end
 

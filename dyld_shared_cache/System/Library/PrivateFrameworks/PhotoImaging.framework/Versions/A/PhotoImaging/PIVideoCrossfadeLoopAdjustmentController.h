@@ -21,14 +21,12 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
-- (CDStruct_e83c9415);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_5c5366e1);
+- (CDStruct_1b6d18a9)edgesOfType:betweenNodes:andNodes:matchingFilter: /* Error: Ran out of types for this method. */;
+- (void)�>;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 crossfadeDuration;
-@property(nonatomic) CDStruct_e83c9415 loopTimeRange;
-@property(nonatomic) CDStruct_1b6d18a9 startTime;
 
 @end
 

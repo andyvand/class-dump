@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPopoverPresentationController;
+@class UIPopoverPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface _UIModernPopoverAnimationController
@@ -15,24 +15,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
+- (_Bool)2C36;
+- (struct CGPoint)etry of moment share fetch after %{public}@ seconds;
+- (struct CGPoint)no peer devices %@, or this message had emergency number(s) %lu, or this was a critical message (%@) and we are not the default app (%@):(unsigned long long)arg1 not relaying message;
 - (void);
 - (double);
-- (void)restingTouchRangeForCurrentTouchLocation;
+- (void)_restingTouchRangeForCurrentTouchLocation;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIPopoverPresentationController *popoverPresentationController; // @synthesize popoverPresentationController=_popoverPresentationController;
 @property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;
-@property(readonly) Class superclass;
 
 @end
 

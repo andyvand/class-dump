@@ -6,12 +6,11 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _MPMediaSearchStringPredicate : MPMediaPredicate
 {
     NSString *_searchString;
-    NSSet *_properties;
 }
 
 + (id);
@@ -19,26 +18,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ƞn;
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (void)ActivePlayerItem;
+- (_Bool)captureSession;
+- (void)A;
+- (void)_willResignActivePlayerItem;
 - (void);
 - (id)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *properties; // @synthesize properties=_properties;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

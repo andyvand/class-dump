@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBRFAppIconImage
+- (void);
+- (id)`;
+- (void)_verboseSmartDescriptionUserEdited;
+- (NSData *)V_delegate;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *application_bundle_identifier;
-@property(nonatomic) int fallback;
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

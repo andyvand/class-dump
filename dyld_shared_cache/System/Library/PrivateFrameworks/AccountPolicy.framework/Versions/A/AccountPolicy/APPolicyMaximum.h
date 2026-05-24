@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(copy) NSNumber *maximum; // @synthesize maximum=_maximum;

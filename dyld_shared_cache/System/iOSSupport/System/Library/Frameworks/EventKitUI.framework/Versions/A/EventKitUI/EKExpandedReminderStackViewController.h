@@ -4,48 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, REMStore, UICollectionView, UICollectionViewDiffableDataSource, UIVisualEffectView;
-@protocol EKExpandedReminderStackViewControllerDelegate, UIViewControllerContextTransitioning;
+@class UIVisualEffectView;
+@protocol EKExpandedReminderStackViewControllerDelegate;
 
 @interface EKExpandedReminderStackViewController
 {
     id <EKExpandedReminderStackViewControllerDelegate> _delegate;
-    NSArray *_events;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_dataSource;
-    _Bool _presentingTransitionCancelled;
-    id <UIViewControllerContextTransitioning> _transitionContext;
-    REMStore *_reminderStore;
-    _Bool _preferModalPresentation;
-    UIVisualEffectView *_visualEffectView;
 }
 
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)s;
+- (void)ؑ&s;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)s;
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)s;
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (void)s;
 - (void);
+- (void);
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (id)z;
 - (double);
 - (void);
 - (id);
@@ -55,31 +47,11 @@
 - (id);
 - (void);
 - (void);
-- (void)iptionSpamDelegate: /* Error: Ran out of types for this method. */;
+- (void)setSubscriptionSpamDelegate: /* Error: Ran out of types for this method. */;
 - (void)÷;
 
 // Remaining properties
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preferModalPresentation; // @synthesize preferModalPresentation=_preferModalPresentation;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

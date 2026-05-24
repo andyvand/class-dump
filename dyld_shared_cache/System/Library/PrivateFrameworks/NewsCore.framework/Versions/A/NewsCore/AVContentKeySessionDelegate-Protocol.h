@@ -5,5 +5,8 @@
 //
 
 @protocol AVContentKeySessionDelegate
+
+@optional
+- (_Bool);
 @end
 

@@ -6,32 +6,27 @@
 
 #import <UIKitCore/_UILegibilityView.h>
 
-@class NSString, UIFont;
+@class NSString;
 
 @interface _UILegibilityLabel : _UILegibilityView
 {
     _Bool _usesSecondaryColor;
-    NSString *_string;
-    UIFont *_font;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)setSpamDetectedMessage:(id)arg1;
+- (id)setSourceLocaleIdentifier:(id)arg1;
+- (void)0;
 - (struct CGSize);
 - (id);
-- (void)ultCountUpdate;
+- (void)_setNeedsResultCountUpdate;
 - (id)¸Z;
 - (void)nternalUserInfo:(id)arg1 %@;
 - (double)copeTitles=%lu scopeBar=%p;
 - (void)_;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineOffset;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) _Bool usesSecondaryColor; // @synthesize usesSecondaryColor=_usesSecondaryColor;
 
 @end
 

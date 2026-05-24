@@ -5,5 +5,8 @@
 //
 
 @protocol SCDADelegate
+
+@optional
+- (void);
 @end
 

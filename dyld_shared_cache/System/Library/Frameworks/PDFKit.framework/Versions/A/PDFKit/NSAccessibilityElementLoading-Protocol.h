@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSAccessibilityElement;
+
 @protocol NSAccessibilityElementLoading
+- (id <NSAccessibilityElement>)kCharacteristicThresholdRangeEventThresholdRangeMin;
+
+@optional
+- (struct _NSRange)HMCameraStreamAudioVolumeSettingMessageKey;
 @end
 

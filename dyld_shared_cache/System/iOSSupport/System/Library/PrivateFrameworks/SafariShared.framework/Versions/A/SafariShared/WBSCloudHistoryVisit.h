@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, WBSHistoryVisitIdentifier;
+@class NSDictionary;
 
 @interface WBSCloudHistoryVisit
 {
     _Bool _loadSuccessful;
-    _Bool _httpNonGet;
-    WBSHistoryVisitIdentifier *_visitIdentifier;
-    NSString *_title;
-    WBSHistoryVisitIdentifier *_redirectSourceVisitIdentifier;
-    WBSCloudHistoryVisit *_redirectSourceVisit;
-    WBSHistoryVisitIdentifier *_redirectDestinationVisitIdentifier;
-    WBSCloudHistoryVisit *_redirectDestinationVisit;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)9Ew;
 - (void);
 - (void);
 - (void);
@@ -35,7 +28,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Concurrency.dylib;
 - (void);
 - (void);
 - (id);
@@ -45,14 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic, getter=wasHTTPNonGet) _Bool httpNonGet; // @synthesize httpNonGet=_httpNonGet;
-@property(nonatomic, getter=loadWasSuccessful) _Bool loadSuccessful; // @synthesize loadSuccessful=_loadSuccessful;
-@property(nonatomic) __weak WBSCloudHistoryVisit *redirectDestinationVisit; // @synthesize redirectDestinationVisit=_redirectDestinationVisit;
-@property(copy, nonatomic) WBSHistoryVisitIdentifier *redirectDestinationVisitIdentifier; // @synthesize redirectDestinationVisitIdentifier=_redirectDestinationVisitIdentifier;
-@property(nonatomic) __weak WBSCloudHistoryVisit *redirectSourceVisit; // @synthesize redirectSourceVisit=_redirectSourceVisit;
-@property(copy, nonatomic) WBSHistoryVisitIdentifier *redirectSourceVisitIdentifier; // @synthesize redirectSourceVisitIdentifier=_redirectSourceVisitIdentifier;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) WBSHistoryVisitIdentifier *visitIdentifier; // @synthesize visitIdentifier=_visitIdentifier;
 
 @end
 

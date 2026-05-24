@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)hasValidDowngradeRequestForHandleID:(struct CGRect)arg1;
+- (id)hasStoredMessageWithGUID:(struct CGRect)arg1;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool)tHighlightView;
+- (id)not created for %@;
+- (_Bool)Tell all my clients that message with GUID %@ has been read;
+- (_Bool)elaying emergency SMS;
+- (unsigned long long)ership for URL:(id)arg1 %@;
+- (_Bool)textHighlightView;
 
 // Remaining properties
 @property(nonatomic) unsigned long long speedBumpEdges; // @synthesize speedBumpEdges=_speedBumpEdges;

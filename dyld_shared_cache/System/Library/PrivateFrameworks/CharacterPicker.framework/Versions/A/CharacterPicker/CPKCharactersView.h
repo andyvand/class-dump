@@ -4,109 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKCalculatedGeometry, CPKCharactersSectionView, CPKCharactersTableView, CPKHorizontalPopupMenu, CPKSearchField, NSButton, NSDictionary, NSLayoutConstraint, NSMutableDictionary, NSOperationQueue, NSScrollView, NSString, NSTextField, NSView;
-@protocol CPKCharactersViewDataSource, CPKCharactersViewDelegate;
+@class CPKCharactersTableView, NSMutableDictionary;
 
 @interface CPKCharactersView
 {
     CPKCharactersTableView *_tableView;
-    NSScrollView *_scrollView;
-    _Bool _showSectionHeader;
-    _Bool _readyForLayout;
-    _Bool _layoutDone;
-    long long _sectionCount;
-    double *_sectionHeights;
-    long long _accessoryViewCount;
-    NSOperationQueue *_fontFallbackQueue;
-    NSTextField *_messageField;
-    double _topPosOnRestoreState;
-    long long _topSectionOnResize;
-    long long _topIndexOnResize;
-    long long _topSectionOnScroll;
-    NSDictionary *_restoringState;
-    NSView *_verticalLabelView;
-    NSView *_horizontalLabelView;
-    _Bool _inactive;
-    _Bool _doubleClickToConfirm;
-    _Bool _drawMissingGlyphs;
-    _Bool _createdForPopover;
-    _Bool _inDetachedPopover;
-    _Bool _isDisplayingSearch;
-    _Bool _inhibitDrags;
-    _Bool _supportsEmojiGeneration;
-    _Bool _hasNavigationFocus;
-    _Bool _isRTLLayout;
-    _Bool _waitingForConfirm;
-    _Bool _blockingDataReset;
-    _Bool _lastMouseOnData;
-    id <CPKCharactersViewDelegate> _delegate;
-    id <CPKCharactersViewDelegate> _fallbackDelegate;
-    id <CPKCharactersViewDataSource> _dataSource;
-    id <CPKCharactersViewDataSource> _nextDataSource;
-    double _fontSize;
-    long long _selectedSection;
-    long long _selectedIndex;
-    NSString *_createNewEmojiMessage;
-    NSView *_topAccessoryView;
-    CPKSearchField *_associatedSearchField;
-    id _axLinkedObjectForCharacter;
-    NSMutableDictionary *_sectionFonts;
-    NSButton *_createEmojiButton;
-    NSLayoutConstraint *_messageYConstraint;
-    CPKCharactersSectionView *_stickersSection;
-    CPKCharactersSectionView *_recentsSection;
-    CPKCalculatedGeometry *_geometryInfo;
-    CPKHorizontalPopupMenu *_skinToneVariantsPopupMenu;
-    unsigned long long _dataGeneration;
-    NSString *_uniqueID;
-    struct CGSize _margin;
-    struct NSEdgeInsets _contentInsets;
 }
 
+- (_Bool);
+- (Class);
+- (void);
+- (id)v;
 - (_Bool);
-- (Class);
-- (void);
-- (id);
+- (void)$;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)(	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)h
+;
+- (void);
+- (void)44;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)km;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (void)T	;
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
+- (id)R;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)Ta;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -119,9 +68,9 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)/;
+- (id)-;
+- (id)B;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -129,7 +78,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
 - (id);
 - (void);
@@ -140,17 +89,18 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)5;
 - (id);
-- (id);
-- (id);
+- (id)h
+;
 - (_Bool);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (double);
@@ -185,7 +135,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (id);
@@ -202,60 +152,15 @@
 - (id);
 - (id);
 - (double);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ont;
-- (struct CGSize)th;
+- (void)isEmojiFont;
+- (struct CGSize)expandedCategoryButtonWidth;
 
 // Remaining properties
-@property(retain, nonatomic) CPKSearchField *associatedSearchField; // @synthesize associatedSearchField=_associatedSearchField;
-@property id axLinkedObjectForCharacter; // @synthesize axLinkedObjectForCharacter=_axLinkedObjectForCharacter;
-@property _Bool blockingDataReset; // @synthesize blockingDataReset=_blockingDataReset;
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(retain, nonatomic) NSButton *createEmojiButton; // @synthesize createEmojiButton=_createEmojiButton;
-@property(retain, nonatomic) NSString *createNewEmojiMessage; // @synthesize createNewEmojiMessage=_createNewEmojiMessage;
-@property(nonatomic) _Bool createdForPopover; // @synthesize createdForPopover=_createdForPopover;
-@property(readonly, nonatomic) struct CGPoint currentScrollPosition;
-@property unsigned long long dataGeneration; // @synthesize dataGeneration=_dataGeneration;
-@property(readonly) __weak id <CPKCharactersViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CPKCharactersViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool doubleClickToConfirm; // @synthesize doubleClickToConfirm=_doubleClickToConfirm;
-@property(nonatomic) _Bool drawMissingGlyphs; // @synthesize drawMissingGlyphs=_drawMissingGlyphs;
-@property __weak id <CPKCharactersViewDelegate> fallbackDelegate; // @synthesize fallbackDelegate=_fallbackDelegate;
-@property double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) CPKCalculatedGeometry *geometryInfo; // @synthesize geometryInfo=_geometryInfo;
-@property _Bool hasNavigationFocus; // @synthesize hasNavigationFocus=_hasNavigationFocus;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inDetachedPopover; // @synthesize inDetachedPopover=_inDetachedPopover;
-@property(nonatomic) _Bool inactive; // @synthesize inactive=_inactive;
-@property(nonatomic) _Bool inhibitDrags; // @synthesize inhibitDrags=_inhibitDrags;
-@property(nonatomic) _Bool isDisplayingSearch; // @synthesize isDisplayingSearch=_isDisplayingSearch;
-@property _Bool isRTLLayout; // @synthesize isRTLLayout=_isRTLLayout;
-@property _Bool lastMouseOnData; // @synthesize lastMouseOnData=_lastMouseOnData;
-@property struct CGSize margin; // @synthesize margin=_margin;
-@property(retain) NSString *message; // @dynamic message;
-@property(retain, nonatomic) NSLayoutConstraint *messageYConstraint; // @synthesize messageYConstraint=_messageYConstraint;
-@property __weak id <CPKCharactersViewDataSource> nextDataSource; // @synthesize nextDataSource=_nextDataSource;
-@property(retain, nonatomic) CPKCharactersSectionView *recentsSection; // @synthesize recentsSection=_recentsSection;
 @property(readonly) NSMutableDictionary *sectionFonts; // @synthesize sectionFonts=_sectionFonts;
-@property(readonly) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) long long selectedSection; // @synthesize selectedSection=_selectedSection;
-@property(retain) CPKHorizontalPopupMenu *skinToneVariantsPopupMenu; // @synthesize skinToneVariantsPopupMenu=_skinToneVariantsPopupMenu;
-@property(readonly, nonatomic) _Bool skintonePopupOpened;
-@property(retain) NSDictionary *state; // @dynamic state;
-@property(retain, nonatomic) CPKCharactersSectionView *stickersSection; // @synthesize stickersSection=_stickersSection;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsEmojiGeneration; // @synthesize supportsEmojiGeneration=_supportsEmojiGeneration;
-@property(retain) NSView *topAccessoryView; // @synthesize topAccessoryView=_topAccessoryView;
-@property(copy) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property _Bool waitingForConfirm; // @synthesize waitingForConfirm=_waitingForConfirm;
 
 @end
 

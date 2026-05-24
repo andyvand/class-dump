@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TLoadingViewController : FI_TViewController
 {
     _Bool _hasVerticalScroller;
-    long long _verticalScrollElasticity;
-    _Bool _hasHorizontalScroller;
-    long long _horizontalScrollElasticity;
 }
 
 - (void);

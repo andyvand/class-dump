@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, TDElementProduction, TDRenditionKeySpec, TDRenditionType;
+@class NSDate;
 
 @interface TDRenditionSpec
 {
@@ -14,31 +14,17 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)low.
+;
+- (id)SGMEventExtractionTypeTemplate;
 
 // Remaining properties
-@property(nonatomic) _Bool alphaCrop; // @dynamic alphaCrop;
 @property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(nonatomic) int height; // @dynamic height;
-@property(retain, nonatomic) TDRenditionKeySpec *keySpec; // @dynamic keySpec;
-@property(nonatomic) _Bool monochrome; // @dynamic monochrome;
-@property(nonatomic) _Bool opaque; // @dynamic opaque;
-@property(nonatomic) struct CGPoint packedPoint;
-@property(nonatomic) int packedPointX; // @dynamic packedPointX;
-@property(nonatomic) int packedPointY; // @dynamic packedPointY;
-@property(retain, nonatomic) NSSet *packedRenditions; // @dynamic packedRenditions;
-@property(retain, nonatomic) TDRenditionSpec *parentRendition; // @dynamic parentRendition;
-@property(nonatomic) _Bool preserveForArchiveOnly; // @dynamic preserveForArchiveOnly;
-@property(retain, nonatomic) TDElementProduction *production; // @dynamic production;
-@property(retain, nonatomic) NSSet *properties; // @dynamic properties;
-@property(retain, nonatomic) TDRenditionType *renditionType; // @dynamic renditionType;
-@property(nonatomic) int width; // @dynamic width;
 
 @end
 

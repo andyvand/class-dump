@@ -7,21 +7,19 @@
 @interface RBFill
 {
     struct RBFillData _data;
-    struct InlineHeap<64UL> _heap;
-    float _headroom;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)v32@0:(struct CGPoint)arg1 8@"IDSGroupSession"16@"NSError"24;
+- (void)_installArraySupport;
 - (void);
+- (void)EWSSyncFolderItemsChangesType;
+- (void)FreeBusyViewType;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mTopDistanceFromTextOverridden;
+- (void)mHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/compatibility/Common/Utilities/TCFontUtils.mm;
 - (void);
 - (void);
 - (void);
@@ -32,13 +30,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ete messaging terms with semicolons. Error:(struct CGPoint)arg1 %@;
+- (void)k;
 - (void);
 - (float);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

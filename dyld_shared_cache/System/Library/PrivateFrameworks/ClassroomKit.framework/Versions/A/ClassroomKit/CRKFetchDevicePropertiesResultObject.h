@@ -9,22 +9,20 @@
 @interface CRKFetchDevicePropertiesResultObject
 {
     NSDictionary *_valuesByPropertyKey;
-    NSDictionary *_errorsByPropertyKey;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *errorsByPropertyKey; // @synthesize errorsByPropertyKey=_errorsByPropertyKey;
 @property(copy, nonatomic) NSDictionary *valuesByPropertyKey; // @synthesize valuesByPropertyKey=_valuesByPropertyKey;
 
 @end

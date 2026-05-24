@@ -5,7 +5,7 @@
 //
 
 @protocol _NSDataSourceSnapshot
-- (long long)lor;
+- (long long)redColor;
 - (long long)%d;
 @end
 

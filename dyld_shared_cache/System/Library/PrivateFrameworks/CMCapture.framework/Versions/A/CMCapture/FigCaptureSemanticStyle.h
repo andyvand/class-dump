@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FigCaptureSemanticStyle
 {
     float _toneBias;
-    float _mappedToneBias;
-    float _warmthBias;
-    float _mappedWarmthBias;
-    unsigned long long _hash;
 }
 
 + (id);
@@ -33,18 +27,7 @@
 - (id)ul;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash; // @synthesize hash=_hash;
-@property(readonly, nonatomic, getter=isIdentity) _Bool identity;
-@property(readonly, nonatomic) float mappedToneBias; // @synthesize mappedToneBias=_mappedToneBias;
-@property(readonly, nonatomic) float mappedWarmthBias; // @synthesize mappedWarmthBias=_mappedWarmthBias;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
-@property(readonly, nonatomic) float warmthBias; // @synthesize warmthBias=_warmthBias;
 
 @end
 

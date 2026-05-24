@@ -7,9 +7,6 @@
 @interface IMDPersistence.RecordEncoder
 {
     id record;
-    id entity;
-    id codingPath;
-    id userInfo;
 }
 
 @end

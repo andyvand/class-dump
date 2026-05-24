@@ -7,7 +7,6 @@
 @interface NewsFeed.BundleSubscriptionFeaturePromotionEligibilityProvider
 {
     id bundleSubscriptionManager;
-    id bundleSubscriptionStatus;
 }
 
 @end

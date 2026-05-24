@@ -9,10 +9,9 @@
 @interface PIManualRedEyeAutoCalculator : PIRedEyeAutoCalculator
 {
     struct CGPoint _location;
-    double _touchDiameter;
 }
 
-- (id);
+- (id)+;
 - (void);
 - (id);
 

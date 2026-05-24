@@ -4,76 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _UISimplex
 {
     double *__points;
-    struct {
-        unsigned int metadata:1;
-    } _clean;
-    int __cggetriWorkspaceSize;
-    unsigned long long __dimensions;
-    unsigned long long __pointCount;
-    double *__projection;
-    unsigned long long __missingNormalCount;
-    double *__missingNormals;
-    double *__facetNormals;
-    double *__facetNormalOffsets;
-    double *__incenter;
-    NSArray *__facets;
-    double *__cggetriWorkspace;
-    double *__temp;
 }
 
 + (id)setControlState:animated: /* Error: Ran out of types for this method. */;
-+ (_Bool);
++ (_Bool)UIPrototypingValueTypeInteger;
 - (id);
 - (void);
-- (double *);
+- (double *)$;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (double *);
 - (double *);
 - (double *);
-- (int);
-- (double *);
-- (double *);
-- (const double *);
-- (id);
+- (int)ler;
+- (double *)antiated IMDQuickSwitchController;
+- (double *)ken updated.;
+- (const double *)OL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)tabase full;
 - (double *);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool)lAccessoryManager";
-- (void)dientEnd;
-- (id)iveFlattened;
+- (void)shortArtNoArrowTopGradientEnd;
+- (id)_activeFlattened;
 - (void)to determine transform phase because the hidEvent is nil;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double *_cggetriWorkspace; // @synthesize _cggetriWorkspace=__cggetriWorkspace;
-@property(readonly, nonatomic) int _cggetriWorkspaceSize; // @synthesize _cggetriWorkspaceSize=__cggetriWorkspaceSize;
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) double *_facetNormalOffsets; // @synthesize _facetNormalOffsets=__facetNormalOffsets;
-@property(readonly, nonatomic) double *_facetNormals; // @synthesize _facetNormals=__facetNormals;
-@property(readonly, nonatomic) NSArray *_facets; // @synthesize _facets=__facets;
-@property(readonly, nonatomic) double *_incenter; // @synthesize _incenter=__incenter;
-@property(readonly, nonatomic) unsigned long long _missingNormalCount; // @synthesize _missingNormalCount=__missingNormalCount;
-@property(readonly, nonatomic) double *_missingNormals; // @synthesize _missingNormals=__missingNormals;
-@property(readonly, nonatomic) unsigned long long _pointCount; // @synthesize _pointCount=__pointCount;
-@property(readonly, nonatomic) const double *_points;
 @property(readonly, nonatomic) double *_projection; // @synthesize _projection=__projection;
-@property(readonly, nonatomic) double *_temp; // @synthesize _temp=__temp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

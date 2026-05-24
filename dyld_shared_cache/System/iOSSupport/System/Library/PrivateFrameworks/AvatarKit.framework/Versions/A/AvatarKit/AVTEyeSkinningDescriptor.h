@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VFXMorpher, VFXNode;
+@class VFXMorpher;
 
 __attribute__((visibility("hidden")))
 @interface AVTEyeSkinningDescriptor
 {
     VFXMorpher *_readMorpher;
-    VFXNode *_leftEyeJoint;
-    VFXNode *_rightEyeJoint;
-    long long _leftEyeLookDownTargetIndex;
-    long long _leftEyeLookInTargetIndex;
-    long long _leftEyeLookOutTargetIndex;
-    long long _leftEyeLookUpTargetIndex;
-    long long _rightEyeLookDownTargetIndex;
-    long long _rightEyeLookInTargetIndex;
-    long long _rightEyeLookOutTargetIndex;
-    long long _rightEyeLookUpTargetIndex;
 }
 
 - (void);

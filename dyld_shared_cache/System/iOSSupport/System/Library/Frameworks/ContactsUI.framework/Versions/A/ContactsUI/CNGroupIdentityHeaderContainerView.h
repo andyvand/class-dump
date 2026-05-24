@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     id <CNGroupIdentityHeaderContainerViewwDelegate> _delegate;
 }
 
-- (struct CGSize);
+- (struct CGSize)A9;
 - (struct CGSize);
 - (id);
 - (void);
-- (void)cnui_updateAccountsRefreshControl;
+- (void)_cnui_updateAccountsRefreshControl;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNGroupIdentityHeaderContainerViewwDelegate> delegate; // @synthesize delegate=_delegate;

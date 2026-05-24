@@ -6,19 +6,11 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDDecryptRecordsOperation, NSArray, NSObject, NSString;
-@protocol CKFetchRecordVersionsOperationCallbacks><CKDOperationCallbackProxy, OS_dispatch_group;
+@class CKDDecryptRecordsOperation, NSArray;
 
 @interface CKDFetchRecordVersionsOperation : CKDDatabaseOperation
 {
     CKDDecryptRecordsOperation *_decryptOperation;
-    _Bool _isDeleted;
-    _Bool _shouldFetchAssetContent;
-    CDUnknownBlockType _recordVersionFetchedBlock;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    NSString *_minimumVersionETag;
-    NSObject<OS_dispatch_group> *_fetchVersionsGroup;
 }
 
 - (void);
@@ -28,16 +20,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)dCount;
+- (void)icSiriTestResult success from %u to %u;
 - (_Bool);
-- (void);
+- (void)db;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)] %s (%s:%u)%ld networks waiting for password sync, currently at %ld /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -47,15 +39,7 @@
 - (void)ÈÈÿAÿà³;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchRecordVersionsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchVersionsGroup; // @synthesize fetchVersionsGroup=_fetchVersionsGroup;
-@property(nonatomic) _Bool isDeleted; // @synthesize isDeleted=_isDeleted;
-@property(retain, nonatomic) NSString *minimumVersionETag; // @synthesize minimumVersionETag=_minimumVersionETag;
-@property(readonly, nonatomic) CKDDecryptRecordsOperation *recordDecryptOperation;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(copy, nonatomic) CDUnknownBlockType recordVersionFetchedBlock; // @synthesize recordVersionFetchedBlock=_recordVersionFetchedBlock;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
 
 @end
 

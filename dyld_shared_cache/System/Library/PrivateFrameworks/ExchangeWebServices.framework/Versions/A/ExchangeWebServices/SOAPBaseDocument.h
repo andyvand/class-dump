@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SOAPBaseDocument
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *XMLData;
-@property(readonly, copy, nonatomic) NSString *XMLString;
 
 @end
 

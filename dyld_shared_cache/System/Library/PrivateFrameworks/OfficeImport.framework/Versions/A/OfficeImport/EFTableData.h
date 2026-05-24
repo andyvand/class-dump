@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDReference, EDTable;
-
 __attribute__((visibility("hidden")))
 @interface EFTableData
 {
     struct EFRefTok mRefTok;
-    EDTable *mTable;
-    EDReference *mReference;
-    int mMakeups;
 }
 
 - (const struct EFRefTok *);
@@ -20,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned short *);
 - (void);
 - (id);
-- (id);
+- (id)EWSEmailAddressKeyTypeDefinition;
 - (id)@32;
 
 @end

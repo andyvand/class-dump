@@ -6,13 +6,11 @@
 
 #import <PencilKit/PKPaletteButton.h>
 
-@class NSString, UIBarButtonItem, UIView;
+@class UIBarButtonItem, UIView;
 
 @interface PKPaletteBarButton : PKPaletteButton
 {
     UIBarButtonItem *_barButtonItem;
-    UIView *_customView;
-    CDUnknownBlockType _menuProvider;
 }
 
 + (id);
@@ -21,20 +19,20 @@
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)tailInsetsForBubbleSize: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)willHighlightFoundTextRange:(id)arg1 inDocument: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)ntroller;
-- (void)n;
+- (id)spaceInsertionController;
+- (void)_editMenuInteraction;
 - (void)Ô;
 - (void)ple.PencilKit.GroupQueryStrokeGroupComputation;
-- (void);
+- (void)NStroke;
 - (void)-n;
 - (id);
 - (void)Õ¹);
@@ -42,16 +40,7 @@
 - (void)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;
 @property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType menuProvider; // @synthesize menuProvider=_menuProvider;
-@property(readonly) Class superclass;
 
 @end
 

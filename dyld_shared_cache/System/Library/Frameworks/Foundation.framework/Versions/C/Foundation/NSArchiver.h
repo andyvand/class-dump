@@ -11,18 +11,12 @@
 @interface NSArchiver : NSCoder
 {
     void *mdata;
-    void *pointerTable;
-    void *stringTable;
-    void *ids;
-    void *map;
-    void *replacementTable;
-    void *reserved;
 }
 
 + (void);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (void)ÀÝ#g½e/khé+;
 - (id);
 - (void);
@@ -34,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H	;
 - (id);
 - (void);
 - (void);

@@ -6,32 +6,29 @@
 
 #import <ClassKit/CLSAbstractAsset.h>
 
-@class NSError, NSMutableSet, NSString, NSURL;
-
 @interface CLSAsset : CLSAbstractAsset
 {
     _Bool _uploaded;
-    double _fractionUploaded;
-    _Bool _uploadRequested;
-    NSError *_uploadError;
-    NSMutableSet *_uploadObservers;
-    NSURL *_devModeURL;
-    _Bool _staged;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
++ (_Bool)_cacheLoginResponse:forAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)being skipped due to explicit hint
+;
+- (void)Device Open failed - status=0x%x
+;
+- (id)(possible missing entitlement) - status=0x%x;
+- (void)RROR:(_Bool)arg1 %s:pDevicePriv is NULL
+ /* Error: Ran out of types for this method. */;
+- (void)ound matching service:(double)arg1 ANEDriver
+;
+- (void)ANEServicesDeviceProgramCreate;
+- (void)hreadPriority - thread_policy_set(...,THREAD_EXTENDED_POLICY,...) failed, err=%d
+;
+- (_Bool)dma_src1_read_intra_conflict_count;
+- (void)dma_src1_read_conflict_count;
+- (void)dma_src1_read_intra_conflict_cycle;
+- (void)mputeProgramGetANESegThreadStateArgumentSize(const ident_command *, bool, const ane_seg_thread_state_64 *const, const void *, const void *, uint32_t &);
 - (_Bool);
 - (id);
 - (double);
@@ -50,12 +47,12 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -63,23 +60,7 @@
 - (id)ù;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *devModeURL; // @synthesize devModeURL=_devModeURL;
-@property(nonatomic) long long displayOrder; // @dynamic displayOrder;
-@property(nonatomic) double durationInSeconds; // @dynamic durationInSeconds;
-@property(readonly, nonatomic) NSURL *fileURL;
-@property(nonatomic) double fractionUploaded; // @synthesize fractionUploaded=_fractionUploaded;
 @property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isStaged) _Bool staged; // @synthesize staged=_staged;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *thumbnailURL; // @dynamic thumbnailURL;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
-@property(copy, nonatomic) NSError *uploadError; // @synthesize uploadError=_uploadError;
-@property(nonatomic, getter=isUploaded) _Bool uploaded;
 
 @end
 

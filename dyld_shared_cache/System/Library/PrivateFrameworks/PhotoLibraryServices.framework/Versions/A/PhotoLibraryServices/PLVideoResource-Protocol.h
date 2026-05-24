@@ -5,6 +5,9 @@
 //
 
 @protocol PLVideoResource
+- (id);
+- (id)d, appleID=%@, d=%@, hasT=%d;
+- (id)ȿg;
 - (id)ðA;
 - (id)D = %@);
 @end

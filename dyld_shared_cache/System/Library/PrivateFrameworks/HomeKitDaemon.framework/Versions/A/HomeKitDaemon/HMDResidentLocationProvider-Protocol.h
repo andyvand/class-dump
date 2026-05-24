@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, HMFFuture;
+@class CLLocation;
 
 @protocol HMDResidentLocationProvider
 - (CLLocation *)blic}@Cloud mirroring export is finished;
 
 // Remaining properties
 @property(readonly) CLLocation *location;
-@property(readonly, nonatomic) HMFFuture *locationUpdatedFuture;
 @end
 

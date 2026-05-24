@@ -7,13 +7,6 @@
 @interface PhotosGraph.TimeIndex.MomentData__priv_565861675AA2297C40601097A4F29481
 {
     id uuid;
-    id year;
-    id seasons;
-    id wedgeOfYear;
-    id partsOfWeek;
-    id dayOfYear;
-    id partsOfDay;
-    id timestamp;
 }
 
 @end

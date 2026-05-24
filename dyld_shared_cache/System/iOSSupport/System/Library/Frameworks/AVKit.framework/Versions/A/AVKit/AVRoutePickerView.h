@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCustomRoutingController, AVMicaPackage, AVObservationController, AVOutputContext, AVPlayer, AVRoutingConfiguration, UIButton, UIColor, UIViewPropertyAnimator;
-@protocol AVRoutePickerViewDelegate, AVRoutePickerViewMacHelper;
+@class UIColor;
+@protocol AVRoutePickerViewDelegate;
 
 @interface AVRoutePickerView
 {
     UIColor *_activeTintColor;
-    UIButton *_routePickerButton;
-    UIButton *_customButton;
-    struct CGSize _oldSize;
-    UIViewPropertyAnimator *_buttonHighlightAnimator;
-    AVObservationController *_observationController;
-    AVOutputContext *_outputContext;
-    AVRoutingConfiguration *_routingConfiguration;
-    _Bool _airPlayActive;
-    _Bool _prioritizesVideoDevices;
-    AVMicaPackage *_routePickerButtonMicaPackage;
-    long long _routingMethod;
-    id <AVRoutePickerViewMacHelper> _routePickerViewMacHelper;
-    _Bool _routePickerButtonBordered;
-    id <AVRoutePickerViewDelegate> _delegate;
-    AVPlayer *_player;
-    long long _routePickerButtonStyle;
-    AVCustomRoutingController *_customRoutingController;
 }
 
 + (id);
@@ -40,9 +23,9 @@
 - (void);
 - (void);
 - (void);
+- (void)YgM.hM.;
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (struct CGRect);
 - (_Bool);
 - (id);
@@ -62,7 +45,8 @@
 - (void);
 - (long long);
 - (void);
-- (struct CGSize);
+- (struct CGSize)6
+;
 - (id);
 - (void);
 - (id);
@@ -72,26 +56,20 @@
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (void);
+- (void)interfaceWithProtocol:(id)arg1;
 - (id);
-- (id);
+- (id)modelWeightsFromFloats: /* Error: Ran out of types for this method. */;
+- (void)NGRAM_SIZE;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)URLByResolvingSymlinksInPath;
 - (double);
 - (void)1Â0@ù
 × ;
-- (struct UIEdgeInsets)ty:forAxis: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setContentCompressionResistancePriority:forAxis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *activeTintColor;
-@property(retain, nonatomic) AVCustomRoutingController *customRoutingController; // @synthesize customRoutingController=_customRoutingController;
 @property(nonatomic) __weak id <AVRoutePickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(nonatomic) _Bool prioritizesVideoDevices;
-@property(nonatomic, getter=isRoutePickerButtonBordered) _Bool routePickerButtonBordered; // @synthesize routePickerButtonBordered=_routePickerButtonBordered;
-@property(nonatomic) long long routePickerButtonStyle; // @synthesize routePickerButtonStyle=_routePickerButtonStyle;
 
 @end
 

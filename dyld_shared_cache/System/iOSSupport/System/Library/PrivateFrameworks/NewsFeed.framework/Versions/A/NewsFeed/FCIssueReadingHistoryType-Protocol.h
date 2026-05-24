@@ -7,15 +7,15 @@
 @class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
+- (_Bool)followingDisliked;
+- (_Bool);
+- (NSString *)ArticleAssociatedValues;
+- (_Bool)tion:(NSString *)arg1 ];
 - (_Bool)P;
 - (NSArray *)layeredCoverLayerProviderFactory;
 - (NSDate *)oryTypeP;
-- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

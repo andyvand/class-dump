@@ -6,24 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterHandleFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    CDStruct_7b2c8649 _has;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool)_usinComplexPassphrase;
+- (void);
+- (id)D;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)(;
+- (void)libressl/libressl-2.2/crypto/ocsp/ocsp_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,16 +28,12 @@
 - (id)ñÞÐ1Â0@ù
 × ;
 - (id)B,N,V_hasPgModelInferenceTime;
-- (id)ChannelAssessmentScore: /* Error: Ran out of types for this method. */;
+- (id)setClearChannelAssessmentScore: /* Error: Ran out of types for this method. */;
 - (void)Õ";
 - (int)7';
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

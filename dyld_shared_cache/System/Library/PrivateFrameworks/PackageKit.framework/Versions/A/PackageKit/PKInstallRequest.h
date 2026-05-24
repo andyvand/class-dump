@@ -4,62 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSFileHandle, NSMachPort, NSSet, NSString;
+@class NSArray, NSString;
 
 @interface PKInstallRequest
 {
     NSArray *_packageSpecifiers;
-    NSString *_destinationPath;
-    long long _installPhases;
-    _Bool _useForegroundPriorityForStaging;
-    double _frameworkVersion;
-    NSString *_clientProcessName;
-    _Bool _openScripts;
-    _Bool _internalBundleVersionChecking;
-    NSString *_scriptTargetVolume;
-    NSString *_loggingIdentifier;
-    _Bool _ignoreIndexBom;
-    _Bool _useAFSCByDefault;
-    _Bool _isRecursive;
-    NSData *_appStoreReceiptData;
-    NSData *_appStoreMetadata;
-    long long _simulatedInstallMode;
-    unsigned long long _spaceRequiredForInstall;
-    _Bool _clientBlocksRestart;
-    int _restartAction;
-    NSString *_appPlaceholderPath;
-    NSArray *_lockApplicationsDuringInstall;
-    NSString *_blacklistPropertyListPath;
-    NSFileHandle *_translocationFileHandle;
-    _Bool _bypassSystemVolumeEnforcementChecker;
-    long long _rosettaTranslationMode;
-    _Bool _isOSInstall;
-    _Bool _isSoftwareUpdateOSInstall;
-    _Bool _isOSInstaller;
-    NSString *_masterBOMPath;
-    unsigned long long _packageExtractorSpeed;
-    _Bool _isMDMManagedAppInstall;
-    NSDictionary *_untrustedEnvironment;
-    NSMachPort *_clientBootstrapPort;
-    NSMachPort *_clientSecuritySessionPort;
-    int _clientUID;
-    int _clientGID;
-    CDStruct_4c969caf _clientAuditToken;
-    CDStruct_166d2db6 *_authorizationEnvironment;
-    struct AuthorizationOpaqueRef *_defaultAuthorization;
-    struct AuthorizationOpaqueRef *_overrideAuthorization;
-    int _minTrustLevel;
-    _Bool _allowExpiredCertificates;
-    _Bool _allowExpiredRoots;
-    _Bool _didPassPreflight;
-    _Bool _hasValidTrustLevel;
-    int _evaluatedTrustLevel;
-    NSArray *_certificateChain;
-    NSSet *_teamIdentifiers;
-    struct __SecTrust *_trustRef;
-    NSDictionary *_policyMetPackageURLsToDigests;
-    _Bool _userConsentedInstall;
-    NSString *_responsibleHostedTeamIdentifier;
 }
 
 + (id);
@@ -71,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,6 +37,7 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,8 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -118,7 +67,7 @@
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -173,7 +122,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)ǁR;
 - (void);
 - (void);
 - (void);
@@ -182,27 +131,20 @@
 - (_Bool);
 - (id);
 - (void);
+- (id));
 - (id);
-- (id);
-- (id);
+- (id)aw;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (CDStruct_4c969caf);
-- (struct AuthorizationOpaqueRef *):settingResult:forDeveloper:isDevelopmentSigned: /* Error: Ran out of types for this method. */;
+- (CDStruct_6ad76789);
+- (struct AuthorizationOpaqueRef *)evaluateFirenzeTrust:settingResult:forDeveloper:isDevelopmentSigned: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CDStruct_4c969caf clientAuditToken; // @synthesize clientAuditToken=_clientAuditToken;
-@property(retain) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property long long installPhases; // @synthesize installPhases=_installPhases;
-@property(readonly) NSArray *packageSpecifiers;
-@property(readonly) NSArray *packages;
 @property(retain, nonatomic) NSString *responsibleHostedTeamIdentifier; // @synthesize responsibleHostedTeamIdentifier=_responsibleHostedTeamIdentifier;
-@property long long rosettaTranslationMode;
-@property _Bool userConsentedInstall; // @synthesize userConsentedInstall=_userConsentedInstall;
 
 @end
 

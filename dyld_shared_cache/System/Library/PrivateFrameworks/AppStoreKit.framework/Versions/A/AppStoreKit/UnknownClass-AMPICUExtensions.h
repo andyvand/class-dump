@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UnknownClass (AMPICUExtensions)
++ (id)o;
 + (id);
 + (id);
 + (id);
++ (id)o;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
+- (id)o;
+- (id);
+- (id)#o;
+- (id)o;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *availableDateFormatTemplates;
-@property(readonly, copy) NSDictionary *availableVariants;
 @property(readonly, copy) NSString *threeCharacterLanguageCode;
-@property(readonly, copy) NSString *threeCharacterRegionCode;
 @end
 

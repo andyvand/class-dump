@@ -7,11 +7,6 @@
 @interface AWDCoreRoutineAssetVersion
 {
     unsigned long long _timestamp;
-    int _contentVersion;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int contentVersion:1;
-    } _has;
 }
 
 - (void);
@@ -19,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)! ;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,10 +28,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(nonatomic) _Bool hasContentVersion;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

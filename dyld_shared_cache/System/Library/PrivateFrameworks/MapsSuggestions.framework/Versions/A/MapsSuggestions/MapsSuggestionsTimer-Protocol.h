@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsTimer
+- (void)inputGrayLum;
 @end
 

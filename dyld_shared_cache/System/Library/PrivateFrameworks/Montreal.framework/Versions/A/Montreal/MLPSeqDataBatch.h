@@ -6,27 +6,23 @@
 
 #import <Montreal/MLPDataBatch.h>
 
-@class MLPNDArrayLossLabels, NSArray;
+@class NSArray;
 
 @interface MLPSeqDataBatch : MLPDataBatch
 {
     NSArray *_matrix;
-    MLPNDArrayLossLabels *_combinedLossLabels;
-    unsigned long long _labelsCount;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@9E;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Ho;
 - (void);
 
 // Remaining properties
-@property(retain) MLPNDArrayLossLabels *combinedLossLabels; // @synthesize combinedLossLabels=_combinedLossLabels;
-@property unsigned long long labelsCount; // @synthesize labelsCount=_labelsCount;
 @property(retain) NSArray *matrix; // @synthesize matrix=_matrix;
 
 @end

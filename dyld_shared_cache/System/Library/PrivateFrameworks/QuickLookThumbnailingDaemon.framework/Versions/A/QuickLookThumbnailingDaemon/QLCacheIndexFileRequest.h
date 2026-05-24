@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, QLCacheFileIdentifier, QLThumbnailVersion;
+@class QLCacheFileIdentifier;
 
 @interface QLCacheIndexFileRequest
 {
     struct __CFArray *_sizes;
-    NSMutableArray *_minimumSizes;
-    NSMutableArray *_badgeTypes;
-    NSMutableArray *_externalGeneratorDataHashs;
-    struct __CFArray *_lowQualities;
-    _Bool _atLeastOneLowQuality;
-    struct __CFArray *_iconModes;
-    NSMutableArray *_iconVariants;
-    NSMutableArray *_interpolationQualities;
-    QLCacheFileIdentifier *_fileIdentifier;
-    QLThumbnailVersion *_version;
-    unsigned long long _cacheId;
 }
 
 - (long long);
@@ -27,17 +16,17 @@
 - (unsigned char);
 - (int);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (unsigned char);
-- (_Bool);
+- (_Bool)t;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)setHasSnapshotTriggerReason:(id)arg1;
 - (float);
 - (id);
 - (void);
@@ -45,9 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long cacheId; // @synthesize cacheId=_cacheId;
 @property(readonly) QLCacheFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property(readonly) QLThumbnailVersion *version; // @synthesize version=_version;
 
 @end
 

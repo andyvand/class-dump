@@ -14,21 +14,20 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)ntStatusWithIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)getClientStatusWithIdentifier:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

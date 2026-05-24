@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsLiveActivityURLHandler
 {
     id patterns;
-    id navigator;
-    id sportsLiveActivityManager;
-    id appConfigurationManager;
 }
 
 @end

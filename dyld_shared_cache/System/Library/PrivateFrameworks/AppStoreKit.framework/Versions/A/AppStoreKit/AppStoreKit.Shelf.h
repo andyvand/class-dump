@@ -7,35 +7,6 @@
 @interface AppStoreKit.Shelf
 {
     id contentType;
-    id placeholderContentType;
-    id marker;
-    id items;
-    id prefetchableArtwork;
-    id header;
-    id url;
-    id mergeWhenFetched;
-    id batchGroup;
-    id fetchStrategy;
-    id footerTitle;
-    id footerAction;
-    id footerStyle;
-    id isHidden;
-    id contentsMetadata;
-    id nextPreferredContentRefreshDate;
-    id refreshUrl;
-    id pageChangeMetrics;
-    id presentationHints;
-    id isHorizontal;
-    id rowsPerColumn;
-    id isPersonalized;
-    id background;
-    id horizontalScrollTargetBehavior;
-    id onRemoveModelEvents;
-    id onShouldRemoveModel;
-    id personalizationStyles;
-    id id;
-    id impressionMetrics;
-    id accessibilityMetadata;
 }
 
 @end

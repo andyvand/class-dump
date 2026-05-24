@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIFilter, CIImage, VNDetectContoursRequest, VNImageBuffer, VNParabolaDetection;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface VNTrajectoryProcessor
 {
     CIContext *_ciContext;
-    CIFilter *_absoluteDiffFilter;
-    CIFilter *_thresholdFilter;
-    CIFilter *_dilateFilter;
-    CIFilter *_contrastFilter;
-    VNDetectContoursRequest *_detectContoursRequest;
-    VNImageBuffer *_previousFrameBuffer;
-    CIImage *_previousFrameImage;
-    unsigned long long _maximumImageDimension;
-    float _preScaleFactor;
-    float _dilateRadius;
-    CDStruct_1b6d18a9 _frameAnalysisSpacing;
-    CDStruct_1b6d18a9 _lastAnalyzedFramePTS;
-    CDStruct_1b6d18a9 _nextFrameToBeAnalyzedPTS;
-    _Bool _processAllFrames;
-    struct CGColorSpace *_sRGB;
-    VNParabolaDetection *_parabolaDetector;
-    unsigned long long _currentImageWidth;
-    unsigned long long _currentImageHeight;
 }
 
 + (id);

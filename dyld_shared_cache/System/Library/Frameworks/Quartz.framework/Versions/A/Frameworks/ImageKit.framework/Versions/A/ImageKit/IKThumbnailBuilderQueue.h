@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSOperationQueue;
+@class NSArray;
 
 @interface IKThumbnailBuilderQueue
 {
     NSArray *_thumbnails;
-    id _delegate;
-    SEL _didEndSelector;
-    NSOperationQueue *_queue;
-    struct __QLThumbnailQueue *_qlQueue;
-    int _queueLength;
-    int _qlQueueLength;
-    _Bool _qlLoopRunning;
-    _Bool _started;
-    NSLock *_lock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (SEL);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)_;
 - (void);
 - (void)ai!PCùî°1Â0@ù
 × ;
 - (void)
 × ;
-- (_Bool)hold_BW_Label;
+- (_Bool)_threshold_BW_Label;
 
 @end
 

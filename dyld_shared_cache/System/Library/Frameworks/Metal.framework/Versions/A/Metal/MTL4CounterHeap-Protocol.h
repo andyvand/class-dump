@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol MTL4CounterHeap
-- (void)pactedAccelerationStructureSize:(NSString *)arg1 toBuffer:offset:sizeDataType: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)writeCompactedAccelerationStructureSize:(NSString *)arg1 toBuffer:offset:sizeDataType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

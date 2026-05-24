@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SCSchemaSCCheckUndoResponse : SISchemaInstrumentationMessage
 {
     int _undoType;
-    int _reason;
-    struct {
-        unsigned int undoType:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (int);
@@ -24,25 +17,21 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int),;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ation to repair service (error = %ld);
+- (_Bool)<;
+- (_Bool)age_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1) AND OLD.message_id NOT IN (SELECT chat_recoverable_message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
 - (void);
 - (id);
-- (id);
-- (id)eDependentSignals;
+- (id);
+- (id)clearChoiceDependentSignals;
 - (id)guage;
-- (void)Home;
+- (void)hasHomekitHome;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasUndoType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(nonatomic) int undoType; // @synthesize undoType=_undoType;
 
 @end

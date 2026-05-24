@@ -9,17 +9,6 @@
 @interface IDSQRProtoSessionInfoResponse
 {
     CDStruct_62a50c50 _lightweightParticipantIdLists;
-    CDStruct_9f2792e4 _peerSubscribedStreamIds;
-    unsigned int _commandFlags;
-    unsigned int _generationCounter;
-    NSMutableArray *_joinedParticipants;
-    NSMutableArray *_leftParticipants;
-    NSMutableArray *_peerPublishedStreams;
-    NSMutableArray *_updatedParticipants;
-    struct {
-        unsigned int commandFlags:1;
-        unsigned int generationCounter:1;
-    } _has;
 }
 
 + (Class);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,14 +57,14 @@
 - (void);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)0:(id)arg1 8r^{BluetoothDeviceAddress=[6C]}16Q24r^{BluetoothPINCode=[16C]}32;
+- (void)<%@>;
 - (id);
 - (id);
 - (void)Ds failed due to invalid parameter.;
@@ -83,18 +72,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int commandFlags; // @synthesize commandFlags=_commandFlags;
-@property(nonatomic) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(nonatomic) _Bool hasCommandFlags;
-@property(nonatomic) _Bool hasGenerationCounter;
-@property(retain, nonatomic) NSMutableArray *joinedParticipants; // @synthesize joinedParticipants=_joinedParticipants;
-@property(retain, nonatomic) NSMutableArray *leftParticipants; // @synthesize leftParticipants=_leftParticipants;
-@property(readonly, nonatomic) unsigned long long *lightweightParticipantIdLists;
-@property(readonly, nonatomic) unsigned long long lightweightParticipantIdListsCount;
 @property(retain, nonatomic) NSMutableArray *peerPublishedStreams; // @synthesize peerPublishedStreams=_peerPublishedStreams;
-@property(readonly, nonatomic) unsigned int *peerSubscribedStreamIds;
-@property(readonly, nonatomic) unsigned long long peerSubscribedStreamIdsCount;
-@property(retain, nonatomic) NSMutableArray *updatedParticipants; // @synthesize updatedParticipants=_updatedParticipants;
 
 @end
 

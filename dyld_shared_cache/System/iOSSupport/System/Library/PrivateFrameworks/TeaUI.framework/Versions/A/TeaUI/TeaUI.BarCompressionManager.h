@@ -7,22 +7,6 @@
 @interface TeaUI.BarCompressionManager
 {
     id delegate;
-    id isEnabled;
-    id shouldExpandAtBottom;
-    id $__lazy_storage_$_state;
-    id scrollView;
-    id proxyMultiDelegate;
-    id barAnimator;
-    id navigationBarAnimation;
-    id tabBarAnimation;
-    id toolbarAnimation;
-    id barState;
-    id sceneStateManager;
-    id observingToken;
-    id lastContentOffset;
-    id initialContentOffset;
-    id scrollDebounce;
-    id _lastBarCompressEvent;
 }
 
 - (void);
@@ -33,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)FCFeedPersonalizedItems"40@0:8@"NSArray"16q24q32 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)è,ûÿ$-ûÿ0-ûÿ/ûÿ<ÿûÿXÿûÿtÿûÿÿûÿ¬ÿûÿÈÿûÿäÿûÿ;

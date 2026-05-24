@@ -6,41 +6,28 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PGStoryPromptSuggestionQuestion : PGSurveyQuestion
 {
     id storedEntityIdentifier;
-    id storedLocalFactoryScore;
-    id storedState;
-    id promptText;
-    id isValidated;
-    id assetCount;
-    id mcAvailabilityStatus;
-    id source;
 }
 
 - (double);
 - (_Bool);
 - (id);
-- (unsigned short);
+- (unsigned short);
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (void);
 - (unsigned short);
 - (unsigned short);
-- (id)Update:progressBlock: /* Error: Ran out of types for this method. */;
+- (id)_insertPublicEventsFromMomentNodes:graphUpdate:progressBlock: /* Error: Ran out of types for this method. */;
 - (void)minDistanceThresholdForHomeLocation;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *additionalInfo;
-@property(nonatomic, readonly) unsigned short displayType;
 @property(nonatomic, readonly) NSString *entityIdentifier;
-@property(nonatomic, readonly) unsigned short entityType;
-@property(nonatomic, readonly) double localFactoryScore;
-@property(nonatomic) unsigned short state;
-@property(nonatomic, readonly) unsigned short type;
 
 @end
 

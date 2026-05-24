@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)dding"b57}"sputnikMetadata"{_GEOSputnikMetadataKey="part"b32"region"b24"type"b14"pixelSize"b8"padding"b42}"flyover"{_GEOFlyoverKey="z"b6"x"b26"y"b26"h"b8"region"b24"type"b14"pixelSize"b8"textScale"b8}"transitLineSelection"{_GEOTransitLineSelectionKey="z"b6"x"b25"y"b25"muid"b64}"polygonSelection"{_GEOPolygonSelectionKey="z"b6"x"b25"y"b25"polyId"b64}"roadSelection"{_GEORoadSelectionKey="z"b6"x"b25"y"b25"roadId"b64}"contourLines"{_GEOContourLinesKey="z"b6"x"b26"y"b26"pixelSize"b4"units"b8"padding"b50}"tileOverlay"{_GEOTileOverlayKey="z"b6"x"b26"y"b26"contentScale"b8"providerId"b32"keyframeIndex"b16"padding"b6}"identifiedResource"{_GEOIdentifiedResourceKey="identifier"Q"levelOfDetail"C"type"C"supportsASTC"b1"padding"b39}"muninMesh"{_GEOMuninMeshKey="pointId"b64"buildId"b32"bucketId"b16"cameraId"b5"lod"b3}"s2Tile"{_GEOS2TileKey="z"b6"x"b26"y"b26"f"b3"type"b14"pixelSize"b4"textScale"b4"padding"b37}"liveTile"{_GEOLiveTileKey="z"b6"x"b26"y"b26"type"b14"pixelSize"b4"textScale"b4"domain"b4"padding"b36})};
 @end
 

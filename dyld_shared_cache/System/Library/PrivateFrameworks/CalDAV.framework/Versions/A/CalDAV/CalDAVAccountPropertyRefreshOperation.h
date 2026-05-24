@@ -12,14 +12,13 @@
 @interface CalDAVAccountPropertyRefreshOperation : CalDAVOperation
 {
     NSObject<OS_dispatch_group> *_defaultAlarmGroup;
-    _Bool _fetchPrincipalSearchProperties;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (_Bool);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) id <CalDAVAccountPropertyRefreshDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool fetchPrincipalSearchProperties; // @synthesize fetchPrincipalSearchProperties=_fetchPrincipalSearchProperties;
 
 @end
 

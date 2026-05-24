@@ -7,18 +7,13 @@
 @interface IOBluetoothHandsFreeAudioGatewayExpansion
 {
     unsigned int _vendorID;
-    unsigned int _productID;
-    unsigned int _version;
-    int _batteryLevel;
-    _Bool _dockState;
-    _Bool _isSiriActive;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -28,12 +23,7 @@
 - (void);
 
 // Remaining properties
-@property int batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property _Bool dockState; // @synthesize dockState=_dockState;
-@property _Bool isSiriActive; // @synthesize isSiriActive=_isSiriActive;
-@property unsigned int productID; // @synthesize productID=_productID;
 @property unsigned int vendorID; // @synthesize vendorID=_vendorID;
-@property unsigned int version; // @synthesize version=_version;
 
 @end
 

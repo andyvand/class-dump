@@ -7,7 +7,6 @@
 @interface RemoteManagement.RMTrustStoreDatabase
 {
     id fullTrustCertPKRefCount;
-    id partialTrustCertPKRefCount;
 }
 
 @end

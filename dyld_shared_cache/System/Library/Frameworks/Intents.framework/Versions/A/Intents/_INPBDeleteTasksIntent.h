@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBTaskList;
-
 @interface _INPBDeleteTasksIntent
 {
     CDStruct_eff9c538 _has;
-    _Bool _all;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBTaskList *_taskList;
-    NSArray *_tasks;
 }
 
 + (Class);
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)#;
+- (void)!;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)egistration, sending connected AP update (clientID=%{public}@, update=%{public}@);
 - (id);
 - (id);
-- (void);
+- (void)w;
 - (_Bool),C,V_offerTitleText;
-- (void)meRangeList;
+- (void)DateTimeRangeList;
 
 // Remaining properties
 @property(nonatomic) _Bool all; // @synthesize all=_all;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAll;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTaskList;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTaskList *taskList; // @synthesize taskList=_taskList;
-@property(copy, nonatomic) NSArray *tasks; // @synthesize tasks=_tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 
 @end
 

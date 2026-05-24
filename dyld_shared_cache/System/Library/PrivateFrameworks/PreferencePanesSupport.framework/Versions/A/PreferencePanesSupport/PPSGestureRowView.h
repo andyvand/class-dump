@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 @interface PPSGestureRowView
 {
     NSTextField *_label;
-    NSButton *_checkbox;
 }
 
 - (void);

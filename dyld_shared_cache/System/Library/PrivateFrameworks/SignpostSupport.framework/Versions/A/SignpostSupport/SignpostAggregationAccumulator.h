@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SignpostAggregationAccumulator
 {
     _Bool _includeRawIntervals;
-    NSMutableDictionary *_mutableSignatureToAccumulatorEntry;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includeRawIntervals; // @synthesize includeRawIntervals=_includeRawIntervals;
 @property(readonly, nonatomic) NSMutableDictionary *mutableSignatureToAccumulatorEntry; // @synthesize mutableSignatureToAccumulatorEntry=_mutableSignatureToAccumulatorEntry;
-@property(readonly, nonatomic) NSDictionary *signatureToAccumulatorEntry;
 
 @end
 

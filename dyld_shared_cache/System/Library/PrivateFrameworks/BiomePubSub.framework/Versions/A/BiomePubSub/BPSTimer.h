@@ -6,16 +6,12 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSDate, NSMutableArray;
+@class NSDate;
 @protocol BPSPublisher;
 
 @interface BPSTimer : BPSPublisher
 {
     id <BPSPublisher> _upstream;
-    double _interval;
-    CDUnknownBlockType _getTimestamp;
-    NSDate *_nextIntervalBoundary;
-    NSMutableArray *_pendingTimers;
 }
 
 - (void);
@@ -26,20 +22,16 @@
 - (void);
 - (double);
 - (CDUnknownBlockType);
-- (id);
+- (id)M;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)�;
 - (id)ùÑ°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType getTimestamp; // @synthesize getTimestamp=_getTimestamp;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 @property(retain, nonatomic) NSDate *nextIntervalBoundary; // @synthesize nextIntervalBoundary=_nextIntervalBoundary;
-@property(retain, nonatomic) NSMutableArray *pendingTimers; // @synthesize pendingTimers=_pendingTimers;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

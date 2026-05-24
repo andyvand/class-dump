@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegationServicePairingSession, ICDelegationServiceSecuritySettings, MSVMessageParser, MSVStreamReader, MSVStreamWriter, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol ICDelegationServiceConnectionDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationServiceConnection
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    id <ICDelegationServiceConnectionDelegate> _delegate;
-    _Bool _isPaired;
-    _Bool _isStarted;
-    MSVMessageParser *_messageParser;
-    unsigned int _nextRequestID;
-    ICDelegationServicePairingSession *_pairingSession;
-    NSMutableDictionary *_pendingRequestIDToRequestContext;
-    MSVStreamReader *_streamReader;
-    NSObject<OS_dispatch_queue> *_streamReaderQueue;
-    MSVStreamWriter *_streamWriter;
-    NSObject<OS_dispatch_queue> *_streamWriterQueue;
-    long long _connectionRole;
-    ICDelegationServiceSecuritySettings *_securitySettings;
 }
 
 - (void);
@@ -43,23 +29,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`B;
 - (id);
-- (void);
+- (void)}^v}16^{_CGLPixelFormatObject=}24@32;
 - (void)ÀdX¸;
 - (void)p5Áp5¡p5Æp5¶p5p5-ps5mps53|s5"|s5xs5xs5M|s5|s5Ù°p5Ä°p5l¬p5¿¬p5P¨p5E¨p5L¬p56¬p5á°p5ã°p5¼p5¼p5i¸p5e¸p5ß¼p5|¼p5ç°p5°p5¥p5Öp5Ìp5p5Íp5tp5D°p5ú°p5%¼p5?¼p5¸p5¸p5¼p5Ð¼p5vðp5Ñðp5sìp5ìp5£èp5Üèp5ìp5:(CDUnknownBlockType)arg1 ìp5;ðp5ôðp5¾üp5Tüp5øp5Nøp5¨üp5üp5ðp5ìðp5Ëp5p5 p5Qp5.p5p5ñðp5,ðp5Èüp5büp5Gøp5øp5küp5àüp5y°p5°p5¯¬p5¬p59¨p5}¨p5d¬p5¬p5j°p5!°p5÷¼p5;
 
 // Remaining properties
-@property(readonly, nonatomic) long long connectionRole; // @synthesize connectionRole=_connectionRole;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ICDelegationServiceConnectionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ICDelegationServiceSecuritySettings *securitySettings; // @synthesize securitySettings=_securitySettings;
-@property(readonly) Class superclass;
 
 @end
 

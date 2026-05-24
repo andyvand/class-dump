@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSTextRange, NSTextSelectionNavigation;
+@class NSTextSelectionNavigation;
 
 __attribute__((visibility("hidden")))
 @interface __NSTextSelectionLineFragmentInfo
 {
     NSTextSelectionNavigation *_navigation;
-    NSTextRange *_textRange;
-    long long _offset;
-    long long _baseDirection;
-    int _visualDirection;
-    CDStruct_5b583d96 *_carets;
-    unsigned long long _numberOfCarets;
-    _Bool _lastCaretPrefersSecondaryLocation;
-    NSMapTable *_primaryLocationTable;
-    NSMapTable *_secondaryLocationTable;
-    NSArray *_sortedLocations;
-    NSArray *_otherLocations;
 }
 
 - (double);
@@ -32,24 +21,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (const CDStruct_5b583d96 *);
+- (long long)NETrie - failed insert - out of allocated memory;
+- (const CDStruct_5b583d96 *)_NSCFServer;
 - (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void)bench.MySQLWorkbench;
 - (const CDStruct_5b583d96 *);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (const CDStruct_5b583d96 *);
-- (id);
-- (long long);
-- (const CDStruct_5b583d96 *);
+- (id)rateLimiter;
+- (long long)ceived fetch events request:(id)arg1 %@;
+- (const CDStruct_5b583d96 *)provided end time.;
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)kNodeRequestReturnCached;
 - (void);
 - (void);
 - (id);
@@ -57,9 +46,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, getter=isMonotonicDirection) _Bool monotonicDirection; // @dynamic monotonicDirection;
-@property long long numberOfCaretPositions; // @dynamic numberOfCaretPositions;
-@property(readonly) NSTextRange *textRange; // @synthesize textRange=_textRange;
 @property(readonly) NSTextSelectionNavigation *textSelectionNavigation; // @synthesize textSelectionNavigation=_navigation;
 
 @end

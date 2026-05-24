@@ -10,18 +10,17 @@
 @interface CNBinarySemaphoreLock
 {
     NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSString *_name;
 }
 
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
+- (void)d outYesInfoFullyEncrypted=%d outYesInfoBusy=%d outYesInfoDirection=%d outYesInfoLocked=%d outNonNilInfoProgress=%@ outAPFSDVSCase=%d;
 - (void);
+- (void)initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy) NSString *name; // @synthesize name=_name;

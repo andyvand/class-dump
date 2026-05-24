@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 + (id);
 + (id);
 + (_Bool);
@@ -36,9 +36,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

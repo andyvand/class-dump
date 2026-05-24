@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface UIAnimator
 {
     NSMutableArray *_animations;
-    double _lastUpdateTime;
-    NSMutableDictionary *_animatorScreenLinks;
 }
 
-+ (void)rentView:referenceTextView:presentedFromRect:textHighlightColor: /* Error: Ran out of types for this method. */;
-+ (void)eContact: /* Error: Ran out of types for this method. */;
++ (void)updateWithChoices:fromParentView:referenceTextView:presentedFromRect:textHighlightColor: /* Error: Ran out of types for this method. */;
++ (void)setExpectsFaceContact: /* Error: Ran out of types for this method. */;
 + (id)03y/3yw¿7yy¿7GcG;
 - (_Bool);
 - (void);
@@ -25,7 +23,7 @@
 - (void);
 - (void)leConstantsCellProviding>"16@"<UITableConstantsTableProviding>"24;
 - (void)LoadingProperties";
-- (void)stureRecognizer:(id)arg1;
+- (void)_handleActionSelectionGestureRecognizer:(id)arg1;
 - (void)ire background assertion %@;
 - (void)e;
 - (void)àª¡ÿ;

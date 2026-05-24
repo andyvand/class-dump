@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMURLRequestSession, NSString, NSURLRequest;
-
 @interface IMRemoteURLConnection
 {
     _Bool _requireIDSHost;
-    _Bool _forceCellularIfPossible;
-    _Bool _shouldUsePipelining;
-    _Bool _disableKeepAlive;
-    _Bool _shouldReturnTimingData;
-    _Bool _allowsUltraConstrainedNetworks;
-    _Bool _cancelled;
-    _Bool _loading;
-    int _concurrentConnections;
-    int _keepAliveWifi;
-    int _keepAliveCell;
-    NSString *_bundleIdentifierForDataUsage;
-    NSURLRequest *_request;
-    CDUnknownBlockType _block;
-    IMURLRequestSession *_URLSession;
 }
 
 - (void);
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (void);
 - (id);
 - (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)eGeneralDataCodingIndicationEiRNS_13TextConverter12MessageClassERNS0_15MessageEncodingERNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEE3$_0;
+- (_Bool)_shortTermLockAtomicSync;
 - (id);
 - (_Bool);
+- (void)ody detection enable size invalid or not available;
+- (void)ensionConnection for bundleID %@ endpoint %p;
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (_Bool);
+- (int)_copyAuthorizationRights:toRights: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (_Bool):%lld scaledLastRenderTime:%lld currentEndOfTimeline(unscaled):%lld scaledEndOfTimeline:%lld mOfflineEndOfStreamSampleTime= %lld unscaledInputSampleTime=%lld unflushedSamplesFromTimePitch:%lld  /* Error: Ran out of types for this method. */;
+- (_Bool)f;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)ùñÖ,°1Â0@ù

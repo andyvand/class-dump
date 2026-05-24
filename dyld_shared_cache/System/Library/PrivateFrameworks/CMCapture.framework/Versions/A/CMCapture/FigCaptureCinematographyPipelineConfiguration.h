@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSmartStyle, FigCaptureSourceConfiguration, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureCinematographyPipelineConfiguration
 {
     NSArray *_objectMetadataIdentifiers;
-    NSArray *_videoCaptureConnectionConfigurations;
-    NSArray *_previewConnectionConfigurations;
-    FigCaptureSourceConfiguration *_sourceConfiguration;
-    _Bool _smartStyleLearningEnabled;
-    FigCaptureSmartStyle *_smartStyle;
-    _Bool _smartStyleReversibilityEnabled;
-    _Bool _preLTMThumbnailEnabled;
-    _Bool _postColorProcessingThumbnailEnabled;
-    _Bool _weightSegmentMapEnabled;
-    int _depthType;
 }
 
-- (void);
+- (void)initWithLocale: /* Error: Ran out of types for this method. */;
 
 @end
 

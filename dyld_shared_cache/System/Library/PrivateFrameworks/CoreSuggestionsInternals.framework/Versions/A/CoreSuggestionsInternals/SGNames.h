@@ -9,7 +9,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)m
+;
 + (id);
 + (id);
 + (id);
@@ -24,7 +25,7 @@
 + (double);
 + (CDStruct_a2e78aaa);
 + (id);
-+ (_Bool);
++ (_Bool)__auth_stubs;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -34,12 +35,12 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned int);
-+ (double);
++ (id)setSpinningAndDisabledInputControls:(id)arg1;
++ (id)setPasswordPanel:(id)arg1;
++ (id)setPasswordField: /* Error: Ran out of types for this method. */;
++ (id)setClipsToBounds:(id)arg1;
++ (unsigned int)setAlertStyle:(id)arg1;
++ (double)Delegate>",W,V_delegate;
 
 @end
 

@@ -9,12 +9,11 @@
 @interface AXCameraSceneDescriber
 {
     AXCameraManager *_manager;
-    _Bool _includeTextDetection;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 

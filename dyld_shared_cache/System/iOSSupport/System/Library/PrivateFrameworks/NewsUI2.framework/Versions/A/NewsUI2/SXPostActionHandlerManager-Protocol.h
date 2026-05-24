@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol SXPostActionHandler;
+
 @protocol SXPostActionHandlerManager
+- (void);
+- (void)ote:(id <SXPostActionHandler>)arg1:(NSString *)arg2 connect Could not find remote service;
 @end
 

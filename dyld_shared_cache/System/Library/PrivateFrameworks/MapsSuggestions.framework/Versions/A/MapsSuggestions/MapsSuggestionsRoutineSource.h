@@ -7,12 +7,10 @@
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
 @class MapsSuggestionsRoutine, NSString;
-@protocol MapsSuggestionsSourceDelegate;
 
 @interface MapsSuggestionsRoutineSource : MapsSuggestionsBaseSource
 {
     MapsSuggestionsRoutine *_routine;
-    struct Queue _queue;
 }
 
 + (_Bool);
@@ -22,7 +20,7 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (BOOL);
@@ -31,14 +29,6 @@
 - (void)gestionsVirtualGarage"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

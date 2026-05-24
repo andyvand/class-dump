@@ -7,24 +7,20 @@
 @interface NewsAds.DebugJournalViewController
 {
     id identifier;
-    id commandCenter;
-    id journal;
-    id presentationOptions;
-    id tableView;
 }
 
-- (void);
+- (void)or=%{public}@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)Com_Apple_News_Algorithms_Proto_Model_Features;
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

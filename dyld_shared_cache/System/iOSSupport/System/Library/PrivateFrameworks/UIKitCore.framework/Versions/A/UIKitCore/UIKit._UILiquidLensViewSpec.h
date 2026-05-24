@@ -13,10 +13,10 @@
 }
 
 + (id);
+- (void)Cloud Debug UI;
 - (void);
-- (void);
-- (id);
-- (id)anged;
+- (id)__MPModelRelationshipGenericGroup__MAPPING_MISSING__;
+- (id)_frameOrBoundsChanged;
 - (id);
 - (void)¸Vÿ	Ó;
 

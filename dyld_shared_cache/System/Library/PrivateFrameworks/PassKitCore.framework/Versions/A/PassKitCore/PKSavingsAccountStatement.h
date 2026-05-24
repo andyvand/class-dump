@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKSavingsAccountStatement
 {
     NSString *_identifier;
-    NSString *_currencyCode;
-    NSDate *_openingDate;
-    NSDate *_closingDate;
-    NSDecimalNumber *_openingBalance;
-    NSDecimalNumber *_closingBalance;
-    NSDecimalNumber *_interestEarned;
-    NSDecimalNumber *_totalDeposits;
-    NSDecimalNumber *_totalDailyCashDeposits;
-    NSDecimalNumber *_totalWithdrawn;
-    NSDecimalNumber *_apy;
-    long long _statementPeriodDays;
 }
 
-+ (_Bool);
++ (_Bool)__objc_classlist__DATA_CONST;
 - (id);
 - (id);
 - (id);
@@ -31,45 +20,34 @@
 - (void);
 - (void);
 - (void);
+- (void)9		=;
+- (void)?;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)q;
+- (id)	;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)_mptcpHandshakeHandoverSuccessWiFi;
+- (void);
 - (id);
 - (id);
 - (id)
 × ;
-- (id);
-- (void)n_name_unicode;
+- (id)localizedPasswordButtonTitle;
+- (void)given_name_unicode;
 
 // Remaining properties
-@property(copy, nonatomic, setter=setAPY:) NSDecimalNumber *apy; // @synthesize apy=_apy;
-@property(copy, nonatomic) NSDecimalNumber *closingBalance; // @synthesize closingBalance=_closingBalance;
-@property(copy, nonatomic) NSDate *closingDate; // @synthesize closingDate=_closingDate;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDecimalNumber *interestEarned; // @synthesize interestEarned=_interestEarned;
-@property(copy, nonatomic) NSDecimalNumber *openingBalance; // @synthesize openingBalance=_openingBalance;
-@property(copy, nonatomic) NSDate *openingDate; // @synthesize openingDate=_openingDate;
-@property(nonatomic) long long statementPeriodDays; // @synthesize statementPeriodDays=_statementPeriodDays;
-@property(copy, nonatomic) NSDecimalNumber *totalDailyCashDeposits; // @synthesize totalDailyCashDeposits=_totalDailyCashDeposits;
-@property(copy, nonatomic) NSDecimalNumber *totalDeposits; // @synthesize totalDeposits=_totalDeposits;
-@property(copy, nonatomic) NSDecimalNumber *totalWithdrawn; // @synthesize totalWithdrawn=_totalWithdrawn;
 
 @end
 

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXAssetReference, PXAssetsDataSourceCountsController, PXCuratedLibraryAssetsDataSourceManager, PXCuratedLibraryFooterController, PXCuratedLibraryLayout, PXCuratedLibraryVideoPlaybackController, PXCuratedLibraryViewModel, PXExtendedTraitCollection, PXGView, PXLibraryFilterState, PXSectionedObjectReference, PXSharedLibraryStatusProvider, PXUIMediaProvider, PXZoomablePhotosInteraction;
-@protocol PXCuratedLibraryEventTracker, PXGAXResponder;
+@class PXSharedLibraryStatusProvider;
+@protocol PXGAXResponder;
 
 @interface PXCuratedLibraryViewProvider
 {
     id <PXGAXResponder> _axNextResponder;
-    PHPhotoLibrary *_photoLibrary;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    PXGView *_gridView;
-    PXCuratedLibraryLayout *_layout;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXUIMediaProvider *_mediaProvider;
-    PXCuratedLibraryAssetsDataSourceManager *_assetsDataSourceManager;
-    PXCuratedLibraryVideoPlaybackController *_videoPlaybackController;
-    PXAssetsDataSourceCountsController *_itemCountsController;
-    PXCuratedLibraryFooterController *_footerController;
-    id <PXCuratedLibraryEventTracker> _eventTracker;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    PXZoomablePhotosInteraction *_zoomablePhotosInteraction;
 }
 
 - (long long);
@@ -32,14 +18,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)variationOfStyle:(id)arg1 propertyMap: /* Error: Ran out of types for this method. */;
+- (id)setScrubGesture:(id)arg1;
+- (_Bool)ontIndex;
 - (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (struct PXSimpleIndexPath);
+- (struct PXSimpleIndexPath)a;
 - (void);
 - (id);
 - (id);
@@ -57,13 +43,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)hourOfYearClusters;
 - (struct CGPoint);
 - (void);
 - (id);
 - (_Bool);
-- (struct PXSimpleIndexPath);
-- (void);
+- (struct PXSimpleIndexPath);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -73,13 +59,13 @@
 × ;
 - (id);
 - (id)× ;
-- (long long)edKenBurnsAnimationContentSize;
-- (id)MagneticGuidelines;
-- (void)Size;
-- (void)emphasizedAttributes;
-- (id)updateWantsHUD;
-- (id)aSource;
-- (id)IncludedPeopleDataSourceManager;
+- (long long)presentedKenBurnsAnimationContentSize;
+- (id)numberOfMagneticGuidelines;
+- (void)_previousSize;
+- (void)_emphasizedAttributes;
+- (id)_updateWantsHUD;
+- (id)PXStoryResourcesDataSource;
+- (id)PXSharedLibraryIncludedPeopleDataSourceManager;
 - (id);
 - (struct PXSimpleIndexPath)\';
 - (id)nt:(id)arg1;
@@ -87,7 +73,7 @@
 ;
 - (_Bool)er.storyQueue;
 - (id)ormer:] /* Error: Ran out of types for this method. */;
-- (void)Photo;
+- (void)InteractiveMemoryActionMenuItemMakeKeyPhoto;
 - (void);
 - (id)pxÿ=a²´ò÷þa²ûþ¥a²ûþea²ûþa²Dxÿ%a²@ûþ¥a²xÿÿÿÝa² xÿ;
 - (void);
@@ -101,31 +87,7 @@
 - (id)¤úÿØâS$Ü>;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appIntentsDebugDescription;
-@property(readonly, nonatomic) PXCuratedLibraryAssetsDataSourceManager *assetsDataSourceManager; // @synthesize assetsDataSourceManager=_assetsDataSourceManager;
-@property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder=_axNextResponder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PXCuratedLibraryEventTracker> eventTracker; // @synthesize eventTracker=_eventTracker;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
-@property(readonly, nonatomic) PXCuratedLibraryFooterController *footerController; // @synthesize footerController=_footerController;
-@property(readonly, nonatomic) PXGView *gridView; // @synthesize gridView=_gridView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXAssetsDataSourceCountsController *itemCountsController; // @synthesize itemCountsController=_itemCountsController;
-@property(readonly, nonatomic) PXCuratedLibraryLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PXAssetReference *preferredAnchorAssetReference;
-@property(readonly, nonatomic) PXSectionedObjectReference *preferredObjectReferenceToScrollToWhenRestoringState;
 @property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXCuratedLibraryVideoPlaybackController *videoPlaybackController; // @synthesize videoPlaybackController=_videoPlaybackController;
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) PXZoomablePhotosInteraction *zoomablePhotosInteraction; // @synthesize zoomablePhotosInteraction=_zoomablePhotosInteraction;
 
 @end
 

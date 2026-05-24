@@ -9,7 +9,6 @@
 @interface TUPodcastRecordingSession : TUCallRecordingSessionBase
 {
     _Bool _initiatedLocally;
-    int _recordingState;
 }
 
 + (_Bool);
@@ -17,16 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (int);
+- (void)nsigned long long];
+- (int)ontents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/RefCounted.h;
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)L;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isInitiatedLocally) _Bool initiatedLocally; // @synthesize initiatedLocally=_initiatedLocally;
 @property(nonatomic) int recordingState; // @synthesize recordingState=_recordingState;
 
 @end

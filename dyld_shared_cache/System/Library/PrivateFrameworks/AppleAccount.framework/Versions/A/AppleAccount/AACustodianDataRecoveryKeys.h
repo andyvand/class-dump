@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData;
 
 @interface AACustodianDataRecoveryKeys
 {
     NSData *_wrappedRKC;
-    NSData *_wrappingKey;
-    NSUUID *_custodianUUID;
-    NSString *_recordBuildVersion;
 }
 
 + (_Bool);
+- (id)s.;
+- (void)itten = %ld; error = %ld;
+- (id)lt = %d;
+- (id)ned %d;
+- (void)XSettings returning = %d;
+- (id);
+- (void)cted device callback status from ANE.;
+- (void)ot have known shape for input/inOut = ;
+- (id)ust be U8 or S8.;
+- (id)c;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)eFrom:data:sentToHandleUri: /* Error: Ran out of types for this method. */;
+- (id)submittedActivitiesWithHandler:(struct _NSZone *)arg1;
+- (void)initCustodianMessageFrom:data:sentToHandleUri: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *custodianUUID; // @synthesize custodianUUID=_custodianUUID;
-@property(copy, nonatomic) NSString *recordBuildVersion; // @synthesize recordBuildVersion=_recordBuildVersion;
 @property(copy, nonatomic) NSData *wrappedRKC; // @synthesize wrappedRKC=_wrappedRKC;
-@property(copy, nonatomic) NSData *wrappingKey; // @synthesize wrappingKey=_wrappingKey;
 
 @end
 

@@ -6,22 +6,12 @@
 
 #import <CMCapture/BWStillImageProcessorControllerInput.h>
 
-@class BWDeferredCaptureContainer, BWDeferredCaptureControllerConfiguration, BWDeferredPipelineParameters, BWStillImageSettings, NSNumber;
+@class BWDeferredCaptureContainer, BWDeferredCaptureControllerConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredCaptureControllerInput : BWStillImageProcessorControllerInput
 {
     BWDeferredCaptureControllerConfiguration *_configuration;
-    BWStillImageSettings *_settings;
-    BWDeferredCaptureContainer *_captureContainer;
-    int _compressionProfile;
-    _Bool _proxyBufferReady;
-    _Bool _depthDataGenerationFailed;
-    _Bool _skipInferences;
-    NSNumber *_canProcessEnhancedResolution;
-    struct opaqueCMSampleBuffer *_stashedLearnedFusionEVMinus;
-    struct opaqueCMSampleBuffer *_stashedLearnedFusionErrorRecovery;
-    NSNumber *_learnedFusionProxyGenerationUsedEVMinus;
 }
 
 - (_Bool);
@@ -38,16 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BWDeferredCaptureContainer *captureContainer; // @synthesize captureContainer=_captureContainer;
-@property(readonly, nonatomic) int compressionProfile; // @synthesize compressionProfile=_compressionProfile;
-@property(readonly, nonatomic) BWDeferredPipelineParameters *pipelineParameters;
-@property(readonly, nonatomic) _Bool skipInferences; // @synthesize skipInferences=_skipInferences;
 
 @end
 

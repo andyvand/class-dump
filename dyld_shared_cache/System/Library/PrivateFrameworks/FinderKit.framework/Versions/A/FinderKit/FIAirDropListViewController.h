@@ -6,34 +6,22 @@
 
 #import <FinderKit/FI_TTableViewController.h>
 
-@class CNAvatarCache, FI_TTouchBarScrollingStackViewController, NSImage, NSString, NSTrackingArea;
+@class FI_TTouchBarScrollingStackViewController;
 
 __attribute__((visibility("hidden")))
 @interface FIAirDropListViewController : FI_TTableViewController
 {
     function_96138665 _clickHandler;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationObservers;
-    struct CGRect _hoverOverCellRect;
-    double _establishedHoverOverCellAt;
-    double _lastUpdatedDataSourceAt;
-    CNAvatarCache *_avatarCache;
-    NSTrackingArea *_trackingArea;
-    _Bool _repopulating;
-    struct TNSWeakPtr<FI_TTouchBarScrollingStackViewController> _touchBarAirDropParticipantsViewController;
-    NSImage *_closeImage;
-    NSImage *_blankImage;
-    _Bool tornDown;
-    _Bool _handlingResetContentInsets;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
@@ -46,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (Class);
-- (void);
-- (void);
+- (void)eventTapManager:(_Bool)arg1 activelyTappedMouseEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (void)bezierPathWithRect: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)2@0:(id)arg1 8@"NSURL"16@?<v@?@"NSString"@"NSData"@"NSString"@"NSString"@"NSString">24;
+- (void)userTypedQueryComponentWithString:(id)arg1 removingFreeTextTokenString:(id)arg2;
 - (_Bool);
 - (void);
 - (void);
@@ -63,15 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak FI_TTouchBarScrollingStackViewController *airDropParticipantsViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool handlingResetContentInsets; // @synthesize handlingResetContentInsets=_handlingResetContentInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end
 

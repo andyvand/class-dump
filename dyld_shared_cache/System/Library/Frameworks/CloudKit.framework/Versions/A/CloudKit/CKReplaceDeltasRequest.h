@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableValueID, CKRoughlyEquivalentProperties, NSArray, NSString;
+@class CKMergeableValueID;
 
 @interface CKReplaceDeltasRequest
 {
     _Bool _replacementDeltasContainNewData;
-    CKMergeableValueID *_valueID;
-    NSArray *_deltaIdentifiersToReplace;
-    NSArray *_replacementDeltas;
 }
 
 + (_Bool);
@@ -24,26 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ring>>, std::allocator<std::pair<const std::string, int>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setShareAcceptCompletionBlock:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSArray *deltaIdentifiersToReplace; // @synthesize deltaIdentifiersToReplace=_deltaIdentifiersToReplace;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *replacementDeltas; // @synthesize replacementDeltas=_replacementDeltas;
-@property(readonly, nonatomic) _Bool replacementDeltasContainNewData; // @synthesize replacementDeltasContainNewData=_replacementDeltasContainNewData;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) CKMergeableValueID *valueID; // @synthesize valueID=_valueID;
 
 @end

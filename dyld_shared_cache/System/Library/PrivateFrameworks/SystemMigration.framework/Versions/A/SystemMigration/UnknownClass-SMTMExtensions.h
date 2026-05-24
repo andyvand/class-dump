@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SMTMExtensions)
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);

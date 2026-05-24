@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSTimer;
+@class NSCache;
 
 @interface WBSRichSearchSuggestionImageProvider
 {
     NSCache *_searchSuggestionImageCache;
-    NSMutableDictionary *_pendingCompletionHandlers;
-    NSTimer *_clearSearchSuggestionImageCacheTimer;
 }
 
-+ (id)mage:scale: /* Error: Ran out of types for this method. */;
++ (id)initWithCGImage:scale: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -23,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void)nfosForPageURLString:iconURLString:includingPrivateData:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)rejectedResourceInfosForPageURLString:iconURLString:includingPrivateData:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

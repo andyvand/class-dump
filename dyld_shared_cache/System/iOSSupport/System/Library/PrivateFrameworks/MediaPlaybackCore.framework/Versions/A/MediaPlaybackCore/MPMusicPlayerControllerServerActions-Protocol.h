@@ -5,5 +5,6 @@
 //
 
 @protocol MPMusicPlayerControllerServerActions
+- (void);
 @end
 

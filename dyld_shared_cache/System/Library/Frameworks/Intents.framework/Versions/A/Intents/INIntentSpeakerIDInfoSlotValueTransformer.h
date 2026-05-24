@@ -13,7 +13,7 @@
 + (Class);
 + (long long)vedOnCompletionValue:,V_removedOnCompletionValue /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ouncementConfirmationReason:(id)arg1;
+- (id)StringAsSendAnnouncementIntentAnnouncementConfirmationReason:(id)arg1;
 
 @end
 

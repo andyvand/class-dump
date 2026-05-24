@@ -6,21 +6,11 @@
 
 #import <Contacts/CNContactPosterDataItem.h>
 
-@class CNContactPoster, CNVisualFingerprint, NSData, NSString;
+@class NSString;
 
 @interface CNContactImage : CNContactPosterDataItem
 {
     NSString *_identifier;
-    NSData *_imageData;
-    long long _source;
-    NSString *_sourceIdentifier;
-    long long _encodingType;
-    NSString *_variant;
-    NSData *_poseConfigurationData;
-    NSString *_displayString;
-    CNVisualFingerprint *_visualFingerprint;
-    CNContactPoster *_pairedPoster;
-    struct CGRect _cropRect;
 }
 
 + (_Bool);
@@ -48,30 +38,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)unmountVolumePath:(long long)arg1 force:errorDict: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void)TQ,R;
 - (id);
 - (id);
 - (void);
 - (void)ngeHistoryAnchor"16@"CNChangeHistoryAnchor"24;
-- (id)nsensitiveCompare: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (id)Phone;
+- (id)localizedCaseInsensitiveCompare: /* Error: Ran out of types for this method. */;
+- (void)initWithRange:(id)arg1;
+- (id)homePhone;
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(retain, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(nonatomic) long long encodingType; // @synthesize encodingType=_encodingType;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) __weak CNContactPoster *pairedPoster; // @synthesize pairedPoster=_pairedPoster;
-@property(retain, nonatomic) NSData *poseConfigurationData; // @synthesize poseConfigurationData=_poseConfigurationData;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(retain, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(retain, nonatomic) NSString *variant; // @synthesize variant=_variant;
-@property(retain, nonatomic) CNVisualFingerprint *visualFingerprint; // @synthesize visualFingerprint=_visualFingerprint;
 
 @end
 

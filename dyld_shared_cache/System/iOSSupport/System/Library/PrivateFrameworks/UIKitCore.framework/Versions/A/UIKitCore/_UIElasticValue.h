@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIElasticValue
 {
     double _currentValue;
-    double _targetValue;
-    double _speed;
-    double _friction;
-    double _momentum;
 }
 
 - (void);
@@ -25,19 +21,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (double)tUseReducedTransparencyForContentEffects: /* Error: Ran out of types for this method. */;
-- (void)UpdateOffsetX;
+- (double)_setUseReducedTransparencyForContentEffects: /* Error: Ran out of types for this method. */;
+- (void)_lastUpdateOffsetX;
 - (void);
 - (id)HÌþÿ;
 - (void)èZ´ÿ;
 
 // Remaining properties
 @property(nonatomic) double currentValue; // @synthesize currentValue=_currentValue;
-@property(nonatomic) double friction; // @synthesize friction=_friction;
-@property(nonatomic) double momentum; // @synthesize momentum=_momentum;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(readonly, nonatomic, getter=isSteady) _Bool steady;
-@property(nonatomic) double targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__objc_data;
 + (void);
 - (_Bool);
 - (void);
@@ -32,7 +32,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (id);
 

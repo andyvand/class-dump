@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
 @protocol DATrustHandlerDelegate;
 
 @interface DATrustHandler
 {
     id <DATrustHandlerDelegate> _delegate;
-    NSMutableDictionary *_haveWarnedAboutCertDict;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,7 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <DATrustHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableDictionary *haveWarnedAboutCertDict; // @synthesize haveWarnedAboutCertDict=_haveWarnedAboutCertDict;
 
 @end
 

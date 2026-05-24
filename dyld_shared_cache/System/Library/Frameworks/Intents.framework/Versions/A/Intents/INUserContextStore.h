@@ -13,14 +13,14 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)_consumeFileExtension;
++ (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)<;
 - (id);
 - (void)ry"16;
 

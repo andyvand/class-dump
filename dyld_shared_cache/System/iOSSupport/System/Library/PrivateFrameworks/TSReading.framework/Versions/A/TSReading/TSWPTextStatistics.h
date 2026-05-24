@@ -7,18 +7,15 @@
 @interface TSWPTextStatistics
 {
     unsigned long long _wordCount;
-    unsigned long long _charactersNoWhiteSpace;
-    unsigned long long _paragraphCount;
-    _Bool _isAccurate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)msc_FAF;
+- (void)ICEnvironmentNetworkType;
+- (void)from modern PIA;
+- (void)format;
+- (void)ce failed;
 - (unsigned long long);
-- (void);
+- (void)%;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,9 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long charactersNoWhiteSpace; // @synthesize charactersNoWhiteSpace=_charactersNoWhiteSpace;
-@property(nonatomic) _Bool isAccurate; // @synthesize isAccurate=_isAccurate;
-@property(nonatomic) unsigned long long paragraphCount; // @synthesize paragraphCount=_paragraphCount;
 @property(nonatomic) unsigned long long wordCount; // @synthesize wordCount=_wordCount;
 
 @end

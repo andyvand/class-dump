@@ -5,14 +5,16 @@
 //
 
 @class NSDictionary, NSString;
-@protocol GPURawCounterSourceGroup;
 
 @protocol GPURawCounterSource
+- (unsigned int);
+- (_Bool);
+- (_Bool)T;
+- (_Bool)?;
+- (_Bool)"<MTLBuffer>",R,N,V_metalBuffer;
+- (NSDictionary *)T;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *features;
 @property(readonly) NSString *name;
-@property(copy) NSDictionary *options;
-@property(readonly) id <GPURawCounterSourceGroup> sourceGroup;
 @end
 

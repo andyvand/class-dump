@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface LoadSessionBlock
 {
@@ -13,23 +13,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSData *blockData; // @dynamic blockData;
-@property(nonatomic, copy) NSDate *blockEnd; // @dynamic blockEnd;
-@property(nonatomic) int blockIndex; // @dynamic blockIndex;
-@property(nonatomic, copy) NSDate *blockStart; // @dynamic blockStart;
-@property(nonatomic) _Bool certified; // @dynamic certified;
-@property(nonatomic) long long circuitScope; // @dynamic circuitScope;
-@property(nonatomic, copy) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
-@property(nonatomic, copy) NSString *deviceName; // @dynamic deviceName;
 @property(nonatomic, copy) NSUUID *homeIdentifier; // @dynamic homeIdentifier;
-@property(nonatomic) _Bool isConsumptionBlock; // @dynamic isConsumptionBlock;
-@property(nonatomic, copy) NSString *loadType; // @dynamic loadType;
-@property(nonatomic, copy) NSDate *sessionEnd; // @dynamic sessionEnd;
-@property(nonatomic, copy) NSUUID *sessionIdentifier; // @dynamic sessionIdentifier;
-@property(nonatomic, copy) NSDate *sessionStart; // @dynamic sessionStart;
 @property(nonatomic, copy) NSUUID *siteIdentifier; // @dynamic siteIdentifier;
-@property(nonatomic, copy) NSString *sourceIdentifier; // @dynamic sourceIdentifier;
-@property(nonatomic) int version; // @dynamic version;
 
 @end
 

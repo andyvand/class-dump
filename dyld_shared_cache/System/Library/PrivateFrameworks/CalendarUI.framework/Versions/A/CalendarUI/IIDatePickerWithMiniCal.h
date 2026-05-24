@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKViewController, IIClosableDatePicker, IIDatePicker, IIDatePickerPanel, IIDatePickerPanelContentView, NSArray, NSDate, NSDatePicker, NSPanel, NSString, NSTableView, NSView;
-@protocol IIDatePickerWithMiniCalDelegate;
+@class EKViewController, IIDatePicker;
 
 @interface IIDatePickerWithMiniCal
 {
     IIDatePicker *_textDatePicker;
-    IIDatePicker *_textDatePickerForPanel;
-    IIDatePicker *_textTimePicker;
-    IIClosableDatePicker *_calDatePicker;
-    IIDatePickerPanel *_calPanel;
-    NSPanel *_timeSuggestionPanel;
-    NSTableView *_timeSuggestionTable;
-    NSArray *_timeDescriptions;
-    NSDate *_sourceDate;
-    _Bool _calendarDatePickerShown;
-    _Bool _userDismissedCalendarPicker;
-    _Bool _openingCalendarPicker;
-    _Bool _makeCalendarPickerKeyOnNextWindowUpdate;
-    id <IIDatePickerWithMiniCalDelegate> _delegate;
-    double _pixelsBetweenDateAndTime;
-    EKViewController *_viewController;
-    IIDatePickerPanelContentView *_calPanelContentView;
-    NSView *_nextGadget;
-    long long _indexOfSelectedTimeSuggestion;
-    NSArray *_horizontalConstraints;
 }
 
 + (id);
@@ -36,13 +16,17 @@
 + (double);
 + (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)x;
+- (void);
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -52,18 +36,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)
+;
 - (void);
 - (long long);
 - (void);
@@ -71,7 +52,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Th;
+- (void);
+- (void)J;
+- (void);
+- (void);
+- (void)?;
+- (void)?;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,19 +68,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)߈
+;
 - (_Bool);
 - (_Bool);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void)q!;
 - (void);
 - (void);
 - (void);
@@ -100,58 +82,32 @@
 - (void);
 - (long long);
 - (void);
+- (id)?׀;
+- (void);
+- (void)+;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)B;
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)AW;
+- (id)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (void)(deprecated));
+- (void)(;
 - (double);
-- (void);
+- (void)@"CERuleConfiguration"@"NSError">24;
 - (void)2@"NSPasteboard"48;
-- (void)yingRowForResult: /* Error: Ran out of types for this method. */;
+- (void)autocompleteResultWindow:didEndDisplayingRowForResult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) IIClosableDatePicker *calDatePicker; // @synthesize calDatePicker=_calDatePicker;
-@property(readonly) IIDatePickerPanel *calPanel;
-@property(retain) IIDatePickerPanelContentView *calPanelContentView; // @synthesize calPanelContentView=_calPanelContentView;
-@property _Bool calendarDatePickerShown; // @synthesize calendarDatePickerShown=_calendarDatePickerShown;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <IIDatePickerWithMiniCalDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *horizontalConstraints; // @synthesize horizontalConstraints=_horizontalConstraints;
-@property long long indexOfSelectedTimeSuggestion; // @synthesize indexOfSelectedTimeSuggestion=_indexOfSelectedTimeSuggestion;
-@property _Bool makeCalendarPickerKeyOnNextWindowUpdate; // @synthesize makeCalendarPickerKeyOnNextWindowUpdate=_makeCalendarPickerKeyOnNextWindowUpdate;
-@property __weak NSView *nextGadget; // @synthesize nextGadget=_nextGadget;
-@property _Bool openingCalendarPicker; // @synthesize openingCalendarPicker=_openingCalendarPicker;
-@property double pixelsBetweenDateAndTime; // @synthesize pixelsBetweenDateAndTime=_pixelsBetweenDateAndTime;
-@property(retain) NSDate *sourceDate; // @synthesize sourceDate=_sourceDate;
-@property(readonly) Class superclass;
-@property(retain) IIDatePicker *textDatePicker; // @synthesize textDatePicker=_textDatePicker;
-@property(retain) IIDatePicker *textDatePickerForPanel; // @synthesize textDatePickerForPanel=_textDatePickerForPanel;
-@property(retain) NSDatePicker *textTimePicker; // @synthesize textTimePicker=_textTimePicker;
-@property(retain) NSArray *timeDescriptions; // @synthesize timeDescriptions=_timeDescriptions;
-@property(readonly, nonatomic) NSPanel *timeSuggestionPanel;
-@property(retain) NSTableView *timeSuggestionTable; // @synthesize timeSuggestionTable=_timeSuggestionTable;
-@property _Bool userDismissedCalendarPicker; // @synthesize userDismissedCalendarPicker=_userDismissedCalendarPicker;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

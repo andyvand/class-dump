@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolDOMImmersiveVideoMetadata, RWIProtocolDOMVideoColorSpace;
-
 @interface RWIProtocolDOMVideoMediaStats : RWIProtocolJSONObject
 {
 }
@@ -25,7 +23,7 @@
 - (void);
 - (id);
 - (int);
-- (int);
+- (int)`;
 - (int);
 - (void);
 - (void);
@@ -34,14 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) int bitrate;
-@property(copy, nonatomic) NSString *codec;
-@property(retain, nonatomic) RWIProtocolDOMVideoColorSpace *colorSpace;
-@property(nonatomic) double framerate;
-@property(nonatomic) int height;
-@property(copy, nonatomic) NSString *humanReadableCodecString;
-@property(retain, nonatomic) RWIProtocolDOMImmersiveVideoMetadata *immersiveVideoMetadata;
-@property(nonatomic) _Bool isProtected;
-@property(nonatomic) int width;
 
 @end
 

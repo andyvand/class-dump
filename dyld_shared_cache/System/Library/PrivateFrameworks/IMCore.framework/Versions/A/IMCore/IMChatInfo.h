@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMChatInfo
 {
     _Bool _downloadingPendingSatelliteMessages;
-    _Bool _hasCancellableScheduledMessage;
-    NSString *_chatIdentifier;
-    NSString *_lastAddressedLocalHandle;
-    NSString *_lastAddressedSIMID;
-    unsigned long long _unreadMessageCount;
-    unsigned long long _pendingIncomingSatelliteMessageCount;
-    long long _isFiltered;
-    NSDictionary *_transcriptBackgroundDetails;
-    NSString *_transcriptBackgroundChannelTransferGUID;
-    NSDictionary *_pendingGroupModification;
 }
 
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)s:(id)arg1 %d %@(%p) _activeConfigurationCount=%d;
+- (unsigned long long)y is unactivated!;
+- (id)d];
+- (id)d Session change to video paused[%d];
+- (void)d VTP_Send failed with errno=%d vfd=%d localCallID=%d, dataLength=%zu;
+- (void)must not be NULL;
+- (void)e=%d by threshold=%d. Marking samples at timestamp=%llu late. audioPulls=%u highAverageQueueSizeCount=%d;
+- (void)verageQueueSize=%f exceed desiredQueueSize=%d by threshold=%d. Marking samples at timestamp=%llu late. audioPulls=%u highAverageQueueSizeCount=%d;
+- (void)d (%x). Previous payload=%d, payload=%d, history=%x lastSeq=%x seq=%d reset=%d;
+- (void)d;
+- (void)ioPlayer [%s] %s:(_Bool)arg1 %d audioPlayer=%p frameCount=%d numFramesInRTCPReport=%d readIndex=%d writeIndex=%d SeqStart=%d SeqEnd=%d endSequenceNumber=%d;
+- (unsigned long long)r=%p is configured in audioTransmitter=%p with audioIOSampleRate=%d, audioIOSampleCount=%d;
+- (id)[%s] %s:%d %@(%p) Audio issue detector=%p is configured in audioTransmitter=%p with audioIOSampleRate=%d, audioIOSampleCount=%d /* Error: Ran out of types for this method. */;
+- (id)ous:(id)arg1 %llu];
+- (_Bool)%s:%d Bounds are NULL /* Error: Ran out of types for this method. */;
+- (_Bool)%@', transactionID='%@';
+- (void)Stream-initialized VCVideoStream[%p] init %@ queue=%p for idsParticipantID=%llu streamToken=%u transportSessionID=%d;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)reportingVideoProp;
 - (id);
 - (id);
 - (long long);
@@ -50,16 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(nonatomic) _Bool downloadingPendingSatelliteMessages; // @synthesize downloadingPendingSatelliteMessages=_downloadingPendingSatelliteMessages;
-@property(nonatomic) _Bool hasCancellableScheduledMessage; // @synthesize hasCancellableScheduledMessage=_hasCancellableScheduledMessage;
-@property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
-@property(retain, nonatomic) NSString *lastAddressedLocalHandle; // @synthesize lastAddressedLocalHandle=_lastAddressedLocalHandle;
-@property(retain, nonatomic) NSString *lastAddressedSIMID; // @synthesize lastAddressedSIMID=_lastAddressedSIMID;
-@property(retain, nonatomic) NSDictionary *pendingGroupModification; // @synthesize pendingGroupModification=_pendingGroupModification;
-@property(nonatomic) unsigned long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
-@property(retain, nonatomic) NSString *transcriptBackgroundChannelTransferGUID; // @synthesize transcriptBackgroundChannelTransferGUID=_transcriptBackgroundChannelTransferGUID;
-@property(retain, nonatomic) NSDictionary *transcriptBackgroundDetails; // @synthesize transcriptBackgroundDetails=_transcriptBackgroundDetails;
-@property(nonatomic) unsigned long long unreadMessageCount; // @synthesize unreadMessageCount=_unreadMessageCount;
 
 @end
 

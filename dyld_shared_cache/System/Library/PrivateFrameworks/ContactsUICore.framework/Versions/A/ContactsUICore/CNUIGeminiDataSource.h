@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNGeminiManager, CNGeminiResult, NSString;
-@protocol CNUIGeminiDataSourceDelegate;
+@class CNGeminiResult;
 
 @interface CNUIGeminiDataSource
 {
     _Bool _substituteDanglingChannel;
-    CNContact *_contact;
-    CNGeminiResult *_geminiResult;
-    NSString *_selectedChannelIdentifier;
-    id <CNUIGeminiDataSourceDelegate> _delegate;
-    CNGeminiManager *_geminiManager;
 }
 
 - (void);
@@ -27,32 +21,19 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)H;
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)authorizationStatusAsString: /* Error: Ran out of types for this method. */;
 - (id)Cù1ý#Ð1Â0@ù
 × ;
-- (void)ivityRestorer:restoreCreateContact:activity: /* Error: Ran out of types for this method. */;
+- (void)userActivityRestorer:restoreCreateContact:activity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *channelIdentifier;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIGeminiDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNGeminiManager *geminiManager; // @synthesize geminiManager=_geminiManager;
 @property(retain, nonatomic) CNGeminiResult *geminiResult; // @synthesize geminiResult=_geminiResult;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *selectedChannelIdentifier; // @synthesize selectedChannelIdentifier=_selectedChannelIdentifier;
-@property(nonatomic) _Bool substituteDanglingChannel; // @synthesize substituteDanglingChannel=_substituteDanglingChannel;
-@property(readonly) Class superclass;
 
 @end
 

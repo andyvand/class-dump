@@ -13,11 +13,11 @@
     NSData *_rand;
 }
 
-+ (_Bool);
++ (_Bool)ing has started;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)};
+- (void)optionLightweightUIMode;
 - (void)a&ð!Aùqª)°1Â0@ù
 × ;
 

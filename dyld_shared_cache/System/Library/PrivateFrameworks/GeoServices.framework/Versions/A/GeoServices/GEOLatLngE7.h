@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLatLngE7
 {
     PBUnknownFields *_unknownFields;
-    int _latE7;
-    int _lngE7;
 }
 
 + (double);
@@ -21,7 +19,7 @@
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)man;
 - (void);
 - (id);
 - (id);
@@ -33,11 +31,11 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (CDStruct_c3b9c2ee)1Â0@ù
 × ;
-- (id):(struct _NSZone *)arg1;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setPacketsIn:(struct _NSZone *)arg1;
+- (id)StringAsReleasePhase: /* Error: Ran out of types for this method. */;
 - (id)Assertion failed:serverIdentifier.length > 0 /* Error: Ran out of types for this method. */;
 - (id);
 - (id)'Nîw(WQ@;
@@ -46,10 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(nonatomic) int latE7;
-@property(readonly, nonatomic) GEOLatLng *latLng;
-@property(nonatomic) int lngE7;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

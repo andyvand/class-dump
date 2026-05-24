@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSString, _UISceneSizeRestrictionsCatalystImpl;
+@class _UISceneSizeRestrictionsCatalystImpl;
 @protocol _UISceneSizeRestrictionsImpl;
 
 @interface UISceneSizeRestrictions
@@ -25,7 +25,7 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)ary/Frameworks/IdentityLookup.framework/Contents/MacOS/IdentityLookup;
 - (void);
 - (void);
 - (id);
@@ -48,7 +48,7 @@
 - (void);
 - (void);
 - (id);
-- (struct CGSize)sCursorBorderWidth;
+- (struct CGSize)focusCursorBorderWidth;
 - (id)ø;
 - (struct CGSize)icators;
 - (void);
@@ -57,25 +57,7 @@
 - (struct CGSize)°]i;
 
 // Remaining properties
-@property(retain, nonatomic) id <_UISceneSizeRestrictionsImpl> _activeImpl; // @synthesize _activeImpl;
 @property(readonly, nonatomic) _UISceneSizeRestrictionsCatalystImpl *_catalystImpl;
-@property(nonatomic, setter=_setContentSize:) struct CGSize _contentSize;
-@property(nonatomic, setter=_setNeedsStyleMaskUpdates:) _Bool _needsStyleMaskUpdates;
-@property(nonatomic, setter=_setOriginRequestPending:) _Bool _originRequestPending;
-@property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize;
-@property(nonatomic, setter=_setSizeRequestPending:) _Bool _sizeRequestPending;
-@property(retain, nonatomic, setter=_setWindowFrameAnimationForNextPendingRequest:) CAAnimation *_windowFrameAnimationForNextPendingRequest;
-@property(nonatomic, setter=_setWindowOrigin:) struct CGPoint _windowOrigin;
-@property(nonatomic) _Bool allowsFullScreen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize maximumSize;
-@property(nonatomic) struct CGSize minimumSize;
-@property(readonly) Class superclass;
 
 @end
 

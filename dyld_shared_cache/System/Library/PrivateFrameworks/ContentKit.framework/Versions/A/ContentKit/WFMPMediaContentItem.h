@@ -6,13 +6,13 @@
 
 #import <ContentKit/WFGenericFileContentItem.h>
 
-@class MPMediaItem, NSDictionary, NSString, WFFileType, WFObjectType;
+@class MPMediaItem;
 
 @interface WFMPMediaContentItem : WFGenericFileContentItem
 {
 }
 
-+ (id);
++ (id)C;
 + (void);
 + (id);
 + (id);
@@ -34,50 +34,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)animateWithDuration:animations: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ntentkit.addresssublocality;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSString *albumTitle;
-@property(readonly, nonatomic) NSString *artist;
-@property(readonly, nonatomic) _Bool cachesSupportedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasStringOutput;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includesFileRepresentationInSerializedItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) MPMediaItem *mediaItem;
-@property(readonly, nonatomic) NSDictionary *metadataForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) WFFileType *preferredFileType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFFileType",?,R,N
-
-@property(readonly, nonatomic) WFObjectType *preferredObjectType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFObjectType",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

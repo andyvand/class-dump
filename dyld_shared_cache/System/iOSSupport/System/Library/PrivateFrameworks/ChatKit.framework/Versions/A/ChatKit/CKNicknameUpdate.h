@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, IMHandle, IMNickname;
+@class IMHandle;
 
 @interface CKNicknameUpdate
 {
     IMHandle *_handle;
-    IMNickname *_nickname;
-    CNContact *_contact;
-    unsigned long long _updateType;
 }
 
 - (id);
 - (id);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id)};
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)ange"16@"NSString"24;
 - (id);
 - (void)È[h]´];
 - (unsigned long long);
@@ -32,10 +29,7 @@
 - (void)ðH/;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) IMNickname *nickname; // @synthesize nickname=_nickname;
-@property(nonatomic) unsigned long long updateType; // @synthesize updateType=_updateType;
 
 @end
 

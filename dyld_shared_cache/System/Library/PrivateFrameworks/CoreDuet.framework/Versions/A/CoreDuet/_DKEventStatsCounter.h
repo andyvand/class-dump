@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)Signed(CFDataRef, const Img4DecodeImplementation *);
 - (void);
 - (void)á¶/Ð!Gùñ©3Ð1Â0@ù
 × ;

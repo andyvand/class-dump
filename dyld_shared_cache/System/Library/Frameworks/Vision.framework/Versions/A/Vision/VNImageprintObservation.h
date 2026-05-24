@@ -6,13 +6,11 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSData, NSString, VNImageprint;
+@class VNImageprint;
 
 @interface VNImageprintObservation : VNObservation
 {
     _Bool _imageprintValid;
-    VNImageprint *_imageprint;
-    NSString *_imageprintVersion;
 }
 
 + (id);
@@ -27,17 +25,14 @@
 - (id);
 - (float);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)fileHandleForReading;
+- (unsigned long long)J	;
+- (_Bool);
 - (void);
 - (void)ng box size;
 
 // Remaining properties
 @property(retain, nonatomic) VNImageprint *imageprint; // @synthesize imageprint=_imageprint;
-@property(readonly, nonatomic) _Bool imageprintValid; // @synthesize imageprintValid=_imageprintValid;
-@property(readonly, copy, nonatomic) NSString *imageprintVersion; // @synthesize imageprintVersion=_imageprintVersion;
-@property(readonly, nonatomic) NSData *rawImageprintDescriptor;
 
 @end
 

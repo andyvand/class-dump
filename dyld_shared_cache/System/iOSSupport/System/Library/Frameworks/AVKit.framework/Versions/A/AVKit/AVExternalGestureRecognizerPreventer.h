@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)mergedModelFromBundles:(id)arg1;
+- (void)qF;
 - (void);
 - (void);
 - (void);

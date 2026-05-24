@@ -6,20 +6,17 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMMediaInstallDeclaration : CEMConfigurationBase
 {
     NSString *_payloadMedia;
-    NSNumber *_payloadMandatory;
-    NSNumber *_payloadInstallWhenActivated;
-    NSNumber *_payloadRemoveWhenDeactivated;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)s/AVFoundation.framework/Versions/A/AVFoundation;
 + (id);
 + (id);
 + (id);
@@ -31,27 +28,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)vocalizer_resources;
+- (id)ormattedAudioSourceProviderP;
+- (void)ectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/d1_enc.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadInstallWhenActivated; // @synthesize payloadInstallWhenActivated=_payloadInstallWhenActivated;
-@property(copy, nonatomic) NSNumber *payloadMandatory; // @synthesize payloadMandatory=_payloadMandatory;
 @property(copy, nonatomic) NSString *payloadMedia; // @synthesize payloadMedia=_payloadMedia;
-@property(copy, nonatomic) NSNumber *payloadRemoveWhenDeactivated; // @synthesize payloadRemoveWhenDeactivated=_payloadRemoveWhenDeactivated;
-@property(readonly) Class superclass;
 
 @end
 

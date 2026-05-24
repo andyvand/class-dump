@@ -9,18 +9,15 @@
 @interface AppKit.ShadowEdgeMask : NSView
 {
     id region;
-    id radius;
-    id inset;
-    id shadowLayer1;
 }
 
-- (id);
-- (void);
+- (id)hh8;
+- (void)%{public}@' errno=%d;
 - (void);
 - (void);
 - (_Bool)!X@ùñâ3°1Â0@ù
 × ;
-- (id)liderBox;
+- (id)_sizeSliderBox;
 - (void)ägA;
 - (void)wÿ;
 

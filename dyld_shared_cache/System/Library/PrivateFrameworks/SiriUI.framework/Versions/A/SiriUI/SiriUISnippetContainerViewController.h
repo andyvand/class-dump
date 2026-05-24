@@ -6,17 +6,12 @@
 
 #import <SiriUI/SiriUISnippetViewController.h>
 
-@class NSString, SiriUICardHeaderViewController;
+@class SiriUICardHeaderViewController;
 @protocol SiriUISnippetViewControllerDelegate;
 
 @interface SiriUISnippetContainerViewController : SiriUISnippetViewController
 {
     SiriUICardHeaderViewController *_sashViewController;
-    NSString *_summaryImagePath;
-    NSString *_summaryTitle;
-    _Bool _stoleKeyWindow;
-    SiriUISnippetViewController *_snippetViewController;
-    id <SiriUISnippetViewControllerDelegate> _snippetDelegate;
 }
 
 - (void);
@@ -45,10 +40,10 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
 - (void);
@@ -62,7 +57,7 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (void);
@@ -79,26 +74,18 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)ToSize:incremental:progressHandler:fillColor: /* Error: Ran out of types for this method. */;
+- (id)imageTaskWithHTTPGetRequest:client:fitToSize:incremental:progressHandler:fillColor: /* Error: Ran out of types for this method. */;
 - (_Bool)date;
 - (void)ippetLevelAnimation not supported; no-op for animation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <SiriUISnippetViewControllerDelegate> snippetDelegate; // @synthesize snippetDelegate=_snippetDelegate;
-@property(retain, nonatomic) SiriUISnippetViewController *snippetViewController; // @synthesize snippetViewController=_snippetViewController;
-@property(readonly) Class superclass;
 
 @end
 

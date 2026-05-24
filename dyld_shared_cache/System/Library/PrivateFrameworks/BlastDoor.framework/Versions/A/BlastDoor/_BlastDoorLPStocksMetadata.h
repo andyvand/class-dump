@@ -6,15 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPStocksMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_combinedTitle;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_footnote;
-    _BlastDoorLPImage *_icon;
 }
 
 + (id);
@@ -33,16 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (id)sInviteMetadata_Value;
+- (id)passwordsInviteMetadata_Value;
 - (void)ivityType;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *combinedTitle; // @synthesize combinedTitle=_combinedTitle;
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

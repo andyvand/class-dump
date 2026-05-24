@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface FaceRecognizabilityFilterSVMDataScalerInput
@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void)q;
 - (id);
 - (void);
 - (id)ed %lu persons;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *input; // @synthesize input=_input;
 
 @end

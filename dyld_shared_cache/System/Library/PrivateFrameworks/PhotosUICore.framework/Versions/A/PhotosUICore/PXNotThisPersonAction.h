@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHPerson;
 @protocol PXFastEnumeration;
 
 @interface PXNotThisPersonAction : PXPhotosAction
 {
     id <PXFastEnumeration> _assets;
-    id <PXFastEnumeration> _faces;
-    _Bool _personWasVerified;
-    _Bool _didSetPersonAsVerified;
-    PHPerson *_person;
 }
 
 - (void);
@@ -36,8 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool didSetPersonAsVerified; // @synthesize didSetPersonAsVerified=_didSetPersonAsVerified;
-@property(readonly, nonatomic) id <PXFastEnumeration> faces;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 
 @end
 

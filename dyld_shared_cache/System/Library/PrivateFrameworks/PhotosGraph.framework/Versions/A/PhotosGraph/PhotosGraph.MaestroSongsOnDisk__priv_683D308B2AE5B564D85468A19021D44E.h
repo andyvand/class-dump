@@ -7,9 +7,6 @@
 @interface PhotosGraph.MaestroSongsOnDisk__priv_683D308B2AE5B564D85468A19021D44E
 {
     id linePtr;
-    id linecap;
-    id filePtr;
-    id schemaVersion;
 }
 
 @end

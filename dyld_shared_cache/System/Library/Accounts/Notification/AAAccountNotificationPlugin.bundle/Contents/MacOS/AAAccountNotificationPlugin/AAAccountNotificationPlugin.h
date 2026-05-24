@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAAccountNotificationFollowUpController, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AAAccountNotificationPlugin
 {
     NSObject<OS_dispatch_queue> *_didChangeBackgroundQueue;
-    NSObject<OS_dispatch_queue> *_fmBackgroundQueue;
-    NSObject<OS_dispatch_queue> *_daemonBackgroundQueue;
-    NSObject<OS_dispatch_queue> *_protoAccountRemovalQueue;
-    AAAccountNotificationFollowUpController *_followUpController;
 }
 
 - (void);
@@ -27,16 +23,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)setAccountProperty:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 + (long long);
 + (long long);
 + (int);
-+ (int);
++ (int);
 + (int);
 - (void);
 - (id);

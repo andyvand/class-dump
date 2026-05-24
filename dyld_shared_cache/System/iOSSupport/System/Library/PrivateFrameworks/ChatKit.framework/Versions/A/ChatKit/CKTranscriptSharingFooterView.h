@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptSharingFooterView
 {
     UILabel *_footerTextViewTitle;
-    UILabel *_footerTextViewDesc;
 }
 
-- (void);
-- (void);
+- (void)indentsForIndividualParagraphHeadIndentsInAttributedString:(id)arg1;
+- (void)indentationStyleAccessibilityDescriptionForRange:(id)arg1;
 - (id);
 - (id);
 - (struct CGSize);
 - (void);
-- (void)ACEHOLDER;
+- (void)GAME_CENTER_TO_FIELD_PLACEHOLDER;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *footerTextViewDesc; // @synthesize footerTextViewDesc=_footerTextViewDesc;
 @property(retain, nonatomic) UILabel *footerTextViewTitle; // @synthesize footerTextViewTitle=_footerTextViewTitle;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAMPCollection.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SAMPPodcastCollection : SAMPCollection
 {
@@ -15,21 +15,18 @@
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)#;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist;
-@property(copy, nonatomic) NSArray *preferredPlayOrder;
-@property(copy, nonatomic) NSString *sortArtist;
-@property(copy, nonatomic) NSNumber *subscribed;
 
 @end
 

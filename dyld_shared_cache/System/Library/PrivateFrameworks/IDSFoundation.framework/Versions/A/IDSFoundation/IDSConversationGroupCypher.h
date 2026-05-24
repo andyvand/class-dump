@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDeviceIdentity, IDSMPConversationGroup, NSArray, NSString;
+@class IDSMPConversationGroup;
 
 @interface IDSConversationGroupCypher
 {
     IDSMPConversationGroup *_conversationGroup;
-    NSArray *_participants;
-    IDSDeviceIdentity *_deviceIdentity;
 }
 
 + (_Bool);
@@ -22,24 +20,14 @@
 - (id);
 - (id);
 - (void);
+- (id)lSm;
 - (id);
-- (id);
-- (void);
+- (void)�;
 - (id);
 - (void)oy.sleep;
 
 // Remaining properties
 @property(retain, nonatomic) IDSMPConversationGroup *conversationGroup; // @synthesize conversationGroup=_conversationGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IDSDeviceIdentity *deviceIdentity; // @synthesize deviceIdentity=_deviceIdentity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(retain, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) Class superclass;
 
 @end
 

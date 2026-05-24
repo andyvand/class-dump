@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCounterGroup, NSString;
 @protocol HMDLogEventAnalyzerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateLogEventAnalyzer : HMDLogEventAnalyzer
 {
     id <HMDLogEventAnalyzerDataSource> _dataSource;
-    HMDEventCounterGroup *_vacationStateTransitionCounterGroup;
 }
 
 + (unsigned long long);
@@ -22,20 +20,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)_isImmutable,V_immutable;
+- (void)SUUID",&,N,V_clientIdentifier;
+- (void)tring",?,R,C;
+- (void)tring",&,N,V_syncId;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void));
+- (id);
+- (id);
+- (void)%S;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_spatialPhotoScene;
 - (void)g new client configuration for %@;
 - (id)resident configured - generating Broadcast Notify Key with type:(id)arg1 %d;
 - (void)t support clean energy, unable to handle message:%@ /* Error: Ran out of types for this method. */;
@@ -44,14 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <HMDLogEventAnalyzerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) HMDEventCounterGroup *vacationStateTransitionCounterGroup; // @synthesize vacationStateTransitionCounterGroup=_vacationStateTransitionCounterGroup;
 
 @end
 

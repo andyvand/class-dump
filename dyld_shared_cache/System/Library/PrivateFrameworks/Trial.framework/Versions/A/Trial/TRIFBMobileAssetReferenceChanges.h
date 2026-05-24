@@ -7,21 +7,6 @@
 @interface TRIFBMobileAssetReferenceChanges
 {
     unsigned char _changeTypeType;
-    unsigned int _replacementType;
-    unsigned char _changeTypeSpecifier;
-    unsigned int _replacementSpecifier;
-    unsigned char _changeTypeVersion;
-    unsigned int _replacementVersion;
-    unsigned char _changeTypeFileType;
-    unsigned char _replacementFileType;
-    unsigned char _changeTypeIsOnDemand;
-    _Bool _replacementIsOnDemand;
-    unsigned char _changeTypeDownloadSize;
-    unsigned long long _replacementDownloadSize;
-    unsigned char _changeTypeAssetName;
-    unsigned int _replacementAssetName;
-    unsigned char _changeTypeHasOnDemandFlag;
-    _Bool _replacementHasOnDemandFlag;
 }
 
 - (void);

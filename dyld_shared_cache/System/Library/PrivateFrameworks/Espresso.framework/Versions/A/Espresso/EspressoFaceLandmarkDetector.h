@@ -7,11 +7,6 @@
 @interface EspressoFaceLandmarkDetector
 {
     struct vImage_Buffer crop_scaled;
-    struct vImage_Buffer crop_192;
-    shared_ptr_d082c67d net;
-    shared_ptr_d082c67d net_detect;
-    struct vector<std::shared_ptr<Espresso::net>, std::allocator<std::shared_ptr<Espresso::net>>> nets_sub_landmark;
-    struct CGRect _newface;
 }
 
 - (void);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString, PKFeatureApplicationOfferDetailsInfo;
+@class NSString;
 
 @interface PKFeatureApplicationOfferDetails
 {
     NSString *_offerTermsIdentifier;
-    NSDate *_expiryDate;
-    NSDecimalNumber *_creditLimit;
-    NSDecimalNumber *_annualFee;
-    NSDecimalNumber *_aprForPurchase;
-    NSDecimalNumber *_balance;
-    NSString *_currencyCode;
-    PKFeatureApplicationOfferDetailsInfo *_detailsInfo;
 }
 
 + (_Bool);
@@ -28,30 +21,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ר@9=;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id)rtedInAppMerchantCountryCodes: /* Error: Ran out of types for this method. */;
-- (id)Security;
+- (_Bool)networksExcludedFromAJDueToThresholdsType;
+- (void)YnU4;
+- (id)(;
+- (id)setUnsupportedInAppMerchantCountryCodes: /* Error: Ran out of types for this method. */;
+- (id)_submissionSecurity;
 - (void)ing",&,N,V_containingApplicationIdentifier;
-- (void)ovePassNotification;
+- (void)PKPassLibraryDidRemovePassNotification;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *annualFee; // @synthesize annualFee=_annualFee;
-@property(copy, nonatomic) NSDecimalNumber *aprForPurchase; // @synthesize aprForPurchase=_aprForPurchase;
-@property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSDecimalNumber *creditLimit; // @synthesize creditLimit=_creditLimit;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy, nonatomic) PKFeatureApplicationOfferDetailsInfo *detailsInfo; // @synthesize detailsInfo=_detailsInfo;
-@property(copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 @property(copy, nonatomic) NSString *offerTermsIdentifier; // @synthesize offerTermsIdentifier=_offerTermsIdentifier;
 
 @end

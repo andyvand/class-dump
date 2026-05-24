@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)d_response"b1"read_revisionID"b1"read_routeDescriptions"b1"read_routeID"b1"read_steps"b1"read_storageID"b1"read_styleAttributes"b1"read_trafficDescription"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id);
+- (id)_name;
 - (id)Õ;
 - (void)ùÜ	ö_íF@;
 

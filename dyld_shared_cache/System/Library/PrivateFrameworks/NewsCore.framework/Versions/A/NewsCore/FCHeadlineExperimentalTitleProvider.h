@@ -9,7 +9,6 @@
 @interface FCHeadlineExperimentalTitleProvider
 {
     _Bool _shouldShowAlternateHeadlines;
-    NSString *_feldsparID;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ntl;
+- (void)relatedChannelTagIDsIntl;
 - (_Bool)F;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *feldsparID; // @synthesize feldsparID=_feldsparID;
-@property(nonatomic) _Bool shouldShowAlternateHeadlines; // @synthesize shouldShowAlternateHeadlines=_shouldShowAlternateHeadlines;
 
 @end
 

@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (id)ionsHandler;
+- (id)_UISceneApplicationActionsHandler;
 
 @end
 

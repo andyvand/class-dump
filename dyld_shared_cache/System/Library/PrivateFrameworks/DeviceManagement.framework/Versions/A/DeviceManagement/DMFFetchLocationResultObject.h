@@ -11,13 +11,13 @@
     CLLocation *_location;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)CNAutocompleteSeparatorView;
+- (id)__objc_classlist__DATA_CONST;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CLLocation *location; // @synthesize location=_location;

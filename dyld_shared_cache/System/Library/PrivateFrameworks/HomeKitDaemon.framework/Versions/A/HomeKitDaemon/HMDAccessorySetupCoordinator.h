@@ -4,47 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCHIPDataSource, HMFActivity, HMFMessageDispatcher, HMMTRAccessoryServerBrowser, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMFMessageDispatcher, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySetupCoordinator
 {
     NSString *_currentBundleIdentifier;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMMTRAccessoryServerBrowser *_chipAccessoryServerBrowser;
-    HMDCHIPDataSource *_chipDataSource;
-    NSMutableDictionary *_stagingRequestsByUUID;
-    HMFActivity *_metricsActivity;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _urlStringCHIPAccessorySetupPayloadFactory;
-    CDUnknownBlockType _decimalStringRepresentationCHIPAccessorySetupPayloadFactory;
-    CDUnknownBlockType _payloadCHIPAccessorySetupPayloadFactory;
 }
 
 + (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)] identifier or data missing %@;
+- (void)An access attempt occurred, but objects are not loaded (memory pressure?). Perform an initial load and postpone the access.;
+- (void)MSPSharedTripServerEnabledKey;
+- (id)MSPShareETACapabilityFetchingServerPurgeIntervalKey;
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -52,13 +29,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
 - (void);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ration:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id)Aà°!Dùð1Â0@ù
 × ;
 - (id)16;
@@ -69,28 +59,7 @@ __attribute__((visibility("hidden")))
 - (id)øÕB;
 
 // Remaining properties
-@property(readonly) HMMTRAccessoryServerBrowser *chipAccessoryServerBrowser; // @synthesize chipAccessoryServerBrowser=_chipAccessoryServerBrowser;
-@property(readonly) HMDCHIPDataSource *chipDataSource; // @synthesize chipDataSource=_chipDataSource;
-@property(copy) NSString *currentBundleIdentifier; // @synthesize currentBundleIdentifier=_currentBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) CDUnknownBlockType decimalStringRepresentationCHIPAccessorySetupPayloadFactory; // @synthesize decimalStringRepresentationCHIPAccessorySetupPayloadFactory=_decimalStringRepresentationCHIPAccessorySetupPayloadFactory;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) HMFActivity *metricsActivity; // @synthesize metricsActivity=_metricsActivity;
-@property(copy) CDUnknownBlockType payloadCHIPAccessorySetupPayloadFactory; // @synthesize payloadCHIPAccessorySetupPayloadFactory=_payloadCHIPAccessorySetupPayloadFactory;
-@property(readonly) NSMutableDictionary *stagingRequestsByUUID; // @synthesize stagingRequestsByUUID=_stagingRequestsByUUID;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType urlStringCHIPAccessorySetupPayloadFactory; // @synthesize urlStringCHIPAccessorySetupPayloadFactory=_urlStringCHIPAccessorySetupPayloadFactory;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

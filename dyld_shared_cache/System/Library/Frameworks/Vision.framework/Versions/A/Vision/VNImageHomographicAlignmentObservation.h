@@ -16,7 +16,7 @@
 - (CDStruct_1fe29af2);
 - (id);
 - (void);
-- (id);
+- (id)fetchOperationServiceEndpoint:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatArticle
 {
     id identifier;
-    id _overrides;
-    id _selectors;
-    id _properties;
-    id alternate;
 }
 
 @end

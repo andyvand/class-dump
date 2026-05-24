@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVHapticSequenceEntry
 {
     CDUnknownBlockType _handler;
-    _Bool _running;
-    _Bool _detached;
 }
 
 - (void);
@@ -18,13 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)put}QQII*^{LogCategoryPrivate}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool detached; // @synthesize detached=_detached;
 @property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property _Bool running; // @synthesize running=_running;
 
 @end
 

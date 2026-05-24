@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBDateTimeRangeList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_dateRanges;
 }
 
 + (Class);
@@ -28,24 +26,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ublic}s:(id)arg1 %u) originalBSSList is nil. filteredProfile:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)ngsInCarIntentResponseCodeReady;
+- (void)INSetSeatSettingsInCarIntentResponseCodeReady;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(copy, nonatomic) NSArray *dateRanges; // @synthesize dateRanges=_dateRanges;
-@property(readonly, nonatomic) unsigned long long dateRangesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

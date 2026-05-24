@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol _UISceneCarPlaySessionTouchpadFeedbackDelegate;
 
 __attribute__((visibility("hidden")))
@@ -18,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)@ù
@@ -31,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long availableInteractionModels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long primaryInteractionModel;
-@property(readonly) Class superclass;
-@property(nonatomic) long long touchLevel;
-@property(nonatomic) __weak id <_UISceneCarPlaySessionTouchpadFeedbackDelegate> touchpadFeedbackDelegate; // @synthesize touchpadFeedbackDelegate;
-@property(retain, nonatomic) NSArray *touchpads;
 
 @end
 

@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVenueLabel, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueLevel
 {
     PBUnknownFields *_unknownFields;
-    GEOPDVenueLabel *_label;
-    unsigned long long _levelId;
-    int _ordinal;
-    struct {
-        unsigned int has_levelId:1;
-        unsigned int has_ordinal:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)@0:(id)arg1 8@16@24@32;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)_businessType"b1"read_keywordMuids"b1"read_center"b1"read_keywordMappings"b1"read_name"b1"read_tokenSet"b1"wrote_anyField"b1};
-- (id)rc;
+- (id)_sigTermSrc;
 - (id)Àm	<P;
 - (void)débÓ¶J@;
 

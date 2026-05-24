@@ -4,48 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
-
 @interface AVCaptureMultiCamClientCompositingData
 {
     struct opaqueCMSampleBuffer *_primarySampleBuffer;
-    CIImage *_primaryImage;
-    struct opaqueCMSampleBuffer *_primaryGainMapSampleBuffer;
-    CIImage *_primaryGainMapImage;
-    struct opaqueCMSampleBuffer *_secondarySampleBuffer;
-    CIImage *_secondaryImage;
-    struct opaqueCMSampleBuffer *_secondaryGainMapSampleBuffer;
-    CIImage *_secondaryGainMapImage;
-    struct opaqueCMSampleBuffer *_outputSampleBuffer;
-    struct opaqueCMSampleBuffer *_outputGainMapSampleBuffer;
-    NSDictionary *_compositingMetadata;
 }
 
 - (void);
 - (struct opaqueCMSampleBuffer *);
 - (struct opaqueCMSampleBuffer *);
 - (id);
-- (struct opaqueCMSampleBuffer *);
-- (struct opaqueCMSampleBuffer *);
-- (id);
-- (struct opaqueCMSampleBuffer *);
-- (struct opaqueCMSampleBuffer *);
-- (id);
-- (id);
-- (id);
+- (struct opaqueCMSampleBuffer *)ic}@;
+- (struct opaqueCMSampleBuffer *)sertion %p was invalidated error=%{public}@;
+- (id)topped;
+- (struct opaqueCMSampleBuffer *)public}@ options:%lu… | opening database [] result=%d /* Error: Ran out of types for this method. */;
+- (struct opaqueCMSampleBuffer *)thDatabaseURI:%{public}@ options:%lu… | opening database /* Error: Ran out of types for this method. */;
+- (id)0@"NSDictionary"8;
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)debugDescription;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *compositingMetadata; // @synthesize compositingMetadata=_compositingMetadata;
-@property(readonly, nonatomic) struct opaqueCMSampleBuffer *outputGainMapSampleBuffer; // @synthesize outputGainMapSampleBuffer=_outputGainMapSampleBuffer;
-@property(readonly, nonatomic) struct opaqueCMSampleBuffer *outputSampleBuffer; // @synthesize outputSampleBuffer=_outputSampleBuffer;
-@property(readonly, nonatomic) struct opaqueCMSampleBuffer *primaryGainMapSampleBuffer; // @synthesize primaryGainMapSampleBuffer=_primaryGainMapSampleBuffer;
 @property(readonly, nonatomic) struct opaqueCMSampleBuffer *primarySampleBuffer; // @synthesize primarySampleBuffer=_primarySampleBuffer;
-@property(readonly, nonatomic) struct opaqueCMSampleBuffer *secondaryGainMapSampleBuffer; // @synthesize secondaryGainMapSampleBuffer=_secondaryGainMapSampleBuffer;
-@property(readonly, nonatomic) struct opaqueCMSampleBuffer *secondarySampleBuffer; // @synthesize secondarySampleBuffer=_secondarySampleBuffer;
 
 @end
 

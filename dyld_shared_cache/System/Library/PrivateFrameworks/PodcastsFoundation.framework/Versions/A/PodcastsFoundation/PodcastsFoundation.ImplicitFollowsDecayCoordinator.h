@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.ImplicitFollowsDecayCoordinator
 {
     id debounceQueue;
-    id implicitFollowsEvents;
-    id subscriptions;
-    id delegate;
 }
 
 @end

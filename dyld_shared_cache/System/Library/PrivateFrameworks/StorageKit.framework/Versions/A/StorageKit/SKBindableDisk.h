@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSLock, NSString, SKDisk;
+@class NSLock;
 
 @interface SKBindableDisk
 {
     _Bool _isValid;
-    _Bool _canBeDeleted;
-    _Bool _isDiskImage;
-    _Bool _isInternal;
-    _Bool _isSolidState;
-    _Bool _isWholeDisk;
-    _Bool _isWritable;
-    _Bool _supportsJournaling;
-    _Bool _isEjectable;
-    _Bool _isNetwork;
-    _Bool _isLocked;
-    _Bool _canSupportRecoveryPartition;
-    _Bool _isOSInternal;
-    _Bool _isObserving;
-    SKDisk *_representedDisk;
-    NSString *_role;
-    NSString *_type;
-    NSImage *_diskIcon;
-    NSString *_volumeName;
-    NSString *_volumeUUID;
-    NSString *_mountPoint;
-    unsigned long long _freeSpace;
-    unsigned long long _purgeableSpace;
-    unsigned long long _availableSpace;
-    unsigned long long _totalSpace;
-    unsigned long long _minimumDiskSize;
-    unsigned long long _maximumDiskSize;
-    NSString *_diskIdentifier;
-    NSString *_contentDiskIdentifier;
-    NSString *_protocol;
-    NSLock *_observingLock;
 }
 
 + (id);
@@ -66,38 +36,39 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)""@  
+;
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
+- (unsigned long long);
+- (unsigned long long)i;
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)C;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void)A;
+- (unsigned long long);
+- (void);
+- (void);
+- (_Bool)istribution";
 - (void);
 - (_Bool);
 - (id);
@@ -110,37 +81,7 @@
 - (_Bool)%;
 
 // Remaining properties
-@property unsigned long long availableSpace; // @synthesize availableSpace=_availableSpace;
-@property _Bool canBeDeleted; // @synthesize canBeDeleted=_canBeDeleted;
-@property _Bool canSupportRecoveryPartition; // @synthesize canSupportRecoveryPartition=_canSupportRecoveryPartition;
-@property(readonly) NSString *contentDiskIdentifier; // @synthesize contentDiskIdentifier=_contentDiskIdentifier;
-@property(retain) NSImage *diskIcon; // @synthesize diskIcon=_diskIcon;
-@property(retain) NSString *diskIdentifier; // @synthesize diskIdentifier=_diskIdentifier;
-@property unsigned long long freeSpace; // @synthesize freeSpace=_freeSpace;
-@property _Bool isDiskImage; // @synthesize isDiskImage=_isDiskImage;
-@property _Bool isEjectable; // @synthesize isEjectable=_isEjectable;
-@property _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property _Bool isLocked; // @synthesize isLocked=_isLocked;
-@property _Bool isNetwork; // @synthesize isNetwork=_isNetwork;
-@property _Bool isOSInternal; // @synthesize isOSInternal=_isOSInternal;
-@property _Bool isObserving; // @synthesize isObserving=_isObserving;
-@property _Bool isSolidState; // @synthesize isSolidState=_isSolidState;
-@property _Bool isValid; // @synthesize isValid=_isValid;
-@property _Bool isWholeDisk; // @synthesize isWholeDisk=_isWholeDisk;
-@property _Bool isWritable; // @synthesize isWritable=_isWritable;
-@property unsigned long long maximumDiskSize; // @synthesize maximumDiskSize=_maximumDiskSize;
-@property unsigned long long minimumDiskSize; // @synthesize minimumDiskSize=_minimumDiskSize;
-@property(retain) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
 @property(retain) NSLock *observingLock; // @synthesize observingLock=_observingLock;
-@property(retain) NSString *protocol; // @synthesize protocol=_protocol;
-@property unsigned long long purgeableSpace; // @synthesize purgeableSpace=_purgeableSpace;
-@property(retain) SKDisk *representedDisk; // @synthesize representedDisk=_representedDisk;
-@property(retain) NSString *role; // @synthesize role=_role;
-@property _Bool supportsJournaling; // @synthesize supportsJournaling=_supportsJournaling;
-@property unsigned long long totalSpace; // @synthesize totalSpace=_totalSpace;
-@property(retain) NSString *type; // @synthesize type=_type;
-@property(retain) NSString *volumeName; // @synthesize volumeName=_volumeName;
-@property(retain) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

@@ -7,46 +7,52 @@
 #import <CloudKitDaemon/CKDBackingAccount.h>
 
 @class NSString;
-@protocol CKDTestAccountProtocol, CKDTestDeviceProtocol;
+@protocol CKDTestAccountProtocol;
 
 @interface CKDBackingMockAccount : CKDBackingAccount
 {
     NSString *_dsid;
-    id <CKDTestAccountProtocol> _testAccount;
-    id <CKDTestDeviceProtocol> _testDevice;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9h;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setBlacklistedStatesHistory: /* Error: Ran out of types for this method. */;
+- (id)insertNewObjectForEntityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)allTrustedPeersWithCurrentRecoveryKeyWithError: /* Error: Ran out of types for this method. */;
+- (id)b;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id)ey;
-- (id)KeySyncToPopulateCurrentIdentityForServiceType: /* Error: Ran out of types for this method. */;
-- (id)ageWithError: /* Error: Ran out of types for this method. */;
+- (id)QQDDBBGRFJE
+Qy1VQ1JULVNVQkNBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaDc2O/MruYvP
+VPaUbKR7RRzn66B14/8KoUMsEDb7nHkGEMX6eC+0gStGHe4HYMrLyWcap1tDFYmE
+DykGQ3uM2aN7MHkwHQYDVR0OBBYEFLSqOkOtG+V+zgoMOBq10hnLlTWzMA8GA1Ud
+EwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUWO/WvsWCsFTNGKaEraL2e3s6f88wDgYD
+VR0PAQH/BAQDAgEGMBYGCSqGSIb3Y2QGLAEB/wQGFgR1Y3J0MAoGCCqGSM49BAMC
+A2kAMGYCMQDf5zNiiKN/Jqms1w+3CDYkESOPieJMpEkLe9a0UjWXEBDL0VEsq/Cd
+E3aKXkc6R10CMQDS4MiWiymY+Rxkvy/hicDDQqI/BL+N3LHqzJZUuw2Sx0afDX7B
+6LyKk+sLq4urkMY=
+-----END CERTIFICATE-----;
+- (id)protectionInfoPublicKey;
+- (id)needsUserKeySyncToPopulateCurrentIdentityForServiceType: /* Error: Ran out of types for this method. */;
+- (id)lastSentCapabilitiesAndUsageWithError: /* Error: Ran out of types for this method. */;
 - (void)ult"16;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKDTestAccountProtocol> testAccount; // @synthesize testAccount=_testAccount;
-@property(readonly, nonatomic) id <CKDTestDeviceProtocol> testDevice; // @synthesize testDevice=_testDevice;
 
 @end
 

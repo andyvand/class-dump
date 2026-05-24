@@ -9,22 +9,20 @@
 @interface SPBeaconSharingAppBundleIdentifier
 {
     NSString *_bundleIdentifier;
-    NSString *_appName;
 }
 
 + (_Bool);
 - (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)BlackholeGroupChatRestoredByAddingContact;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 
 @end

@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSString;
+@class CSSuggestion;
 
 @interface MFCriterionSearchContext
 {
     CSSuggestion *_updatedSuggestion;
-    NSString *_userTypedString;
-    NSString *_sessionID;
-    NSString *_queryID;
 }
 
 - (id);
 - (id);
+- (id)Level 2;
+- (id)M;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool)th:create: /* Error: Ran out of types for this method. */;
+- (_Bool)mailboxForRelativePath:isFilesystemPath:create: /* Error: Ran out of types for this method. */;
 - (id)4;
 - (id){public}s for %ld mailbox(es);
 - (void)è;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, copy, nonatomic) NSString *queryID; // @synthesize queryID=_queryID;
-@property(readonly, copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 @property(readonly, copy, nonatomic) CSSuggestion *updatedSuggestion; // @synthesize updatedSuggestion=_updatedSuggestion;
-@property(readonly, copy, nonatomic) NSString *userTypedString; // @synthesize userTypedString=_userTypedString;
 
 @end
 

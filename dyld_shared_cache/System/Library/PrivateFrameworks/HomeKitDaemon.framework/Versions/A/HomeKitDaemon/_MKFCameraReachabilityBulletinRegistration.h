@@ -6,41 +6,25 @@
 
 #import <HomeKitDaemon/_MKFBulletinRegistration.h>
 
-@class MKFCameraReachabilityBulletinRegistrationDatabaseID, NSArray, NSDate, NSString, NSUUID;
-@protocol MKFAccessory, MKFGuest, MKFHome, MKFUser;
+@class _MKFAccessory;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCameraReachabilityBulletinRegistration : _MKFBulletinRegistration
 {
 }
 
-+ (id);
-+ (id);
++ (id)F
+;
++ (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)b;
 - (id);
 - (id)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(readonly, copy, nonatomic) MKFCameraReachabilityBulletinRegistrationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
+@property(retain, nonatomic) _MKFAccessory *accessory; // @dynamic accessory;
 
 @end
 

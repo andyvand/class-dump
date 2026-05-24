@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)_validateAndParseAppEvents: /* Error: Ran out of types for this method. */;
+- (_Bool)d:%@ /* Error: Ran out of types for this method. */;
 - (Class)ÔAq&!0Dù1*ð1Â0@ù
 × ;
 

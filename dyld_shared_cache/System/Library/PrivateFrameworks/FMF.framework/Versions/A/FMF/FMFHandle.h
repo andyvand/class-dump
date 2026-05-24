@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface FMFHandle
 {
     _Bool _isFamilyMember;
-    _Bool _pending;
-    _Bool _reachable;
-    NSString *_identifier;
-    NSString *_serverId;
-    NSNumber *_dsid;
-    NSArray *_aliasServerIds;
-    NSArray *_invitationSentToIds;
-    NSDictionary *_expiresByGroupId;
-    NSString *_hashedDSID;
-    NSNumber *_trackingTimestamp;
-    NSNumber *_favoriteOrder;
-    NSString *__prettyNameInternal;
-    long long _idsStatus;
-    NSString *_qualifiedIdentifier;
-    NSString *__idsCorrelationIdentifierInternal;
 }
 
 + (id);
@@ -72,9 +57,131 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (void)indexToMoveNewPersonEntryToGivenPreviousSelection:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)ing>networking-wifi</string>
+					</array>
+				</dict>
+				<key>IMS Call KPI</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IMS Reg</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>iCloudDrive</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>clouddocs-diags</string>
+						<string>fileprovider-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>AccessoryInteraction</key>
+			<dict>
+				<key>FirmwareUpdate</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>AirTagDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>ULPN</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>Heuristics</key>
+				<dict>
+					<key>RxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>RxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>FailureThresholdExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>StorageDrivers</key>
+			<dict>
+				<key>AppleSDXC</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SDXC-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IONVMeFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IOSCSIFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>CONFIG_IDENTIFIER</key>
+	<string>diagnostic_actions</string>
+	<key>CONFIG_VERSION</key>
+	<integer>0</integer>
+</dict>
+</plist>
+;
 - (id);
 - (_Bool);
 - (id);
@@ -84,26 +191,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)eWithId:(_Bool)arg1 serverId: /* Error: Ran out of types for this method. */;
+- (void)handleWithId:(_Bool)arg1 serverId: /* Error: Ran out of types for this method. */;
 - (void)oriteOrder != nil;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *_idsCorrelationIdentifierInternal; // @synthesize _idsCorrelationIdentifierInternal=__idsCorrelationIdentifierInternal;
-@property(copy, nonatomic) NSString *_prettyNameInternal; // @synthesize _prettyNameInternal=__prettyNameInternal;
-@property(copy, nonatomic) NSArray *aliasServerIds; // @synthesize aliasServerIds=_aliasServerIds;
-@property(copy, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(copy, nonatomic) NSDictionary *expiresByGroupId; // @synthesize expiresByGroupId=_expiresByGroupId;
-@property(copy, nonatomic) NSNumber *favoriteOrder; // @synthesize favoriteOrder=_favoriteOrder;
-@property(copy, nonatomic) NSString *hashedDSID; // @synthesize hashedDSID=_hashedDSID;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property long long idsStatus; // @synthesize idsStatus=_idsStatus;
-@property(copy, nonatomic) NSArray *invitationSentToIds; // @synthesize invitationSentToIds=_invitationSentToIds;
-@property(nonatomic) _Bool isFamilyMember; // @synthesize isFamilyMember=_isFamilyMember;
-@property(getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(copy) NSString *qualifiedIdentifier; // @synthesize qualifiedIdentifier=_qualifiedIdentifier;
-@property _Bool reachable; // @synthesize reachable=_reachable;
-@property(copy, nonatomic) NSString *serverId; // @synthesize serverId=_serverId;
-@property(copy) NSNumber *trackingTimestamp; // @synthesize trackingTimestamp=_trackingTimestamp;
 
 @end
 

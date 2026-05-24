@@ -6,34 +6,28 @@
 
 #import <CalendarUIKit/CUIKDescriptionGenerator.h>
 
-@class NSDateFormatter, NSNumberFormatter;
+@class NSNumberFormatter;
 
 @interface CUIKNotificationDescriptionGenerator : CUIKDescriptionGenerator
 {
     NSNumberFormatter *_numberFormatter;
-    NSDateFormatter *_dateFormatter;
-    NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_dateTimeFormatter;
 }
 
-+ (id)ª*÷ýã	ß@ùô;
-+ (id);
-+ (id)Ò0ÁÚáªP¹bBùqÝÒ0
-ÁÚâªN;
 + (id);
 + (id);
 + (id);
++ (id)will resume %@;
++ (id)?0@"NSString"8Q16^B24;
++ (id)eanup tasks for %@;
 + (id);
-- (id)¸ð;
-- (id)ø´#Ñàªç´[ø
-@ùß;
-- (id)õ;
+- (id);
 - (id);
-- (id)ªàªôªõªáªâªñ	ªñÃîòQ	?×;
-- (id)10@ù
-?×é;
-- (id)[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLMingleUtility.m;
 - (id);
 - (void)@24@32;
 

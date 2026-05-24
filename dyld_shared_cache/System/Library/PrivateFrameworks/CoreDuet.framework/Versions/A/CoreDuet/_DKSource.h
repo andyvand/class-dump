@@ -4,64 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _DKSource
 {
     NSString *_sourceID;
-    NSString *_bundleID;
-    NSString *_itemID;
-    NSString *_groupID;
-    NSString *_deviceID;
-    NSNumber *_userID;
-    NSString *_intentID;
 }
 
-+ (id);
-+ (id);
++ (id)i;
++ (id)oC;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id)n;
++ (id)_DKSyncCoordinatorDidCreateDeletionChangeSetNotification;
 - (id);
 - (void);
+- (id)k;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)TYPE = CFNAccount];
 - (id);
 - (id);
-- (void);
+- (void)@9;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly) NSString *groupID; // @synthesize groupID=_groupID;
 @property(readonly) unsigned long long hash;
-@property(retain) NSString *intentID; // @synthesize intentID=_intentID;
-@property(readonly) NSString *itemID; // @synthesize itemID=_itemID;
-@property(readonly) NSString *sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly) Class superclass;
-@property(readonly) NSString *syncDeviceID;
-@property(retain) NSNumber *userID; // @synthesize userID=_userID;
 
 @end
 

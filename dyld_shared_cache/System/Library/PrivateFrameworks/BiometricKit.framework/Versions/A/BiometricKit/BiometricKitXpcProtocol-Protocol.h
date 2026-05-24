@@ -5,5 +5,22 @@
 //
 
 @protocol BiometricKitXpcProtocol
+- (void);
+- (void);
+- (void)9;
+- (void)))(;
+- (void)pace %@;
+- (void);
+- (void)N14legacy_drawing10ParametersE;
+- (void);
+- (void)Zyyy;
+- (void)7;
+- (void);
+- (void)e;
+- (void)%@>;
+- (void)_licenseAgreementText;
+- (void)ǉ;
+- (void);
+- (void);
 @end
 

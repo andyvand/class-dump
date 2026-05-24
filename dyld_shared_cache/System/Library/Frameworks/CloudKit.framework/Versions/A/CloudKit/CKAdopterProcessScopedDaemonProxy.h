@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKXPCConnection;
-@protocol CKXPCAdopterProcessScopedDaemon, NSObject;
+@protocol CKXPCAdopterProcessScopedDaemon;
 
 @interface CKAdopterProcessScopedDaemonProxy
 {
     _Bool _hasValidAdopterProcessScopedDaemonProxyCreator;
-    id <CKXPCAdopterProcessScopedDaemon> _adopterProcessScopedDaemonProxyCreator;
-    id <NSObject> _connectionInterruptedObserver;
-    CKXPCConnection *_connection;
 }
 
-+ (id);
++ (id)N;
 - (void);
 - (void);
 - (_Bool);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (void);
@@ -32,9 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <CKXPCAdopterProcessScopedDaemon> adopterProcessScopedDaemonProxyCreator; // @synthesize adopterProcessScopedDaemonProxyCreator=_adopterProcessScopedDaemonProxyCreator;
-@property(readonly, nonatomic) __weak CKXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) id <NSObject> connectionInterruptedObserver; // @synthesize connectionInterruptedObserver=_connectionInterruptedObserver;
-@property _Bool hasValidAdopterProcessScopedDaemonProxyCreator; // @synthesize hasValidAdopterProcessScopedDaemonProxyCreator=_hasValidAdopterProcessScopedDaemonProxyCreator;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SoundAnalysis.CombinePublisherFromXPCAdapter
 {
     id publisher;
-    id connectionState;
-    id taskQueue;
 }
 
 @end

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFAnchoredSearchAnchorsLoader, EMFEmojiLocaleData, NSArray;
+@class EMFAnchoredSearchAnchorsLoader;
 
 @interface EMFAnchoredSearchManager
 {
     EMFAnchoredSearchAnchorsLoader *_anchorsLoader;
-    EMFEmojiLocaleData *_localeData;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)sCompact=false;
+- (id)@"SafariWebBookmark"8Q16^B24;
+- (id)expandedTableCellView;
+- (id)compactFolderTableCellViewIdentifier;
+- (id)external app.;
+- (id)SafariAdvancedPreferencesView;
 - (void);
 - (void);
 - (void);
@@ -26,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EMFAnchoredSearchAnchorsLoader *anchorsLoader; // @synthesize anchorsLoader=_anchorsLoader;
-@property(nonatomic) EMFEmojiLocaleData *localeData; // @synthesize localeData=_localeData;
-@property(readonly, nonatomic) NSArray *localizedLeftHandAnchors;
-@property(readonly, nonatomic) NSArray *localizedRightHandAnchors;
 
 @end
 

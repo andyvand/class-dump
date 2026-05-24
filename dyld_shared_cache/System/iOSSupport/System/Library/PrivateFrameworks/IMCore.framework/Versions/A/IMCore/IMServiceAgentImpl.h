@@ -11,12 +11,12 @@
 }
 
 + (id);
-+ (id);
++ (id)�h;
 + (void);
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void)ID;
 + (id),°@;
 - (unsigned long long);
 - (void);
@@ -29,11 +29,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (id);
-- (id)ccountAuthorizationTokenChangedNotification;
+- (id)__kIMAccountAuthorizationTokenChangedNotification;
 
 @end
 

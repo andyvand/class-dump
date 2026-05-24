@@ -10,7 +10,6 @@
 @interface REMCRMutableAttributedString
 {
     id <REMCRMutableAttributedStringEditObserver> _editObserver;
-    NSMutableAttributedString *_backingStore;
 }
 
 + (id);
@@ -19,18 +18,18 @@
 - (void);
 - (void);
 - (id);
+- (id)%;
 - (id);
 - (id);
+- (Class)h;
 - (id);
-- (Class);
+- (unsigned long long);
+- (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)4H;
 - (void);
 - (void);
-- (id);
+- (id)8@16@24@32@40;
 - (id);
 - (void);
 - (void);
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableAttributedString *backingStore; // @synthesize backingStore=_backingStore;
-@property(nonatomic) __weak id <REMCRMutableAttributedStringEditObserver> editObserver; // @synthesize editObserver=_editObserver;
 
 @end
 

@@ -6,15 +6,13 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, RFSummaryItemStandardCardSection, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
+@class RFSummaryItemStandardCardSection;
 
 @interface RFExpandableStandardCardSection : SFCardSection
 {
     struct {
         unsigned int summary_item_standard_card_section:1;
     } _has;
-    RFSummaryItemStandardCardSection *_summary_item_standard_card_section;
-    NSArray *_expanding_component_content;
 }
 
 + (_Bool);
@@ -23,66 +21,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)insertItemsAtStart:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setdbgFileWithAsset:(id)arg1 dbgFilePath:photoFilename: /* Error: Ran out of types for this method. */;
+- (id)s.aperture;
 - (id);
 - (id);
 - (void)onItem;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(copy, nonatomic) NSArray *expanding_component_content; // @synthesize expanding_component_content=_expanding_component_content;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
 @property(retain, nonatomic) RFSummaryItemStandardCardSection *summary_item_standard_card_section; // @synthesize summary_item_standard_card_section=_summary_item_standard_card_section;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

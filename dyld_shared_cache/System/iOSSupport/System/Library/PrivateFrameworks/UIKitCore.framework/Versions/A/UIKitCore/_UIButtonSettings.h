@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIButtonSettings
 {
     _Bool _highlightMode;
-    _Bool _highlightSubclasses;
-    _Bool _highlightIgnoresBars;
-    _Bool _highlightBelow;
-    _Bool _highlightAlternateColor;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)missing mapping for MPModelPropertyRadioStationShortEditorNotes;
 - (void)Ô ;
 - (void)a°1Â0@ù
 × ;
 - (_Bool)× ;
-- (void)ismissalPreview;
-- (void)alScrollingDecelerationRate;
-- (void)enPossible;
+- (void)stashedDismissalPreview;
+- (void)orthogonalScrollingDecelerationRate;
+- (void)_supportsBecomeFirstResponderWhenPossible;
 - (_Bool)y",R,N,V_fixedItems;
 - (_Bool)ureDelegate>",W,N,V_oneFingerPanDelegate;
 - (void)as a custom view in a UINavigationBar or UIToolbar;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightAlternateColor; // @synthesize highlightAlternateColor=_highlightAlternateColor;
-@property(nonatomic) _Bool highlightBelow; // @synthesize highlightBelow=_highlightBelow;
-@property(nonatomic) _Bool highlightIgnoresBars; // @synthesize highlightIgnoresBars=_highlightIgnoresBars;
 @property(nonatomic) _Bool highlightMode; // @synthesize highlightMode=_highlightMode;
-@property(nonatomic) _Bool highlightSubclasses; // @synthesize highlightSubclasses=_highlightSubclasses;
-@property(readonly) Class superclass;
 
 @end
 

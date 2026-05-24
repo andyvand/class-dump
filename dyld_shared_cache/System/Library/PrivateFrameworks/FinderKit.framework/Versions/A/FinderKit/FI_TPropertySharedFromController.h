@@ -6,30 +6,27 @@
 
 #import <FinderKit/FI_IPropertyValueController.h>
 
-@class FI_TReturnToSenderPillView, NSMenu, NSString, SWAttributionView;
+@class SWAttributionView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPropertySharedFromController : FI_IPropertyValueController
 {
     struct TFENodeVector _nodes;
-    SWAttributionView *_attributionView;
-    FI_TReturnToSenderPillView *_originatorView;
-    NSMenu *_contextMenu;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)BOX.;
 - (_Bool);
 - (id);
-- (_Bool)tPrefChanged;
+- (_Bool)sortFoldersFirstPrefChanged;
 - (void)Ä;
 - (void)ð@È;
 - (void)_details15callable_holderIZ52-[FI_TColumnPreviewInfoViewController expandToggle:(id)arg1 ]E3$_8vJEEE;
@@ -37,15 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) SWAttributionView *attributionView; // @synthesize attributionView=_attributionView;
-@property(retain, nonatomic) NSMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FI_TReturnToSenderPillView *originatorView; // @synthesize originatorView=_originatorView;
-@property(readonly) Class superclass;
 
 @end
 

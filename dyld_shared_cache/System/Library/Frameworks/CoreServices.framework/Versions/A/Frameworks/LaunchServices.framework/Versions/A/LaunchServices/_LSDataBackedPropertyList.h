@@ -6,23 +6,21 @@
 
 #import <LaunchServices/_LSLazyPropertyList.h>
 
-@class NSData, _LSPlistHint;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _LSDataBackedPropertyList : _LSLazyPropertyList
 {
     NSData *_rawPlistData;
-    _LSPlistHint *_plistHint;
-    struct unfair_lock_mutex _lock;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)uctType"24@0:8@"NSObject<OS_dispatch_data>"16 /* Error: Ran out of types for this method. */;
+- (_Bool)B;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)h ;
+- (void)L ;
 - (id);
 - (id);
 - (_Bool);

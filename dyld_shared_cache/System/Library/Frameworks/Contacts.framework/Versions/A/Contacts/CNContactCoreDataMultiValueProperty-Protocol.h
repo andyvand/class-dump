@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactCoreDataMultiValueProperty
+- (void)FAFamilyFetchActivityScheduler %s called;
 @end
 

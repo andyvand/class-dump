@@ -6,34 +6,25 @@
 
 #import <CPAnalytics/CPAnalyticsEventMatcher.h>
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface CPAnalyticsCoreDuetEventMatcher : CPAnalyticsEventMatcher
 {
     CPAnalyticsEventMatcher *_eventMatcher;
-    _Bool _matchNextEvent;
-    NSString *_datasetName;
-    NSString *_identifierPropertyName;
-    NSString *_subsetPropertyName;
-    NSObject *_subsetPropertyValue;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1	?׿F;
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *datasetName; // @synthesize datasetName=_datasetName;
-@property(readonly, nonatomic) NSString *identifierPropertyName; // @synthesize identifierPropertyName=_identifierPropertyName;
-@property(readonly, nonatomic) _Bool matchNextEvent; // @synthesize matchNextEvent=_matchNextEvent;
-@property(readonly, nonatomic) NSString *subsetPropertyName; // @synthesize subsetPropertyName=_subsetPropertyName;
-@property(readonly, nonatomic) NSObject *subsetPropertyValue; // @synthesize subsetPropertyValue=_subsetPropertyValue;
 
 @end
 

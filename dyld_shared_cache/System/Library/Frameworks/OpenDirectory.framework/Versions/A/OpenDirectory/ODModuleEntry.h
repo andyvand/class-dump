@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, ODMappings;
+@class ODMappings;
 
 @interface ODModuleEntry
 {
     ODMappings *mappings;
-    NSArray *supportedOptions;
-    NSString *name;
-    NSString *xpcServiceName;
-    NSMutableDictionary *options;
-    NSString *uuidString;
 }
 
 + (id);
@@ -21,24 +16,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)IcEENS_9allocatorIcEEEENS_10shared_ptrIN3MIL11IRParameterEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SB_EEEEEENS_14default_deleteISK_EENS5_ISK_EEEE;
+- (id);
+- (void);
+- (id)G;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)constraintGreaterThanOrEqualToAnchor:(id)arg1 multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)\V;
 
 // Remaining properties
 @property(retain) ODMappings *mappings; // @synthesize mappings;
-@property(copy) NSString *name; // @synthesize name;
-@property(readonly, copy) NSArray *supportedOptions;
-@property(copy) NSString *uuidString; // @synthesize uuidString;
-@property(copy) NSString *xpcServiceName; // @synthesize xpcServiceName;
 
 @end
 

@@ -9,18 +9,17 @@
 @interface ICCryptoConvergenceController
 {
     NSManagedObjectContext *_workerContext;
-    NSProgress *_progress;
 }
 
 + (void);
-+ (id);
++ (id)refreshObject:mergeChanges: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (void);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) NSManagedObjectContext *workerContext; // @synthesize workerContext=_workerContext;
 
 @end
 

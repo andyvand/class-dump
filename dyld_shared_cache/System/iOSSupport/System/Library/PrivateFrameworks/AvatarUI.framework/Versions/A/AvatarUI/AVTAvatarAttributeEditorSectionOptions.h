@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPose, AVTStickerConfiguration, NSArray, NSString;
+@class NSString;
 
 @interface AVTAvatarAttributeEditorSectionOptions
 {
     _Bool _showsLabel;
-    NSString *_framingMode;
-    AVTAvatarPose *_poseOverride;
-    NSArray *_presetOverrides;
-    unsigned long long _displayMode;
-    AVTStickerConfiguration *_stickerConfiguration;
 }
 
 - (id);
@@ -29,12 +24,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
 @property(readonly, copy, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;
-@property(readonly, copy, nonatomic) AVTAvatarPose *poseOverride; // @synthesize poseOverride=_poseOverride;
-@property(readonly, copy, nonatomic) NSArray *presetOverrides; // @synthesize presetOverrides=_presetOverrides;
-@property(readonly, nonatomic) _Bool showsLabel; // @synthesize showsLabel=_showsLabel;
-@property(readonly, copy, nonatomic) AVTStickerConfiguration *stickerConfiguration; // @synthesize stickerConfiguration=_stickerConfiguration;
 
 @end
 

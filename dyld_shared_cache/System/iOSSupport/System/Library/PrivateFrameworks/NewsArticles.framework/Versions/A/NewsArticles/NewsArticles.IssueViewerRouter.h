@@ -7,7 +7,6 @@
 @interface NewsArticles.IssueViewerRouter
 {
     id controller;
-    id resolver;
 }
 
 @end

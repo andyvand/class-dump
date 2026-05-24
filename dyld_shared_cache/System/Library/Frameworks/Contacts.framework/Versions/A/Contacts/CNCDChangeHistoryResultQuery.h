@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDChangeHistoryClient, CNChangeHistoryAnchor, NSManagedObjectContext, NSSet;
+@class CNCDChangeHistoryClient;
 
 __attribute__((visibility("hidden")))
 @interface CNCDChangeHistoryResultQuery
 {
     _Bool _shouldUnifyResults;
-    _Bool _includeGroupChanges;
-    CNCDChangeHistoryClient *_client;
-    CNChangeHistoryAnchor *_startingAnchor;
-    NSManagedObjectContext *_context;
-    NSSet *_excludedAuthors;
 }
 
 + (id);
@@ -22,31 +17,26 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id)_itemPendingScanningDiskNumberOfChildrenPendingReconciliation;
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void)rProvider: /* Error: Ran out of types for this method. */;
+- (void)unitTestingEnvironmentWithSchedulerProvider:loggerProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCDChangeHistoryClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSSet *excludedAuthors; // @synthesize excludedAuthors=_excludedAuthors;
-@property(readonly, nonatomic) _Bool includeGroupChanges; // @synthesize includeGroupChanges=_includeGroupChanges;
-@property(readonly, nonatomic) _Bool shouldUnifyResults; // @synthesize shouldUnifyResults=_shouldUnifyResults;
-@property(readonly, nonatomic) CNChangeHistoryAnchor *startingAnchor; // @synthesize startingAnchor=_startingAnchor;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RKExportSettings
 {
     _Bool _blackPointCompensation;
-    _Bool _includeGPS;
-    _Bool _includeIPTC;
-    _Bool _skipBurstMasterExport;
-    int _sizeStyle;
-    long long _imageFormat;
-    double _imageQuality;
-    long long _destinationPixelWidth;
-    long long _destinationPixelHeight;
-    long long _colorSpace;
-    unsigned long long _renderingIntent;
-    NSString *_movieExportQuality;
 }
 
 - (_Bool);
@@ -49,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -57,18 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool blackPointCompensation; // @synthesize blackPointCompensation=_blackPointCompensation;
-@property(nonatomic) long long colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) long long destinationPixelHeight; // @synthesize destinationPixelHeight=_destinationPixelHeight;
-@property(nonatomic) long long destinationPixelWidth; // @synthesize destinationPixelWidth=_destinationPixelWidth;
 @property(nonatomic) long long imageFormat; // @synthesize imageFormat=_imageFormat;
-@property(nonatomic) double imageQuality; // @synthesize imageQuality=_imageQuality;
-@property(nonatomic) _Bool includeGPS; // @synthesize includeGPS=_includeGPS;
-@property(nonatomic) _Bool includeIPTC; // @synthesize includeIPTC=_includeIPTC;
-@property(retain, nonatomic) NSString *movieExportQuality; // @synthesize movieExportQuality=_movieExportQuality;
-@property(nonatomic) unsigned long long renderingIntent; // @synthesize renderingIntent=_renderingIntent;
-@property(nonatomic) int sizeStyle; // @synthesize sizeStyle=_sizeStyle;
-@property(nonatomic) _Bool skipBurstMasterExport; // @synthesize skipBurstMasterExport=_skipBurstMasterExport;
 
 @end
 

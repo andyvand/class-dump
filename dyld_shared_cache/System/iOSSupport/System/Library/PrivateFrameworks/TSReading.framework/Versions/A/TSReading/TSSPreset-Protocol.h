@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol TSSPreset
+- (NSString *)icit;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *presetKind;

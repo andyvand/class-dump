@@ -12,7 +12,7 @@
 - (int);
 - (void);
 - (int);
-- (char *);
+- (char *)initWithImage:(unsigned long long)arg1;
 
 @end
 

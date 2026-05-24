@@ -6,14 +6,9 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2BatteryView, NSNumberFormatter;
-
 @interface LUI2BatteryViewController : LUI2ViewController
 {
     int _timeRemainingToken;
-    int _lowBatteryToken;
-    NSNumberFormatter *_percentFormatter;
-    LUI2BatteryView *_batteryView;
 }
 
 - (int);
@@ -21,9 +16,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
@@ -33,12 +28,9 @@
 - (void);
 - (void);
 - (void);
-- (void)stCommands;
+- (void)sharedTestCommands;
 
 // Remaining properties
-@property(retain) LUI2BatteryView *batteryView; // @synthesize batteryView=_batteryView;
-@property int lowBatteryToken; // @synthesize lowBatteryToken=_lowBatteryToken;
-@property(retain) NSNumberFormatter *percentFormatter; // @synthesize percentFormatter=_percentFormatter;
 @property int timeRemainingToken; // @synthesize timeRemainingToken=_timeRemainingToken;
 
 @end

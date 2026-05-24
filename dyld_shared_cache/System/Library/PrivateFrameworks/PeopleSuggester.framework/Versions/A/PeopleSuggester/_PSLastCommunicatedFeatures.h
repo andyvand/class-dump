@@ -8,12 +8,12 @@
 {
 }
 
-+ (double);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
++ (double)_companionSyncUploadStarted;
++ (id)_appleNeuralEngineCpuTimeInNs;
++ (id)_adaptiveVolumeUserPreferences;
++ (id)_adaptiveSiriVolumeTTSVolumeQueried;
++ (id)Ti,N,V_modelAppConfidence;
++ (int)arameter;
 
 @end
 

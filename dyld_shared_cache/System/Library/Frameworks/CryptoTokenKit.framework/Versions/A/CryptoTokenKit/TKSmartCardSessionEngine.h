@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, TKSmartCardSlotEngine;
+@class TKSmartCardSlotEngine;
 
 __attribute__((visibility("hidden")))
 @interface TKSmartCardSessionEngine
 {
     TKSmartCardSlotEngine *_slot;
-    _Bool _transmitting;
-    _Bool _valid;
-    _Bool _active;
-    long long _endPolicy;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -28,13 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)_LAMKBGetDeviceConfigurations;
 - (_Bool);
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) __weak NSXPCConnection *connection; // @synthesize connection=_connection;
-@property long long endPolicy; // @synthesize endPolicy=_endPolicy;
 @property _Bool valid; // @synthesize valid=_valid;
 
 @end

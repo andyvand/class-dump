@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageDeliveredMessage
 {
     unsigned long long _timestamp;
-    unsigned int _deliveryDuration;
-    NSString *_guid;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deliveryDuration:1;
-    } _has;
 }
 
 - (void);
@@ -23,15 +15,15 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)!L;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -40,12 +32,7 @@
 - (void)á	;
 
 // Remaining properties
-@property(nonatomic) unsigned int deliveryDuration; // @synthesize deliveryDuration=_deliveryDuration;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasDeliveryDuration;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

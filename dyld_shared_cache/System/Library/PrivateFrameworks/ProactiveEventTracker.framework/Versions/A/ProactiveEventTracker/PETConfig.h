@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PETConfig
 {
     unsigned long long _version;
-    NSDictionary *_messageGroups;
-    NSDictionary *_configDictionary;
 }
 
 - (_Bool);
@@ -19,28 +15,27 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_;
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)&;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)armGadget",&,V_gadget;
 - (_Bool);
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)f;
 - (_Bool);
 - (void);
-- (id);
+- (id)DEFAULT_ACCOUNT_DESCRIPTION;
 
 // Remaining properties
-@property(readonly) NSDictionary *configDictionary; // @synthesize configDictionary=_configDictionary;
 @property(readonly) unsigned long long version; // @synthesize version=_version;
 
 @end

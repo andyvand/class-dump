@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSString, NSURL, NSURLSession, NSURLSessionConfiguration, SUCoreEvent, SUCoreEventReporterDelegate, SUCorePersistedState;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SUCoreEventReporter
 {
     _Bool _splunkAccessCreated;
-    _Bool _eventExtensionsDetermined;
-    _Bool _dropEventsOnSendFailure;
-    int _activeSendTaskCount;
-    NSMutableArray *_awaitingRetry;
-    NSURL *_splunkURL;
-    NSObject<OS_dispatch_queue> *_splunkStateQueue;
-    NSURLSessionConfiguration *_inProcessConfig;
-    NSOperationQueue *_inProcessOperationQueue;
-    NSURLSession *_inProcessSession;
-    SUCoreEventReporterDelegate *_reporterDelegate;
-    NSString *_storeToPath;
-    NSString *_persistedStatePath;
-    long long _accessControl;
-    SUCorePersistedState *_activeEventsState;
-    SUCoreEvent *_lastErrorEvent;
-    NSMutableDictionary *_eventExtensions;
-    CDUnknownBlockType _onceIdleCompletion;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (long long);
@@ -39,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -53,12 +35,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)tV;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -85,64 +67,47 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)@;
+- (long long)1	?׿;
 - (void);
 - (long long);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id)extRef, JSObjectRef, JSObjectRef, size_t, const JSValueRef *, JSValueRef *);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
+- (id)<(=;
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)O-;
+- (void);
+- (id);
+- (id)setSelectedLeftSkinToneCellIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long accessControl; // @synthesize accessControl=_accessControl;
-@property(retain, nonatomic) SUCorePersistedState *activeEventsState; // @synthesize activeEventsState=_activeEventsState;
-@property(nonatomic) int activeSendTaskCount; // @synthesize activeSendTaskCount=_activeSendTaskCount;
 @property(retain, nonatomic) NSMutableArray *awaitingRetry; // @synthesize awaitingRetry=_awaitingRetry;
-@property(nonatomic) _Bool dropEventsOnSendFailure; // @synthesize dropEventsOnSendFailure=_dropEventsOnSendFailure;
-@property(retain, nonatomic) NSMutableDictionary *eventExtensions; // @synthesize eventExtensions=_eventExtensions;
-@property(nonatomic) _Bool eventExtensionsDetermined; // @synthesize eventExtensionsDetermined=_eventExtensionsDetermined;
-@property(retain, nonatomic) NSURLSessionConfiguration *inProcessConfig; // @synthesize inProcessConfig=_inProcessConfig;
-@property(retain, nonatomic) NSOperationQueue *inProcessOperationQueue; // @synthesize inProcessOperationQueue=_inProcessOperationQueue;
-@property(retain, nonatomic) NSURLSession *inProcessSession; // @synthesize inProcessSession=_inProcessSession;
-@property(retain, nonatomic) SUCoreEvent *lastErrorEvent; // @synthesize lastErrorEvent=_lastErrorEvent;
-@property(copy, nonatomic) CDUnknownBlockType onceIdleCompletion; // @synthesize onceIdleCompletion=_onceIdleCompletion;
-@property(retain, nonatomic) NSString *persistedStatePath; // @synthesize persistedStatePath=_persistedStatePath;
-@property(retain, nonatomic) SUCoreEventReporterDelegate *reporterDelegate; // @synthesize reporterDelegate=_reporterDelegate;
-@property(nonatomic) _Bool splunkAccessCreated; // @synthesize splunkAccessCreated=_splunkAccessCreated;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *splunkStateQueue; // @synthesize splunkStateQueue=_splunkStateQueue;
-@property(retain, nonatomic) NSURL *splunkURL; // @synthesize splunkURL=_splunkURL;
-@property(retain, nonatomic) NSString *storeToPath; // @synthesize storeToPath=_storeToPath;
 
 @end
 

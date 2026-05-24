@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKUserLegalAgreementConsent
 {
     _Bool _userConsented;
-    NSString *_identifier;
-    NSString *_passUniqueID;
-    unsigned long long _type;
-    NSString *_name;
-    NSString *_version;
-    NSURL *_agreementUrl;
 }
 
 + (_Bool);
@@ -28,25 +22,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)colocatedState;
+- (void)cFpoll;
 - (void);
 - (void);
 - (id);
 - (void),V_ephemeralPublicKey;
-- (void)enceIdentifier;
+- (void)keyReferenceIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *agreementUrl; // @synthesize agreementUrl=_agreementUrl;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool userConsented; // @synthesize userConsented=_userConsented;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

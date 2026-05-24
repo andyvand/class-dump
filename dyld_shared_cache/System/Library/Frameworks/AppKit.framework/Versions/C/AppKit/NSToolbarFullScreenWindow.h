@@ -10,17 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSToolbarFullScreenWindow : NSWindow
 {
     _Bool _forcingToolbarVisible;
-    _Bool _hotKeyNavigationForcingToolbarAndAuxViewVisible;
-    long long _childWindowOrderingPriority;
-    long long _menubarAutohidingCount;
-    _Bool _positionManagedByWindowServer;
-    _Bool _windowIsMoving;
-    struct CGPath *_cachedCornerPath;
 }
 
 + (Class);
-- (_Bool);
-- (void);
+- (_Bool)DeviceSupportsHDRDeferredProcessing;
+- (void)RegionalBehaviorNoPasscodeLocationTiles;
 - (struct CGRect);
 - (void);
 - (void);
@@ -29,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (struct CGRect)A;
 - (struct CGRect);
-- (struct CGRect);
-- (_Bool);
+- (_Bool)__AUTH_CONST;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+";
 - (void);
 - (_Bool);
 - (id);
@@ -50,54 +44,53 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)nloadTask"24@0:(struct CGPoint)arg1 8@"__NSCFTaskForClass"16;
+- (void):(long long)arg1 8@16@24q32@?40;
+- (_Bool)_doneInitialRead;
+- (_Bool)havior;
+- (id)sessionSendsLaunchEvents;
+- (id)eduling;
+- (_Bool)on;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (double);
+- (_Bool)ers don't match. Cookie = %@;
+- (_Bool)request for Connection %lld;
+- (_Bool)for setup of Connection %lld;
+- (_Bool)ialize %@;
+- (_Bool)open sql file. Error = %d. Path of the cookie file = %@;
+- (void)=%s};
+- (id)ateWithConnection():Asked to create with a NULL response! /* Error: Ran out of types for this method. */;
+- (void)ncremental;
+- (double)es Storage singleton;
 - (void);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)cpp;
+- (void)it has already been faulted in!;
+- (_Bool)%s (Hash %lx);
+- (id)rokerAgent;
+- (_Bool)_onqueue_resetAndReconnect;
+- (_Bool)t __CFArray>=^{__CFArray}^{__shared_weak_count}}24{shared_ptr<__CFError>=^{__CFError}^{__shared_weak_count}}40;
+- (void)HTTPS).;
+- (_Bool)Count;
+- (_Bool)em-shim.cpp;
+- (id)%@, Server:%@, Auth-Scheme:%@, Realm:%@, Port:%ld, Proxy:%@, Proxy-Type:%@ /* Error: Ran out of types for this method. */;
+- (id)KJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (id);
 - (void);
+- (id);
+- (void)EV;
 - (double);
-- (void)rSwipeSuccess;
+- (void)NSScrollBehaviorMinVelocityForSwipeSuccess;
 - (_Bool)@;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool positionManagedByWindowServer; // @synthesize positionManagedByWindowServer=_positionManagedByWindowServer;
-@property(nonatomic) _Bool windowIsMoving; // @synthesize windowIsMoving=_windowIsMoving;
 
 @end
 

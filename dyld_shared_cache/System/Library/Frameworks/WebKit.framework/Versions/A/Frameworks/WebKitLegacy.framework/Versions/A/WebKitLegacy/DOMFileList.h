@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (void);
+- (void)c}@] Retrieved media token data from keychain;
 - (unsigned int);
 
 // Remaining properties

@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface NSScrubberPendingChanges
 {
     NSMutableSet *_toBeRemoved;
-    NSMutableSet *_toReload;
-    NSMutableArray *_stagedAttributes;
-    long long _stagedAttributesStart;
-    long long _countDelta;
-    long long _selectedIndex;
 }
 
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (id)R;
 - (id);
 - (long long);
 - (id);
+- (id);
+- (void);
 - (void);
 - (long long);
 - (void);
+- (void)ne_tracker_build_trie_block_invoke;
+- (id);
+- (long long);
+- (id)ng set being deallocated %p
+;
+- (void);
+- (long long);
+- (void)destinationOfSymbolicLinkAtPath:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long countDelta; // @synthesize countDelta=_countDelta;
 @property long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) NSMutableArray *stagedAttributes; // @synthesize stagedAttributes=_stagedAttributes;
-@property(readonly) long long stagedAttributesStart; // @synthesize stagedAttributesStart=_stagedAttributesStart;
-@property(readonly) NSMutableSet *toBeRemoved; // @synthesize toBeRemoved=_toBeRemoved;
-@property(readonly) NSMutableSet *toReload; // @synthesize toReload=_toReload;
 
 @end
 

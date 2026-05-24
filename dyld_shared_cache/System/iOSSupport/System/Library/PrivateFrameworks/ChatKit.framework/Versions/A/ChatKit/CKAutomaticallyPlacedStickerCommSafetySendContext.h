@@ -6,37 +6,27 @@
 
 #import <ChatKit/CKCommSafetySendContext.h>
 
-@class CKMessagePartChatItem, CKStickerReactionSession, IMSticker;
+@class IMSticker;
 
 __attribute__((visibility("hidden")))
 @interface CKAutomaticallyPlacedStickerCommSafetySendContext : CKCommSafetySendContext
 {
     IMSticker *_sticker;
-    CKStickerReactionSession *_stickerReactionSession;
-    CKMessagePartChatItem *_chatItem;
-    CKMessagePartChatItem *_parentChatItem;
-    CDUnknownBlockType _animationCompletionHandler;
-    struct CGRect _stickerFrame;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)ilij;
 - (struct CGRect);
-- (id);
-- (id);
+- (id)h;
+- (id)ph">;
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType animationCompletionHandler; // @synthesize animationCompletionHandler=_animationCompletionHandler;
-@property(readonly, nonatomic) CKMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(readonly, nonatomic) CKMessagePartChatItem *parentChatItem; // @synthesize parentChatItem=_parentChatItem;
 @property(readonly, nonatomic) IMSticker *sticker; // @synthesize sticker=_sticker;
-@property(readonly, nonatomic) struct CGRect stickerFrame; // @synthesize stickerFrame=_stickerFrame;
-@property(readonly, nonatomic) CKStickerReactionSession *stickerReactionSession; // @synthesize stickerReactionSession=_stickerReactionSession;
 
 @end
 

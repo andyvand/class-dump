@@ -6,21 +6,11 @@
 
 #import <FTServices/FTMessageDelivery.h>
 
-@class NSMutableDictionary, NSString;
 @protocol FTMessageDeliveryAPSMobileNetworkManager, _FT_IDSOffGridConnectionMonitor;
 
 @interface FTMessageDelivery_APS : FTMessageDelivery
 {
     id <FTMessageDeliveryAPSMobileNetworkManager> _mobileNetworkManager;
-    Class _APSOutgoingMessageClass;
-    NSMutableDictionary *_ftMessageMap;
-    NSMutableDictionary *_startDateMap;
-    NSMutableDictionary *_bodyMap;
-    NSMutableDictionary *_apsMessageMap;
-    NSMutableDictionary *_timerMap;
-    NSMutableDictionary *_deathTimerMap;
-    NSMutableDictionary *_retriesMap;
-    id <_FT_IDSOffGridConnectionMonitor> _offGridConnectionMonitor;
 }
 
 + (id);
@@ -29,21 +19,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)sessionCacheIdentifier;
+- (void)initWithString:(id)arg1 attributes:(id)arg2;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)?;
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (id);
@@ -53,43 +43,36 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (id);
+- (long long)4;
+- (id);
 - (_Bool);
-- (id);
+- (id)stringForSystemVersion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)initWithFormat:(id)arg1;
 - (_Bool);
 - (id);
 - (void)ÔáÈ!AùO 1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <_FT_IDSOffGridConnectionMonitor> offGridConnectionMonitor; // @synthesize offGridConnectionMonitor=_offGridConnectionMonitor;
-@property(readonly) Class superclass;
 
 @end
 

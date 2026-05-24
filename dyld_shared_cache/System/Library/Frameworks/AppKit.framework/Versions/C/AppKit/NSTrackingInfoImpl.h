@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSMenuItem, NSString;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface NSTrackingInfoImpl
 {
     NSMenu *_menu;
-    NSMenuItem *_selectedItem;
-    NSMenuItem *_targetedItem;
-    struct CGRect _targetedItemFrame;
 }
 
-- (struct CGRect);
-- (id);
+- (struct CGRect)Lrs7l5cKWJ1Gk5ZzgMAKyQ;
+- (id)CUMH6bG4DFnu7ZREp5YkUQ;
 - (id);
 - (void);
 - (id);
-- (id)ithmetic;
+- (id)NSVectorArithmetic;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMenu *menu; // @synthesize menu=_menu;
-@property(readonly) NSMenuItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly) Class superclass;
-@property(readonly) NSMenuItem *targetedItem; // @synthesize targetedItem=_targetedItem;
-@property(readonly) struct CGRect targetedItemFrame; // @synthesize targetedItemFrame=_targetedItemFrame;
 
 @end
 

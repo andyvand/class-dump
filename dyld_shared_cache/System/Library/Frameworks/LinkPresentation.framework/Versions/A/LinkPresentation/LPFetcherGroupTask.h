@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPFetcher, LPFetcherResponse;
+@class LPFetcher;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherGroupTask
 {
     _Bool _hasStarted;
-    LPFetcher *_fetcher;
-    LPFetcherResponse *_response;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)reEventHandlerForActiveObjectINS4_29TunnelEndPointAssistanceEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void);
 - (void)°!CùHÐ1Â0@ù
 × ;
 - (_Bool),¤;
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) LPFetcher *fetcher; // @synthesize fetcher=_fetcher;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(retain, nonatomic) LPFetcherResponse *response; // @synthesize response=_response;
 
 @end
 

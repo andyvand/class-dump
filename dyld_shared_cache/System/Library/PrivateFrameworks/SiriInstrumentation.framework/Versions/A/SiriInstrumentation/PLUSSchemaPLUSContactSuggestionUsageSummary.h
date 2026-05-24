@@ -6,51 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSContactSuggestionUsageSummary : SISchemaInstrumentationMessage
 {
     unsigned long long _suggestionGenerationTimeSince1970InMs;
-    unsigned long long _timeUntilFirstActivationInMs;
-    unsigned long long _averageTimeBetweenActivationsInMs;
-    unsigned int _activationCount;
-    unsigned int _presentationCount;
-    unsigned int _confirmationSelectedCount;
-    unsigned int _disambiguationSelectedCount;
-    unsigned int _abandonmentCount;
-    int _domain;
-    struct {
-        unsigned int suggestionGenerationTimeSince1970InMs:1;
-        unsigned int timeUntilFirstActivationInMs:1;
-        unsigned int averageTimeBetweenActivationsInMs:1;
-        unsigned int activationCount:1;
-        unsigned int presentationCount:1;
-        unsigned int confirmationSelectedCount:1;
-        unsigned int disambiguationSelectedCount:1;
-        unsigned int abandonmentCount:1;
-        unsigned int domain:1;
-    } _has;
 }
 
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)e;
+- (unsigned long long)4;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,7 +40,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,39 +54,21 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)endRouteCoordinate;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)sages per chat;
 - (id);
 - (id);
 - (int)0@ù
 × ;
-- (id)itySpanMatchedTime;
+- (id)_hasStartToEntitySpanMatchedTime;
 - (id),V_hasEventGeneratedTimestampRefId;
 
 // Remaining properties
-@property(nonatomic) unsigned int abandonmentCount; // @synthesize abandonmentCount=_abandonmentCount;
-@property(nonatomic) unsigned int activationCount; // @synthesize activationCount=_activationCount;
-@property(nonatomic) unsigned long long averageTimeBetweenActivationsInMs; // @synthesize averageTimeBetweenActivationsInMs=_averageTimeBetweenActivationsInMs;
-@property(nonatomic) unsigned int confirmationSelectedCount; // @synthesize confirmationSelectedCount=_confirmationSelectedCount;
-@property(nonatomic) unsigned int disambiguationSelectedCount; // @synthesize disambiguationSelectedCount=_disambiguationSelectedCount;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasAbandonmentCount;
-@property(nonatomic) _Bool hasActivationCount;
-@property(nonatomic) _Bool hasAverageTimeBetweenActivationsInMs;
-@property(nonatomic) _Bool hasConfirmationSelectedCount;
-@property(nonatomic) _Bool hasDisambiguationSelectedCount;
-@property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasPresentationCount;
-@property(nonatomic) _Bool hasSuggestionGenerationTimeSince1970InMs;
-@property(nonatomic) _Bool hasTimeUntilFirstActivationInMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int presentationCount; // @synthesize presentationCount=_presentationCount;
 @property(nonatomic) unsigned long long suggestionGenerationTimeSince1970InMs; // @synthesize suggestionGenerationTimeSince1970InMs=_suggestionGenerationTimeSince1970InMs;
-@property(nonatomic) unsigned long long timeUntilFirstActivationInMs; // @synthesize timeUntilFirstActivationInMs=_timeUntilFirstActivationInMs;
 
 @end
 

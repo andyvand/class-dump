@@ -7,8 +7,6 @@
 @interface AppKit.CacheSearchResult
 {
     id menu;
-    id indexInMenu;
-    id matchPenalty;
 }
 
 @end

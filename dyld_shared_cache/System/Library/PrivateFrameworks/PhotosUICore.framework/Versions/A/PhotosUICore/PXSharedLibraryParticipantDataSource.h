@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface PXSharedLibraryParticipantDataSource
 {
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (long long)Finish: /* Error: Ran out of types for this method. */;
+- (long long)setShouldFinish: /* Error: Ran out of types for this method. */;
 - (id)er.m;
 - (id)hotosUICore.MemoryChangeRequestAnnotator;
 - (long long)ÿÿÿ;
@@ -30,12 +30,7 @@
 - (id)Ä=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *emailAddresses;
-@property(readonly, nonatomic) NSArray *names;
-@property(readonly, nonatomic) NSSet *participantAddresses;
-@property(readonly, nonatomic) NSArray *participantImageCombinerItems;
 @property(retain, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) NSSet *phoneNumbers;
 
 @end
 

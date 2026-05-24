@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification, NSOutlineView, NSString;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)J=S/@9J!*/@9J*)	;
+- (void)px;
+- (void)@9J!*/@9J*)	;
+- (void);
+- (double)1~S1;
+- (_Bool):(NSOutlineView *)arg1 S;
+- (_Bool);
+- (_Bool)*)	;
+- (_Bool)"@q(;
+- (id)T;
+- (void)extensionIsEnabled:(NSNotification *)arg1;
+- (void)endMatchingExtensions:(NSOutlineView *)arg1;
+- (NSString *)removing from cache;
+- (_Bool)m cache;
 @end
 

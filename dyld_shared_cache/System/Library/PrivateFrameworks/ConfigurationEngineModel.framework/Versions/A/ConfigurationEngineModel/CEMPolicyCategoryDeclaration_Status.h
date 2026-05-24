@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)al_size_limit = 6144000;;
 
 @end
 

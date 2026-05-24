@@ -7,9 +7,6 @@
 @interface FCColor
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 + (id);

@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNWarningRecorder
 {
     NSMutableDictionary *_warnings;
-    struct os_unfair_lock_s _warningsLock;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)CGPoint=dd}{CGSize=dd}}8^@40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

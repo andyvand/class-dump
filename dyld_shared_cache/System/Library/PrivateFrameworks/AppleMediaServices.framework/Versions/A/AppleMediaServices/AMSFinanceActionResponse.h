@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSURLTaskInfo, NSString, NSURL;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSFinanceActionResponse
 {
     _Bool _shouldRetry;
-    _Bool _tidContinue;
-    ACAccount *_account;
-    NSString *_creditString;
-    long long _kind;
-    AMSURLTaskInfo *_taskInfo;
-    NSURL *_URL;
 }
 
 + (id);
@@ -25,24 +19,24 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)g off attachment download if necessary for incoming message with attachments. Message guid:%s. /* Error: Ran out of types for this method. */;
+- (id)a;
 - (void);
 - (_Bool);
 - (void);
@@ -55,20 +49,7 @@ TÖj2ìS ý>»>fî­× Ûó[½^»ötì ®Rq.Z÷:¿.K;ù¤çËØ«
 W à /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *creditString; // @synthesize creditString=_creditString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long kind; // @synthesize kind=_kind;
-@property _Bool shouldRetry; // @synthesize shouldRetry=_shouldRetry;
-@property(readonly) Class superclass;
-@property(retain) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
-@property _Bool tidContinue; // @synthesize tidContinue=_tidContinue;
 
 @end
 

@@ -7,11 +7,12 @@
 @interface EnergyKit.XPCEnergyVenueContainer
 {
     id value;
+    id ;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)__swift5_typeref__TEXT;
 - (void);
 - (void);
 

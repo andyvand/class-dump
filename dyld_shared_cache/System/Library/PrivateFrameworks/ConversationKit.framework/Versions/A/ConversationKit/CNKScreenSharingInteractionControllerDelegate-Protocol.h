@@ -5,5 +5,8 @@
 //
 
 @protocol CNKScreenSharingInteractionControllerDelegate
+
+@optional
+- (void);
 @end
 

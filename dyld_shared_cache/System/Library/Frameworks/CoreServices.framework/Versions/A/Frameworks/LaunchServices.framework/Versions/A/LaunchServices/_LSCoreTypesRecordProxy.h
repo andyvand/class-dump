@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)bject<OS_dispatch_data>"24@0:8@"MTLRenderPipelineDescriptor"16 /* Error: Ran out of types for this method. */;
 + (Class)wOyej6/Sources/CoreServicesSubFrameworks/LaunchServices.subprj/Source/LaunchServices/Workspace/LSApplicationIsInstalledQuery.mm;
 - (id);
 - (id);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (Class);
@@ -37,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -45,30 +45,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool) ;
 - (void);
-- (void);
+- (void)* ;
 - (_Bool);
 - (BOOL);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool). ;
+- (id);
+- (id)setColorStoreAction:atIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (Class)0@ù

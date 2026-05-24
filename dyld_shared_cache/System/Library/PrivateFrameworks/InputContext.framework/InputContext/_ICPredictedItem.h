@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL, _ICProactiveTrigger;
+@class NSString;
 
 @interface _ICPredictedItem
 {
     unsigned char _itemType;
-    _Bool _shouldAggregate;
-    unsigned char _flags;
-    unsigned char _layoutHint;
-    NSString *_identifier;
-    _ICProactiveTrigger *_trigger;
-    NSString *_label;
-    NSString *_value;
-    NSString *_name;
-    NSDate *_date;
-    NSString *_originatingBundleID;
-    NSURL *_originatingWebsiteURL;
-    unsigned long long _predictionAge;
-    double _score;
-    NSString *_targetBundleID;
-    NSDictionary *_operationData;
 }
 
 + (id);
@@ -35,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -44,16 +29,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id));
 - (_Bool);
-- (void);
+- (void)dex (not an integer or greater than 10000)
+;
 - (_Bool);
 - (id);
-- (id);
+- (id)kB;
 - (void);
 - (unsigned char);
 - (void);
-- (id);
+- (id)e properties failed, syserr = %s;
 - (double);
 - (void);
 - (id);
@@ -61,22 +47,7 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) unsigned char flags; // @synthesize flags=_flags;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned char itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned char layoutHint; // @synthesize layoutHint=_layoutHint;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDictionary *operationData; // @synthesize operationData=_operationData;
-@property(readonly, nonatomic) NSString *originatingBundleID; // @synthesize originatingBundleID=_originatingBundleID;
-@property(readonly, nonatomic) NSURL *originatingWebsiteURL; // @synthesize originatingWebsiteURL=_originatingWebsiteURL;
-@property(nonatomic) unsigned long long predictionAge; // @synthesize predictionAge=_predictionAge;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) _Bool shouldAggregate; // @synthesize shouldAggregate=_shouldAggregate;
-@property(readonly, nonatomic) NSString *targetBundleID; // @synthesize targetBundleID=_targetBundleID;
-@property(readonly, nonatomic) _ICProactiveTrigger *trigger; // @synthesize trigger=_trigger;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

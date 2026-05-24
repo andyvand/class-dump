@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 @interface MLGeniusPlaylistController
 {
     void *_echo;
-    void *_echo_library;
-    void *_echo_cluster_playlist;
-    NSMutableData *_sharedBlobMutableData;
 }
 
-+ (_Bool);
-+ (void);
-+ (id);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
++ (_Bool)photoKitEntitled;
++ (void),N,V_clientBundleID;
++ (id)ntifier;
++ (void)_scenesForAsset:fetchHelper:sceneTaxonomyProvider:thumbnailMap: /* Error: Ran out of types for this method. */;
++ (_Bool)_persistedFaceMetadataWithFaces:keyFace:clusterRejectedFaceIDs: /* Error: Ran out of types for this method. */;
++ (_Bool)s",C,N,V_issueDate;
++ (unsigned long long)V_configuration;
++ (unsigned long long),&,N,V_batch;
++ (id)ameValueSeparator;
+- (id)_checkScopeValidityForDeletingRecords:(unsigned long long)arg1 includeMainScopeIdentifier:(id *)arg2 withRecordChangeClass:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)_rebuildInProgress;
+- (id)setFocalLength:(unsigned long long)arg1;
+- (_Bool),N,V_options;
+- (_Bool)ndleController;
+- (id)removeObserver:(unsigned long long)arg1;
+- (_Bool)de;
+- (_Bool)processWorkItemObjectID:(id)arg1 sourceLibrary:targetLibrary:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)setUserInfo: /* Error: Ran out of types for this method. */;
 - (void)PDATE item SET remote_location_id = ( CASE WHEN new.home_sharing_id != 0 THEN 300 ELSE ( CASE WHEN IFNULL(new.match_redownload_params, '') != '' THEN 200 ELSE ( CASE WHEN IFNULL(new.purchase_history_redownload_params, '') != '' AND new.purchase_history_id != 0 THEN 100 ELSE ( CASE WHEN new.subscription_store_item_id != 0 AND new.is_subscription AND new.cloud_asset_available THEN 50 ELSE ( CASE WHEN new.sync_redownload_params == 'redownload' AND new.sync_id != 0 THEN 20 ELSE ( CASE WHEN new.sync_redownload_params == 'local' AND new.sync_id != 0 THEN 10 ELSE 0 END) END) END) END) END) END) WHERE item_pid = new.item_pid; END;;
 
 @end

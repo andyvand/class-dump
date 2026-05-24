@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.FamilyCircleObservable
 {
     id circleStore;
-    id cancellables;
-    id familyPageSubscriptionsURLs;
 }
 
 - (id);

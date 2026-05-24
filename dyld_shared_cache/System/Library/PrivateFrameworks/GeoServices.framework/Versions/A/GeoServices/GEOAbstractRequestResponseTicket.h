@@ -6,22 +6,20 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse;
+@class GEOPDPlaceRequest;
 
 @interface GEOAbstractRequestResponseTicket : GEOAbstractTicket
 {
     GEOPDPlaceRequest *_request;
-    id _requestToken;
-    GEOPDPlaceResponse *_response;
 }
 
-- (void);
-- (void);
+- (void)CNSuspendableSchedulerDecorator;
+- (void)_CNLazyArrayOperatorTake;
 - (id);
 - (void);
-- (id)ncesToDestination;
+- (id)encodedDistancesToDestination;
 - (void)<,ÿ;
-- (CDStruct_d1a7ebee)>;
+- (CDStruct_026435ec)>;
 
 @end
 

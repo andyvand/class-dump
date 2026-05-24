@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)A;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;

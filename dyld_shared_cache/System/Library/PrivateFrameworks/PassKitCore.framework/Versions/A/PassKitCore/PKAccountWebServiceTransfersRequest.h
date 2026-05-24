@@ -6,23 +6,19 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceTransfersRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSDate *_beginDate;
-    NSDate *_endDate;
-    unsigned long long _state;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)x;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_autocloseFire: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)empted to check .bluetoothSpaceAvailable using local requirement checker;
 - (void)8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

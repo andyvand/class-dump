@@ -7,7 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyUtility
 {
     id destinationWebService;
-    id managingWebService;
 }
 
 @end

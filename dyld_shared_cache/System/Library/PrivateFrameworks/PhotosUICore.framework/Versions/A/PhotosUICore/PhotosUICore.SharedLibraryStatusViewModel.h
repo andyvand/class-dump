@@ -7,17 +7,6 @@
 @interface PhotosUICore.SharedLibraryStatusViewModel
 {
     id _hasSharedLibrary;
-    id _hasPreview;
-    id _isExitingSharedLibrary;
-    id _canSetUpSharedLibraryContent;
-    id _canDisplaySettings;
-    id _buttonTitle;
-    id _descriptionTitle;
-    id _actionTitle;
-    id _sharedLibraryStatusProvider;
-    id _sharedLibraryStatusProviderObservation;
-    id observable;
-    id _$observationRegistrar;
 }
 
 @end

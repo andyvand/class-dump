@@ -5,6 +5,7 @@
 //
 
 @protocol _UIContextDescribing
+- (CDStruct_c8d2f6fa)>;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c8d2f6fa _bindingDescription;

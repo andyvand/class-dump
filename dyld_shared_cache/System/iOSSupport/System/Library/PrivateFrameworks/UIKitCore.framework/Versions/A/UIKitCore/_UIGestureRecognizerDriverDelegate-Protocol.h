@@ -5,5 +5,6 @@
 //
 
 @protocol _UIGestureRecognizerDriverDelegate
+- (void)T@?,C,N,V_automationCompletionBlock;
 @end
 

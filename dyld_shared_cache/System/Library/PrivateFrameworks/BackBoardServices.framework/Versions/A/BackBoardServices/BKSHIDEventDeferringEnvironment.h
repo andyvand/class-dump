@@ -14,33 +14,27 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)A;
++ (_Bool)*;
++ (id)C;
 - (void);
+- (id)resumeTaskSchedulingWithIdentifier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)range_predictors_length;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)F1;
 - (id);
-- (_Bool);
+- (_Bool)textRangeReferencingNoon;
 - (void);
 - (id)ÌF;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

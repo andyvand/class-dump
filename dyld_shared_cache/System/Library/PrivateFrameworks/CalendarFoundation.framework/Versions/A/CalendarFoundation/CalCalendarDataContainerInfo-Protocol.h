@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol CalCalendarDataContainerInfo
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountID;
-@property(readonly, nonatomic) NSURL *containerURL;
-@property(readonly, nonatomic) NSString *personaID;
-@property(readonly, nonatomic) _Bool usesDataSeparatedContainer;
 @end
 

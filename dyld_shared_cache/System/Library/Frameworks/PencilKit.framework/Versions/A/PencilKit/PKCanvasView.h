@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawing, PKInk, PKTool;
+@class PKDrawing;
 @protocol PKCanvasViewDelegate;
 
 @interface PKCanvasView
 {
     PKDrawing *_drawing;
-    _Bool _fingerDrawingEnabled;
-    _Bool _disableWideGamut;
-    _Bool _rulerEnabled;
-    id <PKCanvasViewDelegate> _delegate;
-    PKInk *_ink;
-    PKTool *_tool;
-    id _drawingUndoTarget;
-    SEL _drawingUndoSelector;
 }
 
 - (void);
@@ -28,7 +20,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -47,7 +39,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)initWithContentEditingInput: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -58,14 +50,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKCanvasViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disableWideGamut; // @synthesize disableWideGamut=_disableWideGamut;
-@property(copy, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) SEL drawingUndoSelector; // @synthesize drawingUndoSelector=_drawingUndoSelector;
-@property(nonatomic) __weak id drawingUndoTarget; // @synthesize drawingUndoTarget=_drawingUndoTarget;
-@property(nonatomic, getter=isFingerDrawingEnabled) _Bool fingerDrawingEnabled; // @synthesize fingerDrawingEnabled=_fingerDrawingEnabled;
-@property(retain, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(nonatomic) _Bool rulerEnabled; // @synthesize rulerEnabled=_rulerEnabled;
-@property(retain, nonatomic) PKTool *tool; // @synthesize tool=_tool;
 
 @end
 

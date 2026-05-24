@@ -12,7 +12,7 @@
 
 - (id);
 - (id)0;
-- (id)usBarActionableLockScreenStyleAttributes;
+- (id)UIStatusBarActionableLockScreenStyleAttributes;
 - (_Bool);
 
 // Remaining properties

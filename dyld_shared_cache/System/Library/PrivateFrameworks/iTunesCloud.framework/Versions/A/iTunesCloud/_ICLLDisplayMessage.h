@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLDisplayMessage
 {
     NSString *_detailMessage;
-    NSString *_titleMessage;
 }
 
 - (id);

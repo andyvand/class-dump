@@ -11,25 +11,9 @@
 @interface IKImageBrowserGrid : IKImageBrowserSubsetLayoutManager
 {
     NSMutableIndexSet *_validTranslationsRows;
-    NSMutableIndexSet *_validAdditionalHeightPerRows;
-    int _cellsLayoutInfoLength;
-    struct {
-        double _field1;
-        double _field2;
-        int _field3;
-        int _field4;
-    } *_cellsLayoutInfo;
-    int _rowsCount;
-    long long _indexOfDropSpacing;
-    unsigned long long _nearestCellForDropSpacing;
-    _Bool _dropPastHalfwayAcrossCell;
-    _Bool _dropSpacingIsVertical;
-    double _headerOffset;
-    double _tailOffset;
-    unsigned long long _iOSExpendedGroupIndex;
 }
 
-- (double);
+- (double)@;
 - (void);
 - (void);
 - (double);
@@ -53,31 +37,30 @@
 - (id);
 - (id);
 - (int);
-- (CDStruct_02837cd9);
-- (double);
-- (_Bool);
+- (CDStruct_90e2a262);
+- (double),;
+- (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (int);
-- (int);
+- (int)ThB;
 - (id);
 - (double);
 - (int);
 - (CDStruct_c3b9c2ee);
-- (int);
-- (int);
-- (int);
+- (int)yLimited;
+- (int)ght;
+- (int);
 - (struct CGSize);
 - (void);
-- (int);
+- (int)_includeMediaAnalysisProcessingRangeTypesNumber;
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (void);
+- (struct CGSize)allowsReordering;
 
 // Remaining properties
 @property double headerOffset; // @synthesize headerOffset=_headerOffset;
-@property double tailOffset; // @synthesize tailOffset=_tailOffset;
 
 @end
 

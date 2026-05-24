@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOActiveResourceFilter
 {
     PBUnknownFields *_unknownFields;
-    double _lastTimestamp;
-    NSString *_name;
-    int _scale;
-    int _scenario;
-    struct {
-        unsigned int has_lastTimestamp:1;
-    } _flags;
-    unsigned long long _whichFilter;
 }
 
-+ (_Bool)Roads:(id)arg1;
++ (_Bool)setHasMapSettingsWalkingAvoidBusyRoads:(id)arg1;
 - (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
+- (void)removeObserver:(_Bool)arg1 forKeyPath:context: /* Error: Ran out of types for this method. */;
+- (id)_cn_isPrimaryAccount;
+- (_Bool)Б;
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_metaFilenameWithRootDir:(id)arg1 prefix:deviceId: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (id)(;
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool)+;
 - (int);
 - (_Bool);
 - (void);
@@ -45,10 +37,10 @@
 × ;
 - (id)tourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16r^v24@?32;
 - (double)setRouteSummaryUpdatedHandler: /* Error: Ran out of types for this method. */;
-- (id):(struct _NSZone *)arg1;
+- (id)mapItemStorageForMapsSync:(struct _NSZone *)arg1 forUseType: /* Error: Ran out of types for this method. */;
 - (id)@Å¼ÈÉ\ÊÌÍ<Î;
 - (void)ift;
-- (id)estUpdateRetries;
+- (id)MaxManifestUpdateRetries;
 - (id);
 - (void)@LQ@;
 - (int)ª95;
@@ -57,13 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isFilterStaleThresholdExpired) _Bool _filterStaleThresholdExpired;
-@property(nonatomic) _Bool hasLastTimestamp;
-@property(nonatomic) double lastTimestamp;
-@property(retain, nonatomic) NSString *name;
-@property(nonatomic) int scale;
-@property(nonatomic) int scenario;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic) unsigned long long whichFilter; // @synthesize whichFilter=_whichFilter;
 
 @end
 

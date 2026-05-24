@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, PKSEConsistencyCheckDeviceCredentialAppletProperties, PKSEConsistencyCheckDeviceCredentialISO18013Properties, PKSECredentialAddress;
+@class PKSECredentialAddress;
 
 @interface PKSEConsistencyCheckDeviceCredential
 {
     _Bool _shouldRegister;
-    _Bool _isManagedByTSM;
-    PKSECredentialAddress *_address;
-    unsigned long long _type;
-    unsigned long long _state;
-    NSData *_keyMaterialHash;
-    NSNumber *_underlyingCredentialState;
-    long long _credentialType;
-    PKSEConsistencyCheckDeviceCredentialAppletProperties *_appletProperties;
-    PKSEConsistencyCheckDeviceCredentialISO18013Properties *_isoProperties;
 }
 
 + (id);
@@ -34,7 +25,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ing text transcript (wav).;
 - (long long);
 - (void);
 - (id);
@@ -43,15 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKSECredentialAddress *address; // @synthesize address=_address;
-@property(retain, nonatomic) PKSEConsistencyCheckDeviceCredentialAppletProperties *appletProperties; // @synthesize appletProperties=_appletProperties;
-@property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(readonly, nonatomic) _Bool isManagedByTSM; // @synthesize isManagedByTSM=_isManagedByTSM;
-@property(retain, nonatomic) PKSEConsistencyCheckDeviceCredentialISO18013Properties *isoProperties; // @synthesize isoProperties=_isoProperties;
-@property(readonly, nonatomic) NSData *keyMaterialHash; // @synthesize keyMaterialHash=_keyMaterialHash;
-@property(readonly, nonatomic) _Bool shouldRegister; // @synthesize shouldRegister=_shouldRegister;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSNumber *underlyingCredentialState; // @synthesize underlyingCredentialState=_underlyingCredentialState;
 
 @end
 

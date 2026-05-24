@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)Copy got unexpected error;
 - (void)÷ð1Â0@ù
 × ;
 

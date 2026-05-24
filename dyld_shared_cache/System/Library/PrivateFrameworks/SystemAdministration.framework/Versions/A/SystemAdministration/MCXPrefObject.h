@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MCXPrefObject
 {
     NSMutableDictionary *mMCXDict;
-    NSDictionary *mUnionPolicyKeys;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -21,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)7;
 - (void);
 - (id);
 

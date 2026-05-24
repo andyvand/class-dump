@@ -7,9 +7,6 @@
 @interface ChatKit.Fall2024SendMenuOrderProvider
 {
     id $__lazy_storage_$_excludedExtensionIdentifiers;
-    id $__lazy_storage_$_defaultExtensionIdentifiers;
-    id $__lazy_storage_$_preferResetPositionOnUpgradeExtensionIdentifiers;
-    id $__lazy_storage_$_forceResetPositionOnUpgradeExtensionIdentifiers;
 }
 
 @end

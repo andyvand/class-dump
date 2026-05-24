@@ -9,37 +9,35 @@
 @interface GEOLogMsgEventMapKitCounts
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapKitCounts;
 }
 
-+ (Class);
-+ (_Bool)orCount:(id)arg1;
++ (Class)Macao;
++ (_Bool)setHasSslErrorCount:(id)arg1;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)initWithClass: /* Error: Ran out of types for this method. */;
+- (void)URLByAppendingPathComponent:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_	;
+- (_Bool)ry/Caches/com.apple.xbs/TemporaryDirectory.cImxkp/Sources/IOUSBHostFamily/IOUSBHostFramework/IOUSBHostObject.m;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id)topFrom:(struct _NSZone *)arg1;
-- (id)gs;
+- (id)setStopFrom:(struct _NSZone *)arg1;
+- (id)clearEmbeddings;
 - (id)paths. This is an error from the caller. Returning 0.;
 - (id)ð;
 - (void)M¥4;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *mapKitCounts;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

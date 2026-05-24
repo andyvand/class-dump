@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NWURLError *_error;
 }
 
+- (id)_adjustToServiceWindowStyleMask];
 - (id);
-- (id);
-- (void);
+- (void)L;
 - (id);
 - (id)ubprotocol from websocket response;
-- (unsigned long long)nable_tcp_l4s_denominator;
+- (unsigned long long)enable_tcp_l4s_denominator;
 - (void)@;
 
 // Remaining properties

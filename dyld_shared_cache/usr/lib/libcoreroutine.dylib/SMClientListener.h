@@ -6,53 +6,38 @@
 
 #import <coreroutine/RTXPCListener.h>
 
-@class NSString, NSXPCInterface, RTAuthorizationManager, RTDefaultsManager, RTDistanceCalculator, RTPlatform, SMAppDeletionManager, SMDeviceConfigurationChecker, SMEligibilityChecker, SMInitiatorService, SMMessagingService, SMReceiverService, SMSessionStore, SMSuggestionsHelper, SMSuggestionsManager, SMSuggestionsStore;
+@class NSXPCInterface, RTDefaultsManager;
 
 @interface SMClientListener : RTXPCListener
 {
     NSXPCInterface *_frameworkInterface;
-    NSXPCInterface *_daemonInterface;
-    RTDefaultsManager *_defaultsManager;
-    RTAuthorizationManager *_authorizationManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPlatform *_platform;
-    SMInitiatorService *_initiatorService;
-    SMSessionStore *_sessionStore;
-    SMSuggestionsManager *_suggestionsManager;
-    SMSuggestionsHelper *_suggestionsHelper;
-    SMSuggestionsStore *_suggestionsStore;
-    SMMessagingService *_messagingService;
-    SMReceiverService *_receiverService;
-    SMEligibilityChecker *_eligibilityChecker;
-    SMDeviceConfigurationChecker *_deviceConfigurationChecker;
-    SMAppDeletionManager *_appDeletionManager;
 }
 
 - (id);
+- (id)p;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)<;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ssage;
 - (void);
 - (id);
 - (void);
@@ -60,33 +45,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)cationOfInterest:outError: /* Error: Ran out of types for this method. */;
+- (id)_countNearbyLocationsOfInterestForLocationOfInterest:outError: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)+;
 - (void)is state active state, %{Bool}d, state, %{sensitive}@;
 
 // Remaining properties
-@property(retain, nonatomic) SMAppDeletionManager *appDeletionManager; // @synthesize appDeletionManager=_appDeletionManager;
-@property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SMDeviceConfigurationChecker *deviceConfigurationChecker; // @synthesize deviceConfigurationChecker=_deviceConfigurationChecker;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) SMEligibilityChecker *eligibilityChecker; // @synthesize eligibilityChecker=_eligibilityChecker;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SMInitiatorService *initiatorService; // @synthesize initiatorService=_initiatorService;
-@property(retain, nonatomic) SMMessagingService *messagingService; // @synthesize messagingService=_messagingService;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) SMReceiverService *receiverService; // @synthesize receiverService=_receiverService;
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(retain, nonatomic) SMSuggestionsHelper *suggestionsHelper; // @synthesize suggestionsHelper=_suggestionsHelper;
-@property(retain, nonatomic) SMSuggestionsManager *suggestionsManager; // @synthesize suggestionsManager=_suggestionsManager;
-@property(retain, nonatomic) SMSuggestionsStore *suggestionsStore; // @synthesize suggestionsStore=_suggestionsStore;
-@property(readonly) Class superclass;
 
 @end
 

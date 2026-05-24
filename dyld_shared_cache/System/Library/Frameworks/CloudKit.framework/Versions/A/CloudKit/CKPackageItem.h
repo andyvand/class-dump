@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSURL;
+@class NSNumber, NSURL;
 
 @interface CKPackageItem
 {
     NSURL *_fileURL;
-    NSData *_signature;
-    unsigned long long _size;
-    long long _paddedSize;
-    NSNumber *_deviceID;
-    NSNumber *_fileID;
-    NSNumber *_generationID;
-    NSData *_wrappedAssetKey;
-    NSString *_itemTypeHint;
-    unsigned long long _itemID;
-    NSNumber *_sectionIndex;
-    long long _offset;
-    NSNumber *_packageItemID;
 }
 
 - (void);
-- (void);
+- (void)qS_;
 - (void);
 - (long long);
 - (id);
@@ -35,22 +23,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@"MLSequence",R,N;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)_fetchSynchronousAutomaticErrorProxyFromURL:(long long)arg1 serviceName:interface:returnNilIfServiceNotFound: /* Error: Ran out of types for this method. */;
+- (void)ese items [%@] found under these items [%@] and should be deleted.%@;
 - (id);
-- (void);
+- (void)j;
 - (id)ù
 × ;
-- (void)thDatabase:(id)arg1 sql: /* Error: Ran out of types for this method. */;
+- (void)initWithDatabase:(id)arg1 sql: /* Error: Ran out of types for this method. */;
 - (void)@?,C,N,V_hierarchicalRecordZoneWithIDChangedBlock_wrapper;
-- (void)SynchronizedRemoveObject:(id)arg1;
+- (void)CKSynchronizedRemoveObject:(id)arg1;
 - (void)$;
 - (id)ÔítïðÜñ¤ò¤÷;
 - (id)cloudkit.allowUnverifiedAccount;
@@ -58,20 +46,7 @@
 - (void)HÉ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *deviceID; // @synthesize deviceID=_deviceID;
-@property(copy, nonatomic) NSNumber *fileID; // @synthesize fileID=_fileID;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSNumber *generationID; // @synthesize generationID=_generationID;
-@property(nonatomic) unsigned long long itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *itemTypeHint; // @synthesize itemTypeHint=_itemTypeHint;
-@property(nonatomic) long long offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long packageIndex;
 @property(retain, nonatomic) NSNumber *packageItemID; // @synthesize packageItemID=_packageItemID;
-@property(nonatomic) long long paddedSize; // @synthesize paddedSize=_paddedSize;
-@property(retain, nonatomic) NSNumber *sectionIndex; // @synthesize sectionIndex=_sectionIndex;
-@property(copy) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(copy, nonatomic) NSData *wrappedAssetKey; // @synthesize wrappedAssetKey=_wrappedAssetKey;
 
 @end
 

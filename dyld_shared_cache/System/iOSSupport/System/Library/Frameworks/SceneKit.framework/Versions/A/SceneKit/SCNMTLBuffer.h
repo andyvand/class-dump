@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLBuffer
 {
     long long _usedCount;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
-    id _dataSource;
 }
 
 - (void);
-- (long long);
+- (long long)b;
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)K\;
 - (void);
 - (void *);
 - (void);
 - (void)Ô@;
-- (id)meOffset;
+- (id)timeOffset;
 - (unsigned long long)urce command buffer execution failed with status %d, error:%@
 %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) void *contents;
-@property(nonatomic) id dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 @property long long usedCount; // @synthesize usedCount=_usedCount;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUserDefaults, NSDictionary, NSString;
+@class CNUserDefaults;
 
 @interface CNFoundationUserDefaults
 {
     CNUserDefaults *_userDefaults;
-    _Bool showContactPhotos;
 }
 
 + (_Bool);
@@ -27,30 +26,17 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (void)- recommend rewrite;
+- (void)sessionChangedToken;
+- (id)abRotateRightRange: /* Error: Ran out of types for this method. */;
+- (_Bool)_rememberToFinalizeGroup:dictionaryRepresentation: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id)";
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) NSDictionary *filteredAccountsAndContainers;
-@property(readonly) unsigned long long hash;
-@property unsigned long long nameOrder;
-@property _Bool preferNickname;
-@property unsigned long long shortNameFormat;
-@property(nonatomic, getter=isShortNameFormatEnabled) _Bool shortNameFormatEnabled;
-@property _Bool showContactPhotos; // @synthesize showContactPhotos;
-@property(readonly) Class superclass;
 @property(retain) CNUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

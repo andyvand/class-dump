@@ -5,5 +5,9 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void)emptyContentTextField;
+- (void);
 @end
 

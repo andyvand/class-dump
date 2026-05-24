@@ -9,18 +9,16 @@
 @interface MPSMatrixDecompositionCholesky : MPSMatrixUnaryKernel
 {
     _Bool _lower;
-    unsigned long long _order;
 }
 
 + (const struct MPSLibraryInfo *);
 - (_Bool);
-- (id);
-- (void);
+- (id));
+- (void)Ѫ;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool lower; // @synthesize lower=_lower;
-@property(readonly, nonatomic) unsigned long long order; // @synthesize order=_order;
 
 @end
 

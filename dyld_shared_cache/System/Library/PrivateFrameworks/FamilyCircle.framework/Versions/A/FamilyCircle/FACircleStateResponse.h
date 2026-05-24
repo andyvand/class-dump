@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
-
 @interface FACircleStateResponse
 {
     _Bool _loadSuccess;
-    NSError *_error;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)pple.ace.ui.lite;
+- (id)notificationTextDialogIdentifier;
 - (id);
 - (id);
 - (id);
@@ -25,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool loadSuccess; // @synthesize loadSuccess=_loadSuccess;
 @property(readonly, nonatomic) _Bool success;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

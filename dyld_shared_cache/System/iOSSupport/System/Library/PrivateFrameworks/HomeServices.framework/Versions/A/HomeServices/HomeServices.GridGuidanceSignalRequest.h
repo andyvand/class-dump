@@ -9,6 +9,7 @@
 @interface HomeServices.GridGuidanceSignalRequest : HomeServices.GridBaseRequest
 {
     id HMACAuthInfo;
+    id;
 }
 
 @end

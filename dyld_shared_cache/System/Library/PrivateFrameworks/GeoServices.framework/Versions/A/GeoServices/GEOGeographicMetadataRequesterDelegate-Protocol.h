@@ -5,5 +5,8 @@
 //
 
 @protocol GEOGeographicMetadataRequesterDelegate
+
+@optional
+- (void);
 @end
 

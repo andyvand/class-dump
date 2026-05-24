@@ -9,8 +9,6 @@
 @interface AppStoreKit.OpenAppAction : AppStoreKit.Action
 {
     id adamId;
-    id destination;
-    id allowBetaApps;
 }
 
 @end

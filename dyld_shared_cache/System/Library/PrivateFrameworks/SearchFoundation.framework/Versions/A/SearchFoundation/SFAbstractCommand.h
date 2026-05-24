@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFCommandValue;
-
 @interface SFAbstractCommand
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    SFCommandValue *_value;
 }
 
 + (_Bool);

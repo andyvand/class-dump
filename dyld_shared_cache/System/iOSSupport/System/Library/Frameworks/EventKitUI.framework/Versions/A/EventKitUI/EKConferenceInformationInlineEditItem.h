@@ -6,30 +6,24 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class CalendarNotesCell, NSString;
+@class CalendarNotesCell;
 
 @interface EKConferenceInformationInlineEditItem : EKEventEditItem
 {
     CalendarNotesCell *_cell;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)8&s;
+- (id)s;
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void)Date;
+- (id)8v;
+- (void)originalStartDate;
 - (double)ó^	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,53 +6,42 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSArray, NSHashTable, NSString, UIResponder, UITapGestureRecognizer, UIView, UIVisualEffectView, UIWindow;
 @protocol UIPreviewPresentationControllerDelegate;
 
 @interface UIPreviewPresentationController : UIPresentationController
 {
     _Bool _appliesVisualEffectsToPresentingView;
-    id <UIPreviewPresentationControllerDelegate> _previewPresentationDelegate;
-    UITapGestureRecognizer *_dismissGestureRecognizer;
-    UIVisualEffectView *_presentationContainerEffectView;
-    UIView *_localStatusBar;
-    NSArray *_keyboardSnapshotters;
-    NSHashTable *_keyboardWindows;
-    UIResponder *_currentPinnedResponder;
-    UIWindow *_presentationWindow;
-    CDUnknownBlockType _containerViewConfigurationBlock;
-    CDUnknownBlockType _dismissalTransitionDidEndBlock;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 - (void);
+- (void)o36IMPersistentTaskExecutorStatusReportCG;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)up.;
+- (id)ne chat sync date %@;
+- (CDUnknownBlockType)h photo or poster update, moving to archive for handle %@;
+- (id)e had a problem writing an unknown sender payload update with key %@ -  %@;
+- (id), actionType:%@, guids:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)meter> Unable to extract destination identifiers from BlastDoorTextMessageMessageType:%ld /* Error: Ran out of types for this method. */;
+- (_Bool)@b;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,7 +63,7 @@
 - (id)%@;
 - (void)ordTerminator:executionContextPassingTIKeyboardCandidate:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)ator. Property animators must either finish animating or be explicitly stopped and finished before they can be released. (animationState = %@, isStarting = %@, hasFinalized = %@, name = %@);
-- (_Bool)ceCardDismissGestureDoesNotRequireFailure;
+- (_Bool)ForceCardDismissGestureDoesNotRequireFailure;
 - (_Bool)Äþÿê¸þÿLþÿî·þÿ;
 - (long long)n¶Ü÷\;
 - (void)Þ;
@@ -85,24 +74,7 @@
 - (void)È Ãÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool appliesVisualEffectsToPresentingView; // @synthesize appliesVisualEffectsToPresentingView=_appliesVisualEffectsToPresentingView;
-@property(copy, nonatomic) CDUnknownBlockType containerViewConfigurationBlock; // @synthesize containerViewConfigurationBlock=_containerViewConfigurationBlock;
-@property(nonatomic) __weak UIResponder *currentPinnedResponder; // @synthesize currentPinnedResponder=_currentPinnedResponder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITapGestureRecognizer *dismissGestureRecognizer; // @synthesize dismissGestureRecognizer=_dismissGestureRecognizer;
-@property(copy, nonatomic) CDUnknownBlockType dismissalTransitionDidEndBlock; // @synthesize dismissalTransitionDidEndBlock=_dismissalTransitionDidEndBlock;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *keyboardSnapshotters; // @synthesize keyboardSnapshotters=_keyboardSnapshotters;
-@property(copy, nonatomic) NSHashTable *keyboardWindows; // @synthesize keyboardWindows=_keyboardWindows;
-@property(retain, nonatomic) UIView *localStatusBar; // @synthesize localStatusBar=_localStatusBar;
-@property(retain, nonatomic) UIVisualEffectView *presentationContainerEffectView; // @synthesize presentationContainerEffectView=_presentationContainerEffectView;
-@property(nonatomic) __weak UIWindow *presentationWindow; // @synthesize presentationWindow=_presentationWindow;
 @property(nonatomic) __weak id <UIPreviewPresentationControllerDelegate> previewPresentationDelegate; // @synthesize previewPresentationDelegate=_previewPresentationDelegate;
-@property(readonly) Class superclass;
 
 @end
 

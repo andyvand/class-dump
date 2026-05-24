@@ -5,5 +5,6 @@
 //
 
 @protocol TBCacheProvider
+- (void)_TtC12SiriOntology30UsoEntityBuilder_common_AllDay;
 @end
 

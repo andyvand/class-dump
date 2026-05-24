@@ -4,39 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSSet, NSString, NSUUID, PKAppletSubcredentialSharingConfiguration, PKPassEntitlement, PKSubcredentialEncryptedContainer;
-
 @interface PKAppletSubcredential
 {
     _Bool _isOnlineImmobilizerToken;
-    _Bool _isManagedByTSM;
-    NSData *_readerIdentifier;
-    NSString *_identifier;
-    long long _state;
-    PKPassEntitlement *_entitlement;
-    long long _credentialType;
-    PKAppletSubcredentialSharingConfiguration *_sharingConfiguration;
-    NSString *_invitationIdentifier;
-    NSString *_partnerIdentifier;
-    NSString *_pairedReaderIdentifier;
-    NSString *_brandIdentifier;
-    NSString *_sharingFriendlyName;
-    unsigned long long _supportedRadioTechnologies;
-    unsigned long long _allSupportedRadioTechnologies;
-    NSString *_endpointIdentifier;
-    NSUUID *_sharingSessionIdentifier;
-    NSString *_originatorIDSHandle;
-    NSString *_isoFormat;
-    NSSet *_aliroGroupResolvingKeys;
-    unsigned long long _credentialState;
-    PKSubcredentialEncryptedContainer *_trackingRequest;
-    NSData *_transactionKey;
-    NSArray *_transactionKeyCertificateChain;
-    NSString *_appletIdentifier;
-    unsigned long long _carKeyVehicleVersion;
-    unsigned long long _carKeyServerVersion;
-    unsigned long long _keyClass;
-    unsigned long long _credentialAuthorityType;
 }
 
 + (_Bool)0@ù
@@ -45,38 +15,39 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)J;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)g2
+	=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)aT;
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)}S!;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -84,26 +55,26 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
+- (id)%;
+- (unsigned long long)]	;
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)U;
+- (unsigned long long)(;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (void);
+- (id)@;
+- (long long)_suggestionAtRow:category:action: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (id);
-- (_Bool);
+- (_Bool)denyReason;
 - (void);
 - (void);
 - (void);
@@ -113,43 +84,11 @@
 - (id)@ù
 × ;
 - (id);
-- (id)ightMerchandisingRequests;
+- (id)_inflightMerchandisingRequests;
 - (void)oke;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *_readerIdentifier; // @synthesize _readerIdentifier;
-@property(retain, nonatomic) NSSet *aliroGroupResolvingKeys; // @synthesize aliroGroupResolvingKeys=_aliroGroupResolvingKeys;
-@property(nonatomic) unsigned long long allSupportedRadioTechnologies; // @synthesize allSupportedRadioTechnologies=_allSupportedRadioTechnologies;
-@property(retain, nonatomic) NSString *appletIdentifier; // @synthesize appletIdentifier=_appletIdentifier;
-@property(copy, nonatomic) NSString *brandIdentifier; // @synthesize brandIdentifier=_brandIdentifier;
-@property(readonly, nonatomic) _Bool canShare;
-@property(nonatomic) unsigned long long carKeyServerVersion; // @synthesize carKeyServerVersion=_carKeyServerVersion;
-@property(nonatomic) unsigned long long carKeyVehicleVersion; // @synthesize carKeyVehicleVersion=_carKeyVehicleVersion;
-@property(nonatomic) unsigned long long credentialAuthorityType; // @synthesize credentialAuthorityType=_credentialAuthorityType;
 @property(nonatomic) unsigned long long credentialState; // @synthesize credentialState=_credentialState;
-@property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(copy, nonatomic) NSString *endpointIdentifier; // @synthesize endpointIdentifier=_endpointIdentifier;
-@property(retain, nonatomic) PKPassEntitlement *entitlement; // @synthesize entitlement=_entitlement;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *invitationIdentifier; // @synthesize invitationIdentifier=_invitationIdentifier;
-@property(nonatomic) _Bool isManagedByTSM; // @synthesize isManagedByTSM=_isManagedByTSM;
-@property(nonatomic) _Bool isOnlineImmobilizerToken; // @synthesize isOnlineImmobilizerToken=_isOnlineImmobilizerToken;
-@property(copy, nonatomic) NSString *isoFormat; // @synthesize isoFormat=_isoFormat;
-@property(nonatomic) unsigned long long keyClass; // @synthesize keyClass=_keyClass;
-@property(readonly, nonatomic) NSString *manufacturerIdentifier;
-@property(copy, nonatomic) NSString *originatorIDSHandle; // @synthesize originatorIDSHandle=_originatorIDSHandle;
-@property(copy, nonatomic) NSString *pairedReaderIdentifier; // @synthesize pairedReaderIdentifier=_pairedReaderIdentifier;
-@property(copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(readonly, nonatomic, getter=isShareable) _Bool shareable;
-@property(readonly, nonatomic, getter=isSharedCredential) _Bool sharedCredential;
-@property(retain, nonatomic) PKAppletSubcredentialSharingConfiguration *sharingConfiguration; // @synthesize sharingConfiguration=_sharingConfiguration;
-@property(copy, nonatomic) NSString *sharingFriendlyName; // @synthesize sharingFriendlyName=_sharingFriendlyName;
-@property(retain, nonatomic) NSUUID *sharingSessionIdentifier; // @synthesize sharingSessionIdentifier=_sharingSessionIdentifier;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long supportedRadioTechnologies; // @synthesize supportedRadioTechnologies=_supportedRadioTechnologies;
-@property(retain, nonatomic) PKSubcredentialEncryptedContainer *trackingRequest; // @synthesize trackingRequest=_trackingRequest;
-@property(retain, nonatomic) NSData *transactionKey; // @synthesize transactionKey=_transactionKey;
-@property(retain, nonatomic) NSArray *transactionKeyCertificateChain; // @synthesize transactionKeyCertificateChain=_transactionKeyCertificateChain;
 
 @end
 

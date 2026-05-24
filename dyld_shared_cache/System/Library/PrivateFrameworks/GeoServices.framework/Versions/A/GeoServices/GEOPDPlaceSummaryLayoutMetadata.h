@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPlaceSummaryLayoutMetadata
 {
     PBDataReader *_reader;
-    NSMutableArray *_dyanmicContextServerOverrides;
-    NSMutableArray *_layoutTemplatePairs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _useCaseType;
-    struct {
-        unsigned int has_useCaseType:1;
-        unsigned int read_dyanmicContextServerOverrides:1;
-        unsigned int read_layoutTemplatePairs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)er;
 + (Class);
-+ (Class);
-+ (_Bool)ct:(id)arg1;
-- (id);
-- (int);
++ (_Bool)setImpressionObject:(id)arg1;
+- (id)SString",R,C,N,V_reason;
+- (int)sortedFetchOfValuesForProperty: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -49,24 +37,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_lastCommunicatedPeer;
+- (void)riggerSecondPass[%{public}@]:(id)arg1 Could not find Assets. Cannot process Audio;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)SelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (id)rkedCarTermination;
+- (id)_isParkedCarTermination;
 - (id)d´;
-- (id)ce;
+- (id)hintSource;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dyanmicContextServerOverrides;
 @property(nonatomic) _Bool hasUseCaseType;
-@property(retain, nonatomic) NSMutableArray *layoutTemplatePairs;
-@property(nonatomic) int useCaseType;
 
 @end
 

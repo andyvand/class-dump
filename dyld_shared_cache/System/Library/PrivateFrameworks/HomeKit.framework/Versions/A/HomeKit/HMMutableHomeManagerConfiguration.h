@@ -6,23 +6,15 @@
 
 #import <HomeKit/HMHomeManagerConfiguration.h>
 
-@class HMFLocationAuthorization, NSOperationQueue;
-
 @interface HMMutableHomeManagerConfiguration : HMHomeManagerConfiguration
 {
     struct os_unfair_lock_s _lock;
 }
 
-- (id);
+- (id);
 
 // Remaining properties
-@property(getter=isAdaptive) _Bool adaptive; // @dynamic adaptive;
 @property unsigned long long cachePolicy; // @dynamic cachePolicy;
-@property(retain) NSOperationQueue *delegateQueue; // @dynamic delegateQueue;
-@property(getter=isDiscretionary) _Bool discretionary; // @dynamic discretionary;
-@property unsigned long long inactiveUpdatingLevel; // @dynamic inactiveUpdatingLevel;
-@property(retain) HMFLocationAuthorization *locationAuthorization; // @dynamic locationAuthorization;
-@property unsigned long long options; // @dynamic options;
 
 @end
 

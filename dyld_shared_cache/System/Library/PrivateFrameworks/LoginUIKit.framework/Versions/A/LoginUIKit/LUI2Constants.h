@@ -10,9 +10,9 @@
 
 + (double);
 + (double);
++ (double);
 + (double);
-+ (double);
-+ (double);
++ (double);
 
 @end
 

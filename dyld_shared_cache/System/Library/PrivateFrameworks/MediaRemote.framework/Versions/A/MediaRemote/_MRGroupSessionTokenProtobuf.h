@@ -9,30 +9,21 @@
 @interface _MRGroupSessionTokenProtobuf
 {
     NSString *_displayName;
-    NSString *_equivalentMediaIdentifier;
-    NSData *_invitationData;
-    int _routeType;
-    NSString *_sessionIdentifier;
-    NSString *_sharedSecret;
-    unsigned int _version;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
+- (void)C;
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)tI;
 - (int);
-- (id);
-- (void);
-- (void);
-- (int);
+- (id)setLocalizedPhysicalButtonConfirmationTitle: /* Error: Ran out of types for this method. */;
+- (void)setLastForceMerchantReprocessingRequestDate:(id)arg1;
+- (void)_generateAmountSuggestionListUsingTransactionHistoryForList:(int)arg1;
+- (int)_fieldDetectorSerialQueue;
 - (void);
 - (unsigned int);
 - (id);
@@ -46,26 +37,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)c;
+- (id)eat invalidate];
 - (_Bool);
 - (_Bool);
-- (void)Client;
+- (void)_notificationClient;
 - (id)gSessionManagerDataSource] [MRNowPlayingSessionManager] Got command preview that will cause a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *equivalentMediaIdentifier; // @synthesize equivalentMediaIdentifier=_equivalentMediaIdentifier;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasEquivalentMediaIdentifier;
-@property(readonly, nonatomic) _Bool hasSessionIdentifier;
-@property(readonly, nonatomic) _Bool hasSharedSecret;
-@property(nonatomic) _Bool hasVersion;
 @property(retain, nonatomic) NSData *invitationData; // @synthesize invitationData=_invitationData;
-@property(nonatomic) int routeType; // @synthesize routeType=_routeType;
-@property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) NSString *sharedSecret; // @synthesize sharedSecret=_sharedSecret;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

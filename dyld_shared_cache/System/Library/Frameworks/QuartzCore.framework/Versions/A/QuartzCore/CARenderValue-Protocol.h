@@ -5,5 +5,9 @@
 //
 
 @protocol CARenderValue
+
+@optional
+- (unsigned long long)UploadRequestConfiguration",R,C,N;
+- (struct Object *)8i16@?<v@?@"NSError">20;
 @end
 

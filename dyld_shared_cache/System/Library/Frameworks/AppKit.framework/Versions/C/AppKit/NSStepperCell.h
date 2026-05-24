@@ -6,33 +6,18 @@
 
 #import <AppKit/NSActionCell.h>
 
-@class NSString;
 @protocol NSStepperVisualProvider;
 
 @interface NSStepperCell : NSActionCell
 {
     id <NSStepperVisualProvider> _visualProvider;
-    double _value;
-    double _minValue;
-    double _maxValue;
-    double _increment;
-    struct {
-        unsigned int valueWraps:1;
-        unsigned int autorepeat:1;
-        unsigned int drawing:1;
-        unsigned int isTrackingWithPressure:1;
-        unsigned int subclassOverridesDrawing:1;
-        unsigned int wantsBackground:1;
-        unsigned int controlViewIsStepper:1;
-    } _stFlags;
-    CDStruct_8bbc296c _trackingState;
 }
 
-+ (_Bool);
++ (_Bool)8z;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)@;
+- (void)\);
 - (_Bool);
 - (void);
 - (void);
@@ -42,12 +27,12 @@
 - (_Bool);
 - (long long);
 - (unsigned long long);
+- (void)copy app info response;
+- (struct CGRect)tension.uuidcache.plist;
 - (void);
-- (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)#;
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -74,43 +59,43 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)LProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (int)@?i>24;
+- (void)SHTTPCookie2Storage";
+- (unsigned long long)backgroundTask:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)_didSendBodyData: /* Error: Ran out of types for this method. */;
+- (void)_allCredentialsWithAccessControlGroup:(struct CGRect)arg1 includeLegacyKeychain:(_Bool)arg2;
+- (void)_AVBackgroundSessionConfigurationWithIdentifier:(_Bool)arg1;
+- (void)_AVAssetDownloadTaskForURL:(id)arg1 destinationURL:options: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (int);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)list from xpc reply %@ [%ld];
+- (void)assumesHTTP3Capable;
+- (void)ileHandle"8;
 - (struct NSEdgeInsets);
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void)O;
 - (void);
 - (long long);
 - (double);
 - (void);
-- (void)rkedText:(id)arg1;
-- (void)arContainerViewFrameIfNecessary;
-- (id)rationForTrackingArea:(struct _NSZone *)arg1;
-- (float)ion:andReturnFrame: /* Error: Ran out of types for this method. */;
-- (id)edDestinationForLocation:inScrollView:scrollsVertically:velocity:pageSizeGetter: /* Error: Ran out of types for this method. */;
+- (void)setWantsNotificationForMarkedText:(id)arg1;
+- (void)_updateTitlebarContainerViewFrameIfNecessary;
+- (id)_synchronizeConfigurationForTrackingArea:(struct _NSZone *)arg1;
+- (float)_indexOfDividerForLocation:andReturnFrame: /* Error: Ran out of types for this method. */;
+- (id)_adjustedDestinationForLocation:inScrollView:scrollsVertically:velocity:pageSizeGetter: /* Error: Ran out of types for this method. */;
 - (void)(Ì;
 - (void)(Ì;
 - (double) ì;
@@ -120,21 +105,7 @@
 - (id)D;
 
 // Remaining properties
-@property(retain, setter=_setVisualProvider:) id <NSStepperVisualProvider> _visualProvider;
-@property _Bool autorepeat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted;
-@property double increment;
 @property(getter=isIncrementing) _Bool incrementing;
-@property double maxValue;
-@property double minValue;
-@property(readonly) Class superclass;
-@property _Bool valueWraps;
 
 @end
 

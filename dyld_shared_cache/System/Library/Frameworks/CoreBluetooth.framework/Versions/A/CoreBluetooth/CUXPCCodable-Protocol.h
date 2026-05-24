@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol CUXPCCodable
+- (void)initWithString:(NSObject<OS_xpc_object> *)arg1 encodingInvalidCharacters: /* Error: Ran out of types for this method. */;
 @end
 

@@ -8,8 +8,6 @@
 {
     id appConfigManager;
     id identificationService;
-    id agreedToTermsAndConditionsProvider;
-    id queue;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface VSPrivacyConsentVoucher
 {
     NSString *_appAdamID;
-    NSString *_providerID;
 }
 
 + (_Bool);
@@ -19,8 +18,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_removeTargetsToRevealIfNeeded;
 - (id);
 - (void);
 - (id) Ð!dGùVÐ1Â0@ù
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *appAdamID; // @synthesize appAdamID=_appAdamID;
-@property(readonly, copy, nonatomic) NSString *providerID; // @synthesize providerID=_providerID;
 
 @end
 

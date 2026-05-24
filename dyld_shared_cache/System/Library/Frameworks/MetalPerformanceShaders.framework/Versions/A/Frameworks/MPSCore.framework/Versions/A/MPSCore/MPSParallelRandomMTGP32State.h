@@ -7,15 +7,6 @@
 @interface MPSParallelRandomMTGP32State
 {
     unsigned int *_state;
-    struct {
-        unsigned int *shift1;
-        unsigned int *shift2;
-        void *mR;
-        void *mT;
-        unsigned int *M;
-        unsigned int *stateIdx;
-        unsigned int maxGenerators;
-    } _stateParams;
 }
 
 + (_Bool);

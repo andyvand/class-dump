@@ -16,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelExpression *conditionExpression;
-@property(readonly, nonatomic) NUChannelExpression *falseExpression;
-@property(readonly, nonatomic) NUChannelExpression *trueExpression;
 
 @end
 

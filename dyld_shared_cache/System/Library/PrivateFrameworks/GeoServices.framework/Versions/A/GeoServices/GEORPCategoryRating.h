@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPRatingValue, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCategoryRating
 {
     PBDataReader *_reader;
-    NSString *_key;
-    GEORPRatingValue *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_d2d52b7f _flags;
 }
 
-+ (_Bool)ne:(id)arg1;
++ (_Bool)setIsOffline:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (id)H;
 - (id);
 - (void);
+- (id)serverAudioSessionActivationDelayAboveMediaPlaybackVolumeThreshold;
+- (void)%s Unable to save recorded audio for speech logging due to error %@.;
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)U;
+- (_Bool)G_defaultCollisionAlignmentRectInsets;
 - (_Bool);
 - (id);
 - (void);
 - (id)Categorys"b1"read_modernMapsCategoryId"b1"read_names"b1"read_secondaryName"b1"read_secondarySpokenName"b1"read_spokenNames"b1"read_styleAttributes"b1"read_telephone"b1"read_urlData"b1"read_url"b1"read_walletCategoryId"b1"wrote_anyField"b1};
-- (id)pGroupType;
-- (id)e:scale: /* Error: Ran out of types for this method. */;
+- (id)stepGroupType;
+- (id)activeTileSetForStyle:size:scale: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ULE_TYPE_WEB_CONTENT;
+- (id)MODULE_TYPE_WEB_CONTENT;
 - (_Bool);
 - (void);
 - (void)HÂ¾DHL@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key;
-@property(retain, nonatomic) GEORPRatingValue *value;
 
 @end
 

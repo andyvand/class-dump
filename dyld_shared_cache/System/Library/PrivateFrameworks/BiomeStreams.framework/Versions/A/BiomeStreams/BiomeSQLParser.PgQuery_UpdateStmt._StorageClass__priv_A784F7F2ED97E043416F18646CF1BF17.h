@@ -7,11 +7,6 @@
 @interface BiomeSQLParser.PgQuery_UpdateStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _relation;
-    id _targetList;
-    id _whereClause;
-    id _fromClause;
-    id _returningList;
-    id _withClause;
 }
 
 @end

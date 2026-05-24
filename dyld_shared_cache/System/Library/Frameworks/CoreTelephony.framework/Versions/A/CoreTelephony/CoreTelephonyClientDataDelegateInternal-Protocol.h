@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CTXPCServiceSubscriptionContext;
+
 @protocol CoreTelephonyClientDataDelegateInternal
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)getBytes:(CTXPCServiceSubscriptionContext *)arg1 maxLength:usedLength:encoding:options:range:remainingRange: /* Error: Ran out of types for this method. */;
 @end
 

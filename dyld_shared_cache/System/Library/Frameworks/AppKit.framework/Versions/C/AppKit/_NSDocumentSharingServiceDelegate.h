@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocument, NSString, NSView;
-@protocol NSSharingServiceDelegate;
+@class NSDocument;
 
 __attribute__((visibility("hidden")))
 @interface _NSDocumentSharingServiceDelegate
 {
     NSDocument *_document;
-    id <NSSharingServiceDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    NSView *_view;
 }
 
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
+- (void)Ho;
+- (id);
+- (id)a;
+- (struct CGRect)\;
 - (void);
 - (void);
 - (void);
@@ -29,13 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)angeAccessibilityOverriddenAttribute:from:to:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

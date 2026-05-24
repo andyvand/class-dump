@@ -6,23 +6,18 @@
 
 #import <MapKit/MKViewWithHairline.h>
 
-@class MKTransitDepartureContainerHeaderViewModel, MKTransitInfoLabelView, NSLayoutConstraint, UIImageView, UILayoutGuide, _MKUILabel;
+@class MKTransitDepartureContainerHeaderViewModel, MKTransitInfoLabelView;
 
 @interface MKTransitDepartureContainerHeaderView : MKViewWithHairline
 {
     MKTransitInfoLabelView *_containerArtworkView;
-    _MKUILabel *_containerTitleLabel;
-    UIImageView *_incidentImageView;
-    UILayoutGuide *_contentLayoutGuide;
-    NSLayoutConstraint *_artworkToTitleLabelHorizontalSpacingConstraint;
-    MKTransitDepartureContainerHeaderViewModel *_viewModel;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)stination;
+- (void)destination;
 - (id)must be an array of numbers;
 
 // Remaining properties

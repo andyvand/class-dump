@@ -7,9 +7,6 @@
 @interface NewsCore.ListBasedRecipeItemService
 {
     id contentContext;
-    id recipeListProviders;
-    id recipeItemFactory;
-    id defaultRecipeListTTL;
 }
 
 @end

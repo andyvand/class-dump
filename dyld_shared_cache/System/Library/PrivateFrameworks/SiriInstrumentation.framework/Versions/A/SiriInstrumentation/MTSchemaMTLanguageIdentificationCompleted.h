@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MTSchemaMTLanguageIdentificationCompleted : SISchemaInstrumentationMessage
 {
     int _inputSource;
-    int _topLocale;
-    NSArray *_lidConfidences;
-    struct {
-        unsigned int inputSource:1;
-        unsigned int topLocale:1;
-    } _has;
 }
 
-- (int);
+- (int)T5;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Tj4x;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -35,27 +27,22 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)t.framework/Versions/A/PDFKit;
 - (id);
 - (id);
-- (void);
+- (void)urity, Inc.;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)';
 - (id)
 × ;
 - (id)ockStateChanged;
-- (id)ions;
-- (void)ase;
+- (id)fixedDimensions;
+- (void)GATSchemaGATUsecase;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInputSource;
-@property(nonatomic) _Bool hasTopLocale;
 @property(nonatomic) int inputSource; // @synthesize inputSource=_inputSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *lidConfidences; // @synthesize lidConfidences=_lidConfidences;
-@property(nonatomic) int topLocale; // @synthesize topLocale=_topLocale;
 
 @end
 

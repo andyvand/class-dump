@@ -6,14 +6,9 @@
 
 #import <HelpData/HPDBaseClient.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface HPDClient : HPDBaseClient
 {
     struct __CFMessagePort *_serverPortRef;
-    struct __CFMessagePort *_localPortRef;
-    NSObject<OS_dispatch_queue> *_messageQueue;
 }
 
 - (_Bool);
@@ -33,7 +28,7 @@
 - (void);
 - (id)!GùÑdð1Â0@ù
 × ;
-- (_Bool)ecomeDownloadTask:(id)arg1;
+- (_Bool)URLSession:(id)arg1 dataTask:didBecomeDownloadTask: /* Error: Ran out of types for this method. */;
 
 @end
 

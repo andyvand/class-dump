@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailEditingSession
 {
     id id;
-    id item;
-    id acquirerName;
-    id interactor;
-    id sharedPropertiesWrapper;
-    id setNeedsDisplayHandler;
 }
 
 @end

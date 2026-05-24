@@ -5,5 +5,6 @@
 //
 
 @protocol AFAnnounceBinaryOutcomeRequestMutating
+- (void)ue;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UITextFormattingViewControllerDelegate
+- (void);
 @end
 

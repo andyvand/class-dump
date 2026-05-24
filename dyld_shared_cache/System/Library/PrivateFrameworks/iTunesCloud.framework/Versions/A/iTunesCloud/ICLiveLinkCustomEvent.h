@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ryItem;
+- (void)_ICValueHistoryItem;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;

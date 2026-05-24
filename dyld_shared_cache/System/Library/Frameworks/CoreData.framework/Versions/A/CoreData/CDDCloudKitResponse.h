@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDDCloudKitMessage, NSError;
-
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitResponse
 {
     _Bool _success;
-    CDDCloudKitMessage *_message;
-    NSError *_error;
 }
 
 + (_Bool);

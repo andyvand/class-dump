@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SCKRecordSchema
 {
     NSString *_recordType;
-    NSArray *_fieldSchemas;
 }
 
 - (_Bool);
@@ -21,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fieldNames;
-@property(readonly, copy, nonatomic) NSArray *fieldSchemas; // @synthesize fieldSchemas=_fieldSchemas;
 @property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 
 @end

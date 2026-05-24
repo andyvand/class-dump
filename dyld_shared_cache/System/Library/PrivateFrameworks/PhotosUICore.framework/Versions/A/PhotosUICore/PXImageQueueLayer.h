@@ -7,8 +7,6 @@
 @interface PXImageQueueLayer
 {
     struct _CAImageQueue *_imageQueue;
-    struct __CVBuffer *_pixelBuffer;
-    unsigned long long _pixelBufferId;
 }
 
 - (void);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneTaxonomyHierarchy, NSDictionary, NSObject, PGGraph;
-@protocol OS_os_log;
+@class NSDictionary, PGGraph;
 
 @interface PGPublicEventCriteriaFactory
 {
     PGGraph *_graph;
-    CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSDictionary *_disambiguationCriteriaByEventCategory;
-    NSDictionary *_highConfidenceCriteriaByEventCategory;
-    NSDictionary *_prohibitedCriteriaByEventCategory;
 }
 
-+ (id);
++ (id)ported.;
+- (id);
+- (id)rangeByGrowingToContainRange:(id)arg1;
+- (id)_wordTokenzierWithString: /* Error: Ran out of types for this method. */;
+- (id)ent;
 - (id);
 - (id);
 - (id);
@@ -25,19 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)rseLocationDataIsValid;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *disambiguationCriteriaByEventCategory; // @synthesize disambiguationCriteriaByEventCategory=_disambiguationCriteriaByEventCategory;
-@property(readonly, nonatomic) NSDictionary *highConfidenceCriteriaByEventCategory; // @synthesize highConfidenceCriteriaByEventCategory=_highConfidenceCriteriaByEventCategory;
-@property(readonly, nonatomic) NSDictionary *prohibitedCriteriaByEventCategory; // @synthesize prohibitedCriteriaByEventCategory=_prohibitedCriteriaByEventCategory;
 
 @end
 

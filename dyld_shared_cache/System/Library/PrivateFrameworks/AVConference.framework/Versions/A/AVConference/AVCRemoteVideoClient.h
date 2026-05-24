@@ -4,66 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, CALayer, NSDictionary, NSObject, NSString, VCCALayerHost, VideoAttributes;
-@protocol AVCRemoteVideoClientDelegate, OS_dispatch_queue;
+@class VideoAttributes;
 
 @interface AVCRemoteVideoClient
 {
     id _delegate;
-    long long _streamToken;
-    CALayer *_primaryCameraLayer;
-    CALayer *_secondaryCameraLayer;
-    CALayer *_screenLayer;
-    CALayer *_primaryCameraSubLayer;
-    CALayer *_secondaryCameraSubLayer;
-    CALayer *_screenSubLayer;
-    VCCALayerHost *_caLayerHost;
-    AVConferenceXPCClient *_connection;
-    int _activeVideoMode;
-    _Bool _hasReceivedFirstFrame;
-    _Bool _isVideoPaused;
-    _Bool _isMediaStalled;
-    _Bool _isVideoDegraded;
-    _Bool _isVideoSuspended;
-    _Bool _hasReceivedLastFrame;
-    _Bool _shouldDisplayVideoInfoLayer;
-    VideoAttributes *_remoteScreenAttributes;
-    VideoAttributes *_remoteVideoAttributes;
-    NSDictionary *_slotsForModes;
-    NSString *_connectionTypeString;
-    NSObject<OS_dispatch_queue> *_avcRemoteVideoQueue;
-    _Bool _layerHostMode;
-    _Bool _isNetworkDegraded;
-    _Bool _isNetworkDegradedLocal;
-    _Bool _transformForRemoteVideoOrientationEnabled;
 }
 
 - (id *);
 - (id);
+- (id)";
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (id);
+- (id)8?;
+- (void)<;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -73,7 +46,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
 - (void);
@@ -81,38 +54,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)del:(id)arg1 Skipping dimension reduction when training due to %s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *connectionTypeString; // @synthesize connectionTypeString=_connectionTypeString;
-@property(readonly, nonatomic) id <AVCRemoteVideoClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasReceivedFirstFrame; // @synthesize hasReceivedFirstFrame=_hasReceivedFirstFrame;
-@property(nonatomic) _Bool hasReceivedLastFrame; // @synthesize hasReceivedLastFrame=_hasReceivedLastFrame;
-@property(nonatomic) _Bool isMediaStalled; // @synthesize isMediaStalled=_isMediaStalled;
-@property(nonatomic) _Bool isNetworkDegraded; // @synthesize isNetworkDegraded=_isNetworkDegraded;
-@property(nonatomic) _Bool isNetworkDegradedLocal; // @synthesize isNetworkDegradedLocal=_isNetworkDegradedLocal;
-@property(nonatomic) _Bool isVideoDegraded; // @synthesize isVideoDegraded=_isVideoDegraded;
-@property(nonatomic) _Bool isVideoPaused; // @synthesize isVideoPaused=_isVideoPaused;
-@property(nonatomic) _Bool isVideoSuspended; // @synthesize isVideoSuspended=_isVideoSuspended;
 @property(retain, nonatomic) VideoAttributes *remoteScreenAttributes; // @synthesize remoteScreenAttributes=_remoteScreenAttributes;
-@property(retain, nonatomic) VideoAttributes *remoteVideoAttributes; // @synthesize remoteVideoAttributes=_remoteVideoAttributes;
-@property(nonatomic) _Bool shouldDisplayVideoInfoLayer; // @synthesize shouldDisplayVideoInfoLayer=_shouldDisplayVideoInfoLayer;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(nonatomic, getter=isTransformForRemoteVideoOrientationEnabled) _Bool transformForRemoteVideoOrientationEnabled; // @synthesize transformForRemoteVideoOrientationEnabled=_transformForRemoteVideoOrientationEnabled;
 
 @end
 

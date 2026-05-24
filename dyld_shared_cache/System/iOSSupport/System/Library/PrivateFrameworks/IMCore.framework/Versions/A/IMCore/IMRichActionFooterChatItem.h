@@ -11,7 +11,6 @@
 @interface IMRichActionFooterChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    NSString *_extensionName;
 }
 
 

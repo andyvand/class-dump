@@ -6,13 +6,11 @@
 
 #import <Photos/PHImportUrlSource.h>
 
-@class NSDictionary, NSURL, PLPhotoLibraryPathManager;
+@class NSURL, PLPhotoLibraryPathManager;
 
 @interface PHImportLibrarySource : PHImportUrlSource
 {
     NSURL *_libraryURL;
-    NSDictionary *_renderResourcePathsByIdentifier;
-    PLPhotoLibraryPathManager *_pathManager;
 }
 
 + (id);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);

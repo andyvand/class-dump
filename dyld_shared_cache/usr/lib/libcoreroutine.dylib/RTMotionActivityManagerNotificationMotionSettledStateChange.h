@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id):remainingLength:%zd < 2 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 

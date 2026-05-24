@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaSiriResponseContext : SISchemaInstrumentationMessage
 {
     NSString *_dialogPhase;
-    int _presentationType;
-    int _siriResponseMode;
-    struct {
-        unsigned int presentationType:1;
-        unsigned int siriResponseMode:1;
-    } _has;
-    _Bool _hasDialogPhase;
 }
 
 - (int);
@@ -30,30 +23,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (void);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)_packageDPInfo;
+- (_Bool)cts.framework/Contacts;
+- (_Bool)?,   ?,   ?,   ?,   ? );;
 - (id);
 - (id);
-- (id)r1;
-- (id)ommunalDevicesMatchingCandidate;
-- (void)ONTYPE_CELLULAR_9G;
+- (id)deleteDeviceExpertExecutionTier1;
+- (id)_fractionOfCommunalDevicesMatchingCandidate;
+- (void)MWTNETWORKCONNECTIONTYPE_CELLULAR_9G;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialogPhase; // @synthesize dialogPhase=_dialogPhase;
-@property(nonatomic) _Bool hasDialogPhase; // @synthesize hasDialogPhase=_hasDialogPhase;
-@property(nonatomic) _Bool hasPresentationType;
-@property(nonatomic) _Bool hasSiriResponseMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int presentationType; // @synthesize presentationType=_presentationType;
-@property(nonatomic) int siriResponseMode; // @synthesize siriResponseMode=_siriResponseMode;
 
 @end
 

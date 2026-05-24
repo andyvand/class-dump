@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CRDeviceComponent
 {
     _Bool _hasStrongIdentity;
     int _type;
-    NSString *_spc;
-    NSString *_locKey;
-    NSArray *_fdrKeys;
-    CRDeviceComponent *_superModule;
 }
 
 - (id);
@@ -31,18 +27,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ᗊ;
 - (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *fdrKeys; // @synthesize fdrKeys=_fdrKeys;
-@property(nonatomic) _Bool hasStrongIdentity; // @synthesize hasStrongIdentity=_hasStrongIdentity;
 @property(nonatomic) NSString *locKey; // @synthesize locKey=_locKey;
 @property(retain, nonatomic) NSString *spc; // @synthesize spc=_spc;
-@property(retain, nonatomic) CRDeviceComponent *superModule; // @synthesize superModule=_superModule;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

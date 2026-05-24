@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PGMeaningPartsOfDayCriteria
 {
     NSArray *_positiveSignificantPartsOfDay;
-    NSArray *_positiveSignificantPartsOfDayStrings;
-    NSArray *_negativeSignificantPartsOfDay;
-    NSArray *_negativeSignificantPartsOfDayStrings;
-    NSArray *_positivePartsOfDay;
-    NSArray *_positivePartsOfDayStrings;
-    NSArray *_negativePartsOfDay;
-    NSArray *_negativePartsOfDayStrings;
 }
 
 + (id);
@@ -46,21 +39,7 @@
 - (void)e.PhotosGraph.PGFeatureExtractorAssetCollectionAverage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *negativePartsOfDay; // @synthesize negativePartsOfDay=_negativePartsOfDay;
-@property(retain, nonatomic) NSArray *negativePartsOfDayStrings; // @synthesize negativePartsOfDayStrings=_negativePartsOfDayStrings;
-@property(retain, nonatomic) NSArray *negativeSignificantPartsOfDay; // @synthesize negativeSignificantPartsOfDay=_negativeSignificantPartsOfDay;
-@property(retain, nonatomic) NSArray *negativeSignificantPartsOfDayStrings; // @synthesize negativeSignificantPartsOfDayStrings=_negativeSignificantPartsOfDayStrings;
-@property(retain, nonatomic) NSArray *positivePartsOfDay; // @synthesize positivePartsOfDay=_positivePartsOfDay;
-@property(retain, nonatomic) NSArray *positivePartsOfDayStrings; // @synthesize positivePartsOfDayStrings=_positivePartsOfDayStrings;
 @property(retain, nonatomic) NSArray *positiveSignificantPartsOfDay; // @synthesize positiveSignificantPartsOfDay=_positiveSignificantPartsOfDay;
-@property(retain, nonatomic) NSArray *positiveSignificantPartsOfDayStrings; // @synthesize positiveSignificantPartsOfDayStrings=_positiveSignificantPartsOfDayStrings;
-@property(readonly) Class superclass;
 
 @end
 

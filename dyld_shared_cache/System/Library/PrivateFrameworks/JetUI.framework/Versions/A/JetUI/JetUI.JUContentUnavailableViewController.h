@@ -7,11 +7,9 @@
 @interface JetUI.JUContentUnavailableViewController
 {
     id error;
-    id presentationContext;
-    id retry;
 }
 
-- (id);
+- (id)_travelTimeLocalizedString;
 - (id);
 - (void);
 - (void);

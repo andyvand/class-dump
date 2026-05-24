@@ -9,7 +9,6 @@
 @interface KTStatus
 {
     NSString *_applicationIdentifier;
-    TransparencyApplication *_application;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)__purgeFilesInDirectory:(id *)arg1 matching:maxAge:maxCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain) TransparencyApplication *application; // @synthesize application=_application;
-@property(readonly) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibArtwork, NSMutableDictionary, NSNumber, NSString;
-@protocol ITLibMediaEntityDelegate;
+@class NSMutableDictionary, NSNumber;
 
 @interface ITLibMediaEntity
 {
     NSMutableDictionary *_fields;
-    NSNumber *_persistentID;
-    NSString *_artworkUUID;
-    ITLibArtwork *_artwork;
-    id <ITLibMediaEntityDelegate> _entityDelegate;
 }
 
 - (void);
@@ -21,22 +16,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)em/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ITLibArtwork *artwork; // @synthesize artwork=_artwork;
-@property(nonatomic, getter=hasArtworkAvailable) _Bool artworkAvailable;
-@property(retain, nonatomic) NSString *artworkUUID; // @synthesize artworkUUID=_artworkUUID;
-@property(nonatomic) __weak id <ITLibMediaEntityDelegate> entityDelegate; // @synthesize entityDelegate=_entityDelegate;
 @property(retain, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
 
 @end

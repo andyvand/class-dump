@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSData, NSString;
+@class INIntent, NSData;
 
 @interface CHSIntentReference
 {
     INIntent *_inMemoryIntent;
-    long long _stableHash;
-    NSData *_intentData;
-    NSData *_partialConfigData;
-    NSData *_partialSchemaData;
 }
 
 + (id);
@@ -21,16 +17,16 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-- (id);
++ (_Bool)setCachingEnabledByDefault: /* Error: Ran out of types for this method. */;
+- (id)V*cj?;
 - (void);
 - (id);
-- (id);
+- (id)qn?;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -44,27 +40,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *_intentData; // @synthesize _intentData;
-@property(readonly, nonatomic) _Bool _isPartial;
-@property(readonly, nonatomic) _Bool _isSchemaSeparated;
-@property(readonly, nonatomic) NSData *_partialConfigData; // @synthesize _partialConfigData;
 @property(retain, nonatomic, setter=_setPartialSchemaData:) NSData *_partialSchemaData; // @synthesize _partialSchemaData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) INIntent *intent;
-@property(readonly, nonatomic) long long stableHash; // @synthesize stableHash=_stableHash;
-@property(readonly) Class superclass;
 
 @end
 

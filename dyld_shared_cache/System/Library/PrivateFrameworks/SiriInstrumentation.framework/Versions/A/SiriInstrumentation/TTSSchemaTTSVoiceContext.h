@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface TTSSchemaTTSVoiceContext : SISchemaInstrumentationMessage
 {
     int _voiceType;
-    int _voiceFootprint;
-    unsigned int _voiceVersion;
-    unsigned int _resourceVersion;
-    int _voiceName;
-    struct {
-        unsigned int voiceType:1;
-        unsigned int voiceFootprint:1;
-        unsigned int voiceVersion:1;
-        unsigned int resourceVersion:1;
-        unsigned int voiceName:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -43,34 +30,24 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)*;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (unsigned int)`;
+- (_Bool)alPadding;
+- (_Bool)m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.is_read == 0  AND m.is_from_me == 0  AND m.item_type == 1  ORDER BY m.date DESC;;
 - (id);
 - (id);
-- (void)sTotalPreviousSuggestionsShown;
-- (id)tatusCode;
-- (id)requencyCount300Meters;
+- (void)hasTotalPreviousSuggestionsShown;
+- (id)deleteRetrievalStatusCode;
+- (id)_locationFrequencyCount300Meters;
 - (int)i.mh.MHClientEvent.MHAssistantDaemonAudioRecordingInterruptionContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResourceVersion;
-@property(nonatomic) _Bool hasVoiceFootprint;
-@property(nonatomic) _Bool hasVoiceName;
-@property(nonatomic) _Bool hasVoiceType;
-@property(nonatomic) _Bool hasVoiceVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int resourceVersion; // @synthesize resourceVersion=_resourceVersion;
-@property(nonatomic) int voiceFootprint; // @synthesize voiceFootprint=_voiceFootprint;
-@property(nonatomic) int voiceName; // @synthesize voiceName=_voiceName;
 @property(nonatomic) int voiceType; // @synthesize voiceType=_voiceType;
-@property(nonatomic) unsigned int voiceVersion; // @synthesize voiceVersion=_voiceVersion;
 
 @end
 

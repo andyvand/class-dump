@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSDocumentControllerPersistentRestoration
 {
     NSMutableDictionary *_autoIDToDocumentOrNSNull;
-    NSMutableDictionary *_autoIDToWaiters;
 }
 
-- (void);
+- (void)#;
 - (_Bool);
-- (void);
+- (void)on}};
 - (id);
 - (void)èÝA;
 

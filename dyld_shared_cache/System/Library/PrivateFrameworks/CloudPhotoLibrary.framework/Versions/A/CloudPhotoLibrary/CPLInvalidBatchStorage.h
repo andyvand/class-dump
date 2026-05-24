@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (_Bool);
+- (id)q`;
+- (_Bool)deletion children;
 
 @end
 

@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIDesignLibraryCatalog
 {
     unsigned long long _storageRef;
-    NSString *_assetStoreName;
-    id _colorCache[5][28][4];
-    struct os_unfair_lock_s _lock;
-    long long _designSystem;
-    long long _colorScheme;
-    long long _contrast;
-    long long _styling;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)numbers;
 - (void);
 - (long long);
 - (id);
@@ -38,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property long long colorScheme; // @synthesize colorScheme=_colorScheme;
-@property long long contrast; // @synthesize contrast=_contrast;
 @property long long designSystem; // @synthesize designSystem=_designSystem;
-@property long long styling; // @synthesize styling=_styling;
 
 @end
 

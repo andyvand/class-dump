@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TDLayerStackRenditionSpec;
+@class TDLayerStackRenditionSpec;
 
 @interface _TDLayerStackFilterHelper
 {
     TDLayerStackRenditionSpec *_layerStackRendition;
-    NSMutableArray *_excludedIdioms;
-    NSMutableArray *_excludedSubtypes;
-    NSMutableArray *_excludedScaleFactors;
-    NSMutableArray *_excludedHorizontalSizeClasses;
-    NSMutableArray *_excludedVerticalSizeClasses;
-    NSMutableArray *_excludedDirections;
-    NSMutableArray *_excludedLayers;
-    NSMutableArray *_excludedPresentationStates;
-    NSMutableArray *_excludedSizes;
-    NSMutableArray *_excludedStates;
-    NSMutableArray *_excludedValues;
 }
 
 - (void);
@@ -39,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,17 +41,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *excludedDirections; // @synthesize excludedDirections=_excludedDirections;
-@property(retain, nonatomic) NSMutableArray *excludedHorizontalSizeClasses; // @synthesize excludedHorizontalSizeClasses=_excludedHorizontalSizeClasses;
-@property(retain, nonatomic) NSMutableArray *excludedIdioms; // @synthesize excludedIdioms=_excludedIdioms;
-@property(retain, nonatomic) NSMutableArray *excludedLayers; // @synthesize excludedLayers=_excludedLayers;
-@property(retain, nonatomic) NSMutableArray *excludedPresentationStates; // @synthesize excludedPresentationStates=_excludedPresentationStates;
-@property(retain, nonatomic) NSMutableArray *excludedScaleFactors; // @synthesize excludedScaleFactors=_excludedScaleFactors;
-@property(retain, nonatomic) NSMutableArray *excludedSizes; // @synthesize excludedSizes=_excludedSizes;
-@property(retain, nonatomic) NSMutableArray *excludedStates; // @synthesize excludedStates=_excludedStates;
-@property(retain, nonatomic) NSMutableArray *excludedSubtypes; // @synthesize excludedSubtypes=_excludedSubtypes;
-@property(retain, nonatomic) NSMutableArray *excludedValues; // @synthesize excludedValues=_excludedValues;
-@property(retain, nonatomic) NSMutableArray *excludedVerticalSizeClasses; // @synthesize excludedVerticalSizeClasses=_excludedVerticalSizeClasses;
 @property(retain, nonatomic) TDLayerStackRenditionSpec *layerStackRendition; // @synthesize layerStackRendition=_layerStackRendition;
 
 @end

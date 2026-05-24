@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPaymentCouponCodeDataItem : PKPaymentDataItem
 {
@@ -14,15 +14,13 @@
 
 + (long long);
 - (_Bool);
-- (id);
+- (id)h	;
 - (id);
 - (long long);
 - (_Bool)ot parse keychain data:(id *)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAwaitingCouponCodeUpdate) _Bool awaitingCouponCodeUpdate;
 @property(readonly, copy, nonatomic) NSString *couponCode;
-@property(readonly, copy, nonatomic) NSArray *errors;
 
 @end
 

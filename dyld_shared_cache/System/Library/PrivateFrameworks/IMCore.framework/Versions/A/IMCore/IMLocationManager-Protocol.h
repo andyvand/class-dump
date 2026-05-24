@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSError;
-
 @protocol IMLocationManager
-- (CLLocation *);
+- (_Bool)window centered at %d  [%d %d];
+- (_Bool);
+- (_Bool)reamOutput for type audio error=%@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CLLocation *currentLocation;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) _Bool locationAuthorizationDenied;
 @property(readonly, nonatomic) _Bool locationAuthorizationDetermined;
-@property(readonly, nonatomic) _Bool preciseLocationAuthorized;
 @end
 

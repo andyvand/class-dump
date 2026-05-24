@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSArray;
+@class INSpeakableString;
 
 @protocol INCreateTaskListIntentExport
+- (void);
 - (INSpeakableString *)!ÐEù¾(Ð1Â0@ù
 × ;
 - (void)f;
 
 // Remaining properties
-@property(copy) INSpeakableString *groupName;
-@property(copy) NSArray *taskTitles;
 @property(copy) INSpeakableString *title;
 @end
 

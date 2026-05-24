@@ -6,19 +6,18 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface MPMediaContainmentPredicate : MPMediaPredicate
 {
     NSString *_property;
-    NSSet *_values;
 }
 
-+ (id);
++ (id)_typeMod;
 + (_Bool);
+- (id)roller replaceItems:(id)arg1 ];
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)initWithBundleId:groupId:documentId:date:relevanceDate:contactHandles:language:metadata: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, copy, nonatomic) NSSet *values; // @synthesize values=_values;
 
 @end
 

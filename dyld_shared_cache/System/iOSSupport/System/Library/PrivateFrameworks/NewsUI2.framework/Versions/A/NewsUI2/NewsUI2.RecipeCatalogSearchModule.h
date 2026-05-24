@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

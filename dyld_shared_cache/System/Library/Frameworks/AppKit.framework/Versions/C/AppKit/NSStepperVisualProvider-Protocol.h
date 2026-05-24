@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 @protocol NSStepperVisualProvider
+- (long long);
 - (void)2020;
 - (struct NSEdgeInsets)gle argument;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) int blendModeForContextDrawing;
 @property CDStruct_77becdfd currentDrawingState;
-@property(readonly) NSView *designatedFocusRingView;
-@property(readonly) struct CGSize intrinsicContentSize;
 @end
 

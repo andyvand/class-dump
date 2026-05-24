@@ -20,9 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canShowResetPaneInPalette;
 @property(nonatomic) _Bool hasSetUserHasDrawn; // @synthesize hasSetUserHasDrawn=_hasSetUserHasDrawn;
-@property(nonatomic) unsigned long long seenFeatures;
 
 @end
 

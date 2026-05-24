@@ -9,14 +9,13 @@
 @interface AppKit._NSLatencyLightView.PulseMaskView__priv_947886466EE83D7BFF59989814F857BD : NSView
 {
     id radius;
-    id isAnimating;
 }
 
 - (id);
 - (void);
 - (_Bool)0@ù
 × ;
-- (id)tObservingContainingVisualEffectView:(struct CGRect)arg1 andThemeFrame: /* Error: Ran out of types for this method. */;
+- (id)_startObservingContainingVisualEffectView:(struct CGRect)arg1 andThemeFrame: /* Error: Ran out of types for this method. */;
 - (void)èXA;
 
 // Remaining properties

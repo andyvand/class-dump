@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceInfo, NSString;
+@class NSString;
 
 @interface AFInstanceContext
 {
@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)viewFamilyMemberTransactionFromNotification;
 - (id);
 - (id);
 - (_Bool);
@@ -28,15 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *audioDeviceIdentifier;
-@property(readonly, nonatomic) AFInstanceInfo *info;
-@property(readonly, nonatomic) _Bool isCurrent;
-@property(readonly, nonatomic) _Bool isDefault;
-@property(readonly, copy, nonatomic) NSString *mediaRouteIdentifier;
 @property(readonly, copy, nonatomic) NSString *preferencesSubdomain;
-@property(readonly, nonatomic) _Bool supportsAudioPowerUpdate;
-@property(readonly, nonatomic) _Bool supportsProxyGroupPlayer;
-@property(readonly, nonatomic) _Bool supportsTelephony;
 
 @end
 

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     struct TNSWeakPtr<NSObject<TPathControlDelegate>> _weakDelegate;
 }
 
+- (id)setExtensionRequestedContentBlocking: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);

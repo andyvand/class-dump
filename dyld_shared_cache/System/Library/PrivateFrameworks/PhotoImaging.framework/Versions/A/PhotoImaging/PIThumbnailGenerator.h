@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NUComposition, NUImageBufferRenderRequest, _PIThumbnailGeneratorSnapshot;
-@protocol NUScalePolicy, OS_dispatch_queue;
+@class NUComposition;
 
 @interface PIThumbnailGenerator
 {
     NUComposition *_composition;
-    NSArray *_unadjustedThumbnails;
-    NUImageBufferRenderRequest *_renderRequest;
-    NSObject<OS_dispatch_queue> *_queue;
-    _PIThumbnailGeneratorSnapshot *_currentSnapshot;
-    NSArray *_thumbnailTimes;
-    id <NUScalePolicy> _thumbnailScalePolicy;
-    NSObject<OS_dispatch_queue> *_resultQueue;
-    CDUnknownBlockType _partialResultHandler;
-    CDStruct_1b6d18a9 _referenceTime;
 }
 
 + (CDStruct_1b6d18a9);
@@ -47,15 +37,10 @@
 - (void);
 - (id);
 - (id);
-- (void)dthKey;
+- (void)widthKey;
 
 // Remaining properties
 @property(copy, nonatomic) NUComposition *composition; // @synthesize composition=_composition;
-@property(copy, nonatomic) CDUnknownBlockType partialResultHandler; // @synthesize partialResultHandler=_partialResultHandler;
-@property(nonatomic) CDStruct_1b6d18a9 referenceTime; // @synthesize referenceTime=_referenceTime;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultQueue; // @synthesize resultQueue=_resultQueue;
-@property(retain, nonatomic) id <NUScalePolicy> thumbnailScalePolicy; // @synthesize thumbnailScalePolicy=_thumbnailScalePolicy;
-@property(copy, nonatomic) NSArray *thumbnailTimes; // @synthesize thumbnailTimes=_thumbnailTimes;
 
 @end
 

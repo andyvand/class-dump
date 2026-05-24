@@ -9,10 +9,6 @@
 @interface _OSLogVersioning
 {
     _OSLogCollectionReference *_lcr;
-    _Bool _closeOnRelease;
-    _Bool _hasEndTimeRef;
-    long long _state;
-    long long _version;
 }
 
 - (_Bool);
@@ -24,13 +20,11 @@
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void)!;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasEndTimeRef; // @synthesize hasEndTimeRef=_hasEndTimeRef;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

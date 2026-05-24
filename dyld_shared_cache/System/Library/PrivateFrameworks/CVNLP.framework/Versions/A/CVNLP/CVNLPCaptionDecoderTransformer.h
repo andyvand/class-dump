@@ -6,67 +6,45 @@
 
 #import <CVNLP/CVNLPCaptionDecoder.h>
 
-@class NSArray, NSDictionary;
-
 @interface CVNLPCaptionDecoderTransformer : CVNLPCaptionDecoder
 {
     unsigned long long _startID;
-    unsigned long long _endID;
-    unsigned long long _decoderBatchSize;
-    unsigned long long _maxCaptionLen;
-    unsigned long long _vocabSize;
-    unsigned long long _outputVocabSize;
-    NSDictionary *_vocab;
-    NSArray *_decoderBlocks;
-    unsigned long long _beamSize;
-    struct CVNLPBeamSearch *_beamSearch;
-    struct CVNLPBeamSearch *_filterBeamSearch;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
+- (struct CVNLPBeamSearch *)';
+- (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (struct CVNLPBeamSearch *);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (struct CVNLPBeamSearch *);
 - (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long)'~1';
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)*;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)p;
+- (void)�;
 
 // Remaining properties
-@property(nonatomic) struct CVNLPBeamSearch *beamSearch; // @synthesize beamSearch=_beamSearch;
-@property(nonatomic) unsigned long long beamSize; // @synthesize beamSize=_beamSize;
-@property(nonatomic) unsigned long long decoderBatchSize; // @synthesize decoderBatchSize=_decoderBatchSize;
-@property(retain, nonatomic) NSArray *decoderBlocks; // @synthesize decoderBlocks=_decoderBlocks;
-@property(nonatomic) unsigned long long endID; // @synthesize endID=_endID;
-@property(nonatomic) struct CVNLPBeamSearch *filterBeamSearch; // @synthesize filterBeamSearch=_filterBeamSearch;
-@property(nonatomic) unsigned long long maxCaptionLen; // @synthesize maxCaptionLen=_maxCaptionLen;
-@property(nonatomic) unsigned long long outputVocabSize; // @synthesize outputVocabSize=_outputVocabSize;
 @property(nonatomic) unsigned long long startID; // @synthesize startID=_startID;
-@property(retain, nonatomic) NSDictionary *vocab; // @synthesize vocab=_vocab;
-@property(nonatomic) unsigned long long vocabSize; // @synthesize vocabSize=_vocabSize;
 
 @end
 

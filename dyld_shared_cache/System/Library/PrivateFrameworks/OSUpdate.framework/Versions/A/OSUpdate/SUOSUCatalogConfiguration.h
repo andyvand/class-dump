@@ -9,15 +9,12 @@
 @interface SUOSUCatalogConfiguration
 {
     NSString *_catalogHostName;
-    NSString *_managedByOrganizationName;
-    unsigned long long _catalogConfigurationType;
-    NSString *_pallasAudienceID;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long catalogConfigurationType; // @synthesize catalogConfigurationType=_catalogConfigurationType;
 @property(retain) NSString *catalogHostName; // @synthesize catalogHostName=_catalogHostName;
-@property(retain) NSString *managedByOrganizationName; // @synthesize managedByOrganizationName=_managedByOrganizationName;
-@property(retain) NSString *pallasAudienceID; // @synthesize pallasAudienceID=_pallasAudienceID;
 
 @end
 

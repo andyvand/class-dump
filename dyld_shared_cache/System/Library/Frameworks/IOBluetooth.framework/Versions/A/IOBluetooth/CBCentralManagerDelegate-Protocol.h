@@ -9,6 +9,7 @@
 @protocol CBCentralManagerDelegate
 
 @optional
-- (void)tIsAutoRoutingEnabled:(CBCentralManager *)arg1;
+- (void)R;
+- (void)setIsAutoRoutingEnabled:(CBCentralManager *)arg1;
 @end
 

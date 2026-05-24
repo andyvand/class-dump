@@ -9,14 +9,13 @@
 @interface MPSImageScale : MPSUnaryImageKernel
 {
     struct MPSScaleTransform _transformStorage;
-    struct MPSScaleTransform *_scaleTransform;
 }
 
 - (const struct MPSScaleTransform *);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithMode:(id)arg1 notifyBlock: /* Error: Ran out of types for this method. */;
 - (id)D7`ëª?;
 
 // Remaining properties

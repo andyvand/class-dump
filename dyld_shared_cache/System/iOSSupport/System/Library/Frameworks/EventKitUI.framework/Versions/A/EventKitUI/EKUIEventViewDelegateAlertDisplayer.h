@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventViewControllerDefaultImpl, NSString;
 @protocol EKEventViewDelegatePrivateAllInProcess;
 
 @interface EKUIEventViewDelegateAlertDisplayer
 {
     id <EKEventViewDelegatePrivateAllInProcess> _delegate;
-    EKEventViewControllerDefaultImpl *_eventViewController;
 }
 
-- (id);
-- (void);
-- (void):animator: /* Error: Ran out of types for this method. */;
+- (id)Y%s;
+- (void)Y%s;
+- (void)tableView:willEndContextMenuInteractionWithConfiguration:animator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKPeerPaymentSubmitDeviceScoreIdentifiersRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_paymentIdentifier;
-    NSUUID *_requestDeviceScoreIdentifier;
-    NSUUID *_sendDeviceScoreIdentifier;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *paymentIdentifier; // @synthesize paymentIdentifier=_paymentIdentifier;
-@property(copy, nonatomic) NSUUID *requestDeviceScoreIdentifier; // @synthesize requestDeviceScoreIdentifier=_requestDeviceScoreIdentifier;
-@property(copy, nonatomic) NSUUID *sendDeviceScoreIdentifier; // @synthesize sendDeviceScoreIdentifier=_sendDeviceScoreIdentifier;
 
 @end
 

@@ -9,26 +9,15 @@
 @interface GEOCommonOptions
 {
     PBUnknownFields *_unknownFields;
-    _Bool _excludeGuidance;
-    _Bool _includeSnapScoreMetadataDebug;
-    _Bool _includeSummaryForPredictedDestination;
-    _Bool _includeTravelTimeAggressive;
-    _Bool _includeTravelTimeConservative;
-    _Bool _includeTravelTimeEstimate;
-    _Bool _supportsArMode;
-    struct {
-        unsigned int has_excludeGuidance:1;
-        unsigned int has_includeSnapScoreMetadataDebug:1;
-        unsigned int has_includeSummaryForPredictedDestination:1;
-        unsigned int has_includeTravelTimeAggressive:1;
-        unsigned int has_includeTravelTimeConservative:1;
-        unsigned int has_includeTravelTimeEstimate:1;
-        unsigned int has_supportsArMode:1;
-    } _flags;
 }
 
-+ (_Bool)etHasNumberOfAvailableExtensions:(id)arg1;
++ (_Bool)setHasNumberOfAvailableExtensions:(id)arg1;
 - (_Bool);
+- (void);
+- (void);
+- (void)__bss;
+- (void);
+- (void)__DATA;
 - (void);
 - (void);
 - (void);
@@ -37,59 +26,40 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)Array",&,N,V_phoneNumbers;
+- (_Bool)mailAddresses;
+- (_Bool)",C,D;
+- (_Bool)nCenter",R,V_distributedNotificationCenter;
+- (_Bool)@"NSDictionary",N;
+- (_Bool)CNTestableObserver;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(%d);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithTargetQueue:(id)arg1 audioProviderSelecting: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)
 × ;
-- (id)ventData:(struct _NSZone *)arg1 atTime: /* Error: Ran out of types for this method. */;
+- (id)saveNetworkEventData:(struct _NSZone *)arg1 atTime: /* Error: Ran out of types for this method. */;
 - (id)ð#Ø$¨%°&;
 - (id)App-Version-Minor;
 - (id);
 - (void)6;
 
 // Remaining properties
-@property(nonatomic) _Bool excludeGuidance;
-@property(nonatomic) _Bool hasExcludeGuidance;
-@property(nonatomic) _Bool hasIncludeSnapScoreMetadataDebug;
-@property(nonatomic) _Bool hasIncludeSummaryForPredictedDestination;
 @property(nonatomic) _Bool hasIncludeTravelTimeAggressive;
-@property(nonatomic) _Bool hasIncludeTravelTimeConservative;
-@property(nonatomic) _Bool hasIncludeTravelTimeEstimate;
-@property(nonatomic) _Bool hasSupportsArMode;
-@property(nonatomic) _Bool includeSnapScoreMetadataDebug;
-@property(nonatomic) _Bool includeSummaryForPredictedDestination;
-@property(nonatomic) _Bool includeTravelTimeAggressive;
-@property(nonatomic) _Bool includeTravelTimeConservative;
-@property(nonatomic) _Bool includeTravelTimeEstimate;
-@property(nonatomic) _Bool supportsArMode;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICSharedTracklistPosition
 {
     long long _type;
-    NSString *_afterItemIdentifier;
 }
 
 + (id);
@@ -20,7 +17,6 @@
 - (void)kEvent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *afterItemIdentifier; // @synthesize afterItemIdentifier=_afterItemIdentifier;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

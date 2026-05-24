@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSFileWrapper, NSString, __CTAdaptiveImageGlyphStorage;
+@class NSFileWrapper, __CTAdaptiveImageGlyphStorage;
 
 @interface CTAdaptiveImageGlyph
 {
@@ -13,27 +13,27 @@
 
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 - (id);
+- (id);
+- (id);
+- (struct CGImage *);
+- (struct CGImage *);
 - (id);
+- (id);
 - (id);
-- (struct CGImage *);
-- (struct CGImage *);
-- (id);
-- (id);
-- (id);
+- (struct CGSize);
 - (struct CGSize);
-- (struct CGSize);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)2;
 - (void);
 - (id);
 - (void)@ÿÍ<Eÿ²<Lÿå<MÿZ<OÿÍ<Qÿ<Tÿ<Yÿ<^ÿÍ<mÿå<oÿå<qÿÍ=;
@@ -41,10 +41,6 @@
 
 // Remaining properties
 @property(readonly) NSFileWrapper *_fallbackFileWrapper;
-@property(readonly, copy) NSString *contentDescription;
-@property(readonly) NSString *contentIdentifier;
-@property(readonly) NSData *imageContent;
-@property(readonly) NSArray *strikes;
 
 @end
 

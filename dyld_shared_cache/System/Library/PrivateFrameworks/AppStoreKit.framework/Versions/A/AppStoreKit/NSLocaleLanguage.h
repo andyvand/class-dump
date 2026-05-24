@@ -9,13 +9,12 @@
 @interface NSLocaleLanguage
 {
     NSString *_twoCharacterCode;
-    NSString *_threeCharacterCode;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (unsigned long long);
@@ -23,7 +22,6 @@
 - (void)G;
 
 // Remaining properties
-@property(copy) NSString *threeCharacterCode; // @synthesize threeCharacterCode=_threeCharacterCode;
 @property(copy) NSString *twoCharacterCode; // @synthesize twoCharacterCode=_twoCharacterCode;
 
 @end

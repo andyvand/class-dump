@@ -7,18 +7,14 @@
 @interface _NSCustomTextRenderingDisplayLinkInfo
 {
     double _timestamp;
-    double _duration;
-    double _targetTimestamp;
 }
 
 - (id);
 - (double);
 - (double);
-- (double)tIndex: /* Error: Ran out of types for this method. */;
+- (double)layoutManager:shouldUseAction:forControlCharacterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double targetTimestamp; // @synthesize targetTimestamp=_targetTimestamp;
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

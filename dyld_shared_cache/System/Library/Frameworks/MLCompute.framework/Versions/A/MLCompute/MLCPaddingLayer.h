@@ -9,11 +9,6 @@
 @interface MLCPaddingLayer : MLCLayer
 {
     int _paddingType;
-    float _constantValue;
-    unsigned long long _paddingLeft;
-    unsigned long long _paddingRight;
-    unsigned long long _paddingTop;
-    unsigned long long _paddingBottom;
 }
 
 + (_Bool);
@@ -33,15 +28,10 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float constantValue; // @synthesize constantValue=_constantValue;
-@property(readonly, nonatomic) unsigned long long paddingBottom; // @synthesize paddingBottom=_paddingBottom;
-@property(readonly, nonatomic) unsigned long long paddingLeft; // @synthesize paddingLeft=_paddingLeft;
-@property(readonly, nonatomic) unsigned long long paddingRight; // @synthesize paddingRight=_paddingRight;
-@property(readonly, nonatomic) unsigned long long paddingTop; // @synthesize paddingTop=_paddingTop;
 @property(readonly, nonatomic) int paddingType; // @synthesize paddingType=_paddingType;
 
 @end

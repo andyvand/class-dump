@@ -4,38 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIPreviewInteraction, UIView, UIViewController, _UIInteractionEffect_deprecated, _UIPreviewActionsController, _UIPreviewInteractionCommitTransition, _UIPreviewInteractionDismissTransition, _UIPreviewInteractionGestureRecognizer, _UIPreviewInteractionPresentationTransition, _UIPreviewPresentationController2, _UISteadyTouchForceGestureRecognizer, _UITouchesObservingGestureRecognizer;
-@protocol UIViewControllerPreviewing_Internal, _UIPreviewInteractionControllerDelegate, _UIPreviewInteractionHighlighting, _UIPreviewInteractionTouchForceProviding;
-
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionController
 {
     _Bool _performingPreviewTransition;
-    _Bool _hasTransitionedToPreview;
-    _Bool _dismissingPreview;
-    _Bool _commitTransitionScheduled;
-    _Bool _performingCommitTransition;
-    id <_UIPreviewInteractionControllerDelegate> _delegate;
-    UIView *_sourceView;
-    UIViewController *_presentingViewController;
-    UIPreviewInteraction *_previewInteraction;
-    id <_UIPreviewInteractionTouchForceProviding> _presentedViewTouchForceProvider;
-    id <_UIPreviewInteractionTouchForceProviding> _pausingTouchForceProvider;
-    _UIPreviewInteractionGestureRecognizer *_revealGestureRecognizer;
-    _UIPreviewInteractionGestureRecognizer *_previewGestureRecognizer;
-    _UISteadyTouchForceGestureRecognizer *_steadyTouchForceGestureRecognizer;
-    UIViewController *_currentPreviewViewController;
-    _UIPreviewPresentationController2 *_currentPresentationController;
-    id <_UIPreviewInteractionHighlighting> _currentHighlighter;
-    _UIPreviewInteractionPresentationTransition *_currentPresentationTransition;
-    _UIPreviewInteractionDismissTransition *_currentDismissTransition;
-    _UIPreviewInteractionCommitTransition *_currentCommitTransition;
-    _UIInteractionEffect_deprecated *_currentInteractionEffect;
-    _UITouchesObservingGestureRecognizer *_gestureRecognizerForPreviewActions;
-    _UIPreviewActionsController *_previewActionsController;
-    id <UIViewControllerPreviewing_Internal> _currentPreviewingContext;
-    struct CGPoint _location;
-    struct CGPoint _initialLocationForPreviewActionsPanning;
 }
 
 - (id);
@@ -48,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)__common;
+- (void)__text;
 - (void);
 - (void);
 - (void);
@@ -78,30 +50,30 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGPoint);
 - (struct CGPoint);
+- (_Bool)16B24Q28B36d40;
+- (id)updateActiveNicknameRecords: /* Error: Ran out of types for this method. */;
+- (_Bool)setChatRegistry: /* Error: Ran out of types for this method. */;
+- (void)sendMessage:(id)arg1 toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)queryCurrentStateWithError: /* Error: Ran out of types for this method. */;
+- (id)pushToken;
+- (id)proxyHost;
+- (id)provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)protobufForCompressedData: /* Error: Ran out of types for this method. */;
+- (id)promotionsPriorityEnabled;
+- (_Bool)ntSync:didSucceedSyncingAttachments:didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (void)locationShareStatusChangeProtobufForCompressedData: /* Error: Ran out of types for this method. */;
+- (id)initWithChatStatus:chat:style:displayName:groupID:originalGroupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (_Bool)cancellables;
+- (void)isShowingFailure,V_showingFailure;
+- (void)~#;
+- (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool).;
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)So20IMDMessageTranslatorCXMo;
 - (id);
 - (void);
 - (id);
@@ -110,15 +82,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)d out of %ld attachment paths.;
+- (void)ccounts do not match up.;
+- (void)essage account match up ? %@;
+- (void)t;
+- (id)unread request fromID:%@,  /* Error: Ran out of types for this method. */;
+- (void)changeTag %@ error %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)T;
+- (id)`;
 - (void);
 - (id);
 - (id);
@@ -126,52 +98,18 @@ __attribute__((visibility("hidden")))
 - (void)Qc°1Â0@ù
 × ;
 - (id);
-- (_Bool)essoryView;
-- (void)e:(id)arg1 transition: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)riting;
+- (_Bool)_clearPersistingInputAccessoryView;
+- (void)_addItems:(id)arg1 withEffectiveDelegate:transition: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)UIKBKeyDisplayTypeHandwriting;
 - (void)animationSettings;
-- (id)ImmediatelyWithoutSpring;
+- (id)tracksImmediatelyWithoutSpring;
 - (void)(;
-- (_Bool)alEffect;
+- (_Bool)LiftPortalEffect;
 - (id);
 - (void)àÿ¯µØ³`;
 
 // Remaining properties
-@property(readonly, nonatomic) UIGestureRecognizer *beginPreviewGestureRecognizer;
-@property(nonatomic) _Bool commitTransitionScheduled; // @synthesize commitTransitionScheduled=_commitTransitionScheduled;
-@property(retain, nonatomic) _UIPreviewInteractionCommitTransition *currentCommitTransition; // @synthesize currentCommitTransition=_currentCommitTransition;
-@property(retain, nonatomic) _UIPreviewInteractionDismissTransition *currentDismissTransition; // @synthesize currentDismissTransition=_currentDismissTransition;
-@property(retain, nonatomic) id <_UIPreviewInteractionHighlighting> currentHighlighter; // @synthesize currentHighlighter=_currentHighlighter;
-@property(retain, nonatomic) _UIInteractionEffect_deprecated *currentInteractionEffect; // @synthesize currentInteractionEffect=_currentInteractionEffect;
-@property(retain, nonatomic) _UIPreviewPresentationController2 *currentPresentationController; // @synthesize currentPresentationController=_currentPresentationController;
-@property(retain, nonatomic) _UIPreviewInteractionPresentationTransition *currentPresentationTransition; // @synthesize currentPresentationTransition=_currentPresentationTransition;
-@property(retain, nonatomic) UIViewController *currentPreviewViewController; // @synthesize currentPreviewViewController=_currentPreviewViewController;
-@property(nonatomic) __weak id <UIViewControllerPreviewing_Internal> currentPreviewingContext; // @synthesize currentPreviewingContext=_currentPreviewingContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIPreviewInteractionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dismissingPreview; // @synthesize dismissingPreview=_dismissingPreview;
-@property(retain, nonatomic) _UITouchesObservingGestureRecognizer *gestureRecognizerForPreviewActions; // @synthesize gestureRecognizerForPreviewActions=_gestureRecognizerForPreviewActions;
-@property(nonatomic) _Bool hasTransitionedToPreview; // @synthesize hasTransitionedToPreview=_hasTransitionedToPreview;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint initialLocationForPreviewActionsPanning; // @synthesize initialLocationForPreviewActionsPanning=_initialLocationForPreviewActionsPanning;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> pausingTouchForceProvider; // @synthesize pausingTouchForceProvider=_pausingTouchForceProvider;
-@property(nonatomic) _Bool performingCommitTransition; // @synthesize performingCommitTransition=_performingCommitTransition;
-@property(nonatomic) _Bool performingPreviewTransition; // @synthesize performingPreviewTransition=_performingPreviewTransition;
-@property(readonly, nonatomic) UIGestureRecognizer *presentationGestureRecognizer;
-@property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> presentedViewTouchForceProvider; // @synthesize presentedViewTouchForceProvider=_presentedViewTouchForceProvider;
-@property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(retain, nonatomic) _UIPreviewActionsController *previewActionsController; // @synthesize previewActionsController=_previewActionsController;
-@property(retain, nonatomic) _UIPreviewInteractionGestureRecognizer *previewGestureRecognizer; // @synthesize previewGestureRecognizer=_previewGestureRecognizer;
-@property(retain, nonatomic) UIPreviewInteraction *previewInteraction; // @synthesize previewInteraction=_previewInteraction;
-@property(retain, nonatomic) _UIPreviewInteractionGestureRecognizer *revealGestureRecognizer; // @synthesize revealGestureRecognizer=_revealGestureRecognizer;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(retain, nonatomic) _UISteadyTouchForceGestureRecognizer *steadyTouchForceGestureRecognizer; // @synthesize steadyTouchForceGestureRecognizer=_steadyTouchForceGestureRecognizer;
-@property(readonly) Class superclass;
 
 @end
 

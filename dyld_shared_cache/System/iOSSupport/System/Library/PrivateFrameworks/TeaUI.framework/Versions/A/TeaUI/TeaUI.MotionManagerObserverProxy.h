@@ -7,7 +7,6 @@
 @interface TeaUI.MotionManagerObserverProxy
 {
     id delegate;
-    id view;
 }
 
 @end

@@ -9,7 +9,8 @@
 @protocol FBSceneDelegate
 
 @optional
-- (void)itWithName:(FBScene *)arg1 beforePhases:(NSSet *)arg2 afterPhases: /* Error: Ran out of types for this method. */;
+- (void)_resetLayoutFragmentFrame;
+- (void)initWithName:(FBScene *)arg1 beforePhases:(NSSet *)arg2 afterPhases: /* Error: Ran out of types for this method. */;
 - (void){CGPoint=dd},R,N,V_hostContentOffset;
 @end
 

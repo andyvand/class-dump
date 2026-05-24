@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
-
 @interface _INPBAnswerCallIntent
 {
     CDStruct_fbf2c6cd _has;
-    int _audioRoute;
-    NSString *_callIdentifier;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -21,36 +16,24 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)or">32;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (int);
+- (_Bool)updateJoinStatusWithIPv4:(id)arg1;
+- (void)NOI manager;
+- (int)+;
 - (id);
 - (id);
 - (void);
-- (_Bool)rPromptDialog;
-- (void)nstantMessage;
+- (_Bool)__INCodableAttributePromptDialogINIntentParameterPromptDialog;
+- (void)InstantMessage;
 
 // Remaining properties
 @property(nonatomic) int audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(copy, nonatomic) NSString *callIdentifier; // @synthesize callIdentifier=_callIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

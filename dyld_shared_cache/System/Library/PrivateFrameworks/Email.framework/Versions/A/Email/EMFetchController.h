@@ -11,13 +11,13 @@
     EMRemoteConnection *_connection;
 }
 
-+ (id);
++ (id);
+- (void);
+- (void)HouseholdFalsePositiveArrivalPredictionExcessiveDurationLogEvent;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);

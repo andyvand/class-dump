@@ -9,34 +9,30 @@
 @interface MCCheckingForMailProgressEntry : MCProgressEntry
 {
     _Bool _foundNewUnreadMessageInInbox;
-    _Bool _userInitiated;
-    unsigned long long _foundMessages;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)#H)	kaY;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool)@ùið1Â0@ù
 × ;
-- (void)rAttributes;
+- (void)boldGrayHeaderAttributes;
 
 // Remaining properties
 @property(nonatomic) unsigned long long foundMessages; // @synthesize foundMessages=_foundMessages;
-@property(nonatomic) _Bool foundNewUnreadMessageInInbox; // @synthesize foundNewUnreadMessageInInbox=_foundNewUnreadMessageInInbox;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

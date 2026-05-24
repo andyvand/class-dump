@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface SAParsecContext : SADomainObject
 {
@@ -15,11 +15,11 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)quasar34OnlineLatticeBiglmLmeFasterDecoder10finishInitEvE3$_1FNS_10shared_ptrIN5kaldi6quasar17NnlmEvaluatorBaseEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *httpBody;
-@property(copy, nonatomic) NSDictionary *httpHeaders;
-@property(copy, nonatomic) NSString *httpMethod;
-@property(copy, nonatomic) NSString *httpUrl;
 
 @end
 

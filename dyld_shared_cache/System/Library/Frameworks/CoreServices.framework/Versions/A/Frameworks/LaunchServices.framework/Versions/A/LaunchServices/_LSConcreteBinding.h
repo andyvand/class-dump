@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _LSConcreteBinding
 {
     struct OpaqueIconRef *_iconRef;
-    struct Binding *_binding;
 }
 
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)&;
 - (id);
 - (struct Binding *);
 - (void);
 - (_Bool);
+- (void)h;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)߈;
+- (_Bool);
+- (_Bool)C;
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (struct OpaqueIconRef *);
+- (struct OpaqueIconRef *)
+;
 - (id);
 - (id);
 - (id);
@@ -45,16 +43,16 @@ __attribute__((visibility("hidden")))
 - (struct OpaqueIconRef *);
 - (unsigned long long);
 - (struct Binding *);
-- (void);
+- (void))1@y;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned int);
+- (id)J;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)( ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,44 +68,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)licationRecord(AlternateIcons) setAlternateIconName:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=isAliasFile) _Bool aliasFile;
-@property(readonly, getter=isApplication) _Bool application;
-@property(readonly) _Bool applicationHasSupportedFormat;
-@property(readonly, getter=isApplicationPlaceholder) _Bool applicationPlaceholder;
-@property(readonly) unsigned long long badge;
-@property(readonly, getter=isBadgeOnlyVariant) _Bool badgeOnlyVariant;
-@property(readonly) struct Binding *binding; // @synthesize binding=_binding;
-@property(readonly) unsigned long long cacheingProfile;
-@property(readonly) NSDate *contentModificationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSArray *decorations;
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isDirectory) _Bool directory;
-@property(readonly, getter=isExecutable) _Bool executable;
-@property(readonly) NSString *fileExtension;
-@property(readonly) _Bool hasCustomIcon;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSData *iconData;
-@property(readonly) struct OpaqueIconRef *iconRef; // @dynamic iconRef;
-@property(readonly) NSURL *iconURL;
-@property(readonly) NSString *kextBundleIdentifier;
-@property(readonly) NSString *kextIconName;
-@property(readonly, getter=isNoBadgeVariant) _Bool noBadgeVariant;
-@property(readonly, getter=isPackage) _Bool package;
-@property(readonly) NSArray *resources;
-@property(readonly, getter=isSelectedVariant) _Bool selectedVariant;
-@property(readonly) Class superclass;
-@property(readonly, getter=isSymbolicLinkFile) _Bool symbolicLinkFile;
-@property(readonly, getter=isTemplateVariant) _Bool templateVariant;
-@property(readonly) NSString *type;
-@property(readonly) unsigned int typeCode;
-@property(readonly) NSURL *url;
-@property(readonly) CDStruct_32a7f38a validationToken;
 @property(readonly) unsigned long long variantFlags;
-@property(readonly, getter=isVolume) _Bool volume;
 
 @end
 

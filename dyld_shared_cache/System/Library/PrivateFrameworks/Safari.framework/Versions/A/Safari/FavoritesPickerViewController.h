@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSPointerArray, NSString;
-@protocol FavoritesPickerViewControllerDataSource, FavoritesPickerViewControllerDelegate;
+@class NSMapTable;
+@protocol FavoritesPickerViewControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerViewController
 {
     NSMapTable *_cellViewsToTokens;
-    NSPointerArray *_cellViews;
-    _Bool _ignoreSelectionChange;
-    id <FavoritesPickerViewControllerDataSource> _dataSource;
-    id <FavoritesPickerViewControllerDelegate> _delegate;
 }
 
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (void);
@@ -41,14 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <FavoritesPickerViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FavoritesPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

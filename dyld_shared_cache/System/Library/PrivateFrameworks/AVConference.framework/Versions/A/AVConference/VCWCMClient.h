@@ -5,18 +5,16 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object, WCMClientDelegate;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface VCWCMClient
 {
     NSObject<OS_xpc_object> *connection;
-    NSObject<OS_dispatch_queue> *connectionQueue;
-    NSObject<WCMClientDelegate> *wcmClientDelegate;
 }
 
 - (id);
-- (void);
+- (void)(Q5;
 - (void);
 - (void);
 - (void);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSObject<OS_xpc_object> *connection; // @synthesize connection;
-@property(readonly) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue;
-@property(retain, nonatomic) id <WCMClientDelegate> wcmClientDelegate; // @synthesize wcmClientDelegate;
 
 @end
 

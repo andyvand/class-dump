@@ -6,24 +6,22 @@
 
 #import <AXMediaUtilities/AXMEvaluationNode.h>
 
-@class NSArray, NSURL;
+@class NSArray;
 
 @interface AXMMobileAssetEvaluationNode : AXMEvaluationNode
 {
     unsigned long long _formatVersion;
-    NSArray *_mlModels;
-    NSURL *_mobileAssetBaseURL;
 }
 
 - (id);
+- (id)\|;
 - (id);
-- (id);
-- (id);
+- (id){;
+- (void)z;
+- (id)2z;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)xwHm;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *mlModels; // @synthesize mlModels=_mlModels;
-@property(readonly, nonatomic) NSURL *mobileAssetBaseURL; // @synthesize mobileAssetBaseURL=_mobileAssetBaseURL;
 
 @end
 

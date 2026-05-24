@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SOClassicDictationBackgroundView
 {
     unsigned char _pointerPosition;
-    _Bool _drawWithRoomForLanguagePopup;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (unsigned char);
-- (void);
+- (void)N8cnmatrix8CNMatrixILj7ELj1EdEE;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool drawWithRoomForLanguagePopup; // @synthesize drawWithRoomForLanguagePopup=_drawWithRoomForLanguagePopup;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned char pointerPosition; // @synthesize pointerPosition=_pointerPosition;
-@property(readonly) Class superclass;
 
 @end
 

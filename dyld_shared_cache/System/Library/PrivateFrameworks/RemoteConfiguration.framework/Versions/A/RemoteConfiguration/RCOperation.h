@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, RCOnce, RCUnfairLock;
-@protocol OS_dispatch_group;
-
 @interface RCOperation
 {
     _Atomic _Bool _executing;
-    _Atomic _Bool _finished;
-    _Bool _childOperationsCancelled;
-    long long _relativePriority;
-    unsigned long long _retryCount;
-    NSString *_operationID;
-    double _operationStartTime;
-    double _operationEndTime;
-    CDUnknownBlockType _timedOutTest;
-    NSMutableArray *_childOperations;
-    RCUnfairLock *_childOperationsLock;
-    RCOnce *_startOnce;
-    NSObject<OS_dispatch_group> *_finishedGroup;
 }
 
 - (CDUnknownBlockType);
@@ -46,9 +31,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
@@ -76,7 +61,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (unsigned long long);
@@ -84,28 +69,10 @@
 Ð1Â0@ù
 × ;
 - (void)Ô ;
-- (_Bool);
+- (_Bool)rc_endpointURLNotAvailableError;
 - (_Bool)news-edge.news.apple.com/v1/configs;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *childOperations; // @synthesize childOperations=_childOperations;
-@property(nonatomic) _Bool childOperationsCancelled; // @synthesize childOperationsCancelled=_childOperationsCancelled;
-@property(retain, nonatomic) RCUnfairLock *childOperationsLock; // @synthesize childOperationsLock=_childOperationsLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *finishedGroup; // @synthesize finishedGroup=_finishedGroup;
-@property(readonly, nonatomic) _Bool hasOperationStarted;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double operationEndTime; // @synthesize operationEndTime=_operationEndTime;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(nonatomic) double operationStartTime; // @synthesize operationStartTime=_operationStartTime;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(retain, nonatomic) RCOnce *startOnce; // @synthesize startOnce=_startOnce;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType timedOutTest; // @synthesize timedOutTest=_timedOutTest;
 
 @end

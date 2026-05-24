@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOTileLoader, GEOVectorTile, geo_isolater;
+@class GEOApplicationAuditToken;
 
 @interface GEOSPRMetroAvailabilityFetcher
 {
     GEOApplicationAuditToken *_auditToken;
-    GEOTileLoader *_tileLoader;
-    _Bool _forceDisableMetros;
-    geo_isolater *_isolation;
-    struct _GEOTileKey _lastLoadedKey;
-    GEOVectorTile *_lastLoadedTile;
 }
 
-- (id);
-- (id);
+- (id)@0:(id)arg1 8;
+- (id)PublishingSubject";
 - (void);
 - (id);
 - (void)È])ÊP@;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSImageView;
+@class NSImageView;
 
 @interface PXPeoplePickerSelectionView
 {
     NSImageView *_checkmarkForegroundView;
-    NSImageView *_checkmarkBackgroundView;
-    CAShapeLayer *_overlay;
-    _Bool _usesBadgeSelection;
 }
 
 - (_Bool);

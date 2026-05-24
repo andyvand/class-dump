@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBLocationValue, _INPBRideCompletionStatus, _INPBRideDriver, _INPBRideOption, _INPBRideVehicle, _INPBTimestamp, _INPBUserActivity;
+@class NSArray;
 
 @interface _INPBRideStatus
 {
     struct {
         unsigned int phase:1;
     } _has;
-    int _phase;
-    NSArray *_additionalActionItems;
-    _INPBRideCompletionStatus *_completionStatus;
-    _INPBRideDriver *_driver;
-    _INPBLocationValue *_dropOffLocation;
-    _INPBTimestamp *_estimatedDropOffDate;
-    _INPBTimestamp *_estimatedPickupDate;
-    _INPBTimestamp *_estimatedPickupEndDate;
-    _INPBLocationValue *_pickupLocation;
-    NSString *_rideIdentifier;
-    _INPBRideOption *_rideOption;
-    _INPBDateTimeRangeValue *_scheduledPickupTime;
-    _INPBUserActivity *_userActivityForCancelingInApplication;
-    _INPBRideVehicle *_vehicle;
-    NSArray *_waypoints;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 + (_Bool);
 - (id);
 - (void);
@@ -54,13 +39,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (_Bool);
 - (id);
 - (id);
@@ -75,13 +60,13 @@
 - (int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)M;
 - (id);
 - (void);
-- (void);
+- (void)u0;
 - (id);
 - (int);
-- (id);
+- (id)loadExtensionsWithPaths:(id)arg1 withIdentifiers:withPersonalityNames:withDependencyAndFolderPaths:options:withError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -89,50 +74,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_virtualInterfaceRole;
 - (void);
 - (id);
 - (id);
-- (void)ePropertyMetadataPlaceholderID;
+- (void)INTypePropertyMetadataPlaceholderID;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalActionItems; // @synthesize additionalActionItems=_additionalActionItems;
-@property(readonly, nonatomic) unsigned long long additionalActionItemsCount;
-@property(retain, nonatomic) _INPBRideCompletionStatus *completionStatus; // @synthesize completionStatus=_completionStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBRideDriver *driver; // @synthesize driver=_driver;
-@property(retain, nonatomic) _INPBLocationValue *dropOffLocation; // @synthesize dropOffLocation=_dropOffLocation;
-@property(retain, nonatomic) _INPBTimestamp *estimatedDropOffDate; // @synthesize estimatedDropOffDate=_estimatedDropOffDate;
-@property(retain, nonatomic) _INPBTimestamp *estimatedPickupDate; // @synthesize estimatedPickupDate=_estimatedPickupDate;
-@property(retain, nonatomic) _INPBTimestamp *estimatedPickupEndDate; // @synthesize estimatedPickupEndDate=_estimatedPickupEndDate;
-@property(readonly, nonatomic) _Bool hasCompletionStatus;
-@property(readonly, nonatomic) _Bool hasDriver;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasEstimatedDropOffDate;
-@property(readonly, nonatomic) _Bool hasEstimatedPickupDate;
-@property(readonly, nonatomic) _Bool hasEstimatedPickupEndDate;
-@property(nonatomic) _Bool hasPhase;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly, nonatomic) _Bool hasRideIdentifier;
-@property(readonly, nonatomic) _Bool hasRideOption;
-@property(readonly, nonatomic) _Bool hasScheduledPickupTime;
-@property(readonly, nonatomic) _Bool hasUserActivityForCancelingInApplication;
-@property(readonly, nonatomic) _Bool hasVehicle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(retain, nonatomic) _INPBLocationValue *pickupLocation; // @synthesize pickupLocation=_pickupLocation;
-@property(copy, nonatomic) NSString *rideIdentifier; // @synthesize rideIdentifier=_rideIdentifier;
-@property(retain, nonatomic) _INPBRideOption *rideOption; // @synthesize rideOption=_rideOption;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *scheduledPickupTime; // @synthesize scheduledPickupTime=_scheduledPickupTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBUserActivity *userActivityForCancelingInApplication; // @synthesize userActivityForCancelingInApplication=_userActivityForCancelingInApplication;
-@property(retain, nonatomic) _INPBRideVehicle *vehicle; // @synthesize vehicle=_vehicle;
-@property(copy, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
-@property(readonly, nonatomic) unsigned long long waypointsCount;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol INResumeWorkoutIntentResponseExport
-- (long long)iaItemsUnsupportedReason;
+- (long long)hasPlayMediaIntentMediaItemsUnsupportedReason;
 
 // Remaining properties
 @property(readonly) long long code;

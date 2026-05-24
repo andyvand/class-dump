@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFEntitySearchMetadata
 {
     NSString *_entitySearchQuery;
-    NSString *_tokenQuery;
-    NSString *_entityIdentifier;
-    NSString *_viewConfigName;
 }
 
 + (_Bool);
@@ -19,34 +16,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!TC;
 - (id);
-- (id);
+- (id)setActiveFormatJustification:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)atedStatus:(id)arg1 previousStateDescriptor:updatedStateDescriptor:] /* Error: Ran out of types for this method. */;
+- (id)ingsObserver";
+- (id)PHQueryForAssetInAlbumKind_EventsStandIn_block_invoke_81;
+- (id)t;
 - (id);
 - (void)Ti,N,V_nameMaxLines;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
 @property(copy, nonatomic) NSString *entitySearchQuery; // @synthesize entitySearchQuery=_entitySearchQuery;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *tokenQuery; // @synthesize tokenQuery=_tokenQuery;
-@property(copy, nonatomic) NSString *viewConfigName; // @synthesize viewConfigName=_viewConfigName;
 
 @end
 

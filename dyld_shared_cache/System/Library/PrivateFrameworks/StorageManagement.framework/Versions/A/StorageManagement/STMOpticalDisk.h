@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface STMOpticalDisk
 {
     NSString *_name;
-    NSURL *_imageURL;
-    NSString *_formatsString;
-    NSString *_modelNumber;
 }
 
 + (_Bool);
@@ -20,17 +17,19 @@
 - (void);
 - (id);
 - (id);
+- (void)Size=dd}16^I32^{CGRect={CGPoint=dd}{CGSize=dd}}40;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)st_success_reset_count,
+    is_rejected,
+    is_rejected_by_whole_profile
+)
+VALUES (?1, ?2, 0, -1, -1, 0, 0)
+;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *formatsString; // @synthesize formatsString=_formatsString;
-@property(copy, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

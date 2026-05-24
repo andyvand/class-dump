@@ -8,15 +8,10 @@ __attribute__((visibility("hidden")))
 @interface VNParabolaDetection
 {
     int UID_counter;
-    struct map<int, InternalObservedParabola, std::less<int>, std::allocator<std::pair<const int, InternalObservedParabola>>> internalParabolas;
-    struct ParabolaSearchBuffer parabolaSearchBuffer;
-    struct InternalParameters internalParams;
-    struct map<int, ObservedParabola, std::less<int>, std::allocator<std::pair<const int, ObservedParabola>>> _observedParabolas;
-    struct ForestAlgoParams _forestAlgoParams;
 }
 
 - (id);
-- (id);
+- (id)(;
 - (void)d_table_of_contents &, const char *, const vision::mod::BinSerializedModelFileInfo &) /* Error: Ran out of types for this method. */;
 
 @end

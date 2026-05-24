@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKDrawingPaletteStatisticsEventLogger
 {
     double _lastHandwritingToolUsedOverDrawingAttachmentTimestamp;
-    double _lastInkingToolUsedOverNonDrawingAttachmentTimestamp;
 }
 
 - (void);
@@ -21,15 +18,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double lastHandwritingToolUsedOverDrawingAttachmentTimestamp; // @synthesize lastHandwritingToolUsedOverDrawingAttachmentTimestamp=_lastHandwritingToolUsedOverDrawingAttachmentTimestamp;
-@property(nonatomic) double lastInkingToolUsedOverNonDrawingAttachmentTimestamp; // @synthesize lastInkingToolUsedOverNonDrawingAttachmentTimestamp=_lastInkingToolUsedOverNonDrawingAttachmentTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

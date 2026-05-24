@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (_Bool)ewedCategory:(id)arg1;
+- (_Bool)setLastViewedCategory:(id)arg1;
 - (long long)NestedEventType;
 
 // Remaining properties

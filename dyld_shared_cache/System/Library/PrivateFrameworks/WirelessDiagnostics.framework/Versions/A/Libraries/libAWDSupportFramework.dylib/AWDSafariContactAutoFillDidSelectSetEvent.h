@@ -7,46 +7,34 @@
 @interface AWDSafariContactAutoFillDidSelectSetEvent
 {
     unsigned long long _timestamp;
-    int _selectedSet;
-    _Bool _hadPreviouslyCustomizedSet;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int selectedSet:1;
-        unsigned int hadPreviouslyCustomizedSet:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)?k;
 - (int);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)yH;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hadPreviouslyCustomizedSet; // @synthesize hadPreviouslyCustomizedSet=_hadPreviouslyCustomizedSet;
-@property(nonatomic) _Bool hasHadPreviouslyCustomizedSet;
-@property(nonatomic) _Bool hasSelectedSet;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int selectedSet; // @synthesize selectedSet=_selectedSet;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

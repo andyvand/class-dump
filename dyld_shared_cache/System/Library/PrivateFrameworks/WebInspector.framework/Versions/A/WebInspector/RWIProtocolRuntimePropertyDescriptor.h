@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolRuntimeRemoteObject;
+@class NSString;
 
 @interface RWIProtocolRuntimePropertyDescriptor : RWIProtocolJSONObject
 {
@@ -20,7 +20,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -39,18 +39,7 @@
 - (id)í ;
 
 // Remaining properties
-@property(nonatomic) _Bool configurable;
-@property(nonatomic) _Bool enumerable;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *get;
-@property(nonatomic) _Bool isOwn;
-@property(nonatomic) _Bool isPrivate;
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) _Bool nativeGetter;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *set;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *symbol;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *value;
-@property(nonatomic) _Bool wasThrown;
-@property(nonatomic) _Bool writable;
 
 @end
 

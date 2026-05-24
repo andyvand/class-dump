@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPanel, NSSecureTextField, NSString, NSTextField;
+@class NSPanel;
 
 @interface ABPasswordPanelController
 {
     NSPanel *_passwordPanel;
-    NSTextField *_passwordPanelDescriptionTextField;
-    NSTextField *_passwordPanelReasonTextField;
-    NSSecureTextField *_passwordTextField;
-    NSButton *_rememberPasswordInKeychainButton;
-    NSString *_accountDescription;
-    NSString *_accountTypeDescription;
-    NSString *_host;
-    NSString *_username;
-    _Bool _alwaysSavePassword;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -33,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_bubbleText;
 - (id);
 - (void);
 - (id);
@@ -45,17 +35,11 @@
 - (void);
 - (void)Á@!dCùñ©Ð1Â0@ù
 × ;
-- (void)iew;
-- (unsigned long long)CodeKey;
+- (void)_outlineView;
+- (unsigned long long)CNPostalAddressPostalCodeKey;
 
 // Remaining properties
-@property(retain) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
-@property(retain) NSString *accountTypeDescription; // @synthesize accountTypeDescription=_accountTypeDescription;
 @property _Bool alwaysSavePassword; // @synthesize alwaysSavePassword=_alwaysSavePassword;
-@property(retain) NSString *host; // @synthesize host=_host;
-@property(readonly) NSString *password;
-@property(readonly) unsigned long long persistence;
-@property(retain) NSString *username; // @synthesize username=_username;
 
 @end
 

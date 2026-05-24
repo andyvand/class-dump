@@ -5,5 +5,9 @@
 //
 
 @protocol PDFAccessibilityNodeParent
+
+@optional
+- (void)N
+;
 @end
 

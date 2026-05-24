@@ -6,22 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSString, NUIContainerGridView, TLKImage, TLKImageView, TLKLabel, TLKRichText;
+@class TLKImage, TLKImageView;
 
 @interface TLKSimpleRowView : TLKView
 {
     TLKImage *_leadingImage;
-    TLKRichText *_leadingTitle;
-    TLKRichText *_leadingSubtitle;
-    TLKImage *_trailingImage;
-    TLKRichText *_trailingTitle;
-    TLKRichText *_trailingSubtitle;
-    TLKImageView *_leadingImageView;
-    TLKLabel *_leadingTitleLabel;
-    TLKLabel *_leadingSubtitleLabel;
-    TLKLabel *_trailingTitleLabel;
-    TLKLabel *_trailingSubtitleLabel;
-    TLKImageView *_trailingImageView;
 }
 
 + (double);
@@ -32,6 +21,26 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,30 +48,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)_;
+- (id)performEditsWithManagedObject:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -73,26 +62,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerGridView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKImage *leadingImage; // @synthesize leadingImage=_leadingImage;
 @property(retain, nonatomic) TLKImageView *leadingImageView; // @synthesize leadingImageView=_leadingImageView;
-@property(retain, nonatomic) TLKRichText *leadingSubtitle; // @synthesize leadingSubtitle=_leadingSubtitle;
-@property(retain, nonatomic) TLKLabel *leadingSubtitleLabel; // @synthesize leadingSubtitleLabel=_leadingSubtitleLabel;
-@property(retain, nonatomic) TLKRichText *leadingTitle; // @synthesize leadingTitle=_leadingTitle;
-@property(retain, nonatomic) TLKLabel *leadingTitleLabel; // @synthesize leadingTitleLabel=_leadingTitleLabel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKImage *trailingImage; // @synthesize trailingImage=_trailingImage;
-@property(retain, nonatomic) TLKImageView *trailingImageView; // @synthesize trailingImageView=_trailingImageView;
-@property(retain, nonatomic) TLKRichText *trailingSubtitle; // @synthesize trailingSubtitle=_trailingSubtitle;
-@property(retain, nonatomic) TLKLabel *trailingSubtitleLabel; // @synthesize trailingSubtitleLabel=_trailingSubtitleLabel;
-@property(retain, nonatomic) TLKRichText *trailingTitle; // @synthesize trailingTitle=_trailingTitle;
-@property(retain, nonatomic) TLKLabel *trailingTitleLabel; // @synthesize trailingTitleLabel=_trailingTitleLabel;
 
 @end
 

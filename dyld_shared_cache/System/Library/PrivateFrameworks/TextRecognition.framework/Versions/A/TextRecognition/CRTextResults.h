@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRTextDetectorResults, CRTextFeature, CRTextRecognizerResults, NSArray, NSDate;
+@class NSDate;
 
 @interface CRTextResults
 {
     NSDate *_startTime;
-    NSDate *_endTime;
-    CRTextDetectorResults *_detectorResults;
-    CRTextRecognizerResults *_recognizerResults;
-    NSArray *_textFeatures;
-    CRTextFeature *_titleTextFeature;
-    long long _filteredOutFeatureCount;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -36,14 +30,7 @@
 - (void)r6ySo18CRScriptCategoryV1CSo17CROrderedIndexSetCG;
 
 // Remaining properties
-@property(retain, nonatomic) CRTextDetectorResults *detectorResults; // @synthesize detectorResults=_detectorResults;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property long long filteredOutFeatureCount; // @synthesize filteredOutFeatureCount=_filteredOutFeatureCount;
-@property(readonly) NSArray *lineFeatures;
-@property(retain, nonatomic) CRTextRecognizerResults *recognizerResults; // @synthesize recognizerResults=_recognizerResults;
 @property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSArray *textFeatures; // @synthesize textFeatures=_textFeatures;
-@property(retain, nonatomic) CRTextFeature *titleTextFeature; // @synthesize titleTextFeature=_titleTextFeature;
 
 @end
 

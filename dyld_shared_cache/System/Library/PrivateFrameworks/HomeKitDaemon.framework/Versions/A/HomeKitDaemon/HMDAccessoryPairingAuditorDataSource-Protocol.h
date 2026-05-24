@@ -13,10 +13,6 @@
 - (NSNotificationCenter *)a Buffer Management;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isHH2KeyRollingEnabled;
 @property(readonly, nonatomic) _Bool isiOSDevice;
-@property(readonly, nonatomic) id <HAPKeyStore> keyStore;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
 @end
 

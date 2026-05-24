@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MKMapService
 {
 }
 
-+ (id);
++ (id)categoryEncodingValue;
+- (id);
+- (id);
+- (id);
+- (id)8;
 - (id);
 - (id);
 - (id);
@@ -25,11 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -43,25 +41,46 @@
 - (void);
 - (void);
 - (void);
+- (void)[R;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)eout;
+- (id)];
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)nts_setObject:(id)arg1 forKey:(int)arg2;
+- (id)applyFilter:(id)arg1 importRecords:(int)arg2 destRecords:(id)arg3;
+- (id)ith standby;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)16@24@32;
 - (id);
 - (id);
 - (id);
@@ -76,54 +95,27 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)tSiriVolumeManager";
+- (id)oInjectionServices Interrupted;
+- (id)timer initial state as %{public}@;
+- (id)sq.%@,;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ff}[3f]),N,V_normalizedSpotDirectionEye;
+- (id)setAccessToken:(id)arg1;
 - (id)t is not a Point GeoJSON object;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

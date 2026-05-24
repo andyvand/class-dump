@@ -9,13 +9,13 @@
     unsigned long long _videoResolution;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)oligophrenia;
 - (void);
 
 // Remaining properties

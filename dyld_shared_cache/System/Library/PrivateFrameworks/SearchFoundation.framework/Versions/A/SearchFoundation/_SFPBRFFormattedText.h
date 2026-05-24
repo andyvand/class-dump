@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFColor, _SFPBRFEngageable, _SFPBRFFont, _SFPBRFImageElement, _SFPBRFOptionalBool, _SFPBRFTextEncapsulation;
+@class NSString;
 
 @interface _SFPBRFFormattedText
 {
     int _weight;
-    int _design;
-    NSString *_text;
-    _SFPBRFImageElement *_inline_image_element;
-    _SFPBRFColor *_color;
-    _SFPBRFOptionalBool *_is_italic;
-    _SFPBRFOptionalBool *_is_bold;
-    _SFPBRFTextEncapsulation *_text_encapsulation;
-    _SFPBRFOptionalBool *_is_highlighted;
-    _SFPBRFColor *_background_color;
-    NSArray *_attributions;
-    NSArray *_highlighted_substrings;
-    _SFPBRFFont *_font;
-    _SFPBRFOptionalBool *_is_underlined;
-    _SFPBRFEngageable *_engageable;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -46,13 +31,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)R%;
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)i;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -60,8 +45,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)queryForFacesWithOptions:(id)arg1;
+- (id)ggestions query:%d for related query:%{public}@ with suggestions:%@ /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);
@@ -78,30 +63,7 @@
 - (int);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributions; // @synthesize attributions=_attributions;
-@property(retain, nonatomic) _SFPBRFColor *background_color; // @synthesize background_color=_background_color;
-@property(retain, nonatomic) _SFPBRFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int design; // @synthesize design=_design;
-@property(retain, nonatomic) _SFPBRFEngageable *engageable; // @synthesize engageable=_engageable;
-@property(retain, nonatomic) _SFPBRFFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *highlighted_substrings; // @synthesize highlighted_substrings=_highlighted_substrings;
-@property(retain, nonatomic) _SFPBRFImageElement *inline_image_element; // @synthesize inline_image_element=_inline_image_element;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_bold; // @synthesize is_bold=_is_bold;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_highlighted; // @synthesize is_highlighted=_is_highlighted;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_italic; // @synthesize is_italic=_is_italic;
-@property(retain, nonatomic) _SFPBRFOptionalBool *is_underlined; // @synthesize is_underlined=_is_underlined;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) _SFPBRFTextEncapsulation *text_encapsulation; // @synthesize text_encapsulation=_text_encapsulation;
-@property(nonatomic) int weight; // @synthesize weight=_weight;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

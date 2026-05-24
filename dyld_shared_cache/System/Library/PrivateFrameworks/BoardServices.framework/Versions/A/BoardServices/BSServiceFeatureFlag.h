@@ -9,7 +9,6 @@
 @interface BSServiceFeatureFlag
 {
     NSString *_domain;
-    NSString *_featureName;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 
 @end
 

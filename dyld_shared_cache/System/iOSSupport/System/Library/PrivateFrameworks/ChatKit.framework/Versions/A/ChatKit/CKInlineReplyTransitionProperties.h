@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CKInlineReplyTransitionProperties
 {
     double _initialBalloonOffsetX;
-    NSArray *_chatItemGUIDs;
-    NSArray *_associatedChatItemGUIDs;
-    struct CGPoint _swipeVelocity;
 }
 
 + (id);
-- (struct CGPoint);
+- (struct CGPoint): /* Error: Ran out of types for this method. */;
+- (void)usesSmallSizeForAttachment:(struct CGPoint)arg1 withMetadata:type:insideSystemPaper: /* Error: Ran out of types for this method. */;
+- (void)"ICAttachment",R,N,V_attachment;
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (double)i;
+- (id)@, error:%@ /* Error: Ran out of types for this method. */;
+- (id)ttachment;
 - (id);
 - (void)L;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *associatedChatItemGUIDs; // @synthesize associatedChatItemGUIDs=_associatedChatItemGUIDs;
-@property(retain, nonatomic) NSArray *chatItemGUIDs; // @synthesize chatItemGUIDs=_chatItemGUIDs;
 @property(nonatomic) double initialBalloonOffsetX; // @synthesize initialBalloonOffsetX=_initialBalloonOffsetX;
-@property(nonatomic) struct CGPoint swipeVelocity; // @synthesize swipeVelocity=_swipeVelocity;
 
 @end
 

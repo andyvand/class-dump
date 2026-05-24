@@ -8,12 +8,12 @@
 {
 }
 
-+ (CDUnknownBlockType);
-+ (id);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)̨;
++ (id)DERParseUnsortedSequenceC;
++ (CDUnknownBlockType)NSPlaceholderString;
++ (CDUnknownBlockType)NSMutableDictionary;
++ (CDUnknownBlockType)NSError;
++ (CDUnknownBlockType)030000;
 
 @end
 

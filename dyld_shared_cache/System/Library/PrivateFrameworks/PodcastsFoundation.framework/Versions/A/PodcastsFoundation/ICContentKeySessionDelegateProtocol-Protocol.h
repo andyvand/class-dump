@@ -5,5 +5,9 @@
 //
 
 @protocol ICContentKeySessionDelegateProtocol
+
+@optional
+- (void)T;
+- (void);
 @end
 

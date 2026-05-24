@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RBSXPCCoder, RBSXPCMessageReply;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface RBSXPCMessage
 {
     NSObject<OS_xpc_object> *_xpc_message;
-    RBSXPCCoder *_payload;
-    SEL _method;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (oneway void);
@@ -26,12 +24,10 @@
 - (id);
 - (SEL);
 - (void);
-- (oneway void);
+- (oneway void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) SEL method; // @synthesize method=_method;
-@property(readonly, nonatomic) RBSXPCMessageReply *reply;
 
 @end
 

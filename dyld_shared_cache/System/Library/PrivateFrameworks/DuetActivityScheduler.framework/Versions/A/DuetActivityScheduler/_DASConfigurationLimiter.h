@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface _DASConfigurationLimiter
 {
     NSString *_limitationName;
-    NSObject<OS_os_log> *_log;
-    NSMutableArray *_testingOverride;
 }
 
 + (id);
@@ -32,16 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *limitationName; // @synthesize limitationName=_limitationName;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *testingOverride; // @synthesize testingOverride=_testingOverride;
 
 @end
 

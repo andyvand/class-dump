@@ -10,30 +10,102 @@ __attribute__((visibility("hidden")))
 @interface MTLRenderPipelineDescriptorInternal : MTLRenderPipelineDescriptor
 {
     struct MTLRenderPipelineDescriptorPrivate _private;
-    unsigned long long _fragmentGlobalConstantsTag;
-    unsigned long long _vertexGlobalConstantsTag;
-    unsigned long long _meshGlobalConstantsTag;
-    unsigned long long _objectGlobalConstantsTag;
-    unsigned long long _tileGlobalConstantsTag;
 }
 
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)fosl_filter_dumpGraph;
+- (void)(dist1, dist2);
+  p1 = pt10.rg;
+  p2 = pt10.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt11.rg;
+  p2 = pt11.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt12.rg;
+  p2 = pt12.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt13.rg;
+  p2 = pt13.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt14.rg;
+  p2 = pt14.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt15.rg;
+  p2 = pt15.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  p1 = pt16.rg;
+  p2 = pt16.ba;
+  v = p - p1;
+  s = p2 - p1;
+  dist2 = abs(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist2 = compare((v.x * s.x) + (v.y * s.y), length(v), dist2);
+  w = p - p2;
+  dist2 = compare((w.x * s.x) + (w.y * s.y), dist2, length(w));
+  dist1 = min(dist1, dist2);
+  interpolant = clamp(hw - dist1, 0.0, 1.0);
+  interpolant = ((3.0 - (2.0 * interpolant)) * interpolant) * interpolant;
+  return compare(vec4(dist1 - (hw - 1.0)), color, compare(vec4(dist1 - hw), color * interpolant, vec4(0.0))) * opacity;
+}
+;
+- (void)n(blurLum, 1.0));
+  Y = dot(result.rgb, vec3(0.299, 0.587, 0.114));
+  effectAmount = max(max(((((-2.600) * Y) * Y) - (2.600 * Y)) + 9.800000e-01, ((((-6.250) * Y) * Y) - (6.250 * Y)) + 5.965000e-01), 1.0);
+  float midAmt = (abs(shadAmt) * 0.1) * (1.0 - params.z);
+  mid = mix(vec3(0.5), result.rgb, 1.0 + midAmt);
+  result.rgb = mix(result.rgb, mid, min(effectAmount, 3.000000e+01 * blurLum2));
+  result.a = pix.a;
+  return result;
+}
+;
+- (void)Versions/A/Frameworks/libWrapGLES.dylib;
+- (id)bin;
 - (void);
 - (CDStruct_da2e99ad);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Ha@9;
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,7 +114,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -54,7 +126,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -63,36 +135,38 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned char);
+- (void)CGImageDestinationAddImage;
+- (unsigned long long)MaxDisplayMasteringLuminance;
+- (void)bgr'-bitDepth:(_Bool)arg1 %d-%d-%d
+;
+- (void)SetRef *);
+- (void)TransducerBeamSteeringCodeSequence;
+- (unsigned char)RelativeURIReferenceWithinEncapsulatedDocument;
 - (id);
 - (void);
-- (id);
+- (id)*)+	(,5
+ '-46!&.37<"%/28;=#$019:>? /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)Q;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (CDStruct_da2e99ad);
+- (CDStruct_da2e99ad);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (float);
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void);
 - (id);
 - (unsigned long long);
@@ -101,19 +175,19 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (void);
+- (void)atePalette:(unsigned long long)arg1 reply:delivered on IMK Client side!!  /* Error: Ran out of types for this method. */;
+- (id)ion imkxpc_attributedSubstringFromRange:%@] ^() Perform block invoked /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool)4;
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (CDStruct_da2e99ad);
@@ -132,7 +206,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -141,11 +215,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)qamats1a;
 - (_Bool);
 - (void);
 - (id);
@@ -155,26 +229,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (id)(;
 - (id);
+- (void)4;
+- (unsigned long long);
 - (id);
+- (_Bool)S;
+- (void);
+- (void);
+- (void)d-dog-body.bounds;
+- (id)TagsFirstFoundDateDict;
+- (unsigned long long);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (long long);
 - (void);
@@ -182,9 +256,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)
+ka;
 - (void);
 - (id);
 - (id);
@@ -192,10 +267,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (unsigned long long);
+- (long long)K?;
+- (void)X;
+- (id);
+- (unsigned long long)eratorELm8ELm1ELln1EEENS_9allocatorISK_EEEE;
 - (CDStruct_da2e99ad)s0ð1Â0@ù
 × ;
 - (unsigned long long)! CùÑs0ð1Â0@ù
@@ -203,21 +278,21 @@ __attribute__((visibility("hidden")))
 - (void)8@"<MTLTexture>"16;
 - (void)set:(id)arg1 destinationBuffer:destinationBufferOffset:destinationMTLResourceID:destinationUniqueIdentifier:scratchBuffer:scratchBufferOffset:options: /* Error: Ran out of types for this method. */;
 - (unsigned int)tsGlobalVariableBindings;
-- (unsigned long long)wports;
+- (unsigned long long)_MTLIndirectViewports;
 - (id)p);
 - (id)ða;
 - (id)âÿÿ;
 - (_Bool);
-- (void);
+- (void)ConstantULong;
 - (id);
-- (void)g;
-- (void)422_2P_HLG;
+- (void)support_mesh_binary_linking;
+- (void)YCBCR10_422_2P_HLG;
 - (long long)idation reason: /* Error: Ran out of types for this method. */;
 - (void)der-validation;
-- (unsigned long long)lt;
+- (unsigned long long)MTLLibraryOptimizationLevelDefault;
 - (id)ation + newSliceRange.length)(%lu) must be <= (%lu).;
-- (id)FunctionTableArg;
-- (const struct MTLRenderPipelineDescriptorPrivate *)lphaTestFunc;
+- (id)IntersectionFunctionTableArg;
+- (const struct MTLRenderPipelineDescriptorPrivate *)alphaTestFunc;
 - (void);
 - (unsigned long long);
 - (void)Ð;
@@ -242,13 +317,7 @@ __attribute__((visibility("hidden")))
 - (void)ûÿ´;
 
 // Remaining properties
-@property(nonatomic) _Bool forceSoftwareVertexFetch;
-@property(nonatomic) unsigned long long fragmentGlobalConstantsTag; // @synthesize fragmentGlobalConstantsTag=_fragmentGlobalConstantsTag;
-@property(nonatomic) unsigned long long meshGlobalConstantsTag; // @synthesize meshGlobalConstantsTag=_meshGlobalConstantsTag;
-@property(nonatomic) unsigned long long objectGlobalConstantsTag; // @synthesize objectGlobalConstantsTag=_objectGlobalConstantsTag;
 @property(nonatomic) unsigned long long postVertexDumpBufferIndex;
-@property(nonatomic) unsigned long long tileGlobalConstantsTag; // @synthesize tileGlobalConstantsTag=_tileGlobalConstantsTag;
-@property(nonatomic) unsigned long long vertexGlobalConstantsTag; // @synthesize vertexGlobalConstantsTag=_vertexGlobalConstantsTag;
 
 @end
 

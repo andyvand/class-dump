@@ -4,14 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress, NSString, NSURL;
+
 @protocol FPDDaemon
+- (void));
+- (void);
+- (void)speechSynthesisAudioInfoWithDictionary:(NSString *)arg1 context:(void (^)(NSArray *, NSError *))arg2;
+- (void)deleteValueForKeyWithDictionary:(void (^)(NSArray *, NSError *))arg1 context: /* Error: Ran out of types for this method. */;
+- (void)commandSucceededWithDictionary:(NSString *)arg1 context:(void (^)(id <FPDDomainServicing>, NSString *, NSError *))arg2;
+- (void)titleCollection;
+- (void)ShareLocationWithExternalAccessory;
+- (void);
+- (void)or engine %p;
+- (void)nt params;
+- (void);
+- (void)resourceNotFound;
+- (NSProgress *)";
+- (void)ld be called;
+- (void)utSafetyOffset;
+- (void)ild found for %{public}llx%{public}@;
+- (void)h;
+- (void)AVCoreImageFilterCustomVideoCompositor;
+- (void);
+- (void)T;
+- (void)workspacePath;
+- (void)getEvolvedSubscriptionLabelID:(NSURL *)arg1 withCallback:(void (^)(NSURL *))arg2;
+- (void)_lastActive;
+- (void)Internet;
+- (void)on, not resetting connection, and not resetOnDelete;
+- (void)er fired.  Telling my owner.;
+- (void)access network ;
+- (void)inal call;
+- (void)NSt3__120__shared_ptr_pointerIPN12_GLOBAL__N_116ChatServicesImplEZN3ims14SharedLoggableINS4_6lazuli12ChatServicesEE15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPSB_EUlS3_E_NS_9allocatorIS2_EEEE;
+- (void);
+- (void)a;
+- (void))2ib;
+- (void)h;
+- (void)-;
+- (void)__objc_methname;
 - (void)!üCùÑç)Ð1Â0@ù
 × ;
 - (void);
-- (void)dex;
+- (void)_index;
 - (void)ged; scheduling a fetch;
 - (void)erfsd;
-- (void);
 - (void)¼;
 - (void)ä;
 - (void);

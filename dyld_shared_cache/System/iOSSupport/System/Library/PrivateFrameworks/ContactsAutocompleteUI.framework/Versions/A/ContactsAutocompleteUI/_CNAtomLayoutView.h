@@ -12,11 +12,11 @@
     UIView<CNAtomTextViewAtomLayout> *_delegateView;
 }
 
-+ (id);
++ (id)4˟;
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGRect);
@@ -33,7 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets atomInsets;
-@property(retain, nonatomic) UIView<CNAtomTextViewAtomLayout> *delegateView; // @synthesize delegateView=_delegateView;
 
 @end
 

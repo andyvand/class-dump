@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 @interface RemindersUICore.TTRMResizingTextView
 {
     long long maxLinesBeforeScroll;
-    _Bool removesPastedNewlines;
-    _Bool canChangeLayoutOrientation;
-    id shouldAllowVibrancy;
-    id hasFocus;
-    NSAttributedString *placeholderAttributedString;
-    id bottomLayoutConstraint;
-    id superViewHeightConstraint;
-    id trailingLayoutConstraint;
-    id $__lazy_storage_$_measurement;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)6;
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)HtmlClassOriginalContent+", #"+MFHtmlIDSignature,HTMLDocument.prototype.mf_getQuickReplyStyleElement=function(){return this.querySelector("#"+MFHtmlIDQuickReplyStyle)},HTMLDocument.prototype.mf_quickReplyDisplayHiddenNodes=function(e){if(!isQuickReplyEnabled)return;let t=this.mf_getQuickReplyStyleElement();if(e){if(t&&t.remove(),this.quickReplyHiddenNodes)for(let e of this.quickReplyHiddenNodes)this.body.appendChild(e)}else if(this.quickReplyHiddenNodes===undefined)(t=this.createElement("style")).setAttribute("id",MFHtmlIDQuickReplyStyle),this.head.appendChild(t),t.sheet.insertRule(HTMLDocument.mf_quickReplyElementsToHideSelector+" {display:none;}");else for(let e of this.quickReplyHiddenNodes)e.remove()},HTMLDocument.prototype.mf_quickReplyClearStylesAndSaveNodesIfNeeded=function(){if(!isQuickReplyEnabled||this.quickReplyHiddenNodes!==undefined)return;let e=this.querySelectorAll(HTMLDocument.mf_quickReplyElementsToHideSelector);this.quickReplyHiddenNodes=Array.from(e);for(let t=0;t<e.length;++t){let i=e[t];for(let l=t+1;l<e.length;++l){let t=e[l];if(i.contains(t)){let e=this.quickReplyHiddenNodes.indexOf(t);e>-1&&this.quickReplyHiddenNodes.splice(e,1)}}}for(let e of this.quickReplyHiddenNodes)e.remove();let t=this.mf_getQuickReplyStyleElement();t&&t.remove()}; /* Error: Ran out of types for this method. */;
+- (unsigned long long)feedAutoRefreshMinimumInterval;
+- (void)activeNewsletter;
+- (void)vateDatabaseSchema init];
 - (_Bool);
 - (double);
 - (struct CGSize);
@@ -47,14 +36,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long _axesForDerivingIntrinsicContentSizeFromLayoutSize;
-@property(nonatomic, readonly) _Bool _layoutHeightDependsOnWidth;
-@property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic) _Bool canChangeLayoutOrientation; // @synthesize canChangeLayoutOrientation;
-@property(nonatomic, readonly) double firstBaselineOffsetFromTop;
 @property(nonatomic) long long maxLinesBeforeScroll; // @synthesize maxLinesBeforeScroll;
-@property(nonatomic, retain) NSAttributedString *placeholderAttributedString; // @synthesize placeholderAttributedString;
-@property(nonatomic) _Bool removesPastedNewlines; // @synthesize removesPastedNewlines;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSUUID, UIImage, UIImageView, UIViewPropertyAnimator;
+@class CAShapeLayer, NSUUID;
 
 @interface AVTPoseCollectionViewCell
 {
     NSUUID *_contextIdentifier;
-    CAShapeLayer *_selectionLayer;
-    UIImage *_image;
-    UIImageView *_imageView;
-    UIImageView *_transitionImageView;
-    UIViewPropertyAnimator *_scaleDownTransformAnimator;
-    UIViewPropertyAnimator *_scaleUpWithBounceTransformAnimator;
 }
 
 + (struct CGPath *);
@@ -36,20 +30,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIViewPropertyAnimator *scaleDownTransformAnimator; // @synthesize scaleDownTransformAnimator=_scaleDownTransformAnimator;
-@property(retain, nonatomic) UIViewPropertyAnimator *scaleUpWithBounceTransformAnimator; // @synthesize scaleUpWithBounceTransformAnimator=_scaleUpWithBounceTransformAnimator;
 @property(retain, nonatomic) CAShapeLayer *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
-@property(retain, nonatomic) UIImageView *transitionImageView; // @synthesize transitionImageView=_transitionImageView;
 
 @end
 

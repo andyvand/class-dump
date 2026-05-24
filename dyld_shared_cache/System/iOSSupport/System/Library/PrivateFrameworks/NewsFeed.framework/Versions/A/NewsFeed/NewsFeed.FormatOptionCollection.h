@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatOptionCollection
 {
     id variables;
-    id map;
 }
 
 @end

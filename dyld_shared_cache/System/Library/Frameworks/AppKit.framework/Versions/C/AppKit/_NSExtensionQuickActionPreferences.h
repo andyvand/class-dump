@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _NSQuickActionPresentation;
+@class _NSQuickActionPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickActionPreferences
 {
     _NSQuickActionPresentation *_presentation;
-    NSMutableDictionary *_activeByIdentifier;
 }
 
-+ (id);
-- (void);
++ (id)AVAssetDownloadDelegate;
+- (void)' did not exist in the sealing manifest;
 - (id);
-- (id);
+- (id)`;
 - (void)ollments.;
 - (void)IntoMenuRef:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

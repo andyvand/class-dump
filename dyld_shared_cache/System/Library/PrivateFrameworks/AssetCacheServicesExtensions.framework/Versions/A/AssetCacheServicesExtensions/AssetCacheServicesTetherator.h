@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol AssetCacheServicesTetheratorEventsProtocol, AssetCacheServicesTetheratorProtocol, OS_dispatch_queue, OS_os_log;
+@protocol AssetCacheServicesTetheratorProtocol;
 
 @interface AssetCacheServicesTetherator
 {
     id <AssetCacheServicesTetheratorProtocol> _proxy;
-    id <AssetCacheServicesTetheratorEventsProtocol> _weakDelegate;
-    NSObject<OS_dispatch_queue> *_weakDelegateQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (id);
@@ -34,23 +29,12 @@
 - (void);
 - (void);
 - (void);
+- (void)CPKEmojiIMDidCharacterSelectedNotification;
 - (void);
-- (void);
-- (id)esFromPeerToClient;
+- (id)bytesFromPeerToClient;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
 @property(retain) id <AssetCacheServicesTetheratorProtocol> proxy; // @synthesize proxy=_proxy;
-@property(readonly) Class superclass;
-@property __weak id <AssetCacheServicesTetheratorEventsProtocol> weakDelegate; // @synthesize weakDelegate=_weakDelegate;
-@property __weak NSObject<OS_dispatch_queue> *weakDelegateQueue; // @synthesize weakDelegateQueue=_weakDelegateQueue;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

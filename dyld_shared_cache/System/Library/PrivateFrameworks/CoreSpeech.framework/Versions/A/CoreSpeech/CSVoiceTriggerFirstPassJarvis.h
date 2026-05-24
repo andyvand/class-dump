@@ -4,40 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioProvider, CSAudioStream, CSAudioStreamHolding, CSKeywordAnalyzerNDEAPI, CSKeywordAnalyzerNDEAPIResult, CSPlainAudioFileWriter, CSSPGEndpointAnalyzer, CSSpeechManager, CSVoiceTriggerFirstPassMetrics, CSVoiceTriggerRTModel, CSVoiceTriggerSecondChanceContext, CSVoiceTriggerSecondPass, CSVoiceTriggerUserSelectedPhrase, NSMutableArray, NSObject, NSString;
-@protocol CSOtherAppRecordingStateMonitorProviding, CSVoiceTriggerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerFirstPassJarvis
 {
     _Bool _hasReceivedNDEAPIResult;
-    _Bool _hasTriggerCandidate;
-    _Bool _isSecondPassRunning;
-    _Bool _isSiriClientListening;
-    _Bool _firstTimeAssetConfigured;
-    id <CSVoiceTriggerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAudioStream *_audioStream;
-    CSAudioProvider *_audioProvider;
-    CSAudioStreamHolding *_audioStreamHolding;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerNDEAPI *_keywordAnalyzerNDEAPI;
-    unsigned long long _numProcessedSamples;
-    unsigned long long _jarvisVoiceTriggerTimeout;
-    unsigned long long _activeChannel;
-    CSKeywordAnalyzerNDEAPIResult *_jarvisTriggerResult;
-    unsigned long long _earlyDetectFiredMachTime;
-    long long _latestTriggerMode;
-    CSSPGEndpointAnalyzer *_endpointAnalyzer;
-    NSString *_deviceId;
-    CSVoiceTriggerRTModel *_rtModel;
-    CSPlainAudioFileWriter *_audioFileWriter;
-    CSVoiceTriggerSecondPass *_voiceTriggerSecondPass;
-    CSVoiceTriggerSecondChanceContext *_secondChanceContext;
-    NSMutableArray *_assetConfigWaitingBuffer;
-    CSVoiceTriggerFirstPassMetrics *_firstpassMetrics;
-    CSSpeechManager *_speechManager;
-    id <CSOtherAppRecordingStateMonitorProviding> _otherAppRecordingStateMonitor;
-    CSVoiceTriggerUserSelectedPhrase *_multiPhraseSelectedStatus;
 }
 
 + (id);
@@ -47,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -62,17 +34,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)^;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__text;
 - (void);
 - (void);
 - (void);
@@ -83,7 +55,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Creating quickEnergyAccumulator timer;
 - (void);
 - (void);
 - (_Bool);
@@ -91,86 +63,51 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)boolHash:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)node:(id)arg1 %{public}@;
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)recordImageCropQuickLookInfoFromOptionsSafe:(id)arg1 toObservation: /* Error: Ran out of types for this method. */;
+- (void)@"NSArray",C,V_precisionEstimatesPerPoint;
+- (void)VNDetectFaceRectanglesRequestConfiguration;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)P;
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)stVoiceTriggered;
+- (id);
+- (void);
+- (void)__locateOptions;
+- (id);
+- (void)isHearstVoiceTriggered;
 - (id)createAudioFileWriterForOpportuneSpeakListenerWithInputFormat:outputFormat: /* Error: Ran out of types for this method. */;
 - (void)wMicScoreThreshold:(id)arg1 %{public}f;
 - (id)ectorUseAudioTapEnabledPolicyASMac _addSelfTriggerDetectorEnabledConditions]_block_invoke;
 - (void)r _prepareDirectoryAtPath:(id)arg1 ];
 - (void)CurrentContext:(id)arg1 streamHandleId:error:] /* Error: Ran out of types for this method. */;
 - (void)[CSSpeakerRecognitionAssetDownloadMonitor _stopMonitoring];
-- (unsigned long long)et;
+- (unsigned long long)LKFSChannelBitset;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeChannel; // @synthesize activeChannel=_activeChannel;
-@property(retain, nonatomic) NSMutableArray *assetConfigWaitingBuffer; // @synthesize assetConfigWaitingBuffer=_assetConfigWaitingBuffer;
-@property(retain, nonatomic) CSPlainAudioFileWriter *audioFileWriter; // @synthesize audioFileWriter=_audioFileWriter;
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(retain, nonatomic) CSAudioStreamHolding *audioStreamHolding; // @synthesize audioStreamHolding=_audioStreamHolding;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(nonatomic) unsigned long long earlyDetectFiredMachTime; // @synthesize earlyDetectFiredMachTime=_earlyDetectFiredMachTime;
-@property(retain, nonatomic) CSSPGEndpointAnalyzer *endpointAnalyzer; // @synthesize endpointAnalyzer=_endpointAnalyzer;
-@property(nonatomic) _Bool firstTimeAssetConfigured; // @synthesize firstTimeAssetConfigured=_firstTimeAssetConfigured;
-@property(retain, nonatomic) CSVoiceTriggerFirstPassMetrics *firstpassMetrics; // @synthesize firstpassMetrics=_firstpassMetrics;
-@property(nonatomic) _Bool hasReceivedNDEAPIResult; // @synthesize hasReceivedNDEAPIResult=_hasReceivedNDEAPIResult;
-@property(nonatomic) _Bool hasTriggerCandidate; // @synthesize hasTriggerCandidate=_hasTriggerCandidate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
-@property(nonatomic) _Bool isSiriClientListening; // @synthesize isSiriClientListening=_isSiriClientListening;
-@property(retain, nonatomic) CSKeywordAnalyzerNDEAPIResult *jarvisTriggerResult; // @synthesize jarvisTriggerResult=_jarvisTriggerResult;
-@property(nonatomic) unsigned long long jarvisVoiceTriggerTimeout; // @synthesize jarvisVoiceTriggerTimeout=_jarvisVoiceTriggerTimeout;
-@property(retain, nonatomic) CSKeywordAnalyzerNDEAPI *keywordAnalyzerNDEAPI; // @synthesize keywordAnalyzerNDEAPI=_keywordAnalyzerNDEAPI;
-@property(nonatomic) long long latestTriggerMode; // @synthesize latestTriggerMode=_latestTriggerMode;
-@property(retain, nonatomic) CSVoiceTriggerUserSelectedPhrase *multiPhraseSelectedStatus; // @synthesize multiPhraseSelectedStatus=_multiPhraseSelectedStatus;
-@property(nonatomic) unsigned long long numProcessedSamples; // @synthesize numProcessedSamples=_numProcessedSamples;
-@property(retain, nonatomic) id <CSOtherAppRecordingStateMonitorProviding> otherAppRecordingStateMonitor; // @synthesize otherAppRecordingStateMonitor=_otherAppRecordingStateMonitor;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSVoiceTriggerRTModel *rtModel; // @synthesize rtModel=_rtModel;
-@property(retain, nonatomic) CSVoiceTriggerSecondChanceContext *secondChanceContext; // @synthesize secondChanceContext=_secondChanceContext;
-@property(retain, nonatomic) CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSVoiceTriggerSecondPass *voiceTriggerSecondPass; // @synthesize voiceTriggerSecondPass=_voiceTriggerSecondPass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABSearchElement, ABSmartGroup, NSString;
+@class ABSmartGroup;
 
 @interface ABEditSmartGroupCommand
 {
     ABSmartGroup *_group;
-    ABSearchElement *_element;
-    NSString *_name;
-    _Bool _hilights;
 }
 
 - (id);

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSError;
+@class NSError;
 
 @interface SUCoreConfigParam
 {
     NSError *_error;
-    MAAsset *_locatedAsset;
-    unsigned long long _operation;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_isBrowserViewController:visibleToExtensionWithUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)objectAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, retain, nonatomic) MAAsset *locatedAsset; // @synthesize locatedAsset=_locatedAsset;
-@property(readonly, nonatomic) unsigned long long operation; // @synthesize operation=_operation;
 
 @end
 

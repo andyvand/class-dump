@@ -6,22 +6,14 @@
 
 #import <AudioServerDriver/ASDControl.h>
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ASDSelectorControl : ASDControl
 {
     unsigned int _selectedValue;
-    NSMutableArray *_values;
-    unsigned long long _numSelected;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    _Bool _settable;
-    _Bool _hasKindProperty;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -35,31 +27,30 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)rJ;
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
+- (id)ventNoneBatteryConfigWithRawData:] /* Error: Ran out of types for this method. */;
+- (void)ions;
+- (_Bool)b;
+- (unsigned int)claimedOwnershipOfEvents;
 - (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)REQUIRE condition (%s:(const struct AudioObjectPropertyAddress *)arg1 %d)
+%s
+;
+- (_Bool)analyticsSaveToFile;
+- (id)u;
 - (void)Ô¡Ú!LBùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKindProperty; // @synthesize hasKindProperty=_hasKindProperty;
 @property(nonatomic) unsigned int selectedValue; // @dynamic selectedValue;
-@property(readonly, nonatomic) NSArray *selectedValues;
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
 
 @end
 

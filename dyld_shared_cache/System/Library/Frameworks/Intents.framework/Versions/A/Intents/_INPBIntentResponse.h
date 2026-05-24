@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentResponsePayloadFailure, _INPBIntentResponsePayloadSuccess, _INPBUserActivity;
+@class _INPBIntentResponsePayloadFailure;
 
 @interface _INPBIntentResponse
 {
@@ -13,29 +13,23 @@
         unsigned int requiresProtectedData:1;
         unsigned int type:1;
     } _has;
-    _Bool _requiresAuthentication;
-    _Bool _requiresProtectedData;
-    int _type;
-    _INPBIntentResponsePayloadFailure *_payloadFailure;
-    _INPBIntentResponsePayloadSuccess *_payloadSuccess;
-    _INPBUserActivity *_userActivity;
 }
 
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)끉;
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)q;
+- (_Bool);
+- (_Bool);
+- (_Bool)g"16B24@"JSValue"28;
+- (void)T;
 - (id);
 - (_Bool);
 - (void);
@@ -48,33 +42,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (int);
-- (id)ayName:(int)arg1 image:contactIdentifier:rating:aliases: /* Error: Ran out of types for this method. */;
-- (_Bool)Extension;
+- (id)_initWithUserInput:(int)arg1 personHandle:nameComponents:displayName:image:contactIdentifier:rating:aliases: /* Error: Ran out of types for this method. */;
+- (_Bool)_INExtension;
 - (void)Po;
-- (void)SPOON;
+- (void)IMPERIAL_TEASPOON;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPayloadFailure;
-@property(readonly, nonatomic) _Bool hasPayloadSuccess;
-@property(nonatomic) _Bool hasRequiresAuthentication;
-@property(nonatomic) _Bool hasRequiresProtectedData;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserActivity;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentResponsePayloadFailure *payloadFailure; // @synthesize payloadFailure=_payloadFailure;
-@property(retain, nonatomic) _INPBIntentResponsePayloadSuccess *payloadSuccess; // @synthesize payloadSuccess=_payloadSuccess;
-@property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
-@property(nonatomic) _Bool requiresProtectedData; // @synthesize requiresProtectedData=_requiresProtectedData;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBUserActivity *userActivity; // @synthesize userActivity=_userActivity;
 
 @end
 

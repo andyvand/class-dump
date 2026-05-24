@@ -8,7 +8,6 @@
 {
     id id;
     id _donation;
-    id _$observationRegistrar;
 }
 
 @end

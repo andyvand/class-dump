@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/RFVisualProperty.h>
 
-@class NSArray, NSData, NSDictionary, NSString, SFCommandButtonItem;
+@class SFCommandButtonItem;
 
 @interface RFVisualPropertyWithAction : RFVisualProperty
 {
@@ -16,29 +16,18 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)nowPlayingAtIndex:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)updateCachedCounts:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)ӱ;
 - (id);
 - (void)fSummaryItemDetailedTextCardSection;
 
 // Remaining properties
 @property(retain, nonatomic) SFCommandButtonItem *commandItem; // @synthesize commandItem=_commandItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *visual_elements;
 
 @end
 

@@ -15,7 +15,8 @@
 
 - (id);
 - (void);
-- (id);
+- (id)t represent the same number of right-hand sides.
+;
 - (void);
 
 // Remaining properties

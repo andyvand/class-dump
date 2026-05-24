@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutAuxiliaryOffsets
@@ -21,28 +21,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id)ð!ÀBù1ß31Â0@ù
 × ;
-- (id)sDropDownContent;
-- (void)tHiddenStateChange;
+- (id)dismissDropDownContent;
+- (void)_lastHiddenStateChange;
 - (void)ledMenuBarHeight;
 - (id)x´{;
 - (void)eginning;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSSet *elementKinds;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

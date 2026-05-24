@@ -6,26 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETBluetoothDevice : SISchemaInstrumentationMessage
 {
     unsigned int _index;
-    double _rssi;
-    struct {
-        unsigned int index:1;
-        unsigned int rssi:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_promptForRecoveryCodeWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)cel;
 - (id);
-- (void);
+- (void)dateInfo;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,16 +28,12 @@
 - (id),N,V_hasFixedDimensions;
 - (unsigned int)eported;
 - (id),V_nameOfTypedValue;
-- (double)Personalization;
+- (double)ODDSiriSchemaODDUserPersonalization;
 - (void)Ý	$;
 - (void)\Ú¹ÿ!Ì²lj%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasRssi;
 @property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double rssi; // @synthesize rssi=_rssi;
 
 @end
 

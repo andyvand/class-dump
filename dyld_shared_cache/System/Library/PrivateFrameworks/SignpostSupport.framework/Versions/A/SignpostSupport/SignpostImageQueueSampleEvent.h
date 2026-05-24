@@ -7,10 +7,6 @@
 @interface SignpostImageQueueSampleEvent
 {
     unsigned int _queueID;
-    unsigned int _surfaceID;
-    unsigned int _queueGeneration;
-    unsigned int _frameSeed;
-    double _serverSamplingTime;
 }
 
 - (double);
@@ -21,11 +17,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(readonly, nonatomic) unsigned int queueGeneration; // @synthesize queueGeneration=_queueGeneration;
 @property(readonly, nonatomic) unsigned int queueID; // @synthesize queueID=_queueID;
-@property(readonly, nonatomic) double serverSamplingTime; // @synthesize serverSamplingTime=_serverSamplingTime;
-@property(readonly, nonatomic) unsigned int surfaceID; // @synthesize surfaceID=_surfaceID;
 
 @end
 

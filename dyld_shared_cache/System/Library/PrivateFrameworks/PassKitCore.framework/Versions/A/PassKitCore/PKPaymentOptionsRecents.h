@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CRRecentContactsLibrary, PKPaymentOptionsSynchronization;
-@protocol NSObject;
+@class CNContact;
 
 @interface PKPaymentOptionsRecents
 {
     CNContact *_cachedMeContact;
-    id <NSObject> _meContactDidChangeNotificationObserver;
-    PKPaymentOptionsSynchronization *_optionsSynchronization;
-    _Bool _meCardCachingEnabled;
-    CRRecentContactsLibrary *_recentContactsLibrary;
 }
 
-+ (id);
++ (id)h;
 + (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,11 +26,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)k�;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -46,19 +41,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id)@ù
 × ;
-- (void)oteMinimum;
+- (void)shipmentQuoteMinimum;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *meCard;
-@property(nonatomic, getter=isMeCardCachingEnabled) _Bool meCardCachingEnabled; // @synthesize meCardCachingEnabled=_meCardCachingEnabled;
-@property(retain, nonatomic) CRRecentContactsLibrary *recentContactsLibrary; // @synthesize recentContactsLibrary=_recentContactsLibrary;
 
 @end
 

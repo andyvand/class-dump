@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, WBSRecentsStore;
+@class WBSRecentsStore;
 
 @protocol WBSRecentsProvider
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *recentItems;
 @property(nonatomic) __weak WBSRecentsStore *recentsStore;
 @end
 

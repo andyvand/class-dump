@@ -7,10 +7,6 @@
 @interface IMDPersistence.DatabaseTableInspectionReport
 {
     id tableKey;
-    id rowCount;
-    id orphanedCount;
-    id childOfOrphanedMessagesCount;
-    id detectedProblems;
 }
 
 @end

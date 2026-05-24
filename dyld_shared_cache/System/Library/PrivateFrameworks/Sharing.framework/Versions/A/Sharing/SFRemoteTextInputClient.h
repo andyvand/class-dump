@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, RTIInputSystemService, RTIInputSystemSourceSession;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface SFRemoteTextInputClient
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _paused;
-    RTIInputSystemService *_rtiService;
-    RTIInputSystemSourceSession *_rtiSourceSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _textInputDidBegin;
-    CDUnknownBlockType _textInputDidEnd;
 }
 
 - (void);
@@ -45,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),N,V_displayBundleID;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -54,18 +45,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *currentPayload;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTIInputSystemSourceSession *sourceSession;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType textInputDidBegin; // @synthesize textInputDidBegin=_textInputDidBegin;
-@property(copy, nonatomic) CDUnknownBlockType textInputDidEnd; // @synthesize textInputDidEnd=_textInputDidEnd;
 
 @end
 

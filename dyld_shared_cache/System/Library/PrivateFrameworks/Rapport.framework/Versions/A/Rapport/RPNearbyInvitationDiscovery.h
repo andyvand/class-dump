@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface RPNearbyInvitationDiscovery
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_discoveredDevices;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned long long _discoveryFlags;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 + (_Bool);
@@ -30,26 +16,46 @@
 - (void);
 - (void);
 - (void);
+- (id)__MTWofvW7rlW781e2mnIg/Library/Caches/com.apple.xbs/TemporaryDirectory.Es6j8A/Sources/CoreDuet/CDUserContext/CDUserContext/_CDUserContextService.m:(id)arg1 540;
+- (CDUnknownBlockType);
+- (id)included in the SRILM root
+directory in the "License" file.  Software distributed under the License
+is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either
+express or implied.  See the License for the specific language governing
+rights and limitations under the License.
+
+This software is Copyright (c) 1995-2014 SRI International.  All rights
+reserved.
+
+Portions of this software are
+Copyright (c) 2002-2005 Jeff Bilmes
+Copyright (c) 2009-2013 Tanel Alumae
+Copyright (c) 2012-2013 Microsoft Corp.
+
+SRILM also includes open-source software as listed in the
+ACKNOWLEDGEMENTS file in the SRILM root directory.
+
+If this software was obtained under a commercial license agreement with
+SRI then the provisions therein govern the use of the software and the
+above notice does not apply.
+;
+- (void)models will result in alignments which do not properly consider cross-word contexts;
+- (void)@;
+- (id)NSt3__120__shared_ptr_emplaceIN6quasar11ModelLoaderENS_9allocatorIS2_EEEE;
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void)�;
 - (void);
 - (id)ient, Next, ID '%@', Type %s, Flags %#{flags}, OurIP %@, OurMAC %@, OurEP %@, OurPort %d
 ;
@@ -58,21 +64,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
 @property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(readonly, copy, nonatomic) NSArray *discoveredDevices;
-@property(nonatomic) unsigned long long discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly) Class superclass;
 
 @end
 

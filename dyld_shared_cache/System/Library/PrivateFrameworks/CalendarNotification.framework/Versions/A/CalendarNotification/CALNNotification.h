@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNNotificationRequest, NSDate;
+@class NSDate;
 
 @interface CALNNotification
 {
     NSDate *_date;
-    CALNNotificationRequest *_request;
 }
 
 + (id);
@@ -22,13 +21,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)x;
+- (id)atField;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) CALNNotificationRequest *request; // @synthesize request=_request;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface ContentKit.WFGeneratedResponseFactory
 {
     id entityList;
-    id modelName;
-    id modelSession;
 }
 
 - (id);

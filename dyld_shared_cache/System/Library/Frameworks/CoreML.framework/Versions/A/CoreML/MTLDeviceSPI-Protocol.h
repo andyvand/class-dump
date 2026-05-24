@@ -5,14 +5,51 @@
 //
 
 @class MTLArchitecture, MTLDeviceFeatureQueries, MTLGPUBVHBuilder, MTLMeshRenderPipelineDescriptor, MTLMotionEstimatorCapabilities, MTLRasterizationRateMapDescriptor, MTLRenderPipelineDescriptor, MTLTargetDeviceArchitecture, NSArray, NSDictionary, NSString, OS_dispatch_data;
-@protocol MTL4BinaryFunction, MTLAccelerationStructure, MTLArgumentEncoder, MTLBuffer, MTLCommandQueue, MTLDeadlineProfile, MTLDynamicLibrary, MTLEvent, MTLFunction, MTLFunctionHandle, MTLGLDrawable, MTLLibrary, MTLRasterizationRateMap, MTLSharedEvent, MTLTexture;
+@protocol MTL4BinaryFunction, MTLAccelerationStructure, MTLArgumentEncoder, MTLBinaryArchive, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDeadlineProfile, MTLDynamicLibrary, MTLEvent, MTLFunction, MTLFunctionHandle, MTLGLDrawable, MTLIndirectArgumentEncoder, MTLIndirectRenderCommandEncoder, MTLLibrary, MTLPerformanceStateAssertion, MTLRasterizationRateMap, MTLSharedEvent, MTLTexture;
 
 @protocol MTLDeviceSPI
+- (id <MTLIndirectRenderCommandEncoder>)=;
+- (id <MTLBuffer>);
+- (id <MTLBinaryArchive>)* _Nonnull, CFTypeRef _Nonnull);
+- (_Bool)ZO;
+- (_Bool)eFromWaypoints failed;
+- (_Bool)uthData:key:iv:] /* Error: Ran out of types for this method. */;
+- (_Bool)nt/DidFetchHawkeyeAISBatteryType;
+- (_Bool)RL:%@, relativePath:%@, mediaListCount:%lu>
+ %@ /* Error: Ran out of types for this method. */;
+- (_Bool)groundAltitudeEnabled;
+- (unsigned long long)top,%{public}lld,maxLength,%{public}.2lf;
+- (_Bool)ublic}@, psapID:%{public}@, geofenceID:%{public}@, timestamp:%{public}ld /* Error: Ran out of types for this method. */;
+- (_Bool)ql;
+- (_Bool)G	;
+- (id <MTLPerformanceStateAssertion>)(#;
+- (_Bool)F;
+- (_Bool)H;
+- (unsigned long long)tempted to set RtpParameters scalabilityMode to an unsupported value for the current codecs.;
+- (_Bool)ame_sampler.cc;
+- (_Bool)l;
+- (_Bool))e;
+- (unsigned long long);
+- (unsigned long long)j;
+- (_Bool)0;
+- (unsigned long long)J;
+- (id <MTLFunctionHandle>)?;
+- (_Bool)!;
+- (NSArray *);
+- (_Bool)K;
+- (unsigned long long)U;
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (NSArray *)J;
+- (_Bool);
+- (_Bool)?;
+- (_Bool)E;
 - (_Bool)sianProbitRegression>="__ptr_"^{BayesianProbitRegression}"__cntrl_"^{__shared_weak_count}};
 - (_Bool)r">48;
-- (_Bool)ementSparsePageSize: /* Error: Ran out of types for this method. */;
-- (unsigned long long)rs;
-- (NSString *)on:orderedInputFeatureNames:orderedOutputFeatureNames:error: /* Error: Ran out of types for this method. */;
+- (_Bool)newBufferWithLength:options:placementSparsePageSize: /* Error: Ran out of types for this method. */;
+- (unsigned long long)maxFragmentBuffers;
+- (NSString *)categoryName:inputDescription:outputDescription:orderedInputFeatureNames:orderedOutputFeatureNames:error: /* Error: Ran out of types for this method. */;
 - (MTLTargetDeviceArchitecture *)L::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>>>=^v^v{?=^v}}},R,N,V_cppPath /* Error: Ran out of types for this method. */;
 - (_Bool)ä);
 - (_Bool)`·F;
@@ -311,19 +348,17 @@ zjZJ½­óãÓÃ3#scSC²¢ðàÐÀ0  /* Error: Ran out of types for t
 - (_Bool)¹ÿ©bÔ¹ÿb@Ô¹ÿ;
 - (void)¤Åÿ;
 - (void)l<ÄÿMbð<ÄÿUb@ÿµÿEbè<Äÿ-bÿµÿEbÿµÿ;
-- (_Bool)ayer;
+- (_Bool)Layer;
 - (_Bool);
-- (_Bool)redEvent;
+- (_Bool)MLModelTensorSharedEvent;
 - (unsigned int)Õºb;
-- (_Bool)rfaceAllocator;
+- (_Bool)IOSurfaceAllocator;
 - (_Bool);
 - (_Bool)Àÿ ;
-- (_Bool)dArrayBufferLayout;
+- (_Bool)MLShapedArrayBufferLayout;
 - (unsigned long long)$^;
 - (NSString *)nÀÿ;
 - (_Bool)bÁH;
-- (_Bool);
-- (_Bool);
 - (_Bool)P;
 - (_Bool)ÿÅbØpºÿ;
 - (unsigned long long)ÎbºÿÎb°ºÿ;
@@ -333,10 +368,10 @@ zjZJ½­óãÓÃ3#scSC²¢ðàÐÀ0  /* Error: Ran out of types for t
 - (_Bool)âbÛt;
 - (_Bool)L¹ÿíéb¬¹ÿÝébð¹ÿ;
 - (_Bool)¶$^;
-- (NSArray *)Kind;
+- (NSArray *)DeviceKind;
 - (_Bool)ð¶ÿôm¶ÿ;
 - (_Bool)õbÑ;
-- (_Bool)_unfair_lock_s;
+- (_Bool)os_unfair_lock_s;
 - (unsigned long long)ì·;
 - (MTLArchitecture *);
 - (struct IndirectArgumentBufferCapabilities);
@@ -345,6 +380,16 @@ zjZJ½­óãÓÃ3#scSC²¢ðàÐÀ0  /* Error: Ran out of types for t
 - (_Bool)°;
 
 @optional
+- (void)B;
+- (_Bool);
+- (_Bool);
+- (id <MTLIndirectArgumentEncoder>)""@E;
+- (OS_dispatch_data *)?;
+- (id <MTLLibrary>)B( n h`n@h`n;
+- (void)+O;
+- (id <MTLComputePipelineState>);
+- (id <MTLFunction>)";
+- (void *);
 - (unsigned long long)alue must be empty or a scalar.;
 - (id <MTLFunction>)] Û]XÛ	]pÛ]¨Û]Û]øÛ]ÐÛ]HÚ]`Ú;
 - (id <MTLFunction>)l?6ÁþâS­}¨À^o,÷Ff×Êe¡;lúZéQÙ<êeÄÉ¢(§VYúukáÐ´VÂXð]ìÍ~+f MÓ§nK;ñïÒ(u¬8jµÿT.3Ã¸C;
@@ -370,385 +415,11 @@ IÎèÌø9"È¢!Ë¸Í.?ÜsVf¤È\÷B@;æõ9eÛéÃ8±9|výE¡æ�
 - (id <MTLLibrary>)R.gñ0ò_û+ôUdËYh©;kÆb\5mÌ6pÀÞ¢}<Å¬w¯uvÎÆk«­#C<¾&5ÒãÓ»«#ûëcS@0£{kâÒºª"úêbR;+¢zjÙÉÁ±	ñYI>.qØÈÀ°;
 - (_Bool)ÚÕ¤EÉÏZ¼{Ôy	ÙDüýQ§uR¯:n¨#¨;8¨²Ðo¨ú©¨ÍÍË©¨ÍÙèèôý¸Ñöû¶©¾¨¼ÍÙèèôý¸Ûýêìñþñûùìñ÷ö¸Ùíìð÷êñìá©¨ÍÙèèôý¸Ê÷÷ì¸ÛÙ¨¨®¨¬ª­ª©¬¨«®Â«­¨ª¨¡ª©¬¨«®Â¨ú©¨ÍÍË©¨ÍÙèèôý¸Ñöû¶©¾¨¼ÍÙèèôý¸Ûýêìñþñûùìñ÷ö¸Ùíìð÷êñìá©¨ÍÙèèôý¸Ê÷÷ì¸ÛÙ¨º¨²Ðo¨|	1	CßÈsuÆáµs®:ÏÔÍtFaÓôm3º¨p¦`ÈKçÙ0 /* Error: Ran out of types for this method. */;
 - (_Bool)ÿ;
-- (unsigned long long);
 - (id <MTLFunction>)Æºb;
 - (OS_dispatch_data *)(ºÿ;
 - (void)S;
 
 // Remaining properties
-@property(readonly, getter=isASTCPixelFormatsSupported) _Bool ASTCPixelFormatsSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisASTCPixelFormatsSupported
-
-@property(readonly, getter=isAnisoSampleFixSupported) _Bool AnisoSampleFixSupported;
-@property(readonly, getter=isBCTextureCompressionSupported) _Bool BCTextureCompressionSupported;
-@property(readonly, getter=isClampToHalfBorderSupported) _Bool ClampToHalfBorderSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisClampToHalfBorderSupported
-
-@property(readonly, getter=isCustomBorderColorSupported) _Bool CustomBorderColorSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCustomBorderColorSupported
-
-@property(readonly, getter=isFixedLinePointFillDepthGradientSupported) _Bool FixedLinePointFillDepthGradientSupported;
-@property(readonly) MTLGPUBVHBuilder *GPUBVHBuilder;
-@property(readonly, getter=isRGB10A2GammaSupported) _Bool RGB10A2GammaSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisRGB10A2GammaSupported
-
-@property(readonly, getter=isRTZRoundingSupported) _Bool RTZRoundingSupported;
-@property(readonly) unsigned int acceleratorPort;
-@property(readonly) unsigned long long bufferRobustnessSupport;
-@property(nonatomic) unsigned long long commandBufferErrorOptions;
-@property(readonly) unsigned long long commandQueueLimit;
-@property(readonly) unsigned long long currentCommandQueueCount;
-@property(readonly, nonatomic) long long currentPerformanceState;
-@property(readonly) unsigned long long dedicatedMemorySize;
-@property(readonly) long long defaultTextureWriteRoundingMode;
-@property(readonly) unsigned long long deviceCreationFlags;
-@property(readonly) unsigned long long deviceLinearReadOnlyTextureAlignmentBytes;
-@property(readonly) unsigned long long deviceLinearTextureAlignmentBytes;
-@property(readonly) unsigned long long doubleFPConfig;
-@property(readonly) unsigned long long featureProfile;
-@property(readonly) MTLDeviceFeatureQueries *featureQueries;
-@property(readonly, getter=isFloat32FilteringSupported) _Bool float32FilteringSupported;
-@property(readonly, getter=isFramebufferReadSupported) _Bool framebufferReadSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisFramebufferReadSupported
-
-@property(getter=areGPUAssertionsEnabled, setter=setGPUAssertionsEnabled:) _Bool gpuAssertionsEnabled;
-@property(readonly) unsigned long long halfFPConfig;
-@property(readonly) struct IndirectArgumentBufferCapabilities indirectArgumentBufferCapabilities;
-@property(readonly) unsigned long long iosurfaceReadOnlyTextureAlignmentBytes;
-@property(readonly) unsigned long long iosurfaceTextureAlignmentBytes;
-@property(readonly, getter=isLargeMRTSupported) _Bool largeMRTSupported;
-@property(readonly) unsigned long long latestSupportedGenericBVHVersion;
-@property(readonly) const struct *limits;
-@property(readonly) unsigned long long linearTextureAlignmentBytes;
-@property(readonly) unsigned long long linearTextureArrayAlignmentBytes;
-@property(readonly) unsigned long long linearTextureArrayAlignmentSlice;
-@property(readonly) int llvmVersion;
-@property(readonly, getter=isMagicMipmapSupported) _Bool magicMipmapSupported;
-@property(readonly) unsigned long long maxAccelerationStructureLevels;
-@property(readonly) unsigned long long maxAccelerationStructureTraversalDepth;
-@property(readonly) unsigned long long maxColorAttachments;
-@property(readonly) unsigned long long maxComputeAttributes;
-@property(readonly) unsigned long long maxComputeBuffers;
-@property(readonly) unsigned long long maxComputeInlineDataSize;
-@property(readonly) unsigned long long maxComputeLocalMemorySizes;
-@property(readonly) unsigned long long maxComputeSamplers;
-@property(readonly) unsigned long long maxComputeTextures;
-@property(readonly) unsigned long long maxComputeThreadgroupMemory;
-@property(readonly) unsigned long long maxComputeThreadgroupMemoryAlignmentBytes;
-@property(readonly) unsigned long long maxConcurrentExecutingCompilationTasks;
-@property(readonly) unsigned long long maxConstantBufferArguments;
-@property(readonly) unsigned long long maxCustomSamplePositions;
-@property(readonly) unsigned long long maxFenceInstances;
-@property(readonly) unsigned long long maxFragmentBuffers;
-@property(readonly) unsigned long long maxFragmentInlineDataSize;
-@property(readonly) unsigned long long maxFragmentSamplers;
-@property(readonly) unsigned long long maxFragmentTextures;
-@property(readonly) unsigned long long maxFramebufferStorageBits;
-@property(readonly) unsigned long long maxFunctionConstantIndices;
-@property(readonly) unsigned long long maxIOCommandsInFlight;
-@property(readonly) unsigned long long maxIndirectBuffers;
-@property(readonly) unsigned long long maxIndirectSamplers;
-@property(readonly) unsigned long long maxIndirectSamplersPerDevice;
-@property(readonly) unsigned long long maxIndirectTextures;
-@property(readonly) unsigned long long maxInterpolants;
-@property(readonly) unsigned long long maxInterpolatedComponents;
-@property(readonly) float maxLineWidth;
-@property(readonly) float maxPointSize;
-@property(readonly) unsigned long long maxPredicatedNestingDepth;
-@property(readonly) unsigned long long maxRasterizationRateLayerCount;
-@property(readonly) unsigned long long maxTessellationFactor;
-@property(readonly) unsigned long long maxTextureBufferWidth;
-@property(readonly) unsigned long long maxTextureDepth3D;
-@property(readonly) unsigned long long maxTextureDimensionCube;
-@property(readonly) unsigned long long maxTextureHeight2D;
-@property(readonly) unsigned long long maxTextureHeight3D;
-@property(readonly) unsigned long long maxTextureLayers;
-@property(readonly) unsigned long long maxTextureWidth1D;
-@property(readonly) unsigned long long maxTextureWidth2D;
-@property(readonly) unsigned long long maxTextureWidth3D;
-@property(readonly) unsigned long long maxTileBuffers;
-@property(readonly) unsigned long long maxTileInlineDataSize;
-@property(readonly) unsigned long long maxTileSamplers;
-@property(readonly) unsigned long long maxTileTextures;
-@property(readonly) unsigned long long maxTotalComputeThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxVertexAmplificationCount;
-@property(readonly) unsigned long long maxVertexAmplificationFactor;
-@property(readonly) unsigned long long maxVertexAttributes;
-@property(readonly) unsigned long long maxVertexBuffers;
-@property(readonly) unsigned long long maxVertexInlineDataSize;
-@property(readonly) unsigned long long maxVertexSamplers;
-@property(readonly) unsigned long long maxVertexTextures;
-@property(readonly) unsigned long long maxViewportCount;
-@property(readonly) unsigned long long maxVisibilityQueryOffset;
-@property(nonatomic) _Bool metalAssertionsEnabled;
-@property(readonly) unsigned long long minBufferNoCopyAlignmentBytes;
-@property(readonly) unsigned long long minConstantBufferAlignmentBytes;
-@property(readonly) unsigned long long minTilePixels;
-@property(readonly, getter=isMsaa32bSupported) _Bool msaa32bSupported;
-@property(readonly, getter=isPlacementHeapSupported) _Bool placementHeapSupported;
-@property(copy, nonatomic) NSDictionary *pluginData;
-@property(readonly, getter=isQuadDataSharingSupported) _Bool quadDataSharingSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisQuadDataSharingSupported
-
-@property(readonly) _Bool requiresBFloat16Emulation;
-@property _Bool requiresLegacyCompilerProcessesCount;
-@property(readonly) _Bool requiresMeshShaderEmulation;
-@property(readonly) _Bool requiresRaytracingEmulation;
-@property(readonly) unsigned long long samplerReductionModeSupport;
-@property _Bool shaderDebugInfoCaching;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property(readonly) unsigned long long sharedMemorySize;
-@property(readonly) unsigned long long singleFPConfig;
-@property(readonly) unsigned long long sparseTexturesSupport;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) _Bool supportPriorityBand;
-@property(readonly, nonatomic) _Bool supports2DLinearTexArraySPI;
-@property(readonly, nonatomic) _Bool supports32BitFloatFiltering;
-@property(readonly, nonatomic) _Bool supports32BitMSAA;
-@property(readonly, nonatomic) _Bool supports32bpcMSAATextures;
-@property(readonly, nonatomic) _Bool supports3DASTCTextures;
-@property(readonly, nonatomic) _Bool supports3DBCTextures;
-@property(readonly, nonatomic) _Bool supportsAIRNTBinaryArchiveFunctionPointers;
-@property(readonly, nonatomic) _Bool supportsAIRNTBinaryArchiveSpecializedFunctions;
-@property(readonly, nonatomic) _Bool supportsAIRNTBinaryArchiveStitchedFunctions;
-@property(readonly, nonatomic) _Bool supportsASTCHDRTextureCompression;
-@property(readonly, nonatomic) _Bool supportsASTCTextureCompression;
-@property(readonly, nonatomic) _Bool supportsAlphaYUVFormats;
-@property(readonly, nonatomic) _Bool supportsAnisoSampleFix;
-@property(readonly, nonatomic) _Bool supportsArgumentBuffers;
-@property(readonly, nonatomic) _Bool supportsArgumentBuffersTier2;
-@property(readonly, nonatomic) _Bool supportsArrayOfSamplers;
-@property(readonly, nonatomic) _Bool supportsArrayOfTextures;
-@property(readonly, nonatomic) _Bool supportsAtomicFloat;
-@property(readonly, nonatomic) _Bool supportsAtomicUlongVoidMinMax;
-@property(readonly, nonatomic) _Bool supportsAtomicWaitNotify;
-@property(readonly, nonatomic) _Bool supportsBCTextureCompression;
-@property(readonly, nonatomic) _Bool supportsBGR10A2;
-@property(readonly, nonatomic) _Bool supportsBaseVertexInstanceDrawing;
-@property(readonly, nonatomic) _Bool supportsBfloat16Buffers;
-@property(readonly, nonatomic) _Bool supportsBfloat16Format;
-@property(readonly, nonatomic) _Bool supportsBinaryArchives;
-@property(readonly, nonatomic) _Bool supportsBinaryLibraries;
-@property(readonly, nonatomic) _Bool supportsBlackOrWhiteSamplerBorderColors;
-@property(readonly, nonatomic) _Bool supportsBufferBoundsChecking;
-@property(readonly, nonatomic) _Bool supportsBufferPrefetchStatistics;
-@property(readonly, nonatomic) _Bool supportsBufferWithAddressRanges;
-@property(readonly, nonatomic) _Bool supportsBufferWithIOSurface;
 @property(readonly, nonatomic) _Bool supportsBufferlessClientStorageTexture;
-@property(readonly, nonatomic) _Bool supportsCMPIndirectCommandBuffers;
-@property(readonly, nonatomic) _Bool supportsColorSpaceConversionMatrixSelection;
-@property(readonly, nonatomic) _Bool supportsCombinedMSAAStoreAndResolveAction;
-@property(readonly, nonatomic) _Bool supportsCommandBufferJump;
-@property(readonly, nonatomic) _Bool supportsCommandQueueBarriers;
-@property(readonly, nonatomic) _Bool supportsCompressedTextureViewSPI;
-@property(readonly, nonatomic) _Bool supportsComputeCompressedTextureWrite;
-@property(readonly, nonatomic) _Bool supportsComputeMemoryBarrier;
-@property(readonly, nonatomic) _Bool supportsConcurrentComputeDispatch;
-@property(readonly, nonatomic) _Bool supportsConditionalLoadStore;
-@property(readonly, nonatomic) _Bool supportsConditionalTileDispatch;
-@property(readonly, nonatomic) _Bool supportsCountingOcclusionQuery;
-@property(readonly, nonatomic) _Bool supportsCustomBorderColor;
-@property(readonly, nonatomic) _Bool supportsDeadlineProfile;
-@property(readonly, nonatomic) _Bool supportsDepthBoundsTesting;
-@property(readonly, nonatomic) _Bool supportsDepthClipMode;
-@property(readonly, nonatomic) _Bool supportsDepthClipModeClampExtended;
-@property(readonly, nonatomic) _Bool supportsDeviceCoherency;
-@property(readonly, nonatomic) _Bool supportsDevicePartitioning;
-@property(readonly, nonatomic) _Bool supportsDynamicAttributeStride;
-@property(readonly, nonatomic) _Bool supportsDynamicControlPointCount;
-@property(readonly, nonatomic) _Bool supportsDynamicLibraries;
-@property(readonly, nonatomic) _Bool supportsExplicitVisibilityGroups;
-@property(readonly, nonatomic) _Bool supportsExtendedIndirectRenderCommand;
-@property(readonly, nonatomic) _Bool supportsExtendedSamplerLODBiasRange;
-@property(readonly, nonatomic) _Bool supportsExtendedVertexFormats;
-@property(readonly, nonatomic) _Bool supportsExtendedXR10Formats;
-@property(readonly, nonatomic) _Bool supportsExtendedYUVFormats;
-@property(readonly, nonatomic) _Bool supportsFP32TessFactors;
-@property(readonly, nonatomic) _Bool supportsFP8;
-@property(readonly, nonatomic) _Bool supportsFastMathInfNaNPropagation;
-@property(readonly, nonatomic) _Bool supportsFillTexture;
-@property(readonly, nonatomic) _Bool supportsFixedLinePointFillDepthGradient;
-@property(readonly, nonatomic) _Bool supportsFloat16BCubicFiltering;
-@property(readonly, nonatomic) _Bool supportsFloat16InfNanFiltering;
-@property(readonly, nonatomic) _Bool supportsForceSeamsOnCubemaps;
-@property(readonly, nonatomic) _Bool supportsForkJoin;
-@property(readonly, nonatomic) _Bool supportsFragmentBufferWrites;
-@property(readonly, nonatomic) _Bool supportsFragmentOnlyEncoders;
-@property(readonly, nonatomic) _Bool supportsFunctionPointers;
-@property(readonly, nonatomic) _Bool supportsFunctionPointersFromMesh;
-@property(readonly, nonatomic) _Bool supportsFunctionPointersFromRender;
-@property(readonly, nonatomic) _Bool supportsGFXIndirectCommandBuffers;
-@property(readonly, nonatomic) _Bool supportsGPUStatistics;
-@property(readonly, nonatomic) _Bool supportsGlobalVariableBindingInDylibs;
-@property(readonly, nonatomic) _Bool supportsGlobalVariableBindings;
-@property(readonly, nonatomic) _Bool supportsGlobalVariableRelocation;
-@property(readonly, nonatomic) _Bool supportsGlobalVariableRelocationCompute;
-@property(readonly, nonatomic) _Bool supportsGlobalVariableRelocationRender;
-@property(readonly, nonatomic) _Bool supportsHeapAccelerationStructureAllocation;
-@property(readonly, nonatomic) _Bool supportsHeapWithAddressRanges;
-@property(readonly, nonatomic) _Bool supportsIABHashForTools;
-@property(readonly, nonatomic) _Bool supportsImageBlockSampleCoverageControl;
-@property(readonly, nonatomic) _Bool supportsImageBlocks;
-@property(readonly, nonatomic) _Bool supportsIndirectDrawAndDispatch;
-@property(readonly, nonatomic) _Bool supportsIndirectStageInRegion;
-@property(readonly, nonatomic) _Bool supportsIndirectTessellation;
-@property(readonly, nonatomic) _Bool supportsIndirectTextures;
-@property(readonly, nonatomic) _Bool supportsIndirectWritableTextures;
-@property(readonly, nonatomic) _Bool supportsInt64;
-@property(readonly, nonatomic) _Bool supportsInterchangeTiled;
-@property(readonly, nonatomic) _Bool supportsIntersectionFunctionBuffers;
-@property(readonly, nonatomic) _Bool supportsInvariantVertexPosition;
-@property(readonly, nonatomic) _Bool supportsLargeFramebufferConfigs;
-@property(readonly, nonatomic) _Bool supportsLateEvalEvent;
-@property(readonly, nonatomic) _Bool supportsLayeredRendering;
-@property(readonly, nonatomic) _Bool supportsLimitedYUVFormats;
-@property(readonly, nonatomic) _Bool supportsLinearTexture2DArray;
-@property(readonly, nonatomic) _Bool supportsLinearTextureFromSharedBuffer;
-@property(readonly, nonatomic) _Bool supportsLossyCompression;
-@property(readonly, nonatomic) _Bool supportsMSAADepthResolve;
-@property(readonly, nonatomic) _Bool supportsMSAADepthResolveFilter;
-@property(readonly, nonatomic) _Bool supportsMSAAStencilResolve;
-@property(readonly, nonatomic) _Bool supportsMSAAStencilResolveFilter;
-@property(readonly, nonatomic) _Bool supportsMTL4CommandAllocator;
-@property(readonly, nonatomic) _Bool supportsMTL4CommandQueue;
-@property(readonly, nonatomic) _Bool supportsMTL4Compiler;
-@property(readonly, nonatomic) _Bool supportsMTL4ComputeCommandEncoder;
-@property(readonly, nonatomic) _Bool supportsMTL4Counters;
-@property(readonly, nonatomic) _Bool supportsMTL4LateBoundRenderTargets;
-@property(readonly, nonatomic) _Bool supportsMTL4PSOSpecialization;
-@property(readonly, nonatomic) _Bool supportsMTL4PlacementSparse;
-@property(readonly, nonatomic) _Bool supportsMTL4RenderCommandEncoder;
-@property(readonly, nonatomic) _Bool supportsMTLTextureViewPools;
-@property(readonly, nonatomic) _Bool supportsMXU;
-@property(readonly, nonatomic) _Bool supportsMachineLearningCommandEncoders;
-@property(readonly, nonatomic) _Bool supportsMemoryOrderAtomics;
-@property(readonly, nonatomic) _Bool supportsMemorylessRenderTargets;
-@property(readonly, nonatomic) _Bool supportsMeshRenderDynamicLibraries;
-@property(readonly, nonatomic) _Bool supportsMeshShaders;
-@property(readonly, nonatomic) _Bool supportsMeshShadersInICB;
-@property(readonly, nonatomic) _Bool supportsMipLevelsSmallerThanBlockSize;
-@property(readonly, nonatomic) _Bool supportsMirrorClampToEdgeSamplerMode;
-@property(readonly, nonatomic) _Bool supportsMutableTier1ArgumentBuffers;
-@property(readonly, nonatomic) _Bool supportsNativeHardwareFP16;
-@property(readonly, nonatomic) _Bool supportsNonPrivateDepthStencilTextures;
-@property(readonly, nonatomic) _Bool supportsNonPrivateMSAATextures;
-@property(readonly, nonatomic) _Bool supportsNonSquareTileShaders;
-@property(readonly, nonatomic) _Bool supportsNonUniformThreadgroupSize;
-@property(readonly, nonatomic) _Bool supportsNonZeroTextureWriteLOD;
-@property(readonly, nonatomic) _Bool supportsNorm16BCubicFiltering;
-@property(readonly, nonatomic) _Bool supportsOpenCLTextureWriteSwizzles;
-@property(readonly, nonatomic) _Bool supportsPacked32TextureBufferWrites;
-@property(readonly, nonatomic) _Bool supportsPartialRenderMemoryBarrier;
-@property(readonly, nonatomic) _Bool supportsPerPlaneCompression;
-@property(readonly, nonatomic) _Bool supportsPerformanceStateAssertion;
-@property(readonly, nonatomic) _Bool supportsPipelineLibraries;
-@property(readonly, nonatomic) _Bool supportsPlacementHeaps;
-@property(readonly, nonatomic) _Bool supportsPostDepthCoverage;
-@property(readonly, nonatomic) _Bool supportsPrimitiveMotionBlur;
-@property(readonly, nonatomic) _Bool supportsPrimitiveRestartOverride;
-@property(readonly, nonatomic) _Bool supportsProgrammableBlending;
-@property(readonly, nonatomic) _Bool supportsProgrammableSamplePositions;
-@property(readonly, nonatomic) _Bool supportsPublicXR10Formats;
-@property(readonly, nonatomic) _Bool supportsPullModelInterpolation;
-@property(readonly, nonatomic) _Bool supportsQuadGroup;
-@property(readonly, nonatomic) _Bool supportsQuadReduction;
-@property(readonly, nonatomic) _Bool supportsQuadShufflesAndBroadcast;
-@property(readonly, nonatomic) _Bool supportsQueryTextureLOD;
-@property(readonly, nonatomic) _Bool supportsRGBA10A2Gamma;
-@property(readonly, nonatomic) _Bool supportsRTZRounding;
-@property(readonly, nonatomic) _Bool supportsRasterOrderGroups;
-@property(readonly, nonatomic) _Bool supportsRasterOrderGroupsColorAttachment;
-@property(readonly, nonatomic) _Bool supportsRayTracingAccelerationStructureCPUDeserialization;
-@property(readonly, nonatomic) _Bool supportsRayTracingBuffersFromTables;
-@property(readonly, nonatomic) _Bool supportsRayTracingCurves;
-@property(readonly, nonatomic) _Bool supportsRayTracingDirectIntersectionResultAccess;
-@property(readonly, nonatomic) _Bool supportsRayTracingExtendedVertexFormats;
-@property(readonly, nonatomic) _Bool supportsRayTracingGPUTableUpdateBuffers;
-@property(readonly, nonatomic) _Bool supportsRayTracingICBs;
-@property(readonly, nonatomic) _Bool supportsRayTracingIndirectInstanceAccelerationStructureBuild;
-@property(readonly, nonatomic) _Bool supportsRayTracingMatrixLayout;
-@property(readonly, nonatomic) _Bool supportsRayTracingMultiLevelInstancing;
-@property(readonly, nonatomic) _Bool supportsRayTracingPerComponentMotionInterpolation;
-@property(readonly, nonatomic) _Bool supportsRayTracingPerPrimitiveData;
-@property(readonly, nonatomic) _Bool supportsRayTracingTraversalMetrics;
-@property(readonly, nonatomic) _Bool supportsRaytracingFromRender;
-@property(readonly, nonatomic) _Bool supportsReadWriteBufferArguments;
-@property(readonly, nonatomic) _Bool supportsReadWriteTextureArguments;
-@property(readonly, nonatomic) _Bool supportsReadWriteTextureArgumentsTier2;
-@property(readonly, nonatomic) _Bool supportsReadWriteTextureCubeArguments;
-@property(readonly, nonatomic) _Bool supportsRelaxedTextureViewRequirements;
-@property(readonly, nonatomic) _Bool supportsRenderDynamicLibraries;
-@property(readonly, nonatomic) _Bool supportsRenderMemoryBarrier;
-@property(readonly, nonatomic) _Bool supportsRenderPassWithoutRenderTarget;
-@property(readonly, nonatomic) _Bool supportsRenderTargetTextureRotation;
-@property(readonly, nonatomic) _Bool supportsRenderTextureWrites;
-@property(readonly, nonatomic) _Bool supportsRenderToLinearTextures;
-@property(readonly, nonatomic) _Bool supportsResourceDetachBacking;
-@property(readonly, nonatomic) _Bool supportsResourceHeaps;
-@property(readonly, nonatomic) _Bool supportsSIMDGroup;
-@property(readonly, nonatomic) _Bool supportsSIMDGroupMatrix;
-@property(readonly, nonatomic) _Bool supportsSIMDReduction;
-@property(readonly, nonatomic) _Bool supportsSIMDShuffleAndFill;
-@property(readonly, nonatomic) _Bool supportsSIMDShufflesAndBroadcast;
-@property(readonly, nonatomic) _Bool supportsSRGBwrites;
-@property(readonly, nonatomic) _Bool supportsSamplerAddressModeClampToHalfBorder;
-@property(readonly, nonatomic) _Bool supportsSamplerCompareFunction;
-@property(readonly, nonatomic) _Bool supportsSamplerReductionMode;
-@property(readonly, nonatomic) _Bool supportsSeparateDepthStencil;
-@property(readonly, nonatomic) _Bool supportsSeparateVisibilityAndShadingRate;
-@property(readonly, nonatomic) _Bool supportsSetThreadgroupPackingDisabled;
-@property(readonly, nonatomic) _Bool supportsShaderBarycentricCoordinates;
-@property(readonly, nonatomic) _Bool supportsShaderLODAverage;
-@property(readonly, nonatomic) _Bool supportsShaderMinLODClamp;
-@property(readonly, nonatomic) _Bool supportsSharedFunctionTables;
-@property(readonly, nonatomic) _Bool supportsSharedStorageHeapResources;
-@property(readonly, nonatomic) _Bool supportsSharedStorageTextures;
-@property(readonly, nonatomic) _Bool supportsSharedTextureHandles;
-@property(readonly, nonatomic) _Bool supportsSparseDepthAttachments;
-@property(readonly, nonatomic) _Bool supportsSparseHeaps;
-@property(readonly, nonatomic) _Bool supportsSparseTextures;
-@property(readonly, nonatomic) _Bool supportsStackOverflowErrorCode;
-@property(readonly, nonatomic) _Bool supportsStatefulDynamicLibraries;
-@property(readonly, nonatomic) _Bool supportsStencilFeedback;
-@property(readonly, nonatomic) _Bool supportsStreamingCodecSignaling;
-@property(readonly, nonatomic) _Bool supportsTLS;
-@property(readonly, nonatomic) _Bool supportsTensors;
-@property(readonly, nonatomic) _Bool supportsTessellation;
-@property(readonly, nonatomic) _Bool supportsTexture2DMultisampleArray;
-@property(readonly, nonatomic) _Bool supportsTextureAccessPatterns;
-@property(readonly, nonatomic) _Bool supportsTextureCubeArray;
-@property(readonly, nonatomic) _Bool supportsTextureOutOfBoundsReads;
-@property(readonly, nonatomic) _Bool supportsTextureSwizzle;
-@property(readonly, nonatomic) _Bool supportsTileShaders;
-@property(readonly, nonatomic) _Bool supportsUnalignedVertexFetch;
-@property(readonly, nonatomic) _Bool supportsVariableRateRasterization;
-@property(readonly, nonatomic) _Bool supportsVertexAmplification;
-@property(readonly, nonatomic) _Bool supportsViewportAndScissorArray;
-@property(readonly, nonatomic) _Bool supportsVirtualSubstreams;
-@property(readonly, nonatomic) _Bool supportsWritableArrayOfTextures;
-@property(readonly, nonatomic) _Bool supportsYCBCRFormats;
-@property(readonly, nonatomic) _Bool supportsYCBCRFormats12;
-@property(readonly, nonatomic) _Bool supportsYCBCRFormatsPQ;
-@property(readonly, nonatomic) _Bool supportsYCBCRFormatsXR;
-@property(readonly, nonatomic) _Bool supportsYCBCRPackedFormats12;
-@property(readonly, nonatomic) _Bool supportsYCBCRPackedFormatsPQ;
-@property(readonly, nonatomic) _Bool supportsYCBCRPackedFormatsXR;
-@property(readonly, getter=isSystemDefaultDevice) _Bool systemDefaultDevice;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisSystemDefaultDevice
-
-@property(readonly) MTLTargetDeviceArchitecture *targetDeviceArchitecture;
-@property(readonly) const struct MTLTargetDeviceArch *targetDeviceInfo;
-@property(getter=areWritableHeapsEnabled, setter=setWritableHeapsEnabled:) _Bool writableHeapsEnabled;
 @end
 

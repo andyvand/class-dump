@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _SFPBSafariTableOfContentsCardSection
 {
     int _tableOfContentsType;
-    int _tableOfContentsSource;
-    NSArray *_tableOfContentsItems;
-    NSString *_algorithmVersion;
 }
 
 - (int);
@@ -20,35 +15,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
+- (void);
 - (void);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)searchRecentSearchesFilePath;
+- (id)matePhotosCount;
+- (id)rified person:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)sualElementCardSection";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *algorithmVersion; // @synthesize algorithmVersion=_algorithmVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *tableOfContentsItems; // @synthesize tableOfContentsItems=_tableOfContentsItems;
-@property(nonatomic) int tableOfContentsSource; // @synthesize tableOfContentsSource=_tableOfContentsSource;
 @property(nonatomic) int tableOfContentsType; // @synthesize tableOfContentsType=_tableOfContentsType;
 
 @end

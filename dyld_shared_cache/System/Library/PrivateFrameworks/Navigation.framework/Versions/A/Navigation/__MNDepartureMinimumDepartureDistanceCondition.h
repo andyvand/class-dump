@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDepartureUpdater, NSArray, NSString;
+@class MNDepartureUpdater, NSString;
 
 __attribute__((visibility("hidden")))
 @interface __MNDepartureMinimumDepartureDistanceCondition
 {
     MNDepartureUpdater *_updater;
-    NSArray *_arrivalPoints;
-    double _closestDistanceToWaypoint;
-    double _threshold;
 }
 
-- (double);
+- (double);;
 - (id);
 - (id);
 - (id);

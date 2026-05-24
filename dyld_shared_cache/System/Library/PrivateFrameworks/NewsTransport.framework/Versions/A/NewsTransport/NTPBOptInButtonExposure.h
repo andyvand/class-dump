@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface NTPBOptInButtonExposure
 {
     NSData *_groupViewExposureId;
-    int _optInButtonLocation;
-    NSString *_optInButtonLocationId;
-    int _optInButtonType;
-    struct {
-        unsigned int optInButtonLocation:1;
-        unsigned int optInButtonType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (id);
+- (void)enableEventsCellCollageStyle;
+- (void)enableEmptyYearsMonthsDaysForTesting;
+- (void)enableEmbeddingSearch;
+- (void)dayInterval;
+- (void)dateWithTimeIntervalSinceReferenceDate:(_Bool)arg1;
+- (void)copyItemAtURL:(id)arg1 toURL:error: /* Error: Ran out of types for this method. */;
+- (id)collectAnalyticsForFixationWithAppleMusicAsset:configuration: /* Error: Ran out of types for this method. */;
+- (int)collectAnalyticsForExportEndWithConfiguration:analyticsToken:model:withSuccess:error: /* Error: Ran out of types for this method. */;
+- (_Bool)beginSheetModalForWindow: /* Error: Ran out of types for this method. */;
+- (_Bool)beginSheetModalForContainerViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)beginSheetModalForContainerViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)attachToPlayerLayerIfNeeded: /* Error: Ran out of types for this method. */;
+- (id)anchorMemoryOrigin;
+- (int)_zPositionsByClipIdentifier;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ck_invoke;
 - (_Bool);
 - (id);
 - (id);
-- (void)2: /* Error: Ran out of types for this method. */;
+- (void)setHasGroupingBoolParam2: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *groupViewExposureId; // @synthesize groupViewExposureId=_groupViewExposureId;
-@property(readonly, nonatomic) _Bool hasGroupViewExposureId;
-@property(nonatomic) _Bool hasOptInButtonLocation;
-@property(readonly, nonatomic) _Bool hasOptInButtonLocationId;
 @property(nonatomic) _Bool hasOptInButtonType;
-@property(nonatomic) int optInButtonLocation; // @synthesize optInButtonLocation=_optInButtonLocation;
-@property(retain, nonatomic) NSString *optInButtonLocationId; // @synthesize optInButtonLocationId=_optInButtonLocationId;
-@property(nonatomic) int optInButtonType; // @synthesize optInButtonType=_optInButtonType;
 
 @end
 

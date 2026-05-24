@@ -7,10 +7,6 @@
 @interface NewsUI2.PuzzleHubOfflineFeedBuilder
 {
     id resolver;
-    id featureAvailability;
-    id appConfigManager;
-    id feedAvailabilityService;
-    id offlineFeedDatabase;
 }
 
 @end

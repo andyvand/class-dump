@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PKMetalBuffer;
 @protocol MTLDevice;
 
 @interface PKMetalResourceHandlerBuffer
 {
     id <MTLDevice> _device;
-    PKMetalBuffer *_buffer;
-    unsigned long long _currentOffset;
-    unsigned long long _bufferSize;
-    unsigned long long _options;
-    _Bool _purgeable;
-    NSMutableArray *_reusableBuffers;
 }
 
 - (id);

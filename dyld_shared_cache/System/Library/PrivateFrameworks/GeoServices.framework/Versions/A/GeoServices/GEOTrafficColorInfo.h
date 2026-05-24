@@ -9,37 +9,35 @@
 @interface GEOTrafficColorInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_trafficColorAndOffsets;
 }
 
 + (Class);
-+ (_Bool)RawCity:(id)arg1;
++ (_Bool)setMerchantRawCity:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)actsAccountsService;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)mpleRate:(id)arg1 configVersion:keywordThresholdHS:keywordThresholdJS:tdSpeakerRecognizerCombinedThresholdHS:tdSpeakerRecognizerCombinedThresholdJS: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)voidStairs"b1"has_directionsWakeDevice"b1"has_eBike"b1"has_familiarRoutes"b1"has_findMyCarEnabled"b1"has_headingEnabled"b1"has_labelEnabled"b1"has_pauseSpokenAudioEnabled"b1"has_reportingIncidentsEnabled"b1"has_speedLimitEnabled"b1"has_trafficEnabled"b1"has_walkingAvoidBusyRoads"b1"has_walkingAvoidHills"b1"has_walkingAvoidStairs"b1};
-- (id)sTimeSinceMapViewportChangedSeconds;
-- (id)DataBatchReference;
-- (id)nner_buttons;
+- (id)hasTimeSinceMapViewportChangedSeconds;
+- (id)GEOPBOfflineDataBatchReference;
+- (id)supports_disabling_progress_bar_from_banner_buttons;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *trafficColorAndOffsets;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

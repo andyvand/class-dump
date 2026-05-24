@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeFilterViewModel
 {
     id _sections;
-    id _selection;
-    id _numberOfMatches;
-    id _horizontalSizeClass;
-    id _delegate;
-    id _$observationRegistrar;
 }
 
 @end

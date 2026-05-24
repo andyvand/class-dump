@@ -6,43 +6,20 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSCocoaMenuImpl, NSGlassView, NSMutableDictionary, NSString, NSTrackingArea, NSView;
+@class NSCocoaMenuImpl;
 @protocol NSContextMenuLifecycleProtocol;
 
 __attribute__((visibility("hidden")))
 @interface NSPopupMenuWindow : NSWindow
 {
     NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *_impl;
-    NSTrackingArea *_enteredExitedTrackingArea;
-    NSView *_parentItem;
-    struct CGPoint _frameOffset;
-    struct CGPoint _positioningOffset;
-    struct CGRect _parentItemBounds;
-    double _windowTopLimitOverride;
-    long long _presentationType;
-    double _calloutOffset;
-    long long _calloutLocation;
-    NSMutableDictionary *_potentialFirstResponders;
-    NSGlassView *_glassView;
-    _Bool _didSetFirstResponder;
-    _Bool _prefersRepositioningWithOffset;
-    _Bool _ignoresMulticolorAccent;
-    _Bool _isDismissalCanceled;
-    _Bool _blocksInputContext;
-    _Bool _hasUnhandledKey;
-    _Bool _finishedOrdering;
-    _Bool _wantsOrderFrontAnimation;
-    _Bool _wasKeyWindow;
-    _Bool _isWindowClosing;
-    _Bool _keyOverride;
-    _Bool _isFullScreenAuxiliary;
 }
 
 + (id);
-+ (Class);
++ (Class)0;
 + (void);
-+ (double);
-+ (id);
++ (double)ConnectionProtocolRemoveInputHandler;
++ (id)@;
 - (long long);
 - (void);
 - (unsigned long long);
@@ -51,19 +28,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)N~;
 - (id);
+- (void)UID cache;
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,85 +51,71 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (void);
-- (struct CGRect);
+- (struct CGRect)eak_count}};
+- (void)on"48;
+- (_Bool)set_overridesBackgroundSessionAutoRedirect: /* Error: Ran out of types for this method. */;
+- (id)initWithData: /* Error: Ran out of types for this method. */;
+- (double)decodeBoolForKey:(struct CGRect)arg1;
+- (_Bool)_expensive;
+- (_Bool)_didReceiveResponseDisposition;
+- (id)_darkWakePowerAssertion;
+- (id)workAccess;
+- (_Bool)nationURL;
+- (_Bool)V_sessionDescription_ivar;
 - (void);
+- (void);
+- (void);
+- (id)tW6;
+- (struct CGRect);
+- (_Bool)as no response;
+- (void)client bypassing proxies on TCP Conn [%llu:(_Bool)arg1 %p];
+- (void)xySession <%{public}@> connection to background transfer daemon interrupted;
+- (void)nection %llu:(id)arg1 received failure notification;
+- (struct CGRect);
+- (unsigned long long);
 - (_Bool);
-- (id);
 - (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (unsigned long long);
-- (_Bool);
-- (double);
 - (double);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)_delegate_willCacheResponse;
+- (_Bool)ent@%p>{ info = %p };
+- (_Bool)1.1;
+- (_Bool)se-ERROR:bind of 0 partition value for item:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)not be found.;
+- (_Bool)r.;
+- (_Bool)a secure tunnel through the web proxy server.;
+- (_Bool)NSURLDownloadMacBinaryResourceForkLength;
+- (_Bool).%@;
+- (_Bool)CFURLDataDecoder;
+- (struct CGRect)zzz)z8z&&**,,;;XXZZL;
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (struct CGRect);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)g;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)4z§ÿõv;
 - (_Bool)¶ÿ3ÇhöC;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *associatedImpl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect frame;
-@property(readonly) NSGlassView *glassView; // @synthesize glassView=_glassView;
-@property(readonly) unsigned long long hash;
-@property(setter=setIgnoresMulticolorAccent:) _Bool ignoresMulticolorAccent;
-@property(readonly) _Bool isDelayingPresentation;
-@property(nonatomic) _Bool isFullScreenAuxiliary; // @synthesize isFullScreenAuxiliary=_isFullScreenAuxiliary;
-@property(nonatomic) _Bool isWindowClosing; // @synthesize isWindowClosing=_isWindowClosing;
 @property(nonatomic) _Bool keyOverride; // @synthesize keyOverride=_keyOverride;
-@property(readonly) Class superclass;
 
 @end
 

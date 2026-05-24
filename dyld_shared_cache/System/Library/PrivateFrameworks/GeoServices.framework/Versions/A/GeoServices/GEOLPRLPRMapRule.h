@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRLicensePlateStructure, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLPRMapRule
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _plateTypeIndexes;
-    GEOLPRLicensePlateStructure *_mrLicensePlateStructure;
-    NSMutableArray *_targetChars;
-    NSMutableArray *_valueMappings;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_plateTypeIndexes:1;
-        unsigned int read_mrLicensePlateStructure:1;
-        unsigned int read_targetChars:1;
-        unsigned int read_valueMappings:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setHasScore:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -41,39 +27,34 @@
 - (unsigned int);
 - (unsigned int *);
 - (id);
-- (_Bool);
+- (_Bool)[2i]}IIII[16c][1024c][1024c]I[7I]}24;
+- (void)?,R,C,N,V_synchronousSerialSchedulerProvider;
+- (void)",R,C,N,V_label;
+- (void)s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Province;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@?@"NSError">48;
+- (id)eChanged:shouldDisableSpeakerVerificationInSplitterMode:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)9;
 - (void);
-- (id)hIsHandoff:(struct _NSZone *)arg1;
-- (id)ransitAppLaunch;
+- (id)setMapLaunchIsHandoff:(struct _NSZone *)arg1;
+- (id)GEOLogMsgEventTransitAppLaunch;
 - (id)ing route for ride change;
 - (id);
 - (void)à4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMrLicensePlateStructure;
-@property(retain, nonatomic) GEOLPRLicensePlateStructure *mrLicensePlateStructure;
-@property(readonly, nonatomic) unsigned int *plateTypeIndexes;
-@property(readonly, nonatomic) unsigned long long plateTypeIndexesCount;
-@property(retain, nonatomic) NSMutableArray *targetChars;
-@property(retain, nonatomic) NSMutableArray *valueMappings;
 
 @end
 

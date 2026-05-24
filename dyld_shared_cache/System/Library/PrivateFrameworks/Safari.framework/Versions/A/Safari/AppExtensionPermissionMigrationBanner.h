@@ -6,14 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class NSArray, NSImageView, NSTextField;
+@class NSArray, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AppExtensionPermissionMigrationBanner : Banner
 {
     NSArray *_migratedExtensionComposedIdentifiers;
-    NSTextField *_descriptionLabel;
-    NSImageView *_extensionsPuzzlePieceImageView;
 }
 
 - (_Bool);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -30,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(nonatomic) __weak NSImageView *extensionsPuzzlePieceImageView; // @synthesize extensionsPuzzlePieceImageView=_extensionsPuzzlePieceImageView;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceSettingsViewController
 {
     id _name;
-    id _layoutOrder;
-    id _wildcardSlotFallback;
-    id _showMissingOptionBindings;
-    id editor;
-    id workspace;
-    id settingsViewController;
 }
 
 - (id);

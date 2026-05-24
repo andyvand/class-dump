@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)isCellularInterfaceDisallowed;
 - (void)estAmount:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties

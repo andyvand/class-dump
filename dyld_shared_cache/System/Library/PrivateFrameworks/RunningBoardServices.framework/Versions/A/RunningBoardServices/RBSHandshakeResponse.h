@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RBSProcessHandle;
+@class RBSProcessHandle;
 
 @interface RBSHandshakeResponse
 {
     RBSProcessHandle *_handle;
-    NSDictionary *_assertionIdentifiersByOldIdentifier;
-    NSDictionary *_assertionErrorsByOldIdentifier;
-    NSDictionary *_managedEndpointByLaunchIdentifier;
 }
 
 + (_Bool);
@@ -21,25 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)";
+- (void)(;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assertionErrorsByOldIdentifier; // @synthesize assertionErrorsByOldIdentifier=_assertionErrorsByOldIdentifier;
-@property(retain, nonatomic) NSDictionary *assertionIdentifiersByOldIdentifier; // @synthesize assertionIdentifiersByOldIdentifier=_assertionIdentifiersByOldIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) RBSProcessHandle *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *managedEndpointByLaunchIdentifier; // @synthesize managedEndpointByLaunchIdentifier=_managedEndpointByLaunchIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

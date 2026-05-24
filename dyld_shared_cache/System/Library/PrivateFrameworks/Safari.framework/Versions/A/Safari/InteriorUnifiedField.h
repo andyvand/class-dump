@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)italics;
 - (void)è;
 
 @end

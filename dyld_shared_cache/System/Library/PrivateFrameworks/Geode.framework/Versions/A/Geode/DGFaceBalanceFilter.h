@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGFaceBalanceFilter
 {
     CIImage *inputImage;
-    NSNumber *inputFaceColorIComp;
-    NSNumber *inputFaceColorQComp;
-    NSNumber *inputStrength;
-    NSNumber *inputWarmth;
-    NSNumber *useProPhoto;
 }
 
 + (double);
-+ (id);
++ (id)";
 + (void)¬³;
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (id);

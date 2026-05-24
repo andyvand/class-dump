@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_arrangedSubviews;
 }
 
+- (void)FuR7SfqQmxpRW5MyqMm7FQ;
 - (void);
+- (void)Could not create a mutable CFString;
+- (void)bridgeOS;
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ueSaturationValueGradient;
+- (void)CIHueSaturationValueGradient;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *arrangedSubviews;

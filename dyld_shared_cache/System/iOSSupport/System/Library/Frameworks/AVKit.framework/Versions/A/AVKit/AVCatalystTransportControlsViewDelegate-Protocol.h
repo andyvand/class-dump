@@ -5,5 +5,8 @@
 //
 
 @protocol AVCatalystTransportControlsViewDelegate
+- (void);
+- (void)FL.G;
+- (void)G;
 @end
 

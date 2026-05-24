@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData;
+@class NSMutableData;
 
 @interface PMLDenseVector
 {
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (float);
-- (id);
+- (id)ribeDetector:(id)arg1 unreadCount:unseenCount:alwaysUseNewestItems: /* Error: Ran out of types for this method. */;
 - (float);
 - (id);
 - (void);
@@ -29,7 +29,7 @@
 - (float);
 - (id);
 - (id);
-- (id);
+- (id),;
 - (const float *);
 - (id);
 - (unsigned long long);
@@ -38,8 +38,6 @@
 - (float)tiveLabel:skew:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSData *data;
 @property(readonly, nonatomic) const float *ptr;
 
 @end

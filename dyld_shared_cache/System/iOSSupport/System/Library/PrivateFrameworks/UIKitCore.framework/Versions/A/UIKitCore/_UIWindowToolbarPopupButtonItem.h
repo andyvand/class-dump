@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIWindowToolbarItem.h>
 
-@class NSString, _UIMenuBarMenu;
+@class NSString;
 
 @interface _UIWindowToolbarPopupButtonItem : _UIWindowToolbarItem
 {
@@ -14,24 +14,19 @@
 
 - (_Bool);
 - (void);
-- (void);
+- (void)loadFloatFromDictionary:(_Bool)arg1 withKey:isRequired:defaultValue:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (void)uttingView:(id)arg1 isTopHeader: /* Error: Ran out of types for this method. */;
+- (void)_sizeThatFits:(id)arg1 stripPaddingForAbuttingView:isTopHeader: /* Error: Ran out of types for this method. */;
 - (id)rsed;
-- (void)itP33_FDF62CE22547DB2BF49759240B89F9C129_UISharedTextureContainerView;
+- (void)_TtC5UIKitP33_FDF62CE22547DB2BF49759240B89F9C129_UISharedTextureContainerView;
 - (void)versionSegments;
 - (id)Value must be greater than zero or UITableViewAutomaticDimension.;
 - (void)re are no items;
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *imageName;
-@property(copy, nonatomic) NSString *label;
-@property(retain, nonatomic) _UIMenuBarMenu *menu;
-@property(nonatomic) _Bool showsArrow;
 @property(copy, nonatomic) NSString *title;
 
 @end

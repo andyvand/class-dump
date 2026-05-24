@@ -14,12 +14,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long)Version;
+- (long long)incomingTransitionedListVersion;
 
 // Remaining properties
-@property(nonatomic, readonly) long long count;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_count;
 
 @end
 

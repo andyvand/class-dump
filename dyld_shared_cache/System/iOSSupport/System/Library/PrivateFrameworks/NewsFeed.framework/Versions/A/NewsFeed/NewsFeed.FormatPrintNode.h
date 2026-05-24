@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatPrintNode
 {
     id _identifier;
-    id message;
-    id _values;
 }
 
 @end

@@ -7,7 +7,6 @@
 @interface SIRINLUReferenceContext
 {
     _Bool _contextualReference;
-    _Bool _disambiguationNeeded;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool contextualReference; // @synthesize contextualReference=_contextualReference;
-@property(nonatomic) _Bool disambiguationNeeded; // @synthesize disambiguationNeeded=_disambiguationNeeded;
 
 @end
 

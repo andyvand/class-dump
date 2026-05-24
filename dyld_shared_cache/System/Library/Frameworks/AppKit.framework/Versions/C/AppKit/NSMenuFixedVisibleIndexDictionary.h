@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface NSMenuFixedVisibleIndexDictionary
 {
     id visibleIndexProvider;
-    id menuIndexProvider;
 }
 
 - (long long);
-- (long long);
+- (long long)Extractor which finished decoding for task %@, but we received more bytes.  Dropping %lu bytes.;
 - (id);
 - (id);
 - (void)ÈâÿJ}E;

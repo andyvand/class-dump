@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SOAPEnvelope
 {
     NSArray *_Header;
-    NSArray *_Body;
 }
 
 + (id);
@@ -21,15 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Body; // @synthesize Body=_Body;
 @property(copy, nonatomic) NSArray *Header; // @synthesize Header=_Header;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

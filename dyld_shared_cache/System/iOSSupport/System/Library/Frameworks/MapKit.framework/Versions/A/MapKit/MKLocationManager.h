@@ -4,65 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLHeading, CLLocation, GEOLocation, GEOLocationShifter, NSBundle, NSError, NSHashTable, NSLock, NSMutableArray, NSObject, NSString, NSTimer, _MKWiFiObserver, geo_isolater;
-@protocol MKLocationProvider, MNLocationRecorder, OS_dispatch_group;
+@protocol MKLocationProvider;
 
 @interface MKLocationManager
 {
     id <MKLocationProvider> _locationProvider;
-    NSHashTable *_locationObservers;
-    NSHashTable *_locationListeners;
-    NSHashTable *_headingObservers;
-    NSHashTable *_visitObservers;
-    CLLocation *_lastLocation;
-    CLLocation *_lastGoodLocation;
-    double _lastLocationUpdateTime;
-    _Bool _isLastLocationStale;
-    _Bool _lastLocationPushed;
-    _Bool _trackingLocation;
-    _Bool _trackingHeading;
-    _Bool _monitoringVisits;
-    id <MNLocationRecorder> _locationRecorder;
-    double _applicationResumeTime;
-    double _applicationSuspendTime;
-    double _headingUpdateTime;
-    double _locationAccuracyUpdateTime;
-    double _locationUpdateStartTime;
-    _Bool _isReceivingAccurateLocations;
-    NSMutableArray *_waitForAccurateLocationsHandlers;
-    NSTimer *_waitForAccurateLocationsTimer;
-    double _lastLocationReportTime;
-    GEOLocationShifter *_locationShifter;
-    CLHeading *_throttledHeading;
-    CLHeading *_heading;
-    NSTimer *_headingThrottlingTimer;
-    CDUnknownBlockType _networkActivity;
-    _Bool _enabled;
-    _Bool _useCourseForHeading;
-    double _lastVehicleHeading;
-    double _lastVehicleSpeed;
-    double _lastVehicleHeadingUpdateTime;
-    double _lastVehicleSpeedUpdateTime;
-    int _consecutiveOutOfCourseCount;
-    double _navCourse;
-    CDUnknownBlockType _locationCorrector;
-    double _minimumLocationUpdateInterval;
-    _Bool _continuedAfterBecomingInactive;
-    _Bool _suspended;
-    NSMutableArray *_recentLocationUpdateIntervals;
-    NSLock *_lastLocationLock;
-    NSLock *_observersLock;
-    NSLock *_visitObserversLock;
-    int _accuracyAuthorizationState;
-    _Bool _temporaryPreciseLocationAuthorizationPromptShown;
-    geo_isolater *_accuracyAuthorizationIsolater;
-    struct GEOOnce_s _initializedAuthorizationStatus;
-    NSObject<OS_dispatch_group> *_authStatusInitializationGroup;
-    _MKWiFiObserver *_wifiObserver;
-    _Bool _hasCustomDesiredAccuracy;
-    _Bool _continuesWhileInactive;
-    _Bool _logStartStopLocationUpdates;
-    NSError *_locationError;
 }
 
 + (id);
@@ -94,16 +40,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9	!A9?;
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -122,24 +68,24 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)_;
+- (void);
+- (void);
+- (void);
+- (_Bool)qA;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
@@ -148,7 +94,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P׿;
 - (void);
 - (void);
 - (void);
@@ -168,10 +114,10 @@
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)registerEvent:eventType:messageGUID:chat:forImages:childID:deviceID:senderID:eventSender: /* Error: Ran out of types for this method. */;
+- (void)interaction;
 - (_Bool);
 - (void);
 - (void);
@@ -185,9 +131,9 @@
 - (void);
 - (id)°1Â0@ù
 × ;
-- (double)SimulateLocation;
-- (void)on: /* Error: Ran out of types for this method. */;
-- (void)oreGuidesView;
+- (double)showSimulateLocation;
+- (void)_setTappedQuerySuggestionCompletion: /* Error: Ran out of types for this method. */;
+- (void)_exploreGuidesView;
 - (_Bool)TB,N,G_showingPreciseAuthorizedLocation,S_setShowingPreciseAuthorizedLocation:,V_showingPreciseAuthorizedLocation /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
@@ -196,55 +142,7 @@
 - (void)³;
 
 // Remaining properties
-@property(nonatomic) _Bool continuesWhileInactive; // @synthesize continuesWhileInactive=_continuesWhileInactive;
-@property(readonly, nonatomic) GEOLocation *courseCorrectedLocation;
-@property(readonly, nonatomic) GEOLocation *currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double desiredAccuracy;
-@property(nonatomic) double distanceFilter;
-@property(retain, nonatomic) NSBundle *effectiveBundle;
-@property(copy, nonatomic) NSString *effectiveBundleIdentifier;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(nonatomic) _Bool fusionInfoEnabled;
-@property(readonly, nonatomic) GEOLocation *gridSnappedCurrentLocation;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CLHeading *heading; // @synthesize heading=_heading;
-@property(readonly, nonatomic) double headingUpdateTimeInterval;
-@property(readonly, nonatomic) _Bool isAuthorizationNotDetermined;
-@property(readonly, nonatomic) _Bool isAuthorizedForPreciseLocation;
-@property(readonly, nonatomic) _Bool isHeadingServicesAvailable;
-@property(readonly, nonatomic) _Bool isLastLocationStale; // @synthesize isLastLocationStale=_isLastLocationStale;
-@property(readonly, nonatomic) _Bool isLocationServicesApproved;
-@property(readonly, nonatomic) _Bool isLocationServicesAvailable;
-@property(readonly, nonatomic) _Bool isLocationServicesDenied;
-@property(readonly, nonatomic) _Bool isLocationServicesEnabled;
-@property(readonly, nonatomic) _Bool isLocationServicesPossiblyAvailable;
-@property(readonly, nonatomic) _Bool isLocationServicesRestricted;
-@property(readonly, nonatomic) _Bool isTemporaryPreciseLocationAuthorizationPromptShown;
-@property(readonly, nonatomic) CLLocation *lastGoodLocation; // @synthesize lastGoodLocation=_lastGoodLocation;
-@property(readonly, nonatomic) CLLocation *lastLocation;
-@property(readonly, nonatomic, getter=wasLastLocationPushed) _Bool lastLocationPushed; // @synthesize lastLocationPushed=_lastLocationPushed;
-@property(readonly, nonatomic) CLLocation *lastProviderLocation;
-@property(copy, nonatomic) CDUnknownBlockType locationCorrector; // @synthesize locationCorrector=_locationCorrector;
-@property(readonly, nonatomic) NSError *locationError; // @synthesize locationError=_locationError;
 @property(retain, nonatomic) id <MKLocationProvider> locationProvider;
-@property(retain, nonatomic) id <MNLocationRecorder> locationRecorder; // @synthesize locationRecorder=_locationRecorder;
-@property(readonly, nonatomic, getter=isLocationServicesAuthorizationNeeded) _Bool locationServicesAuthorizationNeeded;
-@property(nonatomic) _Bool logStartStopLocationUpdates; // @synthesize logStartStopLocationUpdates=_logStartStopLocationUpdates;
-@property(nonatomic) _Bool matchInfoEnabled;
-@property(nonatomic) double minimumLocationUpdateInterval; // @synthesize minimumLocationUpdateInterval=_minimumLocationUpdateInterval;
-@property(readonly, nonatomic) double navigationCourse; // @synthesize navigationCourse=_navCourse;
-@property(copy, nonatomic) CDUnknownBlockType networkActivity; // @synthesize networkActivity=_networkActivity;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CLHeading *throttledHeading; // @synthesize throttledHeading=_throttledHeading;
-@property(readonly, nonatomic) double timeScale;
-@property(nonatomic) _Bool useCourseForHeading; // @synthesize useCourseForHeading=_useCourseForHeading;
 
 @end
 

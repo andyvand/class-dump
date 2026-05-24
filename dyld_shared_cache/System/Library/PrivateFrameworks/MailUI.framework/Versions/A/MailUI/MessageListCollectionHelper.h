@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface MessageListCollectionHelper
 {
     struct os_unfair_lock_s pendingReadCancelableLock;
-    NSString *_section;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    long long _destructiveActionConversationID;
-    NSObject<OS_os_log> *_clientLog;
-    NSMutableDictionary *_pendingReadTimeoutCancelables;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)E;
 - (id);
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -36,21 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setIsFilter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_os_log> *clientLog; // @synthesize clientLog=_clientLog;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long destructiveActionConversationID; // @synthesize destructiveActionConversationID=_destructiveActionConversationID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *pendingReadTimeoutCancelables; // @synthesize pendingReadTimeoutCancelables=_pendingReadTimeoutCancelables;
-@property(readonly, copy, nonatomic) NSString *section; // @synthesize section=_section;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *updateQueue; // @synthesize updateQueue=_updateQueue;
 
 @end
 

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CTLazuliMessageComposingIndicator
 {
     _Bool _active;
-    NSNumber *_refreshTime;
-    NSString *_lastActive;
-    NSString *_contentType;
 }
 
-+ (_Bool);
++ (_Bool)tion:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)ASmartCardOneTimePassword",N,R,VoneTimePassword;
 - (id);
 - (id);
 - (void)&Ð!l@ùª)°1Â0@ù
@@ -34,9 +31,6 @@
 - (_Bool)Ô;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(retain, nonatomic) NSString *lastActive; // @synthesize lastActive=_lastActive;
 @property(retain, nonatomic) NSNumber *refreshTime; // @synthesize refreshTime=_refreshTime;
 
 @end

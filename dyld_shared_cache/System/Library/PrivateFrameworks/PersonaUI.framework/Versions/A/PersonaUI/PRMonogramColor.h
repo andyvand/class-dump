@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSColor, NSString;
+@class NSColor, NSString;
 
 @interface PRMonogramColor
 {
     NSString *_colorName;
-    NSColor *_color;
-    NSColor *_gradientStartColor;
-    NSColor *_gradientEndColor;
-    NSColor *_selectedActiveColor;
-    NSColor *_selectedInactiveColor;
-    NSColor *_selectedActiveTextColor;
-    NSBundle *_bundle;
 }
 
 + (id);
@@ -24,11 +17,11 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)k;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -36,15 +29,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)%;
 - (id);
 - (void);
 - (unsigned long long);
@@ -57,14 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
 @property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
-@property(retain, nonatomic) NSColor *gradientEndColor; // @synthesize gradientEndColor=_gradientEndColor;
-@property(retain, nonatomic) NSColor *gradientStartColor; // @synthesize gradientStartColor=_gradientStartColor;
-@property(retain, nonatomic) NSColor *selectedActiveColor; // @synthesize selectedActiveColor=_selectedActiveColor;
-@property(retain, nonatomic) NSColor *selectedActiveTextColor; // @synthesize selectedActiveTextColor=_selectedActiveTextColor;
-@property(retain, nonatomic) NSColor *selectedInactiveColor; // @synthesize selectedInactiveColor=_selectedInactiveColor;
 
 @end
 

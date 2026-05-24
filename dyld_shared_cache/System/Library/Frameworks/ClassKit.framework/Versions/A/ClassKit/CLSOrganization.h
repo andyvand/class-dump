@@ -6,32 +6,30 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CLSOrganization : CLSObject
 {
     NSString *_name;
-    long long _type;
-    NSArray *_locationIDs;
-    NSArray *_emailDomains;
-    NSString *_searchText;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)_defaultParameters;
+- (void)__DATA_CONST;
+- (void)ServicesProcessRequestDirect;
+- (id)L  
+;
+- (id)e %s:(id)arg1 (Count %ld, expected count %d), errno:(long long)arg2 %d
+;
+- (id)y allocation:prev_operations /* Error: Ran out of types for this method. */;
+- (void)Weight;
 - (id);
 - (id);
+- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@`;
 - (long long);
 - (void);
 - (void);
@@ -41,24 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *displayName;
-@property(readonly) NSString *emailAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(copy, nonatomic) NSArray *emailDomains; // @synthesize emailDomains=_emailDomains;
-@property(readonly) NSString *groupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(copy, nonatomic) NSArray *locationIDs; // @synthesize locationIDs=_locationIDs;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) NSPersonNameComponents *nameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R
-
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -13,7 +13,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ionary"32@"NSArray"40;
 - (id);
 
 @end

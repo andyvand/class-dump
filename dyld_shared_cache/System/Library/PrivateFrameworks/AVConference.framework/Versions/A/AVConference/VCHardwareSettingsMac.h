@@ -6,34 +6,14 @@
 
 #import <AVConference/VCHardwareSettings.h>
 
-@class NSArray, NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCHardwareSettingsMac : VCHardwareSettings
 {
     _Bool _hiDefEncoding;
-    _Bool _isGVAEncoderAvailableInitialized;
-    _Bool _isGVAEncoderAvailable;
-    int _machineType;
-    int _cpuFamily;
-    int _numProcessors;
-    int _mhrtz;
-    int _isG5;
-    int _hardwareScore;
-    NSString *_cpuType;
-    NSString *_machineName;
-    unsigned int _screenWidth;
-    unsigned int _screenHeight;
-    unsigned long long _maxScreenEncodingSizeSupported;
-    _Bool _supportsFilteredScreenCapture;
-    NSString *_modelName;
-    unsigned int _modelVersion;
-    unsigned int _modelRevision;
-    NSData *_boardId;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool){;
 + (long long)
 × ;
 + (id)s%s%s]
@@ -46,14 +26,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)	?ր;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)�v
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -78,14 +59,14 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)!;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -102,7 +83,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -121,65 +102,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int)seband=%d;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDoHEVC;
-@property(readonly, nonatomic) _Bool canDoHiDefDecoding;
-@property(readonly, nonatomic) _Bool canDoHiDefEncoding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int hardwareScore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int hwEncoderEnterBitrate;
-@property(readonly, nonatomic) unsigned int hwEncoderExitBitrate;
-@property(readonly, nonatomic) _Bool isCaptionsSupported;
-@property(readonly, nonatomic) _Bool isDeviceLargeScreen;
-@property(readonly, nonatomic) _Bool isExternalCameraSupported;
-@property(readonly, nonatomic) _Bool isIMac;
-@property(readonly, nonatomic) _Bool isMLEnhanceOneToOneSupported;
-@property(readonly, nonatomic) _Bool isMacBookWVGA;
-@property(readonly, nonatomic) _Bool isMacPro;
-@property(readonly, nonatomic) _Bool isMacmini;
-@property(readonly, nonatomic) _Bool isMediaRecordingSupported;
-@property(readonly, nonatomic) _Bool isPixelFormatAvailable;
-@property(readonly, nonatomic) _Bool isRemoteCameraSenderSupported;
-@property(readonly, nonatomic) _Bool isSiriVoicePlayoutSupported;
-@property(readonly, nonatomic) _Bool isSiriVoiceTapSupported;
-@property(readonly, nonatomic) _Bool isSmartBrakeSupported;
-@property(readonly, nonatomic) _Bool isSpatialAudioSupported;
-@property(readonly, nonatomic) _Bool isVCRateControlMLSupported;
-@property(readonly, nonatomic) _Bool isViewPointCorrectionSupported;
-@property(readonly, nonatomic) NSString *machineName;
-@property(readonly, nonatomic) unsigned int maxActiveScreenEncoders;
-@property(readonly, nonatomic) unsigned int maxActiveVideoDecoders;
-@property(readonly, nonatomic) unsigned int maxActiveVideoEncoders;
-@property(readonly, nonatomic) unsigned int maxDisplayRefreshRate;
-@property(readonly, nonatomic) unsigned int maxFrameRateSupportedScreenShare;
-@property(readonly, nonatomic) unsigned long long maxScreenEncodingSizeSupported;
-@property(readonly, nonatomic) unsigned int screenHeight;
-@property(readonly, nonatomic) long long screenShareCapabilities;
-@property(readonly, nonatomic) unsigned int screenWidth;
-@property(readonly, nonatomic) _Bool shouldEnableLowPowerMode;
-@property(readonly, nonatomic) _Bool shouldEnforceScreenFrameRateLimit;
 @property(readonly, nonatomic) _Bool shouldOverrideGPUMuxing;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportHEVC; // @dynamic supportHEVC;
-@property(readonly, nonatomic) NSArray *supportedVideoPayloads;
-@property(readonly, nonatomic) _Bool supports1080pDecoding;
-@property(readonly, nonatomic) _Bool supports1080pEncoding;
-@property(readonly, nonatomic) _Bool supportsAVFCapture;
-@property(readonly, nonatomic) _Bool supportsAlwaysHDCapture;
-@property(readonly, nonatomic) _Bool supportsCompressedPixelFormat;
-@property(readonly, nonatomic) _Bool supportsDecodingSquareCameraVideo;
-@property(readonly, nonatomic) _Bool supportsFoveation;
-@property(readonly, nonatomic) _Bool supportsHEIFEncoding;
-@property(readonly, nonatomic) _Bool supportsMultiway1080pStream;
-@property(readonly, nonatomic) _Bool supportsMultiway720pStream;
-@property(readonly, nonatomic) _Bool supportsOutOfProcessAudioDecoding;
-@property(readonly, nonatomic) _Bool supportsOutOfProcessVideoDecoding;
-@property(readonly, nonatomic) _Bool useSoftFramerateSwitching;
-@property(readonly, nonatomic) _Bool vcpSupportsHEVCEncoder; // @dynamic vcpSupportsHEVCEncoder;
 
 @end
 

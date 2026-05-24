@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStreamDatastoreReader, NSMutableDictionary;
+@class BMStreamDatastoreReader;
 
 @interface BMStorePublisherManagerProtectedState
 {
     BMStreamDatastoreReader *_localDatastore;
-    NSMutableDictionary *_remoteDatastores;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void)¨©ª«;
 
 // Remaining properties
 @property(retain, nonatomic) BMStreamDatastoreReader *localDatastore; // @synthesize localDatastore=_localDatastore;
-@property(retain, nonatomic) NSMutableDictionary *remoteDatastores; // @synthesize remoteDatastores=_remoteDatastores;
 
 @end
 

@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPIncidentAnnotationDetails, GEORPIncidentUserPath, GEORPNewIncidentDetails, GEORPSiriContext, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPIncidentFeedback
 {
     PBDataReader *_reader;
-    GEORPIncidentAnnotationDetails *_incidentAnnotationDetails;
-    GEORPNewIncidentDetails *_newIncidentDetails;
-    GEORPSiriContext *_siriContext;
-    GEORPIncidentUserPath *_userPath;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_incidentAnnotationDetails:1;
-        unsigned int read_newIncidentDetails:1;
-        unsigned int read_siriContext:1;
-        unsigned int read_userPath:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)eMatchedCoordinate:(id)arg1;
++ (_Bool)setLastRouteMatchedCoordinate:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,39 +27,30 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)voiceProfilePruningCookie;
+- (void)SOClockAlarmListening;
+- (void)ueue;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (id)"b1"wrote_anyField"b1};
-- (void)String;
-- (id);
-- (void)rtionsDescription;
-- (int)EOMapItemPhotoOptions;
+- (void)hasLastSearchString;
+- (id)categoryId;
+- (void)activeAssertionsDescription;
+- (int)GEOMapItemPhotoOptions;
 - (id)p;
-- (id)copedBrandInfo;
+- (id)scopedBrandInfo;
 - (id)ppleInternal/Library/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/extension_set.cc;
 - (id);
-- (_Bool)gle8protobuf8internal12ExtensionSet8KeyValueE;
+- (_Bool)N6google8protobuf8internal12ExtensionSet8KeyValueE;
 - (void)>ÂBA B\9{UQ@;
 - (void)/1éàN@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIncidentAnnotationDetails;
-@property(readonly, nonatomic) _Bool hasNewIncidentDetails;
-@property(readonly, nonatomic) _Bool hasSiriContext;
 @property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserPath;
-@property(retain, nonatomic) GEORPIncidentAnnotationDetails *incidentAnnotationDetails;
-@property(retain, nonatomic) GEORPNewIncidentDetails *newIncidentDetails;
-@property(retain, nonatomic) GEORPSiriContext *siriContext;
-@property(nonatomic) int type;
-@property(retain, nonatomic) GEORPIncidentUserPath *userPath;
 
 @end
 

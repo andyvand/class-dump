@@ -4,61 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchGeoDecoration
 {
     PBDataReader *_reader;
-    NSMutableArray *_alternatives;
-    NSString *_canonicalForm;
-    NSString *_cardinalWord;
-    NSString *_ordinalWord;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isArticle;
-    _Bool _isCardinal;
-    _Bool _isDirection;
-    _Bool _isDropped;
-    _Bool _isMultiTokenDirection;
-    _Bool _isMultiTokenTitle;
-    _Bool _isMultiTokenType;
-    _Bool _isOrdinal;
-    _Bool _isPersonalName;
-    _Bool _isStopWord;
-    _Bool _isTitle;
-    _Bool _isType;
-    struct {
-        unsigned int has_isArticle:1;
-        unsigned int has_isCardinal:1;
-        unsigned int has_isDirection:1;
-        unsigned int has_isDropped:1;
-        unsigned int has_isMultiTokenDirection:1;
-        unsigned int has_isMultiTokenTitle:1;
-        unsigned int has_isMultiTokenType:1;
-        unsigned int has_isOrdinal:1;
-        unsigned int has_isPersonalName:1;
-        unsigned int has_isStopWord:1;
-        unsigned int has_isTitle:1;
-        unsigned int has_isType:1;
-        unsigned int read_alternatives:1;
-        unsigned int read_canonicalForm:1;
-        unsigned int read_cardinalWord:1;
-        unsigned int read_ordinalWord:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)`;
+- (void)preset;
+- (id)bestEndDetectSample;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)lStage"b1"read_preparationStage"b1"read_proceedStage"b1"wrote_anyField"b1};
-- (id)lacesFromDirectionsAction:currentLocationIndices:options: /* Error: Ran out of types for this method. */;
+- (id)_placesFromDirectionsAction:currentLocationIndices:options: /* Error: Ran out of types for this method. */;
 - (id)Èä,åæ¤è;
 - (void)ÄçN°5H@;
 

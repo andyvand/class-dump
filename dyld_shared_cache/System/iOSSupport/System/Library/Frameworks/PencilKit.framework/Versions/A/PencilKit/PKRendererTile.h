@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSUUID, PKMetalFramebuffer, PKRendererTileProperties;
-
 @interface PKRendererTile
 {
     _Atomic double _cachedContentsScale;
-    _Atomic long long _renderCount;
-    _Atomic double _lastUsedTimestamp;
-    struct CGAffineTransform _drawingTransform;
-    _Bool _framebufferIsLocked;
-    _Bool _multiplyFramebufferIsLocked;
-    _Bool _sixChannelMode;
-    _Bool _transparentBlending;
-    _Bool _wantsExtendedDynamicRangeContent;
-    _Bool _outOfDate;
-    _Bool _hidden;
-    CALayer *_tileLayer;
-    CALayer *_tileMultiplyLayer;
-    PKMetalFramebuffer *_framebuffer;
-    PKMetalFramebuffer *_multiplyFramebuffer;
-    NSUUID *_identifier;
-    long long _level;
-    NSArray *_renderedStrokes;
-    long long _currentlyRenderingCount;
-    double _contentsScale;
-    double _opacity;
-    struct CGPoint _offset;
-    struct CGRect _drawingFrame;
-    struct CGRect _frame;
 }
 
 + (double);
@@ -52,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
@@ -70,14 +45,14 @@
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id)setRemoteView: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)L-;
 - (void);
 - (double);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)5;
 - (_Bool);
 - (double);
 - (void);
@@ -86,36 +61,12 @@
 - (void);
 - (id);
 - (id);
-- (void)nappedDrawing;
+- (void)_currentTValueForSnappedDrawing;
 - (struct CGPoint);
 - (long long)ÿÖ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) double contentsScale; // @synthesize contentsScale=_contentsScale;
-@property(nonatomic) long long currentlyRenderingCount; // @synthesize currentlyRenderingCount=_currentlyRenderingCount;
-@property(readonly, nonatomic) double drawingContentsScale;
-@property(readonly, nonatomic) struct CGRect drawingFrame; // @synthesize drawingFrame=_drawingFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) PKMetalFramebuffer *framebuffer; // @synthesize framebuffer=_framebuffer;
 @property(readonly, nonatomic) struct CGSize framebufferSize;
-@property(readonly, nonatomic) _Bool hasContents;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double lastUsedTimestamp;
-@property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) PKMetalFramebuffer *multiplyFramebuffer; // @synthesize multiplyFramebuffer=_multiplyFramebuffer;
-@property(readonly, nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property _Bool outOfDate; // @synthesize outOfDate=_outOfDate;
-@property(readonly, nonatomic) PKRendererTileProperties *properties;
-@property(readonly) long long renderCount;
-@property(copy) NSArray *renderedStrokes; // @synthesize renderedStrokes=_renderedStrokes;
-@property(readonly, nonatomic) _Bool sixChannelMode; // @synthesize sixChannelMode=_sixChannelMode;
-@property(readonly, nonatomic) CALayer *tileLayer; // @synthesize tileLayer=_tileLayer;
-@property(readonly, nonatomic) CALayer *tileMultiplyLayer; // @synthesize tileMultiplyLayer=_tileMultiplyLayer;
-@property(readonly, nonatomic) _Bool transparentBlending; // @synthesize transparentBlending=_transparentBlending;
-@property(readonly, nonatomic) _Bool wantsExtendedDynamicRangeContent; // @synthesize wantsExtendedDynamicRangeContent=_wantsExtendedDynamicRangeContent;
 
 @end
 

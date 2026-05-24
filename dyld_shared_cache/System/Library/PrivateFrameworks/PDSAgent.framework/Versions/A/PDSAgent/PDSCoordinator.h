@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTDeferredTaskQueue, IDSPushHandler, IDSServerBag, NSDate, NSObject, NSString, PDSHeartbeatTracker, PDSRequestQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PDSCoordinator
 {
     _Bool _requestPending;
-    _Bool _disabled;
-    _Bool _tokenChanged;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_pendingRequestDate;
-    IDSServerBag *_serverBag;
-    CUTDeferredTaskQueue *_processDeferredTaskQueue;
-    CDUnknownBlockType _kvStoreBlock;
-    CDUnknownBlockType _entryStoreBlock;
-    IDSPushHandler *_pushHandler;
-    CDUnknownBlockType _pushTokenBlock;
-    PDSRequestQueue *_requestQueue;
-    long long _bagLoadRetries;
-    PDSHeartbeatTracker *_heartbeatTracker;
 }
 
+- (void)remindMeCloudStorageChangedWithAddedOrChangedItems:(id)arg1 deletedItems: /* Error: Ran out of types for this method. */;
+- (long long)) VALUES (  :(id)arg1 scope,   :conversation_id,   :newest_read_message,   :newest_message,   :display_message,   :date,   :display_date,   :read_later_date,   :read,   :flagged,   :has_Red_flag,   :has_Orange_flag,   :has_Yellow_flag,   :has_Green_flag,   :has_Blue_flag,   :has_Purple_flag,   :has_Gray_flag,   :draft,   :replied,   :forwarded,   :redirected,   :junk_level_set_by_user,   :junk_level,   :has_unflagged,   :has_attachments,   :count,   :journaled,   :is_icloud_cleanup ); /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)elapsedTimeSinceEmailReceived;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -40,7 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_debugIdentity;
 - (void);
 - (void);
 - (id);
@@ -59,21 +46,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)icate point at index %lu found;
+- (CDUnknownBlockType)PrivateData.GnssAvailabilityPrediction;
 - (void);
+- (void);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (_Bool);
-- (CDUnknownBlockType);
-- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double)(;
 - (void);
 - (id);
-- (void);
+- (void)connection;
 - (void);
 - (void);
 - (void);
@@ -84,27 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long bagLoadRetries; // @synthesize bagLoadRetries=_bagLoadRetries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(copy, nonatomic) CDUnknownBlockType entryStoreBlock; // @synthesize entryStoreBlock=_entryStoreBlock;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PDSHeartbeatTracker *heartbeatTracker; // @synthesize heartbeatTracker=_heartbeatTracker;
-@property(copy, nonatomic) CDUnknownBlockType kvStoreBlock; // @synthesize kvStoreBlock=_kvStoreBlock;
-@property(retain, nonatomic) NSDate *pendingRequestDate; // @synthesize pendingRequestDate=_pendingRequestDate;
-@property(retain, nonatomic) CUTDeferredTaskQueue *processDeferredTaskQueue; // @synthesize processDeferredTaskQueue=_processDeferredTaskQueue;
-@property(retain, nonatomic) IDSPushHandler *pushHandler; // @synthesize pushHandler=_pushHandler;
-@property(copy, nonatomic) CDUnknownBlockType pushTokenBlock; // @synthesize pushTokenBlock=_pushTokenBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool requestPending; // @synthesize requestPending=_requestPending;
-@property(retain, nonatomic) PDSRequestQueue *requestQueue; // @synthesize requestQueue=_requestQueue;
-@property(retain, nonatomic) IDSServerBag *serverBag; // @synthesize serverBag=_serverBag;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tokenChanged; // @synthesize tokenChanged=_tokenChanged;
 
 @end
 

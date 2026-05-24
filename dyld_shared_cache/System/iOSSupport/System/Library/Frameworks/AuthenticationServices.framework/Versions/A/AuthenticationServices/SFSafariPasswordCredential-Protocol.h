@@ -7,15 +7,11 @@
 @class NSDate, NSString;
 
 @protocol SFSafariPasswordCredential
+- (NSDate *);
+- (long long)drawingTransform;
+- (NSString *)nexpected column in Message Update v1 with index %d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic, getter=isExternal) _Bool external;
-@property(readonly, nonatomic) NSString *externalProviderBundleID;
-@property(readonly, nonatomic) NSString *externalProviderExtensionBundleID;
-@property(readonly, copy, nonatomic) NSString *password;
-@property(readonly, copy, nonatomic) NSString *site;
-@property(readonly, nonatomic) long long type;
 @property(readonly, copy, nonatomic) NSString *user;
 @end
 

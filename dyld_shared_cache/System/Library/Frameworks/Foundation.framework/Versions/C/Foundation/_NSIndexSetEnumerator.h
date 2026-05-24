@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSIndexSetEnumerator
 {
     NSIndexSet *_indexSet;
-    unsigned long long _index;
 }
 
 - (void);

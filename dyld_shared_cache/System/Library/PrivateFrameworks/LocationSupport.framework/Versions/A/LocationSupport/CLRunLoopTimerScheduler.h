@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLTimer, NSRunLoop, NSTimer;
+@class NSTimer;
 
 @interface CLRunLoopTimerScheduler
 {
     NSTimer *_underlyingTimer;
-    CDUnknownBlockType _fireBlock;
-    NSRunLoop *_runloop;
-    CLTimer *_timer;
 }
 
 - (void);
@@ -19,18 +16,15 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)deskjet;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fireBlock; // @synthesize fireBlock=_fireBlock;
-@property(retain, nonatomic) NSRunLoop *runloop; // @synthesize runloop=_runloop;
-@property(nonatomic) __weak CLTimer *timer; // @synthesize timer=_timer;
 @property(retain, nonatomic) NSTimer *underlyingTimer; // @synthesize underlyingTimer=_underlyingTimer;
 
 @end

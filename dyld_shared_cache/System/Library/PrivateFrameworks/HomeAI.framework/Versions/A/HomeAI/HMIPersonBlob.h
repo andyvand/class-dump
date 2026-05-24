@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceprint, HMITorsoprint, NSMutableIndexSet, NSUUID;
+@class HMIFaceprint;
 
 __attribute__((visibility("hidden")))
 @interface HMIPersonBlob
 {
     HMIFaceprint *_faceprint;
-    HMITorsoprint *_torsoprint;
-    NSMutableIndexSet *_personIndices;
-    NSUUID *_blobID;
-    CDStruct_1b6d18a9 _timeStamp;
-    struct CGRect _boundingBox;
 }
 
 - (void);
 - (float);
-- (void);
-- (void);
+- (void)-;
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -33,12 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSUUID *blobID; // @synthesize blobID=_blobID;
-@property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) HMIFaceprint *faceprint; // @synthesize faceprint=_faceprint;
-@property(retain) NSMutableIndexSet *personIndices; // @synthesize personIndices=_personIndices;
 @property(readonly) CDStruct_1b6d18a9 timeStamp; // @synthesize timeStamp=_timeStamp;
-@property(readonly) HMITorsoprint *torsoprint; // @synthesize torsoprint=_torsoprint;
 
 @end
 

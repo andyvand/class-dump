@@ -7,15 +7,12 @@
 @class NSString;
 
 @protocol _INPBVoiceCommandStepInfo
-- (_Bool)ID: /* Error: Ran out of types for this method. */;
+- (NSString *)x;
+- (void);
+- (_Bool)setFalseDisplayNameID: /* Error: Ran out of types for this method. */;
 - (void):(NSString *)arg1 <;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier;
-@property(nonatomic) int category;
-@property(readonly, nonatomic) _Bool hasApplicationIdentifier;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasName;
-@property(copy, nonatomic) NSString *name;
 @end
 

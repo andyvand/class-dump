@@ -6,20 +6,17 @@
 
 #import <UIKitCore/UIPointerInteraction.h>
 
-@class NSMutableDictionary, NSString, UIView, UIWindow, _UIPointerInteractionAssistantEffectContainerView;
-@protocol UIInteractionEffect;
+@class UIWindow, _UIPointerInteractionAssistantEffectContainerView;
 
 @interface _UIPointerInteractionAssistant : UIPointerInteraction
 {
     _UIPointerInteractionAssistantEffectContainerView *_previewContainer;
-    UIWindow *_manual_weak_monitoredWindow;
-    NSMutableDictionary *_assistants;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)lessInfo",&,D,N;
+- (id)ssing mapping for MPModelRelationshipPlayEventAlbum;
 - (_Bool);
 - (void)1Â0@ù
 × ;
@@ -28,36 +25,23 @@
 - (id)Aù`°1Â0@ù
 × ;
 - (void)ght"{CGSize="width"d"height"d}"topRight"{CGSize="width"d"height"d}};
-- (void)bilityHintsForTextFormatting;
-- (void)im_touchesEnded:(id)arg1 withEvent:(_Bool)arg2;
-- (id)rovider;
-- (id)moteViewController:(id)arg1 replyHandler: /* Error: Ran out of types for this method. */;
+- (void)_supportedAnimationAccessibilityHintsForTextFormatting;
+- (void)_shim_touchesEnded:(id)arg1 withEvent:(_Bool)arg2;
+- (id)_itemSubtitleCompositingFilterProvider;
+- (id)__connectToViewControllerControlMessageDeputyFromRemoteViewController:(id)arg1 replyHandler: /* Error: Ran out of types for this method. */;
 - (void)patching -_queued_performTextOperations:(id)arg1 %p as main-thread task on keyboard task subqueue:%@ /* Error: Ran out of types for this method. */;
 - (void)ng to save tailspin using DiagnosticPipeline.;
 - (id)tþÿ;
 - (id)ange for coalesced undo or redo. Previous accumulation={%lu, %lu} Replacement range={%lu, %lu} delta=%li;
-- (void)n;
-- (void)eenProbablyBeingRecorded;
-- (id)ifiers;
+- (void)_UIWindowWillMoveToNilSceneNotification;
+- (void)FigOutputMonitorIsScreenProbablyBeingRecorded;
+- (id)sectionIdentifiers;
 - (void)øuR0Åç23®;
-- (void)ent;
+- (void)UICollectionViewLayoutInvalidationContextIntent;
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setMonitoredWindow:) __weak UIWindow *_monitoredWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
-@property(readonly, nonatomic) UIView *previewContainer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

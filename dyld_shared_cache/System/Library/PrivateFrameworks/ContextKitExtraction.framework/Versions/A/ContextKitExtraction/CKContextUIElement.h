@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKContextUIElement
 {
     _Bool _onScreen;
-    float _fontSize;
-    float _density;
-    NSString *_text;
-    NSString *_className;
-    NSArray *_superviewClassNames;
-    NSString *_sceneIdentifier;
-    struct CGPoint _absoluteOriginOnScreen;
-    struct CGRect _frameInWindow;
 }
 
 + (_Bool);
@@ -24,12 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)ntViewContentSizeObservationContext;
 - (unsigned long long);
 - (void);
 - (long long);
-- (id);
+- (id)ICQRConnectionLLDS] <%p> Cleared while renewing pseudonym.;
 - (_Bool);
 - (void);
 - (id);
@@ -37,7 +29,7 @@
 - (void);
 - (struct CGPoint);
 - (float);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (_Bool);
@@ -50,14 +42,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint absoluteOriginOnScreen; // @synthesize absoluteOriginOnScreen=_absoluteOriginOnScreen;
-@property(retain, nonatomic) NSString *className; // @synthesize className=_className;
-@property(nonatomic) float density; // @synthesize density=_density;
-@property(nonatomic) float fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) struct CGRect frameInWindow; // @synthesize frameInWindow=_frameInWindow;
-@property(nonatomic, getter=isOnScreen) _Bool onScreen; // @synthesize onScreen=_onScreen;
-@property(retain, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(retain, nonatomic) NSArray *superviewClassNames; // @synthesize superviewClassNames=_superviewClassNames;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

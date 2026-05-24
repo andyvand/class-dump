@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface BKSHIDKeyboardDeviceProperties
 {
     unsigned long long _senderID;
-    NSString *_transport;
-    NSString *_language;
-    NSString *_layout;
-    NSString *_exclusivityIdentifier;
-    NSData *_platformInputModeConfiguration;
-    unsigned int _standardType;
-    long long _subinterfaceID;
-    unsigned char _countryCode;
-    _Bool _capsLockKeyHasLanguageSwitchLabel;
-    _Bool _globeKeyLabelHasGlobeSymbol;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)FOLLOWUP_BENEFICIARY_REMOVED_BUTTON_DISMISS;
 + (_Bool);
 - (long long);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (id);
+- (id)4;
 - (id);
-- (id);
-- (id);
+- (id)withItemCount:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
@@ -42,31 +30,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (void);
-- (_Bool);
-- (id)eterAndOrientationEvents;
+- (_Bool)qa;
+- (id)BKIgnoreAccelerometerAndOrientationEvents;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool capsLockKeyHasLanguageSwitchLabel;
-@property(readonly, nonatomic) unsigned char countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *exclusivityIdentifier;
-@property(readonly, nonatomic) _Bool globeKeyLabelHasGlobeSymbol;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, copy, nonatomic) NSString *layout;
-@property(readonly, copy, nonatomic) NSData *platformInputModeConfiguration;
-@property(readonly, nonatomic) unsigned long long senderID;
-@property(readonly, nonatomic) unsigned int standardType;
-@property(readonly, nonatomic) long long subinterfaceID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *transport;
 
 @end
 

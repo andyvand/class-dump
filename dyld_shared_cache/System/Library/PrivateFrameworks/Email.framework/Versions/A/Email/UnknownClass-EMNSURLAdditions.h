@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (EMNSURLAdditions)
-+ (id);
++ (id)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -14,9 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool em_isAccountURL;
-@property(readonly, nonatomic) _Bool em_isInternalMessageURL;
-@property(readonly, nonatomic) _Bool em_isMailboxURL;
 @property(readonly, nonatomic) _Bool em_isMessageURL;
 @end
 

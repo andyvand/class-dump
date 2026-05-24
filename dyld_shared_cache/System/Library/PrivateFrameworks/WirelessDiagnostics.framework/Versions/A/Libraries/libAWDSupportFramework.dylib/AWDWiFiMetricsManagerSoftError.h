@@ -4,54 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiMetricsManagerBTCoexModeChange, AWDWiFiMetricsManagerBTCoexStats, AWDWiFiMetricsManagerChipCounters, NSData, NSMutableArray, NSString;
-
 @interface AWDWiFiMetricsManagerSoftError
 {
     unsigned long long _sample1TimeStamp;
-    unsigned long long _sample2TimeStamp;
-    unsigned long long _timestamp;
-    NSData *_apOUI;
-    NSString *_appId;
-    unsigned int _batteryChargeLevel;
-    AWDWiFiMetricsManagerBTCoexModeChange *_btCoexModeChange;
-    AWDWiFiMetricsManagerBTCoexStats *_btCoexStats;
-    unsigned int _channel;
-    AWDWiFiMetricsManagerChipCounters *_chipCounters;
-    NSMutableArray *_chipCountersPerSlices;
-    unsigned int _lastSoftErrorUserFeedbk;
-    unsigned int _motionState;
-    int _sample1Cca;
-    int _sample1Rssi;
-    int _sample1Snr;
-    int _sample2Cca;
-    int _sample2Rssi;
-    int _sample2Snr;
-    unsigned int _softErrorType;
-    _Bool _inCar;
-    _Bool _lowPowerMode;
-    struct {
-        unsigned int sample1TimeStamp:1;
-        unsigned int sample2TimeStamp:1;
-        unsigned int timestamp:1;
-        unsigned int batteryChargeLevel:1;
-        unsigned int channel:1;
-        unsigned int lastSoftErrorUserFeedbk:1;
-        unsigned int motionState:1;
-        unsigned int sample1Cca:1;
-        unsigned int sample1Rssi:1;
-        unsigned int sample1Snr:1;
-        unsigned int sample2Cca:1;
-        unsigned int sample2Rssi:1;
-        unsigned int sample2Snr:1;
-        unsigned int softErrorType:1;
-        unsigned int inCar:1;
-        unsigned int lowPowerMode:1;
-    } _has;
 }
 
 + (Class);
 - (unsigned int);
+- (void)f;
+- (void);
+- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -60,23 +23,19 @@
 - (void);
 - (void);
 - (void);
+- (void)``*}J;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q(;
+- (void)(;
 - (void);
 - (void);
 - (unsigned long long);
@@ -87,39 +46,39 @@
 - (int);
 - (int);
 - (int);
+- (unsigned int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)1;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
 - (id);
 - (void);
+- (void)b;
+- (_Bool));
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)s;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -128,7 +87,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)M!;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -138,7 +97,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (unsigned int);
 - (void);
@@ -148,49 +107,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *apOUI; // @synthesize apOUI=_apOUI;
-@property(retain, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(nonatomic) unsigned int batteryChargeLevel; // @synthesize batteryChargeLevel=_batteryChargeLevel;
-@property(retain, nonatomic) AWDWiFiMetricsManagerBTCoexModeChange *btCoexModeChange; // @synthesize btCoexModeChange=_btCoexModeChange;
-@property(retain, nonatomic) AWDWiFiMetricsManagerBTCoexStats *btCoexStats; // @synthesize btCoexStats=_btCoexStats;
-@property(nonatomic) unsigned int channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) AWDWiFiMetricsManagerChipCounters *chipCounters; // @synthesize chipCounters=_chipCounters;
-@property(retain, nonatomic) NSMutableArray *chipCountersPerSlices; // @synthesize chipCountersPerSlices=_chipCountersPerSlices;
-@property(readonly, nonatomic) _Bool hasApOUI;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(nonatomic) _Bool hasBatteryChargeLevel;
-@property(readonly, nonatomic) _Bool hasBtCoexModeChange;
-@property(readonly, nonatomic) _Bool hasBtCoexStats;
-@property(nonatomic) _Bool hasChannel;
-@property(readonly, nonatomic) _Bool hasChipCounters;
-@property(nonatomic) _Bool hasInCar;
-@property(nonatomic) _Bool hasLastSoftErrorUserFeedbk;
-@property(nonatomic) _Bool hasLowPowerMode;
-@property(nonatomic) _Bool hasMotionState;
-@property(nonatomic) _Bool hasSample1Cca;
-@property(nonatomic) _Bool hasSample1Rssi;
-@property(nonatomic) _Bool hasSample1Snr;
-@property(nonatomic) _Bool hasSample1TimeStamp;
-@property(nonatomic) _Bool hasSample2Cca;
-@property(nonatomic) _Bool hasSample2Rssi;
-@property(nonatomic) _Bool hasSample2Snr;
-@property(nonatomic) _Bool hasSample2TimeStamp;
-@property(nonatomic) _Bool hasSoftErrorType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool inCar; // @synthesize inCar=_inCar;
-@property(nonatomic) unsigned int lastSoftErrorUserFeedbk; // @synthesize lastSoftErrorUserFeedbk=_lastSoftErrorUserFeedbk;
-@property(nonatomic) _Bool lowPowerMode; // @synthesize lowPowerMode=_lowPowerMode;
-@property(nonatomic) unsigned int motionState; // @synthesize motionState=_motionState;
-@property(nonatomic) int sample1Cca; // @synthesize sample1Cca=_sample1Cca;
-@property(nonatomic) int sample1Rssi; // @synthesize sample1Rssi=_sample1Rssi;
-@property(nonatomic) int sample1Snr; // @synthesize sample1Snr=_sample1Snr;
-@property(nonatomic) unsigned long long sample1TimeStamp; // @synthesize sample1TimeStamp=_sample1TimeStamp;
-@property(nonatomic) int sample2Cca; // @synthesize sample2Cca=_sample2Cca;
-@property(nonatomic) int sample2Rssi; // @synthesize sample2Rssi=_sample2Rssi;
-@property(nonatomic) int sample2Snr; // @synthesize sample2Snr=_sample2Snr;
-@property(nonatomic) unsigned long long sample2TimeStamp; // @synthesize sample2TimeStamp=_sample2TimeStamp;
-@property(nonatomic) unsigned int softErrorType; // @synthesize softErrorType=_softErrorType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

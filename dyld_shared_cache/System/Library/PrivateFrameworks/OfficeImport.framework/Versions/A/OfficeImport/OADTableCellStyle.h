@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADFill, OADTableCellBorderStyle;
+@class OADTableCellBorderStyle;
 
 __attribute__((visibility("hidden")))
 @interface OADTableCellStyle
 {
     OADTableCellBorderStyle *mBorderStyle;
-    OADFill *mFill;
 }
 
 + (id);
@@ -20,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)t={CGPoint=dd}{CGSize=dd}}24;
 - (void);
 
 @end

@@ -6,39 +6,27 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphPetNodeCollection : PGGraphNodeCollection
 {
 }
 
 + (id);
-+ (id);
++ (id)P(;
 + (id);
 + (id);
 + (id);
 + (Class);
+- (id)rangeOfCharacterFromSet:options:range: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)¹ÿÿä&ýÿüû¤ÿ¨fÿÿ2gþÿ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *localIdentifiers;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) NSSet *names;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *ownerNodes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *uuids;
 
 @end
 

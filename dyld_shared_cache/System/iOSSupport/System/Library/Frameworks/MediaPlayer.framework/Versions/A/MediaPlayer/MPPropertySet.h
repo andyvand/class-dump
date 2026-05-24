@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSSet;
 
 @interface MPPropertySet
 {
     NSSet *_properties;
-    NSDictionary *_relationships;
 }
 
-+ (id);
-+ (id);
++ (id)objectCollation;
++ (id)objectAttribute;
 + (id);
 + (_Bool);
 - (id);
@@ -23,26 +22,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)lu bundleID:(id)arg1 %@ hasPayloadData:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ableArray",&,VframeArray;
 - (id);
-- (void)elName__MAPPING_MISSING__;
+- (void)__MPModelPropertyRecordLabelName__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSDictionary *relationships; // @synthesize relationships=_relationships;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SafariShared/WBSFormControlMetadata.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface WBSMutableFormControlMetadata : WBSFormControlMetadata
 {
@@ -46,16 +46,16 @@
 - (void);
 - (void);
 - (void);
+- (void)date;
+- (void)L;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ontrollerDelegate>",W,V_delegate;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
+- (void)FSearchResult with empty or nil identifier;
 - (id);
 - (void);
 - (void);
@@ -69,54 +69,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @dynamic active;
 @property(copy, nonatomic) NSString *addressBookLabel; // @dynamic addressBookLabel;
-@property(copy, nonatomic) NSArray *ancestorFrameURLs; // @dynamic ancestorFrameURLs;
-@property(copy, nonatomic) NSDictionary *annotations; // @dynamic annotations;
-@property(copy, nonatomic) NSString *associatedUsername; // @dynamic associatedUsername;
-@property(nonatomic) long long autoFillButtonType; // @dynamic autoFillButtonType;
-@property(nonatomic, getter=isAutoFilledTextField) _Bool autoFilledTextField; // @dynamic autoFilledTextField;
-@property(copy, nonatomic) NSArray *autocompleteTokens; // @dynamic autocompleteTokens;
-@property(nonatomic) _Bool claimsToBeCurrentPasswordViaAutocompleteAttribute; // @dynamic claimsToBeCurrentPasswordViaAutocompleteAttribute;
-@property(nonatomic) _Bool claimsToBeNewPasswordViaAutocompleteAttribute; // @dynamic claimsToBeNewPasswordViaAutocompleteAttribute;
-@property(nonatomic) _Bool claimsToBeUsernameViaAutocompleteAttribute; // @dynamic claimsToBeUsernameViaAutocompleteAttribute;
-@property(copy, nonatomic) NSString *classification; // @dynamic classification;
-@property(copy, nonatomic) NSArray *classificationHints; // @dynamic classificationHints;
-@property(nonatomic) unsigned long long continuationID; // @dynamic continuationID;
-@property(nonatomic) unsigned long long continuationIndex; // @dynamic continuationIndex;
-@property(nonatomic, getter=isDisabled) _Bool disabled; // @dynamic disabled;
-@property(nonatomic) _Bool disallowsAutocomplete; // @dynamic disallowsAutocomplete;
-@property(copy, nonatomic) NSString *fieldClass; // @dynamic fieldClass;
-@property(copy, nonatomic) NSString *fieldID; // @dynamic fieldID;
-@property(copy, nonatomic) NSString *fieldName; // @dynamic fieldName;
-@property(nonatomic, getter=isLabeledUsernameField) _Bool labeledUsernameField; // @dynamic labeledUsernameField;
-@property(nonatomic) long long lastAutoFillButtonType; // @dynamic lastAutoFillButtonType;
-@property(nonatomic) _Bool looksLikeOneTimeCodeField; // @dynamic looksLikeOneTimeCodeField;
-@property(nonatomic) unsigned long long maxLength; // @dynamic maxLength;
-@property(nonatomic) unsigned long long minLength; // @dynamic minLength;
-@property(copy, nonatomic) NSString *nextControlUniqueID; // @dynamic nextControlUniqueID;
-@property(nonatomic) _Bool oneTimeCodeIsEligibleForAutomaticLogin; // @dynamic oneTimeCodeIsEligibleForAutomaticLogin;
-@property(copy, nonatomic) NSArray *orderedParts; // @dynamic orderedParts;
-@property(copy, nonatomic) NSString *passwordRules; // @dynamic passwordRules;
-@property(copy, nonatomic) NSDictionary *radioButtonInfo; // @dynamic radioButtonInfo;
-@property(nonatomic, getter=isReadOnly) _Bool readOnly; // @dynamic readOnly;
-@property(nonatomic) double rectHeight; // @dynamic rectHeight;
-@property(nonatomic) double rectLeft; // @dynamic rectLeft;
-@property(nonatomic) double rectTop; // @dynamic rectTop;
-@property(nonatomic) double rectWidth; // @dynamic rectWidth;
-@property(copy, nonatomic) NSString *requiredFormatForDateTimeInput; // @dynamic requiredFormatForDateTimeInput;
-@property(nonatomic, getter=isSecureTextField) _Bool secureTextField; // @dynamic secureTextField;
-@property(copy, nonatomic) NSArray *selectElementInfo; // @dynamic selectElementInfo;
-@property(nonatomic) unsigned long long selectionLength; // @dynamic selectionLength;
-@property(nonatomic) unsigned long long selectionStart; // @dynamic selectionStart;
-@property(nonatomic) unsigned long long size; // @dynamic size;
-@property(copy, nonatomic) NSString *tagName; // @dynamic tagName;
-@property(nonatomic, getter=isTextField) _Bool textField; // @dynamic textField;
-@property(copy, nonatomic) NSString *uniqueID; // @dynamic uniqueID;
-@property(nonatomic, getter=isUserEditedTextField) _Bool userEditedTextField; // @dynamic userEditedTextField;
-@property(copy, nonatomic) NSString *value; // @dynamic value;
-@property(nonatomic, getter=isVerticalWritingMode) _Bool verticalWritingMode; // @dynamic verticalWritingMode;
-@property(nonatomic, getter=isVisible) _Bool visible; // @dynamic visible;
 
 @end
 

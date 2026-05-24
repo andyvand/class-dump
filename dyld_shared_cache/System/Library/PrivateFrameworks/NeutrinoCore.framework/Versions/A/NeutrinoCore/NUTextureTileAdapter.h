@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLTexture;
 
 @interface NUTextureTileAdapter
 {
     id <MTLTexture> _texture;
-    CDStruct_996ac03c _frameRect;
-    CDStruct_996ac03c _contentRect;
 }
 
 - (id);
-- (CDStruct_996ac03c);
+- (CDStruct_996ac03c)xCww0IJP4GBGz08HmWJ5mwEA8DsywDM5AOwMpDFIn2tnjbrRINcjMjrbNg9jTwzf/ALv0DjTEP2i4M00DRoAxZeUBxN3nJbevTWsHMjDjt3MNKK31HOLtjAB2Lu5snX5qloyp4Q8v/BDhwT2AptCZPh6MGlmGBK7R/p0xcDd5sHgKGUHZ8pgZAuVLldpdxEeINo5xRtum0zZYI4KYXxte4WEzhg5ksbVRi7AULkC5W7dfZvwWnpwjW35ZfQOSbuN4LNEdaLY77IXJFtKMCXF/zm3a6U/AiK1fyw6eyv0qbW8Znoetdm7SdInuG6EHqrlhzb+3F4x7UCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAKNqD5mzB+vTEPhcKdh81WBnSQVN5DAkn0p9el1qve9Iln62v2DbtOpqpO3JPP4hb6gord0nmTd1NlHxpg2GZ2F/J3620pa7EWsQIFEyEvNlNiwKo/AH76d2EaHMD8IgejcDehrUVLdXULq8kIWa2QsMtdeNsZPIPKUU1nb2HmOnjZfJ7MQm3KIrofVCV9OiWYNKPSqUV2q332pVRjdZ8KRZ4J1sb29JAQCGavrnJazMDE+fFG55w2Vi6DMlwTeD+gV6OYHbIkbu/1tHLXzXGdW6EzsGxKhNIsfhJ9yVU8U7psxHB5opJiAPl1k0QA63lO5MxLs39n78G6govhhN/5A==;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_entropyForTranscodedImage: /* Error: Ran out of types for this method. */;
 - (CDStruct_996ac03c);
 - (_Bool);
 - (void)ñáð1Â0@ù
@@ -29,15 +26,6 @@
 - (int)`öÿ±È;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_996ac03c frameRect; // @synthesize frameRect=_frameRect;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <MTLTexture> texture; // @synthesize texture=_texture;
 
 @end

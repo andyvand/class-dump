@@ -9,20 +9,18 @@
 @interface MKMapItemMetadata
 {
     GEOBusiness *_business;
-    NSMutableDictionary *_imageCache;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)tSearchFrom: /* Error: Ran out of types for this method. */;
+- (void)_treatSearchFrom: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOBusiness *business; // @synthesize business=_business;
 @property(retain, nonatomic) NSMutableDictionary *imageCache; // @synthesize imageCache=_imageCache;
 
 @end

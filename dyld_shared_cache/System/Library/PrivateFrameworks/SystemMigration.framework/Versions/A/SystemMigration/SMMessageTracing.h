@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, SMMigrationRequest;
+@class SMMigrationRequest;
 
 @interface SMMessageTracing
 {
     _Bool _success;
-    _Bool _migratedMultipleUsers;
-    _Bool _engineWaitedOnPather;
-    _Bool _attemptedSWAP;
-    _Bool _systemConnected;
-    SMMigrationRequest *_request;
-    NSError *_error;
-    double _fractionCompleted;
-    unsigned long long _quantityOfData;
-    unsigned long long _expectedQuantityOfData;
-    double _transferRate;
-    double _totalMigrationTime;
-    double _expectedTotalMigrationTime;
-    double _totalTimeMigrationDelayedByPathing;
-    double _timeSinceOneMinuteRemaining;
-    double _totalPathingTime;
-    unsigned long long _numberOfFilesPathed;
-    double _estimatedTimeRemaining;
-    NSError *_swapError;
-    double _swapBenchmark;
-    double _swapComparisonToInfrastructure;
-    double _swapAssociationDuration;
-    unsigned long long _numberOfNetworkConfigurationChanges;
-    unsigned long long _numberOfNetworkChanges;
-    unsigned long long _numberOfDisconnects;
-    NSString *_currentPhaseDetails;
 }
 
 + (id);
@@ -61,14 +36,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,14 +57,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)qa;
 - (_Bool);
 - (void);
 - (void);
@@ -101,38 +76,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)setFlowLayout:(id)arg1;
 - (void)1Â0@ù
 × ;
-- (void)epared:(_Bool)arg1;
+- (void)setSystemPrepared:(_Bool)arg1;
 
 // Remaining properties
-@property _Bool attemptedSWAP; // @synthesize attemptedSWAP=_attemptedSWAP;
-@property(retain) NSString *currentPhaseDetails; // @synthesize currentPhaseDetails=_currentPhaseDetails;
-@property _Bool engineWaitedOnPather; // @synthesize engineWaitedOnPather=_engineWaitedOnPather;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property unsigned long long expectedQuantityOfData; // @synthesize expectedQuantityOfData=_expectedQuantityOfData;
-@property double expectedTotalMigrationTime; // @synthesize expectedTotalMigrationTime=_expectedTotalMigrationTime;
-@property double fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property _Bool migratedMultipleUsers; // @synthesize migratedMultipleUsers=_migratedMultipleUsers;
-@property unsigned long long numberOfDisconnects; // @synthesize numberOfDisconnects=_numberOfDisconnects;
-@property unsigned long long numberOfFilesPathed; // @synthesize numberOfFilesPathed=_numberOfFilesPathed;
-@property unsigned long long numberOfNetworkChanges; // @synthesize numberOfNetworkChanges=_numberOfNetworkChanges;
-@property unsigned long long numberOfNetworkConfigurationChanges; // @synthesize numberOfNetworkConfigurationChanges=_numberOfNetworkConfigurationChanges;
-@property unsigned long long quantityOfData; // @synthesize quantityOfData=_quantityOfData;
 @property(retain) SMMigrationRequest *request; // @synthesize request=_request;
-@property _Bool success; // @synthesize success=_success;
-@property double swapAssociationDuration; // @synthesize swapAssociationDuration=_swapAssociationDuration;
-@property double swapBenchmark; // @synthesize swapBenchmark=_swapBenchmark;
-@property double swapComparisonToInfrastructure; // @synthesize swapComparisonToInfrastructure=_swapComparisonToInfrastructure;
-@property(retain) NSError *swapError; // @synthesize swapError=_swapError;
-@property _Bool systemConnected; // @synthesize systemConnected=_systemConnected;
-@property double timeSinceOneMinuteRemaining; // @synthesize timeSinceOneMinuteRemaining=_timeSinceOneMinuteRemaining;
-@property double totalMigrationTime; // @synthesize totalMigrationTime=_totalMigrationTime;
-@property double totalPathingTime; // @synthesize totalPathingTime=_totalPathingTime;
-@property double totalTimeMigrationDelayedByPathing; // @synthesize totalTimeMigrationDelayedByPathing=_totalTimeMigrationDelayedByPathing;
-@property double transferRate; // @synthesize transferRate=_transferRate;
 
 @end
 

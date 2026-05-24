@@ -5,14 +5,11 @@
 //
 
 @class UILabel;
-@protocol CNContactListDuplicatesBannerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListDuplicatesBannerView
 {
     long long _duplicatesCount;
-    id <CNContactListDuplicatesBannerViewDelegate> _delegate;
-    UILabel *_titleLabel;
 }
 
 - (void);
@@ -24,13 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)Items: /* Error: Ran out of types for this method. */;
+- (void)uniqueEmojiSuggestionItems: /* Error: Ran out of types for this method. */;
 - (void)_containerContentView;
 - (id)V_addedGroups;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNContactListDuplicatesBannerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long duplicatesCount; // @synthesize duplicatesCount=_duplicatesCount;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

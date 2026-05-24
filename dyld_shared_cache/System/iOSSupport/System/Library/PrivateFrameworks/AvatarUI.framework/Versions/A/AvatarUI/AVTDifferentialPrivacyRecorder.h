@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface AVTDifferentialPrivacyRecorder
 {
     CDUnknownBlockType _stringRecorderProvider;
-    CDUnknownBlockType _numRecorderProvider;
-    NSMutableDictionary *_stringRecorders;
-    NSMutableDictionary *_numRecorders;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
@@ -22,15 +17,12 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType numRecorderProvider; // @synthesize numRecorderProvider=_numRecorderProvider;
-@property(readonly, nonatomic) NSMutableDictionary *numRecorders; // @synthesize numRecorders=_numRecorders;
 @property(readonly, copy, nonatomic) CDUnknownBlockType stringRecorderProvider; // @synthesize stringRecorderProvider=_stringRecorderProvider;
-@property(readonly, nonatomic) NSMutableDictionary *stringRecorders; // @synthesize stringRecorders=_stringRecorders;
 
 @end
 

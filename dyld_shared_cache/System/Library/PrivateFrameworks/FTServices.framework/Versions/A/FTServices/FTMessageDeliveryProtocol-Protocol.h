@@ -4,51 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSBaseMessage, NSArray, NSString;
+@class NSString;
 
 @protocol FTMessageDeliveryProtocol
 
+@optional
+- (void)B;
+- (void);
+- (_Bool)16@24@32@40@?48@?56;
+- (_Bool)eventHighlightWithEvent:score:prominentFeature:features:isExtraordinary: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)8;
+
 // Remaining properties
-@property(readonly) NSArray *allMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool busy;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) IDSBaseMessage *currentMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IDSBaseMessage",?,R
-
-@property(readonly) _Bool hasQueuedItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property _Bool logToRegistration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property unsigned long long maxConcurrentMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(readonly) long long maxLargeMessageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) long long maxMessageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) NSArray *queuedMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property _Bool retryInAirplaneMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 @property(copy, nonatomic) NSString *userAgent;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N

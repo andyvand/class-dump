@@ -8,30 +8,21 @@ __attribute__((visibility("hidden")))
 @interface _UIGestureRecognizerTransformAnalyzer
 {
     double _lowPassTranslationMagnitudeDelta;
-    double _lowPassScaleDelta;
-    double _lowPassRotationDelta;
-    double _translationWeight;
-    double _pinchingWeight;
-    double _rotationWeight;
-    long long _dominantComponent;
 }
 
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
-- (void)te;
+- (void)shouldAnimate;
 - (double)ize=dd}},N,V_symbolFrame;
-- (long long);
+- (long long)_UIPresentationControllerDefaultVisualStyleProvider;
 - (void);
 - (double)ªåîÿ&#ïÿæïÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dominantComponent; // @synthesize dominantComponent=_dominantComponent;
-@property(nonatomic) double pinchingWeight; // @synthesize pinchingWeight=_pinchingWeight;
-@property(nonatomic) double rotationWeight; // @synthesize rotationWeight=_rotationWeight;
-@property(nonatomic) double translationWeight; // @synthesize translationWeight=_translationWeight;
 
 @end
 

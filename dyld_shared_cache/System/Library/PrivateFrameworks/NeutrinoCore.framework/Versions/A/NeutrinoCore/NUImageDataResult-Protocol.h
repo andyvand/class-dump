@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NUImageGeometry;
+@class NSDictionary;
 
 @protocol NUImageDataResult
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *data;
-@property(readonly) NUImageGeometry *geometry;
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class NSData, NSString;
 
 @protocol _SFPBProduct
+- (void)executeCompletionBlockWithErrorCode:(NSString *)arg1 info:file:completionDict:completionBlk: /* Error: Ran out of types for this method. */;
+- (NSData *)lAssetCollection;
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *availabilityURL;
-@property(nonatomic) _Bool buyable;
-@property(copy, nonatomic) NSString *displayName;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productIdentifier;
 @end
 

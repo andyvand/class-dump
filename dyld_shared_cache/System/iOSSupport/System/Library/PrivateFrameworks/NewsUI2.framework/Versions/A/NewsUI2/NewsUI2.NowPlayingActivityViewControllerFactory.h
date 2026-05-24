@@ -7,9 +7,6 @@
 @interface NewsUI2.NowPlayingActivityViewControllerFactory
 {
     id sharingActivityItemFactory;
-    id bundleSubscriptionManager;
-    id commandCenter;
-    id tracker;
 }
 
 @end

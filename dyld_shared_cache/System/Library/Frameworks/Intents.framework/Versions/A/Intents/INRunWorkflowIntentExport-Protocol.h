@@ -7,6 +7,7 @@
 @class INSpeakableString;
 
 @protocol INRunWorkflowIntentExport
+- (void);
 
 // Remaining properties
 @property(copy) INSpeakableString *workflow;

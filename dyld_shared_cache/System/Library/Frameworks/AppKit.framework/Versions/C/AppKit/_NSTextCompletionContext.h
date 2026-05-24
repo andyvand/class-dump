@@ -10,31 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _NSTextCompletionContext
 {
     TICandidateRequestToken *_requestToken;
-    unsigned long long _offset;
-    long long _sequenceNumber;
-    CDUnknownBlockType _completionHandler;
-    struct _NSRange _range;
 }
 
 - (void);
+- (id)Data[%llu] (%@);
 - (id);
-- (id);
-- (void);
-- (struct _NSRange);
+- (void)removeEditForSuggestionWithUUID:(long long)arg1;
+- (struct _NSRange)initWithController: /* Error: Ran out of types for this method. */;
 - (long long);
 - (CDUnknownBlockType);
-- (void);
+- (void)hJ;
 - (void);
 - (void)Dûÿÿtûÿÿ;
 - (void)WithSettings:showPrintPanel:delegate:didPrintSelector:contextInfo:]_block_invoke_4 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(retain, nonatomic) TICandidateRequestToken *requestToken; // @synthesize requestToken=_requestToken;
-@property(nonatomic) long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentFinalExecutionEnded : SISchemaInstrumentationMessage
 {
     int _eagerStatus;
-    int _bypassReason;
-    unsigned long long _maxRss;
-    struct {
-        unsigned int eagerStatus:1;
-        unsigned int bypassReason:1;
-        unsigned int maxRss:1;
-    } _has;
 }
 
 - (void);
@@ -29,8 +20,8 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -42,17 +33,11 @@
 - (_Bool);
 - (id);
 - (id)SayVariant";
-- (id)hemaMHAcousticFalseTriggerMitigationStarted;
+- (id)MHSchemaMHAcousticFalseTriggerMitigationStarted;
 - (id)äÒ;
 
 // Remaining properties
-@property(nonatomic) int bypassReason; // @synthesize bypassReason=_bypassReason;
 @property(nonatomic) int eagerStatus; // @synthesize eagerStatus=_eagerStatus;
-@property(nonatomic) _Bool hasBypassReason;
-@property(nonatomic) _Bool hasEagerStatus;
-@property(nonatomic) _Bool hasMaxRss;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxRss; // @synthesize maxRss=_maxRss;
 
 @end
 

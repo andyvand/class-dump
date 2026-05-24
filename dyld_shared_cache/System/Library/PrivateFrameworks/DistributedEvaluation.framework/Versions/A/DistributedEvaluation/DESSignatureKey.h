@@ -9,13 +9,13 @@
     struct __SecKey *_key;
 }
 
-+ (struct __SecKey *);
++ (struct __SecKey *)nResolverRequestCreated.unresolvedParameterSets.parameters.candidate.value.value.entity.typeIdentifier.custom.bundleId;
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)NotFounds.value.collection.values.primitive.app.bundleId;
+- (_Bool)statementResults.payload.outcome.parameterCandidatesNotFounds.value.collection.values.primitive.app.bundleId;
 - (void);
 - (id);
-- (id);
+- (id)esult=%d, hasError=%d, httpStatusCode=%d, requestHeaders=%@, requestBodyStr='%@';
 - (_Bool);
 
 @end

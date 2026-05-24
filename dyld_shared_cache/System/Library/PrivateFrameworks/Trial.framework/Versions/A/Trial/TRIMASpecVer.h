@@ -9,7 +9,6 @@
 @interface TRIMASpecVer
 {
     NSString *_specifier;
-    NSString *_version;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *specifier; // @synthesize specifier=_specifier;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

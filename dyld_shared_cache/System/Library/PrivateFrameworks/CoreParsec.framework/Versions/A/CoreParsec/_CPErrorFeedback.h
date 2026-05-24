@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPError;
-
 @interface _CPErrorFeedback
 {
     unsigned long long _timestamp;
-    _CPError *_error;
-    _CPError *_underlyingError;
-    NSString *_relatedStartNetworkSearchFeedbackId;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)aultHash<WTF:(id)arg1:Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)nifest has no `declarativeNetRequest` permission.;
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (_Bool);
-- (id);
+- (id)$;
 - (void);
-- (id);
+- (id)Tq,N,V_uninitializedClientRetrySeconds;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _CPError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *relatedStartNetworkSearchFeedbackId; // @synthesize relatedStartNetworkSearchFeedbackId=_relatedStartNetworkSearchFeedbackId;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(retain, nonatomic) _CPError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

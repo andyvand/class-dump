@@ -4,14 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MCMailAccount, MCMailbox;
+@class NSArray;
+@protocol MCMailbox;
 
 @protocol MCMessageDataSource
+- (void)	=mh*;
+- (void)TZC;
+- (void)A;
+- (id <MCMailbox>);
+- (NSArray *);
+- (_Bool)ic"8@"NSError"16;
+- (void)readChanged;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MCMailAccount> account;
-@property(readonly, nonatomic) _Bool canCompact;
 @property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
 @end
 

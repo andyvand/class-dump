@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class CNContact, PKCurrencyAmount, PKPaymentApplication, PKPaymentPass;
-
 @interface PKPaymentCardDataItem : PKPaymentDataItem
 {
     _Bool _showPeerPaymentBalance;
-    PKCurrencyAmount *_peerPaymentBalance;
 }
 
 + (long long);
@@ -29,15 +26,9 @@
 - (long long);
 - (long long);
 - (_Bool)nt via command line;
-- (void)ata;
+- (void)passThumbnailImageData;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *billingAddress;
-@property(readonly, nonatomic) PKPaymentPass *pass;
-@property(readonly, nonatomic) PKPaymentApplication *paymentApplication;
-@property(retain, nonatomic) PKCurrencyAmount *peerPaymentBalance; // @synthesize peerPaymentBalance=_peerPaymentBalance;
-@property(readonly, nonatomic) _Bool requiresBillingAddress;
-@property(readonly, nonatomic) _Bool shouldShowCardArt;
 @property(nonatomic) _Bool showPeerPaymentBalance; // @synthesize showPeerPaymentBalance=_showPeerPaymentBalance;
 
 @end

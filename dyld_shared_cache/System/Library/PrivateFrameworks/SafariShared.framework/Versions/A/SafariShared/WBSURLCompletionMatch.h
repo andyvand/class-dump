@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult;
-
 @interface WBSURLCompletionMatch
 {
     long long _matchLocation;
-    SFSearchResult *_sfSearchResultValue;
-    _Bool _isTabCompletionItem;
-    _Bool _isSynthesized;
-    long long _parsecQueryID;
-    NSString *_userInput;
-    NSString *_alternativeDisplayTextForURL;
 }
 
 + (long long);

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)UndimmedDetentIdentifierWhenFloating;
+- (id);
+- (void)?ր;
+- (void)service:account:incomingOpportunisticData:withIdentifier:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)ranslator was missing mapping for MPModelPropertyStoreAssetEndpointType;
+- (id)_largestUndimmedDetentIdentifierWhenFloating;
 - (void)CompactableSet;
 
 // Remaining properties

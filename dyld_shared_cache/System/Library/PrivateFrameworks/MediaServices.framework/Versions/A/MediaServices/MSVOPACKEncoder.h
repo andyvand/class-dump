@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMapTable, NSMutableArray, NSString;
-
 @interface MSVOPACKEncoder
 {
     _Bool _hasFinished;
-    NSData *_encodedData;
-    NSMutableArray *_objects;
-    NSMapTable *_objectLookupTable;
-    NSMutableArray *_wrapperStack;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -33,7 +26,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)5!;
 - (void);
 - (void);
 - (void);
@@ -42,8 +35,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)rationError:(_Bool)arg1;
-- (void)ssionQuality:(float)arg1 destinationURL:(id)arg2;
+- (void)setOperationError:(_Bool)arg1;
+- (void)initWithFormat:(float)arg1 size:(id)arg2 compressionQuality:destinationURL: /* Error: Ran out of types for this method. */;
 - (void)tinationURL;
 - (void)c}@:(id)arg1 No data left in the read file - swapping buffer file handles;
 - (void)ary;
@@ -51,20 +44,7 @@
 - (void){Û©;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *encodedData; // @synthesize encodedData=_encodedData;
 @property(nonatomic) _Bool hasFinished; // @synthesize hasFinished=_hasFinished;
-@property(readonly, nonatomic) _Bool hasTopLevelData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMapTable *objectLookupTable; // @synthesize objectLookupTable=_objectLookupTable;
-@property(readonly, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) NSMutableArray *wrapperStack; // @synthesize wrapperStack=_wrapperStack;
 
 @end
 

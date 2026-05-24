@@ -7,20 +7,6 @@
 @interface NewsUI2.MySportsTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id featureAvailability;
-    id formatService;
-    id sportsTopicClusteringService;
-    id sportsFavoritesService;
-    id mySportsTagService;
-    id tagHighlightsService;
-    id recommendationManager;
-    id sportsSectionService;
-    id sportsScoreSorter;
-    id sportsOnboardingManager;
-    id cloudContext;
-    id sportsConfiguringDataService;
-    id name;
 }
 
 @end

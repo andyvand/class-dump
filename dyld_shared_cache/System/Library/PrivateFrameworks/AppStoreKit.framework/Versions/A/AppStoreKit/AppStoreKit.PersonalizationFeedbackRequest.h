@@ -7,10 +7,6 @@
 @interface AppStoreKit.PersonalizationFeedbackRequest
 {
     id description;
-    id options;
-    id hasDivider;
-    id id;
-    id clickAction;
 }
 
 @end

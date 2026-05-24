@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (_Bool)initWithIdentifier:qos:workloadCategory:expectedMetricValue: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)initWithText:drawMode: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (_Bool);

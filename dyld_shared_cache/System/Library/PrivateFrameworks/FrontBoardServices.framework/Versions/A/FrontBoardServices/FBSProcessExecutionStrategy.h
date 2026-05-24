@@ -9,24 +9,18 @@
 @interface FBSProcessExecutionStrategy
 {
     _Bool _customPolicy;
-    unsigned int _bksReason;
-    unsigned int _bksFlags;
-    NSString *_strategyName;
-    long long _schedulingPolicy;
-    long long _graphicsPolicy;
-    long long _jetsamPolicy;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 + (void);
 + (id)SProcessAssertion";
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,10 +31,10 @@
 - (id);
 - (unsigned int);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)rDataINS5_4SIZEEEPK6TNListIS5_Ej6TRangeIS9_EEUb_EUb_EUlP22CSCppMMapInlinedSymbolRNSt3__16vectorI10TRawSymbolIS1_ENSK_9allocatorISN_EEEER16CSCppStringCacheE_;
+- (id)childTicketQuantity;
 - (id);
 - (unsigned int);
 - (void);
@@ -48,20 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCustomPolicy) _Bool customPolicy; // @synthesize customPolicy=_customPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_bksFlags;
-@property(nonatomic) long long graphicsPolicy; // @synthesize graphicsPolicy=_graphicsPolicy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long jetsamPolicy; // @synthesize jetsamPolicy=_jetsamPolicy;
-@property(nonatomic) unsigned int reason; // @synthesize reason=_bksReason;
-@property(nonatomic) long long schedulingPolicy; // @synthesize schedulingPolicy=_schedulingPolicy;
 @property(copy, nonatomic) NSString *strategyName; // @synthesize strategyName=_strategyName;
-@property(readonly) Class superclass;
 
 @end
 

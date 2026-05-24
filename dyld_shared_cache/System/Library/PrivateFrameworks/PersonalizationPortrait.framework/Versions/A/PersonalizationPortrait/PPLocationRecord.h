@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NSUUID, PPLocation, PPSource;
+@class NSUUID;
 
 @interface PPLocationRecord
 {
     NSUUID *_uuid;
-    PPLocation *_location;
-    PPSource *_source;
-    unsigned char _algorithm;
-    float _initialScore;
-    float _decayRate;
-    NSArray *_contextualNamedEntities;
-    NSString *_extractionOsBuild;
-    unsigned int _extractionAssetVersion;
-    BOOL _bucketizedSentimentScore;
-    _Bool _isAmbiguous;
 }
 
 + (id);
@@ -32,14 +22,14 @@
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)0@0:8r^Q16r^q24Q32 /* Error: Ran out of types for this method. */;
+- (id)attachmentView:(id)arg1 willMoveToSuperview: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned short);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)SimplifiedChinese;
 - (double);
 - (_Bool);
 - (void);
@@ -49,23 +39,12 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)sions/A/Catalyst;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short algorithm;
-@property(readonly, nonatomic) NSArray *contextualNamedEntities; // @synthesize contextualNamedEntities=_contextualNamedEntities;
-@property(readonly, nonatomic) double decayRate;
-@property(readonly, nonatomic) unsigned int extractionAssetVersion;
-@property(readonly, nonatomic) NSString *extractionOsBuild; // @synthesize extractionOsBuild=_extractionOsBuild;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) double initialScore;
 @property(readonly, nonatomic) _Bool isAmbiguous; // @synthesize isAmbiguous=_isAmbiguous;
-@property(readonly, nonatomic) PPLocation *location;
-@property(readonly, nonatomic) double sentimentScore;
-@property(readonly, nonatomic) PPSource *source;
-@property(readonly, nonatomic) NSUUID *uuid;
 
 @end
 

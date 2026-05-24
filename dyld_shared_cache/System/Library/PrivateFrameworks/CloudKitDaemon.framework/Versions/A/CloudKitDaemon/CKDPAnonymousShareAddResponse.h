@@ -20,13 +20,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
+- (id);
 - (id);
-- (id);
-- (void)s;
+- (void)requiredZoneCryptoFeatures;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousShareTupleHash; // @synthesize anonymousShareTupleHash=_anonymousShareTupleHash;
 @property(readonly, nonatomic) _Bool hasAnonymousShareTupleHash;
 
 @end

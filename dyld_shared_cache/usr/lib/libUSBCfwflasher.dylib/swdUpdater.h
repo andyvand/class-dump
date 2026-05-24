@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface swdUpdater
 {
     unsigned int device;
     unsigned long long entryID;
-    NSString *name;
-    _Bool verbose;
-    _Bool updated;
-    _Bool retriesEnabled;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)ersion file in %s
+;
+- (void)J;
 - (id);
 - (_Bool);
 - (id);

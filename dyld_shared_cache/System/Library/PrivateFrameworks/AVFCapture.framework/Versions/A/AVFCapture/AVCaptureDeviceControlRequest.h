@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceControlRequest
 {
     CDUnknownBlockType _completionBlock;
-    int _errorCode;
-    int _requestID;
 }
 
 + (id);
 - (id);
-- (void);
-- (int);
+- (void)_accessPlugins;
+- (int)documentsReceivedAfter are not supported. Ignoring date.;
 - (CDUnknownBlockType);
-- (void)tyFactors;
+- (void)_degradedCaptureQualityFactors;
 - (int)G;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, nonatomic) int requestID; // @synthesize requestID=_requestID;
 
 @end
 

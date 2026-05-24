@@ -5,13 +5,10 @@
 //
 
 @class PXStoryResourcesDataSource;
-@protocol PXDisplayAsset;
 
 @interface _PXStoryConcreteScorerDisplayAsset
 {
     PXStoryResourcesDataSource *_resourcesDataSource;
-    long long _resourceIndex;
-    id <PXDisplayAsset> _displayAsset;
 }
 
 - (void);

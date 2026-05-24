@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSCountedSet, NSMutableDictionary, PXStoryModel;
+@class NSMutableDictionary, PXStoryModel;
 
 @interface PXStoryAnimationController : PXStoryController
 {
     NSMutableDictionary *_animationInfoByIdentifier;
-    NSCountedSet *_checkOutCountsByIdentifier;
-    _Bool _isUpdatingAnimations;
-    PXStoryModel *_model;
 }
 
 - (id);
@@ -27,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)eAfterSaving:allowSkippingUnsavedAssets:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)0-pZ;
+- (id)presentSaveAlertForUnsavedSyndicatedAssets:canContinueAfterSaving:allowSkippingUnsavedAssets:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)splaceTopLeadingCardTitle;
 - (void)hareInvitationsDataSourceManager;
 - (void);

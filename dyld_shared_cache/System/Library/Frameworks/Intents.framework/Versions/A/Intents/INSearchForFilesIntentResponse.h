@@ -6,51 +6,38 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface INSearchForFilesIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)8@0:(long long)arg1 8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40i72q76B84;
++ (int)e:(long long)arg1 minimumDimension:requestedTypes: /* Error: Ran out of types for this method. */;
++ (long long)akeSandboxWrapper:(int)arg1;
++ (_Bool)initWithAdditionsPresentOnURL:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)?;
 - (long long);
+- (void)_indexProxy;
+- (id);
+- (id)/usr/lib/swift/libswiftCompression.dylib;
 - (void);
+- (id)notificationCategories;
 - (id);
 - (id);
 - (void);
+- (void)ncoming QoS is less than 'default', promoting to 'default';
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)equested: /* Error: Ran out of types for this method. */;
-- (long long)String: /* Error: Ran out of types for this method. */;
+- (id)_codeFromType:errorCode:appLaunchRequested: /* Error: Ran out of types for this method. */;
+- (long long)shortcutAvailabilitiesAsString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)QP;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *entities;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *numResults;
-@property(copy) NSString *query;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

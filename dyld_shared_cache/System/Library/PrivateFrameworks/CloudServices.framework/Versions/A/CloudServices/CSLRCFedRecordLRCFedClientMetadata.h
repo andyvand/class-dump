@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dentifier is nil.;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIcdp;
-@property(retain, nonatomic) CSLRCFedRecordLRCFedClientMetadataLRCFediCDP *icdp; // @synthesize icdp=_icdp;
 
 @end
 

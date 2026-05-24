@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.InterestRepository
 {
     id interestStore;
-    id syncKeysRepository;
 }
 
 @end

@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetDefrosterSettingsInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)B24@0:(long long)arg1 8@"Protocol"16;
++ (int)permanentStorageForItemAtURL:(long long)arg1 allocateIfNone:error: /* Error: Ran out of types for this method. */;
++ (long long)itemIdentifier;
++ (_Bool)initWithURLWrapper:(long long)arg1 parentDirectoryWrapper:contentType: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)sendAdaptiveTriggerPayload:(id)arg1;
+- (id)c;
+- (void)ad only support, exiting without transferring asset to hand-off folder;
 - (id);
 - (id);
 - (long long)NIntentResponseObserver>",R,N,V_observer;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

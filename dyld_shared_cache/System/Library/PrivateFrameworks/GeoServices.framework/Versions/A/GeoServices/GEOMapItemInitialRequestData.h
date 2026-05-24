@@ -9,29 +9,25 @@
 @interface GEOMapItemInitialRequestData
 {
     GEOPDPlaceRequestParameters *_placeRequestParameters;
-    int _requestType;
-    struct {
-        unsigned int has_requestType:1;
-    } _flags;
 }
 
-+ (_Bool)es:(id)arg1;
++ (_Bool)setHasSupportsSilentRouteUpdates:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)ioProviderUUID:(id)arg1 startStreamOption:completion:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)	;
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool)eoType"b1"read_unknownFields"b1"read_geoIds"b1"read_matchedToken"b1"wrote_anyField"b1};
-- (id)rBlock:(struct _NSZone *)arg1;
-- (_Bool)IfNeeded:traits: /* Error: Ran out of types for this method. */;
-- (id)hedLocation;
-- (id)atingCategory;
+- (id)unsafe_readAnalyticDataWithVisitorBlock:(struct _NSZone *)arg1;
+- (_Bool)ticketForBatchReverseGeocodeLocations:shiftLocationsIfNeeded:traits: /* Error: Ran out of types for this method. */;
+- (id)isMatchedLocation;
+- (id)_ratingCategory;
 - (id)9­Øõ+;
 - (id)¬KôÀJ;
 - (void)Ä$0ð@;
@@ -43,10 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPlaceRequestParameters;
 @property(nonatomic) _Bool hasRequestType;
-@property(retain, nonatomic) GEOPDPlaceRequestParameters *placeRequestParameters;
-@property(nonatomic) int requestType;
 
 @end
 

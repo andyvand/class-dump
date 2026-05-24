@@ -7,10 +7,6 @@
 @interface ChronoKit.WidgetUpdateTimer
 {
     id subject;
-    id quantum;
-    id queue;
-    id scheduledDate;
-    id _timer;
 }
 
 @end

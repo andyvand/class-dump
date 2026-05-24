@@ -10,42 +10,30 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureStillImageOutputUtils
 {
     NSDictionary *_outputSettings;
-    long long _imageOrientation;
-    _Bool _imageMirrored;
-    unsigned int _imageDataFormatType;
-    CDStruct_79c71658 _transferDimensions;
-    unsigned int _transferPixelFormatType;
-    struct opaqueCMFormatDescription *_sourceFormatDescription;
-    struct __CVPixelBufferPool *_cvRotationBufferPool;
-    struct OpaqueVTPixelRotationSession *_vtPixelRotationSession;
-    struct __CVPixelBufferPool *_cvTransferBufferPool;
-    struct OpaqueVTPixelTransferSession *_vtPixelTransferSession;
-    struct OpaqueVTCompressionSession *_vtCompressionSession;
 }
 
 + (void);
+- (void)_parentSection;
+- (struct opaqueCMSampleBuffer *)baseURI:(id)arg1 %{public}@ options:(long long)arg2 %lu… | opening database [] result=%d;
+- (id)cannot be NULL;
+- (id)getkSymptomDiagnosticErrorDisabled(void);
+- (struct opaqueCMSampleBuffer *)ta>
+;
+- (void)oken;
+- (int)of <transliterations> element;
+- (id)tart of <translations> element;
+- (struct opaqueCMSampleBuffer *)%@ %p> Name:(struct opaqueCMSampleBuffer *)arg1 %@, identifier:(_Bool)arg2 %@;
+- (struct opaqueCMSampleBuffer *)lowest;
+- (_Bool)SVBlockGuard"16^B24;
 - (void);
-- (struct opaqueCMSampleBuffer *);
-- (id);
-- (id);
-- (struct opaqueCMSampleBuffer *);
-- (void);
-- (int);
-- (id);
-- (struct opaqueCMSampleBuffer *);
-- (struct opaqueCMSampleBuffer *);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)2@40@48B56B60@64^@72;
+- (void)harvestDrainedNumberOfMails:(long long)arg1;
 - (id);
 - (long long);
-- (void);
+- (void)_allowHEIFPrewarming;
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isImageMirrored) _Bool imageMirrored;
-@property(nonatomic) long long imageOrientation;
 @property(copy, nonatomic) NSDictionary *outputSettings;
 
 @end

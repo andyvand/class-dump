@@ -11,19 +11,17 @@
 @interface PKPaymentNotificationActionRequest : PKPaymentWebServiceRequest
 {
     NSString *_requestID;
-    NSString *_action;
 }
 
 - (id);
 - (id);
 - (void)
 × ;
-- (id)inationIdentifier;
-- (void)uest:(id)arg1 urlRequest:secureDictionary:dictionary: /* Error: Ran out of types for this method. */;
+- (id)_destinationIdentifier;
+- (void)configureOverlayRequest:(id)arg1 urlRequest:secureDictionary:dictionary: /* Error: Ran out of types for this method. */;
 - (void)esentation;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VMUSourceInfo;
+@class NSString;
 
 @interface VMUSymbol
 {
     NSString *_name;
-    VMUSourceInfo *_sourceInfo;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_dmfPolicyFromScreenTimeShieldPolicy: /* Error: Ran out of types for this method. */;
 
 @end
 

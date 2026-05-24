@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotIDSStream.h>
 
-@class HMDDevice, NSString;
-@protocol HMDCameraSnapshotIDSStreamReceiverDelegate;
+@class HMDDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotIDSStreamReceiver : HMDCameraSnapshotIDSStream
 {
     HMDDevice *_remoteDevice;
-    id <HMDCameraSnapshotIDSStreamReceiverDelegate> _delegate;
 }
 
 + (id)Âÿ¶¶ÞB;
@@ -21,24 +19,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)esponse_countdown timed out. Killing sshHelper.;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id)1Â0@ù
 × ;
 - (void)n;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraSnapshotIDSStreamReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMDDevice *remoteDevice; // @synthesize remoteDevice=_remoteDevice;
-@property(readonly) Class superclass;
 
 @end
 

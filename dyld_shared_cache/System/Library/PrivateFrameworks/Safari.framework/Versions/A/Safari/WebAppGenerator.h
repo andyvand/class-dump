@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface WebAppGenerator
 {
     NSURL *_destinationFolderURL;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _appGenerationSuddenTerminationDisabler;
 }
 
 + (id);

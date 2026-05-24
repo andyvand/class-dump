@@ -11,8 +11,6 @@
 @interface VSFileWriteOperation : VSAsyncOperation
 {
     VSOptional *_data;
-    VSOptional *_destination;
-    NSError *_error;
 }
 
 - (id);
@@ -21,13 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VSOptional *data; // @synthesize data=_data;
-@property(retain, nonatomic) VSOptional *destination; // @synthesize destination=_destination;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end

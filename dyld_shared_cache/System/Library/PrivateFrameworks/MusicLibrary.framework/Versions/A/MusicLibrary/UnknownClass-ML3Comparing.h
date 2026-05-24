@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (ML3Comparing)
-- (id);
-- (_Bool);
-- (void);
+- (id)_analysisStateWasChangedForWorkerType: /* Error: Ran out of types for this method. */;
+- (_Bool)_ambientSuggestionEntryLimit;
+- (void)_allowsAuthorizationWithPhotoKitEntitlement;
 @end
 

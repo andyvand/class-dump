@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)keyboardInputChangedSelection: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (_Bool);

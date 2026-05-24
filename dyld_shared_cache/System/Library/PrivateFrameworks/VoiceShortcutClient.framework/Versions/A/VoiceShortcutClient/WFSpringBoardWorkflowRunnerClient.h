@@ -6,16 +6,15 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunnerClient.h>
 
-@class NSString, WFSpringBoardWebClipMetadata;
+@class WFSpringBoardWebClipMetadata;
 
 @interface WFSpringBoardWorkflowRunnerClient : WFWorkflowRunnerClient
 {
     WFSpringBoardWebClipMetadata *_metadata;
-    WFSpringBoardWorkflowRunnerClient *_retainedSelf;
 }
 
 - (void);
-- (id);
+- (id){;
 - (id);
 - (void);
 - (id);
@@ -27,15 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) WFSpringBoardWebClipMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) WFSpringBoardWorkflowRunnerClient *retainedSelf; // @synthesize retainedSelf=_retainedSelf;
-@property(readonly) Class superclass;
 
 @end
 

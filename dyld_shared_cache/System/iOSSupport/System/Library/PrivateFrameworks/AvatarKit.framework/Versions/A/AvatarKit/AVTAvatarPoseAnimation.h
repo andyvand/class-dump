@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPose, NSDictionary, NSString;
+@class AVTAvatarPose;
 
 @interface AVTAvatarPoseAnimation
 {
     AVTAvatarPose *_staticPose;
-    NSDictionary *_staticPhysicsStates;
-    NSDictionary *_blendshapeAnimations;
-    NSDictionary *_perNodeAnimations;
-    NSString *_animationBaseKey;
 }
 
 + (void);
@@ -44,11 +40,10 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)b;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
 @property(readonly, nonatomic) AVTAvatarPose *staticPose; // @synthesize staticPose=_staticPose;
 
 @end

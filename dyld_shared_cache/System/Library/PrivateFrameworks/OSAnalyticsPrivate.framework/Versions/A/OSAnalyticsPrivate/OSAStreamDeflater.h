@@ -7,15 +7,12 @@
 @interface OSAStreamDeflater
 {
     struct z_stream_s _strm;
-    char *_in;
-    char *_out;
-    _Bool _capViolation;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)session_addMC2UCDetectionInfo(APSenderSessionRef, CFMutableDictionaryRef);
+- (id)*, CFArrayRef *);
+- (_Bool)rolStreamSetup(APSenderSessionRef, CFArrayRef, int *, int *, CFDictionaryRef *, CFArrayRef *);
+- (void)`M;
 - (id);
 
 // Remaining properties

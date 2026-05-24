@@ -14,10 +14,10 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title;

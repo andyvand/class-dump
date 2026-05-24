@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ECMessageFlags
 {
     union ECMessageFlagsHashedBitField _storage;
@@ -13,36 +11,36 @@
 
 + (id);
 + (_Bool);
+- (id)onse version seems incorrect; have '%{public}@' but expecting '%{public}@';
+- (_Bool)utton %@ in tap button list.;
+- (void)is transitioning. Will continue fullscreen dismissal once complete. %@;
+- (void)continue fullscreen presentation once complete. %@;
+- (void)this menu to be UIActions.;
+- (void)on available;
+- (void)stom media presentation option:(unsigned long long)arg1 %@;
+- (void)nCompensation:(unsigned long long)arg1 %@;
+- (_Bool)should only be set once on an AVMobileChromelessControlsView.;
+- (unsigned long long)er view.;
+- (_Bool)ta (%@);
+- (unsigned long long)ntext is no longer around, playerViewController will not be dismissed.;
+- (_Bool)hase with remaining velocity %f.;
+- (id)dNotSearch (errorDict = %{public}@);
+- (id)device is not AppleTV (%@);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)observableWithFuture:(_Bool)arg1;
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)Ն;
+- (id)_isExclaveSharedCache;
+- (unsigned long long)	kl;
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)$;
 - (id);
 - (_Bool);
 - (void);
@@ -52,30 +50,7 @@
 - (_Bool)úÿ¹ð;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deleted;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool draft;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) unsigned long long flagColor;
-@property(nonatomic) _Bool flagged;
-@property(nonatomic) _Bool forwarded;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isJunk) _Bool junk;
-@property(nonatomic) unsigned long long junkLevel;
-@property(nonatomic) _Bool junkLevelSetByUser;
 @property(nonatomic) _Bool read;
-@property(nonatomic) _Bool redirected;
-@property(nonatomic) _Bool replied;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool touchedByCleanup;
 
 @end
 

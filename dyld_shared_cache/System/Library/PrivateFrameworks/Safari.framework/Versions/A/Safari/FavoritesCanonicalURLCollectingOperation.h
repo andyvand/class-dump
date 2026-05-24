@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, SafariWebBookmarkList;
-@protocol NSCopying;
+@class SafariWebBookmarkList;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesCanonicalURLCollectingOperation
 {
     SafariWebBookmarkList *_rootBookmarkListForFavorites;
-    NSSet *_canonicalURLs;
 }
 
 + (_Bool);
@@ -25,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)Ð/¿ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSCopying> cacheKey;
-@property(readonly, copy, nonatomic) NSSet *canonicalURLs; // @synthesize canonicalURLs=_canonicalURLs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id result;
 @property(readonly, nonatomic) SafariWebBookmarkList *rootBookmarkListForFavorites; // @synthesize rootBookmarkListForFavorites=_rootBookmarkListForFavorites;
-@property(readonly) Class superclass;
 
 @end
 

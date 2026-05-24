@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSThread, NSURLAuthenticationChallenge, NSURLSession, NSURLSessionDataTask;
+@class NSThread;
 
 @interface DDMAssetURLProtocol
 {
     _Bool _isAuthenticating;
-    NSThread *_clientThread;
-    NSArray *_modes;
-    CDUnknownBlockType _pendingChallengeCompletionHandler;
-    NSURLAuthenticationChallenge *_pendingChallenge;
-    NSURLSession *_session;
-    NSURLSessionDataTask *_task;
-    double _startTime;
-    long long _retryCount;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (void);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
 - (void);
 - (void);
+- (void)|�;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (CDUnknownBlockType);
-- (id);
+- (id)@9	;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -60,19 +51,10 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)rZ;
 
 // Remaining properties
 @property __weak NSThread *clientThread; // @synthesize clientThread=_clientThread;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property _Bool isAuthenticating; // @synthesize isAuthenticating=_isAuthenticating;
-@property(copy) NSArray *modes; // @synthesize modes=_modes;
-@property(retain) NSURLAuthenticationChallenge *pendingChallenge; // @synthesize pendingChallenge=_pendingChallenge;
-@property(copy) CDUnknownBlockType pendingChallengeCompletionHandler; // @synthesize pendingChallengeCompletionHandler=_pendingChallengeCompletionHandler;
-@property long long retryCount; // @synthesize retryCount=_retryCount;
-@property(retain) NSURLSession *session; // @synthesize session=_session;
-@property double startTime; // @synthesize startTime=_startTime;
-@property(retain) NSURLSessionDataTask *task; // @synthesize task=_task;
 
 @end
 

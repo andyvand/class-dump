@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FPPathComponentDisplayMetadata
 {
     NSString *_displayName;
-    NSString *_suffix;
-    NSURL *_URL;
-    NSURL *_bundleURL;
-    NSString *_bundleID;
 }
 
 + (_Bool);
+- (id)#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end
 

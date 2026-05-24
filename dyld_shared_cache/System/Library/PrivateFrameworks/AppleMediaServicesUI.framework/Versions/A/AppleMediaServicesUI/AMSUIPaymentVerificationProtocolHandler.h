@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSMutableDictionary, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIPaymentVerificationProtocolHandler
 {
     ACAccount *_account;
-    NSMutableDictionary *_accountParameters;
 }
 
 + (id);
@@ -26,21 +25,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ш;
 - (void)"<AMSBagProtocol>"32@"AMSUIPaymentVerificationMetrics"40@"NSViewController"48@"NSDictionary"56;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSMutableDictionary *accountParameters; // @synthesize accountParameters=_accountParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

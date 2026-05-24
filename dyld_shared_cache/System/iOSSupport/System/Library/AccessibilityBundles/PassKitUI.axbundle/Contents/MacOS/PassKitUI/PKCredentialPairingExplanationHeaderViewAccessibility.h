@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_reallyShowGuidance;
++ (void);
 - (void);
 
 @end

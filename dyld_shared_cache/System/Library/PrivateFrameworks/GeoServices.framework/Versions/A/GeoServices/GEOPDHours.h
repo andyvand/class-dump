@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDHoursThreshold, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDHours
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _days;
-    struct GEOPDLocalTimeRange *_timeRanges;
-    unsigned long long _timeRangesCount;
-    unsigned long long _timeRangesSpace;
-    GEOPDHoursThreshold *_hoursThreshold;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_days:1;
-        unsigned int read_timeRanges:1;
-        unsigned int read_hoursThreshold:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool);
 + (_Bool);
++ (id)>;
 + (id);
-+ (id);
-+ (_Bool)Region:(id)arg1;
-- (struct GEOPDLocalTimeRange *);
-- (struct GEOPDLocalTimeRange);
++ (_Bool)setHomeMetroRegion:(id)arg1;
+- (struct GEOPDLocalTimeRange *)customValuesData;
+- (struct GEOPDLocalTimeRange)bundleIdentifiersString;
 - (void);
 - (void);
 - (void);
@@ -44,7 +28,7 @@
 - (int *);
 - (int);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -55,8 +39,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)TQ,N,V_secondPassAssetQueryStartTime;
+- (void)stitialAudioFiles:(id)arg1 interstitialLevel:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -64,19 +48,13 @@
 - (id);
 - (void);
 - (id)lineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)he;
+- (id)_entitlementCache;
 - (id),||}¨(`l;
-- (id)redentials;
+- (id)userCredentials;
 - (void)®Gáz8t@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *days;
 @property(readonly, nonatomic) unsigned long long daysCount;
-@property(readonly, nonatomic) _Bool hasHoursThreshold;
-@property(retain, nonatomic) GEOPDHoursThreshold *hoursThreshold;
-@property(readonly, nonatomic) struct GEOPDLocalTimeRange *timeRanges;
-@property(readonly, nonatomic) unsigned long long timeRangesCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

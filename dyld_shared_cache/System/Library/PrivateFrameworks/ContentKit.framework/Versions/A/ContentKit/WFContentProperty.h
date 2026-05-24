@@ -4,85 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-@protocol WFContentPropertyPossibleValuesGetter, WFPropertyListObject;
+@class NSArray;
 
 @interface WFContentProperty
 {
     _Bool _canLowercaseName;
-    _Bool _multipleValues;
-    _Bool _filterable;
-    _Bool _sortable;
-    _Bool _gettable;
-    _Bool _settable;
-    _Bool _appendable;
-    _Bool _removable;
-    _Bool _primary;
-    _Bool _caseInsensitive;
-    _Bool _irrational;
-    id <WFContentPropertyPossibleValuesGetter> _possibleValues;
-    NSString *_keyPath;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _setterBlock;
-    NSString *_name;
-    NSString *_singularItemName;
-    NSArray *_propertyClasses;
-    NSArray *_allowedOperators;
-    id <WFPropertyListObject> _userInfo;
-    NSString *_negativeName;
-    unsigned long long _tense;
-    unsigned long long _timeUnits;
-    unsigned long long _preferredTimeUnit;
-    unsigned long long _comparableUnits;
-    NSString *_measurementUnitType;
-    NSString *_displayName;
-    NSString *_linkPropertyIdentifier;
-    NSString *_spotlightAttributeKey;
-    NSString *_spotlightCustomAttributeKey;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedOperators; // @synthesize allowedOperators=_allowedOperators;
-@property(readonly, copy, nonatomic) NSSet *allowedTransactionModes;
-@property(readonly, nonatomic, getter=isAppendable) _Bool appendable; // @synthesize appendable=_appendable;
-@property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) _Bool canLowercaseName; // @synthesize canLowercaseName=_canLowercaseName;
-@property(readonly, nonatomic) _Bool caseInsensitive; // @synthesize caseInsensitive=_caseInsensitive;
-@property(readonly, nonatomic) unsigned long long comparableUnits; // @synthesize comparableUnits=_comparableUnits;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic, getter=isFilterable) _Bool filterable; // @synthesize filterable=_filterable;
-@property(readonly, nonatomic, getter=isGettable) _Bool gettable; // @synthesize gettable=_gettable;
-@property(readonly, nonatomic) _Bool hasNegative;
-@property(readonly, nonatomic) _Bool hasPossibleValues;
-@property(readonly, nonatomic, getter=isIrrational) _Bool irrational; // @synthesize irrational=_irrational;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, nonatomic, getter=isLabeledValue) _Bool labeledValue;
-@property(readonly, nonatomic) NSString *linkPropertyIdentifier; // @synthesize linkPropertyIdentifier=_linkPropertyIdentifier;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, copy, nonatomic) NSString *localizedNegativeName;
-@property(readonly, copy, nonatomic) NSString *localizedSingularItemName;
-@property(readonly, nonatomic) NSString *measurementUnitType; // @synthesize measurementUnitType=_measurementUnitType;
-@property(readonly, nonatomic) _Bool multipleValues; // @synthesize multipleValues=_multipleValues;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *negativeName; // @synthesize negativeName=_negativeName;
 @property(readonly, copy, nonatomic) NSArray *possibleLabels;
-@property(readonly, nonatomic) id <WFContentPropertyPossibleValuesGetter> possibleValues; // @synthesize possibleValues=_possibleValues;
-@property(readonly, nonatomic) unsigned long long preferredTimeUnit; // @synthesize preferredTimeUnit=_preferredTimeUnit;
-@property(readonly, nonatomic, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
-@property(readonly, nonatomic) NSArray *propertyClasses; // @synthesize propertyClasses=_propertyClasses;
-@property(readonly, nonatomic, getter=isRemovable) _Bool removable; // @synthesize removable=_removable;
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
-@property(readonly, copy, nonatomic) CDUnknownBlockType setterBlock; // @synthesize setterBlock=_setterBlock;
-@property(readonly, copy, nonatomic) NSString *singularItemName; // @synthesize singularItemName=_singularItemName;
-@property(readonly, nonatomic, getter=isSortable) _Bool sortable; // @synthesize sortable=_sortable;
-@property(readonly, nonatomic) NSString *spotlightAttributeKey; // @synthesize spotlightAttributeKey=_spotlightAttributeKey;
-@property(readonly, nonatomic) NSString *spotlightCustomAttributeKey; // @synthesize spotlightCustomAttributeKey=_spotlightCustomAttributeKey;
-@property(readonly, nonatomic) unsigned long long tense; // @synthesize tense=_tense;
-@property(readonly, nonatomic) unsigned long long timeUnits; // @synthesize timeUnits=_timeUnits;
-@property(readonly, copy, nonatomic) id <WFPropertyListObject> userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) Class valueItemClass;
 
 @end
 

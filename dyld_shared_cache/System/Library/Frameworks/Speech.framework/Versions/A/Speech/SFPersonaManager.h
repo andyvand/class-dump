@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSSet;
+@class NSHashTable, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFPersonaManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSSet *_personaIds;
-    NSHashTable *_observers;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)R;
 + (id);
 + (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hair_straight_short_up_fauxhawk;
 - (id);
 - (id);
-- (void);
+- (void)declaredLayoutConstraints;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, copy, nonatomic) NSSet *personaIds; // @synthesize personaIds=_personaIds;
 
 @end
 

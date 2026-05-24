@@ -6,32 +6,25 @@
 
 #import <EventKitUI/EKRecurrenceChooserController.h>
 
-@class EKRecurrenceOrdinalPickerViewController, NSString, UITableViewCell;
+@class EKRecurrenceOrdinalPickerViewController;
 
 @interface EKRecurrenceOrdinalChooserController : EKRecurrenceChooserController
 {
     EKRecurrenceOrdinalPickerViewController *_pickerViewController;
-    UITableViewCell *_cell;
 }
 
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void)ringForDeleteButton: /* Error: Ran out of types for this method. */;
+- (void)setupDeleteAlertWithOptions:viewController:forEvent:stringForDeleteButton: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

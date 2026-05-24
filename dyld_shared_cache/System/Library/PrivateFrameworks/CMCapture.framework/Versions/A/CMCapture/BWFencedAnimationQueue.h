@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_semaphore;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface BWFencedAnimationQueue
 {
     NSMutableArray *_fencedAnimationQueue;
-    NSObject<OS_dispatch_semaphore> *_fencedAnimationQueueSemaphore;
-    unsigned int _fencedAnimationFramerateThrottle;
-    double _timeOfLastFencedAnimation;
-    struct os_unfair_lock_s _queueLock;
 }
 
 - (id);

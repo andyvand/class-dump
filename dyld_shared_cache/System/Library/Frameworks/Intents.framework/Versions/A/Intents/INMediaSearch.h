@@ -4,66 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSArray, NSString;
+@class NSArray;
 
 @interface INMediaSearch
 {
     long long _mediaType;
-    long long _sortOrder;
-    NSString *_mediaName;
-    NSString *_artistName;
-    NSString *_albumName;
-    NSArray *_genreNames;
-    NSArray *_moodNames;
-    INDateComponentsRange *_releaseDate;
-    long long _reference;
-    NSString *_mediaIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)_propagateBattery;
+- (long long)s@;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)assetSpecifier;
+- (void);            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusin', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)|;
 - (long long)or">36;
-- (id)lues;
-- (void)searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)clearPairImageValues;
+- (void)provideAdditionalDetailsOptionsForReportIncident:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)Ô;
 - (id)c;
 
 // Remaining properties
 @property(readonly, copy) NSArray *activityNames;
-@property(readonly, copy) NSString *albumName; // @synthesize albumName=_albumName;
-@property(readonly, copy) NSString *artistName; // @synthesize artistName=_artistName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *genreNames; // @synthesize genreNames=_genreNames;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(readonly, copy) NSString *mediaName; // @synthesize mediaName=_mediaName;
-@property(readonly) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, copy) NSArray *moodNames; // @synthesize moodNames=_moodNames;
-@property(readonly) long long reference; // @synthesize reference=_reference;
-@property(readonly, copy) INDateComponentsRange *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(readonly) long long sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(readonly) Class superclass;
 
 @end
 

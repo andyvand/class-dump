@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol OSADiagnosticWriteObserver;
 
 @interface WriteObserver
 {
     id <OSADiagnosticWriteObserver> _observer;
-    NSSet *_bugTypes;
 }
 
 - (id);
@@ -22,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *bugTypes; // @synthesize bugTypes=_bugTypes;
 @property(readonly, nonatomic) __weak id <OSADiagnosticWriteObserver> observer; // @synthesize observer=_observer;
 
 @end

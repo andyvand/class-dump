@@ -5,5 +5,6 @@
 //
 
 @protocol TUCallHistoryControllerXPCServer
+- (void)(;
 @end
 

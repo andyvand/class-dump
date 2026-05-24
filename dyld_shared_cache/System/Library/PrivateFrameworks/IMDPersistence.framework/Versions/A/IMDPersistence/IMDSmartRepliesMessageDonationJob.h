@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface IMDSmartRepliesMessageDonationJob
 {
@@ -16,20 +16,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)rS;
 - (id);
 - (void)RE ROWID >= ? ORDER BY ROWID ASC LIMIT ?;;
 - (void)dule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE m.guid = ?;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *srMessages; // @synthesize srMessages=_srMessages;
-@property(readonly) Class superclass;
 
 @end
 

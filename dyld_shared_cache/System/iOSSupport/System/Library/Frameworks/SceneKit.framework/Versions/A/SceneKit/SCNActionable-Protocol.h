@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol SCNActionable
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actionKeys;
 @property(readonly, nonatomic) _Bool hasActions;
 @end
 

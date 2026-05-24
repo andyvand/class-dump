@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetSegmentReportSampleInformation, NSString;
-
 @interface AVAssetSegmentTrackReport
 {
     int _trackID;
-    NSString *_mediaType;
-    CDStruct_1b6d18a9 _earliestPresentationTimeStamp;
-    CDStruct_1b6d18a9 _duration;
-    AVAssetSegmentReportSampleInformation *_firstVideoSampleInformation;
 }
 
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (int)=;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 earliestPresentationTimeStamp; // @synthesize earliestPresentationTimeStamp=_earliestPresentationTimeStamp;
-@property(readonly, nonatomic) AVAssetSegmentReportSampleInformation *firstVideoSampleInformation; // @synthesize firstVideoSampleInformation=_firstVideoSampleInformation;
-@property(readonly, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
 @property(readonly, nonatomic) int trackID; // @synthesize trackID=_trackID;
 
 @end

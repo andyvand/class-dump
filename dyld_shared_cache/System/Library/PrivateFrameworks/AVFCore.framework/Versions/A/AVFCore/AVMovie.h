@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAsset.h>
 
-@class AVMediaDataStorage, AVMovieInternal, NSArray, NSData, NSURL;
+@class AVMovieInternal, NSURL;
 
 @interface AVMovie : AVAsset
 {
@@ -18,13 +18,13 @@
 + (id);
 + (_Bool);
 + (void)or AVVideoPixelAspectRatioKey must specify a positive value for AVVideoPixelAspectRatioVerticalSpacingKey;
-- (_Bool);
-- (unsigned long long);
+- (_Bool)ionary",R,N,V_lexemes;
+- (unsigned long long)	;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)LS0T|U,V;
 - (void);
 - (void);
 - (_Bool);
@@ -36,7 +36,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (Class);
@@ -50,23 +50,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSString :(id)arg1 %@;
 - (_Bool);
-- (id);
+- (id);
 - (struct OpaqueFigFormatReader *);
 - (id);
-- (id)ForContentKeyRequest:(id)arg1;
-- (void)eCount;
+- (id)renewExpiringResponseDataForContentKeyRequest:(id)arg1;
+- (void)mediaStartSeamSampleCount;
 - (id)ealloc];
-- (id)n;
+- (id)AVFragmentedMovieDurationDidChangeNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) _Bool canContainMovieFragments;
-@property(readonly, nonatomic) _Bool containsMovieFragments;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) AVMediaDataStorage *defaultMediaDataStorage;
-@property(readonly, nonatomic) NSArray *tracks;
 
 @end
 

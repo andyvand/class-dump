@@ -4,40 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAppStripLayout, NSString, NSTimer, UICollectionView, UILongPressGestureRecognizer, UIView;
-@protocol CKAppStripPredictiveTypeTransition, CKBrowserSwitcherFooterViewDataSource, CKBrowserSwitcherFooterViewDelegate;
+@class CKAppStripLayout, UIView;
 
 @interface CKBrowserSwitcherFooterView
 {
     CKAppStripLayout *_appStripLayout;
-    UICollectionView *_appStripCollectionView;
-    UIView *_predictiveTypeSnapshotView;
-    UIView *_visibleView;
-    id <CKAppStripPredictiveTypeTransition> _animator;
-    struct UIEdgeInsets _minifiedContentInsets;
-    _Bool _isMagnified;
-    _Bool _isDoingMagnificationAnimation;
-    _Bool _isMagnificationEnabled;
-    _Bool _ignoreDataSourceChanges;
-    NSTimer *_minificationTimer;
-    UILongPressGestureRecognizer *_longPressRecognizer;
-    UILongPressGestureRecognizer *_touchTracker;
-    _Bool _hasTouches;
-    _Bool _scrollsLastUsedAppIconIntoView;
-    _Bool _hideShinyStatus;
-    _Bool _toggleBordersOnInterfaceStyle;
-    _Bool _minifiesOnSelection;
-    _Bool _isMinifyingOnTranscriptScroll;
-    id <CKBrowserSwitcherFooterViewDelegate> _delegate;
-    id <CKBrowserSwitcherFooterViewDataSource> _dataSource;
-    double _snapshotVerticalOffset;
-    UIView *_grayLine;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)titleQueryDrawingDispatchQueue:(id)arg1;
+- (void)edString",R,N,V_highlightsAttributedString;
+- (void)torQueue;
+- (void),R,N,V_element;
 - (void);
 - (void);
 - (_Bool);
@@ -45,6 +22,7 @@
 - (double);
 - (_Bool);
 - (void);
+- (void)account;
 - (void);
 - (void);
 - (void);
@@ -52,17 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
+- (void)c;
+- (_Bool)d;
+- (void)h;
+- (_Bool)T;
+- (_Bool)d to fall back to cropping media for attachment:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)for:%@ at %@ /* Error: Ran out of types for this method. */;
+- (void)people) were removed from the folder;
+- (struct UIEdgeInsets)the note;
+- (id)ICImageClassificationDisabledDefaultsKey;
+- (id)fNeeded:completionHandler:] /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
@@ -81,20 +58,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (_Bool)!|@ùQð1Â0@ù
 × ;
 - (long long);
-- (long long)ePayload:(id)arg1 appIconData:(long long)arg2 appName:adamID:allowDataPayloads: /* Error: Ran out of types for this method. */;
+- (long long)pluginPayloadFromMessagePayload:(id)arg1 appIconData:(long long)arg2 appName:adamID:allowDataPayloads: /* Error: Ran out of types for this method. */;
 - (_Bool)k;
 - (_Bool)kingView:(id)arg1 %@;
 - (void)tion] ;
 - (id);
-- (void)playLink;
+- (void)CKTextEffectsDisplayLink;
 - (void)Ã5xÿ/;
 - (id);
 - (void)ÔÏ1;
@@ -103,26 +80,7 @@
 - (void)6Ø3;
 
 // Remaining properties
-@property(readonly, nonatomic) UICollectionView *appStripCollectionView;
-@property(retain, nonatomic) CKAppStripLayout *appStripLayout; // @synthesize appStripLayout=_appStripLayout;
-@property(nonatomic) __weak id <CKBrowserSwitcherFooterViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserSwitcherFooterViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIView *grayLine; // @synthesize grayLine=_grayLine;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideShinyStatus; // @synthesize hideShinyStatus=_hideShinyStatus;
-@property(nonatomic) _Bool isMagnified; // @synthesize isMagnified=_isMagnified;
-@property(nonatomic) _Bool isMinifyingOnTranscriptScroll; // @synthesize isMinifyingOnTranscriptScroll=_isMinifyingOnTranscriptScroll;
-@property(nonatomic) _Bool minifiesOnSelection; // @synthesize minifiesOnSelection=_minifiesOnSelection;
-@property(nonatomic) _Bool scrollsLastUsedAppIconIntoView; // @synthesize scrollsLastUsedAppIconIntoView=_scrollsLastUsedAppIconIntoView;
-@property(nonatomic) _Bool showBorders;
-@property(nonatomic) double snapshotVerticalOffset; // @synthesize snapshotVerticalOffset=_snapshotVerticalOffset;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool toggleBordersOnInterfaceStyle; // @synthesize toggleBordersOnInterfaceStyle=_toggleBordersOnInterfaceStyle;
 
 @end
 

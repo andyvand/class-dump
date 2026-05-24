@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, UNNotificationRequest;
+@class NSDate, NSString;
 
 @interface UNNotification
 {
     NSDate *_date;
-    UNNotificationRequest *_request;
-    NSString *_sourceIdentifier;
-    NSArray *_intentIdentifiers;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSArray *intentIdentifiers; // @synthesize intentIdentifiers=_intentIdentifiers;
-@property(readonly, copy) UNNotificationRequest *request; // @synthesize request=_request;
 @property(readonly, copy) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 @end
 

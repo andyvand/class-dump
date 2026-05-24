@@ -9,23 +9,14 @@
 @interface GLKEffectPropertyTransform : GLKEffectProperty
 {
     union _GLKMatrix4 _modelviewMatrix;
-    union _GLKMatrix4 _projectionMatrix;
-    union _GLKMatrix3 _normalMatrix;
-    int _mvpMatrixLoc;
-    int _modelviewMatrixLoc;
-    int _projectionMatrixLoc;
-    int _normalMatrixLoc;
-    int _invModelviewMatrixLoc;
-    union _GLKMatrix4 _invModelviewMatrix;
-    union _GLKMatrix4 _mvpMatrix;
 }
 
 + (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +31,7 @@
 - (void);
 - (void);
 - (int);
-- (union _GLKMatrix4);
+- (union _GLKMatrix4)R;
 - (void);
 - (void);
 - (int);
@@ -50,16 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) union _GLKMatrix4 invModelviewMatrix; // @synthesize invModelviewMatrix=_invModelviewMatrix;
-@property(nonatomic) int invModelviewMatrixLoc; // @synthesize invModelviewMatrixLoc=_invModelviewMatrixLoc;
-@property(nonatomic) union _GLKMatrix4 modelviewMatrix; // @synthesize modelviewMatrix=_modelviewMatrix;
-@property(nonatomic) int modelviewMatrixLoc; // @synthesize modelviewMatrixLoc=_modelviewMatrixLoc;
 @property(nonatomic) union _GLKMatrix4 mvpMatrix; // @synthesize mvpMatrix=_mvpMatrix;
-@property(nonatomic) int mvpMatrixLoc; // @synthesize mvpMatrixLoc=_mvpMatrixLoc;
-@property(readonly, nonatomic) union _GLKMatrix3 normalMatrix; // @synthesize normalMatrix=_normalMatrix;
-@property(nonatomic) int normalMatrixLoc; // @synthesize normalMatrixLoc=_normalMatrixLoc;
-@property(nonatomic) union _GLKMatrix4 projectionMatrix; // @synthesize projectionMatrix=_projectionMatrix;
-@property(nonatomic) int projectionMatrixLoc; // @synthesize projectionMatrixLoc=_projectionMatrixLoc;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMFEmojiStringGenderVariantFactory
 {
     int _gender;
-    NSString *_sourceString;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)file a radar to Safari Tabs | macOS. (You are seeing this because 'DebugTabLoss' flag is enabled.);
+- (void)to open a profile window;
+- (id)LeakAuditorConfig;
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int gender; // @synthesize gender=_gender;
-@property(copy, nonatomic) NSString *sourceString; // @synthesize sourceString=_sourceString;
 
 @end
 

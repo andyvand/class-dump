@@ -9,40 +9,6 @@
 @interface QCSCN_CameraControlEventHandlerReserved
 {
     QCSCN_Node *_freeViewCameraNode;
-    struct CGPoint _initialPoint;
-    struct C3DMatrix4x4 _initialMatrix;
-    double _initialZoom;
-    double _savedZfar;
-    double _savedZnear;
-    double _originalFovX;
-    double _originalFovY;
-    double _originalMagX;
-    double _originalMagY;
-    double _zoomFactor;
-    struct _SCNVector3 _clickOrigin;
-    _Bool _stickyMove;
-    struct CGPoint _stickyDirection;
-    struct CGPoint _lastDragLocation;
-    double _lastDragTime;
-    int _cameraStickyAxis;
-    struct C3DSphere _viewedObjectSphere;
-    _Bool _hasCheckedIfViewingAnObject;
-    _Bool _isViewingAnObject;
-    _Bool _isViewedObjectSphereComputed;
-    _Bool _alternateMode;
-    int _mode;
-    _Bool _upDirIsSet;
-    struct _SCNVector3 _gimbalLockVector;
-    _Bool _gimbalLockMode;
-    struct _SCNVector3 _upDir;
-    _Bool _automaticCameraTarget;
-    struct _SCNVector3 _cameraTarget;
-    _Bool _inertia;
-    double _friction;
-    struct CGPoint _totalDragWithInertia;
-    struct CGPoint _inertiaVelocity;
-    double _lastSimulationTime;
-    _Bool _inertiaRunning;
 }
 
 - (void);

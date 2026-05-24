@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCacheChangeListener, NSPointerArray, NSString, _CNUILikenessImageCache, _CNUILikenessRenderer;
-@protocol CNSchedulerProvider;
+@class _CNUILikenessRenderer;
 
 @interface _CNUICachingLikenessRenderer
 {
     _Bool _shouldRequireMainThread;
-    unsigned long long _lookupOptions;
-    _CNUILikenessRenderer *_renderer;
-    id <CNSchedulerProvider> _schedulerProvider;
-    _CNUILikenessImageCache *_imageCache;
-    id <CNSchedulerProvider> _mainThreadSchedulerProvider;
-    CNAvatarCacheChangeListener *_changeHistoryListener;
-    NSPointerArray *_delegates;
 }
 
 + (id);
@@ -31,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (unsigned long long);
 - (id);
@@ -43,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -52,21 +44,7 @@
 - (void)ourceDelegate>"16@"NSString"24;
 
 // Remaining properties
-@property(retain, nonatomic) CNAvatarCacheChangeListener *changeHistoryListener; // @synthesize changeHistoryListener=_changeHistoryListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSPointerArray *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _CNUILikenessImageCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(nonatomic) unsigned long long lookupOptions; // @synthesize lookupOptions=_lookupOptions;
-@property(retain, nonatomic) id <CNSchedulerProvider> mainThreadSchedulerProvider; // @synthesize mainThreadSchedulerProvider=_mainThreadSchedulerProvider;
 @property(readonly, nonatomic) _CNUILikenessRenderer *renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, nonatomic) _Bool shouldRequireMainThread; // @synthesize shouldRequireMainThread=_shouldRequireMainThread;
-@property(readonly) Class superclass;
 
 @end
 

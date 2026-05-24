@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface VCAggregatorRecordingAndTranscriptionService : VCAggregator
 {
     NSString *_uuid;
-    unsigned char _usage;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)@9H;
 - (void);
 - (void);
 - (id);

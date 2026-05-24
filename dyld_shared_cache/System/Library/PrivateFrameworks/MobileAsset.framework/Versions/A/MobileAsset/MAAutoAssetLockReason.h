@@ -9,26 +9,24 @@
 @interface MAAutoAssetLockReason
 {
     NSString *_autoAssetClientName;
-    NSString *_lockReason;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ernelPipeRxRingSize:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *autoAssetClientName; // @synthesize autoAssetClientName=_autoAssetClientName;
-@property(retain, nonatomic) NSString *lockReason; // @synthesize lockReason=_lockReason;
 
 @end
 

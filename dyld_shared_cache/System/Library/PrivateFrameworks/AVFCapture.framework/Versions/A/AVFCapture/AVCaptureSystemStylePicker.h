@@ -6,31 +6,22 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class AVCaptureSmartStyle, AVWeakReference, NSArray;
+@class AVWeakReference;
 
 @interface AVCaptureSystemStylePicker : AVCaptureControl
 {
     AVWeakReference *_sessionReference;
-    NSArray *_styles;
-    CDUnknownBlockType _action;
-    NSArray *_titles;
-    struct os_unfair_lock_s _selectedStyleLock;
-    AVCaptureSmartStyle *_selectedStyle;
-    struct os_unfair_lock_s _actionLock;
-    _Bool _observing;
-    _Bool _changeSmartStyleInProcess;
-    _Bool _smartStyleHasChanged;
 }
 
 + (void)ascfdcfr****bolg;
-- (void);
-- (void);
+- (void)ht,V_backgroundColorLight;
+- (void)ueue>",&,N,V_parseQueue;
+- (id)canConnectToMediaArtworkService;
+- (id)OpeningTagData;
+- (id)itunes:(id)arg1 lyricGenId;
+- (void)amework/MediaPlaybackCore;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)rror">24;
 - (void);
 - (id);
 

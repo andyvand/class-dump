@@ -9,11 +9,9 @@
 @interface CUIThemeSchemaRenditionGroup
 {
     CUIRenditionKey *_baseKey;
-    NSArray *_renditions;
-    CDStruct_26b2aa83 *_part;
 }
 
-+ (id);
++ (id));
 - (id);
 - (void);
 - (id);
@@ -25,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

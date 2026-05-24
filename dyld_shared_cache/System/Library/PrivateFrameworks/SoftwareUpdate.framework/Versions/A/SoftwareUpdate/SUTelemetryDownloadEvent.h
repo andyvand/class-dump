@@ -6,19 +6,15 @@
 
 #import <SoftwareUpdate/SUTelemetryEvent.h>
 
-@class NSError, NSString, SUProduct;
+@class SUProduct;
 
 @interface SUTelemetryDownloadEvent : SUTelemetryEvent
 {
     _Bool _initiatedInForeground;
-    _Bool _wasCancelled;
-    SUProduct *_downloadProduct;
-    NSError *_downloadError;
-    double _downloadTimeElapsed;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
@@ -28,20 +24,14 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)	kA&;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(retain) NSError *downloadError; // @synthesize downloadError=_downloadError;
 @property(retain) SUProduct *downloadProduct; // @synthesize downloadProduct=_downloadProduct;
-@property double downloadTimeElapsed; // @synthesize downloadTimeElapsed=_downloadTimeElapsed;
-@property(readonly) NSString *eventName;
-@property _Bool initiatedInForeground; // @synthesize initiatedInForeground=_initiatedInForeground;
-@property(readonly) long long telemetryServer;
-@property _Bool wasCancelled; // @synthesize wasCancelled=_wasCancelled;
 
 @end
 

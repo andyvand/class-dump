@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDPersonManager.h>
 
-@class HMDHome, HMHomePersonManagerSettings, HMIHomePersonManager, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePersonManager : HMDPersonManager
@@ -14,36 +14,27 @@ __attribute__((visibility("hidden")))
     HMDHome *_home;
 }
 
-+ (id);
++ (id);
 + (id)f]ÿ	 .(«B;
 - (_Bool);
+- (_Bool)__objc_classlist__DATA_CONST;
+- (_Bool)reason:(id)arg1 %lu;
+- (_Bool)ate;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)4h;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)CRoomsKey;
+- (void)HMDOldRVCRoomsKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMIHomePersonManager *hmiPersonManager;
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) HMHomePersonManagerSettings *settings;
-@property(readonly) Class superclass;
 
 @end
 

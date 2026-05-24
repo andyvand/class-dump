@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void *);
 - (const void *);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);

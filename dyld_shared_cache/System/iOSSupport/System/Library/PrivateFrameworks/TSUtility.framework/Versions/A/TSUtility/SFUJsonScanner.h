@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSString;
+@class NSString;
 
 @interface SFUJsonScanner
 {
     NSString *mString;
-    unsigned short *mCharacters;
-    unsigned long long mLength;
-    unsigned long long mOffset;
-    NSCharacterSet *mWhitespaceCharacterSet;
-    NSCharacterSet *mDecimalDigitCharacterSet;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

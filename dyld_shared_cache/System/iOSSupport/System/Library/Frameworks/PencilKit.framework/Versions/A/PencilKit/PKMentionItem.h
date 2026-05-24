@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionItem.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKMentionItem : PKDetectionItem
 {
@@ -20,16 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool)2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
 @property(readonly, nonatomic) NSString *mentionResult;
-@property(readonly, nonatomic) NSUUID *mentionUUID;
 
 @end
 

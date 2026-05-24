@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSUProgressContext;
-
 __attribute__((visibility("hidden")))
 @interface OITSUProgressStage
 {
     double m_currentPosition;
-    double m_totalSteps;
-    double m_stepsInParent;
-    double m_startInParent;
-    double m_nextSubStageParentSize;
-    OITSUProgressStage *m_parentStage;
-    OITSUProgressContext *m_context;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (double);
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)9)	;
 - (void);
 - (double);
 - (id);

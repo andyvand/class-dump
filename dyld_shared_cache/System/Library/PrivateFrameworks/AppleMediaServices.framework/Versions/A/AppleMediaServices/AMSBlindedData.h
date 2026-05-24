@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface AMSBlindedData
 {
     void blindedElement;
-    void privateInput;
-    void timestamp;
 }
 
 + (_Bool);
@@ -21,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n for content items %{public}@.;
 - (id);
 - (void)?oé+î&£Â¦eØ¼¶&e°ÕYWÒ²Rl,þè­Ï¸·Ñ{Ã*þÌJrÐ®¼ýú#Èéöº;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *blindedElement;
-@property(nonatomic, readonly) NSString *blindedElementString;
-@property(nonatomic, readonly) NSData *privateInput;
-@property(nonatomic, readonly) NSString *timestamp;
 
 @end
 

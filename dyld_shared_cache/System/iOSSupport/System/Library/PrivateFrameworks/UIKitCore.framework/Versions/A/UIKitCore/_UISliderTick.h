@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface _UISliderTick
 {
     float _position;
-    NSString *_title;
-    UIImage *_image;
 }
 
-+ (id);
++ (id)ing a retraction stamp at index 0.;
 - (id);
 - (id);
-- (void);
+- (void)eBuffer;
 - (unsigned long long);
 - (id);
 - (float)0@ù
 × ;
 - (_Bool)NSIndexPath"40@0:(id)arg1 8@"UISwipeActionController"16{CGPoint=dd}24;
-- (void)ewWithKey:(id)arg1;
-- (void)on:(id)arg1;
-- (id)sourceApplication:(struct _NSZone *)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (void)shouldAnimatePropertyInContentViewWithKey:(id)arg1;
+- (void)_setAVKitRequestedRefreshRate:(id)arg1 HDRMode:overscanCompensation: /* Error: Ran out of types for this method. */;
+- (id)_activityContinuationDictionaryWithAction:(struct _NSZone *)arg1 sourceApplication:originatingProcess: /* Error: Ran out of types for this method. */;
 - (id)g restoration user info:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) float position; // @synthesize position=_position;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

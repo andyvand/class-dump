@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBAutocreatedArray
 {
     TRIPBMessage *_autocreator;
-    NSMutableArray *_array;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)ound no photo resource to share for asset:(struct _NSZone *)arg1 %@, resources:%@, options:%@, useOriginalResources:%d, knownUnsupported:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tes"16@0:(unsigned long long)arg1 8;
 - (void);
 - (id);
 - (void);

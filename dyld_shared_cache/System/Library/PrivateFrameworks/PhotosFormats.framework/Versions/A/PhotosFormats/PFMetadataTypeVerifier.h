@@ -9,9 +9,6 @@
 @interface PFMetadataTypeVerifier
 {
     NSDictionary *_expectedImageDictionaryPropertyTypes;
-    NSDictionary *_expectedImageArrayPropertyTypes;
-    NSDictionary *_expectedAVMetadataIdentifierTypes;
-    NSDictionary *_expectedAVMetadataKeyKeySpaceTypes;
 }
 
 - (id);
@@ -19,6 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id)hed parsing server configuration plist for Device Capabilities Reporting / Checking. Container overrides for reporting device capabilities:%@ 
+Container overrides for checking device capabilities:%@. 
+Default should report:%@ Default should check:%@ /* Error: Ran out of types for this method. */;
+- (id)vate PCS data for share %@ is nil;
 - (id);
 - (id);
 - (id);
@@ -26,9 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

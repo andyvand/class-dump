@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _state;
 }
 
-- (void);
+- (void)ng"52@"NSData"60B68@"NSNumber"72;
 - (id);
 - (void)1Â0@ù
 × ;
 - (unsigned long long)A	ð!\Dùqeð1Â0@ù
 × ;
-- (void)tInteractionTintColor:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)setInteractionTintColor:(const struct _UISEGestureFeatureSample *)arg1;
 - (void);
-- (id)unLoopCSgXw;
+- (id)So9NSRunLoopCSgXw;
 - (void)Ôµþ;
 
 // Remaining properties

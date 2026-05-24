@@ -5,5 +5,10 @@
 //
 
 @protocol IDSXPCDaemon
+- (void);
+- (void));
+- (void));
+- (void)86Z;
+- (void)T;
 @end
 

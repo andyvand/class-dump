@@ -15,18 +15,18 @@
 
 + (id);
 + (int);
-+ (_Bool);
++ (_Bool)*;
+- (_Bool)C;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)prioritizeDownloads: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

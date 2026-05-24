@@ -6,21 +6,19 @@
 
 #import <OfficeImport/OADFill.h>
 
-@class OADColor, OADPattern;
+@class OADColor;
 
 __attribute__((visibility("hidden")))
 @interface OADPatternFill : OADFill
 {
     OADColor *mFgColor;
-    OADColor *mBgColor;
-    OADPattern *mPattern;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ary/Frameworks/CoreServices.framework/Versions/A/CoreServices;
 - (id);
 - (void);
 - (id);

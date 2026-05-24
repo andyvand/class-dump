@@ -7,7 +7,6 @@
 @interface PXStoryCurationLengthInfo
 {
     unsigned long long _availableCurationLengths;
-    unsigned long long _defaultCurationLength;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long availableCurationLengths; // @synthesize availableCurationLengths=_availableCurationLengths;
-@property(readonly, nonatomic) unsigned long long defaultCurationLength; // @synthesize defaultCurationLength=_defaultCurationLength;
 
 @end
 

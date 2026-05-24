@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray;
+@class NSDictionary;
 
 @interface ABConstraintsBuilder
 {
     NSDictionary *_metrics;
-    NSDictionary *_views;
-    NSMutableArray *_constraints;
-    unsigned long long _direction;
-    long long _firstHorizontalAttribute;
-    long long _secondHorizontalAttribute;
 }
 
 - (void);

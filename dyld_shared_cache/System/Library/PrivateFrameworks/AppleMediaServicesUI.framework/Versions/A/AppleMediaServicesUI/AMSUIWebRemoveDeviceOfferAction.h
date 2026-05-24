@@ -6,34 +6,24 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebRemoveDeviceOfferAction : AMSUIWebAction
 {
     ACAccount *_account;
-    NSString *_identifier;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)cabraDictionaryRapidUpdates assets = %ld;
+- (id)ager;
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)UIWebActionRunnable>"16B24@"AMSAuthenticateRequest"28;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

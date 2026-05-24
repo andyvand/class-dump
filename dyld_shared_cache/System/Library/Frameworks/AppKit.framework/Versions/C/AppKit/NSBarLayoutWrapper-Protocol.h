@@ -5,49 +5,17 @@
 //
 
 @protocol NSBarLayoutWrapper
+- (long long)in_blob_length must be non 0;
 - (struct CGSize)tomMargin-|;
 - (struct CGSize)b;
 
+@optional
+- (_Bool);
+- (unsigned long long)NoPasscodeLocationTiles;
+- (double)isEqualToArray: /* Error: Ran out of types for this method. */;
+- (_Bool)nsfer_report>",R,&;
+
 // Remaining properties
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
 @property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-@property(readonly) _Bool wantsToBeCentered;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @end
 

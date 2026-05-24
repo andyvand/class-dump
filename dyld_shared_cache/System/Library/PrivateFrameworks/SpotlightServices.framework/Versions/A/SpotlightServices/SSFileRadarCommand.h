@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SPSearchQueryContext, SSRankingManager;
-
 @interface SSFileRadarCommand
 {
     unsigned long long _componentID;
-    NSString *_componentName;
-    NSString *_componentVersion;
-    NSString *_classification;
-    NSString *_reproducibility;
-    NSString *_title;
-    NSString *_problemTemplate;
-    NSString *_problemFooter;
-    NSArray *_extensionIdentifiers;
-    NSArray *_attachmentPaths;
-    NSArray *_sections;
-    SSRankingManager *_rankingManager;
-    SPSearchQueryContext *_queryContext;
 }
 
-+ (id);
++ (id)initWithAudio:style:theme:player: /* Error: Ran out of types for this method. */;
 + (id)le.Search.framework.SpotlightDiagnostic;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithVideo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -49,29 +35,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)A;
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
-- (void)ryString: /* Error: Ran out of types for this method. */;
+- (void)donateResultsToBiomeForTTRWithData:queryString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachmentPaths; // @synthesize attachmentPaths=_attachmentPaths;
-@property(retain, nonatomic) NSString *classification; // @synthesize classification=_classification;
 @property(nonatomic) unsigned long long componentID; // @synthesize componentID=_componentID;
-@property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(retain, nonatomic) NSString *componentVersion; // @synthesize componentVersion=_componentVersion;
-@property(retain, nonatomic) NSArray *extensionIdentifiers; // @synthesize extensionIdentifiers=_extensionIdentifiers;
-@property(readonly) NSString *problemDescription;
-@property(retain, nonatomic) NSString *problemFooter; // @synthesize problemFooter=_problemFooter;
-@property(retain, nonatomic) NSString *problemTemplate; // @synthesize problemTemplate=_problemTemplate;
-@property(retain, nonatomic) SPSearchQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property(retain, nonatomic) SSRankingManager *rankingManager; // @synthesize rankingManager=_rankingManager;
-@property(retain, nonatomic) NSString *reproducibility; // @synthesize reproducibility=_reproducibility;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

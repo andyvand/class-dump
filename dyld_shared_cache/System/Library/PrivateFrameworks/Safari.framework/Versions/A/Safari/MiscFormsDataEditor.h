@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MiscFormsDataEditor : SheetWithTableController
 {
     NSArray *_domains;
-    _Bool _ignoreNotifications;
-    NSTextField *_emptyTablePlaceholderText;
 }
 
 - (void);
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

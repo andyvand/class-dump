@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSURL;
-
 @interface MPModelStaticAsset : MPModelObject
 {
 }
@@ -17,15 +15,12 @@
 + (id);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
++ (void);
++ (void)meworks/SpaceAttribution.framework/SpaceAttribution;
++ (id)t boot session in biome daemon launch donation. This should not be possible.;
 
 // Remaining properties
 @property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) long long flavorType; // @dynamic flavorType;
-@property(nonatomic) long long mediaType; // @dynamic mediaType;
-@property(copy, nonatomic) NSURL *url; // @dynamic url;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SAGKSnippet : SAUISnippet
 {
@@ -18,12 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *appPunchOut;
-@property(copy, nonatomic) NSArray *pods;
 
 @end
 

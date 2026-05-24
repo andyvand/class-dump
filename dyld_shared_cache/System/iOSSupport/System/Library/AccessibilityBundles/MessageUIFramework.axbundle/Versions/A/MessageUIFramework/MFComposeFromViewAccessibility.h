@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)UIKBInputDelegateManagerAccessibility;
++ (void)SwiftUIUIKitBarButtonItemAccessibility;
 - (_Bool);
-- (_Bool);
+- (_Bool)__DATA;
 - (id);
 - (unsigned long long);
 - (id);

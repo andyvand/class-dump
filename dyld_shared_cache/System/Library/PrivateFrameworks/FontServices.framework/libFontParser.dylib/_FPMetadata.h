@@ -4,24 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _FPMetadata
 {
     struct TUnfairLock _lock;
-    NSMutableDictionary *_dict;
-    _Bool _upgradedLanguages;
-    _Bool _hasUpgradedLanguages;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)float f2 = sunRadius2 / (len2 + 1e-4);
+  vec4 pix = (f2 * color) + noiseAmount;
+  pix *= clamp(1.0 - (len * striationFactor), 0.0, 1.0);
+  pix.a = clamp(pix.a, 0.0, 1.0);
+  return pix;
+}
+;
+- (id)̹;
 - (id);
 - (id);
 - (unsigned long long);

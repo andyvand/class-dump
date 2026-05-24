@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SASVGenerateDuc : AceObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -24,16 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *ducFamilyId;
-@property(copy, nonatomic) NSString *ducId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *parameters;
-@property(readonly) Class superclass;
 
 @end
 

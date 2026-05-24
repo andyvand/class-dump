@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetReaderInternal, NSArray, NSError;
+@class AVAssetReaderInternal;
 
 @interface AVAssetReader
 {
@@ -17,10 +17,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (void);
@@ -29,26 +29,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)8;
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (CDStruct_e83c9415);
-- (_Bool)0;
+- (_Bool)AVOutputSettingsPresetMVHEVC4320x4320;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) AVAsset *asset;
-@property(readonly) NSError *error;
 @property(readonly, nonatomic, getter=_figAssetReader) struct OpaqueFigAssetReader *figAssetReader;
-@property(readonly, nonatomic) NSArray *outputs;
-@property(nonatomic, getter=_readSingleSample, setter=_setReadSingleSample:) _Bool readSingleSample;
-@property(readonly) long long status;
-@property(nonatomic) CDStruct_e83c9415 timeRange;
 
 @end
 

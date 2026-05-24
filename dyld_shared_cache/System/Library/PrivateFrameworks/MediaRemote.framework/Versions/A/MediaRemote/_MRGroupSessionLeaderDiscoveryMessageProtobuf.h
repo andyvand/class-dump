@@ -20,14 +20,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)disablePersistentIDLoggingClassic;
 - (id);
-- (id);
-- (void)ge;
-- (void)ueueNowPlayingItemChangedNotificationFromPlaybackQueueChangedNotification: /* Error: Ran out of types for this method. */;
+- (void)hasGetVolumeMutedResultMessage;
+- (void)_maybePostPlaybackQueueNowPlayingItemChangedNotificationFromPlaybackQueueChangedNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSignature;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

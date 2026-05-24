@@ -7,22 +7,12 @@
 @class NSString;
 
 @protocol MTFeedChannel
+- (NSString *);
+- (NSString *);
+- (NSString *);
+- (NSString *)x5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkURL;
-@property(readonly, nonatomic) long long availableShowCount;
-@property(readonly, nonatomic) NSString *backgroundColor;
-@property(readonly, nonatomic) NSString *displayType;
-@property(readonly, nonatomic) NSString *fallbackSubscriptionName;
-@property(readonly, nonatomic) float logoImageHeight;
-@property(readonly, nonatomic) NSString *logoImageURL;
-@property(readonly, nonatomic) float logoImageWidth;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long showCount;
-@property(readonly, nonatomic) NSString *storeId;
-@property(readonly, nonatomic) NSString *subscriptionName;
-@property(readonly, nonatomic) NSString *uberBackgroundImageURL;
-@property(readonly, nonatomic) NSString *uberBackgroundJoeColor;
-@property(readonly, nonatomic) NSString *url;
 @end
 

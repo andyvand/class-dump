@@ -12,13 +12,13 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)a;
+- (void);
 - (struct CGSize);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Xd@�W@@97;
 - (void);
 - (id);
 - (id)iddleRight;

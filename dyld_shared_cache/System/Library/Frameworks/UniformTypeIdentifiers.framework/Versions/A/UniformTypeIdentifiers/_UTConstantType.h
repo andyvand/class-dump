@@ -11,22 +11,22 @@
     struct Fields _fields;
 }
 
-+ (void);
-+ (_Bool);
++ (void);
++ (_Bool))=;
 + (id);
-- (id);
-- (_Bool);
+- (id)߂;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (Class);
-- (_Bool);
+- (_Bool)y";
+- (Class)i;
+- (_Bool);
 - (id);
-- (id);
+- (id)*!;
 - (id);
 
 @end

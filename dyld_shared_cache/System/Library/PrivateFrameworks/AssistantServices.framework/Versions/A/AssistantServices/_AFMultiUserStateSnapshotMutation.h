@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMultiUserStateSnapshot, NSArray, NSNumber, NSString;
+@class AFMultiUserStateSnapshot;
 
 @interface _AFMultiUserStateSnapshotMutation
 {
     AFMultiUserStateSnapshot *_base;
-    NSNumber *_vtSatScore;
-    NSArray *_confidenceScores;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasVtSatScore:1;
-        unsigned int hasConfidenceScores:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)d:(id)arg1 withTriggerName:fromApp: /* Error: Ran out of types for this method. */;
-- (void)er;
+- (id)startVoiceShortcutInCarPlayUsingTriggerId:(id)arg1 withTriggerName:fromApp: /* Error: Ran out of types for this method. */;
+- (void)_observationHandler;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

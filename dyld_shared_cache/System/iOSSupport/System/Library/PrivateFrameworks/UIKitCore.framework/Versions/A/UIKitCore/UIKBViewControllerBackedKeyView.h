@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     _Bool _hasAncestorViewController;
 }
 
-+ (_Bool);
++ (_Bool)e allow list data store %@;
 - (void);
+- (void)group photo guid %@;
+- (id)r than previously processed edit. ThisEdit:(struct CGRect)arg1 %@, DateOfLastEdit:(id)arg2 %@;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)VerticalAccuracy;
 - (void);
 - (id);
 - (void)ñAÛP~d;

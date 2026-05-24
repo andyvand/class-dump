@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, _GCHIDEventSubjectAuditor;
-
 @interface _GCHIDEventSubject
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_handlersByService;
-    NSSet *_pausedForReasons;
-    _GCHIDEventSubjectAuditor *_auditor;
 }
 
+- (void)h;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,15 +19,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isPaused) _Bool paused;
-@property(copy) NSSet *pausedForReasons;
-@property(readonly) Class superclass;
 
 @end
 

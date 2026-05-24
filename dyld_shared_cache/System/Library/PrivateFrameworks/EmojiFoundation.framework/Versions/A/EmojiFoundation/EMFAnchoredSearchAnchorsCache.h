@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString;
+@class NSCache;
 
 @interface EMFAnchoredSearchAnchorsCache
 {
@@ -12,25 +12,18 @@
 }
 
 + (id);
+- (void)ebar.;
+- (void)nu option to create a New Folder in the bookmarks sidebar.;
+- (void)on in sidebar.;
+- (id)ation;
+- (id)%@>;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)`e;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *anchorsCache; // @synthesize anchorsCache=_anchorsCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

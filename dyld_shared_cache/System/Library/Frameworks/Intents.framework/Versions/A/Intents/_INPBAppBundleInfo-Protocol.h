@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBAppId, _INPBBuildId;
+@class _INPBAppId, _INPBLocalizedProject;
 
 @protocol _INPBAppBundleInfo
+- (unsigned long long);
+- (void);
+- (_INPBLocalizedProject *);
+- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppId *appId;
-@property(retain, nonatomic) _INPBBuildId *buildId;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(readonly, nonatomic) _Bool hasBuildId;
-@property(copy, nonatomic) NSArray *intentSupports;
-@property(readonly, nonatomic) unsigned long long intentSupportsCount;
-@property(copy, nonatomic) NSArray *localizedProjects;
-@property(readonly, nonatomic) unsigned long long localizedProjectsCount;
-@property(copy, nonatomic) NSArray *supportedPlatforms;
-@property(readonly, nonatomic) unsigned long long supportedPlatformsCount;
 @end
 

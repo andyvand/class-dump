@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKPendingProvisioning.h>
 
-@class NSString, PKIdentityProvisioningAttestations;
+@class NSString;
 
 @interface PKPendingIdentityCredential : PKPendingProvisioning
 {
     NSString *_sharingInstanceIdentifier;
-    NSString *_cardConfigurationIdentifier;
-    NSString *_provisioningCredentialIdentifier;
-    NSString *_credentialIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_accountKeyIdentifier;
-    PKIdentityProvisioningAttestations *_attestations;
 }
 
 + (_Bool);
@@ -38,7 +31,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (id);
@@ -51,13 +44,6 @@
 - (void)Request;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountKeyIdentifier; // @synthesize accountKeyIdentifier=_accountKeyIdentifier;
-@property(retain, nonatomic) PKIdentityProvisioningAttestations *attestations; // @synthesize attestations=_attestations;
-@property(retain, nonatomic) NSString *cardConfigurationIdentifier; // @synthesize cardConfigurationIdentifier=_cardConfigurationIdentifier;
-@property(retain, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) NSString *provisioningCredentialIdentifier; // @synthesize provisioningCredentialIdentifier=_provisioningCredentialIdentifier;
 @property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end

@@ -4,13 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIScrollView, UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)demoteAppToPlaceholderWithBundleID:(UIScrollView *)arg1 forReason:(UIView *)arg2 waitForDeletion:error: /* Error: Ran out of types for this method. */;
+- (void)rt;
+- (void);
+- (void)autoFavoritePriorFactorExponent;
 - (UIView *)@ù
 × ;
-- (void);
 @end
 

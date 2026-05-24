@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, VMUDebugTimer, VMUProcessObjectGraph;
+@class VMUDebugTimer, VMUProcessObjectGraph;
 
 @interface VMUSymbolStore
 {
     VMUDebugTimer *_debugTimer;
-    struct unordered_map<std::string, std::unordered_set<unsigned long long>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<unsigned long long>>>> _addressesGroupedByUuid;
-    struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> _addressesTracker;
-    NSData *_signature;
-    _Bool _resymbolicatedSuccessfully;
-    NSMutableDictionary *_resymbolicationUUIDs;
-    _Bool _debugStore;
-    unsigned long long backtraceSample;
-    unsigned long long binarySection;
-    unsigned long long globalVariable;
-    unsigned long long mallocStackLogging;
-    unsigned long long hexFromLabels;
-    VMUProcessObjectGraph *_graph;
-    struct _CSTypeRef _symbolicator;
 }
 
 + (_Bool);
@@ -35,21 +22,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)KeySessionProvider]:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)A;
+- (void)_doInitialAnimationOfHourglassExitingGroup: /* Error: Ran out of types for this method. */;
 - (id)Ô¡,°!àAù1[ð1Â0@ù
 × ;
-- (struct _CSTypeRef)cationsCount: /* Error: Ran out of types for this method. */;
-- (void)DataLayout;
+- (struct _CSTypeRef)setLeakedAllocationsCount: /* Error: Ran out of types for this method. */;
+- (void)swift_reflection_createReflectionContextWithDataLayout;
 
 // Remaining properties
 @property(nonatomic) __weak VMUProcessObjectGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) struct _CSTypeRef symbolicator; // @synthesize symbolicator=_symbolicator;
 
 @end
 

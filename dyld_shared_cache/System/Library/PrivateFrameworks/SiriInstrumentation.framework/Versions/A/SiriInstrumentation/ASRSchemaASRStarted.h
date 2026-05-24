@@ -6,38 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
-
 @interface ASRSchemaASRStarted : SISchemaInstrumentationMessage
 {
     int _task;
-    int _modelLocale;
-    NSString *_datapackVersion;
-    _Bool _isHighQualityAsset;
-    NSString *_hammerVersion;
-    NSString *_geoLanguageModelRegion;
-    _Bool _geoLanguageModelLoaded;
-    unsigned long long _speechProfileAgeInNs;
-    SISchemaUUID *_dictationUiInteractionId;
-    NSString *_portraitExperimentVariantName;
-    int _startState;
-    _Bool _atypicalSpeechEnabled;
-    _Bool _isEmptyTextField;
-    struct {
-        unsigned int task:1;
-        unsigned int modelLocale:1;
-        unsigned int isHighQualityAsset:1;
-        unsigned int geoLanguageModelLoaded:1;
-        unsigned int speechProfileAgeInNs:1;
-        unsigned int startState:1;
-        unsigned int atypicalSpeechEnabled:1;
-        unsigned int isEmptyTextField:1;
-    } _has;
-    _Bool _hasDatapackVersion;
-    _Bool _hasHammerVersion;
-    _Bool _hasGeoLanguageModelRegion;
-    _Bool _hasDictationUiInteractionId;
-    _Bool _hasPortraitExperimentVariantName;
 }
 
 - (unsigned long long);
@@ -47,18 +18,18 @@
 - (void);
 - (void);
 - (void);
+- (void)i;
+- (void);
+- (void);
+- (void);
+- (void)@y?;
+- (void)(	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,17 +41,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -91,7 +62,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -101,7 +72,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (int);
+- (int):8@"JSContext"16@"WebFrame"24 /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);
@@ -112,38 +83,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)rFollowupEventDonationTimeInSecondsSince2001;
+- (id)userFollowupEventDonationTimeInSecondsSince2001;
 - (id)Xú;
 - (id);
 - (void)gÒ&;
 
 // Remaining properties
-@property(nonatomic) _Bool atypicalSpeechEnabled; // @synthesize atypicalSpeechEnabled=_atypicalSpeechEnabled;
-@property(copy, nonatomic) NSString *datapackVersion; // @synthesize datapackVersion=_datapackVersion;
-@property(retain, nonatomic) SISchemaUUID *dictationUiInteractionId; // @synthesize dictationUiInteractionId=_dictationUiInteractionId;
-@property(nonatomic) _Bool geoLanguageModelLoaded; // @synthesize geoLanguageModelLoaded=_geoLanguageModelLoaded;
-@property(copy, nonatomic) NSString *geoLanguageModelRegion; // @synthesize geoLanguageModelRegion=_geoLanguageModelRegion;
-@property(copy, nonatomic) NSString *hammerVersion; // @synthesize hammerVersion=_hammerVersion;
-@property(nonatomic) _Bool hasAtypicalSpeechEnabled;
-@property(nonatomic) _Bool hasDatapackVersion; // @synthesize hasDatapackVersion=_hasDatapackVersion;
-@property(nonatomic) _Bool hasDictationUiInteractionId; // @synthesize hasDictationUiInteractionId=_hasDictationUiInteractionId;
-@property(nonatomic) _Bool hasGeoLanguageModelLoaded;
-@property(nonatomic) _Bool hasGeoLanguageModelRegion; // @synthesize hasGeoLanguageModelRegion=_hasGeoLanguageModelRegion;
-@property(nonatomic) _Bool hasHammerVersion; // @synthesize hasHammerVersion=_hasHammerVersion;
-@property(nonatomic) _Bool hasIsEmptyTextField;
-@property(nonatomic) _Bool hasIsHighQualityAsset;
-@property(nonatomic) _Bool hasModelLocale;
-@property(nonatomic) _Bool hasPortraitExperimentVariantName; // @synthesize hasPortraitExperimentVariantName=_hasPortraitExperimentVariantName;
-@property(nonatomic) _Bool hasSpeechProfileAgeInNs;
-@property(nonatomic) _Bool hasStartState;
-@property(nonatomic) _Bool hasTask;
-@property(nonatomic) _Bool isEmptyTextField; // @synthesize isEmptyTextField=_isEmptyTextField;
-@property(nonatomic) _Bool isHighQualityAsset; // @synthesize isHighQualityAsset=_isHighQualityAsset;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int modelLocale; // @synthesize modelLocale=_modelLocale;
-@property(copy, nonatomic) NSString *portraitExperimentVariantName; // @synthesize portraitExperimentVariantName=_portraitExperimentVariantName;
-@property(nonatomic) unsigned long long speechProfileAgeInNs; // @synthesize speechProfileAgeInNs=_speechProfileAgeInNs;
-@property(nonatomic) int startState; // @synthesize startState=_startState;
 @property(nonatomic) int task; // @synthesize task=_task;
 
 @end

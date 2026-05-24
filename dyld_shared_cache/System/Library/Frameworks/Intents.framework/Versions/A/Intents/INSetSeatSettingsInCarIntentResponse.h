@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetSeatSettingsInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)v48@0:(long long)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
++ (int)purgeCachedAdditionForItemAtURL:(long long)arg1;
++ (long long)numberWithUnsignedLongLong:(int)arg1;
++ (_Bool)isTypeAudioOnly:(long long)arg1;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (id);
+- (id)setButtonSpecial7:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)profile='%@' does not have a location, skipping for presentation;
 - (id);
 - (id);
 - (long long)"INFocusStatus",R,C;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

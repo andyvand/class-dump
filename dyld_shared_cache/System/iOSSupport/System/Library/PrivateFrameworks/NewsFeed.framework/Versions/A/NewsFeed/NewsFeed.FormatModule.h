@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

@@ -7,30 +7,27 @@
 #import <IconServices/ISBindableIcon.h>
 
 @class NSString;
-@protocol ISIconConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface ISTypeIcon : ISBindableIcon
 {
     NSString *_type;
-    id <ISIconConfiguration> _iconConfig;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)EnableBlurFilter;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_harmonyEnabled;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) id <ISIconConfiguration> iconConfig; // @synthesize iconConfig=_iconConfig;
 @property(readonly) NSString *type; // @synthesize type=_type;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IMUnreadCountReportDelta
 {
     _Bool _replacement;
-    NSArray *_deletedGUIDs;
-    NSArray *_updatedReports;
-    NSString *_fromStamp;
-    NSString *_toStamp;
 }
 
 + (_Bool);
@@ -28,10 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *deletedGUIDs; // @synthesize deletedGUIDs=_deletedGUIDs;
-@property(readonly, nonatomic) NSString *fromStamp; // @synthesize fromStamp=_fromStamp;
-@property(readonly, nonatomic, getter=isReplacement) _Bool replacement; // @synthesize replacement=_replacement;
-@property(readonly, nonatomic) NSString *toStamp; // @synthesize toStamp=_toStamp;
-@property(readonly, nonatomic) NSArray *updatedReports; // @synthesize updatedReports=_updatedReports;
 
 @end
 

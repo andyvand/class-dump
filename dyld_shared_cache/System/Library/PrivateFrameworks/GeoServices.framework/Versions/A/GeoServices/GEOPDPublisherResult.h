@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPublisherResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_components;
-    GEOPDMapsIdentifier *_publisherId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_components:1;
-        unsigned int read_publisherId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)�#;
+- (void)SA;
+- (id)_shouldCalculateEstimatedSpeechEndHostTimeFromCachedEPMetrics;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)@56;
-- (id)mapsShortSessionValues: /* Error: Ran out of types for this method. */;
+- (id)_mapsShortSessionValues: /* Error: Ran out of types for this method. */;
 - (id)4á		ìä	xå	ç	ðï	ð	xñ	Xò	Ðó	øõ	ø	;
 - (void);
 

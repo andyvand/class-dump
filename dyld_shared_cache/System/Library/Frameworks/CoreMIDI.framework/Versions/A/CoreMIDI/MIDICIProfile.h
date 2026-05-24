@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MIDICIProfile
 {
     NSString *_name;
-    NSData *_profileID;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSData *profileID; // @synthesize profileID=_profileID;
 
 @end
 

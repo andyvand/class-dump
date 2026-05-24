@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, _NSUndoStack;
-@protocol OS_dispatch_source;
-
 @interface NSUndoManager
 {
     struct _NSRemoteUndoState _remote;
-    _NSUndoStack *_undoStack;
-    _NSUndoStack *_redoStack;
-    NSArray *_runLoopModes;
-    unsigned long long _flags;
-    id _target;
-    id _proxy;
-    NSObject<OS_dispatch_source> *_automaticTerminationSource;
 }
 
 @end

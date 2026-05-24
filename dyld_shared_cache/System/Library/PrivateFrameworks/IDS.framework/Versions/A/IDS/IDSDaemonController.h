@@ -4,79 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDaemonControllerForwarder, IDSDaemonListener, IMLocalObject, IMRemoteObject, NSMutableDictionary, NSMutableSet, NSObject, NSProtocolChecker, NSSet, NSString;
-@protocol IDSDaemonProtocol, OS_dispatch_group, OS_dispatch_queue;
-
 @interface IDSDaemonController
 {
     id _delegate;
-    IMRemoteObject<IDSDaemonProtocol> *_remoteObject;
-    IDSDaemonControllerForwarder *_forwarder;
-    IMLocalObject *_localObject;
-    IDSDaemonListener *_daemonListener;
-    NSProtocolChecker *_protocol;
-    NSString *_listenerID;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSObject<OS_dispatch_group> *_daemonConnectedGroup;
-    NSObject<OS_dispatch_queue> *_remoteMessageQueue;
-    unsigned long long _connectionID;
-    NSMutableDictionary *_listenerServices;
-    NSSet *_services;
-    NSSet *_cachedServices;
-    NSMutableDictionary *_listenerCommands;
-    NSSet *_commands;
-    NSSet *_cachedCommands;
-    NSMutableDictionary *_listenerCapabilities;
-    unsigned int _cachedCapabilities;
-    unsigned int _lastUpdateCaps;
-    _Bool _hasCheckedForDaemon;
-    _Bool _preventReconnect;
-    _Bool _acquiringDaemonConnection;
-    _Bool _autoReconnect;
-    _Bool _hasBeenSuspended;
-    _Bool _fatalErrorOccured;
-    int _curXPCMessagePriority;
-    NSMutableSet *_notificationServices;
-    NSObject<OS_dispatch_queue> *_connectingQueue;
 }
 
 + (void);
 + (_Bool);
 + (void);
 + (id)veryContext"16;
-- (void);
+- (void)\;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (void)currentCancellers;
+- (id)downstreamLock;
+- (_Bool)6OutputYQzAaBQyd__AaBQyd_0_qd_1_Iegnnnr_;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)$;
+- (void)(;
+- (_Bool)openOnDeviceForFC:doSyncronously: /* Error: Ran out of types for this method. */;
+- (unsigned int)description;
+- (_Bool);
+- (void);
+- (id);
+- (id)retainArguments;
+- (_Bool)lter on found %@ with changeFlags 0x%x
+;
+- (void)SenderIsMe;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (_Bool);
 - (void);
@@ -85,8 +55,8 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)IDSSocketPairResourceTransferMessage;
+- (_Bool)st.m;
 - (id);
 - (_Bool);
 - (void);
@@ -109,7 +79,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void)T½;
 - (void);
@@ -118,21 +88,6 @@
 
 // Remaining properties
 @property(setter=_setAutoReconnect:) _Bool _autoReconnect; // @synthesize _autoReconnect;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *_remoteMessageQueue; // @synthesize _remoteMessageQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectingQueue; // @synthesize connectingQueue=_connectingQueue;
-@property(nonatomic) int curXPCMessagePriority; // @synthesize curXPCMessagePriority=_curXPCMessagePriority;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isConnecting;
-@property(readonly, nonatomic) IDSDaemonListener *listener; // @synthesize listener=_daemonListener;
-@property(readonly, nonatomic) NSString *listenerID; // @synthesize listenerID=_listenerID;
-@property(retain, nonatomic) IMRemoteObject<IDSDaemonProtocol> *remoteObject; // @synthesize remoteObject=_remoteObject;
-@property(readonly) Class superclass;
 
 @end
 

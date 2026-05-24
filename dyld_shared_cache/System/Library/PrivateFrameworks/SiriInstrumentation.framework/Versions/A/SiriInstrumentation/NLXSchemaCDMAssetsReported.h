@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMAssetsReported : SISchemaInstrumentationMessage
 {
@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)PKCS7_ENVELOPE;
+- (void)@?<v@?B@"NSArray"@"NSError">16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,7 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

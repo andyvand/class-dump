@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWiFiQualityHours, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualityProfile
 {
     PBDataReader *_reader;
-    GEOWiFiQualityHours *_hours;
-    NSMutableArray *_qualities;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_hours:1;
-        unsigned int read_qualities:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
++ (Class)CNObservableContractEnforcementPreferences;
 + (_Bool)setOriginalNumberOfStops:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void):8:16 /* Error: Ran out of types for this method. */;
+- (void)rMetadata:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (id);
-- (void);
+- (void)startRecordingWithSettings:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -45,15 +35,13 @@
 - (void);
 - (id)a	'!ðBùÑ¹*Ð1Â0@ù
 × ;
-- (id)ytesUsingEncoding: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)lengthOfBytesUsingEncoding: /* Error: Ran out of types for this method. */;
+- (id)setIsContactWithSchoolLocation: /* Error: Ran out of types for this method. */;
 - (id)ache (    timestamp REAL NOT NULL,    appid TEXT NOT NULL,    requesttype INT NOT NULL,    result INT NOT NULL    );;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHours;
-@property(retain, nonatomic) GEOWiFiQualityHours *hours;
-@property(retain, nonatomic) NSMutableArray *qualities;
 
 @end
 

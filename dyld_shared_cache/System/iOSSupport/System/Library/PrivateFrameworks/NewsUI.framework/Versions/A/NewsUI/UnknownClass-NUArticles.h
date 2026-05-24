@@ -7,7 +7,7 @@
 @interface UnknownClass (NUArticles)
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)33;
++ (id)Ѱ#;
 @end
 

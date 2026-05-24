@@ -7,8 +7,6 @@
 @interface SKDiskImageSizeLimits
 {
     unsigned long long _currentBytes;
-    unsigned long long _maxBytes;
-    unsigned long long _minBytes;
 }
 
 + (_Bool);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property unsigned long long currentBytes; // @synthesize currentBytes=_currentBytes;
-@property unsigned long long maxBytes; // @synthesize maxBytes=_maxBytes;
-@property unsigned long long minBytes; // @synthesize minBytes=_minBytes;
 
 @end
 

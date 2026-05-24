@@ -6,60 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSColor, NSMutableArray, NSMutableDictionary, NSTableView, NSTableViewStyleData, NSTintConfiguration, _NSTableRowSeparatorDrawingView;
+@class NSTableView;
 
 @interface NSTableRowView : NSView
 {
     NSTableView *_tableView;
-    id *_columnViews;
-    long long _columnCount;
-    NSTableViewStyleData *_styleData;
-    long long _selectionHighlightStyle;
-    long long _draggingDestinationFeedbackStyle;
-    double _dropOperationIndentation;
-    NSColor *_backgroundColor;
-    NSColor *_savedBackgroundColor;
-    NSColor *_separatorColor;
-    CALayer *_backgroundLayer;
-    NSView *_selectedBackgroundView;
-    NSMutableDictionary *_columnConstraints;
-    unsigned long long _maskedCornersMask;
-    NSTintConfiguration *_contentTintConfiguration;
-    double _backgroundOffset;
-    double _selectionAlpha;
-    _NSTableRowSeparatorDrawingView *_separatorDrawingViewForOverride;
-    NSMutableArray *_associatedViews;
-    unsigned int _targetForDropOperation:1;
-    unsigned int _groupRowStyle:2;
-    unsigned int _previousRowSelected:1;
-    unsigned int _nextRowSelected:1;
-    unsigned int _selected:1;
-    unsigned int _emphasized:1;
-    unsigned int _highlighted:1;
-    unsigned int _backgroundStylesDirty:1;
-    unsigned int _isFloating:1;
-    unsigned int _usingCachedImageOnly:1;
-    unsigned int _gridStyleMask:4;
-    unsigned int _updatingBackgroundStyle:1;
-    unsigned int _locationNeedsUpdating:1;
-    unsigned int _isStatic:1;
-    unsigned int _selectionBlendingMode:1;
-    unsigned int _forDeletion:1;
-    unsigned int _emphasizedForDropOperation:1;
-    unsigned int _keyViewLoopIsDirty:1;
-    unsigned int _hasLayoutChangeListener:1;
-    unsigned int _canUseSelectionMaterialWithRegularHighlights:1;
-    unsigned int _needsDelayedStyleDataUpdate:1;
-    unsigned int _showingActionButtons:1;
-    unsigned int _subclassOverrides_drawBackgroundInRect:1;
-    unsigned int _subclassOverrides_draggingDestinationFeedbackInRect:1;
-    unsigned int _subclassOverrides_drawRect:1;
-    unsigned int _subclassOverrides_drawSelectionInRect:1;
-    unsigned int _subclassOverrides_drawSeparatorInRect:1;
-    unsigned int _isUpdatingSeparatorDrawingViewForOverride:1;
-    unsigned int _rowSwipeCachedClipsToBounds:1;
-    unsigned int _cachedHasSolariumAppearance;
-    unsigned long long _rowViewType;
 }
 
 + (id);

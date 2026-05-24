@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)Feedback"16;
 @end
 

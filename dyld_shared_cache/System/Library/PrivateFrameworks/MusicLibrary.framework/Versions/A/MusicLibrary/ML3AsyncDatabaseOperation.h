@@ -6,31 +6,23 @@
 
 #import <MusicLibrary/ML3DatabaseOperation.h>
 
-@class NSError;
-
 @interface ML3AsyncDatabaseOperation : ML3DatabaseOperation
 {
     _Bool _finished;
-    _Bool _executing;
-    _Bool _cancelled;
-    struct os_unfair_lock_s _lock;
-    double _startTime;
-    _Bool _success;
-    NSError *_error;
 }
 
-- (id);
-- (_Bool);
+- (id)setChangeFlag3:(id)arg1;
+- (_Bool)nagedObjectModel",R;
 - (void);
-- (id);
+- (id)Ji;
+- (void)alertBodyString;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)tesForContainerClass: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool)libraryEntityFilterPredicatesForContainerClass: /* Error: Ran out of types for this method. */;
 - (_Bool)raints, media_type, has_non_purgeable_asset) VALUES (NEW.item_pid, NEW.item_pid, COALESCE(NEW.exclude_from_shuffle, 0), COALESCE(NEW.in_my_library, 0), COALESCE(NEW.keep_local, 0), COALESCE(NEW.keep_local_status, 0), COALESCE(NEW.keep_local_constraints, 0), COALESCE(NEW.media_type, 0), CASE WHEN NEW.base_location_id >= 250 THEN 1 ELSE 0 END) ON CONFLICT(item_pid) DO UPDATE SET persistent_id = excluded.persistent_id, exclude_from_shuffle = excluded.exclude_from_shuffle, is_library_added = excluded.is_library_added, keep_local_enable_state = excluded.keep_local_enable_state, keep_local_managed_status = excluded.keep_local_managed_status, keep_local_constraints = excluded.keep_local_constraints, media_type = excluded.media_type, has_non_purgeable_asset = excluded.has_non_purgeable_asset; END;;
 - (void)T name, name_order, name_section, sort_key FROM sort_map ORDER BY name_order LIMIT 1 OFFSET ?;
 - (_Bool)<;

@@ -6,25 +6,25 @@
 
 #import <UIKitCore/_UIVisualEffectSubview.h>
 
-@class CABackdropLayer, _UIVisualEffectViewBackdropCaptureGroup;
+@class _UIVisualEffectViewBackdropCaptureGroup;
 
 @interface _UIVisualEffectBackdropView : _UIVisualEffectSubview
 {
     _UIVisualEffectViewBackdropCaptureGroup *_captureGroup;
 }
 
-+ (Class);
++ (Class)artworkResizingOperations;
 - (void);
 - (void);
-- (void);
+- (void)imageTraits;
 - (_Bool)1Â0@ù
 × ;
 - (void)f°1Â0@ù
 × ;
 - (long long)"16@"NSData"24;
-- (id)nsitionDidEnd:popoverIdentifier: /* Error: Ran out of types for this method. */;
-- (id)rsFor: /* Error: Ran out of types for this method. */;
-- (void)faceActionRepresentationViewContext_AppleTV;
+- (id)transitionDidEnd:popoverIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_updateChangeObserversFor: /* Error: Ran out of types for this method. */;
+- (void)_UIInterfaceActionRepresentationViewContext_AppleTV;
 - (void)sLabels:(id)arg1 [%@]
 	edgesLabels:[%@] /* Error: Ran out of types for this method. */;
 - (void)¯+¾7y±+¾7GIegn_;
@@ -32,8 +32,6 @@
 - (_Bool)`;
 
 // Remaining properties
-@property(readonly, nonatomic) CABackdropLayer *backdropLayer;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *captureGroup;
 @property(nonatomic) long long renderMode;
 
 @end

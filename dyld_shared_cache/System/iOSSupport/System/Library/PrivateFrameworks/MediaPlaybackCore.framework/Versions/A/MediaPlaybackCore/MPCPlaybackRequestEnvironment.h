@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, MPCPlaybackDelegationProperties, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackRequestEnvironment
 {
     NSString *_clientIdentifier;
-    NSString *_clientVersion;
-    MPCPlaybackDelegationProperties *_delegationProperties;
-    NSString *_requestingBundleIdentifier;
-    NSString *_requestingBundleVersion;
-    ICUserIdentity *_userIdentity;
 }
 
 + (id);
@@ -26,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)account:(id)arg1 didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (id)aa_isAccountClass: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)%@);
 - (id);
 - (id);
 - (id);
@@ -45,19 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)blic}@ %{public}@                   â %{public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy, nonatomic) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) MPCPlaybackDelegationProperties *delegationProperties; // @synthesize delegationProperties=_delegationProperties;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *requestingBundleIdentifier; // @synthesize requestingBundleIdentifier=_requestingBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *requestingBundleVersion; // @synthesize requestingBundleVersion=_requestingBundleVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CEMAssetReference
 {
     int _assettype;
-    NSString *_identifier;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) int assettype; // @synthesize assettype=_assettype;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

@@ -9,17 +9,15 @@
 @interface IMDSMSPart
 {
     NSMutableArray *_textParts;
-    NSMutableArray *_attachmentParts;
 }
 
 - (id);
-- (void);
+- (void)!c$;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *attachmentParts; // @synthesize attachmentParts=_attachmentParts;
 @property(readonly, retain, nonatomic) NSArray *textParts; // @synthesize textParts=_textParts;
 
 @end

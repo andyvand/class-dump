@@ -8,10 +8,10 @@
 {
 }
 
-+ (Class);
++ (Class)UsoTask_create_common_Group;
 + (id);
 + (id);
-+ (double);
++ (double);
 - (id);
 - (id);
 - (id);

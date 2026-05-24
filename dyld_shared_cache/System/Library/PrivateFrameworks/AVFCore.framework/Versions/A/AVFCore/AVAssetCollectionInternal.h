@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetCollectionInspectorLoader, AVWeakReference, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetCollectionInternal
 {
     NSURL *rootURL;
-    NSObject<OS_dispatch_queue> *inspectorQ;
-    AVAssetCollectionInspectorLoader *inspectorLoader;
-    AVWeakReference *weakReference;
 }
 
 @end

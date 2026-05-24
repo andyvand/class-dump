@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleViewerAppStateMonitor
 {
     id onForegroundClosures;
-    id onEnterBackgroundClosures;
-    id onWindowForegroundClosures;
-    id onWindowBackgroundClosures;
 }
 
 - (id);
@@ -18,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void)esenter;
+- (void)presenter;
 
 @end
 

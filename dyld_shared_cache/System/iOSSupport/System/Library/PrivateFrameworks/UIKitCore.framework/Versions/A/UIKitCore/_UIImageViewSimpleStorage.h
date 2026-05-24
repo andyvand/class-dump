@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, UIImage, UIImageSymbolConfiguration, UILayoutGuide, UIView, _UIImageCIImageRenderer, _UIImageLoader, _UIImageSymbolVariant, _UIImageViewImageProperties, _UIImageViewSymbolAnimationPresetManager;
-@protocol UITraitChangeRegistration, _UIImageViewLoadingDelegate;
+@class NSMapTable, UIImage, _UIImageViewImageProperties;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewSimpleStorage
@@ -15,14 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)v36@0:8@16B24@?28 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)@9;
+- (void);
+- (id)/libressl-2.2/ssl/d1_srtp.c;
+- (void)buildRequiredOnlyWithURL:(_Bool)arg1;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void):(id)arg1;
 - (id);
 - (_Bool);
 - (void);
@@ -30,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_commandCenter;
 - (id);
 - (id);
 - (id);
@@ -44,30 +43,30 @@ __attribute__((visibility("hidden")))
 - (id)Point=dd}{CGSize=dd}}32;
 - (void)ion"b1"searchResultDisplayStyle"b1"selectedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
 - (id)"UICollectionViewLayout"24q32;
-- (id)ew: /* Error: Ran out of types for this method. */;
-- (_Bool)ForInitialUpdate: /* Error: Ran out of types for this method. */;
-- (id)ndColorForState: /* Error: Ran out of types for this method. */;
-- (void)Necessary;
+- (id)setNoContentView: /* Error: Ran out of types for this method. */;
+- (_Bool)finalUpdateForInitialUpdate: /* Error: Ran out of types for this method. */;
+- (id)badgeBackgroundColorForState: /* Error: Ran out of types for this method. */;
+- (void)_unregisterForViewAnimationNotificationsIfNecessary;
 - (_Bool);
 - (long long)Duration;
 - (void)VdisablePrediction;
-- (void)ransientState;
-- (void)ictationUnderlineDisplayTimer;
-- (id)Context;
-- (void)it29_UIPinchDismissSubInteraction;
+- (void)_transientState;
+- (void)_dictationUnderlineDisplayTimer;
+- (id)UIScenePresentationContext;
+- (void)_TtC5UIKit29_UIPinchDismissSubInteraction;
 - (void)	
 ;
 - (void)ransaction token:(_Bool)arg1 %@;
 - (void)ðªþ;
 - (double)asteAndMatchStyle;
 - (id)pAutofill.loginPassword.fromKeyboard;
-- (id)eparateNestedEqualRotaryMovementAxis;
+- (id)FocusGroupSeparateNestedEqualRotaryMovementAxis;
 - (void)DocumentURLFromBookmarkableString(CFStringRef, CFErrorRef *);
-- (void)cessibilityButtonShapesEnabledStatusDidChangeNotification;
+- (void)UIAccessibilityButtonShapesEnabledStatusDidChangeNotification;
 - (void);
 - (void);
 - (_Bool);
-- (void)y;
+- (void)IsVerticalKey;
 - (void)¨;
 - (id);
 - (_Bool)Ûþ;
@@ -76,41 +75,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer;
-@property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;
-@property(nonatomic) double animationDuration;
-@property(retain, nonatomic) NSArray *animationImages;
-@property(retain, nonatomic) _UIImageViewSymbolAnimationPresetManager *animationPresetManager;
-@property(nonatomic) long long animationRepeatCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultRenderingMode;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int drawMode;
-@property(nonatomic, getter=isEnqueueingLoad) _Bool enqueueingLoad;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(retain, nonatomic) NSArray *highlightedAnimationImages;
-@property(retain, nonatomic) UIImage *highlightedImage;
 @property(retain, nonatomic) UIImage *image;
-@property(retain, nonatomic) UIImage *imageBeingSetByLoader;
-@property(retain, nonatomic) UILayoutGuide *imageContentGuide;
-@property(retain, nonatomic) _UIImageLoader *imageLoader;
-@property(retain, nonatomic) NSMapTable *layouts; // @synthesize layouts;
-@property(retain, nonatomic) id <_UIImageViewLoadingDelegate> loadingDelegate;
-@property(nonatomic) _Bool masksTemplateImages;
-@property(retain, nonatomic) UIImageSymbolConfiguration *overridingSymbolConfiguration;
-@property(retain, nonatomic) UIView *placeholderView;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) _UIImageSymbolVariant *preferredSymbolVariant;
-@property(retain, nonatomic) UIImage *resolvedHighlightedImage;
-@property(retain, nonatomic) UIImage *resolvedImage;
-@property(nonatomic, getter=isStartingLoad) _Bool startingLoad;
-@property(nonatomic, getter=isStoppingLoad) _Bool stoppingLoad;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <UITraitChangeRegistration> systemIconAppearanceTraitRegistration;
 
 @end
 

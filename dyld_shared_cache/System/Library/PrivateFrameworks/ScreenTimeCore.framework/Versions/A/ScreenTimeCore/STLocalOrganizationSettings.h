@@ -6,19 +6,18 @@
 
 #import <ScreenTimeCore/STCoreOrganizationSettings.h>
 
-@class NSString, STLocalOrganization;
+@class STLocalOrganization;
 
 @interface STLocalOrganizationSettings : STCoreOrganizationSettings
 {
 }
 
 - (_Bool);
-- (void);
+- (void)bootpolicy_get_sip_flags_ex;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) STLocalOrganization *organization; // @dynamic organization;
-@property(copy, nonatomic) NSString *recoveryAltDSID; // @dynamic recoveryAltDSID;
 
 @end
 

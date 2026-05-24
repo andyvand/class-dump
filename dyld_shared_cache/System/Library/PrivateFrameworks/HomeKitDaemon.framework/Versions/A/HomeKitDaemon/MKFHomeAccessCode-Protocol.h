@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeAccessCodeDatabaseID, NSDate, NSString;
+@class NSDate, NSString;
 
 @protocol MKFHomeAccessCode
+- (NSDate *)aI;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessCode;
-@property(readonly, copy, nonatomic) MKFHomeAccessCodeDatabaseID *databaseID;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

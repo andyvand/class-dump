@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSMutableArray, NSString, PFPosterOrientedLayout, PIParallaxStyle, _PIParallaxLayerStackDebugImageCollector;
-@protocol NUImageBuffer, PFParallaxSpatialPhotoScene, PISegmentationItem;
+@class NSMutableArray;
+@protocol PISegmentationItem;
 
 @interface _PIParallaxLayerStackJob
 {
     NSMutableArray *_cachedImageEntries;
-    PFPosterOrientedLayout *_layout;
-    CIImage *_foregroundImage;
-    CIImage *_backgroundImage;
-    id <NUImageBuffer> _foregroundBuffer;
-    id <NUImageBuffer> _backgroundBuffer;
-    id <PFParallaxSpatialPhotoScene> _spatialPhotoScene;
-    _PIParallaxLayerStackDebugImageCollector *_debugImageCollector;
-    NSArray *_layers;
-    struct CGRect _spatialPhotoFrame;
 }
 
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -60,7 +51,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)i/;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,9 +59,9 @@
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)frameForScreenAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (id);
@@ -78,27 +69,7 @@
 - (void)@"NSArray"20@0:8B16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUImageBuffer> backgroundBuffer; // @synthesize backgroundBuffer=_backgroundBuffer;
-@property(retain, nonatomic) CIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _PIParallaxLayerStackDebugImageCollector *debugImageCollector; // @synthesize debugImageCollector=_debugImageCollector;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <NUImageBuffer> foregroundBuffer; // @synthesize foregroundBuffer=_foregroundBuffer;
-@property(retain, nonatomic) CIImage *foregroundImage; // @synthesize foregroundImage=_foregroundImage;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) long long mode;
-@property(readonly, nonatomic) PFPosterOrientedLayout *requestLayout;
 @property(readonly, nonatomic) id <PISegmentationItem> segmentationItem;
-@property(readonly, nonatomic) _Bool shouldUseVideoFrame;
-@property(nonatomic) struct CGRect spatialPhotoFrame; // @synthesize spatialPhotoFrame=_spatialPhotoFrame;
-@property(retain, nonatomic) id <PFParallaxSpatialPhotoScene> spatialPhotoScene; // @synthesize spatialPhotoScene=_spatialPhotoScene;
-@property(readonly, nonatomic) PIParallaxStyle *style;
-@property(readonly) Class superclass;
 
 @end
 

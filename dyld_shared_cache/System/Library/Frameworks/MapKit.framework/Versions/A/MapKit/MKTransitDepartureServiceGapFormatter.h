@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MKTransitDepartureServiceGapFormatter
 {
     NSDate *_departureCutoffDate;
-    NSTimeZone *_timeZone;
 }
 
 - (id);
@@ -19,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)tContainer: /* Error: Ran out of types for this method. */;
+- (void)removeElementContainer: /* Error: Ran out of types for this method. */;
 - (id)v;w$;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *departureCutoffDate; // @synthesize departureCutoffDate=_departureCutoffDate;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

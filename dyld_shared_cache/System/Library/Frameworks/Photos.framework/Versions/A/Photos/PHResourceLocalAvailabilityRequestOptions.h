@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PHResourceLocalAvailabilityRequestOptions
 {
     _Bool _treatLivePhotoAsStill;
-    _Bool _dontAllowRAW;
-    _Bool _includeAllAssetResources;
-    _Bool _includeOriginalResourcesOnly;
-    _Bool _allowMissingVideoComplement;
-    NSObject<OS_dispatch_queue> *_resultHandlerQueue;
 }
 
 - (_Bool);
@@ -33,11 +25,6 @@
 - (void)ication;
 
 // Remaining properties
-@property(nonatomic) _Bool allowMissingVideoComplement; // @synthesize allowMissingVideoComplement=_allowMissingVideoComplement;
-@property(nonatomic) _Bool dontAllowRAW; // @synthesize dontAllowRAW=_dontAllowRAW;
-@property(nonatomic) _Bool includeAllAssetResources; // @synthesize includeAllAssetResources=_includeAllAssetResources;
-@property(nonatomic) _Bool includeOriginalResourcesOnly; // @synthesize includeOriginalResourcesOnly=_includeOriginalResourcesOnly;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultHandlerQueue; // @synthesize resultHandlerQueue=_resultHandlerQueue;
 @property(nonatomic) _Bool treatLivePhotoAsStill; // @synthesize treatLivePhotoAsStill=_treatLivePhotoAsStill;
 
 @end

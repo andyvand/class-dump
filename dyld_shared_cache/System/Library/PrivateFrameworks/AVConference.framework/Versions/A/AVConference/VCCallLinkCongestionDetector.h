@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCCallLinkCongestionDetector
 {
     _Bool isLinkCongested;
-    double rttThreshold;
-    double lossRateThreshold;
 }
 
 - (void);

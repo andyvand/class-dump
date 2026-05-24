@@ -6,13 +6,11 @@
 
 #import <MediaPlayer/MPModelResponse.h>
 
-@class MPMediaLibraryConnectionAssertion, NSArray;
+@class NSArray;
 
 @interface MPModelLibraryResponse : MPModelResponse
 {
     NSArray *_sectionKeepLocalStatusConfigurations;
-    NSArray *_scopedContainers;
-    MPMediaLibraryConnectionAssertion *_libraryAssertion;
 }
 
 @end

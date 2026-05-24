@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEODataConditionalConnectionProperties, GEOETATrafficUpdateRequest, NSString;
+@class GEOETATrafficUpdateRequest;
 
 @interface GEOETARequestUpdateable : GEOXPCRequest
 {
     GEOETATrafficUpdateRequest *_request;
-    GEODataConditionalConnectionProperties *_connectionProperties;
 }
 
-+ (Class);
++ (Class)placeholderText;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setDisablePrewarmLocalAsrAtStartRecording: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)oadClass;
+- (void)_functionalRoadClass;
 - (void)kP@;
 - (void),ðÿ;
 
 // Remaining properties
-@property(retain, nonatomic) GEODataConditionalConnectionProperties *connectionProperties; // @synthesize connectionProperties=_connectionProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOETATrafficUpdateRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

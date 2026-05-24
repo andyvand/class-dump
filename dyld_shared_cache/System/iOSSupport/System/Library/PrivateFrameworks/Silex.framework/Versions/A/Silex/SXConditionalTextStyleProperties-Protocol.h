@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXJSONArray, SXTextDecoration, SXTextShadow, SXTextStroke, UIColor;
+@class SXTextShadow;
 
 @protocol SXConditionalTextStyleProperties
+- (SXTextShadow *)U;
 - (double)XLayoutFinalizationProcessor"16@?0@"<TFResolver>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor;
 @property(readonly, nonatomic) long long fontSize;
-@property(readonly, nonatomic) SXJSONArray *listStyle;
-@property(readonly, nonatomic) SXTextDecoration *strikethrough;
-@property(readonly, nonatomic) SXTextStroke *stroke;
-@property(readonly, nonatomic) UIColor *textColor;
-@property(readonly, nonatomic) SXTextShadow *textShadow;
-@property(readonly, nonatomic) long long textTransform;
-@property(readonly, nonatomic) double tracking;
-@property(readonly, nonatomic) SXTextDecoration *underline;
-@property(readonly, nonatomic) int verticalAlignment;
 @end
 

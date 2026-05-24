@@ -6,14 +6,11 @@
 
 #import <CommonUtilities/CUTPromise.h>
 
-@class CUTResult, NSMutableArray, NSRecursiveLock;
+@class NSRecursiveLock;
 
 @interface _CUTLockingPromise : CUTPromise
 {
     NSRecursiveLock *_lock;
-    _Bool _done;
-    CUTResult *_result;
-    NSMutableArray *_resultBlocks;
 }
 
 - (void);
@@ -30,10 +27,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool done; // @synthesize done=_done;
 @property(retain, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) CUTResult *result; // @synthesize result=_result;
-@property(retain, nonatomic) NSMutableArray *resultBlocks; // @synthesize resultBlocks=_resultBlocks;
 
 @end
 

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTaskList, NSArray, NSNumber;
+@class INTaskList, NSNumber;
 
 @protocol INDeleteTasksIntentExport
+- (void)5;
+- (NSNumber *)ished key!;
 
 // Remaining properties
-@property(copy) NSNumber *all;
 @property(copy) INTaskList *taskList;
-@property(copy) NSArray *tasks;
 @end
 

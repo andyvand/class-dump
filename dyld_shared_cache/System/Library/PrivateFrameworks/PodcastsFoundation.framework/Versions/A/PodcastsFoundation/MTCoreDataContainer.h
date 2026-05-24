@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTManagedObjectContext, NSArray, NSHashTable, NSManagedObjectModel, NSObject, NSPersistentStoreCoordinator;
-@protocol MTCoreDataContainerConfigProvider, OS_dispatch_queue;
+@class NSManagedObjectModel;
 
 @interface MTCoreDataContainer
 {
     _Bool _valid;
-    NSManagedObjectModel *_managedObjectModel;
-    MTManagedObjectContext *_mainQueueContext;
-    MTManagedObjectContext *_privateQueueContext;
-    MTManagedObjectContext *_carPlayContext;
-    MTManagedObjectContext *_storeContext;
-    MTManagedObjectContext *_importContext;
-    MTManagedObjectContext *_resetableImportContext;
-    MTManagedObjectContext *_loggingContext;
-    MTManagedObjectContext *_playbackContext;
-    NSObject<OS_dispatch_queue> *_mergeQueue;
-    NSObject<OS_dispatch_queue> *_mergeNotifierQueue;
-    NSPersistentStoreCoordinator *_coordinator;
-    id <MTCoreDataContainerConfigProvider> _config;
-    NSHashTable *_notifiers;
-    NSArray *_entityNames;
 }
 
 - (void);
@@ -32,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,19 +38,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�w
+;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)7
+;
 - (id);
 - (void);
 - (id);
@@ -80,25 +66,10 @@
 - (id)ø;
 - (void)pXp6actualt;
 - (void)éù;
-- (void)metry;
+- (void)MediaRequestTelemetry;
 
 // Remaining properties
-@property(retain, nonatomic) MTManagedObjectContext *carPlayContext; // @synthesize carPlayContext=_carPlayContext;
-@property(retain, nonatomic) id <MTCoreDataContainerConfigProvider> config; // @synthesize config=_config;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(retain, nonatomic) NSArray *entityNames; // @synthesize entityNames=_entityNames;
-@property(retain, nonatomic) MTManagedObjectContext *importContext; // @synthesize importContext=_importContext;
-@property(retain, nonatomic) MTManagedObjectContext *loggingContext; // @synthesize loggingContext=_loggingContext;
-@property(retain, nonatomic) MTManagedObjectContext *mainQueueContext; // @synthesize mainQueueContext=_mainQueueContext;
 @property(retain, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mergeNotifierQueue; // @synthesize mergeNotifierQueue=_mergeNotifierQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mergeQueue; // @synthesize mergeQueue=_mergeQueue;
-@property(retain, nonatomic) NSHashTable *notifiers; // @synthesize notifiers=_notifiers;
-@property(retain, nonatomic) MTManagedObjectContext *playbackContext; // @synthesize playbackContext=_playbackContext;
-@property(retain, nonatomic) MTManagedObjectContext *privateQueueContext; // @synthesize privateQueueContext=_privateQueueContext;
-@property(retain, nonatomic) MTManagedObjectContext *resetableImportContext; // @synthesize resetableImportContext=_resetableImportContext;
-@property(retain, nonatomic) MTManagedObjectContext *storeContext; // @synthesize storeContext=_storeContext;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

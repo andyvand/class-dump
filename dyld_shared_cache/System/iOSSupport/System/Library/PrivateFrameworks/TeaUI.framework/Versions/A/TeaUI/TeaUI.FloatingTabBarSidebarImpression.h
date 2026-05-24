@@ -7,12 +7,6 @@
 @interface TeaUI.FloatingTabBarSidebarImpression
 {
     id tab;
-    id startDate;
-    id endDate;
-    id startTrigger;
-    id endTrigger;
-    id sessionIdentifier;
-    id metadata;
 }
 
 @end

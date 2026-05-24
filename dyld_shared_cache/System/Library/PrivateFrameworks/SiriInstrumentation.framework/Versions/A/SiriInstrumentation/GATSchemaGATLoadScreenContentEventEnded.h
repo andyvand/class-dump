@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATError, NSData;
-
 @interface GATSchemaGATLoadScreenContentEventEnded : SISchemaInstrumentationMessage
 {
     int _originalMediaType;
-    double _originalMediaSizeInKBs;
-    GATSchemaGATError *_underlyingError;
-    struct {
-        unsigned int originalMediaType:1;
-        unsigned int originalMediaSizeInKBs:1;
-    } _has;
-    _Bool _hasUnderlyingError;
 }
 
 - (void);
@@ -38,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_setWantsIndentedLayout: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,13 +39,7 @@
 - (void)Äs$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalMediaSizeInKBs;
-@property(nonatomic) _Bool hasOriginalMediaType;
-@property(nonatomic) _Bool hasUnderlyingError; // @synthesize hasUnderlyingError=_hasUnderlyingError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double originalMediaSizeInKBs; // @synthesize originalMediaSizeInKBs=_originalMediaSizeInKBs;
 @property(nonatomic) int originalMediaType; // @synthesize originalMediaType=_originalMediaType;
-@property(retain, nonatomic) GATSchemaGATError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

@@ -11,10 +11,9 @@
 @interface _CNUIUserActionURLItem : CNUIUserActionItem
 {
     _Bool _isSensitive;
-    CNFuture *_url;
 }
 
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 - (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSensitive; // @synthesize isSensitive=_isSensitive;
 @property(readonly, nonatomic) CNFuture *url; // @synthesize url=_url;
 
 @end

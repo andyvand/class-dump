@@ -5,5 +5,8 @@
 //
 
 @protocol TIKeyboardInteractionObserver
+
+@optional
+- (void)%@/TU Call %@;
 @end
 

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) NSString *type;
 @end
 

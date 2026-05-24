@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 

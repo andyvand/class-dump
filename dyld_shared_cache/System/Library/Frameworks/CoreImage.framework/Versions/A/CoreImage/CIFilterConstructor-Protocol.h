@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CIFilter;
+
 @protocol CIFilterConstructor
+- (CIFilter *)BBN!Bn;
 @end
 

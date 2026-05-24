@@ -5,5 +5,11 @@
 //
 
 @protocol DiagnosticsServiceInterface
+- (void)ointEnabled,V_defaultShellEndpointEnabled;
+- (void)_donatePhotoDeleteEventWithBaseSample:(unsigned long long)arg1 andEvent:(void (^)(NSString *))arg2;
+- (void))=;
+- (void)__TEXT;
+- (void)7L;
+- (void);
 @end
 

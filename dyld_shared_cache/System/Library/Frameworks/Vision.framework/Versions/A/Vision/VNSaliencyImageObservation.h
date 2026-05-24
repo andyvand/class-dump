@@ -6,36 +6,28 @@
 
 #import <Vision/VNPixelBufferObservation.h>
 
-@class NSArray;
-
 @interface VNSaliencyImageObservation : VNPixelBufferObservation
 {
     struct CGSize _mOriginalImageSize;
-    struct CGRect _mSalientRegion;
-    struct CGRect _mHighlySalientRegion;
-    struct os_unfair_lock_s _mComputeBoundingBoxesLock;
-    NSArray *_mSalientObjects;
 }
 
 + (_Bool);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)R;
 - (id);
 - (struct __CVBuffer *);
 - (void);
-- (id);
+- (id)initWithActionIdentifier:(id)arg1 providerDomainID:itemIdentifiers: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void)don't match;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingBox;
-@property(readonly, nonatomic) struct CGRect narrowedBoundingBox;
-@property(readonly, nonatomic) NSArray *salientObjects;
 
 @end
 

@@ -5,17 +5,13 @@
 //
 
 @class NSArray, NSString, NSUUID;
-@protocol APPCPromotableContentDepiction;
 
 @protocol APPCPromotableBaseContext
+- (NSString *);
+- (struct CGSize),;
 - (NSArray *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *adjacent;
-@property(nonatomic, readonly) id <APPCPromotableContentDepiction> current;
 @property(nonatomic, readonly) NSUUID *identifier;
-@property(nonatomic, readonly) struct CGSize maxSize;
-@property(nonatomic, readonly) NSArray *next;
-@property(nonatomic, readonly) NSString *requestedAd;
 @end
 

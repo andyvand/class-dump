@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVenueLabel, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueBuilding
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _directoryGroupingIds;
-    CDStruct_62a50c50 _levelIds;
-    unsigned long long _buildingId;
-    GEOPDVenueLabel *_label;
-    unsigned long long _muid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_buildingId:1;
-        unsigned int has_muid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_directoryGroupingIds:1;
-        unsigned int read_levelIds:1;
-        unsigned int read_label:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)r">24;
+- (id)initWithSpeechManager:fileLoggingEnabled: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id)PolylineCoordinate=If}24f32@36;
-- (id)y;
+- (id)_shouldPopulateExploreGuidesEntry;
 - (id)¼à	ê;
 - (void)ÑËØÐJ@;
 

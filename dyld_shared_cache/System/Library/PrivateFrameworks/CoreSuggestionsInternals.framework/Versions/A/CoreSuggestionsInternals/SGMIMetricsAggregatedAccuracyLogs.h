@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGMIMetricsAggregatedAccuracyLog, SGMIMetricsTrialMetadata;
+@class SGMIMetricsAggregatedAccuracyLog;
 
 @interface SGMIMetricsAggregatedAccuracyLogs
 {
     SGMIMetricsAggregatedAccuracyLog *_activeAggregatedAccuracyLogForThePastFourWeeks;
-    SGMIMetricsAggregatedAccuracyLog *_activeAggregatedAccuracyLogSinceModelInitialization;
-    SGMIMetricsTrialMetadata *_activeTrialMetadata;
-    SGMIMetricsAggregatedAccuracyLog *_backgroundAggregatedAccuracyLogForThePastFourWeeks;
-    SGMIMetricsAggregatedAccuracyLog *_backgroundAggregatedAccuracyLogSinceModelInitialization;
-    SGMIMetricsTrialMetadata *_backgroundTrialMetadata;
-    unsigned int _hoursSinceReference;
-    struct {
-        unsigned int hoursSinceReference:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ersions/A/AXCoreUtilities;
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (unsigned int);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,28 +37,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)accountsd;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void)HÙpÚ;
 
 // Remaining properties
-@property(retain, nonatomic) SGMIMetricsAggregatedAccuracyLog *activeAggregatedAccuracyLogForThePastFourWeeks; // @synthesize activeAggregatedAccuracyLogForThePastFourWeeks=_activeAggregatedAccuracyLogForThePastFourWeeks;
-@property(retain, nonatomic) SGMIMetricsAggregatedAccuracyLog *activeAggregatedAccuracyLogSinceModelInitialization; // @synthesize activeAggregatedAccuracyLogSinceModelInitialization=_activeAggregatedAccuracyLogSinceModelInitialization;
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *activeTrialMetadata; // @synthesize activeTrialMetadata=_activeTrialMetadata;
-@property(retain, nonatomic) SGMIMetricsAggregatedAccuracyLog *backgroundAggregatedAccuracyLogForThePastFourWeeks; // @synthesize backgroundAggregatedAccuracyLogForThePastFourWeeks=_backgroundAggregatedAccuracyLogForThePastFourWeeks;
-@property(retain, nonatomic) SGMIMetricsAggregatedAccuracyLog *backgroundAggregatedAccuracyLogSinceModelInitialization; // @synthesize backgroundAggregatedAccuracyLogSinceModelInitialization=_backgroundAggregatedAccuracyLogSinceModelInitialization;
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *backgroundTrialMetadata; // @synthesize backgroundTrialMetadata=_backgroundTrialMetadata;
-@property(readonly, nonatomic) _Bool hasActiveAggregatedAccuracyLogForThePastFourWeeks;
-@property(readonly, nonatomic) _Bool hasActiveAggregatedAccuracyLogSinceModelInitialization;
-@property(readonly, nonatomic) _Bool hasActiveTrialMetadata;
-@property(readonly, nonatomic) _Bool hasBackgroundAggregatedAccuracyLogForThePastFourWeeks;
-@property(readonly, nonatomic) _Bool hasBackgroundAggregatedAccuracyLogSinceModelInitialization;
-@property(readonly, nonatomic) _Bool hasBackgroundTrialMetadata;
 @property(nonatomic) _Bool hasHoursSinceReference;
-@property(nonatomic) unsigned int hoursSinceReference; // @synthesize hoursSinceReference=_hoursSinceReference;
 
 @end
 

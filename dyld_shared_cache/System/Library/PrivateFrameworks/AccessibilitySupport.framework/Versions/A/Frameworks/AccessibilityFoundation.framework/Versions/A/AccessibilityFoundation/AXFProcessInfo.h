@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXFProcessInfo
 {
     int _pid;
-    NSString *_processName;
-    double _cpuUsagePercentage;
-    double _memoryUsageMB;
 }
 
 - (id);
 - (double);
-- (double);
+- (double);
 - (int);
 - (id);
-- (void);
+- (void)r Password;
 
 // Remaining properties
-@property(readonly, nonatomic) double cpuUsagePercentage; // @synthesize cpuUsagePercentage=_cpuUsagePercentage;
-@property(readonly, nonatomic) double memoryUsageMB; // @synthesize memoryUsageMB=_memoryUsageMB;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
 
 @end
 

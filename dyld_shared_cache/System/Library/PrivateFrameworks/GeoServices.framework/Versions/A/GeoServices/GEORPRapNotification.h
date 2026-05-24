@@ -4,59 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPRapNotification
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_body;
-    GEOLocalizedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_body:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setLinesShown:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)SiriVolumeEstimate"40@0:8Q16@"NSNumber"24Q32 /* Error: Ran out of types for this method. */;
+- (void)g",&,N,V_languageCode;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)ified more than once
+;
+- (_Bool)tionCoordinate2D=dd}{?=dd}}16;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_silenceStart;
 - (_Bool)'°!äFùñ·*1Â0@ù
 × ;
 - (id)b1"read_localizedCategories"b1"read_mapsURL"b1"read_name"b1"read_openHours"b1"read_phoneticName"b1"read_photos"b1"read_placeDataAmendments"b1"read_ratings"b1"read_sources"b1"read_starRatings"b1"read_telephone"b1"wrote_anyField"b1};
-- (id)entAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
+- (id)composedWaypointForMapItemToRefine:traits:clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
 - (id)¨*|0¼0
 Ô3;
-- (id)Candidate;
+- (id)tokenCandidate;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocalizedString *body;
-@property(readonly, nonatomic) _Bool hasBody;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOLocalizedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

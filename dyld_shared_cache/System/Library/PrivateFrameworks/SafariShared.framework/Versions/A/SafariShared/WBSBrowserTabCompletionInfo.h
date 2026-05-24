@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface WBSBrowserTabCompletionInfo
 {
     NSUUID *_uuid;
-    NSUUID *_windowUUID;
-    NSUUID *_tabGroupUUID;
-    NSString *_tabGroupTitle;
-    unsigned long long _tabIndex;
-    NSURL *_url;
-    NSString *_title;
-    long long _pageStatus;
 }
 
 - (id);
@@ -31,14 +24,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long pageStatus; // @synthesize pageStatus=_pageStatus;
-@property(readonly, copy, nonatomic) NSString *tabGroupTitle; // @synthesize tabGroupTitle=_tabGroupTitle;
-@property(readonly, nonatomic) NSUUID *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(readonly, nonatomic) unsigned long long tabIndex; // @synthesize tabIndex=_tabIndex;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
 
 @end
 

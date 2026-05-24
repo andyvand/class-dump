@@ -6,14 +6,11 @@
 
 #import <VoiceShortcutClient/WFContextualAction.h>
 
-@class WFAppShortcutNamedQueryInfo;
 @protocol NSSecureCoding;
 
 @interface WFTopHitItemContextualAction : WFContextualAction
 {
     id <NSSecureCoding> _item;
-    unsigned long long _primaryColor;
-    WFAppShortcutNamedQueryInfo *_namedQueryInfo;
 }
 
 + (void);
@@ -24,12 +21,12 @@
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void){;
 + (id);
+- (id)l;
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long){;
+- (unsigned long long)ing";
 - (id);
 - (_Bool);
 - (void)0@ù
@@ -37,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSecureCoding> item; // @synthesize item=_item;
-@property(readonly, nonatomic) WFAppShortcutNamedQueryInfo *namedQueryInfo; // @synthesize namedQueryInfo=_namedQueryInfo;
-@property(readonly, nonatomic) unsigned long long primaryColor; // @synthesize primaryColor=_primaryColor;
 
 @end
 

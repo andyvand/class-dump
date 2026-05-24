@@ -6,39 +6,32 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary, NSNumber, NSString;
+@class ACAccount;
 
 @interface AAiCloudTermsAgreeRequest : AARequest
 {
     ACAccount *_account;
-    _Bool _preferPassword;
-    NSDictionary *_additionalHeaders;
-    NSNumber *_slaVersion;
-    NSString *_serverInfo;
 }
 
 + (Class);
+- (id)wed;
+- (void)failed to delete 'new' profile;
+- (void)CPPlugInsInfo_Actions;
+- (void)__________________________;
+- (_Bool)ble to migrate ShareKit payloads:%s /* Error: Ran out of types for this method. */;
+- (id)===================================
+;
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)alue:forKey: /* Error: Ran out of types for this method. */;
-- (void)lVersion;
+- (void)setValue:forKey: /* Error: Ran out of types for this method. */;
+- (void)protocolVersion;
 - (id)¨	;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSDictionary *additionalHeaders; // @synthesize additionalHeaders=_additionalHeaders;
-@property(nonatomic) _Bool preferPassword; // @synthesize preferPassword=_preferPassword;
-@property(copy, nonatomic) NSString *serverInfo; // @synthesize serverInfo=_serverInfo;
-@property(retain, nonatomic) NSNumber *slaVersion; // @synthesize slaVersion=_slaVersion;
 
 @end
 

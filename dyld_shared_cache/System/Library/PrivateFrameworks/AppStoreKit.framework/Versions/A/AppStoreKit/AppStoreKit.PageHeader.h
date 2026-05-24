@@ -7,11 +7,6 @@
 @interface AppStoreKit.PageHeader
 {
     id badge;
-    id title;
-    id subtitle;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

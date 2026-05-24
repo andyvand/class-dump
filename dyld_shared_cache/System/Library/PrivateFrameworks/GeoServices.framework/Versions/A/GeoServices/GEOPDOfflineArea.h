@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDOfflineArea
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_displayMapRegions;
-    GEOMapRegion *_mapRegion;
-    GEOMapRegion *_maximumAllowedMapRegion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayMapRegions:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_maximumAllowedMapRegion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_didReceiveClamshellStateChangeNotification: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)EOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24q32Q40;
-- (id)on;
+- (id)_hasFiredCallHistoryRecentsClearedNotification;
 - (id)|À@°ô !Ä!ü";
 - (void)ëQ¸@=
 ×£p©@;

@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOClientMetrics, GEODataRequestThrottlerToken, GEODataURLSessionTask, GEOProtobufSession, NSError, NSObject, NSString, PBCodable;
-@protocol GEOProtobufSessionTaskDelegate, OS_dispatch_queue;
-
 @interface GEOProtobufSessionTask
 {
     Class _responseClass;
-    GEODataURLSessionTask *_dataTask;
-    GEOProtobufSession *_session;
-    id <GEOProtobufSessionTaskDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSError *_error;
-    PBCodable *_response;
-    unsigned int _requestTypeCode;
-    CDStruct_d1a7ebee _requestKind;
-    GEOApplicationAuditToken *_auditToken;
-    _Bool _completedAsCancelled;
-    GEODataRequestThrottlerToken *_throttleToken;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)rawMicChannelsDataWithNumSamplesPerChannel: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int);
+- (id)`;
+- (id)NSNumber",C,N,V_merchantCleanConfidenceLevel;
 - (void);
 - (unsigned long long);
 - (id)'!|Eù±·*°1Â0@ù
 × ;
 - (void)Â0@ù
 × ;
-- (_Bool)voidHills;
+- (_Bool)walkingAvoidHills;
 - (id);
 - (void);
 - (_Bool)%$;
@@ -54,25 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOClientMetrics *clientMetrics;
-@property(readonly, nonatomic) _Bool completedAsCancelled;
-@property(readonly, nonatomic) GEODataURLSessionTask *dataTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long incomingPayloadSize;
-@property(readonly, nonatomic) _Bool mptcpNegotiated;
-@property(readonly, nonatomic) unsigned long long outgoingPayloadSize;
-@property(readonly, nonatomic) _Bool receivedRNFNotification;
-@property(readonly, nonatomic) NSString *remoteAddressAndPort;
-@property(readonly, nonatomic) unsigned int requestTypeCode; // @synthesize requestTypeCode=_requestTypeCode;
-@property(readonly, nonatomic) unsigned long long requestedMultipathServiceType;
-@property(readonly, nonatomic) PBCodable *response;
-@property(readonly) Class superclass;
 
 @end
 

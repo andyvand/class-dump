@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, TPPBPeerStableInfoSetting, TPPBSecureElementIdentity, TPPolicyVersion, TPTypedSignedData;
+@class TPTypedSignedData;
 
 @interface TPPeerStableInfo
 {
@@ -12,57 +12,40 @@
 }
 
 + (id);
-+ (id);
++ (id)entifier not available for inclusion of amount (%d);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id).;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)`;
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int)setDestinationCircularBuffer;
+- (id)LowPowerModeDuration;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clock;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *deviceName;
-@property(readonly) TPPolicyVersion *flexiblePolicyVersion;
-@property(readonly) TPPolicyVersion *frozenPolicyVersion;
-@property(readonly, nonatomic) _Bool isInheritedAccount;
-@property(readonly, nonatomic) NSString *osVersion;
-@property(readonly, nonatomic) NSDictionary *policySecrets;
-@property(readonly, nonatomic) NSData *recoveryEncryptionPublicKey;
-@property(readonly, nonatomic) NSData *recoverySigningPublicKey;
-@property(readonly, nonatomic) TPPBSecureElementIdentity *secureElementIdentity;
-@property(readonly, nonatomic) NSString *serialNumber;
-@property(readonly, nonatomic) NSData *sig;
-@property(readonly, nonatomic) _Bool supportsRepudiation;
-@property(readonly, nonatomic) int syncUserControllableViews;
 @property(retain, nonatomic) TPTypedSignedData *tsd; // @synthesize tsd=_tsd;
-@property(readonly, nonatomic) TPPBPeerStableInfoSetting *walrusSetting;
-@property(readonly, nonatomic) TPPBPeerStableInfoSetting *webAccess;
 
 @end
 

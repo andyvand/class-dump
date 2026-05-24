@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLVisit, MapsSuggestionsBlockCondition, MapsSuggestionsSimpleTrigger, NSString;
-@protocol MapsSuggestionsCondition, MapsSuggestionsLocationUpdater, MapsSuggestionsTrigger;
+@protocol MapsSuggestionsLocationUpdater, MapsSuggestionsTrigger;
 
 @interface MapsSuggestionsVisitMonitor
 {
     id <MapsSuggestionsLocationUpdater> _locationUpdater;
-    CLVisit *_latestVisit;
-    _Bool _isInVisit;
-    MapsSuggestionsSimpleTrigger *_onEnterTrigger;
-    MapsSuggestionsSimpleTrigger *_onExitTrigger;
-    MapsSuggestionsBlockCondition *_isInVisitCondition;
 }
 
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -33,18 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <MapsSuggestionsCondition> isInVisitCondition; // @synthesize isInVisitCondition=_isInVisitCondition;
-@property(readonly, nonatomic) CLVisit *latestVisit;
 @property(readonly, nonatomic) id <MapsSuggestionsTrigger> onEnterTrigger; // @synthesize onEnterTrigger=_onEnterTrigger;
-@property(readonly, nonatomic) id <MapsSuggestionsTrigger> onExitTrigger; // @synthesize onExitTrigger=_onExitTrigger;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

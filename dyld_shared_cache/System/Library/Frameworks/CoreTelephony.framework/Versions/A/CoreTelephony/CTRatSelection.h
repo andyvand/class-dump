@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTRatSelection
 {
     unsigned char _mask;
-    NSString *_selection;
-    NSString *_preferred;
 }
 
-+ (_Bool);
++ (_Bool)g to the same movie;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithACL:(id)arg1;
 - (id);
-- (unsigned char);
+- (unsigned char)nam;
 - (void);
 - (void)qª)Ð1Â0@ù
 × ;
 - (void);
-- (void)oteCapabilitiesOptions:(id)arg1;
+- (void)isEqualToCTLazuliFetchRemoteCapabilitiesOptions:(id)arg1;
 - (id)undleId;
-- (id)eSize;
+- (id)kPacketActivateQueueSize;
 
 // Remaining properties
 @property(nonatomic) unsigned char mask; // @synthesize mask=_mask;
-@property(retain, nonatomic) NSString *preferred; // @synthesize preferred=_preferred;
-@property(retain, nonatomic) NSString *selection; // @synthesize selection=_selection;
 
 @end
 

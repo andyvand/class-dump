@@ -11,7 +11,7 @@
     NSMutableArray *mChangesArray;
 }
 
-- (void);
+- (void)finalTransitionsMode;
 - (id);
 - (void);
 - (id);

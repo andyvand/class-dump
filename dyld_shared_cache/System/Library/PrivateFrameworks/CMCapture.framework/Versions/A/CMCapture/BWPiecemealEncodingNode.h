@@ -6,20 +6,19 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPhotoEncoderController, BWStillImageNodeConfiguration;
+@class BWStillImageNodeConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface BWPiecemealEncodingNode : BWNode
 {
     BWStillImageNodeConfiguration *_nodeConfiguration;
-    BWPhotoEncoderController *_photoEncoderController;
 }
 
 + (void)sensorVideoPort:captureDeviceType:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);d;;
 - (void);
 - (id)ssful.;
 - (void)6oËÿ@nËÿInÌÿSmÌÿ\mÍÿelÎÿnlÎÿxkÏÿjÐÿjÑÿiÒÿiÓÿ«hÔÿµhÕÿÀgÖÿÊf×ÿÕf×ÿÜdÖÿâaÕÿæ`Õÿæ_Ôÿ|Ìÿ|Ìÿ|Ìÿ;

@@ -5,5 +5,6 @@
 //
 
 @protocol ColorSamplerClientProtocol
+- (void)on %u.%u;
 @end
 

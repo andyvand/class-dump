@@ -9,16 +9,15 @@
 @interface REMRecurrenceEnd
 {
     NSDate *_endDate;
-    unsigned long long _occurrenceCount;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)bulary/Modules/TestEndToEnd;
+- (id)ION;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)edge16FailableIteratorP;
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) unsigned long long occurrenceCount; // @synthesize occurrenceCount=_occurrenceCount;
 
 @end
 

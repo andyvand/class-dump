@@ -6,8 +6,6 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMWorkoutEvent : BMEventBase
 {
     _Bool _starting;
@@ -19,23 +17,15 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)66;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void)ansition__descriptor;
-- (id)e;
+- (id)pg_query__create_transform_stmt__get_packed_size;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
 
 @end
 

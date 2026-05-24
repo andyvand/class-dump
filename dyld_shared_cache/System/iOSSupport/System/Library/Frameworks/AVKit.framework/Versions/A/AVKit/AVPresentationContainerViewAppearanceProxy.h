@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVPresentationContainerViewAppearanceProxy
 {
     _Bool _clipsToBounds;
-    UIView *_actualView;
-    NSString *_cornerCurve;
-    unsigned long long _maskedCorners;
-    double _cornerRadius;
-    UIColor *_backgroundColor;
 }
 
-- (void);
+- (void)ror unarchiving a mock PCS service identity:(id)arg1 %@;
 - (unsigned long long);
 - (void);
 - (id);
@@ -25,19 +20,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double)ve:%@ operationID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)oint=dd}{CGSize=dd}}16@48;
-- (id)tructionsBackdropLabel;
+- (id)_detachedScrubInstructionsBackdropLabel;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *actualView; // @synthesize actualView=_actualView;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool clipsToBounds; // @synthesize clipsToBounds=_clipsToBounds;
-@property(retain, nonatomic) NSString *cornerCurve; // @synthesize cornerCurve=_cornerCurve;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners=_maskedCorners;
 
 @end
 

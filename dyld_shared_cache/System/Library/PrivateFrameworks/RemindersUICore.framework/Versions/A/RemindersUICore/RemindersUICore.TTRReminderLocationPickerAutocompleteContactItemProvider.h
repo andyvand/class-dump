@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerAutocompleteContactItemProvider
 {
     id operationQueue;
-    id autocompleteStore;
-    id currentSearchText;
-    id currentFetchPromise;
-    id currentFetchOperation;
 }
 
 - (id);

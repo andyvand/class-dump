@@ -7,9 +7,10 @@
 @interface _StoreKit_SwiftUI.NavigationController
 {
     id url;
+    id;
 }
 
-- (id);
+- (id)_TtCC16CallsAppServices30ParticipantContactDetailsCacheP33_DBAE018A1E4F5BB55DEF9F156877BEDC12BoxedDetails;
 - (id);
 - (id);
 - (id);

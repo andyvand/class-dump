@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAMutableRegion, NSString, PAGLTextureRect;
+@class PAGLTextureRect;
 
 @interface PATextureImageBacking
 {
     PAGLTextureRect *_texture;
-    IPAMutableRegion *_validRegion;
 }
 
 - (_Bool);
@@ -30,26 +29,20 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (struct CGSize);
-- (id);
+- (struct CGSize)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v},R,N;
+- (id)container;
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
 - (id);
 - (struct CGSize);
-- (id);
+- (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

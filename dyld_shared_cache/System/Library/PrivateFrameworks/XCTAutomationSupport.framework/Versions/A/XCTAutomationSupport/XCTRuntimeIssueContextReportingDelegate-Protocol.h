@@ -5,5 +5,6 @@
 //
 
 @protocol XCTRuntimeIssueContextReportingDelegate
++ (_Bool);
 @end
 

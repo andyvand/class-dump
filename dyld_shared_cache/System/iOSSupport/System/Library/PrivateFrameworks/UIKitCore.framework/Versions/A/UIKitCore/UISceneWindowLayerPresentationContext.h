@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISceneWindowLayerPresentationContext
 {
     _Bool ignoreAnimations;
-    _Bool fullyOccluded;
-    double postCommitDuration;
-    NSString *_flattenMode;
-    _Bool _ignoreAnimations;
-    _Bool _fullyOccluded;
-    double _postCommitDuration;
 }
 
 - (id);
@@ -34,23 +26,13 @@
 - (id)1Â0@ù
 × ;
 - (id)eThickening"b1"hasBaseline"b1"isBaselineExplicit"b1"areContentInsetsExplicit"b1"areAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
-- (_Bool)usBarHiddenWithBlock:(id)arg1;
+- (_Bool)observeStatusBarHiddenWithBlock:(id)arg1;
 - (id)",&,N,V_storage;
 - (id)tion,V__timingFunctionForAnimation;
 - (void)3¶Õüýc;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *flattenMode; // @synthesize flattenMode=_flattenMode;
-@property(nonatomic) _Bool fullyOccluded; // @synthesize fullyOccluded=_fullyOccluded;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoreAnimations; // @synthesize ignoreAnimations=_ignoreAnimations;
-@property(nonatomic) double postCommitDuration; // @synthesize postCommitDuration=_postCommitDuration;
-@property(readonly) Class superclass;
 
 @end
 

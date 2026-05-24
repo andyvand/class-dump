@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface IDSDailyAccountAddedNotificationsMetric
 {
     NSNumber *_dailyNotificationsPosted;
-    NSNumber *_dailyDuplicateNotificationsPosted;
 }
 
 - (id);
@@ -20,17 +19,7 @@
 - (void).keysharing;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *dailyDuplicateNotificationsPosted; // @synthesize dailyDuplicateNotificationsPosted=_dailyDuplicateNotificationsPosted;
 @property(readonly, nonatomic) NSNumber *dailyNotificationsPosted; // @synthesize dailyNotificationsPosted=_dailyNotificationsPosted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

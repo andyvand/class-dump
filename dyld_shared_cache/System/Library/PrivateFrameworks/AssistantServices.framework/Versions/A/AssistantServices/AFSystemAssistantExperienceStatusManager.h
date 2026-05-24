@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriAvailability, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AFSystemAssistantExperienceStatusManager
 {
     _Bool _deviceSupportsSAE;
-    _Bool _saeEnabled;
-    _Bool _saeAvailable;
-    _Bool _swaiEnabled;
-    _Bool _visualIntelligenceEnabled;
-    AFSiriAvailability *_siriAvailability;
-    NSObject<OS_dispatch_queue> *_updateQueue;
 }
 
 + (_Bool);
@@ -41,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (id);
 - (void);
@@ -50,16 +41,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)ostname;
+- (void)_connectionPolicyHostname;
 
 // Remaining properties
 @property _Bool deviceSupportsSAE; // @synthesize deviceSupportsSAE=_deviceSupportsSAE;
-@property _Bool saeAvailable; // @synthesize saeAvailable=_saeAvailable;
-@property _Bool saeEnabled; // @synthesize saeEnabled=_saeEnabled;
-@property(retain) AFSiriAvailability *siriAvailability; // @synthesize siriAvailability=_siriAvailability;
-@property _Bool swaiEnabled; // @synthesize swaiEnabled=_swaiEnabled;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *updateQueue; // @synthesize updateQueue=_updateQueue;
-@property _Bool visualIntelligenceEnabled; // @synthesize visualIntelligenceEnabled=_visualIntelligenceEnabled;
 
 @end
 

@@ -9,18 +9,9 @@
 @interface BMRule
 {
     NSSet *_antecedent;
-    NSSet *_consequent;
-    double _support;
-    double _confidence;
-    unsigned long long _basketCount;
-    unsigned long long _absoluteSupport;
-    unsigned long long _absoluteAntecedentSupport;
-    unsigned long long _absoluteConsequentSupport;
-    unsigned long long _uniqueDaysLastWeek;
-    unsigned long long _uniqueDaysTotal;
 }
 
-+ (_Bool);
++ (_Bool)uedNavigationContentViewController:,V_queuedNavigationContentViewController /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -45,19 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long absoluteAntecedentSupport; // @synthesize absoluteAntecedentSupport=_absoluteAntecedentSupport;
-@property(readonly, nonatomic) unsigned long long absoluteConsequentSupport; // @synthesize absoluteConsequentSupport=_absoluteConsequentSupport;
-@property(readonly, nonatomic) unsigned long long absoluteSupport; // @synthesize absoluteSupport=_absoluteSupport;
-@property(readonly, nonatomic) NSSet *antecedent; // @synthesize antecedent=_antecedent;
 @property(readonly, nonatomic) unsigned long long basketCount; // @synthesize basketCount=_basketCount;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) NSSet *consequent; // @synthesize consequent=_consequent;
-@property(readonly, nonatomic) double conviction;
-@property(readonly, nonatomic) double lift;
-@property(readonly, nonatomic) double rulePowerFactor;
-@property(readonly, nonatomic) double support; // @synthesize support=_support;
-@property(readonly, nonatomic) unsigned long long uniqueDaysLastWeek; // @synthesize uniqueDaysLastWeek=_uniqueDaysLastWeek;
-@property(readonly, nonatomic) unsigned long long uniqueDaysTotal; // @synthesize uniqueDaysTotal=_uniqueDaysTotal;
 
 @end
 

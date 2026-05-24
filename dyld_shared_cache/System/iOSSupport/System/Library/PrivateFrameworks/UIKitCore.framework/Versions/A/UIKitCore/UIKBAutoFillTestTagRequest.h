@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
-- (id);
+- (id)ssage...;
 - (id)0¥;
 - (void)Té;
 - (long long)ÈÕj;

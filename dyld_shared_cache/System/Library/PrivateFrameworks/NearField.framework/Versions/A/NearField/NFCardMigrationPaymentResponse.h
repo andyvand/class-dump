@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSData;
 
 @interface NFCardMigrationPaymentResponse
 {
     NSData *_token;
-    NSArray *_transactions;
-    NSDictionary *_certs;
 }
 
 + (_Bool);
-- (void);
+- (void)mutableCopy;
 - (id);
 - (id);
 - (void);
@@ -25,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *certs; // @synthesize certs=_certs;
 @property(readonly, nonatomic) NSData *token; // @synthesize token=_token;
-@property(readonly, nonatomic) NSArray *transactions; // @synthesize transactions=_transactions;
 
 @end
 

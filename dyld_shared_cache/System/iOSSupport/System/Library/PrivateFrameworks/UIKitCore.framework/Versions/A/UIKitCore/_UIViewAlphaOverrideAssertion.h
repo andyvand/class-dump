@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPresentationModifier, UIView;
-@protocol _UIAssertion;
+@class UIView;
 
 @interface _UIViewAlphaOverrideAssertion
 {
     void sourceView;
-    id <_UIAssertion> assertion;
-    CAPresentationModifier *modifier;
-    id <_UIAssertion> backgroundSuppressionAssertion;
 }
 
-- (void);
-- (void);
+- (void)nc state %@, non-empty salt %@;
+- (void){;
 - (id);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 - (void)W)p;
 
 // Remaining properties
-@property(nonatomic) double alpha;
-@property(nonatomic, retain) id <_UIAssertion> assertion; // @synthesize assertion;
-@property(nonatomic, retain) id <_UIAssertion> backgroundSuppressionAssertion; // @synthesize backgroundSuppressionAssertion;
-@property(nonatomic, retain) CAPresentationModifier *modifier; // @synthesize modifier;
 @property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView;
 
 @end

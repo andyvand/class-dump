@@ -7,12 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskMetricCollector
 {
     id $defaultActor;
-    id taskIdentifier;
-    id lane;
-    id latestTaskReports;
-    id currentTask;
-    id throughputMetrics;
-    id batchedResults;
 }
 
 @end

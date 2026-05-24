@@ -19,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) int fieldType;
-@property(readonly, nonatomic) unsigned char fieldValue;
 
 @end
 

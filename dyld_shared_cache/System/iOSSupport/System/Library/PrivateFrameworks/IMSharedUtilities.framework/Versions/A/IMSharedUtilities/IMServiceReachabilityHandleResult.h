@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface IMServiceReachabilityHandleResult
 {
     _Bool _reachable;
-    _Bool _supportsEncryption;
-    NSString *_handleID;
-    NSString *_service;
-    NSDictionary *_persistentMenuDictionary;
-    NSDictionary *_brandInfoDictionary;
-    NSData *_brandLogoData;
 }
 
 + (_Bool);
@@ -44,13 +38,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *brandInfoDictionary; // @synthesize brandInfoDictionary=_brandInfoDictionary;
-@property(retain, nonatomic) NSData *brandLogoData; // @synthesize brandLogoData=_brandLogoData;
 @property(retain, nonatomic) NSString *handleID; // @synthesize handleID=_handleID;
-@property(retain, nonatomic) NSDictionary *persistentMenuDictionary; // @synthesize persistentMenuDictionary=_persistentMenuDictionary;
-@property(nonatomic, getter=isReachable, setter=setReachable:) _Bool reachable; // @synthesize reachable=_reachable;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic, setter=setSupportsEncryption:) _Bool supportsEncryption; // @synthesize supportsEncryption=_supportsEncryption;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsynchronousCIImageFilteringRequestInternal, CIImage;
+@class AVAsynchronousCIImageFilteringRequestInternal;
 
 @interface AVAsynchronousCIImageFilteringRequest
 {
@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)8K8L;
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
@@ -22,9 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 compositionTime;
 @property(readonly, nonatomic) struct CGSize renderSize;
-@property(readonly, nonatomic) CIImage *sourceImage;
 
 @end
 

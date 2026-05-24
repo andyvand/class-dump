@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)VKCVisualSearchResult;
 - (_Bool);
 - (id);
 

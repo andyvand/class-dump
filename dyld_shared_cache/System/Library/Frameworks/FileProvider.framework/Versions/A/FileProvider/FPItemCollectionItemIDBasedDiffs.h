@@ -6,19 +6,17 @@
 
 #import <FileProvider/FPItemCollectionDiffs.h>
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FPItemCollectionItemIDBasedDiffs : FPItemCollectionDiffs
 {
     NSMutableArray *_deletedItemIDs;
-    NSMutableArray *_updatedItems;
-    NSMutableDictionary *_replacedItemsByFormerID;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSMutableArray *deletedItemIDs; // @synthesize deletedItemIDs=_deletedItemIDs;
-@property(retain) NSMutableDictionary *replacedItemsByFormerID; // @synthesize replacedItemsByFormerID=_replacedItemsByFormerID;
-@property(retain) NSMutableArray *updatedItems; // @synthesize updatedItems=_updatedItems;
 
 @end
 

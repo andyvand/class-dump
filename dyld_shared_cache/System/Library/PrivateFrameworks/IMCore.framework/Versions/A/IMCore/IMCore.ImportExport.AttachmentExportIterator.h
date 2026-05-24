@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.AttachmentExportIterator
 {
     id exportOptions;
-    id exportStatistics;
 }
 
 @end

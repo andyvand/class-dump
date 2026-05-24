@@ -6,20 +6,14 @@
 
 #import <MapKit/MKOverlayPathRenderer.h>
 
-@class MKMultiPolygon, VKVectorOverlayPolygonGroup;
-
 @interface MKMultiPolygonRenderer : MKOverlayPathRenderer
 {
     const struct CGPath **_paths;
-    unsigned long long _pathsCount;
-    VKVectorOverlayPolygonGroup *_vectorData;
-    double _strokeStart;
-    double _strokeEnd;
 }
 
 + (Class);
 + (_Bool);
-- (id);
+- (id)__lastTimestamp;
 - (void);
 - (_Bool);
 - (id);
@@ -27,28 +21,26 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)ticReporter:(startSessionWithSignature:) Unable to get remote object proxy /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)anceSegmenter";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ationProviderShouldPauseLocationUpdates: /* Error: Ran out of types for this method. */;
-- (void)ortSize;
+- (void)locationProviderShouldPauseLocationUpdates: /* Error: Ran out of types for this method. */;
+- (void)_effectiveMapViewportSize;
 
 // Remaining properties
-@property(readonly, nonatomic) MKMultiPolygon *multiPolygon;
-@property(nonatomic, getter=_strokeEnd, setter=_setStrokeEnd:) double strokeEnd;
 @property(nonatomic, getter=_strokeStart, setter=_setStrokeStart:) double strokeStart;
 
 @end

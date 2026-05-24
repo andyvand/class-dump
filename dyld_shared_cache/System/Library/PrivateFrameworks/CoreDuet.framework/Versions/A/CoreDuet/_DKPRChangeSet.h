@@ -9,14 +9,13 @@
 @interface _DKPRChangeSet
 {
     NSMutableArray *_deleteEventIDs;
-    NSMutableArray *_events;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)	˟;
 - (id);
 - (id);
 - (void)0@ù

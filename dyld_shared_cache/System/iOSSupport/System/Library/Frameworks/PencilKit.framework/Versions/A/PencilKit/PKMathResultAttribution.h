@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UIImage;
+@class UIImage;
 
 @interface PKMathResultAttribution
 {
     UIImage *_image;
-    UIImage *_darkModeImage;
-    NSString *_string;
-    NSDate *_date;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)triggerAttributesForContext:localeIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void)øZ8]Ø]d^;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *darkModeImage; // @synthesize darkModeImage=_darkModeImage;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

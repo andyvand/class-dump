@@ -7,7 +7,6 @@
 @interface CUIKSubscribedCalendarManager
 {
     unsigned long long _calendarSaveMonitoringToken;
-    unsigned long long _accountsSaveMonitoringToken;
 }
 
 - (void);

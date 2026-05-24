@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSDictionary, NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBDictConfigProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    NSDictionary *_dict;
 }
 
-+ (id);
++ (id)K;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -34,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSDictionary *dict; // @synthesize dict=_dict;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) Class superclass;
 
 @end
 

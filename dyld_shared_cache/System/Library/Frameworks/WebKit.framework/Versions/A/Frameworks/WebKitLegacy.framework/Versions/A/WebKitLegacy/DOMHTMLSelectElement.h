@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLFormElement, DOMHTMLOptionsCollection, NSString;
-
 @interface DOMHTMLSelectElement : DOMHTMLElement
 {
 }
@@ -21,10 +19,10 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)v;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)AMSSystemEngagementTaskRemoteInterface;
 - (int);
 - (int);
 - (id);
@@ -33,25 +31,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)setRem_cachedFetchedRemindersForMergeSync:(int)arg1;
+- (id)__const;
+- (void)ver object with error=%@;
 - (_Bool);
 - (void)º;
 
 // Remaining properties
 @property _Bool autofocus;
-@property _Bool disabled;
-@property(readonly) DOMHTMLFormElement *form;
-@property(readonly) int length;
-@property _Bool multiple;
-@property(copy) NSString *name;
-@property(readonly) DOMHTMLOptionsCollection *options;
-@property int selectedIndex;
-@property int size;
-@property(readonly, copy) NSString *type;
-@property(copy) NSString *value;
-@property(readonly) _Bool willValidate;
 
 @end
 

@@ -7,13 +7,11 @@
 @interface AppKit.OrbitalColorView.CogLayer__priv_94CD9C654273D2530C10CAAB53C2FA54
 {
     id spokes;
-    id meshingOffset;
-    id rootEdge;
 }
 
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void)NSHapticFeedbackDebug;
 - (void)3^tGE;
 

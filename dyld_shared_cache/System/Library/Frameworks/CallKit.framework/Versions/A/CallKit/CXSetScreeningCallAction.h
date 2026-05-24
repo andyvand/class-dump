@@ -16,16 +16,15 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)QMI_ERR_PUK_RESTRICTION;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)aucType;
 - (id);
 
 // Remaining properties
 @property(nonatomic, getter=isScreening) _Bool screening;
-@property(readonly, nonatomic) long long screeningMode; // @synthesize screeningMode=_screeningMode;
 
 @end
 

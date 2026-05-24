@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSDictionary;
 
 @interface IDSMMCSDownloadAuth
 {
@@ -21,9 +21,6 @@
 - (void)yload-%@.data;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authURL;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *ownerID;
 @property(readonly, nonatomic) NSData *signature;
 
 @end

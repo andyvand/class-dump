@@ -15,7 +15,7 @@
 + (_Bool)Uµ/kdWsÿ;
 + (id)<);
 - (CDStruct_5fe7aead);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
@@ -26,11 +26,11 @@
 - (long long);
 - (unsigned int);
 - (double);
-- (BOOL);
+- (BOOL)H;
 - (unsigned short);
-- (_Bool);
+- (_Bool)U;
 - (void);
-- (id)StateInBundle:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)tagStateInBundle:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (float)À;
 - (void);
 - (short)DistantObject forwardInvocation:] /* Error: Ran out of types for this method. */;

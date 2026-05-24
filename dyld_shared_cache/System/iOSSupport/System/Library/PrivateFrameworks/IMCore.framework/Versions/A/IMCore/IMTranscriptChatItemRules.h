@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat, NSArray, NSDate, NSMutableArray, NSString;
+@class IMChat;
 
 @interface IMTranscriptChatItemRules
 {
     _Bool _disableDeliveredAndReadStatusItemCreation;
-    IMChat *_chat;
-    NSArray *_items;
-    NSMutableArray *_chatItems;
-    NSDate *_nextStaleTime;
 }
 
 + (_Bool);
 + (_Bool);
+- (void)c;
+- (id);
+- (_Bool);
+- (_Bool)h";
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)FF;
+- (_Bool);
+- (_Bool);
+- (_Bool)O;
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,7 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,7 +104,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -118,7 +114,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)64_t>, unsigned long long>>, Traits = WTF:(id)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDisplayListRecorder>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -126,17 +122,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak IMChat *chat; // @synthesize chat=_chat;
-@property(retain, nonatomic) NSMutableArray *chatItems; // @synthesize chatItems=_chatItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableDeliveredAndReadStatusItemCreation; // @synthesize disableDeliveredAndReadStatusItemCreation=_disableDeliveredAndReadStatusItemCreation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSDate *nextStaleTime; // @synthesize nextStaleTime=_nextStaleTime;
-@property(readonly) Class superclass;
 
 @end
 

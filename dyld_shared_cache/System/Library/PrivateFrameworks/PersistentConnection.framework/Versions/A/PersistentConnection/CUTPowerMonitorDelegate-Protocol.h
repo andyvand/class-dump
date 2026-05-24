@@ -5,5 +5,8 @@
 //
 
 @protocol CUTPowerMonitorDelegate
+
+@optional
+- (void);
 @end
 

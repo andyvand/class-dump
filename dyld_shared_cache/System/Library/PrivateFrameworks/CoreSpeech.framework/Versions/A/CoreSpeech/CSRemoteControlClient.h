@@ -4,25 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDispatchGroup, CSRemoteDeviceProtocolInfo, NSHashTable, NSObject, NSString, OS_remote_device, OS_xpc_remote_connection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSRemoteControlClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    OS_xpc_remote_connection *_connection;
-    CSDispatchGroup *_deviceWaitingGroup;
-    NSHashTable *_observers;
-    unsigned int _deviceType;
-    OS_remote_device *_device;
-    NSString *_deviceId;
-    CSRemoteDeviceProtocolInfo *_deviceProtocolInfo;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)>;
+- (_Bool)k>;
+- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)__TEXT;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -30,52 +42,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned int);
 - (id);
-- (void);
-- (void)ue;
+- (void)String",R,N,V_settingsKeyPath;
+- (void)floatValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) OS_remote_device *device; // @synthesize device=_device;
-@property(readonly, copy, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly, nonatomic) CSRemoteDeviceProtocolInfo *deviceProtocolInfo; // @synthesize deviceProtocolInfo=_deviceProtocolInfo;
 @property(readonly, nonatomic) unsigned int deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

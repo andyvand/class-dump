@@ -6,20 +6,16 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class PGMemoryMomentRequirements;
 
 @interface PGMeaningAggregationMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)addAttribute:value:range: /* Error: Ran out of types for this method. */;
++ (id). Consider implementing %@ for %@.;
++ (id)Q;
 + (id);
 + (id);
 + (unsigned long long);
@@ -37,21 +33,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)>";
+- (unsigned long long)set_inputMarkingSessionStartPosition:(unsigned long long)arg1;
+- (unsigned long long)set_element: /* Error: Ran out of types for this method. */;
+- (id)linkColor;
+- (id)_findWordCandidateInSearchRange:(id)arg1 atPosition: /* Error: Ran out of types for this method. */;
+- (id)LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement;
+- (void)s/AppleCredentialManager_ClientLibs/common/LibSerialization.c;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void)tureLandscapeReason;
+- (void)WSNatureLandscapeReason;
 
 // Remaining properties
-@property(retain, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *featuredYearConfiguration; // @synthesize featuredYearConfiguration=_featuredYearConfiguration;
 @property(retain, nonatomic) PGMemoryMomentRequirements *momentRequirements; // @synthesize momentRequirements=_momentRequirements;
-@property(retain, nonatomic) PGOverTheYearsMemoryConfiguration *overTheYearsConfiguration; // @synthesize overTheYearsConfiguration=_overTheYearsConfiguration;
 
 @end
 

@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_timeToLastReverseDecision;
 - (id);
 - (id)48@"NSData"56@?<v@?@"NSData"@"NSError">64;
 - (void)0@"PKSEConsistencyCheckDeviceCredential"8;

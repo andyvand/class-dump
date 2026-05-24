@@ -6,23 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSIndexPath, NSString, UIColor, UIFont, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiWellView : UIView
 {
     _Bool _selected;
-    _Bool _activeSelection;
-    _Bool _unreleasedHighlight;
-    NSArray *_compositeImageRepresentation;
-    UIFont *_labelFont;
-    NSString *_stringRepresentation;
-    UIColor *_selectionBackgroundColor;
-    NSIndexPath *_associatedIndexPath;
-    UILabel *_unreleasedBanner;
-    UIView *_wellContentView;
-    UIView *_backgroundView;
-    struct CGSize _compositeImageSize;
 }
 
 - (_Bool);
@@ -32,16 +21,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)n empty string display name;
+- (void)e to a dictionary!;
+- (void)we'll try to auto reconnect;
+- (void)******;
+- (id)cation account for %@ from %@;
+- (_Bool)framework not found, guid:%@ /* Error: Ran out of types for this method. */;
+- (id)arrier bag.;
+- (void)d, not recovering:(id)arg1 %@;
 - (struct CGSize);
-- (id);
+- (id)IncomingReadReceiptAssertion;
 - (id);
 - (id);
 - (void);
@@ -58,25 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)hèi;
 
 // Remaining properties
-@property(nonatomic, getter=isActiveSelection) _Bool activeSelection; // @synthesize activeSelection=_activeSelection;
-@property(retain, nonatomic) NSIndexPath *associatedIndexPath; // @synthesize associatedIndexPath=_associatedIndexPath;
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) NSArray *compositeImageRepresentation; // @synthesize compositeImageRepresentation=_compositeImageRepresentation;
-@property(nonatomic) struct CGSize compositeImageSize; // @synthesize compositeImageSize=_compositeImageSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIFont *labelFont; // @synthesize labelFont=_labelFont;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(retain, nonatomic) UIColor *selectionBackgroundColor; // @synthesize selectionBackgroundColor=_selectionBackgroundColor;
-@property(retain, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UILabel *unreleasedBanner; // @synthesize unreleasedBanner=_unreleasedBanner;
-@property(nonatomic) _Bool unreleasedHighlight; // @synthesize unreleasedHighlight=_unreleasedHighlight;
-@property(retain, nonatomic) UIView *wellContentView; // @synthesize wellContentView=_wellContentView;
 
 @end
 

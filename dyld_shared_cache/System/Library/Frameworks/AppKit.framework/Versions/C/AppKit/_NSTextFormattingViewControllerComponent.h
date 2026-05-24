@@ -9,25 +9,23 @@
 @interface _NSTextFormattingViewControllerComponent
 {
     NSString *componentKey;
-    long long preferredSize;
 }
 
 + (_Bool);
-- (long long);
+- (long long)= %@;
 - (id);
 - (id);
-- (id);
+- (id)^{TCPIO_BlockCallbacks_Listener=^^?{CBs=@?@?@?@?@?@?}@i}8;
 - (id);
 - (id);
 - (_Bool)!lAùqß3°1Â0@ù
 × ;
 - (void);
-- (id)undleResourceName;
+- (id)_bundleResourceName;
 - (void)`E;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *componentKey; // @synthesize componentKey;
-@property(nonatomic, readonly) long long preferredSize; // @synthesize preferredSize;
 
 @end
 

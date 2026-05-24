@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ML3MusicLibrary_SortMapEntry
 {
     long long _nameOrder;
-    NSString *_name;
-    NSData *_sortKey;
-    int _nameSection;
-    _Bool _dirty;
 }
 
-- (id);
-- (id);
+- (id),R,N,V_usedBytes;
+- (id)otalBytes;
 - (id);
 - (void)Y entity_pid, entity_type, artwork_type;
 

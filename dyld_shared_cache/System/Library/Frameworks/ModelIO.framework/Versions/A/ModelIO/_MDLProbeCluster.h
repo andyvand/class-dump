@@ -9,13 +9,12 @@
 @interface _MDLProbeCluster
 {
     NSMutableSet *_probes;
-    id _centroid;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)a type;
+- (id)startDiscoveringAirPlayAccessoriesWithDelegate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property id centroid; // @synthesize centroid=_centroid;
-@property(retain) NSMutableSet *probes; // @synthesize probes=_probes;
 
 @end
 

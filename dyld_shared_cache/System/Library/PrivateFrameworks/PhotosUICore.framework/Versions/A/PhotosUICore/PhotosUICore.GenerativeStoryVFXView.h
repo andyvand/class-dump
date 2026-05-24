@@ -7,7 +7,6 @@
 @interface PhotosUICore.GenerativeStoryVFXView
 {
     id logger;
-    id observers;
 }
 
 - (id);

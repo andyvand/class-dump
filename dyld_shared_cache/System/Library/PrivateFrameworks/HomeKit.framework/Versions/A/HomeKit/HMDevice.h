@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFKey, HMFProductInfo, NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMDevice
 {
     struct os_unfair_lock_s _lock;
-    _Bool _supportsHH2;
-    _Bool _currentDevice;
-    NSUUID *_uniqueIdentifier;
-    NSString *_name;
-    HMFProductInfo *_productInfo;
-    HMFKey *_rapportIRK;
-    NSUUID *_idsIdentifier;
-    NSString *_idsDestination;
-    NSUUID *_uuid;
 }
 
 + (id);
 + (_Bool);
-+ (id)DerivedDestinationChangedReason;
++ (id)HMMediaDestinationDerivedDestinationChangedReason;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -32,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_lock_addLabelToCache: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -41,12 +32,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (void)m8;
+- (id);
+- (_Bool)rancidity;
+- (id)gPredictionListEnabled = %s;
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)setNumber_availability: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -56,31 +47,6 @@
 - (_Bool)ü;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, getter=isCurrentDevice) _Bool currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(copy) NSUUID *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(copy) HMFProductInfo *productInfo; // @synthesize productInfo=_productInfo;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) HMFKey *rapportIRK; // @synthesize rapportIRK=_rapportIRK;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property _Bool supportsHH2; // @synthesize supportsHH2=_supportsHH2;
-@property(readonly, copy) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

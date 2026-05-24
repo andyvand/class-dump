@@ -6,40 +6,27 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSBundle, NSDate, NSString, UIButton, UIKeyboardDockItem, UIKeyboardDockView;
+@class UIKeyboardDockView;
 
 __attribute__((visibility("hidden")))
 @interface UISystemKeyboardDockController : UIViewController
 {
     _Bool _dictationHasUsedServerManualEndpointing;
-    _Bool _dictationUsingServerManualEndpointing;
-    _Bool _isSuppressingDockItemTouch;
-    UIKeyboardDockItem *_globeDockItem;
-    UIKeyboardDockItem *_dictationDockItem;
-    UIKeyboardDockItem *_dictationRunningDockItem;
-    UIKeyboardDockItem *_keyboardDockItem;
-    UIButton *_stopDictationButton;
-    NSDate *_dictationItemButtonTouchDownTime;
-    struct CGPoint _dictationItemButtonTouchDownLocationInView;
-    NSDate *_globeItemButtonTouchDownTime;
-    struct CGPoint _globeItemButtonTouchDownLocationInView;
-    NSBundle *_priorityGlyphBundle;
-    UIKeyboardDockView *_dockView;
 }
 
 - (void);
+- (void)R;
 - (void);
+- (void)",&,N,V_manager;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithCollection:cellClass:pickerResponder: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool)IKeyboardFloatingTransitionController"16;
-- (void)tInput:(id)arg1;
-- (void)ontext: /* Error: Ran out of types for this method. */;
+- (void)setTextInput:(id)arg1;
+- (void)handleDeleteWithExecutionContext: /* Error: Ran out of types for this method. */;
 - (void)CollapsedAffinity: /* Error: Ran out of types for this method. */;
 - (void)@"NSArray",C,N,V_sourceItems;
 - (void)H;
@@ -49,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)Ö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIKeyboardDockView *dockView; // @synthesize dockView=_dockView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

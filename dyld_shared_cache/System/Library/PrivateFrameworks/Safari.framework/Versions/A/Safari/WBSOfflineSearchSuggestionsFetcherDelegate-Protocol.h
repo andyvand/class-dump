@@ -5,5 +5,6 @@
 //
 
 @protocol WBSOfflineSearchSuggestionsFetcherDelegate
+- (void);
 @end
 

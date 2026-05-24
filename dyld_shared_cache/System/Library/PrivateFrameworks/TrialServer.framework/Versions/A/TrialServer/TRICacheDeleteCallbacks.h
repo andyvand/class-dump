@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIClient;
-@protocol TRIAssetPurging, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRICacheDeleteCallbacks
 {
     id <TRIPaths> _paths;
-    id <TRIAssetPurging> _assetPurger;
-    TRIClient *_loggingClient;
 }
 
-+ (id);
++ (id);
 + (void);
 - (id);
-- (void);
+- (void)HAPOTAProviderStateFirmwareDownloaded;
 - (id);
 - (id);
 - (_Bool);

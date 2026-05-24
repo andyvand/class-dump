@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface ODDSiriSchemaODDExperimentFixedDimensions : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    SISchemaUUID *_treatmentId;
-    long long _deploymentId;
-    CDStruct_487889ba _has;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
 }
 
 - (void);
@@ -23,36 +18,31 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ace";
+- (void)setGeneralView:(id)arg1;
+- (void)I  PROJECT:(_Bool)arg1 AOSUI-898.475.6
+;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)arrivalUpdaterDidArrive:atEndOfLegAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)DONT_APPROVE;
+- (_Bool)ParentedCodingKeys;
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)ount:(id)arg1;
+- (void)setClientErrorCount:(id)arg1;
 - (id)CommunalDevicesMatchingCandidate;
 - (long long)pkidMitigatorAcceptPostLwSpkidMitigationCount;
 - (id)erFalseTriggerMitigated;
 - (void)nt.pegasusContextTier1.kgQAExecutionTier1.secondaryEntities;
 
 // Remaining properties
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

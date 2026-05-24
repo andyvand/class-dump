@@ -9,7 +9,11 @@
 @protocol SFFeedbackListener
 
 @optional
+- (void)_isAnimationStart;
 - (void);
+- (void)SFClearInputFeedback"16;
+- (void)lastProgressLogDate;
+- (void)anged;
 - (void)rd section view providers for card
     Card:(SFFeedback *)arg1 %@;
 @end

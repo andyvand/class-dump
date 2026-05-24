@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface SGRealtimeWalletOrder
 {
     int _extractionSource;
-    int _state;
-    NSString *_identifier;
-    NSData *_walletOrderDictData;
-    NSData *_walletOrderData;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (int);
@@ -29,23 +23,12 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int extractionSource; // @synthesize extractionSource=_extractionSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSData *walletOrderData; // @synthesize walletOrderData=_walletOrderData;
-@property(readonly, nonatomic) NSData *walletOrderDictData; // @synthesize walletOrderDictData=_walletOrderDictData;
 
 @end
 

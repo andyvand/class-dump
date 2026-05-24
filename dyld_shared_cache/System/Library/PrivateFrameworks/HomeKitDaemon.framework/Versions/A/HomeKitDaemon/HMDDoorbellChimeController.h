@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
 @protocol HMDDoorbellChimeControllerContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDDoorbellChimeController
 {
     id <HMDDoorbellChimeControllerContext> _context;
-    NSSet *_availableCharacteristics;
-    NSDate *_lastUnidentifiedChimeDate;
 }
 
 + (id)¬B;
+- (void)oID;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -30,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)localizedNames;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -39,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) NSSet *availableCharacteristics; // @synthesize availableCharacteristics=_availableCharacteristics;
 @property(readonly) id <HMDDoorbellChimeControllerContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *lastUnidentifiedChimeDate; // @synthesize lastUnidentifiedChimeDate=_lastUnidentifiedChimeDate;
-@property(readonly) Class superclass;
 
 @end
 

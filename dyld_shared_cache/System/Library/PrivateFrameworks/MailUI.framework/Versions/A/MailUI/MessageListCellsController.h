@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMCoreAnalyticsCollector, NSMutableArray, NSMutableDictionary, NSString;
-@protocol EFCancelable;
+@class EFLocked;
 
 @interface MessageListCellsController
 {
     struct os_unfair_lock_s _analyticsLock;
-    EFLocked *_visibleItemIDs;
-    id <EFCancelable> _currentUpdateToken;
-    EMCoreAnalyticsCollector *_analyticsCollector;
-    long long _loadAttempts;
-    long long _loadFailures;
-    NSMutableDictionary *_failureCodeCount;
-    long long _numberOfVisibleCells;
-    long long _numberOfFlickeringCells;
-    NSMutableArray *_rawFlickerDurations;
-    NSMutableDictionary *_bucketedFlickerDurations;
 }
 
-+ (id);
++ (id)eT;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))
+;
 - (void);
 - (void);
 - (void);
@@ -41,26 +31,12 @@
 - (long long);
 - (long long);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)RL: /* Error: Ran out of types for this method. */;
+- (void)setInjectedBundleURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EMCoreAnalyticsCollector *analyticsCollector; // @synthesize analyticsCollector=_analyticsCollector;
-@property(retain, nonatomic) id <EFCancelable> currentUpdateToken; // @synthesize currentUpdateToken=_currentUpdateToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *failureCodeCount; // @synthesize failureCodeCount=_failureCodeCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long loadAttempts; // @synthesize loadAttempts=_loadAttempts;
-@property(nonatomic) long long loadFailures; // @synthesize loadFailures=_loadFailures;
-@property(nonatomic) long long numberOfFlickeringCells; // @synthesize numberOfFlickeringCells=_numberOfFlickeringCells;
-@property(nonatomic) long long numberOfVisibleCells; // @synthesize numberOfVisibleCells=_numberOfVisibleCells;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) EFLocked *visibleItemIDs; // @synthesize visibleItemIDs=_visibleItemIDs;
 
 @end

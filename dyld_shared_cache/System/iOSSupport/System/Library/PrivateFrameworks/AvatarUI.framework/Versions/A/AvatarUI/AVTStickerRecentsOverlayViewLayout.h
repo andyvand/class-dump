@@ -7,17 +7,12 @@
 @interface AVTStickerRecentsOverlayViewLayout
 {
     double _imageToTopPadding;
-    double _imageToTitlePadding;
-    double _titleToSubtitlePadding;
-    double _subtitleToButtonPadding;
-    double _imageHeight;
-    double _horizontalEdgePadding;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (double);
 - (double);
 - (double);
@@ -27,12 +22,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double horizontalEdgePadding; // @synthesize horizontalEdgePadding=_horizontalEdgePadding;
-@property(readonly, nonatomic) double imageHeight; // @synthesize imageHeight=_imageHeight;
-@property(readonly, nonatomic) double imageToTitlePadding; // @synthesize imageToTitlePadding=_imageToTitlePadding;
 @property(readonly, nonatomic) double imageToTopPadding; // @synthesize imageToTopPadding=_imageToTopPadding;
-@property(readonly, nonatomic) double subtitleToButtonPadding; // @synthesize subtitleToButtonPadding=_subtitleToButtonPadding;
-@property(readonly, nonatomic) double titleToSubtitlePadding; // @synthesize titleToSubtitlePadding=_titleToSubtitlePadding;
 
 @end
 

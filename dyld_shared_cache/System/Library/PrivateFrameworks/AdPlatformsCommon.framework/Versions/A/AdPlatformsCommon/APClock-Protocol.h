@@ -7,6 +7,6 @@
 @class NSDate;
 
 @protocol APClock
-- (NSDate *)gKeys;
+- (NSDate *)CodingKeys;
 @end
 

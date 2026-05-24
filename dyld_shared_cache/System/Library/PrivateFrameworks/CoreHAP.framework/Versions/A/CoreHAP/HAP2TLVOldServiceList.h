@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVParamServiceList, NSString;
+@class HAP2TLVParamServiceList;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVOldServiceList
@@ -19,20 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)%zu. Attempting to create new segment;
+- (_Bool)__LINKEDIT;
 - (id);
-- (void)tConnectionRetryCount: /* Error: Ran out of types for this method. */;
+- (void)setConnectionRetryCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAP2TLVParamServiceList *serviceList; // @synthesize serviceList=_serviceList;
-@property(readonly) Class superclass;
 
 @end
 

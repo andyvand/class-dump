@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentFinalExecutionCancelled : SISchemaInstrumentationMessage
 {
     int _cancellationReason;
-    CDStruct_ac23f27c _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ionFailureDeveloperDefinedError";
-- (id)LRRedactionSummaryReported;
+- (id)LRSchemaLRRedactionSummaryReported;
 - (id)LE;
 
 // Remaining properties
 @property(nonatomic) int cancellationReason; // @synthesize cancellationReason=_cancellationReason;
-@property(nonatomic) _Bool hasCancellationReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

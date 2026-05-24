@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PMLSpotlightReference
 {
     NSArray *_itemIdentifiers;
-    NSString *_domainIdentifier;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)eger, "uniqueid" varchar NOT NULL, "debug" varchar, "update_time" integer, "v_hash" integer, "app_meta" blob, "sync_value" blob, "added_value" blob, PRIMARY KEY("sourcekey", "uniqueid") );;
 - (id)ü
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
 @property(readonly, nonatomic) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
 
 @end

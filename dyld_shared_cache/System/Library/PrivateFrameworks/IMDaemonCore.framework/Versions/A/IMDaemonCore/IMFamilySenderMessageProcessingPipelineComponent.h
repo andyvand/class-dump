@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDiMessageIDSTrustedData;
+@class IMDAccount;
 
 @interface IMFamilySenderMessageProcessingPipelineComponent
 {
     IMDAccount *_account;
-    IMDiMessageIDSTrustedData *_idsTrustedData;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)%(;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData; // @synthesize idsTrustedData=_idsTrustedData;
 
 @end
 

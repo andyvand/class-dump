@@ -7,7 +7,9 @@
 @class NSString, Protocol;
 
 @protocol NSObject
-- (_Bool)apeProperties:(Protocol *)arg1 toGeometry: /* Error: Ran out of types for this method. */;
+- (Class);
+- (_Bool)ActionDelete;
+- (_Bool)readAdjustValuesFromShapeProperties:(Protocol *)arg1 toGeometry: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)x;
 
 @optional
@@ -15,12 +17,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,39 +6,29 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOWiFiQualityServiceRequest, NSString;
+@class GEOWiFiQualityServiceRequest;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapServiceWiFiQualityLookupTicket : GEOAbstractTicket
 {
     GEOWiFiQualityServiceRequest *_request;
-    NSString *_tileKey;
-    NSString *_eTag;
-    NSString *_requestID;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)sFieldForTestingPurposes;
+- (void)hasBogusFieldForTestingPurposes;
 - (void)ingPreferenceUpdateResultReadAllFrom can only be called once per object;
 - (id)X;
 - (void)ÿÿÿÿ;
-- (CDStruct_d1a7ebee)EÿØ;
+- (CDStruct_026435ec)EÿØ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) CDStruct_026435ec dataRequestKind;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface MTL4RenderPipelineDynamicLinkingDescriptor
 {
     MTL4PipelineStageDynamicLinkingDescriptor *_vertexLinkingDescriptor;
-    MTL4PipelineStageDynamicLinkingDescriptor *_fragmentLinkingDescriptor;
-    MTL4PipelineStageDynamicLinkingDescriptor *_tileLinkingDescriptor;
-    MTL4PipelineStageDynamicLinkingDescriptor *_objectLinkingDescriptor;
-    MTL4PipelineStageDynamicLinkingDescriptor *_meshLinkingDescriptor;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Inputs:arguments:output:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -29,10 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MTL4PipelineStageDynamicLinkingDescriptor *fragmentLinkingDescriptor; // @synthesize fragmentLinkingDescriptor=_fragmentLinkingDescriptor;
-@property(readonly, nonatomic) MTL4PipelineStageDynamicLinkingDescriptor *meshLinkingDescriptor; // @synthesize meshLinkingDescriptor=_meshLinkingDescriptor;
-@property(readonly, nonatomic) MTL4PipelineStageDynamicLinkingDescriptor *objectLinkingDescriptor; // @synthesize objectLinkingDescriptor=_objectLinkingDescriptor;
-@property(readonly, nonatomic) MTL4PipelineStageDynamicLinkingDescriptor *tileLinkingDescriptor; // @synthesize tileLinkingDescriptor=_tileLinkingDescriptor;
 @property(readonly, nonatomic) MTL4PipelineStageDynamicLinkingDescriptor *vertexLinkingDescriptor; // @synthesize vertexLinkingDescriptor=_vertexLinkingDescriptor;
 
 @end

@@ -8,7 +8,7 @@
 + (id);
 + (int);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -23,6 +23,6 @@
 - (id);
 - (id);
 - (id);
-- (id)ganizerItem;
+- (id)CalDAVCalendarServerOrganizerItem;
 @end
 

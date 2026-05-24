@@ -9,11 +9,10 @@
 @interface GEOAutocompleteSessionData
 {
     double _analyticsShortSessionCreateTime;
-    GEOPDAutocompleteSessionData *_autocompleteSessionData;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)!5^6;

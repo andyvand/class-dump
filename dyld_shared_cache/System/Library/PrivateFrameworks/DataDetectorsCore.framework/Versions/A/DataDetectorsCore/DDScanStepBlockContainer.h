@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface DDScanStepBlockContainer
 {
     CDUnknownBlockType _block;
-    long long _identifier;
 }
 
-- (void);
+- (void)fetchUUID:intervalToWaitForDocumentSynchonization:withCompletionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

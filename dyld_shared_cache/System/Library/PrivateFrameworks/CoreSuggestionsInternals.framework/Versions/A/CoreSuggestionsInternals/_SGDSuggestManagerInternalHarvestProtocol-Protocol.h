@@ -5,6 +5,8 @@
 //
 
 @protocol _SGDSuggestManagerInternalHarvestProtocol
+- (void);
+- (void);
 - (void)NSDictionary"8@?0;
 - (void)Ñð;
 @end

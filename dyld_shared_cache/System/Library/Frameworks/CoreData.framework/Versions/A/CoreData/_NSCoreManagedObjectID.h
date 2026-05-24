@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)3;
 + (void);
 + (long long);
 + (id);
@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (unsigned int);
 + (void);
-+ (void);
++ (void)	;
 + (id);
 + (char *);
 + (void);
-+ (id);
++ (id)J;
 + (void)NULL in %s;
-+ (_Bool)endingTransforms;
++ (_Bool)pendingTransforms;
 + (id)CloudKit schema because no stores were able to succesfully initialize.;
 + (_Bool)RE %@ IN (SELECT %@ FROM %@ WHERE %@ = OLD.%@ AND (%@));;
 + (id)SERT INTO %@ (%@) SELECT %@ FROM %@;
 + (_Bool)dObject -isEqual: /* Error: Ran out of types for this method. */;
 + (id);
-- (unsigned long long);
+- (unsigned long long)hyhB9(;
 - (oneway void);
 - (unsigned long long);
 - (id);
@@ -43,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)NSCloudKitMirroringDelegate checkAndScheduleImportIfNecessaryFromPush:fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (id)lationshipKeyPathsForPrefetching;
+- (id)NSRelationshipKeyPathsForPrefetching;
 
 @end
 

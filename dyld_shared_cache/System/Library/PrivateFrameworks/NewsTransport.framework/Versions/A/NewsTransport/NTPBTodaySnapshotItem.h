@@ -11,14 +11,14 @@
     NSString *_identifier;
 }
 
-- (id);
+- (id)c;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setPreferredOutputNumberOfChannels:error: /* Error: Ran out of types for this method. */;
+- (_Bool)FinalCutProServerUserFrom:(id)arg1 toDestinationSystem:] /* Error: Ran out of types for this method. */;
+- (_Bool)fy any packageAssetIDs, proceeding as if no override is in place;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

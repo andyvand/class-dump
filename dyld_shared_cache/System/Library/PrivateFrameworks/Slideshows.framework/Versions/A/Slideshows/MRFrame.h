@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImage, MRSlideProvider, NSDictionary, NSString;
+@class MRImage, NSDictionary;
 
 @interface MRFrame
 {
     NSDictionary *mDescription;
-    MRSlideProvider *mSlideProvider;
-    MRImage *mInputImage;
-    MRImage *mOutputImage;
-    NSString *mFrameID;
-    NSDictionary *mAttributes;
-    NSDictionary *mFlattenedAttributes;
-    struct CGSize mPixelSize;
 }
 
 + (id);
+- (id)initWithName:(double)arg1 directory:(id)arg2 version:(id)arg3 options:classRegistry: /* Error: Ran out of types for this method. */;
+- (void)httpStatusCode;
+- (void)URLSession:(double)arg1 task:(id)arg2 didReceiveChallenge:(id)arg3 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)",C,N,V_entriesToUpload;
+- (_Bool)`;
 - (id);
 - (void);
-- (void);
-- (void);
+- (_Bool)loggedOut;
+- (_Bool)wifiReachabilityStatus;
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)ypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
-- (struct CGSize);
+- (void)@;
+- (struct CGSize);
 - (void);
 - (void)eUnit0; varying mediump vec2 vTextureCoordinates0 
 		#define DeclareTexture1			uniform lowp sampler2DRect _textureUnit1; varying mediump vec2 vTextureCoordinates1 
@@ -103,14 +96,7 @@
 				;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=mAttributes;
-@property(readonly) NSString *frameID; // @synthesize frameID=mFrameID;
 @property(retain, nonatomic) MRImage *inputImage; // @synthesize inputImage=mInputImage;
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly, nonatomic) _Bool isInfinite;
-@property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=mPixelSize;
 
 @end
 

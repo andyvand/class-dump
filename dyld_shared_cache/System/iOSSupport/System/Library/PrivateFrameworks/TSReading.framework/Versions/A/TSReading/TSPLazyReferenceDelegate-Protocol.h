@@ -5,5 +5,8 @@
 //
 
 @protocol TSPLazyReferenceDelegate
+
+@optional
+- (void)enerate a playbackTimeDidChange event;
 @end
 

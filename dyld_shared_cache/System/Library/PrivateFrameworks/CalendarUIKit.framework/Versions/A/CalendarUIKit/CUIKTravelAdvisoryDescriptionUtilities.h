@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)ary/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Feedback/CPLFeedbackMessage.m;
 
 @end
 

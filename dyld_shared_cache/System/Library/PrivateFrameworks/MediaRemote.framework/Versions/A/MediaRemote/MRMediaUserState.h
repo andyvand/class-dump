@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRUserIdentity, NSString;
+@class NSString;
 
 @interface MRMediaUserState
 {
     _Bool _isMinor;
-    _Bool _isFullSubscriber;
-    _Bool _hasAcceptedPrivacyAcknowledgement;
-    _Bool _hasAcceptedDisplayNameAcknowledgement;
-    _Bool _identitySupportsCollaboration;
-    _Bool _groupSessionsSupportedForAccountRegion;
-    NSString *_identifier;
-    NSString *_storefrontCountryCode;
-    MRUserIdentity *_userIdentity;
 }
 
 + (_Bool);
@@ -27,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,25 +29,17 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)tPlaybackSessionCommandStatus;
-- (id)dpoint;
+- (void)setPlaybackSessionCommandStatus;
+- (id)distantEndpoint;
 
 // Remaining properties
-@property(nonatomic) _Bool groupSessionsSupportedForAccountRegion; // @synthesize groupSessionsSupportedForAccountRegion=_groupSessionsSupportedForAccountRegion;
-@property(nonatomic) _Bool hasAcceptedDisplayNameAcknowledgement; // @synthesize hasAcceptedDisplayNameAcknowledgement=_hasAcceptedDisplayNameAcknowledgement;
-@property(nonatomic) _Bool hasAcceptedPrivacyAcknowledgement; // @synthesize hasAcceptedPrivacyAcknowledgement=_hasAcceptedPrivacyAcknowledgement;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool identitySupportsCollaboration; // @synthesize identitySupportsCollaboration=_identitySupportsCollaboration;
-@property(nonatomic) _Bool isFullSubscriber; // @synthesize isFullSubscriber=_isFullSubscriber;
-@property(nonatomic) _Bool isMinor; // @synthesize isMinor=_isMinor;
-@property(retain, nonatomic) NSString *storefrontCountryCode; // @synthesize storefrontCountryCode=_storefrontCountryCode;
-@property(retain, nonatomic) MRUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

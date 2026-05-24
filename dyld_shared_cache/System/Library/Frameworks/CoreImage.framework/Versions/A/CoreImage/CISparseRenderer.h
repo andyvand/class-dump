@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISparseRenderer : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputMatteImage;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputScale;
-    NSNumber *inputApertureScaling;
-    NSNumber *inputDraftMode;
-    NSNumber *inputAperture;
 }
 
 + (id);
@@ -28,6 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)�	;
 - (id);
 - (id);
 - (id);
@@ -36,23 +31,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)8h;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id)ggggmppp{{{{wyyyiiiiYYYYVVVV^^]^Ugbp¥¥¥¥    }¡¤§®°°®®®®   \qk{Qjcuisos]d[k<TEgophvp}yu{w|xxxxttttdjbt]zxlSg]y6VFqcogx|\wu¢§§£¥««§§§§zzzzwwwwosnvLidw}}}}||||`lhr>[Rl]idopuqv~~brmw\lfsxyxyy~~p}`pfrysxxxx`aZbMWLZJYOb_jesx}}}}crqrqqqqYsr{y¤¤¤¤    qyx}Wgbj\\R\HREYXc]errrrpvuwwwwwtrmtlohv~x«¨««©®®««««¦¦¦¦p]ogyttrtjjjj/I8Z8N>^yyyy~YjdvekfrorotssssokdoMhbr~~~~utzy~yyv|Xogulogs[piwkyu|yxryZaUoJbWpwyvyt{x~­­­­£¨¨    ¡¡¡¡jzjslyttttvvvv|}}~mwvSh`ruuuu||||txqn{~~~~~}}}}zzzzjsqwk~rw;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture;
-@property(copy, nonatomic) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
-@property(copy, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
-@property(copy, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

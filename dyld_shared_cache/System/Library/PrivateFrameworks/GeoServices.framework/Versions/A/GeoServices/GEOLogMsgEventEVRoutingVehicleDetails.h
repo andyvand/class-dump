@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventEVRoutingVehicleDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_make;
-    NSString *_model;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _batteryCapacity;
-    _Bool _towingNotSupported;
-    struct {
-        unsigned int has_batteryCapacity:1;
-        unsigned int has_towingNotSupported:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_make:1;
-        unsigned int read_model:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sSpeechEnabled:(id)arg1;
++ (_Bool)setHasSpeechEnabled:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -46,15 +30,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h toggled:VoiceTrigger has been INACTIVE for an interval of %{public}5.3f seconds. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)nsfer structure address.;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)`;
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)setSessionHasRotated:(struct _NSZone *)arg1;
 - (id)setCuratedCollectionContext: /* Error: Ran out of types for this method. */;
 - (id)er",R,N;
 - (id)nc,%.3lf,InputLatLng,%.8lf,%.8lf,InputCourse,%.3lf,InputHorUnc,%.3lf,InputCourseUnc,%.3lf,Timestamp,%f;
@@ -62,15 +46,7 @@
 - (void)b4;
 
 // Remaining properties
-@property(nonatomic) unsigned int batteryCapacity;
-@property(nonatomic) _Bool hasBatteryCapacity;
 @property(readonly, nonatomic) _Bool hasMake;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(nonatomic) _Bool hasTowingNotSupported;
-@property(retain, nonatomic) NSString *make;
-@property(retain, nonatomic) NSString *model;
-@property(nonatomic) _Bool towingNotSupported;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface ICFlowControlBasic
 {
     CDUnknownBlockType shouldBeCanceled;
-    CDUnknownBlockType reportProgress;
 }
 
 - (CDUnknownBlockType);
@@ -18,10 +17,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void):8@16q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType reportProgress; // @synthesize reportProgress;
 @property(copy, nonatomic) CDUnknownBlockType shouldBeCanceled; // @synthesize shouldBeCanceled;
 
 @end

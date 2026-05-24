@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAudioCodecParameters
 {
     NSNumber *_audioChannelCount;
-    NSArray *_bitRateSettings;
-    NSArray *_audioSampleRates;
-    NSNumber *_rtpPtime;
 }
 
 + (_Bool)<f:ÐF /* Error: Ran out of types for this method. */;
@@ -30,10 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *audioChannelCount; // @synthesize audioChannelCount=_audioChannelCount;
-@property(readonly, copy, nonatomic) NSArray *audioSampleRates; // @synthesize audioSampleRates=_audioSampleRates;
-@property(readonly, copy, nonatomic) NSArray *bitRateSettings; // @synthesize bitRateSettings=_bitRateSettings;
-@property(readonly, copy, nonatomic) NSNumber *rtpPtime; // @synthesize rtpPtime=_rtpPtime;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

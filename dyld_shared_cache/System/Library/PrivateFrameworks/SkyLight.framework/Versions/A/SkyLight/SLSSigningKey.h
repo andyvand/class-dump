@@ -10,16 +10,16 @@ __attribute__((visibility("hidden")))
     struct unique_ptr<(anonymous namespace)::HMAC<(anonymous namespace)::HashingAlgorithm::SHA256, 32>::Key, std::default_delete<(anonymous namespace)::HMAC<(anonymous namespace)::HashingAlgorithm::SHA256, 32>::Key>> _key;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-- (id);
-- (id);
++ (id)reate intarray. SQLite error code:(id)arg1 %d;
++ (id)EF:m /* Error: Ran out of types for this method. */;
++ (_Bool)!*;
+- (id)scope and cannot accept share invitation.;
+- (id)%@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)Ð;
 
 @end

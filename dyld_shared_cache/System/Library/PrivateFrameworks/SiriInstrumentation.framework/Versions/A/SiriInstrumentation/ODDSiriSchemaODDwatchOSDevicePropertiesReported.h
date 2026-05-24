@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantProperties, ODDSiriSchemaODDDictationProperties, ODDSiriSchemaODDGeneralProperties, ODDSiriSchemaODDwatchOSAssistantProperties;
+@class ODDSiriSchemaODDGeneralProperties;
 
 @interface ODDSiriSchemaODDwatchOSDevicePropertiesReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDGeneralProperties *_general;
-    ODDSiriSchemaODDAssistantProperties *_assistant;
-    ODDSiriSchemaODDDictationProperties *_dictation;
-    ODDSiriSchemaODDwatchOSAssistantProperties *_watchOSAssistant;
-    _Bool _hasGeneral;
-    _Bool _hasAssistant;
-    _Bool _hasDictation;
-    _Bool _hasWatchOSAssistant;
 }
 
 - (id);
@@ -53,15 +46,7 @@
 - (void)´ÿÌj±¹é%;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantProperties *assistant; // @synthesize assistant=_assistant;
-@property(retain, nonatomic) ODDSiriSchemaODDDictationProperties *dictation; // @synthesize dictation=_dictation;
 @property(retain, nonatomic) ODDSiriSchemaODDGeneralProperties *general; // @synthesize general=_general;
-@property(nonatomic) _Bool hasAssistant; // @synthesize hasAssistant=_hasAssistant;
-@property(nonatomic) _Bool hasDictation; // @synthesize hasDictation=_hasDictation;
-@property(nonatomic) _Bool hasGeneral; // @synthesize hasGeneral=_hasGeneral;
-@property(nonatomic) _Bool hasWatchOSAssistant; // @synthesize hasWatchOSAssistant=_hasWatchOSAssistant;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDwatchOSAssistantProperties *watchOSAssistant; // @synthesize watchOSAssistant=_watchOSAssistant;
 
 @end
 

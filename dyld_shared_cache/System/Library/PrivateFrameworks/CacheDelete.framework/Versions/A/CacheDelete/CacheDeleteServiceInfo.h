@@ -9,18 +9,16 @@
 @interface CacheDeleteServiceInfo
 {
     _Bool _doNotQuery;
-    NSExtensionContext *_extensionContext;
 }
 
 + (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool doNotQuery; // @synthesize doNotQuery=_doNotQuery;
 @property(readonly, nonatomic) NSExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
 
 @end

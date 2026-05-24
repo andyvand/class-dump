@@ -7,17 +7,13 @@
 @interface PodcastsFoundation.BaseFeedResponse
 {
     id response;
-    id showMetadata;
-    id request;
-    id params;
-    id parsedCache;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void)SdGdVGADy_zUy_sUSo17OS_dispatch_queueCGSdGGGSdSgG-UyAsIGGGSdG;
 

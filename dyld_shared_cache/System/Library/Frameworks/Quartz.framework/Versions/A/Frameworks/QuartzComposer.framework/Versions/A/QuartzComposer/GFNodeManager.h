@@ -9,11 +9,6 @@
 @interface GFNodeManager
 {
     NSString *_namespace;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct __CFDictionary *_registry;
-    unsigned long long _infoListSize;
-    struct GFNodeInfo *_infoList;
-    void *_unused[4];
 }
 
 + (id);
@@ -25,8 +20,8 @@
 + (void)ø;
 + (void)A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Core/C3DNodeIterator.c;
 - (void);
-- (void);
-- (void);
+- (void)q`;
+- (void)>D9h;
 - (void);
 - (void);
 - (id);
@@ -46,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 - (void);
 
 @end

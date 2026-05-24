@@ -6,36 +6,26 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPQuotedTextViewStyle, LPTextView, NSAttributedString, NSFont, NSImageView, NSRegularExpression, NSTextView;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface LPQuoteView : LPComponentView
 {
     _Bool _didLimitNumberOfCharacters;
-    struct NSEdgeInsets _contentInset;
-    LPQuotedTextViewStyle *_style;
-    NSAttributedString *_attributedString;
-    LPTextView *_characterLimitIndicatorView;
-    NSImageView *_quoteIndicatorView;
-    double _ascender;
-    double _descender;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    NSTextView *_textView;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)jj;
 - (long long);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (id);
 - (long long);
 - (long long);
@@ -47,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 - (id);
 - (void);
@@ -56,23 +46,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct NSEdgeInsets);
+- (id)attachmentWithPathURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)idation:(id)arg1 %@;
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) NSFont *fallbackFont;
-@property(retain, nonatomic) NSFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSFont",?,&,N
-
-@property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) NSFont *preferredFont;
-@property(readonly, retain, nonatomic) LPQuotedTextViewStyle *style;
-@property(retain, nonatomic) NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

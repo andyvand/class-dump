@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class)§,Ø¤ð\;
-- (void);
+- (void)serviceOfLastMessage;
 - (id);
 - (id);
-- (id)anCancelContentTouches:(struct CGRect)arg1;
+- (id)_canCancelContentTouches:(struct CGRect)arg1;
 - (void)Xh];
 
 // Remaining properties

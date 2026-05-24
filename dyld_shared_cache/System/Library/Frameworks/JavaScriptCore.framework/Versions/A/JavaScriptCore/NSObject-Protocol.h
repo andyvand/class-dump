@@ -7,6 +7,11 @@
 @class NSString, Protocol;
 
 @protocol NSObject
+- (Class);
+- (_Bool)2;
+- (oneway void);
+- (unsigned long long)ecording:forCaptureSession:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)';
 - (id)NG NEGLIGENCE OR OTHERWISE);
 - (_Bool)HQPIp7Bv4IrX_wgJ0E/Library/Caches/com.apple.xbs/TemporaryDirectory.paaAm7/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGOSRAvailabilityAnalysisPhase.cpp:(Protocol *)arg1 269:31)] /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)cript._eventValue, true);
@@ -2372,12 +2377,6 @@ return wrapper;
 - (NSString *)C::genericTypedArrayViewProtoFuncIndexOf(VM &, JSGlobalObject *, CallFrame *) [ViewClass = JSC::JSGenericTypedArrayView<JSC::Float64Adaptor>] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

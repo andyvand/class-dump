@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWEntityContext, NSData;
+@class FLOWSchemaFLOWEntityContext;
 
 @interface FLOWSchemaFLOWPlatformContext : SISchemaInstrumentationMessage
 {
     FLOWSchemaFLOWEntityContext *_entityContext;
-    FLOWSchemaFLOWEntityContext *_entityContextValue;
-    _Bool _hasEntityContext;
-    _Bool _hasEntityContextValue;
-    unsigned long long _whichPlatformcontext;
 }
 
 - (unsigned long long);
@@ -28,25 +24,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)kipping writing the AppleUpgrade plist.;
+- (id)/libc++.1.dylib;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)geCount"b1"totalBytes"b1};
-- (id)PhoneCall7Day;
+- (id)_appContactFreqForPhoneCall7Day;
 - (id)(m;
 - (void)cÄ$;
 
 // Remaining properties
 @property(retain, nonatomic) FLOWSchemaFLOWEntityContext *entityContext; // @synthesize entityContext=_entityContext;
-@property(retain, nonatomic) FLOWSchemaFLOWEntityContext *entityContextValue; // @synthesize entityContextValue=_entityContextValue;
-@property(nonatomic) _Bool hasEntityContext; // @synthesize hasEntityContext=_hasEntityContext;
-@property(nonatomic) _Bool hasEntityContextValue; // @synthesize hasEntityContextValue=_hasEntityContextValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichPlatformcontext; // @synthesize whichPlatformcontext=_whichPlatformcontext;
 
 @end
 

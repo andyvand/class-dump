@@ -12,27 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _UIImageCUIVectorGlyphContent : _UIImageContent
 {
     CUINamedVectorGlyph *_vectorGlyph;
-    _UIImageContent *_vectorContent;
-    double _glyphScaleFactor;
-    double _vectorScale;
-    struct CGSize _sizeInPixels;
-    struct CGImage *_overrideImageRef;
-    _Atomic int _isMultiColor;
-    _Atomic long long _numberOfHierarchyLayers;
-    _Atomic long long _numberOfPaletteLayers;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (struct CGImage *);
 - (id);
 - (id);
 - (struct CGImage *);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)mapRelationshipKey:toModelClass:mediaKitType: /* Error: Ran out of types for this method. */;
+- (_Bool)vanceShuffleModeCommand",R,N,V_advanceShuffleModeCommand;
+- (void)ributes.heroArtwork;
 - (unsigned long long);
 - (id);
 - (unsigned long long)ù
@@ -44,17 +36,17 @@ __attribute__((visibility("hidden")))
 - (void)1Â0@ù
 × ;
 - (struct CGImage *)1"viewLoadedFromControllerNib"b1"isRootViewController"b1"isSuspended"b1"wantsFullScreenLayout"b1"shouldUseFullScreenLayout"b1"allowsAutorotation"b1"searchControllerRetained"b1"oldModalInPopover"b1"isModalInPresentation"b1"isInWillRotateCallback"b1"isFinishingModalTransition"b1"definesPresentationContext"b1"providesPresentationContextTransitionStyle"b1"containmentSupport"b1"isSettingAppearState"b1"isInAnimatedVCTransition"b1"presentationIsChanging"b1"isBeingPresented"b1"containmentIsChanging"b1"explicitTransitionIsAppearing"b1"disableAppearanceTransitions"b1"needsDidMoveCleanup"b1"suppressesBottomBar"b1"isExecutingAfterAppearance"b1"rootResignationNeeded"b1"viewConstraintsNeedUpdateOnAppearance"b1"shouldForceNonAnimatedTransition"b1"isInCustomTransition"b1"mayForwardPresentationsToPresentedViewController"b1"usesSharedView"b1"extendedLayoutIncludesOpaqueBars"b1"automaticallyAdjustInsets"b1"previousShouldUnderlapUnderStatusBar"b1"freezeShouldUnderlapUnderStatusBar"b1"shouldNotFreezeUnderlapsStatusBar"b1"monitorsSystemLayoutFittingSize"b1"shouldLoadInputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
-- (_Bool);
+- (_Bool)touchQueue;
 - (void)requestSessionWithConfiguration:(struct CGSize)arg1 completion:(double)arg2;
-- (double)mLength;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (double)ontrollerFromBarButtonItem:animated:completion: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)or;
-- (void)ntentHeightConstraint;
+- (double)beamLength;
+- (_Bool)_updateDefaultUserActivityBecomingCurrent: /* Error: Ran out of types for this method. */;
+- (double)_presentAlertControllerFromBarButtonItem:animated:completion: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)_includedInPresentationByOffscreenAnimator;
+- (void)_contentHeightConstraint;
 - (_Bool):multiplier: /* Error: Ran out of types for this method. */;
 - (id)rimaryOffscreenGestureMode:,V_primaryOffscreenGestureMode /* Error: Ran out of types for this method. */;
 - (id)gationItem",R,N,V_navigationItem;
-- (void)DFAnnotationParserDelegate;
+- (void)UIPDFAnnotationParserDelegate;
 - (id)ø';
 - (unsigned long long)ð;
 - (struct CGImage *)8@"FBSSceneTransitionContext"16;

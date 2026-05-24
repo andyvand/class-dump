@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface SXTangierRepDirectLayerHostProvider
 {
     CALayer *_aboveRepsLayerHost;
-    CALayer *_underRepsLayerHost;
-    CALayer *_overlayLayerHost;
 }
 
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -27,15 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *aboveRepsLayerHost; // @synthesize aboveRepsLayerHost=_aboveRepsLayerHost;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CALayer *overlayLayerHost; // @synthesize overlayLayerHost=_overlayLayerHost;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CALayer *underRepsLayerHost; // @synthesize underRepsLayerHost=_underRepsLayerHost;
 
 @end
 

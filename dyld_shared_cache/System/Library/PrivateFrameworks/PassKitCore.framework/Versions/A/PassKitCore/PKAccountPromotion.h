@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSURL, PKDynamicTemplateLayout;
-@protocol NSCopying;
+@class NSString;
 
 @interface PKAccountPromotion
 {
     unsigned long long _state;
-    NSString *_programIdentifier;
-    unsigned long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_name;
-    NSArray *_completionSteps;
-    long long _impressionCount;
-    NSURL *_termsURL;
-    NSString *_templateIdentifier;
-    PKDynamicTemplateLayout *_layout;
-    NSDictionary *_layoutDictionary;
 }
 
 + (_Bool)î%ð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
-- (void);
+- (void)	k`#;
 - (void);
 - (void);
 - (void);
@@ -55,49 +43,29 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)?;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)so(%04ld-%02ld-%02ld), $time.iso(%04ld-%02ld-%02ld);
+- (_Bool)_timeSharingWLANIntervalCount;
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (void);
 - (id)!ÌFùï%°1Â0@ù
 × ;
-- (void)ion:(id)arg1 withAuthenticationCredential:shouldReregister: /* Error: Ran out of types for this method. */;
-- (id)entsRange;
+- (void)authorizePeerPaymentQuote:(id)arg1 forPaymentApplication:withAuthenticationCredential:shouldReregister: /* Error: Ran out of types for this method. */;
+- (id)_dateComponentsRange;
 - (void);
 - (void)ure validation:(id)arg1 %@;
-- (double)STATION;
-- (id)ToSend;
+- (double)TRANSIT_TRANSACTION_FROM_START_STATION;
+- (id)readyToSend;
 - (void)PeerPayment_Localizable;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *completionSteps; // @synthesize completionSteps=_completionSteps;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSCopying> identifier;
-@property(nonatomic) long long impressionCount; // @synthesize impressionCount=_impressionCount;
-@property(readonly, nonatomic) _Bool isInTerminalState;
-@property(retain, nonatomic) PKDynamicTemplateLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) NSDictionary *layoutDictionary; // @synthesize layoutDictionary=_layoutDictionary;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSString *programIdentifier; // @synthesize programIdentifier=_programIdentifier;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *templateIdentifier; // @synthesize templateIdentifier=_templateIdentifier;
-@property(retain, nonatomic) NSURL *termsURL; // @synthesize termsURL=_termsURL;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

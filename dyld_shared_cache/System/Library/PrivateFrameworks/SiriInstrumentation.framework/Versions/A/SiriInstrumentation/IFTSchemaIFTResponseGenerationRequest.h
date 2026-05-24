@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTResponseGenerationRequest : SISchemaInstrumentationMessage
 {
     NSArray *_actionStepResultEventIds;
-    NSArray *_statementResults;
 }
 
 - (unsigned long long);
@@ -19,9 +18,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,17 +33,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mework/Versions/A/AppSupport;
 - (id)
 × ;
 - (id)SpeechProfileEntityExtractionMetrics",&,N,V_entityExtractionMetrics;
-- (id)s;
+- (id)DIMSchemaDIMWatchDeviceAttributes;
 - (void)¨;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionStepResultEventIds; // @synthesize actionStepResultEventIds=_actionStepResultEventIds;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *statementResults; // @synthesize statementResults=_statementResults;
 
 @end
 

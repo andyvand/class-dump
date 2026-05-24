@@ -6,12 +6,9 @@
 
 #import <PencilKit/PKPaletteAttributeViewController.h>
 
-@protocol PKPaletteErasingAttributesViewControllerDelegate;
-
 @interface PKPaletteErasingAttributesViewController : PKPaletteAttributeViewController
 {
     _Bool _hideWeightPicker;
-    id <PKPaletteErasingAttributesViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -28,14 +25,11 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void)timeRange;
 - (void)PKTextInputTouchDetectionGestureRecognizerDelegate;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKPaletteErasingAttributesViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long eraserType;
 @property(nonatomic) _Bool hideWeightPicker; // @synthesize hideWeightPicker=_hideWeightPicker;
-@property(nonatomic) double weight;
 
 @end
 

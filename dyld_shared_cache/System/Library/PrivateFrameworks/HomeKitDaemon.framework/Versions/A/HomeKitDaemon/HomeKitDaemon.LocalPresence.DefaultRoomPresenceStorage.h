@@ -7,13 +7,6 @@
 @interface HomeKitDaemon.LocalPresence.DefaultRoomPresenceStorage
 {
     id $defaultActor;
-    id context;
-    id homeUUID;
-    id timerProvider;
-    id dateProvider;
-    id timer;
-    id lastWriteDate;
-    id pendingUpdatesByRoom;
 }
 
 @end

@@ -16,12 +16,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_Currency;
 - (void)nsaction;
 - (id);
 

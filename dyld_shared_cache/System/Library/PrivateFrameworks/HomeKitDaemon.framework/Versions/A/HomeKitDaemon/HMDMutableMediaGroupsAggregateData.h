@@ -13,12 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)dHomeHubReachabilityBulletinForHome:(struct _NSZone *)arg1 reachable:electedPrimary:previousPrimary: /* Error: Ran out of types for this method. */;
+- (id)insertUserPreferredHomeHubReachabilityBulletinForHome:(struct _NSZone *)arg1 reachable:electedPrimary:previousPrimary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *destinationControllersData; // @dynamic destinationControllersData;
 @property(copy) NSArray *destinations; // @dynamic destinations;
-@property(copy) NSArray *groups; // @dynamic groups;
 
 @end
 

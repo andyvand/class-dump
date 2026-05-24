@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PRStackItem
 {
     _Bool _visited;
-    struct query_node *_node;
 }
 
 + (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct query_node *node; // @synthesize node=_node;
-@property(nonatomic) _Bool visited; // @synthesize visited=_visited;
 
 @end
 

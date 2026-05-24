@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface FCANEFHeader
 {
     NSData *_wrappingKeyID;
-    NSData *_wrappedKey;
-    NSString *_contentType;
-    NSData *_headerData;
 }
 
 - (id);
-- (void)ourceId;
+- (void)languageMapResourceId;
 
 @end
 

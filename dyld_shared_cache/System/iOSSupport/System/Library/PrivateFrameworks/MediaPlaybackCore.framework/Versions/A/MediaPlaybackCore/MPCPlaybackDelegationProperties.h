@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackDelegationProperties
 {
     NSString *_deviceGUID;
-    NSString *_deviceName;
-    long long _systemReleaseType;
-    NSString *_requestUserAgent;
-    unsigned long long _storeAccountID;
-    NSTimeZone *_timeZone;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)Versions/A/AccountsDaemon;
 - (id);
 - (unsigned long long);
 - (long long);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id)0@ù
 × ;
@@ -36,19 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)Ù÷ÿU!9ç;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
-@property(readonly, copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *requestUserAgent; // @synthesize requestUserAgent=_requestUserAgent;
-@property(readonly, nonatomic) unsigned long long storeAccountID; // @synthesize storeAccountID=_storeAccountID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long systemReleaseType; // @synthesize systemReleaseType=_systemReleaseType;
-@property(readonly, copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

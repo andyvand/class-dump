@@ -9,10 +9,6 @@
 @interface AWDCoreRoutineMagicalMomentsFeatureAddon
 {
     NSString *_name;
-    int _value;
-    struct {
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,13 +27,10 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)time.this_week,$time.now);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int value; // @synthesize value=_value;
 
 @end
 

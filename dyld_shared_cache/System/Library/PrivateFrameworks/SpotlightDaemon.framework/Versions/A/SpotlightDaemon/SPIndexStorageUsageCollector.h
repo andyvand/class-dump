@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SPIndexStorageUsageCollector
 {
     NSMutableDictionary *_visitedInodes;
-    NSMutableDictionary *_storageUsage;
-    _Bool _canceled;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)handleProcessStateDidChange;
+- (void)handlePrimaryResidentDidBecomeOtherDeviceSwiftExtensions;
+- (void)handleMediaReadWriteResponse:(id)arg1 forAction:(CDUnknownBlockType)arg2 inServiceType:inHome:requestProperty:results:forObjects: /* Error: Ran out of types for this method. */;
+- (id)*****************s;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property _Bool canceled; // @synthesize canceled=_canceled;
-@property(readonly, nonatomic) NSDictionary *storageUsage;
 
 @end
 

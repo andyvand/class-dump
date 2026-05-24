@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng, _SFPBTimeZone;
+@class NSString;
 
 @interface _SFPBAirport
 {
     NSString *_code;
-    _SFPBTimeZone *_timezone;
-    _SFPBLatLng *_location;
-    NSString *_city;
-    NSString *_street;
-    NSString *_district;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_countryCode;
-    NSString *_country;
-    NSString *_name;
 }
 
 - (void);
@@ -28,52 +18,34 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)E parent_identifier = @parentIdentifier AND person_id = @personID AND child_key = @childKey;
 - (id);
 - (void);
-- (id);
+- (id)safari_incrementNumberForKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)initWithLivePhotoEditingInput:(id)arg1;
+- (id)ic}@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ValuesCount;
-- (void)lValue;
+- (void)keyValuesCount;
+- (void)_darkUrlValue;
 - (void)RGBValue",&,N;
 - (void)G;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *district; // @synthesize district=_district;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLatLng *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *street; // @synthesize street=_street;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBTimeZone *timezone; // @synthesize timezone=_timezone;
 
 @end
 

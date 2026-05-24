@@ -9,9 +9,6 @@
 @interface MediaPlaybackCore.PlayerFSM
 {
     id playbackDefaults;
-    id delegate;
-    id states;
-    id controller;
 }
 
 - (void);

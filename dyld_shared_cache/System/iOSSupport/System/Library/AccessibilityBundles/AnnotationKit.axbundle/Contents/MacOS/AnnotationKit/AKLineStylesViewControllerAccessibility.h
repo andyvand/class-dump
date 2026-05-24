@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)1;
 
 @end
 

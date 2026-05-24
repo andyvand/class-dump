@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFWiFiNetworkSharingEAPCredentials, CWFWiFiNetworkSharingNetworkID, NSData, NSDate, NSDictionary, NSString;
+@class CWFWiFiNetworkSharingNetworkID;
 
 @interface CWFWiFiNetworkSharingNetwork
 {
     _Bool _isHidden;
-    _Bool _isCaptive;
-    NSData *_SSID;
-    unsigned long long _supportedSecurityTypes;
-    NSString *_password;
-    CWFWiFiNetworkSharingEAPCredentials *_EAPCredentials;
-    NSDate *_firstSharedDate;
-    NSDate *_lastModifiedDate;
-    NSDictionary *_captivePortalCredentials;
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)_C@q;
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_setupEditValueLabels:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
@@ -38,28 +30,18 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)IDENTITY command:(struct _NSZone *)arg1 %{public}@;
 - (id);
-- (id);
-- (id);
+- (id)-;
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long)wledgement;
+- (unsigned long long)waitingForNetworkListUpdateAcknowledgement;
 - (void)siredBandwidth;
 - (_Bool):error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CWFWiFiNetworkSharingEAPCredentials *EAPCredentials; // @synthesize EAPCredentials=_EAPCredentials;
-@property(copy) NSData *SSID; // @synthesize SSID=_SSID;
-@property(copy) NSDictionary *captivePortalCredentials; // @synthesize captivePortalCredentials=_captivePortalCredentials;
-@property(copy) NSDate *firstSharedDate; // @synthesize firstSharedDate=_firstSharedDate;
-@property _Bool isCaptive; // @synthesize isCaptive=_isCaptive;
-@property _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(copy) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(readonly) NSString *networkName;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property unsigned long long supportedSecurityTypes; // @synthesize supportedSecurityTypes=_supportedSecurityTypes;
 @property(readonly) CWFWiFiNetworkSharingNetworkID *wifiNetworkSharingNetworkID;
 
 @end

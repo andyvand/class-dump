@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct _os_timesync_db_s *);
 - (id);
-- (void);
+- (void)P;
 - (id);
 
 @end

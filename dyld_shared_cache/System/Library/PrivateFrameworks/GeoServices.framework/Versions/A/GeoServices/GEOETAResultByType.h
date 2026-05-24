@@ -4,49 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteTrafficDetail, GEOShortTrafficSummary, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOETAResultByType
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _expectedTimeOfDeparture;
-    GEORouteTrafficDetail *_routeTrafficDetail;
-    GEOShortTrafficSummary *_shortTrafficSummary;
-    NSMutableArray *_summaryForPredictedDestinations;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _distance;
-    unsigned int _historicTravelTime;
-    int _licensePlateRestrictionImpact;
-    unsigned int _staticTravelTime;
-    int _status;
-    int _transportType;
-    unsigned int _travelTimeBestEstimate;
-    unsigned int _travelTimeAggressiveEstimate;
-    unsigned int _travelTimeConservativeEstimate;
-    struct {
-        unsigned int has_expectedTimeOfDeparture:1;
-        unsigned int has_distance:1;
-        unsigned int has_historicTravelTime:1;
-        unsigned int has_licensePlateRestrictionImpact:1;
-        unsigned int has_staticTravelTime:1;
-        unsigned int has_status:1;
-        unsigned int has_transportType:1;
-        unsigned int has_travelTimeBestEstimate:1;
-        unsigned int has_travelTimeAggressiveEstimate:1;
-        unsigned int has_travelTimeConservativeEstimate:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_routeTrafficDetail:1;
-        unsigned int read_shortTrafficSummary:1;
-        unsigned int read_summaryForPredictedDestinations:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)asRadialDistortion1:(id)arg1;
++ (Class)0@0:8@16@24^q32 /* Error: Ran out of types for this method. */;
++ (_Bool)setHasRadialDistortion1:(id)arg1;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -74,29 +40,29 @@
 - (id);
 - (id);
 - (int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
+- (unsigned int)scanString:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)rangeOfCharacterFromSet:options:range: /* Error: Ran out of types for this method. */;
+- (_Bool)rangeOfCharacterFromSet:options: /* Error: Ran out of types for this method. */;
+- (_Bool)nameComponentElements;
+- (_Bool)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
+- (_Bool)isObject:memberOfSameClassAndEqualTo:withBlocks: /* Error: Ran out of types for this method. */;
+- (_Bool)decodeObjectOfClass:associatedClasses:data:error: /* Error: Ran out of types for this method. */;
+- (_Bool)blockBecameCompleted;
+- (_Bool)addEmailAddress: /* Error: Ran out of types for this method. */;
+- (double)tactsFoundation24CNKeychainFacadeProtocol_>",N,&;
 - (void);
-- (void);
+- (void)ber SIM Line Picker;
 - (_Bool);
 - (int);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)y;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)speechController:(id)arg1 didSetAudioSessionActive: /* Error: Ran out of types for this method. */;
+- (id)_sendGradingData:withFileName:toPeerId:withCompressedFlag:withUncompressedDataSize:withBatchId:withRetainFileFlag:withFilePrefix:withCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -111,11 +77,11 @@
 × ;
 - (int)(?={_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@?32@?40;
 - (void)Result"b1"read_submissionResult"b1"read_tdmFraudNotificationResult"b1"wrote_anyField"b1};
-- (id)iewIsAdvancedMap:(struct _NSZone *)arg1;
-- (int)eIds;
-- (id)kupResponse;
+- (id)setHasMapViewIsAdvancedMap:(struct _NSZone *)arg1;
+- (int)_guideIds;
+- (id)GEOPDSpatialPlaceLookupResponse;
 - (id)ks/Accounts.framework/Accounts;
-- (id)_button;
+- (id)include_dismiss_button;
 - (id)4;
 - (_Bool);
 - (void)Ä²BAwj.7~O@;
@@ -126,32 +92,7 @@
 - (int)ànÿD;
 
 // Remaining properties
-@property(nonatomic) unsigned int distance;
-@property(nonatomic) double expectedTimeOfDeparture;
-@property(nonatomic) _Bool hasDistance;
-@property(nonatomic) _Bool hasExpectedTimeOfDeparture;
-@property(nonatomic) _Bool hasHistoricTravelTime;
-@property(nonatomic) _Bool hasLicensePlateRestrictionImpact;
-@property(readonly, nonatomic) _Bool hasRouteTrafficDetail;
-@property(readonly, nonatomic) _Bool hasShortTrafficSummary;
-@property(nonatomic) _Bool hasStaticTravelTime;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) _Bool hasTravelTimeAggressiveEstimate;
-@property(nonatomic) _Bool hasTravelTimeBestEstimate;
-@property(nonatomic) _Bool hasTravelTimeConservativeEstimate;
-@property(nonatomic) unsigned int historicTravelTime;
-@property(nonatomic) int licensePlateRestrictionImpact;
-@property(retain, nonatomic) GEORouteTrafficDetail *routeTrafficDetail;
-@property(retain, nonatomic) GEOShortTrafficSummary *shortTrafficSummary;
-@property(nonatomic) unsigned int staticTravelTime;
-@property(nonatomic) int status;
-@property(retain, nonatomic) NSMutableArray *summaryForPredictedDestinations;
-@property(nonatomic) int transportType;
-@property(nonatomic) unsigned int travelTimeAggressiveEstimate;
-@property(nonatomic) unsigned int travelTimeBestEstimate;
-@property(nonatomic) unsigned int travelTimeConservativeEstimate;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

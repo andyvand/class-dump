@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSString;
+@class NSString;
 
 @interface CalUIColorPickerButton
 {
     NSString *_symbolicColor;
-    NSColor *_dotColor;
-    NSImage *_defaultImage;
-    NSImage *_selectedImage;
-    NSImage *_hoverImage;
-    NSImage *_mouseDownImage;
 }
 
 + (Class);
@@ -25,28 +20,23 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)com.apple.accessibility.apple.tv.scaledui;
 - (void)
 × ;
 - (void){á;
 
 // Remaining properties
-@property(retain) NSImage *defaultImage; // @synthesize defaultImage=_defaultImage;
-@property(retain) NSColor *dotColor; // @synthesize dotColor=_dotColor;
-@property(retain) NSImage *hoverImage; // @synthesize hoverImage=_hoverImage;
-@property(retain) NSImage *mouseDownImage; // @synthesize mouseDownImage=_mouseDownImage;
-@property(retain) NSImage *selectedImage; // @synthesize selectedImage=_selectedImage;
 @property(retain) NSString *symbolicColor; // @synthesize symbolicColor=_symbolicColor;
 
 @end

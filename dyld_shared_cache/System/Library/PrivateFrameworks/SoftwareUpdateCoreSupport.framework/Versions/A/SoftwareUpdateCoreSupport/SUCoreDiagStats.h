@@ -7,23 +7,6 @@
 @interface SUCoreDiagStats
 {
     long long _beginCount;
-    long long _endSuccessCount;
-    long long _endFailCount;
-    long long _endFailIndicationsCount;
-    long long _endFailAllIndications;
-    long long _errorCount;
-    long long _errorIndicationsCount;
-    long long _errorAllIndications;
-    long long _anomalyCount;
-    long long _anomalyIndicationsCount;
-    long long _anomalyAllIndications;
-    long long _failureCount;
-    long long _failureIndicationsCount;
-    long long _failureAllIndications;
-    long long _faultCount;
-    long long _faultIndicationsCount;
-    long long _faultAllIndications;
-    long long _stateEventCount;
 }
 
 + (_Bool);
@@ -37,7 +20,7 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id));
 - (void);
 - (id);
 - (long long);
@@ -47,7 +30,7 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -61,7 +44,7 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)J!;
 - (long long);
 - (void);
 - (long long);
@@ -74,30 +57,13 @@
 - (void);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long anomalyAllIndications; // @synthesize anomalyAllIndications=_anomalyAllIndications;
-@property(nonatomic) long long anomalyCount; // @synthesize anomalyCount=_anomalyCount;
-@property(nonatomic) long long anomalyIndicationsCount; // @synthesize anomalyIndicationsCount=_anomalyIndicationsCount;
 @property(nonatomic) long long beginCount; // @synthesize beginCount=_beginCount;
-@property(nonatomic) long long endFailAllIndications; // @synthesize endFailAllIndications=_endFailAllIndications;
-@property(nonatomic) long long endFailCount; // @synthesize endFailCount=_endFailCount;
-@property(nonatomic) long long endFailIndicationsCount; // @synthesize endFailIndicationsCount=_endFailIndicationsCount;
-@property(nonatomic) long long endSuccessCount; // @synthesize endSuccessCount=_endSuccessCount;
-@property(nonatomic) long long errorAllIndications; // @synthesize errorAllIndications=_errorAllIndications;
-@property(nonatomic) long long errorCount; // @synthesize errorCount=_errorCount;
-@property(nonatomic) long long errorIndicationsCount; // @synthesize errorIndicationsCount=_errorIndicationsCount;
-@property(nonatomic) long long failureAllIndications; // @synthesize failureAllIndications=_failureAllIndications;
-@property(nonatomic) long long failureCount; // @synthesize failureCount=_failureCount;
-@property(nonatomic) long long failureIndicationsCount; // @synthesize failureIndicationsCount=_failureIndicationsCount;
-@property(nonatomic) long long faultAllIndications; // @synthesize faultAllIndications=_faultAllIndications;
-@property(nonatomic) long long faultCount; // @synthesize faultCount=_faultCount;
-@property(nonatomic) long long faultIndicationsCount; // @synthesize faultIndicationsCount=_faultIndicationsCount;
-@property(nonatomic) long long stateEventCount; // @synthesize stateEventCount=_stateEventCount;
 
 @end
 

@@ -8,32 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPlaceSearchFeedbackRequest
 {
     struct GEOSessionID _sessionGUID;
-    long long _businessID;
-    double _timestamp;
-    int _feedbackType;
-    int _localSearchProviderID;
-    int _numberOfResults;
-    int _positionInResults;
-    int _sequenceNumber;
-    struct {
-        unsigned int has_sessionGUID:1;
-        unsigned int has_businessID:1;
-        unsigned int has_timestamp:1;
-        unsigned int has_feedbackType:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_numberOfResults:1;
-        unsigned int has_positionInResults:1;
-        unsigned int has_sequenceNumber:1;
-    } _flags;
 }
 
-+ (_Bool)tIsDataCorrect:(id)arg1;
++ (_Bool)setIsDataCorrect:(id)arg1;
+- (void)schedulerProvider;
+- (void)optionsWithoutMigrationForStoreAtUrl:(int)arg1;
+- (void)_makeSureItsLabeled;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct GEOSessionID);
+- (void)MutableDictionary",&,V_publicUserInfo;
+- (struct GEOSessionID)teamIdentifier;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -43,58 +26,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)d Activation Event :(id)arg1 %{public}@;
 - (void);
 - (unsigned long long);
 - (double);
 - (void);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long)r;
 - (unsigned int);
 - (_Bool);
 - (void);
-- (void);
+- (void)setUsesTileScale:(int)arg1;
 - (_Bool);
 - (void);
 - (int);
 - (void);
 - (void)DMIFAutocompleteEntry";
 - (id)ession";
-- (id)ransactionTimestamp;
+- (id)_transactionTimestamp;
 - (id)­¯,±<³Lµ\·	¨º¸¼	h¿xÁÃÅ¨Ç	øÊÍÏ(Ñ8Ó;
-- (id)URL;
+- (id)resourcesURL;
 - (Class)Ä½ÂÔ½$;
 - (_Bool)×@\Âõ(^@;
 - (int);
 - (void)îa2;
 
 // Remaining properties
-@property(nonatomic) long long businessID;
-@property(nonatomic) int feedbackType;
-@property(nonatomic) _Bool hasBusinessID;
-@property(nonatomic) _Bool hasFeedbackType;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(nonatomic) _Bool hasNumberOfResults;
-@property(nonatomic) _Bool hasPositionInResults;
-@property(nonatomic) _Bool hasSequenceNumber;
-@property(nonatomic) _Bool hasSessionGUID;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int localSearchProviderID;
-@property(nonatomic) int numberOfResults;
-@property(nonatomic) int positionInResults;
-@property(nonatomic) int sequenceNumber;
-@property(nonatomic) struct GEOSessionID sessionGUID;
-@property(nonatomic) double timestamp;
 
 @end
 

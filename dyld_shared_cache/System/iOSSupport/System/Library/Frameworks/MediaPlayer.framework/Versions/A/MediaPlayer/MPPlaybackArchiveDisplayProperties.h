@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary;
 
 @interface MPPlaybackArchiveDisplayProperties
 {
     _Bool _final;
-    NSString *_title;
-    NSString *_subtitle;
-    NSData *_artworkImageData;
-    NSMutableDictionary *_storage;
 }
 
 + (_Bool);
@@ -22,34 +18,23 @@
 - (id);
 - (id);
 - (id);
+- (id)hi8	;
+- (unsigned long long)setCountLimit: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id)AppUpdatesModification;
+- (id)ICReportFrameAnalysis:forPresentationTime:withStats: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)deo__MAPPING_MISSING__;
+- (void)__MPModelPropertyRadioStationContainsVideo__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *artworkImageData; // @synthesize artworkImageData=_artworkImageData;
-@property(readonly, copy, nonatomic) NSURL *artworkImageURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *storage; // @synthesize storage=_storage;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

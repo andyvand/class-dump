@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, WBSRichSearchSuggestionsResult;
+@class NSArray;
 
 @interface WBSSearchSuggestionsFetcherResponse
 {
     _Bool _autocompleteToFirstSuggestion;
-    NSArray *_suggestions;
-    NSDictionary *_postFixSuggestions;
-    NSNumber *_prefixNavigationalIntent;
-    WBSRichSearchSuggestionsResult *_richSearchSuggestionsResult;
 }
 
 + (_Bool);
@@ -25,17 +21,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)stretch;
+- (id)8;
 - (void);
-- (id)eContactWithKeysToFetch:error: /* Error: Ran out of types for this method. */;
+- (id)unifiedMeContactWithKeysToFetch:error: /* Error: Ran out of types for this method. */;
 - (void)T;
 
 // Remaining properties
-@property(nonatomic) _Bool autocompleteToFirstSuggestion; // @synthesize autocompleteToFirstSuggestion=_autocompleteToFirstSuggestion;
-@property(copy, nonatomic) NSDictionary *postFixSuggestions; // @synthesize postFixSuggestions=_postFixSuggestions;
-@property(retain, nonatomic) NSNumber *prefixNavigationalIntent; // @synthesize prefixNavigationalIntent=_prefixNavigationalIntent;
-@property(copy, nonatomic) WBSRichSearchSuggestionsResult *richSearchSuggestionsResult; // @synthesize richSearchSuggestionsResult=_richSearchSuggestionsResult;
 @property(readonly, copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end

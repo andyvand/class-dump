@@ -10,24 +10,22 @@ __attribute__((visibility("hidden")))
 @interface NSTableRowSidebarSelectionView : NSView
 {
     _Bool _isEmphasized;
-    _Bool _isEmphasizedForDrop;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ta failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)riptors:(struct CGRect)arg1;
+- (id)removeQueryForDescriptors:(struct CGRect)arg1;
 - (_Bool)to display save panels. Please ensure that your app's target capabilities include the proper entitlements.;
 
 // Remaining properties
 @property(getter=isEmphasized) _Bool emphasized;
-@property(getter=isEmphasizedForDrop) _Bool emphasizedForDrop;
 
 @end
 

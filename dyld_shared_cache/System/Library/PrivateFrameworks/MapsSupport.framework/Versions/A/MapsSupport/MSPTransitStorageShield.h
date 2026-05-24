@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageShield
 {
     PBUnknownFields *_unknownFields;
-    long long _shieldType;
-    NSString *_shieldColorString;
-    NSString *_shieldText;
-    struct {
-        unsigned int shieldType:1;
-    } _has;
 }
 
-- (void);
-- (_Bool);
+- (void)T;
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (id)batch(es):%{public}s, fetching highest-mod-seq:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)lic}@ calling checkResourceIsReachableAndReturnError on %@;
+- (_Bool)quotaUsage;
+- (_Bool)SizeEngineDidChangeStatusNotification;
 - (id);
 - (void);
 - (id);
@@ -31,30 +25,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)%;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasShieldColorString;
-@property(readonly, nonatomic) _Bool hasShieldText;
-@property(nonatomic) _Bool hasShieldType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *shieldColorString; // @synthesize shieldColorString=_shieldColorString;
-@property(retain, nonatomic) NSString *shieldText; // @synthesize shieldText=_shieldText;
-@property(nonatomic) long long shieldType; // @synthesize shieldType=_shieldType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) long long shieldType;
 
 @end
 

@@ -11,11 +11,11 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)o;
+- (id)o;
+- (id)o;
+- (id)oo;
 - (id);
 - (void);
 - (id);

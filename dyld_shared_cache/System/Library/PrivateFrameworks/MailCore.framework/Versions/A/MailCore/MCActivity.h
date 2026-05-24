@@ -5,14 +5,10 @@
 //
 
 @class NSProgress;
-@protocol MCActivityDelegate;
 
 @interface MCActivity
 {
     _Bool _isFinished;
-    id <MCActivityDelegate> _delegate;
-    NSProgress *_progress;
-    long long _qualityOfService;
 }
 
 - (void);
@@ -28,15 +24,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MCActivityDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

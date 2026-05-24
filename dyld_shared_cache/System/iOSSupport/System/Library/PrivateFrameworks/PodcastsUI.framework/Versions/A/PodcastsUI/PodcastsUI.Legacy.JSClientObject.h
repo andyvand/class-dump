@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PodcastsUI.Legacy.JSClientObject
 {
     id accountStore;
-    _Bool isPersonalizationDisabled;
 }
 
 - (void);
+- (_Bool)ecvsecvs;
+- (id);
+- (id);
+- (id)n;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)eholder call %@ for conversation %@ due to avMode change to %@;
 - (id);
 - (id);
 - (id);
@@ -26,13 +23,7 @@
 - (id)=C^_;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *buildType;
-@property(nonatomic, readonly) NSString *deviceType;
-@property(nonatomic, readonly) NSArray *displayKinds;
-@property(nonatomic, readonly) NSString *guid;
 @property(nonatomic, readonly) _Bool isPersonalizationDisabled; // @synthesize isPersonalizationDisabled;
-@property(nonatomic, readonly) _Bool isThinClient;
-@property(nonatomic, readonly) NSString *storefrontIdentifier;
 
 @end
 

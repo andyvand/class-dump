@@ -13,8 +13,8 @@
 
 - (id);
 - (_Bool);
-- (id);
-- (id)cheStepData;
+- (id)disconnecting;
+- (id)_cacheStepData;
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties

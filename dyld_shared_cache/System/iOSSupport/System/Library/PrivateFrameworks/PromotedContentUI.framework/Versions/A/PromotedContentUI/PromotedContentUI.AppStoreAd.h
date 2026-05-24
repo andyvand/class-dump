@@ -7,16 +7,6 @@
 @interface PromotedContentUI.AppStoreAd
 {
     id promotedContent;
-    id representation;
-    id adamId;
-    id metadata;
-    id clientRequestId;
-    id toroId;
-    id unfilledReason;
-    id visibilityTracking;
-    id hasClicked;
-    id hasDownloaded;
-    id frequencyStorageType;
 }
 
 @end

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAURLConfiguration, NSDate, NSHTTPURLResponse;
+@class NSDate;
 
 @interface AARemoteServerConfigurationCache
 {
     NSDate *_creationDate;
-    AAURLConfiguration *_configuration;
-    NSHTTPURLResponse *_response;
 }
 
-+ (id);
++ (id)cture;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)tation:accepted:completion: /* Error: Ran out of types for this method. */;
+- (void)respondToInvitation:accepted:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AAURLConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSHTTPURLResponse *response; // @synthesize response=_response;
 
 @end
 

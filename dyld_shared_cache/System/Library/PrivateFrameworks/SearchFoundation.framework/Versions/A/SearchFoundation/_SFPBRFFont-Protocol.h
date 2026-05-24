@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFFont_RFSystemFont;
+@class NSData;
 
 @protocol _SFPBRFFont
+- (int);
+- (NSData *)T@"NSArray",R,N,V_momentUUIDs;
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name;
-@property(retain, nonatomic) _SFPBRFFont_RFSystemFont *system;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

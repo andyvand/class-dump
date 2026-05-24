@@ -7,25 +7,21 @@
 @interface PHAssetDeleteOptions
 {
     _Bool _shouldExpungeFromLocalStorageOnly;
-    long long _expungeSource;
-    long long _trashSource;
 }
 
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)roundModeOptions;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long expungeSource; // @synthesize expungeSource=_expungeSource;
 @property(nonatomic) _Bool shouldExpungeFromLocalStorageOnly; // @synthesize shouldExpungeFromLocalStorageOnly=_shouldExpungeFromLocalStorageOnly;
-@property(nonatomic) long long trashSource; // @synthesize trashSource=_trashSource;
 
 @end
 

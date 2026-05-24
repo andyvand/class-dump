@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sessionId;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

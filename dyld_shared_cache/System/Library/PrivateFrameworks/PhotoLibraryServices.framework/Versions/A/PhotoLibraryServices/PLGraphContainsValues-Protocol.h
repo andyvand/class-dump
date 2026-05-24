@@ -5,6 +5,8 @@
 //
 
 @protocol PLGraphContainsValues
-- (id)ompletionHandler:] /* Error: Ran out of types for this method. */;
+- (unsigned int)authentication;
+- (id)zk;
+- (unsigned int)ompletionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,7 +7,6 @@
 @interface MailUI.BucketsViewControllerPreferences
 {
     id shouldHighlightUnseenBadges;
-    id updateShouldHighlightUnseenBadges;
 }
 
 @end

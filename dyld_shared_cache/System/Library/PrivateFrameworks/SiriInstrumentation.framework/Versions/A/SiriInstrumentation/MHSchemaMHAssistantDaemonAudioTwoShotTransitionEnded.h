@@ -6,44 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioTwoShotTransitionEnded : SISchemaInstrumentationMessage
 {
     _Bool _suppresedAlert;
-    _Bool _timedOut;
-    struct {
-        unsigned int suppresedAlert:1;
-        unsigned int timedOut:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void){
+;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)D from %@ to %@;
 - (_Bool);
 - (id);
 - (id);
-- (id)erredMediaEntitylocality:(id)arg1;
+- (id)setInferredMediaEntitylocality:(id)arg1;
 - (id)ext;
 - (void)ÿúu´=1(;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSuppresedAlert;
-@property(nonatomic) _Bool hasTimedOut;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool suppresedAlert; // @synthesize suppresedAlert=_suppresedAlert;
-@property(nonatomic) _Bool timedOut; // @synthesize timedOut=_timedOut;
 
 @end
 

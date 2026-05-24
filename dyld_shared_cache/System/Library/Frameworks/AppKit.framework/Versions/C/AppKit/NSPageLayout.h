@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPrintInfo, NSWindowController;
+@class NSArray, NSMutableArray;
 
 @interface NSPageLayout
 {
     NSMutableArray *_accessoryControllers;
-    NSPrintInfo *_originalPrintInfo;
-    NSPrintInfo *_presentedPrintInfo;
-    NSWindowController *_windowController;
 }
 
 + (id);
 - (void);
+- (long long);
 - (long long);
-- (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)e-started with different credentials;
+- (void)ser changed;
+- (void)ation;
+- (void)iguration was superceded by another configuration;
+- (void)16@"NSURLSessionDataTask"24@"NSData"32@?<v@?>40;
+- (void)connection:(id)arg1 wasRedirected:(id)arg2 newRequest:(id)arg3 responseCallback:(SEL)arg4;
+- (void)connection:(id)arg1 request:(id)arg2 needsNewBodyStreamFromOffset:(CDUnknownBlockType)arg3 callback: /* Error: Ran out of types for this method. */;
+- (void)connection:(id)arg1 request:(id)arg2 needsNewBodyStreamCallback:(CDUnknownBlockType)arg3;
+- (void)_authenticationChallengeForCFAuthChallenge:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (id)_DuetActivityProperties;
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (long long);
@@ -42,7 +39,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessoryControllers;
-@property(readonly) NSPrintInfo *printInfo;
 
 @end
 

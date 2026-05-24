@@ -6,24 +6,12 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue, VCControlChannelTransactionDelegate;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCControlChannelDialog : VCObject
 {
     _Bool _handshakeEnabled;
-    _Bool _isHandshakeMode;
-    _Bool _isHandshakeCommenced;
-    unsigned int _sessionID;
-    id <VCControlChannelTransactionDelegate> _weakTransactionDelegate;
-    NSMutableDictionary *_transactions;
-    _Bool _shouldFinishHandshake;
-    double _handshakeStartTime;
-    NSNumber *_participantID;
-    NSString *_participantUUID;
-    NSMutableArray *_cachedMessages;
-    NSObject<OS_dispatch_queue> *_handshakeOperationQueue;
 }
 
 - (void);
@@ -32,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

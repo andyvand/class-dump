@@ -9,14 +9,12 @@
 @interface UIKit._UICloudChamber : UIView
 {
     id emitterCell;
-    id configuration;
-    id appliedSpriteHash;
 }
 
-+ (Class);
-- (id);
++ (Class)__MPModelPropertyAlbumLastDevicePlaybackDate__MAPPING_MISSING__;
+- (id);
 - (void);
-- (id)ableDataSource;
+- (id)_UIDiffableDataSource;
 - (void)8ÊÍl;
 
 @end

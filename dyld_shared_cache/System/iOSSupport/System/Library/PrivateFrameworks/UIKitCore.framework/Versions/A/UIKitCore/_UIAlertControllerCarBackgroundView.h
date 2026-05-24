@@ -6,21 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerCarBackgroundView : UIView
 {
     _Bool _isHighlighted;
-    UIColor *_fillColor;
-    UIColor *_highlightColor;
 }
 
-- (void);
+- (void)positionMetadata;
 - (id);
 - (void);
-- (void)tion:(id)arg1;
-- (id)dthAnchoredToConstantConstraint;
+- (void)moveToRightEndOfLineAndModifySelection:(id)arg1;
+- (id)_actionSequenceViewWidthAnchoredToConstantConstraint;
 - (void)Äýÿÿ;
 - (id)îÿèzþÿ;
 - (id)6@?0@"NSMutableString"8;
@@ -30,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(readonly) Class superclass;
 
 @end
 

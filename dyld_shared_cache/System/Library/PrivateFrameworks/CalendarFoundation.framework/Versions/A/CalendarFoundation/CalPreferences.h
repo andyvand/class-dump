@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
 @protocol CalPreferencesStore;
 
 @interface CalPreferences
 {
     id <CalPreferencesStore> _store;
-    NSString *_domain;
-    _Bool _readOnly;
-    NSMutableSet *_registeredNotificationsToReflect;
 }
 
 + (id);
 - (long long);
 - (void);
-- (id);
+- (id)r getting all calendars:(id)arg1 %@;
 - (void);
 - (_Bool);
 - (void);
@@ -29,11 +25,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)H$;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)d:(id)arg1 MDM:(id)arg2 %d  inDEP:%s  DEP+MDM:%d  Super:%d /* Error: Ran out of types for this method. */;
+- (void)#;
 - (void);
 
 @end

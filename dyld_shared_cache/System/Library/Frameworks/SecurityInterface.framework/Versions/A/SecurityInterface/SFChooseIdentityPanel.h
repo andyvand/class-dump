@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +35,7 @@
 - (void);
 - (void);
 - (struct __SecTrust *);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -51,7 +51,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (id);
@@ -69,7 +69,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)t;
 - (id);
 - (id);
 - (void *);
@@ -86,25 +86,25 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)_authenticationPluginType;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)boutBufferMotionBoutCounts;
 - (void);
 - (id);
 - (id);
 - (struct __SecIdentity *);
-- (id);
+- (id)iveTargetOTASituation;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)g:'%s' failed with exit code %d /* Error: Ran out of types for this method. */;
+- (void);
+- (void)H;
 
 @end
 

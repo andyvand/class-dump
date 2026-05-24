@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ACAccountStore;
 
 @interface PCSAccountsModel
 {
     _Bool _accountsChanged;
-    NSString *_username;
-    NSString *_dsid;
-    NSString *_identifier;
-    NSString *_lastError;
-    ACAccountStore *_store;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id);
 + (unsigned long long);
 + (_Bool);
 + (_Bool);
@@ -26,32 +19,27 @@
 + (id);
 + (unsigned long long);
 + (_Bool);
-+ (id);
++ (id)e=dd}},V_contentRect;
 + (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (void)t Cache File Version:(id)arg1 %@
+;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)iew request %@ (ignoring);
+- (void)at %@;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool accountsChanged; // @synthesize accountsChanged=_accountsChanged;
-@property(readonly) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *lastError; // @synthesize lastError=_lastError;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain) ACAccountStore *store; // @synthesize store=_store;
-@property(readonly) NSString *username; // @synthesize username=_username;
 
 @end
 

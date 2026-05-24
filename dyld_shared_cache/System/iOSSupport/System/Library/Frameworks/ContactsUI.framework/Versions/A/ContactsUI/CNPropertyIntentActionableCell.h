@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)pButton:forAction: /* Error: Ran out of types for this method. */;
+- (void)_setupButton:forAction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;

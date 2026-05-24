@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString;
+@class NSAttributedString;
 
 @interface IMTextMessageAttributedStringContent
 {
     NSAttributedString *_messageBodyWithNativeAttributes;
-    NSArray *_fileTransferGuids;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fileTransferGuids; // @synthesize fileTransferGuids=_fileTransferGuids;
 @property(readonly, nonatomic) NSAttributedString *messageBodyWithNativeAttributes; // @synthesize messageBodyWithNativeAttributes=_messageBodyWithNativeAttributes;
 
 @end

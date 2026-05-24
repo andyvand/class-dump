@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSString, WebsiteIconMenu;
+@class WebsiteIconMenu;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksMenuController
 {
     WebsiteIconMenu *_bookmarksMenu;
-    NSMenuItem *_lastBuiltInBookmarksMenuItem;
-    NSMenuItem *_lastBookmarksMenuCollectionMenuItem;
-    NSMenuItem *_lastUserBookmarkMenuItem;
-    NSMenuItem *_favoritesMenuItem;
-    NSMenuItem *_separatorMenuItem;
-    _Bool _menuNeedsReload;
-    _Bool _command1Through9SwitchesTabs;
-    unsigned long long _bookmarksGenerationAtLastReload;
 }
 
 - (id);
@@ -30,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -38,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a@9;
 - (void);
 - (void);
 - (void);
@@ -51,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)<;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

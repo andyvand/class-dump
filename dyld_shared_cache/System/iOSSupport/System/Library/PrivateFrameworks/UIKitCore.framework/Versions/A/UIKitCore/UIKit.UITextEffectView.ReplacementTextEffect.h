@@ -7,22 +7,6 @@
 @interface UIKit.UITextEffectView.ReplacementTextEffect
 {
     id view;
-    id chunk;
-    id delegate;
-    id id;
-    id lineAnimationEnabled;
-    id alongsideBuildInAnimation;
-    id alongsideBuildInCompletion;
-    id alongsideBuildOutAnimation;
-    id alongsideBuildOutCompletion;
-    id washInColor;
-    id effectViewOut;
-    id effectViewIn;
-    id fromLineAnimator;
-    id toLineAnimator;
-    id replacementOutLightConfiguration;
-    id replacementInLightConfiguration;
-    id isValid;
 }
 
 @end

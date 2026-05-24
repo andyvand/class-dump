@@ -5,13 +5,11 @@
 //
 
 @class _SFRSAKeySpecifier;
-@protocol SFDigestOperation;
 
 __attribute__((visibility("hidden")))
 @interface SFRSASigningOperation_Ivars
 {
     _SFRSAKeySpecifier *keySpecifier;
-    id <SFDigestOperation> digestOperation;
 }
 
 - (void);

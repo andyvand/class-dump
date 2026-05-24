@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface MLModelCollectionEntry
 {
     NSString *_modelIdentifier;
-    NSURL *_modelURL;
 }
 
-+ (id);
++ (id){
+;
 - (_Bool);
-- (id);
-- (id);
+- (id)T;
+- (id)/Source/ThirdParty/libwebrtc/Source/webrtc/audio/channel_send.cc;
 - (unsigned long long);
 - (_Bool);
 - (void)tatus=%d for network at %@;
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
 
 @end
 

@@ -6,13 +6,12 @@
 
 #import <SpotlightIndex/PRAstNode.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRAstCompositeNode : PRAstNode
 {
     NSString *_nodeType;
-    NSMutableArray *_children;
 }
 
 - (void);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
 @property(retain, nonatomic) NSString *nodeType; // @synthesize nodeType=_nodeType;
 
 @end

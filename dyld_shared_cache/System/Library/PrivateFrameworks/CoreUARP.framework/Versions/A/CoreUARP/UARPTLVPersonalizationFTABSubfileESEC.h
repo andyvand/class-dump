@@ -12,15 +12,15 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (unsigned int);
++ (id);
++ (id);
++ (unsigned int)ownloaded because they failed to return mirror file representations:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)+;
 - (unsigned short);
-- (id);
-- (id);
+- (id));
+- (id)AMSUniversalLinksConnection;
 
 // Remaining properties
 @property(readonly) unsigned short esec; // @synthesize esec=_esec;

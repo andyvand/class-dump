@@ -9,7 +9,6 @@
 @interface IKImageEffects
 {
     IKImageEffectsView *_ikImageEffectsView;
-    NSArray *_ikImageEffectsViewTLO;
 }
 
 - (void);

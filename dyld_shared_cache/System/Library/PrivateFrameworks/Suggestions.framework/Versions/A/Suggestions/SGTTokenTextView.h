@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface SGTTokenTextView
 {
     SGTSuggestion *completionSuggestion;
-    SGTSuggestion *currentSuggestion;
-    _Bool programmaticTextChange;
 }
 
 + (id);
-+ (void);
++ (void)A;
 - (void);
 - (void);
 - (struct _NSRange);
@@ -33,17 +31,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)O;
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (id)A~;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)defaultManager;
 - (_Bool);
 
 // Remaining properties

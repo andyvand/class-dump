@@ -11,9 +11,9 @@
     id <NSCopying> _identifier;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

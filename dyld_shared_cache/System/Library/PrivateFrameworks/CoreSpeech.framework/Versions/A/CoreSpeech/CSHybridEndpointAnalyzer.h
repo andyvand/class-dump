@@ -6,29 +6,11 @@
 
 #import <CoreSpeech/CSEndpointAnalyzerBase.h>
 
-@class CSASRFeatures, CSEnhancedEndpointer, NSDictionary, NSString;
-@protocol CSEndpointAnalyzerDelegate;
+@class CSASRFeatures;
 
 @interface CSHybridEndpointAnalyzer : CSEndpointAnalyzerBase
 {
     _Bool _enhancedEndpointerDefaultResult;
-    _Bool _didReceiveRCFeatures;
-    _Bool _accessibleEndpointerEnabled;
-    float _currentEndpointerThreshold;
-    id <CSEndpointAnalyzerDelegate> _delegate;
-    unsigned long long _activeChannel;
-    NSString *_mhId;
-    NSString *_endpointerModelVersion;
-    CSASRFeatures *_lastKnownRCFeatures;
-    double _lastKnownRCFeatureLatency;
-    unsigned long long _extraDelayFrequency;
-    NSDictionary *_taskThresholdMap;
-    unsigned long long _audioDeliveryHostTimeDelta;
-    long long _endpointerOperationMode;
-    CSEnhancedEndpointer *_enhancedEndpointer;
-    NSDictionary *_taskEnhancedEndpointerMap;
-    NSDictionary *_enhancedEndpointerTaskThresholdMap;
-    NSString *_currentTaskString;
 }
 
 - (void);
@@ -43,11 +25,11 @@
 - (void);
 - (void);
 - (void);
+- (void)gZ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -80,43 +62,23 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)MERGE_OR_LINK_SELECTED_CARDS_MENU_TITLE;
+- (id);
+- (void);
+- (void)w;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)DidStopHandler:(id)arg1;
-- (void)eChangeMonitorMac:didReceivedInputAudioRouteChangeEvent: /* Error: Ran out of types for this method. */;
-- (void)tSpeechLatency;
+- (void);
+- (void)stopWithDidStopHandler:(id)arg1;
+- (void)defaultAudioRouteChangeMonitorMac:didReceivedInputAudioRouteChangeEvent: /* Error: Ran out of types for this method. */;
+- (void)TrailingPktSpeechLatency;
 - (unsigned long long)Û>±G;
 
 // Remaining properties
-@property(nonatomic) _Bool accessibleEndpointerEnabled; // @synthesize accessibleEndpointerEnabled=_accessibleEndpointerEnabled;
-@property(nonatomic) unsigned long long audioDeliveryHostTimeDelta; // @synthesize audioDeliveryHostTimeDelta=_audioDeliveryHostTimeDelta;
-@property(nonatomic) float currentEndpointerThreshold; // @synthesize currentEndpointerThreshold=_currentEndpointerThreshold;
-@property(retain, nonatomic) NSString *currentTaskString; // @synthesize currentTaskString=_currentTaskString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveRCFeatures; // @synthesize didReceiveRCFeatures=_didReceiveRCFeatures;
-@property(nonatomic) long long endpointerOperationMode; // @synthesize endpointerOperationMode=_endpointerOperationMode;
-@property(retain, nonatomic) CSEnhancedEndpointer *enhancedEndpointer; // @synthesize enhancedEndpointer=_enhancedEndpointer;
-@property(nonatomic) _Bool enhancedEndpointerDefaultResult; // @synthesize enhancedEndpointerDefaultResult=_enhancedEndpointerDefaultResult;
-@property(retain, nonatomic) NSDictionary *enhancedEndpointerTaskThresholdMap; // @synthesize enhancedEndpointerTaskThresholdMap=_enhancedEndpointerTaskThresholdMap;
-@property(nonatomic) unsigned long long extraDelayFrequency; // @synthesize extraDelayFrequency=_extraDelayFrequency;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lastKnownRCFeatureLatency; // @synthesize lastKnownRCFeatureLatency=_lastKnownRCFeatureLatency;
 @property(retain, nonatomic) CSASRFeatures *lastKnownRCFeatures; // @synthesize lastKnownRCFeatures=_lastKnownRCFeatures;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *taskEnhancedEndpointerMap; // @synthesize taskEnhancedEndpointerMap=_taskEnhancedEndpointerMap;
-@property(retain, nonatomic) NSDictionary *taskThresholdMap; // @synthesize taskThresholdMap=_taskThresholdMap;
 
 @end
 

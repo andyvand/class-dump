@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PXAssetsDataSourceCountsController, PXCuratedLibraryFooterViewModel, PXCuratedLibraryLayout, PXCuratedLibraryStyleGuide, PXCuratedLibraryViewModel, PXGView, PXPhotosGlobalFooterView, PXUpdater, UXView;
-@protocol PXCuratedLibraryFooterControllerDelegate;
+@class PXGView;
 
 @interface PXCuratedLibraryFooterController
 {
     double _lastUserScrollTime;
-    _Bool _footerDidAutoScroll;
-    NSTimer *_footerAutoScrollMinimumIdleTimer;
-    PXCuratedLibraryFooterViewModel *_footerViewModel;
-    long long _presentedZoomLevel;
-    PXPhotosGlobalFooterView *_reusableFooterView;
-    _Bool _isUpdatingFooter;
-    _Bool _needsFooterFrameChangeAnimation;
-    _Bool _wantsFooterMask;
-    _Bool _hasAppeared;
-    _Bool _wantsFooter;
-    _Bool _isFooterVisible;
-    _Bool _hasAppearedOnce;
-    _Bool _footerNeedsReveal;
-    _Bool _footerFullyMasked;
-    id <PXCuratedLibraryFooterControllerDelegate> _delegate;
-    double _footerMaskVerticalOffset;
-    PXGView *_gridView;
-    PXCuratedLibraryLayout *_layout;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXCuratedLibraryStyleGuide *_styleGuide;
-    PXAssetsDataSourceCountsController *_itemCountsController;
-    PXUpdater *_updater;
-    PXCuratedLibraryFooterViewModel *_footerViewModelIfLoaded;
-    PXPhotosGlobalFooterView *_footerView;
-    UXView *_footerMaskView;
 }
 
 + (long long);
@@ -71,17 +45,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -93,7 +67,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (id);
@@ -110,33 +84,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXCuratedLibraryFooterControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFooterFullyMasked) _Bool footerFullyMasked; // @synthesize footerFullyMasked=_footerFullyMasked;
-@property(readonly, nonatomic) double footerMaskVerticalOffset; // @synthesize footerMaskVerticalOffset=_footerMaskVerticalOffset;
-@property(retain, nonatomic) UXView *footerMaskView; // @synthesize footerMaskView=_footerMaskView;
-@property(nonatomic) _Bool footerNeedsReveal; // @synthesize footerNeedsReveal=_footerNeedsReveal;
-@property(retain, nonatomic) PXPhotosGlobalFooterView *footerView; // @synthesize footerView=_footerView;
-@property(retain, nonatomic) PXCuratedLibraryFooterViewModel *footerViewModelIfLoaded; // @synthesize footerViewModelIfLoaded=_footerViewModelIfLoaded;
 @property(readonly, nonatomic) PXGView *gridView; // @synthesize gridView=_gridView;
-@property(readonly, nonatomic) _Bool hasAppeared; // @synthesize hasAppeared=_hasAppeared;
-@property(nonatomic) _Bool hasAppearedOnce; // @synthesize hasAppearedOnce=_hasAppearedOnce;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFooterVisible; // @synthesize isFooterVisible=_isFooterVisible;
-@property(readonly, nonatomic) _Bool isGridViewVisible;
-@property(readonly, nonatomic) _Bool isPullingFooter;
-@property(readonly, nonatomic) PXAssetsDataSourceCountsController *itemCountsController; // @synthesize itemCountsController=_itemCountsController;
-@property(readonly, nonatomic) PXCuratedLibraryLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) PXCuratedLibraryStyleGuide *styleGuide; // @synthesize styleGuide=_styleGuide;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(nonatomic) _Bool wantsFooter; // @synthesize wantsFooter=_wantsFooter;
-@property(readonly, nonatomic) _Bool wantsFooterMask; // @synthesize wantsFooterMask=_wantsFooterMask;
 
 @end
 

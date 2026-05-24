@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDAnimationInfoData, PDMediaNode;
+@class PDAnimationInfoData;
 
 __attribute__((visibility("hidden")))
 @interface PDAnimationInfo
 {
     PDAnimationInfoData *mEntrance;
-    PDAnimationInfoData *mExit;
-    PDAnimationInfoData *mMedia;
-    PDMediaNode *mediaNode;
 }
 
 - (void);
@@ -22,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) PDAnimationInfoData *mediaData; // @synthesize mediaData=mMedia;
-@property(retain, nonatomic) PDMediaNode *mediaNode; // @synthesize mediaNode;
 
 @end
 

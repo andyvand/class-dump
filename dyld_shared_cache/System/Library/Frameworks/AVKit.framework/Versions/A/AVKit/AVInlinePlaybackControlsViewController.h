@@ -6,47 +6,10 @@
 
 #import <AVKit/AVPlayerControlsViewController.h>
 
-@class AVAuxiliaryControlsView, AVDesktopHighlightedTimeRangeDescriptionView, AVDisplayModeControlsView, AVInlinePlaybackControlsViewStyleSheet, AVObservationController, AVVolumeControlButton, AVVolumeControlSlider, NSArray, NSLayoutAnchor, NSLayoutConstraint, NSStackView, NSTimer, NSView;
-
 __attribute__((visibility("hidden")))
 @interface AVInlinePlaybackControlsViewController : AVPlayerControlsViewController
 {
     _Bool _visibilityStateHasBeenInitialized;
-    _Bool _hasMadeInitialLayoutPass;
-    _Bool _animatingVisibilityState;
-    _Bool _skipButtonsAttached;
-    _Bool _timelineControlAttached;
-    _Bool _auxiliaryControlsViewAttached;
-    AVInlinePlaybackControlsViewStyleSheet *_styleSheet;
-    AVDesktopHighlightedTimeRangeDescriptionView *_highlightedTimeRangeDescriptionView;
-    NSArray *_highlightedTimeRangeDescriptionViewConstraints;
-    NSTimer *_highlightedTimeRangeDescriptionViewHidingTimer;
-    NSArray *_skipButtonsConstraints;
-    NSArray *_auxiliaryControlsViewConstraints;
-    NSLayoutConstraint *_controlsContainerLeadingConstraint;
-    NSLayoutConstraint *_controlsContainerTrailingConstraint;
-    NSLayoutConstraint *_timelineContainerLeadingConstraint;
-    NSLayoutConstraint *_timelineContainerTrailingConstraint;
-    NSLayoutConstraint *_auxiliaryControlsContainerViewWidthConstraint;
-    double _auxiliaryControlsViewLeftInset;
-    NSView *_controlsCenterLineView;
-    NSView *_controlsBaselineView;
-    AVObservationController *_observationController;
-    _Bool _canUpdateControlsState;
-    _Bool _showsHighlightedTimeRangeDescriptionView;
-    double _animationDuration;
-    NSLayoutAnchor *_controlsBaseAnchor;
-    NSLayoutAnchor *_controlsCenterYAnchor;
-    NSView *_controlsContainerView;
-    AVDisplayModeControlsView *_displayModeControlsView;
-    NSView *_playbackControlsContainerView;
-    NSView *_timelineControlContainerView;
-    NSView *_auxiliaryControlsContainerView;
-    NSStackView *_timelineControl;
-    AVVolumeControlButton *_volumeButton;
-    AVVolumeControlSlider *_volumeSlider;
-    NSView *_volumeControlsContainerView;
-    AVAuxiliaryControlsView *_auxiliaryControlsView;
 }
 
 + (id);
@@ -61,32 +24,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize)/lib/swift/libswift_Concurrency.dylib;
 - (id);
 - (double);
-- (double);
+- (double)9;
 - (long long);
 - (id);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1);
 - (id);
-- (id);
+- (id)__swift5_capture__TEXT;
+- (void);
+- (id)__swift5_types;
+- (id)__TEXT;
+- (_Bool)__auth_stubs;
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -100,35 +63,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)8@0:(double)arg1 8I16^q20;
 - (void);
 - (long long);
-- (id);
+- (id)taskWithRequest:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (double);
+- (double)adopting personal persona context instead of system proxy;
 - (void);
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(readonly, nonatomic) NSView *auxiliaryControlsContainerView; // @synthesize auxiliaryControlsContainerView=_auxiliaryControlsContainerView;
-@property(readonly, nonatomic) AVAuxiliaryControlsView *auxiliaryControlsView; // @synthesize auxiliaryControlsView=_auxiliaryControlsView;
 @property(nonatomic) _Bool canUpdateControlsState; // @synthesize canUpdateControlsState=_canUpdateControlsState;
-@property(readonly, nonatomic) NSLayoutAnchor *controlsBaseAnchor; // @synthesize controlsBaseAnchor=_controlsBaseAnchor;
-@property(readonly, nonatomic) NSLayoutAnchor *controlsCenterYAnchor; // @synthesize controlsCenterYAnchor=_controlsCenterYAnchor;
-@property(readonly, nonatomic) NSView *controlsContainerView; // @synthesize controlsContainerView=_controlsContainerView;
-@property(readonly, nonatomic) AVDisplayModeControlsView *displayModeControlsView; // @synthesize displayModeControlsView=_displayModeControlsView;
-@property(readonly, nonatomic) NSView *playbackControlsContainerView; // @synthesize playbackControlsContainerView=_playbackControlsContainerView;
-@property(nonatomic) _Bool showsHighlightedTimeRangeDescriptionView; // @synthesize showsHighlightedTimeRangeDescriptionView=_showsHighlightedTimeRangeDescriptionView;
-@property(readonly, nonatomic) NSStackView *timelineControl; // @synthesize timelineControl=_timelineControl;
-@property(readonly, nonatomic) NSView *timelineControlContainerView; // @synthesize timelineControlContainerView=_timelineControlContainerView;
-@property(readonly, nonatomic) AVVolumeControlButton *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(readonly, nonatomic) _Bool volumeButtonIncluded;
-@property(retain, nonatomic) NSView *volumeControlsContainerView; // @synthesize volumeControlsContainerView=_volumeControlsContainerView;
-@property(retain, nonatomic) AVVolumeControlSlider *volumeSlider; // @synthesize volumeSlider=_volumeSlider;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface PKTransformStrokesAnimation
 {
     NSArray *_strokes;
-    double _startTime;
-    double _duration;
-    double _fadeOutDuration;
-    struct CGRect _sourceFrame;
-    struct CGRect _destinationFrame;
-    struct CGRect _bounds;
 }
 
 - (id);
@@ -22,20 +16,14 @@
 - (_Bool);
 - (id);
 - (double);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)atusView _orbButtonClicked:] /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (double);
 - (double);
-- (struct CGRect);
-- (void): /* Error: Ran out of types for this method. */;
+- (struct CGRect)(=;
+- (void)setPkInserting: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) struct CGRect destinationFrame; // @synthesize destinationFrame=_destinationFrame;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(readonly, nonatomic) struct CGRect sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end

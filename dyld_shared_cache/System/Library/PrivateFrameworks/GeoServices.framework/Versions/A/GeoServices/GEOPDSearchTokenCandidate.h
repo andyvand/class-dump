@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchTokenCandidate
 {
     NSString *_candidate;
-    double _score;
-    CDStruct_f58e6c32 _flags;
 }
 
 - (id);
-- (void);
+- (void)omainIdentifier;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

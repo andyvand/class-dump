@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLinkIdentity, ICLiveLinkPlaybackCoordinatorMedium, ICSharedListeningConnectionController, ICSharedListeningQueue, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSURL;
-@protocol ICLiveLinkDelegate, OS_dispatch_queue;
-
 @interface ICLiveLink
 {
     _Bool _started;
-    _Bool _processingAction;
-    _Bool _starting;
-    _Bool _receivedDisconnectionNotice;
-    _Bool _expectingToJoinAsInitiator;
-    struct os_unfair_lock_s _lock;
-    NSArray *_participants;
-    ICSharedListeningQueue *_queue;
-    id <ICLiveLinkDelegate> _delegate;
-    NSString *_identifier;
-    NSString *_sessionKey;
-    NSMutableDictionary *_pendingRequests;
-    NSMutableArray *_pendingActions;
-    ICLiveLinkPlaybackCoordinatorMedium *_playbackCoordinatorMedium;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    ICSharedListeningConnectionController *_connectionController;
-    ICLiveLinkIdentity *_clientSpecifiedIdentity;
-    long long _localParticipantServerID;
-    NSString *_forcedReconnectReason;
-    NSString *_deferredReconnectReason;
-    long long _currentRetryCount;
-    long long _maxRetries;
-    long long _maxRetryWaitPeriod;
-    NSString *_expectingToJoinStartItemIdentifier;
 }
 
 + (id);
@@ -115,57 +89,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)wser=};
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)}}24d56;
 - (void);
 - (_Bool);
 - (void);
-- (struct os_unfair_lock_s)mentRequiredForMusic: /* Error: Ran out of types for this method. */;
-- (void)ppNetworkDataAccessPolicyChangedNotification;
-- (void)usicUserTokenFetchRequest;
+- (struct os_unfair_lock_s)setShouldForcePrivacyAcknowledgementRequiredForMusic: /* Error: Ran out of types for this method. */;
+- (void)_registerPerAppNetworkDataAccessPolicyChangedNotification;
+- (void)ICMusicUserTokenFetchRequest;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ICLiveLinkIdentity *clientSpecifiedIdentity; // @synthesize clientSpecifiedIdentity=_clientSpecifiedIdentity;
-@property(retain, nonatomic) ICSharedListeningConnectionController *connectionController; // @synthesize connectionController=_connectionController;
-@property(nonatomic) long long currentRetryCount; // @synthesize currentRetryCount=_currentRetryCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *deferredReconnectReason; // @synthesize deferredReconnectReason=_deferredReconnectReason;
-@property(nonatomic) __weak id <ICLiveLinkDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool expectingToJoinAsInitiator; // @synthesize expectingToJoinAsInitiator=_expectingToJoinAsInitiator;
-@property(copy, nonatomic) NSString *expectingToJoinStartItemIdentifier; // @synthesize expectingToJoinStartItemIdentifier=_expectingToJoinStartItemIdentifier;
-@property(copy, nonatomic) NSString *forcedReconnectReason; // @synthesize forcedReconnectReason=_forcedReconnectReason;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) ICLiveLinkIdentity *identity;
-@property(readonly, nonatomic) NSURL *invitationURL;
-@property(readonly, nonatomic) _Bool isExpectingToJoinWithStartItem;
-@property(readonly, nonatomic) long long localParticipantServerID; // @synthesize localParticipantServerID=_localParticipantServerID;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(nonatomic) long long maxRetries; // @synthesize maxRetries=_maxRetries;
-@property(nonatomic) long long maxRetryWaitPeriod; // @synthesize maxRetryWaitPeriod=_maxRetryWaitPeriod;
-@property(readonly, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) NSMutableArray *pendingActions; // @synthesize pendingActions=_pendingActions;
-@property(retain, nonatomic) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(retain, nonatomic) ICLiveLinkPlaybackCoordinatorMedium *playbackCoordinatorMedium; // @synthesize playbackCoordinatorMedium=_playbackCoordinatorMedium;
-@property(nonatomic) _Bool processingAction; // @synthesize processingAction=_processingAction;
-@property(readonly, copy, nonatomic) ICSharedListeningQueue *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool receivedDisconnectionNotice; // @synthesize receivedDisconnectionNotice=_receivedDisconnectionNotice;
-@property(readonly, nonatomic) NSString *sessionKey; // @synthesize sessionKey=_sessionKey;
-@property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
 
 @end
 

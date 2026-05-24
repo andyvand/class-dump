@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EDLocalSearchProvider, EDRemoteSearchProvider;
+@protocol EDLocalSearchProvider;
 
 @protocol EDSearchProvider
 
 // Remaining properties
 @property(readonly) id <EDLocalSearchProvider> localSearchProvider;
-@property(readonly) id <EDRemoteSearchProvider> remoteSearchProvider;
 @end
 

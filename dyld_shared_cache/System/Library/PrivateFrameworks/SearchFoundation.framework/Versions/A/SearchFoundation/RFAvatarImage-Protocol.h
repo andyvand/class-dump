@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol RFAvatarImage
+- (int)#;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contact_ids;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -8,13 +8,6 @@
 {
     id viewModel;
     id _xLower;
-    id _xUpper;
-    id _yLower;
-    id _yUpper;
-    id _zLower;
-    id _zUpper;
-    id _scrubberType;
-    id isUpdating;
 }
 
 @end

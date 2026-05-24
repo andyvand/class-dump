@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMManagedConfigurationProfileInfo
 {
     NSString *_identifier;
-    NSData *_profileData;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSData *profileData; // @synthesize profileData=_profileData;
 
 @end
 

@@ -6,49 +6,33 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class BMRankableSocialHighlight, NSDate, NSString;
+@class NSString;
 
 @interface BMSocialHighlightFeedbackEvent : BMEventBase
 {
     NSString *_clientIdentifier;
-    unsigned long long _feedbackType;
-    NSDate *_feedbackCreationDate;
-    BMRankableSocialHighlight *_highlight;
-    NSString *_clientVariant;
 }
 
 + (id);
 - (id);
-- (int);
+- (int);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)A9;
+- (id)lBuffer:time:] /* Error: Ran out of types for this method. */;
+- (id)(;
 - (id);
 - (id);
 - (unsigned int);
 - (id);
 - (id);
-- (id)__get_packed_size;
+- (id)pg_query__create_enum_stmt__get_packed_size;
 - (void)<= ¡¢£¤H;
 - (unsigned long long)efgÿÿijklmÿÿopqrsÿÿuvwxÿÿz{|}~ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®ÿÿÿÿ±²³´µ¶·ÿÿ¹ÿÿ»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) NSString *clientVariant; // @synthesize clientVariant=_clientVariant;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *feedbackCreationDate; // @synthesize feedbackCreationDate=_feedbackCreationDate;
-@property(readonly, nonatomic) unsigned long long feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BMRankableSocialHighlight *highlight; // @synthesize highlight=_highlight;
-@property(readonly) Class superclass;
 
 @end
 

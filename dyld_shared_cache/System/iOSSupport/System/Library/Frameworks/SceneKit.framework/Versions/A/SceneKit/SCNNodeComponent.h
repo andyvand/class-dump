@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNNodeComponent
 {
     long long type;
-    id component;
-    SCNNodeComponent *next;
 }
 
 - (id);
@@ -136,8 +134,6 @@ __attribute__((visibility("hidden")))
 - (id);@¾¿á¾Ì_ñ?|d7?U,@Úpà¾.pÝ?ææ7?@m9ß¾àÌ?f8?!u@öÝ¾¡Ø¼?Fï8?l[	@mâÜ¾;¯?×l9?Ét;
 
 // Remaining properties
-@property(retain, nonatomic) id component; // @synthesize component;
-@property(retain, nonatomic) SCNNodeComponent *next; // @synthesize next;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

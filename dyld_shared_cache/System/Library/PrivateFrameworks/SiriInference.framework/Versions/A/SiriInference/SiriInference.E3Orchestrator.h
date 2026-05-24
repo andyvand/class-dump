@@ -7,7 +7,6 @@
 @interface SiriInference.E3Orchestrator
 {
     id euclidVectorDb;
-    id euclidEmbeddingApi;
 }
 
 @end

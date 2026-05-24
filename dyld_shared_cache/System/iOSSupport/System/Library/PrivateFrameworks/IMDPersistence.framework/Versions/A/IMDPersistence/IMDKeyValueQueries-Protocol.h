@@ -5,5 +5,6 @@
 //
 
 @protocol IMDKeyValueQueries
+- (void);
 @end
 

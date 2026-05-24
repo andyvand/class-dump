@@ -4,57 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKDeleteCalendarsConfirmationInfo, NSArray, NSMutableArray, NSString;
+@class NSArray;
 
 @interface CUIKDeleteCalendarsDecisionManager
 {
     NSArray *_calendars;
-    NSMutableArray *_confirmations;
-    _Bool _performed;
-    _Bool _canceled;
-    _Bool _reportSpam;
-    unsigned long long _rejectionReason;
-    NSString *_rejectionTitle;
-    NSString *_rejectionDetails;
 }
 
-+ (id)Ô×;
 + (id);
-+ (id)Ô ;
-+ (id)@9Á;
-+ (id)Î?;
-+ (id)Î?;
-+ (id)9
-`üÒK®R r?;
-+ (id)9	A;
-+ (id)ÒÂ»ÿ¨;
-+ (id)ñÚ°10@ù
-?×è;
-+ (id)ªñÚ°10@ù
-?×é;
 + (id);
-- (_Bool)ô;
-- (id)ªñGÁÚë@;
-- (id)"­Æ< ;
-- (id)CÑ?ë ÷ÿT;
-- (unsigned long long)Ráªâª-Ëá;
-- (_Bool)ÈuÐ;
-- (void)ªÖÒô;
-- (void)Ò;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (unsigned long long)ð;
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)tion: /* Error: Ran out of types for this method. */;
+- (void)travelTimeLeaveNowStringWithHypothesis:eta:location: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CUIKDeleteCalendarsConfirmationInfo *nextConfirmation;
 @property(readonly, nonatomic) _Bool rejected;
-@property(readonly, nonatomic) NSString *rejectionDetails; // @synthesize rejectionDetails=_rejectionDetails;
-@property(readonly, nonatomic) unsigned long long rejectionReason; // @synthesize rejectionReason=_rejectionReason;
-@property(readonly, nonatomic) NSString *rejectionTitle; // @synthesize rejectionTitle=_rejectionTitle;
 
 @end
 

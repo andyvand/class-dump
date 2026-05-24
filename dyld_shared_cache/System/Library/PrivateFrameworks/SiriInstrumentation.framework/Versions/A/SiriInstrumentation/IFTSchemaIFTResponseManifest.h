@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTResponseManifest : SISchemaInstrumentationMessage
 {
     NSArray *_parameters;
-    _Bool _useTemplateAsFallback;
-    struct {
-        unsigned int useTemplateAsFallback:1;
-    } _has;
 }
 
 - (_Bool);
@@ -23,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)MMCSCPassPhraseRecoveryViewControllerDelegate;
 - (void);
 - (void);
 - (unsigned long long);
@@ -33,20 +29,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Versions/A/SoftLinking;
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)rted",&,N,V_startedOrChanged;
-- (id)d;
+- (id)DODMLASRSchemaDODMLASRContextualReplayBiomeRecordCreated;
 - (void)º³)#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUseTemplateAsFallback;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) _Bool useTemplateAsFallback; // @synthesize useTemplateAsFallback=_useTemplateAsFallback;
 
 @end
 

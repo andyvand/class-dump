@@ -5,5 +5,8 @@
 //
 
 @protocol IMKCandidateControllerDelegate
+
+@optional
+- (id);
 @end
 

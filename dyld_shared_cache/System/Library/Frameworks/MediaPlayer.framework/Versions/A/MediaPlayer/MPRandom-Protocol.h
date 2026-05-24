@@ -5,5 +5,6 @@
 //
 
 @protocol MPRandom
+- (unsigned long long)ction for URL:(unsigned long long)arg1 %{public}@;
 @end
 

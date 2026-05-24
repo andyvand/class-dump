@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, SCKDatabase, SCKStartupQueue;
-@protocol OS_dispatch_queue, SCWatchlistDefaultsProviding, SCWatchlistMetadataProviding;
+@class SCKDatabase;
 
 @interface SCWatchlist
 {
     SCKDatabase *_database;
-    id <SCWatchlistMetadataProviding> _metadataProvider;
-    id <SCWatchlistDefaultsProviding> _defaultsProvider;
-    NSHashTable *_observers;
-    SCKStartupQueue *_startupQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (id);
@@ -32,30 +26,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@"NSArray";
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)encodeBool:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)SCRCDictionaryExtras;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(retain, nonatomic) SCKDatabase *database; // @synthesize database=_database;
-@property(retain, nonatomic) id <SCWatchlistDefaultsProviding> defaultsProvider; // @synthesize defaultsProvider=_defaultsProvider;
-@property(retain, nonatomic) id <SCWatchlistMetadataProviding> metadataProvider; // @synthesize metadataProvider=_metadataProvider;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) SCKStartupQueue *startupQueue; // @synthesize startupQueue=_startupQueue;
 
 @end
 

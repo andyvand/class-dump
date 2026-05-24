@@ -6,12 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CPLCommentChange : CPLRecordChange
 {
     NSDate *_commentDate;
-    NSString *_assetIdentifier;
 }
 
 + (_Bool);
@@ -23,16 +22,15 @@
 - (void);
 - (void);
 - (id);
+- (void)kMDItemPhotosEventCategories_ordered_span_word;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)CRKCardViewControllerTransitionAnimator"16@"NSViewController<CRKCardViewControlling>"24@"NSViewController<CRKCardViewControlling>"32@"<CRKAnimationCoordinating>"40;
 - (void)¡ÂÐ!|@ù11Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
 @property(copy, nonatomic) NSDate *commentDate; // @synthesize commentDate=_commentDate;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKPeerPaymentQuoteCertificatesResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _devSigned;
-    NSArray *_encryptionCertificates;
-    NSString *_encryptionVersion;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
 @property(readonly, copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
 
 @end
 

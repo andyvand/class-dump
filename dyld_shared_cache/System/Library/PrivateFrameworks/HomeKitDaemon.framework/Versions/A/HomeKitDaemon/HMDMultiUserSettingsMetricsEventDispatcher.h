@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDailyScheduler, NSString, NSUUID;
-@protocol HMDMultiUserSettingsMetricsEventDispatcherDataSource, HMMLogEventSubmitting;
+@class NSUUID;
+@protocol HMDMultiUserSettingsMetricsEventDispatcherDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMultiUserSettingsMetricsEventDispatcher
 {
     id <HMDMultiUserSettingsMetricsEventDispatcherDataSource> _dataSource;
-    NSUUID *_identifier;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMMDailyScheduler *_dailyScheduler;
 }
 
 + (id)|ïÿäÞ°sB;
 - (void);
-- (void);
+- (void)g"32q40q48;
+- (id)rver createXPCListener];
 - (id);
-- (id);
-- (id);
+- (id)setInputShadowSrcRGB: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id)¼Ûþÿÿÿÿ¬;
 - (void)apabilities and confirming resident device;
-- (void)essory;
+- (void)MKFAirPlayAccessory;
 - (id);
 
 // Remaining properties
-@property(readonly) HMMDailyScheduler *dailyScheduler; // @synthesize dailyScheduler=_dailyScheduler;
-@property __weak id <HMDMultiUserSettingsMetricsEventDispatcherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

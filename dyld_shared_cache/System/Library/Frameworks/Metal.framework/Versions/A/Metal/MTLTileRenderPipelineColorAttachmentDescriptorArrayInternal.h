@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)ufferOffset;
+- (void)_indexBufferOffset;
 - (id)(èÿÿ
 ;
 

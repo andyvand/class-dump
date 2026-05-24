@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)@"TLKImageView",&,N,V_imageView;
++ (_Bool)appearance;
++ (id)tion",&,N,V_section;
++ (_Bool)@"SearchUIImageView",&,N,V_thumbnailView;
++ (id)archUIImageView",&,N,V_imageView;
++ (id)T@"SearchUIImageView",&,D,N;
++ (_Bool)searchUIImage;
 - (id);
 
 @end

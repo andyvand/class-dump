@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufDeviceSharingCapabilities
 {
     NSString *_altDSID;
-    NSString *_deviceRegion;
-    NSData *_fromDeviceVersion;
-    NSString *_handle;
-    unsigned int _version;
-    _Bool _supportsManatee;
-    struct {
-        unsigned int supportsManatee:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)Rh_;
 - (unsigned int);
 - (id);
 - (id);
@@ -36,29 +28,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)ellBandInfo"b1"cellChannelBW"b1"cellEstimatedBW"b1"cellLteRSRQ"b1"cellModelConfidenceLevel"b1"cellModelVersion"b1"cellNrRSRP"b1"cellNrRSRQ"b1"cellNrSNR"b1"cellRsrp"b1"cellSinr"b1"cmDataSentCount"b1"cmDataSentDuration"b1"cmEstimatedBandwidth"b1"coldStartType"b1"decisionVIBE"b1"decisionVO"b1"deviation"b1"devicePointOfInterest"b1"estimatedHighBandwidth"b1"estimatedLowBandwidth"b1"estimatedSpeed"b1"event"b1"expectedThroughputVIBE"b1"expectedThroughputVO"b1"goodDecisionsCounterVIBE"b1"goodDecisionsCounterVO"b1"invalidDecisionsCounterVIBE"b1"invalidDecisionsCounterVO"b1"isWfiCaptive"b1"lqmScoreBT"b1"lqmScoreWifi"b1"lqmScorecellular"b1"lteMaxScheduledMimoLayersInACell"b1"maxDLCAConfigured"b1"maxOfActualLowBandwidth"b1"maxULCAConfigured"b1"mlPredictedCellBW"b1"mlPredictedWiFiBW"b1"movingAvgHighBandwidth"b1"movingAvgLowBandwidth"b1"nrConfiguredBw"b1"nrMaxDlModulation"b1"nrTotalScheduledMimoLayers"b1"pActualLowBandwidth"b1"packetLifetimeVIBE"b1"packetLossRateVIBE"b1"phyRate"b1"pkgLifeTimeVO"b1"pktLifeTimeVO"b1"pktLossRateVO"b1"qbssLoad"b1"ratioDupeBytes"b1"ratioOOBBytes"b1"rrcState"b1"rxRetransmissionRate"b1"rxRetry"b1"tcpRTTAvg"b1"tcpRTTmin"b1"tcpRTTvar"b1"totalConfiguredBw"b1"totalConfiguredMimoLayers"b1"txRetransmissionRate"b1"txber"b1"videoStreamingStallTime"b1"weightedAveragePhyrateRx"b1"weightedAveragePhyrateTx"b1"weightedAverageRssi"b1"weightedAverageSnr"b1"wifChannelBW"b1"wifChannelType"b1"wifiCapability"b1"wifiModelConfidenceLevel"b1"wifiModelVersion"b1"wifiSinr"b1"wifichannel"b1"wifiguardinterval"b1"wifilowDataMode"b1"wifimcsindex"b1"wifinumberOfSpatialStreams"b1"wrmRecommendedRAT"b1"cellNsaEnabled"b1"isFR1"b1};
+- (void)N,V_pfAddrule;
 - (_Bool);
 - (void);
-- (_Bool);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)tionGroupingTypeRepairKey;
+- (void)PDDatabaseManagerHasPerformedContactlessActivationGroupingTypeRepairKey;
 - (void);
 - (id)~;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSString *deviceRegion; // @synthesize deviceRegion=_deviceRegion;
-@property(retain, nonatomic) NSData *fromDeviceVersion; // @synthesize fromDeviceVersion=_fromDeviceVersion;
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasAltDSID;
-@property(readonly, nonatomic) _Bool hasDeviceRegion;
-@property(readonly, nonatomic) _Bool hasFromDeviceVersion;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(nonatomic) _Bool hasSupportsManatee;
-@property(nonatomic) _Bool supportsManatee; // @synthesize supportsManatee=_supportsManatee;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

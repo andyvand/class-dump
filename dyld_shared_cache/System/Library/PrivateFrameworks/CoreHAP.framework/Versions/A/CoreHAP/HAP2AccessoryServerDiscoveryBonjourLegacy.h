@@ -6,65 +6,45 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class CUBonjourBrowser, HAP2PropertyLock, NSObject, NSString;
-@protocol HAP2AccessoryServerDiscoveryDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerDiscoveryBonjourLegacy : HAP2LoggingObject
 {
     _Bool _discovering;
-    id <HAP2AccessoryServerDiscoveryDelegate> _delegate;
-    CUBonjourBrowser *_browser;
-    NSString *_type;
-    NSString *_domain;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HAP2PropertyLock *_propertyLock;
 }
 
 + (id);
 - (void);
+- (void)es:No language was detected from the message. /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)_encodedQueryableColumns;
 - (id);
+- (id)5;
+- (id)#;
+- (void)initWithPath:(id)arg1 withExtraRules:forcedRulesOnly:assessmentClass:feedback: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void)unacceptedPolicy;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)Ԉ;
 - (void);
 - (_Bool);
-- (void)object: /* Error: Ran out of types for this method. */;
+- (void)removeObserver:name:object: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CUBonjourBrowser *browser; // @synthesize browser=_browser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerDiscoveryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDiscovering) _Bool discovering; // @synthesize discovering=_discovering;
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

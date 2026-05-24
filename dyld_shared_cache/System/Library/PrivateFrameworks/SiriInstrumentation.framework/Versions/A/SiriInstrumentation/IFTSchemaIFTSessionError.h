@@ -6,33 +6,25 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTExecutorError, IFTSchemaIFTIntelligenceFlowError, IFTSchemaIFTPlannerError, IFTSchemaIFTSessionCoordinatorError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFTSchemaIFTSessionError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_other;
-    IFTSchemaIFTSessionCoordinatorError *_sessionCoordinatorError;
-    IFTSchemaIFTPlannerError *_plannerError;
-    IFTSchemaIFTExecutorError *_executorError;
-    _Bool _hasOther;
-    _Bool _hasSessionCoordinatorError;
-    _Bool _hasPlannerError;
-    _Bool _hasExecutorError;
-    unsigned long long _whichOneof_Sessionerror;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -50,22 +42,13 @@
 - (id);
 - (id)1àð1Â0@ù
 × ;
-- (id)rDictationPolicy;
+- (id)asrDictationPolicy;
 - (id)1;
-- (id)ODMLSchemaDODMLClientEvent;
+- (id)DODMLSchemaDODMLClientEvent;
 - (void)àÒÑÿ;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTExecutorError *executorError; // @synthesize executorError=_executorError;
-@property(nonatomic) _Bool hasExecutorError; // @synthesize hasExecutorError=_hasExecutorError;
-@property(nonatomic) _Bool hasOther; // @synthesize hasOther=_hasOther;
-@property(nonatomic) _Bool hasPlannerError; // @synthesize hasPlannerError=_hasPlannerError;
-@property(nonatomic) _Bool hasSessionCoordinatorError; // @synthesize hasSessionCoordinatorError=_hasSessionCoordinatorError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *other; // @synthesize other=_other;
-@property(retain, nonatomic) IFTSchemaIFTPlannerError *plannerError; // @synthesize plannerError=_plannerError;
-@property(retain, nonatomic) IFTSchemaIFTSessionCoordinatorError *sessionCoordinatorError; // @synthesize sessionCoordinatorError=_sessionCoordinatorError;
-@property(readonly, nonatomic) unsigned long long whichOneof_Sessionerror; // @synthesize whichOneof_Sessionerror=_whichOneof_Sessionerror;
 
 @end
 

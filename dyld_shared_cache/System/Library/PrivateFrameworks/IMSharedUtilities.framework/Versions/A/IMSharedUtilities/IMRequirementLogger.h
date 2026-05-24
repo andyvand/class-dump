@@ -7,29 +7,25 @@
 @interface IMRequirementLogger
 {
     unsigned char _loggingLevel;
-    _Bool _throwFailures;
-    const char *_categoryOverride;
 }
 
-+ (void);
++ (void)!;
 + (id);
 + (id)SmartReplies.framework/SmartReplies;
-- (void);
+- (void)q`;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)߈*;
 - (struct IMRequirementFailed_t);
 - (unsigned char);
 - (const char *);
 - (void);
 - (id);
-- (id);
+- (id)PKShareableCredentialsInvitationBeginValidateMessage;
 
 // Remaining properties
-@property const char *categoryOverride; // @synthesize categoryOverride=_categoryOverride;
 @property unsigned char loggingLevel; // @synthesize loggingLevel=_loggingLevel;
-@property _Bool throwFailures; // @synthesize throwFailures=_throwFailures;
 
 @end
 

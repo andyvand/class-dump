@@ -8,12 +8,6 @@
 {
     id forceDarkMode;
     id queue;
-    id maxConcurrentRequests;
-    id pendingRequests;
-    id activeRequests;
-    id failedRequests;
-    id icons;
-    id placeholders;
 }
 
 @end

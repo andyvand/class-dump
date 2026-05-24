@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (OSASubmitterExtension)
-- (id);
+- (id)NetworkClock [%{ptr}], err = %#m
+;
 @end
 

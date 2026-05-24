@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentity, CKUserIdentityLookupInfo, CNContact, CNContactStore, NSString;
+@class CKUserIdentity, CNContactStore;
 
 @interface CKShareAccessRequester
 {
     CKUserIdentity *_userIdentity;
-    CNContactStore *_contactStore;
 }
 
 + (_Bool);
@@ -17,14 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)52@0:8@16@24i32@36^@44 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)`
+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?@"NSURL"@"NSData"@"NSString"@"NSError">56;
 - (id);
 - (void);
 - (id);
@@ -32,17 +32,7 @@
 - (id)bySo14CKSubscriptionCÙÎb_pGG;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CNContact *contact;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CKUserIdentityLookupInfo *participantLookupInfo;
-@property(readonly) Class superclass;
-@property(readonly, copy) CKUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

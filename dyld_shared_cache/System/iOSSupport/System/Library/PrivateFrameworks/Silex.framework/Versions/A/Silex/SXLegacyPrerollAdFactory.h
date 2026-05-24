@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXViewport;
-@protocol SXScrollObserverManager;
+@class SXViewport;
 
 @interface SXLegacyPrerollAdFactory
 {
     SXViewport *_viewport;
-    id <SXScrollObserverManager> _scrollObserverManager;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXScrollObserverManager> scrollObserverManager; // @synthesize scrollObserverManager=_scrollObserverManager;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

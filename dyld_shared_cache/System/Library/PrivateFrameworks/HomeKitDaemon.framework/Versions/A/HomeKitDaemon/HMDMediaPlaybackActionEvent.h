@@ -4,77 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDMediaPlaybackActionEvent
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isPlaybackArchivePresent;
-    NSNumber *_playbackStateNumber;
-    NSNumber *_volumeNumber;
-    NSNumber *_sourceNumber;
-    NSString *_sourceClientName;
-    NSString *_clientMetricIdentifier;
-    unsigned long long _numberOfMediaProfiles;
-    NSArray *_accessories;
-    unsigned long long _numAccessoriesInHome;
-    unsigned long long _numNonEmptyScenesInHome;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (id)messagesIdentifierAtIndex: /* Error: Ran out of types for this method. */;
+- (id)messageStrategyIdentifiers;
+- (unsigned long long)enumerateSubstringsInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)decodeObjectOfClasses:forKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)commitEditWithNewContents:edits:appliedToOldContents:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)shield_color_string;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)EACHABLE;
+- (void)CAMERA_IS_UNREACHABLE;
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy) NSString *clientMetricIdentifier; // @synthesize clientMetricIdentifier=_clientMetricIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly) _Bool isPlaybackArchivePresent; // @synthesize isPlaybackArchivePresent=_isPlaybackArchivePresent;
-@property(readonly, nonatomic) unsigned long long numAccessoriesInHome; // @synthesize numAccessoriesInHome=_numAccessoriesInHome;
-@property(readonly, nonatomic) unsigned long long numNonEmptyScenesInHome; // @synthesize numNonEmptyScenesInHome=_numNonEmptyScenesInHome;
-@property(readonly) unsigned long long numberOfMediaProfiles; // @synthesize numberOfMediaProfiles=_numberOfMediaProfiles;
-@property(readonly, copy) NSNumber *playbackStateNumber; // @synthesize playbackStateNumber=_playbackStateNumber;
-@property(readonly, copy) NSString *playbackStateString;
-@property(readonly, copy) NSString *sourceClientName; // @synthesize sourceClientName=_sourceClientName;
-@property(readonly, copy) NSNumber *sourceNumber; // @synthesize sourceNumber=_sourceNumber;
-@property(readonly, copy) NSString *sourceString;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *volumeNumber; // @synthesize volumeNumber=_volumeNumber;
 
 @end
 

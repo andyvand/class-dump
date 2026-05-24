@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDLayout;
+@protocol TSDHint><NSSecureCoding;
+
 @protocol TSDPartitioner
+- (TSDLayout *)ive timeStamp ;
+- (id <TSDHint><NSSecureCoding>);
+- (TSDLayout *)playbackStall;
 @end
 

@@ -7,20 +7,6 @@
 @interface RemindersUICore.TTRReminderTitleAttributesHarvester
 {
     id $__lazy_storage_$_resultsPublisher;
-    id queryParser;
-    id initialParserLocale;
-    id listPredictor;
-    id now;
-    id queue;
-    id backgroundQueue;
-    id locationOptionsProvider;
-    id contactsProvider;
-    id store;
-    id excludedSuggestedAttributes;
-    id suggestedAttributesHarvester;
-    id timeZone;
-    id requestSubject;
-    id resultsPublisherSelfSubscriptionCancellable;
 }
 
 @end

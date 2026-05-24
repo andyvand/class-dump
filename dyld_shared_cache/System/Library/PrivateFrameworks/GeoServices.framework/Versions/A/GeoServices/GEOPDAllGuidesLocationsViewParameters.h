@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllGuidesLocationsViewParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _numClientizedResults;
-    struct {
-        unsigned int has_numClientizedResults:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);

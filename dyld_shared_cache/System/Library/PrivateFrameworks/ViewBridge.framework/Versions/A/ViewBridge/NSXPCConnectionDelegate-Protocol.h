@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSSecureCoding;
+
 @protocol NSXPCConnectionDelegate
 
 @optional
+- (id <NSSecureCoding>)6+;
 - (void)found no current event;
 @end
 

@@ -4,53 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessage, NSData, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface CKRemoteItemForSending
 {
     _Bool _previewIsFullyRealizedByChatKit;
-    _Bool _accessedSecurityScope;
-    NSURL *_attachmentURL;
-    NSString *_attachmentDescription;
-    NSURL *_appendedVideoURL;
-    NSURL *_appendedBundleURL;
-    NSURL *_appendedRichLinkURL;
-    NSData *_appendedRichLinkData;
-    MSMessage *_appendedMessage;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool)kgroundColor;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
++ (_Bool)conversationListCellPreviewBackgroundColor;
+- (void)yMessage:(_Bool)arg1;
+- (void)_note;
+- (void)_modernSourceObjects;
+- (void)_modernNoteFetchedResultsController;
+- (void)_modernNoteContext;
+- (void)_modernManagedObjectContext;
+- (void)_modernDestination;
+- (void)_incorrectPasswordAttempts;
+- (id)idths;
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void)%;
+- (id)DrawPreviewInRect;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)hare:%@ with root record:%@ %@ /* Error: Ran out of types for this method. */;
+- (id).collaboration.saveShare;
+- (id)for object:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ecause note is not authenticated {note:%@} /* Error: Ran out of types for this method. */;
+- (void)-generator;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)U;
 - (id);
 - (id);
 - (void);
@@ -58,14 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool accessedSecurityScope; // @synthesize accessedSecurityScope=_accessedSecurityScope;
-@property(retain, nonatomic) NSURL *appendedBundleURL; // @synthesize appendedBundleURL=_appendedBundleURL;
-@property(copy, nonatomic) MSMessage *appendedMessage; // @synthesize appendedMessage=_appendedMessage;
-@property(copy, nonatomic) NSData *appendedRichLinkData; // @synthesize appendedRichLinkData=_appendedRichLinkData;
-@property(retain, nonatomic) NSURL *appendedRichLinkURL; // @synthesize appendedRichLinkURL=_appendedRichLinkURL;
-@property(retain, nonatomic) NSURL *appendedVideoURL; // @synthesize appendedVideoURL=_appendedVideoURL;
-@property(retain, nonatomic) NSString *attachmentDescription; // @synthesize attachmentDescription=_attachmentDescription;
-@property(retain, nonatomic) NSURL *attachmentURL; // @synthesize attachmentURL=_attachmentURL;
-@property(nonatomic) _Bool previewIsFullyRealizedByChatKit; // @synthesize previewIsFullyRealizedByChatKit=_previewIsFullyRealizedByChatKit;
 
 @end
 

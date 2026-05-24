@@ -12,7 +12,7 @@
 
 + (unsigned long long);
 - (void);
-- (id);
+- (id)(;
 
 @end
 

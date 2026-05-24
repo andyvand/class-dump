@@ -7,14 +7,6 @@
 @interface NewsFeed.SharingActivityItemFactory
 {
     id commandCenter;
-    id shareLinkProvider;
-    id shareLinkTextProvider;
-    id shareLinkImageProvider;
-    id shareLinkRecipeImageProvider;
-    id shareLinkPuzzleImageProvider;
-    id puzzleRankProvider;
-    id puzzleDifficultyDescriptionProvider;
-    id recipeFactory;
 }
 
 @end

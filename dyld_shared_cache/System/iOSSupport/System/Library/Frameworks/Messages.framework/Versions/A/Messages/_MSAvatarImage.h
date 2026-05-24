@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface _MSAvatarImage
 {
     NSString *_participantIdentifier;
-    NSString *_participantHandle;
-    UIImage *_avatarImage;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)eviewDidChange:(id)arg1 ];
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *avatarImage; // @synthesize avatarImage=_avatarImage;
-@property(copy, nonatomic) NSString *participantHandle; // @synthesize participantHandle=_participantHandle;
 @property(copy, nonatomic) NSString *participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
 
 @end

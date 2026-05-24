@@ -8,30 +8,21 @@ __attribute__((visibility("hidden")))
 @interface _NSGestureRecognizerTransformAnalyzer
 {
     double _lowPassTranslationMagnitudeDelta;
-    double _lowPassScaleDelta;
-    double _lowPassRotationDelta;
-    double _translationWeight;
-    double _pinchingWeight;
-    double _rotationWeight;
-    int _dominantComponent;
 }
 
-- (void);
-- (void);
+- (void)2x0;
+- (void);
 - (double);
 - (id);
 - (void);
 - (void);
 - (double)pathControl:shouldDragItem:withPasteboard: /* Error: Ran out of types for this method. */;
-- (int)Cursor: /* Error: Ran out of types for this method. */;
+- (int)_detachTabAndPositionUnderCursor: /* Error: Ran out of types for this method. */;
 - (void)\;
 - (double)¸;
 
 // Remaining properties
 @property(readonly) int dominantComponent; // @synthesize dominantComponent=_dominantComponent;
-@property double pinchingWeight; // @synthesize pinchingWeight=_pinchingWeight;
-@property double rotationWeight; // @synthesize rotationWeight=_rotationWeight;
-@property double translationWeight; // @synthesize translationWeight=_translationWeight;
 
 @end
 

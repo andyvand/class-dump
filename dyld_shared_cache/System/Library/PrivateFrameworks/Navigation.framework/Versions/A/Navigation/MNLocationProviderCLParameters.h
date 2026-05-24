@@ -7,20 +7,16 @@
 @interface MNLocationProviderCLParameters
 {
     _Bool _matchInfoEnabled;
-    _Bool _fusionInfoEnabled;
-    long long _activityType;
-    double _distanceFilter;
-    double _desiredAccuracy;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (void)ayETA:(double)arg1 remainingDistance:batteryChargeInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)R;
+- (_Bool)[q;
+- (long long)didGatherResults:forKeyPath: /* Error: Ran out of types for this method. */;
+- (void)navigationSession:(double)arg1 didUpdateDisplayETA:remainingDistance:batteryChargeInfo: /* Error: Ran out of types for this method. */;
 - (double)roxy setTracePosition:] /* Error: Ran out of types for this method. */;
 - (void)e.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Misc/MNNotificationManager.m;
 - (double)event
@@ -138,10 +134,6 @@ CREATE VIEW route_creation_actions_view AS
 
 // Remaining properties
 @property(nonatomic) long long activityType; // @synthesize activityType=_activityType;
-@property(nonatomic) double desiredAccuracy; // @synthesize desiredAccuracy=_desiredAccuracy;
-@property(nonatomic) double distanceFilter; // @synthesize distanceFilter=_distanceFilter;
-@property(nonatomic) _Bool fusionInfoEnabled; // @synthesize fusionInfoEnabled=_fusionInfoEnabled;
-@property(nonatomic) _Bool matchInfoEnabled; // @synthesize matchInfoEnabled=_matchInfoEnabled;
 
 @end
 

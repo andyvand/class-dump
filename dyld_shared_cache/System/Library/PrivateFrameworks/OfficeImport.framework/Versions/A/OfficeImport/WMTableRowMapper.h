@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface WMTableRowMapper : CMMapper
 {
     WDTableRow *mWdTableRow;
-    double mHeight;
 }
 
 + (_Bool);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (void)l;
+- (void)bufferedReadChannel;
 
 @end
 

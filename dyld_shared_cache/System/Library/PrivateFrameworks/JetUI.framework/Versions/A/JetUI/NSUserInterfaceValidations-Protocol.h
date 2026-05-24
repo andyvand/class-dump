@@ -5,5 +5,6 @@
 //
 
 @protocol NSUserInterfaceValidations
+- (_Bool);
 @end
 

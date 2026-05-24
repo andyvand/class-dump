@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
+@class NSTimer;
 
 @interface PXDisplayScreenDynamicRangeMonitor
 {
     NSTimer *_displayEDRMonitorTimer;
-    _Bool _screenSupportsHDR;
-    _Bool _isMonitoring;
-    CDUnknownBlockType _screenProvider;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
+- (id)u;
 - (void);
 - (void);
 - (void);
@@ -26,23 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)2@0:8@"SXIssueCover"16@"SXIssueCoverLayoutOptions"24 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)d¼ÉI¥±8z;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
 @property(readonly, copy, nonatomic) CDUnknownBlockType screenProvider; // @synthesize screenProvider=_screenProvider;
-@property(nonatomic) _Bool screenSupportsHDR; // @synthesize screenSupportsHDR=_screenSupportsHDR;
-@property(readonly) Class superclass;
 
 @end
 

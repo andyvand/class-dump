@@ -5,5 +5,9 @@
 //
 
 @protocol PDFDocumentDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

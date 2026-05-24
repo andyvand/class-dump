@@ -6,37 +6,27 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class NSString, UIActivityIndicatorView;
-
 @interface EKCalendarPublishingEditItem : EKCalendarEditItem
 {
     _Bool _published;
-    UIActivityIndicatorView *_spinner;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (void)ithEntityType:rowID:databaseID: /* Error: Ran out of types for this method. */;
+- (id)@@"NSArray<__UNSNotificationRecord__>";
+- (unsigned long long);
+- (void)objectIDWithEntityType:rowID:databaseID: /* Error: Ran out of types for this method. */;
 - (double)páìÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool published; // @synthesize published=_published;
-@property(readonly) Class superclass;
 
 @end
 

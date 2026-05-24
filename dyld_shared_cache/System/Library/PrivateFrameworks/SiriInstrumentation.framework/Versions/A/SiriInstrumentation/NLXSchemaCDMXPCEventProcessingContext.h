@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMXPCEventProcessingEnded, NLXSchemaCDMXPCEventProcessingFailed, NLXSchemaCDMXPCEventProcessingStarted, NSData, SISchemaUUID;
+@class NLXSchemaCDMXPCEventProcessingStarted;
 
 @interface NLXSchemaCDMXPCEventProcessingContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMXPCEventProcessingStarted *_startedOrChanged;
-    NLXSchemaCDMXPCEventProcessingEnded *_ended;
-    NLXSchemaCDMXPCEventProcessingFailed *_failed;
-    SISchemaUUID *_contextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasContextId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -35,37 +27,28 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)synchronousMigratedPodcastStationsWithReply:(id)arg1;
+- (void)errorWithStatus:(id)arg1 userInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sUnknown Qualifier:(id)arg1;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)
 × ;
 - (id);
 - (id)nged;
-- (void)nalEvent;
+- (void)SISchemaProvisionalEvent;
 - (void)ÄÜ³ÿ@³;
 - (id)Øþ¨ÿ3®jù&;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMXPCEventProcessingEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMXPCEventProcessingFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMXPCEventProcessingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUWiFiScanner, NSObject, NSString;
+@class NSObject;
 @protocol HMDWACScannerDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDWACScanner
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CUWiFiScanner *_wifiScanner;
-    id <HMDWACScannerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (id)TB;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,20 +26,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)eFormatter;
-- (void)on:(id)arg1;
-- (void)olutionType640x480;
+- (void)hmd_snapshotFileNameDateFormatter;
+- (void)_sendHomeDataToAllWatchesWithCompletion:(id)arg1;
+- (void)HMDVideoResolutionType640x480;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HMDWACScannerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

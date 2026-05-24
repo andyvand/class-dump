@@ -14,13 +14,13 @@
 + (_Bool);
 - (unsigned char);
 - (_Bool);
+- (id)&;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)˛;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDonatingMessages) _Bool autoDonateMessages; // @synthesize autoDonateMessages=_autoDonateMessages;

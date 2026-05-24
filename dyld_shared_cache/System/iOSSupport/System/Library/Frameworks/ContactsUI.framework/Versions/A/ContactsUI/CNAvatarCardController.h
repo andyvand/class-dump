@@ -4,64 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionMenuHelper, CNAvatarView, CNContact, CNContactOrbActionsController, CNContactOrbHeaderView, CNContactOrbHeaderViewController, NSArray, NSData, NSString, UIContextMenuInteraction, UIGestureRecognizer, UIView, UIViewController;
-@protocol CNAvatarCardControllerDelegate;
+@class UIContextMenuInteraction;
 
 @interface CNAvatarCardController
 {
     _Bool _visible;
-    _Bool _actionsNeedRefresh;
-    _Bool _bypassActionValidation;
-    NSArray *_contacts;
-    NSArray *_actionCategories;
-    id <CNAvatarCardControllerDelegate> _delegate;
-    UIView *_sourceView;
-    UIView *_highlightView;
-    UIContextMenuInteraction *_contextMenuInteraction;
-    long long _presentationResult;
-    NSData *_overrideImageData;
-    CNActionMenuHelper *_actionMenuHelper;
-    CNContactOrbHeaderViewController *_orbHeaderViewController;
-    CNContactOrbActionsController *_orbActionsController;
-    CNAvatarView *_avatarView;
-    CNContactOrbHeaderView *_headerView;
-    UIGestureRecognizer *_rolloverGestureRecognizer;
-    struct CGRect _sourceRect;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (id)TaglineTextAttributes: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)HTTPS;
++ (id)fileExtension;
++ (id)setTaglineTextAttributes: /* Error: Ran out of types for this method. */;
+- (void)k;
 - (id);
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)c;
 - (id);
 - (void);
+- (void)displayName;
+- (void)WatchdogTimeout;
+- (void)#;
+- (void);
+- (void);
+- (_Bool)metadataLoadingQueue;
+- (void)Scouting:(id)arg1 Skipping already visited position %f;
+- (id)lved playback settings;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)U;
 - (void);
 - (void);
 - (id);
@@ -77,18 +59,18 @@
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)@&;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)View";
 - (void);
 - (id);
+- (void);
+- (id)bodyParameterKeys;
 - (id);
 - (void);
 - (void)
@@ -98,44 +80,17 @@
 - (_Bool)ÔÁEð!ÐGùÑu°1Â0@ù
 × ;
 - (void)"CNCapabilitiesManager";
-- (void)SOCountryCode:(id)arg1;
+- (void)localizedCountryNameForISOCountryCode:(id)arg1;
 - (void)Item;
-@property(copy, nonatomic) NSArray *actionCategories; // @synthesize actionCategories=_actionCategories;
+- (void)actionCategories;
 - (id)$À;
-- (id)o16UIViewControllerC;
+- (id)So16UIViewControllerC;
 - (_Bool);
 - (void),À;
 - (id)Øsûÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
-@property(nonatomic) _Bool actionsNeedRefresh; // @synthesize actionsNeedRefresh=_actionsNeedRefresh;
-@property(nonatomic) __weak CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(nonatomic) _Bool bypassActionValidation; // @synthesize bypassActionValidation=_bypassActionValidation;
-@property(retain, nonatomic) CNContact *contact;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
 @property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAvatarCardControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContactOrbHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) CNContactOrbActionsController *orbActionsController; // @synthesize orbActionsController=_orbActionsController;
-@property(retain, nonatomic) CNContactOrbHeaderViewController *orbHeaderViewController; // @synthesize orbHeaderViewController=_orbHeaderViewController;
-@property(retain, nonatomic) NSData *overrideImageData; // @synthesize overrideImageData=_overrideImageData;
-@property(nonatomic) long long presentationResult; // @synthesize presentationResult=_presentationResult;
-@property(readonly, nonatomic) UIViewController *presentingViewController;
-@property(retain, nonatomic) UIGestureRecognizer *rolloverGestureRecognizer; // @synthesize rolloverGestureRecognizer=_rolloverGestureRecognizer;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

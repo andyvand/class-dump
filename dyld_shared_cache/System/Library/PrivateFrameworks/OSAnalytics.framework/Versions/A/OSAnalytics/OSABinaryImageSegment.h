@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OSASymbolInfo;
-
 @interface OSABinaryImageSegment
 {
     int _source;
-    OSASymbolInfo *_symbolInfo;
-    unsigned long long _used_index;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (unsigned long long);
@@ -27,8 +23,6 @@
 
 // Remaining properties
 @property int source; // @synthesize source=_source;
-@property(readonly, nonatomic) OSASymbolInfo *symbolInfo; // @synthesize symbolInfo=_symbolInfo;
-@property unsigned long long used_index; // @synthesize used_index=_used_index;
 
 @end
 

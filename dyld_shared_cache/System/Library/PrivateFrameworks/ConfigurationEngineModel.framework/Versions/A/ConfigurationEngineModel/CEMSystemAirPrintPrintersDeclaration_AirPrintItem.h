@@ -6,19 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSystemAirPrintPrintersDeclaration_AirPrintItem : CEMPayloadBase
 {
     NSString *_payloadIPAddress;
-    NSString *_payloadResourcePath;
-    NSNumber *_payloadPort;
-    NSNumber *_payloadForceTLS;
 }
 
++ (id)7;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -28,15 +25,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)dioSessionChannel but holding a reference to it, perhaps in our unit tests?;
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadForceTLS; // @synthesize payloadForceTLS=_payloadForceTLS;
 @property(copy, nonatomic) NSString *payloadIPAddress; // @synthesize payloadIPAddress=_payloadIPAddress;
-@property(copy, nonatomic) NSNumber *payloadPort; // @synthesize payloadPort=_payloadPort;
-@property(copy, nonatomic) NSString *payloadResourcePath; // @synthesize payloadResourcePath=_payloadResourcePath;
 
 @end
 

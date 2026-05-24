@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, _NSDiffableDataSourceState;
+@class NSSet;
 @protocol _NSIdentifierDiffer;
 
 __attribute__((visibility("hidden")))
 @interface _NSDiffableSectionBoundaryMoveDetector
 {
     id <_NSIdentifierDiffer> _differ;
-    _NSDiffableDataSourceState *_beforeState;
-    _NSDiffableDataSourceState *_afterState;
-    NSSet *_movePairs;
-    _Bool _didShortCircuit;
 }
 
-- (id);
+- (id)Ⱦ;
 - (id);
 - (id);
 - (_Bool);
-- (id)ureViewObserverIDs;
+- (id)captureViewObserverIDs;
 - (void), carbonIndex, count);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didShortCircuit; // @synthesize didShortCircuit=_didShortCircuit;
 @property(readonly, nonatomic) NSSet *movePairs; // @synthesize movePairs=_movePairs;
 
 @end

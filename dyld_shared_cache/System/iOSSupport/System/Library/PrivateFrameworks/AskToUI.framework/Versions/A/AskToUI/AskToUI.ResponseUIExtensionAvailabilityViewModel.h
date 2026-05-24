@@ -8,7 +8,6 @@
 {
     id _availableExtensions;
     id monitor;
-    id extensionPointID;
 }
 
 @end

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSFileAccessAsynchronousProcessAssertionScheduler
 {
     NSMutableDictionary *_assertionsPerPID;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)headIndent;
+- (id);
 - (id);
 
 @end

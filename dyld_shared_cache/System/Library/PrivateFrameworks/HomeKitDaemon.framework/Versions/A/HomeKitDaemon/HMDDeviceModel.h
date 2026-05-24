@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMDHomeKitVersion, HMDRPIdentity, HMFProductInfo, NSArray, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDDeviceModel : HMDBackingStoreModelObject
 {
@@ -16,26 +14,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (Class)Ô ;
-+ (id)able:changed:duration:accessory:transportReport: /* Error: Ran out of types for this method. */;
++ (id)eventWithReachable:changed:duration:accessory:transportReport: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)SyndicationProcessor:Found %lu duplicate(s) for :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *deviceHandles;
-@property(copy, nonatomic) NSArray *handles; // @dynamic handles;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) HMFProductInfo *productInfo; // @dynamic productInfo;
-@property(copy, nonatomic) HMDRPIdentity *rpIdentity; // @dynamic rpIdentity;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) HMDHomeKitVersion *version; // @dynamic version;
 
 @end
 

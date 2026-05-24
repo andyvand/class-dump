@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id):(double)arg1 );
 
 @end
 

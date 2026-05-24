@@ -9,27 +9,23 @@
 @interface NUImageExportFormatTIFF : NUImageExportFormat
 {
     _Bool _preserveAlpha;
-    long long _pixelType;
-    long long _compression;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)x;
 - (void);
 - (long long);
 - (id);
+- (id)String",R,N,V_manufacturer;
 - (id);
-- (id);
-- (id)gramCount;
+- (id)_totalHistogramCount;
 - (int)%d GTC:%luB exp:%g scn=%@ srl=%@ gain=%@ stats:%luB lightMap:%luB/%luB(%@x%@) lin:(x%@,%@:%@) fb=%@ xstats=%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long compression; // @synthesize compression=_compression;
 @property long long pixelType; // @synthesize pixelType=_pixelType;
-@property _Bool preserveAlpha; // @synthesize preserveAlpha=_preserveAlpha;
 
 @end
 

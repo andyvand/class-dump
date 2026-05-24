@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKApplyVerificationInformation
 {
     _Bool _skippedVerification;
-    NSString *_data;
-    NSArray *_trialDeposits;
 }
 
 + (_Bool)X"ð!Cùî%ð1Â0@ù
@@ -20,15 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)C;
+- (id)coreRoutineTransitionMotionTypeWalking;
+- (void));
 - (void)m.apple.pkpass;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *data; // @synthesize data=_data;
-@property(nonatomic) _Bool skippedVerification; // @synthesize skippedVerification=_skippedVerification;
-@property(copy, nonatomic) NSArray *trialDeposits; // @synthesize trialDeposits=_trialDeposits;
 
 @end
 

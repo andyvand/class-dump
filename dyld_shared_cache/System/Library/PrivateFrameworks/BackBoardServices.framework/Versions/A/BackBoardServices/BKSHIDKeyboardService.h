@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCompoundAssertion, BSOrderedDictionary, BSServiceConnection, NSString;
-
 @interface BKSHIDKeyboardService
 {
     struct os_unfair_lock_s _lock;
-    BSCompoundAssertion *_observerAssertion;
-    BSCompoundAssertion *_proxiesAssertion;
-    _Bool _lock_currentlyObserving;
-    BSOrderedDictionary *_lock_senderIDToDevice;
-    BSServiceConnection *_connection;
 }
 
-+ (id);
-+ (id);
++ (id)FOLLOWUP_BENEFICIARY_REMOVED_MESSAGE;
++ (id);
 - (oneway void);
+- (id)Z;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ePtr:withItemCount:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

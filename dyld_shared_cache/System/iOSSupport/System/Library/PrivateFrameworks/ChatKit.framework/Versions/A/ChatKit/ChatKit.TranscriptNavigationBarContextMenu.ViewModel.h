@@ -7,10 +7,6 @@
 @interface ChatKit.TranscriptNavigationBarContextMenu.ViewModel
 {
     id conversation;
-    id actionHandler;
-    id isCallingAvailable;
-    id isFaceTimeVideoAvailable;
-    id isEmailAvailable;
 }
 
 @end

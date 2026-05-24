@@ -6,27 +6,23 @@
 
 #import <PhotoAnalysis/PVObject.h>
 
-@class NSData;
-
 @interface PVFaceprint : PVObject
 {
     long long _faceprintVersion;
-    NSData *_faceprintData;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)s;
+- (void);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void)meterNamed: /* Error: Ran out of types for this method. */;
+- (void)errorForPhotoVisionInvalidNilParameterNamed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *faceprintData; // @synthesize faceprintData=_faceprintData;
 @property(nonatomic) long long faceprintVersion; // @synthesize faceprintVersion=_faceprintVersion;
 
 @end

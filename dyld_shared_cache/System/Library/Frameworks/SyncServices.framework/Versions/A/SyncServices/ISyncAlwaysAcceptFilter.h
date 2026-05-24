@@ -13,10 +13,10 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

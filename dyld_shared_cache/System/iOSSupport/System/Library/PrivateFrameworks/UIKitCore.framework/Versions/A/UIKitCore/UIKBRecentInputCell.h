@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UILabel *_label;
 }
 
-+ (id);
++ (id)ne number %@;
 + (id);
 - (_Bool);
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionAppleIDContext
+
+@optional
+- (void);
 @end
 

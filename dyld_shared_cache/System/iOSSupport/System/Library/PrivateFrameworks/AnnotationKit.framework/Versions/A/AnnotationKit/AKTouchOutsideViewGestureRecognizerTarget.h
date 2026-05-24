@@ -7,19 +7,24 @@
 @interface AKTouchOutsideViewGestureRecognizerTarget
 {
     SEL mAction;
-    id mTarget;
 }
 
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)CGImage;
+- (void)e" :(id)arg1 true,
+        "colorDst" :"oneMinusSrcAlpha",
+        "colorSrc" :"one"
+      }
+    },
+  }
+}
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (SEL);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=mAction;
 @property(nonatomic) __weak id target; // @synthesize target=mTarget;
 
 @end

@@ -9,22 +9,6 @@
 @interface MDLInteractiveCameraController
 {
     id _lookAt;
-    id _clickPoint;
-    id _dragVector;
-    float _pitch;
-    float _yaw;
-    struct MDLAABB _framingBounds;
-    float _targetElevation;
-    float _tumbleSpeed;
-    float _zoomSpeed;
-    float _trackSpeed;
-    float _targetDistance;
-    float _zoom;
-    MDLStereoscopicCamera *_camera;
-    id _dragPoint;
-    unsigned long long _mode;
-    id _viewSize;
-    id _trackVector;
 }
 
 - (float);
@@ -32,26 +16,26 @@
 - (id);
 - (float);
 - (float);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct MDLAABB);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)TE TABLE sessionsDomainIds ( id integer PRIMARY KEY AUTOINCREMENT NOT NULL, sessionId integer NOT NULL, domainIdentifier char(128) NOT NULL, bundleIdentifier char(128), FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
+- (void)aseAddressLogistic' THEN 'SignificantPostalAddress'                   WHEN name = 'SignificantPostalAddress' THEN name                   WHEN name = 'dataDetectionSignificantPhraseEmailLogistic' THEN 'SignificantEmailAddress'                   WHEN name = 'SignificantEmailAddress' THEN name                   WHEN name = 'selfIdentificationPhraseLogistic' THEN 'SelfIdentification'                   WHEN name = 'SelfId.Covariates' THEN 'SelfIdentification'                   WHEN name = 'SelfIdentification' THEN name                   WHEN name = 'STSQP' AND version = '1.2' THEN name                   ELSE NULL               END,               sd_version = CASE                   WHEN version = '1.1' THEN 'TW=12&NG=3&FV=1.1'                   WHEN version = 'TW=12&NG=3&FV=1.1' THEN version                   WHEN version = '1.2' THEN version                   ELSE NULL               END;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)ins more than one Protocol Information service;
 - (id);
 - (void);
 - (id);
@@ -61,23 +45,10 @@
 - (void);
 - (void);
 - (void);
-- (void)jointAnimation;
+- (void)_jointAnimation;
 
 // Remaining properties
 @property(copy, nonatomic) MDLStereoscopicCamera *camera; // @synthesize camera=_camera;
-@property(nonatomic) id clickPoint;
-@property(nonatomic) id dragPoint; // @synthesize dragPoint=_dragPoint;
-@property(nonatomic) struct MDLAABB framingBounds;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) id position;
-@property(nonatomic) float targetDistance; // @synthesize targetDistance=_targetDistance;
-@property(nonatomic) id targetPosition;
-@property(nonatomic) float trackSpeed; // @synthesize trackSpeed=_trackSpeed;
-@property(nonatomic) id trackVector; // @synthesize trackVector=_trackVector;
-@property(nonatomic) float tumbleSpeed; // @synthesize tumbleSpeed=_tumbleSpeed;
-@property(nonatomic) id viewSize; // @synthesize viewSize=_viewSize;
-@property(nonatomic) float zoom; // @synthesize zoom=_zoom;
-@property(nonatomic) float zoomSpeed; // @synthesize zoomSpeed=_zoomSpeed;
 
 @end
 

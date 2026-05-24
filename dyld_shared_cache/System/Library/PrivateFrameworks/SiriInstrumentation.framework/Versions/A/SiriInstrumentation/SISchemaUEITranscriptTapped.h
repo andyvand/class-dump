@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEITranscriptTapped : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getDiagnosticServiceWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)CreateThreadedRecordStore should not be nil. Did attempt to init:(id)arg1 %@;
 - (id);
 - (id);
-- (id)ppBundleId;
-- (id)hasCompressed_data;
-- (_Bool)ATTERN_TABLE_SET;
-- (_Bool)_KM;
+- (id)deleteForegroundAppBundleId;
+- (id)_hasCompressed_data;
+- (_Bool)RFPATTERN_TABLE_SET;
+- (_Bool)COUNTRYCODE_KM;
 - (void)!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

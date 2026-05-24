@@ -6,47 +6,26 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSData, NSString;
-
 @interface HMFDigest : HMFObject
 {
     long long _algorithm;
-    NSData *_value;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)~;
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)&	M	/	.	@	;
+- (_Bool)ctionary;
 - (void);
+- (id)HMHomeFetchAvailableWalletKeyEncodedPKPassMessageKeyFileHandle;
 - (id);
-- (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly) long long algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSData *value; // @synthesize value=_value;
 
 @end
 

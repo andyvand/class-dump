@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMIVideoAnnotationParserTrack
 {
     Class _eventClass;
-    NSArray *_records;
-    NSUUID *_UUID;
 }
 
 - (id);
 - (Class);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly) Class eventClass; // @synthesize eventClass=_eventClass;
-@property(readonly) NSArray *records; // @synthesize records=_records;
 
 @end
 

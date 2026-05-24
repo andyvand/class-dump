@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSString;
 
 @interface MCNetworkController
 {
     struct __SCDynamicStore *_store;
-    struct __CFString *_dnsKey;
-    id _domainLock;
-    NSString *_domainName;
-    NSMapTable *_reachabilityReferencesForWatchedAccounts;
 }
 
 + (_Bool);
@@ -21,9 +17,9 @@
 + (id);
 + (id);
 + (long long);
-+ (id)asBeenEvaluated:(struct _NSZone *)arg1 flags:mask: /* Error: Ran out of types for this method. */;
++ (id)setColor:(struct _NSZone *)arg1 hasBeenEvaluated:flags:mask: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)R(#;
 - (void);
 - (struct __SCNetworkReachability *);
 - (void);

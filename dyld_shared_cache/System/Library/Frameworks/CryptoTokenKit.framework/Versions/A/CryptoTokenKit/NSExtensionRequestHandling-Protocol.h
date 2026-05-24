@@ -5,5 +5,6 @@
 //
 
 @protocol NSExtensionRequestHandling
+- (void)N6quasar25ConfiguredProcessingBlockINS_28AlternativesProcessorOptionsEEE;
 @end
 

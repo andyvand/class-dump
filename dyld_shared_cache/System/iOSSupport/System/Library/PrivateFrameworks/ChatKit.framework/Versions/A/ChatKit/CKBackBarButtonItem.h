@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id);
+- (id)hentication didAuthenticateWithPrompt:(long long)arg1 result:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

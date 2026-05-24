@@ -4,110 +4,88 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAnimatedImage, CKBrowserDragStickerView, CKMacStickerDragHelper, NSString, UILongPressGestureRecognizer, UIPanGestureRecognizer, UIView, UIWindow;
-@protocol CKBrowserDragViewControllerDelegate, UINSApplicationDelegate;
+@class UILongPressGestureRecognizer;
 
 @interface CKBrowserDragViewController
 {
     _Bool _canRotate;
-    _Bool _canScale;
-    _Bool _canPeel;
-    _Bool _pressed;
-    _Bool _hasMovedToWindow;
-    id <CKBrowserDragViewControllerDelegate> _delegate;
-    double _dragViewRotation;
-    UIView *_keyboardWindowSourceView;
-    UILongPressGestureRecognizer *_gestureRecognizer;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    CKAnimatedImage *_dragImage;
-    CKBrowserDragStickerView *_normalDragView;
-    CKBrowserDragStickerView *_keyboardDragView;
-    UIPanGestureRecognizer *_keyboardPanGestureRecognizer;
-    CKMacStickerDragHelper *_stickerDragHelper;
-    id <UINSApplicationDelegate> _appDelegate;
-    UIWindow *_macDragWindow;
-    struct CGPoint _anchorOffset;
-    struct CGPoint _keyboardAnchorOffset;
-    struct CGPoint _previousPanLocationInView;
-    struct CGPoint _previousPanLocationInKeyboardView;
-    struct CGRect _sourceRect;
-    struct CGRect _keyboardSourceRect;
 }
 
 + (_Bool)¼1úÿFÿÿ;
 - (id);
+- (void)isRecorded;
+- (void);
+- (void);
+- (void)SgXwz_Xx;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)yAE_Qo__AJtGGAFG_AItGGAPGATG_G;
+- (void)GAJGGADyADyADyA8_yA57_A10_GAJGA12_GAJGGtGG;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)AVtGGGGG_Qo_%K8G;
+- (struct CGPoint)c;
+- (struct CGPoint)r;
+- (id)e;
+- (struct CGPoint)w;
+- (void)oration.fetchShare;
+- (void)with empty accountID;
+- (id)e;
+- (void)tifications because the internet is not reachable;
+- (void)ntions:(struct CGRect)arg1 %@;
+- (id)n account… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)unt:%@, hasDivergedKey:%@, hasHint:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id):%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct CGPoint)alid highlighting attribute:%@ /* Error: Ran out of types for this method. */;
+- (id)iled with error:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)s self.attachment.metadataData %d;
+- (id)for attachment:(id)arg1 %@, error:(struct CGRect)arg2 %@;
+- (void)attachment or discard the change you made.;
+- (_Bool)heLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
+- (void)ICNoteAnalyticsAudioTranscriptInteractionNotificationSummaryViewedKey;
 - (id);
 - (struct CGPoint);
 - (double);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
+- (void)ICInlineAttachmentType;
+- (_Bool),
+;
+- (void);
+- (void);
+- (struct CGPoint);
+- (double)8-;
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (struct CGPoint);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (double);
-- (void);
 - (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)aQ?;
 - (struct CGRect);
 - (void)kPreviewTextAttachment"16q24;
-- (_Bool)sizedBlurContainer;
+- (_Bool)needsOversizedBlurContainer;
 - (id)V_lineShapeLayer;
 - (void)ed by downtime with chatIdentifier:(_Bool)arg1 %@;
 - (void);
@@ -115,40 +93,7 @@
 - (void)s3;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteScale;
-@property(nonatomic) struct CGPoint anchorOffset; // @synthesize anchorOffset=_anchorOffset;
-@property(retain, nonatomic) id <UINSApplicationDelegate> appDelegate; // @synthesize appDelegate=_appDelegate;
-@property(nonatomic) _Bool canPeel; // @synthesize canPeel=_canPeel;
-@property(nonatomic) _Bool canRotate; // @synthesize canRotate=_canRotate;
-@property(nonatomic) _Bool canScale; // @synthesize canScale=_canScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserDragViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKAnimatedImage *dragImage; // @synthesize dragImage=_dragImage;
-@property(readonly, nonatomic) struct CGPoint dragViewCenter;
-@property(readonly, nonatomic) double dragViewRotation; // @synthesize dragViewRotation=_dragViewRotation;
-@property(readonly, nonatomic) double dragViewScale;
 @property(retain, nonatomic) UILongPressGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(nonatomic) _Bool hasMovedToWindow; // @synthesize hasMovedToWindow=_hasMovedToWindow;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint keyboardAnchorOffset; // @synthesize keyboardAnchorOffset=_keyboardAnchorOffset;
-@property(retain, nonatomic) CKBrowserDragStickerView *keyboardDragView; // @synthesize keyboardDragView=_keyboardDragView;
-@property(retain, nonatomic) UIPanGestureRecognizer *keyboardPanGestureRecognizer; // @synthesize keyboardPanGestureRecognizer=_keyboardPanGestureRecognizer;
-@property(nonatomic) struct CGRect keyboardSourceRect; // @synthesize keyboardSourceRect=_keyboardSourceRect;
-@property(nonatomic) __weak UIView *keyboardWindowSourceView; // @synthesize keyboardWindowSourceView=_keyboardWindowSourceView;
-@property(retain, nonatomic) UIWindow *macDragWindow; // @synthesize macDragWindow=_macDragWindow;
-@property(retain, nonatomic) CKBrowserDragStickerView *normalDragView; // @synthesize normalDragView=_normalDragView;
-@property(retain, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic, getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
-@property(nonatomic) struct CGPoint previousPanLocationInKeyboardView; // @synthesize previousPanLocationInKeyboardView=_previousPanLocationInKeyboardView;
-@property(nonatomic) struct CGPoint previousPanLocationInView; // @synthesize previousPanLocationInView=_previousPanLocationInView;
-@property(nonatomic) double rotationAngle;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(retain, nonatomic) CKMacStickerDragHelper *stickerDragHelper; // @synthesize stickerDragHelper=_stickerDragHelper;
-@property(readonly) Class superclass;
 
 @end
 

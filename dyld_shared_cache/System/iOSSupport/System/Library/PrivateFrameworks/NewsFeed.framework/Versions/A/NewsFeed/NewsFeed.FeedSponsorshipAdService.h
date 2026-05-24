@@ -7,12 +7,6 @@
 @interface NewsFeed.FeedSponsorshipAdService
 {
     id adManager;
-    id adRequestManager;
-    id adRequestStore;
-    id contextBuilder;
-    id bundleSubscriptionManager;
-    id featureAvailability;
-    id tracker;
 }
 
 @end

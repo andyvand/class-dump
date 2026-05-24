@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, STCity, STWeatherAttributes;
+@class STWeatherAttributes;
 
 @interface STShowHourlyWeatherForecastRequest
 {
     STWeatherAttributes *_currentAttributes;
-    NSArray *_hourlyAttributes;
-    STCity *_city;
-    long long _startHour;
-    long long _forecastType;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (id);
 - (void);

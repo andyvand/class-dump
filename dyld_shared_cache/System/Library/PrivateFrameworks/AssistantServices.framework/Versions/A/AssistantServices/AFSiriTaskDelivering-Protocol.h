@@ -5,5 +5,8 @@
 //
 
 @protocol AFSiriTaskDelivering
+
+@optional
+- (void);
 @end
 

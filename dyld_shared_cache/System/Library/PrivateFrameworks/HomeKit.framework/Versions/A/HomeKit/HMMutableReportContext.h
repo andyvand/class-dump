@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMReportContext.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMMutableReportContext : HMReportContext
 {
@@ -14,13 +14,11 @@
 
 + (id);
 + (id);
-- (id);
+- (id)1;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *reportDomain; // @dynamic reportDomain;
-@property(nonatomic) double reportTimeout; // @dynamic reportTimeout;
-@property(retain, nonatomic) NSData *requestInfo; // @dynamic requestInfo;
 
 @end
 

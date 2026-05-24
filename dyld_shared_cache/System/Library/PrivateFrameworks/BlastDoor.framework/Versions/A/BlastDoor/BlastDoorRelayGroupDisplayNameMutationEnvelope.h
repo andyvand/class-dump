@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorGroupDisplayName, NSString;
+@class NSString;
 
 @interface BlastDoorRelayGroupDisplayNameMutationEnvelope
 {
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorGroupDisplayName *updatedName;
 
 @end
 

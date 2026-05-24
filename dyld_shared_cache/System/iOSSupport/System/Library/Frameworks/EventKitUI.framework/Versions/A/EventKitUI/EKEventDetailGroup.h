@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface EKEventDetailGroup
 {
     unsigned long long _tag;
-    NSArray *_items;
-    NSString *_headerTitle;
 }
 
+- (id)rror"@"NSNumber">;
+- (void);
+- (unsigned long long)"Protocol"16;
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -28,14 +24,12 @@
 - (id)Ôd°!0Fù±nÐ1Â0@ù
 × ;
 - (double);
-- (void)ategory: /* Error: Ran out of types for this method. */;
-- (_Bool)tDownloadErrorWithIsSubscribedCalendar:(unsigned long long)arg1;
+- (void)setAdjustsFontForContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (_Bool)attachmentDownloadErrorWithIsSubscribedCalendar:(unsigned long long)arg1;
 - (void),&,N,V_dividerLine;
 - (double)½;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(nonatomic) unsigned long long tag; // @synthesize tag=_tag;
 
 @end

@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (unsigned long long);
++ (id);
++ (unsigned long long)4˟;
 + (id);
 + (id);
 + (id);

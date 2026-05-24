@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     UIView *_parent;
 }
 
-- (void);
+- (void)downgrade request to %@ expired on %@, clearing;
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id)%@:%p; types:( /* Error: Ran out of types for this method. */;
 - (void)ø;

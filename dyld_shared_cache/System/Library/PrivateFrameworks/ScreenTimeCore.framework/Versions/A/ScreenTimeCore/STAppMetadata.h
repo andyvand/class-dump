@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface STAppMetadata
 {
     NSString *_bundleIdentifier;
-    NSString *_displayName;
-    NSString *_vendorName;
-    NSString *_ratingLabel;
-    NSString *_software;
-    NSURL *_artworkURL;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)E artwork (artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, relative_path TEXT NOT NULL DEFAULT '', artwork_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type));
+- (void)ER, sample_rate REAL NOT NULL DEFAULT 0, start_time_ms REAL NOT NULL DEFAULT 0, stop_time_ms REAL NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0);
 - (void);
 - (id);
+- (id)Unknown variable;
+- (void);
+- (void);
+- (void)...;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *ratingLabel; // @synthesize ratingLabel=_ratingLabel;
-@property(copy, nonatomic) NSString *software; // @synthesize software=_software;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

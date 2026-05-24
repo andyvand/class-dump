@@ -7,12 +7,6 @@
 @interface PodcastsUI.StoreLibraryMultiplexingImageProvider
 {
     id storeProvider;
-    id libraryProvider;
-    id artworkLoaderProvider;
-    id compositeProvider;
-    id sizeBucketingStrategy;
-    id assetCaches;
-    id signposter;
 }
 
 @end

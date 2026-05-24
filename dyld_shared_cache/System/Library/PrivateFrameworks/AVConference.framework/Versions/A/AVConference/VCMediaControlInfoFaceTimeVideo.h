@@ -10,25 +10,11 @@ __attribute__((visibility("hidden")))
 @interface VCMediaControlInfoFaceTimeVideo : VCMediaControlInfo
 {
     unsigned char _controlInfoCameraStatus;
-    unsigned char _controlInfoLTRBits;
-    unsigned int _controlInfoLTRTimestamp;
-    struct {
-        unsigned short totalPacketsPerFrame;
-        unsigned short frameSequenceNumber;
-    } _controlInfoFrameExtensionData;
-    unsigned char _controlInfoFEC[36];
-    unsigned long long _controlInfoFECLength;
-    unsigned int _controlInfoProbe;
-    unsigned int _controlInfoReceivedKBytes;
-    unsigned int _controlInfoReceivedPackets;
-    unsigned int _controlInfoVideoPacketSize;
-    unsigned int _controlInfoVideoTimestamp;
-    double _controlInfoVideoArrivalTime;
 }
 
 - (int);
 - (int);
-- (id);
+- (id)';
 - (_Bool);
 - (int);
 - (int);

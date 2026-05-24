@@ -13,15 +13,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)",&,N,V_subscribeForUpdatesCommand;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool deviceBusy;
 @property(readonly, nonatomic) _Bool isIKCamera;
-@property(readonly, nonatomic) _Bool isIKScanner;
-@property(readonly, nonatomic) _Bool supportsDelete;
-@property(readonly, nonatomic) _Bool supportsHEIF;
 @end
 

@@ -7,24 +7,6 @@
 @interface PodcastsFoundation.EyebrowBuilder
 {
     id caption;
-    id smartPlay;
-    id subscriptionBadge;
-    id episodeNumber;
-    id seasonNumber;
-    id pubDate;
-    id listenNowReason;
-    id remainingTime;
-    id explicitSymbol;
-    id showsEpisodeNumber;
-    id showsSeasonNumber;
-    id desiresPubDate;
-    id episode;
-    id context;
-    id showsSubscriptionBadge;
-    id hostingViewHasLimitedSpace;
-    id showsMediaType;
-    id suppressPubDate;
-    id style;
 }
 
 @end

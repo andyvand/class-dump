@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSString, SALocalSearchReviewList;
+@class NSString;
 
 @interface SAMovieV2ReviewListSnippet : SAUISnippet
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *movieName;
-@property(retain, nonatomic) SALocalSearchReviewList *reviewList;
 
 @end
 

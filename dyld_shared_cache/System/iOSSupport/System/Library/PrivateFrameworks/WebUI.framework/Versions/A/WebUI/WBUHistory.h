@@ -17,7 +17,7 @@
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)s created initial templateView %@;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldScheduleMaintenance; // @synthesize shouldScheduleMaintenance=_shouldScheduleMaintenance;

@@ -6,41 +6,28 @@
 
 #import <EventKit/EKObject.h>
 
-@class CLLocation, EKPredictedLocationOfInterest, NSData, NSString;
+@class NSString;
 
 @interface EKStructuredLocation : EKObject
 {
     _Bool _imprecise;
-    EKPredictedLocationOfInterest *_predictedLOI;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Connection]<%p> handleMessage - delivering payload:(id)arg1 %@;
++ (id)ce -> invalidating;
++ (id)ction is in state:(id)arg1 %@ after acceptance -> invalidating;
++ (id)Connection]<%p> handleMessage - connection is in state:(id)arg1 %@ after acceptance -> invalidating;
++ (id)tics:%{public}@ /* Error: Ran out of types for this method. */;
++ (id)tempting to decode JSON migrationReport:%@ /* Error: Ran out of types for this method. */;
++ (id)er] Updating local identity:(id)arg1 %@;
++ (id)fadeType;
++ (id)s/MacOS/DFRFoundation;
 + (Class);
 + (id);
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address;
 @property(copy, nonatomic) NSString *contactLabel;
-@property(copy, nonatomic) NSString *derivedFrom;
-@property(retain, nonatomic) CLLocation *geoLocation;
-@property(readonly, nonatomic) _Bool hasKnownSpatialData;
-@property(nonatomic, getter=isImprecise) _Bool imprecise; // @synthesize imprecise=_imprecise;
-@property(readonly, nonatomic) _Bool isStructured;
-@property(copy, nonatomic) NSData *mapKitHandle;
-@property(retain, nonatomic) EKPredictedLocationOfInterest *predictedLOI; // @synthesize predictedLOI=_predictedLOI;
-@property(readonly, nonatomic, getter=isPrediction) _Bool prediction;
-@property(nonatomic) double radius;
-@property(retain, nonatomic) NSString *routing;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

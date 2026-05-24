@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol CalUIResizingTextFieldDelegate, OS_dispatch_queue;
-
 @interface CalUIResizingTextField
 {
     _Bool _resizingEnabled;
-    _Bool _automaticLinkDetection;
-    _Bool _alwaysTreatAsLink;
-    NSString *_defaultLinkString;
-    NSDictionary *_textAttributes;
-    id <CalUIResizingTextFieldDelegate> _calDelegate;
-    NSObject<OS_dispatch_queue> *_hyperlinkFormattingQueue;
 }
 
 + (Class);
@@ -32,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)h3;
 - (id);
 - (id);
 - (void);
@@ -52,36 +43,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)9	S;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)(;
 - (struct CGSize);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (void);
-- (void)e;
-- (_Bool)rdinalValue;
+- (void)soundName;
+- (_Bool)monthlyOrdinalValue;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysTreatAsLink; // @synthesize alwaysTreatAsLink=_alwaysTreatAsLink;
 @property(nonatomic) _Bool automaticLinkDetection; // @synthesize automaticLinkDetection=_automaticLinkDetection;
-@property(nonatomic) __weak id <CalUIResizingTextFieldDelegate> calDelegate; // @synthesize calDelegate=_calDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSString *defaultLinkString; // @synthesize defaultLinkString=_defaultLinkString;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *hyperlinkFormattingQueue; // @synthesize hyperlinkFormattingQueue=_hyperlinkFormattingQueue;
-@property _Bool resizingEnabled; // @synthesize resizingEnabled=_resizingEnabled;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *textAttributes; // @synthesize textAttributes=_textAttributes;
 
 @end
 

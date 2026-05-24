@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactImageManagedObject, CNContactPosterManagedObject, NSData, NSString;
+@class NSString;
 
 @interface CNContactExternalDetailsManagedObject
 {
@@ -14,9 +14,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *externalUUID; // @dynamic externalUUID;
-@property(retain, nonatomic) NSData *fallbackDetailsForExchange; // @dynamic fallbackDetailsForExchange;
-@property(retain, nonatomic) CNContactImageManagedObject *image; // @dynamic image;
-@property(retain, nonatomic) CNContactPosterManagedObject *poster; // @dynamic poster;
 
 @end
 

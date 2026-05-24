@@ -6,12 +6,11 @@
 
 #import <CoreHandwriting/CHQuery.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface CHTitleQuery : CHQuery
 {
     NSString *_transcribedTitle;
-    NSSet *_titleStrokeIdentifiers;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (void)à;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *titleStrokeIdentifiers; // @synthesize titleStrokeIdentifiers=_titleStrokeIdentifiers;
 @property(readonly, copy, nonatomic) NSString *transcribedTitle; // @synthesize transcribedTitle=_transcribedTitle;
 
 @end

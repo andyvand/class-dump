@@ -13,12 +13,12 @@
     PGMemoryMomentRequirements *_momentRequirements;
 }
 
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
+- (id)textAlignmentForRange:textElement: /* Error: Ran out of types for this method. */;
+- (unsigned long long)removeObjectForKey:(unsigned long long)arg1;
+- (id)__previousCursorScreen;
 - (void);
-- (void)ReasonNilSubtitle;
+- (void)PGEnrichedMemoryFailureReasonNilSubtitle;
 
 @end
 

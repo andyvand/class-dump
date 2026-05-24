@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBButtonItem, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
 
 @protocol _SFPBRFFactItemButtonCardSection
+- (_SFPBRFVisualProperty *)R;
+- (void)R%;
+- (void);
+- (_Bool);
+- (_SFPBRFTextProperty *)ovider>";
+- (NSData *),&,N,V_assetUUIDsAssetsMarkedRejectedByPhotosSuggesterFromLibraryScope;
 
 // Remaining properties
-@property(nonatomic) _Bool buttonItemsAreBottom;
-@property(retain, nonatomic) _SFPBButtonItem *button_1;
-@property(retain, nonatomic) _SFPBButtonItem *button_2;
-@property(retain, nonatomic) _SFPBButtonItem *button_3;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(copy, nonatomic) NSArray *text_4s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail2;
 @end
 

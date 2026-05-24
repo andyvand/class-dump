@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)stripArrivedOrClosedTrip;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *configurationVersion; // @dynamic configurationVersion;
-@property(nonatomic) _Bool homeHasLocalChanges; // @synthesize homeHasLocalChanges=_homeHasLocalChanges;
 
 @end
 

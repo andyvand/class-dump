@@ -16,9 +16,9 @@
 + (_Bool)ell for a nil index path;
 - (id);
 - (CDUnknownBlockType);
-- (void)itleDisplayMode:(CDUnknownBlockType)arg1;
-- (_Bool)Progress;
-- (void)eparatorConfiguration:(id)arg1;
+- (void)setLargeTitleDisplayMode:(CDUnknownBlockType)arg1;
+- (_Bool)didUpdatePageProgress;
+- (void)_setSeparatorConfiguration:(id)arg1;
 - (long long);
 - (id)P8;
 - (_Bool)lic}@:(id)arg1 %{public}@ - rebuilding layers for reason:%{public}@ /* Error: Ran out of types for this method. */;

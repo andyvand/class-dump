@@ -9,23 +9,21 @@
 @interface MPSNDArrayInitializationGlorotUniform : MPSNDArrayInitialization
 {
     unsigned long long _FanIn;
-    unsigned long long _FanOut;
 }
 
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)K;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long FanIn; // @synthesize FanIn=_FanIn;
-@property(nonatomic) unsigned long long FanOut; // @synthesize FanOut=_FanOut;
 
 @end
 

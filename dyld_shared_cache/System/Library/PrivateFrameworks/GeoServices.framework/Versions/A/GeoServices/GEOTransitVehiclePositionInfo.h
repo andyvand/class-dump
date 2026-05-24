@@ -4,32 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTransitVehiclePositionInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_departureEntrys;
 }
 
 + (Class);
-+ (_Bool)eUpdatedHandler:(id)arg1;
++ (_Bool)setNavigationVoiceVolumeUpdatedHandler:(id)arg1;
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)setWithSet: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fixupDuplicatedCustomPropertyAndRelatedCustomPropertyValuesKeeping:andRemoving: /* Error: Ran out of types for this method. */;
+- (id)firstNameWithFormatter:(unsigned long long)arg1;
+- (void)eComponents",C,N;
+- (void)iled to create copying directory:(id)arg1 %@;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void)notifyVoiceTriggerAssetChanged;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -38,24 +37,12 @@
 - (id)¡	'!`Dù1º*°1Â0@ù
 × ;
 - (id)sMissed: /* Error: Ran out of types for this method. */;
-- (id)edSync;
-- (id)eMapKitEnabled;
+- (id)_startTimedSync;
+- (id)ShelbyvilleMapKitEnabled;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *departureEntrys;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long firstTripID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long tripIDForNextUpcomingDeparture;
-@property(readonly, copy, nonatomic) NSArray *tripIDs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, copy, nonatomic) NSArray *upcomingTripIDs;
 
 @end
 

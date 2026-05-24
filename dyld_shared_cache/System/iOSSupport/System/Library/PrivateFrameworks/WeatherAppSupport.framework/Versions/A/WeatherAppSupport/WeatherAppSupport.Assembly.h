@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.Assembly
 {
     id assemblies;
+    id;
 }
 
 @end

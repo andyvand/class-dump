@@ -13,7 +13,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)ceBundle: /* Error: Ran out of types for this method. */;
+- (void)set_cvnlpLanguageResourceBundle: /* Error: Ran out of types for this method. */;
 
 @end
 

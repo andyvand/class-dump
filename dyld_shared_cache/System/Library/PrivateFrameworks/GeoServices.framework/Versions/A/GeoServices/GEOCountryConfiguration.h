@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, _GEOCountryConfigurationInfo, geo_isolater;
-@protocol _GEOCountryConfigurationServerProxy;
-
 @interface GEOCountryConfiguration
 {
     int _tileGroupChangedToken;
-    geo_isolater *_isolater;
-    _GEOCountryConfigurationInfo *_countryCodeInfo;
-    struct atomic_flag _isUpdating;
-    NSMutableArray *_updateCompletionHandlers;
-    NSMutableDictionary *_supportedFeatures;
-    geo_isolater *_currentCountrySupportsNavigationIsolater;
-    _Bool _currentCountrySupportsNavigation;
-    _Bool _determinedCurrentCountrySupportsNavigation;
-    double _urlAuthenticationTimeToLive;
-    _Bool _hasURLAuthenticationTimeToLive;
-    id <_GEOCountryConfigurationServerProxy> _serverProxy;
 }
 
 + (void);
 + (id);
-+ (Class)iewed_date;
++ (Class)collection_last_viewed_date;
 + (void)_name.;
 - (void);
 - (_Bool);
@@ -39,20 +25,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)sionInfoProvidingDelegateMediaServicesWereLostNotification:] /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)A;
+- (id){?=Q*}S})[16C](?=[48C]{?=^{_acl}})}{?=[64C]}{?=^{?}{?=Q*}[64C]}{?=^{?}[64C]}{?=^{?}^{?}[64C]}{?=^{?}{?=Q*}(?=[64C]{?=^{?}^{?}iiiIII^{?}^{?}^{?}})}{?=i[64C]}{?=^{?}^{?}^{?}{?=[8I]}[32C]}{?=^{?}{?=Q*}[64C]}{?=^{?}i[64C]}{?=^{?}[64C]}{?=^{?}[64C]}{?=^{?}i[60C]}{?=^{?}i[60C]}{?=^{?}i[60C]}{?=^{?}i[60C]}{?={attrlist=SSIIIII}^{?}[64C]}{?=^{?}{?=Q*}[64C]}{?=I{?=Q*}Q{?=Q*}[40C]}{?={?=Q*}[64C]}{?={?=Q*}[64C]}{?=^{?}^{?}{?=Q*}[64C]}{?=^{?}[64C]}{?=^{?}{?=Q*}[64C]}{?=iiiQ^{?}[64C]}{?=^{statfs}i[60C]}{?=iQQ[64C]}{?=i^{?}[64C]}{?=^{?}ii[64C]}{?=^{?}i[64C]}{?=i[64C]}{?=i[64C]}{?=^{?}[64C]}{?=^{?}[64C]}{?=^{?}^{?}[64C]}{?=^{statfs}Qi[52C]}{?=^{?}i(?=^{?}{?=^{?}{?=Q*}})[64C]}{?={attrlist=SSIIIII}^{?}[64C]}{?=^{?}i(?=^{_acl})[64C]}{?={attrlist=SSIIIII}^{?}[64C]}{?=^{?}{?=Q*}[64C]}{?=I^{?}[64C]}{?=S^{?}[64C]}{?=II^{?}[64C]}{?=[64C]}{?=I[64C]}{?=I[64C]}{?=I[64C]}{?=I[64C]}{?=II[64C]}{?=II[64C]}{?=i^{?}^{?}[56C]}{?=^{?}[64C]}{?=^{?}[64C]}{?=^{?}[64C]}{?=^{?}{?=Q*}S[64C]}{?=^{?}iii[64C]}{?=^{?}^{?}[64C]}{?=^{statfs}[64C]}{?=^{?}{timespec=qq}{timespec=qq}[64C]}{?=^{?}[64C]}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{?}^{es_event_paste_t}^{es_event_listen_t}^{es_event_flow_t}^{es_event_tty_setattr_t})^{?}Q[0Q]}8@?0;
 - (_Bool);
 - (void);
 - (_Bool)@ùñ¶*ð1Â0@ù
 × ;
-- (id)ActionDetailsSearchResponseRelativeTimestamp:(id)arg1;
-- (_Bool)tHasStopAddedAction:(long long)arg1;
-- (id)uerySuggestionEntry;
+- (id)setPlaceCardPlaceActionDetailsSearchResponseRelativeTimestamp:(id)arg1;
+- (_Bool)setHasStopAddedAction:(long long)arg1;
+- (id)querySuggestionEntry;
 - (double)è@;
 - (_Bool)(\;
 - (_Bool);
@@ -65,26 +51,6 @@
 - (void)Î#:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *countryCode;
-@property(readonly, nonatomic) _Bool currentCountrySupportsAvoidStairs;
-@property(readonly, nonatomic) _Bool currentCountrySupportsCarIntegration;
-@property(readonly, nonatomic) _Bool currentCountrySupportsCommute;
-@property(readonly, nonatomic) _Bool currentCountrySupportsCuratedRoutes;
-@property(readonly, nonatomic) _Bool currentCountrySupportsCustomRouteCreation;
-@property(readonly, nonatomic) _Bool currentCountrySupportsDirections;
-@property(readonly, nonatomic) _Bool currentCountrySupportsElectricVehicleRouting;
-@property(readonly, nonatomic) _Bool currentCountrySupportsNavigation;
-@property(readonly, nonatomic) _Bool currentCountrySupportsRouteGenius;
-@property(readonly, nonatomic) _Bool currentCountrySupportsTopographicMap;
-@property(readonly, nonatomic) _Bool currentCountrySupportsTraffic;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double urlAuthenticationTimeToLive;
 @property(readonly, nonatomic) _Bool zilchPointsSupported;
 
 @end

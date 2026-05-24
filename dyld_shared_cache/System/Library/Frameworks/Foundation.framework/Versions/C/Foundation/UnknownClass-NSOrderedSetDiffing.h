@@ -31,7 +31,7 @@
 - (void);
 - (id);
 - (void)ÿÿÿ,;
-- (void)dleResourceRequestServerBusyTimeIntervalKey;
+- (void)_NSBundleResourceRequestServerBusyTimeIntervalKey;
 - (void);
 @end
 

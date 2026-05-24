@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASKResourceCache, NSMapTable, NSMutableDictionary, NSOperationQueue;
+@class NSMutableDictionary;
 
 @interface ASKResourceLoader
 {
     long long _requestCountMap[6];
-    _Bool _isInBackground;
-    NSOperationQueue *_accessQueue;
-    NSOperationQueue *_notificationQueue;
-    NSOperationQueue *_requestQueue;
-    NSMutableDictionary *_pendingOperations;
-    NSMapTable *_requestsByCacheKey;
-    ASKResourceCache *_cachedResources;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)o;
+- (id)@wo;
 - (void);
+- (void)o;
 - (void);
+- (void)oo;
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)lo;
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -50,22 +43,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (_Bool)¿¯XSg;
 - (void)reKit29ClientOrderingWrapperProtocolP;
-- (id)splaying;
+- (id)AvatarShowcaseDisplaying;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, nonatomic) ASKResourceCache *cachedResources; // @synthesize cachedResources=_cachedResources;
-@property(readonly, nonatomic) _Bool isIdle;
-@property(readonly, nonatomic) _Bool isInBackground; // @synthesize isInBackground=_isInBackground;
-@property(readonly, nonatomic) NSOperationQueue *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
 @property(readonly, nonatomic) NSMutableDictionary *pendingOperations; // @synthesize pendingOperations=_pendingOperations;
-@property(readonly, nonatomic) NSOperationQueue *requestQueue; // @synthesize requestQueue=_requestQueue;
-@property(readonly, nonatomic) NSMapTable *requestsByCacheKey; // @synthesize requestsByCacheKey=_requestsByCacheKey;
 
 @end
 

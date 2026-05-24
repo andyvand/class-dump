@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol WBSTabItemSearchSupport
+- (void);
+- (void);
+- (void)GisGelatoAsyncSendingEnabled;
+- (NSString *);
 - (_Bool)NSString",R,C,N,V_sandboxToken;
 - (NSString *)to DefaultProfile;
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URLString;
-@property(copy, nonatomic) NSArray *URLStringComponents;
-@property(copy, nonatomic) NSString *URLStringForLastSearch;
-@property(copy, nonatomic) NSString *lastSearchTerm;
-@property(nonatomic) _Bool matchedLastSearch;
 @property(readonly, copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *titleForLastSearch;
-@property(copy, nonatomic) NSArray *titleWords;
 @end
 

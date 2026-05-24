@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)FilterAttendees;
+- (id)FilterTitleAndNotes;
+- (id)LocalCalendarUUID;
+- (id)URLSanitized;
+- (id)isManagedByServer;
+- (Class)SubCalShouldRemoveAlarms;
+- (oneway void)NSt3__110__function6__funcIZN8Espresso3AOT25AOTCompilerOptionsManager4ImplC1ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_EUlRNS3_18AOTCompilerOptionsERKN7cxxopts11OptionValueEE0_FvSD_SH_EEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

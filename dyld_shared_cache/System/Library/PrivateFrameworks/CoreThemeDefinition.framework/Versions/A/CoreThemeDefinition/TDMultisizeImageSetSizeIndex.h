@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TDMultisizeImageSetProduction;
-
 @interface TDMultisizeImageSetSizeIndex
 {
 }
@@ -13,10 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) int height; // @dynamic height;
-@property(retain, nonatomic) NSSet *imageRenditions; // @dynamic imageRenditions;
-@property(nonatomic) short index; // @dynamic index;
-@property(retain, nonatomic) TDMultisizeImageSetProduction *multisizeImageSetProduction; // @dynamic multisizeImageSetProduction;
-@property(retain, nonatomic) NSSet *multisizeImageSetRenditions; // @dynamic multisizeImageSetRenditions;
-@property(nonatomic) int width; // @dynamic width;
 @end
 

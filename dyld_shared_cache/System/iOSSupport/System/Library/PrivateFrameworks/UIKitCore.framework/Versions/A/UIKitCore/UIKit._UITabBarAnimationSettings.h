@@ -9,53 +9,35 @@
 @interface UIKit._UITabBarAnimationSettings
 {
     UIViewSpringAnimationBehaviorSettings *collapseIntermediateSpring;
-    UIViewSpringAnimationBehaviorSettings *collapseFinalSpring;
-    double collapseFinalSpringDelay;
-    UIViewSpringAnimationBehaviorSettings *expandIntermediateSpring;
-    UIViewSpringAnimationBehaviorSettings *expandFinalSpring;
-    double expandFinalSpringDelay;
-    UIViewSpringAnimationBehaviorSettings *scrollAwayHintResetSpring;
-    UIViewSpringAnimationBehaviorSettings *scrollAwayProgressSpring;
-    UIViewSpringAnimationBehaviorSettings *scrollAwayTrackingProgressSpring;
-    double scrollAwayProgressMultiplier;
 }
 
 + (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)8k;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (double)x?;
 - (id);
 - (id);
 - (double);
+- (id);
 - (id);
+- (double);
 - (id);
-- (double);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void)setHideSearchBar: /* Error: Ran out of types for this method. */;
+- (void)_setHideSearchBar: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)6dÔT²l;
 
 // Remaining properties
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *collapseFinalSpring; // @synthesize collapseFinalSpring;
-@property(nonatomic) double collapseFinalSpringDelay; // @synthesize collapseFinalSpringDelay;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *collapseIntermediateSpring; // @synthesize collapseIntermediateSpring;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *expandFinalSpring; // @synthesize expandFinalSpring;
-@property(nonatomic) double expandFinalSpringDelay; // @synthesize expandFinalSpringDelay;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *expandIntermediateSpring; // @synthesize expandIntermediateSpring;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *scrollAwayHintResetSpring; // @synthesize scrollAwayHintResetSpring;
-@property(nonatomic) double scrollAwayProgressMultiplier; // @synthesize scrollAwayProgressMultiplier;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *scrollAwayProgressSpring; // @synthesize scrollAwayProgressSpring;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *scrollAwayTrackingProgressSpring; // @synthesize scrollAwayTrackingProgressSpring;
 
 @end
 

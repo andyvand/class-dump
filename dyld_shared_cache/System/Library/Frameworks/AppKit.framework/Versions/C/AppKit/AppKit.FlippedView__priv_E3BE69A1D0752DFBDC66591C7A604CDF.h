@@ -15,10 +15,9 @@
 - (_Bool);
 - (_Bool)!xDùÑâ3ð1Â0@ù
 × ;
-- (id)artDrawingThread:(struct CGRect)arg1;
+- (id)_startDrawingThread:(struct CGRect)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool clipsToBounds;
 @property(nonatomic, readonly) _Bool flipped;
 
 @end

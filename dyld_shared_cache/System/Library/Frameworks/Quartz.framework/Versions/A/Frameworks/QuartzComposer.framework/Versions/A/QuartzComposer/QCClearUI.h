@@ -11,11 +11,10 @@
 @interface QCClearUI : QCInspector
 {
     NSButton *colorButton;
-    NSButton *depthButton;
 }
 
 + (id);
-- (void);
+- (void)&};
 - (void)s:(id)arg1 ];
 
 @end

@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (void)@"UISApplicationInitializationContext"16@0:(id)arg1 8;
-- (_Bool)eOfDayRect;
-- (id);
+- (_Bool)timeOfDayRect;
+- (id)_overlayForKeyCommand:(struct CGRect)arg1;
 - (void)IKit41_UILightEffectTransitionPreparationHandleP;
 - (void)^;
 

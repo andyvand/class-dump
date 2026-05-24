@@ -6,40 +6,27 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSString;
-
 @interface MPMediaPersistentIDsPredicate : MPMediaPredicate
 {
     long long *_persistentIDs;
-    _Bool _shouldContain;
-    unsigned long long _count;
 }
 
-+ (id);
++ (id)_sortClause;
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (const long long *);
 - (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)uploadAttachmentToCloudkitWithMessageGUID;
+- (id);
+- (unsigned long long)initWithTemporaryInMemoryDatabaseAndPerformMigrations: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) const long long *persistentIDs; // @synthesize persistentIDs=_persistentIDs;
-@property(readonly, nonatomic) _Bool shouldContain; // @synthesize shouldContain=_shouldContain;
-@property(readonly) Class superclass;
 
 @end
 

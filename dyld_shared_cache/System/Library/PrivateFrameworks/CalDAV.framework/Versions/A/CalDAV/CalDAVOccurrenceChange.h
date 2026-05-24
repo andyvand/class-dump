@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CalDAVOccurrenceChange
 {
     _Bool _isMaster;
-    ICSDate *_recurrenceID;
-    NSMutableDictionary *_changes;
 }
 
 + (id);
@@ -27,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,24 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool attachmentsChanged;
-@property(readonly, nonatomic) _Bool attendeesChanged;
 @property(retain, nonatomic) NSMutableDictionary *changes; // @synthesize changes=_changes;
-@property(readonly, nonatomic) _Bool dateTimeChanged;
-@property(readonly, nonatomic) _Bool descriptionChanged;
-@property(readonly, nonatomic) _Bool endTimeChanged;
-@property(nonatomic) _Bool isMaster; // @synthesize isMaster=_isMaster;
-@property(readonly, nonatomic) _Bool locationChanged;
-@property(readonly, nonatomic) _Bool participationChanged;
-@property(readonly, nonatomic) _Bool privateCommentChanged;
-@property(readonly, nonatomic) _Bool proposedStartDateChanged;
-@property(readonly, nonatomic) _Bool recurrenceChanged;
-@property(retain, nonatomic) ICSDate *recurrenceID; // @synthesize recurrenceID=_recurrenceID;
-@property(readonly, nonatomic) _Bool startTimeChanged;
-@property(readonly, nonatomic) _Bool statusChanged;
-@property(readonly, nonatomic) _Bool summaryChanged;
-@property(readonly, nonatomic) _Bool timeZoneChanged;
-@property(readonly, nonatomic) _Bool urlChanged;
 
 @end
 

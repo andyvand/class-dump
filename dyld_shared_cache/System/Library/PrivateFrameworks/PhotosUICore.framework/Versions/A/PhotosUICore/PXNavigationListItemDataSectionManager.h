@@ -6,25 +6,11 @@
 
 #import <PhotosUICore/PXDataSectionManager.h>
 
-@class NSDate, NSString, PHCollection, PHFetchResult, PXContentPrivacyController, PXDataSectionEnablementForwarder, PXLibraryFilterState, PXSidebarDataContext, PXTabBadgeModel;
-@protocol PXNavigationListItem;
+@class NSDate, PHFetchResult;
 
 @interface PXNavigationListItemDataSectionManager : PXDataSectionManager
 {
     NSDate *_lastDuplicatesProcessingCheckDate;
-    _Bool _enabled;
-    _Bool _hiddenWhenEmpty;
-    _Bool _isInitialDuplicateDetectorProcessingCompleted;
-    PXDataSectionEnablementForwarder *_enablementForwarder;
-    PHCollection *_collection;
-    id <PXNavigationListItem> _listItem;
-    PHFetchResult *_fetchResult;
-    PXTabBadgeModel *_badgeModel;
-    PXContentPrivacyController *_privacyController;
-    unsigned long long _lockState;
-    NSString *_accessoryTitle;
-    PXSidebarDataContext *_context;
-    PXLibraryFilterState *_libraryFilterState;
 }
 
 + (unsigned long long);
@@ -36,7 +22,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -46,46 +32,25 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)B;
 - (id);
-- (void);
+- (void)__bss;
+- (id)"TSDInteractiveCanvasController"16;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)agerTypeP;
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id)*;
 - (void)brary.suggestionsBanner.dismissed;
 - (id)nit];
-- (void)lable;
+- (void)noMemoryAvailable;
 - (void)UnspecifiedCodingKeys;
 - (id)o;
 - (id)ñ`Á:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryTitle; // @synthesize accessoryTitle=_accessoryTitle;
-@property(readonly, nonatomic) PXTabBadgeModel *badgeModel; // @synthesize badgeModel=_badgeModel;
-@property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic, getter=isCollectionEmpty) _Bool collectionEmpty;
-@property(readonly, nonatomic, getter=isCollectionVisible) _Bool collectionVisible;
-@property(readonly, nonatomic) PXSidebarDataContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) PXDataSectionEnablementForwarder *enablementForwarder; // @synthesize enablementForwarder=_enablementForwarder;
 @property(retain, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHiddenWhenEmpty) _Bool hiddenWhenEmpty; // @synthesize hiddenWhenEmpty=_hiddenWhenEmpty;
-@property(nonatomic) _Bool isInitialDuplicateDetectorProcessingCompleted; // @synthesize isInitialDuplicateDetectorProcessingCompleted=_isInitialDuplicateDetectorProcessingCompleted;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) id <PXNavigationListItem> listItem; // @synthesize listItem=_listItem;
-@property(nonatomic) unsigned long long lockState; // @synthesize lockState=_lockState;
-@property(readonly, nonatomic) PXContentPrivacyController *privacyController; // @synthesize privacyController=_privacyController;
-@property(readonly) Class superclass;
 
 @end
 

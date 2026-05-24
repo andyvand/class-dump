@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id)Values MSg::RangeSignalEncoder<0, 500>::encode(SignalValue) const [Min = 0, Max = 500] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id)yTopicsConfig;
+- (id)articleRecirculationQuaternaryTopicsConfig;
 - (void)~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateDatabase+Additions.m;
 
 // Remaining properties

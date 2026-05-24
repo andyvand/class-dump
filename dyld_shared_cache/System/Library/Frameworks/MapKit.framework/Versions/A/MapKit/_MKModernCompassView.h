@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, MKMapView, MKModernControlAppearanceHelper, NSArray, NSClickGestureRecognizer, NSCursor, NSImage, NSNumber, NSPanGestureRecognizer, NSString, NSView;
+@class MKModernControlAppearanceHelper;
 
 @interface _MKModernCompassView
 {
     MKModernControlAppearanceHelper *_appearanceHelper;
-    CALayer *_compassLayerMain;
-    CALayer *_assetLayer;
-    NSImage *_compassAsset;
-    NSPanGestureRecognizer *_dragRecognizer;
-    NSClickGestureRecognizer *_tapRecognizer;
-    NSCursor *_currentCursor;
-    _Bool _userInteractionEnabled;
-    NSView *_effectiveAppearanceObserved;
-    struct CGPoint _dragMapScreenPoint;
-    double _compassRotationInitialOffset;
-    NSNumber *_lastMaybeDraggingNSNumber;
-    NSArray *_compassPointLocalizedAbbreviations;
-    int _lastDrawnCompassDirection;
-    _Bool _hovering;
-    _Bool _hoveringOnInnerRadius;
-    _Bool _dragging;
-    _Bool _maybeDragging;
-    MKMapView *_mapView;
-    double _mapHeading;
 }
 
 + (id);
@@ -36,22 +17,22 @@
 - (void);
 - (void);
 - (id);
+- (void)tion;
+- (void)1Duration;
+- (void)_cpuEnergyBilledToMe;
+- (void)y",&,N,V_lastPowerlogResponse;
+- (void)bundleForClass:(_Bool)arg1;
+- (void)PLQuickEnergySnapshot;
+- (void)PLDuetActivitySchedulerUsageSnapshot;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)xpc message for client id:%d withKey:%@ withPayload:%@ dispatching... /* Error: Ran out of types for this method. */;
+- (_Bool)pple.powerlog.sysdiagnose;
+- (double)ce;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -61,9 +42,9 @@
 - (void);
 - (void);
 - (void);
+- (void)sU;
 - (void);
-- (void);
-- (void);
+- (void)recordIdentifiers;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -72,30 +53,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%llu) has allocated;
 - (void);
-- (void);
-- (id)otationStyle:size:forScale: /* Error: Ran out of types for this method. */;
+- (void)setLocationName: /* Error: Ran out of types for this method. */;
+- (id)imageForRouteAnnotationStyle:size:forScale: /* Error: Ran out of types for this method. */;
 - (void)"NSImage",&,N,VleftEdgeFill;
 - (void)ray",R,N,G_searchEnrichmentPhotos;
 - (void)SString",C,N,V_naturalLanguageQuery;
 - (void)ÿMç;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragGestureEnabled) _Bool dragGestureEnabled;
-@property(nonatomic) _Bool dragging; // @synthesize dragging=_dragging;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hovering; // @synthesize hovering=_hovering;
-@property(nonatomic) _Bool hoveringOnInnerRadius; // @synthesize hoveringOnInnerRadius=_hoveringOnInnerRadius;
-@property(nonatomic) double mapHeading; // @synthesize mapHeading=_mapHeading;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool maybeDragging; // @synthesize maybeDragging=_maybeDragging;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool userInteractionEnabled;
 
 @end

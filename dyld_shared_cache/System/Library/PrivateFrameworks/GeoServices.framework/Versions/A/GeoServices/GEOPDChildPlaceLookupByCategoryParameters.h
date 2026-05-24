@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDChildPlaceLookupByCategoryParameters
 {
     PBUnknownFields *_unknownFields;
-    NSData *_categoryMetadata;
-    unsigned long long _parentMuid;
-    struct {
-        unsigned int has_parentMuid:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)read_submissionResult"b1"read_tdmFraudNotificationResult"b1"wrote_anyField"b1};
-- (id)Parameters;
+- (id)_categoryLookupParameters;
 - (id)ð`´8¤`´¼= a´pb´üDc´4¹øc´@Û¬d´Hþ`e´P!f´È@Èf´j|g´xvüg´è|h´øÄh´i´Ti´(i´¬äi´xÁHj´ÄÇ`j´Tì¬j´ðÔj´Ð'n´(8n´4)\n´ä)n´*¤n´L+Èn´;
 - (void)üÿûÿþÿùÿüÿûÿýÿøÿþÿüÿýÿÿÿúÿþÿøÿûÿýÿûÿùÿúÿøÿýÿûÿüÿõÿöÿúÿùÿýÿùÿþÿ÷ÿèÿÿÿçÿÿÿåÿÿÿêÿÿÿãÿÿÿëÿÿÿäÿÿÿìÿÿÿéÿÿÿþÿÿÿöÿÿÿûÿÿÿèÿÿÿãÿÿÿåÿÿÿúÿÿÿôÿÿÿøÿÿÿêÿÿÿýÿÿÿìÿÿÿëÿÿÿüÿÿÿâÿÿÿõÿÿÿÿÿÿÿûÿúÿøÿ÷ÿ÷ÿõÿùÿøÿüÿÿÿýÿúÿùÿüÿúÿûÿ;
 

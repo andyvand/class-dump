@@ -7,15 +7,6 @@
 @interface NewsUI2.MyMagazinesViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id offlineAlertControllerFactory;
-    id lastComputedSize;
-    id eventManager;
-    id blueprintHorizontalShimView;
 }
 
 - (void);

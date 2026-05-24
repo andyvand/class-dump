@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSRecursiveLock, NSString;
+@class NSRecursiveLock;
 @protocol EFLazyCacheDelegate;
 
 @interface EFLazyCache
 {
     NSRecursiveLock *_lock;
-    NSCache *_storage;
-    struct {
-        unsigned int delegateRespondsToLazyCacheWillEvictObject:1;
-    } _flags;
-    id <EFLazyCacheDelegate> _delegate;
 }
 
-- (long long);
+- (long long)= ?5 WHERE store_v2_id = ?1 AND uuid=?2;
 - (void);
 - (void);
 - (id);
@@ -27,20 +22,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ce %@:No mandatory characteristics /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EFLazyCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

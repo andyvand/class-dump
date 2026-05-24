@@ -7,7 +7,6 @@
 @interface FCNewsPersonalizationAggregateModificationData
 {
     double _clicks;
-    double _impressions;
 }
 
 - (id);
@@ -16,12 +15,11 @@
 × ;
 - (void)@ù
 × ;
-- (void)nfig;
+- (void)_shadowMagazineFeedArticleTopicsConfig;
 - (double)Operation];
 
 // Remaining properties
 @property(nonatomic) double clicks; // @synthesize clicks=_clicks;
-@property(nonatomic) double impressions; // @synthesize impressions=_impressions;
 
 @end
 

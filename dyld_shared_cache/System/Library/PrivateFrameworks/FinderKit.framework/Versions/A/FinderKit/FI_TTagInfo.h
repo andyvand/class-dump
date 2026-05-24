@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagInfo
 {
     struct TFENode _tagNode;
-    _Bool _visibleInSidebar;
-    _Bool _pinnedInSidebar;
-    _Bool _isAddTagPlaceholder;
-    NSString *_displayName;
-    long long _labelColor;
-    unsigned long long _numberOfItemsLackingThisTag;
 }
 
 + (id);
@@ -23,6 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,9 +25,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (id);
++ (void)a;
 + (long long);
 + (long long);
 + (long long);
@@ -42,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -58,20 +52,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id));
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool isAddTagPlaceholder; // @synthesize isAddTagPlaceholder=_isAddTagPlaceholder;
-@property(readonly, nonatomic) _Bool isDiscovered;
-@property(nonatomic) long long labelColor; // @synthesize labelColor=_labelColor;
-@property(nonatomic) unsigned long long numberOfItemsLackingThisTag; // @synthesize numberOfItemsLackingThisTag=_numberOfItemsLackingThisTag;
-@property(readonly, nonatomic) _Bool pinnedInSidebar; // @synthesize pinnedInSidebar=_pinnedInSidebar;
-@property(readonly, nonatomic) long long sidebarIndex;
-@property(nonatomic) _Bool visibleInSidebar; // @synthesize visibleInSidebar=_visibleInSidebar;
 
 @end
 

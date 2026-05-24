@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableOutputDevices;
-@property(nonatomic) unsigned int discoveryMode;
 @end
 

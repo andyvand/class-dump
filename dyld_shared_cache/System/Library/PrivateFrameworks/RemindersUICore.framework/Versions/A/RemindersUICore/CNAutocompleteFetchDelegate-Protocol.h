@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSError;
+@protocol CNCancelable;
+
 @protocol CNAutocompleteFetchDelegate
+- (void)addPreliminarySizeDelegate:(id <CNCancelable>)arg1 forComponent:(NSArray *)arg2;
+- (void)addPort:(id <CNCancelable>)arg1 forMode:(NSError *)arg2;
+
+@optional
+- (long long (^)(id, id))initWithType:(id <CNCancelable>)arg1 properties:value:permissions: /* Error: Ran out of types for this method. */;
+- (void)allSyntheticDirectoryPaths;
+- (void)allRecordsForSystem:(id <CNCancelable>)arg1;
+- (void)allOtherFilesInDirectory;
+- (void)allLocalRedirections;
+- (NSDictionary *)allGroupsForSystem:(id <CNCancelable>)arg1 reply:(NSArray *)arg2;
+- (_Bool)allEstablishedConnectionsChanged:(id <CNCancelable>)arg1;
 @end
 

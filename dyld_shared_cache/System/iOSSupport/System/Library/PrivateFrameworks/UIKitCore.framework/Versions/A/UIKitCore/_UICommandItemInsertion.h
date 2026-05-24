@@ -12,27 +12,22 @@ __attribute__((visibility("hidden")))
 @interface _UICommandItemInsertion : _UICommandChange
 {
     NSArray *_fallbacks;
-    NSArray *_insertsBefore;
-    NSArray *_insertsAfter;
 }
 
 + (id);
-+ (_Bool)boardSuggestionOptions;
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
++ (_Bool)TUIKeyboardSuggestionOptions;
+- (id)_processMonitorWaitingForInitialStateGroup;
+- (id)_processMonitorDeliveredFirstUpdate;
+- (id)_assetUUIDsToFileTransfers;
+- (id)&,N,V_syncStartDate;
+- (void)'+;
 - (_Bool);
 - (id);
-- (void)MaximumMovementDecay;
+- (void)rateOfMaximumMovementDecay;
 - (void)¤Áÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICommandIdentifier *anchor; // @dynamic anchor;
-@property(readonly, nonatomic) NSArray *fallbacks; // @synthesize fallbacks=_fallbacks;
-@property(readonly, nonatomic) NSArray *insertsAfter; // @synthesize insertsAfter=_insertsAfter;
-@property(readonly, nonatomic) NSArray *insertsBefore; // @synthesize insertsBefore=_insertsBefore;
 
 @end
 

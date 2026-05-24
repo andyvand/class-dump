@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSChronoServicesConnection, CHSWidgetConfiguration, NSString;
+@class NSString;
 
 @interface CHSWidgetHost
 {
     NSString *_identifier;
-    NSString *_loggingIdentifier;
-    CHSChronoServicesConnection *_connection;
-    unsigned long long _activationState;
-    _Bool _invalid;
-    CHSWidgetConfiguration *_configuration;
 }
 
 + (id);
@@ -24,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)hB;
 - (id);
 - (unsigned long long);
 - (void);
@@ -41,16 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(copy, nonatomic) CHSWidgetConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

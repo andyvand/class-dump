@@ -5,5 +5,8 @@
 //
 
 @protocol EKCalendarAccountEditItemDelegate
+
+@optional
+- (void);
 @end
 

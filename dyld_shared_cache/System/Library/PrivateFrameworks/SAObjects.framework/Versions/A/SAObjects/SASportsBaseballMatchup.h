@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASportsMatchup.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SASportsBaseballMatchup : SASportsMatchup
 {
@@ -26,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)*q;
 - (id);
 - (id);
 - (id);
@@ -41,16 +41,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *awayErrors;
-@property(copy, nonatomic) NSNumber *awayHits;
-@property(copy, nonatomic) NSNumber *balls;
-@property(copy, nonatomic) NSNumber *homeErrors;
-@property(copy, nonatomic) NSNumber *homeHits;
-@property(copy, nonatomic) NSString *inningStatus;
-@property(copy, nonatomic) NSNumber *onFirst;
-@property(copy, nonatomic) NSNumber *onSecond;
-@property(copy, nonatomic) NSNumber *onThird;
-@property(copy, nonatomic) NSNumber *outs;
-@property(copy, nonatomic) NSNumber *strikes;
 
 @end
 

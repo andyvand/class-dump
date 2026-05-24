@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SAIntentGroupProtobufMessage;
+@class NSArray;
 
 @interface SARemembersGetAppMatchesForIntent : SABaseClientBoundCommand
 {
@@ -27,15 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateBundleIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *protoEncodedIntent;
-@property(readonly) Class superclass;
 
 @end
 

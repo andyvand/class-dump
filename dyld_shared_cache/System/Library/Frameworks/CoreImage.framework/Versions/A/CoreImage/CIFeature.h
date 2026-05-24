@@ -11,12 +11,11 @@
 }
 
 - (id);
-- (id);
+- (id)?;
 - (struct CGRect);
 - (id)ww~~~~{{{{A^So[h^v®®®®´´´´¡¡¡¡~gtnwyyyy}|z~p~~~~XhbmITGbBXLhftq~dzu||w|{vuuuuooooxxxx_ssxVe]sdur~jy|xqxs{`rmwijbpI[Oiig_lvvvvxxxx`njq]f_n]lfuo{z~~~~~mtpyzwuzo~xxxx~~~~_ldyUdYv¡¡¡¡¥¥¥¥|{{{{opnpmmmmoooollllkkkkrrrruyyyq|||jrqtH^WjE^WeYd_fJc^jssssvvvvmmmmZe`ekkkk©©©©¡¢kiQdYpcnfv¥¥¥¥}\h^okjcoXqnwyzzzuuuubmgptpku}r_spxee]e;QD]K\SerrrrttttkkkkO`WcQ[Pb>WJfGbYo||||kwu|oqlvomgoO_Vf;
 
 // Remaining properties
-@property(readonly) struct CGRect bounds;
 @property(readonly, retain) NSString *type;
 
 @end

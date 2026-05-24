@@ -10,7 +10,7 @@
 
 + (void);
 + (_Bool);
-+ (struct CGColorSpace *);
++ (struct CGColorSpace *)TD;
 + (struct ColorSyncProfile *);
 + (struct CGColorSpace *);
 + (id);

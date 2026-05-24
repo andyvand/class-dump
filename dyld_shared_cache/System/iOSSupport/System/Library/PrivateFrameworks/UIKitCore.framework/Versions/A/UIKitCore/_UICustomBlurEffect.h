@@ -6,61 +6,45 @@
 
 #import <UIKitCore/UIBlurEffect.h>
 
-@class UIColor;
-
 @interface _UICustomBlurEffect : UIBlurEffect
 {
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
+- (void)?56;
+- (void)updateAndReturnLQMStateAfterPreviewAttachmentSizeEnabled;
+- (void)updateAlternateHandle:(double)arg1 forChatBotHandle:refreshUI: /* Error: Ran out of types for this method. */;
+- (void)sharedRegistry;
+- (void)sharedOTPDefaults;
+- (void)sharedMomentSharePhotoLibrary;
+- (void)sharedListener;
+- (void)setOscarFilteredChat:(double)arg1;
+- (void)setOscarChat:(id)arg1;
+- (void)setOriginalMessageTimestamp:(double)arg1;
+- (void)setOriginalMessageGuid:(double)arg1;
+- (_Bool)createMessageItemWithRecordRef:handle: /* Error: Ran out of types for this method. */;
+- (double)_checkMMSEnablementForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (double)_checkMMSEnablementForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (double)IMDCKRecoverableMessageSyncController;
+- (double)IMDaemonCoreIncomingMessageTracking;
+- (double)IMDaemonCoreMessageReceivedTimingAdditions;
+- (_Bool)IMDCarrierReportJunkHelper;
 - (double);
 - (id);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double)archController"24@0:8@"UINavigationItem"16 /* Error: Ran out of types for this method. */;
-- (double)ompositingFilterProvider: /* Error: Ran out of types for this method. */;
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (double)setItemSubtitleCompositingFilterProvider: /* Error: Ran out of types for this method. */;
+- (id)setAutocorrection: /* Error: Ran out of types for this method. */;
 - (void)4\`\Ð\;
 - (double)ete the temporary store dir %@, %@;
 - (void)isual style that does not support back buttons (button=%p, visual style=%@);
 
 // Remaining properties
-@property(nonatomic) double blurRadius;
-@property(nonatomic) double colorBurnTintAlpha;
-@property(nonatomic) double colorBurnTintLevel;
-@property(retain, nonatomic) UIColor *colorTint;
-@property(nonatomic) double colorTintAlpha;
-@property(nonatomic) _Bool darkenWithSourceOver;
-@property(nonatomic) double darkeningTintAlpha;
-@property(nonatomic) double darkeningTintHue;
-@property(nonatomic) double darkeningTintSaturation;
-@property(nonatomic) double grayscaleTintAlpha;
 @property(nonatomic) double grayscaleTintLevel;
-@property(nonatomic) _Bool lightenGrayscaleWithSourceOver;
-@property(nonatomic) double saturationDeltaFactor;
-@property(nonatomic) double scale;
-@property(nonatomic) double zoom;
 
 @end
 

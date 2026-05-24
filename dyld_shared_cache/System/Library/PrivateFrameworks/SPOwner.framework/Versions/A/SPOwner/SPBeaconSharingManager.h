@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString, SPRetryCount;
-@protocol OS_dispatch_queue, SPBeaconSharingXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SPBeaconSharingManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_serviceDescription;
-    id <SPBeaconSharingXPCProtocol> _proxy;
-    CDUnknownBlockType _shareUpdateBlock;
-    SPRetryCount *_retryCount;
 }
 
-+ (id);
++ (id)A;
 + (id);
 - (void);
 - (void);
@@ -37,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,19 +64,7 @@ __attribute__((visibility("hidden")))
 - (void)mpletion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPBeaconSharingXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SPRetryCount *retryCount; // @synthesize retryCount=_retryCount;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType shareUpdateBlock; // @synthesize shareUpdateBlock=_shareUpdateBlock;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NEIPv6Settings
 {
     NSArray *_addresses;
-    NSArray *_networkPrefixLengths;
-    NSArray *_includedRoutes;
-    NSArray *_excludedRoutes;
-    long long _configMethod;
-    NSString *_router;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)setPretendingToBeFull: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)T�;
 - (void);
 - (id);
 - (id);
@@ -30,10 +25,11 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)tup client start:(id)arg1 XID 0x%X
+;
 - (id);
 - (id);
 - (void);
@@ -43,12 +39,7 @@
 - (id)ed to negotiate Childless SA (connect);
 
 // Remaining properties
-@property(readonly) NSArray *addresses; // @synthesize addresses=_addresses;
 @property long long configMethod; // @synthesize configMethod=_configMethod;
-@property(copy) NSArray *excludedRoutes; // @synthesize excludedRoutes=_excludedRoutes;
-@property(copy) NSArray *includedRoutes; // @synthesize includedRoutes=_includedRoutes;
-@property(readonly) NSArray *networkPrefixLengths; // @synthesize networkPrefixLengths=_networkPrefixLengths;
-@property(copy) NSString *router; // @synthesize router=_router;
 
 @end
 

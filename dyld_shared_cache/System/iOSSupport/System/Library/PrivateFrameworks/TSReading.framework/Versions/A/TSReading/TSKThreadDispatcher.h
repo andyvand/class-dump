@@ -9,7 +9,7 @@
 }
 
 + (id)ctToParagraphRange(id, NSRange, TSWPParagraphAttributeArray *, TSWPStorageTransaction *);
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -7,13 +7,6 @@
 @interface ChatKit.AudioMessageWaveform
 {
     id color;
-    id currentTime;
-    id playing;
-    id duration;
-    id audioMediaObject;
-    id waveform;
-    id cachedWidth;
-    id cachedColor;
 }
 
 - (id);

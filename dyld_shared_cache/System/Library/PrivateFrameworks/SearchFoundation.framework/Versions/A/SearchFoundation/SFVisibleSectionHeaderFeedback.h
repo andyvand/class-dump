@@ -11,21 +11,19 @@
 @interface SFVisibleSectionHeaderFeedback : SFFeedback
 {
     SFResultSection *_section;
-    unsigned long long _headerType;
 }
 
 + (_Bool);
-- (id);
+- (id)g>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}};
 - (void);
-- (id);
-- (void);
+- (id)B;
+- (void)supportsSecureCoding;
 - (void);
 - (id);
 - (unsigned long long);
-- (void)rchType:indexType:queryId: /* Error: Ran out of types for this method. */;
+- (void)initWithInput:triggerEvent:searchType:indexType:queryId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long headerType; // @synthesize headerType=_headerType;
 @property(copy, nonatomic) SFResultSection *section; // @synthesize section=_section;
 
 @end

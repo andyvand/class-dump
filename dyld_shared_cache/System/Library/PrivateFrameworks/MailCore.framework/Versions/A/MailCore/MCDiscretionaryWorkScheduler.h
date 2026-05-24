@@ -5,52 +5,38 @@
 //
 
 @class NSObject;
-@protocol MCDiscretionaryWorkSchedulerDelegate, MCNetworkTracker;
+@protocol MCNetworkTracker;
 
 @interface MCDiscretionaryWorkScheduler
 {
     id _schedulerLock;
-    unsigned long long _conditions;
-    unsigned long long _unsatisfiedConditions;
-    _Bool _overrideConditions;
-    NSObject<MCNetworkTracker> *_networkTracker;
-    _Bool _hasDeferrableWork;
-    _Bool _suspended;
-    id <MCDiscretionaryWorkSchedulerDelegate> _delegate;
 }
 
 + (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)K;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)c;
 - (id);
 - (id);
-- (void);
+- (void)setTrackNum:(id)arg1;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property unsigned long long conditions;
-@property(readonly) _Bool deferDiscretionaryWork;
-@property(nonatomic) __weak id <MCDiscretionaryWorkSchedulerDelegate> delegate;
-@property _Bool hasDeferrableWork;
 @property(nonatomic) __weak NSObject<MCNetworkTracker> *networkTracker;
-@property _Bool overrideConditions;
-@property _Bool suspended;
-@property(readonly) unsigned long long unsatisfiedConditions;
 
 @end
 

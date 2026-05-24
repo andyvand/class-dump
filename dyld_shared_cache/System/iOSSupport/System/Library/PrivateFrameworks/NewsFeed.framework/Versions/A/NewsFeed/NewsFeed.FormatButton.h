@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NewsFeed.FormatButton
 {
     id identifier;
-    id onTap;
-    id onLongPress;
-    id isLongPressEnabled;
-    id formatLayoutView;
-    id accessibilityRenderer;
-    id longPressGesture;
-    id createMenuElementsBlock;
-    id overriddenStateMask;
-    id renderBlock;
-    id lastRenderStateMask;
-    id viewportDisplayState;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)`V;
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)|u;
 - (void);
+- (id)8;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)(O;
+- (void)mAtURL:(id)arg1 recursively:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -48,7 +35,7 @@
 × ;
 - (void)Ä²³(³P³³Ø³$´X´¤´Ø´;
 - (_Bool)Ú[ðÿxAïÿ~<ïÿñÿEïÿ bðÿRîïÿXñÿ;
-- (void)elector;
+- (void)selector;
 - (void)x3ImageURL_6;
 - (void)Á,Òãÿá,<ËãÿÑ,dËãÿñ,Ëãÿ,ÈËãÿy,ÜËãÿ,ðËãÿ¡,ÌãÿÙ,Ìãÿ;
 - (id);
@@ -60,19 +47,6 @@
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContainerType;
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic, copy) NSString *accessibilityHint;
-@property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityLanguage;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) _Bool highlighted;
-@property(nonatomic) _Bool isAccessibilityElement;
-@property(nonatomic) _Bool selected;
-@property(nonatomic, copy) NSString *ts_accessibilityElementHelp;
 
 @end
 

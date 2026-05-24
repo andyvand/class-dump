@@ -11,13 +11,12 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)%@ | Duration of Sync %.04f Minutes <EndCoreDuetAttemptInfo>;
 - (unsigned int);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int deviceID;
-@property(readonly, nonatomic) long long errorCode;
 
 @end
 

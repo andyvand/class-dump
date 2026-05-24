@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCPLStatus;
+@class PXCPLStatus;
 
 @interface PXMockCPLStatusProvider
 {
     _Bool _userDefaultsMocks;
-    PXCPLStatus *_status;
 }
 
 + (id);
@@ -18,24 +17,17 @@
 + (id);
 - (double);
 - (id);
+- (void);
+- (void)PromotedCodingKeys;
+- (void);
+- (id)?;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)raryFilterStateObservation;
+- (id)_libraryFilterStateObservation;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXCPLStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

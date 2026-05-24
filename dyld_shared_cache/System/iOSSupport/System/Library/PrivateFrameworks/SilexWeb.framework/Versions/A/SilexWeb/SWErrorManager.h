@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 @protocol SWLogger;
 
 @interface SWErrorManager
 {
     NSError *_error;
-    CDUnknownBlockType _block;
-    id <SWLogger> _logger;
 }
 
 - (id);
@@ -21,19 +19,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id)ject: /* Error: Ran out of types for this method. */;
+- (id)setWithObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic, setter=onError:) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

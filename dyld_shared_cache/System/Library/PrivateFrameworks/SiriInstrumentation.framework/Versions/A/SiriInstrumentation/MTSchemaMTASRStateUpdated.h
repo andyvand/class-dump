@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTASRStateUpdated : SISchemaInstrumentationMessage
 {
     int _asrState;
-    struct {
-        unsigned int asrState:1;
-    } _has;
 }
 
 - (void);
@@ -22,20 +17,18 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)EVP_PKEY_encrypt;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)1ßÐ1Â0@ù
 × ;
 - (id)_hasBatch_info;
-- (id)teEndReason;
+- (id)deleteEndReason;
 
 // Remaining properties
 @property(nonatomic) int asrState; // @synthesize asrState=_asrState;
-@property(nonatomic) _Bool hasAsrState;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKAnnotatedCredentialManifest, NSMutableDictionary, NSSet;
+@class CRKAnnotatedCredentialManifest;
 
 @interface CRKASMCredentialManifest
 {
     CRKAnnotatedCredentialManifest *_annotatedManifest;
-    NSMutableDictionary *_entriesByPersistentID;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CRKAnnotatedCredentialManifest *annotatedManifest; // @synthesize annotatedManifest=_annotatedManifest;
-@property(readonly, nonatomic) NSMutableDictionary *entriesByPersistentID; // @synthesize entriesByPersistentID=_entriesByPersistentID;
-@property(readonly, copy, nonatomic) NSSet *persistentIDs;
 
 @end
 

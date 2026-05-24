@@ -4,80 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface IMDGroupConvergenceContext
 {
     unsigned char _chatStyle;
-    _Bool _isBlackholed;
-    _Bool _isReflection;
-    _Bool _allowSelfRemoval;
-    NSString *_chatIdentifier;
-    NSArray *_currentParticipants;
-    NSString *_groupID;
-    NSArray *_toParticipants;
-    NSArray *_participantsToAdd;
-    NSArray *_participantsToRemove;
-    NSString *_messageID;
-    NSDictionary *_participantChangeGUIDs;
-    NSString *_toIdentifier;
-    NSString *_fromIdentifier;
-    IMDAccount *_account;
 }
 
 - (id);
 - (id);
+- (void);
+- (void);
+- (void)D;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id).;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)$B !!  b&;
+- (id)f;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (unsigned char);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)geTimerInterval;
+- (void)storageTimerInterval;
 - (void)ü¼
 8ÀTÄ;
 - (id)oticeDispatcher reflectDismissalForNoticeGUIDs:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(nonatomic) _Bool allowSelfRemoval; // @synthesize allowSelfRemoval=_allowSelfRemoval;
 @property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
-@property(retain, nonatomic) NSArray *currentParticipants; // @synthesize currentParticipants=_currentParticipants;
-@property(retain, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) _Bool isBlackholed; // @synthesize isBlackholed=_isBlackholed;
-@property(nonatomic) _Bool isReflection; // @synthesize isReflection=_isReflection;
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(retain, nonatomic) NSDictionary *participantChangeGUIDs; // @synthesize participantChangeGUIDs=_participantChangeGUIDs;
-@property(retain, nonatomic) NSArray *participantsToAdd; // @synthesize participantsToAdd=_participantsToAdd;
-@property(retain, nonatomic) NSArray *participantsToRemove; // @synthesize participantsToRemove=_participantsToRemove;
-@property(retain, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
-@property(retain, nonatomic) NSArray *toParticipants; // @synthesize toParticipants=_toParticipants;
 
 @end
 

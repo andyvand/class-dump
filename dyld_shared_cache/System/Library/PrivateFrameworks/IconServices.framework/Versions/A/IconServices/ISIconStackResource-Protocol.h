@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISGenerationReport;
-
 @protocol ISIconStackResource
+- (void);
 
 // Remaining properties
-@property(retain) ISGenerationReport *generationReport;
 @property(readonly) unsigned long long platform;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol EKExpandedReminderStackLayoutDelegate
+- (_Bool);
+- (struct CGRect)s;
+- (_Bool)%s;
 @end
 

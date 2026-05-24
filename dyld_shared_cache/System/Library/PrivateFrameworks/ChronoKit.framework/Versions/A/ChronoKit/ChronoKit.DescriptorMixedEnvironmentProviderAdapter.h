@@ -9,10 +9,6 @@
 @interface ChronoKit.DescriptorMixedEnvironmentProviderAdapter : ChronoKit.EnvironmentProvider
 {
     id _cancellable;
-    id _sourceEnvironmentProvider;
-    id _logIdentifier;
-    id _lock;
-    id _lock_descriptor;
 }
 
 @end

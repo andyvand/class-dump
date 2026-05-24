@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGameCenterData, IDSIDKTData, NSArray, NSString;
+@class NSString;
 
 @interface IDSIDInfoResult
 {
     NSString *_uri;
-    long long _status;
-    NSArray *_endpoints;
-    IDSIDKTData *_ktData;
-    IDSGameCenterData *_gameCenterData;
 }
 
 + (_Bool);

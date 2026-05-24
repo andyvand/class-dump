@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotosTabBadgesModel
 {
     id _badgeSourcesByTab;
-    id _$observationRegistrar;
 }
 
 @end

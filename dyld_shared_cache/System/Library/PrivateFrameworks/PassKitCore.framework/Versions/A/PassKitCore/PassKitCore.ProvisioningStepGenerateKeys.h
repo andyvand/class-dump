@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepGenerateKeys
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

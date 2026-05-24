@@ -9,7 +9,6 @@
 @interface SXPhoneNumberAction
 {
     SXJSONDictionary *analytics;
-    NSString *_phoneNumber;
 }
 
 - (id);
@@ -20,16 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

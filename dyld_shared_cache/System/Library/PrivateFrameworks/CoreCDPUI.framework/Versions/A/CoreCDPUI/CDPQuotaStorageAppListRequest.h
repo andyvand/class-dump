@@ -9,27 +9,22 @@
 @interface CDPQuotaStorageAppListRequest
 {
     NSString *_urlStringFormat;
-    unsigned long long _appList;
-    _Bool _contentSpecifiesE2EE;
-    ACAccount *_account;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)5;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) unsigned long long appList; // @synthesize appList=_appList;
-@property(readonly, nonatomic) _Bool contentSpecifiesE2EE; // @synthesize contentSpecifiesE2EE=_contentSpecifiesE2EE;
 
 @end
 

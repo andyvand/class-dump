@@ -9,10 +9,6 @@
 @interface PXVideoStabilizationRecipeSource
 {
     long long _recipeLoadSignpost;
-    _Bool _allowsOnDemandPixelAnalysis;
-    unsigned long long _allowedAnalysisTypes;
-    NSDictionary *_debugInfo;
-    NSDictionary *_analyticsPayload;
 }
 
 - (void);
@@ -29,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedAnalysisTypes; // @synthesize allowedAnalysisTypes=_allowedAnalysisTypes;
-@property(nonatomic) _Bool allowsOnDemandPixelAnalysis; // @synthesize allowsOnDemandPixelAnalysis=_allowsOnDemandPixelAnalysis;
-@property(copy, nonatomic) NSDictionary *analyticsPayload; // @synthesize analyticsPayload=_analyticsPayload;
 @property(copy, nonatomic) NSDictionary *debugInfo; // @synthesize debugInfo=_debugInfo;
 
 @end

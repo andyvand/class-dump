@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TestTelemetry
 {
     double _termination_threshold;
-    double _remove_threshold;
-    NSMutableArray *_terminationFailures;
-    NSMutableArray *_removeFailures;
-    NSObject<OS_dispatch_queue> *_q;
-    unsigned long long _files_deleted;
 }
 
 + (id);
@@ -32,18 +27,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)ch expected (%@ != %@) (responder rekey child followup KE);
+- (unsigned long long)initWithActivites:betweenDate:andDate: /* Error: Ran out of types for this method. */;
+- (id)V;
 - (void);
 
 // Remaining properties
-@property unsigned long long files_deleted; // @synthesize files_deleted=_files_deleted;
 @property(readonly) NSObject<OS_dispatch_queue> *q; // @synthesize q=_q;
-@property(retain, nonatomic) NSMutableArray *removeFailures; // @synthesize removeFailures=_removeFailures;
-@property double remove_threshold; // @synthesize remove_threshold=_remove_threshold;
-@property(retain, nonatomic) NSMutableArray *terminationFailures; // @synthesize terminationFailures=_terminationFailures;
-@property double termination_threshold; // @synthesize termination_threshold=_termination_threshold;
 
 @end
 

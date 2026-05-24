@@ -7,9 +7,9 @@
 @class PXStoryResourcesDataSource;
 
 @protocol PXStoryDisplayAssetFetchResult
+- (PXStoryResourcesDataSource *);
 
 // Remaining properties
-@property(readonly, nonatomic) const long long *resourceIndexes;
 @property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource;
 @end
 

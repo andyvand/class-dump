@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKAccountTransferExternalAccount, PKAccountTransferScheduleDetails, PKCurrencyAmount;
+@class NSString;
 
 @interface PKAccountTransfer
 {
     _Bool _cancellable;
-    NSString *_identifier;
-    NSString *_referenceIdentifier;
-    NSString *_clientReferenceIdentifier;
-    PKCurrencyAmount *_currencyAmount;
-    PKCurrencyAmount *_holdAmount;
-    NSDate *_transferDate;
-    NSDate *_transferStatusDate;
-    NSDate *_cancellationExpiryDate;
-    NSDate *_expectedCompletionDate;
-    unsigned long long _state;
-    long long _statusCode;
-    PKAccountTransferExternalAccount *_externalAccount;
-    PKAccountTransferScheduleDetails *_scheduleDetails;
-    unsigned long long _type;
 }
 
 + (id);
@@ -48,23 +34,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)qa;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (id)@;
+- (unsigned long long);
+- (void);
+- (unsigned long long)[@;
+- (unsigned long long),7;
+- (_Bool)addBatteryVoltageBucketed:(id)arg1;
+- (void);
+- (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id)
 × ;
@@ -73,28 +59,7 @@
 - (void)` ";
 
 // Remaining properties
-@property(nonatomic) _Bool cancellable; // @synthesize cancellable=_cancellable;
-@property(copy, nonatomic) NSDate *cancellationExpiryDate; // @synthesize cancellationExpiryDate=_cancellationExpiryDate;
-@property(copy, nonatomic) NSString *clientReferenceIdentifier; // @synthesize clientReferenceIdentifier=_clientReferenceIdentifier;
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *expectedCompletionDate; // @synthesize expectedCompletionDate=_expectedCompletionDate;
-@property(retain, nonatomic) PKAccountTransferExternalAccount *externalAccount; // @synthesize externalAccount=_externalAccount;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKCurrencyAmount *holdAmount; // @synthesize holdAmount=_holdAmount;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(retain, nonatomic) PKAccountTransferScheduleDetails *scheduleDetails; // @synthesize scheduleDetails=_scheduleDetails;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *transferDate; // @synthesize transferDate=_transferDate;
-@property(copy, nonatomic) NSDate *transferStatusDate; // @synthesize transferStatusDate=_transferStatusDate;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

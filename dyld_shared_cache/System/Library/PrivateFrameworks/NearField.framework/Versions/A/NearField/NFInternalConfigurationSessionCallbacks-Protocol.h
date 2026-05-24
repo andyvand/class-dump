@@ -5,5 +5,6 @@
 //
 
 @protocol NFInternalConfigurationSessionCallbacks
+- (void)*getCNPostalAddressISOCountryCodeKey(void);
 @end
 

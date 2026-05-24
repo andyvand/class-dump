@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _MRRemoteTextInputMessageProtobuf
 {
     double _timestamp;
-    unsigned long long _version;
-    NSData *_data;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -26,26 +18,21 @@
 - (double);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)immediatelyReachable;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (id);
-- (id);
+- (id)Mutating>"8;
 - (_Bool);
-- (void)dentifiers:withReply: /* Error: Ran out of types for this method. */;
+- (void)acquireRouteRecommendationAssertionForIdentifiers:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool hasData;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

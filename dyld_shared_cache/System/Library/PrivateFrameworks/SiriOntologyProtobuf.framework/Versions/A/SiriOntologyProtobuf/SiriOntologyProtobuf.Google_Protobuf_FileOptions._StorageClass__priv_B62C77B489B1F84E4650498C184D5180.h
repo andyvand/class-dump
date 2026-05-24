@@ -7,26 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_FileOptions._StorageClass__priv_B62C77B489B1F84E4650498C184D5180
 {
     id _javaPackage;
-    id _javaOuterClassname;
-    id _javaMultipleFiles;
-    id _javaGenerateEqualsAndHash;
-    id _javaStringCheckUtf8;
-    id _optimizeFor;
-    id _goPackage;
-    id _ccGenericServices;
-    id _javaGenericServices;
-    id _pyGenericServices;
-    id _phpGenericServices;
-    id _deprecated;
-    id _ccEnableArenas;
-    id _objcClassPrefix;
-    id _csharpNamespace;
-    id _swiftPrefix;
-    id _phpClassPrefix;
-    id _phpNamespace;
-    id _phpMetadataNamespace;
-    id _rubyPackage;
-    id _uninterpretedOption;
 }
 
 @end

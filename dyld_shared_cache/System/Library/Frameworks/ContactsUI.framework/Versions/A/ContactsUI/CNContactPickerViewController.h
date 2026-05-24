@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPickerInProccessViewController, NSArray, NSString;
-@protocol CNContactPickerViewControllerDelegate;
+@class NSArray;
 
 @interface CNContactPickerViewController
 {
     _Bool _shouldHighlightSelectedContact;
-    CNContactPickerInProccessViewController *_serviceController;
-    NSArray *_displayedKeys;
-    id <CNContactPickerViewControllerDelegate> _delegate;
-    _Bool _allowsNamePicking;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,31 +23,20 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)A9;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)45CarrierSpacePlanProvisioningDelegateInterface;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNamePicking; // @synthesize allowsNamePicking=_allowsNamePicking;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CNContactPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *displayedKeys; // @synthesize displayedKeys=_displayedKeys;
-@property(readonly) unsigned long long hash;
-@property(getter=isSearchFieldVisible) _Bool searchFieldVisible;
-@property(readonly, nonatomic) NSArray *selectedContacts;
-@property(readonly) Class superclass;
 
 @end
 

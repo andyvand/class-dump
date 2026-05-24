@@ -8,19 +8,15 @@ __attribute__((visibility("hidden")))
 @interface PRLexiconCorrection
 {
     unsigned int _tokenID;
-    double _score;
-    unsigned long long _errorType;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (double);
-- (unsigned int);
+- (unsigned int)Cache-Control header for URL:%{public}@, taskID:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long errorType; // @synthesize errorType=_errorType;
-@property(readonly) double score; // @synthesize score=_score;
 @property(readonly) unsigned int tokenID; // @synthesize tokenID=_tokenID;
 
 @end

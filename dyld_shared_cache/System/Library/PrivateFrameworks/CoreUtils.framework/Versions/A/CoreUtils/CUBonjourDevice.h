@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID;
+@class NSDictionary;
 
 @interface CUBonjourDevice
 {
     unsigned char _deviceIDBytes[6];
-    NSUUID *_identifier;
-    NSString *_model;
-    NSString *_name;
-    NSString *_serviceType;
-    NSDictionary *_txtDictionary;
-    NSData *_txtData;
-    NSDictionary *_deviceInfo;
-    NSString *_identifierStr;
-    NSUUID *_identifierUUID;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)y;
+- (id)initWithRelyingPartyIdentifier:challengeString:userIDString:credentialName: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -42,21 +33,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)4h;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *identifierStr; // @synthesize identifierStr=_identifierStr;
-@property(copy, nonatomic) NSUUID *identifierUUID; // @synthesize identifierUUID=_identifierUUID;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) NSData *txtData; // @synthesize txtData=_txtData;
-@property(readonly, copy, nonatomic) NSDictionary *txtDictionary; // @synthesize txtDictionary=_txtDictionary;
 
 @end
 

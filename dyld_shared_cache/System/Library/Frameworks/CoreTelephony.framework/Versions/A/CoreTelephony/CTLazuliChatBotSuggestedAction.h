@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotSuggestion;
-
 @interface CTLazuliChatBotSuggestedAction
 {
     long long _type;
-    CTLazuliChatBotSuggestion *_suggestion;
-    id _action;
 }
 
-+ (_Bool);
++ (_Bool)gmentRequestEvent:%p %@ indexFileURL:%@ isMapSegment:%d mediaType:%@ segmentDuration:%f mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -22,18 +18,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)?=qiIq}{?=qiIq}}24@72Q80;
 - (id);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (id)1Â0@ù
 × ;
 - (void)&ð!¨Dùª)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id action; // @synthesize action=_action;
-@property(retain, nonatomic) CTLazuliChatBotSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

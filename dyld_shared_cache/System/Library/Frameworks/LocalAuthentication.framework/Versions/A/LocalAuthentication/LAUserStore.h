@@ -7,8 +7,6 @@
 @interface LAUserStore
 {
     id controller;
-    id database;
-    id disk;
 }
 
 + (id);
@@ -17,19 +15,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hh8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (id);
+- (_Bool)C;
+- (_Bool);
+- (_Bool)B;
+- (id);
+- (id)C;
 - (id);
 - (id);
 - (_Bool);

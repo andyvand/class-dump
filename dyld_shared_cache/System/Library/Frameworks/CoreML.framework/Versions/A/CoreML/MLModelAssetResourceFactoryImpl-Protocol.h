@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
+@class MLModelAssetDescription, MLModelStructure, NSURL;
 
 @protocol MLModelAssetResourceFactoryImpl
+- (MLModelStructure *)VisibleFunctionTableType;
+- (MLModelAssetDescription *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *compiledModelURL;

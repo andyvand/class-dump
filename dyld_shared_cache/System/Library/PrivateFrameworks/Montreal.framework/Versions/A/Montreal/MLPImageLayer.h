@@ -11,17 +11,14 @@
 @interface MLPImageLayer : MLPLayer
 {
     NSMutableDictionary *_inputImagesToSecondKernel;
-    NSMutableDictionary *_inputImagesToFirstKernel;
-    NSMutableDictionary *_primaryCurrentStates;
-    NSMutableDictionary *_secondaryCurrentStates;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (id);
@@ -39,14 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *inputImagesToFirstKernel; // @synthesize inputImagesToFirstKernel=_inputImagesToFirstKernel;
-@property(readonly) NSMutableDictionary *inputImagesToSecondKernel; // @synthesize inputImagesToSecondKernel=_inputImagesToSecondKernel;
-@property(readonly) NSArray *inputToFirstKernel;
 @property(readonly) NSArray *inputToSecondKernel;
-@property(readonly) NSArray *primaryCurrentState;
-@property(readonly) NSMutableDictionary *primaryCurrentStates; // @synthesize primaryCurrentStates=_primaryCurrentStates;
-@property(readonly) NSArray *secondaryCurrentState;
-@property(readonly) NSMutableDictionary *secondaryCurrentStates; // @synthesize secondaryCurrentStates=_secondaryCurrentStates;
 
 @end
 

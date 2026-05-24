@@ -8,8 +8,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
+- (void)yHm;
 - (void);
 - (void);
 @end

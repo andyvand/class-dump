@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBAddCallParticipantIntentResponse
 {
     struct _has;
-    NSArray *_invites;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)eport="dpad"b4"buttonX"b1"buttonSquare"b1"buttonCircle"b1"buttonTriangle"b1"rightPaddle"b1"leftPaddle"b1"buttonR2"b1"buttonL2"b1"buttonShare"b1"buttonOptions"b1"buttonR3"b1"buttonL3"b1"shifter"b7"buttonPlus"b1"buttonMinus"b1"dialRight"b1"dialLeft"b1"buttonReturn"b1"buttonLogo"b1"unused"b3"wheel"S"pedalGas"b8"pedalBrake"b8"pedalClutch"b8"vendor1"[2C]"vendor2"C}"raw"[64C]);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)startMonitoringEvent:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)orewifi] [nearbysync] Started monitoring cloud keychain sync state;
 - (id);
-- (id);
+- (id);
 - (void)bluetooth;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *invites; // @synthesize invites=_invites;
-@property(readonly, nonatomic) unsigned long long invitesCount;
-@property(readonly) Class superclass;
 
 @end
 

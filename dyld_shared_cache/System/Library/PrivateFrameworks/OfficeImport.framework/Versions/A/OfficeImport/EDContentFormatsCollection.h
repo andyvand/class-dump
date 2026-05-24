@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
-- (id);
-- (unsigned long long);
+- (id)umerical:Name=%@ Range=%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)torPort:(id)arg1 options:] /* Error: Ran out of types for this method. */;
 
 @end
 

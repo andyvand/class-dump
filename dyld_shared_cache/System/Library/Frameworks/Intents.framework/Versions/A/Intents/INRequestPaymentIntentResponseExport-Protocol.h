@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPaymentRecord;
-
 @protocol INRequestPaymentIntentResponseExport
-- (long long)asMovieGenre;
+- (long long)hasMovieGenre;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INPaymentRecord *paymentRecord;
 @end
 

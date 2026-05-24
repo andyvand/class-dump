@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2MaybeInformationShown
 {
     int _extracted;
-    unsigned int _extractionModelVersion;
-    NSString *_key;
-    struct {
-        unsigned int extracted:1;
-        unsigned int extractionModelVersion:1;
-    } _has;
 }
 
 - (void);
@@ -30,8 +22,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)b;
+- (_Bool)BD %s:(id)arg1 NULL parameter (sourceParameters 0x%0x, destinationParameters 0x%0x, LERPEDparameters 0x%0x), returning error;
 - (id);
 - (_Bool);
 - (void);
@@ -42,12 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) unsigned int extractionModelVersion; // @synthesize extractionModelVersion=_extractionModelVersion;
-@property(nonatomic) _Bool hasExtracted;
-@property(nonatomic) _Bool hasExtractionModelVersion;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

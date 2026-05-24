@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface MPCPlaybackContextRemotePlaybackQueue
 {
     MPPlaybackContext *_playbackContext;
-    long long _replaceIntent;
 }
 
 - (_Bool);
-- (void);
-- (id);
+- (void)__objc_protolist__DATA_CONST;
+- (id);
 - (id);
 - (id);
 - (id);

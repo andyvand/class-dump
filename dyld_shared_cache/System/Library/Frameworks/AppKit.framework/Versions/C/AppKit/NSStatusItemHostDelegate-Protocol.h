@@ -5,5 +5,9 @@
 //
 
 @protocol NSStatusItemHostDelegate
+
+@optional
+- (void);
+- (void)oundDataTasks;
 @end
 

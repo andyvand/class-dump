@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSTrialAsset, NSString, TITrialMonitor;
 @protocol DDSTrialProvider;
 
 __attribute__((visibility("hidden")))
 @interface TITrialManager
 {
     _Bool _didStart;
-    CDUnknownBlockType _updateCallback;
-    id <DDSTrialProvider> _ddsTrialProvider;
-    TITrialMonitor *_monitor;
-    DDSTrialAsset *_trialAsset;
 }
 
 + (id)±iÐ1Â0@ù
@@ -24,39 +19,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)contactID;
+- (id)appendCharacter:(id)arg1;
+- (id)activateWithCompletion:(id)arg1;
+- (id)cannedResponses;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)plying with re-pair request;
+- (id)atches ID %@ (%@);
+- (id)challenge response %@ - %@;
+- (id)is active:(id)arg1 %@;
+- (id)etting cloud storage for device RTT support;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)letion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)er _ddsContentItemsFromAssets:contentType:filteredWithRegion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <DDSTrialProvider> ddsTrialProvider; // @synthesize ddsTrialProvider=_ddsTrialProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didStart; // @synthesize didStart=_didStart;
-@property(readonly) unsigned long long hash;
-@property(readonly) TITrialMonitor *monitor; // @synthesize monitor=_monitor;
-@property(readonly) Class superclass;
-@property(copy) DDSTrialAsset *trialAsset; // @synthesize trialAsset=_trialAsset;
-@property(copy) CDUnknownBlockType updateCallback; // @synthesize updateCallback=_updateCallback;
 
 @end
 

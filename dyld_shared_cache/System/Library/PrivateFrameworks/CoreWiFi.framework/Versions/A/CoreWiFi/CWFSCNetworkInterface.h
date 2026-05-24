@@ -11,45 +11,37 @@ __attribute__((visibility("hidden")))
 @interface CWFSCNetworkInterface
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct __SCDynamicStore *_storeRef;
-    _Bool _isMonitoringEvents;
-    NSString *_interfaceName;
-    NSString *_hardwareAddress;
-    CDUnknownBlockType _eventHandler;
 }
 
-- (id);
+- (id)debugDescription;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void).appleaccount.appleIDDataClassCollection;
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)LUIIMAGE_GENERICUSER2;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id)TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA;
+- (id)7;
 - (id);
 - (id)ô$Ð!,@ùq(Ð1Â0@ù
 × ;
 - (id)forTestingPeriodicityInSecs;
-- (void)PUpdateEventPredicateData;
+- (void)_connectedAPUpdateEventPredicateData;
 - (void)R,N,V_assetType;
 - (id);
 - (id)] UI-SCAN:Creating new scan manager for interface %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly, copy, nonatomic) NSString *hardwareAddress; // @synthesize hardwareAddress=_hardwareAddress;
 @property(readonly, copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
 
 @end

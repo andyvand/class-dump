@@ -6,8 +6,6 @@
 
 #import <AppKit/NSViewStateBinder.h>
 
-@class NSMenu, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSSearchFieldBinder : NSViewStateBinder
 {
@@ -17,15 +15,12 @@ __attribute__((visibility("hidden")))
         unsigned int _bindingCountDidChange:1;
         unsigned int _reservedSearchFieldBinder:23;
     } _searchFieldBinderFlags;
-    NSMutableDictionary *_predicateBindingTable;
-    NSString *_selectedPredicateBinding;
-    NSMenu *_searchMenuTemplate;
 }
 
-+ (_Bool);
++ (_Bool)ngoing writes:(id)arg1 %zu);
++ (id)%o st_flags:(id)arg1 0x%x acl:%s parentInfo:%@ } /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 - (Class);
 - (id);
 - (void);
@@ -33,11 +28,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)0:(id)arg1 8d16;
+- (void)_priority;
+- (void)t36;
+- (id)td;
+- (void)F(FG	GG(GH	HH(HEE
+EEEE)E8EFF
+FFFF)F8FGG
+GGGG)G8GHH
+HHHH)H8HI	II(IJ	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (void);
 - (void);
 - (id);
@@ -46,19 +57,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)defaultMaxNumberOfKeywords;
 - (void);
 - (void)Ý
 ÿF;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSTextFinder, NSView, NSWindow, _NSThreadedPeriodicInvoker;
-@protocol NSFindIndicatorDelegate;
+@class NSTextFinder;
 
 @interface NSFindIndicator
 {
     NSTextFinder *_textFinder;
-    NSView *_view;
-    id <NSFindIndicatorDelegate> _delegate;
-    NSWindow *_parentWindow;
-    CDUnknownBlockType _contentDrawer;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _imageProvider;
-    NSArray *_rects;
-    struct CGRect _bounds;
-    double _animationInProgress;
-    _NSThreadedPeriodicInvoker *_invoker;
-    _Bool _usesThreadedAnimation;
-    double _startTime;
-    NSMutableArray *_windows;
-    _Bool _shouldFade;
-    _Bool _visible;
 }
 
-+ (_Bool);
-+ (void);
-+ (void);
++ (_Bool)an unexpected number of policies %lu;
++ (void)P;
++ (void)_kCFStreamPropertyConditionalRequirementsChangedBlock called;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)t failed:(id)arg1 [%d] %s;
 - (void);
 - (void);
 - (void);
@@ -42,32 +27,31 @@
 - (void);
 - (void);
 - (void);
+- (void)_setNeedsNetworkTrackingPrevention: /* Error: Ran out of types for this method. */;
+- (void),V_customReadBufferSize;
+- (CDUnknownBlockType)Hj8k;
+- (void)filename;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (id)6Dh;
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (CDUnknownBlockType)Ñà3Ð1Â0@ù
 × ;
-- (id)iew:debuggingIndex: /* Error: Ran out of types for this method. */;
+- (id)_drawKeyboardUIIndicationForView:debuggingIndex: /* Error: Ran out of types for this method. */;
 - (id)S;
 - (void);
 - (void)ptCondensingExtraForWidth:(CDUnknownBlockType)arg1 returning condensed extra %g to fit %ld menus instead of %ld;
@@ -75,23 +59,7 @@
 - (void)pG;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy) CDUnknownBlockType contentDrawer; // @synthesize contentDrawer=_contentDrawer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <NSFindIndicatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(retain) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy) NSArray *rects;
-@property(readonly) Class superclass;
 @property(retain) NSTextFinder *textFinder; // @synthesize textFinder=_textFinder;
-@property _Bool usesThreadedAnimation; // @synthesize usesThreadedAnimation=_usesThreadedAnimation;
-@property(retain) NSView *view; // @synthesize view=_view;
-@property(getter=isVisible) _Bool visible;
 
 @end
 

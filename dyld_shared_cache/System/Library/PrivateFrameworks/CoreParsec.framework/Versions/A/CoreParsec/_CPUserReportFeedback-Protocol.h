@@ -4,19 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPCardSectionForFeedback, _CPPunchoutForFeedback, _CPSearchResultForFeedback;
+@class NSData, NSString, _CPCardSectionForFeedback, _CPPunchoutForFeedback;
 
 @protocol _CPUserReportFeedback
+- (NSData *)F::KeyValuePair<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *):FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)aits<String>, Malloc = WTF:(NSData *)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)nsferString>:(NSString *)arg1:KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)WTF:(_CPCardSectionForFeedback *)arg1:Ref<WebKit::RemoteMediaSessionProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_CPPunchoutForFeedback *);
+- (int)h;
+- (NSData *)C-;
+- (unsigned long long)0:8#16 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ocessing request, no newer ones in the queue;
+- (void)und;
 
 // Remaining properties
-@property(retain, nonatomic) _CPCardSectionForFeedback *cardSection;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reportType;
-@property(retain, nonatomic) _CPSearchResultForFeedback *result;
-@property(copy, nonatomic) NSArray *sections;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *uploadedDataIdentifier;
-@property(retain, nonatomic) _CPPunchoutForFeedback *userSelection;
-@property(copy, nonatomic) NSData *uuidBytes;
 @end
 

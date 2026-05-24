@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, PKMapContainer;
-
 @interface PKPeerPaymentRecipientCache
 {
     struct os_unfair_lock_s _mapAccessLock;
-    PKMapContainer *_mapContainer;
-    NSTimer *_mapNeedsWriteTimer;
 }
 
++ (id)2*;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -22,17 +18,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void)=;
+- (void)_;
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)!;
 - (id);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)hasTcpECNIntOnDropRst;
 - (void)ects of type '%@' within '%@';
 
 @end

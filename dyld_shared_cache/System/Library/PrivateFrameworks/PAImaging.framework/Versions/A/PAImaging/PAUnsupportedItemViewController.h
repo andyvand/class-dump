@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id)temControllerRegistry _itemControllerForIdentifier:(id)arg1 object:ofClass:create:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

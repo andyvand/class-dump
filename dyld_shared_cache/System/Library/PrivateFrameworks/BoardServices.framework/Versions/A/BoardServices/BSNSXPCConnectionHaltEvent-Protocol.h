@@ -5,10 +5,9 @@
 //
 
 @protocol BSNSXPCConnectionHaltEvent
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isKnownToBeOnQueue) _Bool knownToBeOnQueue;
-@property(readonly, nonatomic, getter=isLocalCancel) _Bool localCancel;
-@property(readonly, nonatomic, getter=isPermanent) _Bool permanent;
 @end
 

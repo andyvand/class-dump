@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NENexusFlowManager, NSUUID, NWEndpoint, NWParameters;
-
 @interface NENexusFlow
 {
     unsigned long long _state;
-    struct nw_protocol *_protocol;
-    NSUUID *_nexusInstance;
-    NENexusFlowManager *_manager;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)V;
 - (unsigned long long);
 - (id);
 - (void)"16@"NSString"24;
@@ -25,11 +20,7 @@
 - (void)esult %d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *clientIdentifier;
-@property(readonly, nonatomic) NWEndpoint *endpoint;
-@property(readonly, nonatomic) NWParameters *parameters;
 @property(nonatomic) struct nw_protocol *protocol; // @synthesize protocol=_protocol;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

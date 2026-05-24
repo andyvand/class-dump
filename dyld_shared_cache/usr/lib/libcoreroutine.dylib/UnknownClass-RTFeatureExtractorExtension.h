@@ -6,8 +6,8 @@
 
 @interface UnknownClass (RTFeatureExtractorExtension)
 - (id);
-- (id);
-- (id);
+- (id)CKKS current service %{public}@:(id)arg1 %{public}@;
+- (id)dsid;
 - (id);
 - (id);
 - (id);

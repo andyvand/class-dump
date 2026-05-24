@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCMapTable, NFUnfairLock, NSString;
-@protocol FCAVAssetCacheType, FCAVAssetKeyCacheType, FCAVAssetKeyManagerType, FCAVAssetResourceLoaderType;
+@protocol FCAVAssetCacheType;
 
 @interface FCAVAssetFactory
 {
     id <FCAVAssetCacheType> _assetCache;
-    id <FCAVAssetKeyCacheType> _assetKeyCache;
-    id <FCAVAssetKeyManagerType> _assetKeyManager;
-    id <FCAVAssetResourceLoaderType> _assetResourceLoader;
-    FCMapTable *_assets;
-    NFUnfairLock *_assetsLock;
 }
 
 - (id);
 - (id);
-- (void)ecirculationPopularFeedQueryTimeRange;
+- (void)articleRecirculationPopularFeedQueryTimeRange;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

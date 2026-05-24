@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFActionItem, SFMediaItem, SFRichText;
+@class NSArray, NSData, NSString;
 
 @protocol SFMediaInfoCardSection
-- (NSArray *);
+- (void);
+- (void)initWithRequestID:(NSArray *)arg1 requestIndex:contextType:managerID:asset:displaySpec:behaviorSpec:chooser:delegate: /* Error: Ran out of types for this method. */;
+- (NSData *)L;
+- (NSArray *)initWithQuery:date: /* Error: Ran out of types for this method. */;
 - (void)¼§;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *details;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isMediaContainer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFMediaItem *mediaItem;
-@property(copy, nonatomic) NSArray *offers;
-@property(retain, nonatomic) SFActionItem *playAction;
-@property(retain, nonatomic) SFRichText *specialOfferButtonLabel;
 @property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *watchListButtonLabel;
-@property(copy, nonatomic) NSString *watchListConfirmationText;
-@property(copy, nonatomic) NSString *watchListContinuationText;
-@property(copy, nonatomic) NSString *watchListIdentifier;
-@property(nonatomic) int watchListItemType;
 @end
 

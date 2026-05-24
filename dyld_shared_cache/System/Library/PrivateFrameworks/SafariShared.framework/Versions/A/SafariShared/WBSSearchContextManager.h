@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WBSSearchContextManager
 {
     NSArray *_searchParametersContexts;
-    NSString *_treatmentId;
-    _Bool _needsCounterfactualSearchData;
-    _Bool contextsNeedUpdating;
 }
 
 + (id);
@@ -22,21 +19,18 @@
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)recentNamedEntityRecordsCompletion;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool needsCounterfactualSearchData;
 @property(readonly, nonatomic) long long numberOfSearchContexts;
-@property(readonly, nonatomic) long long regularSearchContextIndex;
-@property(readonly, copy, nonatomic) NSString *treatmentId;
 
 @end
 

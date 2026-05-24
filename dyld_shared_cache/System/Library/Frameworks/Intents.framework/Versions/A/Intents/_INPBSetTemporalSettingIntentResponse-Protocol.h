@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange;
+@class NSString;
 
 @protocol _INPBSetTemporalSettingIntentResponse
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(retain, nonatomic) _INPBDateTimeRange *oldValue;
-@property(retain, nonatomic) _INPBDateTimeRange *updatedValue;
 @end
 

@@ -6,31 +6,25 @@
 
 #import <UIKitCore/_UISearchSuggestionController.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISearchSuggestionControllerTVOS : _UISearchSuggestionController
 {
     _Bool _shouldDisplayDefaultSuggestion;
-    _Bool _showSearchSuggestionPreview;
-    NSString *_searchSuggestionsTitle;
 }
 
 - (_Bool);
 - (id);
 - (void)0@ù
 × ;
-- (_Bool)insProvider: /* Error: Ran out of types for this method. */;
-- (void)resentation:(_Bool)arg1;
-- (void)tuationCount;
+- (_Bool)setMenuItemMarginsProvider: /* Error: Ran out of types for this method. */;
+- (void)initWithPresentation:(_Bool)arg1;
+- (void)_removedPunctuationCount;
 - (void)rchy;
-- (id)yColor;
+- (id)_carSystemFocusPrimaryColor;
 - (void)øHR0;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *searchSuggestionsTitle; // @synthesize searchSuggestionsTitle=_searchSuggestionsTitle;
 @property(nonatomic) _Bool shouldDisplayDefaultSuggestion; // @synthesize shouldDisplayDefaultSuggestion=_shouldDisplayDefaultSuggestion;
-@property(nonatomic) _Bool showSearchSuggestionPreview; // @synthesize showSearchSuggestionPreview=_showSearchSuggestionPreview;
 
 @end
 

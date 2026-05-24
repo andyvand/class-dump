@@ -11,7 +11,7 @@
     NSDictionary *_clockValues;
 }
 
-+ (_Bool);
++ (_Bool)B;
 + (void)ve the owner from a share;
 - (id);
 - (id);
@@ -22,13 +22,13 @@
 - (id);
 - (void);
 - (void);
+- (id)HA;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)setProgressHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void)v\vxwÜwÐy;
 - (id);

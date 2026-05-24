@@ -9,12 +9,10 @@
 @interface RWIProtocolInspector
 {
     struct AugmentableInspectorController *_inspectorController;
-    struct RetainPtr<RWIProtocolConfiguration> _configuration;
-    struct unique_ptr<RWIAugmentableInspectorControllerClient, std::default_delete<RWIAugmentableInspectorControllerClient>> _inspectorControllerClient;
 }
 
 - (void);
-- (void);
+- (void)׾;
 - (id);
 - (id);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RWIProtocolConfiguration *configuration;
-@property(readonly, nonatomic) _Bool connected;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 @interface CKPublicKey
 {
     NSData *_publicKey;
-    long long _version;
-    NSDate *_expiration;
-    NSData *_certData;
-    NSString *_protectionSource;
 }
 
 - (id);
@@ -22,14 +18,10 @@
 - (_Bool);
 - (void),;
 - (id)Dä;
-- (id);
+- (id)AccountPartition;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *certData; // @synthesize certData=_certData;
-@property(readonly, copy, nonatomic) NSDate *expiration; // @synthesize expiration=_expiration;
-@property(readonly, copy, nonatomic) NSString *protectionSource; // @synthesize protectionSource=_protectionSource;
 @property(readonly, copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

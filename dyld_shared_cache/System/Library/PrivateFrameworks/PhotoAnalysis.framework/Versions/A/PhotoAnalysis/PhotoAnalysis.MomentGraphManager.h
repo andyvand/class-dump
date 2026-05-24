@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.MomentGraphManager
 {
     id $defaultActor;
-    id graphManager;
-    id photoLibraryManager;
 }
 
 @end

@@ -22,18 +22,13 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)?;
 - (unsigned int);
-- (id);
+- (id)a;
 - (double);
 
 // Remaining properties
-@property(nonatomic) unsigned int blockSize;
-@property(nonatomic) double computationalDutyCycle;
-@property(nonatomic) _Bool graphIsDeadEnded;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic) double sampleRate;
-@property(nonatomic) _Bool shouldThrowException;
 
 @end
 

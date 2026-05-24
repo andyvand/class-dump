@@ -11,27 +11,26 @@
 @interface FigVideoLayer : FigThreadSafeCALayer
 {
     FigVideoLayerInternal *_videoLayer;
-    unsigned int _contentsSlotID;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)for kCMIODevicePropertyExcludeNonDALAccess;
+- (void)-[CMIOExtensionProxyContext sendClientInfo]_block_invoke;
 - (void);
-- (void);
-- (void);
+- (void)Invalid time resolution:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)�#;
 - (void);
 - (_Bool);
-- (void)ay;
+- (void)carplay;
 
 // Remaining properties
 @property(nonatomic) unsigned int contentsSlotID;

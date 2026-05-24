@@ -12,13 +12,13 @@
 }
 
 - (id);
-- (void);
+- (void):(_Bool)arg1;
 - (long long);
 - (void);
 - (double);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -27,22 +27,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_mediaSystemRoleEffective;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id)nKey] != nil;
 
 // Remaining properties
-@property(nonatomic) double formatTemplate;
-@property(nonatomic, getter=isFullWidth) _Bool fullWidth;
 @property(nonatomic) long long style;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraph;
+@class USOSchemaUSOGraph;
 
 @interface CNVSchemaCNVIntentReformationEnded : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraph *_reformedIntent;
-    _Bool _hasReformedIntent;
 }
 
 - (void);
@@ -27,13 +26,11 @@
 - (_Bool);
 - (id);
 - (id)IFTSchemaIFTResponseGenerationRequest";
-- (id)sistantDaemonAudioPrewarmStarted;
+- (id)MHSchemaMHAssistantDaemonAudioPrewarmStarted;
 - (id)x¯¬±³;
 - (void)Sî%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReformedIntent; // @synthesize hasReformedIntent=_hasReformedIntent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraph *reformedIntent; // @synthesize reformedIntent=_reformedIntent;
 
 @end

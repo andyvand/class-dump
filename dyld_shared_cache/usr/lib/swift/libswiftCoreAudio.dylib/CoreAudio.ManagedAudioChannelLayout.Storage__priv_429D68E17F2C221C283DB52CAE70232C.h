@@ -7,7 +7,6 @@
 @interface CoreAudio.ManagedAudioChannelLayout.Storage__priv_429D68E17F2C221C283DB52CAE70232C
 {
     id audioChannelLayoutPointer;
-    id deallocator;
 }
 
 @end

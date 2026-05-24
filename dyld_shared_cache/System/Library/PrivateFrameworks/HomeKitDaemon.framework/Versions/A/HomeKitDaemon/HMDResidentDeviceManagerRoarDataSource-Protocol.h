@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMFFuture;
 @protocol HMDFeaturesDataSource;
 
 @protocol HMDResidentDeviceManagerRoarDataSource
-- (id <HMDFeaturesDataSource>)DeviceChangeNotification: /* Error: Ran out of types for this method. */;
+- (HMFFuture *);
+- (id <HMDFeaturesDataSource>)handlePrimaryResidentDeviceChangeNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource;

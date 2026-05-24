@@ -4,9 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
-
 @protocol LibrarySidebarNavigationViewControllerDelegate
-- (NSMenu *);
+- (void)A;
+- (void)&;
+- (void);
 @end
 

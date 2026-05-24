@@ -6,28 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRAnonymizedHistoryAndContextTuple : SISchemaInstrumentationMessage
 {
     NSArray *_candidateIds;
-    float _contextSimilarityScore;
-    float _uflScore;
-    struct {
-        unsigned int contextSimilarityScore:1;
-        unsigned int uflScore:1;
-    } _has;
 }
 
 - (float);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (float);
 - (void);
@@ -46,16 +40,11 @@
 - (id)1Â0@ù
 × ;
 - (id)C,N,V_embeddingModelId;
-- (id)s;
+- (id)SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus;
 - (void)4½èÿ¿;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateIds; // @synthesize candidateIds=_candidateIds;
-@property(nonatomic) float contextSimilarityScore; // @synthesize contextSimilarityScore=_contextSimilarityScore;
-@property(nonatomic) _Bool hasContextSimilarityScore;
-@property(nonatomic) _Bool hasUflScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float uflScore; // @synthesize uflScore=_uflScore;
 
 @end
 

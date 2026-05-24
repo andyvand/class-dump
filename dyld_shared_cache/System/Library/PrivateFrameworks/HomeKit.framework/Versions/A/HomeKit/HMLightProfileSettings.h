@@ -4,49 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface HMLightProfileSettings
 {
     _Bool _naturalLightingEnabled;
-    unsigned long long _supportedFeatures;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)p;
 - (_Bool);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)perfunctory;
+- (id)entomology;
 - (void);
 - (id);
 - (id);
-- (unsigned long long)abilities: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setCapabilities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isNaturalLightingEnabled) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
 
 @end
 

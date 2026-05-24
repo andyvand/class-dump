@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionItem, NSArray, NSMutableArray;
+@class CNUIUserActionItem;
 
 @interface CNUIUserActionDisambiguationModelFinalizer
 {
     _Bool _hasDefaultApp;
-    CNUIUserActionItem *_defaultAction;
-    NSMutableArray *_actions;
-    NSArray *_recentActions;
-    NSArray *_directoryServiceActions;
-    NSArray *_foundOnDeviceActions;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,15 +33,10 @@
 - (void);
 - (id);
 - (void)CoreFamilyMemberContactsObserver>";
-- (id)ience;
+- (id)sharingAudience;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
 @property(retain, nonatomic) CNUIUserActionItem *defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(retain, nonatomic) NSArray *directoryServiceActions; // @synthesize directoryServiceActions=_directoryServiceActions;
-@property(retain, nonatomic) NSArray *foundOnDeviceActions; // @synthesize foundOnDeviceActions=_foundOnDeviceActions;
-@property(nonatomic) _Bool hasDefaultApp; // @synthesize hasDefaultApp=_hasDefaultApp;
-@property(retain, nonatomic) NSArray *recentActions; // @synthesize recentActions=_recentActions;
 
 @end
 

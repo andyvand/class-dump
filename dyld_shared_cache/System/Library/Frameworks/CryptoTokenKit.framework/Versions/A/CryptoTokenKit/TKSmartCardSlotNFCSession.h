@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, TKSmartCardSlotNFCManaging;
+@class NSString;
+@protocol TKSmartCardSlotNFCManaging;
 
 @interface TKSmartCardSlotNFCSession
 {
     id <TKSmartCardSlotNFCManaging> _nfcSlotManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_slotName;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)s:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *slotName; // @synthesize slotName=_slotName;

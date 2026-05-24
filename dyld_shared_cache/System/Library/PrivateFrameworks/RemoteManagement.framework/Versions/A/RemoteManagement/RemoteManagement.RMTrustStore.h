@@ -7,10 +7,6 @@
 @interface RemoteManagement.RMTrustStore
 {
     id scope;
-    id persona;
-    id backend;
-    id defaultsKey;
-    id database;
 }
 
 @end

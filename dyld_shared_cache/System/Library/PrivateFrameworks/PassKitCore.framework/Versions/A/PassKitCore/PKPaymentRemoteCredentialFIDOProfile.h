@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPaymentRemoteCredentialFIDOProfile
 {
     NSString *_relyingPartyIdentifier;
-    NSString *_accountHash;
-    NSData *_keyHash;
 }
 
 - (id);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)StationLongitude;
+- (_Bool)setTimeToLastReverseGrant:(id)arg1;
+- (id)endStationLongitude;
 - (void)ook.payment.in-app.authorization.fail;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountHash; // @synthesize accountHash=_accountHash;
-@property(readonly, copy, nonatomic) NSData *keyHash; // @synthesize keyHash=_keyHash;
 @property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
 
 @end

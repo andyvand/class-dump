@@ -7,13 +7,11 @@
 @interface FAMemberPhotoRequest404Cache
 {
     id persistence;
-    id encoder;
-    id decoder;
 }
 
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)SCENE_INCLUDES_SECURED_DEVICES;
+- (void):(id)arg1 %@ class:%@ aceId:%@ refId:%@ /* Error: Ran out of types for this method. */;
+- (id)i;
 - (id);
 - (void);
 

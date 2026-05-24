@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long)Frameworks/BrowserEngineCore.framework/BrowserEngineCore;
 - (unsigned long long);
-- (unsigned long long);
-- (void)2_422_2P_PACKED_XR;
+- (void)MTLPixelFormatYCBCR12_422_2P_PACKED_XR;
 - (void)ectArgumentBufferLayout offsetForPrimitiveAccelerationStructure:(unsigned long long)arg1 ];
 - (unsigned long long)ÿÉ3;
 

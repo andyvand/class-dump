@@ -7,22 +7,20 @@
 @interface INHomeAttributeRange
 {
     double _lowerValue;
-    double _upperValue;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)process;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_candidateSSIDCount;
+- (void)was6EDisabled;
 - (id);
 
 // Remaining properties
 @property(readonly) double lowerValue; // @synthesize lowerValue=_lowerValue;
-@property(readonly) double upperValue; // @synthesize upperValue=_upperValue;
 
 @end
 

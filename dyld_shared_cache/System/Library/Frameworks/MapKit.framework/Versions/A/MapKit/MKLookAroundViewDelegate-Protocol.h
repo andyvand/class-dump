@@ -5,5 +5,19 @@
 //
 
 @protocol MKLookAroundViewDelegate
+- (void)onary",&,V_childBundleIDToWeight;
+- (void)rtDate;
+- (void),V_powerlogTimestampLast;
+- (void)dDate;
+- (void)PLModelingUtilities;
+- (void)PPSClientRegistrationProtocol;
+- (void)PLDiscretionaryEnergyMonitor;
+- (void)PLDiscretionaryIntervalManager;
+- (void);
+- (void)PLDuetActivitySchedulerUsageSnapshot;
+- (void)PLUsageSnapshot;
+
+@optional
+- (void)_cpuEnergyBilledToOthers;
 @end
 

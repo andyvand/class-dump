@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)Tests;
-- (id);
++ (_Bool)SubTests;
+- (id)/>
+;
 
 @end
 

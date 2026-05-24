@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSIndexJob, NSArray;
+@class CSIndexJob;
 
 @interface SPCoreSpotlightIndexerTask
 {
     _Bool _shouldResumeOnFailure;
-    CSIndexJob *_job;
-    NSArray *_indexers;
-    NSArray *_bundleIDs;
-    NSArray *_completedBundleIDs;
-    unsigned long long _dataMigrationStage;
 }
 
 - (id);
@@ -27,15 +22,10 @@
 - (void);
 - (void);
 - (void);
-- (id)hNot:nameTokens:alias:group:forceMerge:context: /* Error: Ran out of types for this method. */;
+- (id)updateDerivedIsMeTextContentMatchNot:nameTokens:alias:group:forceMerge:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(retain, nonatomic) NSArray *completedBundleIDs; // @synthesize completedBundleIDs=_completedBundleIDs;
-@property(nonatomic) unsigned long long dataMigrationStage; // @synthesize dataMigrationStage=_dataMigrationStage;
-@property(readonly, nonatomic) NSArray *indexers; // @synthesize indexers=_indexers;
 @property(readonly, nonatomic) CSIndexJob *job; // @synthesize job=_job;
-@property(nonatomic) _Bool shouldResumeOnFailure; // @synthesize shouldResumeOnFailure=_shouldResumeOnFailure;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface HMDActionSetResponse
 {
     id internalActionSetUUID;
-    _Bool state;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSUUID *actionSetUUID;
-@property(nonatomic, readonly) _Bool state; // @synthesize state;
 
 @end
 

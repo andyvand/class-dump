@@ -11,7 +11,6 @@
 @interface BUZipFileWriter : BUZipWriter
 {
     id <BURandomWriteChannel> _writeChannel;
-    CDUnknownBlockType _writeChannelCompletionHandler;
 }
 
 + (void);
@@ -23,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)WIn9UJ86JKdV4dM;
 - (id);
 
 @end

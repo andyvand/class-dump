@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool);
+- (oneway void)X^`^;
+- (NSString *)}@Error in establishing secure session, failing enableEvents block with %@;
+- (_Bool);
+- (_Bool)B;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

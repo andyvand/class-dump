@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantVoicesCounts, ODDSiriSchemaODDAssistantVoicesDimensions, ODDSiriSchemaODDAssistantVoicesTuples;
+@class ODDSiriSchemaODDAssistantVoicesDimensions;
 
 @interface ODDSiriSchemaODDAssistantVoicesDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantVoicesDimensions *_dimensions;
-    ODDSiriSchemaODDAssistantVoicesCounts *_counts;
-    ODDSiriSchemaODDAssistantVoicesTuples *_tuples;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
-    _Bool _hasTuples;
 }
 
 - (id);
@@ -27,33 +22,27 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)|;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id),;
 - (id)qÞð1Â0@ù
 × ;
 - (id)USAssets;
 - (id)"IFTSchemaIFTExplicitResolutionRequest",&,N,V_explicitResolutionRequest;
-- (id)UPERRORDOMAIN_UAF_ERROR_PROMOTING_FACTORS;
+- (id)CDMASSETSETUPERRORDOMAIN_UAF_ERROR_PROMOTING_FACTORS;
 - (void).responseModel;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantVoicesCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantVoicesDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasTuples; // @synthesize hasTuples=_hasTuples;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantVoicesTuples *tuples; // @synthesize tuples=_tuples;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol AVAudioPlayerDelegate
+
+@optional
+- (void);
+- (void)a
+;
 @end
 

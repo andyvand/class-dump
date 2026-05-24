@@ -6,34 +6,27 @@
 
 #import <UIKitCore/_UICurrentContextPresentationController.h>
 
-@class UIView, _UIForcedOrientationTransactionToken;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFullscreenPresentationController : _UICurrentContextPresentationController
 {
     UIView *_counterRotatedView;
-    double _counterRotatedAngle;
-    struct CGRect _counterRotatedOriginalBounds;
-    long long _originalOrientation;
-    _Bool _presentingViewControllerHandledCounterRotation;
-    CDUnknownBlockType _finalRotationBlock;
-    _UIForcedOrientationTransactionToken *_forcedOrientationToken;
-    _Bool _disableAnimatedReenablingOfAutorotation;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)uted chat list rebuild.;
+- (void)ut to next pipeline;
+- (_Bool)have one, nothing to do here. Chat:[%@] /* Error: Ran out of types for this method. */;
+- (void)Has valid Phone Number %{BOOL}d;
+- (void)geObserver;
+- (void)each time;
 - (void);
 - (_Bool)`+þÔþÿ;
 - (_Bool)TextItemInteractionHandler.presentMenu.action;
-- (long long)stFactor;
+- (long long)edgeFlickVelocityBoostFactor;
 - (_Bool)G;
 - (struct CGRect);
 - (void);

@@ -7,229 +7,12 @@
 @interface ×¨Ñ
 {
     id ò	?×if@ù(@øàªaâ@ùñ	ªàò	?×i"Aù(@øàªaAùkÿÿhb@ù	AøwB@ùàªáªbj@ùñªQwüò1	?×yf@ùèª	Cøàª!;
-    id )Ëi:;
-    id ;
-    id éª±°10@ù
-?×è;
-    id z*Dùzúùyþùa?àRaÌþô;
-    id ù`@ùy@ùáªâªãªäªåªæªçªufAùÇ:ÿÿC;
-    id ë@;
-    id ¨Ñ CÑáª¢p©¤Vø©£Ñ4PøõªÆñöªP;
-    id ÑHøªÑIøñªéò1	?×¨;
-    id 
-?×é;
-    id ª!;
-    id ËiBù?;
-    id ª±Ð10@ù
-?×é;
-    id àªáªhêùñªàò	?×w¾Cùèª	Aøy:Cùàªáªx&DùâªñªQwüò1	?×@øàªáªñªàò	?×zÆCùèª	Cøàª!;
-    id ªàò	?×w¾Cùèª	Aøy:Cùàªáªx&DùâªñªQwüò1	?×@øàªáªñªàò	?×zÆCùèª	Cøàª!;
-    id ?;
-    id @ù
-?×é;
-    id 0_øñ	ªñÇåò0ÁÚ@øôª`áªàòÐ
-?×àªáªñªàòÑ
-?×;
-    id ª±°10@ù
-?×é;
-    id ;
-    id ªzCùâªñ	ªQwüòQ	?×È@øàªáªhêùñªàò	?×w¾Cùèª	Aøy:Cùàªáªx&DùâªñªQwüò1	?×@øàªáªñªàò	?×zÆCùèª	Cøàª!;
-    id _øðªñªñÇåò0ÁÚñªñGÁÚë@;
-    id áªôª§ÿüàª p;
-    id éò1	?×z:CùvCùx.Dù;
-    id ªùÚüª@øàªáªhùñªàò	?×T@9àªÙÚt?9t?cQñ÷ª;
-    _Atomic èª Uø´TøÕÛÿ4;
-    _Atomic ªñGÁÚë@;
-    id iF;
-    id Ëi;
-    id ×é;
-    id ;
-    id ªoö;
-    id éª±°10@ù
-?×é;
-    _Atomic bF©éª(_øðªñ	ªñÇåò0ÁÚñªñGÁÚë@;
-    id 0@ù
-?×é;
-    id 10@ù
-?×è;
-    id ;
-    id i6;
-    id ùa?àRaÌþô;
-    id ñÇåò0ÁÚñªñGÁÚë@;
-    id ùàªáªx&DùâªñªQwüò1	?×@øàªáªñªàò	?×zÆCùèª	Cøàª!;
-    id àò	?×iîCù(@ø`Cùa2Dùñ	ªàò	?×iúCù(@øàªa:Dùñ	ªàò	?×H@øàªaDùñªàò	?×;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: áªñ	ªàò	?×B
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: v*)
-ª	ª©Qø))
-// Property attributes: Pøñªàòq
-?×¨Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: àò	?×¨
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: ÑàªáªøTÚô
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ÷
-// Property attributes: Pøñªàòq
-?×¨Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªñ	ªàò	?×°ÝÿÐ2"Ò0ÁÚáª`>DùtBDù¥ÿà
-// Property attributes: _øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªáªöªwÞCùhDù	?×àª3¹YèªtBDù·§ÿàªáª"
-// Property attributes: ?×
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: í|éªñ°10@ù
-?×é
-// Property attributes: ñ	ªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªàò1	?×vÎ@ùèªàªôªy6Dù®ÿyòù|öùhÊCùhúùhÂCùhþùa?
-// Property attributes: ªñ	ªñÇåò0ÁÚ	"@ù(=
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 	Cøàª!
-// Property attributes: PøâªñªQwüòQ?×àªáª<üáó
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-
-#ÕöW½©ôO©ý{©ý
-// Property attributes: ãªÏû
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-?×é
-// Property attributes: Úë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: àò	?×iîCù(@ø`Cùáªñ	ªàò	?×h@øàªa:Dùñªàò	?×
-
-// Property attributes: _øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: !Rl9`b;0Õ
-// Property attributes: ù_øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªU
-// Property attributes: ªâªãª£}ø
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª
-// Property attributes: ãªÏû
-
-// Error: Property attributes should begin with the type ('T') attribute, property name:  ©¨Ûq©X©
-// Property attributes: 	ªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ).ðW@ùíG@ùñªñÇåò0ÁÚ"@ù©	)
-// Property attributes: Óq©sàÿ©Uø(Q@©¨S7©¨#
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: *aDù° ñ`¢*Ûhþr9ÿ
 // Property attributes: Ñ!Pøñªàò	?×(@ø©cÑ Pøáªñªàò	?×@ùÀ@ùc@ùáªâªµWø1ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 9`b;0Õ
-// Property attributes: àòq
-?×¨ã
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: @ø`àò	?×p@ùñª1\íò0ÁÚ:AùÄ
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A
-// Property attributes: @PøªÑAPøñªàò1	?×àª¨ÃÑ	Pø(@øªÃ
-Ñ¨øÿ¨cÑPøàª¨cÑPø¢Pø¨CÑPø©Ñ)Pø(	?×¨ÑPøèª Óq©Ùàÿ¨cÑPø´Sø@ù0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A9*J!
-// Property attributes: Pøñªàòq
-?×¨Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: Aùâªñ
-ªQwüò1	?×ijBù(@ùàªáªôªñ	ªàò	?×i¶Aù(@ùàª!
-// Property attributes: 	?×¨#	Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: DùâªhZCùi:Cù(	?×
-// Property attributes: _øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: Ñ)Pø(	?×¨Ã
-// Property attributes: ¸
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: à
-// Property attributes: èª	Cøàª!
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: áª
-// Property attributes: ãªÏû
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: âªãª©#Ñ3Pøäªåªæªk
-// Property attributes: R¦ôø
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: aöCùâªh®Cùè
-?×àªáª
-// Property attributes: Pø¨ÑPøñªàò1?×xúÿ¨#Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ê@ù(@ùàªa^Bùñ	ªàò	?×P
-// Property attributes: ¸
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: hÊCùhúùhÂCùhþùa?àR*eôô
-// Property attributes: àò1	?×hBAùxâ@ù|Æ@ù
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: î:ªâ[@ùB
-// Property attributes: ñ	ªàò	?×©u©(@øªC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ñ}i?
-// Property attributes: _øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ñ10@ù
-?×é
-// Property attributes: Çåò0ÁÚ	"@ù(=
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ô
-// Property attributes:  ø
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: s¤ÿÐ
-// Property attributes: àª
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: uÝþà
-// Property attributes: 2-qÝÒ0
-ÁÚâª©R
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ù¢µhBù(ôòi²Bù	àòiöùzAùàª!
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: Cù@øàªüªáª÷ªñªàòÑ
-?×t.DùJDÕ 
-// Property attributes: C
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ±Ò0ÁÚð_©h¢è
-// Property attributes: Ôâ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: Á÷È2¹iöCù(iJCù)Q¹ii8hÂ¹
-// Property attributes: _øðªñªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª!
-// Property attributes: ÝÒ0
-ÁÚâª©R
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª1\íò0ÁÚ*Aù
-// Property attributes: FAùâªIGñá
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªñ	ªàò	?×y®Aùàªz¦Cùáªw:DùâªhòCùiîCù		?×àª!
-// Property attributes: ª¨ÑPøàªÇô
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ®Cùè
-?×àªáª
-// Property attributes: ´TøµWøFâÿÿC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ¹yÒCùàªaöCùâªh®CùirCù(	?×àªáª
-// Property attributes: @øàªñ	ªàò	?×ê
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: æ
-// Property attributes: ª	Cøúªìòàª!
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ðªñª1\íò0ÁÚAùðªñª1\íò0ÁÚAùàRáªâªsÒðö
-// Property attributes: ©ÀA9À9àªºVøáªIV
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ð4t"Dùñª@ù1\íò0ÁÚñªñGÁÚë@
-// Property attributes: 
-?×é
 
 @end
 

@@ -13,9 +13,9 @@
     INIntent *_intent;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)P#;
+- (id)h:(id)arg1 y;
+- (id)vv;
 - (id);
 - (void);
 - (void);

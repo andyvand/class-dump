@@ -7,6 +7,6 @@
 @protocol NSXPCListenerDelegate
 
 @optional
-- (_Bool)identDevice;
+- (_Bool)_teardownSessionWithPrimaryResidentDevice;
 @end
 

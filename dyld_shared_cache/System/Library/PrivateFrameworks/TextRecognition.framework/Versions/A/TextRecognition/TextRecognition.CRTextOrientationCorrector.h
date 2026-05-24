@@ -7,8 +7,6 @@
 @interface TextRecognition.CRTextOrientationCorrector
 {
     id model;
-    id decoder;
-    id configuration;
 }
 
 @end

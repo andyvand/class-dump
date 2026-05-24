@@ -6,20 +6,17 @@
 
 #import <FileProvider/FPEnumerationSettings.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface NSFileProviderEnumerationProperties : FPEnumerationSettings
 {
     NSArray *_fileTypes;
-    NSDictionary *_userInfo;
-    NSString *_enumeratingApplicationBundleIdentifier;
-    NSString *_enumeratedItemIdentifier;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)pKN;
 - (void);
 - (id);
 - (id);
@@ -28,10 +25,7 @@
 - (void)ptors;
 
 // Remaining properties
-@property(copy) NSString *enumeratedItemIdentifier; // @synthesize enumeratedItemIdentifier=_enumeratedItemIdentifier;
-@property(copy) NSString *enumeratingApplicationBundleIdentifier; // @synthesize enumeratingApplicationBundleIdentifier=_enumeratingApplicationBundleIdentifier;
 @property(copy) NSArray *fileTypes; // @synthesize fileTypes=_fileTypes;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

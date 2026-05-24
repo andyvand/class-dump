@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGPostalAddressComponents;
+@class NSString;
 
 @interface SGPostalAddressExtraction
 {
     NSString *_plainText;
-    SGPostalAddressComponents *_components;
 }
 
-- (id);
+- (id)precomposedStringWithCanonicalMapping;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)Tt;
 
 // Remaining properties
-@property(readonly, nonatomic) SGPostalAddressComponents *components; // @synthesize components=_components;
 @property(readonly, nonatomic) NSString *plainText; // @synthesize plainText=_plainText;
 
 @end

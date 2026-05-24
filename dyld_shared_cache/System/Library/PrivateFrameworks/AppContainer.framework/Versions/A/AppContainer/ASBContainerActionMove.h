@@ -11,13 +11,12 @@
 @interface ASBContainerActionMove : ASBContainerAction
 {
     NSString *_sourceSpec;
-    NSString *_destSpec;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

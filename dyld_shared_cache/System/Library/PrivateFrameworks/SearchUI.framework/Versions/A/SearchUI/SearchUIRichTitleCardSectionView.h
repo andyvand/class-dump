@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NUIContainerStackView, SearchUIButtonItemStackView, TLKHeaderView;
+@class NUIContainerStackView, TLKHeaderView;
 
 @interface SearchUIRichTitleCardSectionView : SearchUICardSectionView
 {
     TLKHeaderView *_headerView;
-    SearchUIButtonItemStackView *_buttonStackView;
 }
 
 + (_Bool);
@@ -19,18 +18,16 @@
 + (id);
 + (int);
 - (void);
-- (id);
+- (id)nfig",R,N,V_config;
 - (void);
-- (id);
+- (id)setHmbDataVersion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id)@;
 
 // Remaining properties
-@property(retain) SearchUIButtonItemStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;
 @property(retain) NUIContainerStackView *contentView; // @dynamic contentView;
-@property(retain) TLKHeaderView *headerView; // @synthesize headerView=_headerView;
 
 @end
 

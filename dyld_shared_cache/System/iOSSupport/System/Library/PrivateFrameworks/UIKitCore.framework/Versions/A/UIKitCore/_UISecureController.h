@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIControl, _UISSecureControlCategory, _UISSecureControlSizeSpec, _UISlotView;
+@class UIControl;
 @protocol _UISecureControl;
 
 @interface _UISecureController
 {
     UIControl<_UISecureControl> *_secureControl;
-    _UISlotView *_slotView;
-    _UISSecureControlSizeSpec *_lastSizeSpec;
-    _Bool _shouldLayoutSynchronously;
-    _Bool _enchanted;
-    long long _cornerStyle;
-    double _cornerRadius;
-    struct CGColor *_baseForegroundColor;
-    struct CGColor *_baseBackgroundColor;
-    unsigned long long _imagePlacement;
-    _UISSecureControlCategory *_category;
-    struct CGSize _intrinsicContentSize;
 }
 
 - (void);
@@ -36,20 +25,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)updatePersonCentricIDForHandlesInChatWithMessage:(id)arg1 fromIdentifier:personCentricID:chat: /* Error: Ran out of types for this method. */;
+- (void)im_markFileAsPurgeable:(id)arg1;
+- (id)account:(SEL)arg1 profileChanged: /* Error: Ran out of types for this method. */;
+- (unsigned int);
 - (void);
-- (id);
-- (unsigned int);
-- (void);
-- (long long);
+- (long long)CEMDeviceInformationCommand_StatusErrorResponses;
 - (unsigned long long);
 - (void);
 - (struct CGColor *);
 - (struct CGSize);
 - (void);
-- (id)tCFRunLoop;
-- (void)geNotification:(struct CGColor *)arg1;
-- (struct CGColor *)aletteIsHidden;
+- (id)getCFRunLoop;
+- (void)_keyWindowDidChangeNotification:(struct CGColor *)arg1;
+- (struct CGColor *)paletteIsHidden;
 - (void)ation %@;
 - (double)-initiated-fetch;
 - (void)ple.facetime;
@@ -57,23 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGColor *baseBackgroundColor; // @synthesize baseBackgroundColor=_baseBackgroundColor;
-@property(nonatomic) struct CGColor *baseForegroundColor; // @synthesize baseForegroundColor=_baseForegroundColor;
-@property(readonly, nonatomic) _UISSecureControlCategory *category; // @synthesize category=_category;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enchanted; // @synthesize enchanted=_enchanted;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long imagePlacement; // @synthesize imagePlacement=_imagePlacement;
-@property(readonly, nonatomic) struct CGSize intrinsicContentSize; // @synthesize intrinsicContentSize=_intrinsicContentSize;
-@property(readonly, nonatomic) unsigned int secureName;
-@property(nonatomic) _Bool shouldLayoutSynchronously; // @synthesize shouldLayoutSynchronously=_shouldLayoutSynchronously;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,7 @@
     id section;
 }
 
-- (long long);
+- (long long)R;
 - (id);
 - (id);
 - (void);

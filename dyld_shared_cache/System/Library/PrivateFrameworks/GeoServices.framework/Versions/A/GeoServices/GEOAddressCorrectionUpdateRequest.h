@@ -4,80 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAddressCorrectionUpdateRequest
 {
     PBDataReader *_reader;
-    NSString *_addressID;
-    NSMutableArray *_addressResults;
-    NSMutableArray *_significantLocations;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _correctionStatus;
-    struct {
-        unsigned int has_correctionStatus:1;
-        unsigned int read_addressID:1;
-        unsigned int read_addressResults:1;
-        unsigned int read_significantLocations:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)setIsNotesAccessGranted: /* Error: Ran out of types for this method. */;
 + (Class);
-+ (Class);
-+ (_Bool)asMaskedplateGeneratorValidatorVersion:(id)arg1;
++ (_Bool)setHasMaskedplateGeneratorValidatorVersion:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)priorityQueueWithComparator:(_Bool)arg1;
+- (void)initWithApplicationWorkspace:(int)arg1;
+- (void)dataWithBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (void)dataDetectorsStrategy;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)_selectedResultCandidateId;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)h;
 - (void)1·*ð1Â0@ù
 × ;
 - (id)modifiedCourseAccuracy;
 - (id)@è4;
-- (id)ported;
+- (id)MapHelperServicePreferStaleSupported;
 - (id)ÿÿ;
 - (Class);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *addressID;
-@property(retain, nonatomic) NSMutableArray *addressResults;
-@property(nonatomic) int correctionStatus;
-@property(readonly, nonatomic) _Bool hasAddressID;
 @property(nonatomic) _Bool hasCorrectionStatus;
-@property(retain, nonatomic) NSMutableArray *significantLocations;
 
 @end
 

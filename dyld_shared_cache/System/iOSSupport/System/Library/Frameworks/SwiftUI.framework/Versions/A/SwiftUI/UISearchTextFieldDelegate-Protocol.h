@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSItemProvider;
+
 @protocol UISearchTextFieldDelegate
+
+@optional
+- (NSItemProvider *)So16NSOperationQueueC;
+- (void)_Xx;
 @end
 

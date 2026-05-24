@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface VSAppleSubscription
 {
     NSString *_customerID;
-    NSArray *_productCodes;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (void);
+- (void)qA;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)&Q;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_isPrivacyProxyActiveForInterface:(id)arg1 networkStatuses: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *customerID; // @synthesize customerID=_customerID;
-@property(retain, nonatomic) NSArray *productCodes; // @synthesize productCodes=_productCodes;
 
 @end
 

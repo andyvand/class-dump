@@ -7,7 +7,6 @@
 @interface Foundation._FileOperations._FileRemoveContext__priv_0F974932CC9FBACA9047618113061023
 {
     id error;
-    id manager;
 }
 
 @end

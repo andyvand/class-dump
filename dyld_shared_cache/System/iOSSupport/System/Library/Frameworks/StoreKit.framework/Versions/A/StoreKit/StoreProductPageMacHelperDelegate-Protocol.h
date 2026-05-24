@@ -5,5 +5,12 @@
 //
 
 @protocol StoreProductPageMacHelperDelegate
+- (void)priority INTEGER,
+    server_timestamp INTEGER,
+    pending INTEGER NOT NULL DEFAULT(0) CHECK (pending IN (0, 1)),
+    download_attempts INTEGER,
+    modified_at INTEGER NOT NULL DEFAULT(STRFTIME('%s', 'now')),
+    UNIQUE (bundle_id, usage_id)
+);
 @end
 

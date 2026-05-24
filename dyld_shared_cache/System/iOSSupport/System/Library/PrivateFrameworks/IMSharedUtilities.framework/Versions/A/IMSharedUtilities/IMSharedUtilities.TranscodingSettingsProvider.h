@@ -7,10 +7,6 @@
 @interface IMSharedUtilities.TranscodingSettingsProvider
 {
     id userDefaults;
-    id transcodePreviewsKey;
-    id disableLowQualityModeOnWiFiKey;
-    id transcodePreviewsInitializedKey;
-    id disableLowQualityModeOnWiFiInitializedKey;
 }
 
 @end

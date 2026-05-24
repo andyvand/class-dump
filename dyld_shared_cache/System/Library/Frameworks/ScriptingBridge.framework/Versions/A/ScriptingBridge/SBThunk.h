@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMethodSignature, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SBThunk
 {
     NSString *_selector;
-    NSMethodSignature *_signature;
 }
 
 + (id);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)yLocations;
 
 @end
 

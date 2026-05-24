@@ -14,13 +14,13 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)_turnOnICloudKeychain;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ltsForImage:error: /* Error: Ran out of types for this method. */;
+- (void)textDetectorResultsForImage:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

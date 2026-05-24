@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteOwnerSendLogEvent : HMDSharedUserInviteLogEvent
 {
     _Bool _userAlreadyAddedToShare;
-    long long _createShareMS;
-    long long _addUserToShareMS;
-    long long _sendInvitationMS;
-    long long _totalInvitationCreateAndSendMS;
 }
 
 - (_Bool);
@@ -27,16 +23,34 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)iew controller is not loaded;
+- (id)43));
+rgb = lms.r * vec3( 5.472212058380287,  -1.125241895533569,   0.029801651173470) +
+lms.g * vec3(-4.641960098354470, 2.293170938060623, -0.193180728257140) +
+lms.b * vec3(0.169637076827974,  -0.167895202223709, 1.163647892783812);
+return vec4(rgb, im.a);
+}
+kernel vec4 add_gaussian(sampler srcTable, float tableSize, float hueAmplitude, float satAmplitude, float lumAmplitude, float gaussX, float gaussSigmaSquared) {
+vec2 d = destCoord();
+vec4 src = sample(srcTable, samplerCoord(srcTable));
+float x = d.x / (tableSize - 1.0);
+float dist = min(min(abs(x - gaussX), abs(x - 1.0 - gaussX)), abs(x + 1.0 - gaussX));
+float p = -((dist * dist) / (2.0 * gaussSigmaSquared));
+float ep = exp(p);
+float hue = hueAmplitude * ep;
+float sat = satAmplitude * ep;
+float lum = lumAmplitude * ep;
+float h = clamp(src.r + hue, -1.0, 1.0);
+float s = clamp(src.g + sat, -1.0, 1.0);
+float l = clamp(src.b + lum, -1.0, 1.0);
+return vec4(h,s,l,1.0);
+}
+
+;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long addUserToShareMS; // @synthesize addUserToShareMS=_addUserToShareMS;
 @property(nonatomic) long long createShareMS; // @synthesize createShareMS=_createShareMS;
-@property(nonatomic) long long sendInvitationMS; // @synthesize sendInvitationMS=_sendInvitationMS;
-@property(nonatomic) long long totalInvitationCreateAndSendMS; // @synthesize totalInvitationCreateAndSendMS=_totalInvitationCreateAndSendMS;
-@property(nonatomic) _Bool userAlreadyAddedToShare; // @synthesize userAlreadyAddedToShare=_userAlreadyAddedToShare;
 
 @end
 

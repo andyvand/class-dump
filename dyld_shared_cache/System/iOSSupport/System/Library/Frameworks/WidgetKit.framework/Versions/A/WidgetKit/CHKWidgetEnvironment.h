@@ -9,23 +9,19 @@
 @interface CHKWidgetEnvironment
 {
     id encodePubliclyFor3rdParty;
-    id codableArchiveVersion;
-    id tuples;
-    id _sortedValuesCache;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)CollectionView"16@"NSIndexPath"24;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

@@ -11,30 +11,23 @@
 @interface _NSCollectionLayoutBoundarySupplementaryItem : _NSCollectionLayoutSupplementaryItem
 {
     NSString *_elementKind;
-    long long _alignment;
-    struct CGPoint _offset;
-    _Bool _extendsBoundary;
-    _Bool _pinToVisibleBounds;
 }
 
-+ (id);
++ (id)storage after it has already been faulted in!;
 + (id);
 - (id);
-- (id);
+- (id)<%{public}@> %{public}@ finished getting auth headers for session %@ with identifier %@;
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
-- (id)Popover;
+- (id)dismissPopover;
 - (void)nsliterationStateToMarkedText:andCursorRange:] called with nil markedText /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) long long alignment; // @synthesize alignment=_alignment;
 @property(nonatomic) _Bool extendsBoundary; // @synthesize extendsBoundary=_extendsBoundary;
-@property(readonly, nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(nonatomic) _Bool pinToVisibleBounds; // @synthesize pinToVisibleBounds=_pinToVisibleBounds;
 
 @end
 

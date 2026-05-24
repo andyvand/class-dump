@@ -5,5 +5,9 @@
 //
 
 @protocol EMQueryResultsObserver
+- (void);
+- (void)RemovePassesCodingKeys;
+- (void)HomeUtilPassCommand;
+- (_Bool)JoinInfo;
 @end
 

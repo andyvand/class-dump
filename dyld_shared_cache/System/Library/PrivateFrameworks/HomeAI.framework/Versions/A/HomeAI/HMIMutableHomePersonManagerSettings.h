@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)F:(struct _NSZone *)arg1:UUID, WTF::RetainPtr<WebNotification>>::KeyValuePairTraits, WTF::HashTraits<UUID>>::validateKey(const ValueType &) [Key = WTF::UUID, Value = WTF::KeyValuePair<WTF::UUID, WTF::RetainPtr<WebNotification>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::RetainPtr<WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::RetainPtr<WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isFaceClassificationEnabled) _Bool faceClassificationEnabled; // @dynamic faceClassificationEnabled;

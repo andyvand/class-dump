@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (int);
-+ (id);
++ (id)`;
 + (unsigned long long);
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDSPathFilterGenerator, NSMutableSet, NSSet, NSString;
-
 @interface TMPathFilterGenerator
 {
     unsigned int _baseRuleSet;
-    NSString *_mountPoint;
-    MDSPathFilterGenerator *_baseFilterGenerator;
-    MDSPathFilterGenerator *_customExclusionsFilterGenerator;
-    NSMutableSet *_stickyExclusionPaths;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,8 +28,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int baseRuleSet; // @synthesize baseRuleSet=_baseRuleSet;
-@property(readonly) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(readonly) NSSet *stickyExclusionPaths; // @synthesize stickyExclusionPaths=_stickyExclusionPaths;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, WBSSiriIntelligenceDonorPersonalizationData;
+@class NSURL;
 
 @interface WBSSiriIntelligenceDonorHistoryData
 {
     NSURL *_pageURL;
-    NSString *_userVisibleURLString;
-    NSString *_pageTitle;
-    NSString *_fullPageText;
-    NSString *_readerText;
-    NSDate *_lastVisitedDate;
-    WBSSiriIntelligenceDonorPersonalizationData *_personalizationData;
-    NSString *_profileIdentifier;
 }
 
 - (id);
@@ -27,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,14 +31,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fullPageText; // @synthesize fullPageText=_fullPageText;
-@property(copy, nonatomic) NSDate *lastVisitedDate; // @synthesize lastVisitedDate=_lastVisitedDate;
-@property(copy, nonatomic) NSString *pageTitle; // @synthesize pageTitle=_pageTitle;
 @property(copy, nonatomic) NSURL *pageURL; // @synthesize pageURL=_pageURL;
-@property(retain, nonatomic) WBSSiriIntelligenceDonorPersonalizationData *personalizationData; // @synthesize personalizationData=_personalizationData;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(copy, nonatomic) NSString *readerText; // @synthesize readerText=_readerText;
-@property(copy, nonatomic) NSString *userVisibleURLString; // @synthesize userVisibleURLString=_userVisibleURLString;
 
 @end
 

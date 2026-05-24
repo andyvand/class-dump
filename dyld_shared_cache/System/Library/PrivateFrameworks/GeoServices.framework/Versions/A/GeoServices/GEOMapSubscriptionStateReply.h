@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOMapDataSubscriptionState, NSString;
+@class GEOMapDataSubscriptionState;
 
 @interface GEOMapSubscriptionStateReply : GEOXPCReply
 {
@@ -14,21 +14,14 @@
 }
 
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)DecodeTile:(id)arg1 quickly: /* Error: Ran out of types for this method. */;
+- (_Bool)parser:foundInternalEntityDeclarationWithName:value: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (id)6@?0@"GEOComposedStringArgument"8;
+- (void)canDecodeTile:(id)arg1 quickly: /* Error: Ran out of types for this method. */;
 - (void)pL5£3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOMapDataSubscriptionState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

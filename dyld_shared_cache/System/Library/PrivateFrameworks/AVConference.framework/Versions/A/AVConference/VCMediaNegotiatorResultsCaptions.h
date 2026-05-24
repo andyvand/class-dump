@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorResultsCaptions
 {
     _Bool _remoteCanDisplayCaptions;
-    NSSet *_localLanguages;
-    NSSet *_remoteLanguages;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *localLanguages; // @synthesize localLanguages=_localLanguages;
 @property(nonatomic) _Bool remoteCanDisplayCaptions; // @synthesize remoteCanDisplayCaptions=_remoteCanDisplayCaptions;
-@property(retain, nonatomic) NSSet *remoteLanguages; // @synthesize remoteLanguages=_remoteLanguages;
 
 @end
 

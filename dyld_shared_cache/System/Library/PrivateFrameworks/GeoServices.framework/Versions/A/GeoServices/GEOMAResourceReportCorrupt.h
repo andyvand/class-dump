@@ -6,31 +6,24 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface GEOMAResourceReportCorrupt : GEOXPCRequest
 {
     NSURL *_url;
 }
 
-+ (Class);
++ (Class)_updateSpaceBetweenImageAndPopUp;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id)ute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
-- (void)g:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (id)initWithRoute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
+- (void)addData:(id)arg1 forKey:edition:set:provider:etag:reason: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIHueSaturationFilterLocal
 {
     CIImage *inputImage;
-    NSNumber *inputCenterAngle;
-    NSNumber *inputAngleWidth;
-    CIColor *inputTintColor;
 }
 
 + (id);
@@ -32,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAngleWidth; // @synthesize inputAngleWidth;
-@property(copy, nonatomic) NSNumber *inputCenterAngle; // @synthesize inputCenterAngle;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) CIColor *inputTintColor; // @synthesize inputTintColor;
 
 @end
 

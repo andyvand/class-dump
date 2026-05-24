@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, OS_xds_local_cache;
-@protocol OS_xpc_object;
-
 @interface OS_xpc_datastore_object
 {
     unsigned long long ds_type;
     unsigned long long max_size;
-    char *ds_name;
-    struct os_unfair_lock_s lock;
-    OS_xds_local_cache *local_data;
-    NSObject<OS_xpc_object> *conn;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

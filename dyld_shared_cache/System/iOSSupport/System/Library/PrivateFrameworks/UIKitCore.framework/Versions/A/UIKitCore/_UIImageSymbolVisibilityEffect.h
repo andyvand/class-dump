@@ -9,8 +9,6 @@
 @interface _UIImageSymbolVisibilityEffect : _UIImageSymbolEffect
 {
     _Bool _byLayer;
-    long long _visibility;
-    long long _style;
 }
 
 + (id);
@@ -20,25 +18,23 @@
 + (_Bool)allowedWritingToolsResultOptions:%ld
  /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (id);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (long long);
+- (long long)x.?;
+- (id)ack to .resolvingSymLinksInPath;
+- (_Bool)rring %@ over %@ because the creation date is older.;
+- (long long)s to delete so we don't want to delete anything;
+- (_Bool)tributed/richCards;
+- (long long)P;
 - (id);
 - (unsigned long long);
 - (void)
 × ;
-- (_Bool)ctionDidChange;
-- (void)etDeferredSystemView:(id)arg1;
+- (_Bool)traitCollectionDidChange;
+- (void)setDeferredSystemView:(id)arg1;
 - (id)eedsHoverStyleUpdate;
-- (long long)Activation;
+- (long long)UISearchControllerScopeBarActivation;
 - (void)øà];
 
 // Remaining properties
-@property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;
-@property(nonatomic) long long style; // @synthesize style=_style;
 @property(nonatomic) long long visibility; // @synthesize visibility=_visibility;
 
 @end

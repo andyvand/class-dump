@@ -7,22 +7,6 @@
 @interface CoreFollowUp.FLFollowUpModelObserver
 {
     id topLevelViewModel;
-    id viewModelSnapshot;
-    id onUpdateBlock;
-    id _primaryAppleAccountFollowUps;
-    id _appleServicesFollowUps;
-    id _primaryAppleAccountNoGroupFollowUps;
-    id _secondaryAppleAccountFollowUps;
-    id _secondaryAppleAccountNoGroupFollowUps;
-    id _deviceFollowUpGroupSectionElement;
-    id _deviceFollowUps;
-    id _secureMicrophoneFollowUpGroupSectionElement;
-    id _secureMicrophoneFollowUps;
-    id _newDeviceOutreachFollowUpGroupSectionElement;
-    id _newDeviceOutreachFollowUps;
-    id _unauthorizedFollowUpGroupSectionElement;
-    id _unauthorizedFollowUps;
-    id observerTask;
 }
 
 @end

@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryTaskTracker
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _currentTaskIdentifier;
-    NSMutableDictionary *_pendingTasks;
 }
 
-- (void);
-- (id);
+- (void)lic}@] updateGroupSessionStorage;
+- (id)header_artwork;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)xl;
 - (void)nType = %@;
 
 // Remaining properties
-@property(readonly) unsigned long long nextTaskIdentifier;
 @property(readonly) NSMutableDictionary *pendingTasks; // @synthesize pendingTasks=_pendingTasks;
 
 @end

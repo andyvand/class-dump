@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)l refresh catalog since XmlNotPresent;
+- (id)shing assets. Will refresh catalog since XmlNotPresent;
+- (id)Refreshing assets. Metadata query failed:(SEL)arg1 queryResult=%@. %@;
+- (id)Process not entitled for MobileAsset;
+- (id)sets. Metadata query failed:(SEL)arg1 Process not entitled for MobileAsset;
+- (Class)y for metadata.;
+- (_Bool)Y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

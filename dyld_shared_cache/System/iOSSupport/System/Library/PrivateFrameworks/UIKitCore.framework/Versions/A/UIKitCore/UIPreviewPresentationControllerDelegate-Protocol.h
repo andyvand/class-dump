@@ -5,5 +5,8 @@
 //
 
 @protocol UIPreviewPresentationControllerDelegate
+
+@optional
+- (void);
 @end
 

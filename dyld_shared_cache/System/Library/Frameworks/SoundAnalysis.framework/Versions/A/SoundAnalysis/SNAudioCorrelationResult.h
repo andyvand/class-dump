@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNAudioCorrelationResult
 {
     id impl;
@@ -15,12 +13,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (CDStruct_198678f7);
 - (long long);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
@@ -29,11 +27,6 @@
 - (CDStruct_3c1748cc)6@"NSArray"24@"NSArray"32^@40;
 
 // Remaining properties
-@property(nonatomic) long long channelIndex;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) CDStruct_198678f7 peakTime;
-@property(nonatomic) double peakValue;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

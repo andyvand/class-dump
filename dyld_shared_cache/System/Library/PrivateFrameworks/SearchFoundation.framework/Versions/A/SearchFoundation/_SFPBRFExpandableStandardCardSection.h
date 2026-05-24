@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFSummaryItemStandardCardSection;
+@class _SFPBRFSummaryItemStandardCardSection;
 
 @interface _SFPBRFExpandableStandardCardSection
 {
     _SFPBRFSummaryItemStandardCardSection *_summary_item_standard_card_section;
-    NSArray *_expanding_component_contents;
-    unsigned long long _whichPrimary_Component;
 }
 
 - (unsigned long long);
@@ -28,24 +26,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)lock:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (id)fier %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)mpleItemPlayerCardSection"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *expanding_component_contents; // @synthesize expanding_component_contents=_expanding_component_contents;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFSummaryItemStandardCardSection *summary_item_standard_card_section; // @synthesize summary_item_standard_card_section=_summary_item_standard_card_section;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichPrimary_Component; // @synthesize whichPrimary_Component=_whichPrimary_Component;
 
 @end
 

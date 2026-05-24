@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, MMWebKitViewController, NSSet, NSString;
+@class ACAccount, MMWebKitViewController;
 
 @interface MMTermsOfServiceController
 {
     ACAccount *_account;
-    CDUnknownBlockType _completion;
-    _Bool _didRenewCredentials;
-    NSSet *_requestedTermsEntries;
-    NSString *_deviceOSVersion;
-    MMWebKitViewController *_webKitViewController;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,20 +23,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)b;
 - (id);
 - (void);
 - (void)Y1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end

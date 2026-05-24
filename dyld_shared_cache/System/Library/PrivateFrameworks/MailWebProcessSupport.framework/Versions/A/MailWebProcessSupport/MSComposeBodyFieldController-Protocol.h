@@ -5,5 +5,6 @@
 //
 
 @protocol MSComposeBodyFieldController
+- (void);
 @end
 

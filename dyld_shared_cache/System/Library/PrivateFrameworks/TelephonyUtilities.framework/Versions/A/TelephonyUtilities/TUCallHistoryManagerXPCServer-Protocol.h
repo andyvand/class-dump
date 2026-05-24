@@ -5,5 +5,7 @@
 //
 
 @protocol TUCallHistoryManagerXPCServer
+- (oneway void);
+- (oneway void);
 @end
 

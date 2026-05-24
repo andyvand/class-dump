@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
-
 @interface IMDaemonListener
 {
 }
@@ -20,43 +18,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)|�;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_contexts;
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect;
-@property(readonly, nonatomic) NSArray *allServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;
-@property(readonly, nonatomic) unsigned int myIdleTime;
-@property(readonly, nonatomic) unsigned long long myStatus;
-@property(readonly, nonatomic) NSString *myStatusMessage;
-@property(readonly, nonatomic) NSDictionary *persistentProperties;
-@property(readonly, nonatomic) NSDictionary *properties;
 @property(readonly, nonatomic, getter=isSetupComplete) _Bool setupComplete;
-@property(readonly, nonatomic) _Bool shouldHoldChatMessages;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 
 @end
 

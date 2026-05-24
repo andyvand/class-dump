@@ -5,5 +5,11 @@
 //
 
 @protocol NSApplicationDelegate
+
+@optional
+- (void)J;
+- (void)K;
+- (void)F;
+- (void);
 @end
 

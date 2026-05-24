@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError;
+@class NSDictionary;
 
 @interface KTSelfVerificationInfo
 {
     NSDictionary *_uriToServerLoggableDatas;
-    NSArray *_syncedLoggableDatas;
-    NSData *_selfDeviceID;
-    NSError *_failure;
 }
 
 + (_Bool);
@@ -20,11 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T@"NSFileHandle",&,V_observedFileHandle;
 - (id);
 - (void);
 - (id);
@@ -33,10 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property(retain) NSError *failure; // @synthesize failure=_failure;
-@property(retain) NSData *selfDeviceID; // @synthesize selfDeviceID=_selfDeviceID;
-@property(retain) NSArray *syncedLoggableDatas; // @synthesize syncedLoggableDatas=_syncedLoggableDatas;
 @property(retain) NSDictionary *uriToServerLoggableDatas; // @synthesize uriToServerLoggableDatas=_uriToServerLoggableDatas;
 
 @end

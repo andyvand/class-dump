@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UINSAppKitTerminationControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface UINSAppKitTerminationController
 {
     _Bool _isLaunchComplete;
-    _Bool _isTerminatingNSApplication;
-    _Bool _isTerminationCancelable;
-    _Bool _isTerminationQuitAndCloseAllWindows;
-    _Bool _isTerminationExplicit;
-    _Bool _wasTerminationRequestedBeforeLaunchCompletion;
-    _Bool _shouldExpediteNextTermination;
-    _Bool _expeditingCanBeTakenBack;
-    _Bool _showedAlertForWindowSizePrefsChange;
-    _Bool _isWaitingForTerminationReply;
-    _Bool _didSetupKVO;
-    id <UINSAppKitTerminationControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -30,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
 - (_Bool);
@@ -58,26 +45,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tableView:shouldReorderColumn:toColumn: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (void);
-- (void);
+- (void)	
+;
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <UINSAppKitTerminationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didSetupKVO; // @synthesize didSetupKVO=_didSetupKVO;
-@property(nonatomic) _Bool expeditingCanBeTakenBack; // @synthesize expeditingCanBeTakenBack=_expeditingCanBeTakenBack;
 @property(nonatomic) _Bool isLaunchComplete; // @synthesize isLaunchComplete=_isLaunchComplete;
-@property(nonatomic) _Bool isTerminatingNSApplication; // @synthesize isTerminatingNSApplication=_isTerminatingNSApplication;
-@property(nonatomic) _Bool isTerminationCancelable; // @synthesize isTerminationCancelable=_isTerminationCancelable;
-@property(nonatomic) _Bool isTerminationExplicit; // @synthesize isTerminationExplicit=_isTerminationExplicit;
-@property(nonatomic) _Bool isTerminationQuitAndCloseAllWindows; // @synthesize isTerminationQuitAndCloseAllWindows=_isTerminationQuitAndCloseAllWindows;
-@property(nonatomic) _Bool isWaitingForTerminationReply; // @synthesize isWaitingForTerminationReply=_isWaitingForTerminationReply;
-@property(nonatomic) _Bool shouldExpediteNextTermination; // @synthesize shouldExpediteNextTermination=_shouldExpediteNextTermination;
-@property(nonatomic) _Bool showedAlertForWindowSizePrefsChange; // @synthesize showedAlertForWindowSizePrefsChange=_showedAlertForWindowSizePrefsChange;
-@property(nonatomic) _Bool wasTerminationRequestedBeforeLaunchCompletion; // @synthesize wasTerminationRequestedBeforeLaunchCompletion=_wasTerminationRequestedBeforeLaunchCompletion;
 
 @end
 

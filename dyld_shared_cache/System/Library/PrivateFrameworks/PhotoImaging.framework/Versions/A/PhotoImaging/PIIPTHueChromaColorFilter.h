@@ -6,15 +6,11 @@
 
 #import <PhotoImaging/PIIPTHueChromaFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIIPTHueChromaColorFilter : PIIPTHueChromaFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputHueTarget;
-    NSNumber *_inputHueRange;
-    NSNumber *_inputChromaMin;
-    NSNumber *_inputHueIsNormalized;
 }
 
 + (id);
@@ -22,20 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)cStyleSchema;
+- (void)semanticStyleSchema;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputChromaMin; // @synthesize inputChromaMin=_inputChromaMin;
-@property(retain, nonatomic) NSNumber *inputHueIsNormalized; // @synthesize inputHueIsNormalized=_inputHueIsNormalized;
-@property(retain, nonatomic) NSNumber *inputHueRange; // @synthesize inputHueRange=_inputHueRange;
-@property(retain, nonatomic) NSNumber *inputHueTarget; // @synthesize inputHueTarget=_inputHueTarget;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

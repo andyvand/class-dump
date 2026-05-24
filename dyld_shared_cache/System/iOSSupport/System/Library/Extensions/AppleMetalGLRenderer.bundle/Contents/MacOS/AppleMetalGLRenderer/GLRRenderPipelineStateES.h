@@ -26,6 +26,7 @@ __attribute__((visibility("hidden")))
             unsigned int reserved:53;
         } usageFlags;
     } _internal;
+    id;
 }
 
 - (id);

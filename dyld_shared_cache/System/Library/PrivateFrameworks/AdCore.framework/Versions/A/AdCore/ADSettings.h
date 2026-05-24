@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ADSettings
 {
     NSString *_name;
-    NSMutableArray *_parameters;
 }
 
 + (Class);
@@ -18,15 +17,15 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)@.;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)hService;
 - (id);
 - (id);
 - (void);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *parameters; // @synthesize parameters=_parameters;
 
 @end
 

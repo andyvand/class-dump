@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEProfileIngestionPayloadInfo, NEVPNConnection, NEVPNProtocol, NSArray, NSString, NSUUID;
+@class NEConfiguration;
 
 @interface NEVPNManager
 {
     _Bool _hasLoaded;
-    _Bool _notificationSent;
-    NEVPNConnection *_connection;
-    NEConfiguration *_configuration;
 }
 
 + (void);
@@ -21,8 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)T
+;
+- (id)(=;
 - (id);
 - (void);
 - (_Bool);
@@ -35,36 +33,24 @@
 - (id);
 - (void);
 - (void);
+- (id)win;
+- (void);
+- (id)onCloudSharingMailResult";
+- (id)bluetoothAndWiFiEnabled;
 - (id);
+- (id);
+- (_Bool)permutating;
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)enableTemporaryPhoneAlias:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)16q20;
 - (id)nected %@;
 - (void)ired fields;
-- (id)dCPRequired;
+- (id)FailedCPRequired;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier;
 @property(copy) NEConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NEProfileIngestionPayloadInfo *configurationPayloadInfo;
-@property(readonly) NEVPNConnection *connection; // @synthesize connection=_connection;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic, getter=isFromMDM) _Bool fromMDM;
-@property(readonly, nonatomic, getter=isFromProfile) _Bool fromProfile;
-@property(readonly, nonatomic) NSUUID *identifier;
-@property(copy) NSString *localizedDescription;
-@property(getter=isOnDemandEnabled) _Bool onDemandEnabled;
-@property(copy) NSArray *onDemandRules;
-@property(retain) NEVPNProtocol *protocol;
-@property(retain) NEVPNProtocol *protocolConfiguration;
 
 @end
 

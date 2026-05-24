@@ -9,8 +9,6 @@
 @interface SOBlockListController
 {
     NSOrderedSet *_soBlockItemList;
-    id _cmfBlockListUpdatedObserver;
-    id _abDatabaseChangedExternallyObserver;
 }
 
 + (Class);
@@ -28,21 +26,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)=;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)setTargetsSuperlayer: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setOpacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) id abDatabaseChangedExternallyObserver; // @synthesize abDatabaseChangedExternallyObserver=_abDatabaseChangedExternallyObserver;
-@property(retain) id cmfBlockListUpdatedObserver; // @synthesize cmfBlockListUpdatedObserver=_cmfBlockListUpdatedObserver;
 @property(retain) NSOrderedSet *soBlockItemList; // @synthesize soBlockItemList=_soBlockItemList;
 
 @end

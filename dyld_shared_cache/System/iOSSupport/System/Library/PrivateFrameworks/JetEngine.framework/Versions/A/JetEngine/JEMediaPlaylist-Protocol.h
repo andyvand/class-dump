@@ -5,8 +5,11 @@
 //
 
 @class NSArray;
+@protocol JEMediaPlaylistItem;
 
 @protocol JEMediaPlaylist
+- (NSArray *)RTLocationOfInterest";
+- (id <JEMediaPlaylistItem>);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *eventData;

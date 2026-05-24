@@ -9,23 +9,17 @@
 @interface GeoIpLookupResult
 {
     NSString *_ipAddress;
-    CDStruct_2c43369c _latLong;
-    NSString *_countryCode;
-    NSString *_timeZone;
 }
 
 - (id);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_c3b9c2ee)app;
 - (id);
 - (id)¯ðÂ;
 - (void);
 - (id)M4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
 @property(readonly, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee latLong; // @synthesize latLong=_latLong;
-@property(readonly, nonatomic) NSString *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPostalAddress, NSString;
+@class NSString;
 
 @protocol MKLinkPreviewLocationInfoInternal
+- (_Bool)@ result=%@, message=%@;
+- (NSString *)TrackTranslationalImageRegistrationRequest;
+- (struct CLLocationCoordinate2D)processedAudioDurationInMilliseconds;
+- (void)IOUSBHostDevice;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address;
-@property(copy, nonatomic) CNPostalAddress *addressComponents;
-@property(copy, nonatomic) NSString *category;
-@property(nonatomic) struct CLLocationCoordinate2D coordinate;
 @property(nonatomic) _Bool isPointOfInterest;
-@property(copy, nonatomic) NSString *name;
 @end
 

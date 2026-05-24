@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContactsSearchManager, NSArray, NSString;
+@class CKContactsSearchManager;
 
 @interface CKSpringBoardActionManager
 {
     _Bool shouldHideGroupsDonations;
-    CKContactsSearchManager *_contactsSearchManager;
-    NSArray *_conversationCache;
 }
 
 + (id)äú;
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)edCount:(id)arg1 endAcceptedCount: /* Error: Ran out of types for this method. */;
+- (void)ount:startAcceptedCount:endInvitedCount:endAcceptedCount: /* Error: Ran out of types for this method. */;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)ic_stringByReplacingCharactersInSet:(_Bool)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)colorWithName:(id)arg1 dynamicProvider: /* Error: Ran out of types for this method. */;
+- (void)collaborationController:(id)arg1 persistLeaveActivityEventOnObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)o;
+- (id)s;
+- (void));
 - (void);
 - (void);
 - (id);
@@ -33,15 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKContactsSearchManager *contactsSearchManager; // @synthesize contactsSearchManager=_contactsSearchManager;
-@property(copy, nonatomic) NSArray *conversationCache; // @synthesize conversationCache=_conversationCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldHideGroupsDonations; // @synthesize shouldHideGroupsDonations;
-@property(readonly) Class superclass;
 
 @end
 

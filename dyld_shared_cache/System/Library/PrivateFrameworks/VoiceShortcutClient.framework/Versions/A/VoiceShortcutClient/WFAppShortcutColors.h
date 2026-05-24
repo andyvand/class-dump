@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFColor, WFGradient;
+@class WFGradient;
 
 @interface WFAppShortcutColors
 {
     _Bool _isDefaultTintColor;
-    WFGradient *_backgroundGradient;
-    WFColor *_tintColor;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@0:(id)arg1 8@16;
 - (id);
 - (void)AU°!pEùñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) WFGradient *backgroundGradient; // @synthesize backgroundGradient=_backgroundGradient;
-@property(readonly, nonatomic) _Bool isDefaultTintColor; // @synthesize isDefaultTintColor=_isDefaultTintColor;
-@property(readonly, nonatomic) WFColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

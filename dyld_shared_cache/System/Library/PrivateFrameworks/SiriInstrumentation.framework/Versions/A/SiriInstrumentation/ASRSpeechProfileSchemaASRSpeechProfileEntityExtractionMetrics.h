@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileEntityExtractionMetrics : SISchemaInstrumentationMessage
 {
     _Bool _isExtractionIngestionEnabled;
-    _Bool _isExtractionSetupSuccessful;
-    unsigned int _numEntitiesExtractionAttempted;
-    unsigned int _numEntitiesContainingExtractions;
-    unsigned int _numEntitiesExtracted;
-    struct {
-        unsigned int isExtractionIngestionEnabled:1;
-        unsigned int isExtractionSetupSuccessful:1;
-        unsigned int numEntitiesExtractionAttempted:1;
-        unsigned int numEntitiesContainingExtractions:1;
-        unsigned int numEntitiesExtracted:1;
-    } _has;
 }
 
 - (void);
@@ -39,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)-;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -55,22 +42,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)iceTriggerEnrollmentFunnelReported;
+- (id)voiceTriggerEnrollmentFunnelReported;
 - (id)\;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExtractionIngestionEnabled;
-@property(nonatomic) _Bool hasIsExtractionSetupSuccessful;
-@property(nonatomic) _Bool hasNumEntitiesContainingExtractions;
-@property(nonatomic) _Bool hasNumEntitiesExtracted;
-@property(nonatomic) _Bool hasNumEntitiesExtractionAttempted;
 @property(nonatomic) _Bool isExtractionIngestionEnabled; // @synthesize isExtractionIngestionEnabled=_isExtractionIngestionEnabled;
-@property(nonatomic) _Bool isExtractionSetupSuccessful; // @synthesize isExtractionSetupSuccessful=_isExtractionSetupSuccessful;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numEntitiesContainingExtractions; // @synthesize numEntitiesContainingExtractions=_numEntitiesContainingExtractions;
-@property(nonatomic) unsigned int numEntitiesExtracted; // @synthesize numEntitiesExtracted=_numEntitiesExtracted;
-@property(nonatomic) unsigned int numEntitiesExtractionAttempted; // @synthesize numEntitiesExtractionAttempted=_numEntitiesExtractionAttempted;
 
 @end
 

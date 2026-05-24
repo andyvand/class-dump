@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MKTileOverlayTile
 {
     CDStruct_cbb88d5e _path;
-    CDStruct_02837cd9 _frame;
-    double _scale;
-    NSData *_image;
 }
 
-- (void);
-- (id);
+- (void)_clientBundleIdentifierCachedValue;
+- (id)with a temporary URL will still be attempted, but the behavior is now undefined.;
 - (double);
 - (id);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_2f492f29);
 - (void);
 - (CDStruct_cbb88d5e);
 - (void);
-- (void)oader: /* Error: Ran out of types for this method. */;
+- (void)registerTileLoader: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDStruct_02837cd9 frame; // @synthesize frame=_frame;
-@property(retain, nonatomic) NSData *image; // @synthesize image=_image;
 @property(nonatomic) CDStruct_cbb88d5e path; // @synthesize path=_path;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

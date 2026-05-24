@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactFormatter, CNContactViewController, CNUICoreContactEditingSession, CNUIFamilyMemberContactsEditingStrategy, CNUIFamilyMemberDowntimeContactDataSource, FAFamilyMember, NSArray, NSIndexPath, NSString, UISearchBar, UISearchController, UITableView;
-@protocol CNUIFamilyMemberDowntimeContactPickerControllerDelegate;
+@class UITableView;
 
 @interface CNUIFamilyMemberDowntimeContactPickerController
 {
     _Bool _shouldPreselectFamilyMemberContacts;
-    _Bool _initialSelectionPerformed;
-    id <CNUIFamilyMemberDowntimeContactPickerControllerDelegate> _delegate;
-    UITableView *_tableView;
-    UISearchController *_searchController;
-    UISearchBar *_searchBar;
-    NSIndexPath *_presentedContactIndexPath;
-    CNContactViewController *_contactViewController;
-    CNContactFormatter *_contactCellLabelFormatter;
-    CNContactFormatter *_contactCardWarningFormatter;
-    CNUIFamilyMemberDowntimeContactDataSource *_dataSource;
-    CNUIFamilyMemberContactsEditingStrategy *_editingStrategy;
-    FAFamilyMember *_childFamilyMember;
-    NSArray *_allFamilyMembers;
-    CNContact *_preferredForNameMeContact;
 }
 
++ (id)@9?;
 + (id);
-+ (id);
-- (id);
-- (void);
+- (id);
+- (void)9;
 - (_Bool);
 - (void);
 - (void);
@@ -37,77 +22,56 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)9?;
 - (id);
+- (void);
+- (id);
+- (id)h";
+- (id);
+- (id);
+- (long long);
+- (void)E;
+- (void)ӈ;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)!;
+- (id)4F;
 - (id);
+- (id)== NO;
+- (void);
+- (long long);
+- (void)ts changerowidindex;;
+- (void)`;
 - (id);
 - (long long);
 - (void);
 - (void);
+- (id)=;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)r in enumerating malloc zone %@ - allocation is excessively large:(id)arg1 %#llx-%#llx[%llu].%s
+;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)Duration:delay:options:animations:completion: /* Error: Ran out of types for this method. */;
-- (void)xAvatarCount;
-- (id)irthdays;
+- (void)animateWithDuration:delay:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)_maxAvatarCount;
+- (id)birthdays;
 - (void)invoke;
 - (void)GG_H¥øQo_ðç÷Gjc,%G;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFamilyMembers; // @synthesize allFamilyMembers=_allFamilyMembers;
-@property(readonly, nonatomic) FAFamilyMember *childFamilyMember; // @synthesize childFamilyMember=_childFamilyMember;
-@property(readonly, nonatomic) CNContactFormatter *contactCardWarningFormatter; // @synthesize contactCardWarningFormatter=_contactCardWarningFormatter;
-@property(readonly, nonatomic) CNContactFormatter *contactCellLabelFormatter; // @synthesize contactCellLabelFormatter=_contactCellLabelFormatter;
-@property(retain, nonatomic) CNContactViewController *contactViewController; // @synthesize contactViewController=_contactViewController;
-@property(readonly, nonatomic) CNUIFamilyMemberDowntimeContactDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIFamilyMemberDowntimeContactPickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNUICoreContactEditingSession *editingSessionFromContactViewController;
-@property(readonly, nonatomic) CNUIFamilyMemberContactsEditingStrategy *editingStrategy; // @synthesize editingStrategy=_editingStrategy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool initialSelectionPerformed; // @synthesize initialSelectionPerformed=_initialSelectionPerformed;
-@property(readonly, nonatomic) CNContact *preferredForNameMeContact; // @synthesize preferredForNameMeContact=_preferredForNameMeContact;
-@property(retain, nonatomic) NSIndexPath *presentedContactIndexPath; // @synthesize presentedContactIndexPath=_presentedContactIndexPath;
-@property(retain, nonatomic) UISearchBar *searchBar; // @synthesize searchBar=_searchBar;
-@property(retain, nonatomic) UISearchController *searchController; // @synthesize searchController=_searchController;
-@property(nonatomic) _Bool shouldPreselectFamilyMemberContacts; // @synthesize shouldPreselectFamilyMemberContacts=_shouldPreselectFamilyMemberContacts;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end

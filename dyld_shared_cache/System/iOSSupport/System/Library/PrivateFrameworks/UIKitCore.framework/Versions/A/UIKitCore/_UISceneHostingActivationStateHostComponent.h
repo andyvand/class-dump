@@ -4,58 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneTransitionContext, NSString, _UISceneHostingActivationHandle;
 @protocol _UIRemoteContentParent, _UISceneHostingActivationControlling;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneHostingActivationStateHostComponent
 {
     id <_UIRemoteContentParent> _parentEnvironment;
-    unsigned int _foregroundAssertionCount;
-    _Bool _isCurrentlyPropagatingForeground;
-    _UISceneHostingActivationHandle *_activationHandle;
-    FBSSceneTransitionContext *_pendingTransitionContext;
-    unsigned int _activationSuppressionCount;
-    struct {
-        unsigned int _activationControllerImplementsIsMovingToParentScene:1;
-        unsigned int _activationControllerImplementsActivationHandleUpdated:1;
-        unsigned int _hasPendingActivation:1;
-    } _flags;
-    id <_UISceneHostingActivationControlling> _activationController;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)44^Q52B60Q64@72;
+- (void)@16B24@28@36;
+- (void)52B56@60B68;
+- (id)hasRecentlyMessaged:(id)arg1;
+- (id)hasPeerDevices;
+- (void)Pi;
+- (void)nitialLoadForTesting in non unit tests is not supported ***** ;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)payloadAuthPassword;
 - (void);
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (void)ScrollViewGradientMaskView;
+- (void)_UIScrollViewGradientMaskView;
 - (void);
 - (void)É13£;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UISceneHostingActivationControlling> activationController; // @synthesize activationController=_activationController;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

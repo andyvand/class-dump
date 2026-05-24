@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface BMInferredModeEvent
 {
     _Bool _isAutomationEnabled;
-    _Bool _isStart;
-    _Bool _shouldSuggestTriggers;
-    double _absoluteTimestamp;
-    NSString *_modeUUID;
-    NSString *_suggestionUUID;
-    long long _origin;
-    NSString *_originBundleId;
-    unsigned long long _uiLocation;
-    double _confidenceScore;
-    NSString *_originAnchorType;
-    NSArray *_serializedTriggers;
-    unsigned long long _modeType;
-    NSString *_userModeName;
 }
 
 + (id);
@@ -36,19 +21,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)sharedEstimatedBandwidthUncapped;
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
-- (id);
-- (_Bool);
+- (id)mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -59,29 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutomationEnabled; // @synthesize isAutomationEnabled=_isAutomationEnabled;
-@property(readonly, nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(readonly, nonatomic) NSString *modeIdentifier;
-@property(readonly, nonatomic) unsigned long long modeType; // @synthesize modeType=_modeType;
-@property(readonly, nonatomic) NSString *modeUUID; // @synthesize modeUUID=_modeUUID;
-@property(readonly, nonatomic) long long origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) NSString *originAnchorType; // @synthesize originAnchorType=_originAnchorType;
-@property(readonly, nonatomic) NSString *originBundleId; // @synthesize originBundleId=_originBundleId;
-@property(readonly, nonatomic) NSArray *serializedTriggers; // @synthesize serializedTriggers=_serializedTriggers;
-@property(readonly, nonatomic) _Bool shouldSuggestTriggers; // @synthesize shouldSuggestTriggers=_shouldSuggestTriggers;
-@property(readonly, nonatomic) NSString *suggestionUUID; // @synthesize suggestionUUID=_suggestionUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long uiLocation; // @synthesize uiLocation=_uiLocation;
-@property(readonly, nonatomic) NSString *userModeName; // @synthesize userModeName=_userModeName;
-@property(readonly, nonatomic) NSString *uuid;
 
 @end
 

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESOnDeviceIndexSearchEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SubEntitlementsCacheUpdated;
 - (_Bool);
-- (_Bool);
+- (_Bool)MDMessageRecordSetSyncCountOnTable got error:(id)arg1 %@;
+- (id)B;
 - (id);
-- (id);
-- (id)ce;
+- (id)_postItnUtterance;
 - (id)N,V_hasUufrPresented;
-- (_Bool)OPENED_DORMANT;
+- (_Bool)NETSESSIONSTATE_OPENED_DORMANT;
 - (_Bool)arrsMentionResolverEndedTier1.mentionResolverSpansTier1s.internalSpanData.siriVocabularySpanData.priorScore;
 - (void)#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

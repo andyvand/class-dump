@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITabOutlineNode
 {
     _Bool _isGroup;
-    _Bool _isDestination;
-    NSString *_identifier;
-    NSMutableArray *_children;
-    NSMutableArray *_actions;
-    _UITabOutlineNode *_parent;
 }
 
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)sharedListener;
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id)CFRelease;
+- (id)be unregistered.;
+- (void)$!;
 - (id);
 - (_Bool);
 - (id)!¬GùYÐ1Â0@ù
@@ -38,11 +31,6 @@ __attribute__((visibility("hidden")))
 - (void):/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isDestination; // @synthesize isDestination=_isDestination;
-@property(nonatomic) _Bool isGroup; // @synthesize isGroup=_isGroup;
 @property(nonatomic) __weak _UITabOutlineNode *parent; // @synthesize parent=_parent;
 
 @end

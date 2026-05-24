@@ -7,22 +7,11 @@
 @interface NewsArticles.ArticleViewerInteractor
 {
     id delegate;
-    id coordinator;
-    id dataManager;
-    id blueprintProvider;
-    id pageBlueprintManager;
-    id pageBlueprintFactory;
-    id insertAdvertisementBlueprintModifier;
-    id pageTracker;
-    id paidAccessChecker;
-    id commandCenter;
-    id historyService;
-    id offlineManager;
 }
 
 - (void);
 - (id);
-- (void)eGroup;
+- (void)articleGroup;
 
 @end
 

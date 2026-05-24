@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetCollectionInspector, AVWeakReference, NSMutableArray, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class AVWeakReference, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetCollectionInspectorLoader
 {
     AVWeakReference *_weakReference;
-    NSURL *_URL;
-    _Bool _loadingCanceled;
-    NSObject<OS_dispatch_queue> *loadingQ;
-    NSMutableArray *loadingBatches;
-    struct OpaqueFigAssetCollection *_optionalFigCollection;
-    int _figCollectionCreateErr;
-    AVAssetCollectionInspector *_optionalInspector;
-    NSObject<OS_dispatch_queue> *completionHandlerQ;
 }
 
 - (id);
-- (id);
+- (id);
 - (struct OpaqueFigAsset *);
 - (struct OpaqueFigAsset *);
 - (id);
@@ -32,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)R;
+- (void)};
 - (void);
 - (id);
 - (long long);
@@ -42,7 +33,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetCount;
 @property(readonly, nonatomic) NSString *type;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsUI2.NewsAudioListeningProgressProvider
 {
     id articleListeningProgressManager;
-    id readingHistory;
 }
 
 @end

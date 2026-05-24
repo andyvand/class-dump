@@ -16,7 +16,7 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (_Bool);
@@ -24,7 +24,7 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)Ihh8);
 + (void);
 + (_Bool);
 + (_Bool);

@@ -8,6 +8,9 @@
 
 @protocol UIActivityItemsConfigurationReading
 
+@optional
+- (id);
+
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *applicationActivitiesForActivityItemsConfiguration;
 // Preceding property had unknown attributes: ?

@@ -7,14 +7,13 @@
 @interface GEOLocalTimeInterval
 {
     double _startTime;
-    double _endTime;
 }
 
 + (_Bool)nstructionSet isKindOfClass:GEOInstructionSet.class] /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
-- (id);
-- (id);
+- (double);
+- (id)	k`;
+- (id)ficationDidDetectSpeakerWithScores:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -22,7 +21,6 @@
 - (void):(double)arg1 S;;
 
 // Remaining properties
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end

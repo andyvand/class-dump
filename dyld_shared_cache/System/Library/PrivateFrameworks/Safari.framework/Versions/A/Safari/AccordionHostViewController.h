@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSClickGestureRecognizer, NSLayoutConstraint, NSMutableArray, NSStackView, NSString, NSView, NSViewController;
-@protocol AccordionHostable;
+@class NSClickGestureRecognizer, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface AccordionHostViewController
 {
     NSClickGestureRecognizer *_expandGestureRecognizer;
-    NSLayoutConstraint *_leftViewWidthConstraint;
-    NSLayoutConstraint *_rightViewWidthConstraint;
-    NSLayoutConstraint *_leftViewHeightConstraint;
-    NSLayoutConstraint *_rightViewHeightConstraint;
-    NSView *_headerView;
-    NSView *_footerView;
-    unsigned long long _animationsPendingCompletionCount;
-    NSMutableArray *_actionsDeferredUntilAnimationCompletion;
-    NSViewController<AccordionHostable> *_leftViewController;
-    NSViewController<AccordionHostable> *_rightViewController;
 }
 
 + (double);
@@ -38,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -65,16 +54,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿK;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSViewController<AccordionHostable> *leftViewController; // @synthesize leftViewController=_leftViewController;
-@property(retain, nonatomic) NSViewController<AccordionHostable> *rightViewController; // @synthesize rightViewController=_rightViewController;
 @property(readonly, nonatomic) NSStackView *stackView;
-@property(readonly) Class superclass;
 
 @end
 

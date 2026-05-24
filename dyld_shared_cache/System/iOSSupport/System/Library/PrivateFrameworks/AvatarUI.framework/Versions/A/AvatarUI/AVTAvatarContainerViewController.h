@@ -8,7 +8,7 @@
 {
 }
 
-- (void)ageView;
+- (void)_fadeInImageView;
 
 @end
 

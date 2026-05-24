@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _PFArray;
-
 __attribute__((visibility("hidden")))
 @interface _PFMutableProxyArray
 {
     int _cd_rc;
-    unsigned int _editCount;
-    unsigned int _offset;
-    unsigned int _limit;
-    _PFArray *_originalArray;
-    NSMutableArray *_updatedObjectsArray;
-    struct __CFArray *_indicesVeneer;
 }
 
 + (Class)le with errno %d;
@@ -27,33 +19,27 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (Class);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
-- (id);
+- (id)correctPersonaScopedForAccount;
 - (void);
 - (void);
+- (id)	;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)|;
 - (void);
 - (id)ta:Import context cache is stale. To-one mirrored relationship source object has gone missing:%@ - %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

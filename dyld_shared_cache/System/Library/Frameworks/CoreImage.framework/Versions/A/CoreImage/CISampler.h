@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void *);
+- (void *)";
 - (void *);
 - (id);
 - (id);
@@ -33,7 +33,6 @@
 
 // Remaining properties
 @property(readonly) CIFilterShape *definition;
-@property(readonly) struct CGRect extent;
 
 @end
 

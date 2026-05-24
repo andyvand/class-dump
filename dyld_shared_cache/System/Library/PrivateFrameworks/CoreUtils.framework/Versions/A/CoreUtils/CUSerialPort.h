@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUSerialPortConfiguration, NSObject;
-@protocol OS_dispatch_queue;
+@class CUSerialPortConfiguration;
 
 @interface CUSerialPort
 {
     CUSerialPortConfiguration *_configuration;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    struct SerialStreamPrivate *_serialStream;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)tedPreferredResident: /* Error: Ran out of types for this method. */;
+- (void)xpcServiceIdentifier;
+- (void)homeDidUpdateUserSelectedPreferredResident: /* Error: Ran out of types for this method. */;
 
 @end
 

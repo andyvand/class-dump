@@ -7,26 +7,20 @@
 @interface UIWritingToolsCoordinatorAnimationParameters
 {
     double _delay;
-    double _duration;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
-- (double);
+- (double)@0:8I16 /* Error: Ran out of types for this method. */;
 - (double)
 × ;
-- (CDUnknownBlockType)gate: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)interactionWithShouldProxyContextMenuDelegate: /* Error: Ran out of types for this method. */;
 - (void). Ensure that each input animatable property is associated with a view on the same screen.;
 - (void)¸-=ÿlg;
 - (CDUnknownBlockType)þ;
 - (void)f;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (id);
-- (void);
+- (id);
+- (void)mamapollas;
 - (void);
 - (void);
 - (void);

@@ -7,8 +7,9 @@
 @class UIStatusBarServer;
 
 @protocol UIStatusBarServerClient
-- (void)nimated:(UIStatusBarServer *)arg1;
-- (void)dow:(UIStatusBarServer *)arg1 fromViewController:(_Bool)arg2 toViewController:(long long)arg3;
+- (void)_existingAssetStatement;
+- (void)_showMasterViewAnimated:(UIStatusBarServer *)arg1;
+- (void)_prepareForMixedOrientationTransitionIfNecessaryInWindow:(UIStatusBarServer *)arg1 fromViewController:(_Bool)arg2 toViewController:(long long)arg3;
 - (void);
 @end
 

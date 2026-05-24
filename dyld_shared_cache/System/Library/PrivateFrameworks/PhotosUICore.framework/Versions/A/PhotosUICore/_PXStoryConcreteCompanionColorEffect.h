@@ -11,9 +11,9 @@
     PXGColorLookupCube *_colorLookupCube;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDrawingPaletteInputAssistantContainerView, PKPaletteColorPickerView, PKPaletteInputAssistantViewController, UIStackView;
-@protocol PKDrawingPaletteViewStateSubject, PKPaletteColorPickerContainerViewDelegate, PKPalettePopoverPresenting;
+@class UIStackView;
 
 @interface PKPaletteColorPickerContainerView
 {
     _Bool _shouldShowInputAssistantView;
-    id <PKPaletteColorPickerContainerViewDelegate> _delegate;
-    id <PKDrawingPaletteViewStateSubject> _paletteViewState;
-    PKPaletteColorPickerView *_colorPickerView;
-    id <PKPalettePopoverPresenting> _palettePopoverPresenting;
-    long long _layoutAxis;
-    UIStackView *_stackView;
-    PKDrawingPaletteInputAssistantContainerView *_inputAssistantContainerView;
-    PKPaletteInputAssistantViewController *_inputAssistantViewController;
 }
 
 - (_Bool);
@@ -39,34 +30,19 @@
 - (void);
 - (id);
 - (void);
+- (id)m	;
 - (id);
+- (void)?;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)7199CF2EF5F41F5CBE091B25SixChannelCompositeFilter;
+- (void)_TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter;
 - (id)@7;
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaletteColorPickerView *colorPickerView; // @synthesize colorPickerView=_colorPickerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteColorPickerContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKDrawingPaletteInputAssistantContainerView *inputAssistantContainerView; // @synthesize inputAssistantContainerView=_inputAssistantContainerView;
-@property(retain, nonatomic) PKPaletteInputAssistantViewController *inputAssistantViewController; // @synthesize inputAssistantViewController=_inputAssistantViewController;
-@property(nonatomic) long long layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(nonatomic) __weak id <PKPalettePopoverPresenting> palettePopoverPresenting; // @synthesize palettePopoverPresenting=_palettePopoverPresenting;
-@property(nonatomic) __weak id <PKDrawingPaletteViewStateSubject> paletteViewState; // @synthesize paletteViewState=_paletteViewState;
-@property(nonatomic) _Bool shouldShowInputAssistantView; // @synthesize shouldShowInputAssistantView=_shouldShowInputAssistantView;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 
 @end
 

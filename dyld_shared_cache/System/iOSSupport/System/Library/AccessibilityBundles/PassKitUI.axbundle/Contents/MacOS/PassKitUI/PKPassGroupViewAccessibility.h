@@ -11,23 +11,24 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)sr/lib/swift/libswiftMetal.dylib;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
+- (_Bool)valid property values
+;
+- (_Bool)EAGLContextPropertyAccelerated;
+- (struct CGPoint)M;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)yxSgG;
 - (id);
 - (unsigned long long);
 - (id);

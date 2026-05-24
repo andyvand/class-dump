@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDThreadManager, NSMutableArray, NSMutableDictionary, NSString;
 @protocol DDDetectorManager2Delegate;
 
 @interface DDDetectorManager2
 {
     struct __CFDictionary *_highlightsIdentifierForOverlay;
-    NSMutableDictionary *_highlightsRequestsForIdentifier;
-    struct __CFDictionary *_identifierForController;
-    NSMutableDictionary *_scanRequestsForIdentifier;
-    id <DDDetectorManager2Delegate> _delegate;
-    DDThreadManager *_threadManager;
-    NSMutableArray *_scanOperations;
 }
 
-+ (void);
++ (void)R;;
 - (void);
 - (void);
 - (void);
@@ -38,24 +31,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id))4;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)24@"NSString"32Q40;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <DDDetectorManager2Delegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

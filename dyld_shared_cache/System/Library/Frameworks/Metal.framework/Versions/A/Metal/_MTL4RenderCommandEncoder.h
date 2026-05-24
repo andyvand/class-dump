@@ -6,17 +6,13 @@
 
 #import <Metal/_MTL4CommandEncoder.h>
 
-@class NSString;
-@protocol MTL4CommandAllocator, MTL4CommandBuffer;
-
 @interface _MTL4RenderCommandEncoder : _MTL4CommandEncoder
 {
     unsigned long long _tileWidth;
-    unsigned long long _tileHeight;
 }
 
 - (id);
-- (void);
+- (void)eeefihiU`Yd;
 - (void);
 - (void);
 - (void);
@@ -69,17 +65,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
-@property unsigned long long tileHeight; // @synthesize tileHeight=_tileHeight;
 @property unsigned long long tileWidth; // @synthesize tileWidth=_tileWidth;
 
 @end

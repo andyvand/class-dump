@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBSportsItem;
+@class _SFPBSportsItem;
 
 @interface _SFPBUpdateSportsFollowingStatusCommand
 {
     _Bool _follow;
-    _SFPBSportsItem *_sportsItem;
 }
 
 - (id);
@@ -20,24 +19,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)B;
+- (id)setHighlightCurationType:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)emAttribution";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool follow; // @synthesize follow=_follow;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsItem *sportsItem; // @synthesize sportsItem=_sportsItem;
-@property(readonly) Class superclass;
 
 @end
 

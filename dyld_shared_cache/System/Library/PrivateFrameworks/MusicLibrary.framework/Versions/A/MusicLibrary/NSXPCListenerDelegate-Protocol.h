@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)vateFrameworks/AMSUIViewServiceMacHelper.framework/Contents/MacOS/AMSUIViewServiceMacHelper;
 @end
 

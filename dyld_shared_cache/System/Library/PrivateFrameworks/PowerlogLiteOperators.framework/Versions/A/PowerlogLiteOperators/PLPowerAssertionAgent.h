@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, PLCFNotificationOperatorComposition, PLEntryNotificationOperatorComposition, PLNSNotificationOperatorComposition, PLStateTrackingComposition, PLTimer;
+@class PLCFNotificationOperatorComposition;
 
 @interface PLPowerAssertionAgent
 {
     _Bool _assertionBufferFullNotificationActive;
-    _Bool _firstBufferDrain;
-    _Bool _lastActivityOverflow;
-    _Bool _optimizesSubSecondAssertions;
-    _Bool _gameMode;
-    _Bool _displayOn;
-    _Bool _pluggedIn;
-    PLCFNotificationOperatorComposition *_assertionNotification;
-    PLCFNotificationOperatorComposition *_assertionBufferFullNotification;
-    PLTimer *_assertionBufferFullNotificationRearmTimer;
-    NSMutableArray *_assertionBufferNotificationTracking;
-    PLEntryNotificationOperatorComposition *_batteryLevelNotificiations;
-    PLEntryNotificationOperatorComposition *_wakeNotification;
-    PLEntryNotificationOperatorComposition *_canSleepNotification;
-    PLNSNotificationOperatorComposition *_dailyTaskNotification;
-    PLCFNotificationOperatorComposition *_flushAssertionBufferCFNotification;
-    PLTimer *_runQueryTimer;
-    PLTimer *_assertionSnapShotTimer;
-    long long _aggregateMaxPIDCount;
-    long long _aggregteZeroDeltaCount;
-    NSMutableDictionary *_assertionAggregatedLastSamplePLDataStructure;
-    NSMutableDictionary *_assertionAggregatedLastSample;
-    NSDictionary *_startEndActionsToEnum;
-    NSDictionary *_assertTypeToEnum;
-    NSSet *_logAssertNameForActions;
-    NSMutableDictionary *_assertionUUIDCache;
-    NSMutableDictionary *_UUIDStartEntryCache;
-    NSMutableDictionary *_subSecondUUIDStartEntryCache;
-    PLNSNotificationOperatorComposition *_consoleModeListener;
-    PLStateTrackingComposition *_stateTracker;
 }
 
 + (id);
@@ -45,15 +16,15 @@
 + (id);
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void)nsitions;
-- (void);
++ (void)GPUPH_P10_Transitions;
+- (void)U;
 - (id);
 - (void);
 - (void);
@@ -69,7 +40,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
@@ -79,7 +50,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -94,22 +65,22 @@
 - (id);
 - (void);
 - (id);
+- (void)z;
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)cioroiule;
 - (_Bool);
-- (_Bool);
+- (_Bool)N9SnippetUI17BackgroundElementE;
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (id);
 - (void);
@@ -123,52 +94,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id)0@ù
 × ;
-- (void)Time;
-- (void)eMajorRadius;
+- (void)AOPTotalThreadTime;
+- (void)peakForceMajorRadius;
 - (void)t add 1 element to context;
 - (void)Flow(304):(_Bool)arg1 Cannot add 10 elements to context;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *UUIDStartEntryCache; // @synthesize UUIDStartEntryCache=_UUIDStartEntryCache;
-@property long long aggregateMaxPIDCount; // @synthesize aggregateMaxPIDCount=_aggregateMaxPIDCount;
-@property long long aggregteZeroDeltaCount; // @synthesize aggregteZeroDeltaCount=_aggregteZeroDeltaCount;
-@property(readonly) NSDictionary *assertTypeToEnum; // @synthesize assertTypeToEnum=_assertTypeToEnum;
-@property(retain, nonatomic) NSMutableDictionary *assertionAggregatedLastSample; // @synthesize assertionAggregatedLastSample=_assertionAggregatedLastSample;
-@property(retain) NSMutableDictionary *assertionAggregatedLastSamplePLDataStructure; // @synthesize assertionAggregatedLastSamplePLDataStructure=_assertionAggregatedLastSamplePLDataStructure;
-@property(retain) PLCFNotificationOperatorComposition *assertionBufferFullNotification; // @synthesize assertionBufferFullNotification=_assertionBufferFullNotification;
-@property(nonatomic) _Bool assertionBufferFullNotificationActive; // @synthesize assertionBufferFullNotificationActive=_assertionBufferFullNotificationActive;
-@property(retain) PLTimer *assertionBufferFullNotificationRearmTimer; // @synthesize assertionBufferFullNotificationRearmTimer=_assertionBufferFullNotificationRearmTimer;
-@property(retain) NSMutableArray *assertionBufferNotificationTracking; // @synthesize assertionBufferNotificationTracking=_assertionBufferNotificationTracking;
 @property(retain) PLCFNotificationOperatorComposition *assertionNotification; // @synthesize assertionNotification=_assertionNotification;
-@property(retain) PLTimer *assertionSnapShotTimer; // @synthesize assertionSnapShotTimer=_assertionSnapShotTimer;
-@property(nonatomic) _Bool assertionSnapshotTimerActive;
-@property(retain) NSMutableDictionary *assertionUUIDCache; // @synthesize assertionUUIDCache=_assertionUUIDCache;
-@property(retain) PLEntryNotificationOperatorComposition *batteryLevelNotificiations; // @synthesize batteryLevelNotificiations=_batteryLevelNotificiations;
-@property(retain) PLEntryNotificationOperatorComposition *canSleepNotification; // @synthesize canSleepNotification=_canSleepNotification;
-@property(retain) PLNSNotificationOperatorComposition *consoleModeListener; // @synthesize consoleModeListener=_consoleModeListener;
-@property(retain) PLNSNotificationOperatorComposition *dailyTaskNotification; // @synthesize dailyTaskNotification=_dailyTaskNotification;
-@property _Bool displayOn; // @synthesize displayOn=_displayOn;
-@property _Bool firstBufferDrain; // @synthesize firstBufferDrain=_firstBufferDrain;
-@property(retain) PLCFNotificationOperatorComposition *flushAssertionBufferCFNotification; // @synthesize flushAssertionBufferCFNotification=_flushAssertionBufferCFNotification;
-@property _Bool gameMode; // @synthesize gameMode=_gameMode;
-@property(nonatomic) _Bool lastActivityOverflow; // @synthesize lastActivityOverflow=_lastActivityOverflow;
-@property(readonly) NSSet *logAssertNameForActions; // @synthesize logAssertNameForActions=_logAssertNameForActions;
-@property _Bool optimizesSubSecondAssertions; // @synthesize optimizesSubSecondAssertions=_optimizesSubSecondAssertions;
-@property _Bool pluggedIn; // @synthesize pluggedIn=_pluggedIn;
-@property(retain) PLTimer *runQueryTimer; // @synthesize runQueryTimer=_runQueryTimer;
-@property(readonly) NSDictionary *startEndActionsToEnum; // @synthesize startEndActionsToEnum=_startEndActionsToEnum;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
-@property(retain) NSMutableDictionary *subSecondUUIDStartEntryCache; // @synthesize subSecondUUIDStartEntryCache=_subSecondUUIDStartEntryCache;
-@property(retain) PLEntryNotificationOperatorComposition *wakeNotification; // @synthesize wakeNotification=_wakeNotification;
 
 @end
 

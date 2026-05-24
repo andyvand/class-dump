@@ -10,8 +10,13 @@
 
 + (id)´;
 + (id)´ãÿ;
-- (void);
-- (void)ge;
+- (void));
+  interpolant = clamp(hw - dist1, 0.0, 1.0);
+  interpolant = ((3.0 - (2.0 * interpolant)) * interpolant) * interpolant;
+  return compare(vec4(dist1 - (hw - 1.0)), color, compare(vec4(dist1 - hw), color * interpolant, vec4(0.0))) * opacity;
+}
+;
+- (void)_errorMessage;
 - (id);
 
 @end

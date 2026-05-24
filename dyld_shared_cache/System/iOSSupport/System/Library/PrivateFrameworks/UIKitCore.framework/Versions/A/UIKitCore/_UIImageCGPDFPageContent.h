@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     struct CGPDFPage *_pdfPageRef;
 }
 
-- (id);
+- (id)initWithMemberStatus:(struct CGPDFPage *)arg1 forHandle:(double)arg2 fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID:messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (struct CGPDFPage *);
 - (unsigned long long);
-- (_Bool)mp:(id)arg1 pathIndex:forcedKeyCode: /* Error: Ran out of types for this method. */;
-- (double)yForString: /* Error: Ran out of types for this method. */;
-- (_Bool)ataTo: /* Error: Ran out of types for this method. */;
-- (void)entColorFormat;
+- (_Bool)touchEventWithStage:(id)arg1 location:radius:timestamp:pathIndex:forcedKeyCode: /* Error: Ran out of types for this method. */;
+- (double)baseKeyForString: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateDataTo: /* Error: Ran out of types for this method. */;
+- (void)_contentColorFormat;
 - (id)ßAÛ\;
 - (struct CGSize);
 - (_Bool)`;

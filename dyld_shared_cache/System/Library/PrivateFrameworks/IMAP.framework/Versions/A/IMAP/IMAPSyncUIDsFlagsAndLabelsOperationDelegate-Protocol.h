@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPSyncUIDsFlagsAndLabelsOperationDelegate
+- (void);
 @end
 

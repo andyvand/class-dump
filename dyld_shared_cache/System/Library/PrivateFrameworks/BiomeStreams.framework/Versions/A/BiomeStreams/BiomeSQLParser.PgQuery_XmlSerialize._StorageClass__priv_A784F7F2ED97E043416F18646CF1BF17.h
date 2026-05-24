@@ -7,9 +7,6 @@
 @interface BiomeSQLParser.PgQuery_XmlSerialize._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xmloption;
-    id _expr;
-    id _typeName;
-    id _location;
 }
 
 @end

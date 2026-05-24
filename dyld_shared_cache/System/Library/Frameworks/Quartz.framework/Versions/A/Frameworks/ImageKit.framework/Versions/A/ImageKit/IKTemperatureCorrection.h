@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface IKTemperatureCorrection
 {
     CIImage *inputImage;
-    NSNumber *inputPower;
 }
 
 + (void);
 + (id);
 - (id);
-- (id);
-- (_Bool);
+- (id));
+- (_Bool)"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

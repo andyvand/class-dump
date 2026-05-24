@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DDMessageCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_memoryWarningSource;
-    NSMutableDictionary *_cache;
-    NSMutableArray *_indexLRU;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)<< FigFilePlayer >>>> %s:[%p] %{public}s working item %p %{public}s failed to become ready for inspection while in play queue; marked as failed /* Error: Ran out of types for this method. */;
+- (void)fetchPasteboardTypesForProcess:withCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

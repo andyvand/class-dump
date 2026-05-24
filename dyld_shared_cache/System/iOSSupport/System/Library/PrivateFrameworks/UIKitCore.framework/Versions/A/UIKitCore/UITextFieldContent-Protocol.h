@@ -5,6 +5,7 @@
 //
 
 @protocol UITextFieldContent
+- (_Bool)32q40@48@56@64@72@80B88d92B100;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsAttachments;

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGRect);
+- (struct CGRect)J;
 - (void);
 
 @end

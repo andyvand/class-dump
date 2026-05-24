@@ -9,7 +9,7 @@
     id multicastDelegate;
 }
 
-- (void);
+- (void)TKTokenID";
 - (void);
 - (id);
 - (void);

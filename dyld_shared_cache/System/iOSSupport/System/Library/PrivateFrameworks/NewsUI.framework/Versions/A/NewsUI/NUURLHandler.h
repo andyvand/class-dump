@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol NUPreviewViewControllerFactory, NUURLHandlerDelegate, NUURLHandling, NUWebViewControllerFactoryType;
+@protocol NUURLHandling;
 
 @interface NUURLHandler
 {
     _Bool _universalLinksEnabled;
-    id <NUURLHandlerDelegate> _delegate;
-    id <NUWebViewControllerFactoryType> _webViewControllerFactory;
-    id <NUPreviewViewControllerFactory> _previewViewControllerFactory;
-    id <NUURLHandling> _URLHandling;
-    NSMutableArray *_modifiers;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)UserEventHistoryAssembly;
 - (id);
 - (void);
 - (void);
@@ -38,18 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUURLHandling> URLHandling; // @synthesize URLHandling=_URLHandling;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NUURLHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *modifiers; // @synthesize modifiers=_modifiers;
-@property(retain, nonatomic) id <NUPreviewViewControllerFactory> previewViewControllerFactory; // @synthesize previewViewControllerFactory=_previewViewControllerFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool universalLinksEnabled; // @synthesize universalLinksEnabled=_universalLinksEnabled;
-@property(retain, nonatomic) id <NUWebViewControllerFactoryType> webViewControllerFactory; // @synthesize webViewControllerFactory=_webViewControllerFactory;
 
 @end
 

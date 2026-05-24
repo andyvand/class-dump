@@ -5,7 +5,7 @@
 //
 
 @protocol INAddMediaIntentResponseExport
-- (long long)tionBlock: /* Error: Ran out of types for this method. */;
+- (long long)getIntentParameterOptions:forIntent:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

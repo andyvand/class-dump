@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBTagListRecord
 {
     NTPBRecordBase *_base;
-    NSMutableArray *_tagIDs;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class)appIntentsEnumerateAssetCollections: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithEmail:phone:firstName:lastName: /* Error: Ran out of types for this method. */;
+- (id)initWithElementSize:(unsigned long long)arg1;
+- (void)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (void)coarseLocationProperties;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void)restart;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_transitionToVideoWithPlaybackID: /* Error: Ran out of types for this method. */;
+- (_Bool)mpatibleAppFolderData flushToDisk];
+- (_Bool)in storage, error=%{public}@;
 - (id);
 - (id);
 - (void);
@@ -33,9 +32,7 @@
 - (id)dClickValue;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(retain, nonatomic) NSMutableArray *tagIDs; // @synthesize tagIDs=_tagIDs;
 
 @end
 

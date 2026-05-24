@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKDeviceDescriptor, BiometricKitXPCClient, NSObject, NSString;
-@protocol BKDeviceDelegate, OS_dispatch_queue;
+@class BKDeviceDescriptor, BiometricKitXPCClient;
 
 @interface BKDevice
 {
     BiometricKitXPCClient *_xpcClient;
-    id <BKDeviceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    BKDeviceDescriptor *_descriptor;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id)_֔";
++ (_Bool)4;
 - (void);
 - (_Bool);
 - (void);
@@ -27,13 +23,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ּ;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -49,16 +45,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)־;
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -69,12 +65,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void),C,N,V_strokeClassificationsByStrokeIdentifier;
+- (void).;
 - (void);
 - (id);
 - (_Bool);
@@ -86,16 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BKDeviceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) BKDeviceDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

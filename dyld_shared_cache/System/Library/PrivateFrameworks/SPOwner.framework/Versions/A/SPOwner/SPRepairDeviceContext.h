@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface SPRepairDeviceContext
 {
     NSSet *_findMyIds;
-    NSSet *_serialNumbers;
-    NSSet *_beaconIdentifiers;
-    NSString *_type;
 }
 
 - (void);
@@ -25,13 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)";
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *beaconIdentifiers; // @synthesize beaconIdentifiers=_beaconIdentifiers;
 @property(retain, nonatomic) NSSet *findMyIds; // @synthesize findMyIds=_findMyIds;
-@property(retain, nonatomic) NSSet *serialNumbers; // @synthesize serialNumbers=_serialNumbers;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

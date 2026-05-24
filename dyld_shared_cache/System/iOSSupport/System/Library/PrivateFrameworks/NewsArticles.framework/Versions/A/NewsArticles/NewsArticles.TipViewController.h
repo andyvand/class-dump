@@ -7,13 +7,9 @@
 @interface NewsArticles.TipViewController
 {
     id config;
-    id eventHandler;
-    id requestFactory;
-    id useFullScreenWidth;
-    id startDate;
 }
 
-- (long long);
+- (long long)FormatSupplementaryNodePinDistanceAdjustmentValue;
 - (void);
 - (void);
 - (void);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)8;
 - (id);
 - (void);
 - (void);
@@ -29,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ability;
+- (void)featureAvailability;
 - (void)age when an article is not available due to device offline;
 - (void)%Ë Ýöÿ;
 - (void);

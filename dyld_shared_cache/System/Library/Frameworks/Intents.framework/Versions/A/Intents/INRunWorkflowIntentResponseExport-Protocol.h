@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INArchivedObject, NSArray, NSNumber, NSString;
-
 @protocol INRunWorkflowIntentResponseExport
-- (long long)tion;
+- (void)
+J	;
+- (void)\;
+- (void)er;
+- (long long)hasRequiresUserIdentification;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *continueRunning;
-@property(copy) NSNumber *requestsIntentExecution;
-@property(copy) NSArray *steps;
-@property(copy) INArchivedObject *underlyingIntent;
-@property(copy) INArchivedObject *underlyingIntentResponse;
-@property(copy) NSString *utterance;
-@property(copy) NSNumber *waitingForResume;
 @end
 

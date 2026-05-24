@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SetAsLinkSupport)
-- (_Bool);
+- (_Bool)?k�h;
 @end
 

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EKVirtualConferenceDescriptor
 {
     NSString *_title;
-    NSArray *_URLDescriptors;
-    NSString *_conferenceDetails;
 }
 
 - (id);
+- (id)ayback queue.;
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (void)#ð!¸Eù12'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *URLDescriptors; // @synthesize URLDescriptors=_URLDescriptors;
-@property(readonly, copy, nonatomic) NSString *conferenceDetails; // @synthesize conferenceDetails=_conferenceDetails;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -9,6 +9,8 @@
 @protocol NSURLSessionDataDelegate
 
 @optional
-- (void)taTaskWithRequest:(NSURLSession *)arg1 completionHandler:(NSURLSessionDataTask *)arg2;
+- (void)CloudKitTotalChatCount;
+- (void), sourcRect=%@, preferredWidth=%f>;
+- (void)dataTaskWithRequest:(NSURLSession *)arg1 completionHandler:(NSURLSessionDataTask *)arg2;
 @end
 

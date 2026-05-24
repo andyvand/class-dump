@@ -9,7 +9,6 @@
 @interface IDSQRProtoInfoRequest
 {
     NSData *_accessToken;
-    unsigned int _infoFlags;
 }
 
 - (void);
@@ -22,15 +21,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool):(id)arg1 8@"CBClassicPeer"16@"NSDictionary"24;
+- (void)WHASetup;
 - (id);
 - (id);
 - (void)whenPrimaryQualityIsLowerThan(;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessToken; // @synthesize accessToken=_accessToken;
-@property(readonly, nonatomic) _Bool hasAccessToken;
 @property(nonatomic) unsigned int infoFlags; // @synthesize infoFlags=_infoFlags;
 
 @end

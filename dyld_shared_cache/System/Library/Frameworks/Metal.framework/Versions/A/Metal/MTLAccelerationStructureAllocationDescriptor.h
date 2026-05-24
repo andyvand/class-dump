@@ -7,24 +7,58 @@
 @interface MTLAccelerationStructureAllocationDescriptor
 {
     _Bool _forceResourceIndex;
-    unsigned long long _storageMode;
-    unsigned long long _resourceIndex;
 }
 
-- (void);
-- (void);
+- (void)2(2.500, 0.5)));
+  vec4 k3 = sample(paramImage, samplerTransform(paramImage, vec2(3.500, 0.5)));
+  float k4 = sample(paramImage, samplerTransform(paramImage, vec2(4.500, 0.5))).x;
+  vec2 samplePos = destCoord() * imageSizeInverted;
+  vec4 faceDistX = samplePos.x - cx;
+  vec4 faceDistY = blurMapAspectRatio * (samplePos.y - cy);
+  vec4 faceDist = sqrt((faceDistX * faceDistX) + (faceDistY * faceDistY));
+  float blurVal = sample(blurValImage, samplerCoord(blurValImage)).x;
+  blurVal = blurVal * blurVal;
+  vec4 faceDistXr = (cdx * faceDistX) + (cdy * faceDistY);
+  vec4 faceDistYr = (cdx * faceDistY) - (cdy * faceDistX);
+  vec4 faceDistRatio = abs(faceDistYr) / (abs(faceDistXr) + 1.000000e-10);
+  vec4 approxTheta = (1.066 * faceDistRatio) - ((2.760000e-01 * faceDistRatio) * faceDistRatio);
+  approxTheta = max(chinThetaLimit, approxTheta);
+  bool chinMaskX = false, chinMaskY = false, chinMaskZ = false, chinMaskW = false;
+  chinMaskX = ((faceDistRatio.x < 1.5574) && (faceDistXr.x >= 0.0)) && ((cdx.x != 0.0) || (cdy.x != 0.0));
+  chinMaskY = ((faceDistRatio.y < 1.5574) && (faceDistXr.y >= 0.0)) && ((cdx.y != 0.0) || (cdy.y != 0.0));
+  chinMaskZ = ((faceDistRatio.z < 1.5574) && (faceDistXr.z >= 0.0)) && ((cdx.z != 0.0) || (cdy.z != 0.0));
+  chinMaskW = ((faceDistRatio.w < 1.5574) && (faceDistXr.w >= 0.0)) && ((cdx.w != 0.0) || (cdy.w != 0.0));
+  vec4 blurAddScaling = vec4(0.0);
+  blurAddScaling.x = chinMaskX ? (chinThetaMultip * approxTheta.x) :(unsigned long long)arg1 1.0;
+  blurAddScaling.y = chinMaskY ? (chinThetaMultip * approxTheta.y) :1.0;
+  blurAddScaling.z = chinMaskZ ? (chinThetaMultip * approxTheta.z) :1.0;
+  blurAddScaling.w = chinMaskW ? (chinThetaMultip * approxTheta.w) :1.0;
+  vec4 blurAddPerFace = (faceDist * k0) + k1;
+  blurAddPerFace.x += (faceDist.x >= k3.x) ? ((faceDist.x * k2.x) - (k2.x * k3.x)) :0.0;
+  blurAddPerFace.y += (faceDist.y >= k3.y) ? ((faceDist.y * k2.y) - (k2.y * k3.y)) :0.0;
+  blurAddPerFace.z += (faceDist.z >= k3.z) ? ((faceDist.z * k2.z) - (k2.z * k3.z)) :0.0;
+  blurAddPerFace.w += (faceDist.w >= k3.w) ? ((faceDist.w * k2.w) - (k2.w * k3.w)) :0.0;
+  blurAddPerFace.x *= (blurAddPerFace.x > 0.0) ? blurAddScaling.x :1.0;
+  blurAddPerFace.y *= (blurAddPerFace.y > 0.0) ? blurAddScaling.y :1.0;
+  blurAddPerFace.z *= (blurAddPerFace.z > 0.0) ? blurAddScaling.z :1.0;
+  blurAddPerFace.w *= (blurAddPerFace.w > 0.0) ? blurAddScaling.w :1.0;
+  float blurAdd = min(min(blurAddPerFace.x, blurAddPerFace.y), min(blurAddPerFace.z, blurAddPerFace.w));
+  float newBlurVal = clamp(blurVal + blurAdd, 0.0, max(k4, blurVal));
+  newBlurVal = sqrt(newBlurVal);
+  return vec4(newBlurVal, 0.0, 0.0, 1.0);
+}
+ /* Error: Ran out of types for this method. */;
+- (void)DataSetTrailingPadding;
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)`;
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (unsigned long long)ntrolPointIndexType;
+- (unsigned long long);
+- (unsigned long long)validateMTLTessellationControlPointIndexType;
 - (_Bool)9»};
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool forceResourceIndex; // @synthesize forceResourceIndex=_forceResourceIndex;
-@property(nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
 @property(nonatomic) unsigned long long storageMode; // @synthesize storageMode=_storageMode;
 
 @end

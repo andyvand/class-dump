@@ -7,10 +7,6 @@
 @interface NewsUI2.PuzzleEmbedMenuConfigMessageHandler
 {
     id puzzleComponentsViewProvider;
-    id scriptsManager;
-    id delegate;
-    id lastReceivedConfig;
-    id lastPositionChanges;
 }
 
 - (void);

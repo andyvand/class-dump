@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BYAuthenticationContext, NSData, NSString;
+@class BYAuthenticationContext, NSString;
 
 @interface BYManager
 {
     NSString *_username;
-    NSString *_password;
-    NSData *_localAuthenticationContext;
-    BYAuthenticationContext *_authenticationContext;
 }
 
 - (_Bool);
@@ -35,17 +32,6 @@
 
 // Remaining properties
 @property(retain) BYAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *firstSystemVolumeMountPoint;
-@property(readonly) unsigned long long hash;
-@property(retain) NSData *localAuthenticationContext; // @synthesize localAuthenticationContext=_localAuthenticationContext;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(readonly) Class superclass;
-@property(retain) NSString *username; // @synthesize username=_username;
 
 @end
 

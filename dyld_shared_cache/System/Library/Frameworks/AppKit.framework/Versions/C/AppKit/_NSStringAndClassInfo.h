@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _NSStringAndClassInfo
 {
     NSString *_registryString;
-    Class _objectClass;
-    unsigned long long _hash;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)c}@ performing AppleIDContext redirect;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)xesInRange:(struct _NSZone *)arg1 options:passingTest: /* Error: Ran out of types for this method. */;
+- (_Bool)(a;
+- (id)indexesInRange:(struct _NSZone *)arg1 options:passingTest: /* Error: Ran out of types for this method. */;
 
 @end
 

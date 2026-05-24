@@ -9,10 +9,10 @@
     CDUnknownBlockType _callback;
 }
 
-+ (_Bool);
++ (_Bool)K;
 - (void);
 - (id);
-- (id);
+- (id)6@"NSArray"24@"NSArray"32^@40;
 - (void);
 - (void);
 

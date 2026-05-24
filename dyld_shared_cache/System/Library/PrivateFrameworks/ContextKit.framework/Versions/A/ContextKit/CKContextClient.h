@@ -4,45 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextSemaphore, NSMutableArray, NSSet, NSString;
+@class NSSet;
 
 @interface CKContextClient
 {
     NSSet *_capabilities;
-    NSString *_indexVersionId;
-    NSMutableArray *_updateHandlers;
-    CKContextSemaphore *_serviceSemaphore;
-    unsigned long long _defaultRequestType;
 }
 
 + (id);
 + (id);
 + (double);
-+ (_Bool);
++ (_Bool)initialize a concrete instance of MPMusicPlayerController.;
 + (id);
 + (void);
 - (void);
-- (void);
-- (void);
+- (void)setKey:(id)arg1 atIndex:(CDUnknownBlockType)arg2;
+- (void)N23domFx_basic_type_common7domInt2E;
 - (id);
-- (long long);
+- (long long);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)GRect={CGPoint=dd}{CGSize=dd}}72@0:(CDUnknownBlockType)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16q48{CGPoint=dd}56;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
+- (void)MPModelRelationshipLibraryPinPlaylist;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *capabilities;
 @property(readonly, nonatomic) unsigned long long defaultRequestType; // @synthesize defaultRequestType=_defaultRequestType;
 
 @end

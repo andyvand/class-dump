@@ -4,59 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLLocationManager, NSData, NSString;
+@class CLDispatchSilo;
 
 @interface CLFullAccuracySession
 {
     CLDispatchSilo *_silo;
-    void *_locationdConnection;
-    CDUnknownBlockType _clientCallback;
-    _Bool _isValid;
-    NSData *storageToken;
-    NSString *identityToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
-    NSString *_purposeKey;
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)H;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
+- (void)imageProperties;
+- (id);
+- (void)i@y);
+- (_Bool)A4C2A4C3A4C4A4C5A4C6;
+- (id);
+- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
-- (void)gisterForMiloServiceEvents;
+- (void)_unregisterForMiloServiceEvents;
 - (void)ictionAndUpdate,distance,%{public}.1lf,distBasedOnSpeed,%{public}.1lf,distBasedOnPos,%{public}.1lf;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
 @property _Bool isValid; // @synthesize isValid=_isValid;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
-@property(readonly, copy, nonatomic) NSString *purposeKey; // @synthesize purposeKey=_purposeKey;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

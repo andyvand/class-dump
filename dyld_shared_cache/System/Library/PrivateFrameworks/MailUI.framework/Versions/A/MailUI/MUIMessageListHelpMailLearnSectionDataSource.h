@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void)rovider: /* Error: Ran out of types for this method. */;
+- (void)registerDataProvider: /* Error: Ran out of types for this method. */;
 
 @end
 

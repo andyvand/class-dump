@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEFile
 {
     shared_ptr_ab06ee6d _This;
@@ -18,26 +16,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (shared_ptr_ab06ee6d);
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (void);
 - (shared_ptr_ab06ee6d);
-- (id);
+- (id)24B32B36;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (void)Ñ;
 
 // Remaining properties
 @property shared_ptr_ab06ee6d This; // @synthesize This=_This;
-@property(retain) NSString *id;
-@property(retain) NSString *localeFilename;
-@property(retain) NSString *paramsFilename;
 
 @end
 

@@ -9,9 +9,9 @@
     _Bool _isSearchToolClient;
 }
 
-+ (long long);
-+ (long long);
-+ (long long);
++ (long long)_lp_strictlyDecodeArrayOfObjectsOfClass:(id)arg1 forKey:(id)arg2;
++ (long long)_lp_setCompositingFilter:(id)arg1;
++ (long long)_lp_setCoderType:(id)arg1;
 + (long long);
 + (long long);
 + (long long);

@@ -9,7 +9,6 @@
 @interface CBFloatArray2D : CBFloatArray
 {
     unsigned long long _cols;
-    unsigned long long _rows;
 }
 
 - (id);

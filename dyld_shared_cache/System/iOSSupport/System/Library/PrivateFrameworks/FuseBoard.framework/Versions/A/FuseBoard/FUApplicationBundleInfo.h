@@ -10,23 +10,19 @@
 {
     _Bool _catalystApp;
     _Bool _supportsTaskSuspension;
-    _Bool _iOSAppOnMac;
-    LSBundleInfoCachedValues *_cachedInfo;
 }
 
-+ (long long);
++ (long long)@K;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LSBundleInfoCachedValues *cachedInfo; // @synthesize cachedInfo=_cachedInfo;
 @property(readonly, nonatomic, getter=isCatalystApp) _Bool catalystApp; // @synthesize catalystApp=_catalystApp;
-@property(readonly, nonatomic, getter=isiOSAppOnMac) _Bool iOSAppOnMac; // @synthesize iOSAppOnMac=_iOSAppOnMac;
-@property(readonly, nonatomic) _Bool supportsTaskSuspension; // @synthesize supportsTaskSuspension=_supportsTaskSuspension;
 
 @end
 

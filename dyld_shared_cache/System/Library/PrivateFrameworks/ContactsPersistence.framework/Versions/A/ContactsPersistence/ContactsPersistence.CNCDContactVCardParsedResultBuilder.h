@@ -7,7 +7,6 @@
 @interface ContactsPersistence.CNCDContactVCardParsedResultBuilder
 {
     id contact;
-    id isEmpty;
 }
 
 - (id);

@@ -7,12 +7,6 @@
 @interface TSTStrokeRunArray
 {
     _Bool mHasCustomStrokes;
-    double mMaxWidth;
-    unsigned int mCount;
-    unsigned int mAllocCount;
-    unsigned int mLastLookup;
-    struct TSTStrokeRun *mStrokes;
-    struct _opaque_pthread_rwlock_t mRWLock;
 }
 
 - (void);

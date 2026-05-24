@@ -7,7 +7,6 @@
 @interface AppStoreKit.IdentifiableSearchResult
 {
     id searchResult;
-    id id;
 }
 
 @end

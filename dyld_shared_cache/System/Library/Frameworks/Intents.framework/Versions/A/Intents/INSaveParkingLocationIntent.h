@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, NSString;
+@class CLPlacemark;
 
 @interface INSaveParkingLocationIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,22 +24,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)noteUpdateBlockHasBeenCalledForType:(id)arg1;
+- (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) CLPlacemark *parkingLocation;
-@property(readonly, copy) NSString *parkingNote;
-@property(readonly) Class superclass;
 
 @end
 

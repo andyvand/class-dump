@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeHistoryProvider
 {
     id recipeService;
-    id recipeHistory;
-    id recipeFactory;
 }
 
 @end

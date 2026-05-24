@@ -7,9 +7,9 @@
 @class NSNumber, NSString;
 
 @protocol INDeleteEventIntentExport
+- (NSNumber *);
 
 // Remaining properties
-@property(copy) NSNumber *deleteAllOccurrences;
 @property(copy) NSString *targetEventIdentifier;
 @end
 

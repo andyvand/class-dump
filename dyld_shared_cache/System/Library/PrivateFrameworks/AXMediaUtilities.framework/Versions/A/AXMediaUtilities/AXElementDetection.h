@@ -4,65 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXElementDetection
 {
     float _area;
-    _Bool _hasLabel;
-    float _confidence;
-    int _mergesCount;
-    int _scale;
-    int _label;
-    NSString *_labelName;
-    struct CGRect _box;
-    struct CGRect _defaultBox;
 }
 
 - (id);
+- (id)0{;
 - (id);
-- (id);
-- (id);
+- (id)AD{;
 - (id);
 - (id);
 - (float);
 - (void);
-- (id);
+- (id);
 - (float);
 - (void);
-- (void);
-- (float);
+- (void);
+- (float)j;
 - (int);
-- (_Bool);
-- (_Bool);
-- (float);
+- (_Bool)z;
+- (_Bool){;
+- (float);
 - (struct CGRect);
-- (struct CGPoint);
-- (void);
+- (struct CGPoint){;
+- (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (int);
 - (int);
 - (void);
-- (float);
+- (float);
 - (void);
-- (void);
-- (void);
+- (void)colorWithRed:(int)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)�$;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct CGRect box; // @synthesize box=_box;
-@property(readonly, nonatomic) struct CGPoint boxCenter;
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) struct CGRect defaultBox; // @synthesize defaultBox=_defaultBox;
-@property(readonly, nonatomic) float distanceToDefaultBox;
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(nonatomic) int label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *labelName; // @synthesize labelName=_labelName;
-@property(nonatomic) int mergesCount; // @synthesize mergesCount=_mergesCount;
-@property(nonatomic) int scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) float smartDistance;
 
 @end
 

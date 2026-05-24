@@ -13,19 +13,18 @@
 
 + (id);
 + (id);
-+ (Class);
++ (Class)4h[;
 - (void);
 - (id);
 - (unsigned int);
 - (unsigned long long);
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ioClassName;
-@property(readonly, nonatomic) unsigned int object; // @synthesize object=_object;
 
 @end
 

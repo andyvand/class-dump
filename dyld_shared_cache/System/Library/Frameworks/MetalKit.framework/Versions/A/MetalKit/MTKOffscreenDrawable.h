@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer, NSString;
-@protocol MTLDevice, MTLTexture;
+@class CAMetalLayer;
+@protocol MTLTexture;
 
 __attribute__((visibility("hidden")))
 @interface MTKOffscreenDrawable
 {
     id <MTLTexture> _texture;
-    unsigned long long _pixelFormat;
-    struct CGSize _size;
-    _Bool _textureDirty;
-    CAMetalLayer *_layer;
-    double _presentedTime;
-    unsigned long long _drawableID;
-    id <MTLDevice> _device;
 }
 
 - (id);
@@ -26,32 +19,19 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) unsigned long long drawableID; // @synthesize drawableID=_drawableID;
-@property(readonly) unsigned long long hash;
 @property(readonly) CAMetalLayer *layer; // @synthesize layer=_layer;
-@property(nonatomic) unsigned long long pixelFormat;
-@property(readonly, nonatomic) double presentedTime; // @synthesize presentedTime=_presentedTime;
-@property(nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
-@property(readonly) id <MTLTexture> texture;
 
 @end
 

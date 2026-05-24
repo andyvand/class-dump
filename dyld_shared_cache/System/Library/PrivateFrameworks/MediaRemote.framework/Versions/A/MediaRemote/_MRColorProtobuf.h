@@ -7,15 +7,6 @@
 @interface _MRColorProtobuf
 {
     float _alpha;
-    float _blue;
-    float _green;
-    float _red;
-    struct {
-        unsigned int alpha:1;
-        unsigned int blue:1;
-        unsigned int green:1;
-        unsigned int red:1;
-    } _has;
 }
 
 - (void);
@@ -34,25 +25,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)UI2UserCollectionViewController";
+- (_Bool);
 - (void);
-- (id);
-- (float);
-- (float);
-- (id);
+- (id);
+- (float)irty"b1"hasDate"b1"hasAccessoryIdentifier"b1"hasPropagationEvent"b1"hasPropagationEventReason"b1"hasAssociatedChangeLogEventIdentifier"b1};
+- (float)_transactionDepth;
+- (id)ed.DeviceSpeaker;
 - (float);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float blue; // @synthesize blue=_blue;
-@property(nonatomic) float green; // @synthesize green=_green;
-@property(nonatomic) _Bool hasAlpha;
-@property(nonatomic) _Bool hasBlue;
-@property(nonatomic) _Bool hasGreen;
 @property(nonatomic) _Bool hasRed;
-@property(nonatomic) float red; // @synthesize red=_red;
 
 @end
 

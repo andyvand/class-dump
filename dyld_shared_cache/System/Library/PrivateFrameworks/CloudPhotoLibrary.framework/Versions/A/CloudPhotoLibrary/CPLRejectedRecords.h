@@ -9,7 +9,6 @@
 @interface CPLRejectedRecords
 {
     NSMutableDictionary *_records;
-    NSMutableDictionary *_reasons;
 }
 
 - (void);
@@ -19,11 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)âª¾&àªJðàªHðà#@ùFðàCRÓîàªAð¨\ø	Ð)ñEù)@ù?ëá;
+- (_Bool);
 - (unsigned long long);
 - (void)1Â0@ù
 × ;
-- (id)alDownloadDateForScope:(id)arg1;
+- (id)initialDownloadDateForScope:(id)arg1;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
-
 @interface SASToken : AceObject
 {
 }
@@ -17,24 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool addSpaceAfter;
-@property(copy, nonatomic) NSNumber *confidenceScore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endTime;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *ipaPhoneSequence;
-@property(copy, nonatomic) NSString *originalText;
-@property(copy, nonatomic) NSString *phoneSequence;
-@property(copy, nonatomic) NSString *recognitionStability;
-@property(nonatomic) _Bool removeSpaceAfter;
-@property(nonatomic) _Bool removeSpaceBefore;
-@property(copy, nonatomic) NSNumber *silenceStartTime;
-@property(copy, nonatomic) NSNumber *startTime;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

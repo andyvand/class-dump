@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailUrgentAlertPresenterCapability
 {
     id findMyDeviceProvider;
-    id privacyChecker;
-    id displayUpdater;
 }
 
 @end

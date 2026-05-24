@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKPrivateDatabaseSchema, NSString;
-@protocol FCCKRecordNameCipher;
+@class FCCKPrivateDatabaseSchema;
 
 @interface FCCKDatabaseEncryptionMiddleware
 {
     FCCKPrivateDatabaseSchema *_encryptionSchema;
-    id <FCCKRecordNameCipher> _recordNameCipher;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)forbids:(id)arg1 %{public}s. Requires suggestions entry;
 - (id);
 - (id);
 - (id);
@@ -27,13 +25,7 @@
 - (void)urces/FeldsparServices/feldsparcore/Classes/FCCurrentMagazineContentFetchOperation.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

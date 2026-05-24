@@ -9,8 +9,6 @@
 @interface PXSharedLibraryIncludedPeopleDataSource
 {
     NSArray *_allInfos;
-    NSArray *_infosWithBothPeopleAndParticipants;
-    NSArray *_infosWithoutPeople;
 }
 
 - (id);
@@ -23,15 +21,12 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
-- (long long): /* Error: Ran out of types for this method. */;
-- (long long)ditionalInformation;
+- (long long)setShared: /* Error: Ran out of types for this method. */;
+- (long long)CloudQuotaNotificationItemAdditionalInformation;
 - (void)LµÔ±;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allInfos; // @synthesize allInfos=_allInfos;
 @property(readonly, nonatomic) NSArray *allPersonUUIDs;
-@property(readonly, nonatomic) NSArray *infosWithBothPeopleAndParticipants; // @synthesize infosWithBothPeopleAndParticipants=_infosWithBothPeopleAndParticipants;
-@property(readonly, nonatomic) NSArray *infosWithoutPeople; // @synthesize infosWithoutPeople=_infosWithoutPeople;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKCDPCodeServiceRequestDatabaseOwner
 {
     unsigned long long _numericValue;
-    int _identifier;
-    NSString *_stringValue;
-    struct {
-        unsigned int numericValue:1;
-        unsigned int identifier:1;
-    } _has;
 }
 
 - (void);
@@ -23,14 +15,14 @@
 - (int);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_rotatingUUIDComponent;
 - (id);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)ppletCacheUpdated:(id)arg1 serialNumber:isdSequenceCounter:transceiver:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)P;
+- (unsigned long long)support vbr;
 - (_Bool);
-- (_Bool);
+- (_Bool)updateLastViewedDateForThreadScope:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -38,17 +30,12 @@
 - (id);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)keyID;
 - (void);
 - (void)PCS Data;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentifier;
 @property(nonatomic) _Bool hasNumericValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) int identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long numericValue; // @synthesize numericValue=_numericValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

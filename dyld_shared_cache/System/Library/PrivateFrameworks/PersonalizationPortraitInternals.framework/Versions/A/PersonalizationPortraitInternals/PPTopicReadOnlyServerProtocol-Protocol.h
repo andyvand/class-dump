@@ -5,7 +5,9 @@
 //
 
 @protocol PPTopicReadOnlyServerProtocol
+- (void)B8	k!;
+- (void)isSyncingPaused;
 - (void)ate.;
-- (void)type;
+- (void)quicktype;
 @end
 

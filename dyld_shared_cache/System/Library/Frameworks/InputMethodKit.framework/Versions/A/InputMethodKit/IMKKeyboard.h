@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKKeyboardDescriptor, NSString;
-@protocol IMKCandidateMenu, IMKInputMethod, IMKTextDocument;
+@class IMKKeyboardDescriptor;
+@protocol IMKTextDocument;
 
 @interface IMKKeyboard
 {
     id <IMKTextDocument> _attachedTextDocument;
-    id <IMKInputMethod> _inputMethod;
-    IMKKeyboardDescriptor *_keyboardDescriptor;
 }
 
 - (void);
@@ -19,28 +17,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)7;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_useMediaDrivenDuplicationFeatureFlag;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <IMKTextDocument> attachedTextDocument; // @synthesize attachedTextDocument=_attachedTextDocument;
-@property(readonly, nonatomic) id <IMKCandidateMenu> candidateMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <IMKInputMethod> inputMethod; // @synthesize inputMethod=_inputMethod;
 @property(readonly, nonatomic) IMKKeyboardDescriptor *keyboardDescriptor; // @synthesize keyboardDescriptor=_keyboardDescriptor;
-@property(readonly) Class superclass;
 
 @end
 

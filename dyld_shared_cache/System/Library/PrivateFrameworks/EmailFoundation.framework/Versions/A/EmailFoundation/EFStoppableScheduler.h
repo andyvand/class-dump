@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, NSString;
 @protocol EFScheduler;
 
 @interface EFStoppableScheduler
 {
     struct EFAtomicObject _scheduler;
-    EFLocked *_tokens;
 }
 
 + (id);
@@ -21,28 +19,21 @@
 - (void);
 - (id);
 - (id);
+- (id)6/crypto/ec/ec_lib.c;
+- (void)P;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)__AUTH_CONST;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)_uniqueClientIdentifier;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <EFScheduler> scheduler;
-@property(readonly) Class superclass;
 
 @end
 

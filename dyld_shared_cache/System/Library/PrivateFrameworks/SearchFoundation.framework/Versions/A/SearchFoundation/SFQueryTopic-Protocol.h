@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *query;
-@property(readonly, nonatomic) int queryType;
 @end
 

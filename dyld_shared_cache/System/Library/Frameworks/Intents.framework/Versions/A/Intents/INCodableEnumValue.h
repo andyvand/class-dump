@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableEnum, NSArray, NSString;
+@class INCodableEnum;
 
 @interface INCodableEnumValue
 {
     INCodableEnum *_codableEnum;
-    long long _index;
-    NSString *_name;
-    NSString *_localizedName;
-    NSString *_displayName;
-    NSString *_displayNameLocID;
-    NSArray *_synonyms;
 }
 
 + (_Bool);
@@ -22,53 +16,39 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void):(id)arg1 8@"<GCControllerServiceRemoteClientInterface>"16@?<v@?@"<GCControllerServiceRemoteServerInterface>"@"NSError">24;
+- (id)_GCMicrosoftXboxControllerProfile;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
+- (id)COMPLEMENTOFDEFAULT;
 - (id);
 - (id);
+- (id)forwardToCompletionBlock;
+- (_Bool)_XPCRequestProxy;
+- (id)workOfInterestManager;
+- (void)qLugD9JEz9vlwacfVNTWQBoHLWaEB8_xIdvK4/Library/Caches/com.apple.xbs/TemporaryDirectory.kPthP0/Sources/CoreWiFi/Framework/CWFHomeManager/CWFHomeManager.m;
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void)cessWithResolvedLength:(id)arg1;
-- (void)ls:(id)arg1 appInferred: /* Error: Ran out of types for this method. */;
+- (void)successWithResolvedLength:(id)arg1;
+- (void)initWithPrivateMediaIntentData:(id)arg1 audioSearchResults:internalSignals:appInferred: /* Error: Ran out of types for this method. */;
 - (void)d¨;
-- (_Bool)ress;
+- (_Bool)INShareFocusStatusIntentResponseCodeInProgress;
 - (void)e;
 - (void)ßÿkQçå;
 - (id)ÒÈÿø;
 
 // Remaining properties
-@property(nonatomic, setter=_setCodableEnum:) __weak INCodableEnum *_codableEnum; // @synthesize _codableEnum;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *displayNameLocID; // @synthesize displayNameLocID=_displayNameLocID;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, copy) NSString *localizedDisplayName;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *synonyms; // @synthesize synonyms=_synonyms;
 
 @end
 

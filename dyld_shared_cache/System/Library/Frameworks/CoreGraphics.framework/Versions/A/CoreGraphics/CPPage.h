@@ -6,37 +6,10 @@
 
 #import <CoreGraphics/CPChunk.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface CPPage : CPChunk
 {
     int pageNumber;
-    struct CGRect pageCropBox;
-    _Bool hasZones;
-    _Bool hasTextLines;
-    _Bool isDirty;
-    _Bool isStartOfSection;
-    long long maxLayoutZOrder;
-    CPChunk *background;
-    float complexity;
-    int rotation;
-    NSMutableArray *shapesOnPage;
-    NSMutableArray *imagesOnPage;
-    NSMutableArray *graphicsOnPage;
-    NSMutableArray *columnsOnPage;
-    NSMutableArray *annotationsOnPage;
-    struct CPPDFContext *pdfContext;
-    _Bool contextOwner;
-    struct CGPDFPage *pdfPage;
-    NSMutableArray *textLinesOnPage;
-    void *_layout;
-    id hitTest;
-    _Bool reconstructed;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } mutex;
 }
 
 + (void);
@@ -81,10 +54,10 @@ __attribute__((visibility("hidden")))
 - (struct CPPDFContext *);
 - (void);
 - (void);
+- (void)};
 - (void);
-- (void);
-- (id);
-- (int);
+- (id)deleteHistoryBeforeToken:whenHistoryPercentageOfStoreIsGreaterThan: /* Error: Ran out of types for this method. */;
+- (int)@ %@]:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

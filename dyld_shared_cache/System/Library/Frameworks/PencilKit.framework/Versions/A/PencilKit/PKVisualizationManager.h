@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHVisualizationManager, NSString;
+@class CHVisualizationManager;
 @protocol PKVisualizationManager;
 
 @interface PKVisualizationManager
 {
     id <PKVisualizationManager> _delegate;
-    CHVisualizationManager *_chVisualizationManager;
 }
 
 + (id);
@@ -31,15 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CHVisualizationManager *chVisualizationManager; // @synthesize chVisualizationManager=_chVisualizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKVisualizationManager> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool recognitionStatusReportingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AppStoreKit.TrendingSearchesPresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id trendingSearches;
 }
 
 @end

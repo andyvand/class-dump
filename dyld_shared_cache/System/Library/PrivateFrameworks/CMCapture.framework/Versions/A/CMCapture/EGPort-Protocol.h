@@ -7,6 +7,7 @@
 @protocol EGPortInterface;
 
 @protocol EGPort
+- (id <EGPortInterface>)s;
 
 // Remaining properties
 @property(readonly, nonatomic) id <EGPortInterface> portInterface;

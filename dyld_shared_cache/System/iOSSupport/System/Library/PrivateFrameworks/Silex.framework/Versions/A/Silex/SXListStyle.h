@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXJSONArray;
-
 @interface SXListStyle : SXJSONObject
 {
 }
@@ -15,9 +13,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *character; // @dynamic character;
-@property(readonly, nonatomic) unsigned long long depth; // @dynamic depth;
-@property(readonly, nonatomic) SXJSONArray *indices; // @dynamic indices;
 @property(readonly, nonatomic) unsigned long long style; // @dynamic style;
 
 @end

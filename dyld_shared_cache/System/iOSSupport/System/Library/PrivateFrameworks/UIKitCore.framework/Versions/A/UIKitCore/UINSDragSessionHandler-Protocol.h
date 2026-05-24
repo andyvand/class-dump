@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol UINSDragOperationMasks;
 
 @protocol UINSDragSessionHandler
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UINSDragOperationMasks> operationMasks;

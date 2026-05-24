@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)anguage model;
 - (void);
 - (id);
 

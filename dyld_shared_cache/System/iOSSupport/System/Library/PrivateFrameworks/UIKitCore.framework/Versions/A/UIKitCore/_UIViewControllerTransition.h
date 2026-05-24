@@ -9,29 +9,23 @@
 @interface _UIViewControllerTransition
 {
     _UIViewControllerTransitionOptions *_options;
-    UIViewController *__associatedViewController;
-    CDUnknownBlockType __viewProvider;
-    CDUnknownBlockType __interactiveDismissShouldBeginHandler;
 }
 
-+ (id);
++ (id)%@ as a reply to guid has not been set;
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)0@48;
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id)tainer:(struct _NSZone *)arg1;
-- (void)ngerClick;
+- (id)_centerTableInContainer:(struct _NSZone *)arg1;
+- (void)2FingerClick;
 - (id)ModeOneBesideSecondary should only report nonzero width for one of the primary or supplementary columns;
 - (void)ÿZ¬þ;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *_associatedViewController; // @synthesize _associatedViewController=__associatedViewController;
-@property(copy, nonatomic) CDUnknownBlockType _interactiveDismissShouldBeginHandler; // @synthesize _interactiveDismissShouldBeginHandler=__interactiveDismissShouldBeginHandler;
-@property(retain, nonatomic, setter=_setOptions:) _UIViewControllerTransitionOptions *_options; // @synthesize _options;
-@property(copy, nonatomic) CDUnknownBlockType _viewProvider; // @synthesize _viewProvider=__viewProvider;
 
 @end
 

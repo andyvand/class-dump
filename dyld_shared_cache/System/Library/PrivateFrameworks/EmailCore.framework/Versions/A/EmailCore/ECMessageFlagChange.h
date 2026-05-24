@@ -4,97 +4,86 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ECMessageFlagChange
 {
     _Bool _read;
-    _Bool _deleted;
-    _Bool _replied;
-    _Bool _flagged;
-    _Bool _draft;
-    _Bool _forwarded;
-    _Bool _redirected;
-    _Bool _junkLevelSetByUser;
-    _Bool _touchedByCleanup;
-    _Bool _readChanged;
-    _Bool _deletedChanged;
-    _Bool _repliedChanged;
-    _Bool _flaggedChanged;
-    _Bool _draftChanged;
-    _Bool _forwardedChanged;
-    _Bool _redirectedChanged;
-    _Bool _junkLevelSetByUserChanged;
-    _Bool _junkLevelChanged;
-    _Bool _flagColorChanged;
-    _Bool _touchedByCleanupChanged;
-    unsigned long long _junkLevel;
-    unsigned long long _flagColor;
-    long long _reason;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)View should only be set once on an AVMobileGlassControlsView.;
++ (id)status = %d; response message:%@ /* Error: Ran out of types for this method. */;
++ (id):HasSpaceAvailable /* Error: Ran out of types for this method. */;
++ (id)}@:OpenCompleted /* Error: Ran out of types for this method. */;
++ (id)mmand;
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
+- (_Bool)olderIndicatorScale - %ld;
+- (_Bool)nown AVMobileFullscreenPlaceholderIndicatorScale - %ld;
+- (void)mss menu index of language lang:(_Bool)arg1 %ld;
+- (void)tSettings:(_Bool)arg1 %@ 
+
+selector:%@ /* Error: Ran out of types for this method. */;
+- (void)resentation option:(_Bool)arg1 %@;
+- (void)id select custom media presentation option:(_Bool)arg1 %@;
+- (void)%s cmss 
+
+selector:(_Bool)arg1 %@ 
+
+complementarySettings:%@ /* Error: Ran out of types for this method. */;
+- (void)ings filtered to cache:(_Bool)arg1 %@;
+- (void);
+- (void)oes not implement messageWithParts:(_Bool)arg1;
+- (void)%{public}@';
+- (void)s registered for version '%{public}@';
+- (void)ring image with text:(_Bool)arg1 "%@";
+- (void)extImageCache should only be accessed on the main thread.;
+- (void)called off of the main thread. The AVMobileTextImageCache should only be accessed on the main thread.;
+- (void)mString:(unsigned long long)arg1 font:completion:] called off of the main thread. The AVMobileTextImageCache should only be accessed on the main thread. /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ported:(_Bool)arg1 %s
+};
+- (_Bool)tate and layout rect for content tabs UI does not match. canFitContentTabs:%d  contentTabsLayoutFrame:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)View.;
+- (_Bool)MobileChromelessControlsView.;
+- (_Bool)%s Automatic routing to likely destinations not supported on MacCatalyst. Calling client completion handler with playback state:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Invalid input base frame time.;
+- (_Bool)ack type for frame stepping.;
+- (unsigned long long)trols view!;
+- (_Bool){public}@);
+- (_Bool)%{public}@ to JSON (%{public}@);
+- (id)public}@;
+- (_Bool)obal %@; app %@; environ %{public}@;
+- (_Bool)%s isAirMessageEnabled %@; global %@; app %@; environ %{public}@;
+- (unsigned long long)or convertible to one;
+- (_Bool)creenIsActive=%i externalPlaybackType=%i isBeingDismissed=%i isReadyToConnect=%i isActive=%i;
+- (_Bool)backWhileExternalScreenIsActive=%i externalPlaybackType=%i isBeingDismissed=%i isReadyToConnect=%i isActive=%i;
+- (_Bool)ize (%f x %f) vs window size (%f x %f);
+- (void)s %@ layoutClass:(_Bool)arg1 %ld;
+- (void)eed collection count. 
+%@
+%@;
+- (void)item count does not equal the speed collection count. 
+%@
+%@;
+- (void)tency - playback speed menu item count does not equal the speed collection count. 
+%@
+%@;
+- (void)w count;
+- (void)mark count does not match slider mark view count;
+- (void)er tint state %ld;
+- (void)ring.;
+- (void)ame:(unsigned long long)arg1 %@;
+- (void)dia option hovered -- displayName:(_Bool)arg1 %@;
+- (void)ate transition for %{public}@ from %ld ==> %ld. Ignoring.;
+- (void)ntum or scrubbing states.;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)nextObject;
 - (long long);
 - (id);
 - (_Bool);
@@ -112,42 +101,7 @@
 - (_Bool)ýÿh£;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deleted; // @synthesize deleted=_deleted;
-@property(nonatomic) _Bool deletedChanged; // @synthesize deletedChanged=_deletedChanged;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool draft; // @synthesize draft=_draft;
-@property(nonatomic) _Bool draftChanged; // @synthesize draftChanged=_draftChanged;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) unsigned long long flagColor; // @synthesize flagColor=_flagColor;
-@property(nonatomic) _Bool flagColorChanged; // @synthesize flagColorChanged=_flagColorChanged;
-@property(nonatomic) _Bool flagged; // @synthesize flagged=_flagged;
-@property(nonatomic) _Bool flaggedChanged; // @synthesize flaggedChanged=_flaggedChanged;
-@property(nonatomic) _Bool forwarded; // @synthesize forwarded=_forwarded;
-@property(nonatomic) _Bool forwardedChanged; // @synthesize forwardedChanged=_forwardedChanged;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long junkLevel; // @synthesize junkLevel=_junkLevel;
-@property(nonatomic) _Bool junkLevelChanged; // @synthesize junkLevelChanged=_junkLevelChanged;
-@property(nonatomic) _Bool junkLevelSetByUser; // @synthesize junkLevelSetByUser=_junkLevelSetByUser;
-@property(nonatomic) _Bool junkLevelSetByUserChanged; // @synthesize junkLevelSetByUserChanged=_junkLevelSetByUserChanged;
 @property(nonatomic) _Bool read; // @synthesize read=_read;
-@property(nonatomic) _Bool readChanged; // @synthesize readChanged=_readChanged;
-@property(nonatomic) long long reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool redirected; // @synthesize redirected=_redirected;
-@property(nonatomic) _Bool redirectedChanged; // @synthesize redirectedChanged=_redirectedChanged;
-@property(nonatomic) _Bool replied; // @synthesize replied=_replied;
-@property(nonatomic) _Bool repliedChanged; // @synthesize repliedChanged=_repliedChanged;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool touchedByCleanup; // @synthesize touchedByCleanup=_touchedByCleanup;
-@property(nonatomic) _Bool touchedByCleanupChanged; // @synthesize touchedByCleanupChanged=_touchedByCleanupChanged;
 
 @end
 

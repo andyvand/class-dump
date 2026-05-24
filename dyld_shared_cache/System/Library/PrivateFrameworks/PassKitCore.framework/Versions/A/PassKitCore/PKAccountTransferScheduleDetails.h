@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone;
+@class NSTimeZone;
 
 @interface PKAccountTransferScheduleDetails
 {
     NSTimeZone *_productTimeZone;
-    unsigned long long _frequency;
-    long long _scheduledDay;
-    NSDate *_scheduledDate;
-    NSString *_transferTermsIdentifier;
 }
 
 + (_Bool)X"ð!Aùî%ð1Â0@ù
 × ;
 - (id);
+- (void)c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -31,18 +27,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)addCount:(id)arg1;
 - (void);
 - (void);
-- (id)nse;
+- (id)_eligibilityResponse;
 - (void)t;
 - (unsigned long long)È;
 
 // Remaining properties
 @property(nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
-@property(copy, nonatomic) NSDate *scheduledDate; // @synthesize scheduledDate=_scheduledDate;
-@property(nonatomic) long long scheduledDay; // @synthesize scheduledDay=_scheduledDay;
-@property(copy, nonatomic) NSString *transferTermsIdentifier; // @synthesize transferTermsIdentifier=_transferTermsIdentifier;
 
 @end
 

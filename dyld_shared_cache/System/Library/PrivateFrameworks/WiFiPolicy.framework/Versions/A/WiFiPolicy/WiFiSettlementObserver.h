@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, WiFiSettlementConfiguration, WiFiSettlementContext;
 @protocol WiFiScanProvider;
 
 @interface WiFiSettlementObserver
 {
     long long _status;
-    unsigned long long _confidence;
-    NSDate *_settledDate;
-    id <WiFiScanProvider> _scanProvider;
-    WiFiSettlementContext *_currentContext;
-    unsigned long long _consecutiveScansWithoutMatch;
-    NSMutableArray *_callbacks;
-    WiFiSettlementConfiguration *_configuration;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)setPresetPickersDefinitions:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -30,30 +22,23 @@
 - (id);
 - (void);
 - (id);
+- (void)UsoTaskBuilder_checkExistence_common_UserPossession;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)fier item;
 - (long long);
-- (unsigned long long);
+- (unsigned long long)luster(FigEndpointManagerRef, FigEndpointRef);
 - (void);
 - (void);
 - (void);
 - (void)¥°1Â0@ù
 × ;
-- (unsigned long long)oreRSSI_Core0_Duration;
+- (unsigned long long)perCoreRSSI_Core0_Duration;
 - (id)Ø¾ôÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *callbacks; // @synthesize callbacks=_callbacks;
-@property(nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) WiFiSettlementConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) unsigned long long consecutiveScansWithoutMatch; // @synthesize consecutiveScansWithoutMatch=_consecutiveScansWithoutMatch;
-@property(retain, nonatomic) WiFiSettlementContext *currentContext; // @synthesize currentContext=_currentContext;
 @property(retain, nonatomic) id <WiFiScanProvider> scanProvider; // @synthesize scanProvider=_scanProvider;
-@property(copy, nonatomic) NSDate *settledDate; // @synthesize settledDate=_settledDate;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

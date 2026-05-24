@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface CBVirtualBrightnessControl
 {
     CDStruct_6198f0de _currentWPMatrix;
-    double _currentNits;
-    _Bool _brightnessAvailable;
-    _Bool _whitePointAvailable;
-    int _displayId;
-    unsigned int _displayType;
-    float _maximumLuminance;
-    NSUUID *_containerId;
-    unsigned long long _productId;
-    unsigned long long _vendorId;
-    NSUUID *_uuid;
-    CDStruct_6e3f967a _nativeWhitePoint;
-    NSDictionary *_brightnessCapabilities;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (CDStruct_b2fbf00d);
+- (CDStruct_6e3f967a);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -54,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -67,27 +53,7 @@ __attribute__((visibility("hidden")))
 - (void)¦>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>o=ìQ¸=`åÐ=d;ß=lç=;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool brightnessAvailable; // @synthesize brightnessAvailable=_brightnessAvailable;
-@property(readonly, copy, nonatomic) NSDictionary *brightnessCapabilities; // @synthesize brightnessCapabilities=_brightnessCapabilities;
-@property(readonly, nonatomic) NSUUID *containerId; // @synthesize containerId=_containerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) int displayId; // @synthesize displayId=_displayId;
-@property(readonly, nonatomic) unsigned int displayType; // @synthesize displayType=_displayType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float maximumLuminance; // @synthesize maximumLuminance=_maximumLuminance;
-@property(readonly, nonatomic) CDStruct_b2fbf00d nativeWhitePoint; // @synthesize nativeWhitePoint=_nativeWhitePoint;
-@property(readonly, getter=isOnline) _Bool online;
-@property(readonly, nonatomic) unsigned long long productId; // @synthesize productId=_productId;
-@property(readonly, nonatomic) unsigned long long serialNumber;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) unsigned long long vendorId; // @synthesize vendorId=_vendorId;
-@property(readonly, nonatomic) _Bool whitePointAvailable; // @synthesize whitePointAvailable=_whitePointAvailable;
-@property(readonly, nonatomic) _Bool whitePointD50XYZ;
 
 @end
 

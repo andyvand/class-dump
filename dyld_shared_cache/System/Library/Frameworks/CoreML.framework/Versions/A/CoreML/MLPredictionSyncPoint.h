@@ -9,7 +9,6 @@
 @interface MLPredictionSyncPoint
 {
     id <MTLSharedEvent> _sharedEvent;
-    unsigned long long _value;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLSharedEvent> sharedEvent; // @synthesize sharedEvent=_sharedEvent;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

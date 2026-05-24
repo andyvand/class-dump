@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileAccessClaim, NSString;
+@class NSFileAccessClaim;
 
 __attribute__((visibility("hidden")))
 @interface _NSFileAccessClaimPresenterRelinquishment
 {
     NSFileAccessClaim *_claim;
-    id _presenterID;
-    NSString *_blockageReason;
-    CDUnknownBlockType _relinquisher;
 }
 
 - (void);

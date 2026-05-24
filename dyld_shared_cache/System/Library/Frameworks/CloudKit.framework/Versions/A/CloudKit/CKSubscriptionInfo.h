@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKDatabase, NSString;
+@class CKDatabase;
 
 @interface CKSubscriptionInfo
 {
     CKDatabase *_database;
-    CKContainer *_container;
-    NSString *_environment;
-    CDUnknownBlockType _idHandler;
-    NSString *_subscriptionID;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)8@16^v24^@32;
 - (_Bool);
-- (void);
+- (void)CKDistributedTimestamp;
 
 @end
 

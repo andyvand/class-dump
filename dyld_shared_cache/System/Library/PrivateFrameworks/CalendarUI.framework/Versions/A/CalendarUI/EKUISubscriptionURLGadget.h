@@ -6,18 +6,15 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKUIResizingTextField, NSButton, NSSharingServicePicker, NSString, NSView;
+@class NSView;
 
 @interface EKUISubscriptionURLGadget : EKUISingleViewGadget
 {
     NSView *_containerView;
-    EKUIResizingTextField *_urlField;
-    NSButton *_shareButton;
-    NSSharingServicePicker *_sharingServicePicker;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -31,25 +28,15 @@
 - (void);
 - (id);
 - (void);
+- (id)協;
 - (id);
 - (id);
-- (id);
+- (void)[INDaemonConnection registerAccount:foriCloudNotificationsWithReason:completion:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)rsWithChanges: /* Error: Ran out of types for this method. */;
+- (id)updateContainersWithChanges: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *shareButton; // @synthesize shareButton=_shareButton;
-@property(retain) NSSharingServicePicker *sharingServicePicker; // @synthesize sharingServicePicker=_sharingServicePicker;
-@property(readonly) Class superclass;
-@property(retain) EKUIResizingTextField *urlField; // @synthesize urlField=_urlField;
 
 @end
 

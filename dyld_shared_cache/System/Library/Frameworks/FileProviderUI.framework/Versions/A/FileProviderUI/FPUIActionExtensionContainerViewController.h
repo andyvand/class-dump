@@ -11,18 +11,18 @@
     FPUIActionExtensionViewController *_actionExtensionViewController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_boolForKey:defaultValue: /* Error: Ran out of types for this method. */;
+- (void)_body;
+- (void)_blockToInvokeWithErrorForwardingForInvocation:(id)arg1 errorArgumentIndex:(id)arg2;
+- (void)_biometricsRequest;
+- (void)_baseQueryDictionaryForIdentifier:numValues: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (void)_bagForProfile:(id)arg1 profileVersion:processInfo:accountProvider:loadURLOverlay: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

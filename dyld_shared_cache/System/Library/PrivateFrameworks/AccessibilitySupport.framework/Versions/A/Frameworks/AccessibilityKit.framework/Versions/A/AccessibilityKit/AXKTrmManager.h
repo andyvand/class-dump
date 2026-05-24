@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXKAlertWindowController, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface AXKTrmManager
 {
     long long _reason;
-    NSWindow *_hostWindow;
-    AXKAlertWindowController *_windowController;
 }
 
 + (id);
@@ -21,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -34,15 +30,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)set_cutoutMaskShapeLayer: /* Error: Ran out of types for this method. */;
+- (_Bool)_imageWithSystemSymbolName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool dialogHasEverBeenDisplayed;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 @property(nonatomic) long long reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool systemState;
-@property(retain, nonatomic) AXKAlertWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end
 

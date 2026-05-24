@@ -4,78 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemAccessLogEventInternal, NSDate, NSString;
+@class AVPlayerItemAccessLogEventInternal;
 
 @interface AVPlayerItemAccessLogEvent
 {
     AVPlayerItemAccessLogEventInternal *_playerItemAccessLogEvent;
 }
 
+- (double)allocator<double>>=^d^d{?=^d}},N,V_loggableConcatCosts;
+- (double)LmData}^{__shared_weak_count}},R,N,Vdata;
+- (double)etector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (double)@"_EARAudioAnalytics",R,C,N,V_audioAnalytics;
+- (double)_EARLanguageDetectorV2Result;
+- (id)TextProcessorTrain;
+- (id)TextProcessorInference;
 - (double);
 - (double);
+- (double);
+- (long long);
+- (long long);
+- (long long)L;
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (double);
+- (double)|> ?;
 - (double);
 - (double);
 - (double);
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
 - (double);
 - (double);
 - (long long);
 - (long long);
-- (id);
+- (id)deleteIS2_EENS_9allocatorIS2_EEEE;
 - (void);
+- (id)F;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)terminateApplication:forReason:andReport:withDescription:completion: /* Error: Ran out of types for this method. */;
 - (id):%{public}@ kFigPlayerNotification_CurrentItemDidChange, already current. No need to advance current item to match Fig (FigPlaybackItem = %p) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URI;
-@property(readonly, nonatomic) double averageAudioBitrate;
-@property(readonly, nonatomic) double averageVideoBitrate;
-@property(readonly, nonatomic) long long downloadOverdue;
-@property(readonly, nonatomic) double durationWatched;
-@property(readonly, nonatomic) double indicatedAverageBitrate;
-@property(readonly, nonatomic) double indicatedBitrate;
-@property(readonly, nonatomic) long long mediaRequestsWWAN;
-@property(readonly, nonatomic) long long numberOfBytesTransferred;
-@property(readonly, nonatomic) long long numberOfDroppedVideoFrames;
-@property(readonly, nonatomic) long long numberOfMediaRequests;
 @property(readonly, nonatomic) long long numberOfSegmentsDownloaded;
-@property(readonly, nonatomic) long long numberOfServerAddressChanges;
-@property(readonly, nonatomic) long long numberOfStalls;
-@property(readonly, nonatomic) double observedBitrate;
-@property(readonly, nonatomic) double observedBitrateStandardDeviation;
-@property(readonly, nonatomic) double observedMaxBitrate;
-@property(readonly, nonatomic) double observedMinBitrate;
-@property(readonly, nonatomic) NSString *playbackSessionID;
-@property(readonly, nonatomic) NSDate *playbackStartDate;
-@property(readonly, nonatomic) double playbackStartOffset;
-@property(readonly, nonatomic) NSString *playbackType;
-@property(readonly, nonatomic) double segmentsDownloadedDuration;
-@property(readonly, nonatomic) NSString *serverAddress;
-@property(readonly, nonatomic) double startupTime;
-@property(readonly, nonatomic) double switchBitrate;
-@property(readonly, nonatomic) double transferDuration;
 
 @end
 

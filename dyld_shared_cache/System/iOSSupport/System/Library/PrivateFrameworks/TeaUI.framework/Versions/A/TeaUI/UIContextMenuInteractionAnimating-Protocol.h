@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol UIContextMenuInteractionAnimating
+- (UIViewController *)MapsSuggestionsRemovalBehaviorForUserPlaceKey;
 - (void)reload policy created after %{public}@, jittered up to %f is %{public}@;
 
 // Remaining properties

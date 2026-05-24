@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSImage, NSString, NSView, OBTemplateView, SiriUIBuddyController;
+@class SiriUIBuddyController;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIBuddyAppleIntelligenceController
 {
     _Bool _saeEnabled;
-    SiriUIBuddyController *_parentController;
 }
 
 - (void);
@@ -29,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (id);
+- (void)willDisplayContextMenuForChatController:(id)arg1;
+- (long long)M;
+- (id)versation, send now;
 - (void);
 - (void);
 - (id);
@@ -44,72 +43,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly) _Bool isInitialSubState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) long long layoutStyle;
-@property(readonly) _Bool needsExtraWideContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property __weak SiriUIBuddyController *parentController; // @synthesize parentController=_parentController;
-@property(readonly) NSArray *privacyBundleIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool saeEnabled; // @synthesize saeEnabled=_saeEnabled;
-@property(readonly) _Bool shouldDisableNextButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) CDUnknownBlockType templateAlternateActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateAlternateButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSAttributedString *templateAttributedBodyText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAttributedString",?,R
-
-@property(readonly) NSString *templateBodyText;
-@property(readonly) CDUnknownBlockType templateCancelActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateCancelButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templateNextButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateNextButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templatePreviousButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templatePreviousButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *templateTitle;
-@property(readonly) OBTemplateView *templateView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OBTemplateView",?,R
-
-@property(readonly) NSView *topContentView;
-@property(readonly) NSImage *topImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R
-
 
 @end
 

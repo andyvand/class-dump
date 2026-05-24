@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface EMIMDFRImageCellView
 {
     _Bool _enabled;
-    NSImage *_image;
-    NSString *_stringValue;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)printOperationDidRun:success:contextInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)%;
 
 // Remaining properties
-@property _Bool enabled; // @synthesize enabled=_enabled;
 @property(copy) NSImage *image; // @synthesize image=_image;
-@property(copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

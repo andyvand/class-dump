@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFHandle, FMLHandle, NSString;
+@class NSString;
 
 @interface IMFindMyHandle
 {
     NSString *_identifier;
-    FMFHandle *_fmfHandle;
-    FMLHandle *_fmlHandle;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (_Bool);
 - (void);
@@ -27,8 +25,6 @@
 - (void)É3;
 
 // Remaining properties
-@property(readonly, nonatomic) FMFHandle *fmfHandle; // @synthesize fmfHandle=_fmfHandle;
-@property(readonly, nonatomic) FMLHandle *fmlHandle; // @synthesize fmlHandle=_fmlHandle;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

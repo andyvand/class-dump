@@ -12,30 +12,24 @@ __attribute__((visibility("hidden")))
 @interface UIDebuggingIvarTableViewCell : UITableViewCell
 {
     UIDebuggingIvar *_ivar;
-    UILabel *_nameLabel;
-    UILabel *_typeLabel;
-    UILabel *_valueLabel;
 }
 
-- (id);
+- (id)ask because it has higher priority work;
+- (void)r:(id)arg1 '%@':'%@' /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)3;
 - (void);
 - (id);
 - (void)!üBùb1Â0@ù
 × ;
 - (id)2Ø¨ þB;
 - (void);
-- (id)ContainerKey_Environments;
+- (id)_UIEventDeferringEnvironmentsContainerKey_Environments;
 - (void)¼Åh;
 - (id)^;
 
 // Remaining properties
-@property(retain, nonatomic) UIDebuggingIvar *ivar; // @synthesize ivar=_ivar;
 @property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(retain, nonatomic) UILabel *typeLabel; // @synthesize typeLabel=_typeLabel;
-@property(retain, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

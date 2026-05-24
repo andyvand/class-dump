@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTDistanceCalculator, RTLearnedLocationStore, RTLocationManager, RTMapServiceManager, RTPlaceTypeClassifierMetricsCalculator, RTVisitManager;
+@class RTDistanceCalculator;
 
 @interface RTPlaceTypeClassifierExpertFallback
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTVisitManager *_visitManager;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
 }
 
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)wRecord",&,V_lrcFedSerializedEscrowRecord;
+- (id));
 - (void);
 - (id);
 - (id);
@@ -36,19 +31,7 @@
 - (void).2f, footprint, %.4f MB;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKAccountFundingSourceVerificationAttempt;
-
 @interface PKAccountFundingSourceVerification
 {
     unsigned long long _status;
-    NSArray *_options;
-    PKAccountFundingSourceVerificationAttempt *_pendingAttempt;
-    PKAccountFundingSourceVerificationAttempt *_failedAttempt;
-    NSArray *_recoveryActions;
 }
 
 + (_Bool)!X"!ø@ù±î%1Â0@ù
@@ -20,27 +14,23 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_softErrorInstanceCounters;
 - (void);
-- (id);
-- (unsigned long long);
-- (id)SecTask:(id)arg1;
+- (id);
+- (unsigned long long)hjv87;
+- (id)_copyValueOfEntitlement:(id)arg1 fromSecTask: /* Error: Ran out of types for this method. */;
 - (void)paymentRequestShippingContactEditingMode;
 
 // Remaining properties
-@property(retain, nonatomic) PKAccountFundingSourceVerificationAttempt *failedAttempt; // @synthesize failedAttempt=_failedAttempt;
-@property(copy, nonatomic) NSArray *options; // @synthesize options=_options;
-@property(retain, nonatomic) PKAccountFundingSourceVerificationAttempt *pendingAttempt; // @synthesize pendingAttempt=_pendingAttempt;
-@property(retain, nonatomic) NSArray *recoveryActions; // @synthesize recoveryActions=_recoveryActions;
 @property(nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end

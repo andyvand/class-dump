@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface AFMediaRemoteDeviceInfo
 {
     NSString *_routeIdentifier;
-    NSString *_groupIdentifier;
-    AFInstanceContext *_instanceContext;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);

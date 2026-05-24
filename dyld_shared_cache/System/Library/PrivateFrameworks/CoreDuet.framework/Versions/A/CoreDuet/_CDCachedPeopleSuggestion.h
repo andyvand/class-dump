@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, _CDPeopleSuggesterContext, _CDPeopleSuggesterSettings;
+@class NSDate;
 
 @interface _CDCachedPeopleSuggestion
 {
     NSDate *_date;
-    _CDPeopleSuggesterContext *_context;
-    _CDPeopleSuggesterSettings *_settings;
-    NSArray *_suggestions;
 }
 
 - (_Bool);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!*;
 - (id);
 - (void);
-- (void);
+- (void)setHasCallNoonSun:(id)arg1;
 
 // Remaining properties
-@property(retain) _CDPeopleSuggesterContext *context; // @synthesize context=_context;
 @property(retain) NSDate *date; // @synthesize date=_date;
-@property(retain) _CDPeopleSuggesterSettings *settings; // @synthesize settings=_settings;
-@property(retain) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

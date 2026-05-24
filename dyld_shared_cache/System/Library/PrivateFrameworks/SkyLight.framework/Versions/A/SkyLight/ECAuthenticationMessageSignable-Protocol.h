@@ -5,5 +5,6 @@
 //
 
 @protocol ECAuthenticationMessageSignable
+- (void)is archiver forbids unarchiving this class;
 @end
 

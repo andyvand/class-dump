@@ -5,5 +5,6 @@
 //
 
 @protocol ReadingListSidebarViewDragAndDropDelegate
+- (unsigned long long);
 @end
 

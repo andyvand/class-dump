@@ -5,5 +5,6 @@
 //
 
 @protocol AVMetricEventStreamPublisherInternal
+- (void)NSSecureCoding;
 @end
 

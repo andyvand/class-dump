@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FCFetchGroup
 {
     _Bool _shouldFilter;
-    _Bool _isUserFacing;
-    NSSet *_keys;
-    id _context;
-    long long _qualityOfService;
-    long long _relativePriority;
-    unsigned long long _numberOfFetchAttempts;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CDUnknownBlockType _completion;
-    NSDate *_requestDate;
 }
 
 - (void);
@@ -26,12 +17,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (void)onitor];
-- (id)At;
+- (id)__notifiedAt;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKRecurrenceEnd, NSDate;
+@class EKRecurrenceEnd;
 
 @interface CalRecurrenceEnd
 {
@@ -12,26 +12,23 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)R;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)version;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EKRecurrenceEnd *ekRecurrenceEnd; // @synthesize ekRecurrenceEnd=_ekRecurrenceEnd;
-@property(readonly) NSDate *endDate;
-@property(readonly) unsigned long long occurrenceCount;
-@property(readonly) _Bool usesEndDate;
 
 @end
 

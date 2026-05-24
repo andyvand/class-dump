@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, CSAsset, CSAudioZeroCounter, CSDispatchGroup, CSPlainAudioFileWriter, CSVTUIEndpointAnalyzer, CSVTUIKeywordDetector, CSVTUITrainingSession, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID, SFSpeechRecognizer, SSRVTUITrainingServiceClient, SSRVoiceProfile, SecureAsset;
-@protocol CSAudioProviderSelecting, CSVTUIAudioSession, OS_dispatch_queue, SSRVTUITrainingManagerDelegate;
+@class CSPlainAudioFileWriter;
 
 @interface SSRVTUITrainingManager
 {
     _Bool _performRMS;
-    NSString *_locale;
-    NSString *_vtAssetConfigVersion;
-    id <CSVTUIAudioSession> _audioSession;
-    CSVTUIEndpointAnalyzer *_audioAnalyzer;
-    CSVTUIKeywordDetector *_keywordDetector;
-    NSMutableArray *_trainingSessions;
-    CSVTUITrainingSession *_currentTrainingSession;
-    long long _sessionNumber;
-    _Bool _suspendAudio;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _cleanupCompletion;
-    SFSpeechRecognizer *_speechRecognizer;
-    CSAsset *_currentAsset;
-    SecureAsset *_currentSecureAsset;
-    SSRVoiceProfile *_profile;
-    CSDispatchGroup *_didStopWaitingGroup;
-    NSUUID *_mhUUID;
-    CSAudioZeroCounter *_audioZeroCounter;
-    _Bool _shouldTrainViaXPC;
-    SSRVTUITrainingServiceClient *_trainingServiceClient;
-    AVAudioPlayer *_audioPlayer;
-    NSMutableDictionary *_pageAttemptMap;
-    long long _lastAttemptedUtterance;
-    id <CSAudioProviderSelecting> _audioProviderSelector;
-    unsigned long long _audioStartRecordingHostTime;
-    _Bool _shouldUseRecordingStartHostTime;
-    _Bool _speechRecognizerAvailable;
-    _Bool _snrCheckEnabled;
-    float _rms;
-    id <SSRVTUITrainingManagerDelegate> _delegate;
-    CSPlainAudioFileWriter *_audioFileWriter;
 }
 
 + (id);
@@ -49,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (long long);
-- (long long);
+- (long long);
+- (long long);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -73,7 +41,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,10 +52,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -108,9 +76,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_expandTemplateURL:(CDUnknownBlockType)arg1 fieldValues: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)ZN11cnframework12ActiveObjectIN5raven31RavenDeviceAttitudeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_13RateGyroEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (id);
 - (void);
@@ -120,20 +88,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CSPlainAudioFileWriter *audioFileWriter; // @synthesize audioFileWriter=_audioFileWriter;
-@property(readonly) unsigned long long audioSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRVTUITrainingManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property float rms; // @synthesize rms=_rms;
-@property(nonatomic) _Bool snrCheckEnabled; // @synthesize snrCheckEnabled=_snrCheckEnabled;
-@property(readonly) _Bool speechRecognizerAvailable; // @synthesize speechRecognizerAvailable=_speechRecognizerAvailable;
-@property(readonly) Class superclass;
-@property _Bool suspendAudio;
-@property(readonly) SSRVoiceProfile *voiceProfile;
 
 @end
 

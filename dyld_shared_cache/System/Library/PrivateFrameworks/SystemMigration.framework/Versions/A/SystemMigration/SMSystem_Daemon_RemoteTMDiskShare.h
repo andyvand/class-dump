@@ -6,23 +6,14 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary, NSString;
 
 @interface SMSystem_Daemon_RemoteTMDiskShare : SMSystem_Daemon
 {
     NSString *shareName;
-    NSString *humanName;
-    long long sharedSystems;
-    long long dmgsProcessed;
-    unsigned long long flags;
-    NSMutableSet *timeMachineSystems;
-    NSObject<OS_dispatch_queue> *timeMachineSystemsQueue;
-    NSDictionary *_parentLongTermIdentifier;
-    NSString *_mountPoint;
 }
 
-+ (unsigned long long);
++ (unsigned long long)M;
 + (id);
 + (id);
 + (id);
@@ -31,7 +22,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)l;
 - (id);
 - (id);
 - (long long);
@@ -50,7 +41,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -74,32 +65,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)MapsSuggestionsHideSuppressionTimeIntervalForTicketedEventKey;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (_Bool)ROR;
+- (void);
+- (_Bool)GENERIC_SETTINGS_ERROR;
 
 // Remaining properties
-@property long long dmgsProcessed; // @synthesize dmgsProcessed;
-@property unsigned long long flags; // @synthesize flags;
-@property(retain) NSString *humanName; // @synthesize humanName;
-@property(retain) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(readonly) _Bool mountWithAFP;
-@property(readonly) _Bool mountWithSMB;
-@property(readonly) _Bool mountedFromServer;
 @property(retain) NSDictionary *parentLongTermIdentifier; // @synthesize parentLongTermIdentifier=_parentLongTermIdentifier;
-@property(readonly) _Bool requiresUsername;
-@property(retain) NSString *shareName; // @synthesize shareName;
-@property long long sharedSystems; // @synthesize sharedSystems;
-@property(retain) NSMutableSet *timeMachineSystems; // @synthesize timeMachineSystems;
-@property(retain) NSObject<OS_dispatch_queue> *timeMachineSystemsQueue; // @synthesize timeMachineSystemsQueue;
-@property(readonly) _Bool usesGuestAccess;
-@property(readonly) _Bool usesSinglePassword;
 
 @end
 

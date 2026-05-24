@@ -9,7 +9,6 @@
 @interface PHSandboxExtensionWrapper
 {
     NSString *_token;
-    long long _handle;
 }
 
 + (id);

@@ -7,8 +7,6 @@
 @interface TeaUI.RadarCommandHandler
 {
     id component;
-    id attachmentResolver;
-    id sceneProvider;
 }
 
 @end

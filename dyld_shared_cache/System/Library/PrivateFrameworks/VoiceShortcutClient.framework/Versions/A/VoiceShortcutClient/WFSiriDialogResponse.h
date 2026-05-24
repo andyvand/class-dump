@@ -13,8 +13,8 @@
     WFDialogResponse *_dialogResponse;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)__AUTH_CONST;
+- (id)3|;
 - (id);
 - (id);
 - (void);

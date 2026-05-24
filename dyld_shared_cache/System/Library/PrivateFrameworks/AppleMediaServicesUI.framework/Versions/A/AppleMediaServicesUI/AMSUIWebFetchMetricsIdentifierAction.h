@@ -6,25 +6,18 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchMetricsIdentifierAction : AMSUIWebAction
 {
     _Bool _crossDeviceSync;
-    _Bool _generateEventFields;
-    _Bool _provideU13Identifier;
-    ACAccount *_account;
-    NSString *_bagNamespace;
-    NSString *_bagProfile;
-    NSString *_bagProfileVersion;
-    NSString *_identifierKey;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)f %ld seconds);
+- (void)ssfully unsubscribed %@;
+- (void)for assetSelector:(id)arg1 %{public}@ error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)n, manager interface is nil for asset type:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -33,23 +26,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)odourless;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)tAuthorizationController"16@"NSURL"24@?<v@?@"PKPaymentRequestMerchantSessionUpdate">32;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *bagNamespace; // @synthesize bagNamespace=_bagNamespace;
-@property(retain) NSString *bagProfile; // @synthesize bagProfile=_bagProfile;
-@property(retain) NSString *bagProfileVersion; // @synthesize bagProfileVersion=_bagProfileVersion;
-@property _Bool crossDeviceSync; // @synthesize crossDeviceSync=_crossDeviceSync;
-@property _Bool generateEventFields; // @synthesize generateEventFields=_generateEventFields;
-@property(retain) NSString *identifierKey; // @synthesize identifierKey=_identifierKey;
-@property _Bool provideU13Identifier; // @synthesize provideU13Identifier=_provideU13Identifier;
 
 @end
 

@@ -4,46 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUBLEScanner, HAPBTLECentralManager, HMDAccessoryQueues, HMFTimer, NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BTLEScanner
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_scanTimer;
-    CUBLEScanner *_cubleScanner;
-    HAPBTLECentralManager *_centralManager;
-    HMDAccessoryQueues *_scanQueue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)s Signed validation header data:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void)gXw;
+- (void)SgXw;
 - (void)=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsPersonalization.NotificationUserEventHistorySubmissionStartupTask
 {
     id headlineService;
-    id notificationHistory;
-    id userEventHistory;
 }
 
 @end

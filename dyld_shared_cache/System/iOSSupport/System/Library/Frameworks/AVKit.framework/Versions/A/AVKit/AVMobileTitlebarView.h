@@ -6,32 +6,16 @@
 
 #import <AVKit/AVView.h>
 
-@class AVButton, AVMobileContentTag, AVMobileContentTagView, CAGradientLayer, NSAttributedString, NSMutableAttributedString, UILabel, UIView;
-@protocol AVMobileControlsStyleFontsSheet, AVMobileTitlebarViewDelegate;
+@class UIView;
+@protocol AVMobileControlsStyleFontsSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileTitlebarView : AVView
 {
     UIView *_contentContainerView;
-    CAGradientLayer *_contentContainerViewMask;
-    AVMobileContentTagView *_contentTagView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    AVButton *_infoAffordance;
-    NSMutableAttributedString *_titleLabelString;
-    NSMutableAttributedString *_subtitleLabelString;
-    _Bool _showsInfoAffordance;
-    _Bool _showsTitle;
-    _Bool _showsSubtitle;
-    _Bool _showsContentTag;
-    AVMobileContentTag *_contentTag;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    NSAttributedString *_subtitle;
-    NSAttributedString *_title;
-    id <AVMobileTitlebarViewDelegate> _delegate;
 }
 
-- (void);
+- (void)ary identity to identity set for service %@:(id)arg1 %@;
 - (id);
 - (void);
 - (void);
@@ -50,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (id)T;
+- (void)sion",C,N;
+- (_Bool)setQueryContextsByModelType: /* Error: Ran out of types for this method. */;
+- (_Bool)l_encoding, record_v2.model_data, record_v2.model_schema, record_v2.type, record_v2.push_encoding, record_v2.push_data, record_v2.push_block_id, record_v2.uuid FROM record_v2 WHERE store_v2_id=?1 and type=?2;
 - (id);
 - (_Bool);
 - (id);
@@ -61,17 +45,7 @@ __attribute__((visibility("hidden")))
 - (id)tor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileContentTag *contentTag; // @synthesize contentTag=_contentTag;
-@property(nonatomic) __weak id <AVMobileTitlebarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasVisibleContent;
-@property(readonly, nonatomic) AVButton *infoAffordance; // @synthesize infoAffordance=_infoAffordance;
-@property(nonatomic) _Bool showsContentTag; // @synthesize showsContentTag=_showsContentTag;
-@property(nonatomic) _Bool showsInfoAffordance; // @synthesize showsInfoAffordance=_showsInfoAffordance;
-@property(nonatomic) _Bool showsSubtitle; // @synthesize showsSubtitle=_showsSubtitle;
-@property(nonatomic) _Bool showsTitle; // @synthesize showsTitle=_showsTitle;
 @property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(retain, nonatomic) NSAttributedString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSAttributedString *title; // @synthesize title=_title;
 
 @end
 

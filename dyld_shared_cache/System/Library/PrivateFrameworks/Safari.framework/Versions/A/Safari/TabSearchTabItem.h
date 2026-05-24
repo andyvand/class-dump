@@ -6,23 +6,21 @@
 
 #import <Safari/TabSearchItem.h>
 
-@class NSURL, TabSearchTabInfoForFiltering;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TabSearchTabItem : TabSearchItem
 {
     NSURL *_tabURL;
-    TabSearchTabInfoForFiltering *_filteringInfoForTab;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TabSearchTabInfoForFiltering *filteringInfoForTab; // @synthesize filteringInfoForTab=_filteringInfoForTab;
 @property(retain, nonatomic) NSURL *tabURL; // @synthesize tabURL=_tabURL;
 
 @end

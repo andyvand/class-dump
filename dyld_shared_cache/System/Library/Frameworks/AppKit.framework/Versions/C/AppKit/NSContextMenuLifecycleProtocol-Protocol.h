@@ -5,15 +5,18 @@
 //
 
 @class NSObject, NSView;
-@protocol NSContextMenuWindowProtocol, NSMenuLifecycleProtocol;
+@protocol NSMenuLifecycleProtocol;
 
 @protocol NSContextMenuLifecycleProtocol
-- (void)WithOldSize: /* Error: Ran out of types for this method. */;
-- (NSView *)ationIdentifier;
+- (void);
+- (NSObject<NSMenuLifecycleProtocol> *)(trustobject unset);
+- (void)failed;
+- (void);
+- (void)predicateForEventsWithSourceID:bundleID:groupIDs: /* Error: Ran out of types for this method. */;
+- (void)resizeSubviewsWithOldSize: /* Error: Ran out of types for this method. */;
+- (NSView *)conversationIdentifier;
 
 // Remaining properties
-@property(readonly) __weak NSObject<NSMenuLifecycleProtocol> *presentationParent;
 @property(retain, nonatomic) NSView *view;
-@property __weak NSObject<NSContextMenuWindowProtocol> *windowProxy;
 @end
 

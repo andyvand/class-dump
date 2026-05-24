@@ -12,17 +12,14 @@
 @interface _DKCPUUsageMonitor : _DKMonitor
 {
     NSObject<OS_dispatch_source> *_timer;
-    unsigned long long _lastUserTick;
-    unsigned long long _lastIdleTick;
-    unsigned long long _lastSysTick;
-    unsigned long long _lastCPUUsageLevel;
 }
 
 + (id);
-+ (id);
++ (id)x
+;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)tring_view gdc:(unsigned long long *)arg1:typeName() [T = md::ARRotateTowardsUserContext] /* Error: Ran out of types for this method. */;
+- (void)Խ;
 - (void);
 - (void);
 - (void);
@@ -35,18 +32,14 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)H;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long lastCPUUsageLevel; // @synthesize lastCPUUsageLevel=_lastCPUUsageLevel;
-@property(nonatomic) unsigned long long lastIdleTick; // @synthesize lastIdleTick=_lastIdleTick;
-@property(nonatomic) unsigned long long lastSysTick; // @synthesize lastSysTick=_lastSysTick;
-@property(nonatomic) unsigned long long lastUserTick; // @synthesize lastUserTick=_lastUserTick;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
 
 @end

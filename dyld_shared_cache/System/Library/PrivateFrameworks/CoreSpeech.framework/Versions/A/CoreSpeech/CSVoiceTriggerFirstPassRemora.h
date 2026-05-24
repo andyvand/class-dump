@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioProvider, NSMutableDictionary, NSObject, NSString;
-@protocol CSSecondPassProgressDelegate, CSVoiceTriggerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol CSVoiceTriggerDelegate, OS_dispatch_queue;
 
 @interface CSVoiceTriggerFirstPassRemora
 {
     id <CSVoiceTriggerDelegate> _delegate;
-    id <CSSecondPassProgressDelegate> _secondPassProgressDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_remoraSecondPassRequests;
-    NSMutableDictionary *_accessoryFirstPassGoodnessScores;
-    CSAsset *_currentAsset;
-    NSMutableDictionary *_triggeredAudioStreamHoldingByAccessoryId;
-    CSAudioProvider *_triggeredAudioProvider;
 }
 
 - (id);
@@ -24,55 +17,41 @@
 - (void);
 - (void);
 - (void);
+- (void)q:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)F@;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ciContext;
 - (id);
+- (void);
+- (void);
+- (id);
+- (id)A;
+- (void)removeItemAtPath:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void)SoundPlaying;
+- (id)Q;
+- (void)isSoundPlaying;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accessoryFirstPassGoodnessScores; // @synthesize accessoryFirstPassGoodnessScores=_accessoryFirstPassGoodnessScores;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *remoraSecondPassRequests; // @synthesize remoraSecondPassRequests=_remoraSecondPassRequests;
-@property(nonatomic) __weak id <CSSecondPassProgressDelegate> secondPassProgressDelegate; // @synthesize secondPassProgressDelegate=_secondPassProgressDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSAudioProvider *triggeredAudioProvider; // @synthesize triggeredAudioProvider=_triggeredAudioProvider;
-@property(retain, nonatomic) NSMutableDictionary *triggeredAudioStreamHoldingByAccessoryId; // @synthesize triggeredAudioStreamHoldingByAccessoryId=_triggeredAudioStreamHoldingByAccessoryId;
 
 @end
 

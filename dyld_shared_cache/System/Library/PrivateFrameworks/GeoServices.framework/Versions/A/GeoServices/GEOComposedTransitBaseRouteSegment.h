@@ -14,9 +14,9 @@
 + (_Bool)to "%@" - %@;
 - (struct _NSRange);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)extractNicknameFromQuotedContent;
+- (id)cationsAvailableForDefaultAppCategory, %@;
+- (id);
 - (void);
 
 @end

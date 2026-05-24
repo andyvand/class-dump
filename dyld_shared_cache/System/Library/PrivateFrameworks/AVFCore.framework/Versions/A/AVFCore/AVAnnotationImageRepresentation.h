@@ -6,12 +6,11 @@
 
 #import <AVFCore/AVAnnotationRepresentation.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface AVAnnotationImageRepresentation : AVAnnotationRepresentation
 {
     NSData *_imageData;
-    NSString *_fileType;
 }
 
 - (id);
@@ -19,15 +18,15 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)
+;
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
-- (id);
-- (void);
+- (id)setSearchProperties: /* Error: Ran out of types for this method. */;
+- (void)itnAlignmentWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
 @property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end

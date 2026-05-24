@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface NSTableUpdateItem
 {
     unsigned long long _rowAnimation;
-    long long _originalRow;
 }
 
 - (id);
-- (id);
+- (id)!;
 
 @end
 

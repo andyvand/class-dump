@@ -16,18 +16,19 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)>;
 + (id);
 + (void)GFú÷yà øGG_8õ÷yAAy¯¦øy£øy¦øy%ø¨øG_iøQo_G`øy2øSgGGARGQo_;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
+- (id)R;
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool)z
+;
 
 @end
 

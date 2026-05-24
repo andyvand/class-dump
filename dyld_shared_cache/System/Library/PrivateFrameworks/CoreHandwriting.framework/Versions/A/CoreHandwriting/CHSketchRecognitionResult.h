@@ -11,20 +11,18 @@
 @interface CHSketchRecognitionResult : CHRecognitionResult
 {
     NSString *_string;
-    double _rotation;
 }
 
-+ (_Bool);
++ (_Bool)_iOSGroupWrapCount;
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)_SFPBRFReferenceItemButtonCardSection;
 - (_Bool);
-- (void);
+- (void)0;
 - (void)ä=;
 
 // Remaining properties
-@property(readonly) double rotation; // @synthesize rotation=_rotation;
 @property(readonly) NSString *string; // @synthesize string=_string;
 
 @end

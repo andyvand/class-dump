@@ -6,6 +6,9 @@
 
 @protocol HAP2AccessoryServerDelegate
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly, nonatomic) _Bool onDemandConnectionsAreEnabled;
 // Preceding property had unknown attributes: ?

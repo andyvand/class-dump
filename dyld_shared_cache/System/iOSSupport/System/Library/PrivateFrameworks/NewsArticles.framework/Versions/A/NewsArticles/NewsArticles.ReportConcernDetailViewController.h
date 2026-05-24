@@ -7,17 +7,13 @@
 @interface NewsArticles.ReportConcernDetailViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id selectedItemIndexPath;
-    id $__lazy_storage_$_sendButton;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)nteractor;
+- (void)interactor;
 - (void);
 - (void);
 

@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackImageUploadInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientImageUuid;
-    NSString *_imageId;
-    NSString *_imageUploadHttpMethod;
-    NSString *_imageUploadUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientImageUuid:1;
-        unsigned int read_imageId:1;
-        unsigned int read_imageUploadHttpMethod:1;
-        unsigned int read_imageUploadUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)st:(id)arg1;
++ (_Bool)setIsWidgetRequest:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void)_enabledPersistentAccountsObservable;
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setUserInfo: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -53,22 +37,14 @@
 - (id);
 - (void);
 - (id)ingOn"b1};
-- (id)ters:error: /* Error: Ran out of types for this method. */;
+- (id)applyToAutocompleteParameters:error: /* Error: Ran out of types for this method. */;
 - (id)XxyàyPz;
-- (id)PathLeg;
+- (id)includeRoutingPathLeg;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientImageUuid;
-@property(readonly, nonatomic) _Bool hasClientImageUuid;
 @property(readonly, nonatomic) _Bool hasImageId;
-@property(readonly, nonatomic) _Bool hasImageUploadHttpMethod;
-@property(readonly, nonatomic) _Bool hasImageUploadUrl;
-@property(retain, nonatomic) NSString *imageId;
-@property(retain, nonatomic) NSString *imageUploadHttpMethod;
-@property(retain, nonatomic) NSString *imageUploadUrl;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

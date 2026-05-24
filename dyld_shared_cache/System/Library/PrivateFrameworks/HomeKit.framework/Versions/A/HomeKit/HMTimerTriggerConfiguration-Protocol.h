@@ -4,17 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateComponents, NSString, NSTimeZone;
+@class NSDate, NSDateComponents, NSTimeZone;
 
 @protocol HMTimerTriggerConfiguration
-- (NSTimeZone *)entifier;
+- (void)terpolation, externalGeneratorDataHash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+- (void)=?, interpolation=?, externalGeneratorDataHash=? WHERE rowid=?;
+- (void)uffer_length=?, flavor=?, content_rect=?, icon_variant=?, interpolation=?, externalGeneratorDataHash=? WHERE rowid=?;
+- (void)ata_location, bitmapdata_length, plistbuffer_location, plistbuffer_length FROM thumbnails WHERE file_id=? AND size=? AND icon_mode=? AND badge_type=? AND icon_variant=? AND interpolation=? AND externalGeneratorDataHash=?;
+- (void)externalGeneratorDataHash=?;
+- (void)9;
+- (NSDateComponents *);
+- (NSDateComponents *);
+- (NSTimeZone *)parentIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *fireDate;
-@property(readonly, copy, nonatomic) NSDateComponents *recurrence;
-@property(readonly, copy, nonatomic) NSArray *recurrences;
-@property(readonly, copy, nonatomic) NSString *significantEvent;
-@property(readonly, copy, nonatomic) NSDateComponents *significantEventOffset;
-@property(readonly, copy, nonatomic) NSTimeZone *timeZone;
 @end
 

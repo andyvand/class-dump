@@ -9,7 +9,6 @@
 @interface BUAppDataContainer
 {
     struct container_object_s *_container;
-    struct container_query_s *_containerQuery;
 }
 
 - (id);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)barcodeImageWithType:isExpiredOrInvalid: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url;

@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValue64Pair
 {
     NSString *_key;
-    unsigned long long _value;
-    CDStruct_38ef1b98 _flags;
 }
 
 - (id);
-- (void);
+- (void)ClearPrototypeCachesForMigration;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id)b1"read_alternativeString"b1"read_formatArguments"b1"read_formatStrings"b1"read_formatStyles"b1"read_metaData"b1"read_separators"b1"wrote_anyField"b1};
-- (id)FromManeuver;
+- (id)_positionFromManeuver;
 - (id)
 dLl¬HÜ¬ìì,È\,l$;
 - (void);

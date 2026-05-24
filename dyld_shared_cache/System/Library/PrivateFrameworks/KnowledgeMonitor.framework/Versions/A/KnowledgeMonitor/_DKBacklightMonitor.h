@@ -6,17 +6,13 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMSource, NSTimer;
-
 @interface _DKBacklightMonitor : _DKMonitor
 {
     int notifyToken;
-    BMSource *_source;
-    CDUnknownBlockType _shutdownHandler;
-    NSTimer *_lastAliveDateTimer;
 }
 
-+ (id);
++ (id)lteredLog)
+;
 + (_Bool);
 + (id);
 + (id);
@@ -25,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Set shield idiom:(id)arg1 %ld;
 - (void);
 - (void);
 - (id);
@@ -36,12 +32,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id);
+- (void)P;
 - (void);
-- (void);
 - (id);
-- (void);
+- (void))h;
 - (void);
 
 @end

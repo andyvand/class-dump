@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface EDHeaderFooter
 {
     NSString *mHeaderString;
-    NSString *mFooterString;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (void)ì(;

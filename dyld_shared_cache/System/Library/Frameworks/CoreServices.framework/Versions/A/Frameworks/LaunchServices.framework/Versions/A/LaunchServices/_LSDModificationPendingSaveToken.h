@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSUUID;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _LSDModificationPendingSaveToken
 {
     NSMutableArray *_waiters;
-    NSUUID *_uuid;
-    struct optional<NSError *> _saveError;
-    struct unfair_lock_mutex _mutex;
 }
 
 - (void);
@@ -22,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorGroupContext, NSString;
+@class NSString;
 
 @interface BlastDoorSyndicationAction
 {
@@ -13,7 +13,7 @@
 
 - (struct _NSRange);
 - (unsigned long long);
-- (id);
+- (id)32@0:8@"CNContactPickerViewController"16@"CNContactProperty"24 /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (id);
 - (id);
@@ -23,14 +23,7 @@
 - (unsigned char);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned char actionType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long encodedSyndicationStartDate;
-@property(nonatomic, readonly) BlastDoorGroupContext *groupContext;
-@property(nonatomic, readonly) unsigned char itemType;
-@property(nonatomic, readonly) NSString *messagePartGUID;
-@property(nonatomic, readonly) struct _NSRange syndicatedMessagePartRange;
-@property(nonatomic, readonly) unsigned char version;
 
 @end
 

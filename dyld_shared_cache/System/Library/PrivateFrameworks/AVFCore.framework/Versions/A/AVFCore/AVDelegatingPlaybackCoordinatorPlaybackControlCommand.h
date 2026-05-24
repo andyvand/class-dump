@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCoordinatedPlaybackParticipant, NSString;
+@class AVCoordinatedPlaybackParticipant;
 
 @interface AVDelegatingPlaybackCoordinatorPlaybackControlCommand
 {
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)0ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *expectedCurrentItemIdentifier;
 @property(readonly, nonatomic) AVCoordinatedPlaybackParticipant *originator;
 
 @end

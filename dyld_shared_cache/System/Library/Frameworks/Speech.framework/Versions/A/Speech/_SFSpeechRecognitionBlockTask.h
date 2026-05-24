@@ -9,10 +9,9 @@
 @interface _SFSpeechRecognitionBlockTask : SFSpeechRecognitionTask
 {
     CDUnknownBlockType _resultHandler;
-    _Bool _hasFiredFinalResult;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

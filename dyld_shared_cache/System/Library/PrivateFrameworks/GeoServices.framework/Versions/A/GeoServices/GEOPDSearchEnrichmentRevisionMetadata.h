@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchEnrichmentRevisionMetadata
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _revisionTypeLists;
-    int _revisionType;
-    struct {
-        unsigned int has_revisionType:1;
-    } _flags;
 }
 
-- (void);
+- (void)$SVz!
+;
 - (id);
-- (void);
+- (void)oxyForSettings:(id)arg1 instead.;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)s"b1"read_speedInfo"b1"read_trafficControlDeviceInfo"b1"wrote_anyField"b1};
-- (id)chResponses;
+- (id)_placeSearchResponses;
 - (id)QäQxRLS@TUVÜVÐW¤XYlZ`[4\´\]Ø]\^¤^_¤`$abb8c¼c;
 - (void)h$B#Ø(H@;
 

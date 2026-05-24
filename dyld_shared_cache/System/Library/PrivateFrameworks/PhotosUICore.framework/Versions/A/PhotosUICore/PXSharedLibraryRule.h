@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface PXSharedLibraryRule
 {
     long long _autoSharePolicy;
-    NSDate *_startDate;
-    NSArray *_personUUIDs;
-    NSArray *_assetLocalIdentifiers;
 }
 
 + (id);
@@ -21,18 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)~;
 - (id);
 - (id);
 - (id);
-- (id)rePercentileThreshold:(struct _NSZone *)arg1;
+- (id)setCurationScorePercentileThreshold:(struct _NSZone *)arg1;
 - (void)q3µ¤;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *assetLocalIdentifiers; // @synthesize assetLocalIdentifiers=_assetLocalIdentifiers;
 @property(readonly, nonatomic) long long autoSharePolicy; // @synthesize autoSharePolicy=_autoSharePolicy;
-@property(readonly, copy, nonatomic) NSArray *personUUIDs; // @synthesize personUUIDs=_personUUIDs;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

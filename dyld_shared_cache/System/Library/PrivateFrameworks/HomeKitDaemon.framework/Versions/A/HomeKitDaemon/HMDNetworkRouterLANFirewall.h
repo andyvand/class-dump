@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterLANFirewall
 {
     long long _type;
 }
 
-+ (id);
++ (id)momentNodesWithSearchConfidenceAssets;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)?;
 - (_Bool);
 - (_Bool);
 - (id)isKindOfClass:(struct _NSZone *)arg1;
@@ -24,13 +22,6 @@ __attribute__((visibility("hidden")))
 - (id)a system grouping;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -7,8 +7,6 @@
 @interface PGElectedSocialGroup
 {
     id socialGroup;
-    id assetCount;
-    id score;
 }
 
 - (id);

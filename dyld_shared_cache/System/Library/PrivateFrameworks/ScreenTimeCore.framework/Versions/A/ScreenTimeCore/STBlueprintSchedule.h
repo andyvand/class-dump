@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, STBlueprint, STBlueprintScheduleRepresentation;
-@protocol STSerializableManagedObject;
+@class NSDate;
 
 @interface STBlueprintSchedule
 {
 }
 
++ (id);
 + (id);
 + (id);
++ (id)ublic}@ Using existing delegation token for identity %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)LL DEFAULT '');
+- (void)', store_artwork_token TEXT NOT NULL DEFAULT '');
+- (void)_version = 1160160;;
+- (id)1160100;;
+- (_Bool)artist;
+- (id)n = 1140170;;
+- (id)ULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
+- (_Bool)home_sharing_id;
+- (void)NULL DEFAULT 0, is_streaming_quality INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
+- (_Bool)T 0, total_time_ms REAL NOT NULL DEFAULT 0, year INTEGER DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_temporary_cloud_download INTEGER NOT NULL DEFAULT 0, is_streaming_quality INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
+- (_Bool)INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,33 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) STBlueprint *blueprint; // @dynamic blueprint;
-@property(copy, nonatomic) NSString *calendarIdentifier; // @dynamic calendarIdentifier;
-@property(retain, nonatomic) NSDate *day0End; // @dynamic day0End;
 @property(retain, nonatomic) NSDate *day0Start; // @dynamic day0Start;
-@property(retain, nonatomic) NSDate *day1End; // @dynamic day1End;
-@property(retain, nonatomic) NSDate *day1Start; // @dynamic day1Start;
-@property(retain, nonatomic) NSDate *day2End; // @dynamic day2End;
-@property(retain, nonatomic) NSDate *day2Start; // @dynamic day2Start;
-@property(retain, nonatomic) NSDate *day3End; // @dynamic day3End;
-@property(retain, nonatomic) NSDate *day3Start; // @dynamic day3Start;
-@property(retain, nonatomic) NSDate *day4End; // @dynamic day4End;
-@property(retain, nonatomic) NSDate *day4Start; // @dynamic day4Start;
-@property(retain, nonatomic) NSDate *day5End; // @dynamic day5End;
-@property(retain, nonatomic) NSDate *day5Start; // @dynamic day5Start;
-@property(retain, nonatomic) NSDate *day6End; // @dynamic day6End;
-@property(retain, nonatomic) NSDate *day6Start; // @dynamic day6Start;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @dynamic enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *notificationTimeInterval; // @dynamic notificationTimeInterval;
-@property(retain, nonatomic) STBlueprintScheduleRepresentation *scheduleRepresentation;
-@property(readonly) Class superclass;
-@property(readonly) id <STSerializableManagedObject> syncableRootObject;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)imumOffsetWasInvalidated:(id)arg1;
+- (void)set_rubberBandExtentBeyondMaximumOffsetWasInvalidated:(id)arg1;
 - (id);
 - (void);
 - (id)|ÿ;

@@ -6,34 +6,25 @@
 
 #import <CallHistory/CHDelegateManager.h>
 
-@class CHNotifyObserver, NSObject;
-@protocol CHDeviceDataSource, OS_dispatch_queue;
-
 @interface CHDeviceObserver : CHDelegateManager
 {
     _Bool _bootLockEnabled;
-    id <CHDeviceDataSource> _dataSource;
-    CHNotifyObserver *_firstUnlockNotifyObserver;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (_Bool);
+- (_Bool)ror">52;
+- (id)fileDescriptor;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isBootLockEnabled) _Bool bootLockEnabled; // @synthesize bootLockEnabled=_bootLockEnabled;
-@property(readonly, nonatomic) id <CHDeviceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) CHNotifyObserver *firstUnlockNotifyObserver; // @synthesize firstUnlockNotifyObserver=_firstUnlockNotifyObserver;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

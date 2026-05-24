@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol IMKTextInput
+- (void);
+- (NSString *)%s:calloc failed!
+ /* Error: Ran out of types for this method. */;
 - (struct _NSRange)ìÐ!l@ù±=1Â0@ù
 × ;
 @end

@@ -20,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int exifOrientation; // @synthesize exifOrientation;
 @property(retain, nonatomic) NSSet *renditions; // @dynamic renditions;
 
 @end

@@ -11,7 +11,6 @@
 @interface MSFlagTriageAction : MSFlagChangeTriageAction
 {
     NSNumber *_flagColor;
-    unsigned long long _cachedFlagState;
 }
 
 - (void);
@@ -22,11 +21,10 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)e not 0 bytes.;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cachedFlagState; // @synthesize cachedFlagState=_cachedFlagState;
-@property(retain, nonatomic) NSNumber *flagColor; // @synthesize flagColor=_flagColor;
 
 @end
 

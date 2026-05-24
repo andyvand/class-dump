@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInput, NSDictionary;
+@class AVAssetWriterInput;
 
 @interface AVAssetWriterInputTaggedPixelBufferGroupAdaptor
 {
     AVAssetWriterInput *_input;
 }
 
-+ (id);
++ (id)h;
 - (id);
 - (id);
 - (void);
@@ -23,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AVAssetWriterInput *assetWriterInput;
-@property(readonly, nonatomic) struct __CVPixelBufferPool *pixelBufferPool;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
 
 @end
 

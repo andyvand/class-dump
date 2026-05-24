@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)led to encode with coder {error:%{public}@} /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id)ve}.7lf, %{sensitive}.7lf),EndLocation,(%{sensitive}.7lf, %{sensitive}.7lf);

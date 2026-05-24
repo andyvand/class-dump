@@ -6,47 +6,18 @@
 
 #import <NetworkExtension/NEVPNProtocolIPSec.h>
 
-@class NEVPNIKEv2PPKConfiguration, NEVPNIKEv2SecurityAssociationParameters, NSArray, NSString;
+@class NSString;
 
 @interface NEVPNProtocolIKEv2 : NEVPNProtocolIPSec
 {
     _Bool _useConfigurationAttributeInternalIPSubnet;
-    _Bool _disableMOBIKE;
-    _Bool _disableRedirect;
-    _Bool _enablePFS;
-    _Bool _allowPostQuantumKeyExchangeFallback;
-    _Bool _enableRevocationCheck;
-    _Bool _strictRevocationCheck;
-    _Bool _enableFallback;
-    _Bool _wakeForRekey;
-    _Bool _strictAlgorithmSelection;
-    _Bool _opportunisticPFS;
-    _Bool _disableInitialContact;
-    int _natKeepAliveOffloadEnable;
-    int _natKeepAliveOffloadInterval;
-    int _disableMOBIKERetryOnWake;
-    long long _deadPeerDetectionRate;
-    NSString *_serverCertificateIssuerCommonName;
-    NSString *_serverCertificateCommonName;
-    long long _certificateType;
-    NEVPNIKEv2SecurityAssociationParameters *_IKESecurityAssociationParameters;
-    NEVPNIKEv2SecurityAssociationParameters *_childSecurityAssociationParameters;
-    long long _minimumTLSVersion;
-    long long _maximumTLSVersion;
-    unsigned long long _mtu;
-    NEVPNIKEv2PPKConfiguration *_ppkConfiguration;
-    NSString *_pluginType;
-    NSArray *_IKESecurityAssociationParametersArray;
-    NSArray *_childSecurityAssociationParametersArray;
-    NSString *_providerBundleIdentifier;
-    long long _tunnelKind;
 }
 
-+ (_Bool);
++ (_Bool)setUpgradedTrafficClass: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -71,7 +42,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -80,7 +51,7 @@
 - (int);
 - (int);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -107,37 +78,10 @@
 - (void);
 - (_Bool)setSendFailedTimer:(id)arg1;
 - (id)ePacketFromFragmentMap:(int)arg1 ikeSA:(unsigned long long)arg2 ];
-- (unsigned long long)2RelayURL;
+- (unsigned long long)HTTP2RelayURL;
 
 // Remaining properties
-@property(readonly) NEVPNIKEv2SecurityAssociationParameters *IKESecurityAssociationParameters; // @synthesize IKESecurityAssociationParameters=_IKESecurityAssociationParameters;
-@property(retain) NSArray *IKESecurityAssociationParametersArray; // @synthesize IKESecurityAssociationParametersArray=_IKESecurityAssociationParametersArray;
-@property _Bool allowPostQuantumKeyExchangeFallback; // @synthesize allowPostQuantumKeyExchangeFallback=_allowPostQuantumKeyExchangeFallback;
-@property long long certificateType; // @synthesize certificateType=_certificateType;
-@property(readonly) NEVPNIKEv2SecurityAssociationParameters *childSecurityAssociationParameters; // @synthesize childSecurityAssociationParameters=_childSecurityAssociationParameters;
-@property(retain) NSArray *childSecurityAssociationParametersArray; // @synthesize childSecurityAssociationParametersArray=_childSecurityAssociationParametersArray;
-@property long long deadPeerDetectionRate; // @synthesize deadPeerDetectionRate=_deadPeerDetectionRate;
-@property _Bool disableInitialContact; // @synthesize disableInitialContact=_disableInitialContact;
-@property _Bool disableMOBIKE; // @synthesize disableMOBIKE=_disableMOBIKE;
-@property int disableMOBIKERetryOnWake; // @synthesize disableMOBIKERetryOnWake=_disableMOBIKERetryOnWake;
-@property _Bool disableRedirect; // @synthesize disableRedirect=_disableRedirect;
-@property _Bool enableFallback; // @synthesize enableFallback=_enableFallback;
-@property _Bool enablePFS; // @synthesize enablePFS=_enablePFS;
-@property _Bool enableRevocationCheck; // @synthesize enableRevocationCheck=_enableRevocationCheck;
-@property long long maximumTLSVersion; // @synthesize maximumTLSVersion=_maximumTLSVersion;
-@property long long minimumTLSVersion; // @synthesize minimumTLSVersion=_minimumTLSVersion;
-@property unsigned long long mtu; // @synthesize mtu=_mtu;
-@property int natKeepAliveOffloadEnable; // @synthesize natKeepAliveOffloadEnable=_natKeepAliveOffloadEnable;
-@property int natKeepAliveOffloadInterval; // @synthesize natKeepAliveOffloadInterval=_natKeepAliveOffloadInterval;
-@property _Bool opportunisticPFS; // @synthesize opportunisticPFS=_opportunisticPFS;
 @property(readonly) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(copy) NEVPNIKEv2PPKConfiguration *ppkConfiguration; // @synthesize ppkConfiguration=_ppkConfiguration;
-@property(copy) NSString *providerBundleIdentifier; // @synthesize providerBundleIdentifier=_providerBundleIdentifier;
-@property(copy) NSString *serverCertificateCommonName; // @synthesize serverCertificateCommonName=_serverCertificateCommonName;
-@property(copy) NSString *serverCertificateIssuerCommonName; // @synthesize serverCertificateIssuerCommonName=_serverCertificateIssuerCommonName;
-@property _Bool strictRevocationCheck; // @synthesize strictRevocationCheck=_strictRevocationCheck;
-@property long long tunnelKind; // @synthesize tunnelKind=_tunnelKind;
-@property _Bool useConfigurationAttributeInternalIPSubnet; // @synthesize useConfigurationAttributeInternalIPSubnet=_useConfigurationAttributeInternalIPSubnet;
 
 @end
 

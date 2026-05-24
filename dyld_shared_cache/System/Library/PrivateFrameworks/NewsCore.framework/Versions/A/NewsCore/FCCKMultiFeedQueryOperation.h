@@ -6,28 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, NSArray, NSError;
+@class FCCKContentDatabase;
 
 @interface FCCKMultiFeedQueryOperation : FCOperation
 {
     FCCKContentDatabase *_database;
-    NSArray *_feedRequests;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
-    long long _sortingFunction;
-    unsigned long long _queryPriority;
-    NSArray *_articleLinkKeys;
-    CDUnknownBlockType _queryCompletionHandler;
-    NSArray *_networkEvents;
-    NSArray *_resultFeedItemAndArticleRecords;
-    NSArray *_resultTagRecords;
-    NSArray *_resultIssueRecords;
-    NSArray *_resultFeedResponses;
-    NSError *_resultError;
 }
 
 - (void);
-- (void);
+- (void)!9h;
 - (void)eaturedArticlesOperation validateOperation];
 - (void)ill skip News Edge because there's no config manager;
 - (void)g shortcuts onboarding state local record to remote;

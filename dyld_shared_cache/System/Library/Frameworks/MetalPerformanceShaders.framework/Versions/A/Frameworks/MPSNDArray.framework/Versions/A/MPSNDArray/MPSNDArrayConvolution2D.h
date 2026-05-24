@@ -6,36 +6,9 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSExternalNDArrayBinary, MPSNDArrayIdentity, MPSNDArrayQuantizationDescriptor, NSArray;
-
 @interface MPSNDArrayConvolution2D : MPSNDArrayMultiaryKernel
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _groups;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _channelMultiplier;
-    unsigned int _dataFormat;
-    unsigned int _srcDataFormat;
-    unsigned int _weightsFormat;
-    struct MPSNDArrayConvolutionOffsets _offsets;
-    MPSExternalNDArrayBinary *_plugin;
-    MPSNDArrayIdentity *_ndArrayIdentity;
-    MPSNDArrayQuantizationDescriptor *_dataQuantizationDescriptor;
-    MPSNDArrayQuantizationDescriptor *_weightsQuantizationDescriptor;
-    NSArray *_quantizationNDArrays;
-    _Bool _forcePlugin;
-    void *_autoTuningParams;
-    int _autoTuningTarget;
-    long long _autoTuneIteration;
-    long long _nextAutoTuneIteration;
-    _Bool _logNextAutoTuneParams;
-    _Bool _allowFP16WinogradTransformIntermediate;
 }
 
 + (_Bool);
@@ -52,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (struct MPSNDArrayConvolutionSizes);
+- (struct MPSNDArrayConvolutionSizes)P;
 - (unsigned long long);
 - (id);
 - (id);
@@ -60,7 +33,7 @@
 - (id);
 - (id);
 - (struct MPSNDArrayConvolutionSizes);
-- (id);
+- (id)8;
 - (id);
 - (unsigned int);
 - (long long);
@@ -77,18 +50,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) long long autoTuneIteration; // @synthesize autoTuneIteration=_autoTuneIteration;
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes dilationRates;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
 @property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes kernelSizes;
-@property(nonatomic) _Bool logNextAutoTuneParams; // @synthesize logNextAutoTuneParams=_logNextAutoTuneParams;
-@property(nonatomic) struct MPSNDArrayConvolutionOffsets offsets;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) struct MPSNDArrayConvolutionSizes strideInPixels;
-@property(readonly, nonatomic) unsigned int weightsFormat; // @synthesize weightsFormat=_weightsFormat;
 
 @end
 

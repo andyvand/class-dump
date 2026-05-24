@@ -9,7 +9,7 @@
     id rasterizationPercent;
 }
 
-- (void);
+- (void)P);
 - (id);
 - (_Bool);
 - (id);

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DIMSchemaDIMDataSharingSettings : SISchemaInstrumentationMessage
 {
     _Bool _isDiagnosticsAndUsageEnabled;
-    _Bool _isAppAnalyticsEnabled;
-    struct {
-        unsigned int isDiagnosticsAndUsageEnabled:1;
-        unsigned int isAppAnalyticsEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -26,24 +19,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)XR;
 - (void);
-- (unsigned long long);
+- (unsigned long long)Tx;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id)roundTruthGenerated";
-- (void)ported:(_Bool)arg1;
-- (id)lientEventV2;
+- (void)setHasAssetBringUpDigestsReported:(_Bool)arg1;
+- (id)MTSchemaMTClientEventV2;
 - (id)p6\7;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAppAnalyticsEnabled;
-@property(nonatomic) _Bool hasIsDiagnosticsAndUsageEnabled;
-@property(nonatomic) _Bool isAppAnalyticsEnabled; // @synthesize isAppAnalyticsEnabled=_isAppAnalyticsEnabled;
 @property(nonatomic) _Bool isDiagnosticsAndUsageEnabled; // @synthesize isDiagnosticsAndUsageEnabled=_isDiagnosticsAndUsageEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

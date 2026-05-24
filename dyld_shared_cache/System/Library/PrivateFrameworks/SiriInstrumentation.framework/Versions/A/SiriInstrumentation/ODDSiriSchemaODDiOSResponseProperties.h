@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDiOSResponseProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAlwaysShowSiriCaptionsEnabled;
-    _Bool _isAlwaysShowSpeechEnabled;
-    struct {
-        unsigned int isAlwaysShowSiriCaptionsEnabled:1;
-        unsigned int isAlwaysShowSpeechEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -39,11 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAlwaysShowSiriCaptionsEnabled;
-@property(nonatomic) _Bool hasIsAlwaysShowSpeechEnabled;
 @property(nonatomic) _Bool isAlwaysShowSiriCaptionsEnabled; // @synthesize isAlwaysShowSiriCaptionsEnabled=_isAlwaysShowSiriCaptionsEnabled;
-@property(nonatomic) _Bool isAlwaysShowSpeechEnabled; // @synthesize isAlwaysShowSpeechEnabled=_isAlwaysShowSpeechEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol DDSCache
+- (void)T[;
+- (id):(id)arg1 8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40i72q76B84;
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableArray, PXFocusTimelineEvent, UXImageView, UXView;
-@protocol PXFocusTimelineViewDelegate;
+@class NSMutableArray;
 
 @interface PXFocusTimelineView
 {
     NSMutableArray *_focusEvents;
-    NSMutableArray *_animatableFocusEvents;
-    UXImageView *_trackImageView;
-    UXView *_focusEventsView;
-    UXView *_progressView;
-    CDStruct_1b6d18a9 _currentTrackingTime;
-    PXFocusTimelineEvent *_objectTrackingEvent;
-    _Bool _zoomed;
-    double _zoomMinValue;
-    double _zoomMaxValue;
-    _Bool _skipLayoutUpdates;
-    _Bool _dimmed;
-    _Bool _viewCanBeEnabled;
-    id <PXFocusTimelineViewDelegate> _delegate;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (_Bool);
@@ -43,7 +28,7 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
@@ -57,22 +42,16 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)?;
 - (id);
 - (void);
 - (id)iIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56^d88;
 - (void);
-- (CDStruct_e83c9415)GenSearchTipMessage;
+- (CDStruct_e83c9415)LemonadeGenSearchTipMessage;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *autoFocusEventMarkerImage;
-@property(nonatomic) __weak id <PXFocusTimelineViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(nonatomic) _Bool skipLayoutUpdates; // @synthesize skipLayoutUpdates=_skipLayoutUpdates;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
-@property(readonly, nonatomic) NSImage *userInitiatedFocusEventMarkerImage;
 @property(nonatomic) _Bool viewCanBeEnabled; // @synthesize viewCanBeEnabled=_viewCanBeEnabled;
 
 @end

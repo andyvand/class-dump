@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileChromelessFluidSliderDelegate
+
+@optional
+- (void);
 @end
 

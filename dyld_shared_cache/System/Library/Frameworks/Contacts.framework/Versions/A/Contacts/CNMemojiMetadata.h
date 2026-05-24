@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPhysicalizedPose, CNMemojiBackgroundParameters, NSString;
 @protocol AVTAvatarRecord;
 
 @interface CNMemojiMetadata
 {
     id <AVTAvatarRecord> _avatarRecord;
-    NSString *_poseName;
-    AVTAvatarPhysicalizedPose *_pose;
-    NSString *_backgroundColorDescription;
-    CNMemojiBackgroundParameters *_backgroundParameters;
-    struct CGAffineTransform _cropTransform;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)TD;
+- (id)5;
+- (id)k,;
 - (id);
 - (struct CGAffineTransform);
 - (id);
@@ -33,9 +27,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)T;
+- (id)LAUserLockState;
+- (id)SceneClientIdentity.m;
 - (id);
 - (_Bool);
 - (void);

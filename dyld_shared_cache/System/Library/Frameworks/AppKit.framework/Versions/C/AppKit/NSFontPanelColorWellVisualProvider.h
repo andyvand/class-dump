@@ -6,55 +6,43 @@
 
 #import <AppKit/NSColorWellAppearanceBasedVisualProvider.h>
 
-@class NSButton, NSColor, NSColorWell, NSImage, NSString, _NSDrawingHandlerView;
-
 @interface NSFontPanelColorWellVisualProvider : NSColorWellAppearanceBasedVisualProvider
 {
     long long colorWellType;
-    NSColor *primaryColor;
-    NSColor *secondaryColor;
-    id $__lazy_storage_$_rendersButtonBezel;
-    _Bool isToolbarWell;
-    _NSDrawingHandlerView *colorRenderer;
-    id $__lazy_storage_$_solariumMetrics;
-    id $__lazy_storage_$_bezelRenderingButton;
-    struct CGSize minIntrinsicSize;
-    void symbolNameCharacter;
-    void symbolNameDocument;
 }
 
+- (id)set_enablesL4SInternal: /* Error: Ran out of types for this method. */;
+- (id)set_enableOAuthBearerTokenChallenges: /* Error: Ran out of types for this method. */;
+- (id)set_effectiveConfiguration: /* Error: Ran out of types for this method. */;
+- (double)set_disableBackgroundRetry:(struct CGRect)arg1;
+- (id)set_disableAPWakeOnIdleConnections: /* Error: Ran out of types for this method. */;
+- (void)_priorityValue;
+- (void)_isUnlistedTracker;
+- (void)_explicitlySetAllowsCellularAccess;
+- (void)_dataTransferReport;
+- (void)URLSession:(_Bool)arg1 task:needNewBodyStream: /* Error: Ran out of types for this method. */;
+- (void)pOnceConnected;
+- (void);
+- (void);
+- (void);
+- (_Bool)orTask:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize)actionToPath for task %@.  Error=%@ [%ld];
+- (struct CGSize)se of error:%@ [%ld] /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool)_onqueue_informationalResponseArrived;
+- (id)nvalid name;
+- (long long)CFArray}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
+- (_Bool)SecTrust}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
+- (struct NSEdgeInsets)?<v@?B{shared_ptr<__SecTrust>=^{__SecTrust}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
+- (id)ust>"16@?<v@?B>24;
+- (id);
 - (id);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (struct NSEdgeInsets);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)6&1;
+- (void):(id)arg1 yG;
+- (_Bool)2v0;
 - (unsigned long long);
 - (id);
 - (id);
@@ -68,31 +56,7 @@
 - (void)óÿ­¡ä9H;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, retain) NSButton *bezelRenderingButton;
-@property(nonatomic, readonly) _Bool colorIsSelected;
-@property(nonatomic, retain) _NSDrawingHandlerView *colorRenderer; // @synthesize colorRenderer;
-@property(nonatomic, readonly) struct NSEdgeInsets colorSwatchEdgeInsets;
-@property(nonatomic, readonly) _Bool colorSwatchIsRound;
 @property(nonatomic) long long colorWellType; // @synthesize colorWellType;
-@property(nonatomic, readonly) NSColor *contrastColor;
-@property(nonatomic) unsigned long long controlSize;
-@property(nonatomic, retain) NSColorWell *controlView;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool isToolbarWell; // @synthesize isToolbarWell;
-@property(nonatomic, readonly) struct CGSize minIntrinsicSize; // @synthesize minIntrinsicSize;
-@property(nonatomic, readonly) struct CGSize minimumDrawingSize;
-@property(nonatomic, readonly) NSColor *preferredSwatchColor;
-@property(nonatomic, retain) NSColor *primaryColor; // @synthesize primaryColor;
-@property(nonatomic) _Bool rendersButtonBezel;
-@property(nonatomic, retain) NSColor *secondaryColor; // @synthesize secondaryColor;
-@property(nonatomic) _Bool solariumMetrics;
-@property(nonatomic, readonly) NSColor *swatchColor;
-@property(nonatomic, readonly) NSColor *symbolColor;
-@property(nonatomic, readonly) NSImage *symbolImage;
-@property(nonatomic, readonly) NSString *symbolName;
-@property(nonatomic, readonly) NSString *symbolNameCharacter;
-@property(nonatomic, readonly) NSString *symbolNameDocument;
 
 @end
 

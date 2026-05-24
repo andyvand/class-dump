@@ -5,5 +5,13 @@
 //
 
 @protocol IDSStunCandidatePairDelegate
+- (void);
+- (void));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_;
+- (long long)7 ;
 @end
 

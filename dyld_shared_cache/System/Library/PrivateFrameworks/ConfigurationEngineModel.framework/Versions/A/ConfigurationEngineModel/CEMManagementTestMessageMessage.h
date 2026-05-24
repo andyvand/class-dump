@@ -15,25 +15,18 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)__objc_superrefs__DATA_CONST;
 + (id);
 + (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)synthesisProviderVoice;
+- (id)sis20SharedVGGishProviderP;
+- (void)CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/d1_clnt.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadEcho; // @synthesize payloadEcho=_payloadEcho;
-@property(readonly) Class superclass;
 
 @end
 

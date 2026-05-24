@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INAlarm, NSString;
-
 @interface INCreateAlarmIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_drawWithRendererBlock;
 + (int);
 + (long long);
 + (_Bool);
@@ -27,24 +25,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)_GCSystemButtonServerConnection;
 - (id);
-- (id);
-- (void);
+- (void)b0d9;
 - (id);
 - (id);
 - (long long)_INPBSendMessageIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INAlarm *createdAlarm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long successCode;
-@property(readonly) Class superclass;
 
 @end
 

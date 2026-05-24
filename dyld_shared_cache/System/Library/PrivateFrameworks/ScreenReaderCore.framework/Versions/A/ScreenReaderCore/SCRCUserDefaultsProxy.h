@@ -12,26 +12,18 @@ __attribute__((visibility("hidden")))
 @interface SCRCUserDefaultsProxy : SCRCUserDefaultsBase
 {
     NSString *_prefix;
-    NSString *_name;
-    NSString *_key;
-    NSString *_domain;
-    NSString *_pdomain;
-    _Bool _dirty;
-    _Bool _profilable;
-    id _data;
-    long long _prefixLength;
 }
 
 + (_Bool);
+- (id).m;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)__AUTH_CONST;
 
 @end
 

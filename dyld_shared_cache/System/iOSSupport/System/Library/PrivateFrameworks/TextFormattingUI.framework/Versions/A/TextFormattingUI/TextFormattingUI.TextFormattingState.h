@@ -8,37 +8,6 @@
 {
     id _groups;
     id _useLandscapeLayout;
-    id _recentFonts;
-    id _formattingDescriptor;
-    id _formattingStyles;
-    id _emphasisStyles;
-    id _isFormattingUITextView;
-    id _disabledComponents;
-    id isTextAnimationsUI;
-    id isInRemotePresentation;
-    id isInPopoverPresentation;
-    id hasParentViewController;
-    id useReducedMetrics;
-    id includeDefaultFont;
-    id initialUpdateOfRecentFontsCompleted;
-    id cancellables;
-    id $__lazy_storage_$_configForRecents;
-    id _layout;
-    id _uiConfig;
-    id _availableWidth;
-    id _idealHeight;
-    id _hasParentBottomSafeAreaInset;
-    id colorPickerRect;
-    id largestFontSizeInFormattingStyles;
-    id allHighlightStyles;
-    id didChangeValue;
-    id close;
-    id contentSizeDidUpdate;
-    id pickFont;
-    id pickColor;
-    id showTypographySettings;
-    id _highlightPreviewImages;
-    id renderTask;
 }
 
 @end

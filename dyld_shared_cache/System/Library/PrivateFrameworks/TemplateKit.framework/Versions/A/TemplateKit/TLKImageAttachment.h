@@ -7,16 +7,14 @@
 @interface TLKImageAttachment
 {
     _Bool _isPlaceholder;
-    struct CGSize _size;
 }
 
 - (void);
 - (struct CGSize);
-- (void);
+- (void)LevelTextTopics.dat;
 - (_Bool);
 
 // Remaining properties
-@property _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

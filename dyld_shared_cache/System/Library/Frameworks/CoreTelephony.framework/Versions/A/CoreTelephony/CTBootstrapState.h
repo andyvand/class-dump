@@ -9,13 +9,13 @@
     int _bootstrapStatus;
 }
 
-+ (_Bool);
++ (_Bool).apple.avfoundation.avplayerlayersubtitlepreviewhelper;
 - (void);
 - (int);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ic}s) cid:(id)arg1 %u;
 - (id);
 
 // Remaining properties

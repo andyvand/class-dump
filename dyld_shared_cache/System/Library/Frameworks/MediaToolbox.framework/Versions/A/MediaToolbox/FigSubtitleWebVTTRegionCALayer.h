@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void)rtPresetMessageHEVCWithHDR;
+- (void)AVAssetExportPresetMessageHEVCWithHDR;
 
 @end
 

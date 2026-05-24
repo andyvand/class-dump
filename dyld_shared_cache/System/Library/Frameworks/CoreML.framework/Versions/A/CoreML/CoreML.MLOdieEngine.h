@@ -9,14 +9,11 @@
 @interface CoreML.MLOdieEngine : MLModelSwiftEngine
 {
     id mlirBytecodeURL;
-    id precompiledLibrary;
-    id functionName;
-    id functionPool;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)xh;
 - (id);
 - (id);
 - (void);

@@ -7,10 +7,6 @@
 @interface JetEngine.StartUpPerformanceEvent
 {
     id domain;
-    id rootActivity;
-    id onActivityCreated;
-    id remainingCheckpoints;
-    id state;
 }
 
 @end

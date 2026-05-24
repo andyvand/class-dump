@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMKCandidateEngine, IMKKeyboard, IMKTextDocument;
+@protocol IMKKeyboard;
 
 @protocol IMKInputMethod
+- (void)!;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMKKeyboard> attachedKeyboard;
-@property(retain, nonatomic) id <IMKTextDocument> attachedTextDocument;
-@property(retain, nonatomic) id <IMKCandidateEngine> candidateEngine;
 @end
 

@@ -6,77 +6,59 @@
 
 #import <ChatKit/CKViewController.h>
 
-@class CKFullScreenBalloonViewDisplayConfiguration, CKMacEmojiPicker, CKMessagePartChatItem, NSString, UIButton, UIGestureRecognizer, UIView;
-@protocol CKFullScreenBalloonViewControllerDelegate;
+@class UIGestureRecognizer;
 
 @interface CKFullScreenBalloonViewController : CKViewController
 {
     _Bool _wantsWindowedPresentation;
-    _Bool _preserveModalPresentationStyle;
-    BOOL _forcedOrientation;
-    _Bool _useForcedOrientation;
-    _Bool _hasPerformedInitialAnimations;
-    _Bool _followsParentBalloonView;
-    _Bool _willPresentInlineReplies;
-    _Bool _hasInsertedCatalystEmoji;
-    _Bool _beganDismissing;
-    id <CKFullScreenBalloonViewControllerDelegate> _delegate;
-    CKMessagePartChatItem *_chatItem;
-    UIGestureRecognizer *_tapRecognizer;
-    UIButton *_replyButton;
-    UIView *_tintView;
-    UIView *_keyboardSnapshotView;
-    CKFullScreenBalloonViewDisplayConfiguration *_displayConfiguration;
-    CKMacEmojiPicker *_emojiPicker;
-    struct CGRect _preservedBoundsInBalloonWindowAtAppearance;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ic_attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
+- (_Bool)htmlStoreCoordinator;
+- (_Bool)folderListSectionIdentifiersToVirtualSmartFolderIdentifiers;
+- (void)fetchUserRecordIDWithCompletionHandler:(_Bool)arg1;
+- (void)didCancelPreviewGeneratorOperation;
+- (id)_shouldInhibitAddingExtraNewlinesAtEndDuringFixup;
+- (id)_shouldInhibitAddingExtraNewlinesAtEndDuringFixup;
+- (_Bool)ed;
+- (_Bool)GisSelected,V_selected;
+- (_Bool)normalRegex;
+- (void)Context;
+- (void)View",&,V_doneImageView;
+- (void)dResultsController",&,N,V_legacyFetchedResultsController;
+- (void)ic_mutableDefaultParagraphStyle;
+- (void)ScrubberDelayer;
+- (void)ditFilter",C,N,V_filter;
+- (void)e",&,N,V_paragraph;
+- (void)HTMLConverterProtocol;
+- (void);
+- (void)R;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect)attachmentDescription;
+- (_Bool)coherenceContext;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)a;
+- (id)e;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (BOOL);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)o;
 - (_Bool);
 - (id);
-- (void);
+- (void)hing on recording attachment;
+- (void):Failed to convert buffer /* Error: Ran out of types for this method. */;
+- (_Bool)folder;
+- (id)epresentation"8@"NSError"16;
+- (void)lock;
 - (void);
 - (void);
 - (_Bool);
@@ -90,8 +72,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool)!;
 - (void);
 - (id);
 - (void);
@@ -106,37 +88,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool beganDismissing; // @synthesize beganDismissing=_beganDismissing;
-@property(readonly, nonatomic) CKMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKFullScreenBalloonViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CKFullScreenBalloonViewDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(retain, nonatomic) CKMacEmojiPicker *emojiPicker; // @synthesize emojiPicker=_emojiPicker;
-@property(nonatomic) _Bool followsParentBalloonView; // @synthesize followsParentBalloonView=_followsParentBalloonView;
-@property(nonatomic) BOOL forcedOrientation; // @synthesize forcedOrientation=_forcedOrientation;
-@property(nonatomic) _Bool hasInsertedCatalystEmoji; // @synthesize hasInsertedCatalystEmoji=_hasInsertedCatalystEmoji;
-@property(nonatomic) _Bool hasPerformedInitialAnimations; // @synthesize hasPerformedInitialAnimations=_hasPerformedInitialAnimations;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *keyboardSnapshotView; // @synthesize keyboardSnapshotView=_keyboardSnapshotView;
-@property(nonatomic) _Bool preserveModalPresentationStyle; // @synthesize preserveModalPresentationStyle=_preserveModalPresentationStyle;
-@property(nonatomic) struct CGRect preservedBoundsInBalloonWindowAtAppearance; // @synthesize preservedBoundsInBalloonWindowAtAppearance=_preservedBoundsInBalloonWindowAtAppearance;
-@property(retain, nonatomic) UIButton *replyButton; // @synthesize replyButton=_replyButton;
-@property(nonatomic) _Bool shouldHidePresentingWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CKMessagePartChatItem *supplementaryLayoutChatItem;
-@property(readonly, nonatomic) id supplementaryLayoutContext;
 @property(retain, nonatomic) UIGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
-@property(readonly, nonatomic) UIView *tintView; // @synthesize tintView=_tintView;
-@property(nonatomic) _Bool useForcedOrientation; // @synthesize useForcedOrientation=_useForcedOrientation;
-@property(nonatomic) _Bool wantsWindowedPresentation; // @synthesize wantsWindowedPresentation=_wantsWindowedPresentation;
-@property(nonatomic) _Bool willPresentInlineReplies; // @synthesize willPresentInlineReplies=_willPresentInlineReplies;
 
 @end
 

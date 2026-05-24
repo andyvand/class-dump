@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface NFCVASCommandConfiguration
 {
     long long _mode;
     NSString *_passTypeIdentifier;
-    NSURL *_url;
 }
 
 - (id);
@@ -22,13 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)	?׳w;
 
 // Remaining properties
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapAccess, NSString;
+@class GEOMapAccess;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapAccessLine
 {
     GEOMapAccess *_map;
-    shared_ptr_035a2da2 _edge;
-    struct vector<GEOLocationCoordinate2D, std::allocator<GEOLocationCoordinate2D>> _coordinates;
 }
 
-- (id);
+- (id)_ ;
 - (double);
 - (unsigned long long);
 - (double);
 - (id);
-- (CDStruct_c3b9c2ee *)ionEvent;
+- (CDStruct_c3b9c2ee *)hasUserActionEvent;
 - (void)f3;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long coordinateCount;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double length;
-@property(readonly) Class superclass;
 
 @end
 

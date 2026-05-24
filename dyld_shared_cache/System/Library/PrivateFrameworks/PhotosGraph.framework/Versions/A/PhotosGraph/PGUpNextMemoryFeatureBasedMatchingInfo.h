@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, PGGraphFeatureNodeCollection, PGGraphMeaningNodeCollection, PGGraphMemoryNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSceneNodeCollection;
+@class PGGraphMemoryNodeCollection;
 
 @interface PGUpNextMemoryFeatureBasedMatchingInfo
 {
     PGGraphMemoryNodeCollection *_memoryNodeAsCollection;
-    PGGraphFeatureNodeCollection *_memoryFeatureNodes;
-    PGGraphPersonNodeCollection *_personNodes;
-    PGGraphSceneNodeCollection *_sceneNodes;
-    _Bool _isTripMemory;
-    _Bool _isTripMemoryIsResolved;
 }
 
-+ (id);
++ (id)attributedStringWithAttachment:(id)arg1;
 + (id);
 - (id);
 - (id);
@@ -28,27 +23,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ndSortFilter;
+- (void)MemoryElectionFilterAndSortFilter;
 - (id)shared library mode during session:User moved significantly, computed velocity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTripMemory;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
 @property(readonly, nonatomic) unsigned long long nodeIdentifier;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) NSDate *representativeDate;
-@property(readonly, nonatomic) CLLocation *representativeLocation;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
-@property(readonly) Class superclass;
 
 @end
 

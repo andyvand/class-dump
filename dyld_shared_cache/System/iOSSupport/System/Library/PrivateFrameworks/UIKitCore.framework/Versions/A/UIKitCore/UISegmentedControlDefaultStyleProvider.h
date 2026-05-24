@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBlurEffect, UIColor, UIVibrancyEffect;
-
 @interface UISegmentedControlDefaultStyleProvider
 {
 }
@@ -13,8 +11,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)MPModelPropertyPodcastEpisodeDownloadedMediaKinds;
 - (_Bool);
 - (double);
 - (double);
@@ -31,11 +29,11 @@
 × ;
 - (double)nsets=dddd}}24^{UIContentUnavailableViewLayoutInfo={UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
 - (double)dIndicator"b1};
-- (_Bool)ueForAnimatedKey: /* Error: Ran out of types for this method. */;
-- (_Bool)ial: /* Error: Ran out of types for this method. */;
-- (_Bool)tLegibilityTraitChangesOnView: /* Error: Ran out of types for this method. */;
-- (double)n_layoutSubviewsOfCell: /* Error: Ran out of types for this method. */;
-- (id)locity: /* Error: Ran out of types for this method. */;
+- (_Bool)valueForAnimatedKey: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithStyleProvider:size:selected:bold:hasMaterial: /* Error: Ran out of types for this method. */;
+- (_Bool)_registerForTextLegibilityTraitChangesOnView: /* Error: Ran out of types for this method. */;
+- (double)_modern_layoutSubviewsOfCell: /* Error: Ran out of types for this method. */;
+- (id)_getCurrentVelocity: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)tFollowsLayoutMargins;
 - (double)BArbiterClientKeyboardChangeDelegate>",W,N,V_changeInfoDelegate;
 - (id)D¬,\||Ô(ü \#p$´%ð')¤)Ø)@*Ø*+t+;
@@ -51,62 +49,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animateHighlightingSelectionByDefault;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool animateSlidingSelectionByDefault;
-@property(readonly, nonatomic) _Bool apportionsSegmentWidthsByContentByDefault;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIBlurEffect *backgroundBlurEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBlurEffect",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UIColor *defaultBackgroundTintColor;
-@property(readonly, nonatomic) double defaultContentPaddingWidth;
-@property(readonly, nonatomic) double defaultInterSegmentSpacing;
-@property(readonly, nonatomic) double defaultTextContentPaddingWidth;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disablePointerEffects;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool hasShadowWithSelectedSegmentEffect;
-@property(readonly, nonatomic) _Bool hasTransparentBackgroundByDefault;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIVibrancyEffect *highlightedSegmentDefaultVibrancyEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIVibrancyEffect",?,R,N
-
-@property(readonly, nonatomic) _Bool limitInternalLayoutAndInteractionToDefaultHeight;
-@property(readonly, nonatomic) double mostlyInsideMargin;
-@property(readonly, nonatomic) double segmentHidingFinalScaleFactor;
-@property(readonly, nonatomic) double segmentSelectionScaleFactor;
-@property(readonly, nonatomic) UIVibrancyEffect *selectedSegmentContentDefaultVibrancyEffect;
-@property(readonly, nonatomic) UIBlurEffect *selectedSegmentDefaultBlurEffect;
-@property(readonly, nonatomic) UIVibrancyEffect *selectedSegmentDefaultVibrancyEffect;
-@property(readonly, nonatomic) _Bool shouldHideSelectionOnFocusUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAXPopover;
-@property(readonly, nonatomic) _Bool supportsDynamicTypeByDefault;
-@property(readonly, nonatomic) UIVibrancyEffect *unselectedSegmentContentDefaultVibrancyEffect;
 @property(readonly, nonatomic) _Bool useGeneratedImages;
-@property(readonly, nonatomic) _Bool useSelectionIndicatorStyling;
-@property(readonly, nonatomic) _Bool useTVStyleFocusSelection;
-@property(readonly, nonatomic) _Bool usesContinuousCurveCorners;
-@property(readonly, nonatomic) _Bool wantsFocusWithoutSelection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

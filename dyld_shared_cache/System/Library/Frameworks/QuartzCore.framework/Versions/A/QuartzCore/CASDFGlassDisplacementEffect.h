@@ -9,30 +9,24 @@
 @interface CASDFGlassDisplacementEffect : CASDFEffect
 {
     double _height;
-    double _curvature;
-    double _angle;
-    double _maskOffset;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
-- (void);
-- (void);
-- (double);
-- (double);
+- (void)h;
 - (void);
 - (double);
 - (double);
+- (void);
+- (double);
+- (double)as bigger than its right child.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
-@property(nonatomic) double curvature; // @synthesize curvature=_curvature;
 @property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) double maskOffset; // @synthesize maskOffset=_maskOffset;
 
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSString;
-@protocol ICAccountObject, ICFolderObject;
+@class NSString;
 
 @protocol ICFolderObject
+- (NSString *);
 - (NSString *);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSManagedObject<ICAccountObject> *account;
 @property(readonly, copy, nonatomic) NSString *identifierURIPathComponent;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, copy, nonatomic) NSManagedObject<ICFolderObject> *parentFolder;
 @end
 

@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKNotification.h>
 
-@class CKRecordID, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CKQueryNotification : CKNotification
 {
     NSDictionary *_recordFields;
-    long long _queryNotificationReason;
-    CKRecordID *_recordID;
-    long long _databaseScope;
 }
 
 + (_Bool);
@@ -35,17 +32,7 @@
 - (void)°Òÿÿÿÿÿ`;
 
 // Remaining properties
-@property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long queryNotificationReason; // @synthesize queryNotificationReason=_queryNotificationReason;
-@property(copy, nonatomic) NSDictionary *recordFields; // @synthesize recordFields=_recordFields;
-@property(copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly) Class superclass;
 
 @end
 

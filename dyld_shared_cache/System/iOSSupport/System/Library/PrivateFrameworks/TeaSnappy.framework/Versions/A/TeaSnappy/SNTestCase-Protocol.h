@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol SNTestCase
+- (unsigned long long)6;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long aggregate;
-@property(readonly, nonatomic) NSArray *requiredCapabilities;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @property(readonly, copy, nonatomic) NSString *testName;
-@property(readonly, nonatomic) double timeoutInSeconds;
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLIOAccelDevice, NSString;
+@class MTLIOAccelDevice;
 @protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface _MTLIOAccelMTLEvent
 {
     MTLIOAccelDevice<MTLDevice> *_device;
-    unsigned long long _labelTraceID;
-    NSString *_label;
-    struct os_unfair_lock_s _labelLock;
-    _Bool _enableBarrier;
 }
 
 - (id);
@@ -22,23 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)tsColorSpaceConversionMatrixSelection;
+- (void)supportsColorSpaceConversionMatrixSelection;
 - (id)packed_uint3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) _Bool enableBarrier; // @synthesize enableBarrier=_enableBarrier;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsRollback;
 
 @end
 

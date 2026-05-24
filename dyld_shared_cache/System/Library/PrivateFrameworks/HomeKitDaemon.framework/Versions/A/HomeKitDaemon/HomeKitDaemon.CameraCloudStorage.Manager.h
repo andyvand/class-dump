@@ -9,7 +9,6 @@
 @interface HomeKitDaemon.CameraCloudStorage.Manager
 {
     id quotaManager;
-    id authorizationManager;
 }
 
 - (id);

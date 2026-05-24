@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface UIPasteControlConfiguration
 {
     _Bool __shouldLayoutSynchronously;
-    unsigned long long _displayMode;
-    long long _cornerStyle;
-    double _cornerRadius;
-    unsigned long long _imagePlacement;
-    UIColor *_baseForegroundColor;
-    UIColor *_baseBackgroundColor;
 }
 
 + (_Bool)rgets cannot be encoded.;
@@ -23,15 +15,15 @@
 - (void);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)animationEnded: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)sInteraction;
-- (void)onEventsEnabled;
+- (void)supportsContinuousInteraction;
+- (void)deviceOrientationEventsEnabled;
 - (void);
 - (id)X;
-- (id)Color;
+- (id)systemBlueColor;
 - (void)/';
 - (double)tç?(E+÷bw@ÒÇ|@À@[(ÚÀ?;
 - (void)p+];
@@ -40,12 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _shouldLayoutSynchronously; // @synthesize _shouldLayoutSynchronously=__shouldLayoutSynchronously;
-@property(retain, nonatomic) UIColor *baseBackgroundColor; // @synthesize baseBackgroundColor=_baseBackgroundColor;
-@property(retain, nonatomic) UIColor *baseForegroundColor; // @synthesize baseForegroundColor=_baseForegroundColor;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic) unsigned long long imagePlacement; // @synthesize imagePlacement=_imagePlacement;
 
 @end
 

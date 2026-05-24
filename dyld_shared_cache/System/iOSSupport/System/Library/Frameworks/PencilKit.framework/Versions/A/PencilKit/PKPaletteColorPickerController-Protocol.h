@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-@protocol PKPaletteColorPicker, PKPaletteColorPickerControllerDelegate;
+@protocol PKPaletteColorPicker;
 
 @protocol PKPaletteColorPickerController
 
 // Remaining properties
-@property(nonatomic) double colorMaximumLinearExposure;
 @property(readonly, nonatomic) id <PKPaletteColorPicker> colorPicker;
-@property(nonatomic) __weak id <PKPaletteColorPickerControllerDelegate> delegate;
-@property(readonly, nonatomic) UIViewController *viewController;
 @end
 

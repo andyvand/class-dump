@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface AFHeartBeat
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_heartBeatTimer;
-    NSObject<OS_dispatch_source> *_expirationTimer;
-    CDUnknownBlockType _heartBeatHandler;
-    CDUnknownBlockType _invalidationHandler;
-    _Atomic unsigned long long _numberOfHeartBeats;
-    NSString *_identifier;
-    NSDate *_effectiveDate;
-    double _expirationDuration;
-    double _heartBeatInterval;
 }
 
 - (unsigned long long);
@@ -26,8 +17,8 @@
 - (double);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)attribution;
+- (void)ge"8@?0;
 - (void);
 - (id);
 - (void);
@@ -35,18 +26,7 @@
 - (void)SString",C,N,V_peerUserAgentString;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *effectiveDate; // @synthesize effectiveDate=_effectiveDate;
-@property(readonly, nonatomic) double expirationDuration; // @synthesize expirationDuration=_expirationDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double heartBeatInterval; // @synthesize heartBeatInterval=_heartBeatInterval;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long numberOfHeartBeats;
-@property(readonly) Class superclass;
 
 @end
 

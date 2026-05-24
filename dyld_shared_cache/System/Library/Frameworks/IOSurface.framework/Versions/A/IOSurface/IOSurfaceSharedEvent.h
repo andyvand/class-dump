@@ -7,13 +7,12 @@
 @interface IOSurfaceSharedEvent
 {
     unsigned int _eventPort;
-    const unsigned long long *_signaledValue;
-    unsigned long long _globalTraceObjectID;
-    unsigned long long _eventOptions;
 }
 
-+ (_Bool);
-- (unsigned int);
++ (_Bool)annotateResource: /* Error: Ran out of types for this method. */;
+- (unsigned int)excoord.xy,1.0) * vertexTransform).xy;
+}
+;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,10 +27,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned int eventPort; // @synthesize eventPort=_eventPort;
-@property(readonly) unsigned long long globalTraceObjectID; // @synthesize globalTraceObjectID=_globalTraceObjectID;
 @property unsigned long long signaledValue;
-@property(readonly) _Bool supportsRollback;
 
 @end
 

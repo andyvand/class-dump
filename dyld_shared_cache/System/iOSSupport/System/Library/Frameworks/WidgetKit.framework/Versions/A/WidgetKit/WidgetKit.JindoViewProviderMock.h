@@ -7,7 +7,6 @@
 @interface WidgetKit.JindoViewProviderMock
 {
     id tintColor;
-    id widgetURL;
 }
 
 @end

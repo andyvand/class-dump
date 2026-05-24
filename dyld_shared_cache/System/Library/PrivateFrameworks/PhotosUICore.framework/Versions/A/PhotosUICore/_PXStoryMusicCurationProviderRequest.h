@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSProgress, NSString, PXStoryMusicCurationProviderOptions, PXStoryPhotoKitAssetContainer;
+@class NSMutableArray, PXStoryPhotoKitAssetContainer;
 
 @interface _PXStoryMusicCurationProviderRequest
 {
     NSMutableArray *_resultHandlers;
-    _Bool _hasStarted;
-    CDUnknownBlockType _completionHandler;
-    NSProgress *_progress;
-    PXStoryPhotoKitAssetContainer *_assetContainer;
-    PXStoryMusicCurationProviderOptions *_options;
-    NSArray *_recentlyUsedFlexSongIDs;
-    NSArray *_recentlyUsedAppleMusicSongIDs;
 }
 
 - (id);
@@ -26,23 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24@32;
 - (id)úGþÿÆIþÿ,þÿ¨ëýÿ;
 - (void)|E·^ÓÍG@³ìI`s^@lBZcÐ<@;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryPhotoKitAssetContainer *assetContainer; // @synthesize assetContainer=_assetContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryMusicCurationProviderOptions *options; // @synthesize options=_options;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) NSArray *recentlyUsedAppleMusicSongIDs; // @synthesize recentlyUsedAppleMusicSongIDs=_recentlyUsedAppleMusicSongIDs;
-@property(readonly, nonatomic) NSArray *recentlyUsedFlexSongIDs; // @synthesize recentlyUsedFlexSongIDs=_recentlyUsedFlexSongIDs;
-@property(readonly) Class superclass;
 
 @end
 

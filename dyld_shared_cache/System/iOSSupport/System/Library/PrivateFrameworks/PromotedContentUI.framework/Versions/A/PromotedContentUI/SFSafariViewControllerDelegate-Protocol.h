@@ -5,5 +5,9 @@
 //
 
 @protocol SFSafariViewControllerDelegate
+
+@optional
+- (void)Vo;
+- (void)requestedPropertySetForEvents;
 @end
 

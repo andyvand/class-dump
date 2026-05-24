@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, _GCDevicePhysicalInput, _GCDevicePhysicalInputElementsArray, _GCDevicePhysicalInputElementsCollection, _GCDevicePhysicalInputFacade, _GCDevicePhysicalInputStateTable;
-@protocol GCDevice, _GCDevicePhysicalInputDataSource;
+@protocol GCDevice;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputBase
 {
     id <GCDevice> _device;
-    id <_GCDevicePhysicalInputDataSource> _dataSource;
-    unsigned long long _elementCount;
-    id *_indexedElements;
-    NSDictionary *_elementIndexByAlias;
-    struct __CFArray *_additionalViews;
-    _GCDevicePhysicalInputElementsArray *_indexedElementViews;
-    _GCDevicePhysicalInputElementsCollection *_elementCollection;
-    _GCDevicePhysicalInputStateTable *_viewConfiguration;
-    _GCDevicePhysicalInputStateTable *_viewProperties;
-    _GCDevicePhysicalInputStateTable *_viewState;
-    NSSet *_attributes;
-    _GCDevicePhysicalInputFacade *_facade;
 }
 
 + (id);
@@ -30,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (double);
 - (unsigned long long);
 - (id);
@@ -42,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (void);
 - (id);
@@ -52,20 +39,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ile";
 
 // Remaining properties
-@property __weak id <_GCDevicePhysicalInputDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak id <GCDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long lastEventHostTimestamp;
-@property(readonly) double lastEventLatency;
-@property(readonly) double lastEventTimestamp;
-@property(readonly) _GCDevicePhysicalInput *physicalInput;
 @property(readonly, getter=isSnapshot) _Bool snapshot;
-@property(readonly) Class superclass;
 
 @end
 

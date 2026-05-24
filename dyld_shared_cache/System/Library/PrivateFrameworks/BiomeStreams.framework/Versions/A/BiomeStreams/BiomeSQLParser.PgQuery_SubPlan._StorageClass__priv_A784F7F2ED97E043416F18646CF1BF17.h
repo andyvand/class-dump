@@ -7,22 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SubPlan._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _subLinkType;
-    id _testexpr;
-    id _paramIds;
-    id _planID;
-    id _planName;
-    id _firstColType;
-    id _firstColTypmod;
-    id _firstColCollation;
-    id _useHashTable;
-    id _unknownEqFalse;
-    id _parallelSafe;
-    id _setParam;
-    id _parParam;
-    id _args;
-    id _startupCost;
-    id _perCallCost;
 }
 
 @end

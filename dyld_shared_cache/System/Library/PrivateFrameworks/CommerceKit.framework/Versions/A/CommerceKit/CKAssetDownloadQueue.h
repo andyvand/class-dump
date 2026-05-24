@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKAssetDownloadQueue
 {
@@ -28,7 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *downloads;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

@@ -7,9 +7,6 @@
 @interface SoundAnalysis.ConversionState
 {
     id converter;
-    id targetFormat;
-    id lock;
-    id reusableBuffer;
 }
 
 @end

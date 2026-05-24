@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AVCaptureTimecodeSource
 {
     NSString *_displayName;
-    long long _type;
-    NSUUID *_uuid;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)initWithRunningRBSDomain:name:invalidationDuration: /* Error: Ran out of types for this method. */;
+- (id)>",W,N,V_delegate;
 - (void);
 - (unsigned long long);
-- (id);
-- (long long);
+- (id)_lazyInitializationMutex;
+- (long long)PID %d);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

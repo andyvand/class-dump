@@ -9,9 +9,6 @@
 @interface WidgetKit.ResolvedWidgetBundleHost : WidgetKit.WidgetHost
 {
     id host;
-    id $__lazy_storage_$_widgetDescriptors;
-    id $__lazy_storage_$_activityDescriptors;
-    id $__lazy_storage_$_controlDescriptors;
 }
 
 @end

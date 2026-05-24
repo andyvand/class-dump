@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKKnowledgeStorage;
+@class NSString;
 
 @interface _DKSyncContext
 {
     NSString *_name;
-    _DKKnowledgeStorage *_storage;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) _DKKnowledgeStorage *storage; // @synthesize storage=_storage;
 
 @end
 

@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TIconCollectionView : FI_TIconOrGalleryCollectionView
 {
     struct TFENodeVector _nodesToKeepInView;
-    optional_a670fce5 _columnOffsetCount;
-    optional_a670fce5 _keepInViewScrollPosition;
 }
 
 - (id);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ng"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

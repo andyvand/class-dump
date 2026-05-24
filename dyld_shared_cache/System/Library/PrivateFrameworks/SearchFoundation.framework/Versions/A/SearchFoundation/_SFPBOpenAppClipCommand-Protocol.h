@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBOpenAppClipCommand
+- (NSData *)Identifier;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clipIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

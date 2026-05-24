@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTextRange, _NSTextHighlightRun;
-
 __attribute__((visibility("hidden")))
 @interface _NSTextHighlightRunSegment
 {
     _Bool _isExtraAddedEmptyLine;
-    _NSTextHighlightRun *_run;
-    unsigned long long _segmentIndex;
-    double _topLeftCornerRadius;
-    double _topRightCornerRadius;
-    double _bottomLeftCornerRadius;
-    double _bottomRightCornerRadius;
-    NSMutableArray *_cornerExtensions;
-    double _leftEnd;
-    double _rightEnd;
-    NSTextRange *_textRange;
-    struct CGRect _textSegmentFrame;
-    struct CGRect _highlightFrame;
 }
 
 - (struct CGPoint);
 - (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!KK;
+- (_Bool)C;
+- (_Bool);
 - (_Bool);
 - (struct CGPath *);
 - (struct CGPath *);
-- (struct CGPath *);
+- (struct CGPath *)@1;
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPoint);
@@ -41,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

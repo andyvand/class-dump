@@ -5,7 +5,7 @@
 //
 
 @class NSObject;
-@protocol BUStarfieldTimelineDataSource, BUStarfieldTimelineDelegate, BUStarfieldTimelineItem;
+@protocol BUStarfieldTimelineDataSource;
 
 @interface BUStarfieldTimelineLayer
 {
@@ -21,7 +21,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void *);
 - (void);
@@ -33,23 +33,21 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)/FE';
+- (id)3y'1�'3y;
 - (struct BUTimelinePrivate *);
-- (void);
+- (void)Ƅ;
 - (void);
 - (void)nationList21ReleaseAllLocalMountsEvE3$_0;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<BUStarfieldTimelineItem> *selectedItem;
 @property(nonatomic) NSObject<BUStarfieldTimelineDataSource> *timelineDataSource;
-@property(nonatomic) __weak NSObject<BUStarfieldTimelineDelegate> *timelineDelegate;
 
 @end
 

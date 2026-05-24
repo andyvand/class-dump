@@ -4,14 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @protocol MTLIOCommandBuffer
+- (void);
+- (void);
+- (NSString *)Z#;
+- (void)T;
+- (long long)B;
+- (void)L6y;
 - (void)½;
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(copy) NSString *label;
-@property(readonly) long long status;
 @end
 

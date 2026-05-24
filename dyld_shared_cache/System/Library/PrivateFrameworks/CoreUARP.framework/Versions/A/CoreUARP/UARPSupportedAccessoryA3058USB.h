@@ -14,8 +14,8 @@
 }
 
 + (id);
-+ (unsigned short);
-- (id);
++ (unsigned short)K;
+- (id)AMSPurchaseQueueBatchList;
 - (void);
 
 @end

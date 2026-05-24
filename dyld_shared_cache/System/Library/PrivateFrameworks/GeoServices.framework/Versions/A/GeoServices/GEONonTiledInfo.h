@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEONonTiledInfo
 {
     unsigned long long _muid;
-    NSString *_name;
-    CDStruct_26a2534e _flags;
 }
 
-+ (_Bool)eTime:(id)arg1;
-- (void);
++ (_Bool)setHasUpdateTime:(id)arg1;
+- (void)_	;
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)componentsJoinedByString:(id)arg1;
+- (void)r audioStreamProvider:(id)arg1 didHardwareConfigurationChange:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)strokeStart;
 - (_Bool);
 - (void);
 - (id){_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
@@ -37,10 +33,7 @@
 - (void)\>ÿ6"?2;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMuid;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NotesShared.TranscriptMetadata
 {
     id id;
-    id segment;
 }
 
 @end

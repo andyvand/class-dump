@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CAARSchemaCAARActionModelOutput : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_actionCandidateId;
-    float _modelScore;
-    struct {
-        unsigned int modelScore:1;
-    } _has;
-    _Bool _hasActionCandidateId;
 }
 
 - (void);
@@ -42,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *actionCandidateId; // @synthesize actionCandidateId=_actionCandidateId;
-@property(nonatomic) _Bool hasActionCandidateId; // @synthesize hasActionCandidateId=_hasActionCandidateId;
-@property(nonatomic) _Bool hasModelScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float modelScore; // @synthesize modelScore=_modelScore;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)opStreamUnexpectedly:(struct CGRect)arg1 ];
 
 // Remaining properties
 @property(nonatomic) long long anchorPosition;

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXNumberAnimator, PXStoryViewModel, PXUpdater;
+@class PXStoryViewModel, PXUpdater;
 
 @interface PXStoryChromeLayoutItemController
 {
     PXStoryViewModel *_viewModel;
-    unsigned long long _chromeItem;
-    double _alpha;
-    PXUpdater *_updater;
-    double _targetAlpha;
-    double _targetPlaybackEndDarkening;
-    PXNumberAnimator *_playbackEndDarkeningAnimator;
-    PXNumberAnimator *_alphaAnimator;
 }
 
 - (double);
@@ -35,34 +28,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_webView:didChangeLookalikeCharactersFromURL:toURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (double)event.;
-- (void)ditDecisionList;
+- (void)SingleAdditionalAutoEditDecisionList;
 - (void)ider];
 - (void)1÷´y;
 - (id)woø;;
 - (id)hA;;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) PXNumberAnimator *alphaAnimator; // @synthesize alphaAnimator=_alphaAnimator;
-@property(readonly, nonatomic) unsigned long long chromeItem; // @synthesize chromeItem=_chromeItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXNumberAnimator *playbackEndDarkeningAnimator; // @synthesize playbackEndDarkeningAnimator=_playbackEndDarkeningAnimator;
-@property(readonly) Class superclass;
-@property(nonatomic) double targetAlpha; // @synthesize targetAlpha=_targetAlpha;
-@property(readonly, nonatomic) double targetAlphaForVisibleState;
-@property(nonatomic) double targetPlaybackEndDarkening; // @synthesize targetPlaybackEndDarkening=_targetPlaybackEndDarkening;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

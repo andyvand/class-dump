@@ -7,12 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long);
+- (NSString *);
+- (_Bool);
+- (_Bool);
 - (struct _NSZone *)	
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) Class superclass;
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol _ICPredictionSourcing
+- (void)H;
+- (void);
 @end
 

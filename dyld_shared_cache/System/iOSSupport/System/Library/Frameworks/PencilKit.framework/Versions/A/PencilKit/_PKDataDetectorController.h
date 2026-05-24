@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSMutableSet;
 @protocol _PKDataDetectorControllerDelegate;
 
 @interface _PKDataDetectorController
 {
     NSMutableSet *_currentDataDetectorItems;
-    struct {
-        unsigned int delegateSupportsItemsDidChange:1;
-    } _delegateFlags;
-    id <_PKDataDetectorControllerDelegate> _delegate;
 }
 
 - (id);
@@ -26,15 +22,7 @@
 - (void)th",&,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *currentItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_PKDataDetectorControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

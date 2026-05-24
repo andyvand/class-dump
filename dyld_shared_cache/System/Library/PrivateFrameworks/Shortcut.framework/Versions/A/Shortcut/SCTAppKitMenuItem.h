@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface SCTAppKitMenuItem
 {
     NSMenu *_menu;
-    long long _itemIndex;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)T!`bc!(bJ;
 - (long long);
 - (id);
 - (void);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool isVisible;
 @property(readonly) long long itemIndex;
 
 @end

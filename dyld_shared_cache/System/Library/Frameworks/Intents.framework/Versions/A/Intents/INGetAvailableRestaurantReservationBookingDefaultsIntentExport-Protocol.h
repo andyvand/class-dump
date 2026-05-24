@@ -7,6 +7,7 @@
 @class INRestaurant;
 
 @protocol INGetAvailableRestaurantReservationBookingDefaultsIntentExport
+- (INRestaurant *)8;
 
 // Remaining properties
 @property(copy) INRestaurant *restaurant;

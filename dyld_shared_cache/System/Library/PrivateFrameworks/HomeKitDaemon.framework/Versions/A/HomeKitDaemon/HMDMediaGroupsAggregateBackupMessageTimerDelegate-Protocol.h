@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaGroupsAggregateBackupMessageTimerDelegate
+- (void)leObjects;
 @end
 

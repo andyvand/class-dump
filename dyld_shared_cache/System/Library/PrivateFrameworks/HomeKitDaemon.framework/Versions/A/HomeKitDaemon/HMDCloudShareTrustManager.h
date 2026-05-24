@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMBShareUserID, HMDCloudShareMessenger, HMDCloudShareParticipantsManager, HMDCloudShareTrustManagerMetricsEventDispatcher, HMFTimer, NSNotificationCenter, NSObject, NSString;
-@protocol HMDCloudShareTrustManagerDataSource, HMDCloudShareTrustManagerDelegate, HMDDatabase, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudShareTrustManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _ownedTrust;
-    long long _configureState;
-    id <HMDCloudShareTrustManagerDataSource> _dataSource;
-    id <HMDCloudShareTrustManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDDatabase> _database;
-    HMDCloudShareMessenger *_cloudShareMessenger;
-    NSNotificationCenter *_notificationCenter;
-    HMBCloudZone *_cloudZone;
-    HMBLocalZone *_localZone;
-    HMDCloudShareParticipantsManager *_cloudShareParticipantsManager;
-    HMFTimer *_requestInviteTimer;
-    HMDCloudShareTrustManagerMetricsEventDispatcher *_metricsEventDispatcher;
-    HMBShareUserID *_ownerCloudShareID;
-    CDUnknownBlockType _participantsManagerFactory;
-    CDUnknownBlockType _requestInviteTimerFactory;
 }
 
 + (id)q;
+- (void)stringByRemovingURLEscapes;
+- (void)stopSharingWithContact:(id)arg1 reason:completion: /* Error: Ran out of types for this method. */;
+- (void)stopSharingWithContact:completion: /* Error: Ran out of types for this method. */;
+- (struct CloudShareTrustManagerTrustStatusCounts)setLastPostedETADate:(id)arg1;
+- (long long)setLabeledValueIdentifier:(id)arg1;
+- (void)_counts;
+- (void)T@"<GEOTransitTextDataSource>",R,N;
+- (void)MSPContainerPersisterDelegate;
+- (void)VirtualReceivers;
 - (void);
-- (void);
-- (void);
-- (struct CloudShareTrustManagerTrustStatusCounts);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)moved:(long long)arg1 %{private}@;
+- (void), lacking %@, packet %@, destinations %@);
+- (void)c}@] clear | failed to delete all identifiers with error:(id)arg1 %@;
+- (CDUnknownBlockType)ple.mapspushd.SharedTripBlocklist;
+- (id)_validAccount;
+- (void)placeMapItemStorage;
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (CDUnknownBlockType);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -86,7 +70,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ice locked;
 - (void);
 - (id);
 - (id);
@@ -94,7 +78,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)deDemoDataMocker",R,V_demoDataMocker;
-- (void)ationResponse;
+- (void)HMDNetworkRouterClientControlOperationResponse;
 - (void)cause streamIdentifier was not included;
 - (id)toHH2MigrationWithoutSharedUsers from %{public}@ to %{public}@;
 - (id)ID %{mask.hash}@;
@@ -106,29 +90,7 @@ __attribute__((visibility("hidden")))
 - (id)ØF;
 
 // Remaining properties
-@property(readonly) HMDCloudShareMessenger *cloudShareMessenger; // @synthesize cloudShareMessenger=_cloudShareMessenger;
-@property(retain) HMDCloudShareParticipantsManager *cloudShareParticipantsManager; // @synthesize cloudShareParticipantsManager=_cloudShareParticipantsManager;
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property long long configureState; // @synthesize configureState=_configureState;
-@property __weak id <HMDCloudShareTrustManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) id <HMDDatabase> database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCloudShareTrustManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(retain) HMDCloudShareTrustManagerMetricsEventDispatcher *metricsEventDispatcher; // @synthesize metricsEventDispatcher=_metricsEventDispatcher;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, getter=isOwnedTrust) _Bool ownedTrust; // @synthesize ownedTrust=_ownedTrust;
-@property(retain) HMBShareUserID *ownerCloudShareID; // @synthesize ownerCloudShareID=_ownerCloudShareID;
-@property(copy) CDUnknownBlockType participantsManagerFactory; // @synthesize participantsManagerFactory=_participantsManagerFactory;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) HMFTimer *requestInviteTimer; // @synthesize requestInviteTimer=_requestInviteTimer;
-@property(copy) CDUnknownBlockType requestInviteTimerFactory; // @synthesize requestInviteTimerFactory=_requestInviteTimerFactory;
-@property(readonly) Class superclass;
 
 @end
 

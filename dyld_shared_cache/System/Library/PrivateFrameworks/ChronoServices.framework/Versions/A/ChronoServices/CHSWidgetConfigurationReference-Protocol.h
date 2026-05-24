@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidget, NSString;
+@class NSString;
 
 @protocol CHSWidgetConfigurationReference
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
-@property(readonly, copy, nonatomic) CHSWidget *widget;
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UALoginWindowFeature
 {
     _Bool _willCopyUsersPreferences;
-    _Bool _enabled;
-    NSString *_humanReadableName;
-    long long _type;
 }
 
 - (_Bool);
@@ -19,17 +14,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (long long);
-- (void);
+- (id);
+- (long long)registeredTypeIdentifiers;
+- (void)f16@20;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *humanReadableName; // @synthesize humanReadableName=_humanReadableName;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool willCopyUsersPreferences; // @synthesize willCopyUsersPreferences=_willCopyUsersPreferences;
 
 @end
 

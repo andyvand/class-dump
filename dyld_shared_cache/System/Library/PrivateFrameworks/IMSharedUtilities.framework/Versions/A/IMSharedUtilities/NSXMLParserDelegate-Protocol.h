@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSError, NSXMLParser;
+
 @protocol NSXMLParserDelegate
+
+@optional
+- (void)setHasDurationBeforeDowngrade:(NSXMLParser *)arg1;
+- (NSData *)setHasDurSinceLastSuccessfulComp:(NSXMLParser *)arg1;
+- (void)setHasDurSinceLastEnqueue:(NSXMLParser *)arg1;
+- (void)setHasDstChange:(NSXMLParser *)arg1;
+- (void)setHasDpsNotifications:(NSXMLParser *)arg1;
+- (void)setHasDownloadDuration:(NSXMLParser *)arg1;
+- (void)setHasDomainLookupEnd:(NSXMLParser *)arg1;
+- (void)setHasDnsServersImpacted:(NSXMLParser *)arg1;
+- (void)setHasDnsProtocol:(NSXMLParser *)arg1;
+- (void)setHasDlVocoderBitRate:(NSXMLParser *)arg1;
+- (void)setHasDisplayContext:(NSXMLParser *)arg1;
+- (void)setHasDiscardedRawBytes:(NSXMLParser *)arg1;
+- (void)setHasDisassocReason:(NSXMLParser *)arg1;
+- (void)updateAccountPromotionsForAccountWithIdentifier:(NSXMLParser *)arg1 ignoreErrorBackoff:(NSError *)arg2 observeCooldownPeriod:completion: /* Error: Ran out of types for this method. */;
+- (void)reportProvisioningStepStart:(NSXMLParser *)arg1;
+- (void)fallbackSupportedNetworksIfNoFeatureFound;
+- (void);
 @end
 

@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSMutableArray, UIViewFloatAnimatableProperty;
-
 @interface _UIAnimatedTextAttachment
 {
     CDUnknownBlockType _invalidationHandler;
-    double _targetHeight;
-    UIViewFloatAnimatableProperty *_heightAnimationProperty;
-    NSMutableArray *_animateAlongsideHandlers;
-    NSMutableArray *_completionHandlers;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
+- (double)v76@0:8@16@24B32q36q44@52@60@?68 /* Error: Ran out of types for this method. */;
+- (void)sendReachabilityResponse:(double)arg1 requestID:toToken:toIdentifier:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithFirstName:(id)arg1 lastName:avatar:pronouns: /* Error: Ran out of types for this method. */;
+- (void)createDictionaryForNotDeletingAnyAttachments:(id)arg1 urgency: /* Error: Ran out of types for this method. */;
+- (id)x4;
 - (id);
+- (void)}};
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)age:(id)arg1 %@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)p;
 - (void)ÀAùq`°1Â0@ù
 × ;
 - (void);
-- (void)performContextMenuHandoffForMenu:(struct CGRect)arg1 sourceView: /* Error: Ran out of types for this method. */;
+- (void)_performContextMenuHandoffForMenu:(struct CGRect)arg1 sourceView: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)À`êÿhþþÿ;
 - (void)ü©ñ=¦D<;
 - (void)U$;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *animateAlongsideHandlers; // @synthesize animateAlongsideHandlers=_animateAlongsideHandlers;
-@property(readonly, copy, nonatomic) NSAttributedString *attachmentString;
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *heightAnimationProperty; // @synthesize heightAnimationProperty=_heightAnimationProperty;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(nonatomic) double targetHeight; // @synthesize targetHeight=_targetHeight;
 
 @end

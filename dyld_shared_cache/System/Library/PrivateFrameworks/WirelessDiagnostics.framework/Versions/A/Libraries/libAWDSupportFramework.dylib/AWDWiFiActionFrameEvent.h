@@ -4,50 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWiFiActionFrameEvent
 {
     unsigned long long _timestamp;
-    unsigned int _actionCode;
-    unsigned int _btmAbridged;
-    unsigned int _btmBssTerminationIncluded;
-    unsigned int _btmDisassociationImminent;
-    unsigned int _btmDisassociationTimeout;
-    unsigned int _btmEssTerminationIncluded;
-    unsigned int _btmHasPreferredCandidateList;
-    unsigned int _btmTerminationDuration;
-    unsigned int _btmValidityInterval;
-    unsigned int _categoryCode;
-    unsigned int _dialogToken;
-    unsigned int _environmentType;
-    unsigned int _frameType;
-    NSData *_oui;
-    unsigned int _status;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int actionCode:1;
-        unsigned int btmAbridged:1;
-        unsigned int btmBssTerminationIncluded:1;
-        unsigned int btmDisassociationImminent:1;
-        unsigned int btmDisassociationTimeout:1;
-        unsigned int btmEssTerminationIncluded:1;
-        unsigned int btmHasPreferredCandidateList:1;
-        unsigned int btmTerminationDuration:1;
-        unsigned int btmValidityInterval:1;
-        unsigned int categoryCode:1;
-        unsigned int dialogToken:1;
-        unsigned int environmentType:1;
-        unsigned int frameType:1;
-        unsigned int status:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9?q!;
 - (void);
 - (void);
 - (void);
@@ -85,7 +51,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (void);
@@ -118,38 +84,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int actionCode; // @synthesize actionCode=_actionCode;
-@property(nonatomic) unsigned int btmAbridged; // @synthesize btmAbridged=_btmAbridged;
-@property(nonatomic) unsigned int btmBssTerminationIncluded; // @synthesize btmBssTerminationIncluded=_btmBssTerminationIncluded;
-@property(nonatomic) unsigned int btmDisassociationImminent; // @synthesize btmDisassociationImminent=_btmDisassociationImminent;
-@property(nonatomic) unsigned int btmDisassociationTimeout; // @synthesize btmDisassociationTimeout=_btmDisassociationTimeout;
-@property(nonatomic) unsigned int btmEssTerminationIncluded; // @synthesize btmEssTerminationIncluded=_btmEssTerminationIncluded;
-@property(nonatomic) unsigned int btmHasPreferredCandidateList; // @synthesize btmHasPreferredCandidateList=_btmHasPreferredCandidateList;
-@property(nonatomic) unsigned int btmTerminationDuration; // @synthesize btmTerminationDuration=_btmTerminationDuration;
-@property(nonatomic) unsigned int btmValidityInterval; // @synthesize btmValidityInterval=_btmValidityInterval;
-@property(nonatomic) unsigned int categoryCode; // @synthesize categoryCode=_categoryCode;
-@property(nonatomic) unsigned int dialogToken; // @synthesize dialogToken=_dialogToken;
-@property(nonatomic) unsigned int environmentType; // @synthesize environmentType=_environmentType;
-@property(nonatomic) unsigned int frameType; // @synthesize frameType=_frameType;
-@property(nonatomic) _Bool hasActionCode;
-@property(nonatomic) _Bool hasBtmAbridged;
-@property(nonatomic) _Bool hasBtmBssTerminationIncluded;
-@property(nonatomic) _Bool hasBtmDisassociationImminent;
-@property(nonatomic) _Bool hasBtmDisassociationTimeout;
-@property(nonatomic) _Bool hasBtmEssTerminationIncluded;
-@property(nonatomic) _Bool hasBtmHasPreferredCandidateList;
-@property(nonatomic) _Bool hasBtmTerminationDuration;
-@property(nonatomic) _Bool hasBtmValidityInterval;
-@property(nonatomic) _Bool hasCategoryCode;
-@property(nonatomic) _Bool hasDialogToken;
-@property(nonatomic) _Bool hasEnvironmentType;
-@property(nonatomic) _Bool hasFrameType;
-@property(readonly, nonatomic) _Bool hasOui;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSData *oui; // @synthesize oui=_oui;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

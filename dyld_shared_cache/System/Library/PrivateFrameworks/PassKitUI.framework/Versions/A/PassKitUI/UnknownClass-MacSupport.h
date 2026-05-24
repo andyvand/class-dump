@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface UnknownClass (MacSupport)
 - (id);
 - (_Bool);
@@ -13,14 +11,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (struct CGSize)ped:drawingHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGSize)imageWithSize:flipped:drawingHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSImage *icon;
-@property(readonly, getter=isLargeFormat) _Bool largeFormat;
-@property(nonatomic) _Bool ubiquitous;
 @property(readonly) struct CGSize windowSize;
-@property(readonly) NSString *windowTitle;
 @end
 

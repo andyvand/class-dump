@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBText;
+@class NSString;
 
 @interface _SFPBMediaDetail
 {
     NSString *_title;
-    _SFPBText *_content;
 }
 
 - (id);
@@ -18,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)performCompletionWithFileURLs:(id)arg1 preparationOptions:error:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)ncompatible with asset:%{public}@, skipping thumbnail update /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -28,15 +27,6 @@
 - (void)em"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBText *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

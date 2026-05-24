@@ -5,5 +5,7 @@
 //
 
 @protocol SOEffectPickerViewControllerDelegate
+- (void);
+- (void);
 @end
 

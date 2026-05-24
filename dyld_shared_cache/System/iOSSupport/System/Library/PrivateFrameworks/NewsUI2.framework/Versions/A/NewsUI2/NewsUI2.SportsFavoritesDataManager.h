@@ -7,8 +7,6 @@
 @interface NewsUI2.SportsFavoritesDataManager
 {
     id delegate;
-    id subscriptionService;
-    id tagService;
 }
 
 @end

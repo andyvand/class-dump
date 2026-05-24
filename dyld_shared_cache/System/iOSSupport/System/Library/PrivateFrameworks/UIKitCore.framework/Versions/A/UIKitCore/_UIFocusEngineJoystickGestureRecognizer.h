@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (struct CGPoint);
-- (void);
+- (struct CGPoint)sortedArrayUsingSelector: /* Error: Ran out of types for this method. */;
+- (void)rAccountNeedsRepairWithCompletion failed with error:(id)arg1 %@;
 - (void);
 - (id)UITraitCollection"40;
 - (_Bool)",R,N,V_removedObjects;
 - (_Bool)<;
-- (void)erOfActiveNonDismissDetents;
+- (void)numberOfActiveNonDismissDetents;
 - (void)adow Radius;
 - (void);
 - (void)L¶Õ¼X_;

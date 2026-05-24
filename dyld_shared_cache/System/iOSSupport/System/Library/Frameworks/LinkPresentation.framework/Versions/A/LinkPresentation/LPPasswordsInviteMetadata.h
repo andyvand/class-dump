@@ -6,63 +6,46 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPPasswordsInviteMetadata : LPSpecializationMetadata
 {
     NSString *_groupName;
-    NSString *_urlParameters;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_buttonTitle;
-    LPImage *_icon;
 }
 
-+ (id);
++ (id)splitViewController:topColumnForCollapsingToProposedTopColumn: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (_Bool)touchUpInsideCloseButton;
+- (void):(id)arg1;
+- (id)textView:(id)arg1 shouldInteractWithURL:inRange:interaction: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)textView:(id)arg1 shouldInteractWithTextAttachment:inRange: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 shouldChangeTextInRange:replacementText: /* Error: Ran out of types for this method. */;
+- (_Bool)systemGrayChevronImage;
+- (id)suggestionPresenterDismissAllSuggestions: /* Error: Ran out of types for this method. */;
+- (id)startTrackingLocationForChat: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id);
+- (void)controlTextDidEndEditing:(id)arg1;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)x";
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@0:8@16@24@32 /* Error: Ran out of types for this method. */;
 - (void)!@ùQÐ1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *urlParameters; // @synthesize urlParameters=_urlParameters;
 
 @end
 

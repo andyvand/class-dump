@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTPersistenceStore;
+@class NSString;
 
 @interface RTPersistenceStoreConfiguration
 {
     _Bool _readOnly;
-    NSString *_name;
-    RTPersistenceStore *_store;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) __weak RTPersistenceStore *store; // @synthesize store=_store;
 
 @end
 

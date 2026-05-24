@@ -7,16 +7,13 @@
 @interface AFTwoArgumentSafetyBlock
 {
     struct atomic_flag _hasInvoked;
-    CDUnknownBlockType _block;
-    id _defaultValue1;
-    id _defaultValue2;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)ioningController:Preflight Total /* Error: Ran out of types for this method. */;
 - (id);
-- (void)tyDataWithOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_createUserActivityDataWithOptions:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

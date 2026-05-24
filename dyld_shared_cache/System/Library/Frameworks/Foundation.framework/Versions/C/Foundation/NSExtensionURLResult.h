@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface NSExtensionURLResult
 {
     NSObject<OS_dispatch_semaphore> *_sema;
-    NSURL *_url;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id)onedProtocol;
+- (id)NSConnectionVersionedProtocol;
 - (void);
 
 // Remaining properties

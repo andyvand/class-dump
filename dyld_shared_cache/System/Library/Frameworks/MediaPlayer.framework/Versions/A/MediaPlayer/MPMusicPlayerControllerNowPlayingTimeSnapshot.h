@@ -7,31 +7,23 @@
 @interface MPMusicPlayerControllerNowPlayingTimeSnapshot
 {
     double _elapsedTime;
-    double _duration;
-    double _timestamp;
-    _Bool _live;
-    float _rate;
-    long long _state;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id);
+- (id)passwordPanel;
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)_catchUpAccumulatedTouchesForRecognizer:(id)arg1;
 - (void);
 - (double);
 - (float)@"MPNowPlayingContentItem"16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
 @property(readonly, nonatomic, getter=isLive) _Bool live; // @synthesize live=_live;
-@property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

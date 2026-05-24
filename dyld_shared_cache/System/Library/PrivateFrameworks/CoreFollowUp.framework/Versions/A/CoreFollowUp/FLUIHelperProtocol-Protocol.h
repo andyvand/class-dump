@@ -5,5 +5,6 @@
 //
 
 @protocol FLUIHelperProtocol
+- (void);
 @end
 

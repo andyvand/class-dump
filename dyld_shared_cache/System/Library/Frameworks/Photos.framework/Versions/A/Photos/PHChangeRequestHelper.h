@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSMutableDictionary, NSMutableSet, NSString, PHClientLinkedAgainst, PHCreationRequestOptions, PHPerformChangesRequest;
-@protocol PHChangeRequest, PLClientAuthorization;
+@class PHClientLinkedAgainst;
 
 @interface PHChangeRequestHelper
 {
     _Bool _isMutated;
-    _Bool _isNewRequest;
-    NSMutableDictionary *_mutations;
-    NSMutableSet *_nilMutations;
-    id <PLClientAuthorization> _clientAuthorization;
-    id <PHChangeRequest> _changeRequest;
-    PHPerformChangesRequest *_request;
-    NSString *_uuid;
-    NSManagedObjectID *_objectID;
-    PHClientLinkedAgainst *_clientLinkedAgainst;
-    PHCreationRequestOptions *_creationOptions;
 }
 
 + (id);
@@ -27,32 +16,18 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)C;
+- (void)2H;
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -61,35 +36,34 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (void);
+- (id)!;
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)MusicUserTokenFetchingUnauthorized;
+- (id)�;
+- (id)b;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id)setExamplePlaceholder: /* Error: Ran out of types for this method. */;
+- (id)ICPTPDataBuffer;
 - (void)!AùQÐ1Â0@ù
 × ;
 - (void)¡ð!¬Cù±°1Â0@ù
 × ;
-- (id)ded;
+- (id)_prepareMomentShareHelperIfNeeded;
 - (void)ier;
 
 // Remaining properties
-@property(nonatomic) __weak id <PHChangeRequest> changeRequest; // @synthesize changeRequest=_changeRequest;
-@property(readonly, nonatomic) id <PLClientAuthorization> clientAuthorization; // @synthesize clientAuthorization=_clientAuthorization;
-@property(readonly, nonatomic) NSString *clientBundleIdentifier;
-@property(readonly, nonatomic) NSString *clientDisplayName;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic, getter=isClientInLimitedLibraryMode) _Bool clientInLimitedLibraryMode;
 @property(retain, nonatomic) PHClientLinkedAgainst *clientLinkedAgainst; // @synthesize clientLinkedAgainst=_clientLinkedAgainst;
-@property(copy, nonatomic) PHCreationRequestOptions *creationOptions; // @synthesize creationOptions=_creationOptions;
-@property(readonly, nonatomic) NSString *fetchFilterIdentifier;
-@property(nonatomic, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSMutableDictionary *mutations; // @synthesize mutations=_mutations;
-@property(nonatomic, getter=isNewRequest) _Bool newRequest;
-@property(readonly, nonatomic) NSMutableSet *nilMutations; // @synthesize nilMutations=_nilMutations;
-@property(retain, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(nonatomic) PHPerformChangesRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

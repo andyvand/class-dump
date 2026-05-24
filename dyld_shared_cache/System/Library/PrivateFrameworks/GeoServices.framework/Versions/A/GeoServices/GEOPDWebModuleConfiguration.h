@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDWebModuleConfiguration
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
-    int _type;
-    _Bool _shouldRenderBackgroundPlatter;
-    struct {
-        unsigned int has_type:1;
-        unsigned int has_shouldRenderBackgroundPlatter:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)b1"read_mapRegion"b1"read_name"b1"read_tokenSet"b1"wrote_anyField"b1};
-- (id)speedBucket;
+- (id)_speedBucket;
 - (id);
 - (void)÷XúÎJ@;
 

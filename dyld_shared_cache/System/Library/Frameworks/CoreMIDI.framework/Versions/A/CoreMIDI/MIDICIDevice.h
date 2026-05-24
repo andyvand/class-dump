@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDI2DeviceInfo, MIDIUMPMutableEndpoint, NSArray;
-
 @interface MIDICIDevice
 {
     unsigned int _objectRef;
-    MIDI2DeviceInfo *_deviceInfo;
-    unsigned int _MUID;
-    _Bool _supportsProtocolNegotiation;
-    _Bool _supportsProfileConfiguration;
-    _Bool _supportsPropertyExchange;
-    _Bool _supportsProcessInquiry;
-    unsigned long long _maxSysExSize;
-    unsigned long long _maxPropertyExchangeRequests;
-    unsigned char _deviceType;
-    NSArray *_profiles;
-    unsigned int _MIDISource;
-    unsigned int _MIDIDestination;
-    _Bool _isEnabled;
-    MIDIUMPMutableEndpoint *_endpoint;
-    NSArray *_resourceList;
-    struct vector<CIAsyncTransaction, std::allocator<CIAsyncTransaction>> _activeTransactions;
-    unsigned int _ownerClientRef;
-    struct unfair_recursive_lock mMutex;
-    unsigned char _group;
-    unsigned char _functionBlockID;
 }
 
 + (id);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
+- (_Bool)6 ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,8 +31,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)4@;
+- (id)A�;
 - (void);
 - (unsigned int);
 - (unsigned char);
@@ -66,29 +44,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned char);
+- (unsigned char)x%0x); returning default distance;
 - (unsigned char);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int MIDIDestination; // @synthesize MIDIDestination=_MIDIDestination;
-@property(nonatomic) unsigned int MIDISource; // @synthesize MIDISource=_MIDISource;
-@property(readonly, nonatomic) unsigned int MUID;
-@property(readonly, nonatomic) MIDI2DeviceInfo *deviceInfo;
-@property(readonly, nonatomic) unsigned char deviceType;
-@property(nonatomic) unsigned char functionBlockID; // @synthesize functionBlockID=_functionBlockID;
-@property unsigned char group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool isMine;
-@property(readonly, nonatomic) unsigned long long maxPropertyExchangeRequests;
-@property(readonly, nonatomic) unsigned long long maxSysExSize;
 @property(nonatomic) unsigned int objectRef; // @synthesize objectRef=_objectRef;
-@property(readonly, nonatomic) NSArray *profiles;
-@property(readonly, nonatomic) _Bool supportsProcessInquiry;
-@property(readonly, nonatomic) _Bool supportsProfileConfiguration;
-@property(readonly, nonatomic) _Bool supportsPropertyExchange;
-@property(readonly, nonatomic) _Bool supportsProtocolNegotiation;
 
 @end
 

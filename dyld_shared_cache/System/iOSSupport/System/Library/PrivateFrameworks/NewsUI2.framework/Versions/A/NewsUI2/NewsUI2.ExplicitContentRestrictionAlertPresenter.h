@@ -7,7 +7,6 @@
 @interface NewsUI2.ExplicitContentRestrictionAlertPresenter
 {
     id explicitContentRestrictionAlertPresenter;
-    id acceptBlock;
 }
 
 @end

@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface SCTGRLResolver : SCTInvocation
 {
     SCTGRL *mGRL;
-    double mDelay;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (void);
 
 @end

@@ -7,14 +7,12 @@
 @interface AdvMetrics
 {
     unsigned long long totalAdvCount[28];
-    unsigned long long totalDroppedAdvCount[28];
-    unsigned long long droppedAdvCount[28][28];
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);

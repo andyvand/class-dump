@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSData, NSString;
+@protocol MPMapFlightProtocol;
+
 @protocol MPAssetKeyDelegate
+- (NSString *)ches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (NSString *)gCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (NSString *)leInternal/Library/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+
+@optional
+- (NSString *)B;
+- (struct CGImage *);
+- (NSArray *)rk/Versions/A/UIKit;
+- (NSString *)SSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit;
+- (NSData *)uploadPayloadsForInfos:(NSString *)arg1 withEnvelopeStore:(struct CGSize)arg2 perPayloadCompletion:completion: /* Error: Ran out of types for this method. */;
+- (id <MPMapFlightProtocol>)notifyWhenCountReachesZeroOnQueue:(struct CGPoint)arg1 usingBlock:(struct CGPoint)arg2;
+- (NSArray *)URLSession:(NSString *)arg1 task:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGImage *);
 @end
 

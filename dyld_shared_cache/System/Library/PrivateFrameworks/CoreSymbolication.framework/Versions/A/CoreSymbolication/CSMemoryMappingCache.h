@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSMemoryMappingCache
 {
     unsigned int _count;
-    unsigned long long _total_mapped_size;
-    struct _CSRange _dsc_range;
-    unsigned long long _dsc_slide;
-    struct OrderedMemoryMappings _root_map;
-    struct vector<CSMemoryMapping *, std::allocator<CSMemoryMapping *>> _reclaimed_nodes;
-    unsigned int _task;
-    unsigned int _suspension_token;
-    unsigned int _suspension_count;
-    _Bool _is64Bit;
-    _Bool _touch_regions;
-    CDUnknownBlockType _region_info_block;
-    NSString *_purpose_label;
-    struct mutex _lock;
-    struct unique_ptr<CSCppCoreFileMetadata, std::default_delete<CSCppCoreFileMetadata>> _core_file_metadata;
 }
 
 + (void);
@@ -43,6 +27,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)7;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,26 +53,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -84,8 +68,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
+- (_Bool)@9(A;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -94,7 +78,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -102,13 +86,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool coreFileHasInfoForMemoryAnalysis;
-@property(readonly, nonatomic) _Bool coreFileIsExclave;
-@property(readonly, nonatomic) _Bool coreFileIsExclavecore;
-@property(readonly, nonatomic) NSString *coreFileParentProcName;
-@property(readonly, nonatomic) NSString *coreFileParentProcPath;
-@property(readonly, nonatomic) NSString *coreFileProcName;
-@property(readonly, nonatomic) NSString *coreFileProcPath;
 @property(readonly, nonatomic) _Bool is64Bit; // @synthesize is64Bit=_is64Bit;
 
 @end

@@ -13,8 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
+- (void)) failed with error 0x%016llX;
+- (id)\ansicpg1252\cocoartf1183
+;
 
 // Remaining properties
 @property(nonatomic) id <_NSScrollStateEventListener> scrollStateDelegate; // @synthesize scrollStateDelegate=_scrollStateDelegate;

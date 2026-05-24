@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNPhysicsShape;
-
 @protocol SCNPhysicsBodyJSExport
+- (_Bool)9;
+- (void);
+- (long long)buttonWidgetStateString;
+- (struct SCNVector3)x;
 - (void)ToLocalSpace(importanceSampleGGX, n);
 }
 
@@ -1471,26 +1473,6 @@ inline float pbr_area_light_eval_line(float2x3 cornerDirections)
 - (void)N;
 
 // Remaining properties
-@property(nonatomic, getter=isAffectedByGravity) _Bool affectedByGravity;
-@property(nonatomic) _Bool allowsResting;
-@property(nonatomic) double angularDamping;
-@property(nonatomic) struct SCNVector4 angularVelocity;
-@property(nonatomic) struct SCNVector3 angularVelocityFactor;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) double charge;
-@property(nonatomic) unsigned long long collisionBitMask;
-@property(nonatomic) unsigned long long contactTestBitMask;
-@property(nonatomic) double damping;
-@property(nonatomic) double friction;
-@property(readonly, nonatomic) _Bool isResting;
-@property(nonatomic) double mass;
-@property(nonatomic) struct SCNVector3 momentOfInertia;
-@property(retain, nonatomic) SCNPhysicsShape *physicsShape;
-@property(nonatomic) double restitution;
-@property(nonatomic) double rollingFriction;
 @property(nonatomic) long long type;
-@property(nonatomic) _Bool usesDefaultMomentOfInertia;
-@property(nonatomic) struct SCNVector3 velocity;
-@property(nonatomic) struct SCNVector3 velocityFactor;
 @end
 

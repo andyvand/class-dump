@@ -4,65 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEvent, EKObjectID, EKSource, NSString, NSURL;
-
 @interface EKCalendarNotification
 {
     long long _type;
-    NSString *_title;
-    NSString *_name;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
-    NSURL *_URL;
-    EKObjectID *_objectID;
-    struct CGColor *_dotColor;
-    _Bool _hiddenFromNotificationCenter;
-    _Bool _alerted;
-    EKSource *_source;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_recipientName;
-    EKCalendar *_calendar;
-    EKEvent *_event;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) _Bool alerted; // @synthesize alerted=_alerted;
-@property(retain, nonatomic) EKCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, nonatomic) _Bool containsBlockedAttendee;
-@property(readonly, nonatomic) _Bool containsCachedBlockedAttendee;
-@property(readonly, nonatomic) _Bool couldBeJunk;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGColor *dotColor; // @synthesize dotColor=_dotColor;
-@property(retain, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hiddenFromNotificationCenter; // @synthesize hiddenFromNotificationCenter=_hiddenFromNotificationCenter;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool needsAlert;
-@property(retain, nonatomic) EKObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) NSString *recipientName; // @synthesize recipientName=_recipientName;
-@property(retain, nonatomic) EKSource *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
 @end
 

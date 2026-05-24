@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableSet, NSNotificationCenter, NSObject, NSSet, NSString, TUCollaborationManager, TUConversation, TUConversationMediaController, TUConversationReactionsController, TUScreenSharingRemoteController;
-@protocol OS_dispatch_queue, TUConversationManagerDataSource, TUConversationMessagesGroupProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUConversationManager
 {
     _Bool _shouldCreateConversationsForCallsNotBackedByGroupSessions;
-    TUConversationMediaController *_mediaController;
-    TUConversationReactionsController *_reactionsController;
-    TUScreenSharingRemoteController *_screenSharingRemoteController;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TUConversationManagerDataSource> _dataSource;
-    NSMapTable *_delegateToQueue;
-    NSObject<OS_dispatch_queue> *_nonSessionBackedConversationCreationQueue;
-    NSMutableSet *_callsNotBackedByGroupSessionsPendingUpgrade;
-    NSMutableSet *_conversationsNotBackedByGroupSessions;
-    unsigned long long _nonSessionBackedConversationCreationMode;
-    TUCollaborationManager *_collaborationManager;
-    id <TUConversationMessagesGroupProviding> _messagesGroupProvider;
-    NSNotificationCenter *_notificationCenter;
-    CDUnknownBlockType _overriddenCallForGroupUUID;
 }
 
 + (_Bool);
@@ -33,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
@@ -42,12 +28,12 @@
 + (unsigned long long);
 + (_Bool);
 + (id);
-+ (id)rs:(id)arg1 reply: /* Error: Ran out of types for this method. */;
++ (id)addConversationLinkDescriptors:(id)arg1 reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p~;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -55,7 +41,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -66,43 +52,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -111,11 +73,35 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)(a;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)	;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -126,45 +112,47 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
+- (void);
+- (void)
+;
+- (void)8hC;
+- (void)q!;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)+;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id)qA;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)I@6
+<;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -172,7 +160,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)b !`;
 - (id);
 - (void);
 - (id);
@@ -180,25 +168,25 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
+- (id)stringByAppendingString:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)0:(_Bool)arg1 8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144Q152Q160B168B172B176B180B184B188B192B196@200;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (id)ledValueForPhoneNumber:(id)arg1;
-- (void)DeviceActive: /* Error: Ran out of types for this method. */;
-- (void)riginType;
+- (id)tu_labeledValueForPhoneNumber:(id)arg1;
+- (void)setIsAnyOtherAccountDeviceActive: /* Error: Ran out of types for this method. */;
+- (void)originType;
 - (void)UplinkMuted,V_uplinkMuted;
 - (void)tring",R,N,V_email;
 - (void)tÄx;
@@ -208,39 +196,7 @@
 - (_Bool)yutilities.callhistorycontrollerxpcclient;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *activatedConversationLinks;
-@property(readonly, copy, nonatomic) NSSet *activeAdvertisements;
-@property(readonly, copy, nonatomic) NSSet *activeConversations;
-@property(readonly, copy, nonatomic) NSDictionary *activityAuthorizedBundleIdentifiers;
-@property(nonatomic) _Bool autoSharePlayEnabled;
-@property(readonly, copy, nonatomic) TUConversation *avLessConversation;
-@property(retain, nonatomic) NSMutableSet *callsNotBackedByGroupSessionsPendingUpgrade; // @synthesize callsNotBackedByGroupSessionsPendingUpgrade=_callsNotBackedByGroupSessionsPendingUpgrade;
-@property(retain, nonatomic) TUCollaborationManager *collaborationManager;
-@property(retain, nonatomic) NSMutableSet *conversationsNotBackedByGroupSessions;
-@property(readonly, nonatomic) id <TUConversationManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) TUConversation *handoffEligibleConversation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *incomingPendingConversations;
-@property(readonly, nonatomic) TUConversationMediaController *mediaController;
-@property(nonatomic) __weak id <TUConversationMessagesGroupProviding> messagesGroupProvider;
-@property(nonatomic) _Bool nearbyContactDiscoveryEnabled;
-@property(nonatomic) unsigned long long nonSessionBackedConversationCreationMode;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *nonSessionBackedConversationCreationQueue; // @synthesize nonSessionBackedConversationCreationQueue=_nonSessionBackedConversationCreationQueue;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(copy, nonatomic) CDUnknownBlockType overriddenCallForGroupUUID;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) TUConversationReactionsController *reactionsController;
-@property(readonly, nonatomic, getter=isScreenSharingAvailable) _Bool screenSharingAvailable;
-@property(readonly, nonatomic) TUScreenSharingRemoteController *screenSharingRemoteController; // @synthesize screenSharingRemoteController=_screenSharingRemoteController;
-@property(readonly, nonatomic, getter=isSharePlayAvailable) _Bool sharePlayAvailable;
-@property(nonatomic) _Bool shouldCreateConversationsForCallsNotBackedByGroupSessions;
-@property(readonly) Class superclass;
 
 @end
 

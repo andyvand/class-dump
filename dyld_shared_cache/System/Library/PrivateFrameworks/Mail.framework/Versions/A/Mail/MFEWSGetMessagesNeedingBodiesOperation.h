@@ -12,19 +12,17 @@
 @interface MFEWSGetMessagesNeedingBodiesOperation : MFEWSPersistenceTaskOperation
 {
     id <MFEWSGetMessagesNeedingBodiesOperationDelegate> _delegate;
-    NSArray *_mailboxes;
 }
 
 - (id);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)initWithFrame:(id)arg1 brailleWord: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MFEWSGetMessagesNeedingBodiesOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSArray *mailboxes; // @synthesize mailboxes=_mailboxes;
 
 @end

@@ -9,7 +9,6 @@
 @interface PKExistingCardAuthorizationDiscoveryAvailability
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
 }
 
 + (id);
@@ -19,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)hb;
+- (_Bool)ipv4Installed;
+- (void)$pXU;
 - (id);
 - (void)DiscoveryArticleLayout"8Q16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGPoint, SGStructuredAddress;
+@class SGStructuredAddress;
 
 @interface SGGeoPoi
 {
     SGStructuredAddress *_address;
-    SGPoint *_prefGeocode;
-    NSString *_title;
-    NSString *_url;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)lightweightCheckOnly;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)or destination matrix; bailing!;
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)_cursorRectCursor;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SGStructuredAddress *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(readonly, nonatomic) _Bool hasPrefGeocode;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) SGPoint *prefGeocode; // @synthesize prefGeocode=_prefGeocode;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

@@ -5,14 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, TSUReadChannel;
+@protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface TSUZipFileDescriptorWrapper
 {
     NSObject<OS_dispatch_group> *_accessGroup;
-    int _fileDescriptor;
-    id <TSUReadChannel> _readChannel;
 }
 
 - (void);
@@ -27,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) int fileDescriptor; // @synthesize fileDescriptor=_fileDescriptor;
-@property(readonly, nonatomic) id <TSUReadChannel> readChannel; // @synthesize readChannel=_readChannel;
 
 @end
 

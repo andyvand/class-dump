@@ -5,5 +5,7 @@
 //
 
 @protocol SFUInputStream
+- (unsigned long long);
+- (long long)@;
 @end
 

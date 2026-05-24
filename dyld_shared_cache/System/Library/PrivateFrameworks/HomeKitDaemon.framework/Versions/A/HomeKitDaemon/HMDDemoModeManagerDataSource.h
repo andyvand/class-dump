@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFProductInfo;
 @protocol HMDHH2FrameworkSwitchDataSource;
 
 __attribute__((visibility("hidden")))
@@ -29,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)æù;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool appleMediaAccessory;
-@property(nonatomic, readonly) _Bool demoModeLocked;
-@property(nonatomic, readonly) _Bool demoModeMadeForDemoBundle;
 @property(nonatomic, readonly) _Bool demoModeV2Enabled;
-@property(nonatomic, readonly) _Bool demoModeV2EnabledAndActive;
-@property(nonatomic, readonly) _Bool demoModeV2WithoutCKEnabled;
-@property(nonatomic, retain) id <HMDHH2FrameworkSwitchDataSource> frameworkSwitchDataSource; // @synthesize frameworkSwitchDataSource;
-@property(nonatomic, readonly) _Bool loadDemoModeBackupConfiguration;
-@property(nonatomic, readonly) HMFProductInfo *productInfo;
 
 @end
 

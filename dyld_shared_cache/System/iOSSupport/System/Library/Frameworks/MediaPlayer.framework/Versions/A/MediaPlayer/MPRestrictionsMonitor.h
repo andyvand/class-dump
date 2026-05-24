@@ -7,15 +7,10 @@
 @interface MPRestrictionsMonitor
 {
     id settings;
-    id _configurationProfileNotification;
-    id _iTunesNotification;
-    id _demoModeNotification;
-    id defaults;
-    id demoModeDefaults;
 }
 
 + (id);
-- (void);
+- (void)atReAddComment;
 - (void);
 - (long long);
 - (long long);
@@ -24,21 +19,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)c;
 - (id);
 - (long long);
 - (long long);
-- (void)ckerConfiguration;
+- (void)MPMediaPickerConfiguration;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsDeletion;
-@property(nonatomic, readonly) _Bool allowsExplicitContent;
-@property(nonatomic, readonly) _Bool allowsMusicSubscription;
-@property(nonatomic, readonly) _Bool allowsMusicVideos;
-@property(nonatomic, readonly) long long maximumMovieRating;
-@property(nonatomic) long long maximumMovieRatingForAgeGate;
-@property(nonatomic, readonly) long long maximumTVShowRating;
-@property(nonatomic) long long maximumTVShowRatingForAgeGate;
 
 @end
 

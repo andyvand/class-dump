@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSString;
+@class MLModel;
 
 @interface HMIFaceQualityFilterSVM
 {
     MLModel *_mlModel;
-    MLModel *_scalerModel;
 }
 
 + (id);
@@ -29,15 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLModel *mlModel; // @synthesize mlModel=_mlModel;
-@property(readonly) MLModel *scalerModel; // @synthesize scalerModel=_scalerModel;
-@property(readonly) Class superclass;
 
 @end
 

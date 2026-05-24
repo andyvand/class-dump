@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDepthData, NSString, NUColorSpace;
+@class AVDepthData;
 
 @interface NUAuxiliaryImageAVDepthData
 {
     long long _auxiliaryImageType;
-    NUColorSpace *colorSpace;
-    AVDepthData *_avDepthData;
 }
 
 - (id);
@@ -27,20 +25,10 @@
 - (id);
 - (struct CGImageMetadata *);
 - (id);
-- (void)upportedImageSizeSet;
+- (void)supportedImageSizeSet;
 
 // Remaining properties
-@property(readonly) long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
 @property(readonly) AVDepthData *avDepthData; // @synthesize avDepthData=_avDepthData;
-@property(readonly, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGImageMetadata *metadata;
-@property(readonly) Class superclass;
 
 @end
 

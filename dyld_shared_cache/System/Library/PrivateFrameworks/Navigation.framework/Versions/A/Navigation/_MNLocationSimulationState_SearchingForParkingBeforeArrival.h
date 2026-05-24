@@ -14,11 +14,14 @@ __attribute__((visibility("hidden")))
     GEOComposedRoute *_routeToParkingDestination;
 }
 
-- (void);
-- (void);
+- (void)4P(
+;
+- (void)7<<
+;
 - (id);
-- (double);
-- (id);
+- (double)7Tk
+;
+- (id);
 - (void);
 - (void);
 - (void);

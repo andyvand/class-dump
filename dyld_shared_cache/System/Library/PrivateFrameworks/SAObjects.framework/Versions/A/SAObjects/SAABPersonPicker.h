@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *persons;
-@property(nonatomic) _Bool showImmediately;
 
 @end
 

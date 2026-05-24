@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface __NSSetI : NSSet
 {
     unsigned int _used:58;
-    unsigned int _szidx:6;
-    id _list[0];
 }
 
 + (_Bool);
 + (id);
-- (void);
+- (void)1 ;
 - (double);
 - (id);
 - (double);
-- (void);
-- (_Bool);
-- (id);
+- (void)must be <= [%s length](%lu).;
+- (_Bool)ervicesSubFrameworks/LaunchServices.subprj/Source/LaunchServices/Info/LSOpenWithMenu.mm;
+- (id);
 - (id);
 - (void);
 - (id);

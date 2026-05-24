@@ -9,9 +9,6 @@
 @protocol SXRenderingConfigurationOption
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *maxClientSpecVersion;
-@property(readonly, nonatomic) NSString *maxDocumentSpecVersion;
 @property(readonly, nonatomic) NSString *minClientSpecVersion;
-@property(readonly, nonatomic) NSString *minDocumentSpecVersion;
 @end
 

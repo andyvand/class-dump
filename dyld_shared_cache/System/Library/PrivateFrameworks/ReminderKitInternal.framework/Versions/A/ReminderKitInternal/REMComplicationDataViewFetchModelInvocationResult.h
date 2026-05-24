@@ -7,8 +7,6 @@
 @interface REMComplicationDataViewFetchModelInvocationResult
 {
     id accountStorages;
-    id listStorages;
-    id reminderStorages;
 }
 
 + (_Bool);

@@ -11,7 +11,7 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)eFeedback:(id)arg1;
++ (_Bool)setJunctionViewGuidanceFeedback:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (_Bool);
 - (void);
 - (id)ectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16i24i28;
-- (id)its: /* Error: Ran out of types for this method. */;
+- (id)autocompleteOriginationTypeFromTraits: /* Error: Ran out of types for this method. */;
 - (id)HtIdJ8K LôL´MhO;
 - (id)mestampDataReadAllFrom can only be called once per object;
 - (void);

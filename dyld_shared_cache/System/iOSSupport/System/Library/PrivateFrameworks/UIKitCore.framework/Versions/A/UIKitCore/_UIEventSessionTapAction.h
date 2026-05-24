@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id)onsReversed,S_setActionsReversed:(struct _NSZone *)arg1 ,V_actionsReversed;
 

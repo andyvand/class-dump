@@ -12,20 +12,20 @@
 }
 
 + (void);
-+ (id);
++ (id)pg_query__alter_default_privileges_stmt__pack;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ivitySessionStream, please consult error logs for cause;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id)lity:(id)arg1 %d;
 - (id);
-- (id);
-- (id);
+- (id)};
 - (void)TSúÿSúÿ´SúÿØSúÿüSúÿ Túÿ\TúÿTúÿ¤TúÿÈTúÿUúÿxUúÿUúÿÀUúÿüUúÿ VúÿDVúÿhVúÿ¤VúÿÈVúÿWúÿ\XúÿXúÿ¤XúÿàXúÿYúÿ@YúÿdYúÿYúÿ¨ZúÿÌZúÿðZúÿ,[úÿP[úÿt[úÿ[úÿÔ[úÿø[úÿD\úÿ¤]úÿà]úÿ^úÿ(^úÿ\^úÿ^úÿÜ^úÿè^úÿô^úÿ;
 
 // Remaining properties

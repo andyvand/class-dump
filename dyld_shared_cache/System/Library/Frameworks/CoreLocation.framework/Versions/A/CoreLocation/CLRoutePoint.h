@@ -7,22 +7,12 @@
 @interface CLRoutePoint
 {
     int _signalEnvironmentType;
-    double _latitude_deg;
-    double _longitude_deg;
-    double _altitude_m;
-    double _odometer_m;
-    double _timestamp_s;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double altitude_m; // @synthesize altitude_m=_altitude_m;
 @property(readonly, nonatomic) double latitude_deg; // @synthesize latitude_deg=_latitude_deg;
-@property(readonly, nonatomic) double longitude_deg; // @synthesize longitude_deg=_longitude_deg;
-@property(readonly, nonatomic) double odometer_m; // @synthesize odometer_m=_odometer_m;
-@property(readonly, nonatomic) int signalEnvironmentType; // @synthesize signalEnvironmentType=_signalEnvironmentType;
-@property(readonly, nonatomic) double timestamp_s; // @synthesize timestamp_s=_timestamp_s;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface PassKitCore.ProvisioningStrongPasscodeAssertion
 {
     id device;
-    id lock;
-    id isValid;
-    id isPasscodeStrong;
 }
 
 @end

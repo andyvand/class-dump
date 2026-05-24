@@ -6,26 +6,23 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class NSArray;
 @protocol IMAPPersistMessagesOperationDelegate;
 
 @interface IMAPPersistMessagesOperation : IMAPPersistenceTaskOperation
 {
     id <IMAPPersistMessagesOperationDelegate> _delegate;
-    NSArray *_messages;
 }
 
 - (id);
-- (id);
+- (id)xb;
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPPersistMessagesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 
 @end
 

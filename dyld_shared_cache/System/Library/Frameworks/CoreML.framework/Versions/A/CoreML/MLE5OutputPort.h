@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLE5OutputPortBinder, MLFeatureDescription, MLFeatureValue, MLPixelBufferPool, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MLE5OutputPort
 {
     NSString *_name;
-    struct e5rt_io_port *_portHandle;
-    MLFeatureDescription *_featureDescription;
-    MLE5OutputPortBinder *_binder;
 }
 
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct e5rt_io_port *);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)8y
+;
 - (id);
-- (void);
-- (void);
+- (void)fset"C"accelBiasDof"C"positionCovOffset"C"positionDof"C};
+- (void)pD;
+- (id)Tcp;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)k's logic error.;
 
 // Remaining properties
-@property(retain) MLE5OutputPortBinder *binder; // @synthesize binder=_binder;
-@property(readonly, nonatomic) _Bool boundFeatureDirectly;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) MLFeatureDescription *featureDescription; // @synthesize featureDescription=_featureDescription;
-@property(readonly) MLFeatureValue *featureValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool outputBackingWasDirectlyBound;
-@property(retain, nonatomic) MLPixelBufferPool *pixelBufferPool;
 @property(readonly) struct e5rt_io_port *portHandle; // @synthesize portHandle=_portHandle;
-@property(readonly) Class superclass;
 
 @end
 

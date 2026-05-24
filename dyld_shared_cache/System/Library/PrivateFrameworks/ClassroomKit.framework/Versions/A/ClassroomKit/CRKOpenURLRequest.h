@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface CRKOpenURLRequest
 {
     _Bool _lockInApp;
-    NSURL *_URL;
-    NSString *_URLDisplayName;
-    NSArray *_handlingBundleIdentifiers;
 }
 
 + (_Bool);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *URLDisplayName; // @synthesize URLDisplayName=_URLDisplayName;
-@property(copy, nonatomic) NSArray *handlingBundleIdentifiers; // @synthesize handlingBundleIdentifiers=_handlingBundleIdentifiers;
-@property(nonatomic) _Bool lockInApp; // @synthesize lockInApp=_lockInApp;
 
 @end
 

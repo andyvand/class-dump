@@ -5,13 +5,16 @@
 //
 
 @class OS_dispatch_queue;
-@protocol HMMLogEventDispatchingDataSource;
+@protocol HMMLogEventObserver;
 
 @protocol HMMLogEventDispatching
+- (void)@?0@"<MSPMutableObject>"8;
+- (void):(id <HMMLogEventObserver>)arg1 ]_block_invoke;
+- (void)lock:(id <HMMLogEventObserver>)arg1 context:(Class)arg2 completionQueue:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (OS_dispatch_queue *)host:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) OS_dispatch_queue *clientQueue;
-@property __weak id <HMMLogEventDispatchingDataSource> dataSource;
 @end
 

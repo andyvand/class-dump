@@ -6,28 +6,24 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface SSDictionaryResultBuilder : SSResultBuilder
 {
     NSString *_definitionString;
-    NSArray *_definitions;
-    NSString *_dictionaryName;
-    NSString *_word;
-    NSURL *_dictionaryURL;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)setParagraphSpacing: /* Error: Ran out of types for this method. */;
+- (id)setOverrideAllowOpeningSensitiveURLs: /* Error: Ran out of types for this method. */;
+- (id)setNumberOfItems: /* Error: Ran out of types for this method. */;
+- (id)selectItemWithTitle: /* Error: Ran out of types for this method. */;
+- (id)requestMetadataForURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)replaceCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (void)initWithURL:(id)arg1 generator: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -37,10 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *definitionString; // @synthesize definitionString=_definitionString;
-@property(retain, nonatomic) NSArray *definitions; // @synthesize definitions=_definitions;
-@property(retain, nonatomic) NSString *dictionaryName; // @synthesize dictionaryName=_dictionaryName;
-@property(retain, nonatomic) NSURL *dictionaryURL; // @synthesize dictionaryURL=_dictionaryURL;
-@property(retain, nonatomic) NSString *word; // @synthesize word=_word;
 
 @end
 

@@ -10,23 +10,20 @@
 {
 }
 
-- (_Bool);
+- (_Bool)set_allowsExpensiveAccess: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ice identifiers after handling unrecoverable decryption errors:%{public}@:%lld (%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)neTransform=dddddd}16;
 - (_Bool);
 - (id)V_contentFrame;
 - (void)álhÑÿlh¤Ñÿlh°Ñÿalh¼Ñÿ±lhÈÑÿAlhÔÑÿAlhx~ÿlhØÑÿÁlh$ÌÿlhØÑÿ;
 
 // Remaining properties
-@property(readonly, getter=isExplicitlyIncluded) _Bool explicitlyIncluded; // @dynamic explicitlyIncluded;
 @property(copy) NSString *key; // @dynamic key;
-@property(copy) NSString *localizedKey; // @dynamic localizedKey;
-@property(retain) id value; // @dynamic value;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.AlacarteSubscriptionURLHandler
 {
     id patterns;
-    id navigator;
-    id webOptinFlowManager;
 }
 
 @end

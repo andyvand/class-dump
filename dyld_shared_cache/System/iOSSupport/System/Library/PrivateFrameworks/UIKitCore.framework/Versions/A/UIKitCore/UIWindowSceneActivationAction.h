@@ -6,42 +6,36 @@
 
 #import <UIKitCore/UIAction.h>
 
-@class NSString;
 @protocol _UIWindowSceneActivator;
 
 @interface UIWindowSceneActivationAction : UIAction
 {
     id <_UIWindowSceneActivator> __preferredActivator;
-    CDUnknownBlockType __configurationProvider;
-    UIAction *__alternateAction;
 }
 
 + (id);
 + (id);
++ (id)!;
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)requestTranscriptBackgroundIfNecessary:(id)arg1 toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
+- (id),;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)- We had a problem archiving handle list for key %@ error %@;
+- (void)ated id %@ recordIDS are equals %@;
+- (void)c states;
+- (id)nd the message was already marked read at %@;
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void)terKey:(id)arg1;
+- (void)_enabledTraitsForLetterKey:(id)arg1;
 - (id)umValue;
 - (_Bool)ngSuperviewLayoutMargins = %@;
 - (void)øMÛ,_;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAlternateAction:) UIAction *_alternateAction; // @synthesize _alternateAction=__alternateAction;
-@property(copy, nonatomic, setter=_setConfigurationProvider:) CDUnknownBlockType _configurationProvider; // @synthesize _configurationProvider=__configurationProvider;
 @property(nonatomic) __weak id <_UIWindowSceneActivator> _preferredActivator; // @synthesize _preferredActivator=__preferredActivator;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

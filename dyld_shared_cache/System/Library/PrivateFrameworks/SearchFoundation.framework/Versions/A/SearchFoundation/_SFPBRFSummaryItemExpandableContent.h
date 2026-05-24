@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference, _SFPBRFSimpleItemRichCardSection;
+@class _SFPBRFSimpleItemRichCardSection;
 
 @interface _SFPBRFSummaryItemExpandableContent
 {
     _SFPBRFSimpleItemRichCardSection *_simple_item_rich_card_section;
-    _SFPBCommandReference *_command_reference;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (id);
@@ -23,24 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestComposabilityScoresOfAssetsForLocalIdentifiers:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (id)der] - Request was cancelled, will not live render;
 - (id);
 - (id);
 - (void)PBWebCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *command_reference; // @synthesize command_reference=_command_reference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFSimpleItemRichCardSection *simple_item_rich_card_section; // @synthesize simple_item_rich_card_section=_simple_item_rich_card_section;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

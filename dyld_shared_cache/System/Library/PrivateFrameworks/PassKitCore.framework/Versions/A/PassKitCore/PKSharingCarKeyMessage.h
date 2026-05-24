@@ -6,13 +6,13 @@
 
 #import <PassKitCore/PKSharingGenericMessage.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKSharingCarKeyMessage : PKSharingGenericMessage
 {
 }
 
-+ (_Bool);
++ (_Bool)oreFoundation;
 - (id);
 - (id);
 - (id);
@@ -24,10 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *carKeySharingDict;
-@property(readonly, nonatomic) NSString *friendKeyIdentifier;
-@property(readonly, nonatomic) NSString *shareIdentifier;
-@property(readonly, nonatomic) NSString *shareSessionIdentifier;
-@property(readonly, nonatomic) NSData *underlyingPayload;
 
 @end
 

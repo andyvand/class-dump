@@ -5,5 +5,9 @@
 //
 
 @protocol TNodeObserverProtocol
+
+@optional
+- (void);
+- (void)k;
 @end
 

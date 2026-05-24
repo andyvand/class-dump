@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id);
++ (void)bundleForClass:(id)arg1;
 - (id);
 
 @end

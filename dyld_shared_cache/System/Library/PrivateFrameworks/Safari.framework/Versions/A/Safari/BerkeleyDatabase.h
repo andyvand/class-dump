@@ -20,7 +20,6 @@ __attribute__((visibility("hidden")))
         void *_field8;
         CDUnknownFunctionPointerType _field9;
     } *_database;
-    NSURL *_databaseURL;
 }
 
 - (_Bool);
@@ -38,7 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, nonatomic, getter=isOpen) _Bool open;
 
 @end
 

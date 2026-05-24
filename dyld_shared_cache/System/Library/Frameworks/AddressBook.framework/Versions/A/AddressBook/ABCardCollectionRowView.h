@@ -4,56 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardCollectionView, ABCardViewStyleProvider, ABCollectionViewItem, ABImmediateActionGestureAdapter, ABOverlayView, ABThrottledTrackingAreaMonitor, CNCollectionViewTouchBar, NSArray, NSButton, NSPopUpButton, NSStackView, NSString, NSTrackingArea, NSView;
-@protocol CNCancelable;
+@class CNCollectionViewTouchBar, NSButton;
 
 @interface ABCardCollectionRowView
 {
     NSButton *_addValueButton;
-    NSButton *_removeValueButton;
-    NSButton *_privacyCheckbox;
-    NSButton *_suggestedButton;
-    NSStackView *_stackView;
-    NSView *_labelView;
-    NSView *_valueView;
-    NSArray *_actionGlyphButtons;
-    NSView *_accessoryView;
-    NSStackView *_staticIdentityBadgeView;
-    ABOverlayView *_focusRingView;
-    ABCardCollectionView *_cardCollectionView;
-    ABCollectionViewItem *_collectionItem;
-    id <CNCancelable> _firstResponderChangedToken;
-    NSTrackingArea *_labelTrackingArea;
-    NSTrackingArea *_valueTrackingArea;
-    NSTrackingArea *_rowTrackingArea;
-    _Bool _cursorInTrackingArea;
-    ABCardViewStyleProvider *_styleProvider;
-    _Bool _loaded;
-    _Bool _shouldHideAddButton;
-    _Bool _shouldHideMinusButton;
-    _Bool _shouldHideSuggestedButton;
-    _Bool _shouldHighlightLabel;
-    _Bool _textHadContentBeforeEditing;
-    NSArray *_constraints;
-    ABThrottledTrackingAreaMonitor *_rowTrackingAreaMonitor;
-    ABImmediateActionGestureAdapter *_immediateActionGestureAdapter;
-    CNCollectionViewTouchBar *_collectionViewTouchBar;
 }
 
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)5;
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,10 +34,10 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -78,6 +49,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,8 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)F;
 - (void);
 - (void);
 - (void);
@@ -113,7 +84,7 @@
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -141,7 +112,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -160,7 +131,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (void);
@@ -175,58 +146,28 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)t=dd}56;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)firstValueForBuyParameter: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 - (_Bool)á@°!¨Eù1ª°1Â0@ù
 × ;
 - (void)
 × ;
 - (void)Qªð1Â0@ù
 × ;
-- (id)Identifiers: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1;
+- (id)textView:shouldUpdateTouchBarItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)setUserDefaults:(id)arg1;
 - (void)¹;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(retain) NSArray *actionGlyphButtons; // @synthesize actionGlyphButtons=_actionGlyphButtons;
-@property(retain) NSButton *addValueButton; // @synthesize addValueButton=_addValueButton;
-@property __weak ABCardCollectionView *cardCollectionView; // @synthesize cardCollectionView=_cardCollectionView;
-@property __weak ABCollectionViewItem *collectionItem; // @synthesize collectionItem=_collectionItem;
 @property(retain) CNCollectionViewTouchBar *collectionViewTouchBar; // @synthesize collectionViewTouchBar=_collectionViewTouchBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) ABOverlayView *focusRingView; // @synthesize focusRingView=_focusRingView;
-@property(readonly, getter=isFocused) _Bool focused;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *labelView; // @synthesize labelView=_labelView;
-@property(getter=isLoaded) _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain) NSPopUpButton *messagingServiceChooserPopup;
-@property(retain) NSView *messagingServiceLabel;
-@property(retain) NSButton *privacyCheckbox; // @synthesize privacyCheckbox=_privacyCheckbox;
-@property(retain) NSButton *removeValueButton; // @synthesize removeValueButton=_removeValueButton;
-@property _Bool shouldHideAddButton; // @synthesize shouldHideAddButton=_shouldHideAddButton;
-@property _Bool shouldHideMinusButton; // @synthesize shouldHideMinusButton=_shouldHideMinusButton;
-@property _Bool shouldHideSuggestedButton; // @synthesize shouldHideSuggestedButton=_shouldHideSuggestedButton;
-@property _Bool shouldHighlightLabel; // @synthesize shouldHighlightLabel=_shouldHighlightLabel;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain) NSStackView *staticIdentityBadgeView; // @synthesize staticIdentityBadgeView=_staticIdentityBadgeView;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(retain) NSButton *suggestedButton; // @synthesize suggestedButton=_suggestedButton;
-@property(readonly) Class superclass;
-@property _Bool valueIsPrivate;
-@property(retain) NSView *valueView; // @synthesize valueView=_valueView;
 
 @end
 

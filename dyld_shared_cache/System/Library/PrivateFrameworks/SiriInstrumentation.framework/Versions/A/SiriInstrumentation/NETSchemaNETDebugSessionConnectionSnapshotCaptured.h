@@ -6,25 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETDebugSessionConnectionNetwork, NETSchemaNETDebugSessionConnectionPingInfo, NETSchemaNETDebugSessionConnectionQuality, NSArray, NSData;
-
 @interface NETSchemaNETDebugSessionConnectionSnapshotCaptured : SISchemaInstrumentationMessage
 {
     unsigned int _sequenceNumber;
-    NETSchemaNETDebugSessionConnectionNetwork *_network;
-    NSArray *_networkInterfaces;
-    NETSchemaNETDebugSessionConnectionPingInfo *_pingInfo;
-    NETSchemaNETDebugSessionConnectionQuality *_quality;
-    struct {
-        unsigned int sequenceNumber:1;
-    } _has;
-    _Bool _hasNetwork;
-    _Bool _hasPingInfo;
-    _Bool _hasQuality;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -36,13 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)egFormResTBS;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -54,7 +42,7 @@
 - (id)ceFlowRequestContext;
 - (id)interpretations;
 - (id)cutActions;
-- (void)NKSchemaFLOWLINKActionConfirmationContext;
+- (void)FLOWLINKSchemaFLOWLINKActionConfirmationContext;
 - (_Bool)Î=ÿ;
 - (void);
 - (id)Î(¶f¢!;
@@ -64,15 +52,6 @@
 - (void)Çÿ®Ê'$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNetwork; // @synthesize hasNetwork=_hasNetwork;
-@property(nonatomic) _Bool hasPingInfo; // @synthesize hasPingInfo=_hasPingInfo;
-@property(nonatomic) _Bool hasQuality; // @synthesize hasQuality=_hasQuality;
-@property(nonatomic) _Bool hasSequenceNumber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETDebugSessionConnectionNetwork *network; // @synthesize network=_network;
-@property(copy, nonatomic) NSArray *networkInterfaces; // @synthesize networkInterfaces=_networkInterfaces;
-@property(retain, nonatomic) NETSchemaNETDebugSessionConnectionPingInfo *pingInfo; // @synthesize pingInfo=_pingInfo;
-@property(retain, nonatomic) NETSchemaNETDebugSessionConnectionQuality *quality; // @synthesize quality=_quality;
 @property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end

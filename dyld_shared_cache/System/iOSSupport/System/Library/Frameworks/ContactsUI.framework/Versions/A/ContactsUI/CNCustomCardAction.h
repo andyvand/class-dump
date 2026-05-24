@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactTargetActionWrapper, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNCustomCardAction
 {
     _Bool _destructive;
-    NSString *_title;
-    CNContactTargetActionWrapper *_targetActionWrapper;
-    NSString *_contactIdentifier;
-    long long _placement;
-    CDUnknownBlockType _menuProvider;
 }
 
 + (long long);
@@ -27,15 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)builtinItemsSection;
+- (void)_builtinItemsSection;
 - (long long)t poster to recents:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic, getter=isDestructive) _Bool destructive; // @synthesize destructive=_destructive;
-@property(readonly, nonatomic) CDUnknownBlockType menuProvider; // @synthesize menuProvider=_menuProvider;
-@property(readonly, nonatomic) long long placement; // @synthesize placement=_placement;
-@property(readonly, nonatomic) CNContactTargetActionWrapper *targetActionWrapper; // @synthesize targetActionWrapper=_targetActionWrapper;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

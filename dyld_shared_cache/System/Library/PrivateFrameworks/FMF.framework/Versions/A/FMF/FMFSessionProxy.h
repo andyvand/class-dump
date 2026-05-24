@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFSession, NSString;
+@class FMFSession;
 
 __attribute__((visibility("hidden")))
 @interface FMFSessionProxy
@@ -14,43 +14,36 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void),GisArcadeOpenable;
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void)gnosticCaseSummary objects...;
 - (void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void)ary/PrivateFrameworks/Sharing.framework/Versions/A/Sharing;
 - (oneway void)@ù
 × ;
 - (oneway void)0@ù
 × ;
 - (oneway void)16;
-- (oneway void)hPath:(id)arg1;
+- (oneway void)initWithPath:(id)arg1;
 - (oneway void)ionForHandle:(id)arg1 %@:%@ /* Error: Ran out of types for this method. */;
 - (oneway void)ated. Finishing with error.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak FMFSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

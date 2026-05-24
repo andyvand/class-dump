@@ -7,10 +7,11 @@
 @class _DKEvent;
 
 @protocol _DKInstantMonitor
+- (void)date:unbalanced enable/disable update. /* Error: Ran out of types for this method. */;
+- (_DKEvent *)b;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _DKEvent *currentEvent;
 @property(copy, nonatomic) CDUnknownBlockType instantHandler;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol LPLinkViewDelegate
+
+@optional
+- (void);
 @end
 

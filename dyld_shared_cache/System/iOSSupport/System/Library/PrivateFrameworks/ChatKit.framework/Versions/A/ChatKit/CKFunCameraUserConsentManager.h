@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool)d;
++ (void)ain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
 - (id);
 - (void)CKInlineMediaTextAttachmentViewProvider;
 

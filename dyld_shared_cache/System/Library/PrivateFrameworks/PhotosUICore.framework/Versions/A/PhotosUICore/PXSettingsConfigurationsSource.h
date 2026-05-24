@@ -5,13 +5,10 @@
 //
 
 @class NSMutableArray, NSUserDefaults;
-@protocol PXSettingsConfigurationsSourceObserver;
 
 @interface PXSettingsConfigurationsSource
 {
     NSUserDefaults *_userDefaults;
-    id <PXSettingsConfigurationsSourceObserver> _observer;
-    NSMutableArray *_configurations;
 }
 
 - (void);
@@ -20,13 +17,13 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void));
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)ntifier;
+- (void)CGSize=dd}}48{CGPoint=dd}80;
+- (id)_keyFaceByPersonLocalIdentifier;
 - (id);
 - (id)UnifiedResults:forFetch:] /* Error: Ran out of types for this method. */;
 - (void)¾;
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *configurations; // @synthesize configurations=_configurations;
-@property(readonly, nonatomic) long long numberOfConfigurations;
-@property(nonatomic) __weak id <PXSettingsConfigurationsSourceObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

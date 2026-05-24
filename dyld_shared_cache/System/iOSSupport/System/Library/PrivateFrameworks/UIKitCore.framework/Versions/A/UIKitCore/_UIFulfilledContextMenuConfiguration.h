@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, UIAction, UIMenu, UIResponder, UITargetedPreview, UIViewController;
 @protocol NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface _UIFulfilledContextMenuConfiguration
 {
     id <NSCopying> _identifier;
-    NSSet *_internalIdentifiers;
-    UITargetedPreview *_sourcePreview;
-    NSArray *_secondarySourcePreviews;
-    UIViewController *_previewViewController;
-    NSArray *_accessoryViews;
-    UIMenu *_menu;
-    UIAction *_previewAction;
-    unsigned long long _representedItemCount;
-    unsigned long long _badgeCount;
-    UIResponder *_firstResponderTarget;
 }
 
 - (id);
@@ -30,38 +19,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)"NSString"40C48@"NSString"52;
+- (unsigned long long)48;
+- (id)unreadMessagesWithRoomNames:onServices:limit:fallbackGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)postCoreAutomationNotificationFinishedPurgingAttachments:withErrorString: /* Error: Ran out of types for this method. */;
+- (id)normalizedPhoneNumberHandleForValue:isoCountryCode: /* Error: Ran out of types for this method. */;
+- (id)connection:didReceiveIncomingMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)ing"8@"NSString"16^B24;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
-- (void)FingerPanGestureRecognizer;
+- (void)_twoFingerPanGestureRecognizer;
 - (id)¨ýþ;
 - (void)or UIAxisHorizontal;
 - (void);
 - (id)M;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(nonatomic) unsigned long long badgeCount; // @synthesize badgeCount=_badgeCount;
-@property(nonatomic) __weak UIResponder *firstResponderTarget; // @synthesize firstResponderTarget=_firstResponderTarget;
 @property(copy, nonatomic) id <NSCopying> identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSSet *internalIdentifiers; // @synthesize internalIdentifiers=_internalIdentifiers;
-@property(readonly, nonatomic) _Bool isMultiItemMenu;
-@property(copy, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(copy, nonatomic) UIAction *previewAction; // @synthesize previewAction=_previewAction;
-@property(retain, nonatomic) UIViewController *previewViewController; // @synthesize previewViewController=_previewViewController;
-@property(nonatomic) unsigned long long representedItemCount; // @synthesize representedItemCount=_representedItemCount;
-@property(retain, nonatomic) NSArray *secondarySourcePreviews; // @synthesize secondarySourcePreviews=_secondarySourcePreviews;
-@property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
 
 @end
 

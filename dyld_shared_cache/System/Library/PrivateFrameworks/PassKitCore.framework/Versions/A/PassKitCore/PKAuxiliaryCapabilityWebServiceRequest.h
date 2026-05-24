@@ -13,7 +13,7 @@
     PKSecureElementPass *_pass;
 }
 
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);

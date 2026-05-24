@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UISearchBarLayout, _UISearchBarTransitionContext;
+@class UIView, _UISearchBarLayout;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchBarTransitionerBase
 {
     _UISearchBarLayout *_activeLayout;
-    UIView *_searchBar;
-    _UISearchBarTransitionContext *_transitionContext;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)ancelled: /* Error: Ran out of types for this method. */;
-- (id)ne: /* Error: Ran out of types for this method. */;
-- (void)onfiguration:layoutAnchor: /* Error: Ran out of types for this method. */;
-- (void)aughtScroller;
+- (id)_MPMKT_transformedType;
+- (void)setFailsOnTouchesCancelled: /* Error: Ran out of types for this method. */;
+- (id)setCanDisplayInline: /* Error: Ran out of types for this method. */;
+- (void)_collectionView:accessoriesForContextMenuWithConfiguration:layoutAnchor: /* Error: Ran out of types for this method. */;
+- (void)OverlayScrollerCancelledHideDelayForCaughtScroller;
 - (void)corresponding presentation controller.;
-- (void)Clamp;
-- (void)rence;
+- (void)inputClamp;
+- (void)CoreListMetricsContentInsetsReference;
 - (id)];
 - (id)_;
 
 // Remaining properties
-@property(readonly, nonatomic) _UISearchBarLayout *activeLayout; // @synthesize activeLayout=_activeLayout;
 @property(readonly, nonatomic) __weak UIView *searchBar; // @synthesize searchBar=_searchBar;
-@property(retain, nonatomic) _UISearchBarTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
 
 @end
 

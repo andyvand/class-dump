@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MRPictureFrameInfo
 {
     struct CGRect rect;
-    struct CGRect tableRect;
-    _Bool onTable;
-    NSString *aspectRatio;
-    _Bool ignoreMatte;
-    _Bool useLastFrame;
 }
 
 - (void);
 - (void);
-- (id)fOperatorIfE;
+- (id)10IfOperatorIfE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aspectRatio; // @synthesize aspectRatio;
-@property(nonatomic) _Bool ignoreMatte; // @dynamic ignoreMatte;
-@property(nonatomic) _Bool onTable; // @dynamic onTable;
 @property(nonatomic) struct CGRect rect; // @dynamic rect;
-@property(nonatomic) struct CGRect tableRect; // @dynamic tableRect;
-@property(nonatomic) _Bool useLastFrame; // @dynamic useLastFrame;
 
 @end
 

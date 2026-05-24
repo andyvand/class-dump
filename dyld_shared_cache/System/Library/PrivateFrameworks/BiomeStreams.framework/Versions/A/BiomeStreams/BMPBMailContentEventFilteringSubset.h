@@ -9,24 +9,22 @@
 @interface BMPBMailContentEventFilteringSubset
 {
     NSString *_domainId;
-    NSString *_personaId;
-    NSString *_uniqueId;
 }
 
 - (_Bool);
 - (_Bool);
+- (void)llbacksWithNWConnectionMonitor:(id)arg1 ];
+- (_Bool);
+- (id);
+- (id);
 - (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)uniqueIdentifier;
+- (id)K);
 - (id);
 - (void);
 - (id);
@@ -34,12 +32,7 @@
 - (void)Ö×ØÙÚÛÜ#$%&'(ÝÞ+ß,;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

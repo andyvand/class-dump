@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItem, NSString;
+@class MPMediaItem;
 
 @interface _MPMusicPlayerMediaItemProxy
 {
     MPMediaItem *_item;
-    NSString *_itemIdentifier;
 }
 
-- (id);
+- (id)j;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)currentQueueEndAction;
+- (void)_currentQueueEndAction;
 - (id)Translator was missing mapping for MPModelPropertyRadioStationBeats1;
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 
 @end
 

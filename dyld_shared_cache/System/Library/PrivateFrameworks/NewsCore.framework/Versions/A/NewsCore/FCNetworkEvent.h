@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateInterval, NSDictionary, NSError, NSString, NSURL;
-
 @interface FCNetworkEvent
 {
     _Bool _isProxyConnection;
-    int _type;
-    NSURL *_URL;
-    NSString *_requestUUID;
-    NSString *_operationID;
-    NSString *_responseMIMEType;
-    unsigned long long _HTTPStatusCode;
-    NSString *_HTTPMethod;
-    NSDictionary *_HTTPResponseHeaders;
-    NSString *_containerName;
-    NSError *_error;
-    double _startTime;
-    double _dnsDuration;
-    double _connectDuration;
-    double _requestDuration;
-    double _responseDuration;
-    unsigned long long _requestSize;
-    unsigned long long _responseSize;
-    NSArray *_smarterFetchSources;
-    NSString *_smarterFetchStrategy;
 }
 
 - (id);
@@ -37,30 +16,30 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)(=;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (double);
+- (_Bool)%@;
+- (double)isAnimating;
 - (double);
 - (id);
 - (int);
 - (id);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)scrollViewDidChangeAdjustedContentInset: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id);
 - (id)Ô ;
-- (id)WithTimeInterval: /* Error: Ran out of types for this method. */;
-- (double)yIndexUsedforTitle:treatmentState: /* Error: Ran out of types for this method. */;
+- (id)slicesWithTimeInterval: /* Error: Ran out of types for this method. */;
+- (double)initWithChosenTitle:isTitleExperimental:arrayIndexUsedforTitle:treatmentState: /* Error: Ran out of types for this method. */;
 - (id)ÄìÆ;
-- (id)Articles;
+- (id)EvergreenArticles;
 - (void)oraryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPersonalizationCohortConfig.m;
 - (id)ons, policy=%s;
 - (unsigned long long);
@@ -69,32 +48,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *HTTPMethod; // @synthesize HTTPMethod=_HTTPMethod;
-@property(readonly, copy, nonatomic) NSDictionary *HTTPResponseHeaders; // @synthesize HTTPResponseHeaders=_HTTPResponseHeaders;
-@property(readonly, nonatomic) unsigned long long HTTPStatusCode; // @synthesize HTTPStatusCode=_HTTPStatusCode;
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) double connectDuration; // @synthesize connectDuration=_connectDuration;
-@property(readonly, copy, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(readonly, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, nonatomic) double dnsDuration; // @synthesize dnsDuration=_dnsDuration;
-@property(readonly, nonatomic) double endTime;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool isProxyConnection; // @synthesize isProxyConnection=_isProxyConnection;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(readonly, nonatomic) double requestDuration; // @synthesize requestDuration=_requestDuration;
-@property(readonly, nonatomic) unsigned long long requestSize; // @synthesize requestSize=_requestSize;
-@property(readonly, copy, nonatomic) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly, nonatomic) double responseDuration; // @synthesize responseDuration=_responseDuration;
-@property(readonly, copy, nonatomic) NSString *responseETag;
-@property(readonly, copy, nonatomic) NSDate *responseExpirationDate;
-@property(readonly, nonatomic) _Bool responseIsHTTPNotModified;
-@property(readonly, copy, nonatomic) NSString *responseMIMEType; // @synthesize responseMIMEType=_responseMIMEType;
-@property(readonly, nonatomic) double responseMaxAge;
-@property(readonly, nonatomic) unsigned long long responseSize; // @synthesize responseSize=_responseSize;
-@property(readonly, copy, nonatomic) NSArray *smarterFetchSources; // @synthesize smarterFetchSources=_smarterFetchSources;
-@property(readonly, copy, nonatomic) NSString *smarterFetchStrategy; // @synthesize smarterFetchStrategy=_smarterFetchStrategy;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) double totalDuration;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

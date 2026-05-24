@@ -5,5 +5,6 @@
 //
 
 @protocol NSMutableCopying
+- (id)setAudioFileType:(struct _NSZone *)arg1;
 @end
 

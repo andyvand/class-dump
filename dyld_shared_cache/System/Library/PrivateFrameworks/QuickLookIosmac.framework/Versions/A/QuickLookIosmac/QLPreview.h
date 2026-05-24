@@ -6,66 +6,20 @@
 
 #import <QuickLookIosmac/QLClient.h>
 
-@class NSData, NSDictionary, NSFileCoordinator, NSMutableArray, NSMutableSet, NSOperationQueue, NSString, NSURL, NSUUID, QLDaemonProxy, QLPreviewProgressiveCallbacks, VCPSearchContext;
+@class NSDictionary, QLDaemonProxy;
 
 @interface QLPreview : QLClient
 {
     QLDaemonProxy *_daemonProxy;
-    NSUUID *_uuid;
-    NSMutableArray *_waitForDataCompletionBlocks;
-    NSDictionary *_waitForDataOptions;
-    _Bool _progressive;
-    QLPreviewProgressiveCallbacks *_progressiveCallbacks;
-    struct __QLServer *_server;
-    struct __QLGenerator *_generator;
-    unsigned long long _permission;
-    _Bool _prefersDarkLoading;
-    _Bool _areProfessionalVideoWorkflowFormatReadersEnabled;
-    _Bool _shouldDownloadFault;
-    _Bool _requestDone;
-    _Bool _requestDispatched;
-    _Bool _displayBundleIDFetched;
-    _Bool _noSenderRequested;
-    _Bool _forcedContentType;
-    _Bool _keepAlive;
-    _Bool _secondaryRequest;
-    _Bool _distantURLProtection;
-    _Bool _darkAppearanceFallback;
-    unsigned int _replyPort;
-    unsigned int _mps_seqno;
-    int _pendingCreationCase;
-    int _imageWidth;
-    int _imageHeight;
-    int _bits_per_component;
-    int _bits_per_pixel;
-    int _bytes_per_row;
-    unsigned int _bitmap_info;
-    NSDictionary *_properties;
-    NSString *_searchableItemUniqueIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSString *_extensionPath;
-    NSString *_queryString;
-    VCPSearchContext *_videoSearchContext;
-    NSOperationQueue *_fileCoordinationQueue;
-    NSString *_displayBundleID;
-    NSString *_previewContentType;
-    NSMutableSet *_contentTypeList;
-    NSURL *_previewURL;
-    NSFileCoordinator *_fileCoordinator;
-    NSData *_unprocessedPreviewData;
-    NSData *_previewData;
-    NSString *_appearanceName;
-    struct CGSize _sizeHint;
-    struct CGRect _pdfMediaBox;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool)I;
 - (void);
 - (id);
 - (id);
@@ -80,6 +34,10 @@
 - (void);
 - (void);
 - (void);
+- (void)I1;
+- (void);
+- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -89,23 +47,19 @@
 - (void);
 - (void);
 - (void);
+- (void)T+A;
+- (void)a;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)j;
+- (void)N;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k;
 - (_Bool);
 - (id);
 - (id);
@@ -129,17 +83,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -164,7 +118,7 @@
 - (void);
 - (int);
 - (_Bool);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
@@ -174,12 +128,12 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (int);
 - (struct CGSize);
 - (int);
@@ -191,13 +145,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (struct __QLGenerator *);
+- (_Bool)y history file version is %d, newer than newest known version %d, therefore not loading;
+- (struct __QLGenerator *)A1,JFJ';
 - (id);
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id),N,V_parentTemplate;
 - (void);
 - (void);
 - (id);
@@ -211,59 +165,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(*;
 - (void);
 - (unsigned long long)ht too late;
 
 // Remaining properties
-@property(copy) NSString *appearanceName; // @synthesize appearanceName=_appearanceName;
-@property(copy) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property _Bool areProfessionalVideoWorkflowFormatReadersEnabled; // @synthesize areProfessionalVideoWorkflowFormatReadersEnabled=_areProfessionalVideoWorkflowFormatReadersEnabled;
-@property unsigned int bitmap_info; // @synthesize bitmap_info=_bitmap_info;
-@property int bits_per_component; // @synthesize bits_per_component=_bits_per_component;
-@property int bits_per_pixel; // @synthesize bits_per_pixel=_bits_per_pixel;
-@property int bytes_per_row; // @synthesize bytes_per_row=_bytes_per_row;
-@property(retain) NSMutableSet *contentTypeList; // @synthesize contentTypeList=_contentTypeList;
-@property(readonly) QLDaemonProxy *daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property _Bool darkAppearanceFallback; // @synthesize darkAppearanceFallback=_darkAppearanceFallback;
-@property(retain, nonatomic) NSString *displayBundleID; // @synthesize displayBundleID=_displayBundleID;
-@property _Bool displayBundleIDFetched; // @synthesize displayBundleIDFetched=_displayBundleIDFetched;
-@property _Bool distantURLProtection; // @synthesize distantURLProtection=_distantURLProtection;
-@property(readonly) unsigned long long extensionGenerationType;
-@property(copy) NSString *extensionPath; // @synthesize extensionPath=_extensionPath;
-@property(retain) NSOperationQueue *fileCoordinationQueue; // @synthesize fileCoordinationQueue=_fileCoordinationQueue;
-@property(retain) NSFileCoordinator *fileCoordinator; // @synthesize fileCoordinator=_fileCoordinator;
-@property _Bool forcedContentType; // @synthesize forcedContentType=_forcedContentType;
-@property(nonatomic) struct __QLGenerator *generator; // @synthesize generator=_generator;
-@property int imageHeight; // @synthesize imageHeight=_imageHeight;
-@property int imageWidth; // @synthesize imageWidth=_imageWidth;
-@property(readonly) _Bool isCoordinating;
-@property _Bool keepAlive; // @synthesize keepAlive=_keepAlive;
-@property unsigned int mps_seqno; // @synthesize mps_seqno=_mps_seqno;
-@property _Bool noSenderRequested; // @synthesize noSenderRequested=_noSenderRequested;
-@property struct CGRect pdfMediaBox; // @synthesize pdfMediaBox=_pdfMediaBox;
-@property int pendingCreationCase; // @synthesize pendingCreationCase=_pendingCreationCase;
-@property _Bool prefersDarkLoading; // @synthesize prefersDarkLoading=_prefersDarkLoading;
-@property(copy) NSString *previewContentType; // @synthesize previewContentType=_previewContentType;
-@property(retain) NSData *previewData; // @synthesize previewData=_previewData;
-@property(copy) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property _Bool progressive; // @synthesize progressive=_progressive;
-@property(retain) QLPreviewProgressiveCallbacks *progressiveCallbacks; // @synthesize progressiveCallbacks=_progressiveCallbacks;
 @property(retain) NSDictionary *properties; // @synthesize properties=_properties;
-@property(retain) NSString *queryString; // @synthesize queryString=_queryString;
-@property unsigned int replyPort; // @synthesize replyPort=_replyPort;
-@property _Bool requestDispatched; // @synthesize requestDispatched=_requestDispatched;
-@property _Bool requestDone; // @synthesize requestDone=_requestDone;
-@property(copy) NSString *searchableItemUniqueIdentifier; // @synthesize searchableItemUniqueIdentifier=_searchableItemUniqueIdentifier;
-@property _Bool secondaryRequest; // @synthesize secondaryRequest=_secondaryRequest;
-@property(nonatomic) struct __QLServer *server;
-@property _Bool shouldDownloadFault; // @synthesize shouldDownloadFault=_shouldDownloadFault;
-@property struct CGSize sizeHint; // @synthesize sizeHint=_sizeHint;
-@property(retain) NSData *unprocessedPreviewData; // @synthesize unprocessedPreviewData=_unprocessedPreviewData;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain) VCPSearchContext *videoSearchContext; // @synthesize videoSearchContext=_videoSearchContext;
-@property(retain) NSMutableArray *waitForDataCompletionBlocks; // @synthesize waitForDataCompletionBlocks=_waitForDataCompletionBlocks;
-@property(retain) NSDictionary *waitForDataOptions; // @synthesize waitForDataOptions=_waitForDataOptions;
 
 @end
 

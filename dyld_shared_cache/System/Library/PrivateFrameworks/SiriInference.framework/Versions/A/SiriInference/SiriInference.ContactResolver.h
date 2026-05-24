@@ -7,9 +7,6 @@
 @interface SiriInference.ContactResolver
 {
     id runTimeData;
-    id cacheOverride;
-    id inferenceUserDefaults;
-    id $__lazy_storage_$_forcePromptingStrategy;
 }
 
 @end

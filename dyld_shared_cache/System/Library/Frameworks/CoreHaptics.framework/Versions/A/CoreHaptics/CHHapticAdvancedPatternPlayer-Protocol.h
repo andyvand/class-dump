@@ -5,13 +5,11 @@
 //
 
 @protocol CHHapticAdvancedPatternPlayer
-- (void)entMediaTime;
+- (void (^)(NSError *));
+- (void)disambiguationMapWithDictionary:(void (^)(NSError *))arg1 context: /* Error: Ran out of types for this method. */;
+- (void)currentMediaTime;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler;
-@property _Bool isMuted;
 @property _Bool loopEnabled;
-@property double loopEnd;
-@property float playbackRate;
 @end
 

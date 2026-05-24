@@ -6,11 +6,11 @@
 
 @interface UnknownClass (DCUtilities)
 + (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 + (struct CGRect);
 - (id);
 - (id);

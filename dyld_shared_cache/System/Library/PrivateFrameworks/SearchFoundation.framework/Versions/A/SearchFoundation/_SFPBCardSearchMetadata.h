@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBCardSearchMetadata
 {
     _Bool _isServerEntity;
-    _Bool _isFederatedDomainSearch;
-    NSString *_searchQuery;
-    NSString *_viewConfigName;
 }
 
 - (id);
@@ -23,29 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)n:(id)arg1 visualSearchAlgorithmVersion:stickerConfidenceAlgorithmVersion:vaAnalysisVersion:vaLocationAnalysisVersion:mediaAnalysisVersion:mediaAnalysisImageVersion:captionGenerationVersion: /* Error: Ran out of types for this method. */;
+- (id)c}@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)OfContentsCardSection;
+- (void)safariTableOfContentsCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFederatedDomainSearch; // @synthesize isFederatedDomainSearch=_isFederatedDomainSearch;
 @property(nonatomic) _Bool isServerEntity; // @synthesize isServerEntity=_isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *viewConfigName; // @synthesize viewConfigName=_viewConfigName;
 
 @end
 

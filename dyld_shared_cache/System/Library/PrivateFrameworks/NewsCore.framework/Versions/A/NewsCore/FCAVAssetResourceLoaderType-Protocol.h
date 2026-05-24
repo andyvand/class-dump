@@ -5,5 +5,6 @@
 //
 
 @protocol FCAVAssetResourceLoaderType
+- (void);
 @end
 

@@ -15,12 +15,12 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
-- (id);
+- (id);
 - (void)
 × ;
 - (id)dated list of rewind anchors without a known shared scope - will need to check this;

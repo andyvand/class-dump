@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, UIView;
+@class CKAvatarView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsAvatarPancakeView
 {
     CKAvatarView *_topAvatar;
-    CKAvatarView *_middleAvatar;
-    CKAvatarView *_bottomAvatar;
-    UIView *_topAvatarCutOutView;
-    UIView *_bottomAvatarCutOutView;
 }
 
+- (id)_document;
+- (id)_displayingTitleCheckingResult;
+- (void);
+- (void)_TtCE7NotesUICSo29ICCalculateDocumentController7Scanner;
+- (void);
+- (void));
+- (void)D4;
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ICNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedKey;
 - (id);
 - (id);
 - (void);
 - (void)0hDÿ0hDÿ@ë[;
 
 // Remaining properties
-@property(retain, nonatomic) CKAvatarView *bottomAvatar; // @synthesize bottomAvatar=_bottomAvatar;
-@property(retain, nonatomic) UIView *bottomAvatarCutOutView; // @synthesize bottomAvatarCutOutView=_bottomAvatarCutOutView;
-@property(retain, nonatomic) CKAvatarView *middleAvatar; // @synthesize middleAvatar=_middleAvatar;
 @property(retain, nonatomic) CKAvatarView *topAvatar; // @synthesize topAvatar=_topAvatar;
-@property(retain, nonatomic) UIView *topAvatarCutOutView; // @synthesize topAvatarCutOutView=_topAvatarCutOutView;
 
 @end
 

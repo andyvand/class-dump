@@ -7,10 +7,6 @@
 @interface PKInkSmoothingDescriptor
 {
     double _stylusSmoothing;
-    double _touchSmoothing;
-    double _velocitySmoothing;
-    double _angleSmoothing;
-    double _radiusSmoothing;
 }
 
 - (double);
@@ -22,11 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double angleSmoothing; // @synthesize angleSmoothing=_angleSmoothing;
-@property(readonly, nonatomic) double radiusSmoothing; // @synthesize radiusSmoothing=_radiusSmoothing;
 @property(readonly, nonatomic) double stylusSmoothing; // @synthesize stylusSmoothing=_stylusSmoothing;
-@property(readonly, nonatomic) double touchSmoothing; // @synthesize touchSmoothing=_touchSmoothing;
-@property(readonly, nonatomic) double velocitySmoothing; // @synthesize velocitySmoothing=_velocitySmoothing;
 
 @end
 

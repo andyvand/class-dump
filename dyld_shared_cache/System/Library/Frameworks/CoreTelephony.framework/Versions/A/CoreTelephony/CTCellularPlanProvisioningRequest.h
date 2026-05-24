@@ -9,39 +9,29 @@
 @interface CTCellularPlanProvisioningRequest
 {
     NSString *_address;
-    NSString *_matchingID;
-    NSString *_OID;
-    NSString *_confirmationCode;
-    NSString *_ICCID;
-    NSString *_EID;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)-Encoding;
+- (void) @9;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void)etOptions:(id)arg1 %x forInternalOperation:%d on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)(a;
 - (id);
 - (void)1Â0@ù
 × ;
 - (id)8@"NSError"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *EID; // @synthesize EID=_EID;
-@property(retain, nonatomic) NSString *ICCID; // @synthesize ICCID=_ICCID;
-@property(retain, nonatomic) NSString *OID; // @synthesize OID=_OID;
 @property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *confirmationCode; // @synthesize confirmationCode=_confirmationCode;
-@property(retain, nonatomic) NSString *matchingID; // @synthesize matchingID=_matchingID;
 
 @end
 

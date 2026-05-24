@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)@;
+- (_Bool)~4;
+- (id)setType:(struct _NSZone *)arg1;
 
 @end
 

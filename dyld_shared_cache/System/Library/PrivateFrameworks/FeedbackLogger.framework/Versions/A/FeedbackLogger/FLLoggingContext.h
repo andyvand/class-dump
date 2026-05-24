@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLAutoBugCapture, FLContainerStorePathManager, NSFileManager, NSMutableDictionary, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSString;
 
 @interface FLLoggingContext
 {
     _Bool _deviceUnlockedSinceBoot;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_userDefaults;
-    unsigned long long _persistenceConfiguration;
-    NSString *_timestampReferenceIdentifier;
-    NSFileManager *_fileManager;
-    FLContainerStorePathManager *_containerStorePathManager;
-    FLAutoBugCapture *_autoBugCapture;
-    NSMutableDictionary *_storeIdToUserCachesDirectoryPathMap;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
 + (unsigned long long);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -43,8 +33,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)tionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -54,24 +44,7 @@
 - (unsigned long long)Óÿÿ¬ÓÿÿðÓÿÿ4ÔÿÿxÔÿÿÝÿÿ¼ÝÿÿÞÿÿ0ÞÿÿHÞÿÿ`ÞÿÿÞÿÿ¨ÞÿÿÌÞÿÿðÞÿÿßÿÿ8ßÿÿ\ßÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) FLAutoBugCapture *autoBugCapture; // @synthesize autoBugCapture=_autoBugCapture;
-@property(retain, nonatomic) FLContainerStorePathManager *containerStorePathManager; // @synthesize containerStorePathManager=_containerStorePathManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool deviceUnlockedSinceBoot;
-@property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) unsigned long long now;
-@property(nonatomic) unsigned long long persistenceConfiguration; // @synthesize persistenceConfiguration=_persistenceConfiguration;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) NSMutableDictionary *storeIdToUserCachesDirectoryPathMap; // @synthesize storeIdToUserCachesDirectoryPathMap=_storeIdToUserCachesDirectoryPathMap;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *timestampReferenceIdentifier; // @synthesize timestampReferenceIdentifier=_timestampReferenceIdentifier;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

@@ -6,18 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMAnyPayload, NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeviceDockDeclaration_StaticItemTileData : CEMPayloadBase
 {
     NSString *_payloadLabel;
-    NSString *_payloadUrl;
-    NSNumber *_payloadFileType;
-    CEMAnyPayload *_payloadFileData;
 }
 
 + (id);
-+ (id);
++ (id)__objc_protolist__DATA_CONST;
 + (id);
 - (void);
 - (void);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CEMAnyPayload *payloadFileData; // @synthesize payloadFileData=_payloadFileData;
-@property(copy, nonatomic) NSNumber *payloadFileType; // @synthesize payloadFileType=_payloadFileType;
 @property(copy, nonatomic) NSString *payloadLabel; // @synthesize payloadLabel=_payloadLabel;
-@property(copy, nonatomic) NSString *payloadUrl; // @synthesize payloadUrl=_payloadUrl;
 
 @end
 

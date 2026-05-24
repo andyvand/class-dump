@@ -5,12 +5,11 @@
 //
 
 @protocol MFExternalPlaybackConfigurable
+- (_Bool);
+- (void);
 - (_Bool)lved = %@);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExternalPlayback;
-@property(nonatomic, readonly) long long playbackType;
 @property(nonatomic) _Bool usesAudioOnlyModeForExternalPlayback;
-@property(nonatomic) _Bool usesExternalPlaybackWhileExternalScreenIsActive;
 @end
 

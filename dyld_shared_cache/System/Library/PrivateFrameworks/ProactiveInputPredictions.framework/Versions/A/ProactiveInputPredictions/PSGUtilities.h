@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)P;
 - (CDUnknownBlockType);
 - (id);
 - (id);

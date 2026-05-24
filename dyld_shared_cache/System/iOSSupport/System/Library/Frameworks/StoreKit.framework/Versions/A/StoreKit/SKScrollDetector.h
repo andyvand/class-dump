@@ -11,15 +11,14 @@ __attribute__((visibility("hidden")))
 @interface SKScrollDetector
 {
     id <SKScreenTrackingDelegate> _screenTrakingDelegate;
-    NSMutableArray *_subscribedScrollers;
 }
 
-- (id);
+- (id)age metrics data.;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)esentation for <AMSMediaArtwork> is incomplete;
+- (void)on MacCatalyst or macOS;
+- (id)isLowDataMode;
+- (void)is not in the current roll item's time range;
 - (void);
 - (id);
 - (void);
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SKScreenTrackingDelegate> screenTrakingDelegate; // @synthesize screenTrakingDelegate=_screenTrakingDelegate;
 @property(retain, nonatomic) NSMutableArray *subscribedScrollers; // @synthesize subscribedScrollers=_subscribedScrollers;
 
 @end

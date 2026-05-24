@@ -9,11 +9,6 @@
 @interface WiFiAwarePairingMetadata
 {
     NSString *_bundleID;
-    NSString *_selfPairingName;
-    NSString *_peerDeviceName;
-    long long _storageClass;
-    double _lifetime;
-    long long _pairingClient;
 }
 
 + (_Bool);
@@ -34,15 +29,10 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)w;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) double lifetime; // @synthesize lifetime=_lifetime;
-@property(nonatomic) long long pairingClient; // @synthesize pairingClient=_pairingClient;
-@property(copy, nonatomic) NSString *peerDeviceName; // @synthesize peerDeviceName=_peerDeviceName;
-@property(copy, nonatomic) NSString *selfPairingName; // @synthesize selfPairingName=_selfPairingName;
-@property(nonatomic) long long storageClass; // @synthesize storageClass=_storageClass;
 
 @end
 

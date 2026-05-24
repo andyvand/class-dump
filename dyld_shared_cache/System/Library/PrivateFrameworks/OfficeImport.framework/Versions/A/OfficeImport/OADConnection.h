@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADConnection
 {
     unsigned int mDrawableId;
-    int mLocationIndex;
 }
 
 - (void);

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)side prefix in next translation call - compatible with regex based segmentation.;
 - (void);

@@ -9,8 +9,6 @@
 @interface MCAnimationPathPhysics : MCAnimationPath
 {
     float _staticFriction;
-    float _kineticFriction;
-    float _skinFriction;
 }
 
 - (float);
@@ -25,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float kineticFriction; // @synthesize kineticFriction=_kineticFriction;
-@property(nonatomic) float skinFriction; // @synthesize skinFriction=_skinFriction;
 @property(nonatomic) float staticFriction; // @synthesize staticFriction=_staticFriction;
 
 @end

@@ -11,16 +11,15 @@
 @interface REMRemindersDataViewInvocation_fetchByBatchCreationID : REMStoreInvocation
 {
     _Bool _includingCompleted;
-    NSUUID *_batchCreationID;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)C;
+- (_Bool);
 - (void);
 - (id);
 - (void)Ñr ð1Â0@ù
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *batchCreationID; // @synthesize batchCreationID=_batchCreationID;
-@property(readonly, nonatomic) _Bool includingCompleted; // @synthesize includingCompleted=_includingCompleted;
 
 @end
 

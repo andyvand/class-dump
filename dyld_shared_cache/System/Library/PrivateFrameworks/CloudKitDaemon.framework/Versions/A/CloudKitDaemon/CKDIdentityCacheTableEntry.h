@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentity, CKUserIdentityLookupInfo, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKDIdentityCacheTableEntry
 {
     NSNumber *_rowid;
-    CKUserIdentityLookupInfo *_lookupInfo;
-    NSString *_containerIdentifier;
-    NSString *_dataSeparationHash;
-    CKUserIdentity *_identity;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -29,10 +25,6 @@
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(retain, nonatomic) NSString *dataSeparationHash; // @synthesize dataSeparationHash=_dataSeparationHash;
-@property(retain, nonatomic) CKUserIdentity *identity; // @synthesize identity=_identity;
-@property(retain, nonatomic) CKUserIdentityLookupInfo *lookupInfo; // @synthesize lookupInfo=_lookupInfo;
 @property(retain, nonatomic) NSNumber *rowid; // @synthesize rowid=_rowid;
 
 @end

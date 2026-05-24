@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKSeriesDetails;
+@class EKEvent;
 
 @interface EKSliceDescription
 {
     EKEvent *_originalEventToSliceOn;
-    EKSeriesDetails *_originalMainSeriesDetails;
 }
 
-+ (id)þàª
-;
-- (void)8Ôp
-;
-- (void)@ù
-?×é;
-- (id)ìýô;
-- (id)E©ôOD©öWC©ø_B©úgA©üoÆ¨ÿ_Ö ;
++ (id);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id){;
 - (id);
 - (void)¡}°!@CùñÍ1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain) EKEvent *originalEventToSliceOn;
-@property(retain) EKSeriesDetails *originalMainSeriesDetails; // @synthesize originalMainSeriesDetails=_originalMainSeriesDetails;
 
 @end
 

@@ -10,17 +10,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)PH;
-- (void);
+- (void)n2;
 - (void);
 - (id);
 - (double);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (struct CGSize);
+- (id)x;
+- (struct CGSize)_childProgressHighWaterMark;
 - (void)
 × ;
 - (void)x5x\;
@@ -28,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ;
 
 // Remaining properties
-@property double horizontalShear;
-@property double rotationDegrees;
-@property double rotationRadians;
 @property struct CGSize scale;
-@property struct CGSize translation;
 
 @end
 

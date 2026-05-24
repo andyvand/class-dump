@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ޥ;
+- (_Bool)_MRMediaRemotePickedRouteIsMutedUserInfoKey;
 - (void);
 
 // Remaining properties

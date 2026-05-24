@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDictionary, NSString;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface TestCNUIUserActionListDataSource
 {
     _Bool _tracksChanges;
-    NSDictionary *_userActionListModelResultBlocksByActionTypeAskedFor;
-    NSDictionary *_actionsByActionTypeByContact;
-    CNContact *_contact;
 }
 
 + (id);
@@ -20,34 +17,24 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)s;
+- (id)e;
+- (void)canManageDuplicateContacts;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *actionsByActionTypeByContact; // @synthesize actionsByActionTypeByContact=_actionsByActionTypeByContact;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tracksChanges; // @synthesize tracksChanges=_tracksChanges;
-@property(retain, nonatomic) NSDictionary *userActionListModelResultBlocksByActionTypeAskedFor; // @synthesize userActionListModelResultBlocksByActionTypeAskedFor=_userActionListModelResultBlocksByActionTypeAskedFor;
 
 @end
 

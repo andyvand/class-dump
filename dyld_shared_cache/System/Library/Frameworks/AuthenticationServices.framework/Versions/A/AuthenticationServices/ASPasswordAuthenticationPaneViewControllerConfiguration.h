@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASPasswordAuthenticationPaneViewControllerConfiguration
 {
     unsigned long long persona;
-    id overrideTitle;
-    id icon;
-    id contentFields;
 }
 
 - (id);
@@ -21,16 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)ionIsCommitted: /* Error: Ran out of types for this method. */;
+- (long long)tFieldHeightConstraint;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *passwordCredentialSite;
 @property(nonatomic, readonly) unsigned long long persona; // @synthesize persona;
 
 @end

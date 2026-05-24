@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id)sWhenAdded;
++ (id)animatesWhenAdded;
 - (void);
 - (_Bool);
 - (id);

@@ -7,7 +7,6 @@
 @interface MPCFWrapper
 {
     _Bool _nullRef;
-    void *_refValue;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isNullRef) _Bool nullRef; // @synthesize nullRef=_nullRef;
-@property(readonly, nonatomic) void *refValue; // @synthesize refValue=_refValue;
 
 @end
 

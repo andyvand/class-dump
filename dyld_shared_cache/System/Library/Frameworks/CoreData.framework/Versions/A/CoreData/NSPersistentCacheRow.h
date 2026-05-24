@@ -8,28 +8,17 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentCacheRow
 {
     int _cd_rc;
-    int _externalReferenceCount;
-    struct _externalRefFlags_st {
-        unsigned int _hasTemporaryID:1;
-        unsigned int _virtualfk_count:14;
-        unsigned int _ordkey_count:14;
-        unsigned int _reserved:3;
-    } _externalRefFlags;
-    _Atomic _Bool _invalidToOnes;
-    _Atomic _Bool _backgroundDealloc;
-    id *_toManyMap;
-    double _birth;
 }
 
 + (id)%lld and pages_to_free %lld;
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (oneway void);
 - (id);
 - (id);
-- (const id *);
-- (_Bool);
+- (const id *);
+- (_Bool)essor-space-shortage;
 - (id);
 - (_Bool);
 

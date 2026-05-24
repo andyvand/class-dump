@@ -11,7 +11,6 @@
 @interface EKUICalendarPopUpButtonCell : EKUIPopUpButtonCell
 {
     _Bool _isTruncated;
-    EKUICalendarPopUpButton *_uiButton;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool isTruncated; // @synthesize isTruncated=_isTruncated;
 @property __weak EKUICalendarPopUpButton *uiButton; // @synthesize uiButton=_uiButton;
 
 @end

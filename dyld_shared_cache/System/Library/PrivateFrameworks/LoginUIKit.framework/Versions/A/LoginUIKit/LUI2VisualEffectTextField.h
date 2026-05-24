@@ -6,15 +6,11 @@
 
 #import <LoginUIKit/LUI2VisualEffectView.h>
 
-@class NSColor, NSFont, NSString, NSTextField;
+@class NSTextField;
 
 @interface LUI2VisualEffectTextField : LUI2VisualEffectView
 {
     long long _alignment;
-    NSFont *_font;
-    NSString *_stringValue;
-    NSColor *_textColor;
-    NSTextField *_textField;
 }
 
 - (id);
@@ -22,23 +18,19 @@
 - (void);
 - (void);
 - (void);
+- (id)wallet:defaultCreditAccountPropensityRankUpdated /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
+- (id);
+- (id)$;
+- (id);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property long long alignment; // @synthesize alignment=_alignment;
-@property(copy) NSFont *font; // @synthesize font=_font;
-@property(copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(copy) NSColor *textColor; // @synthesize textColor=_textColor;
 @property(retain) NSTextField *textField; // @synthesize textField=_textField;
 
 @end

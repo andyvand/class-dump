@@ -10,15 +10,13 @@
 @interface FigNeroLayer
 {
     NSObject<OS_dispatch_queue> *_neroQueue;
-    struct OpaqueFigNeroid *_neroid;
-    id <FigNeroLayerDelegate> _neroDelegate;
 }
 
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
 - (int);
 - (void);

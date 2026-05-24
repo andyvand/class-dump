@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString, SAUITemplateRange;
+@class NSDictionary;
 
 @interface SAUITemplateAttributedStringAttributeRun : AceObject
 {
@@ -19,18 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!P;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUITemplateRange *range;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PromotedContentUI.TransparencyNavigationHandler
 {
     id _isLoading;
-    id _hasError;
-    id _isWebViewLoaded;
-    id presentingViewController;
-    id onDismiss;
 }
 
 - (void);

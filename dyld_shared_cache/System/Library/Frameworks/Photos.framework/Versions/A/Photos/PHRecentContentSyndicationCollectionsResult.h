@@ -6,16 +6,11 @@
 
 #import <Photos/PHFetchResult.h>
 
-@class NSArray, NSString, PHFetchOptions, PHPhotoLibrary;
+@class NSArray, PHFetchOptions;
 
 @interface PHRecentContentSyndicationCollectionsResult : PHFetchResult
 {
     PHFetchOptions *_fetchOptions;
-    PHPhotoLibrary *_photoLibrary;
-    long long _maxNumberOfStacks;
-    long long _maxNumberOfAssetsPerStack;
-    NSArray *_objects;
-    NSString *_identifier;
 }
 
 + (id);
@@ -24,9 +19,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)r:clickCount:pressure: /* Error: Ran out of types for this method. */;
+- (id)C;
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -45,7 +40,6 @@
 - (id)ceChangeRequest _copyPersonWithPersonUUID:toLibrary:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly) NSArray *objects; // @synthesize objects=_objects;
 
 @end

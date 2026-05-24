@@ -6,14 +6,11 @@
 
 #import <AddressBookCore/ABAbstractAccountConfiguration.h>
 
-@class ABDirectoryServicesConnectivityTest, ABUserDefaults, NSString;
+@class ABDirectoryServicesConnectivityTest, ABUserDefaults;
 
 @interface ABDirectoryServicesAccountConfiguration : ABAbstractAccountConfiguration
 {
     ABUserDefaults *_preferences;
-    NSString *_accountIdentifier;
-    _Bool _didCheckDirectoryServicesConnectivity;
-    ABDirectoryServicesConnectivityTest *_directoryServicesConnectivityTest;
 }
 
 + (id);
@@ -32,15 +29,13 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)&;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)CNExternalIdentifierDescription;
+- (void);
 
 // Remaining properties
 @property(retain) ABDirectoryServicesConnectivityTest *directoryServicesConnectivityTest; // @synthesize directoryServicesConnectivityTest=_directoryServicesConnectivityTest;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic, getter=isSearchable) _Bool searchable;
 
 @end
 

@@ -7,11 +7,9 @@
 @interface ContactsUI.PosterViewModel
 {
     id identifier;
-    id _snapshot;
-    id _$observationRegistrar;
 }
 
-- (id);
+- (id),;
 - (void)sViewControllerDelegate>",W,N,V_delegate;
 
 @end

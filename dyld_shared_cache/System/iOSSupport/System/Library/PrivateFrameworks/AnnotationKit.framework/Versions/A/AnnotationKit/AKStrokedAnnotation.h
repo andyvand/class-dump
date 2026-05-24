@@ -6,27 +6,20 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString, UIColor;
-
 @interface AKStrokedAnnotation : AKAnnotation
 {
     _Bool _dashed;
-    _Bool _hasShadow;
-    double _strokeWidth;
-    UIColor *_strokeColorHDR;
-    UIColor *_strokeColorSDR;
-    long long _brushStyle;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
++ (_Bool)A;
+- (id)MKLinkPreviewSnapshotRequest;
+- (id)MKLinkPreviewPublisherMetadata;
+- (id)()_block_invoke;
+- (void)ring"8;
+- (void)_icon;
 - (void);
 - (id);
 - (long long);
@@ -34,31 +27,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)d have been set in the environment;
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)erateReadOnlyPosterConfig success:(double)arg1 %{BOOL}d, path:%@ reply:%s error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property long long brushStyle; // @synthesize brushStyle=_brushStyle;
-@property(getter=isDashed) _Bool dashed; // @synthesize dashed=_dashed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property(copy) UIColor *strokeColor;
-@property(retain) UIColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) UIColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
 @property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly) Class superclass;
 
 @end
 

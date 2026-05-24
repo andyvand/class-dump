@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDiagnosticsHandler, NSMutableArray, NSPointerArray, NSStatusItemHostListener, NSString;
+@class NSPointerArray;
 
 @interface NSStatusBar
 {
     NSPointerArray *_items;
-    long long _registeredForNote;
-    NSStatusItemHostListener *_localItemListener;
-    NSMutableArray *_localItemHosts;
-    NSString *_localWorkspaceServiceIdentifier;
-    long long _testingConfig;
-    NSDiagnosticsHandler *_diagnosticsHandler;
 }
 
-+ (id);
++ (id)
+)8
+)8;
 + (_Bool);
 + (id);
 - (void);
@@ -25,58 +21,48 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (double);
 - (void);
 - (long long);
 - (struct CGSize);
-- (_Bool);
-- (long long);
+- (_Bool)n"16@"NSURLSessionTask"24q32q40q48;
+- (long long)checked_didResumeAtOffset;
+- (id)_responseHeaderSize;
+- (id)_response;
+- (id)_respectsAllowsCellularAccessForDiscretionaryTasks;
+- (void)_respectsAllowsCellularAccessForDiscretionaryTasks;
+- (void)Configuration;
+- (void)NSProxyConnectionDelegate;
+- (void);
+- (void).;
+- (_Bool)esting a NSURLSessionUploadTask from background transfer daemon:(id)arg1 %@;
+- (void)ary for %{public}s {transaction_duration_ms=%u, response_status=%ld, connection=%llu, protocol="%{public}@", domain_lookup_duration_ms=%u, connect_duration_ms=%u, secure_connection_duration_ms=%u, private_relay=%{bool}d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void)T NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
+- (void)value text NOT NULL,        domain text NOT NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
+- (id)m;
+- (id)ound session task;
+- (void)LSDownloadCorrectedMIMETypeKey;
+- (void)LSDownloadMIMETypeKey;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void);
 - (id)ì4;
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGSize backgroundSelectionInset;
 @property(readonly) double contentPadding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) double thickness;
-@property(readonly, getter=isVertical) _Bool vertical;
 
 @end
 

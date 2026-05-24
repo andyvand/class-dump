@@ -7,10 +7,6 @@
 @interface NewsUI2.OnboardingPersonalizedAdsStep
 {
     id viewControllerProvider;
-    id userEnabledAds;
-    id $__lazy_storage_$_primaryAction;
-    id $__lazy_storage_$_secondaryAction;
-    id $__lazy_storage_$_adTrackingTransparency;
 }
 
 @end

@@ -17,28 +17,22 @@ __attribute__((visibility("hidden")))
         CDUnknownFunctionPointerType describe;
         void *notAKeyMarker;
     } _keyCallBacks;
-    struct {
-        CDUnknownFunctionPointerType retain;
-        CDUnknownFunctionPointerType release;
-        CDUnknownFunctionPointerType describe;
-    } _valueCallBacks;
-    struct __CFBasicHash *_ht;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)];
+- (id).AppleSystemUIFaceEmphasizedItalicCallout;
+- (void)@;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void *);
+- (void *);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)rig_begin) <= (orig_end);
+- (id)!;
 - (void)ææææççèèèèèèèéêêëëìíîïðñòóóóôôõõõõöö÷÷÷÷÷øøøùùúúûûûüýýþÿ;
 - (unsigned long long)¶¶··¸¹ººº»»»»»»»¼¼½½½¾¿ÀÀÀÀÀÀÀÀÀÁÂÂÃÃÃÃÄÅÅÅÆÇÇÇÈÈÉÉÊËËÌÍÍÍÎÏÐÐÐÐÐÑÑÑÑÑÒÒÒÒÒÓÔÔÕÕÕÖ××ØØÙÙÚÚÛÛÜÝÞÞßàààááááâââããäääåæææææçèééêêëìííîîïððññòòòòòóóôôôõö÷øùùùùùúûûüýýþþÿÿÿ;
 - (id);

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, OS_remote_service;
-@protocol OS_dispatch_queue, OS_tcp_connection;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BridgeXPCConnection
 {
     NSObject<OS_dispatch_queue> *internal_queue;
-    NSObject<OS_tcp_connection> *conn;
-    unsigned long long BridgeXPCConnectionState;
-    unsigned long long state;
-    unsigned long long BridgeXPCConnectionType;
-    unsigned long long conn_type;
-    NSString *conn_host;
-    unsigned int conn_port;
-    _Bool eos_notifications_registered;
-    int conn_eos_service;
-    OS_remote_service *conn_remote_service;
-    void *conn_multiverse_device;
-    NSMutableArray *msg_queue;
-    NSObject<OS_dispatch_queue> *targetQueue;
-    CDUnknownBlockType eventHandler;
 }
 
 + (id);
@@ -42,28 +28,27 @@
 - (id);
 - (id);
 - (void);
+- (id)UpdateHighlightTitles;
+- (void)ositionHelper.m;
+- (void);
+- (void);
+- (void)TIKeyboardBehaviors_Pinyin;
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)BundleModel;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)n;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue;
 
 @end

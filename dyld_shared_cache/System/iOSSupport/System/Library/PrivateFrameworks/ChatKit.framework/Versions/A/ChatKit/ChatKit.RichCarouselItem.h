@@ -7,11 +7,10 @@
 @interface ChatKit.RichCarouselItem
 {
     id card;
-    id actionButtonDelegate;
 }
 
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (id)1Â0@ù
 × ;

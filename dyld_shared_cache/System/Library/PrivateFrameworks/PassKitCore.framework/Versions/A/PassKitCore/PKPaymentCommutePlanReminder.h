@@ -13,7 +13,7 @@
 × ;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double)ntifier for pass style 'accessCard';

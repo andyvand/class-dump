@@ -12,25 +12,25 @@
 }
 
 + (id);
++ (id)initWithImageName:(double)arg1 imageFilePath:(id)arg2 contentIsSensitive:(id)arg3;
++ (id)GG;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ailed to lookup exposures by cluster, count=%{public}ld, error=%{public}@;
 + (id);
 + (id);
 + (id);
 - (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)etionHandler: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (CDUnknownBlockType)ay.identifier-%.8lX;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)_threadSafeErrorsAndItemIDs;
+- (id)_pbFavorabilityScores;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -47,17 +47,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType delay;
-@property(readonly) CDUnknownBlockType delayOn;
-@property(readonly) CDUnknownBlockType error;
-@property(readonly) CDUnknownBlockType errorOn;
-@property(readonly) CDUnknownBlockType pipe;
-@property(readonly) CDUnknownBlockType pipeOn;
-@property(readonly) CDUnknownBlockType resolve;
-@property(readonly) CDUnknownBlockType resolveOn;
 @property(retain, nonatomic) NFPromiseSeal *seal; // @synthesize seal=_seal;
-@property(readonly) CDUnknownBlockType then;
-@property(readonly) CDUnknownBlockType thenOn;
 
 @end
 

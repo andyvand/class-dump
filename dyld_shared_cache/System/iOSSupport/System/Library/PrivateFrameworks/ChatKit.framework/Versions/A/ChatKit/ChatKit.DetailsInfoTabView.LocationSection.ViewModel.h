@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.LocationSection.ViewModel
 {
     id conversation;
-    id actionHandlers;
-    id _locationSharingSections;
-    id _$observationRegistrar;
 }
 
 @end

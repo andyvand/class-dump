@@ -6,22 +6,18 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSNotificationSettingsTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSString *_identifier;
 }
 
 + (id);
 + (id) =Cºî&wÎÌ¦Èg{!DÂº^ºdö#[ÝM¥' µEL|IËÌruuÿZ
 ÇL((:êbd£~x¹Qwz<$:ðTÁ¿ #Rrø7iVºðÄw«#¦#ë(}²h8èr£Úiw»ªH»ìÛ2x°ÛÂgÆ#í±ïPoamqK3¼A\¬6l¥ÍÄ3 &zVb>Rð%N¿!!¼Ì_ÿBW½ãî¼¢JMAËL½:ywEHD¡SÒIò@V»*âó!D]j@!­í·TÓ{HA5få=DÎÏ÷Ü´zZêÅ­ß1dÅ/¬¼6êÄ0¦nðtÓS;O¨ÒPôÜkY~µ½#uËD¯ø<ÃÖÕKöaê`ïò°7âD±RûU7jÇªþ±Øì=¼OÕ÷Ýn0W°§Ë_{¦ñÆM¸Öj[ã£Ï&ÕÌ_)iÔHæú¨´oI[8¤¥»,\k.±{¢l?h`¨ /* Error: Ran out of types for this method. */;
 + (id)c;
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,10 +26,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_familyMembers;
 - (id)¹8"Z'Ë$NÇvûjÖÐq¬¿Âoõ;?ÎèÜ¸çeýmØz ù,øSR-7·¨[<94»Æ`}nµ£X§&ëiÊÌ5;
 - (void)¨ÉêK©Éê;Éê3ÉêC¬Éê­ÉêþÉêãÉêÉê^Éê.Éê~ÉêÉêÃÉê³Éê®ÉêÞÉêÉêcÉê"ÉêRÉêÉêïÉêòÉêÉêOÉê?ÉêoÉêÉêÒÉê¢Éê¿ÉêÏÉêÉêròÉêóÉê}Éê°ÉêÀöÉêÝ÷Éê­ðÉê`ñÉêúÉê@ûÉê0ôÉêýõÉêþÉêÿÉêàøÉê-ùÉê]âÉêãÉêlüÉê¡ýÉêÑæÉêÌçÉê¼àÉêqáÉêêÉêQëÉê!äÉêìåÉêîÉêïÉêñèÉê<éÉêLÓi¾§	vÚØ½ùÎ¿e¬²í¢4ÚÄó!pW¥íÓÑ¯õtú9¯·üD |'YfÁ¸ê¨6Æ/;ªøÍJzfÖ»Ú¶ >ÁL<§ïúEÖ£o²w} ÄÕíÍ)®©[OK·CRÀÅûN*`Wj/QÖø(Ìgk¦íåâ¢sa.·gëIÄ;
 - (id)pú+Åó÷m{¯vz[¯ÕÔHL¤|ãÛ/{°9â1MNÃµÅ<:LË,ÁÁí×¤C¢BzTnZ90ÈÚlM8?õöu-ûÃª¬\B)r¯.GM]·c[ô` ¼üÉG7¨Ós¶jÛlQ¼¢Î\k{xª(Æ¼x]§Õ&â6ÓÝÊ½ØÂëÞ¦´`D£½µòLxÉBëUàÈdòB /* Error: Ran out of types for this method. */;
@@ -43,16 +39,6 @@ FåÿXÊé"M_>3v;¦ïiÐRc}Îl¹/vâ\læ¡Ðq'|U=Üö
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

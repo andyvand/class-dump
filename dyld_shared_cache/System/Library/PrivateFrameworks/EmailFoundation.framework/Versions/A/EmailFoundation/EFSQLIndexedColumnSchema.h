@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLExpressable;
 
 @interface EFSQLIndexedColumnSchema
 {
     id <EFSQLExpressable> _expression;
-    unsigned long long _collation;
-    unsigned long long _orderDirection;
 }
 
-- (unsigned long long);
+- (unsigned long long));
+- (id)Th;
 - (id);
 - (id);
 - (id);
+- (id)2;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#
+;
 - (void);
-- (unsigned long long);
+- (unsigned long long)*;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long collation; // @synthesize collation=_collation;
-@property(readonly, copy, nonatomic) NSString *definition;
 @property(readonly, nonatomic) id <EFSQLExpressable> expression; // @synthesize expression=_expression;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long orderDirection; // @synthesize orderDirection=_orderDirection;
 
 @end
 

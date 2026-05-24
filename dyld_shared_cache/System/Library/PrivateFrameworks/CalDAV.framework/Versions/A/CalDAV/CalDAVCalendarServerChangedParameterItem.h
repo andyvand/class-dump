@@ -9,7 +9,6 @@
 @interface CalDAVCalendarServerChangedParameterItem
 {
     NSString *_nameAttribute;
-    NSString *_typeAttribute;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *nameAttribute; // @synthesize nameAttribute=_nameAttribute;
-@property(retain, nonatomic) NSString *typeAttribute; // @synthesize typeAttribute=_typeAttribute;
 
 @end
 

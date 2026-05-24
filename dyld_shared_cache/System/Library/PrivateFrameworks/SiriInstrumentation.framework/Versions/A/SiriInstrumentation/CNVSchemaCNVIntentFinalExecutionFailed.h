@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentFinalExecutionFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
+- (id)!;
 - (int);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id)t";
-- (id)ntDaemonAudioBluetoothInfo;
+- (id)MHSchemaMHAssistantDaemonAudioBluetoothInfo;
 - (id)@;
 - (void)D:(_Bool)arg1 Ãÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

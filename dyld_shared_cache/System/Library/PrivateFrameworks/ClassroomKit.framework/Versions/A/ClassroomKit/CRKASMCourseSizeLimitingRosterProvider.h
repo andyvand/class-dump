@@ -9,11 +9,10 @@
 @interface CRKASMCourseSizeLimitingRosterProvider : CRKASMRosterProviderDecoratorBase
 {
     long long _maxUserCount;
-    long long _maxTrustedUserCount;
 }
 
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
@@ -21,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long maxTrustedUserCount; // @synthesize maxTrustedUserCount=_maxTrustedUserCount;
 @property(readonly, nonatomic) long long maxUserCount; // @synthesize maxUserCount=_maxUserCount;
 
 @end

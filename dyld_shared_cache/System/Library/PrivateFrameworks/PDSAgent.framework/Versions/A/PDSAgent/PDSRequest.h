@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PDSRequestInfo;
+@class NSSet;
 
 @interface PDSRequest
 {
     NSSet *_entries;
-    PDSRequestInfo *_requestInfo;
 }
 
-- (id);
-- (id);
+- (id)collection GUID %{public}@. Error:(id)arg1 %{public}@. Reset-syncing comments.;
+- (id)";
 - (void);
 - (id);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *entries; // @synthesize entries=_entries;
-@property(retain, nonatomic) PDSRequestInfo *requestInfo; // @synthesize requestInfo=_requestInfo;
 
 @end
 

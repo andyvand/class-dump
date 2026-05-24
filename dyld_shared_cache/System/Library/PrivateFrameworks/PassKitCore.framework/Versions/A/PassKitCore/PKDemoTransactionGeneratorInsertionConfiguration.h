@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKAccountUser, PKPaymentPass;
+@class NSString;
 
 @interface PKDemoTransactionGeneratorInsertionConfiguration
 {
     NSString *_accountIdentifier;
-    long long _accountType;
-    NSString *_transactionSourceIdentifier;
-    PKPaymentPass *_paymentPass;
-    PKAccountUser *_accountUser;
-    unsigned long long _codingType;
-    NSArray *_transactions;
-    NSArray *_accountEvents;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)�);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)a;
+- (void);
 - (void);
 - (long long);
 - (id);
 - (void)String"16@?<v@?@"NSSet">24;
 - (id)date preconditions;
-- (void)itdecreaserequest;
+- (void)creditlimitdecreaserequest;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accountEvents; // @synthesize accountEvents=_accountEvents;
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long accountType; // @synthesize accountType=_accountType;
-@property(retain, nonatomic) PKAccountUser *accountUser; // @synthesize accountUser=_accountUser;
-@property(nonatomic) unsigned long long codingType; // @synthesize codingType=_codingType;
-@property(retain, nonatomic) PKPaymentPass *paymentPass; // @synthesize paymentPass=_paymentPass;
-@property(copy, nonatomic) NSString *transactionSourceIdentifier; // @synthesize transactionSourceIdentifier=_transactionSourceIdentifier;
-@property(copy, nonatomic) NSArray *transactions; // @synthesize transactions=_transactions;
 
 @end
 

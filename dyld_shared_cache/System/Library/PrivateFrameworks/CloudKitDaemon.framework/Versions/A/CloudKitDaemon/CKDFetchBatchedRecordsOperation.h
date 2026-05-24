@@ -6,27 +6,17 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDRecordFetchAggregator, NSArray, NSDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSArray;
 
 @interface CKDFetchBatchedRecordsOperation : CKDDatabaseOperation
 {
     _Bool _shouldFetchAssetContents;
-    _Bool _fetchAllChanges;
-    _Bool _forcePCSDecryptionAttempt;
-    NSObject<OS_dispatch_group> *_fetchRecordsGroup;
-    NSSet *_desiredAssetKeys;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    unsigned long long _numRequestsSent;
-    CKDRecordFetchAggregator *_recordFetcher;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    long long _errorReportingStyle;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)bled;
+- (void)mptoms_transport_dropped %s, immediate reconnect
+;
 - (id);
 - (void);
 - (id);
@@ -44,25 +34,25 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)/Versions/A/BiomeLibrary;
 - (id);
-- (int);
+- (int)%@>;
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)T;
 - (void)Ô ;
 - (void);
 - (id)1Â0@ù
 × ;
 - (void):(long long)arg1 8@16^@24^@32;
-- (_Bool)ag;
-- (_Bool)reVersion;
-- (_Bool)Types;
+- (_Bool)localZoneEtag;
+- (_Bool)deviceSoftwareVersion;
+- (_Bool)_recordTypes;
 - (void)rce>",&,N,V_sessionValidationTimerSource;
 - (id)CKDPZoneUsageSaveResponse;
 - (id)X;
@@ -74,26 +64,7 @@
 - (void)ëÊ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue;
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *desiredAssetKeys; // @synthesize desiredAssetKeys=_desiredAssetKeys;
-@property(nonatomic) long long errorReportingStyle; // @synthesize errorReportingStyle=_errorReportingStyle;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchRecordsGroup; // @synthesize fetchRecordsGroup=_fetchRecordsGroup;
-@property(nonatomic) _Bool forcePCSDecryptionAttempt; // @synthesize forcePCSDecryptionAttempt=_forcePCSDecryptionAttempt;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numRequestsSent; // @synthesize numRequestsSent=_numRequestsSent;
-@property(readonly, nonatomic) NSString *pipeliningDescription;
-@property(retain, nonatomic) CKDRecordFetchAggregator *recordFetcher; // @synthesize recordFetcher=_recordFetcher;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
-@property(readonly) Class superclass;
 
 @end
 

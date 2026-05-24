@@ -5,5 +5,8 @@
 //
 
 @protocol MapsSuggestionsNetworkRequester
++ (id);
+- (BOOL)P;
+- (BOOL);
 @end
 

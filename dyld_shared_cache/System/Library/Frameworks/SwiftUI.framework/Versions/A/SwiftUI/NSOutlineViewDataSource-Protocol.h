@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSOutlineView;
+@protocol NSPasteboardWriting;
+
 @protocol NSOutlineViewDataSource
+
+@optional
+- (unsigned long long)fSQYpx0:(NSOutlineView *)arg1 S0;
+- (void);
+- (id);
+- (id <NSPasteboardWriting>)q;
+- (id);
+- (void);
 @end
 

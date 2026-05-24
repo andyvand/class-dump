@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagFixedAccountProvider
@@ -16,23 +16,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id)ssage part range has length 0 in token:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)sword:(id)arg1;
+- (void)setRawPassword:(id)arg1;
 - (id)the fraud report score payload. Certificate data when signing differs even after retry.;
 - (void)WÈó!-J²þGÆÅÿû¹øÀKÛLÒ(xvVVQRù§(ÆÁSi7!Âz@Bê.@!ÎòHüðöR+dì0~¡{)±Ã`'÷¿£$V\@ëÃ¨©pö]²¯Ta]wÈ¤Ì.;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identity;
-@property(readonly) Class superclass;
 
 @end
 

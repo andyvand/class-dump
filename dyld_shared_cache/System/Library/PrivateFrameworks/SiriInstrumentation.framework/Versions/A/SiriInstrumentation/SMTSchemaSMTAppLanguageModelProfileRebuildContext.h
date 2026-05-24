@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SMTSchemaSMTAppLanguageModelProfileRebuildEnded, SMTSchemaSMTAppLanguageModelProfileRebuildFailed, SMTSchemaSMTAppLanguageModelProfileRebuildStarted;
+@class SMTSchemaSMTAppLanguageModelProfileRebuildStarted;
 
 @interface SMTSchemaSMTAppLanguageModelProfileRebuildContext : SISchemaInstrumentationMessage
 {
     SMTSchemaSMTAppLanguageModelProfileRebuildStarted *_startedOrChanged;
-    SMTSchemaSMTAppLanguageModelProfileRebuildEnded *_ended;
-    SMTSchemaSMTAppLanguageModelProfileRebuildFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,31 +25,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)stR3411-94-with-GostR3410-94;
+- (unsigned long long)purgeableSize;
+- (_Bool)ABBidirectionalDictionary;
+- (_Bool)CSFileURLBatchResult;
 - (id);
-- (id);
-- (id)ngestionEnabled;
-- (id)dTime;
+- (id)(;
+- (id)deleteIsExtractionIngestionEnabled;
+- (id)_hasLastQueryDecorationEventToPlanCreatedTime;
 - (void)CHClientEvent;
 
 // Remaining properties
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelProfileRebuildEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelProfileRebuildFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SMTSchemaSMTAppLanguageModelProfileRebuildStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

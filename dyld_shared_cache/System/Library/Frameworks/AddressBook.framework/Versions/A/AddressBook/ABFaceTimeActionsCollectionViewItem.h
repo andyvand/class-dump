@@ -6,16 +6,9 @@
 
 #import <AddressBook/ABCollectionViewItem.h>
 
-@class ABCommunicationButtonsController, ABFaceTimeCommunicationsBridge, CNContact;
-@protocol CNUIUserActionListDataSource;
-
 @interface ABFaceTimeActionsCollectionViewItem : ABCollectionViewItem
 {
     _Bool _availableForFaceTime;
-    ABFaceTimeCommunicationsBridge *_faceTimeBridge;
-    ABCommunicationButtonsController *_buttonsController;
-    id <CNUIUserActionListDataSource> _actionsDataSource;
-    CNContact *_contact;
 }
 
 - (_Bool);
@@ -41,11 +34,7 @@
 - (void)À";
 
 // Remaining properties
-@property(nonatomic) __weak id <CNUIUserActionListDataSource> actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
 @property(nonatomic) _Bool availableForFaceTime; // @synthesize availableForFaceTime=_availableForFaceTime;
-@property(retain, nonatomic) ABCommunicationButtonsController *buttonsController; // @synthesize buttonsController=_buttonsController;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) ABFaceTimeCommunicationsBridge *faceTimeBridge; // @synthesize faceTimeBridge=_faceTimeBridge;
 
 @end
 

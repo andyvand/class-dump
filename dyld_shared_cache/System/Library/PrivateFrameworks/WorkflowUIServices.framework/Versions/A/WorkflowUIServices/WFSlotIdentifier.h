@@ -9,26 +9,22 @@
 @interface WFSlotIdentifier
 {
     NSString *_key;
-    NSString *_parameterKey;
-    long long _arrayIndex;
 }
 
 - (id);
-- (id);
+- (id)g;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)tse;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long arrayIndex; // @synthesize arrayIndex=_arrayIndex;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHASRAudioConfigureStarted : SISchemaInstrumentationMessage
 {
     int _audioCodec;
-    unsigned long long _audioSkippedTimeInNs;
-    unsigned long long _audioSkippedNumSamples;
-    struct {
-        unsigned int audioCodec:1;
-        unsigned int audioSkippedTimeInNs:1;
-        unsigned int audioSkippedNumSamples:1;
-    } _has;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,24 +27,18 @@
 - (unsigned long long);
 - (int);
 - (id);
-- (void);
+- (void)Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_enum.c;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id)s°!øCùßÐ1Â0@ù
 × ;
-- (id)me:(id)arg1;
+- (id)setFullPlannerServiceSetupTime:(id)arg1;
 - (id)TB,N,V_hasApiInvocationMetadata;
 
 // Remaining properties
 @property(nonatomic) int audioCodec; // @synthesize audioCodec=_audioCodec;
-@property(nonatomic) unsigned long long audioSkippedNumSamples; // @synthesize audioSkippedNumSamples=_audioSkippedNumSamples;
-@property(nonatomic) unsigned long long audioSkippedTimeInNs; // @synthesize audioSkippedTimeInNs=_audioSkippedTimeInNs;
-@property(nonatomic) _Bool hasAudioCodec;
-@property(nonatomic) _Bool hasAudioSkippedNumSamples;
-@property(nonatomic) _Bool hasAudioSkippedTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

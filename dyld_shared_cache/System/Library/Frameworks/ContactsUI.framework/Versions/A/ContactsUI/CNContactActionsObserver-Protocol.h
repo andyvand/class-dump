@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactActionsObserver
+- (void)R;
 @end
 

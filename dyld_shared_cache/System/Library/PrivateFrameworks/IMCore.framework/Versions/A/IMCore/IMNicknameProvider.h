@@ -11,12 +11,12 @@
     IMNicknameProvider_Impl *_swiftImpl;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)voiceProbabilityDNN=%f -> voiceProbability=%f;
+- (void)removeRemoteEndpoint (%p) didSucceed=%d, error=%@;
+- (id)nil;
+- (_Bool)eqEnd=%d endSequenceNumber=%d;
+- (_Bool)yer[%p] Failed initializing DTMF;
+- (void)assMessage:(id)arg1 ParticipantID '%@':Passing message '%@' with transactionID '%@' for topic '%@' /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@"MRUserIdentity",R,N;
 - (void);
 - (_Bool)ate"16;
-- (_Bool)onGroupIdentifier;
-- (id)e:(id)arg1 state:(SEL)arg2;
-- (void)emptionHandoffData;
+- (_Bool)transitionGroupIdentifier;
+- (id)titleForStyle:(id)arg1 state:(SEL)arg2;
+- (void)pendingPreemptionHandoffData;
 - (_Bool);
 - (id);
 - (void)ô`;

@@ -7,12 +7,11 @@
 @class NSView;
 
 @protocol NSTouchBarColorListPickerContainerView
-- (void)plitViewItem:(NSView *)arg1;
+- (void)_viewInsertionIndexForSplitViewItem:(NSView *)arg1;
 - (_Bool);
-- (NSView *)tionType;
+- (NSView *)NotificationType;
 
 // Remaining properties
-@property _Bool active;
 @property(retain) NSView *contentView;
 @end
 

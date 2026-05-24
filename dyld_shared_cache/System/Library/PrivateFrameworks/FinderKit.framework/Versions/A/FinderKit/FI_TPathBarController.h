@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TEphemeralPathBarDisplayController, FI_TPathControl, FI_TPathSelectController, NSObject, NSString, NSTrackingArea;
+@class FI_TPathControl, NSObject;
 @protocol FI_TPathBarContainerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPathBarController
 {
     FI_TPathControl *_pathControl;
-    struct shared_ptr<TNodeObserverCocoaBridge> _nodeObserver;
-    struct TNSWeakPtr<NSObject<FI_TPathBarContainerDelegate>> _containerDelegate;
-    struct TFENodeVector _commonPathVector;
-    struct TFENodeVector _observedSelection;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
-    struct TKeyValueObserver _effectiveAppearanceObserver;
-    TNSWeakPtr_db0eab6c _refreshToken;
-    TNSWeakPtr_db0eab6c _singleClickDelayToken;
-    NSTrackingArea *_ephemeralMouseOverTrackingArea;
-    double _barHeight;
-    _Bool tornDown;
-    _Bool _ephemeral;
-    _Bool _trackingEnabled;
-    FI_TEphemeralPathBarDisplayController *_ephemeralDisplayController;
-    FI_TPathSelectController *_pathSelectController;
 }
 
 + (double);
-- (void);
+- (void)@@y	?%@qa;
 - (void);
 - (void);
 - (void);
@@ -53,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool))	;
 - (_Bool);
 - (void);
 - (void);
@@ -63,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -73,18 +58,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak NSObject<FI_TPathBarContainerDelegate> *containerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEphemeral) _Bool ephemeral; // @synthesize ephemeral=_ephemeral;
-@property(readonly, nonatomic) __weak FI_TEphemeralPathBarDisplayController *ephemeralDisplayController; // @synthesize ephemeralDisplayController=_ephemeralDisplayController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FI_TPathSelectController *pathSelectController; // @synthesize pathSelectController=_pathSelectController;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
-@property(nonatomic) _Bool trackingEnabled; // @synthesize trackingEnabled=_trackingEnabled;
 
 @end
 

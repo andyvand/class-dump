@@ -9,22 +9,19 @@
 @interface WBSSearchSuggestionsFetcher
 {
     unsigned long long _numberOfPendingFetches;
-    _Bool _hasConnectionToSearchHelper;
-    WBSOpenSearchURLTemplate *_suggestionsURLTemplate;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)nManager;
+- (void)_sectionManager;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFetching) _Bool fetching;
 @property(readonly, nonatomic) WBSOpenSearchURLTemplate *suggestionsURLTemplate; // @synthesize suggestionsURLTemplate=_suggestionsURLTemplate;
 
 @end

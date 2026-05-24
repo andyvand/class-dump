@@ -7,16 +7,14 @@
 @interface AVTImageValidatorConfiguration
 {
     _Bool _shouldCheckForTransparentImages;
-    _Bool _shouldCheckForDuplicateImages;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldCheckForDuplicateImages; // @synthesize shouldCheckForDuplicateImages=_shouldCheckForDuplicateImages;
 @property(nonatomic) _Bool shouldCheckForTransparentImages; // @synthesize shouldCheckForTransparentImages=_shouldCheckForTransparentImages;
 
 @end

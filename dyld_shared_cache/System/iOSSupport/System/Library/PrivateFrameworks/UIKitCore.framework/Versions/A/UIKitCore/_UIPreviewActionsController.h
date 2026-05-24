@@ -4,43 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImageView, UIPreviewAction, UIView, UIViewController, _UIPlatterMenuDynamicsController, _UIPreviewActionSheetView, _UIPreviewQuickActionView, _UIStatesFeedbackGenerator;
-@protocol _UIPreviewActionsControllerDelegate;
+@class UIView;
 
 @interface _UIPreviewActionsController
 {
     _Bool _hasBegun;
-    UIView *_containerView;
-    UIView *_platterView;
-    UIView *_affordanceView;
-    UIImageView *_affordanceImageView;
-    UIViewController *_presentedViewController;
-    id <_UIPreviewActionsControllerDelegate> _delegate;
-    _UIPlatterMenuDynamicsController *_platterDynamicsController;
-    _UIPreviewActionSheetView *_previewActionsView;
-    NSArray *_currentPreviewActionItems;
-    UIPreviewAction *_leadingPreviewAction;
-    UIPreviewAction *_trailingPreviewAction;
-    _UIPreviewQuickActionView *_leadingPreviewActionView;
-    _UIPreviewQuickActionView *_trailingPreviewActionView;
-    _UIStatesFeedbackGenerator *_swipeFeedbackGenerator;
-    struct CGSize _totalPanningTranslation;
-    struct CGPoint _lastPanningLocation;
 }
 
-+ (id);
++ (id)6vZ;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
+- (void)c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)	?ր;
 - (void);
 - (void);
 - (void);
@@ -61,56 +44,56 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
-- (id);
-- (_Bool);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (double);
-- (_Bool);
+- (id)IMDBackgroundMessagingAPITargetHandlerDelegate>";
+- (_Bool)valueForEntitlement: /* Error: Ran out of types for this method. */;
+- (struct CGRect)timeIntervalSince1970;
+- (void)ription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
+- (void)setStartingPeriodicSyncWithRecordType:(struct CGPoint)arg1;
+- (void)serviceNameCapabilityCache;
+- (id)primaryAccountCountryCode;
+- (struct CGPoint)isComingOnlineEnabled;
+- (struct CGPoint)isCKErrorPartialFailure: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)isBetterDefinedThan: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)isBackwardCompatibilityForItem:parentChatID: /* Error: Ran out of types for this method. */;
+- (void)state:(struct CGPoint)arg1 style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)l:completion: /* Error: Ran out of types for this method. */;
+- (id)downloadRCSTransferOnSimID:transferURL:fileName:destURL:cryptoMaterial:completion: /* Error: Ran out of types for this method. */;
+- (void)_writeRecordsWithType:activity:completion: /* Error: Ran out of types for this method. */;
+- (void)_markForksAsSyncedForChat: /* Error: Ran out of types for this method. */;
+- (_Bool)reflectDismissalForNoticeGUIDs: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
+- (double);
+- (_Bool)12IMDaemonCore32IMDPersistentTaskCriticalLimiterC8DelegateP;
+- (void)SaySo8CKRecordCG;
+- (double);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)XH;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)t of %ld attachment paths.;
+- (void)ompleted - lets just do a normal sync flows;
+- (void)initiated sync but encountered error %@;
+- (void)ud login, skipping;
+- (void)breaks our ability to get FindMy friendship updates throughout the app. If you see this error, please file a radar to the FindMy team. Error:%@ /* Error: Ran out of types for this method. */;
+- (void)chat with GUID:%@ /* Error: Ran out of types for this method. */;
+- (void)y recipient flag on local device for message:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)eMessageSyncController | Recently Deleted:(id)arg1 returning nil record. messageGUID:%@, deleteDateNanosecondIntervalNumber:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)or;
+- (struct CGPoint)additional deleted recoverable record IDs from error;
+- (struct CGPoint)MCheckInMessageProcessingPipelineComponent> Message is not a Check In message;
+- (void)has no image %@;
+- (void)ckname to clear for handle ID %@;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)(;
 - (void);
 - (void)setLeadingSpacing:(id)arg1;
 - (id)A7AFB87A8BC2LLP;
@@ -119,31 +102,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *affordanceImageView; // @synthesize affordanceImageView=_affordanceImageView;
-@property(retain, nonatomic) UIView *affordanceView; // @synthesize affordanceView=_affordanceView;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(copy, nonatomic) NSArray *currentPreviewActionItems; // @synthesize currentPreviewActionItems=_currentPreviewActionItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIPreviewActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect frameForActionView;
-@property(nonatomic) _Bool hasBegun; // @synthesize hasBegun=_hasBegun;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint lastPanningLocation; // @synthesize lastPanningLocation=_lastPanningLocation;
-@property(retain, nonatomic) UIPreviewAction *leadingPreviewAction; // @synthesize leadingPreviewAction=_leadingPreviewAction;
-@property(retain, nonatomic) _UIPreviewQuickActionView *leadingPreviewActionView; // @synthesize leadingPreviewActionView=_leadingPreviewActionView;
-@property(retain, nonatomic) _UIPlatterMenuDynamicsController *platterDynamicsController; // @synthesize platterDynamicsController=_platterDynamicsController;
-@property(retain, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(retain, nonatomic) UIViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(retain, nonatomic) _UIPreviewActionSheetView *previewActionsView; // @synthesize previewActionsView=_previewActionsView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *swipeFeedbackGenerator; // @synthesize swipeFeedbackGenerator=_swipeFeedbackGenerator;
-@property(nonatomic) struct CGSize totalPanningTranslation; // @synthesize totalPanningTranslation=_totalPanningTranslation;
-@property(retain, nonatomic) UIPreviewAction *trailingPreviewAction; // @synthesize trailingPreviewAction=_trailingPreviewAction;
-@property(retain, nonatomic) _UIPreviewQuickActionView *trailingPreviewActionView; // @synthesize trailingPreviewActionView=_trailingPreviewActionView;
 
 @end
 

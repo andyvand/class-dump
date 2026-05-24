@@ -5,16 +5,15 @@
 //
 
 @class NSObject, NSString;
-@protocol OS_nw_connection, OS_nw_http_fields, OS_sec_trust;
+@protocol OS_nw_http_fields;
 
 @protocol NWURLLoader
+- (void)@9+;
+- (NSObject<OS_nw_http_fields> *);
+- (void);
 - (void)éÅÿc$×þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *multipartMixedReplaceBoundary;
-@property(readonly, nonatomic) NSObject<OS_sec_trust> *peerTrust;
-@property(readonly, nonatomic) _Bool requestComplete;
-@property(readonly, nonatomic) NSObject<OS_nw_http_fields> *trailerFields;
-@property(readonly, nonatomic) NSObject<OS_nw_connection> *underlyingConnection;
 @end
 

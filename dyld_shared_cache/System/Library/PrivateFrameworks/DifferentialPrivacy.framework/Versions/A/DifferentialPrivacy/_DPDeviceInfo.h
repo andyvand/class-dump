@@ -10,12 +10,12 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)+;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool)eDataWithLocalDP:withBlock: /* Error: Ran out of types for this method. */;
++ (_Bool)privatizeDataWithLocalDP:withBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

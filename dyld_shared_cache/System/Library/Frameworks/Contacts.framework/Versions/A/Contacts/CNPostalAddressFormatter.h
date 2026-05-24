@@ -20,13 +20,13 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id)utableContactC;
+- (void)pendingLocalPeerIdentity;
+- (id)So16CNMutableContactC;
 
 // Remaining properties
 @property long long style; // @synthesize style=_style;

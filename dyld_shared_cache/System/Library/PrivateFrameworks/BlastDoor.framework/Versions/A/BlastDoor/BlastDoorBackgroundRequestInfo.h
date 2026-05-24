@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *chatId;
 @property(nonatomic, readonly) NSString *description;
 
 @end

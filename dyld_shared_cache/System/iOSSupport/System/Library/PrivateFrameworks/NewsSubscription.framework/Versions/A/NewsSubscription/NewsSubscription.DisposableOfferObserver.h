@@ -7,7 +7,6 @@
 @interface NewsSubscription.DisposableOfferObserver
 {
     id observer;
-    id keepAliveObject;
 }
 
 @end

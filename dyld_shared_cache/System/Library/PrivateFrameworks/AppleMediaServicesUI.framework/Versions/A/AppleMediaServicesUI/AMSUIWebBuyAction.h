@@ -6,79 +6,53 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSBoolean, AMSUIWebClientContext, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebBuyAction : AMSUIWebAction
 {
     _Bool _legacyBuy;
-    _Bool _makeCurrentAccount;
-    _Bool _requiresAccount;
-    ACAccount *_account;
-    NSString *_buyParams;
-    long long _type;
-    NSString *_contentType;
-    NSDictionary *_metricsOverlay;
-    NSDictionary *_performanceMetricsOverlay;
-    AMSBoolean *_sendBlindedData;
 }
 
+- (id)public}lu, status:%{public}lu) /* Error: Ran out of types for this method. */;
+- (void)%@ (%lu);
+- (void)DDSAnalytics;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ckgroundJobPersonSyncWorker workItemsNeedingProcessingInLibrary:(id)arg1 validCriterias:] /* Error: Ran out of types for this method. */;
+- (void)LibraryIdentifier;
+- (void)ystemBookmark:(id)arg1 reply:] /* Error: Ran out of types for this method. */;
+- (void)light merge;
+- (void)PLCPLErrorHasiTunesSyncedContent;
+- (void)PLCPLErrorDeviceNotCapable;
+- (void)PLCPLErrorResourceNotFound;
+- (id)ompute Sync enabled check for direction:%@ /* Error: Ran out of types for this method. */;
+- (id)peCollectionShare;
+- (id)token;
+- (_Bool)B16;
 - (id);
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)ҫ;
 - (void)@24^@32;
 - (void)A6ResultCSg_`«=_pSgtctcSg;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *buyParams; // @synthesize buyParams=_buyParams;
 @property(retain) NSString *contentType; // @synthesize contentType=_contentType;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool legacyBuy; // @synthesize legacyBuy=_legacyBuy;
-@property _Bool makeCurrentAccount; // @synthesize makeCurrentAccount=_makeCurrentAccount;
-@property(retain) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property(retain) NSDictionary *performanceMetricsOverlay; // @synthesize performanceMetricsOverlay=_performanceMetricsOverlay;
-@property _Bool requiresAccount; // @synthesize requiresAccount=_requiresAccount;
-@property(retain) AMSBoolean *sendBlindedData; // @synthesize sendBlindedData=_sendBlindedData;
-@property(readonly) Class superclass;
-@property long long type; // @synthesize type=_type;
 
 @end
 

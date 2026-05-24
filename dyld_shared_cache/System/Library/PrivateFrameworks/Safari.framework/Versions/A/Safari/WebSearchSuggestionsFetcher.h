@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSCompletionQuery, WBSOpenSearchURLTemplate, WBSSearchSuggestionsFetcher;
+@class WBSSearchSuggestionsFetcher;
 @protocol WebSearchSuggestionsFetcherDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WebSearchSuggestionsFetcher
 {
     WBSSearchSuggestionsFetcher *_fetcher;
-    id <WebSearchSuggestionsFetcherDelegate> _delegate;
-    WBSCompletionQuery *_completionQuery;
 }
 
 - (id);
@@ -30,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WBSCompletionQuery *completionQuery; // @synthesize completionQuery=_completionQuery;
 @property(nonatomic) __weak id <WebSearchSuggestionsFetcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isFetching) _Bool fetching;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *suggestionsURLTemplate;
 
 @end
 

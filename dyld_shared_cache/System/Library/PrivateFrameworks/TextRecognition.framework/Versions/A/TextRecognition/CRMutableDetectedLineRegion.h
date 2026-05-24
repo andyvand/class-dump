@@ -6,8 +6,7 @@
 
 #import <TextRecognition/CRDetectedLineRegion.h>
 
-@class CRNormalizedPolyline, CRNormalizedQuad, NSArray, NSDictionary, NSString, NSUUID;
-@protocol CRScriptCategory;
+@class CRNormalizedQuad;
 
 @interface CRMutableDetectedLineRegion : CRDetectedLineRegion
 {
@@ -17,19 +16,6 @@
 
 // Remaining properties
 @property(retain) CRNormalizedQuad *boundingQuad; // @dynamic boundingQuad;
-@property _Bool isCurved; // @dynamic isCurved;
-@property unsigned long long layoutDirection; // @dynamic layoutDirection;
-@property unsigned long long nmsOutputScale; // @dynamic nmsOutputScale;
-@property(retain) CRNormalizedPolyline *polygon; // @dynamic polygon;
-@property(retain) NSDictionary *scriptCategoryCounts; // @dynamic scriptCategoryCounts;
-@property(retain) NSArray *scriptCategoryResults; // @dynamic scriptCategoryResults;
-@property(retain) NSString *sequenceScriptOutputResult; // @dynamic sequenceScriptOutputResult;
-@property _Bool shouldRotate180DetectorOrientationFallback; // @dynamic shouldRotate180DetectorOrientationFallback;
-@property _Bool shouldRunSequenceOrientation; // @dynamic shouldRunSequenceOrientation;
-@property _Bool shouldRunSequenceScript; // @dynamic shouldRunSequenceScript;
-@property unsigned long long textType; // @dynamic textType;
-@property(retain) id <CRScriptCategory> topScriptCategory; // @dynamic topScriptCategory;
-@property(retain) NSUUID *uuid; // @dynamic uuid;
 
 @end
 

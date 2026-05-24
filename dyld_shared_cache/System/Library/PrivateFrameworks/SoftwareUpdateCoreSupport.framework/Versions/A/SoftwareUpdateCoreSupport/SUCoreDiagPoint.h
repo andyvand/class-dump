@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SUCoreDiagPoint
 {
     long long _trackType;
-    NSString *_location;
-    NSString *_reason;
-    long long _code;
-    NSString *_errorDesc;
-    long long _checkedLayer;
-    long long _checkedCode;
-    NSString *_checkedDomain;
-    long long _checkedIndications;
-    NSString *_previous;
-    NSString *_activity;
-    NSString *_next;
-    NSString *_param;
 }
 
 + (_Bool);
@@ -28,7 +14,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,10 +33,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ingsController",&,V_optionsController;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -59,25 +45,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)numberWithLongLong:(id)arg1;
 - (id)að!øBùÑw°1Â0@ù
 × ;
-- (id)ersion;
+- (id)_deviceSupportsSplatSystemVersion;
 - (void)I¢;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activity; // @synthesize activity=_activity;
-@property(nonatomic) long long checkedCode; // @synthesize checkedCode=_checkedCode;
-@property(retain, nonatomic) NSString *checkedDomain; // @synthesize checkedDomain=_checkedDomain;
-@property(nonatomic) long long checkedIndications; // @synthesize checkedIndications=_checkedIndications;
-@property(nonatomic) long long checkedLayer; // @synthesize checkedLayer=_checkedLayer;
-@property(nonatomic) long long code; // @synthesize code=_code;
-@property(retain, nonatomic) NSString *errorDesc; // @synthesize errorDesc=_errorDesc;
-@property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSString *next; // @synthesize next=_next;
-@property(retain, nonatomic) NSString *param; // @synthesize param=_param;
-@property(retain, nonatomic) NSString *previous; // @synthesize previous=_previous;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(nonatomic) long long trackType; // @synthesize trackType=_trackType;
 
 @end

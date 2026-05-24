@@ -11,27 +11,21 @@
 @interface EWSDeleteItemType : EWSBaseRequestType
 {
     NSArray *_ItemIds;
-    long long _DeleteType;
-    long long _SendMeetingCancellations;
-    long long _AffectedTaskOccurrences;
 }
 
-+ (id);
++ (id)tG;
 - (void);
 - (void);
 - (long long);
 - (long long);
 - (long long);
-- (id);
+- (id));
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long AffectedTaskOccurrences; // @synthesize AffectedTaskOccurrences=_AffectedTaskOccurrences;
-@property(nonatomic) long long DeleteType; // @synthesize DeleteType=_DeleteType;
 @property(copy, nonatomic) NSArray *ItemIds; // @synthesize ItemIds=_ItemIds;
-@property(nonatomic) long long SendMeetingCancellations; // @synthesize SendMeetingCancellations=_SendMeetingCancellations;
 
 @end
 

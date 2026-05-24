@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)P;
 - (id)o"32@0:8@"PXTilingController"16@"PXTilingLayout"24 /* Error: Ran out of types for this method. */;
 
 @end

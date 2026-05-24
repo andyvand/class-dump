@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TUVideoEffect;
+@class TUVideoEffect;
 
 @protocol TUVideoEffectsProvider
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableVideoEffects;
 @property(retain, nonatomic) TUVideoEffect *currentVideoEffect;
 @end
 

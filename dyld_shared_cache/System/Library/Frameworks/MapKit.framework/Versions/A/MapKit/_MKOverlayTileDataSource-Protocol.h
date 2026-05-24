@@ -5,6 +5,7 @@
 //
 
 @protocol _MKOverlayTileDataSource
+- (void)_setEventAggregate:(CDStruct_cbb88d5e)arg1 eventName:(void (^)(id, NSError *))arg2 aggregateKey:valueLabel:value: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, getter=isGeometryFlipped) _Bool geometryFlipped;

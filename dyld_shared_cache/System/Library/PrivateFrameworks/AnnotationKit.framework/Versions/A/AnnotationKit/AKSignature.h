@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, PKDrawing;
+@class NSUUID, PKDrawing;
 
 @interface AKSignature
 {
     PKDrawing *_drawing;
-    struct CGPath *_path;
-    struct CGRect _strokesBounds;
-    _Bool _shouldPersist;
-    NSUUID *_uniqueID;
-    double _baselineOffset;
-    NSDate *_creationDate;
-    long long _descriptionTag;
-    NSString *_customDescription;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (_Bool);
 - (void);
 - (void);
@@ -30,35 +22,26 @@
 - (id);
 - (long long);
 - (id);
+- (id)removeNonLibraryItemsFromContainer:usingConnection: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_';
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)32@"NSIndexSet"48;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setNoDepthBuffer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (struct CGPath *);
 - (void);
 - (double);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityLabel;
-@property double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *customDescription; // @synthesize customDescription=_customDescription;
-@property long long descriptionTag; // @synthesize descriptionTag=_descriptionTag;
-@property(readonly) PKDrawing *drawing;
-@property(readonly) struct CGPath *path;
-@property(readonly) struct CGRect pathBounds;
-@property _Bool shouldPersist; // @synthesize shouldPersist=_shouldPersist;
 @property(retain) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

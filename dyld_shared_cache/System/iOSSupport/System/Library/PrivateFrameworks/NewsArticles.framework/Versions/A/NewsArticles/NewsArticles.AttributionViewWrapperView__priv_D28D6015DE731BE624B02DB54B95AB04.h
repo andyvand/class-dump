@@ -7,8 +7,6 @@
 @interface NewsArticles.AttributionViewWrapperView__priv_D28D6015DE731BE624B02DB54B95AB04
 {
     id attributionView;
-    id themeColor;
-    id isTransitioning;
 }
 
 - (_Bool);

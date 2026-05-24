@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PFParallaxColor, PIParallaxStyleRecipe;
+@class NSArray;
 
 @interface PIParallaxStyle
 {
     NSArray *_colorSuggestions;
-    PFParallaxColor *_clockColor;
-    double _clockVibrancy;
 }
 
 + (id);
@@ -43,28 +41,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)PhotoLibraryTask.swift;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)esultHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setPartialResultHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PFParallaxColor *clockColor; // @synthesize clockColor=_clockColor;
-@property(readonly, copy, nonatomic) NSString *clockFont;
-@property(readonly, nonatomic) double clockVibrancy; // @synthesize clockVibrancy=_clockVibrancy;
 @property(retain, nonatomic) NSArray *colorSuggestions; // @synthesize colorSuggestions=_colorSuggestions;
-@property(readonly, nonatomic) _Bool hasBackgroundParameter;
-@property(readonly, nonatomic) _Bool hasColorParameter;
-@property(readonly, nonatomic) _Bool hasHeadroomLook;
-@property(readonly, nonatomic) _Bool hasTonalityMode;
-@property(readonly, copy, nonatomic) NSString *inactiveRecipeIdentifier;
-@property(readonly, nonatomic) _Bool isSegmented;
-@property(readonly, nonatomic) NSString *kind;
-@property(readonly, nonatomic) NSDictionary *parameters;
-@property(readonly, nonatomic) PIParallaxStyleRecipe *recipe;
-@property(readonly, copy, nonatomic) NSString *recipeIdentifier;
 
 @end
 

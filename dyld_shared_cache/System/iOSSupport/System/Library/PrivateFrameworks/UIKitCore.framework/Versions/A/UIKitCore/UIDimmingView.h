@@ -6,38 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableSet, NSString, UIBarButtonItem, UIBlurEffect, UIColor, UIEvent, UIImageView, UITapGestureRecognizer;
+@class UIBarButtonItem;
 @protocol UIDimmingViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIDimmingView : UIView
 {
     UIBarButtonItem *_highlightedBarButtonItem;
-    UIImageView *_highlightedImageView;
-    UIImageView *_backgroundGlow;
-    NSArray *_passthroughViews;
-    _Bool _ignoresTouches;
-    _Bool _inPassthroughHitTest;
-    UIColor *_dimmingColor;
-    UITapGestureRecognizer *_singleFingerTapRecognizer;
-    UIEvent *_observedEventForAdditionalGestures;
-    NSMutableSet *_additionalEventGestureRecognizers;
-    _Bool _suppressesBackdrops;
-    id <UIDimmingViewDelegate> _delegate;
-    double _percentDisplayed;
-    double _percentLightened;
-    UIBlurEffect *_blurEffect;
-    NSArray *_lowerWindowDismissalGestureViews;
 }
 
 + (id);
-- (void);
+- (void)1!;
 - (id)
 × ;
 - (id)QfÐ1Â0@ù
 × ;
 - (void)gate"b1"lostNavigationControllerDelegate"b1"didSetAppearanceProperty"b1};
-- (int)ighlightStateUpdateHandler;
+- (int)__highlightStateUpdateHandler;
 - (id)UIView",&,N,V_togglePrimaryEdgeButtonView;
 - (void)etsEqualToInsetsAlongAxis(UIEdgeInsets, UIEdgeInsets, UIAxis);
 - (id)úþÿÆþÿ;
@@ -82,25 +67,7 @@ __attribute__((visibility("hidden")))
 - (void)p;
 
 // Remaining properties
-@property(retain, nonatomic) UIBlurEffect *blurEffect; // @synthesize blurEffect=_blurEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIDimmingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *dimmingColor; // @synthesize dimmingColor=_dimmingColor;
-@property(readonly, nonatomic) _Bool displayed;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIBarButtonItem *highlightedBarButtonItem;
-@property(nonatomic) _Bool hitTestsAsOpaque;
-@property(nonatomic) _Bool ignoresTouches; // @synthesize ignoresTouches=_ignoresTouches;
-@property(copy, nonatomic) NSArray *lowerWindowDismissalGestureViews; // @synthesize lowerWindowDismissalGestureViews=_lowerWindowDismissalGestureViews;
-@property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;
-@property(nonatomic) double percentDisplayed; // @synthesize percentDisplayed=_percentDisplayed;
-@property(nonatomic) double percentLightened; // @synthesize percentLightened=_percentLightened;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressesBackdrops; // @synthesize suppressesBackdrops=_suppressesBackdrops;
 
 @end
 

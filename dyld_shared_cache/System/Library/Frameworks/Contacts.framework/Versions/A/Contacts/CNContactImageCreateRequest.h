@@ -6,13 +6,11 @@
 
 #import <Contacts/CNContactPosterDataCreateRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactImageCreateRequest : CNContactPosterDataCreateRequest
 {
     _Bool _recentsOnly;
-    NSString *_contactIdentifier;
-    NSArray *_images;
 }
 
 + (id);
@@ -29,12 +27,10 @@
 - (void);
 - (id);
 - (void)CNGeminiLogger>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)gerProvider:(id)arg1 posterDataStore: /* Error: Ran out of types for this method. */;
+- (void)initWithSchedulerProvider:(id)arg1 loggerProvider:posterDataStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) _Bool recentsOnly; // @synthesize recentsOnly=_recentsOnly;
 
 @end
 

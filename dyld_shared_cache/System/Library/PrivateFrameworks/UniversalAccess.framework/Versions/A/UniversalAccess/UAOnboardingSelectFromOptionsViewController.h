@@ -6,40 +6,26 @@
 
 #import <UniversalAccess/UAOnboardingViewController.h>
 
-@class NSString, UAOnboardingSelectFromOptionsFeature;
-
 __attribute__((visibility("hidden")))
 @interface UAOnboardingSelectFromOptionsViewController : UAOnboardingViewController
 {
     _Bool _allowCompression;
-    double _imageInset;
-    double _imageRadius;
 }
 
-- (void);
-- (void);
-- (double);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)RClientEvent";
+- (void)stLink";
+- (double)tEnded";
+- (double)GMSSchemaGMSModelRequestEnded";
+- (_Bool)Seconds"b1"loadScreenContentDurationInSeconds"b1"imageResizingDurationInSeconds"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (void)hemaGATPresentConfirmationSnippetEvent";
+- (void)LSchemaFLActionEvaluationContext";
+- (void)ason";
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowCompression; // @synthesize allowCompression=_allowCompression;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UAOnboardingSelectFromOptionsFeature *feature; // @dynamic feature;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double imageInset; // @synthesize imageInset=_imageInset;
-@property(nonatomic) double imageRadius; // @synthesize imageRadius=_imageRadius;
-@property(readonly) Class superclass;
 
 @end
 

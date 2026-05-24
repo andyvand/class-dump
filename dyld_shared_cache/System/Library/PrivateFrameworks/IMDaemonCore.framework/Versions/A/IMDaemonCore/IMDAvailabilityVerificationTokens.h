@@ -9,7 +9,6 @@
 @interface IMDAvailabilityVerificationTokens
 {
     NSString *_subscriptionValidationToken;
-    NSString *_encryptionValidationToken;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void)er for spam re-inferencing notification:%u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *encryptionValidationToken; // @synthesize encryptionValidationToken=_encryptionValidationToken;
 @property(readonly, nonatomic) NSString *subscriptionValidationToken; // @synthesize subscriptionValidationToken=_subscriptionValidationToken;
 
 @end

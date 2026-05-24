@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DMFCertificate
 {
     _Bool _isIdentity;
-    NSString *_commonName;
-    NSData *_data;
 }
 
 + (_Bool);
@@ -22,14 +20,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)w;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *commonName; // @synthesize commonName=_commonName;
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool isIdentity; // @synthesize isIdentity=_isIdentity;
 
 @end
 

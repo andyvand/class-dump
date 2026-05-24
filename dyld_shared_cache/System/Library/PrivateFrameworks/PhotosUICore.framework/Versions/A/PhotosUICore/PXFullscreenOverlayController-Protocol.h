@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSViewController *containerViewController;
-@property(readonly, nonatomic) struct CGSize effectiveContentSize;
 @end
 

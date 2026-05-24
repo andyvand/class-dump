@@ -7,8 +7,6 @@
 @interface TSULinkedPointerSetEntry
 {
     id mObject;
-    TSULinkedPointerSetEntry *mPrevious;
-    TSULinkedPointerSetEntry *mNext;
 }
 
 - (id);

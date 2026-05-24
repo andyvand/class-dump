@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL;
+@class NSURL;
 
 @interface CSFileURLBatchResult
 {
     NSURL *_url;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

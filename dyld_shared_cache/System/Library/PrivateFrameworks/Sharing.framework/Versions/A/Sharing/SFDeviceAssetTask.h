@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSError, NSMutableArray, NSObject, SFDeviceAssetQuery, SFDeviceAssetRequestConfiguration;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class SFDeviceAssetQuery;
 
 __attribute__((visibility("hidden")))
 @interface SFDeviceAssetTask
 {
     _Bool _useProcessLocalCache;
-    _Bool _queryResultCalled;
-    _Bool _downloadCompletionCalled;
-    SFDeviceAssetQuery *_deviceAssetQuery;
-    SFDeviceAssetRequestConfiguration *_configuration;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableArray *_deviceQueryParameters;
-    NSObject<OS_dispatch_source> *_timer;
-    NSBundle *_matchBundle;
-    NSBundle *_imperfectMatchBundle;
-    NSBundle *_fallbackBundle;
-    NSBundle *_cachedBundle;
-    NSError *_error;
 }
 
 - (_Bool);
@@ -34,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -53,19 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSBundle *cachedBundle; // @synthesize cachedBundle=_cachedBundle;
-@property(readonly, nonatomic) SFDeviceAssetRequestConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) SFDeviceAssetQuery *deviceAssetQuery; // @synthesize deviceAssetQuery=_deviceAssetQuery;
-@property(readonly, nonatomic) NSMutableArray *deviceQueryParameters; // @synthesize deviceQueryParameters=_deviceQueryParameters;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool downloadCompletionCalled; // @synthesize downloadCompletionCalled=_downloadCompletionCalled;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSBundle *fallbackBundle; // @synthesize fallbackBundle=_fallbackBundle;
-@property(readonly, nonatomic) NSBundle *imperfectMatchBundle; // @synthesize imperfectMatchBundle=_imperfectMatchBundle;
-@property(readonly, nonatomic) NSBundle *matchBundle; // @synthesize matchBundle=_matchBundle;
-@property(nonatomic) _Bool queryResultCalled; // @synthesize queryResultCalled=_queryResultCalled;
-@property(readonly, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(readonly, nonatomic) _Bool useProcessLocalCache; // @synthesize useProcessLocalCache=_useProcessLocalCache;
 
 @end
 

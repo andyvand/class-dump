@@ -7,13 +7,6 @@
 @interface NewsFeed.SharingActivityProviderFactory
 {
     id sharingActivityItemFactory;
-    id activityTypeProvider;
-    id issueActivityTypeProvider;
-    id recipeActivityTypeProvider;
-    id puzzleActivityTypeProvider;
-    id puzzleTypeActivityTypeProvider;
-    id paidAccessChecker;
-    id subscriptionController;
 }
 
 @end

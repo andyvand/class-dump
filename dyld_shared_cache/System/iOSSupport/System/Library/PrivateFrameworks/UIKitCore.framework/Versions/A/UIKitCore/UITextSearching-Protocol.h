@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextRange;
+@class NSString, UITextRange, UITextSearchOptions;
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
+- (void)ertItemsAtHead:(NSString *)arg1 (:(UITextSearchOptions *)arg2 %lld)[%{public}@];
 - (long long)
 × ;
 - (UITextRange *)®;
 
 @optional
-- (void)gleFullscreen;
+- (id <NSObject><NSCopying>);
+- (void)s for all files;
+- (void)toggleFullscreen;
 - (_Bool)ary useLocal %d;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

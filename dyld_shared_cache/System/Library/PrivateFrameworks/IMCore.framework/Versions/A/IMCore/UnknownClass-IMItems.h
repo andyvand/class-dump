@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessage, IMMessageItem;
+@class IMMessageItem;
 
 @interface UnknownClass (IMItems)
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)Stream-pause;
+- (id)ideoStream-stop;
+- (id)t (not using XPC);
+- (id)ediaNegotiatorVersion=%d;
+- (id)ideo paused[%d];
+- (void)hange to video enabled[%d];
+- (id)ontrolInfo type=kVCMediaControlInfoTypePacketSize, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (id)s:%d setInfo failed for controlInfo type=kVCMediaControlInfoTypePacketSize, for optionalControlInfo=%p in control info=%p for audio. error=%x /* Error: Ran out of types for this method. */;
+- (_Bool));
+- (void)enableTxSourceYuvDump but the value[%d] is invalid (should be 1 or 2);
+- (id)Cannot set capture framerate for captureSource=%d;
+- (id)ueue full;
+- (void)=%d either a higher temporal tier is subscribed (%d) or max active tiers=%d;
+- (id)Media states for mediaType=%@ are mismatched state=%@ != state=%@;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) IMMessageItem *__imLastMessageItem;
-@property(readonly, nonatomic) IMMessage *firstMessage;
 @property(readonly, nonatomic) IMMessageItem *firstMessageItem;
-@property(readonly, nonatomic) IMMessage *lastFinishedMessage;
-@property(readonly, nonatomic) IMMessage *lastIncomingFinishedMessage;
-@property(readonly, nonatomic) IMMessage *lastIncomingMessage;
-@property(readonly, nonatomic) IMMessage *lastMessage;
-@property(readonly, nonatomic) IMMessageItem *lastMessageItem;
 @end
 

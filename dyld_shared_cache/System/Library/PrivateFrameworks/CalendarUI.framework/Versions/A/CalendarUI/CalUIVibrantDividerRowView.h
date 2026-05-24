@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTableView, NSView;
+@class NSTableView;
 
 @interface CalUIVibrantDividerRowView
 {
     NSTableView *_tableView;
-    NSView *_dividerView;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)q@;
+- (void)st_valueIvEEiNSt3__14lessIiEENS_8functionIS7_EENSD_IFvRKNS2_10connectionES6_S6_bEEENS2_5mutexEE16invocation_stateEEE;
 - (void);
 - (void)0:(id)arg1 8@"NSWindow"16@24;
-- (id)onthButton;
+- (id)_nextMonthButton;
 
 // Remaining properties
-@property(retain) NSView *dividerView; // @synthesize dividerView=_dividerView;
 @property __weak NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

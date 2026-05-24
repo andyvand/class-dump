@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CPKState
 {
     NSNumber *_shouldShowGenmojiCreationUIValue;
-    _Bool _characterSelectionPending;
-    _Bool _forceTopPositionInEmojiPicker;
-    _Bool _showingGenerationUI;
-    _Bool _showsCharacterViewerButton;
-    _Bool _supportsInlineTextAttachments;
-    _Bool _supportsImagePaste;
-    _Bool __overrideCombinedPicker;
-    NSArray *_suggestedEmojis;
-    long long _presentedWindowNumber;
 }
 
 + (id);
@@ -28,32 +19,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)k-;
+- (_Bool)h
+;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property(nonatomic) _Bool _overrideCombinedPicker; // @synthesize _overrideCombinedPicker=__overrideCombinedPicker;
 @property(nonatomic) _Bool characterSelectionPending; // @synthesize characterSelectionPending=_characterSelectionPending;
-@property(nonatomic) _Bool forceTopPositionInEmojiPicker; // @synthesize forceTopPositionInEmojiPicker=_forceTopPositionInEmojiPicker;
-@property(nonatomic) long long presentedWindowNumber; // @synthesize presentedWindowNumber=_presentedWindowNumber;
-@property(readonly, nonatomic) _Bool shouldShowGenmojiCreationUI;
-@property(nonatomic, getter=isShowingGenerationUI) _Bool showingGenerationUI; // @synthesize showingGenerationUI=_showingGenerationUI;
-@property(nonatomic) _Bool showsCharacterViewerButton; // @synthesize showsCharacterViewerButton=_showsCharacterViewerButton;
-@property(retain, nonatomic) NSArray *suggestedEmojis; // @synthesize suggestedEmojis=_suggestedEmojis;
-@property(nonatomic) _Bool supportsImagePaste; // @synthesize supportsImagePaste=_supportsImagePaste;
-@property(nonatomic) _Bool supportsInlineTextAttachments; // @synthesize supportsInlineTextAttachments=_supportsInlineTextAttachments;
 
 @end
 

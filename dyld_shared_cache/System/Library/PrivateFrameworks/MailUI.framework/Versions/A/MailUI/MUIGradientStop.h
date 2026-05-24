@@ -9,7 +9,6 @@
 @interface MUIGradientStop
 {
     NSColor *_color;
-    double _location;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (id);
 - (_Bool);
 - (double);
-- (void)rReadMessages;
+- (void)predicateForReadMessages;
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) double location; // @synthesize location=_location;
 
 @end
 

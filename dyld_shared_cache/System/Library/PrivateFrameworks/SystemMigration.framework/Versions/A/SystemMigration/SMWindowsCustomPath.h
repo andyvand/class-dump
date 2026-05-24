@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SMWindowsCustomPath
 {
     _Bool _windowsPathRelativeToUserHome;
-    _Bool _macPathRelativeToUserHome;
-    NSString *_windowsPath;
-    NSURL *_macPath;
-    unsigned long long _size;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,16 +22,12 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *macPath; // @synthesize macPath=_macPath;
-@property _Bool macPathRelativeToUserHome; // @synthesize macPathRelativeToUserHome=_macPathRelativeToUserHome;
-@property unsigned long long size; // @synthesize size=_size;
 @property(retain) NSString *windowsPath; // @synthesize windowsPath=_windowsPath;
-@property _Bool windowsPathRelativeToUserHome; // @synthesize windowsPathRelativeToUserHome=_windowsPathRelativeToUserHome;
 
 @end
 

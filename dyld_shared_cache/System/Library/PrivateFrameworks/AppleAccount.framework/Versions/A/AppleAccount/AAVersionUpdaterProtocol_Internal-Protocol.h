@@ -7,6 +7,7 @@
 @protocol AAVersionUpdaterProtocol_Internal
 
 @optional
+- (void);
 - (unsigned long long)¿zîe«Î2ÔK	`3õï¥aÝð.ÓÄT<WN±czñÊ]lhÈlÀLãéÔm7Å_¼ÞwYCû%9º·3*hºF ½)'ØxÏØe&æã5)µßå$Ö½ÖþfVù,+$4ðÎhÔÝçÃG-`ÁaªõóTý½>6+½ãy|`O!Zb`8¡4QuûþÇwGÛû¢ÐÅùºtüàEk·¦Õ²Sì·i\Å§Ò°¥x{\:´Æ>Ù"×bÔYq{¿,½)5là¥Ü~\*J/ÑÒ+¸æË»ñÚýAøIìªà«Fý$ë7È»¯Þâ_ Ü°7ÿKIÖOGNz UAYé£{óMî}W4`?êã¢ªäòtì¨¥oÁÑnÙì£¥ ¢('ÜSÊÈbÒP?HÀ8¾]CLÍ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -6,77 +6,53 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableDictionary, NSString, UITapGestureRecognizer, UITextCursorAssertionController, UITextInputTraits, _UIKeyboardPasscodeObscuringInteraction;
-
 @interface UIKeyboard : UIView
 {
     UIView *m_snapshot;
-    UITextInputTraits *m_defaultTraits;
-    UITextInputTraits *m_overrideTraits;
-    _Bool m_typingDisabled;
-    _Bool m_minimized;
-    _Bool m_respondingToImplGeometryChange;
-    long long m_orientation;
-    long long m_idiom;
-    _Bool m_hasExplicitOrientation;
-    _Bool m_disableTouchInput;
-    _Bool m_useLinearLayout;
-    _Bool m_useRecentsAlert;
-    NSMutableDictionary *m_focusGuides;
-    struct UIEdgeInsets m_unfocusedFocusGuideOutsets;
-    _UIKeyboardPasscodeObscuringInteraction *_passcodeObscuringInteraction;
-    struct CGRect _forcedFrame;
-    UITapGestureRecognizer *_menuGestureRecognizer;
-    NSArray *_implConstraints;
-    struct CGSize _preferredSize;
-    _Bool _shouldUpdateLayoutAutomatically;
-    _Bool _hasImpendingCursorLocation;
-    unsigned long long _impendingCursorLocation;
-    unsigned long long _requestedInteractionModel;
 }
 
 - (void);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)1_pG;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)record with existing metadata. Using a different method instead;
+- (void)ation:(unsigned long long)arg1 %s;
+- (void)IMDRecordZoneManager;
+- (void)on chatGUIDS:%@, from handle:%@, forceSend:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)me for %@ %@.;
+- (void)Successfully downloaded and saved nickname for %@ %@.;
+- (void)ed to download nickname with error:%@ /* Error: Ran out of types for this method. */;
+- (void)g to peers.;
+- (long long)ringSettings dictionary;
+- (_Bool)no override database was set;
+- (id)r associated with GUID %@, failing local file url retrieval;
+- (id)pplication is uninstalled, not donating Siri Vocab.;
+- (unsigned long long)ssage From Push Handler From %@ To %@;
+- (_Bool);
+- (struct UIPeripheralAnimationGeometry)ce as it does not support required capability:(_Bool)arg1 %@;
+- (struct UIPeripheralAnimationGeometry)nd this message to ;
+- (void)stamp:(unsigned long long)arg1 %@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void)indexingQueryProvider;
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (_Bool);
+- (_Bool)[;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (struct UIPeripheralAnimationGeometry);
-- (struct UIPeripheralAnimationGeometry);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,11 +85,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ADForceHomeLocalFlag;
 - (_Bool);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)B40@0:8@"UITableView"16@"NSIndexPath"24@"<UISpringLoadedInteractionContext>"32 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct CGSize)!|@ùqY°1Â0@ù
@@ -129,31 +105,31 @@
 × ;
 - (_Bool);
 - (id)@"_UIViewControllerTransitionContext"24;
-- (void)AuxiliaryConnectionPassingTest:(double)arg1;
-- (void)uttonBackgroundImage;
-- (void)InputSessionAnalytics;
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)WithObservationTracking;
-- (void)deRegionsBelow;
-- (int)veTitle;
+- (void)firstAuxiliaryConnectionPassingTest:(double)arg1;
+- (void)anyBackButtonBackgroundImage;
+- (void)_textInputSessionAnalytics;
+- (void)_setScrollPoint: /* Error: Ran out of types for this method. */;
+- (void)_invalidateEngineHostConstraints;
+- (void)_containerViewDidLayoutSubviewsWithObservationTracking;
+- (void)_canOccludeRegionsBelow;
+- (int)_canHaveTitle;
 - (void)omaticTreatment:(CDUnknownBlockType)arg1 ,V__monochromaticTreatment;
-- (id)ionAccessibility;
+- (id)_updateApplicationAccessibility;
 - (void)eAnimation",&,N,V_incomingSceneAnchorAnimation;
 - (void)Ä;
 - (id)transition %@ startingState:%li finalState:%li animationType:%li duration:%0.2f delay:%0.2f /* Error: Ran out of types for this method. */;
 - (_Bool)ring of display with missing configuration not supported.;
 - (void)@ÉçÿLÉçÿXÉçÿdÉçÿpÉçÿ|ÉçÿÉçÿÉçÿ Éçÿ¬Éçÿ¸ÉçÿÄÉçÿàçÿ¬àçÿìàçÿáçÿ<áçÿdáçÿáçÿ¼áçÿüáçÿDâçÿlâçÿâçÿ¼âçÿäâçÿãçÿ,ãçÿPãçÿãçÿ¨ãçÿàãçÿäçÿ8äçÿäçÿ¨äçÿàäçÿåçÿ(åçÿPåçÿåçÿ¸åçÿàåçÿ æçÿhæçÿæçÿÈæçÿøæçÿ ççÿhççÿççÿÈççÿøççÿ èçÿhèçÿèçÿÈèçÿøèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
 - (void)e.width >= 0 && size.height >= 0;
-- (_Bool);
+- (_Bool)PositionedOnEdge;
 - (_Bool)backPlayer>"12@"NSString"20;
 - (void)rigger=qqdB};
 - (void)tomContentView;
-- (void)eStretchinessLowerBound;
+- (void)scaleStretchinessLowerBound;
 - (void);
 - (unsigned long long)X	þ;
 - (void);
-- (_Bool)ewControllerPreviewSource;
+- (_Bool)UIViewControllerPreviewSource;
 - (void);
 - (void)Ôóÿ£;ÜÖ^;
 - (_Bool)a;
@@ -197,24 +173,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextCursorAssertionController *_activeAssertionController;
-@property(nonatomic) _Bool caretBlinks;
-@property(nonatomic) _Bool caretVisible;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasImpendingCursorLocation; // @synthesize hasImpendingCursorLocation=_hasImpendingCursorLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long impendingCursorLocation; // @synthesize impendingCursorLocation=_impendingCursorLocation;
-@property(nonatomic) long long keyboardIdiom; // @synthesize keyboardIdiom=m_idiom;
-@property(nonatomic, getter=isMinimized) _Bool minimized;
-@property(nonatomic) unsigned long long requestedInteractionModel; // @synthesize requestedInteractionModel=_requestedInteractionModel;
-@property(nonatomic) _Bool shouldUpdateLayoutAutomatically; // @synthesize shouldUpdateLayoutAutomatically=_shouldUpdateLayoutAutomatically;
-@property(nonatomic) _Bool showsCandidatesInline;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool typingEnabled;
 
 @end
 

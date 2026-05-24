@@ -4,66 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
-@protocol CNScheduler;
+@class NSArray;
 
 @interface CNCache
 {
     NSArray *_boundingStrategies;
-    id <CNScheduler> _resourceScheduler;
-    NSMutableDictionary *_storage;
-    NSMutableArray *_didEvictHandlers;
-    NSArray *_evictedKeysAndValues;
 }
 
++ (id)h;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)_externalURI;
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)leItem.m;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)unifiedIdentifiersForValue:inUnifiedMap:forProperty: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allObjects;
 @property(readonly, copy, nonatomic) NSArray *boundingStrategies; // @synthesize boundingStrategies=_boundingStrategies;
-@property(readonly, nonatomic) NSMutableArray *didEvictHandlers; // @synthesize didEvictHandlers=_didEvictHandlers;
-@property(copy, nonatomic) NSArray *evictedKeysAndValues; // @synthesize evictedKeysAndValues=_evictedKeysAndValues;
-@property(readonly) unsigned long long overestimatedCount;
-@property(readonly, nonatomic) id <CNScheduler> resourceScheduler; // @synthesize resourceScheduler=_resourceScheduler;
-@property(readonly, nonatomic) NSMutableDictionary *storage; // @synthesize storage=_storage;
 
 @end
 

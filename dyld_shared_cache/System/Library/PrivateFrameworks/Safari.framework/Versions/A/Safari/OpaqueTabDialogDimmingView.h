@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)M`l;
 + (id);
-+ (id);
-+ (double);
++ (double)t;
 
 @end
 

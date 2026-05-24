@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface PKPaymentSetupAssistantRegistrationViewControllerAccessibility
+#import <PassKitUI/__PKPaymentSetupAssistantRegistrationViewControllerAccessibility_super.h>
+
+@interface PKPaymentSetupAssistantRegistrationViewControllerAccessibility : __PKPaymentSetupAssistantRegistrationViewControllerAccessibility_super
 {
 }
 
 + (Class);
-+ (id);
++ (id)__VKCDataDetectorElementViewAccessibility_super;
 + (void);
 - (void);
 - (void);

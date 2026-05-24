@@ -9,24 +9,20 @@
 @interface PGTextFeature
 {
     NSString *_string;
-    NSString *_originalString;
-    unsigned long long _type;
-    double _weight;
-    unsigned long long _origin;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setSelectionStartLineIndex: /* Error: Ran out of types for this method. */;
++ (id)keyboardFocusTracker:(id)arg1 sharedKeyboardFocusedElementDestroyed:(unsigned long long)arg2;
++ (id)keyboardFocusTracker:(id)arg1 sharedKeyboardFocusedElementChanged:(id)arg2 elementInfo:(unsigned long long)arg3;
++ (id)keyboardFocusTracker:(id)arg1 selectedTextChanged:(unsigned long long)arg2;
++ (id)excludeAttribute:(unsigned long long)arg1;
 + (id);
 + (id);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)_;
 - (void);
 - (id);
 - (id);
@@ -34,15 +30,11 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double)=;
 - (void)oraryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/Social Groups/PGSocialGroupsQuestionFactory.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

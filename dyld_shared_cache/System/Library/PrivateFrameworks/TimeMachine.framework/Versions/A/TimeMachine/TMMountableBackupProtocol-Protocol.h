@@ -7,9 +7,10 @@
 @class NSURL;
 
 @protocol TMMountableBackupProtocol
+- (long long)ject>"24;
+- (NSURL *);
 
 // Remaining properties
-@property(readonly) NSURL *expectedBackupURL;
 @property(readonly) NSURL *rootURL;
 @end
 

@@ -9,15 +9,14 @@
 @interface ADCoreDefaults
 {
     NSMutableDictionary *_factoryDefaults;
-    struct __CFString *_defaultsBundleID;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)~];
 - (void);
 - (void);
-- (id);
+- (id)i;
 - (void);
 - (struct __CFString *);
 - (_Bool);
@@ -25,11 +24,11 @@
 - (id);
 - (double);
 - (void);
-- (_Bool);
-- (long long);
-- (id);
+- (_Bool)pictureInPictureControllerTimeRangeForPlayback:(id)arg1;
+- (long long)tyleVideo == preferredWhitePointAdaptivityStyle;
+- (id)6;
 - (void);
-- (id);
+- (id)setUsesDepthPrePass:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,7 +36,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) struct __CFString *defaultsBundleID; // @synthesize defaultsBundleID=_defaultsBundleID;
 @property(retain, nonatomic) NSMutableDictionary *factoryDefaults; // @synthesize factoryDefaults=_factoryDefaults;
 
 @end

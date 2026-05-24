@@ -14,7 +14,7 @@
 
 + (Class);
 - (id);
-- (id);
+- (id);
 - (char *);
 - (char *);
 - (id);

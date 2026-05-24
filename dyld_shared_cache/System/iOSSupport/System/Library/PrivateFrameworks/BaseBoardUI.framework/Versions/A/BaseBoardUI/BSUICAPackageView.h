@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSArray, NSDictionary, NSObject, NSString;
-@protocol CAStateControllerDelegate;
+@class CAStateController, NSArray;
 
 @interface BSUICAPackageView
 {
     CAStateController *_stateController;
-    NSObject<CAStateControllerDelegate> *_stateControllerDelegate;
-    CALayer *_rootLayer;
-    struct CGSize _originalSize;
-    NSString *_pendingCompletionToState;
-    NSString *_pendingCompletionFromState;
-    CDUnknownBlockType _pendingCompletion;
-    NSDictionary *_publishedObjectMap;
 }
 
 - (id);
@@ -25,20 +17,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)fY;
 - (id);
 - (_Bool);
-- (void);
+- (void)@t;
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)on, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *publishedObjectNames;
-@property(nonatomic) __weak NSObject<CAStateControllerDelegate> *stateControllerDelegate;
 
 @end
 

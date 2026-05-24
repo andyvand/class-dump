@@ -34,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -44,9 +44,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae)ɚ;
 - (unsigned long long);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -57,13 +57,13 @@
 - (unsigned char);
 - (unsigned char);
 - (unsigned long long);
+- (unsigned char);
 - (unsigned char);
-- (unsigned char);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -80,18 +80,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char clockAccuracy; // @dynamic clockAccuracy;
-@property(readonly, nonatomic) unsigned char clockClass; // @dynamic clockClass;
-@property(readonly, nonatomic) unsigned long long clockIdentity; // @dynamic clockIdentity;
-@property(readonly, nonatomic) unsigned char clockPriority1; // @dynamic clockPriority1;
-@property(readonly, nonatomic) unsigned char clockPriority2; // @dynamic clockPriority2;
 @property(copy, nonatomic) NSArray *gptpPath; // @dynamic gptpPath;
-@property(nonatomic) unsigned long long grandmasterIdentity; // @dynamic grandmasterIdentity;
-@property(readonly, copy, nonatomic) NSArray *ports; // @dynamic ports;
 
 @end
 

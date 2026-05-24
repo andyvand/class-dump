@@ -7,6 +7,7 @@
 @interface hvf.RenderContextTrampoline
 {
     id closure;
+    id;
 }
 
 @end

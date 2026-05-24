@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3Entity, NSDictionary, NSString;
+@class ML3Entity;
 
 @interface ML3ArtworkTokenSet
 {
     ML3Entity *_entity;
-    long long _artworkType;
-    long long _artworkVariantType;
-    NSString *_availableArtworkToken;
-    NSString *_fetchableArtworkToken;
-    long long _fetchableArtworkSourceType;
-    NSDictionary *_artworkSourceToTokenMap;
-    _Bool _faultedInBestTokens;
-    _Bool _faultedInTokens;
-    double _retrievalTime;
 }
 
 - (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (id)dAsset",&,N,S_setAnOldPick:(id)arg1 ,V__anOldPick;
+- (long long)ntifier;
+- (id)riteIndexes;
+- (void)uTaxonomyObjectStore;
+- (void)eKnowledgeObjectStore",&,N,V_csuTaxonomyObjectStore;
+- (void)il;
+- (double)MUTEX) client %hhu unable to obtain mutex because it was invalidated (library shutdown);
+- (id)unable to copy paired %{public}@ url for asset:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)skID_SceneAnalysis;
 - (void)MapSortKeys ON sort_map (sort_key ASC);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *availableArtworkToken;
-@property(readonly, nonatomic) long long fetchableArtworkSourceType;
-@property(readonly, nonatomic) NSString *fetchableArtworkToken;
 @property(nonatomic) double retrievalTime; // @synthesize retrievalTime=_retrievalTime;
 
 @end

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface AFOpportuneSpeakingModuleDataCollectionSanitizedSpeakable
 {
     NSString *_identifier;
-    NSDate *_date;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)nceDate: /* Error: Ran out of types for this method. */;
+- (void)dateWithTimeInterval:sinceDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

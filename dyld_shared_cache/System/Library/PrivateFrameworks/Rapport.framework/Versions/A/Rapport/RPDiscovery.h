@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPDiscovery
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_endpointMap;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    unsigned int _changeFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    unsigned long long _controlFlags;
-    CDUnknownBlockType _foundHandler;
-    CDUnknownBlockType _lostHandler;
-    CDUnknownBlockType _changedHandler;
-    NSString *_serviceType;
 }
 
 + (_Bool);
@@ -47,20 +30,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)of the first block;
 - (void);
+- (id)eroton words;
+- (id)$;
+- (unsigned int)n;
 - (id);
-- (id);
-- (unsigned int);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)h;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -73,18 +56,7 @@
 - (_Bool)stance;
 
 // Remaining properties
-@property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(copy, nonatomic) CDUnknownBlockType changedHandler; // @synthesize changedHandler=_changedHandler;
-@property(nonatomic) unsigned long long controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(readonly, copy) NSArray *discoveredEndpoints;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType foundHandler; // @synthesize foundHandler=_foundHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType lostHandler; // @synthesize lostHandler=_lostHandler;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
 
 @end
 

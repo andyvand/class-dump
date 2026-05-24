@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)_traitCollection;
 + (id);
-- (id);
+- (id)__objc_methname;
 
 @end
 

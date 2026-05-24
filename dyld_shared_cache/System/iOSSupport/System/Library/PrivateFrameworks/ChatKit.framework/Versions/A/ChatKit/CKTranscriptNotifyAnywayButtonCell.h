@@ -6,40 +6,32 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, NSString, UIButton;
+@class UIButton;
 
 @interface CKTranscriptNotifyAnywayButtonCell : CKTranscriptCell
 {
     UIButton *_notifyAnywayButton;
 }
 
++ (id)g %@ %@;
 + (id);
-+ (id);
+- (void)isHandlingDrawingDidChange;
+- (void)isGeneratingPreviews;
+- (void)URLWithSchemeForString:(CDUnknownBlockType)arg1;
+- (id)wsManagedToUnmanagedMove;
+- (id),V_allowsAnimations;
+- (void)ggestionsDelegate>",N,W,VsuggestionsDelegate;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)R;
+- (void)You** were added to the note;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)iewColor;
+- (id)dragSource:(struct CGRect)arg1 sessionIsRestrictedToMail: /* Error: Ran out of types for this method. */;
+- (void)CKFSMPickerBackgroundViewColor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIButton *notifyAnywayButton; // @synthesize notifyAnywayButton=_notifyAnywayButton;
-@property(copy, nonatomic) NSAttributedString *notifyAnywayButtonAttributedText;
-@property(readonly) Class superclass;
 
 @end
 

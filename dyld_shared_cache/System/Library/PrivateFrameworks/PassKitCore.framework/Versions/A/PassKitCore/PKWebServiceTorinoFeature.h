@@ -15,7 +15,7 @@
 
 - (id);
 - (id)|;
-- (void)wIcon;
+- (void)rawIcon;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *implicitFeatureSupportedNetworks; // @synthesize implicitFeatureSupportedNetworks=_implicitFeatureSupportedNetworks;

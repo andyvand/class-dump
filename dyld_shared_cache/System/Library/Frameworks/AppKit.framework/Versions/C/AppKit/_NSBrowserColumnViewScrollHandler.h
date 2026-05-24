@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSBrowserColumnViewScrollHandler
 {
     _Bool _wasLastScrollVertical;
-    double _accum;
 }
 
 - (void);

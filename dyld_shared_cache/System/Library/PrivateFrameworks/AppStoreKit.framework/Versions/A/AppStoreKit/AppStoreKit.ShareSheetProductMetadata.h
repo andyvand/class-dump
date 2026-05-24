@@ -7,16 +7,6 @@
 @interface AppStoreKit.ShareSheetProductMetadata
 {
     id adamId;
-    id storeFrontIdentifier;
-    id name;
-    id subtitle;
-    id genreName;
-    id icon;
-    id screenshots;
-    id videos;
-    id isMessagesOnlyApp;
-    id messagesAppIcon;
-    id notesMetadata;
 }
 
 @end

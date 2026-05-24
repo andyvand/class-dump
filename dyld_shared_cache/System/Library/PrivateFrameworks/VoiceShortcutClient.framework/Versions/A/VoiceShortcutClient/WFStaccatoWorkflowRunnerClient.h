@@ -6,30 +6,25 @@
 
 #import <VoiceShortcutClient/WFSystemActionRunnerClient.h>
 
-@class NSString;
-
 @interface WFStaccatoWorkflowRunnerClient : WFSystemActionRunnerClient
 {
     _Bool _hasStartedRun;
 }
 
 + (id);
+- (void)6k;
 - (void);
-- (void);
-- (void);
+- (void)s;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)2|;
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCompletedRun;
 @property(nonatomic) _Bool hasStartedRun; // @synthesize hasStartedRun=_hasStartedRun;
-@property(readonly, copy, nonatomic) NSString *presentableIdentifier;
-@property(readonly, copy, nonatomic) NSString *presentableRequester;
 
 @end
 

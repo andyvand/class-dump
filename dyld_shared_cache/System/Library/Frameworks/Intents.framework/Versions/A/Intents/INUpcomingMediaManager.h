@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void)hCompletion: /* Error: Ran out of types for this method. */;

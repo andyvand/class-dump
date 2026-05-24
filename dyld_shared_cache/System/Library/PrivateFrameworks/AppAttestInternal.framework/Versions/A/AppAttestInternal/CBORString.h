@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *m_data;
 }
 
-- (id);
+- (id)ka;
 - (void);
 - (int);
-- (id);
+- (id)defaultCenter;
 - (long long);
 - (void);
 

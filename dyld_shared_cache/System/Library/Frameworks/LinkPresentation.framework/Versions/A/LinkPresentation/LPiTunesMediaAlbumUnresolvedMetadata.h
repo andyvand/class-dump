@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaAlbumUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPiTunesMediaAsset *_artwork;
-    NSArray *_offers;
 }
 
 - (id);
 - (void);
 - (id);
+- (void)L;
 - (void);
+- (id)vited PCS for share %@:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)facePositionLimits;
+- (id).xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotosFormats/PhotosFormats/PFParallaxLayerStackArchiver.m;
+- (id)P;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *offers; // @synthesize offers=_offers;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

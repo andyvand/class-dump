@@ -7,15 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)F;
+- (oneway void)'D;
+- (NSString *)'FB;
+- (unsigned long long)ht %d;
+- (id).%;
+- (_Bool);
+- (_Bool);
+- (_Bool)l!A9l;
+- (id)om.apple.xbs/TemporaryDirectory.3LW3lp/Sources/Bom/Copier/data_archive/fts_agent.c;
 - (struct _NSZone *)=============== Brightness commit =======================;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

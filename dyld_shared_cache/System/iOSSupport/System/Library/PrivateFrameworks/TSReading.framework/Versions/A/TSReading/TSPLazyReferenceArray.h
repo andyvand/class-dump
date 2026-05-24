@@ -9,7 +9,6 @@
 @interface TSPLazyReferenceArray
 {
     NSMutableArray *_references;
-    unsigned long long _mutations;
 }
 
 - (id);
@@ -20,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)registerArcadeAppWithRandomFromLib:(unsigned long long)arg1 randomFromLibLength:(id)arg2 resultHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);

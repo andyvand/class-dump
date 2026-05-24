@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (BRPathAdditions)
-+ (id);
++ (id)K@9+	;
 + (id);
 + (id);
 + (id);
@@ -32,31 +32,31 @@
 - (id);
 - (id);
 - (id);
+- (const char *)ae2;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)*;
+- (_Bool);
+- (_Bool);
+- (_Bool)4(;
+- (_Bool);
+- (const char *);
 - (const char *);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (const char *);
-- (const char *);
-- (id);
-- (id);
+- (id)T;
 - (long long);
 - (const char *);
 - (id);

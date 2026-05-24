@@ -7,12 +7,10 @@
 @interface UIZoomTransitionInteractionContext
 {
     _Bool _willBegin;
-    struct CGPoint _location;
-    struct CGVector _velocity;
 }
 
 - (_Bool);
-- (void);
+- (void)toCreationTime:(_Bool)arg1 toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
 - (struct CGVector)!¸Eùñeð1Â0@ù
 × ;
 - (struct CGPoint)essionTracker.m;
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) struct CGVector velocity; // @synthesize velocity=_velocity;
-@property(nonatomic) _Bool willBegin; // @synthesize willBegin=_willBegin;
 
 @end
 

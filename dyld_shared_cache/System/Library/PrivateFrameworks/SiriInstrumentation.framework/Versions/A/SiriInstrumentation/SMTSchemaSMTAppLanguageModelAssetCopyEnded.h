@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SMTSchemaSMTAppLanguageModelAssetCopyEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)cLoggerParameters *, Float64);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)packaging;
 - (_Bool);
-- (_Bool);
+- (_Bool)ForceClientStateFetchError;
 - (id);
 - (id);
-- (id)eleteIsChatGPTSetUpPrompts;
-- (id)reAvailabilityDetailedStatus;
+- (id)deleteIsChatGPTSetUpPrompts;
+- (id)_hasIntelligenceFeatureAvailabilityDetailedStatus;
 - (_Bool)UpPosted;
-- (_Bool)TOTAL_FRAMEWORK;
+- (_Bool)EXECUTORAPPINTENTTASK_TOTAL_FRAMEWORK;
 - (void)òåÿìê;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

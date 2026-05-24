@@ -9,18 +9,10 @@
 @interface GEOMapsDestinationsWidget
 {
     NSMutableArray *_proactiveItems;
-    int _tappedItemIndex;
-    _Bool _everExpanded;
-    _Bool _initiallyExpanded;
-    struct {
-        unsigned int has_tappedItemIndex:1;
-        unsigned int has_everExpanded:1;
-        unsigned int has_initiallyExpanded:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)Hours:(id)arg1;
++ (Class)te components %@;
++ (_Bool)setHasTimezoneOffsetFromGmtInHours:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,32 +29,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (int);
-- (_Bool);
+- (int)successWithValue: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithResultBlock:completionBlock:failureBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)ma);
+- (id)Z;
+- (void)p;
+- (void).AdBlockerAssets.ma.new-asset-installed;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)V2;
 - (id)nikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)ytesUlTotal;
+- (id)hasBytesUlTotal;
 - (id)Ð¼® 
 q;
-- (id)DirectionsRequest;
+- (id)SendDirectionsRequest;
 - (void)02;
 
 // Remaining properties
-@property(nonatomic) _Bool everExpanded;
-@property(nonatomic) _Bool hasEverExpanded;
-@property(nonatomic) _Bool hasInitiallyExpanded;
-@property(nonatomic) _Bool hasTappedItemIndex;
-@property(nonatomic) _Bool initiallyExpanded;
 @property(retain, nonatomic) NSMutableArray *proactiveItems;
-@property(nonatomic) int tappedItemIndex;
 
 @end
 

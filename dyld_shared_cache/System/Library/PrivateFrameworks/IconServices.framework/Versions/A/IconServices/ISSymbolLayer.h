@@ -7,18 +7,13 @@
 #import <IconServices/ISLayer.h>
 
 @class IFColor;
-@protocol ISCompositorResource;
 
 @interface ISSymbolLayer : ISLayer
 {
     IFColor *_color;
-    id <ISCompositorResource> _symbol;
-    double _fontSize;
-    unsigned long long _symbolSize;
-    long long _symbolWeight;
 }
 
-- (void);
+- (void)v;
 - (void);
 - (unsigned long long);
 - (id);
@@ -26,17 +21,13 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)tLux;
 - (double);
-- (void);
+- (void)FigRoutingManagerContextUtilities_CopyPickedIndividualEndpoints;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) IFColor *color; // @synthesize color=_color;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) id <ISCompositorResource> symbol; // @synthesize symbol=_symbol;
-@property(nonatomic) unsigned long long symbolSize; // @synthesize symbolSize=_symbolSize;
-@property(nonatomic) long long symbolWeight; // @synthesize symbolWeight=_symbolWeight;
 
 @end
 

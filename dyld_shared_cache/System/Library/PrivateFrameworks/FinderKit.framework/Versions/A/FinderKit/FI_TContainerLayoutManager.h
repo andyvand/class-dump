@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSLayoutGuide, NSView;
-
 __attribute__((visibility("hidden")))
 @interface FI_TContainerLayoutManager
 {
     struct TKeyValueObserver _browserInsetsDidChangeObserver;
-    struct TNotificationCenterObserver _windowDidEndLiveResizeObserver;
-    NSLayoutGuide *_browserScrollViewVerticalContentInsetsLayoutGuide;
-    NSLayoutConstraint *_bottomHorizontalSeparatorConstraint;
-    _Bool _opaqueToolbar;
-    _Bool _expanded;
-    NSLayoutGuide *_searchSliceLayoutGuide;
-    NSLayoutGuide *_bannerLayoutGuide;
-    NSView *_contentView;
-    struct NSEdgeInsets _browserViewContentInsets;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -33,19 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void)ÿÿ;
 - (id)owedRKNSt3__18functionIFvP7NSImageEEEbENK3$_0clESA_EUlddRKT_E_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSLayoutGuide *bannerLayoutGuide; // @synthesize bannerLayoutGuide=_bannerLayoutGuide;
 @property(nonatomic) struct NSEdgeInsets browserViewContentInsets; // @synthesize browserViewContentInsets=_browserViewContentInsets;
-@property(nonatomic) __weak NSView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(nonatomic) _Bool opaqueToolbar; // @synthesize opaqueToolbar=_opaqueToolbar;
-@property(readonly, nonatomic) NSLayoutGuide *searchSliceLayoutGuide; // @synthesize searchSliceLayoutGuide=_searchSliceLayoutGuide;
 
 @end
 

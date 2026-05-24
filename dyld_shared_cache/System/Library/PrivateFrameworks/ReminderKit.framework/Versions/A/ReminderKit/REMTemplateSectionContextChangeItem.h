@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMMemberships, REMTemplateChangeItem;
+@class REMTemplateChangeItem;
 
 @interface REMTemplateSectionContextChangeItem
 {
@@ -21,14 +21,11 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)ies;
+- (id)accountCapabilities;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldUpdateSectionsOrdering;
 @property(retain, nonatomic) REMTemplateChangeItem *templateChangeItem; // @synthesize templateChangeItem=_templateChangeItem;
-@property(retain, nonatomic) REMMemberships *unsavedMembershipsOfRemindersInSections;
-@property(retain, nonatomic) NSArray *unsavedSectionIDsOrdering;
 
 @end
 

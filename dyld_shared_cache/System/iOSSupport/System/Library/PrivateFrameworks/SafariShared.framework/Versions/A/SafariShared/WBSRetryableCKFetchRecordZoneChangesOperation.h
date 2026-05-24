@@ -6,18 +6,11 @@
 
 #import <SafariShared/WBSRetryableCKDatabaseOperation.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface WBSRetryableCKFetchRecordZoneChangesOperation : WBSRetryableCKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    CDUnknownBlockType _recordWasChangedBlock;
-    CDUnknownBlockType _recordWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneChangeTokensUpdatedBlock;
-    CDUnknownBlockType _recordZoneFetchCompletionBlock;
-    CDUnknownBlockType _fetchRecordZoneChangesCompletionBlock;
 }
 
 - (void);
@@ -31,23 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (CDUnknownBlockType);
-- (_Bool)ToIgnore:persistForDelayedDispatching:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)dispatchEvent:listenersToIgnore:persistForDelayedDispatching:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)Hý	;
 - (CDUnknownBlockType)r;
 - (id)'F;
-- (void)nge;
+- (void)perSiteAutomaticReaderActivationPreferenceDidChange;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZoneChangesCompletionBlock; // @synthesize fetchRecordZoneChangesCompletionBlock=_fetchRecordZoneChangesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWasChangedBlock; // @synthesize recordWasChangedBlock=_recordWasChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWithIDWasDeletedBlock; // @synthesize recordWithIDWasDeletedBlock=_recordWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneChangeTokensUpdatedBlock; // @synthesize recordZoneChangeTokensUpdatedBlock=_recordZoneChangeTokensUpdatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchCompletionBlock; // @synthesize recordZoneFetchCompletionBlock=_recordZoneFetchCompletionBlock;
 @property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 
 @end

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDDataStream;
+
 @protocol HMDDataStreamDelegate
+- (void);
+- (void);
+- (void);
+- (void) m;
+
+@optional
+- (void)initWithBase64EncodedString:(HMDDataStream *)arg1 options: /* Error: Ran out of types for this method. */;
 @end
 

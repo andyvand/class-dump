@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SFObjCType
 {
     long long _code;
-    NSString *_encoding;
-    NSString *_name;
-    NSString *_className;
-    unsigned long long _size;
-    unsigned long long _flags;
 }
 
 + (id);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)pplier function.;
 - (_Bool);
 - (void);
 - (id);
@@ -39,16 +32,7 @@ XËp,×¾NS»yÇÚPÙ¸Ä/¸êDhjíø¨³>ApÓÀ\gÓÓY|@õj"üoCkåV�
 Wä¤¢b¾rOÑü^t7IÏK½.!ùðEgÝ½îtZÃRoRáwÿâíó;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *className; // @synthesize className=_className;
 @property(readonly, nonatomic) long long code; // @synthesize code=_code;
-@property(readonly, nonatomic) NSString *encoding; // @synthesize encoding=_encoding;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic, getter=isFloatingPointNumber) _Bool floatingPointNumber;
-@property(readonly, nonatomic, getter=isIntegerNumber) _Bool integerNumber;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isNumber) _Bool number;
-@property(readonly, nonatomic, getter=isObject) _Bool object;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

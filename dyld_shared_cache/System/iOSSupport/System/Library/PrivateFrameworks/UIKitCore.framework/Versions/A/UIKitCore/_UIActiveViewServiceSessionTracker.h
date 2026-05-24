@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 @protocol BSInvalidatable;
 
 __attribute__((visibility("hidden")))
@@ -16,35 +16,28 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
+- (id)N,GisDeviceOnWifi;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)%@); reason=(%@);
+- (void)for chatid %@ category %ld, subCategory %ld, extensionName %@;
 - (id);
 - (void);
 - (id);
+- (id)mmcs_create_FileReferenceData;
 - (id);
-- (id);
-- (id);
+- (id)-> %{public}@;
 - (id);
 - (id)!Ð!|CùQ]1Â0@ù
 × ;
 - (id)
 × ;
-- (id)ections: /* Error: Ran out of types for this method. */;
+- (id)_Bug_Detected_In_Client_Of_UITableView_Invalid_Number_Of_Sections: /* Error: Ran out of types for this method. */;
 - (id)transition for presentation;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasTrackedSessions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,14 +13,12 @@
         unsigned int didUpdateFocusInContext:1;
         unsigned int didHintFocusMovement:1;
     } _delegateFlags;
-    PXGFocusableViewConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 - (struct CGPoint);
 - (void);
 - (void);
-- (void);
+- (void)`";
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -31,19 +29,6 @@
 - (void)iâ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) PXGFocusableViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end

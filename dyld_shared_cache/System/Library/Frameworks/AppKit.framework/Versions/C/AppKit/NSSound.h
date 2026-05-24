@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
-@protocol NSSoundDelegate, NSSoundEngine;
+@class NSURL;
+@protocol NSSoundDelegate;
 
 @interface NSSound
 {
     id <NSSoundDelegate> _delegate;
-    NSString *_name;
-    NSURL *_url;
-    NSData *_data;
-    id <NSSoundEngine> _engine;
-    NSString *_deviceUID;
-    NSArray *_channelMapping;
-    unsigned int _shouldLoop:1;
-    unsigned int _isPlaying:1;
-    unsigned int _delegateWantsComplete:1;
-    unsigned int _skipRegisterSoundName:1;
-    unsigned int _archivingBehavior:2;
-    unsigned int _systemSoundID;
-    float _volume;
 }
 
 + (id);
@@ -32,10 +19,10 @@
 + (unsigned long long);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (void);
++ (_Bool)_NSURLErrorPrivacyProxyFailureKey;
++ (void)@;
 + (id);
-+ (void);
++ (void);
 + (_Bool);
 + (unsigned long long);
 + (_Bool);
@@ -44,23 +31,7 @@
 + (id)bí;
 
 // Remaining properties
-@property(readonly) unsigned int _archivingBehavior;
 @property(readonly) NSURL *_url;
-@property double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSSoundDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration;
-@property(readonly) unsigned long long hash;
-@property _Bool loops;
-@property(readonly, copy) NSString *name;
-@property(copy) NSString *playbackDeviceIdentifier;
-@property(readonly, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
-@property float volume;
 
 @end
 

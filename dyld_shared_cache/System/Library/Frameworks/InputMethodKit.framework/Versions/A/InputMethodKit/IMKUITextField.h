@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 @interface IMKUITextField
 {
     long long _alignment;
-    NSAttributedString *_attributedStringValue;
-    double _padding;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)TPRemovePreservedPortBindForCallID;
 - (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (double)dIndex: /* Error: Ran out of types for this method. */;
-- (void)playMethod:(double)arg1;
+- (double)setHighlightsLineWithSelectedIndex: /* Error: Ran out of types for this method. */;
+- (void)selectDisplayMethod:(double)arg1;
 - (void)$a;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(retain, nonatomic) NSAttributedString *attributedStringValue; // @synthesize attributedStringValue=_attributedStringValue;
 @property(nonatomic) double padding; // @synthesize padding=_padding;
 
 @end

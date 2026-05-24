@@ -9,7 +9,5 @@
 
 // Remaining properties
 @property(readonly) unsigned long long timestamp;
-@property(readonly) float x;
-@property(readonly) float y;
 @end
 

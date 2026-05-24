@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKInk, PKToolConfiguration;
+@class NSString, PKToolConfiguration;
 
 @interface PKTool
 {
     PKToolConfiguration *_configuration;
-    NSString *_toolPickerItemIdentifier;
-    PKInk *_ink;
-    CDUnknownBlockType __barButtonItemsProvider;
 }
 
 + (id);
@@ -39,15 +36,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)rTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)linedPaperLayerTraitCollection: /* Error: Ran out of types for this method. */;
 - (id)tÄ;
 - (id)*ð||};
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setBarButtonItemsProvider:) CDUnknownBlockType _barButtonItemsProvider; // @synthesize _barButtonItemsProvider=__barButtonItemsProvider;
-@property(readonly, nonatomic) PKToolConfiguration *_configuration; // @synthesize _configuration;
 @property(copy, nonatomic, setter=_setToolPickerItemIdentifier:) NSString *_toolPickerItemIdentifier; // @synthesize _toolPickerItemIdentifier;
-@property(readonly, nonatomic) PKInk *ink; // @synthesize ink=_ink;
 
 @end
 

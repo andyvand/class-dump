@@ -7,9 +7,6 @@
 @interface NotificationCenterUI._EnvironmentChangingView
 {
     id materialStyle;
-    id materialWallpaperTinting;
-    id observers;
-    id changeObserver;
 }
 
 - (id);

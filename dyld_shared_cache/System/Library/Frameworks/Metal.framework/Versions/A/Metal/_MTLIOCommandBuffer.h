@@ -6,39 +6,20 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTLResourceList, NSError, NSString, _MTLIOCommandQueue;
 @protocol MTLIOScratchBuffer;
 
 @interface _MTLIOCommandBuffer : _MTLObjectWithLabel
 {
     id <MTLIOScratchBuffer> _currentStagingBuffer;
-    unsigned long long _currentStagingBufferRemainingBytes;
-    unsigned long long _currentStagingBufferOffset;
-    MTLResourceList *_resourceList;
-    _Bool _retained;
-    _Bool _enqueued;
-    unsigned long long _labelTraceID;
-    long long _status;
-    _MTLIOCommandQueue *_queue;
-    struct MTLIOCommandList *commandList;
-    struct MTLIODispatch *_completedDispatchList;
-    struct MTLIODispatch *_completedDispatchListTail;
-    _Bool _completedCallbacksDone;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct _opaque_pthread_cond_t _cond;
-    unsigned int _pendingCommands;
-    struct vector<id<MTLIOScratchBuffer>, std::allocator<id<MTLIOScratchBuffer>>> _activeScratchBuffers;
-    struct vector<id<MTLIOScratchBuffer>, std::allocator<id<MTLIOScratchBuffer>>> _poolScratchBuffers;
-    NSError *error;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct MTLIOCommandList *);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -49,36 +30,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)/key> <real>0.0063120187260210497</real> <key>sharpRadius</key> <real>0.25</real> <key>softRadius</key> <real>1.5</real> <key>spatialWeightSoftMax</key> <real>1.05</real> <key>spatialWeightSoftMin</key> <real>0.94999999999999996</real> </dict> <key>RenderingV3</key> <dict> <key>preFilterRadius</key> <real>1</real> <key>preFilterBlurStrength</key> <real>0.05</real> <key>maxBlur</key> <real>0.03</real> <key>sharpRadius</key> <real>0.25</real> <key>softRadius</key> <real>1.5</real> <key>lumaNoiseModelCoeff</key> <real>0.9</real> <key>highlightBoostGain</key> <real>0.5</real> <key>nRings</key> <real>9</real> <key>basePixelWeight</key> <real>1E-12</real> <key>antiAliasBlurStrength</key> <real>0.6</real> <key>antiAliasRadius</key> <real>7</real> <key>relativeWeightThreshold</key> <real>0.00631201872602105</real> <key>alphaEpsilon</key> <real>0.05</real> <key>alphaGain</key> <real>2.0</real> <key>shapeObstructionCoeff</key> <real>0.7</real> <key>ringAmplitude</key> <real>2.0</real> <key>ringSharpness</key> <real>100.0</real> <key>xhlrbIterations</key> <real>50</real> <key>xhlrbBlurRadiusT0</key> <real>0.0025</real> <key>xhlrbBlurRadiusT1</key> <real>0.0075</real> <key>xhlrbMaxIntensityT0</key> <real>0.9</real> <key>xhlrbMaxIntensityT1</key> <real>1.0</real> <key>xhlrbMinIntensityT0</key> <real>0.0</real> <key>xhlrbMinIntensityT1</key> <real>0.2</real> <key>xhlrbExposureScoreT0</key> <real>1.0</real> <key>xhlrbExposureScoreT1</key> <real>5.0</real> <key>xhlrbClippedPixelsT0</key> <real>1.0</real> <key>xhlrbClippedPixelsT1</key> <real>5.0</real> <key>xhlrbRecoveryScoreT</key> <real>0.5</real> <key>xhlrbPreFilterGain</key> <real>25.0</real> <key>xhlrbWeightGain</key> <real>4.0</real> <key>xhlrbIntensityGain</key> <real>2.0</real> <key>faces.maxBlurOnEyes</key> <real>0.0022</real> <key>faces.maxBlurDistFromFocus</key> <real>7.4405e-04</real> <key>faces.eyeToEyebrowRatio</key> <real>1.4</real> <key>faces.linearBlurGrowthM</key> <real>0.01</real> <key>faces.linearBlurGrowthC</key> <real>2.7901e-4</real> <key>faces.distToBlurScaling</key> <real>0.091</real> <key>faces.capMultip</key> <real>1.0</real> <key>faces.gainMultip</key> <real>1.0</real> <key>faces.chinThetaLimit</key> <real>1.0</real> <key>faces.chinThetaMultip</key> <real>1.0</real> <key>faces.chinVectorSnapping</key> <real>0.5</real> </dict> <key>SLM</key> <dict> <key>fallbackFocusROI_height</key> <real>0.10000000000000001</real> <key>fallbackFocusROI_left</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_top</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_width</key> <real>0.10000000000000001</real> <key>maxFGBlur</key> <real>0.00020000000000000001</real> <key>shiftDeadZone</key> <real>0.29999999999999999</real> <key>simulatedAperture</key> <real>4.5</real> <key>zeroShiftPercentile</key> <real>0.75</real> </dict> <key>BlurMapSmoothing</key> <dict> <key>nIterations</key> <real>5</real> <key>originalBlurValueT0</key> <real>0.2</real> <key>originalBlurValueT1</key> <real>0.5</real> <key>localMinimumBlurValueT0</key> <real>0.05</real> <key>localMinimumBlurValueT1</key> <real>0.3</real> </dict> </dict> </plist>;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)8%;
 - (void);
 - (void)debugInstrumentationData;
-- (unsigned long long)DumpOutput;
+- (unsigned long long)MTLPostVertexDumpOutput;
 - (void)data;
-- (void)rm;
+- (void)A8Unorm;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error; // @synthesize error;
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

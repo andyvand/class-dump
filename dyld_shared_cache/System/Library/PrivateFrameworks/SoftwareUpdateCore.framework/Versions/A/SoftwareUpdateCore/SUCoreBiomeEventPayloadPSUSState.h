@@ -6,13 +6,9 @@
 
 #import <SoftwareUpdateCore/SUCoreBiomeEventPayloadBase.h>
 
-@class NSArray;
-
 @interface SUCoreBiomeEventPayloadPSUSState : SUCoreBiomeEventPayloadBase
 {
     long long _updateType;
-    long long _psusOpType;
-    NSArray *_errors;
 }
 
 - (void);
@@ -25,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) long long psusOpType; // @synthesize psusOpType=_psusOpType;
 @property(nonatomic) long long updateType; // @synthesize updateType=_updateType;
 
 @end

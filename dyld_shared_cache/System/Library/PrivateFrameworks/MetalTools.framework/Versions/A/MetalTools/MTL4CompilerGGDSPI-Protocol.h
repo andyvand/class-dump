@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBinaryArchive;
+@protocol MTL4CompilerTask, MTLBinaryArchive;
 
 @protocol MTL4CompilerGGDSPI
+- (id <MTL4CompilerTask>);
 - (_Bool)$È;
 
 // Remaining properties
 @property(readonly) id <MTLBinaryArchive> destinationBinaryArchive;
-@property(readonly) _Bool shouldMaximizeConcurrentCompilation;
 @end
 

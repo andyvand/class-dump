@@ -11,23 +11,15 @@
 @interface MapsSuggestionsGEOMapItemDeduper : MapsSuggestionsBaseDeduper
 {
     long long _type;
-    NSString *_name;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isCollapsed;
 - (void)tionCoordinate2D=dd}24@?<v@?@"NSArray"@"NSError">40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

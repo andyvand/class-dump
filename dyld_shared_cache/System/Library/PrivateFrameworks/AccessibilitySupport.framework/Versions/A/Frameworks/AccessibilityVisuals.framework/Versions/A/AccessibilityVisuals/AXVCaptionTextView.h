@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AXVCaptionTextView
 {
     NSString *_captionText;
-    double _fontSize;
-    NSMutableArray *__mutableCaptionTextHistory;
-    NSMutableDictionary *__captionAttributes;
 }
 
 - (id);
+- (void)qA9)	;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setCaptionAttributes:) NSMutableDictionary *_captionAttributes; // @synthesize _captionAttributes=__captionAttributes;
 @property(retain, nonatomic, setter=_setMutableCaptionTextHistory:) NSMutableArray *_mutableCaptionTextHistory; // @synthesize _mutableCaptionTextHistory=__mutableCaptionTextHistory;
-@property(copy, nonatomic) NSString *captionText; // @synthesize captionText=_captionText;
-@property(readonly, copy, nonatomic) NSArray *captionTextHistory;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
 
 @end
 

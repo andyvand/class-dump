@@ -6,7 +6,7 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, NSString, VNScreenGazeState;
+@class VNScreenGazeState;
 
 @interface VNDetectScreenGazeRequest : VNStatefulRequest
 {
@@ -15,16 +15,16 @@
 
 + (Class);
 + (const CDStruct_3a02d5a8 *);
-+ (id);
++ (id)predicateForContainersWithType:includingDisabledContainers: /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
+- (id)ection;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)anyway. Error:(unsigned long long)arg1 %{public}@;
+- (void);
 - (unsigned long long);
 - (void);
 - (_Bool)§T[°ÿ1>§T°"±ÿ1>§Tpy®ÿ1>§T(Z°ÿ;
@@ -32,16 +32,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(nonatomic) unsigned long long screenSize;
-@property(readonly) Class superclass;
 @property(nonatomic) long long temporalSmoothingFrameCount;
 
 @end

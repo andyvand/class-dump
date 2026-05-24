@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessage, NSMutableArray, NSMutableSet;
+@class EMMessage;
 
 @interface _EDCombinedMessageInfo
 {
     EMMessage *_message;
-    long long _lowestDatabaseID;
-    NSMutableSet *_mailboxes;
-    NSMutableArray *_flags;
-    NSMutableArray *_dates;
-    NSMutableArray *_allPersistedDuplicates;
 }
 
 - (void);
@@ -21,29 +16,23 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)UsoEntityBuilder_appleAlarm_AlarmAttribute;
+- (id)aggregateValues: /* Error: Ran out of types for this method. */;
+- (void)ta for store;
 - (id);
 - (void)AND ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allPersistedDuplicates; // @synthesize allPersistedDuplicates=_allPersistedDuplicates;
-@property(retain, nonatomic) NSMutableArray *dates; // @synthesize dates=_dates;
 @property(readonly, nonatomic) EMMessage *deduplicatedMessage;
-@property(retain, nonatomic) NSMutableArray *flags; // @synthesize flags=_flags;
-@property(nonatomic) long long lowestDatabaseID; // @synthesize lowestDatabaseID=_lowestDatabaseID;
-@property(retain, nonatomic) NSMutableSet *mailboxes; // @synthesize mailboxes=_mailboxes;
-@property(retain, nonatomic) EMMessage *message; // @synthesize message=_message;
 
 @end
 

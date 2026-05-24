@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)te}s> --> metadata <%d :%{private}s> <%d :%{private}s> (app info ref %X pid %d %s) %s - %s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property GLKMeshBuffer *buffer; // @synthesize buffer=_buffer;

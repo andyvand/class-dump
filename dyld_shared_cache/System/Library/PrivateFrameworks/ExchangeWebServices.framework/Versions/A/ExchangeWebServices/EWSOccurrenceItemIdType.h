@@ -11,11 +11,9 @@
 @interface EWSOccurrenceItemIdType : EWSBaseItemIdType
 {
     NSString *_RecurringMasterId;
-    NSString *_ChangeKey;
-    long long _InstanceIndex;
 }
 
-+ (_Bool);
++ (_Bool)oldAngle;
 + (id);
 - (void);
 - (void);
@@ -23,22 +21,13 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)ACTIVATION_REJECTED_BCM_VIOLATION;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ChangeKey; // @synthesize ChangeKey=_ChangeKey;
-@property(nonatomic) long long InstanceIndex; // @synthesize InstanceIndex=_InstanceIndex;
 @property(copy, nonatomic) NSString *RecurringMasterId; // @synthesize RecurringMasterId=_RecurringMasterId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,49 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CNVSchemaCNVActionCandidatesCollated, CNVSchemaCNVActionCandidatesGenerated, CNVSchemaCNVActionCandidatesGeneratedTier1, CNVSchemaCNVClientEventMetadata, CNVSchemaCNVDecisionEngineResponseReported, CNVSchemaCNVDisambiguationContext, CNVSchemaCNVExecutionCommitContext, CNVSchemaCNVExecutionOverridesEvaluated, CNVSchemaCNVExecutionPrepareContext, CNVSchemaCNVFindFlowContext, CNVSchemaCNVFlowPluginExecutionContext, CNVSchemaCNVFlowPluginInputContext, CNVSchemaCNVFlowPluginLoadContext, CNVSchemaCNVIntentEagerExecutionContext, CNVSchemaCNVIntentFinalExecutionContext, CNVSchemaCNVIntentReformationContext, CNVSchemaCNVPostFlowPrepareContext, CNVSchemaCNVPreFlowPrepareContext, CNVSchemaCNVUsoGraphTier1, NSData, SISchemaInstrumentationMessage;
+@class CNVSchemaCNVClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CNVSchemaCNVClientEvent : SISchemaTopLevelUnionType
 {
     CNVSchemaCNVClientEventMetadata *_eventMetadata;
-    CNVSchemaCNVIntentReformationContext *_intentReformationContext;
-    CNVSchemaCNVUsoGraphTier1 *_cnvUsoGraphTier1;
-    CNVSchemaCNVIntentEagerExecutionContext *_intentEagerExecutionContext;
-    CNVSchemaCNVIntentFinalExecutionContext *_intentFinalExecutionContext;
-    CNVSchemaCNVActionCandidatesGenerated *_actionCandidatesGenerated;
-    CNVSchemaCNVActionCandidatesGeneratedTier1 *_actionCandidatesGeneratedTier1;
-    CNVSchemaCNVActionCandidatesCollated *_actionCandidatesCollated;
-    CNVSchemaCNVDisambiguationContext *_disambiguationContext;
-    CNVSchemaCNVExecutionOverridesEvaluated *_executionOverridesEvaluated;
-    CNVSchemaCNVExecutionPrepareContext *_executionPrepareContext;
-    CNVSchemaCNVFlowPluginLoadContext *_flowPluginLoadContext;
-    CNVSchemaCNVFindFlowContext *_findFlowContext;
-    CNVSchemaCNVFlowPluginInputContext *_flowPluginInputContext;
-    CNVSchemaCNVFlowPluginExecutionContext *_flowPluginExecutionContext;
-    CNVSchemaCNVPreFlowPrepareContext *_preFlowPrepareContext;
-    CNVSchemaCNVPostFlowPrepareContext *_postFlowPrepareContext;
-    CNVSchemaCNVExecutionCommitContext *_executionCommitContext;
-    CNVSchemaCNVDecisionEngineResponseReported *_decisionEngineResponseReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasIntentReformationContext;
-    _Bool _hasCnvUsoGraphTier1;
-    _Bool _hasIntentEagerExecutionContext;
-    _Bool _hasIntentFinalExecutionContext;
-    _Bool _hasActionCandidatesGenerated;
-    _Bool _hasActionCandidatesGeneratedTier1;
-    _Bool _hasActionCandidatesCollated;
-    _Bool _hasDisambiguationContext;
-    _Bool _hasExecutionOverridesEvaluated;
-    _Bool _hasExecutionPrepareContext;
-    _Bool _hasFlowPluginLoadContext;
-    _Bool _hasFindFlowContext;
-    _Bool _hasFlowPluginInputContext;
-    _Bool _hasFlowPluginExecutionContext;
-    _Bool _hasPreFlowPrepareContext;
-    _Bool _hasPostFlowPrepareContext;
-    _Bool _hasExecutionCommitContext;
-    _Bool _hasDecisionEngineResponseReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -56,7 +18,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)5˿;
 - (void);
 - (void);
 - (void);
@@ -91,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -103,13 +65,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -151,64 +113,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (int);
-- (id);
+- (id)L;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ed";
-- (id)t7Day;
+- (id)entityPartialSiriCount7Day;
 - (unsigned long long),V_appBundleId;
-- (id)itionEvaluatorRequestActionRequest;
+- (id)IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest;
 - (id)ð6;
-- (int)axEntityChars;
+- (int)maxEntityChars;
 - (void)$&;
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVActionCandidatesCollated *actionCandidatesCollated; // @synthesize actionCandidatesCollated=_actionCandidatesCollated;
-@property(retain, nonatomic) CNVSchemaCNVActionCandidatesGenerated *actionCandidatesGenerated; // @synthesize actionCandidatesGenerated=_actionCandidatesGenerated;
-@property(retain, nonatomic) CNVSchemaCNVActionCandidatesGeneratedTier1 *actionCandidatesGeneratedTier1; // @synthesize actionCandidatesGeneratedTier1=_actionCandidatesGeneratedTier1;
-@property(retain, nonatomic) CNVSchemaCNVUsoGraphTier1 *cnvUsoGraphTier1; // @synthesize cnvUsoGraphTier1=_cnvUsoGraphTier1;
-@property(retain, nonatomic) CNVSchemaCNVDecisionEngineResponseReported *decisionEngineResponseReported; // @synthesize decisionEngineResponseReported=_decisionEngineResponseReported;
-@property(retain, nonatomic) CNVSchemaCNVDisambiguationContext *disambiguationContext; // @synthesize disambiguationContext=_disambiguationContext;
-@property(retain, nonatomic) CNVSchemaCNVClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) CNVSchemaCNVExecutionCommitContext *executionCommitContext; // @synthesize executionCommitContext=_executionCommitContext;
-@property(retain, nonatomic) CNVSchemaCNVExecutionOverridesEvaluated *executionOverridesEvaluated; // @synthesize executionOverridesEvaluated=_executionOverridesEvaluated;
-@property(retain, nonatomic) CNVSchemaCNVExecutionPrepareContext *executionPrepareContext; // @synthesize executionPrepareContext=_executionPrepareContext;
-@property(retain, nonatomic) CNVSchemaCNVFindFlowContext *findFlowContext; // @synthesize findFlowContext=_findFlowContext;
-@property(retain, nonatomic) CNVSchemaCNVFlowPluginExecutionContext *flowPluginExecutionContext; // @synthesize flowPluginExecutionContext=_flowPluginExecutionContext;
-@property(retain, nonatomic) CNVSchemaCNVFlowPluginInputContext *flowPluginInputContext; // @synthesize flowPluginInputContext=_flowPluginInputContext;
-@property(retain, nonatomic) CNVSchemaCNVFlowPluginLoadContext *flowPluginLoadContext; // @synthesize flowPluginLoadContext=_flowPluginLoadContext;
-@property(nonatomic) _Bool hasActionCandidatesCollated; // @synthesize hasActionCandidatesCollated=_hasActionCandidatesCollated;
-@property(nonatomic) _Bool hasActionCandidatesGenerated; // @synthesize hasActionCandidatesGenerated=_hasActionCandidatesGenerated;
-@property(nonatomic) _Bool hasActionCandidatesGeneratedTier1; // @synthesize hasActionCandidatesGeneratedTier1=_hasActionCandidatesGeneratedTier1;
-@property(nonatomic) _Bool hasCnvUsoGraphTier1; // @synthesize hasCnvUsoGraphTier1=_hasCnvUsoGraphTier1;
-@property(nonatomic) _Bool hasDecisionEngineResponseReported; // @synthesize hasDecisionEngineResponseReported=_hasDecisionEngineResponseReported;
-@property(nonatomic) _Bool hasDisambiguationContext; // @synthesize hasDisambiguationContext=_hasDisambiguationContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasExecutionCommitContext; // @synthesize hasExecutionCommitContext=_hasExecutionCommitContext;
-@property(nonatomic) _Bool hasExecutionOverridesEvaluated; // @synthesize hasExecutionOverridesEvaluated=_hasExecutionOverridesEvaluated;
-@property(nonatomic) _Bool hasExecutionPrepareContext; // @synthesize hasExecutionPrepareContext=_hasExecutionPrepareContext;
-@property(nonatomic) _Bool hasFindFlowContext; // @synthesize hasFindFlowContext=_hasFindFlowContext;
-@property(nonatomic) _Bool hasFlowPluginExecutionContext; // @synthesize hasFlowPluginExecutionContext=_hasFlowPluginExecutionContext;
-@property(nonatomic) _Bool hasFlowPluginInputContext; // @synthesize hasFlowPluginInputContext=_hasFlowPluginInputContext;
-@property(nonatomic) _Bool hasFlowPluginLoadContext; // @synthesize hasFlowPluginLoadContext=_hasFlowPluginLoadContext;
-@property(nonatomic) _Bool hasIntentEagerExecutionContext; // @synthesize hasIntentEagerExecutionContext=_hasIntentEagerExecutionContext;
-@property(nonatomic) _Bool hasIntentFinalExecutionContext; // @synthesize hasIntentFinalExecutionContext=_hasIntentFinalExecutionContext;
-@property(nonatomic) _Bool hasIntentReformationContext; // @synthesize hasIntentReformationContext=_hasIntentReformationContext;
-@property(nonatomic) _Bool hasPostFlowPrepareContext; // @synthesize hasPostFlowPrepareContext=_hasPostFlowPrepareContext;
-@property(nonatomic) _Bool hasPreFlowPrepareContext; // @synthesize hasPreFlowPrepareContext=_hasPreFlowPrepareContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) CNVSchemaCNVIntentEagerExecutionContext *intentEagerExecutionContext; // @synthesize intentEagerExecutionContext=_intentEagerExecutionContext;
-@property(retain, nonatomic) CNVSchemaCNVIntentFinalExecutionContext *intentFinalExecutionContext; // @synthesize intentFinalExecutionContext=_intentFinalExecutionContext;
-@property(retain, nonatomic) CNVSchemaCNVIntentReformationContext *intentReformationContext; // @synthesize intentReformationContext=_intentReformationContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CNVSchemaCNVPostFlowPrepareContext *postFlowPrepareContext; // @synthesize postFlowPrepareContext=_postFlowPrepareContext;
-@property(retain, nonatomic) CNVSchemaCNVPreFlowPrepareContext *preFlowPrepareContext; // @synthesize preFlowPrepareContext=_preFlowPrepareContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

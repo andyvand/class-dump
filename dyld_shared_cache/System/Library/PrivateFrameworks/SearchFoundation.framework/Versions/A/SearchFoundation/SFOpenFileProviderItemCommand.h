@@ -6,37 +6,19 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFOpenFileProviderItemCommand : SFCommand
 {
     struct {
         unsigned int shouldRevealFile:1;
     } _has;
-    _Bool _shouldRevealFile;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(nonatomic) _Bool shouldRevealFile; // @synthesize shouldRevealFile=_shouldRevealFile;
-@property(readonly) Class superclass;
 
 @end
 

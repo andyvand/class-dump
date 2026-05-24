@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface APSMultiUserMode
 {
     _Bool _isMultiUser;
-    _Bool _isLoggedInUser;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isLoggedInUser; // @synthesize isLoggedInUser=_isLoggedInUser;
 @property(readonly, nonatomic) _Bool isMultiUser; // @synthesize isMultiUser=_isMultiUser;
 
 @end

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PCNativeBorderStyle, PCNativeColor;
+@class PCNativeColor;
 
 @interface PCNativeButtonStyle
 {
     PCNativeColor *_color;
-    PCNativeColor *_highlightColor;
-    PCNativeColor *_disabledColor;
-    PCNativeColor *_textColor;
-    double _cornerRadius;
-    PCNativeBorderStyle *_borderStyle;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)------
+ currentlyDisabledTimers (%@) 
+--------------------------------------------
+;
 - (id);
 - (id);
 - (double);
@@ -34,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PCNativeBorderStyle *borderStyle; // @synthesize borderStyle=_borderStyle;
 @property(retain, nonatomic) PCNativeColor *color; // @synthesize color=_color;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(retain, nonatomic) PCNativeColor *disabledColor; // @synthesize disabledColor=_disabledColor;
-@property(retain, nonatomic) PCNativeColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) PCNativeColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ry token with %@;
+- (id)n't simulate receive;
+- (void)is being replayed. Not sending out over CT;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_payloadAllowGameCenterFriendsSharingModification;
+- (id);
 - (void)üÖe;
 - (void)àrh;
 

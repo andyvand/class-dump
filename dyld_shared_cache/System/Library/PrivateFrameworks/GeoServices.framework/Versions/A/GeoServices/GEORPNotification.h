@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPNotification
 {
     PBDataReader *_reader;
-    NSString *_localizedText;
-    NSString *_localizedTitle;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_localizedText:1;
-        unsigned int read_localizedTitle:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Offset:(id)arg1;
++ (_Bool)setLatestDepartureOffset:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)AudioStreamBasicDescription=dIIIIIIII}16;
+- (void)CSSpeakerIdentificationDelegate;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -39,17 +29,14 @@
 - (id);
 - (void);
 - (id)s_scale"b1"has_size"b1"has_style"b1"has_version"b1"has_x"b1"has_y"b1"has_z"b1"has_preflight"b1"has_venuesPreflight"b1"has_vloc"b1"read_accessKey"b1"read_countryCode"b1"read_languageCode"b1"wrote_anyField"b1};
-- (id)ientations;
+- (id)clearDeviceOrientations;
 - (id)ÈQ;
-- (id)_TYPE_OFFLINE_IDENTIFIER;
+- (id)COMPONENT_TYPE_OFFLINE_IDENTIFIER;
 - (void)7O@;
 - (id)tLÿJ7~E2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocalizedText;
 @property(readonly, nonatomic) _Bool hasLocalizedTitle;
-@property(retain, nonatomic) NSString *localizedText;
-@property(retain, nonatomic) NSString *localizedTitle;
 
 @end
 

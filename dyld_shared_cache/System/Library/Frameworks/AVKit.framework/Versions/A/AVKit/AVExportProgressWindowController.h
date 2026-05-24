@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVFoundationExportSession, AVProgressEstimator, NSButton, NSError, NSProgressIndicator, NSString, NSTextField, NSWindow;
+@class NSProgressIndicator;
 
 __attribute__((visibility("hidden")))
 @interface AVExportProgressWindowController
 {
     NSProgressIndicator *_progressIndicator;
-    NSButton *_cancelButton;
-    NSTextField *_statusField;
-    AVFoundationExportSession *_exportSession;
-    AVProgressEstimator *_progressEstimator;
-    _Bool _finished;
-    _Bool _cancelled;
-    NSWindow *_presentingWindow;
-    double _estimatedTimeRemaining;
-    NSError *_error;
 }
 
 + (id);
@@ -29,33 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)dictionaryDescription;
 - (double);
 - (id);
-- (id);
+- (id):o:path:/System/Library/PrivateFrameworks/login.framework/login /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)s	;
 - (void);
 - (id);
-- (void)ation:(id)arg1;
+- (void)_startTrackingWithPart:(id)arg1 location:shouldJumpToLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(readonly) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly, copy, nonatomic) NSString *statusString;
-@property(readonly) Class superclass;
 
 @end
 

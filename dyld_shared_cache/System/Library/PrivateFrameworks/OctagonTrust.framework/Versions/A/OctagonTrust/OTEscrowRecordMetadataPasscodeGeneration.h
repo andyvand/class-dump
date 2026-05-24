@@ -7,28 +7,24 @@
 @interface OTEscrowRecordMetadataPasscodeGeneration
 {
     unsigned long long _value;
-    struct {
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
 - (id);
+- (void)M;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ubyInternal";
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface GEOFlyoverRegionVersions
 {
     struct GEOFlyoverRegion *_regions;
-    unsigned long long _regionsCount;
-    unsigned long long _regionsSpace;
 }
 
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)g"40@"NSString"48;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)s:(struct _NSZone *)arg1;
-- (id)quest;
+- (id)setHasUseSplines:(struct _NSZone *)arg1;
+- (id)GEOPDSearchSpellerRequest;
 - (id)e}@;
 
 @end

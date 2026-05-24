@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CVNLPPerformance, NSDictionary;
+@class CVNLPPerformance;
 
 @interface CVNLPModelBase
 {
     CVNLPPerformance *_perfResults;
-    NSDictionary *_options;
 }
 
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (void);
+- (unsigned long long)H;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (id)@;
+- (id)6;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(readonly, nonatomic) CVNLPPerformance *perfResults; // @synthesize perfResults=_perfResults;
 
 @end

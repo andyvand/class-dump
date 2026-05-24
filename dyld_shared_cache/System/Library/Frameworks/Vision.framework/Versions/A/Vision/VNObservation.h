@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, NSUUID, VNRequestSpecifier;
+@class NSUUID, VNRequestSpecifier;
 
 @interface VNObservation
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    float _confidence;
-    NSUUID *_uuid;
-    NSPointerArray *_requestImageBuffers;
-    NSPointerArray *_requestImageBuffersCacheKeys;
-    CDStruct_e83c9415 _timeRange;
 }
 
 + (id);
@@ -34,29 +29,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)fp_copyItemKeysUnwrappedAndKeyMap:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (unsigned long long);
 - (id);
-- (float);
+- (float)ifResultIsNo:setOutputError:withBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)=dd}40@0:(id)arg1 8@16Q24Q32;
-- (CDStruct_e83c9415);
-- (void)arkDetectorProcessOption_CalculateLandmarkScore;
+- (CDStruct_3c1748cc)SwiftObservation;
+- (void)VNFaceLandmarkDetectorProcessOption_CalculateLandmarkScore;
 - (id)P¥Tñ;
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier; // @synthesize originatingRequestSpecifier=_originatingRequestSpecifier;
-@property(retain, nonatomic) NSPointerArray *requestImageBuffers; // @synthesize requestImageBuffers=_requestImageBuffers;
-@property(retain, nonatomic) NSPointerArray *requestImageBuffersCacheKeys; // @synthesize requestImageBuffersCacheKeys=_requestImageBuffersCacheKeys;
-@property(readonly, nonatomic) unsigned long long requestRevision;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 @property(retain, nonatomic, setter=setUUID:) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -13,19 +13,19 @@
     id _parentView;
 }
 
-+ (id);
-- (_Bool);
++ (id),xcode:data}.*s /* Error: Ran out of types for this method. */;
+- (_Bool)ysConfig3Magic, SysConfig3Version);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void)7;
 - (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (id):(struct CGRect)arg1;
+- (struct CGSize)h;
+- (void)`;
+- (id)setRolloverBehaviorEnabled:(struct CGRect)arg1;
 - (void)to set action '%@' for target %@ with no control event mask set;
 - (struct NSEdgeInsets)ÿYxhø6ÿAxh´A,ÿYxh°A,ÿ;
 

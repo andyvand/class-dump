@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CUBluetoothFindDeviceRequest
 {
     CDStruct_83abfce7 _address;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) CDStruct_83abfce7 address; // @synthesize address=_address;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 
 @end
 

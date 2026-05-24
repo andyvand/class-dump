@@ -9,15 +9,6 @@
 @interface Network.SwiftTLSProtocol.SwiftTLSInstance : Network.DefaultOneToOneProtocol
 {
     id isConnected;
-    id isServer;
-    id handshaker;
-    id serverSentHello;
-    id startedHandshake;
-    id options;
-    id initialDataHandler;
-    id earlyDataHandler;
-    id handshakeDataHandler;
-    id applicationDataHandler;
 }
 
 @end

@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)getFormattedRadioScheduleDescription:(id)arg1;
+- (void);
 - (void)eID:puzzleTypeID:progressData:progressLevel:score:scoreType:rankID:usedReveal:playDuration:lastPlayedDate:completedDate:firstCompletedDate:firstPlayDuration:bestScore:progressMovesDescription:difficulty:publishDate:behaviorFlags:] /* Error: Ran out of types for this method. */;
 - (id);
 

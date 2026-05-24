@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLType, NSArray, NSString;
+@class NSArray;
 
 @interface MTLFunctionReflection
 {
@@ -15,12 +15,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *arguments; // @dynamic arguments;
-@property(readonly) NSArray *attributes; // @dynamic attributes;
-@property(readonly) NSArray *bindings; // @dynamic bindings;
-@property(readonly) unsigned long long primitiveKind; // @dynamic primitiveKind;
-@property(readonly) MTLType *returnType; // @dynamic returnType;
-@property(readonly) NSArray *tags; // @dynamic tags;
-@property(readonly) NSString *userAnnotation; // @dynamic userAnnotation;
 
 @end
 

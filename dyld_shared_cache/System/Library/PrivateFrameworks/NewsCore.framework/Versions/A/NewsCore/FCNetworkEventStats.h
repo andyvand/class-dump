@@ -7,11 +7,6 @@
 @interface FCNetworkEventStats
 {
     unsigned long long _count;
-    unsigned long long _mean;
-    unsigned long long _median;
-    unsigned long long _percentile95;
-    unsigned long long _min;
-    unsigned long long _max;
 }
 
 - (void);
@@ -20,21 +15,16 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)etAppleNewsNotificationsAllowed:(unsigned long long)arg1;
-- (unsigned long long)ithProperties: /* Error: Ran out of types for this method. */;
+- (void)setAppleNewsNotificationsAllowed:(unsigned long long)arg1;
+- (unsigned long long)insertTestArticleWithProperties: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ierForFreeUsers;
 - (unsigned long long)"FCShortcutList",R,N,V_shortcutList;
-- (unsigned long long)CErrorOfflineReasonKey;
+- (unsigned long long)FCErrorOfflineReasonKey;
 - (void)ts/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCShortcut.m;
 - (id)èeÿÿÈÛÿÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) unsigned long long max; // @synthesize max=_max;
-@property(nonatomic) unsigned long long mean; // @synthesize mean=_mean;
-@property(nonatomic) unsigned long long median; // @synthesize median=_median;
-@property(nonatomic) unsigned long long min; // @synthesize min=_min;
-@property(nonatomic) unsigned long long percentile95; // @synthesize percentile95=_percentile95;
 
 @end
 

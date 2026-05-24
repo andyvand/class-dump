@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSImage, NSString, NSView, OBTemplateView, SiriUIBuddyController;
+@class OBTemplateView;
 @protocol UNNotificationOnboardingController, UNNotificationOnboardingViewModel;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIBuddySummarizationController
 {
     OBTemplateView<UNNotificationOnboardingController> *_summarizationOBTemplateView;
-    long long _state;
-    long long _userChoice;
-    NSString *_customizationPageNextButtonTitile;
-    _Bool _saeEnabled;
-    SiriUIBuddyController *_parentController;
-    NSView *topContentView;
-    id <UNNotificationOnboardingViewModel> _notificationOnboardingViewModel;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -34,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (_Bool);
 - (id);
 - (void);
@@ -44,87 +37,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
+- (long long)Z;
+- (id)nail OK for URL:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isInitialSubState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) long long layoutStyle;
-@property(readonly) _Bool needsExtraWideContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property __weak id <UNNotificationOnboardingViewModel> notificationOnboardingViewModel; // @synthesize notificationOnboardingViewModel=_notificationOnboardingViewModel;
-@property(readonly) __weak SiriUIBuddyController *parentController; // @synthesize parentController=_parentController;
-@property(readonly) NSArray *privacyBundleIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool saeEnabled; // @synthesize saeEnabled=_saeEnabled;
-@property(readonly) _Bool shouldDisableNextButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) Class superclass;
-@property(readonly) CDUnknownBlockType templateAlternateActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateAlternateButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSAttributedString *templateAttributedBodyText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAttributedString",?,R
-
-@property(readonly) NSString *templateBodyText;
-@property(readonly) CDUnknownBlockType templateCancelActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateCancelButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templateNextButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateNextButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templatePreviousButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templatePreviousButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *templateTitle;
-@property(readonly) OBTemplateView *templateView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OBTemplateView",?,R
-
-@property(readonly) NSView *topContentView; // @synthesize topContentView;
-@property(readonly) NSImage *topImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R
-
 
 @end
 

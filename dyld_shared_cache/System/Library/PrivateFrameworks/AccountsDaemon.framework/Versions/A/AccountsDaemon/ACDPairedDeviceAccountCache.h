@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ACDPairedDeviceAccountCache
 {
     NSObject<OS_dispatch_queue> *_synchronizationQueue;
-    _Bool _accountsIsValid;
-    NSArray *_accounts;
-    NSMutableArray *_completions;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

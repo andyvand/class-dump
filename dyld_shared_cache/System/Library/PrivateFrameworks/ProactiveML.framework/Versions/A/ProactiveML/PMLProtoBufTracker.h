@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingModelInfo, NSString;
+@class AWDProactiveModelFittingModelInfo;
 @protocol PMLTrackerAdapterProtocol;
 
 @interface PMLProtoBufTracker
 {
     AWDProactiveModelFittingModelInfo *_modelInfo;
-    unsigned long long _quantizationNumberOfBuckets;
-    id <PMLTrackerAdapterProtocol> _adapter;
 }
 
 + (id);
@@ -29,22 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9h3;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PMLTrackerAdapterProtocol> adapter; // @synthesize adapter=_adapter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(readonly, nonatomic) unsigned long long quantizationNumberOfBuckets; // @synthesize quantizationNumberOfBuckets=_quantizationNumberOfBuckets;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.SearchResultsContentPresenter
 {
     id workQueue;
-    id results;
-    id onApplySnapshot;
 }
 
 @end

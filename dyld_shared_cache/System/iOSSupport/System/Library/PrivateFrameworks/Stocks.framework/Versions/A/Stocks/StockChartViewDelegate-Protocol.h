@@ -5,5 +5,10 @@
 //
 
 @protocol StockChartViewDelegate
+- (void)m|;
+- (void);
+
+@optional
+- (_Bool);
 @end
 

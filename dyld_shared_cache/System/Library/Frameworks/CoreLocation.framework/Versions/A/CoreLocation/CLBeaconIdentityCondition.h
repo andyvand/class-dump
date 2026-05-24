@@ -6,16 +6,14 @@
 
 #import <CoreLocation/CLCondition.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 @interface CLBeaconIdentityCondition : CLCondition
 {
     NSUUID *_UUID;
-    NSNumber *_major;
-    NSNumber *_minor;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -25,19 +23,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)=;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)preCommit:(struct _NSZone *)arg1 count:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)*@y_%;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSNumber *major; // @synthesize major=_major;
-@property(readonly, copy, nonatomic) NSNumber *minor; // @synthesize minor=_minor;
 
 @end
 

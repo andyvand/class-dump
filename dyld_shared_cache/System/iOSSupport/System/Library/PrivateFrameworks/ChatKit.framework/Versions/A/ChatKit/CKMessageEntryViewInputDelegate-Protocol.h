@@ -4,6 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEntryView, UIView;
+
 @protocol CKMessageEntryViewInputDelegate
+- (_Bool)didAuthenticateCustomPasswordWithPrompt:(CKMessageEntryView *)arg1 result:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)detachView;
+- (void)descriptionUrl;
+- (_Bool)decodeObjectOfClasses:(CKMessageEntryView *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_visibleTagLimit;
+- (_Bool)_verifyTextField;
+
+@optional
+- (_Bool);
+- (_Bool)ic_addOrUpdateNSParagraphStyleAtRange:(CKMessageEntryView *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)ic_addConstraintsToFillSuperview;
+- (void)htmlStringByFixingDashedListsInHTMLString:(CKMessageEntryView *)arg1;
+- (void)htmlObjectAttributesForAttachmentWithContentID:(CKMessageEntryView *)arg1;
+- (void)htmlAttributesForAttachment:(CKMessageEntryView *)arg1 legacyContentID:tagName: /* Error: Ran out of types for this method. */;
+- (void)htmlAccountForObject:(CKMessageEntryView *)arg1;
+- (void)highlightingAttributedString:(CKMessageEntryView *)arg1 withSurroundingAttributes:(UIView *)arg2;
+- (void)highlightingAttributedString:(CKMessageEntryView *)arg1 withRegexMatches:(UIView *)arg2;
+- (void)highlightedMultiplier;
+- (void)highlightWithLevel:(CKMessageEntryView *)arg1;
+- (void)highlightPatternRegexFinder;
+- (void)hideScrubber;
+- (void)hideAttributionHighlights;
+- (void)hiddenTagCount;
+- (void)hexStringForColor:(CKMessageEntryView *)arg1;
+- (void)headingStyle;
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowingButtonModel
 {
     id identifier;
-    id title;
-    id allowsUserInteraction;
 }
 
 @end

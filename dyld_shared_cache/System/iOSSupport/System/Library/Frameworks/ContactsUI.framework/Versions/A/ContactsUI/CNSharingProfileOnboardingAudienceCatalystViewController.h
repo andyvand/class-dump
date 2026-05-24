@@ -4,48 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutableContact, CNSharingProfileAudienceDataSource, NSString, OBBoldTrayButton, OBLinkTrayButton, UIButton, UIImageView, UILabel, UITextField, UIView;
+@class UIView;
 @protocol CNSharingProfileOnboardingAudienceControllerDelegate;
 
 @interface CNSharingProfileOnboardingAudienceCatalystViewController
 {
     id <CNSharingProfileOnboardingAudienceControllerDelegate> _delegate;
-    UIView *_customContentView;
-    OBLinkTrayButton *_setupLaterButton;
-    OBBoldTrayButton *_backButton;
-    OBBoldTrayButton *_confirmButton;
-    UIImageView *_avatarImageView;
-    UILabel *_nameLabel;
-    UITextField *_givenNameField;
-    UITextField *_familyNameField;
-    UILabel *_audienceLabel;
-    UIButton *_audiencePickerButton;
-    UILabel *_audienceDescriptionLabel;
-    CNMutableContact *_contact;
-    CNSharingProfileAudienceDataSource *_sharingAudienceDataSource;
-    long long _nameOrder;
 }
 
 + (id);
-+ (id)anner;
++ (id)shouldDisplayMeContactBanner;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)!@9;
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -53,8 +26,21 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)qa;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
@@ -64,47 +50,27 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)AF_pGGGAOGAOGGGAOG;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)E MISS (VALIDATED)  -------------
+;
 - (id);
-- (id)Poster;
-- (void)roupsViewControllerDidCancel: /* Error: Ran out of types for this method. */;
+- (id)editPoster;
+- (void)accountsAndGroupsViewControllerDidCancel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *audienceDescriptionLabel; // @synthesize audienceDescriptionLabel=_audienceDescriptionLabel;
-@property(retain, nonatomic) UILabel *audienceLabel; // @synthesize audienceLabel=_audienceLabel;
-@property(retain, nonatomic) UIButton *audiencePickerButton; // @synthesize audiencePickerButton=_audiencePickerButton;
-@property(retain, nonatomic) UIImageView *avatarImageView; // @synthesize avatarImageView=_avatarImageView;
-@property(retain, nonatomic) OBBoldTrayButton *backButton; // @synthesize backButton=_backButton;
-@property(retain, nonatomic) OBBoldTrayButton *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(retain, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) UIView *customContentView; // @synthesize customContentView=_customContentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNSharingProfileOnboardingAudienceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITextField *familyNameField; // @synthesize familyNameField=_familyNameField;
-@property(retain, nonatomic) UITextField *givenNameField; // @synthesize givenNameField=_givenNameField;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(nonatomic) long long nameOrder; // @synthesize nameOrder=_nameOrder;
-@property(retain, nonatomic) OBLinkTrayButton *setupLaterButton; // @synthesize setupLaterButton=_setupLaterButton;
-@property(retain, nonatomic) CNSharingProfileAudienceDataSource *sharingAudienceDataSource; // @synthesize sharingAudienceDataSource=_sharingAudienceDataSource;
-@property(readonly) Class superclass;
 
 @end
 

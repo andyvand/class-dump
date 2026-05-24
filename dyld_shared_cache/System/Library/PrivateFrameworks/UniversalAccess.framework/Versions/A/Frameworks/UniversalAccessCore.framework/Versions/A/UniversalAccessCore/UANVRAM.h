@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface UANVRAM
 {
@@ -19,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -29,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=_legacyVoiceOverEnabled, setter=_setLegacyVoiceOverEnabled:) _Bool _legacyVoiceOverEnabled;
-@property(copy, nonatomic) NSSet *enabledLoginWindowFeatures;
 
 @end
 

@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _CPDeviceContext
 {
     NSString *_country;
-    NSString *_deviceModel;
-    NSString *_locale;
-    NSString *_osVersion;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)|�;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)erFeatures;
+- (void){;
+- (void)serverFeatures;
 - (id)&,N;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NTPBIAdConfig;
+@class NTPBIAdConfig;
 
 @interface FCIAdConfiguration
 {
     NTPBIAdConfig *_pbConfig;
-    NSDictionary *_configDict;
-    _Bool _segmentsEnabled;
-    _Bool _preRequestPolicyValidationEnabled;
-    _Bool _recipeCardUseTopAdPlacement;
-    double _segmentsThreshold;
-    long long _segmentsSubmissionFrequency;
-    long long _segmentsHistoryWindowInterval;
-    long long _segmentsMinimumArticleCount;
-    long long _segmentsMinimumEventCount;
-    double _segmentsMinRelativeRate;
-    NSArray *_iAdSegmentIDs;
-    NSDictionary *_adStatusConditionsByType;
-    double _feedNumberOfViewportsBetweenAds;
-    double _articleNumberOfViewportsBetweenAds;
 }
 
 - (id);
@@ -30,34 +16,22 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)A;
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long)n unmountEverythingThatIsNotTheFinalizedSource];
+- (long long)ing further Spotlight operations;
+- (long long);
 - (_Bool);
-- (void)askWidgetLarge;
+- (void)nameImageMaskWidgetLarge;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *adStatusConditionsByType; // @synthesize adStatusConditionsByType=_adStatusConditionsByType;
-@property(readonly, nonatomic) double articleNumberOfViewportsBetweenAds; // @synthesize articleNumberOfViewportsBetweenAds=_articleNumberOfViewportsBetweenAds;
-@property(readonly, nonatomic) double feedNumberOfViewportsBetweenAds; // @synthesize feedNumberOfViewportsBetweenAds=_feedNumberOfViewportsBetweenAds;
-@property(readonly, nonatomic) NSArray *iAdSegmentIDs; // @synthesize iAdSegmentIDs=_iAdSegmentIDs;
-@property(readonly, nonatomic, getter=isPreRequestPolicyValidationEnabled) _Bool preRequestPolicyValidationEnabled; // @synthesize preRequestPolicyValidationEnabled=_preRequestPolicyValidationEnabled;
-@property(readonly, nonatomic, getter=isRecipeCardTopAdPlacementEnabled) _Bool recipeCardUseTopAdPlacement; // @synthesize recipeCardUseTopAdPlacement=_recipeCardUseTopAdPlacement;
 @property(readonly, nonatomic, getter=areSegmentsEnabled) _Bool segmentsEnabled; // @synthesize segmentsEnabled=_segmentsEnabled;
-@property(readonly, nonatomic) long long segmentsHistoryWindowInterval; // @synthesize segmentsHistoryWindowInterval=_segmentsHistoryWindowInterval;
-@property(readonly, nonatomic) double segmentsMinRelativeRate; // @synthesize segmentsMinRelativeRate=_segmentsMinRelativeRate;
-@property(readonly, nonatomic) long long segmentsMinimumArticleCount; // @synthesize segmentsMinimumArticleCount=_segmentsMinimumArticleCount;
-@property(readonly, nonatomic) long long segmentsMinimumEventCount; // @synthesize segmentsMinimumEventCount=_segmentsMinimumEventCount;
-@property(readonly, nonatomic) long long segmentsSubmissionFrequency; // @synthesize segmentsSubmissionFrequency=_segmentsSubmissionFrequency;
-@property(readonly, nonatomic) double segmentsThreshold; // @synthesize segmentsThreshold=_segmentsThreshold;
 
 @end
 

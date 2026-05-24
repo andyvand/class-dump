@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationiCloudPrefPaneContext, AKAuthWebTabView, NSImageView, NSString, NSView;
+@class NSImageView;
 
 @interface AKAppleIDAuthenticationPrefPaneLogoContainerViewController
 {
     NSImageView *_imageView;
-    NSView *_containerView;
-    AKAuthWebTabView *_webviewController;
-    AKAppleIDAuthenticationiCloudPrefPaneContext *_context;
 }
 
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);
@@ -26,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -36,17 +33,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) AKAppleIDAuthenticationiCloudPrefPaneContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AKAuthWebTabView *webviewController; // @synthesize webviewController=_webviewController;
 
 @end
 

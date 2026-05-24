@@ -6,40 +6,31 @@
 
 #import <CalendarUI/EKUIGadget.h>
 
-@class EKEvent, EKViewController, NSString, NSView;
-@protocol EKUILayoutItem;
+@class NSView;
 
 @interface EKUIFlexibleLayoutItem : EKUIGadget
 {
     _Bool _isExpanded;
-    CDUnknownBlockType _shouldDisplayBlock;
-    NSView *_view;
-    id <EKUILayoutItem> _parentItem;
-    EKViewController *_viewController;
-    EKEvent *_event;
-    NSString *_uuid;
-    NSView *_firstKeyView;
-    NSView *_lastKeyView;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
+- (void)RC;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)7;;
 - (void);
 - (void);
-- (void);
+- (void)TH;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,15 +42,7 @@
 - (void);
 
 // Remaining properties
-@property __weak EKEvent *event; // @synthesize event=_event;
-@property __weak NSView *firstKeyView; // @synthesize firstKeyView=_firstKeyView;
-@property(setter=setExpanded:) _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property __weak NSView *lastKeyView; // @synthesize lastKeyView=_lastKeyView;
-@property __weak id <EKUILayoutItem> parentItem; // @synthesize parentItem=_parentItem;
-@property(copy) CDUnknownBlockType shouldDisplayBlock; // @synthesize shouldDisplayBlock=_shouldDisplayBlock;
-@property(copy) NSString *uuid; // @synthesize uuid=_uuid;
 @property(retain) NSView *view; // @synthesize view=_view;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

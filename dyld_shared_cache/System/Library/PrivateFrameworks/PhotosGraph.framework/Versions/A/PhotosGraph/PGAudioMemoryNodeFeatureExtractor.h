@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)didDismissWebAppBanner;
 - (id);
 - (id);
 - (id);

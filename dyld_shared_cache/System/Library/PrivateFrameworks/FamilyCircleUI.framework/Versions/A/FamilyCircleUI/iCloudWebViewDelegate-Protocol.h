@@ -5,5 +5,8 @@
 //
 
 @protocol iCloudWebViewDelegate
+
+@optional
+- (void);
 @end
 

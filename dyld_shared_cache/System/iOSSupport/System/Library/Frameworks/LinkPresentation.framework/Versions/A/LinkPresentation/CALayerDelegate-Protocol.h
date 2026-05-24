@@ -9,6 +9,6 @@
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>)eCardHeading;
+- (id <CAAction>)largeCardHeading;
 @end
 

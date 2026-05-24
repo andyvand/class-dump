@@ -7,7 +7,6 @@
 @interface NewsUI2.SuggestionTodayFeedGroupEmitterCursor
 {
     id suggestions;
-    id ignoredTagIDs;
 }
 
 @end

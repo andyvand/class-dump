@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)hunks - Done, found %llu bytes.;
 - (void);
-- (void);
-- (void)Items;
-- (void)ateForFirstResponderChangeWithAnimations: /* Error: Ran out of types for this method. */;
+- (void)searchCancelItems;
+- (void)_animateForFirstResponderChangeWithAnimations: /* Error: Ran out of types for this method. */;
 - (void)view's data source returned a supplementary view with an unexpected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 - (void)returned an invalid index (%llu) to insert accessory:%@ into accessories array:%@ /* Error: Ran out of types for this method. */;
-- (void)fectView;
+- (void)ScrollEdgeEffectView;
 - (void);
 - (void);
 - (long long);

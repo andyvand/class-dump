@@ -4,62 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUserActivity, VCPSearchContext;
+@class NSString, NSURL, NSUserActivity;
 
 @protocol QLPreviewItemPrivate
 
+@optional
+- (NSString *);
+- (NSUserActivity *)߈);
+
 // Remaining properties
-@property(readonly) NSString *applicationBundleIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly, copy) NSString *extensionPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSUserActivity *launchActivity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUserActivity",?,R
-
-@property(readonly, copy) NSString *launchActivityAppBundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) NSURL *launchURL;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSURL",?,R
-
-@property(readonly) NSString *previewItemContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *previewItemDisplayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *previewItemLocalizedDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly, copy) NSString *queryString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSString *searchableItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSURL *searchableItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R
-
-@property(readonly) NSString *searchableItemUniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) VCPSearchContext *videoSearchContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"VCPSearchContext",?,R
 
 @end
 

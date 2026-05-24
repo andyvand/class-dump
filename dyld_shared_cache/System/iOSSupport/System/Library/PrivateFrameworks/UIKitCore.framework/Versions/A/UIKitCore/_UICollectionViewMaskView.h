@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     unsigned long long _removalToken;
 }
 
-- (void);
-- (unsigned long long);
-- (id)ModeActive;
+- (void)updateVocabularyForDeletedChat:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Receipt:deliveryContext:storageContext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
+- (id)_batterySaverModeActive;
 
 // Remaining properties
 @property(nonatomic) unsigned long long removalToken; // @synthesize removalToken=_removalToken;

@@ -5,25 +5,18 @@
 //
 
 @class NSMutableArray;
-@protocol NSObject;
 
 @interface VCPReactionAVCaptureDeviceObserver
 {
     NSMutableArray *_captureDevices;
-    unsigned long long _callerID;
-    id <NSObject> _deviceConnectedObserver;
-    id <NSObject> _deviceDisconnectedObserver;
-    CDUnknownFunctionPointerType _callback;
-    void *_listener;
-    _Bool _hasReactions;
 }
 
-- (void);
+- (void)4;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ey frame] failed to store resource for asset:(id)arg1 %{public}@, error:(id)arg2 %@;
 - (void);
 - (void);
 - (void);

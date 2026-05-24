@@ -11,17 +11,15 @@
 @interface FPUntrashOperation : FPTransformOperation
 {
     FPItem *_restoreDirectory;
-    FPItem *_rootDirectory;
-    CDUnknownBlockType _untrashCompletionBlock;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)"M;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)M;
+- (void);
 - (id);
 - (id);
 - (void)±ç)Ð1Â0@ù

@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface NSCKEvent : NSManagedObject
@@ -16,15 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(nonatomic) long long cloudKitEventType; // @dynamic cloudKitEventType;
-@property(nonatomic) long long countAffectedObjects; // @dynamic countAffectedObjects;
-@property(nonatomic) long long countFinishedObjects; // @dynamic countFinishedObjects;
-@property(retain, nonatomic) NSDate *endedAt; // @dynamic endedAt;
-@property(nonatomic) long long errorCode; // @dynamic errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @dynamic errorDomain;
 @property(retain, nonatomic) NSUUID *eventIdentifier; // @dynamic eventIdentifier;
-@property(retain, nonatomic) NSDate *startedAt; // @dynamic startedAt;
-@property(nonatomic) _Bool succeeded; // @dynamic succeeded;
 
 @end
 

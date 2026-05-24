@@ -9,20 +9,18 @@
 @interface CKDAppContainerAccountMetadata
 {
     CKContainerOptions *_containerOptions;
-    long long _tokenRegistered;
 }
 
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)URLWithString:(long long)arg1;
+- (id)N;
 - (void);
 - (void)r participant %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CKContainerOptions *containerOptions; // @synthesize containerOptions=_containerOptions;
-@property(nonatomic) long long tokenRegistered; // @synthesize tokenRegistered=_tokenRegistered;
 
 @end
 

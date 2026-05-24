@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *);
 - (void);
 - (id);
 

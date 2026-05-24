@@ -9,20 +9,19 @@
 @interface PDSEntryStore
 {
     id <PDSEntryStoreDelegate> _delegate;
-    id <PDSCDCache> _cache;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)clearBodyDataCaches;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (_Bool);
+- (id)wrappedKeysIsIncorrectLength;
+- (_Bool)hasClientVersionETag;
+- (id)Decrypted zone %@ in the shared database with parent %@ PCS;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -38,7 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <PDSCDCache> cache; // @synthesize cache=_cache;
-@property(nonatomic) __weak id <PDSEntryStoreDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

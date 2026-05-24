@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, OS_dispatch_queue;
+@class OS_dispatch_queue;
 
 @interface HomeKitDaemon.HomeManagerXPCClientConnectionsManager
 {
     id queue;
-    id messageDispatcher;
-    id accessoryBrowser;
-    id xpcTransport;
-    id logEventSubmitter;
-    id notificationCenter;
-    void messageTargetUUID;
-    id lockedState;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)initWithSessionID:sessionCreationTime:sequenceNumber: /* Error: Ran out of types for this method. */;
+- (void)initWithMachServiceName:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)initWithMUID:(id)arg1 resultProviderID:coordinate: /* Error: Ran out of types for this method. */;
+- (void)contactWithAccountIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_itemData;
 - (id);
 - (id)delegate;
 - (void)blic}@Account operation %@ completed;
@@ -30,9 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool hasActiveConnections;
 @property(nonatomic, readonly) OS_dispatch_queue *messageReceiveQueue;
-@property(nonatomic, readonly) NSUUID *messageTargetUUID;
 
 @end
 

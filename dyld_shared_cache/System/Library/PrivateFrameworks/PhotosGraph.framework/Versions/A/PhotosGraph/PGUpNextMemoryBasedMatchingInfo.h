@@ -6,12 +6,11 @@
 
 #import <PhotosGraph/PGUpNextMomentCollectionBasedMatchingInfo.h>
 
-@class CLLocation, NSDate, NSString, PGGraphFeatureNodeCollection, PGGraphMeaningNodeCollection, PGGraphMemoryNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSceneNodeCollection;
+@class PGGraphFeatureNodeCollection, PGGraphMemoryNodeCollection;
 
 @interface PGUpNextMemoryBasedMatchingInfo : PGUpNextMomentCollectionBasedMatchingInfo
 {
     PGGraphFeatureNodeCollection *_memoryFeatureNodes;
-    PGGraphMemoryNodeCollection *_memoryNodeAsCollection;
 }
 
 + (id);
@@ -26,24 +25,7 @@
 - (void)irectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/PGMemoryElector.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTripMemory;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
 @property(readonly, nonatomic) PGGraphMemoryNodeCollection *memoryNodeAsCollection; // @synthesize memoryNodeAsCollection=_memoryNodeAsCollection;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) unsigned long long nodeIdentifier;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) NSDate *representativeDate;
-@property(readonly, nonatomic) CLLocation *representativeLocation;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
-@property(readonly) Class superclass;
 
 @end
 

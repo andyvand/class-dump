@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorIdentifierQueryCallEnded, ExecutorSiriSchemaExecutorIdentifierQueryCallFailed, ExecutorSiriSchemaExecutorIdentifierQueryCallStarted, NSData;
+@class ExecutorSiriSchemaExecutorIdentifierQueryCallStarted;
 
 @interface ExecutorSiriSchemaExecutorIdentifierQueryCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorIdentifierQueryCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorIdentifierQueryCallEnded *_ended;
-    ExecutorSiriSchemaExecutorIdentifierQueryCallFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -29,33 +23,27 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)SubProductType;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)ERRUPTED error.
+;
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)rate"b1"formatBitDepth"b1"formatChannels"b1"formatLayout"b1"formatSampleRate"b1"formatTier"b1"numberOfSpeakers"b1"routeConfiguration"b1"isAccountDataReady"b1"isStoreBagReady"b1"isLeaseReady"b1"isOnlineKeyReady"b1"isOfflineKeyReady"b1"isHlsKeysReady"b1"isInterruptingPlayback"b1"isRemoteSetQueue"b1"isDelegatedPlayback"b1"isNonDefaultUser"b1"isAutoPlay"b1"isFirstPlayAfterAppLaunch"b1"isMiniSinfAvailable"b1"isSharePlayPlayback"b1"isSuzeLease"b1"networkConnectionType"b1"wasMediaLibraryDatabaseUpgraded"b1"isPrimaryUser"b1"endPointType"b1"routeType"b1"formatLayoutValue"b1"assetSource"b1"assetLocation"b1"subscriptionType"b1"hasLookupWaitTime"b1"hasBagWaitTime"b1"hasLeaseWaitTime"b1"hasSuzeLeaseWaitTime"b1"hasSubscriptionAssetLoadWaitTime"b1"hasMediaRedownloadWaitTime"b1"cmInitialStartupItemCreationToReadyToPlayDurationInMs"b1"cmInitialStartupItemCreationToLtluDurationInMs"b1"masterPlaylistConnectionTlsHandshakeDurationInMs"b1"masterPlaylistRequestDurationInMs"b1"subPlaylistConnectionTlsHandshakeDurationInMs"b1"subPlaylistRequestDurationInMs"b1"contentConnectionTlsHandshakeDurationInMs"b1"contentFirstSegmentDurationInMs"b1};
-- (id)perimentAssetRetrievalStatusChanged;
+- (id)SISchemaABExperimentAssetRetrievalStatusChanged;
 - (id)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorIdentifierQueryCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorIdentifierQueryCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorIdentifierQueryCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

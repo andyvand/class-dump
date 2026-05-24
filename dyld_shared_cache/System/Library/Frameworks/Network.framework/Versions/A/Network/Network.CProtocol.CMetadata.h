@@ -7,7 +7,6 @@
 @interface Network.CProtocol.CMetadata
 {
     id cDefinition;
-    id allocatedHandle;
 }
 
 @end

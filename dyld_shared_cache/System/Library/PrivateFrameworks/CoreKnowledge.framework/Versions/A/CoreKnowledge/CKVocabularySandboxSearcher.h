@@ -6,12 +6,11 @@
 
 #import <CoreKnowledge/CKVocabularySearcher.h>
 
-@class NSString, SEMSandbox;
+@class SEMSandbox;
 
 @interface CKVocabularySandboxSearcher : CKVocabularySearcher
 {
     SEMSandbox *_sandbox;
-    NSString *_userId;
 }
 
 - (id);

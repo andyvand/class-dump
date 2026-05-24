@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (long long);
++ (long long)z;
 
 @end
 

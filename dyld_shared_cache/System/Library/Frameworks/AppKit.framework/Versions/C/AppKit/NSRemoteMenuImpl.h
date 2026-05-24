@@ -6,96 +6,256 @@
 
 #import <AppKit/NSCocoaMenuImpl.h>
 
-@class NSMenuItem, NSMenuTrackingSession, NSResponder, NSString;
-@protocol NSSubmenuPresenting;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSRemoteMenuImpl : NSCocoaMenuImpl
 {
     id _highlightedItem;
-    id itemIdentifierToCachedFrame;
 }
 
+- (id);
+- (void)7;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
+- (struct CGRect)__data;
 - (void);
+- (void)_allowsTLSSessionResumption;
+- (void)_allowsTLSSessionTickets;
+- (void)TFOSuccess;
+- (void)_kCFNTimingDataConnectionInterfaceIdentifier;
+- (void)_kCFNTimingDataConnectionPeerAddress;
+- (void)_kCFNTimingDataLocalAddressAndPort;
+- (void)_kCFNTimingDataSecureConnectionStart;
+- (void)_kCFNTimingDataDomainLookupEnd;
+- (void)_kCFNTimingDataConnectionUUID;
+- (void)_kCFNTimingDataTotalBytesReceived;
+- (void)_kCFNTimingDataResponseBodyBytesDecoded;
+- (void)_kCFNTimingDataResponseHeaderSize;
+- (void)_kCFNTimingDataRequestHeaderSize;
+- (void)_kCFNTimingDataResponseStart;
+- (void)_kCFNTimingDataTimingDataInit;
+- (void)_kCFNTimingDataInternalTransactionMetrics;
+- (void)_kCFNTimingDataNStatWiredRXPackets;
+- (void)_kCFNTimingDataNStatWifiTXPackets;
+- (void)_kCFNTimingDataNStatCellTXPackets;
+- (void)_kCFNTimingDataNStatVarRTT;
+- (void)_kCFNTimingDataNStatMinRTT;
+- (void)_kCFNTimingDataNStatConnectAttempts;
+- (void)_kCFNTimingDataNStatTXRetransmit;
+- (void)_kCFNTimingDataNStatRXDuplicateBytes;
+- (void)_kCFNTimingDataNStatTXPackets;
+- (void)_kCFNTimingDataNStatRXPackets;
+- (void)strained) %s
+(Multipath) %s
+;
+- (void)LS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)dy Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)tes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)s) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)ype) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)%@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)(Domain Lookup End) %@
+(Connect Start) %@
+(Secure Connection Start) %@
+(Secure Connection End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)Response) %@
+(Fetch Start) %@
+(Domain Lookup Start) %@
+(Domain Lookup End) %@
+(Connect Start) %@
+(Secure Connection Start) %@
+(Secure Connection End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)dURLResponse"8;
+- (void)_kCFNetworkProxySessionNeedsNewBodyStreamSignal;
+- (void)/%@;
+- (void)?0@8@16;
+- (void)__STORAGE_PARTITION_IDENTIFIER;
+- (void)"NSURLRequest"20;
+- (void)HTTPAdditionalHeaders;
+- (void)essionTask %@;
+- (void)delegate after resumption;
+- (void)HTTPConnectionInfo"8;
+- (void)_NSURLErrorWebSocketHandshakeFailureReasonKey;
+- (void)metricstream_queue;
+- (void)etStream];
+- (void)ion;
+- (void)ble - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)d resolving %s address for socket %d;
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)@;
 - (id);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (id)his method as part of its operation.;
 - (void)à?;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGRect _accessibilityFrame;
 @property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic) _Bool isViewPopulated;
-@property(nonatomic, readonly) NSResponder<NSSubmenuPresenting> *parentMenuImpl;
-@property(nonatomic, readonly) NSMenuItem *targetedItem;
-@property(nonatomic, retain) NSMenuTrackingSession *trackingSession;
 
 @end
 

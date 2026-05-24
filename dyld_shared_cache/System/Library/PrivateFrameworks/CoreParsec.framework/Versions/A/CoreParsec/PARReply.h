@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSURLRequest, NSURLResponse, PARTask;
+@class NSArray, NSURLRequest;
 
 @interface PARReply
 {
     NSArray *_rawResponse;
-    int _replyType;
-    NSURLRequest *_httpRequest;
-    NSURLResponse *_httpResponse;
-    NSData *_data;
-    PARTask *_task;
-    double _scale;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (void);
+- (id), Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)entifierType, WTF:(id)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void), WTF:(int)arg1:StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>>::KeyValuePairTraits, WTF::StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>>::validateKey(const ValueType &) [Key = WebCore::ActivityStateForCPUSampling, Value = WTF::KeyValuePair<WebCore::ActivityStateForCPUSampling, WTF::Seconds>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ActivityStateForCPUSampling, WTF::Seconds>>, HashFunctions = WTF::IntHash<WebCore::ActivityStateForCPUSampling>, Traits = WTF::HashMap<WebCore::ActivityStateForCPUSampling, WTF::Seconds, WTF::IntHash<WebCore::ActivityStateForCPUSampling>, WTF::StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>>::KeyValuePairTraits, KeyTraits = WTF::StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
@@ -37,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSURLRequest *httpRequest; // @synthesize httpRequest=_httpRequest;
-@property(retain, nonatomic) NSURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(retain, nonatomic) NSArray *rawResponse;
-@property(nonatomic) int replyType; // @synthesize replyType=_replyType;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) __weak PARTask *task; // @synthesize task=_task;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface WADatapthDiagnostics
 {
     unsigned int _awdMetricID;
-    int _action;
-    PBCodable *_awdReport;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) unsigned int awdMetricID; // @synthesize awdMetricID=_awdMetricID;
 @property(retain, nonatomic) PBCodable *awdReport; // @synthesize awdReport=_awdReport;
 
 @end

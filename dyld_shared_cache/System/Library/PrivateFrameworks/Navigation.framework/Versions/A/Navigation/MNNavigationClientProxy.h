@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, MNDirectionsRequestManager;
+@class GEOApplicationAuditToken;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationClientProxy
 {
     GEOApplicationAuditToken *_auditToken;
-    MNDirectionsRequestManager *_directionsRequestManager;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(*(;
 - (void)f}16;
 
 @end

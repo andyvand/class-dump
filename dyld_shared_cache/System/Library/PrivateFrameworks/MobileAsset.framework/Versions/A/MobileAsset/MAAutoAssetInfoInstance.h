@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSString, NSUUID;
+@class NSString;
 
 @interface MAAutoAssetInfoInstance
 {
     NSString *_autoAssetClientName;
-    NSString *_clientProcessName;
-    long long _clientProcessID;
-    MAAutoAssetSelector *_clientAssetSelector;
-    NSUUID *_frameworkInstanceUUID;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)initWithListenerIKEConfig:(id)arg1 kernelSASessionName:listenerUDPPort:listenerQueue:delegate:delegateQueue:includeP2P: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *autoAssetClientName; // @synthesize autoAssetClientName=_autoAssetClientName;
-@property(readonly, retain, nonatomic) MAAutoAssetSelector *clientAssetSelector; // @synthesize clientAssetSelector=_clientAssetSelector;
-@property(readonly, nonatomic) long long clientProcessID; // @synthesize clientProcessID=_clientProcessID;
-@property(readonly, retain, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
-@property(readonly, retain, nonatomic) NSUUID *frameworkInstanceUUID; // @synthesize frameworkInstanceUUID=_frameworkInstanceUUID;
 
 @end
 

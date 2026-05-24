@@ -9,8 +9,6 @@
 @interface WPDObjectDiscoveryData
 {
     long long _length;
-    NSMutableData *_address;
-    NSMutableData *_payload;
 }
 
 + (id);
@@ -27,12 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *address; // @synthesize address=_address;
-@property(nonatomic) long long length; // @synthesize length=_length;
-@property(retain, nonatomic) NSMutableData *payload; // @synthesize payload=_payload;
 
 @end
 

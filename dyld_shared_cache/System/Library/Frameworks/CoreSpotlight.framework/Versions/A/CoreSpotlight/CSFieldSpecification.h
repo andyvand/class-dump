@@ -9,26 +9,20 @@
 @interface CSFieldSpecification
 {
     NSString *_displayName;
-    NSString *_attribute;
-    NSString *_status;
-    NSString *_token;
 }
 
 - (id);
 - (id);
+- (id)!;
+- (id);
+- (void)) ;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)eIntervalSince1970;
+- (void)!;
+- (id)timeIntervalSince1970;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attribute;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *status;
-@property(readonly, nonatomic) NSString *token;
 
 @end
 

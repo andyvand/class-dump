@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UITouchForceGestureRecognizer, UIView;
-@protocol _UIClickInteractionDriverDelegate;
+@class UITouchForceGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIForceClickInteractionDriver
 {
     unsigned long long _currentState;
-    _Bool _cancelsTouchesInView;
-    id <_UIClickInteractionDriverDelegate> _delegate;
-    UIView *_view;
-    UITouchForceGestureRecognizer *_gestureRecognizer;
 }
 
 + (_Bool)
 × ;
 + (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)@"NSNumber",R,N,V_readTimestamp;
+- (double)th a flat collection change details;
 - (id);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)ght;
+- (void)defaultHeight;
 - (void)__stackAlignmentFrame;
 - (id)tionChiclet",&,N,V__chiclet;
 - (void)_hasAskedForDismissalInternally;
@@ -48,34 +43,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Aúþ³;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement;
-@property(readonly, nonatomic) _Bool allowsFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool cancelsTouchesInView; // @synthesize cancelsTouchesInView=_cancelsTouchesInView;
-@property(readonly, nonatomic) _Bool clicksUpAutomaticallyAfterTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIClickInteractionDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long driverStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
 @property(retain, nonatomic) UITouchForceGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inputPrecision;
-@property(readonly, nonatomic) _Bool isCurrentlyAcceleratedByForce;
-@property(readonly, nonatomic) double maximumEffectProgress;
-@property(readonly, nonatomic) UIGestureRecognizer *primaryGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchDuration;
-@property(readonly, nonatomic) double touchForce;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

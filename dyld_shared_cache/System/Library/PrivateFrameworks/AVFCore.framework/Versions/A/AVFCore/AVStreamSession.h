@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVStreamSessionInternal, NSArray, NSData, NSURL;
+@class AVStreamSessionInternal, NSData;
 
 @interface AVStreamSession
 {
@@ -15,16 +15,16 @@
 + (void);
 + (id);
 + (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)addPersonalizationJsonData: /* Error: Ran out of types for this method. */;
+- (void)_frequency;
+- (void)3b1})}}})B}{optional<quasar:(id)arg1:language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)V_targetText;
 - (struct OpaqueFigCPEProtector *);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)Zc;
 - (id);
 - (id);
 - (void);
@@ -32,9 +32,6 @@
 
 // Remaining properties
 @property(readonly) NSData *appIdentifier;
-@property(readonly) NSData *contentProtectionSessionIdentifier;
-@property(readonly) NSURL *storageURL;
-@property(readonly) NSArray *streamDataParsers;
 
 @end
 

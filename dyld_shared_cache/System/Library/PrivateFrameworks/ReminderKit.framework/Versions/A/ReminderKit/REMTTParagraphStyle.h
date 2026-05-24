@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TTParagraphStyle;
+@class TTParagraphStyle;
 
 @interface REMTTParagraphStyle
 {
@@ -15,16 +15,14 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)vert to data vault:%@:[%i] %s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject *attributedValue;
 @property(retain, nonatomic) TTParagraphStyle *innerStyle; // @synthesize innerStyle=_innerStyle;
-@property(readonly, nonatomic) long long remParagraphStyle;
 
 @end
 

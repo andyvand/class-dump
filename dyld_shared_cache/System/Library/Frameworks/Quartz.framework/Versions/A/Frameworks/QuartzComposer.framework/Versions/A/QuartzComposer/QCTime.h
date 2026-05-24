@@ -14,7 +14,7 @@
 }
 
 + (int);
-+ (_Bool);
++ (_Bool)ework/Versions/A/Espresso;
 + (_Bool);
 - (_Bool);
 

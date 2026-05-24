@@ -6,35 +6,32 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIAutocorrectionList, TIKeyboardCandidate, TIKeyboardState;
+@class TIKeyboardCandidate;
 
 @interface TITypologyRecordRefinements : TITypologyRecord
 {
     TIKeyboardCandidate *_candidate;
-    TIKeyboardState *_keyboardState;
-    TIAutocorrectionList *_refinements;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)J*'
+;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)string, lookup_identifier, score, token_ranges_0, token_ranges_1 FROM groups WHERE rowid = ?;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id)edness;
-- (void)lvation;
+- (id)unrelatedness;
+- (void)solvation;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidate *candidate; // @synthesize candidate=_candidate;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(retain, nonatomic) TIAutocorrectionList *refinements; // @synthesize refinements=_refinements;
 
 @end
 

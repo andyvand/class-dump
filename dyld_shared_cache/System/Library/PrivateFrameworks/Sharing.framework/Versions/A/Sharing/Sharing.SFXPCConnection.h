@@ -7,7 +7,6 @@
 @interface Sharing.SFXPCConnection
 {
     id connection;
-    id containerRegistry;
 }
 
 @end

@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (long long);
 - (id);
@@ -22,22 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) NSString *userInterfaceType; // @synthesize userInterfaceType=_userInterfaceType;
-@property(nonatomic) _Bool wfIdleTimerDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 
 @end
 

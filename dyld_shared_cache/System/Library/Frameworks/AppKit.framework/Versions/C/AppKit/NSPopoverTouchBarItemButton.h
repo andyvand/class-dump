@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (Class);
+- (Class)minimumSyncWindowInSeconds:%@
+ /* Error: Ran out of types for this method. */;
 
 @end
 

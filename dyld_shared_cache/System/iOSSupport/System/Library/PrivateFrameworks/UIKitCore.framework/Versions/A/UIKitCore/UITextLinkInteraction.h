@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITextItemInteractionInteraction.h>
 
-@class UIContextMenuInteraction, UIEditMenuInteraction;
+@class UIContextMenuInteraction;
 @protocol UIContextMenuInteractionDelegate;
 
 __attribute__((visibility("hidden")))
@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)<UISearchSuggestion>",&,N;
-- (void);
+- (void)TimerCommand;
 - (void)ìXa;
 - (id)xõb;
 - (id)c;
@@ -24,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIContextMenuInteractionDelegate> contextMenuDelegateProxy;
-@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, nonatomic) UIEditMenuInteraction *editMenuInteraction;
 
 @end
 

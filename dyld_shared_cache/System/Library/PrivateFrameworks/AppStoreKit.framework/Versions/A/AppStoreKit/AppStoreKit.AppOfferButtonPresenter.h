@@ -7,27 +7,10 @@
 @interface AppStoreKit.AppOfferButtonPresenter
 {
     id view;
-    id buttonAction;
-    id offerDisplayProperties;
-    id appStoreInstallStateMonitor;
-    id restrictions;
-    id stateMachine;
-    id parentAppStateMachine;
-    id alignment;
-    id subtitlePosition;
-    id hasCompactRedownloads;
-    id includeBetaApps;
-    id isBeingConfirmed;
-    id arePreordersCancellable;
-    id notificationCenter;
-    id appCapabilitiesDidChangeToken;
-    id currentState;
-    id previousState;
-    id hasParentBeenPurchased;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

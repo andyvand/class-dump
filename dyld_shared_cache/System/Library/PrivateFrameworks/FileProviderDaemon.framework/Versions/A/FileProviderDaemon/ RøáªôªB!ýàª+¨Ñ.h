@@ -8,26 +8,10 @@
 {
     id 0@ù
 ?×é;
-    id pÆùðªñ	ªñÇåò0ÁÚ"@ùéª±Ð10@ù
-?×é;
-    id ùðªñªñÇåò0ÁÚ"@ùéª±ð10@ù
-?×é;
-    long long ªñ	ªQwüòQ	?×èª	@øàªáªñªàò1	?×;¹4kh8èª	@øàªáªwúCùñªàò1	?×z6DùxÖBùô;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: àò	?×¨
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: í|éªñ°10@ù
-?×é
-// Property attributes: ñ	ªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A
-// Property attributes: @PøªÑAPøñªàò1	?×àª¨ÃÑ	Pø(@øªÃ
-Ñ¨øÿ¨cÑPøàª¨cÑPø¢Pø¨CÑPø©Ñ)Pø(	?×¨ÑPøèª Óq©Ùàÿ¨cÑPø´Sø@ù0ÁÚñªñGÁÚë@
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: uÝþà
 // Property attributes: 2-qÝÒ0
 ÁÚâª©R

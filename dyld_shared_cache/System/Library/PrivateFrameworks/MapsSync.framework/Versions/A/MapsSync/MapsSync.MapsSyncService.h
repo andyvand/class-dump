@@ -10,8 +10,8 @@
 }
 
 + (id);
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);

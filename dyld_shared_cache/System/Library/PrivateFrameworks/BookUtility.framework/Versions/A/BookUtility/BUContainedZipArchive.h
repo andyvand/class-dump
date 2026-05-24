@@ -6,12 +6,9 @@
 
 #import <BookUtility/BUZipArchive.h>
 
-@class BUZipEntry;
-
 @interface BUContainedZipArchive : BUZipArchive
 {
     BUZipArchive *_zipArchive;
-    BUZipEntry *_entry;
 }
 
 + (id);

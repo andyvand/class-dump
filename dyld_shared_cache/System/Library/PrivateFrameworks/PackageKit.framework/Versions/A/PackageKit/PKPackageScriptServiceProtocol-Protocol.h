@@ -5,5 +5,6 @@
 //
 
 @protocol PKPackageScriptServiceProtocol
+- (void)9;
 @end
 

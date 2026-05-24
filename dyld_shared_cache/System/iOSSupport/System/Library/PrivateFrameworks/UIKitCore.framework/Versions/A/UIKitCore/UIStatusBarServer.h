@@ -12,21 +12,21 @@
     struct __CFRunLoopSource *_source;
 }
 
-+ (unsigned long long);
++ (unsigned long long)";
 + (void);
 + (double);
 + (void);
++ (void);
 + (void);
-+ (void);
-+ (id);
++ (id)_sessionIdentifier;
 + (void);
 + (CDStruct_d8565a8c *);
 + (void)ÔÁ°!Aù^°1Â0@ù
 × ;
 + (void)1Â0@ù
 × ;
-+ (void)d:(id)arg1;
-+ (void)ctionDelegate;
++ (void)setAvoidDisableKeyboard:(id)arg1;
++ (void)_UIClickPresentationInteractionDelegate;
 + (void)ble environments during linear focus lookup:%@ /* Error: Ran out of types for this method. */;
 + (const CDStruct_aa1ce654 *)µ43üÔwþ¥43ØÔwþ;
 + (_Bool)Hòõþ©Ã;
@@ -34,8 +34,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)pViewServiceBundleIdentifier;
+- (void)=6;
+- (void)_appViewServiceBundleIdentifier;
 - (id)setLegacyAlert: /* Error: Ran out of types for this method. */;
 - (void)ðÌb;
 

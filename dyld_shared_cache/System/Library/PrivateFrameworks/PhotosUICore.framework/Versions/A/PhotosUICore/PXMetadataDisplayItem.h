@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXMetadataDisplayItem
 {
     id _content;
-    NSString *_accessoryImageSystemName;
-    NSString *_accessibilityDescription;
-    NSString *_accessibilityValue;
-    NSString *_accessibilityIdentifier;
 }
 
 + (id);
@@ -25,16 +19,11 @@
 - (void)üÿ$¾üÿH¾üÿ`¾üÿ`ûÿÌ¾üÿø¾üÿ$¿üÿH¿üÿÜ¿üÿÀüÿDÁüÿdÁüÿà_ûÿÁüÿ ÁüÿèÁüÿÂüÿ(ÂüÿÂüÿÃüÿ°Ãüÿ<ÄüÿÄüÿØÄüÿxãûÿäÅüÿ;
 - (_Bool)þøÿcÝúÿ;
 - (id)longer available to decline. Ignoring.;
-- (id)ractiveMemoryActionMenuItemHidePhotoFromMovie;
+- (id)InteractiveMemoryActionMenuItemHidePhotoFromMovie;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(readonly, nonatomic) NSString *accessibilityValue; // @synthesize accessibilityValue=_accessibilityValue;
-@property(readonly, nonatomic) NSString *accessoryImageSystemName; // @synthesize accessoryImageSystemName=_accessoryImageSystemName;
 @property(retain, nonatomic) id content; // @synthesize content=_content;
-@property(readonly, getter=isEmpty) _Bool empty;
 
 @end
 

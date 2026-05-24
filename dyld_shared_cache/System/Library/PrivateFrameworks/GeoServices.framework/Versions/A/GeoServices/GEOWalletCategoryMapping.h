@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWalletCategoryMapping
 {
     PBDataReader *_reader;
-    GEOStyleAttributes *_stylesAttributes;
-    NSString *_walletCategory;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_stylesAttributes:1;
-        unsigned int read_walletCategory:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setOfflineMetadatas:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -33,16 +23,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setOsdFeaturesAtEndpoint:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)tionCoordinate: /* Error: Ran out of types for this method. */;
+- (id)initWithType:title:detail:routeCoordinate:locationCoordinate: /* Error: Ran out of types for this method. */;
 - (id)R,N,G_tips;
-- (id)iptionManagerDidAddSubscriptionNotification;
+- (id)GEOMapDataSubscriptionManagerDidAddSubscriptionNotification;
 - (void)_name (	
 extendee (	
 default_value (	
@@ -158,10 +148,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasStylesAttributes;
 @property(readonly, nonatomic) _Bool hasWalletCategory;
-@property(retain, nonatomic) GEOStyleAttributes *stylesAttributes;
-@property(retain, nonatomic) NSString *walletCategory;
 
 @end
 

@@ -13,7 +13,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id);
+- (id)%;
 - (id);
 
 @end

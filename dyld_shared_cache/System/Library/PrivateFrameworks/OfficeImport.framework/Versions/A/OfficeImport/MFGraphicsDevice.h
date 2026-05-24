@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFDeviceContext, MFObjectTable, NSDictionary, NSMutableArray, NSObject;
-@protocol MFDeviceDriver;
+@class MFDeviceContext;
 
 __attribute__((visibility("hidden")))
 @interface MFGraphicsDevice
 {
     MFDeviceContext *m_currentDC;
-    NSMutableArray *m_DCStack;
-    int m_gStateStackHeight;
-    MFDeviceContext *m_firstClipDC;
-    NSObject<MFDeviceDriver> *m_deviceDriver;
-    MFObjectTable *m_objectTable;
-    MFObjectTable *m_stockObjects;
-    NSDictionary *m_colorMap;
-    NSDictionary *m_fillMap;
 }
 
 - (int);
@@ -33,6 +24,18 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int)T;
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int)!A;
+- (int);
+- (void);
+- (void);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -43,24 +46,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
 - (int);
 - (int);
 - (void);
 - (int);
 - (int);
-- (void);
-- (int);
-- (int);
-- (int);
+- (int)A9;
 - (int);
 - (int);
 - (id);
@@ -72,7 +63,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)P;
 - (int);
 - (int);
 - (int);
@@ -87,7 +78,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (int);
 - (int);
@@ -110,15 +101,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int){C;
+- (id)T(;
 - (int);
 - (int);
 - (unsigned long long);
+- (id)�;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (int);
 - (int);
 - (int);
@@ -138,9 +129,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (void);
+- (void);
 - (int);
-- (int);
+- (int)B;
 - (int);
 - (int);
 - (void);

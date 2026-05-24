@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPSocialHighlightCache, PPSocialHighlightStorageUtilities, _PASLock;
+@class _PASLock;
 
 @interface PPSocialHighlightStorage
 {
     _PASLock *_lock;
-    PPSocialHighlightCache *_cache;
-    PPSocialHighlightStorageUtilities *_socialHighlightStorageUtils;
-    _PASLock *_lsAppLinkCache;
 }
 
 + (int);
@@ -20,7 +17,7 @@
 + (int);
 + (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -41,31 +38,31 @@
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)AMFDRDecodeMultiSealingResponse;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)cationResponse"24@?<v@?>32;
+- (_Bool)initWithFirstName:(id)arg1 lastName:(unsigned long long)arg2 avatar:(id)arg3 pronouns:(id)arg4 wallpaper: /* Error: Ran out of types for this method. */;
+- (id)IMiMessageMaxTransferFileSizeForWifiForPhoneNumber:cellSize:serverConfigurationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)ng transfer. Did not find a guid;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)__kIMChatRegistryWillUnregisterChatNotification;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

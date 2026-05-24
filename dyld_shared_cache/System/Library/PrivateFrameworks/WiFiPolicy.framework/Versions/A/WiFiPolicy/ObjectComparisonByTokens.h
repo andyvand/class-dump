@@ -7,11 +7,6 @@
 @interface ObjectComparisonByTokens
 {
     unsigned long long _sameTokensCount;
-    unsigned long long _diffTokensCount;
-    unsigned long long _distance;
-    id _obj1;
-    id _obj2;
-    id _reference;
 }
 
 + (_Bool);
@@ -36,11 +31,6 @@
 - (void)retrieveBatteryInfo:(unsigned long long)arg1 batteryLevel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long diffTokensCount; // @synthesize diffTokensCount=_diffTokensCount;
-@property(nonatomic) unsigned long long distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) id obj1; // @synthesize obj1=_obj1;
-@property(retain, nonatomic) id obj2; // @synthesize obj2=_obj2;
-@property(retain, nonatomic) id reference; // @synthesize reference=_reference;
 @property(nonatomic) unsigned long long sameTokensCount; // @synthesize sameTokensCount=_sameTokensCount;
 
 @end

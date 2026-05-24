@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id)String"24:32:40 /* Error: Ran out of types for this method. */;
 
 @end

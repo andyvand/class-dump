@@ -8,16 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchPair
 {
     int _key;
-    float _val;
 }
 
 - (id);
-- (void);
+- (void)%@' doesn't want it;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)Cm"b1};
-- (id)SessionEndTime;
+- (id)_previousNavigationSessionEndTime;
 - (id)¼ç;
 
 @end

@@ -6,35 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DODMLASRSchemaDODMLASRAudioFileResultTier1, DODMLASRSchemaDODMLASRContextualReplayBiomeRecordCreated, DODMLASRSchemaDODMLASRContextualReplayBiomeRecordDeleted, DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentContext, DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentInfoTier1, DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentPostAnalysis, DODMLASRSchemaDODMLASRPersonalizationExperimentContext, DODMLASRSchemaDODMLASRUserEditExperimentContext, DODMLASRSchemaDODMLASRUserEditExperimentEndedTier1, DODMLSchemaDODMLClientEventMetadata, NSData, SISchemaInstrumentationMessage;
+@class DODMLSchemaDODMLClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface DODMLSchemaDODMLClientEvent : SISchemaTopLevelUnionType
 {
     DODMLSchemaDODMLClientEventMetadata *_eventMetadata;
-    DODMLASRSchemaDODMLASRPersonalizationExperimentContext *_personalizationExperimentContext;
-    DODMLASRSchemaDODMLASRUserEditExperimentContext *_userEditExperimentContext;
-    DODMLASRSchemaDODMLASRUserEditExperimentEndedTier1 *_userEditExperimentEndedTier1;
-    DODMLASRSchemaDODMLASRAudioFileResultTier1 *_audioFileResultTier1;
-    DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentContext *_fullPayloadCorrectionExperimentContext;
-    DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentInfoTier1 *_fullPayloadCorrectionExperimentTier1;
-    DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentPostAnalysis *_fullPayloadCorrectionExperimentPostAnalysis;
-    DODMLASRSchemaDODMLASRContextualReplayBiomeRecordCreated *_contextualReplayBiomeRecordCreated;
-    DODMLASRSchemaDODMLASRContextualReplayBiomeRecordDeleted *_contextualReplayBiomeRecordDeleted;
-    _Bool _hasEventMetadata;
-    _Bool _hasPersonalizationExperimentContext;
-    _Bool _hasUserEditExperimentContext;
-    _Bool _hasUserEditExperimentEndedTier1;
-    _Bool _hasAudioFileResultTier1;
-    _Bool _hasFullPayloadCorrectionExperimentContext;
-    _Bool _hasFullPayloadCorrectionExperimentTier1;
-    _Bool _hasFullPayloadCorrectionExperimentPostAnalysis;
-    _Bool _hasContextualReplayBiomeRecordCreated;
-    _Bool _hasContextualReplayBiomeRecordDeleted;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
-+ (id);
++ (int)q;
++ (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -45,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,14 +43,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)f;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -83,51 +63,30 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)`;
 - (id);
-- (id);
+- (id)UPTED error.
+;
 - (int);
-- (id);
+- (id)1f;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)i?;
 - (id)oFirstPartialMs"b1"timeToFinalResultMs"b1"latencyFinalResultMs"b1"timeToSendFirstAudioPacket"b1"timeToReceiveFirstAudioPacket"b1"numAudioPacket"b1"timeToSendFinishAudio"b1};
-- (id)TimeInNsFromlastPHSReject;
-- (unsigned long long)sNumAppLaunchesLastOneDay: /* Error: Ran out of types for this method. */;
-- (id)SSchemaPEGASUSKGQAQualifierTier1;
+- (id)hasDeltaTimeInNsFromlastPHSReject;
+- (unsigned long long)setHasNumAppLaunchesLastOneDay: /* Error: Ran out of types for this method. */;
+- (id)PEGASUSSchemaPEGASUSKGQAQualifierTier1;
 - (id)DEF;
 - (void)<L¸ÿÖ
 ²#%;
 
 // Remaining properties
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRAudioFileResultTier1 *audioFileResultTier1; // @synthesize audioFileResultTier1=_audioFileResultTier1;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRContextualReplayBiomeRecordCreated *contextualReplayBiomeRecordCreated; // @synthesize contextualReplayBiomeRecordCreated=_contextualReplayBiomeRecordCreated;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRContextualReplayBiomeRecordDeleted *contextualReplayBiomeRecordDeleted; // @synthesize contextualReplayBiomeRecordDeleted=_contextualReplayBiomeRecordDeleted;
-@property(retain, nonatomic) DODMLSchemaDODMLClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentContext *fullPayloadCorrectionExperimentContext; // @synthesize fullPayloadCorrectionExperimentContext=_fullPayloadCorrectionExperimentContext;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentPostAnalysis *fullPayloadCorrectionExperimentPostAnalysis; // @synthesize fullPayloadCorrectionExperimentPostAnalysis=_fullPayloadCorrectionExperimentPostAnalysis;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRFullPayloadCorrectionExperimentInfoTier1 *fullPayloadCorrectionExperimentTier1; // @synthesize fullPayloadCorrectionExperimentTier1=_fullPayloadCorrectionExperimentTier1;
-@property(nonatomic) _Bool hasAudioFileResultTier1; // @synthesize hasAudioFileResultTier1=_hasAudioFileResultTier1;
-@property(nonatomic) _Bool hasContextualReplayBiomeRecordCreated; // @synthesize hasContextualReplayBiomeRecordCreated=_hasContextualReplayBiomeRecordCreated;
-@property(nonatomic) _Bool hasContextualReplayBiomeRecordDeleted; // @synthesize hasContextualReplayBiomeRecordDeleted=_hasContextualReplayBiomeRecordDeleted;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFullPayloadCorrectionExperimentContext; // @synthesize hasFullPayloadCorrectionExperimentContext=_hasFullPayloadCorrectionExperimentContext;
-@property(nonatomic) _Bool hasFullPayloadCorrectionExperimentPostAnalysis; // @synthesize hasFullPayloadCorrectionExperimentPostAnalysis=_hasFullPayloadCorrectionExperimentPostAnalysis;
-@property(nonatomic) _Bool hasFullPayloadCorrectionExperimentTier1; // @synthesize hasFullPayloadCorrectionExperimentTier1=_hasFullPayloadCorrectionExperimentTier1;
-@property(nonatomic) _Bool hasPersonalizationExperimentContext; // @synthesize hasPersonalizationExperimentContext=_hasPersonalizationExperimentContext;
-@property(nonatomic) _Bool hasUserEditExperimentContext; // @synthesize hasUserEditExperimentContext=_hasUserEditExperimentContext;
-@property(nonatomic) _Bool hasUserEditExperimentEndedTier1; // @synthesize hasUserEditExperimentEndedTier1=_hasUserEditExperimentEndedTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRPersonalizationExperimentContext *personalizationExperimentContext; // @synthesize personalizationExperimentContext=_personalizationExperimentContext;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRUserEditExperimentContext *userEditExperimentContext; // @synthesize userEditExperimentContext=_userEditExperimentContext;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRUserEditExperimentEndedTier1 *userEditExperimentEndedTier1; // @synthesize userEditExperimentEndedTier1=_userEditExperimentEndedTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

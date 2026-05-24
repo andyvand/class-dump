@@ -8,11 +8,11 @@
 
 @interface NUKeyframeSequenceMatrixFloat33 : NUKeyframeSequence
 {
-    CDStruct_1fe29af2 *_values;
+    CDStruct_c27faaab *_values;
 }
 
-- (CDStruct_1fe29af2);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
+- (CDStruct_c27faaab);
 - (id);
 - (void);
 

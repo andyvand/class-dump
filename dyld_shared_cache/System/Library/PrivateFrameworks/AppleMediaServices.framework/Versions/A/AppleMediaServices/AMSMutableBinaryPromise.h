@@ -10,16 +10,16 @@
 {
 }
 
++ (_Bool)Y;
++ (_Bool)NumReadReceiptsV1WithQOI;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)@"AFSpeechAudioAnalytics"72;
++ (_Bool)T{CGSize=dd},R,N,V_dimensions;
+- (_Bool)�#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)kMRMediaRemoteCommandInfoCanBeControlledByScrubbingKey;
 
 @end
 

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDWrapPolygon;
+
 @protocol TSDWrappable
+- (TSDWrapPolygon *);
+- (int);
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAlpha;

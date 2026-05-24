@@ -7,8 +7,6 @@
 @interface SignpostCAIntervalAggregationStats
 {
     float _maxIntervalDurationNs;
-    unsigned long long _intervalCount;
-    unsigned long long _totalIntervalDurationNs;
 }
 
 - (unsigned long long);
@@ -22,10 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float averageIntervalDurationNs;
 @property(readonly, nonatomic) unsigned long long intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(readonly, nonatomic) float maxIntervalDurationNs; // @synthesize maxIntervalDurationNs=_maxIntervalDurationNs;
-@property(readonly, nonatomic) unsigned long long totalIntervalDurationNs; // @synthesize totalIntervalDurationNs=_totalIntervalDurationNs;
 
 @end
 

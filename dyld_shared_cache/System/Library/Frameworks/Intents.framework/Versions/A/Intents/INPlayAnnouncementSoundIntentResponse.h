@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INPlayAnnouncementSoundIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setShouldUseRestrictedExtension:(long long)arg1;
++ (int)enqueueThumbnailGenerationIfNeededForDocumentAtURL:(long long)arg1 atBackgroundPriority:completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)decodeDictionaryWithKeysOfClasses:(int)arg1 objectsOfClasses:(int)arg2 forKey:(_Bool)arg3;
++ (_Bool)conformsToProtocol:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (id)conformsToDeviceType:(id)arg1;
+- (id);
+- (void)Delegate does not respond to denyListProfileBatteryInfo;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
+- (long long)StringAsToggleState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

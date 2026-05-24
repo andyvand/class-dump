@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface CUIKNotificationConflictCache
 {
     NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_fetchQueue;
-    EKEventStore *_store;
 }
 
-+ (id)on: /* Error: Ran out of types for this method. */;
++ (id)getImageForImageDescriptor:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void)stViewedDate: /* Error: Ran out of types for this method. */;
+- (id)wIsKey:,V__trackedLastKnownTextInputResponderWindowIsKey /* Error: Ran out of types for this method. */;
+- (void)setLastViewedDate: /* Error: Ran out of types for this method. */;
 
 @end
 

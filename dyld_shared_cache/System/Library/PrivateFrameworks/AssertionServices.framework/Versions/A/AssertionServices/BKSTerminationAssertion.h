@@ -6,29 +6,25 @@
 
 #import <AssertionServices/BKSAssertion.h>
 
-@class BKSTerminationContext, NSString;
+@class NSString;
 
 @interface BKSTerminationAssertion : BKSAssertion
 {
     NSString *_bundleIdentifier;
-    unsigned long long _efficacy;
-    BKSTerminationContext *_context;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) BKSTerminationContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) unsigned long long efficacy; // @synthesize efficacy=_efficacy;
-@property(readonly, copy, nonatomic) NSString *targetBundleIdentifier; // @synthesize targetBundleIdentifier=_bundleIdentifier;
 
 @end
 

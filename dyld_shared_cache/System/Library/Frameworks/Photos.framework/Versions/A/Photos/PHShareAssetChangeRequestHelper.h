@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOrderedSet, NSString, NSXPCConnection, PHObject;
+@class NSXPCConnection, PHObject;
 @protocol PHShare;
 
 @interface PHShareAssetChangeRequestHelper
 {
     NSXPCConnection *_clientConnection;
-    NSString *_keySourceAssetIdentifier;
-    NSString *_commentText;
-    NSOrderedSet *_sourceAssetIdentifiersForBatchedCreation;
-    NSOrderedSet *_sourceAssetIdentifiersForCurationSet;
-    NSDictionary *_sourceAssetToShareAssetMapForCreationRequest;
-    NSDictionary *_sourceAssetIdentifiersToAdjustmentBakeInOptionsDictionaryForBatchedCreation;
-    NSDictionary *_sourceAssetIdentifiersToMetadataCopyOptionsDictionaryForBatchedCreation;
-    PHObject<PHShare> *_backingShare;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)b;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)alysisUpdateToAsset:error: /* Error: Ran out of types for this method. */;
+- (void)_applyCompactSCSensitivityAnalysisUpdateToAsset:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PHObject<PHShare> *backingShare; // @synthesize backingShare=_backingShare;

@@ -7,16 +7,13 @@
 @class NSString, _INPBValueMetadata;
 
 @protocol _INPBUUIDValue
-- (void)r:(NSString *)arg1;
-- (_Bool)Autocorrect;
-- (NSString *)h;
-- (void)ptionsForSearchForMedia:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)deMediaItemsOptionsForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)cacheableObjectForIdentifier:(NSString *)arg1;
+- (_Bool)_disableAutocorrect;
+- (NSString *)_allowsScenelessAppLaunch;
+- (void)provideMediaItemsOptionsForSearchForMedia:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideMediaItemsOptionsForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUuidString;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(copy, nonatomic) NSString *uuidString;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

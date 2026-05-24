@@ -9,18 +9,6 @@
 @interface _TSF_TSDgPTPLocalClockPort : _TSF_TSDgPTPPort
 {
     unsigned char _localOscillatorType;
-    _Bool _hasLocalFrequencyToleranceLower;
-    _Bool _hasLocalFrequencyToleranceUpper;
-    _Bool _hasLocalFrequencyStabilityLower;
-    _Bool _hasLocalFrequencyStabilityUpper;
-    _Bool _hasNtpAnchorOffsetNsec;
-    _Bool _hasLocalClockSourceFromNTP;
-    _Bool _localClockSourceFromNTP;
-    int _localFrequencyToleranceLower;
-    int _localFrequencyToleranceUpper;
-    int _localFrequencyStabilityLower;
-    int _localFrequencyStabilityUpper;
-    long long _ntpAnchorOffsetNsec;
 }
 
 + (id);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +30,7 @@
 - (unsigned char);
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (_Bool);
 - (id);
@@ -69,19 +57,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalClockSourceFromNTP; // @synthesize hasLocalClockSourceFromNTP=_hasLocalClockSourceFromNTP;
-@property(nonatomic) _Bool hasLocalFrequencyStabilityLower; // @synthesize hasLocalFrequencyStabilityLower=_hasLocalFrequencyStabilityLower;
-@property(nonatomic) _Bool hasLocalFrequencyStabilityUpper; // @synthesize hasLocalFrequencyStabilityUpper=_hasLocalFrequencyStabilityUpper;
-@property(nonatomic) _Bool hasLocalFrequencyToleranceLower; // @synthesize hasLocalFrequencyToleranceLower=_hasLocalFrequencyToleranceLower;
-@property(nonatomic) _Bool hasLocalFrequencyToleranceUpper; // @synthesize hasLocalFrequencyToleranceUpper=_hasLocalFrequencyToleranceUpper;
-@property(nonatomic) _Bool hasNtpAnchorOffsetNsec; // @synthesize hasNtpAnchorOffsetNsec=_hasNtpAnchorOffsetNsec;
-@property(nonatomic) _Bool localClockSourceFromNTP; // @synthesize localClockSourceFromNTP=_localClockSourceFromNTP;
-@property(nonatomic) int localFrequencyStabilityLower; // @synthesize localFrequencyStabilityLower=_localFrequencyStabilityLower;
-@property(nonatomic) int localFrequencyStabilityUpper; // @synthesize localFrequencyStabilityUpper=_localFrequencyStabilityUpper;
-@property(nonatomic) int localFrequencyToleranceLower; // @synthesize localFrequencyToleranceLower=_localFrequencyToleranceLower;
-@property(nonatomic) int localFrequencyToleranceUpper; // @synthesize localFrequencyToleranceUpper=_localFrequencyToleranceUpper;
 @property(nonatomic) unsigned char localOscillatorType; // @synthesize localOscillatorType=_localOscillatorType;
-@property(nonatomic) long long ntpAnchorOffsetNsec; // @synthesize ntpAnchorOffsetNsec=_ntpAnchorOffsetNsec;
 
 @end
 

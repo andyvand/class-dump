@@ -4,60 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRDocument, NSMutableArray, NSString, REMMutableCRUndo, REMReplicaIDHelper, REMReplicaIDSource;
+@class REMReplicaIDSource;
 @protocol REMReplicaManagerProviding;
 
 @interface REMMutableCRMergeableOrderedSet
 {
     id <REMReplicaManagerProviding> _replicaManagerProvider;
-    REMReplicaIDSource *_replicaIDSource;
-    CRDocument *_document;
-    REMReplicaIDHelper *_replicaIDHelper;
-    NSMutableArray *_undos;
-    REMMutableCRUndo *_currentUndo;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)(;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)ting bookmark list with title %{public}@ in list with identifier %{public}@ at index %d;
 - (id);
 - (id);
 - (void)
 × ;
-- (id)nContextChangeItem: /* Error: Ran out of types for this method. */;
-- (void)r;
+- (id)addListSectionWithDisplayName:toListSectionContextChangeItem: /* Error: Ran out of types for this method. */;
+- (void)_color;
 - (void)[;
 
 // Remaining properties
-@property(retain, nonatomic) REMMutableCRUndo *currentUndo; // @synthesize currentUndo=_currentUndo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CRDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) REMReplicaIDHelper *replicaIDHelper; // @synthesize replicaIDHelper=_replicaIDHelper;
 @property(retain, nonatomic) REMReplicaIDSource *replicaIDSource; // @synthesize replicaIDSource=_replicaIDSource;
-@property(retain, nonatomic) id <REMReplicaManagerProviding> replicaManagerProvider; // @synthesize replicaManagerProvider=_replicaManagerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *undos; // @synthesize undos=_undos;
 
 @end
 

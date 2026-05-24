@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCalendarEventDatabaseID, NSDateComponents;
+@class NSDateComponents;
 @protocol MKFHome;
 
 @protocol MKFCalendarEvent
+- (void);
 - (id <MKFHome>)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFCalendarEventDatabaseID *databaseID;
 @property(retain, nonatomic) NSDateComponents *fireDateComponents;
-@property(readonly) id <MKFHome> home;
 @end
 

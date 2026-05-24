@@ -11,13 +11,13 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
++ (id)CHPentagonRecognitionResult;
 + (id);
 + (_Bool);
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)FMIPStateChangeLocalNotification;
 
 @end
 

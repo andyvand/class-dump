@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, NSArray, NSString;
+@class AVPlayer, NSArray;
 
 @interface MRAudioPlayer
 {
     NSArray *_audioItems;
-    _Bool _shouldBePlaying;
-    _Bool _isMuted;
-    AVPlayer *_avPlayer;
-    double _duration;
-    double _parentDuration;
-    double _localTime;
-    double _volume;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    double _duckLevel;
-    double _duckInDuration;
-    double _duckOutDuration;
-    long long _priority;
-    double _currentVolume;
 }
 
+- (void)seedTime;
+- (void)T@"NSArray",?,R,N;
+- (void)handleLaunchEventForBackgroundSessionWithIdentifier:(double)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)lopeTracker _registerEnvelopes:(double)arg1 withEventName:] /* Error: Ran out of types for this method. */;
+- (double)AppConfiguration>"8@"NSError"16;
 - (id);
 - (double);
 - (double);
@@ -53,33 +39,12 @@
 - (double);
 - (void);
 - (double);
-- (double);
+- (double)desiredAdPlacement;
 - (_Bool);
-- (long long)ge5;
+- (long long)image5;
 
 // Remaining properties
 @property(readonly) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
-@property(readonly) double currentDuckLevel;
-@property(readonly) double currentVolume; // @synthesize currentVolume=_currentVolume;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duckInDuration; // @synthesize duckInDuration=_duckInDuration;
-@property(nonatomic) double duckLevel; // @synthesize duckLevel=_duckLevel;
-@property(nonatomic) double duckOutDuration; // @synthesize duckOutDuration=_duckOutDuration;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(nonatomic) double localTime; // @synthesize localTime=_localTime;
-@property(nonatomic) double parentDuration; // @synthesize parentDuration=_parentDuration;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool shouldBePlaying; // @synthesize shouldBePlaying=_shouldBePlaying;
-@property(readonly) Class superclass;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
 
 @end
 

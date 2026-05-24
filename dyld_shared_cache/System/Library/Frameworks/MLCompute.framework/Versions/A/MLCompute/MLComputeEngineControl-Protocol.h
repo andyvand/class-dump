@@ -5,5 +5,13 @@
 //
 
 @protocol MLComputeEngineControl
+- (void);
+- (unsigned long long)K	;
+- (void)K_;
+- (void)K;
+
+@optional
+- (void)R	n(;
+- (_Bool);
 @end
 

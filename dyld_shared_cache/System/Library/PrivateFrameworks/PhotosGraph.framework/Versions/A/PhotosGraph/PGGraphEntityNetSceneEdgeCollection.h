@@ -11,7 +11,7 @@
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)_elementWindowRect;
 
 // Remaining properties
 @property(readonly) unsigned long long numberOfSearchConfidenceAssets;

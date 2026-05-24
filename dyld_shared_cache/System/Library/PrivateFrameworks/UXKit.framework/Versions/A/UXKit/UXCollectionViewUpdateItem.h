@@ -9,9 +9,6 @@
 @interface UXCollectionViewUpdateItem
 {
     NSIndexPath *_initialIndexPath;
-    NSIndexPath *_finalIndexPath;
-    long long _updateAction;
-    id _gap;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (long long);
 - (long long);
@@ -33,9 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSIndexPath *indexPathAfterUpdate; // @synthesize indexPathAfterUpdate=_finalIndexPath;
 @property(readonly, retain, nonatomic) NSIndexPath *indexPathBeforeUpdate; // @synthesize indexPathBeforeUpdate=_initialIndexPath;
-@property(readonly, nonatomic) long long updateAction; // @synthesize updateAction=_updateAction;
 
 @end
 

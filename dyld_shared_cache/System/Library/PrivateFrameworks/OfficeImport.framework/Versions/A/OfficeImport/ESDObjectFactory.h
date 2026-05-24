@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface ESDObjectFactory
 {
     struct EshObjectFactory *eshObjectFactory;
-    NSMutableArray *eshObjectFactoryStack;
 }
 
 + (id);
@@ -18,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct EshObject *);
-- (struct EshObject *);
+- (struct EshObject *)_;
 - (void);
-- (id);
+- (id)code;
 - (void);
 
 @end

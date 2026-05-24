@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFServiceWhitelistChecker, NSMutableDictionary, NSString;
+@class NFServiceWhitelistChecker;
 
 @interface NFXPCConnectionUserInfoDictionary
 {
     struct os_unfair_lock_s _dataLock;
-    NSMutableDictionary *_data;
-    NFServiceWhitelistChecker *_serviceWhitelist;
-    NSString *_clientName;
 }
 
 - (id);
@@ -21,13 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
 @property(readonly, nonatomic) NFServiceWhitelistChecker *serviceWhitelist; // @synthesize serviceWhitelist=_serviceWhitelist;
 
 @end

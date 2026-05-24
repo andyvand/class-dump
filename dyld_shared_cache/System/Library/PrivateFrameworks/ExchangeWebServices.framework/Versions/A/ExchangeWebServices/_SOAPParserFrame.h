@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface _SOAPParserFrame
 {
     id _value;
-    Class _type;
-    NSMutableDictionary *_inlineArraysByPropertyName;
 }
 
 - (void);
@@ -18,13 +14,11 @@
 - (void);
 - (id);
 - (Class);
-- (id);
+- (id)!;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *inlineArraysByPropertyName; // @synthesize inlineArraysByPropertyName=_inlineArraysByPropertyName;
-@property(retain, nonatomic) Class type; // @synthesize type=_type;
 @property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end

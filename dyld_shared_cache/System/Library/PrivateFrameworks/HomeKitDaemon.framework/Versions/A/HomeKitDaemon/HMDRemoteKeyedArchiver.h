@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSKeyedArchiver, NSString;
+@class NSKeyedArchiver;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteKeyedArchiver
 {
     NSKeyedArchiver *_archiver;
-    NSString *_transportType;
 }
 
-- (id);
-- (id);
+- (id)g;
+- (id)meInfo"8Q16;
+- (void);
 - (void);
-- (void);
-- (void)sByDomain;
+- (void)syncOptionsByDomain;
 - (id)due to no data source;
 - (void)le to find the characteristic with uniqueIdentifier:(id)arg1 %@;
-- (void)FirewallRuleManagerBackingStoreMirrorSignatureVerificationCertificateChainMaxSize;
+- (void)HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorSignatureVerificationCertificateChainMaxSize;
 - (id)ontroller Private Storage;
 - (void)Álà>;
 - (id)?;
@@ -28,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSKeyedArchiver *archiver; // @synthesize archiver=_archiver;
-@property(readonly, copy) NSData *encodedData;
-@property(retain, nonatomic) NSString *transportType; // @synthesize transportType=_transportType;
 
 @end
 

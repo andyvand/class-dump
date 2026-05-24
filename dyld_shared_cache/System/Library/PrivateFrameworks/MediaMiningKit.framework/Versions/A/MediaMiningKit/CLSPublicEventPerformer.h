@@ -9,11 +9,10 @@
 @interface CLSPublicEventPerformer
 {
     NSString *_localizedName;
-    NSString *_iTunesIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id)@9�*;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *iTunesIdentifier; // @synthesize iTunesIdentifier=_iTunesIdentifier;
 @property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end

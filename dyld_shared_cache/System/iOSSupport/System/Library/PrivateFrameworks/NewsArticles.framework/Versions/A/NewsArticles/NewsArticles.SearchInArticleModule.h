@@ -7,7 +7,6 @@
 @interface NewsArticles.SearchInArticleModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

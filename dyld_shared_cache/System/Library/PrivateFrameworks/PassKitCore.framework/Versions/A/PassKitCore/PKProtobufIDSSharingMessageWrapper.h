@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufIDSSharingMessageWrapper
 {
     NSString *_sessionIdentifier;
-    NSData *_underlyingMessageData;
-    unsigned int _version;
 }
 
 - (id);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)width"b1"maxULCAConfigured"b1"mlPredictedCellBW"b1"mlPredictedWiFiBW"b1"movingAvgHighBandwidth"b1"movingAvgLowBandwidth"b1"nrConfiguredBw"b1"nrMaxDlModulation"b1"nrTotalScheduledMimoLayers"b1"pActualLowBandwidth"b1"packetLifetimeVIBE"b1"packetLossRateVIBE"b1"phyRate"b1"pkgLifeTimeVO"b1"pktLifeTimeVO"b1"pktLossRateVO"b1"qbssLoad"b1"ratioDupeBytes"b1"ratioOOBBytes"b1"rrcState"b1"rxRetransmissionRate"b1"rxRetry"b1"tcpRTTAvg"b1"tcpRTTmin"b1"tcpRTTvar"b1"totalConfiguredBw"b1"totalConfiguredMimoLayers"b1"txRetransmissionRate"b1"txber"b1"videoStreamingStallTime"b1"weightedAveragePhyrateRx"b1"weightedAveragePhyrateTx"b1"weightedAverageRssi"b1"weightedAverageSnr"b1"wifChannelBW"b1"wifChannelType"b1"wifiCapability"b1"wifiModelConfidenceLevel"b1"wifiModelVersion"b1"wifiSinr"b1"wifichannel"b1"wifiguardinterval"b1"wifilowDataMode"b1"wifimcsindex"b1"wifinumberOfSpatialStreams"b1"wrmRecommendedRAT"b1"cellNsaEnabled"b1"isFR1"b1};
+- (void)6DgramNoData;
 - (void);
-- (void);
+- (id));
 - (id);
-- (id);
-- (void);
+- (void)isDTOEnabled;
 - (id)hToken:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) NSData *underlyingMessageData; // @synthesize underlyingMessageData=_underlyingMessageData;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

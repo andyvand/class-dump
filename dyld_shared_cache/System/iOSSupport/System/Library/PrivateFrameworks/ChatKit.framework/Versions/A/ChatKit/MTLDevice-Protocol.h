@@ -4,38 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLCounterSampleBufferDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString, NSURL, OS_dispatch_data;
-@protocol MTL4Archive, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLCounterSampleBuffer, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor;
+@class MTLAccelerationStructureDescriptor, MTLCounterSampleBufferDescriptor, MTLLogStateDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString, NSURL, OS_dispatch_data;
+@protocol MTL4Archive, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4CounterHeap, MTLAccelerationStructure, MTLArgumentEncoder, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLCounterSampleBuffer, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLLogState, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor, MTLTexture, MTLTextureViewPool;
 
 @protocol MTLDevice
+- (id <MTLTexture>);
+- (id <MTLBuffer>)Q;
+- (unsigned long long)j)8;
+- (void)B;
+- (id <MTLCommandQueue>) ;
+- (id <MTL4CommandQueue>);
+- (unsigned long long)@;
+- (id <MTLIOFileHandle>)(=;
+- (id <MTLArgumentEncoder>)6;
+- (id <MTL4CounterHeap>);
+- (id <MTLTextureViewPool>)`;
+- (id <MTLComputePipelineState>)entSetF0t;
+- (id <MTLLogState>)orCurrentOperation:(MTLLogStateDescriptor *)arg1 ];
+- (_Bool);
+- (void)"CNAutocompleteSuggestionsViewController",R,N,V_suggestionsController;
 - (CDStruct_4bcfbbae)ýÐ!Dùq°1Â0@ù
 × ;
 - (_Bool)
 × ;
-- (_Bool)orFileTransfer: /* Error: Ran out of types for this method. */;
-- (unsigned int)ConversationActivityBroadShadowDarkOffset;
-- (id <MTLRenderPipelineState>)Type:(MTLRenderPipelineDescriptor *)arg1;
-- (NSArray *)fMessagesToLoadBeforeGUID:numberOfMessagesToLoadAfterGUID:threadIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)ller:(id <MTLFunction>)arg1 didDetachDetailsNavigationController:(void (^)(id <MTLComputePipelineState>, NSError *))arg2;
-- (id <MTLCounterSampleBuffer>)mationDidFinishSideEffectsWithContext:(MTLCounterSampleBufferDescriptor *)arg1;
-- (id <MTLLibrary>)pts:(OS_dispatch_data *)arg1;
+- (_Bool)shouldDisableTranscriptCapabilitiesForFileTransfer: /* Error: Ran out of types for this method. */;
+- (unsigned int)pinnedConversationActivityBroadShadowDarkOffset;
+- (id <MTLRenderPipelineState>)initWithMomentShare:(MTLRenderPipelineDescriptor *)arg1 activityType:(id *)arg2 sourceType: /* Error: Ran out of types for this method. */;
+- (NSArray *)fetchMessagesBeforeAndAfterGUID:numberOfMessagesToLoadBeforeGUID:numberOfMessagesToLoadAfterGUID:threadIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)chatController:(id <MTLFunction>)arg1 didDetachDetailsNavigationController:(void (^)(id <MTLComputePipelineState>, NSError *))arg2;
+- (id <MTLCounterSampleBuffer>)_commonAnimationDidFinishSideEffectsWithContext:(MTLCounterSampleBufferDescriptor *)arg1;
+- (id <MTLLibrary>)__ck_setSendReadReceipts:(OS_dispatch_data *)arg1;
 - (_Bool)V_delegate;
 - (_Bool);
 - (id <MTLResidencySet>)r7ùÿÿÿ;
 - (id <MTLBuffer>);
-- (unsigned long long);
 - (id <MTLIOFileHandle>), isCollaborative:(NSURL *)arg1 %@;
 - (id <MTLAccelerationStructure>)ve Handshake:(MTLAccelerationStructureDescriptor *)arg1 Using the URL to remove participant;
 - (unsigned int)hat items changed before full transcript was sized
  %@;
 - (unsigned long long)with GUID %@;
 - (_Bool)imatedImage.;
-- (id <MTLIOCommandQueue>)ersationDeferredSetup;
+- (id <MTLIOCommandQueue>)composeChatControllerSetConversationDeferredSetup;
 - (unsigned long long);
 - (id <MTL4Archive>)¸ª;
-- (id <MTLRenderPipelineState>)ngLayout;
+- (id <MTLRenderPipelineState>)TapbackPickerStagingLayout;
 - (_Bool)}Ñkä¸¦ÿ;
-- (void)elegate;
+- (void)AnimationDelegate;
 - (void);
 - (_Bool)¼û;
 - (_Bool);
@@ -44,7 +58,7 @@
 - (id <MTLCommandQueue>);
 - (id <MTL4CommandBuffer>)Ý;
 - (id <MTLFunctionHandle>)lT§ÿ;
-- (id <MTL4CommandAllocator>)ize;
+- (id <MTL4CommandAllocator>)CGSize;
 - (unsigned long long)á?À?â?SSSSSSÓ?ôóóóóóÓ?555555Õ?______ï?×?ÓÒÒÒÒÒâ?ñ?;
 - (_Bool).;
 - (unsigned long long);
@@ -55,48 +69,6 @@
 - (id <MTLTensor>)\p.;
 
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_aa0b146f maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

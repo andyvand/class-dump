@@ -13,7 +13,7 @@
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)cyScore"b1"score"b1"predictionType"b1"mapIsValid"b1"modelHasSignificantData"b1};
 + (id);
 
 @end

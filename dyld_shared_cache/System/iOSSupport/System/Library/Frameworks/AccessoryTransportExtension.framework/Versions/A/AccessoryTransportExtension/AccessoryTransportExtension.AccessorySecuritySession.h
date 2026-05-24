@@ -8,10 +8,6 @@
 {
     id accessory;
     id cancelled;
-    id _invalidated;
-    id cancellationHandler;
-    id eventHandler;
-    id sendMessageHandler;
 }
 
 @end

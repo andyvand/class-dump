@@ -7,8 +7,6 @@
 @interface PhotosUICore.LemonadeNotificationsModel
 {
     id _item;
-    id _notificationType;
-    id _$observationRegistrar;
 }
 
 @end

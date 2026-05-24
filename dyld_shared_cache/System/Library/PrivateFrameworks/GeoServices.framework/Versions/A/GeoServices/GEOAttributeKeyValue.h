@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOAttributeKeyValue
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_attributeKey;
-    NSString *_attributeValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributeKey:1;
-        unsigned int read_attributeValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)order:(id)arg1 wasBuffered:receivedNumChannels: /* Error: Ran out of types for this method. */;
+- (id)mcpl;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (id);
-- (id)PlaceActionDetailsTargetId;
+- (id)placeCardPlaceActionDetailsTargetId;
 - (id)$¤;
-- (id)ST;
+- (id)ETA_TRAFFIC_UPDATE_REQUEST;
 - (void)26;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol AVTCacheableResource
+- (_Bool);
 @end
 

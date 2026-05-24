@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PXSharedAlbumsActivityEntryAvatarConfiguration;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface PXSharedAlbumsActivityEntryItem
 {
     id avatarInfos;
-    id activityEntry;
-    id uuid;
-    id displayUseCase;
-    void date;
-    long long type;
-    _Bool isFromMe;
-    void contributorDisplayNames;
-    void albumName;
-    void albumId;
-    void message;
-    _Bool isPlaceholder;
-    void relatedCommentUUID;
-    id assetsForPreviews;
 }
 
 - (id);
@@ -31,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (long long);
@@ -41,17 +28,7 @@ __attribute__((visibility("hidden")))
 - (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *albumId;
-@property(nonatomic, readonly) NSString *albumName;
-@property(nonatomic, readonly) PXSharedAlbumsActivityEntryAvatarConfiguration *avatarInfo;
-@property(nonatomic, readonly) NSString *contributorDisplayName;
-@property(nonatomic, readonly) NSArray *contributorDisplayNames;
 @property(nonatomic, readonly) NSDate *date;
-@property(nonatomic, readonly) _Bool isFromMe; // @synthesize isFromMe;
-@property(nonatomic, readonly) _Bool isPlaceholder; // @synthesize isPlaceholder;
-@property(nonatomic, readonly) NSString *message;
-@property(nonatomic, readonly) NSString *relatedCommentUUID;
-@property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end
 

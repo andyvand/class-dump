@@ -13,8 +13,8 @@
 
 - (void);
 - (_Bool);
-- (id);
-- (id)TraceRecorderC;
+- (id)ientID (%{public}@) located on current context, using that clientID instead of the real clientID (%{public}@);
+- (id)So15MNTraceRecorderC;
 
 // Remaining properties
 @property(nonatomic) _Bool includeRoute; // @synthesize includeRoute=_includeRoute;

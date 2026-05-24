@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
+@class NSString;
 @protocol FLFollowUpControllerDelegate;
 
 @interface FLFollowUpController
 {
     NSString *_clientIdentifier;
-    NSString *_machServiceName;
-    NSXPCListener *_listener;
-    id <FLFollowUpControllerDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)idence, %@, nplois with only high confidence count, %lu, w.r.t the location, %{sensitive}@;
+- (id)anager;
 - (void);
 - (id);
 - (void);
@@ -28,28 +25,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void):(id)arg1 ]_block_invoke;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)col-supported;
+- (void)R;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <FLFollowUpControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTrailHead
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsIds;
-    NSMutableArray *_trails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _hikingDisplayType;
-    unsigned int _numInlineItems;
-    struct {
-        unsigned int has_hikingDisplayType:1;
-        unsigned int has_numInlineItems:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapsIds:1;
-        unsigned int read_trails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)reloadRow;
+- (id)tPath: /* Error: Ran out of types for this method. */;
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tLng"b1"read_location"b1"read_mapItemStorage"b1"read_styleAttributesData"b1"read_uniqueWaypointID"b1"read_waypoint"b1"wrote_anyField"b1};
-- (id)archResults;
+- (id)_searchResults;
 - (id);
 - (void);
 

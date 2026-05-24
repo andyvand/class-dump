@@ -7,13 +7,6 @@
 @interface _MRSendButtonEventMessageProtobuf
 {
     unsigned int _usage;
-    unsigned int _usagePage;
-    _Bool _buttonDown;
-    struct {
-        unsigned int usage:1;
-        unsigned int usagePage:1;
-        unsigned int buttonDown:1;
-    } _has;
 }
 
 - (void);
@@ -28,23 +21,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)So7NSTimerCSg;
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)llu, properties = %@};
 - (void);
-- (void)onState;
+- (void)SetConnectionState;
 
 // Remaining properties
-@property(nonatomic) _Bool buttonDown; // @synthesize buttonDown=_buttonDown;
-@property(nonatomic) _Bool hasButtonDown;
-@property(nonatomic) _Bool hasUsage;
 @property(nonatomic) _Bool hasUsagePage;
-@property(nonatomic) unsigned int usage; // @synthesize usage=_usage;
-@property(nonatomic) unsigned int usagePage; // @synthesize usagePage=_usagePage;
 
 @end
 

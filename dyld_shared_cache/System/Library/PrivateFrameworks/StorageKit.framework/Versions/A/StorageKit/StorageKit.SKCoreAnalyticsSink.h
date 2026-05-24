@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void);
+- (id)ctiveMediaStreamIDs:withTargetBitrate:mediaBitrates:rateChangeCounter:] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -20,13 +20,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)nvalid Expiration Duration;
 - (id);
-- (id);
-- (void)eLength;
+- (void)_writeLength;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _MRVoiceInputDeviceDescriptorProtobuf *descriptor; // @synthesize descriptor=_descriptor;
 @property(readonly, nonatomic) _Bool hasDescriptor;
 
 @end

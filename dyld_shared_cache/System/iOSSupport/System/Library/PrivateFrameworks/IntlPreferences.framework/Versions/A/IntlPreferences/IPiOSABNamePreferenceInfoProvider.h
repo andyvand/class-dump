@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface IPiOSABNamePreferenceInfoProvider
 {
@@ -14,18 +12,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)qk;
 + (id);
-+ (id);
-+ (id);
++ (id)enumerateItemsAsynchronouslyUsingBlock:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

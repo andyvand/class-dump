@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned long long _precision;
 }
 
-- (id);
-- (id);
+- (id)0ߛl;
+- (id)m;
 
 @end
 

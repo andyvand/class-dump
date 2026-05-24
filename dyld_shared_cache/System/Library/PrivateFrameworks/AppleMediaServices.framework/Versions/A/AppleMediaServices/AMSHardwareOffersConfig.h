@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSHardwareOffersConfig
 {
     _Bool _isGroupingEnabled;
-    NSString *_sheetURL;
 }
 
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (_Bool);
@@ -23,7 +20,6 @@ AsAs4AsAs1As@lAs¶nAsÝhAsjAstAs¥vAs¡pAsrAs;lAsnAsýhAs9jAsJtAs�
 
 // Remaining properties
 @property(nonatomic) _Bool isGroupingEnabled; // @synthesize isGroupingEnabled=_isGroupingEnabled;
-@property(copy, nonatomic) NSString *sheetURL; // @synthesize sheetURL=_sheetURL;
 
 @end
 

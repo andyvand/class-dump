@@ -7,9 +7,6 @@
 @interface SiriUI.GMEnrollmentTextModel
 {
     id _label;
-    id _hidden;
-    id _font;
-    id _$observationRegistrar;
 }
 
 - (id);

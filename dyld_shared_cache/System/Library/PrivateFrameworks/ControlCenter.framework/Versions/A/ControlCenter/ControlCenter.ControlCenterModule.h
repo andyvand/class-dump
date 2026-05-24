@@ -7,8 +7,6 @@
 @interface ControlCenter.ControlCenterModule
 {
     id logger;
-    id xpcSession;
-    id xpcSessionQueue;
 }
 
 - (void);

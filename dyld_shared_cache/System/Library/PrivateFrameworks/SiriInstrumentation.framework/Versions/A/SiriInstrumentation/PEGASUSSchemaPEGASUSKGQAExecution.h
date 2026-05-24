@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSKGQAExecution : SISchemaInstrumentationMessage
 {
     int _kgQAUsecase;
-    NSArray *_attributes;
-    _Bool _isDisputedResponse;
-    NSString *_nlgKey;
-    _Bool _isWebExtractedFact;
-    CDStruct_3f132234 _has;
-    _Bool _hasNlgKey;
 }
 
 - (void);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -34,41 +26,32 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)setShouldOfferSecurityUpgrade:(unsigned long long)arg1;
+- (void)saveAccount:(id)arg1 withDataclassActions:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
+- (id)v40;
+- (_Bool)nc %@ ;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)ctiveLocationSharingDevice calling completion with result:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)ported;
+- (id)_hasAttentionInvocationDigestsReported;
 - (id)_snippetViewSelected;
 - (void)AppBundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) _Bool hasIsDisputedResponse;
-@property(nonatomic) _Bool hasIsWebExtractedFact;
-@property(nonatomic) _Bool hasKgQAUsecase;
-@property(nonatomic) _Bool hasNlgKey; // @synthesize hasNlgKey=_hasNlgKey;
-@property(nonatomic) _Bool isDisputedResponse; // @synthesize isDisputedResponse=_isDisputedResponse;
-@property(nonatomic) _Bool isWebExtractedFact; // @synthesize isWebExtractedFact=_isWebExtractedFact;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int kgQAUsecase; // @synthesize kgQAUsecase=_kgQAUsecase;
-@property(copy, nonatomic) NSString *nlgKey; // @synthesize nlgKey=_nlgKey;
 
 @end
 

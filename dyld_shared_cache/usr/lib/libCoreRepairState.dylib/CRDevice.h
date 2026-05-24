@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CRDevice
 {
     _Bool _supportElabel;
     NSArray *_components;
-    NSDictionary *_typeToComponent;
-    NSDictionary *_spcToComponent;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -26,14 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)flash:andErrorResponse: /* Error: Ran out of types for this method. */;
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(retain, nonatomic) NSDictionary *spcToComponent; // @synthesize spcToComponent=_spcToComponent;
 @property(nonatomic) _Bool supportElabel; // @synthesize supportElabel=_supportElabel;
-@property(retain, nonatomic) NSDictionary *typeToComponent; // @synthesize typeToComponent=_typeToComponent;
 
 @end
 

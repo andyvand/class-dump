@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutGuide, NSMutableArray, NSTextField, NSView;
+@class NSLayoutGuide, NSView;
 
 __attribute__((visibility("hidden")))
 @interface AVDesktopExternalPlaybackIndicatorView
 {
     NSView *_containerView;
-    NSTextField *_titleTextField;
-    NSTextField *_subtitleTextField;
-    NSLayoutGuide *_preferredContentAreaLayoutGuide;
-    NSMutableArray *_preferredContentAreaLayoutConstraints;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)?{;
 - (void);
-- (id);
+- (id)_from_intersection_function;
 - (void);
 
 // Remaining properties

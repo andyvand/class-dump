@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)mations;
-- (id)ingSessionMaxRetryInterval;
+- (void)numMediaAutomations;
+- (id)recordingSessionMaxRetryInterval;
 - (id);
 
 // Remaining properties

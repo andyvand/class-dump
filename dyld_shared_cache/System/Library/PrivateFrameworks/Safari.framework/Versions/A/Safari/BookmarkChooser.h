@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOutlineView, NSString, NSTableView, WBSFaviconRequestsController;
+@class NSTableView, WBSFaviconRequestsController;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkChooser
 {
     WBSFaviconRequestsController *_tableRequestsController;
-    WBSFaviconRequestsController *_outlineRequestsController;
-    NSArray *_rootWebBookmarks;
-    NSTableView *_collectionsTable;
-    NSOutlineView *_contentsOutline;
 }
 
 + (id);
-- (void);
+- (void)F?;
 - (void);
 - (id);
 - (void);
@@ -51,14 +47,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSTableView *collectionsTable; // @synthesize collectionsTable=_collectionsTable;
-@property(retain, nonatomic) NSOutlineView *contentsOutline; // @synthesize contentsOutline=_contentsOutline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

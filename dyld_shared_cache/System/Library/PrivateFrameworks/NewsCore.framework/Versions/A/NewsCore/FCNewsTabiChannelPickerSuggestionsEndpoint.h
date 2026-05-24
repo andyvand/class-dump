@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiChannelPickerSuggestionsConfiguration, FCNewsTabiEventAggregationOutputsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiChannelPickerSuggestionsEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiChannelPickerSuggestionsConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -19,15 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id)!¸Eùq(	1Â0@ù
 × ;
 - (void)preflightRecordsInModifyOperation:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

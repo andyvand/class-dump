@@ -12,17 +12,15 @@ __attribute__((visibility("hidden")))
 @interface HMBModelFieldOptionExternalRecordField : HMBModelFieldOption
 {
     _Bool _encrypted;
-    NSString *_fieldName;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)nifestManagerClass(void)_block_invoke;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(readonly, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
 
 @end

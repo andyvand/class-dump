@@ -11,13 +11,10 @@
 @interface VNGenerateImageSegmentationRequest : VNImageBasedRequest
 {
     NSArray *_targetPoints;
-    _Bool _disableConnectedComponentRefinement;
-    _Bool _fillGapsInMask;
-    unsigned long long _minimumMaskPixelCount;
 }
 
-+ (void);
-+ (Class);
++ (void);
++ (Class)!;
 - (id);
 - (id);
 - (id);
@@ -30,10 +27,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
+- (void)ppleModelIdentifier;
+- (id)th cached pipeline state;
+- (unsigned int)tory.query;
+- (void)n>"8^{__CFDictionary=}16;
 - (void)the descriptors count in the appended buffer
 ;
 - (_Bool);
@@ -41,13 +38,7 @@
 - (_Bool)¹>;
 
 // Remaining properties
-@property(nonatomic) _Bool disableConnectedComponentRefinement; // @synthesize disableConnectedComponentRefinement=_disableConnectedComponentRefinement;
-@property(nonatomic) _Bool fillGapsInMask; // @synthesize fillGapsInMask=_fillGapsInMask;
-@property(readonly, nonatomic) long long maximumTargetPoints;
-@property(nonatomic) unsigned long long minimumMaskPixelCount; // @synthesize minimumMaskPixelCount=_minimumMaskPixelCount;
 @property(nonatomic) unsigned int outputPixelFormat;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(retain, nonatomic) NSArray *targetPoints;
 
 @end
 

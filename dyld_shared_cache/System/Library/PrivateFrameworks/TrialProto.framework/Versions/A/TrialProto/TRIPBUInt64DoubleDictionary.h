@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt64DoubleDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -30,7 +29,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)bjects:(double)arg1 count:(unsigned long long)arg2;
+- (void)initWithObjects:(double)arg1 count:(unsigned long long)arg2;
 - (void);
 
 // Remaining properties

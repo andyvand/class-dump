@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRCandidateSearchToolRank : SISchemaInstrumentationMessage
 {
@@ -15,13 +15,13 @@
 
 - (void);
 - (unsigned long long);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)a;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,11 +29,10 @@
 - (id)
 × ;
 - (id)emes;
-- (id)UPPHSEnrollmentDigitalZeroDetectionCompleted;
+- (id)SIRISETUPSchemaSIRISETUPPHSEnrollmentDigitalZeroDetectionCompleted;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *searchToolRanks; // @synthesize searchToolRanks=_searchToolRanks;
 
 @end

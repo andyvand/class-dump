@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteViewControllerAuxiliary, NSString, NSUUID, NSXPCListenerEndpoint;
+@class NSRemoteViewControllerAuxiliary, NSString;
 
 @interface NSRemoteViewController
 {
     NSRemoteViewControllerAuxiliary *_aux;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)cn9;
 - (_Bool);
 - (void);
 - (void);
@@ -30,10 +29,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,10 +42,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)B;
+- (void)@E;
 - (id);
-- (id);
+- (id)R;
 - (oneway void);
 - (void);
 - (id);
@@ -57,12 +56,6 @@
 
 // Remaining properties
 @property(readonly) NSString *remoteViewIdentifier;
-@property(readonly) CDStruct_4c969caf serviceAuditToken;
-@property(readonly) NSString *serviceBundleIdentifier;
-@property(readonly) NSUUID *serviceInstanceIdentifier;
-@property(readonly) NSXPCListenerEndpoint *serviceListenerEndpoint;
-@property(readonly) int serviceProcessIdentifier;
-@property(readonly) NSString *serviceViewControllerClassName;
 
 @end
 

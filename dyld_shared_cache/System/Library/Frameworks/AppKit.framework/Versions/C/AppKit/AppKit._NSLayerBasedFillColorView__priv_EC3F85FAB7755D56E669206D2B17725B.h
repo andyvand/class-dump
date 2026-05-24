@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id)tDividersTimer;
+- (id)_startForceShadowContentDividersTimer;
 - (void)`_E;
 
 @end

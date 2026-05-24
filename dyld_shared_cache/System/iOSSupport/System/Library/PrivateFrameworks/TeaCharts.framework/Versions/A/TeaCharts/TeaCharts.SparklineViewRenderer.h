@@ -7,11 +7,9 @@
 @interface TeaCharts.SparklineViewRenderer
 {
     id imageLoader;
-    id reuseProtector;
-    id cache;
 }
 
-- (void);
+- (void)NW-{;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureAudioPreviewOutputInternal
 {
     float volume;
-    NSString *outputDeviceUniqueID;
-    struct os_unfair_lock_s internalLock;
 }
 
 @end

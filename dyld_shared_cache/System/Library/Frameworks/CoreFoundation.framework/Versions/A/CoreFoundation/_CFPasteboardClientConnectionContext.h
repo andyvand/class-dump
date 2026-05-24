@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _CFPasteboardClientConnectionContext
 {
     struct os_unfair_lock_s _lock;
-    struct __CFArray *_cleanupBlocks;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)D;
 - (void);
 
 @end

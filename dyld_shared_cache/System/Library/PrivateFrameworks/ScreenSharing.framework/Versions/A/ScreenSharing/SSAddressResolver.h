@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSService, NSLock, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SSAddressResolver
 {
     _Bool mIsOSX_10OrLater;
-    _Bool _isIOSinvitation;
-    _Bool _idsInviteAcceptedOnScreensharingQRService;
-    IDSService *_idsServiceOSX_QR;
-    IDSService *_idsService;
-    IDSService *_iOSidsService;
-    NSLock *_observersLock;
-    NSMutableDictionary *_observersMap;
-    NSString *_idsIDQueryListenerID;
-    NSString *_iOSIDSIDQueryListenerID;
 }
 
 + (_Bool);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,47 +48,30 @@
 - (void);
 - (void);
 - (id);
+- (id)anscode %{public}@ failed, unable to create output file %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Q24@0:(id)arg1 8q16;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)initWithIndexesInRange:(id)arg1;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)!;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)8;
 - (void);
 - (void)esAndContacts"16@0:(id)arg1 8;
 - (void)RFBFileCopy_CopyToServerCore;
 
 // Remaining properties
-@property(readonly) IDSService *currentIDSService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *iOSIDSIDQueryListenerID; // @synthesize iOSIDSIDQueryListenerID=_iOSIDSIDQueryListenerID;
-@property(retain) IDSService *iOSidsService; // @synthesize iOSidsService=_iOSidsService;
-@property(readonly, nonatomic) IDSAccount *idsAccount;
-@property(copy) NSString *idsIDQueryListenerID; // @synthesize idsIDQueryListenerID=_idsIDQueryListenerID;
-@property _Bool idsInviteAcceptedOnScreensharingQRService; // @synthesize idsInviteAcceptedOnScreensharingQRService=_idsInviteAcceptedOnScreensharingQRService;
-@property(retain) IDSService *idsService; // @synthesize idsService=_idsService;
-@property(retain) IDSService *idsServiceOSX_QR; // @synthesize idsServiceOSX_QR=_idsServiceOSX_QR;
-@property _Bool isIOSinvitation; // @synthesize isIOSinvitation=_isIOSinvitation;
-@property(retain) NSLock *observersLock; // @synthesize observersLock=_observersLock;
 @property(retain) NSMutableDictionary *observersMap; // @synthesize observersMap=_observersMap;
-@property(readonly) Class superclass;
 
 @end
 

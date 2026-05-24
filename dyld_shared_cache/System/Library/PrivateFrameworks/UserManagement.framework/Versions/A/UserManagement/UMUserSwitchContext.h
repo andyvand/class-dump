@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface UMUserSwitchContext
 {
     _Bool _secondaryActionRequired;
-    NSData *_setupData;
-    NSString *_shortLivedToken;
-    NSDictionary *_environmentsByServices;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)e number of channels.;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool secondaryActionRequired; // @synthesize secondaryActionRequired=_secondaryActionRequired;
 @property(copy, nonatomic) NSData *setupData; // @synthesize setupData=_setupData;
-@property(copy, nonatomic) NSString *shortLivedToken; // @synthesize shortLivedToken=_shortLivedToken;
 
 @end
 

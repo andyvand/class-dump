@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSArray;
+@class NSArray;
 
 @interface SNKShotFeaturizationResult
 {
@@ -27,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) MLMultiArray *exemplar;
-@property(nonatomic) CDStruct_198678f7 inferenceWindowSize;
 @property(nonatomic, copy) NSArray *trainingDataEmbeddings;
-@property(nonatomic, copy) NSArray *trainingDataLabels;
-@property(nonatomic, copy) NSArray *validationDataEmbeddings;
-@property(nonatomic, copy) NSArray *validationDataLabels;
 
 @end
 

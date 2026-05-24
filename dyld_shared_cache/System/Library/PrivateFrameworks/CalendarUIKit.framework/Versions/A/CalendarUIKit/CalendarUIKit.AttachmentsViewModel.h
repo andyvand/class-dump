@@ -7,24 +7,17 @@
 @interface CalendarUIKit.AttachmentsViewModel
 {
     id owningEvent;
-    id _attachmentControllers;
-    id _showPreviewController;
-    id _attachmentAlert;
-    id _attachmentItem;
-    id updateAttachmentStatus;
-    id updateDownloadProgress;
-    id _$observationRegistrar;
 }
 
-- (void)	ë;
-- (void)áª";
-- (void)ñÇåò0ÁÚ	"@ù(=;
-- (void)ªãª4Êú;
-- (id)Cøàª!;
-- (void)ÕÿÑôO©ý{©ýÃ;
-- (void)ªàªáªâªõªÚÓý{C©öOB©ø_A©ùDøÿ_Ö#Õø_½©öO©ý{©ý;
+- (void)=;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)losingEventDetails: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void)setLargeListViewDisclosingEventDetails: /* Error: Ran out of types for this method. */;
 
 @end
 

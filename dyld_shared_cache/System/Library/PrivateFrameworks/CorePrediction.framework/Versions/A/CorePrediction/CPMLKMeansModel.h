@@ -10,12 +10,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)NSTouchBarCoordinator>";
+- (id)haringService"24;
+- (id)aringServicePicker"16@"NSSharingService"24;
+- (id)@0:8@"NSArray"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
+- (id)56;
+- (id)SEvent"24{CGPoint=dd}32@"NSPasteboard"48;
 - (id);
 - (id);
 

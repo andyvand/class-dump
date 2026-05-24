@@ -12,13 +12,12 @@
 @interface IMAPPersistDeletedMessagesOperation : IMAPPersistenceTaskOperation
 {
     NSIndexSet *_uids;
-    id <IMAPPersistDeletedMessagesOperationDelegate> _delegate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPPersistDeletedMessagesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSIndexSet *uids; // @synthesize uids=_uids;
 
 @end
 

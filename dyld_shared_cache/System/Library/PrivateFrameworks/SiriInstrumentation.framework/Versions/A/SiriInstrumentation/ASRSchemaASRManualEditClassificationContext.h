@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRManualEditClassificationEnded, ASRSchemaASRManualEditClassificationFailed, ASRSchemaASRManualEditClassificationStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRManualEditClassificationContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    ASRSchemaASRManualEditClassificationStarted *_startedOrChanged;
-    ASRSchemaASRManualEditClassificationEnded *_ended;
-    ASRSchemaASRManualEditClassificationFailed *_failed;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -37,8 +29,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)@0:(id)arg1 8@16@24@32@40@48@56@64@72@80@?88@?96;
+- (void)SheetController";
 - (id);
 - (id);
 - (id);
@@ -49,22 +41,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)stReceived;
+- (id)syncTokenFetchRequestReceived;
 - (id)¤;
 - (id)têöÿtÞ2ÿ;
 - (void)cW²8ð&;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRManualEditClassificationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ASRSchemaASRManualEditClassificationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
-@property(retain, nonatomic) ASRSchemaASRManualEditClassificationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

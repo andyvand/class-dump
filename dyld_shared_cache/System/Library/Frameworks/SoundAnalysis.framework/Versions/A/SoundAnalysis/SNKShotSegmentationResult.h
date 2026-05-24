@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSArray, NSNumber;
+@class MLMultiArray;
 
 @interface SNKShotSegmentationResult
 {
@@ -16,14 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/?;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, retain) MLMultiArray *exemplarEmbedding;
-@property(nonatomic, retain) NSNumber *exemplarIndex;
-@property(nonatomic, copy) NSArray *segments;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCyclerCloudBookmarksAssistant
+- (void)decodeValueOfObjCType:(void (^)(NSError *))arg1 at:size: /* Error: Ran out of types for this method. */;
 @end
 

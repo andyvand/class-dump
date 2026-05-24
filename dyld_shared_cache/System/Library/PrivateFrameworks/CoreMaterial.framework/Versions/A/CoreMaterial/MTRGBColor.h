@@ -9,9 +9,6 @@
 @interface MTRGBColor : MTColor
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 - (id);
@@ -21,19 +18,16 @@
 - (id);
 - (double);
 - (double);
+- (double)A;
 - (double);
-- (double);
-- (id);
-- (struct CGColor *);
+- (id)to have lost it's data directory %@;
+- (struct CGColor *)@h;
 - (struct CAColorMatrix);
 - (id);
 - (id);
-- (id);
+- (id)^{_xmlNode}^{_xmlNode}^{_xmlDoc}^{_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS}24;
 
 // Remaining properties
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) double blue; // @synthesize blue=_blue;
-@property(readonly, nonatomic) double green; // @synthesize green=_green;
 @property(readonly, nonatomic) double red; // @synthesize red=_red;
 
 @end

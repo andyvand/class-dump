@@ -9,7 +9,6 @@
 @interface ChatKit.CKVisionTranscriptionView : ChatKit.CKTranscriptionView
 {
     id textViewTrailingAnchorConstraintToExpansionButton;
-    id textViewTrailingAnchorConstraintToContainer;
 }
 
 - (id);

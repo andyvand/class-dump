@@ -11,13 +11,13 @@
     unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)';
+- (id)TE FROM %@ WHERE %@ <= %@;
+- (id)determine if old history table 1 Exists - %s;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;

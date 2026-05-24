@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface TISecureCandidateAttributes
 {
     _Bool _isSecureCandidateDoubleLines;
-    unsigned int _slotID;
-    double _secureCandidateWidth;
 }
 
-- (void);
-- (void);
-- (double);
-- (_Bool);
+- (void)Captioning;
+- (void)=%d recognitionOverrides=%@ modelOverrideURL=%@ maximumRecognitionDuration=%f dynamicLanguageModel=%@ dynamicVocabulary=%@ detectMultipleUtterances=%d onDeviceOnly=%d enableAutoPunctuation=%d;
+- (double)_speechProfileURLs;
+- (_Bool)zer:Yielded result  /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isSecureCandidateDoubleLines; // @synthesize isSecureCandidateDoubleLines=_isSecureCandidateDoubleLines;
-@property(nonatomic) double secureCandidateWidth; // @synthesize secureCandidateWidth=_secureCandidateWidth;
 @property(nonatomic) unsigned int slotID; // @synthesize slotID=_slotID;
 
 @end

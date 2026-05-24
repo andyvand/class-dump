@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
+- (void)value: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setFragmentPreloadedLibraries:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *places; // @synthesize places=_places;

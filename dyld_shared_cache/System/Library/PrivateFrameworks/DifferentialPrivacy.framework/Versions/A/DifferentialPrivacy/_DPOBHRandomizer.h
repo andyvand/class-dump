@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPBiasedCoin, _DPRandomBitPositionGenerator;
-
 @interface _DPOBHRandomizer
 {
     unsigned long long _m;
-    double _epsilon;
-    _DPBiasedCoin *_epsilonCoin;
-    _DPRandomBitPositionGenerator *_bitPositionGenerator;
-    double _cEpsilon;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -25,24 +19,13 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)I;
 - (id);
-- (id);
-- (double);
-- (void);
+- (double);
+- (void)displayCompletionListRelativeToRect:ofView:matchingPartialUsername:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPRandomBitPositionGenerator *bitPositionGenerator; // @synthesize bitPositionGenerator=_bitPositionGenerator;
-@property(readonly, nonatomic) double cEpsilon; // @synthesize cEpsilon=_cEpsilon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) _DPBiasedCoin *epsilonCoin; // @synthesize epsilonCoin=_epsilonCoin;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long m; // @synthesize m=_m;
-@property(readonly) Class superclass;
 
 @end
 

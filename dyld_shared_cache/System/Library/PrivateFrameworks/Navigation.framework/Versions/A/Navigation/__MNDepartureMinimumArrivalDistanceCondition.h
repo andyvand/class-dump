@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __MNDepartureMinimumArrivalDistanceCondition
 {
     MNDepartureUpdater *_updater;
-    double _closestDistanceToWaypoint;
-    double _threshold;
 }
 
 - (double);

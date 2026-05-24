@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVTCoreModelMulticolorAuxiliaryPicker
 {
     NSString *_type;
-    NSArray *_items;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)(=;
+- (void)_stmt=}16@0:(id)arg1 8;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

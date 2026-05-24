@@ -4,19 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, NSString;
-@protocol DEDXPCInboundDelegate, OS_os_log;
+@class NSNumber, NSObject;
+@protocol OS_os_log;
 
 @interface DEDXPCInbound
 {
     NSNumber *_senderPid;
-    NSObject<OS_os_log> *_log;
-    id <DEDXPCInboundDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)loadURL;
+- (void);
+- (void)u isn't greater than varIntLen of %tu (objectLength:(id)arg1 %zu);
+- (void)temsAndDeleteUnregisteredAssetHandlesWithIDs:(id)arg1 deleteUnregisteredAssetHandlesWithIDs:] /* Error: Ran out of types for this method. */;
+- (void)sessionConfiguration;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -27,41 +44,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ogEntry.PrivateData.MotionTypeDeviceMotion;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)decodeData:(id)arg1 filename:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -69,16 +67,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DEDXPCInboundDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) NSNumber *senderPid; // @synthesize senderPid=_senderPid;
-@property(readonly) Class superclass;
 
 @end
 

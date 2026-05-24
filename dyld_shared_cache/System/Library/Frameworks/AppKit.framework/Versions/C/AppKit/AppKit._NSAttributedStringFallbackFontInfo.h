@@ -7,14 +7,12 @@
 @interface AppKit._NSAttributedStringFallbackFontInfo
 {
     _Bool multipleFontsInSelectedRange;
-    const struct __CTFont *firstFont;
-    const struct __CTFont *firstDocumentFont;
 }
 
-- (_Bool);
+- (_Bool)ublic}@> attempted to create a NSURLSessionDataTask in a session that has been invalidated;
 - (id);
 - (_Bool);
-- (const struct __CTFont *);
+- (const struct __CTFont *)p(;
 - (const struct __CTFont *);
 - (id);
 - (_Bool)1Â0@ù
@@ -22,9 +20,6 @@
 - (void)bí;
 
 // Remaining properties
-@property(nonatomic, readonly) const struct __CTFont *firstDocumentFont; // @synthesize firstDocumentFont;
-@property(nonatomic, readonly) const struct __CTFont *firstFont; // @synthesize firstFont;
-@property(nonatomic, readonly) _Bool firstFontIsFallback;
 @property(nonatomic, readonly) _Bool multipleFontsInSelectedRange; // @synthesize multipleFontsInSelectedRange;
 
 @end

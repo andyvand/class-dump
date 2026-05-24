@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference;
+@class NSData, NSString;
 
 @protocol _SFPBRFPreview
+- (NSData *)_privateFileURL;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *command_reference;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text;
 @end
 

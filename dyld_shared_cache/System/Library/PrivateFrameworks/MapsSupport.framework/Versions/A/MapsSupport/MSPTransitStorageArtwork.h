@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPTransitStorageIcon, MSPTransitStorageShield, NSString, PBUnknownFields;
-@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageArtwork
 {
     PBUnknownFields *_unknownFields;
-    NSString *_accessibilityText;
-    int _artworkSourceType;
-    int _artworkUseType;
-    MSPTransitStorageIcon *_icon;
-    MSPTransitStorageShield *_iconFallbackShield;
-    MSPTransitStorageShield *_shield;
-    _Bool _hasRoutingIncidentBadge;
-    struct {
-        unsigned int artworkSourceType:1;
-        unsigned int artworkUseType:1;
-        unsigned int hasRoutingIncidentBadge:1;
-    } _has;
 }
 
+- (void)l;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (_Bool)T;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)_representationClassForMIMEType:(id)arg1 allowingPlugins: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)x-%{public}s] Server is namespaced:%{sensitive,mask.mailbox}s (%s) /* Error: Ran out of types for this method. */;
+- (id)ring 'cleanUp'.;
+- (void)sitive,mask.mailbox}s] UID %u has downloaded parts (%ld of %ld):(id)arg1 {%s}, missing parts:{%s}, downloaded attachments:{%s}, missing attachments:{%s} /* Error: Ran out of types for this method. */;
+- (void)ishing routing %u message(s). Routed %u message(s).;
+- (id)"MFLibraryMessage"8Q16^B24;
+- (id)onouslyUpdate %lu files;
+- (id)[BackingStoreUpdate] synchronouslyUpdate %lu files;
+- (_Bool)se -gatewayForStore:options:instead /* Error: Ran out of types for this method. */;
+- (_Bool)o main bundle;
+- (_Bool)$@%2$@;
 - (int);
 - (int);
 - (id);
@@ -60,8 +47,8 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -70,32 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(nonatomic) int artworkSourceType; // @synthesize artworkSourceType=_artworkSourceType;
-@property(nonatomic) int artworkUseType; // @synthesize artworkUseType=_artworkUseType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccessibilityText;
-@property(nonatomic) _Bool hasArtworkSourceType;
-@property(nonatomic) _Bool hasArtworkUseType;
-@property(nonatomic) _Bool hasHasRoutingIncidentBadge;
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasIconFallbackShield;
-@property(nonatomic) _Bool hasRoutingIncidentBadge; // @synthesize hasRoutingIncidentBadge=_hasRoutingIncidentBadge;
-@property(readonly, nonatomic) _Bool hasShield;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MSPTransitStorageIcon *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(retain, nonatomic) MSPTransitStorageShield *iconFallbackShield; // @synthesize iconFallbackShield=_iconFallbackShield;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(retain, nonatomic) MSPTransitStorageShield *shield; // @synthesize shield=_shield;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) int artworkSourceType;
 
 @end
 

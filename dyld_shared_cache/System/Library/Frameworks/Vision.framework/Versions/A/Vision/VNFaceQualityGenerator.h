@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (basic_string_view_1993c9b6);
 + (id);
-+ (unsigned int);
++ (unsigned int)L"16@"NSString"24q32@?<v@?@"NSError">40;
 + (unsigned long long);
 + (id);
 + (Class);
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)FaceAnalyzerMultiDetectorProcessingOptionFaceprintOriginatingRequestSpecifier;
+- (void)VNFaceAnalyzerMultiDetectorProcessingOptionFaceprintOriginatingRequestSpecifier;
 
 @end
 

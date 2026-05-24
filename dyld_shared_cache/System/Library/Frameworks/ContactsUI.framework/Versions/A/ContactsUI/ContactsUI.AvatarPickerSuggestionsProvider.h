@@ -7,10 +7,6 @@
 @interface ContactsUI.AvatarPickerSuggestionsProvider
 {
     id defaultPhotos;
-    id monogramText;
-    id recentlySelectedPickerItems;
-    id maxNumberRecentlySelected;
-    id randomMonogramColor;
 }
 
 @end

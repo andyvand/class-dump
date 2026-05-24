@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSDate;
 
 @interface PKInstallmentPlanSummary
 {
     NSDate *_startDate;
-    NSDate *_originalEndDate;
-    NSDate *_currentEndDate;
-    NSDecimalNumber *_currentBalance;
-    NSString *_currencyCode;
-    NSDecimalNumber *_minimumDue;
-    NSDate *_minimumDueDate;
-    NSDecimalNumber *_interestCharged;
-    NSDecimalNumber *_paymentsToDateAmount;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -31,32 +23,24 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setAssociatedTime:(id)arg1;
+- (void)registrationError;
 - (id);
 - (id);
-- (id)asscodeWithCompletion: /* Error: Ran out of types for this method. */;
-- (id)ctions;
+- (id)startRequiringUpgradedPasscodeWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)_valueAddedServiceTransactions;
 - (void)mentRemoveAssociatedAccountResponse:(id)arg1 expected dictionary and received %{public}@;
-- (void)HandoffViewOpenAssertion;
+- (void)hasIssuerInstallmentsHandoffViewOpenAssertion;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;
-@property(retain, nonatomic) NSDate *currentEndDate; // @synthesize currentEndDate=_currentEndDate;
-@property(retain, nonatomic) NSDecimalNumber *interestCharged; // @synthesize interestCharged=_interestCharged;
-@property(retain, nonatomic) NSDecimalNumber *minimumDue; // @synthesize minimumDue=_minimumDue;
-@property(retain, nonatomic) NSDate *minimumDueDate; // @synthesize minimumDueDate=_minimumDueDate;
-@property(retain, nonatomic) NSDate *originalEndDate; // @synthesize originalEndDate=_originalEndDate;
-@property(retain, nonatomic) NSDecimalNumber *paymentsToDateAmount; // @synthesize paymentsToDateAmount=_paymentsToDateAmount;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

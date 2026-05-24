@@ -5,6 +5,10 @@
 //
 
 @protocol CKSQLiteTableEnumeratorSetup
+- (void)ids.;
+- (void)!;
+- (void)sharedByCurrentUser;
+- (_Bool)sonaWithError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool distinct;

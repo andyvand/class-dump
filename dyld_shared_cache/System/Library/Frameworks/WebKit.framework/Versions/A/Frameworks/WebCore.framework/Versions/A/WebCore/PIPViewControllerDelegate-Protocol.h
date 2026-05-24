@@ -5,5 +5,11 @@
 //
 
 @protocol PIPViewControllerDelegate
+
+@optional
+- (void)#;
+- (void);
+- (void);
+- (void);
 @end
 

@@ -9,34 +9,32 @@
 @interface MNTraceLoader
 {
     MNTrace *_trace;
-    long long _options;
-    _Bool _latestSchema;
 }
 
+- (id)SingleIDDragContainerDataProviderInput;
 - (id);
-- (id);
+- (_Bool)CollectionIDsDragContainerDataProviderInput;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)4;
+- (_Bool)4;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)NavigationSplitTabView;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ent;
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)e;
 - (_Bool);
 - (void)!lGùQÐ1Â0@ù
 × ;

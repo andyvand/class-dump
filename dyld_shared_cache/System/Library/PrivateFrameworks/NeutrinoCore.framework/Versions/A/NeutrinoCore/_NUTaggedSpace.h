@@ -9,7 +9,6 @@
 @interface _NUTaggedSpace
 {
     NSMutableArray *_tagNodes;
-    NUSpace *_space;
 }
 
 - (id);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (unsigned long long);
 - (_Bool);

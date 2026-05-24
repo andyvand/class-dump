@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSPaymentSheetPriceSectionItem
 {
     NSString *_label;
-    NSString *_price;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSString *label; // @synthesize label=_label;
-@property(copy) NSString *price; // @synthesize price=_price;
 
 @end
 

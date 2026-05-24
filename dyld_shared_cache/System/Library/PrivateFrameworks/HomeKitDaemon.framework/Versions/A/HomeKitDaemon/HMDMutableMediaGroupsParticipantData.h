@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDMediaGroupsParticipantData.h>
 
-@class HMMediaDestination, HMMediaDestinationControllerData, NSArray;
+@class HMMediaDestination;
 
 __attribute__((visibility("hidden")))
 @interface HMDMutableMediaGroupsParticipantData : HMDMediaGroupsParticipantData
@@ -16,9 +16,7 @@ __attribute__((visibility("hidden")))
 - (id)ectedPrimary:(struct _NSZone *)arg1 previousPrimary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *backedUpGroups; // @dynamic backedUpGroups;
 @property(copy) HMMediaDestination *destination; // @dynamic destination;
-@property(copy) HMMediaDestinationControllerData *destinationControllerData; // @dynamic destinationControllerData;
 
 @end
 

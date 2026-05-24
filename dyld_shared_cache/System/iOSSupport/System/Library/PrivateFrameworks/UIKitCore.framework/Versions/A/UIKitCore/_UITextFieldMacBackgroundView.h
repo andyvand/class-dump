@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)receiveHighlightEvent:fromSender:guidString:date: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);

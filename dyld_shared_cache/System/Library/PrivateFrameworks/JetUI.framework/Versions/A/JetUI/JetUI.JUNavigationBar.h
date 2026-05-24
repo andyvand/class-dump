@@ -7,17 +7,12 @@
 @interface JetUI.JUNavigationBar
 {
     id stack;
-    id topItemView;
-    id cachedFittingSize;
-    id backTarget;
-    id backAction;
-    id standardAppearance;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)_timeZoneLocalizedString;
 - (struct CGSize);
 - (_Bool);
 - (struct CGSize);
@@ -28,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize fittingSize;
 @property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool mouseDownCanMoveWindow;
 
 @end
 

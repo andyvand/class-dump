@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (int);
 - (void);
-- (int);
+- (int)kConditionalConnectionRequirementTimeWindowDuration;
 - (struct NSEdgeInsets)íÿI4E;
 
 // Remaining properties

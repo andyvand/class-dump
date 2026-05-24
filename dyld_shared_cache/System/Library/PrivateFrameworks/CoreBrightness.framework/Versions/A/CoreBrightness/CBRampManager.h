@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol CBClockSource, OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CBRampManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_source> *_clockTimer;
-    NSMutableDictionary *_ramps;
-    NSMutableDictionary *_eternalRamps;
-    _Bool _activated;
-    float _requiredFrequency;
-    double _sMachTimebaseFactor;
-    id <CBClockSource> _frameLink;
-    _Bool _enableFrameSynchronisation;
-    _Bool _liveUpdates;
-    CDUnknownBlockType _clockHandler;
-    CDUnknownBlockType _rampDoneCallback;
 }
 
 - (void);
-- (void);
+- (void)҆;
 - (void);
 - (void);
 - (void);
@@ -40,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -57,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)!;
 - (float);
 - (void);
 - (id);
@@ -68,16 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType clockHandler; // @synthesize clockHandler=_clockHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableFrameSynchronisation; // @synthesize enableFrameSynchronisation=_enableFrameSynchronisation;
-@property(readonly) unsigned long long hash;
-@property _Bool liveUpdates; // @synthesize liveUpdates=_liveUpdates;
-@property(copy) CDUnknownBlockType rampDoneCallback; // @synthesize rampDoneCallback=_rampDoneCallback;
-@property(readonly) Class superclass;
 
 @end
 

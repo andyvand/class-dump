@@ -9,7 +9,8 @@
 @protocol UIViewControllerTransitioningDelegate
 
 @optional
-- (id <UIViewControllerInteractiveTransitioning>)PreserveInputViews;
+- (id <UIViewControllerAnimatedTransitioning>)r;
+- (id <UIViewControllerInteractiveTransitioning>)_shouldPreserveInputViews;
 - (id <UIViewControllerAnimatedTransitioning>)IMenuLeafAlternate"8;
 @end
 

@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)generated_summary;
 - (void);
 
 @end

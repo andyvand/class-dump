@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString;
+@class CNContactStore;
 
 @interface CNAutocompleteLocalSearch
 {
     CNContactStore *_contactStore;
-    CNContactStore *_contactFetcherStore;
 }
 
 + (_Bool);
@@ -23,18 +22,10 @@
 - (void);
 - (void)_ Ð!ðBùÑí#Ð1Â0@ù
 × ;
-- (id)r:membersProvider: /* Error: Ran out of types for this method. */;
+- (id)duetGroupResultWithDisplayName:groupIdentifier:membersProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactFetcherStore; // @synthesize contactFetcherStore=_contactFetcherStore;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

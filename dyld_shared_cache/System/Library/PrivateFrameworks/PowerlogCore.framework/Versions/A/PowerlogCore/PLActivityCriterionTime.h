@@ -6,17 +6,14 @@
 
 #import <PowerlogCore/PLActivityCriterion.h>
 
-@class PLMonotonicTimer;
-
 @interface PLActivityCriterionTime : PLActivityCriterion
 {
     double _interval;
-    double _rescheduleDelay;
-    PLMonotonicTimer *_timer;
 }
 
 + (double);
-+ (id);
++ (id),G/*J
+;
 - (void);
 - (void);
 - (void);
@@ -24,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_handleReAddFailure:(id)arg1 tempServiceName:service:appleID:isExistingItemValid:clientID:reAddStatus: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -34,8 +31,6 @@
 
 // Remaining properties
 @property double interval; // @synthesize interval=_interval;
-@property(nonatomic) double rescheduleDelay; // @synthesize rescheduleDelay=_rescheduleDelay;
-@property(retain) PLMonotonicTimer *timer; // @synthesize timer=_timer;
 
 @end
 

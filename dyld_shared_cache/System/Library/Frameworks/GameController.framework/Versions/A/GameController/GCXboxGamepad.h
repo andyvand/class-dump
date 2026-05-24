@@ -11,13 +11,9 @@
 @interface GCXboxGamepad : GCExtendedGamepad
 {
     GCControllerButtonInput *_paddleButton1;
-    GCControllerButtonInput *_paddleButton2;
-    GCControllerButtonInput *_paddleButton3;
-    GCControllerButtonInput *_paddleButton4;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -25,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (long long);
 - (void);
@@ -33,11 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCControllerButtonInput *buttonShare;
-@property(readonly, nonatomic) GCControllerButtonInput *paddleButton1; // @synthesize paddleButton1=_paddleButton1;
-@property(readonly, nonatomic) GCControllerButtonInput *paddleButton2; // @synthesize paddleButton2=_paddleButton2;
-@property(readonly, nonatomic) GCControllerButtonInput *paddleButton3; // @synthesize paddleButton3=_paddleButton3;
-@property(readonly, nonatomic) GCControllerButtonInput *paddleButton4; // @synthesize paddleButton4=_paddleButton4;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

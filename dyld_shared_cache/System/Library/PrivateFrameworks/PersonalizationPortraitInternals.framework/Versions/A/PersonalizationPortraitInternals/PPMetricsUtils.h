@@ -9,13 +9,13 @@
 }
 
 + (id);
++ (int);
 + (int);
 + (int);
-+ (int);
++ (id)itled:(id)arg1 %d;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)NSUbiquitousKeyValueStore was nil.;
 + (int);
 + (int);
 + (id);

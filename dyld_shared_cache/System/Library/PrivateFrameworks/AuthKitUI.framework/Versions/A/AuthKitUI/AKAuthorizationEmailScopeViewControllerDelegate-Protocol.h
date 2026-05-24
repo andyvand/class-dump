@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationEmailScopeViewControllerDelegate
+- (void)@;
 @end
 

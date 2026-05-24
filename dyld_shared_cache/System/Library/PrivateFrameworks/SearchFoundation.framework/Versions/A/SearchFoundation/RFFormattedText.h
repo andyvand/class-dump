@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, RFColor, RFEngageable, RFFont, RFImageElement, RFOptionalBool, RFTextEncapsulation;
+@class NSString;
 
 @interface RFFormattedText
 {
@@ -14,30 +14,15 @@
         unsigned int weight:1;
         unsigned int design:1;
     } _has;
-    int _weight;
-    int _design;
-    NSString *_text;
-    RFImageElement *_inline_image_element;
-    RFColor *_color;
-    RFOptionalBool *_is_italic;
-    RFOptionalBool *_is_bold;
-    RFTextEncapsulation *_text_encapsulation;
-    RFOptionalBool *_is_highlighted;
-    RFColor *_background_color;
-    NSArray *_attributions;
-    NSArray *_highlighted_substrings;
-    RFFont *_font;
-    RFOptionalBool *_is_underlined;
-    RFEngageable *_engageable;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,17 +37,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)isEqualToData:(id)arg1;
+- (void);
 - (unsigned long long);
+- (id)SQ;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)shouldPerformServerCopyOnPlaceholderAsset:(id)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)maskForAssetsEligibleForCloudKitTransport;
+- (id)dAttributes.failureScore;
 - (id);
 - (int);
 - (id);
@@ -72,35 +57,12 @@
 - (void);
 - (void);
 - (_Bool)@"_SFPBText"16;
-- (id)ging: /* Error: Ran out of types for this method. */;
+- (id)setIs_safe_for_logging: /* Error: Ran out of types for this method. */;
 - (void)data;
 - (int);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributions; // @synthesize attributions=_attributions;
-@property(retain, nonatomic) RFColor *background_color; // @synthesize background_color=_background_color;
-@property(retain, nonatomic) RFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int design; // @synthesize design=_design;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) RFEngageable *engageable; // @synthesize engageable=_engageable;
-@property(retain, nonatomic) RFFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *highlighted_substrings; // @synthesize highlighted_substrings=_highlighted_substrings;
-@property(retain, nonatomic) RFImageElement *inline_image_element; // @synthesize inline_image_element=_inline_image_element;
-@property(retain, nonatomic) RFOptionalBool *is_bold; // @synthesize is_bold=_is_bold;
-@property(retain, nonatomic) RFOptionalBool *is_highlighted; // @synthesize is_highlighted=_is_highlighted;
-@property(retain, nonatomic) RFOptionalBool *is_italic; // @synthesize is_italic=_is_italic;
-@property(retain, nonatomic) RFOptionalBool *is_underlined; // @synthesize is_underlined=_is_underlined;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) RFTextEncapsulation *text_encapsulation; // @synthesize text_encapsulation=_text_encapsulation;
-@property(nonatomic) int weight; // @synthesize weight=_weight;
 
 @end
 

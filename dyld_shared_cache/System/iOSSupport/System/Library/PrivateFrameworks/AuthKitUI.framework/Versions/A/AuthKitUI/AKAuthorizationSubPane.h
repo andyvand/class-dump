@@ -9,8 +9,6 @@
 @interface AKAuthorizationSubPane
 {
     UIViewController *_viewController;
-    UIView *_internalView;
-    double _internalCustomSpacingAfter;
 }
 
 - (void);
@@ -27,11 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double customSpacingAfter;
-@property(nonatomic) double internalCustomSpacingAfter; // @synthesize internalCustomSpacingAfter=_internalCustomSpacingAfter;
 @property(readonly, nonatomic) UIView *internalView; // @synthesize internalView=_internalView;
-@property(readonly, nonatomic) UIView *view;
-@property(readonly, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

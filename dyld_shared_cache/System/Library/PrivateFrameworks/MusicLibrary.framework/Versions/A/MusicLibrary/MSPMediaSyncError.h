@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MSPMediaSyncError
 {
     int _errorCode;
-    NSString *_errorDescription;
-    struct {
-        unsigned int errorCode:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)instantaneity;
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)S8_EEEEEENS9_ISC_EEEE;
+- (unsigned long long);
+- (_Bool)sendMessage:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)tionary",C,N;
 - (id);
 - (id);
 - (id)N CONFLICT(item_pid) DO UPDATE SET title = excluded.title, location = excluded.location, has_explicit_content = excluded.has_explicit_content; END;;
@@ -34,9 +28,6 @@
 - (int)¬;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(nonatomic) _Bool hasErrorCode;
 @property(readonly, nonatomic) _Bool hasErrorDescription;
 
 @end

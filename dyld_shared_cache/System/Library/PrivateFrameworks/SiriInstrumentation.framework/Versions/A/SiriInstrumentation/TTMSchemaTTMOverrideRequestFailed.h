@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface TTMSchemaTTMOverrideRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    NSArray *_tcuFailures;
-    CDStruct_6555f803 _has;
 }
 
 - (unsigned long long);
@@ -23,27 +19,24 @@
 - (void);
 - (void);
 - (id);
-- (int);
-- (_Bool);
+- (int)initWithPrimarySign:secondarySign:stepIndex:primaryDistance:secondaryDistance:timeUntilPrimarySign:timeUntilSecondarySign: /* Error: Ran out of types for this method. */;
+- (_Bool)h_;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)denNamesByUID;
+- (_Bool)io_message, is_played, date_played, item_type, other_handle, group_title, group_action_type, share_status, share_direction, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID = ? ORDER BY message.ROWID ASC;;
 - (void);
 - (id);
 - (id);
-- (id)ngth;
-- (id)MatchWithRelationName;
-- (void)pearContext;
-- (void)M;
+- (id)deletePromptLength;
+- (id)_isMatchWithRelationName;
+- (void)hostPlatformViewDisappearContext;
+- (void)ORCHSHIMACTION_CREATE_ALARM;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSArray *tcuFailures; // @synthesize tcuFailures=_tcuFailures;
 
 @end
 

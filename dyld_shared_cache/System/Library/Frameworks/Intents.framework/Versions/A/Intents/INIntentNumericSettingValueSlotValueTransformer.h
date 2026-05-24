@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)&.B`B;
 + (Class);
 + (Class);
-+ (long long)ayloadGeographicalFeatures: /* Error: Ran out of types for this method. */;
++ (long long)setPayloadGeographicalFeatures: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)mTypeName;
 

@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAPreprocessorExecutionMetrics;
+@class PFAPreprocessorExecutionMetrics;
 
 @interface PFAPreprocessorExecutionFailed : SISchemaInstrumentationMessage
 {
     PFAPreprocessorExecutionMetrics *_preprocessorExecutionMetrics;
-    int _failedAtStep;
-    struct {
-        unsigned int failedAtStep:1;
-    } _has;
-    _Bool _hasPreprocessorExecutionMetrics;
 }
 
 - (void);
+- (void)(=;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (void);
@@ -29,23 +24,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)e have a record for it in the DB.;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)lExecuted;
+- (id)_hasModelExecuted;
 - (id)ortcutId;
-- (void)s;
+- (void)numEntitiesContainingExtractions;
 
 // Remaining properties
-@property(nonatomic) int failedAtStep; // @synthesize failedAtStep=_failedAtStep;
-@property(nonatomic) _Bool hasFailedAtStep;
-@property(nonatomic) _Bool hasPreprocessorExecutionMetrics; // @synthesize hasPreprocessorExecutionMetrics=_hasPreprocessorExecutionMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PFAPreprocessorExecutionMetrics *preprocessorExecutionMetrics; // @synthesize preprocessorExecutionMetrics=_preprocessorExecutionMetrics;
 
 @end

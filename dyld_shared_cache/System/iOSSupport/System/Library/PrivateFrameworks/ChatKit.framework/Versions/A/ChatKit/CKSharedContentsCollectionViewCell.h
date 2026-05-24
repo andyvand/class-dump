@@ -6,22 +6,17 @@
 
 #import <ChatKit/CKSharedAssetCollectionViewCell.h>
 
-@class NSString, UIImage, UIImageView, UITapGestureRecognizer;
-@protocol CKSharedContentsCollectionViewCellDelegate;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface CKSharedContentsCollectionViewCell : CKSharedAssetCollectionViewCell
 {
     _Bool _editing;
-    UIImage *_previewImage;
-    UIImageView *_checkmarkView;
-    id <CKSharedContentsCollectionViewCellDelegate> _delegate;
-    UITapGestureRecognizer *_tapGestureRecognizer;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)inlineAttachmentInTextView:atIndex:outAttachment: /* Error: Ran out of types for this method. */;
+- (void)ICPreviewLayoutManager;
 - (void);
 - (void);
 - (void);
@@ -33,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)InsetsReference: /* Error: Ran out of types for this method. */;
+- (void)=;
+- (void)@;
+- (id)V_truncatedAddressFormat;
+- (id)setContentInsetsReference: /* Error: Ran out of types for this method. */;
 - (_Bool)ðóêÿ°ôêÿìôêÿõêÿ;
 - (void);
 - (_Bool)Ä;
@@ -44,17 +39,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *checkmarkView; // @synthesize checkmarkView=_checkmarkView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSharedContentsCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *previewImage; // @synthesize previewImage=_previewImage;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end

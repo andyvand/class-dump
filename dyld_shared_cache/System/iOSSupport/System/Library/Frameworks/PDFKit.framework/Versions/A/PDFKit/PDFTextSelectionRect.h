@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFTextSelectionRect
 {
     PDFPage *_page;
-    struct CGRect _rect;
-    _Bool _isStartingRect;
-    _Bool _isEndingRect;
 }
 
 - (void);

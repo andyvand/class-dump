@@ -5,5 +5,8 @@
 //
 
 @protocol BannerContainerViewDelegate
+
+@optional
+- (void);
 @end
 

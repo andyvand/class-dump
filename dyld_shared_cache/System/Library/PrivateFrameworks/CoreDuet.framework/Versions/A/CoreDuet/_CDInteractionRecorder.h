@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, _CDInteractionPolicies;
+@class NSXPCConnection;
 
 @interface _CDInteractionRecorder
 {
     NSXPCConnection *_connection;
-    _CDInteractionPolicies *_policies;
-    _Bool _enforceDataLimits;
-    _Bool _enforcePrivacy;
 }
 
 - (void);
@@ -22,30 +19,30 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)2;
 - (void);
+- (void),;
+- (void)H;
+- (void)0;
+- (void)"*;
+- (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)�`;
+- (unsigned long long);
 - (unsigned long long);
 - (void);
+- (unsigned long long);
+- (void)�;
 - (void);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)oducerIDBegin failed with error 0x%016llX;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -53,13 +50,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)performSelector:(id)arg1 withObject:(id)arg2;
 - (void)·/°!Ð@ùª3°1Â0@ù
 × ;
 
 // Remaining properties
 @property _Bool enforceDataLimits; // @synthesize enforceDataLimits=_enforceDataLimits;
-@property _Bool enforcePrivacy; // @synthesize enforcePrivacy=_enforcePrivacy;
 
 @end
 

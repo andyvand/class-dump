@@ -9,30 +9,26 @@
 @interface NTPBWrappingKeyMapEntry
 {
     NSData *_wrappingKey;
-    NSData *_wrappingKeyId;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (id)invitationRecords;
+- (void)initWithViewModel:(id)arg1 legacyDevicesFallbackMonitor: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchPersonsInAssets:options: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchPersonsInAsset:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)LongTermID;
+- (_Bool)to:(id)arg1 %@;
 - (id);
 - (id);
 - (void)imestamp"b1"localNoticationNumberReceived"b1"localNotificationDirectOpenNumber"b1"localNotificationType"b1"localNotificationDirectOpen"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasWrappingKey;
 @property(readonly, nonatomic) _Bool hasWrappingKeyId;
-@property(retain, nonatomic) NSData *wrappingKey; // @synthesize wrappingKey=_wrappingKey;
-@property(retain, nonatomic) NSData *wrappingKeyId; // @synthesize wrappingKeyId=_wrappingKeyId;
 
 @end
 

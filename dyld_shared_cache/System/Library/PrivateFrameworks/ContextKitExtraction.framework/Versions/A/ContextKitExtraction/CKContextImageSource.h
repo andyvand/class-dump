@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSData;
+@class IOSurface;
 
 @interface CKContextImageSource
 {
     unsigned int _orientation;
-    IOSurface *_ioSurface;
-    NSData *_cameraIntrinsics;
-    long long _profile;
 }
 
-+ (id);
++ (id)user_rating, liked_state, album_year, (CASE WHEN season_number > 0 THEN season_number ELSE IFNULL(sort_album, album) END), contains_classical_work, user_rating_is_derived, sync_id, classical_experience_available, store_id, liked_state_changed_date, cloud_library_id, editorial_notes FROM album ;
 + (_Bool);
-- (id);
+- (id)al_experience_available, liked_state, liked_state_changed_date, sort_order, sort_order_section FROM album_artist ;
 - (void);
 - (void);
 - (id);
@@ -28,15 +25,12 @@
 - (void);
 - (unsigned int);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cameraIntrinsics; // @synthesize cameraIntrinsics=_cameraIntrinsics;
 @property(retain, nonatomic) IOSurface *ioSurface; // @synthesize ioSurface=_ioSurface;
-@property(nonatomic) unsigned int orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) long long profile; // @synthesize profile=_profile;
 
 @end
 

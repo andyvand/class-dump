@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOFeatureStyleAttributes
 {
     struct shared_ptr<FeatureStyleAttributes> _attributes;
@@ -13,30 +11,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) int bikeLaneSide;
-@property(readonly, nonatomic) int bikeableSide;
-@property(readonly, nonatomic) unsigned char countAttrs;
-@property(readonly, nonatomic) unsigned char countExtAttrs;
-@property(readonly, nonatomic) int drivingSide;
-@property(readonly, nonatomic) struct GeoCodecsFeatureStylePairExt *extAttrs;
-@property(readonly, nonatomic) BOOL featureType;
-@property(readonly, nonatomic) _Bool hasDrivingSide;
-@property(readonly, nonatomic) _Bool isBorder;
-@property(readonly, nonatomic) _Bool isBridge;
-@property(readonly, nonatomic) _Bool isDrivable;
-@property(readonly, nonatomic) _Bool isFreeway;
-@property(readonly, nonatomic) _Bool isRailway;
-@property(readonly, nonatomic) _Bool isRamp;
-@property(readonly, nonatomic) _Bool isRoadPedestrianNavigable;
-@property(readonly, nonatomic) _Bool isTunnel;
-@property(readonly, nonatomic) _Bool isWalkable;
-@property(readonly, nonatomic) unsigned int lineType;
-@property(readonly, nonatomic) NSString *poiCategory;
-@property(readonly, nonatomic) unsigned char rampDirection;
-@property(readonly, nonatomic) int rampType;
-@property(readonly, nonatomic) _Bool shouldSuppress3DBuildingStrokes;
-@property(readonly, nonatomic) int sidewalkSide;
 @property(readonly, nonatomic) const struct GeoCodecsFeatureStylePair *v;
-@property(readonly, nonatomic) int walkableSide;
 @end
 

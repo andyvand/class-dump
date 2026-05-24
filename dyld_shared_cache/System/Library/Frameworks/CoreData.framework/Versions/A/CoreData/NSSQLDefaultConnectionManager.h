@@ -6,17 +6,12 @@
 
 #import <CoreData/NSSQLConnectionManager.h>
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLDefaultConnectionManager : NSSQLConnectionManager
 {
     NSMutableArray *_availableConnections;
-    NSArray *_allConnections;
-    NSObject<OS_dispatch_semaphore> *_poolCounter;
-    struct os_unfair_lock_s _connectionLock;
-    NSObject<OS_dispatch_queue> *_processingQueue;
 }
 
 - (void);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool):(id)arg1 TriggerMigration %@%@;
 
 @end
 

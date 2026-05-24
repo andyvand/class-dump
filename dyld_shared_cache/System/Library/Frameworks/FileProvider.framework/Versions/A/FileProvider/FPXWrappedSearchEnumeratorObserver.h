@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSFileProviderSearchEnumerationObserver;
 
 __attribute__((visibility("hidden")))
 @interface FPXWrappedSearchEnumeratorObserver
 {
     id <NSFileProviderSearchEnumerationObserver> _target;
-    NSString *_providerIdentifier;
-    NSString *_domainIdentifier;
-    long long _maximumNumberOfResultsPerPage;
 }
 
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)aM;
 - (void);
 - (void);
 - (void)!>&!¬Eù±ç)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long maximumNumberOfResultsPerPage; // @synthesize maximumNumberOfResultsPerPage=_maximumNumberOfResultsPerPage;
-@property(readonly) Class superclass;
 
 @end
 

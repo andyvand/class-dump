@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLInputElement
 {
     struct __IOSurface *_valueRef;
-    NSString *_name;
 }
 
 - (struct __IOSurface *);
@@ -20,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void)d cache file path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) struct __IOSurface *valueRef; // @synthesize valueRef=_valueRef;
 
 @end

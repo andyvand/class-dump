@@ -7,9 +7,6 @@
 @interface AccessibilitySharedSupport.AccessibilityActionManager
 {
     id $defaultActor;
-    id client;
-    id sender;
-    id receiver;
 }
 
 @end

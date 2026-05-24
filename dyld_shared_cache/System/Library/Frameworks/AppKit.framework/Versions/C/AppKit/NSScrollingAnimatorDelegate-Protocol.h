@@ -5,17 +5,17 @@
 //
 
 @protocol NSScrollingAnimatorDelegate
-- (struct CGPoint)ID:didFinishWritingForURL: /* Error: Ran out of types for this method. */;
+- (double)led with error 0x%016llX;
+- (_Bool)/m0BvlO58A;
+- (_Bool)DcQNvnO5Uhpc1jjGIrzyng;
+- (struct CGSize)C;
+- (struct CGPoint)_writerWithID:didFinishWritingForURL: /* Error: Ran out of types for this method. */;
+
+@optional
+- (struct CGRect);
+- (void)TLSMaximumSupportedProtocol;
 
 // Remaining properties
-@property(readonly) struct CGAffineTransform affineTransformOfContent;
-@property(readonly) struct CGSize clippingSize;
-@property(readonly, getter=isContentOriginUpperLeft) _Bool contentOriginUpperLeft;
-@property(readonly, getter=isCursorWithinContent) _Bool cursorWithinContent;
-@property(readonly) double horizontalLineScroll;
-@property(readonly) double pointsPerPixel;
 @property(readonly) struct CGPoint scrollOffset;
-@property(readonly) struct CGRect scrollableFrame;
-@property(readonly) double verticalLineScroll;
 @end
 

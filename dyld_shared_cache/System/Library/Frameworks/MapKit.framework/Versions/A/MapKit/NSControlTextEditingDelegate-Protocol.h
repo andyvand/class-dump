@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
-- (void)Ls;
-- (_Bool)verageCoordinate;
+- (void)FetchRequest",R,C,N,V_request;
+- (NSArray *)e;
+- (_Bool);
+- (_Bool)enceContext",R,V_persistenceContext;
+- (void)tenceContext",&,N,V_persistenceContext;
+- (_Bool)yStore",R,V_changeHistoryStore;
+- (void)addReviewURLs;
+- (_Bool)_averageCoordinate;
 @end
 

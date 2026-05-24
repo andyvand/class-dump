@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGIncompleteLocationResolver;
+@class NSArray;
 
 @interface PGLocationsFilterer
 {
     NSArray *_sortedMomentNodes;
-    NSArray *_locationNodes;
-    PGIncompleteLocationResolver *_incompleteLocationResolver;
-    NSArray *_filteredLocationNodes;
-    unsigned long long _filteringType;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)isSystemUIServer;
+- (id)_scrollToElement:(id)arg1 inPage:(id)arg2 ofWindow:(id)arg3 inDirection: /* Error: Ran out of types for this method. */;
+- (id)AXKKeyboardFocusTracker;
+- (unsigned long long)LibCall_ACMContextCopyData;
+- (id)LibCall_ACMGetEnvironmentVariable;
 - (id);
 - (void)rs/PGMemoryTriggerUpcomingBirthday.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *filteredLocationNodes; // @synthesize filteredLocationNodes=_filteredLocationNodes;
-@property(nonatomic) unsigned long long filteringType; // @synthesize filteringType=_filteringType;
-@property(readonly) PGIncompleteLocationResolver *incompleteLocationResolver; // @synthesize incompleteLocationResolver=_incompleteLocationResolver;
-@property(readonly) NSArray *locationNodes; // @synthesize locationNodes=_locationNodes;
 @property(readonly) NSArray *sortedMomentNodes; // @synthesize sortedMomentNodes=_sortedMomentNodes;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVEditBehaviorContext, AVMusicAppBehaviorContext, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface UnknownClass (AVKitAdditionsPrivate)
 - (_Bool);
@@ -15,7 +15,7 @@
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,11 +37,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *avkitACMIdentifier;
-@property(readonly, nonatomic) __weak AVEditBehaviorContext *avkit_currentEditBehaviorContext;
-@property(readonly, nonatomic) __weak AVMusicAppBehaviorContext *avkit_musicAppBehaviorContext;
-@property(retain, nonatomic) NSAttributedString *contentSubtitle; // @dynamic contentSubtitle;
 @property(retain, nonatomic) NSAttributedString *contentTitle; // @dynamic contentTitle;
-@property(readonly, nonatomic) _Bool isAVKitIntegratedTimelineDisabled;
 @end
 

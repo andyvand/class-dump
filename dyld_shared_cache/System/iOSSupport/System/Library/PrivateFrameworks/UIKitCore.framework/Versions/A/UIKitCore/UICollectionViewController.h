@@ -6,36 +6,15 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIAutoRespondingScrollViewControllerKeyboardSupport, UICollectionView, UICollectionViewLayout, UILongPressGestureRecognizer, UIScrollView;
-@protocol _UIKeyboardAutoRespondingScrollView;
+@class UICollectionView, UICollectionViewLayout;
 
 @interface UICollectionViewController : UIViewController
 {
     UICollectionViewLayout *_layout;
-    UICollectionView *_collectionView;
-    UILongPressGestureRecognizer *_reorderingGesture;
-    UIAutoRespondingScrollViewControllerKeyboardSupport *_keyboardSupport;
-    struct {
-        unsigned int clearsSelectionOnViewWillAppear:1;
-        unsigned int useLayoutToLayoutNavigationTransitions:1;
-        unsigned int installsStandardReorderingGesture:1;
-    } _collectionViewControllerFlags;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool clearsSelectionOnViewWillAppear;
 @property(retain, nonatomic) UICollectionView *collectionView;
-@property(readonly, nonatomic) UICollectionViewLayout *collectionViewLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool installsStandardGestureForInteractiveMovement;
-@property(readonly, retain, nonatomic, getter=_scrollView) UIScrollView<_UIKeyboardAutoRespondingScrollView> *scrollView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useLayoutToLayoutNavigationTransitions;
 @end
 

@@ -9,17 +9,12 @@
 @interface AKLabelViewCell
 {
     NSMutableArray *_partItems;
-    long long _selectedParts;
-    long long _hoveredPart;
-    unsigned long long _imagePosition;
-    _Bool _allowsMultipleSelection;
-    long long _focusedPart;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -40,21 +35,21 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ndexes;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (void);
@@ -62,12 +57,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property long long focusedPart; // @dynamic focusedPart;
-@property long long hoveredPart; // @synthesize hoveredPart=_hoveredPart;
-@property unsigned long long imagePosition; // @synthesize imagePosition=_imagePosition;
 @property long long numParts; // @dynamic numParts;
-@property long long selectedParts; // @dynamic selectedParts;
 
 @end
 

@@ -11,10 +11,10 @@
     id _delegate;
 }
 
-- (void);
+- (void)urlMatchesForString:(id)arg1 usingScanner:(id)arg2 withPhoneNumberTypes:referenceDate:timeZone:storingResultsIn: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

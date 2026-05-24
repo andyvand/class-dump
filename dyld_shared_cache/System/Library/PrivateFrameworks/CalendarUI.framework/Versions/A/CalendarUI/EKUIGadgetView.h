@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIGadget, NSTrackingArea, NSView;
+@class NSTrackingArea;
 
 @interface EKUIGadgetView
 {
     _Bool _shouldAbsorbMouseClickEvents;
-    _Bool _shouldAbsorbMouseUpEvents;
-    EKUIGadget *_gadget;
-    NSTrackingArea *_trackingArea;
-    NSView *_cachedPreviousKeyView;
-    NSView *_cachedNextKeyView;
 }
 
 - (_Bool);
@@ -35,20 +30,15 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)iew:(id)arg1;
+- (void)drawImage:(id)arg1 withFrame:inView: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property __weak NSView *cachedNextKeyView; // @synthesize cachedNextKeyView=_cachedNextKeyView;
-@property __weak NSView *cachedPreviousKeyView; // @synthesize cachedPreviousKeyView=_cachedPreviousKeyView;
-@property __weak EKUIGadget *gadget; // @synthesize gadget=_gadget;
-@property _Bool shouldAbsorbMouseClickEvents; // @synthesize shouldAbsorbMouseClickEvents=_shouldAbsorbMouseClickEvents;
-@property _Bool shouldAbsorbMouseUpEvents; // @synthesize shouldAbsorbMouseUpEvents=_shouldAbsorbMouseUpEvents;
 @property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end

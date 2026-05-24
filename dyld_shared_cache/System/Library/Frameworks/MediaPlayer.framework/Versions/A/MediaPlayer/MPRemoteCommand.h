@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommandCenter, NSArray, NSMutableDictionary, NSString;
+@class MPRemoteCommandCenter;
 
 @interface MPRemoteCommand
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_handlers;
-    _Bool _enabled;
-    _Bool _forceDisabled;
-    _Bool _skipSerializedEventDelivery;
-    unsigned int _mediaRemoteCommandType;
-    MPRemoteCommandCenter *_commandCenter;
-    long long _disabledReason;
-    NSArray *_disabledReasons;
-    NSArray *_unsupportedReasons;
-    double _timeout;
 }
 
 - (_Bool);
@@ -48,39 +38,21 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)twork_token SET gradient_text_color=? WHERE artwork_token=?;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ICStoreURLRequestParsedBodyInfoKey;
 - (_Bool);
 - (double);
-- (void)nSource;
+- (void)_memoryPressureNotificationSource;
 - (void)rkArtworkDataSource:(id)arg1 -URLSession:(SEL)arg2 dataTask:didReceiveResponse:completionHandler:canceled data task [expectedEntrySize > diskCapacity] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld diskCapacity=%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak MPRemoteCommandCenter *commandCenter; // @synthesize commandCenter=_commandCenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long disabledReason; // @synthesize disabledReason=_disabledReason;
-@property(copy, nonatomic) NSArray *disabledReasons; // @synthesize disabledReasons=_disabledReasons;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isForceDisabled) _Bool forceDisabled; // @synthesize forceDisabled=_forceDisabled;
-@property(readonly, nonatomic) _Bool hasTargets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int mediaRemoteCommandType; // @synthesize mediaRemoteCommandType=_mediaRemoteCommandType;
-@property(nonatomic) _Bool skipSerializedEventDelivery; // @synthesize skipSerializedEventDelivery=_skipSerializedEventDelivery;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported;
-@property(readonly, nonatomic, getter=isSupportedAndEnabled) _Bool supportedAndEnabled;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(copy, nonatomic) NSArray *unsupportedReasons; // @synthesize unsupportedReasons=_unsupportedReasons;
 
 @end
 

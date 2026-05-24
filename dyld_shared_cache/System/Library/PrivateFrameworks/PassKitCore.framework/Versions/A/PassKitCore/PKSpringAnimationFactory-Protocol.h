@@ -7,16 +7,11 @@
 @class CAMediaTimingFunction;
 
 @protocol PKSpringAnimationFactory
-- (CAMediaTimingFunction *)pplicationMessagesWithKeys:completion: /* Error: Ran out of types for this method. */;
-- (double)tupAssistantRequirementsChecker;
+- (double)framework/Versions/A/HIToolbox;
+- (CAMediaTimingFunction *)removeApplicationMessagesWithKeys:completion: /* Error: Ran out of types for this method. */;
+- (double)SetupAssistantRequirementsChecker;
 
 // Remaining properties
-@property(readonly, nonatomic) double damping;
 @property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) double mass;
-@property(readonly, nonatomic) double speed;
-@property(readonly, nonatomic) double stiffness;
-@property(readonly, nonatomic) CAMediaTimingFunction *timing;
-@property(readonly, nonatomic) double velocity;
 @end
 

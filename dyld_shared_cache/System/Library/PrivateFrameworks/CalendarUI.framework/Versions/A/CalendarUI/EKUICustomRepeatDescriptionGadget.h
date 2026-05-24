@@ -13,14 +13,14 @@
     EKUICustomRepeatDescriptionField *_repeatDescriptionField;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

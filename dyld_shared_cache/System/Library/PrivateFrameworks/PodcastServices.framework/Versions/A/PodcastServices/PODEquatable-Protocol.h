@@ -5,5 +5,6 @@
 //
 
 @protocol PODEquatable
+- (_Bool)T{#;
 @end
 

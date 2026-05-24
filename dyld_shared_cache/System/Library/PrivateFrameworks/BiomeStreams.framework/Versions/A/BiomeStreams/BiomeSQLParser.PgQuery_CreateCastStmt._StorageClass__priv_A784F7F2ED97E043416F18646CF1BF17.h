@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CreateCastStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _sourcetype;
-    id _targettype;
-    id _func;
-    id _context;
-    id _inout;
 }
 
 @end

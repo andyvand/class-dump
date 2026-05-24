@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDLocationInfoItem
 {
     PBUnknownFields *_unknownFields;
-    int _style;
-    struct {
-        unsigned int has_style:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void))i;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)gestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)CachedShiftFunctionResponseForLocation:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_fetchCachedShiftFunctionResponseForLocation:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)¬*;
 - (void);
 

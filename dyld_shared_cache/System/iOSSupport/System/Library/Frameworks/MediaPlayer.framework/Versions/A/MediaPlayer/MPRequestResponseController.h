@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
-@protocol MPRequestCancellationToken, MPRequestResponseControllerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MPRequestResponseController
 {
     long long _numberOfObservers;
-    NSString *_requestID;
-    _Bool _shouldAutomaticallyLoad;
-    _Bool _needsReload;
-    id <MPRequestCancellationToken> _cancelToken;
-    double _retryInterval;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    NSError *_lastError;
-    id _pendingResponse;
-    unsigned long long _stateHandle;
-    id _request;
-    id _response;
-    id <MPRequestResponseControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
 - (void);
@@ -40,20 +26,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (void);
-- (void)eLibraryAdded__MAPPING_MISSING__;
+- (void)__MPModelPropertyTVEpisodeLibraryAdded__MAPPING_MISSING__;
 - (void)"NSData",R,C,N,V_artworkImageData;
 - (id)ion status.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(nonatomic) __weak id <MPRequestResponseControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id request; // @synthesize request=_request;
-@property(retain, nonatomic) id response; // @synthesize response=_response;
 
 @end
 

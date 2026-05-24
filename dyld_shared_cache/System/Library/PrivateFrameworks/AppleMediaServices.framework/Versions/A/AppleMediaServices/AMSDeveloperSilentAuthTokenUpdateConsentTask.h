@@ -6,22 +6,18 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol;
+@class NSString;
 
 @interface AMSDeveloperSilentAuthTokenUpdateConsentTask : AMSTask
 {
     NSString *_bundleId;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_mediaType;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T@"IMUnitTestLogger",R,V_logger;
+- (id)y.;
 - (id);
 - (void)ÙL¡ÙÙ¶kÙpÌÙO¹Ù@èÙ?àÙÙÙ&fÙÙ¼Ùr5ÙÕnÙs=ÙPÙZjÙ-Ù(vÙhÙAðÙþÁÙïðÙÙVJÙ)~ÙìØÙ[ËÙ&ÙBøÙDÙC;
 - (id)¹0SA]ä°ßë/ÍÛÞ ¡S{¸â5¸¸ìî08RRXþ/ó=¿/3è£¢Sï±v4îeÅ=²ìå×¿´ç·KNóý94)fÎÛM¨W÷¤*é²EÇ/HµÄ¡ó.:ÖÂ¿¤g -9&N7×#6èJÀTC/[>FôªÃæ¥Ngå3@	Fÿ©S4FjçÜ¹ßüéÔþÒ?aîF6¿cÙdßª¹(jø1Ø+ùÅ+w¡4x¦SMY£Ü
@@ -29,10 +25,7 @@ eé¬v×
 A}is:,tÙICÿ¡:.@ötþØÞ~¨b|÷åª#R§"µ©E¦hi*¦1]çmZØ:)bçr°¦j]¦qÇuM¡®æ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(readonly, copy) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly) NSString *mediaType; // @synthesize mediaType=_mediaType;
 
 @end
 

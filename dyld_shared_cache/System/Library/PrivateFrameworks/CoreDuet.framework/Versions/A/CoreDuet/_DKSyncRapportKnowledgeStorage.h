@@ -6,30 +6,27 @@
 
 #import <CoreDuet/_DKSyncRapportStorage.h>
 
-@class _DKSync2Policy;
 @protocol _DKSyncRemoteKnowledgeStorageFetchDelegate;
 
 @interface _DKSyncRapportKnowledgeStorage : _DKSyncRapportStorage
 {
     unsigned long long _currentChangeSetSequenceNumber;
-    id <_DKSyncRemoteKnowledgeStorageFetchDelegate> _delegate;
-    _DKSync2Policy *_policy;
 }
 
 + (id)ubgroupFromGroupEvent"16;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)CsdcCsdeCsdiCsdoCsdsCsdt.sd;
 - (void);
 - (void);
 - (void);
@@ -38,7 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <_DKSyncRemoteKnowledgeStorageFetchDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _DKSync2Policy *policy; // @synthesize policy=_policy;
 
 @end
 

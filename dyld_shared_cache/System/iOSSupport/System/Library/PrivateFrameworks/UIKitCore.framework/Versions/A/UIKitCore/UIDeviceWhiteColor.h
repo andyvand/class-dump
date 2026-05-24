@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UIDeviceWhiteColor : UIColor
 {
     double whiteComponent;
-    double alphaComponent;
-    _Atomic struct CGColor *_cachedColor;
 }
 
 - (struct CGColor *);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ount;
+- (_Bool)fastStartRepeatCount;
 - (id)T0;
 - (struct CGColor *)Ì6êÿ;
 - (void)q;

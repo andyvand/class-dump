@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString, SAPerson, SAVoice;
+@class NSString;
 
 @interface SAHomeMemberSettings : AceObject
 {
@@ -25,33 +25,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)D5;
 - (void);
 - (_Bool);
-- (id)IDE;
+- (id)CARBON_MONOXIDE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAPerson *meCard;
-@property(nonatomic) _Bool mediaPlayerExplicitContentDisallowed;
-@property(copy, nonatomic) NSArray *parentalRestrictions;
-@property(copy, nonatomic) NSString *preferredLanguage;
-@property(copy, nonatomic) NSString *region;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *temperatureUnit;
-@property(retain, nonatomic) SAVoice *ttsVoice;
-@property(copy, nonatomic) NSNumber *twentyFourHourTimeDisplay;
 
 @end
 

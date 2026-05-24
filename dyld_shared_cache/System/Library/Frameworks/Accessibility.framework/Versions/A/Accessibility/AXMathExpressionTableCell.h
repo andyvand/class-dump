@@ -13,9 +13,9 @@
     NSArray *_expressions;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)ck hit; note:(id)arg1 dissent=%d dissenterstatus=0x%04X;
+- (id)tError=%d;
+- (void)%d;
 - (void);
 
 // Remaining properties

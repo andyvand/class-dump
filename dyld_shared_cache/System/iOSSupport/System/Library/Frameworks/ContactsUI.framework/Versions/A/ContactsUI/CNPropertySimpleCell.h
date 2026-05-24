@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface CNPropertySimpleCell : CNPropertyCell
 {
     UILabel *_labelLabel;
-    UILabel *_valueLabel;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ns;
+- (void)_shouldShowCaptions;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *labelLabel; // @synthesize labelLabel=_labelLabel;
-@property(readonly, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIRuntimeConnection
 {
     id _source;
-    id _destination;
-    NSString *_label;
 }
 
-- (void);
+- (void)setting transfers on message %@ in state %@ and restarting ingestion;
 - (id);
 - (id);
 - (id)>";
-- (void)awWithRect:(id)arg1 options:attributes:context: /* Error: Ran out of types for this method. */;
-- (void)idth;
-- (id);
+- (void)drawWithRect:(id)arg1 options:attributes:context: /* Error: Ran out of types for this method. */;
+- (void)_overlapWidth;
+- (id)UIAction;
 - (void)y for %{public}s to %{public}s;
 - (void);
 - (void)	d;
 - (void)ÿÀä$ûg;
 
 // Remaining properties
-@property(retain, nonatomic) id destination; // @synthesize destination=_destination;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) id source; // @synthesize source=_source;
 
 @end

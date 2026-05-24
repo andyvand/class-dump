@@ -6,12 +6,11 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMAPStatusResponse : IMAPResponse
 {
     NSString *_mailboxName;
-    NSDictionary *_statusEntries;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(copy, nonatomic) NSDictionary *statusEntries; // @synthesize statusEntries=_statusEntries;
 
 @end
 

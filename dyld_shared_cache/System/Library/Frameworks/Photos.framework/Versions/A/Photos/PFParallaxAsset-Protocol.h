@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol PFParallaxAsset
+- (int);
+- (int)w;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localIdentifier;

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, _NSTextPlaceholderAttachment;
+@class NSArray;
 
 @interface NSTextPlaceholder
 {
     id _owner;
-    id _text;
-    _Bool _committed;
-    id _internal;
-    id _attachment;
-    struct _NSRange _placeholderRange;
-    NSArray *_rects;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,11 +30,6 @@
 - (id)À;
 
 // Remaining properties
-@property(retain, nonatomic) _NSTextPlaceholderAttachment *attachment;
-@property(readonly) NSAttributedString *attributedStringValue; // @synthesize attributedStringValue=_text;
-@property(readonly) _Bool committed; // @synthesize committed=_committed;
-@property id owner; // @dynamic owner;
-@property struct _NSRange placeholderRange;
 @property(readonly, nonatomic) NSArray *rects;
 
 @end

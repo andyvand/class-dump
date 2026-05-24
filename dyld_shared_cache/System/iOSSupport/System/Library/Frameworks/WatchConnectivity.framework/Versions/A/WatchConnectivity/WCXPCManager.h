@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, WCXPCManagerDelegate;
+@class NSXPCConnection;
 
 @interface WCXPCManager
 {
     _Bool _connectionInvalidated;
-    _Bool _reconnectFailed;
-    int _listenerResumedToken;
-    NSXPCConnection *_connection;
-    NSObject<WCXPCManagerDelegate> *_delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _reconnectRetryCount;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +44,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -65,23 +58,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property _Bool connectionInvalidated; // @synthesize connectionInvalidated=_connectionInvalidated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSObject<WCXPCManagerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property int listenerResumedToken; // @synthesize listenerResumedToken=_listenerResumedToken;
-@property _Bool reconnectFailed; // @synthesize reconnectFailed=_reconnectFailed;
-@property unsigned long long reconnectRetryCount; // @synthesize reconnectRetryCount=_reconnectRetryCount;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

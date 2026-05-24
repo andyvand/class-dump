@@ -11,15 +11,15 @@
     GEOResourceManifestConfiguration *_configuration;
 }
 
-+ (id)untWithResultType:(id)arg1;
++ (id)resultsCountWithResultType:(id)arg1;
 + (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)l;
-- (id)rating_submission;
+- (id)arp_rating_submission;
 - (id)state_of_charge_diff_at_dest;
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ILMessageFilterQueryHandling
+- (void)R�t;
 @end
 

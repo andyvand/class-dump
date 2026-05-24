@@ -11,18 +11,6 @@
 @interface MRTransitionPageFlip : MRTransition
 {
     MRMesh *_mesh;
-    CDStruct_265c7ca9 *_meshVertices;
-    double _x0;
-    double _y0;
-    double _x;
-    double _y;
-    double _rollOrientationAim;
-    double _rollOrientation;
-    double _progressInternal;
-    double _progressAim;
-    _Bool _isManuallyTransitioning;
-    _Bool _isFinishing;
-    _Bool _isCanceling;
 }
 
 - (void);

@@ -6,25 +6,23 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@protocol CNObservable, CNScheduler;
+@protocol CNObservable;
 
 @interface _CNScheduledObservable : CNObservable
 {
     id <CNObservable> _observable;
-    id <CNScheduler> _scheduler;
 }
 
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)`;
 - (void);
-- (void);
-- (id)text;
+- (id)CNAuthorizationContext;
 
 // Remaining properties
 @property(retain, nonatomic) id <CNObservable> observable; // @synthesize observable=_observable;
-@property(retain, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
 
 @end
 

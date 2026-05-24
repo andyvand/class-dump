@@ -7,16 +7,13 @@
 @interface NTPBAppSessionStartWatch
 {
     int _sessionStartMethodWatch;
-    struct {
-        unsigned int sessionStartMethodWatch:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (id);
+- (void)availableStreamingFormat;
+- (void)aestheticProperties;
+- (int)_updateKeyAssetFetchResultWithDataSource:section: /* Error: Ran out of types for this method. */;
+- (_Bool)_syndicationSenderDisplayName;
+- (id)I;
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSessionStartMethodWatch;
-@property(nonatomic) int sessionStartMethodWatch; // @synthesize sessionStartMethodWatch=_sessionStartMethodWatch;
 
 @end
 

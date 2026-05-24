@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDEnqueuedDonation, EDPersistedMessageID, NSDate, NSString;
-
 @interface EmailDaemon.EDSearchableNewMessageItem
 {
     unsigned long long itemInstantiationTime;
-    void identifier;
-    void domainIdentifier;
-    EDPersistedMessageID *messagePersistentID;
-    id message;
-    id sizeInBytes;
-    long long indexingType;
-    EDEnqueuedDonation *enqueuedDonation;
 }
 
 - (_Bool);
@@ -25,19 +16,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)RYI;
+- (id)UsoEntityBuilder_common_MeasurementQualifier;
 - (long long);
 - (id);
-- (id);
+- (id)[WFTrafficEngManager __registerRequestHandler];
 - (void)ULL,
     subject TEXT,
     senders TEXT,
@@ -48,18 +39,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool alwaysMarkAsIndexed;
-@property(nonatomic, readonly) NSDate *dateReceived;
-@property(nonatomic, readonly) NSString *domainIdentifier;
-@property(nonatomic, retain) EDEnqueuedDonation *enqueuedDonation; // @synthesize enqueuedDonation;
-@property(nonatomic, readonly) long long estimatedSizeInBytes;
-@property(nonatomic, readonly) _Bool hasCompleteData;
-@property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic) long long indexingType; // @synthesize indexingType;
-@property(nonatomic, readonly) unsigned long long itemInstantiationTime; // @synthesize itemInstantiationTime;
-@property(nonatomic, readonly) EDPersistedMessageID *messagePersistentID; // @synthesize messagePersistentID;
-@property(nonatomic, readonly) _Bool requiresPreprocessing;
-@property(nonatomic, readonly) _Bool shouldExcludeFromIndex;
-@property(nonatomic, readonly) _Bool shouldIndexImmediatelyPostPreprocessing;
 
 @end
 

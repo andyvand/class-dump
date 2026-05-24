@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UXCollectionView;
+
 @protocol UXCollectionViewDelegate
+
+@optional
+- (void);
+- (struct CGPoint)=;
+- (_Bool)viewPointFromContentPoint:(UXCollectionView *)arg1;
 @end
 

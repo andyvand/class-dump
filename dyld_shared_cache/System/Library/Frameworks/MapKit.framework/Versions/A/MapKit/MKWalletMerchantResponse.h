@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMerchantLookupResult, MKMapItem, MKWalletMerchantStylingInfo, NSString;
+@class MKWalletMerchantStylingInfo;
 @protocol GEOMapItem;
 
 @interface MKWalletMerchantResponse
 {
     id <GEOMapItem> _mapItem;
-    GEOPDMerchantLookupResult *_merchantLookupResult;
 }
 
+- (id)reportQuickEnergyForInterval:withIdentifier:andAdjustSnapshotToNow: /* Error: Ran out of types for this method. */;
+- (id)reportQuickEnergyForInterval:withIdentifier:andAdjustSnapshotToNow: /* Error: Ran out of types for this method. */;
+- (id)UIKitApplication: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)Y;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)gate: /* Error: Ran out of types for this method. */;
+- (void)setActionDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *heroImageProviderName;
-@property(readonly, nonatomic) NSString *localizedPlaceLanguage;
-@property(readonly, nonatomic) NSString *localizedPlaceName;
-@property(readonly, nonatomic) NSString *localizedWalletCategoryLanguage;
-@property(readonly, nonatomic) NSString *localizedWalletCategoryName;
-@property(readonly, nonatomic) MKMapItem *mapItem;
-@property(readonly, nonatomic) NSString *mapsCategoryIdentifier;
 @property(readonly, nonatomic) MKWalletMerchantStylingInfo *placeStyling;
-@property(readonly, nonatomic) NSString *walletCategoryIdentifier;
-@property(readonly, nonatomic) MKWalletMerchantStylingInfo *walletCategoryStyling;
 
 @end
 

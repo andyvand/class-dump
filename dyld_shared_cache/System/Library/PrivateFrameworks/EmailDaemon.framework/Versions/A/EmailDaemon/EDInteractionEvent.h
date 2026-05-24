@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface EDInteractionEvent
 {
     long long _eventID;
-    long long _version;
-    NSDate *_date;
-    NSString *_accountID;
-    long long _mailboxID;
-    long long _conversationID;
-    long long _messageIDHash;
-    long long _messagePersistentID;
-    NSString *_name;
-    NSDictionary *_data;
 }
 
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)*;
 - (long long);
 - (void);
 - (id);
@@ -32,28 +21,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)t to an array?;
+- (void)F	;
+- (void)@;
 - (id);
 - (long long);
-- (void);
+- (void)decryptData:(id)arg1 withKey:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
 - (void)D];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(nonatomic) long long conversationID; // @synthesize conversationID=_conversationID;
-@property(copy, nonatomic) NSDictionary *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(nonatomic) long long eventID; // @synthesize eventID=_eventID;
-@property(nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(nonatomic) long long messageIDHash; // @synthesize messageIDHash=_messageIDHash;
-@property(nonatomic) long long messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDHeadGestureProperties : SISchemaInstrumentationMessage
 {
     _Bool _headGesturesSupported;
-    _Bool _headGesturesEnabled;
-    int _acceptProceedGesture;
-    int _declineDismissGesture;
-    struct {
-        unsigned int headGesturesSupported:1;
-        unsigned int headGesturesEnabled:1;
-        unsigned int acceptProceedGesture:1;
-        unsigned int declineDismissGesture:1;
-    } _has;
 }
 
 - (void);
@@ -35,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)t*;
 - (void);
 - (void);
 - (void);
@@ -54,15 +43,7 @@
 - (id)d",&,N,V_cancelled;
 
 // Remaining properties
-@property(nonatomic) int acceptProceedGesture; // @synthesize acceptProceedGesture=_acceptProceedGesture;
-@property(nonatomic) int declineDismissGesture; // @synthesize declineDismissGesture=_declineDismissGesture;
-@property(nonatomic) _Bool hasAcceptProceedGesture;
-@property(nonatomic) _Bool hasDeclineDismissGesture;
-@property(nonatomic) _Bool hasHeadGesturesEnabled;
-@property(nonatomic) _Bool hasHeadGesturesSupported;
-@property(nonatomic) _Bool headGesturesEnabled; // @synthesize headGesturesEnabled=_headGesturesEnabled;
 @property(nonatomic) _Bool headGesturesSupported; // @synthesize headGesturesSupported=_headGesturesSupported;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKOSVersionRequirementRange;
-
 @interface PKWebServiceProvisioningCardReaderNetworkConfiguration
 {
     _Bool _blocked;
-    long long _network;
-    PKOSVersionRequirementRange *_versionRange;
 }
 
 - (_Bool);
 - (id);
-- (id)PaymentUpdateUserInfoForRequest:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (long long)thCredential:deferAuthorization:requiresConfirmationForHandoff:startHandoffIfPending: /* Error: Ran out of types for this method. */;
-- (void)BUTION;
+- (id)peerPaymentUpdateUserInfoForRequest:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)authorizeAndStartCardEmulationWithCredential:deferAuthorization:requiresConfirmationForHandoff:startHandoffIfPending: /* Error: Ran out of types for this method. */;
+- (void)ALTERNATIVE_APP_DISTRIBUTION;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool blocked; // @synthesize blocked=_blocked;
 @property(readonly, nonatomic) long long network; // @synthesize network=_network;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *versionRange; // @synthesize versionRange=_versionRange;
 
 @end
 

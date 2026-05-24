@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, UIButton, UILabel;
-@protocol AVTAvatarAttributeEditorMulticolorPickerCellDelegate, AVTAvatarAttributeEditorSectionItem;
+@class UILabel;
+@protocol AVTAvatarAttributeEditorSectionItem;
 
 @interface AVTAvatarAttributeEditorMulticolorPickerCell
 {
     id <AVTAvatarAttributeEditorSectionItem> _item;
-    id <AVTAvatarAttributeEditorMulticolorPickerCellDelegate> _delegate;
-    UILabel *_label;
-    CALayer *_colorView;
-    UIButton *_clearButton;
-    CAShapeLayer *_colorViewBorder;
 }
 
 + (double);
 + (double);
 + (id);
-+ (id);
++ (id)D;
 - (void);
 - (void);
 - (_Bool);
@@ -37,28 +32,23 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void)AOP_CPU_IDLE;
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)workQueueDidFinishCommandByReplacingCurrentCommandWithCommand:(id)arg1 params:personID:albumGUID:assetCollectionGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)ItemsForObjectIDs;
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *clearButton; // @synthesize clearButton=_clearButton;
-@property(retain, nonatomic) CALayer *colorView; // @synthesize colorView=_colorView;
-@property(retain, nonatomic) CAShapeLayer *colorViewBorder; // @synthesize colorViewBorder=_colorViewBorder;
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorMulticolorPickerCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionItem> item; // @synthesize item=_item;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 
 @end

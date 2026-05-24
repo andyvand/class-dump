@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSHMDDisplayLinkInvocation : NSHMDDisplayLinkInvocation
 {
     double _timestamp;
-    double _duration;
 }
 
 - (id);
-- (double);
+- (double);
 - (id);
 - (double);
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-@protocol NSUserNotificationCenterDelegate, _NSUserNotificationCenterDelegatePrivate;
+@protocol _NSUserNotificationCenterDelegatePrivate;
 
 @interface NSUserNotificationCenter
 {
@@ -27,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -42,19 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) id <_NSUserNotificationCenterDelegatePrivate> _appDelegate; // @dynamic _appDelegate;
-@property(readonly) NSArray *_displayedNotifications; // @dynamic _displayedNotifications;
-@property(readonly) unsigned long long _maxPresentedNotifications; // @dynamic _maxPresentedNotifications;
-@property(readonly) unsigned long long _notificationPreferences; // @dynamic _notificationPreferences;
-@property(readonly) _Bool _notificationsDisabled; // @dynamic _notificationsDisabled;
-@property(readonly) NSArray *_presentedAlerts; // @dynamic _presentedAlerts;
-@property(setter=_setPreventApplicationLaunching:) _Bool _preventApplicationLaunching; // @dynamic _preventApplicationLaunching;
-@property(readonly, copy) NSData *_registeredPushToken; // @dynamic _registeredPushToken;
-@property(setter=_setReverseDeliveredNotifications:) _Bool _reverseDeliveredNotifications; // @dynamic _reverseDeliveredNotifications;
-@property(copy) NSArray *_todaySummaryNotifications; // @dynamic _todaySummaryNotifications;
-@property(copy) NSArray *_tomorrowSummaryNotifications; // @dynamic _tomorrowSummaryNotifications;
-@property id <NSUserNotificationCenterDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSArray *deliveredNotifications; // @dynamic deliveredNotifications;
-@property(copy) NSArray *scheduledNotifications; // @dynamic scheduledNotifications;
 
 @end
 

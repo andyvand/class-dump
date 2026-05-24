@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPasteboard;
-
 @interface IMKSimulatorPasteboardValueDictionary
 {
     unsigned long long _changeCount;
-    NSMutableDictionary *_dictionary;
-    NSPasteboard *_pasteboard;
 }
 
 - (void);
@@ -19,16 +15,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
-- (unsigned long long)inimumCandidateWidthForHorizontal;
+- (unsigned long long)minimumCandidateWidthForHorizontal;
 
 // Remaining properties
 @property(nonatomic) unsigned long long changeCount; // @synthesize changeCount=_changeCount;
-@property(retain, nonatomic) NSMutableDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) NSPasteboard *pasteboard; // @synthesize pasteboard=_pasteboard;
 
 @end
 

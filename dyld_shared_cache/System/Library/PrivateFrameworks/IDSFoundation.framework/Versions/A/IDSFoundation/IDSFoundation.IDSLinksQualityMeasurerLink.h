@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityMeasurerLink
 {
     id $defaultActor;
-    id uniqueID;
-    id link;
-    id currentReport;
-    id statsRequestStartTimesByID;
-    id bursts;
 }
 
 @end

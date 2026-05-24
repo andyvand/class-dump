@@ -6,69 +6,58 @@
 
 #import <AppKit/NSAccessibilityElement.h>
 
-@class NSArray, NSCollectionView, NSCollectionViewLayout, NSMutableArray, NSMutableDictionary;
+@class NSCollectionViewLayout;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewAccessibilityHelper : NSAccessibilityElement
 {
     id _layout;
-    NSMutableDictionary *_supplementaryElementsDictionary;
-    NSMutableArray *__sectionCache;
-    Class _sectionAccessibilityClass;
-    unsigned long long __sectionCacheOffset;
-    NSArray *_accessibilityVisibleChildren;
 }
 
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (Class);
+- (id)e"^{__CFString}"fExpectedContentLength"q"fExpiration"d"fCreationTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)finishDownloadDecoding;
+- (id)_processConnectionProperties;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (long long)t;
+- (id);
+- (id);
+- (unsigned long long);
+- (id)ystem/Library/PrivateFrameworks/DuetActivityScheduler.framework/Versions/A/DuetActivityScheduler;
+- (void)s = %@, persistence = %d};
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void)H(ñÿüJ:(id)arg1 ÿ4[;
 - (id)ication/pdf;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *_sectionCache;
-@property(nonatomic) unsigned long long _sectionCacheOffset; // @synthesize _sectionCacheOffset=__sectionCacheOffset;
-@property(copy, nonatomic) NSArray *accessibilitySelectedCells; // @dynamic accessibilitySelectedCells;
-@property(readonly, copy, nonatomic) NSArray *accessibilityVisibleChildren; // @synthesize accessibilityVisibleChildren=_accessibilityVisibleChildren;
-@property(readonly, nonatomic) __weak NSCollectionView *collectionView;
 @property(nonatomic) __weak NSCollectionViewLayout *layout;
-@property(nonatomic) Class sectionAccessibilityClass; // @synthesize sectionAccessibilityClass=_sectionAccessibilityClass;
 
 @end
 

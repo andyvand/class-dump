@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)(	;
 + (Class);
 - (id);
 - (id)StringAsToggleState:(id)arg1;

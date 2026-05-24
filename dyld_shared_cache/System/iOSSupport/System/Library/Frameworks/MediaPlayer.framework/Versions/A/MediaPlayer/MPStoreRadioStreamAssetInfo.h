@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRadioStreamAssetInfo, NSURL;
+@class ICStoreRadioStreamAssetInfo;
 
 @interface MPStoreRadioStreamAssetInfo
 {
     ICStoreRadioStreamAssetInfo *_internalInfo;
-    _Bool _iTunesStoreStream;
 }
 
 - (id);
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (long long);
-- (long long);
+- (long long)_aggDistinct;
+- (long long)_colexprs;
 - (id);
 - (long long);
-- (void)tion: /* Error: Ran out of types for this method. */;
+- (void)_applicationWillEnterForegroundNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long flavor;
-@property(nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream; // @synthesize iTunesStoreStream=_iTunesStoreStream;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
-@property(readonly, nonatomic) long long streamProtocol;
-@property(readonly, copy, nonatomic) NSURL *streamURL;
 
 @end
 

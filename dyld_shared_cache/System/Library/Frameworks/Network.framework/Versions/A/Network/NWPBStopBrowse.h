@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)cal_ethernet_address;
+- (id)_flow_local_ethernet_address;
 - (id);
 - (void)@;
 

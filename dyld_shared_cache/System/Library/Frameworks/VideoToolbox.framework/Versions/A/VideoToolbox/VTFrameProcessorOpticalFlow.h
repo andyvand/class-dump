@@ -9,18 +9,15 @@
 @interface VTFrameProcessorOpticalFlow
 {
     VEFrameOpticalFlow *_veFrameOpticalFlow;
-    struct __CVBuffer *_forwardFlow;
-    struct __CVBuffer *_backwardFlow;
 }
 
 - (id);
 - (id);
 - (struct __CVBuffer *);
-- (struct __CVBuffer *);
-- (void);
+- (struct __CVBuffer *)kb	;
+- (void)\;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *backwardFlow; // @synthesize backwardFlow=_backwardFlow;
 @property(readonly, nonatomic) struct __CVBuffer *forwardFlow; // @synthesize forwardFlow=_forwardFlow;
 
 @end

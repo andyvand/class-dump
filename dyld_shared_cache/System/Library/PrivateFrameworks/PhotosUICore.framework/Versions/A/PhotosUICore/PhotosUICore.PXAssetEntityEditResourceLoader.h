@@ -7,8 +7,6 @@
 @interface PhotosUICore.PXAssetEntityEditResourceLoader
 {
     id results;
-    id resourceLoader;
-    id continuation;
 }
 
 - (void);

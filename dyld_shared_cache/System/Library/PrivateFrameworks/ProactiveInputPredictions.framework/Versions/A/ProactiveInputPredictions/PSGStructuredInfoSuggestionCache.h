@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, _PASTuple2;
+@class _PASTuple2;
 
 @interface PSGStructuredInfoSuggestionCache
 {
     _PASTuple2 *_cachedSuggestions;
-    NSString *_localeIdentifier;
-    NSDate *_startTime;
-    double _ttlSeconds;
 }
 
 + (id);

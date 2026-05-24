@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDSessionControl
 {
     unsigned long long _controlCommand;
-    NSUUID *_sessionUUID;
 }
 
 + (_Bool)$é;
@@ -18,16 +15,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void)fTimesPrimaryClientDisconnected;
+- (void);
+- (id)RFBDisposeAppleIDScreenSharingContext;
+- (void)#;
+- (void)numberOfTimesPrimaryClientDisconnected;
 - (id)D=;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long controlCommand; // @synthesize controlCommand=_controlCommand;
-@property(readonly, copy, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

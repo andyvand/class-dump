@@ -7,14 +7,11 @@
 @interface IKImageBackgroundLayer
 {
     struct CGColor *_patternColor;
-    struct IKBGLPatternInfo _patternInfo;
-    _Bool _showsCheckerboard;
-    _Bool _whileUpdating;
 }
 
 + (_Bool);
 + (double);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (void);
 - (void);
@@ -27,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

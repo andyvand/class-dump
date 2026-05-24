@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GEOVenueIdentifier, GEOVenueLabel;
+@protocol GEOVenueIdentifier;
 
 @interface GEOVenueFilterItem
 {
     id <GEOVenueIdentifier> _filterID;
-    id <GEOVenueLabel> _label;
-    _Bool _describesParentVenue;
 }
 
+- (id);
 - (id);
 - (id);
+- (_Bool)32@0:8@"CNCDDatabasePreparationRequest"16@?<v@?@"CNCDDatabasePreparationResult"@"NSError">24 /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)dDescriptorDatabaseE;
+- (id)%;
+- (void)N6google8protobuf25EncodedDescriptorDatabaseE;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool describesParentVenue; // @synthesize describesParentVenue=_describesParentVenue;
 @property(readonly, nonatomic) id <GEOVenueIdentifier> filterID; // @synthesize filterID=_filterID;
-@property(readonly, nonatomic) id <GEOVenueLabel> label; // @synthesize label=_label;
 
 @end
 

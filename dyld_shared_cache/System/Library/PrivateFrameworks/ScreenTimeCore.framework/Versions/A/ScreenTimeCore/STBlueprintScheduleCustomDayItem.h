@@ -9,22 +9,18 @@
 @interface STBlueprintScheduleCustomDayItem
 {
     NSDateComponents *_startTime;
-    NSDateComponents *_endTime;
-    unsigned long long _day;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void)áÙ>güÿÑÙ>güÿ;
 - (unsigned long long)ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long day; // @synthesize day=_day;
-@property(retain, nonatomic) NSDateComponents *endTime; // @synthesize endTime=_endTime;
 @property(retain, nonatomic) NSDateComponents *startTime; // @synthesize startTime=_startTime;
 
 @end

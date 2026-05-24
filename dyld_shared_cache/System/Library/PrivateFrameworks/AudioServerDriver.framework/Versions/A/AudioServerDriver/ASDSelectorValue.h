@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASDSelectorValue
 {
     _Bool _selected;
-    _Bool _prevSelected;
-    unsigned int _value;
-    unsigned int _kind;
-    NSString *_name;
 }
 
 + (id);
@@ -27,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)i>;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)s;
 - (unsigned int);
 - (void);
 - (void);
@@ -38,11 +32,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned int kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool prevSelected; // @synthesize prevSelected=_prevSelected;
 @property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) unsigned int value; // @synthesize value=_value;
 
 @end
 

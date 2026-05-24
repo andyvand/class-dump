@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSString, VNRequestSpecifier;
-@protocol VNEntityIdentificationModelTrainingDataDelegate;
+@class VNRequestSpecifier;
 
 __attribute__((visibility("hidden")))
 @interface VNEntityIdentificationModelTrainingData
 {
     unsigned long long _maximumEntities;
-    id <VNEntityIdentificationModelTrainingDataDelegate> _delegate;
-    VNRequestSpecifier *_entityPrintOriginatingRequestSpecifier;
-    NSMutableArray *_entityUniqueIdentifiers;
-    NSMutableDictionary *_serialNumberForEntityUniqueIdentifier;
-    NSMutableDictionary *_observationsForSerialNumber;
-    NSMutableIndexSet *_availableSerialNumbers;
-    NSDate *_lastModificationDate;
-    unsigned long long _lastDataChangeSequenceNumber;
 }
 
 - (_Bool);
@@ -43,24 +34,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)PRPersonaServiceInterface;
 - (void)evice or OS variant.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <VNEntityIdentificationModelTrainingDataDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) VNRequestSpecifier *entityPrintOriginatingRequestSpecifier; // @synthesize entityPrintOriginatingRequestSpecifier=_entityPrintOriginatingRequestSpecifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
-@property(readonly) Class superclass;
 
 @end
 

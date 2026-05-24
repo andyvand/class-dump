@@ -10,7 +10,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)T};
 - (id);
 - (id);
 - (unsigned long long);
@@ -18,12 +18,10 @@
 - (void);
 - (struct CGPoint);
 - (double);
-- (double)renceCacheFlushTimer;
+- (double)preferenceCacheFlushTimer;
 
 // Remaining properties
 @property(readonly) struct CGPoint point; // @synthesize point=_point;
-@property(readonly) double x;
-@property(readonly) double y;
 
 @end
 

@@ -5,26 +5,23 @@
 //
 
 @interface UnknownClass (SecureBackup)
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)VisualTabPickerTileContainerViewTransitionCoordinatorDataSource;
+- (_Bool)VisualTabPickerThumbnailDelegate;
+- (_Bool)VisualTabPickerThumbnailDataSource;
+- (_Bool)VisualTabPickerTileContainerView;
+- (_Bool)VisualTabPickerThumbnailViewMirrorView;
+- (_Bool)VisualTabPickerThumbnailView;
+- (_Bool)VisualTabPickerThumbnailViewInnerView;
+- (_Bool)VisualTabPickerShadowTileView;
+- (_Bool)VisualTabPickerRootViewTransitionCoordinatorDataSource;
+- (_Bool)VisualTabPickerNewTabView;
+- (_Bool)VisualTabPickerMuteButton;
+- (_Bool)VisualTabPickerTransitioning;
+- (_Bool)UnifiedFieldTransientUIAction;
+- (id)UnifiedFieldButtonHostViewController;
+- (_Bool)ASWebAuthenticationSessionRequestServing;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAuthKitUnableToPromptDueToNetworkError;
-@property(readonly, nonatomic) _Bool isAuthKitUnableToPromptError;
 @property(readonly, nonatomic) _Bool isAuthenticationError;
-@property(readonly, nonatomic) _Bool isAuthenticationErrorIncludingUnderlyingErrors;
 @end
 

@@ -9,7 +9,7 @@
 @protocol UICollectionViewFocusDelegate_Legacy
 
 @optional
-- (_Bool)AdjoinToAdjacentFaces;
+- (_Bool)_allowFacesToAdjoinToAdjacentFaces;
 - (_Bool)cedWindowingModeEnabled;
 - (void)achedInCompactHeight:(UICollectionView *)arg1;
 - (void)È|tÈ;

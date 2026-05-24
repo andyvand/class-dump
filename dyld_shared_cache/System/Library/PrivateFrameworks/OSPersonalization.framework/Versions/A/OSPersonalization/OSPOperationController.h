@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSObject, OSPRequest;
-@protocol OS_dispatch_queue;
+@class OSPRequest;
 
 @interface OSPOperationController
 {
     OSPRequest *_request;
-    NSMutableArray *_operations;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSError *_error;
 }
 
 - (void);
@@ -20,21 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)qA;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain) NSMutableArray *operations; // @synthesize operations=_operations;
 @property(retain) OSPRequest *request; // @synthesize request=_request;
 
 @end

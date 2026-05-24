@@ -6,30 +6,17 @@
 
 #import <UIKitCore/UIKBSplitImageView.h>
 
-@class NSObject, NSString, UIKBRenderConfig, UIKBScreenTraits, UIKBTree, UITextInputTraits;
+@class NSObject, UIKBTree;
 
 __attribute__((visibility("hidden")))
 @interface UIKBBackgroundView : UIKBSplitImageView
 {
     UIKBTree *_keyplane;
-    UITextInputTraits *_inputTraits;
-    int _visualStyle;
-    NSObject *_geometryCacheKey;
-    struct CGRect _splitLeftRect;
-    struct CGRect _splitLeftCacheRect;
-    struct CGRect _splitRightRect;
-    struct CGRect _splitRightCacheRect;
-    unsigned long long _topCorners;
-    _Bool _isSplit;
-    _Bool _centerFilled;
-    _Bool _hasCandidateKeys;
-    UIKBRenderConfig *_renderConfig;
-    UIKBScreenTraits *_screenTraits;
 }
 
 - (void)0@ù
 × ;
-- (id)youtUpdateSection;
+- (id)_inAlignmentLayoutUpdateSection;
 - (id)ÈU;
 - (void)UITableViewCell. Cell:(id)arg1 %@;
 - (id)e=%u, earliestModelTime=%s;
@@ -37,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)initialize custom vibrant color matrix effect without a matix;
 - (double)yboard update with size: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)rialTraitDefinition;
+- (_Bool)UIContainedInBarMaterialTraitDefinition;
 - (long long);
 - (_Bool);
 - (void)¬-;
@@ -49,26 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)\SfÿHÝ¾¾r;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetIdiom;
-@property(readonly, nonatomic) long long cacheDeferPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool cacheDeferable;
-@property(readonly, nonatomic) NSString *cacheKey;
-@property(readonly, nonatomic) double cachedWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displaysColorImage;
 @property(retain, nonatomic) NSObject *geometryCacheKey; // @synthesize geometryCacheKey=_geometryCacheKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool keepNonPersistent;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=_renderConfig;
-@property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
-@property(readonly) Class superclass;
 
 @end
 

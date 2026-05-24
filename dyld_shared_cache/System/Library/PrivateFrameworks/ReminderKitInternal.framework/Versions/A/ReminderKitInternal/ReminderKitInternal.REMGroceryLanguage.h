@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.REMGroceryLanguage
 {
     id uiLocale;
-    id baseLocaleSet;
 }
 
 @end

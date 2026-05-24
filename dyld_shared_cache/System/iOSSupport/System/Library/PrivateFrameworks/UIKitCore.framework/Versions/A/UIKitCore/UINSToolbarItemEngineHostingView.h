@@ -6,23 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSObject, NSToolbarItem;
-@protocol NSISEngineDelegate;
-
 __attribute__((visibility("hidden")))
 @interface UINSToolbarItemEngineHostingView : UIView
 {
     UIView *_observedView;
-    long long _controlSize;
-    NSObject<NSISEngineDelegate> *_secondaryEngineDelegate;
-    _Bool _inSnapshot;
-    _Bool _isMeasuring;
-    NSToolbarItem *_hostItem;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)has the same mergedID:(id)arg1 [%@];
 - (id);
 - (id);
 - (struct CGSize);
@@ -40,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long controlSize;
-@property __weak NSToolbarItem *hostItem;
-@property(retain) UIView *observedView;
 
 @end
 

@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)haNak�<)A;
 - (struct CGSize);
 - (struct CGRect);
 - (id);

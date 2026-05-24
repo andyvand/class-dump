@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     MKMapView *_mapView;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (void);
-- (void)alAccuracy;
-- (id)hConstraint;
+- (void)9;
+- (void)horizontalAccuracy;
+- (id)_snapshotWidthConstraint;
 - (void)arrows;
 
 // Remaining properties

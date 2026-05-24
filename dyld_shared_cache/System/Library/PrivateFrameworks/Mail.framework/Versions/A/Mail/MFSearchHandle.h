@@ -7,10 +7,9 @@
 @interface MFSearchHandle
 {
     CDUnknownBlockType _cancel;
-    id _future;
 }
 
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void)ÿÿ4;

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 __attribute__((visibility("hidden")))
 @interface NWURLSessionDelegateDeallocBomb
 {
     _Bool __strict;
-    _Bool __disarmed;
-    NSObject *__object;
-    SEL __method;
 }
 
-- (void);
+- (void)an't read from %s unable to create a BOMStream;
 - (void)@;
 
 @end

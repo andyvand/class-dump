@@ -6,86 +6,29 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSButton, NSColor, NSColorPanelColorWell, NSColorPanelFavoritesList, NSColorPanelTextController, NSColorSpace, NSLayoutConstraint, NSMutableArray, NSObject, NSSlider, NSString, NSTextField, NSView, NSWindow;
-@protocol NSColorPickingCustom;
+@class NSColorPanelFavoritesList;
 
 @interface NSColorPanel : NSPanel
 {
     NSColorPanelFavoritesList *_colorSwatch;
-    NSView *_accessoryContainerView;
-    NSColorPanelColorWell *_colorWell;
-    NSButton *_magnifyButton;
-    NSView *_middleView;
-    NSSlider *_opacitySlider;
-    NSTextField *_opacityText;
-    NSView *_opacityView;
-    NSView *_modalButtons;
-    NSView *_pickerView;
-    NSSlider *_gainSlider;
-    NSTextField *_gainText;
-    NSView *_gainView;
-    NSMutableArray *_pickersWithLoadedViews;
-    NSMutableArray *_customViewsList;
-    NSMutableArray *_customPickerList;
-    NSObject<NSColorPickingCustom> *_currViewObject;
-    NSView *_accessoryView;
-    SEL _action;
-    struct CGSize _minColorPanelSize;
-    struct CGSize _maxColorPanelSize;
-    NSLayoutConstraint *_accessoryContainerViewHeight;
-    NSLayoutConstraint *_opacityTextFieldBottom;
-    NSLayoutConstraint *_opacityTextFieldTop;
-    NSLayoutConstraint *_gainViewHeight;
-    unsigned long long _colorSettingSuppressionCount;
-    _Bool _handlingOpacityMoveAction;
-    _Bool _handlingGainMoveAction;
-    _Bool _ignoreConstraints;
-    _Bool _continuous;
-    _Bool _stillInitializing;
-    _Bool _hasModalAppearance;
-    NSColorPanelTextController *_opacityTextController;
-    NSColorPanelTextController *_gainTextController;
-    NSWindow *_observedWindow;
-    id _observedAppearanceTarget;
-    _Bool _showsAlpha;
-    double _maximumLinearExposure;
-    _Bool _gainEnabled;
-    NSColorSpace *_activeColorSpace;
-    id _target;
 }
 
 + (void);
-+ (_Bool);
-+ (id);
++ (_Bool)uploadTaskWithResumableUploadState:request:originalRequest:fromFile:sandboxExtensionData:identifier:uniqueIdentifier:potentialCredentials:reply: /* Error: Ran out of types for this method. */;
++ (id)uploadTaskWithResumableUploadState:request:originalRequest:fromFile:sandboxExtensionData:identifier:uniqueIdentifier:potentialCredentials:reply: /* Error: Ran out of types for this method. */;
++ (void)connectionDidFinishDownloading:(long long)arg1 destinationURL: /* Error: Ran out of types for this method. */;
++ (void)connection:(unsigned long long)arg1 willSendRequestForEstablishedConnection:properties: /* Error: Ran out of types for this method. */;
++ (void)activityStarted:(_Bool)arg1;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
-+ (unsigned long long);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)an AVAssetDownloadTask in a session that has been invalidated;
++ (id)led(%d);
++ (unsigned long long)k for stream %llu has had an error;
++ (_Bool)access-control-allow-origin;
++ (_Bool)@;
++ (_Bool)6zl;
 
 // Remaining properties
-@property(retain) NSView *accessoryView;
-@property SEL action;
-@property(readonly) double alpha;
-@property(copy) NSColor *color;
-@property(getter=isContinuous) _Bool continuous;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property double maximumLinearExposure;
-@property long long mode;
-@property _Bool showsAlpha;
-@property(readonly) Class superclass;
-@property id target;
-@property(getter=isUsingModalAppearance) _Bool usingModalAppearance;
 
 @end
 

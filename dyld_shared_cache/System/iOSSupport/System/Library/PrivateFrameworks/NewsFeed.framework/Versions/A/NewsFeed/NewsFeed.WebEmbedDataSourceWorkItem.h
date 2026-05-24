@@ -7,7 +7,6 @@
 @interface NewsFeed.WebEmbedDataSourceWorkItem
 {
     id lockedVisualizations;
-    id dispatchWorkItem;
 }
 
 @end

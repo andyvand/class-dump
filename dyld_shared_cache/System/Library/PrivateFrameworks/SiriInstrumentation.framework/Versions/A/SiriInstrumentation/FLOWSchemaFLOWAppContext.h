@@ -6,26 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWAppContext : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    NSString *_appVersion;
-    _Bool _isSmartEnoughAppSelectionUsed;
-    int _appResolutionType;
-    int _protectedAppType;
-    struct {
-        unsigned int isSmartEnoughAppSelectionUsed:1;
-        unsigned int appResolutionType:1;
-        unsigned int protectedAppType:1;
-    } _has;
-    _Bool _hasBundleId;
-    _Bool _hasAppVersion;
 }
 
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -34,7 +23,7 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -45,14 +34,14 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)T OR IGNORE INTO chat_message_join (chat_id, message_id, message_date) VALUES (?, ?, ?);
 - (_Bool);
 - (id);
 - (id)eWithLwSpkidMitigationCount"b1};
 - (_Bool)ed";
-- (void)eleteEnvelopeStatistics;
+- (void)deleteEnvelopeStatistics;
 - (void)_itemDomainName;
 - (id)dioPacketReadyUpstream;
 - (_Bool)Ä;
@@ -61,17 +50,7 @@
 - (void)ä°Í%;
 
 // Remaining properties
-@property(nonatomic) int appResolutionType; // @synthesize appResolutionType=_appResolutionType;
-@property(copy, nonatomic) NSString *appVersion; // @synthesize appVersion=_appVersion;
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasAppResolutionType;
-@property(nonatomic) _Bool hasAppVersion; // @synthesize hasAppVersion=_hasAppVersion;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasIsSmartEnoughAppSelectionUsed;
-@property(nonatomic) _Bool hasProtectedAppType;
-@property(nonatomic) _Bool isSmartEnoughAppSelectionUsed; // @synthesize isSmartEnoughAppSelectionUsed=_isSmartEnoughAppSelectionUsed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int protectedAppType; // @synthesize protectedAppType=_protectedAppType;
 
 @end
 

@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSObject, SFDevice, SFSession, SFSessionRequestInfo;
-@protocol OS_dispatch_queue;
+@class SFSessionRequestInfo;
 
 @interface SFSystemSession
 {
     SFSessionRequestInfo *_currentRequest;
-    _Bool _invalidateCalled;
-    _Bool _pairVerifyDone;
-    NSMutableArray *_requests;
-    SFSession *_sfSession;
-    int _state;
-    _Bool _stateDone;
-    NSError *_stateError;
-    _Bool _allowUnencrypted;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SFDevice *_peerDevice;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)DzA;
 - (void);
 - (void);
 - (void);
@@ -49,8 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowUnencrypted; // @synthesize allowUnencrypted=_allowUnencrypted;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
 
 @end
 

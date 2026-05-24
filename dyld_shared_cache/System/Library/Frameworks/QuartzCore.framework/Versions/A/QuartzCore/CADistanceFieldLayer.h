@@ -14,19 +14,19 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)files2;
 + (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)TB;
 - (unsigned int);
 - (void *);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)eam from serialized data;
 - (unsigned int);
-- (void);
+- (void)kCoreThemeMenuItemPartID;
 - (void);
 - (double);
 - (double);
@@ -84,12 +84,7 @@ void main() {
 ;
 
 // Remaining properties
-@property struct CGColor *foregroundColor;
-@property _Bool invertsShape;
-@property double lineWidth;
-@property double offset;
 @property(copy) NSString *renderMode;
-@property double sharpness;
 
 @end
 

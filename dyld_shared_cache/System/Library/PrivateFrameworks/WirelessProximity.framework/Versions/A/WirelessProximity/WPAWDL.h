@@ -11,7 +11,6 @@
 @interface WPAWDL : WPClient
 {
     _Bool _useSmallerAirDrop;
-    id <WPAWDLDelegate> _delegate;
 }
 
 + (id);
@@ -20,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tsu_prefixOfNumberFormatSubpattern;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -43,7 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <WPAWDLDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool useSmallerAirDrop; // @synthesize useSmallerAirDrop=_useSmallerAirDrop;
 
 @end
 

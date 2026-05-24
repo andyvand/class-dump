@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AppSandboxEntitlements
 {
     NSDictionary *_entitlements;
-    NSString *_signingIdentifier;
-    _Bool _appSandboxOnce;
-    _Bool _requestsAppSandbox;
-    _Bool _requestsInheritance;
 }
 
 + (id);
@@ -27,10 +23,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)hb;
 - (_Bool);
 - (id);
-- (void);
+- (void)�;
 
 @end
 

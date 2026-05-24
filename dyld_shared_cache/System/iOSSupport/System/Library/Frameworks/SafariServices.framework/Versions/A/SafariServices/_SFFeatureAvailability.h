@@ -10,14 +10,14 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)_updateActionsButtonVisibilityAtIndexPath: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (unsigned long long);
-+ (_Bool);
-+ (_Bool);
++ (unsigned long long)E;
++ (_Bool)`;
++ (_Bool)";
 
 @end
 

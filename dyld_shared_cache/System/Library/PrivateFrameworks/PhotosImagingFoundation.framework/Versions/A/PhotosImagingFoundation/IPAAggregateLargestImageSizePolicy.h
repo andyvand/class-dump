@@ -14,7 +14,7 @@
 }
 
 - (double);
-- (_Bool);
+- (_Bool)AVMetadataExtraAttributeKey;
 - (struct CGSize);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)initWithStartCursor: /* Error: Ran out of types for this method. */;
 
 @end
 

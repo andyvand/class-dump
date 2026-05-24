@@ -6,7 +6,7 @@
 
 #import <LaunchServices/LSRecord.h>
 
-@class LSBundleRecord, NSOrderedSet, NSString;
+@class LSBundleRecord;
 
 @interface LSServiceRecord : LSRecord
 {
@@ -15,8 +15,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id){;
++ (_Bool)_data>"16;
 + (id);
 - (id);
 - (double);
@@ -37,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,8 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -55,27 +55,14 @@
 - (id);
 - (_Bool);
 - (unsigned char);
-- (id);
-- (void);
+- (id);
+- (void)MTLFeatureSet_macOS_GPUFamily1_v4;
 - (double);
 - (void);
 - (id)cached;
 
 // Remaining properties
-@property(readonly) LSBundleRecord *_declaringBundleRecord;
 @property(readonly) unsigned char _rawFlags;
-@property(readonly, nonatomic) id compatibilityObject; // @dynamic compatibilityObject;
-@property(readonly) LSBundleRecord *declaringBundleRecord;
-@property(readonly) NSString *keyEquivalent;
-@property(readonly) unsigned long long keyEquivalentModifierMask;
-@property(readonly) NSString *localizedMenuItemTitle;
-@property(readonly) NSString *message;
-@property(readonly) NSString *portName;
-@property(readonly, getter=isRestricted) _Bool restricted;
-@property(readonly) NSOrderedSet *returnTypeIdentifiers;
-@property(readonly) NSOrderedSet *sendTypeIdentifiers;
-@property(readonly) double timeout;
-@property(readonly) NSString *userData;
 
 @end
 

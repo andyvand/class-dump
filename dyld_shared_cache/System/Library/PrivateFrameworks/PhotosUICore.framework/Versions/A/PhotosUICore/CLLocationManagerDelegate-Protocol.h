@@ -7,8 +7,12 @@
 @protocol CLLocationManagerDelegate
 
 @optional
-- (void)hotoLibrary;
+- (void)`\;
+- (void);
+- (void)?;
+- (void);
+- (void)photoLibrary;
 - (void)RawValue;
-- (void)ommon_librarySizeRange;
+- (void)cpa_common_librarySizeRange;
 @end
 

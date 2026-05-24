@@ -5,5 +5,10 @@
 //
 
 @protocol WebFrameLoadDelegate
+
+@optional
+- (void);
+- (void);
+- (void)$;
 @end
 

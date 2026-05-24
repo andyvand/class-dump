@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, ML3DatabaseModule, ML3DatabaseTable, NSString;
-@protocol ML3VirtualTableDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ML3VirtualTable
 {
     NSString *_virtualTableName;
-    ML3DatabaseModule *_module;
-    id <ML3VirtualTableDelegate> _delegate;
-    ML3DatabaseTable *_databaseTable;
-    ML3DatabaseConnection *_connection;
-    shared_ptr_c3e79333 _dataSource;
 }
 
-- (id);
+- (id)__stackIndex;
 - (void);
 - (id);
-- (shared_ptr_c3e79333);
+- (shared_ptr_51413f64);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)setSupportsKeyTransferClient: /* Error: Ran out of types for this method. */;
+- (id)P;
 - (void);
 - (_Bool);
 - (void);
@@ -33,18 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) ML3DatabaseConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) shared_ptr_c3e79333 dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) ML3DatabaseTable *databaseTable; // @synthesize databaseTable=_databaseTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ML3VirtualTableDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly) Class superclass;
+@property(nonatomic) shared_ptr_51413f64 dataSource; // @synthesize dataSource=_dataSource;
 
 @end
 

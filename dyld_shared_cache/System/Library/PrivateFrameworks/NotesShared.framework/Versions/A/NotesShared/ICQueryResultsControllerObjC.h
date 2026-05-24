@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICQueryObjC, NSManagedObjectContext;
+@class NSManagedObjectContext;
 
 @interface ICQueryResultsControllerObjC
 {
     NSManagedObjectContext *managedObjectContext;
-    ICQueryObjC *query;
 }
 
 - (id);
@@ -22,9 +21,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) id fetchRequest;
 @property(nonatomic, readonly) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext;
-@property(nonatomic, retain) ICQueryObjC *query; // @synthesize query;
 
 @end
 

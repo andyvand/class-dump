@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBIntentMetadata, _INPBPaymentAmountValue;
+@class _INPBFinancialAccountValue, _INPBIntentMetadata;
 
 @protocol _INPBTransferMoneyIntent
+- (_INPBFinancialAccountValue *)T8;
+- (_INPBIntentMetadata *)_assembleDeviceEnginesUsingContext: /* Error: Ran out of types for this method. */;
 - (_Bool)essage:reaction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasToAccount;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBFinancialAccountValue *toAccount;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount;
-@property(copy, nonatomic) NSString *transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate;
 @end
 

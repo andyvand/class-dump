@@ -5,9 +5,9 @@
 //
 
 @protocol BSXPCServiceConnectionParent
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isClientInvalidated) _Bool _clientInvalidated;
 @property(readonly, nonatomic, getter=_isInvalidated) _Bool _invalidated;
 @end
 

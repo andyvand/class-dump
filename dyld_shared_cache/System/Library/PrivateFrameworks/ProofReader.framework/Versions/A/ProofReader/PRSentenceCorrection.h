@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface PRSentenceCorrection
 {
     int _category;
-    struct _NSRange _range;
-    NSString *_word;
-    NSArray *_corrections;
 }
 
 - (_Bool);

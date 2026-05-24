@@ -6,42 +6,15 @@
 
 #import <UXKit/UXView.h>
 
-@class NSArray, NSAttributedString, NSColor, NSFont, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface UXLabel : UXView
 {
     NSTextField *_concreteTextField;
-    NSArray *_verticalDefaultConstraints;
-    NSArray *_verticalCenteringConstraints;
-    NSColor *_textColor;
-    NSColor *_shadowColor;
-    NSColor *_highlightedTextColor;
-    long long _numberOfLines;
-    struct CGSize _shadowOffset;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) _Bool centerVertically;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSFont *font;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(retain, nonatomic) NSColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;
-@property(nonatomic) unsigned long long lineBreakMode;
-@property(nonatomic) long long numberOfLines; // @synthesize numberOfLines=_numberOfLines;
-@property(nonatomic) double preferredMaxLayoutWidth;
-@property(nonatomic) _Bool selectable;
-@property(retain, nonatomic) NSColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 @end
 

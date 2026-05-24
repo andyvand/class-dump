@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
-
 @interface SMSessionMonitorStateMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)"NSDictionary"@"NSError">16;
++ (id)quireIdentityInHSM;
++ (id)epresentationWithError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) short currentRegionState; // @dynamic currentRegionState;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSUUID *sessionIdentifier; // @dynamic sessionIdentifier;
-@property(nonatomic) _Bool triggerConfirmed; // @dynamic triggerConfirmed;
-@property(nonatomic) _Bool triggerPending; // @dynamic triggerPending;
 
 @end
 

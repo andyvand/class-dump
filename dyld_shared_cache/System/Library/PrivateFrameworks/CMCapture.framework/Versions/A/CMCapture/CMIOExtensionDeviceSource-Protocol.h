@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol CMIOExtensionDeviceSource
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSSet *availableProperties;

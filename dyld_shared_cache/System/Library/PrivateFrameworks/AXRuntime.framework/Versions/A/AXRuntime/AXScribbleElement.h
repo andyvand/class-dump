@@ -9,7 +9,6 @@
 @interface AXScribbleElement
 {
     NSString *_renderedText;
-    struct CGRect _geometry;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect geometry; // @synthesize geometry=_geometry;
 @property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText=_renderedText;
 
 @end

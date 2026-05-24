@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SafeAutoFillChoicesMenuItemView
 {
     NSTextField *_sectionTitleLabel;
-    NSTextField *_contentValueLabel;
-    NSLayoutConstraint *_constraintBetweenLabels;
 }
 
 + (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak NSLayoutConstraint *constraintBetweenLabels; // @synthesize constraintBetweenLabels=_constraintBetweenLabels;
-@property(nonatomic) __weak NSTextField *contentValueLabel; // @synthesize contentValueLabel=_contentValueLabel;
 @property(nonatomic) __weak NSTextField *sectionTitleLabel; // @synthesize sectionTitleLabel=_sectionTitleLabel;
 
 @end

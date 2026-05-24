@@ -11,7 +11,7 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct fsid {
-    int val[2];
+    int _field1[2];
 };
 
 #pragma mark Typedef'd Structures

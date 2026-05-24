@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CWFXPCProxy
 {
     _Bool _synchronous;
-    id _target;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -21,16 +16,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setDeviceBatteryComponentBatteryUpdatedHandler:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void)uthorizationLevelForClientID:isAuthorizedForDeviceAccess: /* Error: Ran out of types for this method. */;
+- (void)__authorizationLevelForClientID:isAuthorizedForDeviceAccess: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
-@property(retain, nonatomic) id target; // @synthesize target=_target;
 
 @end
 

@@ -4,6 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMediaObject, CKMessageEntryRichTextView, UIGestureRecognizer, UIView, UIViewController;
+@protocol CKGradientReferenceView;
+
 @protocol CKMessageEntryRichTextViewDelegate
+- (void)dataToEditForAttachment:(CKMessageEntryRichTextView *)arg1 includeMarkupModelData: /* Error: Ran out of types for this method. */;
+- (void)dataSizeNumber;
+- (void)dataFromRange:(CKMessageEntryRichTextView *)arg1 documentAttributes:(_Bool)arg2 error: /* Error: Ran out of types for this method. */;
+- (_Bool)dataForAttachment:(CKMessageEntryRichTextView *)arg1 outFilename:outMimeType: /* Error: Ran out of types for this method. */;
+- (_Bool)dataFileURL;
+- (_Bool)data;
+- (_Bool)customCancelButtonTitle;
+- (void)customAccountName;
+- (void)currentUserParticipant;
+- (void)currentTime;
+- (void)currentShadowColorForGlyphIndex:(CKMessageEntryRichTextView *)arg1 numberOfGlyphs:(UIViewController *)arg2 timeIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)currentScaleForGlyphIndex:(CKMessageEntryRichTextView *)arg1 numberOfGlyphs:(UIGestureRecognizer *)arg2 timeIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)currentReachabilityStatus;
+- (void)currentOrientation;
+- (void)currentItem;
+- (void)currentIndexForGlyphIndex:(CKMessageEntryRichTextView *)arg1 numberOfGlyphs:(CKMediaObject *)arg2 timeIndex:isFinished: /* Error: Ran out of types for this method. */;
+- (void)currentHighlightsAttributedStringHasHighlights;
+- (void)currentHighlightsAttributedString;
+- (void)currentDrawingAppearance;
+- (void)currentColorForGlyphIndex:(CKMessageEntryRichTextView *)arg1 numberOfGlyphs:(UIViewController *)arg2 timeIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)csEvaluatorMatchString;
+- (double)cancelCurrentAudioRecordingSessionWithCompletionHandler:(CKMessageEntryRichTextView *)arg1;
+- (UIView<CKGradientReferenceView> *)_collapsedUUIDs;
+- (double)AyAByACyAByACy3>;
 @end
 

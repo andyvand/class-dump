@@ -9,13 +9,6 @@
 @interface RTLearnedPlaceTypeInferenceStats
 {
     NSArray *_weeklyStats;
-    double _weeklyAggregateDwellTimeBetweenDateRangeAverage;
-    double _weeklyAggregateDwellTimeBetweenDateRangeStandardDeviation;
-    double _weeklyTotalDailyVisitCountAverage;
-    double _weeklyDaysWithNonZeroDwellTimeAverage;
-    long long _totalDailyVisitCount;
-    long long _weeksWithNonZeroDwellTime;
-    double _topMedianDwellTime;
 }
 
 - (long long);
@@ -27,18 +20,11 @@
 - (long long);
 - (double);
 - (id);
-- (id);
+- (id)external reload;
 - (void)ropping ploi, %{sensitive}@, too close to current location;
 
 // Remaining properties
-@property(readonly, nonatomic) double topMedianDwellTime; // @synthesize topMedianDwellTime=_topMedianDwellTime;
-@property(readonly, nonatomic) long long totalDailyVisitCount; // @synthesize totalDailyVisitCount=_totalDailyVisitCount;
-@property(readonly, nonatomic) double weeklyAggregateDwellTimeBetweenDateRangeAverage; // @synthesize weeklyAggregateDwellTimeBetweenDateRangeAverage=_weeklyAggregateDwellTimeBetweenDateRangeAverage;
-@property(readonly, nonatomic) double weeklyAggregateDwellTimeBetweenDateRangeStandardDeviation; // @synthesize weeklyAggregateDwellTimeBetweenDateRangeStandardDeviation=_weeklyAggregateDwellTimeBetweenDateRangeStandardDeviation;
-@property(readonly, nonatomic) double weeklyDaysWithNonZeroDwellTimeAverage; // @synthesize weeklyDaysWithNonZeroDwellTimeAverage=_weeklyDaysWithNonZeroDwellTimeAverage;
 @property(readonly, nonatomic) NSArray *weeklyStats; // @synthesize weeklyStats=_weeklyStats;
-@property(readonly, nonatomic) double weeklyTotalDailyVisitCountAverage; // @synthesize weeklyTotalDailyVisitCountAverage=_weeklyTotalDailyVisitCountAverage;
-@property(readonly, nonatomic) long long weeksWithNonZeroDwellTime; // @synthesize weeksWithNonZeroDwellTime=_weeksWithNonZeroDwellTime;
 
 @end
 

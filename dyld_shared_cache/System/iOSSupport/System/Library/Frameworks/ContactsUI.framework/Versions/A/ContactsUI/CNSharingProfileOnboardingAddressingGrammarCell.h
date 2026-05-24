@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)tTypeDescription;
+- (void)accountTypeDescription;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *addressingGrammarLabel; // @synthesize addressingGrammarLabel=_addressingGrammarLabel;

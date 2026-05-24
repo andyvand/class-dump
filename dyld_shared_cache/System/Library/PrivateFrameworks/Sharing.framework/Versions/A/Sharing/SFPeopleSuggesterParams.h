@@ -9,19 +9,16 @@
 @interface SFPeopleSuggesterParams
 {
     _Bool _excludeBackfills;
-    unsigned int _flags;
-    unsigned int _maxPeople;
-    NSArray *_contactIDs;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (id);
-- (void);
+- (void):(unsigned int)arg1;
 - (unsigned int);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)__DATA_DIRTY;
 - (void);
 - (id);
 - (_Bool)
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIDs; // @synthesize contactIDs=_contactIDs;
-@property(nonatomic) _Bool excludeBackfills; // @synthesize excludeBackfills=_excludeBackfills;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) unsigned int maxPeople; // @synthesize maxPeople=_maxPeople;
 
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface RTVehicleEventHistoryMO
 {
 }
 
-+ (id);
++ (id)@0:(id)arg1 8;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @dynamic date;
-@property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSDate *locDate; // @dynamic locDate;
-@property(retain, nonatomic) NSNumber *locLatitude; // @dynamic locLatitude;
-@property(retain, nonatomic) NSNumber *locLongitude; // @dynamic locLongitude;
-@property(retain, nonatomic) NSNumber *locUncertainty; // @dynamic locUncertainty;
 
 @end
 

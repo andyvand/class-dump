@@ -10,15 +10,13 @@
 @interface DECryptor
 {
     unsigned int _operation;
-    NSObject<DEWriter> *_writer;
-    struct _CCCryptor *_cryptor;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (struct _CCCryptor *);
@@ -28,8 +26,6 @@
 - (void)EENS_9allocatorIS3_EEEE;
 
 // Remaining properties
-@property(nonatomic) struct _CCCryptor *cryptor; // @synthesize cryptor=_cryptor;
-@property(nonatomic) unsigned int operation; // @synthesize operation=_operation;
 @property(retain, nonatomic) NSObject<DEWriter> *writer; // @synthesize writer=_writer;
 
 @end

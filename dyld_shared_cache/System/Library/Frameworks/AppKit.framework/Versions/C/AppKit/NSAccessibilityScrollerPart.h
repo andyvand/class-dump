@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     unsigned long long _partCode;
 }
 
-+ (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
++ (id)[%llu:(unsigned long long)arg1 %p] using %s proxy configuration;
+- (unsigned long long)NSDate",C,N,V_newerThanCreationDate;
+- (id)headers=%@ req=%@;
+- (id)NSExceptionRequiresForwardSecrecy;
+- (void)est_key, partition) VALUES (%q, %q, %q, %q, %q);;
+- (_Bool)oo small (%ld).  No persistent DB opened at %@.;
+- (id)ocket %d;
+- (id)_readFinalized && _writeFinalized;
 - (void);
 - (id);
 - (unsigned long long);

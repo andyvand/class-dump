@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWMemoryPool, NSString;
+@class BWMemoryPool;
 
 __attribute__((visibility("hidden")))
 @interface BWMemoryPoolFlushAssertion
 {
     BWMemoryPool *_pool;
-    NSString *_identifier;
 }
 
-- (void);
+- (void)/;
 
 @end
 

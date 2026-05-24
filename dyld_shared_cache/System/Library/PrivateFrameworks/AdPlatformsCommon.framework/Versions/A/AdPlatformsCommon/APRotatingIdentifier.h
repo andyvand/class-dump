@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface APRotatingIdentifier
 {
     void value;
-    long long type;
-    long long source;
-    void expirationDate;
-    void processId;
-    void clientSessionId;
 }
 
 - (id);
@@ -33,11 +28,6 @@
 - (id)ormsCommon32StorefrontIDCountryCodeConverterP;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *clientSessionId;
-@property(nonatomic, copy) NSDate *expirationDate;
-@property(nonatomic, copy) NSString *processId;
-@property(nonatomic) long long source; // @synthesize source;
-@property(nonatomic) long long type; // @synthesize type;
 @property(nonatomic, copy) NSString *value;
 
 @end

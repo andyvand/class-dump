@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INBillDetails, INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
+@class NSString;
 
 @protocol INPayBillIntentResponseExport
+- (void);
+- (NSString *)a;
 - (long long)hasITunesStoreFrontIdentifier;
 
 // Remaining properties
-@property(copy) INBillDetails *billDetails;
 @property(readonly) long long code;
-@property(copy) INPaymentAccount *fromAccount;
-@property(copy) INPaymentAmount *transactionAmount;
-@property(copy) NSString *transactionNote;
-@property(copy) INDateComponentsRange *transactionScheduledDate;
 @end
 

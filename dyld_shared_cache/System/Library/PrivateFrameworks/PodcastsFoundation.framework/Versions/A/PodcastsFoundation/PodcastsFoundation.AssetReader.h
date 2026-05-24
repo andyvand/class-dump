@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.AssetReader
 {
     id stateController;
-    id readerQueue;
-    id readerRemainingTimeRange;
-    id subscription;
 }
 
 @end

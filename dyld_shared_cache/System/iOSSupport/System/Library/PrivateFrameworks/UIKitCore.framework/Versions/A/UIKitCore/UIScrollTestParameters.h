@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSString;
+@class NSString;
 
 @interface UIScrollTestParameters
 {
     NSString *_testName;
-    long long _iterations;
-    double _delta;
-    double _length;
-    unsigned long long _axis;
-    CDUnknownBlockType _extraResultsBlock;
-    double _startOffset;
-    CADisplayLink *_displayLink;
-    CDUnknownBlockType _completionBlock;
 }
 
-- (void);
+- (void)payloadAllowLockScreenWiFiModification;
 - (CDUnknownBlockType);
 - (double);
-- (long long);
+- (long long);
 - (double);
-- (double);
+- (double)2;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)0@ù
 × ;
 - (unsigned long long)!üDù1dð1Â0@ù
 × ;
 - (void);
-- (void)thContentForIndexPath:(id)arg1 elementKind: /* Error: Ran out of types for this method. */;
-- (id)olor:(struct _NSZone *)arg1 dodgeColor:compositingColor: /* Error: Ran out of types for this method. */;
+- (void)orthogonalScrollingSectionDecorationShouldScrollWithContentForIndexPath:(id)arg1 elementKind: /* Error: Ran out of types for this method. */;
+- (id)_darkVibrantEffectWithLightenColor:(struct _NSZone *)arg1 dodgeColor:compositingColor: /* Error: Ran out of types for this method. */;
 - (void)ð¸;
-- (void)undConfigurationShadowType;
+- (void)_backgroundConfigurationShadowType;
 - (CDUnknownBlockType);
 - (void)ÐÛc;
 - (id)Ìf;
@@ -46,16 +38,7 @@
 - (id)+ÈÒk;
 
 // Remaining properties
-@property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) double delta; // @synthesize delta=_delta;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly, nonatomic) double endOffset;
-@property(copy, nonatomic) CDUnknownBlockType extraResultsBlock; // @synthesize extraResultsBlock=_extraResultsBlock;
-@property(nonatomic) long long iterations; // @synthesize iterations=_iterations;
-@property(nonatomic) double length; // @synthesize length=_length;
 @property(nonatomic) double startOffset; // @synthesize startOffset=_startOffset;
-@property(copy, nonatomic) NSString *testName; // @synthesize testName=_testName;
 
 @end
 

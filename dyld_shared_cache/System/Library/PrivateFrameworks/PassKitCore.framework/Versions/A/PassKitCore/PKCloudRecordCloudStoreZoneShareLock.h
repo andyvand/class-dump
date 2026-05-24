@@ -18,13 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long)MinimumPaymentExcludedFromInterestCalculation;
+- (long long)_remainingPeriodMinimumPaymentExcludedFromInterestCalculation;
 - (void)om.apple.health;
 
 // Remaining properties

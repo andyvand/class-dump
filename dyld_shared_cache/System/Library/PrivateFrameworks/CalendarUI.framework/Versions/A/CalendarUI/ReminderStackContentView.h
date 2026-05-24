@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIBoxOccurrenceContentView, CalUILabel, NSImageView, NSLayoutConstraint, NSStackView, NSString;
+@class CalUIBoxOccurrenceContentView, CalUILabel;
 
 @interface ReminderStackContentView
 {
     CalUILabel *_titleField;
-    CalUILabel *_moreField;
-    NSImageView *_titleImage;
-    NSStackView *_titleStack;
-    NSLayoutConstraint *_titleStackYCenteringConstraint;
-    CalUIBoxOccurrenceContentView *_parentView;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak CalUIBoxOccurrenceContentView *parentView; // @synthesize parentView=_parentView;
-@property(readonly) Class superclass;
 
 @end
 

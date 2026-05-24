@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface STCity
 {
     NSString *_name;
-    NSString *_unlocalizedName;
-    NSString *_countryName;
-    NSString *_unlocalizedCountryName;
-    NSString *_timeZone;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSNumber *_alCityID;
 }
 
 + (_Bool);
@@ -23,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void)nguage: /* Error: Ran out of types for this method. */;
+- (void)_filterVoices:forLanguage: /* Error: Ran out of types for this method. */;
 
 @end
 

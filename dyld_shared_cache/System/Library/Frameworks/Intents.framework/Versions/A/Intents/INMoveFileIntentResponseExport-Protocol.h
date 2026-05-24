@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @protocol INMoveFileIntentResponseExport
-- (NSNumber *)nity:withCompletion: /* Error: Ran out of types for this method. */;
-- (long long)yName;
-- (void)TER;
+- (NSNumber *)resolveMediaItemsForUpdateMediaAffinity:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)hasEntityName;
+- (void)MILLIMETER;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *destinationName;
-@property(copy) NSArray *entityNames;
-@property unsigned long long entityTypes;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSString *sourceName;
-@property(copy) NSNumber *success;
 @end
 

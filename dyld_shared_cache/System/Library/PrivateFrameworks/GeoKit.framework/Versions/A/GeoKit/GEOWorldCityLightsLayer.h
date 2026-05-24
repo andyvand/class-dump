@@ -13,14 +13,14 @@
     NSTimer *animationTimer;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)aults.acknowledgePrivacyOverride is ALWAYS.;
+- (void)cyTask. privacyIdentifiers = %{public}@;
+- (id)lic}@ minimumVersion = %{public}@;
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)deleteProduction:shouldDeleteAssetFiles: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

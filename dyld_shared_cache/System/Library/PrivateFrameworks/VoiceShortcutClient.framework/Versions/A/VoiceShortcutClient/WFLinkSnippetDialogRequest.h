@@ -6,21 +6,18 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class LNAction, LNViewSnippet, NSData;
+@class LNViewSnippet;
 
 @interface WFLinkSnippetDialogRequest : WFDialogRequest
 {
     _Bool _showPrompt;
-    LNViewSnippet *_viewSnippet;
-    LNAction *_snippetAction;
-    NSData *_encodedSnippetActionToolInvocation;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)__DATA_CONST;
+- (id);
+- (id)rXz;
 - (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (void);
@@ -28,9 +25,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *encodedSnippetActionToolInvocation; // @synthesize encodedSnippetActionToolInvocation=_encodedSnippetActionToolInvocation;
-@property(readonly, nonatomic) _Bool showPrompt; // @synthesize showPrompt=_showPrompt;
-@property(readonly, copy, nonatomic) LNAction *snippetAction; // @synthesize snippetAction=_snippetAction;
 @property(readonly, copy, nonatomic) LNViewSnippet *viewSnippet; // @synthesize viewSnippet=_viewSnippet;
 
 @end

@@ -9,7 +9,6 @@
 @interface _EDWrappedMessage
 {
     long long _databaseID;
-    EMMessage *_message;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 );;
 
 // Remaining properties
-@property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
 @property(readonly, nonatomic) EMMessage *message; // @synthesize message=_message;
 
 @end

@@ -6,17 +6,16 @@
 
 #import <DifferentialPrivacy/_DPDataRecorder.h>
 
-@class NSSet, _DPStorage;
+@class _DPStorage;
 
 @interface _DPDatabaseRecorder : _DPDataRecorder
 {
     _DPStorage *_db;
-    NSSet *_blacklistSet;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)H+;
+- (id)is.rectOfCenteredContainerElementAfterResize.left),{FoundCenteredContainer:!!this.centeredContainerElement,CenteredContainerIsFixedWidth:e,DistanceContainerMoved:t}}};var WebContentLayoutAnalyzerJS=new WebContentLayoutAnalyzer; /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -26,19 +25,18 @@
 - (void);
 - (void);
 - (id);
+- (void)shouldRemotelyUpdatableDataControllerUpdateOnSchedule:(id)arg1;
 - (void);
-- (void);
+- (id);
+- (void)$;
+- (void)NeverCollected;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_appCanSupportOneTimeCodeModeDeliveredCodesOnly;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *blacklistSet; // @synthesize blacklistSet=_blacklistSet;
 @property(readonly, nonatomic) _DPStorage *db; // @synthesize db=_db;
 
 @end

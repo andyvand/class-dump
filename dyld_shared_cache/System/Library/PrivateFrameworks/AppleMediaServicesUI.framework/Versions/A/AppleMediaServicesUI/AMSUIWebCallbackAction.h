@@ -6,34 +6,24 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCallbackAction : AMSUIWebAction
 {
     NSString *_service;
-    NSDictionary *_data;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lityRequiresNumbersOrGridOverlay};
 - (id);
 - (void)8;
 - (void);
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

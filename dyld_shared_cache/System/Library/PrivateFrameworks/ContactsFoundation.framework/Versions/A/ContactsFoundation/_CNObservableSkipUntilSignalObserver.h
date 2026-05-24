@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _CNObservableSkipUntilSignalObserverDelegate;
 
 @interface _CNObservableSkipUntilSignalObserver
@@ -15,20 +14,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (void)to decrypt pronoun, empty string supplied;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) __weak id <_CNObservableSkipUntilSignalObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

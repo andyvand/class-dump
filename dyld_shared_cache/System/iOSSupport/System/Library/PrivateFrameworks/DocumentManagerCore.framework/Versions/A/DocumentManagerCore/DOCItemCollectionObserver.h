@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemCollection, NSMutableArray, NSString;
-@protocol FPItemCollectionIndexPathBasedDelegate;
+@class FPItemCollection;
 
 @interface DOCItemCollectionObserver
 {
     FPItemCollection *_itemCollection;
-    NSMutableArray *_subscribers;
-    NSMutableArray *_delegates;
-    id <FPItemCollectionIndexPathBasedDelegate> _soleUpdatableDelegate;
 }
 
-- (id);
+- (id)\};
 - (void);
 - (void);
 - (void);
@@ -23,37 +19,27 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)RG;
 - (void);
 - (id);
 - (id);
+- (void)tatement->sql_statement == nil;
+- (void)person_centric_id;
+- (void)escriptors:(id)arg1 limit:(id)arg2 completionHandler:(id)arg3 ];
+- (void)tchHandleRecordsFilteredUsingPredicate:(id)arg1 sortedUsingDescriptors:(id)arg2 limit:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)teredByPredicate:(id)arg1 ];
 - (void);
+- (void);
+- (void);
+- (void)type (%d) yet;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)J;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSMutableArray *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) FPItemCollection *itemCollection; // @synthesize itemCollection=_itemCollection;
-@property(retain) id <FPItemCollectionIndexPathBasedDelegate> soleUpdatableDelegate; // @synthesize soleUpdatableDelegate=_soleUpdatableDelegate;
-@property(retain) NSMutableArray *subscribers; // @synthesize subscribers=_subscribers;
-@property(readonly) Class superclass;
 
 @end
 

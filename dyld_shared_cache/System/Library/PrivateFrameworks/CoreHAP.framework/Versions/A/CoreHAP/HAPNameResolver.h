@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPNameResolver
 {
     struct os_unfair_lock_s _lock;
-    long long _resolutionState;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_nw_connection> *_connection;
-    HMFTimer *_timer;
-    CDUnknownBlockType _completion;
-    NSString *_name;
-    NSString *_serviceType;
-    NSString *_domain;
 }
 
 + (id);
@@ -30,10 +22,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)de PCS to v2 for zone %@;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -42,10 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)decodeIntForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)P;
 - (id);
 - (void);
 - (void);
@@ -53,20 +45,6 @@
 - (void)te confirmation;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) long long resolutionState; // @synthesize resolutionState=_resolutionState;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol AVMediaDataRequesterConsumer
+- (_Bool);
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MFIMAPOperation
 {
     _Bool _usesRealUids;
-    NSString *_mailboxName;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)Yq	;
 - (unsigned char);
 - (id);
 - (void);
@@ -25,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
 @property(readonly, nonatomic) unsigned char operationType;
-@property(nonatomic) _Bool usesRealUids; // @synthesize usesRealUids=_usesRealUids;
 
 @end
 

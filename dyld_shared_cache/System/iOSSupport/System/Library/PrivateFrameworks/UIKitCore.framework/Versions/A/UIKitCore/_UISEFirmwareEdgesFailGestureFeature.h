@@ -12,12 +12,10 @@ __attribute__((visibility("hidden")))
 @interface _UISEFirmwareEdgesFailGestureFeature : _UISEGestureFeature
 {
     id <_UISEGestureFeatureSettings> _settings;
-    _Bool _hasDoneTest;
-    unsigned long long _touchedEdges;
 }
 
-- (id);
-- (void)tInteractionSpec:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)__MPModelPropertyGenreName__MAPPING_MISSING__;
+- (void)setInteractionSpec:(const struct _UISEGestureFeatureSample *)arg1;
 - (unsigned long long)LBüB;
 - (id)r_;
 - (void);

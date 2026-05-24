@@ -6,50 +6,36 @@
 
 #import <CalendarUIKit/CUIKUserActivity.h>
 
-@class NSDate, NSString, NSTimeZone, NSURL;
+@class NSDate;
 
 @interface CUIKUserActivityNewEvent : CUIKUserActivity
 {
     _Bool _allDay;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSTimeZone *_timeZone;
-    NSString *_title;
-    NSURL *_url;
-    NSString *_notes;
-    NSString *_location;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_timeExpressiveSendPlayed;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void)textRangeForServicesInteraction;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)ReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
-- (void)es;
+- (void)P;
+- (void)stringByReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
+- (void)occurrences;
 - (id)CodingKeys;
-- (void)eAgent;
+- (void)EKScheduleAgent;
 
 // Remaining properties
-@property _Bool allDay; // @synthesize allDay=_allDay;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) NSString *location; // @synthesize location=_location;
-@property(retain) NSString *notes; // @synthesize notes=_notes;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSURL *url; // @synthesize url=_url;
 
 @end
 

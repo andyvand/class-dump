@@ -6,16 +6,14 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceDeleteBeneficiaryRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_beneficiaryIdentifier;
-    NSURL *_baseURL;
 }
 
-- (void);
+- (void)g;
 - (id);
 - (id);
 - (id)ard not supported;
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *beneficiaryIdentifier; // @synthesize beneficiaryIdentifier=_beneficiaryIdentifier;
 
 @end
 

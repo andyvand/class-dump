@@ -4,64 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFServiceDeviceContext, NSDictionary, NSString, NSUUID;
+@class AFServiceDeviceContext;
 
 @interface _AFServiceDeviceContextMutation
 {
     AFServiceDeviceContext *_base;
-    NSUUID *_identifier;
-    NSString *_assistantIdentifier;
-    NSString *_mediaSystemIdentifier;
-    NSString *_mediaRouteIdentifier;
-    NSString *_sharedUserID;
-    NSString *_roomName;
-    long long _proximity;
-    NSDictionary *_serializedContextByKey;
-    NSDictionary *_metricsContext;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIdentifier:1;
-        unsigned int hasAssistantIdentifier:1;
-        unsigned int hasMediaSystemIdentifier:1;
-        unsigned int hasMediaRouteIdentifier:1;
-        unsigned int hasSharedUserID:1;
-        unsigned int hasRoomName:1;
-        unsigned int hasProximity:1;
-        unsigned int hasSerializedContextByKey:1;
-        unsigned int hasMetricsContext:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long)q;
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)ontainsPrivacySensitiveContents:(id)arg1;
+- (_Bool)4;
+- (void)informOfTriggeredScheduledMessageSendWithMessage:(id)arg1;
+- (id)ields:resultHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (id);
+- (id)stringForExpression:(id)arg1 containsPrivacySensitiveContents: /* Error: Ran out of types for this method. */;
+- (void)_performTaskCommandDictionary:forBundleIdentifier:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

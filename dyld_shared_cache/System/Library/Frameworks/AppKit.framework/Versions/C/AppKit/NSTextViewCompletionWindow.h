@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
+- (_Bool)SourceAppSigningIdentifier;
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 
 @end

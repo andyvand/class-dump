@@ -6,14 +6,11 @@
 
 #import <OSPersonalization/OSPOperation.h>
 
-@class NSObject, NSThread;
-@protocol OS_dispatch_semaphore;
+@class NSThread;
 
 @interface OSPUpdatePrebootOperation : OSPOperation
 {
     NSThread *_diskManagementThread;
-    NSObject<OS_dispatch_semaphore> *_ensureRecoveryBooterFinished;
-    NSObject<OS_dispatch_semaphore> *_stopDiskManagementThread;
 }
 
 - (id);
@@ -28,15 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id);
+- (void)ould not initialize from decoded uniqueIdentifier:%@ dateOfOccurrence:%@ confidence level:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSThread *diskManagementThread; // @synthesize diskManagementThread=_diskManagementThread;
-@property(retain) NSObject<OS_dispatch_semaphore> *ensureRecoveryBooterFinished; // @synthesize ensureRecoveryBooterFinished=_ensureRecoveryBooterFinished;
-@property(retain) NSObject<OS_dispatch_semaphore> *stopDiskManagementThread; // @synthesize stopDiskManagementThread=_stopDiskManagementThread;
 
 @end
 

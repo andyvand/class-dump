@@ -9,7 +9,6 @@
 @interface CKModifyBadgeOperation : CKOperation
 {
     unsigned long long _badgeValue;
-    CDUnknownBlockType _modifyBadgeCompletionBlock;
 }
 
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeValue; // @synthesize badgeValue=_badgeValue;
-@property(copy, nonatomic) CDUnknownBlockType modifyBadgeCompletionBlock; // @synthesize modifyBadgeCompletionBlock=_modifyBadgeCompletionBlock;
 
 @end
 

@@ -9,10 +9,9 @@
 @interface CKAPSMachServiceConnectionKey
 {
     NSString *_environmentName;
-    NSString *_namedDelegatePort;
 }
 
-- (unsigned long long);
+- (unsigned long long)newBufferWithLength:options:placementSparsePageSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *environmentName; // @synthesize environmentName=_environmentName;
-@property(readonly, copy, nonatomic) NSString *namedDelegatePort; // @synthesize namedDelegatePort=_namedDelegatePort;
 
 @end
 

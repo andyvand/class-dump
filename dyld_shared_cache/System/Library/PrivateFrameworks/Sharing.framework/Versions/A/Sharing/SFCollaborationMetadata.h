@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _SWCollaborationShareOptions;
+@class _SWCollaborationShareOptions;
 
 @interface SFCollaborationMetadata
 {
     _SWCollaborationShareOptions *_defaultShareOptions;
-    NSArray *_defaultOptions;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *defaultOptions; // @synthesize defaultOptions=_defaultOptions;
 @property(readonly, nonatomic) _SWCollaborationShareOptions *defaultShareOptions; // @synthesize defaultShareOptions=_defaultShareOptions;
 
 @end

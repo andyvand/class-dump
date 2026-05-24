@@ -13,9 +13,10 @@
     NSArray *_keys;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)session message timeout from prefs:old value:%d, new value:%d
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)essageListItemChangeSendLaterDate>",&,N,V_sendLaterDate;
 - (id);
 - (void);
 - (void);

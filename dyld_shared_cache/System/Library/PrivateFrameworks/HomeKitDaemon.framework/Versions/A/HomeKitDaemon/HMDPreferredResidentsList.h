@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDPreferredResidentsList
 {
     NSArray *_residentIDSIdentifiers;
-    NSDate *_modifiedTimestamp;
 }
 
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)generator;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *modifiedTimestamp; // @synthesize modifiedTimestamp=_modifiedTimestamp;
 @property(readonly, nonatomic) NSArray *residentIDSIdentifiers; // @synthesize residentIDSIdentifiers=_residentIDSIdentifiers;
 
 @end

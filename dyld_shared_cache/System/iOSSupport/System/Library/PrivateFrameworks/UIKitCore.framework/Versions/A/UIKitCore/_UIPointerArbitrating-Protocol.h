@@ -5,12 +5,16 @@
 //
 
 @class _UIPointerLensView;
+@protocol _UIAssertion;
 
 @protocol _UIPointerArbitrating
+- (_UIPointerLensView *)unkLength;
+- (void)"MPVolumeView";
+- (id <_UIAssertion>);
 - (void);
 - (long long)dCùQ\1Â0@ù
 × ;
-- (void)ace;
+- (void)UIKBKeyInteractionTypeSpace;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPointerLensView *lensView;

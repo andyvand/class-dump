@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IHSchemaIHModelEvaluationStarted : SISchemaInstrumentationMessage
 {
     NSString *_modelId;
-    _Bool _hasModelId;
 }
 
 - (void);
@@ -29,12 +28,10 @@
 × ;
 - (void);
 - (id)e;
-- (id)PlatformClientEventMetadata;
+- (id)IFPlatformSchemaIFPlatformClientEventMetadata;
 - (void)æÕÿø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelId; // @synthesize hasModelId=_hasModelId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelId; // @synthesize modelId=_modelId;
 
 @end

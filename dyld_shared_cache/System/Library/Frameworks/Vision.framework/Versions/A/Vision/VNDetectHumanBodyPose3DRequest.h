@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_typesEvaluated;
 - (id);
 - (void);
 - (void);

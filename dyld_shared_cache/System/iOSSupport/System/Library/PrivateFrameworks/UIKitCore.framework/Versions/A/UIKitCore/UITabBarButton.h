@@ -6,75 +6,45 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSMutableDictionary, NSString, UIColor, UIImage, UIImageView, UITabBar, UITabBarButtonLabel, UITabBarSwappableImageView, UIVibrancyEffect, UIView, UIVisualEffectView, _UIBadgeView, _UITabBarItemData;
-
 __attribute__((visibility("hidden")))
 @interface UITabBarButton : UIControl
 {
     struct CGRect _hitRect;
-    UITabBarSwappableImageView *_imageView;
-    UIVisualEffectView *_vibrancyEffectView;
-    UITabBarButtonLabel *_label;
-    _UIBadgeView *_badge;
-    UIImageView *_selectedIndicator;
-    struct UIEdgeInsets _imageInsets;
-    struct UIEdgeInsets _imageLandscapeInsets;
-    UIImage *_customSelectedIndicatorImage;
-    struct UIOffset _labelOffset;
-    NSMutableDictionary *_buttonTintColorsForState;
-    NSMutableDictionary *_contentTintColorsForState;
-    UIColor *_defaultUnselectedLabelTintColor;
-    UIColor *_badgeColor;
-    NSMutableDictionary *_badgeTextAttributesForState;
-    struct UIOffset _badgeOffset;
-    UIView *_highContrastFocusIndicator;
-    _Bool _selected;
-    _Bool _accessibilityButtonShapesEnabled;
-    _Bool _accessibilityHighContractFocusIndicatorEnabled;
-    _Bool _accessibilityGrayStatusEnabled;
-    _Bool _showsHighlightedState;
-    UIView *_focusView;
-    Class _appearanceGuideClass;
-    long long _layoutStyle;
-    _UITabBarItemData *_itemAppearanceData;
-    UIVibrancyEffect *_itemVibrantEffect;
-    UITabBar *_tabBar;
-    NSArray *_carplayConstraints;
 }
 
-+ (id)ntaryClass;
++ (id)hasSupplementaryClass;
+- (void)_automation_receiveDictionary:(id)arg1 options:fromID: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)x;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (double);
-- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (struct UIOffset);
-- (struct CGRect);
-- (_Bool);
+- (id);
+- (_Bool)n sender and FUS is enabled.;
+- (id)StoragePipelineComponent> Started processing type (%@) for guid %@;
+- (double)%@;
+- (id)rd %@ guid %@;
+- (_Bool)pipeline for delivered quietly receipt fromID:%@,  /* Error: Ran out of types for this method. */;
+- (void)For backcompat version of parentChatID %@, using groupID %@, could NOT find SMS chat, message may be lost on older devices;
+- (void)st message through Blastdoor name=(%@); reason=(%@);
+- (void)dating moment share fetch for message %@ with change %@. Count is now %lu;
+- (void)to photo library change for message %@;
+- (void)sferName (%@) and transfer:(_Bool)arg1 %@;
+- (void)account %@ batch identifier %@, %lld/%lld;
+- (id)position sticker chat command, no file transfer found locally;
+- (struct UIOffset)g exit record successfully;
+- (struct CGRect)LinkMessage called for chatid %@ category %ld, subCategory %ld, extensionName %@;
+- (_Bool)p rest of the transfer starting from:%@ /* Error: Ran out of types for this method. */;
+- (void){BOOL}d;
+- (void)ntroller;
+- (void)Chat_GroupPhoto;
+- (void)@"IMDHandle"8;
+- (void)vice is %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,27 +75,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setDeclarationRequiresNetworkTether: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
 - (_Bool);
+- (id)ssage %s;
+- (struct UIOffset)Trailer for Container (%s);
+- (void);
+- (void)setSelectionOperation:(long long)arg1;
+- (_Bool)pauseWithFadeoutDuration;
+- (void);
 - (id);
 - (struct UIOffset);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (struct UIOffset);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id)ùQa°1Â0@ù
@@ -134,9 +104,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)KBSelectionBackground";
 - (void)"d}"size"{CGSize="width"d"height"d}};
-- (void)orDefaultImageSnapshotForScreen:(_Bool)arg1;
-- (void)l;
-- (void)SelectionRectsVisible;
+- (void)prepareForDefaultImageSnapshotForScreen:(_Bool)arg1;
+- (void)displaysPageControl;
+- (void)areSelectionRectsVisible;
 - (void),V_currentUndoGroupType;
 - (void)àÿ;
 - (_Bool)õö4öØ÷;
@@ -144,8 +114,8 @@ __attribute__((visibility("hidden")))
 - (struct UIOffset)renderingAttributes:(long long)arg1 %@;
 - (void)ew hierarchy.;
 - (_Bool)eyWindowSceneObserverForScene(UIWindowScene * _Nonnull const __strong);
-- (Class)eltaFontSize;
-- (id)idLightBackground;
+- (Class)deltaFontSize;
+- (id)UIKBColorKeyPopupSolidLightBackground;
 - (void)4;
 - (void)et_WKUserStyleSheetClass(void)_block_invoke;
 - (void);
@@ -159,27 +129,7 @@ __attribute__((visibility("hidden")))
 - (void)øûe;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;
-@property(readonly, nonatomic) struct CGRect _contentRect;
-@property(readonly, nonatomic, getter=isDefaultTVLayout) _Bool _defaultTVLayout;
-@property(readonly, nonatomic) UIColor *_defaultUnselectedLabelTintColor;
-@property(nonatomic, getter=_isSelected, setter=_setSelected:) _Bool _selected;
-@property(nonatomic, setter=_setShowsHighlightedState:) _Bool _showsHighlightedState; // @synthesize _showsHighlightedState;
-@property(retain, nonatomic) NSArray *carplayConstraints; // @synthesize carplayConstraints=_carplayConstraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIView *focusView; // @synthesize focusView=_focusView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UITabBarItemData *itemAppearanceData; // @synthesize itemAppearanceData=_itemAppearanceData;
-@property(retain, nonatomic) UIVibrancyEffect *itemVibrantEffect; // @synthesize itemVibrantEffect=_itemVibrantEffect;
-@property(nonatomic) long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
 @property(nonatomic, getter=isSpringLoaded) _Bool springLoaded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UITabBar *tabBar; // @synthesize tabBar=_tabBar;
-@property(retain, nonatomic, getter=_unselectedTintColor, setter=_setUnselectedTintColor:) UIColor *unselectedTintColor;
 
 @end
 

@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TUCloudCallingDevice;
-
 @interface TUCallCapabilitiesState
 {
     _Bool _supportsPrimaryCalling;
-    _Bool _supportsBasebandCalling;
-    _Bool _supportsCellularData;
-    _Bool _supportsDisplayingTelephonyCalls;
-    _Bool _supportsDisplayingFaceTimeAudioCalls;
-    _Bool _supportsDisplayingFaceTimeVideoCalls;
-    _Bool _faceTimeAudioAvailable;
-    _Bool _faceTimeVideoAvailable;
-    _Bool _ctCapabilitiesValid;
-    _Bool _accountsMatchForSecondaryCalling;
-    _Bool _accountsSupportSecondaryCalling;
-    _Bool _supportsRelayCalling;
-    _Bool _relayCallingEnabled;
-    _Bool _relayCallingFeaturesEnabled;
-    _Bool _supportsTelephonyRelayCalling;
-    _Bool _supportsFaceTimeAudioRelayCalling;
-    _Bool _supportsFaceTimeVideoRelayCalling;
-    _Bool _emergencyCallbackModeEnabled;
-    _Bool _emergencyCallbackPossible;
-    int _relayCallingAvailability;
-    NSDictionary *_relayCallingDisabledForDeviceID;
-    NSString *_outgoingRelayCallerID;
-    NSArray *_cloudCallingDevices;
-    NSDictionary *_senderIdentityCapabilitiesStateByUUID;
 }
 
 + (_Bool);
@@ -43,25 +18,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (_Bool)J;
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)R";
 - (void);
 - (void);
 - (_Bool);
@@ -71,13 +46,13 @@
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id))	;
 - (void);
 - (id);
 - (void);
@@ -86,46 +61,15 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)s directory with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)ble;
+- (void)personaAvailable;
 
 // Remaining properties
-@property(nonatomic) _Bool accountsMatchForSecondaryCalling; // @synthesize accountsMatchForSecondaryCalling=_accountsMatchForSecondaryCalling;
-@property(nonatomic) _Bool accountsSupportSecondaryCalling; // @synthesize accountsSupportSecondaryCalling=_accountsSupportSecondaryCalling;
-@property(copy, nonatomic) NSArray *cloudCallingDevices; // @synthesize cloudCallingDevices=_cloudCallingDevices;
-@property(nonatomic, getter=areCTCapabilitiesValid) _Bool ctCapabilitiesValid; // @synthesize ctCapabilitiesValid=_ctCapabilitiesValid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) TUCloudCallingDevice *defaultPairedDevice;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEmergencyCallbackModeEnabled) _Bool emergencyCallbackModeEnabled; // @synthesize emergencyCallbackModeEnabled=_emergencyCallbackModeEnabled;
-@property(nonatomic, getter=isEmergencyCallbackPossible) _Bool emergencyCallbackPossible; // @synthesize emergencyCallbackPossible=_emergencyCallbackPossible;
-@property(nonatomic, getter=isFaceTimeAudioAvailable) _Bool faceTimeAudioAvailable; // @synthesize faceTimeAudioAvailable=_faceTimeAudioAvailable;
-@property(nonatomic, getter=isFaceTimeVideoAvailable) _Bool faceTimeVideoAvailable; // @synthesize faceTimeVideoAvailable=_faceTimeVideoAvailable;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *outgoingRelayCallerID; // @synthesize outgoingRelayCallerID=_outgoingRelayCallerID;
-@property(nonatomic) int relayCallingAvailability; // @synthesize relayCallingAvailability=_relayCallingAvailability;
-@property(copy, nonatomic) NSDictionary *relayCallingDisabledForDeviceID; // @synthesize relayCallingDisabledForDeviceID=_relayCallingDisabledForDeviceID;
-@property(nonatomic, getter=isRelayCallingEnabled) _Bool relayCallingEnabled; // @synthesize relayCallingEnabled=_relayCallingEnabled;
-@property(nonatomic, getter=areRelayCallingFeaturesEnabled) _Bool relayCallingFeaturesEnabled; // @synthesize relayCallingFeaturesEnabled=_relayCallingFeaturesEnabled;
-@property(copy, nonatomic) NSDictionary *senderIdentityCapabilitiesStateByUUID; // @synthesize senderIdentityCapabilitiesStateByUUID=_senderIdentityCapabilitiesStateByUUID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsBasebandCalling; // @synthesize supportsBasebandCalling=_supportsBasebandCalling;
-@property(nonatomic) _Bool supportsCellularData; // @synthesize supportsCellularData=_supportsCellularData;
-@property(nonatomic) _Bool supportsDisplayingFaceTimeAudioCalls; // @synthesize supportsDisplayingFaceTimeAudioCalls=_supportsDisplayingFaceTimeAudioCalls;
-@property(nonatomic) _Bool supportsDisplayingFaceTimeVideoCalls; // @synthesize supportsDisplayingFaceTimeVideoCalls=_supportsDisplayingFaceTimeVideoCalls;
-@property(nonatomic) _Bool supportsDisplayingTelephonyCalls; // @synthesize supportsDisplayingTelephonyCalls=_supportsDisplayingTelephonyCalls;
-@property(nonatomic) _Bool supportsFaceTimeAudioRelayCalling; // @synthesize supportsFaceTimeAudioRelayCalling=_supportsFaceTimeAudioRelayCalling;
-@property(nonatomic) _Bool supportsFaceTimeVideoRelayCalling; // @synthesize supportsFaceTimeVideoRelayCalling=_supportsFaceTimeVideoRelayCalling;
 @property(nonatomic) _Bool supportsPrimaryCalling; // @synthesize supportsPrimaryCalling=_supportsPrimaryCalling;
-@property(nonatomic) _Bool supportsRelayCalling; // @synthesize supportsRelayCalling=_supportsRelayCalling;
-@property(nonatomic) _Bool supportsTelephonyRelayCalling; // @synthesize supportsTelephonyRelayCalling=_supportsTelephonyRelayCalling;
 
 @end
 

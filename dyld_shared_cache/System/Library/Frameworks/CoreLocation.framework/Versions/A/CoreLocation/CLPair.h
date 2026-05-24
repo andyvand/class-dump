@@ -7,20 +7,18 @@
 @interface CLPair
 {
     int _first;
-    int _second;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (id);
-- (int);
+- (void)a;
+- (id)setInnerNodeBuffer:(struct _NSZone *)arg1;
+- (int)options:reflection:destinationBinaryArchive:error:compilerTask:completionHandler:] /* Error: Ran out of types for this method. */;
 - (int);
 - (id)%{public}.1lf,routeHints,jump in route hint measurement,%{public}.3lf,rejecting;
 
 // Remaining properties
 @property(readonly, nonatomic) int first; // @synthesize first=_first;
-@property(readonly, nonatomic) int second; // @synthesize second=_second;
 
 @end
 

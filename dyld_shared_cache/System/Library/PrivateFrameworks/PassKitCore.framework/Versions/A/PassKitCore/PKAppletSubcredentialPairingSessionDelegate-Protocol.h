@@ -7,6 +7,7 @@
 @class PKAppletSubcredentialPairingSession;
 
 @protocol PKAppletSubcredentialPairingSessionDelegate
+- (void);
 - (void)tifier:(PKAppletSubcredentialPairingSession *)arg1 %@;
 @end
 

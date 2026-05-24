@@ -9,20 +9,20 @@
     int _lowPowerModeToken;
 }
 
++ (_Bool)_eventAvailabilityForParticipantStatus:supportedEventAvailabilities:isAllDayEvent: /* Error: Ran out of types for this method. */;
 + (_Bool);
++ (id);
 + (_Bool);
++ (_Bool)gned int, int);
++ (_Bool)T;
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool)nabled;
-+ (_Bool)lumnAlias: /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool)isDNUEnabled;
++ (_Bool)indexForColumnAlias: /* Error: Ran out of types for this method. */;
+- (void):%@. waitOnTimestamp:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

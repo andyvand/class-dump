@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)xB;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *attributeKeys;
-@property(readonly, copy) NSArray *toManyRelationshipKeys;
-@property(readonly, copy) NSArray *toOneRelationshipKeys;
 
 @end
 

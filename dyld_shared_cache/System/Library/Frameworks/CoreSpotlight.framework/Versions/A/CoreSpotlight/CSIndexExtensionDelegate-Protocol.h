@@ -5,5 +5,6 @@
 //
 
 @protocol CSIndexExtensionDelegate
+- (void);
 @end
 

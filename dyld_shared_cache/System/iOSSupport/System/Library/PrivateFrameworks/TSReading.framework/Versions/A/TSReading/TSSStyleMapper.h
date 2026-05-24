@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TSKAddedToDocumentContext, TSSStylesheet, TSURetainedPointerKeyDictionary;
+@class TSSStylesheet;
 
 @interface TSSStyleMapper
 {
     TSSStylesheet *_targetStylesheet;
-    TSSStylesheet *_targetThemeStylesheet;
-    TSKAddedToDocumentContext *_dolcContext;
-    TSURetainedPointerKeyDictionary *_styleMap;
-    NSMutableArray *_mappingContext;
-    _Bool _forceMatchStyle;
-    _Bool _varyInThemeStylesheet;
 }
 
+- (void)ntItemID;
+- (void)etted as Last);
+- (id)PRIMARY KEY, type TEXT, monoAbsolute INT, monoContinuous INT, monoTimebaseNS INT, userNS INT, threadPriority INT, payload TEXT, _ns INT UNIQUE GENERATED ALWAYS AS (monoTimebaseNS + monoContinuous) STORED);
+- (void)mpleted user action - action:(_Bool)arg1;
+- (void)e - identifier:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0m;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceMatchStyle; // @synthesize forceMatchStyle=_forceMatchStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TSSStylesheet *targetStylesheet;
 
 @end

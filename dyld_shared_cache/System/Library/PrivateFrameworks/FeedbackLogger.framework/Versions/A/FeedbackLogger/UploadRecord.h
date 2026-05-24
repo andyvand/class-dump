@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface UploadRecord
 {
     int _uploadStatus;
-    NSString *_uploadIdentifier;
-    NSData *_payload;
-    NSString *_timestampReferenceIdentifier;
-    unsigned long long _processedAttempts;
-    NSDate *_dateCreated;
-    NSDate *_dateLastProcessed;
-    NSDate *_dateUploaded;
-    unsigned long long _size;
-    NSString *_applicationIdentifier;
 }
 
 - (id);
@@ -29,31 +20,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)r _fixCloudSharedGIFsInStore:(id)arg1 ];
 - (void);
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)CKPurchaseQueue;
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id)restrictedGuestHomeAccessSettings;
+- (void)kRemoveActionSetRequestKey;
+- (id)={;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(copy, nonatomic) NSDate *dateLastProcessed; // @synthesize dateLastProcessed=_dateLastProcessed;
-@property(copy, nonatomic) NSDate *dateUploaded; // @synthesize dateUploaded=_dateUploaded;
-@property(copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(nonatomic) unsigned long long processedAttempts; // @synthesize processedAttempts=_processedAttempts;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(copy, nonatomic) NSString *timestampReferenceIdentifier; // @synthesize timestampReferenceIdentifier=_timestampReferenceIdentifier;
 @property(copy, nonatomic) NSString *uploadIdentifier; // @synthesize uploadIdentifier=_uploadIdentifier;
-@property(nonatomic) int uploadStatus; // @synthesize uploadStatus=_uploadStatus;
 
 @end
 

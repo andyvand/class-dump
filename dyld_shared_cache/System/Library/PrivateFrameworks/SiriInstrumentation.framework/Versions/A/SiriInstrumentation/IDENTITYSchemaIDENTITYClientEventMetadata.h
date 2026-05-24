@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IDENTITYSchemaIDENTITYClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_identityId;
-    _Bool _hasIdentityId;
 }
 
 - (void);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)favoritesForMaxCount:completion: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (id)chemaODDAssistantExperimentTuples",&,N,V_tuples;
@@ -33,9 +32,7 @@
 - (void)4-ÊÿÇ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentityId; // @synthesize hasIdentityId=_hasIdentityId;
 @property(retain, nonatomic) SISchemaUUID *identityId; // @synthesize identityId=_identityId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class NSXPCInterface;
 
 @interface IDSXPCConnectionRemoteObjectPromise
 {
     NSXPCInterface *_interface;
-    NSMutableArray *_pendingInvocations;
-    id _target;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)qH;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)-[SFDeviceAssetManager onqueue_getCachedAssetBundleForTask:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,15 +26,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)?;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(retain, nonatomic) NSMutableArray *pendingInvocations; // @synthesize pendingInvocations=_pendingInvocations;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id target; // @synthesize target=_target;
 
 @end
 

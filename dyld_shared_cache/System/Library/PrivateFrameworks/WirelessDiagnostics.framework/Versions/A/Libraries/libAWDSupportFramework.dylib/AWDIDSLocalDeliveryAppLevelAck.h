@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSLocalDeliveryAppLevelAck
 {
     unsigned long long _isToDefaultPairedDevice;
-    unsigned long long _linkType;
-    unsigned long long _priority;
-    unsigned long long _timestamp;
-    NSString *_service;
-    struct {
-        unsigned int isToDefaultPairedDevice:1;
-        unsigned int linkType:1;
-        unsigned int priority:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long)ô&ûÿbí;
@@ -52,16 +40,7 @@
 - (void)Úÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsToDefaultPairedDevice;
-@property(nonatomic) _Bool hasLinkType;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasService;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

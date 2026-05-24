@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOLatLng, GEOLocation, GEOMapRegion, NSString;
+@class GEOLocation;
 
 @interface GEOMapItemBuilder
 {
     struct {
         unsigned int referenceFrame:1;
     } _has;
-    GEOLocation *_location;
-    int _referenceFrame;
-    GEOAddress *_address;
-    GEOMapRegion *_mapRegion;
-    GEOLatLng *_latlng;
-    NSString *_name;
 }
 
 + (id);
 - (id);
 - (void);
+- (id)public}d;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)tInCents:(int)arg1;
-- (int)NR;
+- (void)_MKMapItemUserRatingSnippetTip;
+- (void)setHasAmountInCents:(int)arg1;
+- (int)wifiSNR;
 - (void)²`
 ¼²(
 ä²x 
@@ -58,12 +52,7 @@
 - (void)øW:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAddress *address; // @synthesize address=_address;
-@property(retain, nonatomic) GEOLatLng *latlng; // @synthesize latlng=_latlng;
 @property(retain, nonatomic) GEOLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) GEOMapRegion *mapRegion; // @synthesize mapRegion=_mapRegion;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int referenceFrame; // @synthesize referenceFrame=_referenceFrame;
 
 @end
 

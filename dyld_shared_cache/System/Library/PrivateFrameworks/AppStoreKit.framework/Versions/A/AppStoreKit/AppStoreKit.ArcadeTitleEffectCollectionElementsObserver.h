@@ -7,8 +7,6 @@
 @interface AppStoreKit.ArcadeTitleEffectCollectionElementsObserver
 {
     id lastKnownTitleEffect;
-    id arcadeHeaderView;
-    id arcadeTitleEffectUpdateSubscription;
 }
 
 @end

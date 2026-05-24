@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChipList, IMRichCardLayout, IMRichCardMedia, IMUrlToTransferMap, NSString;
+@class IMRichCardLayout;
 
 @interface IMRichCard
 {
     IMRichCardLayout *layout;
-    IMRichCardMedia *media;
-    void title;
-    void cardDescription;
-    IMChipList *chipList;
-    IMUrlToTransferMap *urlToTransferMap;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)* ;
+- (id)*;
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)t.continuity.cloudpairing.present;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)setMaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
 - (void)3Ü;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *cardDescription;
-@property(nonatomic, readonly) IMChipList *chipList; // @synthesize chipList;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMRichCardLayout *layout; // @synthesize layout;
-@property(nonatomic, readonly) IMRichCardMedia *media; // @synthesize media;
-@property(nonatomic, readonly) NSString *title;
-@property(nonatomic, retain) IMUrlToTransferMap *urlToTransferMap; // @synthesize urlToTransferMap;
 
 @end
 

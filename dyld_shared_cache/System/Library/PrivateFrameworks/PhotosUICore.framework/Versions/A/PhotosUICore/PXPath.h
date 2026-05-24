@@ -9,7 +9,6 @@
 @interface PXPath
 {
     struct CGPath *_CGPath;
-    NSMutableArray *_points;
 }
 
 + (id);
@@ -24,11 +23,10 @@
 - (void);
 - (struct CGPath *);
 - (struct CGRect)H»É;
-- (void)isedSortOrder;
+- (void)PromisedSortOrder;
 - (id)`;
 
 // Remaining properties
-@property(retain) struct CGPath *CGPath; // @synthesize CGPath=_CGPath;
 @property(retain, nonatomic) NSMutableArray *points; // @synthesize points=_points;
 
 @end

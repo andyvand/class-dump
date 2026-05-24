@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C3DownloadChunkContext, CKDMMCSItem, CKDMMCSItemGroupContext, NSFileHandle, NSString;
+@class C3DownloadChunkContext;
 
 @interface CKDMMCSItemReaderWriter
 {
     C3DownloadChunkContext *_downloadChunkContext;
-    CKDMMCSItemGroupContext *_MMCSRequest;
-    CKDMMCSItem *_MMCSItem;
-    NSFileHandle *_fileHandle;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (id);
-- (_Bool);
+- (_Bool)�;
 - (id);
-- (id);
+- (id)TPHashBuilder;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ngPublicKeySignature;
+- (void)signingPublicKeySignature;
 - (void)ibrary/BuildRoots/4~CNqwugBiCB7YYOj9K-g_YLQNIMyKIpsYw_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/ProtectedCloudStorage/CKDPCSSQLCache.m;
 - (id)ssetCache updateAssetHandlesForPutMMCSItems:cloneItems:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)for operation %{public}@ with options %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSItem *MMCSItem; // @synthesize MMCSItem=_MMCSItem;
-@property(retain, nonatomic) CKDMMCSItemGroupContext *MMCSRequest; // @synthesize MMCSRequest=_MMCSRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) C3DownloadChunkContext *downloadChunkContext; // @synthesize downloadChunkContext=_downloadChunkContext;
-@property(retain, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

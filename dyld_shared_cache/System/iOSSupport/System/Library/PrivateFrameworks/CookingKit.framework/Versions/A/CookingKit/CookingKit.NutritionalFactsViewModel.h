@@ -8,16 +8,6 @@
 {
     id _calories;
     id _carbohydrate;
-    id _cholesterol;
-    id _fat;
-    id _fiber;
-    id _protein;
-    id _saturatedFat;
-    id _sodium;
-    id _sugar;
-    id _transFat;
-    id _unsaturatedFat;
-    id _$observationRegistrar;
 }
 
 @end

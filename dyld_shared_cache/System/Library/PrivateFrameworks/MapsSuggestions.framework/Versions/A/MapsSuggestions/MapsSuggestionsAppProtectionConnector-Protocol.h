@@ -7,6 +7,7 @@
 @protocol MapsSuggestionsAppProtectionStatusMonitoring;
 
 @protocol MapsSuggestionsAppProtectionConnector
+- (id <MapsSuggestionsAppProtectionStatusMonitoring>);
 
 // Remaining properties
 @property(nonatomic) __weak id <MapsSuggestionsAppProtectionStatusMonitoring> delegate;

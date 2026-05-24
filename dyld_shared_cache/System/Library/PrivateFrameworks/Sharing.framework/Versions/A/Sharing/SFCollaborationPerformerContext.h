@@ -7,7 +7,6 @@
 @interface SFCollaborationPerformerContext
 {
     _Bool _requiresParticipants;
-    double _deviceScreenScale;
 }
 
 - (void);
@@ -16,7 +15,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double deviceScreenScale; // @synthesize deviceScreenScale=_deviceScreenScale;
 @property(nonatomic) _Bool requiresParticipants; // @synthesize requiresParticipants=_requiresParticipants;
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AFPhonemeTranscription
 {
     NSString *_orthography;
-    NSString *_language;
-    NSArray *_phonemeSuggestions;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (void);
-- (id);
+- (id)setPurchase: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -25,16 +23,7 @@
 - (void)request=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
 @property(retain, nonatomic) NSString *orthography; // @synthesize orthography=_orthography;
-@property(retain, nonatomic) NSArray *phonemeSuggestions; // @synthesize phonemeSuggestions=_phonemeSuggestions;
-@property(readonly) Class superclass;
 
 @end
 

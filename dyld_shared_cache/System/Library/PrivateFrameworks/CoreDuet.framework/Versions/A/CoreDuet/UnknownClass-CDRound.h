@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (CDRound)
-- (double);
-- (int);
+- (double)";
+- (int)�;
 - (id);
 - (id);
 - (id);

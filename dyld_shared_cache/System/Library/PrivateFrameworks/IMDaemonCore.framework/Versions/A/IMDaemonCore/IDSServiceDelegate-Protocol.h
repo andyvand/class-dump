@@ -8,6 +8,14 @@
 
 @optional
 - (void);
+- (void)rU+;
+- (void)2@?60;
+- (void)BHj;
+- (void)se";
+- (void);
+- (void)4H;
+- (void)p;
+- (void)Zc;
 - (void)elay message through Blastdoor;
 @end
 

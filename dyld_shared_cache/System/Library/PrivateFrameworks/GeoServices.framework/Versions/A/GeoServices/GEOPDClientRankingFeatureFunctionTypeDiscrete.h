@@ -10,16 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDClientRankingFeatureFunctionTypeDiscrete
 {
     PBUnknownFields *_unknownFields;
-    float _featureValueThresholdHigh;
-    float _featureValueThresholdLow;
-    float _featureWeightHigh;
-    float _featureWeightLow;
-    struct {
-        unsigned int has_featureValueThresholdHigh:1;
-        unsigned int has_featureValueThresholdLow:1;
-        unsigned int has_featureWeightHigh:1;
-        unsigned int has_featureWeightLow:1;
-    } _flags;
 }
 
 - (id);
@@ -28,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ollectionUrl"b1"has_flagHoursIncorrect"b1"has_flagNotAtThisAddress"b1"read_unknownFields"b1"read_address"b1"read_amenity"b1"read_businessHours"b1"read_category"b1"read_containmentCorrections"b1"read_hoursText"b1"read_name"b1"read_originalName"b1"read_originalPhone"b1"read_originalUrl"b1"read_phone"b1"read_url"b1"wrote_anyField"b1};
-- (id)ooseMostImportantTransitLegInRoute: /* Error: Ran out of types for this method. */;
+- (id)_chooseMostImportantTransitLegInRoute: /* Error: Ran out of types for this method. */;
 - (id),;
 - (void)ðÿÿÿøÿÿÿôÿÿÿ÷ÿÿÿùÿÿÿóÿÿÿóÿÿÿòÿÿÿñÿÿÿðÿÿÿõÿÿÿñÿÿÿúÿÿÿùÿÿÿöÿÿÿôÿÿÿòÿÿÿóÿÿÿüÿÿÿþÿÿÿíÿÿÿûÿÿÿöÿÿÿÿÿÿÿùÿÿÿïÿÿÿìÿÿÿôÿÿÿðÿÿÿøÿÿÿõÿÿÿúÿÿÿóÿÿÿýÿÿÿõÿÿÿñÿÿÿûÿÿÿùÿÿÿóÿÿÿòÿÿÿöÿÿÿ÷ÿÿÿðÿÿÿøÿÿÿúÿÿÿôÿÿÿôÿÿÿùÿÿÿóÿÿÿúÿÿÿòÿÿÿñÿÿÿøÿÿÿ÷ÿÿÿðÿÿÿûÿÿÿïÿÿÿöÿÿÿéÿÿÿæÿÿÿíÿÿÿìÿÿÿòÿÿÿóÿÿÿïÿÿÿëÿÿÿçÿÿÿèÿÿÿðÿÿÿêÿÿÿïÿÿÿîÿÿÿòÿÿÿóÿÿÿôÿÿÿðÿÿÿòÿÿÿëÿÿÿçÿÿÿñÿÿÿéÿÿÿæÿÿÿãÿÿÿäÿÿÿìÿÿÿïÿÿÿåÿÿÿîÿÿÿèÿÿÿêÿÿÿöÿÿÿíÿÿÿõÿÿÿóÿÿÿìÿÿÿøÿÿÿ÷ÿÿÿðÿÿÿéÿÿÿëÿÿÿôÿÿÿóÿÿÿõÿÿÿïÿÿÿîÿÿÿöÿÿÿêÿÿÿíÿÿÿùÿÿÿòÿÿÿðÿÿÿïÿÿÿñÿÿÿ÷ÿÿÿüÿÿÿúÿÿÿõÿÿÿôÿÿÿöÿÿÿùÿÿÿòÿÿÿóÿÿÿ÷ÿÿÿùÿÿÿøÿÿÿûÿÿÿýÿÿÿöÿÿÿúÿÿÿòÿÿÿõÿÿÿóÿÿÿôÿÿÿñÿÿÿðÿÿÿòÿÿÿëÿÿÿïÿÿÿöÿÿÿñÿÿÿìÿÿÿôÿÿÿóÿÿÿîÿÿÿíÿÿÿêÿÿÿÕÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿìÿÿÿëÿÿÿäÿÿÿöÿÿÿßÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿãÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿàÿÿÿÿÿÿÿòÿÿÿâÿÿÿæÿÿÿñÿÿÿäÿÿÿôÿÿÿêÿÿÿìÿÿÿðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

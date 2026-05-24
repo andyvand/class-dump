@@ -17,13 +17,13 @@
 - (double);
 - (double);
 - (void);
+- (double);
 - (double);
-- (double);
-- (id);
+- (id)џ;
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 - (id)Handler:(struct _NSZone *)arg1;
 - (id);

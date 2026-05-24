@@ -5,5 +5,6 @@
 //
 
 @protocol APRequesterCoordinatorProtocol
+- (void);
 @end
 

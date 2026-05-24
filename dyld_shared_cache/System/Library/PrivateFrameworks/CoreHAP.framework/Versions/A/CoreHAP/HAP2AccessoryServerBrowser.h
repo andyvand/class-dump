@@ -6,74 +6,59 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2AccessoryServerBrowserOperation, HAP2PropertyLock, HAP2SerializedOperationQueue, HAPPowerManager, NSArray, NSMapTable, NSMutableArray, NSObject, NSOperationQueue, NSString;
-@protocol HAP2AccessoryServerBrowserDelegate, HAP2Storage, OS_dispatch_queue;
+@class HAP2PropertyLock;
 
 @interface HAP2AccessoryServerBrowser : HAP2LoggingObject
 {
     _Bool _discovering;
-    _Bool _confirming;
-    id <HAP2AccessoryServerBrowserDelegate> _delegate;
-    NSMutableArray *_browserOperationQueue;
-    id <HAP2Storage> _storage;
-    NSMutableArray *_liveUnpairedAccessoryServers;
-    NSMutableArray *_livePairedAccessoryServers;
-    HAP2PropertyLock *_propertyLock;
-    NSArray *_coordinatorInfo;
-    NSOperationQueue *_operationQueue;
-    HAP2SerializedOperationQueue *_workQueue;
-    NSObject<OS_dispatch_queue> *_dispatchWorkQueue;
-    NSMapTable *_weakOperationQueuesByDeviceID;
-    HAPPowerManager *_powerManager;
-    unsigned long long _powerState;
 }
 
 + (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)P;
+- (id)d;
+- (void)TypeName isEqualToString:SG_QUICK_RESPONSES_BINARY_LOGISTIC_MULTI_LABEL] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)Unable to clear output columns for pushed record %lu:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
+- (void)usesExternalPlaybackWhileExternalScreenIsActive;
+- (id);
 - (void);
-- (void);
+- (void)`;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)/lib/swift/libswiftIOKit.dylib;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (id)setSecureAsset: /* Error: Ran out of types for this method. */;
+- (void)dio buffer :(id)arg1 unexpected format(%{public}u);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)frames in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)h;
 - (_Bool);
-- (id);
-- (void);
+- (id)AXDescription;
+- (void)iled to subscribe %@ to %@, error:(_Bool)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -96,35 +81,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *browserOperationQueue; // @synthesize browserOperationQueue=_browserOperationQueue;
-@property(nonatomic, getter=isConfirming) _Bool confirming; // @synthesize confirming=_confirming;
-@property(readonly, nonatomic) NSArray *coordinatorInfo; // @synthesize coordinatorInfo=_coordinatorInfo;
-@property(readonly, nonatomic) HAP2AccessoryServerBrowserOperation *currentOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDiscovering) _Bool discovering; // @synthesize discovering=_discovering;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchWorkQueue; // @synthesize dispatchWorkQueue=_dispatchWorkQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *livePairedAccessoryServers; // @synthesize livePairedAccessoryServers=_livePairedAccessoryServers;
-@property(retain, nonatomic) NSMutableArray *liveUnpairedAccessoryServers; // @synthesize liveUnpairedAccessoryServers=_liveUnpairedAccessoryServers;
-@property(readonly, nonatomic) _Bool onDemandConnectionsAreEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, copy, nonatomic) NSArray *pairedAccessoryServers;
-@property(retain, nonatomic) HAPPowerManager *powerManager; // @synthesize powerManager=_powerManager;
-@property(nonatomic) unsigned long long powerState; // @synthesize powerState=_powerState;
 @property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly, nonatomic) id <HAP2Storage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *unpairedAccessoryServers;
-@property(readonly, nonatomic) NSMapTable *weakOperationQueuesByDeviceID; // @synthesize weakOperationQueuesByDeviceID=_weakOperationQueuesByDeviceID;
-@property(readonly, nonatomic) HAP2SerializedOperationQueue *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

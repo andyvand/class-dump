@@ -4,45 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumberFormatter, NSObject, NSString, PKPaymentProvisioningMethodMetadata;
-@protocol OS_dispatch_queue, PKContactlessCardIngesterDelegate;
-
 @interface PKContactlessCardIngester
 {
     _Bool _listening;
-    NSString *_pushTopic;
-    PKPaymentProvisioningMethodMetadata *_readerModeProvisioningMetadata;
-    NSNumberFormatter *_currencyNumberFormatter;
-    id <PKContactlessCardIngesterDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_contactlessCardIngesterQueue;
-    CDUnknownBlockType _cardSessionTokenCompletionHandler;
-    CDUnknownBlockType _disableCardCompletionHandler;
 }
 
 + (id);
 + (_Bool)ovisionings;
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void));
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)ansenSecondaryOriginStationString;
+- (void)shinkansenSecondaryOriginStationString;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

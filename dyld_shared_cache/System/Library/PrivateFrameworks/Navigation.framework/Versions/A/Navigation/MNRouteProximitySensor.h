@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOComposedRouteStep, GEOLocation, GEORouteMatch, GEORouteMatcher;
+@class GEOLocation;
 
 @interface MNRouteProximitySensor
 {
     double _proximityThreshold;
-    GEOLocation *_location;
-    GEORouteMatch *_routeMatch;
-    GEORouteMatcher *_routeMatcher;
-    unsigned long long _proximity;
 }
 
-- (void);
+- (void)ListAccessoryBarStyleContext;
 - (void);
 - (double);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)ntly available (currently cancelling);
+- (id)BeforeReadyRequestCommitStash;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOLocation *closestPointOnRoute;
-@property(readonly, nonatomic) GEOComposedRouteStep *closestStepOnRoute;
-@property(readonly, nonatomic) double courseOnRoute;
-@property(readonly, nonatomic) double distanceFromDestination;
-@property(readonly, nonatomic) double distanceFromOrigin;
-@property(readonly, nonatomic) double distanceFromRoute;
 @property(readonly, nonatomic) GEOLocation *location;
-@property(readonly, nonatomic) unsigned long long proximity; // @synthesize proximity=_proximity;
-@property(nonatomic) double proximityThreshold;
-@property(readonly, nonatomic) GEOComposedRoute *route;
 
 @end
 

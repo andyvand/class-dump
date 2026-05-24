@@ -10,23 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _NSCloudSharingPostShareViewController : NSViewController
 {
     id _remoteViewControllerStuff;
-    CDUnknownBlockType _disconnectionHandler;
 }
 
-+ (void);
++ (void)_alternativeServicesStorage;
 - (void);
-- (void);
-- (id);
+- (void)maggie-arc;
+- (id)JWjvsupiqWYtIGwr8yGd8w;
 - (CDUnknownBlockType);
 - (void);
-- (void)latterColor;
+- (void)platterColor;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType disconnectionHandler; // @synthesize disconnectionHandler=_disconnectionHandler;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

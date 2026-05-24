@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct _SXConvertibleValue x; // @dynamic x;
-@property(readonly, nonatomic) struct _SXConvertibleValue y; // @dynamic y;
 @end
 

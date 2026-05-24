@@ -6,37 +6,32 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@protocol BPSPublisher, BPSSubscriber;
+@protocol BPSPublisher;
 
 @interface BPSFlatMap : BMBookmarkablePublisher
 {
     long long _maxPublishers;
-    CDUnknownBlockType _transform;
-    id <BPSPublisher> _upstream;
-    id <BPSPublisher> _currentPublisher;
-    id _currentEvent;
-    id <BPSSubscriber> _subscriber;
 }
 
 + (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (long long);
+- (long long)ModelFittingQuantizedDenseVector";
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)psrAudioProcessor:(id)arg1 hasSpeakerVector:speakerVectorSize:processedAudioDurationMs: /* Error: Ran out of types for this method. */;
+- (_Bool)ic}@ at %{public}@ as %{public}@ training.;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)erInfo"{?="creationTimestamp"d"modifiedTimestamp"d"checksum"I"dataVersion"I}}"frameHeaderV2"{?="checksum"I"dataVersion"I});
 - (id);
 - (id);
 - (id)Ð!hEùÑð1Â0@ù
@@ -44,12 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id currentEvent; // @synthesize currentEvent=_currentEvent;
 @property(retain, nonatomic) id <BPSPublisher> currentPublisher; // @synthesize currentPublisher=_currentPublisher;
-@property(readonly, nonatomic) long long maxPublishers; // @synthesize maxPublishers=_maxPublishers;
-@property(retain, nonatomic) id <BPSSubscriber> subscriber; // @synthesize subscriber=_subscriber;
-@property(readonly, nonatomic) CDUnknownBlockType transform; // @synthesize transform=_transform;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

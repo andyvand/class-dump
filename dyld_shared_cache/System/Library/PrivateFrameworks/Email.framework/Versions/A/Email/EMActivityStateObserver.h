@@ -7,14 +7,12 @@
 @interface EMActivityStateObserver
 {
     id state;
-    id queue;
-    id delegate;
 }
 
-- (void);
+- (void)=;
 - (void);
 - (id);
-- (void);
+- (void)bytes;
 - (void)1=ð1Â0@ù
 × ;
 

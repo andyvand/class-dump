@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class KTIDStaticKeyStoreEntry;
+
 @protocol KTIDStaticKeyStoreProtocol
+- (KTIDStaticKeyStoreEntry *);
+- (_Bool);
+- (_Bool)ѿ#0�H;
 @end
 

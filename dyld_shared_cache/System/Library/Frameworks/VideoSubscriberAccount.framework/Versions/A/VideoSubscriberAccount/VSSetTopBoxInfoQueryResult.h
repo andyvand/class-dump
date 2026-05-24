@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VSIdentityProvider, VSSetTopBoxProfile;
+@class VSIdentityProvider;
 
 @interface VSSetTopBoxInfoQueryResult
 {
     VSIdentityProvider *_setTopBoxProvider;
-    VSSetTopBoxProfile *_profile;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)=B;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) VSSetTopBoxProfile *profile; // @synthesize profile=_profile;
 @property(copy, nonatomic) VSIdentityProvider *setTopBoxProvider; // @synthesize setTopBoxProvider=_setTopBoxProvider;
 
 @end

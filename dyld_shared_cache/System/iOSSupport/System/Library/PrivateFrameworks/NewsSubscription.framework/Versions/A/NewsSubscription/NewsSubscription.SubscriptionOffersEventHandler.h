@@ -7,10 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersEventHandler
 {
     id delegate;
-    id purchaseSessionID;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

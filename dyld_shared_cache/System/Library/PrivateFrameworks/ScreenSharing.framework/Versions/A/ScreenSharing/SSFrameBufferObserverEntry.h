@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSThread;
 @protocol SSFrameBufferObserver;
 
 __attribute__((visibility("hidden")))
 @interface SSFrameBufferObserverEntry
 {
     id <SSFrameBufferObserver> _observer;
-    NSThread *_thread;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 @end
 

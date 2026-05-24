@@ -13,8 +13,8 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)shouldDonateToSharedWithYouForTransformer: /* Error: Ran out of types for this method. */;
+- (id)setUseProgressSpinner: /* Error: Ran out of types for this method. */;
 
 @end
 

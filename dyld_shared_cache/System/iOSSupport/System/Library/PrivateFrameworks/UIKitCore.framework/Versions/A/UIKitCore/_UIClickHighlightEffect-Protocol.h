@@ -7,12 +7,11 @@
 @class UITargetedPreview;
 
 @protocol _UIClickHighlightEffect
-- (void (^)(id <_UIClickHighlightEffect>))ividerLine;
+- (UITargetedPreview *);
+- (void (^)(id <_UIClickHighlightEffect>))DividerLine;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview;
 @property(readonly, nonatomic) UITargetedPreview *targetedPreviewForEffectContinuation;
 @end
 

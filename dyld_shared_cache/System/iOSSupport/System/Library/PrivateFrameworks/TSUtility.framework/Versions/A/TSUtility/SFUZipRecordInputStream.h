@@ -9,9 +9,6 @@
 @interface SFUZipRecordInputStream
 {
     id <SFUBufferedInputStream> mInput;
-    const char *mBuffer;
-    long long mBufferStart;
-    long long mBufferEnd;
 }
 
 - (const char *);

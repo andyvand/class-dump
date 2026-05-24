@@ -6,17 +6,11 @@
 
 #import <MediaPlayer/MPModelRequest.h>
 
-@class ICUserIdentity, MPMediaLibrary, MPSectionedCollection, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface MPStoreLibraryPersonalizationRequest : MPModelRequest
 {
     NSMutableDictionary *_itemIndexPathToOverridePropertySet;
-    _Bool _matchAlbumArtistsOnNameAndStoreID;
-    _Bool _ignoreExplicitContentRestrictions;
-    ICUserIdentity *_userIdentity;
-    MPSectionedCollection *_unpersonalizedContentDescriptors;
-    MPSectionedCollection *_representedObjects;
-    MPMediaLibrary *_mediaLibraryOverrideForTestingOnly;
 }
 
 + (id);
@@ -33,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -42,24 +36,11 @@
 - (void);
 - (id);
 - (id);
-- (void)cialProfileID;
-- (id)taFilePath;
+- (void)_socialProfileID;
+- (id)_playbackSessionDataFilePath;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreExplicitContentRestrictions; // @synthesize ignoreExplicitContentRestrictions=_ignoreExplicitContentRestrictions;
 @property(readonly, copy, nonatomic) NSDictionary *itemIndexPathToOverridePropertySet;
-@property(nonatomic) _Bool matchAlbumArtistsOnNameAndStoreID; // @synthesize matchAlbumArtistsOnNameAndStoreID=_matchAlbumArtistsOnNameAndStoreID;
-@property(retain, nonatomic) MPMediaLibrary *mediaLibraryOverrideForTestingOnly; // @synthesize mediaLibraryOverrideForTestingOnly=_mediaLibraryOverrideForTestingOnly;
-@property(retain, nonatomic) MPSectionedCollection *representedObjects; // @synthesize representedObjects=_representedObjects;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors; // @synthesize unpersonalizedContentDescriptors=_unpersonalizedContentDescriptors;
-@property(copy, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

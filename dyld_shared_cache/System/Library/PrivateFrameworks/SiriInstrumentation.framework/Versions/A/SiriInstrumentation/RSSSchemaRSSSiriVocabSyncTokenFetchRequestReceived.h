@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncTokenFetchRequestReceived : SISchemaInstrumentationMessage
 {
     unsigned long long _syncTokenFetchRequestTransferLatencyInMs;
-    struct {
-        unsigned int syncTokenFetchRequestTransferLatencyInMs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ent;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)antInfoReported;
+- (_Bool)ttachmentRecordRef, xpc_object_t, Boolean);
+- (id)i;
+- (id)i;
+- (id)assistantInfoReported;
 - (id)orEntity14Days;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSyncTokenFetchRequestTransferLatencyInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long syncTokenFetchRequestTransferLatencyInMs; // @synthesize syncTokenFetchRequestTransferLatencyInMs=_syncTokenFetchRequestTransferLatencyInMs;
 
 @end

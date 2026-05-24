@@ -4,49 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLSuggestionAssetFlag, NSData, NSString;
+@class NSData;
 
 @interface CPLSuggestionAsset
 {
     NSData *_actionData;
-    CPLSuggestionAssetFlag *_assetFlag;
-    NSString *_assetIdentifier;
-    NSString *_masterIdentifier;
 }
 
-- (id);
+- (id)g;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)MobileSMS_LLMQUIntentConversation;
+- (void)eference",&,N;
+- (id)ector data in _CSEmbedding at index %lu;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)P;
+- (_Bool);
 - (void);
-- (id);
+- (id);;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *actionData; // @synthesize actionData=_actionData;
-@property(retain, nonatomic) CPLSuggestionAssetFlag *assetFlag; // @synthesize assetFlag=_assetFlag;
-@property(retain, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, nonatomic) _Bool hasActionData;
-@property(readonly, nonatomic) _Bool hasAssetFlag;
 @property(readonly, nonatomic) _Bool hasAssetIdentifier;
-@property(readonly, nonatomic) _Bool hasMasterIdentifier;
-@property(retain, nonatomic) NSString *masterIdentifier; // @synthesize masterIdentifier=_masterIdentifier;
 
 @end
 

@@ -9,13 +9,9 @@
 @interface AppKit._NSViewMaterialBackdropContext
 {
     id proxy;
-    id _glassFrost;
-    id _glassMaterialPocketContainer;
-    id _appearanceAnimationsEnabled;
-    id _$observationRegistrar;
 }
 
-- (id);
+- (id)__NSCFURLProtocolClient_NS;
 - (id);
 - (void)r singleton.;
 

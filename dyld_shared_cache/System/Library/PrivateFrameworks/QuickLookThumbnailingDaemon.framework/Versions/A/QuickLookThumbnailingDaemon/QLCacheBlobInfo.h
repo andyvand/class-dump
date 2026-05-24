@@ -7,19 +7,17 @@
 @interface QLCacheBlobInfo
 {
     unsigned long long location;
-    unsigned long long length;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)?';
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)?!;
 - (unsigned long long);
 - (void)¤ýûÿÐ-;
 
 // Remaining properties
-@property unsigned long long length; // @synthesize length;
 @property unsigned long long location; // @synthesize location;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface CNQualityOfServiceSchedulerDecorator
 {
     id <CNScheduler> _scheduler;
-    unsigned long long _qualityOfService;
 }
 
 - (id);
@@ -19,23 +17,14 @@
 - (unsigned long long);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void);
+- (id)setEndCallCapability:(double)arg1;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)sor;
+- (void)_layerAccessor;
 - (id);
 
 @end

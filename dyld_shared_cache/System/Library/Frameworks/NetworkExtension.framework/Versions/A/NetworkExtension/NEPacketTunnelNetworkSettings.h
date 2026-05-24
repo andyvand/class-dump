@@ -6,39 +6,33 @@
 
 #import <NetworkExtension/NETunnelNetworkSettings.h>
 
-@class NEIPv4Settings, NEIPv6Settings, NSNumber;
+@class NEIPv4Settings;
 
 @interface NEPacketTunnelNetworkSettings : NETunnelNetworkSettings
 {
     NEIPv4Settings *_IPv4Settings;
-    NEIPv6Settings *_IPv6Settings;
-    NSNumber *_tunnelOverheadBytes;
-    NSNumber *_MTU;
 }
 
-+ (_Bool);
++ (_Bool)setQueueOneIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id)ock_invoke;
 - (void);
 - (id);
 - (void)erdict">24;
-- (_Bool)form:(id)arg1;
+- (_Bool)sdkVersion:(id)arg1 minSDKVersion:platform: /* Error: Ran out of types for this method. */;
 - (id)) receiveRekeyChildSA:(int)arg1 packet:(unsigned long long)arg2 ];
 
 // Remaining properties
 @property(copy) NEIPv4Settings *IPv4Settings; // @synthesize IPv4Settings=_IPv4Settings;
-@property(copy) NEIPv6Settings *IPv6Settings; // @synthesize IPv6Settings=_IPv6Settings;
-@property(copy) NSNumber *MTU; // @synthesize MTU=_MTU;
-@property(copy) NSNumber *tunnelOverheadBytes; // @synthesize tunnelOverheadBytes=_tunnelOverheadBytes;
 
 @end
 

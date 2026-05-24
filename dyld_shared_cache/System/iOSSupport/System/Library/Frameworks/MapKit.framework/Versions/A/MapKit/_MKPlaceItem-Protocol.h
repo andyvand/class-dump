@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, EKCalendarItem, MKMapItem, NSString;
+@class EKCalendarItem, NSString;
 
 @protocol _MKPlaceItem
+- (_Bool);
+- (EKCalendarItem *);
+- (unsigned long long)B;
 - (NSString *)dimmingView;
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendarItem *calendarItem;
-@property(readonly, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) _Bool hasContactOnly;
-@property(readonly, nonatomic) _Bool isContactPersisted;
-@property(readonly, nonatomic) _Bool isIntermediateMapItem;
-@property(readonly, nonatomic) MKMapItem *mapItem;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long options;
-@property(readonly, nonatomic) _Bool representsPerson;
-@property(readonly, nonatomic) NSString *secondaryName;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTRenderer, AVTSnapshotHelper, VFXRenderer;
+@class AVTAvatar, VFXRenderer;
 
 @interface AVTSnapshotBuilder
 {
     AVTAvatar *_avatar;
-    AVTAvatar *_snapshotedAvatar;
-    AVTRenderer *_renderer;
-    AVTSnapshotHelper *_snapshotHelper;
 }
 
 + (struct CGImage *);
@@ -32,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatar *avatar;
 @property(readonly, nonatomic) VFXRenderer *renderer;
 
 @end

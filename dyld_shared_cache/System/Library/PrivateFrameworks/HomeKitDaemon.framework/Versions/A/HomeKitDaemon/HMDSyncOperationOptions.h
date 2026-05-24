@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSyncOperationOptions
 {
     _Bool _cloudConflict;
-    _Bool _delayRespected;
-    unsigned long long _operationType;
-    NSString *_zoneName;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)navigationListener:(unsigned long long)arg1 didUpdateLocation:(id)arg2;
+- (id)navigationListener:(unsigned long long)arg1 didUpdateETA:(id)arg2;
 - (_Bool);
 - (id);
 - (unsigned long long)¼;
 - (id)earDayScheduleCapacity:%@ /* Error: Ran out of types for this method. */;
-- (void)neral_accessibility_interaction_tapAssistance_selection_readVersion;
+- (void)root_general_accessibility_interaction_tapAssistance_selection_readVersion;
 
 // Remaining properties
-@property(nonatomic, getter=isCloudConflict) _Bool cloudConflict; // @synthesize cloudConflict=_cloudConflict;
-@property(nonatomic, getter=isDelayRespected) _Bool delayRespected; // @synthesize delayRespected=_delayRespected;
 @property(readonly, nonatomic) unsigned long long operationType; // @synthesize operationType=_operationType;
-@property(readonly, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

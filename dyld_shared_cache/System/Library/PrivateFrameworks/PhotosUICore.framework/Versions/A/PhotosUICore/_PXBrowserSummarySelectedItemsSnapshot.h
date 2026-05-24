@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)�#;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXBrowserSelectionSnapshot> browserSelectionSnapshot; // @synthesize browserSelectionSnapshot=_browserSelectionSnapshot;
-@property(readonly, nonatomic) long long count;
 
 @end
 

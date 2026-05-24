@@ -6,45 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraph;
+@class USOSchemaUSOGraph;
 
 @interface NLXSchemaCDMEntityCandidate : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraph *_entity;
-    double _score;
-    CDStruct_4b1634df _has;
-    _Bool _hasEntity;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)NavDoomCacheCurrentTripTagKey;
+- (id);
+- (void)XeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_chk.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (double)tClientEvent: /* Error: Ran out of types for this method. */;
+- (double)setNetClientEvent: /* Error: Ran out of types for this method. */;
 - (id)stemOperation;
 - (id)text",&,N,V_cacheMaintenanceContext;
 - (void),C,N,V_textQuery;
-- (id)NFERENCENotebookAppSelectionGroundTruthGenerated;
+- (id)INFERENCESchemaINFERENCENotebookAppSelectionGroundTruthGenerated;
 - (void);
 - (void)<Â=ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) USOSchemaUSOGraph *entity; // @synthesize entity=_entity;
-@property(nonatomic) _Bool hasEntity; // @synthesize hasEntity=_hasEntity;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

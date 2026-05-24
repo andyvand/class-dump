@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface LLCallDirectoryManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_defaultConnection;
 }
 
 + (id);
@@ -21,17 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)];
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)excludedControls;
+- (void)secondaryColorPresetWithName:(CDUnknownBlockType)arg1 category:variation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *defaultConnection; // @synthesize defaultConnection=_defaultConnection;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

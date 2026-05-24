@@ -4,35 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LegacySigningKeyPrivate, NSData, SecKeyRSAPrivate;
+@class LegacySigningKeyPrivate;
 
 @interface SecMessageLegacyFullIdentity
 {
     _Bool _isMigratedV2Key;
-    LegacySigningKeyPrivate *_signingKey;
-    SecKeyRSAPrivate *_encryptionKey;
-    NSData *_encryptionKeyPersistentRef;
-    NSData *_signingKeyPersistentRef;
 }
 
++ (id)5V;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
+- (id);
+- (void);
+- (id)2L._p;
+- (id);
+- (struct __SecKey *){DelegatedUserDialogAct:asrHypothesisIndex:%d
+  rewrittenUtterance:%@
+  rewrite:%@
+  externalParserId:%@
+  spans:%@
+  rewrites:%@
+  referenceContext:%@
+} /* Error: Ran out of types for this method. */;
+- (id)unlike::common_UserFavorite /* Error: Ran out of types for this method. */;
+- (void)UsoTask_noVerb_common_Decimal;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (struct __SecKey *);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)AVConferenceBasedMirroringMaxRate;
 - (id);
 - (id);
 - (id);
@@ -42,16 +45,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)/System/Library/PrivateFrameworks/CoreDuetContext.framework/Versions/A/CoreDuetContext;
 - (struct _SecMPFullIdentity *);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) SecKeyRSAPrivate *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property(retain, nonatomic) NSData *encryptionKeyPersistentRef; // @synthesize encryptionKeyPersistentRef=_encryptionKeyPersistentRef;
-@property(nonatomic) _Bool isMigratedV2Key; // @synthesize isMigratedV2Key=_isMigratedV2Key;
 @property(retain, nonatomic) LegacySigningKeyPrivate *signingKey; // @synthesize signingKey=_signingKey;
-@property(retain, nonatomic) NSData *signingKeyPersistentRef; // @synthesize signingKeyPersistentRef=_signingKeyPersistentRef;
 
 @end
 

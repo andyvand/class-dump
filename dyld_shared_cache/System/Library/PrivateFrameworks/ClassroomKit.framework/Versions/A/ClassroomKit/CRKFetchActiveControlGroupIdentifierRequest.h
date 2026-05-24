@@ -9,7 +9,8 @@
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)h
+;
 - (id);
 - (void);
 

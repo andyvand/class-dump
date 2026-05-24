@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface EKInviteeAlternativeTime
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_conflictedParticipants;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)PlayingController] <%@> reloading due to change in endpoint. Current endpoint:%@. New endpoint:%@. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *conflictedParticipants; // @synthesize conflictedParticipants=_conflictedParticipants;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

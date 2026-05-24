@@ -6,29 +6,15 @@
 
 #import <AppSupportUI/NUIContainerView.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface NUIContainerGridView : NUIContainerView
 {
     NSMutableArray *_viewRows;
-    struct _NUIGridArrangement _arrangement;
-    CDStruct_0d6b4eb6 _visibleCount;
-    struct map<UIView *, const std::pair<_NSRange, _NSRange>, std::less<UIView *>, std::allocator<std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>>> _viewRanges;
-    struct CGSize _spacing;
-    NSMutableArray *_rows;
-    NSMutableArray *_columns;
-    struct {
-        unsigned int horzAlign:8;
-        unsigned int vertAlign:8;
-        unsigned int inInsertOrRemove:1;
-        unsigned int hasMutations:1;
-    } _gridViewFlags;
-    double _rowHeight;
-    double _columnWidth;
 }
 
 + (id);
-- (id);
+- (id)(;
 - (id);
 - (long long);
 - (void);
@@ -40,11 +26,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -59,15 +45,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@9;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (id);
 - (long long);
@@ -91,23 +77,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *arrangedSubviewRows;
-@property(nonatomic) double columnSpacing;
-@property(nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long horizontalAlignment;
-@property(nonatomic) long long horizontalDistribution;
-@property(readonly, nonatomic) long long numberOfColumns;
-@property(readonly, nonatomic) long long numberOfRows;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(nonatomic) double rowSpacing;
-@property(readonly) Class superclass;
-@property(nonatomic) long long verticalAlignment;
-@property(nonatomic) long long verticalDistribution;
 
 @end
 

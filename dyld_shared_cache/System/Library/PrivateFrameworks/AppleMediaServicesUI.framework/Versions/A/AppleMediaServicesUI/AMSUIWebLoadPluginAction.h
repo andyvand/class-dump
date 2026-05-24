@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebLoadPluginAction : AMSUIWebAction
@@ -14,21 +14,13 @@ __attribute__((visibility("hidden")))
     NSString *_bundleIdentifier;
 }
 
-- (id);
-- (id);
+- (id)or %{public}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)r"8@"NSError"16;
 - (id);
 - (void)@16@24B32;
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

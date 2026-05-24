@@ -9,20 +9,15 @@
 @protocol _UIImageContentLayoutTarget
 - (_Bool)0@ù
 × ;
-- (long long)ForAction:propertyList: /* Error: Ran out of types for this method. */;
-- (long long)arget:action:menu: /* Error: Ran out of types for this method. */;
-- (_Bool)hlightedTextRangeWithReplacementString: /* Error: Ran out of types for this method. */;
+- (long long)removeCommandForAction:propertyList: /* Error: Ran out of types for this method. */;
+- (long long)initWithTitle:image:target:action:menu: /* Error: Ran out of types for this method. */;
+- (_Bool)_replaceHighlightedTextRangeWithReplacementString: /* Error: Ran out of types for this method. */;
 - (double)viewAnimationsForCurrentUpdate:cv == %p; readjusting content offset for anchor %@. New content offset:%@ /* Error: Ran out of types for this method. */;
 - (id <_UIImageContentRenderEnvironment>):(id <_UIImageContentLayoutSource>)arg1 the scene frame (%@) is too small to fit the scene's rounded corners:%@. Scene settings:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)ment. %s
 	%@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _hasContentGravity;
-@property(readonly, nonatomic) _Bool _layoutShouldFlipHorizontalOrientations;
-@property(readonly, nonatomic) _Bool _supportsContents;
-@property(readonly, nonatomic) long long contentMode;
-@property(readonly, nonatomic) double preferredContentScaleFactor;
 @property(readonly, nonatomic) long long semanticContentAttribute;
 @end
 

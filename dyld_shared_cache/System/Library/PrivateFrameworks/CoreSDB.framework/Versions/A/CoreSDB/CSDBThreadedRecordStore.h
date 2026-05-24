@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _CSDBThreadObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSDBThreadedRecordStore
 {
     struct CSDBRecordStore *_recordStore;
-    NSObject<OS_dispatch_queue> *_recordStoreQueue;
-    NSString *_identifier;
-    _CSDBThreadObject *_thread;
-    struct CSDBLookAsideBufferConfig _lookAsideConfig;
-    _Bool _wantsRegister;
-    NSObject<OS_dispatch_queue> *_dbBackupQueue;
-    _Bool _registeredWithBackupd;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)_nonTextStrokeIdentifiers;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)te Browsing;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;

@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4;
 - (void)ÿÿÿÿ;
 
 @end

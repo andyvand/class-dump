@@ -5,5 +5,10 @@
 //
 
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool);
+- (_Bool)d;
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)Unable to create message payload folder at path:%@ with error %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

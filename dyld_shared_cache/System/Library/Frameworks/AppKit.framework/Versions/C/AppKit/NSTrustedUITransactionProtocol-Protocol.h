@@ -5,6 +5,6 @@
 //
 
 @protocol NSTrustedUITransactionProtocol
-- (void)itsBelowTitlebar;
+- (void)_sidebarSitsBelowTitlebar;
 @end
 

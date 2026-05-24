@@ -4,46 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse, GEOPlaceSearchRequest, GEOPlaceSearchResponse, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCorrectedSearch
 {
     PBDataReader *_reader;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlaceResponse *_placeResponse;
-    GEOPlaceSearchRequest *_placeSearchRequest;
-    GEOPlaceSearchResponse *_placeSearchResponse;
-    NSString *_preferredSearchDisplayLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _correctedSearchResultIndex;
-    unsigned int _originalSearchResultIndex;
-    struct {
-        unsigned int has_correctedSearchResultIndex:1;
-        unsigned int has_originalSearchResultIndex:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_placeResponse:1;
-        unsigned int read_placeSearchRequest:1;
-        unsigned int read_placeSearchResponse:1;
-        unsigned int read_preferredSearchDisplayLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)flineDownloadedRegion:(id)arg1;
++ (_Bool)setIsOutsideOfflineDownloadedRegion:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)initWithAccountCollection:(_Bool)arg1 storeBuilder: /* Error: Ran out of types for this method. */;
+- (void)URLForPersistenceOfAccount:(_Bool)arg1;
+- (void)CNCDExternalGroupBehavior;
+- (id)ctContext"8;
+- (id)maidenName;
+- (id)imageReference;
+- (id)birthday;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -60,9 +40,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)setAudioSkippedDurationInNs: /* Error: Ran out of types for this method. */;
+- (void)id start to delegate %@;
+- (void)m.apple.CoreSpeech.Connection.Listener;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -70,26 +50,13 @@
 - (id);
 - (void);
 - (id)b1};
-- (id)ticalToExistingStaleData: /* Error: Ran out of types for this method. */;
+- (id)addData:forKey:edition:set:provider:etag:reason:isIdenticalToExistingStaleData: /* Error: Ran out of types for this method. */;
 - (id)T¯;
 - (id)pple.navigationServer;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int correctedSearchResultIndex;
-@property(nonatomic) _Bool hasCorrectedSearchResultIndex;
-@property(nonatomic) _Bool hasOriginalSearchResultIndex;
-@property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(readonly, nonatomic) _Bool hasPlaceResponse;
 @property(readonly, nonatomic) _Bool hasPlaceSearchRequest;
-@property(readonly, nonatomic) _Bool hasPlaceSearchResponse;
-@property(readonly, nonatomic) _Bool hasPreferredSearchDisplayLocation;
-@property(nonatomic) unsigned int originalSearchResultIndex;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(retain, nonatomic) GEOPDPlaceResponse *placeResponse;
-@property(retain, nonatomic) GEOPlaceSearchRequest *placeSearchRequest;
-@property(retain, nonatomic) GEOPlaceSearchResponse *placeSearchResponse;
-@property(retain, nonatomic) NSString *preferredSearchDisplayLocation;
 
 @end
 

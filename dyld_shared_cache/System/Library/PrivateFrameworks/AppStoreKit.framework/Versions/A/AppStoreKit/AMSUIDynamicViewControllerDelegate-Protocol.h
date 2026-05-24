@@ -5,5 +5,8 @@
 //
 
 @protocol AMSUIDynamicViewControllerDelegate
+
+@optional
+- (_Bool);
 @end
 

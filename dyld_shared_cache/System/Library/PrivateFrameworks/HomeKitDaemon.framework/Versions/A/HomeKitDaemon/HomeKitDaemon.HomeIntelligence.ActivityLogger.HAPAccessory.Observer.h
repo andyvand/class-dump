@@ -7,12 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.ActivityLogger.HAPAccessory.Observer
 {
     id $defaultActor;
-    id executionLogic;
-    id controlBlock;
-    id home;
-    id notificationCenter;
-    id notificationTasks;
-    id description;
 }
 
 @end

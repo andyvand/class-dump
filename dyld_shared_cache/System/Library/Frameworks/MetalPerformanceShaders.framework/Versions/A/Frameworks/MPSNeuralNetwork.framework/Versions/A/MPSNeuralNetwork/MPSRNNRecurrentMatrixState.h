@@ -7,9 +7,6 @@
 @interface MPSRNNRecurrentMatrixState
 {
     id *recurrentMatrices;
-    id *cellMatrices;
-    int nLayers;
-    _Bool _isTemporary;
 }
 
 - (id);
@@ -17,7 +14,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void))
+;
 - (_Bool);
 
 @end

@@ -8,12 +8,6 @@
 {
     id _subscriptionSource;
     id _storeURL;
-    id _upgradeCTAText;
-    id _queuedActions;
-    id _appStoreDataSource;
-    id _accountReportsPaidPlan;
-    id _subscriptionDelegate;
-    id _$observationRegistrar;
 }
 
 @end

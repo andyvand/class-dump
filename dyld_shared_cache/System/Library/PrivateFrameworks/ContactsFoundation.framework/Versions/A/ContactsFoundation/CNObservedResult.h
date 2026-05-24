@@ -7,9 +7,6 @@
 @interface CNObservedResult
 {
     unsigned long long _time;
-    id _value;
-    unsigned long long _tolerance;
-    unsigned long long _logTime;
 }
 
 + (struct _NSRange);
@@ -20,21 +17,21 @@
 + (struct _NSRange);
 + (struct _NSRange);
 + (struct _NSRange);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -42,12 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool isResultEvent;
 @property(readonly) unsigned long long logTime; // @synthesize logTime=_logTime;
-@property(readonly) id logValue;
-@property(readonly) unsigned long long time; // @synthesize time=_time;
-@property(readonly) unsigned long long tolerance; // @synthesize tolerance=_tolerance;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

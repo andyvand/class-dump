@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, CKEntity, CKLabel, UIView;
+@class CKEntity, CKLabel;
 
 @interface CKMentionSuggestionCell
 {
     CKEntity *_suggestedEntity;
-    CKLabel *_handleLabel;
-    CKAvatarView *_avatarView;
-    UIView *_hoverView;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_folderListSectionIdentifiersToVirtualSmartFolderIdentifiers;
+- (void)et;
+- (id)R;
+- (id)l;
+- (void)I;
 - (id);
 - (void);
 - (id);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
 @property(retain, nonatomic) CKLabel *handleLabel; // @synthesize handleLabel=_handleLabel;
-@property(retain, nonatomic) UIView *hoverView; // @synthesize hoverView=_hoverView;
-@property(retain, nonatomic) CKEntity *suggestedEntity; // @synthesize suggestedEntity=_suggestedEntity;
 
 @end
 

@@ -10,8 +10,8 @@
 
 + (id);
 + (id)AEèyA7_GAEGA2_GtGG_Qo__õÝQo__Qo_;
-- (id);
-- (void)eIdentifier: /* Error: Ran out of types for this method. */;
+- (id)introspectorDataSource;
+- (void)localeWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

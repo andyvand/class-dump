@@ -11,30 +11,25 @@
 @interface IMAPSelectCommand : IMAPMailboxCommand
 {
     _Bool _delayed;
-    _Bool _useCondStore;
-    IMAPMailbox *_imapMailbox;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
+- (void)@9;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)QH)iA;
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool delayed;
 @property(retain) IMAPMailbox *imapMailbox; // @synthesize imapMailbox=_imapMailbox;
-@property(readonly) _Bool readOnly;
-@property _Bool useCondStore; // @synthesize useCondStore=_useCondStore;
 
 @end
 

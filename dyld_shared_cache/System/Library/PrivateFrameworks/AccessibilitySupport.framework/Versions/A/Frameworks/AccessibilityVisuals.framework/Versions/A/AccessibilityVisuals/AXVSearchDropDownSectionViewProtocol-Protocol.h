@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol AXVSearchDropDownSectionProtocol;
+@class NSString;
 
 @protocol AXVSearchDropDownSectionViewProtocol
 
 // Remaining properties
-@property(retain, nonatomic) Class itemViewClass;
-@property(readonly, nonatomic) NSArray *sectionViewItems;
 @property(readonly, nonatomic) NSString *sectionViewName;
-@property(readonly, nonatomic) NSObject<AXVSearchDropDownSectionProtocol> *sectionViewSection;
 @end
 

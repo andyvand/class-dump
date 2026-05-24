@@ -5,5 +5,9 @@
 //
 
 @protocol NSTouchBarCustomizationPreviewSectionLayoutDelegate
+- (_Bool);
+- (long long);
+- (struct NSEdgeInsets)AMFDRDecodeVerifyCertIssuerWithOptions;
+- (long long)th;
 @end
 

@@ -6,18 +6,17 @@
 
 #import <CoreHandwriting/CHQuery.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CHStrokeGroupQuery : CHQuery
 {
     NSArray *_strokeGroupItems;
-    NSDictionary *_strokeGroupItemsByID;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)KO;
+- (void)k;
 - (id);
 - (_Bool);
 - (id);

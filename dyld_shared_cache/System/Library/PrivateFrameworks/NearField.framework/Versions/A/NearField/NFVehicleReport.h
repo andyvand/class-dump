@@ -11,11 +11,11 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)CNPostalAddressSubAdministrativeAreaKey;
+- (_Bool)ddressSubAdministrativeAreaKey(void);
+- (id)NSArray"16@?0@"<ABSearchOperationsFactory>"8;
+- (id)country;
+- (id)ssBookAPIAdapter.m;
 - (id);
 - (id);
 - (id);

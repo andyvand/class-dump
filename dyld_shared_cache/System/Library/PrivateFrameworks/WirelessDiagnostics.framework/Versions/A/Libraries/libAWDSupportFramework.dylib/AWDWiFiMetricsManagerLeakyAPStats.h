@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWiFiMetricsManagerLeakyAPStats
 {
     unsigned long long _hashCode;
-    unsigned long long _timestamp;
-    unsigned long long _version;
-    unsigned int _leakyApDecision;
-    NSData *_leakyApStats;
-    NSData *_oui;
-    struct {
-        unsigned int hashCode:1;
-        unsigned int timestamp:1;
-        unsigned int version:1;
-        unsigned int leakyApDecision:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -44,30 +31,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)$;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHashCode;
-@property(nonatomic) _Bool hasLeakyApDecision;
-@property(readonly, nonatomic) _Bool hasLeakyApStats;
-@property(readonly, nonatomic) _Bool hasOui;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) unsigned long long hashCode; // @synthesize hashCode=_hashCode;
-@property(nonatomic) unsigned int leakyApDecision; // @synthesize leakyApDecision=_leakyApDecision;
-@property(retain, nonatomic) NSData *leakyApStats; // @synthesize leakyApStats=_leakyApStats;
-@property(retain, nonatomic) NSData *oui; // @synthesize oui=_oui;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

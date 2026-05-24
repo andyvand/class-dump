@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)sForAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)enableDataclassesWithoutLocalDataDataclassActionsForAccount:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *responseData;

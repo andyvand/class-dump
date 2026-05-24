@@ -5,8 +5,13 @@
 //
 
 @class NSSharingServicePicker;
+@protocol SHKSharingServiceDelegate;
 
 @protocol SHKMenuControllerDelegate
+- (NSSharingServicePicker *)NULL;
+
+@optional
+- (id <SHKSharingServiceDelegate>);
 
 // Remaining properties
 @property(readonly) __weak NSSharingServicePicker *nsSharingServicePicker;

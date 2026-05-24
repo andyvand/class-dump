@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _NSRecentDocumentInfo
 {
     _Bool _ownsSecurityScope;
-    struct OpaqueLSSharedFileListItemRef *_sharedFileListItem;
-    NSURL *_resolvedURL;
-    NSURL *_originalURL;
-    NSString *_displayName;
-    NSImage *_icon;
-    CDUnknownBlockType _deletionBlock;
-    long long _state;
 }
 
 - (void);
 - (struct OpaqueLSSharedFileListItemRef *);
 - (void);
-- (void);
-- (void);
+- (void)AllowYouTube;
+- (void)ice:(_Bool)arg1 %@;
 - (id);
 - (CDUnknownBlockType);
+- (void)ailure;
+- (id)m;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)E;
 - (id);
 - (void);
 - (id);
@@ -39,24 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void)r;
+- (void)_NSTabBarTabCloseButtonPressedHighlightColor;
 
 // Remaining properties
-@property(readonly) NSURL *URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) CDUnknownBlockType deletionBlock; // @synthesize deletionBlock=_deletionBlock;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
-@property(retain) NSImage *icon; // @synthesize icon=_icon;
-@property(readonly) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(retain) NSURL *resolvedURL; // @synthesize resolvedURL=_resolvedURL;
 @property(readonly) struct OpaqueLSSharedFileListItemRef *sharedFileListItem; // @synthesize sharedFileListItem=_sharedFileListItem;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

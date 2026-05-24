@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKAccountFundingSourceVerificationAttempt
 {
     unsigned long long _type;
-    NSDate *_sentDate;
-    NSDate *_expiryDate;
-    unsigned long long _failureReason;
 }
 
 + (_Bool)0@ù
@@ -25,18 +20,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_stateEnum;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (id)tomaticSelectionCriteriaIfNecessary;
+- (void);
+- (id)_createAndPopulateAutomaticSelectionCriteriaIfNecessary;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(nonatomic) unsigned long long failureReason; // @synthesize failureReason=_failureReason;
-@property(copy, nonatomic) NSDate *sentDate; // @synthesize sentDate=_sentDate;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

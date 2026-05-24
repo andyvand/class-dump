@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSAssetsBeautifier, CLSSimilarStacker, PGCurationCriteriaFactory;
+@class CLSAssetsBeautifier;
 
 @interface PGKeyCurator
 {
     CLSAssetsBeautifier *_beautifier;
-    CLSSimilarStacker *_similarStacker;
-    PGCurationCriteriaFactory *_curationCriteriaFactory;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)countByEnumeratingWithState:(id)arg1 objects:(id)arg2 count:(id)arg3;
+- (id)convertRectToBottomLeftOriginScreenCoordinateSpace:(id)arg1;
+- (id)bestLanguageForString:(id)arg1 inRange: /* Error: Ran out of types for this method. */;
+- (_Bool)baseClass;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)V;
 - (void)10;
 
 @end

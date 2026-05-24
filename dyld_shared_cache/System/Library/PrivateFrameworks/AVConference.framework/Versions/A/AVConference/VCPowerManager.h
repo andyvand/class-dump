@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCPowerManager
 {
     _Bool _lowPowerModeEnabled;
-    unsigned char _mode;
-    unsigned int _currentFeatures;
-    NSObject<OS_dispatch_queue> *_powerManagerQueue;
-    int _thermalNotificationToken;
-    int _thermalLevel;
-    NSMutableSet *_thermalDelegates;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _forceDisableThermal;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
@@ -33,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)H;
 - (void);
 - (unsigned char);
 - (oneway void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)getDM4Params: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)] VCAudioFrameDelay created. frameDelay=%d timeDelay=%f;
 - (id);
@@ -76,8 +65,6 @@ XÌ¹>^/§+è1rªB=áa½8Å=ðà¸p¨ÈJ0N&
 6ê©ðu5ú08Ö¡ÃØ°n³!!äì².ðÔ45ò¾×ß¼q±pR'¹³{Õ3IÅyÙusÊû¡5óÌhs#ïÃÆ¦:ÌLé$Ì¹¬ðå¨íÞóæÍ6£?é£ãËrº.\±7ç·ÔÊãaôáÞtó /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
-@property(readonly, nonatomic) unsigned char mode; // @synthesize mode=_mode;
 @property(readonly, nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
 
 @end

@@ -6,20 +6,12 @@
 
 #import <HomeKitDaemon/HMDEvent.h>
 
-@class HMDEventTriggerExecutionSession, HMPresenceEventActivation, NSArray, NSDictionary, NSObject, NSString, NSUUID;
-@protocol HMDFeaturesDataSource, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPresenceEvent : HMDEvent
 {
     struct os_unfair_lock_s _lock;
-    _Bool _currentStatus;
-    NSString *_presenceType;
-    HMPresenceEventActivation *_activation;
-    NSDictionary *_users;
-    NSArray *_userUUIDs;
-    HMDEventTriggerExecutionSession *_executionSession;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (_Bool)¼cdheÈe;
@@ -28,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_joinLiveModeFromHandle:(id)arg1 fromAccountID:error: /* Error: Ran out of types for this method. */;
+- (id)recated performAfterInitialSync:(id)arg1 , please use performBlockAfterInitialConnection:(id)arg2 instead;
+- (id)n progress;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -44,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -62,14 +54,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)frameBuffer is nil.;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id)lesceableSignificantEvents: /* Error: Ran out of types for this method. */;
+- (id)clipUUIDsForCoalesceableSignificantEvents: /* Error: Ran out of types for this method. */;
 - (void)?0@"RPCompanionLinkDevice"8;
 - (id);
 - (_Bool)äî	A=;
@@ -77,26 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ4X;
 
 // Remaining properties
-@property(retain, nonatomic) HMPresenceEventActivation *activation; // @synthesize activation=_activation;
-@property(readonly, nonatomic) unsigned long long activationGranularity;
-@property _Bool currentStatus; // @synthesize currentStatus=_currentStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak HMDEventTriggerExecutionSession *executionSession; // @synthesize executionSession=_executionSession;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(retain) NSString *presenceType; // @synthesize presenceType=_presenceType;
-@property(readonly) Class superclass;
-@property(copy) NSArray *userUUIDs; // @synthesize userUUIDs=_userUUIDs;
-@property(copy) NSDictionary *users; // @synthesize users=_users;
 
 @end
 

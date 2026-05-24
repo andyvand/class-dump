@@ -6,19 +6,11 @@
 
 #import <BiometricKit/BKOperation.h>
 
-@class NSArray, NSData, NSNumber;
 @protocol BKMatchOperationDelegate;
 
 @interface BKMatchOperation : BKOperation
 {
     _Bool _stopOnSuccess;
-    _Bool _captureOnly;
-    long long _purpose;
-    NSNumber *_userID;
-    NSArray *_selectedIdentities;
-    long long _priority;
-    NSData *_credentialSet;
-    long long _useCase;
 }
 
 - (_Bool);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_֩;
 - (void);
 - (id);
 - (id);
@@ -41,7 +33,7 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)postNotificationWithIdentifier:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -49,15 +41,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool captureOnly; // @synthesize captureOnly=_captureOnly;
-@property(copy, nonatomic) NSData *credentialSet; // @synthesize credentialSet=_credentialSet;
 @property(nonatomic) __weak id <BKMatchOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) long long purpose; // @synthesize purpose=_purpose;
-@property(copy, nonatomic) NSArray *selectedIdentities; // @synthesize selectedIdentities=_selectedIdentities;
-@property(nonatomic) _Bool stopOnSuccess; // @synthesize stopOnSuccess=_stopOnSuccess;
-@property(nonatomic) long long useCase; // @synthesize useCase=_useCase;
-@property(retain, nonatomic) NSNumber *userID; // @synthesize userID=_userID;
 
 @end
 

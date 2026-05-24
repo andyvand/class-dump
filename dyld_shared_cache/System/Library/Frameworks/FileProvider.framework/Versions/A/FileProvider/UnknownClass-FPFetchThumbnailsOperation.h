@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (FPFetchThumbnailsOperation)
-+ (id);
++ (id)?;
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)M;
 - (id);
 - (id);
 - (id);

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKTouchBarController, NSArray, NSButton, NSDictionary, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView;
-@protocol AKWebViewButtonBarDelegate;
+@class AKTouchBarController, NSView;
 
 @interface AKWebViewButtonBar
 {
     NSView *_buttonBarView;
-    NSButton *_button1;
-    NSButton *_button2;
-    NSButton *_button3;
-    NSProgressIndicator *_spinner;
-    NSTextField *_spinnerTitle;
-    NSButton *_helpButton;
-    NSDictionary *_buttonBarDict;
-    NSArray *_buttonArray;
-    id <AKWebViewButtonBarDelegate> _delegate;
-    AKTouchBarController *_touchBarController;
 }
 
 - (void);
@@ -27,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (id);
@@ -43,16 +32,6 @@
 - (id)bel;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *buttonBarDict; // @synthesize buttonBarDict=_buttonBarDict;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKWebViewButtonBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 @property(retain, nonatomic) AKTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end

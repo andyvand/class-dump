@@ -9,21 +9,11 @@
 @interface ContactsButtonSlotTraits
 {
     id hostAppBundlePath;
-    id bgColor;
-    id fgColor;
-    id avatarBGColor;
-    id tintColor;
-    id displayScale;
-    id contentSizeCategory;
-    id font;
-    id captionTextField;
-    id trailingEdgeFromAvatar;
-    id widthOfAvatar;
 }
 
 + (void);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

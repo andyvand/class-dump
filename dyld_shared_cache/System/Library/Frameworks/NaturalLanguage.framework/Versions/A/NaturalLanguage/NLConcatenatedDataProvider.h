@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)6;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)d value to assign to DetectedFace.detectionType;
+- (id)z;
 - (id);
 - (void);
 - (struct __CFStringTokenizer *);

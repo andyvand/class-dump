@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long);
+- (unsigned long long)ChatRegistry_Daemon_GroupPhoto;
 @end
 

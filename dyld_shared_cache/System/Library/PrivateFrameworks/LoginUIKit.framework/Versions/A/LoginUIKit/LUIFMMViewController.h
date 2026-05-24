@@ -6,16 +6,11 @@
 
 #import <LoginUIKit/LUIViewController.h>
 
-@class LUIPinFieldView, LUIWindowController, NSDate, NSTextView, NSTimer;
+@class LUIWindowController;
 
 @interface LUIFMMViewController : LUIViewController
 {
     LUIWindowController *_windowController;
-    NSTextView *_promptView;
-    LUIPinFieldView *_pinView;
-    NSDate *_unlockDate;
-    int _promptType;
-    NSTimer *_unlockCountDownTimer;
 }
 
 + (id);
@@ -33,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (void);

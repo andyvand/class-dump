@@ -5,5 +5,8 @@
 //
 
 @protocol PKModularService
+
+@optional
+- (void)NSt3__120__shared_ptr_emplaceIN5kaldi6quasar12ConstLexiconENS_9allocatorIS3_EEEE;
 @end
 

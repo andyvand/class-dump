@@ -13,10 +13,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)writeDataCompleted:(id)arg1;
+- (void)ticateAccountsSession invalidate]_block_invoke;
 - (id);
-- (id);
+- (id);
 
 @end
 

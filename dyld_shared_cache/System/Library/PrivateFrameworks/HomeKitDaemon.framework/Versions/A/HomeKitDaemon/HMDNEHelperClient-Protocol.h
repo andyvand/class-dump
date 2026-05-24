@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol HMDNEHelperClient
+- (NSString *)abase;
+- (NSArray *)emoveSendingObserver:(NSString *)arg1 ];
 @end
 

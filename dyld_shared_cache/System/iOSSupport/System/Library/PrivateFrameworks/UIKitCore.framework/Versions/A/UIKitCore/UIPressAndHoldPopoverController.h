@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (void);
 - (void);
+- (_Bool)fetching changes from update zone %@;
+- (void)ror %@;
+- (id)message delivered quietly, message is on a different service:(id)arg1 %@ vs %@;
+- (_Bool)ate:(_Bool)arg1 %ld  sync state:%ld  local path:%@  transferred name:%@  guid:%@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
+- (_Bool)ng of handle %@;
+- (_Bool)d style %@;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)message not found for id %@ (it may have been deleted);
 
 @end
 

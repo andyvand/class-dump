@@ -5,5 +5,6 @@
 //
 
 @protocol ICCRUndoDelegate
+- (_Bool)h(7h87h7h7h07hP7h7h;
 @end
 

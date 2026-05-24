@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDPersistenceContext, NSPredicate;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface CNCDAccountFetcher
 {
     NSPredicate *_predicate;
-    CNCDPersistenceContext *_persistenceContext;
 }
 
 + (id);
@@ -18,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)riptor: /* Error: Ran out of types for this method. */;
-- (id)ntStoresError;
+- (void)unifyWallpaperOfContacts:intoContact:availableKeyDescriptor: /* Error: Ran out of types for this method. */;
+- (id)loadPersistentStoresError;
 
 // Remaining properties
-@property(readonly, nonatomic) CNCDPersistenceContext *persistenceContext; // @synthesize persistenceContext=_persistenceContext;
 @property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end

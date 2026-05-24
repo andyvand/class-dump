@@ -6,35 +6,29 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class NSString, NSTextField, NSView;
+@class NSString, NSTextField;
 
 @interface AOSUICustodianHelpNowViewModel : AOSUIAccountContactBaseViewModel
 {
     NSString *_title;
-    NSString *_primaryButton;
-    NSString *_secondaryButton;
-    NSString *_detailText;
-    long long _templateContentViewLayout;
-    NSView *_contentView;
-    NSTextField *_codeView;
 }
 
 - (long long);
+- (void)ۈRI	?k	3;
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)bViewClose: /* Error: Ran out of types for this method. */;
+- (id)webViewClose: /* Error: Ran out of types for this method. */;
 - (id)idChange:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

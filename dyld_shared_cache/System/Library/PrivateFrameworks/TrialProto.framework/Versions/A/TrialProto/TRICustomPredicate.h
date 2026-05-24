@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRICustomPredicate : TRIPBMessage
 {
@@ -15,14 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasKey; // @dynamic hasKey;
-@property(nonatomic) _Bool hasKeyType; // @dynamic hasKeyType;
-@property(nonatomic) _Bool hasOperation; // @dynamic hasOperation;
 @property(copy, nonatomic) NSString *key; // @dynamic key;
-@property(nonatomic) int keyType; // @dynamic keyType;
-@property(retain, nonatomic) NSMutableArray *operandArray; // @dynamic operandArray;
-@property(readonly, nonatomic) unsigned long long operandArray_Count; // @dynamic operandArray_Count;
-@property(nonatomic) int operation; // @dynamic operation;
 
 @end
 

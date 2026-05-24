@@ -7,7 +7,7 @@
 @class CNCDContainer;
 
 @protocol ABCDContainedRecord
-- (void)untsObservable;
+- (void)enabledPersistentAccountsObservable;
 
 // Remaining properties
 @property(retain, nonatomic) CNCDContainer *container;

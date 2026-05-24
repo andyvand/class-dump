@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TLBacklight
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSString *_accessQueueLabel;
-    NSHashTable *_observers;
-    _Bool _isObservingBacklight;
-    long long _backlightStatus;
 }
 
 + (id);
@@ -27,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (void);
 
 // Remaining properties

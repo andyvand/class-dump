@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MKThemeMultiPartLabel : MKMultiPartLabel
 {
     CDUnknownBlockType __mapkit_themeColorProvider;
-    long long _backgroundStyle;
 }
 
-- (void);
+- (void)Energy=%f, lastReportedTotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void)xtension;
-- (void)e:(id)arg1 withState: /* Error: Ran out of types for this method. */;
-- (long long)ationSnappingEnabled: /* Error: Ran out of types for this method. */;
+- (void)it.framework/Versions/A/IOKit;
+- (void)realExtension;
+- (void)mapLayerDidChangeSceneState:(id)arg1 withState: /* Error: Ran out of types for this method. */;
+- (long long)_setRotationSnappingEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _mapkit_themeColorProvider; // @synthesize _mapkit_themeColorProvider=__mapkit_themeColorProvider;
-@property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawingAdjustmentKnob;
-
 @interface PKSpaceInsertionView
 {
     struct CGPath *_lassoPath;
-    struct CGPoint _handleLocation;
-    double _scale;
-    PKDrawingAdjustmentKnob *_knobHandle;
-    _Bool _isDragging;
-    unsigned long long _insertionType;
 }
 
 - (void);
@@ -21,15 +14,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)styleSheet_Rule_Declaration;
 - (void);
 - (_Bool);
-- (void)EndpointType;
+- (void)endEndpointType;
 - (_Bool)ÿÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long insertionType; // @synthesize insertionType=_insertionType;
-@property(nonatomic) _Bool isDragging; // @synthesize isDragging=_isDragging;
 
 @end
 

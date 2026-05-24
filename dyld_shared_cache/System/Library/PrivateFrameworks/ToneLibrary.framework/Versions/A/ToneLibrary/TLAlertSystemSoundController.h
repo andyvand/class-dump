@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, TLAudioQueue;
+@class TLAudioQueue;
 
 @interface TLAlertSystemSoundController
 {
     TLAudioQueue *_audioQueue;
-    struct os_unfair_lock_s _lock;
-    NSMapTable *_alertSystemSoundContexts;
-    long long _backlightStatus;
-    unsigned long long _backlightObservationRequestsCount;
 }
 
 + (id);
@@ -39,16 +35,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)o;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

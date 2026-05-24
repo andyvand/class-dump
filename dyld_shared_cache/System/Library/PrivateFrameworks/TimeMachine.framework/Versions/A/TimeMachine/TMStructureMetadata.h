@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface TMStructureMetadata
 {
     NSNumber *_version;
-    NSString *_type;
-    NSString *_uuid;
 }
 
 + (id);
-+ (id);
++ (id)8;
 + (id);
 - (id);
 - (id);
@@ -26,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *dataRepresentation;
-@property(readonly, retain) NSString *type; // @synthesize type=_type;
-@property(readonly, retain) NSString *uuid; // @synthesize uuid=_uuid;
 @property(readonly, retain) NSNumber *version; // @synthesize version=_version;
 
 @end

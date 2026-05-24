@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSPinnedIdentityMetadata
 {
     NSString *_service;
-    NSData *_identity;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 - (void)!;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *identity; // @synthesize identity=_identity;
 @property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

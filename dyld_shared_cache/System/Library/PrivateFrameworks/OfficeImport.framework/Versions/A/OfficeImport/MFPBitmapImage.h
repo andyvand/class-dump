@@ -6,22 +6,19 @@
 
 #import <OfficeImport/MFPImage.h>
 
-@class NSData, OITSUImage;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface MFPBitmapImage : MFPImage
 {
     NSData *mBitmapData;
-    OITSUImage *mPhoneBitmapImage;
-    struct CGSize mPixelSize;
-    struct CGSize mPointSize;
 }
 
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
-- (struct CGSize)ics: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ErrorMimeContentConversionFailed;
+- (struct CGSize)createCTFontWithGraphics: /* Error: Ran out of types for this method. */;
 - (void)ø;
 
 @end

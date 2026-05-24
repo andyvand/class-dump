@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)tion of a keychain item failed for after migration with error:%i /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize)j!;
 - (void);
 
 // Remaining properties

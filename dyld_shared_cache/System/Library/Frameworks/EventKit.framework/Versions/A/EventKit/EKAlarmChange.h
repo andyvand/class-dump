@@ -14,8 +14,8 @@
 }
 
 + (int);
-- (id);
-- (id);
+- (id)[MRIDSCompanionConnection] Device unlocked since boot;
+- (id)initWithEnabledMediaKinds:account:bag:presentationDelegate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

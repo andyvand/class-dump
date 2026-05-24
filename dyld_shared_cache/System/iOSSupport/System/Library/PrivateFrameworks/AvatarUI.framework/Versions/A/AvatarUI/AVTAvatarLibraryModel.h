@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarLibraryCreateNewItem, AVTUIEnvironment, AVTViewSessionProvider, NSArray, NSMutableArray, NSString;
-@protocol AVTAvatarLibraryModelDelegate, AVTAvatarStoreInternal;
+@protocol AVTAvatarStoreInternal;
 
 @interface AVTAvatarLibraryModel
 {
     _Bool _isCreatingAvatar;
-    id <AVTAvatarLibraryModelDelegate> _delegate;
-    id <AVTAvatarStoreInternal> _avatarStore;
-    AVTViewSessionProvider *_viewSessionProvider;
-    AVTUIEnvironment *_environment;
-    AVTAvatarLibraryCreateNewItem *_createNewItem;
-    NSMutableArray *_mutableLibraryItems;
 }
 
 - (id);
@@ -29,19 +22,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)`G;
+- (unsigned long long)rRequested:consumer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -49,20 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(readonly, nonatomic) AVTAvatarLibraryCreateNewItem *createNewItem; // @synthesize createNewItem=_createNewItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarLibraryModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCreatingAvatar; // @synthesize isCreatingAvatar=_isCreatingAvatar;
-@property(readonly, nonatomic) NSArray *libraryItems;
-@property(readonly, nonatomic) NSMutableArray *mutableLibraryItems; // @synthesize mutableLibraryItems=_mutableLibraryItems;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVTViewSessionProvider *viewSessionProvider; // @synthesize viewSessionProvider=_viewSessionProvider;
 
 @end
 

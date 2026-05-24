@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CKRootHelper
 {
     NSXPCConnection *_connection;
-    NSLock *_connectionLock;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

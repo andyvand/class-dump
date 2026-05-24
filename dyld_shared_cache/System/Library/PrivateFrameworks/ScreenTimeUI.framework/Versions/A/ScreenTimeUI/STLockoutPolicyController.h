@@ -4,37 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNContainer, DMFApplicationPolicyMonitor, DMFCategoryPolicyMonitor, DMFWebsitePolicyMonitor, NSArray, NSSet, NSString, NSURL, STAskForTimeResource, STConversation, STConversationContext, STManagementState;
-@protocol STLockoutPolicyControllerDelegate;
+@class STConversation;
 
 __attribute__((visibility("hidden")))
 @interface STLockoutPolicyController
 {
     unsigned long long _reuseIdentifier;
-    long long _style;
-    unsigned long long _stateBeforePending;
-    STManagementState *_managementState;
-    STAskForTimeResource *_askForTimeResource;
-    DMFCategoryPolicyMonitor *_categoryPolicyMonitor;
-    DMFApplicationPolicyMonitor *_applicationPolicyMonitor;
-    NSURL *_websiteURL;
-    DMFWebsitePolicyMonitor *_websitePolicyMonitor;
-    id <STLockoutPolicyControllerDelegate> _delegate;
-    NSString *_categoryIdentifier;
-    NSString *_bundleIdentifier;
-    CNContactStore *_contactStore;
-    unsigned long long _state;
-    STConversation *_conversation;
-    STConversationContext *_conversationContext;
-    NSArray *_contactsHandles;
 }
 
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -44,31 +27,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool)I	*�F;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (_Bool);
 - (void);
 - (void);
@@ -78,27 +61,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)public}@, Log type:%{public}@, context dictionary:%{public}@:Received malformed message from service /* Error: Ran out of types for this method. */;
+- (void)childrenIncludingPrefetchedAttributesWithCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSSet *blockedContactsHandles;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly) _Bool contactsEditable;
-@property(copy) NSArray *contactsHandles; // @synthesize contactsHandles=_contactsHandles;
 @property(retain) STConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain) STConversationContext *conversationContext; // @synthesize conversationContext=_conversationContext;
-@property(readonly) CNContainer *iCloudContainer;
-@property(readonly) _Bool needsToSetRestrictionsPasscode;
-@property(readonly) _Bool shouldAllowOneMoreMinute;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSURL *websiteURL; // @synthesize websiteURL=_websiteURL;
 
 @end
 

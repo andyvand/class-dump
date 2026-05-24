@@ -7,12 +7,10 @@
 @class NSMenu, NSMenuItem;
 
 @protocol NSMenuTrackingInfo
-- (NSMenu *)ForScreenPoint;
+- (NSMenuItem *);
+- (NSMenu *)AXLayoutPointForScreenPoint;
 
 // Remaining properties
 @property(readonly) NSMenu *menu;
-@property(readonly) NSMenuItem *selectedItem;
-@property(readonly) NSMenuItem *targetedItem;
-@property(readonly) struct CGRect targetedItemFrame;
 @end
 

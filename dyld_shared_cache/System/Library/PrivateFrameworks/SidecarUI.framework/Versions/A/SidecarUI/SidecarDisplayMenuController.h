@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSMutableSet, NSString, NSURL, NSUserDefaults, SidecarDisplayManager;
+@class SidecarDisplayManager;
 
 @interface SidecarDisplayMenuController
 {
     SidecarDisplayManager *_displayManager;
-    NSArray *_recentItemsCache;
-    NSArray *_otherItemsCache;
-    NSMutableSet *_recents;
-    NSImage *_buttonImage;
-    NSImage *_buttonImageTinted;
-    NSImage *_noButtonImage;
-    NSImage *_noButtonImageTinted;
-    NSUserDefaults *_defaults;
-    int statusToken;
-    NSURL *_prefsURL;
-    _Bool _touchbarAllowed;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)akEnclosingScrollView;
+- (id)akDefaultInkWithIdentifier:color:strokeWidth: /* Error: Ran out of types for this method. */;
+- (id)akDecodeColorForKey: /* Error: Ran out of types for this method. */;
+- (id)akColorPickerYellow;
+- (id)akColorPickerPurple;
+- (void)akCGColorWithHeadroom;
+- (void)akButtonHoverStateColor;
+- (id)akBundleIdentifier;
+- (void)affineTransformRecenteringAboutOriginForExifOrientation:(id)arg1 withOriginalSize: /* Error: Ran out of types for this method. */;
+- (_Bool)affineTransformForExifOrientation:(id)arg1 aboutCenter: /* Error: Ran out of types for this method. */;
+- (id)affineTransformForExifOrientation:aboutCenter: /* Error: Ran out of types for this method. */;
+- (void)affineTransformFlatteningOriginalModelExif:(id)arg1 withOriginalModelSize: /* Error: Ran out of types for this method. */;
+- (id)affineTransformFlatteningOriginalModelExif:withOriginalModelSize: /* Error: Ran out of types for this method. */;
+- (id)adornmentLayerFrameForAnnotation: /* Error: Ran out of types for this method. */;
+- (id)adjustRect:(id)arg1 forExifOrientation:(_Bool)arg2 aboutCenter: /* Error: Ran out of types for this method. */;
+- (void)adjustRect:forExifOrientation:aboutCenter: /* Error: Ran out of types for this method. */;
+- (void)adjustOriginalExifOrientationOnAnnotation:(id)arg1 flatteningOriginalModelExif: /* Error: Ran out of types for this method. */;
+- (void)adjustOriginalExifOrientationOnAnnotation:(id)arg1 flatteningOriginalModelExif: /* Error: Ran out of types for this method. */;
+- (void)adjustModelToCompensateForOriginalExif;
 - (_Bool);
 - (void);
 - (id);
@@ -49,7 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *connectedDeviceName;
 @property(readonly) _Bool deviceAvailable;
 
 @end

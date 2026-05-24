@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PFProportionalIntegralController
 {
     _Bool _outputReady;
-    long long _setPoint;
-    long long _integralError;
-    long long _integralErrorMin;
-    long long _integralErrorMax;
-    double _proportionalGain;
-    double _integralGain;
-    long long _output;
-    long long _outputMin;
-    long long _outputMax;
-    NSMutableArray *_statistics;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)b;
+- (void)Management;
 - (long long);
+- (void)/SpotlightEmbedding;
+- (void)dding.framework/Versions/A/SpotlightEmbedding;
+- (void)/Library/Frameworks/Intents.framework/Versions/A/Intents;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).framework/Versions/C/Foundation;
+- (void)/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (double);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)__oslogstring;
 - (double);
 - (long long);
 - (long long);
 - (long long);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (void);
@@ -51,17 +39,7 @@
 - (void);
 
 // Remaining properties
-@property long long integralError; // @synthesize integralError=_integralError;
-@property long long integralErrorMax; // @synthesize integralErrorMax=_integralErrorMax;
-@property long long integralErrorMin; // @synthesize integralErrorMin=_integralErrorMin;
-@property double integralGain; // @synthesize integralGain=_integralGain;
-@property long long output; // @synthesize output=_output;
-@property long long outputMax; // @synthesize outputMax=_outputMax;
-@property long long outputMin; // @synthesize outputMin=_outputMin;
-@property _Bool outputReady; // @synthesize outputReady=_outputReady;
-@property double proportionalGain; // @synthesize proportionalGain=_proportionalGain;
 @property long long setPoint; // @synthesize setPoint=_setPoint;
-@property(retain) NSMutableArray *statistics; // @synthesize statistics=_statistics;
 
 @end
 

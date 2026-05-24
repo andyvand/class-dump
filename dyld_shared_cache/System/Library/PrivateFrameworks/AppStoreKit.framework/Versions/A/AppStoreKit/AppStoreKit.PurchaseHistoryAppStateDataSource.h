@@ -7,21 +7,9 @@
 @interface AppStoreKit.PurchaseHistoryAppStateDataSource
 {
     id delegate;
-    id accessQueue;
-    id callbackQueue;
-    id expectedAppStates;
-    id lastAccountId;
-    id additionalFamilyMembers;
-    id purchaseHistory;
-    id hasRequestedPurchaseHistoryUpdate;
-    id initialPurchaseHistoryContext;
-    id purchaseHistoryContext;
-    id bag;
-    id hostBundleId;
-    id platformCompatibilityOverrides;
 }
 
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);

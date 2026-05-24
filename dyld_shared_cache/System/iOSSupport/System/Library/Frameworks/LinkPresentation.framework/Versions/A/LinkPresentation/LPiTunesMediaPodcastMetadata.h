@@ -6,37 +6,31 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSArray, NSString;
+@class NSString;
 
 @interface LPiTunesMediaPodcastMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
-+ (id);
++ (id)startFullscreenEffectForChatItem:language: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)transitionToGeneratingState;
+- (void)transcriptCollectionViewControllerShouldLayoutFullscreenEffects:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 viewedCommSafetyAssociatedItemsWithIndexPath: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 unknownSenderButtonTapped:forChatItem: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 styleForContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 showMessageSomeoneForItemWithIndexPath: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)tableView:(CDUnknownBlockType)arg1 shouldBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)swipeGestureRecognizer;
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)__kMBDIMFileTransferAttributeName;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -45,25 +39,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)/usr/lib/libarchive.2.dylib;
 - (void);
 - (id)°+Ôð;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

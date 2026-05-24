@@ -7,16 +7,9 @@
 @interface NewsUI2.OfflineIssueManager
 {
     id offlineIssueList;
-    id offlineContentManager;
-    id storageLevelProvider;
-    id issueOfflineManager;
-    id networkReachability;
-    id backgroundAppRefreshEnabled;
-    id backgroundAppRefreshChangeObserver;
-    id issueIDsAvailableOffline;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)ñ0_Í,;
 

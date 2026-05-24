@@ -7,24 +7,22 @@
 @interface WBSPair
 {
     id _first;
-    id _second;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)_allowedItemIdentifiersForIdentifierSets: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)
 × ;
-- (id)SavedAccountContext;
+- (id)WBSSavedAccountContext;
 
 // Remaining properties
 @property(readonly, nonatomic) id first; // @synthesize first=_first;
-@property(readonly, nonatomic) id second; // @synthesize second=_second;
 
 @end
 

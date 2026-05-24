@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPSize, NSColor;
+@class LPSize;
 
 __attribute__((visibility("hidden")))
 @interface LPVideoPlayButtonStyle
 {
     LPSize *_size;
-    LPSize *_backgroundSize;
-    double _disabledOpacity;
-    NSColor *_color;
 }
 
 - (void);
 - (double);
-- (void);
+- (void)CZK;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)FittingSparseFloatVector",&,N,V_sparseFloatGradient;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPSize *backgroundSize; // @synthesize backgroundSize=_backgroundSize;
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) double disabledOpacity; // @synthesize disabledOpacity=_disabledOpacity;
 @property(retain, nonatomic) LPSize *size; // @synthesize size=_size;
 
 @end

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol SidebarContentFilterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SidebarContentFilter
 {
     id <SidebarContentFilterDelegate> _delegate;
-    NSString *_searchString;
-    NSMutableArray *_matches;
-    _Bool _resultsReady;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)K;
 - (id);
 - (void);
 - (id);
@@ -33,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)|p;
 
 // Remaining properties
-@property(nonatomic) __weak id <SidebarContentFilterDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSMutableArray *matches; // @synthesize matches=_matches;
-@property(nonatomic) _Bool resultsReady; // @synthesize resultsReady=_resultsReady;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

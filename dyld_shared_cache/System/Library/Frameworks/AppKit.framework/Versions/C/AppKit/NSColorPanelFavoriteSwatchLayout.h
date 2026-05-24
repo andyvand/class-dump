@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSColorPanelFavoriteSwatchLayout : NSCollectionViewLayout
 {
     struct CGSize _itemSize;
-    double _itemSpacing;
-    struct NSEdgeInsets _sectionInset;
 }
 
 - (void);
 - (struct NSEdgeInsets);
-- (long long);
-- (id);
-- (id);
+- (long long)set_companionAppBundleIdentifier:(double)arg1;
+- (id)connection:(id)arg1 didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)connection:(struct CGPoint)arg1 didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (id);
@@ -33,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property struct CGSize itemSize; // @synthesize itemSize=_itemSize;
-@property double itemSpacing; // @synthesize itemSpacing=_itemSpacing;
-@property struct NSEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
 
 @end
 

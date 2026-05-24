@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICModernSearchIndexProgressDataSource, ICPersistentContainer;
+@class ICPersistentContainer;
 
 @interface ICModernSearchIndexerDataSource
 {
     ICPersistentContainer *_persistentContainer;
-    ICModernSearchIndexProgressDataSource *_progressDataSource;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@�;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)´t	´
 ;
-- (void)YaYbcSg;
+- (void)yyYaYbcSg;
 
 // Remaining properties
 @property(nonatomic) __weak ICPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(retain, nonatomic) ICModernSearchIndexProgressDataSource *progressDataSource; // @synthesize progressDataSource=_progressDataSource;
 
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2CodecFeatures
 {
     unsigned int _audioFeatures;
-    NSData *_videoFeatures;
-    struct {
-        unsigned int audioFeatures:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)\;
 - (void);
 - (void);
 - (id);
@@ -39,10 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowAudioRecording;
-@property(nonatomic) unsigned int audioFeatures; // @synthesize audioFeatures=_audioFeatures;
-@property(nonatomic) _Bool hasAudioFeatures;
-@property(readonly, nonatomic) _Bool hasVideoFeatures;
-@property(retain, nonatomic) NSData *videoFeatures; // @synthesize videoFeatures=_videoFeatures;
 
 @end
 

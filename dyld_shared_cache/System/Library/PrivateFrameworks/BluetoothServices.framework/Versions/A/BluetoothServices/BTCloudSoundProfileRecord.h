@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSData;
 
 @interface BTCloudSoundProfileRecord
 {
     NSData *_soundProfileData;
-    NSURL *_soundProfileFileURL;
 }
 
-+ (id);
-+ (id);
++ (id)weakToStrongObjectsMapTable;
++ (id)wallpaperLocation;
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)wf_stringByTrimmingTrailingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (id)wf_stringByTrimmingLeadingWhitespaceAndNewlineCharacters;
+- (void)wf_setBodyWithQueryItems:(id)arg1;
+- (void)wf_securelyUnarchiveObjectWithData:(id)arg1 allowedClasses:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)wf_initWithDaysAfterCurrentDate:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *soundProfileData; // @synthesize soundProfileData=_soundProfileData;
-@property(retain, nonatomic) NSURL *soundProfileFileURL; // @synthesize soundProfileFileURL=_soundProfileFileURL;
 
 @end
 

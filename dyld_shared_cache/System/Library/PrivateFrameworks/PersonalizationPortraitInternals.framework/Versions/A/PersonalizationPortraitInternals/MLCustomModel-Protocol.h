@@ -5,5 +5,8 @@
 //
 
 @protocol MLCustomModel
+
+@optional
+- (id);
 @end
 

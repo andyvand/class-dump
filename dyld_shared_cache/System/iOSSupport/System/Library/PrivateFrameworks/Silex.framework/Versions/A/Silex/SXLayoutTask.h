@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXDOM, SXLayoutBlueprint, SXLayoutInstructions, SXLayoutOptions;
-
 @interface SXLayoutTask
 {
     unsigned long long _type;
-    NSString *_identifier;
-    SXLayoutOptions *_options;
-    SXLayoutInstructions *_instructions;
-    SXLayoutBlueprint *_blueprint;
-    SXDOM *_DOM;
-    double _startTime;
 }
 
 - (id);
@@ -30,12 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SXDOM *DOM; // @synthesize DOM=_DOM;
-@property(readonly, copy, nonatomic) SXLayoutBlueprint *blueprint; // @synthesize blueprint=_blueprint;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) SXLayoutInstructions *instructions; // @synthesize instructions=_instructions;
-@property(readonly, nonatomic) SXLayoutOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

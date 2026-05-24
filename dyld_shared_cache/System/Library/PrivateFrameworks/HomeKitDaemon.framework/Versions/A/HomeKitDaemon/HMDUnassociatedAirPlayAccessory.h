@@ -6,45 +6,34 @@
 
 #import <HomeKitDaemon/HMDUnassociatedMediaAccessory.h>
 
-@class HMFPairingIdentity, NSString;
+@class HMFPairingIdentity;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedAirPlayAccessory : HMDUnassociatedMediaAccessory
 {
     HMFPairingIdentity *_pairingIdentity;
-    NSString *_model;
-    NSString *_manufacturer;
 }
 
 + (_Bool)À§;
 + (id){üB;
 - (_Bool);
+- (id)ework/Versions/A/AuthKitUI;
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
+- (id)te init error %d
+;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)%;
 - (id)otificationCenter: /* Error: Ran out of types for this method. */;
-- (id)rationsRelationOfTypeCameraReachabilityBulletinRegistrationWithModelID: /* Error: Ran out of types for this method. */;
+- (id)createBulletinRegistrationsRelationOfTypeCameraReachabilityBulletinRegistrationWithModelID: /* Error: Ran out of types for this method. */;
 - (void)tinEndpointRegistration"8;
 - (id)ÀQ>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain, nonatomic) NSString *model; // @synthesize model=_model;
 @property(copy) HMFPairingIdentity *pairingIdentity; // @synthesize pairingIdentity=_pairingIdentity;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAssociation;
 
 @end
 

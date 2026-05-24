@@ -10,21 +10,21 @@
 
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (_Bool);
 + (id);

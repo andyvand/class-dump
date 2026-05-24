@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PXAssetsDataSource;
-@protocol NSCopying;
+@class PXAssetsDataSource;
 
 @interface _PXCuratedLibraryLayoutAssetsSnapshot
 {
     PXAssetsDataSource *_dataSource;
-    NSDictionary *_spriteSnapshotIndexByAssetIdentifier;
-    long long _spriteSnapshotsCount;
-    long long _spriteSnapshotsCapacity;
-    CDStruct_fd7a954a *_spriteSnapshots;
-    long long _zoomLevel;
-    struct CGPoint _offset;
-    struct CGRect _visibleRect;
-    struct CGRect _fullyVisibleRect;
 }
 
 - (CDStruct_fd7a954a);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)P;
 - (void)àwúÿÄ;
 - (void);
 - (long long);
 - (struct CGPoint)©+;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSCopying> dominantAssetIdentifier;
-@property(readonly, nonatomic) struct CGRect fullyVisibleRect; // @synthesize fullyVisibleRect=_fullyVisibleRect;
 @property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
-@property(readonly, nonatomic) long long zoomLevel; // @synthesize zoomLevel=_zoomLevel;
 
 @end
 

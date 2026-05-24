@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, SCKDatabaseStore;
+@protocol SCKDatabaseStore;
 
 @interface SCKFauxDatabaseStoreCoordinator
 {
     id <SCKDatabaseStore> _store;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (void);
 - (void);
+- (void));
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)moteServerInterface>";
+- (void);
 - (id);
 - (id);
 - (void);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) id <SCKDatabaseStore> store; // @synthesize store=_store;
-@property(readonly, nonatomic) id <SCKDatabaseStore> underlyingStore;
 
 @end
 

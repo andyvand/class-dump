@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTouristInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventCuratedCollectionUsage
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _collectionFirstViewedDate;
-    double _collectionLastViewedDate;
-    unsigned long long _collectionMuid;
-    NSString *_homeCountryCode;
-    NSString *_homeMetroRegion;
-    GEOTouristInfo *_touristInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _viewsToday;
-    struct {
-        unsigned int has_collectionFirstViewedDate:1;
-        unsigned int has_collectionLastViewedDate:1;
-        unsigned int has_collectionMuid:1;
-        unsigned int has_viewsToday:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_homeCountryCode:1;
-        unsigned int read_homeMetroRegion:1;
-        unsigned int read_touristInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)asSiriSuggestionsEnabled:(id)arg1;
++ (_Bool)setHasSiriSuggestionsEnabled:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -47,31 +25,31 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nter";
+- (_Bool):8 /* Error: Ran out of types for this method. */;
+- (_Bool)0@28;
+- (unsigned long long)hardCodedPrincipalPathForDSID: /* Error: Ran out of types for this method. */;
+- (double)gregorianYearInGMTFromDate: /* Error: Ran out of types for this method. */;
+- (double)greenTeaDevice;
+- (void)CNKeychainFacadeTestDouble;
+- (id)vironment-stack;
+- (id)CNEnvironment;
+- (id);
+- (void);
+- (id)J;
+- (id);
+- (void);
+- (void);
+- (id)derUUID :%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (unsigned long long);
-- (double);
-- (double);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)es:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (id)ocompleteSessionData;
+- (id)setRouteBadges:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)_supportAutocompleteSessionData;
 - (void)QRSØST´U;
 - (id)d com.apple.mobilecal request %@ for key %#x:%@ /* Error: Ran out of types for this method. */;
 - (id)$;
@@ -79,21 +57,7 @@
 - (void)x4;
 
 // Remaining properties
-@property(nonatomic) double collectionFirstViewedDate;
-@property(nonatomic) double collectionLastViewedDate;
-@property(nonatomic) unsigned long long collectionMuid;
-@property(nonatomic) _Bool hasCollectionFirstViewedDate;
-@property(nonatomic) _Bool hasCollectionLastViewedDate;
 @property(nonatomic) _Bool hasCollectionMuid;
-@property(readonly, nonatomic) _Bool hasHomeCountryCode;
-@property(readonly, nonatomic) _Bool hasHomeMetroRegion;
-@property(readonly, nonatomic) _Bool hasTouristInfo;
-@property(nonatomic) _Bool hasViewsToday;
-@property(retain, nonatomic) NSString *homeCountryCode;
-@property(retain, nonatomic) NSString *homeMetroRegion;
-@property(retain, nonatomic) GEOTouristInfo *touristInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int viewsToday;
 
 @end
 

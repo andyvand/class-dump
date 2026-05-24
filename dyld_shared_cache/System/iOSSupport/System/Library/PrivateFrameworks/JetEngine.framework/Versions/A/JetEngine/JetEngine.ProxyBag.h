@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface JetEngine.ProxyBag
 {
     id bag;
 }
 
-- (id);
+- (id)alwaysShowAppEvent;
 - (id);
 - (id);
 - (void);
@@ -20,17 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)difier cache key in call to -[%@ _keyForSize:%@ baseKey:%@ modifier:%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)PageRenderEventPrecision;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
 @property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
 
 @end
 

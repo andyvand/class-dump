@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, PHChangeHandlingDebugger, PHUniqueObjectIDCache, PLPhotoLibraryBundle;
+@class PLPhotoLibraryBundle;
 
 @interface PHPhotoLibraryChangeObserverRegistrar
 {
     PLPhotoLibraryBundle *_photoLibraryBundle;
-    PHChangeHandlingDebugger *_changeHandlingDebugger;
-    PHUniqueObjectIDCache *_uniqueObjectIDCache;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_isChangeHandlingAuthorized;
-    _Bool _lock_isChangeHandlingActive;
-    _Bool _lock_postsPersistentHistoryChangedNotifications;
-    _Bool _lock_clearsOIDCacheAfterFetchResultDealloc;
-    NSHashTable *_lock_fetchResults;
-    NSHashTable *_lock_internalChangeObservers;
-    NSHashTable *_lock_externalChangeObservers;
-    struct os_unfair_lock_s _pendingLock;
-    _Bool _pendingLock_isChangeProcessingPending;
-    double _pendingLock_lastChangeProcessingStarted;
 }
 
 + (_Bool);
@@ -29,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)! d;
+- (void)h%;
 - (_Bool);
 - (id);
 - (void);
@@ -40,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)&-!8#;
 - (_Bool);
 - (void);
 - (void);
@@ -48,8 +35,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool clearsOIDCacheAfterFetchResultDealloc;
-@property(readonly) unsigned long long countOfRegisteredFetchResults;
 @property _Bool postsPersistentHistoryChangedNotifications;
 
 @end

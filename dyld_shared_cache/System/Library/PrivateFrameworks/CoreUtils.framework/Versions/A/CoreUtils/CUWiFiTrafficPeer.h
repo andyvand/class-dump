@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CUWiFiTrafficPeer
 {
     _Bool _active;
-    unsigned int _trafficFlags;
-    NSData *_peerMACData;
-    NSString *_sessionID;
-    CDUnion_fab80606 _peerIP;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (void);
-- (void);
+- (void)<	;
 - (id);
 - (id);
 - (CDUnion_fab80606);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSNeuralNetwork/Graph/MPSCNNPoolingNodes.mm;
 - (id);
 - (void);
 - (_Bool)@"NSDictionary",R,C,N,V_textInfo;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) CDUnion_fab80606 peerIP; // @synthesize peerIP=_peerIP;
-@property(copy, nonatomic) NSData *peerMACData; // @synthesize peerMACData=_peerMACData;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) unsigned int trafficFlags; // @synthesize trafficFlags=_trafficFlags;
 
 @end
 

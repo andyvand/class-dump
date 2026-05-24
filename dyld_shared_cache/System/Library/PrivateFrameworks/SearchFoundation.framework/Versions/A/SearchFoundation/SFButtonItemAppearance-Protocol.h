@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFColor;
+@class SFColor;
 
 @protocol SFButtonItemAppearance
+- (SFColor *)PHPhotosErrorLibraryNotOpen;
+- (void);
 - (void)ection",&,N,V_rfBinaryButtonCardSection;
 - (void)em;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preferNoFallbackImage;
-@property(nonatomic) int renderingMode;
-@property(nonatomic) int role;
 @property(nonatomic) int style;
-@property(retain, nonatomic) SFColor *tintColor;
 @end
 

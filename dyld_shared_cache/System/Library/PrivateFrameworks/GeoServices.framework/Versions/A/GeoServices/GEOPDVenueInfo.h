@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDLocatedInsideInfo, GEOPDVenueItemList, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_filterElements;
-    GEOPDVenueItemList *_itemList;
-    GEOPDLocatedInsideInfo *_locatedInside;
-    NSMutableArray *_venueFeatureIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _featureType;
-    int _goInsideLevel;
-    struct {
-        unsigned int has_featureType:1;
-        unsigned int has_goInsideLevel:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_filterElements:1;
-        unsigned int read_itemList:1;
-        unsigned int read_locatedInside:1;
-        unsigned int read_venueFeatureIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)atch_queue>";
+- (id)pportsMagus: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)n"b1"read_token"b1"read_unPaddedDoorNumbers"b1"wrote_anyField"b1};
-- (id)t;
+- (id)_showAtPoint;
 - (id)ä`Ø	(@X|;
 - (void);
 

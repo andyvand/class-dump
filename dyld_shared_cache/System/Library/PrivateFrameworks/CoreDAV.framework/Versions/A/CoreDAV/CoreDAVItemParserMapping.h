@@ -9,13 +9,11 @@
 @interface CoreDAVItemParserMapping
 {
     NSString *_nameSpace;
-    NSString *_name;
-    Class _parseClass;
 }
 
+- (id)_updateTopConstraint;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (Class);
@@ -24,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSString *nameSpace; // @synthesize nameSpace=_nameSpace;
-@property(nonatomic) Class parseClass; // @synthesize parseClass=_parseClass;
 
 @end
 

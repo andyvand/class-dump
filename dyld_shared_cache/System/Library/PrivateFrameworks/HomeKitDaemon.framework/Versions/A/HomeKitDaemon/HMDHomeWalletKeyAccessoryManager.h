@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDHome, HMDHomeWalletKeyAccessoryManagerDeviceCredentialKeyOperation, HMFMessageDispatcher, NSArray, NSMutableDictionary, NSMutableSet, NSNotificationCenter, NSNumber, NSObject, NSString, NSUUID;
-@protocol HMDHomeWalletDataSource, HMDHomeWalletKeyAccessoryManagerDelegate, OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeWalletKeyAccessoryManager
 {
     _Bool _currentDevicePrimaryResident;
-    _Bool _canConfigureAccessories;
-    id <HMDHomeWalletKeyAccessoryManagerDelegate> _delegate;
-    HMDHome *_home;
-    NSUUID *_uuid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDHomeWalletDataSource> _dataSource;
-    NSMutableDictionary *_pendingAccessoryDeviceCredentialKeyOperationByDeviceUUID;
-    HMDHomeWalletKeyAccessoryManagerDeviceCredentialKeyOperation *_pendingPrimaryResidentDeviceCredentialKeyOperation;
-    NSMutableDictionary *_nfcReaderKeyConfigureStateByAccessoryUUID;
-    NSNumber *_walletKeyColor;
-    NSMutableSet *_logEvents;
 }
 
 + (id);
@@ -39,68 +25,68 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)unt"24@"NSURL"32@"NSString"40@"IDSMessageContext"48;
+- (void)unarchivedObjectOfClasses:(id)arg1 fromData:(id)arg2 error:(id)arg3;
+- (void)truncatedTrafficFromRouteCoordinate:(id)arg1;
+- (id)purgeExpiredBlockedTripIdentifiers;
+- (void)initWithIDSEndpointCapabilities:(id)arg1;
+- (void)hasHandleValue;
+- (void)automobileOptions;
+- (id)_processUpdates:(id)arg1;
+- (id)_clearBlockedTripIdentifiers;
+- (id)bundleForClass:(id)arg1;
+- (id)_handleChunk:fromID:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)sitAttribution>",R,N;
+- (id);
+- (id);
+- (id)(%@) add:%lu %{private}@, removed:%lu %{private}@ /* Error: Ran out of types for this method. */;
+- (id)SPContainer:[%p (%{private}@)] -- %{private}@ /* Error: Ran out of types for this method. */;
+- (id)truncatePointDataForPrivacy_EarlyExit_GEOPolylineCoordinateInvalid;
+- (_Bool)ip.Service.Isolation;
+- (id)WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id)mFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)P;
+- (id);
+- (id)];
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void)';
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -115,15 +101,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)headroomAdjustmentKey;
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)d;
 - (_Bool)!DGù°1Â0@ù
 × ;
 - (id);
@@ -131,42 +117,13 @@ __attribute__((visibility("hidden")))
 - (id).;
 - (void)stream sender reported MTU %@;
 - (void)uePreSharedKey:%@ /* Error: Ran out of types for this method. */;
-- (id)uePrimaryServiceV6Signatures;
+- (id)numUniquePrimaryServiceV6Signatures;
 - (id)<rÿFô>;
 - (id)¯»è»?;
 - (void)¸×@;
 
 // Remaining properties
-@property _Bool canConfigureAccessories; // @synthesize canConfigureAccessories=_canConfigureAccessories;
-@property(getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident; // @synthesize currentDevicePrimaryResident=_currentDevicePrimaryResident;
-@property(readonly) id <HMDHomeWalletDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDHomeWalletKeyAccessoryManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) _Bool isPrimaryResidentOrSoleOwnerController;
-@property(retain) NSMutableSet *logEvents; // @synthesize logEvents=_logEvents;
-@property(readonly, copy) NSArray *matterAccessoriesSupportingWalletKey;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSMutableDictionary *nfcReaderKeyConfigureStateByAccessoryUUID; // @synthesize nfcReaderKeyConfigureStateByAccessoryUUID=_nfcReaderKeyConfigureStateByAccessoryUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSMutableDictionary *pendingAccessoryDeviceCredentialKeyOperationByDeviceUUID; // @synthesize pendingAccessoryDeviceCredentialKeyOperationByDeviceUUID=_pendingAccessoryDeviceCredentialKeyOperationByDeviceUUID;
-@property(copy) HMDHomeWalletKeyAccessoryManagerDeviceCredentialKeyOperation *pendingPrimaryResidentDeviceCredentialKeyOperation; // @synthesize pendingPrimaryResidentDeviceCredentialKeyOperation=_pendingPrimaryResidentDeviceCredentialKeyOperation;
-@property(readonly) HMDDevice *primaryResidentDevice;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, copy) NSNumber *walletKeyColor; // @synthesize walletKeyColor=_walletKeyColor;
-@property(readonly, copy) NSString *walletKeyColorPreferenceKey;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

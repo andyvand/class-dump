@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSMutableSet, NSProgress, NSString, PHAsset, PHImageDisplaySpec, PHImageResourceChooser;
-@protocol PHMediaRequestContextDelegate;
+@class PHImageResourceChooser;
 
 @interface PHMediaRequestContext
 {
     CDUnknownBlockType _resultHandler;
-    _Atomic unsigned long long _nextID;
-    _Atomic int _repairAttemptCount;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_requests;
-    NSMutableSet *_inflightRequestIdentifiers;
-    _Bool _isCancelled;
-    NSMutableDictionary *_progressByTaskIdentifier;
-    NSProgress *_totalProgress;
-    int _requestID;
-    id <PHMediaRequestContextDelegate> _delegate;
-    unsigned long long _signpostID;
-    unsigned long long _signpostLayoutID;
-    unsigned long long _managerID;
-    PHAsset *_asset;
-    PHImageDisplaySpec *_displaySpec;
-    PHImageResourceChooser *_imageResourceChooser;
-    PHMediaRequestContext *_supplementaryRequestContext;
-    NSError *_prestartError;
 }
 
 + (id);
@@ -36,9 +17,9 @@
 + (id);
 + (id);
 + (void)t context delivering delayed final result.;
-- (double);
+- (double) ;
 - (id);
-- (unsigned long long);
+- (unsigned long long)N;
 - (void);
 - (void);
 - (void);
@@ -50,19 +31,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)n@;
 - (int);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)hF;
 - (id);
 - (void);
 - (void);
@@ -74,7 +55,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Tf,R,N,V_rate;
 - (void);
 - (void);
 - (id);
@@ -86,30 +67,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)eInIfLivePhotoPlaybackDisabled;
+- (_Bool)shouldBakeInIfLivePhotoPlaybackDisabled;
 - (void),&,N,V_unverifiedPsiSearchIndex;
 - (CDUnknownBlockType)idayName called on non-Holiday PHMemoryFeature, (got type %@, %@ of class %@);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PHMediaRequestContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PHImageDisplaySpec *displaySpec; // @synthesize displaySpec=_displaySpec;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHImageResourceChooser *imageResourceChooser; // @synthesize imageResourceChooser=_imageResourceChooser;
-@property(readonly, nonatomic) unsigned long long managerID; // @synthesize managerID=_managerID;
-@property(retain, nonatomic) NSError *prestartError; // @synthesize prestartError=_prestartError;
-@property(readonly, nonatomic) int requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(nonatomic) unsigned long long signpostLayoutID; // @synthesize signpostLayoutID=_signpostLayoutID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PHMediaRequestContext *supplementaryRequestContext; // @synthesize supplementaryRequestContext=_supplementaryRequestContext;
-@property(readonly, nonatomic) long long type;
 
 @end
 

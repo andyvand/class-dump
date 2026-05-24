@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CLSDarwinNotificationCenter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_notificationsByName;
-    NSMapTable *_notificationsByObserver;
-    NSMapTable *_tokenByName;
-    NSMapTable *_observerByHash;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1 Bad arguments pANEDevice=0x%p chainingActiveParams=%p
+;
+- (void)RPCFileRead;
+- (void)dma_src2_read_intra_conflict_count;
 - (void);
 - (id);
 - (void);

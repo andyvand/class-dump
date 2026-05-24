@@ -9,39 +9,33 @@
 @interface GEOTransitVehicleTime
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _absTime;
-    struct {
-        unsigned int has_absTime:1;
-    } _flags;
 }
 
-+ (_Bool)rbyBSSs:(id)arg1;
++ (_Bool)setNearbyBSSs:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)odel";
 - (unsigned int);
 - (void);
+- (id)(c;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)notifyWillStartAudioCaptureWithContext:(id)arg1 option: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id)¡	'!Dù1º*°1Â0@ù
 × ;
-- (id)nse:fromRequest: /* Error: Ran out of types for this method. */;
+- (id)initWithDirectionsResponse:fromRequest: /* Error: Ran out of types for this method. */;
 - (id)eAttributes",R,N,V_styleAttributes;
-- (id)kupEnabled;
+- (id)OrderPickupEnabled;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int absTime;
 @property(nonatomic) _Bool hasAbsTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

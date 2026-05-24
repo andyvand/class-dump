@@ -9,6 +9,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void)`;
 - (UIView *):(UIScrollView *)arg1;
 - (void)nt for curve;
 @end

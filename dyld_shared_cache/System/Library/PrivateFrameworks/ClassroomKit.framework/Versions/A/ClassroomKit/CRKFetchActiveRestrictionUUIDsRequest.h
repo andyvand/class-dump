@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id)alid;
+- (id)studentCredentialsAreValid;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientType; // @synthesize clientType=_clientType;

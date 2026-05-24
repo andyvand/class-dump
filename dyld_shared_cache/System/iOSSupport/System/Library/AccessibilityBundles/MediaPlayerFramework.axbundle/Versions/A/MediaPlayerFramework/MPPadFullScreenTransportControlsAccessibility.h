@@ -11,7 +11,8 @@
 }
 
 + (Class);
-+ (id);
++ (id)INV:%d(L:%d), BG:{%@}] %@%@ {%@}
+ /* Error: Ran out of types for this method. */;
 
 @end
 

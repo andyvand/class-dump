@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface CKVideoCancelActionMenuItemView
 {
     _Bool _highlighted;
-    UIVisualEffectView *_blurView;
-    UIImageView *_maskView;
-    UIImageView *_xView;
 }
 
 - (id);
-- (void);
+- (void)titleAttributedStringInsideFrame;
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id)utSuggestion"16;
 - (id)× ;
-- (void)roup;
+- (void)_throwAnimationGroup;
 - (void)Óÿ;
 - (id)date channel for chat GUID %@ with configuration %@;
 - (void)as:(id)arg1 %@;
-- (void)ollerUninstalledPluginsKey;
+- (void)CKBrowserSelectionControllerUninstalledPluginsKey;
 - (_Bool)è;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIImageView *maskView; // @synthesize maskView=_maskView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIImageView *xView; // @synthesize xView=_xView;
 
 @end
 

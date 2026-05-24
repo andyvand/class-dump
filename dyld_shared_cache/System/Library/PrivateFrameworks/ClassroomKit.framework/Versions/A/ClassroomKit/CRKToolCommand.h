@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, CATOperationQueue, CATTaskClient, CRKClassroomInstallation, NSObject, NSString;
-@protocol CRKToolCommandDelegate, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface CRKToolCommand
 {
     NSObject<OS_dispatch_source> *mSIGINTSource;
-    CATTaskClient *mTaskClient;
-    CATOperationQueue *mOperationQueue;
-    CATOperation *mOperation;
-    _Bool _printJSON;
-    _Bool _printVerbose;
-    _Bool _useDMFRequest;
-    id <CRKToolCommandDelegate> _delegate;
-    NSString *_sessionIdentifier;
-    CRKClassroomInstallation *_targetClassroomInstallation;
 }
 
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)nNotificationLevel:%ld 
+	IsBlocked:%@ 
+	SearchResultType:%ld 
+	SearchRelevanceScore:%@ 
+	unsubscribeType:%ld 
+	Date:%@ 
+	Supports Archiving:%@ 
+	Should Archive By Default:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,9 +54,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)setEnergyResponder:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -68,19 +66,7 @@
 - (id)4@"NSArray"32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKToolCommandDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=shouldPrintJSON) _Bool printJSON; // @synthesize printJSON=_printJSON;
-@property(nonatomic, getter=shouldPrintVerbose) _Bool printVerbose; // @synthesize printVerbose=_printVerbose;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CRKClassroomInstallation *targetClassroomInstallation; // @synthesize targetClassroomInstallation=_targetClassroomInstallation;
-@property(nonatomic, getter=shouldUseDMFRequest) _Bool useDMFRequest; // @synthesize useDMFRequest=_useDMFRequest;
 
 @end
 

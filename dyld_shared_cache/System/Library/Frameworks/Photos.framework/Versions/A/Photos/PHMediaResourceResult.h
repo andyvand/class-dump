@@ -6,17 +6,15 @@
 
 #import <Photos/PHCompositeMediaResult.h>
 
-@class NSData, NSURL, PHAssetResource;
+@class NSData, PHAssetResource;
 
 @interface PHMediaResourceResult : PHCompositeMediaResult
 {
     PHAssetResource *_assetResource;
-    NSData *_assetResourceData;
-    NSURL *_assetResourceFileURL;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -27,14 +25,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id)or: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)device:didCloseSessionWithError: /* Error: Ran out of types for this method. */;
 - (void)R,C,N,V_childCollectionsSortingComparator;
 - (id)ProcessPendingChanges;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *assetResourceData; // @synthesize assetResourceData=_assetResourceData;
-@property(copy, nonatomic) NSURL *assetResourceFileURL; // @synthesize assetResourceFileURL=_assetResourceFileURL;
 
 @end
 

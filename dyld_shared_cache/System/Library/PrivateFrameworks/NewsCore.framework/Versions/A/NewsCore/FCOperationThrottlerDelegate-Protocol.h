@@ -9,6 +9,7 @@
 @protocol FCOperationThrottlerDelegate
 
 @optional
+- (void);
 - (void)ic}@ to server with error:(id <FCOperationThrottler>)arg1 %{public}@;
 @end
 

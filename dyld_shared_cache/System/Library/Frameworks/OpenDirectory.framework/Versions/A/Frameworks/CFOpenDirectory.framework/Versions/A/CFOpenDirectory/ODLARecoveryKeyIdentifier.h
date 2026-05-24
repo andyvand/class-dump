@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id).;
 + (id);
-+ (id);
-- (void);
-- (id);
+- (void)ngth mismatch. Got features of length %d expected length %@;
+- (id)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *uuid;

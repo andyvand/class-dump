@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISwitch;
+@class NSString;
 @protocol CKAppManagerAppTableViewCellDelegate;
 
 @interface CKAppManagerAppTableViewCell
 {
     id <CKAppManagerAppTableViewCellDelegate> _delegate;
-    UISwitch *_appToggle;
-    NSString *_currentPluginIdentifierForIconLoading;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)c;
+- (void)e;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)orderedKeys;
+- (id)_orderedKeys;
 - (void): /* Error: Ran out of types for this method. */;
 - (void)Á0;
 
 // Remaining properties
-@property(retain, nonatomic) UISwitch *appToggle; // @synthesize appToggle=_appToggle;
 @property(copy, nonatomic) NSString *currentPluginIdentifierForIconLoading; // @synthesize currentPluginIdentifierForIconLoading=_currentPluginIdentifierForIconLoading;
-@property(nonatomic) __weak id <CKAppManagerAppTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

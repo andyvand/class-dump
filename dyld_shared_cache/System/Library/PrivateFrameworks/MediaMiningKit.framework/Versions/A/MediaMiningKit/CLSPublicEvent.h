@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSString, NSTimeZone;
-
 @interface CLSPublicEvent
 {
     _Bool _supportsEventExperience;
-    unsigned long long _muid;
-    NSString *_identifier;
-    NSString *_name;
-    NSDateInterval *_localDateInterval;
-    double _localStartTime;
-    double _localEndTime;
-    NSTimeZone *_timeZone;
-    NSArray *_performers;
-    NSArray *_categories;
-    unsigned long long _businessItemMuid;
-    NSString *_businessItemPlaceID;
-    long long _expectedAttendance;
-    long long _sourceService;
-    struct CLLocationCoordinate2D _businessItemCoordinates;
 }
 
-+ (id);
++ (id)sceneAnalysisProperties;
 + (_Bool);
 - (id);
 - (_Bool);
@@ -35,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (double);
@@ -51,23 +35,23 @@
 - (_Bool);
 - (void);
 - (long long);
+- (void)s;
+- (id)te}@;
+- (id);
+- (id);
+- (id)he same time.;
+- (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)P;
+- (id);
+- (void);
+- (void);
+- (void);
 - (id)tact"8@"CNContactMatchInfo"16^B24;
 
 @end

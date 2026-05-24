@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLLocationManager, NSData, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CLDispatchSilo;
 
 @interface CLMonitorConfiguration
 {
     CLDispatchSilo *_silo;
-    CDUnknownBlockType _vendingHandler;
-    CDUnknownBlockType _eventHandler;
-    _Bool _useMonitorQueue;
-    NSString *identityToken;
-    NSData *storageToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
-    NSString *_name;
-    NSString *_path;
-    NSString *_onBehalfOfBundleIdentifer;
 }
 
 + (id);
@@ -30,16 +19,16 @@
 - (void);
 - (void);
 - (id);
+- (void)1;
 - (void);
-- (void);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)IIO_DebugReads;
 - (id);
 - (id);
 - (void);
@@ -50,27 +39,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)areForStartRangingOnDevice: /* Error: Ran out of types for this method. */;
+- (void)prepareForStartRangingOnDevice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDUnknownBlockType eventHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *onBehalfOfBundleIdentifer; // @synthesize onBehalfOfBundleIdentifer=_onBehalfOfBundleIdentifer;
-@property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool useMonitorQueue; // @synthesize useMonitorQueue=_useMonitorQueue;
-@property(copy, nonatomic) CDUnknownBlockType vendingHandler;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

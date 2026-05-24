@@ -6,41 +6,27 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMSource, NSDate, NSString, _DKEvent;
-
 @interface _DKNotificationScreenLockMonitor : _DKMonitor
 {
     _Bool _enabled;
-    BMSource *_source;
 }
 
-+ (id);
++ (id));
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (void);
 - (void);
+- (void));
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@Ԡ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _DKEvent *currentEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType historicalHandler;
-@property(copy, nonatomic) CDUnknownBlockType instantHandler;
-@property(readonly, nonatomic) NSDate *lastUpdate;
-@property(copy, nonatomic) CDUnknownBlockType shutdownHandler;
-@property(readonly) Class superclass;
 
 @end
 

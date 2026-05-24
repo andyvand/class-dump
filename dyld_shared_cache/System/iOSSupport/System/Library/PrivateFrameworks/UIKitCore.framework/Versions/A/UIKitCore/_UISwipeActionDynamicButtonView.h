@@ -6,34 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSSet, NSString, UIButtonConfiguration, UIColor, UIImage, UILabel, UIMenu, _UISwipeActionDynamicButton;
-@protocol _UISwipeActionDynamicButtonViewDelegate;
+@class _UISwipeActionDynamicButton;
 
 __attribute__((visibility("hidden")))
 @interface _UISwipeActionDynamicButtonView : UIView
 {
     _Bool _canUseInlineStyle;
-    _Bool _canUseUniformInlineWidth;
-    UIButtonConfiguration *_buttonConfiguration;
-    double _uniformInlineWidth;
-    double _uniformWidth;
-    double _uniformHeight;
-    NSSet *_buttonTypes;
-    id <_UISwipeActionDynamicButtonViewDelegate> _delegate;
-    NSString *_title;
-    UIImage *_buttonImage;
-    UIColor *_buttonBackgroundColor;
-    UIMenu *_buttonMenu;
-    unsigned long long _state;
-    _UISwipeActionDynamicButton *_button;
-    UILabel *_titleLabel;
-    struct CGSize _preferredSize;
 }
 
-+ (id);
++ (id);
 + (double);
 + (double);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -45,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool)ng"56@"NSNumber"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
+- (_Bool)NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
+- (id)userNotificationCenter:willPresentNotification:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)updatedDateWithServerTime;
+- (id)updateVocabularyForDeletedChat:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)l not break though do not disturb;
 - (void);
 - (id);
 - (struct CGSize);
@@ -66,9 +50,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long)0@ù
 × ;
-- (void);
-- (void)scale:(id)arg1;
-- (id)rce;
+- (void)_usesEmoji;
+- (void)_setGrayscale:(id)arg1;
+- (id)_lastForce;
 - (void),&,VfadeOut;
 - (id)_UIPerformWithTraitLock(void (^ _Nonnull)(void));
 - (void);
@@ -77,28 +61,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UISwipeActionDynamicButton *button; // @synthesize button=_button;
-@property(retain, nonatomic) UIColor *buttonBackgroundColor; // @synthesize buttonBackgroundColor=_buttonBackgroundColor;
-@property(readonly, nonatomic) UIButtonConfiguration *buttonConfiguration; // @synthesize buttonConfiguration=_buttonConfiguration;
-@property(retain, nonatomic) UIImage *buttonImage; // @synthesize buttonImage=_buttonImage;
-@property(retain, nonatomic) UIMenu *buttonMenu; // @synthesize buttonMenu=_buttonMenu;
-@property(retain, nonatomic) NSSet *buttonTypes; // @synthesize buttonTypes=_buttonTypes;
-@property(nonatomic) _Bool canUseInlineStyle; // @synthesize canUseInlineStyle=_canUseInlineStyle;
-@property(nonatomic) _Bool canUseUniformInlineWidth; // @synthesize canUseUniformInlineWidth=_canUseUniformInlineWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISwipeActionDynamicButtonViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) double uniformHeight; // @synthesize uniformHeight=_uniformHeight;
-@property(nonatomic) double uniformInlineWidth; // @synthesize uniformInlineWidth=_uniformInlineWidth;
-@property(nonatomic) double uniformWidth; // @synthesize uniformWidth=_uniformWidth;
 
 @end
 

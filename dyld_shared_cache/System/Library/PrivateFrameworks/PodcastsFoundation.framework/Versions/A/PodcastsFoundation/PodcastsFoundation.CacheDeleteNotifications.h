@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.CacheDeleteNotifications
 {
     id paths;
-    id stream;
-    id continuation;
-    id observer;
-    id completedCheck;
 }
 
 - (void);

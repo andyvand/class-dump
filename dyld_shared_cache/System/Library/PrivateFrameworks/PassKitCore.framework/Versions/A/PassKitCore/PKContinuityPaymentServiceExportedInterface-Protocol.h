@@ -5,5 +5,7 @@
 //
 
 @protocol PKContinuityPaymentServiceExportedInterface
+- (void);
+- (void)q);
 @end
 

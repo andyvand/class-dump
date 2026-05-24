@@ -15,12 +15,12 @@
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)A;
+- (void)cM;
 - (void)istrationFlowState:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties

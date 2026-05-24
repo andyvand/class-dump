@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSFollowUpNotification, AMSMetricsEvent, NSArray, NSDate, NSMutableDictionary, NSObject, NSString;
+@class ACAccount, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AMSFollowUpItem
 {
     ACAccount *_account;
-    NSString *_identifier;
-    NSMutableDictionary *_userInfo;
-    _Bool _disableGrouping;
-    _Bool _expirationDateHidden;
-    _Bool _hardwareOffer;
-    _Bool _keepNotificationOnLockscreen;
-    _Bool _newDeviceOutreach;
-    _Bool _shouldPostNotification;
-    AMSFollowUpNotification *_notification;
-    NSArray *_actions;
-    NSString *_bundleIconName;
-    long long _displayStyle;
-    NSDate *_expirationDate;
-    NSString *_footer;
-    NSString *_informativeText;
-    AMSMetricsEvent *_metricsEvent;
-    NSString *_title;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_metricsQueue;
 }
 
 + (id);
@@ -49,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -62,7 +43,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)t because handleIDsToCNContacts is empty. Did CNContact fail to decode?;
 - (id);
 - (void);
 - (id);
@@ -83,41 +64,17 @@
 - (id);
 - (id)°1Â0@ù
 × ;
-- (void)D;
+- (void)_DSID;
 - (id)%{public}@;
 - (void)æþÿ;
 - (void);
-- (long long)e;
+- (long long)modelConstructionStartTime;
 - (void)4+GfOQ\4ÕBrÑx­%pÇ#?öÿXDn>q¨Gû[X ô.¿½b4k:ïÅCs×«úWýéR®w&õÝd$}å~.ntNû¿á¯=ûÔÌxµË(ÌQ«Òº@¿Ó/Bß £*k.ðø0¸Y´£x.-ñ1?«hÔmVVoûwdè­<`êi*WÔâêøhFå¾¶¥ÏÂ¹Pªq¦?ËèéjSL5øzém7»þ3Aoçòh¥:²Üóø¦Å:ÊV0 /* Error: Ran out of types for this method. */;
 - (_Bool)£^íp1ç­®1*à³òn,}÷kïë©¦DîI@_ËpfçkËòÎ=¿ó¡A;
 - (long long)ÉélM ±ÿ;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly) _Bool active;
-@property(readonly) NSString *backingIdentifier;
-@property(retain) NSString *bundleIconName; // @synthesize bundleIconName=_bundleIconName;
-@property _Bool disableGrouping; // @synthesize disableGrouping=_disableGrouping;
-@property long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(getter=isExpirationDateHidden) _Bool expirationDateHidden; // @synthesize expirationDateHidden=_expirationDateHidden;
-@property(retain) NSString *footer; // @synthesize footer=_footer;
-@property(readonly) NSString *groupIdentifier;
-@property(getter=isHardwareOffer) _Bool hardwareOffer; // @synthesize hardwareOffer=_hardwareOffer;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *informativeText; // @synthesize informativeText=_informativeText;
 @property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property _Bool keepNotificationOnLockscreen; // @synthesize keepNotificationOnLockscreen=_keepNotificationOnLockscreen;
-@property(retain) NSString *logKey;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(retain) NSObject<OS_dispatch_queue> *metricsQueue; // @synthesize metricsQueue=_metricsQueue;
-@property(getter=isNewDeviceOutreach) _Bool newDeviceOutreach; // @synthesize newDeviceOutreach=_newDeviceOutreach;
-@property(retain) AMSFollowUpNotification *notification; // @synthesize notification=_notification;
-@property long long priority;
-@property _Bool shouldPostNotification; // @synthesize shouldPostNotification=_shouldPostNotification;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

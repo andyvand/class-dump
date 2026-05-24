@@ -14,11 +14,11 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCustomPhotoAlbumNames: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 @end

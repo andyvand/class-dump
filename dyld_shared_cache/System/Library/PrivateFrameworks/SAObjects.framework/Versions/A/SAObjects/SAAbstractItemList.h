@@ -6,24 +6,23 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SAAbstractItemList : SADomainObject
 {
 }
 
 + (id);
-+ (id);
++ (id) ;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *domainObjects;
-@property(copy, nonatomic) NSNumber *selectedIndex;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListenerEndpoint;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSChildWindowQueueElement
 {
     NSString *_identifier;
-    CDUnknownBlockType _reply;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    CDStruct_5ac6c159 _parameters;
 }
 
 - (id);

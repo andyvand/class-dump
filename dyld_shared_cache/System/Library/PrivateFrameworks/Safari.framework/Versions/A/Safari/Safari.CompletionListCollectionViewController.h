@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, Safari.CompletionListCollectionViewController.CollectionView, Safari.CompletionListCollectionViewController.CollectionViewLayout;
-@protocol CompletionListCollectionViewItemDelegate;
+@class Safari.CompletionListCollectionViewController.CollectionView;
 
 @interface Safari.CompletionListCollectionViewController
 {
     Safari.CompletionListCollectionViewController.CollectionView *collectionView;
-    Safari.CompletionListCollectionViewController.CollectionViewLayout *collectionViewLayout;
-    void sections;
-    void delegate;
-    id dataSource;
-    id sizingCompletionListCollectionViewItem;
-    id sizingCompletionListCollectionViewSearchUIItem;
-    id sizingCompletionListCollectionViewHostingItem;
-    id registeredSearchUICellIdentifiers;
-    id searchUICellHeights;
-    id metrics;
-    id shouldClearRegisteredSearchUICellIndentifiers;
 }
 
 - (void);
@@ -29,10 +17,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)_;
 - (void);
-- (void);
+- (void)sses, playing messages alert tone;
 - (id);
 - (void);
 - (id);
@@ -44,9 +32,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) Safari.CompletionListCollectionViewController.CollectionView *collectionView; // @synthesize collectionView;
-@property(nonatomic, retain) Safari.CompletionListCollectionViewController.CollectionViewLayout *collectionViewLayout; // @synthesize collectionViewLayout;
-@property(nonatomic) __weak id <CompletionListCollectionViewItemDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, copy) NSArray *sections;
 
 @end
 

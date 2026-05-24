@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DIDeprecated)
-+ (id);
++ (id);
 @end
 

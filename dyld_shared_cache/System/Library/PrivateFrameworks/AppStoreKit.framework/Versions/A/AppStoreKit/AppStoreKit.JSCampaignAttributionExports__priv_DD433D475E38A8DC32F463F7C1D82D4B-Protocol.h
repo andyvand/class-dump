@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSCampaignAttributionExports__priv_DD433D475E38A8DC32F463F7C1D82D4B
+- (JSValue *)o;
 @end
 

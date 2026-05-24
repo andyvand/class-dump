@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle, NSObject, NSString;
-@protocol OS_tcc_identity;
+@class NSString;
 
 @interface ML3DatabaseImport
 {
     NSString *_libraryPath;
-    NSData *_trackData;
-    NSData *_playlistData;
-    NSData *_albumArtistData;
-    NSData *_albumData;
-    NSData *_libraryPinsData;
-    NSFileHandle *_fileHandle;
-    NSString *_syncAnchor;
-    _Bool _resetSync;
-    _Bool _sagaEnabled;
-    long long _storeAccountID;
-    long long _preferredVideoQuality;
-    unsigned int _homeSharingBasePlaylistID;
-    _Bool _tracksAreLibraryOwnedContent;
-    _Bool _playlistsAreLibraryOwnedContent;
-    _Bool _pendingMatch;
-    _Bool _isServerImport;
-    _Bool _pairedDeviceCanProcessStandaloneCollections;
-    NSString *_syncLibraryID;
-    _Bool _suspendable;
-    _Bool _clientInitiatedReset;
-    NSObject<OS_tcc_identity> *_clientIdentity;
 }
 
 + (_Bool);
+- (_Bool)_addVUIndexFullClusterStatusToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_addSpotlightSearchIndexingStatusToProcessingSnapshot:forTaskID:completedCount:totalCount:error: /* Error: Ran out of types for this method. */;
+- (void)Size=dd},N;
+- (id)tionType;
+- (_Bool),V_assetsCountShared;
+- (_Bool)dated;
+- (_Bool)V_initialUpload;
+- (_Bool)noreMissingSourceFiles;
+- (_Bool)ngSourceFileURLs;
+- (_Bool)ptyMessage;
+- (id),N,V_hasMaxQuotaTier;
+- (id)igureXPCStore;
+- (id)B,R,N,V_confirmed;
+- (id)tAfterSave;
+- (unsigned int)shouldCheckForUnintendedChanges;
+- (_Bool),V_destinationHighlightURI;
+- (id)@"NSString",C,N,V_assetCloudGUID;
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)e",&,N;
+- (id)_invalidateAvailabilityComputer;
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)calamity;
+- (id)veAtURL:(id)arg1 withBOMCopier:totalFiles:totalUncompressedBytes:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithData:error: /* Error: Ran out of types for this method. */;
+- (id)initWithCacheManager:(struct _NSZone *)arg1 suggestionProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)er;
@@ -71,28 +49,7 @@
 - (id)t_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *albumArtistData; // @synthesize albumArtistData=_albumArtistData;
-@property(readonly, nonatomic) NSData *albumData; // @synthesize albumData=_albumData;
-@property(readonly, nonatomic) NSObject<OS_tcc_identity> *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(nonatomic) _Bool clientInitiatedReset; // @synthesize clientInitiatedReset=_clientInitiatedReset;
-@property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly, nonatomic) unsigned int homeSharingBasePlaylistID; // @synthesize homeSharingBasePlaylistID=_homeSharingBasePlaylistID;
-@property(readonly, nonatomic) _Bool isServerImport; // @synthesize isServerImport=_isServerImport;
 @property(readonly, nonatomic) NSString *libraryPath; // @synthesize libraryPath=_libraryPath;
-@property(readonly, nonatomic) NSData *libraryPinsData; // @synthesize libraryPinsData=_libraryPinsData;
-@property(readonly, nonatomic) _Bool pairedDeviceCanProcessStandaloneCollections; // @synthesize pairedDeviceCanProcessStandaloneCollections=_pairedDeviceCanProcessStandaloneCollections;
-@property(readonly, nonatomic, getter=isPendingMatch) _Bool pendingMatch; // @synthesize pendingMatch=_pendingMatch;
-@property(readonly, nonatomic) NSData *playlistData; // @synthesize playlistData=_playlistData;
-@property(readonly, nonatomic) _Bool playlistsAreLibraryOwnedContent; // @synthesize playlistsAreLibraryOwnedContent=_playlistsAreLibraryOwnedContent;
-@property(readonly, nonatomic) long long preferredVideoQuality; // @synthesize preferredVideoQuality=_preferredVideoQuality;
-@property(readonly, nonatomic, getter=isResetSync) _Bool resetSync; // @synthesize resetSync=_resetSync;
-@property(readonly, nonatomic, getter=isSagaEnabled) _Bool sagaEnabled; // @synthesize sagaEnabled=_sagaEnabled;
-@property(readonly, nonatomic) long long storeAccountID; // @synthesize storeAccountID=_storeAccountID;
-@property(readonly, nonatomic, getter=isSuspendable) _Bool suspendable; // @synthesize suspendable=_suspendable;
-@property(readonly, nonatomic) NSString *syncAnchor; // @synthesize syncAnchor=_syncAnchor;
-@property(readonly, nonatomic) NSString *syncLibraryID; // @synthesize syncLibraryID=_syncLibraryID;
-@property(readonly, nonatomic) NSData *trackData; // @synthesize trackData=_trackData;
-@property(readonly, nonatomic) _Bool tracksAreLibraryOwnedContent; // @synthesize tracksAreLibraryOwnedContent=_tracksAreLibraryOwnedContent;
 
 @end
 

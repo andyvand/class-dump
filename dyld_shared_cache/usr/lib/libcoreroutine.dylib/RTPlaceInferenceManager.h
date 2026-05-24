@@ -6,31 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSDictionary, NSMutableArray, NSString, RTBluePOIMetricManager, RTBluePOIMonitor, RTBluePOITileManager, RTDefaultsManager, RTDistanceCalculator, RTInferredMapItemFuser, RTLearnedLocationStore, RTLocationManager, RTMapItemManager, RTMapServiceManager, RTMetricManager, RTPlaceInferenceDailyMetrics, RTPlaceInferenceQueryStore, RTVisitManager, RTVisitStore;
+@class RTBluePOIMetricManager;
 
 @interface RTPlaceInferenceManager : RTService
 {
     RTBluePOIMetricManager *_bluePOIMetricManager;
-    RTBluePOIMonitor *_bluePOIMonitor;
-    RTBluePOITileManager *_bluePOITileManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTInferredMapItemFuser *_inferredMapItemFuser;
-    RTMetricManager *_metricManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTMapItemManager *_mapItemManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTVisitManager *_visitManager;
-    RTVisitStore *_visitStore;
-    NSDictionary *_mapItemProviders;
-    unsigned long long _placeInferencesLimit;
-    NSMutableArray *_cachedLocations;
-    unsigned long long _cachedLocationIndex;
-    RTPlaceInferenceDailyMetrics *_dailyMetrics;
-    NSDate *_visitEntryTime;
-    unsigned long long _clientMappingIndex;
-    RTPlaceInferenceQueryStore *_placeInferenceQueryStore;
 }
 
 + (unsigned long long);
@@ -47,7 +27,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -55,13 +35,13 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (unsigned long long);
+- (id)d to encrypt with ngm identities - fail to seal message {error:(id)arg1 %{public}@, encryptingIdentity:(double)arg2 %{private}@, signingIdentity:%{private}@} /* Error: Ran out of types for this method. */;
+- (unsigned long long)-device;
 - (_Bool);
 - (id);
 - (void);
@@ -72,8 +52,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)_applicationWillTerminate;
+- (void)payload size:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -90,18 +70,18 @@
 - (void);
 - (id);
 - (id);
+- (void)4;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)nerGranularityMapItem:(id)arg1 userType:userTypeSource:placeType:referenceLocation:confidence:finerGranularityMapItemConfidence:loiIdentifier:preferredName: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:(id)arg1 finerGranularityMapItem:userType:userTypeSource:placeType:referenceLocation:confidence:finerGranularityMapItemConfidence:loiIdentifier:preferredName: /* Error: Ran out of types for this method. */;
 - (id)è);
 - (id)d;
-- (id)eFactorExternalKey;
-- (void)on;
+- (id)RTDefaultsSMTriggerDestinationScaleFactorExternalKey;
+- (void)RTLR_SPI_OriginCoordinate_RTLRLocation;
 - (void)ProbMap;
 - (id)hile finding object IDs affected by deleting object, from other devices, error, %@;
 - (void)d parameter not satisfying:(id)arg1 predictedDate (in %s:%d) /* Error: Ran out of types for this method. */;
@@ -114,33 +94,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;
-@property(readonly, nonatomic) RTBluePOIMonitor *bluePOIMonitor; // @synthesize bluePOIMonitor=_bluePOIMonitor;
-@property(readonly, nonatomic) RTBluePOITileManager *bluePOITileManager; // @synthesize bluePOITileManager=_bluePOITileManager;
-@property(readonly, nonatomic) unsigned long long cachedLocationIndex; // @synthesize cachedLocationIndex=_cachedLocationIndex;
-@property(readonly, nonatomic) NSMutableArray *cachedLocations; // @synthesize cachedLocations=_cachedLocations;
-@property(nonatomic) unsigned long long clientMappingIndex; // @synthesize clientMappingIndex=_clientMappingIndex;
-@property(retain, nonatomic) RTPlaceInferenceDailyMetrics *dailyMetrics; // @synthesize dailyMetrics=_dailyMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTInferredMapItemFuser *inferredMapItemFuser; // @synthesize inferredMapItemFuser=_inferredMapItemFuser;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTMapItemManager *mapItemManager; // @synthesize mapItemManager=_mapItemManager;
-@property(readonly, nonatomic) NSDictionary *mapItemProviders; // @synthesize mapItemProviders=_mapItemProviders;
-@property(readonly, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(readonly, nonatomic) RTPlaceInferenceQueryStore *placeInferenceQueryStore; // @synthesize placeInferenceQueryStore=_placeInferenceQueryStore;
-@property(nonatomic) unsigned long long placeInferencesLimit; // @synthesize placeInferencesLimit=_placeInferencesLimit;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *visitEntryTime; // @synthesize visitEntryTime=_visitEntryTime;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
-@property(readonly, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
 
 @end
 

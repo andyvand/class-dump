@@ -13,12 +13,12 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)IsInitializedCallback;
 - (id);
 - (id);
-- (id);
+- (id)4$;
 - (void);
-- (id);
+- (id)y %ld months.;
 
 @end
 

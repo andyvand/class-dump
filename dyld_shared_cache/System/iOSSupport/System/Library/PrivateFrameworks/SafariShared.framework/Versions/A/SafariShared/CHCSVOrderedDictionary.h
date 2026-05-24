@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CHCSVOrderedDictionary
 {
     NSArray *_keys;
-    NSArray *_values;
-    NSDictionary *_dictionary;
 }
 
 - (id);
@@ -18,12 +16,103 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)=;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_drawOnMainThreadPending;
+- (id)SCNMetalLayerJSExport;
+- (id)RE_BOOL(use_emission_intensity)
+DECLARE_BOOL(use_ambient_intensity)
+DECLARE_BOOL(use_multiply_intensity)
+DECLARE_BOOL(use_specular_intensity)
+DECLARE_BOOL(use_reflective_intensity)
+DECLARE_BOOL(use_roughness_intensity)
+DECLARE_BOOL(use_metalness_intensity)
+
+DECLARE_BOOL(use_fresnel)
+DECLARE_BOOL(use_transparency)
+DECLARE_BOOL(use_transparency_rgbzero)
+
+
+DECLARE_INT(diffuse_channel)
+DECLARE_INT(normal_channel)
+DECLARE_INT(transparent_channel)
+DECLARE_INT(emission_channel)
+DECLARE_INT(ambient_channel)
+DECLARE_INT(multiply_channel)
+DECLARE_INT(specular_channel)
+DECLARE_INT(roughness_channel)
+DECLARE_INT(metalness_channel)
+
+
+DECLARE_OPT_INT(diffuse_texcoord_io_index)
+DECLARE_OPT_INT(normal_texcoord_io_index)
+DECLARE_OPT_INT(transparent_texcoord_io_index)
+DECLARE_OPT_INT(emission_texcoord_io_index)
+DECLARE_OPT_INT(ambient_texcoord_io_index)
+DECLARE_OPT_INT(multiply_texcoord_io_index)
+DECLARE_OPT_INT(specular_texcoord_io_index)
+DECLARE_OPT_INT(roughness_texcoord_io_index)
+DECLARE_OPT_INT(metalness_texcoord_io_index)
+
+
+DECLARE_OPT_INT(diffuse_transform_index)
+DECLARE_OPT_INT(normal_transform_index)
+DECLARE_OPT_INT(transparent_transform_index)
+DECLARE_OPT_INT(emission_transform_index)
+DECLARE_OPT_INT(ambient_transform_index)
+DECLARE_OPT_INT(multiply_transform_index)
+DECLARE_OPT_INT(specular_transform_index)
+DECLARE_OPT_INT(roughness_transform_index)
+DECLARE_OPT_INT(metalness_transform_index)
+
+DECLARE_BOOL(use_emission_as_selfIllumination)
+DECLARE_BOOL(use_ambient_as_ambientOcclusion)
+DECLARE_BOOL(use_texture_transforms)
+DECLARE_BOOL(use_point_rendering)
+DECLARE_BOOL(diffuse_premultiplied)
+DECLARE_BOOL(use_discard)
+
+
+
+DECLARE_BOOL(use_instancing)
+
+
+
+DECLARE_INT(lighting_model)
+DECLARE_BOOL(use_lighting) 
+DECLARE_BOOL(use_ambient_lighting)
+DECLARE_BOOL(use_modulate_lighting)
+DECLARE_BOOL(use_per_vertex_lighting)
+DECLARE_BOOL(avoid_overlighting) 
+DECLARE_BOOL(use_double_sided)
+DECLARE_BOOL(use_probes_lighting)
+
+
+DECLARE_OPT_UINT(use_light0);
+DECLARE_OPT_UINT(use_light1);
+DECLARE_OPT_UINT(use_light2);
+DECLARE_OPT_UINT(use_light3);
+
+
+
+DECLARE_BOOL(use_node_opacity)
+
+
+
+DECLARE_BOOL(use_fog)
+DECLARE_BOOL(use_ssao)
+
+
+
+DECLARE_INT(io_texcoord_count)
+
+#undef DECLARE_BOOL
+#undef DECLARE_INT
+#undef DECLARE_UINT
+#undef DECLARE_OPT_INT
+#undef DECLARE_OPT_UINT
+;
+- (id)\;
 - (unsigned long long);
 - (void)ü;
 - (id)romTopOfElementRatio=n.height>0?n.top/n.height:(unsigned long long)arg1 0,this._originalPageScrollSyncAndContentRefreshIsAllowed()&&ReaderJS.readerIsForeground()&&(this._pushScrollPositionToOriginalPage(),e&&this._checkForUpdatedContentSoon())},_pushScrollPositionToOriginalPage:function(){const e=ReaderJSController.originalArticleFinder(),[t,n]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);

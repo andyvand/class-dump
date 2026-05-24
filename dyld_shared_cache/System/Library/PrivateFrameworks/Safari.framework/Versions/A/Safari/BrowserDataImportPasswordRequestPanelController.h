@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSButton, NSLayoutConstraint, NSSecureTextField, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataImportPasswordRequestPanelController
 {
     _Bool _showsWrongPasswordWarning;
-    NSBundle *_importSource;
-    long long _requestReason;
-    NSTextField *_titleLabel;
-    NSTextField *_explanationLabel;
-    NSTextField *_wrongPasswordWarningLabel;
-    NSSecureTextField *_passwordField;
-    NSButton *_importPasswordsButton;
-    NSLayoutConstraint *_warningLabelAndSecureTextFieldSpacingConstraint;
 }
 
 - (id);
@@ -37,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -51,22 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSTextField *explanationLabel; // @synthesize explanationLabel=_explanationLabel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSButton *importPasswordsButton; // @synthesize importPasswordsButton=_importPasswordsButton;
-@property(readonly, nonatomic) NSBundle *importSource; // @synthesize importSource=_importSource;
-@property(nonatomic) __weak NSSecureTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(readonly, nonatomic) long long requestReason; // @synthesize requestReason=_requestReason;
-@property(nonatomic) _Bool showsWrongPasswordWarning; // @synthesize showsWrongPasswordWarning=_showsWrongPasswordWarning;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *warningLabelAndSecureTextFieldSpacingConstraint; // @synthesize warningLabelAndSecureTextFieldSpacingConstraint=_warningLabelAndSecureTextFieldSpacingConstraint;
-@property(nonatomic) __weak NSTextField *wrongPasswordWarningLabel; // @synthesize wrongPasswordWarningLabel=_wrongPasswordWarningLabel;
 
 @end
 

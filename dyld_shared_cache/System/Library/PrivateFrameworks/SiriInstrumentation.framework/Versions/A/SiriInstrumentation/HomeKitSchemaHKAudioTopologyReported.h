@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HomeKitSchemaHKAudioTopologyReported : SISchemaInstrumentationMessage
 {
     int _audioTopology;
-    _Bool _isLeader;
-    CDStruct_aee7aefc _has;
 }
 
 - (void);
@@ -26,11 +22,11 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_registerForApplicationLifecycleEvents;
 - (id)Atð!dGù±à°1Â0@ù
 × ;
 - (id)veDecimal;
@@ -38,10 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) int audioTopology; // @synthesize audioTopology=_audioTopology;
-@property(nonatomic) _Bool hasAudioTopology;
-@property(nonatomic) _Bool hasIsLeader;
-@property(nonatomic) _Bool isLeader; // @synthesize isLeader=_isLeader;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

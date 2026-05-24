@@ -6,21 +6,15 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXJSONArray;
-
 @interface SXMapComponent : SXComponent
 {
 }
 
-+ (id);
++ (id)rؗ;
 + (CDUnknownBlockType);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
-@property(readonly, nonatomic) unsigned long long defaultMapType; // @dynamic defaultMapType;
-@property(readonly, nonatomic) SXJSONArray *items; // @dynamic items;
 @property(readonly, nonatomic) CDStruct_2b0c6e0b region; // @dynamic region;
 
 @end

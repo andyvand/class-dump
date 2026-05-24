@@ -6,17 +6,13 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSString;
-@protocol NUScalePolicy;
-
 @interface NUFaceDetectionRequest : NURenderRequest
 {
     long long _maxFaceCount;
-    id <NUScalePolicy> _scalePolicy;
 }
 
-- (void);
-- (id);
+- (void)[;
+- (id)jh8h;
 - (id);
 - (long long);
 - (long long);
@@ -28,16 +24,7 @@
 - (void)ine>"16@"NUChannelMatching"24o^@32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property long long maxFaceCount; // @synthesize maxFaceCount=_maxFaceCount;
-@property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

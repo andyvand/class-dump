@@ -6,59 +6,44 @@
 
 #import <ChatKit/CKPhoneTranscriptMessageCell.h>
 
-@class CKTranscriptLegibilityLabel, NSAttributedString, UIView;
+@class CKTranscriptLegibilityLabel;
 
 @interface CKTranscriptMessageContentCell : CKPhoneTranscriptMessageCell
 {
     _Bool _drawerWasVisible;
-    _Bool _drawerTextChanged;
-    NSAttributedString *_drawerText;
-    long long _animationPauseReasons;
-    CKTranscriptLegibilityLabel *_drawerLabel;
-    struct CGSize _messageDisplayViewRequestedSize;
-    struct CGSize _drawerTextSize;
 }
 
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (id);
+- (double)shouldAutoConvertNote: /* Error: Ran out of types for this method. */;
+- (void)initializeCryptoPropertiesFromObject:(struct CGSize)arg1;
+- (void)ic_isDeallocating;
+- (void)ic_isCurrentEventTabOrBackTab;
+- (void)ic_isControlPressed;
+- (void)ic_isCharacterInlineAttachmentPrefix:(id)arg1;
+- (void)filteredAttributedSubstringFromRange:(long long)arg1 insertListMarkers: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)rivedAuthorHighlight;
+- (id)titleQueryDrawingDispatchQueue:(struct CGRect)arg1;
 - (struct CGRect);
-- (id);
-- (void);
-- (void);
+- (id)timelineSectionsForNoteObjectIDs:dates:referenceDate:direction: /* Error: Ran out of types for this method. */;
+- (void)ICBackgroundColor;
+- (void)CGImageForProposedRect:context:hints: /* Error: Ran out of types for this method. */;
+- (_Bool)_selectedSuggestion;
+- (struct CGSize)ObjectWillChangePublisher;
 - (_Bool);
-- (struct CGSize);
-- (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)isKeyboardMathSolvingAllowedObservation;
 - (id);
-- (double);
-- (void);
+- (double)GAJGGtGG;
+- (void)Sg;
 - (long long);
-- (void);
-- (struct CGSize);
+- (void)_LIMIT_MESSAGE_%lu;
+- (struct CGSize)veExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
-- (void)onColor;
+- (id)dragInteraction:(struct CGRect)arg1 item:willAnimateCancelWithAnimator: /* Error: Ran out of types for this method. */;
+- (void)EntryFieldSendLaterBalloonColor;
 
 // Remaining properties
-@property(nonatomic) long long animationPauseReasons; // @synthesize animationPauseReasons=_animationPauseReasons;
 @property(retain, nonatomic) CKTranscriptLegibilityLabel *drawerLabel; // @synthesize drawerLabel=_drawerLabel;
-@property(readonly) struct CGRect drawerLabelFrame;
-@property(copy, nonatomic) NSAttributedString *drawerText; // @synthesize drawerText=_drawerText;
-@property(nonatomic) _Bool drawerTextChanged; // @synthesize drawerTextChanged=_drawerTextChanged;
-@property(nonatomic) struct CGSize drawerTextSize; // @synthesize drawerTextSize=_drawerTextSize;
-@property(nonatomic) _Bool drawerWasVisible; // @synthesize drawerWasVisible=_drawerWasVisible;
-@property(readonly) UIView *messageDisplayView;
-@property(nonatomic) struct CGSize messageDisplayViewRequestedSize; // @synthesize messageDisplayViewRequestedSize=_messageDisplayViewRequestedSize;
-@property(readonly, nonatomic) struct UIEdgeInsets messageDisplayViewTailInsets;
 
 @end
 

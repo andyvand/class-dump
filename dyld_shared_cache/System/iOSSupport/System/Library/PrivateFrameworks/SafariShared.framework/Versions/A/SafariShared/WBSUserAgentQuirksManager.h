@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (void)eTabRequest;
+- (void)CloseTabRequest;
 
 @end
 

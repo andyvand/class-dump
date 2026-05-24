@@ -7,8 +7,6 @@
 @interface CoreML.AsyncComputeFunctionScheduler__priv_E8DC9B772C73548EA5F31AD4BCEEE43A
 {
     id $defaultActor;
-    id streamContinuation;
-    id task;
 }
 
 @end

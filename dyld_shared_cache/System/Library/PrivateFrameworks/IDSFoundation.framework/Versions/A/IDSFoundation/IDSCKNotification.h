@@ -9,7 +9,6 @@
 @interface IDSCKNotification
 {
     NSString *_notificationType;
-    NSString *_subscriptionID;
 }
 
 + (Class);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *notificationType; // @synthesize notificationType=_notificationType;
-@property(readonly, copy, nonatomic) NSString *subscriptionID; // @synthesize subscriptionID=_subscriptionID;
 
 @end
 

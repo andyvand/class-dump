@@ -15,10 +15,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)supported across all substreams. Posting 'ActiveConfigurationDidBecomeInvalid'!;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSignedZoneUsage;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedZoneUsage; // @synthesize signedZoneUsage=_signedZoneUsage;
 
 @end
 

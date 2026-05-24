@@ -5,5 +5,6 @@
 //
 
 @protocol CRKIDSFirewall
+- (void);
 @end
 

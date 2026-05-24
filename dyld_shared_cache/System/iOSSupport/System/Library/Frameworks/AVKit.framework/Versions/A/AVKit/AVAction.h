@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIMenu;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface AVAction
 {
     UIColor *_tintColor;
-    UIMenu *_contextMenu;
-    CDUnknownBlockType _localHandler;
 }
 
 + (id);
 + (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)write:(id)arg1 maxLength: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)eContentTab"24Q32;
 - (void)p>;
 
 // Remaining properties
-@property(retain, nonatomic) UIMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
 @property(copy, nonatomic) CDUnknownBlockType localHandler; // @synthesize localHandler=_localHandler;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

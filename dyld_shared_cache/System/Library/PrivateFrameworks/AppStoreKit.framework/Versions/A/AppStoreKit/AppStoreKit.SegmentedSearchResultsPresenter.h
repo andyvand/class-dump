@@ -9,17 +9,6 @@
 @interface AppStoreKit.SegmentedSearchResultsPresenter : AppStoreKit.BasePresenter
 {
     id transitionObserver;
-    id onApplySegmentsSnapshot;
-    id onUpdatePhaseChange;
-    id facetsPresenter;
-    id pendingResultsFetch;
-    id pendingPaginationFetch;
-    id selectedSegment;
-    id segments;
-    id segmentControlActions;
-    id lastSearch;
-    id onApplySnapshot;
-    id fastImpressionsTimer;
 }
 
 @end

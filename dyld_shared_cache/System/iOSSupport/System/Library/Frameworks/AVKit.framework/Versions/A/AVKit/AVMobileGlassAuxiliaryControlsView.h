@@ -6,26 +6,12 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVControlOverflowButton, AVMobileGlassControlsStyleSheet, NSArray, NSString;
-@protocol AVMobileGlassAuxiliaryControlsViewDelegate;
+@class AVControlOverflowButton;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassAuxiliaryControlsView : AVGlassBackedView
 {
     AVControlOverflowButton *_overflowControl;
-    double _extendedDynamicRangeGain;
-    NSArray *_controlsInPriorityOrder;
-    NSArray *_prominentControlsInPriorityOrder;
-    NSArray *_nonProminentControlsInPriorityOrder;
-    NSArray *_controlsWithViewsInPriorityOrder;
-    AVGlassBackedView *_controlsContainerView;
-    _Bool _hasOverflowOnlyControl;
-    _Bool _fullscreen;
-    NSArray *_controls;
-    double _controlSpacing;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    id <AVMobileGlassAuxiliaryControlsViewDelegate> _delegate;
-    struct UIEdgeInsets _controlInsets;
 }
 
 - (void);
@@ -33,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void);
-- (void);
+- (void)ForceTimingIssueAroundProxySetupQueue;
+- (void)at startup:%lu /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -49,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)%@, algorithm properties = %@, distance weights = %@>;
 - (void);
 - (void);
-- (double);
+- (double)appendString: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)CaptionButtonPresentationProperties",&,N,V_button;
+- (_Bool)articipantModel"8;
+- (_Bool)P;
 - (void);
 - (id);
 - (void)
@@ -64,20 +50,7 @@ __attribute__((visibility("hidden")))
 - (id)%ld;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets controlInsets; // @synthesize controlInsets=_controlInsets;
-@property(nonatomic) double controlSpacing; // @synthesize controlSpacing=_controlSpacing;
-@property(retain, nonatomic) NSArray *controls; // @synthesize controls=_controls;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileGlassAuxiliaryControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFullscreen) _Bool fullscreen; // @synthesize fullscreen=_fullscreen;
 @property(nonatomic) _Bool hasOverflowOnlyControl; // @synthesize hasOverflowOnlyControl=_hasOverflowOnlyControl;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
 
 @end
 

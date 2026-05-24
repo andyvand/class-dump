@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMapTable, NSObject, NSString, NSURL, NSXPCConnection, NSXPCListener, WBSHistoryDatabaseAccessBroker;
-@protocol OS_dispatch_group, OS_dispatch_queue, WBSHistoryCompletionListVendorProtocol;
+@class NSXPCListener, WBSHistoryDatabaseAccessBroker;
 
 @interface WBSHistoryService
 {
     NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_historyServiceQueue;
-    NSObject<OS_dispatch_group> *_fileOperationGroup;
-    NSMapTable *_databases;
-    NSDate *_initDate;
-    NSXPCConnection *_completionListProviderConnection;
-    id _keybagToken;
-    WBSHistoryDatabaseAccessBroker *_databaseAccessBroker;
 }
 
 - (void);
@@ -33,25 +25,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`B;
 - (id);
-- (id);
+- (id)`";
 - (void);
 - (_Bool);
 - (void);
 - (void)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) id <WBSHistoryCompletionListVendorProtocol> completionListProvider;
 @property(readonly, nonatomic) WBSHistoryDatabaseAccessBroker *databaseAccessBroker; // @synthesize databaseAccessBroker=_databaseAccessBroker;
-@property(readonly, nonatomic) NSURL *databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

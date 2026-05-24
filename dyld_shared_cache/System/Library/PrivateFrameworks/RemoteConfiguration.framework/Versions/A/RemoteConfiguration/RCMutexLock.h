@@ -12,7 +12,7 @@
     } _lock;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

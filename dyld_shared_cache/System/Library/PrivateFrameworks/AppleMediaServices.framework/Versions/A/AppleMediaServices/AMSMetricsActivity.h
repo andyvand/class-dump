@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)15;
 - (void)ß ÎDè½êw|Y¥µÿi>©»3ñ(f0Ó@³ØàrkÍÆ©JYõhùÓëºGs*	Uå/;
 
 // Remaining properties

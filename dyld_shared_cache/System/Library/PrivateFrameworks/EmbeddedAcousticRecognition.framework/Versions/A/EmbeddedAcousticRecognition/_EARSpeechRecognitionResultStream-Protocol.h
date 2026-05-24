@@ -5,5 +5,8 @@
 //
 
 @protocol _EARSpeechRecognitionResultStream
+
+@optional
+- (void);
 @end
 

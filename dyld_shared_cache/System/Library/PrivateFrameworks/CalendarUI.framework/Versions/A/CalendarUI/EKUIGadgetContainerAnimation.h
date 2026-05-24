@@ -9,27 +9,21 @@
 @interface EKUIGadgetContainerAnimation
 {
     _Bool _expanding;
-    EKUIGadgetContainer *_targetContainer;
-    double _startConstant;
-    double _endConstant;
 }
 
 - (double);
-- (void);
-- (void);
+- (void);
+- (void));
 - (void);
 - (id);
 - (_Bool);
 - (double);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property double endConstant; // @synthesize endConstant=_endConstant;
-@property _Bool expanding; // @synthesize expanding=_expanding;
-@property double startConstant; // @synthesize startConstant=_startConstant;
 @property __weak EKUIGadgetContainer *targetContainer; // @synthesize targetContainer=_targetContainer;
 
 @end

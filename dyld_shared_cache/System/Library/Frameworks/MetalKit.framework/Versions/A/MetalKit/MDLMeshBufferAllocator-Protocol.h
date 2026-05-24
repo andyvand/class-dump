@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MDLMeshBuffer;
+
 @protocol MDLMeshBufferAllocator
+- (id <MDLMeshBuffer>);
+- (id <MDLMeshBuffer>)�;
 @end
 

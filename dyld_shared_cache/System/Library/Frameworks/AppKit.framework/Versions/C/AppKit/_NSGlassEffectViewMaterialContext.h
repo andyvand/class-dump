@@ -7,11 +7,10 @@
 @interface _NSGlassEffectViewMaterialContext
 {
     id _style;
-    id _material;
 }
 
 - (id);
-- (id)scriptionForLogging:(void *)arg1;
+- (id)_briefDescriptionForLogging:(void *)arg1;
 - (void)Tôaÿt;
 
 @end

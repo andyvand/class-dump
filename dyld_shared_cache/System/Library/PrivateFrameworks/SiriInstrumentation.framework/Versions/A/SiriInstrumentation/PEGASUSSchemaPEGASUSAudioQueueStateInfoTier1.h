@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PEGASUSSchemaPEGASUSAudioQueueStateItemTier1;
+@class PEGASUSSchemaPEGASUSAudioQueueStateItemTier1;
 
 @interface PEGASUSSchemaPEGASUSAudioQueueStateInfoTier1 : SISchemaInstrumentationMessage
 {
     PEGASUSSchemaPEGASUSAudioQueueStateItemTier1 *_audioQueueStateItemTier1;
-    _Bool _hasAudioQueueStateItemTier1;
 }
 
 - (void);
@@ -21,21 +20,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)a;
+- (_Bool)IMDAttachmentRecordCopyAttachmentsToMetricForDiskSpace_IPCAction;
 - (id);
 - (id)!BùÑÝð1Â0@ù
 × ;
-- (id)p28DayToInf;
+- (id)_freqAnyGroup28DayToInf;
 - (id)ecked;
 - (void)tedStatementResults.outcome.parameterConfirmation.item.value.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
 @property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioQueueStateItemTier1 *audioQueueStateItemTier1; // @synthesize audioQueueStateItemTier1=_audioQueueStateItemTier1;
-@property(nonatomic) _Bool hasAudioQueueStateItemTier1; // @synthesize hasAudioQueueStateItemTier1=_hasAudioQueueStateItemTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

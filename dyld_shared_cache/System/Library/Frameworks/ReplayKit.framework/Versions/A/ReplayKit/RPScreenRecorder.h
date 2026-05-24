@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSView, NSWindow, RPAppAudioCaptureManager, RPBroadcastController, RPMacUtility, RPPipViewController;
-@protocol RPScreenCaptureKitContentSharingPickerDelegate, RPScreenCaptureKitControlCenterManagerDelegate, RPScreenRecorderDelegate, RPScreenRecorderPrivateDelegate, RPScreenRecorderScreenCapureKitDelegate, RPScreenRecorderScreenCapureKitPreviewDelegate, RPScreenRecorderScreenCapureKitRecordingOutputDelegate;
-
 @interface RPScreenRecorder
 {
     _Bool _available;
-    _Bool _recording;
-    _Bool _microphoneEnabled;
-    _Bool _cameraEnabled;
-    _Bool _hasUserConsentForCamera;
-    _Bool _hasUserConsentForMicrophone;
-    _Bool _paused;
-    _Bool _mixedRealityCameraEnabled;
-    _Bool _systemRecording;
-    int _processIDForAudioCapture;
-    id <RPScreenRecorderDelegate> _delegate;
-    long long _cameraPosition;
-    NSView *_cameraPreviewView;
-    unsigned long long _previousAudioSessionOptions;
-    NSString *_previousAudioCategory;
-    NSWindow *_windowToRecord;
-    RPPipViewController *_pipViewController;
-    CDUnknownBlockType _saveVideoToCameraRollCompletionBlock;
-    CDUnknownBlockType _captureHandler;
-    RPAppAudioCaptureManager *_appAudioCaptureManager;
-    RPMacUtility *_rpMacUtility;
-    RPBroadcastController *_activeBroadcastController;
-    NSURL *_broadcastURL;
-    id <RPScreenRecorderPrivateDelegate> _privateDelegate;
-    id <RPScreenRecorderScreenCapureKitDelegate> _screenCaptureKitDelegate;
-    id <RPScreenCaptureKitControlCenterManagerDelegate> _screenCaptureKitControlCenterManagerDelegate;
-    id <RPScreenCaptureKitContentSharingPickerDelegate> _screenCaptureKitContentSharingPickerDelegate;
-    id <RPScreenRecorderScreenCapureKitPreviewDelegate> _screenCaptureKitPreviewDelegate;
-    id <RPScreenRecorderScreenCapureKitRecordingOutputDelegate> _screenCaptureKitRecordingOutputDelegate;
-    id <RPScreenRecorderDelegate> _secondDelegate;
 }
 
 + (id);
@@ -48,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (oneway void);
 - (oneway void);
@@ -83,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -122,12 +90,12 @@
 - (oneway void);
 - (id);
 - (oneway void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -135,7 +103,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (oneway void);
 - (void);
 - (oneway void);
@@ -151,18 +119,18 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (oneway void);
 - (oneway void);
 - (id);
-- (id);
+- (id)_ֈ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
+- (void)';
+- (void)";
 - (_Bool);
 - (id);
 - (oneway void);
@@ -171,8 +139,8 @@
 - (_Bool);
 - (_Bool);
 - (oneway void);
-- (void);
-- (long long);
+- (void)"16@0:(long long)arg1 8;
+- (long long)saveCreditCardDataIfAllowed: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -182,56 +150,20 @@
 - (void);
 - (id);
 - (id);
+- (void)ask.hash}@ and domain:(id)arg1 %{sensitive, mask.hash}@.;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$s8StoreKit17ClientOverridableP;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool)ùQÐ1Â0@ù
 × ;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) RPBroadcastController *activeBroadcastController; // @synthesize activeBroadcastController=_activeBroadcastController;
-@property(retain, nonatomic) RPAppAudioCaptureManager *appAudioCaptureManager; // @synthesize appAudioCaptureManager=_appAudioCaptureManager;
-@property(nonatomic, getter=isAvailable) _Bool available; // @synthesize available=_available;
-@property(retain, nonatomic) NSURL *broadcastURL; // @synthesize broadcastURL=_broadcastURL;
-@property(nonatomic, getter=isCameraEnabled) _Bool cameraEnabled; // @synthesize cameraEnabled=_cameraEnabled;
-@property(nonatomic) long long cameraPosition; // @synthesize cameraPosition=_cameraPosition;
-@property(retain, nonatomic) NSView *cameraPreviewView; // @synthesize cameraPreviewView=_cameraPreviewView;
-@property(copy, nonatomic) CDUnknownBlockType captureHandler; // @synthesize captureHandler=_captureHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RPScreenRecorderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasUserConsentForCamera; // @synthesize hasUserConsentForCamera=_hasUserConsentForCamera;
-@property(nonatomic) _Bool hasUserConsentForMicrophone; // @synthesize hasUserConsentForMicrophone=_hasUserConsentForMicrophone;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMicrophoneEnabled) _Bool microphoneEnabled; // @synthesize microphoneEnabled=_microphoneEnabled;
-@property(nonatomic, getter=isMixedRealityCameraEnabled) _Bool mixedRealityCameraEnabled; // @synthesize mixedRealityCameraEnabled=_mixedRealityCameraEnabled;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(retain, nonatomic) RPPipViewController *pipViewController; // @synthesize pipViewController=_pipViewController;
-@property(retain, nonatomic) NSString *previousAudioCategory; // @synthesize previousAudioCategory=_previousAudioCategory;
 @property(nonatomic) unsigned long long previousAudioSessionOptions; // @synthesize previousAudioSessionOptions=_previousAudioSessionOptions;
-@property(retain, nonatomic) id <RPScreenRecorderPrivateDelegate> privateDelegate; // @synthesize privateDelegate=_privateDelegate;
-@property(nonatomic, setter=updateProcessIDForAudioCapture:) int processIDForAudioCapture; // @synthesize processIDForAudioCapture=_processIDForAudioCapture;
-@property(nonatomic, getter=isRecording) _Bool recording; // @synthesize recording=_recording;
-@property(retain, nonatomic) RPMacUtility *rpMacUtility; // @synthesize rpMacUtility=_rpMacUtility;
-@property(copy, nonatomic) CDUnknownBlockType saveVideoToCameraRollCompletionBlock; // @synthesize saveVideoToCameraRollCompletionBlock=_saveVideoToCameraRollCompletionBlock;
-@property(retain, nonatomic) id <RPScreenCaptureKitContentSharingPickerDelegate> screenCaptureKitContentSharingPickerDelegate; // @synthesize screenCaptureKitContentSharingPickerDelegate=_screenCaptureKitContentSharingPickerDelegate;
-@property(retain, nonatomic) id <RPScreenCaptureKitControlCenterManagerDelegate> screenCaptureKitControlCenterManagerDelegate; // @synthesize screenCaptureKitControlCenterManagerDelegate=_screenCaptureKitControlCenterManagerDelegate;
-@property(retain, nonatomic) id <RPScreenRecorderScreenCapureKitDelegate> screenCaptureKitDelegate; // @synthesize screenCaptureKitDelegate=_screenCaptureKitDelegate;
-@property(retain, nonatomic) id <RPScreenRecorderScreenCapureKitPreviewDelegate> screenCaptureKitPreviewDelegate; // @synthesize screenCaptureKitPreviewDelegate=_screenCaptureKitPreviewDelegate;
-@property(retain, nonatomic) id <RPScreenRecorderScreenCapureKitRecordingOutputDelegate> screenCaptureKitRecordingOutputDelegate; // @synthesize screenCaptureKitRecordingOutputDelegate=_screenCaptureKitRecordingOutputDelegate;
-@property(retain, nonatomic) id <RPScreenRecorderDelegate> secondDelegate; // @synthesize secondDelegate=_secondDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool systemRecording; // @synthesize systemRecording=_systemRecording;
-@property(retain, nonatomic) NSWindow *windowToRecord; // @synthesize windowToRecord=_windowToRecord;
 
 @end
 

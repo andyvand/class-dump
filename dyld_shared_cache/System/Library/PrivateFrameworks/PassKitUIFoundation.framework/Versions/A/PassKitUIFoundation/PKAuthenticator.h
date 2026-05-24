@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PKAuthenticatorEvaluationContext, PKPaymentHardwareStatus;
 @protocol PKAuthenticatorDelegate;
 
 @interface PKAuthenticator
 {
     unsigned long long _authenticationIdentifier;
-    struct os_unfair_lock_s _lock;
-    _Bool _invalidated;
-    PKAuthenticatorEvaluationContext *_context;
-    id <PKAuthenticatorDelegate> _delegate;
-    PKPaymentHardwareStatus *_paymentHardwareStatus;
-    NSDictionary *_clientAnalyticsParameters;
 }
 
 + (id);
@@ -44,36 +37,27 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)Y;
+- (id)�;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ession>"24Q32;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long authenticationIdentifier;
-@property(copy, nonatomic) NSDictionary *clientAnalyticsParameters; // @synthesize clientAnalyticsParameters=_clientAnalyticsParameters;
-@property(readonly, nonatomic) long long coachingState;
 @property(nonatomic) __weak id <PKAuthenticatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long evaluationState;
-@property(readonly, nonatomic) _Bool fingerPresent;
-@property(readonly, nonatomic) _Bool passcodeActive;
-@property(readonly, nonatomic) _Bool passcodeWasPresented;
-@property(readonly, nonatomic) _Bool passphraseActive;
-@property(retain, nonatomic) PKPaymentHardwareStatus *paymentHardwareStatus; // @synthesize paymentHardwareStatus=_paymentHardwareStatus;
 
 @end
 

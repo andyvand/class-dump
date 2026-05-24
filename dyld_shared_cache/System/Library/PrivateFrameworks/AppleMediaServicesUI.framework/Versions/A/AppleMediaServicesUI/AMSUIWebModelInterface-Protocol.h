@@ -5,5 +5,6 @@
 //
 
 @protocol AMSUIWebModelInterface
+- (id).  Are you really, really sure you meant that?;
 @end
 

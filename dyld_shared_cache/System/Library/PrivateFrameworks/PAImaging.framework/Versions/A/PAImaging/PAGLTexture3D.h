@@ -9,8 +9,6 @@
 @interface PAGLTexture3D : PAGLTexture
 {
     unsigned int _width;
-    unsigned int _height;
-    unsigned int _depth;
 }
 
 - (void);
@@ -18,11 +16,9 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int)ions:toLayer:key: /* Error: Ran out of types for this method. */;
+- (unsigned int)_addAnimations:toLayer:key: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int depth; // @synthesize depth=_depth;
-@property(readonly, nonatomic) unsigned int height; // @synthesize height=_height;
 @property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end

@@ -6,28 +6,27 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSDictionary;
-
 @interface CAEAGLLayer : CALayer
 {
     struct _CAEAGLNativeWindow *_win;
 }
 
 + (_Bool);
-+ (id);
++ (id)d -- %s)
+;
 - (void);
-- (struct _EAGLNativeWindowObject *);
+- (struct _EAGLNativeWindowObject *)@8;
 - (_Bool);
-- (double);
-- (id);
+- (double);
+- (id)8(}S(;
 - (void);
 - (void);
+- (void)onIdentifier of "%@" isn't a suitable TEAMID.BUNDLEID value, and CloudKit access is denied.  Please fix the entitlements of the calling process "%@". See syslog for more info.;
 - (void);
 - (void);
-- (void);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (void)PRECOMPILED_PIPELINES;
+- (void)CA_DISABLE_PRECOMPILED_PIPELINES;
 - (unsigned long long)pdate"24;
 - (void)8;5;121mflags [0m[prot:(_Bool)arg1 %d] [handle:%d] [disable:%d]
    * [38;5;121msurface [0m[%d x %d] [%dMB] [prot:%d] [options:%d]
@@ -35,11 +34,11 @@
  /* Error: Ran out of types for this method. */;
 - (void)texcoord%d_%d);
 ;
-- (void)TRANSACTIONS;
-- (_Bool)count;
+- (void)CA_ASSERT_MAIN_THREAD_TRANSACTIONS;
+- (_Bool)compile_count;
 - (void))
 ;
-- (_Bool)yLink;
+- (_Bool)CADisplayLink;
 - (double);
 varying highp vec2 texcoord12;
 uniform highp vec2 offset[6];
@@ -76,14 +75,7 @@ void main() {
 - (void);
 
 // Remaining properties
-@property(getter=isAsynchronous) _Bool asynchronous;
-@property(copy) NSDictionary *drawableProperties;
-@property double drawableTimeoutSeconds;
-@property double inputTime;
-@property _Bool lowLatency;
-@property unsigned long long maximumDrawableCount;
 @property(readonly) struct _EAGLNativeWindowObject *nativeWindow;
-@property _Bool presentsWithTransaction;
 
 @end
 

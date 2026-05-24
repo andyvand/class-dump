@@ -11,8 +11,6 @@
 @interface MTLGPUDebugFunction : MTLToolsFunction
 {
     MTLGPUDebugImageData *data;
-    struct mutex _argumentLayoutsMutex;
-    struct unordered_map<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>>> _argumentLayouts;
 }
 
 + (id);
@@ -31,7 +29,7 @@
 - (id);
 - (id)iiqi}{MTLTelemetryStatisticIRec=iiqi}};
 - (void)32;
-- (id)onsibleProcess;
+- (id)responsibleProcess;
 
 @end
 

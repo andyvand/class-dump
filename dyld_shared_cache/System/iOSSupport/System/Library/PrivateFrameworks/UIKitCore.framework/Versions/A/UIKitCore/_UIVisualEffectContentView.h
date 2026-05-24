@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void)importArtworkTokenForEntityPersistentID:entityType:artworkToken:artworkType:sourceType: /* Error: Ran out of types for this method. */;
+- (void)l be purged [expectedEntrySize > diskCacheAvailableSize] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld diskCacheAvailableSize=%lld;
 - (void);
 - (_Bool)1_°1Â0@ù
 × ;
-- (id)h;
+- (id)_overrideActiveWidth;
 - (void)®T¯;
-- (void)exVariant;
+- (void)_flexVariant;
 - (void);
 
 @end

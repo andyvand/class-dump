@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStoreQueryHelper, CNAutocompleteStoreReproStringRecorder, CNAutocompleteUserSession, CNCancelationToken, NSString;
-@protocol CNAutocompleteProbeProvider, CNAutocompleteSearchProvider, CNScheduler;
+@class CNAutocompleteStoreQueryHelper;
 
 @interface CNAutocompleteStore
 {
     double _fetchCoalescingInterval;
-    CNAutocompleteStoreQueryHelper *_queryHelper;
-    CNCancelationToken *_currentFetchToken;
-    CNAutocompleteUserSession *_userSession;
-    CNAutocompleteStoreReproStringRecorder *_reproStringRecorder;
-    id <CNAutocompleteProbeProvider> _probeProvider;
-    id <CNScheduler> _scheduler;
 }
 
 + (double);
 - (void);
+- (void)q;
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)[;
 - (double);
 - (id);
 - (id);
@@ -37,28 +30,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)suite;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak CNCancelationToken *currentFetchToken; // @synthesize currentFetchToken=_currentFetchToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fetchCoalescingInterval; // @synthesize fetchCoalescingInterval=_fetchCoalescingInterval;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNAutocompleteProbeProvider> probeProvider; // @synthesize probeProvider=_probeProvider;
 @property(readonly, nonatomic) CNAutocompleteStoreQueryHelper *queryHelper; // @synthesize queryHelper=_queryHelper;
-@property(retain, nonatomic) CNAutocompleteStoreReproStringRecorder *reproStringRecorder; // @synthesize reproStringRecorder=_reproStringRecorder;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly, nonatomic) id <CNAutocompleteSearchProvider> searchProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNAutocompleteUserSession *userSession; // @synthesize userSession=_userSession;
 
 @end
 

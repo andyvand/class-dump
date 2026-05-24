@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface HomeKitDaemon.Metric.LogEventAdaptor
 {
     id name;
-    id event;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (void);
@@ -22,8 +18,6 @@
 - (void)X>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
-@property(nonatomic, readonly) NSString *coreAnalyticsEventName;
 @property(nonatomic) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end

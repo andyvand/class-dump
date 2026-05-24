@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSOperationQueue, NSProgress, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSArray, NSMutableArray;
 
 @interface BRTransfersStatusManager
 {
     NSMutableArray *_transfers;
-    NSOperationQueue *_operationQueue;
-    NSProgress *_globalUploadProgress;
-    NSProgress *_globalDownloadProgress;
-    id _globalProgressSubscriber;
-    unsigned long long _shouldHideGlobalDownloadProgressCount;
-    NSObject<OS_dispatch_source> *_timerToDisplayGlobalProgress;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_personaIdentifier;
 }
 
 + (id);

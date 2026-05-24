@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UISearchSuggestionItem.h>
 
-@class NSAttributedString, NSString, UIImage;
+@class NSString;
 
 @interface _UISearchSuggestionItem_dci : UISearchSuggestionItem
 {
@@ -14,23 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *iconImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,R,N
-
-@property(readonly, nonatomic) NSAttributedString *localizedAttributedSuggestion;
-@property(readonly, nonatomic) NSString *localizedDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *localizedSuggestion;
-@property(retain, nonatomic) id representedObject;
-@property(readonly) Class superclass;
 @end
 

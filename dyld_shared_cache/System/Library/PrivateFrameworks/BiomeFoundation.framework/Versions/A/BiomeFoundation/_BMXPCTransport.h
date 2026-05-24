@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, _BMXPCTransportContext;
+@class NSMutableDictionary, NSObject;
 @protocol OS_xpc_object;
 
 @interface _BMXPCTransport
 {
     NSObject<OS_xpc_object> *_connection;
-    _BMXPCTransportContext *_weakContext;
 }
 
 + (CDUnknownBlockType);
@@ -22,37 +21,27 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDStruct_4c969caf);
-- (void);
+- (CDStruct_4c969caf)Z;
+- (void)9%;
 - (void);
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)__im_attributedStringByAppendingFileTransfers:(id)arg1;
+- (void)MirrorFile[%s]:Mirror is already being downloaded. Waiting on existing download. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (int);
-- (unsigned int);
-- (CDUnknownBlockType);
+- (unsigned int);
+- (CDUnknownBlockType)@"WPDZoneManager"24@"WPDPipeManager"32@"WPDObjectDiscoveryManager"40;
 - (void);
 - (void);
 - (unsigned int)for key:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType errorHandler;
 @property(readonly) NSMutableDictionary *exportedUserInfo;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType messageHandler;
-@property(readonly) NSDictionary *remoteUserInfo;
-@property(readonly) Class superclass;
 
 @end
 

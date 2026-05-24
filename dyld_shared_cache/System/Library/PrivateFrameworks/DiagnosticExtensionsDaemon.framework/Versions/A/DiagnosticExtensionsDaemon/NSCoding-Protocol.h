@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven32RavenIMUPreprocessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_16RavenSystemEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 @end
 

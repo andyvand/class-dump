@@ -4,38 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserDefaults, _PASLock;
+@class NSUserDefaults;
 
 @interface _PSTrialClient
 {
     NSUserDefaults *_userDefaults;
-    _PASLock *_lock;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (int);
+- (id)_hasDictationModelVersion;
+- (_Bool)_hasDeviceUnlockRequired;
+- (_Bool)_hasDeviceSegmentsReported;
+- (_Bool)_hasDeviceName;
+- (_Bool)_hasDeviceLockStateChanged;
+- (_Bool)_hasDeviceIsPlayingAudio;
+- (double)_hasAssistantDaemonAudioRecordingInterruptionContext;
+- (id)_hasAsrFullPayloadCorrectedToUserEdit;
+- (long long)_hasAsrFeatureLatencyDistribution;
+- (id)_hasArray;
+- (id)_hallucinationDetectedRules;
+- (double)_generativeAIEnablement;
+- (id)_freqSameGroup6HrTo1Day;
+- (id)_curareId;
+- (int)_configuredSiriLanguage;
+- (id)_candidateTimeIntervalMatrixs;
+- (void)_bundleId;
+- (_Bool)_availableAssets;
 - (id);
 - (void);
-- (_Bool);
+- (id)!;
 - (id);
-- (void);
-- (id);
-- (id);
-- (double);
-- (_Bool);
+- (double)t;
+- (_Bool)e;
 - (id);
 - (_Bool);
 - (unsigned long long);

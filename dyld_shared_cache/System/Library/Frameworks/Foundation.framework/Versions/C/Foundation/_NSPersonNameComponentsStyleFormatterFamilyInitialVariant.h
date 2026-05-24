@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)kl;
 - (long long);
-- (id);
+- (id)P;
 - (id);
 
 @end

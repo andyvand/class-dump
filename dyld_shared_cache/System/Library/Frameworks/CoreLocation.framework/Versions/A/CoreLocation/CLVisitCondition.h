@@ -9,27 +9,21 @@
 @interface CLVisitCondition : CLCondition
 {
     long long _poiCategory;
-    double _latitude;
-    double _longitude;
-    double _radius;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)`;
+- (id)x;
 - (id);
 - (id);
 - (id);
 - (void);
-- (double);
-- (long long);
+- (double)supportsMemorylessRenderTargets;
+- (long long)register count;
 - (double);
 - (double)accessory is outputting  unshifted coordinates;
 
 // Remaining properties
-@property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
 @property(readonly, nonatomic) long long poiCategory; // @synthesize poiCategory=_poiCategory;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

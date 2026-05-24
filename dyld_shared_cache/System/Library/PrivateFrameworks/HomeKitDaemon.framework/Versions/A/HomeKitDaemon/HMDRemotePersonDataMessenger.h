@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFTimer, HMIExternalPersonManager, HMIHomePersonManager, NSObject, NSString, NSUUID;
-@protocol HMDPersonDataSource, OS_dispatch_queue;
+@class HMDHome, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemotePersonDataMessenger
 {
     NSUUID *_UUID;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDPersonDataSource> _dataSource;
-    HMFTimer *_notifyResidentsOfUpdatedDataDebounceTimer;
-    CDUnknownBlockType _notifyResidentsOfUpdatedDataDebounceTimerFactory;
 }
 
 + (id)´Kÿ"é<C;
@@ -23,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)_sendRouteUpdate:(id)arg1 to:(id)arg2;
 - (void);
+- (void)s body when resuming sharing;
+- (void)btitle when resuming sharing;
+- (void)transit_attribution;
+- (void)action;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,36 +37,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)vent.;
 - (void)}@Routing message:(id)arg1 %@;
-- (void)TriggerReason;
+- (void)logTriggerReason;
 - (id)¤f¾ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property __weak id <HMDPersonDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMIHomePersonManager *homePersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIHomePersonManager",?,R
-
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) HMFTimer *notifyResidentsOfUpdatedDataDebounceTimer; // @synthesize notifyResidentsOfUpdatedDataDebounceTimer=_notifyResidentsOfUpdatedDataDebounceTimer;
-@property(copy) CDUnknownBlockType notifyResidentsOfUpdatedDataDebounceTimerFactory; // @synthesize notifyResidentsOfUpdatedDataDebounceTimerFactory=_notifyResidentsOfUpdatedDataDebounceTimerFactory;
-@property(readonly) HMIExternalPersonManager *photosPersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIExternalPersonManager",?,R
-
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

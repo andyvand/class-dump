@@ -9,19 +9,18 @@
 @interface WBSContentBlockerStatisticsFirstParty
 {
     NSString *_domain;
-    double _lastSeen;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (double);
-- (id);
+- (double)?׀
+;
+- (id)`;
 - (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) double lastSeen; // @synthesize lastSeen=_lastSeen;
 
 @end
 

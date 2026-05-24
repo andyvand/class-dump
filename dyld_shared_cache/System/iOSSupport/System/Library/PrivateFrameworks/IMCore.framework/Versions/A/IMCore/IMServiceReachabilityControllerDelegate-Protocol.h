@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol IMServiceReachabilityControllerDelegate
+- (NSString *)R7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *serviceNamesForSending;

@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)48;
 + (struct __CFDictionary *);
 + (id);
-+ (id);
++ (id)|;
 + (void);
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXArrayChangeDetails, PXDataSection;
-@protocol NSObject><NSCopying;
+@class NSArray, PXDataSection;
 
 @interface PXDataSectionManager
 {
     PXDataSection *_dataSection;
-    NSArray *_childDataSectionManagers;
-    id <NSObject><NSCopying> _outlineObject;
-    PXArrayChangeDetails *_changeDetailsFromPreviousDataSection;
-    PXDataSection *_previousDataSection;
-    long long _previousDataSectionIdentifier;
 }
 
 - (void);
@@ -48,23 +42,7 @@
 - (void)PhotoStyleElementChangeDescriptor;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsEmptyDataSection;
-@property(readonly, nonatomic) PXArrayChangeDetails *changeDetailsFromPreviousDataSection; // @synthesize changeDetailsFromPreviousDataSection=_changeDetailsFromPreviousDataSection;
 @property(copy, nonatomic) NSArray *childDataSectionManagers; // @synthesize childDataSectionManagers=_childDataSectionManagers;
-@property(readonly, nonatomic) PXDataSection *dataSection;
-@property(readonly, nonatomic, getter=isDataSectionEmpty) _Bool dataSectionEmpty;
-@property(readonly, nonatomic) PXDataSection *dataSectionIfCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isChangeProcessingPaused;
-@property(retain, nonatomic) id <NSObject><NSCopying> outlineObject; // @synthesize outlineObject=_outlineObject;
-@property(readonly, nonatomic) PXDataSection *previousDataSection; // @synthesize previousDataSection=_previousDataSection;
-@property(readonly, nonatomic) long long previousDataSectionIdentifier; // @synthesize previousDataSectionIdentifier=_previousDataSectionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

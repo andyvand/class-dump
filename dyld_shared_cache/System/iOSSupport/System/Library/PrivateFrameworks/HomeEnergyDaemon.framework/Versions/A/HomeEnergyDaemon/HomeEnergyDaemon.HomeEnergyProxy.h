@@ -7,12 +7,14 @@
 @interface HomeEnergyDaemon.HomeEnergyProxy
 {
     id connection;
+    id;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,8 +80,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)HUCameraRecordingSetupViewController;
 - (void);
 - (void);
 

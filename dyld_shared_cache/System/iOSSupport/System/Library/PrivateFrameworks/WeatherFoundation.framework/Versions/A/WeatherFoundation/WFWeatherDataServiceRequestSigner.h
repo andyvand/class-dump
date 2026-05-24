@@ -10,8 +10,8 @@
 
 + (void);
 + (id);
-+ (id);
-+ (void);
++ (id)"ty"d"tz"d"sx"d"sy"d"sz"d"shXY"d"shXZ"d"shYZ"d"pitch"d"yaw"d"roll"d};
++ (void)GPoint=dd}16@32;
 
 @end
 

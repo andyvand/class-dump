@@ -19,10 +19,10 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);

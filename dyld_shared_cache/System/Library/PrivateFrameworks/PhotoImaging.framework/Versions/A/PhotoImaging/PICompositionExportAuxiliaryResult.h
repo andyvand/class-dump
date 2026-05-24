@@ -6,35 +6,25 @@
 
 #import <PhotoImaging/PICompositionExportResult.h>
 
-@class NSData, NSDictionary, NSURL;
-@protocol NUImageProperties;
+@class NSDictionary;
 
 @interface PICompositionExportAuxiliaryResult : PICompositionExportResult
 {
     _Bool _canPropagateOriginalAuxiliaryData;
-    NSData *_companionImageData;
-    NSURL *_companionVideoURL;
-    NSDictionary *_auxiliaryImages;
-    id <NUImageProperties> _properties;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)Z;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)geOfString:options: /* Error: Ran out of types for this method. */;
+- (void)rangeOfString:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *auxiliaryImages; // @synthesize auxiliaryImages=_auxiliaryImages;
-@property _Bool canPropagateOriginalAuxiliaryData; // @synthesize canPropagateOriginalAuxiliaryData=_canPropagateOriginalAuxiliaryData;
-@property(readonly) NSData *companionImageData; // @synthesize companionImageData=_companionImageData;
-@property(readonly) NSURL *companionVideoURL; // @synthesize companionVideoURL=_companionVideoURL;
-@property CDStruct_912cb5d2 inputSize; // @dynamic inputSize;
-@property(retain) id <NUImageProperties> properties; // @synthesize properties=_properties;
 
 @end
 

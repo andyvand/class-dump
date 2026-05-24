@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPurchaseLookupResult, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface FCPurchaseMetadataFetcher
 {
     NSString *_bundleID;
-    NSNumber *_externalVersionID;
-    FCPurchaseLookupResult *_lookupResult;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (id);

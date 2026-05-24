@@ -5,5 +5,13 @@
 //
 
 @protocol _NSValueBinderPlugin
+- (void);
+- (_Bool);
+- (_Bool)sor;
+- (void)d);
+- (void)i	;
+- (void)_sharedContainerIdentifier;
+- (void)_setWebSearchContent:(id)arg1;
+- (_Bool)_connectionPoolName;
 @end
 

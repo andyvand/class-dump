@@ -6,48 +6,11 @@
 
 #import <CoreDuet/_DKSyncContextObject.h>
 
-@class APSConnection, NSMutableArray, NSMutableSet, NSObject, NSString, NSUUID, _CDPeriodicSchedulerJob, _DKDataProtectionStateMonitor, _DKKnowledgeStorage, _DKSync2State, _DKSyncToggle, _DKSyncType, _DKThrottledActivity;
-@protocol NSObject, OS_xpc_object, _DKKeyValueStore, _DKSyncLocalKnowledgeStorage, _DKSyncRemoteKnowledgeStorage;
+@class _DKThrottledActivity;
 
 @interface _DKSync2Coordinator : _DKSyncContextObject
 {
     _DKThrottledActivity *_activityThrottler;
-    id <NSObject> _observerToken;
-    NSMutableSet *_busyTransactions;
-    NSMutableArray *_insertedSyncedEvents;
-    NSMutableArray *_deletedSyncedEvents;
-    NSMutableSet *_activatedPeers;
-    _DKDataProtectionStateMonitor *_dataProtectionMonitor;
-    _Bool _hasRegisteredOptionalObservers;
-    _Bool _isEnabled;
-    NSString *_triggeredSyncDelayActivityName;
-    NSString *_syncActivityName;
-    _DKSync2State *_syncState;
-    double _periodicJobInterval;
-    _Bool _databaseObserversRegistered;
-    _Bool _cloudDeviceCountChangedObserverRegistered;
-    _Bool _cloudSyncAvailablityObserverRegistered;
-    _Bool _rapportAvailablityObserverRegistered;
-    _Bool _siriSyncEnabledObserverRegistered;
-    _Bool _syncPolicyChangedObserverRegistered;
-    APSConnection *_connection;
-    NSMutableSet *_streamNamesObservedForAdditions;
-    NSMutableSet *_streamNamesObservedForDeletions;
-    _DKSyncToggle *_syncEnabledToggler;
-    _DKSyncToggle *_someTransportIsAvailableToggler;
-    _DKSyncToggle *_cloudIsAvailableToggler;
-    _DKSyncToggle *_rapportIsAvailableToggler;
-    _CDPeriodicSchedulerJob *_periodicJob;
-    _Bool _triggeredSyncActivityRegistered;
-    NSObject<OS_xpc_object> *_triggeredSyncActivity;
-    _Bool _isBusy;
-    _Bool _hasSyncedUpHistoryToCloud;
-    _DKKnowledgeStorage *_storage;
-    id <_DKKeyValueStore> _keyValueStore;
-    id <_DKSyncLocalKnowledgeStorage> _localStorage;
-    id <_DKSyncRemoteKnowledgeStorage> _transportCloudDown;
-    id <_DKSyncRemoteKnowledgeStorage> _transportCloudUp;
-    id <_DKSyncRemoteKnowledgeStorage> _transportRapport;
 }
 
 + (id);
@@ -62,24 +25,24 @@
 - (void);
 - (void);
 - (void);
+- (void)x;
+- (void);
+- (void)ye;
+- (void);
+- (id)`o;
 - (void);
 - (void);
-- (void);
+- (void)(}kAKk;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -89,17 +52,7 @@
 - (_Bool)%@ AND updateDate < %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSUUID *deviceUUID;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isBusy;
-@property(readonly, nonatomic) _DKKnowledgeStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _DKSyncType *syncType;
 
 @end
 

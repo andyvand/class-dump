@@ -8,25 +8,23 @@ __attribute__((visibility("hidden")))
 @interface WebAccessibilityObjectWrapperBase
 {
     struct WeakPtr<WebCore::AccessibilityObject, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> m_axObject;
-    struct WeakPtr<WebCore::AXIsolatedObject, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> m_isolatedObject;
-    struct atomic<bool> m_isolatedObjectInitialized;
 }
 
 + (void);
 - (void *);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (struct CGPath *);
-- (void *);
+- (void *);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)J;
+- (id)`;
 - (void);
 - (void);
 - (id);
@@ -42,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
+- (void)e %select{function|function|constructor|function |function |constructor |constructor (the implicit default constructor)|constructor (the implicit copy constructor)|constructor (the implicit move constructor)|function (the implicit copy assignment operator)|function (the implicit move assignment operator)|constructor (inherited)}0%1 not viable:no known conversion %diff{from $ to $|from argument type to parameter type}2,3 for %select{%ordinal5 argument|object argument}4%select{|; dereference the argument with *|; take the address of the argument with &|; remove *|; remove &}6 /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ìàYàéâüìziîáo¨rad­â,Jfragåàq(hscheibåâ¯es.solidarites-sanôâTdçÌÛáAQâõí;
  

@@ -10,7 +10,7 @@
 }
 
 + (Class);
-- (id);
+- (id)CodingKeys;
 - (id)1Â0@ù
 × ;
 - (void)Wîþ;

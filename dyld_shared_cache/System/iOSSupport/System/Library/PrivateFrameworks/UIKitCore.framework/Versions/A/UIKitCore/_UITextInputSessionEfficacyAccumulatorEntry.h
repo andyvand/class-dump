@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionEfficacyAccumulatorEntry
 {
     long long _netCharacters;
-    long long _userRemovedCharacters;
-    long long _netEmojiCharacters;
-    long long _userRemovedEmojiCharacters;
-    long long _inputActions;
 }
 
 + (id);
@@ -29,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property long long inputActions; // @synthesize inputActions=_inputActions;
 @property long long netCharacters; // @synthesize netCharacters=_netCharacters;
-@property long long netEmojiCharacters; // @synthesize netEmojiCharacters=_netEmojiCharacters;
-@property long long userRemovedCharacters; // @synthesize userRemovedCharacters=_userRemovedCharacters;
-@property long long userRemovedEmojiCharacters; // @synthesize userRemovedEmojiCharacters=_userRemovedEmojiCharacters;
 
 @end
 

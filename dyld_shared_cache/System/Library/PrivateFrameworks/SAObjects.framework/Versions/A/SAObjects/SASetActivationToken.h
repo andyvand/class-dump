@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SASetActivationToken : SABaseClientBoundCommand
 {
@@ -17,14 +17,14 @@
 - (void);
 - (id);
 - (id);
+- (id)   ;
 - (id);
-- (id);
-- (_Bool);
-- (void)nfluencedSharedUserId:(id)arg1;
+- (_Bool)se()
+;
+- (void)setInfluencedSharedUserId:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *activationToken;
-@property(copy, nonatomic) NSString *language;
 
 @end
 

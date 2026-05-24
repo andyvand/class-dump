@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDDCloudKitClient, CKContainer, CKDatabase, CKDatabaseSubscription, CKNotificationListener, CKScheduler, CKSystemSharingUIObserver, NSCloudKitMirroringActivityVoucherManager, NSCloudKitMirroringDelegateOptions, NSCloudKitMirroringRequestManager, NSError, NSObject, NSPersistentStoreCoordinator, NSSQLCore, NSString, PFApplicationStateMonitor, PFCKAccountMonitor, PFCloudKitExporterOptions;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSCloudKitMirroringDelegateOptions, PFCKAccountMonitor;
 
 @interface NSCloudKitMirroringDelegate
 {
     NSCloudKitMirroringDelegateOptions *_options;
-    NSString *_ckDatabaseName;
-    NSObject<OS_dispatch_semaphore> *_cloudKitQueueSemaphore;
-    NSObject<OS_dispatch_queue> *_cloudKitQueue;
-    CKDatabaseSubscription *_databaseSubscription;
-    CKContainer *_container;
-    CKDatabase *_database;
-    CKScheduler *_scheduler;
-    CKNotificationListener *_notificationListener;
-    NSError *_lastInitializationError;
-    _Bool _hadObservedStore;
-    _Bool _successfullyInitialized;
-    PFCloudKitExporterOptions *_exporterOptions;
-    CDDCloudKitClient *_coredatadClient;
-    NSSQLCore *_observedStore;
-    NSPersistentStoreCoordinator *_observedCoordinator;
-    _Bool _setupFinishedMetadataInitialization;
-    _Bool _registeredForSubscription;
-    _Bool _registeredExportActivityHandler;
-    _Bool _registeredImportActivityHandler;
-    _Bool _registeredSetupActivityHandler;
-    _Bool _registeredForAccountChangeNotifications;
-    PFCKAccountMonitor *_accountMonitor;
-    NSCloudKitMirroringRequestManager *_requestManager;
-    NSString *_observedStoreIdentifier;
-    NSString *_importActivityIdentifier;
-    NSString *_exportActivityIdentifier;
-    NSString *_setupActivityIdentifier;
-    NSString *_activityGroupName;
-    PFApplicationStateMonitor *_applicationMonitor;
-    CKSystemSharingUIObserver *_sharingUIObserver;
-    NSCloudKitMirroringActivityVoucherManager *_voucherManager;
 }
 
 + (void);
@@ -50,60 +18,48 @@
 + (_Bool);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (_Bool);
 + (void)rtActivityHandler;
-+ (void)dIDKey;
++ (void)PFCKAccountMonitorAccountChangedNotificationToUserRecordIDKey;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void)A9;
+- (id);
+- (void)R;
 - (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)P;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)interfaceWithProtocol:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (void)nitWithOptions:(id)arg1;
+- (void)initWithOptions:(id)arg1;
 - (void)C:Decoded history token - %@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PFCKAccountMonitor *accountMonitor; // @synthesize accountMonitor=_accountMonitor;
-@property(readonly, nonatomic) PFApplicationStateMonitor *applicationMonitor; // @synthesize applicationMonitor=_applicationMonitor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool registeredExportActivityHandler; // @synthesize registeredExportActivityHandler=_registeredExportActivityHandler;
-@property(readonly, nonatomic) _Bool registeredForSubscription; // @synthesize registeredForSubscription=_registeredForSubscription;
-@property(readonly, nonatomic) _Bool registeredImportActivityHandler; // @synthesize registeredImportActivityHandler=_registeredImportActivityHandler;
-@property(readonly, nonatomic) _Bool registeredSetupActivityHandler; // @synthesize registeredSetupActivityHandler=_registeredSetupActivityHandler;
-@property(readonly) Class superclass;
 
 @end
 

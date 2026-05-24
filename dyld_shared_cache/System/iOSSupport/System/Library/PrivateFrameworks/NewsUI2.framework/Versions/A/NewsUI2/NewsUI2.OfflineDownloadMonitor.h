@@ -7,8 +7,6 @@
 @interface NewsUI2.OfflineDownloadMonitor
 {
     id identifier;
-    id state;
-    id progress;
 }
 
 @end

@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)sendProtobuf:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (id)session [%{public}@];
+- (void)isRedditStaticImage:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)<;
 
 // Remaining properties
 @property(retain, nonatomic) id context; // @synthesize context=_context;

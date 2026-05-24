@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMClassroomRequestMirroringCommand : CEMCommandBase
 {
     NSString *_payloadDestinationName;
-    NSString *_payloadDestinationDeviceID;
-    NSNumber *_payloadScanTime;
-    NSString *_payloadPassword;
 }
 
 + (id);
@@ -29,25 +26,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)!;
 - (id);
-- (id);
+- (id)!b!`";
 - (_Bool);
 - (id);
-- (void);
+- (void)`n;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadDestinationDeviceID; // @synthesize payloadDestinationDeviceID=_payloadDestinationDeviceID;
 @property(copy, nonatomic) NSString *payloadDestinationName; // @synthesize payloadDestinationName=_payloadDestinationName;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSNumber *payloadScanTime; // @synthesize payloadScanTime=_payloadScanTime;
-@property(readonly) Class superclass;
 
 @end
 

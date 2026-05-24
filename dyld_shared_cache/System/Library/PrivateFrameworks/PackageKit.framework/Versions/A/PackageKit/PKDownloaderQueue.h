@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface PKDownloaderQueue
 {
     unsigned long long _maxConcurrentDownloadCount;
-    NSMutableArray *_queue;
-    NSMutableDictionary *_active;
-    unsigned long long _totalSizeQueued;
-    unsigned long long _sizeDequeued;
-    unsigned long long _sizeDownloaded;
-    unsigned long long _sizeToDownload;
-    unsigned long long _sizeToCheck;
-    unsigned long long _dequeuedProgressIncrement;
-    double _progressDerating;
-    double _progressPercentage;
 }
 
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -30,7 +18,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -41,8 +29,8 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
+- (void)t;
+- (id);
 - (id);
 - (_Bool);
 

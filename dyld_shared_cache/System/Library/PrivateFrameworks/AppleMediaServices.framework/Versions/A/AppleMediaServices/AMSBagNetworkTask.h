@@ -6,30 +6,24 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSMetricsActivity, AMSMetricsLoadURLOverlay, AMSProcessInfo, NSString;
+@class AMSMetricsActivity;
 @protocol AMSBagAccountProvider;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagNetworkTask : AMSTask
 {
     AMSMetricsActivity *_activity;
-    AMSProcessInfo *_clientInfo;
-    NSString *_profile;
-    NSString *_profileVersion;
-    id <AMSBagAccountProvider> _accountProvider;
-    NSString *_logKey;
-    AMSMetricsLoadURLOverlay *_loadURLOverlay;
 }
 
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (id)IMBlockListControllerAdditions;
++ (void)ith...;
 + (id);
 + (id);
 + (id);
++ (id)onfiguration";
 + (id);
 + (id);
++ (id)conversationManager:(id)arg1 remoteMembersChangedForConversation:(id)arg2;
 + (_Bool);
 + (id);
 + (id)rrent key.;
@@ -37,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)&;
 - (id);
 - (id);
 - (id);
@@ -56,11 +50,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <AMSBagAccountProvider> accountProvider; // @synthesize accountProvider=_accountProvider;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, nonatomic) AMSMetricsLoadURLOverlay *loadURLOverlay; // @synthesize loadURLOverlay=_loadURLOverlay;
-@property(readonly, nonatomic) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSString *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
 
 @end
 

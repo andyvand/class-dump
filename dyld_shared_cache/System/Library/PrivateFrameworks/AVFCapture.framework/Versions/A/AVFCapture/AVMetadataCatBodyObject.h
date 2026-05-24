@@ -11,10 +11,10 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)R,N,V_key;
+- (id)NSString",&,N,V_primaryTextColorHex;
+- (id)tring",&,N,V_gradientColorHex;
+- (id)n;
 - (id);
 - (id);
 

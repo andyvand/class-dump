@@ -10,25 +10,16 @@ __attribute__((visibility("hidden")))
 @interface VMUSymbolStoreXMLParserDelegate
 {
     NSString *_parsedKey;
-    NSString *_parsedValue;
-    NSString *_parsedResult;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_enterScreenTimePasscodeButton;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *parsedResult; // @synthesize parsedResult=_parsedResult;
-@property(readonly) Class superclass;
 
 @end
 

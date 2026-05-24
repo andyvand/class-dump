@@ -7,15 +7,6 @@
 @interface AppleMediaServicesUI.MessagingModel
 {
     id _isLoaded;
-    id _updatedSize;
-    id _selection;
-    id _shouldAutomaticallyReportMetrics;
-    id _engagementImpressionsReportingFrequency;
-    id handleClickstreamEvent;
-    id handleDelegateAction;
-    id shouldEnqueueMetricsForResult;
-    id request;
-    id controller;
 }
 
 @end

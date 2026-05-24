@@ -5,5 +5,9 @@
 //
 
 @protocol NSSharingServiceDelegate
+
+@optional
+- (void);
+- (struct CGRect)@"<IMDSpotlightQueries>";
 @end
 

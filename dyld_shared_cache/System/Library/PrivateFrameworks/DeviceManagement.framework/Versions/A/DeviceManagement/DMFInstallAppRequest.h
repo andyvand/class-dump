@@ -9,12 +9,11 @@
 @interface DMFInstallAppRequest : DMFAppRequest
 {
     _Bool _allowFreePurchases;
-    unsigned long long _licenseType;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
 - (void);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowFreePurchases; // @synthesize allowFreePurchases=_allowFreePurchases;
 @property(nonatomic) unsigned long long licenseType; // @synthesize licenseType=_licenseType;
 
 @end

@@ -6,28 +6,25 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ORCHSchemaORCHError : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    long long _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool)4Q32;
+- (void);
+- (id)$;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)c;
+- (_Bool)!;
+- (_Bool);
 - (id);
 - (id);
 - (id)1Â0@ù
@@ -39,11 +36,7 @@
 - (long long)Ä¡¹ÿ®°!q%;
 
 // Remaining properties
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

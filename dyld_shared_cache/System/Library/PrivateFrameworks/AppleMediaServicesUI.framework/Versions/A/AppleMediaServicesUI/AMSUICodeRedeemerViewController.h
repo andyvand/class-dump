@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRCodeRedeemerView, NSButton, NSString;
+@class CRCodeRedeemerView;
 @protocol AMSUICodeRedeemerViewControllerDelegate;
 
 @interface AMSUICodeRedeemerViewController
 {
     id <AMSUICodeRedeemerViewControllerDelegate> _delegate;
-    CRCodeRedeemerView *_codeRedeemView;
-    NSButton *_dismissButton;
 }
 
 + (_Bool);
@@ -21,15 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)chemaIdentifier:(double)arg1;
+- (double)supportsSpotlightDelete;
+- (void)startUnsharingPendingAssetsSharedToScopeWithIdentifier:(id)arg1;
+- (void)startTungstenRecordingToDirectoryURL:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (void)startTrackingParticipantAssetTrashStateIfNeeded;
+- (void)startTimeZoneOffset;
+- (void)startRemotePublish;
+- (void)sortedViableMergeCandidateTorsosFor:(id)arg1 from:ignoreSourceAssetDimensions:matchScores: /* Error: Ran out of types for this method. */;
+- (void)sortedArrayUsingSelector:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,20 +35,10 @@
 - (id);
 - (void);
 - (void);
-- (void)Promise: /* Error: Ran out of types for this method. */;
+- (void)setOperationPromise: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CRCodeRedeemerView *codeRedeemView; // @synthesize codeRedeemView=_codeRedeemView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUICodeRedeemerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSButton *dismissButton; // @synthesize dismissButton=_dismissButton;
-@property(readonly) unsigned long long hash;
-@property double sessionTimeout;
-@property(readonly) Class superclass;
 
 @end
 

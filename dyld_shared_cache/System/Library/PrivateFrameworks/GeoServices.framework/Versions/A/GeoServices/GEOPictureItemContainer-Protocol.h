@@ -9,7 +9,6 @@
 @protocol GEOPictureItemContainer
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowFullScreenPhoto;
 @property(readonly, nonatomic) NSArray *pictureItems;
 @end
 

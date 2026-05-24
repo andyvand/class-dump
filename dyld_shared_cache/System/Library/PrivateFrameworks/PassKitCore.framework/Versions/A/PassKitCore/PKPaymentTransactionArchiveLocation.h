@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKCloudStoreZone;
-
 @interface PKPaymentTransactionArchiveLocation
 {
     _Bool _archived;
-    unsigned long long _type;
-    PKCloudStoreZone *_cloudStoreZone;
 }
 
 + (_Bool)qî%°1Â0@ù
@@ -23,18 +19,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (unsigned long long));
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)1"onLockScreen"b1};
+- (void)rStateMachine",&,N,V_linkLatency0ms;
 - (id);
-- (void);
-- (void)ialProvisioningRequestConsentNotified;
+- (void)?;
+- (void)PKSafariCredentialProvisioningRequestConsentNotified;
 
 // Remaining properties
 @property(nonatomic, getter=isArchived) _Bool archived; // @synthesize archived=_archived;
-@property(retain, nonatomic) PKCloudStoreZone *cloudStoreZone; // @synthesize cloudStoreZone=_cloudStoreZone;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

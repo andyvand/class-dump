@@ -5,5 +5,8 @@
 //
 
 @protocol AVCCaptionsClientDelegate
+
+@optional
+- (void);
 @end
 

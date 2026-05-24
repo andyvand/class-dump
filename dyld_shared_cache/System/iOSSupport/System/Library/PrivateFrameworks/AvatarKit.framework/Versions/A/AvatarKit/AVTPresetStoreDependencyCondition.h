@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPreset, NSString;
+@class AVTPreset;
 
 __attribute__((visibility("hidden")))
 @interface AVTPresetStoreDependencyCondition
 {
     AVTPreset *_presetOfOtherCategory;
-    NSString *_specificPresetIdentifier;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) AVTPreset *presetOfOtherCategory; // @synthesize presetOfOtherCategory=_presetOfOtherCategory;
-@property(retain, nonatomic) NSString *specificPresetIdentifier; // @synthesize specificPresetIdentifier=_specificPresetIdentifier;
 
 @end
 

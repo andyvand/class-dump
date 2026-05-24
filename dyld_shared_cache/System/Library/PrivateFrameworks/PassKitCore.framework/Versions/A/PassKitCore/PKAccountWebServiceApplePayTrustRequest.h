@@ -12,14 +12,13 @@
 @interface PKAccountWebServiceApplePayTrustRequest : PKAccountWebServiceRequest
 {
     id <PKAccountWebServiceApplePayTrustProtocol> _protocol;
-    PKApplePayTrustSignature *_signature;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)ÿæ°ÿÿ;
-- (Class)iveManageability;
+- (Class)activeManageability;
 - (void)el:(id)arg1 '%lu'; ;
 - (void)PassKitCore.RemoteNetworkPaymentWebsocketURLSession;
 

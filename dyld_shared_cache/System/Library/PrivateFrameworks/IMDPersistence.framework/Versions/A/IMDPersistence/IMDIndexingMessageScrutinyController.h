@@ -11,7 +11,7 @@
     NSMutableOrderedSet *_blocklistMessageGUIDs;
 }
 
-+ (id);
++ (id)braries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);

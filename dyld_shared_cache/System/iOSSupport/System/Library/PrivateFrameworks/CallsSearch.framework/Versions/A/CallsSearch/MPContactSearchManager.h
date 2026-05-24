@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSString, OS_dispatch_queue, TUFeatureFlags;
+@class CNContactStore;
 
 @interface MPContactSearchManager
 {
     CNContactStore *contactStore;
     long long contactSearchType;
-    TUFeatureFlags *featureFlags;
-    void ranker;
-    OS_dispatch_queue *accessQueue;
-    void _searchString;
-    void _contactSearchResults;
 }
 
 - (void);
@@ -31,18 +26,12 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *_contactSearchResults;
-@property(nonatomic, copy) NSString *_searchString;
-@property(nonatomic, readonly) OS_dispatch_queue *accessQueue; // @synthesize accessQueue;
 @property(nonatomic, readonly) long long contactSearchType; // @synthesize contactSearchType;
 @property(nonatomic, readonly) CNContactStore *contactStore; // @synthesize contactStore;
-@property(nonatomic, readonly) NSArray *contacts;
-@property(nonatomic, readonly) TUFeatureFlags *featureFlags; // @synthesize featureFlags;
-@property(nonatomic, readonly) CDUnknownBlockType ranker;
 
 @end
 

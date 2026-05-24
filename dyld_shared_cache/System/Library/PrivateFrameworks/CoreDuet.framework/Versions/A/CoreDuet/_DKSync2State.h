@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _DKSyncCompositeOperation, _DKSyncType;
-
 @interface _DKSync2State
 {
     _Bool _isPending;
-    _DKSyncType *_type;
-    _DKSyncCompositeOperation *_parent;
-    NSMutableArray *_completions;
 }
 
 - (void)á¶/°!èBùñ©31Â0@ù

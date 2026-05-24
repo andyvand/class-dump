@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISyncConcreteSession, NSArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface RelationshipInformation
 {
     NSString *_entityName;
-    NSString *_relationship;
-    NSArray *_legalTypes;
-    NSMutableDictionary *_typeMap;
-    ISyncConcreteSession *_session;
-    NSMutableDictionary *_modsToCheckPerRecord;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)__objc_ivar;
 
 @end
 

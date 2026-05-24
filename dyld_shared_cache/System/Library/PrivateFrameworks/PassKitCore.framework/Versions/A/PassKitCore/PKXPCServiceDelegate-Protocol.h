@@ -7,6 +7,6 @@
 @class NSXPCConnection, PKXPCService;
 
 @protocol PKXPCServiceDelegate
-- (void)reateWithSymbolName:(PKXPCService *)arg1 contextMenuSymbolName:(NSXPCConnection *)arg2 tintColor: /* Error: Ran out of types for this method. */;
+- (void)createWithSymbolName:(PKXPCService *)arg1 contextMenuSymbolName:(NSXPCConnection *)arg2 tintColor: /* Error: Ran out of types for this method. */;
 @end
 

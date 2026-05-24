@@ -10,14 +10,14 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)NSt3__110__function6__baseIFjPK9CMDPTokenEEE;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)hemidiaphoresis;
+- (id)ifiersAllowListSynonymExclusions.plist;
 - (void);
 - (id);
 

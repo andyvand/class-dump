@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRLanguageOption, NSArray, NSData, NSDictionary, _MRLanguageOptionGroupProtobuf;
+@class _MRLanguageOptionGroupProtobuf;
 
 @interface MRLanguageOptionGroup
 {
     _Bool _allowsEmptySelection;
-    _Bool _hasAllowsEmptySelection;
-    NSArray *_languageOptions;
-    MRLanguageOption *_defaultLanguageOption;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -33,16 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)tCallbackQueue;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmptySelection; // @synthesize allowsEmptySelection=_allowsEmptySelection;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(retain, nonatomic) MRLanguageOption *defaultLanguageOption; // @synthesize defaultLanguageOption=_defaultLanguageOption;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool hasAllowsEmptySelection; // @synthesize hasAllowsEmptySelection=_hasAllowsEmptySelection;
-@property(copy, nonatomic) NSArray *languageOptions; // @synthesize languageOptions=_languageOptions;
 @property(readonly, nonatomic) _MRLanguageOptionGroupProtobuf *protobuf;
 
 @end

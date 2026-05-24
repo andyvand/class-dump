@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFAnnounceMessagesEvent
 {
     _Bool _allowsSiriWhenLocked;
-    _Bool _announceMessagesAlreadyEnabled;
-    _Bool _skippedTutorialCards;
-    _Bool _userAutomaticallyEnrolled;
-    _Bool _userExplicitlyOptedIn;
-    _Bool _userExplicitlyOptedOut;
-    long long _pairingExitView;
 }
 
 + (id);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,20 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowsSiriWhenLocked; // @synthesize allowsSiriWhenLocked=_allowsSiriWhenLocked;
-@property(nonatomic) _Bool announceMessagesAlreadyEnabled; // @synthesize announceMessagesAlreadyEnabled=_announceMessagesAlreadyEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long pairingExitView; // @synthesize pairingExitView=_pairingExitView;
-@property(nonatomic) _Bool skippedTutorialCards; // @synthesize skippedTutorialCards=_skippedTutorialCards;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userAutomaticallyEnrolled; // @synthesize userAutomaticallyEnrolled=_userAutomaticallyEnrolled;
-@property(nonatomic) _Bool userExplicitlyOptedIn; // @synthesize userExplicitlyOptedIn=_userExplicitlyOptedIn;
-@property(nonatomic) _Bool userExplicitlyOptedOut; // @synthesize userExplicitlyOptedOut=_userExplicitlyOptedOut;
 
 @end
 

@@ -6,35 +6,32 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSMutableArray, UIScrollView, UISegment, UISegmentedControl;
+@class UISegment, UISegmentedControl;
 
 __attribute__((visibility("hidden")))
 @interface UIAccessibilityLargeTextSegmentedViewController : UIViewController
 {
     UISegmentedControl *_segmentedControl;
-    NSMutableArray *_segmentButtons;
-    UISegment *_originalSelectedSegment;
-    NSArray *_segments;
-    UIScrollView *_mainScrollView;
 }
 
+- (void)ng relay phone number %@;
+- (void)@;
+- (void)lay message has come from an emergency number, Not processing message;
+- (id)ler _getDevicesForBothNicknameServices:(id)arg1 removeNewServiceURIsFromIMessageList:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)FirstName;
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)T
+;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool)Bold: /* Error: Ran out of types for this method. */;
+- (_Bool)set_canToggleBold: /* Error: Ran out of types for this method. */;
 - (void)s:. Ensure that your view generates a valid preferred size.
 Original attributes:%@. Preferred attributes:%@.
 Collection View:%@ /* Error: Ran out of types for this method. */;
@@ -42,11 +39,7 @@ Collection View:%@ /* Error: Ran out of types for this method. */;
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) UIScrollView *mainScrollView; // @synthesize mainScrollView=_mainScrollView;
 @property(retain, nonatomic) UISegment *originalSelectedSegment; // @synthesize originalSelectedSegment=_originalSelectedSegment;
-@property(retain, nonatomic) NSMutableArray *segmentButtons; // @synthesize segmentButtons=_segmentButtons;
-@property(retain, nonatomic) UISegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(retain, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end
 

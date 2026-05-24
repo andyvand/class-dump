@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, _SSCAMLTimeInterval;
-@protocol SSCAMLTimeInterval><SignpostJSONRepresentable;
+@class _SSCAMLTimeInterval;
 
 @interface SSInFlightCAMetalDrawableInterval
 {
     unsigned int _commandBufferCount;
-    double _onGPUTime;
-    id <SSCAMLTimeInterval><SignpostJSONRepresentable> _cpuWalltimeInterval;
-    id <SSCAMLTimeInterval><SignpostJSONRepresentable> _gpuWalltimeInterval;
-    id <SSCAMLTimeInterval><SignpostJSONRepresentable> _waitForGlassWalltimeInterval;
-    _SSCAMLTimeInterval *_backingInterval;
 }
 
 - (id);
@@ -24,22 +18,22 @@
 - (double);
 - (unsigned long long);
 - (double);
+- (id)#;
 - (id);
-- (id);
+- (double)7	;
 - (double);
-- (double);
-- (double);
+- (double)Th;
 - (unsigned long long);
 - (double);
 - (unsigned long long);
 - (id);
-- (double);
+- (double)T;
 - (unsigned int);
 - (double);
 - (id);
 - (id);
 - (double);
-- (float);
+- (float)!;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -51,25 +45,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _SSCAMLTimeInterval *backingInterval; // @synthesize backingInterval=_backingInterval;
-@property(readonly, nonatomic) unsigned int commandBufferCount; // @synthesize commandBufferCount=_commandBufferCount;
-@property(readonly, nonatomic) double cpuEndToEndWalltime;
-@property(readonly, nonatomic) id <SSCAMLTimeInterval><SignpostJSONRepresentable> cpuWalltimeInterval; // @synthesize cpuWalltimeInterval=_cpuWalltimeInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) double gpuEndToEndWalltime;
-@property(readonly, nonatomic) double gpuResidencyRatio;
-@property(readonly, nonatomic) id <SSCAMLTimeInterval><SignpostJSONRepresentable> gpuWalltimeInterval; // @synthesize gpuWalltimeInterval=_gpuWalltimeInterval;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double onGPUTime; // @synthesize onGPUTime=_onGPUTime;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double totalEndToEndWalltime;
-@property(readonly, nonatomic) double waitForGlassWalltime;
-@property(readonly, nonatomic) id <SSCAMLTimeInterval><SignpostJSONRepresentable> waitForGlassWalltimeInterval; // @synthesize waitForGlassWalltimeInterval=_waitForGlassWalltimeInterval;
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSUImage;
+
 @protocol TSKHighlightArrayControllerProtocol
+- (void)MPCModelStorePlaybackItemsRequestAllowLocalEquivalencies;
+- (struct CGPath *)RADIO_ADD_STATION_FAILED_ALERT_MESSAGE;
+- (TSUImage *)cOS;
+
+@optional
+- (struct CGRect)AutoPlayPlaceholder;
 @end
 

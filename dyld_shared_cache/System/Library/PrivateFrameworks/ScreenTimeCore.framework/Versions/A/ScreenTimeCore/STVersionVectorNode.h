@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STVersionVectorNode
 {
     NSString *_identifier;
-    unsigned long long _count;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)ting, needs_restore, download_identifier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill FROM item_stats;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

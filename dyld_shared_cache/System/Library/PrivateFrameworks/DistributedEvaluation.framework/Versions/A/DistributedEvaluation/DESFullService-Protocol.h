@@ -5,5 +5,6 @@
 //
 
 @protocol DESFullService
+- (void)responseGenerationRequest.statementResults.payload.outcome.parameterConfirmation.item.collection.values.enumeration.typeIdentifier.custom.bundleId;
 @end
 

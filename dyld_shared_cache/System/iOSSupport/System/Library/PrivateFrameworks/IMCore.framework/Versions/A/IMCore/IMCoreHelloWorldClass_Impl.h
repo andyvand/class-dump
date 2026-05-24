@@ -7,11 +7,10 @@
 @interface IMCoreHelloWorldClass_Impl
 {
     id sharedUtilitiesHelloWorld;
-    id persistenceHelloWorld;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (void)½g;
 
 @end

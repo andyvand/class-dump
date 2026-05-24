@@ -7,20 +7,6 @@
 @interface SiriOntology.Com_Apple_Siri_Product_Proto_ProtoIntent._StorageClass__priv_942AB7175EC71BF9D0D08DC04D18C2E0
 {
     id _score;
-    id _originalInput;
-    id _allWordsMatched;
-    id _primary;
-    id _usingExplicitInput;
-    id _intentRank;
-    id _nerbasedParse;
-    id _intentID;
-    id _nlState;
-    id _mitigatorClassification;
-    id _strippedVoiceTrigger;
-    id _invalidVoiceTrigger;
-    id _suggested;
-    id _metaDomainAction;
-    id _intentTree;
 }
 
 @end

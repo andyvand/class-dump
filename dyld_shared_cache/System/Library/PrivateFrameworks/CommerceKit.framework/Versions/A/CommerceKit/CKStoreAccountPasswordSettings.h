@@ -7,21 +7,19 @@
 @interface CKStoreAccountPasswordSettings
 {
     unsigned char _paid;
-    unsigned char _free;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (unsigned char);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned char);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) unsigned char free; // @synthesize free=_free;
 @property(nonatomic) unsigned char paid; // @synthesize paid=_paid;
 
 @end

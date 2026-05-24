@@ -9,7 +9,6 @@
 @interface PKBarcodeEventMetadataRequest
 {
     NSString *_deviceAccountIdentifier;
-    NSString *_lastUsedBarcodeIdentifier;
 }
 
 + (_Bool)X"Ð!¸Cùî%Ð1Â0@ù
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceAccountIdentifier; // @synthesize deviceAccountIdentifier=_deviceAccountIdentifier;
-@property(copy, nonatomic) NSString *lastUsedBarcodeIdentifier; // @synthesize lastUsedBarcodeIdentifier=_lastUsedBarcodeIdentifier;
 
 @end
 

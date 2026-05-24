@@ -9,21 +9,19 @@
 @interface FCMultiSizeVideo
 {
     NSURL *_small;
-    NSURL *_large;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_levelOfImage:(id)arg1;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@j;
 - (id);
 - (id);
 - (void)ceID:] /* Error: Ran out of types for this method. */;
 - (id)©jvÁÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *large; // @synthesize large=_large;
 @property(readonly, nonatomic) NSURL *small; // @synthesize small=_small;
 
 @end

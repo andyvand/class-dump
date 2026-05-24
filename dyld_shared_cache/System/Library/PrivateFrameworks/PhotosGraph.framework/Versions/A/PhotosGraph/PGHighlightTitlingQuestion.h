@@ -6,24 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGHighlightTitlingQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
-    NSDictionary *_additionalInfo;
 }
 
-- (double);
-- (id);
+- (double)beginSheet:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)rrentWordRange;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)ns:progressBlock: /* Error: Ran out of types for this method. */;
+- (id)enrichDayHighlights:dayGroupHighlights:withOptions:progressBlock: /* Error: Ran out of types for this method. */;
 - (void)ZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/SharedLibrary/PGSharedLibrarySuggestionsProcessor.m;
 
 @end

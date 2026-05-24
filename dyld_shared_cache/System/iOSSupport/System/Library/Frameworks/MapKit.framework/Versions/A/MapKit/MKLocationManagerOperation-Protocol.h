@@ -5,5 +5,6 @@
 //
 
 @protocol MKLocationManagerOperation
+- (void);
 @end
 

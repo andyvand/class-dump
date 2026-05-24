@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void)DisabledAdjustmentModifier;
+- (void)NavigationSearchDisabledAdjustmentModifier;
 
 @end
 

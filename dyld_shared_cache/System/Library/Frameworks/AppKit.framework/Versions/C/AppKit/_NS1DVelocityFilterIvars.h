@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NS1DVelocityFilterIvars
 {
     double alpha;
-    double velocity;
 }
 
 @end

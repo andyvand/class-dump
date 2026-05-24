@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSUUID;
+@class NSData;
 
 @interface MNServerSessionStateInfo
 {
     NSData *_sessionState;
-    NSUUID *_uniqueRouteID;
-    NSData *_directionsResponseID;
-    NSData *_etauResponseID;
-    NSMutableDictionary *_displayedTrafficBanners;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)SString",C,V_titleText;
 - (id);
 - (id);
 - (void)að!ìDùQð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *directionsResponseID; // @synthesize directionsResponseID=_directionsResponseID;
-@property(readonly, nonatomic) NSDictionary *displayedTrafficBanners;
-@property(readonly, nonatomic) NSData *etauResponseID; // @synthesize etauResponseID=_etauResponseID;
 @property(readonly, nonatomic) NSData *sessionState; // @synthesize sessionState=_sessionState;
-@property(readonly, nonatomic) NSUUID *uniqueRouteID; // @synthesize uniqueRouteID=_uniqueRouteID;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)ZDÞG;
-- (void);
+- (void)D1LBnMc96k/GQQ;
 - (_Bool);
 
 @end

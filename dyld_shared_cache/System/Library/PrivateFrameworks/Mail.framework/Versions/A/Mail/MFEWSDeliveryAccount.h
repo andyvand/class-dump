@@ -11,10 +11,9 @@
 @interface MFEWSDeliveryAccount : MFDeliveryAccount
 {
     MFEWSAccount *_ewsAccount;
-    _Bool _stripsFromHeaderWhenSending;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -25,10 +24,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)h;
 - (id);
 - (void);
 - (id);
@@ -38,10 +37,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)t;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
@@ -58,7 +57,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void),;
 - (_Bool);
 - (id);
 - (id);
@@ -66,14 +65,14 @@
 - (long long);
 - (void);
 - (long long);
-- (long long);
+- (long long)_faceRecognizabilityFilter;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)oundary;
+- (id)boundary;
 - (id)ecks;
 - (void)oxes_new table;
 - (void)È;
@@ -82,7 +81,6 @@
 - (void);
 
 // Remaining properties
-@property __weak MFEWSAccount *associatedAccount;
 @property _Bool stripsFromHeaderWhenSending; // @synthesize stripsFromHeaderWhenSending=_stripsFromHeaderWhenSending;
 
 @end

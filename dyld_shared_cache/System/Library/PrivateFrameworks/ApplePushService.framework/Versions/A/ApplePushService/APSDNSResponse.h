@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface APSDNSResponse
 {
     NSString *_hostname;
-    NSArray *_ipv4Address;
-    NSArray *_ipv6Address;
 }
 
 + (_Bool);
 - (id);
+- (id)";
 - (id);
-- (id);
-- (id);
+- (id)numDataPoints;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *hostname; // @synthesize hostname=_hostname;
-@property(readonly, nonatomic) NSArray *ipv4Address; // @synthesize ipv4Address=_ipv4Address;
-@property(readonly, nonatomic) NSArray *ipv6Address; // @synthesize ipv6Address=_ipv6Address;
 
 @end
 

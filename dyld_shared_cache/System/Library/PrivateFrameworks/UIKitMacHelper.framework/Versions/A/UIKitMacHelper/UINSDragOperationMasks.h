@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface UINSDragOperationMasks
 {
     unsigned long long _insideAppMask;
-    unsigned long long _outsideAppMask;
 }
 
 - (unsigned long long);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long insideAppMask; // @synthesize insideAppMask=_insideAppMask;
-@property(readonly, nonatomic) unsigned long long outsideAppMask; // @synthesize outsideAppMask=_outsideAppMask;
 
 @end
 

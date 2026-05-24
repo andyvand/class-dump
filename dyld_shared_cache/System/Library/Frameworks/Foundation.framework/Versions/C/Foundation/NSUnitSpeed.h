@@ -12,10 +12,10 @@
 
 + (id);
 + (_Bool);
++ (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ctDisplayID);
 + (id)unable to allocate memory for length (%ld);
 + (void);
 

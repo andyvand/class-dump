@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPCluster, CPZone, NSMutableArray;
+@class CPZone;
 
 __attribute__((visibility("hidden")))
 @interface CPGuideFinder
 {
     CPZone *contentZone;
-    unsigned int countOfWordsInZone;
-    double *anchorArray;
-    double *rightHandSideArray;
-    CDStruct_8db92b66 *crossingWordArray;
-    CPCluster *anchors;
-    CPCluster *rightHandSides;
-    double medianFontSizeOfFirstCharacter;
-    double medianFontSizeOfLastCharacter;
-    NSMutableArray *gutters;
-    NSMutableArray *leftGuides;
-    NSMutableArray *rightGuides;
 }
 
 + (void);
 + (void);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
+- (void);
+- (void)41;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (double);
 - (double);
 - (void);

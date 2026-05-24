@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSObject;
-@protocol OS_dispatch_queue;
+@class INIntent;
 
 @interface INCIntentDefaultValueProvider
 {
     INIntent *_intent;
-    NSObject<OS_dispatch_queue> *_completionHandlingQueue;
 }
 
 - (_Bool);
@@ -22,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionHandlingQueue; // @synthesize completionHandlingQueue=_completionHandlingQueue;
 @property(readonly, copy, nonatomic) INIntent *intent; // @synthesize intent=_intent;
 
 @end

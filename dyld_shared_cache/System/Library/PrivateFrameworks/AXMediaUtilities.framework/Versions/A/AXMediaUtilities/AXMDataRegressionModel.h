@@ -4,71 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AXMDataRegressionModel
 {
     double _error;
-    double _score;
-    double *_bestFitParameters;
-    double *_x;
-    double *_y;
-    int _n;
-    _Bool _isDisqualified;
-    int _iterations;
 }
 
 + (id);
+- (void)Ȕ\|;
+- (void)k\|;
+- (double)x}z;
 - (void);
-- (void);
-- (double);
-- (void);
-- (id);
+- (id){;
 - (int);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)\|;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (int);
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
+- (double);
+- (void){;
 - (_Bool);
 - (void);
 - (double *);
 - (double);
-- (int);
+- (int)aq;
 - (double);
 - (void);
 - (int);
 - (double);
-- (double);
+- (double)ror.TooManyDeviceManagementSources;
 - (id);
-- (double *);
+- (double *)SCRCategories_SCRCategorySystemWide_SCRBrailleComponentSettings;
 - (double *)Á<ð!<AùÑEÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double *bestFitParameters; // @synthesize bestFitParameters=_bestFitParameters;
-@property(readonly, nonatomic) double confidence;
 @property(readonly, nonatomic) _Bool dataSatisfiesInitialConditions;
-@property(readonly, nonatomic) double error; // @synthesize error=_error;
-@property(nonatomic) _Bool isDisqualified; // @synthesize isDisqualified=_isDisqualified;
-@property(readonly, nonatomic) int iterations; // @synthesize iterations=_iterations;
-@property(readonly, nonatomic) NSString *modelDescription;
-@property(readonly, nonatomic) CDUnknownBlockType modelFunction;
-@property(readonly, nonatomic) int modelParameterCount;
-@property(readonly, nonatomic) int n; // @synthesize n=_n;
-@property(readonly, nonatomic) NSArray *partialDerivatives;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) double *x; // @synthesize x=_x;
-@property(readonly, nonatomic) double *y; // @synthesize y=_y;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)?m;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)erpolationParameters";
-- (id)tainers;
+- (id)_departureSequenceContainers;
 - (id)=;
 - (void)ßOn@ÀÊ¡EÆs@;
 

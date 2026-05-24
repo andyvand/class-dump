@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLVisit, MapsSuggestionsObservers, NSString;
-@protocol MapsSuggestionsLocationUpdater;
+@class NSString;
 
 @interface MapsSuggestionsVisitTrackingLocationUpdater
 {
     struct Queue _queue;
-    id <MapsSuggestionsLocationUpdater> _wrappedLocationUpdater;
-    CLLocation *_latestLocation;
-    CLVisit *_currentVisit;
-    MapsSuggestionsObservers *_locationObservers;
-    MapsSuggestionsObservers *_visitObservers;
-    double _distanceBuffer;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -34,13 +27,6 @@
 - (id)ple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsFlightDeparturesOnlyFilter.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

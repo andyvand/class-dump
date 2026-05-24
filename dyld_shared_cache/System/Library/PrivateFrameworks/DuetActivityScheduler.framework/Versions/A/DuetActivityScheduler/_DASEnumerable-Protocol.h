@@ -5,5 +5,6 @@
 //
 
 @protocol _DASEnumerable
+- (unsigned long long);
 @end
 

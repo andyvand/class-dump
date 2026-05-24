@@ -4,58 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface STMFilesConfiguration
 {
     _Bool _showPathBar;
-    _Bool _showRevealButton;
-    _Bool _isActionEnabled;
-    NSArray *_rowItems;
-    NSString *_message;
-    NSArray *_orderedCategoryIdentifiers;
-    NSDictionary *_localizedCategoryNamesByCategoryIdentifier;
-    NSArray *_hiddenColumns;
-    NSString *_customRevealTitle;
-    NSString *_customActionTitle;
 }
 
 + (_Bool);
+- (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)k;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customActionTitle; // @synthesize customActionTitle=_customActionTitle;
-@property(copy, nonatomic) NSString *customRevealTitle; // @synthesize customRevealTitle=_customRevealTitle;
-@property(retain, nonatomic) NSArray *hiddenColumns; // @synthesize hiddenColumns=_hiddenColumns;
-@property(nonatomic) _Bool isActionEnabled; // @synthesize isActionEnabled=_isActionEnabled;
-@property(retain, nonatomic) NSDictionary *localizedCategoryNamesByCategoryIdentifier; // @synthesize localizedCategoryNamesByCategoryIdentifier=_localizedCategoryNamesByCategoryIdentifier;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSArray *orderedCategoryIdentifiers; // @synthesize orderedCategoryIdentifiers=_orderedCategoryIdentifiers;
 @property(retain, nonatomic) NSArray *rowItems; // @synthesize rowItems=_rowItems;
-@property(nonatomic) _Bool showPathBar; // @synthesize showPathBar=_showPathBar;
-@property(nonatomic) _Bool showRevealButton; // @synthesize showRevealButton=_showRevealButton;
 
 @end
 

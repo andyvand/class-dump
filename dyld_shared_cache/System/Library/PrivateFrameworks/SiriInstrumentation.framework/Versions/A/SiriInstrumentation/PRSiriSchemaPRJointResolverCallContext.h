@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PRSiriSchemaPRJointResolverCallEnded, PRSiriSchemaPRJointResolverCallFailed, PRSiriSchemaPRJointResolverCallStarted, SISchemaUUID;
+@class PRSiriSchemaPRJointResolverCallStarted;
 
 @interface PRSiriSchemaPRJointResolverCallContext : SISchemaInstrumentationMessage
 {
     PRSiriSchemaPRJointResolverCallStarted *_startedOrChanged;
-    PRSiriSchemaPRJointResolverCallEnded *_ended;
-    PRSiriSchemaPRJointResolverCallFailed *_failed;
-    SISchemaUUID *_planEventId;
-    unsigned int _actionStatementId;
-    SISchemaUUID *_traceId;
-    CDStruct_4f0074d0 _has;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasPlanEventId;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -50,39 +38,26 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ault value;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)i;
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)equestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)g with error %@;
 - (id);
 - (id);
-- (id)xedContext;
+- (id)_serverDeviceFixedContext;
 - (id)llCapabilityForFollowup;
 - (void)Event;
 - (id)Ðÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(retain, nonatomic) PRSiriSchemaPRJointResolverCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PRSiriSchemaPRJointResolverCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasPlanEventId; // @synthesize hasPlanEventId=_hasPlanEventId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *planEventId; // @synthesize planEventId=_planEventId;
 @property(retain, nonatomic) PRSiriSchemaPRJointResolverCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

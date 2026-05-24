@@ -7,8 +7,6 @@
 @interface Vision.TrackOpticalFlowRequest.State
 {
     id previousResult;
-    id lastAnalyzedTimeStamp;
-    id lastResult;
 }
 
 @end

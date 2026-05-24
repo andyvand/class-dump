@@ -9,9 +9,6 @@
 @interface SFAirDropTransferItem
 {
     _Bool _isFile;
-    NSString *_type;
-    NSString *_subtype;
-    long long _count;
 }
 
 + (_Bool);
@@ -26,14 +23,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)d;
 - (long long);
 - (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) _Bool isFile; // @synthesize isFile=_isFile;
-@property(readonly, copy, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

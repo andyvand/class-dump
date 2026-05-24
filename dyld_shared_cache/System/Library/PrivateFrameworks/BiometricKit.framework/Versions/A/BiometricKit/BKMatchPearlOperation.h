@@ -6,18 +6,11 @@
 
 #import <BiometricKit/BKMatchOperation.h>
 
-@class BKIdentity;
 @protocol BKMatchPearlOperationDelegate;
 
 @interface BKMatchPearlOperation : BKMatchOperation
 {
     _Bool _longTimeout;
-    _Bool _shouldAutoRetry;
-    _Bool _preAugmentationCheck;
-    _Bool _fullFaceOnly;
-    _Bool _nonDelayedIndicator;
-    BKIdentity *_preAugmentationCheckIdentity;
-    unsigned long long _trigger;
 }
 
 - (_Bool);
@@ -41,13 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <BKMatchPearlOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool fullFaceOnly; // @synthesize fullFaceOnly=_fullFaceOnly;
-@property(nonatomic) _Bool longTimeout; // @synthesize longTimeout=_longTimeout;
-@property(nonatomic) _Bool nonDelayedIndicator; // @synthesize nonDelayedIndicator=_nonDelayedIndicator;
-@property(nonatomic) _Bool preAugmentationCheck; // @synthesize preAugmentationCheck=_preAugmentationCheck;
-@property(retain, nonatomic) BKIdentity *preAugmentationCheckIdentity; // @synthesize preAugmentationCheckIdentity=_preAugmentationCheckIdentity;
-@property(nonatomic) _Bool shouldAutoRetry; // @synthesize shouldAutoRetry=_shouldAutoRetry;
-@property(nonatomic) unsigned long long trigger; // @synthesize trigger=_trigger;
 
 @end
 

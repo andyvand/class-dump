@@ -7,9 +7,9 @@
 @class NSDate, NSString;
 
 @protocol SXEmbedResource
+- (NSDate *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *HTML;
-@property(readonly, nonatomic) NSDate *expirationDate;
 @end
 

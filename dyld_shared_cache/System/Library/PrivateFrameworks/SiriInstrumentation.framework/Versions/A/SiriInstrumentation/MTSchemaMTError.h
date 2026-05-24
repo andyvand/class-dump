@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MTSchemaMTError : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    NSString *_errorMessage;
-    int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
-    _Bool _hasErrorMessage;
 }
 
 - (void);
@@ -25,33 +20,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_closeWebViewWindow: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)rviceProxy>"16B24;
+- (void)a;
+- (void)to/evp/pmeth_lib.c;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)tent_tasks
+WHERE ;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id)_hasConfiguration;
-- (id)leteRGCacheManagerCallContext;
+- (id)deleteRGCacheManagerCallContext;
 - (void);
 - (void)ÈýÙÿB¾´M";
 - (int)È\¡ÿÕ®ò';
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

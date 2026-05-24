@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIImageView, UILabel, UITextView, UIView;
+@class UIImageView;
 
 @interface OBPrivacyLinkButton
 {
     _Bool _displayInfoIcon;
-    _Bool _largeIcon;
-    _Bool _underlineLinks;
-    UIImageView *_iconView;
-    UITextView *_textView;
-    UILabel *_buttonLabel;
-    UIView *_containerView;
-    NSString *_captionText;
-    UIImage *_captionAttachmentImage;
-    NSString *_buttonText;
-    NSString *_displayLanguage;
-    struct CGSize _contentSize;
 }
 
 - (_Bool);
@@ -33,7 +22,7 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (void);
@@ -46,32 +35,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (struct CGSize)tURLDataDetection;
+- (struct CGSize)preventURLDataDetection;
 
 // Remaining properties
-@property(readonly) UILabel *buttonLabel; // @synthesize buttonLabel=_buttonLabel;
-@property(readonly) NSString *buttonText; // @synthesize buttonText=_buttonText;
-@property(readonly) UIImage *captionAttachmentImage; // @synthesize captionAttachmentImage=_captionAttachmentImage;
-@property(readonly) NSString *captionText; // @synthesize captionText=_captionText;
-@property(readonly) UIView *containerView; // @synthesize containerView=_containerView;
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic) _Bool displayInfoIcon; // @synthesize displayInfoIcon=_displayInfoIcon;
-@property(retain, nonatomic) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
 @property(readonly) UIImageView *iconView; // @synthesize iconView=_iconView;
-@property _Bool largeIcon; // @synthesize largeIcon=_largeIcon;
-@property(readonly) UITextView *textView; // @synthesize textView=_textView;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end
 

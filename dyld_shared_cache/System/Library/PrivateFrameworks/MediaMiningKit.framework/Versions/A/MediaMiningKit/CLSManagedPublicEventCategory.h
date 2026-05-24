@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSManagedPublicEvent, NSString;
+@class NSString;
 
 @interface CLSManagedPublicEventCategory
 {
 }
 
-+ (id)y:withSimilarityModelVersion: /* Error: Ran out of types for this method. */;
++ (id)distanceThresholdForSimilarity:withSimilarityModelVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *category; // @dynamic category;
-@property(retain, nonatomic) CLSManagedPublicEvent *event; // @dynamic event;
-@property(retain, nonatomic) NSString *localizedName; // @dynamic localizedName;
-@property(retain, nonatomic) NSString *localizedSubcategories; // @dynamic localizedSubcategories;
 
 @end
 

@@ -11,13 +11,11 @@
 @interface MAFlattenFeatureExtractor : MAFeatureExtractor
 {
     NSString *_name;
-    NSArray *_featureNames;
-    NSArray *_featureExtractors;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

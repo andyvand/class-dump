@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol AXSSMotionTrackingVideoFileInputManagerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AXSSMotionTrackingVideoFileInputManager
 {
     _Bool __monitoring;
-    id <AXSSMotionTrackingVideoFileInputManagerDelegate> _delegate;
-    NSMutableArray *__videoFileInputNames;
 }
 
-+ (_Bool);
++ (_Bool)_captureOnly;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_startRestartCountdownOperationForUpdates:(id)arg1 options:downloadedAndPrepared: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)8;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool _monitoring; // @synthesize _monitoring=__monitoring;
-@property(retain, nonatomic) NSMutableArray *_videoFileInputNames; // @synthesize _videoFileInputNames=__videoFileInputNames;
-@property(nonatomic) __weak id <AXSSMotionTrackingVideoFileInputManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *videoFileInputNames;
 
 @end
 

@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMatchMoveAnimation, FBSScene, NSMutableArray, UIView, UIWindowSceneActivationConfiguration, _UIMagicMorphAnimation, _UIPortalView;
+@class UIWindowSceneActivationConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneActivationAnimator
 {
     _Bool _deparented;
-    _Bool _isDeallocating;
-    _UIMagicMorphAnimation *_morphAnimation;
-    UIWindowSceneActivationConfiguration *_configuration;
-    FBSScene *_sourceFBSScene;
-    _UIPortalView *_incomingScenePortalView;
-    UIView *_morphContainerView;
-    UIView *_deparentingWrapper;
-    UIView *_deparentingPortalAlphaSourceView;
-    long long _state;
-    NSMutableArray *_alongsideAnimations;
-    NSMutableArray *_alongsideCompletions;
-    CAMatchMoveAnimation *_incomingSceneAnchorAnimation;
-    struct CGRect _expectedFrame;
-    struct UIRectCornerRadii _expectedCornerRadii;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,47 +38,33 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)reportMessageDictionariesForMessages:isAutoReport:withChat:conversationID:maxMessagesToReport:totalMessageCount:notifyInternalSecurity:isJunkReportedToCarrier:reportReason:context: /* Error: Ran out of types for this method. */;
+- (id)relay:sendUpdate:toPerson: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(_Bool)arg1 resolvedAudioVideoModeChangedForConversation: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(id)arg1 remoteMembersChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)cache;
+- (void)broadcasterForSyncedSettingsListeners;
+- (id)_persistRampFetchServerError: /* Error: Ran out of types for this method. */;
+- (long long)_handledNicknamesKVStore;
+- (void);
+- (void)n Center post badge string with error:(id)arg1 [%@];
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)aLibrary;
+- (void)lid. Use +sharedManager.;
 - (void)!ØGùq[°1Â0@ù
 × ;
 - (long long);
 - (void)1Â0@ù
 × ;
-- (void)anslation:velocity: /* Error: Ran out of types for this method. */;
+- (void)setTranslation:velocity: /* Error: Ran out of types for this method. */;
 - (id)rFooterView is not supported. Use the background view configuration instead.;
 - (void)ciated with this view controller.;
 - (void)ÀÍþÿÎþÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *alongsideAnimations; // @synthesize alongsideAnimations=_alongsideAnimations;
-@property(readonly, nonatomic) NSMutableArray *alongsideCompletions; // @synthesize alongsideCompletions=_alongsideCompletions;
 @property(retain, nonatomic) UIWindowSceneActivationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool deparented; // @synthesize deparented=_deparented;
-@property(retain, nonatomic) UIView *deparentingPortalAlphaSourceView; // @synthesize deparentingPortalAlphaSourceView=_deparentingPortalAlphaSourceView;
-@property(retain, nonatomic) UIView *deparentingWrapper; // @synthesize deparentingWrapper=_deparentingWrapper;
-@property(nonatomic) struct UIRectCornerRadii expectedCornerRadii; // @synthesize expectedCornerRadii=_expectedCornerRadii;
-@property(nonatomic) struct CGRect expectedFrame; // @synthesize expectedFrame=_expectedFrame;
-@property(retain, nonatomic) CAMatchMoveAnimation *incomingSceneAnchorAnimation; // @synthesize incomingSceneAnchorAnimation=_incomingSceneAnchorAnimation;
-@property(retain, nonatomic) _UIPortalView *incomingScenePortalView; // @synthesize incomingScenePortalView=_incomingScenePortalView;
-@property(nonatomic) _Bool isDeallocating; // @synthesize isDeallocating=_isDeallocating;
-@property(readonly, nonatomic) _UIMagicMorphAnimation *morphAnimation; // @synthesize morphAnimation=_morphAnimation;
-@property(retain, nonatomic) UIView *morphContainerView; // @synthesize morphContainerView=_morphContainerView;
-@property(nonatomic) __weak FBSScene *sourceFBSScene; // @synthesize sourceFBSScene=_sourceFBSScene;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSArray, NSAttributedString;
 
 @interface AXCategoricalDataAxisDescriptor
 {
     NSAttributedString *_attributedTitle;
-    NSArray *_categoryOrder;
 }
 
+- (void)IsMountCycleRequired;
+- (id)lannedCrypto:(id)arg1 ENcrypting=%d DEcrypting=%d;
+- (id)as disk regardless of how PV was given;
+- (id)obing;
+- (id)9.;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)===============================r;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
 @property(copy, nonatomic) NSArray *categoryOrder; // @synthesize categoryOrder=_categoryOrder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

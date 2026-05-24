@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGValidationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)AppStoreService.dispatch;
 - (_Bool);
-- (_Bool);
+- (_Bool)round file at '%@' for chat %s FAILED with error:(id)arg1 '%@';
 - (id);
 - (id);
-- (id)layGlyphSettingToggled;
+- (id)announceCarPlayGlyphSettingToggled;
 - (id)redTime;
-- (_Bool)ionIntervalInDays;
+- (_Bool)aggregationIntervalInDays;
 - (_Bool)d.outcome.parameterNotAllowed.value.value.enumeration.typeIdentifier.custom.bundleId;
 - (void)ï´)Ô";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

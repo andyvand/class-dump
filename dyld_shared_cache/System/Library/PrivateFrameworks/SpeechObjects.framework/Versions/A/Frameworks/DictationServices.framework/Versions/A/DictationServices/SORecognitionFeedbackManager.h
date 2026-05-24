@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSound;
 @protocol SORecognitionFeedbackManagerDelegate;
 
 @interface SORecognitionFeedbackManager
 {
     id <SORecognitionFeedbackManagerDelegate> _delegate;
-    NSMutableDictionary *_accumulatedCommandDisplayInfoForAllRecognizers;
-    NSSound *_defaultRecognitionSoundCache;
-    _Bool _externalClientRequiresFeedback;
-    _Bool _internalClientRequiresFeedback;
 }
 
-+ (id);
++ (id)R!;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)layoutHeightThatFitsRowsStartingWithRow:(id)arg1;
 
 // Remaining properties
-@property(retain) id <SORecognitionFeedbackManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) _Bool externalClientRequiresFeedback; // @synthesize externalClientRequiresFeedback=_externalClientRequiresFeedback;
-@property(readonly) _Bool internalClientRequiresFeedback; // @synthesize internalClientRequiresFeedback=_internalClientRequiresFeedback;
 
 @end
 

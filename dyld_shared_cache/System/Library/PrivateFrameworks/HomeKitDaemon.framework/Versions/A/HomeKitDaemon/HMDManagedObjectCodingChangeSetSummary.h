@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDManagedObjectCodingChangeSetSummary
 {
     NSString *_shortDescriptionForChangeSet;
-    NSSet *_insertedObjectNames;
-    NSSet *_modifiedObjectPropertyNames;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ata",&,N,V_contentsTimestamp;
+- (id)ivate}@;
+- (id)aredTripCapabilityFetchingServer cleanConnections];
 - (id)@Failed to get topic name to forward data;
-- (void)nHome;
+- (void)isAdminUserInHome;
 
 // Remaining properties
-@property(readonly) NSSet *insertedObjectNames; // @synthesize insertedObjectNames=_insertedObjectNames;
-@property(readonly) NSSet *modifiedObjectPropertyNames; // @synthesize modifiedObjectPropertyNames=_modifiedObjectPropertyNames;
 @property(readonly) NSString *shortDescriptionForChangeSet; // @synthesize shortDescriptionForChangeSet=_shortDescriptionForChangeSet;
 
 @end

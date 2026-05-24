@@ -6,8 +6,7 @@
 
 #import <NetworkExtension/NETunnelProvider.h>
 
-@class NEPacketTunnelFlow, NSObject, NSString;
-@protocol OS_nw_interface;
+@class NEPacketTunnelFlow;
 
 @interface NEPacketTunnelProvider : NETunnelProvider
 {
@@ -21,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -29,15 +28,7 @@
 - (void)@?36;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NEPacketTunnelFlow *packetFlow; // @synthesize packetFlow=_packetFlow;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_nw_interface> *virtualInterface;
 
 @end
 

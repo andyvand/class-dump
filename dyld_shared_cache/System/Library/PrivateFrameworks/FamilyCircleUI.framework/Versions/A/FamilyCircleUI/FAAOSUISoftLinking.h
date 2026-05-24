@@ -26,9 +26,7 @@
 - (void)(;;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *reloadSignal; // @synthesize reloadSignal=_reloadSignal;
 @property(readonly, copy, nonatomic) NSString *webViewInvitationsUIWrapper;
-@property(readonly, copy, nonatomic) NSString *webViewTransferRequestsUIWrapper;
 
 @end
 

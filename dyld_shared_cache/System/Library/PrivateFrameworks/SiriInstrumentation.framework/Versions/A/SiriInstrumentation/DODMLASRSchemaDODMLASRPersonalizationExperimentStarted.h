@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DODMLASRSchemaDODMLASRPersonalizationExperimentStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _deviceThermalState;
-    struct {
-        unsigned int exists:1;
-        unsigned int deviceThermalState:1;
-    } _has;
 }
 
 - (void);
@@ -24,26 +17,22 @@
 - (int);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)server;
+- (void)ended Key Usage;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tentialRetryIntervalInSecBucket"b1};
-- (id)RCallEnded;
+- (id)ORCHSchemaORCHASRCallEnded;
 - (id)È;
 - (_Bool)¼nËÿì?®ÊÄ#;
 - (_Bool)ø;
 - (void)-,;
 
 // Remaining properties
-@property(nonatomic) int deviceThermalState; // @synthesize deviceThermalState=_deviceThermalState;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasDeviceThermalState;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

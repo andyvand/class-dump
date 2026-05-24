@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKFileDescriptorXPCContainer, PKPass, PKPassIngestionProperties;
+@class NSData, PKPassIngestionProperties;
 
 @interface PKPassIngestionPayload
 {
     NSData *_data;
-    PKFileDescriptorXPCContainer *_fd;
-    PKPass *_pass;
-    PKPassIngestionProperties *_properties;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)5;
+- (id)'Ți;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)HighTxLatency_true;
 - (id);
-- (id)emExpired;
-- (void)KPaymentAuthorizationStatusInvalidShippingContact;
+- (id)redeemExpired;
+- (void)PKPaymentAuthorizationStatusInvalidShippingContact;
 
 // Remaining properties
 @property(retain, nonatomic) PKPassIngestionProperties *properties; // @synthesize properties=_properties;

@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (struct CGImage *);
-- (float);
+- (float);
 - (float);
 - (float);
 - (float);

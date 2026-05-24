@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, TUCallProviderManager, TUMetadataCache;
+@class TUCallProviderManager;
 
 @interface TUSubtitleProvider
 {
     TUCallProviderManager *_callProviderManager;
-    TUMetadataCache *_metadataCache;
-    NSCache *_callProviderCache;
 }
 
 - (id);
@@ -22,9 +20,7 @@
 - (void)ror">24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *callProviderCache; // @synthesize callProviderCache=_callProviderCache;
 @property(readonly, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, nonatomic) TUMetadataCache *metadataCache; // @synthesize metadataCache=_metadataCache;
 
 @end
 

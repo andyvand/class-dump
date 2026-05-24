@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPassShareActivationOption;
+@class NSArray;
 
 @interface PKPassShareActivationOptions
 {
@@ -16,39 +16,35 @@
 × ;
 - (id);
 - (id);
-- (id);
+- (id)_	kI;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)k;
+- (id)@9q +;
+- (_Bool);
+- (_Bool)k;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (id);
+- (_Bool)	j;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setHasIdsSocketDelay:(id)arg1;
+- (void)txnocts;
 - (id);
-- (void)PIN_CODE_REQUIRED_TITLE;
+- (void)SHARE_ACTIVATION_ERROR_PIN_CODE_REQUIRED_TITLE;
 - (id)Ôÿn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activationCode;
-@property(readonly, nonatomic) NSArray *identifiers;
-@property(readonly, nonatomic) NSString *localizationKeyPostfixForInitiation;
 @property(readonly, nonatomic) NSArray *options; // @synthesize options=_options;
-@property(readonly, nonatomic) PKPassShareActivationOption *primaryOption;
 
 @end
 

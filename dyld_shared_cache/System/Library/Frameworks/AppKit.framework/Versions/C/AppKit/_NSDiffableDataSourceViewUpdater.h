@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView;
-@protocol _NSCollectionViewUpdateItemApplying, _NSDataSourceSnapshotTranslating;
+@protocol _NSCollectionViewUpdateItemApplying;
 
 @interface _NSDiffableDataSourceViewUpdater
 {
     _Bool _hasPerformedInitialUpdate;
-    id <_NSCollectionViewUpdateItemApplying> _updatesSink;
-    NSCollectionView *_nsCollectionView;
-    long long _sinkKind;
-    id <_NSDataSourceSnapshotTranslating> _dataSourceSnapshot;
 }
 
 - (void);
@@ -33,20 +28,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool)ùQá3ð1Â0@ù
 × ;
 - (long long);
 - (void)";
 - (id)t found.;
-- (void)SStoryboardClassSwapperPlaceholder;
+- (void)NSStoryboardClassSwapperPlaceholder;
 - (void)SetMenuItemIndent(_principalMenuRef, carbonIndex, indent);
 
 // Remaining properties
-@property(retain, nonatomic) id <_NSDataSourceSnapshotTranslating> dataSourceSnapshot; // @synthesize dataSourceSnapshot=_dataSourceSnapshot;
-@property(nonatomic) _Bool hasPerformedInitialUpdate; // @synthesize hasPerformedInitialUpdate=_hasPerformedInitialUpdate;
-@property(nonatomic) __weak NSCollectionView *nsCollectionView; // @synthesize nsCollectionView=_nsCollectionView;
-@property(nonatomic) long long sinkKind; // @synthesize sinkKind=_sinkKind;
 @property(nonatomic) __weak id <_NSCollectionViewUpdateItemApplying> updatesSink; // @synthesize updatesSink=_updatesSink;
 
 @end

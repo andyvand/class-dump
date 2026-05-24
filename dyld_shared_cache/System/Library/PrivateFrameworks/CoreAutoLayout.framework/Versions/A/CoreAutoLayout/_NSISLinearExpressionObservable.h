@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISEngine, NSISLinearExpression, NSMutableArray, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _NSISLinearExpressionObservable
 {
     NSNumber *_lastValue;
-    NSISLinearExpression *_expression;
-    NSISEngine *_associatedEngine;
-    NSMutableArray *_variableObservations;
-    id _changeTransactionObservation;
-    _Bool _valueIsDirtied;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)ModelKeyServerAPIFetchKeyResponse;
+- (id)ut of memory
+;
 
 @end
 

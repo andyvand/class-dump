@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
-
 @interface SFAnalyticsMultiSampler
 {
     double _samplingInterval;
-    NSObject<OS_dispatch_source> *_timer;
-    NSString *_name;
-    CDUnknownBlockType _block;
-    int _notificationToken;
-    Class _clientClass;
-    _Bool _oncePerReport;
-    _Bool _activeTimer;
 }
 
 - (void);
@@ -24,8 +14,96 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)ageIO;
+- (void)info*)
+(allow process-info-codesignature)
+(allow process-info-sandbox-container)
+(allow process-iopolicy*)
+(allow sandbox-check)
+(allow socket-ioctl)
+(allow socket-option-get)
+(allow socket-option-set)
+(allow syscall-mach)
+(allow syscall-mig)
+(allow syscall-unix)
+(allow system-fcntl)
+(allow system-mac-syscall)
+(allow system-memorystatus-control)
+(allow system-necp-client-action)
+(define (trace path))
+(define no-callout
+  (list 'deprecated
+        (lambda args
+          (if (= 0 (length args))
+            (disable-callouts)
+            (error "unexpected argument")))))
+(define partial-symbolication
+  (list 'deprecated
+        (lambda args
+          (if (= 0 (length args))
+            (disable-full-symbolication)
+            (error "unexpected argument")))))
+(define-macro (debug . args))
+(define getenv param)
+(define file-fsctl system-fsctl)
+(define iokit-open iokit-open-user-client)
+(define ipc-posix-sem ipc-posix-sem*)
+(define ipc-posix-shm ipc-posix-shm*)
+(define system-misc system*)
+(define time-set system-set-time)
+(define from local)
+(define to remote)
+(define no-profile no-sandbox)
+(define no-log no-report)
+(define granted-extensions extension)
+(define (eliminate-duplicate-rules))
+(define (record path))
+(define file-issue-extension* file-issue-extension)
+(define file-issue-extension-read file-issue-extension)
+(define file-issue-extension-write file-issue-extension)
+(define file-unlink file-write-unlink)
+(define mach-extension extension)
+(define (tty) (vnode-type TTY))
+(define file-write-mount file-mount)
+(define file-write-unmount file-unmount)
+(define file-write-umount file-unmount)
+(define rootless-modifier sip-override)
+(define rootless sip-override)
+(define (debug-mode) (system-attribute sandbox-debug-mode))
+(define managed-preference* managed-preference-read)
+(define (process-is-plugin) (process-attribute is-plugin))
+(define (process-is-installer) (process-attribute is-installer))
+(define (datavault-file-filter) (file-attribute datavault))
+(define (rootless-file-filter) (file-attribute sip-protected))
+(define ipc-posix-issue-extension 'no-op)
+(define ipc-posix-shm-read-metadata 'no-op)
+(define mach-per-user-lookup 'no-op)
+(define system-chud 'no-op)
+(define qtn-download 'no-op)
+(define load-unsigned-code 'no-op)
+(define process-codesigning* process-legacy-codesigning*)
+(define process-codesigning-blob-get process-legacy-codesigning-blob-get)
+(define process-codesigning-cdhash-get process-legacy-codesigning-cdhash-get)
+(define process-codesigning-entitlements-blob-get
+  process-legacy-codesigning-entitlements-blob-get)
+(define process-codesigning-entitlements-der-blob-get
+  process-legacy-codesigning-entitlements-der-blob-get)
+(define process-codesigning-identity-get
+  process-legacy-codesigning-identity-get)
+(define process-codesigning-status* process-legacy-codesigning-status*)
+(define process-codesigning-status-get process-legacy-codesigning-status-get)
+(define process-codesigning-status-set process-legacy-codesigning-status-set)
+(define process-codesigning-teamid-get process-legacy-codesigning-teamid-get)
+(define process-codesigning-text-offset-get
+  process-legacy-codesigning-text-offset-get)
+(define mach-kernel-endpoint 'no-op)
+(unless
+  (defined? 'APFSIOC_GET_GRAFT_INFO)
+  (define APFSIOC_GET_GRAFT_INFO FSIOC_GET_GRAFT_INFO))
+(define unix 'unix)
+(define unix-socket unix)
+(define path-literal path)
+;
 - (double);
 - (void);
 - (void);
@@ -34,8 +112,6 @@
 - (void) °ðÀàÀ(èø´Üè¬(Ô´ä¨ü°;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool oncePerReport; // @synthesize oncePerReport=_oncePerReport;
 @property(nonatomic) double samplingInterval; // @synthesize samplingInterval=_samplingInterval;
 
 @end

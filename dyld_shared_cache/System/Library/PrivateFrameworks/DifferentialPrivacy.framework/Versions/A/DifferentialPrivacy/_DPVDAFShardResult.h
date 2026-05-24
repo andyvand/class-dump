@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface _DPVDAFShardResult
 {
     void publicShare;
-    void inputShares;
-    void nonce;
-    long long dimension;
-    long long chunkLength;
 }
 
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)_getContextMenuFromProposedMenu:contextMenuInfo:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)gentProxy";
 - (long long)een 2 and 10, but was %f;
 
 // Remaining properties
-@property(nonatomic, readonly) long long chunkLength; // @synthesize chunkLength;
-@property(nonatomic, readonly) long long dimension; // @synthesize dimension;
-@property(nonatomic, readonly) NSArray *inputShares;
-@property(nonatomic, readonly) NSData *nonce;
 @property(nonatomic, readonly) NSData *publicShare;
 
 @end

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_event_publisher;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CUXPCPublisher
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _mock;
-    NSString *_streamName;
-    NSObject<OS_xpc_event_publisher> *_xpcPublisher;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithWeights:biases:weightsDataType: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
@@ -39,8 +33,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

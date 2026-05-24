@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol QLPreviewControllerDelegate
+
+@optional
+- (_Bool)8;
+- (long long);
+- (void)P;
+- (UIView *);
 @end
 

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURLRequest;
+@class NSURLRequest;
 
 @interface AARequest
 {
     CDUnknownBlockType _handler;
-    NSString *_initialURLString;
-    struct OpaqueCFHTTPCookieStorage *_cookieStorage;
-    NSString *_oneTimePassword;
-    NSString *_machineId;
-    _Bool _flushCache;
-    NSDictionary *_customHeaders;
 }
 
-+ (id);
++ (id)n returned %d (%d);
 + (Class);
 + (id)28@36@44;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)assignedUserGUID;
+- (void)PayloadOrganization;
+- (void)ConfigurationProfileDictionary;
+- (id)CPProvisionalEnrollmentExpirationDate;
+- (void)ne;
+- (void)%d;;
+- (void)leTime;
+- (void)er domain;
+- (void)ActivationProfile;
+- (void)= %ld;
+- (void)rning activation profile.   Error = %ld; Datasize = %ld;
+- (id)ctionaryGetCFDictionary type mismatch;
+- (id)esource to '%s'; bytes written = %ld; error = %ld;
+- (void)uration establishing connection to %s;
+- (void)ir():(id)arg1 lseek(%d, 0, 0) = %lld (%s);
 - (void);
 - (id);
 - (void);
@@ -43,19 +37,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)nse;
+- (void)response;
 - (id)Number *const getkCDPRTCEventCategoryAccountDataAccessRecovery(void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *customHeaders; // @synthesize customHeaders=_customHeaders;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool flushCache; // @synthesize flushCache=_flushCache;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSURLRequest *urlRequest;
 
 @end

@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)startUsingNetworkResourcesForLiveStreamingWhilePaused;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)@%;
+- (void)(;
 
 // Remaining properties
 @property(readonly) UARPAssetTagOS *tag; // @synthesize tag=_tag;

@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface NSServiceViewControllerUnifyingProxy
 {
     NSProxy<NSXPCProxyCreating> *_clientProxy;
-    NSProxy<NSXPCProxyCreating> *_animationSyncProxy;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 - (struct os_unfair_lock_s *);

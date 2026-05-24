@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STCity, STWeatherCurrentConditions, STWeatherUnits;
+@class STWeatherCurrentConditions;
 
 @interface STShowWeatherCurrentConditionsRequest
 {
     STWeatherCurrentConditions *_currentConditions;
-    STCity *_city;
-    STWeatherUnits *_units;
 }
 
 + (_Bool);
 - (id);
+- (id)p;
 - (id);
+- (id)Nf;
+- (id)f;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 @end

@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     int wdValue;
 }
 
-- (void);
+- (void)";
 - (id);
-- (id);
-- (id);
+- (id)7;
+- (id)*;
 - (id);
 - (id);
 - (int);
-- (int);
+- (int)1;
 
 @end
 

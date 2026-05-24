@@ -7,7 +7,6 @@
 @interface NewsPersonalization.NewsPersonalizationDataCleanupStartupTask
 {
     id directoriesToClear;
-    id privateDataDirectory;
 }
 
 @end

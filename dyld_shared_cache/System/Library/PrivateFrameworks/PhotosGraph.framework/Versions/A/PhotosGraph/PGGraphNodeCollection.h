@@ -8,11 +8,11 @@
 {
 }
 
++ (id)_keyboardFocusedApplicationController;
 + (id);
-+ (id);
-+ (Class);
++ (Class);
 + (id)B44^@48;
-- (id);
+- (id)AXKFocusChain;
 - (void);
 
 @end

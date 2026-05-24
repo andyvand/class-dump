@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)AsPayloadDateSearchTypes: /* Error: Ran out of types for this method. */;
++ (long long)StringAsPayloadDateSearchTypes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ientsUnsupportedReason:(id)arg1;
+- (id)StringAsSendAnnouncementIntentRecipientsUnsupportedReason:(id)arg1;
 
 @end
 

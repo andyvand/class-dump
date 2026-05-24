@@ -6,35 +6,26 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTMapItemProviderMapsSupportParameters, RTMapsSupportManager;
+@class RTMapsSupportManager;
 
 @interface RTMapItemProviderMapsSupport : RTMapItemProviderBase
 {
     RTMapsSupportManager *_mapsSupportManager;
-    RTMapItemProviderMapsSupportParameters *_parameters;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)hh8;
 - (double);
-- (id);
+- (id)nQueue";
 - (id);
 - (id)ue:(id)arg1 handler:(id)arg2 ]_block_invoke_2;
 - (void)esterday, %@, earliest start date for visits ending yesterday, %@, latest end date for visits ending yesterday, %@, last 24 hour inference request count, %lu, predictions ending yesterday count, %lu, inferences with predictions ending yesterday count, %lu, total fetched visit count, %lu, visits ending yesterday count, %lu, visits before that, %lu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
-@property(readonly, copy, nonatomic) RTMapItemProviderMapsSupportParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

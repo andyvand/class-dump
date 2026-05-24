@@ -7,12 +7,6 @@
 @interface SWKeyboardConfiguration
 {
     _Bool _isKeyboardSplit;
-    _Bool _isKeyboardFloating;
-    _Bool _isHardwareKeyboard;
-    _Bool _isKeyboardVisible;
-    _Bool _isPencilInputExpected;
-    struct CGRect _keyboardFrame;
-    struct CGRect _inputAccessoryViewFrame;
 }
 
 - (void);
@@ -31,16 +25,10 @@
 - (struct CGRect);
 - (id);
 - (_Bool);
-- (id);
+- (id)m;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) struct CGRect inputAccessoryViewFrame; // @synthesize inputAccessoryViewFrame=_inputAccessoryViewFrame;
-@property(nonatomic) _Bool isHardwareKeyboard; // @synthesize isHardwareKeyboard=_isHardwareKeyboard;
-@property(nonatomic) _Bool isKeyboardFloating; // @synthesize isKeyboardFloating=_isKeyboardFloating;
-@property(nonatomic) _Bool isKeyboardSplit; // @synthesize isKeyboardSplit=_isKeyboardSplit;
-@property(nonatomic) _Bool isKeyboardVisible; // @synthesize isKeyboardVisible=_isKeyboardVisible;
-@property(nonatomic) _Bool isPencilInputExpected; // @synthesize isPencilInputExpected=_isPencilInputExpected;
 @property(nonatomic) struct CGRect keyboardFrame; // @synthesize keyboardFrame=_keyboardFrame;
 
 @end

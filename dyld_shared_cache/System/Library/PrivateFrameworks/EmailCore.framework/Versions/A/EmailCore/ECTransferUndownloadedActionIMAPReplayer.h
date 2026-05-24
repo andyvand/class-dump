@@ -11,15 +11,14 @@
 @interface ECTransferUndownloadedActionIMAPReplayer : ECLocalActionReplayer
 {
     id <ECIMAPServerInterface> serverInterface;
-    id <ECIMAPLocalActionReplayerDelegate> delegate;
 }
 
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)d only be set once on an AVMobileGlassControlsView.;
+- (id)istency. Failed to return a transition coordinator for detached full screen dismissal.;
+- (_Bool)ment. Only UIAction and UIMenu types are supported. Skipping:%@. /* Error: Ran out of types for this method. */;
+- (_Bool)ed);
+- (id)h status = %d; response message:(_Bool)arg1 %@;
 - (id);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate; // @synthesize delegate;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface; // @synthesize serverInterface;
 
 @end
 

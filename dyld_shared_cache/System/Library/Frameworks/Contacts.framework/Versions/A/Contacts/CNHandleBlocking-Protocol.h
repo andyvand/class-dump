@@ -5,5 +5,6 @@
 //
 
 @protocol CNHandleBlocking
+- (void);
 @end
 

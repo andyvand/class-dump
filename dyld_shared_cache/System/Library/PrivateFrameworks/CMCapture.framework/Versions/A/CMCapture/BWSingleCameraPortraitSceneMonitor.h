@@ -4,69 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWTrackedFace, NSDictionary, NSString;
-
 @interface BWSingleCameraPortraitSceneMonitor
 {
     float _backgroundShiftSumFiltered;
-    float _invalidShiftRatioFiltered;
-    _Bool _oneShotFocusScanInProgress;
-    _Bool _focusLocked;
-    int _numFramesSinceFocusLocked;
-    _Bool _focusStableAfterStartStreaming;
-    _Bool _focusAdjusting;
-    int _lastFocusingMethod;
-    int _numFramesSinceFocusBecameStable;
-    _Bool _aeStableAfterStartStreaming;
-    int _numFramesSinceAEBecameStable;
-    float _numFacesDetectedFiltered;
-    _Bool _subjectTooCloseMonitoringEnabled;
-    _Bool _subjectIsTooClose;
-    float _subjectTooCloseFocusDistanceThreshold;
-    float _subjectTooCloseFocusDistanceHysteresisLag;
-    int _subjectTooCloseLastFocusPosition;
-    _Bool _subjectTooFarMonitoringEnabled;
-    _Bool _subjectTooFarDistanceThresholdReached;
-    float _subjectTooFarFocusDistanceThreshold;
-    float _subjectTooFarFocusDistanceHysteresisLag;
-    int _subjectTooFarLastFocusPosition;
-    _Bool _useAPSFocusDistance;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    _Bool _sceneIsTooDark;
-    int _lastSDOFEffectStatus;
-    float _lastFocusDistance;
-    BWTrackedFace *_currentlyTrackedFace;
-    _Bool _enabled;
-    _Bool _portraitSceneMonitoringRequiresStageThresholds;
-    int _stageFaceNumberOfFramesSinceLastFaceThreshold;
-    _Bool _stageFaceDetected;
-    _Bool _stageFaceHasBeenSeen;
-    int _numberOfFramesSinceLastFace;
-    int _stageMostRecentFacesCount;
-    NSDictionary *_cinematicVideoFocusRequest;
 }
 
 + (void)nkNode _forceEarlyTerminationWithErrorCode:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (float);
-- (void);
+- (void)TSUCustomFormatTokenizerAdditions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds; // @synthesize portraitSceneMonitoringRequiresStageThresholds=_portraitSceneMonitoringRequiresStageThresholds;
-@property(readonly) Class superclass;
 
 @end
 

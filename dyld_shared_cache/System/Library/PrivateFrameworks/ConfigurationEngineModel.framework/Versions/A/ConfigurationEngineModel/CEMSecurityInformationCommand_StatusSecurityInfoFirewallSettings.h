@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettings : CEMPayloadBase
 {
     NSNumber *_statusFirewallEnabled;
-    NSNumber *_statusBlockAllIncoming;
-    NSNumber *_statusStealthMode;
-    NSArray *_statusApplications;
 }
 
 + (id);
@@ -23,20 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)scriptextensions;
+- (id)eInterfaceProtocolP;
+- (void)3WCC_B;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *statusApplications; // @synthesize statusApplications=_statusApplications;
-@property(copy, nonatomic) NSNumber *statusBlockAllIncoming; // @synthesize statusBlockAllIncoming=_statusBlockAllIncoming;
 @property(copy, nonatomic) NSNumber *statusFirewallEnabled; // @synthesize statusFirewallEnabled=_statusFirewallEnabled;
-@property(copy, nonatomic) NSNumber *statusStealthMode; // @synthesize statusStealthMode=_statusStealthMode;
 
 @end
 

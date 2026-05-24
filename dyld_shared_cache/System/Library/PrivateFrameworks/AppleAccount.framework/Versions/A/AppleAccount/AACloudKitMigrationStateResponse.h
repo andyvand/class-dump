@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)mpletion: /* Error: Ran out of types for this method. */;
+- (void)getServerUILoadDelegateWithContext:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;

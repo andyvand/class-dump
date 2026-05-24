@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class NSString;
 
 @interface SwiftUI.UIKitSearchSuggestion
 {
     id platformItem;
 }
 
-- (id);
+- (id)ved state;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@"NSString"16;
 - (id);
 - (void)6	;
 
 // Remaining properties
-@property(nonatomic, readonly) UIImage *iconImage;
-@property(nonatomic, readonly) NSAttributedString *localizedAttributedSuggestion;
-@property(nonatomic, readonly) NSString *localizedDescription;
 @property(nonatomic, readonly) NSString *localizedSuggestion;
-@property(nonatomic, copy) id representedObject;
 
 @end
 

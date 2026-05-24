@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void);
+- (id);
+- (void)taskEnhancedEndpointerMap;
 - (unsigned long long);
+- (_Bool)8;
 - (_Bool);
-- (_Bool);
-- (id)viousState:(struct _NSZone *)arg1;
-- (id)mentBranch;
+- (id)setHasPreviousState:(struct _NSZone *)arg1;
+- (id)GEOAvailableExperimentBranch;
 - (id)´ÓbþP;
 
 @end

@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCacheInvalidationData, GEOMapItemIdentifier, NSArray, NSDateInterval, NSString, NSTimeZone;
+@class GEOCacheInvalidationData;
 
 @interface GEOPOIEvent
 {
     GEOCacheInvalidationData *_invalidationData;
-    _Bool _updateRequired;
-    GEOMapItemIdentifier *_identifier;
-    NSString *_localizedName;
-    CDStruct_2c43369c _centerCoordinate;
-    long long _expectedAttendance;
-    NSArray *_categories;
-    NSArray *_relatedPOIIdentifiers;
-    NSDateInterval *_dateInterval;
-    NSTimeZone *_timeZone;
-    NSArray *_hours;
-    NSArray *_performers;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)_data;
++ (_Bool)ictionary"8;
 + (_Bool)is at the end of the route. Returning empty path.;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithPersistentStoreCache:(id)arg1 accountCollection: /* Error: Ran out of types for this method. */;
+- (void)_accountMonitoringCancelable;
+- (void)remoteLocations;
+- (void)y/Preferences/AddressBookMe.plist;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -41,39 +30,28 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id)(;
+- (id)injectAudio:toDeviceWithUUID:withfadingTimeWindowLength:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)eferredMuid:(id)arg1;
-- (id)edback;
+- (void);
+- (void)setPreferredMuid:(id)arg1;
+- (id)GEORPAddressFeedback;
 - (CDStruct_c3b9c2ee)serverId:%@ debugId:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Â¨BA´ª%åäJ@;
 - (id)"6;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(nonatomic) CDStruct_c3b9c2ee centerCoordinate; // @synthesize centerCoordinate=_centerCoordinate;
-@property(retain, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(nonatomic) long long expectedAttendance; // @synthesize expectedAttendance=_expectedAttendance;
-@property(retain, nonatomic) NSArray *hours; // @synthesize hours=_hours;
-@property(retain, nonatomic) GEOMapItemIdentifier *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) GEOCacheInvalidationData *invalidationData; // @synthesize invalidationData=_invalidationData;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain, nonatomic) NSArray *performers; // @synthesize performers=_performers;
-@property(retain, nonatomic) NSArray *relatedPOIIdentifiers; // @synthesize relatedPOIIdentifiers=_relatedPOIIdentifiers;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly, nonatomic, getter=isUpdateRequired) _Bool updateRequired; // @synthesize updateRequired=_updateRequired;
 
 @end
 

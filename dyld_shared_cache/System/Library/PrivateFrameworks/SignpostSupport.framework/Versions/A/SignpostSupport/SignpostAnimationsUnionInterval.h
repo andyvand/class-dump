@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface SignpostAnimationsUnionInterval
 {
     NSMutableArray *_animationIntervals;
-    struct _NSRange _animationTimeRange;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct _NSRange);
-- (id);
+- (id)j: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *animationIntervals; // @synthesize animationIntervals=_animationIntervals;
 @property(nonatomic) struct _NSRange animationTimeRange; // @synthesize animationTimeRange=_animationTimeRange;
 
 @end

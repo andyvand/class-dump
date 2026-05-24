@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSString;
-
 @interface ExchangeOAuthTokenRefreshResponse
 {
     long long _statusCode;
-    NSError *_error;
-    NSString *_errorName;
-    NSString *_errorMessage;
-    NSDictionary *_responseBody;
-    NSString *_token;
-    NSString *_refreshToken;
-    NSString *_idToken;
-    NSDate *_expiryDate;
 }
 
 + (id);
@@ -24,24 +14,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (id)3;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (long long).readwrite;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) NSString *errorName; // @synthesize errorName=_errorName;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSString *idToken; // @synthesize idToken=_idToken;
-@property(readonly, nonatomic) NSString *refreshToken; // @synthesize refreshToken=_refreshToken;
-@property(readonly, nonatomic) NSDictionary *responseBody; // @synthesize responseBody=_responseBody;
 @property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

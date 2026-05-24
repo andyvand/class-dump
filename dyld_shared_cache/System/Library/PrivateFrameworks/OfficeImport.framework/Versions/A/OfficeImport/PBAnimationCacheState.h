@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PBAnimationCacheState : PDAnimationCacheState
 {
     NSMutableSet *mEntranceDrawables;
-    NSMutableSet *mExitDrawables;
 }
 
 - (id);

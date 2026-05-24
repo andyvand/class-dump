@@ -6,19 +6,18 @@
 
 #import <Symbolication/VMUStackLogReaderBase.h>
 
-@class NSSet, NSString, VMUTaskMemoryScanner, VMUVMRegionTracker;
+@class VMUTaskMemoryScanner;
 
 @interface VMUTaskStackLogReader : VMUStackLogReaderBase
 {
     VMUTaskMemoryScanner *_scanner;
-    unsigned long long _msl_payload_version;
 }
 
 - (_Bool);
 - (void);
+- (long long)$;
 - (long long);
-- (long long);
-- (CDStruct_a7186859);
+- (CDStruct_a7186859);
 - (id);
 - (id);
 - (int);
@@ -26,34 +25,14 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)appendStringOrAXAttributedString:(unsigned int)arg1;
+- (void)_stackViewBottomConstraint;
 - (void);
 - (_Bool);
-- (id)RECISE_SCANNING_SWIFT_ASYNC_ALLOCATIONS;
+- (id)DT_SKIP_PRECISE_SCANNING_SWIFT_ASYNC_ALLOCATIONS;
 
 // Remaining properties
-@property(readonly) _Bool coldestFrameIsNotThreadId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *excludedFrames;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool inspectingLiveProcess;
-@property(readonly) _Bool is64bit;
-@property(readonly) unsigned long long nodesInUniquingTable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) VMUVMRegionTracker *regionTracker;
 @property(nonatomic) __weak VMUTaskMemoryScanner *scanner; // @synthesize scanner=_scanner;
-@property(readonly) Class superclass;
-@property(readonly) struct _CSTypeRef symbolicator;
-@property(readonly) unsigned int task;
-@property(readonly) _Bool usesCoreFile;
-@property(readonly) _Bool usesLiteMode;
 
 @end
 

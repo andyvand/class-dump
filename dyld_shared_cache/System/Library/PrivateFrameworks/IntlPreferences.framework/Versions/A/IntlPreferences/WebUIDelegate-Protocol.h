@@ -5,5 +5,8 @@
 //
 
 @protocol WebUIDelegate
+
+@optional
+- (void);
 @end
 

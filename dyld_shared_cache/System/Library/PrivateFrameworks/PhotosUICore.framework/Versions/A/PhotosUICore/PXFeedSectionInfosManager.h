@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, PHPhotoLibrary, PLPhotoLibrary;
+@class PLPhotoLibrary;
 @protocol PXFeedSectionInfosManagerDelegate;
 
 @interface PXFeedSectionInfosManager
 {
     PLPhotoLibrary *_photoLibrary;
-    PHPhotoLibrary *_phPhotoLibrary;
-    NSMutableArray *_sectionInfos;
-    NSMutableDictionary *_sectionInfosByCloudFeedEntry;
-    NSMutableSet *_observedAssetOIDs;
-    NSMutableArray *_pendingFeedEntriesChangeNotifications;
-    NSMutableArray *_pendingCommentsChangeNotifications;
-    NSMutableArray *_pendingAssetsChangeNotifications;
-    long long _entryFilter;
-    NSDate *_earliestDate;
-    unsigned long long _fetchLimit;
-    id <PXFeedSectionInfosManagerDelegate> _delegate;
 }
 
 - (void);
@@ -58,21 +47,11 @@
 - (void);
 - (id);
 - (void)G;
-- (void)nnerPreview;
+- (void)PhotosViewBannerPreview;
 - (unsigned long long)XQ³ÿ#¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXFeedSectionInfosManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *earliestDate; // @synthesize earliestDate=_earliestDate;
-@property(nonatomic) long long entryFilter; // @synthesize entryFilter=_entryFilter;
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

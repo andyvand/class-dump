@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFImageBag, NSArray;
+@class IFImageBag;
 
 @interface ISIconLayer
 {
     _Bool _hasLightEffects;
-    NSArray *_images;
-    IFImageBag *_imageBag;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)stringWithFormat: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property _Bool hasLightEffects; // @synthesize hasLightEffects=_hasLightEffects;
 @property(readonly) IFImageBag *imageBag; // @synthesize imageBag=_imageBag;
-@property(readonly) NSArray *images; // @synthesize images=_images;
 
 @end
 

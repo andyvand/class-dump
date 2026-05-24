@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPNLv4TaskEvaluationEnded : SISchemaInstrumentationMessage
 {
     double _accuracyOnTheFirstUserParseCount;
-    double _accuracyOnAnyUserParse;
-    unsigned int _evaluationCount;
-    struct {
-        unsigned int accuracyOnTheFirstUserParseCount:1;
-        unsigned int accuracyOnAnyUserParse:1;
-        unsigned int evaluationCount:1;
-    } _has;
 }
 
 - (void);
@@ -35,24 +26,18 @@
 - (double);
 - (double);
 - (unsigned int);
-- (id);
+- (id)a@9?;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nshteinEditDistance"b1"isEmojiUsed"b1};
-- (id)MessagesServerEvent;
+- (id)GRPSchemaGroupedMessagesServerEvent;
 - (id)ÍÄÍ;
 
 // Remaining properties
-@property(nonatomic) double accuracyOnAnyUserParse; // @synthesize accuracyOnAnyUserParse=_accuracyOnAnyUserParse;
 @property(nonatomic) double accuracyOnTheFirstUserParseCount; // @synthesize accuracyOnTheFirstUserParseCount=_accuracyOnTheFirstUserParseCount;
-@property(nonatomic) unsigned int evaluationCount; // @synthesize evaluationCount=_evaluationCount;
-@property(nonatomic) _Bool hasAccuracyOnAnyUserParse;
-@property(nonatomic) _Bool hasAccuracyOnTheFirstUserParseCount;
-@property(nonatomic) _Bool hasEvaluationCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

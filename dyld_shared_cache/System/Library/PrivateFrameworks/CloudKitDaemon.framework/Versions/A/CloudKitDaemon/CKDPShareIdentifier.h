@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, CKDPRecordZoneIdentifier;
+@class CKDPIdentifier;
 
 @interface CKDPShareIdentifier
 {
     CKDPIdentifier *_value;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
 }
 
-- (void);
+- (void)(;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nternal hoseSetRatePendingClockLock = %s readyToStartHoses = %s current rate = %f pending rate = %f requesting rate = %f currentPlaybackState = %s
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -32,9 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *value; // @synthesize value=_value;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

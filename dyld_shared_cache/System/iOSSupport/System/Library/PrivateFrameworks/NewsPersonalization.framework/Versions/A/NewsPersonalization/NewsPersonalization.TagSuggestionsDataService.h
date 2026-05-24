@@ -7,13 +7,6 @@
 @interface NewsPersonalization.TagSuggestionsDataService
 {
     id appConfigurationManager;
-    id computeService;
-    id bundleIDMappingProvider;
-    id bundleSubscriptionIsSubscribedProvider;
-    id urlMappingProvider;
-    id userContextProvider;
-    id recipeUserEventHistoryFeaturesFactory;
-    id workQueue;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAPhoneCallSearchResult.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAPhoneVoiceMail : SAPhoneCallSearchResult
 {
@@ -15,15 +15,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (id);
+- (id)ion _startActivationWithDestinationID:messenger:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filePath;
-@property(copy, nonatomic) NSNumber *length;
 
 @end
 

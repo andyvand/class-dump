@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWCMPhotoEncoderManager
 {
     struct CMPhotoCompressionSession *_photoCompressionSession;
-    long long _currentSettingsID;
-    unsigned long long _containerSize;
-    int _containerFormat;
-    _Bool _asyncEncoding;
 }
 
 + (void)dataPropagatorNode.inputs[metadataFunnelNodeInputIndex++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
-- (int);
+- (int)I;
 - (int);
 - (int);
 - (id);
@@ -38,13 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long containerSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

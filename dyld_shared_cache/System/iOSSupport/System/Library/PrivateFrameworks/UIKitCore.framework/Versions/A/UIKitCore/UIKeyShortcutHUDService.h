@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSValue, UIPhysicalKeyboardEvent, _UIKeyboardEventModifierListener;
-@protocol UIKeyShortcutHUDMetricsProvider;
+@class NSArray;
 
 @interface UIKeyShortcutHUDService
 {
@@ -13,24 +12,19 @@
         unsigned int hasPresentationObserversRegistered:1;
         unsigned int hasPendingPresentationRequest:1;
     } _flags;
-    _UIKeyboardEventModifierListener *_modifierKeyListener;
-    NSArray *_scheduledHUDHoverGestureRecognizers;
-    NSValue *_scheduledHUDInitialPointerLocation;
-    UIPhysicalKeyboardEvent *_lastKeyboardEvent;
-    id <UIKeyShortcutHUDMetricsProvider> _metricsProvider;
 }
 
 + (id);
-+ (id);
++ (id)er: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (_Bool);
+- (void)om.apple.configuration.network.cellular.settings;
 - (void);
 - (void);
+- (_Bool)h_geom_diff_scale_delta_mean;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)0_;
 - (void);
 - (void);
 - (void);
@@ -38,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (void);
@@ -52,25 +46,25 @@
 × ;
 - (_Bool)!øCùqcð1Â0@ù
 × ;
-- (void)anceOverlayAllowance;
-- (id)Used:language:completion: /* Error: Ran out of types for this method. */;
-- (void)leLight;
-- (void)r;
-- (void)ty: /* Error: Ran out of types for this method. */;
-- (void)ompetingGestureRecognizers;
-- (void)insWhenFloating;
+- (void)homeAffordanceOverlayAllowance;
+- (id)emojiUsed:language:completion: /* Error: Ran out of types for this method. */;
+- (void)_tvDefaultTextColorDisabledUserInterfaceStyleLight;
+- (void)_plasmaParallaxFactor;
+- (void)_hasImageForProperty: /* Error: Ran out of types for this method. */;
+- (void)_gateCompetingGestureRecognizers;
+- (void)__marginsWhenFloating;
 - (void)ationLevel;
 - (void)dSetUpKickTransformer;
-- (void)yFocusOnExternalDisplay;
+- (void)textEntryFocusOnExternalDisplay;
 - (void)|r;
 - (id)\;
 - (id)UITextInputSessionActionAnalytics] didAutocorrectTapOnCompletionReplacementForText:'%{sensitive}@' withText:'%{sensitive}@' /* Error: Ran out of types for this method. */;
-- (long long)s;
+- (long long)_margins;
 - (void)itionsInSplitViewController]_block_invoke;
 - (void)quest"8;
 - (void)mapDataRoundRectGetMaxXForY(const _UIBoundingPathBitmapDataRoundRect, const NSInteger);
 - (void)e.m;
-- (_Bool)oleNone;
+- (_Bool)UISceneSessionRoleNone;
 - (void)springboard;
 - (id);
 - (void)ement: /* Error: Ran out of types for this method. */;
@@ -81,19 +75,7 @@
 - (void)Æÿæ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long hudPresentationState;
-@property(retain, nonatomic) UIPhysicalKeyboardEvent *lastKeyboardEvent; // @synthesize lastKeyboardEvent=_lastKeyboardEvent;
-@property(retain, nonatomic) id <UIKeyShortcutHUDMetricsProvider> metricsProvider; // @synthesize metricsProvider=_metricsProvider;
-@property(readonly, nonatomic) _UIKeyboardEventModifierListener *modifierKeyListener; // @synthesize modifierKeyListener=_modifierKeyListener;
 @property(retain, nonatomic) NSArray *scheduledHUDHoverGestureRecognizers; // @synthesize scheduledHUDHoverGestureRecognizers=_scheduledHUDHoverGestureRecognizers;
-@property(retain, nonatomic) NSValue *scheduledHUDInitialPointerLocation; // @synthesize scheduledHUDInitialPointerLocation=_scheduledHUDInitialPointerLocation;
-@property(readonly) Class superclass;
 
 @end
 

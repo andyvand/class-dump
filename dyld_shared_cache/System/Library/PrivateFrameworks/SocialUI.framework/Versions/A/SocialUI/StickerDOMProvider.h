@@ -6,12 +6,11 @@
 
 #import <SocialUI/DOMProvider.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface StickerDOMProvider : DOMProvider
 {
     NSMutableDictionary *_stickerChatItemsToUpdate;
-    NSMutableDictionary *_stickerChatItemsToUpdateAfterMediaLoad;
 }
 
 - (void);
@@ -46,15 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *stickerChatItemsToUpdate; // @synthesize stickerChatItemsToUpdate=_stickerChatItemsToUpdate;
-@property(retain, nonatomic) NSMutableDictionary *stickerChatItemsToUpdateAfterMediaLoad; // @synthesize stickerChatItemsToUpdateAfterMediaLoad=_stickerChatItemsToUpdateAfterMediaLoad;
-@property(readonly) Class superclass;
 
 @end
 

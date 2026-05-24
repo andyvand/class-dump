@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSTimer, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SOHelperCenter
 {
     NSXPCConnection *_connection;
-    NSTimer *_reconnectionTimer;
-    NSMapTable *_nameToWeakControllerMap;
 }
 
 + (void);
@@ -23,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSMapTable *nameToWeakControllerMap; // @synthesize nameToWeakControllerMap=_nameToWeakControllerMap;
-@property(retain) NSTimer *reconnectionTimer; // @synthesize reconnectionTimer=_reconnectionTimer;
 
 @end
 

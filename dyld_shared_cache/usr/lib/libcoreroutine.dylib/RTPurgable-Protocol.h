@@ -5,5 +5,6 @@
 //
 
 @protocol RTPurgable
+- (void)IDSLocalDeliverySocketOpenedMetric;
 @end
 

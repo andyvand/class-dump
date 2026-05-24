@@ -5,5 +5,7 @@
 //
 
 @protocol SFLSRDelegate
+- (oneway void);
+- (oneway void)~;
 @end
 

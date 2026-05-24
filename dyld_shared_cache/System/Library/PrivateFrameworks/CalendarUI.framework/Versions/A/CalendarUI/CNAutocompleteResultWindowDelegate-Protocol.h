@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSView;
+
 @protocol CNAutocompleteResultWindowDelegate
+
+@optional
+- (NSView *);
+- (void);
 @end
 

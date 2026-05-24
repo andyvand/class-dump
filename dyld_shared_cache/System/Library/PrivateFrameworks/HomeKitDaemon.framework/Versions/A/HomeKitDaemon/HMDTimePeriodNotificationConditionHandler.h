@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSString;
-@protocol HMDTimePeriodNotificationConditionSunsetSunriseProvider, HMDTimePeriodNotificationConditionTimeProvider;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDTimePeriodNotificationConditionHandler
 {
     HMDHome *_home;
-    id <HMDTimePeriodNotificationConditionTimeProvider> _timeProvider;
-    id <HMDTimePeriodNotificationConditionSunsetSunriseProvider> _sunriseSunsetProvider;
 }
 
 + (id)@B;
 - (id);
-- (id);
+- (id)enumerateObjectsUsingBlock:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)match:(id)arg1 %fx%f, expected:%fx%f /* Error: Ran out of types for this method. */;
 - (id)QÐ1Â0@ù
 × ;
-- (void)itical;
+- (void)IsCritical;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) id <HMDTimePeriodNotificationConditionSunsetSunriseProvider> sunriseSunsetProvider; // @synthesize sunriseSunsetProvider=_sunriseSunsetProvider;
-@property(readonly) Class superclass;
-@property(readonly) id <HMDTimePeriodNotificationConditionTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
 
 @end
 

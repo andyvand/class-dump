@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCameraFile, NSImageView;
+@class ICCameraFile;
 
 @interface IKCameraIconCellView
 {
     ICCameraFile *_cameraItem;
-    NSImageView *_lockIcon;
-    NSImageView *_successIcon;
-    NSImageView *_burstIcon;
-    NSImageView *_livePhotoIcon;
 }
 
 - (id);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property NSImageView *burstIcon; // @synthesize burstIcon=_burstIcon;
 @property ICCameraFile *cameraItem; // @synthesize cameraItem=_cameraItem;
-@property NSImageView *livePhotoIcon; // @synthesize livePhotoIcon=_livePhotoIcon;
-@property NSImageView *lockIcon; // @synthesize lockIcon=_lockIcon;
-@property NSImageView *successIcon; // @synthesize successIcon=_successIcon;
 
 @end
 

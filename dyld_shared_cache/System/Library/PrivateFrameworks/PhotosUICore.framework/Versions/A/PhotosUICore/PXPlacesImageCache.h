@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void)sUICore38MacSyncedAssetsNotificationListManager7Mutator;
+- (void)_TtCC12PhotosUICore38MacSyncedAssetsNotificationListManager7Mutator;
 - (void);
 
 @end

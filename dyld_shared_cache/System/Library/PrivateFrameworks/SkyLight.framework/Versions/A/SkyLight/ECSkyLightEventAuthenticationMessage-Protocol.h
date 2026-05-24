@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventBaseAttributes;
-@protocol ECSLGestureEventAuthenticationMessage, ECSLKeyEventAuthenticationMessage, ECSLMouseEventAuthenticationMessage;
+@protocol ECSLMouseEventAuthenticationMessage;
 
 @protocol ECSkyLightEventAuthenticationMessage
+- (id <ECSLMouseEventAuthenticationMessage>)extSaved:] /* Error: Ran out of types for this method. */;
+- (unsigned int))!;
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventBaseAttributes *attributes;
-@property(readonly, nonatomic) unsigned int connection;
 @property(readonly, nonatomic) unsigned int flags;
-@property(readonly, nonatomic) id <ECSLGestureEventAuthenticationMessage> gesture;
-@property(readonly, nonatomic) id <ECSLKeyEventAuthenticationMessage> key;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(readonly, nonatomic) id <ECSLMouseEventAuthenticationMessage> mouse;
-@property(readonly, nonatomic) unsigned int window;
 @end
 

@@ -6,13 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class HMDBackingStoreCacheGroup, NSArray;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheDeleteRecordOperation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_group;
-    NSArray *_recordNames;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(retain, nonatomic) NSArray *recordNames; // @synthesize recordNames=_recordNames;
 
 @end
 

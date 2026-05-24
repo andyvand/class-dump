@@ -6,12 +6,9 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class SXUnitConverter, UIColor;
-
 @interface SXDataTableBorder : SXJSONObject
 {
     double _width;
-    SXUnitConverter *unitConverter;
 }
 
 + (id)W,N;
@@ -22,9 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct _SXConvertibleValue actualWidth; // @dynamic actualWidth;
-@property(readonly, nonatomic) UIColor *color; // @dynamic color;
-@property(retain, nonatomic) SXUnitConverter *unitConverter; // @synthesize unitConverter;
-@property(readonly, nonatomic) double width; // @synthesize width=_width;
 
 @end
 

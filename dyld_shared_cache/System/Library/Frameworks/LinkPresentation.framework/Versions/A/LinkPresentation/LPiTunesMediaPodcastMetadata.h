@@ -6,64 +6,45 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSArray, NSString;
+@class NSString;
 
 @interface LPiTunesMediaPodcastMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
 + (id);
 + (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool)%^;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ord PCS;
+- (id)emon/update-device-capabilities;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)(p;
 - (void);
-- (void);
-- (void);
+- (void)initWithAVAsset:(id)arg1 options:timeZoneLookup:preloadValues: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (id)Õ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PXStoryAutoEditModule
 {
     long long _moduleType;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long moduleType; // @synthesize moduleType=_moduleType;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

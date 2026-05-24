@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TDSchemaCategory;
+@class NSString;
 
 @interface TDSchemaDefinition
 {
 }
 
-+ (const CDStruct_22c2ae3f *);
-+ (const CDStruct_22c2ae3f *);
++ (const CDStruct_b96027fa *);
++ (const CDStruct_b96027fa *);
 + (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TDSchemaCategory *category; // @dynamic category;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *parts; // @dynamic parts;
-@property _Bool published; // @dynamic published;
 
 @end
 

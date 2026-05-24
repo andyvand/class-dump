@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, SXLayouterFactory;
-@protocol SXLayoutContextFactory, SXLayouterDelegate, SXUnitConverterFactory;
+@class SXLayouterFactory;
+@protocol SXLayouterDelegate;
 
 @interface SXColumnLayouter
 {
     id <SXLayouterDelegate> _delegate;
-    SXLayouterFactory *_layouterFactory;
-    NSMutableDictionary *_intersectionCache;
-    id <SXLayoutContextFactory> _layoutContextFactory;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (id);
@@ -40,18 +36,7 @@
 - (void)@"<SWInteractionProvider>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXLayouterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *intersectionCache; // @synthesize intersectionCache=_intersectionCache;
-@property(readonly, nonatomic) id <SXLayoutContextFactory> layoutContextFactory; // @synthesize layoutContextFactory=_layoutContextFactory;
 @property(readonly, nonatomic) SXLayouterFactory *layouterFactory; // @synthesize layouterFactory=_layouterFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
 
 @end
 

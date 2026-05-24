@@ -6,14 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRankingCandidateMatrix : SISchemaInstrumentationMessage
 {
     NSArray *_candidateTuples;
 }
 
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,12 +30,11 @@
 - (id)
 × ;
 - (id)tentTarget;
-- (id)ageModelAssetCopyStarted;
+- (id)SMTSchemaSMTAppLanguageModelAssetCopyStarted;
 - (void)"Þ";
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateTuples; // @synthesize candidateTuples=_candidateTuples;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

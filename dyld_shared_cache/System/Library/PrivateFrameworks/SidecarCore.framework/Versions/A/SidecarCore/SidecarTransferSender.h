@@ -6,15 +6,10 @@
 
 #import <SidecarCore/SidecarTransfer.h>
 
-@class NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface SidecarTransferSender : SidecarTransfer
 {
     long long _itemID;
-    NSArray *_items;
-    NSMutableArray *_slices;
-    long long _type;
 }
 
 - (void);

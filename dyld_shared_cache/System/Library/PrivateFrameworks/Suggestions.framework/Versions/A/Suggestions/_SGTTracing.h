@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface _SGTTracing
 {
     double tracingMin;
-    double tracingMax;
-    int tracingLevel;
-    NSMutableSet *searchPaths;
-    _Bool hasAbandoned;
 }
 
-- (void);
+- (void)filteredToolbarItemsForItems:fromController: /* Error: Ran out of types for this method. */;
 
 @end
 

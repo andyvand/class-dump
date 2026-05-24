@@ -9,8 +9,6 @@
 @interface CKStreamLogStatsTuple
 {
     NSString *_fileAndLine;
-    unsigned long long _count;
-    unsigned long long _size;
 }
 
 - (id);
@@ -18,13 +16,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void)|e;
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(retain, nonatomic) NSString *fileAndLine; // @synthesize fileAndLine=_fileAndLine;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

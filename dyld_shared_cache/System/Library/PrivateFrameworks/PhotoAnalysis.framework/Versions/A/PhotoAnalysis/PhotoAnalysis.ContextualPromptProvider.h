@@ -7,13 +7,6 @@
 @interface PhotoAnalysis.ContextualPromptProvider
 {
     id logger;
-    id templateCache;
-    id validator;
-    id triggerReader;
-    id photoLibrary;
-    id graphManager;
-    id personCache;
-    id $__lazy_storage_$_personOrPetUUIDsWithFeedback;
 }
 
 @end

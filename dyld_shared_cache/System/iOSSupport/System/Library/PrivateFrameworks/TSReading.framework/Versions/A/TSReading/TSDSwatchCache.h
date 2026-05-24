@@ -12,16 +12,16 @@
 }
 
 + (id);
-- (void);
-- (struct CGSize);
+- (void)rollable.;
+- (struct CGSize)e change pause decision;
 - (id);
 - (struct CGImage *);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
+- (id)a;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

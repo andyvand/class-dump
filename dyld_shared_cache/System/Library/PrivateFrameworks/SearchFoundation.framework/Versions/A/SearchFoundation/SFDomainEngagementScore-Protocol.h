@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
-
 @protocol SFDomainEngagementScore
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) int domain;
-@property(copy, nonatomic) NSNumber *iFunScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *score;
-@property(copy, nonatomic) NSNumber *scoreConfidence;
 @end
 

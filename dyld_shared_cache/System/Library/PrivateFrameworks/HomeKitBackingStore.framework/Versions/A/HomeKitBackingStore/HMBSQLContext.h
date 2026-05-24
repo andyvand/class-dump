@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBPreparedStatementsCache, HMFMemoryMonitor, NSString, NSURL;
+@class HMFMemoryMonitor;
 
 @interface HMBSQLContext
 {
     struct os_unfair_lock_s _lock;
-    _Bool _finalized;
-    NSString *_logIdentifier;
-    NSURL *_url;
-    struct sqlite3 *_connection;
-    HMFMemoryMonitor *_memoryMonitor;
-    HMBPreparedStatementsCache *_preparedStatementsCache;
 }
 
 + (id)=}16^B24^Q32^@40;
-- (void);
-- (struct sqlite3 *);
-- (void);
-- (id);
+- (void),V_didRollRecordPCSMasterKey;
+- (struct sqlite3 *)ne ID required when fetching zone PCS:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)_extensionContextForUUID:(id)arg1;
+- (id)t';
 - (_Bool);
 - (id);
-- (void);
+- (void)device with error:[%{public}@] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
+- (id)Rz;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)tryParsingAceHeaderData:(struct sqlite3_stmt *)arg1 compressionType:(id *)arg2 bytesRead:(CDUnknownBlockType)arg3 error: /* Error: Ran out of types for this method. */;
 - (long long);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)handleFailureInMethod:(id)arg1 object:(CDUnknownBlockType)arg2 file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (_Bool)itemIds;
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)0;
+- (id)6;
 - (struct sqlite3_stmt *);
 - (id);
 - (_Bool);
@@ -58,19 +52,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) struct sqlite3 *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool finalized; // @synthesize finalized=_finalized;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
 @property(readonly, nonatomic) HMFMemoryMonitor *memoryMonitor; // @synthesize memoryMonitor=_memoryMonitor;
-@property(readonly, nonatomic) HMBPreparedStatementsCache *preparedStatementsCache; // @synthesize preparedStatementsCache=_preparedStatementsCache;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

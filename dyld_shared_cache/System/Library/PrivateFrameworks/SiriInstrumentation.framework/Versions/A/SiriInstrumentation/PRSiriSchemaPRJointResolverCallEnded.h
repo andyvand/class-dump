@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PRSiriSchemaPRJointResolverCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)ҿ;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)contentRatingsBySystem;
 - (_Bool);
-- (_Bool);
+- (_Bool)ort info with error:(id)arg1 %@;
 - (id);
 - (id);
-- (id)sionExperiments;
+- (id)_sessionExperiments;
 - (id)TB,N,V_isSharePlayPlayback;
-- (_Bool)TEXT_RETRIEVAL;
+- (_Bool)CDMSERVICETYPE_CONTEXT_RETRIEVAL;
 - (_Bool)ssages.siriEventTypeUnion.nlxClientEvent.cdmMatchingSpanEndedTier1.matchingSpans.input;
 - (void)P#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

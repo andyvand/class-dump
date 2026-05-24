@@ -12,7 +12,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)_someViewDidChangeFrame: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

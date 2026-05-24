@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     int _outDirection;
 }
 
-+ (id)ompleteImmediatelyQueue;
++ (id)animationsShouldCompleteImmediatelyQueue;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)IndexTitleBarFocusGuide;
+- (_Bool)horizontalIndexTitleBarFocusGuide;
 - (int)_shouldCatchDecodingExceptions;
 - (id)learGlassView;
-- (id)on;
-- (void)actions;
+- (id)_UIScrollViewAnimationEndedNotification;
+- (void)UIStatusBarStyleOverrideNearbyInteractions;
 
 // Remaining properties
 @property(nonatomic) int outDirection; // @synthesize outDirection=_outDirection;

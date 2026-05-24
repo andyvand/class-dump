@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface PDSProtoBatchRegisterResp
 {
     long long _responseTtl;
-    long long _retryInterval;
-    long long _serverTimestamp;
-    NSString *_message;
-    int _status;
-    NSMutableArray *_userPushTokenRegResponses;
-    struct {
-        unsigned int responseTtl:1;
-        unsigned int retryInterval:1;
-        unsigned int serverTimestamp:1;
-    } _has;
 }
 
-+ (Class);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
++ (Class)public}@:Could not add pending changes for album with nil GUID. /* Error: Ran out of types for this method. */;
+- (unsigned long long)wnloaded asset GUID %{public}@ for an album GUID %{public}@ that no lenger exists. Ignoring.;
+- (id)public}@. Reset-syncing albums.;
+- (id)from album GUID %{public}@. Error:%{public}@. Reset-syncing albums. /* Error: Ran out of types for this method. */;
+- (void)lic}@:(id)arg1 Still has pending changes %{public}@;
+- (void)public}@:(_Bool)arg1 Flushing pending comment check operation for asset collection GUID %{public}@ in album GUID %{public}@;
+- (void)g pending comment check queue.;
+- (void)%{public}@;
+- (long long)omment check operations.;
+- (_Bool)base.;
+- (_Bool)ion %d to %d. Recreating database.;
+- (_Bool)migrate from database version %d to %d. Recreating database.;
+- (void)nership index. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (void)Error:(id)arg1 %{public}s;
+- (void)public}s;
 - (void);
 - (long long);
-- (_Bool);
+- (void);
+- (long long);
+- (_Bool)tileCacheObserver;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)rializeRecordModificationsOperationCallbacks><CKDOperationCallbackProxy>",&,D,N;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -57,16 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMessage;
-@property(nonatomic) _Bool hasResponseTtl;
-@property(nonatomic) _Bool hasRetryInterval;
-@property(nonatomic) _Bool hasServerTimestamp;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) long long responseTtl; // @synthesize responseTtl=_responseTtl;
-@property(nonatomic) long long retryInterval; // @synthesize retryInterval=_retryInterval;
-@property(nonatomic) long long serverTimestamp; // @synthesize serverTimestamp=_serverTimestamp;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSMutableArray *userPushTokenRegResponses; // @synthesize userPushTokenRegResponses=_userPushTokenRegResponses;
 
 @end
 

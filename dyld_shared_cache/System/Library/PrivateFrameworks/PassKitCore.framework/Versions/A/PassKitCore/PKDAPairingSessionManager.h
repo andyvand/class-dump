@@ -6,13 +6,9 @@
 
 #import <PassKitCore/PKDASessionManager.h>
 
-@class NSMutableArray, NSString;
-
 @interface PKDAPairingSessionManager : PKDASessionManager
 {
     _Bool _probingTerminalPairingStatus;
-    NSMutableArray *_probingCompletionBlocks;
-    CDUnknownBlockType _prewarmCompletion;
 }
 
 - (void);
@@ -23,23 +19,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Ti;
 - (void);
 - (id)t: /* Error: Ran out of types for this method. */;
-- (void)CTION_DETAIL_REWARDS_STATEMENT_CREDIT_TITLE;
-- (void)AYMENT_RECURRING_TERM_EVERY_INTERVAL_FMT;
+- (void)TRANSACTION_DETAIL_REWARDS_STATEMENT_CREDIT_TITLE;
+- (void)PAYMENT_RECURRING_TERM_EVERY_INTERVAL_FMT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType prewarmCompletion; // @synthesize prewarmCompletion=_prewarmCompletion;
-@property(readonly, nonatomic) NSMutableArray *probingCompletionBlocks; // @synthesize probingCompletionBlocks=_probingCompletionBlocks;
 @property(nonatomic, getter=isProbingTerminalPairingStatus) _Bool probingTerminalPairingStatus; // @synthesize probingTerminalPairingStatus=_probingTerminalPairingStatus;
-@property(readonly) Class superclass;
 
 @end
 

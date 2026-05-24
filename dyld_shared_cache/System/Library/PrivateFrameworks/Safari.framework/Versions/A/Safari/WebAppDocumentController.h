@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSCoalescedAsynchronousWriter;
-
 __attribute__((visibility("hidden")))
 @interface WebAppDocumentController
 {
     _Bool _hasRestoredDocuments;
-    WBSCoalescedAsynchronousWriter *_documentsStateWriter;
 }
 
 + (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)db!(c@8`;
 - (void)HH;
 
 @end

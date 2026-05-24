@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol UITableViewSubviewReusing
+- (id);
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reuseIdentifier;

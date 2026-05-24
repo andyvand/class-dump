@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ABTracedLog
 {
     NSString *_message;
-    NSString *_domain;
-    NSString *_domainVersion;
-    NSString *_domainScope;
-    NSString *_signature;
-    NSString *_signature2;
-    NSString *_signature3;
-    NSString *_value;
-    NSString *_value2;
-    NSString *_value3;
-    NSString *_uuid;
-    _Bool _summarize;
-    int _result;
-    NSDictionary *_customProperties;
 }
 
 + (long long);
@@ -40,23 +27,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)qa;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)speedThresholdForIFrameOnlyPlaybackWasSet;
+- (id)_protectorSessionIdentifier;
 - (void);
 - (id);
+- (void)t checking for held call to resume.;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q,V_countOfAddedContacts;
 - (id);
 - (id);
 - (int);
@@ -66,20 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *customProperties; // @synthesize customProperties=_customProperties;
-@property(readonly) NSString *domain; // @synthesize domain=_domain;
-@property(copy) NSString *domainScope; // @synthesize domainScope=_domainScope;
-@property(copy) NSString *domainVersion; // @synthesize domainVersion=_domainVersion;
 @property(readonly) NSString *message; // @synthesize message=_message;
-@property int result; // @synthesize result=_result;
-@property(copy) NSString *signature; // @synthesize signature=_signature;
-@property(copy) NSString *signature2; // @synthesize signature2=_signature2;
-@property(copy) NSString *signature3; // @synthesize signature3=_signature3;
-@property _Bool summarize; // @synthesize summarize=_summarize;
-@property(copy) NSString *uuid; // @synthesize uuid=_uuid;
-@property(copy) NSString *value; // @synthesize value=_value;
-@property(copy) NSString *value2; // @synthesize value2=_value2;
-@property(copy) NSString *value3; // @synthesize value3=_value3;
 
 @end
 

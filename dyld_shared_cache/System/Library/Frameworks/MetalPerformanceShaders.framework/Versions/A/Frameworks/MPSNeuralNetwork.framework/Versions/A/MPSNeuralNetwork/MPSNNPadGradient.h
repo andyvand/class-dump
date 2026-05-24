@@ -12,7 +12,7 @@
 
 + (const struct MPSLibraryInfo *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)re channels must be > 0;

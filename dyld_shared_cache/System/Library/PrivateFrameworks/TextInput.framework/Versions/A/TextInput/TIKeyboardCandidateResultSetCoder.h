@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData;
+@class NSData;
 
 @interface TIKeyboardCandidateResultSetCoder
 {
     _Bool _offsetHasPassedEndOfData;
-    NSMutableData *_mutableData;
-    NSData *_data;
-    unsigned long long _offset;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -35,7 +32,7 @@
 - (id);
 - (id);
 - (unsigned short);
-- (id);
+- (id)C;
 - (double);
 - (unsigned char);
 - (_Bool);
@@ -47,22 +44,17 @@
 - (id);
 - (void);
 - (void);
-- (const char *);
+- (const char *)primitiveValueForKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (const char *);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)etency;
+- (unsigned long long)incompetency;
 
 // Remaining properties
-@property(readonly, nonatomic) const char *bytes;
-@property(readonly, nonatomic) const char *currentPosition;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSMutableData *mutableData; // @synthesize mutableData=_mutableData;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) _Bool offsetHasPassedEndOfData; // @synthesize offsetHasPassedEndOfData=_offsetHasPassedEndOfData;
 
 @end
 

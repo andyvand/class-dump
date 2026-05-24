@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBPhotosLibraryImage, _SFPBURL;
+@class NSData;
 
 @protocol _SFPBMessageAttachment
+- (NSData *)@"NSError"32;
+- (NSData *),N,V_subtitle;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *linkMetadata;
-@property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage;
 @property(nonatomic) int type;
-@property(retain, nonatomic) _SFPBURL *url;
 @end
 

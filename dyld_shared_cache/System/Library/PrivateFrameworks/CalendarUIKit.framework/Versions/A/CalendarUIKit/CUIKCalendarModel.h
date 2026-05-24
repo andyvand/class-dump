@@ -4,248 +4,188 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKCalendarModelSceneState, CUIKEventLoader, CUIKIPendingReminderTracker, CUIKPasteboardManager, CUIKUndoManager, EKCalendarDate, EKEvent, EKEventStore, EKSource, NSArray, NSCalendar, NSDate, NSLock, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString, _EKNotificationMonitor;
-@protocol CUIKOccurrenceCacheDataSourceProtocol, OS_dispatch_queue;
+@class EKEventStore;
 
 @interface CUIKCalendarModel
 {
     _Bool _modelLocked;
-    _Bool _notificationMonitorSetUp;
-    EKEventStore *_eventStore;
-    CUIKEventLoader *_eventLoader;
-    NSObject<OS_dispatch_queue> *_predicateMonitorCallbackQueue;
-    unsigned long long _focusFilterMode;
-    _Bool _disableFocusFiltering;
-    NSLock *_filterLock;
-    NSArray *_visibleCalendars;
-    NSSet *_unselectedCalendarsForFocusMode;
-    _Bool _hasLoadedUnselectedCalendarsForFocusMode;
-    long long _readWriteCalendarCount;
-    NSArray *_delegateSources;
-    long long _invitationBearingStoresExist;
-    _EKNotificationMonitor *_notificationMonitor;
-    struct os_unfair_lock_s _dataSourceLock;
-    id <CUIKOccurrenceCacheDataSourceProtocol> _occurrenceCacheDataSource;
-    id <CUIKOccurrenceCacheDataSourceProtocol> _occurrenceCacheFilteredDataSource;
-    struct os_unfair_lock_s _cachedFakeTodayIndexLock;
-    long long _cachedFakeTodayIndex;
-    NSMutableDictionary *_displayableAccountErrorCounts;
-    long long _initialAccountSyncCount;
-    struct os_unfair_lock_s _selectedDateLock;
-    EKCalendarDate *_selectedDate;
-    _Bool _suspendSelectedDateChanges;
-    EKCalendarDate *_suspendedSelectedDate;
-    CUIKCalendarModelSceneState *_persistedSceneState;
-    NSMutableArray *_selectedOccurrences;
-    NSDate *_lastKnownToday;
-    int _apHiddenNotificationToken;
-    int _apLockedNotificationToken;
-    NSString *_cachedHiddenAppsHash;
-    _Bool _autoStartNotificationMonitor;
-    NSSet *_selectedCalendars;
-    NSString *_searchString;
-    NSCalendar *_calendar;
-    CUIKPasteboardManager *_pasteboardManager;
-    CUIKUndoManager *_undoManager;
-    unsigned long long _firstVisibleSecond;
-    unsigned long long _selectedOccurrenceSelectionSource;
-    NSSet *_collapsedSectionIdentifiers;
-    EKSource *_sourceForSelectedIdentity;
-    NSArray *_sortedEnabledDelegates;
-    NSString *_sceneIdentifier;
-    CUIKIPendingReminderTracker *_pendingReminderTracker;
 }
 
-+ (void)ªáªôª@3;
-+ (void)ªáªçùýèª	Høô;
-+ (id)}ë;
-+ (id)ýÈý{Á¨ÿ#ÕÀ_Ö;
-+ (unsigned long long)\Ð`B;
-+ (unsigned long long);
-- (void)"
-;
-- (void)ªâªÃ;
-- (void)È<É<b­Ê<b­;
-- (id)ªàò	?×h@ù;
-- (id);
-- (void)Ë;
-- (id)"þàª¥;
-- (id)ªîc@
-;
-- (void)ø;
-- (_Bool)Pþÿð2ñÒ0ÁÚáªÐ;
-- (_Bool)7 ;
-- (void)¨2@ù	;
++ (void);
++ (void);
++ (id);
++ (id);
++ (unsigned long long);
++ (unsigned long long);
 - (void);
-- (void)6ÔÞA©àªáªôýâ;
-- (void)	Ó@ùô;
-- (void)u°;
-- (void)×¨Sø;
-- (void)Râªñªìò1	?×;
-- (void)ªñGÁÚë@;
-- (void);
-- (void)ªñÇåò0ÁÚ	"@ù(=;
-- (void)ò0ÁÚñªñGÁÚë@;
-- (void)àRáªâª_¹ö;
-- (void) Ñ«õý;
-- (void)¢C9`¢ÿþ;
-- (void)U¹
-;
-- (void)`¢iþ;
-- (void);
-- (void)áªôªg;
-- (void)á;
 - (void);
-- (void)ªÇ@;
-- (void)ôªÃ;
-- (void)ôª@;
-- (void)Ë?;
-- (void)¿CÑý{E©ôOD©öWC©ø_B©úgA©üoÆ¨ÿ_Ö#Õüoº©úg©ø_©öW©ôO©ý{©ýCÿCÑôªöªõ;
-- (void)ª;
-- (id)ªâªa¼ø;
+- (void);
 - (id);
-- (unsigned long long)c;
-- (id)ªìò1	?×;
-- (id)ªèª	Cøàª!;
-- (id)Ê<"­Æ< ;
 - (id);
-- (id)Ç<È<É<­Ê<­Æ<;
-- (void)0@ù
-?×é;
-- (void)ªñ	ªñÇåò0ÁÚ	"@ù(=;
-- (long long)c`,ä;
-- (long long)AøôªàªáªñªQuäò1	?×`;
-- (long long)Ñùý÷;
-- (_Bool)ªàò	?×h@ù;
-- (void)E©ôOD©÷[C©ùcB©ûkA©üFøÿ_ÖèË¨ø¸ø¨YøH¨øóª
-;
-- (_Bool)YøúªÖ¶øë;
-- (id);
-- (id)ª@;
-- (id)qÐÒ0ÁÚôªàªáªâªD;
-- (long long)ë#;
-- (id)ûkC©ü@ùÿÿ_Ö#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÑôªøªùªúªö;
+- (void)j;
+- (id);
+- (id);
 - (void);
-- (id)CÑ?ë ÷ÿT;
-- (id)C;
-- (id);
-- (id);
-- (id)ãªõªÚ;
-- (id);
-- (id)K)@©Jëëw
-;
-- (long long)àªp:(_Bool)arg1 ÿ;
-- (long long)ýã;
-- (long long);
-- (long long)ªàªáªâª{;
-- (long long)©:ÿª_z©÷ /* Error: Ran out of types for this method. */;
-- (id)C­;
-- (void)´#Ñàª±³[øt
-@ù;
-- (_Bool)ÿàª:(id)arg1 <ÿ;
-- (_Bool)±@;
-- (_Bool)øw@ù¨Tø%@ùH;
-- (id)ª;
-- (id)	ëâ;
-- (id);
-- (id)ëÃøÿTè'©ª¯9©qýã;
-- (void)À=à'= À=à+= ¡Ç<à£< À=à= 	À=à= À=à= À=à= À=à=@­A­B­C­!À=§Á­¥­£­¡;
-- (void)0ÁÚñªñGÁÚë@;
+- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id)ôªó;
-- (id)1;
-- (id)ö;
-- (id)ªáªw?×;
-- (void)qA;
-- (long long)øûk©ùc©÷[©ôO©ý{©ýCÿÑ W:(id)arg1 ©÷ªüª¢øôª;
-- (_Bool)áªâªãª4Êú;
-- (void)ªñ	ªñÇåò0ÁÚ	"@ù(=;
-- (void)Çåò0ÁÚñªñGÁÚë@;
-- (id)©ýC;
-- (id)À=à=é;
-- (id)ÌÍÿÿyÿÿ#ÕÿÑôO©ý{©ýÃ;
-- (_Bool)ÁÚë@;
-- (long long)?× ãÑ	þõª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Öñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (_Bool)ªâªñ	ªñÃîòQ	?×;
-- (id)þô;
-- (void)
-?×é;
-- (id)©ý;
-- (void);
-- (id)?øq;
-- (_Bool)_Ö`@9	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`9;
+- (void);
+- (void)�;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)©ý{©ýC;
-- (void){Á¨ÿ_Ö;
-- (_Bool)Àô;
-- (_Bool)qÝÒ0
-ÁÚàª8ÑÈuð;
-- (unsigned long long)(J@òè_;
-- (id)@mg@m%g@ eè `è` aàÀ_Ö(J@òè_;
-- (id)`@³;
-- (void)ª";
-- (void)àªßëà;
-- (void)hî@;
-- (long long)ª§Ë`;
 - (id);
-- (void)Rôª£;
-- (void);
-- (_Bool)ªñÇåò0ÁÚ	"@ù(=;
-- (void)­òðíÎòÎ­;
-- (_Bool)®¬¬òÎÀòüÒPR°®¬rÎ­;
-- (void)_Ö;
-- (_Bool);
-- (long long)Ñý{F©ôOE©÷[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
-- (void)àò	?×è@øàªáªñªàò	?×õª¿Ñý{F©ôOE©÷[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
-- (void)Rh;
-- (void)©ýC;
-- (void)üÒâªãª;
-- (void)üÒPR°®¬rÎ­;
-- (void)­;
-- (void)k;
-- (void)_;
-- (void)@ù
-?×é;
-- (id)ð	ªñ
-ªñÇåò0ÁÚ"@ùéªÑÚð10@ù
-?×é;
-- (void)ªñ
-ªñÇåò0ÁÚñªñGÁÚë@;
-- (void)ª´Ùáªàªý{F©ôOE©öWD©ÿÃÿ_Ö#Õë+½mé#mý{©ý;
-- (void)Á;
-- (void)AýÿT";
-- (void)Q;
-- (void)ë;
-- (void)ª÷ªø;
-- (id)	;
-- (unsigned long long)­;
-- (void)qÀüÒîMÒ.Ì­òî¬ÌòÀüÒ0¯Ò­òðíÎòÎ­?;
-- (void)òÎÀòüÒPR°®¬rÎ­?;
-- (id)#ÕôO¾©ý{©ýC;
-- (void)!@5©ýâ;
-- (void)Ö#ÕÿÃ;
-- (_Bool);
-- (id)?ü;
-- (id)ðRð#ÁÚäª	Þ#ÕÿÑôO©ý{©ýÃ;
-- (id)ªàª²Ýý{Á¨ÿ#ÕÀ_Ö÷ÿðÂð#ÁÚãªÝ÷ÿðRð#ÁÚäª	Þ#ÕÿÑôO©ý{©ýÃ;
-- (id)´;
-- (long long)àª;
-- (unsigned long long)ªàª);
+- (void);
+- (void);
+- (long long);
+- (long long)Q;
+- (long long);
+- (_Bool)׈A9	A;
+- (void);
+- (_Bool);
+- (id);
 - (id);
-- (id)£;
-- (_Bool)ªñÚ°10@ù
-?×è;
-- (_Bool)0@ù
-?×é;
-- (void)£Ñ(ø;
-- (_Bool)ø?;
-- (double);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
+- (void)T�;
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)iZ;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void)a;
+- (_Bool);
+- (void);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (double);
+- (void)library;
+- (id)rces/Photos/workspaces/cloudphotolibrary/Framework/Sources/NSObject+CPLCodingProxy.m;
+- (id)!;
 - (void);
 - (id);
 - (void);
@@ -255,57 +195,18 @@
 - (void);
 - (id);
 - (void);
+- (void)A@1I;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void)mmaryStringForEventDateWithOptions:withEvent:withWideSpacing:inTimeZone:useSmallCaps:dropZeroMinutes:font: /* Error: Ran out of types for this method. */;
+- (void)summaryStringForEventDateWithOptions:withEvent:withWideSpacing:inTimeZone:useSmallCaps:dropZeroMinutes:font: /* Error: Ran out of types for this method. */;
 - (void)ÿ /yABy4ø /GÁ /G_ó /tGGGÿæ /yâ /GG_Éý /Qo_SgG;
 - (id)a;
-- (void)eCategoryExtraLarge;
+- (void)CUIKContentSizeCategoryExtraLarge;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountsInInitialSyncCount;
-@property(nonatomic) _Bool allowEventLocationPrediction;
-@property(nonatomic) _Bool autoStartNotificationMonitor; // @synthesize autoStartNotificationMonitor=_autoStartNotificationMonitor;
-@property(copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(copy, nonatomic) NSSet *collapsedSectionIdentifiers; // @synthesize collapsedSectionIdentifiers=_collapsedSectionIdentifiers;
-@property(readonly, nonatomic) _Bool containsDelegateSources;
-@property(readonly, nonatomic) _Bool currentlyLocked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableFocusFiltering; // @synthesize disableFocusFiltering=_disableFocusFiltering;
 @property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(nonatomic) unsigned long long firstVisibleSecond; // @synthesize firstVisibleSecond=_firstVisibleSecond;
-@property(nonatomic) unsigned long long focusFilterMode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long numDaysToShow;
-@property(readonly, nonatomic) CUIKPasteboardManager *pasteboardManager; // @synthesize pasteboardManager=_pasteboardManager;
-@property(retain, nonatomic) CUIKIPendingReminderTracker *pendingReminderTracker; // @synthesize pendingReminderTracker=_pendingReminderTracker;
-@property(retain, nonatomic) NSArray *pointerTargetedOccurrences;
-@property(readonly, nonatomic) long long readWriteCalendarCount;
-@property(copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) NSSet *selectedCalendars; // @synthesize selectedCalendars=_selectedCalendars;
-@property(readonly, nonatomic) NSSet *selectedCalendarsIgnoringFocus;
-@property(copy, nonatomic) EKCalendarDate *selectedDate;
-@property(readonly, nonatomic) EKCalendarDate *selectedDay;
-@property(retain, nonatomic) EKEvent *selectedOccurrence;
-@property(nonatomic) unsigned long long selectedOccurrenceSelectionSource; // @synthesize selectedOccurrenceSelectionSource=_selectedOccurrenceSelectionSource;
-@property(copy, nonatomic) NSArray *selectedOccurrences;
-@property(nonatomic) _Bool showDayAsList;
-@property(nonatomic) _Bool showMonthAsDivided;
-@property(retain, nonatomic) NSArray *sortedEnabledDelegates; // @synthesize sortedEnabledDelegates=_sortedEnabledDelegates;
-@property(readonly, retain, nonatomic) EKSource *sourceForSelectedIdentity; // @synthesize sourceForSelectedIdentity=_sourceForSelectedIdentity;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CUIKUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property(copy, nonatomic) NSSet *unselectedCalendars;
-@property(readonly, nonatomic) NSSet *unselectedCalendarsForFocusMode;
-@property(readonly, nonatomic) NSSet *unselectedCalendarsIgnoringFocus;
 
 @end
 

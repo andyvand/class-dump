@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDRegionStateCorrectnessLogEvent
 {
     _Bool _firstAccessoryReachable;
-    _Bool _regionStateAtHome;
-    _Bool _regionStateNearByHome;
-    _Bool _regionStateUnknown;
-    _Bool _isStateCorrect;
 }
 
 + (id);
@@ -21,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)contactIdentifier;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -29,33 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool firstAccessoryReachable; // @synthesize firstAccessoryReachable=_firstAccessoryReachable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) _Bool isStateCorrect; // @synthesize isStateCorrect=_isStateCorrect;
-@property(readonly) _Bool regionStateAtHome; // @synthesize regionStateAtHome=_regionStateAtHome;
-@property(readonly) _Bool regionStateNearByHome; // @synthesize regionStateNearByHome=_regionStateNearByHome;
-@property(readonly) _Bool regionStateUnknown; // @synthesize regionStateUnknown=_regionStateUnknown;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,12 +5,15 @@
 //
 
 @protocol FMFXPCClientProtocol
+- (oneway void)%@);
+- (void);
+- (oneway void)s;
 - (oneway void)Ù1Â0@ù
 × ;
 - (oneway void)QÙ°1Â0@ù
 × ;
 - (oneway void);
-- (oneway void)rgeOverlayIcon;
+- (oneway void)largeOverlayIcon;
 - (oneway void)Ü;
 - (oneway void)on lookup. Missing serverId. %@;
 @end

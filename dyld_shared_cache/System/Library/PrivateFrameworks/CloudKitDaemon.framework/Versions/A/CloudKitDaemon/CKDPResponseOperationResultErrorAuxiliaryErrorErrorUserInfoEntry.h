@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPResponseOperationResultErrorAuxiliaryErrorErrorUserInfoValue, NSString;
+@class NSString;
 
 @interface CKDPResponseOperationResultErrorAuxiliaryErrorErrorUserInfoEntry
 {
     NSString *_key;
-    CKDPResponseOperationResultErrorAuxiliaryErrorErrorUserInfoValue *_value;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long))
+;
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)FiUsageLinkSession updateLinkRecoveryDisabled:] /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)yption: /* Error: Ran out of types for this method. */;
-- (void)nerScopedUserID;
+- (_Bool)setBypassPCSEncryption: /* Error: Ran out of types for this method. */;
+- (void)_fetchContainerScopedUserID;
 - (void)¤8
 ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) CKDPResponseOperationResultErrorAuxiliaryErrorErrorUserInfoValue *value; // @synthesize value=_value;
 
 @end
 

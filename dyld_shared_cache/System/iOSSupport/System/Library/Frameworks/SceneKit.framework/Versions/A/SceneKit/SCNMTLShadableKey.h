@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNMTLRenderPipeline;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLShadableKey
 {
     struct __C3DMaterial *_material;
-    struct __C3DGeometry *_geometry;
-    SCNMTLRenderPipeline *_pipeline;
 }
 
 - (unsigned long long);

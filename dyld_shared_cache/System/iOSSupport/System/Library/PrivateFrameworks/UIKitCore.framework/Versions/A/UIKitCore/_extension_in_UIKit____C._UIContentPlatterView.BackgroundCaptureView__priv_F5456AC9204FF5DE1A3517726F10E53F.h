@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)ce;
 - (id);
-- (id)tions;
+- (id)UICalendarAdditions;
 
 @end
 

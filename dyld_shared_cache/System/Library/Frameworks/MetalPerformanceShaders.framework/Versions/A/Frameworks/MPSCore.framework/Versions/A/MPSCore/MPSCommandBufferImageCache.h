@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MPSHeapProvider, MTLCommandBuffer;
+@protocol MTLCommandBuffer;
 
 @interface MPSCommandBufferImageCache
 {
     void *_device;
-    id <MTLCommandBuffer> _cmdBuffer;
-    long long _debugMode;
-    struct HeapNode *_freeList[65];
-    struct CacheFrame *_frameList;
-    struct ResourceNode *_retainedResources;
-    struct MPSAutoCache *_userCacheFrame;
-    unsigned long long _minimumBin;
-    unsigned long long _batchSize;
-    _Bool _needsRetain;
-    unsigned long long _totalAllocationBytes;
-    unsigned long long _cacheDelay;
-    struct atomic<long> _commandBufferCount;
-    id <MPSHeapProvider> _heapProvider;
-    _Bool _isMPSCommandBuffer;
 }
 
-- (id);
+- (id));
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSizeHint; // @synthesize batchSizeHint=_batchSize;
 @property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_cmdBuffer;
-@property(retain, nonatomic) id <MPSHeapProvider> heapProvider; // @synthesize heapProvider=_heapProvider;
 
 @end
 

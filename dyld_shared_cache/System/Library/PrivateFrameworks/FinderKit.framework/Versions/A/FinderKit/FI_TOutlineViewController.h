@@ -6,7 +6,7 @@
 
 #import <FinderKit/FI_IBaseTableViewController.h>
 
-@class FI_TOutlineViewDataSource, NSString;
+@class FI_TOutlineViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface FI_TOutlineViewController : FI_IBaseTableViewController
@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (void);
-- (void);
+- (void)@y;
 - (void);
 - (id);
 - (id);
@@ -26,13 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) FI_TOutlineViewDataSource *dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

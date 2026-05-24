@@ -5,6 +5,7 @@
 //
 
 @protocol CRKMarker
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool exists;

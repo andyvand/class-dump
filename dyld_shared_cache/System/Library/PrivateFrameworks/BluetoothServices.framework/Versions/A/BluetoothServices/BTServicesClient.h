@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
+@class NSXPCListenerEndpoint;
 
 @interface BTServicesClient
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSXPCListenerEndpoint *_testListenerEndpoint;
 }
 
-- (void);
-- (_Bool);
+- (void)writeToFileURL:(id)arg1 overwriting:(CDUnknownBlockType)arg2 error: /* Error: Ran out of types for this method. */;
+- (_Bool)wfSerializedRepresentationWithPrivateItemIdentifiers;
 - (void);
 - (id);
 - (id);
@@ -34,13 +27,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void)bluetoothAddress;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(retain, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVOfflineMediaStreamInfo
 {
     NSString *_mediaType;
-    NSArray *_segments;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end
 

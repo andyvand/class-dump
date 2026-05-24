@@ -6,12 +6,11 @@
 
 #import <Slideshows/MCAction.h>
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MCAnimationTrigger : MCAction
 {
     NSMutableDictionary *_animationAttributes;
-    NSString *_animationKey;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *animationAttributes; // @synthesize animationAttributes=_animationAttributes;
 @property(copy) NSString *animationKey; // @synthesize animationKey=_animationKey;
 
 @end

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface AFVoiceInfo
 {
     _Bool _isCustom;
-    _Bool _wasInitializedFromDictionaryRepresentation;
-    NSString *_languageCode;
-    long long _gender;
-    long long _footprint;
-    NSString *_name;
-    NSNumber *_contentVersion;
-    NSString *_masteredVersion;
 }
 
 - (_Bool);
@@ -24,14 +15,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)3;
 - (id);
 - (id);
 - (unsigned long long);
@@ -40,23 +31,16 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id);
 - (id);
 - (id);
 - (void);
 - (long long)textOfUtteranceAtIndex: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)_donateToTipsWithIdentifier:bundleID:context:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(readonly, nonatomic) long long footprint; // @synthesize footprint=_footprint;
 @property(nonatomic) long long gender; // @synthesize gender=_gender;
-@property(nonatomic) _Bool isCustom; // @synthesize isCustom=_isCustom;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSString *masteredVersion; // @synthesize masteredVersion=_masteredVersion;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool wasInitializedFromDictionaryRepresentation; // @synthesize wasInitializedFromDictionaryRepresentation=_wasInitializedFromDictionaryRepresentation;
 
 @end
 

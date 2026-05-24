@@ -4,58 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBNotificationEntity
 {
     int _notificationType;
-    int _paidBundleSubscriptionStatus;
-    int _subscriberType;
-    NSMutableArray *_tagIds;
-    struct {
-        unsigned int notificationType:1;
-        unsigned int paidBundleSubscriptionStatus:1;
-        unsigned int subscriberType:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)rootLayout:presentedGeometries:styles:infos: /* Error: Ran out of types for this method. */;
+- (unsigned long long)feedSectionLayoutAxis;
+- (id)feedSectionInfosManager:sectionInfosDidChange: /* Error: Ran out of types for this method. */;
+- (id)feedSectionInfosManager:(unsigned long long)arg1 sectionInfosDidChange: /* Error: Ran out of types for this method. */;
+- (int)favoritesSettings:loadAccessorySettingsWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)enumerateSelectedAssetIndexSetsUsingBlock:(id)arg1;
+- (void)enumerateElementsUsingBlock:(int)arg1;
+- (void)effectivePositionIndex;
+- (void)defaultStoryActionsMenuWithViewModel:(_Bool)arg1;
+- (void)dataSectionObjectForTransformedObject:(_Bool)arg1;
+- (void)customizedRuleWithStartDate:(_Bool)arg1 personUUIDs: /* Error: Ran out of types for this method. */;
+- (int)clipAlphaForTime: /* Error: Ran out of types for this method. */;
+- (_Bool)buttonWithTitle:target:action: /* Error: Ran out of types for this method. */;
+- (_Bool)awakeFromNib;
+- (void)addPreloadingController:withPriority: /* Error: Ran out of types for this method. */;
+- (void)accessoryTitle;
+- (_Bool)_vfxAssembleAnimatingGradientUseAlternativeGradient;
+- (void);
+- (int);
+- (id);
+- (void)P;
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)ting Timeout;
 - (_Bool);
 - (id);
 - (id);
-- (void)pleAlsoRead: /* Error: Ran out of types for this method. */;
+- (void)setHasEnablePeopleAlsoRead: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasNotificationType;
-@property(nonatomic) _Bool hasPaidBundleSubscriptionStatus;
-@property(nonatomic) _Bool hasSubscriberType;
-@property(nonatomic) int notificationType; // @synthesize notificationType=_notificationType;
-@property(nonatomic) int paidBundleSubscriptionStatus; // @synthesize paidBundleSubscriptionStatus=_paidBundleSubscriptionStatus;
-@property(nonatomic) int subscriberType; // @synthesize subscriberType=_subscriberType;
-@property(retain, nonatomic) NSMutableArray *tagIds; // @synthesize tagIds=_tagIds;
 
 @end
 

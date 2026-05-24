@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (long long);
-- (_Bool)teningForTruncation;
+- (long long);
+- (_Bool)allowsDefaultTighteningForTruncation;
 - (void)Ô&ÿ m;
 
 // Remaining properties

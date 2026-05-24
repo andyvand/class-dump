@@ -7,12 +7,9 @@
 @class NSURL;
 
 @protocol MKPlaceActionDataProviding
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canShowCallAction;
-@property(readonly, nonatomic) _Bool isInSupportedCustomRouteRegion;
-@property(readonly, nonatomic) NSURL *messagesForBusinessURL;
-@property(readonly, nonatomic) _Bool supportsAddingPhotos;
 @property(readonly, nonatomic) _Bool supportsMessagesForBusiness;
 @end
 

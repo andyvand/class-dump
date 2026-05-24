@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _INPBPrivateMediaItemValueData
 {
     struct {
@@ -15,32 +13,16 @@
         unsigned int isHardBan:1;
         unsigned int requiresSubscription:1;
     } _has;
-    _Bool _isAvailable;
-    _Bool _isHardBan;
-    _Bool _requiresSubscription;
-    int _ampConfidenceLevel;
-    float _ampConfidenceScore;
-    NSString *_assetInfo;
-    NSString *_bundleId;
-    NSArray *_internalSignals;
-    NSArray *_mediaSubItems;
-    NSData *_pegasusMetaData;
-    NSString *_provider;
-    NSString *_providerAppName;
-    NSString *_punchoutURI;
-    NSString *_recommendationId;
-    NSString *_sharedUserIdFromPlayableMusicAccount;
-    NSString *_universalResourceLink;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -76,10 +58,10 @@
 - (id);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (int);
 - (id);
@@ -99,53 +81,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void)playString;
-- (_Bool)tadataCustomUTIs;
-- (void)edByApp;
+- (id)`;
+- (_Bool);
+- (void)displayString;
+- (_Bool)__INCodableFileAttributeMetadataCustomUTIs;
+- (void)INStartCallIntentResponseCodeFailureContactNotSupportedByApp;
 - (void)eralStore:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int ampConfidenceLevel; // @synthesize ampConfidenceLevel=_ampConfidenceLevel;
-@property(nonatomic) float ampConfidenceScore; // @synthesize ampConfidenceScore=_ampConfidenceScore;
-@property(copy, nonatomic) NSString *assetInfo; // @synthesize assetInfo=_assetInfo;
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAmpConfidenceLevel;
-@property(nonatomic) _Bool hasAmpConfidenceScore;
-@property(readonly, nonatomic) _Bool hasAssetInfo;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasIsAvailable;
-@property(nonatomic) _Bool hasIsHardBan;
-@property(readonly, nonatomic) _Bool hasPegasusMetaData;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasProviderAppName;
-@property(readonly, nonatomic) _Bool hasPunchoutURI;
-@property(readonly, nonatomic) _Bool hasRecommendationId;
-@property(nonatomic) _Bool hasRequiresSubscription;
-@property(readonly, nonatomic) _Bool hasSharedUserIdFromPlayableMusicAccount;
-@property(readonly, nonatomic) _Bool hasUniversalResourceLink;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, nonatomic) unsigned long long internalSignalsCount;
-@property(nonatomic) _Bool isAvailable; // @synthesize isAvailable=_isAvailable;
-@property(nonatomic) _Bool isHardBan; // @synthesize isHardBan=_isHardBan;
-@property(copy, nonatomic) NSArray *mediaSubItems; // @synthesize mediaSubItems=_mediaSubItems;
-@property(readonly, nonatomic) unsigned long long mediaSubItemsCount;
-@property(copy, nonatomic) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(copy, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(copy, nonatomic) NSString *providerAppName; // @synthesize providerAppName=_providerAppName;
-@property(copy, nonatomic) NSString *punchoutURI; // @synthesize punchoutURI=_punchoutURI;
-@property(copy, nonatomic) NSString *recommendationId; // @synthesize recommendationId=_recommendationId;
-@property(nonatomic) _Bool requiresSubscription; // @synthesize requiresSubscription=_requiresSubscription;
-@property(copy, nonatomic) NSString *sharedUserIdFromPlayableMusicAccount; // @synthesize sharedUserIdFromPlayableMusicAccount=_sharedUserIdFromPlayableMusicAccount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalResourceLink; // @synthesize universalResourceLink=_universalResourceLink;
 
 @end
 

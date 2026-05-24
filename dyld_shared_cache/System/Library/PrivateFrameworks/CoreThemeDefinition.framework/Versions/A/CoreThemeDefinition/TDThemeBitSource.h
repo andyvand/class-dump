@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface TDThemeBitSource
 {
 }
 
 - (id);
-- (id);
+- (id)__AUTH_CONST;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *assets; // @dynamic assets;
 @property(retain, nonatomic) NSString *path; // @dynamic path;
 
 @end

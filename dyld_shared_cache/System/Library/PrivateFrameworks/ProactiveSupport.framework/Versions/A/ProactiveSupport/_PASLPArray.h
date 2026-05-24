@@ -6,18 +6,15 @@
 
 #import <ProactiveSupport/_PASLazyArrayBase.h>
 
-@class NSData, _PASLPArrayContext;
 @protocol _PASLPReaderProtocol;
 
 @interface _PASLPArray : _PASLazyArrayBase
 {
     id <_PASLPReaderProtocol> _reader;
-    _PASLPArrayContext *_context;
-    NSData *_objects;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,7 +23,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)setX_apple_creator_team_identity: /* Error: Ran out of types for this method. */;
 
 @end
 

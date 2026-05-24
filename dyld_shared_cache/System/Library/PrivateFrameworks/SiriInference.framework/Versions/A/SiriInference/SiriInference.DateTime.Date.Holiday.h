@@ -7,13 +7,6 @@
 @interface SiriInference.DateTime.Date.Holiday
 {
     id id;
-    id name;
-    id calendarSystem;
-    id frequency;
-    id observanceType;
-    id dateType;
-    id associatedReligion;
-    id emotion;
 }
 
 @end

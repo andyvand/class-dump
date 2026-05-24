@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAccount, NSMenu, NSPopUpButton, NSWindow;
+@class NSWindow;
 
 @interface SOAccountValidationSheetController
 {
     NSWindow *_window;
-    NSMenu *_regionsMenu;
-    NSPopUpButton *_locationsPopup;
-    IMAccount *_account;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -34,10 +30,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak IMAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) NSPopUpButton *locationsPopup; // @synthesize locationsPopup=_locationsPopup;
-@property(retain, nonatomic) NSMenu *regionsMenu; // @synthesize regionsMenu=_regionsMenu;
 @property(retain, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end

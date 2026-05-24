@@ -9,7 +9,6 @@
 @interface ChatKit.TapbackPickerGradientView__priv_F9B6E841E8DE6EE361333F7360F8ABF3 : CKGradientView
 {
     id selectionColor;
-    id isSelected;
 }
 
 - (id);

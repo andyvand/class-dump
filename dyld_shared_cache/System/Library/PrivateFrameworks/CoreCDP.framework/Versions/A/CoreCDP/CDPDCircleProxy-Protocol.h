@@ -4,9 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext;
+@class CDPContext, NSString, OTClique;
 
 @protocol CDPDCircleProxy
+- (_Bool)ation:(id *)arg1 mailMessage:shadowExtraction:mlDefaultExtraction: /* Error: Ran out of types for this method. */;
+- (void)hh8;
+- (_Bool);
+- (_Bool)!;
+- (OTClique *);
+- (NSString *)ӆ;
+- (unsigned long long)me range Min or Max value missing in AVCaptureSession.plist for %@ capture;
+- (_Bool);
+- (_Bool)FactorOut: /* Error: Ran out of types for this method. */;
+
+@optional
+- (_Bool);
+- (_Bool)7I;
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *cdpContext;

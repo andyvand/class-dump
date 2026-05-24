@@ -9,18 +9,16 @@
 @interface MPFilterInternal
 {
     NSString *filterID;
-    NSString *presetID;
 }
 
-- (void);
-- (void);
+- (void)tTypeConfig *__strong _Nonnull);
+- (void)ntentTypes fc_containsObjectPassingTest:(id)arg1 ^BOOL(NSNumber *contentType) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *filterID; // @synthesize filterID;
-@property(retain, nonatomic) NSString *presetID; // @synthesize presetID;
 
 @end
 

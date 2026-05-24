@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineGridItemModelFactory
 {
     id paidAccessChecker;
-    id subscriptionService;
-    id offlineIssueManager;
 }
 
 @end

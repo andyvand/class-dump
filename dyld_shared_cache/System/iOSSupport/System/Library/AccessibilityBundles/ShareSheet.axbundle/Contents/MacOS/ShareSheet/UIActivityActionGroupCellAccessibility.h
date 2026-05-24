@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)worldtracking.fixedIntrinsics;
 + (void);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)selectAll: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

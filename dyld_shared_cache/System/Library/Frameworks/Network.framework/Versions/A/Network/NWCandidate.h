@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWConcrete_nw_candidate_manager;
-@protocol OS_nw_interface_option_details, OS_nw_path, OS_nw_path_evaluator;
+@class NWConcrete_nw_candidate_manager;
 
 __attribute__((visibility("hidden")))
 @interface NWCandidate
 {
     NWConcrete_nw_candidate_manager *manager;
-    NSObject<OS_nw_interface_option_details> *details;
-    NSObject<OS_nw_path_evaluator> *evaluator;
-    NSObject<OS_nw_path> *current_path;
-    unsigned int original:1;
-    unsigned int ids:1;
-    unsigned int evaluating:1;
-    unsigned int submitted:1;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)age;
 - (id);
 - (id);
 - (_Bool)stopping preparing frames;

@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSGeoServiceThread, NSObject, NSString;
-@protocol CLSQueryProtocol, OS_dispatch_queue, OS_dispatch_source;
+@protocol CLSQueryProtocol;
 
 @interface CLSGeoMapQueryHelper
 {
     _Bool _simulatesTimeout;
-    _Bool _alreadyLaunched;
-    _Bool _didFinishQuery;
-    id <CLSQueryProtocol> _query;
-    CDUnknownBlockType _cancellerBlock;
-    CDUnknownBlockType _completionBlock;
-    CLSGeoServiceThread *_geoServiceThread;
-    double _timeoutInterval;
-    unsigned long long _numberOfRetries;
-    double _internalProgressTimeInterval;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    unsigned long long _retryLevel;
-    double _nextRetryTime;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +36,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -59,30 +45,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (double);
+- (double)setCategories: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alreadyLaunched; // @synthesize alreadyLaunched=_alreadyLaunched;
-@property(readonly, copy, nonatomic) CDUnknownBlockType cancellerBlock; // @synthesize cancellerBlock=_cancellerBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didFinishQuery; // @synthesize didFinishQuery=_didFinishQuery;
-@property(retain, nonatomic) CLSGeoServiceThread *geoServiceThread; // @synthesize geoServiceThread=_geoServiceThread;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double internalProgressTimeInterval; // @synthesize internalProgressTimeInterval=_internalProgressTimeInterval;
-@property(nonatomic) double nextRetryTime; // @synthesize nextRetryTime=_nextRetryTime;
-@property(readonly, nonatomic) unsigned long long numberOfRetries; // @synthesize numberOfRetries=_numberOfRetries;
 @property(readonly, nonatomic) id <CLSQueryProtocol> query; // @synthesize query=_query;
-@property(nonatomic) unsigned long long retryLevel; // @synthesize retryLevel=_retryLevel;
-@property(nonatomic, getter=isSimulatingTimeout) _Bool simulatesTimeout; // @synthesize simulatesTimeout=_simulatesTimeout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *timerQueue; // @synthesize timerQueue=_timerQueue;
 
 @end
 

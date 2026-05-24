@@ -7,6 +7,7 @@
 @class HMFSoftwareVersion;
 
 @protocol HMFSystemInfoSoftwareVersionDataSource
+- (HMFSoftwareVersion *)B		(	;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMFSoftwareVersion *softwareVersion;

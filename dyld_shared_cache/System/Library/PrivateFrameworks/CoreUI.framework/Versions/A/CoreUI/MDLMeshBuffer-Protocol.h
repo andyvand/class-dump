@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MDLMeshBufferMap;
 @protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
 
 @protocol MDLMeshBuffer
+- (MDLMeshBufferMap *)e to be shared;
 - (id <MDLMeshBufferAllocator>)e:' /* Error: Ran out of types for this method. */;
 - (id <MDLMeshBufferZone>)ure 5 Blue;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator;
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferZone> zone;
 @end
 

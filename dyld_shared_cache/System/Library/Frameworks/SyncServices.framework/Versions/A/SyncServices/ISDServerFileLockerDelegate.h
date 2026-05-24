@@ -10,7 +10,7 @@
 
 + (id);
 - (int);
-- (void);
+- (void)JSGlobalObject *, CallFrame *);
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableSet, NSSet;
 
 @interface MRTouchSet
 {
     NSMutableSet *_touches;
-    NSMutableDictionary *_touchesForNSTouches;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)autorelease;
+- (id)_schedulingAndForegroundUploadThrottler;
+- (id)_handleDroppedEnvelopesForLocalReasons:(id)arg1;
+- (unsigned long long)der.swift;
+- (void)Scheduler URLSession:task:didCompleteWithError:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -32,11 +31,6 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) struct CGPoint centroid;
-@property(readonly) unsigned long long countOfActiveTouches;
-@property(readonly) _Bool isActive;
-@property(readonly) double rotation;
-@property(readonly) double scale;
 @property(readonly) NSSet *touches; // @synthesize touches=_touches;
 
 @end

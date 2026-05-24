@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitAccessory, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface BiometricKitIdentity
 {
     unsigned int _userID;
-    int _type;
-    int _attribute;
-    int _entity;
-    unsigned int _flags;
-    NSUUID *_uuid;
-    NSString *_name;
-    NSDate *_creationTime;
-    long long _matchCount;
-    long long _matchCountContinuous;
-    long long _updateCount;
-    BiometricKitAccessory *_accessory;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)h ;
 - (void);
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)pand;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)setStaticLexicon: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (_Bool);
@@ -49,27 +38,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
-- (void);
-- (id);
+- (void)can since splatUpdatesHiddenByManagedSetting is set;
+- (id)logout apply:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) BiometricKitAccessory *accessory; // @synthesize accessory=_accessory;
-@property(nonatomic) int attribute; // @synthesize attribute=_attribute;
-@property(retain, nonatomic) NSDate *creationTime; // @synthesize creationTime=_creationTime;
-@property(nonatomic) int entity; // @synthesize entity=_entity;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) long long matchCount; // @synthesize matchCount=_matchCount;
-@property(nonatomic) long long matchCountContinuous; // @synthesize matchCountContinuous=_matchCountContinuous;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) long long updateCount; // @synthesize updateCount=_updateCount;
-@property(nonatomic) unsigned int userID; // @synthesize userID=_userID;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

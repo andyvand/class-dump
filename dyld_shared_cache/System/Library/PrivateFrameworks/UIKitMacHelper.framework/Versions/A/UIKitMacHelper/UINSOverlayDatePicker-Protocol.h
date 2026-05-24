@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSLocale, NSTimeZone;
+@class NSCalendar, NSDate, NSTimeZone;
 @protocol UINSOverlayDatePickerDelegate;
 
 @protocol UINSOverlayDatePicker
+- (NSDate *)e.PhotoBooth;
+- (void)STORE_HASH = true, USE_ACTIVITY_JOURNAL = false];
+- (NSDate *)setDomainIDs: /* Error: Ran out of types for this method. */;
 - (void)paratorTrackingAdapter>",&,V_primarySplitViewItemSeparatorTrackingAdapter;
-- (NSCalendar *)eController;
+- (NSCalendar *)GCEnableKeyboardMouseController;
 - (NSTimeZone *)Enqueued BG batch start.;
 
 // Remaining properties
-@property(retain, nonatomic) NSCalendar *calendar;
-@property(copy, nonatomic) NSDate *dateValue;
 @property(nonatomic) __weak id <UINSOverlayDatePickerDelegate> delegate;
-@property(retain, nonatomic) NSLocale *locale;
-@property(copy, nonatomic) NSDate *maxDate;
-@property(copy, nonatomic) NSDate *minDate;
-@property(copy, nonatomic) NSTimeZone *timeZone;
 @end
 

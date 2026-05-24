@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyValueContainerClass, NSString;
+@class NSKeyValueContainerClass;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueProperty
 {
     NSKeyValueContainerClass *_containerClass;
-    NSString *_keyPath;
 }
 
 - (id);

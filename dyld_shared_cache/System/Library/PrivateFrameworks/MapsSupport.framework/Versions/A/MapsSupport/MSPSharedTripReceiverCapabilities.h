@@ -10,24 +10,23 @@ __attribute__((visibility("hidden")))
 @interface MSPSharedTripReceiverCapabilities
 {
     NSSet *_supportedProperties;
-    NSSet *_unsupportedProperties;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id)l;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -36,8 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsRoutingPathLeg;
-@property(readonly, nonatomic) _Bool supportsWGS84ElevationModel;
-@property(readonly, nonatomic) _Bool supportsWaypointRouteSharing;
 
 @end
 

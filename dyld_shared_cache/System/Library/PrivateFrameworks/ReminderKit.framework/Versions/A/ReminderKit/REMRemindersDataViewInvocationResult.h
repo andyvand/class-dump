@@ -11,9 +11,6 @@
 @interface REMRemindersDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_accountStorages;
-    NSArray *_listStorages;
-    NSArray *_reminderStorages;
-    NSArray *_objectIDs;
 }
 
 + (_Bool);
@@ -22,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (_Bool);
 - (void);
 - (id);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accountStorages; // @synthesize accountStorages=_accountStorages;
-@property(readonly, nonatomic) NSArray *listStorages; // @synthesize listStorages=_listStorages;
-@property(readonly, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
-@property(readonly, nonatomic) NSArray *reminderStorages; // @synthesize reminderStorages=_reminderStorages;
 
 @end
 

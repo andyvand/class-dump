@@ -8,12 +8,11 @@
 @protocol MTLTexture;
 
 @protocol NSHMDMetalSessionDrawable
-- (id <MTLTexture>)RLThumbnailDictionaryItem;
+- (void);
+- (NSHMDMetalSession *)/#;
+- (id <MTLTexture>)NNSURLThumbnailDictionaryItem;
 
 // Remaining properties
-@property unsigned long long debugSignpost;
-@property double inputTimeStamp;
 @property(readonly) NSHMDMetalSession *session;
-@property(readonly) id <MTLTexture> texture;
 @end
 

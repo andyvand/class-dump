@@ -6,21 +6,20 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSMutableArray;
+@class NSMutableArray;
 
 @interface MREffectMapZoom : MREffect
 {
     NSMutableArray *mTileProviders;
-    MRImageProvider *mGradientProvider;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ayloadsWithEntries:(double)arg1 lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void)OfTilesX;
+- (void)mNumberOfTilesX;
 
 @end
 

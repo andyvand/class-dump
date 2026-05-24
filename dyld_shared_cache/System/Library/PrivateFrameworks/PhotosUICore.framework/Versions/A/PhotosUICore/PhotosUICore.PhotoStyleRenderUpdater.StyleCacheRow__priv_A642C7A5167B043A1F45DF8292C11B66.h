@@ -7,12 +7,6 @@
 @interface PhotosUICore.PhotoStyleRenderUpdater.StyleCacheRow__priv_A642C7A5167B043A1F45DF8292C11B66
 {
     id style;
-    id compositionController;
-    id cacheEntries;
-    id renderRequest;
-    id changeObservation;
-    id cacheUpdateTask;
-    id _testAllowCacheUpdatesAfterRenderFailure;
 }
 
 @end

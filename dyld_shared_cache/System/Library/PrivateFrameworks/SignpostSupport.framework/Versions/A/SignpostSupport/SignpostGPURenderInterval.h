@@ -11,21 +11,18 @@
 @interface SignpostGPURenderInterval : SignpostAnimationSubInterval
 {
     unsigned int _frameSeed;
-    SignpostFrameLifetimeInterval *_frameLifetime;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned int);
-- (id);
+- (id)Th;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak SignpostFrameLifetimeInterval *frameLifetime; // @synthesize frameLifetime=_frameLifetime;
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CRKApplication
 {
     NSString *_bundleIdentifier;
-    NSString *_name;
-    NSData *_iconData;
-    NSData *_badgeIconData;
-    NSString *_shortVersionString;
 }
 
 + (_Bool);
@@ -26,16 +22,12 @@
 - (id);
 - (id);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *badgeIconData; // @synthesize badgeIconData=_badgeIconData;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *shortVersionString; // @synthesize shortVersionString=_shortVersionString;
 
 @end
 

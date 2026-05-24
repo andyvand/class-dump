@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSData, NSString;
+@class GEOPDMapsIdentifier;
 
 @interface GEOMapItemIdentifier
 {
     GEOPDMapsIdentifier *_mapsIdentifier;
-    NSString *_mapsIdentifierString;
 }
 
-+ (id);
++ (id)British Virgin Islands;
 + (_Bool)failed:coordinates.pathsCount == geoWaypointRoute.routeLegsCount /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
@@ -24,16 +23,16 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)since an accessible threshold is set;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)GLKTextureInfoOriginBottomLeft;
 - (id);
-- (_Bool);
+- (_Bool)hasCenterSpan;
 - (id);
 - (_Bool);
 - (id);
@@ -42,19 +41,13 @@
 - (CDStruct_c3b9c2ee)1Â0@ù
 × ;
 - (_Bool)_ptr<geo::MapEdge>=^{MapEdge}^{__shared_weak_count}}24 /* Error: Ran out of types for this method. */;
-- (id)kResource:(struct _NSZone *)arg1 at:log:error: /* Error: Ran out of types for this method. */;
+- (id)unpackResource:(struct _NSZone *)arg1 at:log:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)é;
 - (void)\¬`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *comparableRepresentation;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, nonatomic, getter=hasCoordinate) _Bool hasCoordinate;
-@property(readonly, nonatomic) _Bool hasMapsIdentifierString;
-@property(readonly, nonatomic) NSString *mapsIdentifierString;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) int resultProviderID;
 
 @end
 

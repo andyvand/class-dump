@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)mentQueue:shouldAddStorePayment:forProduct: /* Error: Ran out of types for this method. */;
-- (void)efaultScoringConfig;
+- (id)paymentQueue:shouldAddStorePayment:forProduct: /* Error: Ran out of types for this method. */;
+- (void)defaultScoringConfig;
 
 // Remaining properties
 @property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController; // @synthesize privateChannelMembershipController=_privateChannelMembershipController;

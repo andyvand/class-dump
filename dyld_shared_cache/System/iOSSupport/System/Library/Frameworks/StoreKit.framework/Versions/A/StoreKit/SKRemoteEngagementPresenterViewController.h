@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SKRemoteEngagementRemoteViewController;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, SKEngagementPresenterProtocol;
+@class SKRemoteEngagementRemoteViewController;
+@protocol SKEngagementPresenterProtocol;
 
 __attribute__((visibility("hidden")))
 @interface SKRemoteEngagementPresenterViewController
 {
     id <SKEngagementPresenterProtocol> _delegate;
-    SKRemoteEngagementRemoteViewController *_remoteViewController;
-    NSObject<OS_dispatch_queue> *_engagementPresentationQueue;
-    NSObject<OS_dispatch_semaphore> *_remoteViewControllerSemaphore;
 }
 
-- (id);
+- (id)e.swift;
 - (id);
 - (void);
 - (void);
@@ -30,17 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SKEngagementPresenterProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSObject<OS_dispatch_queue> *engagementPresentationQueue; // @synthesize engagementPresentationQueue=_engagementPresentationQueue;
-@property(readonly) unsigned long long hash;
 @property(retain) SKRemoteEngagementRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) NSObject<OS_dispatch_semaphore> *remoteViewControllerSemaphore; // @synthesize remoteViewControllerSemaphore=_remoteViewControllerSemaphore;
-@property(readonly) Class superclass;
 
 @end
 

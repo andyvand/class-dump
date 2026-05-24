@@ -7,12 +7,10 @@
 @interface PhotosUICore.GenerativeStoryCloudChamberView
 {
     id emitterCell;
-    id configuration;
-    id appliedSpriteHash;
 }
 
 - (id);
-- (id)argetPerson;
+- (id)targetPerson;
 - (void)ainViewUnreadSharedAlbumsActivityNotifications;
 - (void);
 

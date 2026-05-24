@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface MPSKernelDAGObject
 {
     void *_kernelDAG;
-    struct shared_ptr<MPSKernelDAG> _kernelDAGSharedPtr;
-    void *_finalOp;
-    NSMutableDictionary *_stitchedFunctions;
-    NSMutableDictionary *_functions;
-    NSMutableArray *_functionNames;
-    _Bool _keepSubDAGArray[12];
-    vector_9c509c4c _dynamicFCs;
-    id _sha256;
 }
 
 - (void);
@@ -27,20 +17,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (vector_9c509c4c);
+- (vector_0bf97ae3);
 - (void *);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (void *);
 
 // Remaining properties
-@property(nonatomic) vector_9c509c4c dynamicFCs; // @synthesize dynamicFCs=_dynamicFCs;
 @property(readonly, nonatomic) void *finalOp; // @synthesize finalOp=_finalOp;
-@property(readonly, nonatomic) void *graph; // @synthesize graph=_kernelDAG;
-@property(readonly, nonatomic) id hash; // @synthesize hash=_sha256;
 
 @end
 

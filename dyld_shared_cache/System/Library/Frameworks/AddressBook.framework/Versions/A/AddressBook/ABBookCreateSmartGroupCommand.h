@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroupEntriesList, ABSearchElement, NSString;
+@class ABSearchElement, NSString;
 
 @interface ABBookCreateSmartGroupCommand
 {
     ABSearchElement *_searchElement;
-    _Bool _tracksModification;
-    ABAddressBook *_addressBook;
-    ABGroupEntriesList *_groupEntriesList;
-    ABAccount *_account;
-    NSString *_smartGroupUid;
-    NSString *_name;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
@@ -25,10 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ICAWebKitViewControllerDelegate;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 

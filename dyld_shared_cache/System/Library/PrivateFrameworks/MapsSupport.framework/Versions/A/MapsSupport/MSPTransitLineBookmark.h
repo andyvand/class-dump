@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPTransitStorageLine, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitLineBookmark
 {
     PBUnknownFields *_unknownFields;
-    MSPTransitStorageLine *_transitLineStorage;
 }
 
 - (_Bool);
@@ -23,14 +22,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTransitLineStorage;
-@property(retain, nonatomic) MSPTransitStorageLine *transitLineStorage; // @synthesize transitLineStorage=_transitLineStorage;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

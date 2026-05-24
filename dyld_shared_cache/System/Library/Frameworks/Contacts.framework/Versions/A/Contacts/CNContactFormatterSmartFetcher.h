@@ -6,22 +6,17 @@
 
 #import <Contacts/CNSmartPropertyFetcher.h>
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface CNContactFormatterSmartFetcher : CNSmartPropertyFetcher
 {
     _Bool _ignoresNickname;
-    _Bool _ignoresOrganization;
-    NSSet *_mandatoryNameProperties;
-    NSDictionary *_fallBackNamePropertyByNameKey;
 }
 
-+ (_Bool);
++ (_Bool)0#;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)machine is null;
 - (_Bool);
 - (void);
 - (id);
@@ -32,11 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)r"16;
-- (id)inersByParentContainerIdentifier;
+- (id)addedAccountContainersByParentContainerIdentifier;
 
 // Remaining properties
 @property(nonatomic) _Bool ignoresNickname; // @synthesize ignoresNickname=_ignoresNickname;
-@property(nonatomic) _Bool ignoresOrganization; // @synthesize ignoresOrganization=_ignoresOrganization;
 
 @end
 

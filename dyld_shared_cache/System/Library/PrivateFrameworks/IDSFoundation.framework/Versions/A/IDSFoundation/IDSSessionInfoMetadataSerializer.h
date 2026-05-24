@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);

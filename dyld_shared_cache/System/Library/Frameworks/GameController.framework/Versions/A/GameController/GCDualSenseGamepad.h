@@ -6,33 +6,27 @@
 
 #import <GameController/GCExtendedGamepad.h>
 
-@class GCControllerButtonInput, GCControllerDirectionPad, GCDualSenseAdaptiveTrigger;
+@class GCControllerButtonInput;
 
 @interface GCDualSenseGamepad : GCExtendedGamepad
 {
     GCControllerButtonInput *_touchpadButton;
-    GCControllerDirectionPad *_touchpadPrimary;
-    GCControllerDirectionPad *_touchpadSecondary;
 }
 
 + (_Bool);
-- (id);
+- (id)3;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithFPItem:(id)arg1 automaticallyGenerated: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCDualSenseAdaptiveTrigger *leftTrigger; // @dynamic leftTrigger;
-@property(readonly, nonatomic) GCDualSenseAdaptiveTrigger *rightTrigger; // @dynamic rightTrigger;
 @property(readonly, nonatomic) GCControllerButtonInput *touchpadButton; // @synthesize touchpadButton=_touchpadButton;
-@property(readonly, nonatomic) GCControllerDirectionPad *touchpadPrimary; // @synthesize touchpadPrimary=_touchpadPrimary;
-@property(readonly, nonatomic) GCControllerDirectionPad *touchpadSecondary; // @synthesize touchpadSecondary=_touchpadSecondary;
 
 @end
 

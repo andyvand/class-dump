@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImageSpaceQuad, CRNormalizedQuad, NSUUID;
+@class CRNormalizedQuad;
 
 @protocol CRTrackingAssociatable
+- (void);
+- (CDStruct_c27faaab);
+- (void)_updateWebExtensionBackgroundPagesMenuMenuItems;
+- (CRNormalizedQuad *)_updateLockPrivateBrowsingPreference;
+- (void)rovider"16;
 
 // Remaining properties
-@property(retain) CRNormalizedQuad *boundingQuad;
-@property(retain) CRImageSpaceQuad *boundingQuadAfterOCR;
-@property(retain) CRNormalizedQuad *boundingQuadAtOCRDispatch;
-@property CDStruct_1fe29af2 boundingQuadHomography;
-@property(readonly) CDStruct_1fe29af2 boundingQuadHomographySinceOCRDispatch;
-@property(retain) CRNormalizedQuad *originalBoundingQuad;
 @property _Bool trackNeedsReplacement;
-@property(retain) NSUUID *trackingID;
 @end
 

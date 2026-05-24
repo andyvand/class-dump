@@ -10,8 +10,9 @@
 
 + (int);
 + (unsigned int);
-+ (_Bool);
-- (id);
++ (_Bool)H;
+- (id)g page from %lld to %d (%s)
+;
 - (void);
 
 @end

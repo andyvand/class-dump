@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBSpotlightEmbeddingState;
+@class NSData;
 
 @protocol _SFPBEmbeddingState
+- (void);
+- (NSData *)",W,N,V_delegate;
 
 // Remaining properties
-@property(nonatomic) _Bool hasEmbeddingResults;
-@property(nonatomic) _Bool hasHybridResults;
-@property(nonatomic) _Bool hasKeywordResults;
-@property(nonatomic) _Bool hasMetadataResults;
-@property(nonatomic) _Bool hasQueryEmbedding;
-@property(nonatomic) _Bool hasResults;
-@property(nonatomic) _Bool hasSuppressedResults;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int queryStatus;
-@property(retain, nonatomic) _SFPBSpotlightEmbeddingState *spotlightEmbeddingState;
 @end
 

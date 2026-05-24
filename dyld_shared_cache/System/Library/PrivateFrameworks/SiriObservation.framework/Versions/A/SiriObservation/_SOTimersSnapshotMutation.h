@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, SOTimersSnapshot;
+@class SOTimersSnapshot;
 
 @interface _SOTimersSnapshotMutation
 {
     SOTimersSnapshot *_base;
-    NSDate *_date;
-    NSDictionary *_timersByID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasDate:1;
-        unsigned int hasTimersByID:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void){;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatSupplementaryNodeLayoutAttributes
 {
     id layoutAttributes;
-    id style;
-    id resizing;
-    id zIndex;
-    id pinTrait;
-    id rubberbandTrait;
 }
 
 @end

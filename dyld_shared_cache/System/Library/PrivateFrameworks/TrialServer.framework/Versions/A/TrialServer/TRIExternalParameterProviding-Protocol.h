@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TRIExternalParameterProviding
+- (void)gin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}};
+- (void)16@24@32q40@48;
+- (void)transitionsForColorGrade:(NSString *)arg1 songPace:(_Bool (^)(NSDictionary *))arg2;
+- (void)transformAuxiliaryImages:(NSString *)arg1 scaleFactor:(void (^)(NSDictionary *, NSError *))arg2 applyingOrientation: /* Error: Ran out of types for this method. */;
 @end
 

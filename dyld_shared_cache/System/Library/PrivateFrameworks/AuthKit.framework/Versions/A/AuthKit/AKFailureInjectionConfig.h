@@ -6,8 +6,6 @@
 
 #import <AuthKit/AKDictionaryBackedModel.h>
 
-@class NSArray, NSDictionary;
-
 @interface AKFailureInjectionConfig : AKDictionaryBackedModel
 {
 }
@@ -15,13 +13,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)D!;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedDomains;
 @property(readonly, nonatomic) long long scenario;
-@property(readonly, nonatomic) NSDictionary *systemFailures;
 
 @end
 

@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceBattery, GCHapticCapabilityGraph, NSMapTable, NSSet, NSString, _GCDeviceConfiguration, _GCNintendoJoyConDevice;
-@protocol GCSSettingsStoreService, NSObject><NSCopying><NSSecureCoding, _GCDeviceManager, _GCDriverClientHapticInterface, _GCGamepadEventSourceDescription;
+@class NSMapTable;
+@protocol _GCGamepadEventSourceDescription;
 
 __attribute__((visibility("hidden")))
 @interface _GCNintendoFusedJoyConDevice
 {
     NSMapTable *_clients;
-    long long _indicatedPlayerIndex;
-    NSMapTable *_clientPlayerIndicatorEndpoints;
-    GCDeviceBattery *_battery;
-    NSMapTable *_clientBatteryEndpoints;
-    id <GCSSettingsStoreService> _settingsStore;
-    NSMapTable *_clientSettingsEndpoints;
-    GCHapticCapabilityGraph *_hapticCapabilityGraph;
-    id <_GCDeviceManager> _manager;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    _GCDeviceConfiguration *_configuration;
-    _GCNintendoJoyConDevice *_leftDevice;
-    _GCNintendoJoyConDevice *_rightDevice;
-    id <_GCDriverClientHapticInterface> _hapticDriver;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
+- (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)/;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)2;
 - (void);
 - (void);
 - (id);
@@ -50,9 +37,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (void);
+- (void)3;
 - (id);
 - (void);
 - (void);
@@ -62,26 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCDeviceBattery *battery;
-@property(readonly) NSSet *components;
-@property(retain, nonatomic) _GCDeviceConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceBatteryComponentBatteryUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceBatteryServiceConnectedHandler;
 @property(readonly) id <_GCGamepadEventSourceDescription> gamepadEventSource;
-@property(readonly, nonatomic) id <_GCDriverClientHapticInterface> hapticDriver; // @synthesize hapticDriver=_hapticDriver;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property long long indicatedPlayerIndex;
-@property(readonly, nonatomic) _GCNintendoJoyConDevice *leftDevice; // @synthesize leftDevice=_leftDevice;
-@property(readonly) __weak id <_GCDeviceManager> manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic) _GCNintendoJoyConDevice *rightDevice; // @synthesize rightDevice=_rightDevice;
-@property(readonly) Class superclass;
-@property(readonly) NSSet *underlyingDevices;
 
 @end
 

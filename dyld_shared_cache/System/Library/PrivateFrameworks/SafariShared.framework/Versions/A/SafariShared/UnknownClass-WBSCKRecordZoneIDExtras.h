@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (WBSCKRecordZoneIDExtras)
 + (id);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 - (id);
@@ -16,8 +14,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool safari_isInPrivateDatabase;
 @property(readonly, nonatomic) _Bool safari_isTabGroupSecondaryRecordZoneID;
-@property(readonly, copy, nonatomic) NSString *safari_tabGroupRootRecordName;
 @end
 

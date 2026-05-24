@@ -6,20 +6,11 @@
 
 #import <CMCapture/BWNode.h>
 
-@class FigStateMachine, NSMutableArray, NSString;
+@class FigStateMachine, NSString;
 
 @interface BWSinkNode : BWNode
 {
     FigStateMachine *_stateMachine;
-    struct os_unfair_lock_s _stateLock;
-    NSMutableArray *_handlersToCallWhenIdle;
-    NSMutableArray *_handlersToCallWhenActive;
-    NSString *_sinkID;
-    struct OpaqueFigSimpleMutex *_configurationHandlerLock;
-    long long _liveConfigurationID;
-    long long *_liveConfigurationIDsByInputIndex;
-    NSMutableArray *_configurationLiveHandlers;
-    NSMutableArray *_configurationLiveIDs;
 }
 
 + (void)ationWithErrorCode:] /* Error: Ran out of types for this method. */;
@@ -27,11 +18,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)OISFUCryptor;
 - (long long);
 - (void);
 - (_Bool);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setWideColorMode: /* Error: Ran out of types for this method. */;
 - (id)TS:%0.3f) from %@. Dropping the out of order buffer. /* Error: Ran out of types for this method. */;
 - (void)y supported with VIS GPU or ISP Mesh renderer types;
 - (void)LgÿLgÿ'Lgÿ1Lfÿ:(id)arg1 LfÿDMfÿMMfÿUMfÿ^MfÿgMfÿqMdÿzMaÿN^ÿO\ÿOZÿOYÿ£OWÿ«OVÿ³OVÿ¼OUÿÄNTÿÌNTÿÔNSÿÜNSÿãNSÿêNSÿìOSÿìOSÿ;
@@ -39,9 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *currentStateDebugString;
-@property(readonly) _Bool isActive;
-@property(readonly) long long liveConfigurationID;
 @property(readonly, copy, nonatomic) NSString *sinkID; // @synthesize sinkID=_sinkID;
 
 @end

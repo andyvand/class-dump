@@ -11,25 +11,23 @@
 @interface AVHomeLoadingButtonControlItem : AVControlItem
 {
     UIFont *_titleFont;
-    AVLoadingButtonView *_loadingButtonView;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)nvalid threshold for minimum estimator age,%.3lf;
 - (id);
 - (void)[ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) AVLoadingButtonView *loadingButtonView; // @synthesize loadingButtonView=_loadingButtonView;
-@property(nonatomic) _Bool showsLoadingIndicator;
 
 @end
 

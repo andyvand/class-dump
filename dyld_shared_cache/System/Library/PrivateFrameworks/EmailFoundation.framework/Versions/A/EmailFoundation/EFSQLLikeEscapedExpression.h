@@ -9,8 +9,6 @@
 @interface EFSQLLikeEscapedExpression
 {
     unsigned short _escapeCharacter;
-    NSString *_value;
-    unsigned long long _pattern;
 }
 
 - (id);
@@ -22,19 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (void)dKeys;
+- (void)_orderedKeys;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly, nonatomic) unsigned short escapeCharacter; // @synthesize escapeCharacter=_escapeCharacter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long pattern; // @synthesize pattern=_pattern;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

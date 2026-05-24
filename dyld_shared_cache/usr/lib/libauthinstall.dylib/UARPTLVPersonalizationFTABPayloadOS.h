@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
-- (id);
+- (id)sourceFullScreenViewController;
 - (void);
 
 // Remaining properties

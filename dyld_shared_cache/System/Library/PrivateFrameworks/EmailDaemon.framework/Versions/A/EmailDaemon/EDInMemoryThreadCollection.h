@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDSectionQueryItemHelper, EFLazyCache, EFLocked, EFMutableOrderedDictionary, EMQuery, EMThreadScope, NSMutableDictionary, NSMutableOrderedSet, NSObject;
-@protocol EDInMemoryThreadCollectionDataSource, EDInMemoryThreadCollectionDelegate, EMMailboxTypeResolver, OS_os_log;
+@class EFLazyCache, NSMutableOrderedSet;
 
 @interface EDInMemoryThreadCollection
 {
     NSMutableOrderedSet *_conversationIDs;
-    EFMutableOrderedDictionary *_threadsByConversationID;
-    NSMutableDictionary *_inMemoryThreadsByConversationID;
-    NSMutableDictionary *_mailboxesByConversationID;
-    EFLocked *_oldestThreadsByMailboxObjectIDs;
-    EDSectionQueryItemHelper *_sectionQueryHelper;
-    struct os_unfair_lock_s _threadsLock;
-    _Bool _limitedCache;
-    id <EDInMemoryThreadCollectionDataSource> _dataSource;
-    id <EDInMemoryThreadCollectionDelegate> _delegate;
-    NSObject<OS_os_log> *_logClient;
-    EMQuery *_query;
-    EMThreadScope *_threadScope;
-    id <EMMailboxTypeResolver> _mailboxTypeResolver;
-    EFLazyCache *_inMemoryThreadCache;
-    long long _dateSortOrder;
-    CDUnknownBlockType _comparator;
-    Class _inMemoryThreadClass;
 }
 
 + (CDUnknownBlockType);
@@ -60,22 +42,12 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)dUpdateMessages:forFilterPredicate:changedKeyPaths:predicateToIgnore:loggingString:generationWindow:messageTest: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_persistenceDidUpdateMessages:forFilterPredicate:changedKeyPaths:predicateToIgnore:loggingString:generationWindow:messageTest: /* Error: Ran out of types for this method. */;
 - (void)ELECT identifier FROM searchable_message_tombstones WHERE transaction_id IS NULL AND type = %lld;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) __weak id <EDInMemoryThreadCollectionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) long long dateSortOrder; // @synthesize dateSortOrder=_dateSortOrder;
-@property(readonly, nonatomic) __weak id <EDInMemoryThreadCollectionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) EFLazyCache *inMemoryThreadCache; // @synthesize inMemoryThreadCache=_inMemoryThreadCache;
-@property(readonly, nonatomic) Class inMemoryThreadClass; // @synthesize inMemoryThreadClass=_inMemoryThreadClass;
-@property(nonatomic) _Bool limitedCache; // @synthesize limitedCache=_limitedCache;
-@property(retain, nonatomic) NSObject<OS_os_log> *logClient; // @synthesize logClient=_logClient;
-@property(readonly, nonatomic) id <EMMailboxTypeResolver> mailboxTypeResolver; // @synthesize mailboxTypeResolver=_mailboxTypeResolver;
-@property(readonly, copy, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, copy, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
 
 @end
 

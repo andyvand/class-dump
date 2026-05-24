@@ -6,33 +6,26 @@
 
 #import <TSUtility/SFUDataRepresentation.h>
 
-@class NSString, SFUFileDataRepresentation;
+@class SFUFileDataRepresentation;
 
 @interface SFUZipArchiveFileDataRepresentation : SFUDataRepresentation
 {
     SFUFileDataRepresentation *mFileRepresentation;
-    int mFd;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)(=;
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ize=dd}}24B56;
+- (_Bool)allObjects;
 - (id);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

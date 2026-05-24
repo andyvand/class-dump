@@ -9,8 +9,8 @@
     _Bool _pauseImmediately;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)h;
+- (void)B;
 - (id);
 - (id);
 

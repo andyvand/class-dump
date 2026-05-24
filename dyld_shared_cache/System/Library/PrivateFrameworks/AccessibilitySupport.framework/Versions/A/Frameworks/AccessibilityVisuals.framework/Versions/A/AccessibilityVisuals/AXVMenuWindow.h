@@ -6,23 +6,16 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVMenuTableView, AXVTextField, NSArray, NSString;
-@protocol AXVMenuWindowMouseEventDelegate;
+@class AXVTextField;
 
 @interface AXVMenuWindow : AXVVoiceOverStyleWindow
 {
     _Bool _shouldDisplayTitle;
-    id <AXVMenuWindowMouseEventDelegate> _mouseEventDelegate;
-    AXVTextField *__menuTitleTextField;
-    AXVMenuTableView *__menuTableView;
-    NSString *__menuTitle;
-    NSArray *__menuItems;
-    long long __rowCountToShow;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)?%@q;
 - (void);
 - (void);
 - (void);
@@ -30,11 +23,11 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -43,38 +36,24 @@
 - (id);
 - (double);
 - (double);
-- (double);
+- (double)	;
 - (void);
 - (void);
-- (void);
+- (void)@y	?%@qa;
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?};
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setMenuItems:) NSArray *_menuItems; // @synthesize _menuItems=__menuItems;
-@property(retain, nonatomic, setter=_setTableView:) AXVMenuTableView *_menuTableView; // @synthesize _menuTableView=__menuTableView;
-@property(copy, nonatomic, setter=_setMenuTitle:) NSString *_menuTitle; // @synthesize _menuTitle=__menuTitle;
 @property(retain, nonatomic, setter=_setMenuTitleTextField:) AXVTextField *_menuTitleTextField; // @synthesize _menuTitleTextField=__menuTitleTextField;
-@property(nonatomic, setter=_setRowCountToShow:) long long _rowCountToShow; // @synthesize _rowCountToShow=__rowCountToShow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double menuFontSize;
-@property(nonatomic) __weak id <AXVMenuWindowMouseEventDelegate> mouseEventDelegate; // @synthesize mouseEventDelegate=_mouseEventDelegate;
-@property(nonatomic) _Bool shouldDisplayTitle; // @synthesize shouldDisplayTitle=_shouldDisplayTitle;
-@property(readonly) Class superclass;
 
 @end
 

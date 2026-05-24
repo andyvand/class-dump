@@ -11,7 +11,6 @@
 @interface CHReflowableTextResultToken : CHReflowableTextToken
 {
     NSArray *_strokeIdentifiers;
-    NSArray *_nonTextStrokeIdentifiers;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *nonTextStrokeIdentifiers; // @synthesize nonTextStrokeIdentifiers=_nonTextStrokeIdentifiers;
 @property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end

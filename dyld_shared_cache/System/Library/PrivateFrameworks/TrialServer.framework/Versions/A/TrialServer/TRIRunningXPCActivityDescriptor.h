@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_transaction, OS_xpc_object;
+@class NSObject;
+@protocol OS_os_transaction;
 
 @interface TRIRunningXPCActivityDescriptor
 {
     NSObject<OS_os_transaction> *_txn;
-    unsigned int _generationCount;
-    NSString *_name;
-    CDUnknownBlockType _shouldDefer;
-    CDUnknownBlockType _completion;
-    NSObject<OS_xpc_object> *_activity;
-    unsigned long long _capabilities;
 }
 
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)NUChannelControlData;
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)h;
 - (void);
 - (id);
 - (unsigned int);
@@ -35,11 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) unsigned int generationCount; // @synthesize generationCount=_generationCount;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) CDUnknownBlockType shouldDefer; // @synthesize shouldDefer=_shouldDefer;
 
 @end

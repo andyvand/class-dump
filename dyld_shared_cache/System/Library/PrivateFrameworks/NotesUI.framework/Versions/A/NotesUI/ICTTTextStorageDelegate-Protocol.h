@@ -5,5 +5,8 @@
 //
 
 @protocol ICTTTextStorageDelegate
+
+@optional
+- (void);
 @end
 

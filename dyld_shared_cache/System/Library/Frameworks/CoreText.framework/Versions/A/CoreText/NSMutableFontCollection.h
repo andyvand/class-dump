@@ -12,15 +12,15 @@
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool)miCondensedSemibold;
+- (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 @end

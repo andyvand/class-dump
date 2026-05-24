@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, NSString;
+@class ABPerson;
 
 @interface ABAddSuggestedValueTask
 {
     ABPerson *_person;
-    NSString *_property;
-    id _value;
 }
 
 - (id);
@@ -19,9 +17,9 @@
 - (id);
 - (void);
 - (id);
+- (id),#Ț;
 - (id);
-- (id);
-- (id);
+- (id)assertQueue;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain) ABPerson *person; // @synthesize person=_person;
-@property(retain) NSString *property; // @synthesize property=_property;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

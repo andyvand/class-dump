@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty;
 
 @protocol RFSimpleItemRichCardSection
+- (RFTextProperty *)_findInstance;
+- (void)B;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(copy, nonatomic) NSArray *text_5;
-@property(retain, nonatomic) RFTextProperty *text_6;
-@property(retain, nonatomic) RFTextProperty *text_7;
-@property(retain, nonatomic) RFTextProperty *text_8;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

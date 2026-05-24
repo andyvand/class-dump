@@ -6,55 +6,60 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKRecurrenceEnd, EKRecurrenceHelper, NSArray, NSDate, NSDateComponents, NSString;
+@class EKRecurrenceHelper;
 
 @interface EKRecurrenceRule : EKObject
 {
     EKRecurrenceHelper *_recurrenceHelper;
-    _Bool _shouldPinMonthDays;
-    _Bool _usesEndDate;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (long long);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ServiceClient] Destroying player %@ created for origin:(id)arg1 %@;
++ (id)%{public}@ error:(id)arg1 %{public}@;
++ (id)requestID:(long long)arg1 %@. error:(unsigned long long)arg2 %@;
++ (id)eds other data;
++ (_Bool)kMRMediaRemoteWillPresentRouteAuthenticationPromptNotification;
++ (id)acks(MRNowPlayingPlayerClient *__strong, MRPlaybackQueueRequest *__strong, MRContentItem *__strong, __strong dispatch_queue_t, void (^__strong)(NSArray<NSError *> *__strong));
++ (long long)bilitiesCallback = %@
+    commandCallback = %@
+    beginLyricsEventCallback = %@
+    endLyricsEventCallback = %@
+    activity = %@
+    activeNowPlayingClient = %@
+    nowPlayingClients = %@
+;
++ (int)RemoteControlSession;
++ (id)al-hosted:(id)arg1 //%@/%@;
++ (id)t;
++ (id).createHostedEndpointWithOutputDeviceUIDs.groupUID;
++ (id)%lf > %lf;
 + (long long);
 + (id);
 + (id);
 + (Class);
 + (id);
 + (id);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)8;
+- (_Bool)8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)b;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (int);
@@ -63,39 +68,39 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)aissanceSession] Recon force end:nothing to match /* Error: Ran out of types for this method. */;
+- (void)oinURLString] Failed to decode payload:(_Bool)arg1 %{public}@ from URL:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)upportedCommands for %{public}@. Skipping update;
+- (id)ingCache:(id)arg1 volume %lf;
+- (_Bool);
+- (void)q;
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)?;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setCharge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1: /* Error: Ran out of types for this method. */;
+- (void)+;
 - (id);
 - (void);
 - (void);
@@ -106,24 +111,7 @@
 - (long long)rt events.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID;
-@property(readonly, nonatomic) NSDate *cachedEndDate;
-@property(readonly, nonatomic) NSString *calendarIdentifier;
-@property(readonly, nonatomic) NSDateComponents *dateComponents;
-@property(readonly, nonatomic) NSArray *daysOfTheMonth;
-@property(readonly, nonatomic) NSArray *daysOfTheWeek;
-@property(readonly, nonatomic) NSArray *daysOfTheYear;
-@property(readonly, nonatomic) _Bool dirtyStateMayAffectExceptionDates;
-@property(readonly, nonatomic) long long firstDayOfTheWeek;
-@property(readonly) int firstDayOfTheWeekRaw;
-@property(readonly, nonatomic) long long frequency;
-@property(readonly, nonatomic) long long interval;
-@property(readonly, nonatomic) NSArray *monthsOfTheYear;
-@property(copy, nonatomic) EKRecurrenceEnd *recurrenceEnd;
-@property(readonly, nonatomic) NSArray *setPositions;
 @property(readonly, nonatomic) _Bool shouldPinMonthDays; // @synthesize shouldPinMonthDays=_shouldPinMonthDays;
-@property(readonly) _Bool usesEndDate; // @synthesize usesEndDate=_usesEndDate;
-@property(readonly, nonatomic) NSArray *weeksOfTheYear;
 
 @end
 

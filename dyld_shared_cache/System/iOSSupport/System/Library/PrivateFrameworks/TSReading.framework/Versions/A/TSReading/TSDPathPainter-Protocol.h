@@ -5,5 +5,8 @@
 //
 
 @protocol TSDPathPainter
+
+@optional
+- (void);
 @end
 

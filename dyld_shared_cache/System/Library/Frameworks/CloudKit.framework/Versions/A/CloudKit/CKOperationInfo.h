@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDOperation, CKOperationCallbackProxyEndpoint, CKOperationConfiguration, CKOperationGroup, CKOperationMMCSRequestOptions, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface CKOperationInfo
 {
     _Bool _isOutstandingOperation;
-    _Bool _clientHasValidatedEntitlements;
-    _Bool _usesAssetDownloadStagingManager;
-    _Bool _wantsRequestStatistics;
-    _Bool _wantsDaemonOperationCallbacks;
-    _Bool _wantsDaemonRequestCallbacks;
-    unsigned int _clientSDKVersion;
-    NSString *_operationID;
-    NSString *_ckOperationClassName;
-    CKOperationCallbackProxyEndpoint *_callbackProxyEndpoint;
-    CKOperationMMCSRequestOptions *_MMCSRequestOptions;
-    CKOperationGroup *_group;
-    CKOperationConfiguration *_resolvedConfiguration;
-    CKDOperation *_parentOperation;
-    unsigned long long _requestOriginator;
-    long long _clientQueuePriority;
-    unsigned long long _duetPreClearedMode;
-    unsigned long long _discretionaryWhenBackgroundedState;
-    unsigned long long _systemScheduler;
-    NSString *_backgroundTaskIdentifier;
-    NSString *_name;
 }
 
-+ (_Bool);
++ (_Bool)˼;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
@@ -62,17 +42,17 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)";
+- (id);
 - (unsigned long long);
-- (id);
-- (double);
-- (void);
-- (void);
+- (id)"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (double)dispatchEpochEndProgressHandlerWithMetrics:parameters:onQueue: /* Error: Ran out of types for this method. */;
+- (void).);
+- (void)N6CoreML13Specification7MILSpec26TensorValue_RepeatedFloatsE;
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)@�H;
 - (id);
 - (void);
 - (unsigned long long);
@@ -97,42 +77,7 @@
 - (id)|;
 
 // Remaining properties
-@property(retain, nonatomic) CKOperationMMCSRequestOptions *MMCSRequestOptions; // @synthesize MMCSRequestOptions=_MMCSRequestOptions;
-@property(readonly, nonatomic) NSDictionary *additionalRequestHTTPHeaders;
-@property(readonly, nonatomic) _Bool allowsCellularAccess;
-@property(readonly, nonatomic) _Bool allowsExpensiveNetworkAccess;
-@property(readonly, nonatomic) NSString *applicationBundleIdentifierOverrideForContainerAccess;
-@property(readonly, nonatomic) NSString *applicationBundleIdentifierOverrideForNetworkAttribution;
-@property(readonly, nonatomic) NSString *authPromptReason;
-@property(readonly, nonatomic) _Bool automaticallyRetryNetworkFailures;
-@property(copy, nonatomic) NSString *backgroundTaskIdentifier; // @synthesize backgroundTaskIdentifier=_backgroundTaskIdentifier;
-@property(readonly, nonatomic) NSNumber *cacheDeleteAvailableSpaceClass;
-@property(copy, nonatomic) CKOperationCallbackProxyEndpoint *callbackProxyEndpoint; // @synthesize callbackProxyEndpoint=_callbackProxyEndpoint;
-@property(copy, nonatomic) NSString *ckOperationClassName; // @synthesize ckOperationClassName=_ckOperationClassName;
-@property(nonatomic) _Bool clientHasValidatedEntitlements; // @synthesize clientHasValidatedEntitlements=_clientHasValidatedEntitlements;
-@property(nonatomic) long long clientQueuePriority; // @synthesize clientQueuePriority=_clientQueuePriority;
-@property(readonly, nonatomic) unsigned long long discretionaryNetworkBehavior;
-@property(nonatomic) unsigned long long discretionaryWhenBackgroundedState; // @synthesize discretionaryWhenBackgroundedState=_discretionaryWhenBackgroundedState;
-@property(nonatomic) unsigned long long duetPreClearedMode; // @synthesize duetPreClearedMode=_duetPreClearedMode;
-@property(retain, nonatomic) CKOperationGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool isCloudKitSupportOperation;
-@property(readonly, nonatomic) _Bool isLongLived;
-@property(nonatomic) _Bool isOutstandingOperation; // @synthesize isOutstandingOperation=_isOutstandingOperation;
 @property(copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(nonatomic) __weak CKDOperation *parentOperation; // @synthesize parentOperation=_parentOperation;
-@property(readonly, nonatomic) _Bool preferAnonymousRequests;
-@property(readonly, nonatomic) NSNumber *privacyProxyFailClosedOverride;
-@property(readonly, nonatomic) long long qualityOfService;
-@property(nonatomic) unsigned long long requestOriginator; // @synthesize requestOriginator=_requestOriginator;
-@property(retain, nonatomic) CKOperationConfiguration *resolvedConfiguration; // @synthesize resolvedConfiguration=_resolvedConfiguration;
-@property(readonly, nonatomic) NSString *sourceApplicationSecondaryIdentifier;
-@property(nonatomic) unsigned long long systemScheduler; // @synthesize systemScheduler=_systemScheduler;
-@property(readonly, nonatomic) double timeoutIntervalForRequest;
-@property(readonly, nonatomic) double timeoutIntervalForResource;
-@property(nonatomic) _Bool usesAssetDownloadStagingManager; // @synthesize usesAssetDownloadStagingManager=_usesAssetDownloadStagingManager;
-@property(nonatomic) _Bool wantsDaemonOperationCallbacks; // @synthesize wantsDaemonOperationCallbacks=_wantsDaemonOperationCallbacks;
-@property(nonatomic) _Bool wantsDaemonRequestCallbacks; // @synthesize wantsDaemonRequestCallbacks=_wantsDaemonRequestCallbacks;
-@property(nonatomic) _Bool wantsRequestStatistics; // @synthesize wantsRequestStatistics=_wantsRequestStatistics;
 
 @end
 

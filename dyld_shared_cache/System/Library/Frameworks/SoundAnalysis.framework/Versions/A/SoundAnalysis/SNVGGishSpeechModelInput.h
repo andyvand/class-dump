@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishSpeechModelInput
 {
@@ -12,14 +12,13 @@
 }
 
 - (void);
-- (id);
+- (id)km;
 - (id);
 - (id);
 - (void)<ûÿÄ<ûÿè<ûÿ$=ûÿH=ûÿl=ûÿ=ûÿÌ=ûÿð=ûÿ>ûÿ8>ûÿt>ûÿ>ûÿ¼>ûÿà>ûÿ?ûÿ@?ûÿd?ûÿ?ûÿÄ?ûÿè?ûÿ@ûÿ0@ûÿl@ûÿ@ûÿ´@ûÿØ@ûÿAûÿ8Aûÿ\AûÿAûÿ¼AûÿàAûÿBûÿ(BûÿdBûÿBûÿ¬BûÿÐBûÿCûÿ0CûÿTCûÿxCûÿ´CûÿØCûÿüCûÿ DûÿDDûÿhDûÿDûÿ°DûÿÔDûÿøDûÿEûÿ@EûÿdEûÿEûÿ¬EûÿÐEûÿôEûÿFûÿdFûÿFûÿÔFûÿøFûÿDGûÿhGûÿ´GûÿØGûÿ$HûÿHHûÿHûÿ¸HûÿIûÿ(IûÿtIûÿIûÿäIûÿJûÿTJûÿxJûÿÄJûÿèJûÿ4KûÿXKûÿ¤KûÿÈKûÿLûÿ8LûÿLûÿÐLûÿØMûÿüMûÿ Nûÿ\NûÿNûÿ¤NûÿÈNûÿOûÿ(OûÿLOûÿpOûÿ¬OûÿÐOûÿôOûÿPûÿTPûÿxPûÿPûÿÀPûÿüPûÿ QûÿDQûÿhQûÿ¤QûÿÈQûÿìQûÿRûÿLRûÿpRûÿRûÿ¸RûÿÜRûÿ;
 - (id)2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *input1; // @synthesize input1=_input1;
 
 @end

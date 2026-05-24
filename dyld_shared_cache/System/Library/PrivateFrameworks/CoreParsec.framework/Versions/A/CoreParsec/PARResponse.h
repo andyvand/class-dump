@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOUserSessionEntity, NSArray, NSData, NSDictionary, NSString, PARReply, SFEngagementSignal;
+@class NSString;
 
 @interface PARResponse
 {
     _Bool _suggestionsAreBlended;
-    PARReply *_reply;
-    NSString *_prefix;
-    NSString *_query;
-    NSArray *_rawResponse;
-    NSArray *_sections;
-    NSArray *_results;
-    NSArray *_alternativeResults;
-    NSDictionary *_rawSqf;
-    NSDictionary *_serverFeatures;
-    NSArray *_suggestions;
-    NSArray *_corrections;
-    GEOUserSessionEntity *_geoUserSessionEntity;
-    NSString *_serverCompletion;
-    SFEngagementSignal *_engagementSignal;
-    NSData *_legacyJSON;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)World>>:(id)arg1:KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
++ (id)long long>>, WTF:(id)arg1:(id)arg2 WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
++ (id)ierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF:(id)arg1:(id)arg2 WeakRef<API:(id)arg3:ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)` manifest entry.;
+- (void)path` in `declarative_net_request` manifest entry.;
+- (void)icon_variants` manifest entry.;
+- (void)t` rules:(id)arg1 %s;
+- (void)error_code &);
+- (id)ionPermissionRequest, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)*) [Target = WebKit::GeolocationPermissionRequest, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)= API::ProcessPoolConfiguration, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)4_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
+- (id)>>, Extractor = WTF:(id)arg1:(id)arg2 KeyValuePairKeyExtractor<WTF:(id)arg3:KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -52,8 +37,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)qA;
+- (id)	;
 - (id);
 - (id);
 - (void);
@@ -62,22 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternativeResults; // @synthesize alternativeResults=_alternativeResults;
-@property(retain, nonatomic) NSArray *corrections;
-@property(readonly, nonatomic) SFEngagementSignal *engagementSignal; // @synthesize engagementSignal=_engagementSignal;
-@property(retain, nonatomic) GEOUserSessionEntity *geoUserSessionEntity;
-@property(retain, nonatomic) NSData *legacyJSON;
-@property(retain, nonatomic) NSString *prefix;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) NSArray *rawResponse; // @synthesize rawResponse=_rawResponse;
-@property(retain, nonatomic) NSDictionary *rawSqf;
-@property(readonly, nonatomic) PARReply *reply; // @synthesize reply=_reply;
-@property(retain, nonatomic) NSArray *results;
-@property(retain, nonatomic) NSArray *sections;
-@property(retain, nonatomic) NSString *serverCompletion;
-@property(retain, nonatomic) NSDictionary *serverFeatures;
-@property(retain, nonatomic) NSArray *suggestions;
-@property(nonatomic) _Bool suggestionsAreBlended;
+@property(retain, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end
 

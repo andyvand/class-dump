@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioHistoryFeedBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

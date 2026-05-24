@@ -5,5 +5,8 @@
 //
 
 @protocol AXVASpeechMenuWindowInterface
+
+@optional
+- (void);
 @end
 

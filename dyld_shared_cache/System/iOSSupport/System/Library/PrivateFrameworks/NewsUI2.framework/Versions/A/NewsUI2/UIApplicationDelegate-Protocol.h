@@ -9,8 +9,11 @@
 @protocol UIApplicationDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
 - (_Bool)× ;
-- (void)bjectProxy;
+- (void)remoteObjectProxy;
 - (void)Aö^C;
 
 // Remaining properties

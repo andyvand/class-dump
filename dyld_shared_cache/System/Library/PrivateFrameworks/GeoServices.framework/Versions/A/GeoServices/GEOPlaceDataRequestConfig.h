@@ -6,23 +6,16 @@
 
 #import <GeoServices/GEOServiceRequestDefaultConfig.h>
 
-@class GEOPDPlaceRequest, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface GEOPlaceDataRequestConfig : GEOServiceRequestDefaultConfig
 {
     double _timeout;
-    unsigned long long _urlType;
-    NSNumber *_requestPriority;
-    unsigned long long _multipathServiceType;
-    GEOPDPlaceRequest *_placeRequest;
-    _Bool _usesBackgroundURL;
 }
 
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (CDStruct_d1a7ebee);
+- (_Bool)_languages;
+- (CDStruct_026435ec);
 - (id);
 - (id);
 - (double)°

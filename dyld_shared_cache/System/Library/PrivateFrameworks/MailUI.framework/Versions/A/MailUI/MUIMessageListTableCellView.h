@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, MUIMessageListObjectProxy, NSButton, NSColor, NSLayoutConstraint, ToCCIndicator;
-@protocol ECMessage;
+@class MUIMessageListObjectProxy, NSColor;
 
 @interface MUIMessageListTableCellView
 {
     NSColor *_textColor;
-    _Bool _showToCc;
-    _Bool _hasGeneratedSummary;
-    _Bool _senderSpecificCell;
-    _Bool _showSnippetHighlighting;
-    EMCategory *_category;
-    ToCCIndicator *_toCCIndicator;
-    NSLayoutConstraint *_subjectLeadingToIndicatorConstraint;
-    NSButton *_replyButton;
 }
 
-+ (unsigned long long);
++ (unsigned long long)@;
 + (id);
 + (id);
 + (id);
@@ -33,10 +24,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,24 +41,14 @@
 - (void);
 - (id);
 - (id);
+- (void)sterButtonImageView;
 - (void);
-- (void);
-- (void)ble;
+- (void)restoreSelectionCancelable;
 - (void)`ÿÿÜÿÿ;
 - (id)ex-visibility;
 
 // Remaining properties
-@property(retain, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(nonatomic) _Bool hasGeneratedSummary; // @synthesize hasGeneratedSummary=_hasGeneratedSummary;
-@property(readonly, nonatomic) id <ECMessage> message;
 @property(retain) MUIMessageListObjectProxy *objectValue;
-@property(nonatomic) __weak NSButton *replyButton; // @synthesize replyButton=_replyButton;
-@property(nonatomic, getter=isSenderSpecificCell) _Bool senderSpecificCell; // @synthesize senderSpecificCell=_senderSpecificCell;
-@property(nonatomic) _Bool showSnippetHighlighting; // @synthesize showSnippetHighlighting=_showSnippetHighlighting;
-@property(nonatomic) _Bool showToCc; // @synthesize showToCc=_showToCc;
-@property(retain, nonatomic) NSLayoutConstraint *subjectLeadingToIndicatorConstraint; // @synthesize subjectLeadingToIndicatorConstraint=_subjectLeadingToIndicatorConstraint;
-@property(retain, nonatomic) NSColor *textColor;
-@property(retain, nonatomic) ToCCIndicator *toCCIndicator; // @synthesize toCCIndicator=_toCCIndicator;
 
 @end
 

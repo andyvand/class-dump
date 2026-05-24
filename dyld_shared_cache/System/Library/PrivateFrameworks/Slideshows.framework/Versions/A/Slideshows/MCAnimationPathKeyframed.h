@@ -6,12 +6,11 @@
 
 #import <Slideshows/MCAnimationPath.h>
 
-@class NSArray, NSMutableSet, NSSet;
+@class NSMutableSet, NSSet;
 
 @interface MCAnimationPathKeyframed : MCAnimationPath
 {
     NSMutableSet *mKeyframes;
-    NSArray *mCachedOrderedKeyframes;
 }
 
 + (id);
@@ -32,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)}A;
 - (id);
 - (id);
 - (id);

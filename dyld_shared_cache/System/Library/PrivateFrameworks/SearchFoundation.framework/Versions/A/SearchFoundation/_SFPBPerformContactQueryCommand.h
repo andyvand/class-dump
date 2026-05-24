@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBPerformContactQueryCommand
 {
@@ -12,28 +12,20 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)`;
+- (id)postProcessFetchedObjectIDs:(id)arg1 forFetchResult:fetchRequest: /* Error: Ran out of types for this method. */;
+- (id)) could not be opened;
 - (id);
 - (id);
 - (void)rkerText"16;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

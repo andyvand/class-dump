@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface NSSecurityScopedURLWrapper
 {
     _Bool _readonly;
-    _Bool _backedByFileProvider;
-    NSData *_scope;
-    NSURL *_url;
-    NSString *_providerIdentifier;
-    NSString *_domainIdentifier;
-    NSString *_itemIdentifier;
 }
 
 + (_Bool)und in a dictionary while the dictionary was being converted to an Apple event record.;
 - (_Bool);
+- (id)j;
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id)Services;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)ortStyle: /* Error: Ran out of types for this method. */;
+- (id)NSt3__120__shared_ptr_pointerIPN2LM10FSTGrammarENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE;
+- (id);
+- (id)__shortStyleRestrictionExistsForComponents:shortStyle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)k8Â*;
-- (id);
+- (id)AttributesSlice3;
 - (id);
 
 // Remaining properties
-@property(readonly) NSData *_scope; // @synthesize _scope;
-@property(readonly, getter=isBackedByFileProvider) _Bool backedByFileProvider; // @synthesize backedByFileProvider=_backedByFileProvider;
-@property(readonly) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(readonly, getter=isReadonly) _Bool readonly; // @synthesize readonly=_readonly;
 @property(readonly, copy) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -7,13 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingDataManager
 {
     id delegate;
-    id puzzleHistoryService;
-    id puzzleService;
-    id configurationManager;
-    id paidAccessChecker;
-    id puzzleImageShareAttributeProvider;
-    id puzzleRankProvider;
-    id puzzleDifficultyDescriptionProvider;
 }
 
 @end

@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionStatus, ICURLBag, ICUserIdentity, NSString, NSURL;
+@class NSString;
 
 @interface MPCPlaybackAccount
 {
     _Bool _hasCloudLibraryEnabled;
-    _Bool _activeAccount;
-    _Bool _fallbackAccount;
-    _Bool _privateListeningEnabled;
-    _Bool _delegated;
-    ICUserIdentity *_userIdentity;
-    ICMusicSubscriptionStatus *_subscriptionStatus;
-    NSString *_hashedDSID;
-    NSString *_storeFrontIdentifier;
-    ICURLBag *_bag;
-    id __whaStreamerStorage;
 }
 
-- (_Bool);
+- (_Bool)account:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)__objc_protolist__DATA_CONST;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)@36;
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)superclass;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)eAttributes(_:(id)arg1 ) for PlaceholderCall ;
 - (void);
 - (_Bool);
 - (id);
@@ -63,26 +54,7 @@
 - (void)urceUserDefaults:(id)arg1 %d, transitionStyleSourceUserDefaults:%d, crossfadeDurationSourceUserDefaults:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id _whaStreamerStorage; // @synthesize _whaStreamerStorage=__whaStreamerStorage;
-@property(nonatomic, getter=isActiveAccount) _Bool activeAccount; // @synthesize activeAccount=_activeAccount;
-@property(retain, nonatomic) ICURLBag *bag; // @synthesize bag=_bag;
-@property(readonly, nonatomic) _Bool canAutoPlay;
-@property(readonly, copy, nonatomic) NSString *countryCode;
-@property(readonly, nonatomic, getter=isDelegated) _Bool delegated; // @synthesize delegated=_delegated;
-@property(nonatomic, getter=isFallbackAccount) _Bool fallbackAccount; // @synthesize fallbackAccount=_fallbackAccount;
-@property(readonly, nonatomic) _Bool hasCatalogPlaybackCapability;
-@property(nonatomic) _Bool hasCloudLibraryEnabled; // @synthesize hasCloudLibraryEnabled=_hasCloudLibraryEnabled;
-@property(readonly, nonatomic) _Bool hasDelegationCapability;
-@property(readonly, nonatomic) _Bool hasMigrationCapability;
 @property(copy, nonatomic) NSString *hashedDSID; // @synthesize hashedDSID=_hashedDSID;
-@property(readonly, copy, nonatomic) NSURL *miniSinfEndpointURL;
-@property(readonly, nonatomic) unsigned long long miniSinfMaximumBatchSize;
-@property(nonatomic, getter=isPrivateListeningEnabled) _Bool privateListeningEnabled; // @synthesize privateListeningEnabled=_privateListeningEnabled;
-@property(readonly, copy, nonatomic) NSString *shortHashedDSID;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(readonly, nonatomic) ICMusicSubscriptionStatus *subscriptionStatus; // @synthesize subscriptionStatus=_subscriptionStatus;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
-@property(readonly, nonatomic) _Bool usesLease;
 
 @end
 

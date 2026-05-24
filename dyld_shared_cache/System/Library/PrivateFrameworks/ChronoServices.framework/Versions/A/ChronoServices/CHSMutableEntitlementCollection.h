@@ -13,13 +13,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canKeepAlive; // @dynamic canKeepAlive;
-@property(nonatomic) _Bool canOpenSystemURLs; // @dynamic canOpenSystemURLs;
-@property(nonatomic) _Bool invalidatesOnStorefrontChange; // @dynamic invalidatesOnStorefrontChange;
 @property(nonatomic) _Bool usesEventService; // @dynamic usesEventService;
 
 @end

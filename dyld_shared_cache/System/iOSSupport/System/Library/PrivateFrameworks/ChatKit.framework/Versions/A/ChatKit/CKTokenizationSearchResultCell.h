@@ -9,33 +9,22 @@
 @interface CKTokenizationSearchResultCell
 {
     _Bool _ck_editing;
-    NSString *resultIdentifier;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
+- (void)ic_isDoubleClick;
+- (void)_passwordProtectedOnly;
+- (struct UIEdgeInsets)ICHTMLConverterClient;
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
+- (id)SString"20;
+- (_Bool)ture>;
+- (void)ResourceBundleClass;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)_setOverallWritingDirectionFollowsLayoutDirection:(struct CGRect)arg1;
 - (void)ÿ!;
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
 @property(readonly, copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

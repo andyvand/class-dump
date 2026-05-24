@@ -6,59 +6,39 @@
 
 #import <MapKit/MKPlaceSectionViewController.h>
 
-@class MKMapItem, MKPlaceAttributionCell, NSArray, NSAttributedString, NSString, _MKMapItemAttribution;
-@protocol _MKInfoCardAnalyticsDelegate;
+@class MKPlaceAttributionCell;
 
 @interface MKPlaceAttributionViewController : MKPlaceSectionViewController
 {
     _Bool _resizableViewsDisabled;
-    NSArray *_urlStrings;
-    MKMapItem *_mapItem;
-    NSAttributedString *_attributionString;
-    MKPlaceAttributionCell *_attributionCell;
-    _MKMapItemAttribution *_attribution;
-    id <_MKInfoCardAnalyticsDelegate> _analyticsDelegate;
 }
 
-- (id);
-- (void);
+- (id)n self=%@ and otherSnapshot=%@;
+- (void)EPSQL;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)RW+;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)submitRecentCaseSummariesWithIdentifiers:reply: /* Error: Ran out of types for this method. */;
+- (id)snapshotWithSignature:duration:event:payload:reply: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)N;
 - (id);
 - (void);
-- (void)idStopRespondingToGesture:zoomDirection:didDecelerate:tiltDirection: /* Error: Ran out of types for this method. */;
+- (void)mapView:didStopRespondingToGesture:zoomDirection:didDecelerate:tiltDirection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MKInfoCardAnalyticsDelegate> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;
-@property(retain, nonatomic) _MKMapItemAttribution *attribution; // @synthesize attribution=_attribution;
 @property(retain, nonatomic) MKPlaceAttributionCell *attributionCell; // @synthesize attributionCell=_attributionCell;
-@property(copy, nonatomic) NSAttributedString *attributionString; // @synthesize attributionString=_attributionString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic) _Bool resizableViewsDisabled; // @synthesize resizableViewsDisabled=_resizableViewsDisabled;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *urlStrings; // @synthesize urlStrings=_urlStrings;
 
 @end
 

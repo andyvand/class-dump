@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)9	;
 - (id);
 - (id);
 - (void)­îthumbnail­é©bráíTcëëÌè

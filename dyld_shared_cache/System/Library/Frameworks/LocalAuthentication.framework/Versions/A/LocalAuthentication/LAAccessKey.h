@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAACL, NSString;
+@class NSString;
 @protocol LAKeyStoreKey;
 
 __attribute__((visibility("hidden")))
 @interface LAAccessKey
 {
     id <LAKeyStoreKey> _key;
-    NSString *_identifier;
-    LAACL *_acl;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)8;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LAACL *acl; // @synthesize acl=_acl;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

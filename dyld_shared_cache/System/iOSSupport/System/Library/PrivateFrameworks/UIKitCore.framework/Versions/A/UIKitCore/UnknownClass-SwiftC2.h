@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SwiftC2)
-- (_Bool);
+- (_Bool)or Chat Identifier:(id)arg1 %@;
 @end
 

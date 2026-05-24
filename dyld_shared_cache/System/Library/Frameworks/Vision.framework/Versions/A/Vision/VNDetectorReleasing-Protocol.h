@@ -5,5 +5,6 @@
 //
 
 @protocol VNDetectorReleasing
+- (void)A;
 @end
 

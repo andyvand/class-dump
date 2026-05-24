@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, PPLocalLocationStore, PPLocation;
+@class PPLocalLocationStore;
 
 @interface PPLocationCache
 {
     PPLocalLocationStore *_locationStore;
-    _Bool _valid;
-    PPLocation *_home;
-    PPLocation *_work;
-    NSMutableSet *_homeOrWorkAddresses;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_collaborationNoticeDispatcherQueue;
+- (id)ve this device in our allowed list ;
 - (id);
 - (id);
 - (void)^@68;

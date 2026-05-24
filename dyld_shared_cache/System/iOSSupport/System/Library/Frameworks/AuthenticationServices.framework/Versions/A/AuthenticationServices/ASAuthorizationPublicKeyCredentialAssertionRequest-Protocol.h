@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @protocol ASAuthorizationPublicKeyCredentialAssertionRequest
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allowedCredentials;
 @property(copy, nonatomic) NSData *challenge;
-@property(copy, nonatomic) NSString *relyingPartyIdentifier;
-@property(retain, nonatomic) NSString *userVerificationPreference;
 @end
 

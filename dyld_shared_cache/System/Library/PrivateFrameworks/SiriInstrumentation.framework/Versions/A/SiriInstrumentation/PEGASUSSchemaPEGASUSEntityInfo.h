@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSEntityInfo : SISchemaInstrumentationMessage
 {
     NSString *_entityId;
-    float _confidence;
-    CDStruct_81d693a7 _has;
-    _Bool _hasEntityId;
 }
 
 - (_Bool);
@@ -23,28 +20,24 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Z;
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Found %ld attachments for message:(id)arg1 %@;
 - (id);
 - (id)!ØDùÑÝÐ1Â0@ù
 × ;
-- (float)allTimeToHangup;
-- (void)e;
-- (id)ArtifactFilepath;
-- (id)cuFailures: /* Error: Ran out of types for this method. */;
+- (float)siriCallTimeToHangup;
+- (void)hasDeclineDismissGesture;
+- (id)_hasArtifactFilepath;
+- (id)setTcuFailures: /* Error: Ran out of types for this method. */;
 - (void)sponseGenerated.interpretedStatementResults.outcome.valueDisambiguation.items.value.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(copy, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasEntityId; // @synthesize hasEntityId=_hasEntityId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

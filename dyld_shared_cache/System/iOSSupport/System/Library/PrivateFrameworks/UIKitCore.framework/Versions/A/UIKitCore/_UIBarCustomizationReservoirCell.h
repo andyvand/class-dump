@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     _UIBarCustomizationChiclet *_chiclet;
 }
 
-- (void);
+- (void)handler:(id)arg1 receivedJunkChatCommand:fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

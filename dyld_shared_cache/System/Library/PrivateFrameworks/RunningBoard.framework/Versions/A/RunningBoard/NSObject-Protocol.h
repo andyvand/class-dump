@@ -7,15 +7,12 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)ning;
+- (oneway void)p;
+- (NSString *)eFilter",&,N,V_processNameFilter;
+- (_Bool);
+- (struct _NSZone *)gainedStartTimeDefining;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

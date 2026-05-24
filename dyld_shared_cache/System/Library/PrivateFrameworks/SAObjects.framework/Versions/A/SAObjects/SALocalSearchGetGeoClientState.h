@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SALocalSearchGeoClientState;
+@class SALocalSearchGeoClientState;
 
 @interface SALocalSearchGetGeoClientState : SABaseClientBoundCommand
 {
@@ -22,18 +22,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSString *appId; // @dynamic appId;
-@property(copy, nonatomic) NSArray *callbacks; // @dynamic callbacks;
 @property(retain, nonatomic) SALocalSearchGeoClientState *clientState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

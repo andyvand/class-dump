@@ -7,8 +7,6 @@
 @interface NewsFeed.PuzzleComponentsViewProvider
 {
     id bundle;
-    id puzzleComponentsStyler;
-    id sceneProvider;
 }
 
 @end

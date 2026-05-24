@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol SCNGeometrySourceJSExport
+- (long long)�;
+- (NSData *)p;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerComponent;
-@property(readonly, nonatomic) long long componentsPerVector;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long dataOffset;
-@property(readonly, nonatomic) long long dataStride;
-@property(readonly, nonatomic) _Bool floatComponents;
-@property(readonly, nonatomic) NSString *semantic;
-@property(readonly, nonatomic) long long vectorCount;
 @end
 

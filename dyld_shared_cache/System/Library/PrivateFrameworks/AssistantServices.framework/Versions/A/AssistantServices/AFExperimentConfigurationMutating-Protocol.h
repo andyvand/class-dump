@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFExperimentConfigurationMutating
+- (void)initWithSenderID:(NSString *)arg1 suggestedDisplayName: /* Error: Ran out of types for this method. */;
+- (void)P;
 @end
 

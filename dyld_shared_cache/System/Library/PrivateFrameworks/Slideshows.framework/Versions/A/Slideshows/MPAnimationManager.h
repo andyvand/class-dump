@@ -9,7 +9,6 @@
 @interface MPAnimationManager
 {
     NSMutableDictionary *mAnimations;
-    NSMutableDictionary *mAnimationSets;
 }
 
 + (void);

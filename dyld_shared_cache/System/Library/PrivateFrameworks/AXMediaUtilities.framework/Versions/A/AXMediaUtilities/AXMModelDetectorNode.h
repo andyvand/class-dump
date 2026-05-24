@@ -6,32 +6,30 @@
 
 #import <AXMediaUtilities/AXMEvaluationNode.h>
 
-@class NSString, NSURL, VNCoreMLModel;
+@class NSURL, VNCoreMLModel;
 
 @interface AXMModelDetectorNode : AXMEvaluationNode
 {
     VNCoreMLModel *_model;
-    NSURL *_modelURL;
 }
 
-+ (_Bool);
++ (_Bool)setCallSign: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)\|;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)[|;
 - (id);
 - (void);
 - (void);
 - (id)Á<!¸Bù±EÐ1Â0@ù
 × ;
-- (void)sceneClassificationRequest;
+- (void)_sceneClassificationRequest;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelIdentifier;
 @property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
 
 @end

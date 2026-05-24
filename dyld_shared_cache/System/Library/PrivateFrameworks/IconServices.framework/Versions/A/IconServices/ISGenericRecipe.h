@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISGenericRecipe
 {
     _Bool _templateVariant;
-    _Bool _selectedVariant;
-    unsigned long long _backgroundStyle;
-    unsigned long long _borderWidth;
 }
 
 - (void);
@@ -20,22 +15,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)o for '%{public}@' category;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(nonatomic) unsigned long long borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool selectedVariant; // @synthesize selectedVariant=_selectedVariant;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool templateVariant; // @synthesize templateVariant=_templateVariant;
 
 @end
 

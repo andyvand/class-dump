@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDDoorbellChimeNotificationLogEvent
 {
     _Bool _coordinationPathTriggered;
-    unsigned long long _coreUtilsLatency;
-    unsigned long long _coreUtilsDestinationCount;
-    long long _coordinationLatency;
-    NSError *_coordinationError;
-    unsigned long long _coordinationMode;
-    unsigned long long _numHomePodsWithDoorbellChimeEnabled;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_msp_IDSIdentifiersFor:(unsigned long long)arg1;
+- (void)MSPMapsPushDaemonRemoteXPCProxy;
+- (void)MSPTransitStorageIncident;
+- (void)MSPSharedTripMessagesCapabilityFetchingQueue;
+- (void)MSPSharedTripMessagesCapabilityFetchingQueue;
+- (void)MSPSharedTripContact;
+- (void)_TtP8MapsSync21MapsSyncStoreDelegate_;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -38,35 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(copy) NSError *coordinationError; // @synthesize coordinationError=_coordinationError;
-@property long long coordinationLatency; // @synthesize coordinationLatency=_coordinationLatency;
-@property unsigned long long coordinationMode; // @synthesize coordinationMode=_coordinationMode;
-@property _Bool coordinationPathTriggered; // @synthesize coordinationPathTriggered=_coordinationPathTriggered;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property unsigned long long coreUtilsDestinationCount; // @synthesize coreUtilsDestinationCount=_coreUtilsDestinationCount;
 @property unsigned long long coreUtilsLatency; // @synthesize coreUtilsLatency=_coreUtilsLatency;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property unsigned long long numHomePodsWithDoorbellChimeEnabled; // @synthesize numHomePodsWithDoorbellChimeEnabled=_numHomePodsWithDoorbellChimeEnabled;
-@property(readonly) Class superclass;
 
 @end
 

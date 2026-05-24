@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, NSXPCListener;
-@protocol AFSiriTaskDelivering, AFSiriTaskmasterDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol AFSiriTaskmasterDelegate, OS_dispatch_queue;
 
 @interface AFSiriTaskmaster
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <AFSiriTaskDelivering> _taskDeliverer;
-    NSXPCListener *_usageResultListener;
-    NSMapTable *_executorForRequest;
-    id <AFSiriTaskmasterDelegate> _delegate;
 }
 
 + (id);
@@ -24,22 +20,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@; Application Identifier:%@; Display Name:%@; DPAN Identifier:%@; State:%d (%@); Reader Identifier:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void)tionContext;
+- (void)_acquisitionContext;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AFSiriTaskmasterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

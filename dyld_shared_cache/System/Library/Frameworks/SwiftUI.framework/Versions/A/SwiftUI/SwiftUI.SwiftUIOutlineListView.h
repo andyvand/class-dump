@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
-
 @interface SwiftUI.SwiftUIOutlineListView
 {
     id disableExpandCollapseAnimations;
-    id customAlternatingBackgroundColors;
-    id stackBehavior;
-    id swiftUIDelegate;
-    id allowsSelectionByIdentity;
-    id selectionFollowsCursor;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,13 +26,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setWithArray: /* Error: Ran out of types for this method. */;
+- (_Bool)D;
 - (void);
-- (_Bool);
+- (_Bool)<R;
 - (void);
 - (id);
 - (struct CGSize);
@@ -48,20 +41,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)6;
 - (struct CGRect);
 - (id);
 - (void);
-- (void)guration;
+- (void)_configuration;
 - (void);
 - (id)G4;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _allowsTextEditingWithoutSelection;
-@property(nonatomic, readonly) _Bool _needsBackgroundFillerView;
-@property(nonatomic, readonly) _Bool _needsRubberBandViews;
-@property(nonatomic, retain) NSMenu *menu;
 @property(nonatomic, readonly) struct CGRect visibleRect;
 
 @end

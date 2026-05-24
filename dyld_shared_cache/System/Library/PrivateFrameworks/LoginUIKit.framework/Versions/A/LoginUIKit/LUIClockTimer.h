@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMapTable;
 
 @interface LUIClockTimer
 {
     NSMapTable *_clients;
-    NSMutableDictionary *_deadlines;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
 }
 
 + (id);
-- (void);
+- (void)N;
 - (id);
 - (id);
 - (void);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 
 @end

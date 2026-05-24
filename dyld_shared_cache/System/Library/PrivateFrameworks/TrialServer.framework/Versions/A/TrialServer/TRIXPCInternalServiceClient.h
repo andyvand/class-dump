@@ -9,31 +9,30 @@
 @interface TRIXPCInternalServiceClient
 {
     _PASXPCClientHelper *_helper;
-    _Bool _trialdSystemOnly;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)variants;
+- (id)valueForKey:(id *)arg1 fromProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)userAdjustedTitleLabelHeightOffset;
+- (id)urlByAttachingOutOfBandHintsBase64String:(id)arg1 toVideoURL:(id *)arg2;
+- (_Bool)url:(id)arg1 conformsToOneOfTypes:(id)arg2;
+- (_Bool)unsignedIntegerValue;
+- (_Bool)unarchivedAssetWithJSONObject:(id)arg1 error:(id)arg2;
+- (_Bool)typeForHFSType:(id)arg1 conformingToType:(int)arg2;
+- (_Bool)traverse:(id)arg1 visitor:(id *)arg2;
+- (id)timeOverlapCheckBottomForTimeRect:(id)arg1;
+- (_Bool)testCapabilitiesNotSupportingHEIF;
+- (_Bool)taxonomy;
+- (_Bool)targetCenterZoomFactorWithLayoutType:(id *)arg1;
+- (_Bool)stringWithUTF8String:(id)arg1;
+- (_Bool)spatialPhotoEnabled;
+- (id)shortOverallDuration;
+- (_Bool)setNormalizedLandscapeAdaptiveVisibleFrame:(id *)arg1;
+- (id)setExportPreset:(id)arg1;
+- (id)setCompressionStrategy:(id *)arg1;
+- (_Bool)setCapabilitiesInformation:(id)arg1;
+- (_Bool)removeObject:(id)arg1;
+- (id)remakeWithProgressHandler:(id)arg1 completionHandler:(id *)arg2;
 - (id);
 - (void)a×°!@@ù!°1Â0@ù
 × ;

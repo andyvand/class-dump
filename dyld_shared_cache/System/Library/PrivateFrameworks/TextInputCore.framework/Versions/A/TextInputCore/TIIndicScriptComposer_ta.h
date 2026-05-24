@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)dpoint and non-host device. Ignoring request for call %@;
 - (_Bool);
 
 @end

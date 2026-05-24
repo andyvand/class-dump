@@ -7,7 +7,6 @@
 @interface VoiceShortcutClient.WFLogActivity.Handle
 {
     id underlyingActivity;
-    id activityState;
 }
 
 @end

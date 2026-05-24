@@ -11,9 +11,9 @@
     TRIExperimentDatabase *_experimentDatabase;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)level;
+- (id)initWithVisibleRect:(id)arg1 inactiveRect:zoomStrategy:overlapStrategy:parallaxStrategy:inactiveStrategy:headroomStrategy:cropScore:layoutScore:timeBottomOverlap:timeTopOverlap:unsafeAreaOverlap:uninflatedUnsafeAreaOverlap:hasTopEdgeContact: /* Error: Ran out of types for this method. */;
+- (id)hevcProfileInformationForVideoTrackFormatDescription:(id)arg1;
 - (void)0@ù
 × ;
 

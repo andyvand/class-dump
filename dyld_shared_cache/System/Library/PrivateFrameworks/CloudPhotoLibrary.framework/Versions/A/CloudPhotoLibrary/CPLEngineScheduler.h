@@ -4,54 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLPlatformObject, CPLSyncSession, CPLSyncSessionPredictor, NSArray, NSCountedSet, NSDate, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol CPLSyncSessionConfiguration, OS_dispatch_queue;
+@class CPLEngineLibrary, NSDate;
 
 @interface CPLEngineScheduler
 {
     NSDate *_preparingFirstSessionStartDate;
-    unsigned long long _requiredFirstState;
-    unsigned long long _lastRequestGeneration;
-    unsigned long long _currentRequestGeneration;
-    _Bool _needsToUpdateLastSyncDate;
-    _Bool _nextSessionShouldRequestMoreTime;
-    _Bool _lastSessionWasDeferredBecauseOfTimeButDidNotRequestMoreTime;
-    CPLSyncSession *_nextSession;
-    double _intervalForRetry;
-    NSDate *_proposedScheduleDate;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _currentSyncState;
-    unsigned long long _pendingRequiredFirstState;
-    _Bool _shouldNoteServerHasChanges;
-    CPLSyncSession *_currentSession;
-    _Bool _opened;
-    NSDate *_unavailabilityLimitDate;
-    NSString *_unavailabilityReason;
-    unsigned long long _foregroundCalls;
-    NSCountedSet *_disablingReasons;
-    NSCountedSet *_blockingElements;
-    NSMutableDictionary *_blockedElements;
-    NSMutableSet *_blockWaiters;
-    NSCountedSet *_unblockOnceElements;
-    NSObject<OS_dispatch_queue> *_blockingLock;
-    unsigned long long _significantWorkCalls;
-    unsigned long long _disablingMinglingCount;
-    NSDate *_lastSyncSessionDateCausedByForeground;
-    NSDate *_deferDate;
-    _Bool _protectAgainstFastRelaunch;
-    _Bool _didWriteFirstSyncMarker;
-    _Bool _delayedFirstSyncBecauseOfRapidLaunch;
-    _Bool _nextSessionIsJustInCase;
-    _Bool _isOverridingForeground;
-    NSDate *_lastSuccessfulSyncSessionDate;
-    NSArray *_lastSessionInformation;
-    NSArray *_lastScopeIdentifiersExcludedFromPushToTransport;
-    NSArray *_lastScopeIdentifiersExludedFromMingling;
-    CPLPlatformObject *_platformObject;
-    CPLEngineLibrary *_engineLibrary;
-    CPLSyncSessionPredictor *_predictor;
-    CDUnknownBlockType _requiredStateObserverBlock;
-    CDUnknownBlockType _shouldBackOffOnErrorBlock;
 }
 
 + (_Bool);
@@ -59,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -96,32 +53,31 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)*;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)0@ù
-× ;
-- (id)%@';
-- (_Bool)should not participate in %@;
-- (void)%@);
-- (void)ºéÿ;
-- (void)ã£;
-- (void)ª¶}õ;
-- (void)÷;
-- (void)üHRè;
-- (void)ýªKø;
-- (void)àªâªãªY2ýªAü;
-- (void)=ëh@9h;
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)1	?רc;
+- (void)l;
+- (void)@9?;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -132,20 +88,20 @@
 - (void);
 - (id);
 - (void);
+- (void)|�X;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id){;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (void)%ld, syserr = %s;
+- (void)MountedWithAuthenticationInfo;
+- (id)d;
+- (void)!;
 - (void);
 - (void);
 - (void)±Ð1Â0@ù
@@ -153,31 +109,17 @@
 - (void)!dEùÐ1Â0@ù
 × ;
 - (void)0@?48@?56;
-- (void)ment: /* Error: Ran out of types for this method. */;
-- (id)adForChange:(id)arg1;
+- (void)blockEngineElement: /* Error: Ran out of types for this method. */;
+- (id)resourceTypesToUploadForChange:(id)arg1;
 - (void)"16@"NSString"24:32Q40 /* Error: Ran out of types for this method. */;
 - (unsigned long long)ncorrect serialized record is a %@;
-- (void)alue;
+- (void)videoComplementDurationValue;
 - (void)ownload a resource while the library is not open;
 - (void);
 - (id)ßÐ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CPLSyncSessionConfiguration> configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(readonly, nonatomic) _Bool hasAScheduledSyncSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) CPLSyncSessionPredictor *predictor; // @synthesize predictor=_predictor;
-@property(readonly, nonatomic) unsigned long long requiredState;
-@property(copy, nonatomic) CDUnknownBlockType requiredStateObserverBlock; // @synthesize requiredStateObserverBlock=_requiredStateObserverBlock;
-@property(copy, nonatomic) CDUnknownBlockType shouldBackOffOnErrorBlock; // @synthesize shouldBackOffOnErrorBlock=_shouldBackOffOnErrorBlock;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,6 +6,9 @@
 
 @protocol _UIContentViewSeparatorInsetProviding
 
+@optional
+- (void);
+
 // Remaining properties
 @property(copy, nonatomic, setter=_setPreferredSeparatorInsetsDidChangeHandler:) CDUnknownBlockType _preferredSeparatorInsetsDidChangeHandler;
 // Preceding property had unknown attributes: ?

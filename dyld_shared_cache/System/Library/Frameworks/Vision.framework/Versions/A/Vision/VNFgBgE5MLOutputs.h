@@ -10,14 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLOutputs
 {
     MLMultiArray *_segments;
-    MLMultiArray *_decodeMatch;
-    MLMultiArray *_predictionCocoConfidence;
-    MLMultiArray *_predictionMiyoshiConfidence;
-    MLMultiArray *_predictionIoU;
-    MLMultiArray *_stabilityScore;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
@@ -27,12 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)object failed for following face and torsoprint revisions:%lu and %lu and algorithm type:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) MLMultiArray *decodeMatch; // @synthesize decodeMatch=_decodeMatch;
-@property(readonly) MLMultiArray *predictionCocoConfidence; // @synthesize predictionCocoConfidence=_predictionCocoConfidence;
-@property(readonly) MLMultiArray *predictionIoU; // @synthesize predictionIoU=_predictionIoU;
-@property(readonly) MLMultiArray *predictionMiyoshiConfidence; // @synthesize predictionMiyoshiConfidence=_predictionMiyoshiConfidence;
 @property(readonly) MLMultiArray *segments; // @synthesize segments=_segments;
-@property(readonly) MLMultiArray *stabilityScore; // @synthesize stabilityScore=_stabilityScore;
 
 @end
 

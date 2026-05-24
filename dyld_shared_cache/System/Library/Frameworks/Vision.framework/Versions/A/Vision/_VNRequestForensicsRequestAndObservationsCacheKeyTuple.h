@@ -5,25 +5,22 @@
 //
 
 @class VNRequest;
-@protocol NSObject><NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface _VNRequestForensicsRequestAndObservationsCacheKeyTuple
 {
     VNRequest *_request;
-    id <NSObject><NSCopying> _observationsCacheKey;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)p-;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)yImageAestheticsRequestPrivateRevisionSceneNetV5;
+- (void)VNClassifyImageAestheticsRequestPrivateRevisionSceneNetV5;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSObject><NSCopying> observationsCacheKey; // @synthesize observationsCacheKey=_observationsCacheKey;
 @property(readonly, nonatomic) VNRequest *request; // @synthesize request=_request;
 
 @end

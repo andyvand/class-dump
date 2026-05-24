@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _PFModelMap;
+@class _PFModelMap;
 
 __attribute__((visibility("hidden")))
 @interface NSConstraintValidator
 {
     _PFModelMap *_modelMap;
-    NSArray *_entities;
-    id *_cachesByEntity;
 }
 
 - (void);

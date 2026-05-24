@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonModel
@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)isQueryExactMatch;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *name; // @dynamic name;
-@property(copy) NSSet *personLinks;
 @property(retain) NSData *personLinksData; // @dynamic personLinksData;
 
 @end

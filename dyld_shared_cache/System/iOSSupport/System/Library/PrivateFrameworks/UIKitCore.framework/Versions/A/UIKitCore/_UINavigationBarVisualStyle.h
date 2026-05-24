@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarVisualStyle
 {
     long long _idiom;
-    long long _metrics;
-    _Bool _inPopover;
 }
 
-+ (id)ngs:(long long)arg1 graphicsQuality: /* Error: Ran out of types for this method. */;
-- (double);
++ (id)settingsPreservingHintsFromSettings:(long long)arg1 graphicsQuality: /* Error: Ran out of types for this method. */;
+- (double)!;
 - (double);
 - (double);
 - (double);
@@ -28,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (double);
-- (double);
-- (double);
+- (double);
+- (double)__DATA;
 - (_Bool);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)setValuesForProperties:trackList:andEntryProperties:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (double)_includeEntitiesWithBlankNames;
+- (double)lerCatalystSystemDataSource]Failed to mute;
 - (double);
 - (double);
 - (double);
@@ -54,17 +50,17 @@ __attribute__((visibility("hidden")))
 - (double)ePickerOverlayPresentation"16q24;
 - (double)";
 - (id)dd}16{CGPoint=dd}32@48;
-- (double)onSupporting:performPasteOfAttributedString:toRange: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (double)textPasteConfigurationSupporting:performPasteOfAttributedString:toRange: /* Error: Ran out of types for this method. */;
+- (_Bool)shadowUnselectionDuration;
 - (double)setCustomTransitioningView: /* Error: Ran out of types for this method. */;
-- (double)redKeyboardResponderOverride;
+- (double)preferredKeyboardResponderOverride;
 - (_Bool);
-- (double)hed: /* Error: Ran out of types for this method. */;
-- (double)groundStyle;
-- (double)ountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
+- (double)draggingFinished: /* Error: Ran out of types for this method. */;
+- (double)_updateBackgroundStyle;
+- (double)_bitFlagValueAfterIncrementingHiddenManagementCountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
 - (id)tusBarStyle;
 - (double)Orientation:(long long)arg1 ,V__expectedViewOrientation;
-- (long long)IKBDelegateAwareInputController;
+- (long long)_UIKBDelegateAwareInputController;
 - (double)(;
 - (id);
 - (double);
@@ -78,49 +74,7 @@ __attribute__((visibility("hidden")))
 - (double)ÿL;
 
 // Remaining properties
-@property(readonly, nonatomic) double _legacyButtonFontSize;
-@property(readonly, nonatomic) double _legacyButtonImagePadding;
-@property(readonly, nonatomic) double _legacyLeftTitleMargin;
-@property(readonly, nonatomic) double _legacyRightTitleMargin;
-@property(readonly, nonatomic) double backButtonIndicatorSpacing;
-@property(readonly, nonatomic) double backIndicatorBottomMargin;
-@property(readonly, nonatomic) double barHeight;
-@property(readonly, nonatomic) double barPromptHeight;
-@property(readonly, nonatomic) double bottomButtonMargin;
-@property(readonly, nonatomic) double bottomImageMargin;
-@property(readonly, nonatomic) struct UIEdgeInsets buttonContentEdgeInsets;
-@property(readonly, nonatomic) double buttonFontSize;
-@property(readonly, nonatomic) double buttonHeight;
-@property(readonly, nonatomic) double buttonImagePadding;
-@property(readonly, nonatomic) double headingFontSize;
-@property(readonly, nonatomic) double horizontalMarginAdjustment;
-@property(readonly, nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(nonatomic) _Bool inPopover; // @synthesize inPopover=_inPopover;
-@property(readonly, nonatomic) double interBlockSpace;
-@property(readonly, nonatomic) double interItemSpace;
-@property(readonly, nonatomic) double leftBackImageMargin;
-@property(readonly, nonatomic) double leftBackTitleMargin;
-@property(readonly, nonatomic) double leftTextMargin;
-@property(readonly, nonatomic) double leftTitleMargin;
-@property(readonly, nonatomic) double maxBackButtonProportion;
 @property(nonatomic) long long metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) _Bool metricsHasPrompt;
-@property(readonly, nonatomic) _Bool metricsIsMini;
-@property(readonly, nonatomic) double minBackImageWidth;
-@property(readonly, nonatomic) double minBackTextWidth;
-@property(readonly, nonatomic) double minButtonWidth;
-@property(readonly, nonatomic) double minTitleWidth;
-@property(readonly, nonatomic) double navigationItemBaselineOffset;
-@property(readonly, copy, nonatomic) UIFont *promptFont;
-@property(readonly, nonatomic) double promptFontSize;
-@property(readonly, nonatomic) double promptInset;
-@property(readonly, nonatomic) double promptTextOffset;
-@property(readonly, nonatomic) double rightImageMargin;
-@property(readonly, nonatomic) double rightTitleMargin;
-@property(readonly, nonatomic) double topBackMargin;
-@property(readonly, nonatomic) double topImageMargin;
-@property(readonly, nonatomic) double topMargin;
-@property(readonly, nonatomic) double topTitleMargin;
 
 @end
 

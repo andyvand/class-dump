@@ -7,10 +7,6 @@
 @interface CoreML.BNNSComputeStream.ComputeFunction
 {
     id inputs;
-    id outputs;
-    id dependentEvents;
-    id completionEvent;
-    id body;
 }
 
 @end

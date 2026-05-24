@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface SLYahooLoginTokenResponse
 {
     long long _statusCode;
-    NSError *_error;
-    NSString *_body;
-    NSString *_loginToken;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_sensitiveContentConfiguration;
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly) NSString *body; // @synthesize body=_body;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSString *loginToken; // @synthesize loginToken=_loginToken;
 @property(readonly) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end

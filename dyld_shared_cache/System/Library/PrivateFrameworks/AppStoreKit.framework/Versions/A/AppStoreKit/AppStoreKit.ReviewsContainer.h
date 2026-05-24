@@ -7,15 +7,6 @@
 @interface AppStoreKit.ReviewsContainer
 {
     id adamId;
-    id ratings;
-    id tapToRate;
-    id reviews;
-    id reviewSummary;
-    id editorsChoice;
-    id writeReviewAction;
-    id supportAction;
-    id alwaysAllowReviews;
-    id id;
 }
 
 @end

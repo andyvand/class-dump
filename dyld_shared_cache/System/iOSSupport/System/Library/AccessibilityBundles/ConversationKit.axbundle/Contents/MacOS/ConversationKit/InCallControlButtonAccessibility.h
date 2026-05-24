@@ -14,9 +14,9 @@
 + (id);
 + (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id)tension.axbundle/Contents/MacOS/HashtagImagesExtension;
 
 @end
 

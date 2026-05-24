@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.AssetRemovalProcessorDataSource
 {
     id managedObjectContext;
-    id receiverQueue;
-    id name;
-    id $__lazy_storage_$_observedShowKeys;
-    id observedEpisodeKeys;
 }
 
 @end

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTableView, NSString;
+@class FI_TTableView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTableViewDataSource
 {
     struct TNSWeakPtr<FI_TTableView> _weakTableView;
-    struct vector<TKeyValueBinder, std::allocator<TKeyValueBinder>> _keyValueBinders;
 }
 
 - (void);
@@ -32,13 +31,6 @@ __attribute__((visibility("hidden")))
 - (id)AppearancePrefChanged:]ENK4$_24clEvEUlvE_vJEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak FI_TTableView *tableView;
 
 @end

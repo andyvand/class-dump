@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener, WBSCyclerServiceProxy;
+@class NSXPCListener;
 @protocol WBSCyclerTestTarget;
 
 @interface WBSCyclerConnectionManager
 {
     NSXPCListener *_xpcListener;
-    WBSCyclerServiceProxy *_cyclerProxy;
-    id <WBSCyclerTestTarget> _testTarget;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
 - (id);
 - (id);
@@ -27,13 +25,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <WBSCyclerTestTarget> testTarget; // @synthesize testTarget=_testTarget;
 
 @end

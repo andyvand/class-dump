@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)(;
 + (Class);
 + (long long)StringAsRecordTypeForRedialing: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)t;
+- (id)_amount;
 
 @end
 

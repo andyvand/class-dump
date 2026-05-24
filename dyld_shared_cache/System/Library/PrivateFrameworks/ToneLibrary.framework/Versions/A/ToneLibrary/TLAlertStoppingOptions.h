@@ -7,14 +7,13 @@
 @interface TLAlertStoppingOptions
 {
     _Bool _shouldWaitUntilEndOfCurrentRepetition;
-    double _fadeOutDuration;
 }
 
-+ (_Bool);
++ (_Bool)initWithPersistenceController:restrictionPayloadUtility: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)$;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(nonatomic) _Bool shouldWaitUntilEndOfCurrentRepetition; // @synthesize shouldWaitUntilEndOfCurrentRepetition=_shouldWaitUntilEndOfCurrentRepetition;
 
 @end
 

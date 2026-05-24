@@ -6,15 +6,12 @@
 
 #import <MusicLibrary/ML3DatabaseConnection.h>
 
-@class MLMediaLibraryService, NSUUID;
+@class MLMediaLibraryService;
 @protocol ML3DatabaseDistantConnectionDelegate;
 
 @interface ML3DatabaseDistantConnection : ML3DatabaseConnection
 {
     MLMediaLibraryService *_mediaLibraryService;
-    NSUUID *_currentTransactionID;
-    _Bool _connectionOpen;
-    id <ML3DatabaseDistantConnectionDelegate> _distantDelegate;
 }
 
 - (_Bool);
@@ -28,15 +25,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)_internalPredicate;
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (struct sqlite3 *);
+- (id)';
+- (struct sqlite3 *)c;
 - (void)iner_item_pid FROM container_item WHERE container_pid = ?);
 - (void)y BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, keep_local_status_reason INTEGER NOT NULL DEFAULT 0, keep_local_constraints INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0);
 - (_Bool);

@@ -16,9 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool iOS;
-@property(readonly, nonatomic) _Bool iPad;
-@property(readonly, nonatomic) _Bool iPhone;
 @property(readonly, nonatomic) _Bool macOS;
 
 @end

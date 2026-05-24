@@ -7,16 +7,16 @@
 @class NSData, _SFPBImage, _SFPBText;
 
 @protocol _SFPBFormattedText
-- (void)y:(int)arg1;
+- (void)l;
+- (void)ord repeats part of the password, which makes it easy to guess.;
+- (_SFPBText *));
+- (_SFPBImage *)setInvitationsToAdd: /* Error: Ran out of types for this method. */;
+- (NSData *)",R,N,V_faceRegions;
+- (int)PercentByCategoriesType:%@ /* Error: Ran out of types for this method. */;
+- (void)decodeArrayOfObjectsOfClass:(int)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (_Bool)xå;
 
 // Remaining properties
-@property(nonatomic) int encapsulationStyle;
-@property(retain, nonatomic) _SFPBImage *glyph;
-@property(nonatomic) _Bool isBold;
-@property(nonatomic) _Bool isEmphasized;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBText *text;
-@property(nonatomic) int textColor;
 @end
 

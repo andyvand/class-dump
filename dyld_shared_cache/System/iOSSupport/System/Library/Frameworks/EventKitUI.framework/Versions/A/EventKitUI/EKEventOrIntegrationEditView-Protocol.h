@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEvent;
 @protocol EKEventOrIntegrationEditViewDelegate;
 
 @protocol EKEventOrIntegrationEditView
+- (void)s;
+- (id <EKEventOrIntegrationEditViewDelegate>)&s;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendar *calendarToMakeVisibleOnSave;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) _Bool ignoreUnsavedChanges;
 @property(nonatomic) __weak id <EKEventOrIntegrationEditViewDelegate> internalEditViewDelegate;
 @end
 

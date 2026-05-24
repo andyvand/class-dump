@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, OITSUColor;
-
 __attribute__((visibility("hidden")))
 @interface MFPColorAdjust
 {
     struct MFPColorMatrix *mColorMatrix;
-    struct MFPColorMatrix *mGrayMatrix;
-    int mColorMatrixFlags;
-    OITSUColor *mTransparentRangeLow;
-    OITSUColor *mTransparentRangeHigh;
-    float mGamma;
-    NSDictionary *mRecolorMap;
-    float mThreshold;
-    _Bool mEnabled;
 }
 
 - (id);
@@ -26,17 +16,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct MFPColorMatrix *);
+- (id)A;
+- (struct MFPColorMatrix *)#;
 - (int);
 - (id);
 - (void);
-- (float);
+- (float)textRepresentationForEvent:withTextFormat:showURI: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)initWithPath: /* Error: Ran out of types for this method. */;
 - (struct MFPColorMatrix *);
-- (void);
+- (void);
 - (_Bool);
 - (void)äd¼;
 - (float)M{;

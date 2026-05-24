@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorCrossServiceAssociationMessage
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSUUID *replacementGUID;
 
 @end
 

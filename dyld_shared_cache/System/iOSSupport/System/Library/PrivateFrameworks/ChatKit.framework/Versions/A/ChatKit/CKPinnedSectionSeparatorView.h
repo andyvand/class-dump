@@ -9,7 +9,7 @@
 }
 
 + (double);
-+ (id);
++ (id)0;
 + (struct UIEdgeInsets)¢5äG1;
 - (id);
 

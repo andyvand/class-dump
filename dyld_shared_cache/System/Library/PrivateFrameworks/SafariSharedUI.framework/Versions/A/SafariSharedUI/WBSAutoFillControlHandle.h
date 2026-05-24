@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _WKFrameHandle;
+@class _WKFrameHandle;
 
 @interface WBSAutoFillControlHandle
 {
     _WKFrameHandle *frameHandle;
-    long long formID;
-    void controlID;
 }
 
 + (void);
 - (id);
-- (id);
-- (id);
+- (id)45;
+- (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *controlID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long formID; // @synthesize formID;
 @property(nonatomic, readonly) _WKFrameHandle *frameHandle; // @synthesize frameHandle;
 
 @end

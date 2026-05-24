@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBGraphicalFloat;
+@class _SFPBGraphicalFloat;
 
 @interface _SFPBDynamicURLImageResource
 {
     _Bool _supportsResizing;
-    _SFPBGraphicalFloat *_pixelWidth;
-    _SFPBGraphicalFloat *_pixelHeight;
-    NSString *_formatURL;
-    NSArray *_imageOptions;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)R$;
 - (id);
 - (id);
 - (void);
@@ -34,26 +30,14 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)livePhotoRequestInitialBehaviorSpecWithLivePhotoRequestOptions:(id)arg1 asset: /* Error: Ran out of types for this method. */;
+- (id)ed with success:%@, error:%@, availability:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)rFlightNumber: /* Error: Ran out of types for this method. */;
+- (void)setOperatorFlightNumber: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *formatURL; // @synthesize formatURL=_formatURL;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *imageOptions; // @synthesize imageOptions=_imageOptions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBGraphicalFloat *pixelHeight; // @synthesize pixelHeight=_pixelHeight;
 @property(retain, nonatomic) _SFPBGraphicalFloat *pixelWidth; // @synthesize pixelWidth=_pixelWidth;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsResizing; // @synthesize supportsResizing=_supportsResizing;
 
 @end
 

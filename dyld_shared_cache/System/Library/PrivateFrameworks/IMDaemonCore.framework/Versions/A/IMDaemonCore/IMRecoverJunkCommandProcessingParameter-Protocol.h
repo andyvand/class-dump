@@ -7,13 +7,12 @@
 @class NSNumber, NSString;
 
 @protocol IMRecoverJunkCommandProcessingParameter
+- (_Bool)TransportSessionLegacyDelegate) transportSession:connectionSetupDataDidChange:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (NSNumber *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(copy, nonatomic) NSString *replicationSourceServiceName;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

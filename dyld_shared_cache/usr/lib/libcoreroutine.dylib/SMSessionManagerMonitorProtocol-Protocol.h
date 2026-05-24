@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SMSessionMonitorContext;
+
 @protocol SMSessionManagerMonitorProtocol
+- (void);
+- (void)sharingRequestDataForIdentity:(SMSessionMonitorContext *)arg1 error: /* Error: Ran out of types for this method. */;
 @end
 

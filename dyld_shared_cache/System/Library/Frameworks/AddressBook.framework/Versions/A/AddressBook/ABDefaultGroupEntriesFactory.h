@@ -6,12 +6,9 @@
 
 #import <AddressBook/ABAbstractGroupEntriesFactory.h>
 
-@class NSString;
-
 @interface ABDefaultGroupEntriesFactory : ABAbstractGroupEntriesFactory
 {
     _Bool _includeLastImport;
-    NSString *_identifierOfAccountCreatingNewGroup;
 }
 
 - (void);
@@ -24,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(copy) NSString *identifierOfAccountCreatingNewGroup; // @synthesize identifierOfAccountCreatingNewGroup=_identifierOfAccountCreatingNewGroup;
 @property _Bool includeLastImport; // @synthesize includeLastImport=_includeLastImport;
 
 @end

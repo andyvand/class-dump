@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSURL;
+@class NSURL;
 
 @interface UABaseSystem
 {
@@ -40,7 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,13 +54,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *_overriddenAccessibilityType;
-@property(copy, nonatomic, setter=_setPrebootPreferences:) NSDictionary *_prebootPreferences;
-@property(readonly, nonatomic) unsigned long long accessibilityType;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(copy, nonatomic) NSDictionary *featurePreferences;
-@property(readonly, nonatomic) _Bool hasPairedSystemPartition;
-@property(readonly, nonatomic) _Bool hasPreboot;
 @property(copy, nonatomic) NSURL *testingPrebootURL; // @synthesize testingPrebootURL=_testingPrebootURL;
 
 @end

@@ -7,9 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFImageElement
+- (NSArray *)mediaType;
+- (NSData *)SCountedSet",&,N,V_assetMatchedMemoryUUIDs;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sources;
 @end
 

@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityRepeatingAsyncTask
 {
     id logger;
-    id name;
-    id state;
 }
 
 @end

@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURLSession;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AIASSession
 {
     _Bool _invalidated;
-    NSMutableDictionary *_taskMap;
-    NSURLSession *_URLSession;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)h(;
 - (void);
 - (id);
 - (void);
+- (void)@;
 - (id);
+- (void);
 - (id);
+- (id)6;
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)_DM_filter_children;
+- (_Bool)ce Fork;
 - (void);
 
 // Remaining properties
-@property(retain) NSURLSession *URLSession; // @synthesize URLSession=_URLSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) Class superclass;
 @property(retain) NSMutableDictionary *taskMap; // @synthesize taskMap=_taskMap;
 
 @end

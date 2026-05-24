@@ -7,12 +7,12 @@
 @class NSArray;
 
 @protocol MechanismComposite
+- (NSArray *)NVectorScaleLayer::initialize() - Incorrect data size /* Error: Ran out of types for this method. */;
+- (_Bool)Layer uninitialized;
+- (_Bool)type;
+- (unsigned long long)after initialize();
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAND) _Bool AND;
-@property(readonly, nonatomic, getter=isOR) _Bool OR;
 @property(readonly, nonatomic) unsigned long long k;
-@property(readonly, nonatomic) unsigned long long n;
-@property(readonly, nonatomic) NSArray *submechanisms;
 @end
 

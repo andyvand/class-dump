@@ -9,25 +9,20 @@
 @interface BWStillImageProcessingSettings
 {
     BWPhotoManifest *_photoManifest;
-    _Bool _processIntelligentDistortionCorrection;
-    _Bool _provideDemosaicedRaw;
-    _Bool _optimizedProcessingForZoomFOVEnabled;
-    _Bool _optimizedProcessingWithCropAndDownscaleEnabled;
-    _Bool _documentScanning;
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void)_localeSpecificStorageLock;
+- (void)CHXCategoryAxis;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)@9H;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)iata;
 - (void);
 - (void);
 - (_Bool);
@@ -37,13 +32,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool documentScanning; // @synthesize documentScanning=_documentScanning;
-@property(readonly, nonatomic) int expectedClientImageCount;
-@property(nonatomic) _Bool optimizedProcessingForZoomFOVEnabled; // @synthesize optimizedProcessingForZoomFOVEnabled=_optimizedProcessingForZoomFOVEnabled;
-@property(nonatomic) _Bool optimizedProcessingWithCropAndDownscaleEnabled; // @synthesize optimizedProcessingWithCropAndDownscaleEnabled=_optimizedProcessingWithCropAndDownscaleEnabled;
 @property(readonly, nonatomic) BWPhotoManifest *photoManifest; // @synthesize photoManifest=_photoManifest;
-@property(readonly, nonatomic) _Bool processIntelligentDistortionCorrection; // @synthesize processIntelligentDistortionCorrection=_processIntelligentDistortionCorrection;
-@property(readonly, nonatomic) _Bool provideDemosaicedRaw; // @synthesize provideDemosaicedRaw=_provideDemosaicedRaw;
 
 @end
 

@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 - (Class);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)ODv8MZuiP0IA+efJCw;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (Class);
 

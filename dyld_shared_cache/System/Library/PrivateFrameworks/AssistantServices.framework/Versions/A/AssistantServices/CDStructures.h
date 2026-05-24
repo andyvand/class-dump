@@ -11,42 +11,37 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct AFPowerContext {
-    unsigned long long cpuContext;
-    unsigned long long aneContext;
-    unsigned long long gpuContext;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
 };
 
 struct AFSiriAllCapabilities {
-    unsigned long long fullUODCapabilities;
-    unsigned long long hybridCapabilities;
-    unsigned long long saeCapabilities;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
 };
 
 struct AudioStreamBasicDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
-};
-
-struct AvailabilityState {
-    unsigned int availabilityIsKnown:1;
-    unsigned int isAvailable:1;
+    double _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
+    unsigned int _field9;
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct MyriadMetricsDataV1 {

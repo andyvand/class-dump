@@ -7,9 +7,6 @@
 @interface NewsArticles.TableOfContentsHeaderView
 {
     id coverViewButton;
-    id subscribeButton;
-    id dateLabel;
-    id descriptionLabel;
 }
 
 - (id);

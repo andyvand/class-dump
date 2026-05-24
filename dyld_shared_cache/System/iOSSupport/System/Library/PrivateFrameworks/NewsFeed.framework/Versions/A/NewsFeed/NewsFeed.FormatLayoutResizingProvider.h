@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatLayoutResizingProvider
 {
     id lock;
-    id cellSizesByViewportSize;
-    id onChangeBlock;
 }
 
 @end

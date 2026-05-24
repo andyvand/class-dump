@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AFMyriadAdvertisementContext
 {
     unsigned long long _generation;
-    NSData *_contextData;
-    double _contextFetchDelay;
 }
 
-+ (id);
++ (id)p#;
 + (_Bool);
 - (id);
 - (double);
-- (id);
+- (id)KPaymentAuthorizationHostProtocol>",W,N,V_delegate;
 - (id);
 - (id);
 - (id);
@@ -32,8 +28,6 @@
 - (void)nAdvertisement;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *contextData; // @synthesize contextData=_contextData;
-@property(readonly, nonatomic) double contextFetchDelay; // @synthesize contextFetchDelay=_contextFetchDelay;
 @property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
 
 @end

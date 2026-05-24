@@ -9,10 +9,6 @@
 @interface _MRSetConversationDetectionEnabledMessageProtobuf
 {
     NSString *_outputDeviceUID;
-    _Bool _enabled;
-    struct {
-        unsigned int enabled:1;
-    } _has;
 }
 
 - (void);
@@ -21,23 +17,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)updateAlternateHandle:forChatBotHandle:refreshUI: /* Error: Ran out of types for this method. */;
+- (_Bool)closeSessionChatID:identifier:didDeleteConversation:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)GyroWidget;
+- (void)AFSiriDataSharingSensitivityManager.m;
+- (id)ntext:error:options:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)yedCoding;
-- (_Bool)agnosticsDataSource;
+- (void)allowsKeyedCoding;
+- (_Bool)MRClientDiagnosticsDataSource;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic) _Bool hasEnabled;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

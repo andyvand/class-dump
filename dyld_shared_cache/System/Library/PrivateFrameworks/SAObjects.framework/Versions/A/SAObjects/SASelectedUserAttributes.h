@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SASelectedUserAttributes : AceObject
 {
@@ -26,18 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *lowScoreThreshold;
-@property(copy, nonatomic) NSNumber *meetsPersonalRequestThreshold;
-@property(copy, nonatomic) NSNumber *meetsUserSessionThreshold;
-@property(copy, nonatomic) NSNumber *score;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *userIdentityClassification;
 
 @end
 

@@ -4,79 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDAdminDatabase, ISDDataDirectoryVersion, ISDNameNumberProvider, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ISDDataManager
 {
     NSString *_dataDirectory;
-    NSString *_adminDatabasePath;
-    NSString *_schemasArchivePath;
-    ISDAdminDatabase *_adminDatabase;
-    NSString *_syncingClientListPath;
-    unsigned int _anchor;
-    _Bool _shouldBumpAnchorOnNextChange;
-    _Bool _shouldUpdateMetadataOnEnableFlush;
-    NSMutableDictionary *_clients;
-    NSMutableDictionary *_schemas;
-    NSMutableDictionary *_dataClasses;
-    NSMutableDictionary *_entities;
-    unsigned int _syncGeneration;
-    _Bool _clientAdminDataChanged;
-    _Bool _clientSyncStateChanged;
-    _Bool _schemaAdminDataChanged;
-    ISDDataDirectoryVersion *_dataVersion;
-    ISDNameNumberProvider *_associatedNameNumberProvider;
-    _Bool _shouldWriteSchemasArchiveToDisk;
 }
 
-+ (void);
++ (void)(;
 + (_Bool);
-+ (void)cord:error:keepAwayFromServer: /* Error: Ran out of types for this method. */;
++ (void)applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:keepAwayFromServer: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (unsigned int);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);;
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -94,17 +76,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (id);
+- (id)m9h;
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -112,6 +94,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -119,8 +102,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -129,7 +111,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -148,29 +130,23 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (id)ForUnresolvedLocalId:localId] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

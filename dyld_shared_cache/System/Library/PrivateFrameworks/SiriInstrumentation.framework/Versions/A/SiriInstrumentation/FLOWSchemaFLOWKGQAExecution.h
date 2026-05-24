@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface FLOWSchemaFLOWKGQAExecution : SISchemaInstrumentationMessage
 {
     int _kgQAUsecase;
-    NSArray *_attributes;
-    _Bool _isDisputedResponse;
-    NSString *_nlgKey;
-    _Bool _isWebExtractedFact;
-    CDStruct_3f132234 _has;
-    _Bool _hasNlgKey;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,17 +30,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)(=;
 - (void);
 - (id);
 - (void);
+- (id)V;
 - (void);
-- (unsigned long long);
+- (void)/Downloads/;
+- (unsigned long long)c;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)ire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON m.ROWID = j.message_id INNER JOIN chat c ON c.ROWID = j.chat_id WHERE c.chat_identifier = ? AND m.item_type = 0 AND m.is_system_message = 0 AND m.is_read == 1 AND is_from_me == 0 AND is_finished == 1 ORDER BY m.date DESC LIMIT 1;
 - (_Bool);
 - (id);
 - (void);
@@ -58,16 +50,7 @@
 - (void)àè¾ÿ@³;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) _Bool hasIsDisputedResponse;
-@property(nonatomic) _Bool hasIsWebExtractedFact;
-@property(nonatomic) _Bool hasKgQAUsecase;
-@property(nonatomic) _Bool hasNlgKey; // @synthesize hasNlgKey=_hasNlgKey;
-@property(nonatomic) _Bool isDisputedResponse; // @synthesize isDisputedResponse=_isDisputedResponse;
-@property(nonatomic) _Bool isWebExtractedFact; // @synthesize isWebExtractedFact=_isWebExtractedFact;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int kgQAUsecase; // @synthesize kgQAUsecase=_kgQAUsecase;
-@property(copy, nonatomic) NSString *nlgKey; // @synthesize nlgKey=_nlgKey;
 
 @end
 

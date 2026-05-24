@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSMediaSuggestionOutcome : SISchemaInstrumentationMessage
 {
     int _mediaSuggestionFeedback;
-    struct {
-        unsigned int mediaSuggestionFeedback:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Clean up took:(id)arg1 %f seconds;
 - (id);
 - (id)áqÐ!ðCùqÝÐ1Â0@ù
 × ;
-- (id)onseSuppressionExecutionContext;
+- (id)_hasUnintendedResponseSuppressionExecutionContext;
 - (id)lientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaSuggestionFeedback;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mediaSuggestionFeedback; // @synthesize mediaSuggestionFeedback=_mediaSuggestionFeedback;
 
 @end

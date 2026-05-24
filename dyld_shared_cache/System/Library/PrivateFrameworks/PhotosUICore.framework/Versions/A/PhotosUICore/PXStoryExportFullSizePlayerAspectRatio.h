@@ -9,20 +9,18 @@
 @interface PXStoryExportFullSizePlayerAspectRatio : PXStoryExportAspectRatio
 {
     double _scale;
-    struct CGSize _size;
 }
 
-- (id);
+- (id)R";
 - (unsigned long long);
 - (double);
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (id)BurnsRotationSpeed:(struct _NSZone *)arg1;
+- (id)setKenBurnsRotationSpeed:(struct _NSZone *)arg1;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

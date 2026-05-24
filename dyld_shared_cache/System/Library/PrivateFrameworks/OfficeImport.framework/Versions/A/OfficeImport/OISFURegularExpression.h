@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OISFURegularExpression
 {
     NSString *_expressionString;
-    void *_reserved;
 }
 
 + (id);

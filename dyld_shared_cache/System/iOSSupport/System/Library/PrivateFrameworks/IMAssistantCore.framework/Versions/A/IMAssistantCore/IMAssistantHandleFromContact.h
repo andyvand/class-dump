@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNLabeledValue, NSString;
+@class CNContact, CNLabeledValue;
 
 @interface IMAssistantHandleFromContact
 {
     CNContact *_contact;
     CNLabeledValue *_labeledEmailAddress;
-    CNLabeledValue *_labeledPhoneNumber;
-    NSString *_businessID;
-    NSString *_handleID;
-    NSString *_displayID;
-    long long _personHandleType;
-    long long _handleType;
 }
 
 - (long long);
@@ -31,21 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id) ;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *businessID; // @synthesize businessID=_businessID;
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) NSString *handleID; // @synthesize handleID=_handleID;
 @property(readonly, nonatomic) long long handleType; // @synthesize handleType=_handleType;
-@property(readonly, nonatomic) CNLabeledValue *labeledEmailAddress; // @synthesize labeledEmailAddress=_labeledEmailAddress;
-@property(readonly, nonatomic) CNLabeledValue *labeledPhoneNumber; // @synthesize labeledPhoneNumber=_labeledPhoneNumber;
-@property(readonly, nonatomic) NSString *personHandleLabel;
-@property(readonly, nonatomic) long long personHandleType; // @synthesize personHandleType=_personHandleType;
 
 @end
 

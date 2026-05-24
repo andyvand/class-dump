@@ -6,29 +6,25 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class NSURL, UITableViewCell;
+@class NSURL;
 @protocol EKCalendarSubscriptionSpamCheckEditItemDelegate;
 
 @interface EKCalendarSubscriptionSpamCheckEditItem : EKCalendarEditItem
 {
     NSURL *_currentURL;
-    _Bool _inThrottlePeriod;
-    int _state;
-    UITableViewCell *_cell;
-    id <EKCalendarSubscriptionSpamCheckEditItemDelegate> _subscriptionSpamDelegate;
 }
 
 - (id);
 - (void);
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)c%s;
+- (void)o;
+- (id);
 - (unsigned long long);
 - (void);
-- (void)rReloadBehavior;
+- (void)onSaveEditorReloadBehavior;
 
 // Remaining properties
 @property(nonatomic) __weak id <EKCalendarSubscriptionSpamCheckEditItemDelegate> subscriptionSpamDelegate; // @synthesize subscriptionSpamDelegate=_subscriptionSpamDelegate;

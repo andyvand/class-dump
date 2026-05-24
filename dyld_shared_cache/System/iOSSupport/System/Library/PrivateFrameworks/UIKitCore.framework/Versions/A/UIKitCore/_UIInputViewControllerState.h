@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TIDocumentState, TITextInputTraits, UITextInputMode;
+@class TIDocumentState;
 
 __attribute__((visibility("hidden")))
 @interface _UIInputViewControllerState
 {
     _Bool _needsInputModeSwitchKey;
-    TIDocumentState *_documentState;
-    TITextInputTraits *_textInputTraits;
-    UITextInputMode *_documentInputMode;
-    NSUUID *_documentIdentifier;
 }
 
-+ (id);
++ (id)was different than the record we tried to update with GUID (%@); marking local attachment as synced, to skip to;
 + (_Bool)%d
 ;
 - (void);
-- (void);
+- (void)_smsSoundsToPlay;
 - (void);
 - (id);
 - (_Bool);
@@ -29,20 +25,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool)eProgress:(id)arg1 finish:transitionCompleted:transitionContext: /* Error: Ran out of types for this method. */;
-- (void)TouchInput:(id)arg1;
+- (_Bool)transitionConductor:(id)arg1 interactiveTransitionDidUpdateProgress:finish:transitionCompleted:transitionContext: /* Error: Ran out of types for this method. */;
+- (void)setDisableTouchInput:(id)arg1;
 - (id)houldAssignOffscreenWidthsToStateRequest;
-- (void)nment;
+- (void)NUISplitViewControllerLayoutEnvironment;
 - (void)9¬ÿ½kÜë_;
 - (id)®;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *documentIdentifier; // @synthesize documentIdentifier=_documentIdentifier;
-@property(retain, nonatomic) UITextInputMode *documentInputMode; // @synthesize documentInputMode=_documentInputMode;
 @property(retain, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(nonatomic) _Bool needsInputModeSwitchKey; // @synthesize needsInputModeSwitchKey=_needsInputModeSwitchKey;
-@property(retain, nonatomic) TITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 
 @end
 

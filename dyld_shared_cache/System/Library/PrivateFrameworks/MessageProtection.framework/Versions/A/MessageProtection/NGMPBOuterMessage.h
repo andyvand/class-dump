@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface NGMPBOuterMessage
 {
     NSData *_encryptedPayload;
-    NSData *_ephemeralPubKey;
-    NSData *_keyValidator;
-    NSData *_signature;
-    NSData *_tetraMessage;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)T;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)e>"16;
 - (id);
 - (void);
 - (void);
@@ -35,24 +31,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)e Services agent disconnected;
+- (id)sert attachment hash %@ into attachments table;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptedPayload; // @synthesize encryptedPayload=_encryptedPayload;
-@property(retain, nonatomic) NSData *ephemeralPubKey; // @synthesize ephemeralPubKey=_ephemeralPubKey;
 @property(readonly, nonatomic) _Bool hasEncryptedPayload;
-@property(readonly, nonatomic) _Bool hasEphemeralPubKey;
-@property(readonly, nonatomic) _Bool hasKeyValidator;
-@property(readonly, nonatomic) _Bool hasSignature;
-@property(readonly, nonatomic) _Bool hasTetraMessage;
-@property(retain, nonatomic) NSData *keyValidator; // @synthesize keyValidator=_keyValidator;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(retain, nonatomic) NSData *tetraMessage; // @synthesize tetraMessage=_tetraMessage;
 
 @end
 

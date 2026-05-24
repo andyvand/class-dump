@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessagePartSyndicationAssetDescriptor, NSDate, NSString;
+@class NSString;
 
 @interface IMMessagePartSyndicationRange
 {
     NSString *_serializedString;
-    unsigned long long _serializedVersion;
-    long long _syndicationType;
-    long long _syndicationStatus;
-    NSDate *_syndicationStartDate;
-    IMMessagePartSyndicationAssetDescriptor *_assetDescriptor;
-    struct _NSRange _messagePartRange;
 }
 
 + (id);
@@ -48,23 +42,17 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
+- (id)R;
 - (id);
-- (id);
-- (void)rror;
+- (void)decodingError;
 
 // Remaining properties
-@property(readonly, nonatomic) IMMessagePartSyndicationAssetDescriptor *assetDescriptor; // @synthesize assetDescriptor=_assetDescriptor;
-@property(readonly, nonatomic) struct _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
 @property(readonly, nonatomic) NSString *serializedString; // @synthesize serializedString=_serializedString;
-@property(readonly, nonatomic) unsigned long long serializedVersion; // @synthesize serializedVersion=_serializedVersion;
-@property(readonly, nonatomic) NSDate *syndicationStartDate; // @synthesize syndicationStartDate=_syndicationStartDate;
-@property(nonatomic) long long syndicationStatus; // @synthesize syndicationStatus=_syndicationStatus;
-@property(readonly, nonatomic) long long syndicationType; // @synthesize syndicationType=_syndicationType;
 
 @end
 

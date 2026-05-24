@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)_readIdentifierStore;
 + (Class);
-- (id);
+- (id)1 != idx2;
 - (id);
 
 @end

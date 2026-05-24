@@ -7,7 +7,7 @@
 @class NSDictionary, NSString;
 
 @protocol _UIRemoteKeyboardDistributedViewSource
-- (void)layTypeLeftArrow;
+- (void)UIKBKeyDisplayTypeLeftArrow;
 - (void)ApplicationSceneDeactivationReasonIsValid(reason);
 - (void)opLayoutGuide = %@, bottomlayoutGuide = %@;
 - (void)ectionView:(NSString *)arg1 indexPathForIndexTitle:(NSDictionary *)arg2 atIndex: /* Error: Ran out of types for this method. */;

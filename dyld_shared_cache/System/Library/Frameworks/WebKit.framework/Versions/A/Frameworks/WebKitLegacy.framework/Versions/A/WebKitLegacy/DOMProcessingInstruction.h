@@ -6,17 +6,16 @@
 
 #import <WebKitLegacy/DOMCharacterData.h>
 
-@class DOMStyleSheet, NSString;
+@class NSString;
 
 @interface DOMProcessingInstruction : DOMCharacterData
 {
 }
 
 - (id);
-- (id);
+- (id)eventForSettingsChangedWithSettings:bundleID:account: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) DOMStyleSheet *sheet;
 @property(readonly, copy) NSString *target;
 
 @end

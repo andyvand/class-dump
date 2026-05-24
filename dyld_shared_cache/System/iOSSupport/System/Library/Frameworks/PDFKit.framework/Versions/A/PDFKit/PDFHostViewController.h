@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFHostViewControllerPrivate;
+@class PDFHostViewControllerPrivate;
 
 @interface PDFHostViewController
 {
@@ -20,7 +20,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -38,23 +38,23 @@
 - (void);
 - (void);
 - (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (struct CGRect);
-- (double);
+- (double);
 - (void);
 - (void);
 - (struct CGSize);
@@ -73,30 +73,24 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)LPGlyphStyle;
 - (double);
-- (double);
+- (double)lN;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ASAuthorizationWebBrowserSecurityKeyPublicKeyCredentialAssertionRequest;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (long long)otationsForThisThread: /* Error: Ran out of types for this method. */;
-- (void);
+- (long long)setShouldHideAnnotationsForThisThread: /* Error: Ran out of types for this method. */;
+- (void)numberOfSectionsInTableView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

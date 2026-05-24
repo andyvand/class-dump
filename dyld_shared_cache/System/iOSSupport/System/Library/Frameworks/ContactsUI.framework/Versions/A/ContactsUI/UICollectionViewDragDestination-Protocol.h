@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView;
+@class UICollectionView, UICollectionViewDropProposal;
+@protocol _UICollectionViewDropCoordinator;
 
 @protocol UICollectionViewDragDestination
 
 @optional
+- (void)webView:(UICollectionView *)arg1 resource:(id <_UICollectionViewDropCoordinator>)arg2 didFinishLoadingFromDataSource: /* Error: Ran out of types for this method. */;
+- (UICollectionViewDropProposal *)1;
 - (void):(UICollectionView *)arg1 8{CGSize=dd}16d32;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface GCDeviceElementDescription
 {
@@ -20,21 +20,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)redactUniformResourceIdentifierFromNetworkMetrics;
 - (_Bool);
 - (void);
-- (id);
+- (id)fetchCustodianHealthStatusWithCompletion:(struct _NSZone *)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSSet *additionalAliases;
-@property(readonly, getter=isBoundToSystemGesture) _Bool boundToSystemGesture;
-@property(readonly, getter=isMappableToSystemGestures) _Bool mappableToSystemGestures;
 @property(readonly) NSString *name;
-@property(readonly) NSString *nameLocalizationKey; // @synthesize nameLocalizationKey=_nameLocalizationKey;
-@property(readonly, getter=isRemappable) _Bool remappable;
-@property(readonly) NSString *symbolName;
 
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString, NSTimer, NSView, TKPickerOutlineView, TKTonePickerController;
-@protocol TKTonePickerContentViewControllerDelegate;
+@class TKTonePickerController;
 
 @interface TKTonePickerOutlineViewController
 {
     TKTonePickerController *_tonePickerController;
-    TKPickerOutlineView *_outlineView;
-    _Bool _isUpdatingSelectionProgrammatically;
-    long long _previouslySelectedRow;
-    NSTimer *_selectionConsistencyRestorationTimer;
-    id <TKTonePickerContentViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�C;
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -37,11 +31,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -50,27 +44,18 @@
 - (_Bool);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithClientInfo:withMediaDomains:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TKTonePickerContentViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *tonePickerContentView;
-@property(readonly, nonatomic) NSResponder *tonePickerResponder;
 
 @end
 

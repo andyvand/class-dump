@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SAProximateProcess
 {
     unsigned int _count;
-    NSString *_name;
-    NSMutableArray *_pids;
-    NSMutableDictionary *_originProcesses;
 }
 
 - (void);

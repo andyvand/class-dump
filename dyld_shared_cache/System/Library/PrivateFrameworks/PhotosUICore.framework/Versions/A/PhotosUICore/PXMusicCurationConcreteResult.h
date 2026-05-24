@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
-
 @interface PXMusicCurationConcreteResult
 {
     _Bool _isComplete;
-    NSDictionary *_songsByCategory;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (id);
+- (id) B9;
 - (id);
 - (id);
 - (id);
@@ -23,9 +19,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, copy, nonatomic) NSDictionary *songsByCategory; // @synthesize songsByCategory=_songsByCategory;
 
 @end
 

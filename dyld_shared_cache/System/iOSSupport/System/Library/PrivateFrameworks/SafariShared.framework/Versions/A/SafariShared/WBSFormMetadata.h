@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL, WBSFormControlMetadata, WBSFormMetadataPasswordRules;
+@class NSNumber, WBSFormMetadataPasswordRules;
 
 @interface WBSFormMetadata
 {
     NSNumber *_containsAtLeastOneSecureTextField;
-    unsigned long long _type;
-    NSArray *_controls;
-    NSString *_userNameElementUniqueID;
-    NSString *_passwordElementUniqueID;
-    NSString *_confirmPasswordElementUniqueID;
-    NSString *_oldPasswordElementUniqueID;
-    NSString *_firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
-    _Bool _allowsAutocomplete;
-    _Bool _containsActiveElement;
-    _Bool _bestForPageLevelAutoFill;
-    _Bool _bestForStreamlinedLogin;
-    _Bool _eligibleForAutomaticLogin;
-    _Bool _visible;
-    _Bool _usesRelAsync;
-    _Bool _usesGeneratedPassword;
-    _Bool _isSearchForm;
-    NSDictionary *_annotations;
-    NSURL *_action;
-    long long _uniqueID;
-    NSString *_logicalFormElementSelector;
-    NSString *_textSample;
-    unsigned long long _requestType;
-    WBSFormMetadataPasswordRules *_passwordRules;
-    NSDictionary *_passwordRequirements;
 }
 
 + (CDUnknownBlockType);
@@ -46,14 +22,14 @@
 - (id);
 - (void);
 - (id);
+- (id)u;
 - (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (id);
@@ -68,15 +44,128 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_itemIdentifiers;
 - (_Bool);
 - (void);
-- (long long);
+- (long long)totalAccum  += shadowMap.sample_compare(shadow_sampler, samplePos, uvp.z);
+                }
+            }
+            shadow = totalAccum / float(sampleCount * sampleCount);
+        }
+    }
+
+    
+    shadow *= step(0., lightScreen.w);
+
+    return shadow;
+}
+
+inline float ComputeSoftShadow(sampler shadow_sampler, float3 worldPos, float4x4 shadowMatrix, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount, float shadowRadius, bool reverseZ)
+{
+    float4 lightScreen =  transformViewPosInShadowSpace(worldPos, shadowMatrix, reverseZ);
+
+    
+    float shadow;
+    if (sampleCount <= 1) {
+        shadow = shadow2DProj(shadow_sampler, shadowMap, lightScreen);
+    } else {
+        
+        float3 center_uv = lightScreen.xyz / lightScreen.w;
+        float3 scale_uv  = float3(shadowRadius, shadowRadius, reverseZ ? shadowRadius * center_uv.z :shadowRadius / lightScreen.w );
+
+        
+        float totalAccum = 0.0;
+        for (int i = 0; i < sampleCount; i++) {
+            totalAccum += shadow2D(shadow_sampler, shadowMap, center_uv + shadowKernel[i].xyz * scale_uv);
+        }
+        
+        shadow = totalAccum / float(sampleCount);
+    }
+
+    
+    shadow *= step(0., lightScreen.w);
+
+    return shadow;
+}
+
+inline float ComputeCascadeBlendAmount(float3 shadowPos, bool cascadeBlending)
+{
+    const float cascadeBlendingFactor = 0.1f; 
+
+    float3 cascadePos = abs(shadowPos.xyz * 2.f - 1.f);
+    
+    if (cascadeBlending) {
+#if 0
+        const float edge = 1.f - cascadeBlendingFactor;
+        
+        cascadePos = 1.f - saturate((cascadePos - edge) / cascadeBlendingFactor);
+        return cascadePos.x * cascadePos.y * cascadePos.z; 
+#else
+        
+        float distToEdge = 1.0f - max(max(cascadePos.x, cascadePos.y), cascadePos.z);
+        return smoothstep(0.0f, cascadeBlendingFactor, distToEdge);
+#endif
+    } else {
+        return step(cascadePos.x, 1.f) * step(cascadePos.y, 1.f) * step(cascadePos.z, 1.f);
+    }
+}
+
+inline float4 SampleShadowCascade(sampler shadow_sampler, depth2d_array<float> shadowMaps, float3 shadowPosition, uint cascadeIndex, constant float4* shadowKernel, int sampleCount, float shadowRadius)
+{
+    
+    float2 gridSize = float2(shadowMaps.get_width(), shadowMaps.get_height()) / 32;
+    float gd = scn::checkerboard(shadowPosition.xy, gridSize);
+    float3 gridCol = mix(float3(scn::debugColorForCascade(cascadeIndex).rgb), float3(0.f), float3(gd > 0.f));
+    
+    float shadow = 0.f;
+    if (sampleCount > 1) {
+
+        
+        for (int i = 0; i < sampleCount; ++i) {
+            shadow += shadow2DArray(shadow_sampler, shadowMaps, shadowKernel[i].xyz * shadowRadius + shadowPosition, cascadeIndex);
+        }
+        shadow /= float(sampleCount);
+    } else {
+        
+        shadow = shadow2DArray(shadow_sampler, shadowMaps, shadowPosition, cascadeIndex);
+    }
+    return float4(gridCol, shadow);
+}
+
+inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, float4x4 shadowMatrix, constant float4 *cascadeScale, constant float4 *cascadeBias, int cascadeCount, depth2d_array<float> shadowMaps, bool enableCascadeBlending, constant float4* shadowKernel, int sampleCount, float shadowRadius)
+{
+    float4 shadow = 0.f;
+    float opacitySum = 1.f;
+    
+    
+    float3 pos_ls =  (shadowMatrix * float4(viewPos, 1.f)).xyz;
+
+    for (int c = 0; c < cascadeCount; ++c) {
+        
+        float3 pos_cs =  pos_ls * cascadeScale[c].xyz + cascadeBias[c].xyz;
+
+        
+        float cascadeRadius = shadowRadius * cascadeScale[c].x;
+
+        float opacity = ComputeCascadeBlendAmount(pos_cs, enableCascadeBlending);
+        if (opacity > 0.f) { 
+            
+            float alpha = opacity * opacitySum;
+            shadow += SampleShadowCascade(shadow_sampler, shadowMaps, pos_cs, c, shadowKernel, sampleCount, cascadeRadius) * alpha;
+            opacitySum -= alpha;
+        }
+        if (opacitySum <= 0.f) 
+            break;
+    }
+
+    return shadow;
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -95,38 +184,7 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *action; // @synthesize action=_action;
-@property(readonly, nonatomic) _Bool allowsAutocomplete; // @synthesize allowsAutocomplete=_allowsAutocomplete;
-@property(readonly, copy, nonatomic) NSDictionary *annotations; // @synthesize annotations=_annotations;
-@property(readonly, nonatomic) WBSFormControlMetadata *bestControlForStreamlinedLoginFocus;
-@property(readonly, nonatomic, getter=isBestForPageLevelAutoFill) _Bool bestForPageLevelAutoFill; // @synthesize bestForPageLevelAutoFill=_bestForPageLevelAutoFill;
-@property(readonly, nonatomic, getter=isBestForStreamlinedLogin) _Bool bestForStreamlinedLogin; // @synthesize bestForStreamlinedLogin=_bestForStreamlinedLogin;
-@property(readonly, copy, nonatomic) NSString *confirmPasswordElementUniqueID;
-@property(readonly, nonatomic) _Bool containsActiveElement; // @synthesize containsActiveElement=_containsActiveElement;
-@property(readonly, nonatomic) _Bool containsAtLeastOneSecureTextField;
-@property(readonly, nonatomic) _Bool containsClassifications;
-@property(readonly, copy, nonatomic) NSArray *controls;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=isEligibleForAutomaticLogin) _Bool eligibleForAutomaticLogin; // @synthesize eligibleForAutomaticLogin=_eligibleForAutomaticLogin;
-@property(readonly, copy, nonatomic) NSString *firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
-@property(readonly, nonatomic) _Bool isSearchForm; // @synthesize isSearchForm=_isSearchForm;
-@property(readonly, nonatomic) NSString *logicalFormElementSelector; // @synthesize logicalFormElementSelector=_logicalFormElementSelector;
-@property(readonly, copy, nonatomic) NSString *oldPasswordElementUniqueID;
-@property(readonly, copy, nonatomic) NSString *passwordElementUniqueID;
-@property(readonly, nonatomic) NSString *passwordFieldValue;
-@property(copy, nonatomic) NSDictionary *passwordRequirements; // @synthesize passwordRequirements=_passwordRequirements;
 @property(copy, nonatomic) WBSFormMetadataPasswordRules *passwordRules; // @synthesize passwordRules=_passwordRules;
-@property(readonly, nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, copy, nonatomic) NSData *serializedData;
-@property(readonly, copy, nonatomic) NSString *textSample; // @synthesize textSample=_textSample;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) long long uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) NSArray *uniqueIDsOfPasswordControlAndRelatedControls;
-@property(readonly, copy, nonatomic) NSString *userNameElementUniqueID;
-@property(readonly, nonatomic) NSString *userNameFieldValue;
-@property(readonly, nonatomic) _Bool usesGeneratedPassword; // @synthesize usesGeneratedPassword=_usesGeneratedPassword;
-@property(readonly, nonatomic) _Bool usesRelAsync; // @synthesize usesRelAsync=_usesRelAsync;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

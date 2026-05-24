@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BWPreviewGyroStabilizationTripodDetection
 {
     _Bool _stationary[60];
-    int _inputIndex;
-    int _ringCount;
-    int _previousLikelyPhysicalTripodCount;
-    float _tripodMaxAngleThresholdInstant;
-    float _tripodMaxAngleThresholdAccumulate;
-    float _physicalTripodLikelyMaxAngleThreshold;
-    float _physicalTripodGuaranteedMaxAngleThreshold;
-    _Bool _isStationary;
-    _Bool _isLikelyPhysicalTripod;
-    _Bool _isPhysicalTripod;
 }
 
 - (_Bool);
@@ -26,16 +16,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)e;
 - (void);
 - (_Bool);
-- (_Bool)recmiocapturesessiondescriptor_trace;
+- (_Bool)figcapturecmiocapturesessiondescriptor_trace;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool empty;
-@property(readonly, nonatomic) _Bool isLikelyPhysicalTripod; // @synthesize isLikelyPhysicalTripod=_isLikelyPhysicalTripod;
-@property(readonly, nonatomic) _Bool isPhysicalTripod; // @synthesize isPhysicalTripod=_isPhysicalTripod;
-@property(readonly, nonatomic) _Bool isStationary; // @synthesize isStationary=_isStationary;
 
 @end
 

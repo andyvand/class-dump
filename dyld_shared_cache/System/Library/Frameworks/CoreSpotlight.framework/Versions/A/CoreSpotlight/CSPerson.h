@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CSPerson
 {
     _Bool _isPhotosPerson;
-    NSString *_displayName;
-    NSArray *_handles;
-    NSString *_handleIdentifier;
-    NSString *_contactIdentifier;
-    NSString *_photosPersonIdentifier;
-    NSArray *_nameAlternatives;
-    NSArray *_faceAttributes;
-    NSNumber *_personType;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSArray *faceAttributes; // @synthesize faceAttributes=_faceAttributes;
-@property(retain, nonatomic) NSString *handleIdentifier; // @synthesize handleIdentifier=_handleIdentifier;
-@property(retain, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(nonatomic) _Bool isPhotosPerson; // @synthesize isPhotosPerson=_isPhotosPerson;
-@property(retain, nonatomic) NSArray *nameAlternatives; // @synthesize nameAlternatives=_nameAlternatives;
-@property(retain, nonatomic) NSNumber *personType; // @synthesize personType=_personType;
-@property(retain, nonatomic) NSString *photosPersonIdentifier; // @synthesize photosPersonIdentifier=_photosPersonIdentifier;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CSAttSiriServiceDelegate
+
+@optional
+- (void)@;
+- (void);
 @end
 

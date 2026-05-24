@@ -4,52 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUIUser, NSArray, NSMutableSet, NSObject, NSRecursiveLock, NSSet, NSTimer;
-@protocol OS_dispatch_queue;
-
 @interface LUIUserController
 {
     _Bool _addSwitchUser;
-    _Bool _hasSuppressedAvatars;
-    _Bool _inFVUnlock;
-    _Bool _running;
-    _Bool _userListLoaded;
-    _Bool _addAndMarkLoggedInUsersInternal;
-    _Bool _addNetworkUsersWhenPossibleInternal;
-    _Bool _addOtherUserWhenPossibleInternal;
-    _Bool _activeUserRecordTrackingInternal;
-    _Bool _allowNetworkUsersToLogin;
-    int _sessionChangeToken;
-    NSObject<OS_dispatch_queue> *_userControllerSerialQueue;
-    NSMutableSet *_clients;
-    NSRecursiveLock *_clientsLock;
-    NSMutableSet *_usersInternal;
-    NSRecursiveLock *_usersInternalLock;
-    NSMutableSet *_localUsersSet;
-    NSRecursiveLock *_localUsersSetLock;
-    NSMutableSet *_tempUsers;
-    NSRecursiveLock *_tempUsersLock;
-    NSArray *_allowedAvatarUsers;
-    NSMutableSet *_recoveryUsers;
-    NSSet *_allowedGroupGUIDs;
-    NSSet *_allowedUsers;
-    NSSet *_deniedGroupGUIDs;
-    NSSet *_deniedUsers;
-    struct __ODTrigger *_odAddedTrigger;
-    struct __ODTrigger *_odDeletedTrigger;
-    struct __ODTrigger *_odModifiedTrigger;
-    NSTimer *_odTriggerDebounceTimer;
-    NSMutableSet *_odTriggers;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)?;
 + (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -75,12 +42,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)k	
+J;
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -107,7 +75,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)6;
 - (_Bool);
 - (id);
 - (id);
@@ -126,15 +94,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (id);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)?#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -142,10 +110,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)qA;
 - (void);
-- (id);
-- (id);
+- (id)+;
+- (id)4	;
 - (id);
 - (id);
 - (id);
@@ -160,19 +128,19 @@
 - (id);
 - (id);
 - (long long);
+- (id)@y);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -182,64 +150,26 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool));
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)er %p:Perform authorized quote succeeded. /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void)letion:(id)arg1 ];
 
 // Remaining properties
-@property _Bool activeUserRecordTracking;
-@property _Bool activeUserRecordTrackingInternal; // @synthesize activeUserRecordTrackingInternal=_activeUserRecordTrackingInternal;
-@property _Bool addAndMarkLoggedInUsers;
-@property _Bool addAndMarkLoggedInUsersInternal; // @synthesize addAndMarkLoggedInUsersInternal=_addAndMarkLoggedInUsersInternal;
-@property _Bool addNetworkUsersWhenPossible;
-@property _Bool addNetworkUsersWhenPossibleInternal; // @synthesize addNetworkUsersWhenPossibleInternal=_addNetworkUsersWhenPossibleInternal;
-@property _Bool addOtherUserWhenPossible;
-@property _Bool addOtherUserWhenPossibleInternal; // @synthesize addOtherUserWhenPossibleInternal=_addOtherUserWhenPossibleInternal;
-@property _Bool addSwitchUser; // @synthesize addSwitchUser=_addSwitchUser;
-@property _Bool allowNetworkUsersToLogin; // @synthesize allowNetworkUsersToLogin=_allowNetworkUsersToLogin;
-@property(retain) NSArray *allowedAvatarUsers; // @synthesize allowedAvatarUsers=_allowedAvatarUsers;
-@property(retain) NSSet *allowedGroupGUIDs; // @synthesize allowedGroupGUIDs=_allowedGroupGUIDs;
-@property(retain) NSSet *allowedUsers; // @synthesize allowedUsers=_allowedUsers;
-@property(retain) NSMutableSet *clients; // @synthesize clients=_clients;
-@property(retain) NSRecursiveLock *clientsLock; // @synthesize clientsLock=_clientsLock;
-@property(retain) NSSet *deniedGroupGUIDs; // @synthesize deniedGroupGUIDs=_deniedGroupGUIDs;
-@property(retain) NSSet *deniedUsers; // @synthesize deniedUsers=_deniedUsers;
-@property(readonly) _Bool hasSuppressedAvatars; // @synthesize hasSuppressedAvatars=_hasSuppressedAvatars;
 @property _Bool inFVUnlock; // @synthesize inFVUnlock=_inFVUnlock;
-@property(readonly) _Bool isContinuityUnlockEnabled;
-@property(retain) NSMutableSet *localUsersSet; // @synthesize localUsersSet=_localUsersSet;
-@property(retain) NSRecursiveLock *localUsersSetLock; // @synthesize localUsersSetLock=_localUsersSetLock;
-@property(readonly) _Bool networkUsersCanLogin;
-@property(readonly) unsigned long long numSuspendedUsers;
-@property struct __ODTrigger *odAddedTrigger; // @synthesize odAddedTrigger=_odAddedTrigger;
-@property struct __ODTrigger *odDeletedTrigger; // @synthesize odDeletedTrigger=_odDeletedTrigger;
-@property struct __ODTrigger *odModifiedTrigger; // @synthesize odModifiedTrigger=_odModifiedTrigger;
-@property(retain) NSTimer *odTriggerDebounceTimer; // @synthesize odTriggerDebounceTimer=_odTriggerDebounceTimer;
-@property(retain) NSMutableSet *odTriggers; // @synthesize odTriggers=_odTriggers;
-@property(readonly) LUIUser *personalRecoveryUser;
-@property(retain) NSMutableSet *recoveryUsers; // @synthesize recoveryUsers=_recoveryUsers;
-@property _Bool running; // @synthesize running=_running;
-@property int sessionChangeToken; // @synthesize sessionChangeToken=_sessionChangeToken;
-@property(retain) NSMutableSet *tempUsers; // @synthesize tempUsers=_tempUsers;
-@property(retain) NSRecursiveLock *tempUsersLock; // @synthesize tempUsersLock=_tempUsersLock;
-@property(retain) NSObject<OS_dispatch_queue> *userControllerSerialQueue; // @synthesize userControllerSerialQueue=_userControllerSerialQueue;
-@property _Bool userListLoaded; // @synthesize userListLoaded=_userListLoaded;
-@property(retain) NSMutableSet *usersInternal; // @synthesize usersInternal=_usersInternal;
-@property(retain) NSRecursiveLock *usersInternalLock; // @synthesize usersInternalLock=_usersInternalLock;
 
 @end
 

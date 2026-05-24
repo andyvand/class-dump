@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationTranscriptionTokenized : SISchemaInstrumentationMessage
 {
     int _numTokens;
-    struct {
-        unsigned int numTokens:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)fiers;
-- (id)ecordingFirstBufferContext;
+- (unsigned long long)claimApplicationsWithOptions:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ATE message SET attributedBody = ?, text = ?, date_recovered = ?, ck_sync_state = 0   WHERE message.guid = ?;;
+- (id)T;
+- (id)P;
+- (id)deleteEphemeralIdentifiers;
+- (id)_hasAssistantDaemonAudioRecordingFirstBufferContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumTokens;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int numTokens; // @synthesize numTokens=_numTokens;
 
 @end

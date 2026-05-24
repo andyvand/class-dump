@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface PKNumberPadInputViewAccessibility
+#import <PassKitUI/__PKNumberPadInputViewAccessibility_super.h>
+
+@interface PKNumberPadInputViewAccessibility : __PKNumberPadInputViewAccessibility_super
 {
 }
 
 + (Class);
-+ (id);
++ (id)MADVIVisualSearchGatingResultItem;
 + (void);
-- (id);
+- (id)ib/swift/libswiftsimd.dylib;
 
 @end
 

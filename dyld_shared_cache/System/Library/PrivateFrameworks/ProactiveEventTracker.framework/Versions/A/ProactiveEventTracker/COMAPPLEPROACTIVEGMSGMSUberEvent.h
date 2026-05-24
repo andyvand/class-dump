@@ -4,38 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEPROACTIVEGMSGMSAssetEvent, COMAPPLEPROACTIVEGMSGMSError, COMAPPLEPROACTIVEGMSGMSGenerativeFunctionEvent, COMAPPLEPROACTIVEGMSGMSInferenceEvent, COMAPPLEPROACTIVEGMSGMSPrewarmEvent, NSString;
-
 @interface COMAPPLEPROACTIVEGMSGMSUberEvent
 {
     long long _threadQualityOfService;
-    long long _version;
-    COMAPPLEPROACTIVEGMSGMSAssetEvent *_assetEvent;
-    NSString *_bootSessionUUID;
-    NSString *_catalogResourceIdentifier;
-    NSString *_clientRequestIdentifier;
-    NSString *_clientSessionIdentifier;
-    COMAPPLEPROACTIVEGMSGMSError *_error;
-    int _eventType;
-    COMAPPLEPROACTIVEGMSGMSGenerativeFunctionEvent *_generativeFunctionEvent;
-    COMAPPLEPROACTIVEGMSGMSInferenceEvent *_inferenceEvent;
-    NSString *_inferenceProviderIdentifier;
-    NSString *_modelManagerRequestIdentifier;
-    NSString *_modelManagerSessionIdentifier;
-    COMAPPLEPROACTIVEGMSGMSPrewarmEvent *_prewarmEvent;
-    NSString *_testKey;
-    NSString *_useCaseIdentifier;
-    struct {
-        unsigned int threadQualityOfService:1;
-        unsigned int version:1;
-        unsigned int eventType:1;
-    } _has;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
+- (void)1;
 - (void);
 - (void);
 - (void);
@@ -45,36 +23,35 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)(;
 - (long long);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -84,7 +61,7 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -97,43 +74,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (int)ErrorForEvent:(id)arg1 featureId:reason: /* Error: Ran out of types for this method. */;
+- (int)logErrorForEvent:(id)arg1 featureId:reason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSAssetEvent *assetEvent; // @synthesize assetEvent=_assetEvent;
-@property(retain, nonatomic) NSString *bootSessionUUID; // @synthesize bootSessionUUID=_bootSessionUUID;
-@property(retain, nonatomic) NSString *catalogResourceIdentifier; // @synthesize catalogResourceIdentifier=_catalogResourceIdentifier;
-@property(retain, nonatomic) NSString *clientRequestIdentifier; // @synthesize clientRequestIdentifier=_clientRequestIdentifier;
-@property(retain, nonatomic) NSString *clientSessionIdentifier; // @synthesize clientSessionIdentifier=_clientSessionIdentifier;
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSError *error; // @synthesize error=_error;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSGenerativeFunctionEvent *generativeFunctionEvent; // @synthesize generativeFunctionEvent=_generativeFunctionEvent;
-@property(readonly, nonatomic) _Bool hasAssetEvent;
-@property(readonly, nonatomic) _Bool hasBootSessionUUID;
-@property(readonly, nonatomic) _Bool hasCatalogResourceIdentifier;
-@property(readonly, nonatomic) _Bool hasClientRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasClientSessionIdentifier;
-@property(readonly, nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) _Bool hasGenerativeFunctionEvent;
-@property(readonly, nonatomic) _Bool hasInferenceEvent;
-@property(readonly, nonatomic) _Bool hasInferenceProviderIdentifier;
-@property(readonly, nonatomic) _Bool hasModelManagerRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasModelManagerSessionIdentifier;
-@property(readonly, nonatomic) _Bool hasPrewarmEvent;
-@property(readonly, nonatomic) _Bool hasTestKey;
-@property(nonatomic) _Bool hasThreadQualityOfService;
-@property(readonly, nonatomic) _Bool hasUseCaseIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSInferenceEvent *inferenceEvent; // @synthesize inferenceEvent=_inferenceEvent;
-@property(retain, nonatomic) NSString *inferenceProviderIdentifier; // @synthesize inferenceProviderIdentifier=_inferenceProviderIdentifier;
-@property(retain, nonatomic) NSString *modelManagerRequestIdentifier; // @synthesize modelManagerRequestIdentifier=_modelManagerRequestIdentifier;
-@property(retain, nonatomic) NSString *modelManagerSessionIdentifier; // @synthesize modelManagerSessionIdentifier=_modelManagerSessionIdentifier;
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSPrewarmEvent *prewarmEvent; // @synthesize prewarmEvent=_prewarmEvent;
-@property(retain, nonatomic) NSString *testKey; // @synthesize testKey=_testKey;
-@property(nonatomic) long long threadQualityOfService; // @synthesize threadQualityOfService=_threadQualityOfService;
-@property(retain, nonatomic) NSString *useCaseIdentifier; // @synthesize useCaseIdentifier=_useCaseIdentifier;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

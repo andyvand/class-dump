@@ -6,14 +6,9 @@
 
 #import <HomeKitBackingStore/HMBSQLQueryIterator.h>
 
-@class HMBLocalZone, NSDictionary;
-
 @interface HMBLocalZoneQueryResult : HMBSQLQueryIterator
 {
     int _zoneRowBindOffset;
-    HMBLocalZone *_localZone;
-    unsigned long long _zoneRow;
-    NSDictionary *_arguments;
 }
 
 + (_Bool);
@@ -22,14 +17,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long)À¤;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *arguments; // @synthesize arguments=_arguments;
-@property(readonly, nonatomic) __weak HMBLocalZone *localZone; // @synthesize localZone=_localZone;
 @property(readonly, nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
-@property(readonly, nonatomic) int zoneRowBindOffset; // @synthesize zoneRowBindOffset=_zoneRowBindOffset;
 
 @end
 

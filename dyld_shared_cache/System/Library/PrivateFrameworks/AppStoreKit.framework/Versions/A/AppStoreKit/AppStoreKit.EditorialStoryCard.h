@@ -7,18 +7,6 @@
 @interface AppStoreKit.EditorialStoryCard
 {
     id heading;
-    id title;
-    id description;
-    id artwork;
-    id video;
-    id lockup;
-    id collectionIcons;
-    id editorialDisplayOptions;
-    id isMediaDark;
-    id shelfBackground;
-    id clickAction;
-    id id;
-    id impressionMetrics;
 }
 
 @end

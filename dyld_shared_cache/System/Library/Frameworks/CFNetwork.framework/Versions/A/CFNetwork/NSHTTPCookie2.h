@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSHTTPCookie2
 {
     NSString *_name;
-    NSString *_value;
-    NSString *_domain;
-    NSString *_path;
-    NSString *_partition;
-    NSString *_etldPlusOne;
-    unsigned long long _sCreationDate;
-    unsigned long long _sExpirationDate;
-    unsigned long long _sLastAccessTime;
-    _Bool _secure;
-    _Bool _httpOnly;
-    _Bool _hostOnly;
-    _Bool _session;
-    long long _sameSite;
-    long long _source;
-    _Bool _sesion;
-    NSDate *creationDate;
 }
 
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id)E;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)pkg_preferred_layout_record_set_preferred_first_tile_size;
 - (id);
 - (id);
 - (long long);
@@ -48,19 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *creationDate; // @synthesize creationDate;
-@property(readonly) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) NSDate *expirationDate;
-@property(readonly) _Bool hostOnly; // @synthesize hostOnly=_hostOnly;
-@property(readonly) _Bool httpOnly; // @synthesize httpOnly=_httpOnly;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *partition; // @synthesize partition=_partition;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) long long sameSite; // @synthesize sameSite=_sameSite;
-@property(readonly) _Bool secure; // @synthesize secure=_secure;
-@property(readonly) _Bool sesion; // @synthesize sesion=_sesion;
-@property(readonly) long long source; // @synthesize source=_source;
-@property(readonly) NSString *value; // @synthesize value=_value;
 
 @end
 

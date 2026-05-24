@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)ARObjectAnchor;
 + (void);
 - (void);
 - (void);

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVoiceController, NSDictionary, NSObject, NSString;
-@protocol CKVoiceControllerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@protocol CKVoiceControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKVoiceController
 {
     id <CKVoiceControllerDelegate> _delegate;
-    long long __activationMode;
-    NSDictionary *_recordSettings;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_powerUpdateTimer;
-    AVVoiceController *_voiceController;
-    unsigned long long _streamID;
 }
 
 - (void);
+- (void)52@0:8@"WKWebView"16@"WKSecurityOrigin"24@"WKFrameInfo"32B40@?<v@?q>44 /* Error: Ran out of types for this method. */;
+- (void)int=dd}{CGSize=dd}}64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48 /* Error: Ran out of types for this method. */;
+- (void)type;
+- (void)setSkipTimestampUpdatesCount:(id)arg1;
+- (void)setPrivateModernNoteWithAttachmentsInSource:(id)arg1;
+- (id)filterSelectionWithManagedObjectContext:account: /* Error: Ran out of types for this method. */;
+- (id),V_undoneImageView;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (void);
@@ -47,26 +40,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id)8@16@24@32B40B44B48;
-- (void)cationOnboardingVersion;
+- (void)SyndicationOnboardingVersion;
 - (id);
 - (void)ñj/J;
 - (void)jQ;
 
 // Remaining properties
 @property(nonatomic, setter=_setActivationMode:) long long _activationMode; // @synthesize _activationMode=__activationMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKVoiceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *powerUpdateTimer; // @synthesize powerUpdateTimer=_powerUpdateTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) NSDictionary *recordSettings; // @synthesize recordSettings=_recordSettings;
-@property(nonatomic) unsigned long long streamID; // @synthesize streamID=_streamID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVVoiceController *voiceController; // @synthesize voiceController=_voiceController;
 
 @end
 

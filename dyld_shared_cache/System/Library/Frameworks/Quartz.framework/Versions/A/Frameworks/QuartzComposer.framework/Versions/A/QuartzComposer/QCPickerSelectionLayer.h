@@ -7,14 +7,13 @@
 @interface QCPickerSelectionLayer
 {
     struct CGRect _selectionSelectionFrame;
-    struct CGColor *_focusRingColor;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)68@0:(struct CGContext *)arg1 8q16q24q32q40d48B56@60;
 - (void);
 
 @end

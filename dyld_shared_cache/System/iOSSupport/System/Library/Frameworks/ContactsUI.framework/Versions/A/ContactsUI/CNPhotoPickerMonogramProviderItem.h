@@ -6,20 +6,12 @@
 
 #import <ContactsUI/CNPhotoPickerProviderItem.h>
 
-@class CNAvatarImageRenderer, CNVisualIdentity, NSData, NSString, UIColor;
-@protocol CNAvatarImageRenderingScope;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerMonogramProviderItem : CNPhotoPickerProviderItem
 {
     _Bool _isContactImage;
-    _Bool _hasUnknownColor;
-    _Bool _isVariantOptionItem;
-    NSString *_monogramText;
-    CNVisualIdentity *_visualIdentity;
-    CNAvatarImageRenderer *_avatarRenderer;
-    id <CNAvatarImageRenderingScope> _renderingScope;
-    NSData *_monogramData;
 }
 
 - (id);
@@ -33,30 +25,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)_;
+- (id);
+- (id)g;
+- (id);
+- (id)im8+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)	;
+- (id);
+- (_Bool);
+- (_Bool)";
+- (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)elect distinct entitynumber from Record where ((deleted=0 AND addgeneration < ?) OR (generation = ? AND deleted=1)) AND entitynumber in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -66,19 +58,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void)el;
+- (void)_leftLabel;
 
 // Remaining properties
-@property(retain, nonatomic) CNAvatarImageRenderer *avatarRenderer; // @synthesize avatarRenderer=_avatarRenderer;
-@property(readonly, nonatomic) UIColor *backgroundColor;
-@property(nonatomic) _Bool hasUnknownColor; // @synthesize hasUnknownColor=_hasUnknownColor;
-@property(nonatomic) _Bool isContactImage; // @synthesize isContactImage=_isContactImage;
-@property(nonatomic) _Bool isVariantOptionItem; // @synthesize isVariantOptionItem=_isVariantOptionItem;
-@property(readonly, nonatomic) NSString *itemText;
 @property(retain, nonatomic) NSData *monogramData; // @synthesize monogramData=_monogramData;
-@property(retain, nonatomic) NSString *monogramText; // @synthesize monogramText=_monogramText;
-@property(retain, nonatomic) id <CNAvatarImageRenderingScope> renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(retain, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end
 

@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTLearnedLocationStore, RTMapServiceManager;
+@class RTLearnedLocationStore;
 
 @interface RTStateModelLegacyController
 {
     RTLearnedLocationStore *_learnedLocationStore;
-    RTMapServiceManager *_mapServiceManager;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (unsigned long long);
-+ (_Bool);
++ (unsigned long long)FlagFallbackRecordExistsWithWalrusOn;
++ (_Bool)PCSIdentityCopyExternalForm_block_invoke;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)replaceStatment;
+- (_Bool);
+- (id)deration Migration Needed;
+- (_Bool)ys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
 - (void);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
 
 @end
 

@@ -6,23 +6,19 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class MFEWSBodyFetchOperation, MFEWSBodyPersistOperation, NSMutableDictionary, NSMutableSet, NSString;
+@class MFEWSBodyFetchOperation;
 
 @interface MFEWSVisibleBodyFetchTask : MFEWSTask
 {
     MFEWSBodyFetchOperation *_fetchOperation;
-    MFEWSBodyPersistOperation *_persistOperation;
-    NSMutableSet *_messagesToFetch;
-    NSMutableDictionary *_fetchedBodiesByMessage;
-    NSMutableDictionary *_fetchedCalendarEventsByMessage;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)a;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,15 +28,7 @@
 - (void)(´	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) MFEWSBodyFetchOperation *fetchOperation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MFEWSBodyPersistOperation *persistOperation;
-@property(readonly) Class superclass;
 
 @end
 

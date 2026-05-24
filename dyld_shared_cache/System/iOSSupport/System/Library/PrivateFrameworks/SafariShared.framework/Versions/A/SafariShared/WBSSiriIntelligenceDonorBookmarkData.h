@@ -9,8 +9,6 @@
 @interface WBSSiriIntelligenceDonorBookmarkData
 {
     NSString *_coreSpotlightID;
-    NSString *_bookmarkURLString;
-    NSString *_bookmarkTitle;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 - (void)al-only local migration;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bookmarkTitle; // @synthesize bookmarkTitle=_bookmarkTitle;
-@property(copy, nonatomic) NSString *bookmarkURLString; // @synthesize bookmarkURLString=_bookmarkURLString;
 @property(copy, nonatomic) NSString *coreSpotlightID; // @synthesize coreSpotlightID=_coreSpotlightID;
 
 @end

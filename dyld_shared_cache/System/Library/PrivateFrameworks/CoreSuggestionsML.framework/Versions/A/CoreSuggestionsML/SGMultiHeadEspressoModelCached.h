@@ -6,13 +6,11 @@
 
 #import <CoreSuggestionsML/SGMultiHeadEspressoModel.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SGMultiHeadEspressoModelCached : SGMultiHeadEspressoModel
 {
     NSString *_espressoModelFile;
-    NSString *_inputName;
-    NSDictionary *_headDimensionality;
 }
 
 + (id);

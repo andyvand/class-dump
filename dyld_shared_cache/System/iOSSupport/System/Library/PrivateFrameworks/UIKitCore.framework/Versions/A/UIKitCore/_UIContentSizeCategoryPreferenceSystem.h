@@ -10,23 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _UIContentSizeCategoryPreferenceSystem : UIContentSizeCategoryPreference
 {
     _Bool _observingNotification;
-    _Bool _didCheckForPreferredContentSizeCategoryOverride;
-    _Bool _applicationOverridesPreferredContentSizeCategory;
-    UIContentSizeCategoryPreference *_overridePreferences;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)@-%@;
 - (void);
 - (void);
-- (void);
-- (void)xt:withText: /* Error: Ran out of types for this method. */;
-- (void)ter: /* Error: Ran out of types for this method. */;
-- (void)youtsConfiguredForEntry:(id)arg1;
-- (id)SizeWithContext: /* Error: Ran out of types for this method. */;
+- (void)didInlineCompletionTapOnCompletionReplacementForText:withText: /* Error: Ran out of types for this method. */;
+- (void)clearSearchControllerForHighlighter: /* Error: Ran out of types for this method. */;
+- (void)_ensureLayoutsConfiguredForEntry:(id)arg1;
+- (id)_resolveElementSizeWithContext: /* Error: Ran out of types for this method. */;
 - (void)inconsistency:(id)arg1 the insertion index path for a placeholder cannot be nil;
 - (void)h°];
 - (id)ôó`;

@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)@ù
 × ;
-- (id)ryItemWithName:(struct _NSZone *)arg1 value: /* Error: Ran out of types for this method. */;
+- (id)queryItemWithName:(struct _NSZone *)arg1 value: /* Error: Ran out of types for this method. */;
 - (void).apple.HomeKit.daemon.media.destination.controller.daily.setDestination;
 
 // Remaining properties

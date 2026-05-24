@@ -6,7 +6,7 @@
 
 #import <CalendarNotification/CALNNotificationRecord.h>
 
-@class CALNNotificationContent, NSDate, NSString;
+@class NSString;
 
 @interface CALNMutableNotificationRecord : CALNNotificationRecord
 {
@@ -14,18 +14,13 @@
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)CalendarViewController",&,V_calendarViewController;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CALNNotificationContent *content; // @dynamic content;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) _Bool shouldPlaySound; // @dynamic shouldPlaySound;
-@property(nonatomic) _Bool shouldPresentAlert; // @dynamic shouldPresentAlert;
-@property(copy, nonatomic) NSString *sourceClientIdentifier; // @dynamic sourceClientIdentifier;
 @property(copy, nonatomic) NSString *sourceIdentifier; // @dynamic sourceIdentifier;
 
 @end

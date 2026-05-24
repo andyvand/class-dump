@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UILabel, UIVisualEffectView;
+@class NSString, UIVisualEffectView;
 
 @interface AVTGroupListCollectionViewCell
 {
     NSString *_title;
-    NSString *_symbolName;
-    UIVisualEffectView *_visualEffectView;
-    UILabel *_label;
-    UIImageView *_imageView;
 }
 
 + (double);
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (double);
+- (void)entryEventNoneDefinitionClientStatusDebug;
+- (id);
+- (id)q!;
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize)suggestions;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end

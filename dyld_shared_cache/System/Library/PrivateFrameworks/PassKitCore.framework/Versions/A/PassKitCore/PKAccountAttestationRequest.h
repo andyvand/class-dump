@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKSecureElementCertificateSet;
+@class PKSecureElementCertificateSet;
 
 @interface PKAccountAttestationRequest
 {
     PKSecureElementCertificateSet *_casdCertificate;
-    NSString *_anonymizationSalt;
 }
 
 + (id);
@@ -22,15 +21,14 @@
 + (_Bool)±î%1Â0@ù
 × ;
 - (void);
+- (void)R);
+- (id)	;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)key_Si5valuet;
+- (void)L3key_Si5valuet;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *anonymizationSalt; // @synthesize anonymizationSalt=_anonymizationSalt;
 @property(retain, nonatomic) PKSecureElementCertificateSet *casdCertificate; // @synthesize casdCertificate=_casdCertificate;
 
 @end

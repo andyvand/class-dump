@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSDictionary *_dictionary;
 }
 
-- (void);
+- (void)Combining_Mark;
 - (id);
-- (unsigned long long);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);

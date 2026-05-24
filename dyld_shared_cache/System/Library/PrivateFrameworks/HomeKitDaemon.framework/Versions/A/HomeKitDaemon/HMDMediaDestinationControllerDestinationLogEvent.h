@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerDestinationLogEvent : HMDMediaDestinationControllerLogEvent
 {
     NSString *_existingDestinationType;
-    NSString *_destinationType;
 }
 
+- (id)Pq;
 - (id);
 - (id);
-- (id);
-- (void)Fragment;
+- (void)mediaFragment;
 
 // Remaining properties
-@property(readonly, copy) NSString *destinationType; // @synthesize destinationType=_destinationType;
 @property(readonly, copy) NSString *existingDestinationType; // @synthesize existingDestinationType=_existingDestinationType;
 
 @end

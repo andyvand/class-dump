@@ -5,5 +5,8 @@
 //
 
 @protocol MNVehicleMonitorDelegate
+
+@optional
+- (void);
 @end
 

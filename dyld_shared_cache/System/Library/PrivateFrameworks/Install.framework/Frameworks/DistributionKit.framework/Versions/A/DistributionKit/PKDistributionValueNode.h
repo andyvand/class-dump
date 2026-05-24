@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableSet, NSObject, NSString, PKDistributionChoiceItem, PKDistributionScript;
-@protocol OS_dispatch_queue, PKDistributionValueNodeCallerTrackingDelegate;
-
 @interface PKDistributionValueNode
 {
     id _currentValue;
-    NSError *_evaluationError;
-    NSString *_identifier;
-    PKDistributionScript *_script;
-    PKDistributionChoiceItem *_choiceItem;
-    NSMutableSet *_callingNodes;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    id <PKDistributionValueNodeCallerTrackingDelegate> _delegate;
 }
 
 - (void);
@@ -29,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ero length Home Data - discarding cache;
+- (id):%p /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -38,8 +28,6 @@
 
 // Remaining properties
 @property(retain) id currentValue;
-@property(retain) NSError *evaluationError; // @synthesize evaluationError=_evaluationError;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

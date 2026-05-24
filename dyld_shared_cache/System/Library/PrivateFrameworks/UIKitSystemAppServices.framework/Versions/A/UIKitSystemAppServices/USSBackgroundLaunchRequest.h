@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface USSBackgroundLaunchRequest
 {
     NSString *_reasonString;
-    NSDictionary *_reasonInformation;
 }
 
 + (id);
 + (_Bool);
+- (void)	;
+- (id);
+- (id)9h;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)Q;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *reasonInformation; // @synthesize reasonInformation=_reasonInformation;
 @property(retain, nonatomic) NSString *reasonString; // @synthesize reasonString=_reasonString;
 
 @end

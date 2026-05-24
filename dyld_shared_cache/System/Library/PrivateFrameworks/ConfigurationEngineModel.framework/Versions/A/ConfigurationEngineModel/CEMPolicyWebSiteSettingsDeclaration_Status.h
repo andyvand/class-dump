@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)T EXISTS voices_index_langs ON voices(languages COLLATE NOCASE);
 
 @end
 

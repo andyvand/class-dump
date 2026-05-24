@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMRichCardStyle, NSString;
-
 @interface IMRichCardLayout
 {
     long long orientation;
-    long long imageAlignment;
-    long long width;
-    IMRichCardStyle *titleStyle;
-    IMRichCardStyle *descriptionStyle;
-    void cardStyleUrl;
 }
 
 - (id);
@@ -21,7 +14,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)ier;
 - (long long);
 - (long long);
 - (_Bool);
@@ -31,13 +24,7 @@
 - (void)°SÙÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *cardStyleUrl;
-@property(nonatomic, readonly) IMRichCardStyle *descriptionStyle; // @synthesize descriptionStyle;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long imageAlignment; // @synthesize imageAlignment;
 @property(nonatomic, readonly) long long orientation; // @synthesize orientation;
-@property(nonatomic, readonly) IMRichCardStyle *titleStyle; // @synthesize titleStyle;
-@property(nonatomic, readonly) long long width; // @synthesize width;
 
 @end
 

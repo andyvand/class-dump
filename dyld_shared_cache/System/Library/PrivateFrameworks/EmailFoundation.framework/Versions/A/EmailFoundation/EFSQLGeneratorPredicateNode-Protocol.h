@@ -7,6 +7,7 @@
 @protocol EFSQLValueExpressable;
 
 @protocol EFSQLGeneratorPredicateNode
+- (id <EFSQLValueExpressable>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <EFSQLValueExpressable> sqlExpressable;

@@ -6,22 +6,15 @@
 
 #import <PhotosUICore/PXViewControllerEventTracker.h>
 
-@class NSMutableDictionary, NSString, _PXTrackedMediaRecord;
-@protocol PXDisplayAsset, PXDisplayAssetCollection;
+@class _PXTrackedMediaRecord;
 
 @interface PXMediaViewControllerEventTracker : PXViewControllerEventTracker
 {
     _Bool _didInvalidateCurrentlyVisibleMediaOnce;
-    NSString *_viewName;
-    id <PXDisplayAsset> _displayedAsset;
-    id <PXDisplayAssetCollection> _displayedAssetCollection;
-    _PXTrackedMediaRecord *_currentlyVisibleMediaRecord;
-    id _lastVisibleMedia;
-    long long _mediaViewedSignpost;
-    long long _specificMediaViewedSignpost;
 }
 
-- (long long);
+- (long long))`	Li
+;
 - (void);
 - (void);
 - (void);
@@ -40,25 +33,11 @@
 - (void);
 - (id);
 - (id);
-- (void)_MEME;
+- (void)DESTINATION_ANIMATED_SYNONYM_MEME;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _PXTrackedMediaRecord *currentlyVisibleMediaRecord; // @synthesize currentlyVisibleMediaRecord=_currentlyVisibleMediaRecord;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <PXDisplayAsset> displayedAsset; // @synthesize displayedAsset=_displayedAsset;
-@property(retain, nonatomic) id <PXDisplayAssetCollection> displayedAssetCollection; // @synthesize displayedAssetCollection=_displayedAssetCollection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id lastVisibleMedia; // @synthesize lastVisibleMedia=_lastVisibleMedia;
-@property(nonatomic) long long mediaViewedSignpost; // @synthesize mediaViewedSignpost=_mediaViewedSignpost;
-@property(copy, nonatomic) NSMutableDictionary *payload;
-@property(nonatomic) long long specificMediaViewedSignpost; // @synthesize specificMediaViewedSignpost=_specificMediaViewedSignpost;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *viewName; // @synthesize viewName=_viewName;
 
 @end
 

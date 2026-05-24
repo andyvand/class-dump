@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id)�;
+- (NSString *)&;
+- (_Bool)(	?׵;
+- (_Bool),V_name;
 - (struct _NSZone *)aItems=%@ for %@;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

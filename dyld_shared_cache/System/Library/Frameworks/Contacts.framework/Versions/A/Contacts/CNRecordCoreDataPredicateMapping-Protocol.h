@@ -7,16 +7,12 @@
 @class NSDictionary, NSString;
 
 @protocol CNRecordCoreDataPredicateMapping
+- (NSDictionary *)5	;
+- (NSDictionary *);
 - (Class)ùÑ*Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long coreDataBitMask;
-@property(readonly, retain, nonatomic) NSDictionary *coreDataBitMaskedValuesMap;
 @property(readonly, copy, nonatomic) NSString *coreDataPredicateKeyPath;
-@property(readonly, nonatomic) _Bool isMultiValue;
-@property(readonly, nonatomic) _Bool isRelationship;
-@property(readonly, retain, nonatomic) NSDictionary *subCoreDataPredicatePropertiesByKey;
-@property(readonly, nonatomic) Class valueClass;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface PGMockFlexMusicSong
 {
     void uid;
-    _Bool recalled;
-    _Bool canPlay;
-    id _hidden;
-    id _artistName;
-    id _songName;
-    id _keywords;
-    id _tagIDs;
-    void weightedKeywords;
 }
 
 - (id);
@@ -29,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,14 +29,7 @@
 - (void)0@"PGGraphPOINode"8Q16^B24;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *arousal;
-@property(nonatomic, readonly) _Bool canPlay; // @synthesize canPlay;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *mood;
-@property(nonatomic, readonly) _Bool recalled; // @synthesize recalled;
-@property(nonatomic, readonly) NSString *uid;
-@property(nonatomic, readonly) NSNumber *valence;
-@property(nonatomic, readonly) NSDictionary *weightedKeywords;
 
 @end
 

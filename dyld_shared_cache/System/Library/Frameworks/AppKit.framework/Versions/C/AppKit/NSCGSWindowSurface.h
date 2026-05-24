@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)ation.m;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_shouldUsePipelineHeuristics;
+- (void)_setPrivateBrowsingEnabled: /* Error: Ran out of types for this method. */;
+- (void)_setPrivacyProxyStrictFailClosed:(id)arg1;
+- (void)_setPrivacyProxyFailClosedForUnreachableHosts: /* Error: Ran out of types for this method. */;
+- (void)_setPrivacyProxyFailClosed:(id)arg1;
 - (void);
 
 // Remaining properties
-@property struct CGRect frame; // @dynamic frame;
-@property(readonly) unsigned int surfaceID; // @dynamic surfaceID;
 @property(readonly, retain) NSCGSWindow *window; // @dynamic window;
 
 @end

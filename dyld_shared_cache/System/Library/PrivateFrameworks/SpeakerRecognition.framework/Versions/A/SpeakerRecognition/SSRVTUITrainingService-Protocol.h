@@ -5,6 +5,12 @@
 //
 
 @protocol SSRVTUITrainingService
+- (void);
+- (void)dRetrieveChangesResponseZoneAttributesChange",&,N,V_zoneAttributesChange;
+- (void)veObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_33GnssPreprocessedMeasurementsEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void)r 256 bits;
+
+@optional
+- (void);
 @end
 

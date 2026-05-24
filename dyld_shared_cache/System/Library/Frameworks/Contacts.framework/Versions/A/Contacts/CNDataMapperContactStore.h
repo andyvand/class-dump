@@ -6,39 +6,34 @@
 
 #import <Contacts/CNContactStore.h>
 
-@class NSObject;
-@protocol CNContactsLogger, CNDataMapper, CNRegulatoryLogger;
+@protocol CNContactsLogger, CNDataMapper;
 
 @interface CNDataMapperContactStore : CNContactStore
 {
     id <CNDataMapper> _mapper;
-    id <CNContactsLogger> _logger;
-    _Bool _shouldLogPrivacyAccountingAccessEvents;
-    _Bool _isContactProvider;
-    id <CNRegulatoryLogger> _regulatoryLogger;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)ices instance is gone;
++ (_Bool)dropIndexAndInvalidateWithDropReason:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)getPreferredDataSubscriptionContext:(id)arg1;
+- (id)L;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)AirplaneMode;
+- (id)services for both voice and sms;
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)dSessionStateNS_9allocatorIS1_EEEE;
+- (id)9h;
+- (id)!;
 - (int);
 - (void);
 - (id);
@@ -46,57 +41,57 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)propertyProviderForPHPhotoLibrary: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)E;
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)setFavoriteRank:(id)arg1;
+- (_Bool)evaluateWithObjectsByName:(id)arg1 suppressionDelegate:(id *)arg2;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id)SECONDARY VOLUME DESCRIPTOR;
+- (_Bool);
+- (void);
+- (id);
+- (_Bool)u, cpuEnergyBilledToOthers=%llu;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)B;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void)V;
 - (id);
 - (id)!q&°!¬Dù*ð1Â0@ù
 × ;
 - (void)
 × ;
-- (id)itWithContactIdentifier:externalURI:externalModificationTag: /* Error: Ran out of types for this method. */;
-- (_Bool)ack:(id)arg1;
-- (id)onToken;
+- (id)initWithContactIdentifier:externalURI:externalModificationTag: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultContainerIdentiferInPersistenceStack:(id)arg1;
+- (id)_notificationToken;
 - (id)&,N,V_contact;
-- (id)Array:(id)arg1;
-- (_Bool)nt;
+- (id)arrayWithArray:(id)arg1;
+- (_Bool)CNAccount;
 - (_Bool);
 - (id)ÿÿÿÿè;
 - (void)M;
@@ -107,18 +102,14 @@
 - (id)index as build version changed.;
 - (_Bool)tarting token);
 - (_Bool)tentHistoryTransaction"8;
-- (id)lModificationTag;
+- (id)externalModificationTag;
 - (id);
 - (id)ÈCù^;
 - (id);
 - (id)ÃD4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isContactProvider; // @synthesize isContactProvider=_isContactProvider;
 @property(readonly, nonatomic) id <CNContactsLogger> logger; // @synthesize logger=_logger;
-@property(readonly, retain, nonatomic) NSObject<CNDataMapper> *mapper; // @synthesize mapper=_mapper;
-@property(readonly, nonatomic) id <CNRegulatoryLogger> regulatoryLogger; // @synthesize regulatoryLogger=_regulatoryLogger;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents; // @synthesize shouldLogPrivacyAccountingAccessEvents=_shouldLogPrivacyAccountingAccessEvents;
 
 @end
 

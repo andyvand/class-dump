@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)ledViews;
++ (_Bool)usesTiledViews;
 
 @end
 

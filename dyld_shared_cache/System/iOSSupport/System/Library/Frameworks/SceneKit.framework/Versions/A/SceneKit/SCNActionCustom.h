@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)(void)_block_invoke;
 - (id);
 - (_Bool);
 - (void);

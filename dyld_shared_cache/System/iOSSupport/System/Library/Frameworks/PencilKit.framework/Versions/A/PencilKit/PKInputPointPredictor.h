@@ -7,7 +7,6 @@
 @interface PKInputPointPredictor
 {
     CDStruct_4cc01785 _points[4];
-    long long _numPoints;
 }
 
 - (CDStruct_4cc01785);

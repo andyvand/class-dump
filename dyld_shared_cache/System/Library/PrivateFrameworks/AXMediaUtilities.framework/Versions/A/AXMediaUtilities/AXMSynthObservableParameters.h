@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSPointerArray;
+@class NSPointerArray;
 
 @interface AXMSynthObservableParameters
 {
     NSPointerArray *_parameterObservers;
-    NSMutableDictionary *_parameterValues;
-    NSMutableSet *_supportedParameters;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (id);
-- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (void)\|;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Jz;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) NSPointerArray *parameterObservers; // @synthesize parameterObservers=_parameterObservers;
-@property(retain, nonatomic) NSMutableDictionary *parameterValues; // @synthesize parameterValues=_parameterValues;
-@property(retain, nonatomic) NSMutableSet *supportedParameters; // @synthesize supportedParameters=_supportedParameters;
 
 @end
 

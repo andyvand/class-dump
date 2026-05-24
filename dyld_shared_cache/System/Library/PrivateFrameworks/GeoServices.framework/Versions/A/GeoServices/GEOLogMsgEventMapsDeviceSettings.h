@@ -11,8 +11,8 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)rdinateIndex:(id)arg1;
-- (void);
++ (_Bool)setHasStartCoordinateIndex:(id)arg1;
+- (void)A;
 - (id);
 - (id);
 - (void);
@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)request must be less than or equal to the data's length.;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)s:(struct _NSZone *)arg1;
+- (void)6!;
+- (id)setSubRegions:(struct _NSZone *)arg1;
 - (id)",&,N;
 - (id):%@
 %@ /* Error: Ran out of types for this method. */;

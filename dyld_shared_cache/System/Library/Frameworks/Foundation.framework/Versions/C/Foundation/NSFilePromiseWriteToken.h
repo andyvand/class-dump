@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSFilePromiseWriteToken
 {
     NSURL *promiseURL;
-    NSURL *logicalURL;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSURL *logicalURL; // @synthesize logicalURL;
 @property(copy) NSURL *promiseURL; // @synthesize promiseURL;
 
 @end

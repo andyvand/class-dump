@@ -7,8 +7,6 @@
 @interface AppStoreKit.GameCenterCache
 {
     id cacheData;
-    id cachedLocalPlayerStatus;
-    id friendsPlayedGamesWindowInSeconds;
 }
 
 @end

@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCEEuclidTrialParameters : SISchemaInstrumentationMessage
 {
     NSString *_euclidModelVersion;
-    float _euclidScoreThreshold;
-    float _euclidAsrConfidenceThreshold;
-    struct {
-        unsigned int euclidScoreThreshold:1;
-        unsigned int euclidAsrConfidenceThreshold:1;
-    } _has;
-    _Bool _hasEuclidModelVersion;
 }
 
 - (void);
@@ -47,13 +40,7 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) float euclidAsrConfidenceThreshold; // @synthesize euclidAsrConfidenceThreshold=_euclidAsrConfidenceThreshold;
 @property(copy, nonatomic) NSString *euclidModelVersion; // @synthesize euclidModelVersion=_euclidModelVersion;
-@property(nonatomic) float euclidScoreThreshold; // @synthesize euclidScoreThreshold=_euclidScoreThreshold;
-@property(nonatomic) _Bool hasEuclidAsrConfidenceThreshold;
-@property(nonatomic) _Bool hasEuclidModelVersion; // @synthesize hasEuclidModelVersion=_hasEuclidModelVersion;
-@property(nonatomic) _Bool hasEuclidScoreThreshold;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

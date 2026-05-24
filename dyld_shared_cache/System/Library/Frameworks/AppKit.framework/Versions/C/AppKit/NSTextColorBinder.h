@@ -12,33 +12,28 @@ __attribute__((visibility("hidden")))
 @interface NSTextColorBinder : NSBinder
 {
     NSColor *_originalColor;
-    NSColor *_referenceBinderRequestedColor;
-    struct __textColorBinderFlags {
-        unsigned int _referenceBinderDidRequestColor:1;
-        unsigned int _reservedTextColorBinder:31;
-    } _textColorBinderFlags;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)ompactCookieArray@%p> { %d cookies };
 + (id);
 + (id);
 - (Class);
 - (void);
-- (void);
+- (void)y;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)"40@?<v@?@"<NDBackgroundSessionProtocol>"@"NSDictionary"B>48;
+- (void)c"q}"st_ctimespec"{timespec="tv_sec"q"tv_nsec"q}"st_birthtimespec"{timespec="tv_sec"q"tv_nsec"q}"st_size"q"st_blocks"q"st_blksize"i"st_flags"I"st_gen"I"st_lspare"i"st_qspare"[2q]};
+- (void)startResourceTimer;
+- (id)isApplication;
+- (void)_useTLSSessionCacheFromSession:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)Response;
+- (void)NWURLSession;
+- (unsigned long long)ect,									 proto_props, user_info) 									 VALUES (%q, %q, %q, %q, %q);;
 - (void);
 - (id)_sortSubviews;
 - (void)\D;

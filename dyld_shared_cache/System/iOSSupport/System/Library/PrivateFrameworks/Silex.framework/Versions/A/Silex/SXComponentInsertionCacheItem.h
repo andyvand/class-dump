@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol SXComponentInserter, SXComponentInsertionCacheValidator;
+@protocol SXComponentInserter;
 
 @interface SXComponentInsertionCacheItem
 {
     id <SXComponentInserter> _inserter;
-    id <SXComponentInsertionCacheValidator> _validator;
-    NSArray *_results;
 }
 
 - (void)ayoutInvalidationManagerDelegate>"16@0:8 /* Error: Ran out of types for this method. */;

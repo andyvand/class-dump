@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PDFView, WebDataSource;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface WebPDFView
 {
     PDFView *PDFSubview;
-    NSString *path;
-    _Bool firstResponderIsPDFDocumentView;
-    _Bool written;
-    _Bool _ignoreScaleAndDisplayModeAndPageNotifications;
-    _Bool _willUpdatePreferencesSoon;
-    PDFView *PDFSubviewProxy;
-    WebDataSource *dataSource;
-    NSArray *textMatches;
-    struct CGPoint lastScrollPosition;
 }
 
 + (id);
 + (id);
 + (Class);
 + (Class);
+- (void)~
+;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)q;
+- (_Bool)[;
 - (void);
 - (void);
 - (_Bool);
@@ -45,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -68,12 +60,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)r;
 - (id);
 - (void);
 - (void);
@@ -85,21 +77,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)rapportUIDForDeviceUID: /* Error: Ran out of types for this method. */;
+- (void)initWithBundleIdentifierAffinity:(id)arg1 hostDisplayName:routeType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)AFDS cache;
 - (void);
 - (id);
 - (id);
@@ -108,7 +100,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
@@ -116,17 +108,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)!#!À@ùq'°1Â0@ù
 × ;
-- (_Bool)yTextStitchingEnabled;
+- (_Bool)WebKitAccessibilityTextStitchingEnabled;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

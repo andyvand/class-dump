@@ -6,62 +6,40 @@
 
 #import <EventKitUI/EKEventViewControllerDefaultImpl.h>
 
-@class EKCalendarEventInvitationNotificationAttendee, EKEvent, EKUIEmailCompositionManager, EKUIRecurrenceAlertController, NSString;
-@protocol EKEventViewDelegate, EKUIViewControllerNavigationDelegate, EKViewControllerRemoteUIDelegate;
+@class EKUIRecurrenceAlertController;
+@protocol EKViewControllerRemoteUIDelegate;
 
 @interface EKUIProposedTimeEventViewControllerDefaultImpl : EKEventViewControllerDefaultImpl
 {
     id <EKViewControllerRemoteUIDelegate> _remoteUIDelegate;
-    CDUnknownBlockType completionBlock;
-    EKCalendarEventInvitationNotificationAttendee *proposedTimeAttendee;
-    EKUIRecurrenceAlertController *_recurrenceAlertController;
-    EKUIEmailCompositionManager *_messageSendingManager;
 }
 
-- (id);
+- (id)&s;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)s;
+- (void)s;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<int, std:(id)arg1:__1::allocator<int> >=^i^i{__compressed_pair<int *, std::__1::allocator<int> >=^i}} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_selectedInterval;
 - (id);
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)RoomType:completion:queue: /* Error: Ran out of types for this method. */;
-- (void)mLaunchOptionFromTimeToLeaveNotification;
-- (void)d;
+- (void)virtualConferenceForRoomType:completion:queue: /* Error: Ran out of types for this method. */;
+- (void)hasMapItemLaunchOptionFromTimeToLeaveNotification;
+- (void)_gestureCanceled;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCalendarPreview;
-@property(nonatomic) _Bool allowsEditing;
-@property(nonatomic) _Bool calendarPreviewIsInlineDayView;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKEventViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EKEvent *event;
-@property(readonly) unsigned long long hash;
-@property(retain) EKUIEmailCompositionManager *messageSendingManager; // @synthesize messageSendingManager=_messageSendingManager;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(retain, nonatomic) EKCalendarEventInvitationNotificationAttendee *proposedTimeAttendee; // @synthesize proposedTimeAttendee;
 @property(retain) EKUIRecurrenceAlertController *recurrenceAlertController; // @synthesize recurrenceAlertController=_recurrenceAlertController;
-@property(nonatomic) __weak id <EKViewControllerRemoteUIDelegate> remoteUIDelegate; // @synthesize remoteUIDelegate=_remoteUIDelegate;
-@property(nonatomic) _Bool showsDetectedConferenceItem;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorLiteTapback, NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorLiteTextMessage
 {
@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)mage";
 - (id);
 - (id);
 - (long long);
@@ -21,10 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long effect;
-@property(nonatomic, readonly) NSString *plainTextBody;
-@property(nonatomic, readonly) BlastDoorLiteTapback *tapback;
-@property(nonatomic, readonly) NSUUID *threadOriginatorUUID;
 
 @end
 

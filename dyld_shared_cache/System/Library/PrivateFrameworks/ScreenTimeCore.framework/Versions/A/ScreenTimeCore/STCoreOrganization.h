@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, STScreenTimeSettings;
+@class NSSet;
 
 @interface STCoreOrganization
 {
 }
 
-+ (Class);
++ (Class)0 AND item_extra.file_size = 0;
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *blueprints; // @dynamic blueprints;
 @property(retain, nonatomic) NSSet *enqueuedPayloads; // @dynamic enqueuedPayloads;
-@property(retain, nonatomic) NSSet *pendingPayloads; // @dynamic pendingPayloads;
-@property(retain, nonatomic) NSSet *recentPayloads; // @dynamic recentPayloads;
-@property(retain, nonatomic) STScreenTimeSettings *screenTimeSettings; // @dynamic screenTimeSettings;
 
 @end
 

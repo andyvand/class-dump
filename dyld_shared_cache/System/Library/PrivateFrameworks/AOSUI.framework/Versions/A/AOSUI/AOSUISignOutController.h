@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, AOSUISignOutOptions, NSMutableArray, NSString;
+@class ACAccountStore, NSString;
 
 @interface AOSUISignOutController
 {
     NSString *_telemetryFlowID;
-    NSString *_clientID;
-    ACAccountStore *_accountStore;
-    NSMutableArray *_signOutObservers;
-    AOSUISignOutOptions *_signOutOptions;
 }
 
 + (id)qYð1Â0@ù
@@ -31,7 +27,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void);
@@ -46,10 +42,6 @@
 
 // Remaining properties
 @property(retain) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain) NSMutableArray *signOutObservers; // @synthesize signOutObservers=_signOutObservers;
-@property(retain) AOSUISignOutOptions *signOutOptions; // @synthesize signOutOptions=_signOutOptions;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

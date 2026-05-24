@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
-
 @interface NEIKEv2Rekey
 {
     int _ikeLifetimeMinutes;
-    int _childLifetimeMinutes;
-    NSString *_sessionDescription;
-    NSObject<OS_dispatch_source> *_ikeLifetimeDispatchTimer;
-    NSObject<OS_dispatch_source> *_childLifetimeDispatchTimer;
-    CDUnknownBlockType _ikeRekeyHandler;
-    CDUnknownBlockType _childRekeyHandler;
 }
 
 - (void);
-- (void)etionHandler: /* Error: Ran out of types for this method. */;
+- (void)startConnectionWithProviderConfig:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

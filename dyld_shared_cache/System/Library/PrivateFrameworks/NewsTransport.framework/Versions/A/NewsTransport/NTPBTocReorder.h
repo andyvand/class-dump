@@ -4,63 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NTPBTocReorder
 {
     NSString *_feedId;
-    int _feedType;
-    NSData *_tocExposureId;
-    int _tocNewIndex;
-    int _tocOldIndex;
-    struct {
-        unsigned int feedType:1;
-        unsigned int tocNewIndex:1;
-        unsigned int tocOldIndex:1;
-    } _has;
 }
 
-- (int);
-- (int);
+- (int)initWithModuleType:range: /* Error: Ran out of types for this method. */;
+- (int)initWithModel:timeSource:cueSource: /* Error: Ran out of types for this method. */;
+- (id)initWithModel:timeSource:cueSource: /* Error: Ran out of types for this method. */;
+- (void)initWithExtendedTraitCollection:(id)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (void)imageWithSystemSymbolName:(_Bool)arg1 accessibilityDescription: /* Error: Ran out of types for this method. */;
+- (void)imageWithSymbolConfiguration:(_Bool)arg1;
+- (_Bool)domain;
+- (_Bool)doesNotRecognizeSelector: /* Error: Ran out of types for this method. */;
+- (_Bool)documentsLocalizedTitles;
+- (_Bool)currentViewPortWithThumbnailOverscan;
+- (id)cplSettingsDidChange:(int)arg1;
+- (void)colorWithCalibratedRed:(int)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)thSuccess:(int)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)cloudOwnerIsWhitelisted;
+- (int)children;
+- (void);
+- (_Bool);
+- (id)@;
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)insertTimeRange:ofAsset:atTime:intoMutableComposition:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ns/A/Resources/SystemTCCMigration.bundle/;
+- (_Bool)s with error:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
-- (int);
-- (void)erInfo;
+- (int);
+- (void)userInfo;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
-@property(readonly, nonatomic) _Bool hasFeedId;
-@property(nonatomic) _Bool hasFeedType;
 @property(readonly, nonatomic) _Bool hasTocExposureId;
-@property(nonatomic) _Bool hasTocNewIndex;
-@property(nonatomic) _Bool hasTocOldIndex;
-@property(retain, nonatomic) NSData *tocExposureId; // @synthesize tocExposureId=_tocExposureId;
-@property(nonatomic) int tocNewIndex; // @synthesize tocNewIndex=_tocNewIndex;
-@property(nonatomic) int tocOldIndex; // @synthesize tocOldIndex=_tocOldIndex;
 
 @end
 

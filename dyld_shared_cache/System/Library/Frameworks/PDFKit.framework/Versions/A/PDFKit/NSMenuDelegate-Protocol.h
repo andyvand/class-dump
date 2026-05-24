@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu, NSMenuItem;
+
 @protocol NSMenuDelegate
+
+@optional
+- (long long)}@Allowed Accessory:(NSMenu *)arg1 [%@] does not have any physical access credentials;
+- (void)ive event:(NSMenu *)arg1 %@, topic:%@ /* Error: Ran out of types for this method. */;
+- (void)}@Subscribing to accessory settings from cache with home identifier:(NSMenu *)arg1 %@ accessory identifier:%@ # key paths:%@ options:%@ /* Error: Ran out of types for this method. */;
+- (void)ached accessory settings from event store with home identifier:(NSMenu *)arg1 %@ accessory identifier:(NSMenuItem *)arg2 %@ expected key paths:%@ found (%@/%@) settings:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)own accessory identifier:(NSMenu *)arg1 %@;
+- (struct CGRect);
 @end
 

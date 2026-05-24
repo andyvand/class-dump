@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFColor, SFRichText;
+@class NSData, SFColor, SFRichText;
 
 @protocol SFColorBarCardSection
+- (SFRichText *)_;
+- (void)w blueprint with the same identifier found in the database:(SFColor *)arg1 %{public}@;
+- (void)removeBlockingEntriesWithData:(SFRichText *)arg1 extensionID:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSData *);
+- (SFColor *);
 
 // Remaining properties
 @property(retain, nonatomic) SFColor *barColor;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFRichText *title;
-@property(retain, nonatomic) SFRichText *topText;
 @end
 

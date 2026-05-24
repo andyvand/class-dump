@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (WBSNSHashTableExtras)
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool safari_isEmpty;

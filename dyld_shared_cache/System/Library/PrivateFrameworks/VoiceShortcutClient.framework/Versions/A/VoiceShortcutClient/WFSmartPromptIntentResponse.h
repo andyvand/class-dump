@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface WFSmartPromptIntentResponse
 {
     long long _code;
 }
 
-- (id);
+- (id)'o;
 - (long long);
 - (void)|Bù1_1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *authorizationResult; // @dynamic authorizationResult;
 @property long long code; // @synthesize code=_code;
 
 @end

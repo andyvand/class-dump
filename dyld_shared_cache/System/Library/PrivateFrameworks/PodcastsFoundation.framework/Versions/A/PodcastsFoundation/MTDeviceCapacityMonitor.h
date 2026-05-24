@@ -9,20 +9,13 @@
 @interface MTDeviceCapacityMonitor
 {
     id diskAccessQueue;
-    id _capacityChangeObservers;
-    id capacityThreshold;
-    id url;
-    id vfsSource;
-    id ___capacityLevel;
-    id activeObserver;
-    id _activeNotificationName;
 }
 
 + (id)yc3$Ö¼V_pGG54$G;
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (id);

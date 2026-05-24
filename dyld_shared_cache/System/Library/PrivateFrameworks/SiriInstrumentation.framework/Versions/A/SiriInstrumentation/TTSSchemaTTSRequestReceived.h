@@ -6,25 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, TTSSchemaTTSVoiceContext;
+@class SISchemaUUID;
 
 @interface TTSSchemaTTSRequestReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    TTSSchemaTTSVoiceContext *_requestedVoiceContext;
-    int _inputTextLength;
-    SISchemaUUID *_contextId;
-    struct {
-        unsigned int inputTextLength:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasRequestedVoiceContext;
-    _Bool _hasContextId;
 }
 
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
@@ -33,37 +24,29 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)q!$;
 - (int);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)d}{CGSize=dd}}32@"NSEvent"64;
+- (void)sWebTabView";
+- (id)tableView:updateDraggingItemsForDrag: /* Error: Ran out of types for this method. */;
+- (_Bool)setLinkURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ickerViewController;
+- (_Bool)ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON   m.ROWID = j.message_id INNER JOIN chat c ON   c.ROWID = j.chat_id WHERE   c.room_name = ?   AND c.service_name = ? ORDER BY   m.ROWID DESC LIMIT ?;
 - (id);
 - (id);
-- (id)nSeconds;
-- (id)Removed;
-- (void)ATION;
+- (id)deleteRegisterMediaDurationInSeconds;
+- (id)_isTapbackRemoved;
+- (void)ORCHREQUESTTYPE_SPEECH_DICTATION;
 - (void)¯C;
-- (id)chemaODDEventOrigin;
+- (id)ODDSiriSchemaODDEventOrigin;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasInputTextLength;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasRequestedVoiceContext; // @synthesize hasRequestedVoiceContext=_hasRequestedVoiceContext;
-@property(nonatomic) int inputTextLength; // @synthesize inputTextLength=_inputTextLength;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) TTSSchemaTTSVoiceContext *requestedVoiceContext; // @synthesize requestedVoiceContext=_requestedVoiceContext;
 
 @end
 

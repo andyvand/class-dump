@@ -7,10 +7,6 @@
 @interface NewsUI2.SportsFavoritesConfig
 {
     id feedContext;
-    id formatContent;
-    id layoutOptionsProvider;
-    id log;
-    id feedKind;
 }
 
 @end

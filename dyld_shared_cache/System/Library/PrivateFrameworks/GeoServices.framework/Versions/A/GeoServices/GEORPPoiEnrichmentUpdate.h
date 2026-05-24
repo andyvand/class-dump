@@ -4,47 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEORPPoiEnrichmentPlaceContext, GEORPScorecard, GEORPScorecardUpdate, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPoiEnrichmentUpdate
 {
     PBDataReader *_reader;
-    NSMutableArray *_imageIds;
-    NSMutableArray *_imageUpdates;
-    GEORPPoiEnrichmentPlaceContext *_placeContext;
-    GEOPDPlace *_place;
-    GEORPScorecardUpdate *_scorecardUpdate;
-    GEORPScorecard *_scorecard;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _action;
-    struct {
-        unsigned int has_action:1;
-        unsigned int read_imageIds:1;
-        unsigned int read_imageUpdates:1;
-        unsigned int read_placeContext:1;
-        unsigned int read_place:1;
-        unsigned int read_scorecardUpdate:1;
-        unsigned int read_scorecard:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool);
++ (_Bool)setLegacyRoadClass:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)isConstraintViolationError: /* Error: Ran out of types for this method. */;
+- (id)Database;
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -58,44 +38,33 @@
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)A;
+- (id)SUserSessionActiveMonitor"16B24;
+- (void)@"<CSAudioProviderSelecting>",&,N,V_audioProviderSelector;
+- (void)tupRemoteServiceProxyObject];
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (void);
 - (id)dTextField"b1"read_translatedTextListField"b1"wrote_anyField"b1};
 - (void)_anyField"b1};
-- (_Bool)ange: /* Error: Ran out of types for this method. */;
-- (id)entifier: /* Error: Ran out of types for this method. */;
-- (id)Filters;
+- (_Bool)substringWithRange: /* Error: Ran out of types for this method. */;
+- (id)startProviderWithRequest:appIdentifier: /* Error: Ran out of types for this method. */;
+- (id)clearResultTypeFilters;
 - (id)H;
 - (id)%f,%f;
-- (int)I_TARGET_CALLOUT;
+- (int)UI_TARGET_CALLOUT;
 - (void);
 - (void)!§O@;
 
 // Remaining properties
-@property(nonatomic) int action;
 @property(nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceContext;
-@property(readonly, nonatomic) _Bool hasScorecard;
-@property(readonly, nonatomic) _Bool hasScorecardUpdate;
-@property(retain, nonatomic) NSMutableArray *imageIds;
-@property(retain, nonatomic) NSMutableArray *imageUpdates;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEORPPoiEnrichmentPlaceContext *placeContext;
-@property(retain, nonatomic) GEORPScorecard *scorecard;
-@property(retain, nonatomic) GEORPScorecardUpdate *scorecardUpdate;
 
 @end
 

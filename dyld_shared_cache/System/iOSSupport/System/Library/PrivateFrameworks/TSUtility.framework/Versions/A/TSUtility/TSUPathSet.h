@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface TSUPathSet
 {
     NSMutableSet *mPaths;
-    NSMutableDictionary *mBasePathToNumberMap;
-    TSUPathSet *mUnderlyingSet;
 }
 
 + (void);
@@ -24,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 
 @end
 

@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, TESTriggerPhraseLoader;
+@class NSLocale;
 
 @interface TESTriggerPhraseCollection
 {
     struct unique_ptr<trie::MarisaTrie<unsigned short, char16_t>, std::default_delete<trie::MarisaTrie<unsigned short, char16_t>>> _trie;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> _trieBlob;
-    struct mutex _mutex;
-    NSLocale *_locale;
-    TESTriggerPhraseLoader *_triggerPhraseLoader;
 }
 
+- (void)Open in the %@ app;
+- (id).%@/*;
+- (void)16@?0@"NSData"8;
+- (id)didPerformDelayedLaunchOperationsNotification;
+- (_Bool)adge.plus;
+- (void)marks folder empty state;
+- (void)cked;
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ŕ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) TESTriggerPhraseLoader *triggerPhraseLoader; // @synthesize triggerPhraseLoader=_triggerPhraseLoader;
 
 @end
 

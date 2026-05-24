@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VSDeveloperSettings
 {
     _Bool _isInSetTopBoxMode;
-    _Bool _cacheBusterEnabled;
-    _Bool _requestTimeoutsDisabled;
-    _Bool _simulateExpiredToken;
-    _Bool _setTopBoxUseDeviceProfile;
-    _Bool _setTopBoxSupportsOptOut;
-    NSString *_setTopBoxBundleIdentifier;
-    NSString *_setTopBoxUserToken;
-    NSString *_setTopBoxIdentityProviderID;
 }
 
 + (_Bool);
@@ -27,15 +17,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)finderViewRequestRecentPlaces:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)_metadataDiskCache;
 - (_Bool);
 - (id);
 - (id);
@@ -49,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cacheBusterEnabled; // @synthesize cacheBusterEnabled=_cacheBusterEnabled;
 @property(nonatomic) _Bool isInSetTopBoxMode; // @synthesize isInSetTopBoxMode=_isInSetTopBoxMode;
-@property(nonatomic) _Bool requestTimeoutsDisabled; // @synthesize requestTimeoutsDisabled=_requestTimeoutsDisabled;
-@property(copy, nonatomic) NSString *setTopBoxBundleIdentifier; // @synthesize setTopBoxBundleIdentifier=_setTopBoxBundleIdentifier;
-@property(copy, nonatomic) NSString *setTopBoxIdentityProviderID; // @synthesize setTopBoxIdentityProviderID=_setTopBoxIdentityProviderID;
-@property(nonatomic) _Bool setTopBoxSupportsOptOut; // @synthesize setTopBoxSupportsOptOut=_setTopBoxSupportsOptOut;
-@property(nonatomic) _Bool setTopBoxUseDeviceProfile; // @synthesize setTopBoxUseDeviceProfile=_setTopBoxUseDeviceProfile;
-@property(copy, nonatomic) NSString *setTopBoxUserToken; // @synthesize setTopBoxUserToken=_setTopBoxUserToken;
-@property(nonatomic) _Bool simulateExpiredToken; // @synthesize simulateExpiredToken=_simulateExpiredToken;
 
 @end
 

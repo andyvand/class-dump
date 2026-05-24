@@ -5,11 +5,9 @@
 //
 
 @protocol ABPersonListHeadlining
+- (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long countLabelThreshold;
-@property(readonly, nonatomic) unsigned long long numberOfMeCards;
 @property(nonatomic) long long sectioningThreshold;
-@property(nonatomic) _Bool vibrantHeaders;
 @end
 

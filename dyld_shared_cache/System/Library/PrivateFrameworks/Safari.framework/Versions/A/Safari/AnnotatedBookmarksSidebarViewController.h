@@ -4,46 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AnnotatedBookmarksSidebarExpandedTableCellView, AnnotatedBookmarksSidebarTableView, BookmarkFolderPickerMenuController, NSArray, NSLayoutConstraint, NSMenu, NSMutableArray, NSMutableSet, NSSearchField, NSString, NSTextField, NSTimer, NSView, Safari.BookmarksSidebarTableRecentlySavedCarousel, SafariWebBookmark, SafariWebBookmarkList, SidebarScrollView, SidebarSearchField;
-@protocol AnnotatedBookmarksSidebarViewControllerDelegate;
+@class SafariWebBookmarkList, SidebarScrollView;
 
 __attribute__((visibility("hidden")))
 @interface AnnotatedBookmarksSidebarViewController
 {
     SafariWebBookmarkList *_currentBookmarkList;
-    SafariWebBookmark *_bookmarkBeingEdited;
-    SafariWebBookmark *_bookmarkToBeEdited;
-    NSMutableArray *_bookmarksToDisplay;
-    NSMutableArray *_navigationStack;
-    NSMutableArray *_bookmarkFoldersToDisplay;
-    _Bool _useCompactViewMode;
-    Safari.BookmarksSidebarTableRecentlySavedCarousel *_recentlySavedCarousel;
-    NSArray *_recentlySavedBookmarks;
-    _Bool _suppressMetadataFetches;
-    NSArray *_lastDroppedBookmarks;
-    NSArray *_lastDraggedBookmarks;
-    NSMutableSet *_uuidsOfModifiedBookmarksSinceLastTableRefresh;
-    NSTimer *_refreshTableTimer;
-    _Bool _bookmarkChangeIsExpected;
-    _Bool _shouldRestoreScrollPositionAfterNextTableUpdate;
-    double _scrollPositionToRestore;
-    NSArray *_bookmarksSelectionToRestore;
-    NSView *_controlsContainer;
-    SidebarSearchField *_searchField;
-    AnnotatedBookmarksSidebarExpandedTableCellView *_offscreenExpandedCellViewForRowHeightCalculation;
-    double _calculatedControlsHeight;
-    BookmarkFolderPickerMenuController *_bookmarkFolderPickerMenuController;
-    NSMenu *_bookmarkMoveToSubmenu;
-    AnnotatedBookmarksSidebarTableView *_bookmarksTableView;
-    NSTextField *_emptyStateTextField;
-    NSView *_controlsSpacerView;
-    NSView *_bottomSpacerView;
-    NSLayoutConstraint *_controlsSpacerViewHeightConstraint;
-    NSLayoutConstraint *_bottomSpacerViewHeightConstraint;
-    _Bool _showingFolderHierarchy;
-    id <AnnotatedBookmarksSidebarViewControllerDelegate> _delegate;
-    long long _sortByOption;
-    SidebarScrollView *_scrollView;
 }
 
 - (void);
@@ -57,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (id);
 - (id);
@@ -95,7 +61,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -119,13 +85,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)9`;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -152,7 +118,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)Ҍ;
 - (void);
 - (void);
 - (id);
@@ -189,7 +155,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -197,13 +163,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
@@ -213,7 +179,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -221,29 +187,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)gnModeMenuItem;
+- (id)ToggleResponsiveDesignModeMenuItem;
 - (void);
 - (id)Ü;
 - (void);
 - (_Bool)×.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFilteringControls;
-@property(readonly, nonatomic) _Bool atTopLevelBookmark;
-@property(readonly, nonatomic) NSString *bookmarkListTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AnnotatedBookmarksSidebarViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *navigationStack;
 @property(nonatomic) __weak SidebarScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) NSSearchField *searchField;
-@property(readonly, nonatomic, getter=isShowingFolderHierarchy) _Bool showingFolderHierarchy; // @synthesize showingFolderHierarchy=_showingFolderHierarchy;
-@property(nonatomic) long long sortByOption; // @synthesize sortByOption=_sortByOption;
-@property(readonly) Class superclass;
 
 @end
 

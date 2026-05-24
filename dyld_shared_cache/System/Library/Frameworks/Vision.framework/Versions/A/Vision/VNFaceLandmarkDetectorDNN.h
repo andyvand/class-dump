@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface VNFaceLandmarkDetectorDNN : VNFaceLandmarkDetector
 {
     struct shared_ptr<vision::mod::LandmarkDetectorDNN> _landmarkDetector;
-    struct vector<_Geometry2D_point2D_, std::allocator<_Geometry2D_point2D_>> _landmarkPoints65;
 }
 
 + (id);
 + (int);
 + (id);
-+ (void);
-+ (id);
++ (void)to decrypt EncryptedToken (et);
++ (id)_TtC8Contacts29CNContactProviderSupportCache;
 - (_Bool);
 - (_Bool);
 - (void *);

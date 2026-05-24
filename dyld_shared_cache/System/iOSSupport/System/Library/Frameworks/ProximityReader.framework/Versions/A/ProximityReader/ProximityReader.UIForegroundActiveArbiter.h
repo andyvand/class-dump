@@ -8,9 +8,6 @@
 {
     id notificationCenterObservers;
     id foregroundStateObservers;
-    id currentState;
-    id active;
-    id lock;
 }
 
 @end

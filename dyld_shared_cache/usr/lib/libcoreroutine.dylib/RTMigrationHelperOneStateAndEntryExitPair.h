@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTStateModelEntryExit, RTStateModelOneState;
+@class RTStateModelOneState;
 
 __attribute__((visibility("hidden")))
 @interface RTMigrationHelperOneStateAndEntryExitPair
 {
     RTStateModelOneState *_oneState;
-    RTStateModelEntryExit *_entryExit;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)dateOfLastSuccessForEvent: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void)e enabled, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTStateModelEntryExit *entryExit; // @synthesize entryExit=_entryExit;
 @property(retain, nonatomic) RTStateModelOneState *oneState; // @synthesize oneState=_oneState;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface NFPeerPaymentEnrollmentResponse
 {
     NSData *_prePeerPaymentCertificate;
-    NSDictionary *_certificate;
 }
 
 + (_Bool);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *certificate; // @synthesize certificate=_certificate;
 @property(readonly, retain, nonatomic) NSData *prePeerPaymentCertificate; // @synthesize prePeerPaymentCertificate=_prePeerPaymentCertificate;
 
 @end

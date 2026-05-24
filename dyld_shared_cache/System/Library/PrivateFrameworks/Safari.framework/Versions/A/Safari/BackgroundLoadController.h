@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 @protocol BackgroundLoadControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BackgroundLoadController
 {
     NSMutableDictionary *_urlsToUncommittedBackgroundLoads;
-    NSMutableSet *_backgroundLoads;
-    id <BackgroundLoadControllerDelegate> _delegate;
 }
 
 - (id);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)dAa(`;
 - (id);
 - (_Bool);
 - (void);
@@ -45,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ability subscription invitation.;
 - (void);
 - (void)ÿÿ;
 - (id);

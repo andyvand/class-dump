@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock;
-
 @interface NFLazy
 {
     id _value;
-    CDUnknownBlockType _constructor;
-    NFUnfairLock *_lock;
 }
 
 - (void);
@@ -22,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType constructor; // @synthesize constructor=_constructor;
-@property(readonly, copy, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

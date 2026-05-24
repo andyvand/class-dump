@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TTR_SizeInvalidation)
-- (void);
+- (void)<;
 @end
 

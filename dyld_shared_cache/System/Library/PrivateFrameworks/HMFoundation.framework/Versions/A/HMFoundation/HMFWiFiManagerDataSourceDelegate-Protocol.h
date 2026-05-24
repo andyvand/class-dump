@@ -5,5 +5,7 @@
 //
 
 @protocol HMFWiFiManagerDataSourceDelegate
+- (void);
+- (void)_;
 @end
 

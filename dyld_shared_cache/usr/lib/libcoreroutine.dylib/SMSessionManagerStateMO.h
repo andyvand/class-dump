@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID, SMSessionConfigurationMO, SMSessionManagerStatusMO;
+@class NSDate;
 
 @interface SMSessionManagerStateMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)6@0:(id)arg1 8B16@"NSString"20@?<v@?@"NSNumber"@"NSNumber"@"NSNumber"@"NSError">28;
++ (id)replaceRecordID:(id)arg1 data:(id)arg2 publicKey: /* Error: Ran out of types for this method. */;
++ (id)Disconnecting;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *activeDeviceIdentifier; // @dynamic activeDeviceIdentifier;
-@property(copy, nonatomic) NSUUID *activePairedDeviceIdentifier; // @dynamic activePairedDeviceIdentifier;
-@property(copy, nonatomic) NSData *allowReadToken; // @dynamic allowReadToken;
-@property(copy, nonatomic) NSDate *coarseEstimatedEndDate; // @dynamic coarseEstimatedEndDate;
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSDate *estimatedEndDate; // @dynamic estimatedEndDate;
-@property(nonatomic) short estimatedEndDateStatus; // @dynamic estimatedEndDateStatus;
-@property(nonatomic) double locationLatitude; // @dynamic locationLatitude;
-@property(nonatomic) double locationLongitude; // @dynamic locationLongitude;
-@property(copy, nonatomic) NSData *safetyCacheKey; // @dynamic safetyCacheKey;
-@property(copy, nonatomic) NSDate *scheduledSendMessageDate; // @dynamic scheduledSendMessageDate;
-@property(copy, nonatomic) NSString *scheduledSendMessageGUID; // @dynamic scheduledSendMessageGUID;
-@property(retain, nonatomic) SMSessionConfigurationMO *sessionConfiguration; // @dynamic sessionConfiguration;
-@property(nonatomic) short sessionEndReason; // @dynamic sessionEndReason;
-@property(nonatomic) short sessionState; // @dynamic sessionState;
-@property(copy, nonatomic) NSDate *sessionStateTransitionDate; // @dynamic sessionStateTransitionDate;
-@property(retain, nonatomic) SMSessionManagerStatusMO *sessionStatus; // @dynamic sessionStatus;
-@property(copy, nonatomic) NSString *startMessageGUID; // @dynamic startMessageGUID;
-@property(nonatomic) short triggerCategory; // @dynamic triggerCategory;
-@property(nonatomic) short updateReason; // @dynamic updateReason;
-@property(nonatomic) short userTriggerResponse; // @dynamic userTriggerResponse;
 
 @end
 

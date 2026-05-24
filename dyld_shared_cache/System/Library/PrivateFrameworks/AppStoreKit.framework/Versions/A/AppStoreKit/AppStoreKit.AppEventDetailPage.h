@@ -9,11 +9,6 @@
 @interface AppStoreKit.AppEventDetailPage : AppStoreKit.BasePage
 {
     id appEvent;
-    id artwork;
-    id video;
-    id shareAction;
-    id mediaOverlayStyle;
-    id includeBorderInDarkMode;
 }
 
 @end

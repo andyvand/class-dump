@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SPBeaconRoleCategory
 {
     long long _categoryId;
-    NSString *_category;
-    NSArray *_roles;
 }
 
 + (_Bool);
@@ -22,14 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)MessageAttachmentDownloadFailure;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
 @property(nonatomic) long long categoryId; // @synthesize categoryId=_categoryId;
-@property(copy, nonatomic) NSArray *roles; // @synthesize roles=_roles;
 
 @end
 

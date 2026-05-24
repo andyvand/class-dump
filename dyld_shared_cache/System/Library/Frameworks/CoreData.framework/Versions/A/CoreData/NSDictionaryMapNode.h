@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSDictionaryMapNode : NSStoreMapNode
 {
     id *_attributes;
-    id _attributesAsEncoded;
 }
 
 + (_Bool);
 + (void)dAccountInfoAndUserRecordID];
 - (id);
-- (void);
+- (void)`B;
 - (id);
 - (void);
-- (id);
+- (id)KerberosAccounts;
 
 @end
 

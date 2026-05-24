@@ -9,14 +9,10 @@
 @interface _NUBrushStrokeCIImageProvider
 {
     NUBrushStroke *_stroke;
-    _Bool _closed;
-    long long _pressureMode;
-    CDStruct_996ac03c _extent;
-    _Bool _filled;
 }
 
 - (id);
-- (void);
+- (void)ry class:(void *)arg1 %@ query:(unsigned long long)arg2 '%@'>;
 - (void);
 
 @end

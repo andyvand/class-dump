@@ -6,36 +6,33 @@
 
 #import <StoreFoundation/ISServiceProxy.h>
 
-@class ISServiceDelegate, NSLock, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSLock, NSXPCConnection;
 
 @interface ISServiceClientInterface : ISServiceProxy
 {
     NSLock *_serviceProxyLock;
-    NSXPCConnection *_conn;
-    ISServiceDelegate *_delegate;
 }
 
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
 - (id);
+- (id)֔;
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)kCGColorTRCParametricInv709_1886_EOTF_Type;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)n;
+- (id)e;
 - (id);
 - (void);
 - (id);
@@ -43,15 +40,6 @@
 
 // Remaining properties
 @property(readonly) NSXPCConnection *conn; // @synthesize conn=_conn;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak ISServiceDelegate *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *requestQueue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface VNCIFilter
 {
     CIColorKernel *_kernel;
-    CIImage *_inputImage;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)nitionPerformingOperation.swift;
 
 // Remaining properties

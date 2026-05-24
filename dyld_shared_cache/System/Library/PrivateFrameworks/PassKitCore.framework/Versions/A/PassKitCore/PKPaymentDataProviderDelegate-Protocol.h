@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKFeatureApplication;
+@class NSString, PKFeatureApplication;
 
 @protocol PKPaymentDataProviderDelegate
 
 @optional
-- (void)pletion:(PKFeatureApplication *)arg1;
+- (void)i;
+- (void)!;
+- (void)SGTFolderNameField;
+- (void)setHasCellUlBw:(NSString *)arg1;
+- (void)updateScheduledPaymentsWithAccount:(PKFeatureApplication *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)numberOfShareableCredentials;
 - (void)ts for "%@" scheme.;
 @end

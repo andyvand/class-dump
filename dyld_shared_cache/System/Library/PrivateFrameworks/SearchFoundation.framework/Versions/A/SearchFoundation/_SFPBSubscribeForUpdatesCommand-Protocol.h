@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCloudChannelsRequestItem, _SFPBDomainSubscriptionRequestItem;
+@class NSData, _SFPBCloudChannelsRequestItem;
 
 @protocol _SFPBSubscribeForUpdatesCommand
+- (id);
+- (NSData *)SharePreview",R,D,N;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCloudChannelsRequestItem *cloudChannelsRequestItem;
-@property(retain, nonatomic) _SFPBDomainSubscriptionRequestItem *domainSubscriptionRequestItem;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

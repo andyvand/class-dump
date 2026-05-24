@@ -7,10 +7,6 @@
 @interface PhotosUICore.SharedLibraryBannerViewModel
 {
     id _isVisible;
-    id _sharedLibraryStatusViewModel;
-    id _sharedLibraryStatusViewModelObservation;
-    id observable;
-    id _$observationRegistrar;
 }
 
 @end

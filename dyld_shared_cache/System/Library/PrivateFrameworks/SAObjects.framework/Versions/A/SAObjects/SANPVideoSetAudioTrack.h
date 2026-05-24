@@ -13,8 +13,8 @@
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)";
+- (void)Wl;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *desiredOptionId;
-@property(copy, nonatomic) NSString *languageOptionChangeUserSetting;
 
 @end
 

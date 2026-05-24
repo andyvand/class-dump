@@ -9,8 +9,6 @@
 @interface CRKSetCourseMascotAndColorRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    unsigned long long _mascotType;
-    unsigned long long _colorType;
 }
 
 + (_Bool);
@@ -25,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long colorType; // @synthesize colorType=_colorType;
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(nonatomic) unsigned long long mascotType; // @synthesize mascotType=_mascotType;
 
 @end
 

@@ -9,29 +9,18 @@
 @interface _UIWebViewportHandler
 {
     _Bool _initialConfigurationHasBeenSentToDelegate;
-    struct _UIWebViewportConfiguration _defaultConfiguration;
-    struct _UIWebViewportConfiguration _configuration;
-    unsigned int _webkitDefinedConfigurationFlags;
-    struct CGSize _availableViewSize;
-    struct CGSize _viewportArgumentsSize;
-    _Bool _widthIsDeviceWidth;
-    _Bool _heightIsDeviceHeight;
-    _Bool _isInUpdateBlock;
-    _Bool _classicViewportMode;
-    id <_UIWebViewportHandlerDelegate> _delegate;
-    struct CGRect _documentBounds;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)/;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct _UIWebViewportConfiguration);
 - (void);
 - (float);
 - (_Bool);
-- (double);
+- (double){@y;
 - (double);
 - (void);
 - (_Bool);
@@ -39,11 +28,11 @@
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)skipped because sender is known/contact.;
 - (float);
 - (float);
 - (float);
-- (void);
+- (void)eAcquisitionMechanism:(struct CGRect)arg1 withAllowAllAppsAccess:withPromptForCredentials:withKeyIsExtractable:withKeysize:withEnableAutoRenewal: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)að!Bù±a1Â0@ù
 × ;
@@ -53,17 +42,7 @@
 - (void)p;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsUserScaling;
-@property(readonly, nonatomic) struct CGSize availableViewSize; // @synthesize availableViewSize=_availableViewSize;
-@property(readonly, nonatomic) _Bool avoidsUnsafeArea;
-@property(readonly, nonatomic, getter=isClassicViewportMode) _Bool classicViewportMode; // @synthesize classicViewportMode=_classicViewportMode;
 @property(nonatomic) id <_UIWebViewportHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) struct CGRect documentBounds; // @synthesize documentBounds=_documentBounds;
-@property(readonly, nonatomic) float initialScale;
-@property(readonly, nonatomic) float maximumScale;
-@property(readonly, nonatomic) float minimumScale;
-@property(readonly, nonatomic) struct _UIWebViewportConfiguration rawViewConfiguration;
-@property(readonly, nonatomic) unsigned int webkitDefinedConfigurationFlags; // @synthesize webkitDefinedConfigurationFlags=_webkitDefinedConfigurationFlags;
 
 @end
 

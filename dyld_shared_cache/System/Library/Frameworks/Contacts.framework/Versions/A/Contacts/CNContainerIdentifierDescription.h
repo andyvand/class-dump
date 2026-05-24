@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)copy;
 - (_Bool);
 - (Class)0@ù
 × ;

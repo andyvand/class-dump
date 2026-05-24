@@ -7,11 +7,6 @@
 @interface PromotedContentUI.SAFRankingStrategy
 {
     id locale;
-    id bundleID;
-    id appVersion;
-    id systemInfoProvider;
-    id idAccount;
-    id coreSettings;
 }
 
 @end

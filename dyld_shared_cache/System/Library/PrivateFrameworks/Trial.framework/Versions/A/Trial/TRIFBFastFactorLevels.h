@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSArray, NSData, NSDictionary, NSString;
+@class AFBBufRef, NSArray;
 
 @interface TRIFBFastFactorLevels
 {
     AFBBufRef *_br;
-    const struct FastFactorLevels *_ptr;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)";
 - (const char *);
-- (id);
+- (id);
 - (id);
 - (const char *);
 - (id);
@@ -23,10 +22,10 @@
 - (const char *);
 - (id);
 - (const unsigned int *);
-- (id);
+- (id);
 - (id);
 - (const char *);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,31 +35,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned char)ntLastFetchAttempt: /* Error: Ran out of types for this method. */;
+- (unsigned char)copyWithReplacementLastFetchAttempt: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *levels;
-@property(readonly, nonatomic) NSDictionary *levelsAsDict;
-@property(readonly, nonatomic) NSString *namespaceName;
-@property(readonly, nonatomic) const char *namespaceNameAsCString;
-@property(readonly, nonatomic) NSData *namespaceNameAsData;
-@property(readonly, nonatomic) NSArray *ncvs;
-@property(readonly, nonatomic) NSString *sourceAsDefaults;
-@property(readonly, nonatomic) const char *sourceAsDefaultsCString;
-@property(readonly, nonatomic) NSData *sourceAsDefaultsData;
-@property(readonly, nonatomic) NSString *sourceAsFactorPackId;
-@property(readonly, nonatomic) const char *sourceAsFactorPackIdCString;
-@property(readonly, nonatomic) NSData *sourceAsFactorPackIdData;
-@property(readonly, nonatomic) NSString *sourceAsTreatmentId;
-@property(readonly, nonatomic) const char *sourceAsTreatmentIdCString;
-@property(readonly, nonatomic) NSData *sourceAsTreatmentIdData;
-@property(readonly, nonatomic) unsigned char sourceType;
 
 @end
 

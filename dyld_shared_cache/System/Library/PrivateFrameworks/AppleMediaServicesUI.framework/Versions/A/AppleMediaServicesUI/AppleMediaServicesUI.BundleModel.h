@@ -9,7 +9,6 @@
 @interface AppleMediaServicesUI.BundleModel : AppleMediaServicesUI.DynamicModel
 {
     id placement;
-    id _serviceType;
 }
 
 @end

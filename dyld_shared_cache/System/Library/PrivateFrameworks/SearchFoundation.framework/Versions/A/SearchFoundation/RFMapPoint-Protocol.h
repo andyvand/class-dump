@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 @protocol RFMapPoint
+- (void)_validateNewObjectUUID:(double)arg1 inPhotoLibrary:error: /* Error: Ran out of types for this method. */;
+- (NSDictionary *);
 - (double),&,N,V_action;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double x;
-@property(nonatomic) double y;
 @end
 

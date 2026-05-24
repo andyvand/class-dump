@@ -10,9 +10,9 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (struct CGPDFDocument *);
+- (void);
+- (id));
+- (struct CGPDFDocument *)formObservedChangeIndicatingFormSubmission;
 
 @end
 

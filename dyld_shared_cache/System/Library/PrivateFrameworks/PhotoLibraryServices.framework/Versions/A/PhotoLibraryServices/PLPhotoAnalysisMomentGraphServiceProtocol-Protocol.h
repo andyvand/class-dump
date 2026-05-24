@@ -5,5 +5,7 @@
 //
 
 @protocol PLPhotoAnalysisMomentGraphServiceProtocol
+- (unsigned int :(null));
+- (id);
 @end
 

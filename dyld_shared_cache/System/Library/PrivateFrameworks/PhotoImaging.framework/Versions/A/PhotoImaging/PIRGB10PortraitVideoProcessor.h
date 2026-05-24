@@ -10,7 +10,7 @@
 {
 }
 
-+ (int);
++ (int)_pendingEnrichmentStateByHighlightUUID;
 + (int);
 
 @end

@@ -9,9 +9,6 @@
 @interface AppStoreKit.TodayCardMediaVideo : AppStoreKit.TodayCardMedia
 {
     id artworks;
-    id videos;
-    id artworkLayoutsWithMetrics;
-    id description;
 }
 
 @end

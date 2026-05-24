@@ -10,6 +10,17 @@
 {
 }
 
+- (id)rchIndexableNote>"44@0:8@"NSString"16@"NSAttributedString"24B32^@36 /* Error: Ran out of types for this method. */;
+- (id)d16d24;
+- (id)ror";
+- (id)ic_addForegroundColorInRangesWhereNoColorAlreadyExists: /* Error: Ran out of types for this method. */;
+- (id)hidden;
+- (id)colorUsingColorSpace: /* Error: Ran out of types for this method. */;
+- (id)ManagedObjectID",R,N,V_attachmentID;
+- (id);
+- (id)p;;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,23 +37,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)you) were removed from the folder;
+- (id)oved from the note;
 
 @end
 

@@ -9,8 +9,6 @@
 @protocol MPCPlaybackEngineEventStreamInitializationParameters
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *engineID;
 @property(readonly, copy, nonatomic) NSString *originID;
-@property(readonly, copy, nonatomic) NSString *playerID;
 @end
 

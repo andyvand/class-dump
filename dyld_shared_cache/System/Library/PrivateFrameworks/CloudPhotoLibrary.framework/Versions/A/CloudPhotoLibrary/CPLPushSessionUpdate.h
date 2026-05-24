@@ -6,33 +6,25 @@
 
 #import <CloudPhotoLibrary/CPLChangeSessionUpdate.h>
 
-@class CPLChangeBatch, NSArray, NSDictionary, NSSet;
+@class CPLChangeBatch;
 
 @interface CPLPushSessionUpdate : CPLChangeSessionUpdate
 {
     CPLChangeBatch *_diffBatch;
-    NSDictionary *_pushContexts;
-    NSSet *_deletedScopeIdentifiers;
-    NSArray *_addedRecords;
-    NSArray *_updatedRecords;
-    NSArray *_deletedRecordScopedIdentifiers;
-    NSSet *_unquarantinedRecordScopedIdentifiers;
-    NSDictionary *_recordWithStatusChangesToNotify;
-    NSArray *_revertedChanges;
 }
 
 + (_Bool);
-- (id);
+- (id)of changes;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
 - (id);
-- (_Bool);
+- (id)i";
 - (id);
-- (id);
-- (id)get the current transaction outside of any transaction;
 - (void);
 - (id);
 - (id);
@@ -43,15 +35,7 @@
 - (id)any initial sync anchor for %@ but marking it has being alredy fetched;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedRecords; // @synthesize addedRecords=_addedRecords;
-@property(readonly, nonatomic) NSArray *deletedRecordScopedIdentifiers; // @synthesize deletedRecordScopedIdentifiers=_deletedRecordScopedIdentifiers;
-@property(readonly, nonatomic) NSSet *deletedScopeIdentifiers; // @synthesize deletedScopeIdentifiers=_deletedScopeIdentifiers;
 @property(readonly, nonatomic) CPLChangeBatch *diffBatch; // @synthesize diffBatch=_diffBatch;
-@property(readonly, nonatomic) NSDictionary *pushContexts; // @synthesize pushContexts=_pushContexts;
-@property(readonly, nonatomic) NSDictionary *recordWithStatusChangesToNotify; // @synthesize recordWithStatusChangesToNotify=_recordWithStatusChangesToNotify;
-@property(readonly, nonatomic) NSArray *revertedChanges; // @synthesize revertedChanges=_revertedChanges;
-@property(readonly, nonatomic) NSSet *unquarantinedRecordScopedIdentifiers; // @synthesize unquarantinedRecordScopedIdentifiers=_unquarantinedRecordScopedIdentifiers;
-@property(readonly, nonatomic) NSArray *updatedRecords; // @synthesize updatedRecords=_updatedRecords;
 
 @end
 

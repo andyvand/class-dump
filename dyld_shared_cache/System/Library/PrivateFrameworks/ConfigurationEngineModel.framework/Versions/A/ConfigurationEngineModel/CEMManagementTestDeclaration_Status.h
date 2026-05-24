@@ -13,15 +13,15 @@
     NSString *_statusEcho;
 }
 
++ (id)T;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)__cstring;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ge:(id)arg1 %@, Name:(id *)arg2 %@, Quality:%@ [%@]%@ /* Error: Ran out of types for this method. */;
+- (void)>init_num;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusEcho; // @synthesize statusEcho=_statusEcho;

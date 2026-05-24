@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 @protocol SFCollectionStyleGrid
+- (void)userCuratedAssetsHelper;
+- (NSDictionary *)`;
 - (unsigned long long)²;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int gridStyle;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long numberOfColumns;
 @end
 

@@ -7,9 +7,11 @@
 @class APSConnection;
 
 @protocol APSConnectionDelegate
-- (void)iceLockStateEvent:(APSConnection *)arg1;
+- (void)handleDeviceLockStateEvent:(APSConnection *)arg1;
 
 @optional
+- (void);
+- (void)userInfo;
 - (void) °;
 - (void)call reverseMapEntity without JS assets;
 - (void)entUnderstandingConsumer:(APSConnection *)arg1 consumeMessagesContentWithContext;

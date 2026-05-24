@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISConcreteIcon, ISImageDescriptor, NSUUID;
+@class ISConcreteIcon;
 
 @interface ISGenerationRequest
 {
     ISConcreteIcon *_icon;
-    ISImageDescriptor *_imageDescriptor;
-    NSUUID *_lsDatabaseUUID;
-    unsigned long long _lsDatabaseSequenceNumber;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (id);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(retain) ISConcreteIcon *icon; // @synthesize icon=_icon;
-@property(retain) ISImageDescriptor *imageDescriptor; // @synthesize imageDescriptor=_imageDescriptor;
-@property unsigned long long lsDatabaseSequenceNumber; // @synthesize lsDatabaseSequenceNumber=_lsDatabaseSequenceNumber;
-@property(retain) NSUUID *lsDatabaseUUID; // @synthesize lsDatabaseUUID=_lsDatabaseUUID;
 
 @end
 

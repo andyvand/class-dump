@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_poorConnectionTotalLength;
 - (id);
-- (void);
+- (void)"TTSStringTransformation"16;
 - (id);
 - (void)J;
 

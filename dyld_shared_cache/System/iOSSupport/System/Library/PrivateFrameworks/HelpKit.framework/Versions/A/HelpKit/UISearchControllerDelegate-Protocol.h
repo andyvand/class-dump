@@ -5,5 +5,10 @@
 //
 
 @protocol UISearchControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)1;
 @end
 

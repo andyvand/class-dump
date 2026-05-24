@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGAlbumClassificationQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
@@ -23,7 +18,7 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)relationshipAlgorithmsVersion;
+- (id)_relationshipAlgorithmsVersion;
 - (void)_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/Autobahn/PGTopPetWallpaperSuggester.m;
 
 @end

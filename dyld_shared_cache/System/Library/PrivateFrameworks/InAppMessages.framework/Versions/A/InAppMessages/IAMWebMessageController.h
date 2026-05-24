@@ -4,60 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAMWebView, ICInAppMessageEntry, NSArray, NSString, _WKRemoteObjectInterface;
-@protocol IAMWebMessageControllerDelegate, IAMWebProcessProxy;
+@class NSArray;
+@protocol IAMWebProcessProxy;
 
 @interface IAMWebMessageController
 {
     id <IAMWebProcessProxy> _webProcessProxy;
-    _WKRemoteObjectInterface *_remoteObjectInterface;
-    ICInAppMessageEntry *_messageEntry;
-    _Bool _isGlobalJSOAvailable;
-    _Bool _didMainNavigationFinish;
-    _Bool _hasSentContentPages;
-    IAMWebView *_webView;
-    id <IAMWebMessageControllerDelegate> _delegate;
-    NSArray *_contentPages;
-    CDUnknownBlockType _loadCompletion;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)ChronoServices;
 - (void);
-- (void);
-- (void);
+- (id)A;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)fetchedEventWithExperimentRecord:(id)arg1;
+- (void)kMDItemTitle_unordered_span_prefix;
 - (id);
 - (void);
 - (id)T@"ICInAppMessageEntry",&,N,V_webMessageEntry;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentPages; // @synthesize contentPages=_contentPages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IAMWebMessageControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType loadCompletion; // @synthesize loadCompletion=_loadCompletion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IAMWebView *webView; // @synthesize webView=_webView;
 
 @end
 

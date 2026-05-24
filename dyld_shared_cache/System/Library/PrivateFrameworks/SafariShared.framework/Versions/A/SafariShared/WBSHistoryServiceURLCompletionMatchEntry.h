@@ -9,8 +9,6 @@
 @interface WBSHistoryServiceURLCompletionMatchEntry
 {
     struct unique_ptr<SafariShared::_HistoryStreamedMatchEntry, std::default_delete<SafariShared::_HistoryStreamedMatchEntry>> _streamData;
-    NSString *_url;
-    NSString *_title;
 }
 
 + (_Bool);
@@ -19,9 +17,9 @@
 - (id);
 - (id);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)EncodingGraph;
 - (void);
 - (id);
 - (id)1Â0@ù
@@ -29,11 +27,7 @@
 - (void)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _HistoryStreamedMatchEntry *streamData;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) float topSitesScore;
 @property(readonly, nonatomic) NSString *url;
-@property(readonly, nonatomic) long long visitCountScore;
 
 @end
 

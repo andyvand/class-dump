@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, NSUUID;
-
 @interface WBSCloudTab
 {
     _Bool _showingReader;
-    _Bool _matchedLastSearch;
-    _Bool _isShowingReader;
-    _Bool _pinned;
-    NSString *_titleForLastSearch;
-    NSArray *_titleWords;
-    NSString *_URLStringForLastSearch;
-    NSArray *_URLStringComponents;
-    NSString *_lastSearchTerm;
-    double _lastViewedTime;
-    NSString *_sceneID;
-    NSUUID *_uuid;
-    NSDictionary *_readerScrollPositionDictionary;
-    NSString *_title;
-    NSURL *_url;
 }
 
 + (id);
@@ -34,9 +18,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9);
 - (id);
 - (void);
 - (id);
@@ -58,9 +42,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ality;
 - (id);
-- (_Bool);
+- (_Bool)livered, missing some required keys:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -73,32 +57,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URLString;
-@property(copy, nonatomic) NSArray *URLStringComponents; // @synthesize URLStringComponents=_URLStringComponents;
-@property(copy, nonatomic) NSString *URLStringForLastSearch; // @synthesize URLStringForLastSearch=_URLStringForLastSearch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentationForUserActivityUserInfo;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isShowingReader; // @synthesize isShowingReader=_isShowingReader;
-@property(copy, nonatomic) NSString *lastSearchTerm; // @synthesize lastSearchTerm=_lastSearchTerm;
-@property(readonly, nonatomic) double lastViewedTime; // @synthesize lastViewedTime=_lastViewedTime;
-@property(nonatomic) _Bool matchedLastSearch; // @synthesize matchedLastSearch=_matchedLastSearch;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(copy, nonatomic) NSDictionary *readerScrollPositionDictionary; // @synthesize readerScrollPositionDictionary=_readerScrollPositionDictionary;
-@property(readonly, copy, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
-@property(readonly, nonatomic, getter=isShowingReader) _Bool showingReader; // @synthesize showingReader=_showingReader;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *titleForLastSearch; // @synthesize titleForLastSearch=_titleForLastSearch;
-@property(copy, nonatomic) NSArray *titleWords; // @synthesize titleWords=_titleWords;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, copy, nonatomic) NSString *uuidString;
 
 @end
 

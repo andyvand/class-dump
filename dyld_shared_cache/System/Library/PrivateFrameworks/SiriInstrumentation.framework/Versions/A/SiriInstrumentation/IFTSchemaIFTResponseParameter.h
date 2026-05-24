@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTResponseParameter : SISchemaInstrumentationMessage
 {
     _Bool _profanityFilter;
-    _Bool _isRequired;
-    struct {
-        unsigned int profanityFilter:1;
-        unsigned int isRequired:1;
-    } _has;
 }
 
 - (void);
@@ -37,13 +30,9 @@
 - (id)tÐ!HAùQà1Â0@ù
 × ;
 - (id),V_actionLevelDisambiguationHistory;
-- (id)LASREvaluationMetrics;
+- (id)DODMLASRSchemaDODMLASREvaluationMetrics;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRequired;
-@property(nonatomic) _Bool hasProfanityFilter;
-@property(nonatomic) _Bool isRequired; // @synthesize isRequired=_isRequired;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool profanityFilter; // @synthesize profanityFilter=_profanityFilter;
 
 @end

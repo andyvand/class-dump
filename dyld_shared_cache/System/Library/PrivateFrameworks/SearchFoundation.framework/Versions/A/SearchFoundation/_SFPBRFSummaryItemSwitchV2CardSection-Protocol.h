@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData;
 
 @protocol _SFPBRFSummaryItemSwitchV2CardSection
+- (NSData *)ternalPredicate;
 
 // Remaining properties
 @property(nonatomic) _Bool is_on;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

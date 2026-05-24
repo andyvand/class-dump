@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BWRenderListParameters
 {
     struct BWRenderListParameterList _parameterList;
@@ -14,19 +12,12 @@
 + (void)apple.quicktime.apple-maker-note.74;
 - (id);
 - (struct BWRenderListParameterList *);
-- (void);
+- (void)OITSUDateFormatter_NSFormatter;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct BWRenderListParameterList *parameterList;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,18 +7,6 @@
 @interface ConversationKit.SharedContentView
 {
     id contentView;
-    id videoViewSnapshot;
-    id videoView;
-    id videoOverlayView;
-    id mostRecentViewModelHash;
-    id loggingIdentifier;
-    id participantIdentifier;
-    id delegate;
-    id customCornerRadius;
-    id isPaused;
-    id isScreenSharing;
-    id deviceOrientation;
-    id systemRootLayerTransform;
 }
 
 - (id);

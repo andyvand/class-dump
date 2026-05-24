@@ -6,27 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTParameterSet, IFTSchemaIFTStatementId, NSArray, NSData, NSString;
-
 @interface IFTSchemaIFTActionResolverRequest : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_statementId;
-    NSString *_toolId;
-    _Bool _isClientAction;
-    _Bool _isConfirmed;
-    _Bool _isAuthenticated;
-    IFTSchemaIFTParameterSet *_resolvedParameters;
-    NSArray *_unresolvedParameterSets;
-    struct {
-        unsigned int exists:1;
-        unsigned int isClientAction:1;
-        unsigned int isConfirmed:1;
-        unsigned int isAuthenticated:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasToolId;
-    _Bool _hasResolvedParameters;
 }
 
 - (unsigned long long);
@@ -41,16 +23,16 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (void);
 - (void);
@@ -65,7 +47,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)cted via an active XPC connection, therefore transferring to new context (%{public}@);
 - (void);
 - (id);
 - (id);
@@ -74,7 +56,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)onQueue";
 - (id)qàð1Â0@ù
 × ;
 - (id)alidationTime;
@@ -86,21 +68,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasIsAuthenticated;
-@property(nonatomic) _Bool hasIsClientAction;
-@property(nonatomic) _Bool hasIsConfirmed;
-@property(nonatomic) _Bool hasResolvedParameters; // @synthesize hasResolvedParameters=_hasResolvedParameters;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(nonatomic) _Bool isAuthenticated; // @synthesize isAuthenticated=_isAuthenticated;
-@property(nonatomic) _Bool isClientAction; // @synthesize isClientAction=_isClientAction;
-@property(nonatomic) _Bool isConfirmed; // @synthesize isConfirmed=_isConfirmed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTParameterSet *resolvedParameters; // @synthesize resolvedParameters=_resolvedParameters;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
-@property(copy, nonatomic) NSArray *unresolvedParameterSets; // @synthesize unresolvedParameterSets=_unresolvedParameterSets;
 
 @end
 

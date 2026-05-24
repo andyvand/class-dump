@@ -4,86 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface INAppInfo
 {
     _Bool _supportsMultiwindow;
-    _Bool _requiresAppLaunchPreflight;
-    NSString *_applicationIdentifier;
-    NSArray *_counterpartIdentifiers;
-    NSString *_developmentRegion;
-    NSSet *_supportedActions;
-    NSSet *_supportedIntents;
-    NSSet *_supportedIntentsByApp;
-    NSSet *_supportedActionsByExtensions;
-    NSSet *_actionsRestrictedWhileLocked;
-    NSSet *_actionsRestrictedWhileProtectedDataUnavailable;
-    NSSet *_supportedMediaCategories;
-    NSSet *_definedIntents;
-    NSDictionary *_supportedIntentsGroupedByExtensionPoints;
-    NSString *_companionApplicationIdentifier;
 }
 
++ (id)c8e>e;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Ⴣ<
+;
++ (id)AC;
 + (id);
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)X?;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dr;
 - (_Bool);
 - (id);
+- (void)t attaching;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)edImage:(id)arg1 ----- SHRINKING sectorCount of CDiskImage object from %qd to %qd
+;
+- (id)b;
+- (id)`;
+- (id)setHiddenState: /* Error: Ran out of types for this method. */;
+- (void)_TLSIdentityHandle;
+- (void)twork.passpoint.%@;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id)withCompletion: /* Error: Ran out of types for this method. */;
-- (void)ringID;
+- (void)INIntentParameterPromptDialogFormatStringID;
 - (void)±È;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *actionsRestrictedWhileLocked; // @synthesize actionsRestrictedWhileLocked=_actionsRestrictedWhileLocked;
-@property(copy, nonatomic) NSSet *actionsRestrictedWhileProtectedDataUnavailable; // @synthesize actionsRestrictedWhileProtectedDataUnavailable=_actionsRestrictedWhileProtectedDataUnavailable;
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *companionApplicationIdentifier; // @synthesize companionApplicationIdentifier=_companionApplicationIdentifier;
-@property(copy, nonatomic) NSArray *counterpartIdentifiers; // @synthesize counterpartIdentifiers=_counterpartIdentifiers;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(copy, nonatomic) NSSet *definedIntents; // @synthesize definedIntents=_definedIntents;
-@property(copy, nonatomic) NSString *developmentRegion; // @synthesize developmentRegion=_developmentRegion;
-@property(nonatomic, getter=isRequiresAppLaunchPreflight) _Bool requiresAppLaunchPreflight; // @synthesize requiresAppLaunchPreflight=_requiresAppLaunchPreflight;
-@property(copy, nonatomic) NSSet *supportedActions; // @synthesize supportedActions=_supportedActions;
-@property(copy, nonatomic) NSSet *supportedActionsByExtensions; // @synthesize supportedActionsByExtensions=_supportedActionsByExtensions;
-@property(copy, nonatomic) NSSet *supportedIntents; // @synthesize supportedIntents=_supportedIntents;
-@property(copy, nonatomic) NSSet *supportedIntentsByApp; // @synthesize supportedIntentsByApp=_supportedIntentsByApp;
-@property(copy, nonatomic) NSDictionary *supportedIntentsGroupedByExtensionPoints; // @synthesize supportedIntentsGroupedByExtensionPoints=_supportedIntentsGroupedByExtensionPoints;
-@property(copy, nonatomic) NSSet *supportedMediaCategories; // @synthesize supportedMediaCategories=_supportedMediaCategories;
-@property(nonatomic) _Bool supportsMultiwindow; // @synthesize supportsMultiwindow=_supportsMultiwindow;
 
 @end
 

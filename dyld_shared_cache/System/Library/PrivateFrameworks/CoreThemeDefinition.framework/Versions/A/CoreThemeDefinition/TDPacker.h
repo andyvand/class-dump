@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _TDPackerNode;
+@class _TDPackerNode;
 
 @interface TDPacker
 {
     CDUnknownBlockType _sizeHandler;
-    NSArray *_objectsToPack;
-    _TDPackerNode *_root;
-    NSArray *_packedObjects;
 }
 
 - (CDUnknownBlockType);
@@ -31,14 +28,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfEmptyNodes;
-@property(retain, nonatomic) NSArray *objectsToPack;
-@property(retain) NSArray *packedObjects; // @synthesize packedObjects=_packedObjects;
 @property(retain) _TDPackerNode *root; // @synthesize root=_root;
 
 @end

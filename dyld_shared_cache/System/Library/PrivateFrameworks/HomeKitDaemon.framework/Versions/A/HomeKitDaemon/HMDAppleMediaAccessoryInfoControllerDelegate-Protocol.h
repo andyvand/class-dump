@@ -5,5 +5,8 @@
 //
 
 @protocol HMDAppleMediaAccessoryInfoControllerDelegate
+
+@optional
+- (void)on with error %@;
 @end
 

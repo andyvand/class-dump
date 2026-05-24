@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, NSObject, NSString;
-@protocol HMDIDSService, HMDIDSSession, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSSessionHandler
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    id <HMDIDSService> _idsStreamService;
-    id <HMDIDSSession> _idsSession;
 }
 
 + (id)xD;
-- (id);
-- (void);
+- (id),V_language;
+- (void)MSPContainerClearDiscardableData;
 - (id);
 - (id);
 - (id);
@@ -30,16 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <HMDIDSSession> idsSession; // @synthesize idsSession=_idsSession;
-@property(readonly, nonatomic) id <HMDIDSService> idsStreamService; // @synthesize idsStreamService=_idsStreamService;
-@property(readonly, nonatomic) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

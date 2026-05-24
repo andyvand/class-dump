@@ -9,14 +9,10 @@
 @interface SGEntityMatchingTransformer
 {
     NSString *_targetMapping;
-    NSString *_phoneMapping;
-    NSString *_emailMapping;
-    NSString *_addressMapping;
-    NSString *_dateMapping;
 }
 
 + (id);
-- (id);
+- (id)/A/MobileKeyBag;
 - (id);
 - (id);
 - (void);
@@ -25,29 +21,18 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)verticalStack;
 - (unsigned long long);
 - (_Bool);
 - (void)Ø'4;
 
 // Remaining properties
-@property(retain) NSString *addressMapping; // @synthesize addressMapping=_addressMapping;
-@property(retain) NSString *dateMapping; // @synthesize dateMapping=_dateMapping;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *emailMapping; // @synthesize emailMapping=_emailMapping;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *phoneMapping; // @synthesize phoneMapping=_phoneMapping;
-@property(readonly) Class superclass;
 @property(retain) NSString *targetMapping; // @synthesize targetMapping=_targetMapping;
 
 @end

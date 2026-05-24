@@ -10,7 +10,7 @@
     id graphViewModel;
 }
 
-- (id);
+- (id)CommunicationsUI/iOSAudioCallLayoutViewController.swift;
 - (_Bool);
 - (void);
 

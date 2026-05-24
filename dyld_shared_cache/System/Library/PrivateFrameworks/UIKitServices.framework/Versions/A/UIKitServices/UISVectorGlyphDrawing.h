@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISVectorGlyphDrawing
 {
     struct CGImage *_image;
-    struct CGColor *_tintColor;
-    struct CGRect _imageFrame;
-    struct CGRect _alignmentRect;
-    struct CGSize _size;
 }
 
-- (id);
+- (id)(`;
 - (void);
 - (struct CGSize);
 - (struct CGRect);
@@ -23,14 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect alignmentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGSize drawingSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationLoginChoice, UIImage;
+@class AKAuthorizationLoginChoice;
 
 @interface AKAuthorizationLoginChoiceCell
 {
@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *iconImage;
 @property(copy, nonatomic) AKAuthorizationLoginChoice *loginChoice; // @synthesize loginChoice=_loginChoice;
 
 @end

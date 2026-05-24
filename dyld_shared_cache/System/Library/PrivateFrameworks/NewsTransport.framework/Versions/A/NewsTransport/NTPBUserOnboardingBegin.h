@@ -11,9 +11,9 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long){?=qiIq}{?=qiIq}}48d96B104B108;
+- (_Bool)%@, %@;
+- (_Bool)%{public}@ %{public}@ prefetched ANF JSON;
 - (id);
 - (id);
 

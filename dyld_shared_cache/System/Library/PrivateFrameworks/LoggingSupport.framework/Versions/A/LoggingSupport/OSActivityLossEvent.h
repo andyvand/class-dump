@@ -9,9 +9,6 @@
 @interface OSActivityLossEvent : OSActivityEvent
 {
     _Bool _saturated;
-    unsigned int _count;
-    unsigned long long _startMachTimestamp;
-    unsigned long long _endMachTimestamp;
 }
 
 - (unsigned long long);
@@ -22,9 +19,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int count; // @synthesize count=_count;
-@property(readonly, nonatomic) unsigned long long endMachTimestamp; // @synthesize endMachTimestamp=_endMachTimestamp;
-@property(readonly, nonatomic) _Bool saturated; // @synthesize saturated=_saturated;
 @property(readonly, nonatomic) unsigned long long startMachTimestamp; // @synthesize startMachTimestamp=_startMachTimestamp;
 
 @end

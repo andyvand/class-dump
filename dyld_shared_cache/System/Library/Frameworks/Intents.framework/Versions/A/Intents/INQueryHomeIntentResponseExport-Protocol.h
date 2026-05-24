@@ -5,7 +5,7 @@
 //
 
 @protocol INQueryHomeIntentResponseExport
-- (long long)eElectric;
+- (long long)hasMaximumDistanceElectric;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -9,9 +9,6 @@
 @interface TUSegmentedColorView
 {
     UIColor *startColor;
-    UIColor *endColor;
-    long long numberOfSegments;
-    long long direction;
 }
 
 - (void);
@@ -22,15 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSubscribedChannelScoreCoefficient:(struct CGRect)arg1;
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long direction; // @synthesize direction;
-@property(nonatomic, retain) UIColor *endColor; // @synthesize endColor;
-@property(nonatomic) long long numberOfSegments; // @synthesize numberOfSegments;
 @property(nonatomic, retain) UIColor *startColor; // @synthesize startColor;
 
 @end

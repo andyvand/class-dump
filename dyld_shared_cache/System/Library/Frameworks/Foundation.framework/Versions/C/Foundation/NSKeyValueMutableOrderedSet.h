@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueMutableOrderedSet
 {
     NSObject *_container;
-    NSString *_key;
 }
 
 + (id);

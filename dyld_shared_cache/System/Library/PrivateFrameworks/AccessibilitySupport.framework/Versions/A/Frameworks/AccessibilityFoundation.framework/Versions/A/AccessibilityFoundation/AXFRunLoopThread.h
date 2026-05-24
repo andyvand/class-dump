@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)swered;
 
 // Remaining properties
 @property(retain, nonatomic) NSRunLoop *runLoop; // @synthesize runLoop=_runLoop;

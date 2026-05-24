@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *desiredOptionId;
-@property(copy, nonatomic) NSString *languageOptionChangeUserSetting;
 
 @end
 

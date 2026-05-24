@@ -7,25 +7,13 @@
 @interface AppStoreKit.ArtworkLoader
 {
     id resourceLoader;
-    id urlSession;
-    id accessQueue;
-    id completionHandlers;
-    id consistencyTokens;
-    id requestCompletionMap;
-    id renderIntent;
-    id onScreenReason;
-    id resourceLoadOperationSchemeMapping;
-    id isOccluded;
-    id assetObserver;
-    id pageRenderMetrics;
-    id pageRenderMetricsRequestKeys;
 }
 
+- (void)constraintEqualToAnchor:(id)arg1 multiplier:(id)arg2;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)';
 - (void);
 - (void);
 

@@ -9,7 +9,6 @@
 @interface LPYouTubeURLComponents
 {
     NSString *_videoID;
-    double _startTime;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(copy, nonatomic) NSString *videoID; // @synthesize videoID=_videoID;
 
 @end

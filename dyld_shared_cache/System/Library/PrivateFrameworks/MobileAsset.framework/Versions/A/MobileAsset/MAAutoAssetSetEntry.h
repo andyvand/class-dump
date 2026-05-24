@@ -9,7 +9,6 @@
 @interface MAAutoAssetSetEntry
 {
     _Bool _assetLockedInhibitsRemoval;
-    MAAutoAssetSelector *_assetSelector;
 }
 
 + (_Bool);
@@ -19,10 +18,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)#;
+- (id)isSpecificUseOnly;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool assetLockedInhibitsRemoval; // @synthesize assetLockedInhibitsRemoval=_assetLockedInhibitsRemoval;
 @property(retain, nonatomic) MAAutoAssetSelector *assetSelector; // @synthesize assetSelector=_assetSelector;
 
 @end

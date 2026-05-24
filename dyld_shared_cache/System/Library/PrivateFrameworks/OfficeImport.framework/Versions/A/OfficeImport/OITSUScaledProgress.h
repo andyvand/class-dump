@@ -6,16 +6,12 @@
 
 #import <OfficeImport/OITSUProgress.h>
 
-@class NSObject, OITSUScaledProgressStorage;
-@protocol OS_dispatch_queue;
+@class OITSUScaledProgressStorage;
 
 __attribute__((visibility("hidden")))
 @interface OITSUScaledProgress : OITSUProgress
 {
     OITSUScaledProgressStorage *mStorage;
-    OITSUProgress *mProgress;
-    id mProgressObserver;
-    NSObject<OS_dispatch_queue> *mProgressQueue;
 }
 
 - (void);
@@ -25,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)applicationsForUserActivityType:(double)arg1;
 - (_Bool);
 - (double);
 - (id);
 - (void)@80@0:(id)arg1 8i16i20i24i28i32B36B40B44i48i52C56i60i64i68@72;
 
 // Remaining properties
-@property double maxValue;
 @property(retain) OITSUProgress *progress;
 
 @end

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol CKDOperationPipelining, CKDURLRequestPipelining, OS_dispatch_group, OS_dispatch_queue;
-
 @interface CKDPipeliningInfo
 {
     _Bool _isCancelled;
-    _Bool _perRequestCallbackQueueSuspended;
-    id <CKDURLRequestPipelining> _request;
-    id <CKDOperationPipelining> _operation;
-    NSObject<OS_dispatch_group> *_perRequestCallbackGroup;
-    NSObject<OS_dispatch_group> *_perRequestGroup;
-    NSObject<OS_dispatch_queue> *_perRequestCallbackQueue;
-    NSMutableArray *_perRequestCallbackBlocks;
 }
 
 - (id);
@@ -35,27 +25,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id).mailbox = %lld AND messages.message_id IN (%@) AND server_messages.remote_id < 0);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (void)DeltaSizeWithCompletionHandler:(id)arg1;
-- (_Bool)leteListRange;
+- (void)suggestedMergeableDeltaSizeWithCompletionHandler:(id)arg1;
+- (_Bool)hasDeleteListRange;
 - (void);
 - (id)ID %{public}@";
 - (void)e Manifests.;
 - (void)unlock check;
 
 // Remaining properties
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(nonatomic) __weak id <CKDOperationPipelining> operation; // @synthesize operation=_operation;
-@property(retain, nonatomic) NSMutableArray *perRequestCallbackBlocks; // @synthesize perRequestCallbackBlocks=_perRequestCallbackBlocks;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *perRequestCallbackGroup; // @synthesize perRequestCallbackGroup=_perRequestCallbackGroup;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *perRequestCallbackQueue; // @synthesize perRequestCallbackQueue=_perRequestCallbackQueue;
 @property(nonatomic) _Bool perRequestCallbackQueueSuspended; // @synthesize perRequestCallbackQueueSuspended=_perRequestCallbackQueueSuspended;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *perRequestGroup; // @synthesize perRequestGroup=_perRequestGroup;
-@property(retain, nonatomic) id <CKDURLRequestPipelining> request; // @synthesize request=_request;
 
 @end
 

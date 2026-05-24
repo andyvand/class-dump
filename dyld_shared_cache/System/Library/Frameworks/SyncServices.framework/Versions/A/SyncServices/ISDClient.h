@@ -6,40 +6,21 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDFileReference, NSArray, NSData, NSString;
+@class NSString;
 
 @interface ISDClient : ISDDataObject
 {
     NSString *_clientId;
-    ISDFileReference *_descriptionFile;
-    NSString *_clientType;
-    NSString *_displayName;
-    int _idNumber;
-    ISDFileReference *_imageFile;
-    ISDFileReference *_syncAlertTool;
-    NSArray *_syncAlertTypes;
-    ISDFileReference *_formatterBundle;
-    NSString *_formatterBundleClassName;
-    NSArray *_syncStates;
-    NSData *_filterData;
-    _Bool _synchronizesAllEntities;
-    _Bool _hasDynamicSyncAlertHandler;
-    _Bool _useLocalIdsForGUIDs;
-    _Bool _neverFormatsRelationships;
-    _Bool _syncsAfterClients;
-    int _trackRecordModificationTimes;
-    _Bool _isAppProvider;
-    ISDFileReference *_localizationBundleRef;
 }
 
-+ (void): /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (void)appendModifyChange: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
 - (int);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -64,11 +45,11 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -82,11 +63,11 @@
 - (id);
 - (id);
 - (void);
-- (bycopy id);
+- (bycopy id)R;
 - (id);
 - (int);
 - (bycopy id);
-- (id);
+- (id)_=;
 - (id);
 - (id);
 - (void);

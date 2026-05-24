@@ -5,5 +5,6 @@
 //
 
 @protocol FMFMapXPCInterface
+- (oneway void);
 @end
 

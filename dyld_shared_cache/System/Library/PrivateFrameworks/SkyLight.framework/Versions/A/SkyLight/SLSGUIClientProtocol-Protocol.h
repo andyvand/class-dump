@@ -5,5 +5,9 @@
 //
 
 @protocol SLSGUIClientProtocol
++ (id)not been downloaded.;
+- (void)emporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitSchemaGenerator.m;
+- (unsigned long long)t history request encountered an error;
+- (id)M/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitHistoryAnalyzerContext.m;
 @end
 

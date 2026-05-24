@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCInterestToken, NSArray, NSDate, NSDictionary, NSString, NTPBRecipeListRecord;
+@class NSString, NTPBRecipeListRecord;
 
 @interface FCRecipeList
 {
     NSString *_identifier;
-    NSDate *_lastModifiedDate;
-    NSArray *_recipeIDs;
-    NTPBRecipeListRecord *_pbRecord;
-    FCInterestToken *_interestToken;
-    NSDictionary *_recipeIndicesByID;
 }
 
 - (id);
-- (id);
+- (id);
 - (long long);
+- (id)_initializeDataSourceManagers;
 - (id);
+- (id)rd provided - Source is currently lost - have password previously saved - proceed.;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)g-attachment']",e,t)},BodyField.prototype.convertElementsToAttachmentElements=function(e,t,n){let i={};for(let o of t.querySelectorAll(e)){let e=o.getAttribute("data"),t=safeNSURL(e);if(!t)continue;let r=n[e];r&&(i[this.replacePlaceholderWithAttachment(o,r)]=t)}return i},BodyField.prototype.replaceRangeWithNode=function(e,t){e.deleteContents(),e.insertNode(t)},BodyField.prototype.stripCustomBodyIdentifiers=function(){this.bodyInputController.stripCustomBodyIdentifiers()},BodyField.prototype.remoteContentEnabled=function(e){document.remoteContentEnabled=e},BodyField.prototype.enableQuickReply=function(e){document.mf_quickReplyDisplayHiddenNodes(!e)};let previousQuickReplyComputedHeight=0;BodyField.prototype.enableSmartReply=function(e){e?postShowSmartReplySuggestionsMessageIfNecessary(document,window):(showSmartReplySuggestions=!1,window.webkit.messageHandlers.ShowSmartReplySuggestions.postMessage(showSmartReplySuggestions))}; /* Error: Ran out of types for this method. */;
 - (void)it];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) FCInterestToken *interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 @property(readonly, nonatomic) NTPBRecipeListRecord *pbRecord; // @synthesize pbRecord=_pbRecord;
-@property(readonly, copy, nonatomic) NSArray *recipeIDs; // @synthesize recipeIDs=_recipeIDs;
-@property(readonly, nonatomic) NSDictionary *recipeIndicesByID; // @synthesize recipeIndicesByID=_recipeIndicesByID;
 
 @end
 

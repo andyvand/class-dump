@@ -7,14 +7,13 @@
 @interface RBEncoderSet
 {
     struct refcounted_ptr<RB::Encoder::FontSet> _font_set;
-    _Bool _final;
 }
 
 - (void);
-- (id);
+- (id)X1;
 - (id);
 - (void);
-- (void);
+- (void)!;
 
 @end
 

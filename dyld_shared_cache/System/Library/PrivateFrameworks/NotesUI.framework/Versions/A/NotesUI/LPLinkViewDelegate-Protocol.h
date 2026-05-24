@@ -5,5 +5,9 @@
 //
 
 @protocol LPLinkViewDelegate
+
+@optional
+- (void)rary/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/People Also Read/FCPeopleAlsoReadInventoryManager.m;
+- (void)ugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/People Also Read/FCPeopleAlsoReadInventoryManager.m;
 @end
 

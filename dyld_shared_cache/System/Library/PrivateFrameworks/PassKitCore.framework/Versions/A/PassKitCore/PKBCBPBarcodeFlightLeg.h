@@ -9,12 +9,6 @@
 @interface PKBCBPBarcodeFlightLeg
 {
     NSString *_passengerNameRecordNumber;
-    NSString *_departureAirportCode;
-    NSString *_destinationAirportCode;
-    NSString *_airlineCode;
-    unsigned long long _flightNumber;
-    unsigned long long _dayOfYear;
-    NSString *_seatNumber;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -29,19 +23,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasCoreRoutineTransitionMotionTypeAutomotive;
 - (void);
 - (unsigned long long);
 - (void)ess.transaction.notfound;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *airlineCode; // @synthesize airlineCode=_airlineCode;
-@property(readonly, nonatomic) unsigned long long dayOfYear; // @synthesize dayOfYear=_dayOfYear;
-@property(readonly, copy, nonatomic) NSString *departureAirportCode; // @synthesize departureAirportCode=_departureAirportCode;
-@property(readonly, copy, nonatomic) NSString *destinationAirportCode; // @synthesize destinationAirportCode=_destinationAirportCode;
-@property(readonly, nonatomic) unsigned long long flightNumber; // @synthesize flightNumber=_flightNumber;
 @property(readonly, copy, nonatomic) NSString *passengerNameRecordNumber; // @synthesize passengerNameRecordNumber=_passengerNameRecordNumber;
-@property(readonly, copy, nonatomic) NSString *seatNumber; // @synthesize seatNumber=_seatNumber;
 
 @end
 

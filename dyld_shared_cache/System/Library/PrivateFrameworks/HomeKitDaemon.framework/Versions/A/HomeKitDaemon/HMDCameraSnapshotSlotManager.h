@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotSlotManager
 {
     NSObject<OS_dispatch_queue> *_clientQueue;
-    CAContext *_snapshotContext;
 }
 
 + (id)hange.;
 + (id)iÿ1@ç;
-- (void);
+- (void)ndWaypoint,V_endWaypoint;
 - (_Bool);
 - (void);
 - (void);
@@ -35,7 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(retain) CAContext *snapshotContext; // @synthesize snapshotContext=_snapshotContext;
 
 @end
 

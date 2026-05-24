@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 @protocol _MKCalloutAccessoryView;
 
 __attribute__((visibility("hidden")))
@@ -17,17 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (void)tents: /* Error: Ran out of types for this method. */;
+- (void)setContents: /* Error: Ran out of types for this method. */;
 - (id)ovider>",&,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

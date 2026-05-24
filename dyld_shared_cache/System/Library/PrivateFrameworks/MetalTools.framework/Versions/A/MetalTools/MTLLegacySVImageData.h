@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLDebugInstrumentationData, MTLLegacySVBuffer, MTLLegacySVDevice, MTLLegacySVDynamicLibrary, MTLLegacySVFunction, NSString;
+@class MTLLegacySVBuffer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface MTLLegacySVImageData
 {
     MTLLegacySVBuffer *constantDataBuffer;
-    MTLLegacySVDevice *_device;
-    struct mutex _constantDataMutex;
-    unsigned long long _constantDataBufferIndex;
-    struct KeyBufferPair _constantDataKeyPair;
-    NSString *_loadedImageName;
-    MTLDebugInstrumentationData *_debugInstrumentationData;
-    int _imageType;
-    unsigned long long _imageID;
-    unsigned long long _functionType;
-    MTLLegacySVFunction *_function;
-    MTLLegacySVDynamicLibrary *_dynamicLibrary;
 }
 
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (id);
@@ -32,20 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
-- (int);
+- (int)_8functionIFviS6_RbEEEiEUlRKiS6_S8_E_;
 - (id);
-- (id);
+- (id)BnCn;
 - (void)ons"b1"abortOnFault"b1"enableDumpToStderr"b1"enableReportAllocationStackTrace"b1};
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, nonatomic) __weak MTLLegacySVDynamicLibrary *dynamicLibrary;
-@property(readonly, nonatomic) __weak MTLLegacySVFunction *function;
-@property(readonly, nonatomic) unsigned long long functionType;
-@property(readonly, nonatomic) int imageType;
 @property(readonly, nonatomic) NSString *loadedImageName;
 
 @end

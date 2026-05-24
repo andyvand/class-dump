@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

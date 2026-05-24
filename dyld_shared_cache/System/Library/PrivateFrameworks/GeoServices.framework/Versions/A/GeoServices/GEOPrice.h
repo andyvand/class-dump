@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPrice
 {
     PBUnknownFields *_unknownFields;
-    NSString *_currencyCode;
-    float _amount;
-    struct {
-        unsigned int has_amount:1;
-    } _flags;
 }
 
-+ (_Bool)upedManeuver:(id)arg1;
-- (void);
++ (_Bool)setIsGroupedManeuver:(id)arg1;
+- (void)CNCDIOSLegacyIdentifierRegistration;
 - (_Bool);
 - (_Bool);
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)A;
+- (id)P;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)auditd_read_dirs;
+- (void)ed to fetch asset for asset type %lu, posting to ABC ...;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)ifiFingerprintFilter";
-- (double)Search;
+- (double)shouldEnableRedoSearch;
 - (id)_usualTraversalTimeSeconds;
 - (id)(;
 - (id)stem/Library/PrivateFrameworks/AuthKit.framework/AuthKit;
@@ -44,18 +39,6 @@
 (ÔãK@;
 
 // Remaining properties
-@property(nonatomic) float amount;
-@property(retain, nonatomic) NSString *currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(readonly, nonatomic) double value;
 
 @end

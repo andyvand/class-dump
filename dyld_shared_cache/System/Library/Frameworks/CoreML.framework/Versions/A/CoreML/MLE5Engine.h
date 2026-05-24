@@ -6,47 +6,39 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLE5ExecutionStreamPool, MLE5ProgramLibrary, MLFeatureProviderConformer, MLModelConfiguration, MLModelDescription, MLModelMetadata, MLVersionInfo, NSObject, NSString;
-@protocol MLE5ExecutionStreamOperationPool, OS_dispatch_semaphore;
+@class MLE5ExecutionStreamPool;
 
 @interface MLE5Engine : MLModelEngine
 {
     MLE5ExecutionStreamPool *_streamPool;
-    id <MLE5ExecutionStreamOperationPool> _operationPool;
-    NSString *_functionName;
-    NSString *_classProbabilitiesFeatureName;
-    id _classLabelsSharedKey;
-    MLFeatureProviderConformer *_inputFeatureConformer;
-    MLFeatureProviderConformer *_stateFeatureConformer;
-    NSObject<OS_dispatch_semaphore> *_batchMaxInFlightSem;
-    MLVersionInfo *_compilerVersionInfo;
-    MLE5ProgramLibrary *_programLibrary;
 }
 
 + (id);
-+ (id);
++ (id)_];
 + (Class)±HZ1TZ1|Z±>Z±.Z±QZ1%Z1KZ1@Z1IZ±9Z±Z±uZ±JZ1SZ1~Z1Z1DZ±GZ1Z±#Z±~Z1fZ±[Z1QZ11Z1(Z1RZ1cZ1)Z±Z1Z±xZ1.Z1Z±EZ10Z1Z±yZ±LZ±Z1xZ±}Z±OZ1?Z1^Z±lZ1Z±Z±Z1AZ1Z1PZ±Z1 Z1GZ18Z±Z±Z±Z14Z±Z±TZ±vZ±Z±Z±:Z±/Z1Z±Z±pZ±$Z1dZ±\Z±FZ±PZ±(Z1oZ±AZ±,Z1Z±Z1-Z1=Z1'Z±Z15Z±oZ1gZ1ZZ±IZ1"Z1EZ1 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)|;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)pe
+;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)Xw
+;
 - (id);
 - (id);
 - (void);
@@ -55,7 +47,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)5;
 - (_Bool);
 - (id);
 - (id);
@@ -63,10 +55,10 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)svm_parameter=iiidddddi^i^dddii}ii^^{svm_node}^^d^d^d^d^i^i^ii}16@0:8 /* Error: Ran out of types for this method. */;
 - (unsigned long long)øô¤ðÌàà¼ô0ü¤ì´´ÄüÔt;
 - (id)ed to create URL from base directory %@ and the unique string %@;
@@ -86,31 +78,7 @@ BþÑçIÙ- /* Error: Ran out of types for this method. */;
 tëu+tëu0tëutëutëuötëu;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *batchMaxInFlightSem; // @synthesize batchMaxInFlightSem=_batchMaxInFlightSem;
-@property(readonly) id classLabelsSharedKey; // @synthesize classLabelsSharedKey=_classLabelsSharedKey;
-@property(readonly) NSString *classProbabilitiesFeatureName; // @synthesize classProbabilitiesFeatureName=_classProbabilitiesFeatureName;
-@property(readonly, nonatomic) MLVersionInfo *compilerVersionInfo; // @synthesize compilerVersionInfo=_compilerVersionInfo;
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLFeatureProviderConformer *inputFeatureConformer; // @synthesize inputFeatureConformer=_inputFeatureConformer;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly) id <MLE5ExecutionStreamOperationPool> operationPool; // @synthesize operationPool=_operationPool;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) MLE5ProgramLibrary *programLibrary; // @synthesize programLibrary=_programLibrary;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, copy, nonatomic) NSString *serializedMILText;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) MLFeatureProviderConformer *stateFeatureConformer; // @synthesize stateFeatureConformer=_stateFeatureConformer;
 @property(readonly) MLE5ExecutionStreamPool *streamPool; // @synthesize streamPool=_streamPool;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

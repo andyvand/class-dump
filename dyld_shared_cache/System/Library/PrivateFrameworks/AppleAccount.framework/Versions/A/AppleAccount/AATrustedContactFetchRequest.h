@@ -9,33 +9,27 @@
 @interface AATrustedContactFetchRequest
 {
     _Bool _shouldLookUpContactInAddressBook;
-    unsigned long long _contactType;
-    unsigned long long _cachePolicy;
-    NSMutableSet *_includedStatuses;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ple.share.addtoaperture;
+- (void)apple.share.Video.upload-Vimeo;
+- (void)le.MCX._managementStatusChangedForDomains;
+- (id)ller UI;
+- (id)ple.message.depFetchState;
+- (void)le.message.fetchDEPRecordTime;
+- (unsigned long long)r.log_cost_model;
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void)tomMaintenanceIntervalEnabled: /* Error: Ran out of types for this method. */;
+- (void)setCustomMaintenanceIntervalEnabled: /* Error: Ran out of types for this method. */;
 - (void)¤îaè
 ÒIçíú1QjË®ãiP¦íxÞ[_pÆ¸Xíp\ëL»Ã43<òzÌÛÚz?i£ØAÛ9Ók2î4CJXÐðë­7Ø°éÝäWÁ¥R³r§TZ|R7bzO:(unsigned long long)arg1 ÉîÏaáyæÐØø 0åKÅcysÖ­åÊ1|Õ6<2D?µ/
 ÀRrv¶´ÓQ«5à¨g¼9ëd'A]ã¢>wàÖá¥®WGë§?6Ãè<æuo¨%Ð<lqÉ¾	Z¶Bâ½:TY-¡¾ã94­èÞÕ^:¯t«ÝvNs)^6ÅÎí0*ÅïÍô¡yJÜÙÏ­ox:IG /* Error: Ran out of types for this method. */;
 - (unsigned long long)É4 Òü*boot-uuid;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly, nonatomic) unsigned long long contactType; // @synthesize contactType=_contactType;
 @property(retain, nonatomic) NSMutableSet *includedStatuses; // @synthesize includedStatuses=_includedStatuses;
-@property(nonatomic) _Bool shouldLookUpContactInAddressBook; // @synthesize shouldLookUpContactInAddressBook=_shouldLookUpContactInAddressBook;
 
 @end
 

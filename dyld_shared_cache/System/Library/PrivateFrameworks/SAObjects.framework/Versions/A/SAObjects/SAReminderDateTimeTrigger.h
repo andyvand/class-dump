@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAReminderTrigger.h>
 
-@class NSDate, NSString, SAReminderDateTimeTriggerOffset;
+@class NSDate;
 
 @interface SAReminderDateTimeTrigger : SAReminderTrigger
 {
@@ -17,19 +17,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)WithDictionary:baseProtocol:context: /* Error: Ran out of types for this method. */;
+- (id)aceObjectDictionaryWithDictionary:baseProtocol:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date;
-@property(retain, nonatomic) SAReminderDateTimeTriggerOffset *offset;
-@property(retain, nonatomic) SAReminderDateTimeTriggerOffset *relativeTimeOffset;
-@property(copy, nonatomic) NSString *timeZoneId;
 
 @end
 

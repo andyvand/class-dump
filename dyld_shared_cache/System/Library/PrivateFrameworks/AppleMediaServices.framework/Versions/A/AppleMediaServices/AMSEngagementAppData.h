@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSEngagementAppData
 {
     NSArray *_cachedResponses;
-    NSArray *_eventFilters;
-    NSString *_identifier;
-    NSString *_lastSyncedBuild;
 }
 
 - (id);
 - (id);
+- (id)R;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)storeSiriServiceEvent:(id)arg1 withQueue:atTime:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *cachedResponses; // @synthesize cachedResponses=_cachedResponses;
-@property(retain) NSArray *eventFilters; // @synthesize eventFilters=_eventFilters;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *lastSyncedBuild; // @synthesize lastSyncedBuild=_lastSyncedBuild;
 
 @end
 

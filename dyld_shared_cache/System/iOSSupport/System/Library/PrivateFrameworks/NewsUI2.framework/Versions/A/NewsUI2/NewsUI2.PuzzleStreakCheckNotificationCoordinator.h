@@ -7,11 +7,6 @@
 @interface NewsUI2.PuzzleStreakCheckNotificationCoordinator
 {
     id puzzleStatsService;
-    id puzzleService;
-    id puzzleHistoryService;
-    id notificationScheduler;
-    id configurationManager;
-    id userInfo;
 }
 
 @end

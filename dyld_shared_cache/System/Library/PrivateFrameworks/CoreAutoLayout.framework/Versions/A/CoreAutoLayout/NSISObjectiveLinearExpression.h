@@ -10,25 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSISObjectiveLinearExpression
 {
     NSISEngine *_engine;
-    struct {
-        struct {
-            CDStruct_183601bc **values;
-            int count;
-            unsigned int capacity;
-        } heap;
-        CDStruct_183601bc *values;
-        unsigned int count;
-        unsigned int tombstones;
-        unsigned int size;
-        unsigned short grow_shift;
-    } _priorityMap;
-    struct {
-        CDStruct_183601bc *values;
-        unsigned short count;
-        unsigned short capacity;
-        unsigned int key;
-        unsigned int heap_position;
-    } _constant;
 }
 
 - (void);

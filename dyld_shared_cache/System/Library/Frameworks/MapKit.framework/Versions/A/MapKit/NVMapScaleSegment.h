@@ -7,27 +7,21 @@
 @interface NVMapScaleSegment
 {
     _Bool unitAbbreviated;
-    long long unit;
-    double displayedLength;
-    double lengthInMeters;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ast;
+- (void)e:(double)arg1 %@ returnValue=%hd;
+- (void)ame:(double)arg1 %@, eventDictionary:%@) for aggregation with configuration:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id);
 - (double);
 - (_Bool);
 - (void);
-- (long long)geInsetsSentinel;
+- (long long)__mapkit_edgeInsetsSentinel;
 
 // Remaining properties
-@property(nonatomic) double displayedLength; // @synthesize displayedLength;
-@property(nonatomic) double lengthInMeters; // @synthesize lengthInMeters;
 @property(nonatomic) long long unit; // @synthesize unit;
-@property(nonatomic) _Bool unitAbbreviated; // @synthesize unitAbbreviated;
 
 @end
 

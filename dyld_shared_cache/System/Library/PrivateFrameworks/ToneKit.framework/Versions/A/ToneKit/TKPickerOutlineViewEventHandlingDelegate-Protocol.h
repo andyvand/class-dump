@@ -5,5 +5,8 @@
 //
 
 @protocol TKPickerOutlineViewEventHandlingDelegate
+
+@optional
+- (_Bool);
 @end
 

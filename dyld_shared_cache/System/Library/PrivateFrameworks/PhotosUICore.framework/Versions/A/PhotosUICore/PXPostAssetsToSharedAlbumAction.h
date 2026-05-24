@@ -6,17 +6,16 @@
 
 #import <PhotosUICore/PXAssetsAction.h>
 
-@class NSString, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PXPostAssetsToSharedAlbumAction : PXAssetsAction
 {
     PHAssetCollection *_sharedAlbum;
-    NSString *_comment;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

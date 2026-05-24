@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinUserAttributionManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_userAttributions;
-    HMDAccountRegistry *_accountRegistry;
 }
 
 + (_Bool);
 + (_Bool);
 + (id)ïB;
-- (id);
+- (id)_notifyDelegateContactsChanged;
 - (void);
 - (void);
 - (id);
-- (id)enter;
-- (id);
+- (id)notificationCenter;
+- (id)fmfDevice;
 - (void)xÿÍÓ~& ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
 @property(readonly, nonatomic) NSMutableArray *userAttributions; // @synthesize userAttributions=_userAttributions;
 
 @end

@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSEndpointCapabilities, IDSEndpointTransparency, IDSFamilyEndpointData, IDSGameCenterData, IDSMPPublicDeviceIdentityContainer, IDSPushToken, IDSURI, NSData, NSDate, NSError, NSString;
-
 @interface IDSEndpoint
 {
     BOOL _legacyVersion;
-    _Bool _mismatchedAccountFlag;
-    _Bool _ktCapableFlag;
-    _Bool _verifiedBusiness;
-    short _ngmVersion;
-    IDSURI *_URI;
-    NSData *_pushToken;
-    IDSPushToken *_pushTokenObject;
-    IDSMPPublicDeviceIdentityContainer *_publicDeviceIdentityContainer;
-    struct __SecKey *_applicationPublicDeviceIdentity;
-    IDSEndpointCapabilities *_capabilities;
-    NSData *_serializedNGMDeviceIdentity;
-    NSData *_serializedLegacyPublicIdentity;
-    NSData *_serializedNGMDevicePrekey;
-    NSData *_serializedApplicationPublicKey;
-    NSError *_identityContainerDeserializationError;
-    NSData *_KTLoggableData;
-    NSData *_KTDeviceSignature;
-    IDSEndpointTransparency *_transparency;
-    NSData *_sessionToken;
-    NSDate *_expireDate;
-    NSDate *_refreshDate;
-    NSString *_anonymizedSenderID;
-    NSString *_senderCorrelationIdentifier;
-    NSString *_shortHandle;
-    double _queryTimeInterval;
-    IDSFamilyEndpointData *_familyEndpointData;
-    IDSGameCenterData *_gameCenterData;
 }
 
 + (_Bool);

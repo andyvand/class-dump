@@ -11,11 +11,6 @@
 @interface TKPickerSelectableItem : TKPickerRowItem
 {
     _Bool _shouldTintText;
-    _Bool _showsCheckmark;
-    _Bool _showsDisclosureIndicator;
-    _Bool _shouldPreventSelection;
-    NSString *_text;
-    NSString *_detailText;
 }
 
 - (_Bool);
@@ -27,20 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)showMultipleDevicesConfirmationSheetWithParentWindow:completion: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (_Bool)currentBaseOSVersion;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setDetailText:) NSString *detailText; // @synthesize detailText=_detailText;
-@property(nonatomic, setter=_setShouldPreventSelection:) _Bool shouldPreventSelection; // @synthesize shouldPreventSelection=_shouldPreventSelection;
-@property(nonatomic, setter=_setShouldTintText:) _Bool shouldTintText; // @synthesize shouldTintText=_shouldTintText;
-@property(nonatomic, setter=_setShowsCheckmark:) _Bool showsCheckmark; // @synthesize showsCheckmark=_showsCheckmark;
-@property(nonatomic, setter=_setShowsDisclosureIndicator:) _Bool showsDisclosureIndicator; // @synthesize showsDisclosureIndicator=_showsDisclosureIndicator;
 @property(copy, nonatomic, setter=_setText:) NSString *text; // @synthesize text=_text;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsLoadURLOverlay, AMSURLRequestProperties, NSURLRequest;
+@class AMSURLRequestProperties;
 
 @interface AMSURLRequest
 {
@@ -12,15 +12,15 @@
 }
 
 + (id);
+- (id);
+- (id);
+- (id)%@ due to error:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)outputVoiceColorDescriptorForOutputLanguageCode:(struct _NSZone *)arg1 voiceName: /* Error: Ran out of types for this method. */;
+- (id)currentAudioRouteDidChangeFrom:(id)arg1 to:(unsigned long long)arg2 ];
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)r:(id)arg1 clientVersion:(id)arg2 placement:serviceType: /* Error: Ran out of types for this method. */;
+- (id)initWithBag:(id)arg1 clientIdentifier:(id)arg2 clientVersion:placement:serviceType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)n URL task. account = %{public}@;
 - (void)]IÁÖ\IóÖ[I!ÖZIÀÖYIúÖXIcÖWI¦ÖVI²ÖUI5ÖTIaÖSIÖRItÖQIµÖPI)ÖOIAÖNI0ÖMIÉÖLIÖKIeÖJIÖII%ÖHI;ÖGIÖFI(ÖEIÖDI½ÖCIåÖBIjÖAI÷Ö@IÓÖ?IÖ>I}Ö=I,Ö<IÖÖ;IËÖ:IÖ9IÜÖ8I_Ö7IýÖ6IWÖ5IGÖ4I°Ö3IÖ2IRÖ1IÖ0I /* Error: Ran out of types for this method. */;
@@ -28,9 +28,7 @@
 - (void)Á¼ÿblMÌV¼ÿ]blMüV¼ÿeblM$W¼ÿublMTW¼ÿublMTW¼ÿublM¤W¼ÿblMäW¼ÿ5blMôW¼ÿ=blMôW¼ÿblMX¼ÿeblM4X¼ÿõalM8X¼ÿõalM$Á¼ÿ=blM@X¼ÿublMLX¼ÿEblM\X¼ÿ;
 
 // Remaining properties
-@property(retain) AMSMetricsLoadURLOverlay *loadURLOverlay;
 @property(readonly, nonatomic) AMSURLRequestProperties *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSURLRequest *urlRequest;
 
 @end
 

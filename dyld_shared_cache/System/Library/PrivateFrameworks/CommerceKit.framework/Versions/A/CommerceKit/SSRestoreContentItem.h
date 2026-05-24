@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface SSRestoreContentItem
 {
     NSNumber *_accountID;
-    NSString *_appleID;
-    NSString *_bundleID;
-    NSNumber *_cloudMatchStatus;
-    _Bool _isRestore;
-    NSMutableDictionary *_properties;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)9�H;
 - (void);
 - (void);
 - (void);
@@ -35,19 +30,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)R#;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)e session.;
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -57,20 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isDRMFree) _Bool DRMFree;
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSNumber *cloudItemID;
-@property(retain, nonatomic) NSNumber *cloudMatchStatus;
-@property(copy, nonatomic) NSString *downloadKind;
-@property(copy, nonatomic) NSString *installPath;
-@property(copy, nonatomic) NSString *podcastEpisodeGUID;
-@property(copy, nonatomic) NSString *storeAccountAppleID;
-@property(retain, nonatomic) NSNumber *storeAccountID;
-@property(copy, nonatomic) NSString *storeFlavor;
-@property(copy, nonatomic) NSString *storeFrontID;
-@property(retain, nonatomic) NSNumber *storeItemID;
-@property(copy, nonatomic) NSString *storeSoftwareVersionID;
-@property(copy, nonatomic) NSString *videoDimensions;
 
 @end
 

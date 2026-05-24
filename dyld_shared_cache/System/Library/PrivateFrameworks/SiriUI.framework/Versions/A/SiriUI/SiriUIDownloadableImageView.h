@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSImageView, NSString, NSURL;
+@class NSImageView;
 
 @interface SiriUIDownloadableImageView
 {
     NSImageView *_imageView;
-    NSURL *_imageURL;
-    _Bool _showingPlaceHolderImage;
-    NSString *_placeHolderImageName;
-    NSBundle *_placeHolderImageBundle;
-    double _placeHolderVerticalOffset;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);

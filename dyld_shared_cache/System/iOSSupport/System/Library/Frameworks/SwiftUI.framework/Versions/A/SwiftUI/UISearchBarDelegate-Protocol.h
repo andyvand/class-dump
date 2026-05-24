@@ -5,5 +5,15 @@
 //
 
 @protocol UISearchBarDelegate
+
+@optional
+- (void)ttingsPresentableP;
+- (_Bool)So14NSUserActivityC;
+- (_Bool)Qz;
+- (void);
+- (_Bool)Qy_;
+- (_Bool)5TeaUI29BlueprintViewDragDelegateTypeP;
+- (void)So15UIBarButtonItemCSg;
+- (void);
 @end
 

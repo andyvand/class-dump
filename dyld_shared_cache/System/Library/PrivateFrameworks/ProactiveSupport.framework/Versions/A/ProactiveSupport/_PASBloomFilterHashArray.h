@@ -7,13 +7,13 @@
 @interface _PASBloomFilterHashArray
 {
     unsigned long long _size;
-    int *_data;
 }
 
-- (void);
-- (id);
-- (int *);
-- (id);
+- (void)nexpected tcc_authorization_right_t (int value:%llu):we don't support this kind of authorization. /* Error: Ran out of types for this method. */;
+- (id)9a;
+- (int *)itemID:%lld
+ /* Error: Ran out of types for this method. */;
+- (id)J@9_�;
 - (id);
 
 // Remaining properties

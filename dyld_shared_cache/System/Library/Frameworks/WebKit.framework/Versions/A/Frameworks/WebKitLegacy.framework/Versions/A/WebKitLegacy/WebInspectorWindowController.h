@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebInspectorWindowController
 {
     struct RetainPtr<WebView> _inspectedWebView;
-    struct RetainPtr<WebView> _frontendWebView;
-    NakedPtr_fc424271 _frontendClient;
-    void *_inspectorClient;
-    _Bool _attachedToInspectedWebView;
-    _Bool _shouldAttach;
-    _Bool _visible;
-    _Bool _destroyingInspectorView;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)F@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (NakedPtr_30ae6ab2);
 - (void);
@@ -40,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
@@ -48,20 +39,14 @@ __attribute__((visibility("hidden")))
 - (void)1'ð1Â0@ù
 × ;
 - (void);
-- (void)indowVisibilityObserver;
-- (_Bool)corationLineErrorValues;
+- (void)WebWindowVisibilityObserver;
+- (_Bool)WebKitCSSTextDecorationLineErrorValues;
 - (void)ource = WebCore:(id)arg1:Node] /* Error: Ran out of types for this method. */;
 - (struct CGRect)spaceImpl>>, WTF:(id)arg1:(id)arg2 KeyValuePairKeyExtractor<WTF:(struct CGRect)arg3:KeyValuePair<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)ÿÿ°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

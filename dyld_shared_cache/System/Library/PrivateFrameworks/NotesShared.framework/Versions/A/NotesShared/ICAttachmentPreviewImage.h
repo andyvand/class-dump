@@ -6,16 +6,9 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICAccount, ICAssetGenerationManager, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ICAttachmentPreviewImage : ICCloudSyncingObject
 {
     _Bool suppressesFileDeletion;
-    ICAccount *placeholderAccount;
-    NSObject<OS_dispatch_queue> *_fileQueue;
-    unsigned long long _imageID;
-    ICAssetGenerationManager *_generationManager;
 }
 
 @end

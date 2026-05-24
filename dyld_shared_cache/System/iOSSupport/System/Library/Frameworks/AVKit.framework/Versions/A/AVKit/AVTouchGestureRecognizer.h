@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTimer;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchGestureRecognizer
 {
     NSTimer *_gestureWarmUpDelayTimer;
-    NSMutableArray *_candidateGestureIncrementsMultiTouchInfo;
 }
 
-- (void);
+- (void)n8;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)}J;
 - (void);
 - (void)1[Ð1Â0@ù
 × ;

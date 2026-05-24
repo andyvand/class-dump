@@ -7,10 +7,6 @@
 @interface NewsUI2.PuzzleSettingsViewController
 {
     id styler;
-    id eventHandler;
-    id viewProvider;
-    id $__lazy_storage_$_dataSource;
-    id $__lazy_storage_$_collectionView;
 }
 
 - (id);
@@ -19,7 +15,7 @@
 - (void);
 - (void)	
 ;
-- (void)opicTagFeedGroupKnobs;
+- (void)SportsEventTopicTagFeedGroupKnobs;
 - (void);
 
 @end

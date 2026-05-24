@@ -5,6 +5,7 @@
 //
 
 @protocol DOMEventTarget
+- (void);
 - (_Bool)q'ð1Â0@ù
 × ;
 @end

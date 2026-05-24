@@ -7,15 +7,6 @@
 @interface CSVTSecondPassLatencyMetrics
 {
     unsigned long long _secondPassAssetQueryStartTime;
-    unsigned long long _secondPassAssetQueryCompleteTime;
-    unsigned long long _secondPassAssetLoadStartTime;
-    unsigned long long _secondPassAssetLoadCompleteTime;
-    unsigned long long _secondPassAudioStreamStartTime;
-    unsigned long long _secondPassAudioStreamReadyTime;
-    unsigned long long _secondPassFirstAudioPacketReceptionTime;
-    unsigned long long _secondPassLastAudioPacketReceptionTime;
-    unsigned long long _secondPassCheckerModelKeywordDetectionStartTime;
-    unsigned long long _secondPassCheckerModelKeywordDetectionEndTime;
 }
 
 - (void);
@@ -40,16 +31,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long secondPassAssetLoadCompleteTime; // @synthesize secondPassAssetLoadCompleteTime=_secondPassAssetLoadCompleteTime;
-@property(nonatomic) unsigned long long secondPassAssetLoadStartTime; // @synthesize secondPassAssetLoadStartTime=_secondPassAssetLoadStartTime;
-@property(nonatomic) unsigned long long secondPassAssetQueryCompleteTime; // @synthesize secondPassAssetQueryCompleteTime=_secondPassAssetQueryCompleteTime;
 @property(nonatomic) unsigned long long secondPassAssetQueryStartTime; // @synthesize secondPassAssetQueryStartTime=_secondPassAssetQueryStartTime;
-@property(nonatomic) unsigned long long secondPassAudioStreamReadyTime; // @synthesize secondPassAudioStreamReadyTime=_secondPassAudioStreamReadyTime;
-@property(nonatomic) unsigned long long secondPassAudioStreamStartTime; // @synthesize secondPassAudioStreamStartTime=_secondPassAudioStreamStartTime;
-@property(nonatomic) unsigned long long secondPassCheckerModelKeywordDetectionEndTime; // @synthesize secondPassCheckerModelKeywordDetectionEndTime=_secondPassCheckerModelKeywordDetectionEndTime;
-@property(nonatomic) unsigned long long secondPassCheckerModelKeywordDetectionStartTime; // @synthesize secondPassCheckerModelKeywordDetectionStartTime=_secondPassCheckerModelKeywordDetectionStartTime;
-@property(nonatomic) unsigned long long secondPassFirstAudioPacketReceptionTime; // @synthesize secondPassFirstAudioPacketReceptionTime=_secondPassFirstAudioPacketReceptionTime;
-@property(nonatomic) unsigned long long secondPassLastAudioPacketReceptionTime; // @synthesize secondPassLastAudioPacketReceptionTime=_secondPassLastAudioPacketReceptionTime;
 
 @end
 

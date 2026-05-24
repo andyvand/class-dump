@@ -7,17 +7,15 @@
 @interface CUIKORTextDrawInfo
 {
     CDUnknownBlockType _renderingBlock;
-    struct CGSize _contentSize;
 }
 
-- (CDUnknownBlockType);
-- (id)øñÇåò0ÁÚñªñGÁÚë@;
+- (CDUnknownBlockType);
+- (id);
 - (void)"NSError";
-- (struct CGSize)rInfoView;
+- (struct CGSize)OrganizerInfoView;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) CDUnknownBlockType renderingBlock; // @synthesize renderingBlock=_renderingBlock;
 
 @end
 

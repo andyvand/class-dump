@@ -7,6 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)16@?0@"NSImage"8;
+- (void)stickerRotation;
 - (void)pe);
 - (void)in Photos;
 @end

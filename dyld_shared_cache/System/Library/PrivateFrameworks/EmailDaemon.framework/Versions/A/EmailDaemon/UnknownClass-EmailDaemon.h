@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (EmailDaemon)
-+ (id);
++ (id);
 + (unsigned long long);
 @end
 

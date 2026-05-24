@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHIDEventUnitTestableProvenance
 {
     _Bool _authentic;
-    unsigned int _eventType;
-    unsigned long long _timetamp;
-    long long _versionedPID;
 }
 
 + (id);
@@ -20,18 +15,9 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
-- (long long);
+- (long long)t;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timetamp;
 @property(readonly, nonatomic) long long versionedPID; // @synthesize versionedPID=_versionedPID;
 
 @end

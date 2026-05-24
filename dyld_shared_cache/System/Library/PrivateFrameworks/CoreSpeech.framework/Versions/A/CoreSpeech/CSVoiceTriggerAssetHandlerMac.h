@@ -6,20 +6,12 @@
 
 #import <CoreSpeech/CSVoiceTriggerAssetHandler.h>
 
-@class CSAsset, CSAssetManager, CSLanguageCodeUpdateMonitor, CSOnDeviceCompilationHandler, CSUAFDownloadMonitor, CSVoiceTriggerAssetDownloadMonitor, NSMutableDictionary, NSObject, NSString;
+@class CSAsset, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerAssetHandlerMac : CSVoiceTriggerAssetHandler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CSAsset *_cachedAsset;
-    CSAsset *_cachedAssistantAsset;
-    NSMutableDictionary *_cachedEndpointAssets;
-    CSVoiceTriggerAssetDownloadMonitor *_voiceTriggerAssetDownloadMonitor;
-    CSLanguageCodeUpdateMonitor *_languageCodeUpdateMonitor;
-    CSUAFDownloadMonitor *_uafAssetDownloadMonitor;
-    CSAssetManager *_assetManager;
-    CSOnDeviceCompilationHandler *_onDeviceCompilationHandler;
 }
 
 - (void);
@@ -39,40 +31,26 @@
 - (void);
 - (id);
 - (void);
+- (void)setPoseData:(id)arg1 originatingRequestSpecifier: /* Error: Ran out of types for this method. */;
+- (void)lensDistortionData;
+- (void)getTitle;
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)rrentLanguageOfType:completion: /* Error: Ran out of types for this method. */;
+- (void)installedAssetForCurrentLanguageOfType:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CSAssetManager *assetManager; // @synthesize assetManager=_assetManager;
 @property(retain) CSAsset *cachedAsset; // @synthesize cachedAsset=_cachedAsset;
-@property(retain) CSAsset *cachedAssistantAsset; // @synthesize cachedAssistantAsset=_cachedAssistantAsset;
-@property(retain) NSMutableDictionary *cachedEndpointAssets; // @synthesize cachedEndpointAssets=_cachedEndpointAssets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CSLanguageCodeUpdateMonitor *languageCodeUpdateMonitor; // @synthesize languageCodeUpdateMonitor=_languageCodeUpdateMonitor;
-@property(retain, nonatomic) CSOnDeviceCompilationHandler *onDeviceCompilationHandler; // @synthesize onDeviceCompilationHandler=_onDeviceCompilationHandler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSUAFDownloadMonitor *uafAssetDownloadMonitor; // @synthesize uafAssetDownloadMonitor=_uafAssetDownloadMonitor;
-@property(retain, nonatomic) CSVoiceTriggerAssetDownloadMonitor *voiceTriggerAssetDownloadMonitor; // @synthesize voiceTriggerAssetDownloadMonitor=_voiceTriggerAssetDownloadMonitor;
 
 @end
 

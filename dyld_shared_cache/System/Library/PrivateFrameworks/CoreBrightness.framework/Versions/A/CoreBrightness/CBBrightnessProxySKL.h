@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSUUID;
-@protocol OS_os_log, SLSBrightnessControl;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBBrightnessProxySKL
 {
     NSObject<OS_os_log> *_logHandle;
-    id <SLSBrightnessControl> _brightnessControl;
-    id _brightnessNotificationRequestEDR;
-    id _brightnessNotificationPowerOff;
-    NSString *_brightnessRequestEDRHeadroom;
-    NSString *_brightnessRequestRampDuration;
-    id _brightnessNotificationSecureIndicatorOn;
-    id _brightnessNotificationSecureIndicatorOff;
-    NSString *_brightnessSecureIndicatorType;
-    NSString *_brightnessSecureIndicatorActiveCount;
-    unsigned long long _CBDispTypeIntegrated;
-    unsigned long long _CBDispTypeExternal;
-    unsigned long long _CBDispTypeWireless;
-    unsigned long long _CBDispTypeVirtual;
-    unsigned long long _CBDispTypeDFR;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)7;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
 - (id);
 - (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id)5;
+- (id);
+- (id)H;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -59,79 +45,45 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (CDStruct_b2fbf00d);
+- (CDStruct_6e3f967a);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)ks/QuartzCore.framework/Versions/A/QuartzCore;
+- (_Bool)$;
+- (void)`L;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (void)EFy;
+- (unsigned long long)',H;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (_Bool)ore it was asked to decode anything;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (unsigned long long);
-- (int);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id)c@;
+- (_Bool);
+- (void);
+- (void)/;
+- (_Bool);
+- (id);
+- (unsigned long long)ZIP64 central directory locator:%s /* Error: Ran out of types for this method. */;
+- (int)B;
 - (void)× ;
 - (float)e:%d /* Error: Ran out of types for this method. */;
 - (void)NíBùÚBÂÆB¬öBiÜàB»yÌBðÿB¾KçBhCÒBGCîBØBa¼C[
 õB«ÞBà{CiüB!äBäRC_CeêBAC+=Cg@ðBæGCèCuöBf!CCk»üBJ&C0bC¨Cê+C]1C\¾CìP1CCËûCÏ6CåóCîAC«f<C;çC¾C8BCæ#C4èC^ÞGCùñ'CKHC6¿MC]	,Cû°CÝ¸SCÀ,0C>"CkËYC \4CCýö_Cz8Cd#CìLfCÌÞ<C;©&CCËlC2AC<*C0dsCNECRØ-CÐzCyüIC|1C sCsNC%)5CÎçCöRC&Þ8C;
 
 // Remaining properties
-@property(readonly) unsigned long long CBDispTypeDFR; // @synthesize CBDispTypeDFR=_CBDispTypeDFR;
-@property(readonly) unsigned long long CBDispTypeExternal; // @synthesize CBDispTypeExternal=_CBDispTypeExternal;
-@property(readonly) unsigned long long CBDispTypeIntegrated; // @synthesize CBDispTypeIntegrated=_CBDispTypeIntegrated;
-@property(readonly) unsigned long long CBDispTypeVirtual; // @synthesize CBDispTypeVirtual=_CBDispTypeVirtual;
-@property(readonly) unsigned long long CBDispTypeWireless; // @synthesize CBDispTypeWireless=_CBDispTypeWireless;
-@property(readonly) _Bool brightnessAvailable;
-@property(readonly) NSDictionary *brightnessCapabilities;
-@property(readonly) id brightnessNotificationAttached;
-@property(readonly) id brightnessNotificationDetached;
 @property(readonly) id brightnessNotificationPowerOff; // @synthesize brightnessNotificationPowerOff=_brightnessNotificationPowerOff;
-@property(readonly) id brightnessNotificationPowerOn;
-@property(readonly) id brightnessNotificationRequestEDR; // @synthesize brightnessNotificationRequestEDR=_brightnessNotificationRequestEDR;
-@property(readonly) id brightnessNotificationSecureIndicatorOff; // @synthesize brightnessNotificationSecureIndicatorOff=_brightnessNotificationSecureIndicatorOff;
-@property(readonly) id brightnessNotificationSecureIndicatorOn; // @synthesize brightnessNotificationSecureIndicatorOn=_brightnessNotificationSecureIndicatorOn;
-@property(readonly) NSString *brightnessRequestEDRHeadroom; // @synthesize brightnessRequestEDRHeadroom=_brightnessRequestEDRHeadroom;
-@property(readonly) NSString *brightnessRequestRampDuration; // @synthesize brightnessRequestRampDuration=_brightnessRequestRampDuration;
-@property(readonly) NSString *brightnessSecureIndicatorActiveCount; // @synthesize brightnessSecureIndicatorActiveCount=_brightnessSecureIndicatorActiveCount;
-@property(readonly) NSString *brightnessSecureIndicatorType; // @synthesize brightnessSecureIndicatorType=_brightnessSecureIndicatorType;
-@property(readonly) NSUUID *containerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) int displayId;
-@property(readonly) unsigned long long displayType;
-@property(readonly) unsigned long long hash;
-@property(readonly) float maximumLuminance;
-@property(readonly) CDStruct_b2fbf00d nativeWhitePoint;
-@property(readonly) unsigned long long productId;
-@property(readonly) unsigned long long serialNumber;
-@property(readonly) Class superclass;
-@property(readonly) NSUUID *uuid;
-@property(readonly) unsigned long long vendorId;
-@property(readonly) _Bool whitePointAvailable;
 
 @end
 

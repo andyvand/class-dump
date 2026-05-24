@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)!;
++ (id)Sfvt;
 + (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ContainerRelativeMacGridModifier;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,7 +25,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -35,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -51,17 +51,17 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)elete:(id)arg1;
+- (void);
+- (void)keyboardInputShouldDelete:(id)arg1;
 
 @end
 

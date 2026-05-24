@@ -11,7 +11,8 @@
     _Bool _result;
 }
 
-+ (id);
++ (id)%u
+;
 - (id);
 - (_Bool);
 

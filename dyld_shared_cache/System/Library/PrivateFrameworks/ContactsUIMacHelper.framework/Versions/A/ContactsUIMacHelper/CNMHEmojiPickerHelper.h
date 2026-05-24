@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKEmojiDataSource, CPKPopover, NSString, NSWindow;
-@protocol CNMHEmojiPickerHelperDelegate;
-
 @interface CNMHEmojiPickerHelper
 {
     _Bool _unscaledMode;
-    id <CNMHEmojiPickerHelperDelegate> _delegate;
-    NSWindow *_presentingWindow;
-    CPKPopover *_popover;
-    CPKEmojiDataSource *_emojiDataSource;
 }
 
 - (_Bool);
@@ -21,7 +14,7 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (_Bool);
 - (id);
@@ -37,17 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMHEmojiPickerHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) CPKEmojiDataSource *emojiDataSource; // @synthesize emojiDataSource=_emojiDataSource;
-@property(readonly) unsigned long long hash;
-@property(retain) CPKPopover *popover; // @synthesize popover=_popover;
-@property __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
 @property _Bool unscaledMode; // @synthesize unscaledMode=_unscaledMode;
 
 @end

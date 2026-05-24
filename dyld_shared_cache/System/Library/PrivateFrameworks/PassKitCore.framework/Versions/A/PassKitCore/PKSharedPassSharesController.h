@@ -4,46 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSObject, NSString, PKContactResolver, PKPassShare, PKPaymentWebService, PKSecureElementPass;
-@protocol OS_dispatch_queue, PKPaymentDataProvider;
+@class PKContactResolver, PKSecureElementPass;
 
 @interface PKSharedPassSharesController
 {
     PKContactResolver *_contactResolver;
-    PKPaymentWebService *_webService;
-    id <PKPaymentDataProvider> _paymentServiceProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _friendSharingFeatureSupported;
-    _Bool _ownerSharingFeatureSupported;
-    _Bool _platformSharingFeatureBlocked;
-    _Bool _isPerformingBatchOpperation;
-    NSArray *_shares;
-    NSHashTable *_delegates;
-    struct os_unfair_lock_s _lock;
-    _Bool _isOwnerSharing;
-    PKSecureElementPass *_pass;
-    NSArray *_shareableEntitlements;
-    NSArray *_myEntitlements;
-    NSArray *_rootShares;
-    PKPassShare *_mostRecentlyCreatedShare;
 }
 
 + (_Bool);
-- (void);
+- (void)uSm;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)5;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T	M;
 - (id);
 - (id);
 - (id);
@@ -57,13 +40,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)f;
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -82,34 +65,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)a>;
 - (void);
 - (void);
 - (_Bool);
 - (void); ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAllowResharing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasRevokableShares;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *interAccountUserShares;
-@property(readonly, nonatomic) _Bool isCrossPlatformSharingEnabled;
-@property(nonatomic) _Bool isOwnerSharing; // @synthesize isOwnerSharing=_isOwnerSharing;
-@property(readonly, nonatomic) unsigned long long maxEntitlementSelectionCount;
-@property(readonly, nonatomic) PKPassShare *mostRecentlyCreatedShare; // @synthesize mostRecentlyCreatedShare=_mostRecentlyCreatedShare;
-@property(readonly, nonatomic) NSArray *myEntitlements; // @synthesize myEntitlements=_myEntitlements;
-@property(readonly, nonatomic) NSArray *nonLocalShares;
 @property(readonly, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;
-@property(readonly, nonatomic) NSArray *rootShares; // @synthesize rootShares=_rootShares;
-@property(readonly, nonatomic) NSArray *shareableEntitlements; // @synthesize shareableEntitlements=_shareableEntitlements;
-@property(readonly, nonatomic) NSArray *shares;
-@property(readonly, nonatomic) _Bool sharingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

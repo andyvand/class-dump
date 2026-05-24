@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPFetcher, LPFetcherResponse;
+@class LPFetcher;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherGroupTask
 {
     _Bool _hasStarted;
-    LPFetcher *_fetcher;
-    LPFetcherResponse *_response;
 }
 
-- (void);
-- (id);
+- (void)systemFontOfSize:(id)arg1 weight: /* Error: Ran out of types for this method. */;
+- (id)showConversation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)qð1Â0@ù
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) LPFetcher *fetcher; // @synthesize fetcher=_fetcher;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(retain, nonatomic) LPFetcherResponse *response; // @synthesize response=_response;
 
 @end
 

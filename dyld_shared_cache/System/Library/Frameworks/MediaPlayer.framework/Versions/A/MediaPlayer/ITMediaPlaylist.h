@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
 @interface ITMediaPlaylist : ITMediaCollection
 {
     struct vector<unsigned long long, std::allocator<unsigned long long>> _persistentIDList;
-    ITLibPlaylist *_itLibPlaylist;
 }
 
 + (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)";
+- (unsigned long long)~);
 - (void);
 - (void)ackRate;
 

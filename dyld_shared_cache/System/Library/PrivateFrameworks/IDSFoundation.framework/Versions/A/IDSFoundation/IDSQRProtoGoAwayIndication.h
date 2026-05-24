@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IDSQRProtoGoAwayIndication
 {
     unsigned long long _txnId;
-    unsigned int _reasonCode;
-    NSString *_reasonString;
-    NSData *_serverBlob;
-    CDStruct_783edc84 _has;
 }
 
 - (unsigned long long);
@@ -27,25 +21,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)-;
 - (void);
 - (unsigned int);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)updateServices:(id)arg1 lastUpdate: /* Error: Ran out of types for this method. */;
+- (void)SFRemoteInteractionSession;
+- (id);
 - (id);
 - (void)sWorseThan(score: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasReasonString;
-@property(readonly, nonatomic) _Bool hasServerBlob;
-@property(nonatomic) _Bool hasTxnId;
 @property(nonatomic) unsigned int reasonCode; // @synthesize reasonCode=_reasonCode;
-@property(retain, nonatomic) NSString *reasonString; // @synthesize reasonString=_reasonString;
-@property(retain, nonatomic) NSData *serverBlob; // @synthesize serverBlob=_serverBlob;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

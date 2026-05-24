@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSSet, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedAnonymousCredential
@@ -16,14 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSData *anonymousId; // @dynamic anonymousId;
-@property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSData *mapsToken; // @dynamic mapsToken;
-@property(nonatomic, copy) NSDate *mapsTokenCreatedAt; // @dynamic mapsTokenCreatedAt;
-@property(nonatomic) long long mapsTokenTTL; // @dynamic mapsTokenTTL;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic, retain) NSSet *reviewedPlaces; // @dynamic reviewedPlaces;
 
 @end
 

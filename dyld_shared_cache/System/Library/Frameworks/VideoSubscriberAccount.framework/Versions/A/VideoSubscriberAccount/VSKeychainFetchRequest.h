@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, VSOptional;
+@class VSOptional;
 
 __attribute__((visibility("hidden")))
 @interface VSKeychainFetchRequest
 {
     _Bool _includesDataValues;
-    VSOptional *_itemKind;
-    NSPredicate *_predicate;
-    NSArray *_sortDescriptors;
-    unsigned long long _fetchLimit;
 }
 
 - (void);
@@ -27,15 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)C;
+- (unsigned long long)VSTVProviderKeys;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(nonatomic) _Bool includesDataValues; // @synthesize includesDataValues=_includesDataValues;
 @property(retain, nonatomic) VSOptional *itemKind; // @synthesize itemKind=_itemKind;
-@property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

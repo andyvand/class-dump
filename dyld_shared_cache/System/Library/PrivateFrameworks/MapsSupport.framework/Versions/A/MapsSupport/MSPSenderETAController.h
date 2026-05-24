@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPGroupSessionStorage, MSPNavigationListener, MSPSharedTripGroupSession, MSPSharedTripRelay, MSPSharedTripSenderStrategyController, MSPSharedTripStorageController, NSArray, NSDictionary, NSMutableSet, NSObject, NSString;
-@protocol MSPSenderETAControllerDelegate, OS_os_transaction;
+@class NSArray, NSObject;
+@protocol OS_os_transaction;
 
 __attribute__((visibility("hidden")))
 @interface MSPSenderETAController
 {
     NSObject<OS_os_transaction> *_transaction;
-    MSPNavigationListener *_navigationListener;
-    NSMutableSet *_destinations;
-    MSPSharedTripRelay *_idsRelay;
-    MSPSharedTripGroupSession *_groupSession;
-    MSPSharedTripSenderStrategyController *_senderStrategyController;
-    MSPGroupSessionStorage *_sessionStorage;
-    MSPSharedTripStorageController *_storageController;
-    NSObject<MSPSenderETAControllerDelegate> *_delegate;
 }
 
 - (void);
@@ -32,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
 - (void);
@@ -43,35 +35,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)FI_TInternalCloudProgressObserver;
+- (void)ller13ConstrainDropERK7TFENodeS5_12TSidebarZoneE3$_4FbS5_EEE;
 - (void);
 - (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)getLinkMetadataForMessageWithGUID:(id *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool).;
+- (void);
+- (void)Ȃ@9	;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeHandles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<MSPSenderETAControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *serviceNamesByActiveHandle;
-@property(readonly) Class superclass;
 
 @end
 

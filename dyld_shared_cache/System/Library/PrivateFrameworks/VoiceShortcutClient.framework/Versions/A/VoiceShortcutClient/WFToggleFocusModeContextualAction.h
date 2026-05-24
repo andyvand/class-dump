@@ -6,18 +6,16 @@
 
 #import <VoiceShortcutClient/WFContextualAction.h>
 
-@class WFContextualActionCalendarEventDescriptor, WFToggleFocusModeContextualActionFocusMode;
+@class WFToggleFocusModeContextualActionFocusMode;
 
 @interface WFToggleFocusModeContextualAction : WFContextualAction
 {
     WFToggleFocusModeContextualActionFocusMode *_focusMode;
-    unsigned long long _operation;
-    WFContextualActionCalendarEventDescriptor *_eventDescriptor;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)SST{;
 + (id);
 + (id);
 + (_Bool);

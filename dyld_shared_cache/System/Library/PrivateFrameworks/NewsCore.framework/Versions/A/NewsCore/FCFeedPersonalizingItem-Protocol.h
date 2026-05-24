@@ -7,124 +7,47 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
+- (void)"40@"IDSMessageContext"48;
+- (FCFeedPersonalizedItemScoreProfile *)_conversationEngramID;
+- (NSDate *)SArray",&,V_declarationKeys;
 - (_Bool)°!Ø@ù±(	Ð1Â0@ù
 × ;
 - (NSArray *);
 - (_Bool):8@16d24 /* Error: Ran out of types for this method. */;
-- (void)ultCKCData;
+- (void)_resultCKCData;
 - (NSArray *)T@"FCPersonalizationPublisherDampeningConfig",?,R,N;
-- (_Bool)esFetchOperation;
-- (NSDate *);
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)agRecentStoriesTopicsConfig;
+- (_Bool)FCIssuesFetchOperation;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)tagRecentStoriesTopicsConfig;
 - (NSString *)mmand"8;
 - (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)FCPrivateDataController requiresPushNotificationSupport];
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)DictionaryKey;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)FCTodayWidgetDropboxDataDerivedPersonalizationDataDictionaryKey;
+
+@optional
+- (_Bool);
+- (NSDate *);
+- (_Bool)0;
+- (_Bool)4;
+- (NSArray *)gg = clamp(base*coeff2.zw + coeff3.xy, 0.0, 1.0); 
+gg2 = gg * gg; 
+gg3 = gg2 * gg; 
+effectAmount.xy = att * (coeff3.zw*gg3 + coeff4*gg2 + 1.0); 
+effectAmount.z = 1.0 - effectAmount.x - effectAmount.y; 
+ccAmount = dot(effectAmount, k2); 
+shdPix = pix.r * k.x; 
+pix.r = mix(pix.r, shdPix, effectAmount.x); 
+hltPix = 1.0 - (1.0 - pix.r) * k.y; 
+pix.r = mix(pix.r, hltPix, effectAmount.y); 
+midPix = 0.5 + (pix.r - 0.5) * k.z; 
+pix.r = mix(pix.r, midPix, effectAmount.z); 
+pix.gb = pix.gb * (1.0 + k.w * ccAmount); 
+return pix; 
+} 
+;
+- (long long)samples;
+- (NSData *)MSG_HOTEL_ENTRY_SUBTITLE_CHECK_OUT;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration *)_hwChangeLock;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isANF) _Bool anf;
-@property(readonly, nonatomic) long long bodyTextLength;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic, getter=isBundlePaid) _Bool bundlePaid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisBundlePaid
-
-@property(readonly, copy, nonatomic) NSString *clusterID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) double conditionalScore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration *expirationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration",?,R,N
-
-@property(readonly, nonatomic) NSData *float16FullBodyEncoding;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSData *float16TitleEncoding;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *globalCohorts;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *globalConversionStats;
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) unsigned long long halfLife;
-@property(readonly, nonatomic) unsigned long long halfLifeOverride;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool hasAudioTrack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool hasGlobalUserFeedback;
-@property(readonly, nonatomic) _Bool hasThumbnail;
-@property(readonly, nonatomic) _Bool hasVideo;
-@property(readonly, nonatomic, getter=isHiddenFromAutoFavorites) _Bool hiddenFromAutoFavorites;
-@property(readonly, copy, nonatomic) NSArray *iAdCategories;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) _Bool isAIGenerated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCoread;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isEvergreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isFeatureCandidate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isFeatured;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSportsHighlight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSString *itemID;
-@property(readonly, copy, nonatomic) NSString *language;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(readonly, copy, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *publisherCohorts;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *publisherConversionStats;
-@property(readonly, copy, nonatomic) NSString *publisherID;
-@property(readonly, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *publisherTagMetadata;
-@property(readonly, nonatomic) _Bool reduceVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool reduceVisibilityForNonFollowers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain) FCFeedPersonalizedItemScoreProfile *scoreProfile;
 @property(readonly, copy, nonatomic) NSString *sourceFeedID;
-@property(readonly, nonatomic) NSData *thumbnailPerceptualHash;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *topicIDs;
-@property(readonly, copy, nonatomic) NSArray *topics;
-@property(readonly, nonatomic) _Bool webConverted;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICQuery, ICQueryResultsControllerObjC, NSManagedObjectContext;
+@class ICQuery, ICQueryResultsControllerObjC;
 
 @interface ICQueryResultsController
 {
     ICQuery *_query;
-    ICQueryResultsControllerObjC *_queryResultsControllerObjC;
 }
 
 - (void);
@@ -23,8 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(retain, nonatomic) ICQuery *query; // @synthesize query=_query;
 @property(retain, nonatomic) ICQueryResultsControllerObjC *queryResultsControllerObjC; // @synthesize queryResultsControllerObjC=_queryResultsControllerObjC;
 
 @end

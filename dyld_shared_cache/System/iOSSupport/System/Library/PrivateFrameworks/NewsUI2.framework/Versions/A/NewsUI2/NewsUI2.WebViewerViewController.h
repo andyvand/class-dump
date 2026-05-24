@@ -7,20 +7,15 @@
 @interface NewsUI2.WebViewerViewController
 {
     id styler;
-    id eventHandler;
-    id coverViewManager;
-    id webView;
-    id url;
-    id config;
 }
 
 - (void);
-- (void);
+- (void)9JetEngine0A16PackAssetRequestP;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)ÿÿÿÿô;
 - (void);

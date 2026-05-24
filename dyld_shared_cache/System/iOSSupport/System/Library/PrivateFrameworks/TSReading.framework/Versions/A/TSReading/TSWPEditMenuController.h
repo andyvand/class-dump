@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-
 @interface TSWPEditMenuController
 {
     int _menuState;
-    _Bool _showMenuOnKeyboard;
-    _Bool _isBeginningEditing;
-    UIView *_targetView;
-    struct CGRect _targetRect;
 }
 
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (int);
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)rollerDataSourceState %p> playbackContext:%@ - originalContext:%@ - supplementalContext:%@ /* Error: Ran out of types for this method. */;
+- (void)tem-artist-uploaded;
+- (void)dy has a mutating subscription to %@;
+- (void)ask completed - ;
+- (void)ion.;
+- (void)ML request from playback context;
+- (void)e from event: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -38,22 +32,12 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id)dant: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (id)p_getTransform:fromDescendant: /* Error: Ran out of types for this method. */;
 - (void)©ð©\ªÀªèª;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBeginningEditing; // @synthesize isBeginningEditing=_isBeginningEditing;
 @property(nonatomic) _Bool showMenuOnKeyboard; // @synthesize showMenuOnKeyboard=_showMenuOnKeyboard;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect targetRect; // @synthesize targetRect=_targetRect;
-@property(nonatomic) __weak UIView *targetView; // @synthesize targetView=_targetView;
 
 @end
 

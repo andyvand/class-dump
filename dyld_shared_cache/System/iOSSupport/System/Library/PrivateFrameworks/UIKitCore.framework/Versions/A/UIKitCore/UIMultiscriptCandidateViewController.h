@@ -6,16 +6,12 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, TIAutocorrectionList, UIMultiscriptCandidateView;
 @protocol UIPredictiveViewController;
 
 __attribute__((visibility("hidden")))
 @interface UIMultiscriptCandidateViewController : UIViewController
 {
     _Bool _updatingCandidates;
-    UIViewController<UIPredictiveViewController> *_currentViewController;
-    UIMultiscriptCandidateView *_candidateView;
-    TIAutocorrectionList *_cachedCandidates;
 }
 
 - (_Bool);
@@ -23,47 +19,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)te QuickSwitch message. Bailing!;
+- (id)Started unzipping quick switch DB;
+- (void)IMSenderCapabilityPipelineComponent;
+- (id)ttachments to delete;
+- (id)ithCacheDelete default not enabled;
+- (id)yDissector";
+- (void)bleAutoRenewal;
 - (long long);
+- (_Bool)View;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)(;
+- (id)TransitionsCommand",R,N,V_toggleTransitionsCommand;
 - (id);
 - (double)1Â0@ù
 × ;
 - (_Bool)dexPath"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)orporateSample:(id)arg1;
-- (_Bool)sition;
+- (void)incorporateSample:(id)arg1;
+- (_Bool)_updateTransition;
 - (void)Action",R,N;
 - (void)"NSString",C,N,S_setLargeContentSizeTitle: /* Error: Ran out of types for this method. */;
-- (_Bool)ingSupport;
+- (_Bool)SnapshottingSupport;
 - (id)(NSArray<_UICollectionLayoutFramesQueryResult *> *const __strong _Nonnull, CGRect, CGRect, BOOL)_block_invoke_2;
 - (void)$\;
 - (void)ÿÊ´;
 
 // Remaining properties
-@property(retain, nonatomic) TIAutocorrectionList *cachedCandidates; // @synthesize cachedCandidates=_cachedCandidates;
-@property(retain, nonatomic) UIMultiscriptCandidateView *candidateView; // @synthesize candidateView=_candidateView;
 @property(retain, nonatomic) UIViewController<UIPredictiveViewController> *currentViewController; // @synthesize currentViewController=_currentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool updatingCandidates; // @synthesize updatingCandidates=_updatingCandidates;
 
 @end
 

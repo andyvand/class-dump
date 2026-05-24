@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineGridModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

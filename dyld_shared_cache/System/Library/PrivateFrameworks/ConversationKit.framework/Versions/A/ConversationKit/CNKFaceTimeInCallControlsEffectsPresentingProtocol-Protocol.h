@@ -5,6 +5,8 @@
 //
 
 @protocol CNKFaceTimeInCallControlsEffectsPresentingProtocol
+- (void);
+- (_Bool)r;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPresentingEffectsBrowser;

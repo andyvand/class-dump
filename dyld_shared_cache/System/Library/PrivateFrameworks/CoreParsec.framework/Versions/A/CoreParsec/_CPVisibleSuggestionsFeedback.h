@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _CPVisibleSuggestionsFeedback
 {
     unsigned long long _timestamp;
-    NSArray *_suggestions;
 }
 
 - (unsigned long long);
@@ -20,7 +17,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -29,15 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

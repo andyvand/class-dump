@@ -6,22 +6,18 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectShowroom : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRImageProvider *mShadowGroundProvider;
-    MRImageProvider *mShadowSideProvider;
-    MRImageProvider *mBorderProvider;
-    MRImageProvider *mMaskProvider;
 }
 
-- (void);
+- (void)ToUpload;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)NDAnalyticsUploadScheduler URLSession:(double)arg1 task:didCompleteWithError:] /* Error: Ran out of types for this method. */;
+- (id)Number"8@"NSNumber"16;
+- (_Bool)nalytics.scheduleUploadOnSubmission;
 - (id);
 - (void);
 - (void);

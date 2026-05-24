@@ -6,7 +6,7 @@
 
 #import <Cards/CRInvocationChain.h>
 
-@class NSString, Protocol;
+@class Protocol;
 @protocol CRInvocationChainDelegate;
 
 @interface CRProtocolRestrictedInvocationChain : CRInvocationChain
@@ -14,26 +14,18 @@
     Protocol *_restrictingProtocol;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)RKiPhotoRedEyeOperation;
+- (_Bool)DGDevignetteOperation;
+- (_Bool)DGChromaticAberrationOperation;
+- (_Bool)ibrary/BuildRoots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Adjustments/DGDescription+PAAutoEnhance.m;
+- (_Bool)AutoEnhanceDescription];
+- (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CRInvocationChainDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) Protocol *restrictingProtocol; // @synthesize restrictingProtocol=_restrictingProtocol;
-@property(readonly) Class superclass;
 
 @end
 

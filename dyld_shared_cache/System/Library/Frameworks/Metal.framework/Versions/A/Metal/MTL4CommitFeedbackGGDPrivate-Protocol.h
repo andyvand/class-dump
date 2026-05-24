@@ -7,7 +7,7 @@
 @protocol MTLLogContainer;
 
 @protocol MTL4CommitFeedbackGGDPrivate
-- (id <MTLLogContainer>)DataRet;
+- (id <MTLLogContainer>)MeshVertexDataRet;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLLogContainer> logs;

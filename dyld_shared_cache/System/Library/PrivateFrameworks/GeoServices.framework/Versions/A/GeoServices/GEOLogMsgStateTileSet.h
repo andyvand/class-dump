@@ -9,30 +9,29 @@
 @interface GEOLogMsgStateTileSet
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_tileSetInfos;
 }
 
 + (Class);
-+ (_Bool)edSpringfieldRegions:(id)arg1;
++ (_Bool)setHasSupportsExtendedSpringfieldRegions:(id)arg1;
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)leDictionary",&,N,V_heapObjectsByClassAndBinary;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)its:(struct _NSZone *)arg1;
-- (id)eTypes: /* Error: Ran out of types for this method. */;
+- (id)ticketForNearestTransitStation:(struct _NSZone *)arg1 coordinate:traits: /* Error: Ran out of types for this method. */;
+- (id)StringAsAdditionalPlaceTypes: /* Error: Ran out of types for this method. */;
 - (id)data to %{public}@;
 - (id)°=¸=ÔØØ?Ðì<Øè<øØ? Ô<¨Ð<È¤Ø?
 ¼<
@@ -43,7 +42,6 @@ $Ø?ø
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *tileSetInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

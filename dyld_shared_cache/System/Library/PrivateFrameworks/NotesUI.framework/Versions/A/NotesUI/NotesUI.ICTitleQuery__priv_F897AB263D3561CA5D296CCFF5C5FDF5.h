@@ -7,9 +7,6 @@
 @interface NotesUI.ICTitleQuery__priv_F897AB263D3561CA5D296CCFF5C5FDF5
 {
     id drawingUUID;
-    id continuation;
-    id resumed;
-    id timer;
 }
 
 - (void);

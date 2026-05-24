@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)WithSplitViewController:(id)arg1;
-- (void)tRange:(id)arg1;
+- (void)initWithSplitViewController:(id)arg1;
+- (void)_selectionViewManager:(id)arg1 convertPointToRenderSpace:(id)arg2 textRange: /* Error: Ran out of types for this method. */;
 - (void)/Frameworks/CoreHaptics.framework/CoreHaptics;
 - (void)é®];
 

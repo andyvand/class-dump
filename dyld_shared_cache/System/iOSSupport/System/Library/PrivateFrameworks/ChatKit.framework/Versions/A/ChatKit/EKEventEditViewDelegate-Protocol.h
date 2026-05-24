@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKCalendar, EKEventEditViewController;
+
 @protocol EKEventEditViewDelegate
+- (void)setObjectTypes:(EKEventEditViewController *)arg1;
+
+@optional
+- (EKCalendar *)ontroller",R,N,V_fetchedResultsController;
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.ArticleToArticleSwipeTestSuite
 {
     id scrollViewObserver;
-    id scrollViewContentOffsetObserver;
-    id activity;
 }
 
 - (id);

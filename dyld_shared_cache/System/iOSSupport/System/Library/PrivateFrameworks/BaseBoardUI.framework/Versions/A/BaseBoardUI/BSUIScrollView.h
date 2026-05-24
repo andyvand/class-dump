@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol BSUIScrollViewDelegate;
-
 @interface BSUIScrollView
 {
     _Bool _isScrolling;
-    _Bool _preventDidEndScrolling;
-    _Bool _didScroll;
-    _Bool _isHandlingAnimationEnded;
-    CDUnknownBlockType _scrollCompletion;
-    struct CGPoint _previousContentOffset;
-    struct CGPoint _initialContentOffset;
-    _Bool _scrolling;
 }
 
 - (void);
@@ -26,31 +16,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)b4;
 - (void);
 - (id);
-- (void);
+- (void){vector<_PKFloatRange, std:(struct CGPoint)arg1:(_Bool)arg2 allocator<_PKFloatRange>>="__begin_"^{?}"__end_"^{?}""{?="__cap_"^{?}}};
 - (void);
 - (_Bool);
-- (CDStruct_3b09cf25);
+- (CDStruct_02f813cc);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)and we should NOT keep it.;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_3b09cf25 currentScrollContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BSUIScrollViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isScrolling) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(readonly) Class superclass;
 
 @end
 

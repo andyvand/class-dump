@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface MXEndpointDescriptorCache
 {
     struct __CFArray *_registeredEndpointManagers;
-    struct __CFArray *_availableEndpointsInfo;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    struct OpaqueFigReentrantMutex *_cacheMutex;
-    struct __CFArray *_predictedRoutesEndpointCache;
 }
 
 + (id);
 - (void);
 - (struct OpaqueFigEndpointManager *);
 - (void);
-- (struct __CFArray *);
+- (struct __CFArray *);
 - (struct __CFArray *);
 - (struct OpaqueFigEndpoint *);
 - (struct OpaqueFigEndpoint *);
@@ -34,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (struct __CFArray *);
 - (void);
 - (struct __CFDictionary *);
-- (void);
+- (void)D'&F3;
 - (id);
 
 @end

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPMetadataAssistantCharacteristic
 {
     _Bool _supportsLocalization;
-    NSString *_name;
-    NSString *_readHAPCharacteristicName;
-    NSString *_writeHAPCharacteristicName;
-    NSString *_format;
-    NSDictionary *_values;
-    NSDictionary *_outValues;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)BlendMaskThreshold0=%f, kBlendMaskThreshold1=%f};
+- (id);
+- (id);
+- (id);
+- (id)Z;
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)meUUID:homeManager:sessionIdentifier:invitationType:invitationAge:invitationSource:logEventSubmitter:wifiManager:currentUpTicksBlock:submissionTimerFactory: /* Error: Ran out of types for this method. */;
+- (id)initWithHomeUUID:homeManager:sessionIdentifier:invitationType:invitationAge:invitationSource:logEventSubmitter:wifiManager:currentUpTicksBlock:submissionTimerFactory: /* Error: Ran out of types for this method. */;
 - (id)to be removed from the accessory before proceeding with adding accessory %@;
 - (void)min on primary resident; This is unexpected. Returning without retrieving thread network credentials;
 - (void)%@ videoSSRC = %@ ;
@@ -41,20 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSDictionary *outValues; // @synthesize outValues=_outValues;
-@property(retain, nonatomic) NSString *readHAPCharacteristicName; // @synthesize readHAPCharacteristicName=_readHAPCharacteristicName;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsLocalization; // @synthesize supportsLocalization=_supportsLocalization;
-@property(retain, nonatomic) NSDictionary *values; // @synthesize values=_values;
-@property(retain, nonatomic) NSString *writeHAPCharacteristicName; // @synthesize writeHAPCharacteristicName=_writeHAPCharacteristicName;
 
 @end
 

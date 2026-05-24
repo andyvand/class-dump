@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatNodeDebugRecord
 {
     id nodeIdentifier;
-    id namespace;
-    id kind;
-    id startTime;
-    id sourceMap;
-    id endTime;
-    id $__lazy_storage_$_identifier;
-    id $__lazy_storage_$_parentIdentifier;
 }
 
 @end

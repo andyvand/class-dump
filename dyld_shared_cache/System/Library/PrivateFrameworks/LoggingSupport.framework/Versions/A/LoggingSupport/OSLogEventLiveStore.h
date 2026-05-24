@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (void);
+- (void)Manager Error:(CDUnknownBlockType)arg1 Attempt to return unused replica UUID %@ for drawing with UUID:%@ (%p) /* Error: Ran out of types for this method. */;
 
 @end
 

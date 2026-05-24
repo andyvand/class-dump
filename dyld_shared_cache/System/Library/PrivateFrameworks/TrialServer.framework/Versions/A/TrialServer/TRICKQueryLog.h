@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRICKQueryLog
 {
     id <TRIPaths> _paths;
-    NSObject<OS_dispatch_queue> *_queue;
-    _PASLock *_lock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)N,V_bssid;
 - (id);
 - (void)0@ù
 × ;

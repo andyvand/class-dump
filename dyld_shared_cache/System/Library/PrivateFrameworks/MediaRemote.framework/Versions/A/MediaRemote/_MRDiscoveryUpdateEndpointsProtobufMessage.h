@@ -9,7 +9,6 @@
 @interface _MRDiscoveryUpdateEndpointsProtobufMessage
 {
     _MRDiscoverySessionConfigurationProtobuf *_configuration;
-    NSMutableArray *_endpoints;
 }
 
 + (Class);
@@ -25,18 +24,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)lastReportedErrorTime;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)gStyleFlags;
+- (id)AFDeleteCoreDuetEventsInStream;
+- (void)_hasEditingStyleFlags;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDiscoverySessionConfigurationProtobuf *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) NSMutableArray *endpoints; // @synthesize endpoints=_endpoints;
-@property(readonly, nonatomic) _Bool hasConfiguration;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol MKCompassView
+- (void);
 
 // Remaining properties
 @property(nonatomic) double mapHeading;

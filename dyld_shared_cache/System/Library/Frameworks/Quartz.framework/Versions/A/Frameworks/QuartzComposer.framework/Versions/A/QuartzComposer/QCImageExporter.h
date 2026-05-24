@@ -9,14 +9,13 @@
 @interface QCImageExporter
 {
     QCImageManager *_manager;
-    void *_unused[4];
 }
 
 + (id);
 + (id)add node "%@" %@;
 - (id);
 - (id);
-- (id);
+- (id)qL4;
 - (struct CGRect);
 - (id);
 - (id);

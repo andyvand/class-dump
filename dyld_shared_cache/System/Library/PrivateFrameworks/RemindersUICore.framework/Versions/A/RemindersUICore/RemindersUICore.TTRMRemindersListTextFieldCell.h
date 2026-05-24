@@ -9,7 +9,7 @@
     id $__lazy_storage_$_fieldEditor;
 }
 
-- (id);
+- (id)ft/libswiftOSLog.dylib;
 - (id);
 - (id);
 - (void)üÿÿåøÿ@rWÿp¨;

@@ -5,13 +5,11 @@
 //
 
 @class NSString;
-@protocol NSObject;
 
 __attribute__((visibility("hidden")))
 @interface CBTrackedAnimation
 {
     NSString *_reason;
-    id <NSObject> _trackingObject;
 }
 
 - (id);
@@ -25,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *reason; // @synthesize reason=_reason;
-@property(retain) id <NSObject> trackingObject; // @synthesize trackingObject=_trackingObject;
 
 @end
 

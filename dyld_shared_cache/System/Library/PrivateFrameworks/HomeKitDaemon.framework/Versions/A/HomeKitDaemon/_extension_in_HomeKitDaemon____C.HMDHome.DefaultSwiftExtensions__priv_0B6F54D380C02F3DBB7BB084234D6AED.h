@@ -7,16 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDHome.DefaultSwiftExtensions__priv_0B6F54D380C02F3DBB7BB084234D6AED
 {
     id accessoryInfoFetchController;
-    id actionSetStateObserver;
-    id actionSetStateSubscriptionManager;
-    id mediaGroupSessionManager;
-    id primaryResidentNetworkInfoUpdateTask;
-    id userPresenceSubscriptionManager;
-    id networkDiagnosticsSymptomReporter;
-    id homeStorage;
-    id roomPresencePublisher;
-    id roomPresenceStorage;
-    id energyKitHindsightCloudShareManager;
 }
 
 - (void);

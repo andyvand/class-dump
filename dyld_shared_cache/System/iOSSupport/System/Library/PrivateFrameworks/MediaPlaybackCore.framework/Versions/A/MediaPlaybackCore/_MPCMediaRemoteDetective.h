@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPRemoteCommandEvent;
+
 @interface _MPCMediaRemoteDetective
 {
     id publisher;
-    id eventStream;
 }
 
-- (void);
+- (void)performSelector:(MPRemoteCommandEvent *)arg1 withObject:(void (^)(MPRemoteCommandStatus *))arg2 withObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)d Command:%{public}@ /* Error: Ran out of types for this method. */;

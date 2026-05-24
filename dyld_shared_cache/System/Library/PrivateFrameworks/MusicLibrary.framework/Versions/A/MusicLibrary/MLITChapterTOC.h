@@ -9,31 +9,27 @@
 @interface MLITChapterTOC : MLChapterTOC
 {
     unsigned int _totalTimeInMS;
-    void *_chapterDataRef;
-    unsigned int *_picCookieIndexMap;
-    unsigned int *_urlCookieIndexMap;
-    unsigned int *_nameCookieIndexMap;
 }
 
-+ (void);
-+ (void);
-+ (unsigned int **);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (void *);
-- (unsigned int *);
-- (unsigned int);
++ (void)RLs;
++ (void)_cplLibraryLock;
++ (unsigned int **)DURI;
+- (id)aseImageFingerprint: /* Error: Ran out of types for this method. */;
+- (id)ion:(unsigned int)arg1 editorBundleID:baseVersion:baseImageData:baseImageFingerprint: /* Error: Ran out of types for this method. */;
+- (id)lobFingerpint:(unsigned int)arg1 formatIdentifier:formatVersion:editorBundleID:baseVersion:baseImageData:baseImageFingerprint: /* Error: Ran out of types for this method. */;
+- (unsigned int)_checkLastModifiedDateIfNeeded;
+- (id)_checkIfSharedLibraryDedupeIsDisabled;
+- (unsigned int)_checkForUnintendedMomentChangesOnObject:(unsigned int)arg1 withBlock:(int)arg2;
+- (unsigned int)_checkForUnintendedChangesOnObject:(unsigned int)arg1 withEntity:unexpectedKeys:block: /* Error: Ran out of types for this method. */;
+- (id)__smartBWAdjustments;
+- (unsigned int)h;
+- (unsigned int)t;
+- (unsigned int)valDistance;
+- (unsigned int)e;
+- (unsigned int)sactions;
+- (void *)e;
+- (unsigned int *)processWorkItemObjectID:(int)arg1 sourceLibrary:(_Bool)arg2 targetLibrary:completion: /* Error: Ran out of types for this method. */;
+- (unsigned int)ssetJournalEntryPayload",R,N,V_assetPayload;
 - (void);
 
 @end

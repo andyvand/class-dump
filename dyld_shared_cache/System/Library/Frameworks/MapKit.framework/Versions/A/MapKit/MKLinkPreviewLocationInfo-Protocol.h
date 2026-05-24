@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPostalAddress, NSString;
+@class NSString;
 
 @protocol MKLinkPreviewLocationInfo
+- (_Bool)ientID:%d /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (struct CLLocationCoordinate2D)processShortBuffer:stride:inFrameToProcess: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *address;
-@property(readonly, copy, nonatomic) CNPostalAddress *addressComponents;
-@property(readonly, copy, nonatomic) NSString *category;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
 @property(readonly, nonatomic) _Bool isPointOfInterest;
-@property(readonly, copy, nonatomic) NSString *name;
 @end
 

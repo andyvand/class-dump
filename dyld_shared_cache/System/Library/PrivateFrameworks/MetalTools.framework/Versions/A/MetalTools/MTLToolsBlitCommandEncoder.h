@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsCommandEncoder.h>
 
-@class MTLToolsCommandBuffer, NSString;
-@protocol MTLDevice;
+@class MTLToolsCommandBuffer;
 
 @interface MTLToolsBlitCommandEncoder : MTLToolsCommandEncoder
 {
@@ -23,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -32,6 +31,11 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -42,14 +46,9 @@
 - (void);
 - (void);
 - (void);
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,15 +58,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MTLToolsCommandBuffer *commandBuffer; // @dynamic commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

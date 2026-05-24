@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncState, IMCloudKitSyncStatistics, NSArray, NSString;
+@class IMCloudKitSyncState;
 
 @interface IMCloudKitSyncProgress
 {
     IMCloudKitSyncState *syncState;
-    IMCloudKitSyncStatistics *syncStatistics;
-    long long type;
-    id descriptor;
-    double progressBarValue;
-    double progressBarMax;
 }
 
 - (id);
@@ -30,35 +25,17 @@
 - (double);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)urce size specified; cannot retrieve content.;
+- (id)B;
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (void),Þ;
-- (double)eyTransparencyShouldRefreshNotification;
+- (double)__kIMChatKeyTransparencyShouldRefreshNotification;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *actionLabel;
-@property(nonatomic, readonly) double broadcastDeferralOverride;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *errors;
-@property(nonatomic, readonly) _Bool isHidden;
-@property(nonatomic, readonly) double percentComplete;
-@property(nonatomic, readonly) NSString *percentCompleteString;
-@property(nonatomic, readonly) double progressBarMax; // @synthesize progressBarMax;
-@property(nonatomic, readonly) double progressBarValue; // @synthesize progressBarValue;
-@property(nonatomic, readonly) NSString *progressLabel;
-@property(nonatomic, readonly) double remainingItems;
-@property(nonatomic, readonly) _Bool shouldShowIndeterminateProgress;
-@property(nonatomic, readonly) _Bool shouldShowProgressBar;
-@property(nonatomic, readonly) _Bool shouldShowUserActionLabel;
-@property(nonatomic, readonly) _Bool shouldShowUserMessageLabel;
 @property(nonatomic, readonly) IMCloudKitSyncState *syncState; // @synthesize syncState;
-@property(nonatomic, readonly) IMCloudKitSyncStatistics *syncStatistics; // @synthesize syncStatistics;
-@property(nonatomic, readonly) long long type; // @synthesize type;
-@property(nonatomic, readonly) NSString *userMessageLabel;
 
 @end
 

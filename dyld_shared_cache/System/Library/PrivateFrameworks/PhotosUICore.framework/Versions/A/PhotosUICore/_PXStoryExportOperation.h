@@ -4,50 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReader, AVAssetReaderAudioMixOutput, AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputGroup, AVAssetWriterInputPixelBufferAdaptor, NSError, NSObject, NSProgress, NSString, NSURL, PXGEngine, PXGPixelBufferMetalRenderDestination, PXMediaProvider, PXObservable, PXStoryExportConfiguration, PXStoryExportVideoOptions, PXStoryModel, PXStoryPacingController, PXStoryRelatedController, PXStorySongController;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_os_log, PXAudioCueSource, PXStoryStyle;
+@class NSObject, PXStoryExportVideoOptions;
+@protocol OS_dispatch_queue;
 
 @interface _PXStoryExportOperation
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    long long _stateQueue_status;
-    NSError *_stateQueue_error;
-    _Bool _stateQueue_hasAudioForExport;
-    CDStruct_1b6d18a9 _stateQueue_exportDuration;
-    CDStruct_1b6d18a9 _stateQueue_outroDuration;
-    id <PXStoryStyle> _stateQueue_exportedStyle;
-    NSObject<OS_os_log> *_signpostLog;
-    unsigned long long _signpostID;
-    NSObject<OS_os_log> *_frequentSignpostLog;
-    unsigned long long _frequentSignpostID;
-    _Bool _storyQueue_hasEncounteredDriftError;
-    _Bool _storyQueue_isWaitingForResources;
-    NSString *_uniqueIdentifier;
-    PXStoryExportConfiguration *_configuration;
-    NSURL *_destinationURL;
-    NSProgress *_progress;
-    PXStoryExportVideoOptions *_videoOptions;
-    CDUnknownBlockType _progressHandler;
-    NSObject<OS_dispatch_semaphore> *_layoutCompleteSemaphore;
-    NSObject<OS_dispatch_semaphore> *_completedWritingVideoFrameSemaphore;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    PXGEngine *_storyQueue_engine;
-    PXStoryModel *_storyQueue_storyModel;
-    PXMediaProvider *_storyQueue_mediaProvider;
-    PXStoryPacingController *_storyQueue_pacingController;
-    PXStorySongController *_storyQueue_songController;
-    PXGPixelBufferMetalRenderDestination *_storyQueue_pixelBufferRenderDestination;
-    NSObject<OS_dispatch_queue> *_audioQueue;
-    AVAssetReader *_audioQueue_assetReader;
-    AVAssetWriterInput *_audioQueue_audioWriterDefaultTrack;
-    AVAssetWriterInput *_audioQueue_audioWriterWithoutMusicTrack;
-    AVAssetWriterInputGroup *_audioQueue_audioWriterGroup;
-    AVAssetReaderAudioMixOutput *_audioQueue_audioMixOutput;
-    AVAssetReaderAudioMixOutput *_audioQueue_audioMixOutputWithoutMusic;
-    AVAssetWriter *_assetWriter;
-    NSObject<OS_dispatch_queue> *_videoWriterQueue;
-    AVAssetWriterInputPixelBufferAdaptor *_videoWriterQueue_pixelBufferWriter;
-    CDStruct_1b6d18a9 _videoQueue_firstWrittenStoryTime;
 }
 
 + (id);
@@ -63,14 +25,14 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,9 +65,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void)X@y}	S	}S	3(;
 - (void);
 - (void);
 - (void);
@@ -118,14 +81,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -151,75 +113,24 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)onPanHorizontalCancel2;
 - (void);
 - (void);
 - (void);
 - (id)0@ù
 × ;
-- (CDStruct_1b6d18a9)plier;
-- (long long)ivacyController;
+- (CDStruct_1b6d18a9)diptychDurationMultiplier;
+- (long long)contentPrivacyController;
 - (id);
-- (_Bool)erPersonUUID;
+- (_Bool)PXPeopleSuggestionsDataSourceManagerPersonUUID;
 - (void)©?;
 - (CDUnknownBlockType)ég;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long HUDContentChangeDescriptor;
-@property(readonly, nonatomic) PXObservable *HUDObservable;
-@property(readonly, nonatomic) PXStoryRelatedController *HUDRelatedController;
-@property(readonly, nonatomic) PXStoryModel *HUDStoryModel;
-@property(readonly, nonatomic) unsigned long long HUDStoryModelChangeDescriptor;
-@property(readonly, nonatomic) unsigned long long HUDVisibiltyChangeDescriptor;
-@property(retain) AVAssetWriter *assetWriter; // @synthesize assetWriter=_assetWriter;
-@property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *audioQueue; // @synthesize audioQueue=_audioQueue;
-@property(retain, nonatomic) AVAssetReader *audioQueue_assetReader; // @synthesize audioQueue_assetReader=_audioQueue_assetReader;
-@property(retain, nonatomic) AVAssetReaderAudioMixOutput *audioQueue_audioMixOutput; // @synthesize audioQueue_audioMixOutput=_audioQueue_audioMixOutput;
-@property(retain, nonatomic) AVAssetReaderAudioMixOutput *audioQueue_audioMixOutputWithoutMusic; // @synthesize audioQueue_audioMixOutputWithoutMusic=_audioQueue_audioMixOutputWithoutMusic;
-@property(retain, nonatomic) AVAssetWriterInput *audioQueue_audioWriterDefaultTrack; // @synthesize audioQueue_audioWriterDefaultTrack=_audioQueue_audioWriterDefaultTrack;
-@property(retain, nonatomic) AVAssetWriterInputGroup *audioQueue_audioWriterGroup; // @synthesize audioQueue_audioWriterGroup=_audioQueue_audioWriterGroup;
-@property(retain, nonatomic) AVAssetWriterInput *audioQueue_audioWriterWithoutMusicTrack; // @synthesize audioQueue_audioWriterWithoutMusicTrack=_audioQueue_audioWriterWithoutMusicTrack;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *completedWritingVideoFrameSemaphore; // @synthesize completedWritingVideoFrameSemaphore=_completedWritingVideoFrameSemaphore;
-@property(readonly, nonatomic) PXStoryExportConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) long long cuesVersion;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, nonatomic) long long diagnosticHUDType;
-@property(retain, nonatomic, setter=_setError:) NSError *error;
-@property(nonatomic, setter=_setExportDuration:) CDStruct_1b6d18a9 exportDuration;
-@property(retain, nonatomic, setter=_setExportedStyle:) id <PXStoryStyle> exportedStyle;
-@property(nonatomic, setter=_setHasAudioForExport:) _Bool hasAudioForExport;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly, nonatomic) _Bool isHUDVisible;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *layoutCompleteSemaphore; // @synthesize layoutCompleteSemaphore=_layoutCompleteSemaphore;
-@property(nonatomic, setter=_setOutroDuration:) CDStruct_1b6d18a9 outroDuration;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic, setter=_setStatus:) long long status;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(retain, nonatomic) PXGEngine *storyQueue_engine; // @synthesize storyQueue_engine=_storyQueue_engine;
-@property(readonly, nonatomic) _Bool storyQueue_isWaitingForResources; // @synthesize storyQueue_isWaitingForResources=_storyQueue_isWaitingForResources;
-@property(retain, nonatomic) PXMediaProvider *storyQueue_mediaProvider; // @synthesize storyQueue_mediaProvider=_storyQueue_mediaProvider;
-@property(retain, nonatomic) PXStoryPacingController *storyQueue_pacingController; // @synthesize storyQueue_pacingController=_storyQueue_pacingController;
-@property(retain, nonatomic) PXGPixelBufferMetalRenderDestination *storyQueue_pixelBufferRenderDestination; // @synthesize storyQueue_pixelBufferRenderDestination=_storyQueue_pixelBufferRenderDestination;
-@property(retain, nonatomic) PXStorySongController *storyQueue_songController; // @synthesize storyQueue_songController=_storyQueue_songController;
-@property(retain, nonatomic) PXStoryModel *storyQueue_storyModel; // @synthesize storyQueue_storyModel=_storyQueue_storyModel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly, nonatomic) PXStoryExportVideoOptions *videoOptions; // @synthesize videoOptions=_videoOptions;
-@property(nonatomic) CDStruct_1b6d18a9 videoQueue_firstWrittenStoryTime; // @synthesize videoQueue_firstWrittenStoryTime=_videoQueue_firstWrittenStoryTime;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *videoWriterQueue; // @synthesize videoWriterQueue=_videoWriterQueue;
-@property(retain, nonatomic) AVAssetWriterInputPixelBufferAdaptor *videoWriterQueue_pixelBufferWriter; // @synthesize videoWriterQueue_pixelBufferWriter=_videoWriterQueue_pixelBufferWriter;
 
 @end
 

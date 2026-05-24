@@ -9,13 +9,17 @@
 
 @protocol _UIFocusPlatformBehavior
 + (id <_UIFocusPlatformBehavior>)W/3yY/3yS/3y|/3ySOÙÊ;
+- (_Bool);
+- (_Bool)_;
+- (_Bool));
+- (_Bool)imageAndDescriptionBoxView;
+- (long long)P;
 - (_Bool)
 × ;
 - (_Bool)qZð1Â0@ù
 × ;
 - (_Bool)!ØDùÑ[ð1Â0@ù
 × ;
-- (_Bool);
 - (_Bool)!@Eù\ð1Â0@ù
 × ;
 - (_Bool);
@@ -30,17 +34,17 @@
 × ;
 - (_Bool)onDriving>"16Q24;
 - (long long)sualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying>";
-- (unsigned long long)er: /* Error: Ran out of types for this method. */;
-- (long long)ype: /* Error: Ran out of types for this method. */;
-- (_Bool)enuInteractionEnabled: /* Error: Ran out of types for this method. */;
-- (_Bool)stemItem:primaryAction: /* Error: Ran out of types for this method. */;
-- (_Bool)Image:(UIControl *)arg1 contentViews:wobble: /* Error: Ran out of types for this method. */;
-- (_Bool)iders;
+- (unsigned long long)string:isExemptFromTextCheckerWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (long long)setTextScriptType: /* Error: Ran out of types for this method. */;
+- (_Bool)setContextMenuInteractionEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBarButtonSystemItem:primaryAction: /* Error: Ran out of types for this method. */;
+- (_Bool)_setSelectionRect:(UIControl *)arg1 textRects:contentImage:contentViews:wobble: /* Error: Ran out of types for this method. */;
+- (_Bool)_calculateFlattenedBSActionSubstitutionProviders;
 - (_Bool)selectionHandler;
 - (_Bool)NxNO
 @P;
 - (_Bool)that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
-- (_Bool)lor;
+- (_Bool)darkTextColor;
 - (long long)KitLibrary(void);
 @end
 

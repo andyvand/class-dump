@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPriceRange, NSString;
+@class NSString;
 
 @interface INRidePartySizeOption
 {
     NSString *_sizeDescription;
-    INPriceRange *_priceRange;
-    struct _NSRange _partySizeRange;
 }
 
 + (_Bool);
@@ -18,27 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithName:(id)arg1 additionalAliases:attributes:nameLocalizationKey:symbolName:sourceAttributes:sourceUpExtendedEventField:sourceDownExtendedEventField:sourceLeftExtendedEventField:sourceRightExtendedEventField: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)manufacturerName;
+- (void)fi] %{public}s (%{public}s:(id)arg1 %u) Privacy proxy setting (%d) for candidate known network does not match associated known network;
 - (id);
 - (id);
 - (id)distanceRemaining;
-- (void)ovideTransactionNoteOptionsCollectionForPayBill:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTransactionNoteOptionsCollectionForPayBill:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) struct _NSRange partySizeRange; // @synthesize partySizeRange=_partySizeRange;
-@property(readonly) INPriceRange *priceRange; // @synthesize priceRange=_priceRange;
-@property(readonly) NSString *sizeDescription; // @synthesize sizeDescription=_sizeDescription;
-@property(readonly) Class superclass;
 
 @end
 

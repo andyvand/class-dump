@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SystemAccountSetupSheetRequest : SheetRequest
 {
     NSString *_domain;
-    NSString *_username;
-    NSString *_password;
 }
 
 - (id);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

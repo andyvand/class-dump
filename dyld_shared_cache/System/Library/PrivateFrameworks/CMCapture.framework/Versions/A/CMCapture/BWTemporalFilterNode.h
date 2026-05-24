@@ -6,43 +6,15 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWNodeInput, BWNodeOutput, NSDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface BWTemporalFilterNode : BWNode
 {
     int _maxLossyCompressionLevel;
-    BWNodeInput *_videoInput;
-    struct OpaqueVTTemporalFilterSession *_mctfSession;
-    struct opaqueCMSimpleQueue *_inputSampleBufferQueue;
-    BWNodeOutput *_videoOutput;
-    _Bool _dumpInputVideo;
-    _Bool _dumpOutputVideo;
-    _Bool _bypassTemporalFilter;
-    _Bool _enforceTemporalFilter;
-    struct OpaqueVTPixelTransferSession *_pixelTransferSession;
-    struct {
-        unsigned long long framesReceivedCount;
-        unsigned long long framesWithMLVNRAppliedCount;
-        unsigned long long framesWithMCTFAppliedCount;
-        unsigned long long framesDispatchedCount;
-        unsigned long long framesDroppedCount;
-        unsigned long long droppedInFilterSessionCallback;
-        _Bool lastFrameWasMLVNRAppliedFrame;
-    } _frameStats;
-    _Bool _logMLVNRMetadata;
-    _Bool _mctfUsesMLVNRPixelBufferAttachments;
-    NSDictionary *_filterSessionConfiguration;
-    NSObject<OS_dispatch_queue> *_sampleBufferSerialQueue;
-    NSMutableSet *_enqueueFailedInputSbufPTSValuesList;
-    _Bool _didReachEODForVideoInput;
-    _Bool _lowLightBandingMitigationEnabled;
 }
 
-+ (void)dingPaused;
-- (void);
-- (void);
++ (void)RecordingPaused;
+- (void)PDAnimationInfoAdditions;
+- (void);
 - (void);
 - (void);
 - (id);

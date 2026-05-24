@@ -7,26 +7,23 @@
 @interface NTPBGroupingFlags
 {
     _Bool _isEligibleForGrouping;
-    _Bool _isEligibleForGroupingIfFavorited;
-    _Bool _isHidden;
-    struct {
-        unsigned int isEligibleForGrouping:1;
-        unsigned int isEligibleForGroupingIfFavorited:1;
-        unsigned int isHidden:1;
-    } _has;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)initWithRoutineConnector:(_Bool)arg1 networkRequester:mapsSync: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ormed options dictionary - missing or invalid locale;
+- (void)�;
+- (void)vices.framework/Versions/A/GeoServices;
 - (unsigned long long);
-- (void);
+- (void)",&,V_groupRecName;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)subscriptionState:%lu 
+ isPurchaser=%@ 
+ isAmplifyUser=%@ 
+ servicesBundlePurchaseID=%@ 
+> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,16 +31,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)autocapitalizationType;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEligibleForGrouping;
-@property(nonatomic) _Bool hasIsEligibleForGroupingIfFavorited;
 @property(nonatomic) _Bool hasIsHidden;
-@property(nonatomic) _Bool isEligibleForGrouping; // @synthesize isEligibleForGrouping=_isEligibleForGrouping;
-@property(nonatomic) _Bool isEligibleForGroupingIfFavorited; // @synthesize isEligibleForGroupingIfFavorited=_isEligibleForGroupingIfFavorited;
-@property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
 
 @end
 

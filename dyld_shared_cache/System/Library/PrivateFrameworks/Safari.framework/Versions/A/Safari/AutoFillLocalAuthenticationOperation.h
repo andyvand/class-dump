@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, LAContext, NSString, WBSSavedAccountMatch;
-@protocol AutoFillLocalAuthenticationOperationDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AutoFillLocalAuthenticationOperation
 {
     _Bool _allowApplyingGracePeriod;
-    long long _runningState;
-    NSString *_authenticationReason;
-    LAContext *_laContext;
-    id <AutoFillLocalAuthenticationOperationDelegate> _delegate;
-    WBSSavedAccountMatch *_savedAccountMatch;
-    BrowserTabViewItem *_tab;
 }
 
 - (void);
@@ -25,15 +16,15 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)secondsDifferenceFromDate: /* Error: Ran out of types for this method. */;
+- (id)Demo mode.;
 - (void);
 - (void);
 - (_Bool);
@@ -42,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ßß.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authenticationReason; // @synthesize authenticationReason=_authenticationReason;
-@property(nonatomic) __weak id <AutoFillLocalAuthenticationOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) LAContext *laContext; // @synthesize laContext=_laContext;
 @property long long runningState; // @synthesize runningState=_runningState;
-@property(retain) WBSSavedAccountMatch *savedAccountMatch; // @synthesize savedAccountMatch=_savedAccountMatch;
-@property __weak BrowserTabViewItem *tab; // @synthesize tab=_tab;
 
 @end
 

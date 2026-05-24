@@ -7,13 +7,11 @@
 @interface CBPowerManagementModule
 {
     id platform;
-    id agent;
-    id cache;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

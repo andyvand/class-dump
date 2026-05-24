@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (id)L;
+- (unsigned long long)ored in defaults. Returning nil.;
+- (_Bool)e Facebook Live Recording Quirk;
+- (_Bool)J;
+- (_Bool);
+- (_Bool)#;
+
+@optional
+- (NSString *)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

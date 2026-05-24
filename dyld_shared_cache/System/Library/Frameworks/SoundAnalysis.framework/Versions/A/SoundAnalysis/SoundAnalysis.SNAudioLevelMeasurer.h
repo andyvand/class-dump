@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNAudioLevelMeasurer
 {
     id graphStorage;
-    id inputSensitivity;
 }
 
 @end

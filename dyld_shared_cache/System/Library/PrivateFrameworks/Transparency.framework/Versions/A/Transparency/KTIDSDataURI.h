@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTIDSData, KTNetworkResponse;
+@class KTIDSData;
 
 @interface KTIDSDataURI
 {
     KTIDSData *_idsData;
-    KTNetworkResponse *_ktResponse;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0:(id)arg1 8@16;
 - (void);
 
 // Remaining properties
 @property(retain) KTIDSData *idsData; // @synthesize idsData=_idsData;
-@property(retain) KTNetworkResponse *ktResponse; // @synthesize ktResponse=_ktResponse;
 
 @end
 

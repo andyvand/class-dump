@@ -5,11 +5,12 @@
 //
 
 @protocol PXGMutableHostingControllerPresenterMutator
+- (void);
+- (void)loopTransitionIDFromOptions:(struct CGSize)arg1;
 - (double)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double displayScale;
 @property(nonatomic) struct CGSize size;
 @end
 

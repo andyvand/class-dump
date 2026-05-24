@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMApplicationLockDeclaration_App, NSString;
+@class CEMApplicationLockDeclaration_App;
 
 @interface CEMApplicationLockDeclaration : CEMConfigurationBase
 {
@@ -27,19 +27,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool).....................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMApplicationLockDeclaration_App *payloadApp; // @synthesize payloadApp=_payloadApp;
-@property(readonly) Class superclass;
 
 @end
 

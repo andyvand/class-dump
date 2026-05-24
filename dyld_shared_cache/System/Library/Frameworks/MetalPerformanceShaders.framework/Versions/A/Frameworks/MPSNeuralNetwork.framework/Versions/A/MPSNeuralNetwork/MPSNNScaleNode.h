@@ -11,14 +11,13 @@
 @interface MPSNNScaleNode : MPSNNFilterNode
 {
     id <MPSImageTransformProvider> _transformProvider;
-    CDStruct_da2e99ad _size;
 }
 
 + (id);
-+ (id);
++ (id)kA;
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (void);
 - (id);
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PFParallaxAssetRegions
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;
-@property(readonly, nonatomic) NSArray *faceRegions;
-@property(readonly, nonatomic) struct CGRect gazeAreaRect;
-@property(readonly, nonatomic) NSArray *petRegions;
-@property(readonly, nonatomic) struct CGRect preferredCropRect;
 @end
 

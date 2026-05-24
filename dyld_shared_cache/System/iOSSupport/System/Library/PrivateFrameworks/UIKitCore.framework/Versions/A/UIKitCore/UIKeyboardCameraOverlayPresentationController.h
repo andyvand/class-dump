@@ -6,19 +6,12 @@
 
 #import <UIKitCore/UIKeyboardCameraBasePresentationController.h>
 
-@class NSLayoutConstraint, UIKeyboardCameraGrabberView, UIPanGestureRecognizer;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardCameraOverlayPresentationController : UIKeyboardCameraBasePresentationController
 {
     NSLayoutConstraint *_topLayoutConstraint;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UIKeyboardCameraGrabberView *_grabberView;
-    double _keyboardCameraNormalHeight;
-    double _keyboardCameraFullScreenHeight;
-    double _keyboardCameraHeight;
-    double _panningStartingHeight;
-    _Bool _isLandscape;
 }
 
 - (void);

@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatLayeredMediaNodeRenderer
 {
     id rendererEnvironment;
-    id layeredMediaViewRenderer;
 }
 
 @end

@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (void)Ô ;
-- (void)pertySummary;
-- (void)InteriorCookie;
+- (void)tssPropertySummary;
+- (void)TSWPInteriorCookie;
 
 @end
 

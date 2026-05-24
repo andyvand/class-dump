@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log, OS_os_transaction;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _CDSharedMemoryKeyValueStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_persistQueue;
-    NSObject<OS_os_transaction> *_persistTransaction;
-    NSError *_lastPersistError;
-    NSObject<OS_os_log> *_log;
-    NSMutableDictionary *_dictionary;
-    void *_mappedMem;
-    unsigned long long _size;
 }
 
 + (id);
-+ (id);
-+ (unsigned long long);
++ (id)_myReadToHisWriteError;
++ (unsigned long long)__nsurlrequest_proto_prop_obj_12;
 + (id)@"NSArray">32;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void *);
-- (_Bool);
+- (_Bool)#;
 - (unsigned long long);
 - (id);
 - (_Bool);

@@ -9,9 +9,6 @@
 @interface AFMyriadGoodnessScoreContext
 {
     AFMyriadGoodnessScoreOverrideContext *_overriddenContext;
-    _Bool _recentlyWonBySmallAmount;
-    NSSet *_reasons;
-    double _mediaPlaybackInterruptedTime;
 }
 
 - (void);
@@ -27,9 +24,7 @@
 - (void)s;
 
 // Remaining properties
-@property(nonatomic) double mediaPlaybackInterruptedTime; // @synthesize mediaPlaybackInterruptedTime=_mediaPlaybackInterruptedTime;
 @property(copy, nonatomic) NSSet *reasons; // @synthesize reasons=_reasons;
-@property(nonatomic) _Bool recentlyWonBySmallAmount; // @synthesize recentlyWonBySmallAmount=_recentlyWonBySmallAmount;
 
 @end
 

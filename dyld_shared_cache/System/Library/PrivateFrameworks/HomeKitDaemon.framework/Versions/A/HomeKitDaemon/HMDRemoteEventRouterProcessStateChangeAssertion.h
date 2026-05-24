@@ -4,52 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol HMDRemoteEventRouterProcessStateChangeAssertionDataSource, HMETimerProvider, HMFCancellable, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProcessStateChangeAssertion
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <HMETimerProvider> _timerProvider;
-    id <HMDRemoteEventRouterProcessStateChangeAssertionDataSource> _dataSource;
-    NSDictionary *_applicationsAndIntervals;
-    NSMutableSet *_foregroundProcesses;
-    NSMutableDictionary *_backgroundProcesses;
-    id <HMFCancellable> _eventRouterActiveAssertion;
 }
 
 + (id)bB;
 - (id);
 - (void);
-- (id);
+- (id)x;
 - (void);
 - (id);
+- (id)ring"24;
+- (id)tapToFocusEnabled;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)Version;
+- (void)bsoDataVersion;
 - (void)V_didSucceed;
 - (id)ateDuration;
 - (id)th name:%@ for target:%@ /* Error: Ran out of types for this method. */;
 - (void)-bundles;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *applicationsAndIntervals; // @synthesize applicationsAndIntervals=_applicationsAndIntervals;
-@property(readonly, nonatomic) NSMutableDictionary *backgroundProcesses; // @synthesize backgroundProcesses=_backgroundProcesses;
-@property(readonly, nonatomic) __weak id <HMDRemoteEventRouterProcessStateChangeAssertionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <HMFCancellable> eventRouterActiveAssertion; // @synthesize eventRouterActiveAssertion=_eventRouterActiveAssertion;
-@property(readonly, nonatomic) NSMutableSet *foregroundProcesses; // @synthesize foregroundProcesses=_foregroundProcesses;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak id <HMETimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
 
 @end
 

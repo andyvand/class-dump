@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-@protocol TXRBuffer;
-
 @interface TXRImageInfo
 {
     unsigned long long _offset;
-    id <TXRBuffer> _buffer;
-    unsigned long long _bytesPerRow;
-    unsigned long long _bytesPerImage;
-    NSError *_error;
 }
 
 - (void);
@@ -24,15 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)'13;
 - (id);
-- (unsigned long long);
+- (unsigned long long)A:'F4*'F /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <TXRBuffer> buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long bytesPerImage; // @synthesize bytesPerImage=_bytesPerImage;
-@property(nonatomic) unsigned long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end

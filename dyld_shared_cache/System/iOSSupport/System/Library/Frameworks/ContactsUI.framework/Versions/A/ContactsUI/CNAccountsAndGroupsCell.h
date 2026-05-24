@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsCellTextView, CNAccountsAndGroupsItem, NSString;
-@protocol CNAccountsAndGroupsCellDelegate;
+@class CNAccountsAndGroupsCellTextView, CNAccountsAndGroupsItem;
 
 __attribute__((visibility("hidden")))
 @interface CNAccountsAndGroupsCell
 {
     CNAccountsAndGroupsItem *_item;
-    id <CNAccountsAndGroupsCellDelegate> _delegate;
-    CNAccountsAndGroupsCellTextView *_titleTextView;
-    double _titleTextViewHeight;
 }
 
 - (double);
@@ -37,29 +33,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void))	S?;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)odified;
+- (void)photoIsModified;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAccountsAndGroupsCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNAccountsAndGroupsItem *item; // @synthesize item=_item;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CNAccountsAndGroupsCellTextView *titleTextView; // @synthesize titleTextView=_titleTextView;
-@property(nonatomic) double titleTextViewHeight; // @synthesize titleTextViewHeight=_titleTextViewHeight;
 
 @end
 

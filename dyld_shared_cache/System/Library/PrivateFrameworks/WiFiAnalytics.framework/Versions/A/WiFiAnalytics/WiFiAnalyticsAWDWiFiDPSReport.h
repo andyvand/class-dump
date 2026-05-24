@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WiFiAnalyticsAWDWiFiDPSEpilogue, WiFiAnalyticsAWDWiFiDPSSnapshot;
-
 @interface WiFiAnalyticsAWDWiFiDPSReport
 {
     unsigned long long _timestamp;
-    NSMutableArray *_dpsCounterSamples;
-    WiFiAnalyticsAWDWiFiDPSEpilogue *_dpsEpiloge;
-    NSMutableArray *_probeResults;
-    WiFiAnalyticsAWDWiFiDPSSnapshot *_snapshot;
-    NSMutableArray *_stallNotifications;
-    NSMutableArray *_usbEvents;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -30,54 +21,45 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)sions/A/Accelerate;
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)oliciesTableWithReason:(id)arg1 withPolicyType:withOutcome: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_;
+- (id)conform to REMExternalSyncMetadataProviding {list:%{public}@} /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)tedViewingSession:(struct _NSZone *)arg1 ];
+- (id);
+- (void);
+- (void)updatePoliciesTableWithReason:(id)arg1 withPolicyType:withOutcome: /* Error: Ran out of types for this method. */;
 - (id)rev Neighbor count:%lu for BSSID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dpsCounterSamples; // @synthesize dpsCounterSamples=_dpsCounterSamples;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiDPSEpilogue *dpsEpiloge; // @synthesize dpsEpiloge=_dpsEpiloge;
-@property(readonly, nonatomic) _Bool hasDpsEpiloge;
-@property(readonly, nonatomic) _Bool hasSnapshot;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *probeResults; // @synthesize probeResults=_probeResults;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiDPSSnapshot *snapshot; // @synthesize snapshot=_snapshot;
-@property(retain, nonatomic) NSMutableArray *stallNotifications; // @synthesize stallNotifications=_stallNotifications;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSMutableArray *usbEvents; // @synthesize usbEvents=_usbEvents;
 
 @end
 

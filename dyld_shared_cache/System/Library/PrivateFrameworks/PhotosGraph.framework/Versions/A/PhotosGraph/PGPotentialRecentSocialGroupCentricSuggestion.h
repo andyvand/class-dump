@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface PGPotentialRecentSocialGroupCentricSuggestion
 {
     float _weight;
-    NSArray *_personLocalIdentifiers;
-    NSArray *_personWeights;
-    NSArray *_momentLocalIdentifiers;
-    NSArray *_assets;
-    NSDate *_notSeenSinceDate;
 }
 
-- (void);
+- (void)R;
+- (id)L;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)willUseChildrenDescriptionInDescriptionForElement:(id)arg1;
+- (id)urned %ld senders;
 - (void);
 - (float);
 - (id);
-- (void)omFoodie;
+- (void)CustomFoodie;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSArray *momentLocalIdentifiers; // @synthesize momentLocalIdentifiers=_momentLocalIdentifiers;
-@property(retain, nonatomic) NSDate *notSeenSinceDate; // @synthesize notSeenSinceDate=_notSeenSinceDate;
 @property(readonly, nonatomic) NSArray *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
-@property(readonly, nonatomic) NSArray *personWeights; // @synthesize personWeights=_personWeights;
-@property(readonly, nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

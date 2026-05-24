@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (Typed)
-- (id);
-- (id);
-- (float *);
+- (id)buttonCaption;
+- (id)businessChatURLToOpenForURL:(id)arg1;
+- (float *)addStringToFailedSuffixes: /* Error: Ran out of types for this method. */;
 - (double *);
 @end
 

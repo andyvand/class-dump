@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXVideoStabilizationRecipeSource.h>
 
-@class NSURL, PIVideoStabilizeRequest;
+@class NSURL;
 
 @interface PXURLVideoStabilizationRecipeSource : PXVideoStabilizationRecipeSource
 {
     NSURL *_inputVideoURL;
-    PIVideoStabilizeRequest *_stabilizeRequest;
 }
 
 - (id);

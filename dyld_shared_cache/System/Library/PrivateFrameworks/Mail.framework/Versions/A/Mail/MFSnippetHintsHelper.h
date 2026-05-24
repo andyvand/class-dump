@@ -9,8 +9,8 @@
 }
 
 + (CDUnknownBlockType);
-+ (id);
-+ (id)g;
++ (id)T;
++ (id)Sg;
 
 @end
 

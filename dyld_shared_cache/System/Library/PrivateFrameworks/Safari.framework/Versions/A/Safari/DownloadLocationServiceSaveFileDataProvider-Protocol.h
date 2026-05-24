@@ -5,5 +5,6 @@
 //
 
 @protocol DownloadLocationServiceSaveFileDataProvider
+- (void);
 @end
 

@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(nonatomic) _Bool hasAudioRoute;
 @end
 

@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol UIInteraction
-- (UIView *)tentViewControllerContainerViewConstraints;
+- (UIView *)_applyContentViewControllerContainerViewConstraints;
 - (void);
 - (void)0, or UITableViewAutomaticDimension.;
 

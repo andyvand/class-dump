@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsletterManagementRouteModelFactory
 {
     id newsletterManager;
-    id configurationManager;
-    id featureAvailability;
 }
 
 @end

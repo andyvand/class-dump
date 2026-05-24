@@ -9,37 +9,20 @@
 @interface Cube
 {
     MRImage *_sourceImage;
-    MRImage *_destinationImage;
-    float _textureCoords[8][2];
-    float _sourceTriangleTextures[36][2];
-    float _destinationTriangleTextures[36][2];
-    long long _xIndex;
-    long long _yIndex;
-    long long _matrixWidth;
-    long long _matrixHeight;
-    double _localAspectRatio;
-    _Bool _animateCube;
-    _Bool _cubeReadyForAnimation;
-    int _flipDirection;
-    float _rps[3];
-    float _position[3];
-    float _rotation[3];
-    float _scale[3];
 }
 
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 
 // Remaining properties
-@property(retain, nonatomic) MRImage *destinationImage; // @synthesize destinationImage=_destinationImage;
 @property(retain, nonatomic) MRImage *sourceImage; // @synthesize sourceImage=_sourceImage;
 
 @end

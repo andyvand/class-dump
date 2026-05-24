@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)eCollection;
+- (id)removeOldExtensionStateForExtension: /* Error: Ran out of types for this method. */;
+- (id)PGGraphEdgeCollection;
 
 @end
 

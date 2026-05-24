@@ -11,10 +11,9 @@
 - (NAFuture *)0@ù
 × ;
 - (id <HMBLocalZoneID>)tificationCenter: /* Error: Ran out of types for this method. */;
-- (NAFuture *)SizeKBMaxUsingCA;
+- (NAFuture *)sparseEncodedDataSizeKBMaxUsingCA;
 
 // Remaining properties
-@property(readonly, nonatomic) NAFuture *startUp;
 @property(readonly, nonatomic) id <HMBLocalZoneID> zoneID;
 @end
 

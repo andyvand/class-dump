@@ -6,7 +6,7 @@
 
 #import <VoiceShortcutClient/WFDialogResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WFChooseFromListDialogResponse : WFDialogResponse
 {
@@ -14,25 +14,18 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)__DATA_CONST;
+- (id);
+- (id){;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)h;
+- (void)"24@?<v@?@"NSError">32;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *selectedItems; // @synthesize selectedItems=_selectedItems;
-@property(readonly) Class superclass;
 
 @end
 

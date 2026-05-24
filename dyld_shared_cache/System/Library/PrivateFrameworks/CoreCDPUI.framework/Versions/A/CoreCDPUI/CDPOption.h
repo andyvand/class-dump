@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSButton, NSLayoutConstraint, NSProgressIndicator, NSTextField, NSWindow;
+@class NSTextField;
 
 @interface CDPOption
 {
     _Bool _makeSheetCritical;
-    NSTextField *_instructionLabel;
-    NSTextField *_instructionMessageLabel;
-    NSProgressIndicator *_progressIndicator;
-    NSButton *_nextButton;
-    NSLayoutConstraint *_widthOfPinViewConstraint;
-    CDUnknownBlockType _nextButtonAction;
-    NSWindow *_hostWindow;
-    CDPContext *_cdpContext;
-    unsigned long long _setupMutlipleiCSCsOrNot;
 }
 
 - (unsigned long long);
@@ -29,16 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)U;
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -49,16 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 @property(retain) NSTextField *instructionLabel; // @synthesize instructionLabel=_instructionLabel;
-@property(retain) NSTextField *instructionMessageLabel; // @synthesize instructionMessageLabel=_instructionMessageLabel;
-@property _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
-@property(retain) NSButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(copy) CDUnknownBlockType nextButtonAction; // @synthesize nextButtonAction=_nextButtonAction;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property unsigned long long setupMutlipleiCSCsOrNot; // @synthesize setupMutlipleiCSCsOrNot=_setupMutlipleiCSCsOrNot;
-@property(retain) NSLayoutConstraint *widthOfPinViewConstraint; // @synthesize widthOfPinViewConstraint=_widthOfPinViewConstraint;
 
 @end
 

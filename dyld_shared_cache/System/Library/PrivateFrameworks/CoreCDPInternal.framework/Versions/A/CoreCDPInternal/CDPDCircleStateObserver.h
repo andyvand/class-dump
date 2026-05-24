@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CDPDCircleStateObserver
 {
     int _circleChangeToken;
-    _Bool _isObserving;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSMutableArray *_circleObservers;
 }
 
 - (void);
 - (void);
+- (void)setMValueBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)formAnalyzer;
 - (id);
 - (void);
 - (void);
@@ -28,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

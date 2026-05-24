@@ -9,26 +9,22 @@
 @interface _SFEnhancedContextualString
 {
     _Bool _isLoggable;
-    NSString *_context;
-    NSString *_tagName;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_referenceNode;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, nonatomic) _Bool isLoggable; // @synthesize isLoggable=_isLoggable;
-@property(readonly, copy, nonatomic) NSString *tagName; // @synthesize tagName=_tagName;
 
 @end
 

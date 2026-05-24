@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSData;
 
 @interface HMPBMatterCommandAction
 {
     NSData *_actionUUID;
-    NSMutableArray *_commands;
-    _Bool _enforceExecutionOrder;
-    struct {
-        unsigned int enforceExecutionOrder:1;
-    } _has;
 }
 
 + (Class);
@@ -23,18 +18,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)(7F'
+;
+- (id).(7*F
+;
+- (void)
+;
+- (void)
+;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)industrialize;
 - (void);
 - (id);
 - (id);
@@ -42,11 +41,7 @@
 - (void)È;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *actionUUID; // @synthesize actionUUID=_actionUUID;
-@property(retain, nonatomic) NSMutableArray *commands; // @synthesize commands=_commands;
-@property(nonatomic) _Bool enforceExecutionOrder; // @synthesize enforceExecutionOrder=_enforceExecutionOrder;
 @property(readonly, nonatomic) _Bool hasActionUUID;
-@property(nonatomic) _Bool hasEnforceExecutionOrder;
 
 @end
 

@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutAuxillaryKey
 {
     _Bool _isSupplementary;
-    NSString *_elementKind;
-    long long _index;
-    long long _auxillaryKind;
 }
 
-- (id);
+- (id)isExpectedChatIDForItem:(id)arg1 chatID:(long long)arg2;
 - (id);
 - (unsigned long long);
 - (_Bool)að!¤DùñZð1Â0@ù
 × ;
-- (_Bool)parator:(id)arg1;
+- (_Bool)setShowsSeparator:(id)arg1;
 - (long long)V_submenuTitleSeparatorHeight;
-- (id)ation:(struct _NSZone *)arg1;
+- (id)shortcutWithBaseKeyCombination:(struct _NSZone *)arg1;
 - (long long)vityManager _saveSceneRestorationState];
 - (id)titasking(force);
 - (void)ü];
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxillaryKind; // @synthesize auxillaryKind=_auxillaryKind;
 @property(readonly, nonatomic) NSString *elementKind; // @synthesize elementKind=_elementKind;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isSupplementary; // @synthesize isSupplementary=_isSupplementary;
 
 @end
 

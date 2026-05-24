@@ -8,9 +8,6 @@
 {
     id modelContext;
     id error;
-    id container;
-    id url;
-    id readOnly;
 }
 
 @end

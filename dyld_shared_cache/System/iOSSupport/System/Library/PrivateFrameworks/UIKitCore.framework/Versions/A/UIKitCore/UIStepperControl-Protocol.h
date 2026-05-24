@@ -5,5 +5,6 @@
 //
 
 @protocol UIStepperControl
+- (void);
 @end
 

@@ -7,26 +7,23 @@
 @interface MPSNDArrayRandomStateDescriptor
 {
     unsigned int _algorithm;
-    unsigned int *_state;
 }
 
 + (_Bool);
 - (unsigned long long);
+- (id)Qx;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)!;
 - (unsigned int);
 - (id);
-- (unsigned int *);
+- (unsigned int *)syndicatedContentServerDate;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) unsigned int *state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long stateLength;
 
 @end
 

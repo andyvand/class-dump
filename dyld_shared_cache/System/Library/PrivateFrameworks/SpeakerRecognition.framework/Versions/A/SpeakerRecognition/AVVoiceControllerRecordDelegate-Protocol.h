@@ -4,6 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVVoiceController;
+
 @protocol AVVoiceControllerRecordDelegate
+
+@optional
+- (void)setRealPathURL:(_Bool)arg1;
+- (void)e;
+- (void)setProcessName:(AVVoiceController *)arg1;
+- (void)T@"NSArray",&,N,V_requestedFields;
+- (void)setParserError:(AVVoiceController *)arg1;
+- (void)setOperationId:(AVVoiceController *)arg1;
+- (void)setOneTimeUrls:(AVVoiceController *)arg1;
+- (void)setNewestFirst:(AVVoiceController *)arg1;
+- (void)Ds;
+- (void)rray",&,N,V_moveChanges;
+- (void)y",&,N,V_lookupInfos;
+- (void),&,N,V_generatedRequestOperations;
+- (void)@"NSArray",&,N,V_deviceCapabilityStringSet;
+- (void)setLastSection:(AVVoiceController *)arg1;
+- (void)Array",&,N,V_containerPrivacySettings;
+- (void)",&,N,V_assetsToUpload;
+- (void)ToDownload;
+- (void)ts;
 @end
 

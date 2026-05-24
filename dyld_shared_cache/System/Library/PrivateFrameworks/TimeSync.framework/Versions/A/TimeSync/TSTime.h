@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TSGPSTime, TSgPTPTime;
-
 @interface TSTime
 {
     _Bool _initedWithgPTP;
-    unsigned long long _grandmasterIdentity;
-    unsigned short _localPortNumber;
-    _Bool _timeTraceable;
-    _Bool _frequencyTraceable;
-    unsigned long long _nanosecondsSinceEpoch;
 }
 
 + (id);
@@ -25,22 +18,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) TSgPTPTime *gPTPTime; // @dynamic gPTPTime;
-@property(readonly, copy, nonatomic) TSGPSTime *gpsTime; // @dynamic gpsTime;
 @property(readonly, nonatomic) unsigned long long nanosecondsSinceEpoch; // @synthesize nanosecondsSinceEpoch=_nanosecondsSinceEpoch;
-@property(readonly, copy, nonatomic) NSDate *taiDate; // @dynamic taiDate;
-@property(readonly, copy, nonatomic) NSDate *utcDate; // @dynamic utcDate;
 
 @end
 

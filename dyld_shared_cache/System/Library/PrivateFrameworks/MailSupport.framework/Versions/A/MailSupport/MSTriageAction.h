@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EMMessageRepository, EMQuery, MSMessageListItemSelection, NSString;
-@protocol MSTriageActionDelegate;
-
 @interface MSTriageAction
 {
     long long _origin;
-    long long _actor;
-    EMQuery *_query;
-    id <MSTriageActionDelegate> _delegate;
-    MSMessageListItemSelection *_messageListItemSelection;
 }
 
-+ (void);
++ (void)@;
 + (id);
 + (id);
 - (void);
@@ -26,33 +19,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (void);
-- (long long);
-- (void);
+- (long long)(;
+- (void)i;
 - (id);
 - (id);
-- (long long);
+- (long long)HMIStoreFaceprintsOperation;
 - (void);
-- (void);
+- (void)g"8@"NSArray"16;
 
 // Remaining properties
-@property(nonatomic) long long actor; // @synthesize actor=_actor;
-@property(readonly, nonatomic) EFFuture *changeActionFuture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <MSTriageActionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUndoSupported;
-@property(readonly, nonatomic) MSMessageListItemSelection *messageListItemSelection; // @synthesize messageListItemSelection=_messageListItemSelection;
-@property(readonly, nonatomic) EMMessageRepository *messageRepository;
 @property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly) Class superclass;
 
 @end
 

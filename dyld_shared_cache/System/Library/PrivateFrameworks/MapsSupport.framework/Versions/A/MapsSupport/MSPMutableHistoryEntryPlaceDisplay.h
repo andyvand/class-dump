@@ -6,7 +6,6 @@
 
 #import <MapsSupport/MSPMutableHistoryEntry.h>
 
-@class NSDate, NSString, NSUUID;
 @protocol GEOMapItem;
 
 @interface MSPMutableHistoryEntryPlaceDisplay : MSPMutableHistoryEntry
@@ -17,26 +16,16 @@
 + (Class);
 + (id);
 + (Class);
-- (id);
+- (id)l;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <GEOMapItem> geoMapItem;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSUUID *supersededSearchStorageIdentifier;
-@property(readonly, nonatomic) _Bool tracksRAPReportingOnly;
-@property(readonly, copy, nonatomic) NSDate *usageDate;
 
 @end
 

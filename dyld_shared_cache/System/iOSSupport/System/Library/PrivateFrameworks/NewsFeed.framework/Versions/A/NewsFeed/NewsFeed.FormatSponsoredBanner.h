@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatSponsoredBanner
 {
     id identifier;
-    id adIdentifier;
 }
 
 - (id);

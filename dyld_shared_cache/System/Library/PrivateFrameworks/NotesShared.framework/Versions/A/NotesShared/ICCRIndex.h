@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ICCRIndex
 {
@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (id);
++ (id)__objc_methname;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)merged-1.sucatalog;
+- (id));
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,8 +26,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)r;
+- (void)Lj4fX/Sources/NotesFramework/Ironcade/SharedUI/Utilities/ICLongRunningTaskController.m;
 - (void);
 - (void);
 - (long long);
@@ -36,14 +36,7 @@
 - (unsigned long long)l for a CloudKit account;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly) Class superclass;
 
 @end
 

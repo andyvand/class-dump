@@ -7,6 +7,7 @@
 @protocol FCLocalAreasProvider;
 
 @protocol FCLocalAreasManager
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCLocalAreasProvider> cachedLocalAreasProvider;

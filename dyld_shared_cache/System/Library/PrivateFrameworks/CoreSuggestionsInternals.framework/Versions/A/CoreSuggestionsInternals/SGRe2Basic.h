@@ -11,16 +11,14 @@
 @interface SGRe2Basic : SGRe2
 {
     NSData *_patternData;
-    void *_pattern;
-    _Bool _isTrivial;
 }
 
+- (id)at.dylib;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (int);
+- (int)ITUCountryCode;
 - (id);
 - (void);
 - (id);

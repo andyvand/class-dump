@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIBoxOccurrenceContentView, CalUILabel, NSClickGestureRecognizer, NSImageView, NSStackView, NSString;
+@class CalUIBoxOccurrenceContentView, CalUILabel;
 
 @interface ReminderContentView
 {
     CalUILabel *_titleField;
-    NSImageView *_titleImage;
-    NSImageView *_repeatImage;
-    NSStackView *_titleStack;
-    NSClickGestureRecognizer *_titleImageClickRecognizer;
-    _Bool _shouldShowRepeat;
-    CalUIBoxOccurrenceContentView *_parentView;
 }
 
 - (void);
@@ -29,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak CalUIBoxOccurrenceContentView *parentView; // @synthesize parentView=_parentView;
-@property(readonly) Class superclass;
 
 @end
 

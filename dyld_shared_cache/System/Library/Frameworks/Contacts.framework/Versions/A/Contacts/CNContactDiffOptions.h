@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CNContactDiffOptions
 {
     _Bool _ignoreUnavailableKeys;
-    NSArray *_ignoredKeys;
 }
 
 - (void);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool ignoreUnavailableKeys; // @synthesize ignoreUnavailableKeys=_ignoreUnavailableKeys;
-@property(retain, nonatomic) NSArray *ignoredKeys; // @synthesize ignoredKeys=_ignoredKeys;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AXVSpeechMenuButton
 {
     NSColor *__enterColor;
-    NSColor *__exitColor;
 }
 
 + (id);
@@ -21,12 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)-Ob4Ie7Mo7sBgpqDcdKx0/Library/Caches/com.apple.xbs/TemporaryDirectory.p935c6/Sources/dcerpc/dcerpc/ncklib/gssauth.c;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSColor *_enterColor; // @synthesize _enterColor=__enterColor;
-@property(copy, nonatomic) NSColor *_exitColor; // @synthesize _exitColor=__exitColor;
 
 @end
 

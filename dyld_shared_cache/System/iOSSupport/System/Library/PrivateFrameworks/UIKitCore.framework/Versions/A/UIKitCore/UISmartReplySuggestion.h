@@ -13,8 +13,8 @@
     NSString *_smartReply;
 }
 
-- (id);
-- (id);
+- (id)RecordsKVStore;
+- (id)public}s guidsCount:(id)arg1 %{public}ld guids:%s options:%ld /* Error: Ran out of types for this method. */;
 - (void)¨#c;
 
 // Remaining properties

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4BinaryFunctionReflection, MTLDebugInstrumentationData, NSArray;
+@class MTLDebugInstrumentationData;
 
 @protocol MTL4BinaryFunctionSPI
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly) MTL4BinaryFunctionReflection *reflection;
-@property(copy, nonatomic) NSArray *relocations;
 @end
 

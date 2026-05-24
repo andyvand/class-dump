@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface QLURLHandler
 {
     const char *_sandboxType;
-    _Bool _isAccessingSecurityScope;
-    _Bool _needsAccessToExternalResources;
-    NSString *_fileExtensionToken;
-    long long _fileExtensionHandle;
-    NSString *_physicalFileExtensionToken;
-    long long _physicalFileExtensionHandle;
-    NSString *_externalResourcesToken;
-    long long _externalResourcesHandle;
-    NSURL *_fileURL;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -34,7 +25,7 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (id);
@@ -51,14 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long externalResourcesHandle; // @synthesize externalResourcesHandle=_externalResourcesHandle;
-@property(copy, nonatomic) NSString *externalResourcesToken; // @synthesize externalResourcesToken=_externalResourcesToken;
-@property(nonatomic) long long fileExtensionHandle; // @synthesize fileExtensionHandle=_fileExtensionHandle;
 @property(retain, nonatomic) NSString *fileExtensionToken; // @synthesize fileExtensionToken=_fileExtensionToken;
-@property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) _Bool needsAccessToExternalResources; // @synthesize needsAccessToExternalResources=_needsAccessToExternalResources;
-@property(nonatomic) long long physicalFileExtensionHandle; // @synthesize physicalFileExtensionHandle=_physicalFileExtensionHandle;
-@property(retain, nonatomic) NSString *physicalFileExtensionToken; // @synthesize physicalFileExtensionToken=_physicalFileExtensionToken;
 
 @end
 

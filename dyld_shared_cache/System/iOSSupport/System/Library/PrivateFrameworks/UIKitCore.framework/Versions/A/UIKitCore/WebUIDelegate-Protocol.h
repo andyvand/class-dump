@@ -5,5 +5,11 @@
 //
 
 @protocol WebUIDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (_Bool)";
+- (void)R;
 @end
 

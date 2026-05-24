@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, UIScrollView;
+@class NSHashTable;
 
 @interface SXViewport
 {
     _Bool _groupChanges;
-    unsigned long long _appearState;
-    long long _interfaceOrientation;
-    NSHashTable *_dynamicBoundsListeners;
-    NSHashTable *_boundsListeners;
-    NSHashTable *_appearStateListeners;
-    NSHashTable *_documentSizeListeners;
-    NSHashTable *_contentFrameListeners;
-    NSHashTable *_interfaceOrientationListeners;
-    SXViewport *_viewportBeforeUpdates;
-    UIScrollView *_view;
-    struct CGSize _documentSize;
-    struct CGRect _bounds;
-    struct CGRect _dynamicBounds;
-    struct CGRect _contentFrame;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -37,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
@@ -63,7 +49,7 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)_;
 - (void);
 - (struct CGRect);
 - (void);
@@ -75,28 +61,13 @@
 - (struct CGRect);
 - (void)ÁÝÐ!|Gùñîð1Â0@ù
 × ;
-- (struct CGPoint)lattenedBlueprint;
-- (id)sToConditionsMap;
-- (struct CGRect)cation;
+- (struct CGPoint)flattenedBlueprint;
+- (id)_componentsToConditionsMap;
+- (struct CGRect)SXDefaultMosaicGalleryComponentClassification;
 - (struct CGPoint);
 
 // Remaining properties
-@property(nonatomic) unsigned long long appearState; // @synthesize appearState=_appearState;
-@property(retain, nonatomic) NSHashTable *appearStateListeners; // @synthesize appearStateListeners=_appearStateListeners;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(retain, nonatomic) NSHashTable *boundsListeners; // @synthesize boundsListeners=_boundsListeners;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(retain, nonatomic) NSHashTable *contentFrameListeners; // @synthesize contentFrameListeners=_contentFrameListeners;
-@property(nonatomic) struct CGSize documentSize; // @synthesize documentSize=_documentSize;
-@property(retain, nonatomic) NSHashTable *documentSizeListeners; // @synthesize documentSizeListeners=_documentSizeListeners;
-@property(nonatomic) struct CGRect dynamicBounds; // @synthesize dynamicBounds=_dynamicBounds;
 @property(retain, nonatomic) NSHashTable *dynamicBoundsListeners; // @synthesize dynamicBoundsListeners=_dynamicBoundsListeners;
-@property(nonatomic) _Bool groupChanges; // @synthesize groupChanges=_groupChanges;
-@property(nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(retain, nonatomic) NSHashTable *interfaceOrientationListeners; // @synthesize interfaceOrientationListeners=_interfaceOrientationListeners;
-@property(readonly, nonatomic) _Bool isPopulated;
-@property(readonly, nonatomic) __weak UIScrollView *view; // @synthesize view=_view;
-@property(retain, nonatomic) SXViewport *viewportBeforeUpdates; // @synthesize viewportBeforeUpdates=_viewportBeforeUpdates;
 
 @end
 

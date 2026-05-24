@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSSiriIntelligenceDonorTabData;
+@class NSString;
 
 @protocol WBSSiriIntelligenceDonorTabDataProviding
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appEntityUUIDString;
-@property(readonly, nonatomic) WBSSiriIntelligenceDonorTabData *tabDataForSpotlightDonation;
 @end
 

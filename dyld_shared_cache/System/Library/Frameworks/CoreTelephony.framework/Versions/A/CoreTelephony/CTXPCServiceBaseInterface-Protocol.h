@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceBaseInterface
+- (void);
 @end
 

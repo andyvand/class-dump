@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)s;
 - (oneway void);
 - (unsigned long long);
 - (id);
+- (_Bool)from daemon;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)H;
+- (_Bool);
 
 @end
 

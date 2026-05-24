@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSBrowserTabCompletionProvider;
-
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldCompletionListGeneratorObjCAdapter
 {
     void *_completionListGenerator;
-    WBSBrowserTabCompletionProvider *_tabCompletionProvider;
 }
 
 - (id);
@@ -23,25 +20,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (id)T;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)criticalMessagingAppName;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) void *completionListGenerator; // @synthesize completionListGenerator=_completionListGenerator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBSBrowserTabCompletionProvider *tabCompletionProvider; // @synthesize tabCompletionProvider=_tabCompletionProvider;
 
 @end
 

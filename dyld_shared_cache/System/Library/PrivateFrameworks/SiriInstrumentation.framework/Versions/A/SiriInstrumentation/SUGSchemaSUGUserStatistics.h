@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGAggregateCounts;
+@class SUGSchemaSUGAggregateCounts;
 
 @interface SUGSchemaSUGUserStatistics : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGAggregateCounts *_totalSiriRequests;
-    SUGSchemaSUGAggregateCounts *_totalPreviousSuggestionsShown;
-    SUGSchemaSUGAggregateCounts *_totalSiriHelpRequests;
-    SUGSchemaSUGAggregateCounts *_totalUniqueSiriEventTypes;
-    _Bool _isTwoByThreeUser;
-    struct {
-        unsigned int isTwoByThreeUser:1;
-    } _has;
-    _Bool _hasTotalSiriRequests;
-    _Bool _hasTotalPreviousSuggestionsShown;
-    _Bool _hasTotalSiriHelpRequests;
-    _Bool _hasTotalUniqueSiriEventTypes;
 }
 
 - (id);
@@ -33,12 +22,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)*;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)p);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,27 +41,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ontext"16;
+- (_Bool)_abMap:(id)arg1;
+- (_Bool)date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE associated_message_guid = ? ORDER BY message.ROWID ASC;;
 - (id);
-- (id);
-- (id)rnExecuted;
-- (id)tionRequestOutcome;
-- (void)ITY_STATIONARY;
+- (id);
+- (id)deletePatternExecuted;
+- (id)_homeAutomationRequestOutcome;
+- (void)ORCHMOTIONACTIVITY_STATIONARY;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsTwoByThreeUser;
-@property(nonatomic) _Bool hasTotalPreviousSuggestionsShown; // @synthesize hasTotalPreviousSuggestionsShown=_hasTotalPreviousSuggestionsShown;
-@property(nonatomic) _Bool hasTotalSiriHelpRequests; // @synthesize hasTotalSiriHelpRequests=_hasTotalSiriHelpRequests;
-@property(nonatomic) _Bool hasTotalSiriRequests; // @synthesize hasTotalSiriRequests=_hasTotalSiriRequests;
-@property(nonatomic) _Bool hasTotalUniqueSiriEventTypes; // @synthesize hasTotalUniqueSiriEventTypes=_hasTotalUniqueSiriEventTypes;
-@property(nonatomic) _Bool isTwoByThreeUser; // @synthesize isTwoByThreeUser=_isTwoByThreeUser;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SUGSchemaSUGAggregateCounts *totalPreviousSuggestionsShown; // @synthesize totalPreviousSuggestionsShown=_totalPreviousSuggestionsShown;
-@property(retain, nonatomic) SUGSchemaSUGAggregateCounts *totalSiriHelpRequests; // @synthesize totalSiriHelpRequests=_totalSiriHelpRequests;
 @property(retain, nonatomic) SUGSchemaSUGAggregateCounts *totalSiriRequests; // @synthesize totalSiriRequests=_totalSiriRequests;
-@property(retain, nonatomic) SUGSchemaSUGAggregateCounts *totalUniqueSiriEventTypes; // @synthesize totalUniqueSiriEventTypes=_totalUniqueSiriEventTypes;
 
 @end
 

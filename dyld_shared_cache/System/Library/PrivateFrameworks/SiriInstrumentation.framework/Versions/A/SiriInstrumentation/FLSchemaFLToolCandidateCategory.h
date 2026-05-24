@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLSchemaFLToolCandidateCategory : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)__auth_got;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)tonePickerController:didUpdateDownloadProgressOfTonePickerItem: /* Error: Ran out of types for this method. */;
+- (_Bool)#;
 - (_Bool);
 - (id);
 - (id)b1};
-- (id)p;
+- (id)_isRelationship;
 - (id)wx;
 - (_Bool);
 - (_Bool)Ô­^';
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

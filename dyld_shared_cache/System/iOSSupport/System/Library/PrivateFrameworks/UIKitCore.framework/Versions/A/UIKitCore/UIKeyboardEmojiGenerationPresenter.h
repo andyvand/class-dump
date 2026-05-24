@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)Ì¤ÿ6Ñ°l;
-- (void);
+- (void)initial sync. Let's only fetch the first set of messages ***;
 
 @end
 

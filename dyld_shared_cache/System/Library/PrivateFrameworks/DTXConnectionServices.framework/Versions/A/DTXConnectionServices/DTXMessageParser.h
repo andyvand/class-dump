@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol DTXBlockCompressor, OS_dispatch_queue;
-
 @interface DTXMessageParser
 {
     const char *_parsingBuffer;
-    unsigned long long _parsingBufferUsed;
-    unsigned long long _parsingBufferSize;
-    CDUnknownBlockType _exceptionHandler;
-    CDUnknownBlockType _parsedMessageHandler;
-    _Bool _eof;
-    NSObject<OS_dispatch_queue> *_parsingQueue;
-    NSMutableDictionary *_fragmentedBuffersByIdentifier;
-    id <DTXBlockCompressor> _compressor;
 }
 
 - (void);

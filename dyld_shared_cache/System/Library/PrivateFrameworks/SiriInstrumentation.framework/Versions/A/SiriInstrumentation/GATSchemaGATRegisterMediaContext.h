@@ -6,40 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATRegisterMediaEventEnded, GATSchemaGATRegisterMediaEventFailed, GATSchemaGATRegisterMediaEventStarted, NSData;
+@class GATSchemaGATRegisterMediaEventStarted;
 
 @interface GATSchemaGATRegisterMediaContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATRegisterMediaEventStarted *_startedOrChanged;
-    GATSchemaGATRegisterMediaEventEnded *_ended;
-    GATSchemaGATRegisterMediaEventFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContentevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)troller disableFMMForRemoveDiskVolumes:(id)arg1 hostWindow:usingCallback:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)copySharedResourcesPreferencesDomain;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)Hash"b1"sampledErrorUnderlyingCode"b1"timeSinceLastAppleIntelligenceToggleInSeconds"b1"timeSinceLastSubscriptionHashChangeInSeconds"b1"timeSinceLastBootInSeconds"b1"countPSUSAssets"b1"countRequiredAssets"b1"timeSinceLastSoftwareUpdateInSeconds"b1"timeSinceSampledErrorInSeconds"b1"buddyStatus"b1"invocationsCountWhileNotAvailable"b1"lastMobileAssetDownloadAttemptErrorUnderlyingCode"b1"mode"b1"subscriptionDownloadStatus"b1"timeSinceSubscriptionDownloadStatusCompleteInSeconds"b1"currentMode"b1"invocationsCountWhileAvailable"b1"numberOfMobileAssetAlters"b1"numberOfMobileAssetEliminates"b1"numberOfMobileAssetScans"b1"countFactoryAssetInBytes"b1"countFactoryAssets"b1"sizeInBytesPSUSAssets"b1"countPSUSAssetsMobileAsset"b1"totalBytesDownloaded"b1"totalNumberOfBytesDownloaded"b1};
@@ -48,14 +42,7 @@
 - (void)¬©Äÿ;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATRegisterMediaEventEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATRegisterMediaEventFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATRegisterMediaEventStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContentevent; // @synthesize whichContentevent=_whichContentevent;
 
 @end
 

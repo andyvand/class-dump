@@ -14,12 +14,13 @@
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)dress to %@;
+- (id)_scrubberForUnit: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (void)@    %@ = %@
+;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *transports; // @synthesize transports=_transports;

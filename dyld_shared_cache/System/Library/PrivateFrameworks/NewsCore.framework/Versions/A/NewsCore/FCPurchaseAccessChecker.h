@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void)lts initWithResults:followedByStream:] /* Error: Ran out of types for this method. */;

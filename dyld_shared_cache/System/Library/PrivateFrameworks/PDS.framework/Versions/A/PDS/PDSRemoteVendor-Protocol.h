@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PDSRemoteInternal;
+
 @protocol PDSRemoteVendor
+- (id <PDSRemoteInternal>)Share PCS;
 @end
 

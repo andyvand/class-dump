@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id);
+- (id)K;
 - (void);
 - (_Bool);
 - (_Bool);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NSString;
+@class NSString;
 
 @interface WBSPasswordPatternMatchSolver
 {
     NSString *_password;
-    NSSet *_patternMatches;
-    NSMutableDictionary *_partialSolutions;
 }
 
 - (id);

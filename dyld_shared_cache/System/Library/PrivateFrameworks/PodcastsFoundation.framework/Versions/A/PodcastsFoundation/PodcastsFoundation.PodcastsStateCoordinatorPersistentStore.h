@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PodcastsStateCoordinatorPersistentStore
 {
     id feedURLComposer;
-    id syncKeysRepository;
 }
 
 @end

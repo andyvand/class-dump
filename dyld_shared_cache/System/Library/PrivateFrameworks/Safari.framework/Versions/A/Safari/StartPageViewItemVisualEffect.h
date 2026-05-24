@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString, NSVisualEffectView;
+@class NSVisualEffectView;
 @protocol StartPageBackgroundImageIdentifierProvider;
 
 __attribute__((visibility("hidden")))
 @interface StartPageViewItemVisualEffect
 {
     NSVisualEffectView *_iconEffectView;
-    NSVisualEffectView *_paletteEffectView;
-    NSImageView *_paletteBackground;
-    _Bool _hasBackgroundImage;
-    NSString *_profileIdentifier;
-    id _backgroundImageRequestToken;
-    id <StartPageBackgroundImageIdentifierProvider> _backgroundImageIdentifierProvider;
 }
 
 - (void);
@@ -34,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)sabled for "%@";
 - (void)ÿÿ¶;
 
 // Remaining properties

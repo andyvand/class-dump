@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSMapTable, NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol MSVOPACKDecoderDelegate;
 
 @interface MSVOPACKDecoder
 {
     id <MSVOPACKDecoderDelegate> _delegate;
-    NSMutableArray *_allowedClassesStack;
-    NSArray *_objects;
-    NSMapTable *_objectLookupTable;
-    NSMutableArray *_wrapperStack;
-    NSDictionary *_userInfo;
-    NSError *_decodeError;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)h;
 + (id);
 - (id);
 - (id);
@@ -51,8 +45,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool);
+- (int)7 ;
 - (float);
 - (void);
 - (long long);
@@ -63,19 +57,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *allowedClassesStack; // @synthesize allowedClassesStack=_allowedClassesStack;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSError *decodeError; // @synthesize decodeError=_decodeError;
-@property(nonatomic) __weak id <MSVOPACKDecoderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMapTable *objectLookupTable; // @synthesize objectLookupTable=_objectLookupTable;
-@property(readonly, nonatomic) NSArray *objects; // @synthesize objects=_objects;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) NSMutableArray *wrapperStack; // @synthesize wrapperStack=_wrapperStack;
 
 @end
 

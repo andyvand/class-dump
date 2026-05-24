@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, _MKPlaceActionButtonController;
+@class _MKPlaceActionButtonController;
 
 @interface MKPlaceHeaderButton
 {
     unsigned long long _buttonType;
-    _Bool _primary;
-    NSLayoutConstraint *_heightConstraint;
-    _Bool _buttonHighlighted;
-    _MKPlaceActionButtonController *_buttonController;
 }
 
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -34,17 +30,10 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (void)ographicConfiguration;
+- (void)cartographicConfiguration;
 
 // Remaining properties
 @property(nonatomic) __weak _MKPlaceActionButtonController *buttonController; // @synthesize buttonController=_buttonController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

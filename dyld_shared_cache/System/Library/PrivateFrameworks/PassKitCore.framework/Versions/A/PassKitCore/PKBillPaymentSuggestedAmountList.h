@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSMutableDictionary, NSString, PKBillPaymentSuggestedAmount;
+@class NSArray, NSMutableDictionary;
 
 @interface PKBillPaymentSuggestedAmountList
 {
     NSMutableDictionary *_suggestionsForCategory;
-    NSMutableDictionary *_suggestionsForAmount;
-    NSMutableDictionary *_suggestedAmountGapMessageForAmount;
-    NSArray *_sortedSuggestedAmounts;
-    NSString *_currencyCode;
-    NSDecimalNumber *_minimumAmount;
-    NSDecimalNumber *_remainingStatementAmount;
-    NSDecimalNumber *_maximumAmount;
-    NSDecimalNumber *_smalllestSuggestionAmountBelowRemainingStatementAmount;
-    PKBillPaymentSuggestedAmount *_initialSuggestedAmount;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)@9m;
 - (id);
 - (id);
 - (id);
@@ -32,8 +23,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)I;
+- (id)(�M9;
 - (id);
 - (id);
 - (id);
@@ -46,33 +37,27 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)qA;
 - (void);
 - (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)de: /* Error: Ran out of types for this method. */;
-- (void)issed;
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)setHasDynamicSecurityCode: /* Error: Ran out of types for this method. */;
+- (void)PeerPaymentFamilySharingDismissed;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) PKBillPaymentSuggestedAmount *initialSuggestedAmount; // @synthesize initialSuggestedAmount=_initialSuggestedAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *maximumAmount; // @synthesize maximumAmount=_maximumAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *minimumAmount; // @synthesize minimumAmount=_minimumAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *remainingStatementAmount; // @synthesize remainingStatementAmount=_remainingStatementAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *smalllestSuggestionAmountBelowRemainingStatementAmount; // @synthesize smalllestSuggestionAmountBelowRemainingStatementAmount=_smalllestSuggestionAmountBelowRemainingStatementAmount;
 @property(readonly, copy, nonatomic) NSArray *sortedSuggestedAmounts; // @synthesize sortedSuggestedAmounts=_sortedSuggestedAmounts;
 
 @end

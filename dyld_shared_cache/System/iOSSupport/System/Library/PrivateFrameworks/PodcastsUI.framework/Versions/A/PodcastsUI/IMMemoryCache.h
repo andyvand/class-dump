@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface IMMemoryCache
 {
     _Bool _evictsItemsWithDiscardedContent;
-    NSString *_name;
-    id _delegate;
-    unsigned long long _totalCostLimit;
-    unsigned long long _countLimit;
-    NSMutableArray *_itemsArray;
-    NSMutableDictionary *_items;
-    unsigned long long _totalCost;
-    unsigned long long _count;
-    NSOperationQueue *_queue;
-    double _lastCheckTime;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (double);
+- (long long)90;
+- (double);
 - (id);
 - (unsigned long long);
 - (void);
@@ -49,9 +37,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (id)delegate;
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -68,18 +56,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) unsigned long long countLimit; // @synthesize countLimit=_countLimit;
-@property(nonatomic) id delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool evictsItemsWithDiscardedContent; // @synthesize evictsItemsWithDiscardedContent=_evictsItemsWithDiscardedContent;
-@property(retain, nonatomic) NSMutableDictionary *items; // @synthesize items=_items;
 @property(retain, nonatomic) NSMutableArray *itemsArray; // @synthesize itemsArray=_itemsArray;
-@property(nonatomic) double lastCheckTime; // @synthesize lastCheckTime=_lastCheckTime;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long totalCost; // @synthesize totalCost=_totalCost;
-@property(nonatomic) unsigned long long totalCostLimit; // @synthesize totalCostLimit=_totalCostLimit;
 
 @end
 

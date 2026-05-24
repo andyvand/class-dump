@@ -9,16 +9,6 @@
 @interface BRCTermDumper : BRCDumper
 {
     struct __sFILE *_file;
-    _Bool _fileNeedsClosing;
-    unsigned long long _termWidth;
-    unsigned long long _usedTermWidth;
-    int _curAttrs;
-    int _curFg;
-    int _curBg;
-    _Bool _darkMode;
-    _Bool _isatty;
-    _Bool _useColor;
-    _Bool _supportsEscapeSequences;
 }
 
 + (void);
@@ -35,8 +25,8 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)9_;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -44,9 +34,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)T@qa;
 - (void);
 - (void);
 - (int);
@@ -62,8 +52,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isatty; // @synthesize isatty=_isatty;
-@property(readonly, nonatomic) _Bool supportsEscapeSequences; // @synthesize supportsEscapeSequences=_supportsEscapeSequences;
-@property(readonly, nonatomic) _Bool useColor; // @synthesize useColor=_useColor;
 
 @end
 

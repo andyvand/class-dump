@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUIProfileViewCacheController, AOSUIProfileViewRootViewController, NSRemoteViewController, NSString, NSViewController;
+@class NSRemoteViewController;
 
 @interface AOSUIProfileViewUtility
 {
     CDUnknownBlockType _updateOverlayPrefPaneBlock;
-    NSRemoteViewController *_remoteViewController;
-    NSViewController *_cacheViewController;
-    AOSUIProfileViewRootViewController *_rootViewController;
-    AOSUIProfileViewCacheController *_cacheController;
 }
 
-+ (id);
++ (id)3;
 + (void);
 - (CDUnknownBlockType);
 - (void);
@@ -26,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@ ae;
 - (void);
 - (id);
 - (id);
@@ -39,19 +35,7 @@
 × ;
 
 // Remaining properties
-@property(retain) AOSUIProfileViewCacheController *cacheController; // @synthesize cacheController=_cacheController;
-@property(retain) NSViewController *cacheViewController; // @synthesize cacheViewController=_cacheViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain) AOSUIProfileViewRootViewController *rootViewController; // @synthesize rootViewController=_rootViewController;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType updateOverlayPrefPaneBlock; // @synthesize updateOverlayPrefPaneBlock=_updateOverlayPrefPaneBlock;
-@property(readonly) NSViewController *viewController; // @dynamic viewController;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface WBSExtensionTelemetryData
 {
     _Bool _enabled;
-    _Bool _allWebsitesPermissionLevel;
-    _Bool _canOverrideNewTabPage;
-    NSString *_identifier;
-    long long _manifestVersion;
-    unsigned long long _websitesGrantedAccessCount;
-    unsigned long long _websitesDeniedAccessCount;
 }
 
 - (unsigned long long);
@@ -30,18 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)ÑX1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allWebsitesPermissionLevel; // @synthesize allWebsitesPermissionLevel=_allWebsitesPermissionLevel;
-@property(nonatomic) _Bool canOverrideNewTabPage; // @synthesize canOverrideNewTabPage=_canOverrideNewTabPage;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long manifestVersion; // @synthesize manifestVersion=_manifestVersion;
-@property(nonatomic) unsigned long long websitesDeniedAccessCount; // @synthesize websitesDeniedAccessCount=_websitesDeniedAccessCount;
-@property(nonatomic) unsigned long long websitesGrantedAccessCount; // @synthesize websitesGrantedAccessCount=_websitesGrantedAccessCount;
 
 @end
 

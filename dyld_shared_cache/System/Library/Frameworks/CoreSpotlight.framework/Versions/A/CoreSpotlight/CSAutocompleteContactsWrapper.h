@@ -9,7 +9,7 @@
 }
 
 + (Class);
-+ (Class);
++ (Class)*;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface IDSQRProtoH3EndToEndChannelRegisterAckRequest
 {
     NSData *_e2eChannelUuid;
-    _Bool _accept;
 }
 
 - (void);
@@ -17,18 +16,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)9;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)usesRFCOMMChannelID:(id)arg1;
+- (void)vert RTI payload to legacy API?;
+- (id)M;
 - (id);
 - (void)aySessionID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool accept; // @synthesize accept=_accept;
 @property(retain, nonatomic) NSData *e2eChannelUuid; // @synthesize e2eChannelUuid=_e2eChannelUuid;
 
 @end

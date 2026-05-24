@@ -11,32 +11,22 @@
 @interface AMSUIBundleViewController : AMSUIDynamicViewController
 {
     ACAccount *account;
-    NSString *_placement;
-    NSString *_serviceType;
 }
 
 + (id);
-+ (id)ductLockup;
++ (id)productLockup;
 + (id)Ú=Qo__Qo_ô=G_ACy²#=yüÓ=yÆ(=ANGGAJGACyACyALyACyæ"=Ñ=y{"=GGGAJGì=GtGG;
 - (id);
 - (id);
-- (id);
+- (id)frameLength;
 - (void);
 - (void);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setNavigationBar: /* Error: Ran out of types for this method. */;
 - (void)÷Ãÿÿ;
-- (id)UserDefaultsC;
+- (id)So14NSUserDefaultsC;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *placement; // @synthesize placement=_placement;
-@property(retain) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPEventCache, PPEventStorage, PPTrialWrapper, _PASCoalescingTimer, _PASLock, _PASNotificationToken;
+@class PPEventCache;
 
 @interface PPLocalEventStore
 {
     PPEventCache *_eventCache;
-    PPEventStorage *_storage;
-    _PASNotificationToken *_assetUpdateNotificationToken;
-    PPTrialWrapper *_trialWrapper;
-    _PASLock *_lock;
-    _PASCoalescingTimer *_bufferedChanges;
 }
 
 + (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)_iCloudAccountDidChange:(id)arg1;
+- (id)?;
 - (void);
 - (id);
 - (_Bool);
@@ -33,7 +28,7 @@
 - (id);
 - (id);
 - (void)24@0:8@?16 /* Error: Ran out of types for this method. */;
-- (void)dImplicitly;
+- (void)PPTopicAggScoreInputScalarCLDecayedFeedbackCountsRejectedImplicitly;
 - (void)9ø|;
 
 @end

@@ -7,16 +7,10 @@
 @interface NewsFeed.DebugFormatConsoleViewController
 {
     id editor;
-    id editorNavigationController;
-    id editorViewController;
-    id consoleContainerController;
-    id consoleHeight;
-    id consolePanSession;
-    id $__lazy_storage_$_panGestureRecognizer;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (id);
 - (void);

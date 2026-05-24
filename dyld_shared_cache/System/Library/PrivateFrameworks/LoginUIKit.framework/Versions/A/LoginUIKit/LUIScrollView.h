@@ -9,23 +9,20 @@
 @interface LUIScrollView
 {
     NSImageView *_leftShadowImageView;
-    NSImageView *_rightShadowImageView;
-    _Bool _leftShadowVisible;
-    _Bool _rightShadowVisible;
 }
 
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)9@y;
+- (_Bool)k;
+- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void)RA;
+- (void);
+- (void);
+- (_Bool)9;
 - (id);
 - (id);
 - (void);
@@ -34,7 +31,6 @@
 
 // Remaining properties
 @property _Bool drawsLeftVerticalShadow;
-@property _Bool drawsRightVerticalShadow;
 
 @end
 

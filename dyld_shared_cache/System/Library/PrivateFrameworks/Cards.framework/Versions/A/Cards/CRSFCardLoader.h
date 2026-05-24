@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (void);
+- (void)DGRedEyeOperation;
 - (id);
 - (void);
 

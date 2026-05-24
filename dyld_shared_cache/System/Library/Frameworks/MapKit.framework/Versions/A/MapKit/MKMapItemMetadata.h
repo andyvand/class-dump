@@ -9,7 +9,6 @@
 @interface MKMapItemMetadata
 {
     GEOBusiness *_business;
-    NSMutableDictionary *_imageCache;
 }
 
 - (id);
@@ -19,10 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void)izedHoursStringOptions: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:localizedHoursStringOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOBusiness *business; // @synthesize business=_business;
 @property(retain, nonatomic) NSMutableDictionary *imageCache; // @synthesize imageCache=_imageCache;
 
 @end

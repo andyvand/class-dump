@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBHomeEntity;
+@class _INPBHomeEntity;
 
 @interface _INPBHomeEntityResponse
 {
     struct _has;
-    _INPBHomeEntity *_entity;
-    NSArray *_taskResponses;
 }
 
 + (Class);
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -27,7 +25,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)c}s (%{public}s:(id)arg1 %u) No delegate present;
 - (id);
 - (id);
 - (void)¾(1Â0@ù
@@ -36,17 +34,7 @@
 - (void)e:userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBHomeEntity *entity; // @synthesize entity=_entity;
-@property(readonly, nonatomic) _Bool hasEntity;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *taskResponses; // @synthesize taskResponses=_taskResponses;
-@property(readonly, nonatomic) unsigned long long taskResponsesCount;
 
 @end
 

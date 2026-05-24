@@ -6,19 +6,17 @@
 
 #import <SocialUI/DOMProvider.h>
 
-@class DOMDocument, NSMutableSet;
+@class DOMDocument;
 
 @interface FileTransferDOMProvider : DOMProvider
 {
     _Bool _altFunction;
-    _Bool _singleOptionPressed;
-    NSMutableSet *_guidsForAllOwnedTransfers;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,22 +29,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)rmats;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak DOMDocument *DOM; // @dynamic DOM;
-@property _Bool altFunction; // @synthesize altFunction=_altFunction;
-@property(retain) NSMutableSet *guidsForAllOwnedTransfers; // @synthesize guidsForAllOwnedTransfers=_guidsForAllOwnedTransfers;
-@property _Bool singleOptionPressed; // @synthesize singleOptionPressed=_singleOptionPressed;
 
 @end
 

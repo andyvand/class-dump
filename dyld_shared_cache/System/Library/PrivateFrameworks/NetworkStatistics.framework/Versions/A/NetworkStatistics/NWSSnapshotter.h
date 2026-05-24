@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NWSSnapshotSource;
-
 @interface NWSSnapshotter
 {
     unsigned long long _kernelSourceRef;
-    NWSSnapshotSource *_snapshotSource;
 }
 
 - (id);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property unsigned long long kernelSourceRef; // @synthesize kernelSourceRef=_kernelSourceRef;
-@property(retain) NWSSnapshotSource *snapshotSource; // @synthesize snapshotSource=_snapshotSource;
 
 @end
 

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBCombinedConfigProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    NSArray *_providers;
 }
 
 + (id);
@@ -33,15 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)splay:%u value:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
 @property(readonly) NSArray *providers; // @synthesize providers=_providers;
-@property(readonly) Class superclass;
 
 @end
 

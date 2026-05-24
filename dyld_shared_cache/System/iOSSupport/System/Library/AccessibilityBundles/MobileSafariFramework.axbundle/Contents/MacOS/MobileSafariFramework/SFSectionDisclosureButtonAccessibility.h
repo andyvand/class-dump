@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)isEqualToString: /* Error: Ran out of types for this method. */;
 + (void);
-- (id);
+- (id)PKPassBannerViewControllerAccessibility;
 
 @end
 

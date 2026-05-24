@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CXCallObserverXPCClient
 {
     _Bool _clientsShouldConnect;
-    int _clientsShouldConnectToken;
-    NSObject<OS_dispatch_queue> *_concurrentQueue;
-    NSMutableDictionary *_mutableCallUUIDToCallMap;
-    NSHashTable *_delegates;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (oneway void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -49,20 +43,7 @@ __attribute__((visibility("hidden")))
 - (oneway void)\A;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *callUUIDToCallMap;
-@property(nonatomic) _Bool clientsShouldConnect; // @synthesize clientsShouldConnect=_clientsShouldConnect;
-@property(nonatomic) int clientsShouldConnectToken; // @synthesize clientsShouldConnectToken=_clientsShouldConnectToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *concurrentQueue; // @synthesize concurrentQueue=_concurrentQueue;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *mutableCallUUIDToCallMap; // @synthesize mutableCallUUIDToCallMap=_mutableCallUUIDToCallMap;
-@property(readonly) Class superclass;
 
 @end
 

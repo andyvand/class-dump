@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, NSArray, NSString, NSUUID, _HMContext;
+@class HMHome;
 
 @interface HMHomeActivityStateSchedule
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_scheduleEntries;
-    unsigned long long _state;
-    HMHome *_home;
-    _HMContext *_context;
-    NSUUID *_uuid;
 }
 
 + (_Bool);
@@ -25,27 +20,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (unsigned long long);
-- (id);
+- (id)		;
 - (void);
 - (id);
 - (id);
 - (void)\3X4Ü4567;
 
 // Remaining properties
-@property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) NSArray *scheduleEntries; // @synthesize scheduleEntries=_scheduleEntries;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

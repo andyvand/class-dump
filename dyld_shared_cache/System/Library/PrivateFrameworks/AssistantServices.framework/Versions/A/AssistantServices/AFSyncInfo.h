@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, SASyncAppMetaData;
+@class NSString;
 
 @interface AFSyncInfo
 {
     _Bool _targetIsLocal;
-    _Bool _forVerification;
-    NSString *_anchor;
-    NSString *_validity;
-    long long _count;
-    NSString *_key;
-    SASyncAppMetaData *_appMetadata;
-    NSSet *_reasons;
 }
 
 + (_Bool);
@@ -26,31 +19,24 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_error;
 - (void);
 - (void);
 - (long long);
 - (void)!TDùn&°1Â0@ù
 × ;
-- (void)tion;
-- (id)nstanceInfoMutation;
+- (void)_configuration;
+- (id)_AFInstanceInfoMutation;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
-@property(copy, nonatomic) SASyncAppMetaData *appMetadata; // @synthesize appMetadata=_appMetadata;
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(nonatomic) _Bool forVerification; // @synthesize forVerification=_forVerification;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSSet *reasons; // @synthesize reasons=_reasons;
-@property(nonatomic) _Bool targetIsLocal; // @synthesize targetIsLocal=_targetIsLocal;
-@property(copy, nonatomic) NSString *validity; // @synthesize validity=_validity;
 
 @end
 

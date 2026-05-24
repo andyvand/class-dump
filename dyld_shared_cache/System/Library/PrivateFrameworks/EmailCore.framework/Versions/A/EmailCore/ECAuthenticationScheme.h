@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ECAuthenticationScheme
 {
 }
@@ -15,20 +13,17 @@
 + (id);
 + (void);
 + (void);
-- (_Bool);
+- (_Bool)rPlay device; posting .DidResolveAirPlayDeviceNetServiceNotification..;
 - (_Bool);
 - (id);
 - (Class);
 - (Class);
 - (id);
-- (id);
+- (id)fx;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasEncryption;
-@property(readonly, nonatomic) NSString *humanReadableName;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool requiresPassword;
 
 @end
 

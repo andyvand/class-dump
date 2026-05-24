@@ -7,10 +7,6 @@
 @interface TeaUI.ImageCacheOperationQueue
 {
     id downloader;
-    id processor;
-    id underlyingCache;
-    id requests;
-    id pipeline;
 }
 
 @end

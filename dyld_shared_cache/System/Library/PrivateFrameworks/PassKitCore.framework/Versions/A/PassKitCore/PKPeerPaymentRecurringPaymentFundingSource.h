@@ -9,12 +9,6 @@
 @interface PKPeerPaymentRecurringPaymentFundingSource
 {
     NSString *_dpanIdentifier;
-    NSString *_fpanIdentifier;
-    NSString *_mpanIdentifier;
-    NSString *_name;
-    unsigned long long _type;
-    long long _network;
-    NSString *_suffix;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,24 +28,18 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)e"b1"minRTTMediumPktSize"b1"minRTTSmallPktSize"b1"perLargePktSize"b1"perMediumPktSize"b1"perSmallPktSize"b1};
+- (void)ionFromVoiceRecordingEnd;
 - (id);
 - (void);
-- (id)ssionCount:(id)arg1 timeVisibleAfterCompleted: /* Error: Ran out of types for this method. */;
-- (long long)abled;
+- (id)initWithMinRefreshPeriod:(id)arg1 maxImpressionCount:timeVisibleAfterCompleted: /* Error: Ran out of types for this method. */;
+- (long long)_parentalControlsEnabled;
 - (void)ralEmitterImage;
 - (void)@"NSString",&,N,V_selectedSectionIdentifier;
 - (void)WalletDiagnostics-%f.zip;
 
 // Remaining properties
 @property(copy, nonatomic, setter=setDPANIdentifier:) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic, setter=setFPANIdentifier:) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic, setter=setMPANIdentifier:) NSString *mpanIdentifier; // @synthesize mpanIdentifier=_mpanIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long network; // @synthesize network=_network;
-@property(copy, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

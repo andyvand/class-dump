@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol NSTabViewControllerUIProvider, NSTabViewControllerWindowTabsDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _NSTabViewControllerPrivateData
 {
     long long _selectedTabViewItemIndex;
-    unsigned long long _transitionOptions;
-    long long _tabStyle;
-    NSMutableArray *_tabViewItems;
-    id <NSTabViewControllerUIProvider> _UIProvider;
-    id <NSTabViewControllerWindowTabsDelegate> _windowTabsDelegate;
-    struct {
-        unsigned int settingTabViewItems:1;
-        unsigned int canPropagateSelectedChildViewControllerTitle:1;
-        unsigned int ibWillSetTabViewItems:1;
-        unsigned int preventInsertAndRemoveChildViewControllersFromSendingKVO:1;
-        unsigned int _reserved:28;
-    } _flags;
 }
 
 - (unsigned long long);
@@ -34,15 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(retain) id <NSTabViewControllerUIProvider> UIProvider; // @synthesize UIProvider=_UIProvider;
 @property long long selectedTabViewItemIndex; // @synthesize selectedTabViewItemIndex=_selectedTabViewItemIndex;
-@property long long tabStyle; // @synthesize tabStyle=_tabStyle;
-@property(retain) NSMutableArray *tabViewItems; // @synthesize tabViewItems=_tabViewItems;
-@property unsigned long long transitionOptions; // @synthesize transitionOptions=_transitionOptions;
 
 @end
 

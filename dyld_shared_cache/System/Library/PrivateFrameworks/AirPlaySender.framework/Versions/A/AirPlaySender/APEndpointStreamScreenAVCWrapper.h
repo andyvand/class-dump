@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCMediaStreamConfig, AVCMediaStreamNegotiator, AVCScreenCapture, AVCVideoStream, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface APEndpointStreamScreenAVCWrapper
 {
     int _clientPID;
-    AVCVideoStream *_avcVideoStream;
-    AVCScreenCapture *_avcScreenCapture;
-    AVCMediaStreamNegotiator *_avcMediaStreamNegotiatorForMirroring;
-    AVCMediaStreamNegotiator *_avcMediaStreamNegotiatorForPresentationMode;
-    AVCMediaStreamConfig *_videoStreamConfigForMirroring;
-    AVCMediaStreamConfig *_videoStreamConfigForPresentationMode;
-    int _didStartStatus;
-    void *_eventWeakContext;
-    CDUnknownFunctionPointerType _eventHandleStart;
-    CDUnknownFunctionPointerType _eventHandleStop;
-    CDUnknownFunctionPointerType _eventHandleFailed;
-    CDUnknownFunctionPointerType _eventHandleClearScreen;
-    NSObject<OS_dispatch_semaphore> *_completionSemaphore;
-    unsigned char _isSubFrameEnabled;
 }
 
 - (int);
@@ -33,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned char);
 - (int);
-- (id);
+- (id)B?;
 - (int);
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)!;
 - (unsigned long long);
 - (void);
 - (void);
@@ -54,13 +37,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

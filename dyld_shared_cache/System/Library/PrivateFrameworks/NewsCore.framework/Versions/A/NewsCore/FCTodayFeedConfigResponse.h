@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface FCTodayFeedConfigResponse
 {
     NSData *_ckConfigData;
-    NSDictionary *_ckRecordsByType;
-    NSData *_newsEdgeConfigData;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)eMoreFromFeedClickValue;
+- (void)publisherBoostForSourceMoreFromFeedClickValue;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *ckConfigData; // @synthesize ckConfigData=_ckConfigData;
-@property(readonly, nonatomic) NSDictionary *ckRecordsByType; // @synthesize ckRecordsByType=_ckRecordsByType;
-@property(readonly, nonatomic) NSData *newsEdgeConfigData; // @synthesize newsEdgeConfigData=_newsEdgeConfigData;
 
 @end
 

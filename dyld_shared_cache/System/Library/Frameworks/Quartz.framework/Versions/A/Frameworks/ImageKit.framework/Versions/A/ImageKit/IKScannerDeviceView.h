@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICScannerDevice, NSArray, NSString, NSURL;
-@protocol IKScannerDeviceViewDelegate;
-
 @interface IKScannerDeviceView
 {
     id _privateData;
 }
 
-+ (void)ImageBrowserExpandCollapseiOSGroupAnimation;
++ (void)IKImageBrowserExpandCollapseiOSGroupAnimation;
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
@@ -27,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,7 +44,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (_Bool);
@@ -56,9 +53,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,8 +66,8 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)3;
 - (long long);
 - (id);
 - (id);
@@ -87,33 +84,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool addAutoDetectionToScanSizeControl;
-@property double compressionQuality;
-@property id <IKScannerDeviceViewDelegate> delegate;
-@property _Bool displaysDeviceSelectorControl;
-@property _Bool displaysDocumentNameControl;
-@property _Bool displaysDoneButton;
-@property _Bool displaysDownloadsDirectoryControl;
-@property _Bool displaysFileFormatControl;
-@property _Bool displaysImageCorrectionControl;
-@property _Bool displaysPostProcessApplicationControl;
-@property _Bool displaysScanSizeControl;
-@property(copy) NSString *documentName;
-@property(retain) NSURL *downloadsDirectory;
-@property(copy) NSString *fileFormat;
-@property _Bool hasDisplayModeAdvanced;
-@property _Bool hasDisplayModeSimple;
-@property long long mode;
-@property(copy) NSString *overviewControlLabel;
-@property(retain) NSURL *postProcessApplication;
 @property _Bool reviewSimpleScanResults;
-@property(copy) NSString *scanControlLabel;
-@property ICScannerDevice *scannerDevice;
-@property unsigned long long simpleScanDocumentType;
-@property(copy) NSString *simpleScanFileFormat;
-@property unsigned long long simpleScanOverviewResolution;
-@property(readonly) NSArray *supportedFileFormats;
-@property long long transferMode;
 
 @end
 

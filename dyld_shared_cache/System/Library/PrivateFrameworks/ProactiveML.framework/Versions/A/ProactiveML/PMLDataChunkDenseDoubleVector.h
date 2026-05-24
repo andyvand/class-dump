@@ -10,14 +10,13 @@
 {
 }
 
-+ (unsigned int);
++ (unsigned int);
 + (id);
 - (const double *);
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int count;
-@property(readonly, nonatomic) const double *vector;
 
 @end
 

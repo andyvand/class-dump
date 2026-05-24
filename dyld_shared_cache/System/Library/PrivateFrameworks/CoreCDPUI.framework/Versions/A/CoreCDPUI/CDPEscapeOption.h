@@ -9,13 +9,6 @@
 @interface CDPEscapeOption
 {
     NSString *_title;
-    NSString *_titleLocalizationKey;
-    NSString *_titleTelemetryKey;
-    unsigned long long _style;
-    CDUnknownBlockType _escapeAction;
-    CDUnknownBlockType _canShowEscapeOption;
-    NSString *_progressTitle;
-    NSString *_progressLabel;
 }
 
 + (id);
@@ -28,25 +21,18 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)t;
+- (CDUnknownBlockType)ZQCK88zfck/Library/Caches/com.apple.xbs/TemporaryDirectory.mFcLSx/Sources/bmalloc_iosmac/Source/bmalloc/libpas/src/libpas/pas_enumerator.c;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)TE_TITLE;
+- (id)RECOVERY_KEY_CREATE_TITLE;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType canShowEscapeOption; // @synthesize canShowEscapeOption=_canShowEscapeOption;
-@property(copy, nonatomic) CDUnknownBlockType escapeAction; // @synthesize escapeAction=_escapeAction;
-@property(copy, nonatomic) NSString *progressLabel; // @synthesize progressLabel=_progressLabel;
-@property(copy, nonatomic) NSString *progressTitle; // @synthesize progressTitle=_progressTitle;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *titleLocalizationKey; // @synthesize titleLocalizationKey=_titleLocalizationKey;
-@property(copy, nonatomic) NSString *titleTelemetryKey; // @synthesize titleTelemetryKey=_titleTelemetryKey;
 
 @end
 

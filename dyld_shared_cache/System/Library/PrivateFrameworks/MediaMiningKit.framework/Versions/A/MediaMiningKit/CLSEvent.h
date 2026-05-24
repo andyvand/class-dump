@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface CLSEvent
 {
     _Bool _meetingRoom;
-    _Bool _organizedByMe;
-    _Bool _accepted;
-    NSString *_title;
-    CLLocation *_location;
-    NSArray *_attendees;
-    NSArray *_performers;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
@@ -26,8 +18,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)route (sender provided:(id)arg1 %@);
+- (id)rBlock:context:completionQueue:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -44,14 +36,6 @@
 - (void)Oóm;
 
 // Remaining properties
-@property(nonatomic, getter=isAccepted) _Bool accepted; // @synthesize accepted=_accepted;
-@property(retain, nonatomic) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic, getter=hasMeetingRoom) _Bool meetingRoom; // @synthesize meetingRoom=_meetingRoom;
-@property(nonatomic, getter=isOrganizedByMe) _Bool organizedByMe; // @synthesize organizedByMe=_organizedByMe;
-@property(retain, nonatomic) NSArray *performers; // @synthesize performers=_performers;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

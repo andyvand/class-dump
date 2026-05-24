@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODataRequestThrottlerToken, GEOMapServiceTraits;
+@class GEOMapServiceTraits;
 
 @interface GEOAbstractTicket
 {
     GEOMapServiceTraits *_traits;
-    unsigned long long _cachePolicy;
-    _Bool _cancelled;
-    GEODataRequestThrottlerToken *_throttlerToken;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ʩ;
 - (void);
-- (id);
-- (_Bool)ntProtoE;
+- (id)encyclopedicAttribution;
+- (_Bool)N8addr_obj16FingerprintProtoE;
 - (void)Ô33ÿ¿;
 - (void)<;
 - (unsigned long long)þ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly, getter=isCancelled) _Bool cancelled;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
 
 @end

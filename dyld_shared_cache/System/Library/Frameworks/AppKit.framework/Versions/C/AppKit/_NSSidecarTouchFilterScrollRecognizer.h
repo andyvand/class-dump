@@ -10,18 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSSidecarTouchFilterScrollRecognizer : _NSSidecarTouchFilterRecognizer
 {
     long long _index1;
-    long long _index2;
-    struct CGPoint _initialWinLoc;
-    struct CGPoint _lastWinLoc;
-    struct CGPoint _currentWinLoc;
-    unsigned int _foundTwoTouches:1;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d frame type %llu;
+- (void)e to invalid value %@;
+- (void).26;
 - (id);
 - (void);
 

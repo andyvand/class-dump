@@ -9,7 +9,6 @@
 @interface CalMenuItem
 {
     NSImage *_largeIcon;
-    NSImage *_smallIcon;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain) NSImage *largeIcon; // @synthesize largeIcon=_largeIcon;
-@property(retain) NSImage *smallIcon; // @synthesize smallIcon=_smallIcon;
 
 @end
 

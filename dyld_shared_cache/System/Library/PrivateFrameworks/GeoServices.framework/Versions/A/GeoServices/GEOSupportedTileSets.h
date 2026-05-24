@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOSupportedTileSets
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_tileSets;
 }
 
-- (id);
+- (id)0!;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)1"read_recentLocationHistory"b1"read_requestingAppId"b1"read_routeAttributes"b1"read_routes"b1"read_serviceTags"b1"read_sessionState"b1"read_trafficApiResponses"b1"read_trafficSnapshotIds"b1"read_tripID"b1"read_tripInfo"b1"read_tripOrigin"b1"read_userIncidentReports"b1"read_waypointRoute"b1"read_waypointTypeds"b1"read_xpcUuid"b1"wrote_anyField"b1};
-- (id)asParkingDirection;
-- (id)kLane;
+- (id)hasParkingDirection;
+- (id)GEOMapFeatureRunningTrackLane;
 - (void)6Vb Q@;
 
 @end

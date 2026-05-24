@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModelContainer, HMFVersion, NSMutableDictionary, NSSet, NSString, NSUUID;
+@class HMBModelContainer;
 
 @interface HMBModel
 {
     _Bool _hmbIgnoreModel;
-    NSMutableDictionary *_hmbReserved;
-    NSUUID *_hmbModelID;
-    NSUUID *_hmbParentModelID;
-    NSString *_hmbType;
-    HMFVersion *_hmbDataVersion;
-    unsigned long long _hmbRecordRow;
-    NSSet *_hmbUnavailableProperties;
-    NSSet *_hmbReadOnlyProperties;
-    HMBModelContainer *_hmbModelContainer;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)ں;
 + (id);
 + (id);
 + (void);
@@ -33,13 +24,13 @@
 + (id);
 + (_Bool);
 + (id);
++ (id)ot lock accumulator;
 + (id);
-+ (id);
-+ (id);
++ (id)B;
 + (_Bool);
 + (id)@0:8@"HMFMemoryMonitor"16q24 /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -63,24 +54,24 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)$;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)C;
+- (id);
+- (id);
+- (id);
+- (_Bool)P;
 - (id);
 - (void);
 - (_Bool);
@@ -92,39 +83,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id)g device pings;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)nAddressComponents;
+- (id) ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *hmbCanonicalType;
-@property(readonly, nonatomic) HMFVersion *hmbContainerDataVersion;
-@property(retain, nonatomic) HMFVersion *hmbDataVersion; // @synthesize hmbDataVersion=_hmbDataVersion;
-@property(readonly, nonatomic) NSString *hmbDescription;
-@property(readonly, nonatomic) _Bool hmbIgnoreModel; // @synthesize hmbIgnoreModel=_hmbIgnoreModel;
-@property(readonly, nonatomic) _Bool hmbIsModelGenericRepresentation;
-@property(readonly, nonatomic) _Bool hmbIsModelReadOnly;
-@property(retain, nonatomic) HMFVersion *hmbMinimumSupportedVersion;
 @property(nonatomic) __weak HMBModelContainer *hmbModelContainer; // @synthesize hmbModelContainer=_hmbModelContainer;
-@property(retain, nonatomic) NSUUID *hmbModelID; // @synthesize hmbModelID=_hmbModelID;
-@property(retain, nonatomic) NSUUID *hmbParentModelID; // @synthesize hmbParentModelID=_hmbParentModelID;
-@property(retain, nonatomic) NSSet *hmbReadOnlyProperties; // @synthesize hmbReadOnlyProperties=_hmbReadOnlyProperties;
-@property(nonatomic) unsigned long long hmbRecordRow; // @synthesize hmbRecordRow=_hmbRecordRow;
-@property(retain, nonatomic) NSMutableDictionary *hmbReserved; // @synthesize hmbReserved=_hmbReserved;
-@property(readonly, copy, nonatomic) NSSet *hmbSetExternalProperties;
-@property(readonly, copy, nonatomic) NSSet *hmbSetExternalRecordFields;
-@property(readonly, nonatomic) NSSet *hmbSetProperties;
-@property(retain, nonatomic) NSString *hmbType; // @synthesize hmbType=_hmbType;
-@property(retain, nonatomic) NSSet *hmbUnavailableProperties; // @synthesize hmbUnavailableProperties=_hmbUnavailableProperties;
-@property(readonly) Class superclass;
 
 @end
 

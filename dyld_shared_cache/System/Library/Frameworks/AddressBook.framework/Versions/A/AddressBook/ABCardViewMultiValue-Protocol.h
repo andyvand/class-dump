@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol ABCardViewMultiValue
-- (NSArray *)e;
+- (_Bool)R";
+- (NSArray *);
+- (NSString *)0_;
+- (NSString *);
+- (NSString *)SURL";
+- (NSArray *)AKCardViewDataSource;
 - (id)4M;
 @end
 

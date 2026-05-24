@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUICircularImageView, NSStackView, NSString, NSTextField, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIMessageInviteView
 {
     NSView *_bubbleView;
-    AOSUICircularImageView *_imageView;
-    NSStackView *_stackView;
-    NSStackView *_verticalStackView;
-    NSTextField *_bubbleLabel;
-    NSString *_bubbleText;
-    long long _stackAlignment;
 }
 
 - (void);
@@ -38,13 +32,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSTextField *bubbleLabel; // @synthesize bubbleLabel=_bubbleLabel;
-@property(retain, nonatomic) NSString *bubbleText; // @synthesize bubbleText=_bubbleText;
 @property(retain, nonatomic) NSView *bubbleView; // @synthesize bubbleView=_bubbleView;
-@property(retain, nonatomic) AOSUICircularImageView *imageView; // @synthesize imageView=_imageView;
-@property long long stackAlignment; // @synthesize stackAlignment=_stackAlignment;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSStackView *verticalStackView; // @synthesize verticalStackView=_verticalStackView;
 
 @end
 

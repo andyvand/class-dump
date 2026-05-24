@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _MSMessageComposeExtensionProtocol, _MSMessageComposeHostProtocol;
 
 @interface _MSMessageAppBundleHostContext
 {
     id <_MSMessageComposeHostProtocol> _delegate;
-    id <_MSMessageComposeExtensionProtocol> _appContext;
 }
 
 - (id);
@@ -24,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,31 +40,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)presentViewController:(id)arg1 animated:(_Bool)arg2 completion:(CDUnknownBlockType)arg3;
+- (void)maxRetriesForDroppedFeeds;
+- (void)eningAnimator;
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <_MSMessageComposeExtensionProtocol> appContext; // @synthesize appContext=_appContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_MSMessageComposeHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

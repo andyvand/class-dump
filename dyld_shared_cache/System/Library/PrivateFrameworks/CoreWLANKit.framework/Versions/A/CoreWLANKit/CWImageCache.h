@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CWImageCache
 {
     NSMutableDictionary *_imageCache;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)nection:isOnSameIPPortWithConnection:YES /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

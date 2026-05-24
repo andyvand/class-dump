@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface CNPhotoPickerActionsViewControllerLayout
 {
     long long _buttonCount;
-    struct CGSize _containerSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
-+ (double);
++ (double)c;
 + (double);
 - (id);
 - (struct CGRect);
@@ -23,11 +21,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect actionButtonsViewFrame;
-@property(readonly, nonatomic) long long buttonCount; // @synthesize buttonCount=_buttonCount;
 @property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly, nonatomic) struct CGRect imageContainerViewFrame;
 
 @end
 

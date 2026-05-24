@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDHomeSettingsBaseModel.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeNetworkRouterSettingsModel : HMDHomeSettingsBaseModel
 {
@@ -21,20 +19,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (id);
-- (id)ortLogEvent;
+- (id)HMDRemoteMessageTxReportLogEvent;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activeNetworkRouterAccessoryUUID; // @dynamic activeNetworkRouterAccessoryUUID;
-@property(copy, nonatomic) NSString *activeNetworkRouterInitialSetupNeededUUID; // @dynamic activeNetworkRouterInitialSetupNeededUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *minHomeKitVersionForAccessoryNetworkProtectionChange; // @dynamic minHomeKitVersionForAccessoryNetworkProtectionChange;
-@property(copy, nonatomic) NSString *minimumNetworkRouterSupportHomeKitVersion; // @dynamic minimumNetworkRouterSupportHomeKitVersion;
-@property(readonly) Class superclass;
 
 @end
 

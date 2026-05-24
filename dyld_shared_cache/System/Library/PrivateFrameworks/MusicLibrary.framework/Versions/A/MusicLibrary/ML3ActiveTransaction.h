@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3Client, ML3DatabaseConnection, ML3MusicLibrary, MSVXPCTransaction, NSLock, NSUUID;
+@class ML3DatabaseConnection, ML3MusicLibrary;
 
 @interface ML3ActiveTransaction
 {
     ML3DatabaseConnection *_connection;
-    NSLock *_lock;
-    MSVXPCTransaction *_xpcTransaction;
-    _Bool _terminable;
-    _Bool _inUseByOperation;
-    _Bool _readOnly;
-    _Bool _pendingCancel;
-    ML3MusicLibrary *_library;
-    NSUUID *_identifier;
-    ML3Client *_client;
-    double _lastUsedTime;
 }
 
+- (void)URLFromClientLibraryURL:sandboxExtension:error: /* Error: Ran out of types for this method. */;
+- (_Bool)sualSearchAlgorithmVersion;
+- (void)ersion;
+- (void),N,V_filter;
+- (void)actionOfCuratedAssetsIndexedInVUClustering;
+- (id)requestAssetRevGeocodingForAssetLocalIdentifiers:(id)arg1 context:(id)arg2 reply:(id)arg3;
+- (_Bool)predicateToExcludeTrashedAssets;
+- (id)T@"NSDate",&,N,V_lastFullVUIndexClusterDate;
+- (_Bool)widgetTimelineReloadTypesNeeded;
+- (id);
+- (id)uZC�`b;
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)_addObserver: /* Error: Ran out of types for this method. */;
 - (void)n block;
 - (void)values to update all properties in %{public}@;
 - (void)ort_key) VALUES (?, '');
@@ -46,15 +36,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) ML3Client *client; // @synthesize client=_client;
-@property(readonly, nonatomic) ML3DatabaseConnection *connection;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool inUseByOperation; // @synthesize inUseByOperation=_inUseByOperation;
-@property(nonatomic) double lastUsedTime; // @synthesize lastUsedTime=_lastUsedTime;
 @property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
-@property(nonatomic, getter=isPendingCancel) _Bool pendingCancel; // @synthesize pendingCancel=_pendingCancel;
-@property(nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(nonatomic) _Bool terminable; // @synthesize terminable=_terminable;
 
 @end
 

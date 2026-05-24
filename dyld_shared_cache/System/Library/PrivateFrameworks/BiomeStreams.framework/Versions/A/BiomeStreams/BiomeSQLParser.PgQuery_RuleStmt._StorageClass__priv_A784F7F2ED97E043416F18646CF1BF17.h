@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RuleStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _relation;
-    id _rulename;
-    id _whereClause;
-    id _event;
-    id _instead;
-    id _actions;
-    id _replace;
 }
 
 @end

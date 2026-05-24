@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetClientURLRequestHelper, AVAssetCustomURLBridgeForNSURLSession, AVWeakReference, NSMutableDictionary, NSObject, NSOperationQueue, NSURLSession;
-@protocol OS_dispatch_queue;
+@class AVAssetClientURLRequestHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetResourceLoaderInternal
 {
     AVAssetClientURLRequestHelper *URLRequestHelper;
-    AVWeakReference *weakReferenceToAsset;
-    NSObject<OS_dispatch_queue> *stateQueue;
-    AVWeakReference *weakReferenceToDelegate;
-    NSObject<OS_dispatch_queue> *delegateQueue;
-    struct OpaqueFigCustomURLLoader *customURLLoader;
-    struct OpaqueFigCustomURLHandler *customURLHandler;
-    struct OpaqueFigCustomURLHandler *authHandler;
-    struct OpaqueFigCustomURLHandler *contentKeySessionCustomURLHandler;
-    struct OpaqueFigXPCRemoteClient *remoteHandlerXPCRemoteClient;
-    int loadingCancelled;
-    NSMutableDictionary *pendingRequests;
-    NSObject<OS_dispatch_queue> *contentInformationCachingQueue;
-    NSMutableDictionary *contentInformationCache;
-    _Bool preloadsEligibleContentKeys;
-    unsigned long long allowedCMCDKeys;
-    _Bool sendsCMCDKeys;
-    NSURLSession *URLSession;
-    AVAssetCustomURLBridgeForNSURLSession *bridgeBetweenHandlerAndSession;
-    NSOperationQueue *URLSessionOperationQueue;
 }
 
 @end

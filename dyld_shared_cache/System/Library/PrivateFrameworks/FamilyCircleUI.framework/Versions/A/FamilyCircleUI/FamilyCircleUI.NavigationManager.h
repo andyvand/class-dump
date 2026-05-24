@@ -7,15 +7,6 @@
 @interface FamilyCircleUI.NavigationManager
 {
     id usesNavigationStack;
-    id _path;
-    id _activeModal;
-    id _pendingPath;
-    id _viewFactories;
-    id _resetNavigationPath;
-    id _setPrimaryNavigationPath;
-    id _appendNavigationPath;
-    id _currentTask;
-    id _$observationRegistrar;
 }
 
 @end

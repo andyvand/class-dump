@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _EARSpeakerCodeInfo
 {
     _Bool _isSpeakerCodeUsed;
-    NSString *_trainingSpeakerCode;
-    NSString *_inferenceSpeakerCode;
-    NSString *_accumulatedGradient;
-    NSNumber *_numFrames;
-    NSNumber *_nnetVersion;
-    NSNumber *_trainingOffset;
-    NSNumber *_recognitionOffset;
 }
 
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (void);
@@ -33,13 +26,6 @@
 - (void) ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accumulatedGradient; // @synthesize accumulatedGradient=_accumulatedGradient;
-@property(copy, nonatomic) NSString *inferenceSpeakerCode; // @synthesize inferenceSpeakerCode=_inferenceSpeakerCode;
-@property(nonatomic) _Bool isSpeakerCodeUsed; // @synthesize isSpeakerCodeUsed=_isSpeakerCodeUsed;
-@property(readonly, nonatomic) NSNumber *nnetVersion; // @synthesize nnetVersion=_nnetVersion;
-@property(copy, nonatomic) NSNumber *numFrames; // @synthesize numFrames=_numFrames;
-@property(readonly, nonatomic) NSNumber *recognitionOffset; // @synthesize recognitionOffset=_recognitionOffset;
-@property(readonly, nonatomic) NSNumber *trainingOffset; // @synthesize trainingOffset=_trainingOffset;
 @property(readonly, nonatomic) NSString *trainingSpeakerCode; // @synthesize trainingSpeakerCode=_trainingSpeakerCode;
 
 @end

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagTextLabel : FI_TTextField
 {
     struct unique_function<void ()> _folderCustomizationAction;
-    _Bool _showFolderCustomization;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)te";
 - (id);
 - (void);
 - (id);

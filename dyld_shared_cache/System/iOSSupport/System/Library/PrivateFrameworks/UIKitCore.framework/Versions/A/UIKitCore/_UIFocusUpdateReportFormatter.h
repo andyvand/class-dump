@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
+- (id)MDHandleRegistry;
+- (id)ure ;
 - (id);
 
 @end

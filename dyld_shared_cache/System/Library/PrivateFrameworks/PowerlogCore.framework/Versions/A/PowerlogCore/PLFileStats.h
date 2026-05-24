@@ -8,7 +8,7 @@
 {
 }
 
-+ (double);
++ (double)F;
 + (double);
 + (id);
 + (id);

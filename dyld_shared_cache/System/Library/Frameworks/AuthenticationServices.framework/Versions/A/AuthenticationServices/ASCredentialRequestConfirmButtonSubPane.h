@@ -6,28 +6,11 @@
 
 #import <AuthenticationServices/ASCredentialRequestSubPane.h>
 
-@class ASCCredentialRequestTestOptions, ASCredentialRequestButton, ASCredentialRequestPaneContext, LAUIAuthenticationView, NSData, NSObject, NSStackView, NSString, NSTextField, NSView;
-@protocol ASCredentialRequestSubPaneConfirmButtonDelegate, OS_dispatch_group, OS_os_activity;
+@class NSStackView;
 
 @interface ASCredentialRequestConfirmButtonSubPane : ASCredentialRequestSubPane
 {
     NSStackView *_mainStackView;
-    NSView *_containerView;
-    _Bool _canPerformBiometricAuthentication;
-    NSView *_authorizationButtonContainerView;
-    NSStackView *_biometricsContainerView;
-    LAUIAuthenticationView *_biometricsView;
-    ASCredentialRequestPaneContext *_paneContext;
-    long long _lastAuthenticationViewVisibility;
-    NSObject<OS_os_activity> *_authorizationActivity;
-    NSTextField *_biometricLabel;
-    CDUnknownBlockType _processingStateCompletionHandler;
-    NSObject<OS_dispatch_group> *_processingStateGroup;
-    NSData *_auditTokenData;
-    NSStackView *_iconStack;
-    ASCredentialRequestButton *_authorizationButton;
-    id <ASCredentialRequestSubPaneConfirmButtonDelegate> _delegate;
-    ASCCredentialRequestTestOptions *_testOptions;
 }
 
 + (id);
@@ -63,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -75,34 +58,21 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ed broadcasts matching identifier:(id)arg1 %s;
+- (void);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ASCredentialRequestButton *authorizationButton; // @synthesize authorizationButton=_authorizationButton;
-@property(readonly, nonatomic) _Bool authorizationCapabilityEnabled;
-@property(copy, nonatomic) NSString *buttonText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ASCredentialRequestSubPaneConfirmButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, readonly) _Bool isBiometricAuthenticationAvailable;
 @property(nonatomic, readonly) _Bool shouldOverrideLocalAuthenticationForTesting;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ASCCredentialRequestTestOptions *testOptions; // @synthesize testOptions=_testOptions;
 
 @end
 

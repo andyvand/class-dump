@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheCreateGroupOperation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_record;
-    CDUnknownBlockType _creationBlock;
 }
 
 - (id);
 - (id);
 - (id);
 - (void)nd for UUID:(id)arg1 %@;
-- (void)eInfo;
+- (void)MobileAssetUpdateInfo;
 - (CDUnknownBlockType);
 - (void)0ä¹B;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType creationBlock; // @synthesize creationBlock=_creationBlock;
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *record; // @synthesize record=_record;
 
 @end

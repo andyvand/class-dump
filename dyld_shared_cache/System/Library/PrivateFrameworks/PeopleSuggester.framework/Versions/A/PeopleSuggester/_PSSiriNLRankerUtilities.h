@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)_alternateQuerySuggestionCandidateTier1s;
 
 @end
 

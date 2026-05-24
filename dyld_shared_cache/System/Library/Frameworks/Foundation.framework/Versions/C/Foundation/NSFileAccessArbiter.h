@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileAccessNode, NSMutableDictionary, NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface NSFileAccessArbiter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCListener *_listenerConnection;
-    _Bool _isStopped;
-    _Bool _isSubarbiter;
-    NSMutableDictionary *_accessClaimsByID;
-    NSMutableDictionary *_accessClaimTransactionsByID;
-    NSMutableDictionary *_subarbitrationClaimsByID;
-    NSMutableDictionary *_reactorsByID;
-    NSMutableDictionary *_reactorTransactionsByID;
-    NSMutableDictionary *_kernelMaterializationClaimCancellers;
-    NSMutableDictionary *_kernelMaterializationClaimTransactions;
-    NSFileAccessNode *_rootNode;
-    NSXPCConnection *_superarbitrationServer;
-    NSObject<OS_dispatch_source> *_debugSignalSource;
-    struct _CFVolumeObserver *_volumeObserver;
-    struct __CFDictionary *_volumeGroupUUIDToFakelinkGroupCache;
-    struct os_unfair_lock_s _volumeGroupUUIDToFakelinkGroupCacheLock;
 }
 
 + (id);
-+ (void);
++ (void)	ka;
 + (void);
 - (void);
-- (void);
+- (void)T_;
 - (void);
 - (_Bool);
 - (oneway void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!!;
 - (oneway void);
 - (oneway void);
 - (void);
@@ -47,29 +31,30 @@
 - (oneway void);
 - (void);
 - (oneway void);
-- (void);
+- (void)aragraph spacing = %g, paragraph spacing before = %g
+;
 - (oneway void);
 - (void);
-- (void);
+- (void)TamilAlt-Light;
 - (void);
 - (void);
 - (oneway void);
-- (void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (oneway void);
 - (void);
 - (oneway void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
+- (oneway void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void)Ô ;
 - (void)Â0@ù
@@ -79,8 +64,8 @@
 ;
 - (_Bool)evoking claim %{public}@ prior to invoking accessor;
 - (oneway void)n to set preservation priority;
-- (void)ivingToken;
-- (void);
+- (void)NSXPCStoreManagedObjectArchivingToken;
+- (void)setPositiveFormat:(id)arg1;
 - (void)		
 
 
@@ -92,14 +77,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSXPCConnection *superarbitrationConnection;
-@property(readonly) Class superclass;
 
 @end
 

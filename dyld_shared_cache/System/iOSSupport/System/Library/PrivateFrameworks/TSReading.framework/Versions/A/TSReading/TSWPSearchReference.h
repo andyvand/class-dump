@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TSWPSelection, TSWPSmartField, TSWPStorage;
-@protocol TSKAnnotation;
+@class TSWPSelection, TSWPStorage;
 
 @interface TSWPSearchReference
 {
     TSWPStorage *_storage;
-    TSWPSelection *_selection;
-    struct _NSRange _smartFieldRange;
-    _Bool _refersToSmartField;
-    TSWPSmartField *_smartField;
-    _Bool _autohideHighlight;
-    _Bool _pulseHighlight;
-    NSArray *_findHighlights;
-    id <TSKAnnotation> annotation;
-    struct CGPoint searchReferencePoint;
 }
 
 + (id);
 + (id);
+- (id)ifierSet"8@"NSNumber"16^B24;
+- (void)d operation type:(struct _NSRange)arg1 %li;
+- (void)(accountless stream);
+- (void)atIteration for EndOfQueuePlaceholder;
+- (void)viorMusicSharePlay;
+- (void)lid sectionedModelObjects -- does not contain start item:(_Bool)arg1 %@;
+- (void)led should never be sourced from user defaults while TransitionStyle is sourced from the queue;
+- (void)res-mpaf;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct CGPoint)eason;
+- (id)ck-info;
+- (id)etadata;
+- (_Bool)aadamid;
+- (_Bool)avStartupTime;
+- (void)ueue reload triggered in parallel] - State: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (struct CGPoint);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (struct _NSRange);
+- (struct _NSRange)`l;
 - (id);
 - (_Bool);
 - (void);
@@ -62,24 +52,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;
-@property(nonatomic) _Bool autohideHighlight; // @synthesize autohideHighlight=_autohideHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *findHighlights; // @synthesize findHighlights=_findHighlights;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInsertionPoint;
-@property(nonatomic) _Bool pulseHighlight; // @synthesize pulseHighlight=_pulseHighlight;
-@property(nonatomic) struct _NSRange range;
-@property(nonatomic) _Bool refersToSmartField;
-@property(nonatomic) struct CGPoint searchReferencePoint; // @synthesize searchReferencePoint;
 @property(retain, nonatomic) TSWPSelection *selection; // @synthesize selection=_selection;
-@property(retain, nonatomic) TSWPSmartField *smartField;
-@property(nonatomic) struct _NSRange smartFieldRange;
-@property(readonly) Class superclass;
 
 @end
 

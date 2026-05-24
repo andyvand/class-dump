@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSArray, NSString, NSUUID, _HMAccessoryProfile;
+@class _HMAccessoryProfile;
 
 @interface HMAccessoryProfile
 {
@@ -21,26 +21,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)emendatory;
 - (id);
 - (id);
 - (void)able localization for asset bundle:%@ /* Error: Ran out of types for this method. */;
 - (id)status from %@ to %@;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMAccessory *accessory;
 @property(readonly, nonatomic) _HMAccessoryProfile *accessoryProfile; // @synthesize accessoryProfile=_accessoryProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *profileUniqueIdentifier; // @dynamic profileUniqueIdentifier;
-@property(readonly, nonatomic) NSArray *services;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *uuid;
 
 @end
 

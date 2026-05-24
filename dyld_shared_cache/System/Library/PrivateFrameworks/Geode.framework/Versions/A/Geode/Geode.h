@@ -10,7 +10,7 @@
 
 + (void);
 + (id);
-+ (id);
++ (id)Ȧ;
 + (id)Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Operations/DGOperationCoding.m;
 
 @end

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)AddressPostalCode;
++ (id)AddressCity;
 - (id);
 - (void);
 

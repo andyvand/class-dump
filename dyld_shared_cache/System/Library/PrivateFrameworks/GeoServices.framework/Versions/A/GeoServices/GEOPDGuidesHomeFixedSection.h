@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuidesHomeFixedSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_browseByInterestFilters;
-    NSMutableArray *_featuredGuideIds;
-    NSMutableArray *_filteredGuideIds;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _sectionType;
-    struct {
-        unsigned int has_sectionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_browseByInterestFilters:1;
-        unsigned int read_featuredGuideIds:1;
-        unsigned int read_filteredGuideIds:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)R,N,V_isTriggerlessFollowup;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"has_lineMuid"b1"has_isTransitOnly"b1};
-- (id);
+- (id)_durationMin;
 - (id)Ðñ8óÜóDõ;
 - (void)×£p=
 ×ÿ?!°rh©j@;

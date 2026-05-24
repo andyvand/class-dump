@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString, NSTextField;
+@class NSImageView;
 
 @interface SOPersonMenuItemView
 {
     NSImageView *_checkmarkImageView;
-    NSTextField *_titleTextField;
-    NSTextField *_labelTextField;
-    NSImageView *_iconImageView;
 }
 
 - (void);
@@ -33,11 +30,6 @@
 
 // Remaining properties
 @property(retain) NSImageView *checkmarkImageView; // @synthesize checkmarkImageView=_checkmarkImageView;
-@property(retain) NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(copy) NSString *label;
-@property(retain) NSTextField *labelTextField; // @synthesize labelTextField=_labelTextField;
-@property(copy) NSString *title;
-@property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end
 

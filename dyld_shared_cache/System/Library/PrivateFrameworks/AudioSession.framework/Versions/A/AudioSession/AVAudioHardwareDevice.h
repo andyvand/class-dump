@@ -6,45 +6,27 @@
 
 #import <AudioSession/AVAudioHardwareClock.h>
 
-@class NSArray, NSString;
-
 @interface AVAudioHardwareDevice : AVAudioHardwareClock
 {
 }
 
-- (void);
-- (id);
-- (struct AVAudioHardwareStereoPair);
-- (struct AVAudioHardwareStereoPair);
-- (_Bool);
-- (void);
+- (void)NEIKEv2PacketReceiver;
+- (id)NENetworkRule;
+- (struct AVAudioHardwareStereoPair)_TtC16NetworkExtension27NEAppExtensionConfiguration;
+- (struct AVAudioHardwareStereoPair)_TtC16NetworkExtension16NEHotspotManager;
+- (_Bool)_TtP16NetworkExtension38NEExtensionBaseProviderHostXPCProtocol_;
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)eferredDataSource;
+- (id)preferredDataSource;
 - (id)catorIS3_EEEE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct AVAudioHardwareStereoPair defaultInputStereoChannels;
-@property(nonatomic) struct AVAudioHardwareStereoPair defaultOutputStereoChannels;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputPorts;
 @property(readonly, nonatomic) unsigned long long inputSafetyOffset;
-@property(readonly, nonatomic) NSArray *inputStreams;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSArray *outputPorts;
-@property(readonly, nonatomic) unsigned long long outputSafetyOffset;
-@property(readonly, nonatomic) NSArray *outputStreams;
-@property(readonly) Class superclass;
 
 @end
 

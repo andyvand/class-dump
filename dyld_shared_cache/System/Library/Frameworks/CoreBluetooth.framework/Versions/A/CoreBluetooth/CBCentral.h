@@ -10,8 +10,8 @@
 {
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)u;
+- (id)P;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maximumUpdateValueLength; // @dynamic maximumUpdateValueLength;

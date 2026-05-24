@@ -13,14 +13,14 @@
 }
 
 + (void);
-+ (id);
++ (id)ime:%@, url expiry time:%@ /* Error: Ran out of types for this method. */;
 + (void);
 + (void)!LGù±[Ð1Â0@ù
 × ;
 + (void)setPrefersHorizontalMenuAttachment: /* Error: Ran out of types for this method. */;
-+ (void)setBackgroundViewsAndColor;
-+ (void)ndsTo;
-+ (void)ySizeForTraitCollection:(id)arg1;
++ (void)_resetBackgroundViewsAndColor;
++ (void)_delegateRespondsTo;
++ (void)_batterySizeForTraitCollection:(id)arg1;
 + (void)ð²h;
 + (void);
 - (void);
@@ -30,9 +30,9 @@
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (id)ModalActionView:(id)arg1 withSubTreeKeyView:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (_Bool)rt;
-- (id)PopoverSceneSpecification;
+- (id)willDisplayModalActionView:(id)arg1 withSubTreeKeyView:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)enableUpdateCycleSupport;
+- (id)_UIPopoverSceneSpecification;
 - (void)þÿ;
 - (id)h;
 - (void)i;

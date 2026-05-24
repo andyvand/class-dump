@@ -9,22 +9,19 @@
 @interface CPLMomentSharePreviewData
 {
     NSString *_cropRectString;
-    NSMutableArray *_curatedAssetIdentifiers;
-    NSString *_keyAssetIdentifier;
-    NSMutableArray *_previewImageDatas;
 }
 
++ (Class)`;
 + (Class);
-+ (Class);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -36,22 +33,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)7;
+- (unsigned long long)(;
 - (_Bool);
-- (_Bool)û;
+- (_Bool);
 - (void);
-- (id);
+- (id)w;
 - (id);
 - (void)Â!°Gùñ°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cropRectString; // @synthesize cropRectString=_cropRectString;
-@property(retain, nonatomic) NSMutableArray *curatedAssetIdentifiers; // @synthesize curatedAssetIdentifiers=_curatedAssetIdentifiers;
-@property(readonly, nonatomic) _Bool hasCropRectString;
-@property(readonly, nonatomic) _Bool hasKeyAssetIdentifier;
-@property(retain, nonatomic) NSString *keyAssetIdentifier; // @synthesize keyAssetIdentifier=_keyAssetIdentifier;
 @property(retain, nonatomic) NSMutableArray *previewImageDatas; // @synthesize previewImageDatas=_previewImageDatas;
 
 @end

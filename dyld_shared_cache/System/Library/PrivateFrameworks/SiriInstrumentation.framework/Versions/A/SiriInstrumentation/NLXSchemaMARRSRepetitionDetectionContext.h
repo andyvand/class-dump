@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaMARRSRepetitionDetectionEvaluated, NLXSchemaMARRSRepetitionDetectionFailed, NLXSchemaMARRSRepetitionDetectionStarted, NSData;
+@class NLXSchemaMARRSRepetitionDetectionStarted;
 
 @interface NLXSchemaMARRSRepetitionDetectionContext : SISchemaInstrumentationMessage
 {
     NLXSchemaMARRSRepetitionDetectionStarted *_started;
-    NLXSchemaMARRSRepetitionDetectionEvaluated *_evaluated;
-    NLXSchemaMARRSRepetitionDetectionFailed *_failed;
-    NLXSchemaMARRSRepetitionDetectionStarted *_startedOrChanged;
-    NLXSchemaMARRSRepetitionDetectionEvaluated *_ended;
-    _Bool _hasStarted;
-    _Bool _hasEvaluated;
-    _Bool _hasFailed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -40,17 +30,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)r"@"NSDictionary">20;
+- (void)performLibraryRequest:(id)arg1 withReply: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)DO_DIRNAME;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)R0;
 - (id);
 - (id)!Fù±Þ°1Â0@ù
 × ;
@@ -63,18 +53,7 @@
 - (void)À;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaMARRSRepetitionDetectionEvaluated *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaMARRSRepetitionDetectionEvaluated *evaluated; // @synthesize evaluated=_evaluated;
-@property(retain, nonatomic) NLXSchemaMARRSRepetitionDetectionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasEvaluated; // @synthesize hasEvaluated=_hasEvaluated;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaMARRSRepetitionDetectionStarted *started; // @synthesize started=_started;
-@property(retain, nonatomic) NLXSchemaMARRSRepetitionDetectionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

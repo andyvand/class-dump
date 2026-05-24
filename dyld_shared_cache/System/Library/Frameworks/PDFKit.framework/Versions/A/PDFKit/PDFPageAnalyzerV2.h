@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 
 + (struct CGAffineTransform);
 + (struct CGAffineTransform);
-+ (_Bool);
++ (_Bool)P;
 + (struct __CVBuffer *);
 + (unsigned long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (void);
 

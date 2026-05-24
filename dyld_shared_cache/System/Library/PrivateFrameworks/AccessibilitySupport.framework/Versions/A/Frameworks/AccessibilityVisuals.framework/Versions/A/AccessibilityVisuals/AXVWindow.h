@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimer;
-
 @interface AXVWindow
 {
     _Bool __listeningForScreenParametersChangedNotification;
-    _Bool __didHide;
-    _Bool __capturePending;
-    NSDate *__lastCaptureTime;
-    NSTimer *__screenCaptureTimer;
 }
 
 + (void);
@@ -21,8 +15,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hB@y	?%@q;
+- (void);
 - (void);
 - (void);
 - (struct CGPoint);
@@ -47,20 +41,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool _capturePending; // @synthesize _capturePending=__capturePending;
-@property(nonatomic) _Bool _didHide; // @synthesize _didHide=__didHide;
-@property(retain) NSDate *_lastCaptureTime; // @synthesize _lastCaptureTime=__lastCaptureTime;
 @property(nonatomic) _Bool _listeningForScreenParametersChangedNotification; // @synthesize _listeningForScreenParametersChangedNotification=__listeningForScreenParametersChangedNotification;
-@property(retain) NSTimer *_screenCaptureTimer; // @synthesize _screenCaptureTimer=__screenCaptureTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGPoint frameCenter;
-@property(nonatomic) struct CGSize frameSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

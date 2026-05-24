@@ -9,32 +9,23 @@
 @interface CKConversationListTipManagerSwift
 {
     id conversationListController;
-    UIView *miniTipUIView;
-    long long presentedTip;
-    id $__lazy_storage_$_siriMessageTip;
-    id $__lazy_storage_$_pinningConversationTip;
-    id $__lazy_storage_$_cloudOnboardingMessageTip;
-    id $__lazy_storage_$_ktWaitingForCloudTip;
-    id $__lazy_storage_$_ktUpdateAppleIDTip;
-    id tipObservationTask;
 }
 
 - (void);
 - (void);
+- (void)tesWithCoalescingAndDelay;
 - (void);
-- (void);
-- (void);
+- (void)g;
 - (long long);
-- (id);
+- (id)ICLockedNotesLearnMoreViewController;
 - (id);
 - (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ªÿ ;
 
 // Remaining properties
 @property(nonatomic, retain) UIView *miniTipUIView; // @synthesize miniTipUIView;
-@property(nonatomic) long long presentedTip; // @synthesize presentedTip;
 
 @end
 

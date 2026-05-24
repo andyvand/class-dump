@@ -10,7 +10,7 @@
 
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)`B;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -21,8 +21,8 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)C;
 + (id);
 + (_Bool);
 + (void);
@@ -31,7 +31,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (_Bool);
 

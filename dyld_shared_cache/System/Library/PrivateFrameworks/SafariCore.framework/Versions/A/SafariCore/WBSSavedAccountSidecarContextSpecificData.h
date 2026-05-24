@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary;
+@class NSDate, NSDictionary;
 
 @interface WBSSavedAccountSidecarContextSpecificData
 {
     NSDictionary *_originalKeychainDictionary;
-    NSMutableDictionary *_sitesToLastUsedDates;
-    NSDate *_lastUsedDate;
 }
 
 - (void);
@@ -22,15 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)criptAlignments;
 - (id);
 - (void)Xð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
-@property(readonly, nonatomic) NSDate *lastUsedDateAcrossAllSites;
 
 @end
 

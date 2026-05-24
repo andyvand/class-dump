@@ -13,29 +13,21 @@
 - (void);
 - (_Bool);
 - (double);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double)4;
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (double)@;
 - (double);
-- (double);
-- (struct CGColor *);
+- (struct CGColor *)%@, transferring:%s> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);ùÿL@\B¿;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColor *color;
-@property(readonly, nonatomic) double depth;
 @property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) double layoutDepth;
-@property(readonly, nonatomic) double layoutHeight;
-@property(readonly, nonatomic) double layoutVSize;
-@property(readonly, nonatomic) double opticalAlignWidth;
-@property(readonly, nonatomic) double vsize;
-@property(readonly, nonatomic) double width;
 
 @end
 

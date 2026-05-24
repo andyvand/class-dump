@@ -6,26 +6,11 @@
 
 #import <CloudKitDaemon/CKDPCSData.h>
 
-@class CKDZonePCSData, CKRecordID, CKRecordZoneID, NSData, NSDate, NSString;
+@class CKRecordID;
 
 @interface CKDSharePCSData : CKDPCSData
 {
     CKRecordID *_shareID;
-    NSDate *_shareModificationDate;
-    unsigned long long _serviceType;
-    NSString *_shareEtag;
-    long long _publicPermission;
-    long long _myParticipantRole;
-    long long _myParticipantPermission;
-    struct _OpaquePCSShareProtection *_myParticipantPCS;
-    NSData *_myParticipantPCSData;
-    struct _OpaquePCSShareProtection *_preKeyRollInvitedPCS;
-    struct _OpaquePCSShareProtection *_publicPCS;
-    NSString *_publicPCSEtag;
-    NSData *_publicPCSData;
-    CKRecordZoneID *_zoneID;
-    CKDZonePCSData *_zonePCSData;
-    struct _OpaquePCSShareProtection *_encryptedInvitedPCS;
 }
 
 + (id);
@@ -41,58 +26,42 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct _OpaquePCSShareProtection *);
-- (void);
-- (id);
-- (void);
-- (struct _OpaquePCSShareProtection *);
+- (void)getServiceProviderDataWithEncryptionScheme;
 - (void);
 - (void);
 - (struct _OpaquePCSShareProtection *);
+- (void);
+- (id)setLastInfraActiveTime: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct _OpaquePCSShareProtection *)oke;
+- (void);
+- (void);
+- (struct _OpaquePCSShareProtection *);
 - (long long);
-- (_Bool);
+- (_Bool)sinkWithCompletion:receiveInput: /* Error: Ran out of types for this method. */;
+- (void)_conversationIDsBySyncKey;
+- (struct _OpaquePCSShareProtection *)hment_id, a.name, m.mailbox FROM attachments AS a LEFT OUTER JOIN searchable_attachments AS s ON (a.ROWID = s.attachment_id) LEFT OUTER JOIN messages AS m ON (m.ROWID = a.message) WHERE a.ROWID > %lld AND s.attachment_id IS NULL ORDER BY a.ROWID;
 - (void);
-- (struct _OpaquePCSShareProtection *);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (long long);
 - (id);
+- (long long)#;
 - (id);
-- (struct _OpaquePCSShareProtection *)onState:startDate:duration: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct _OpaquePCSShareProtection *)newRangeWithOperationState:startDate:duration: /* Error: Ran out of types for this method. */;
 - (void)Ü;
-- (void)undleID;
+- (void)resolvedBundleID;
 - (void)to roll master key for zone-wide share record PCS for zone %@:(id)arg1 %@;
 - (void)ted progress to client for operation %{public}@ zoneID:(id)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) struct _OpaquePCSShareProtection *encryptedInvitedPCS; // @synthesize encryptedInvitedPCS=_encryptedInvitedPCS;
-@property(nonatomic) struct _OpaquePCSShareProtection *invitedPCS;
-@property(nonatomic) struct _OpaquePCSShareProtection *myParticipantPCS; // @synthesize myParticipantPCS=_myParticipantPCS;
-@property(copy, nonatomic) NSData *myParticipantPCSData; // @synthesize myParticipantPCSData=_myParticipantPCSData;
-@property(nonatomic) long long myParticipantPermission; // @synthesize myParticipantPermission=_myParticipantPermission;
-@property(nonatomic) long long myParticipantRole; // @synthesize myParticipantRole=_myParticipantRole;
-@property(nonatomic) struct _OpaquePCSShareProtection *preKeyRollInvitedPCS; // @synthesize preKeyRollInvitedPCS=_preKeyRollInvitedPCS;
-@property(nonatomic) struct _OpaquePCSShareProtection *publicPCS; // @synthesize publicPCS=_publicPCS;
-@property(copy, nonatomic) NSData *publicPCSData; // @synthesize publicPCSData=_publicPCSData;
-@property(copy, nonatomic) NSString *publicPCSEtag; // @synthesize publicPCSEtag=_publicPCSEtag;
-@property(nonatomic) long long publicPermission; // @synthesize publicPermission=_publicPermission;
-@property(nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
-@property(retain, nonatomic) NSString *shareEtag; // @synthesize shareEtag=_shareEtag;
 @property(retain, nonatomic) CKRecordID *shareID; // @synthesize shareID=_shareID;
-@property(retain, nonatomic) NSDate *shareModificationDate; // @synthesize shareModificationDate=_shareModificationDate;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
-@property(retain, nonatomic) CKDZonePCSData *zonePCSData; // @synthesize zonePCSData=_zonePCSData;
 
 @end
 

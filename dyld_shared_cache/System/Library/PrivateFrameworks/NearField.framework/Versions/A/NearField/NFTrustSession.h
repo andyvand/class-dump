@@ -10,10 +10,10 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ring"16@?0@"CNContact"8;
+- (id)tring *getCSSearchableItemActivityIdentifier(void);
+- (id)CNContactFormatter;
+- (id)PL;
 - (id);
 - (_Bool);
 

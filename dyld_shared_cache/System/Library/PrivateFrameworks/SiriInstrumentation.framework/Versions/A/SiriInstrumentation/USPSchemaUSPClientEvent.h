@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, USPSchemaUSPClientEventMetadata, USPSchemaUSPIterationEnded, USPSchemaUSPIterationStarted, USPSchemaUSPLoggingInitalized, USPSchemaUSPLoggingReported, USPSchemaUSPMeasureEnded, USPSchemaUSPMeasureStarted;
+@class SISchemaInstrumentationMessage, USPSchemaUSPClientEventMetadata;
 
 @interface USPSchemaUSPClientEvent : SISchemaTopLevelUnionType
 {
     USPSchemaUSPClientEventMetadata *_eventMetadata;
-    USPSchemaUSPLoggingInitalized *_loggingInitialized;
-    USPSchemaUSPLoggingReported *_loggingReported;
-    USPSchemaUSPMeasureStarted *_measureStarted;
-    USPSchemaUSPMeasureEnded *_measureEnded;
-    USPSchemaUSPIterationStarted *_iterationStarted;
-    USPSchemaUSPIterationEnded *_iterationEnded;
-    _Bool _hasEventMetadata;
-    _Bool _hasLoggingInitialized;
-    _Bool _hasLoggingReported;
-    _Bool _hasMeasureStarted;
-    _Bool _hasMeasureEnded;
-    _Bool _hasIterationStarted;
-    _Bool _hasIterationEnded;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -46,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (id);
 - (id);
 - (_Bool);
@@ -71,36 +57,20 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)_provideEmptyItems;
+- (_Bool)s_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE rowID >= ?   AND rowID <= ?   AND item_type == 0 ORDER BY message.ROWID ASC;;
 - (id);
 - (id);
 - (id)ùqßÐ1Â0@ù
 × ;
-- (unsigned long long)dAcceptPostSpkidMitigationCount;
-- (id)stionGenerationDomain;
-- (id)tInfo;
-- (void)ATIONCLIENT_CONSTRAINEDDECODING;
+- (unsigned long long)hasSpkidAcceptPostSpkidMitigationCount;
+- (id)deleteSuggestionGenerationDomain;
+- (id)_payloadAttachmentInfo;
+- (void)PGMODELINTERFACE_FULLPLANNER_TOKENGENERATIONCLIENT_CONSTRAINEDDECODING;
 
 // Remaining properties
-@property(retain, nonatomic) USPSchemaUSPClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasIterationEnded; // @synthesize hasIterationEnded=_hasIterationEnded;
-@property(nonatomic) _Bool hasIterationStarted; // @synthesize hasIterationStarted=_hasIterationStarted;
-@property(nonatomic) _Bool hasLoggingInitialized; // @synthesize hasLoggingInitialized=_hasLoggingInitialized;
-@property(nonatomic) _Bool hasLoggingReported; // @synthesize hasLoggingReported=_hasLoggingReported;
-@property(nonatomic) _Bool hasMeasureEnded; // @synthesize hasMeasureEnded=_hasMeasureEnded;
-@property(nonatomic) _Bool hasMeasureStarted; // @synthesize hasMeasureStarted=_hasMeasureStarted;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) USPSchemaUSPIterationEnded *iterationEnded; // @synthesize iterationEnded=_iterationEnded;
-@property(retain, nonatomic) USPSchemaUSPIterationStarted *iterationStarted; // @synthesize iterationStarted=_iterationStarted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) USPSchemaUSPLoggingInitalized *loggingInitialized; // @synthesize loggingInitialized=_loggingInitialized;
-@property(retain, nonatomic) USPSchemaUSPLoggingReported *loggingReported; // @synthesize loggingReported=_loggingReported;
-@property(retain, nonatomic) USPSchemaUSPMeasureEnded *measureEnded; // @synthesize measureEnded=_measureEnded;
-@property(retain, nonatomic) USPSchemaUSPMeasureStarted *measureStarted; // @synthesize measureStarted=_measureStarted;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

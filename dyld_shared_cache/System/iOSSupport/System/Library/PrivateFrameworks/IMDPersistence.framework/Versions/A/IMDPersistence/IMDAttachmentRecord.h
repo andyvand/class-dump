@@ -6,7 +6,7 @@
 
 #import <IMDPersistence/IMDRecord.h>
 
-@class IMDMessageRecord, NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IMDAttachmentRecord : IMDRecord
 {
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,7 +30,7 @@
 - (unsigned long long);
 - (long long);
 - (int);
-- (void *);
+- (void *);
 - (const CDStruct_7ef4fb35 *);
 - (long long);
 - (_Bool);
@@ -38,7 +38,7 @@
 - (id);
 - (struct __CFArray **);
 - (id);
-- (long long);
+- (long long)?;
 - (_Bool);
 - (id);
 - (void);
@@ -47,39 +47,7 @@
     WHEN (;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAdaptiveImageGlyph) _Bool adaptiveImageGlyph;
-@property(readonly, copy, nonatomic) NSDictionary *attributionInfo;
-@property(readonly, copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(readonly, copy, nonatomic) NSData *ckServerChangeTokenBlob; // @dynamic ckServerChangeTokenBlob;
-@property(readonly, nonatomic) long long ckSyncState; // @dynamic ckSyncState;
-@property(readonly, copy, nonatomic) NSString *cloudRecordID;
-@property(readonly, copy, nonatomic) NSData *cloudServerChangeToken;
-@property(readonly, nonatomic) long long cloudSyncState;
-@property(readonly, nonatomic, getter=isCommSafetySensitive) _Bool commSafetySensitive;
-@property(readonly, copy, nonatomic) NSDate *createdDate; // @dynamic createdDate;
-@property(readonly, copy, nonatomic) NSString *emojiImageContentIdentifier;
-@property(readonly, copy, nonatomic) NSString *emojiImageShortDescription;
 @property(readonly, copy, nonatomic) NSString *filename; // @dynamic filename;
-@property(readonly, copy, nonatomic) NSString *guid; // @dynamic guid;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) _Bool hideAttachment; // @dynamic hideAttachment;
-@property(readonly, nonatomic) IMDMessageRecord *messageRecord;
-@property(readonly, copy, nonatomic) NSString *mimeType; // @dynamic mimeType;
-@property(readonly, copy, nonatomic) NSString *originalGUID; // @dynamic originalGUID;
-@property(readonly, nonatomic, getter=isOutgoing) _Bool outgoing; // @dynamic outgoing;
-@property(readonly, copy, nonatomic) NSString *path;
-@property(readonly, nonatomic) long long previewGenerationState;
-@property(readonly, nonatomic) long long rawCreatedDate; // @dynamic rawCreatedDate;
-@property(readonly, nonatomic) long long rowID;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(readonly, nonatomic, getter=isSticker) _Bool sticker; // @dynamic sticker;
-@property(readonly, copy, nonatomic) NSDictionary *stickerUserInfo;
-@property(readonly, nonatomic) long long totalBytes; // @dynamic totalBytes;
-@property(readonly, copy, nonatomic) NSString *transferName; // @dynamic transferName;
-@property(readonly, nonatomic) long long transferState; // @dynamic transferState;
-@property(readonly, copy, nonatomic) NSDictionary *transferUserInfo;
-@property(readonly, copy, nonatomic) NSString *uti; // @dynamic uti;
-@property(readonly, copy, nonatomic) NSString *utiString;
 
 @end
 

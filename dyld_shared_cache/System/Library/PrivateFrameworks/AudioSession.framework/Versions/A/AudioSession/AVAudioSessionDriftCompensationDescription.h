@@ -15,7 +15,6 @@
 
 // Remaining properties
 @property _Bool enabled;
-@property unsigned long long quality;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString;
-@protocol CNSchedulerProvider, CNUILikenessRendering, CNUIPRLikenessResolver;
+@protocol CNUIPRLikenessResolver;
 
 @interface CNAvatarViewControllerSettings
 {
     _Bool _threeDTouchEnabled;
-    CNContactStore *_contactStore;
-    unsigned long long _style;
-    unsigned long long _backgroundStyle;
-    NSString *_personaId;
-    id <CNUIPRLikenessResolver> _likenessResolver;
-    id <CNUILikenessRendering> _likenessRenderer;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (_Bool);
@@ -33,8 +25,8 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)isMemberOfClass: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -49,14 +41,7 @@
 - (id)l;
 
 // Remaining properties
-@property(nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) id <CNUILikenessRendering> likenessRenderer; // @synthesize likenessRenderer=_likenessRenderer;
 @property(retain, nonatomic) id <CNUIPRLikenessResolver> likenessResolver; // @synthesize likenessResolver=_likenessResolver;
-@property(nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(nonatomic) _Bool threeDTouchEnabled; // @synthesize threeDTouchEnabled=_threeDTouchEnabled;
 
 @end
 

@@ -7,15 +7,10 @@
 @interface AWDSafariDuplicatedPasswordsWarningEvent
 {
     unsigned long long _timestamp;
-    int _duplicatedPasswordsWarningInteractionType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int duplicatedPasswordsWarningInteractionType:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
 - (int);
@@ -29,16 +24,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void));
 - (void);
 - (id);
-- (id);
+- (id)J;
 
 // Remaining properties
-@property(nonatomic) int duplicatedPasswordsWarningInteractionType; // @synthesize duplicatedPasswordsWarningInteractionType=_duplicatedPasswordsWarningInteractionType;
-@property(nonatomic) _Bool hasDuplicatedPasswordsWarningInteractionType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

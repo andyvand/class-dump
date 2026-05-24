@@ -4,12 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
+@class CKBrowserDragControllerTarget, CKStickerReactionSession, IMSticker, NSArray, NSMutableDictionary, NSString, UIKeyboardLayoutGuide;
+@protocol CKBrowserDragControllerTranscriptDelegate;
 
 @protocol CKChatInputControllerDelegate
+- (void);
+- (void)setHintTextViewHeightConstraint:(NSMutableDictionary *)arg1;
+- (void)presentExportViewForAttachment:(IMSticker *)arg1 window:(CKBrowserDragControllerTarget *)arg2;
+- (void):shareHandler:cancelHandler: /* Error: Ran out of types for this method. */;
+- (void)persistAttachmentData:(IMSticker *)arg1 error:(CKStickerReactionSession *)arg2;
+- (long long)needsDocumentUpdate;
+- (UIKeyboardLayoutGuide *)_shouldDisplayLearnMoreLink;
+- (_Bool)_shouldAutoExpandSingleSection;
+- (_Bool)_intervalBeforeOpeningProgressDialog;
+- (_Bool)_insideSystemPaper;
+- (void)mension;
+- (NSArray *)ext",R,N,V_context;
+- (NSMutableDictionary *)tionsDelegate>",N,W,VsuggestionsDelegate;
+- (void)ICShareNoteExporter;
+- (id <CKBrowserDragControllerTranscriptDelegate>);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)areCSg_G;
+- (void)StyleP;
+- (void)G;
+- (void)r record %@ is not a share %@;
+- (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *fileURLKeyToGuidMapping;
 @property(readonly, nonatomic, getter=isKeyboardVisible) _Bool keyboardVisible;
 @end
 

@@ -6,16 +6,11 @@
 
 #import <NotesUI/ICInlineCanvasTextAttachment.h>
 
-@class ICDrawingHashtagsAndMentionsController, ICInlineDrawingChangeCoalescer, NSHashTable, NSString, NSView;
+@class ICInlineDrawingChangeCoalescer;
 
 @interface ICInlineDrawingTextAttachment : ICInlineCanvasTextAttachment
 {
     _Bool _isHandlingDrawingDidChange;
-    ICInlineDrawingChangeCoalescer *_changeCoalescer;
-    NSHashTable *_inlineDrawingViews;
-    ICDrawingHashtagsAndMentionsController *_hashtagsAndMentionsController;
-    NSView *_cachedDrawingViewForPlaceView;
-    NSView *_cachedControlViewForPlaceView;
 }
 
 - (void);
@@ -23,44 +18,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (struct CGRect)e.reminders;
 - (struct CGRect);
-- (struct CGRect);
-- (id);
+- (id);
 - (id)
 × ;
-- (void)anges;
+- (void)_numberOfChanges;
 
 // Remaining properties
-@property(nonatomic) __weak NSView *cachedControlViewForPlaceView; // @synthesize cachedControlViewForPlaceView=_cachedControlViewForPlaceView;
-@property(nonatomic) __weak NSView *cachedDrawingViewForPlaceView; // @synthesize cachedDrawingViewForPlaceView=_cachedDrawingViewForPlaceView;
 @property(retain, nonatomic) ICInlineDrawingChangeCoalescer *changeCoalescer; // @synthesize changeCoalescer=_changeCoalescer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICDrawingHashtagsAndMentionsController *hashtagsAndMentionsController; // @synthesize hashtagsAndMentionsController=_hashtagsAndMentionsController;
-@property(retain, nonatomic) NSHashTable *inlineDrawingViews; // @synthesize inlineDrawingViews=_inlineDrawingViews;
-@property(nonatomic) _Bool isHandlingDrawingDidChange; // @synthesize isHandlingDrawingDidChange=_isHandlingDrawingDidChange;
-@property(readonly) Class superclass;
 
 @end
 

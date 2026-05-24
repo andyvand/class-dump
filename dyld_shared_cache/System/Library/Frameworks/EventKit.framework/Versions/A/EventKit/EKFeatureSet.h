@@ -13,10 +13,10 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (unsigned long long);
-+ (void);
++ (unsigned long long)uarpPayloadVersionInfo={UARP4ccTag=CCCC}{UARPVersion=IIII}{UARPVersion=IIII}}24;
++ (void)sendFirmwareUpdateProgressForUARPConsent:bytesSent:bytesTotal: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);

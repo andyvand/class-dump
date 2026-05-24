@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.CameraRecordingLoadBalancerErrorResultTracker
 {
     id errorResult;
-    id demotionTimeInterval;
-    id probationTimeInterval;
-    id demotionEndDate;
-    id probationEndDate;
 }
 
 - (void);

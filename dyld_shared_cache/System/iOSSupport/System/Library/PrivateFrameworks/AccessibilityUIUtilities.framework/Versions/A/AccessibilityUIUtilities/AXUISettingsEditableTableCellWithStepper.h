@@ -6,55 +6,47 @@
 
 #import <AccessibilityUIUtilities/AXUISettingsEditableTextCell.h>
 
-@class UILabel, UIStepper;
-@protocol AXUISettingsEditableTableCellWithStepperDelegate;
+@class UIStepper;
 
 @interface AXUISettingsEditableTableCellWithStepper : AXUISettingsEditableTextCell
 {
     _Bool _testingUseNoPreferencesDelegate;
-    UIStepper *_stepper;
-    id <AXUISettingsEditableTableCellWithStepperDelegate> _delegate;
-    UILabel *_secondsLabel;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)f|;
+- (void);
+- (void);
+- (id)|;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)|;
+- (void)h|;
+- (id)|;
+- (void);
+- (id);
 - (id);
 - (double);
 - (void);
-- (double);
-- (double);
-- (long long);
-- (void);
-- (_Bool);
-- (double);
+- (double)oh|;
+- (double);
+- (long long)|;
+- (void);
+- (_Bool)h|;
+- (double);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)m;
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (void);
+- (id)t;
+- (id);
+- (void)(;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXUISettingsEditableTableCellWithStepperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UILabel *secondsLabel; // @synthesize secondsLabel=_secondsLabel;
-@property(readonly, nonatomic) _Bool shouldResizeTextFieldOnUpdate;
 @property(retain, nonatomic) UIStepper *stepper; // @synthesize stepper=_stepper;
-@property(nonatomic) _Bool testingUseNoPreferencesDelegate; // @synthesize testingUseNoPreferencesDelegate=_testingUseNoPreferencesDelegate;
 
 @end
 

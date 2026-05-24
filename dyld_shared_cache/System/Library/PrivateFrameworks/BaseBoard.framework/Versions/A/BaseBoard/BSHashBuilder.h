@@ -31,8 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)tingField:(id)arg1 containsClass:forTag: /* Error: Ran out of types for this method. */;
+- (id)!;
+- (id)addRepeatingField:(id)arg1 containsClass:forTag: /* Error: Ran out of types for this method. */;
 
 @end
 

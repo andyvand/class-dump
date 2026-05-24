@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBNewsCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _overlayTextInImage;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
-    _SFPBImage *_thumbnail;
-    _SFPBImage *_providerImage;
-    _SFPBRichText *_providerTitle;
 }
 
 - (void);
@@ -45,22 +31,22 @@
 - (void);
 - (id);
 - (id);
+- (_Bool)eMetrics",R,N,V_aggregatedPerformanceMetrics;
+- (_Bool)cUserState",&,N,V_music;
+- (void);
+- (id);
+- (void)M0;
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)n vendor to handle audio session activation state change to:(id)arg1 %d;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)pinEntryForKey:(id)arg1 requestID:inFlightRequestID: /* Error: Ran out of types for this method. */;
+- (id)or extensions.;
 - (void);
 - (id);
 - (id);
@@ -71,29 +57,7 @@
 - (int)6;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool overlayTextInImage; // @synthesize overlayTextInImage=_overlayTextInImage;
-@property(retain, nonatomic) _SFPBImage *providerImage; // @synthesize providerImage=_providerImage;
-@property(retain, nonatomic) _SFPBRichText *providerTitle; // @synthesize providerTitle=_providerTitle;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

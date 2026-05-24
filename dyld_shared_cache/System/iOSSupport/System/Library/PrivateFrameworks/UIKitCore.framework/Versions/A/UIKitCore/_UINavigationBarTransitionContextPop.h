@@ -10,32 +10,27 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarTransitionContextPop : _UINavigationBarTransitionContext
 {
     struct CGRect _endingNewTitleViewFrame;
-    struct CGRect _endingNewBackButtonFrame;
-    struct CGSize _titleTransitionDistance;
-    struct CGSize _titleTransitionDistanceExcludingLargeTitleOffset;
-    double _titleTransitionAdjustment;
-    _Bool _unfreezeTitleControlOnFinish;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ance.;
 - (void);
 - (void);
 - (void);
 - (void)ùQ`ð1Â0@ù
 × ;
-- (void)rTextField;
-- (void)imateEffectUpdateWithProgress:ended: /* Error: Ran out of types for this method. */;
-- (void)fectiveTintColor;
+- (void)searchBarTextField;
+- (void)_animateEffectUpdateWithProgress:ended: /* Error: Ran out of types for this method. */;
+- (void)__effectiveTintColor;
 - (void);
 - (void);
 - (void)st be retrieved by calling dequeueConfiguredReusableSupplementaryViewWithRegistration:forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 - (void)old exactly 4 constraints, in order:top, left, bottom, right /* Error: Ran out of types for this method. */;
 - (void)5795ECF42D1731A87823B);
-- (void);
+- (void)Sg;
 - (long long)z\;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface UISDeviceContext
 {
@@ -15,31 +15,25 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)qA;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (long long);
 - (double);
-- (long long);
+- (long long)Wk;
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)staleIntervalLapsed;
+- (_Bool)(!``i;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

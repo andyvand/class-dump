@@ -14,7 +14,7 @@
 }
 
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)S;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)ta;
-- (void)available;
+- (unsigned long long)_encryptionPublicKeyData;
+- (void)bluetoothUnavailable;
 
 @end
 

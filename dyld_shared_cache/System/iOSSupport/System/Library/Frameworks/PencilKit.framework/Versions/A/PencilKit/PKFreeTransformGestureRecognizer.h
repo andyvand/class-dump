@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableOrderedSet;
-
 @interface PKFreeTransformGestureRecognizer
 {
     _Bool _allowSingleTouchDrag;
-    _Bool _axisAligned;
-    _Bool _canBegin;
-    _Bool _isScaling;
-    _Bool _isPanning;
-    double _startThreshold;
-    double _scaleThreshold;
-    double _cancelThreshold;
-    unsigned long long _allowedPanEdges;
-    double _minScale;
-    double _maxScale;
-    double _scaleDamping;
-    double _previousScale;
-    NSMutableOrderedSet *_touches;
-    double _deltaScale;
-    NSMapTable *_touchStartLocations;
-    NSMapTable *_actualTouchStartLocations;
-    struct CGAffineTransform _accumulatedTransform;
 }
 
 - (struct CGAffineTransform);
@@ -77,37 +58,15 @@
 - (id);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (void);
 - (void)numberWithUnsignedLong:(_Bool)arg1;
-- (void)kageViewWithContentsOfURL:(id)arg1 publishedObjectViewClassMap:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)loadPackageViewWithContentsOfURL:(id)arg1 publishedObjectViewClassMap:(id)arg2 completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform accumulatedTransform; // @synthesize accumulatedTransform=_accumulatedTransform;
-@property(retain, nonatomic) NSMapTable *actualTouchStartLocations; // @synthesize actualTouchStartLocations=_actualTouchStartLocations;
-@property(nonatomic) _Bool allowSingleTouchDrag; // @synthesize allowSingleTouchDrag=_allowSingleTouchDrag;
-@property(nonatomic) unsigned long long allowedPanEdges; // @synthesize allowedPanEdges=_allowedPanEdges;
-@property(nonatomic) _Bool axisAligned; // @synthesize axisAligned=_axisAligned;
 @property(nonatomic) _Bool canBegin; // @synthesize canBegin=_canBegin;
-@property(nonatomic) double cancelThreshold; // @synthesize cancelThreshold=_cancelThreshold;
-@property(nonatomic) double deltaScale; // @synthesize deltaScale=_deltaScale;
-@property(readonly, nonatomic) struct CGAffineTransform freeTransform;
-@property(nonatomic) _Bool isPanning; // @synthesize isPanning=_isPanning;
-@property(nonatomic) _Bool isScaling; // @synthesize isScaling=_isScaling;
-@property(nonatomic) double maxScale; // @synthesize maxScale=_maxScale;
-@property(nonatomic) double minScale; // @synthesize minScale=_minScale;
-@property(nonatomic) double previousScale; // @synthesize previousScale=_previousScale;
-@property(readonly, nonatomic) double scale;
-@property(nonatomic) double scaleDamping; // @synthesize scaleDamping=_scaleDamping;
-@property(readonly, nonatomic) _Bool scaleIsGrowing;
-@property(readonly, nonatomic) _Bool scaleIsShrinking;
-@property(nonatomic) double scaleThreshold; // @synthesize scaleThreshold=_scaleThreshold;
-@property(nonatomic) double startThreshold; // @synthesize startThreshold=_startThreshold;
-@property(retain, nonatomic) NSMapTable *touchStartLocations; // @synthesize touchStartLocations=_touchStartLocations;
-@property(readonly, nonatomic) NSMutableOrderedSet *touches; // @synthesize touches=_touches;
-@property(readonly, nonatomic) struct CGAffineTransform unscaledFreeTransform;
 
 @end
 

@@ -6,25 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface STSchemaSTAnswerSynthesisDataMetrics : SISchemaInstrumentationMessage
 {
     unsigned int _numLLMCalls;
-    unsigned int _promptLength;
-    unsigned int _responseLength;
-    unsigned int _numAnswers;
-    unsigned int _numQueriesTriggered;
-    int _pqaModelPromptLength;
-    NSArray *_answerSynthesisHydrationMetrics;
-    struct {
-        unsigned int numLLMCalls:1;
-        unsigned int promptLength:1;
-        unsigned int responseLength:1;
-        unsigned int numAnswers:1;
-        unsigned int numQueriesTriggered:1;
-        unsigned int pqaModelPromptLength:1;
-    } _has;
 }
 
 - (void);
@@ -67,30 +51,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setBundleShortVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)ABContactPickerDelegateWrapper;
+- (_Bool)setMessageGUIDUnderScrutiny:(id)arg1 ];
 - (id);
 - (id);
-- (id)elligenceAttempted;
-- (id)hasOther;
-- (void)ERLESS;
+- (id)deleteIsReadingIntelligenceAttempted;
+- (id)_hasOther;
+- (void)INVOCATIONSOURCE_SIRI_TRIGGERLESS;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *answerSynthesisHydrationMetrics; // @synthesize answerSynthesisHydrationMetrics=_answerSynthesisHydrationMetrics;
-@property(nonatomic) _Bool hasNumAnswers;
-@property(nonatomic) _Bool hasNumLLMCalls;
-@property(nonatomic) _Bool hasNumQueriesTriggered;
-@property(nonatomic) _Bool hasPqaModelPromptLength;
-@property(nonatomic) _Bool hasPromptLength;
-@property(nonatomic) _Bool hasResponseLength;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numAnswers; // @synthesize numAnswers=_numAnswers;
 @property(nonatomic) unsigned int numLLMCalls; // @synthesize numLLMCalls=_numLLMCalls;
-@property(nonatomic) unsigned int numQueriesTriggered; // @synthesize numQueriesTriggered=_numQueriesTriggered;
-@property(nonatomic) int pqaModelPromptLength; // @synthesize pqaModelPromptLength=_pqaModelPromptLength;
-@property(nonatomic) unsigned int promptLength; // @synthesize promptLength=_promptLength;
-@property(nonatomic) unsigned int responseLength; // @synthesize responseLength=_responseLength;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount;
+
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool)"kn;
+- (_Bool);
+- (void)P;
+- (_Bool)ion while sync'ing:(ACAccount *)arg1 %{public}@;
 @end
 

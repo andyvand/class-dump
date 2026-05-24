@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, NSArray, NSDate, NSNumber, NSString;
+@class NSArray, NSNumber, NSString;
 
 @protocol ICStorePlatformResponse
+- (NSNumber *);
 - (NSString *)IU^)w­ûuÅAhãVb/~u\Ð^îµjC=È}ï¢óøÑ]Óc8çÎ°Eð¿ò£¨ß[3h·à M;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accountIdentifier;
 @property(readonly, copy, nonatomic) NSArray *allItems;
-@property(readonly, copy, nonatomic) NSNumber *enqueuerAccountIdentifier;
-@property(readonly, copy, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics;
-@property(readonly, copy, nonatomic) id rawResponse;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier;
 @end
 

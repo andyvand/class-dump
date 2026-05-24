@@ -6,43 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    RGSiriSchemaRGError *_error;
-    CDStruct_6555f803 _has;
-    _Bool _hasError;
 }
 
 - (void);
-- (id);
+- (id)hh8;
 - (id);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Internal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobAsset_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)== 1 AND is_system_message == 0);;
+- (_Bool)eRecord.m;
 - (void);
 - (id);
 - (id);
-- (id)ernateQuerySuggestionTier1;
+- (id)alternateQuerySuggestionTier1;
 - (id)all;
 - (void).NLXClientEvent.CDMSetupMissingAssetsDetected;
-- (void)FailureDeveloperDefinedError;
-- (void)rgetPlatform;
+- (void)actionFailureDeveloperDefinedError;
+- (void)targetPlatform;
 - (_Bool)\[=ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

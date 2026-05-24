@@ -13,7 +13,7 @@
 - (CDStruct_5fe7aead);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long)JC;
 - (long long);
 - (unsigned int);
 - (double);
@@ -21,7 +21,7 @@
 - (unsigned short);
 - (void);
 - (float);
-- (short);
+- (short)ping -save {reminderID:%{public}@}. /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (int);
 - (const char *);

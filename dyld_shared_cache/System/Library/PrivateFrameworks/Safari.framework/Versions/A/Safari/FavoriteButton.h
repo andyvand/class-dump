@@ -6,20 +6,12 @@
 
 #import <Safari/RolloverTextButton.h>
 
-@class NSImageView, NSMenu, NSPressGestureRecognizer, NSString, SafariWebBookmark;
+@class SafariWebBookmark;
 
 __attribute__((visibility("hidden")))
 @interface FavoriteButton : RolloverTextButton
 {
     SafariWebBookmark *_bookmark;
-    NSMenu *_contentsMenu;
-    _Bool _drawForDragging;
-    _Bool _ignoreModifiers;
-    _Bool _menuOpen;
-    NSMenu *_contextMenu;
-    NSImageView *_iconView;
-    NSPressGestureRecognizer *_longPressRecognizer;
-    id _faviconRequestToken;
 }
 
 + (void);
@@ -27,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (_Bool);
-+ (id)ouldDetachTabForMouseEvent: /* Error: Ran out of types for this method. */;
++ (id)_shouldDetachTabForMouseEvent: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -55,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -82,13 +74,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)Tt;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -96,7 +88,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)%ld (Interval);
 - (id);
 - (_Bool);
 - (void)ÿÿ2;
@@ -105,13 +97,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ3È¸/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

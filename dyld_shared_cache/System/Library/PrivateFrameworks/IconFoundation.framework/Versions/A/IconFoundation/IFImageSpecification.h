@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface IFImageSpecification
 {
     double _scale;
-    double _relativeInset;
-    IFImageSpecification *_smallerSpecification;
-    IFImageSpecification *_largerSpecification;
-    NSSet *_tags;
-    struct CGSize _size;
-    struct CGSize _pixelsSize;
 }
 
-- (double);
-- (void);
-- (struct CGSize);
+- (double)`;
+- (void)__AUTH_CONST;
+- (struct CGSize)|@h>;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,20 +24,14 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)self;
 - (_Bool);
 - (void);
 - (id);
 - (double)abel Selectors Round (Tiger);
 
 // Remaining properties
-@property(retain, nonatomic) IFImageSpecification *largerSpecification; // @synthesize largerSpecification=_largerSpecification;
-@property(readonly) struct CGSize pixelsSize; // @synthesize pixelsSize=_pixelsSize;
-@property(readonly) double relativeInset; // @synthesize relativeInset=_relativeInset;
-@property(readonly) double scale; // @synthesize scale=_scale;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 @property(retain, nonatomic) IFImageSpecification *smallerSpecification; // @synthesize smallerSpecification=_smallerSpecification;
-@property(readonly) NSSet *tags; // @synthesize tags=_tags;
 
 @end
 

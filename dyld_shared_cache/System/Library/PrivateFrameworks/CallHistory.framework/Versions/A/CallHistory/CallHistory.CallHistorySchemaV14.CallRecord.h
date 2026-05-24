@@ -7,25 +7,6 @@
 @interface CallHistory.CallHistorySchemaV14.CallRecord
 {
     id _address;
-    id _answered;
-    id _call_category;
-    id _calltype;
-    id _date;
-    id _disconnected_cause;
-    id _duration;
-    id _face_time_data;
-    id _handle_type;
-    id _iso_country_code;
-    id _local_address;
-    id _location;
-    id _name;
-    id _number_availability;
-    id _originated;
-    id _read;
-    id _service_provider;
-    id _unique_id;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

@@ -12,7 +12,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (const struct sockaddr *);
 - (_Bool);
@@ -27,15 +27,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned short);
-- (id);
+- (unsigned short)!;
+- (id)a;
 
 // Remaining properties
-@property(readonly) unsigned short port;
 @property(readonly, nonatomic) const struct sockaddr *sa;
-@property(readonly, nonatomic) const struct sockaddr_in *sa4;
-@property(readonly, nonatomic) const struct sockaddr_in6 *sa6;
-@property(readonly, nonatomic) unsigned short saPortHostOrder;
 
 @end
 

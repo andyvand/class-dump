@@ -6,31 +6,19 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TTextField, NSLayoutConstraint, NSMutableArray, NSView;
+@class FI_TTextField, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTitleAndValueView : FI_TUpdateLayerView
 {
     NSMutableArray *_constraints;
-    NSLayoutConstraint *_titleAndValueGapConstraint;
-    double _titleAndValueGap;
-    double _valueViewBottomInset;
-    double _valueViewTopInset;
-    _Bool _loadedFromNib;
-    NSLayoutConstraint *_topMarginConstraint;
-    NSLayoutConstraint *_bottomMarginConstraint;
-    _Bool _allowWrappingTitle;
-    FI_TTextField *_titleField;
-    NSView *_valueView;
-    NSView *_separatorView;
-    double _maxTitleWidthPercentage;
 }
 
 - (double);
 - (double);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,23 +30,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)download:shouldDecodeSourceDataOfMIMEType: /* Error: Ran out of types for this method. */;
+- (void)alternativeStrings;
 - (void);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (void)l ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowWrappingTitle; // @synthesize allowWrappingTitle=_allowWrappingTitle;
-@property(nonatomic) double maxTitleWidthPercentage; // @synthesize maxTitleWidthPercentage=_maxTitleWidthPercentage;
-@property(retain, nonatomic) NSView *separatorView; // @synthesize separatorView=_separatorView;
-@property(nonatomic) double titleAndValueGap;
 @property(retain, nonatomic) FI_TTextField *titleField; // @synthesize titleField=_titleField;
-@property(retain, nonatomic) NSView *valueView; // @synthesize valueView=_valueView;
-@property(nonatomic) double valueViewBottomInset; // @synthesize valueViewBottomInset=_valueViewBottomInset;
-@property(nonatomic) double valueViewTopInset; // @synthesize valueViewTopInset=_valueViewTopInset;
 
 @end
 

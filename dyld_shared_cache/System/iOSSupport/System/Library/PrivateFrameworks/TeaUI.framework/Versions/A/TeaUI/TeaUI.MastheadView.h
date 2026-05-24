@@ -9,13 +9,12 @@
 @interface TeaUI.MastheadView
 {
     id contentView;
-    id scrollView;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)setSuppressIfFollowingTagIDs:(struct CGRect)arg1;
 - (id);
 - (void)¨<þÿ\ÿÿ;
 

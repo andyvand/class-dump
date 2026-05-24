@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSObject, geo_isolater;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface GEOSystemMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    geo_isolater *_isolater;
-    GEOObserverHashTable *_powerAdapterObservers;
-    GEOObserverHashTable *_chargingOnlyBatteryObservers;
-    GEOObserverHashTable *_batteryObservers;
-    int _powerAdapterNotifyToken;
-    int _batteryPercentNotifyToken;
-    _Bool _powerPluggedIn;
-    unsigned long long _batteryLevel;
 }
 
 + (id)ààÿ@³;
@@ -27,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)nData:(id)arg1;
-- (void)eep:(id)arg1;
-- (_Bool)ons;
+- (void)systemWillSleep:(id)arg1;
+- (_Bool)GEOURLOptions;
 - (unsigned long long)ÈX;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batteryLevel;
 @property(readonly, nonatomic, getter=isPowerAdapterConnected) _Bool powerAdapterConnected;
 
 @end

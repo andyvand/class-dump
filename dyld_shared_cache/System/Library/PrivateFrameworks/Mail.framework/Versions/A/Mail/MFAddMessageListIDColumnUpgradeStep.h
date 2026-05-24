@@ -6,32 +6,28 @@
 
 #import <Mail/MFLibraryUpgradeStep.h>
 
-@class NSArray, NSDictionary, NSProgress;
+@class NSArray;
 
 @interface MFAddMessageListIDColumnUpgradeStep : MFLibraryUpgradeStep
 {
     NSArray *_accounts;
-    NSDictionary *_mailboxPathsByMailboxURL;
-    NSProgress *_messageProgress;
 }
 
 + (unsigned long long);
 - (void);
 - (void);
+- (void)	?׵";
+- (id)@;
+- (id)*;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)NSSecureCoding;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(retain, nonatomic) NSDictionary *mailboxPathsByMailboxURL; // @synthesize mailboxPathsByMailboxURL=_mailboxPathsByMailboxURL;
-@property(retain, nonatomic) NSProgress *messageProgress; // @synthesize messageProgress=_messageProgress;
 
 @end
 

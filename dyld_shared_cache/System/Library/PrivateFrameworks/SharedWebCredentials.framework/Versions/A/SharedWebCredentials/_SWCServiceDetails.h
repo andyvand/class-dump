@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, _SWCServiceSpecifier;
-
 @interface _SWCServiceDetails
 {
     struct SWCFields _fields;
-    _SWCServiceSpecifier *_serviceSpecifier;
 }
 
 + (_Bool);
@@ -18,7 +15,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)c`S";
 + (_Bool);
 + (id);
 + (_Bool);
@@ -26,21 +23,21 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)IFGraphicsContext;
 + (void);
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
+- (_Bool)4F2;
+- (void)3;
 - (_Bool);
+- (_Bool)E2;
+- (_Bool);
+- (unsigned char)1;
+- (id)y3;
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned char);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,29 +47,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)EXBrightSILEnabled;
 - (id);
 - (BOOL);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property(readonly, getter=isAlwaysEnabled) _Bool alwaysEnabled;
 @property(readonly, getter=isApproved) _Bool approved;
-@property(readonly, getter=isEnabledByDefault) NSNumber *enabledByDefault;
-@property(readonly, getter=isEnterpriseManaged) _Bool enterpriseManaged;
-@property(readonly) unsigned char frameworkApprovalState;
-@property(readonly) BOOL modeOfOperation;
-@property(readonly, getter=wasProvidedByAdditionalServiceDetailsProvider) _Bool providedByAdditionalServiceDetailsProvider;
-@property(readonly, getter=wasReadFromDisk) _Bool readFromDisk;
-@property(readonly) _SWCServiceSpecifier *serviceSpecifier; // @synthesize serviceSpecifier=_serviceSpecifier;
-@property(readonly) unsigned char siteApprovalState;
-@property(readonly, getter=isSystemApplication) _Bool systemApplication;
-@property(readonly, getter=isSystemPlaceholder) _Bool systemPlaceholder;
-@property(readonly, getter=isUpdating) _Bool updating;
-@property(nonatomic) unsigned char userApprovalState;
-@property(readonly, getter=isWatchKitExtension) _Bool watchKitExtension;
 
 @end
 

@@ -8,37 +8,25 @@ __attribute__((visibility("hidden")))
 @interface _TDPackerNode
 {
     _Bool _used;
-    _Bool _fit;
-    _TDPackerNode *_down;
-    _TDPackerNode *_right;
-    void *_node;
-    struct CGSize _size;
-    struct CGPoint _origin;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)AccessibilityReaderEnabled;
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)adjustedFullChargeDeadlineWithSignals:withDesktopMode:withFullChargeDeadline:withResult: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)scheduledTimerWithTimeInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)_EKVirtualConferenceInfoDetailsKey;
 - (void);
 - (void *);
 
 // Remaining properties
-@property(retain, nonatomic) _TDPackerNode *down; // @synthesize down=_down;
-@property(nonatomic) _Bool fit; // @synthesize fit=_fit;
-@property(nonatomic) void *node; // @synthesize node=_node;
-@property(nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) _TDPackerNode *right; // @synthesize right=_right;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(nonatomic) _Bool used; // @synthesize used=_used;
 
 @end

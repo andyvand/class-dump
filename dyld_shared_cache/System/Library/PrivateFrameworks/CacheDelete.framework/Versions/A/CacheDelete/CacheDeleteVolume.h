@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface CacheDeleteVolume
 {
     _Bool _isRoot;
-    int _dev;
-    unsigned int _block_size;
-    NSString *_fsType;
-    NSString *_mountPoint;
-    unsigned long long _initialFreespace;
-    NSDictionary *_thresholds;
-    NSString *_bsdName;
 }
 
 + (id);
-+ (long long);
++ (long long)nitiator,sessionID:(id)arg1 %@,%@,%@,Entering hysteresis state %lu;
 + (id);
 + (id);
 + (id);
@@ -31,18 +22,18 @@
 - (id);
 - (_Bool);
 - (unsigned int);
-- (id);
-- (unsigned long long);
+- (id)d (initiator rekey child followup KE);
+- (unsigned long long)!;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)hood;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,15 +47,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned int block_size; // @synthesize block_size=_block_size;
-@property(readonly, nonatomic) NSString *bsdName; // @synthesize bsdName=_bsdName;
-@property(readonly) int dev; // @synthesize dev=_dev;
-@property(readonly, nonatomic) NSString *fsType; // @synthesize fsType=_fsType;
-@property(readonly) unsigned long long initialFreespace; // @synthesize initialFreespace=_initialFreespace;
 @property(readonly) _Bool isRoot; // @synthesize isRoot=_isRoot;
-@property(readonly, nonatomic) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(readonly, nonatomic) long long state; // @dynamic state;
-@property(readonly, nonatomic) NSDictionary *thresholds; // @synthesize thresholds=_thresholds;
 
 @end
 

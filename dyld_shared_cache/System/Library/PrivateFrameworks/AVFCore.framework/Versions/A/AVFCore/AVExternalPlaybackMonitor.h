@@ -11,7 +11,7 @@
     AVExternalPlaybackMonitorInternal *_ivars;
 }
 
-+ (id);
++ (id)#;
 + (void)nge, but property value %@ is not numeric;
 - (_Bool);
 - (_Bool);
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, getter=isAirPlayVideoActive) _Bool airPlayVideoActive;
-@property(readonly, getter=isAirPlayVideoPlaying) _Bool airPlayVideoPlaying;
 
 @end
 

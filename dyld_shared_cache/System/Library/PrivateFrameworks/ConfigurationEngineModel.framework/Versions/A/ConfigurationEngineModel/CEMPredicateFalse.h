@@ -6,8 +6,6 @@
 
 #import <ConfigurationEngineModel/CEMPredicateBase.h>
 
-@class NSString;
-
 @interface CEMPredicateFalse : CEMPredicateBase
 {
 }
@@ -18,17 +16,11 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)der WHERE order_key=?;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

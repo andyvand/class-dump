@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteStep;
-
 __attribute__((visibility("hidden")))
 @interface _GEORouteMatchingSegment
 {
     unsigned int _startPointIndex;
-    float _startRouteCoordinateOffset;
-    float _endRouteCoordinateOffset;
-    CDStruct_2c43369c _startCoordinate;
-    CDStruct_2c43369c _endCoordinate;
-    GEOComposedRouteStep *_step;
 }
 
 - (id);

@@ -5,17 +5,9 @@
 //
 
 @protocol CNSharedProfileOnboardingStateController
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool accountCanCreateSNaP;
-@property(readonly, nonatomic) _Bool alwaysShowSNaPOnboarding;
-@property(readonly, nonatomic) long long currentOnboardingVersion;
-@property(readonly, nonatomic) _Bool deviceSupportsPosters;
-@property(readonly, nonatomic) _Bool iCloudSignedInToUseNicknames;
 @property(readonly, nonatomic) _Bool isPhotosReadyForOnboarding;
-@property(readonly, nonatomic) long long lastShowOnboardingVersionInSettings;
-@property(readonly, nonatomic) long long lastShownOnboardingVersion;
-@property(readonly, nonatomic) _Bool multiplePhoneNumbersTiedToAppleID;
-@property(readonly, nonatomic) _Bool shouldShowOnboarding;
 @end
 

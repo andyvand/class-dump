@@ -7,21 +7,10 @@
 @interface NewsUI2.EmailSignupAutomaticPresentor
 {
     id delegate;
-    id appConfigurationManager;
-    id appleAccount;
-    id userInfo;
-    id newsletterManager;
-    id bundleSubscriptionManager;
-    id sportsOnboardingManager;
-    id _cachedModel;
-    id emailSignupModelFactory;
-    id fineGrainedNewslettersHandler;
-    id featureAvailability;
-    id appLaunchMethodChecker;
 }
 
-- (void);
-- (id);
+- (void)MessagesGroup;
+- (id)I;
 - (void);
 - (void)¹_DQ;
 

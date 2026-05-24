@@ -6,21 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, _UIVisualEffectViewBackdropCaptureGroup;
 @protocol _UIVisualEffectViewParticipating;
 
 __attribute__((visibility("hidden")))
 @interface _UIVisualEffectBackingFakeView : UIView
 {
     UIView<_UIVisualEffectViewParticipating> *_containedView;
-    NSArray *_filters;
-    _UIVisualEffectViewBackdropCaptureGroup *_primaryCaptureGroup;
-    NSArray *_viewEffects;
-    UIView *_clientView;
 }
 
 - (id);
-- (void);
+- (void)_permanentTransferGUIDForTransfer:(id)arg1 inItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -29,30 +24,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)imageWithRenderingMode: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)!Ø@ùg°1Â0@ù
 × ;
 - (id)_setFileFeedbackType: /* Error: Ran out of types for this method. */;
-- (void)out;
-- (void)e;
-- (id)urEffectStyleLightKeyboard;
+- (void)UIViewController_viewWillLayout;
+- (void)Value;
+- (id)UIBlurEffectStyleLightKeyboard;
 - (void)ïM¾7yx_qd__GSgXwz_ä*¾7_î*¾7SHRz#¾7Rd__r__lXX;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *clientView; // @synthesize clientView=_clientView;
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView; // @synthesize containedView=_containedView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *primaryCaptureGroup; // @synthesize primaryCaptureGroup=_primaryCaptureGroup;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *viewEffects; // @synthesize viewEffects=_viewEffects;
 
 @end
 

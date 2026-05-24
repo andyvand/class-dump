@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
+@class NSArray;
 
 @interface _INPBHomeAutomationEntityProvider
 {
     struct _has;
-    NSArray *_accessoryNames;
-    _INPBString *_destinationDeviceId;
-    _INPBString *_homeName;
-    _INPBString *_intentDeviceQuantifier;
-    _INPBString *_intentDeviceType;
-    NSArray *_intentFromEntities;
-    _INPBString *_intentPlaceHint;
-    _INPBString *_intentReference;
-    NSArray *_roomNames;
-    NSArray *_serviceGroups;
-    NSArray *_serviceNames;
-    NSArray *_zoneNames;
 }
 
 + (Class);
@@ -35,6 +23,39 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id)TY;
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,87 +66,24 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)n activated connection;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)re proxcard (clientID=%{public}@);
 - (id);
 - (id);
-- (void)entBalance;
+- (void)currentBalance;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accessoryNames; // @synthesize accessoryNames=_accessoryNames;
-@property(readonly, nonatomic) unsigned long long accessoryNamesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBString *destinationDeviceId; // @synthesize destinationDeviceId=_destinationDeviceId;
-@property(readonly, nonatomic) _Bool hasDestinationDeviceId;
-@property(readonly, nonatomic) _Bool hasHomeName;
-@property(readonly, nonatomic) _Bool hasIntentDeviceQuantifier;
-@property(readonly, nonatomic) _Bool hasIntentDeviceType;
-@property(readonly, nonatomic) _Bool hasIntentPlaceHint;
-@property(readonly, nonatomic) _Bool hasIntentReference;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBString *homeName; // @synthesize homeName=_homeName;
-@property(retain, nonatomic) _INPBString *intentDeviceQuantifier; // @synthesize intentDeviceQuantifier=_intentDeviceQuantifier;
-@property(retain, nonatomic) _INPBString *intentDeviceType; // @synthesize intentDeviceType=_intentDeviceType;
-@property(copy, nonatomic) NSArray *intentFromEntities; // @synthesize intentFromEntities=_intentFromEntities;
-@property(readonly, nonatomic) unsigned long long intentFromEntitiesCount;
-@property(retain, nonatomic) _INPBString *intentPlaceHint; // @synthesize intentPlaceHint=_intentPlaceHint;
-@property(retain, nonatomic) _INPBString *intentReference; // @synthesize intentReference=_intentReference;
-@property(copy, nonatomic) NSArray *roomNames; // @synthesize roomNames=_roomNames;
-@property(readonly, nonatomic) unsigned long long roomNamesCount;
-@property(copy, nonatomic) NSArray *serviceGroups; // @synthesize serviceGroups=_serviceGroups;
-@property(readonly, nonatomic) unsigned long long serviceGroupsCount;
-@property(copy, nonatomic) NSArray *serviceNames; // @synthesize serviceNames=_serviceNames;
-@property(readonly, nonatomic) unsigned long long serviceNamesCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *zoneNames; // @synthesize zoneNames=_zoneNames;
-@property(readonly, nonatomic) unsigned long long zoneNamesCount;
 
 @end
 

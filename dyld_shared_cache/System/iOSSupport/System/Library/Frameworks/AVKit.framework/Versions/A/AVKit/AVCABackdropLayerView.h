@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, CAFilter, NSHashTable, UIColor, UIImage;
-
 __attribute__((visibility("hidden")))
 @interface AVCABackdropLayerView
 {
     _Bool _forceLowQualityEffect;
-    _Bool _overrideBlurOnlyFilter;
-    double _blurRadius;
-    UIImage *_variableBlurMaskImage;
-    UIColor *_customBackgroundColor;
-    AVCABackdropLayerView *_groupLeader;
-    NSHashTable *_dependents;
-    long long _activeBackdropEffect;
-    CAFilter *_blurFilter;
-    CAFilter *_variableBlurFilter;
 }
 
 + (id);
 + (Class);
 + (id);
-+ (id)onstraintLessThanOrEqualToAnchor:constant:priority: /* Error: Ran out of types for this method. */;
-+ (id)ckStatePlaybackCancelled;
++ (id)avkit_constraintLessThanOrEqualToAnchor:constant:priority: /* Error: Ran out of types for this method. */;
++ (id)AVExternalPlaybackStatePlaybackCancelled;
 - (void);
 - (void);
 - (id);
@@ -35,19 +24,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)gEntry:(_Bool)arg1:PrivateData::WorkoutSettings_WorkoutLocationType_IsValid(value) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (void);
+- (void)?;
+- (void)2iJ;
+- (id);
+- (void)parallaxInactiveFrame;
+- (long long)T{?=qiIq},N,V_livePhotoOriginalVideoDuration;
 - (double);
 - (void);
 - (id);
@@ -56,29 +45,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)nameComponents;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)model with client identifier %@ because it has a different model ID:%@ /* Error: Ran out of types for this method. */;
 - (void)InPicturePlaybackState";
-- (id)erViewController: /* Error: Ran out of types for this method. */;
+- (id)initWithPlayerViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long activeBackdropEffect; // @synthesize activeBackdropEffect=_activeBackdropEffect;
-@property(retain, nonatomic) CAFilter *blurFilter; // @synthesize blurFilter=_blurFilter;
-@property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;
-@property(nonatomic, getter=isCaptureOnly) _Bool captureOnly;
-@property(copy, nonatomic) UIColor *customBackgroundColor; // @synthesize customBackgroundColor=_customBackgroundColor;
-@property(readonly, nonatomic) NSHashTable *dependents; // @synthesize dependents=_dependents;
-@property(nonatomic) _Bool forceLowQualityEffect; // @synthesize forceLowQualityEffect=_forceLowQualityEffect;
 @property(nonatomic) __weak AVCABackdropLayerView *groupLeader; // @synthesize groupLeader=_groupLeader;
-@property(readonly, nonatomic) CABackdropLayer *layer; // @dynamic layer;
-@property(nonatomic) _Bool overrideBlurOnlyFilter; // @synthesize overrideBlurOnlyFilter=_overrideBlurOnlyFilter;
-@property(retain, nonatomic) CAFilter *variableBlurFilter; // @synthesize variableBlurFilter=_variableBlurFilter;
-@property(retain, nonatomic) UIImage *variableBlurMaskImage; // @synthesize variableBlurMaskImage=_variableBlurMaskImage;
 
 @end
 

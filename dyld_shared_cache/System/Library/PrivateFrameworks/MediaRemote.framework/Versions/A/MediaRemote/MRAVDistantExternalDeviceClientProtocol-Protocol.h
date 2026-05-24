@@ -5,5 +5,6 @@
 //
 
 @protocol MRAVDistantExternalDeviceClientProtocol
+- (void);
 @end
 

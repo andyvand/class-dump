@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PKIDSManager)
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 @end

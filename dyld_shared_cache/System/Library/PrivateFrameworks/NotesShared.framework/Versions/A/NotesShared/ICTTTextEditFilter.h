@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @interface ICTTTextEditFilter
 {
     _Bool _allowsMissingTimestamps;
-    _Bool _allowsMissingUsers;
-    NSSet *_allowedUserIDs;
-    NSSet *_allowedAttachmentIDs;
-    NSDate *_fromDate;
-    NSDate *_toDate;
 }
 
-- (void);
+- (void)R(;
 - (void);
 - (void);
 - (void);
@@ -31,17 +26,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)C;
 - (void);
 - (id)5ðoûÿ¨õÿ ;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedAttachmentIDs; // @synthesize allowedAttachmentIDs=_allowedAttachmentIDs;
 @property(copy, nonatomic) NSSet *allowedUserIDs; // @synthesize allowedUserIDs=_allowedUserIDs;
-@property(nonatomic) _Bool allowsMissingTimestamps; // @synthesize allowsMissingTimestamps=_allowsMissingTimestamps;
-@property(nonatomic) _Bool allowsMissingUsers; // @synthesize allowsMissingUsers=_allowsMissingUsers;
-@property(copy, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(copy, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

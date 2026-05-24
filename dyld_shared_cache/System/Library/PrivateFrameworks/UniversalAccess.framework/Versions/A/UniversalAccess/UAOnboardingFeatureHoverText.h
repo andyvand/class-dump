@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSImageView *__hoverTextHUDView;
 }
 
+- (void)DurationInSeconds"b1"imageResizingDurationInSeconds"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)nippetNextCardRequest"b1"isMachineUtterance"b1"isDisambiguation"b1"isLiveScoreRequest"b1};
+- (void)sExecutionTier1";
+- (id)maFLOWMediaPlayerPlaylistContext";
+- (void)arsDeleted"b1"levenshteinEditDistance"b1"isEmojiUsed"b1};
 - (_Bool);
 - (id);
 - (void);

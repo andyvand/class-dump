@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 @interface _UIScrollPocketCollectorInteraction
 {
@@ -17,20 +17,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (id)?@$A(BøC;
 - (void)ú©þÿ;
-- (id)_SS4darkSo8NSBundleCSg6bundlet;
+- (id)SS5light_SS4darkSo8NSBundleCSg6bundlet;
 - (void);
 - (void);
 - (void)ÓÙCÜl;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *_ancestralModelDescription;
-@property(nonatomic, copy) NSString *_name;
-@property(nonatomic, readonly) NSString *_recursiveModelDescription;
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

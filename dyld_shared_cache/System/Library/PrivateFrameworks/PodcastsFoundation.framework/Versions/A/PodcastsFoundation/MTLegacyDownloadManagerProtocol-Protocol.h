@@ -5,5 +5,7 @@
 //
 
 @protocol MTLegacyDownloadManagerProtocol
+- (void)R;
+- (void)V;
 @end
 

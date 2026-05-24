@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVContentIntersectingDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVLabel
 {
     _Bool _isOverVideo;
-    id <AVContentIntersectingDelegate> _contentIntersectingDelegate;
-    struct CGRect _contentIntersection;
 }
 
 - (struct CGRect);
@@ -25,19 +20,10 @@ __attribute__((visibility("hidden")))
 - (id)ù
 × ;
 - (void)Insets=dddd}24;
-- (_Bool)n;
+- (_Bool)currentTransition;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVContentIntersectingDelegate> contentIntersectingDelegate; // @synthesize contentIntersectingDelegate=_contentIntersectingDelegate;
 @property(nonatomic) struct CGRect contentIntersection; // @synthesize contentIntersection=_contentIntersection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isOverVideo) _Bool isOverVideo; // @synthesize isOverVideo=_isOverVideo;
-@property(readonly) Class superclass;
 
 @end
 

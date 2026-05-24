@@ -6,23 +6,16 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class CKRecordID, CKUploadRequestConfiguration, NSString;
+@class CKUploadRequestConfiguration;
 
 @interface CKMarkAssetBrokenOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _touchRepairZone;
-    _Bool _bypassPCSEncryptionForTouchRepairZone;
-    _Bool _simulateCorruptAsset;
-    _Bool _writeRepairRecord;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
-    CKRecordID *_recordID;
-    NSString *_field;
-    long long _listIndex;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)εB9;
+- (_Bool)h8U;
 - (void);
 - (void);
 - (void);
@@ -30,27 +23,20 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)`;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)P;
 - (void)`oDpr;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool bypassPCSEncryptionForTouchRepairZone; // @synthesize bypassPCSEncryptionForTouchRepairZone=_bypassPCSEncryptionForTouchRepairZone;
-@property(retain, nonatomic) NSString *field; // @synthesize field=_field;
-@property(nonatomic) long long listIndex; // @synthesize listIndex=_listIndex;
-@property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(nonatomic) _Bool simulateCorruptAsset; // @synthesize simulateCorruptAsset=_simulateCorruptAsset;
-@property(nonatomic) _Bool touchRepairZone; // @synthesize touchRepairZone=_touchRepairZone;
 @property(retain, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
-@property(nonatomic) _Bool writeRepairRecord; // @synthesize writeRepairRecord=_writeRepairRecord;
 
 @end
 

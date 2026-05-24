@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)nceUnit:(id)arg1;
++ (_Bool)setHasPreferredDistanceUnit:(id)arg1;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void)setFirstPassSource:(id)arg1;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)oblemStatusSize:(struct _NSZone *)arg1;
-- (id)eHypothesizerDelayer;
+- (id)setHasConstrainedProblemStatusSize:(struct _NSZone *)arg1;
+- (id)GEORouteHypothesizerDelayer;
 - (id)APPLICATION_IDENTIFIER;
 - (id)ä;
 

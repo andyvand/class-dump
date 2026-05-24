@@ -6,18 +6,19 @@
 
 #import <SceneKit/SCNTextureSource.h>
 
-@class NSString;
+@protocol MTLTexture;
 
 __attribute__((visibility("hidden")))
 @interface SCNCaptureDeviceOutputConsumerSource : SCNTextureSource
 {
-    CDStruct_1e850d63 _data;
-    struct __CVMetalTextureCache *_textureCache;
-    _Bool _videoMirrored;
-    _Bool _automaticallyAdjustsVideoMirroring;
-    _Bool _containsAlpha;
-    unsigned long long _width;
-    unsigned long long _height;
+    struct {
+        id videoOutput;
+        struct __CVBuffer *pixelBuffer;
+        id <MTLTexture> mtlTextureForRenderer;
+        id <MTLTexture> mtlTextureColorMatched;
+        id <MTLTexture> mtlTextureColorForColorMatchingComputeKernel;
+        struct CGColorSpace *pixelBufferColorSpace;
+    } _data;
 }
 
 - (void);
@@ -30,24 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool)dowProjection: /* Error: Ran out of types for this method. */;
+- (id)entifier;
+- (_Bool)setAutomaticallyAdjustsShadowProjection: /* Error: Ran out of types for this method. */;
 - (void)+Ü;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isVideoMirrored) _Bool videoMirrored;
 
 @end
 

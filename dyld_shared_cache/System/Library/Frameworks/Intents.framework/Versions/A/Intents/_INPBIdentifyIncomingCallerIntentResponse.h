@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBIdentifyIncomingCallerIntentResponse
 {
     CDStruct_bcb1eac0 _has;
-    int _statusCode;
-    NSArray *_callRecords;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (int);
 - (id);
@@ -30,26 +28,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)lic}s:(id)arg1 %u) _homeManager is activated but never fetches. Forcing home update;
 - (id);
-- (id);
-- (void)TypePropertyMetadataCapitalization;
+- (id);
+- (void)INTypePropertyMetadataCapitalization;
 - (int)Þÿ·Qëä;
 - (void)ÒvN_
 ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *callRecords; // @synthesize callRecords=_callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasStatusCode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

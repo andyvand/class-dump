@@ -7,11 +7,12 @@
 @class NSDictionary, NSItemProvider;
 
 @protocol UITextPasteItem
+- (void);
+- (void);
+- (void);
 - (NSDictionary *)ControllerAdaptiveColumnVisibility);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *defaultAttributes;
 @property(readonly, nonatomic) NSItemProvider *itemProvider;
-@property(readonly, nonatomic) id localObject;
 @end
 

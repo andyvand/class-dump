@@ -9,17 +9,14 @@
 @interface ILMessageFilterQueryRequest
 {
     NSString *_sender;
-    NSString *_messageBody;
-    NSString *_receiverISOCountryCode;
-    NSString *_extensionIdentifier;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)ondScreenDebugAssistant",R,N,V_debugAssistant;
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)vdb,Unexpected number of anchor points,SV,%s,N,%zu;
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(copy, nonatomic) NSString *receiverISOCountryCode; // @synthesize receiverISOCountryCode=_receiverISOCountryCode;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end
 

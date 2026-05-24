@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSString;
+@class NSDecimalNumber, NSString;
 
 @protocol GEOTransitFare
+- (unsigned int *);
+- (long long)data does not represent NSDictionary. Game over.;
 - (NSDecimalNumber *)dHeader"b1};
 - (NSString *)À);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cashOnly;
-@property(readonly, copy, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) NSArray *supportedICCardProviders;
-@property(readonly, nonatomic) unsigned int *supportedPaymentMethodIndexs;
-@property(readonly, nonatomic) unsigned long long supportedPaymentMethodIndexsCount;
-@property(readonly, nonatomic) long long type;
 @property(readonly, nonatomic) NSDecimalNumber *value;
 @end
 

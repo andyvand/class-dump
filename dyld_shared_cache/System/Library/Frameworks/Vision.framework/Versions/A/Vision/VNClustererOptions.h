@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface VNClustererOptions
 {
     float _threshold;
-    float _torsoThreshold;
-    NSString *_type;
-    NSString *_cachePath;
-    NSData *_state;
-    unsigned long long _requestRevision;
-    unsigned long long _torsoprintRequestRevision;
 }
 
 - (unsigned long long);
@@ -31,20 +25,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)childAccounts;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)bados;
 - (void);
 - (float);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachePath; // @synthesize cachePath=_cachePath;
-@property(nonatomic) unsigned long long requestRevision; // @synthesize requestRevision=_requestRevision;
-@property(retain, nonatomic) NSData *state; // @synthesize state=_state;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
-@property(nonatomic) float torsoThreshold; // @synthesize torsoThreshold=_torsoThreshold;
-@property(nonatomic) unsigned long long torsoprintRequestRevision; // @synthesize torsoprintRequestRevision=_torsoprintRequestRevision;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

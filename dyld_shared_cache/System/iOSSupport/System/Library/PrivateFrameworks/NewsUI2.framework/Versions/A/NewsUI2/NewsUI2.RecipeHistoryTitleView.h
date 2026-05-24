@@ -7,11 +7,10 @@
 @interface NewsUI2.RecipeHistoryTitleView
 {
     id titleLabel;
-    id containerView;
 }
 
 - (id);
-- (void);
+- (void)_explicitContentState;
 - (id);
 - (void)_ôbQÿ;
 

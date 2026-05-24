@@ -6,46 +6,28 @@
 
 #import <GameController/_GCDevicePhysicalInputElement.h>
 
-@class NSSet, NSString;
-@protocol GCRelativeInput, GCSwitchPositionInput;
+@protocol GCSwitchPositionInput;
 
 @interface GCGearShifterElement : _GCDevicePhysicalInputElement
 {
     _Bool _isPatternShifter;
-    union {
-        struct {
-            unsigned long long sourcesSlot;
-            unsigned long long positionMinSlot;
-            unsigned long long positionMaxSlot;
-            unsigned long long positionFieldSlot;
-            unsigned long long positionChangedHandlerSlot;
-            unsigned long long positionSlot;
-            unsigned long long timestampSlot;
-        } pattern;
-        struct {
-            unsigned long long sourcesSlot;
-            unsigned long long deltaChangedHandlerSlot;
-            unsigned long long deltaSlot;
-            unsigned long long timestampSlot;
-        } sequential;
-    } _impl;
 }
 
 + (unsigned short);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (struct _NSRange);
 - (CDUnknownBlockType);
-- (id);
+- (id)M;
 - (double);
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -59,31 +41,7 @@
 - (float)gDevices:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases;
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) float delta;
-@property(copy) CDUnknownBlockType deltaDidChangeHandler;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastDeltaLatency;
-@property(readonly) double lastDeltaTimestamp;
-@property(readonly) double lastPositionLatency;
-@property(readonly) double lastPositionTimestamp;
-@property(readonly, copy) NSString *localizedName;
 @property(readonly) id <GCSwitchPositionInput> patternInput;
-@property(readonly) long long position;
-@property(copy) CDUnknownBlockType positionDidChangeHandler;
-@property(readonly) struct _NSRange positionRange;
-@property(readonly, getter=isSequential) _Bool sequential;
-@property(readonly) id <GCRelativeInput> sequentialInput;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
 
 @end
 

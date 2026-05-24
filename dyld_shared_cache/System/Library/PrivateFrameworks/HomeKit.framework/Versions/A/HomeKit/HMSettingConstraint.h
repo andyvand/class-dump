@@ -5,13 +5,10 @@
 //
 
 @class NSUUID;
-@protocol NSCopying><NSSecureCoding;
 
 @interface HMSettingConstraint
 {
     NSUUID *_identifier;
-    long long _type;
-    id <NSCopying><NSSecureCoding> _value;
 }
 
 + (id);
@@ -24,19 +21,17 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)larder;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)cessoryDiagnosticInfoProtoSetupInfo",&,N,V_lastSetupInfo;
-- (void)tBulletinEvent;
+- (void)HMAudioAnalysisEventBulletinEventProtoAudioAnalysisEventBulletinEvent;
 
 // Remaining properties
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, copy) id <NSCopying><NSSecureCoding> value; // @synthesize value=_value;
 
 @end
 

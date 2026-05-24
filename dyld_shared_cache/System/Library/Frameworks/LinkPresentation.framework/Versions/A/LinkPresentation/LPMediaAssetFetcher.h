@@ -6,21 +6,12 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class AVURLAsset, NSMutableData, NSString, NSURL, NSURLSession;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPMediaAssetFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    AVURLAsset *_asset;
-    _Bool _hasAudio;
-    NSString *_MIMEType;
-    NSURLSession *_session;
-    NSMutableData *_receivedData;
-    _Bool _loadingIsNonAppInitiated;
-    _Bool _fetchIsNotUserInitiated;
-    _Bool _shouldDownloadIfPossible;
-    NSURL *_URL;
 }
 
 - (_Bool);
@@ -33,24 +24,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ay",&,N,V_idsToArchives;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)Warning:(id)arg1 t,%.3lf,h_GnssGeometryFreePsr_RavenIonosphere,beta==1.0,IPP is at one of the poles,cannot proceed;
+- (void)	k*;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldDownloadIfPossible; // @synthesize shouldDownloadIfPossible=_shouldDownloadIfPossible;
-@property(readonly) Class superclass;
 
 @end
 

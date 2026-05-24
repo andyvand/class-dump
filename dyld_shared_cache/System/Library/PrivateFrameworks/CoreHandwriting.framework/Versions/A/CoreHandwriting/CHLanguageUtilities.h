@@ -18,7 +18,8 @@
 + (_Bool);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)Q1
+q;
 + (id);
 + (_Bool);
 + (id);

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TRIAllocationStatusCursor;
+@protocol TRINotificationToken;
+
 @protocol TRIAllocationStatusProvider
+- (TRIAllocationStatusCursor *);
+- (_Bool)numberWithLongLong:(id <TRINotificationToken>)arg1;
+- (_Bool)@;
 @end
 

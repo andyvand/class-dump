@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeAlbumsFeature.CollectionContainerModel
 {
     id itemListManager;
-    id _$observationRegistrar;
 }
 
 @end

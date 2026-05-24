@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)isOneChatEnabled;
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)__MPModelRelationshipPodcastEpisodeAuthor__MAPPING_MISSING__;
 - (id);
 - (unsigned long long);
 - (void)
 × ;
 - (id)qeÐ1Â0@ù
 × ;
-- (_Bool)tPosition:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool)textStylingAtPosition:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
+- (id)_coverConstraintBottomAnchor;
 - (id)enUndocked;
 - (long long)hÅîÿÑuþÿ;
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalCalendar, EKCalendarItem, NSArray, NSDate, NSMutableDictionary, NSString, NSURL;
+@class EKCalendarItem;
 
 @interface CalCalendarItem
 {
     EKCalendarItem *_ekCalendarItem;
-    NSMutableDictionary *_unsavedRelateToDictionary;
 }
 
 + (id);
@@ -27,7 +26,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,22 +36,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)?qC;
+- (id)erences/com.apple.alf.plist;
+- (void)T	;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSArray *alarms;
-@property(retain) CalCalendar *calendar;
-@property(readonly, copy) NSDate *dateStamp;
 @property(retain, nonatomic) EKCalendarItem *ekCalendarItem; // @synthesize ekCalendarItem=_ekCalendarItem;
-@property(copy) NSString *notes;
-@property(copy) NSString *title;
-@property(readonly, copy) NSString *uid;
-@property(retain, nonatomic) NSMutableDictionary *unsavedRelateToDictionary; // @synthesize unsavedRelateToDictionary=_unsavedRelateToDictionary;
-@property(copy) NSURL *url;
 
 @end
 

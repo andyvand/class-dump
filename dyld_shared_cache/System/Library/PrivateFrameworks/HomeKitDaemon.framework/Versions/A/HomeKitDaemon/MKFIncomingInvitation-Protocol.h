@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFIncomingInvitationDatabaseID, NSData, NSNumber, NSString, NSURL, NSUUID;
+@class NSNumber, NSString;
 @protocol MKFHomeManager;
 
 @protocol MKFIncomingInvitation
+- (void);
+- (NSNumber *)a;
+- (NSString *);
 - (id <MKFHomeManager>) ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFIncomingInvitationDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *homeHasCameras;
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager;
-@property(copy, nonatomic) NSUUID *homeModelID;
-@property(copy, nonatomic) NSString *homeName;
-@property(copy, nonatomic) NSNumber *inviteePrivilege;
-@property(copy, nonatomic) NSString *inviterMergeID;
-@property(copy, nonatomic) NSString *inviterPairingIdentifier;
-@property(retain, nonatomic) NSData *inviterPairingPublicKey;
-@property(copy, nonatomic) NSString *inviterUserID;
-@property(retain, nonatomic) NSData *shareToken;
-@property(copy, nonatomic) NSURL *shareURL;
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioHardwareSystem, AVAudioSessionManager;
+@class AVAudioSessionManager;
 
 __attribute__((visibility("hidden")))
 @interface AVAudioSessionCallbackDispatcher
 {
     AVAudioSessionManager *mSessionManager;
-    AVAudioHardwareSystem *mHardwareSystem;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setLatestAutomaticBetaUnenrollmentDate;
 - (void);
 - (void);
 - (void);

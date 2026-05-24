@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface AVCoreImageFilterCustomVideoCompositor
 {
     NSObject<OS_dispatch_group> *_filteringRequestsInFlight;
-    _Bool _shouldCancelAllRequests;
-    NSObject<OS_dispatch_queue> *_defaultCIContextThreadSafety;
-    CIContext *_defaultCIContext;
 }
 
 + (void)and height must be nonnegative;
@@ -26,40 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canConformColorOfSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSObject<OS_dispatch_group> *filteringRequestsInFlight; // @synthesize filteringRequestsInFlight=_filteringRequestsInFlight;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *requiredPixelBufferAttributesForRenderContext;
 @property _Bool shouldCancelAllRequests; // @synthesize shouldCancelAllRequests=_shouldCancelAllRequests;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsHDRSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsSourceTaggedBuffers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsWideColorSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

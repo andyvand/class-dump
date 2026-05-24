@@ -5,5 +5,6 @@
 //
 
 @protocol VCStreamInputDelegate
+- (void)ĉRĩr;
 @end
 

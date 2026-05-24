@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTSpotlightRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)APSOasisCPUFloorRaiserRetainAssertion;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)updateWithContext:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)er;
+- (_Bool)roup table.;
 - (id);
-- (id);
-- (id)AppConfidence;
-- (id)sionSummary;
-- (_Bool)rSuppressionSessions;
-- (_Bool)MUNICATIONTASKTYPE_SEND;
-- (void)rrorDomain;
+- (id);
+- (id)deleteModelAppConfidence;
+- (id)_hasSessionSummary;
+- (_Bool)selfTriggerSuppressionSessions;
+- (_Bool)FLOWHOMECOMMUNICATIONTASKTYPE_SEND;
+- (void)ORCHSchemaORCHNLRouterBridgeErrorDomain;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

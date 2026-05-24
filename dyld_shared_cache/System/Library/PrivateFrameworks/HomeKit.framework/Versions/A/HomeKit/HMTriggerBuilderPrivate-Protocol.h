@@ -7,10 +7,11 @@
 @class HMActionSetBuilder, HMTriggerPolicy;
 
 @protocol HMTriggerBuilderPrivate
+- (HMActionSetBuilder *);
+- (HMTriggerPolicy *)Checksum use enabled through force.
+;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool nameIsConfigured;
 @property(retain, nonatomic) HMTriggerPolicy *policy;
-@property(readonly, nonatomic) HMActionSetBuilder *triggerOwnedActionSet;
 @end
 

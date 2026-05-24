@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSoftwareUpdateDocumentationAsset, NSMutableArray;
+@class HMSoftwareUpdateDocumentationAsset;
 
 __attribute__((visibility("hidden")))
 @interface HMSoftwareUpdateAssetCompletionsPair
 {
     HMSoftwareUpdateDocumentationAsset *_asset;
-    NSMutableArray *_completions;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)TriggerBuilderInternal;
+- (void)HMTimerTriggerBuilderInternal;
 
 // Remaining properties
 @property(retain) HMSoftwareUpdateDocumentationAsset *asset; // @synthesize asset=_asset;
-@property(retain) NSMutableArray *completions; // @synthesize completions=_completions;
 
 @end
 

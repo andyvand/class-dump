@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHomeDataManager
 {
     id recentSearchManager;
-    id origination;
 }
 
 @end

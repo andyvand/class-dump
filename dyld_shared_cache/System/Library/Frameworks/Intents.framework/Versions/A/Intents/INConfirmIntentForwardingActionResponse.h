@@ -6,28 +6,24 @@
 
 #import <Intents/INIntentForwardingActionResponse.h>
 
-@class INIntentResponse, NSData, NSSet;
+@class INIntentResponse;
 
 @interface INConfirmIntentForwardingActionResponse : INIntentForwardingActionResponse
 {
     INIntentResponse *_intentResponse;
-    NSData *_launchContextActivityData;
-    NSSet *_cacheItems;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)GCControllerCBDelegate;
 - (id);
-- (id);
-- (void);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)_ca.49b302d4-d474-11eb-ab35-f45c89abb0d9;
+- (void)provideAlarmsOptionsForSearchAlarm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *cacheItems; // @synthesize cacheItems=_cacheItems;
 @property(readonly, nonatomic) INIntentResponse *intentResponse; // @synthesize intentResponse=_intentResponse;
-@property(readonly, nonatomic) NSData *launchContextActivityData; // @synthesize launchContextActivityData=_launchContextActivityData;
 
 @end
 

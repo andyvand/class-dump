@@ -5,5 +5,8 @@
 //
 
 @protocol HMCameraClipManagerObserver
+
+@optional
+- (void)=;
 @end
 

@@ -11,8 +11,6 @@
 @interface MPSNNGramMatrixCalculation : MPSCNNKernel
 {
     id <MPSNNGramMatrixCallback> _propertyCallback;
-    struct MPSCNNGramFilters_s _filters;
-    float _alpha;
 }
 
 + (const struct MPSLibraryInfo *);

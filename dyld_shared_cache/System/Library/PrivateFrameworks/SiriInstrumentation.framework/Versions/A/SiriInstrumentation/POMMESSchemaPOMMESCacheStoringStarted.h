@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, POMMESSchemaPOMMESCacheEntry;
+@class POMMESSchemaPOMMESCacheEntry;
 
 @interface POMMESSchemaPOMMESCacheStoringStarted : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESCacheEntry *_entry;
-    NSString *_resultDomain;
-    unsigned int _resultSizeInBytes;
-    unsigned int _timeToLiveInSeconds;
-    struct {
-        unsigned int resultSizeInBytes:1;
-        unsigned int timeToLiveInSeconds:1;
-    } _has;
-    _Bool _hasEntry;
-    _Bool _hasResultDomain;
 }
 
 - (unsigned int);
@@ -40,30 +31,22 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)s granted, but an apply has already completed (reboot expected);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ry/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPersistentRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)essagesBefore:(id)arg1 %lld numberOfMessagesAfter:%lld threadIdentifier:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ent;
+- (id);
+- (id)_orchClientEvent;
 - (id)ted;
-- (void)TOMATION_BLOCKING_INTENT;
+- (void)FLOWDOMAINEXECUTIONTYPE_HOME_AUTOMATION_BLOCKING_INTENT;
 
 // Remaining properties
 @property(retain, nonatomic) POMMESSchemaPOMMESCacheEntry *entry; // @synthesize entry=_entry;
-@property(nonatomic) _Bool hasEntry; // @synthesize hasEntry=_hasEntry;
-@property(nonatomic) _Bool hasResultDomain; // @synthesize hasResultDomain=_hasResultDomain;
-@property(nonatomic) _Bool hasResultSizeInBytes;
-@property(nonatomic) _Bool hasTimeToLiveInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resultDomain; // @synthesize resultDomain=_resultDomain;
-@property(nonatomic) unsigned int resultSizeInBytes; // @synthesize resultSizeInBytes=_resultSizeInBytes;
-@property(nonatomic) unsigned int timeToLiveInSeconds; // @synthesize timeToLiveInSeconds=_timeToLiveInSeconds;
 
 @end
 

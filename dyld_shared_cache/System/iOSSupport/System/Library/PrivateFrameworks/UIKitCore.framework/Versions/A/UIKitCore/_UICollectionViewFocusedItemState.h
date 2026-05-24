@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UICollectionReusableView, UICollectionViewCell;
+@class UICollectionReusableView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewFocusedItemState
 {
     UICollectionReusableView *_reusableView;
-    NSIndexPath *_indexPath;
-    NSString *_elementKind;
-    unsigned long long _viewType;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)ers for in-progress ingestion of moment share %@;
++ (id)for message %@ is already done;
++ (id)state %@ (%lu);
++ (id)Payload:(id)arg1 %@ reset asset transfers:%@ /* Error: Ran out of types for this method. */;
++ (id)accept ShareURL for message:(id)arg1 %@ with bundleID:(id)arg2 %@ hasPayload:(unsigned long long)arg3 %@ reset asset transfers:%@ /* Error: Ran out of types for this method. */;
+- (id)Info:account:category:spamExtensionName: /* Error: Ran out of types for this method. */;
+- (id)_combinedPayloadAttachmentDictionary;
 - (id);
 - (id);
 - (id);
@@ -29,16 +26,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ùQ\1Â0@ù
 × ;
 - (id);
-- (id)pdateSelection;
-- (id)dicatorColorSR;
+- (id)updateSelection;
+- (id)textCorrectionIndicatorColorSR;
 - (void)@Ð²];
 
 // Remaining properties
-@property(readonly, nonatomic) UICollectionViewCell *cell;
-@property(readonly, nonatomic) NSString *elementKind; // @synthesize elementKind=_elementKind;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
 @property(readonly, nonatomic) UICollectionReusableView *reusableView; // @synthesize reusableView=_reusableView;
-@property(readonly, nonatomic) unsigned long long viewType; // @synthesize viewType=_viewType;
 
 @end
 

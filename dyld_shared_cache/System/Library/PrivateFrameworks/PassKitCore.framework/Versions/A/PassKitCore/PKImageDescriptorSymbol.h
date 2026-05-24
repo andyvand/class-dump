@@ -18,8 +18,8 @@
 + (_Bool)î%1Â0@ù
 × ;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)CoreRoutineMapItemSourcePortrait;
 - (void)groupPassUniqueIdentifiers:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

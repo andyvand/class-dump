@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)BROWSE_CHANNELS_FEED_VIEW_PRESENTATION_REASON;
 @end
 

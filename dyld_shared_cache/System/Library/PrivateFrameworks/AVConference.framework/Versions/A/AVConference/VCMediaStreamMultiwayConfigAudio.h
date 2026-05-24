@@ -6,18 +6,15 @@
 
 #import <AVConference/VCMediaStreamMultiwayConfig.h>
 
-@class NSDictionary, NSMutableDictionary, VCAudioRuleCollection;
+@class VCAudioRuleCollection;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamMultiwayConfigAudio : VCMediaStreamMultiwayConfig
 {
     VCAudioRuleCollection *_audioRules;
-    NSMutableDictionary *_v2CodecConfigurations;
-    _Bool _enableACC24ForGFT;
-    unsigned int _preferredMediaBitrate;
 }
 
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) VCAudioRuleCollection *audioRules; // @synthesize audioRules=_audioRules;
-@property(nonatomic) _Bool enableACC24ForGFT; // @synthesize enableACC24ForGFT=_enableACC24ForGFT;
-@property(nonatomic) unsigned int preferredMediaBitrate; // @synthesize preferredMediaBitrate=_preferredMediaBitrate;
-@property(readonly, nonatomic) NSDictionary *v2CodecConfigurations; // @synthesize v2CodecConfigurations=_v2CodecConfigurations;
 
 @end
 

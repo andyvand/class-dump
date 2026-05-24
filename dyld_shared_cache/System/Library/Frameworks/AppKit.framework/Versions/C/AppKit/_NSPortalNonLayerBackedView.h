@@ -6,8 +6,6 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSPortalNonLayerBackedView : NSView
 {
@@ -16,20 +14,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)ngKnobIsPressed;
+- (id)C;
+- (void)i
+;
+- (void)ssl_cipher_get_record_split_len;
+- (void)keyPathsForValuesAffectingKnobIsPressed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSView *sourceView;
-@property(readonly) Class superclass;
 
 @end
 

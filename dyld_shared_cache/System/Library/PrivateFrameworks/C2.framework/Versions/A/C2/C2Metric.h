@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)e memory object is bound to port.;
 + (id);
 + (id);
 

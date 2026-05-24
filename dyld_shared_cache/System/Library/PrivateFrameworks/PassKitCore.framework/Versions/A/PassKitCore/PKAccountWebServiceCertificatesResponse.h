@@ -6,26 +6,23 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKAccountWebServiceCertificatesResponse : PKAccountWebServiceResponse
 {
     _Bool _devSigned;
-    NSArray *_encryptionCertificates;
-    NSString *_encryptionVersion;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)hhx
+;
 - (void)sionAssertion: /* Error: Ran out of types for this method. */;
 - (void)!;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
 @property(readonly, copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
 
 @end
 

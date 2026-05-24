@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNUIContainerContext
 {
     NSDictionary *_originalContainers;
-    NSArray *_selectedContainers;
 }
 
 - (void);
@@ -22,15 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void)gnmentEdge;
+- (void)alignmentEdge;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedContainers;
 @property(retain, nonatomic) NSDictionary *originalContainers; // @synthesize originalContainers=_originalContainers;
-@property(readonly, nonatomic) NSDictionary *removedContainers;
-@property(retain, nonatomic) NSArray *selectedContainers; // @synthesize selectedContainers=_selectedContainers;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTL4ArgumentTableDescriptor
 {
     unsigned long long _maxBufferBindCount;
-    unsigned long long _maxTextureBindCount;
-    unsigned long long _maxSamplerStateBindCount;
-    _Bool _initializeBindings;
-    _Bool _supportAttributeStrides;
-    NSString *_label;
 }
 
 - (void);
@@ -30,17 +23,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)aB;
 - (id);
 - (void)ertexVariant:(id)arg1 fragmentVariant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool initializeBindings; // @synthesize initializeBindings=_initializeBindings;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) unsigned long long maxBufferBindCount; // @synthesize maxBufferBindCount=_maxBufferBindCount;
-@property(nonatomic) unsigned long long maxSamplerStateBindCount; // @synthesize maxSamplerStateBindCount=_maxSamplerStateBindCount;
-@property(nonatomic) unsigned long long maxTextureBindCount; // @synthesize maxTextureBindCount=_maxTextureBindCount;
-@property(nonatomic) _Bool supportAttributeStrides; // @synthesize supportAttributeStrides=_supportAttributeStrides;
 
 @end
 

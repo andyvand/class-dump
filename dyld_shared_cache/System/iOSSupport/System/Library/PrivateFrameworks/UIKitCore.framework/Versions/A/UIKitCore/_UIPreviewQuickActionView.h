@@ -6,29 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UILabel, UIPreviewAction;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewQuickActionView : UIView
 {
     _Bool _selected;
-    UIPreviewAction *_quickAction;
-    UIImageView *_backgroundViewImage;
-    UIImageView *_imageView;
-    UILabel *_label;
 }
 
 - (void);
 - (void);
+- (id)initWithMessageID:service:compatibilityService:wasInterworked:encrypted: /* Error: Ran out of types for this method. */;
+- (void)_relayMessageDict:command:messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:extraOptions:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)erlay;
+- (id)_highlightViewIsOverlay;
 - (id)Type;
 - (void)Ð;
 - (void)essageConstructing>"8;
@@ -38,10 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak UIImageView *backgroundViewImage; // @synthesize backgroundViewImage=_backgroundViewImage;
-@property(nonatomic) __weak UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) __weak UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) UIPreviewAction *quickAction; // @synthesize quickAction=_quickAction;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

@@ -6,18 +6,16 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface CUINamedImageAtlas : CUINamedLookup
 {
     NSDictionary *_images;
-    NSArray *_renditions;
-    struct __CFArray *_atlasImages;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?5q;
 - (struct __CFArray *);
 - (void);
 - (double);
@@ -25,11 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool completeTextureExtrusion;
 @property(readonly, nonatomic) struct CGImage *image;
-@property(readonly, nonatomic) NSArray *imageNames;
-@property(readonly, nonatomic) struct __CFArray *images;
-@property(readonly, nonatomic) double scale;
 
 @end
 

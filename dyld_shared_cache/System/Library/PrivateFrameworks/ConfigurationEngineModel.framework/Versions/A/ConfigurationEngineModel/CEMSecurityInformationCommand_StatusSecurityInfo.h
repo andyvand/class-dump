@@ -6,29 +6,17 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettings, CEMSecurityInformationCommand_StatusSecurityInfoFirmwarePasswordStatus, NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecurityInformationCommand_StatusSecurityInfo : CEMPayloadBase
 {
     NSNumber *_statusHardwareEncryptionCaps;
-    NSNumber *_statusPasscodePresent;
-    NSNumber *_statusPasscodeCompliant;
-    NSNumber *_statusPasscodeCompliantWithProfiles;
-    NSNumber *_statusPasscodeLockGracePeriod;
-    NSNumber *_statusPasscodeLockGracePeriodEnforced;
-    NSNumber *_statusFDEEnabled;
-    NSNumber *_statusFDEHasPersonalRecoveryKey;
-    NSNumber *_statusFDEHasInstitutionalRecoveryKey;
-    NSData *_statusFDEPersonalRecoveryKeyCMS;
-    NSString *_statusFDEPersonalRecoveryKeyDeviceKey;
-    NSNumber *_statusSystemIntegrityProtectionEnabled;
-    CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettings *_statusFirewallSettings;
-    CEMSecurityInformationCommand_StatusSecurityInfoFirmwarePasswordStatus *_statusFirmwarePasswordStatus;
 }
 
 + (id);
 + (id);
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,9 +26,9 @@
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,30 +41,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R�;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)$/;
+- (id)_pG;
+- (void)read client key exchange B;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *statusFDEEnabled; // @synthesize statusFDEEnabled=_statusFDEEnabled;
-@property(copy, nonatomic) NSNumber *statusFDEHasInstitutionalRecoveryKey; // @synthesize statusFDEHasInstitutionalRecoveryKey=_statusFDEHasInstitutionalRecoveryKey;
-@property(copy, nonatomic) NSNumber *statusFDEHasPersonalRecoveryKey; // @synthesize statusFDEHasPersonalRecoveryKey=_statusFDEHasPersonalRecoveryKey;
-@property(copy, nonatomic) NSData *statusFDEPersonalRecoveryKeyCMS; // @synthesize statusFDEPersonalRecoveryKeyCMS=_statusFDEPersonalRecoveryKeyCMS;
-@property(copy, nonatomic) NSString *statusFDEPersonalRecoveryKeyDeviceKey; // @synthesize statusFDEPersonalRecoveryKeyDeviceKey=_statusFDEPersonalRecoveryKeyDeviceKey;
-@property(copy, nonatomic) CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettings *statusFirewallSettings; // @synthesize statusFirewallSettings=_statusFirewallSettings;
-@property(copy, nonatomic) CEMSecurityInformationCommand_StatusSecurityInfoFirmwarePasswordStatus *statusFirmwarePasswordStatus; // @synthesize statusFirmwarePasswordStatus=_statusFirmwarePasswordStatus;
 @property(copy, nonatomic) NSNumber *statusHardwareEncryptionCaps; // @synthesize statusHardwareEncryptionCaps=_statusHardwareEncryptionCaps;
-@property(copy, nonatomic) NSNumber *statusPasscodeCompliant; // @synthesize statusPasscodeCompliant=_statusPasscodeCompliant;
-@property(copy, nonatomic) NSNumber *statusPasscodeCompliantWithProfiles; // @synthesize statusPasscodeCompliantWithProfiles=_statusPasscodeCompliantWithProfiles;
-@property(copy, nonatomic) NSNumber *statusPasscodeLockGracePeriod; // @synthesize statusPasscodeLockGracePeriod=_statusPasscodeLockGracePeriod;
-@property(copy, nonatomic) NSNumber *statusPasscodeLockGracePeriodEnforced; // @synthesize statusPasscodeLockGracePeriodEnforced=_statusPasscodeLockGracePeriodEnforced;
-@property(copy, nonatomic) NSNumber *statusPasscodePresent; // @synthesize statusPasscodePresent=_statusPasscodePresent;
-@property(copy, nonatomic) NSNumber *statusSystemIntegrityProtectionEnabled; // @synthesize statusSystemIntegrityProtectionEnabled=_statusSystemIntegrityProtectionEnabled;
 
 @end
 

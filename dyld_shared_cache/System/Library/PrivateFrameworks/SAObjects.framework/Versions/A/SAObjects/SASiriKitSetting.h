@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
-
 @interface SASiriKitSetting : AceObject
 {
 }
@@ -16,24 +14,15 @@
 + (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool applySASToFirstPartyDomains;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *listOfSiriKitEnabledDomains;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useSASAutoSelectionFeature;
 
 @end
 

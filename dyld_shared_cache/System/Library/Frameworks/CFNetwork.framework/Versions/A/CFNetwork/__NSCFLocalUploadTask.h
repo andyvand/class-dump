@@ -6,33 +6,23 @@
 
 #import <CFNetwork/__NSCFLocalDataTask.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFLocalUploadTask : __NSCFLocalDataTask
 {
     _Bool _startedProducingResumeData;
-    CDUnknownBlockType _resumeCallback;
 }
 
-- (void);
+- (void)equalsmall;
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType resumeCallback; // @synthesize resumeCallback=_resumeCallback;
-@property(readonly) Class superclass;
 
 @end
 

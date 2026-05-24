@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCANFContent, FCWebContent, NSString;
+@class NSString;
 
 @interface FCArticleContent
 {
     NSString *_articleID;
-    unsigned long long _contentType;
-    FCWebContent *_webContent;
-    FCANFContent *_anfContent;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)={CGPoint=dd}{CGSize=dd}},N,V_footerFrame;
 - (id);
-- (id);
+- (id)_preferredChannelNumbers;
 - (_Bool);
 - (id);
-- (id);
+- (id)ICollectionView"16@"UICollectionViewCell"24@"NSIndexPath"32;
 - (id);
 - (id)R,C,N,V_layeredCoverPrimaryColor;
 - (unsigned long long)¼¸½ÀÁÃÃ;
 - (void)ldsparcore/Classes/FCIssuesFetchOperation.m;
-- (void)sEnabled;
+- (void)sportsNativeAdsEnabled;
 - (void)ÿE¶jäxÀÿE¶j¼:(unsigned long long)arg1 ¶ÿE¶jèA¶ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) FCANFContent *anfContent; // @synthesize anfContent=_anfContent;
 @property(copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(retain, nonatomic) FCWebContent *webContent; // @synthesize webContent=_webContent;
 
 @end
 

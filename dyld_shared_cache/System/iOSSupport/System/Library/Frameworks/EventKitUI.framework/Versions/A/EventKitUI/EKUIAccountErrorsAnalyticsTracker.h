@@ -8,14 +8,14 @@
 {
 }
 
++ (void)s;
 + (void);
++ (void)6&s;
++ (void);
 + (void);
++ (void)%s;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)%s;
 
 @end
 

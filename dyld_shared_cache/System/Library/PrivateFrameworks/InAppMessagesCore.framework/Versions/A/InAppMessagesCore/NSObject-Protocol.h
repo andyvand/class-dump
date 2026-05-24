@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class Protocol;
 
 @protocol NSObject
+- (unsigned long long)%{public}@;
+- (unsigned long long)Ka;
+- (_Bool)initWithSection:(Class)arg1 triggerEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)i!ɚ;
+- (_Bool)orkQueue-0:(Protocol *)arg1 >>> wait on enterGroup;
+- (struct _NSZone *)_fetchMessagesAndMetadataFromStorageCoordinator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

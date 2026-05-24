@@ -4,49 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 @interface UINibEncoder
 {
     struct __CFDictionary *objectsToObjectIDs;
-    struct __CFDictionary *objectIDsToObjects;
-    struct __CFArray *values;
-    struct __CFSet *encodedObjects;
-    NSMutableData *data;
-    struct __CFDictionary *replacements;
-    unsigned int nextObjectID;
-    struct {
-        unsigned int currentObjectID;
-        unsigned int nextAnonymousKey;
-    } recursiveState;
-    struct __CFSet *objectsReplacedWithNil;
-    id delegate;
-    struct __CFArray *encodedOrderedObjects;
-    struct __CFSet *objectsUniquedByValue;
-    _Bool _unorderedCollectionSortingEnabled;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)clear timeout;
++ (id)0s %-16llx ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)T	;
 - (void);
 - (void);
 - (void);
@@ -54,38 +33,41 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T;
+- (void);
+- (void);
+- (void);
+- (id)6fN;
+- (void);
+- (void);
+- (void)"b;
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (void)lr"><a:(_Bool)arg1 tint val="37000"/><a:(id)arg2 satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:tint val="15000"/><a:satMod val="350000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="1"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:shade val="51000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="80000"><a:schemeClr val="phClr"><a:shade val="93000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="94000"/><a:satMod val="135000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"><a:shade val="95000"/><a:satMod val="105000"/></a:schemeClr></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (void)invalid.
 ;
 - (void)caret index %lu (end) is nil;
 - (void)ld ;
-- (void)rgin;
+- (void)RightMargin;
 - (void)does not support non-keyed coding.;
 - (void)3uIb¥N2uYNNN
 bñ]^ìXxvö;
 - (void);
 
 // Remaining properties
-@property id delegate; // @synthesize delegate;
 @property(nonatomic, getter=isUnorderedCollectionSortingEnabled) _Bool unorderedCollectionSortingEnabled; // @synthesize unorderedCollectionSortingEnabled=_unorderedCollectionSortingEnabled;
 
 @end

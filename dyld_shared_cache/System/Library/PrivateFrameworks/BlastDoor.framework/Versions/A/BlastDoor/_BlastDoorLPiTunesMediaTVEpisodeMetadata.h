@@ -6,17 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaTVEpisodeMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_seasonName;
-    NSString *_genre;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -30,27 +24,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)a sticker %@;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)erverTime;
+- (void)updatedDateWithServerTime;
 - (void);
 - (id)ò(;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(copy, nonatomic) NSString *seasonName; // @synthesize seasonName=_seasonName;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

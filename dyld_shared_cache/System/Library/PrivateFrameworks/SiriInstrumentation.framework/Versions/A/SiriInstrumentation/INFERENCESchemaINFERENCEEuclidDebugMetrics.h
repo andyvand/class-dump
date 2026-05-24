@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEEuclidScoreStatistics, INFERENCESchemaINFERENCEEuclidTrialParameters, NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface INFERENCESchemaINFERENCEEuclidDebugMetrics : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_templateId;
-    INFERENCESchemaINFERENCEEuclidScoreStatistics *_euclidScoreStatistics;
-    INFERENCESchemaINFERENCEEuclidTrialParameters *_euclidTrialParameters;
-    NSArray *_euclidEntityTypeMatcheds;
-    _Bool _isLmePresent;
-    NSArray *_tokenWiseAsrConfidences;
-    unsigned int _numRowsVectorDb;
-    NSArray *_matchedTemplateIds;
-    struct {
-        unsigned int isLmePresent:1;
-        unsigned int numRowsVectorDb:1;
-    } _has;
-    _Bool _hasTemplateId;
-    _Bool _hasEuclidScoreStatistics;
-    _Bool _hasEuclidTrialParameters;
 }
 
 - (id);
@@ -70,7 +56,7 @@
 - (unsigned int);
 - (_Bool);
 - (int);
-- (id);
+- (id)@16@24@32@40@48@56;
 - (void);
 - (_Bool);
 - (id);
@@ -79,28 +65,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)1Â0@ù
 × ;
-- (id)e;
-- (id)Context;
+- (id)_sourceLanguage;
+- (id)NLXSchemaSSUBackgroundUpdateContext;
 - (void)X";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *euclidEntityTypeMatcheds; // @synthesize euclidEntityTypeMatcheds=_euclidEntityTypeMatcheds;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEEuclidScoreStatistics *euclidScoreStatistics; // @synthesize euclidScoreStatistics=_euclidScoreStatistics;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEEuclidTrialParameters *euclidTrialParameters; // @synthesize euclidTrialParameters=_euclidTrialParameters;
-@property(nonatomic) _Bool hasEuclidScoreStatistics; // @synthesize hasEuclidScoreStatistics=_hasEuclidScoreStatistics;
-@property(nonatomic) _Bool hasEuclidTrialParameters; // @synthesize hasEuclidTrialParameters=_hasEuclidTrialParameters;
-@property(nonatomic) _Bool hasIsLmePresent;
-@property(nonatomic) _Bool hasNumRowsVectorDb;
-@property(nonatomic) _Bool hasTemplateId; // @synthesize hasTemplateId=_hasTemplateId;
-@property(nonatomic) _Bool isLmePresent; // @synthesize isLmePresent=_isLmePresent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matchedTemplateIds; // @synthesize matchedTemplateIds=_matchedTemplateIds;
-@property(nonatomic) unsigned int numRowsVectorDb; // @synthesize numRowsVectorDb=_numRowsVectorDb;
 @property(retain, nonatomic) SISchemaUUID *templateId; // @synthesize templateId=_templateId;
-@property(copy, nonatomic) NSArray *tokenWiseAsrConfidences; // @synthesize tokenWiseAsrConfidences=_tokenWiseAsrConfidences;
 
 @end
 

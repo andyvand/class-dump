@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id)__auth_got;
 - (double)IndexPath"16@"NSNumber"24;
 - (struct CGRect)@);
 

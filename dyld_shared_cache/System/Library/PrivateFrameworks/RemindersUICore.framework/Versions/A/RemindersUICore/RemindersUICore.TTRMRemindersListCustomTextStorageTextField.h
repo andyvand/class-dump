@@ -9,11 +9,6 @@
 @interface RemindersUICore.TTRMRemindersListCustomTextStorageTextField : RemindersUICore.TTRMRemindersListTextField
 {
     id supportsStyling;
-    id disallowedTypingAttributes;
-    id hashtagTokenEditingBehavior;
-    id styleTypingAttributeState;
-    id textStoragePropertiesForFieldEditor;
-    id isolatedUndoManager;
 }
 
 + (void);
@@ -23,7 +18,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)enableSyntheticTagFollowEvents;
 - (id);
 - (id);
 - (void);

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRITreatmentQualifiedAssetIndex;
-
 @interface TRICKAssetMetadata
 {
     unsigned char _type;
-    NSString *_namespaceNameForEncryptionKey;
-    TRITreatmentQualifiedAssetIndex *_treatmentIndex;
-    unsigned long long _downloadSize;
-    unsigned long long _compressionMode;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)elementType;
+- (id)isSubclassOfClass: /* Error: Ran out of types for this method. */;
+- (id)initWithImageSize:(unsigned char)arg1 deviceResolution:(id)arg2 parallaxPadding:(id)arg3 visibleFrame:(unsigned long long)arg4 adaptiveVisibleFrame:(unsigned long long)arg5 inactiveFrame:adaptiveInactiveTopFrame:timeFrame:clockLayerOrder:clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
+- (id)fingerprintWithAssetAdjustmentFingerprintData:(id)arg1;
+- (id)exportItemStateQueue;
 - (id);
 - (id);
 - (id);
@@ -28,19 +22,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)setDoubleArray:(unsigned long long)arg1 count:atTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_intervalEndMCT;
 - (void)
 × ;
 - (unsigned long long)es read for NOT NULL column;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long compressionMode; // @synthesize compressionMode=_compressionMode;
-@property(readonly, nonatomic) unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(readonly, nonatomic) NSString *namespaceNameForEncryptionKey; // @synthesize namespaceNameForEncryptionKey=_namespaceNameForEncryptionKey;
-@property(readonly, nonatomic) TRITreatmentQualifiedAssetIndex *treatmentIndex; // @synthesize treatmentIndex=_treatmentIndex;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

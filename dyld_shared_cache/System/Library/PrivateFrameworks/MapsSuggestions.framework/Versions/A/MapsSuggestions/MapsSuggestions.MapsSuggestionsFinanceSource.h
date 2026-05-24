@@ -9,15 +9,12 @@
 @interface MapsSuggestions.MapsSuggestionsFinanceSource : MapsSuggestionsBaseSource
 {
     id _delegate;
-    id _financeKit;
-    id _updateCompleteHandler;
-    id queue;
 }
 
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -25,7 +22,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)lUncertainty;
+- (void)verticalUncertainty;
 
 @end
 

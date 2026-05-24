@@ -8,39 +8,6 @@
 {
     id siteID;
     id siteName;
-    id ckZoneName;
-    id state;
-    id location;
-    id utilityID;
-    id subscriptionID;
-    id accessToken;
-    id refreshToken;
-    id timezone;
-    id currentRatePlan;
-    id usagePointCustomIndex;
-    id usageSummaryCustomIndex;
-    id intervalBlockCustomIndex;
-    id ckFunctionToken;
-    id accountName;
-    id accountNumber;
-    id address;
-    id serviceLocationID;
-    id alternateSupplier;
-    id accessTokenExpirationDate;
-    id utilitySupportedCheckDate;
-    id amiLastRefreshDate;
-    id hasExportedEnergy;
-    id usagePointNextRefreshDate;
-    id usageSummaryNextRefreshDate;
-    id intervalBlockNextRefreshDate;
-    id subscriptionCreationDate;
-    id subscriptionStartDate;
-    id siteTombstone;
-    id siteVersion;
-    id generationMeters;
-    id includeRatePlanInGuidance;
-    id unknownFields;
-    id encoder;
 }
 
 + (void);

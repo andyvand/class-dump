@@ -6,23 +6,20 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, NSArray;
+@class FCCachePolicy;
 @protocol FCContentContext;
 
 @interface FCCurrentIssuesFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSArray *_resultIssues;
 }
 
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)gPluralizedDisplayName;
 - (void)nabled:forTagID:error:] /* Error: Ran out of types for this method. */;
@@ -33,10 +30,7 @@
 - (_Bool)Ò`m;
 
 // Remaining properties
-@property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(retain, nonatomic) NSArray *resultIssues; // @synthesize resultIssues=_resultIssues;
 
 @end
 

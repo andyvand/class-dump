@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, RWIDriverConfiguration, RWIDriverState, _RWIRelayClientConnection;
+@class RWIDriverConfiguration, _RWIRelayClientConnection;
 
 __attribute__((visibility("hidden")))
 @interface _RWIDriverInterfaceInfo
 {
     RWIDriverConfiguration *_configuration;
-    RWIDriverState *_state;
-    _RWIRelayClientConnection *_connection;
-    NSSet *_sessionIdentifiers;
 }
 
 - (void);
@@ -21,18 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
+- (id)webPlugInStopForPageCache;
 - (id);
-- (id);
-- (void);
+- (void)T;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
 @property(readonly, nonatomic) _RWIRelayClientConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSSet *sessionIdentifiers; // @synthesize sessionIdentifiers=_sessionIdentifiers;
-@property(readonly, copy, nonatomic) NSString *version;
 
 @end
 

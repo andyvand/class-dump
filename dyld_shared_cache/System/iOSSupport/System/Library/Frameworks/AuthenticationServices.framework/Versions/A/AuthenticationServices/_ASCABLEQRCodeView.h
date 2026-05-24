@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _ASCABLEQRCodeBadgeView, _ASCABLEQRCodeImageView;
+@class NSString;
 
 @interface _ASCABLEQRCodeView
 {
     NSString *_message;
-    _ASCABLEQRCodeImageView *_imageView;
-    UIView *_platterView;
-    _ASCABLEQRCodeBadgeView *_badgeView;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (double);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)tableName;
 - (void);
 
 @end

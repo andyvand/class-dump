@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSQLSchema, BMStoreStream, BMStreamConfiguration, NSString;
+@class BMStoreStream;
 
 @interface BMStreamBase
 {
     struct os_unfair_lock_s _lock;
-    BMStoreStream *_storeStream;
-    NSString *_identifier;
-    BMSQLSchema *_schema;
-    BMStreamConfiguration *_configuration;
 }
 
-+ (_Bool);
++ (_Bool)s;
 - (id);
 - (id);
 - (id);
@@ -86,13 +82,10 @@
 - (id)If1Ý;
 - (id);
 - (id);
-- (void);
+- (void)O;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BMStreamConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) BMSQLSchema *schema; // @synthesize schema=_schema;
 @property(readonly, nonatomic) BMStoreStream *storeStream;
 
 @end

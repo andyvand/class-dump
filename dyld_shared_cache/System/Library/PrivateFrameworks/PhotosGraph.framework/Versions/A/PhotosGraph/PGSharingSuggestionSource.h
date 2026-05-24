@@ -14,18 +14,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)e>",W,N,V_actionDelegate;
+- (_Bool)ray",R,C;
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)_;
 - (id)tosGraph.MagicSlotPeopleSource;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *details;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double weight;
 
 @end
 

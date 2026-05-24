@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (void);
++ (void)lock of -%@;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *assetURL; // @dynamic assetURL;

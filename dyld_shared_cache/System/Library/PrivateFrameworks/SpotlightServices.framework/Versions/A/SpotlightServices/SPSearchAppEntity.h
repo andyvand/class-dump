@@ -6,42 +6,36 @@
 
 #import <SpotlightServices/SPSearchEntity.h>
 
-@class LSApplicationRecord, NSString, NSURL;
+@class LSApplicationRecord, NSString;
 
 @interface SPSearchAppEntity : SPSearchEntity
 {
     NSString *_bundleIdentifier;
-    NSURL *_appURL;
-    NSString *_appName;
-    LSApplicationRecord *_appRecord;
 }
 
-+ (id);
++ (id)keyPathsForValuesAffecting_dummyPropertyForObservation;
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)storefrontCountryCodeFromPathComponent: /* Error: Ran out of types for this method. */;
+- (id)showQuoteIndicator;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (void)puteL2ScoresForVectors:secondVector:withServerFeatures:withBundleFeatures:experimentalWeight1:experimentalWeight2:shouldCancel:clientBundle: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void)computeL2ScoresForVectors:secondVector:withServerFeatures:withBundleFeatures:experimentalWeight1:experimentalWeight2:shouldCancel:clientBundle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *appName; // @synthesize appName=_appName;
 @property(readonly) LSApplicationRecord *appRecord; // @synthesize appRecord=_appRecord;
-@property(readonly) NSURL *appURL; // @synthesize appURL=_appURL;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 
 @end
 

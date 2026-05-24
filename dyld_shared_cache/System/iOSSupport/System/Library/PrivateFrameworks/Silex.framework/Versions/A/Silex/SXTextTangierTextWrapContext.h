@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDLayout, TSDWrapPolygon, TSUPointerKeyDictionary, TSWPColumn;
-@protocol TSWPLayoutTarget;
+@class TSUPointerKeyDictionary, TSWPColumn;
 
 @interface SXTextTangierTextWrapContext
 {
     TSWPColumn *_column;
-    TSDLayout<TSWPLayoutTarget> *_target;
-    TSDWrapPolygon *_interiorWrapPolygon;
-    TSUPointerKeyDictionary *_wrapPathInverseTransformInRootDictionary;
-    struct CGAffineTransform _targetInverseTransformInRoot;
 }
 
 - (id);
@@ -29,10 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) TSWPColumn *column; // @synthesize column=_column;
-@property(readonly, nonatomic) TSDWrapPolygon *interiorWrapPolygon; // @synthesize interiorWrapPolygon=_interiorWrapPolygon;
-@property(readonly, nonatomic) __weak TSDLayout<TSWPLayoutTarget> *target; // @synthesize target=_target;
-@property(readonly, nonatomic) struct CGAffineTransform targetInverseTransformInRoot; // @synthesize targetInverseTransformInRoot=_targetInverseTransformInRoot;
 @property(retain, nonatomic) TSUPointerKeyDictionary *wrapPathInverseTransformInRootDictionary; // @synthesize wrapPathInverseTransformInRootDictionary=_wrapPathInverseTransformInRootDictionary;
 
 @end

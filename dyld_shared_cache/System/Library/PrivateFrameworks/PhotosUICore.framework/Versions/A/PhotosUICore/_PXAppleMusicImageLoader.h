@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURLSessionDataTask, PXAppleMusicArtworkAsset;
+@class NSURLSessionDataTask, PXAppleMusicArtworkAsset;
 
 @interface _PXAppleMusicImageLoader
 {
     NSURLSessionDataTask *_dataTask;
-    CDUnknownBlockType _completionHandler;
-    PXAppleMusicArtworkAsset *_asset;
-    struct CGImage *_image;
-    NSError *_error;
-    struct CGSize _targetSize;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ft/libswiftUniformTypeIdentifiers.dylib;
 - (id);
 - (struct CGImage *);
 - (struct CGSize);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXAppleMusicArtworkAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

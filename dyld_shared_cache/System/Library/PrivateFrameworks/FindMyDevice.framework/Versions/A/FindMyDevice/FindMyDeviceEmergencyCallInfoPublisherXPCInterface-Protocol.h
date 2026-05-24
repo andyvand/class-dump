@@ -5,5 +5,6 @@
 //
 
 @protocol FindMyDeviceEmergencyCallInfoPublisherXPCInterface
+- (oneway void)"^{IntPoint}"__end_"^{IntPoint}""{?="__cap_"^{IntPoint}}};
 @end
 

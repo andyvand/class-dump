@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSNumber;
+@class NSNumber;
 
 @interface RelayTranslationPart
 {
     NSNumber *index;
-    NSAttributedString *string;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)>;
+- (id)createSourceWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)ook.peerpayment.pass.transaction-from-messages;
 - (void);
 - (id);
 - (void)Üÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSNumber *index; // @synthesize index;
-@property(nonatomic, readonly) NSAttributedString *string; // @synthesize string;
 
 @end
 

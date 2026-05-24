@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, SFSearchResult;
+@class SFSearchResult;
 
 @interface WBSParsecRankingFeedbackConfiguration
 {
     _Bool _serverCompletionDidMatchFirstSearchSuggestionFrom3rdParty;
-    SFSearchResult *_hiddenSiriSuggestedSite;
-    NSNumber *_prefixNavigationalIntent;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SFSearchResult *hiddenSiriSuggestedSite; // @synthesize hiddenSiriSuggestedSite=_hiddenSiriSuggestedSite;
-@property(retain, nonatomic) NSNumber *prefixNavigationalIntent; // @synthesize prefixNavigationalIntent=_prefixNavigationalIntent;
-@property(nonatomic) _Bool serverCompletionDidMatchFirstSearchSuggestionFrom3rdParty; // @synthesize serverCompletionDidMatchFirstSearchSuggestionFrom3rdParty=_serverCompletionDidMatchFirstSearchSuggestionFrom3rdParty;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPointerArray, TSgPTPClock, _TSF_TSDgPTPManager;
-@protocol OS_dispatch_queue;
+@class TSgPTPClock;
 
 @interface TSgPTPManager
 {
     TSgPTPClock *_systemDomain;
-    NSObject<OS_dispatch_queue> *_systemDomainQueue;
-    _TSF_TSDgPTPManager *_impl;
-    NSPointerArray *_clients;
-    struct os_unfair_lock_s _clientLock;
 }
 
 + (id);
@@ -21,9 +16,9 @@
 + (void);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)ki;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -32,14 +27,14 @@
 + (id);
 + (id);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)@9;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -48,10 +43,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -64,14 +59,7 @@
 - (void)ry/Caches/com.apple.xbs/TemporaryDirectory.lwsgJi/Sources/TimeSync/TimeSync/API/TSgPTPPort.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long airPlayPTPInstanceClockIdentifier;
 @property(readonly, nonatomic) unsigned long long avbPTPInstance0ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance1ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance2ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance3ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long copresencePTPInstanceClockIdentifier;
-@property(readonly, retain, nonatomic) TSgPTPClock *systemDomain; // @dynamic systemDomain;
-@property(readonly, nonatomic) unsigned long long systemDomainClockIdentifier; // @dynamic systemDomainClockIdentifier;
 
 @end
 

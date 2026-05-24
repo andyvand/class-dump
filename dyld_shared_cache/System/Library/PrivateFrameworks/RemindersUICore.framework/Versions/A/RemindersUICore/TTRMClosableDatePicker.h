@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool)7REMListCSgSg;
+- (_Bool)So7REMListCSgSg;
 - (void);
 
 @end

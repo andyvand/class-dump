@@ -7,6 +7,6 @@
 @protocol NSURLConnectionDelegate
 
 @optional
-- (void)_STATUS_RANKER_MODULE_NOT_LOADED;
+- (void)MIF_AUTOCOMPLETE_RESPONSE_STATUS_RANKER_MODULE_NOT_LOADED;
 @end
 

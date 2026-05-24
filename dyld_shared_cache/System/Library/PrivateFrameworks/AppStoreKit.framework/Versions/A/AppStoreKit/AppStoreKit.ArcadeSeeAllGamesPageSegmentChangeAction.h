@@ -9,7 +9,6 @@
 @interface AppStoreKit.ArcadeSeeAllGamesPageSegmentChangeAction : AppStoreKit.Action
 {
     id facet;
-    id selectedOption;
 }
 
 @end

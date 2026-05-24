@@ -9,24 +9,21 @@
 @interface CLMiLoExportDatabaseTableResult
 {
     NSString *_exportDir;
-    NSString *_fileName;
-    NSString *_sandboxExtensionTok;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)uffer
+;
 - (id);
 - (void);
-- (id);
+- (id)setEmulationVertexTextures:(struct _NSZone *)arg1 withRange: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *exportDir; // @synthesize exportDir=_exportDir;
-@property(readonly, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(readonly, nonatomic) NSString *sandboxExtensionTok; // @synthesize sandboxExtensionTok=_sandboxExtensionTok;
 
 @end
 

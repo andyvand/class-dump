@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUICommonNavigationController, AMSUICommonNavigationItem, AMSUICommonView;
-
 @interface AMSUICommonViewController
 {
     _Bool _movingFromParentViewController;
-    _Bool _movingToParentViewController;
-    AMSUICommonNavigationItem *_navigationItem;
-    AMSUICommonNavigationItem *_secondaryNavigationItem;
-    struct CGSize _preferredContentSizeOverride;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
@@ -47,24 +41,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (void);
-- (void);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)ust be specified with --output;
+- (void)setSwipeToDismissAction: /* Error: Ran out of types for this method. */;
 - (void)eviewLockupStyle;
 - (void)Ä;
 - (void)PWbÌ¯;
 
 // Remaining properties
 @property(getter=isMovingFromParentViewController, setter=setIsMovingFromParentViewController:) _Bool movingFromParentViewController; // @synthesize movingFromParentViewController=_movingFromParentViewController;
-@property(getter=isMovingToParentViewController, setter=setIsMovingToParentViewController:) _Bool movingToParentViewController; // @synthesize movingToParentViewController=_movingToParentViewController;
-@property(readonly) __weak AMSUICommonNavigationController *navigationController;
-@property(readonly) AMSUICommonNavigationItem *navigationItem; // @synthesize navigationItem=_navigationItem;
-@property struct CGSize preferredContentSizeOverride; // @synthesize preferredContentSizeOverride=_preferredContentSizeOverride;
-@property(readonly) AMSUICommonNavigationItem *primaryNavigationItem;
-@property(readonly) AMSUICommonNavigationItem *secondaryNavigationItem; // @synthesize secondaryNavigationItem=_secondaryNavigationItem;
-@property(retain) AMSUICommonView *view;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLRemoveQueueItemCommand
 {
     NSString *_itemId;
-    NSMutableArray *_itemIdsToRemoves;
-    NSString *_queueContext;
-    int _removeType;
-    int _revision;
-    CDStruct_c634eefe _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (void)gedAppleID;

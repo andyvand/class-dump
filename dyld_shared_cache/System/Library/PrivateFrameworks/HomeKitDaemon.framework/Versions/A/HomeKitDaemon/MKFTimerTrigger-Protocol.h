@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFTimerTriggerDatabaseID, NSDate, NSDateComponents, NSNumber, NSString, NSTimeZone;
+@class NSDate, NSDateComponents, NSNumber, NSString, NSTimeZone;
 
 @protocol MKFTimerTrigger
+- (NSNumber *);
+- (NSDateComponents *)orageSystem";
+- (NSTimeZone *){?="createdTimestamp"b1};
+- (NSString *)_defaultScenesWithImportanceString;
+- (NSDate *);
 - (void)seID"16@0:(NSDate *)arg1 8;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFTimerTriggerDatabaseID *databaseID;
 @property(copy, nonatomic) NSDate *fireDate;
-@property(retain, nonatomic) NSTimeZone *fireDateTimeZone;
-@property(retain, nonatomic) NSDateComponents *fireRepeatInterval;
-@property(copy, nonatomic) NSNumber *recurrenceDays;
-@property(copy, nonatomic) NSString *significantEvent;
-@property(copy, nonatomic) NSNumber *significantEventOffsetSeconds;
 @end
 

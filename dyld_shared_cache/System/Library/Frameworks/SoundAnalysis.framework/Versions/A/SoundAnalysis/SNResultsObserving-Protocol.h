@@ -5,5 +5,8 @@
 //
 
 @protocol SNResultsObserving
+
+@optional
+- (void);
 @end
 

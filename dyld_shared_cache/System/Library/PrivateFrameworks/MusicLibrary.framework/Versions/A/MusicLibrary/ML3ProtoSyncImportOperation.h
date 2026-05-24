@@ -6,42 +6,27 @@
 
 #import <MusicLibrary/ML3ImportOperation.h>
 
-@class ML3DatabaseConnection, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface ML3ProtoSyncImportOperation : ML3ImportOperation
 {
     unsigned int _totalSyncPackageCount;
-    unsigned int _syncPackageNum;
-    _Bool _syncSessionStarted;
-    int _syncType;
-    ML3DatabaseConnection *_connection;
-    _Bool _isServerImport;
-    long long _readSourceState;
-    _Bool _isReadSourceCancelled;
-    _Bool _importFinished;
-    _Bool _pairedDeviceCanProcessStandAloneCollections;
-    NSMutableSet *_syncIdsToUnlink;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_source> *_readSource;
 }
 
-- (id);
+- (id)tOrder;
+- (void)T@"PLPhotosHighlightClusterGenerator",R,N;
+- (_Bool)requestAssetRevGeocodingForAssetLocalIdentifiers:(id)arg1 context:(void *)arg2 reply: /* Error: Ran out of types for this method. */;
+- (_Bool)e",R,N;
+- (_Bool)requestActivityStatusWithReply:(id)arg1;
+- (_Bool)r",&,N,V_header;
+- (_Bool)ce",W,N,V_resource;
+- (_Bool),R;
+- (_Bool)exMapper",R,N;
+- (_Bool),R;
+- (_Bool)ndedAttributes",&,D,N;
+- (_Bool)LConstraintsDirector",R;
+- (unsigned long long)g pairing operation for indicator file %@;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)";
 - (void)evision_type > 0;
 
 @end

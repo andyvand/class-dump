@@ -12,12 +12,11 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (long long);
-- (long long)ebuggableTypePage;
+- (long long)RWIDebuggableTypePage;
 
 // Remaining properties
-@property(nonatomic) long long level;
 @property(nonatomic) long long source;
 
 @end

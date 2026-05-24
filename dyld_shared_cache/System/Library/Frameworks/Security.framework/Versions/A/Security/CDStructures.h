@@ -10,19 +10,7 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CEAccelerationContext {
-    struct CEAccelerationElement *index;
-    unsigned long long index_count;
-};
-
-struct CEAccelerationElement;
-
-struct CEQueryContext {
-    struct der_vm_context der_context;
-    _Bool managed;
-};
-
-struct CERuntime;
+struct CEQueryContext;
 
 struct Fact {
     unsigned int type;
@@ -34,13 +22,6 @@ struct Fact {
     } value;
 };
 
-struct LWCR {
-    long long _version;
-    long long _compatVersion;
-    long long _constraintCat;
-    struct CEQueryContext ctx;
-};
-
 struct __SecKey {
     struct __CFRuntimeBase {
         unsigned long long _field1;
@@ -48,26 +29,6 @@ struct __SecKey {
     } _field1;
     struct __SecKeyDescriptor *_field2;
     void *_field3;
-};
-
-struct ccder_read_blob {
-    char *der;
-    char *der_end;
-};
-
-struct der_vm_context {
-    struct CERuntime *runtime;
-    struct CEAccelerationContext lookup;
-    unsigned long long dictionary_tag;
-    _Bool sorted;
-    _Bool valid;
-    union {
-        struct ccder_read_blob ccstate;
-        struct {
-            char *der_start;
-            char *der_end;
-        } state;
-    } ;
 };
 
 #pragma mark Typedef'd Structures

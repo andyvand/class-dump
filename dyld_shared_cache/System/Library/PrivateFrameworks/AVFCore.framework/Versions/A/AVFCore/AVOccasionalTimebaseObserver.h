@@ -11,10 +11,9 @@
 @interface AVOccasionalTimebaseObserver : AVTimebaseObserver
 {
     NSArray *_times;
-    CDUnknownBlockType _block;
 }
 
-- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (CDStruct_1b6d18a9);

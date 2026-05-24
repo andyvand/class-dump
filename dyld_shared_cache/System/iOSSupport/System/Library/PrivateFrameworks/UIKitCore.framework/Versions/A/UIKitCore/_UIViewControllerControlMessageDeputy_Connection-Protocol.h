@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewControllerControlMessageDeputy_Connection
+- (void)_ObjectiveCType;
 @end
 

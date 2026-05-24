@@ -7,14 +7,6 @@
 @interface NewsUI2.SportsHeadlineExposureTracker
 {
     id tracker;
-    id trackerConfiguration;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id headlineNoiseGenerator;
-    id fuzzedGroups;
-    id inFlightGroupSessions;
-    id sportsGroupTypes;
 }
 
 @end

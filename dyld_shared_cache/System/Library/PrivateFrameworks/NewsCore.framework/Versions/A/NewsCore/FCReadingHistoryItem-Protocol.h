@@ -7,36 +7,14 @@
 @class CKRecord, NSDate, NSString;
 
 @protocol FCReadingHistoryItem
-- (NSString *)rBoostForSourceMoreFromFeedBaselineClickValue;
+- (_Bool);
+- (NSDate *);
+- (long long),;
+- (NSString *)ze=dd}}16q48;
+- (CKRecord *)oji(t):t.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(t)),"FONT"==e.tagName&&e.size==largeInheritedFontSize?this._disableBigEmoji(e):"FONT"==t.tagName&&t.size==largeInheritedFontSize&&this._disableBigEmoji(t)}}isQuickReplyEnabled&&(updateQuickReplyHeight(e,window),window.webkit.messageHandlers.MessageBodyIsEmpty.postMessage("\n"===e.firstChild.stringValue()))},manageBeforeDelete:function(e){let t=e.anchorNode,i=t.wholeText?t.wholeText:t.textContent;if(t&&!this._isInsideQuoteOrSignature(t)){let n=(i=this._removeSignatureFromEmojiCount(i,document)).match(document.stringToArrayRegex),o=t.parentElement;if(this._updateCounts(n),"cut"==event.type){let i=e.anchorOffset,n=e.focusOffset,a=t.wholeText.slice(i,n);document.emojiRegex.test(a)?numberOfEmojis=numberOfEmojis<0?0:numberOfEmojis-a.length:numberOfOtherCharacters=numberOfOtherCharacters<0?0:numberOfOtherCharacters-a.length,this._checkEmojiFontSize(),this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&o?this._enableBigEmoji(o):this.hasValidNumOfEmojis&&this.hasOnlyEmojis||!o||o.className!=MFMailBigEmojiAttribute||this._disableBigEmoji(o)}else 1==n.length&&1==numberOfEmojis&&(o="BODY"==t.tagName?document.querySelector("."+MFMailBigEmojiAttribute):o,this._disableBigEmoji(o))}},manageReplacementText:function(e){let t=e.anchorNode;if(t&&!this._isInsideQuoteOrSignature(t)){let n=e.anchorNode.wholeText;var i=n?n.match(document.stringToArrayRegex):[];this._updateCounts(i),this._checkEmojiFontSize();let o=t.parentElement;if(o&&this.hasValidNumOfEmojis&&this.hasOnlyEmojis)if(o.className==MFMailBigEmojiAttribute||"SPAN"==o.nodeName)this._enableBigEmoji(o);else{let e=document.createElement("span");e.innerHTML+=n,this._enableBigEmoji(e),t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t),this._placeCaretAfter(e),event.preventDefault()}else o.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(o)}},manageCurrentEmojiFontSize:function(){let e=document.getSelection(),t=e.anchorNode,i=e.anchorNode.wholeText;if(this.newParagraphInserted=!i,t&&!this._isInsideQuoteOrSignature(t)){var n=i?i.match(document.stringToArrayRegex):[];this._updateCounts(n),this._checkEmojiFontSize();let e=t.parentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
+- (NSString *)_publisherBoostForSourceMoreFromFeedBaselineClickValue;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) unsigned long long articleLikingStatus;
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, copy, nonatomic) NSString *deviceID;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAt;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic) _Bool hasArticleBeenConsumed;
-@property(readonly, nonatomic) _Bool hasArticleBeenMarkedOffensive;
-@property(readonly, nonatomic) _Bool hasArticleBeenRead;
-@property(readonly, nonatomic) _Bool hasArticleBeenRemovedFromAudio;
-@property(readonly, nonatomic) _Bool hasArticleBeenSeen;
-@property(readonly, nonatomic) _Bool hasArticleCompletedListening;
-@property(readonly, nonatomic) _Bool hasArticleCompletedReading;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSDate *lastListenedAt;
-@property(readonly, copy, nonatomic) NSDate *lastVisitedAt;
-@property(readonly, nonatomic) long long listenedCount;
-@property(readonly, nonatomic) double listeningProgress;
-@property(readonly, copy, nonatomic) NSDate *listeningProgressSavedAt;
-@property(readonly, nonatomic) long long maxVersionRead;
-@property(readonly, nonatomic) long long maxVersionSeen;
-@property(readonly, nonatomic, getter=isPruningDisabled) _Bool pruningDisabled;
-@property(readonly, nonatomic) long long readCount;
-@property(readonly, copy, nonatomic) NSString *readingPosition;
-@property(readonly, copy, nonatomic) NSDate *readingPositionSavedAt;
-@property(readonly, copy, nonatomic) NSString *sourceChannelTagID;
 @end
 

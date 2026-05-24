@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMClientWarmupStarted : SISchemaInstrumentationMessage
 {
     int _serviceGraphName;
-    CDStruct_e361df26 _has;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)g recipient;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,8 +27,6 @@
 - (id)yTime;
 
 // Remaining properties
-@property(nonatomic) _Bool hasServiceGraphName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int serviceGraphName; // @synthesize serviceGraphName=_serviceGraphName;
 
 @end

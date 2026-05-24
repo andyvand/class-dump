@@ -7,18 +7,9 @@
 @interface SAMSTypeStats
 {
     unsigned long long _count;
-    unsigned long long _bytes;
-    unsigned long long _num_load_infos;
-    unsigned long long _num_frames;
-    unsigned long long _num_duplicate;
-    unsigned long long _bytes_duplicate;
-    unsigned long long _num_out_of_order;
-    unsigned long long _bytes_out_of_order;
-    unsigned long long _num_missing_load_info;
-    unsigned long long _bytes_missing_load_info;
 }
 
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -33,23 +24,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
+- (void)';
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ed;
 
 // Remaining properties
-@property unsigned long long bytes; // @synthesize bytes=_bytes;
-@property unsigned long long bytes_duplicate; // @synthesize bytes_duplicate=_bytes_duplicate;
-@property unsigned long long bytes_missing_load_info; // @synthesize bytes_missing_load_info=_bytes_missing_load_info;
-@property unsigned long long bytes_out_of_order; // @synthesize bytes_out_of_order=_bytes_out_of_order;
 @property unsigned long long count; // @synthesize count=_count;
-@property unsigned long long num_duplicate; // @synthesize num_duplicate=_num_duplicate;
-@property unsigned long long num_frames; // @synthesize num_frames=_num_frames;
-@property unsigned long long num_load_infos; // @synthesize num_load_infos=_num_load_infos;
-@property unsigned long long num_missing_load_info; // @synthesize num_missing_load_info=_num_missing_load_info;
-@property unsigned long long num_out_of_order; // @synthesize num_out_of_order=_num_out_of_order;
 
 @end
 

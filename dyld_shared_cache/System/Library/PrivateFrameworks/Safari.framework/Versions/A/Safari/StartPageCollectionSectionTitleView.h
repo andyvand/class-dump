@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSColor, NSImageView, NSStackView, NSString, NSView, StartPageCollectionSectionTitleConfiguration;
-@protocol StartPageCollectionSectionTitleViewDelegate;
+@class NSButton, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface StartPageCollectionSectionTitleView
 {
     NSButton *_backButton;
-    _Bool _canCollapseSection;
-    _Bool _isSectionCollapsed;
-    _Bool _isShowMoreButtonVisible;
-    _Bool _canGoBack;
-    id <StartPageCollectionSectionTitleViewDelegate> _delegate;
-    StartPageCollectionSectionTitleConfiguration *_configuration;
-    NSString *_sectionTitle;
-    CDUnknownBlockType _sectionTitlePopupAction;
-    NSView *_trailingAccessoryView;
-    NSView *_secondaryTrailingAccessoryView;
-    NSColor *_controlTintColor;
-    NSStackView *_contentStackView;
-    NSButton *_sectionTitleButton;
-    NSButton *_collapseButton;
-    NSImageView *_leadingImageView;
 }
 
 + (double);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,8 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)?;
 - (id);
 - (id);
 - (id);
@@ -75,30 +59,7 @@ __attribute__((visibility("hidden")))
 - (void)¬;
 
 // Remaining properties
-@property(nonatomic) _Bool canCollapseSection; // @synthesize canCollapseSection=_canCollapseSection;
-@property(nonatomic) _Bool canGoBack; // @synthesize canGoBack=_canGoBack;
-@property(nonatomic) __weak NSButton *collapseButton; // @synthesize collapseButton=_collapseButton;
-@property(copy, nonatomic) StartPageCollectionSectionTitleConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(nonatomic) __weak NSStackView *contentStackView; // @synthesize contentStackView=_contentStackView;
-@property(retain, nonatomic) NSColor *controlTintColor; // @synthesize controlTintColor=_controlTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPageCollectionSectionTitleViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(nonatomic) _Bool isSectionCollapsed; // @synthesize isSectionCollapsed=_isSectionCollapsed;
-@property(nonatomic) _Bool isShowMoreButtonVisible; // @synthesize isShowMoreButtonVisible=_isShowMoreButtonVisible;
-@property(nonatomic) __weak NSImageView *leadingImageView; // @synthesize leadingImageView=_leadingImageView;
-@property(retain, nonatomic) NSView *secondaryTrailingAccessoryView; // @synthesize secondaryTrailingAccessoryView=_secondaryTrailingAccessoryView;
-@property(copy, nonatomic) NSString *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
-@property(nonatomic) __weak NSButton *sectionTitleButton; // @synthesize sectionTitleButton=_sectionTitleButton;
-@property(copy, nonatomic) CDUnknownBlockType sectionTitlePopupAction; // @synthesize sectionTitlePopupAction=_sectionTitlePopupAction;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleAccessibilityLabel;
-@property(retain, nonatomic) NSView *trailingAccessoryView; // @synthesize trailingAccessoryView=_trailingAccessoryView;
 
 @end
 

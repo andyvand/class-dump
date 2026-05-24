@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASOneTimeCodeCredentialIdentity, NSString;
-@protocol ASCredentialIdentity;
+@class ASOneTimeCodeCredentialIdentity;
 
 @interface ASOneTimeCodeCredentialRequest
 {
@@ -16,21 +15,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type;
 
 @end

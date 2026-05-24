@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol HMBLocalZoneID
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) NSData *token;
 @end
 

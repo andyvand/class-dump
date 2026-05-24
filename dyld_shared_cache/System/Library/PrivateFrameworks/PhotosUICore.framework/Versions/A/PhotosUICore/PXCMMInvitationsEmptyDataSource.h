@@ -10,7 +10,7 @@
 {
 }
 
-- (long long)ForContentController: /* Error: Ran out of types for this method. */;
+- (long long)needsUpdateForContentController: /* Error: Ran out of types for this method. */;
 
 @end
 

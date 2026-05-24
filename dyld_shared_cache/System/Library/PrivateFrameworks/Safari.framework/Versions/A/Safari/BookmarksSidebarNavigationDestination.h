@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface BookmarksSidebarNavigationDestination
 {
     SafariWebBookmarkList *_folder;
-    long long _destinationType;
 }
 
 + (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (unsigned long long);
 - (_Bool);
 - (void)à;
 
 // Remaining properties
-@property(readonly, nonatomic) long long destinationType; // @synthesize destinationType=_destinationType;
 @property(readonly, nonatomic) SafariWebBookmarkList *folder; // @synthesize folder=_folder;
 
 @end

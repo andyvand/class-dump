@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CNCancelable;
+
 @protocol CNScheduler
+- (void):(void (^)(void))arg1 withDMTool:(unsigned long long)arg2 ];
+- (id <CNCancelable>)S_dispatch_queue>";
 @end
 

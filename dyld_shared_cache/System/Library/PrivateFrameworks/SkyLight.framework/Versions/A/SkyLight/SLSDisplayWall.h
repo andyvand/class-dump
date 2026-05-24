@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (int);
-+ (int);
-+ (id);
++ (_Bool)M %@ LEFT JOIN %@ ON %@ = %@ AND %@ = %@;
++ (_Bool)ng failure for %@.  During updateRow, rows processed = %d.;
++ (int)1 where T1.%@ = T0.%@ and T1.%@ != OLD.Z_PK));
++ (int)ch delete failed due to manadatory OTM nullify inverse on %@/%@') FROM %@ WHERE %@ = OLD.Z_PK;
++ (id)_PK;;
 - (id);
 
 @end

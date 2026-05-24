@@ -11,7 +11,7 @@
     double mWidth;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (double);

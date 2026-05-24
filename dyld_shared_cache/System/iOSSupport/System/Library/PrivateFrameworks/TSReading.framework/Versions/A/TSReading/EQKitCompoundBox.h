@@ -11,12 +11,6 @@
 @interface EQKitCompoundBox : EQKitBox
 {
     NSArray *mChildBoxes;
-    double mHeight;
-    double mDepth;
-    double mWidth;
-    _Bool mDimensionsValid;
-    struct CGRect mErasableBounds;
-    _Bool mErasableBoundsValid;
 }
 
 - (struct CGRect);
@@ -25,7 +19,7 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
@@ -35,10 +29,7 @@
 Þ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childBoxes; // @synthesize childBoxes=mChildBoxes;
-@property(readonly, nonatomic) double depth;
 @property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) double width;
 
 @end
 

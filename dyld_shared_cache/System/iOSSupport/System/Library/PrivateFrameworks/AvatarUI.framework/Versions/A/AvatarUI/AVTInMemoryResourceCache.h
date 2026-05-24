@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableArray, NSObject, NSString;
-@protocol AVTUILogger, OS_dispatch_queue;
+@class NSCache;
 
 @interface AVTInMemoryResourceCache
 {
     NSCache *_storage;
-    NSMutableArray *_orderedEntries;
-    NSObject<OS_dispatch_queue> *_storageLock;
-    id <AVTUILogger> _logger;
 }
 
 + (id);
@@ -27,27 +23,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)/A/LocalAuthentication;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)AvatarConfiguration"8@"AVTAvatarConfiguration"16;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSMutableArray *orderedEntries; // @synthesize orderedEntries=_orderedEntries;
 @property(readonly, nonatomic) NSCache *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storageLock; // @synthesize storageLock=_storageLock;
-@property(readonly) Class superclass;
 
 @end
 

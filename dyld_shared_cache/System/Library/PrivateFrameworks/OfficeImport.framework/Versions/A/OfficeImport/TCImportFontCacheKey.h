@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface TCImportFontCacheKey
 {
     int _size;
-    NSString *_name;
 }
 
-+ (id);
++ (id)C;
 - (id);
 - (unsigned long long);
 - (int);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int size; // @synthesize size=_size;
 
 @end
 

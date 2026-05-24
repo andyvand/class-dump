@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, PGGraphMomentNodeCollection, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PGMemoryProcessedScenesAndFacesCache
 {
     PHPhotoLibrary *_photoLibrary;
-    NSMutableDictionary *_scenesAreProcessedEnoughByYear;
-    NSMutableDictionary *_scenesAreProcessedWithMinimumSceneAnalysisVersion;
-    NSMutableDictionary *_facesAreProcessedEnoughByYear;
-    PGGraphMomentNodeCollection *_momentNodesWithEnoughScenesProcessed;
-    PGGraphMomentNodeCollection *_momentNodesWithEnoughFacesProcessed;
-    NSNumber *_petVIPModelExistsAsNumber;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)willPerformAction:(_Bool)arg1 withElementController:(_Bool)arg2;
+- (_Bool)whitespaceAndNewlineCharacterSet;
 - (_Bool);
 - (_Bool);
 - (_Bool);

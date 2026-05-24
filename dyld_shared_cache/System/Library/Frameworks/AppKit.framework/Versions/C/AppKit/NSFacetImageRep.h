@@ -6,39 +6,35 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class CUIRenditionKey, NSAppearance;
+@class CUIRenditionKey;
 
 __attribute__((visibility("hidden")))
 @interface NSFacetImageRep : NSImageRep
 {
     CUIRenditionKey *_renditionKey;
-    NSAppearance *_appearance;
-    unsigned long long _state;
 }
 
+- (void)per sent invalid response:(id)arg1 %s;
+- (id)isEqualToHost:(id)arg1;
+- (_Bool)characterSetWithCharactersInString:(unsigned long long)arg1;
+- (_Bool)URLSession:(struct CGRect)arg1 dataTask:didBecomeStreamTask: /* Error: Ran out of types for this method. */;
+- (_Bool)@;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)hod_common_st*) method_in)->is_static;
 - (void);
 - (void);
 - (unsigned long long);
 - (void)
 × ;
-- (id)kgroundView;
+- (id)_makeSelectionBlurBackgroundView;
 - (_Bool)(UlVW9x\]p^À_ð_¬`\aüc¬dte fÌfHg$iTij;
 - (_Bool)_NSSetPointValueForAxis(CGPoint, CGFloat, NSAxis);
 
 // Remaining properties
-@property(retain) NSAppearance *appearance; // @synthesize appearance=_appearance;
 @property(copy) CUIRenditionKey *renditionKey; // @synthesize renditionKey=_renditionKey;
-@property unsigned long long state; // @synthesize state=_state;
 
 @end
 

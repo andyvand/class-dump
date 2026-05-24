@@ -12,16 +12,15 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)SIPKeyExchangeProc;
 - (void);
+- (id);
 - (id);
-- (id);
-- (double);
-- (void);
+- (double)processCameraCompositionEnabled:withType:withTimestamp: /* Error: Ran out of types for this method. */;
+- (void)w\;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) double cornerRadius;
 
 @end
 

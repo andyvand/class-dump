@@ -6,23 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class CKRecordID, FCCKContentDatabase, FCThreadSafeMutableArray, FCThreadSafeMutableDictionary, FCThreadSafeMutableSet, NSArray, NSDictionary;
-
 @interface FCCKContentBatchedRefreshRecordsOperation : FCOperation
 {
     _Bool _checkForDeletions;
-    FCCKContentDatabase *_database;
-    NSArray *_recordIDs;
-    NSDictionary *_changeTagsByRecordID;
-    NSArray *_desiredKeys;
-    CKRecordID *_canaryRecordID;
-    CDUnknownBlockType _refreshRecordsCompletionBlock;
-    FCThreadSafeMutableArray *_remainingRecordIDBatches;
-    FCThreadSafeMutableSet *_refreshedRecordIDs;
-    FCThreadSafeMutableDictionary *_updatedRecordsByRecordID;
-    FCThreadSafeMutableSet *_deletedRecordIDs;
-    FCThreadSafeMutableDictionary *_errorsByRecordID;
-    FCThreadSafeMutableArray *_allOperationErrors;
 }
 
 - (id);

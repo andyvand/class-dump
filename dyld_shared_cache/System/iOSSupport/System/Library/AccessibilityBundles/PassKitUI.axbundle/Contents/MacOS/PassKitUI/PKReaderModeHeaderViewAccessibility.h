@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityPerformValidations: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (void);

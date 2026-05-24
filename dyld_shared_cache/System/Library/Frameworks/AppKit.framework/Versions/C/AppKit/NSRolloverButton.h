@@ -6,30 +6,12 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSColor, NSImage, NSString, NSTrackingArea;
-@protocol NSRolloverButtonDelegate;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface NSRolloverButton : NSButton
 {
     NSTrackingArea *_trackingArea;
-    _Bool _mouseOver;
-    _Bool _usesRolloverAppearanceInInactiveWindow;
-    _Bool _usesRolloverAppearanceOnMouseDown;
-    _Bool _usesRolloverAppearanceWhenFirstResponder;
-    _Bool _redrawOnMouseEnteredAndExited;
-    _Bool _useRolloverAppearanceNow;
-    NSImage *_rolloverImage;
-    id <NSRolloverButtonDelegate> _delegate;
-    NSImage *_focusRingMask;
-    _Bool _usesCustomAlignmentRectInsets;
-    NSColor *_rolloverColor;
-    NSColor *_alternateColor;
-    NSColor *_rolloverBackgroundColor;
-    NSColor *_alternateBackgroundColor;
-    NSString *_toolTipString;
-    NSString *_alternateToolTipString;
-    struct NSEdgeInsets _customAlignmentRectInsets;
 }
 
 - (_Bool);
@@ -38,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
 - (void);
@@ -60,27 +42,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct NSEdgeInsets);
+- (void)NSMutableArray";
+- (id)setPath: /* Error: Ran out of types for this method. */;
+- (id)setNetworkEndpointPrimitive: /* Error: Ran out of types for this method. */;
+- (id)setName: /* Error: Ran out of types for this method. */;
+- (_Bool)connectionProperties;
+- (void)ate complete;
+- (id);
+- (id);
+- (void)ect<OS_dispatch_data>"8;
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)_visualDestinationLocationForTextSelection:originLocation:direction:destination:extending:confined:affinity:crossedLine: /* Error: Ran out of types for this method. */;
+- (void)ayoutFragment"8^B16;
 - (void)ë/ð!;
-- (id)ppressedByLessFocusedTouchBars;
+- (id)isSuppressedByLessFocusedTouchBars;
 - (void);
 - (id)files.;
 - (void);
@@ -88,28 +70,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÙ	PF;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *alternateBackgroundColor; // @synthesize alternateBackgroundColor=_alternateBackgroundColor;
-@property(retain, nonatomic) NSColor *alternateColor; // @synthesize alternateColor=_alternateColor;
-@property(retain, nonatomic) NSString *alternateToolTipString; // @synthesize alternateToolTipString=_alternateToolTipString;
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(nonatomic) struct NSEdgeInsets customAlignmentRectInsets; // @synthesize customAlignmentRectInsets=_customAlignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSRolloverButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *focusRingMask; // @synthesize focusRingMask=_focusRingMask;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool redrawOnMouseEnteredAndExited; // @synthesize redrawOnMouseEnteredAndExited=_redrawOnMouseEnteredAndExited;
-@property(retain, nonatomic) NSColor *rolloverBackgroundColor; // @synthesize rolloverBackgroundColor=_rolloverBackgroundColor;
-@property(retain, nonatomic) NSColor *rolloverColor; // @synthesize rolloverColor=_rolloverColor;
-@property(retain, nonatomic) NSImage *rolloverImage; // @synthesize rolloverImage=_rolloverImage;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *toolTipString; // @synthesize toolTipString=_toolTipString;
-@property(nonatomic) _Bool useRolloverAppearanceNow; // @synthesize useRolloverAppearanceNow=_useRolloverAppearanceNow;
 @property(nonatomic) _Bool usesCustomAlignmentRectInsets; // @synthesize usesCustomAlignmentRectInsets=_usesCustomAlignmentRectInsets;
-@property(nonatomic) _Bool usesRolloverAppearanceWhenFirstResponder; // @synthesize usesRolloverAppearanceWhenFirstResponder=_usesRolloverAppearanceWhenFirstResponder;
 
 @end
 

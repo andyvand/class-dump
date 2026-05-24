@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSString, SGTQueryGenius, SGTSearchFieldReserved, SGTSuggestion;
-@protocol SGTSearchFieldDelegate, SGTSearchFieldQueryScopeDelegate;
+@class SGTSearchFieldReserved;
 
 @interface SGTSearchField
 {
@@ -16,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);;
 + (id);
 + (id);
 + (Class);
@@ -29,23 +28,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (id);
@@ -54,7 +53,7 @@
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@y	;
 - (void);
 - (_Bool);
 - (id);
@@ -65,21 +64,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)]ө0;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)!;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -97,6 +96,7 @@
 - (void);
 - (void);
 - (void);
+- (void)RA;
 - (void);
 - (void);
 - (void);
@@ -105,8 +105,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -116,6 +115,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -124,36 +124,35 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)7v$;
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void)QH_;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)@y;
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (long long);
 - (unsigned long long);
@@ -166,52 +165,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)_maxDimensionOfSize:fittingToArea: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool autoclosing;
-@property(retain) SGTSuggestion *currentSuggestion;
-@property(readonly) NSArray *currentSuggestions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SGTSearchFieldDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *displayCategories;
-@property(readonly) NSDictionary *displayCriteria;
-@property(copy) NSMapTable *displaySuggestionsByCategory;
-@property _Bool emptyStringAbortsSearch;
 @property _Bool enforceSelectionWhenPossible;
-@property(copy) NSArray *freeTextSuggestions;
-@property(retain) SGTQueryGenius *genius;
-@property(readonly) unsigned long long hash;
-@property _Bool highlightsMatches;
-@property _Bool ignoreWindowResizeNotifications;
-@property(nonatomic) _Bool keepCompletionWindowOnWindowDrag;
-@property unsigned long long maximumEffectiveInputLength;
-@property(nonatomic) double minimumCompletionWindowWidth;
-@property(copy) id propertyListRepresentation;
-@property(readonly) NSString *propertyListRepresentationDescription;
-@property __weak id <SGTSearchFieldQueryScopeDelegate> queryScopeDelegate;
-@property(readonly) NSArray *queryScopes;
-@property(readonly) NSString *queryString;
-@property(readonly) _Bool queryStringChangesAreTransient;
-@property(readonly) NSString *searchPhrase;
-@property long long searchQueryIndex;
-@property(copy) NSArray *suggesters;
-@property(readonly) NSArray *suggestionDebugProperties;
-@property(readonly) NSArray *suggestions;
-@property(readonly) Class superclass;
-@property long long typingScope;
-@property _Bool useTokens;
 
 @end
 

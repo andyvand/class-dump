@@ -9,8 +9,6 @@
 @interface SSMouseButtonEvent : SSMouseEvent
 {
     long long mButton;
-    int mState;
-    long long mClickCount;
 }
 
 + (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly) long long button; // @synthesize button=mButton;
-@property(readonly) long long clickCount; // @synthesize clickCount=mClickCount;
-@property(readonly) int state; // @synthesize state=mState;
 
 @end
 

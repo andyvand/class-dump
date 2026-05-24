@@ -7,7 +7,6 @@
 @interface PFCompoundSchedule
 {
     id type;
-    id children;
 }
 
 - (_Bool);

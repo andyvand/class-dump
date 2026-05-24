@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContact, _INPBCurrencyAmount, _INPBIntentMetadata, _INPBString;
+@class _INPBContact, _INPBCurrencyAmount, _INPBString;
 
 @protocol _INPBSendPaymentIntent
-- (_Bool)nary;
+- (_INPBContact *);
+- (void)_GCDevicePhysicalInput",R;
+- (_INPBString *)#;
+- (_Bool)infoDictionary;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmount *currencyAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(readonly, nonatomic) _Bool hasPayee;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBString *note;
-@property(retain, nonatomic) _INPBContact *payee;
 @end
 

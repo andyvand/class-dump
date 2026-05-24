@@ -10,19 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADReflectionEffect : OADEffect
 {
     float mBlurRadius;
-    float mStartOpacity;
-    float mStartPosition;
-    float mEndOpacity;
-    float mEndPosition;
-    float mDistance;
-    float mDirection;
-    float mFadeDirection;
-    float mXScale;
-    float mYScale;
-    float mXSkew;
-    float mYSkew;
-    int mAlignment;
-    _Bool mRotateWithShape;
 }
 
 - (float);
@@ -30,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (float);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -45,13 +32,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (float);
 - (float);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)__AUTH;
 - (void);
 - (unsigned long long);
 - (int);
-- (float);
+- (float)a;
 - (_Bool);
 - (float);
 - (id);

@@ -6,39 +6,25 @@
 
 #import <OfficeImport/OADProperties.h>
 
-@class OADColor, OADDash, OADFill, OADLineEnd, OADLineJoin;
+@class OADColor, OADLineEnd;
 
 __attribute__((visibility("hidden")))
 @interface OADStroke : OADProperties
 {
     OADColor *mColor;
-    OADFill *mFill;
-    OADDash *mDash;
-    OADLineJoin *mJoin;
-    OADLineEnd *mHead;
-    OADLineEnd *mTail;
-    float mWidth;
-    unsigned char mCap;
-    unsigned char mCompoundType;
-    int mPenAlignment;
-    unsigned int mIsColorOverridden:1;
-    unsigned int mIsWidthOverridden:1;
-    unsigned int mIsCapOverridden:1;
-    unsigned int mIsCompoundTypeOverridden:1;
-    unsigned int mIsPenAlignmentOverridden:1;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))	;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (_Bool);
 - (id);
@@ -75,7 +61,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) OADLineEnd *head; // @synthesize head=mHead;
-@property(retain, nonatomic) OADLineEnd *tail; // @synthesize tail=mTail;
 
 @end
 

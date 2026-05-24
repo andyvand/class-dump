@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKAppletSubcredential, PKPassAutomaticSelectionCriterion;
+@class PKAppletSubcredential;
 
 @interface PKPlaceholderPassConfiguration
 {
     PKAppletSubcredential *_subcredential;
-    PKPassAutomaticSelectionCriterion *_automaticSelectionCriterion;
-    long long _paymentApplicationState;
-    NSArray *_associatedApplicationIdentifiers;
-    NSArray *_passFields;
 }
 
 + (_Bool);
@@ -22,18 +18,14 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)	;
+- (void),V_tcpECNIntOffRxmtPer;
 - (id)eholder;
-- (void);
+- (void)doublePressToPay;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *associatedApplicationIdentifiers; // @synthesize associatedApplicationIdentifiers=_associatedApplicationIdentifiers;
-@property(readonly, nonatomic) PKPassAutomaticSelectionCriterion *automaticSelectionCriterion; // @synthesize automaticSelectionCriterion=_automaticSelectionCriterion;
-@property(copy, nonatomic) NSArray *passFields; // @synthesize passFields=_passFields;
-@property(readonly, nonatomic) long long paymentApplicationState; // @synthesize paymentApplicationState=_paymentApplicationState;
 @property(readonly, nonatomic) PKAppletSubcredential *subcredential; // @synthesize subcredential=_subcredential;
 
 @end

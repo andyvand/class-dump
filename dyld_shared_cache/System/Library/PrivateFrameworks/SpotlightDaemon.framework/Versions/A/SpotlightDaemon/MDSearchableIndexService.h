@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSIndexingQueue, NSObject, NSString;
-@protocol MDIndexer, OS_dispatch_queue, OS_xpc_object;
+@class CSIndexingQueue;
 
 @interface MDSearchableIndexService
 {
     CSIndexingQueue *_activityQueue;
-    _Bool _isInternal;
-    _Bool _searchInternal;
-    _Bool _quotaDisabled;
-    _Bool _isPrivate;
-    _Bool _allowMail;
-    _Bool _allowPhotosLibraryDeletion;
-    _Bool _allowOpenJournalFile;
-    _Bool _isExtension;
-    _Bool _allowNotifications;
-    _Bool _allowMessagesContent;
-    _Bool _allowCarPlayApps;
-    unsigned int _clientUID;
-    int _entitledAttributes;
-    NSObject<MDIndexer> *_indexer;
-    NSObject<OS_xpc_object> *_clientConnection;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSString *_clientBundleID;
-    NSString *_clientPersonaID;
-    NSString *_protectionClass;
 }
 
 - (_Bool);
@@ -42,10 +22,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -55,43 +35,43 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool)hema file:(id)arg1;
+- (_Bool)п***********й;
+- (id)hoertje;
+- (void)**r;
+- (_Bool)sationalName;
+- (void)u009c;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)batterySerialChanged:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -101,46 +81,46 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)1W;
+- (void)";
+- (void)numberWithDouble:(id)arg1;
 - (id);
-- (int);
-- (void);
+- (int)ary/Frameworks/Accounts.framework/Versions/A/Accounts;
+- (void)_get_device_state;
 - (_Bool);
 - (void);
-- (id);
+- (id)b;
+- (void)__TEXT;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)NSt3__110__function6__baseIFyyEEE;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)LPAPFSVolumeSnapshotMountPointKeyName;
+- (void).;
+- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)+;
+- (void)`;
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)%ð1Â0@ù
 × ;
-- (void)lineCharacterSet;
-- (id);
-- (void)naryArray:(id)arg1 forKey:(id)arg2;
+- (void)whitespaceAndNewlineCharacterSet;
+- (id)getCachedEmbeddingCompletenessForBundle:completion: /* Error: Ran out of types for this method. */;
+- (void)dictionary:(id)arg1 setStringOrDictionaryArray:(id)arg2 forKey:(double)arg3;
 - (_Bool)=},N,V_resultQueue;
 - (void)llowPhotosLibraryDeletion;
 - (_Bool);
@@ -152,38 +132,11 @@
 - (void)(;
 - (_Bool)¼´;
 - (id);
-- (_Bool)shold;
+- (_Bool)budget_check_threshold;
 - (void)ata-size;
 
 // Remaining properties
 @property(readonly, nonatomic) CSIndexingQueue *activityQueue;
-@property(nonatomic) _Bool allowCarPlayApps; // @synthesize allowCarPlayApps=_allowCarPlayApps;
-@property(nonatomic) _Bool allowMail; // @synthesize allowMail=_allowMail;
-@property(nonatomic) _Bool allowMessagesContent; // @synthesize allowMessagesContent=_allowMessagesContent;
-@property(nonatomic) _Bool allowNotifications; // @synthesize allowNotifications=_allowNotifications;
-@property(nonatomic) _Bool allowOpenJournalFile; // @synthesize allowOpenJournalFile=_allowOpenJournalFile;
-@property(nonatomic) _Bool allowPhotosLibraryDeletion; // @synthesize allowPhotosLibraryDeletion=_allowPhotosLibraryDeletion;
-@property(copy, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(copy, nonatomic) NSString *clientPersonaID; // @synthesize clientPersonaID=_clientPersonaID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(nonatomic) unsigned int clientUID; // @synthesize clientUID=_clientUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int entitledAttributes; // @synthesize entitledAttributes=_entitledAttributes;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<MDIndexer> *indexer; // @synthesize indexer=_indexer;
-@property(nonatomic) _Bool isExtension; // @synthesize isExtension=_isExtension;
-@property(nonatomic) _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property(nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, nonatomic) NSString *processDescription;
-@property(copy, nonatomic) NSString *protectionClass; // @synthesize protectionClass=_protectionClass;
-@property(nonatomic) _Bool quotaDisabled; // @synthesize quotaDisabled=_quotaDisabled;
-@property(nonatomic) _Bool searchInternal; // @synthesize searchInternal=_searchInternal;
-@property(readonly) Class superclass;
 
 @end
 

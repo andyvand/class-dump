@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle;
-
 __attribute__((visibility("hidden")))
 @interface SFOidParser
 {
     struct cssm_data *configData;
-    NSBundle *bundle;
-    long long token;
 }
 
 + (id);
 + (id);
++ (id);
++ (id) ;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id) ;
 + (id);
 + (id);
 + (id);
@@ -32,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)_;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)h ;
 - (void);
 - (id);
-- (id);
+- (id)TZ;
 - (void);
 
 @end

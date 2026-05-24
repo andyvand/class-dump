@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABAssistantSyncAnchor
 {
     long long _sequenceNumber;
-    NSString *_recordID;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)%z;
+- (_Bool)z;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *recordID;
 @property(readonly, nonatomic) long long sequenceNumber;
-@property(readonly, nonatomic) _Bool shouldDeleteSyncedRecords;
-@property(readonly, nonatomic) _Bool shouldFullSync;
-@property(readonly, nonatomic) _Bool shouldResetSync;
-@property(readonly, nonatomic) _Bool shouldResumePreviousFullSync;
-@property(readonly, nonatomic) NSString *stringValue;
 
 @end
 

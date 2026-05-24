@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol TMMountableBackupProtocol, TMTargetCachePrimable;
-
 __attribute__((visibility("hidden")))
 @interface TMTargetCacheEntry
 {
     struct os_unfair_lock_s _alreadyFoundLock;
-    struct unordered_set<TMQueryTargetKey, std::hash<TMQueryTargetKey>, std::equal_to<TMQueryTargetKey>, std::allocator<TMQueryTargetKey>> _alreadyFoundTargets;
-    _Bool _isInternallyPrimed;
-    _Bool _isClientInfoPrimed;
-    struct os_unfair_lock_s _primingLock;
-    id <TMMountableBackupProtocol> _backup;
-    id <TMTargetCachePrimable> _clientInfo;
-    NSString *_liveVolumeUUID;
-    NSMutableDictionary *_uuidToDeviceID;
-    NSMutableDictionary *_uuidToVolumeStorePath;
-    NSMutableDictionary *_volumeStorePathToUUID;
 }
 
 - (id);
@@ -51,15 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) id <TMMountableBackupProtocol> backup; // @synthesize backup=_backup;
-@property(readonly) id <TMTargetCachePrimable> clientInfo; // @synthesize clientInfo=_clientInfo;
-@property _Bool isClientInfoPrimed; // @synthesize isClientInfoPrimed=_isClientInfoPrimed;
 @property _Bool isInternallyPrimed; // @synthesize isInternallyPrimed=_isInternallyPrimed;
-@property(copy) NSString *liveVolumeUUID; // @synthesize liveVolumeUUID=_liveVolumeUUID;
-@property(readonly) struct os_unfair_lock_s primingLock; // @synthesize primingLock=_primingLock;
-@property(retain) NSMutableDictionary *uuidToDeviceID; // @synthesize uuidToDeviceID=_uuidToDeviceID;
-@property(retain) NSMutableDictionary *uuidToVolumeStorePath; // @synthesize uuidToVolumeStorePath=_uuidToVolumeStorePath;
-@property(retain) NSMutableDictionary *volumeStorePathToUUID; // @synthesize volumeStorePathToUUID=_volumeStorePathToUUID;
 
 @end
 

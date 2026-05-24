@@ -6,23 +6,22 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFAppEntityAnnotation, SFCommandReference, SFTopic;
+@class NSData;
 
 @interface SFFillToolAppEntityParameterCommand : SFCommand
 {
     NSData *_encodedTypedValue;
-    SFAppEntityAnnotation *_entity;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setArtworkCatalogBlock:(id)arg1;
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)"!;
+- (void)eSystemSoundIDWithOptions for URL %{public}@ produced soundID = %lu and returned %ld.;
+- (id)48B56Q60;
+- (id)PHQueryForAssetsInAlbum_SortKeyLastModifiedDate_block_invoke_99;
 - (id);
 - (id);
 - (void);
@@ -30,21 +29,7 @@
 - (void)_topHit;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(retain, nonatomic) SFAppEntityAnnotation *entity; // @synthesize entity=_entity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMUser;
-
 @interface HMAccessControl
 {
     struct os_unfair_lock_s _lock;
-    HMUser *_user;
-    unsigned long long _cachedHash;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)unconsciously;
 - (void);
 - (void)ad:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (id)HMMediaDestinationControllerData"8;
@@ -27,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cachedHash; // @synthesize cachedHash=_cachedHash;
-@property __weak HMUser *user; // @synthesize user=_user;
 
 @end
 

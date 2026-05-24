@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, CLLocation, NSArray, NSData, NSString;
+@class CLLocation;
 
 @interface CLSLitePlacemark
 {
     _Bool _isIsland;
-    CLCircularRegion *_region;
-    CLLocation *_location;
-    NSString *_thoroughfare;
-    NSString *_subThoroughfare;
-    NSString *_locality;
-    NSString *_subLocality;
-    NSString *_administrativeArea;
-    NSString *_subAdministrativeArea;
-    NSString *_ISOcountryCode;
-    NSString *_inlandWater;
-    NSString *_ocean;
-    NSArray *_areasOfInterest;
-    NSString *_administrativeAreaCode;
-    NSData *_revGeoLocationData;
-    NSString *_geoServiceProvider;
-    NSArray *_popularityScoresOrderedByAOI;
 }
 
 + (id);
@@ -41,15 +25,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)FI_TDesktopTitleLayoutManager;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)t updates;
+- (void)otifying peer %{public}@ of %lu resolved statuses:(id)arg1 %{private}@;
 - (id);
 - (void);
 - (id);
@@ -73,28 +57,11 @@
 - (void);
 - (void)@ù
 × ;
-- (id)tor: /* Error: Ran out of types for this method. */;
+- (id)setPersistentStoreCoordinator: /* Error: Ran out of types for this method. */;
 - (void)\ÔùÿF;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ISOcountryCode; // @synthesize ISOcountryCode=_ISOcountryCode;
-@property(retain, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(retain, nonatomic) NSString *administrativeAreaCode; // @synthesize administrativeAreaCode=_administrativeAreaCode;
-@property(retain, nonatomic) NSArray *areasOfInterest; // @synthesize areasOfInterest=_areasOfInterest;
-@property(retain, nonatomic) NSString *geoServiceProvider; // @synthesize geoServiceProvider=_geoServiceProvider;
-@property(retain, nonatomic) NSString *inlandWater; // @synthesize inlandWater=_inlandWater;
-@property(nonatomic) _Bool isIsland; // @synthesize isIsland=_isIsland;
-@property(readonly, nonatomic) _Bool isOcean;
-@property(retain, nonatomic) NSString *locality; // @synthesize locality=_locality;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSString *ocean; // @synthesize ocean=_ocean;
-@property(retain, nonatomic) NSArray *popularityScoresOrderedByAOI; // @synthesize popularityScoresOrderedByAOI=_popularityScoresOrderedByAOI;
-@property(retain, nonatomic) CLCircularRegion *region; // @synthesize region=_region;
-@property(retain, nonatomic) NSData *revGeoLocationData; // @synthesize revGeoLocationData=_revGeoLocationData;
-@property(retain, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(retain, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
-@property(retain, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
-@property(retain, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end
 

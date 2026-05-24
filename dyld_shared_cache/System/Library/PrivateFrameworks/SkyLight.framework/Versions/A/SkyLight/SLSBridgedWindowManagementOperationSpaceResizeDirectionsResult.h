@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ld have a lifecycle tied to a given instance of NSPersistentStore.;
+- (id)onsAndAccumulateRecordsWithManagedObjectContext:(unsigned long long)arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

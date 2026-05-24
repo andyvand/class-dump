@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSourceCommonSettings, NSArray, NSDictionary, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureSourceBackingsProvider
 {
     NSMutableArray *_sourceBackings;
-    FigCaptureSourceCommonSettings *_commonSettings;
-    _Bool _hasMicSource;
-    NSDictionary *_continuityCaptureCameraCapabilities;
 }
 
 + (id);
-+ (void)terWindowSize;
++ (void)DefaultAutoExposureCenterWindowSize;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_copyStringForSheet:atIndex:withState:andMapper: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FigCaptureSourceCommonSettings *commonSettings; // @synthesize commonSettings=_commonSettings;
-@property(readonly, nonatomic) NSDictionary *continuityCaptureCameraCapabilities; // @synthesize continuityCaptureCameraCapabilities=_continuityCaptureCameraCapabilities;
 @property(readonly, nonatomic) NSArray *sourceBackings; // @synthesize sourceBackings=_sourceBackings;
 
 @end

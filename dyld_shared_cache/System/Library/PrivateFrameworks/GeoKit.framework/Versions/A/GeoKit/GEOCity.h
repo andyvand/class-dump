@@ -6,48 +6,44 @@
 
 #import <GeoKit/GeoKitPlace.h>
 
-@class GEOCountry, NSNumber, NSString;
+@class NSString;
 
 @interface GEOCity : GeoKitPlace
 {
 }
 
++ (id)he account provided is a local account.;
++ (id)ueing Metrics Event = %{public}@;
++ (id)ublic}@] Starting sync with type:(id)arg1 %ld account:(id)arg2 %{public}@;
++ (id)ted %ld or %ld, got %ld.;
++ (id)ublic}@] Performing provisioning. type:(id)arg1 %ld;
++ (id)trying machine data sync;
++ (id)vsioning;
++ (id)action name:(id)arg1 %{public}@ type:(id)arg2 %ld;
++ (id)@:(id)arg1 [%{public}@] Erasing provisioning for type:(id)arg2 %ld.;
++ (id)t Dialog;
++ (id)ublic}@ and %{public}@=%{public}@. For account %{public}@, %{public}@=%{public}@, therefore requiredType=%{public}@;
++ (id)success.;
++ (id)t. account = %{public}@;
++ (id)] Checking identifier %{public}@ on account:%{public}@ minimumVersion = %{public}@ /* Error: Ran out of types for this method. */;
++ (id)is true.;
++ (id)cord of user rejecting privacy acknowledgement.;
++ (id)he local account. privacyIdentifier = %{public}@;
++ (id)ivacy acknowledgement is not needed because AMSDefaults.acknowledgePrivacyOverride is DISABLED.;
++ (id)faults.acknowledgePrivacyOverride is ALWAYS.;
++ (id)lic}@ | account = %{public}@;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)rs:fecthLimit: /* Error: Ran out of types for this method. */;
+- (id)authenticatable resource. error = %{public}@;
+- (id)}@:[%{public}@] Legacy attestation failed with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)estation did not delete keys:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)generateKeys:%{public}lu, options.style:%{public}lu /* Error: Ran out of types for this method. */;
+- (id)Start retrieve certification from keychain, options.regenerateKeys:%{public}lu, options.style:%{public}lu /* Error: Ran out of types for this method. */;
+- (id)%{public}@:(unsigned long long)arg1 [%{public}@] Performing provisioning. type:%ld /* Error: Ran out of types for this method. */;
+- (id)knowledgement is not needed because AMSDefaults.disablePrivacyAcknowledgement is true.;
+- (id)nearbyCitiesWithinLongitudeSpan:latitudeSpan:sortDescriptors:fecthLimit: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) GEOCountry *country; // @dynamic country;
-@property(retain) NSNumber *elevation; // @dynamic elevation;
-@property(retain) NSNumber *isCapital; // @dynamic isCapital;
 @property(retain) NSString *regionalCode; // @dynamic regionalCode;
-@property(retain) NSString *timeZoneName; // @dynamic timeZoneName;
 
 @end
 

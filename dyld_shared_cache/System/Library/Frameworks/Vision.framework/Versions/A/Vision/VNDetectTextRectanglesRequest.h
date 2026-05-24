@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
-
 @interface VNDetectTextRectanglesRequest : VNImageBasedRequest
 {
 }
@@ -20,13 +18,13 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool)`";
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,14 +35,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *additionalCharacters;
 @property(nonatomic) unsigned long long algorithm;
-@property(nonatomic) _Bool detectDiacritics;
-@property(nonatomic) _Bool minimizeFalseDetections;
-@property(nonatomic) unsigned long long minimumCharacterPixelHeight;
-@property(nonatomic) _Bool reportCharacterBoxes;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(copy, nonatomic) NSString *textRecognition;
 
 @end
 

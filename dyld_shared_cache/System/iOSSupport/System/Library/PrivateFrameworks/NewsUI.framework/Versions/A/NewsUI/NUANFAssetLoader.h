@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncOnceOperation, FCFlintResourceManager, NSArray, NSMutableDictionary, SXDocumentController;
+@class SXDocumentController;
 
 @interface NUANFAssetLoader
 {
     long long _relativePriority;
-    SXDocumentController *_documentController;
-    FCFlintResourceManager *_flintResourceManager;
-    NSArray *_resourceIDs;
-    NSMutableDictionary *_fetchedResourceIDs;
-    FCAsyncOnceOperation *_assetURLsOperation;
-    FCAsyncOnceOperation *_assetsOperation;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -43,13 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FCAsyncOnceOperation *assetURLsOperation; // @synthesize assetURLsOperation=_assetURLsOperation;
-@property(readonly, nonatomic) FCAsyncOnceOperation *assetsOperation; // @synthesize assetsOperation=_assetsOperation;
 @property(retain, nonatomic) SXDocumentController *documentController; // @synthesize documentController=_documentController;
-@property(retain, nonatomic) NSMutableDictionary *fetchedResourceIDs; // @synthesize fetchedResourceIDs=_fetchedResourceIDs;
-@property(retain, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(retain, nonatomic) NSArray *resourceIDs; // @synthesize resourceIDs=_resourceIDs;
 
 @end
 

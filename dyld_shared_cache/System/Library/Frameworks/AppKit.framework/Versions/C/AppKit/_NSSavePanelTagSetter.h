@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet, NSOperationQueue, NSSet, NSString, NSTimer, NSURL;
+@class NSOperationQueue, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _NSSavePanelTagSetter
 {
     NSOperationQueue *queue;
-    NSURL *_urlToTag;
-    _Bool _useSecurityScopedURL;
-    NSArray *tagNames;
-    NSDictionary *initialFileAttributes;
-    NSMutableSet *urlsWithTagsSet;
-    NSTimer *timer;
 }
 
-+ (void);
++ (void)reamedHTTPRequest();
 + (void);
 + (id);
 + (id);
@@ -29,37 +23,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)set_allowsCellularAccess:(CDUnknownBlockType)arg1;
+- (void)downloadFilePath;
+- (_Bool)accept_didReceiveData_withoutCB;
 - (void);
 - (id);
+- (void)shouldn't have signaled that we had data;
+- (_Bool)raw token data.;
+- (void)NoORWECX;
+- (void)setProperty;
+- (void);
+- (id)@;
 - (id)- %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

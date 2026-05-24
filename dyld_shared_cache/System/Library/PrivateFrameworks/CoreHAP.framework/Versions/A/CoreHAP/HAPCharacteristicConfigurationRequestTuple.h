@@ -9,8 +9,6 @@
 @interface HAPCharacteristicConfigurationRequestTuple
 {
     _Bool _broadcastEnable;
-    HAPCharacteristic *_characteristic;
-    unsigned long long _broadcastInterval;
 }
 
 + (id);
@@ -18,13 +16,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)@"NSError">16;
 
 // Remaining properties
-@property(nonatomic) _Bool broadcastEnable; // @synthesize broadcastEnable=_broadcastEnable;
-@property(nonatomic) unsigned long long broadcastInterval; // @synthesize broadcastInterval=_broadcastInterval;
 @property(retain, nonatomic) HAPCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
 
 @end

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface IMParentalControlsService
 {
     _Bool _disableService;
-    _Bool _forceAllowlist;
-    NSSet *_allowlist;
-    NSString *_name;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)n;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)¸/;
 
 // Remaining properties
-@property(retain) NSSet *allowlist; // @synthesize allowlist=_allowlist;
 @property _Bool disableService; // @synthesize disableService=_disableService;
-@property _Bool forceAllowlist; // @synthesize forceAllowlist=_forceAllowlist;
-@property(retain) NSString *name; // @synthesize name=_name;
 
 @end
 

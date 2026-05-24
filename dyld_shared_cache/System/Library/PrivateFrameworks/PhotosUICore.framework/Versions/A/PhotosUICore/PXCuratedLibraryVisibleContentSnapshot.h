@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface PXCuratedLibraryVisibleContentSnapshot
 {
     CDUnknownBlockType _dateIntervalFuture;
-    CDUnknownBlockType _locationNamesFuture;
-    long long _dataSourceIdentifier;
-    _Bool _isFiltering;
 }
 
 - (id);
@@ -24,19 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, nonatomic) unsigned long long dateIntervalGranularity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedPlaceholderText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *locationNames;
-@property(readonly) Class superclass;
 
 @end
 

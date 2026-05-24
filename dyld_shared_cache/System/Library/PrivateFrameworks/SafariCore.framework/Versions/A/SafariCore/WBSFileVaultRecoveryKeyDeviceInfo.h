@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSFileVaultRecoveryKeyDeviceInfo
 {
     NSString *_serialNumber;
-    NSString *_model;
-    NSString *_variant;
-    NSString *_deviceTypeIdentifier;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)k;
+- (id)V;
+- (id)MPModelChildPlaylistEntries;
 - (id);
 - (id);
 - (void)
@@ -28,11 +25,7 @@
 - (id)sessionWithConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *deviceTypeIdentifier; // @synthesize deviceTypeIdentifier=_deviceTypeIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, copy, nonatomic) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

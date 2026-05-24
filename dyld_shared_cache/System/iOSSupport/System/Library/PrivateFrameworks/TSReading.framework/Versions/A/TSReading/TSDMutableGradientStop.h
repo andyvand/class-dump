@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) TSUColor *color; // @dynamic color;
-@property(nonatomic) double fraction; // @dynamic fraction;
-@property(nonatomic) double inflection; // @dynamic inflection;
 
 @end
 

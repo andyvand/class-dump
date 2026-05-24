@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusSpecularHighlightLayer
 {
     _Bool _appliesFocusDirectionToContentsRect;
-    double _focusSpecularDepth;
-    double _focusScaleFactor;
-    double _legacyVerticalPositionOffset;
-    struct CGVector _focusBaseScaleAmounts;
-    struct CGVector _focusSensitivity;
 }
 
+- (void)qi;
 - (void);
 - (void);
 - (void);
@@ -22,25 +18,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (double);
-- (struct CGVector);
-- (double);
-- (struct CGVector);
+- (double)reindexSchedulingInProgress;
+- (double)collaborationNoticesDidChangeForChatGUIDs: /* Error: Ran out of types for this method. */;
+- (struct CGVector)collaborationNoticeDispatcherQueue;
+- (double)collaborationNoticeDispatcherQueue;
+- (struct CGVector)clearPendingVCRequestsWithPerson:forAccount: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (struct CGVector);
+- (struct CGVector)ms.;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool appliesFocusDirectionToContentsRect; // @synthesize appliesFocusDirectionToContentsRect=_appliesFocusDirectionToContentsRect;
-@property(nonatomic) struct CGVector focusBaseScaleAmounts; // @synthesize focusBaseScaleAmounts=_focusBaseScaleAmounts;
-@property(nonatomic) double focusScaleFactor; // @synthesize focusScaleFactor=_focusScaleFactor;
-@property(nonatomic) struct CGVector focusSensitivity; // @synthesize focusSensitivity=_focusSensitivity;
 @property(nonatomic) double focusSpecularDepth; // @synthesize focusSpecularDepth=_focusSpecularDepth;
-@property(nonatomic) double legacyVerticalPositionOffset; // @synthesize legacyVerticalPositionOffset=_legacyVerticalPositionOffset;
 
 @end
 

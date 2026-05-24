@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CUIPlaceholderCUIRuntimeStatistics
 {
     _Atomic long long _wasted_size;
-    _Atomic long long _total_size;
-    _Atomic long long _shortCircuitImageLookup;
-    _Atomic long long _total_lookup;
-    _Atomic long long _total_probes;
-    _Atomic long long _total_initial_lookups;
-    _Atomic long long _missed_lookup;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _notify_token;
 }
 
-+ (id);
++ (id)NightShift;
 + (void);
 - (void);
-- (long long);
+- (long long)ility URL;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0.;
 
 @end
 

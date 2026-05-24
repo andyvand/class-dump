@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPatternModel
 {
     NSString *_pattern_id;
-    NSData *_pattern_parameters;
-    NSString *_pattern_bundle_id;
-    NSString *_pattern_template_directory;
 }
 
 + (_Bool);
@@ -23,30 +20,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setSearchString:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)k. Start over with fallback tone.;
 - (id);
+- (id)PHPhotosErrorOperationInterrupted;
+- (id)Succeeded;
 - (id);
-- (id);
-- (id);
-- (void)ctedLegIndex;
+- (void)_selectedLegIndex;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pattern_bundle_id; // @synthesize pattern_bundle_id=_pattern_bundle_id;
 @property(copy, nonatomic) NSString *pattern_id; // @synthesize pattern_id=_pattern_id;
-@property(copy, nonatomic) NSData *pattern_parameters; // @synthesize pattern_parameters=_pattern_parameters;
-@property(copy, nonatomic) NSString *pattern_template_directory; // @synthesize pattern_template_directory=_pattern_template_directory;
-@property(readonly) Class superclass;
 
 @end
 

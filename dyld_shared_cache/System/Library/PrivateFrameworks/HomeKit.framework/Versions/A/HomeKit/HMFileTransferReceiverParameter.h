@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface HMFileTransferReceiverParameter
 {
     NSData *_publicKey;
-    NSString *_targetID;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)°,;
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(readonly, nonatomic) NSString *targetID; // @synthesize targetID=_targetID;
 
 @end
 

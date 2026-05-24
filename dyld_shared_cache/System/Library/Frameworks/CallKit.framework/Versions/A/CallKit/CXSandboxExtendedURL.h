@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CXSandboxExtendedURL
 {
     NSURL *_URL;
-    long long _sandboxExtensionHandle;
-    NSString *_sandboxExtensionToken;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)K;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)ng request body failed with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)_enumerateCollectionPersistentIDsUsingBlock:(id)arg1;
+- (void)PlaylistEditing;
 - (id);
 - (id);
 - (id);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) long long sandboxExtensionHandle; // @synthesize sandboxExtensionHandle=_sandboxExtensionHandle;
-@property(copy, nonatomic) NSString *sandboxExtensionToken; // @synthesize sandboxExtensionToken=_sandboxExtensionToken;
 
 @end
 

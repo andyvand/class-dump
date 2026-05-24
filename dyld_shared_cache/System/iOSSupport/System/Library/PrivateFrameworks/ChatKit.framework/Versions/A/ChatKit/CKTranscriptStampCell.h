@@ -6,56 +6,42 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, NSString, UIView;
+@class NSAttributedString;
 
 @interface CKTranscriptStampCell : CKTranscriptCell
 {
     _Bool _wantsContactImageLayout;
-    _Bool _wantsOffsetForReplyLine;
-    _Bool _isRetractionStamp;
-    UIView *_stampTextView;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)setThumbnailGenerationQueue: /* Error: Ran out of types for this method. */;
+- (void)resetNotesButton;
+- (void)reservedForCollaborationColorManager;
+- (void)preferredDefaultFontColor;
+- (void)initWithWindowType:(_Bool)arg1 representedObject:selectedRange: /* Error: Ran out of types for this method. */;
+- (void)_hasLockedNotesNotFromDestinationAccountInSource;
+- (void),V_cache;
+- (void),R;
+- (_Bool)ICAttachmentPreviewGenerating;
 - (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)n;
+- (void)ys;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)initWithFrame:(struct CGRect)arg1 collectionViewLayout: /* Error: Ran out of types for this method. */;
 - (id)configureAlertBehaviorForStream:error: /* Error: Ran out of types for this method. */;
 - (void)|L;
 - (void)o__°/\yú%\GQo__Qo_­GSSGGGò3\GA0_Gt;
-- (void)T_IS_CURRENTLY_NOT_SUPPORTED;
+- (void)BUSINESS_CHAT_IS_CURRENTLY_NOT_SUPPORTED;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRetractionStamp; // @synthesize isRetractionStamp=_isRetractionStamp;
-@property(retain, nonatomic) UIView *stampTextView; // @synthesize stampTextView=_stampTextView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsContactImageLayout; // @synthesize wantsContactImageLayout=_wantsContactImageLayout;
-@property(nonatomic) _Bool wantsOffsetForReplyLine; // @synthesize wantsOffsetForReplyLine=_wantsOffsetForReplyLine;
 
 @end
 

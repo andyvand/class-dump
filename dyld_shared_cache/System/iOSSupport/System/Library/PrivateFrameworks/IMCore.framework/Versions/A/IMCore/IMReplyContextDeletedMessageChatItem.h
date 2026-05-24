@@ -6,8 +6,6 @@
 
 #import <IMCore/IMReplyContextTextMessagePartChatItem.h>
 
-@class NSString;
-
 @interface IMReplyContextDeletedMessageChatItem : IMReplyContextTextMessagePartChatItem
 {
     _Bool _deletedMessageIsFromMe;
@@ -16,7 +14,5 @@
 
 // Remaining properties
 @property(nonatomic) _Bool deletedMessageIsFromMe; // @synthesize deletedMessageIsFromMe=_deletedMessageIsFromMe;
-@property(readonly, nonatomic) _Bool replyIsFromMe;
-@property(readonly, copy, nonatomic) NSString *replyMessageGUID;
 @end
 

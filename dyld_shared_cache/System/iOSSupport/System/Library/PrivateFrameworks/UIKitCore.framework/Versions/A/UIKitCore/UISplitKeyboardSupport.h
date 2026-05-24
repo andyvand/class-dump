@@ -6,50 +6,37 @@
 
 #import <UIKitCore/UIKeyboardMotionSupport.h>
 
-@class CADisplayLink, NSString, UIPanGestureRecognizer;
+@class UIPanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface UISplitKeyboardSupport : UIKeyboardMotionSupport
 {
     UIPanGestureRecognizer *_singleFingerPanRecognizer;
-    UIPanGestureRecognizer *_twoFingerPanRecognizer;
-    _Bool _isTranslating;
-    _Bool _isSplitting;
-    _Bool _splitLockState;
-    struct CGPoint _targetTranslation;
-    struct CGPoint _initialTranslation;
-    struct CGPoint _translationVelocity;
-    CADisplayLink *_displayLink;
-    double _lastBounceTime;
-    double _lastTranslationNotificationTime;
-    CDUnknownBlockType _bounceCompletionBlock;
-    _Bool _shouldUpdateKLGForTransition;
-    _Bool _handedOffTouchesToFloatingTransitionController;
 }
 
+- (void)_updateSpamCheckTimerWithInterval:(id)arg1 forChatGUID:(id)arg2;
+- (void)_repairInconsistentJoinStatesAcrossMergedChatsIfNecessary:(id)arg1;
+- (void)_messageIDForUpdateType:participant: /* Error: Ran out of types for this method. */;
+- (void)_hasTriedToEnableMiCByDefault;
+- (_Bool)SMutableDictionary",&,N,V_completionBlocksForAssetFetchOperations;
 - (void);
+- (_Bool)%@ has accounts %@;
+- (void)ge part possibly retracted;
+- (void)a nil nickname;
+- (void)ame in our handled map w/ an existing handled record;
+- (void)old:%lu), dropping deny/allow list update /* Error: Ran out of types for this method. */;
+- (void)ChatProcessingPipelineComponent> Started processing;
+- (void)e response %@;
+- (void)ce properties:(_Bool)arg1 %@;
+- (_Bool)@   Loaded:(struct CGRect)arg1 %@   identifier:(_Bool)arg2 %@;
+- (void)ssage account %@ DO NOT match up;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool)buildWithIdentifier:(id)arg1 withAllowPersonalCaching:(id)arg2 withAllowSharedCaching:(id)arg3 withAutoActivation:withCacheLimit:withDataPath:withDenyActivation:withDenyTetheredCaching:withListenRanges:withListenRangesOnly:withListenWithPeersAndParents:withLocalSubnetsOnly:withLogClientIdentity:withParents:withParentSelectionPolicy:withPeerFilterRanges:withPeerListenRanges:withPeerLocalSubnetsOnly:withPort:withPublicRanges: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)ions;
+- (void)_computingNavigationBarHeightWithRevealPresentationIterations;
 - (_Bool);
 - (_Bool)uttonBarArrowDownSmall.png;
 - (void)sÍhc;
@@ -58,15 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)P=h;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSplitting;
 @property(readonly, nonatomic) _Bool isTranslating;
-@property(readonly) Class superclass;
 
 @end
 

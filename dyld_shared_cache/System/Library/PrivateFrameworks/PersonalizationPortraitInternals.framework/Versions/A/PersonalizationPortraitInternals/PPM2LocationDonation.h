@@ -9,9 +9,6 @@
 @interface PPM2LocationDonation
 {
     NSString *_activeTreatments;
-    int _donationSource;
-    NSString *_groupId;
-    CDStruct_a8edabe5 _has;
 }
 
 - (void);
@@ -25,25 +22,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)4h;
+- (unsigned long long)h;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_chat_loadFrequentReplies:limit:queryID:loadImmediately: /* Error: Ran out of types for this method. */;
+- (void)in chat:(id)arg1 %@;
 - (id);
 - (id);
 - (void)sector";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasGroupId;
 
 @end
 

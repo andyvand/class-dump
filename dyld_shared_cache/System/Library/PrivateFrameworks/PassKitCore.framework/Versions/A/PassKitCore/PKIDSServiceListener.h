@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PKIDSServiceListener
 {
     CDUnknownBlockType _onMessageReceived;
-    id _referenceObject;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 - (CDUnknownBlockType);
@@ -23,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType onMessageReceived; // @synthesize onMessageReceived=_onMessageReceived;
-@property(readonly, nonatomic) __weak id referenceObject; // @synthesize referenceObject=_referenceObject;
-@property(nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
 
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString, _INPBNote;
 
 @protocol _INPBSearchForNotebookItemsIntentResponse
+- (unsigned long long)S;
+- (_INPBNote *);
+- (void);
+- (NSString *)T;
+- (void)7;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSortType;
 @property(copy, nonatomic) NSArray *notes;
-@property(readonly, nonatomic) unsigned long long notesCount;
-@property(nonatomic) int sortType;
-@property(copy, nonatomic) NSArray *taskLists;
-@property(readonly, nonatomic) unsigned long long taskListsCount;
-@property(copy, nonatomic) NSArray *tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 @end
 

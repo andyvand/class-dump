@@ -11,7 +11,6 @@
 @interface CHPointStrokeFIFO : CHPointFIFO
 {
     CHDrawing *_strokes;
-    CHDrawing *_drawing;
 }
 
 - (void);
@@ -21,11 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void)à;
 
 // Remaining properties
-@property(retain, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
 @property(retain, nonatomic) CHDrawing *strokes; // @synthesize strokes=_strokes;
 
 @end

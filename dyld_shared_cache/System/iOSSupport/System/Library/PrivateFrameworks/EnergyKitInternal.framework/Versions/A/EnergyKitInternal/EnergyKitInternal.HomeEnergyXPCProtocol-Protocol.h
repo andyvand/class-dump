@@ -5,5 +5,9 @@
 //
 
 @protocol EnergyKitInternal.HomeEnergyXPCProtocol
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

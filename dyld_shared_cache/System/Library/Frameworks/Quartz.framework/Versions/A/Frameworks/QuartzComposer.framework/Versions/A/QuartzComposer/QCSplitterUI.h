@@ -6,27 +6,17 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSMatrix, NSPopUpButton, NSTabView, NSTextField, QCTableView;
+@class NSPopUpButton;
 
 @interface QCSplitterUI : QCInspector
 {
     NSPopUpButton *classMenu;
-    NSTextField *minField;
-    NSTextField *maxField;
-    NSTabView *propertiesView;
-    NSMatrix *indexRadioMatrix;
-    NSTabView *indexPropertiesView;
-    QCTableView *tableView;
-    NSButton *removeButton;
-    NSButton *addButton;
-    NSTextField *maxIndices;
-    NSTextField *minIndices;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)deviceName;
 - (void);
 - (id);
 - (long long);

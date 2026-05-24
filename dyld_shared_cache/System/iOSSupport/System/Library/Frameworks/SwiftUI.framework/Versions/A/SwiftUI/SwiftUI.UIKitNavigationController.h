@@ -9,14 +9,6 @@
 @interface SwiftUI.UIKitNavigationController
 {
     id isDataDriven;
-    id update;
-    id isTransitioningToSize;
-    id navigationAuthority;
-    id context;
-    id platformNavigationPresentationStrategy;
-    id isSecure;
-    id allowsNavigationControllerMutations;
-    id backgroundHost;
 }
 
 + (_Bool);
@@ -25,13 +17,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)tationAttempts value of %ld, but its attemptedPresentationCount is %ld. | This operation will NOT be presented.;
 - (void);
 - (void);
+- (id)A;
 - (id);
-- (id);
 - (void);
-- (_Bool);
+- (_Bool)contentHashAtImport;
 - (void);
 - (void);
 - (id);

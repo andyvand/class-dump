@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PKPaymentOfferDynamicContent;
+@class NSString;
 
 @interface PKPaymentOfferCriteria
 {
     _Bool _supportsPaymentStatus;
-    NSString *_identifier;
-    unsigned long long _eligibility;
-    unsigned long long _type;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_fpanIdentifier;
-    NSSet *_instoreCapabilities;
-    PKPaymentOfferDynamicContent *_dynamicContent;
 }
 
 + (id);
@@ -24,7 +16,7 @@
 × ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)� ;
 - (void);
 - (void);
 - (void);
@@ -37,35 +29,27 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H 6H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)utilities;
+- (_Bool)setKMACRxUnicastCTStoOther:(id)arg1;
+- (void)AWDCoreRoutineDeletionStats;
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)atForKey:(id)arg1;
-- (void)ucation;
+- (id);
+- (id)decodeFloatForKey:(id)arg1;
+- (void)education;
 - (unsigned long long)ÿvÎlì;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;
-@property(nonatomic) unsigned long long eligibility; // @synthesize eligibility=_eligibility;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSSet *instoreCapabilities; // @synthesize instoreCapabilities=_instoreCapabilities;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(nonatomic) _Bool supportsPaymentStatus; // @synthesize supportsPaymentStatus=_supportsPaymentStatus;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

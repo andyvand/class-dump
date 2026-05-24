@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SiriCoreSQLiteDatabase;
+@class NSString;
 
 @interface SiriCoreSyncDatabase
 {
     NSString *_path;
-    SiriCoreSQLiteDatabase *_db;
-    _Bool _inTransaction;
-    _Bool _debugMode;
 }
 
-+ (void);
-+ (id);
++ (void)rl="%@" data-filename="%@" data-size="%lu" data-expiration="%f" style="margin:15px; border:1px solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
++ (id)ned;
+- (_Bool)delivery account password found. Nothing to do;
+- (void).;
+- (_Bool)yStateObserver;
+- (_Bool)cated.;
+- (_Bool)EMUserDefaultLogMassDeletionAlertCancel;
+- (_Bool)DisableStateRestoration;
+- (_Bool)PreferredGroupedSenderGroupingLogic;
+- (_Bool)RemoteContentVPNBannerHasBeenDismissed;
+- (_Bool)AlwaysVerifyServerProvidedRemoteContentLinks;
+- (_Bool)RemoteContentRequestShortInterval;
+- (int)tsDidChangeNotification;
+- (int)EFPropertyKey_shouldStopDeletingMessages;
+- (int)ion ID reset;
+- (_Bool)p;
+- (int)</div><div style="margin:(id)arg1 3px 10px 0px">%@</div></div></div>;
+- (_Bool)und.;
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (int);
-- (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)lic}@;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -45,7 +42,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool debugMode; // @synthesize debugMode=_debugMode;
 @property(nonatomic) _Bool inTransaction; // @synthesize inTransaction=_inTransaction;
 
 @end

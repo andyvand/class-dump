@@ -5,5 +5,6 @@
 //
 
 @protocol SXDocumentStyleRenderer
+- (void)A�`;
 @end
 

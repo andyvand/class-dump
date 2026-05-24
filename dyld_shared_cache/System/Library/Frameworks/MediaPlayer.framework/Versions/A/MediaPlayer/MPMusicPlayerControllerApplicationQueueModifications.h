@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface MPMusicPlayerControllerApplicationQueueModifications
 {
     NSDictionary *_insertedDescriptors;
-    NSArray *_removedItemIdentifiers;
 }
 
 + (_Bool);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void)hMediaRemoteCommand:withOptions:completion: /* Error: Ran out of types for this method. */;
+- (void)_dispatchMediaRemoteCommand:withOptions:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *insertedDescriptors; // @synthesize insertedDescriptors=_insertedDescriptors;
-@property(readonly, nonatomic) NSArray *removedItemIdentifiers; // @synthesize removedItemIdentifiers=_removedItemIdentifiers;
 
 @end
 

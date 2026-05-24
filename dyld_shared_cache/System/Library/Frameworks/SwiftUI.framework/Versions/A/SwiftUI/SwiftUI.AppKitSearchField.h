@@ -7,14 +7,12 @@
 @interface SwiftUI.AppKitSearchField
 {
     id suggestionsBridge;
-    id customAcceptsFirstMouse;
-    id swiftUISearchDelegate;
 }
 
 + (void);
 + (Class);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
 - (_Bool);
@@ -24,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void)mBox;
+- (void)TransformBox;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

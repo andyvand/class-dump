@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface _NSAttributeRun
 {
     struct _NSRange _range;
-    NSMutableArray *_attributesArray;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)[7i]}{?=IIIffffffII}{?=II[9i]}{?=f[10i]}{?=I[10i]}{?=ff[9i]})}){?=ss[15i]})^vSS^{__CGSEventAppendix}IB^{__CFData}}16Q24B32^{CPXEventProcessorContext=^{CGXSession}^{CGXSessionProcessData}^{CPSProcessRec}}36@"<CPXEventDispatching>"44;
 - (void);
 - (struct _NSRange);
 - (id);

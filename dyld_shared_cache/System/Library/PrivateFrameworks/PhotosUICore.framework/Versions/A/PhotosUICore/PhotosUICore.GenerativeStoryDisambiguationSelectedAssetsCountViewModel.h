@@ -7,10 +7,6 @@
 @interface PhotosUICore.GenerativeStoryDisambiguationSelectedAssetsCountViewModel
 {
     id _count;
-    id _previousStartDate;
-    id _previousEndDate;
-    id assetFetcher;
-    id _$observationRegistrar;
 }
 
 @end

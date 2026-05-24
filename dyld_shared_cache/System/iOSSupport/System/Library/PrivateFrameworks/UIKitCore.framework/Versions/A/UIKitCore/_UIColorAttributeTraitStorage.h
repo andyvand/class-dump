@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     _UICoreUICatalogColorWrapper *_namedColor;
 }
 
-- (id);
+- (id)_executeSpamCompletionBlockForMessageGuid:(id)arg1 category:(id)arg2 subCategory:(id)arg3 filterExtensionMetadata:receivedViaRelay:spamDetectionSource: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)the account is active - try to create one;
 - (id);
-- (id);
-- (void)iew:(id)arg1;
+- (void)queuingScrollView:(id)arg1 viewBeforeView: /* Error: Ran out of types for this method. */;
 - (void)( ];
 
 @end

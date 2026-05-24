@@ -10,7 +10,6 @@
 @interface MFTimeHeaderCollectionViewCell
 {
     id <MFTimeHeaderCollectionViewCellDelegate> _delegate;
-    UISwitch *_switchView;
 }
 
 + (id);
@@ -18,13 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_scrollViewLeadingConstraint;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MFTimeHeaderCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak UISwitch *switchView; // @synthesize switchView=_switchView;
 
 @end

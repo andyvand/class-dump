@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface CHDefaultHapticDeviceCapability
 {
     _Bool _supportsHaptics;
-    _Bool _supportsAudio;
 }
 
 - (_Bool);
 - (float);
 - (float);
-- (float);
+- (float);
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -27,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long maximumNumberOfAudioChannels;
 @property(readonly) unsigned long long maximumNumberOfHapticChannels;
-@property(readonly) _Bool supportsAudio;
-@property(readonly) _Bool supportsHaptics;
 
 @end
 

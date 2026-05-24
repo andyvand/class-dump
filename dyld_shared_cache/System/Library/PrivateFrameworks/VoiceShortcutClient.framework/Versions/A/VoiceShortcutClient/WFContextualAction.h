@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WFContextualActionFilteringBehavior, WFContextualActionIcon;
-
 @interface WFContextualAction
 {
     _Bool _actionShowsUserInterface;
-    _Bool _alternate;
-    _Bool _reversible;
-    NSString *_identifier;
-    NSArray *_parameters;
-    unsigned long long _type;
-    long long _resultFileOperation;
-    WFContextualActionIcon *_icon;
-    WFContextualActionIcon *_accessoryIcon;
-    NSString *_displayString;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_associatedAppBundleIdentifier;
-    NSString *_wfActionIdentifier;
-    WFContextualActionFilteringBehavior *_filteringBehavior;
-    unsigned long long _correspondingSystemActionType;
 }
 
-+ (id);
++ (id)z;
 + (id);
 + (_Bool);
 

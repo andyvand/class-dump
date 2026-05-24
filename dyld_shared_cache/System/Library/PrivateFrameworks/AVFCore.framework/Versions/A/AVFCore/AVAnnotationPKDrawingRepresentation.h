@@ -13,11 +13,11 @@
     NSData *_drawingData;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)k;
 - (void);
 - (id);
 - (unsigned long long);

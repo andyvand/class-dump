@@ -6,16 +6,15 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSFindItemResponseType, NSArray, NSDictionary;
+@class NSArray;
 
 @interface MFEWSFindItemsResponseOperation : MFEWSResponseOperation
 {
     NSArray *_EWSFolderIds;
-    NSDictionary *_rootFoldersByEWSFolderId;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -27,8 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *EWSFolderIds; // @synthesize EWSFolderIds=_EWSFolderIds;
-@property(retain) EWSFindItemResponseType *response;
-@property(copy, nonatomic) NSDictionary *rootFoldersByEWSFolderId; // @synthesize rootFoldersByEWSFolderId=_rootFoldersByEWSFolderId;
 
 @end
 

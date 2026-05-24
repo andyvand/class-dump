@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIGadgetContainer, EKViewController;
+@class EKUIGadgetContainer;
 
 @interface EKViewScrollView
 {
     _Bool _isEnabled;
-    _Bool _shouldScrollToTop;
-    EKUIGadgetContainer *_container;
-    EKViewController *_viewController;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)$�;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)rmGadget;
+- (void)unregisterDeviceFromLoggedOutiCloudNotificationsWithReason:completion: /* Error: Ran out of types for this method. */;
+- (void)addNoneAlarmGadget;
 - (void);
 
 // Remaining properties
 @property __weak EKUIGadgetContainer *container; // @synthesize container=_container;
-@property _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property _Bool shouldScrollToTop; // @synthesize shouldScrollToTop=_shouldScrollToTop;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

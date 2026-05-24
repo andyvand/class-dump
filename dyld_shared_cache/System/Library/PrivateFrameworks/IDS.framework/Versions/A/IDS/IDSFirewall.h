@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSSet, NSString;
 
 @interface IDSFirewall
 {
     NSSet *_impactedServiceIdentifiers;
-    NSString *_service;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void)setPriorLinkType:(id)arg1;
+- (void);
+- (void)ocation. Fallback to STUN;
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
@@ -39,8 +36,6 @@
 - (void)Ô¡;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *impactedServiceIdentifiers; // @synthesize impactedServiceIdentifiers=_impactedServiceIdentifiers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

@@ -9,6 +9,7 @@
 @interface HomeUtilityServices.InternalHpkeEncryptedResponseWithToken : HomeUtilityServices.InternalHpkeEncryptedResponse
 {
     id authorizationToken;
+    id;
 }
 
 @end

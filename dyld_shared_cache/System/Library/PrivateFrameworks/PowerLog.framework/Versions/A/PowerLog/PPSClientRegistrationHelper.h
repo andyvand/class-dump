@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connectionToServer; // @synthesize connectionToServer=_connectionToServer;

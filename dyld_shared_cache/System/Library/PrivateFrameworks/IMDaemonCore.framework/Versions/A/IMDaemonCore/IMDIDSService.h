@@ -6,21 +6,16 @@
 
 #import <IMDaemonCore/IMDService.h>
 
-@class IDSAccountController, NSArray, NSString;
+@class IDSAccountController;
 
 @interface IMDIDSService : IMDService
 {
     IDSAccountController *_accountController;
-    _Bool _activatingAccount;
-    _Bool _deactivatingAccount;
-    IMDIDSService *_subService;
-    NSString *_subServiceName;
-    IMDIDSService *_mainService;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)er;
 - (void);
 - (void);
 - (void);
@@ -48,33 +43,20 @@
 - (id);
 - (Class);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id)wed list, Not relaying message;
 - (void)ed the highlight yet), dropping notice.;
-- (void)pe;
+- (void)explosionErrorType;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accountsLoadedFromIdentityServices;
-@property(readonly, nonatomic) NSArray *activeAccountsFromIdentityServices;
-@property(readonly, nonatomic) _Bool canManageRegistration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSubService;
-@property(nonatomic) __weak IMDIDSService *mainService; // @synthesize mainService=_mainService;
 @property(retain, nonatomic) IMDIDSService *subService; // @synthesize subService=_subService;
-@property(retain, nonatomic) NSString *subServiceName; // @synthesize subServiceName=_subServiceName;
-@property(readonly) Class superclass;
 
 @end
 

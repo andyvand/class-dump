@@ -7,28 +7,6 @@
 @interface BiomeSQLParser.PgQuery_IndexStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _idxname;
-    id _relation;
-    id _accessMethod;
-    id _tableSpace;
-    id _indexParams;
-    id _indexIncludingParams;
-    id _options;
-    id _whereClause;
-    id _excludeOpNames;
-    id _idxcomment;
-    id _indexOid;
-    id _oldNode;
-    id _oldCreateSubid;
-    id _oldFirstRelfilenodeSubid;
-    id _unique;
-    id _primary;
-    id _isconstraint;
-    id _deferrable;
-    id _initdeferred;
-    id _transformed;
-    id _concurrent;
-    id _ifNotExists;
-    id _resetDefaultTblspc;
 }
 
 @end

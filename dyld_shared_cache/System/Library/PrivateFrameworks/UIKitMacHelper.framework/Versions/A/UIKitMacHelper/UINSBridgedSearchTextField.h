@@ -6,8 +6,6 @@
 
 #import <UIKitMacHelper/UINSSceneHostingView.h>
 
-@class NSString, UISearchTextField;
-
 __attribute__((visibility("hidden")))
 @interface UINSBridgedSearchTextField : UINSSceneHostingView
 {
@@ -17,33 +15,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (struct CGRect);
 - (void);
-- (void);
-- (long long);
+- (void)setDrain_depth_p_1_00_at_charge_start_secs_curr_dynamic_bin_12:(long long)arg1;
+- (long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(setter=_setFocusRingAnimationType:) long long _focusRingAnimationType; // @synthesize _focusRingAnimationType;
-@property unsigned long long controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UISearchTextField *searchTextField;
-@property(readonly) NSString *stringValue;
-@property(readonly) Class superclass;
 
 @end
 

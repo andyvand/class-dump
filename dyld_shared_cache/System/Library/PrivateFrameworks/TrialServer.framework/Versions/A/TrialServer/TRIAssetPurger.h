@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIAssetStore, TRIClient;
-@protocol TRIPaths, TRIPurgeableExperimentAndRolloutProviding, TRIPurgeableNamespacesProviding, TRIPurgeableOnDemandFactorsEnumerating, TRITaskQueuing;
+@protocol TRIPaths;
 
 @interface TRIAssetPurger
 {
     id <TRIPaths> _paths;
-    id <TRIPurgeableNamespacesProviding> _purgeableNamespacesProvider;
-    id <TRIPurgeableOnDemandFactorsEnumerating> _purgeableFactorPacksEnumerator;
-    id <TRIPurgeableExperimentAndRolloutProviding> _purgeableExperimentAndRolloutProvider;
-    id <TRITaskQueuing> _taskQueue;
-    TRIAssetStore *_assetStore;
-    TRIClient *_loggingClient;
 }
 
 - (void);
@@ -26,13 +19,7 @@
 - (void)0I44@48B56;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

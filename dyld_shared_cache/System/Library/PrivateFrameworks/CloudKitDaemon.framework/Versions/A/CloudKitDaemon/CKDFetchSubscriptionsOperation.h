@@ -7,33 +7,27 @@
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
 @class NSArray;
-@protocol CKFetchSubscriptionsOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDFetchSubscriptionsOperation : CKDDatabaseOperation
 {
     _Bool _isFetchAllSubscriptionsOperation;
-    CDUnknownBlockType _subscriptionFetchedProgressBlock;
-    NSArray *_subscriptionIDs;
 }
 
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)__WiFiCloudSyncEngineSetupKeychainSyncStateChangeNotification;
 - (id);
 - (void);
-- (void)tionErrorDeviceCapabilities;
+- (void)FakeSignatureGenerationErrorDeviceCapabilities;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchSubscriptionsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(nonatomic) _Bool isFetchAllSubscriptionsOperation; // @synthesize isFetchAllSubscriptionsOperation=_isFetchAllSubscriptionsOperation;
-@property(copy, nonatomic) CDUnknownBlockType subscriptionFetchedProgressBlock; // @synthesize subscriptionFetchedProgressBlock=_subscriptionFetchedProgressBlock;
 @property(retain, nonatomic) NSArray *subscriptionIDs; // @synthesize subscriptionIDs=_subscriptionIDs;
 
 @end

@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface AWDNWAccumulator
 {
     NSMutableArray *_durations;
-    NSString *_name;
 }
 
 + (Class);
+- (unsigned long long)2i;
+- (id);
+- (void)ka4;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void))?�I;
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (void);
+- (_Bool)?;
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)L;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *durations; // @synthesize durations=_durations;
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

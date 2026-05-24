@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class NSString;
 
 @protocol REMDAAccountProviding
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountDescription;
 @property(readonly, nonatomic) NSString *accountID;
-@property(readonly, nonatomic) REMObjectID *rem_accountObjectID;
 @end
 

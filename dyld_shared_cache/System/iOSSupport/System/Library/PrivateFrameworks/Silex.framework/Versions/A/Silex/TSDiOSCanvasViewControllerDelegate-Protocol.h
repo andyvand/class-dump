@@ -5,5 +5,8 @@
 //
 
 @protocol TSDiOSCanvasViewControllerDelegate
+
+@optional
+- (Class)0;
 @end
 

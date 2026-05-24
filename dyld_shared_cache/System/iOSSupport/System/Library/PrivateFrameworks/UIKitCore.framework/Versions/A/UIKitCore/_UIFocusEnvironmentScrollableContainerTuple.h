@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     id <UIFocusItemScrollableContainer> _scrollableContainer;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)d, deleting payload data;
+- (id)8q52;
+- (id)serverTimestampInNanoseconds;
+- (id)handler:(id)arg1 messageIDRead:(id)arg2 readByMe:timeStamp:toIdentifier:fromIdentifier:fromToken:reflectOnly:storageContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool)traSeparators:(id)arg1;
+- (_Bool)tableViewSpacingForExtraSeparators:(id)arg1;
 - (void)oc;
 
 // Remaining properties

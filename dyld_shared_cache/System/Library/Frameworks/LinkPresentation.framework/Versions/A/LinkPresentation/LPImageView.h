@@ -6,21 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPImage, LPImagePresentationProperties, LPImageViewStyle, NSImageView, NSView;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPImageView : LPComponentView
 {
     LPImage *_image;
-    LPImage *_filteredImage;
-    LPImagePresentationProperties *_properties;
-    LPImageViewStyle *_style;
-    LPImageViewStyle *_originalStyle;
-    long long _currentScalingMode;
-    long long _platterReason;
-    NSImageView *_imageView;
-    NSView *_overlayView;
-    NSView *_backgroundView;
 }
 
 + (_Bool);
@@ -39,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (double);
 - (void);

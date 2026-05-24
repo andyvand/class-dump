@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _NSExtensionQuickActionInvocation;
+@class _NSExtensionQuickActionInvocation;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickActionValidation
 {
     _NSExtensionQuickActionInvocation *_invocation;
-    NSSet *_unvalidatedQuickActions;
-    void *_observationInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)d configuration;
 + (_Bool)J;
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)<%{public}@> An error occurred on the xpc connection requesting pending callbacks for the background session:(id)arg1 %@;
 - (void);
 - (void)x		L
 xà¬%(È;
@@ -27,14 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)ox;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSSet *validQuickActions;
 @property(readonly) _Bool wantsAutovalidation;
 
 @end

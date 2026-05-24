@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
-
 @interface ABAPIAdapter
 {
     id _adaptedObject;
-    Protocol *_localProtocol;
-    Protocol *_remoteProtocol;
-    _Bool _hasCompletionHandler;
 }
 
 + (unsigned long long);
@@ -23,7 +18,7 @@
 - (void);
 - (SEL);
 - (id);
-- (_Bool);
+- (_Bool)';
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -31,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)X;
 - (void);
 - (id);
 - (void)0@ù
@@ -39,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id adaptedObject; // @synthesize adaptedObject=_adaptedObject;
-@property(nonatomic) _Bool hasCompletionHandler; // @synthesize hasCompletionHandler=_hasCompletionHandler;
-@property(retain, nonatomic) Protocol *localProtocol; // @synthesize localProtocol=_localProtocol;
-@property(retain, nonatomic) Protocol *remoteProtocol; // @synthesize remoteProtocol=_remoteProtocol;
 
 @end
 

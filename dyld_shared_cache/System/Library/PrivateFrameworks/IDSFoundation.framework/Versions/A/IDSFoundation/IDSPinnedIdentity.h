@@ -11,7 +11,7 @@
     NSData *_identityBlob;
 }
 
-+ (_Bool);
++ (_Bool)=;
 - (void);
 - (id);
 - (id);

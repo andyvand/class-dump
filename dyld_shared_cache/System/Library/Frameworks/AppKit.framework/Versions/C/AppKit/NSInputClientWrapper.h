@@ -10,26 +10,24 @@ __attribute__((visibility("hidden")))
 @interface NSInputClientWrapper
 {
     id <NSTextInput><NSObject> _realClient;
-    id _lastString;
-    struct _NSRange _lastRange;
 }
 
 + (void);
-+ (void);
-+ (id);
++ (void)ion=%u;
++ (id)kConditionalConnectionRequirementDuetPreClearedMode;
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)setAllowsSpecificHTTPSCertificate:(struct _NSRange)arg1 forHost: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI21TClientChangeNotifierJR17NodeClientContextRP16OpaqueEventQueueRPFvS6_ERU8__strongPU28objcproto17OS_dispatch_queue8NSObjectRU8__strongU13block_pointerFvP11FINodeEventERPK10__CFStringEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISW_EEEE;
 - (struct _NSRange)int x-coordinate;
 - (long long)A;
 - (void)ðìÿþf×8C;
 - (struct _NSRange)bí;
-- (void)E;
+- (void)pRE;
 - (void)Y¼xG;
 - (_Bool)àÿ@ÝG;
 

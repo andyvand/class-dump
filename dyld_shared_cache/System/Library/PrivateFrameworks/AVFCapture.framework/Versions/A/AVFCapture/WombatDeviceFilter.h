@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface WombatDeviceFilter
 {
     NSMutableSet *_tracking;
-    NSMutableSet *_published;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-- (_Bool);
-- (void);
+- (_Bool)sessionDidReceiveParticipantUpgrade:(unsigned int)arg1 participantType:error: /* Error: Ran out of types for this method. */;
+- (void)initWithOutputStream:(unsigned int *)arg1 queue:(unsigned int)arg2;
 
 @end
 

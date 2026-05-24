@@ -10,7 +10,6 @@
 @interface IMDCKRecordSaltManager
 {
     NSString *_cachedSalt;
-    NSObject<OS_dispatch_queue> *_ckQueue;
 }
 
 + (id)than 1 participant but 1-1 chat style, rewriting GUID and chat identifier;
@@ -24,12 +23,11 @@
 - (id);
 - (void);
 - (id);
-- (void)ntDestinationIdentifiers;
+- (void)participantDestinationIdentifiers;
 - (void);
 - (void)n callback;
 
 // Remaining properties
-@property(retain) NSString *cachedSalt; // @synthesize cachedSalt=_cachedSalt;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
 
 @end

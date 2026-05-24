@@ -4,41 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPaddedTextFieldCell, NSBox, NSButton, NSLayoutConstraint, NSProgressIndicator, NSString, NSTextField, NSView, OBPrivacyLinkController;
+@class NSButton;
 
 @interface AKAppleIDAuthenticationiCloudPrefPaneViewController
 {
     _Bool _isCreateEnabled;
-    _Bool _isUsernameEditable;
-    NSBox *_usernamePasswordSeparator;
-    NSButton *_loginButton;
-    NSButton *_forgotButton;
-    NSButton *_createButton;
-    NSTextField *_usernameField;
-    AKPaddedTextFieldCell *_paddedUserNameCell;
-    NSTextField *_passwordField;
-    NSView *_privacyView;
-    NSTextField *_usernameTitle;
-    NSTextField *_passwordTitle;
-    NSLayoutConstraint *_loginViewHeight;
-    NSView *_fieldsView;
-    NSString *_initialUsername;
-    long long _selectedButton;
-    NSString *_privacyBundleIdentifier;
-    CDUnknownBlockType _loginButtonAction;
-    CDUnknownBlockType _forgotButtonAction;
-    CDUnknownBlockType _createButtonAction;
-    NSButton *_helpButton;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSProgressIndicator *_progressIndicator;
-    CDUnknownBlockType _passwordHandler;
-    OBPrivacyLinkController *_privacyController;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)/];
+- (id)s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1";
 - (void);
 - (void);
 - (void);
@@ -53,14 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -81,7 +56,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ڂ;
 - (void);
 - (id);
 - (void);
@@ -90,17 +65,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)y;
+- (id);
 - (void);
 - (CDUnknownBlockType);
+- (void)T;
+- (id)%@;
+- (_Bool)%@;
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)mcache_hit_no_alloc;
 - (long long);
 - (id);
 - (id);
@@ -111,39 +86,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(retain, nonatomic) NSButton *createButton; // @synthesize createButton=_createButton;
-@property(copy, nonatomic) CDUnknownBlockType createButtonAction; // @synthesize createButtonAction=_createButtonAction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSView *fieldsView; // @synthesize fieldsView=_fieldsView;
-@property(retain, nonatomic) NSButton *forgotButton; // @synthesize forgotButton=_forgotButton;
-@property(copy, nonatomic) CDUnknownBlockType forgotButtonAction; // @synthesize forgotButtonAction=_forgotButtonAction;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) NSButton *helpButton; // @synthesize helpButton=_helpButton;
-@property(retain, nonatomic) NSString *initialUsername; // @synthesize initialUsername=_initialUsername;
-@property(nonatomic, setter=setCreateEnabled:) _Bool isCreateEnabled; // @synthesize isCreateEnabled=_isCreateEnabled;
-@property(nonatomic, setter=setUsernameEditable:) _Bool isUsernameEditable; // @synthesize isUsernameEditable=_isUsernameEditable;
-@property(retain, nonatomic) NSButton *loginButton; // @synthesize loginButton=_loginButton;
-@property(copy, nonatomic) CDUnknownBlockType loginButtonAction; // @synthesize loginButtonAction=_loginButtonAction;
-@property(retain, nonatomic) NSLayoutConstraint *loginViewHeight; // @synthesize loginViewHeight=_loginViewHeight;
-@property(retain, nonatomic) AKPaddedTextFieldCell *paddedUserNameCell; // @synthesize paddedUserNameCell=_paddedUserNameCell;
-@property(retain, nonatomic) NSTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(copy, nonatomic) CDUnknownBlockType passwordHandler; // @synthesize passwordHandler=_passwordHandler;
-@property(retain, nonatomic) NSTextField *passwordTitle; // @synthesize passwordTitle=_passwordTitle;
-@property(retain, nonatomic) NSString *privacyBundleIdentifier; // @synthesize privacyBundleIdentifier=_privacyBundleIdentifier;
-@property(retain, nonatomic) OBPrivacyLinkController *privacyController; // @synthesize privacyController=_privacyController;
-@property(retain, nonatomic) NSView *privacyView; // @synthesize privacyView=_privacyView;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) long long selectedButton; // @synthesize selectedButton=_selectedButton;
-@property(readonly) Class superclass;
-@property(nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSTextField *usernameField; // @synthesize usernameField=_usernameField;
-@property(retain, nonatomic) NSBox *usernamePasswordSeparator; // @synthesize usernamePasswordSeparator=_usernamePasswordSeparator;
-@property(retain, nonatomic) NSTextField *usernameTitle; // @synthesize usernameTitle=_usernameTitle;
 
 @end
 

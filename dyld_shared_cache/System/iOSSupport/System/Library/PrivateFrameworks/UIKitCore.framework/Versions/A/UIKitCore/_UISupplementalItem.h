@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIImage;
-
 @interface _UISupplementalItem
 {
     id _internal;
-    UIImage *_icon;
-    NSDictionary *_userInfo;
 }
 
 + (id);
 + (_Bool)@=%@;
-- (id);
+- (id)@;
 - (void);
 - (id);
-- (id);
-- (void)g;
-- (void):(id)arg1;
-- (id)le: /* Error: Ran out of types for this method. */;
-- (id)esponse:(struct _NSZone *)arg1 tracking:initialDampingRatio:initialResponse:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)spinning;
+- (void)defaultInsetGroupedListCellConfigurationForState:(id)arg1;
+- (id)_setVisible: /* Error: Ran out of types for this method. */;
+- (id)_animateUsingSpringWithDampingRatio:(struct _NSZone *)arg1 response:tracking:initialDampingRatio:initialResponse:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ation;
 - (void)9Â;
 
 // Remaining properties
-@property(copy, nonatomic) UIImage *icon; // @synthesize icon=_icon;
 @property(readonly, nonatomic, getter=_identifier) unsigned long long identifier;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

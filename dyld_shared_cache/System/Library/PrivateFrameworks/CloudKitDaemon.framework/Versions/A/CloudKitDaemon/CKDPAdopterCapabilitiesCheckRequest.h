@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPRecordZoneIdentifier, NSData, NSMutableArray;
+@class NSData;
 
 @interface CKDPAdopterCapabilitiesCheckRequest
 {
     NSData *_continuation;
-    CKDPDate *_excludeZoneAccessBefore;
-    NSMutableArray *_fieldLevelCapabilities;
-    NSMutableArray *_recordLevelCapabilities;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    NSMutableArray *_zoneLevelCapabilities;
-    _Bool _excludeDevicesWithoutCapabilityCheckingSupport;
-    struct {
-        unsigned int excludeDevicesWithoutCapabilityCheckingSupport:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (id);
++ (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -33,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)j.@�?;
+- (id)7;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -43,21 +34,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)s\8	;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)I;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)merendpointaudiosource.notification[%p];
 - (_Bool);
-- (unsigned int);
+- (unsigned int)Y;
 - (void);
 - (_Bool);
 - (void);
@@ -66,21 +57,11 @@
 - (id);
 - (id)ñÛ°1Â0@ù
 × ;
-- (Class)tFrequencyBase: /* Error: Ran out of types for this method. */;
+- (Class)c2AllOperationMetricsReportFrequencyBase: /* Error: Ran out of types for this method. */;
 - (void)api/client/shareVetting/initiate;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
-@property(nonatomic) _Bool excludeDevicesWithoutCapabilityCheckingSupport; // @synthesize excludeDevicesWithoutCapabilityCheckingSupport=_excludeDevicesWithoutCapabilityCheckingSupport;
-@property(retain, nonatomic) CKDPDate *excludeZoneAccessBefore; // @synthesize excludeZoneAccessBefore=_excludeZoneAccessBefore;
-@property(retain, nonatomic) NSMutableArray *fieldLevelCapabilities; // @synthesize fieldLevelCapabilities=_fieldLevelCapabilities;
-@property(readonly, nonatomic) _Bool hasContinuation;
-@property(nonatomic) _Bool hasExcludeDevicesWithoutCapabilityCheckingSupport;
-@property(readonly, nonatomic) _Bool hasExcludeZoneAccessBefore;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) NSMutableArray *recordLevelCapabilities; // @synthesize recordLevelCapabilities=_recordLevelCapabilities;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
-@property(retain, nonatomic) NSMutableArray *zoneLevelCapabilities; // @synthesize zoneLevelCapabilities=_zoneLevelCapabilities;
 
 @end
 

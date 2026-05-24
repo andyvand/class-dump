@@ -6,8 +6,6 @@
 
 #import <CharacterPicker/CPKCharactersSectionView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPKCharactersSectionStaticView : CPKCharactersSectionView
 {
@@ -16,23 +14,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)R"1;
 - (id);
 - (struct CGSize);
-- (_Bool);
-- (void);
+- (_Bool)H;
+- (void)-;
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)k!;
+- (struct CGRect)T);
 - (struct CGRect);
-- (struct CGRect);
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -42,29 +40,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

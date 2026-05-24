@@ -13,7 +13,7 @@
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGRect);
-+ (void);
++ (void)0;
 + (struct CGRect);
 + (_Bool);
 + (_Bool);

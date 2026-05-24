@@ -6,44 +6,29 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString, NSVisualEffectView, _NSBoxCustomView;
+@class NSColor, NSVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface _NSBoxMaterialCapableCustomView : NSView
 {
     NSVisualEffectView *_effectView;
-    _NSBoxCustomView *_simpleCustomView;
-    NSColor *_fillColor;
-    NSColor *_borderColor;
-    double _borderWidth;
-    double _cornerRadius;
 }
 
 - (void);
 - (void);
 - (void)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
-- (id)lePanel:(struct CGRect)arg1;
-- (id);
+- (id)togglePanel:(struct CGRect)arg1;
+- (id)_isSectionOperation;
 - (double)Haÿÿ;
-- (id)StartString;
-- (void)bserver;
+- (id)firstSectionStartString;
+- (void)glassEffectDiffusionDidChangeObserver;
 - (void)ntrancy is not supported.;
 - (double)wrong action. (%@ instead of %@);
-- (void)ultipleSelectionBinder;
+- (void)NSMultipleSelectionBinder;
 - (void);
 
 // Remaining properties
-@property(copy) NSColor *borderColor;
-@property double borderWidth;
-@property double cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSColor *fillColor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

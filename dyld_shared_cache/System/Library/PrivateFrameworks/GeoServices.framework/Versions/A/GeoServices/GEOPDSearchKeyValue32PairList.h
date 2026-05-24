@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)shouldClearSettingsArchivesForMigration;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"read_token"b1"wrote_anyField"b1};
-- (id)ports;
+- (id)_ports;
 - (id)ÞTßßðàÀáÄâ(ã;
 - (void)ñº~ÁntH@;
 

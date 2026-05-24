@@ -10,6 +10,9 @@
 - (id);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: SKSHA1
+// Property attributes: rView.videoContentView.stereoLayersView.videoBounds
+
 @property(nonatomic, readonly) NSData *sk_sha1Hash;
 @end
 

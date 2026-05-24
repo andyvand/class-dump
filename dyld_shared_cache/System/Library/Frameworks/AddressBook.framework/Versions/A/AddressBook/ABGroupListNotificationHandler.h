@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAbstractGroupEntriesFactory, ABAddressBook, ABGroupEntriesList, NSArray;
-@protocol ABAccountCollection;
+@class ABAddressBook;
 
 @interface ABGroupListNotificationHandler
 {
     ABAddressBook *_addressBook;
-    ABGroupEntriesList *_groupEntriesList;
-    ABAbstractGroupEntriesFactory *_groupEntriesFactory;
-    id <ABAccountCollection> _accountCollection;
-    NSArray *_emptyAccountIdentifiers;
 }
 
 - (void);

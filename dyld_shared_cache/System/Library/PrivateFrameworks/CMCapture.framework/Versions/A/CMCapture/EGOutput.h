@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EGNode, NSArray, NSMutableArray, NSString;
-@protocol EGElement, EGPortInterface;
+@class NSString;
 
 @interface EGOutput
 {
     NSString *_name;
-    EGNode *_parentNode;
-    NSMutableArray *_destinations;
-    NSMutableArray *_downstreamNodeInputPorts;
-    int _emittedCount;
 }
 
 + (void)vice.built-in_video:1 /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)defaultDateTimeFormatForLocale: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(readonly, nonatomic) NSArray *downstreamNodeInputPorts; // @synthesize downstreamNodeInputPorts=_downstreamNodeInputPorts;
 @property(readonly, nonatomic) int emittedCount; // @synthesize emittedCount=_emittedCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
-@property(readonly, nonatomic) id <EGPortInterface> portInterface;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EGOutput *upstreamNodeOutput;
 
 @end
 

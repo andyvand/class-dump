@@ -13,9 +13,9 @@
 + (Class);
 + (id);
 + (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)fAllMembers(ABRecordRef);
+- (unsigned long long);
+- (id)CKActionMenuItem;
 
 @end
 

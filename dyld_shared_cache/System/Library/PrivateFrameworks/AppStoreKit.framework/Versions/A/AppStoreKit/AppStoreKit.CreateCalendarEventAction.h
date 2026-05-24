@@ -9,14 +9,6 @@
 @interface AppStoreKit.CreateCalendarEventAction : AppStoreKit.Action
 {
     id startDate;
-    id endDate;
-    id isAllDay;
-    id name;
-    id location;
-    id notes;
-    id url;
-    id notAuthorizedAction;
-    id availability;
 }
 
 @end

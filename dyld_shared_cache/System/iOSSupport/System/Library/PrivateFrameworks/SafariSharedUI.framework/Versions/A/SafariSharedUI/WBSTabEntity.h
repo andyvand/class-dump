@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface WBSTabEntity
 {
     _Bool _isPrivate;
-    NSUUID *_uuid;
-    NSString *_title;
-    NSString *_address;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ount;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)chingFrameOfView:withFrameOfView:directionalInsets: /* Error: Ran out of types for this method. */;
+- (id)removeMenuForIdentifier: /* Error: Ran out of types for this method. */;
+- (id)n,V_thumbnailViewHidden;
+- (void)safari_constraintsMatchingFrameOfView:withFrameOfView:directionalInsets: /* Error: Ran out of types for this method. */;
 - (_Bool)metadata for empty URL.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

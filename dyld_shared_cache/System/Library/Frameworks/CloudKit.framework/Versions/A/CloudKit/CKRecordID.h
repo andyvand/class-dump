@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSString;
+@class NSString;
 
 @interface CKRecordID
 {
     NSString *_recordName;
-    CKRecordZoneID *_zoneID;
 }
 
 @end

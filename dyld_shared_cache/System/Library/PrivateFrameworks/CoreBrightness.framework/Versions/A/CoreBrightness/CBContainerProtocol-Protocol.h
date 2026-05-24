@@ -5,5 +5,7 @@
 //
 
 @protocol CBContainerProtocol
+- (void);
+- (id)n.framework/Versions/C/Foundation;
 @end
 

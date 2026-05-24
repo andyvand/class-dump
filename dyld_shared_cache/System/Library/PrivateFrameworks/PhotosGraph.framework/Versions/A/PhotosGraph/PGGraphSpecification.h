@@ -10,10 +10,10 @@
 
 - (id);
 - (id);
-- (id);
+- (id)];
 - (void);
-- (id);
-- (void);
+- (id)safari_createTemporaryDirectoryAppropriateForURL:error: /* Error: Ran out of types for this method. */;
+- (void)ifAddition:(CDUnknownBlockType)arg1 ifRemoval:ifReplacement:ifContentUpdate:ifReplacedEntirely: /* Error: Ran out of types for this method. */;
 - (Class);
 - (id);
 - (Class);

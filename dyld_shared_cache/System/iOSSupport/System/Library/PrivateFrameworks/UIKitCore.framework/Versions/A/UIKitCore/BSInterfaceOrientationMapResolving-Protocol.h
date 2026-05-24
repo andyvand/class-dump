@@ -5,6 +5,6 @@
 //
 
 @protocol BSInterfaceOrientationMapResolving
-- (long long)dEnd:(unsigned long long)arg1;
+- (long long)_previewTransitionDidEnd:(unsigned long long)arg1;
 @end
 

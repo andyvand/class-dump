@@ -9,7 +9,6 @@
 @interface NURenderPipelineVideoMetadataSample
 {
     AVTimedMetadataGroup *_metadataGroup;
-    CDStruct_1b6d18a9 _frameTime;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 frameTime; // @synthesize frameTime=_frameTime;
 @property(readonly, nonatomic) AVTimedMetadataGroup *metadataGroup; // @synthesize metadataGroup=_metadataGroup;
 
 @end

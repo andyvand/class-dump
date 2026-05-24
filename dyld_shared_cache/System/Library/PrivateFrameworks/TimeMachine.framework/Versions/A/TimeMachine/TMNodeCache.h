@@ -6,14 +6,11 @@
 
 #import <TimeMachine/TMMonoStructure.h>
 
-@class NSURL, TMMessageSerializer;
+@class NSURL;
 
 @interface TMNodeCache : TMMonoStructure
 {
     vector_fc7fe4fe _uncommittedEntries;
-    NSURL *_updatingStableCacheURL;
-    NSURL *_updatingCloneCacheURL;
-    TMMessageSerializer *_serializer;
 }
 
 + (id);
@@ -24,15 +21,15 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)<Na;
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -42,12 +39,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -59,8 +56,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) TMMessageSerializer *serializer; // @synthesize serializer=_serializer;
-@property(retain) NSURL *updatingCloneCacheURL; // @synthesize updatingCloneCacheURL=_updatingCloneCacheURL;
 @property(retain) NSURL *updatingStableCacheURL; // @synthesize updatingStableCacheURL=_updatingStableCacheURL;
 
 @end

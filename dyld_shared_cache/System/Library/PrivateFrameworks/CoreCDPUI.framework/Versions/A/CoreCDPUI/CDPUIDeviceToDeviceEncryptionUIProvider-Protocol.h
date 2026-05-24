@@ -5,5 +5,6 @@
 //
 
 @protocol CDPUIDeviceToDeviceEncryptionUIProvider
+- (void);
 @end
 

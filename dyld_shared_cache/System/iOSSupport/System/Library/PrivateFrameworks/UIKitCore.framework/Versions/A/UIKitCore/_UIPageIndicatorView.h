@@ -6,32 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor, UIImage, UIViewFloatAnimatableProperty, _UIPageIndicatorImageView, _UIPageIndicatorProgressView;
+@class _UIPageIndicatorImageView;
 @protocol UITraitChangeRegistration;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageIndicatorView : UIView
 {
     id <UITraitChangeRegistration> _displayScaleTraitChangeRegistration;
-    _Bool _active;
-    _Bool _supportsExpandedIndicator;
-    float _currentProgress;
-    long long _page;
-    long long _mode;
-    long long _direction;
-    UIImage *_image;
-    UIImage *_activeImage;
-    UIColor *_indicatorColor;
-    UIColor *_activeIndicatorColor;
-    double _imageDisplayScaleFactor;
-    _UIPageIndicatorImageView *_imageView;
-    _UIPageIndicatorProgressView *_progressView;
-    UIViewFloatAnimatableProperty *_expandProgress;
-    long long _offsetDirection;
-    struct CGSize _defaultModeSize;
-    struct CGSize _expandedModeSize;
-    struct CAColorMatrix _vibrantColorMatrix;
-    struct CAColorMatrix _activeVibrantColorMatrix;
 }
 
 - (id);
@@ -41,18 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (double);
+- (double)ADWarnUserBeforeCreatingMAFlag;
 - (struct CGSize);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
+- (void)h;
+- (struct CGSize)4h;
 - (long long);
 - (id);
-- (void);
+- (void)egistration>",&,N,V_traitChangeRegistration;
 - (void);
 - (void);
 - (struct CGAffineTransform);
@@ -69,17 +50,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)Ñg1Â0@ù
 × ;
-- (void)isibleCellsScheduledWithCallStack: /* Error: Ran out of types for this method. */;
-- (void)athsForValuesAffecting_needsStyleMaskUpdates;
-- (void)put;
-- (struct UIEdgeInsets)ry: /* Error: Ran out of types for this method. */;
-- (void)ction;
-- (void)ange: /* Error: Ran out of types for this method. */;
-- (struct CGSize)etentWhenScrolledToEdge: /* Error: Ran out of types for this method. */;
-- (id)elegate;
-- (void)nceView;
-- (_Bool);
-- (_Bool)t: /* Error: Ran out of types for this method. */;
+- (void)recordUpdateVisibleCellsScheduledWithCallStack: /* Error: Ran out of types for this method. */;
+- (void)keyPathsForValuesAffecting_needsStyleMaskUpdates;
+- (void)insertsSpaceAfterPredictiveInput;
+- (struct UIEdgeInsets)initWithSourceEntry:destinationEntry: /* Error: Ran out of types for this method. */;
+- (void)dismissInteraction;
+- (void)annotatedSubstringForRange: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_setPrefersScrollingExpandsToLargerDetentWhenScrolledToEdge: /* Error: Ran out of types for this method. */;
+- (id)_groupDelegate;
+- (void)_arrangeActionViewsInActionSequenceView;
+- (_Bool)_activeSelectionInteractions;
+- (_Bool)__systemImageNamedSwift: /* Error: Ran out of types for this method. */;
 - (id)d,N,V_fastHapticVolume;
 - (struct CGSize),V_usesBackgroundDimming;
 - (struct CGSize)SString",C,N,V_charactersIgnoringModifiers;
@@ -90,35 +71,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)Repr;
 - (id)cked(_UITraitDefinitionMetadata);
-- (void)ssetAttributesDownloaded;
+- (void)DCSDictionaryAssetAttributesDownloaded;
 - (void);
 - (struct CGSize);
-- (void)lsCoordinator;
+- (void)UIWritingToolsCoordinator;
 - (struct CAColorMatrix)3{o;
 - (double);
 - (void)@Xþ;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) UIImage *activeImage; // @synthesize activeImage=_activeImage;
-@property(retain, nonatomic) UIColor *activeIndicatorColor; // @synthesize activeIndicatorColor=_activeIndicatorColor;
-@property(nonatomic) struct CAColorMatrix activeVibrantColorMatrix; // @synthesize activeVibrantColorMatrix=_activeVibrantColorMatrix;
-@property(nonatomic) struct CGAffineTransform contentTransform;
-@property(nonatomic) float currentProgress; // @synthesize currentProgress=_currentProgress;
-@property(nonatomic) struct CGSize defaultModeSize; // @synthesize defaultModeSize=_defaultModeSize;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) UIViewFloatAnimatableProperty *expandProgress; // @synthesize expandProgress=_expandProgress;
-@property(nonatomic) struct CGSize expandedModeSize; // @synthesize expandedModeSize=_expandedModeSize;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) double imageDisplayScaleFactor; // @synthesize imageDisplayScaleFactor=_imageDisplayScaleFactor;
 @property(readonly, nonatomic) _UIPageIndicatorImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIColor *indicatorColor; // @synthesize indicatorColor=_indicatorColor;
-@property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) long long offsetDirection; // @synthesize offsetDirection=_offsetDirection;
-@property(nonatomic) long long page; // @synthesize page=_page;
-@property(readonly, nonatomic) _UIPageIndicatorProgressView *progressView; // @synthesize progressView=_progressView;
-@property(nonatomic) _Bool supportsExpandedIndicator; // @synthesize supportsExpandedIndicator=_supportsExpandedIndicator;
-@property(nonatomic) struct CAColorMatrix vibrantColorMatrix; // @synthesize vibrantColorMatrix=_vibrantColorMatrix;
 
 @end
 

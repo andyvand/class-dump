@@ -4,56 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCardViewDataSource, CNContactAvatarViewController, CNContactStore, CNRecentLikenessesDataSourceDelayedEditDecorator, CNUIMeContactMonitor, NSString;
-@protocol CNCancelable, CNSchedulerProvider;
+@class CNContactStore;
+@protocol CNCancelable;
 
 @interface CNContactAvatarPersistenceHelper
 {
     CNContactStore *_contactStore;
-    CNUIMeContactMonitor *_meMonitor;
-    CNRecentLikenessesDataSourceDelayedEditDecorator *_recentLikenessesDataSource;
-    CNContactAvatarViewController *_avatarViewController;
-    unsigned long long _mode;
-    AKCardViewDataSource *_cardViewDataSource;
-    id <CNCancelable> _recentLikenessesToken;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)@9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)V;
+- (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)htPu;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) AKCardViewDataSource *cardViewDataSource; // @synthesize cardViewDataSource=_cardViewDataSource;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNUIMeContactMonitor *meMonitor; // @synthesize meMonitor=_meMonitor;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) CNRecentLikenessesDataSourceDelayedEditDecorator *recentLikenessesDataSource; // @synthesize recentLikenessesDataSource=_recentLikenessesDataSource;
 @property(retain, nonatomic) id <CNCancelable> recentLikenessesToken; // @synthesize recentLikenessesToken=_recentLikenessesToken;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

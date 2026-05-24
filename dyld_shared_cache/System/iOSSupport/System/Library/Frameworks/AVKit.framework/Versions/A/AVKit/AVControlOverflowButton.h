@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
 @interface AVControlOverflowButton : AVButton
 {
     UIContextMenuInteraction *_activeMenuInteraction;
-    id <AVControlOverflowButtonDelegate> _delegate;
 }
 
 + (id);
-+ (id);
++ (id)(;
 - (void);
 - (id);
 - (void);

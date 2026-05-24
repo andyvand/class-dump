@@ -12,15 +12,15 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);

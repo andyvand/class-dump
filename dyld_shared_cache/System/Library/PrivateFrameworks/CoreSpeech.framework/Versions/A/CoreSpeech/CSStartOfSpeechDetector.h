@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)rror: /* Error: Ran out of types for this method. */;
+- (void)initWithVoiceRecognitionContext:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSStartOfSpeechDetectorDelegate> delegate; // @synthesize delegate=_delegate;

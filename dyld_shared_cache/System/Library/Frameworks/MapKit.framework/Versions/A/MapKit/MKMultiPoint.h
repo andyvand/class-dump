@@ -6,18 +6,9 @@
 
 #import <MapKit/MKShape.h>
 
-@class NSString;
-
 @interface MKMultiPoint : MKShape
 {
-    CDStruct_c3b9c2ee *_points;
-    double *_elevations;
-    unsigned long long _pointCount;
-    CDStruct_02837cd9 _boundingRect;
-    struct GEOOnce_s _calculatedMapPointsLength;
-    double _mapPointsLength;
-    struct GEOOnce_s _calculatedSelfIntersecting;
-    _Bool _selfIntersecting;
+    CDStruct_2c43369c *_points;
 }
 
 - (id);
@@ -25,7 +16,7 @@
 - (void);
 - (double *);
 - (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
@@ -34,26 +25,19 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)ing">24;
+- (void)startSessionWithSignature:(CDStruct_2c43369c *)arg1 duration:(unsigned long long)arg2 events:payload:actions:wantsRemoteCase:reply: /* Error: Ran out of types for this method. */;
+- (CDStruct_2f492f29)vice %@;
+- (_Bool)_characteristicIDs;
+- (unsigned long long);
 - (void);
+- (id)$;
 - (void);
-- (CDStruct_02837cd9);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (struct CLLocationCoordinate2D);
-- (CDStruct_c3b9c2ee *)nt:auditToken: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)allowLanguageDetectorAssetDownloading;
+- (CDStruct_2c43369c *)nt:auditToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long pointCount; // @synthesize pointCount=_pointCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,15 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)iclass_prob
+;
 - (oneway void);
 - (unsigned long long);
 - (id);
+- (_Bool)-server-configurations-and-die;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)a;
+- (_Bool);
 
 @end
 

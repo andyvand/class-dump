@@ -7,8 +7,6 @@
 @interface WiFiAwareDataSessionStatisticsHistogramBin
 {
     double _binStart;
-    double _binEnd;
-    double _value;
 }
 
 + (_Bool);
@@ -23,8 +21,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double binEnd; // @synthesize binEnd=_binEnd;
-@property(readonly, nonatomic) double binStart; // @synthesize binStart=_binStart;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

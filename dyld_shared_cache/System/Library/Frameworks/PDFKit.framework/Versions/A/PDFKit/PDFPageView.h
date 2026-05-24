@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFPageViewPrivate;
+@class PDFPageViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageView
 {
     PDFPageViewPrivate *_private;
-    _Bool _overlayViewInstalled;
 }
 
 - (unsigned long long);
@@ -43,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -58,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
 - (void);
 - (int);
@@ -93,25 +92,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)>	0	;
 - (long long);
 - (_Bool);
 - (id);
+- (void)setHasLightWhenUsingSiriEnabled:(id)arg1;
+- (void)nLocked,V_accessAllowedWhenLocked;
+- (void)hotsAllowed;
+- (void)pportsTargetControl;
+- (id)MediaActions;
+- (void)availableDestinationIdentifiers;
+- (_Bool)alTilt;
+- (id)N,V_snapshotControl;
+- (void)eallocated before fetch response was handled;
+- (long long)ting for discretionary client;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ller;
 - (id);
 - (void);
 - (void);
@@ -122,14 +121,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)0:8@"NSAutoFillTextSuggestion"16@?<v@?@"NSSet">24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(getter=isOverlayViewInstalled) _Bool overlayViewInstalled; // @synthesize overlayViewInstalled=_overlayViewInstalled;
-@property(readonly) Class superclass;
 
 @end
 

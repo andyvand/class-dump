@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIConferenceURLGadget, EKVirtualConference, LSApplicationRecord, NSImage, NSString, NSURL;
+@class EKVirtualConference, NSString;
 
 @interface EKUIVirtualConference
 {
     EKVirtualConference *_conference;
-    NSURL *_url;
-    LSApplicationRecord *_appRecord;
-    EKUIConferenceURLGadget *_gadget;
-    _Bool _attemptedToGetAppRecord;
-    _Bool _representsEventURL;
 }
 
 - (void);
@@ -33,15 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)clearAllRegistrationDigestsWithError: /* Error: Ran out of types for this method. */;
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly) LSApplicationRecord *appRecord;
 @property(readonly) NSString *displayTitle;
-@property(readonly) NSImage *icon;
-@property(readonly) EKVirtualConference *internalEKConference;
-@property _Bool representsEventURL; // @synthesize representsEventURL=_representsEventURL;
 
 @end
 

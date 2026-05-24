@@ -7,7 +7,6 @@
 @interface NewsUI2.TagNotificationSwitch
 {
     id onValueChanged;
-    id toggleState;
 }
 
 - (_Bool);

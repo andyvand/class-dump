@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSObject, NSString;
-@protocol OS_dispatch_queue, TRIPushServiceConnectionDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TRIPushServiceConnection
 {
     NSObject<OS_dispatch_queue> *_pushServiceQueue;
-    NSObject<OS_dispatch_queue> *_subscriptionRequestQueue;
-    id <TRIPushServiceConnectionDelegate> _triDelegate;
-    APSConnection *_connection;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)Ц;
+- (void)disconnect;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)newStorageWithSize:(id)arg1 format: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id):(id)arg1 ;
 - (void);
 - (void);
 - (void);
@@ -37,17 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) APSConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *pushServiceQueue; // @synthesize pushServiceQueue=_pushServiceQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *subscriptionRequestQueue; // @synthesize subscriptionRequestQueue=_subscriptionRequestQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <TRIPushServiceConnectionDelegate> triDelegate; // @synthesize triDelegate=_triDelegate;
 
 @end
 

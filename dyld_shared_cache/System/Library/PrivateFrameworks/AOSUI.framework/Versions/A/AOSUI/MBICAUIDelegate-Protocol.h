@@ -5,5 +5,10 @@
 //
 
 @protocol MBICAUIDelegate
+- (void)K)
+;
+- (void);
+- (void)@�A�;
+- (void);
 @end
 

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, NSObject, NSString;
-@protocol NSObject><CPXRemoteViewEventProtocolClientCallsServer, OS_dispatch_semaphore, SLSRemoteViewEventClientConfig, SLSRemoteViewEventClientDelegate;
+@protocol SLSRemoteViewEventClientDelegate;
 
 @interface SLSRemoteViewEventClient
 {
     id <SLSRemoteViewEventClientDelegate> _delegate;
-    id <SLSRemoteViewEventClientConfig> _config;
-    BSServiceConnection *_connection;
-    id <NSObject><CPXRemoteViewEventProtocolClientCallsServer> _proxy;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
-+ (id);
++ (id)_NAME;
 + (id)	;
-- (void);
-- (void);
-- (oneway void);
-- (id);
-- (id);
-- (void);
+- (void)failed because it couldn't register a handler for the export activity. There is another instance of this persistent store actively syncing with CloudKit in this process.;
+- (void)NSCloudKitMirroringDelegateScanForRowsMissingFromHistoryKey;
+- (oneway void)n;
+- (id)AND %@ IS NULL;
+- (id)%@ AND %@ = %@;
+- (void)ONE BLOB;
 - (id);
 - (void);
 - (id);
@@ -32,14 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SLSRemoteViewEventClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,16 @@
 
 #import <SiriUI/SiriUIReusableFooterView.h>
 
-@class SAUIConfirmationOptions, SiriUIFooterButton, SiriUIKeyline;
+@class SAUIConfirmationOptions, SiriUIKeyline;
 
 @interface SiriUIReusableConfirmationFooterView : SiriUIReusableFooterView
 {
     SiriUIKeyline *_verticalKeyline;
-    SAUIConfirmationOptions *_confirmationOptions;
-    SiriUIFooterButton *_cancelButton;
-    SiriUIFooterButton *_confirmButton;
 }
 
 + (double);
 - (_Bool);
-- (id);
+- (id);;
 - (void);
 - (id);
 - (struct NSEdgeInsets);
@@ -30,8 +27,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SiriUIFooterButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, nonatomic) SiriUIFooterButton *confirmButton; // @synthesize confirmButton=_confirmButton;
 @property(retain, nonatomic) SAUIConfirmationOptions *confirmationOptions; // @synthesize confirmationOptions=_confirmationOptions;
 
 @end

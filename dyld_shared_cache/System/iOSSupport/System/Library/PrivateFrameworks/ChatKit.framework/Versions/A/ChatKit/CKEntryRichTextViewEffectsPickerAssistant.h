@@ -7,18 +7,17 @@
 @interface CKEntryRichTextViewEffectsPickerAssistant
 {
     id textView;
-    _Bool shouldSkipNextAdjustingOfTypingAttributes;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)to missing text storage;
+- (void)te:%@} /* Error: Ran out of types for this method. */;
+- (void);
+- (void)p;
 - (id);
-- (id)ptTextColor;
-- (void)ptMessageScrollConfiguration;
+- (id)_transcriptTextColor;
+- (void)TranscriptMessageScrollConfiguration;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldSkipNextAdjustingOfTypingAttributes; // @synthesize shouldSkipNextAdjustingOfTypingAttributes;

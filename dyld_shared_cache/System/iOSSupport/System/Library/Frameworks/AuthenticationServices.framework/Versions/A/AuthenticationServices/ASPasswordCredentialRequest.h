@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasswordCredentialIdentity, NSString;
-@protocol ASCredentialIdentity;
+@class ASPasswordCredentialIdentity;
 
 @interface ASPasswordCredentialRequest
 {
@@ -15,22 +14,14 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)_TtCV9CryptoKit24CoreCryptoChaChaPolyImplP33_1EEA2C15408765EA775A4381D63577DE7Context;
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)fetchPredictedFinalProgressCountsForExportingRecordTypes:(struct _NSZone *)arg1 withExportConfiguration:withAdditionalAttachmentEstimatesWithDateBarriers:chatRowIDs:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type;
 
 @end

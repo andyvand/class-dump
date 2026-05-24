@@ -7,13 +7,6 @@
 @interface NewsFeed.DebugFormatSocketServer
 {
     id editor;
-    id connection;
-    id serverQueue;
-    id reloadQueue;
-    id reloadOperationQueue;
-    id reloadBlock;
-    id encoder;
-    id decoder;
 }
 
 - (id);

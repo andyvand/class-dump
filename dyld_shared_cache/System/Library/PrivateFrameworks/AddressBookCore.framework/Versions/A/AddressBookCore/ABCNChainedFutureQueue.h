@@ -5,12 +5,10 @@
 //
 
 @class NSMutableArray;
-@protocol CNFuture;
 
 @interface ABCNChainedFutureQueue
 {
     NSMutableArray *_futures;
-    id <CNFuture> _currentFuture;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

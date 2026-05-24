@@ -7,15 +7,14 @@
 @class NSArray;
 
 @protocol _UISliderColorConfiguration
+- (void);
+- (void)SNClassificationResult;
+- (id),N,V_entityType;
 - (NSArray *)0@ù
 × ;
 - (NSArray *)otatingAlertController""allowsImageSheet"B"allowsDataDetectorsSheet"B"allowsLinkSheet"B"acceptsFirstResponder"B"documentScale"d"previewHintRects"@"NSArray""previewHintImage"@"UIImage"};
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *colors;
-@property(readonly, copy, nonatomic) NSArray *locations;
-@property(nonatomic) double maxGain;
-@property(nonatomic) _Bool showCheckerboard;
 @end
 

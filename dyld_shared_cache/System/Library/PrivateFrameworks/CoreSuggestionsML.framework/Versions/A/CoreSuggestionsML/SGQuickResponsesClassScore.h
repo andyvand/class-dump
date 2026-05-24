@@ -7,16 +7,14 @@
 @interface SGQuickResponsesClassScore
 {
     double _value;
-    unsigned long long _index;
 }
 
 - (id);
-- (double);
+- (double)abled;
 - (long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) double value; // @synthesize value=_value;
 
 @end

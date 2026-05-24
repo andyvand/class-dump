@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDSelectedDecoder, EFManualCancelationToken, MEAppExtensionsController, NSMutableArray;
+@class MEAppExtensionsController;
 
 @interface EDMessageDecoder
 {
     MEAppExtensionsController *_extensionsController;
-    NSMutableArray *_remoteExtensions;
-    EFManualCancelationToken *_extensionsObserverCancelable;
-    EDSelectedDecoder *_selectedDecoder;
-    _Bool _shouldFindSelectedDecoder;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id)tÐ!Aù³Ð1Â0@ù
@@ -30,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id));
 - (void);
 - (void)terUpdateController.messageScheduler;
 

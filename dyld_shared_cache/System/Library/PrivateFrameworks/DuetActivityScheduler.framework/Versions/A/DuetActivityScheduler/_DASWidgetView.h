@@ -6,37 +6,27 @@
 
 #import <DuetActivityScheduler/_DASWidgetInfo.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface _DASWidgetView : _DASWidgetInfo
 {
     _Bool _inStack;
-    NSString *_viewID;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    long long _pageID;
-    double _timeUntilContentExpiration;
 }
 
 + (id);
 - (double);
 - (void);
+- (id)B;
 - (id);
 - (id);
+- (void)@;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool inStack; // @synthesize inStack=_inStack;
-@property(nonatomic) long long pageID; // @synthesize pageID=_pageID;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) double timeUntilContentExpiration; // @synthesize timeUntilContentExpiration=_timeUntilContentExpiration;
 @property(readonly, copy, nonatomic) NSString *viewID; // @synthesize viewID=_viewID;
 
 @end

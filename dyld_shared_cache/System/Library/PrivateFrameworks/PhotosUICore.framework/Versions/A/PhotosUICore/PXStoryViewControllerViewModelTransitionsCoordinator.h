@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class PXGViewControllerTransition, PXNumberAnimator, PXRegionOfInterest, PXStoryViewModeTransition, PXStoryViewModel, UXViewController;
+@class PXNumberAnimator;
 
 @interface PXStoryViewControllerViewModelTransitionsCoordinator : PXStoryController
 {
     _Bool _isDismissalPreviewFractionInitialized;
-    _Bool _isDismisallTriggered;
-    _Bool _isPreparedForDismissal;
-    _Bool _isFinishingDismissal;
-    _Bool _shouldFinish;
-    PXStoryViewModel *_viewModel;
-    UXViewController *_viewController;
-    PXNumberAnimator *_dismissalPreviewFraction;
-    PXGViewControllerTransition *_dismissalTransition;
-    PXStoryViewModeTransition *_viewModeTransition;
-    double _viewModeTransitionStartTime;
-    PXRegionOfInterest *_fullsizeContentBoundingBox;
 }
 
 - (double);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -47,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,17 +66,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXNumberAnimator *dismissalPreviewFraction; // @synthesize dismissalPreviewFraction=_dismissalPreviewFraction;
-@property(retain, nonatomic) PXGViewControllerTransition *dismissalTransition; // @synthesize dismissalTransition=_dismissalTransition;
-@property(retain, nonatomic) PXRegionOfInterest *fullsizeContentBoundingBox; // @synthesize fullsizeContentBoundingBox=_fullsizeContentBoundingBox;
-@property(nonatomic) _Bool isDismisallTriggered; // @synthesize isDismisallTriggered=_isDismisallTriggered;
-@property(nonatomic) _Bool isDismissalPreviewFractionInitialized; // @synthesize isDismissalPreviewFractionInitialized=_isDismissalPreviewFractionInitialized;
-@property(nonatomic) _Bool isFinishingDismissal; // @synthesize isFinishingDismissal=_isFinishingDismissal;
-@property(nonatomic) _Bool isPreparedForDismissal; // @synthesize isPreparedForDismissal=_isPreparedForDismissal;
-@property(nonatomic) _Bool shouldFinish; // @synthesize shouldFinish=_shouldFinish;
-@property(readonly, nonatomic) __weak UXViewController *viewController; // @synthesize viewController=_viewController;
-@property(retain, nonatomic) PXStoryViewModeTransition *viewModeTransition; // @synthesize viewModeTransition=_viewModeTransition;
-@property(nonatomic) double viewModeTransitionStartTime; // @synthesize viewModeTransitionStartTime=_viewModeTransitionStartTime;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

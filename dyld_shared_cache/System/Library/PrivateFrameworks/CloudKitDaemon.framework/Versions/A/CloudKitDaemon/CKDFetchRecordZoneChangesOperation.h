@@ -6,26 +6,15 @@
 
 #import <CloudKitDaemon/CKDFetchBatchedRecordsOperation.h>
 
-@class CKServerChangeToken, NSData, NSDictionary;
-
 @interface CKDFetchRecordZoneChangesOperation : CKDFetchBatchedRecordsOperation
 {
     _Bool _clientIsUsingLegacyCKFetchRecordChangesOperationAPI;
-    CDUnknownBlockType _recordChangedBlock;
-    CDUnknownBlockType _recordDeletedBlock;
-    CDUnknownBlockType _zoneAttributesChangedBlock;
-    CDUnknownBlockType _serverChangeTokenUpdatedBlock;
-    CKServerChangeToken *_resultServerChangeToken;
-    NSData *_resultClientChangeTokenData;
-    long long _resultStatus;
-    long long _changeTypes;
-    NSDictionary *_supplementalChangeTokenByZoneID;
 }
 
-- (id);
+- (id)lalomDecoder DecodeStartE1TLV:error:] /* Error: Ran out of types for this method. */;
+- (void)_inVehicleDuration;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool),@;
 - (id);
 - (void);
 - (id);
@@ -37,7 +26,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (int);
+- (int)DSYNC] %s (%s:%u)Already migrated from legacy non-encrypted KVS to encrypted KVS, skipping migration /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -45,10 +34,10 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)ndler:(id)arg1;
+- (void)accountAccessAuthorizationWithCompletionHandler:(id)arg1;
 - (void),V_countryCode;
 - (id)Hnn;
-- (id)tem;
+- (id)lastItem;
 - (void)PCS identities from Stingray;
 - (void)revoked;
 - (CDUnknownBlockType)blob on parent record %@:%@ /* Error: Ran out of types for this method. */;
@@ -62,15 +51,6 @@
 
 // Remaining properties
 @property(nonatomic) long long changeTypes; // @synthesize changeTypes=_changeTypes;
-@property(nonatomic) _Bool clientIsUsingLegacyCKFetchRecordChangesOperationAPI; // @synthesize clientIsUsingLegacyCKFetchRecordChangesOperationAPI=_clientIsUsingLegacyCKFetchRecordChangesOperationAPI;
-@property(copy, nonatomic) CDUnknownBlockType recordChangedBlock; // @synthesize recordChangedBlock=_recordChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordDeletedBlock; // @synthesize recordDeletedBlock=_recordDeletedBlock;
-@property(retain, nonatomic) NSData *resultClientChangeTokenData; // @synthesize resultClientChangeTokenData=_resultClientChangeTokenData;
-@property(retain, nonatomic) CKServerChangeToken *resultServerChangeToken; // @synthesize resultServerChangeToken=_resultServerChangeToken;
-@property(nonatomic) long long resultStatus; // @synthesize resultStatus=_resultStatus;
-@property(copy, nonatomic) CDUnknownBlockType serverChangeTokenUpdatedBlock; // @synthesize serverChangeTokenUpdatedBlock=_serverChangeTokenUpdatedBlock;
-@property(retain, nonatomic) NSDictionary *supplementalChangeTokenByZoneID; // @synthesize supplementalChangeTokenByZoneID=_supplementalChangeTokenByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType zoneAttributesChangedBlock; // @synthesize zoneAttributesChangedBlock=_zoneAttributesChangedBlock;
 
 @end
 

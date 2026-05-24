@@ -9,31 +9,30 @@
 @interface AMSEngagementClientData
 {
     NSString *_lastSyncedBuild;
-    NSMutableDictionary *_apps;
 }
 
 + (id);
-+ (void);
++ (void)!;
 + (id);
-+ (id);
++ (id)initWithType:stringValue:contactIdentifier:contactInternalGUID: /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (id);
 + (_Bool);
 - (void);
-- (id);
+- (id)_cachedCompanyName;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)stringWithString:(id)arg1;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ntextUID;
 - (void);
 - (id);
 - (void);
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *apps; // @synthesize apps=_apps;
-@property(retain) NSString *lastSyncedBuild; // @synthesize lastSyncedBuild=_lastSyncedBuild;
 
 @end
 

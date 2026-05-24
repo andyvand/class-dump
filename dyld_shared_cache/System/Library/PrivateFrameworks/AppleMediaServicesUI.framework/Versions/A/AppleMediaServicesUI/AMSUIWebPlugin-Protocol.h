@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSDictionary, NSString;
+@protocol AMSBagProtocol;
 
 @protocol AMSUIWebPlugin
+- (id)t handle trial client did stop:(id <AMSBagProtocol>)arg1 %@;
+- (NSString *).;
+- (NSDictionary *)last update:%f, date:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *globalName;

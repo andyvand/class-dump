@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SafariSettingsSyncEngineAccessMac
 {
@@ -34,19 +34,10 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)E;
 - (void)8V,;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundImageAppearanceIsLight;
-@property(readonly, nonatomic) _Bool backgroundImageExists;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSArray *syncSettingsUpDictionary;
 
 @end

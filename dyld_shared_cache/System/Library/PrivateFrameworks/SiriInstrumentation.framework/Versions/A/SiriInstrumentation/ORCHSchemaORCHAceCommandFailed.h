@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHAceCommandFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _aceCommandType;
-    CDStruct_2de05c25 _has;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (void);
 - (void);
@@ -30,18 +26,14 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)nounceNotifications;
+- (id)_announceNotifications;
 - (id)"NSString",C,N,V_serverExecutedDomain;
-- (_Bool)t;
+- (_Bool)eligibleDeviceCount;
 - (_Bool)]!;
 - (void)°¹ÿ;
 
 // Remaining properties
-@property(nonatomic) int aceCommandType; // @synthesize aceCommandType=_aceCommandType;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasAceCommandType;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

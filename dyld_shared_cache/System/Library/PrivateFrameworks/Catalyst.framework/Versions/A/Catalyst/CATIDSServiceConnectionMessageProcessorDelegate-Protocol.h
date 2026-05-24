@@ -5,5 +5,6 @@
 //
 
 @protocol CATIDSServiceConnectionMessageProcessorDelegate
+- (void);
 @end
 

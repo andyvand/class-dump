@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFCarPlayAnnouncementRequestCapabilityProvider
 {
     NSObject<OS_dispatch_queue> *_providerQueue;
-    long long _carPlayConnectionState;
-    unsigned long long _lastKnownAvailableAnnouncementRequestTypes;
-    unsigned long long _lastKnownEligibleAnnouncementRequestTypes;
-    NSHashTable *_delegates;
 }
 
 + (id);
 + (id);
-+ (long long);
++ (long long);
 + (id);
 - (void);
 - (void);
@@ -31,19 +27,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (void);
-- (void)rablesExperienceManagerClientProtocol;
+- (void)AFHearablesExperienceManagerClientProtocol;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

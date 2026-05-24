@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VSAccountChannelsCenter, VSAccountStore, VSPrivacyFacade, VSPrivacyVoucherLockbox;
+@class VSAccountStore;
 
 @interface VSPersistentStorage
 {
     VSAccountStore *_accountStore;
-    VSAccountChannelsCenter *_channelsCenter;
-    VSPrivacyVoucherLockbox *_voucherLockbox;
-    VSPrivacyFacade *_privacyFacade;
 }
 
-+ (id);
++ (id)k;
+- (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)];
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VSAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) VSAccountChannelsCenter *channelsCenter; // @synthesize channelsCenter=_channelsCenter;
-@property(readonly, nonatomic) VSPrivacyFacade *privacyFacade; // @synthesize privacyFacade=_privacyFacade;
-@property(readonly, nonatomic) VSPrivacyVoucherLockbox *voucherLockbox; // @synthesize voucherLockbox=_voucherLockbox;
 
 @end
 

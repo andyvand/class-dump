@@ -7,7 +7,6 @@
 @interface TRITaskCapabilityModifier
 {
     unsigned long long _add;
-    unsigned long long _remove;
 }
 
 + (id);
@@ -20,8 +19,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)<8;
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long add; // @synthesize add=_add;
-@property(readonly, nonatomic) unsigned long long remove; // @synthesize remove=_remove;
 
 @end
 

@@ -13,15 +13,15 @@
     NSString *_ethernetAddress;
 }
 
-+ (_Bool);
++ (_Bool)setLinkSelectionStrategy: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)mpletionQueue:handler: /* Error: Ran out of types for this method. */;
-- (_Bool)nditionalObject:(id)arg1;
+- (void)saveConfiguration:withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
+- (_Bool)encodeConditionalObject:(id)arg1;
 - (id)NEDNSProxyProviderDefaultErrorDomain;
 
 // Remaining properties

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GEOTimeRange
 {
     struct GEOPBTransitTimeRange _pbTimeRange;
-    struct GEOPDTimeRange _pdTimeRange;
-    _Bool _usePB;
 }
 
 - (id);
@@ -23,17 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)BAkÒP£VQ@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) double startTime;
-@property(readonly) Class superclass;
 
 @end
 

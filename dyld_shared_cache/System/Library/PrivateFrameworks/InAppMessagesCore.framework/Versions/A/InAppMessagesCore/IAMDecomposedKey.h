@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCompoundPredicate, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface IAMDecomposedKey
 {
     NSMutableArray *rawPredicateConditions;
-    NSCompoundPredicate *compoundPredicate;
-    _Bool compoundPredicateNeedsInitialization;
-    NSMutableDictionary *_ruleDestructuredIdentifiers;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)asMatchingNCV:(id)arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)|=;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *ruleDestructuredIdentifiers; // @synthesize ruleDestructuredIdentifiers=_ruleDestructuredIdentifiers;

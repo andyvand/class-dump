@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGraphicsContext, NSTableView;
+@class NSGraphicsContext;
 
 __attribute__((visibility("hidden")))
 @interface NSTableOverlappingColumnClipHelper
 {
     NSGraphicsContext *_graphicsContext;
-    NSTableView *_tableView;
-    struct CGRect _origClipRect;
-    struct CGRect _currClipRect;
-    _Bool _isClipping;
 }
 
 - (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (void)menuAction;
+- (void)CloseSubmenuAction;
 
 @end
 

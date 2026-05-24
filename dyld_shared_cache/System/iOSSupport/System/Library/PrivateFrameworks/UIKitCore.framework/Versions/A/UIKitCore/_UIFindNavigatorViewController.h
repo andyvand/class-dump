@@ -6,25 +6,13 @@
 
 #import <UIKitCore/UIInputViewController.h>
 
-@class NSArray, NSString, UIFindSession, UIResponder, UITextSearchOptions, _UIFindNavigatorView;
-@protocol _UIFindNavigatorViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorViewController : UIInputViewController
 {
     long long _assistantBarStyle;
-    _UIFindNavigatorView *_findNavigatorView;
-    NSArray *_extraKeyCommands;
-    NSString *_lastSearchQuery;
-    UITextSearchOptions *_lastSearchOptions;
-    _Bool _performingReplacement;
-    UIFindSession *_findSession;
-    id <_UIFindNavigatorViewControllerDelegate> _findNavigatorViewControllerDelegate;
-    UIResponder *_parentResponder;
-    unsigned long long _tintTechnique;
 }
 
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
@@ -36,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)superHeroTallEditorialArtworkCatalog;
+- (unsigned long long)mapRelationshipKey:toModelClass:mediaKitType: /* Error: Ran out of types for this method. */;
+- (void)aLibrary",&,N,V_mediaLibraryOverrideForTestingOnly;
 - (_Bool);
-- (void);
-- (void);
+- (void)n] Deprioritize artwork request not supported for artworkType=%ld, sourceType=%ld;
+- (void)MPModelPropertyPlaylistEntryPositionUniversalIdentifier;
 - (id);
 - (void);
 - (void);
@@ -56,11 +44,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)1Â0@ù
 × ;
 - (void)ositionalLayoutSolverOptions";
-- (id)atPoint:withVelocity: /* Error: Ran out of types for this method. */;
+- (id)shouldBeginMultiSelectInteraction:atPoint:withVelocity: /* Error: Ran out of types for this method. */;
 - (void)setDiscreteActionGroupViewHorizontalLayoutTrailingConstraint: /* Error: Ran out of types for this method. */;
-- (_Bool)adingCascadedSubmenuOffset;
-- (void)nsitionOfType:(id)arg1 forAlertController: /* Error: Ran out of types for this method. */;
-- (id)ted;
+- (_Bool)leadingCascadedSubmenuOffset;
+- (void)interactionProgressForTransitionOfType:(id)arg1 forAlertController: /* Error: Ran out of types for this method. */;
+- (id)displayLinkInvalidated;
 - (void)peed;
 - (void)ActivationConditions: /* Error: Ran out of types for this method. */;
 - (void)tor,S_setImpactFeedbackGenerator:(id)arg1;
@@ -71,8 +59,8 @@ __attribute__((visibility("hidden")))
 - (void)zer"8;
 - (_Bool)* _Nonnull, _UIContentViewLabelConfiguration * _Nonnull __strong);
 - (id)CollectionCIeggg_;
-- (void)tate;
-- (id)lbarSpec;
+- (void)UIViewConfigurationState;
+- (id)_UIToolbarSpec;
 - (void);
 - (void)ÛÌÐ'\;
 - (void)2;
@@ -84,23 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) _UIFindNavigatorView *findNavigatorView;
-@property(nonatomic) __weak id <_UIFindNavigatorViewControllerDelegate> findNavigatorViewControllerDelegate; // @synthesize findNavigatorViewControllerDelegate=_findNavigatorViewControllerDelegate;
-@property(retain, nonatomic) UIFindSession *findSession; // @synthesize findSession=_findSession;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool hostedInKeyboard;
-@property(nonatomic) __weak UIResponder *parentResponder; // @synthesize parentResponder=_parentResponder;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tintTechnique; // @synthesize tintTechnique=_tintTechnique;
 
 @end
 

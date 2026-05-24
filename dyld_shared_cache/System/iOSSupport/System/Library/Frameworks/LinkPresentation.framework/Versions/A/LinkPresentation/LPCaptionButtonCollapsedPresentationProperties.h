@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, NSAttributedString, UIColor;
+@class NSAttributedString;
 
 @interface LPCaptionButtonCollapsedPresentationProperties
 {
     _Bool _shouldHideIconsWhenCollapsed;
-    _Bool _shouldCollapseWhenCompressed;
-    NSAttributedString *_attributedText;
-    LPImage *_icon;
-    UIColor *_backgroundColor;
-    double _layoutRatioThreshold;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
+- (_Bool)tableView:didEndEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:didEndDisplayingCell:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)systemCapitalizeSentencesAutomatically;
+- (void)systemApplicationWillResignActive;
+- (void)switchToSenderIdentity:(double)arg1;
+- (double)subscriptionSelectionMenu;
 - (void);
 - (void);
 - (id);
@@ -33,11 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) double layoutRatioThreshold; // @synthesize layoutRatioThreshold=_layoutRatioThreshold;
-@property(nonatomic) _Bool shouldCollapseWhenCompressed; // @synthesize shouldCollapseWhenCompressed=_shouldCollapseWhenCompressed;
-@property(nonatomic) _Bool shouldHideIconsWhenCollapsed; // @synthesize shouldHideIconsWhenCollapsed=_shouldHideIconsWhenCollapsed;
 
 @end
 

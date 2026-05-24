@@ -9,17 +9,11 @@
 @interface BMPBSocialHighlightContact
 {
     NSString *_handle;
-    _Bool _isMe;
-    _Bool _isSignificant;
-    struct {
-        unsigned int isMe:1;
-        unsigned int isSignificant:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,21 +26,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)nOutput
+format busFormat ([sampleRate] [numIns])
+;
+- (_Bool)bidib;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (void)ù
 ;
 - (void))1!;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(nonatomic) _Bool hasIsMe;
 @property(nonatomic) _Bool hasIsSignificant;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) _Bool isSignificant; // @synthesize isSignificant=_isSignificant;
 
 @end
 

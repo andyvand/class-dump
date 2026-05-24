@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, LUIEffectsButton, LUISecureTextField, NSButton, NSImageView, NSProgressIndicator, NSStackView, NSString;
+@class CALayer;
 
 @interface LUISecureTextFieldView
 {
     CALayer *_backgroundLayer;
-    NSStackView *_stackView;
-    LUISecureTextField *_secureTextField;
-    NSButton *_hintButton;
-    NSImageView *_errorImageView;
-    NSProgressIndicator *_securityFieldProgressIndicator;
-    LUIEffectsButton *_securityFieldGoButton;
-    id _target;
-    SEL _action;
-    _Bool _usesHint;
-    int _currentMode;
-    long long _previousLength;
-    id _delegate;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void)]9_;
 - (struct CGRect);
 - (struct CGPoint);
 - (void);
@@ -39,7 +27,7 @@
 - (id);
 - (float);
 - (id);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);
@@ -49,7 +37,7 @@
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)d.listener.resumed;
 - (void);
 - (void);
 - (void);
@@ -59,17 +47,10 @@
 - (SEL);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

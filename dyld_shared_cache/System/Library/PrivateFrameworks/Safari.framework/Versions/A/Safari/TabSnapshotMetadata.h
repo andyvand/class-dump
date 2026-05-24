@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TabSnapshotMetadata
 {
     NSString *_uniqueIdentifier;
-    NSDate *_creationDate;
-    NSString *_filename;
-    NSString *_URLString;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)28@0:8B16@?20 /* Error: Ran out of types for this method. */;
 - (id)(¥;
 - (void)°¨;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString; // @synthesize URLString=_URLString;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSUndoLightInvocation : _NSUndoObject
 {
     SEL _selector;
-    id _arg;
 }
 
 - (void);

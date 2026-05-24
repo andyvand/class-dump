@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, SAMPGetState;
+@class SAMPGetState;
 
 @interface SAMPGetStateResponseRemote : SABaseClientBoundCommand
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAMPGetState *getState;
-@property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(nonatomic) double routeTimeout;
 
 @end
 

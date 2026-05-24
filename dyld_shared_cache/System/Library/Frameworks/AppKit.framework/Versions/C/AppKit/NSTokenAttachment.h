@@ -7,20 +7,19 @@
 @interface NSTokenAttachment
 {
     id _delegate;
-    _Bool _needsSeparator;
 }
 
 - (void);
 - (id);
+- (void)16@"NSURLAuthenticationChallenge"24;
+- (id)egate version %ld;
+- (id)led %@;
+- (_Bool)__nsurlrequest_proto_prop_obj_22;
+- (id);
+- (id);
+- (void)_renderUnderlineInTextRange:(id)arg1 alphaValue:adjustmentCallback: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)iarySystemFillColor;
+- (id)tertiarySystemFillColor;
 - (void)NSTextFormattingTextAlignmentComponentView;
 
 // Remaining properties

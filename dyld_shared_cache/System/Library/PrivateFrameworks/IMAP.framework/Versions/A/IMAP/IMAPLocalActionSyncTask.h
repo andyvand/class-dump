@@ -6,26 +6,17 @@
 
 #import <IMAP/IMAPTask.h>
 
-@class ECLocalMessageActionResults, IMAPTaskManager, NSMutableArray, NSMutableDictionary, NSString, NSURL;
-@protocol IMAPMessageDataSource;
+@class IMAPTaskManager, NSMutableArray;
 
 @interface IMAPLocalActionSyncTask : IMAPTask
 {
     NSMutableArray *_messageActions;
-    NSMutableDictionary *_progressesByActionIDs;
-    _Bool _actionOperationRunning;
-    _Bool _needToCheckForActions;
-    _Bool _needToPersistResults;
-    IMAPTaskManager *_taskManager;
-    NSURL *_currentMailboxURL;
-    id <IMAPMessageDataSource> _currentDataSource;
-    ECLocalMessageActionResults *_resultsToPersist;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -33,43 +24,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)#;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)9;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool actionOperationRunning; // @synthesize actionOperationRunning=_actionOperationRunning;
-@property(retain, nonatomic) id <IMAPMessageDataSource> currentDataSource; // @synthesize currentDataSource=_currentDataSource;
-@property(retain, nonatomic) NSURL *currentMailboxURL; // @synthesize currentMailboxURL=_currentMailboxURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needToCheckForActions; // @synthesize needToCheckForActions=_needToCheckForActions;
-@property(nonatomic) _Bool needToPersistResults; // @synthesize needToPersistResults=_needToPersistResults;
-@property(retain, nonatomic) ECLocalMessageActionResults *resultsToPersist; // @synthesize resultsToPersist=_resultsToPersist;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
 
 @end

@@ -5,5 +5,12 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void)%@9?;
+- (void)NSt3__110shared_ptrIN4siri12dialogengine12PatternGroupEE27__shared_ptr_default_deleteIS3_S3_EE;
+- (void)allocatorIS3_EEEE;
+- (void)ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE;
+- (void)NSt3__120__shared_ptr_pointerIPN4siri12dialogengine12PatternGroupENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE;
 @end
 

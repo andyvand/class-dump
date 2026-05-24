@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAARParaphrasedSuggestedResultsPod : SAAceView
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *suggestedResults;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FPSandboxingURLWrapper, LNAction;
+
 @protocol INVCVoiceShortcutClient
+- (void);
+- (LNAction *)!;
+- (FPSandboxingURLWrapper *);
 - (void)"NSString",C,S_setCachedSiriLanguageCode:(void (^)(NSArray *, NSError *))arg1 ,V_cachedSiriLanguageCode;
 @end
 

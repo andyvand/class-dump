@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UICollectionViewListCell.h>
 
-@class UIBackgroundConfiguration, UITabSidebarItem;
+@class UIBackgroundConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarCell : UICollectionViewListCell
@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int sidebarItemIsValid:1;
     } _sidebarCellFlags;
-    UITabSidebarItem *_sidebarItem;
-    UIBackgroundConfiguration *_originalBackgroundConfiguration;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (void)notificationCenterDidDisappear;
+- (void)markMessagesAsReadWithIdentifiers:onServices:chatStyle:upToGUID:readDate:fromMe: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteChatBotAttachmentSyncToken;
+- (id)try, waiting longer;
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)!@ù±Y°1Â0@ù
 × ;
@@ -36,8 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIBackgroundConfiguration *originalBackgroundConfiguration; // @synthesize originalBackgroundConfiguration=_originalBackgroundConfiguration;
-@property(retain, nonatomic) UITabSidebarItem *sidebarItem; // @synthesize sidebarItem=_sidebarItem;
-@property(readonly, nonatomic) _Bool sidebarItemIsValid;
 
 @end
 

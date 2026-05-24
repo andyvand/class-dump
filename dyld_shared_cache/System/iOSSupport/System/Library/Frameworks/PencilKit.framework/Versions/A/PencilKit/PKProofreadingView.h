@@ -6,17 +6,11 @@
 
 #import <PencilKit/PKDetectionView.h>
 
-@class NSMutableSet, NSString, NSTimer, PKProofreadingItem, UIEditMenuInteraction, UIView;
-@protocol PKProofreadingViewDelegate;
+@class PKProofreadingItem, UIEditMenuInteraction;
 
 @interface PKProofreadingView : PKDetectionView
 {
     PKProofreadingItem *_proofreadingItem;
-    id <PKProofreadingViewDelegate> _delegate;
-    UIEditMenuInteraction *_editMenuInteraction;
-    NSTimer *_visibilityTimer;
-    NSMutableSet *_autoHideSuppressionTokens;
-    UIView *_blankPreviewView;
 }
 
 - (void);
@@ -40,7 +34,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)rl;
 - (id);
 - (id);
 - (id);
@@ -54,19 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *autoHideSuppressionTokens; // @synthesize autoHideSuppressionTokens=_autoHideSuppressionTokens;
-@property(retain, nonatomic) UIView *blankPreviewView; // @synthesize blankPreviewView=_blankPreviewView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKProofreadingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIEditMenuInteraction *editMenuInteraction; // @synthesize editMenuInteraction=_editMenuInteraction;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKProofreadingItem *proofreadingItem; // @synthesize proofreadingItem=_proofreadingItem;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTimer *visibilityTimer; // @synthesize visibilityTimer=_visibilityTimer;
 
 @end
 

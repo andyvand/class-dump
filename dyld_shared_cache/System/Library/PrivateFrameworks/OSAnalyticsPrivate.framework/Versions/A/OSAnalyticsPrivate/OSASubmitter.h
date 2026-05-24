@@ -4,59 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError, NSString;
-
 @interface OSASubmitter
 {
     long long _responseCode;
-    NSData *_responseData;
-    NSDictionary *_responseHeaders;
-    NSError *_responseError;
-    NSString *_requestURL;
-    _Bool _dryRun;
-    unsigned int _jobCount;
-    _Bool _allowUnsignedBlobs;
-    NSArray *_internalWhitelist;
-    NSString *_connectionType;
-    NSDictionary *_launchInfo;
 }
 
++ (id)er Info in session Setup request; port %@;
++ (_Bool)senderPerceivedClusterType;
++ (id)=%d;
++ (id)SenderSessionRef);
 + (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-- (void);
+- (void)err=%m)
+;
+- (_Bool)reamRef);
+- (id)Stream(APSenderSessionRef, FigTransportStreamRef);
+- (void)}] Event stream callback called after endpoint went away.
+;
+- (void)ded peer %@ to sender network clock
+;
+- (void)ddPeerToNetworkClock(APSenderSessionRef);
+- (id)session_addMC2UCDetectionInfo(APSenderSessionRef, CFMutableDictionaryRef);
+- (id)LPort> Sending UGL-RCServer Info in session Setup request; port %@;
+- (id)applyFadeOnFirstMediaAudioSession;
+- (void)senderPerceivedClusterType;
+- (void)surviveAudioInterruption;
+- (id)isMultiSelectAirPlay;
+- (id)timingProtocol;
+- (id)sourceVersion;
+- (void)MC2UCDetection;
+- (id)apsession_requestControlSetupWithResponse;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)}Y;
 - (void);
 - (void);
 
 // Remaining properties
 @property _Bool allowUnsignedBlobs; // @synthesize allowUnsignedBlobs=_allowUnsignedBlobs;
-@property(copy) NSString *connectionType; // @synthesize connectionType=_connectionType;
-@property(copy) NSArray *internalWhitelist; // @synthesize internalWhitelist=_internalWhitelist;
-@property(copy) NSDictionary *launchInfo; // @synthesize launchInfo=_launchInfo;
 
 @end
 

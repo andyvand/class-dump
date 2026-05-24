@@ -12,12 +12,12 @@
 
 + (_Bool);
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setCanAdjustHorizontalPaddingForFixedSize: /* Error: Ran out of types for this method. */;
+- (id)setByAddingObject: /* Error: Ran out of types for this method. */;
+- (id)setButtonRespectsTextStackPadding: /* Error: Ran out of types for this method. */;
+- (id)setAllowsGroupOpacity: /* Error: Ran out of types for this method. */;
+- (id)setAlignButtonWithCaptionTextLeadingEdge: /* Error: Ran out of types for this method. */;
+- (id)setAlignButtonWithCaptionTextLeadingEdge: /* Error: Ran out of types for this method. */;
 
 @end
 

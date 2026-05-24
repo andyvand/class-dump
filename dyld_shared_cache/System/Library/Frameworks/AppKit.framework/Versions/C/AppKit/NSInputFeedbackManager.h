@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)der.base_idx;
 
 @end
 

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSUUID, SATask;
-
 __attribute__((visibility("hidden")))
 @interface SADyldInfo
 {
     _Bool _isSharedCache;
-    _Bool _dyldInfoIsComplete;
-    _Bool _pathIsComplete;
-    SATask *_task;
-    NSUUID *_uuid;
-    unsigned long long _loadAddress;
-    unsigned long long _stringID;
-    NSMutableString *_path;
 }
 
 - (id);

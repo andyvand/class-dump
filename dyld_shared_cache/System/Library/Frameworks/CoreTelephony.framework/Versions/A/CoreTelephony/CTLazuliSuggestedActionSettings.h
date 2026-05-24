@@ -9,16 +9,16 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)nt:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)authenticationMethod;
 - (id);
-- (void);
+- (void){?=qiIq}{?=qiIq}}24:(long long)arg1 72;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

@@ -6,12 +6,11 @@
 
 #import <DADaemonSupport/DAAgent.h>
 
-@class CoreDAVOptionsTask, NSString, NSTimer;
+@class CoreDAVOptionsTask;
 
 @interface DACoreDAVAgent : DAAgent
 {
     CoreDAVOptionsTask *_optionsProbe;
-    NSTimer *_optionsTimeoutTimer;
 }
 
 - (void);
@@ -24,18 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CoreDAVOptionsTask *optionsProbe; // @synthesize optionsProbe=_optionsProbe;
-@property(retain, nonatomic) NSTimer *optionsTimeoutTimer; // @synthesize optionsTimeoutTimer=_optionsTimeoutTimer;
-@property(readonly) Class superclass;
 
 @end
 

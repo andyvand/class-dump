@@ -7,11 +7,12 @@
 @class NSArray, NSScriptObjectSpecifier;
 
 @protocol MFScriptingMessage
+- (NSArray *);
+
+@optional
+- (void)?׀;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *bccRecipients;
-@property(readonly, copy, nonatomic) NSArray *ccRecipients;
 @property(readonly) NSScriptObjectSpecifier *objectSpecifier;
-@property(readonly, copy, nonatomic) NSArray *toRecipients;
 @end
 

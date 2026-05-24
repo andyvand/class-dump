@@ -4,61 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSBiometricsSignatureRequest, AMSCardSingleSelection, AMSDelegatePurchaseRequest, AMSPaymentSheetPerformanceMetrics, NSArray, NSAttributedString, NSDictionary, NSNumber, NSString, NSURL;
-
 @interface AMSPaymentSheetRequest
 {
     _Bool _applePayClassic;
-    _Bool _requiresAuthorization;
-    _Bool _shouldUppercaseText;
-    _Bool _disablePasscodeFallback;
-    _Bool _disablePasswordFallback;
-    _Bool _drawBackground;
-    _Bool _drawBottomDivider;
-    _Bool _isDelegateAuthentication;
-    ACAccount *_account;
-    NSString *_accountHeader;
-    NSArray *_attributedList;
-    AMSBiometricsSignatureRequest *_biometricsRequest;
-    long long _confirmationTitle;
-    NSString *_countryCode;
-    NSString *_currencyCode;
-    NSString *_delegateAuthenticateChallenge;
-    NSNumber *_designVersion;
-    NSString *_displayPrice;
-    NSString *_explanation;
-    NSArray *_flexList;
-    NSArray *_inlineImages;
-    NSString *_logKey;
-    NSDictionary *_merchantSession;
-    NSString *_message;
-    long long _payee;
-    NSString *_paymentSession;
-    NSString *_paymentSummary;
-    NSArray *_preSheetDialog;
-    NSNumber *_price;
-    NSArray *_priceSectionItems;
-    NSString *_ratingHeader;
-    NSString *_ratingValue;
-    long long _salableIcon;
-    NSURL *_salableIconURL;
-    NSArray *_salableInfo;
-    NSAttributedString *_salableInfoLabel;
-    NSArray *_secondaryFlexList;
-    long long _secondarySalableIcon;
-    NSURL *_secondarySalableIconURL;
-    NSArray *_secondarySalableInfo;
-    NSAttributedString *_secondarySalableInfoLabel;
-    AMSCardSingleSelection *_selectedCard;
-    NSString *_storeName;
-    NSArray *_styles;
-    NSString *_title;
-    long long _titleType;
-    NSString *_userAgent;
-    NSString *_authorizingTitle;
-    AMSPaymentSheetPerformanceMetrics *_performanceMetrics;
-    NSDictionary *_responseDictionary;
-    AMSDelegatePurchaseRequest *_delegatePurchaseRequest;
 }
 
 + (id);
@@ -69,6 +17,19 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,29 +45,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)(;
 - (id);
 - (id);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -119,7 +67,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)
+;
 - (id);
 - (id);
 - (_Bool);
@@ -140,7 +89,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -156,7 +105,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (struct CGRect);
@@ -178,7 +127,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGImage *);
 - (void);
 - (void);
@@ -189,12 +138,12 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)e avatar to be shown;
+- (id)ersions/A/EasyConfig;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ed in %@;
+- (void)to weak link vImageBoxConvolve_ARGB8888();
 - (id);
 - (id);
 - (void);
@@ -208,9 +157,9 @@
 - (id);
 - (id)#°!@ù¦&ð1Â0@ù
 × ;
-- (id)sponseStartTime;
-- (id)ame:size:type: /* Error: Ran out of types for this method. */;
-- (void)eNotification:(id)arg1;
+- (id)responseStartTime;
+- (id)initWithFilename:size:type: /* Error: Ran out of types for this method. */;
+- (void)_handleAccountStoreDidChangeNotification:(id)arg1;
 - (id)ublic}@] Failed to deserialize APS. %{public}@;
 - (void)%{public}@;
 - (void)pting to save a new account instead of using AMSAuthenticateTask. account = %{public}@;
@@ -227,60 +176,7 @@
 cáÃe_U×A /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) ACAccount *account; // @synthesize account=_account;
-@property(copy) NSString *accountHeader; // @synthesize accountHeader=_accountHeader;
 @property(readonly) unsigned long long ams_confirmationStyle;
-@property(getter=isApplePayClassic) _Bool applePayClassic; // @synthesize applePayClassic=_applePayClassic;
-@property(copy) NSArray *attributedList; // @synthesize attributedList=_attributedList;
-@property(copy) NSString *authorizingTitle; // @synthesize authorizingTitle=_authorizingTitle;
-@property(retain) AMSBiometricsSignatureRequest *biometricsRequest; // @synthesize biometricsRequest=_biometricsRequest;
-@property long long confirmationTitle; // @synthesize confirmationTitle=_confirmationTitle;
-@property(copy) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy) NSString *delegateAuthenticateChallenge; // @synthesize delegateAuthenticateChallenge=_delegateAuthenticateChallenge;
-@property(retain) AMSDelegatePurchaseRequest *delegatePurchaseRequest; // @synthesize delegatePurchaseRequest=_delegatePurchaseRequest;
-@property(copy) NSNumber *designVersion; // @synthesize designVersion=_designVersion;
-@property _Bool disablePasscodeFallback; // @synthesize disablePasscodeFallback=_disablePasscodeFallback;
-@property _Bool disablePasswordFallback; // @synthesize disablePasswordFallback=_disablePasswordFallback;
-@property(copy) NSString *displayPrice; // @synthesize displayPrice=_displayPrice;
-@property _Bool drawBackground; // @synthesize drawBackground=_drawBackground;
-@property _Bool drawBottomDivider; // @synthesize drawBottomDivider=_drawBottomDivider;
-@property(copy) NSString *explanation; // @synthesize explanation=_explanation;
-@property(copy) NSArray *flexList; // @synthesize flexList=_flexList;
-@property(retain) NSArray *inlineImages; // @synthesize inlineImages=_inlineImages;
-@property _Bool isDelegateAuthentication; // @synthesize isDelegateAuthentication=_isDelegateAuthentication;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(copy) NSDictionary *merchantSession; // @synthesize merchantSession=_merchantSession;
-@property(copy) NSString *message; // @synthesize message=_message;
-@property(readonly) NSDictionary *objectForLogging;
-@property long long payee; // @synthesize payee=_payee;
-@property(copy) NSString *paymentSession; // @synthesize paymentSession=_paymentSession;
-@property(copy) NSString *paymentSummary; // @synthesize paymentSummary=_paymentSummary;
-@property(retain) AMSPaymentSheetPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(copy) NSArray *preSheetDialog; // @synthesize preSheetDialog=_preSheetDialog;
-@property(copy) NSNumber *price; // @synthesize price=_price;
-@property(copy) NSArray *priceSectionItems; // @synthesize priceSectionItems=_priceSectionItems;
-@property(copy) NSString *ratingHeader; // @synthesize ratingHeader=_ratingHeader;
-@property(copy) NSString *ratingValue; // @synthesize ratingValue=_ratingValue;
-@property _Bool requiresAuthorization; // @synthesize requiresAuthorization=_requiresAuthorization;
-@property(readonly) _Bool requiresDelegateAuthentication;
-@property(copy) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property long long salableIcon; // @synthesize salableIcon=_salableIcon;
-@property(copy) NSURL *salableIconURL; // @synthesize salableIconURL=_salableIconURL;
-@property(copy) NSArray *salableInfo; // @synthesize salableInfo=_salableInfo;
-@property(copy) NSAttributedString *salableInfoLabel; // @synthesize salableInfoLabel=_salableInfoLabel;
-@property(copy) NSArray *secondaryFlexList; // @synthesize secondaryFlexList=_secondaryFlexList;
-@property long long secondarySalableIcon; // @synthesize secondarySalableIcon=_secondarySalableIcon;
-@property(copy) NSURL *secondarySalableIconURL; // @synthesize secondarySalableIconURL=_secondarySalableIconURL;
-@property(copy) NSArray *secondarySalableInfo; // @synthesize secondarySalableInfo=_secondarySalableInfo;
-@property(copy) NSAttributedString *secondarySalableInfoLabel; // @synthesize secondarySalableInfoLabel=_secondarySalableInfoLabel;
-@property(retain) AMSCardSingleSelection *selectedCard; // @synthesize selectedCard=_selectedCard;
-@property _Bool shouldUppercaseText; // @synthesize shouldUppercaseText=_shouldUppercaseText;
-@property(copy) NSString *storeName; // @synthesize storeName=_storeName;
-@property(copy) NSArray *styles; // @synthesize styles=_styles;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property long long titleType; // @synthesize titleType=_titleType;
-@property(copy) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

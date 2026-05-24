@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CKCDPTrustedTargetCryptoMetadata
 {
     long long _keyVersion;
-    NSData *_encryptedInvocationKey;
-    NSString *_protectionSource;
-    int _scheme;
-    struct {
-        unsigned int keyVersion:1;
-        unsigned int scheme:1;
-    } _has;
 }
 
 - (void);
@@ -33,11 +24,11 @@
 - (int);
 - (id);
 - (id);
+- (void)OctopusDecoder;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ptpReenableRedundantClusterLinks;
 - (_Bool);
-- (_Bool);
+- (_Bool)ersistedMessage>"16@"EDPersistenceDatabaseGenerationWindow"24;
 - (void);
 - (id);
 - (id);
@@ -46,14 +37,7 @@
 - (void)%@%{public}@%@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptedInvocationKey; // @synthesize encryptedInvocationKey=_encryptedInvocationKey;
 @property(readonly, nonatomic) _Bool hasEncryptedInvocationKey;
-@property(nonatomic) _Bool hasKeyVersion;
-@property(readonly, nonatomic) _Bool hasProtectionSource;
-@property(nonatomic) _Bool hasScheme;
-@property(nonatomic) long long keyVersion; // @synthesize keyVersion=_keyVersion;
-@property(retain, nonatomic) NSString *protectionSource; // @synthesize protectionSource=_protectionSource;
-@property(nonatomic) int scheme; // @synthesize scheme=_scheme;
 
 @end
 

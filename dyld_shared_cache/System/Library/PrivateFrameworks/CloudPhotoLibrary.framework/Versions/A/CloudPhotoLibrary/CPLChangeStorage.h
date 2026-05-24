@@ -11,11 +11,11 @@
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id)ùè;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *storageDescription;

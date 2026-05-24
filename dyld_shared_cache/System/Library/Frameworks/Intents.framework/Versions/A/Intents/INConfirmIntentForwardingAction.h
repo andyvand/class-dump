@@ -12,7 +12,7 @@
 
 + (Class)$$00;
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)(;
 - (void);
 
 @end

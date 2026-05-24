@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOPlaceSearchRequest, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWaypoint
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_entryPoints;
-    GEOLocation *_location;
-    GEOPlaceSearchRequest *_placeSearchRequest;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_entryPoints:1;
-        unsigned int read_location:1;
-        unsigned int read_placeSearchRequest:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)OffsetMeters:(id)arg1;
++ (_Bool)setOffsetMeters:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)persistentEnabledAccounts;
+- (void)_canCreateContacts;
+- (void)ess book database for deletion:(id)arg1 _cn_setValue:forExtendedAttribute:returned  %@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void)setPendingRemoraVoiceTriggerResult:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id)TriggerFirstPassRemora accessorySiriClientBehaviorMonitor:didStartStreamWithContext:successfully:option:withEventUUID:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -53,10 +39,10 @@
 - (void);
 - (id)!Cùñ¹*Ð1Â0@ù
 × ;
-- (id)eCoordinate: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)el;
-- (id)mestamp;
+- (id)initWithUniqueID:locationCoordinate:routeCoordinate: /* Error: Ran out of types for this method. */;
+- (id)isUTurn;
+- (id)pixel;
+- (id)session_relative_timestamp;
 - (void)D"T
 OneofDescriptorProto
 name (	.
@@ -138,12 +124,7 @@ deprecated (:false
 - (void)ºü2;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *entryPoints;
-@property(readonly, nonatomic) _Bool hasLocation;
 @property(readonly, nonatomic) _Bool hasPlaceSearchRequest;
-@property(retain, nonatomic) GEOLocation *location;
-@property(retain, nonatomic) GEOPlaceSearchRequest *placeSearchRequest;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

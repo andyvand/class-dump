@@ -13,7 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)@y)
+@9J
+;
 - (id);
 - (void);
 

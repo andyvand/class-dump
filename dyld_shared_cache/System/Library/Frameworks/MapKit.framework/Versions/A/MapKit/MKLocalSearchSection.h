@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MKLocalSearchSection
 {
     _Bool _shouldInterleaveClientResults;
-    _Bool _enforceServerResultsOrder;
-    _Bool _enableMapsSuggestServerReranking;
-    _Bool _isSectionForClientOnlyResults;
-    NSArray *_results;
-    NSString *_title;
-    NSArray *_includedClientResultTypes;
-    NSArray *_excludedClientResultTypes;
 }
 
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)y _interrupted];
+- (id)ed;
+- (_Bool)erConnected;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void)ForSizedArtwork:scale:nightMode: /* Error: Ran out of types for this method. */;
+- (void)imageForSizedArtwork:scale:nightMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool enableMapsSuggestServerReranking; // @synthesize enableMapsSuggestServerReranking=_enableMapsSuggestServerReranking;
-@property(readonly, nonatomic) _Bool enforceServerResultsOrder; // @synthesize enforceServerResultsOrder=_enforceServerResultsOrder;
-@property(readonly, nonatomic) NSArray *excludedClientResultTypes; // @synthesize excludedClientResultTypes=_excludedClientResultTypes;
-@property(readonly, nonatomic) NSArray *includedClientResultTypes; // @synthesize includedClientResultTypes=_includedClientResultTypes;
-@property(readonly, nonatomic) _Bool isSectionForClientOnlyResults; // @synthesize isSectionForClientOnlyResults=_isSectionForClientOnlyResults;
 @property(readonly, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) _Bool shouldInterleaveClientResults; // @synthesize shouldInterleaveClientResults=_shouldInterleaveClientResults;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

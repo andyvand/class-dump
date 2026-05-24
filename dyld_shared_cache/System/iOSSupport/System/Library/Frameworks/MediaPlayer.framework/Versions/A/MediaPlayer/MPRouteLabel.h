@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSUIEmojiLabelView, MPAVRoute, NSMutableSet, NSString, UIColor, UIFont, UILabel;
+@class BSUIEmojiLabelView, NSString;
 
 @interface MPRouteLabel
 {
     NSString *_previousDesignatedGroupLeaderName;
-    struct CGRect _previousBounds;
-    UIFont *_previousFont;
-    NSMutableSet *_previousRouteNames;
-    _Bool _previousForcesUppercaseText;
-    _Bool _previousDisplayAsSiriSuggestion;
-    long long _previousTruncationMode;
-    NSMutableSet *_routeNames;
-    UILabel *_sizingLabel;
-    _Bool _forcesUppercaseText;
-    _Bool _displayAsSiriSuggestion;
-    _Bool _omitGroupLeaderName;
-    _Bool _updatesRouteInternally;
-    _Bool _usesPredictedOutputDevice;
-    long long _minimumEndCharacterCount;
-    NSString *_text;
-    long long _truncationMode;
-    MPAVRoute *_route;
-    BSUIEmojiLabelView *_contentView;
-    UIColor *_textColor;
-    UIFont *_font;
-    long long _textAlignment;
-    NSString *_designatedGroupLeaderName;
 }
 
 - (void);
@@ -39,8 +17,8 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
-- (struct CGSize);
+- (id)setParticipants:(struct CGSize)arg1;
+- (struct CGSize)e FindMyLocateSession did not respond to the expected selector. This breaks FindMy functionality in Messages! Please file a radar.;
 - (void);
 - (long long);
 - (void);
@@ -52,8 +30,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)(;
+- (void)tring"16@?<v@?B@"NSError">24;
 - (void);
 - (struct CGSize);
 - (id);
@@ -61,10 +39,10 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)sharedInstance;
+- (id)initWithServerInfo:(id)arg1 queryPath:(long long)arg2;
+- (void)|;
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
@@ -75,38 +53,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)BundleFilePath_KEY;
-- (void)NG__;
+- (void)__purchaseBundleFilePath_KEY;
+- (void)__MPModelPropertyTVSeasonLibraryAddedDate__MAPPING_MISSING__;
 - (id)ngType;
 - (void)roller. Configuration :(id)arg1 %{public}@;
-- (long long)p;
-- (id);
-- (void)ortExtendedInfo;
+- (long long)_MPNowPlayingInfoPropertyProhibitsSkip;
+- (id)MPModelPropertyLyricsText;
+- (void)AirPlayPortExtendedInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) double _baselineOffsetFromBottom;
-@property(nonatomic, setter=_setTextColorFollowsTintColor:) _Bool _textColorFollowsTintColor;
 @property(retain, nonatomic) BSUIEmojiLabelView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSString *designatedGroupLeaderName; // @synthesize designatedGroupLeaderName=_designatedGroupLeaderName;
-@property(nonatomic) _Bool displayAsSiriSuggestion; // @synthesize displayAsSiriSuggestion=_displayAsSiriSuggestion;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) _Bool forcesUppercaseText; // @synthesize forcesUppercaseText=_forcesUppercaseText;
-@property(nonatomic) long long minimumEndCharacterCount; // @synthesize minimumEndCharacterCount=_minimumEndCharacterCount;
-@property(nonatomic) _Bool omitGroupLeaderName; // @synthesize omitGroupLeaderName=_omitGroupLeaderName;
-@property(retain, nonatomic) MPAVRoute *route; // @synthesize route=_route;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(readonly, nonatomic) UILabel *titleLabel;
-@property(nonatomic) long long truncationMode; // @synthesize truncationMode=_truncationMode;
-@property(nonatomic) _Bool updatesRouteInternally; // @synthesize updatesRouteInternally=_updatesRouteInternally;
-@property(nonatomic) _Bool usesPredictedOutputDevice; // @synthesize usesPredictedOutputDevice=_usesPredictedOutputDevice;
 
 @end
 

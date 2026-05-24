@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIResponder *_responderPreventedFromSettingInputViews;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)@;
+- (void)pleted invitation. CanShare:(id)arg1 %ld, DidShare:%ld, Error:%@ /* Error: Ran out of types for this method. */;
+- (id)%@;
 - (void);
 - (void)üÓ;
 

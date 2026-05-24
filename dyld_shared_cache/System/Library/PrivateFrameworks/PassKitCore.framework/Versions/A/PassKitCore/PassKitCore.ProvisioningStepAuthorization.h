@@ -7,9 +7,6 @@
 @interface PassKitCore.ProvisioningStepAuthorization
 {
     id context;
-    id credential;
-    id sharedState;
-    id localAuthenticationContext;
 }
 
 @end

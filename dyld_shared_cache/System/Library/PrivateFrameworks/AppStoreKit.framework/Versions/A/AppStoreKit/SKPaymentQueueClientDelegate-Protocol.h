@@ -5,5 +5,6 @@
 //
 
 @protocol SKPaymentQueueClientDelegate
+- (void)?@"PKPayLaterCardMagnitudes">;
 @end
 

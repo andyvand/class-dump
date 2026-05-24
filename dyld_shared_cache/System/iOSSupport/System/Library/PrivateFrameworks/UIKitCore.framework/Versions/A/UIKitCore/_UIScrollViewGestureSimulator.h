@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, NSThread, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface _UIScrollViewGestureSimulator
 {
     struct __CFRunLoopSource *_mainThreadRunLoopSource;
-    NSMutableArray *_simulatedGestures;
-    NSThread *_workThread;
-    CADisplayLink *_displayLink;
-    NSTimer *_timer;
-    _Bool _hasSimulatedGestures;
-    double _lastWakeUpTime;
 }
 
 + (id)XJk;
 - (void);
+- (void)_groupChatIdentifierToChatRoomMap;
+- (void)ndicationAction;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)ntifier, hashed_person_id, url_expiration_date, playlist_url, key_certificate_url, key_server_url, key_server_adam_id, key_server_protocol_type, is_itunes_store_stream) VALUES (@identifier, @hashedPersonID, @urlExpirationDate, @playlistURL, @keyCertificateURL, @keyServerURL, @keyServerAdamID, @keyServerProtocolType, @isiTunesStoreStream);
 - (void)ing",C,N,V_sessionActionString;
 - (void)t be between opposite attributes. Can't put %@ between %@ of %@ and %@ of %@;
 - (void)u;

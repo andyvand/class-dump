@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSError, NSSet;
+@class AVAsset;
 
 @interface TSDMovieCompatibilityChecker
 {
     AVAsset *mAsset;
-    long long mCompatibilityLevel;
-    NSError *mError;
-    CDStruct_79c71658 mCustomMaxPlayableVideoDimensions;
-    NSSet *mCustomPlayableVideoCodecTypes;
-    int mCustomMaxPlayableVideoPixelsPerFrame;
 }
 
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)AssetReaderImplementation;
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)MPServerObjectDatabaseAssetFlavor;
+- (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)Z[[3;
 
 // Remaining properties
 @property(readonly, nonatomic) long long compatibilityLevel; // @synthesize compatibilityLevel=mCompatibilityLevel;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=mError;
 
 @end
 

@@ -6,108 +6,17 @@
 
 #import <MediaPlayer/MPContentItem.h>
 
-@class MPMediaItemArtwork, MPNowPlayingInfoAudioFormat, MPNowPlayingInfoAudioRoute, MPNowPlayingInfoLyricsItem, NSArray, NSDate, NSDictionary, NSString;
-@protocol MPNowPlayingContentItemArtworkDataSource;
+@class NSDictionary, NSString;
 
 @interface MPNowPlayingContentItem : MPContentItem
 {
     NSDictionary *_nowPlayingInfo;
-    _Bool _didSetElapsedTime;
-    _Bool _sharableItem;
-    id <MPNowPlayingContentItemArtworkDataSource> _artworkDataSource;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) MPNowPlayingInfoAudioFormat *activeFormat;
-@property(nonatomic) long long activeFormatJustification;
-@property(nonatomic, getter=isAdvertisement) _Bool advertisement;
-@property(copy, nonatomic) NSString *albumArtistName;
-@property(copy, nonatomic) NSString *albumName;
-@property(nonatomic) unsigned long long albumTraits;
-@property(copy, nonatomic) NSString *albumYear;
-@property(copy, nonatomic) NSArray *alternativeFormats;
-@property(nonatomic, getter=isAlwaysLiveItem) _Bool alwaysLiveItem;
-@property(copy, nonatomic) NSArray *appEntityPaths;
-@property(retain, nonatomic) MPMediaItemArtwork *artwork; // @dynamic artwork;
-@property(retain, nonatomic) id <MPNowPlayingContentItemArtworkDataSource> artworkDataSource; // @synthesize artworkDataSource=_artworkDataSource;
-@property(copy, nonatomic) NSString *artworkIdentifier;
-@property(copy, nonatomic) NSString *artworkURL;
-@property(copy, nonatomic) NSArray *artworkURLTemplates;
-@property(copy, nonatomic) NSString *associatedParticipantIdentifier;
-@property(copy, nonatomic) MPNowPlayingInfoAudioRoute *audioRoute;
-@property(readonly, nonatomic) NSDictionary *auxiliaryNowPlayingInfo;
-@property(copy, nonatomic) NSArray *availableLanguageOptions;
-@property(readonly, nonatomic) double calculatedElapsedTime;
-@property(copy, nonatomic) NSString *collectionIdentifier;
-@property(copy, nonatomic) NSDictionary *collectionInfo;
-@property(copy, nonatomic) NSString *composerName;
-@property(copy, nonatomic) NSArray *currentLanguageOptions;
-@property(nonatomic) float defaultPlaybackRate;
-@property(copy, nonatomic) NSDictionary *deviceSpecificUserInfo;
-@property(copy, nonatomic) NSString *directorName;
-@property(nonatomic) long long discNumber;
-@property(nonatomic) double duration;
-@property(copy, nonatomic) NSString *durationStringLocalizationKey;
-@property(nonatomic) long long editingStyleFlags;
-@property(nonatomic) double elapsedTime;
-@property(readonly, nonatomic) double elapsedTimeTimestamp;
-@property(nonatomic) long long episodeNumber;
-@property(nonatomic) long long episodeType;
-@property(nonatomic, getter=isExplicitItem) _Bool explicitItem;
-@property(copy, nonatomic) NSString *externalContentIdentifier;
-@property(nonatomic) unsigned long long formatTierPreference;
-@property(copy, nonatomic) NSString *genreName;
-@property(nonatomic) _Bool hasArtwork;
-@property(nonatomic) _Bool hasDescription;
-@property(nonatomic) _Bool hasLanguageOptions;
-@property(nonatomic) _Bool hasLyrics;
-@property(nonatomic, getter=isInTransition) _Bool inTransition;
 @property(copy, nonatomic) NSString *info;
-@property(nonatomic) long long legacyUniqueID;
-@property(nonatomic, getter=isLoading) _Bool loading;
-@property(copy, nonatomic) NSString *localizedContentRating;
-@property(copy, nonatomic) NSString *localizedDurationString;
-@property(copy, nonatomic) MPNowPlayingInfoLyricsItem *lyrics;
-@property(nonatomic) long long lyricsAdamID;
-@property(nonatomic) unsigned long long mediaType;
-@property(copy, nonatomic) NSDictionary *nowPlayingInfo;
-@property(nonatomic) long long numberOfChildren;
-@property(nonatomic) long long playCount;
-@property(nonatomic) float playbackRate;
-@property(nonatomic) unsigned long long playlistTraits;
-@property(nonatomic) long long playlistType;
-@property(copy, nonatomic) MPNowPlayingInfoAudioFormat *preferredFormat;
-@property(copy, nonatomic) NSString *profileIdentifier;
-@property(copy, nonatomic) NSString *radioStationName;
-@property(copy, nonatomic) NSString *radioStationStringIdentifier;
-@property(nonatomic) long long radioStationType;
-@property(copy, nonatomic) NSDate *releaseDate;
-@property(copy, nonatomic) NSDictionary *remoteArtworks;
-@property(nonatomic) long long reportingAdamID;
-@property(nonatomic) long long seasonNumber;
-@property(copy, nonatomic) NSArray *sections;
-@property(copy, nonatomic) NSString *seriesName;
-@property(copy, nonatomic) NSString *serviceIdentifier;
-@property(nonatomic, getter=isSharableItem) _Bool sharableItem; // @synthesize sharableItem=_sharableItem;
-@property(nonatomic) unsigned long long songTraits;
-@property(nonatomic) double startTime;
-@property(nonatomic, getter=isSteerable) _Bool steerable;
-@property(nonatomic) long long storeAlbumArtistID;
-@property(nonatomic) long long storeAlbumID;
-@property(nonatomic) long long storeArtistID;
-@property(nonatomic) long long storeID;
-@property(nonatomic) long long storeSubscriptionID;
-@property(copy, nonatomic) NSString *subtitleShort;
-@property(copy, nonatomic) NSArray *supportedRemoteArtworkFormats;
-@property(nonatomic) long long totalDiscCount;
-@property(nonatomic) long long totalTrackCount;
-@property(copy, nonatomic) NSString *trackArtistName;
-@property(nonatomic) long long trackNumber;
-@property(copy, nonatomic) NSArray *transcriptAlignments;
-@property(copy, nonatomic) NSDictionary *transitionInfo;
-@property(copy, nonatomic) NSDictionary *userInfo;
 
 @end
 

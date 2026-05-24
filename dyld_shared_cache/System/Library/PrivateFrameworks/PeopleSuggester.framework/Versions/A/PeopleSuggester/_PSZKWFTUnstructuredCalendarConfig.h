@@ -7,10 +7,6 @@
 @interface _PSZKWFTUnstructuredCalendarConfig
 {
     _Bool _isEnabled;
-    float _priorScoreThreshold;
-    long long _defaultConfidenceCategory;
-    double _startSecondsFromQuery;
-    double _endSecondsFromQuery;
 }
 
 - (id);
@@ -18,15 +14,11 @@
 - (long long);
 - (double);
 - (_Bool);
-- (id);
-- (double);
+- (id);
+- (double)e;
 
 // Remaining properties
-@property(readonly, nonatomic) long long defaultConfidenceCategory; // @synthesize defaultConfidenceCategory=_defaultConfidenceCategory;
-@property(readonly, nonatomic) double endSecondsFromQuery; // @synthesize endSecondsFromQuery=_endSecondsFromQuery;
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) float priorScoreThreshold; // @synthesize priorScoreThreshold=_priorScoreThreshold;
-@property(readonly, nonatomic) double startSecondsFromQuery; // @synthesize startSecondsFromQuery=_startSecondsFromQuery;
 
 @end
 

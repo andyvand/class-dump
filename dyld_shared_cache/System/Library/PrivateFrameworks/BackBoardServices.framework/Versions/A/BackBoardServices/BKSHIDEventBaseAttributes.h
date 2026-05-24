@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventAuthenticationMessage, BKSHIDEventDeferringChangeBasis, BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, BKSHIDEventDisplay, BKSHIDEventSimpleProvenance, NSString;
+@class BKSHIDEventSimpleProvenance;
 @protocol BKSHIDEventProvenance;
 
 @interface BKSHIDEventBaseAttributes
 {
     BKSHIDEventSimpleProvenance *_simpleProvenance;
-    unsigned short _options;
-    int _source;
-    BKSHIDEventAuthenticationMessage *_authenticationMessage;
-    BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringToken *_token;
 }
 
 + (Class);
@@ -27,10 +21,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned int);
+- (id)	J;
+- (unsigned int);
 - (void);
 - (unsigned short);
 - (void);
@@ -41,32 +35,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)16^{?=q^v^?^?^?}24;
+- (void)lts domain %@ and key %@ cannot be converted into an integer.;
 - (id);
 - (int);
-- (id);
-- (id);
-- (void);
+- (id)(;
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventAuthenticationMessage *authenticationMessage; // @synthesize authenticationMessage=_authenticationMessage;
-@property(readonly, nonatomic) BKSHIDEventDeferringChangeBasis *changeBasis;
-@property(readonly, nonatomic) unsigned int contextID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) BKSHIDEventDisplay *display; // @synthesize display=_display;
-@property(retain, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned short options; // @synthesize options=_options;
 @property(retain, nonatomic) id <BKSHIDEventProvenance> provenance;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) BKSHIDEventDeferringToken *token; // @synthesize token=_token;
 
 @end
 

@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IKTaskAsyncOperation
 {
     id _target;
-    id _object;
-    id _delegate;
-    NSString *_queueIdentifier;
-    SEL _selector;
-    SEL _cancelSelector;
-    _Bool _done;
-    CDStruct_f2216670 _state;
 }
 
 - (void);
 - (SEL);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_f2216670 *);
+- (void)ry",R,N,V_factorPackIds;
+- (void);
+- (CDStruct_5577c19c *);
 - (SEL)!°@ùÑíÐ1Â0@ù
 × ;
 - (_Bool)qîÐ1Â0@ù
 × ;
-- (void)nerViewHandler;
+- (void)_scannerViewHandler;
 - (void)ìÿÍµû;
 
 // Remaining properties
-@property SEL cancelSelector; // @synthesize cancelSelector=_cancelSelector;
-@property(retain) id delegate; // @synthesize delegate=_delegate;
-@property(retain) id object; // @synthesize object=_object;
-@property(copy) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property SEL selector; // @synthesize selector=_selector;
 @property(retain) id target; // @synthesize target=_target;
 
 @end

@@ -7,9 +7,6 @@
 @interface SwiftUI.AppKitSecureTextField
 {
     id swiftUIDelegate;
-    id suggestionsBridge;
-    id delegateFocusEffect;
-    id customAcceptsFirstMouse;
 }
 
 - (_Bool);
@@ -17,7 +14,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (void)AÚZ7l
 ;

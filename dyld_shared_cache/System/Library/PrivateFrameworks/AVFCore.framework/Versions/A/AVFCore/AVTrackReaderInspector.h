@@ -6,27 +6,17 @@
 
 #import <AVFCore/AVAssetTrackInspector.h>
 
-@class AVDispatchOnce, AVWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface AVTrackReaderInspector : AVAssetTrackInspector
 {
     struct OpaqueFigFormatReader *_formatReader;
-    struct OpaqueFigTrackReader *_trackReader;
-    AVDispatchOnce *_copySampleCursorServiceOnce;
-    struct OpaqueFigSampleCursorService *_figSampleCursorService;
-    _Bool _sampleCursorTimeAccuracyIsExact;
-    int _trackID;
-    unsigned int _mediaType;
-    AVWeakReference *_weakReferenceToAsset;
-    _Bool _prefersNominalDurations;
 }
 
+- (id)erance;
+- (_Bool)O;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -38,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct OpaqueFigFormatReader *);
 - (int);
-- (void *);
+- (void *)kl;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -52,15 +42,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (float);
 - (_Bool);
-- (id);
+- (id)LocationSearchCompleted;
 - (struct OpaqueFigTrackReader *);
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)*;
 - (float);
 - (long long);
-- (float);
-- (unsigned int);
+- (float)ug) :context=%@ :name=%@ /* Error: Ran out of types for this method. */;
+- (unsigned int)_appleInternalProfile;
 - (id);
 - (long long);
 - (CDStruct_e83c9415);
@@ -72,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (id)!ÐAù)ð1Â0@ù
 × ;
 - (float)tionData=}16@0:8 /* Error: Ran out of types for this method. */;
-- (id)etWriterInputFigAssetWriterEndPassOperation;
+- (id)AVAssetWriterInputFigAssetWriterEndPassOperation;
 - (_Bool)ñí3S;
 - (struct CGSize)eBufferVideoRenderer init];
 - (int)@;

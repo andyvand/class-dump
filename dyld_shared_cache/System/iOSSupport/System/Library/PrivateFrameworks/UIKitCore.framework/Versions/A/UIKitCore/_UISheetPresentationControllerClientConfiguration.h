@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISheetPresentationControllerClientConfiguration
 {
     _Bool _containsFirstResponder;
-    _Bool _firstResponderRequiresKeyboard;
-    double _proposedDepthLevel;
-    struct CGRect _keyboardFrame;
 }
 
 + (_Bool)butes=;
@@ -24,26 +19,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool)systemRestoreStateDidChange;
 - (id);
 - (id);
 - (id);
 - (_Bool)v52@0:(id)arg1 8@16B24@28d36@44;
-- (void)ge;
-- (void)originalSize;
+- (void)sharedCredentialStorage;
+- (void)_originalSize;
 
 // Remaining properties
 @property(nonatomic) _Bool containsFirstResponder; // @synthesize containsFirstResponder=_containsFirstResponder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool firstResponderRequiresKeyboard; // @synthesize firstResponderRequiresKeyboard=_firstResponderRequiresKeyboard;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect keyboardFrame; // @synthesize keyboardFrame=_keyboardFrame;
-@property(nonatomic) double proposedDepthLevel; // @synthesize proposedDepthLevel=_proposedDepthLevel;
-@property(readonly) Class superclass;
 
 @end
 

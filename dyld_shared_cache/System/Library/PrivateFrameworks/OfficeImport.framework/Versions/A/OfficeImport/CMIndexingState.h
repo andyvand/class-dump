@@ -6,29 +6,25 @@
 
 #import <OfficeImport/CMState.h>
 
-@class CSSearchableItemAttributeSet, NSMutableDictionary, NSMutableString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CMIndexingState : CMState
 {
     NSMutableDictionary *_metadata;
-    CSSearchableItemAttributeSet *_searchableAttributes;
-    NSMutableString *_textContent;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)optionsDictionary;
 - (void);
 - (id);
-- (void);
+- (void)nonViableRepair;
 - (void)ì;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) CSSearchableItemAttributeSet *searchableAttributes; // @synthesize searchableAttributes=_searchableAttributes;
-@property(retain) NSMutableString *textContent; // @synthesize textContent=_textContent;
 
 @end
 

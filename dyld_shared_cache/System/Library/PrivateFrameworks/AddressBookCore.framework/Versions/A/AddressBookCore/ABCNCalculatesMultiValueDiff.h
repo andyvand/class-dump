@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableOrderedSet, NSOrderedSet;
+@class NSArray;
 
 @interface ABCNCalculatesMultiValueDiff
 {
     NSArray *_multiValue1;
-    NSArray *_multiValue2;
-    NSOrderedSet *_originalIdentifiers;
-    NSOrderedSet *_finalIdentifiers;
-    NSMutableOrderedSet *_addedIdentifiers;
-    NSMutableOrderedSet *_removedIdentifiers;
-    NSMutableOrderedSet *_sameIdentifiers;
-    NSMutableOrderedSet *_calculatedFinalIdentifiers;
-    NSMutableArray *_updates;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

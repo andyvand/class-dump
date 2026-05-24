@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIAction, UIImage;
-@protocol _UIMenuImageOrName;
+@class NSAttributedString, NSString;
 
 @interface UIMenuElement
 {
     NSAttributedString *_attributedTitle;
-    NSString *_subtitle;
-    NSString *_accessibilityIdentifier;
-    unsigned long long __preferredDisplayMode;
-    NSString *_title;
-    NSString *__internalIdentifier;
-    id <_UIMenuImageOrName> __imageOrName;
-    UIAction *__accessoryAction;
-    CDUnknownBlockType __highlightStateUpdateHandler;
 }
 
 + (_Bool)_UINSToolbarLayoutExtractionContext *__strong)_block_invoke_5;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)lizing dev container with ID %@;
 - (void);
 - (void);
 - (void);
@@ -41,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)d;
 - (void);
 - (id);
 - (_Bool);
@@ -50,11 +41,11 @@
 - (id)0@ù
 × ;
 - (void)teDelegateCanBePrevented"b1"privateDelegateShouldRecognizeSimultaneously"b1"privateDelegateShouldReceiveEvent"b1"privateDelegateShouldReceiveTouch"b1"privateDelegateShouldReceivePress"b1"privateDelegateShouldRequireFailure"b1"privateDelegateShouldBeRequiredToFail"b1"privateDelegateCanCancel"b1"privateDelegateCanBeCancelled"b1"privateDelegateAcceptsBeingFailureRequirement"b1"privateDelegateAcceptsBeingFailureDependent"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"subclassTouchesEstimatedPropertiesUpdated"b1"subclassShouldReceiveTouchForEventRecognizerView"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled_DO_NOT_USE_DIRECTLY"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"requiresExclusiveTouchType"b1"initialTouchTypeIsValid"b1"forceRequirementSatisfied"b1"wantsDragEvents"b1"conformsToDragEventRespondable"b1"isDynamicGesture"b1"canExcludeWithActiveRequirements_DO_NOT_USE_DIRECTLY"b1"isObservingGesture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (void)Direction:(id)arg1 scale: /* Error: Ran out of types for this method. */;
-- (_Bool)ions;
+- (void)copyForPopupDirection:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (_Bool)_hasPreviewQuickActions;
 - (id)UIDotsInputSwitcherView;
 - (void);
-- (void);
+- (void)selectedImage;
 - (id)xî;
 - (id);
 - (void)Öuþ;
@@ -63,17 +54,7 @@
 - (void)$Ñ³ÿ¥Ó(i;
 
 // Remaining properties
-@property(copy, nonatomic) UIAction *_accessoryAction; // @synthesize _accessoryAction=__accessoryAction;
-@property(copy, nonatomic, setter=_setHighlightStateUpdateHandler:) CDUnknownBlockType _highlightStateUpdateHandler; // @synthesize _highlightStateUpdateHandler=__highlightStateUpdateHandler;
-@property(readonly, nonatomic) id <_UIMenuImageOrName> _imageOrName; // @synthesize _imageOrName=__imageOrName;
 @property(copy, nonatomic) NSString *_internalIdentifier; // @synthesize _internalIdentifier=__internalIdentifier;
-@property(readonly, nonatomic) _Bool _isLeaf;
-@property(readonly, nonatomic) _Bool _isLoadingPlaceholder;
-@property(nonatomic, setter=_setPreferredDisplayMode:) unsigned long long _preferredDisplayMode; // @synthesize _preferredDisplayMode=__preferredDisplayMode;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic) UIImage *image;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

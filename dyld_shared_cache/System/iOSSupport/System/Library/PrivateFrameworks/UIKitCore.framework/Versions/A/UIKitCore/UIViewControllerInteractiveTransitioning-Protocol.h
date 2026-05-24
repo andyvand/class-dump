@@ -8,21 +8,13 @@
 - (void)e been deprecated. Update to view-based UIFeedbackGenerator methods.;
 
 @optional
-- (_Bool);
+- (double);
 - (long long)33ô¦{þ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) double completionSpeed;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

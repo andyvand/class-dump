@@ -10,25 +10,22 @@ __attribute__((visibility("hidden")))
 @interface NSKeyValueDependency
 {
     NSKeyValueDependencyContext *_context;
-    unsigned long long _invalidationCount;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)etStreamClient=^^?};
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)?;
+- (id)(;
 - (_Bool);
 - (void)_symbolConfiguration;
-- (id)Debug;
+- (id)NSEventConcurrentProcessingDebug;
 
 // Remaining properties
-@property(retain) NSKeyValueDependencyContext *context; // @synthesize context=_context;
-@property unsigned long long invalidationCount; // @synthesize invalidationCount=_invalidationCount;
 @property(readonly, getter=isValid) _Bool valid;
 
 @end

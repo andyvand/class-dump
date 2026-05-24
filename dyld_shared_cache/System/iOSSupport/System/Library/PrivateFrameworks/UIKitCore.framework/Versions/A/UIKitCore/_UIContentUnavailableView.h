@@ -6,28 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, NSMutableArray, NSString, UIButton, UILabel, UIScrollView, _UIBackdropView;
+@class NSString;
 
 @interface _UIContentUnavailableView : UIView
 {
     unsigned long long _style;
-    NSString *_title;
-    _UIBackdropView *_backdrop;
-    UIView *_containerView;
-    UIScrollView *_scrollView;
-    UILabel *_titleLabel;
-    UILabel *_messageLabel;
-    UIButton *_actionButton;
-    NSLayoutConstraint *titleToMessageConstraint;
-    NSLayoutConstraint *messageToButtonConstraint;
-    UIView *_fromSnapshot;
-    UIView *_toSnapshot;
-    struct CGSize _fromSnapshotSize;
-    NSMutableArray *_containerViewContraints;
-    NSString *_message;
-    NSString *_buttonTitle;
-    CDUnknownBlockType _buttonAction;
-    unsigned long long _vibrantOptions;
 }
 
 + (id);
@@ -36,19 +19,19 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)_eligibleForTruthZone;
+- (id)_editedMessagePartTranslation;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (struct CGColor *);
+- (void)-storage message %@ took %f seconds to process;
+- (id)nName:%@. Checking if we need to update filter params. /* Error: Ran out of types for this method. */;
+- (id)teringSettings from iPhone:%@ with filterState:%ld, smsFilterCapabilitiesOptions:%lu, filterExtensionName:%@. Checking if we need to update filter params. /* Error: Ran out of types for this method. */;
+- (double)y of file URLs:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (double)iled to copy item to temporary directory:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)returned with error:%@ /* Error: Ran out of types for this method. */;
+- (id)led to respond to ST request payloadURL == nil;
+- (struct CGColor *)IMDSystemTaskScheduler;
 - (double);
 - (id);
 - (struct CGSize);
@@ -66,25 +49,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)0:8@16@24@32 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)°!TFùdÐ1Â0@ù
 × ;
-- (void)rColorForEnabled:(id)arg1;
-- (id)pension;
-- (id);
+- (void)_indicatorColorForEnabled:(id)arg1;
+- (id)_bypassSuspension;
+- (id)_allowAnimatedUpdateSelectionRectViews;
 - (void)X3¬5L6;
 - (id)to more than one view (->%@) at a time, this was never allowed, and is now enforced. Beginning with iOS 9.0 it will be put in the first view it is loaded into.;
-- (id)SelectionDuringEditing;
+- (id)UIAllowsMultipleSelectionDuringEditing;
 - (void)3Ù¤];
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType buttonAction; // @synthesize buttonAction=_buttonAction;
-@property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long vibrantOptions; // @synthesize vibrantOptions=_vibrantOptions;
 
 @end
 

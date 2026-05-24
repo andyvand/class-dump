@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface DEDBugSessionOperation
 {
     long long _type;
-    NSDictionary *_options;
-    NSString *_identifier;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)I;
++ (_Bool)atorIcEEEENS4_IS6_EEEE;
 - (id);
-- (id);
-- (void);
+- (id)ningPublicKey";
+- (void)mReaderWriterProtocol>"24^@32;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ZN11cnframework12ActiveObjectIN5raven37RavenConvergenceEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_19FitnessSessionEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)r"16@"NSString"24@?<v@?@"NSError">32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 @property long long type; // @synthesize type=_type;
 
 @end

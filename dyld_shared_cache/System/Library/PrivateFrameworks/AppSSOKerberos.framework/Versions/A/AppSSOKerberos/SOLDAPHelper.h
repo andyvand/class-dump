@@ -5,14 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_ldap_connection, OS_nw_connection;
+@protocol OS_ldap_connection;
 
 @interface SOLDAPHelper
 {
     _Bool _isConnected;
-    _Bool _completionCalled;
-    NSObject<OS_ldap_connection> *_ldap;
-    NSObject<OS_nw_connection> *_connection;
 }
 
 - (void);
@@ -29,17 +26,14 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)qa;
+- (id);
+- (_Bool)ModeSupported:to discover valid white balance modes /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)__const;
 
 // Remaining properties
-@property _Bool completionCalled; // @synthesize completionCalled=_completionCalled;
-@property(retain) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
 @property(retain, nonatomic) NSObject<OS_ldap_connection> *ldap; // @synthesize ldap=_ldap;
 
 @end

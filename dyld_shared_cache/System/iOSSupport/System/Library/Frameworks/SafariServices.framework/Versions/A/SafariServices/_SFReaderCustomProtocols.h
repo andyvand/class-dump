@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)EncodedKey;
 + (struct OpaqueJSScript *);
 
 @end

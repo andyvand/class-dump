@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IMTesting)
-+ (id);
++ (id);
 + (_Bool);
 + (void);
 + (void);
@@ -16,6 +16,6 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 @end
 

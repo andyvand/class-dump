@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAP, NSString, SystemPowerNotifier;
+@class SystemPowerNotifier;
 
 @interface AAPManager
 {
     unsigned char _numOfBuddyRetrans;
-    unsigned short _offset_global;
-    unsigned short _log_type;
-    SystemPowerNotifier *_powerNotifier;
-    AAP *_lastConnectedDevice;
 }
 
 - (void);
@@ -28,18 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) AAP *lastConnectedDevice; // @synthesize lastConnectedDevice=_lastConnectedDevice;
-@property unsigned short log_type; // @synthesize log_type=_log_type;
-@property unsigned char numOfBuddyRetrans; // @synthesize numOfBuddyRetrans=_numOfBuddyRetrans;
-@property unsigned short offset_global; // @synthesize offset_global=_offset_global;
 @property(retain) SystemPowerNotifier *powerNotifier; // @synthesize powerNotifier=_powerNotifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface QLSatelliteMessage
@@ -17,25 +17,22 @@
 - (_Bool);
 - (_Bool);
 - (struct __QLRequest *);
-- (id);
+- (id)pecified error with received event;
 - (id);
 - (id);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)substringWithRange:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property int type;
-@property(copy) NSUUID *uuid;
-@property(readonly) NSObject<OS_xpc_object> *xpcConnection;
-@property(readonly) NSObject<OS_xpc_object> *xpcMessage;
 
 @end
 

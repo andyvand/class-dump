@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFocusSystem, UIView;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusCastingController
 {
     _Bool _isRememberingEntryPoint;
-    UIFocusSystem *focusSystem;
-    double _entryPointMemorizationTimeout;
-    unsigned long long _entryPointAxis;
-    UIView *_focusMovementIndicator;
-    UIView *_focusEntryIndicator;
-    UIView *_focusCastingIndicator;
-    struct CGPoint _screenEntryPoint;
 }
 
 - (void);
@@ -27,31 +18,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (_Bool);
+- (struct CGPoint)@"IDSAccount"24@"NSString"32@40;
+- (_Bool)logCloudKitSyncToPowerLogForSyncType:isCoreDuetSync:didStartSync:didFinishSync:didSucceedSyncing: /* Error: Ran out of types for this method. */;
+- (void)entifiers:serviceName: /* Error: Ran out of types for this method. */;
+- (void)batchTracker;
+- (id)autoBugCaptureWithSubType:errorPayload: /* Error: Ran out of types for this method. */;
+- (id)attribute:atIndex:effectiveRange: /* Error: Ran out of types for this method. */;
+- (void)attachmentSyncController;
+- (id)attachmentQuery:chatID:services:finishedWithResult: /* Error: Ran out of types for this method. */;
+- (double)onBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_updatePendingReviewForChatsWithGUIDsInBackground:pendingReview:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ctionary",&,N,V_completionBlocksForAssetFetchOperations;
+- (void)m;
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (double);
-- (unsigned long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGRect);
-- (unsigned long long);
+- (void)not have an IMDCKSyncController when trying report _PCSTestBackupStateDidChange;
+- (id)from balloon bundle id %@ path %@;
+- (struct CGPoint)ght handling delivery receipt:(struct CGRect)arg1 %@;
+- (id), knownSender:%i, shouldAttemptWallpaperFetch:%i, hasWallpaperUpdate:%i, existingNickname:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)fromID:(struct CGRect)arg1 %@, ;
+- (void)IDPrefix, after:%@ /* Error: Ran out of types for this method. */;
+- (void)with error:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)anion;
+- (struct CGRect)t paired device which is connected:(struct CGRect)arg1 %@;
+- (unsigned long long)mMe:(unsigned long long)arg1 %@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)Ô ;
@@ -59,21 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long entryPointAxis; // @synthesize entryPointAxis=_entryPointAxis;
-@property(nonatomic) double entryPointMemorizationTimeout; // @synthesize entryPointMemorizationTimeout=_entryPointMemorizationTimeout;
-@property(retain, nonatomic) UIView *focusCastingIndicator; // @synthesize focusCastingIndicator=_focusCastingIndicator;
-@property(retain, nonatomic) UIView *focusEntryIndicator; // @synthesize focusEntryIndicator=_focusEntryIndicator;
-@property(retain, nonatomic) UIView *focusMovementIndicator; // @synthesize focusMovementIndicator=_focusMovementIndicator;
-@property(nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRememberingEntryPoint; // @synthesize isRememberingEntryPoint=_isRememberingEntryPoint;
 @property(nonatomic) struct CGPoint screenEntryPoint; // @synthesize screenEntryPoint=_screenEntryPoint;
-@property(readonly) Class superclass;
 
 @end
 

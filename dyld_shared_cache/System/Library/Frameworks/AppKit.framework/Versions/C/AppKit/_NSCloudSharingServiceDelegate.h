@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSharingService, NSString;
+@class NSSharingService;
 
 __attribute__((visibility("hidden")))
 @interface _NSCloudSharingServiceDelegate
 {
     NSSharingService *_service;
-    CDUnknownBlockType _parentWindowProvider;
-    CDUnknownBlockType _completionHandler;
-    id _selfReference;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)NULL;
+- (id)4szz4QLjIlB52alQ4J3R1g;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void)arameter to -initWithCIImage:is not of finite extent /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool preShareFailureMeansStopSharing;
-@property(retain) id selfReference; // @synthesize selfReference=_selfReference;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol NSPasteboardWriting;
+
 @protocol NSOutlineViewDataSource
+
+@optional
+- (unsigned long long)mentaryAttributesTypeP;
+- (void)ImpressionActiveSessionProviderP;
+- (id <NSPasteboardWriting>)ifierFlagst;
+- (id)odifierFlagst;
+- (NSArray *)ibutesFactoryTypeP;
+- (id)G;
+- (_Bool)g_;
+- (void)ocusSelectionProviderDelegateP;
+- (void);
+- (id)q_GSg;
 @end
 

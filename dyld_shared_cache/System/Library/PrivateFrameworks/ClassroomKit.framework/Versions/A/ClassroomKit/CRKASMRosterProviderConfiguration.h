@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCredentialStore, NSMapTable, NSObject, NSString;
-@protocol CRKClassKitFacade, CRKClassKitRosterRequirements, CRKOSTransactionPrimitives;
+@class NSString;
 
 @interface CRKASMRosterProviderConfiguration
 {
     NSString *_userCommonNamePrefix;
-    NSString *_trustedUserCommonNamePrefix;
-    NSObject<CRKClassKitFacade> *_classKitFacade;
-    NSObject<CRKClassKitRosterRequirements> *_rosterRequirements;
-    CRKASMCredentialStore *_credentialStore;
-    long long _maxCourseUsersCount;
-    long long _maxCourseTrustedUsersCount;
-    double _rosterMutationTimeout;
-    NSMapTable *_userCache;
-    NSMapTable *_trustedUserCache;
-    id <CRKOSTransactionPrimitives> _osTransactionPrimitives;
-    double _transactionReleaseDelay;
 }
 
 + (_Bool);
@@ -46,17 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<CRKClassKitFacade> *classKitFacade; // @synthesize classKitFacade=_classKitFacade;
-@property(readonly, nonatomic) CRKASMCredentialStore *credentialStore; // @synthesize credentialStore=_credentialStore;
-@property(readonly, nonatomic) long long maxCourseTrustedUsersCount; // @synthesize maxCourseTrustedUsersCount=_maxCourseTrustedUsersCount;
-@property(readonly, nonatomic) long long maxCourseUsersCount; // @synthesize maxCourseUsersCount=_maxCourseUsersCount;
-@property(readonly, nonatomic) id <CRKOSTransactionPrimitives> osTransactionPrimitives; // @synthesize osTransactionPrimitives=_osTransactionPrimitives;
-@property(readonly, nonatomic) double rosterMutationTimeout; // @synthesize rosterMutationTimeout=_rosterMutationTimeout;
-@property(readonly, nonatomic) NSObject<CRKClassKitRosterRequirements> *rosterRequirements; // @synthesize rosterRequirements=_rosterRequirements;
-@property(readonly, nonatomic) double transactionReleaseDelay; // @synthesize transactionReleaseDelay=_transactionReleaseDelay;
-@property(readonly, nonatomic) NSMapTable *trustedUserCache; // @synthesize trustedUserCache=_trustedUserCache;
-@property(readonly, copy, nonatomic) NSString *trustedUserCommonNamePrefix; // @synthesize trustedUserCommonNamePrefix=_trustedUserCommonNamePrefix;
-@property(readonly, nonatomic) NSMapTable *userCache; // @synthesize userCache=_userCache;
 @property(readonly, copy, nonatomic) NSString *userCommonNamePrefix; // @synthesize userCommonNamePrefix=_userCommonNamePrefix;
 
 @end

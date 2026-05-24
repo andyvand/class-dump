@@ -9,7 +9,6 @@
 @interface SXFontIndexCacheKey
 {
     id <SXFontAttributes> _fontAttributes;
-    long long _fontSize;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXFontAttributes> fontAttributes; // @synthesize fontAttributes=_fontAttributes;
-@property(readonly, nonatomic) long long fontSize; // @synthesize fontSize=_fontSize;
 
 @end
 

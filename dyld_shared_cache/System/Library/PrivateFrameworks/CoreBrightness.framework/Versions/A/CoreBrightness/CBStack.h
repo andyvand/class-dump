@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBStack
 {
     NSObject<OS_os_log> *_logHandle;
-    unsigned long long _length;
-    id _objectToPop;
-    NSMutableArray *_stack;
 }
 
 - (void);
@@ -25,13 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)J;
+- (id)GImageRef>>="fRef"^{CGImage}};
 
 // Remaining properties
 @property unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) id objectToPop; // @synthesize objectToPop=_objectToPop;
-@property(readonly, nonatomic) NSMutableArray *stack; // @synthesize stack=_stack;
 
 @end
 

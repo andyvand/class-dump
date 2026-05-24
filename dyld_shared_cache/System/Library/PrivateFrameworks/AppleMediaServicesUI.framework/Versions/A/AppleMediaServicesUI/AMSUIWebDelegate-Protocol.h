@@ -5,5 +5,10 @@
 //
 
 @protocol AMSUIWebDelegate
+
+@optional
+- (void)assetUUID;
+- (void)assetSelector;
+- (void)assetPolicy;
 @end
 

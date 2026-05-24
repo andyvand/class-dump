@@ -6,48 +6,27 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRImage, MRImageProvider, MRTextRenderer, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectPortfolio : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRImageProvider *mLeftPageProvider;
-    MRImageProvider *mRightPageProvider;
-    MRImageProvider *mPageCreaseProvider;
-    NSMutableDictionary *mFrameProviders;
-    NSMutableArray *mFrameList;
-    _Bool mIsLoaded;
-    long long mPageCount;
-    _Bool mLeftZoom;
-    _Bool mRightZoom;
-    _Bool mIsBreakXL;
-    _Bool mIsPortraitBreak;
-    _Bool mIsPortrait2Break;
-    _Bool mPortraitBreakDirection;
-    _Bool mIsPortraitBreakXL;
-    _Bool mFitMovies;
-    _Bool mNeedsSizeUpdate;
-    _Bool mIsSlideOnly;
-    MRTextRenderer *mTextRenderer0;
-    MRImage *mTextImage0;
-    MRCAMLBezierData *mZoomCurves[2];
-    MRCAMLBezierData *mXLCurves[2];
 }
 
 + (void)ô&;
 - (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (id);
+- (_Bool)wwan5G;
+- (_Bool)BOOL(NSNumber *contentType) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
+- (double)erContentTypeIsSupported(contentType);
+- (double)lopeTracker.m;
+- (id)rong _Nonnull);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)CacheState;
 - (void);
-- (void);
+- (void)RB;
 - (void);
 - (void);
 - (void);

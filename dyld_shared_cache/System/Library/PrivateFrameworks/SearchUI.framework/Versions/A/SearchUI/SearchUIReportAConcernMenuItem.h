@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFPunchout, SearchUIRowModel;
-@protocol SearchUIFeedbackDelegate;
+@class SearchUIRowModel;
 
 @interface SearchUIReportAConcernMenuItem
 {
     SearchUIRowModel *_rowModel;
-    SFPunchout *_punchout;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)processNonZeroValuesInPlaceWithBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(retain) SFPunchout *punchout; // @synthesize punchout=_punchout;
 @property(retain) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
 
 @end

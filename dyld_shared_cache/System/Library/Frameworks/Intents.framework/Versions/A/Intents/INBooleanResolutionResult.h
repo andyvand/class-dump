@@ -6,25 +6,17 @@
 
 #import <Intents/INIntentResolutionResult.h>
 
-@class NSString;
-
 @interface INBooleanResolutionResult : INIntentResolutionResult
 {
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)v48@0:(id)arg1 8{CGSize=dd}16^{CGColorSpace=}32@?40;
+- (id)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

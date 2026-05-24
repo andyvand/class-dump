@@ -15,7 +15,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) CKDatabase *database; // @synthesize database=_database;
 @property(readonly, nonatomic) CKDatabaseOperationInfo *operationInfo; // @dynamic operationInfo;
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotPostbackData, CTLazuliMessageID, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotResponseForSuggestedAction
 {
     NSString *_displayText;
-    CTLazuliChatBotPostbackData *_postBackData;
-    CTLazuliMessageID *_inReplyToID;
 }
 
-+ (_Bool);
++ (_Bool)mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (_Bool);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(retain, nonatomic) CTLazuliMessageID *inReplyToID; // @synthesize inReplyToID=_inReplyToID;
-@property(retain, nonatomic) CTLazuliChatBotPostbackData *postBackData; // @synthesize postBackData=_postBackData;
 
 @end
 

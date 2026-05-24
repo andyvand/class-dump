@@ -6,15 +6,12 @@
 
 #import <PhotosUICore/PXUserInterfaceElementEventTracker.h>
 
-@class NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol PXAnonymousViewController;
 
 @interface PXViewControllerEventTracker : PXUserInterfaceElementEventTracker
 {
     _Bool _isViewVisible;
-    NSString *_viewName;
-    NSObject<PXAnonymousViewController> *_currentViewController;
-    long long _viewSignpost;
 }
 
 - (long long);
@@ -37,17 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<PXAnonymousViewController> *currentViewController; // @synthesize currentViewController=_currentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isViewVisible; // @synthesize isViewVisible=_isViewVisible;
-@property(copy, nonatomic) NSMutableDictionary *payload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *viewName; // @synthesize viewName=_viewName;
-@property(nonatomic) long long viewSignpost; // @synthesize viewSignpost=_viewSignpost;
 
 @end
 

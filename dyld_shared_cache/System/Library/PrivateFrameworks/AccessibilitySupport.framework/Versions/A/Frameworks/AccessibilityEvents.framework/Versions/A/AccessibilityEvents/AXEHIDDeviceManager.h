@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol AXEHIDDeviceManagerDelegate;
+@class NSMutableArray;
 
 @interface AXEHIDDeviceManager
 {
     _Bool _detectDevices;
-    id <AXEHIDDeviceManagerDelegate> _delegate;
-    NSMutableArray *__devices;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_devices; // @synthesize _devices=__devices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXEHIDDeviceManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool detectDevices; // @synthesize detectDevices=_detectDevices;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

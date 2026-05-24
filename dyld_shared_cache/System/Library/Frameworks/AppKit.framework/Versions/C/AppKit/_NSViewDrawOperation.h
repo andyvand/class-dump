@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegion, NSView, _NSDisplayOperation;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewDrawOperation
 {
     NSView *_view;
-    struct CGRect _rect;
-    NSRegion *_region;
-    NSRegion *_windowRegion;
-    unsigned long long _options;
-    _NSDisplayOperation *_owningDisplayOperation;
 }
 
 - (id);
 - (void);
 - (void);
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (id)comboButtonWithImage:menu:target:action: /* Error: Ran out of types for this method. */;
 
 @end
 

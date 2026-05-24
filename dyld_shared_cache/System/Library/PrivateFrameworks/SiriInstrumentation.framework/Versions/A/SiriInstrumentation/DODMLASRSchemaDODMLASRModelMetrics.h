@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRModelMetrics : SISchemaInstrumentationMessage
 {
     NSString *_configName;
-    unsigned long long _trainingDurationInMs;
-    unsigned long long _conversionDurationInMs;
-    unsigned long long _optimizationDurationInMs;
-    unsigned long long _totalDurationInMs;
-    unsigned int _ngramOrder;
-    float _residualAdaptationWeight;
-    unsigned int _modelTrainingStatusCode;
-    unsigned int _numFiniteStateTransducerArcs;
-    unsigned int _numFiniteStateTransducerStates;
-    struct {
-        unsigned int trainingDurationInMs:1;
-        unsigned int conversionDurationInMs:1;
-        unsigned int optimizationDurationInMs:1;
-        unsigned int totalDurationInMs:1;
-        unsigned int ngramOrder:1;
-        unsigned int residualAdaptationWeight:1;
-        unsigned int modelTrainingStatusCode:1;
-        unsigned int numFiniteStateTransducerArcs:1;
-        unsigned int numFiniteStateTransducerStates:1;
-    } _has;
-    _Bool _hasConfigName;
 }
 
 - (unsigned long long);
@@ -57,7 +36,7 @@
 - (float);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)C;
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -84,7 +63,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)kXPCIAPAppAuthCertDataStr;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -97,26 +76,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *configName; // @synthesize configName=_configName;
-@property(nonatomic) unsigned long long conversionDurationInMs; // @synthesize conversionDurationInMs=_conversionDurationInMs;
-@property(nonatomic) _Bool hasConfigName; // @synthesize hasConfigName=_hasConfigName;
-@property(nonatomic) _Bool hasConversionDurationInMs;
-@property(nonatomic) _Bool hasModelTrainingStatusCode;
-@property(nonatomic) _Bool hasNgramOrder;
-@property(nonatomic) _Bool hasNumFiniteStateTransducerArcs;
-@property(nonatomic) _Bool hasNumFiniteStateTransducerStates;
-@property(nonatomic) _Bool hasOptimizationDurationInMs;
-@property(nonatomic) _Bool hasResidualAdaptationWeight;
-@property(nonatomic) _Bool hasTotalDurationInMs;
-@property(nonatomic) _Bool hasTrainingDurationInMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int modelTrainingStatusCode; // @synthesize modelTrainingStatusCode=_modelTrainingStatusCode;
-@property(nonatomic) unsigned int ngramOrder; // @synthesize ngramOrder=_ngramOrder;
-@property(nonatomic) unsigned int numFiniteStateTransducerArcs; // @synthesize numFiniteStateTransducerArcs=_numFiniteStateTransducerArcs;
-@property(nonatomic) unsigned int numFiniteStateTransducerStates; // @synthesize numFiniteStateTransducerStates=_numFiniteStateTransducerStates;
-@property(nonatomic) unsigned long long optimizationDurationInMs; // @synthesize optimizationDurationInMs=_optimizationDurationInMs;
-@property(nonatomic) float residualAdaptationWeight; // @synthesize residualAdaptationWeight=_residualAdaptationWeight;
-@property(nonatomic) unsigned long long totalDurationInMs; // @synthesize totalDurationInMs=_totalDurationInMs;
-@property(nonatomic) unsigned long long trainingDurationInMs; // @synthesize trainingDurationInMs=_trainingDurationInMs;
 
 @end
 

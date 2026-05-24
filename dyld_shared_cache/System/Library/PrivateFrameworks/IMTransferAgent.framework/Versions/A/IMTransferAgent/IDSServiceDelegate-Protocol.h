@@ -5,5 +5,13 @@
 //
 
 @protocol IDSServiceDelegate
+
+@optional
+- (void)P;
+- (void);
+- (void);
+- (void)+M;
+- (void)ntroller;
+- (void)So17OS_dispatch_groupC;
 @end
 

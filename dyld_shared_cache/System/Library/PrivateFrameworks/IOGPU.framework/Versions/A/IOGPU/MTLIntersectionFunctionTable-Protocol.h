@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MTLVisibleFunctionTable;
+
 @protocol MTLIntersectionFunctionTable
+- (void);
+- (void)SearchField;
+- (void)stringByApplyingTransform:(id <MTLVisibleFunctionTable>)arg1 reverse:(unsigned long long)arg2;
+- (void);
+- (void)XSComplexTypeDefinition;
 
 // Remaining properties
 @property(readonly) struct MTLResourceID gpuResourceID;

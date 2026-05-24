@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMPBMetadataService
 {
     NSString *_svcDescription;
-    NSString *_uuidStr;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)irreverence;
 - (id);
 - (id);
 - (void)wÄw¼yz¼zP{À|¼}ä};

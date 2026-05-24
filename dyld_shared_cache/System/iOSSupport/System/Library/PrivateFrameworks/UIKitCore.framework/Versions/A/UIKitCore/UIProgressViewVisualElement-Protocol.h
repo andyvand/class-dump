@@ -8,6 +8,7 @@
 
 @protocol UIProgressViewVisualElement
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIProgressView *progressControlView;

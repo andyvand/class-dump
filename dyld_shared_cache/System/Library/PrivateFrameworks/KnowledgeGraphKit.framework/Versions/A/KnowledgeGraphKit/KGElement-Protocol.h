@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 @protocol KGElement
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long identifier;
-@property(readonly, copy, nonatomic) NSSet *labels;
-@property(readonly, copy, nonatomic) NSDictionary *properties;
 @end
 

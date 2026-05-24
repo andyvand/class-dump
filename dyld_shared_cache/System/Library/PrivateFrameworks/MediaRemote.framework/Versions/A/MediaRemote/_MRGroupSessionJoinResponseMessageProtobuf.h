@@ -9,26 +9,24 @@
 @interface _MRGroupSessionJoinResponseMessageProtobuf
 {
     NSString *_participantIdentifier;
-    _Bool _approved;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
-- (id);
-- (void)entifier;
+- (id)disablePersistentIDLoggingVisionOSOptOut;
+- (void)_managedConfigurationDeviceIdentifier;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool approved; // @synthesize approved=_approved;
 @property(retain, nonatomic) NSString *participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
 
 @end

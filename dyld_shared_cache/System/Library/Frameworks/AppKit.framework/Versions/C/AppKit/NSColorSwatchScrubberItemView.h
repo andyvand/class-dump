@@ -6,37 +6,30 @@
 
 #import <AppKit/NSScrubberItemView.h>
 
-@class NSColor, NSColorDisplayView, NSRoundedRectView;
+@class NSColorDisplayView;
 
 @interface NSColorSwatchScrubberItemView : NSScrubberItemView
 {
     NSColorDisplayView *_colorView;
-    NSRoundedRectView *_roundedRectView;
-    _Bool _isLeftmostItem;
-    _Bool _isRightmostItem;
-    _Bool _forceOutline;
 }
 
-+ (id);
++ (id)is intended, please reach out to cfnetwork / duetactivityscheduler;
 - (void);
 - (void);
 - (void);
+- (_Bool)backgroundTask:didReceiveResponse:transactionMetrics:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)widthAnchor;
-- (id)t:(struct CGRect)arg1 withCurrentSearchString: /* Error: Ran out of types for this method. */;
+- (id)browser:(struct CGRect)arg1 shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
 - (void)ô;
-- (void)essage;
+- (void)ScreensDidSleepMessage;
 
 // Remaining properties
-@property(copy) NSColor *color;
-@property _Bool forceOutline; // @synthesize forceOutline=_forceOutline;
 @property _Bool isLeftmostItem; // @synthesize isLeftmostItem=_isLeftmostItem;
-@property _Bool isRightmostItem; // @synthesize isRightmostItem=_isRightmostItem;
 
 @end
 

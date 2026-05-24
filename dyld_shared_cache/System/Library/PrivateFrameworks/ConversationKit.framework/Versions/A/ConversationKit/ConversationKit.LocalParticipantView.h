@@ -9,28 +9,10 @@
 @interface ConversationKit.LocalParticipantView
 {
     id participantView;
-    ConversationKit.LocalParticipantControlsView *controlsView;
-    id buttonShelfHost;
-    id buttonShelfView;
-    id countdownLabel;
-    id delegate;
-    id dragEnabled;
-    id blurEnabled;
-    id backgroundReplacementEnabled;
-    id trackingArea;
-    id requiresControlsHidden;
-    id requiresViewHidden;
-    id isExpanded;
-    id controlsHiddenByViewModel;
-    id isInRoster;
-    id aspectRatio;
-    id localParticipantVideoOrientation;
-    id shelfPiPControlsAlpha;
-    id _videoMessagingState;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -41,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) ConversationKit.LocalParticipantControlsView *controlsView; // @synthesize controlsView;
-@property(nonatomic, readonly) _Bool mouseDownCanMoveWindow;
 
 @end
 

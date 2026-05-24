@@ -9,7 +9,6 @@
 @interface AKCarrierBundlePhoneCertificate
 {
     NSString *_phoneCertificate;
-    long long _slotID;
 }
 
 - (long long);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *phoneCertificate; // @synthesize phoneCertificate=_phoneCertificate;
-@property(nonatomic) long long slotID; // @synthesize slotID=_slotID;
 
 @end
 

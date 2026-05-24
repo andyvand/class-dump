@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SABinaryLoadInfoToDisplay : SABinaryLoadInfo
 {
     SAExclave *_exclave;
-    _Bool _isInKernelAddressSpace;
-    _Bool _isZerothAndOnlySegment;
-    unsigned long long _highestOffset;
 }
 
 - (void);
@@ -28,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long highestOffset; // @synthesize highestOffset=_highestOffset;
-@property _Bool isZerothAndOnlySegment; // @synthesize isZerothAndOnlySegment=_isZerothAndOnlySegment;
 
 @end
 

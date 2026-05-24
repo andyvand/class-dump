@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterAccessViolationControlOperation
 {
     long long _operation;
 }
 
-+ (id);
++ (id)momentIdentifiers;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)alWithUser:(struct _NSZone *)arg1;
+- (id)isAccountEqualWithUser:(struct _NSZone *)arg1;
 - (long long)èþ]~&,èþ=~&èþ~&Ïèþm~&ÏèþM~&Péþm~&$Ïèþ;
 - (void);
 - (id)ÿöú>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 
 @end
 

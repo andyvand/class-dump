@@ -7,26 +7,22 @@
 @class UIDatePicker, _UIDatePickerDataModel;
 
 @protocol _UIDatePickerViewComponent
+- (void)16I24Q28Q36I44;
+- (void);
+- (struct CGSize)SString"32@0:(struct CGSize)arg1 8@"IMAssistiveAccessCommunicationLimitManager"16@"NSString"24;
+- (UIDatePicker *)attachmentDownloadDirectoryURL;
 - (void)¡Ð!ÔAùQ[1Â0@ù
 × ;
 - (_UIDatePickerDataModel *)rnerRadius"b1"hasCustomizedBackgroundInsets"b1"hasCustomizedEdgesAddingLayoutMarginsToBackgroundInsets"b1"hasCustomizedBackgroundColorOrMode"b1"hasCustomizedVisualEffect"b1"hasCustomizedStrokeColorOrMode"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1};
-- (struct CGSize)ributedStrings:addingSeparation: /* Error: Ran out of types for this method. */;
+- (struct CGSize)combineAttributedStrings:addingSeparation: /* Error: Ran out of types for this method. */;
 
 @optional
-- (double)urationCSg;
+- (void);
+- (_Bool)o;
+- (void);
+- (double)So23FBSDisplayConfigurationCSg;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;
-@property(readonly, nonatomic) double contentWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) _UIDatePickerDataModel *data;
 @property(nonatomic) __weak UIDatePicker *datePicker;
-@property(readonly, nonatomic) long long datePickerStyle;
-@property(nonatomic) double timeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
 @end
 

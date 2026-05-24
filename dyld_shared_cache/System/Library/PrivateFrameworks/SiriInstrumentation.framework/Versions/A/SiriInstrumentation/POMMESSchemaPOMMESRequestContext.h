@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESRequestEnded, POMMESSchemaPOMMESRequestFailed, POMMESSchemaPOMMESRequestStarted, POMMESSchemaPOMMESRequestUnableToHandle;
+@class POMMESSchemaPOMMESRequestStarted;
 
 @interface POMMESSchemaPOMMESRequestContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESRequestStarted *_startedOrChanged;
-    POMMESSchemaPOMMESRequestEnded *_ended;
-    POMMESSchemaPOMMESRequestFailed *_failed;
-    POMMESSchemaPOMMESRequestUnableToHandle *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -33,8 +25,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)Trace handle;
+- (void)nStatusClass(void)_block_invoke;
 - (void);
 - (_Bool);
 - (id);
@@ -43,29 +35,20 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ASDDiagnosticServiceProtocol><NSXPCProxyCreating>"8@"NSError"16;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Predicate;
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id);
+- (id)_response;
 - (id),V_isInterpretableAsUniversalCommand;
-- (void)I_VOCABULARY;
+- (void)FLOWMEDIAPLAYERENDPOINT_SIRI_VOCABULARY;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESRequestUnableToHandle *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) POMMESSchemaPOMMESRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

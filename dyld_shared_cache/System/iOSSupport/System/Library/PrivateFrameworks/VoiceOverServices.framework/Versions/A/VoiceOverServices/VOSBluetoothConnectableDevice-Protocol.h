@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol VOSBluetoothConnectableDevice
-- (_Bool)tCommandSystemActivateSpeakScreen;
+- (void)z;
+- (_Bool);
+- (NSString *)SCRCategories_SCRCategoryContent_SCRCategoryIsEnabled;
+- (void);
+- (_Bool)VOTEventCommandSystemActivateSpeakScreen;
 @end
 

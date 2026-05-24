@@ -6,8 +6,6 @@
 
 #import <AppKit/NSScrubberItemLayoutDiscrete.h>
 
-@class NSScrubberLayout, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSScrubberItemLayoutDiscreteWithLens : NSScrubberItemLayoutDiscrete
 {
@@ -17,22 +15,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)ng;
+- (id)EnTr_Activation_Associate;
+- (_Bool)currentDiskUsage;
+- (void)_cacheLookupEndTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSScrubberLayout *scrubberLayout;
 @property struct CGSize selectionLensThreshold; // @synthesize selectionLensThreshold=_lensThreshold;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsTrackingPosition;
 
 @end
 

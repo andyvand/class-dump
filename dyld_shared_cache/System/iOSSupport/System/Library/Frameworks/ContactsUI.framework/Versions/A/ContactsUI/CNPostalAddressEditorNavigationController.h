@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)eviousInteractivePopGestureEnabled;
+- (void)4@0:(id)arg1 8B16s20;
+- (void)_previousInteractivePopGestureEnabled;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNPostalAddressEditorDelegate> addressEditorDelegate; // @synthesize addressEditorDelegate=_addressEditorDelegate;

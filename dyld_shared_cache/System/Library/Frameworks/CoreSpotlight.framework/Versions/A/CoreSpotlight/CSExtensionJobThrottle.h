@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CSExtensionJobThrottle
 {
     unsigned long long _maxRetryCount;
-    unsigned long long _minSecondsBetweenRetries;
-    unsigned long long _maxSecondsBetweenRetries;
-    unsigned long long _minSecondsBetweenRetriesUnderMemoryPressure;
-    unsigned long long _maxSecondsBetweenRetriesUnderMemoryPressure;
-    NSMutableDictionary *_countersByBundleID;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)k;
 - (id);
 - (void);
 - (unsigned long long);
@@ -33,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *countersByBundleID; // @synthesize countersByBundleID=_countersByBundleID;
 @property(nonatomic) unsigned long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(nonatomic) unsigned long long maxSecondsBetweenRetries; // @synthesize maxSecondsBetweenRetries=_maxSecondsBetweenRetries;
-@property(nonatomic) unsigned long long maxSecondsBetweenRetriesUnderMemoryPressure; // @synthesize maxSecondsBetweenRetriesUnderMemoryPressure=_maxSecondsBetweenRetriesUnderMemoryPressure;
-@property(nonatomic) unsigned long long minSecondsBetweenRetries; // @synthesize minSecondsBetweenRetries=_minSecondsBetweenRetries;
-@property(nonatomic) unsigned long long minSecondsBetweenRetriesUnderMemoryPressure; // @synthesize minSecondsBetweenRetriesUnderMemoryPressure=_minSecondsBetweenRetriesUnderMemoryPressure;
 
 @end
 

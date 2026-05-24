@@ -4,24 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountHandle, IDSAccount, NSArray, NSDictionary, NSSet, NSString;
+@class HMDAccountHandle, NSArray, NSDictionary, NSObject, NSSet, NSString;
+@protocol HMDIDSSession, OS_dispatch_queue;
 
 @protocol HMDIDSService
-- (NSSet *)unks: /* Error: Ran out of types for this method. */;
+- (long long)uteTransitSummary"24;
+- (long long)gationListener"16@"GEONavigationRouteTransitSummary"24;
+- (HMDAccountHandle *)24i32;
+- (HMDAccountHandle *)6@0:8@"GEONavigationListener"16Q24i32 /* Error: Ran out of types for this method. */;
+- (_Bool)4@0:8@"NSNotification"16 /* Error: Ran out of types for this method. */;
+- (id <HMDIDSSession>)@"MSPContainer";
+- (NSArray *)ainer"16;
+- (_Bool)#;
+- (void)activeConversationForCall:(NSObject<OS_dispatch_queue> *)arg1;
+- (_Bool):(NSDictionary *)arg1 ];
+- (NSSet *)chunks: /* Error: Ran out of types for this method. */;
 - (NSArray *)tural lighting because this device is not primary resident;
 - (_Bool)y:(NSDictionary *)arg1 %@;
 - (NSString *)ed handling of removed account %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *accounts;
-@property(readonly, copy, nonatomic) NSArray *devices;
-@property(readonly, nonatomic, getter=hmd_isActive) _Bool hmd_active;
-@property(readonly, copy) NSArray *hmd_handles;
-@property(readonly, copy) HMDAccountHandle *hmd_preferredHandle;
-@property(readonly, copy) HMDAccountHandle *hmd_preferredSessionHandle;
-@property(readonly, nonatomic) long long hmd_registrationError;
-@property(readonly, nonatomic) long long hmd_registrationStatus;
-@property(readonly, retain, nonatomic) IDSAccount *iCloudAccount;
-@property(readonly, copy, nonatomic) NSString *serviceIdentifier;
 @end
 

@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListRowView
 {
     id delegate;
-    id forceBottomSeparatorHidden;
-    id swipeActionDismissalObserver;
-    id editModeState_cached;
-    id nextRowEditModeState_cached;
-    id isInContentsFacetForSelectedBackground;
-    id bottomSeparator;
-    id separatorLeading;
 }
 
 - (void);
@@ -22,8 +15,8 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
-- (struct CGRect);
+- (id):authors:publishDate:isPaid:difficulty:difficultyDescription:relatedPuzzleIDs:thumbnailSmallImageAssetHandle:thumbnailLargeImageAssetHandle:loadDate:teaserClue:teaserAnswer:teaserInfo:teaserDirection:teaserNumber:language:blockedStorefrontIDs:allowedStorefrontIDs:minimumNewsVersion:showInfoModalOnFirstPlay:ignoreFromStatsAndStreaks:isDeprecated:isDraft:lastModifiedDate: /* Error: Ran out of types for this method. */;
+- (struct CGRect)apiToken;
 - (id);
 - (void);
 - (id);
@@ -34,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long interiorBackgroundStyle;
-@property(nonatomic) _Bool nextRowSelected;
-@property(nonatomic) _Bool selected;
 
 @end
 

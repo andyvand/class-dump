@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)ould not finish downloading because we failed to retrieve mirror files or any active downloads for guids:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AMSThreadSafeDictionary;
 - (void);
-- (id)ifestSuffix;
+- (id)_manifestSuffix;
 
 // Remaining properties
 @property(readonly) NSData *digest; // @synthesize digest=_digest;

@@ -7,7 +7,7 @@
 @protocol _UIRemoteKeyboardControllerDelegate;
 
 @protocol _UIRemoteKeyboardViewSource
-- (void)onditions;
+- (void)activationConditions;
 - (_Bool)oller doesn't support state restoration, so skipping it and marking that we should ignore snapshot:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)d.fill;
 - (void)¾7;
@@ -17,7 +17,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIRemoteKeyboardControllerDelegate> controllerDelegate;
-@property(nonatomic) _Bool dontDismissReachability;
-@property(readonly, nonatomic) _Bool isOnScreenRotating;
 @end
 

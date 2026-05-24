@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, SMSessionManagerState;
+@class SMSessionManagerState;
 
 @interface SMWatchdogRecord
 {
     SMSessionManagerState *_state;
-    double _timeout;
-    NSDate *_startDate;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)Base;
 - (double)¢;
-- (void)te;
+- (void)startDate;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, nonatomic) SMSessionManagerState *state; // @synthesize state=_state;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

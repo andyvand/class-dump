@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)Tokenizer;
 + (id);
 - (unsigned long long);
 

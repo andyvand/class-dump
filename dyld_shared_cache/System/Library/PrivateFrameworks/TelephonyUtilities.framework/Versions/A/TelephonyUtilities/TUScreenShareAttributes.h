@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID, NSValue;
-
 @interface TUScreenShareAttributes
 {
     _Bool _windowed;
-    long long _deviceFamily;
-    long long _deviceHomeButtonType;
-    NSNumber *_displayID;
-    NSNumber *_displayScale;
-    NSNumber *_frameRate;
-    NSValue *_originalResolution;
-    NSNumber *_scaleFactor;
-    NSNumber *_cornerRadius;
-    long long _style;
-    NSUUID *_windowUUID;
-    NSValue *_systemRootLayerTransform;
 }
 
 + (id);
-+ (long long);
++ (long long)�;
 + (long long);
 + (id);
-+ (_Bool);
++ (_Bool)X;
 + (id);
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,36 +42,19 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id) P;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void):(id)arg1 %@
+;
 - (id);
-- (void)ForRecentCalls:completion: /* Error: Ran out of types for this method. */;
+- (void)updateMetadataForRecentCalls:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long deviceFamily; // @synthesize deviceFamily=_deviceFamily;
-@property(nonatomic) long long deviceHomeButtonType; // @synthesize deviceHomeButtonType=_deviceHomeButtonType;
-@property(retain, nonatomic) NSNumber *displayID; // @synthesize displayID=_displayID;
-@property(retain, nonatomic) NSNumber *displayScale; // @synthesize displayScale=_displayScale;
-@property(retain, nonatomic) NSNumber *frameRate; // @synthesize frameRate=_frameRate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSValue *originalResolution; // @synthesize originalResolution=_originalResolution;
-@property(retain, nonatomic) NSNumber *scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSValue *systemRootLayerTransform; // @synthesize systemRootLayerTransform=_systemRootLayerTransform;
-@property(retain, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
-@property(nonatomic, getter=isWindowed) _Bool windowed; // @synthesize windowed=_windowed;
 
 @end
 

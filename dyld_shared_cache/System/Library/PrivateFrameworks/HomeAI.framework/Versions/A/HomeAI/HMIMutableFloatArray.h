@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSString;
+@class NSData, NSMutableData;
 
 @interface HMIMutableFloatArray
 {
@@ -13,40 +13,30 @@
 
 + (id)C;
 - (float *);
-- (float);
-- (id);
+- (float)V;
+- (id);
 - (const float *);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)h;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)v;
+- (id)rtl;
 - (void);
 - (unsigned long long);
-- (void);
+- (void).;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, retain, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) const float *floats;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float *mutableFloats;
-@property(readonly) Class superclass;
 
 @end
 

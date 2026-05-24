@@ -7,22 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerViewController
 {
     id styler;
-    id eventHandler;
-    id sessionManager;
-    id issue;
-    id pageViewController;
-    id pageBlueprintProvider;
-    id paywallFactory;
-    id paywall;
-    id paywallViewController;
-    id eventManager;
-    id issueCoverView;
-    id barVisibilityAnimator;
-    id pageSheetPresentationObserver;
-    id menuProvider;
-    id tracker;
-    id commands;
-    id _windowTitle;
 }
 
 - (void);
@@ -31,12 +15,12 @@
 - (id);
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)eReadingHistory;
+- (void)issueReadingHistory;
 - (void);
 
 @end

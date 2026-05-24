@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, RBSAssertion, RBSProcessHandle;
-
 @interface FUSBProcess
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lock_windows;
-    NSString *_description;
-    unsigned int _lock_highestState;
-    RBSAssertion *_lock_stateAssertion;
-    _Bool _application;
-    int _pid;
-    RBSProcessHandle *_handle;
 }
 
 + (void);
@@ -26,21 +17,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)initWithOperator:(id)arg1 forDynamicServiceClass:forNotificationType:withMatchBlock: /* Error: Ran out of types for this method. */;
+- (void)trimming filter %@;
 - (_Bool);
 - (void);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isApplication) _Bool application; // @synthesize application=_application;
-@property(readonly, nonatomic) RBSProcessHandle *handle; // @synthesize handle=_handle;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end

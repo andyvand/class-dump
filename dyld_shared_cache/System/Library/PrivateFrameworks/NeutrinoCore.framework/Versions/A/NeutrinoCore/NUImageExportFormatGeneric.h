@@ -6,30 +6,26 @@
 
 #import <NeutrinoCore/NUImageExportFormat.h>
 
-@class NSDictionary, NSString, NUPixelFormat;
+@class NSString;
 
 @interface NUImageExportFormatGeneric : NUImageExportFormat
 {
     NSString *_fileType;
-    NUPixelFormat *_pixelFormat;
-    NSDictionary *_options;
 }
 
+- (void)?;
+- (id)-;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id),Vdelegates;
+- (void)with error:(id)arg1 %@;
 - (id);
 - (void);
 - (void)Size=dd}}48;
-- (id)getSamplePoints;
+- (id)_targetSamplePoints;
 
 // Remaining properties
 @property(copy) NSString *fileType; // @synthesize fileType=_fileType;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

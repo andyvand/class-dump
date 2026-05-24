@@ -6,8 +6,6 @@
 
 #import <CoreMediaStream/MSStreamsProtocol.h>
 
-@class NSArray;
-
 @interface MSPublishStreamsProtocol : MSStreamsProtocol
 {
     struct __MSPSPCContext {
@@ -17,30 +15,23 @@
         CDUnknownFunctionPointerType didReceiveServerSideConfigurationVersionCallback;
         CDUnknownFunctionPointerType didReceiveRetryAfterCallback;
     } _context;
-    NSArray *_assetCollectionsInFlight;
-    struct __MSPSPCUCContext {
-        struct __MSSPCContext _super;
-        CDUnknownFunctionPointerType finishedCallback;
-        CDUnknownFunctionPointerType authFailedCallback;
-        CDUnknownFunctionPointerType didReceiveServerSideConfigurationVersionCallback;
-    } _UCContext;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)lue:(id)arg1 %@;
+- (void)ference was nil when determining camera recording analysis nodes;
+- (void)napshot session with HMDCameraSnapshotRemoteStreamReceiver:no remote access device /* Error: Ran out of types for this method. */;
+- (id)aySender;
+- (id)ing a snapshot session with HMDCameraSnapshotRemoteRelaySender;
+- (_Bool)_t}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteRelayReceiver:(id)arg1 accessory reference is nil;
+- (void){public}@[%{public,uuid_t}.16P] Cannot take snapshot because accessory is unreachable remote and remote snapshots are unsupported;
+- (void)pshot via relay because accessory is unreachable;
+- (void)ecause accessory is unreachable;
+- (id)%@;
 - (void);
 - (id);
-- (void);
+- (void)*	;
+- (id);
+- (void);
 - (void);
 
 @end

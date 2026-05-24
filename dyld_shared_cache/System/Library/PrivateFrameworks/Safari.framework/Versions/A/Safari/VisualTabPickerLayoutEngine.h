@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VisualTabPickerLayoutEngine
 {
     double _tileWidth;
-    double _tileHeight;
-    double _horizontalMargin;
-    double _horizontalInset;
-    struct CGRect _bounds;
-    double _tileHeightToWidthRatio;
-    _Bool _leftToRight;
-    id <VisualTabPickerLayoutEngineInputProvider> _inputProvider;
-    unsigned long long _numberOfTiles;
-    unsigned long long _maximumTilesPerRow;
 }
 
 - (unsigned long long);
@@ -38,8 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <VisualTabPickerLayoutEngineInputProvider> inputProvider; // @synthesize inputProvider=_inputProvider;
-@property(readonly, nonatomic) unsigned long long maximumTilesPerRow; // @synthesize maximumTilesPerRow=_maximumTilesPerRow;
-@property(readonly, nonatomic) unsigned long long numberOfTiles; // @synthesize numberOfTiles=_numberOfTiles;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_Medication;
 
 @end
 

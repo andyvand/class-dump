@@ -7,14 +7,13 @@
 @interface TeaUI.ScalableImageView
 {
     id imageView;
-    id scalability;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)feedNavImageHQ;
 - (long long);
-- (id);
+- (id)setThumbnailWidgetLQMetadata:(struct CGRect)arg1;
 - (void)ä®ýÿdÿÿ;
 
 // Remaining properties

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDLogicalDeviceContext, CKDThrottleTableGroup, CKThrottleTable;
+@class CKDLogicalDeviceContext, CKDThrottleTableGroup;
 
 @interface CKDThrottleManager
 {
     CKDThrottleTableGroup *_throttleTableGroup;
-    CKThrottleTable *_throttleTable;
-    CKDLogicalDeviceContext *_deviceContext;
 }
 
-+ (id);
++ (id)h;
 + (id);
 + (id);
 - (void);
@@ -24,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id)akeProgressForMMCSItem:inMemory: /* Error: Ran out of types for this method. */;
+- (id)_didMakeProgressForMMCSItem:inMemory: /* Error: Ran out of types for this method. */;
 - (void)T,°¼±äô;
 - (_Bool)%@;
 

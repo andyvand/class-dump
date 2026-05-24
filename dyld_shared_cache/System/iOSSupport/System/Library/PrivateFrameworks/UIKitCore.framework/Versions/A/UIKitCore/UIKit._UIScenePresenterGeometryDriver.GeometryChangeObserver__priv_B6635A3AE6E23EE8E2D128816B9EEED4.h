@@ -9,7 +9,7 @@
     id driver;
 }
 
-- (void);
+- (void)ActivationIdentifier;
 
 @end
 

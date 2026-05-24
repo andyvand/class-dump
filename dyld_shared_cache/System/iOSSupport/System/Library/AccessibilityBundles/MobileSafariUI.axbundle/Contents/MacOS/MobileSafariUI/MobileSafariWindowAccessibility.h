@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)CPMessageGridItemConfiguration;
 + (id);
 + (void);
 - (id);

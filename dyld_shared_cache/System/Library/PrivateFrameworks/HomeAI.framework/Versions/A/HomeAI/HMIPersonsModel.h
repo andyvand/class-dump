@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIPersonsModelSummary, NSString, NSUUID, VNPersonsModel;
+@class VNPersonsModel;
 
 @interface HMIPersonsModel
 {
     _Bool _externalLibrary;
-    VNPersonsModel *_visionPersonsModel;
-    NSUUID *_homeUUID;
-    NSUUID *_sourceUUID;
 }
 
 + (id).
@@ -25,17 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isExternalLibrary) _Bool externalLibrary; // @synthesize externalLibrary=_externalLibrary;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
-@property(readonly) HMIPersonsModelSummary *summary;
-@property(readonly) Class superclass;
 @property(readonly) VNPersonsModel *visionPersonsModel; // @synthesize visionPersonsModel=_visionPersonsModel;
 
 @end

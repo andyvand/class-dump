@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)VCConnectionManager_DidUpdateNetworkCondition_block_invoke;
 
 @end
 

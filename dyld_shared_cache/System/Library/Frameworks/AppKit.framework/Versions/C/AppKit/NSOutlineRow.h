@@ -12,27 +12,27 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ificate;
+- (void)LSessionConfiguration",R,W;
+- (id)connectionWithRequest:delegate: /* Error: Ran out of types for this method. */;
+- (_Bool)"NSMutableArray",R,N;
+- (_Bool)_preventsIdleSleepOnceConnected;
+- (_Bool)backgroundTask:willPerformHTTPRedirection:withNewRequest:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)dentifier;
+- (_Bool)allHeaderFields;
+- (_Bool)ype;
+- (unsigned long long)_onqueue_strippedMutableRequest;
+- (id)_initWithProperties:(struct CGPoint)arg1 fromString: /* Error: Ran out of types for this method. */;
+- (_Bool)sContext;
+- (id)__NSCFURLProxySessionConnection;
+- (id)NSURLSessionTask;
+- (id)NSURLSessionWebSocketMessage;
+- (id)NSURLSessionTaskLocalHTTPAuthenticator;
+- (id)__NSCFTCPIO_BlockCallbacks_Referent;
+- (long long)d:%02d:%02d.%03d /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 
 @end

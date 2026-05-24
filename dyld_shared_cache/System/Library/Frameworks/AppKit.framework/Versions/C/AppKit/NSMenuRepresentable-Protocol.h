@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSView;
+@class NSObject;
 @protocol NSMenuRepresentationDelegate, NSMenuVisibleIndexDictionary;
 
 @protocol NSMenuRepresentable
+- (NSObject<NSMenuRepresentationDelegate> *);
+- (long long)DeviceSupportsUnconditionalPluckItCollection;
+- (void)CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MobileGestalt.c;
 - (struct CGRect);
-- (NSObject<NSMenuVisibleIndexDictionary> *)mageOfSize: /* Error: Ran out of types for this method. */;
-- (void)torsField;
-- (void);
+- (NSObject<NSMenuVisibleIndexDictionary> *)pinnedTabDragImageOfSize: /* Error: Ran out of types for this method. */;
+- (void)_indicatorsField;
+
+@optional
+- (void)R[;
 
 // Remaining properties
-@property(readonly) NSView *backingView;
 @property struct CGRect frame;
-@property(readonly) NSObject<NSMenuVisibleIndexDictionary> *indexes;
-@property(readonly) long long numberOfVisibleItems;
-@property(nonatomic) __weak NSObject<NSMenuRepresentationDelegate> *representationDelegate;
-@property(readonly) struct CGRect visibleRect;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface CRKFetchCourseInvitationsResultObject
 {
     NSArray *_courseInvitations;
-    NSSet *_acceptedInvitationIdentifiers;
 }
 
 + (_Bool);
@@ -17,12 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *acceptedInvitationIdentifiers; // @synthesize acceptedInvitationIdentifiers=_acceptedInvitationIdentifiers;
 @property(retain, nonatomic) NSArray *courseInvitations; // @synthesize courseInvitations=_courseInvitations;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RKMontrealModel, RKNLEventTokenizer;
+@class RKMontrealModel;
 
 @interface RKEventIdentifier
 {
     RKMontrealModel *_model;
-    RKNLEventTokenizer *_tokenizer;
-    const void *_ioMappings;
-    int _outputPermutation[5];
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
 
 @end

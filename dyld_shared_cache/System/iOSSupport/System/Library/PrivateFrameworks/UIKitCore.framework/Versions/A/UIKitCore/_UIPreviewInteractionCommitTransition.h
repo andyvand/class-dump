@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id)72@0:(id)arg1 8@16@24B32B36@40@48@56@64;
+- (id)processMessageForSending:toChat:style:allowWatchdog:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ocol>",N,R;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)So19NSMutableDictionaryC;
+- (void)File doesn't exist at source path (%@), failing transcoding;
 - (void);
-- (void);
-- (id)ardEdges;
+- (id)useHardEdges;
 - (void)þý´13ÐÈ¦þ;
 
 // Remaining properties

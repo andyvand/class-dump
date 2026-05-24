@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentBroadcastCache
 {
     id limit;
-    id payloads;
 }
 
 @end

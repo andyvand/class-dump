@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIActivityIndicatorView, UILabel;
+@class UILabel;
 
 @interface LoadingLabel
 {
     UILabel *_label;
-    UIActivityIndicatorView *_activityIndicator;
 }
 
 - (void);

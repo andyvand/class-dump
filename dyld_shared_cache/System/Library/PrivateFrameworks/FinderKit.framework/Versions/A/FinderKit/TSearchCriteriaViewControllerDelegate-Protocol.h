@@ -5,5 +5,6 @@
 //
 
 @protocol TSearchCriteriaViewControllerDelegate
+- (_Bool)R;
 @end
 

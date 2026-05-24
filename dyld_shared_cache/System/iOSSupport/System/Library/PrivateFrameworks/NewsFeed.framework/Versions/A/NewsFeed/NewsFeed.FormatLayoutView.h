@@ -4,42 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NewsFeed.FormatLayoutView
 {
     id identifier;
-    id debugButton;
-    id onSizeInvalidation;
-    id onKeyboardWillShow;
-    id onKeyboardWillHide;
-    id accessibilityRenderer;
-    id feedItem;
-    id shouldCancelContextMenu;
-    id shouldCancelDrag;
-    id viewAnimations;
-    id token;
-    id isDirty;
-    id viewContainers;
-    id scrollObservers;
-    id loadAwareObservers;
-    id layoutObservers;
-    id viewControllers;
-    id viewKey;
-    id viewsByName;
-    id tapAction;
-    id tapGesture;
-    id visualEffectContainer;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void)ؒ;
+- (id)`;
 - (long long);
 - (id);
 - (void);
@@ -50,32 +27,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)&=+$,;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id)¡î°!tDùñþÐ1Â0@ù
 × ;
 - (_Bool);
 - (void)|;
 - (_Bool);
-- (void)ntage;
-- (_Bool)on;
+- (void)stepPercentage;
+- (_Bool)geoLocation;
 - (id);
 - (void);
 - (id);Ì+ÿþ%;à+ÿþ;
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContainerType;
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic, copy) NSString *accessibilityHint;
-@property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityLanguage;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic) _Bool isAccessibilityElement;
-@property(nonatomic, copy) NSString *ts_accessibilityElementHelp;
 
 @end
 

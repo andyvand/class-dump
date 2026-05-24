@@ -20,9 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)4;
+- (unsigned long long)etion callback.
+;
+- (_Bool)T;
 - (_Bool);
 - (void);
 - (id);

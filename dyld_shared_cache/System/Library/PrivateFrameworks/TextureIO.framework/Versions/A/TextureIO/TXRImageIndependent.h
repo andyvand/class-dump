@@ -9,8 +9,6 @@
 @interface TXRImageIndependent : TXRImage
 {
     unsigned long long _pixelFormat;
-    unsigned long long _alphaInfo;
-    id _dimensions;
 }
 
 - (id);
@@ -20,15 +18,13 @@
 - (_Bool);
 - (unsigned long long);
 - (struct CGImage *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alphaInfo; // @synthesize alphaInfo=_alphaInfo;
-@property(readonly, nonatomic) id dimensions; // @synthesize dimensions=_dimensions;
 @property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end

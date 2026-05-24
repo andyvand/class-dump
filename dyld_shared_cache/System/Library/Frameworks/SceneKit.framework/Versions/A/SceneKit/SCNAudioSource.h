@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFile, AVAudioPCMBuffer, NSString, NSURL;
+@class AVAudioFile;
 
 @interface SCNAudioSource
 {
     AVAudioFile *_audioFile;
-    AVAudioPCMBuffer *_audioBuffer;
-    NSURL *_audioURL;
-    NSString *_audioName;
-    _Bool _loops;
-    _Bool _shouldStream;
-    _Bool _loaded;
-    _Bool positional;
-    float volume;
-    float rate;
-    float reverbBlend;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)A;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (id);
 - (void);
@@ -43,16 +33,16 @@
 - (void);
 - (float);
 - (id);
-- (double);
-- (long long);
+- (double)kEventTriggerExecutionSessionIdentifierKey;
+- (long long)sessionWithConfiguration:delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (float);
+- (id)NULL DEFAULT 0, cloud_is_curator_playlist INTEGER NOT NULL DEFAULT 0, cloud_author_store_id INTEGER NOT NULL DEFAULT 0, cloud_author_display_name TEXT NOT NULL DEFAULT '', cloud_author_store_url TEXT NOT NULL DEFAULT '', cloud_min_refresh_interval INTEGER NOT NULL DEFAULT 0, cloud_last_update_time INTEGER NOT NULL DEFAULT 0, cloud_user_count INTEGER NOT NULL DEFAULT 0, cloud_global_play_count INTEGER NOT NULL DEFAULT 0, cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, keep_local_status_reason INTEGER NOT NULL DEFAULT 0, keep_local_constraints INTEGER NOT NULL DEFAULT 0, external_vendor_identifier TEXT NOT NULL DEFAULT '', external_vendor_display_name TEXT NOT NULL DEFAULT '', external_vendor_container_tag TEXT NOT NULL DEFAULT '', is_external_vendor_playlist INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, cloud_is_sharing_disabled INTEGER NOT NULL DEFAULT 0, cloud_version_hash TEXT NOT NULL DEFAULT '', date_played_local INTEGER NOT NULL DEFAULT 0, cloud_author_handle TEXT NOT NULL DEFAULT '', cloud_universal_library_id TEXT NOT NULL DEFAULT '', should_display_index INTEGER NOT NULL DEFAULT 0, date_downloaded INTEGER NOT NULL DEFAULT 0, category_type_mask INTEGER NOT NULL DEFAULT 0, grouping_sort_key TEXT NOT NULL DEFAULT '', traits INTEGER NOT NULL DEFAULT 0, liked_state_changed_date INTEGER NOT NULL DEFAULT 0, is_collaborative INTEGER NOT NULL DEFAULT 0, collaborator_invite_options INTEGER NOT NULL DEFAULT 0, collaborator_permissions INTEGER NOT NULL DEFAULT 0, collaboration_invitation_link TEXT NOT NULL DEFAULT '', cover_artwork_recipe TEXT NOT NULL DEFAULT '', collaboration_invitation_url_expiration_date INTEGER NOT NULL DEFAULT 0 ,collaboration_join_request_pending INTEGER NOT NULL DEFAULT 0 ,collaborator_status INTEGER NOT NULL DEFAULT 0);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)newCounterSampleBufferWithDescriptor:error: /* Error: Ran out of types for this method. */;
 - (id)"magnificationFilter" :"nearest",
             "minificationFilter" :"nearest"
           }
@@ -101,17 +91,12 @@
     }
   }
 } /* Error: Ran out of types for this method. */;
-- (void)extSetupFramebuffer;
-- (float)ecomputedLightingEnvironmentWillDie;
+- (void)C3DRendererContextSetupFramebuffer;
+- (float)kC3DNotificationPrecomputedLightingEnvironmentWillDie;
 - (void)7º;
 
 // Remaining properties
-@property(nonatomic) _Bool loops; // @synthesize loops=_loops;
 @property(nonatomic, getter=isPositional) _Bool positional; // @synthesize positional;
-@property(nonatomic) float rate; // @synthesize rate;
-@property(nonatomic) float reverbBlend; // @synthesize reverbBlend;
-@property(nonatomic) _Bool shouldStream; // @synthesize shouldStream=_shouldStream;
-@property(nonatomic) float volume; // @synthesize volume;
 
 @end
 

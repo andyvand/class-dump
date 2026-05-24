@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSDate, NSString;
+@class NSString;
 
 @interface UnknownClass (FCReadingHistory)
 + (int);
@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,40 +46,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *articleID;
-@property(nonatomic) unsigned long long articleLikingStatus;
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(copy, nonatomic) NSString *clusterID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceID;
-@property(copy, nonatomic) NSDate *firstSeenAt;
-@property(copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(nonatomic) _Bool hasArticleBeenConsumed;
-@property(nonatomic) _Bool hasArticleBeenMarkedOffensive;
-@property(nonatomic) _Bool hasArticleBeenRead;
-@property(nonatomic) _Bool hasArticleBeenRemovedFromAudio;
-@property(nonatomic) _Bool hasArticleBeenSeen;
-@property(nonatomic) _Bool hasArticleCompletedListening;
-@property(nonatomic) _Bool hasArticleCompletedReading;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSDate *lastListenedAt;
-@property(copy, nonatomic) NSDate *lastVisitedAt;
-@property(nonatomic) long long listenedCount;
-@property(nonatomic) double listeningProgress;
-@property(copy, nonatomic) NSDate *listeningProgressSavedAt;
-@property(nonatomic) long long maxVersionRead;
-@property(nonatomic) long long maxVersionSeen;
-@property(nonatomic, getter=isPruningDisabled) _Bool pruningDisabled;
-@property(nonatomic) long long readCount;
-@property(copy, nonatomic) NSString *readingPosition;
-@property(copy, nonatomic) NSDate *readingPositionSavedAt;
-@property(copy, nonatomic) NSString *sourceChannelTagID;
-@property(readonly) Class superclass;
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatKit.CKTapbackAttributionView;
-
 @interface CKAttributionViewAccessoryView
 {
     _Bool _isContentVisible;
-    ChatKit.CKTapbackAttributionView *_attributionView;
-    CDUnknownBlockType _saveStickerHandler;
 }
 
 - (void);
 - (void);
+- (void)SgG;
+- (CDUnknownBlockType)w;
+- (_Bool)-icon%.0fx%.0f.png;
+- (id)ntLockedNotesWelcomeMigrationPromptIfSupportedForAccount:(struct CGRect)arg1 window:(id)arg2 completionHandler:(struct CGRect)arg3 ];
 - (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (id)application:didDiscardSceneSessions: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)onfiguredViewModel;
+- (void)DetailsConfiguredViewModel;
 
 // Remaining properties
-@property(readonly, nonatomic) ChatKit.CKTapbackAttributionView *attributionView; // @synthesize attributionView=_attributionView;
-@property(nonatomic) _Bool isContentVisible; // @synthesize isContentVisible=_isContentVisible;
 @property(copy, nonatomic) CDUnknownBlockType saveStickerHandler; // @synthesize saveStickerHandler=_saveStickerHandler;
 
 @end

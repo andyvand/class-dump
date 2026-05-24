@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHMitigationDecisionRecommended : SISchemaInstrumentationMessage
 {
     _Bool _isMitigationRecommended;
-    struct {
-        unsigned int isMitigationRecommended:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/dh/dh_gen.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,9 +28,7 @@
 - (id)N,V_eventMetadata;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsMitigationRecommended;
 @property(nonatomic) _Bool isMitigationRecommended; // @synthesize isMitigationRecommended=_isMitigationRecommended;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

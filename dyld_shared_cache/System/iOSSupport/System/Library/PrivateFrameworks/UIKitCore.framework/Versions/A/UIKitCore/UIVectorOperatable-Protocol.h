@@ -10,7 +10,8 @@
 + (id <UIVectorOperatable>)!ÔEù±`Ð1Â0@ù
 × ;
 + (id <UIVectorOperatable>)¸9Ä:(id <UIVectorOperatable>)arg1 ;
-- (id)deringContext:skipLayoutSegments: /* Error: Ran out of types for this method. */;
+- (_Bool)"NSNumber",C,N,V_statusIsMultiUser;
+- (id)factoryForVisualStyle:renderingContext:skipLayoutSegments: /* Error: Ran out of types for this method. */;
 - (id <UIVectorOperatable>);
 - (void)ñÒ­>ÀL7A`3@Ñ"Ûù~<@X9´È60@A`åÐbQ@V½S@=
 ×£pý=À=

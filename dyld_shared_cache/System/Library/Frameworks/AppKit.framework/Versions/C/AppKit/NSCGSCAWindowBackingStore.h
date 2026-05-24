@@ -6,45 +6,36 @@
 
 #import <AppKit/NSCGSWindowBackingStore.h>
 
-@class CALayer, NSCGSWindow, NSCGSWindowBuffer;
+@class NSCGSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSCGSCAWindowBackingStore : NSCGSWindowBackingStore
 {
     NSCGSWindow *_window;
-    CALayer *_backingStoreLayer;
-    struct _opaque_pthread_mutex_t _backBufferMutex;
-    NSCGSWindowBuffer *_backBuffer;
-    struct CABackingStore *_backing;
-    struct CGColorSpace *_colorSpace;
-    unsigned int _depth;
-    unsigned int _opaque:1;
-    unsigned int _flushOnUnlock:1;
-    unsigned int _updating:1;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)TQ,V_cachePolicy;
+- (_Bool)ckgroundPublishingURL;
 - (void);
 - (id);
 - (struct CGImage *);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)response provided!;
+- (void)Connection %llu:(struct CGSRegionObject *)arg1 unable to determine interface without an established connection;
+- (void)erface from established connection;
+- (void)ate:(struct CGSRegionObject *)arg1 copyMessageForRequest with state:%@ /* Error: Ran out of types for this method. */;
+- (void)erOverride is true;
 - (id);
 - (struct CABackingStore *);
 - (void);
 - (_Bool);
-- (void);
+- (void)ourceFork;
 - (double);
-- (struct CGColorSpace *);
+- (struct CGColorSpace *);
 - (struct CGSize);
-- (void);
+- (void)?;
 - (void)*êC;
 - (void)Ü«C;
 - (unsigned int)GòäòH;

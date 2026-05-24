@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PDFKVOObserver
 {
     id _observedObject;
-    NSString *_keyPath;
-    CDUnknownBlockType _block;
 }
 
 - (void);
@@ -20,14 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)gentCredentialExchangeListener continueExportWithCredentials:(CDUnknownBlockType)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(nonatomic) __weak id observedObject; // @synthesize observedObject=_observedObject;
 
 @end

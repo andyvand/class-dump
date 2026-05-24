@@ -8,9 +8,11 @@
 @protocol CRKComposableView;
 
 @protocol CRKCardSectionView
++ (struct CGSize);
+- (void)Ij;
+- (NSView<CRKComposableView> *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cardSectionViewIdentifier;
-@property(nonatomic) __weak NSView<CRKComposableView> *composedSuperview;
 @end
 

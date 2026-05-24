@@ -7,6 +7,8 @@
 @protocol MFGaplessParameters;
 
 @protocol MFTransitionInformationProviding
+- (_Bool);
+- (id <MFGaplessParameters>)setWithSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MFGaplessParameters> gaplessParameters;

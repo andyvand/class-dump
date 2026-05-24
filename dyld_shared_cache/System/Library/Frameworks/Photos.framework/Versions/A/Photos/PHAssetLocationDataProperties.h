@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)ts;
++ (id)annerDeviceIcon;
++ (id)SocialGroupExclusiveAssets;
 + (id);
 - (struct CLLocationCoordinate2D);
 - (id);

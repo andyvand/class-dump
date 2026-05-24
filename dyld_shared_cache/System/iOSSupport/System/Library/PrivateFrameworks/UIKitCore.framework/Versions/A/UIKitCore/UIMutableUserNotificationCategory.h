@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (id)efaultTextInputAssistantItem;
+- (void)d;
+- (id)UISystemDefaultTextInputAssistantItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;

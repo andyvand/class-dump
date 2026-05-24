@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsObservers, NSArray, NSError, NSString;
-@protocol MapsSuggestionsAction;
-
 @interface MapsSuggestionsActionCircuit
 {
     struct Queue _queue;
-    struct _Config {
-        NSString *name;
-        MapsSuggestionsObservers *observers;
-        id <MapsSuggestionsAction> action;
-        NSArray *triggers;
-        NSArray *conditions;
-        unsigned long long type;
-    } _config;
-    struct _State {
-        NSString *firedTriggerName;
-        NSString *failedConditionName;
-        NSError *lastError;
-        _Bool active;
-    } _state;
-    struct Queue _dispatchQueue;
 }
 
 - (void);
@@ -44,20 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void)ring"@"NSString">16;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) struct Queue dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

@@ -11,18 +11,16 @@
 @interface MFEWSGetNewMessageActionsOperation : MFEWSPersistenceTaskOperation
 {
     id <MFEWSGetNewMessageActionsOperationDelegate> _delegate;
-    long long _previousActionID;
 }
 
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)initWithFrame:(id)arg1 displayStyle:quadrant:cornerRadius: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) __weak id <MFEWSGetNewMessageActionsOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) long long previousActionID; // @synthesize previousActionID=_previousActionID;
 
 @end

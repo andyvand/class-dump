@@ -7,23 +7,19 @@
 @interface BlastDoorDrawingStrokePoint
 {
     double _force;
-    double _velocity;
-    struct CGPoint _location;
 }
 
 - (id);
 - (void);
 - (id);
 - (double);
-- (struct CGPoint)ies;
+- (struct CGPoint)discreteColorProperties;
 - (double);
 - (void)ÕÏd4;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double force; // @synthesize force=_force;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

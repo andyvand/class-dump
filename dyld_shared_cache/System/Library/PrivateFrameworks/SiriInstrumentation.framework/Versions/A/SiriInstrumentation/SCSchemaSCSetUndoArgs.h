@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SCSchemaSCSetUndoArgs : SISchemaInstrumentationMessage
 {
     NSString *_directInvocationId;
-    _Bool _hasDirectInvocationId;
 }
 
 - (void);
@@ -21,19 +20,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long):Error fetching updates service:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ERE       message.ROWID = NEW.message_id; END;
 - (id);
-- (id);
-- (id)tures;
+- (id)R;
+- (id)clearEnabledFeatures;
 - (id)te;
-- (void)ectedApp;
+- (void)isDisambiguationSelectedApp;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *directInvocationId; // @synthesize directInvocationId=_directInvocationId;
-@property(nonatomic) _Bool hasDirectInvocationId; // @synthesize hasDirectInvocationId=_hasDirectInvocationId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

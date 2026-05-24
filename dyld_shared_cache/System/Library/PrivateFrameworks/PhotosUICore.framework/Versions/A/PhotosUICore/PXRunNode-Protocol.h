@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol PXRunNodeDelegate;
-
 @protocol PXRunNode
 - (_Bool)e;
 - (_Bool)istory;
 - (_Bool)Activity Session Attachment;
 
 // Remaining properties
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(readonly, getter=isComplete) _Bool complete;
-@property(nonatomic) __weak id <PXRunNodeDelegate> delegate;
-@property(readonly, copy, nonatomic) NSArray *dependencies;
-@property(readonly, getter=isRunning) _Bool running;
 @property(readonly) unsigned long long state;
-@property(readonly, getter=isWaiting) _Bool waiting;
 @end
 

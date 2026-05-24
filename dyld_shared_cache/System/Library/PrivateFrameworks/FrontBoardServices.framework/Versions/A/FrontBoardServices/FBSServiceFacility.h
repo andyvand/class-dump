@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue, NSMutableSet, NSSet, NSString;
+@class NSSet, NSString;
 
 @interface FBSServiceFacility
 {
     NSString *_identifier;
-    BSServiceQueue *_queue;
-    NSSet *_prerequisiteMilestones;
-    NSMutableSet *_clients;
-    NSSet *_clients_immutable;
-    struct os_unfair_lock_s _clients_immutable_lock;
-    _Bool _invalidated;
 }
 
 - (_Bool);
@@ -24,15 +18,15 @@
 - (id);
 - (void);
 - (void);
+- (void)`	;
+- (id)h;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)delayedActionCommandWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,16 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_prerequisiteMilestones;
-@property(readonly, nonatomic) NSSet *clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) BSServiceQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

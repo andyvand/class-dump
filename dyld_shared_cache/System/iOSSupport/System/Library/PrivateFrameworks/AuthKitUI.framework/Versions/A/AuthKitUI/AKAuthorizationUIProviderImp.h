@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindow;
+@class UIWindow;
 @protocol AKAuthorizationUIProviderMacHelper;
 
 @interface AKAuthorizationUIProviderImp
 {
     UIWindow *_hostWindow;
-    id <AKAuthorizationUIProviderMacHelper> _authorizationUIHelper;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -22,14 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <AKAuthorizationUIProviderMacHelper> authorizationUIHelper; // @synthesize authorizationUIHelper=_authorizationUIHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(readonly) Class superclass;
 
 @end
 

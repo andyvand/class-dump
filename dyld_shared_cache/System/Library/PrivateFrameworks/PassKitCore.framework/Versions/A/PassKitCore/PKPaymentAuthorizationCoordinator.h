@@ -4,37 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSProcessHandle, NSObject, NSString, NSTimer, NSXPCConnection, NSXPCListener, PKInAppPaymentService, PKPaymentAuthorizationCoordinatorExportedObject, PKPaymentRequest;
-@protocol OS_dispatch_queue, PKPaymentAuthorizationCoordinatorDelegate, PKPaymentAuthorizationCoordinatorPrivateDelegate, PKPaymentAuthorizationHostProtocol, PKPaymentAuthorizationServiceProtocol, PKPaymentPresenter;
-
 @interface PKPaymentAuthorizationCoordinator
 {
     _Bool _didPresent;
-    _Bool _remotePaymentRequestPromised;
-    id <PKPaymentAuthorizationServiceProtocol> _serviceProxy;
-    id _presentationWindow;
-    BSProcessHandle *_remoteNetworkPaymentInvokingProcess;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    NSTimer *_timer;
-    PKPaymentRequest *_paymentRequest;
-    NSString *_hostIdentifier;
-    PKPaymentAuthorizationCoordinatorExportedObject *_exportedObject;
-    CDUnknownBlockType _presentationCompletionBlock;
-    CDUnknownBlockType _remoteRequestPromisePresentationCompletionBlock;
-    id <PKPaymentPresenter> _presenter;
-    PKInAppPaymentService *_inAppPaymentService;
-    NSXPCListener *_listener;
-    double _connectionTimeout;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)+);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)HealthBeforeDecision"b1"netscoreAtStudyEnd"b1"netscoreAtStudyStart"b1"netscoreHealthAfterDecision"b1"netscoreHealthBeforeDecision"b1"numIpv4DnsServers"b1"numIpv6DnsServers"b1"numLocalDnsServers"b1"numRemoteDnsServers"b1"stallscoreAtStudyEnd"b1"stallscoreAtStudyStart"b1"stallscoreHealthAfterDecision"b1"stallscoreHealthBeforeDecision"b1"suppressedReason"b1"symptomsDnsRecommendation"b1"totalDnsServers"b1"wanHealthAfterDecision"b1"wanHealthBeforeDecision"b1"dpsNotificationReceivedDuringStudy"b1"isCaptiveServerIPResolved"b1"isPingEnqueueFailing"b1"slowWiFiNotificationReceivedDuringStudy"b1"symptomsDnsscreenStateOn"b1};
 - (void);
 - (void);
 - (void);
@@ -45,9 +26,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)qa;
 - (CDUnknownBlockType);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);
@@ -64,62 +45,36 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)TJ;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)currentContext;
+- (id)addBoundsOfAnnotation:forPage:toDictionary: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)#;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void)g"16@?<v@?@"PKPaymentApplication">24;
-- (id)ryAccessory: /* Error: Ran out of types for this method. */;
+- (id)setSecondaryAccessory: /* Error: Ran out of types for this method. */;
 - (id)hasMultipleRecipients:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void)e.private.alloy.applepay;
 
 // Remaining properties
-@property(nonatomic, setter=_setPrivateDelegate:) __weak id <PKPaymentAuthorizationCoordinatorPrivateDelegate> _privateDelegate;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) double connectionTimeout; // @synthesize connectionTimeout=_connectionTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaymentAuthorizationCoordinatorDelegate> delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool didPresent; // @synthesize didPresent=_didPresent;
-@property(retain, nonatomic) PKPaymentAuthorizationCoordinatorExportedObject *exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <PKPaymentAuthorizationHostProtocol> hostDelegate;
-@property(retain, nonatomic) NSString *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
-@property(retain, nonatomic) PKInAppPaymentService *inAppPaymentService; // @synthesize inAppPaymentService=_inAppPaymentService;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) PKPaymentRequest *paymentRequest; // @synthesize paymentRequest=_paymentRequest;
-@property(copy, nonatomic) CDUnknownBlockType presentationCompletionBlock; // @synthesize presentationCompletionBlock=_presentationCompletionBlock;
-@property(nonatomic) __weak id presentationWindow; // @synthesize presentationWindow=_presentationWindow;
-@property(retain, nonatomic) id <PKPaymentPresenter> presenter; // @synthesize presenter=_presenter;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) BSProcessHandle *remoteNetworkPaymentInvokingProcess; // @synthesize remoteNetworkPaymentInvokingProcess=_remoteNetworkPaymentInvokingProcess;
-@property(nonatomic) _Bool remotePaymentRequestPromised; // @synthesize remotePaymentRequestPromised=_remotePaymentRequestPromised;
-@property(copy, nonatomic) CDUnknownBlockType remoteRequestPromisePresentationCompletionBlock; // @synthesize remoteRequestPromisePresentationCompletionBlock=_remoteRequestPromisePresentationCompletionBlock;
-@property(nonatomic) __weak id <PKPaymentAuthorizationServiceProtocol> serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

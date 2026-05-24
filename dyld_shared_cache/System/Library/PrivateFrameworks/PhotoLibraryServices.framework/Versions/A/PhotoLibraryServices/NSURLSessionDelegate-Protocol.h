@@ -7,6 +7,7 @@
 @protocol NSURLSessionDelegate
 
 @optional
-- (id)etOrphanedSceneClassificationsCount: /* Error: Ran out of types for this method. */;
+- (id)j;
+- (id)setOrphanedSceneClassificationsCount: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, SafariWebBookmarkList;
+@class SafariWebBookmarkList;
 
 __attribute__((visibility("hidden")))
 @interface WebBookmarkImporter
 {
     SafariWebBookmarkList *_topBookmark;
-    NSError *_error;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) SafariWebBookmarkList *topBookmark; // @synthesize topBookmark=_topBookmark;
 
 @end

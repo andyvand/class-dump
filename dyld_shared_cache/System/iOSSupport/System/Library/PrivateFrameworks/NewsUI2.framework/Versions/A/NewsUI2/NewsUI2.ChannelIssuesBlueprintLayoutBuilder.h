@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelIssuesBlueprintLayoutBuilder
 {
     id config;
-    id feedLayoutSolver;
-    id groupTitleViewLayoutAttributesFactory;
 }
 
 @end

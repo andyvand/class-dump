@@ -6,43 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface RRSchemaRREntityPoolResolveEnded : SISchemaInstrumentationMessage
 {
     NSArray *_queryResults;
-    int _outcome;
-    CDStruct_ed540088 _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)preFlushHook;
 - (id);
-- (void);
+- (void)locationSentenceTypesMask;
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)nternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCreatePlaceholdersRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (void)initialsForName:(id)arg1;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)= 0 ;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)oneCallForCountryCode;
+- (id)appFreqForPhoneCallForCountryCode;
 - (id)N,V_pjsThreshold;
-- (int)ntDaemonAudioStopRecordingEnded;
-- (void)olResolution;
+- (int)MHSchemaMHAssistantDaemonAudioStopRecordingEnded;
+- (void)toolResolution;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
 @property(copy, nonatomic) NSArray *queryResults; // @synthesize queryResults=_queryResults;
 
 @end

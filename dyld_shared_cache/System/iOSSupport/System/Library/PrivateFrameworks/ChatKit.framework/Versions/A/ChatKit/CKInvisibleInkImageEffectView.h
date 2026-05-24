@@ -6,49 +6,44 @@
 
 #import <ChatKit/CKInvisibleInkEffectView.h>
 
-@class CAEmitterLayer, CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CKInvisibleInkImageEffectView : CKInvisibleInkEffectView
 {
     CALayer *_blurredImageLayer;
-    CALayer *_blurredImageContainerLayer;
-    CALayer *_drawEmitterContainerLayer;
-    CAEmitterLayer *_drawEmitterLayer;
-    CALayer *_dustEmitterContainerLayer;
-    CAEmitterLayer *_dustEmitterLayer;
 }
 
+- (void)_announceAttachmentChangeWithString: /* Error: Ran out of types for this method. */;
+- (void)_animateFrames;
+- (void)ic_mutableDefaultParagraphStyle;
+- (void)ICAuthenticationAlert;
+- (void)ICMProgressWindowControllerDelegate;
+- (void)TTBulletTextAttributesCacheKey;
+- (void)ICPreviewDeviceContext;
+- (void);
+- (void)4;
+- (void);
+- (void);
+- (void);
+- (void)r;
+- (void)t;
+- (void)t;
+- (void)s;
+- (id)k;
+- (id)o;
+- (id)a;
+- (id)o;
+- (id)ICAttachment;
+- (id)AND markedForDeletion == NO;
+- (void)NSString"16@?0@"NSString"8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)nternalBackgroundFetchConfiguration;
+- (void)setParentToken:(_Bool)arg1;
 - (void);
 - (id);
 - (void);
@@ -59,19 +54,7 @@ __attribute__((visibility("hidden")))
 - (void)wÿ±È;
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *blurredImageContainerLayer; // @synthesize blurredImageContainerLayer=_blurredImageContainerLayer;
 @property(retain, nonatomic) CALayer *blurredImageLayer; // @synthesize blurredImageLayer=_blurredImageLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CALayer *drawEmitterContainerLayer; // @synthesize drawEmitterContainerLayer=_drawEmitterContainerLayer;
-@property(retain, nonatomic) CAEmitterLayer *drawEmitterLayer; // @synthesize drawEmitterLayer=_drawEmitterLayer;
-@property(retain, nonatomic) CALayer *dustEmitterContainerLayer; // @synthesize dustEmitterContainerLayer=_dustEmitterContainerLayer;
-@property(retain, nonatomic) CAEmitterLayer *dustEmitterLayer; // @synthesize dustEmitterLayer=_dustEmitterLayer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

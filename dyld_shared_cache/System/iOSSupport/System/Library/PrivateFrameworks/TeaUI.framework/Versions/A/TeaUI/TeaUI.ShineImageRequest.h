@@ -7,12 +7,6 @@
 @interface TeaUI.ShineImageRequest
 {
     id identifier;
-    id shineOptions;
-    id shineColor;
-    id bounds;
-    id offset;
-    id staticModel;
-    id context;
 }
 
 @end

@@ -7,15 +7,6 @@
 @interface MPSPluginNDArrayConvolutionDescriptor
 {
     unsigned int _dataFormat;
-    unsigned int _weightsFormat;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _groups;
-    unsigned long long _channelMultiplier;
-    unsigned long long _subPixelScaleFactor;
-    struct MPSPluginNDArrayConvolutionSizes _kernelSizes;
-    struct MPSPluginNDArrayConvolutionSizes _strides;
-    struct MPSPluginNDArrayConvolutionSizes _dilationRates;
 }
 
 - (unsigned int);
@@ -25,22 +16,13 @@
 - (unsigned int);
 - (struct MPSPluginNDArrayConvolutionSizes);
 - (unsigned long long);
-- (unsigned long long)ple_passes_add_gradient_float32_float32;
+- (unsigned long long)reduce_multiple_passes_add_gradient_float32_float32;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(readonly, nonatomic) struct MPSPluginNDArrayConvolutionSizes dilationRates; // @synthesize dilationRates=_dilationRates;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
 @property(readonly, nonatomic) struct MPSPluginNDArrayConvolutionSizes kernelSizes; // @synthesize kernelSizes=_kernelSizes;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) struct MPSPluginNDArrayConvolutionSizes strides; // @synthesize strides=_strides;
-@property(readonly, nonatomic) unsigned long long subPixelScaleFactor; // @synthesize subPixelScaleFactor=_subPixelScaleFactor;
-@property(readonly, nonatomic) unsigned int weightsFormat; // @synthesize weightsFormat=_weightsFormat;
 
 @end
 

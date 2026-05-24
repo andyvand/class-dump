@@ -7,7 +7,6 @@
 @interface NewsUI2.IssueModelReferenceService
 {
     id issueService;
-    id issueModelFactory;
 }
 
 @end

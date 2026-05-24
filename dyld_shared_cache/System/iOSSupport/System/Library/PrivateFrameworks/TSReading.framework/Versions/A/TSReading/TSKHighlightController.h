@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, TSUImage;
+@class CALayer, TSUImage;
 
 @interface TSKHighlightController
 {
     CALayer *_imageLayer;
-    TSUImage *_image;
-    struct CGRect _overallRect;
-    struct CGAffineTransform _canvasTransform;
-    struct CGAffineTransform _layerTransform;
-    CALayer *_containingLayer;
-    double _viewScale;
-    struct CGPath *_path;
 }
 
-- (void);
+- (void)GIN BG ASSERTION        ;
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -30,26 +23,15 @@
 - (void);
 - (struct CGAffineTransform);
 - (id);
-- (void);
+- (void)0;
 - (void);
 - (struct CGPath *);
 - (id)}40;
-- (void);
+- (void)TSCHChartSeriesErrorBarSettingProperty;
 - (id)[üØ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) TSUImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_containingLayer;
-@property(nonatomic) struct CGPath *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 
 @end
 

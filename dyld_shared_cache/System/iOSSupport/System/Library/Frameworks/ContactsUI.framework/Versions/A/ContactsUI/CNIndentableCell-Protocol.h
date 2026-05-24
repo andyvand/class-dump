@@ -5,5 +5,6 @@
 //
 
 @protocol CNIndentableCell
++ (_Bool);
 @end
 

@@ -7,7 +7,6 @@
 #import <CloudKitDaemon/CKDOperation.h>
 
 @class NSArray;
-@protocol CKFetchRegisteredBundleIDsOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDFetchRegisteredBundleIDsOperation : CKDOperation
 {
@@ -19,13 +18,12 @@
 - (void);
 - (int);
 - (id);
-- (void)es;
+- (void)trackChanges;
 - (void)t:%@. Attempted public keys:%@ /* Error: Ran out of types for this method. */;
 - (id) Àÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(retain, nonatomic) id <CKFetchRegisteredBundleIDsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 
 @end
 

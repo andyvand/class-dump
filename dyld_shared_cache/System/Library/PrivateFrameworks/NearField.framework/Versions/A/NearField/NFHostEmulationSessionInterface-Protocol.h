@@ -5,5 +5,13 @@
 //
 
 @protocol NFHostEmulationSessionInterface
+- (oneway void)onContextClass(void)_block_invoke;
+- (oneway void)oid);
+- (oneway void)oke;
+- (oneway void)phoneticOrganizationName;
+- (oneway void)ertCast(__unsafe_unretained Class, __strong id);
+- (oneway void)urlAddresses;
+- (oneway void);
+- (oneway void)",C,N,V_voiceIdAssetVersion;
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, PXCPLUIStatusProvider, PXStatusViewModel;
+@class PXCPLUIStatusProvider;
 
 @interface PXCPLStatusController
 {
     PXCPLUIStatusProvider *_statusProvider;
-    PXStatusViewModel *_viewModel;
-    NSString *_fallbackTitle;
-    NSString *_fallbackMessage;
-    NSAttributedString *_fallbackAttributedMessage;
-    NSString *_fallbackActionTitle;
-    CDUnknownBlockType _fallbackAction;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);
@@ -32,23 +26,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ureAvailabilityOptions;
+- (void)LemonadeFeatureAvailabilityOptions;
 - (void)G0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fallbackAction; // @synthesize fallbackAction=_fallbackAction;
-@property(copy, nonatomic) NSString *fallbackActionTitle; // @synthesize fallbackActionTitle=_fallbackActionTitle;
-@property(copy, nonatomic) NSAttributedString *fallbackAttributedMessage; // @synthesize fallbackAttributedMessage=_fallbackAttributedMessage;
-@property(copy, nonatomic) NSString *fallbackMessage; // @synthesize fallbackMessage=_fallbackMessage;
-@property(copy, nonatomic) NSString *fallbackTitle; // @synthesize fallbackTitle=_fallbackTitle;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXCPLUIStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
-@property(readonly) Class superclass;
 
 @end
 

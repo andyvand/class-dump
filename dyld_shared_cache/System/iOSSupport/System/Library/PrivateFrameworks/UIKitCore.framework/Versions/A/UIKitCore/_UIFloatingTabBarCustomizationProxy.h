@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIFloatingTabBar;
+@class _UIFloatingTabBar;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarCustomizationProxy
@@ -12,20 +12,14 @@ __attribute__((visibility("hidden")))
     _UIFloatingTabBar *_floatingTabBar;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)spamFilterHelper;
+- (void)incomingMessageProcessedWithElapsedTime:(id)arg1;
+- (id)deleteMessagesZone;
+- (_Bool)tch_source>",&,N,V_cleanupTimer;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

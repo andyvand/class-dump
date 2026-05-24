@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INCallRecordFilter
 {
     NSArray *_participants;
-    unsigned long long _callTypes;
-    long long _callCapability;
-    long long _preferredCallProvider;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (long long);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)artition scan
+;
+- (_Bool)edNetwork;
+- (void)network=%@);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)ificationHint;
+- (id)_identificationHint;
 - (void)rikit.intent.notes.SearchForNotebookItemsIntent;
 - (id)[g;
 
 // Remaining properties
-@property(readonly) long long callCapability; // @synthesize callCapability=_callCapability;
-@property(readonly) unsigned long long callTypes; // @synthesize callTypes=_callTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) long long preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(readonly) Class superclass;
 
 @end
 

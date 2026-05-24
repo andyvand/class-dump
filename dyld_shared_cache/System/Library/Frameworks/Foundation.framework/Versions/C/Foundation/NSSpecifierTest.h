@@ -6,19 +6,15 @@
 
 #import <Foundation/NSScriptWhoseTest.h>
 
-@class NSScriptObjectSpecifier;
-
 @interface NSSpecifierTest : NSScriptWhoseTest
 {
     unsigned long long _comparisonOperator;
-    NSScriptObjectSpecifier *_object1;
-    id _object2;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);

@@ -5,6 +5,7 @@
 //
 
 @protocol BSServiceConnectionConfiguring
+- (void)setForLastSearch:(void (^)(BSServiceConnection<BSServiceConnectionContext> *))arg1;
 - (void);
 @end
 

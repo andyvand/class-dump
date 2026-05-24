@@ -7,19 +7,10 @@
 @interface NSRunStorage
 {
     unsigned long long _count;
-    unsigned long long _elementSize;
-    unsigned long long _numBlocks;
-    unsigned long long _maxBlocks;
-    unsigned long long _indexDeltaStartBlock;
-    long long _indexDelta;
-    struct _NSRunBlock *_runs;
-    unsigned long long _cachedBlock;
-    struct _NSRange _cachedBlockRange;
-    unsigned long long _gapBlockIndex;
 }
 
 + (void);
-+ (void)igin;
++ (void)attachmentFrameOrigin;
 - (void);
 - (void);
 - (void);

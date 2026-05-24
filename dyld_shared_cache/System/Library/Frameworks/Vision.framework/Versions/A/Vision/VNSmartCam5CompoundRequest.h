@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (void)eAttentionBasedSaliencyImageRequestPrivateRevisionSceneNetV4StillCapturePipeline;
+- (id);
+- (void)VNGenerateAttentionBasedSaliencyImageRequestPrivateRevisionSceneNetV4StillCapturePipeline;
 - (id)T¬²ÿu^§T(²ÿ;
 - (_Bool)ÿYL¨TPh±ÿ;
 

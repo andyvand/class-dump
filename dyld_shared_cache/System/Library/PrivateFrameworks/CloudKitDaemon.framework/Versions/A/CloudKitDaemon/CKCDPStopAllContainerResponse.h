@@ -7,26 +7,24 @@
 @interface CKCDPStopAllContainerResponse
 {
     _Bool _success;
-    CDStruct_f2ecb737 _has;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)l;
+- (void)CalypsoDecoder;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)nRef, APSConnectionInterfaceManagerRef, APSenderSessionUsage, APSClusterType, dispatch_queue_t, Boolean, Boolean, Boolean, APSNetworkClockRef, CFStringRef, CFStringRef, Boolean, double, CFDictionaryRef, APSWrapperRef, APSWrapperRef, APSenderSessionRef *);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)0:(id)arg1 8@16B24;
 - (void);
 - (id);
 - (id);
-- (_Bool)ovedRequester;
+- (_Bool)hasIsApprovedRequester;
 - (void)ory cache (%{public}@). scopedItemID=%{public}@, protectionInfoTag=%{public}@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

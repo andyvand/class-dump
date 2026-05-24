@@ -9,39 +9,25 @@
 @interface APWebViewConfiguration
 {
     WKWebViewConfiguration *_webProcessConfiguration;
-    WKWebViewConfiguration *_webProcessConfigurationWithBackgroundPriority;
-    WKWebViewConfiguration *_videoConfiguration;
-    WKWebViewConfiguration *_videoConfigurationWithBackgroundPriority;
-    APUnfairLock *_webProcessConfigurationLock;
-    APUnfairLock *_webProcessConfigurationWithBackgroundPriorityLock;
-    APUnfairLock *_videoConfigurationLock;
-    APUnfairLock *_videoConfigurationWithBackgroundPriorityLock;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)SFUOffsetOutputStream;
 
 // Remaining properties
-@property(readonly, nonatomic) WKWebViewConfiguration *videoConfiguration;
-@property(readonly, nonatomic) APUnfairLock *videoConfigurationLock; // @synthesize videoConfigurationLock=_videoConfigurationLock;
-@property(readonly, nonatomic) WKWebViewConfiguration *videoConfigurationWithBackgroundPriority;
-@property(readonly, nonatomic) APUnfairLock *videoConfigurationWithBackgroundPriorityLock; // @synthesize videoConfigurationWithBackgroundPriorityLock=_videoConfigurationWithBackgroundPriorityLock;
-@property(readonly, nonatomic) WKWebViewConfiguration *webProcessConfiguration;
 @property(readonly, nonatomic) APUnfairLock *webProcessConfigurationLock; // @synthesize webProcessConfigurationLock=_webProcessConfigurationLock;
-@property(readonly, nonatomic) WKWebViewConfiguration *webProcessConfigurationWithBackgroundPriority;
-@property(readonly, nonatomic) APUnfairLock *webProcessConfigurationWithBackgroundPriorityLock; // @synthesize webProcessConfigurationWithBackgroundPriorityLock=_webProcessConfigurationWithBackgroundPriorityLock;
 
 @end
 

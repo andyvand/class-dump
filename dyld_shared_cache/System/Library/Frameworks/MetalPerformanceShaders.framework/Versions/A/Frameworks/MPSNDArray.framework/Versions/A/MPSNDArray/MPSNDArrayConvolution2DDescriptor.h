@@ -7,17 +7,6 @@
 @interface MPSNDArrayConvolution2DDescriptor
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _groups;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _channelMultiplier;
-    unsigned int _dataFormat;
-    unsigned int _weightsFormat;
 }
 
 - (unsigned int);
@@ -25,7 +14,7 @@
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)Kl;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -46,17 +35,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
-@property(nonatomic) unsigned int weightsFormat; // @synthesize weightsFormat=_weightsFormat;
 
 @end
 

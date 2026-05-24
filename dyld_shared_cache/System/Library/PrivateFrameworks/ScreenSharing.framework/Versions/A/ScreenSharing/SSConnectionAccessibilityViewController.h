@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSDictionary, NSLayoutConstraint, NSMutableArray, NSObject, NSScrollView, NSString, NSTableColumn, NSTableView, NSTextFieldCell;
-@protocol SSConnectionAccessibilityViewControllerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SSConnectionAccessibilityViewController
 {
     _Bool _showingAll;
-    NSScrollView *_tableScrollView;
-    NSTableView *_tableView;
-    NSTableColumn *_featureColumn;
-    NSTableColumn *_switchColumn;
-    NSTextFieldCell *_privacyInfoLabel;
-    NSButton *_showAllButton;
-    NSLayoutConstraint *_tableHeightConstraint;
-    NSArray *_allFeatureDicts;
-    NSDictionary *_featureNameToFeatureDict;
-    NSMutableArray *_rows;
-    NSObject<SSConnectionAccessibilityViewControllerDelegate> *_delegate;
 }
 
 - (void);
@@ -63,24 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allFeatureDicts; // @synthesize allFeatureDicts=_allFeatureDicts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject<SSConnectionAccessibilityViewControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property NSTableColumn *featureColumn; // @synthesize featureColumn=_featureColumn;
-@property(retain, nonatomic) NSDictionary *featureNameToFeatureDict; // @synthesize featureNameToFeatureDict=_featureNameToFeatureDict;
-@property(readonly) unsigned long long hash;
-@property NSTextFieldCell *privacyInfoLabel; // @synthesize privacyInfoLabel=_privacyInfoLabel;
-@property(retain, nonatomic) NSMutableArray *rows; // @synthesize rows=_rows;
-@property NSButton *showAllButton; // @synthesize showAllButton=_showAllButton;
-@property(nonatomic) _Bool showingAll; // @synthesize showingAll=_showingAll;
-@property(readonly) Class superclass;
-@property NSTableColumn *switchColumn; // @synthesize switchColumn=_switchColumn;
-@property NSLayoutConstraint *tableHeightConstraint; // @synthesize tableHeightConstraint=_tableHeightConstraint;
-@property NSScrollView *tableScrollView; // @synthesize tableScrollView=_tableScrollView;
-@property NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

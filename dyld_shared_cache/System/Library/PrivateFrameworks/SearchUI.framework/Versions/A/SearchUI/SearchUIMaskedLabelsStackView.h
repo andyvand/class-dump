@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSColor, NSFont, NSString, NSView, TLKLabel;
+@class NSView;
 
 @interface SearchUIMaskedLabelsStackView
 {
     NSView *_maskView;
-    TLKLabel *_completionLabel;
-    TLKLabel *_bridgeLabel;
-    TLKLabel *_extensionLabel;
-    NSView *_extensionLabelBackgroundView;
-    NSAttributedString *_typedString;
-    NSFont *_font;
-    NSColor *_completionFillColor;
-    NSView *_gradientView;
-    double _completionStringOffset;
-    NSView *_fillerView;
 }
 
-+ (Class);
++ (Class)_lock_configurationModificationRequests;
 - (void);
 - (void);
 - (void);
@@ -39,36 +29,20 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id)olorSpace initWithICCProfileData:descriptionName:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)atedDeployments:deactivatedFactorPackSetIds:deactivationStateTransitions:usingTransaction: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void))A;
 
 // Remaining properties
-@property(readonly, nonatomic) TLKLabel *bridgeLabel; // @synthesize bridgeLabel=_bridgeLabel;
-@property(retain, nonatomic) NSColor *completionFillColor; // @synthesize completionFillColor=_completionFillColor;
-@property(readonly, nonatomic) TLKLabel *completionLabel; // @synthesize completionLabel=_completionLabel;
-@property double completionStringOffset; // @synthesize completionStringOffset=_completionStringOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TLKLabel *extensionLabel; // @synthesize extensionLabel=_extensionLabel;
-@property(readonly, nonatomic) NSView *extensionLabelBackgroundView; // @synthesize extensionLabelBackgroundView=_extensionLabelBackgroundView;
-@property(retain) NSView *fillerView; // @synthesize fillerView=_fillerView;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
 @property(retain) NSView *gradientView; // @synthesize gradientView=_gradientView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSAttributedString *typedString; // @synthesize typedString=_typedString;
 
 @end
 

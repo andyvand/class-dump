@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (void)fier;
+- (void)_matchedTransitionIdentifier;
 
 @end
 

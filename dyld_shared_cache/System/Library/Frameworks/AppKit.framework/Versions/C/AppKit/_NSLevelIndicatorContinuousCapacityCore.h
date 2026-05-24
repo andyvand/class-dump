@@ -6,21 +6,17 @@
 
 #import <AppKit/_NSLevelIndicatorAppearanceBasedVisualProvider.h>
 
-@class NSWidgetView, _NSLevelIndicatorFillView;
+@class NSWidgetView;
 
 __attribute__((visibility("hidden")))
 @interface _NSLevelIndicatorContinuousCapacityCore : _NSLevelIndicatorAppearanceBasedVisualProvider
 {
     NSWidgetView *_trackView;
-    NSWidgetView *_outlineView;
-    _NSLevelIndicatorFillView *_primaryFillView;
-    _NSLevelIndicatorFillView *_secondaryFillView;
-    _NSLevelIndicatorFillView *_tertiaryFillView;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)DevicePrefers3DBuildingStrokes;
 - (id);
 - (void);
 - (struct CGSize);
@@ -29,19 +25,15 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)set_cookieTransformCallback:(struct CGRect)arg1;
+- (id)setAuditToken:(int)arg1;
+- (void)requiresPowerPluggedIn;
+- (void)requestWithURL:(id *)arg1 cachePolicy:(id)arg2 timeoutInterval: /* Error: Ran out of types for this method. */;
+- (id)llu:encountered low throughput event %llu /* Error: Ran out of types for this method. */;
 - (void);
 - (void)lready exists.;
 
 // Remaining properties
-@property(readonly) NSWidgetView *outlineView;
-@property(readonly) _NSLevelIndicatorFillView *primaryFillView;
-@property(readonly) _NSLevelIndicatorFillView *secondaryFillView;
-@property(readonly) _NSLevelIndicatorFillView *tertiaryFillView;
 @property(readonly) NSWidgetView *trackView;
 
 @end

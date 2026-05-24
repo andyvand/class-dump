@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSOrderedSet, NSSet, NSString, NSUUID, REMAccount, REMColor, REMListAppearanceContext, REMListCalDAVNotificationContext, REMListGroceryContext, REMListSectionContext, REMListShareeContext, REMListStorage, REMListSublistContext, REMObjectID, REMResolutionTokenMap, REMStore;
+@class REMStore;
 
 @interface REMList
 {
     REMStore *_store;
-    REMListStorage *_storage;
-    REMAccount *_account;
-    REMList *_parentList;
 }
 
-+ (id);
++ (id)tPathCharacterHolderMMapKo;
 + (CDUnknownBlockType);
 + (id);
 + (id);
 + (CDUnknownBlockType);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)ate;
 + (id);
++ (_Bool)uest:preserveStandaloneReorganizers:] /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (id)T;
++ (_Bool)nown reason;
++ (_Bool)WBSDebugCloudKitBookmarkMigrationMaximumAgeOfCloudTabDevicesUpdate;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -42,123 +39,43 @@
 - (id);
 - (id);
 - (id);
+- (id)b;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)#;
+- (id)scoreWithStrictFiltering;
+- (id)P;
+- (id);
+- (id)isFileReferenceURL;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (void)[;
+- (_Bool);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)rval;
+- (id)shouldIncludeAlarmTriggersBasedOnDateOrTimeInterval;
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) REMObjectID *accountID; // @dynamic accountID;
-@property(readonly, nonatomic) REMListAppearanceContext *appearanceContext;
-@property(readonly, nonatomic) NSString *badgeEmblem; // @dynamic badgeEmblem;
-@property(readonly, nonatomic) REMListCalDAVNotificationContext *calDAVNotificationContext;
-@property(readonly, nonatomic) NSArray *calDAVNotifications; // @dynamic calDAVNotifications;
-@property(readonly, nonatomic) _Bool canBeIncludedInGroup;
-@property(readonly, nonatomic) _Bool canBeShared;
-@property(readonly, nonatomic) NSSet *childListIDsToUndelete; // @dynamic childListIDsToUndelete;
-@property(readonly, nonatomic) NSSet *childSmartListIDsToUndelete; // @dynamic childSmartListIDsToUndelete;
-@property(readonly, nonatomic) REMColor *color; // @dynamic color;
-@property(readonly, nonatomic) NSString *currentUserShareParticipantID; // @dynamic currentUserShareParticipantID;
-@property(readonly, nonatomic) NSDictionary *daBulkRequests; // @dynamic daBulkRequests;
-@property(readonly, nonatomic) long long daDisplayOrder; // @dynamic daDisplayOrder;
-@property(readonly, nonatomic) NSString *daExternalIdentificationTag; // @dynamic daExternalIdentificationTag;
-@property(readonly, nonatomic) _Bool daIsEventOnlyContainer; // @dynamic daIsEventOnlyContainer;
-@property(readonly, nonatomic) _Bool daIsImmutable; // @dynamic daIsImmutable;
-@property(readonly, nonatomic) _Bool daIsNotificationsCollection; // @dynamic daIsNotificationsCollection;
-@property(readonly, nonatomic) _Bool daIsReadOnly; // @dynamic daIsReadOnly;
-@property(readonly, nonatomic) NSString *daPushKey; // @dynamic daPushKey;
-@property(readonly, nonatomic) NSString *daSyncToken; // @dynamic daSyncToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(readonly, nonatomic) NSString *externalIdentifierForMarkedForDeletionObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(readonly, nonatomic) REMListGroceryContext *groceryContext;
-@property(readonly, nonatomic) NSString *groceryLocaleID; // @dynamic groceryLocaleID;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutoCategorizationSupportedInCurrentAppVersion; // @dynamic isAutoCategorizationSupportedInCurrentAppVersion;
-@property(readonly, nonatomic) _Bool isGroup; // @dynamic isGroup;
-@property(readonly, nonatomic) _Bool isOriginOfExistingTemplate;
-@property(readonly, nonatomic) _Bool isOwnedByMe;
-@property(readonly, nonatomic) _Bool isPinned;
-@property(nonatomic) _Bool isPlaceholder; // @dynamic isPlaceholder;
-@property(readonly, nonatomic) _Bool isShared;
-@property(readonly, nonatomic) _Bool isSharedToMe;
-@property(readonly, nonatomic) _Bool isSuggestedRemindersSupportedInCurrentAppVersion; // @dynamic isSuggestedRemindersSupportedInCurrentAppVersion;
-@property(readonly, copy, nonatomic) NSDate *lastUserAccessDate; // @dynamic lastUserAccessDate;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) NSUUID *mostRecentTargetTemplateIdentifier; // @dynamic mostRecentTargetTemplateIdentifier;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(readonly, nonatomic) REMObjectID *parentAccountID; // @dynamic parentAccountID;
-@property(retain, nonatomic) REMList *parentList; // @synthesize parentList=_parentList;
-@property(readonly, nonatomic) REMObjectID *parentListID; // @dynamic parentListID;
-@property(readonly, nonatomic) NSDate *pinnedDate; // @dynamic pinnedDate;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) NSOrderedSet *reminderIDsMergeableOrdering; // @dynamic reminderIDsMergeableOrdering;
-@property(readonly, nonatomic) NSData *reminderIDsMergeableOrderingData; // @dynamic reminderIDsMergeableOrderingData;
-@property(readonly, nonatomic) NSOrderedSet *reminderIDsOrdering;
-@property(readonly, nonatomic) NSDictionary *reminderIDsOrderingHints; // @dynamic reminderIDsOrderingHints;
-@property(readonly, nonatomic) NSSet *reminderIDsToUndelete; // @dynamic reminderIDsToUndelete;
-@property(readonly, nonatomic) _Bool remindersICSDisplayOrderChanged; // @dynamic remindersICSDisplayOrderChanged;
-@property(readonly, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(readonly, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) REMListSectionContext *sectionContext;
-@property(readonly, nonatomic) NSSet *sectionIDsToUndelete; // @dynamic sectionIDsToUndelete;
-@property(readonly, nonatomic) NSString *sharedOwnerAddress; // @dynamic sharedOwnerAddress;
-@property(readonly, nonatomic) REMObjectID *sharedOwnerID; // @dynamic sharedOwnerID;
-@property(readonly, nonatomic) NSString *sharedOwnerName; // @dynamic sharedOwnerName;
-@property(readonly, nonatomic) REMListShareeContext *shareeContext;
-@property(readonly, nonatomic) NSArray *sharees; // @dynamic sharees;
-@property(readonly, nonatomic) long long sharingStatus; // @dynamic sharingStatus;
-@property(readonly, nonatomic) _Bool shouldAutoCategorizeItems; // @dynamic shouldAutoCategorizeItems;
-@property(readonly, nonatomic) _Bool shouldCategorizeGroceryItems; // @dynamic shouldCategorizeGroceryItems;
-@property(readonly, nonatomic) _Bool shouldSuggestConversionToGroceryList; // @dynamic shouldSuggestConversionToGroceryList;
-@property(readonly, nonatomic) _Bool showingLargeAttachments; // @dynamic showingLargeAttachments;
-@property(readonly, nonatomic) NSString *sortingStyle; // @dynamic sortingStyle;
-@property(copy, nonatomic) REMListStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) REMListSublistContext *sublistContext;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_semaphore, OS_nw_browser;
+@class NSObject;
+@protocol OS_nw_browser;
 
 @interface SSBonjourBrowser
 {
     _Bool _foundServersUpdated;
-    _Bool _deviceInfoUpdated;
-    _Bool _keepAliveDeviceInfoThread;
-    NSMutableDictionary *_deviceInfo;
-    NSObject<OS_nw_browser> *_browser;
-    NSMutableDictionary *_discoveredServers;
-    NSString *_localComputerName;
-    NSMutableArray *_deviceInfoLookupArray;
-    struct _DNSServiceRef_t *_sharedDNSRef;
-    NSObject<OS_dispatch_semaphore> *_lookupSemaphore;
-    NSMutableArray *_internalUpdatedBonjourRecords;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -46,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (id);
 - (_Bool);
@@ -59,23 +49,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)reenMaxSize;
+- (id)ider != %@;
+- (void)selectedScreenMaxSize;
 
 // Remaining properties
 @property(retain) NSObject<OS_nw_browser> *browser; // @synthesize browser=_browser;
-@property(retain) NSMutableDictionary *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(retain) NSMutableArray *deviceInfoLookupArray; // @synthesize deviceInfoLookupArray=_deviceInfoLookupArray;
-@property(nonatomic) _Bool deviceInfoUpdated; // @synthesize deviceInfoUpdated=_deviceInfoUpdated;
-@property(retain) NSMutableDictionary *discoveredServers; // @synthesize discoveredServers=_discoveredServers;
-@property(readonly, copy, nonatomic) NSDictionary *foundServers;
-@property(nonatomic) _Bool foundServersUpdated; // @synthesize foundServersUpdated=_foundServersUpdated;
-@property(retain) NSMutableArray *internalUpdatedBonjourRecords; // @synthesize internalUpdatedBonjourRecords=_internalUpdatedBonjourRecords;
-@property _Bool keepAliveDeviceInfoThread; // @synthesize keepAliveDeviceInfoThread=_keepAliveDeviceInfoThread;
-@property(retain) NSString *localComputerName; // @synthesize localComputerName=_localComputerName;
-@property(retain) NSObject<OS_dispatch_semaphore> *lookupSemaphore; // @synthesize lookupSemaphore=_lookupSemaphore;
-@property struct _DNSServiceRef_t *sharedDNSRef; // @synthesize sharedDNSRef=_sharedDNSRef;
-@property(readonly, copy) NSArray *updatedBonjourRecords;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (long long);
+- (long long)tic Italy;
 
 // Remaining properties
 @property(readonly, nonatomic) long long featureIdentifierType;

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject, NSString, _CDSharedMemoryKeyValueStore;
-@protocol OS_dispatch_queue;
+@class _CDSharedMemoryKeyValueStore;
 
 @interface _CDSharedMemoryContextPersisting
 {
     _CDSharedMemoryKeyValueStore *_store;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSCountedSet *_keyPathRegistrationCount;
-    NSCountedSet *_legacyKeyPathRegistrationCount;
-    NSString *_localDeviceID;
 }
 
++ (id)tomorrowDateFromReferenceDate:(id)arg1;
++ (id)PKCS12_key_gen_asc;
 + (id);
-+ (id);
-+ (id);
+- (void);
+- (id);
+- (id);
+- (id)_ֹ;
+- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,10 +37,6 @@
 - (void)½k;
 
 // Remaining properties
-@property(retain, nonatomic) NSCountedSet *keyPathRegistrationCount; // @synthesize keyPathRegistrationCount=_keyPathRegistrationCount;
-@property(retain, nonatomic) NSCountedSet *legacyKeyPathRegistrationCount; // @synthesize legacyKeyPathRegistrationCount=_legacyKeyPathRegistrationCount;
-@property(retain, nonatomic) NSString *localDeviceID; // @synthesize localDeviceID=_localDeviceID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) _CDSharedMemoryKeyValueStore *store; // @synthesize store=_store;
 
 @end

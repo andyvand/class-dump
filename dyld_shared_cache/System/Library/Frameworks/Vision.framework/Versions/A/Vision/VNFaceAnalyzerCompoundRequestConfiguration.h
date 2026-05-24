@@ -6,29 +6,26 @@
 
 #import <Vision/VNRequestConfiguration.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNFaceAnalyzerCompoundRequestConfiguration : VNRequestConfiguration
 {
     NSMutableDictionary *_detectorConfigurationOptions;
-    NSMutableArray *_originalRequests;
-    NSString *_detectorType;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)destinationStoreUrlWithAddressBook:(id)arg1 storeUrl: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)ØiB;
 - (id);
 - (void)-th eigenvector failed to converge;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detectorType; // @synthesize detectorType=_detectorType;
 @property(readonly, nonatomic) NSMutableArray *originalRequests; // @synthesize originalRequests=_originalRequests;
 
 @end

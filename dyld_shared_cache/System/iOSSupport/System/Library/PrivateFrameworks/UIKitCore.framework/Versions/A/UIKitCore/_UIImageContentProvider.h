@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIImageContentProvider
 {
     CDUnknownBlockType _CGImageProvider;
-    CDUnknownBlockType _rbSymbolConfigurationProvider;
-    CDUnknownBlockType _drawingProvider;
 }
 
 + (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)C24@28@36@44B52B56;
+- (id)SString"40@"NSArray"48@"NSArray"56@"NSDictionary"64;
+- (id)Service"16@"IDSAccount"24@"NSString"32@"NSString"40q48@"NSError"56B64@"IDSMessageContext"68;
+- (id)SString"40q48@"NSError"56B64;
+- (CDUnknownBlockType)dy-data;
+- (CDUnknownBlockType)InitialMessageSyncFailed;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType CGImageProvider; // @synthesize CGImageProvider=_CGImageProvider;
 @property(readonly, nonatomic) CDUnknownBlockType drawingProvider; // @synthesize drawingProvider=_drawingProvider;
-@property(readonly, nonatomic) CDUnknownBlockType rbSymbolConfigurationProvider; // @synthesize rbSymbolConfigurationProvider=_rbSymbolConfigurationProvider;
 
 @end
 

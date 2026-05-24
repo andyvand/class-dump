@@ -4,58 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSInvocation, NSManagedObjectContext, NSManagedObjectID, NSString, NSThread;
-
 @interface GEOFindCityOperation
 {
     int mode;
-    NSString *searchString;
-    long long fetchLimit;
-    NSArray *timeZoneNamesScope;
-    NSInvocation *invocationWhenDone;
-    double longitude;
-    double latitude;
-    double longitudeSpan;
-    double latitudeSpan;
-    NSArray *resultCities;
-    id userInfo;
-    NSThread *operationThread;
-    NSManagedObjectContext *managedObjectContext;
 }
 
-+ (id);
-+ (id);
++ (id)ailed to find active iCloud account;
++ (id)ublic}@:(double)arg1 [%{public}@] Silent enrollment not supported;
+- (void)a type:(SEL)arg1 %{public}@;
+- (id)= %{public}@ | activeAccount = %{public}@;
+- (void)g it active and saving it. account = %{public}@;
+- (void)error = %{public}@;
+- (id)identifier to the account. personaIdentifier = %{public}@;
+- (id)persona. Adding a persona identifier to the account. personaIdentifier = %{public}@;
+- (id)@:[%{public}@] Found an account matching the given authentication results’ altDSID, but it has no username. authenticationResults = %{public}@ | account = %{public}@ /* Error: Ran out of types for this method. */;
+- (id)enticationResults = %{public}@;
+- (id)not find an account matching the given authentication results. authenticationResults = %{public}@;
+- (_Bool)the client info. error = %{public}@;
+- (id)e:(id)arg1 %d;
+- (id)an account. Merging the privacy acknowledgement into it. account = %{public}@;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)event %@ %@;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)pDayImage;
-- (long long)WithImage: /* Error: Ran out of types for this method. */;
+- (id)_copyWorldMapDayImage;
+- (long long)_copyOverlappingWorldImageWithImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long fetchLimit; // @synthesize fetchLimit;
-@property(retain) NSInvocation *invocationWhenDone; // @synthesize invocationWhenDone;
-@property(readonly) NSManagedObjectContext *managedObjectContext;
-@property(readonly) NSManagedObjectID *resultCityID;
-@property(readonly) NSArray *resultCityIDs;
-@property(readonly) NSString *searchString; // @synthesize searchString;
-@property(retain) NSArray *timeZoneNamesScope; // @synthesize timeZoneNamesScope;
-@property(retain) id userInfo; // @synthesize userInfo;
 
 @end
 

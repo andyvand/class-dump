@@ -9,7 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
-- (void)ets;
+- (void)childAnnotationSearchTargets;
 - (id <CAAction>);
 @end
 

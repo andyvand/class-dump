@@ -6,23 +6,19 @@
 
 #import <MediaPlayer/MPModelLibraryPlaylistEditDataSource.h>
 
-@class MPMediaLibrary, MPModelPlaylist, MPPropertySet, MPSectionedCollection;
+@class MPMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MPModelLibraryPlaylistEditPlaylistDataSource : MPModelLibraryPlaylistEditDataSource
 {
     MPMediaLibrary *_library;
-    MPModelPlaylist *_playlist;
-    MPSectionedCollection *_initialTrackList;
-    MPPropertySet *_playlistPropertySet;
-    _Bool _hasPerformedInitialLoad;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ier;
+- (void)_cacheIdentifier;
 
 @end
 

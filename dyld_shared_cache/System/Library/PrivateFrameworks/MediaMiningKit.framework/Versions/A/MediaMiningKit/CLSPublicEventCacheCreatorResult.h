@@ -9,8 +9,6 @@
 @interface CLSPublicEventCacheCreatorResult
 {
     NSDictionary *_resolvedPublicEventsByTimeLocationIdentifier;
-    NSDictionary *_invalidationTokenByTimeLocationIdentifier;
-    unsigned long long _numberOfRequests;
 }
 
 - (void);
@@ -19,12 +17,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)%d, overflow %d;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *invalidationTokenByTimeLocationIdentifier; // @synthesize invalidationTokenByTimeLocationIdentifier=_invalidationTokenByTimeLocationIdentifier;
-@property(nonatomic) unsigned long long numberOfRequests; // @synthesize numberOfRequests=_numberOfRequests;
 @property(retain, nonatomic) NSDictionary *resolvedPublicEventsByTimeLocationIdentifier; // @synthesize resolvedPublicEventsByTimeLocationIdentifier=_resolvedPublicEventsByTimeLocationIdentifier;
 
 @end

@@ -6,27 +6,23 @@
 
 #import <Navigation/_MNLocationSimulationState_FollowingRoute.h>
 
-@class GEOComposedRoute, GEOMapFeatureAccess, NSMutableArray, NSMutableSet;
+@class GEOComposedRoute;
 
 __attribute__((visibility("hidden")))
 @interface _MNLocationSimulationState_SearchingForOffRoute : _MNLocationSimulationState_FollowingRoute
 {
     GEOComposedRoute *_routeToOffRouteLocation;
-    _Bool _shouldStartSearchOnNextLocation;
-    GEOMapFeatureAccess *_mapFeatureAccess;
-    NSMutableArray *_candidateRoads;
-    NSMutableSet *_checkedRoads;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (CDStruct_071ac149);
+- (CDStruct_39925896);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6;
 - (long long);
 - (void);
 

@@ -4,41 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileData, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface _GEOTileDBAddTileOperation
 {
     struct _GEOTileKey _key;
-    GEOTileData *_data;
-    NSString *_ETag;
-    NSUUID *_externalResourceUUID;
-    NSString *_subscriptionIdentifier;
-    CDUnion_20bcf645 _tileSet;
-    unsigned char _reason;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned char);
-- (void);
+- (void)createRemoteVoiceProfileWithAudioFiles:(id)arg1 aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)C`;
 - (struct _GEOTileKey *);
 - (void)ýÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _GEOTileKey *key;
-@property(readonly, nonatomic) unsigned char reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) unsigned long long sizeInBytes;
-@property(readonly) Class superclass;
 
 @end
 

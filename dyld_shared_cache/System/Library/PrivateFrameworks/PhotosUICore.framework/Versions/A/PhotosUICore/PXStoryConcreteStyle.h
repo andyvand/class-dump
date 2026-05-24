@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PFStoryAutoEditConfiguration, PXStoryConfiguration;
-@protocol PXAudioCueSource, PXStoryAutoEditDecisionList, PXStorySongResource;
+@class NSArray;
 
 @interface PXStoryConcreteStyle
 {
     NSArray *_allowedKeyAssetClipCompositionsInPortrait;
-    NSArray *_allowedKeyAssetClipCompositionsInLandscape;
-    NSArray *_allowedClipCompositionsInPortrait;
-    NSArray *_allowedClipCompositionsInLandscape;
-    NSArray *_allowedClipCompositionsInSquareView;
-    PFStoryAutoEditConfiguration *_autoEditConfiguration;
-    _Bool _isCustomized;
-    NSString *_originalColorGradeCategory;
-    long long _customColorGradeKind;
-    id <PXStorySongResource> _songResource;
-    id <PXAudioCueSource> _cueSource;
-    id <PXStoryAutoEditDecisionList> _autoEditDecisionList;
-    PXStoryConfiguration *_storyConfiguration;
-    CDStruct_aa11df03 _styleOptions;
 }
 
 + (id);
@@ -37,22 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (CDStruct_aa11df03);
+- (long long);
+- (CDStruct_5577c19c);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList; // @synthesize autoEditDecisionList=_autoEditDecisionList;
-@property(readonly, nonatomic) id <PXAudioCueSource> cueSource; // @synthesize cueSource=_cueSource;
-@property(readonly, nonatomic) long long customColorGradeKind; // @synthesize customColorGradeKind=_customColorGradeKind;
-@property(readonly, nonatomic) _Bool isCustomized; // @synthesize isCustomized=_isCustomized;
-@property(readonly, nonatomic) NSString *originalColorGradeCategory; // @synthesize originalColorGradeCategory=_originalColorGradeCategory;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 outroDuration;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource; // @synthesize songResource=_songResource;
-@property(readonly, nonatomic) __weak PXStoryConfiguration *storyConfiguration; // @synthesize storyConfiguration=_storyConfiguration;
-@property(readonly, nonatomic) CDStruct_aa11df03 styleOptions; // @synthesize styleOptions=_styleOptions;
 @property(readonly, nonatomic) Class timelineStyleClass;
 
 @end

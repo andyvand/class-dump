@@ -6,14 +6,10 @@
 
 #import <CoreNFC/NFCTagCommandConfiguration.h>
 
-@class NSData;
-
 @interface NFCISO15693CustomCommandConfiguration : NFCTagCommandConfiguration
 {
     unsigned char _flags;
     unsigned long long _manufacturerCode;
-    unsigned long long _customCommandCode;
-    NSData *_requestParameters;
 }
 
 - (void);
@@ -23,18 +19,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)p1f;
 - (id);
 - (unsigned char);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long customCommandCode; // @synthesize customCommandCode=_customCommandCode;
 @property(nonatomic) unsigned char flags; // @synthesize flags=_flags;
 @property(nonatomic) unsigned long long manufacturerCode; // @synthesize manufacturerCode=_manufacturerCode;
-@property(copy, nonatomic) NSData *requestParameters; // @synthesize requestParameters=_requestParameters;
 
 @end
 

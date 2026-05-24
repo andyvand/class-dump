@@ -5,5 +5,6 @@
 //
 
 @protocol CDPProbationChecker
+- (_Bool)Settings";
 @end
 

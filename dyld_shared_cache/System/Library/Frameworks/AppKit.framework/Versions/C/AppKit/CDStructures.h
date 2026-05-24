@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSColor, NSData;
+@class NSAppearance, NSColor;
 
 #pragma mark Function Pointers and Blocks
 
@@ -14,30 +14,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AudioBuffer {
-    unsigned int mNumberChannels;
-    unsigned int mDataByteSize;
-    void *mData;
-};
-
-struct AudioStreamBasicDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
-};
-
-struct AudioStreamPacketDescription {
-    long long _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-};
-
 struct CACornerRadii {
     struct CGSize _field1;
     struct CGSize _field2;
@@ -46,37 +22,37 @@ struct CACornerRadii {
 };
 
 struct CAFrameRateRange {
-    float minimum;
-    float maximum;
-    float preferred;
+    float _field1;
+    float _field2;
+    float _field3;
 };
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -95,22 +71,8 @@ struct CGSize {
 };
 
 struct CGVector {
-    double dx;
-    double dy;
-};
-
-struct CMNamedColorPageInfoEntryType {
-    unsigned short _field1;
-    unsigned short _field2;
-    unsigned short _field3;
-    unsigned short _field4[3];
-};
-
-struct CMNamedColorPageInfoType {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    struct CMNamedColorPageInfoEntryType _field4[1];
+    double _field1;
+    double _field2;
 };
 
 struct CVSMPTETime {
@@ -123,10 +85,6 @@ struct CVSMPTETime {
     short _field7;
     short _field8;
     short _field9;
-};
-
-struct ComponentInstanceRecord {
-    long long _field1[1];
 };
 
 struct EventTypeSpec {
@@ -169,16 +127,6 @@ struct NSButtonState {
     _Bool _field4;
 };
 
-struct NSDPClassInfo {
-    struct NSDPClassInfo *_field1;
-    Class _field2;
-    unsigned long long _field3;
-    struct NSDPPropertyInfo *_field4;
-    struct __CFDictionary *_field5;
-    struct __CFDictionary *_field6;
-    struct __CFDictionary *_field7;
-};
-
 struct NSDPPropertyInfo {
     SEL _field1[3];
     struct __CFString *_field2;
@@ -187,10 +135,10 @@ struct NSDPPropertyInfo {
 };
 
 struct NSDirectionalEdgeInsets {
-    double top;
-    double leading;
-    double bottom;
-    double trailing;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct NSEdgeInsets {
@@ -219,14 +167,6 @@ struct NSMenuServicesViewMetrics {
     double _field11;
 };
 
-struct NSMenuUpdaterInfo_t {
-    struct NSMenuUpdaterInfo_t *_field1;
-    CDUnknownBlockType _field2;
-    id _field3;
-    short _field4;
-    unsigned short _field5;
-};
-
 struct NSScrollPocketState {
     _Bool _field1;
     _Bool _field2;
@@ -242,16 +182,6 @@ struct NSToolbarFullScreenContentViewLayout_t {
     struct CGRect _field6;
     struct CGRect _field7;
     struct CGRect _field8;
-};
-
-struct NSWindowBatchOrderingTriplet {
-    unsigned int _field1;
-    unsigned int _field2;
-    long long _field3;
-};
-
-struct NSWorkspaceNotificationCenterSubsystemContext_t {
-    id token;
 };
 
 struct OpaqueEventRef;
@@ -1323,13 +1253,6 @@ struct _NSImageCellAnimationState {
     long long _field6;
 };
 
-struct _NSNibFlags {
-    unsigned int _isKeyed:1;
-    unsigned int _inheritsDecodeTimeBundle:1;
-    unsigned int _inheritsDecodeTimePath:1;
-    unsigned int _reserved:29;
-};
-
 struct _NSOrderedRangeIndexerImpl;
 
 struct _NSOrthogonalScrollingContentInsets {
@@ -1351,11 +1274,6 @@ struct _NSSymbolImageRepGeometry {
     struct CGRect imageRect;
     double scaleFactor;
     _Bool needsHorizontalFlip;
-};
-
-struct _NSViewTrackingRect {
-    long long _field1;
-    struct _NSViewTrackingRect *_field2;
 };
 
 struct _PrivatePrintOperationInfo {
@@ -1413,12 +1331,10 @@ struct _PrivatePrintOperationInfo {
     long long _field52;
 };
 
-struct __CFDictionary;
-
 struct __NSKeyValueCodingControllerModeType {
-    long long mode;
-    unsigned long long index;
-    id indexPath;
+    long long _field1;
+    unsigned long long _field2;
+    id _field3;
 };
 
 struct __NSToolbarItemLayoutMetrics {
@@ -1441,20 +1357,47 @@ struct __NSToolbarItemLayoutMetrics {
 };
 
 struct __NSToolbarLayoutMetrics {
-    double firstItemViewerInset;
-    double lastItemViewerInset;
-    double lastSidebarItemViewerInset;
-    double interItemViewerSpacing;
-    double interPlatterSpacing;
-    double toolbarHeightIcon;
-    double toolbarHeightIconAndLabel;
-    double toolbarHeightLabel;
-    double minimumToolbarHeight;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
 };
 
 struct __NSToolbarMetrics {
     struct __NSToolbarLayoutMetrics _field1;
     struct __NSToolbarItemLayoutMetrics _field2;
+};
+
+struct __SPFlags {
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
 
 struct __shared_weak_count;
@@ -1529,26 +1472,6 @@ struct vector<_NSRange, std::allocator<_NSRange>> {
     } ;
 };
 
-struct work_interval_data {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned long long _field3;
-    unsigned long long _field4;
-    unsigned long long _field5;
-    unsigned long long _field6;
-};
-
-struct work_interval_instance {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-    unsigned long long _field4;
-    unsigned long long _field5;
-    unsigned long long _field6;
-    unsigned int _field7;
-    struct work_interval_data _field8;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -1574,12 +1497,6 @@ typedef struct {
     id _field2;
     id _field3;
 } CDStruct_0f015c83;
-
-typedef struct {
-    NSData *stream;
-    char *currentPtr;
-    char *endPtr;
-} CDStruct_d87b8232;
 
 typedef struct {
     _Bool _field1;
@@ -1630,25 +1547,25 @@ typedef struct {
 } CDStruct_48875a69;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
-    char *data;
-    int len;
-} CDStruct_815caf98;
+    char *_field1;
+    int _field2;
+} CDStruct_530518fa;
 
 typedef struct {
-    double scaleFactor;
-    unsigned long long controlSize;
-    long long stateValue;
-    NSColor *trackColor;
-    unsigned int isActive:1;
-    unsigned int isEnabled:1;
-    unsigned int isHighlighted:1;
-    unsigned int isRTL:1;
-    unsigned int shouldShowAxLabels:1;
-} CDStruct_04135deb;
+    double _field1;
+    unsigned long long _field2;
+    long long _field3;
+    id _field4;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_b56a86f2;
 
 typedef struct {
     double _field1;
@@ -1684,15 +1601,15 @@ typedef struct {
 } CDStruct_029a7ed3;
 
 typedef struct {
-    double origin;
-    double length;
-} CDStruct_507282ca;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
-    int commonRowHorizontalAlignment;
-    int lastRowHorizontalAlignment;
-    int rowVerticalAlignment;
-} CDStruct_2f5e8405;
+    int _field1;
+    int _field2;
+    int _field3;
+} CDStruct_77932685;
 
 typedef struct {
     long long _field1;
@@ -1715,15 +1632,10 @@ typedef struct {
 } CDStruct_77becdfd;
 
 typedef struct {
-    long long itemIndex;
-    long long alignment;
-    double offset;
-} CDStruct_3bb9c5bc;
-
-typedef struct {
-    long long generationCount;
-    long long changeCount;
-} CDStruct_df2dc5d0;
+    long long _field1;
+    long long _field2;
+    double _field3;
+} CDStruct_8ff95007;
 
 typedef struct CDStruct_183601bc;
 
@@ -1763,13 +1675,13 @@ typedef struct {
 } CDStruct_e3b9714e;
 
 typedef struct {
-    struct CGSize frameSize;
-    unsigned long long scalableAxes;
-    double baselineOffset;
-    struct NSEdgeInsets alignmentRectInsets;
-    struct NSEdgeInsets idealContentInsets;
-    struct NSEdgeInsets maximumContentInsets;
-} CDStruct_ca97d7f4;
+    struct CGSize _field1;
+    unsigned long long _field2;
+    double _field3;
+    struct NSEdgeInsets _field4;
+    struct NSEdgeInsets _field5;
+    struct NSEdgeInsets _field6;
+} CDStruct_1488161b;
 
 typedef struct {
     struct CGSize _field1;
@@ -1796,7 +1708,7 @@ typedef struct {
     struct CGSize _field1;
     struct NSDirectionalEdgeInsets _field2;
     struct NSDirectionalEdgeInsets _field3;
-} CDStruct_28f568a3;
+} CDStruct_2cd42e15;
 
 typedef struct {
     _Bool _field1;
@@ -1859,29 +1771,21 @@ typedef struct {
 } CDStruct_ec1ddb7e;
 
 typedef struct {
-    struct CGRect trackingRect;
-    double lastActionTimestamp;
-    _Bool isTrackingUp;
-    _Bool isHovered;
-    _Bool isTrackingWithPressure;
-} CDStruct_8bbc296c;
+    struct CGRect _field1;
+    double _field2;
+    double _field3;
+} CDStruct_91e28287;
 
 typedef struct {
-    struct CGRect boundingRect;
-    double firstBaselineOffsetFromTop;
-    double lastBaselineOffsetFromTop;
-} CDStruct_f44b504d;
-
-typedef struct {
-    struct CGRect visibleContentRect;
-    long long selectedIndex;
-    long long secondarySelectedIndex;
-    double fractionOfSecondary;
-    long long highlightedIndex;
-    long long numberOfItems;
-    struct CGPoint contentTrackingPoint;
-    _Bool trackingSelection;
-} CDStruct_11db19a6;
+    struct CGRect _field1;
+    long long _field2;
+    long long _field3;
+    double _field4;
+    long long _field5;
+    long long _field6;
+    struct CGPoint _field7;
+    _Bool _field8;
+} CDStruct_e7e06f5e;
 
 typedef struct {
     struct CGRect _field1;
@@ -1909,9 +1813,4 @@ typedef struct {
     struct NSEdgeInsets _field6;
     struct NSEdgeInsets _field7;
 } CDStruct_f3cf795a;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int needsRecalc:1;
-} CDStruct_ac47fae2;
 

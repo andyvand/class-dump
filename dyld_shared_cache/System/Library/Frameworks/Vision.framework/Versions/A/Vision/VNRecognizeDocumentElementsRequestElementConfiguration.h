@@ -7,7 +7,6 @@
 @interface VNRecognizeDocumentElementsRequestElementConfiguration
 {
     _Bool _recognize;
-    _Bool _generateSegmentationMask;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property _Bool generateSegmentationMask; // @synthesize generateSegmentationMask=_generateSegmentationMask;
 @property _Bool recognize; // @synthesize recognize=_recognize;
 
 @end

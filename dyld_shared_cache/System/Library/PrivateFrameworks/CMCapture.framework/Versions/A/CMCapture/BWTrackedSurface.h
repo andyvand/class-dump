@@ -7,24 +7,18 @@
 @interface BWTrackedSurface
 {
     struct __IOSurface *_surface;
-    CDUnknownBlockType _handler;
-    int _clientUseCount;
-    _Bool _owningPixelBufferDeallocated;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)<;
 - (int);
-- (void);
+- (void)PDBlackOptions;
 - (struct __IOSurface *);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 
 // Remaining properties
-@property(nonatomic) int clientUseCount; // @synthesize clientUseCount=_clientUseCount;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) _Bool owningPixelBufferDeallocated; // @synthesize owningPixelBufferDeallocated=_owningPixelBufferDeallocated;
 @property(readonly, nonatomic) struct __IOSurface *surface; // @synthesize surface=_surface;
 
 @end

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSControl;
+
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (_Bool)p:(NSControl *)arg1;
+- (_Bool);
 @end
 

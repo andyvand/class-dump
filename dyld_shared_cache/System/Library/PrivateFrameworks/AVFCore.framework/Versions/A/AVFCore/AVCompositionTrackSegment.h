@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAssetTrackSegment.h>
 
-@class AVCompositionTrackSegmentInternal, NSURL;
+@class AVCompositionTrackSegmentInternal;
 
 @interface AVCompositionTrackSegment : AVAssetTrackSegment
 {
@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -32,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) int sourceTrackID;
-@property(readonly, nonatomic) NSURL *sourceURL;
 
 @end
 

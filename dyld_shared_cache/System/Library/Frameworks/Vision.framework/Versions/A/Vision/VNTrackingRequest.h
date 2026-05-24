@@ -11,8 +11,6 @@
 @interface VNTrackingRequest : VNImageBasedRequest
 {
     VNDetectedObjectObservation *_inputObservation;
-    unsigned long long _trackingLevel;
-    _Bool _lastFrame;
 }
 
 + (id);
@@ -25,17 +23,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)<;
+- (id)stated as offline, or lack of known online status:CSSaysParentOfflineCombined=%d /* Error: Ran out of types for this method. */;
+- (id)tailsManagedB0CG;
+- (void)roup changes, %@;
 - (_Bool);
 - (void)print;
 - (_Bool);
@@ -43,8 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) VNDetectedObjectObservation *inputObservation; // @synthesize inputObservation=_inputObservation;
-@property(nonatomic, getter=isLastFrame) _Bool lastFrame; // @synthesize lastFrame=_lastFrame;
-@property(nonatomic) unsigned long long trackingLevel; // @synthesize trackingLevel=_trackingLevel;
 
 @end
 

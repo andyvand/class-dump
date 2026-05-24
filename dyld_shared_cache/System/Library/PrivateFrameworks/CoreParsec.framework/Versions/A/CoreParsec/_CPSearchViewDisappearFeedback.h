@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPSearchViewDisappearFeedback
 {
     int _viewDisappearEvent;
-    unsigned long long _timestamp;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (int);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)R;
+- (_Bool);
+- (_Bool)hB;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int viewDisappearEvent; // @synthesize viewDisappearEvent=_viewDisappearEvent;
 
 @end
 

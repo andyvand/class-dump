@@ -4,26 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
 @protocol CKPluginEntryViewControllerDelegate;
 
 @protocol CKPluginEntryViewController
+
+@optional
+- (void)@0:8{CGPoint=dd}16 /* Error: Ran out of types for this method. */;
+- (void)textController:(id <CKPluginEntryViewControllerDelegate>)arg1 updatedTrackedAttribute: /* Error: Ran out of types for this method. */;
+- (void)isUsed;
+- (void)initWithRed:green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)initWithRecordsToSave:recordIDsToDelete: /* Error: Ran out of types for this method. */;
+- (void)initWithImageSize:scale: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultLinkTextAttributes;
+- (id)_modernFoldersInSource;
+- (NSArray *)Updated;
+- (void)isResettingBaseWritingDirection;
+- (id <CKPluginEntryViewControllerDelegate>)bject",R,N,V_modernDestination;
+- (void)containsObject: /* Error: Ran out of types for this method. */;
+- (void)ICPDFEncryptionStateChecker",C,N,V_encryptionStateChecker;
+- (void)i;
+- (void)t;
+- (NSString *)?;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKPluginEntryViewControllerDelegate> entryViewDelegate;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<CKPluginEntryViewControllerDelegate>",?,W,N
-
-@property(readonly) _Bool loadedContentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool wantsClearButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool wantsEdgeToEdgeLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
 
 @end
 

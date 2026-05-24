@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECDKIMVerifier, ECDMARCVerifier;
+@class ECDKIMVerifier;
 
 @interface ECMessageAuthenticator
 {
     ECDKIMVerifier *_dkimVerifier;
-    ECDMARCVerifier *_dmarcVerifier;
 }
 
+- (id)egate completed but cancelled. Not dismissing.;
+- (id)gate, %@.;
+- (id)already a subview of another view.;
+- (id)gin rewind command;
+- (id)%@;
+- (id)sync:(id)arg1 grouped devices count != 1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ification received; note = %{public}@;
+- (id)or this player item.;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_displayPageGrabIntervalInCallTrees;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ECDKIMVerifier *dkimVerifier; // @synthesize dkimVerifier=_dkimVerifier;
-@property(readonly, nonatomic) ECDMARCVerifier *dmarcVerifier; // @synthesize dmarcVerifier=_dmarcVerifier;
 
 @end
 

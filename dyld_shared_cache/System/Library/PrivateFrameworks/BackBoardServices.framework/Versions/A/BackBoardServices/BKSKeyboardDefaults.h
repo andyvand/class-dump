@@ -11,12 +11,12 @@
 }
 
 - (void);
-- (id);
+- (id)ault Error iterating rows %d
+;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *modifierKeyRemapping; // @dynamic modifierKeyRemapping;
-@property(retain, nonatomic) NSDictionary *oldModifierKeyRemapping; // @dynamic oldModifierKeyRemapping;
 
 @end
 

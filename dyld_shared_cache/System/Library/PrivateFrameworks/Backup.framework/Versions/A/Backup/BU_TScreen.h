@@ -11,21 +11,21 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)4;
 + (unsigned int);
 + (double);
 + (id);
-+ (double);
++ (double)@;
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);@9(;
 + (double);
 + (double);
 + (struct CGSize);
 + (struct CGRect);
 + (struct CGRect);
-+ (set_868545f3);
++ (set_9b439bd3);
 + (id);
 
 @end

@@ -6,7 +6,7 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSString, STFamilyOrganizationSettings;
+@class NSString;
 
 @interface STAppException : STUniquedManagedObject
 {
@@ -22,18 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamID; // @dynamic adamID;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *distributorID; // @dynamic distributorID;
-@property(retain, nonatomic) STFamilyOrganizationSettings *familyOrgSettings; // @dynamic familyOrgSettings;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long ratingValue; // @dynamic ratingValue;
-@property(readonly) Class superclass;
 
 @end
 

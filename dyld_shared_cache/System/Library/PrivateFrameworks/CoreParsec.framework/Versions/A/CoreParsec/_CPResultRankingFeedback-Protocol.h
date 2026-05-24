@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _CPSearchResultForFeedback;
+@class _CPSearchResultForFeedback;
 
 @protocol _CPResultRankingFeedback
+- (_CPSearchResultForFeedback *);
+- (void);
+- (unsigned int)B;
+- (void);
+- (void)centerStageAvailableChangedNotification:(_CPSearchResultForFeedback *)arg1;
+- (double)MissedFaceTimeGroupCallsCodingKeys;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *duplicateResults;
-@property(copy, nonatomic) NSArray *hiddenResults;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int localResultPosition;
-@property(nonatomic) double personalizationScore;
-@property(retain, nonatomic) _CPSearchResultForFeedback *result;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

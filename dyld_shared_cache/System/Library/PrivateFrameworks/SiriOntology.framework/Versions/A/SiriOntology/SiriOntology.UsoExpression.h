@@ -7,7 +7,6 @@
 @interface SiriOntology.UsoExpression
 {
     id operatorAsString;
-    id operandAsValue;
 }
 
 @end

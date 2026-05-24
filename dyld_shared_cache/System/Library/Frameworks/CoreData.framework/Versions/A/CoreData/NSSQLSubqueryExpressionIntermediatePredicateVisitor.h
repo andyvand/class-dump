@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLSubqueryExpressionIntermediatePredicateVisitor
 {
     NSSQLIntermediate *_scope;
-    _Bool _foundKeypath;
 }
 
 - (_Bool);

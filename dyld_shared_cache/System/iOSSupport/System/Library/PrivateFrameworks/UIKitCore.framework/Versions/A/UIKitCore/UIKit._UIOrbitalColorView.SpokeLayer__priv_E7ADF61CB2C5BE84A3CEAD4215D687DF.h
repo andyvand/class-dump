@@ -7,17 +7,13 @@
 @interface UIKit._UIOrbitalColorView.SpokeLayer__priv_E7ADF61CB2C5BE84A3CEAD4215D687DF
 {
     id color;
-    id normalizedRadius;
-    id normalizedOffset;
-    id offsetDirection;
-    id gradientLayer;
 }
 
-- (id);
+- (id)`;
 - (id);
 - (id)1^°1Â0@ù
 × ;
-- (void)olderLabel;
+- (void)RotaryPlaceholderLabel;
 - (void)(5jþiLÍh°l;
 
 @end

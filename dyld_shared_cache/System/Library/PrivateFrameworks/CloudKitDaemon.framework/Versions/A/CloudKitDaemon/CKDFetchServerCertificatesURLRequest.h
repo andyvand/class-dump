@@ -11,7 +11,6 @@
 @interface CKDFetchServerCertificatesURLRequest : CKDURLRequest
 {
     NSArray *_validatedTrusts;
-    struct __SecPolicy *_certificateTrustPolicy;
 }
 
 + (_Bool);
@@ -27,9 +26,10 @@
 - (_Bool);
 - (struct __SecPolicy *);
 - (id);
-- (long long);
+- (long long);
 - (void);
-- (id);
+- (id)sage left to send for burst
+;
 - (id);
 - (void)pcs;
 - (long long)j';
@@ -37,7 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __SecPolicy *certificateTrustPolicy; // @synthesize certificateTrustPolicy=_certificateTrustPolicy;
-@property(retain) NSArray *validatedTrusts; // @synthesize validatedTrusts=_validatedTrusts;
 
 @end
 

@@ -6,28 +6,26 @@
 
 #import <OfficeImport/OADGraphic.h>
 
-@class OADMovie, OADOle, OADShapeGeometry;
+@class OADShapeGeometry;
 
 __attribute__((visibility("hidden")))
 @interface OADImage : OADGraphic
 {
     OADShapeGeometry *mGeometry;
-    OADOle *mOle;
-    OADMovie *mMovie;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)qA;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)entsOfURL:(id)arg1;
+- (void)dictionaryWithContentsOfURL:(id)arg1;
 - (id)rtDrawingNamespace;
 - (void)¬;
 - (id)ü;

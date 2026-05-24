@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, NSArray;
 @protocol GEOServerFormattedString;
 
 @interface GEOComposedRouteAdvisoryItemDetail
 {
     id <GEOServerFormattedString> _title;
-    GEOComposedString *_titleString;
-    NSArray *_details;
-    NSArray *_detailStrings;
 }
 
 + (_Bool)e:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)initWithComparator:(id)arg1;
+- (id)width;
 - (id);
 - (id);
 - (void);
-- (id)es:(struct _NSZone *)arg1;
+- (id)setCertificates:(struct _NSZone *)arg1;
 - (id);
 - (void)ìê;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *detailStrings; // @synthesize detailStrings=_detailStrings;
-@property(readonly, nonatomic) NSArray *details; // @synthesize details=_details;
 @property(readonly, nonatomic) id <GEOServerFormattedString> title; // @synthesize title=_title;
-@property(readonly, nonatomic) GEOComposedString *titleString; // @synthesize titleString=_titleString;
 
 @end
 

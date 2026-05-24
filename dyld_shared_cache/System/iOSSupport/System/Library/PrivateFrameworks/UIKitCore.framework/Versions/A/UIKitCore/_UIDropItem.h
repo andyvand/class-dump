@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)st instead of starting a new one.;
+- (id)ableState:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id)find chat for %@ to mark message as read;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)sWindow;
+- (id)V_statusPreviousScanDate;
+- (void)focusWindow;
 - (void)ð\;
 
 // Remaining properties

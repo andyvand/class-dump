@@ -7,21 +7,16 @@
 @class NSString;
 
 @protocol _INPBSticker
-- (NSString *)SnoozeAlarmIntentAlarmsUnsupportedReason:(int)arg1;
-- (_Bool)Identifier: /* Error: Ran out of types for this method. */;
-- (void)entNameKey;
-- (void)videEnableMassageOptionsCollectionForSetSeatSettingsInCar:(NSString *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)ѳ;
+- (_Bool)6;
+- (void);
+- (void))A;
+- (NSString *)setHasSnoozeAlarmIntentAlarmsUnsupportedReason:(int)arg1;
+- (_Bool)_setRecordDeviceIdentifier: /* Error: Ran out of types for this method. */;
+- (void)__INCodableAttributeRelationshipParentNameKey;
+- (void)provideEnableMassageOptionsCollectionForSetSeatSettingsInCar:(NSString *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleID;
-@property(copy, nonatomic) NSString *avatarDescriptor;
-@property(copy, nonatomic) NSString *emoji;
-@property(readonly, nonatomic) _Bool hasAppBundleID;
-@property(readonly, nonatomic) _Bool hasAvatarDescriptor;
-@property(readonly, nonatomic) _Bool hasEmoji;
-@property(readonly, nonatomic) _Bool hasStickerDescription;
-@property(nonatomic) _Bool hasType;
-@property(copy, nonatomic) NSString *stickerDescription;
-@property(nonatomic) int type;
 @end
 

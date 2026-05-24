@@ -6,25 +6,24 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SANoteUpdate : SADomainCommand
 {
 }
 
-+ (id);
++ (id)ߥ;
 + (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentsToAppend;
-@property(copy, nonatomic) NSURL *identifier;
 
 @end
 

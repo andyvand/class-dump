@@ -5,17 +5,11 @@
 //
 
 @class NSString;
-@protocol CNFileServices, CNInhibitor, NSLocking;
+@protocol CNInhibitor;
 
 @interface CNProcessSharedLock
 {
     NSString *_lockFilePath;
-    NSString *_name;
-    id <NSLocking> _localLock;
-    long long _localLockCount;
-    int _fileDescriptor;
-    id <CNFileServices> _fileServices;
-    id <CNInhibitor> _runningBoardInhibitor;
 }
 
 + (id);
@@ -34,22 +28,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)rVolume:enabled:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)setAlertTones: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *lockFilePath; // @synthesize lockFilePath=_lockFilePath;
-@property(copy) NSString *name; // @synthesize name=_name;
 @property(retain) id <CNInhibitor> runningBoardInhibitor; // @synthesize runningBoardInhibitor=_runningBoardInhibitor;
 
 @end

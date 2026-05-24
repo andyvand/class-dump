@@ -11,22 +11,19 @@
 @interface WBSTrackedFirstParty : WBSTrackingCapableFirstParty
 {
     NSArray *_blockedTrackers;
-    NSArray *_preventedTrackers;
 }
 
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)sStandalone;
+- (void)safari_isStandalone;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *blockedTrackers; // @synthesize blockedTrackers=_blockedTrackers;
-@property(copy, nonatomic) NSArray *preventedTrackers; // @synthesize preventedTrackers=_preventedTrackers;
-@property(readonly, copy, nonatomic) NSArray *trackers;
 
 @end
 

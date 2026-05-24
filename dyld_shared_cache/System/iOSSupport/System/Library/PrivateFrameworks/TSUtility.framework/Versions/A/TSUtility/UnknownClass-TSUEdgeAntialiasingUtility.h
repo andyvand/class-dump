@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TSUEdgeAntialiasingUtility)
-- (void);
+- (void)ocalDraftsDeviceManagerDelegateP;
 @end
 

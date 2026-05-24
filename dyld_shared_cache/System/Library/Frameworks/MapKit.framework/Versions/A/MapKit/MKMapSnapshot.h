@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSImage, VKMapSnapshot;
+@class NSImage, VKMapSnapshot;
 
 @interface MKMapSnapshot
 {
     VKMapSnapshot *_snapshot;
-    NSImage *_image;
-    NSAppearance *_appearance;
 }
 
 + (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (id)triggerRemoteSessionForSignature:(id)arg1 groupIdentifier:(id)arg2 reply:(id)arg3;
+- (_Bool)setBasebandChipset: /* Error: Ran out of types for this method. */;
+- (void)mote object proxy error %@;
+- (struct CLLocationCoordinate2D)overrideDisableDampening;
 - (id);
 - (struct CGPoint);
 - (id);
-- (void)romWatch:companionRouteContext: /* Error: Ran out of types for this method. */;
+- (void)initWithOriginatedFromWatch:companionRouteContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
 
 @end

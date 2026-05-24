@@ -6,18 +6,9 @@
 
 #import <CoreSpeech/NviSignalData.h>
 
-@class NSArray, NSDictionary;
-
 @interface NviDirectionalitySignalData : NviSignalData
 {
     float _confidence;
-    float _azimuth;
-    float _estimatedAzimuth;
-    unsigned long long _startSample;
-    unsigned long long _endSample;
-    double _processedAudioDurMs;
-    NSArray *_spatialSpectrumData;
-    NSDictionary *_azDistribution;
 }
 
 + (id);
@@ -26,10 +17,10 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
 - (double);
 - (float);
 - (id);
@@ -42,17 +33,9 @@
 - (float);
 - (float);
 - (void);
-- (void)outInSamples;
+- (void)nearMissDelayTimeoutInSamples;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *azDistribution; // @synthesize azDistribution=_azDistribution;
-@property(nonatomic) float azimuth; // @synthesize azimuth=_azimuth;
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) unsigned long long endSample; // @synthesize endSample=_endSample;
-@property(nonatomic) float estimatedAzimuth; // @synthesize estimatedAzimuth=_estimatedAzimuth;
-@property(readonly, nonatomic) float mostSampledAzimuth;
-@property(nonatomic) double processedAudioDurMs; // @synthesize processedAudioDurMs=_processedAudioDurMs;
-@property(retain, nonatomic) NSArray *spatialSpectrumData; // @synthesize spatialSpectrumData=_spatialSpectrumData;
 @property(nonatomic) unsigned long long startSample; // @synthesize startSample=_startSample;
 
 @end

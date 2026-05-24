@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface UIPDFPageRenderOperation
 {
     UIPDFPageRenderJob *_job;
-    _Bool executing;
-    _Bool finished;
 }
 
-- (id);
+- (id)able flag for %@ %d (%s);
 - (void);
+- (void)__swift5_builtin__TEXT;
+- (void)_payloadAllowImagePlayground;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)ns;
+- (id)nsli_boundsHeightVariable;
+- (void)_collectUnusedTargetActions;
 - (_Bool)ïtñóöPø'øú\ü;
 - (_Bool)'ÉÿNÿÒkd;
 - (_Bool);

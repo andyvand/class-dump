@@ -6,24 +6,22 @@
 
 #import <EventKitUI/PreferencesTwoPartValueCell.h>
 
-@class TwoPartTextLabel, UILabel;
+@class UILabel;
 
 @interface PreferencesDoubleTwoPartValueCell : PreferencesTwoPartValueCell
 {
     UILabel *_textLabel2;
-    TwoPartTextLabel *_twoPartLabel2;
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)&s;
+- (void)%s;
+- (void)s;
 - (void);
 - (void)DayViewContentItem";
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UILabel *textLabel2;
-@property(readonly, retain, nonatomic) TwoPartTextLabel *twoPartTextLabel2;
 
 @end
 

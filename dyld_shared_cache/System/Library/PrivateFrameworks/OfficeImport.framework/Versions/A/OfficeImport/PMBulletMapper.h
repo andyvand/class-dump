@@ -6,14 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMStyle, OADParagraphProperties;
+@class OADParagraphProperties;
 
 __attribute__((visibility("hidden")))
 @interface PMBulletMapper : CMMapper
 {
     OADParagraphProperties *mProperties;
-    CMStyle *mStyle;
-    int mFontSize;
 }
 
 + (id);

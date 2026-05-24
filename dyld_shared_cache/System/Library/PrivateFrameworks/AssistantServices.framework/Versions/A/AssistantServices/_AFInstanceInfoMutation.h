@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceInfo, NSString, NSUUID;
+@class AFInstanceInfo;
 
 @interface _AFInstanceInfoMutation
 {
     AFInstanceInfo *_base;
-    NSUUID *_instanceUUID;
-    long long _applicationType;
-    NSUUID *_applicationUUID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasInstanceUUID:1;
-        unsigned int hasApplicationType:1;
-        unsigned int hasApplicationUUID:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -27,17 +18,11 @@
 - (void);
 - (long long);
 - (void);
-- (id)ecordedAudioDictationWithOptions:(id)arg1 forLanguage:narrowband:forceSampling: /* Error: Ran out of types for this method. */;
-- (void)lags;
+- (id)startRecordedAudioDictationWithOptions:(id)arg1 forLanguage:narrowband:forceSampling: /* Error: Ran out of types for this method. */;
+- (void)_mutationFlags;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, PXRunNode;
+@class NSLock;
 
 @interface PXRunNodeOperation
 {
     unsigned long long _state;
-    PXRunNode *_runNode;
-    NSLock *__stateLock;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
@@ -26,15 +24,13 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool)ation: /* Error: Ran out of types for this method. */;
+- (_Bool)assetWithTargetDuration: /* Error: Ran out of types for this method. */;
 - (void)Èÿÿÿ;
 - (_Bool)e<;
 - (_Bool)ÄL|Y=;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLock *_stateLock; // @synthesize _stateLock=__stateLock;
-@property(readonly, nonatomic) PXRunNode *runNode; // @synthesize runNode=_runNode;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
 
 @end
 

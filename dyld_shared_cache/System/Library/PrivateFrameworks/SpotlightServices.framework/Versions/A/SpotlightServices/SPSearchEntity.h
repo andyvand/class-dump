@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, SFColor, SFCommand, SFImage;
+@class NSString;
 
 @interface SPSearchEntity
 {
     NSString *_displayString;
-    NSString *_tokenString;
-    SFCommand *_command;
-    _Bool _shouldAllowMoreResults;
-    _Bool _hasWords;
-    _Bool _isSuggestion;
-    _Bool _isActionsBrowse;
-    NSString *_searchString;
-    SFImage *_tokenImage;
-    NSArray *_spotlightFilterQueries;
-    NSArray *_coreSpotlightFilterQueries;
-    NSArray *_metadataFilterQueries;
-    NSArray *_enabledDomains;
-    NSArray *_preferredBundleIDs;
-    SFColor *_entityBackgroundColor;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)etadata";
++ (id)setImageView:(id)arg1;
++ (id)setImagePadding:(id)arg1;
++ (id)setIgnoreSafeAreaInset:(id)arg1;
++ (id)setIconMetadata:(id)arg1;
++ (id)setHyphenationFactor:(id)arg1;
++ (id)setHighlightColor:(id)arg1;
++ (id)setHeight:(id)arg1;
++ (id)setHasSingleDominantColor:(id)arg1;
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id)Word;
++ (id)kMDItemDescription_TermFrequencies_Sum_Word;
 - (void);
 - (void);
 - (void);
@@ -46,83 +32,52 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)setMargin: /* Error: Ran out of types for this method. */;
+- (void)isTwitterSummaryLargeImageCardMetadata:(id)arg1;
+- (void)isTwitterSummaryCardMetadata:(id)arg1;
+- (_Bool)initWithAudio:style:theme:player: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)current user.;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)t";
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)PAMediaConversionServiceDeduplicatedAgainstOriginalRequestIdentifierKey;
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)eResultSetDependantFeatures:allItems: /* Error: Ran out of types for this method. */;
+- (void)computeResultSetDependantFeatures:allItems: /* Error: Ran out of types for this method. */;
 - (id)erverScore;
 - (void)oday(-1w),$time.today);
-- (id)assificationSynonyms_ordered_word_min_pair_distance;
+- (id)kMDItemPhotosSceneClassificationSynonyms_ordered_word_min_pair_distance;
 
 // Remaining properties
-@property(readonly, nonatomic) SFCommand *command;
-@property(copy, nonatomic) NSArray *coreSpotlightFilterQueries; // @synthesize coreSpotlightFilterQueries=_coreSpotlightFilterQueries;
-@property(readonly, nonatomic) NSString *currentSearchString;
-@property(readonly, nonatomic) NSString *displayString;
-@property(copy, nonatomic) NSArray *enabledDomains; // @synthesize enabledDomains=_enabledDomains;
-@property(retain, nonatomic) SFColor *entityBackgroundColor; // @synthesize entityBackgroundColor=_entityBackgroundColor;
-@property(readonly, nonatomic) NSArray *folderScopes;
-@property(readonly, nonatomic) NSArray *groupingRules;
-@property _Bool hasWords; // @synthesize hasWords=_hasWords;
-@property(nonatomic) _Bool isActionsBrowse; // @synthesize isActionsBrowse=_isActionsBrowse;
-@property(readonly) _Bool isAppEntitySearch;
-@property(readonly) _Bool isCommandEntitySearch;
-@property(readonly) _Bool isContactEntitySearch;
-@property(readonly) _Bool isFilterSearch;
-@property(readonly) _Bool isFolderSearch;
-@property(readonly) _Bool isNLPEntitySearch;
-@property(readonly) _Bool isPhotosEntitySearch;
-@property(readonly) _Bool isScopedSearch;
-@property(readonly) _Bool isServerEntitySearch;
-@property _Bool isSuggestion; // @synthesize isSuggestion=_isSuggestion;
-@property(copy, nonatomic) NSArray *metadataFilterQueries; // @synthesize metadataFilterQueries=_metadataFilterQueries;
-@property(copy, nonatomic) NSArray *preferredBundleIDs; // @synthesize preferredBundleIDs=_preferredBundleIDs;
-@property(readonly, nonatomic) NSString *queryString;
 @property(copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) _Bool shouldAllowMoreResults; // @synthesize shouldAllowMoreResults=_shouldAllowMoreResults;
-@property(copy, nonatomic) NSArray *spotlightFilterQueries; // @synthesize spotlightFilterQueries=_spotlightFilterQueries;
-@property(readonly, nonatomic) NSString *spotlightQueryString;
-@property(readonly, nonatomic) NSDictionary *spotlightRankCategories;
-@property(readonly, nonatomic) NSDictionary *spotlightRankTerms;
-@property(readonly, nonatomic) NSString *symbolName;
-@property(readonly, nonatomic) SFImage *tokenImage; // @synthesize tokenImage=_tokenImage;
-@property(readonly, nonatomic) NSString *tokenText;
 
 @end
 

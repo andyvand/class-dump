@@ -7,9 +7,6 @@
 @interface AppKit.NSScrollPocket.PocketElement__priv_EC3F85FAB7755D56E669206D2B17725B
 {
     id element;
-    id viewGeometryObserver;
-    id viewGeometryObservation;
-    id effectiveAlphaObserver;
 }
 
 @end

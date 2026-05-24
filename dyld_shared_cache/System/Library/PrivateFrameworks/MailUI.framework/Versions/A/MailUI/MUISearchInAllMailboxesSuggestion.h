@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSString;
+@class CSSuggestion;
 
 @interface MUISearchInAllMailboxesSuggestion
 {
     CSSuggestion *_suggestion;
-    NSString *_title;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ilingStatusStack;
-- (void)ssibilityColumnTitles: /* Error: Ran out of types for this method. */;
+- (void)sions/A/Network;
+- (id)trailingStatusStack;
+- (void)setAccessibilityColumnTitles: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CSSuggestion *suggestion; // @synthesize suggestion=_suggestion;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 @interface PILongExposureFusion
 {
     CIImage *_inputImage;
-    CIImage *_inputStillImage;
-    CIImage *_inputMaskImage;
-    NSNumber *_inputRenderScale;
-    NSNumber *_inputVideoScale;
-    CIVector *_inputAlignmentExtent;
-    CIVector *_inputAlignmentTransform;
 }
 
 + (void);
@@ -30,9 +24,9 @@
 - (id);
 - (id);
 - (id);
+- (id)	;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,16 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (void)radientWhite: /* Error: Ran out of types for this method. */;
+- (void)setGradientWhite: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputAlignmentExtent; // @synthesize inputAlignmentExtent=_inputAlignmentExtent;
-@property(retain, nonatomic) CIVector *inputAlignmentTransform; // @synthesize inputAlignmentTransform=_inputAlignmentTransform;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) CIImage *inputMaskImage; // @synthesize inputMaskImage=_inputMaskImage;
-@property(retain, nonatomic) NSNumber *inputRenderScale; // @synthesize inputRenderScale=_inputRenderScale;
-@property(retain, nonatomic) CIImage *inputStillImage; // @synthesize inputStillImage=_inputStillImage;
-@property(retain, nonatomic) NSNumber *inputVideoScale; // @synthesize inputVideoScale=_inputVideoScale;
 
 @end
 

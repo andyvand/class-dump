@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface CPLResetReason
 {
     _Bool _tentative;
-    NSString *_uuid;
-    NSDate *_date;
-    NSString *_reason;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (void);
 - (id);
@@ -31,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id asPlist;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool tentative; // @synthesize tentative=_tentative;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

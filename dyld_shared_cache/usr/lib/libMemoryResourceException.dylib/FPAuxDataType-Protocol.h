@@ -5,9 +5,9 @@
 //
 
 @protocol FPAuxDataType
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool fp_isContainer;
-@property(readonly, nonatomic) id fp_jsonRepresentation;
 @end
 

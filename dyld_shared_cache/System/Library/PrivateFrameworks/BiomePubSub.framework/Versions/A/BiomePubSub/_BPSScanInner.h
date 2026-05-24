@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSScanInner
 {
     id <BPSSubscriber> _downstream;
-    id _result;
-    CDUnknownBlockType _nextPartialResult;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)xpc_hasCollected:isCollecting:withIdentifiers:inSession: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (long long);
+- (id);
+- (void);
+- (CDUnknownBlockType))q;
+- (long long)`;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType nextPartialResult; // @synthesize nextPartialResult=_nextPartialResult;
-@property(retain, nonatomic) id result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 
 @end
 

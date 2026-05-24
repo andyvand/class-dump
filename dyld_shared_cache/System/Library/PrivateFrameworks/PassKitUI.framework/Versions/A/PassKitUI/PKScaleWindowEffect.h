@@ -9,8 +9,6 @@
 @interface PKScaleWindowEffect
 {
     CDUnknownFunctionPointerType _function;
-    QLScaleWindowEffect *_nextEffect;
-    double _nextEffectDelay;
 }
 
 - (void);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(retain) QLScaleWindowEffect *nextEffect; // @synthesize nextEffect=_nextEffect;
-@property double nextEffectDelay; // @synthesize nextEffectDelay=_nextEffectDelay;
 
 @end
 

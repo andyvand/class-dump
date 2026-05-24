@@ -7,14 +7,12 @@
 @interface PKGroupsControllerSnapshotFetchOptions
 {
     _Bool _limitResults;
-    _Bool _includeAnnotations;
-    unsigned long long _allowedPassType;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
 - (void);
-- (void);
+- (void)j&;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -24,8 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedPassType; // @synthesize allowedPassType=_allowedPassType;
-@property(nonatomic) _Bool includeAnnotations; // @synthesize includeAnnotations=_includeAnnotations;
 @property(nonatomic) _Bool limitResults; // @synthesize limitResults=_limitResults;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BSBlockSentinelSignalContext
 {
     _Bool _complete;
-    _Bool _failed;
-    id _context;
 }
 
 - (id);
@@ -20,15 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(readonly, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFailed) _Bool failed; // @synthesize failed=_failed;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

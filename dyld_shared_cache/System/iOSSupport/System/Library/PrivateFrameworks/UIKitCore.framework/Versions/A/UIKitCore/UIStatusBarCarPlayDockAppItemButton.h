@@ -6,24 +6,17 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class NSLayoutConstraint, NSString, UIImageView;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarCarPlayDockAppItemButton : UIButton
 {
     NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    _Bool _active;
-    _Bool _hasBadge;
-    NSString *_bundleIdentifier;
-    UIImageView *_iconImageView;
-    UIImageView *_iconHighlightImageView;
-    UIImageView *_badgeView;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)ickSwitch Could not delete DB at path %@;
 - (_Bool);
 - (void);
 - (float);
@@ -33,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)buildWithIdentifier:withMode:withCategories:withCategoriesVersion2: /* Error: Ran out of types for this method. */;
+- (id)setHasBeenPlayed: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)Qd°1Â0@ù
 × ;
 - (_Bool);
-- (void)isUsingCustomSize;
+- (void)_isUsingCustomSize;
 - (id)V_thumbEnabled;
-- (id)eEnabledWithNotification:(struct _NSZone *)arg1;
+- (id)_updateEnabledWithNotification:(struct _NSZone *)arg1;
 - (void)e nil.;
 - (void);
 - (void)ÿ;
@@ -51,12 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) UIImageView *badgeView; // @synthesize badgeView=_badgeView;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool hasBadge; // @synthesize hasBadge=_hasBadge;
-@property(retain, nonatomic) UIImageView *iconHighlightImageView; // @synthesize iconHighlightImageView=_iconHighlightImageView;
-@property(retain, nonatomic) UIImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(readonly, nonatomic) _Bool itemHasBundleIdentifier;
 
 @end
 

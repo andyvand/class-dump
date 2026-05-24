@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachine, NFStateMachineState, NSString, UIButton, UIImageView, UILabel;
-@protocol SXQuickLookEventHandler, SXQuickLookRenderer;
+@protocol SXQuickLookEventHandler;
 
 @interface SXQuickLookViewController
 {
     id <SXQuickLookEventHandler> _eventHandler;
-    id <SXQuickLookRenderer> _renderer;
-    NFStateMachine *_stateMachine;
-    NFStateMachineState *_loadingState;
-    NFStateMachineState *_presentingState;
-    NFStateMachineState *_errorState;
-    UIImageView *_thumbnailImageView;
-    UIButton *_thumbnailControl;
-    UILabel *_errorLabel;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)4	;
 - (id);
 - (id);
+- (id);
+- (void);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -32,33 +27,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)Q;
 - (id);
 - (void);
 - (id)Ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UILabel *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly, nonatomic) NFStateMachineState *errorState; // @synthesize errorState=_errorState;
 @property(readonly, nonatomic) id <SXQuickLookEventHandler> eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NFStateMachineState *loadingState; // @synthesize loadingState=_loadingState;
-@property(readonly, nonatomic) NFStateMachineState *presentingState; // @synthesize presentingState=_presentingState;
-@property(readonly, nonatomic) id <SXQuickLookRenderer> renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIButton *thumbnailControl; // @synthesize thumbnailControl=_thumbnailControl;
-@property(readonly, nonatomic) UIImageView *thumbnailImageView; // @synthesize thumbnailImageView=_thumbnailImageView;
 
 @end
 

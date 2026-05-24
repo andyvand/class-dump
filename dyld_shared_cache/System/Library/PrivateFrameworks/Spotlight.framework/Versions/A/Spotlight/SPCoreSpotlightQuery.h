@@ -6,32 +6,14 @@
 
 #import <Spotlight/SPMetadataQuery.h>
 
-@class CSSearchQuery, NSArray, NSMutableDictionary, NSMutableSet, NSObject, PRSRankingItemRanker;
-@protocol OS_dispatch_source;
+@class CSSearchQuery, NSMutableDictionary;
 
 @interface SPCoreSpotlightQuery : SPMetadataQuery
 {
     NSMutableDictionary *_suggestions;
-    _Bool _queryCanceled;
-    struct os_unfair_lock_s _queryLock;
-    NSArray *_rankingQueries;
-    NSArray *_rankingPatterns;
-    struct os_unfair_lock_s _timeoutTimerLock;
-    struct IndexResultsRegistry _indexResultsRegistry;
-    NSMutableDictionary *_groupedSections;
-    PRSRankingItemRanker *_ranker;
-    NSMutableSet *_seenHostBookmarkURL;
-    NSMutableDictionary *_syntheticBookmarks;
-    NSMutableSet *_hostSchemeHTTPS;
-    _Bool _priorityTimerFired;
-    _Bool _priorityResultsArrived;
-    int _csQueryState;
-    CSSearchQuery *_csQuery;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSMutableSet *_foundAliasedItems;
 }
 
-+ (unsigned int);
++ (unsigned int);
 + (id);
 + (void);
 - (_Bool);
@@ -46,7 +28,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,12 +41,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)"@9;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)7;
 - (_Bool);
 - (id);
 - (void);
@@ -78,9 +60,6 @@
 
 // Remaining properties
 @property(retain) CSSearchQuery *csQuery; // @synthesize csQuery=_csQuery;
-@property(readonly, nonatomic) int csQueryState; // @synthesize csQueryState=_csQueryState;
-@property(retain) NSMutableSet *foundAliasedItems; // @synthesize foundAliasedItems=_foundAliasedItems;
-@property(retain) NSObject<OS_dispatch_source> *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 
 @end
 

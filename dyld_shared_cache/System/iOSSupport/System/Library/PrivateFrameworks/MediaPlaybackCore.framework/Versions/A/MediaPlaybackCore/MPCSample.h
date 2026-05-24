@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MPCSample
 {
     int _number;
-    int _thermalLevel;
-    double _level;
-    double _time;
-    long long _state;
 }
 
 - (id);
@@ -23,11 +19,7 @@ __attribute__((visibility("hidden")))
 - (double)Ds;
 
 // Remaining properties
-@property(readonly, nonatomic) double level; // @synthesize level=_level;
 @property(readonly, nonatomic) int number; // @synthesize number=_number;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
-@property(readonly, nonatomic) double time; // @synthesize time=_time;
 
 @end
 

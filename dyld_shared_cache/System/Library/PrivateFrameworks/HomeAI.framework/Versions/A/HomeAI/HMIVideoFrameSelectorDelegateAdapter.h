@@ -7,8 +7,6 @@
 @interface HMIVideoFrameSelectorDelegateAdapter
 {
     CDUnknownBlockType _frameSelectorDidSelectFrame;
-    CDUnknownBlockType _frameSelectorDidSkipFrame;
-    CDUnknownBlockType _frameSelectorPrepareFrame;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType frameSelectorDidSelectFrame; // @synthesize frameSelectorDidSelectFrame=_frameSelectorDidSelectFrame;
-@property(copy) CDUnknownBlockType frameSelectorDidSkipFrame; // @synthesize frameSelectorDidSkipFrame=_frameSelectorDidSkipFrame;
-@property(copy) CDUnknownBlockType frameSelectorPrepareFrame; // @synthesize frameSelectorPrepareFrame=_frameSelectorPrepareFrame;
 
 @end
 

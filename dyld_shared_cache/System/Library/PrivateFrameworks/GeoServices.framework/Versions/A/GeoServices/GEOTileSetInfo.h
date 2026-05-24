@@ -9,23 +9,13 @@
 @interface GEOTileSetInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _count;
-    int _style;
-    unsigned int _uncertainty;
-    unsigned int _zoom;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_style:1;
-        unsigned int has_uncertainty:1;
-        unsigned int has_zoom:1;
-    } _flags;
 }
 
-+ (_Bool)moryCacheTotalCostLimit:(id)arg1;
++ (_Bool)setMemoryCacheTotalCostLimit:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)24;
 - (void);
 - (void);
 - (_Bool);
@@ -36,19 +26,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)fullWakePowerAssertion;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_mk_connectionsSection;
 - (id);
 - (_Bool);
-- (void);
+- (void)T;
 - (id)ta"b1"wrote_anyField"b1};
-- (id);
-- (id)OPlannedDestination;
+- (id)hasShield;
+- (id)GEOPlannedDestination;
 - (id)originalPlace;
 - (unsigned int)ppleInternal/Library/Preferences/GeoServices/GEOResourceCertIds.plist;
 - (void)lay_name TEXT,    insert_timestamp INT NOT NULL,    update_interval INT,    UNIQUE(identifier)    ON CONFLICT REPLACE    );;
@@ -58,15 +48,7 @@
 - (int)ýÿûÿüÿýÿþÿûÿóÿòÿôÿõÿ ;
 
 // Remaining properties
-@property(nonatomic) unsigned int count;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasStyle;
-@property(nonatomic) _Bool hasUncertainty;
-@property(nonatomic) _Bool hasZoom;
-@property(nonatomic) int style;
-@property(nonatomic) unsigned int uncertainty;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zoom;
 
 @end
 

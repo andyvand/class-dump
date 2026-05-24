@@ -9,7 +9,6 @@
 @interface CHCyrillicAddAlternativeScriptCandidatesStep : CHPostprocessingStep
 {
     struct _LXLexicon *_staticLexicon;
-    struct _LXLexicon *_customLexicon;
 }
 
 - (id);

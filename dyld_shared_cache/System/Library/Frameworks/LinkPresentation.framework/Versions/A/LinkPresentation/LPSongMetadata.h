@@ -11,8 +11,6 @@
 @interface LPSongMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    NSString *_artist;
-    NSString *_album;
 }
 
 + (id);
@@ -23,27 +21,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)record %@;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

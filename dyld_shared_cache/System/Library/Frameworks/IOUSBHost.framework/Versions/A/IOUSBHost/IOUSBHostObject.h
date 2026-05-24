@@ -4,91 +4,65 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostInterestNotifier, NSArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IOUSBHostObject
 {
     _Atomic _Bool destroyed;
-    unsigned int _ioService;
-    unsigned int _ioConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    const struct IOUSBDeviceDescriptor *_deviceDescriptor;
-    unsigned long long _debugLoggingMask;
-    struct IONotificationPort *_ioNotificationPortRef;
-    IOUSBHostInterestNotifier *_interestNotifier;
-    CDUnknownBlockType _interestHandler;
-    NSMutableSet *_invalidDescriptorCache;
-    NSMutableDictionary *_descriptorCache;
-    NSArray *_supportedStringLanguages;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)<);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)m;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (struct IONotificationPort *);
+- (_Bool)d:(unsigned long long)arg1;
+- (struct IONotificationPort *)n;
 - (id);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (const struct IOUSBDeviceDescriptor *);
-- (void);
-- (const struct IOUSBDescriptorHeader *);
-- (const struct IOUSBDescriptorHeader *);
-- (const struct IOUSBDescriptorHeader *);
-- (unsigned long long);
-- (unsigned long long);
-- (const struct IOUSBConfigurationDescriptor *);
-- (const struct IOUSBConfigurationDescriptor *);
+- (_Bool)ClipThumbnailFilePath;
+- (_Bool)ClipIFrameLength;
+- (_Bool)ClipDataArray;
+- (const struct IOUSBDeviceDescriptor *)ClipStreamPID;
+- (void)ClipInformationPreviousFileName;
+- (const struct IOUSBDescriptorHeader *)ClipTSRecordingRate;
+- (const struct IOUSBDescriptorHeader *)ClipTimeZoneSign;
+- (const struct IOUSBDescriptorHeader *)ClipRecordTimeAndDate;
+- (unsigned long long)ClipSamplingFrequency;
+- (unsigned long long)ClipFrameRate;
+- (const struct IOUSBConfigurationDescriptor *)il.tdt2;
+- (const struct IOUSBConfigurationDescriptor *);
 - (void);
 - (const struct IOUSBBOSDescriptor *);
 - (_Bool);
-- (_Bool);
+- (_Bool)X;
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)MT;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) const struct IOUSBBOSDescriptor *capabilityDescriptors;
 @property unsigned long long debugLoggingMask; // @synthesize debugLoggingMask=_debugLoggingMask;
-@property(retain) NSMutableDictionary *descriptorCache; // @synthesize descriptorCache=_descriptorCache;
-@property(readonly) unsigned long long deviceAddress;
-@property const struct IOUSBDeviceDescriptor *deviceDescriptor; // @synthesize deviceDescriptor=_deviceDescriptor;
-@property(copy) CDUnknownBlockType interestHandler; // @synthesize interestHandler=_interestHandler;
-@property(retain, nonatomic) IOUSBHostInterestNotifier *interestNotifier; // @synthesize interestNotifier=_interestNotifier;
-@property(retain) NSMutableSet *invalidDescriptorCache; // @synthesize invalidDescriptorCache=_invalidDescriptorCache;
-@property unsigned int ioConnection; // @synthesize ioConnection=_ioConnection;
-@property struct IONotificationPort *ioNotificationPortRef; // @synthesize ioNotificationPortRef=_ioNotificationPortRef;
-@property unsigned int ioService; // @synthesize ioService=_ioService;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSArray *supportedStringLanguages; // @synthesize supportedStringLanguages=_supportedStringLanguages;
 
 @end
 

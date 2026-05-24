@@ -10,16 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)existingEncodedMetadata;
++ (id)dependencies;
++ (id)disconnect_server_client_landing_on_old_instance_during_resign;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) double horizontalUncertainty; // @dynamic horizontalUncertainty;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) long long source; // @dynamic source;
 
 @end
 

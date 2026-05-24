@@ -6,16 +6,11 @@
 
 #import <IMAVCore/IMAVInterface.h>
 
-@class AVConference, NSLock, NSMutableArray, NSMutableDictionary, NSNumber;
+@class NSMutableArray, NSNumber;
 
 @interface IMAVConferenceInterface : IMAVInterface
 {
     NSMutableArray *_avConferencesToCleanup;
-    NSMutableDictionary *_avConferences;
-    NSLock *_avConferencesLock;
-    _Bool _duringInit;
-    _Bool _pendingCleanup;
-    NSNumber *_sendingVideoExpected;
 }
 
 + (_Bool);
@@ -29,44 +24,44 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)L;
 - (id);
 - (void *);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (void);
-- (void);
+- (void);
+- (void)R;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
+- (int);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (int);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (void);
+- (void)4H;
 - (void);
 - (id);
 - (id);
@@ -76,6 +71,7 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,15 +82,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,12 +98,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)requent update;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVConference *controller;
 @property(retain, nonatomic, getter=isSendingVideoExpected) NSNumber *sendingVideoExpected; // @synthesize sendingVideoExpected=_sendingVideoExpected;
 
 @end

@@ -9,37 +9,35 @@
 @interface GEOJunctionView
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_imageIds;
 }
 
 + (Class);
-+ (_Bool)utingBehavior:(id)arg1;
++ (_Bool)setHasRoutingBehavior:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)onCenter;
 - (void);
 - (id);
+- (void)M;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)d40d48;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)tLocalizedCategories:(struct _NSZone *)arg1;
-- (id)teStartObservingRequest;
+- (id)setLocalizedCategories:(struct _NSZone *)arg1;
+- (id)GEOMapSubscriptionStateStartObservingRequest;
 - (id)tate] Observing battery state;
 - (id)Ô;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *imageIds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

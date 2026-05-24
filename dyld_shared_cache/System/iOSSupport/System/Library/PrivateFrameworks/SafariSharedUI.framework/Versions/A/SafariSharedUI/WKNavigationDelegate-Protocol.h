@@ -5,5 +5,10 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void)c;
+- (void)hen connected to Wi-Fi.;
+- (void);
 @end
 

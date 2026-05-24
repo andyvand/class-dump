@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MUIAttachmentInfo
 {
     _Bool _isImage;
-    _Bool _canBeSentInline;
-    NSString *_mailDropLink;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)J;
+- (id)k;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)xE;
 - (_Bool);
-- (void);
+- (void)needsRecategorization;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeSentInline; // @synthesize canBeSentInline=_canBeSentInline;
 @property(readonly, nonatomic) _Bool isImage; // @synthesize isImage=_isImage;
-@property(copy, nonatomic) NSString *mailDropLink; // @synthesize mailDropLink=_mailDropLink;
 
 @end
 

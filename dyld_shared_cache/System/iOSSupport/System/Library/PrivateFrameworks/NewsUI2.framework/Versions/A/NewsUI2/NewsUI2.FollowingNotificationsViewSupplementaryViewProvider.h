@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingNotificationsViewSupplementaryViewProvider
 {
     id followingHeaderViewRenderer;
-    id followingFooterViewRenderer;
-    id followingNotificationsDisabledViewRenderer;
-    id messageHeaderRenderer;
-    id delegate;
 }
 
 @end

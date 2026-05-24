@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace, NUImageLayout, NUPixelFormat, NURegion;
+@class NUImageLayout;
 
 @protocol NUImage
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace;
-@property(readonly) float contentHeadroom;
-@property(readonly) NUPixelFormat *format;
 @property(readonly) NUImageLayout *layout;
-@property(readonly) CDStruct_912cb5d2 size;
-@property(readonly, copy) NURegion *validRegion;
 @end
 

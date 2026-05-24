@@ -6,32 +6,25 @@
 
 #import <CloudPhotoLibrary/CPLBatchExtractionStep.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPLByClassExtractionStep : CPLBatchExtractionStep
 {
     CDUnknownFunctionPointerType _query;
-    Class _extractionClass;
-    unsigned long long _maximumCount;
-    NSString *_queryDescription;
 }
 
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (Class);
-- (void);
+- (void)g;
 - (id);
 - (void)!`Gù1°1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)acknowledgeContributorsUpdates:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) Class extractionClass; // @synthesize extractionClass=_extractionClass;
-@property(readonly, nonatomic) unsigned long long maximumCount; // @synthesize maximumCount=_maximumCount;
-@property(readonly, copy, nonatomic) NSString *queryDescription; // @synthesize queryDescription=_queryDescription;
 
 @end
 

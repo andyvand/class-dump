@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMResourceSpecifier, NSString;
-
 @interface BMAccessDescriptor
 {
     unsigned long long _domain;
-    unsigned long long _mode;
-    BMResourceSpecifier *_resource;
-    NSString *_personaIdentifier;
 }
 
 - (id);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) NSString *personaIdentifier; // @synthesize personaIdentifier=_personaIdentifier;
-@property(readonly, nonatomic) BMResourceSpecifier *resource; // @synthesize resource=_resource;
 
 @end
 

@@ -9,21 +9,10 @@
 @interface SCRCThread
 {
     SCRCStackQueue *_queue;
-    SCRCStackQueue *_waitingQueue;
-    id _queueLock;
-    struct __CFRunLoopSource *_source;
-    struct __CFRunLoop *_runLoop;
-    _Bool _isInvalid;
-    _Bool _isRegistered;
-    _Bool _isTimerSet;
-    _Bool _shouldStop;
-    _Bool _isWaitingForStoppingThread;
-    double _lastStartTime;
-    id __key;
 }
 
-+ (id);
-+ (void);
++ (id)m;
++ (void);
 + (void);
 + (double);
 + (void);
@@ -35,8 +24,8 @@
 + (_Bool);
 + (id);
 + (void);
-- (double);
-- (double);
+- (double)Xu;
+- (double).m;
 - (void);
 - (void);
 - (void);
@@ -53,18 +42,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)`rp;
+- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)cted.;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setKey:) id _key; // @synthesize _key=__key;
-@property(nonatomic, setter=_setLastStartTime:) double lastStartTime; // @synthesize lastStartTime=_lastStartTime;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)not specified, will use first variant found for this device in build manifest;
 @end
 

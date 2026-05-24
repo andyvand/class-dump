@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSInputPeopleClue, CLSMeaningClue, NSMapTable;
+@class CLSInputPeopleClue;
 
 @interface CLSClueCollection
 {
     unsigned long long _versionCount;
-    struct os_unfair_recursive_lock_s _recursiveLock;
-    CLSInputPeopleClue *_mePersonClue;
-    NSMapTable *_inputCluesByKey;
-    NSMapTable *_outputCluesByKey;
-    NSMapTable *_meaningCluesByKey;
 }
 
 - (unsigned long long);
@@ -34,12 +29,12 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -68,16 +63,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)accumulatedIdentifiersForMomentNodesRelatedToUpdatedPersons;
 - (long long);
 - (id);
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly) CLSMeaningClue *locationMobilityClue;
 @property(retain, nonatomic) CLSInputPeopleClue *mePersonClue; // @synthesize mePersonClue=_mePersonClue;
-@property(readonly) unsigned long long versionCount; // @synthesize versionCount=_versionCount;
 
 @end
 

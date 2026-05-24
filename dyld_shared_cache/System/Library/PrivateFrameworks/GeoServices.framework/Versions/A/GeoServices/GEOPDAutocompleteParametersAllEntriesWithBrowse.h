@@ -4,74 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteEntry, GEOPDAutocompleteOriginationInfo, GEOPDRetainedSearchMetadata, GEOPDSSearchEvChargingParameters, GEOPDVenueIdentifier, GEOPDViewportInfo, NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersAllEntriesWithBrowse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _knownRefinementTypes;
-    CDStruct_95bda58d _supportedAutocompleteResultCellTypes;
-    CDStruct_95bda58d _supportedHighlightTypes;
-    CDStruct_95bda58d _supportedListTypes;
-    CDStruct_95bda58d _supportedPlaceSummaryFormatTypes;
-    GEOPDAutocompleteOriginationInfo *_autocompleteOriginationInfo;
-    NSData *_categorySuggestionEntryMetadata;
-    GEOPDAutocompleteEntry *_categorySuggestionEntry;
-    GEOPDSSearchEvChargingParameters *_evChargingParameters;
-    GEOPDAutocompleteEntry *_querySuggestionEntry;
-    NSString *_query;
-    GEOPDRetainedSearchMetadata *_retainedSearch;
-    GEOPDVenueIdentifier *_venueIdentifier;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxQueryBuilderSuggestions;
-    int _maxResults;
-    int _placeSummaryRevision;
-    _Bool _highlightDiff;
-    _Bool _interleaveCategorySuggestions;
-    _Bool _supportClientRankingCompositeFeatures;
-    _Bool _supportClientRankingFeatureMetadata;
-    _Bool _supportDirectionIntentSuggestions;
-    _Bool _supportRapAffordance;
-    _Bool _supportSectionHeader;
-    _Bool _supportStructuredRapAffordance;
-    _Bool _supportUnresolvedDirectionIntent;
-    struct {
-        unsigned int has_maxQueryBuilderSuggestions:1;
-        unsigned int has_maxResults:1;
-        unsigned int has_placeSummaryRevision:1;
-        unsigned int has_highlightDiff:1;
-        unsigned int has_interleaveCategorySuggestions:1;
-        unsigned int has_supportClientRankingCompositeFeatures:1;
-        unsigned int has_supportClientRankingFeatureMetadata:1;
-        unsigned int has_supportDirectionIntentSuggestions:1;
-        unsigned int has_supportRapAffordance:1;
-        unsigned int has_supportSectionHeader:1;
-        unsigned int has_supportStructuredRapAffordance:1;
-        unsigned int has_supportUnresolvedDirectionIntent:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_knownRefinementTypes:1;
-        unsigned int read_supportedAutocompleteResultCellTypes:1;
-        unsigned int read_supportedHighlightTypes:1;
-        unsigned int read_supportedListTypes:1;
-        unsigned int read_supportedPlaceSummaryFormatTypes:1;
-        unsigned int read_autocompleteOriginationInfo:1;
-        unsigned int read_categorySuggestionEntryMetadata:1;
-        unsigned int read_categorySuggestionEntry:1;
-        unsigned int read_evChargingParameters:1;
-        unsigned int read_querySuggestionEntry:1;
-        unsigned int read_query:1;
-        unsigned int read_retainedSearch:1;
-        unsigned int read_venueIdentifier:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasWifiCaptiveNetworks:(id)arg1;
++ (_Bool)setHasWifiCaptiveNetworks:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -85,6 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -99,11 +40,10 @@
 - (void);
 - (void);
 - (void);
+- (void)&;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -115,8 +55,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -143,7 +83,7 @@
 - (void);
 - (_Bool);
 - (int *);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (int);
@@ -159,14 +99,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (int);
+- (int)ive outlet is nil;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)_isTimerPlaying;
+- (void)Not notifying audioProviderInvalidation since VoiceTrigger result is %{public}d;
+- (void)e multiple NDAPIs on platform not supporting channel selection, for channel:(int *)arg1 %tu, asset configPath:(unsigned long long)arg2 %{public}@;
+- (id)r notification %@ (status=%d);
+- (void)d.reverse.transfer.voiceprofile;
+- (void)ionHandler:(int)arg1 finalizationHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -193,7 +133,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ons to an option string
+;
 - (int);
 - (unsigned long long)¡'ð!(Aù·*ð1Â0@ù
 × ;
@@ -202,9 +143,9 @@
 - (void)Q¹*°1Â0@ù
 × ;
 - (id)"b1"has_initiallyExpanded"b1};
-- (int)nalTimestamp;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)RouteText;
+- (int)hasOriginalTimestamp;
+- (_Bool)cancelTilesForRequestIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_alertNonRecommendedRouteText;
 - (id)Ü9Ø(³á9ð(³|å9)³Ìì9 )³@ò98)³Äó9X)³Dû9)³;
 - (id)limit    );;
 - (id)ÿÿ;
@@ -230,59 +171,7 @@
 - (_Bool)À;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAutocompleteOriginationInfo *autocompleteOriginationInfo;
-@property(retain, nonatomic) GEOPDAutocompleteEntry *categorySuggestionEntry;
-@property(retain, nonatomic) NSData *categorySuggestionEntryMetadata;
-@property(retain, nonatomic) GEOPDSSearchEvChargingParameters *evChargingParameters;
-@property(readonly, nonatomic) _Bool hasAutocompleteOriginationInfo;
-@property(readonly, nonatomic) _Bool hasCategorySuggestionEntry;
-@property(readonly, nonatomic) _Bool hasCategorySuggestionEntryMetadata;
-@property(readonly, nonatomic) _Bool hasEvChargingParameters;
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasInterleaveCategorySuggestions;
-@property(nonatomic) _Bool hasMaxQueryBuilderSuggestions;
-@property(nonatomic) _Bool hasMaxResults;
-@property(nonatomic) _Bool hasPlaceSummaryRevision;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasQuerySuggestionEntry;
-@property(readonly, nonatomic) _Bool hasRetainedSearch;
-@property(nonatomic) _Bool hasSupportClientRankingCompositeFeatures;
-@property(nonatomic) _Bool hasSupportClientRankingFeatureMetadata;
-@property(nonatomic) _Bool hasSupportDirectionIntentSuggestions;
-@property(nonatomic) _Bool hasSupportRapAffordance;
-@property(nonatomic) _Bool hasSupportSectionHeader;
-@property(nonatomic) _Bool hasSupportStructuredRapAffordance;
-@property(nonatomic) _Bool hasSupportUnresolvedDirectionIntent;
-@property(readonly, nonatomic) _Bool hasVenueIdentifier;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) _Bool interleaveCategorySuggestions;
-@property(readonly, nonatomic) int *knownRefinementTypes;
-@property(readonly, nonatomic) unsigned long long knownRefinementTypesCount;
-@property(nonatomic) int maxQueryBuilderSuggestions;
-@property(nonatomic) int maxResults;
-@property(nonatomic) int placeSummaryRevision;
-@property(retain, nonatomic) NSString *query;
-@property(retain, nonatomic) GEOPDAutocompleteEntry *querySuggestionEntry;
-@property(retain, nonatomic) GEOPDRetainedSearchMetadata *retainedSearch;
-@property(nonatomic) _Bool supportClientRankingCompositeFeatures;
-@property(nonatomic) _Bool supportClientRankingFeatureMetadata;
-@property(nonatomic) _Bool supportDirectionIntentSuggestions;
-@property(nonatomic) _Bool supportRapAffordance;
-@property(nonatomic) _Bool supportSectionHeader;
-@property(nonatomic) _Bool supportStructuredRapAffordance;
-@property(nonatomic) _Bool supportUnresolvedDirectionIntent;
-@property(readonly, nonatomic) int *supportedAutocompleteResultCellTypes;
-@property(readonly, nonatomic) unsigned long long supportedAutocompleteResultCellTypesCount;
-@property(readonly, nonatomic) int *supportedHighlightTypes;
-@property(readonly, nonatomic) unsigned long long supportedHighlightTypesCount;
-@property(readonly, nonatomic) int *supportedListTypes;
-@property(readonly, nonatomic) unsigned long long supportedListTypesCount;
-@property(readonly, nonatomic) int *supportedPlaceSummaryFormatTypes;
-@property(readonly, nonatomic) unsigned long long supportedPlaceSummaryFormatTypesCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDVenueIdentifier *venueIdentifier;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 @protocol GEOTransitIconDataSource;
 
 @protocol GEOTransitIncident
+- (NSString *)D.;
+- (NSString *)0;
+- (NSString *)FROM messages WHERE message_id = 0;
+- (_Bool)B24;
+- (int)DESC LIMIT ?;
+- (id <GEOTransitIconDataSource>);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *affectedEntities;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> artworkDataSource;
-@property(readonly, nonatomic, getter=isBlockingIncident) _Bool blockingIncident;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSString *fullDescription;
-@property(readonly, nonatomic) int iconType;
-@property(readonly, nonatomic) NSDate *lastUpdated;
-@property(readonly, nonatomic) NSString *messageForNonRoutable;
-@property(readonly, nonatomic) NSString *messageForRoutePlanning;
-@property(readonly, nonatomic) NSString *messageForRouteStepping;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) NSString *summary;
-@property(readonly, nonatomic) NSString *title;
 @end
 

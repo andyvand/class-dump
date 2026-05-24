@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, SGLongRunningTaskManager;
+@class SGLongRunningTaskManager;
 
 @interface SGLongRunningTask
 {
     SGLongRunningTaskManager *_manager;
-    NSDate *_deadline;
-    _Atomic _Bool _deferRequested;
 }
 
+- (void) ;
 - (void);
-- (void);
-- (id);
+- (id)rameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (_Bool);
 - (void)Àò;

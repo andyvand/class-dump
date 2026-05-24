@@ -9,14 +9,6 @@
 @interface PPM2UserCreatedMetadata
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _domain;
-    int _source;
-    struct {
-        unsigned int algorithm:1;
-        unsigned int domain:1;
-        unsigned int source:1;
-    } _has;
 }
 
 - (void);
@@ -32,36 +24,29 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)$;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_handleAddContactChangeHistoryEvent: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (int);
 - (_Bool)
 × ;
 - (void)1÷Ð1Â0@ù
 × ;
-- (void):(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)vacuumWithShouldContinueBlock:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (int)ter. Device may be Class C locked.;
 - (void)_DKEvent batch;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(nonatomic) _Bool hasDomain;
 @property(nonatomic) _Bool hasSource;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

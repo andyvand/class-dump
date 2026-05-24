@@ -7,16 +7,6 @@
 @interface PromotedContentUI.ExpandViewController
 {
     id webView;
-    id closeButton;
-    id maximumExpandedSize;
-    id expandedDestinationURL;
-    id tapGestureRecognizer;
-    id webProcessDelegate;
-    id actionDelegate;
-    id notificationObserver;
-    id notificationOpenObserver;
-    id backgroundedTime;
-    id $__lazy_storage_$_closeButtonPadding;
 }
 
 - (void);
@@ -27,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c}@] setAutoPlayEnabled:(id)arg1 targetContentItemID:(double)arg2 completion:(double)arg3 | failed [server error] autoPlayEnabled=%{BOOL}u error=%{public}@;
+- (void)sition-did-reach-pivot-point;
 - (void);
 - (void);
 - (void);

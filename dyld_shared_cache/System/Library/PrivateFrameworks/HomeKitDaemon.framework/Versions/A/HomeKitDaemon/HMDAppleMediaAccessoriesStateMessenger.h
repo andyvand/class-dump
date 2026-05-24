@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDAppleMediaAccessoriesStateMessengerDelegate, OS_dispatch_queue;
+@class NSUUID;
+@protocol HMDAppleMediaAccessoriesStateMessengerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoriesStateMessenger
 {
     id <HMDAppleMediaAccessoriesStateMessengerDelegate> _delegate;
-    NSUUID *_identifier;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
 + (id)7;
@@ -31,21 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ%/(A>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDAppleMediaAccessoriesStateMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

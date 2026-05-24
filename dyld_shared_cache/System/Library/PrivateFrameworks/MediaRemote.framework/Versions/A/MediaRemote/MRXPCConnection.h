@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue, OS_xpc_object;
 
 @interface MRXPCConnection
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_defaultReplyQueue;
-    NSMutableDictionary *_customXpcHandlers;
-    NSObject<OS_xpc_object> *_connection;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -22,24 +17,20 @@
 - (void);
 - (int);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
-- (unsigned int);
-- (id);
-- (void);
+- (unsigned int)setStackView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)_startedHostTime;
 - (CDUnknownBlockType);
 - (void);
 - (void)sDuringInitialLoad;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) unsigned int uid;
 
 @end
 

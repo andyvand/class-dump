@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CRKOpenAppRequest
 {
     _Bool _lockInApp;
-    NSString *_bundleIdentifier;
-    NSString *_activityType;
-    NSData *_activityData;
 }
 
 + (_Bool);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *activityData; // @synthesize activityData=_activityData;
-@property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool lockInApp; // @synthesize lockInApp=_lockInApp;
 
 @end
 

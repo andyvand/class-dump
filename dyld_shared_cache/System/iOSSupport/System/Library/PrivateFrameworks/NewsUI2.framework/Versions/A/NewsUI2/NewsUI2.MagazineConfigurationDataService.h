@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineConfigurationDataService
 {
     id magazineConfigurationManager;
-    id paidBundleConfigurationManager;
 }
 
 @end

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SFShareSheetSessionManager, SFShareSheetSessionTestingDataDump;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SHKSharingServiceDiscoveryContext
 {
     _Bool _shouldUseMask;
-    _Bool _invokedByPicker;
-    _Bool _allowDisabledExtensions;
-    _Bool _onlyActionExtensions;
-    NSArray *_items;
-    NSArray *_collaborationItems;
-    unsigned long long _mask;
-    SFShareSheetSessionManager *_sessionManager;
-    SFShareSheetSessionTestingDataDump *_testingReferenceDataDump;
 }
 
 - (_Bool);
@@ -29,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
 - (void);
@@ -42,20 +34,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
+- (void)(=;
 - (void);
-- (void);
-- (void);
+- (void)PrivateFrameworks/SetupAssistantFramework.framework/Versions/A/SetupAssistantFramework;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDisabledExtensions; // @synthesize allowDisabledExtensions=_allowDisabledExtensions;
-@property(copy, nonatomic) NSArray *collaborationItems; // @synthesize collaborationItems=_collaborationItems;
-@property(nonatomic) _Bool invokedByPicker; // @synthesize invokedByPicker=_invokedByPicker;
 @property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) unsigned long long mask; // @synthesize mask=_mask;
-@property(nonatomic) _Bool onlyActionExtensions; // @synthesize onlyActionExtensions=_onlyActionExtensions;
-@property(retain, nonatomic) SFShareSheetSessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;
-@property(nonatomic) _Bool shouldUseMask; // @synthesize shouldUseMask=_shouldUseMask;
-@property(retain, nonatomic) SFShareSheetSessionTestingDataDump *testingReferenceDataDump; // @synthesize testingReferenceDataDump=_testingReferenceDataDump;
 
 @end
 

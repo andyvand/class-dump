@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSProgress, NSString, NSUUID, PKAutoRefineSettingsObserver, PKAutoRefineTaskCoordinator, PKDataDetectorInteractionHelper, PKDrawing, PKProgressAlertController, PKProofreadingSettingsObserver, PKRecognitionController, PKRecognitionSessionManager, PKStrokeSpatialCache, PKTiledView, UIView;
-@protocol PKAttachmentViewHashtagsAndMentionsDelegate;
+@class NSUUID;
 
 @interface PKAttachmentView
 {
     NSUUID *_listenerID;
-    _Bool _didSetTileDrawingTransform;
-    double _latestEndOfStrokeTimestamp;
-    PKDrawing *_drawing;
-    UIView *_tileContainerView;
-    PKStrokeSpatialCache *_strokeSpatialCache;
-    NSMutableDictionary *_tiles;
-    NSMutableDictionary *_offscreenTiles;
-    NSMutableDictionary *_purgedTiles;
-    PKAutoRefineSettingsObserver *_autoRefineSettingsObserver;
-    PKAutoRefineTaskCoordinator *_autoRefineTaskCoordinator;
-    PKProofreadingSettingsObserver *_proofreadingSettingsObserver;
-    _Bool _renderingEnabled;
-    _Bool _contentHidden;
-    _Bool _sixChannelBlending;
-    _Bool _hasSeenAnyExtendedDynamicRangeStrokes;
-    _Bool _wantsDataDetection;
-    _Bool _wantsMentionDetection;
-    _Bool _wantsHashtagDetection;
-    _Bool _isSharedViaICloud;
-    _Bool _didReceiveTextConversion;
-    _Bool _shouldCancelConvertToHandwritting;
-    PKRecognitionController *_recognitionController;
-    NSArray *_additionalStrokes;
-    id <PKAttachmentViewHashtagsAndMentionsDelegate> _hashtagAndMentionsDelegate;
-    PKDataDetectorInteractionHelper *_dataDetectorHelper;
-    PKProgressAlertController *_progressAlertController;
-    NSProgress *_currentProgress;
-    NSMutableDictionary *_mentionUUIDtoParticipant;
-    struct CGRect _cachedBounds;
-    struct CGAffineTransform _tileDrawingTransform;
-    struct CGAffineTransform _preResizeDrawingTransform;
 }
 
 - (_Bool);
@@ -167,12 +135,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B�	;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))`n;
 - (id);
 - (void);
 - (void);
@@ -187,69 +155,27 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)materialWallpaperTinting;
+- (void)LPAsynchronousResource;
 - (_Bool);
-- (void)lityIdentifier:(id)arg1;
-- (void)de:(id)arg1;
-- (void)dicatorContourImageLeft;
+- (void)setAccessibilityIdentifier:(id)arg1;
+- (void)floatingKeyboardControllerWillHide:(id)arg1;
+- (void)colorIndicatorContourImageLeft;
 - (void),À;
 - (void)`.8I;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *additionalStrokes; // @synthesize additionalStrokes=_additionalStrokes;
-@property(readonly, nonatomic) UIView *attachmentContainerView;
-@property(readonly, nonatomic) PKAttachmentView *attachmentView;
 @property(nonatomic) struct CGRect cachedBounds; // @synthesize cachedBounds=_cachedBounds;
-@property(nonatomic) _Bool contentHidden; // @synthesize contentHidden=_contentHidden;
-@property(retain, nonatomic) NSProgress *currentProgress; // @synthesize currentProgress=_currentProgress;
-@property(retain, nonatomic) PKDataDetectorInteractionHelper *dataDetectorHelper; // @synthesize dataDetectorHelper=_dataDetectorHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveTextConversion; // @synthesize didReceiveTextConversion=_didReceiveTextConversion;
-@property(copy, nonatomic) PKDrawing *drawing;
-@property(readonly, nonatomic) struct CGAffineTransform drawingTransform;
-@property(nonatomic) _Bool hasSeenAnyExtendedDynamicRangeStrokes; // @synthesize hasSeenAnyExtendedDynamicRangeStrokes=_hasSeenAnyExtendedDynamicRangeStrokes;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PKAttachmentViewHashtagsAndMentionsDelegate> hashtagAndMentionsDelegate; // @synthesize hashtagAndMentionsDelegate=_hashtagAndMentionsDelegate;
-@property(readonly, nonatomic) _Bool isAtEndOfDocument;
-@property(readonly, nonatomic) _Bool isExternalAttachment;
-@property(nonatomic) _Bool isSharedViaICloud; // @synthesize isSharedViaICloud=_isSharedViaICloud;
-@property(retain, nonatomic) NSMutableDictionary *mentionUUIDtoParticipant; // @synthesize mentionUUIDtoParticipant=_mentionUUIDtoParticipant;
-@property(readonly, nonatomic) NSMutableDictionary *offscreenTiles;
-@property(nonatomic) struct CGAffineTransform preResizeDrawingTransform; // @synthesize preResizeDrawingTransform=_preResizeDrawingTransform;
-@property(retain, nonatomic) PKProgressAlertController *progressAlertController; // @synthesize progressAlertController=_progressAlertController;
-@property(readonly, nonatomic) NSMutableDictionary *purgedTiles;
-@property(retain, nonatomic) PKRecognitionController *recognitionController; // @synthesize recognitionController=_recognitionController;
-@property(readonly, nonatomic) PKRecognitionSessionManager *recognitionManager;
-@property(nonatomic) _Bool renderingEnabled; // @synthesize renderingEnabled=_renderingEnabled;
-@property(nonatomic) _Bool shouldCancelConvertToHandwritting; // @synthesize shouldCancelConvertToHandwritting=_shouldCancelConvertToHandwritting;
-@property(nonatomic) _Bool sixChannelBlending; // @synthesize sixChannelBlending=_sixChannelBlending;
-@property(readonly, nonatomic) PKStrokeSpatialCache *strokeSpatialCache;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *tileContainerView; // @synthesize tileContainerView=_tileContainerView;
-@property(nonatomic) struct CGAffineTransform tileDrawingTransform; // @synthesize tileDrawingTransform=_tileDrawingTransform;
-@property(readonly, nonatomic) UIView *tileMaskView;
-@property(readonly, nonatomic) PKTiledView *tiledView;
-@property(readonly, nonatomic) NSMutableDictionary *tiles;
-@property(readonly, nonatomic) _Bool updateHeightAfterDrawing;
-@property(readonly, nonatomic) UIView *viewRep;
-@property(nonatomic) _Bool wantsDataDetection; // @synthesize wantsDataDetection=_wantsDataDetection;
-@property(nonatomic) _Bool wantsHashtagDetection; // @synthesize wantsHashtagDetection=_wantsHashtagDetection;
-@property(nonatomic) _Bool wantsMentionDetection; // @synthesize wantsMentionDetection=_wantsMentionDetection;
 
 @end
 

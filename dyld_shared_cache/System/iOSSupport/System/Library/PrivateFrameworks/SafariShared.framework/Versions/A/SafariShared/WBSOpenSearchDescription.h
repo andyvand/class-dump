@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSOpenSearchURLTemplate;
+@class NSString;
 
 @interface WBSOpenSearchDescription
 {
     NSString *_descriptionDocumentURLString;
-    WBSOpenSearchURLTemplate *_searchURLTemplate;
-    WBSOpenSearchURLTemplate *_urlTemplateForSuggestionsInJSON;
-    WBSOpenSearchURLTemplate *_urlTemplateForSuggestionsInXML;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *descriptionDocumentURLString; // @synthesize descriptionDocumentURLString=_descriptionDocumentURLString;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *searchURLTemplate; // @synthesize searchURLTemplate=_searchURLTemplate;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *urlTemplateForSuggestionsInJSON; // @synthesize urlTemplateForSuggestionsInJSON=_urlTemplateForSuggestionsInJSON;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *urlTemplateForSuggestionsInXML; // @synthesize urlTemplateForSuggestionsInXML=_urlTemplateForSuggestionsInXML;
 
 @end
 

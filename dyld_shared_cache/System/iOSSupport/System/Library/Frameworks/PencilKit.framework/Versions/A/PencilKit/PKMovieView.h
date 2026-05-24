@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerLayer;
+@class AVPlayer;
 
 @interface PKMovieView
 {
     AVPlayer *_moviePlayer;
-    AVPlayerLayer *_movieLayer;
 }
 
 + (Class);
 - (void);
 - (id);
-- (void);
+- (void)_buttonIgnoresTextSafeAreaInsets;
 - (void)`;
 
 @end

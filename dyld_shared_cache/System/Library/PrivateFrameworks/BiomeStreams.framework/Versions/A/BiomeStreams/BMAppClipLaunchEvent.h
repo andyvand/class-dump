@@ -6,25 +6,18 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface BMAppClipLaunchEvent : BMEventBase
 {
     NSString *_URLHash;
-    NSString *_clipBundleID;
-    NSString *_appBundleID;
-    NSString *_webAppBundleID;
-    NSString *_launchReason;
-    NSURL *_fullURL;
-    NSURL *_referrerURL;
-    NSString *_referrerBundleID;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);
@@ -38,28 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id)pg_query.TableSampleClause;
 - (void);
 - (id)ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *URLHash; // @synthesize URLHash=_URLHash;
-@property(readonly, copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(readonly, copy, nonatomic) NSString *clipBundleID; // @synthesize clipBundleID=_clipBundleID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSURL *fullURL; // @synthesize fullURL=_fullURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(readonly, copy, nonatomic) NSString *referrerBundleID; // @synthesize referrerBundleID=_referrerBundleID;
-@property(readonly, copy, nonatomic) NSURL *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *webAppBundleID; // @synthesize webAppBundleID=_webAppBundleID;
 
 @end
 

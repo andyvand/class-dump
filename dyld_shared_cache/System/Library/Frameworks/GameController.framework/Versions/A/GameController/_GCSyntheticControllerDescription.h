@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSCopying><NSObject><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface _GCSyntheticControllerDescription
 {
     id <NSCopying><NSObject><NSSecureCoding> _controllerIdentifier;
-    NSString *_persistentIdentifier;
 }
 
 - (id);
@@ -21,14 +19,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)odianshipInfo"16@0:(struct _NSZone *)arg1 8;
 - (id);
-- (id);
-- (id);
+- (id)M;
 - (void);
 
 // Remaining properties
 @property(readonly) id <NSCopying><NSObject><NSSecureCoding> controllerIdentifier; // @synthesize controllerIdentifier=_controllerIdentifier;
-@property(readonly) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSAttributeStoreMapping : NSPropertyStoreMapping
 {
     int _externalType;
-    unsigned int _externalPrecision;
-    int _externalScale;
 }
 
 - (void);

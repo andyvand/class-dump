@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol INChangeAlarmStatusIntentResponseExport
-- (long long)andleCreateAlarm:completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)';
+- (long long)handleCreateAlarm:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *modifiedAlarms;
 @end
 

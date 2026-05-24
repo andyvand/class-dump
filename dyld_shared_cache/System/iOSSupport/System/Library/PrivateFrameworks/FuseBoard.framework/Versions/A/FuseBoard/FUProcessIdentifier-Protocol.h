@@ -5,5 +5,7 @@
 //
 
 @protocol FUProcessIdentifier
+- (CDStruct_6ad76789).z;
+- (long long);
 @end
 

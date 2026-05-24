@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
 @protocol SFCompanionAdvertiserDelegate;
 
 @interface SFCompanionAdvertiser
 {
     _Bool _supportsStreams;
-    id <SFCompanionAdvertiserDelegate> _delegate;
-    NSString *_serviceType;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property id <SFCompanionAdvertiserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSData *serviceEndpointData;
-@property(readonly, copy) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property _Bool supportsStreams; // @synthesize supportsStreams=_supportsStreams;
 
 @end
 

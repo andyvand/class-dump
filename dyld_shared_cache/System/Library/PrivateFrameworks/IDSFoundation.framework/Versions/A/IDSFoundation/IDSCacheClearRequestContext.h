@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IDSCacheClearRequestContext
 {
     NSArray *_uris;
-    NSString *_service;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 @property(retain, nonatomic) NSArray *uris; // @synthesize uris=_uris;
 
 @end

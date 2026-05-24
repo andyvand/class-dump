@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)p>;
+- (unsigned long long)z;
+- (_Bool)n %@;
+- (oneway void){;
+- (NSString *)!�N/;
+- (_Bool)`;
+- (id)V_identificationCategory;
+- (struct _NSZone *)__objc_selrefs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

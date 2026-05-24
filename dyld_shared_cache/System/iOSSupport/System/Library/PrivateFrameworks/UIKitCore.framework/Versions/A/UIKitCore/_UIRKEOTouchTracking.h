@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIRKEOTouchTracking
 {
     _Bool _valid;
-    long long _type;
-    double _largestObservedRadius;
-    Class _beganGestureClass;
 }
 
 - (double);
 - (void);
 - (void)Ô ;
 - (long long);
-- (Class)ize3D: /* Error: Ran out of types for this method. */;
-- (_Bool)atesFromResults:selectedText: /* Error: Ran out of types for this method. */;
-- (void);
+- (Class)_setPlaceholderContentSize3D: /* Error: Ran out of types for this method. */;
+- (_Bool)_buildCandidatesFromResults:selectedText: /* Error: Ran out of types for this method. */;
+- (void)_previousWindow;
 - (void)ttonItems=%@);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) Class beganGestureClass; // @synthesize beganGestureClass=_beganGestureClass;
-@property(nonatomic) double largestObservedRadius; // @synthesize largestObservedRadius=_largestObservedRadius;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end

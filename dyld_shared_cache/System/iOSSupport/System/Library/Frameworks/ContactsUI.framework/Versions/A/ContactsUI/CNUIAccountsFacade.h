@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, CNUIAccountsFacadeRequestRunner;
+@class ACAccountStore;
 
 __attribute__((visibility("hidden")))
 @interface CNUIAccountsFacade
 {
     ACAccountStore *_accountStore;
-    CNUIAccountsFacadeRequestRunner *_requestRunner;
 }
 
 - (id);
 - (id);
 - (void);
+- (id)setMetadataIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)addGameCenterGroupAnimated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) CNUIAccountsFacadeRequestRunner *requestRunner; // @synthesize requestRunner=_requestRunner;
 
 @end
 

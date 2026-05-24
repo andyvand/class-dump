@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPlaceActionItemAppearanceProvider, NSString, UIColor;
+@class MKPlaceActionItemAppearanceProvider, NSString;
 
 @interface MKPlaceCardActionItem
 {
     MKPlaceActionItemAppearanceProvider *_appearanceProvider;
-    _Bool _enabled;
-    _Bool _selected;
-    unsigned long long _type;
-    UIColor *_glyphColor;
-    UIColor *_backgroundColor;
-    MKPlaceCardActionItem *_selectedItem;
 }
 
 + (id);
@@ -33,28 +27,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)B;
+- (id)(;
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void)seHandler: /* Error: Ran out of types for this method. */;
-- (id)asTelephone;
+- (void)calculateETAFromAPI:WithResponseHandler: /* Error: Ran out of types for this method. */;
+- (id)_hasTelephone;
 - (_Bool)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionBarGlyph;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(readonly, copy, nonatomic) NSString *displayString;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSString *glyph;
-@property(retain, nonatomic) UIColor *glyphColor; // @synthesize glyphColor=_glyphColor;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(retain, nonatomic) MKPlaceCardActionItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSObject, PHAssetResourceQualityClass, PHCachingImageManager, PHImageManager, PHPhotoLibrary, PXPhotoKitThumbnailCache;
-@protocol OS_dispatch_queue;
+@class NSArray, PHPhotoLibrary;
 
 @interface PXPhotoKitUIMediaProvider
 {
     NSArray *_thumbnailQualityClasses;
-    NSArray *_thumbnailCaches;
-    struct CGSize _masterThumbnailSize;
-    _Atomic long long _lastActivity;
-    struct os_unfair_lock_s _preheatlock;
-    NSMutableArray *_preheatLock_preheatStates;
-    NSObject<OS_dispatch_queue> *_preheatQueue;
-    unsigned long long _preheatQueue_state;
-    struct os_unfair_lock_s _lock;
-    struct CGSize _lock_lastTargetSize;
-    long long _lock_lastQualityClassIndex;
-    PHAssetResourceQualityClass *_lock_lastResourceQualityClass;
-    PXPhotoKitThumbnailCache *_lock_lastThumbnailCache;
-    struct os_unfair_lock_s _videoThumbnailIdentifiersLock;
-    NSDictionary *_lock_videoThumbnailIdentifiers;
-    PHPhotoLibrary *_photoLibrary;
-    PHImageManager *_imageManager;
-    PHCachingImageManager *_cachingImageManager;
 }
 
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 - (void);
 - (id);
 - (long long);
@@ -47,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)��#;
 - (id);
 - (void);
 - (void);
@@ -64,14 +46,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)5˿;
 - (void);
 - (void);
 - (id)¨;;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCachingImageManager *cachingImageManager; // @synthesize cachingImageManager=_cachingImageManager;
-@property(readonly, nonatomic) PHImageManager *imageManager; // @synthesize imageManager=_imageManager;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end

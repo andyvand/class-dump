@@ -9,7 +9,6 @@
 @interface PKSharingMesageProprietaryData
 {
     NSArray *_displayableSharedEntitlements;
-    long long _accessType;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id)erDisplayName;
+- (id)ownerDisplayName;
 - (void)%@;
 
 // Remaining properties
-@property(nonatomic) long long accessType; // @synthesize accessType=_accessType;
 @property(retain, nonatomic) NSArray *displayableSharedEntitlements; // @synthesize displayableSharedEntitlements=_displayableSharedEntitlements;
 
 @end

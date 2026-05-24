@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)uageCode;
+- (id)_web_HTTPStyleLanguageCode;
 
 @end
 

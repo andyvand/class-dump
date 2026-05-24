@@ -7,7 +7,6 @@
 @interface NewsPersonalization.DiagnosticFileProvider
 {
     id computeService;
-    id personalizationInspectionGroupProvider;
 }
 
 - (id);

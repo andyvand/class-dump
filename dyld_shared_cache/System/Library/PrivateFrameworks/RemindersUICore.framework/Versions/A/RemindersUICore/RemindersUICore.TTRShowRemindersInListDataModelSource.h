@@ -9,17 +9,6 @@
 @interface RemindersUICore.TTRShowRemindersInListDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id list;
-    id countCompleted;
-    id store;
-    id showCompletedContextInstance;
-    id hideEmptySectionsContextInstance;
-    id layoutContextInstance;
-    id tipKitContextInstance;
-    id dataViewMonitor;
-    id userDefaults;
-    id newReminderContextInstance;
-    id shouldSkipReloadingListUponChangingSortingStyle;
 }
 
 @end

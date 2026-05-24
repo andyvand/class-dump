@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperimentContext, NSDictionary, NSString;
+@class AFExperimentContext;
 
 @interface _AFExperimentContextMutation
 {
     AFExperimentContext *_base;
-    NSDictionary *_experimentsByConfigurationIdentifier;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasExperimentsByConfigurationIdentifier:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (_Bool);
-- (id)ntext:(id)arg1;
-- (void)rResult;
+- (id)startAdvertisingFromAlertFiringVoiceTriggerWithContext:(id)arg1;
+- (void)_latticeMitigatorResult;
 - (id)asyncMessage %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

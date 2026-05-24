@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXCallDirectoryMutableLabeledPhoneNumberEntryData, CXCallDirectoryMutablePhoneNumberEntryData, NSString;
-@protocol CXCallDirectoryExtensionContextDelegate;
+@class CXCallDirectoryMutablePhoneNumberEntryData;
 
 @interface CXCallDirectoryExtensionContext
 {
     _Bool _incremental;
-    _Bool _hasQueriedIsIncremental;
-    id <CXCallDirectoryExtensionContextDelegate> _delegate;
-    CXCallDirectoryMutablePhoneNumberEntryData *_pendingBlockingEntryData;
-    long long _pendingBlockingEntryChangeType;
-    CXCallDirectoryMutableLabeledPhoneNumberEntryData *_pendingIdentificationEntryDataForAddition;
-    CXCallDirectoryMutablePhoneNumberEntryData *_pendingIdentificationEntryDataForRemoval;
-    long long _pendingIdentificationEntryChangeType;
-    CDUnknownBlockType _remoteObjectProxyGenerator;
 }
 
 + (id);
@@ -58,22 +49,7 @@
 - (id)source %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXCallDirectoryExtensionContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasQueriedIsIncremental; // @synthesize hasQueriedIsIncremental=_hasQueriedIsIncremental;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isIncremental) _Bool incremental; // @synthesize incremental=_incremental;
-@property(nonatomic) long long pendingBlockingEntryChangeType; // @synthesize pendingBlockingEntryChangeType=_pendingBlockingEntryChangeType;
 @property(retain, nonatomic) CXCallDirectoryMutablePhoneNumberEntryData *pendingBlockingEntryData; // @synthesize pendingBlockingEntryData=_pendingBlockingEntryData;
-@property(nonatomic) long long pendingIdentificationEntryChangeType; // @synthesize pendingIdentificationEntryChangeType=_pendingIdentificationEntryChangeType;
-@property(retain, nonatomic) CXCallDirectoryMutableLabeledPhoneNumberEntryData *pendingIdentificationEntryDataForAddition; // @synthesize pendingIdentificationEntryDataForAddition=_pendingIdentificationEntryDataForAddition;
-@property(retain, nonatomic) CXCallDirectoryMutablePhoneNumberEntryData *pendingIdentificationEntryDataForRemoval; // @synthesize pendingIdentificationEntryDataForRemoval=_pendingIdentificationEntryDataForRemoval;
-@property(copy, nonatomic) CDUnknownBlockType remoteObjectProxyGenerator; // @synthesize remoteObjectProxyGenerator=_remoteObjectProxyGenerator;
-@property(readonly) Class superclass;
 
 @end
 

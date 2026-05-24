@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsDataSource, CNUIGroupsAndContainersSaveManager, NSMutableArray;
+@class CNAccountsAndGroupsDataSource;
 @protocol CNAccountsAndGroupsActionsProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNAccountsAndGroupsActionsProvider
 {
     id <CNAccountsAndGroupsActionsProviderDelegate> _delegate;
-    NSMutableArray *_issuedSaveRequestIdentifiers;
-    CNAccountsAndGroupsDataSource *_dataSource;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)N;
+- (_Bool)J;
 - (id);
 - (_Bool);
 - (id);
@@ -41,14 +38,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)hingMonogramRenderer;
+- (void)nts_lazyCachingMonogramRenderer;
 - (void)É;
 
 // Remaining properties
 @property(retain, nonatomic) CNAccountsAndGroupsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <CNAccountsAndGroupsActionsProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(retain, nonatomic) NSMutableArray *issuedSaveRequestIdentifiers; // @synthesize issuedSaveRequestIdentifiers=_issuedSaveRequestIdentifiers;
 
 @end
 

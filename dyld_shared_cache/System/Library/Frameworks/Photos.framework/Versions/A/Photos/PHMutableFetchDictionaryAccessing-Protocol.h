@@ -5,5 +5,6 @@
 //
 
 @protocol PHMutableFetchDictionaryAccessing
+- (void)P;
 @end
 

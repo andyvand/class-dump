@@ -4,46 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSOperationQueue, TBPreferLocalFetchDataSource;
-@protocol TBFetchRequest, TBFetchResponse;
+@protocol TBFetchRequest;
 
 @interface TBPreferLocalFetchOperation
 {
     _Bool _finished;
-    NSDate *_start;
-    id <TBFetchRequest> _fetchRequest;
-    id <TBFetchRequest> _fetchRequestCopy;
-    id <TBFetchResponse> _response;
-    TBPreferLocalFetchDataSource *_dataSource;
-    NSOperationQueue *_fetchQueue;
-    NSArray *_remoteKeysToFetch;
-    NSArray *_satisfiedLocalKeys;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)fullNameForPersonID:(id)arg1;
 - (id);
 - (void);
+- (id)v;
+- (void);
+- (id)recordStore;
 - (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)nned:(id)arg1 %s, supports rotation:%s,
+supports HDR Subframe:%s,
+supports HDR Mirroring:%s
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)ñ¤1Â0@ù
@@ -52,13 +46,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) TBPreferLocalFetchDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) NSOperationQueue *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
 @property(retain, nonatomic) id <TBFetchRequest> fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(retain, nonatomic) id <TBFetchRequest> fetchRequestCopy; // @synthesize fetchRequestCopy=_fetchRequestCopy;
-@property(retain, nonatomic) NSArray *remoteKeysToFetch; // @synthesize remoteKeysToFetch=_remoteKeysToFetch;
-@property(retain, nonatomic) id <TBFetchResponse> response; // @synthesize response=_response;
-@property(retain, nonatomic) NSArray *satisfiedLocalKeys; // @synthesize satisfiedLocalKeys=_satisfiedLocalKeys;
 
 @end
 

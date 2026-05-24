@@ -4,76 +4,103 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPCustomPronounSheetController, NSMorphology, NSString, NSTextField;
+@class IPCustomPronounSheetController;
 
 __attribute__((visibility("hidden")))
 @interface IPPronounPickerPronounInfo
 {
     _Bool _textWasEnteredByUser;
-    IPCustomPronounSheetController *_sheetController;
-    NSString *_value;
-    NSString *_validationErrorMessage;
-    NSTextField *_entryField;
-    NSTextField *_exampleLabel;
-    NSString *_exampleText;
-    NSString *_examplePlaceholder;
-    NSMorphology *_morphology;
-    NSString *_language;
 }
 
-- (id);
+- (id)currentRenderCommandEncoder;
+- (_Bool)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (void)copyTextureByConvertingToCubeMapIfApplicable:(id)arg1 engineContext:needsMipmap: /* Error: Ran out of types for this method. */;
+- (void)copyPropertiesAtIndex:(_Bool)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)copyAnimationChannelForKeyPath:(id)arg1 property: /* Error: Ran out of types for this method. */;
+- (void)continueInteraction:(id)arg1 withViewport:sensitivity: /* Error: Ran out of types for this method. */;
+- (void)contextWithMTLDevice:(id)arg1;
+- (void)contextWithCGLContext:(id)arg1 pixelFormat:colorSpace:options: /* Error: Ran out of types for this method. */;
+- (id)canDrawConcurrently;
+- (_Bool)cStringUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void)builtinProperties;
+- (id)buildTessellationVertexDescriptorIfNeeded;
+- (id)boneWeights;
+- (id)bodyWithType:shape: /* Error: Ran out of types for this method. */;
+- (id)blueComponent;
+- (id)blitCommandEncoder;
+- (id)autoSwitchToFreeCamera;
+- (void)audioSourceWithAVAudioPCMBuffer:(id)arg1;
+- (void)alternateTitle;
+- (void)sition.xyz, 1);
+
+    vec2 dir0 = normalize((viewTransform * vec4(normalize(a_texCoord1.xyz), 0)).xy);
+    vec2 tangent = vec2(-dir0.y, dir0.x);
+    
+    viewPos.xy += tangent * a_texCoord0.y * a_texCoord1.w;
+
+    v_vertexColor = a_color;
+    v_uv0 = vec2(a_texCoord0.x, a_texCoord1.w * 0.5 + 0.5);
+    
+    gl_Position = u_projectionTransform * viewPos;
+}
+;
+- (id)<key>u_floorReflectivity</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorMVP_i</key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+		<key>u_floorPlane</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorFalloff</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorFalloffStart</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-Floor-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+		<key>SceneKit-Floor-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSTextField *entryField; // @synthesize entryField=_entryField;
-@property(retain, nonatomic) NSTextField *exampleLabel; // @synthesize exampleLabel=_exampleLabel;
-@property(retain, nonatomic) NSString *examplePlaceholder; // @synthesize examplePlaceholder=_examplePlaceholder;
-@property(retain, nonatomic) NSString *exampleText; // @synthesize exampleText=_exampleText;
-@property(readonly, nonatomic) _Bool hasErrorMessage;
-@property(readonly, nonatomic) _Bool hasValidValue;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSMorphology *morphology; // @synthesize morphology=_morphology;
 @property(nonatomic) __weak IPCustomPronounSheetController *sheetController; // @synthesize sheetController=_sheetController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textWasEnteredByUser; // @synthesize textWasEnteredByUser=_textWasEnteredByUser;
-@property(retain, nonatomic) NSString *validationErrorMessage; // @synthesize validationErrorMessage=_validationErrorMessage;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

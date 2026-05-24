@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface XCTTailspinRequest
 {
     _Bool _collectOSLogs;
-    _Bool _collectOSSignposts;
-    _Bool _redactSensitiveInformation;
-    int _processID;
-    NSDate *_startDate;
-    NSString *_reason;
-    NSString *_fileName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
+- (_Bool)};
 - (_Bool);
-- (_Bool);
+- (id)4Qo;
 - (id);
+- (id)@o;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)0{;
 - (id);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool collectOSLogs; // @synthesize collectOSLogs=_collectOSLogs;
-@property(readonly, nonatomic) _Bool collectOSSignposts; // @synthesize collectOSSignposts=_collectOSSignposts;
-@property(readonly, copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
 @property(readonly, nonatomic) int processID; // @synthesize processID=_processID;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) _Bool redactSensitiveInformation; // @synthesize redactSensitiveInformation=_redactSensitiveInformation;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

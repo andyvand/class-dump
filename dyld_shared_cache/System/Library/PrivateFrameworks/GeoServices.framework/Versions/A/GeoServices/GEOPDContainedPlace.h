@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDLinkedPlace, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDContainedPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_childPlaces;
-    unsigned long long _featureId;
-    GEOPDLinkedPlace *_parentPlace;
-    NSMutableArray *_siblingPlaces;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_featureId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_childPlaces:1;
-        unsigned int read_parentPlace:1;
-        unsigned int read_siblingPlaces:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)rovider;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nsRequests"b1"read_directionsResponses"b1"read_placeRequest"b1"read_place"b1"read_transitLineTileInfo"b1"wrote_anyField"b1};
-- (id)ollectionSuggestionResult;
+- (id)_collectionSuggestionResult;
 - (id)T¥ ¥|¦È¦§\¨©ü©;
 - (void)ìÿÿÿãÿÿÿÞÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿßÿÿÿÿÿÿÿàÿÿÿÿÿÿÿ÷ÿÿÿðÿÿÿêÿÿÿóÿÿÿìÿÿÿòÿÿÿðÿÿÿñÿÿÿóÿÿÿîÿÿÿïÿÿÿíÿÿÿ;
 

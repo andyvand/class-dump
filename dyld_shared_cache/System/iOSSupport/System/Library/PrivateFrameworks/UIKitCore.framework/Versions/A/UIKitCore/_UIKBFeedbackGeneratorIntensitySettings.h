@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIKBFeedbackGeneratorIntensitySettings
 {
     double _min;
-    double _max;
-    double _randomInPercentage;
-    double _intervalWeight;
-    double _decayInterval;
 }
 
 + (id);
@@ -19,20 +15,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)sendReadReceiptForMessage:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setContainerToView: /* Error: Ran out of types for this method. */;
 - (double)Window,V_updatingKeyWindow;
-- (double)ap;
+- (double)KeyboardTap;
 - (double)delegate needs to be the view controller itself.;
 
 // Remaining properties
-@property(nonatomic) double decayInterval; // @synthesize decayInterval=_decayInterval;
-@property(nonatomic) double intervalWeight; // @synthesize intervalWeight=_intervalWeight;
-@property(nonatomic) double max; // @synthesize max=_max;
 @property(nonatomic) double min; // @synthesize min=_min;
-@property(nonatomic) double randomInPercentage; // @synthesize randomInPercentage=_randomInPercentage;
 
 @end
 

@@ -6,31 +6,26 @@
 
 #import <HomeKitDaemon/HMDEventTriggerSession.h>
 
-@class HMDEventTriggerDevice, HMDEventTriggerExecutionSession, HMDTriggerConfirmationTimer, HomeKitEventTriggerUserConfirmationReceiverSessionLogEvent, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDEventTriggerExecutionSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventTriggerUserConfirmationSession : HMDEventTriggerSession
 {
     HMDEventTriggerExecutionSession *_executionSession;
-    HMDEventTriggerDevice *_requestingDevice;
-    HMDTriggerConfirmationTimer *_userResponseTimer;
-    HomeKitEventTriggerUserConfirmationReceiverSessionLogEvent *_analyticsEvent;
-    NSMutableArray *_analyticsSendEvents;
 }
 
 + (id)ÃB;
 - (id);
 - (void);
+- (void)service:(id)arg1 didSendOpportunisticDataWithIdentifier:toIDs: /* Error: Ran out of types for this method. */;
+- (void)isFailedRequest;
 - (void);
+- (id)ertion failed:completion != ((void*)0) /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -38,31 +33,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)remoteVideoClient:(id)arg1 remoteMediaDidStall: /* Error: Ran out of types for this method. */;
 - (id)ncServer",R,V_server;
 - (void)hed adaptive temperature driver settings:(id)arg1 %s;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HomeKitEventTriggerUserConfirmationReceiverSessionLogEvent *analyticsEvent; // @synthesize analyticsEvent=_analyticsEvent;
-@property(retain, nonatomic) NSMutableArray *analyticsSendEvents; // @synthesize analyticsSendEvents=_analyticsSendEvents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak HMDEventTriggerExecutionSession *executionSession; // @synthesize executionSession=_executionSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMDEventTriggerDevice *requestingDevice; // @synthesize requestingDevice=_requestingDevice;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMDTriggerConfirmationTimer *userResponseTimer; // @synthesize userResponseTimer=_userResponseTimer;
 
 @end
 

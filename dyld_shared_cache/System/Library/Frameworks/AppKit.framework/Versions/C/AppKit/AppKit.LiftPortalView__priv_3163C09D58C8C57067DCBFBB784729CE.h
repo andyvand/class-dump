@@ -9,14 +9,12 @@
 @interface AppKit.LiftPortalView__priv_3163C09D58C8C57067DCBFBB784729CE : NSView
 {
     id _lifted;
-    id $__lazy_storage_$_portalView;
-    id contentView;
 }
 
 + (_Bool)ã3°1Â0@ù
 × ;
 - (id);
-- (id)nel;
+- (id)_spellingPanel;
 - (void)èWE;
 
 @end

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperation, NSString;
+@class NSOperation;
 @protocol UINSActivityItemSource;
 
 __attribute__((visibility("hidden")))
 @interface UINSActivityItemSourceProxy
 {
     NSOperation *_operation;
-    id <UINSActivityItemSource> _item;
 }
 
 - (id);
@@ -20,21 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)stringWithCString:encoding: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)hanged;
-- (id)onstraints: /* Error: Ran out of types for this method. */;
+- (id)notifyWindowVisibilityChanged;
+- (id)deactivateConstraints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <UINSActivityItemSource> item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSOperation *operation;
-@property(readonly) Class superclass;
 
 @end
 

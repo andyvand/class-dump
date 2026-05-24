@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSDictionary;
 
 @interface CWBaseStationPPPController
 {
     NSDictionary *_pppStatus;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_source> *_pollTimer;
-    NSObject<OS_dispatch_queue> *_pollQueue;
-    _Bool _dialin;
 }
 
 + (id);
@@ -22,17 +17,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)�;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ed by Parental Controls;
 - (void);
 
 // Remaining properties
-@property _Bool dialin; // @synthesize dialin=_dialin;
 @property(copy) NSDictionary *pppStatus; // @synthesize pppStatus=_pppStatus;
 
 @end

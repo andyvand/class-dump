@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialPRFAssertionInputValues;
-
 @interface ASAuthorizationPublicKeyCredentialPRFRegistrationInput
 {
     _Bool shouldCheckForSupport;
-    ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)startPeriodicEventsAfterDelay:withPeriod: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues; // @synthesize inputValues;
 @property(nonatomic, readonly) _Bool shouldCheckForSupport; // @synthesize shouldCheckForSupport;
 
 @end

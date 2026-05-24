@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NotificationCenterActorQueueManager : Foundation._NotificationCenterActorQueueManagerNSObjectWrapper
 {
     id state;
-    id workerTask;
 }
 
 - (void);
-- (id);
+- (id)A;
 - (void);
 
 @end

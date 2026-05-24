@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__objc_imageinfo__DATA_CONST;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)__DATA;
 
 @end
 

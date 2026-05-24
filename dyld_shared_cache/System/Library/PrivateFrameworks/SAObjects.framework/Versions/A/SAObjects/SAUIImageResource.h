@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface SAUIImageResource : AceObject
 {
@@ -14,9 +14,9 @@
 
 + (id);
 + (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (double);
 - (double);
 - (void);
@@ -28,30 +28,15 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)(;
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *imageData;
-@property(nonatomic) double pixelHeight;
-@property(nonatomic) double pixelWidth;
-@property(nonatomic) double pointHeight;
-@property(nonatomic) double pointWidth;
-@property(copy, nonatomic) NSURL *resourceUrl;
-@property(nonatomic) double scaleFactor;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *urlFormatString;
-@property(copy, nonatomic) NSString *userAgent;
 
 @end
 

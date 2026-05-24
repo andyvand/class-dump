@@ -12,12 +12,12 @@
 }
 
 + (double);
-- (void);
+- (void)wcacheFS_MbytesMin;
+- (id)__ZN15OSMetaClassBase8DispatchE5IORPC;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)del;
+- (void)_coreModel;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *separator; // @synthesize separator=_separator;

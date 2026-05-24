@@ -9,7 +9,7 @@
     CDUnknownBlockType _block;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

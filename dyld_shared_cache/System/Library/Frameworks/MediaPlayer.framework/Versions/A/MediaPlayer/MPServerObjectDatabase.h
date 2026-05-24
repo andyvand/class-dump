@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSQLDatabase, MSVSQLStatement, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MSVSQLStatement;
 
 @interface MPServerObjectDatabase
 {
     MSVSQLStatement *_tokenLookupStatement;
-    MSVSQLStatement *_tokenIdentifiersLookupStatement;
-    MSVSQLStatement *_tokenRelatedLookupStatement;
-    MSVSQLStatement *_payloadFetchStatement;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    MSVSQLDatabase *_database;
-    NSHashTable *_observers;
-    struct os_unfair_recursive_lock_s _observersLock;
 }
 
 + (id);
@@ -24,42 +16,36 @@
 + (void);
 + (_Bool);
 + (void);
+- (void)A;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)A;
+- (id)(x;
+- (void)A;
+- (void)X;
+- (void)UserIdentityStore] Failed to fetch local store account with error:(id)arg1 %{public}@.;
+- (void)_previousTrackCommand;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBButtonListCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_SectionTitle;
-    NSArray *_buttons;
-    NSString *_showMoreButtonTitle;
 }
 
-- (id);
+- (id)R$;
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)R;
+- (void)R%;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -45,7 +34,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -53,39 +42,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)@?<v@?@"NSArray">16;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)initWithRequestID:(id)arg1 requestIndex:contextType:managerID:asset:displaySpec:behaviorSpec:chooser:delegate: /* Error: Ran out of types for this method. */;
+- (id)d to create export request for asset:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ectPeopleInPhotoCommand;
+- (void)rejectPeopleInPhotoCommand;
 - (int)ðÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *SectionTitle; // @synthesize SectionTitle=_SectionTitle;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *showMoreButtonTitle; // @synthesize showMoreButtonTitle=_showMoreButtonTitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

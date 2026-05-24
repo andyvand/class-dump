@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)estriction.;
 - (struct _CGLPixelFormatObject *);
 
 @end

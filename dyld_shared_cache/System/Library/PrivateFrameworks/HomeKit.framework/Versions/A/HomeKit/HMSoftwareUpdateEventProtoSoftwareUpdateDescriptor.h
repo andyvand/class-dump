@@ -4,38 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface HMSoftwareUpdateEventProtoSoftwareUpdateDescriptor
 {
     long long _downloadSize;
-    long long _errorCode;
-    long long _majorVersion;
-    long long _minorVersion;
-    long long _status;
-    long long _updateVersion;
-    NSString *_buildVersion;
-    NSString *_humanReadableUpdateName;
-    NSString *_serverAssetAlgorithm;
-    NSData *_serverAssetMeasurement;
-    NSString *_serverAssetURL;
-    _Bool _rampEnabled;
-    struct {
-        unsigned int downloadSize:1;
-        unsigned int errorCode:1;
-        unsigned int majorVersion:1;
-        unsigned int minorVersion:1;
-        unsigned int status:1;
-        unsigned int updateVersion:1;
-        unsigned int rampEnabled:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -51,12 +29,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)J
+;
+- (void)unstructuredRemindersDefaultConfidenceCategory;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)privacyIdentifierExt;
+- (_Bool)`;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -66,51 +45,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)footing;
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (long long);
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void)áÜ!FùÑY1Â0@ù
 × ;
-- (void)nt;
+- (void)HMImmutableSettingsProtoIntegerValueEvent;
 - (void)ng bulletinBoard notification;
 - (void)encoding ActionSet;
 - (id)@Updating home location from %@ to %@;
-- (long long)MPATIBLE_WIFI_NETWORK;
-- (long long)ion;
+- (long long)INCOMPATIBLE_WIFI_NETWORK;
+- (long long)completion;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(nonatomic) long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, nonatomic) _Bool hasBuildVersion;
-@property(nonatomic) _Bool hasDownloadSize;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasHumanReadableUpdateName;
-@property(nonatomic) _Bool hasMajorVersion;
-@property(nonatomic) _Bool hasMinorVersion;
-@property(nonatomic) _Bool hasRampEnabled;
-@property(readonly, nonatomic) _Bool hasServerAssetAlgorithm;
-@property(readonly, nonatomic) _Bool hasServerAssetMeasurement;
-@property(readonly, nonatomic) _Bool hasServerAssetURL;
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasUpdateVersion;
-@property(retain, nonatomic) NSString *humanReadableUpdateName; // @synthesize humanReadableUpdateName=_humanReadableUpdateName;
-@property(nonatomic) long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(nonatomic) long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(nonatomic) _Bool rampEnabled; // @synthesize rampEnabled=_rampEnabled;
-@property(retain, nonatomic) NSString *serverAssetAlgorithm; // @synthesize serverAssetAlgorithm=_serverAssetAlgorithm;
-@property(retain, nonatomic) NSData *serverAssetMeasurement; // @synthesize serverAssetMeasurement=_serverAssetMeasurement;
-@property(retain, nonatomic) NSString *serverAssetURL; // @synthesize serverAssetURL=_serverAssetURL;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) long long updateVersion; // @synthesize updateVersion=_updateVersion;
 
 @end
 

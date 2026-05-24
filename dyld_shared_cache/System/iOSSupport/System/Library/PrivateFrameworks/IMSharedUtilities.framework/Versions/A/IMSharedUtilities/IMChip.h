@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMAttributableContent;
-
 @interface IMChip
 {
     long long type;
-    id <IMAttributableContent> chip;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)jji8_k ;
 - (long long);
 - (_Bool);
 - (id);
@@ -24,8 +21,6 @@
 - (void)for %s, name:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMAttributableContent> chip; // @synthesize chip;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

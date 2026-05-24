@@ -8,29 +8,24 @@ __attribute__((visibility("hidden")))
 @interface _IntArray2D
 {
     long long *_arrayData;
-    unsigned long long _iSize;
-    unsigned long long _jSize;
-    _Bool _shouldBoundsCheck;
 }
 
-+ (id);
-- (_Bool);
-- (void);
-- (unsigned long long);
++ (id);
+- (_Bool)setAvailabilityOffGridRecipientSubscriptionValidationToken: /* Error: Ran out of types for this method. */;
+- (void)originalMessageGUID;
+- (unsigned long long)angeNotifier;
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (void);
-- (id);
+- (void)in_2;
+- (id)mmcs_get_state_all_outstanding_chunk_references_contains_chunk;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long iSize; // @synthesize iSize=_iSize;
-@property(readonly, nonatomic) unsigned long long jSize; // @synthesize jSize=_jSize;
-@property(nonatomic) _Bool shouldBoundsCheck; // @synthesize shouldBoundsCheck=_shouldBoundsCheck;
 
 @end
 

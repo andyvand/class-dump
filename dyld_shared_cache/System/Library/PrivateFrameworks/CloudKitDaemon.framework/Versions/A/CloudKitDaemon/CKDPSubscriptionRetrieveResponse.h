@@ -11,20 +11,20 @@
     NSMutableArray *_subscriptions;
 }
 
-+ (Class);
++ (Class)�H;
+- (void)(;
+- (id)h"@9;
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)imeAnnounce(FigEndpointStreamAudioEngineRef);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long)ùQÜÐ1Â0@ù
 × ;

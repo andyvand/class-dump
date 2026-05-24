@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)R;
 + (id);
 + (void)or:madeChanges:error:] /* Error: Ran out of types for this method. */;
 

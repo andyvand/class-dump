@@ -5,5 +5,6 @@
 //
 
 @protocol ABStopWatchTimeIntervalProvider
+- (double)_;
 @end
 

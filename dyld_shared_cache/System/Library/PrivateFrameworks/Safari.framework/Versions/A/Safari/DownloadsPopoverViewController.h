@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DownloadViewController, NSPopover, NSScrollView, NSSegmentedControl, NSString, NSTextField;
+@class NSPopover, NSSegmentedControl;
 
 __attribute__((visibility("hidden")))
 @interface DownloadsPopoverViewController
 {
     NSSegmentedControl *_clearSegment;
-    DownloadViewController *_listViewController;
-    NSTextField *_titleLabel;
-    NSScrollView *_listScrollView;
-    NSPopover *_popover;
 }
 
 + (void);
 + (_Bool);
-+ (id);
++ (id)initWithURL:personaIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -40,20 +36,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)卹;
 - (void);
 - (_Bool)ÄZ/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSPopover *popover; // @synthesize popover=_popover;
-@property(readonly, nonatomic, getter=isShowingPopover) _Bool showingPopover;
-@property(readonly) Class superclass;
 
 @end
 

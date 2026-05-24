@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _UIDruidDestinationConnection
-- (unsigned int);
+- (void (^)(_DUIPresentationUpdate *))Ra;
+- (void);
+- (void);
+- (void (^)(PBItemCollection *, NSArray *, NSArray *, id *));
+- (void (^)(_Bool))__auth_got;
+- (void)_updateControlBarFromDictionaryRepresentation:(NSArray *)arg1;
+- (id)NSSet",C,N;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragEndBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragPreviewProviderBlock;
-@property(copy, nonatomic) CDUnknownBlockType dropPerformBlock;
-@property(copy, nonatomic) CDUnknownBlockType handOffDroppedItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType itemsAddedBlock;
 @property(readonly, nonatomic) unsigned int sessionIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType updatedPresentationBlock;
 @end
 

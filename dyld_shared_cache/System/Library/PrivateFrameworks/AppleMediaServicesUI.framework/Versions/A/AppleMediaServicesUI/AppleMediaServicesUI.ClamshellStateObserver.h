@@ -7,10 +7,6 @@
 @interface AppleMediaServicesUI.ClamshellStateObserver
 {
     id _clamshellIsClosed;
-    id rootDomain;
-    id notificationPort;
-    id serviceConnection;
-    id kAppleClamshellStateKey;
 }
 
 @end

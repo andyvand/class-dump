@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AVTImageCache;
 
 @interface AVTTwoLevelsImageCache
 {
     id <AVTImageCache> _firstLevelCache;
-    id <AVTImageCache> _secondLevelCache;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -24,15 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <AVTImageCache> firstLevelCache; // @synthesize firstLevelCache=_firstLevelCache;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTImageCache> secondLevelCache; // @synthesize secondLevelCache=_secondLevelCache;
-@property(readonly) Class superclass;
 
 @end
 

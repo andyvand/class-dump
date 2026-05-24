@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPaginationParameters
 {
     PBUnknownFields *_unknownFields;
-    NSString *_pageToken;
-    _Bool _enablePagination;
-    struct {
-        unsigned int has_enablePagination:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)o  b	՟ş?;
 - (id)60@?<v@?B>68@?<v@?@"NSError"@"GEODirectionsError">76;
-- (id)ryCode;
+- (id)_homeCountryCode;
 - (id);
 - (void)Ï÷Sã¥@åÐ"Ûù¦@;
 

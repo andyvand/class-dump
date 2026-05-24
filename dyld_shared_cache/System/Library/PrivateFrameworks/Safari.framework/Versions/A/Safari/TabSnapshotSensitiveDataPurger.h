@@ -5,21 +5,19 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, TabSnapshotImageStorage;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TabSnapshotSensitiveDataPurger
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_APIQueue;
-    id <TabSnapshotImageStorage> _storage;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Bm;
 - (void);
 - (id);
 - (void);

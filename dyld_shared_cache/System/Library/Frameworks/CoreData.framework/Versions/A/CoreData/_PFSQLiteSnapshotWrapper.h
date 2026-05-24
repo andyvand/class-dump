@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _PFSQLiteSnapshotWrapper
 {
     struct sqlite3_snapshot *_s;
-    int _externalReferences;
-    int _flags;
 }
 
 - (void);

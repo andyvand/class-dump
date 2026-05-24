@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliMessageID;
-
 @interface CTLazuliMessageDispositionNotification
 {
     long long _deliveryType;
-    CTLazuliMessageID *_messageID;
 }
 
-+ (_Bool);
++ (_Bool):%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -20,15 +17,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)SArray",R,N,V_companions;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)IsEmbedded;
+- (id)SIM2IsEmbedded;
 
 // Remaining properties
 @property(nonatomic) long long deliveryType; // @synthesize deliveryType=_deliveryType;
-@property(retain, nonatomic) CTLazuliMessageID *messageID; // @synthesize messageID=_messageID;
 
 @end
 

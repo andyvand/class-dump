@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PHFetchOptions;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PXStoryBaseDisplayAssetCroppingContext
 {
     NSObject<OS_os_log> *_log;
-    PHFetchOptions *_fetchOptions;
 }
 
 - (void);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id)oreleasing *, NSString *__autoreleasing *, NSString *__autoreleasing *);
-- (void)uration;
+- (void)LemonadeGenerativeMemoriesConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end

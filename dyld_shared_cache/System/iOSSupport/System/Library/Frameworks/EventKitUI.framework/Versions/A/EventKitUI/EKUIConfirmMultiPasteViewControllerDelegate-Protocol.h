@@ -5,5 +5,6 @@
 //
 
 @protocol EKUIConfirmMultiPasteViewControllerDelegate
+- (void);
 @end
 

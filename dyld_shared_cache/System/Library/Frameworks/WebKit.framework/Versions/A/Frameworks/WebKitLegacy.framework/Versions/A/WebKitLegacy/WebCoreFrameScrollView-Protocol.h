@@ -5,5 +5,9 @@
 //
 
 @protocol WebCoreFrameScrollView
+- (void);
+- (void)rz
+;
+- (struct CGPoint);
 @end
 

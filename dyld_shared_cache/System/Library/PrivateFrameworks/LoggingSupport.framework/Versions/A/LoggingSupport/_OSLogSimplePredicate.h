@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSPredicate, NSSet;
+@class NSPredicate, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogSimplePredicate
 {
     NSSet *_keys;
-    NSSet *_operators;
-    NSSet *_compoundTypes;
-    NSMutableArray *_stack;
-    NSPredicate *_predicate;
 }
 
 - (id);
+- (_Bool)idate entitlement with unsupported typeId %ld;
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void)ArchivePath:(id)arg1 forRelativePaths:errorOut: /* Error: Ran out of types for this method. */;
-- (void)npost;
+- (void)initWithLogArchivePath:(id)arg1 forRelativePaths:errorOut: /* Error: Ran out of types for this method. */;
+- (void)Signpost;
 - (void)f>;
 
 // Remaining properties

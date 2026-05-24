@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Config)
-+ (id);
++ (id)tccatcca;
 @end
 

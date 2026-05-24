@@ -6,54 +6,42 @@
 
 #import <CalendarUIKit/CUIKDescriptionGenerator.h>
 
-@class NSDateFormatter, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUIKDateDescriptionGenerator : CUIKDescriptionGenerator
 {
     NSObject<OS_dispatch_queue> *_serialFormatterEditQueue;
-    NSDateFormatter *_dayFormatter;
-    NSDateFormatter *_abbrevDayFormatter;
-    NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_standardTimeFormatter;
-    NSDateFormatter *_customFormatter;
-    NSDateFormatter *_fullStyleDateFormatter;
-    NSDateFormatter *_dayOfWeekFormatter;
-    NSMutableDictionary *_longFormatters;
 }
 
-+ (id)sÒ0ÁÚâª¡àªû;
-+ (id)©ôOD©öWC©ø_B©úgA©üoÆ¨ÿ_Ö#ÕÿÑöW©ôO©ý{©ýÃ;
-+ (id)Ò0
-ÁÚâª@;
-+ (id)¹ZBùQÒ0ÁÚáªP¹bBùqÝÒ0
-ÁÚâªN;
 + (id);
-- (id)@ù;
-- (id)uð!;
-- (id)Ã;
-- (id)ª±ÚÐ10@ù
-?×é;
-- (id)ò0ÁÚñªñGÁÚë@;
-- (id):Ë_ /* Error: Ran out of types for this method. */;
-- (id)B©úgA©üoÆ¨ÿ_Ö#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÑ W:©÷ªüª¢øôª /* Error: Ran out of types for this method. */;
-- (id)ªâªñªéò1	?×#	;
-- (id)èª	Cøàª!;
-- (id)àò	?×;
-- (id)_Ö Z;
-- (id)ÊhÜ@â£;
-- (id)ß,kb;
-- (id))ëF;
-- (void)OÂ¨ÿ#ÕÐÊP;
-- (id)=ó;
-- (id)À=à=
-@ùb@9;
-- (id)Ý;
-- (id)'QÒ0ÁÚáª0;
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
-- (void)ccurrencesInSeries;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)X�;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)al/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScopeStorage.m;
+- (id);
+- (id);
+- (void)totalOccurrencesInSeries;
 
 @end
 

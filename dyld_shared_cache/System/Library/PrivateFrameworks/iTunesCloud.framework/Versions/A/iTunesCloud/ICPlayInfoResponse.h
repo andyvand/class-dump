@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)D:itemName:itemKind: /* Error: Ran out of types for this method. */;
+- (void)initWithRequestContext:buyParams:storeItemID:itemName:itemKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *playInfoData;

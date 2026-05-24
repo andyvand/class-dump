@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface GEOPOIEventPerformer
 {
     NSString *_localizedName;
-    NSString *_iTunesIdentifier;
-    NSURL *_iTunesURL;
 }
 
-+ (id);
++ (id)<;
 + (_Bool)Index:%d endIndex:%d originalRange:[%@] supportPoints:%d /* Error: Ran out of types for this method. */;
+- (void)setWithObjects:(id)arg1;
+- (void)setUndoManager:(id)arg1;
+- (id);
+- (id)7C;
+- (id);
+- (id);
+- (id)5;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)veBannerInUpdates:(id)arg1;
+- (void)setPreserveBannerInUpdates:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *iTunesIdentifier; // @synthesize iTunesIdentifier=_iTunesIdentifier;
-@property(retain, nonatomic) NSURL *iTunesURL; // @synthesize iTunesURL=_iTunesURL;
 @property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end

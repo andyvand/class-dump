@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface BMXPCConnectionWrapper
 {
     _Bool _isValid;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -17,11 +14,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void):(_Bool)arg1 %p interval:%lu, keys:%lu]> /* Error: Ran out of types for this method. */;
+- (void)p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property _Bool isValid; // @synthesize isValid=_isValid;
 
 @end

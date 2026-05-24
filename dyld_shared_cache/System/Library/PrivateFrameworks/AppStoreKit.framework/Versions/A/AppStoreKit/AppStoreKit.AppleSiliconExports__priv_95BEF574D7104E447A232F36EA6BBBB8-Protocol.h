@@ -5,9 +5,10 @@
 //
 
 @protocol AppStoreKit.AppleSiliconExports__priv_95BEF574D7104E447A232F36EA6BBBB8
+- (_Bool)o;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isRosettaAvailable;
 @property(nonatomic, readonly) _Bool isSupportEnabled;
 @end
 

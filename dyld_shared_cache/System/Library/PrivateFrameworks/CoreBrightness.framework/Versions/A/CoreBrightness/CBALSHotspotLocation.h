@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface CBALSHotspotLocation
 {
     float _x;
-    float _y;
 }
 
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (float);
-- (float)nfig: /* Error: Ran out of types for this method. */;
+- (float)initWithConfig: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float x; // @synthesize x=_x;
-@property(nonatomic) float y; // @synthesize y=_y;
 
 @end
 

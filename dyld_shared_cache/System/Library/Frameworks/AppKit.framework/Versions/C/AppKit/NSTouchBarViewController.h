@@ -6,39 +6,32 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSMutableArray, NSMutableSet, NSTouchBarItem, NSTouchBarView;
+@class NSArray;
 
 @interface NSTouchBarViewController : NSViewController
 {
     NSArray *_touchBars;
-    NSMutableSet *_observedBars;
-    NSTouchBarView *_touchBarView;
-    NSMutableArray *_groupItems;
-    NSTouchBarItem *_escapeKeyReplacementItem;
-    _Bool _needsUpdateTree;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)ignature (success);
+- (id)DeviceSupportsHeartRateVariability;
+- (id)DeviceSupportsGenerativeModelSystems;
 - (void);
 - (id);
 - (_Bool);
+- (void)!;
 - (void);
 - (void);
-- (void);
+- (void)_nscfBridgeURLCacheRemoveAllCachedResponses;
+- (id)nnection not set before response is received, failing task;
+- (void)nsfer daemon interrupted;
+- (void)markAsClaimed;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)ofDirectory:inDomain:toItemAtURL:error: /* Error: Ran out of types for this method. */;
+- (void)getRelationship:ofDirectory:inDomain:toItemAtURL:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSTouchBarItem *escapeKeyReplacementItem;
-@property(readonly) NSTouchBarView *touchBarView;
 @property(copy) NSArray *touchBars;
 
 @end

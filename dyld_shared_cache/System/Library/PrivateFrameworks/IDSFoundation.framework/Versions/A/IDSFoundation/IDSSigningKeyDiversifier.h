@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSSigningKeyDiversifier
 {
     NSString *_diversifier;
-    NSData *_trackingPreventionSecret;
 }
 
 + (_Bool);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *diversifier; // @synthesize diversifier=_diversifier;
-@property(retain, nonatomic) NSData *trackingPreventionSecret; // @synthesize trackingPreventionSecret=_trackingPreventionSecret;
 
 @end
 

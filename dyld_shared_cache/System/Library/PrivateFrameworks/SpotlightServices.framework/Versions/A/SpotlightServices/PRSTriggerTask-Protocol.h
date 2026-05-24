@@ -5,5 +5,6 @@
 //
 
 @protocol PRSTriggerTask
+- (_Bool)@16Q24;
 @end
 

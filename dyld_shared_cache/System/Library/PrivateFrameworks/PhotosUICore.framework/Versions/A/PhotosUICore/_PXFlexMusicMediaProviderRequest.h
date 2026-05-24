@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXAudioRequestOptions, PXFlexMusicAsset;
-
 @interface _PXFlexMusicMediaProviderRequest
 {
     long long _requestID;
-    PXFlexMusicAsset *_asset;
-    PXAudioRequestOptions *_options;
-    CDUnknownBlockType _resultHandler;
 }
 
 - (id);
-- (long long);
-- (id);
-- (id);
+- (long long)$;
+- (id)s;
+- (id)6{CGSize=dd}24;
 - (id)Awaiting keyboard dismissal:%{bool}d or picker dismissal:%{bool}d /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ActivityTitle;
+- (CDUnknownBlockType)LemonadeSharedAlbumsSectionHeaderSeeActivityTitle;
 - (void)W;
 
 // Remaining properties
-@property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) PXAudioRequestOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end
 

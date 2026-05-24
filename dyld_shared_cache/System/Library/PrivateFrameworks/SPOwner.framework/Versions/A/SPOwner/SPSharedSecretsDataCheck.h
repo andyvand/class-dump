@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SPDataIntegrityCheck;
+@class SPDataIntegrityCheck;
 
 @interface SPSharedSecretsDataCheck
 {
     SPDataIntegrityCheck *_completeness;
-    NSArray *_secrets;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) SPDataIntegrityCheck *completeness; // @synthesize completeness=_completeness;
-@property(copy, nonatomic) NSArray *secrets; // @synthesize secrets=_secrets;
 
 @end
 

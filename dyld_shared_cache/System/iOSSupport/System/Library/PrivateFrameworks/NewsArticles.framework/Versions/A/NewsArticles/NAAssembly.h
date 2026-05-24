@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void)fault;
+- (void)showingDefault;
 
 @end
 

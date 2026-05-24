@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisMarker, NSString;
-
 @interface TTSPhonemeMarker
 {
     long long _byteOffset;
-    NSString *_phoneme;
-    long long _alphabet;
 }
 
 - (id);
@@ -20,23 +16,12 @@
 - (long long);
 - (id);
 - (long long);
-- (long long);
+- (long long)ChangeListener;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alphabet; // @synthesize alphabet=_alphabet;
-@property(readonly, nonatomic) AVSpeechSynthesisMarker *avMark;
 @property(nonatomic) long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long markType;
-@property(retain, nonatomic) NSString *phoneme; // @synthesize phoneme=_phoneme;
-@property(readonly) Class superclass;
 
 @end
 

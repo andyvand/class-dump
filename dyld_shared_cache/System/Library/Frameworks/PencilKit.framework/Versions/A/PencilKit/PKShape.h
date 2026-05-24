@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKStroke;
-
 @interface PKShape
 {
     long long _type;
-    NSArray *_strokes;
-    PKStroke *_originalStroke;
 }
 
 + (id);
@@ -19,13 +15,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)_SFPBClearProactiveCategoryCommand;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool fillable;
-@property(readonly, nonatomic) PKStroke *originalStroke; // @synthesize originalStroke=_originalStroke;
-@property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

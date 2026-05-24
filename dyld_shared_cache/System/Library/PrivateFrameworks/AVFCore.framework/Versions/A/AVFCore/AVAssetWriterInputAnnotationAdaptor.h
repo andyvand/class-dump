@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInput, AVAssetWriterInputMetadataAdaptor;
+@class AVAssetWriterInput;
 
 @interface AVAssetWriterInputAnnotationAdaptor
 {
     AVAssetWriterInput *_assetWriterInput;
-    AVAssetWriterInputMetadataAdaptor *_assetWriterInputMetadataAdaptor;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AVAssetWriterInput *assetWriterInput;

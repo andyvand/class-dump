@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface AeroMLTracerSubEvent
 {
     NSMutableArray *_attributes;
-    NSString *_details;
-    NSString *_name;
-    unsigned int _privatizedTimeStamp;
-    struct {
-        unsigned int privatizedTimeStamp:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
++ (Class)lInferenceTimeInMs;
+- (void)_componentName;
+- (void)_cdmMatchingSpanLabel;
+- (unsigned int)_attentionInvocationFixedDimensions;
+- (_Bool)andonCountForEntityInUsingApp28Days;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)FACircleEventTypeViewMemberDetail;
 - (void);
 - (void);
 - (void);
@@ -37,22 +31,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)N7morphun9exception29InvalidConfigurationExceptionE;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)× ;
-- (void)ackgroundProcessingTask;
+- (void)_PSBackgroundProcessingTask;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *details; // @synthesize details=_details;
-@property(readonly, nonatomic) _Bool hasDetails;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPrivatizedTimeStamp;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int privatizedTimeStamp; // @synthesize privatizedTimeStamp=_privatizedTimeStamp;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaClientFlow : SISchemaInstrumentationMessage
 {
     NSString *_clientFlowPayload;
-    _Bool _hasClientFlowPayload;
 }
 
 - (void);
@@ -21,19 +20,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)CallHaptic;
-- (id)s;
+- (unsigned long long)betaApp;
+- (_Bool)oid);
+- (_Bool)hat c2 ON   c2.chat_identifier = lower(c.chat_identifier)   AND c2.style = c.style INNER JOIN chat_handle_join ch ON   c2.ROWID = ch.chat_id WHERE   c.style = 45   AND c.chat_identifier != lower(c.chat_identifier) ;
+- (id);
+- (id)LG InvOETF:Y = MAX(0.0, (1 - %f) * |X| + %f)
+			               if( Y > 0.5 )
+			                   Y = (exp((Y - %f) / %f) + %f) * %f
+			               else
+			                   Y = Y * Y * %f
+ /* Error: Ran out of types for this method. */;
+- (id)deleteAppContactFreqForPhoneCallHaptic;
+- (id)_audioSkippedTimeInNs;
 - (void)e.aiml.siri.mh.MHClientEvent.MHSiriDirectedSpeechDetectionFailed;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientFlowPayload; // @synthesize clientFlowPayload=_clientFlowPayload;
-@property(nonatomic) _Bool hasClientFlowPayload; // @synthesize hasClientFlowPayload=_hasClientFlowPayload;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,22 +9,18 @@
 @interface AVVolumeControlView
 {
     _Bool _muted;
-    id <AVVolumeControlViewDelegate> _delegate;
-    double _volume;
 }
 
 - (id);
-- (void);
+- (void)avoid such saves. {author:(double)arg1 %{public}@};
 - (void);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property __weak id <AVVolumeControlViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property double volume; // @synthesize volume=_volume;
 
 @end
 

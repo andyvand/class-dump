@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAudioPlayer, NSArray, NSMutableArray, NSString, NSURL;
-@protocol IMAudioControllerDelegate;
-
 @interface IMAudioController
 {
     unsigned long long _currentIndex;
-    IMAudioPlayer *_listenAudioPlayer;
-    NSMutableArray *_audioURLs;
-    _Bool _shouldUseSpeaker;
-    _Bool _shouldStopPlayingWhenSilent;
-    _Bool _shouldDuckOthers;
-    _Bool _shouldUseAVPlayer;
-    _Bool _playing;
-    _Bool _paused;
-    _Bool _interrupted;
-    NSURL *_currentURL;
-    id <IMAudioControllerDelegate> _delegate;
-    IMAudioPlayer *_audioPlayer;
 }
 
 + (id);
 + (Class);
 - (_Bool);
 - (_Bool);
+- (_Bool)Mq;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,26 +22,26 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
-- (double);
-- (id);
+- (double)Zs;
+- (id)s;
 - (id);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)7r;
+- (void)t;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteGraphicsContextGLFunctionsGenerated.cpp 434:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -75,28 +60,7 @@
 - (_Bool)3)<X;
 
 // Remaining properties
-@property(retain, nonatomic) IMAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
-@property(readonly, copy, nonatomic) NSArray *audioURLs;
-@property(readonly, nonatomic) double currentMediaObjectDuration;
-@property(readonly, nonatomic) double currentMediaObjectTime;
-@property(readonly, nonatomic) NSURL *currentURL; // @synthesize currentURL=_currentURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMAudioControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interrupted; // @synthesize interrupted=_interrupted;
-@property(retain, nonatomic) IMAudioPlayer *listenAudioPlayer; // @synthesize listenAudioPlayer=_listenAudioPlayer;
 @property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(nonatomic) _Bool shouldDuckOthers; // @synthesize shouldDuckOthers=_shouldDuckOthers;
-@property(nonatomic) _Bool shouldStopPlayingWhenSilent; // @synthesize shouldStopPlayingWhenSilent=_shouldStopPlayingWhenSilent;
-@property(nonatomic) _Bool shouldUseAVPlayer; // @synthesize shouldUseAVPlayer=_shouldUseAVPlayer;
-@property(nonatomic) _Bool shouldUseSpeaker; // @synthesize shouldUseSpeaker=_shouldUseSpeaker;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, QLFileThumbnailRequest, QLThumbnailReply;
+@class QLFileThumbnailRequest;
 
 __attribute__((visibility("hidden")))
 @interface QLServiceThumbnailRenderer
 {
     QLFileThumbnailRequest *_request;
-    QLThumbnailReply *_reply;
-    CDUnknownBlockType _completionHandler;
-    NSXPCConnection *_connection;
 }
 
 - (id);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)EEEE3$_0;
 - (void);
-- (id);
+- (id)*;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -39,9 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) QLThumbnailReply *reply; // @synthesize reply=_reply;
 @property(retain, nonatomic) QLFileThumbnailRequest *request; // @synthesize request=_request;
 
 @end

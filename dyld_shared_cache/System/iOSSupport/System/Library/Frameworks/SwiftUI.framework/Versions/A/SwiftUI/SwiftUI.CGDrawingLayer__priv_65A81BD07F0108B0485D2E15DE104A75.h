@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
-- (void)y;
+- (void)PreferenceKey;
 
 @end
 

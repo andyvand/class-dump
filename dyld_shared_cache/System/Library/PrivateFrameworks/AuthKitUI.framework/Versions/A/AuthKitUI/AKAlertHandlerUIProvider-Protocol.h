@@ -5,5 +5,6 @@
 //
 
 @protocol AKAlertHandlerUIProvider
+- (_Bool);
 @end
 

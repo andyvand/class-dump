@@ -6,8 +6,6 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary, NSString;
-
 @interface PISemanticStyleAdjustmentController : PIAdjustmentController
 {
 }
@@ -26,12 +24,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cast;
-@property(nonatomic) double color;
-@property(nonatomic) double intensity;
-@property(copy, nonatomic) NSDictionary *statistics;
 @property(nonatomic) double tone;
-@property(nonatomic) long long version;
 
 @end
 

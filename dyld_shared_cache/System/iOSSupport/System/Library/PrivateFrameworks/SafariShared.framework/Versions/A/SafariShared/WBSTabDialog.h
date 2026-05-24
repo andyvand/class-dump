@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WBSTabDialog
 {
     CDUnknownBlockType _presentationBlock;
-    CDUnknownBlockType _dismissalBlock;
-    _Bool _blocksWebProcessUntilDismissed;
-    NSArray *_cancellationExemptions;
 }
 
 + (id);
@@ -26,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool blocksWebProcessUntilDismissed; // @synthesize blocksWebProcessUntilDismissed=_blocksWebProcessUntilDismissed;
-@property(copy, nonatomic) NSArray *cancellationExemptions; // @synthesize cancellationExemptions=_cancellationExemptions;
 
 @end
 

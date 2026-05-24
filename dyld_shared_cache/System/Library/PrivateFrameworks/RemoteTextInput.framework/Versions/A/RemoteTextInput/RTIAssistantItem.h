@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
-
 @interface RTIAssistantItem
 {
     _Bool _visibleWhenMinimized;
-    _Bool _showsBarButtonItemsInline;
-    _Bool _showsInputDashboardViewController;
-    float _centerViewPreferredWidth;
-    UIColor *_detachedTintColor;
-    UIColor *_detachedBackgroundColor;
-    NSArray *_leadingBarButtonGroups;
-    NSArray *_trailingBarButtonGroups;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,21 +26,14 @@
 - (float);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)0:8@"NSXMLParser"16@"NSString"24 /* Error: Ran out of types for this method. */;
+- (void)x(O;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float centerViewPreferredWidth; // @synthesize centerViewPreferredWidth=_centerViewPreferredWidth;
-@property(retain, nonatomic) UIColor *detachedBackgroundColor; // @synthesize detachedBackgroundColor=_detachedBackgroundColor;
-@property(retain, nonatomic) UIColor *detachedTintColor; // @synthesize detachedTintColor=_detachedTintColor;
-@property(retain, nonatomic) NSArray *leadingBarButtonGroups; // @synthesize leadingBarButtonGroups=_leadingBarButtonGroups;
-@property(nonatomic) _Bool showsBarButtonItemsInline; // @synthesize showsBarButtonItemsInline=_showsBarButtonItemsInline;
-@property(nonatomic) _Bool showsInputDashboardViewController; // @synthesize showsInputDashboardViewController=_showsInputDashboardViewController;
-@property(retain, nonatomic) NSArray *trailingBarButtonGroups; // @synthesize trailingBarButtonGroups=_trailingBarButtonGroups;
 @property(nonatomic) _Bool visibleWhenMinimized; // @synthesize visibleWhenMinimized=_visibleWhenMinimized;
 
 @end

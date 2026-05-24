@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPCompoundPredicate, MPPConditionalPredicate, MPPPersistentIDsPredicate, MPPPropertyPredicate, MPPSearchStringPredicate;
+@class MPPCompoundPredicate;
 
 __attribute__((visibility("hidden")))
 @interface MPPMediaPredicate
 {
     MPPCompoundPredicate *_compoundPredicate;
-    MPPConditionalPredicate *_conditionalPredicate;
-    MPPPersistentIDsPredicate *_persistentIDsPredicate;
-    MPPPropertyPredicate *_propertyPredicate;
-    MPPSearchStringPredicate *_searchStringPredicate;
-    int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -37,32 +29,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)(;
+- (unsigned long long)scoreInterpreterFromFactorName:namespaceName: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)ionIdentifierSets: /* Error: Ran out of types for this method. */;
-- (void)ies:(_Bool)arg1;
-- (void)MAPPING_MISSING__;
+- (_Bool)setAllowedSectionIdentifierSets: /* Error: Ran out of types for this method. */;
+- (void)initWithRequestedProperties:(_Bool)arg1;
+- (void)__MPModelPropertyPlaylistStaticTallEditorialArtwork__MAPPING_MISSING__;
 
 // Remaining properties
-@property(retain, nonatomic) MPPCompoundPredicate *compoundPredicate; // @synthesize compoundPredicate=_compoundPredicate;
-@property(retain, nonatomic) MPPConditionalPredicate *conditionalPredicate; // @synthesize conditionalPredicate=_conditionalPredicate;
-@property(readonly, nonatomic) _Bool hasCompoundPredicate;
-@property(readonly, nonatomic) _Bool hasConditionalPredicate;
-@property(readonly, nonatomic) _Bool hasPersistentIDsPredicate;
-@property(readonly, nonatomic) _Bool hasPropertyPredicate;
-@property(readonly, nonatomic) _Bool hasSearchStringPredicate;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) MPPPersistentIDsPredicate *persistentIDsPredicate; // @synthesize persistentIDsPredicate=_persistentIDsPredicate;
-@property(retain, nonatomic) MPPPropertyPredicate *propertyPredicate; // @synthesize propertyPredicate=_propertyPredicate;
-@property(retain, nonatomic) MPPSearchStringPredicate *searchStringPredicate; // @synthesize searchStringPredicate=_searchStringPredicate;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

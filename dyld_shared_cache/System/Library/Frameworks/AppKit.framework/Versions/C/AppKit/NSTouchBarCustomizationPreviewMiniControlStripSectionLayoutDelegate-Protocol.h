@@ -5,5 +5,6 @@
 //
 
 @protocol NSTouchBarCustomizationPreviewMiniControlStripSectionLayoutDelegate
+- (_Bool)and connect;
 @end
 

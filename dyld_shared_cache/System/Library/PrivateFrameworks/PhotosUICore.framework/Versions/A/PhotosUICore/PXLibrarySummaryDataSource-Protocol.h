@@ -8,11 +8,10 @@
 
 @protocol PXLibrarySummaryDataSource
 
-// Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> topMostAssetCollection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXDisplayAssetCollection>",?,R,N
+@optional
+- (id <PXDisplayAssetCollection>);
 
+// Remaining properties
 @property(readonly, nonatomic) id <PXBrowserVisibleContentSnapshot> visibleContentSnapshot;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<PXBrowserVisibleContentSnapshot>",?,R,N

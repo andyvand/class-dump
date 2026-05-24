@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (FBSApplicationDataStore)
-- (_Bool);
+- (_Bool)%;
 - (id);
 @end
 

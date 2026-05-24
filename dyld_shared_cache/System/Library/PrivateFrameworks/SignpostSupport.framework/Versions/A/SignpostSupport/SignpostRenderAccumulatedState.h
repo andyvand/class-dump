@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface SignpostRenderAccumulatedState
 {
     unsigned int _frameSeed;
-    NSMutableArray *_imageQueueSampleEvents;
-    NSMutableArray *_clientDrawableIntervals;
 }
 
 - (void);
@@ -22,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clientDrawableIntervals; // @synthesize clientDrawableIntervals=_clientDrawableIntervals;
 @property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(retain, nonatomic) NSMutableArray *imageQueueSampleEvents; // @synthesize imageQueueSampleEvents=_imageQueueSampleEvents;
 
 @end
 

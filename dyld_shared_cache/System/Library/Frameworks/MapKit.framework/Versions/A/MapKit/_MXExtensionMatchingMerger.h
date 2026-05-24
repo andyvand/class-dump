@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _MXExtensionMatchingMerger
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSArray *_mapExtensions;
-    NSArray *_intentNonUIExtensions;
-    NSArray *_intentUIExtensions;
 }
 
-- (id);
+- (id)batchMessagesSentCount;
 - (void);
-- (id);
-- (void):usingAttributionsByProviderIds: /* Error: Ran out of types for this method. */;
+- (id)se failed;
+- (void)shouldShowAddPhotoButtonOnMorePhotosGalleryForMapItem:usingAttributionsByProviderIds: /* Error: Ran out of types for this method. */;
 
 @end
 

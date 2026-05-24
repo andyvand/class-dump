@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDictionary, NSString, NSTimeZone;
+@class NSCalendar, NSString;
 
 @interface FMFSchedule
 {
     NSCalendar *_gregorian;
-    unsigned long long _startHour;
-    unsigned long long _startMin;
-    long long _daysOfWeek;
-    unsigned long long _endHour;
-    unsigned long long _endMin;
-    unsigned long long _spanDays;
-    NSTimeZone *_timeZone;
 }
 
 + (id);
@@ -33,7 +26,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (id);
@@ -42,7 +35,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -54,9 +47,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)etadata;
 - (_Bool);
-- (void);
+- (void)Type:(id)arg1 memojiMetadata:ignoresGuardianRestrictions:shouldSave: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -64,19 +57,7 @@
 - (id)¬åæ,çè;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCalendar *_gregorian; // @synthesize _gregorian;
-@property(nonatomic) long long daysOfWeek; // @synthesize daysOfWeek=_daysOfWeek;
-@property(readonly, nonatomic) NSDictionary *dictionary;
-@property(nonatomic) unsigned long long endHour; // @synthesize endHour=_endHour;
-@property(nonatomic) unsigned long long endMin; // @synthesize endMin=_endMin;
 @property(readonly, nonatomic) NSString *localizedDaysOfWeekString;
-@property(readonly, nonatomic) NSString *localizedEndTimeString;
-@property(readonly, nonatomic) NSString *localizedStartTimeString;
-@property(nonatomic) unsigned long long spanDays; // @synthesize spanDays=_spanDays;
-@property(nonatomic) unsigned long long startHour; // @synthesize startHour=_startHour;
-@property(nonatomic) unsigned long long startMin; // @synthesize startMin=_startMin;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly) NSString *validityError;
 
 @end
 

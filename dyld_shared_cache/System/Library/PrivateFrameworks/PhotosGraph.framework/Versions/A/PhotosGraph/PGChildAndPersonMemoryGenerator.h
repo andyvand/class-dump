@@ -6,33 +6,23 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGChildAndPersonMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    _Bool _intersectRelevantAssetsForFeatures;
-    unsigned long long _minimumNumberOfDefaultMemories;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGOverTheYearsMemoryConfiguration *_fallbackOverTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_fallbackFeaturedYearConfiguration;
 }
 
+- (id)set_confirmButtonText:(id)arg1;
+- (void)characterSetWithRange:(_Bool)arg1;
+- (void)cellClass;
+- (void)_performAsyncOnDelegateQueue:(unsigned long long)arg1;
+- (_Bool)uExtras:,V__menuExtras /* Error: Ran out of types for this method. */;
+- (_Bool)spaceManager",R;
+- (id)_insertRange:(id)arg1 intoArray:(id)arg2 atIndex:(_Bool)arg3;
+- (id)ACMSetEnvironmentVariableWithAccessPolicy;
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)2;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)u: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);

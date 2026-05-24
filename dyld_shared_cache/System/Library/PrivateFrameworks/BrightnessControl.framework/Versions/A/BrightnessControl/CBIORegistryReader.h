@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBIORegistryReader
 {
     unsigned int _options;
-    char _plane[128];
-    unsigned int _service;
 }
 
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
@@ -26,14 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned int service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

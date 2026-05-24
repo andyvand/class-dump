@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_appContactFreqForMessages;
++ (id)_appContactAffinityScoreForPhoneCallReceived;
++ (id)_appContactAffinityScoreForPhoneCall;
 
 @end
 

@@ -5,19 +5,16 @@
 //
 
 @class NSString;
-@protocol MFScriptingMessage;
 
 @interface MFMessageAddressee
 {
     NSString *_displayName;
-    NSString *_address;
-    id <MFScriptingMessage> _message;
-    NSString *_type;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)1
+;
 - (void);
 - (void);
 - (void);
@@ -27,14 +24,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ror;
+- (id)NotificationKeyLibraryAttachmentError;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address;
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *formattedAddress;
-@property(retain, nonatomic) id <MFScriptingMessage> message; // @synthesize message=_message;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

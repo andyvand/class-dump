@@ -6,22 +6,19 @@
 
 #import <UIKitCore/UIPinchGestureRecognizer.h>
 
-@class NSString, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollViewPinchGestureRecognizer : UIPinchGestureRecognizer
 {
     UIScrollView *_scrollView;
-    SEL _scrollViewAction;
-    unsigned int _hasParentScrollView:1;
-    _Bool _nestedHysteresisEnabled;
 }
 
 - (void)!CùQa1Â0@ù
 × ;
 - (void)6;
-- (id)us:(id)arg1;
-- (void)ties:(id)arg1;
+- (id)setPresentationViewCornerRadius:(id)arg1;
+- (void)addNodeWithLabel:(id)arg1 properties:(id)arg2;
 - (void)ollectionLayoutContainer",R,N;
 - (_Bool)bility contrast for slot:(long long)arg1 %ld;
 - (void)$s5UIKit31InProcessAnimationManagerDriverP;
@@ -31,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)íÔ`´j;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
 
 @end
 

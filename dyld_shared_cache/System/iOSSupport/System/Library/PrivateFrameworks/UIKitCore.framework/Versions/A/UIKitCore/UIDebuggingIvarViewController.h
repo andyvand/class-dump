@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     NSObject *_inspectedObject;
 }
 
-- (id);
-- (void);
-- (void);
+- (id). Bailing;
+- (void)d messages with replace ID:(id)arg1 %d from handle:%@ on service:%@ /* Error: Ran out of types for this method. */;
+- (void)ing;
 - (id);
 - (id);
 - (id);
 - (Class);
 - (id);
-- (id);
+- (id)http stream event %d;
 - (long long);
-- (void);
+- (void)valuesForProperties:(id)arg1;
 - (id);
 - (long long)1Â0@ù
 × ;

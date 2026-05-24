@@ -5,6 +5,7 @@
 //
 
 @protocol SDXPCDiagnosticsInterface
+- (void);
 - (void)\QÿÿÕÍW;
 @end
 

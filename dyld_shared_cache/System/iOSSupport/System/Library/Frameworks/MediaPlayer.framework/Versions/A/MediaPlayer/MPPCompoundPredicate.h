@@ -12,22 +12,22 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_predicates;
 }
 
-- (id);
+- (id)';
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)saveObjects:responseQueue:withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)rsistentID__MAPPING_MISSING__;
+- (id)`;
+- (void)__MPModelPropertyPlaylistParentPersistentID__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *predicates; // @synthesize predicates=_predicates;

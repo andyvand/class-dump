@@ -9,9 +9,9 @@
 }
 
 + (int);
-+ (unsigned int);
++ (unsigned int);
 - (_Bool);
-- (id);
+- (id)b %p;
 - (void);
 
 @end

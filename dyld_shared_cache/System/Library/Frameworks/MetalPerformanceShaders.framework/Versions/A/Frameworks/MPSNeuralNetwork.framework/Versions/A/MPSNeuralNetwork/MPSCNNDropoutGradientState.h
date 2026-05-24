@@ -6,22 +6,15 @@
 
 #import <MPSNeuralNetwork/MPSNNGradientState.h>
 
-@protocol MTLBuffer;
-
 @interface MPSCNNDropoutGradientState : MPSNNGradientState
 {
     CDStruct_da2e99ad _maskStrideInPixels;
-    float _keepProbability;
-    unsigned long long _resourcePixelFormat;
-    CDStruct_da2e99ad _resourceSize;
-    unsigned long long _commonBufferOffsetBytes;
-    id <MTLBuffer> _commonMaskBuffer;
 }
 
 - (id);
-- (void);
+- (void)n ;
 - (id);
-- (void);
+- (void)ting forwarding email:(id)arg1 %@;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyAccount, ICLegacyFolder;
-
 @interface UnknownClass (ICLegacyFolder)
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(@9;
 - (_Bool);
 - (id);
 - (id);
@@ -22,28 +19,6 @@
 - (id)ent ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICLegacyAccount> account;
-@property(readonly, nonatomic) NSArray *ancestorFolders;
-@property(readonly, nonatomic) NSSet *changes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long depth;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *externalIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifierURIPathComponent;
-@property(readonly, nonatomic) _Bool isCustomFolder;
-@property(readonly, nonatomic) _Bool isDefaultFolder;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
 @property(readonly, nonatomic) _Bool isRootFolder;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) id <ICLegacyFolder> parentFolder;
-@property(readonly) Class superclass;
 @end
 

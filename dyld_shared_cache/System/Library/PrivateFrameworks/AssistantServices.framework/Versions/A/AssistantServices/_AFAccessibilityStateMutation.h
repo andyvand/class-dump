@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAccessibilityState, NSString;
+@class AFAccessibilityState;
 
 @interface _AFAccessibilityStateMutation
 {
     AFAccessibilityState *_base;
-    long long _isVoiceOverTouchEnabled;
-    long long _isVibrationDisabled;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsVoiceOverTouchEnabled:1;
-        unsigned int hasIsVibrationDisabled:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (id)tUsePrelisteningMode:(id)arg1;
+- (id)setUsePrelisteningMode:(id)arg1;
 - (void)t:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

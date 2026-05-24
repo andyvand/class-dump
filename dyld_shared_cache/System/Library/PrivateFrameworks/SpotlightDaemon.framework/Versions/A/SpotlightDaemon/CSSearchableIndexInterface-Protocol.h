@@ -4,21 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class INInteraction, NSString;
 
 @protocol CSSearchableIndexInterface
+- (void)!;
+- (void)ral value outside the range of the char type;
+- (void)VA;
 - (void);
 - (void)
 × ;
 - (void)hableItem"24@"NSString"32@"NSString"40;
-- (void)ilSessionID;
-- (void)text:(long long)arg1 forBundleIds:(void (^)(NSError *))arg2 inferSpecialIndexes:block: /* Error: Ran out of types for this method. */;
+- (void)mailSessionID;
+- (void)_enumerateIndexersWithProtectionClasses:(long long)arg1 forQueryWithContext:(void (^)(NSError *))arg2 forBundleIds:inferSpecialIndexes:block: /* Error: Ran out of types for this method. */;
 - (void)dUntilLocked started;
 - (void)nMonitor unlocked:(NSString *)arg1 %d, foundExtensions:(NSString *)arg2 %d, migrationFinished:(long long)arg3 %d, completion:(void (^)(NSError *))arg4 %d;
 - (void)apple.corespotlight.fixup;
 - (void)ationDidFinish;
 
 @optional
+- (void)handleReassertAsTheCurrentPrimaryResident:(NSString *)arg1;
+- (void)handleProcessRemoved:(unsigned long long)arg1;
+- (void)handlePrimaryResidentUpdatedNotification:(INInteraction *)arg1;
+- (void);
+- (void)entryEventBackwardDefinitionAppleEmbeddedPCIELinkStates;
+- (void)x
+;
+- (void)A;
 - (void)0@ù
 × ;
 - (void)D:(int)arg1 %ld;

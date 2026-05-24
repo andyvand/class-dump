@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBDecimalNumberValue
 {
     struct {
@@ -13,10 +11,6 @@
         unsigned int isNegative:1;
         unsigned int mantissa:1;
     } _has;
-    _Bool _isNegative;
-    int _exponent;
-    unsigned long long _mantissa;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -34,33 +28,19 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)H;
 - (_Bool);
+- (void)AP8021X event:(id)arg1 intf=%@ keys=%@;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool)Xº;
-- (void)tResponseCodeReady;
+- (void)INCreateEventIntentResponseCodeReady;
 - (void)Ôÿ;
 - (id)¨ôÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int exponent; // @synthesize exponent=_exponent;
-@property(nonatomic) _Bool hasExponent;
-@property(nonatomic) _Bool hasIsNegative;
-@property(nonatomic) _Bool hasMantissa;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isNegative; // @synthesize isNegative=_isNegative;
-@property(nonatomic) unsigned long long mantissa; // @synthesize mantissa=_mantissa;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

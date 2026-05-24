@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCReportingBiDirectionalHistogram, VCReportingHistogram;
+@class VCReportingHistogram;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoFECStatsHolder
 {
     VCReportingHistogram *_totalFECDataByteCount;
-    VCReportingHistogram *_totalFECParityByteCount;
-    VCReportingHistogram *_totalFECFrameCount;
-    VCReportingHistogram *_completeFECFrameCount;
-    VCReportingHistogram *_failedFECFrameCount;
-    VCReportingHistogram *_unfixableFECFrameCount;
-    VCReportingHistogram *_totalFECMediaPacketCount;
-    VCReportingHistogram *_totalFECParityPacketCount;
-    VCReportingHistogram *_fecLevelDuration;
-    VCReportingHistogram *_frameSizeCount;
-    VCReportingHistogram *_frameSizeVsParityCount;
-    VCReportingHistogram *_frameSizeVsFailedCount;
-    VCReportingBiDirectionalHistogram *_frameSizeVsDeltaBetweenParityAndLoss;
 }
 
 - (id);
@@ -30,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -42,19 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) VCReportingHistogram *completeFECFrameCount; // @synthesize completeFECFrameCount=_completeFECFrameCount;
-@property(readonly) VCReportingHistogram *failedFECFrameCount; // @synthesize failedFECFrameCount=_failedFECFrameCount;
-@property(readonly) VCReportingHistogram *fecLevelDuration; // @synthesize fecLevelDuration=_fecLevelDuration;
-@property(readonly) VCReportingHistogram *frameSizeCount; // @synthesize frameSizeCount=_frameSizeCount;
-@property(readonly) VCReportingBiDirectionalHistogram *frameSizeVsDeltaBetweenParityAndLoss; // @synthesize frameSizeVsDeltaBetweenParityAndLoss=_frameSizeVsDeltaBetweenParityAndLoss;
-@property(readonly) VCReportingHistogram *frameSizeVsFailedCount; // @synthesize frameSizeVsFailedCount=_frameSizeVsFailedCount;
-@property(readonly) VCReportingHistogram *frameSizeVsParityCount; // @synthesize frameSizeVsParityCount=_frameSizeVsParityCount;
 @property(readonly) VCReportingHistogram *totalFECDataByteCount; // @synthesize totalFECDataByteCount=_totalFECDataByteCount;
-@property(readonly) VCReportingHistogram *totalFECFrameCount; // @synthesize totalFECFrameCount=_totalFECFrameCount;
-@property(readonly) VCReportingHistogram *totalFECMediaPacketCount; // @synthesize totalFECMediaPacketCount=_totalFECMediaPacketCount;
-@property(readonly) VCReportingHistogram *totalFECParityByteCount; // @synthesize totalFECParityByteCount=_totalFECParityByteCount;
-@property(readonly) VCReportingHistogram *totalFECParityPacketCount; // @synthesize totalFECParityPacketCount=_totalFECParityPacketCount;
-@property(readonly) VCReportingHistogram *unfixableFECFrameCount; // @synthesize unfixableFECFrameCount=_unfixableFECFrameCount;
 
 @end
 

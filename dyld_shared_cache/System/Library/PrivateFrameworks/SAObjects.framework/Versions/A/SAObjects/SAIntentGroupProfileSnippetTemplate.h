@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAIntentGroupSnippetTemplate.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAIntentGroupProfileSnippetTemplate : SAIntentGroupSnippetTemplate
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)44;
 - (id);
 - (id);
 - (void);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(copy, nonatomic) NSString *imageStyle;
-@property(copy, nonatomic) NSString *imageURI;
-@property(copy, nonatomic) NSArray *labelComponents;
 
 @end
 

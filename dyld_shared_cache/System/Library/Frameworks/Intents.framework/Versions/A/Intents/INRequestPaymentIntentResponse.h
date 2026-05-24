@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INPaymentRecord, NSString;
-
 @interface INRequestPaymentIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)thumbnailRequest;
++ (int)getFileSystemRepresentation:(long long)arg1 maxLength: /* Error: Ran out of types for this method. */;
++ (long long)fileExtensionHandle;
++ (_Bool)encodeBool:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -23,25 +21,17 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long);
+- (id);
+- (id)generateURLFor:(id)arg1 withReply: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ating captive credentials for '%@';
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long): /* Error: Ran out of types for this method. */;
+- (long long)filtersAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INPaymentRecord *paymentRecord;
-@property(readonly) Class superclass;
 
 @end
 

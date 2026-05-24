@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRVirtualTouchEventProtobuf;
-
 @interface _MRSendVirtualTouchEventMessageProtobuf
 {
     unsigned long long _virtualDeviceID;
-    _MRVirtualTouchEventProtobuf *_event;
-    struct {
-        unsigned int virtualDeviceID:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)7(6&;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -28,16 +22,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)Timeout;
+- (id)PhotosFeatureFlags;
+- (id)hInstanceContext:acquisitionContext:relinquishmentHandler:] /* Error: Ran out of types for this method. */;
+- (void)afterRoutingCompleteTimeout;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _MRVirtualTouchEventProtobuf *event; // @synthesize event=_event;
-@property(readonly, nonatomic) _Bool hasEvent;
 @property(nonatomic) _Bool hasVirtualDeviceID;
-@property(nonatomic) unsigned long long virtualDeviceID; // @synthesize virtualDeviceID=_virtualDeviceID;
 
 @end
 

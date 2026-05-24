@@ -7,7 +7,6 @@
 @interface ChronoKit.BlockAssertion
 {
     id lock;
-    id block;
 }
 
 @end

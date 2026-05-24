@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESRequestUnableToHandle : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)anyway but result may be inaccurate. Distance from route:%0.1f meters /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)t /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreDemotedApplicationsRequest_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ecoverable message guids to status %ld;
 - (void);
 - (id);
 - (id);
-- (id)rightContextToken;
+- (id)_rightContextToken;
 - (id)B,N,V_isNamedEntityPresentInVisualContext;
-- (void)esholdJS;
+- (void)keywordThresholdJS;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

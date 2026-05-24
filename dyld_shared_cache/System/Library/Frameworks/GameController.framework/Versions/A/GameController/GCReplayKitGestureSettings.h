@@ -9,9 +9,6 @@
 @interface GCReplayKitGestureSettings
 {
     NSString *_controllerElementMappingKey;
-    long long _singlePressGesture;
-    long long _doublePressGesture;
-    long long _longPressGesture;
 }
 
 + (_Bool);
@@ -30,14 +27,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)modelLargePhotoURL3x;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *controllerElementMappingKey; // @synthesize controllerElementMappingKey=_controllerElementMappingKey;
-@property(nonatomic) long long doublePressGesture; // @synthesize doublePressGesture=_doublePressGesture;
-@property(nonatomic) long long longPressGesture; // @synthesize longPressGesture=_longPressGesture;
-@property(nonatomic) long long singlePressGesture; // @synthesize singlePressGesture=_singlePressGesture;
 
 @end
 

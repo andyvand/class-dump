@@ -9,9 +9,6 @@
 @interface IDSTransactionLogMessage
 {
     NSString *_fromID;
-    NSString *_loginID;
-    NSString *_accountUniqueID;
-    NSString *_serviceName;
 }
 
 + (id);
@@ -27,10 +24,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountUniqueID; // @synthesize accountUniqueID=_accountUniqueID;
 @property(readonly, nonatomic) NSString *fromID; // @synthesize fromID=_fromID;
-@property(readonly, nonatomic) NSString *loginID; // @synthesize loginID=_loginID;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

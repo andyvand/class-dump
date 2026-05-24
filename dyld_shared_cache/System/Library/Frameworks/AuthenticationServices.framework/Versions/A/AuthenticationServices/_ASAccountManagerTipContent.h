@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface _ASAccountManagerTipContent
 {
     _Bool _hasBorderedImage;
-    NSString *_imageName;
-    NSImage *_image;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_buttonTitle;
-    NSString *_declineButtonTitle;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (_Bool);
 + (id);
@@ -66,16 +60,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy, nonatomic) NSString *declineButtonTitle; // @synthesize declineButtonTitle=_declineButtonTitle;
-@property(readonly, nonatomic) _Bool hasBorderedImage; // @synthesize hasBorderedImage=_hasBorderedImage;
-@property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

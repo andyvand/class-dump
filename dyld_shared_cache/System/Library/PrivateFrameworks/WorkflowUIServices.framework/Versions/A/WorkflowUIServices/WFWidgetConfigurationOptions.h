@@ -4,60 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSString, WFImage;
+@class INIntent;
 
 @interface WFWidgetConfigurationOptions
 {
     INIntent *_intent;
-    NSString *_widgetExtensionBundleIdentifier;
-    long long _family;
-    unsigned long long _widgetConfigurationStyle;
-    NSString *_widgetDisplayName;
-    NSString *_widgetDescription;
-    NSString *_remoteDeviceIdentifier;
-    NSString *_remoteAppLocalizedName;
-    WFImage *_remoteAppIcon;
-    unsigned long long _widgetConfigurationType;
-    struct CGRect _initialConfigurationCardViewFrame;
 }
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)*T;
 - (void);
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)zg;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)~l;
+- (id)m;
 - (void);
 - (long long);
-- (void);
-- (id);
-- (void);
+- (void)z;
+- (id)yboardChangedInformation";
+- (void)Session";
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long family; // @synthesize family=_family;
-@property(nonatomic) struct CGRect initialConfigurationCardViewFrame; // @synthesize initialConfigurationCardViewFrame=_initialConfigurationCardViewFrame;
 @property(retain, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(copy, nonatomic) WFImage *remoteAppIcon; // @synthesize remoteAppIcon=_remoteAppIcon;
-@property(copy, nonatomic) NSString *remoteAppLocalizedName; // @synthesize remoteAppLocalizedName=_remoteAppLocalizedName;
-@property(copy, nonatomic) NSString *remoteDeviceIdentifier; // @synthesize remoteDeviceIdentifier=_remoteDeviceIdentifier;
-@property(nonatomic) unsigned long long widgetConfigurationStyle; // @synthesize widgetConfigurationStyle=_widgetConfigurationStyle;
-@property(nonatomic) unsigned long long widgetConfigurationType; // @synthesize widgetConfigurationType=_widgetConfigurationType;
-@property(copy, nonatomic) NSString *widgetDescription; // @synthesize widgetDescription=_widgetDescription;
-@property(copy, nonatomic) NSString *widgetDisplayName; // @synthesize widgetDisplayName=_widgetDisplayName;
-@property(retain, nonatomic) NSString *widgetExtensionBundleIdentifier; // @synthesize widgetExtensionBundleIdentifier=_widgetExtensionBundleIdentifier;
 
 @end
 

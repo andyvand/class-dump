@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface CHSGaugeParameters
 {
     NSAttributedString *_leadingText;
-    NSAttributedString *_trailingText;
-    unsigned long long _style;
-    NSArray *_gradientColors;
-    NSArray *_gradientLocations;
-    double _fraction;
 }
 
-+ (_Bool);
++ (_Bool)setCacheImageData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)?;
 - (id);
 - (unsigned long long);
-- (double);
 - (id);
+- (unsigned long long);
+- (double);
+- (id)6;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double fraction; // @synthesize fraction=_fraction;
-@property(readonly, copy, nonatomic) NSArray *gradientColors; // @synthesize gradientColors=_gradientColors;
-@property(readonly, copy, nonatomic) NSArray *gradientLocations; // @synthesize gradientLocations=_gradientLocations;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSAttributedString *leadingText; // @synthesize leadingText=_leadingText;
-@property(readonly, nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSAttributedString *trailingText; // @synthesize trailingText=_trailingText;
 
 @end
 

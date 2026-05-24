@@ -5,5 +5,9 @@
 //
 
 @protocol NSStackViewDelegate
+
+@optional
+- (void);
+- (void)__DATA;
 @end
 

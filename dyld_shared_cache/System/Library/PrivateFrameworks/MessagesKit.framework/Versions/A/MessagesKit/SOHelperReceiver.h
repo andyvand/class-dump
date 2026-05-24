@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, SOHelper;
+@class NSMutableDictionary, SOHelper;
 
 @interface SOHelperReceiver
 {
     SOHelper *_controller;
-    NSMutableDictionary *_controllerProperties;
 }
 
 - (void);
@@ -19,24 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_TtC12SiriOntology39UsoTaskBuilder_create_apple_PhotoMemory;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void)P;
 
 // Remaining properties
-@property __weak SOHelper *controller; // @synthesize controller=_controller;
 @property(retain, nonatomic) NSMutableDictionary *controllerProperties; // @synthesize controllerProperties=_controllerProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, SoftwareUpdateExtensibleSSOAuthenticator;
+@class NSDictionary, NSObject, SoftwareUpdateExtensibleSSOAuthenticator;
 @protocol OS_dispatch_queue, OS_dispatch_semaphore;
 
 @interface SoftwareUpdateSSO
 {
     NSObject<OS_dispatch_semaphore> *SoftwareUpdateSSOCompletionSemaphore;
     NSObject<OS_dispatch_queue> *ssoControllerQueue;
-    NSDictionary *_defaultAuthParameters;
-    NSString *_appIdentifier;
-    NSString *_userName;
-    NSString *_personID;
-    NSString *_envIdentifier;
-    NSString *_dawToken;
-    NSString *_interactivityLevel;
-    CDUnknownBlockType _resultCallBack;
-    SoftwareUpdateExtensibleSSOAuthenticator *_authenticator;
 }
 
 - (_Bool);
@@ -41,36 +32,22 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)efs;
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)g;
 
 // Remaining properties
-@property(retain) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
 @property(retain) SoftwareUpdateExtensibleSSOAuthenticator *authenticator; // @synthesize authenticator=_authenticator;
-@property(retain) NSString *dawToken; // @synthesize dawToken=_dawToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NSDictionary *defaultAuthParameters; // @synthesize defaultAuthParameters=_defaultAuthParameters;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *envIdentifier; // @synthesize envIdentifier=_envIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *interactivityLevel; // @synthesize interactivityLevel=_interactivityLevel;
-@property(retain) NSString *personID; // @synthesize personID=_personID;
-@property(copy, nonatomic) CDUnknownBlockType resultCallBack; // @synthesize resultCallBack=_resultCallBack;
-@property(readonly) Class superclass;
-@property(retain) NSString *userName; // @synthesize userName=_userName;
 
 @end
 

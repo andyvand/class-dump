@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESOnDeviceIndexSearchStarted : SISchemaInstrumentationMessage
 {
     int _name;
-    CDStruct_39a9b417 _has;
 }
 
 - (void);
@@ -20,18 +17,16 @@
 - (_Bool);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPushCacheDeleteUpdateRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)hreaded history query got %llu items;
 - (id);
 - (id);
-- (id)xecutionDecision;
+- (id)_preExecutionDecision;
 - (id)lueType;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
 
 @end

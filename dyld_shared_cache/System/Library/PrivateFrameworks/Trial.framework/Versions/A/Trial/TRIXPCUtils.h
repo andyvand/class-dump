@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)initWithKeyOptions:(id)arg1 valueOptions:capacity: /* Error: Ran out of types for this method. */;
 
 @end
 

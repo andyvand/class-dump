@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, STYIOPMNotificationDelegate;
+@protocol STYIOPMNotificationDelegate;
 
 @interface STYIOPMNotificationMonitor
 {
     struct __IOPMConnection *_connectionToIOPM;
-    unsigned long long _eventTimestamps[3];
-    _Bool _receivedEarlyNotification[3];
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    id <STYIOPMNotificationDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)@;
+- (id)b;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <STYIOPMNotificationDelegate> delegate; // @synthesize delegate=_delegate;

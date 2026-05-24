@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMServiceHandleMetric : SISchemaInstrumentationMessage
 {
     int _serviceName;
-    long long _startLogicalTimestampInNs;
-    long long _endLogicalTimestampInNs;
-    int _failureReason;
-    int _errorCode;
-    struct {
-        unsigned int serviceName:1;
-        unsigned int startLogicalTimestampInNs:1;
-        unsigned int endLogicalTimestampInNs:1;
-        unsigned int failureReason:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (long long);
@@ -35,43 +22,33 @@
 - (long long);
 - (void);
 - (void);
+- (void)@;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)currentSelection: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)TS_COMPUTE_IMPRINT;
 - (unsigned long long);
-- (void);
+- (void)�b;
 - (_Bool);
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)P;
 - (id)
 × ;
 - (id)B,N,V_hasSubSystemName;
 - (id)@"RGSiriSchemaRGInferenceEnded",&,N,V_ended;
-- (_Bool)ActionConfirmationContext;
+- (_Bool)FLOWLINKSchemaFLOWLINKActionConfirmationContext;
 - (void)ÜÁàÿ]%eµÚ!;
 - (int)×þ¯=ó&;
 
 // Remaining properties
-@property(nonatomic) long long endLogicalTimestampInNs; // @synthesize endLogicalTimestampInNs=_endLogicalTimestampInNs;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasEndLogicalTimestampInNs;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasFailureReason;
-@property(nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasStartLogicalTimestampInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) long long startLogicalTimestampInNs; // @synthesize startLogicalTimestampInNs=_startLogicalTimestampInNs;
 
 @end
 

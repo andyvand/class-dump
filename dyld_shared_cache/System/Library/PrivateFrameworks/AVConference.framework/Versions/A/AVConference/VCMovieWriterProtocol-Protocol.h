@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, VCSandboxedURL;
+@class NSURL, VCSandboxedURL;
 
 @protocol VCMovieWriterProtocol
+- (void);
+- (void);
+- (void)ailed to parse dictionary from:(NSURL *)arg1 {%s};
+- (NSURL *)!;
+- (VCSandboxedURL *)HIDPreferences;
 - (void);
-- (void)DS startMKMRecoveryForParticipantIDs:(CDStruct_1b6d18a9)arg1 ];
+- (void)DS startMKMRecoveryForParticipantIDs:(CDStruct_198678f7)arg1 ];
 
 // Remaining properties
-@property(copy, nonatomic) VCSandboxedURL *directoryURL;
-@property unsigned int endRTPTimeStamp;
-@property(readonly, nonatomic) _Bool finishWritingInvoked;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval;
-@property(retain, nonatomic) NSURL *outputURL;
 @property unsigned int startRTPTimeStamp;
-@property(readonly, nonatomic) NSString *transactionID;
-@property(readonly) unsigned char writerMode;
 @end
 

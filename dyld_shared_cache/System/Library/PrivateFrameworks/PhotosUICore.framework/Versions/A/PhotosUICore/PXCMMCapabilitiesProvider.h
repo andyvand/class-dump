@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLStatus, NSString, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PXCMMCapabilitiesProvider
 {
     PHPhotoLibrary *_photoLibrary;
-    long long _capabilities;
-    CPLStatus *_cplStatus;
-    _Bool _isObserving;
 }
 
 - (void);
@@ -20,19 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)_allowSwipeSelection;
 - (void)Nÿ PÿÐ;
 - (void);
 
 // Remaining properties
 @property(readonly) long long capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

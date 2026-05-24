@@ -13,9 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int end; // @dynamic end;
-@property(nonatomic) _Bool hasEnd; // @dynamic hasEnd;
-@property(nonatomic) _Bool hasStart; // @dynamic hasStart;
 @property(nonatomic) int start; // @dynamic start;
 
 @end

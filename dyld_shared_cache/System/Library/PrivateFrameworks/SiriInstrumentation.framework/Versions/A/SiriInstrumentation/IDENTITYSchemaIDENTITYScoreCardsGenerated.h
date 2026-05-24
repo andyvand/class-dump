@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IDENTITYSchemaIDENTITYIDScoreCard, IDENTITYSchemaIDENTITYVoiceScoreCard, NSData;
+@class IDENTITYSchemaIDENTITYVoiceScoreCard;
 
 @interface IDENTITYSchemaIDENTITYScoreCardsGenerated : SISchemaInstrumentationMessage
 {
     IDENTITYSchemaIDENTITYVoiceScoreCard *_voiceScoreCard;
-    IDENTITYSchemaIDENTITYIDScoreCard *_identityScoreCard;
-    _Bool _hasVoiceScoreCard;
-    _Bool _hasIdentityScoreCard;
 }
 
 - (id);
@@ -25,25 +22,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)getPrettyNameForHandle:completion: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)sAtIndex:(id)arg1;
+- (id)metricsAtIndex:(id)arg1;
 - (id)Àf;
 - (void)èoÊÿìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentityScoreCard; // @synthesize hasIdentityScoreCard=_hasIdentityScoreCard;
-@property(nonatomic) _Bool hasVoiceScoreCard; // @synthesize hasVoiceScoreCard=_hasVoiceScoreCard;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYIDScoreCard *identityScoreCard; // @synthesize identityScoreCard=_identityScoreCard;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IDENTITYSchemaIDENTITYVoiceScoreCard *voiceScoreCard; // @synthesize voiceScoreCard=_voiceScoreCard;
 
 @end

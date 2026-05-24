@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingBirthYearSource
 {
     id tracedSource;
-    id log;
 }
 
 @end

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSWindow;
+@class NSArray;
 
 @interface UnknownClass (BrowserApplicationExtras)
 + (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,9 +41,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=safari_isDisplayingLockableBrowsingContent) _Bool safari_displayingLockableBrowsingContent;
-@property(nonatomic, getter=safari_showsToolbar, setter=safari_setShowsToolbar:) _Bool safari_showsToolbar;
-@property(readonly, nonatomic) NSWindow *safari_topmostSheet;
 @property(readonly, copy, nonatomic) NSArray *safari_windowControlViews;
 @end
 

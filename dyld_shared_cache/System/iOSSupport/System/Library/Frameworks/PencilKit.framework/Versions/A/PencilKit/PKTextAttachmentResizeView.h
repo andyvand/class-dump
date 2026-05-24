@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawingAdjustmentKnob, UIView;
-@protocol PKTextAttachmentResizeViewDelegate;
+@class PKDrawingAdjustmentKnob;
 
 @interface PKTextAttachmentResizeView
 {
     _Bool _top;
-    _Bool _highlighted;
-    _Bool _enabled;
-    PKDrawingAdjustmentKnob *_knobView;
-    UIView *_separatorView;
-    UIView *_separatorHighlightedView;
-    id <PKTextAttachmentResizeViewDelegate> _delegate;
-    struct CGRect _originalDrawingBounds;
-    struct CGRect _originalViewBounds;
-    struct UIEdgeInsets _originalContentInset;
 }
 
 + (double);
@@ -40,32 +30,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)<;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)layoutManager;
 - (void);
 - (_Bool)1Â0@ù
 × ;
 - (void),&,N,V_shapeDrawingController;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKTextAttachmentResizeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(retain, nonatomic) PKDrawingAdjustmentKnob *knobView; // @synthesize knobView=_knobView;
-@property(nonatomic) struct UIEdgeInsets originalContentInset; // @synthesize originalContentInset=_originalContentInset;
-@property(nonatomic) struct CGRect originalDrawingBounds; // @synthesize originalDrawingBounds=_originalDrawingBounds;
-@property(nonatomic) struct CGRect originalViewBounds; // @synthesize originalViewBounds=_originalViewBounds;
-@property(readonly, nonatomic) double resizeContentInset;
-@property(retain, nonatomic) UIView *separatorHighlightedView; // @synthesize separatorHighlightedView=_separatorHighlightedView;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(readonly, nonatomic) _Bool shown;
-@property(readonly, nonatomic) _Bool top; // @synthesize top=_top;
 
 @end
 

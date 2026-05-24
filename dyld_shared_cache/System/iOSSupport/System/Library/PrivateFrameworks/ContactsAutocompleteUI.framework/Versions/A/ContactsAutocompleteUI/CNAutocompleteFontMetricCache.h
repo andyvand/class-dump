@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CNAutocompleteFontMetricCache
 {
     NSString *_preferredSizeValidationKey;
-    NSMutableDictionary *_metricCacheDictionary;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -23,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)M	;
 
 @end
 

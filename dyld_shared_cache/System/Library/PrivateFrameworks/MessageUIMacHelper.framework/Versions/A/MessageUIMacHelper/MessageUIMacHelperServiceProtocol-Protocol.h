@@ -5,5 +5,6 @@
 //
 
 @protocol MessageUIMacHelperServiceProtocol
+- (void)setAllowsPictureInPictureMediaPlayback:(void (^)(_Bool, NSError *))arg1;
 @end
 

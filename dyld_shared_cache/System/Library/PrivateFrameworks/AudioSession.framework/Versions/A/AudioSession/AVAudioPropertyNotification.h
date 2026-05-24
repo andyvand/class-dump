@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface AVAudioPropertyNotification
 {
     NSString *_propertyName;
-    NSNumber *_sourceSessionID;
-    NSNumber *_nodeSessionID;
-    NSDictionary *_propertyData;
 }
 
 - (id);
@@ -22,10 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *nodeSessionID; // @synthesize nodeSessionID=_nodeSessionID;
-@property(readonly, nonatomic) NSDictionary *propertyData; // @synthesize propertyData=_propertyData;
 @property(readonly, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(readonly, nonatomic) NSNumber *sourceSessionID; // @synthesize sourceSessionID=_sourceSessionID;
 
 @end
 

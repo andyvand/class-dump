@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)_loadSecondaryButtonWithSecondaryActionController:(id)arg1;
+- (id)_actionBarSectionControllerForAvailability:moduleConfiguration: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

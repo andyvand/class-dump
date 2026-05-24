@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSMediaPlayingMonitor
 {
     long long _mediaIsPlaying;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id)fo:otherCtxt:completion: /* Error: Ran out of types for this method. */;
@@ -20,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void)rtSampleCount:hostTime: /* Error: Ran out of types for this method. */;
+- (void)digitalZeroChunkWithDurationInSec:startSampleCount:hostTime: /* Error: Ran out of types for this method. */;
 
 @end
 

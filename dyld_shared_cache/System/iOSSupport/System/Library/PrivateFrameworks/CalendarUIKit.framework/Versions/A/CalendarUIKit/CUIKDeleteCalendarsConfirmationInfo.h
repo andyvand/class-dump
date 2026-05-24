@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CUIKDeleteCalendarsConfirmationInfo
 {
     unsigned long long _type;
-    NSString *_prompt;
-    NSString *_dialog;
-    NSArray *_options;
 }
 
 - (id);
@@ -20,15 +15,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)scaledCalendarColorChooserDotImageForColor:font: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dialog; // @synthesize dialog=_dialog;
-@property(copy, nonatomic) NSArray *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

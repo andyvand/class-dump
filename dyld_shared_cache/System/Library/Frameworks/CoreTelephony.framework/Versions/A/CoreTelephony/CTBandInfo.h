@@ -9,12 +9,11 @@
 @interface CTBandInfo
 {
     NSMutableDictionary *_fActiveBands;
-    NSMutableDictionary *_fSupportedBands;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)ItemWithIdentifier:] /* Error: Ran out of types for this method. */;
+- (id)];
+- (id);
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool))!;
 - (id);
 - (id);
 - (id);
@@ -32,14 +31,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void){public}@ cid:(id)arg1 %u;
 - (id);
 - (void)±ª)ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *fActiveBands; // @synthesize fActiveBands=_fActiveBands;
-@property(retain, nonatomic) NSMutableDictionary *fSupportedBands; // @synthesize fSupportedBands=_fSupportedBands;
 
 @end
 

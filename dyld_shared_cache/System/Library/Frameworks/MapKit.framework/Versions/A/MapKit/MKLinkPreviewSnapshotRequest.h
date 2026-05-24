@@ -9,15 +9,11 @@
 @interface MKLinkPreviewSnapshotRequest
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    CDUnknownBlockType _completionHandler;
-    MKLinkPreviewMetadata *_metadata;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,14 +22,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)commandControlBehaviorMonitor:(id)arg1 didStartStreamWithContext:successfully:option: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)nent;
+- (void)hasTransitIncidentComponent;
 - (_Bool)d\Ô;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
 @property(readonly, nonatomic) MKLinkPreviewMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

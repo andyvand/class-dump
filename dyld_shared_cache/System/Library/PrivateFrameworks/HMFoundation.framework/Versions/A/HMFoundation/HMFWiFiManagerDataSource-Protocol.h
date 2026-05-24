@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFWifiNetworkAssociation, NSNumber;
+@class NSString;
 @protocol HMFWiFiManagerDataSourceDelegate;
 
 @protocol HMFWiFiManagerDataSource
-- (_Bool)elegate:queue: /* Error: Ran out of types for this method. */;
++ (NSString *)c;
+- (void)C;
+- (void);
+- (_Bool)initWithDevice:delegate:queue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=isAssertionActive) _Bool assertionActive;
-@property(readonly) unsigned long long assertionOptions;
-@property(readonly, nonatomic, getter=isCaptive) _Bool captive;
-@property(readonly, copy) HMFWifiNetworkAssociation *currentNetworkAssociation;
-@property(readonly, copy, nonatomic) NSNumber *currentNetworkRSSI;
 @property(nonatomic) __weak id <HMFWiFiManagerDataSourceDelegate> delegate;
-@property(nonatomic, getter=isWoWAsserted, setter=setWoWAsserted:) _Bool wowAsserted;
 @end
 

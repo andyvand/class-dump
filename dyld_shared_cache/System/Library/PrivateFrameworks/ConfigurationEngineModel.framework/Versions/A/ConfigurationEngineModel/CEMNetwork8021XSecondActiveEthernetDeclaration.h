@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CEMNetwork8021XSecondActiveEthernetDeclaration : CEMConfigurationBase
 {
@@ -16,30 +16,24 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__auth_ptr;
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)|
+c;
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool).voiceservices.class;
 - (id);
-- (void);
+- (void)Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_both.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *payloadANY; // @synthesize payloadANY=_payloadANY;
-@property(readonly) Class superclass;
 
 @end
 

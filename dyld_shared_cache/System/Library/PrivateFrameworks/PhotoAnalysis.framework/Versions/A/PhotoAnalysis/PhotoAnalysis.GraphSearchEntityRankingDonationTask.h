@@ -7,14 +7,6 @@
 @interface PhotoAnalysis.GraphSearchEntityRankingDonationTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id taskProductivityReporter;
-    id graphManager;
 }
 
 @end

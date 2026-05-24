@@ -6,20 +6,19 @@
 
 #import <PhotosGraph/PGShareBackSource.h>
 
-@class NSCache, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PGShareBackSceneprintSource : PGShareBackSource
 {
     PHPhotoLibrary *_photoLibrary;
-    NSCache *_assetsInMomentCache;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id){CGPoint=dd}{CGSize=dd}}64@0:(id)arg1 8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)becameKeyboardFocused;
 - (void)r:%lu /* Error: Ran out of types for this method. */;
 
 @end

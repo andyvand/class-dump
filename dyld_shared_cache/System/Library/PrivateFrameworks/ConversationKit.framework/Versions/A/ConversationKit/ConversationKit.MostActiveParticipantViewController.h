@@ -9,23 +9,12 @@
 @interface ConversationKit.MostActiveParticipantViewController : PlatformViewController
 {
     id remoteParticipants;
-    id localParticipant;
-    id focusedParticipant;
-    id ignoreFocusedParticipantUpdates;
-    id isLocalMemberAuthorizedToChangeGroupMembership;
-    id participantsViewControllerDelegate;
-    id $__lazy_storage_$_remoteParticipantView;
-    id $__lazy_storage_$_localParticipantView;
-    id localParticipantViewConstraints;
-    id shouldShowActionTypePhotoCapture;
-    id defaults;
-    id isVisibleInPIP;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)__objc_data;
 - (void)Cÿÿ;
 
 @end

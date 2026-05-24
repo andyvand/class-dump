@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SCWatchlistDiff
 {
     NSArray *_addedStocks;
-    NSDictionary *_indexesOfAddedStocks;
-    NSArray *_removedStocks;
-    NSArray *_reorderedStocks;
-    NSDictionary *_indexesOfReorderedStocks;
-    NSArray *_stocksPreDiff;
-    NSArray *_stocksPostDiff;
 }
 
 + (id);
+- (id);
+- (id)|;
+- (id)8Bl;
+- (id)m;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)SCRCMathIdentifierExpression;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *addedStocks; // @synthesize addedStocks=_addedStocks;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) NSDictionary *indexesOfAddedStocks; // @synthesize indexesOfAddedStocks=_indexesOfAddedStocks;
-@property(readonly, copy, nonatomic) NSDictionary *indexesOfReorderedStocks; // @synthesize indexesOfReorderedStocks=_indexesOfReorderedStocks;
-@property(readonly, copy, nonatomic) NSArray *removedStocks; // @synthesize removedStocks=_removedStocks;
-@property(readonly, copy, nonatomic) NSArray *reorderedStocks; // @synthesize reorderedStocks=_reorderedStocks;
-@property(readonly, copy, nonatomic) NSArray *stocksPostDiff; // @synthesize stocksPostDiff=_stocksPostDiff;
-@property(readonly, copy, nonatomic) NSArray *stocksPreDiff; // @synthesize stocksPreDiff=_stocksPreDiff;
 
 @end
 

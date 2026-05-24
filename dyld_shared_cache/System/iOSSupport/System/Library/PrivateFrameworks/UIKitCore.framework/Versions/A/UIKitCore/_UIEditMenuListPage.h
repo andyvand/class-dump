@@ -8,38 +8,30 @@ __attribute__((visibility("hidden")))
 @interface _UIEditMenuListPage
 {
     double _width;
-    double _overlapWidth;
-    double _itemSpacing;
-    long long _numberOfItemsUsingItemSpacing;
-    struct _NSRange _range;
 }
 
 - (void);
 - (void);
+- (void)setBalloonPluginBundleID:(double)arg1;
+- (void)removePersonInfo:(double)arg1 chatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (double)inalGroupID:chatIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)mentionedPersonIdentity;
+- (id)createMessageZoneIfNeededWithCompletionBlock:(long long)arg1;
+- (void)_isDefaultPairedDeviceRelayingLocally:(double)arg1;
 - (void);
-- (void);
-- (double);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (long long)erableMessage write %@, updating status to synced;
+- (id)!;
 - (double)qcÐ1Â0@ù
 × ;
 - (double)qdð1Â0@ù
 × ;
 - (struct _NSRange)0@ù
 × ;
-- (_Bool);
-- (void)play:(double)arg1 target:selector: /* Error: Ran out of types for this method. */;
+- (_Bool)startIgnoringData;
+- (void)displayLinkWithDisplay:(double)arg1 target:selector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double itemSpacing; // @synthesize itemSpacing=_itemSpacing;
-@property(nonatomic) long long numberOfItemsUsingItemSpacing; // @synthesize numberOfItemsUsingItemSpacing=_numberOfItemsUsingItemSpacing;
-@property(nonatomic) double overlapWidth; // @synthesize overlapWidth=_overlapWidth;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) double width; // @synthesize width=_width;
 
 @end
 

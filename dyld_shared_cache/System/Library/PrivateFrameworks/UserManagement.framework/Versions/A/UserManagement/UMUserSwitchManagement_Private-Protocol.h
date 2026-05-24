@@ -5,5 +5,6 @@
 //
 
 @protocol UMUserSwitchManagement_Private
+- (void);
 @end
 

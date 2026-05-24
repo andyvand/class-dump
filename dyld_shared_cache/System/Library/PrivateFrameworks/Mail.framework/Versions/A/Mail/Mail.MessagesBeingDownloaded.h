@@ -7,7 +7,6 @@
 @interface Mail.MessagesBeingDownloaded
 {
     id elements;
-    id pendingHeaders;
 }
 
 @end

@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSAudioUnderstandingTier1 : SISchemaInstrumentationMessage
 {
     NSString *_audioArtist;
-    NSString *_audioAppName;
-    NSString *_audioEntity;
-    NSString *_audioEntityOriginalValue;
-    _Bool _hasAudioArtist;
-    _Bool _hasAudioAppName;
-    _Bool _hasAudioEntity;
-    _Bool _hasAudioEntityOriginalValue;
 }
 
 - (void);
@@ -44,25 +37,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)B9;
+- (_Bool)true:(id)arg1 %s in "%s" at line %d [%@];
 - (id);
 - (id)! BùÑÝð1Â0@ù
 × ;
-- (id)solutionType;
+- (id)_geoAppResolutionType;
 - (id)entClientFeatureTriggered",&,N,V_clientFeatureTriggered;
 - (void)lts.outcome.parameterDisambiguation.items.value.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *audioAppName; // @synthesize audioAppName=_audioAppName;
 @property(copy, nonatomic) NSString *audioArtist; // @synthesize audioArtist=_audioArtist;
-@property(copy, nonatomic) NSString *audioEntity; // @synthesize audioEntity=_audioEntity;
-@property(copy, nonatomic) NSString *audioEntityOriginalValue; // @synthesize audioEntityOriginalValue=_audioEntityOriginalValue;
-@property(nonatomic) _Bool hasAudioAppName; // @synthesize hasAudioAppName=_hasAudioAppName;
-@property(nonatomic) _Bool hasAudioArtist; // @synthesize hasAudioArtist=_hasAudioArtist;
-@property(nonatomic) _Bool hasAudioEntity; // @synthesize hasAudioEntity=_hasAudioEntity;
-@property(nonatomic) _Bool hasAudioEntityOriginalValue; // @synthesize hasAudioEntityOriginalValue=_hasAudioEntityOriginalValue;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

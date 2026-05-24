@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @protocol HasAuxiliaryConnection
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceIncoming;
 @property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceOutgoing;
-@property __weak NSXPCConnection *auxiliaryServiceConnection;
 @end
 

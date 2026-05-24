@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSBehindWindowLayer)
-+ (id);
++ (id)ECONNABORTED;
 @end
 

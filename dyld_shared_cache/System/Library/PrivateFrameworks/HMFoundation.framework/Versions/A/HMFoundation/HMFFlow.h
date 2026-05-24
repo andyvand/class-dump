@@ -14,15 +14,15 @@
 }
 
 + (id);
-+ (id);
++ (id)R'u;
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)*	0		;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)HMHomeWalletKeyManagerMessageKeyDeviceState;
 - (id);
 - (void);
 

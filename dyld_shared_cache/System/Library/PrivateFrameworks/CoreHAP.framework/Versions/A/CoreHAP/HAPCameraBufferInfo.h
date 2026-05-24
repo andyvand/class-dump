@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraBufferTypeWrapper, HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferInfo
 {
     HAPTLVUnsignedNumberValue *_identifier;
-    HAPCameraBufferTypeWrapper *_type;
-    NSMutableArray *_intervals;
 }
 
 + (id);
@@ -20,26 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)eventsFrom:(id)arg1 to:reason:policyID:shouldDeleteUsingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
 - (void)meters";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *intervals; // @synthesize intervals=_intervals;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPCameraBufferTypeWrapper *type; // @synthesize type=_type;
 
 @end
 

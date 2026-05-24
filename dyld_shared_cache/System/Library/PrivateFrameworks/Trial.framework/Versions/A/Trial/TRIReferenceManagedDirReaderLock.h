@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock;
+@class NSString;
 
 @interface TRIReferenceManagedDirReaderLock
 {
     NSString *_dir;
-    _PASLock *_lock;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

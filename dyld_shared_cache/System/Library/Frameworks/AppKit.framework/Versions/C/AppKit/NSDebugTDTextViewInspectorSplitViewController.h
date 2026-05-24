@@ -6,28 +6,24 @@
 
 #import <AppKit/NSSplitViewController.h>
 
-@class NSDebugTDInspectorResultsViewController, NSDebugTDViewHierarchyItem, NSDebugTDViewHierarchyListViewController;
+@class NSDebugTDViewHierarchyListViewController;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDTextViewInspectorSplitViewController : NSSplitViewController
 {
     NSDebugTDViewHierarchyListViewController *_viewHierarchyViewController;
-    NSDebugTDInspectorResultsViewController *_inspectorResultsViewController;
-    NSDebugTDViewHierarchyItem *_selectedItem;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)multipathServiceType;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDebugTDInspectorResultsViewController *inspectorResultsViewController; // @synthesize inspectorResultsViewController=_inspectorResultsViewController;
-@property(retain, nonatomic) NSDebugTDViewHierarchyItem *selectedItem; // @synthesize selectedItem=_selectedItem;
 @property(retain, nonatomic) NSDebugTDViewHierarchyListViewController *viewHierarchyViewController; // @synthesize viewHierarchyViewController=_viewHierarchyViewController;
 
 @end

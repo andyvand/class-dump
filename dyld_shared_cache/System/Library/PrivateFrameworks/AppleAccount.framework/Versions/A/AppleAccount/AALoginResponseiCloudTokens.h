@@ -9,32 +9,21 @@
 @interface AALoginResponseiCloudTokens
 {
     NSString *_authToken;
-    NSString *_fmipAuthToken;
-    NSString *_fmipAppToken;
-    NSString *_fmipLostModeToken;
-    NSString *_fmipSiriToken;
-    NSString *_fmfToken;
-    NSString *_fmfAppToken;
-    NSString *_cloudKitToken;
-    NSString *_mdmServerToken;
-    NSString *_mapsToken;
-    NSString *_searchPartyToken;
-    NSString *_keyTransparencyToken;
 }
 
+- (id)g Store folder (datavault);
+- (id)ConfigurationProfilesPrivate;
+- (id)running as root;
+- (id)sscodeUpdateState found agent port %d;
+- (id)nnectionHandler is not of appropriate class;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ToVerifyTerms;
+- (void)needsToVerifyTerms;
 - (id)¾µýZ#º0âLç};
 MmÍRBÜÁË©ÈuW²^úÊwcvöovÂÚ9<oÜÅ?Î!A~¸~-Ä:³¥,ûPTqîÃ"¦TìØÛ0ëÙHnñ:5ê×Wòâ/âçþf­÷JèÂÓÅòÔ\¾rÀrQ'§*f)
 z¢F{ÞÂuûwKýSñÌg4ÉHÙÙÿÚíbì°I³Eæ§ûd5ö<´ÜÉüð×j®x:GùA}Bìqá7ØeóTfB(þ(|Ld÷Áàø+}$ÐFþw-­<1ä_¤	EÚ,Û
@@ -42,17 +31,6 @@ z¢F{ÞÂuûwKýSñÌg4ÉHÙÙÿÚíbì°I³Eæ§ûd5ö<´ÜÉ
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authToken; // @synthesize authToken=_authToken;
-@property(readonly, nonatomic) NSString *cloudKitToken; // @synthesize cloudKitToken=_cloudKitToken;
-@property(readonly, nonatomic) NSString *fmfAppToken; // @synthesize fmfAppToken=_fmfAppToken;
-@property(readonly, nonatomic) NSString *fmfToken; // @synthesize fmfToken=_fmfToken;
-@property(readonly, nonatomic) NSString *fmipAppToken; // @synthesize fmipAppToken=_fmipAppToken;
-@property(readonly, nonatomic) NSString *fmipAuthToken; // @synthesize fmipAuthToken=_fmipAuthToken;
-@property(readonly, nonatomic) NSString *fmipLostModeToken; // @synthesize fmipLostModeToken=_fmipLostModeToken;
-@property(readonly, nonatomic) NSString *fmipSiriToken; // @synthesize fmipSiriToken=_fmipSiriToken;
-@property(readonly, nonatomic) NSString *keyTransparencyToken; // @synthesize keyTransparencyToken=_keyTransparencyToken;
-@property(readonly, nonatomic) NSString *mapsToken; // @synthesize mapsToken=_mapsToken;
-@property(readonly, nonatomic) NSString *mdmServerToken; // @synthesize mdmServerToken=_mdmServerToken;
-@property(readonly, nonatomic) NSString *searchPartyToken; // @synthesize searchPartyToken=_searchPartyToken;
 
 @end
 

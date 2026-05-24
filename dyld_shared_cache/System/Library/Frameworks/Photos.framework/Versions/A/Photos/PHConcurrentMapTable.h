@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PHConcurrentMapTable
 {
     NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSMapTable *_protectedTable;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void)ns;

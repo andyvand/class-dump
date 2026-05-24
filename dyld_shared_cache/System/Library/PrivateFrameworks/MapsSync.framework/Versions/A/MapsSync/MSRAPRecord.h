@@ -6,34 +6,23 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class MSCommunityID, NSData, NSDate, NSString;
-
 @interface MSRAPRecord : MapsSync.MapsSyncObject
 {
     id _clientRevision;
-    id _contentData;
-    id _countryCode;
-    id _positionIndex;
-    id _rapResponse;
-    id _reportId;
-    id _status;
-    id _statusLastUpdatedDate;
-    id _summary;
-    id _type;
 }
 
 + (Class);
 - (id);
 - (void);
+- (void)n;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (long long);
 - (id);
@@ -42,7 +31,7 @@
 - (void);
 - (id);
 - (short);
-- (void);
+- (void)oller reportWRMMetrics:(short)arg1 ];
 - (short);
 - (void);
 - (short);
@@ -53,16 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) short clientRevision;
-@property(nonatomic, readonly) MSCommunityID *communityID;
-@property(nonatomic, copy) NSData *contentData;
-@property(nonatomic, copy) NSString *countryCode;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, copy) NSData *rapResponse;
-@property(nonatomic, copy) NSString *reportId;
-@property(nonatomic) short status;
-@property(nonatomic, copy) NSDate *statusLastUpdatedDate;
-@property(nonatomic, copy) NSString *summary;
-@property(nonatomic) short type;
 
 @end
 

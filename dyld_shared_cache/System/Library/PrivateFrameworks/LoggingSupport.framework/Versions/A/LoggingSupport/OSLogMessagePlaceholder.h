@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface OSLogMessagePlaceholder
 {
     struct os_log_fmt_cspec_s *_placeholder;
-    NSString *_placeholderString;
-    NSArray *_placeholderTokens;
 }
 
 - (id);
@@ -23,12 +21,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) int precision;
 @property(readonly, nonatomic) NSString *rawString;
-@property(readonly, nonatomic) NSArray *tokens;
-@property(readonly, nonatomic) NSString *type;
-@property(readonly, nonatomic) NSString *typeNamespace;
-@property(readonly, nonatomic) int width;
 
 @end
 

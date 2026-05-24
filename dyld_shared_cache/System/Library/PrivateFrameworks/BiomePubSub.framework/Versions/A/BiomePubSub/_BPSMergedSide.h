@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BPSMerged;
+@class _BPSMerged;
 
 @interface _BPSMergedSide
 {
     _BPSMerged *_merger;
-    long long _index;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/pem/pvkfmt.c;
 - (long long);
 - (id);
 - (long long);
@@ -24,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long index; // @synthesize index=_index;
 @property(retain, nonatomic) _BPSMerged *merger; // @synthesize merger=_merger;
-@property(readonly) Class superclass;
 
 @end
 

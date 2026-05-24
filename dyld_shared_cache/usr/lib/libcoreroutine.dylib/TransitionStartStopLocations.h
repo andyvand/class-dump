@@ -9,7 +9,6 @@
 @interface TransitionStartStopLocations
 {
     CLLocation *_startLocation;
-    CLLocation *_stopLocation;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CLLocation *startLocation; // @synthesize startLocation=_startLocation;
-@property(readonly, nonatomic) CLLocation *stopLocation; // @synthesize stopLocation=_stopLocation;
 
 @end
 

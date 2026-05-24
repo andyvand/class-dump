@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTCandidate, NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTParameter : SISchemaInstrumentationMessage
 {
     NSString *_key;
-    long long _collectionIndex;
-    IFTSchemaIFTCandidate *_candidate;
-    CDStruct_451675ec _has;
-    _Bool _hasKey;
-    _Bool _hasCandidate;
 }
 
 - (void);
@@ -34,12 +29,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)setStrokeEnd: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id)Qàð1Â0@ù
 × ;
-- (void)ier1:(id)arg1;
+- (void)setJitLanguageModelEnrollmentEndedTier1:(id)arg1;
 - (id)ecognitionSourceContext;
 - (id)ÿÿÿÿÄ;
 - (_Bool)isConfirmationPromptSettingEnabled;
@@ -47,12 +42,6 @@
 - (void)nÏÿìr±á^#;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTCandidate *candidate; // @synthesize candidate=_candidate;
-@property(nonatomic) long long collectionIndex; // @synthesize collectionIndex=_collectionIndex;
-@property(nonatomic) _Bool hasCandidate; // @synthesize hasCandidate=_hasCandidate;
-@property(nonatomic) _Bool hasCollectionIndex;
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

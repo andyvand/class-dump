@@ -7,8 +7,6 @@
 @interface AppStoreKit.ArcadeSubscriptionRepresentation
 {
     id product;
-    id adamId;
-    id buyParams;
 }
 
 @end

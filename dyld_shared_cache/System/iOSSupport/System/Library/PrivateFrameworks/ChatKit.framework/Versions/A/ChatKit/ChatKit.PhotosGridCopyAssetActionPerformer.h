@@ -9,11 +9,11 @@
 }
 
 + (id);
-+ (id);
++ (id)CBaseAttachment"8{_NSRange=QQ}16^B32;
 + (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)k;
+- (unsigned long long)narchiving error:%@ /* Error: Ran out of types for this method. */;
+- (void)e;
 - (id);
 
 // Remaining properties

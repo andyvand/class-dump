@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBGraphicalFloat, _SFPBText;
+@class NSArray, NSData, _SFPBGraphicalFloat, _SFPBText;
 
 @protocol _SFPBRichText
+- (_SFPBGraphicalFloat *)up cloud object (%{public}@) matching ID:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSArray *)reportCallWithUUID:receivedDTMFUpdate:reply: /* Error: Ran out of types for this method. */;
+- (NSData *),R,C,N,V_originatingAssetIdentifier;
+- (void);
+- (unsigned long long)匹I;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentAdvisory;
-@property(copy, nonatomic) NSArray *formattedTextPieces;
-@property(copy, nonatomic) NSArray *icons;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBGraphicalFloat *starRating;
 @property(retain, nonatomic) _SFPBText *text;
 @end
 

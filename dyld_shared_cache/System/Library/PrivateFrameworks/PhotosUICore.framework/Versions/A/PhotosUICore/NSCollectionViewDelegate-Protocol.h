@@ -4,18 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSCollectionViewTransitionLayout, NSSet;
-@protocol NSPasteboardWriting;
+@class NSCollectionView, NSCollectionViewTransitionLayout, NSSet, NSView;
 
 @protocol NSCollectionViewDelegate
 
 @optional
+- (unsigned long long);
+- (void)a;
+- (void)isOpenGLDisplayMaskSupported;
+- (void)ForeColorU; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0; 
+			DoFilter0(color); 
+			if(color.a < 1.) { 
+				color.r = (1. - color.a) * uColor.r; 
+				color.g = (1. - color.a) * uColor.g; 
+				color.b = (1. - color.a) * uColor.b; 
+			} 
+			gl_FragColor = color; 
+		} 
+		;
 - (NSSet *)ñ:(NSCollectionView *)arg1 ð1Â0@ù
 × ;
-- (void)hResult;
-- (NSCollectionViewTransitionLayout *)Selected;
-- (void)ut:(NSCollectionView *)arg1;
-- (id <NSPasteboardWriting>);
+- (void)keyAssetFetchResult;
+- (NSCollectionViewTransitionLayout *)isAnyItemSelected;
+- (void)imageConfigurationAtIndex:(NSCollectionView *)arg1 inLayout:(NSView *)arg2;
 - (void)þÿh²ûÿX½ûÿùúÿ;
 - (_Bool)resent, will download.;
 @end

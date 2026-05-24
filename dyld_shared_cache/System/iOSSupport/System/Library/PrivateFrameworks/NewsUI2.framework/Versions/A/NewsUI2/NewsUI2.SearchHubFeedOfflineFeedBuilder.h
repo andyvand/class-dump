@@ -7,9 +7,6 @@
 @interface NewsUI2.SearchHubFeedOfflineFeedBuilder
 {
     id resolver;
-    id appConfigManager;
-    id feedAvailabilityService;
-    id offlineFeedDatabase;
 }
 
 @end

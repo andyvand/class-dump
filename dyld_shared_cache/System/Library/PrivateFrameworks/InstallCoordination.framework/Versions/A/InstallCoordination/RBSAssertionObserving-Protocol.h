@@ -7,7 +7,7 @@
 @protocol RBSAssertionObserving
 
 @optional
-- (void)undleID;
+- (void)bundleID;
 - (void)t %@;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGEntityManager, PXStoryTransitionModel;
-@protocol PXStoryTimeline, PXStoryTimelineSpec, PXStoryTransitionSource;
+@protocol PXStoryTimeline;
 
 @interface PXStoryTransitionConfiguration
 {
     id <PXStoryTimeline> _timeline;
-    id <PXStoryTimelineSpec> _timelineSpec;
-    PXStoryTransitionModel *_transitionModel;
-    PXGEntityManager *_entityManager;
-    id <PXStoryTransitionSource> _source;
 }
 
 - (id);
@@ -21,19 +16,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id),;
 - (void);
-- (id)sForKeyAsset: /* Error: Ran out of types for this method. */;
+- (id)setAllowNonFillingCompositionsForKeyAsset: /* Error: Ran out of types for this method. */;
 - (id)í	ÿ;
 - (void)â;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXGEntityManager *entityManager; // @synthesize entityManager=_entityManager;
-@property(retain, nonatomic) id <PXStoryTransitionSource> source; // @synthesize source=_source;
 @property(retain, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
-@property(retain, nonatomic) id <PXStoryTimelineSpec> timelineSpec; // @synthesize timelineSpec=_timelineSpec;
-@property(retain, nonatomic) PXStoryTransitionModel *transitionModel; // @synthesize transitionModel=_transitionModel;
 
 @end
 

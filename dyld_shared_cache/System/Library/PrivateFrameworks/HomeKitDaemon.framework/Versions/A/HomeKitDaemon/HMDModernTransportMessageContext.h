@@ -4,43 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDModernTransportMessageContextOptions, HMDNetworkActivityWrapper, HMDRemoteMessage, HMFMessageDestination, HMFTimer, NSMapTable, NSMutableSet, NSSet, NSString, NSUUID;
-@protocol HMDNetworkActivityWrapperFactory, HMFDateProvider, HMFTimerProvider, HMMLogEventSubmitting;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportMessageContext
 {
     NSMutableSet *_remainingTransports;
-    struct os_unfair_lock_s _lock;
-    _Bool _didSucceedSending;
-    _Bool _didNotifyDeviceReachability;
-    _Bool _keepRetrying;
-    _Bool _didTimeout;
-    _Bool _didFallback;
-    NSMapTable *_inProgressTransportToStartTimeMap;
-    double _requestStartTime;
-    NSUUID *_identifier;
-    NSUUID *_messageID;
-    HMFMessageDestination *_destination;
-    HMDModernTransportMessageContextOptions *_options;
-    unsigned long long _successfulResponseCount;
-    HMDNetworkActivityWrapper *_messageNetworkActivity;
-    CDUnknownBlockType _completionHandler;
-    id <HMFDateProvider> _dateProvider;
-    id <HMFTimerProvider> _timerProvider;
-    id <HMDNetworkActivityWrapperFactory> _activityFactory;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSMapTable *_retriesRemainingForTransport;
-    HMFTimer *_responseTimer;
-    CDUnknownBlockType _responseCompletionBlock;
-    HMFTimer *_fallbackTimer;
-    CDUnknownBlockType _fallbackCompletionBlock;
-    HMDRemoteMessage *_message;
-    NSString *_messageName;
-    long long _messageType;
-    double _messageTimeout;
-    CDUnknownBlockType _messageResponseHandler;
-    long long _messageQualityOfService;
 }
 
 + (id)Yïÿ!¢¸B;
@@ -51,20 +20,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)eworks/ContactsUI.framework/Versions/A/ContactsUI;
+- (void)toreComponents;
 - (unsigned long long);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)ordingOnly"b1};
+- (id)sharedNetworkObserver;
+- (CDUnknownBlockType)arrayByApplyingSelector: /* Error: Ran out of types for this method. */;
+- (long long)areKeysAvailable: /* Error: Ran out of types for this method. */;
+- (id)archivedDataWithRootObject:requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_latLng;
+- (id)REGION;
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -90,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (CDUnknownBlockType);
 - (_Bool);
-- (double);
+- (double)P;
 - (void)°1Â0@ù
 × ;
 - (id)Ø`Ûþÿÿÿÿ;
@@ -98,53 +67,14 @@ __attribute__((visibility("hidden")))
 - (void)sory:(CDUnknownBlockType)arg1 %@ closed data stream;
 - (void)Finished deleting the outgoing invitation with error:(id)arg1 %@;
 - (double)ted; checking for device support (%ld services).;
-- (void)ssageTransportUseDelegateAck;
+- (void)HMDIDSMessageTransportUseDelegateAck;
 - (id)=;
 - (void)}W;
 - (id);
 - (id)¬?;
 
 // Remaining properties
-@property(readonly) id <HMDNetworkActivityWrapperFactory> activityFactory; // @synthesize activityFactory=_activityFactory;
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly) id <HMFDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMFMessageDestination *destination; // @synthesize destination=_destination;
-@property(nonatomic) _Bool didFallback; // @synthesize didFallback=_didFallback;
-@property(nonatomic) _Bool didNotifyDeviceReachability; // @synthesize didNotifyDeviceReachability=_didNotifyDeviceReachability;
-@property(readonly, nonatomic) _Bool didSucceedSending; // @synthesize didSucceedSending=_didSucceedSending;
-@property(nonatomic) _Bool didTimeout; // @synthesize didTimeout=_didTimeout;
-@property(readonly, nonatomic) _Bool expectsResponse;
-@property(copy) CDUnknownBlockType fallbackCompletionBlock; // @synthesize fallbackCompletionBlock=_fallbackCompletionBlock;
-@property(retain) HMFTimer *fallbackTimer; // @synthesize fallbackTimer=_fallbackTimer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSMapTable *inProgressTransportToStartTimeMap; // @synthesize inProgressTransportToStartTimeMap=_inProgressTransportToStartTimeMap;
-@property(readonly, copy, nonatomic) NSSet *inProgressTransports;
-@property(nonatomic) _Bool keepRetrying; // @synthesize keepRetrying=_keepRetrying;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(retain) HMDRemoteMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSUUID *messageID; // @synthesize messageID=_messageID;
-@property(readonly, copy, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) HMDNetworkActivityWrapper *messageNetworkActivity; // @synthesize messageNetworkActivity=_messageNetworkActivity;
-@property(readonly, nonatomic) long long messageQualityOfService; // @synthesize messageQualityOfService=_messageQualityOfService;
-@property(readonly, copy, nonatomic) CDUnknownBlockType messageResponseHandler; // @synthesize messageResponseHandler=_messageResponseHandler;
-@property(readonly, nonatomic) double messageTimeout; // @synthesize messageTimeout=_messageTimeout;
-@property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) HMDModernTransportMessageContextOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSSet *remainingTransports; // @synthesize remainingTransports=_remainingTransports;
-@property double requestStartTime; // @synthesize requestStartTime=_requestStartTime;
-@property(copy) CDUnknownBlockType responseCompletionBlock; // @synthesize responseCompletionBlock=_responseCompletionBlock;
-@property(retain) HMFTimer *responseTimer; // @synthesize responseTimer=_responseTimer;
-@property(readonly, nonatomic) NSMapTable *retriesRemainingForTransport; // @synthesize retriesRemainingForTransport=_retriesRemainingForTransport;
-@property(readonly, nonatomic) unsigned long long successfulResponseCount; // @synthesize successfulResponseCount=_successfulResponseCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeout;
-@property(readonly) id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
 
 @end
 

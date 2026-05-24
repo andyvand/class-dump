@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSLock, UnitsInfo;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface AvailableUnitRanks
 {
     NSLock *_lock;
-    NSCache *_availableRanks;
-    UnitsInfo *_unitsInfo;
 }
 
 + (id)Ä+©·¿éU»¬;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,9 +30,7 @@ __attribute__((visibility("hidden")))
 ÇÓ©9RqÒÊôZæèâÙB[Ë!&Ú?ôKfòë}×Ýrãe(AfÆE@6j8ì1×Ý?óQÓ:(id)arg1 {©ªóþw7Oâkª|âúpÀ¹Ê	$4:ïg0ÿú¢¦{3AIÐhªõ¯*×.¨ÞØÌÇseAëa<1)m	F8\ä÷Ä]#}Ô¶·Ú":ª.ßªñfÐÑ²x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSCache *availableRanks; // @synthesize availableRanks=_availableRanks;
 @property(retain, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) UnitsInfo *unitsInfo; // @synthesize unitsInfo=_unitsInfo;
 
 @end
 

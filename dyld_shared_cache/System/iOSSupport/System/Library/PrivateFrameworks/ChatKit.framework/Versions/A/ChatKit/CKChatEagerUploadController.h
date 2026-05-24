@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CKChatEagerUploadController
 {
     NSMutableDictionary *_identifierMap;
-    NSMutableArray *_uploadUrls;
-    NSMutableDictionary *_temporaryURLS;
 }
 
-- (id);
+- (id)TextForHeadingRename;
+- (void)TextCheckingResults;
+- (void)es;
+- (id)_TtC7NotesUIP33_D37299C035145D658E3B6DC04AF9ADBF19ResourceBundleClass;
 - (void);
 - (void);
-- (id);
+- (void)SaySo17NSManagedObjectIDCG;
+- (void)ICAttachmentInitialPreviewDidLoadNotification;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)b
+;
 - (void);
 - (void);
 - (id);
@@ -36,8 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *identifierMap; // @synthesize identifierMap=_identifierMap;
-@property(retain, nonatomic) NSMutableDictionary *temporaryURLS; // @synthesize temporaryURLS=_temporaryURLS;
-@property(retain, nonatomic) NSMutableArray *uploadUrls; // @synthesize uploadUrls=_uploadUrls;
 
 @end
 

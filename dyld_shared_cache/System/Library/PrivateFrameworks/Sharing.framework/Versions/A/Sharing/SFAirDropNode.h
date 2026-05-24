@@ -4,54 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CURangingMeasurement, NSDate, NSNumber, NSPersonNameComponents, NSSet, NSString, NSUUID;
+@class NSDate;
 
 @interface SFAirDropNode
 {
     struct __SFOperation *_sender;
-    NSPersonNameComponents *_nameComponents;
-    _Bool _disabled;
-    _Bool _classroom;
-    _Bool _suggestion;
-    _Bool _me;
-    _Bool _unknown;
-    _Bool _monogram;
-    _Bool _classroomGroup;
-    _Bool _classroomCourse;
-    _Bool _rapport;
-    _Bool _ultraWideBindCapable;
-    _Bool _supportsCredentials;
-    _Bool _supportsFMF;
-    _Bool _supportsPasses;
-    _Bool _supportsMixedTypes;
-    NSString *_contactIdentifier;
-    struct CGImage *_displayIcon;
-    NSString *_displayName;
-    NSUUID *_endpointUUID;
-    NSUUID *_nodeIdentifier;
-    NSString *_realName;
-    NSString *_model;
-    long long _selectionReason;
-    NSSet *_formattedHandles;
-    NSNumber *_suggestionIndex;
-    NSString *_transportBundleID;
-    CNContact *_contact;
-    NSDate *_discoveryDate;
-    id _node;
-    NSString *_secondaryName;
-    NSSet *_actualHandles;
-    CURangingMeasurement *_rangingMeasurement;
-    NSSet *_contactIDs;
-    NSString *_derivedIntentIdentifier;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -62,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)66;
 - (void);
 - (void);
 - (void);
@@ -74,14 +40,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (id);
 - (struct CGImage *);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -106,11 +72,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)x#;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id), Boolean, Boolean, char *, size_t, Boolean *);
+- (_Bool)recordID = ?;;
 - (id);
 - (void)
 × ;
@@ -122,52 +88,12 @@
 - (id)failed with error %#m
 ;
 - (void)TextInputClient handleUsername:(_Bool)arg1 password:] /* Error: Ran out of types for this method. */;
-- (_Bool)ngUp;
+- (_Bool)SDAutoUnlockManagerMetricAWDLBringUp;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain) NSSet *actualHandles; // @synthesize actualHandles=_actualHandles;
-@property(getter=isClassroom) _Bool classroom; // @synthesize classroom=_classroom;
-@property(getter=isClassroomCourse) _Bool classroomCourse; // @synthesize classroomCourse=_classroomCourse;
-@property(getter=isclassroomGroup) _Bool classroomGroup; // @synthesize classroomGroup=_classroomGroup;
-@property(retain) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) NSSet *contactIDs; // @synthesize contactIDs=_contactIDs;
-@property(copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *derivedIntentIdentifier; // @synthesize derivedIntentIdentifier=_derivedIntentIdentifier;
-@property(readonly, copy) NSString *description;
-@property(getter=isDisabled) _Bool disabled; // @synthesize disabled=_disabled;
 @property(readonly) NSDate *discoveryDate; // @synthesize discoveryDate=_discoveryDate;
-@property(retain) struct CGImage *displayIcon; // @synthesize displayIcon=_displayIcon;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSUUID *endpointUUID; // @synthesize endpointUUID=_endpointUUID;
-@property(retain) NSSet *formattedHandles; // @synthesize formattedHandles=_formattedHandles;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isKnown) _Bool known;
-@property(getter=isMe) _Bool me; // @synthesize me=_me;
-@property(copy) NSString *model; // @synthesize model=_model;
-@property(getter=isMonogram) _Bool monogram; // @synthesize monogram=_monogram;
-@property(retain) id node; // @synthesize node=_node;
-@property(retain) NSUUID *nodeIdentifier; // @synthesize nodeIdentifier=_nodeIdentifier;
-@property(retain, nonatomic) CURangingMeasurement *rangingMeasurement; // @synthesize rangingMeasurement=_rangingMeasurement;
-@property(getter=isRapport) _Bool rapport; // @synthesize rapport=_rapport;
-@property(copy) NSString *realName; // @synthesize realName=_realName;
-@property(retain) NSString *secondaryName; // @synthesize secondaryName=_secondaryName;
-@property long long selectionReason; // @synthesize selectionReason=_selectionReason;
-@property(getter=isSuggestion) _Bool suggestion; // @synthesize suggestion=_suggestion;
-@property(retain) NSNumber *suggestionIndex; // @synthesize suggestionIndex=_suggestionIndex;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsCredentials; // @synthesize supportsCredentials=_supportsCredentials;
-@property(readonly) _Bool supportsFMF; // @synthesize supportsFMF=_supportsFMF;
-@property(readonly) _Bool supportsMixedTypes; // @synthesize supportsMixedTypes=_supportsMixedTypes;
-@property(readonly) _Bool supportsPasses; // @synthesize supportsPasses=_supportsPasses;
-@property(retain) NSString *transportBundleID; // @synthesize transportBundleID=_transportBundleID;
-@property(getter=isUltraWideBindCapable) _Bool ultraWideBindCapable; // @synthesize ultraWideBindCapable=_ultraWideBindCapable;
-@property(getter=isUnknown) _Bool unknown; // @synthesize unknown=_unknown;
 
 @end
 

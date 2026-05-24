@@ -5,5 +5,18 @@
 //
 
 @protocol HMHomeDelegatePrivate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)t;
+- (void)$;
+- (void)H;
+- (void);#;
+- (void)0;
+- (void)";
+- (void);
+- (void);
 @end
 

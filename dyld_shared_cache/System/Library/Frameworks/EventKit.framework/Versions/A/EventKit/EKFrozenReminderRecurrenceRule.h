@@ -11,24 +11,24 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (long long);
-+ (long long);
-+ (int);
-+ (int);
++ (long long)availableBluetoothListeningModes;
++ (long long)currentBluetoothListeningMode;
++ (int)usingJSONProtocol;
++ (int)parentGroupContainsDiscoverableLeader;
 + (Class);
 - (long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (int);
-- (int);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)tor] %@:(id)arg1 Connected endpoint=%@;
+- (id)cting endpoint=%@;
+- (id)to find symbol with uti:(id)arg1 %{public}@ error:(id)arg2 %{public}@;
+- (int)ayingController] <%@> Unbalanced calls to endLoadingUpdates;
+- (int)redGroupSession:%@ /* Error: Ran out of types for this method. */;
+- (long long)s %{public}@;
+- (id)ckQueueContentItemsChangedNotification for content items %@ because we are requesting a new playback queue.;
+- (id)iringSession(CoreUtils)] Failed to resume pairing process after setting setup code. %{public}@;
+- (_Bool)%{public}@<%{public}@> with <%{public}@>;
+- (id)setPlaybackSessionCommandID;
 - (long long);
 - (id);
 - (id);

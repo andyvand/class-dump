@@ -11,16 +11,15 @@
 @interface CPLChangedRecordStorageView : CPLRecordStorageView
 {
     CPLChangeStorage *_changeStorage;
-    CPLRecordStorageView *_baseStorageView;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id),V_photosCount;
-- (unsigned long long)unt;
-- (id)'¼;
+- (id)<;
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,7 +28,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLRecordStorageView *baseStorageView; // @synthesize baseStorageView=_baseStorageView;
 @property(readonly, nonatomic) CPLChangeStorage *changeStorage; // @synthesize changeStorage=_changeStorage;
 
 @end

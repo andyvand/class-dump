@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VMUObjectIdentifier;
-
 @interface VMUObjectIdentifierDriverKitSupport
 {
     unsigned int _task;
-    VMUObjectIdentifier *_objectIdentifier;
-    unsigned int _vtableOffsetsCount;
-    unsigned long long *_vtableOffsets;
-    unsigned long long _vtableOffsetOfLegacyOSObject;
-    unsigned long long _vtableOffsetOfRemoteDriverKitOSObject;
-    NSArray *_privateFieldsOfRemoteDriverKitOSObject;
-    unsigned long long _vtableOffsetOfLocalDriverKitOSObject;
-    NSArray *_privateFieldsOfLocalDriverKitOSObject;
 }
 
 - (id);
@@ -34,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sHandle;
 
 @end
 

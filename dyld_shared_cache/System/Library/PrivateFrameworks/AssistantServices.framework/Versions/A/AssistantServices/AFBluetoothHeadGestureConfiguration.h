@@ -7,34 +7,28 @@
 @interface AFBluetoothHeadGestureConfiguration
 {
     _Bool _isEnabled;
-    _Bool _isSupported;
-    long long _acceptGesture;
-    long long _rejectGesture;
 }
 
 + (id);
 + (_Bool);
 - (long long);
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id)deviceSignatureCertificateChain;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (_Bool);
+- (_Bool)ndowController";
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long acceptGesture; // @synthesize acceptGesture=_acceptGesture;
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isSupported; // @synthesize isSupported=_isSupported;
-@property(readonly, nonatomic) long long rejectGesture; // @synthesize rejectGesture=_rejectGesture;
 
 @end
 

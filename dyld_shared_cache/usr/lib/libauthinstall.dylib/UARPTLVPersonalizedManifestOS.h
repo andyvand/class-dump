@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UARPTLVPersonalizedManifestOS : UARPMetaDataTLVDataOS
 {
     NSData *_manifest;
-    NSData *_nonce;
 }
 
 + (id);
@@ -22,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)P;
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (void)`B;
+- (id);
 
 // Remaining properties
 @property(readonly) NSData *nonce; // @synthesize nonce=_nonce;

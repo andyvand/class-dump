@@ -7,7 +7,6 @@
 @interface TeaCharts.ColumnChartViewProvider
 {
     id renderer;
-    id styler;
 }
 
 @end

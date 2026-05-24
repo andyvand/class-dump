@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray;
+@class NSArray;
 
 @interface VNRequestForensics
 {
     NSArray *_originalRequests;
-    NSArray *_orderedRequests;
-    NSMutableArray *_implicitRequests;
-    NSMutableArray *_performedRequests;
-    NSMutableArray *_cachedRequestResults;
-    NSMutableArray *_checkedCachedResultsOnBehalfOfRequest;
-    NSMutableArray *_locatedCachedResultsOnBehalfOfRequest;
-    NSMutableArray *_ledger;
-    NSMapTable *_requestToHumanReadableLabelMap;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)eprintPrivateRevision64DimensionPCA;
+- (id)VNCreateSceneprintPrivateRevision64DimensionPCA;
 - (void)sFaceBlock:finish processing:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *orderedRequests;
-@property(readonly, copy, nonatomic) NSArray *originalRequests;
-@property(readonly, copy, nonatomic) NSArray *performedRequests;
 
 @end
 

@@ -6,21 +6,15 @@
 
 #import <DiagnosticRequestService/DRSRequestMO.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface DRSTailspinRequestMO : DRSRequestMO
 {
 }
 
-+ (id);
++ (id)tipSection;
 
 // Remaining properties
 @property(nonatomic) _Bool includeOsLog; // @dynamic includeOsLog;
-@property(nonatomic) _Bool includeOsSignpost; // @dynamic includeOsSignpost;
-@property(copy, nonatomic) NSNumber *maxMAT; // @dynamic maxMAT;
-@property(copy, nonatomic) NSNumber *minMAT; // @dynamic minMAT;
-@property(nonatomic) _Bool scrubbed; // @dynamic scrubbed;
 
 @end
 

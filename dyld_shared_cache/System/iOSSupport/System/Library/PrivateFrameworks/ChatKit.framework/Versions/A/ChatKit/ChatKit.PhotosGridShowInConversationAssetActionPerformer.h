@@ -9,11 +9,11 @@
 }
 
 + (id);
-+ (id);
++ (id)attachment_thumb_video_camera_icon;
 + (_Bool);
 + (_Bool);
-- (void);
-- (unsigned long long);
+- (void)o;
+- (unsigned long long)g note to v1 Neo… {note:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

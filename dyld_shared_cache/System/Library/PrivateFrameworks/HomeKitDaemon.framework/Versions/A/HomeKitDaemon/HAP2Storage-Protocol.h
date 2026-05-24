@@ -8,6 +8,7 @@
 @protocol HAP2StorageDelegate;
 
 @protocol HAP2Storage
+- (void)C;
 - (void)!ØGùÑ°1Â0@ù
 × ;
 - (void);

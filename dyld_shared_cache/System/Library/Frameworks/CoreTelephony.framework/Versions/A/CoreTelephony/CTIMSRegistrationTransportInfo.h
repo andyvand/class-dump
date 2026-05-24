@@ -7,26 +7,22 @@
 @interface CTIMSRegistrationTransportInfo
 {
     _Bool _isRegistered;
-    int _contextType;
-    int _transportType;
 }
 
-+ (_Bool);
++ (_Bool)= %@>;
 - (void);
-- (id);
+- (id)hB;
 - (id);
 - (void);
 - (int);
 - (void);
 - (id);
-- (void);
-- (int)xt;
+- (void);
+- (int)_context;
 - (_Bool)MS 1.3;
 
 // Remaining properties
-@property(nonatomic) int contextType; // @synthesize contextType=_contextType;
 @property(nonatomic) _Bool isRegistered; // @synthesize isRegistered=_isRegistered;
-@property(nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end
 

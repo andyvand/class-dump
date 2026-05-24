@@ -11,9 +11,6 @@
 @interface PKRulerGestureRecognizer : PKFreeTransformGestureRecognizer
 {
     NSTimer *_startTimer;
-    _Bool _initialSnap;
-    double _startDelay;
-    double _startSnapThreshold;
 }
 
 - (struct CGAffineTransform);
@@ -21,21 +18,20 @@
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (void);
+- (void);
 - (struct CGAffineTransform);
 - (double);
-- (void);
+- (void)START_CHECK_IN_SESSION_CAPTION;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)ifier:(id)arg1;
-- (void)dButtonGroupViewButtons;
+- (void);
+- (void)setChangeIdentifier:(id)arg1;
+- (void)_keyboardButtonGroupViewButtons;
 
 // Remaining properties
 @property(nonatomic) double startDelay; // @synthesize startDelay=_startDelay;
-@property(nonatomic) double startSnapThreshold; // @synthesize startSnapThreshold=_startSnapThreshold;
 
 @end
 

@@ -6,12 +6,12 @@
 
 #import <CoreNFC/NFCTag.h>
 
-@class NSData, NSString;
-@protocol NFCReaderSession;
+@class NSData;
 
 @interface NFCMiFareTag : NFCTag
 {
     unsigned long long _mifareFamily;
+    id mifareFamily;
 }
 
 - (void);
@@ -22,19 +22,8 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
 @property(readonly, copy, nonatomic) NSData *identifier;
 @property(nonatomic) unsigned long long mifareFamily; // @synthesize mifareFamily=_mifareFamily;
-@property(readonly, nonatomic) __weak id <NFCReaderSession> session;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

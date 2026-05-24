@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol DDLogFormatter, OS_dispatch_queue;
+@protocol DDLogFormatter;
 
 @interface DDAbstractLogger
 {
     id <DDLogFormatter> formatter;
-    NSObject<OS_dispatch_queue> *loggerQueue;
 }
 
 - (void);
@@ -25,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

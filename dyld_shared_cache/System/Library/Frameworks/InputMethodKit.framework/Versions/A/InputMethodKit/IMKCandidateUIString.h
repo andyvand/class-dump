@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateUIStringProperties, NSAttributedString, NSString;
+@class IMKCandidateUIStringProperties, NSAttributedString;
 
 @interface IMKCandidateUIString
 {
     IMKCandidateUIStringProperties *_properties;
-    NSString *_string;
-    NSAttributedString *_attributedString;
-    _Bool _usesSizeCacheForChineseCharacters;
 }
 
 + (id);
@@ -20,21 +17,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id) b&;
 - (void);
 - (id);
-- (void);
+- (void)ecryption-mkm-recovery-interval;
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)k;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(retain, nonatomic) IMKCandidateUIStringProperties *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) struct CGSize size;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(nonatomic) _Bool usesSizeCacheForChineseCharacters; // @synthesize usesSizeCacheForChineseCharacters=_usesSizeCacheForChineseCharacters;
 
 @end
 

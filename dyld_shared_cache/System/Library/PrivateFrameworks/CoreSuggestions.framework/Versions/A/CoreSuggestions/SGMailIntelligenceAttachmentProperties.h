@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SGMailIntelligenceAttachmentProperties
 {
     NSString *_fileName;
-    NSNumber *_fileSizeInBytes;
-    NSString *_fileDescription;
-    NSArray *_keywords;
-    NSArray *_authors;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *authors; // @synthesize authors=_authors;
-@property(readonly, nonatomic) NSString *fileDescription; // @synthesize fileDescription=_fileDescription;
 @property(readonly, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(readonly, nonatomic) NSNumber *fileSizeInBytes; // @synthesize fileSizeInBytes=_fileSizeInBytes;
-@property(readonly, nonatomic) NSArray *keywords; // @synthesize keywords=_keywords;
 
 @end
 

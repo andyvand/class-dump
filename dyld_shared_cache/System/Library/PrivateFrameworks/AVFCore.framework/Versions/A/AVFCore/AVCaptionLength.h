@@ -24,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long numberOfCells;
 @property(readonly, nonatomic) long long unitType;
 
 @end

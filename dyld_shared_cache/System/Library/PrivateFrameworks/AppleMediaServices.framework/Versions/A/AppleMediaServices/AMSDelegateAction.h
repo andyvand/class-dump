@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AMSDelegateAction
 {
     NSString *_identifier;
-    NSDictionary *_parameters;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)IMMetricsCollectorEventWRMLQMDoesWRMRecommendDisablingLQM;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end
 

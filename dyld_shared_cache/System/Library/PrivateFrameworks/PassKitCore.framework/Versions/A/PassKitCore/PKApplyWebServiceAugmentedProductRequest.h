@@ -11,7 +11,6 @@
 @interface PKApplyWebServiceAugmentedProductRequest : PKApplyWebServiceRequest
 {
     PKPaymentInstallmentConfiguration *_installmentConfiguration;
-    unsigned long long _feature;
 }
 
 + (_Bool)0@ù
@@ -21,12 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (void)ext;
+- (void)altText;
 - (void);
 - (unsigned long long)Ôÿò;
 
 // Remaining properties
-@property(nonatomic) unsigned long long feature; // @synthesize feature=_feature;
 @property(retain, nonatomic) PKPaymentInstallmentConfiguration *installmentConfiguration; // @synthesize installmentConfiguration=_installmentConfiguration;
 
 @end

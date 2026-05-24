@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDDevice, HIDManager, NSArray, NSString;
+@class HIDManager, NSString;
 
 @interface HIDDisplayInterface
 {
     HIDManager *_manager;
-    HIDDevice *_deviceRef;
-    NSString *_containerID;
-    unsigned long long _registryID;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)TH;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,15 +25,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)N,V_tagRegistry;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) NSArray *capabilities;
 @property(readonly) NSString *containerID; // @synthesize containerID=_containerID;
-@property(readonly) unsigned long long registryID; // @synthesize registryID=_registryID;
 
 @end
 

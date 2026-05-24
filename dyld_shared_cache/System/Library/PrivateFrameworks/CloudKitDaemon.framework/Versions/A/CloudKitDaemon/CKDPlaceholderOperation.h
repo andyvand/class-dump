@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKDOperation, NSDate, NSObject, NSOperationQueue, NSString;
+@class NSDate, NSObject;
 @protocol OS_dispatch_group;
 
 @interface CKDPlaceholderOperation
 {
     NSObject<OS_dispatch_group> *_group;
-    int _executionState;
-    NSDate *_startDate;
-    CKDOperation *_realOperation;
-    NSOperationQueue *_targetOperationQueue;
 }
 
 - (id);
@@ -21,10 +17,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)r message:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -40,12 +36,7 @@
 - (_Bool)ailed to fetch last sent capabilities and usage date for containerID %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnonymous) _Bool anonymous;
-@property(readonly, nonatomic) __weak CKDContainer *container;
-@property(readonly, nonatomic) NSString *operationID;
-@property(readonly, nonatomic) CKDOperation *realOperation; // @synthesize realOperation=_realOperation;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSOperationQueue *targetOperationQueue; // @synthesize targetOperationQueue=_targetOperationQueue;
 
 @end
 

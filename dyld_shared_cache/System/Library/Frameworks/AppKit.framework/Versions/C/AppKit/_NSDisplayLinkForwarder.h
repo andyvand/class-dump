@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _NSDisplayLink *_displayLink;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)SubmenuRef);

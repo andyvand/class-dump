@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.RunLoopSemaphore
 {
     id lock;
-    id count;
-    id runLoop;
-    id source;
 }
 
 @end

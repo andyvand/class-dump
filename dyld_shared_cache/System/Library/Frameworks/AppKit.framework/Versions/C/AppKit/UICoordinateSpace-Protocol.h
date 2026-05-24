@@ -5,7 +5,8 @@
 //
 
 @protocol UICoordinateSpace
-- (struct CGPoint)uchBarPause;
+- (struct CGRect)Convert"b1"_wroteCocoaVersion"b1"_isInlineRTFD"b1"_reserved"b24};
+- (struct CGPoint)NSTouchBarPause;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

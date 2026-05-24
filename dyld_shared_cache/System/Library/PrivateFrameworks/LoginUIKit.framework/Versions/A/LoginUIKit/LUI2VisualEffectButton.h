@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUI2DarkenView, LUI2VEBButton, NSImage, NSString, NSVisualEffectView;
-
 @interface LUI2VisualEffectButton
 {
     _Bool _enabledInternal;
-    NSImage *_vebImage;
-    NSVisualEffectView *_backgroundView;
-    LUI2VEBButton *_button;
-    LUI2DarkenView *_darkenView;
 }
 
 - (id);
 - (void);
+- (void)k ;
 - (void);
-- (void);
-- (id);
+- (id)C;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)tE;
+- (void);
 - (_Bool);
 - (void);
 - (long long);
@@ -38,7 +32,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)or PKPaymentSetupAssistantCompanion, but NanoPassKit is not linkable. File a radar!;
 - (id);
 - (_Bool);
 - (void);
@@ -54,25 +48,7 @@
 × ;
 
 // Remaining properties
-@property SEL action;
-@property(retain) NSVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property long long blendingMode;
-@property(retain) LUI2VEBButton *button; // @synthesize button=_button;
-@property(retain) LUI2DarkenView *darkenView; // @synthesize darkenView=_darkenView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
 @property _Bool enabledInternal; // @synthesize enabledInternal=_enabledInternal;
-@property(readonly) unsigned long long hash;
-@property(retain) NSImage *image;
-@property(copy) NSString *keyEquivalent;
-@property unsigned long long keyEquivalentModifierMask;
-@property(readonly) Class superclass;
-@property id target;
-@property(retain) NSImage *vebImage; // @synthesize vebImage=_vebImage;
 
 @end
 

@@ -6,34 +6,30 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKPaymentPass, PKPaymentRemoteCredential;
+@class PKPaymentPass, PKPaymentRemoteCredential;
 
 @interface PKPrecursorPassCredential : PKPaymentCredential
 {
     PKPaymentRemoteCredential *_remoteCredential;
-    NSString *_passTypeIdentifier;
-    NSString *_serialNumber;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)I;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)tOnTotalRxPkts;
 - (id)chargeOffPreventionAmount;
-- (void);
+- (void)actionGroup;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 @property(retain, nonatomic) PKPaymentPass *paymentPass;
-@property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

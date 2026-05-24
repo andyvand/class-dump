@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScreen, UIStatusBarManager, UITraitCollection;
-@protocol UICoordinateSpace;
+@class UIScreen;
 
 @protocol _UISceneUIWindowHosting
+- (void);
+- (void)replyDelegate;
+- (long long)_replicationService;
+- (void);
+
+@optional
 - (UIScreen *);
+- (void)L;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UICoordinateSpace> _coordinateSpace;
-@property(readonly, nonatomic) long long _interfaceOrientation;
 @property(readonly, nonatomic) UIScreen *_screen;
-@property(readonly, nonatomic) UIStatusBarManager *_statusBarManager;
-@property(readonly, nonatomic) UITraitCollection *_traitCollection;
 @end
 

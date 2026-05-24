@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface SPKeySyncRecord
 {
     NSUUID *_identifier;
-    unsigned long long _lastIndexObserved;
-    NSDate *_lastIndexObservationDate;
 }
 
 + (_Bool);
@@ -23,14 +21,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)IMMessagepartSyndicationRange;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastIndexObservationDate; // @synthesize lastIndexObservationDate=_lastIndexObservationDate;
-@property(nonatomic) unsigned long long lastIndexObserved; // @synthesize lastIndexObserved=_lastIndexObserved;
 
 @end
 

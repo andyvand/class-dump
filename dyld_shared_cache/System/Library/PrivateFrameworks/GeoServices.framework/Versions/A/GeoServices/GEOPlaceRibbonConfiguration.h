@@ -9,10 +9,9 @@
 @interface GEOPlaceRibbonConfiguration
 {
     GEOPDPlaceRibbonConfiguration *_ribbonConfig;
-    NSArray *_ribbonItems;
 }
 
-- (id);
+- (id)pplication Support/AddressBook/Sources/;
 - (id);
 - (void);
 - (void);

@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliMessageID, CTLazuliSuggestedActionSettings;
+@class CTLazuliDestination;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendDeviceSettingsRequest : CTXPCSubscriptionContextRequest
@@ -18,14 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (int);
-- (id)s;
+- (id)kSettingsModelClss;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliMessageID *messageID;
-@property(readonly, nonatomic) CTLazuliSuggestedActionSettings *settings;
 
 @end
 

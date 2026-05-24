@@ -11,9 +11,6 @@
 @interface _TSF_TSDgPTPClock : _TSF_TSDKernelClock
 {
     NSPointerArray *_implClocks;
-    struct os_unfair_lock_s _implClocksLock;
-    NSArray *_gptpPath;
-    unsigned long long _grandmasterIdentity;
 }
 
 + (id);
@@ -33,28 +30,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)2;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (CDStruct_4e4c37a4);
-- (CDStruct_4e4c37a4);
+- (id)b;
+- (CDStruct_4bcfbbae);
+- (CDStruct_4bcfbbae);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned char);
 - (unsigned char);
 - (unsigned long long);
@@ -78,21 +75,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char clockAccuracy; // @dynamic clockAccuracy;
-@property(readonly, nonatomic) unsigned char clockClass; // @dynamic clockClass;
-@property(readonly, nonatomic) unsigned long long clockIdentity; // @dynamic clockIdentity;
-@property(readonly, nonatomic) unsigned char clockPriority1; // @dynamic clockPriority1;
-@property(readonly, nonatomic) unsigned char clockPriority2; // @dynamic clockPriority2;
 @property(copy, nonatomic) NSArray *gptpPath; // @synthesize gptpPath=_gptpPath;
-@property(nonatomic) unsigned long long grandmasterIdentity; // @synthesize grandmasterIdentity=_grandmasterIdentity;
-@property(readonly, copy, nonatomic) NSArray *ports; // @dynamic ports;
 
 @end
 

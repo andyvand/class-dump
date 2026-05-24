@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UIInputView.h>
 
-@class UIAction, UIButton, UILabel, UISegmentedControl, UISwitch, UIView, _UIFindNavigatorSearchTextField, _UIFindNavigatorViewLayout;
-@protocol _UIFindNavigatorViewDelegate;
+@class UIButton, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorView : UIInputView
@@ -17,34 +16,6 @@ __attribute__((visibility("hidden")))
         UIView *right;
         UIView *bottom;
     } _separatorViews;
-    struct {
-        _Bool initialized;
-        UIAction *find;
-        UIAction *replace;
-        UIAction *matchCase;
-        UIAction *wholeWords;
-    } _searchMenu;
-    _UIFindNavigatorViewLayout *_layout;
-    _Bool _matchCase;
-    _Bool _wholeWords;
-    _Bool _usesOpaqueBackground;
-    _Bool _replaceButtonEnabled;
-    _Bool _intrinsicHeightDerivedFromAssistantBar;
-    id <_UIFindNavigatorViewDelegate> _findNavigatorDelegate;
-    long long _mode;
-    unsigned long long _visibleSeparatorEdges;
-    UIButton *_doneButton;
-    UIButton *_settingsButton;
-    UILabel *_resultCountLabel;
-    long long _assistantBarStyle;
-    _UIFindNavigatorSearchTextField *_searchTextField;
-    _UIFindNavigatorSearchTextField *_replaceTextField;
-    UIButton *_nextResultButton;
-    UIButton *_previousResultButton;
-    UIButton *_replaceButton;
-    UISwitch *_replaceToggleSwitch;
-    UISegmentedControl *_nextPreviousSegmentedControl;
-    UISegmentedControl *_replaceReplaceAllSegmentedControl;
 }
 
 - (_Bool);
@@ -55,45 +26,45 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)superclass;
+- (id)shouldSkipTrustKitDecisioningForChat:sender: /* Error: Ran out of types for this method. */;
+- (id)shouldShowPeerErrors;
+- (id)shouldRepairAccountWithAccountStatus:securityLevel: /* Error: Ran out of types for this method. */;
+- (_Bool)shouldDowngradeToRecipient:fromSender:withContext: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)setCKOperationFactory: /* Error: Ran out of types for this method. */;
+- (id)populateIMGroupTitleChangeItem:withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
+- (id)populateIMGroupActionItem:withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
+- (_Bool)markAllChatsAsDirty;
+- (_Bool)identifier:equalsIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_serverDoesNotAllowComingBackOnlineChatSync;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)imer fired, ensuring BGST tasks are submitted;
+- (void)fromID %@;
+- (void)ing block local remote file request;
+- (void)in in a bit;
+- (void)ts than its iMessage sibling, but it is backed by a group server. We must fork 🍴;
+- (void)oes not exist at its local path -- transfer (%@) local path (%@);
+- (void)%@;
+- (void)%@;
+- (void)batch %@;
+- (id)codeMessageGUID:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (struct CGSize);
-- (long long);
-- (void);
+- (long long);
+- (void)__MPModelRelationshipTVEpisodeStoreAsset__MAPPING_MISSING__;
 - (_Bool);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void)
 × ;
-- (void)eAuxiliaryConnectionIfNecessary;
-- (id)tUpdate:(struct CGRect)arg1 appearingAnimations:newSubviewCollection: /* Error: Ran out of types for this method. */;
-- (id)pletionHandler: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ureRecognizer;
-- (void)utTokenizer;
+- (void)configureAuxiliaryConnectionIfNecessary;
+- (id)_createAndAppendViewAnimationsForInsertsInCurrentUpdate:(struct CGRect)arg1 appearingAnimations:newSubviewCollection: /* Error: Ran out of types for this method. */;
+- (id)__viewServiceDidPromoteFirstResponderWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)UIGestureRecognizer;
+- (void)UITextInputTokenizer;
 - (long long);
 - (void);
 - (void);
@@ -102,26 +73,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿúeÍ¤b;
 
 // Remaining properties
-@property(nonatomic) long long assistantBarStyle; // @synthesize assistantBarStyle=_assistantBarStyle;
-@property(readonly, nonatomic) UIButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(nonatomic) __weak id <_UIFindNavigatorViewDelegate> findNavigatorDelegate; // @synthesize findNavigatorDelegate=_findNavigatorDelegate;
-@property(nonatomic) _Bool intrinsicHeightDerivedFromAssistantBar; // @synthesize intrinsicHeightDerivedFromAssistantBar=_intrinsicHeightDerivedFromAssistantBar;
-@property(nonatomic) _Bool matchCase; // @synthesize matchCase=_matchCase;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) UISegmentedControl *nextPreviousSegmentedControl; // @synthesize nextPreviousSegmentedControl=_nextPreviousSegmentedControl;
 @property(readonly, nonatomic) UIButton *nextResultButton; // @synthesize nextResultButton=_nextResultButton;
-@property(readonly, nonatomic) UIButton *previousResultButton; // @synthesize previousResultButton=_previousResultButton;
-@property(readonly, nonatomic) UIButton *replaceButton; // @synthesize replaceButton=_replaceButton;
-@property(nonatomic) _Bool replaceButtonEnabled; // @synthesize replaceButtonEnabled=_replaceButtonEnabled;
-@property(readonly, nonatomic) UISegmentedControl *replaceReplaceAllSegmentedControl; // @synthesize replaceReplaceAllSegmentedControl=_replaceReplaceAllSegmentedControl;
-@property(readonly, nonatomic) _UIFindNavigatorSearchTextField *replaceTextField; // @synthesize replaceTextField=_replaceTextField;
-@property(readonly, nonatomic) UISwitch *replaceToggleSwitch; // @synthesize replaceToggleSwitch=_replaceToggleSwitch;
-@property(readonly, nonatomic) UILabel *resultCountLabel; // @synthesize resultCountLabel=_resultCountLabel;
-@property(readonly, nonatomic) _UIFindNavigatorSearchTextField *searchTextField; // @synthesize searchTextField=_searchTextField;
-@property(readonly, nonatomic) UIButton *settingsButton; // @synthesize settingsButton=_settingsButton;
-@property(nonatomic) _Bool usesOpaqueBackground; // @synthesize usesOpaqueBackground=_usesOpaqueBackground;
-@property(nonatomic) unsigned long long visibleSeparatorEdges; // @synthesize visibleSeparatorEdges=_visibleSeparatorEdges;
-@property(nonatomic) _Bool wholeWords; // @synthesize wholeWords=_wholeWords;
 
 @end
 

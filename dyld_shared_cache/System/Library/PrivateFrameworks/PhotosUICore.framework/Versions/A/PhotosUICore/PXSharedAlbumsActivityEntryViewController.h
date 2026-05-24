@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGStackLayout, PXMediaProvider, PXSharedAlbumsActivityEntryItemList;
+@class PXSharedAlbumsActivityEntryItemList;
 
 @interface PXSharedAlbumsActivityEntryViewController
 {
     PXSharedAlbumsActivityEntryItemList *_itemList;
-    PXGStackLayout *_layout;
-    PXMediaProvider *_mediaProvider;
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (void)es;
+- (void)simulateEmptyActivityEntries;
 - (void)@Wÿ´çÁË»L»;
 
 @end

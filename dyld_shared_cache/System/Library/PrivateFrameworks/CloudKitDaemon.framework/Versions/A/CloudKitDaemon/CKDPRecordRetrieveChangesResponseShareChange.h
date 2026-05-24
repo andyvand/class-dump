@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPShare, CKDPShareIdentifier;
-
 @interface CKDPRecordRetrieveChangesResponseShareChange
 {
     int _changeType;
-    CKDPShare *_share;
-    CKDPShareIdentifier *_shareIdentifier;
-    struct {
-        unsigned int changeType:1;
-    } _has;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(H;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)x%04X] (startup) Stereo Pair hose [%{ptr}] (%@) Primed -> Ready because peer was primed or better
+;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (int);
-- (id);
-- (void);
+- (id);
+- (void)MY=
+-----END CERTIFICATE-----;
 - (int);
-- (_Bool);
+- (_Bool)]};
 - (void);
 - (void);
 - (id)uploaded for %@;
 - (id)»ïÿ;
 
 // Remaining properties
-@property(nonatomic) int changeType; // @synthesize changeType=_changeType;
-@property(nonatomic) _Bool hasChangeType;
-@property(readonly, nonatomic) _Bool hasShare;
 @property(readonly, nonatomic) _Bool hasShareIdentifier;
-@property(retain, nonatomic) CKDPShare *share; // @synthesize share=_share;
-@property(retain, nonatomic) CKDPShareIdentifier *shareIdentifier; // @synthesize shareIdentifier=_shareIdentifier;
 
 @end
 

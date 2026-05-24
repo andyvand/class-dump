@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TCMessageContext, TCProgressContext;
-@protocol OS_dispatch_group, OS_dispatch_queue, TCCancelDelegate;
+@protocol TCCancelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TCBackgroundThreadManager
 {
     id <TCCancelDelegate> mCancelDelegate;
-    _Bool mIsWaiting;
-    unsigned long long mBlockCount;
-    NSObject<OS_dispatch_queue> *mQueue;
-    NSObject<OS_dispatch_group> *mGroup;
-    NSObject<OS_dispatch_queue> *mProgressReportingQueue;
-    TCMessageContext *mMessageContext;
-    TCProgressContext *mProgressContext;
 }
 
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)ePart: /* Error: Ran out of types for this method. */;
+- (_Bool)OCXReadRelationshipForNode:packagePart: /* Error: Ran out of types for this method. */;
 - (void)ty/TSUDateParser.m;
 
 // Remaining properties
 @property(readonly) _Bool isCancelled;
-@property(retain) TCMessageContext *messageContext; // @synthesize messageContext=mMessageContext;
-@property(retain) TCProgressContext *progressContext; // @synthesize progressContext=mProgressContext;
 
 @end
 

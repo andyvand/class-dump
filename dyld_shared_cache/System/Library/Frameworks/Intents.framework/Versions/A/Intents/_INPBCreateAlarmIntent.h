@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTimeRange, _INPBIntentMetadata;
-
 @interface _INPBCreateAlarmIntent
 {
     CDStruct_95bda58d _alarmRepeatScheduleOptions;
-    struct {
-        unsigned int relativeOffsetInMinutes:1;
-    } _has;
-    int _relativeOffsetInMinutes;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_label;
-    _INPBDateTimeRange *_time;
 }
 
 + (_Bool);
@@ -25,8 +16,8 @@
 - (int);
 - (_Bool);
 - (int);
-- (id);
-- (int *);
+- (id);
+- (int *)`;
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,40 +26,24 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?1a;
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id);
+- (_Bool)a;
+- (_Bool)igger"24;
+- (void)corewifi] [cloudsync] Cloud network %@ is not syncable;
+- (id);
+- (id);
 - (void);
 - (id);
 - (void)MutableDictionary",R,C,N,V_appToExtensionIdentifiers;
-- (_Bool)eAlarmIntentResponse;
+- (_Bool)INDeleteAlarmIntentResponse;
 - (void)w;
-- (void)ons;
-- (_Bool)tatusOptionsCollectionForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)tablespoons;
+- (_Bool)provideStatusOptionsCollectionForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int *alarmRepeatScheduleOptions;
-@property(readonly, nonatomic) unsigned long long alarmRepeatScheduleOptionsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasRelativeOffsetInMinutes;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDataString *label; // @synthesize label=_label;
-@property(nonatomic) int relativeOffsetInMinutes; // @synthesize relativeOffsetInMinutes=_relativeOffsetInMinutes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *time; // @synthesize time=_time;
 
 @end
 

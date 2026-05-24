@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactIconAppearance, PRLikeness;
-
 @interface CNContactIconViewModel
 {
     _Bool _selected;
-    _Bool _monogramOnly;
-    CNContact *_contact;
-    PRLikeness *_likeness;
-    unsigned long long _style;
-    double _diameter;
-    long long _type;
-    CNContactIconAppearance *_appearance;
-    CNContactIconAppearance *_selectedAppearance;
 }
 
 + (id);
@@ -37,29 +27,29 @@
 - (double);
 - (double);
 - (long long);
-- (long long);
+- (long long)q@;
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)`;
+- (void)$;
 - (id);
+- (void));
 - (void);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (long long)kSimLockValueNotification;
+- (id)S;
 - (id);
 - (id);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (double);
 - (void);
@@ -67,14 +57,6 @@
 - (id)ñÿ¤ñÿê°;
 
 // Remaining properties
-@property(retain) CNContactIconAppearance *appearance; // @synthesize appearance=_appearance;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) double diameter; // @synthesize diameter=_diameter;
-@property(retain, nonatomic) PRLikeness *likeness; // @synthesize likeness=_likeness;
-@property(nonatomic) _Bool monogramOnly; // @synthesize monogramOnly=_monogramOnly;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(retain) CNContactIconAppearance *selectedAppearance; // @synthesize selectedAppearance=_selectedAppearance;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

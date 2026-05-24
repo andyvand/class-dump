@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSString;
+@class NSString;
 
 @protocol MSPHistoryEntrySearch
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *languageCode;
-@property(readonly, copy, nonatomic) NSString *locationDisplayString;
-@property(readonly, copy, nonatomic) GEOMapRegion *mapRegion;
 @property(readonly, copy, nonatomic) NSString *query;
 @end
 

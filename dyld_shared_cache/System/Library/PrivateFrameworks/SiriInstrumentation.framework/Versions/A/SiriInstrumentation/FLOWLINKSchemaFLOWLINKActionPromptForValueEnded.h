@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionPromptForValueEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)RSA_padding_add_SSLv23;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)L;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ateType"b1};
-- (id)ctedComponentsWrapper;
+- (id)PLATFORMProvisionalConnectedComponentsWrapper;
 - (id);
 - (_Bool)V²¯F#;
 - (_Bool)';
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

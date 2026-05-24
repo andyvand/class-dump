@@ -9,18 +9,6 @@
 @interface ICIAMTriggerCondition
 {
     NSString *_bundleIdentifier;
-    int _comparisonType;
-    int _dataType;
-    NSString *_identifier;
-    int _kind;
-    int _triggerConditionType;
-    NSString *_triggerValue;
-    struct {
-        unsigned int comparisonType:1;
-        unsigned int dataType:1;
-        unsigned int kind:1;
-        unsigned int triggerConditionType:1;
-    } _has;
 }
 
 - (int);
@@ -28,12 +16,160 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)sweepTestFraction;
+- (void)heapAccelerationStructureSizeAndAlignWithDescriptor:(id)arg1;
+- (void)}
+
+        v.e1 /= 3.0f;
+    }
+#endif
+}
+
+static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
+                                threadgroup OsdPerVertexGregory* v,
+                                device OsdPerPatchVertexGregory& result,
+                                OsdPatchParamBufferSet osdBuffers)
+{
+    result.P = v[ID].P;
+
+    int i = ID;
+    int ip = (i+1)%4;
+    int im = (i+3)%4;
+    int valence = abs(v[i].valence);
+    int n = valence;
+
+    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int np = abs(v[ip].valence);
+    int nm = abs(v[im].valence);
+
+    // Control Vertices based on :(_Bool)arg1 // "Approximating Subdivision Surfaces with Gregory Patches
+    //  for Hardware Tessellation"
+    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
+    //
+    //  P3         e3-      e2+         P2
+    //     O--------O--------O--------O
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |        O        O        |
+    // e3+ O------O            O------O e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- O------O            O------O e1+
+    //     |        O        O        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------O--------O--------O
+    //  P0         e0+      e1-         P1
+    //
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    float3 Em_ip;
+    if (v[ip].valence < -2) {
+        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
+        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
+    } else {
+        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
 - (id);
 - (void);
-- (id);
+- (id)=9C;
 - (void);
 - (id);
 - (void);
@@ -48,41 +184,28 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (int);
 - (int);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)=dd}}48d80;
+- (id)convertPointToBacking:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (int);
+- (int);
 - (int);
 - (void);
-- (void)kensResponse;
+- (void)ICMusicKitTokensResponse;
 - (void)e¼p©¹`¼eu¬`¹©póCz-/»)7C$Ü9?÷g±5K«ÀßH*¥£EÿGëM@³q:(int)arg1 Lµ)×áÝg÷ÒÏ,D»^²&øú5¢=GÔÉl4ç¿ìÕâ,»Jsc>¢ìÕêl{5 }ü-÷¼²Y¬,¾à|ÑÊ}dGãF¿hE2ÒRÂË>fÄ±»Üjyï39;Ü£½}Î£^|uaØöW¢Á1ö»G°gY¾LÎúz5ÃQ¾ÔXµïR¬Ö§£¹"¥ö_a[-á D¼ÉJ®·kì;Ô³òò¡S$<c)ÃöêQØX%@¨Ùf6¾üY/U¯¿Lh[ÐåÓ?à¹¦,éÉv\ñ"ª¤aBÀ¶Æ+ûroGPÕAC»õ
 ýÔ{bOSná®>ÖÑäôï( î52ÜØ3t:ãì¥DwHÁºZÇÚê×ÿ¡½µ§Ãç«*jyóëeJ]¼­øsQIk¸u_þp)8±Ïâ¢ö°-0.g!4d^`cF	úæl7ÍqÈÎ©W²íx}MÞ9òð1ùN<³Km;Ä£$Â=X&i|~VÛ' ´T·RÒ¬è÷zEÅÝÌ#Êß /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) int comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(nonatomic) int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasComparisonType;
-@property(nonatomic) _Bool hasDataType;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasKind;
-@property(nonatomic) _Bool hasTriggerConditionType;
-@property(readonly, nonatomic) _Bool hasTriggerValue;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(nonatomic) int triggerConditionType; // @synthesize triggerConditionType=_triggerConditionType;
-@property(retain, nonatomic) NSString *triggerValue; // @synthesize triggerValue=_triggerValue;
 
 @end
 

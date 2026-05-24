@@ -4,37 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NWPBEndpoint, NWPBInterface, NWPBParameters;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NWPBPath
 {
     NSMutableArray *_agents;
-    NSString *_clientUUID;
-    NWPBInterface *_delegateInterface;
-    NWPBInterface *_directInterface;
-    NWPBEndpoint *_endpoint;
-    NWPBParameters *_parameters;
-    int _status;
-    _Bool _direct;
-    _Bool _ipv4;
-    _Bool _ipv6;
-    _Bool _local;
-    struct {
-        unsigned int status:1;
-        unsigned int direct:1;
-        unsigned int ipv4:1;
-        unsigned int ipv6:1;
-        unsigned int local:1;
-    } _has;
 }
 
-- (id);
+- (id)H `;
 - (void);
 - (unsigned long long);
+- (_Bool)J8@;
 - (_Bool);
-- (_Bool);
-- (id)rAccess;
+- (id)_explicitlySetAllowsCellularAccess;
 - (id)m;
 - (void)@;
 

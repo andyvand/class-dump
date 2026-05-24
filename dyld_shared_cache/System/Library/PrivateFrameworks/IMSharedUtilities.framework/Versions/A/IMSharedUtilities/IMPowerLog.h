@@ -11,7 +11,7 @@
 + (id)/PrivateFrameworks/IMDPersistence.framework/IMDPersistence;
 - (void);
 - (void);
-- (void);
+- (void)#3i;
 - (void);
 - (void);
 - (void);

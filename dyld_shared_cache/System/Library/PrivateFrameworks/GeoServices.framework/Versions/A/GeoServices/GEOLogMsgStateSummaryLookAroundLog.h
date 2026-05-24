@@ -9,23 +9,9 @@
 @interface GEOLogMsgStateSummaryLookAroundLog
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _durationSec;
-    _Bool _hadMoveActions;
-    _Bool _hadPanActions;
-    _Bool _hadPoiTapActions;
-    _Bool _hadShareActions;
-    _Bool _hadZoomActions;
-    struct {
-        unsigned int has_durationSec:1;
-        unsigned int has_hadMoveActions:1;
-        unsigned int has_hadPanActions:1;
-        unsigned int has_hadPoiTapActions:1;
-        unsigned int has_hadShareActions:1;
-        unsigned int has_hadZoomActions:1;
-    } _flags;
 }
 
-+ (_Bool)asSupportsEvRoutingPreconditioning:(id)arg1;
++ (_Bool)setHasSupportsEvRoutingPreconditioning:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -48,11 +34,11 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (void);
-- (_Bool);
+- (void)@"NSMutableArray",R,V_output;
+- (_Bool)shortNameFormat;
 - (void);
 - (id);
-- (id);
+- (id)!$;
 - (void);
 - (void);
 - (void);
@@ -60,8 +46,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)de:(struct _NSZone *)arg1 industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:traits: /* Error: Ran out of types for this method. */;
+- (void)on:(id)arg1 Received kRDServerRunning message, setting fServerIsRunning = true;
+- (id)ticketForMerchantCode:(struct _NSZone *)arg1 rawMerchantCode:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:traits: /* Error: Ran out of types for this method. */;
 - (id)ius;
 - (id)ed):%llu
 
@@ -72,19 +58,7 @@
 - (void)øxÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int durationSec;
-@property(nonatomic) _Bool hadMoveActions;
-@property(nonatomic) _Bool hadPanActions;
-@property(nonatomic) _Bool hadPoiTapActions;
-@property(nonatomic) _Bool hadShareActions;
-@property(nonatomic) _Bool hadZoomActions;
 @property(nonatomic) _Bool hasDurationSec;
-@property(nonatomic) _Bool hasHadMoveActions;
-@property(nonatomic) _Bool hasHadPanActions;
-@property(nonatomic) _Bool hasHadPoiTapActions;
-@property(nonatomic) _Bool hasHadShareActions;
-@property(nonatomic) _Bool hasHadZoomActions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

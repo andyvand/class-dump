@@ -5,5 +5,12 @@
 //
 
 @protocol PDPassLibraryExportedInterface
+- (void);
+- (void)˗J;
+- (void);
+- (void)iB;
+- (void);
+- (void)(;
+- (void)teOn"b1};
 @end
 

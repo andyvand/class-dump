@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)as_endIndex"b1"has_startIndex"b1"has_tierType"b1};
-- (id)pe;
+- (id)_interactionType;
 - (id)Ø;
 - (void)×£p=
 ñ?w¾/<@;

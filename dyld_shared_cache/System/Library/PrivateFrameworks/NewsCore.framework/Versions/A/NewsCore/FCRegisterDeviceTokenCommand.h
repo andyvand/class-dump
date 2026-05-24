@@ -11,30 +11,24 @@
 @interface FCRegisterDeviceTokenCommand : FCCommand
 {
     int _deviceDigestMode;
-    NSString *_userID;
-    NSString *_deviceToken;
-    NSString *_storefrontID;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (int);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void).;
+- (void);
+- (void)rN;
 - (id);
 - (id);
 - (id)Ü¥ ¨;
-- (void)CFNTimingDataResponseEnd;
+- (void)_kCFNTimingDataResponseEnd;
 - (void)on.m;
 
 // Remaining properties
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
 @property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end

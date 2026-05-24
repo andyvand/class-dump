@@ -7,14 +7,12 @@
 @interface AMSRemoteSignInRequest
 {
     id authenticationResults;
-    id signInContext;
-    id serviceTypes;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ompanionConnection] Message received<%@>:(id)arg1 data=%@ type=%@ destination=%@ session=%@ replyID=%@;
 - (void)Õ×ù?ï¹èäà¢¹izñý¯åiW¨$Ã¨7eAnBW<{ñ¤qîmôí¢:YV"µcØ½ûÍùð÷²¦lVÈÚâ?¯¾°~8m /* Error: Ran out of types for this method. */;
 
 @end

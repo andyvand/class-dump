@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)_inputMethodSelectionChanged:(id)arg1;
 
 @end
 

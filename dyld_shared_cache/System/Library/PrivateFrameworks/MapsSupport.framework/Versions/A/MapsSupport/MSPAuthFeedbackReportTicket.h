@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)RawValue;
 
 @end
 

@@ -10,11 +10,6 @@
 @interface PKMetalPaintRenderCacheBuffer
 {
     PKMetalBuffer *_pkUniformsBuffer;
-    PKMetalBuffer *_pkStrokePointBuffer;
-    unsigned long long _uniformsBufferOffset;
-    unsigned long long _strokePointBufferOffset;
-    unsigned long long _numVertices;
-    unsigned long long _numPoints;
 }
 
 - (unsigned long long);
@@ -29,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numPoints; // @synthesize numPoints=_numPoints;
-@property(readonly, nonatomic) unsigned long long numVertices; // @synthesize numVertices=_numVertices;
-@property(readonly, nonatomic) id <MTLBuffer> strokePointBuffer;
-@property(readonly, nonatomic) unsigned long long strokePointBufferOffset; // @synthesize strokePointBufferOffset=_strokePointBufferOffset;
 @property(readonly, nonatomic) id <MTLBuffer> uniformsBuffer;
-@property(readonly, nonatomic) unsigned long long uniformsBufferOffset; // @synthesize uniformsBufferOffset=_uniformsBufferOffset;
 
 @end
 

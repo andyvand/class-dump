@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorNicknameInformation
 {
@@ -12,31 +12,21 @@
 }
 
 - (_Bool);
-- (id);
+- (id)!;
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setRevealed:animated:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)V;
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *avatarRecipeDataTag;
-@property(nonatomic, readonly) NSData *decryptionKey;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_updateInfoIncluded;
-@property(nonatomic, readonly) _Bool includesWallpaperData;
-@property(nonatomic, readonly) NSData *lowResWallpaperTag;
-@property(nonatomic, readonly) NSString *messageType;
-@property(nonatomic, readonly) NSString *recordKey;
-@property(nonatomic, readonly) long long updateInfoIncluded;
-@property(nonatomic, readonly) NSData *wallpaperMetadataTag;
-@property(nonatomic, readonly) NSData *wallpaperTag;
 
 @end
 

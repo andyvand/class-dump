@@ -5,7 +5,8 @@
 //
 
 @protocol PLChooserKeyProperties
-- (id)anceAfter: /* Error: Ran out of types for this method. */;
+- (id)_shouldQuitLowSpaceModeForMode: /* Error: Ran out of types for this method. */;
+- (id)setRequestedTimeToleranceAfter: /* Error: Ran out of types for this method. */;
 - (id)Repairing Legacy Migration with Duplicate Versions and missing Cloud Resources...;
 @end
 

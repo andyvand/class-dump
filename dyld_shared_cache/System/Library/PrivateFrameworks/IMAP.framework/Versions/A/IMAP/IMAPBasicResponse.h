@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMAPBasicResponse : IMAPResponse
 {
     NSData *_userData;
-    long long _responseCode;
-    id _responseInfo;
 }
 
 - (_Bool);
@@ -23,18 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e;
 - (void);
 - (long long)PCùÑo°1Â0@ù
 × ;
-- (void)WithAccount:(long long)arg1 taskManager: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:(long long)arg1 taskManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool descriptionIncludesUserString;
-@property(nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(retain, nonatomic) id responseInfo; // @synthesize responseInfo=_responseInfo;
-@property(copy, nonatomic) NSData *userData;
-@property(readonly, copy, nonatomic) NSString *userString;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FCContentContext, FCContentVariantProviding;
+@protocol FCContentContext;
 
 @interface FCNotificationPoolService
 {
     id <FCContentContext> _context;
-    id <FCContentVariantProviding> _contentVariantProvider;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void)dRecords<NTPBArticleRecord *> *__strong, NSDictionary<NSString *,id<FCChannelProviding>> *__strong, BOOL, NSDictionary<NSString *,FCIssue *> *__strong, FCHeadlineExperimentalTitleProvider *__strong);
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCContentVariantProviding> contentVariantProvider; // @synthesize contentVariantProvider=_contentVariantProvider;
 @property(readonly, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, SUCoreFSM, SUCoreLog, SUCoreMSU, SUCoreMobileAsset, SUCoreScan, SUCoreUpdate, SUMacControllerClient, SUMacControllerScanManager;
-@protocol OS_dispatch_queue;
+@class SUCoreLog;
 
 @interface SUMacControllerSplatRollbackManager
 {
     SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    SUCoreFSM *_stateMachine;
-    SUMacControllerScanManager *_scanManager;
-    NSMutableArray *_currentRequests;
-    NSString *_rollbackUUID;
-    SUCoreMSU *_coreMSU;
-    SUCoreScan *_coreScanner;
-    SUCoreMobileAsset *_coreMobileAsset;
-    SUCoreUpdate *_coreUpdate;
-    SUMacControllerClient *_macScanClient;
 }
 
 + (id);
@@ -63,29 +52,12 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (id)llerSetup;
-- (id)cControllerOverridesPerformPreflightEncryptedCheckKey;
+- (void)H$;
+- (id)SUMacControllerResponseWaitForControllerSetup;
+- (id)SUMacControllerOverridesPerformPreflightEncryptedCheckKey;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain, nonatomic) SUCoreMSU *coreMSU; // @synthesize coreMSU=_coreMSU;
-@property(retain, nonatomic) SUCoreMobileAsset *coreMobileAsset; // @synthesize coreMobileAsset=_coreMobileAsset;
-@property(retain, nonatomic) SUCoreScan *coreScanner; // @synthesize coreScanner=_coreScanner;
-@property(retain, nonatomic) SUCoreUpdate *coreUpdate; // @synthesize coreUpdate=_coreUpdate;
-@property(retain, nonatomic) NSMutableArray *currentRequests; // @synthesize currentRequests=_currentRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) SUMacControllerClient *macScanClient; // @synthesize macScanClient=_macScanClient;
-@property(retain, nonatomic) NSString *rollbackUUID; // @synthesize rollbackUUID=_rollbackUUID;
-@property(readonly, retain, nonatomic) SUMacControllerScanManager *scanManager; // @synthesize scanManager=_scanManager;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

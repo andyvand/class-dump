@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)didReceiveValidMerchantSession;
 - (id);
 - (void);
 

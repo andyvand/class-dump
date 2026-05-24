@@ -10,20 +10,20 @@
 }
 
 + (id);
++ (id)g;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)<;
++ (id)ata;;
++ (id)EXISTS cfurl_cache_receiver_data;;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id)s§,ÆI;
 - (struct _NSRange);
-- (struct _NSRange);
-- (id);
-- (id);
+- (struct _NSRange)j;
+- (id)u:(const struct _NSRange *)arg1 [%d] %s;
+- (id)icate is missing;
 - (unsigned long long);
 - (struct _NSRange);
 - (void);
@@ -31,11 +31,11 @@
 - (void);
 - (id);
 - (id);
-- (id)FocusState:(struct _NSZone *)arg1;
+- (id)_shouldHideTimelineForWindowFocusState:(struct _NSZone *)arg1;
 - (id);
 - (struct _NSRange);
 - (unsigned long long)o create interface.;
-- (_Bool)ubstitution:(id)arg1;
+- (_Bool)insertSingleQuoteIgnoringSubstitution:(id)arg1;
 - (id)ndOfClass:(const id *)arg1 NSMenuItem.class];
 
 @end

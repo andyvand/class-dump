@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteHomeMessagingManager
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_homeUUIDToHandlerMap;
 }
 
 + (id)[B;
-- (id);
-- (void);
+- (id)created_timestamp;
+- (void)te %f;
 - (id);
 - (_Bool)1Â0@ù
 × ;
-- (void)ecureTriggerUserResponseTimeoutInSeconds;
+- (void)SecureTriggerUserResponseTimeoutInSeconds;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMapTable *homeUUIDToHandlerMap; // @synthesize homeUUIDToHandlerMap=_homeUUIDToHandlerMap;
-@property(readonly) Class superclass;
 
 @end
 

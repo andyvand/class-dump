@@ -9,21 +9,9 @@
 @interface SAMicrostackshotStatistics
 {
     SAMSTypeStats *_total;
-    SAMSTypeStats *_interrupt;
-    SAMSTypeStats *_timer;
-    SAMSTypeStats *_io;
-    SAMSTypeStats *_pmi;
-    SAMSTypeStats *_macf;
-    SAMSTypeStats *_vm_fault;
-    SAMSTypeStats *_page_grab;
-    SAMSTypeStats *_unknown_type;
-    unsigned long long _bytes_not_microstackshots;
-    unsigned long long _bytes_other_data;
-    unsigned long long _num_microstackshots_filtered_out;
-    unsigned long long _bytes_microstackshots_filtered_out;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -32,32 +20,20 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id).;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ش;
 - (id);
 - (id);
-- (id);
+- (id)ectionStartTime;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long bytes_microstackshots_filtered_out; // @synthesize bytes_microstackshots_filtered_out=_bytes_microstackshots_filtered_out;
-@property unsigned long long bytes_not_microstackshots; // @synthesize bytes_not_microstackshots=_bytes_not_microstackshots;
-@property unsigned long long bytes_other_data; // @synthesize bytes_other_data=_bytes_other_data;
-@property(readonly) SAMSTypeStats *interrupt; // @synthesize interrupt=_interrupt;
-@property(readonly) SAMSTypeStats *io; // @synthesize io=_io;
-@property(readonly) SAMSTypeStats *macf; // @synthesize macf=_macf;
-@property unsigned long long num_microstackshots_filtered_out; // @synthesize num_microstackshots_filtered_out=_num_microstackshots_filtered_out;
-@property(readonly) SAMSTypeStats *page_grab; // @synthesize page_grab=_page_grab;
-@property(readonly) SAMSTypeStats *pmi; // @synthesize pmi=_pmi;
-@property(readonly) SAMSTypeStats *timer; // @synthesize timer=_timer;
 @property(readonly) SAMSTypeStats *total; // @synthesize total=_total;
-@property(readonly) SAMSTypeStats *unknown_type; // @synthesize unknown_type=_unknown_type;
-@property(readonly) SAMSTypeStats *vm_fault; // @synthesize vm_fault=_vm_fault;
 
 @end
 

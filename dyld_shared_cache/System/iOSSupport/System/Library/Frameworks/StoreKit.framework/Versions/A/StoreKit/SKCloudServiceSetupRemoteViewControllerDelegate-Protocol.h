@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SKCloudServiceSetupRemoteViewController;
+
 @protocol SKCloudServiceSetupRemoteViewControllerDelegate
+- (void);
+- (void)ush_subscription SET download_attempts = download_attempts + 1, modified_at = ;
+- (void)umber is:(SKCloudServiceSetupRemoteViewController *)arg1;
+- (void)t with error:(SKCloudServiceSetupRemoteViewController *)arg1;
+- (void)nts=;
+- (void)ock_gettime(CLOCK_MONOTONIC_RAW) failed:(SKCloudServiceSetupRemoteViewController *)arg1;
 @end
 

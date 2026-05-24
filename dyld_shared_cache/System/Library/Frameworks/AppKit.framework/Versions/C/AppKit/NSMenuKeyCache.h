@@ -8,46 +8,38 @@ __attribute__((visibility("hidden")))
 @interface NSMenuKeyCache
 {
     id $__lazy_storage_$_cache;
-    id validCaches;
-    _Bool isCommandKeyCacheDisabled;
-    unsigned int minimumModifierCache;
-    long long keyMatchingLevel;
 }
 
-+ (_Bool);
-+ (void);
-+ (void);
++ (_Bool)48@0:8{?=ddIIIB}16 /* Error: Ran out of types for this method. */;
++ (void)_statusCodes;
++ (void)@;
 + (id)å+H;
+- (void)liningLowWatermark"i"fHTTPPriorityNumLevels"i"fHTTPNumFastLanes"i"fHTTPMinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (void)__allowsExpensiveNetworkAccess;
+- (void)bytesPerSecondLimitValue;
+- (void)SMessageTimeout;
+- (void)TLSMinimumSupportedProtocolVersion;
+- (void)ock_invoke;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
+- (unsigned int)ponse_status=%ld, cache_hit=%{bool}d};
+- (void)ewBodyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
+- (void)r:from:)`, or supply the body stream through the `urlSession(_:needNewBodyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)_customReadBufferTimeout;
+- (void)_reportsDataStalls;
+- (void)ponse];
+- (_Bool)ge space %@;
+- (void)pple.CFNetwork.ForceIOPath;
 - (id);
 - (void)0ÑE;
 
 // Remaining properties
 @property(nonatomic) _Bool isCommandKeyCacheDisabled; // @synthesize isCommandKeyCacheDisabled;
-@property(nonatomic, readonly) _Bool isCommandKeyCacheValid;
-@property(nonatomic, readonly) _Bool isModifierCacheValid;
-@property(nonatomic) long long keyMatchingLevel; // @synthesize keyMatchingLevel;
-@property(nonatomic) unsigned int minimumModifierCache; // @synthesize minimumModifierCache;
 
 @end
 

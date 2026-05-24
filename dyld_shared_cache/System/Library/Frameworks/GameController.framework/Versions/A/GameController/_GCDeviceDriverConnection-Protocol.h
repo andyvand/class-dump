@@ -5,6 +5,9 @@
 //
 
 @protocol _GCDeviceDriverConnection
+- (id)Ia;
+- (void);
+- (void)SignInCacheLoginResponse;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInvalid) _Bool invalid;

@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_912cb5d2)apClearFilter;
+- (CDStruct_912cb5d2)NUGainMapClearFilter;
 
 @end
 

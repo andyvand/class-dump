@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface UISApplicationInitializationContextParameters
 {
     unsigned long long _supportedInterfaceOrientations;
-    NSArray *_deviceFamilies;
-    _Bool _requiresFullScreen;
-    _Bool _supportsMultiwindow;
-    unsigned int _initialCGDirectDisplayID;
-    struct CGSize _usableDisplaySizeHint;
-    _Bool _preferSmallerDisplaySize;
-    _Bool _useTrueDisplaySize;
 }
 
 - (_Bool);
@@ -27,34 +18,20 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (void);
+- (void)_responseData;
 - (id);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *deviceFamilies; // @synthesize deviceFamilies=_deviceFamilies;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int initialCGDirectDisplayID; // @synthesize initialCGDirectDisplayID=_initialCGDirectDisplayID;
-@property(nonatomic) _Bool preferSmallerDisplaySize; // @synthesize preferSmallerDisplaySize=_preferSmallerDisplaySize;
-@property(nonatomic) _Bool requiresFullScreen; // @synthesize requiresFullScreen=_requiresFullScreen;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;
-@property(nonatomic) _Bool supportsMultiwindow; // @synthesize supportsMultiwindow=_supportsMultiwindow;
-@property(nonatomic) struct CGSize usableDisplaySizeHint; // @synthesize usableDisplaySizeHint=_usableDisplaySizeHint;
-@property(nonatomic) _Bool useTrueDisplaySize; // @synthesize useTrueDisplaySize=_useTrueDisplaySize;
 
 @end
 

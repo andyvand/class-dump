@@ -29,8 +29,8 @@ struct AnalyzedImageColors {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct ITColor {
@@ -52,36 +52,12 @@ struct _MSVSignedRange {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
-
-struct internal_state;
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
-};
-
-struct z_stream_s {
-    char *_field1;
-    unsigned int _field2;
-    unsigned long long _field3;
-    char *_field4;
-    unsigned int _field5;
-    unsigned long long _field6;
-    char *_field7;
-    struct internal_state *_field8;
-    CDUnknownFunctionPointerType _field9;
-    CDUnknownFunctionPointerType _field10;
-    void *_field11;
-    int _field12;
-    unsigned long long _field13;
-    unsigned long long _field14;
 };
 
 #pragma mark Typedef'd Structures

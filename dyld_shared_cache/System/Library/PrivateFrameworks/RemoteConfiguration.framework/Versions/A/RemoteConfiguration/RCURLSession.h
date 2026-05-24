@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RCUnfairLock;
+@class NSMutableDictionary;
 
 @interface RCURLSession
 {
     NSMutableDictionary *_backgroundSessions;
-    RCUnfairLock *_backgroundSessionsLock;
 }
 
-+ (id);
++ (id);
 + (void);
 + (id);
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *backgroundSessions; // @synthesize backgroundSessions=_backgroundSessions;
-@property(retain, nonatomic) RCUnfairLock *backgroundSessionsLock; // @synthesize backgroundSessionsLock=_backgroundSessionsLock;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AAFAnalyticsTransport
+- (oneway void)_whiteBalanceGainsQueue;
 @end
 

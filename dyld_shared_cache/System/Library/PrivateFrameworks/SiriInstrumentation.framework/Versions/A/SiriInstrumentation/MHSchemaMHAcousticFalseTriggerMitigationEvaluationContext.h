@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAcousticFalseTriggerMitigationFailed, MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated, MHSchemaMHAcousticFalseTriggerMitigationStarted, NSData;
+@class MHSchemaMHAcousticFalseTriggerMitigationStarted;
 
 @interface MHSchemaMHAcousticFalseTriggerMitigationEvaluationContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAcousticFalseTriggerMitigationStarted *_startedOrChanged;
-    MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated *_scoreGenerated;
-    MHSchemaMHAcousticFalseTriggerMitigationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasScoreGenerated;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,15 +26,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)$;
+- (void)ssl-2.2/crypto/asn1/a_gentm.c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id)
 × ;
@@ -49,14 +43,7 @@
 - (void)cÑ!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAcousticFalseTriggerMitigationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasScoreGenerated; // @synthesize hasScoreGenerated=_hasScoreGenerated;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated *scoreGenerated; // @synthesize scoreGenerated=_scoreGenerated;
 @property(retain, nonatomic) MHSchemaMHAcousticFalseTriggerMitigationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

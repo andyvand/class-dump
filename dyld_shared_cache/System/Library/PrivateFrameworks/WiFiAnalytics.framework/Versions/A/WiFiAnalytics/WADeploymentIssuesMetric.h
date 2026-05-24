@@ -9,10 +9,6 @@
 @interface WADeploymentIssuesMetric
 {
     unsigned long long _eligibleNetworkCount;
-    unsigned long long _ineligibleNetworkCount;
-    unsigned long long _secondsSinceLastRun;
-    NSCountedSet *_issues;
-    NSCountedSet *_networks;
 }
 
 - (void);
@@ -32,17 +28,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)soundMeanCurrentWindow;
 - (void);
 - (void)lic}s:(id)arg1:%d:[WAUtil getCopyOfMessage:withNumericalValuesSubstractedByValuesInMessage:given two different messages(message 1 key:%@ vs message 2 key:%@), won't attempt to delta. Returning nil! /* Error: Ran out of types for this method. */;
 - (id)2;
 
 // Remaining properties
-@property(nonatomic) unsigned long long eligibleNetworkCount; // @synthesize eligibleNetworkCount=_eligibleNetworkCount;
-@property(nonatomic) unsigned long long ineligibleNetworkCount; // @synthesize ineligibleNetworkCount=_ineligibleNetworkCount;
 @property(retain, nonatomic) NSCountedSet *issues; // @synthesize issues=_issues;
-@property(retain, nonatomic) NSCountedSet *networks; // @synthesize networks=_networks;
-@property(nonatomic) unsigned long long secondsSinceLastRun; // @synthesize secondsSinceLastRun=_secondsSinceLastRun;
 
 @end
 

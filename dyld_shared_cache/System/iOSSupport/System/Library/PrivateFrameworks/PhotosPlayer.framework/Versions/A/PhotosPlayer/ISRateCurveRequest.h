@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAVPlayer;
-
 __attribute__((visibility("hidden")))
 @interface ISRateCurveRequest
 {
     double _startTime;
-    CDStruct_1b6d18a9 _startVideoTime;
-    _Bool _cancelled;
-    id _boundaryObserver;
-    double _stepInterval;
-    long long _stepIndex;
-    float _initialRate;
-    double _duration;
-    ISAVPlayer *_avPlayer;
-    CDUnknownBlockType _progressHandler;
-    CDStruct_1b6d18a9 _targetTime;
 }
 
-- (float);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (float)_currentOriginFrame;
+- (id)_contentOverlayTopOffset;
+- (void)_accessibilityLineRangeForPosition: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityLineEndPosition;
+- (void)n;
+- (id);
+- (void)!;
 - (double);
 - (void);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)^{CGColorSpace=}44;
 - (void);
 - (CDUnknownBlockType)× ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak ISAVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) float initialRate; // @synthesize initialRate=_initialRate;
-@property(readonly, copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 targetTime; // @synthesize targetTime=_targetTime;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol _UIViewServiceImplicitAnimationDecodingProxy_EncodingProxyInterface
+
+@optional
+- (void);
 @end
 

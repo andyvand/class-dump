@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, WBSHistoryService;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 @interface WBSHistoryConnectionProxy
 {
     NSXPCConnection *_connection;
-    WBSHistoryService *_inProcessFallbackService;
-    NSObject<OS_dispatch_queue> *_connectionProxyQueue;
 }
 
 - (void);
@@ -34,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarNotification, NSString;
+@class NSString;
 
 @interface CALNSharedCalendarInvitationNotificationInfo
 {
     _Bool _isDelegate;
-    NSString *_sourceClientIdentifier;
-    EKCalendarNotification *_calendarNotification;
-    NSString *_sourceTitle;
-    NSString *_sourceIdentifier;
 }
 
 - (id);
@@ -22,14 +18,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendarNotification *calendarNotification; // @synthesize calendarNotification=_calendarNotification;
-@property(readonly, nonatomic) _Bool isDelegate; // @synthesize isDelegate=_isDelegate;
 @property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceTitle; // @synthesize sourceTitle=_sourceTitle;
 
 @end
 

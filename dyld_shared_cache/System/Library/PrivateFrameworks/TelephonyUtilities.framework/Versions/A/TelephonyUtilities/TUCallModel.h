@@ -7,12 +7,6 @@
 @interface TUCallModel
 {
     _Bool _supportsHolding;
-    _Bool _supportsGrouping;
-    _Bool _supportsUngrouping;
-    _Bool _supportsDTMF;
-    _Bool _supportsUnambiguousMultiPartyState;
-    _Bool _supportsAddCall;
-    _Bool _supportsSendingToVoicemail;
 }
 
 + (_Bool);
@@ -30,7 +24,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -38,13 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool supportsAddCall; // @synthesize supportsAddCall=_supportsAddCall;
-@property(nonatomic) _Bool supportsDTMF; // @synthesize supportsDTMF=_supportsDTMF;
-@property(nonatomic) _Bool supportsGrouping; // @synthesize supportsGrouping=_supportsGrouping;
 @property(nonatomic) _Bool supportsHolding; // @synthesize supportsHolding=_supportsHolding;
-@property(nonatomic) _Bool supportsSendingToVoicemail; // @synthesize supportsSendingToVoicemail=_supportsSendingToVoicemail;
-@property(nonatomic) _Bool supportsUnambiguousMultiPartyState; // @synthesize supportsUnambiguousMultiPartyState=_supportsUnambiguousMultiPartyState;
-@property(nonatomic) _Bool supportsUngrouping; // @synthesize supportsUngrouping=_supportsUngrouping;
 
 @end
 

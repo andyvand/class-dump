@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMChatInfo
 {
     _Bool _downloadingPendingSatelliteMessages;
-    _Bool _hasCancellableScheduledMessage;
-    NSString *_chatIdentifier;
-    NSString *_lastAddressedLocalHandle;
-    NSString *_lastAddressedSIMID;
-    unsigned long long _unreadMessageCount;
-    unsigned long long _pendingIncomingSatelliteMessageCount;
-    long long _isFiltered;
-    NSDictionary *_transcriptBackgroundDetails;
-    NSString *_transcriptBackgroundChannelTransferGUID;
-    NSDictionary *_pendingGroupModification;
 }
 
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)!;
+- (id);
+- (id)0;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -40,26 +30,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
-- (id);
+- (id)estStorageSpace response for frame %llu, quota %llu;
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(nonatomic) _Bool downloadingPendingSatelliteMessages; // @synthesize downloadingPendingSatelliteMessages=_downloadingPendingSatelliteMessages;
-@property(nonatomic) _Bool hasCancellableScheduledMessage; // @synthesize hasCancellableScheduledMessage=_hasCancellableScheduledMessage;
-@property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
-@property(retain, nonatomic) NSString *lastAddressedLocalHandle; // @synthesize lastAddressedLocalHandle=_lastAddressedLocalHandle;
-@property(retain, nonatomic) NSString *lastAddressedSIMID; // @synthesize lastAddressedSIMID=_lastAddressedSIMID;
-@property(retain, nonatomic) NSDictionary *pendingGroupModification; // @synthesize pendingGroupModification=_pendingGroupModification;
-@property(nonatomic) unsigned long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
-@property(retain, nonatomic) NSString *transcriptBackgroundChannelTransferGUID; // @synthesize transcriptBackgroundChannelTransferGUID=_transcriptBackgroundChannelTransferGUID;
-@property(retain, nonatomic) NSDictionary *transcriptBackgroundDetails; // @synthesize transcriptBackgroundDetails=_transcriptBackgroundDetails;
-@property(nonatomic) unsigned long long unreadMessageCount; // @synthesize unreadMessageCount=_unreadMessageCount;
 
 @end
 

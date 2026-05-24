@@ -21,10 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)restrictive;
 - (id);
 - (id);
-- (id)nDuetDataSource;
+- (id)HMUserActionPredictionDuetDataSource;
 - (void)ôÀÜ¼	;
 
 // Remaining properties

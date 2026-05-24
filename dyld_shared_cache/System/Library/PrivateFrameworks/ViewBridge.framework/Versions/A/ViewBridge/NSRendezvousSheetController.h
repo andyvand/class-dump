@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) NSString *parentIdentifier;

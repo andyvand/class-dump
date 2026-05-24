@@ -9,7 +9,6 @@
 @interface PKMathRecognitionError
 {
     NSString *_errorString;
-    NSString *_errorReasonString;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *errorReasonString; // @synthesize errorReasonString=_errorReasonString;
 @property(copy, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
 
 @end

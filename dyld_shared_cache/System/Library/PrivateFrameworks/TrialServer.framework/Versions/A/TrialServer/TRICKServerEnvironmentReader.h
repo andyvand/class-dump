@@ -10,7 +10,7 @@
 
 + (long long);
 + (int);
-+ (long long);
++ (long long);
 + (int);
 
 @end

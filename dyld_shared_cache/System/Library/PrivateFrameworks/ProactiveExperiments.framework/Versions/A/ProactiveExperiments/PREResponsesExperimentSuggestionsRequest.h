@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface PREResponsesExperimentSuggestionsRequest
 {
     _Bool _includesDynamicSuggestions;
-    NSArray *_receivedMessages;
-    NSArray *_senderMessages;
-    NSArray *_recipients;
-    NSString *_context;
-    NSString *_languageCode;
-    NSDate *_languageLastChangedDate;
-    NSDate *_requestDate;
 }
 
 + (_Bool);
@@ -23,11 +16,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)webExtensionController:(id)arg1 sendMessage:toApplicationWithIdentifier:forExtensionContext:replyHandler: /* Error: Ran out of types for this method. */;
+- (void)unsubscribeFromPushServiceForScope:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)typingAttributesWithCompletionHandler:(_Bool)arg1;
+- (id):FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::String>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::String>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::String>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)|�;
 - (id);
 - (id);
 - (unsigned long long);
@@ -35,22 +28,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
-@property(nonatomic) _Bool includesDynamicSuggestions; // @synthesize includesDynamicSuggestions=_includesDynamicSuggestions;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain, nonatomic) NSDate *languageLastChangedDate; // @synthesize languageLastChangedDate=_languageLastChangedDate;
 @property(readonly, copy, nonatomic) NSArray *receivedMessages; // @synthesize receivedMessages=_receivedMessages;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(copy, nonatomic) NSArray *senderMessages; // @synthesize senderMessages=_senderMessages;
 
 @end
 

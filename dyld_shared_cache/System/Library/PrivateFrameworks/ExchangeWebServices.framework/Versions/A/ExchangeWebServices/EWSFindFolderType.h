@@ -6,15 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSBasePagingType, EWSFolderResponseShapeType, EWSRestrictionType, NSArray;
+@class EWSFolderResponseShapeType;
 
 @interface EWSFindFolderType : EWSBaseRequestType
 {
     EWSFolderResponseShapeType *_FolderShape;
-    EWSBasePagingType *_Paging;
-    EWSRestrictionType *_Restriction;
-    NSArray *_ParentFolderIds;
-    long long _Traversal;
 }
 
 + (id);
@@ -27,15 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)eaveRefreshStorage>",R,N,V_storage;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSFolderResponseShapeType *FolderShape; // @synthesize FolderShape=_FolderShape;
-@property(retain, nonatomic) EWSBasePagingType *Paging; // @synthesize Paging=_Paging;
-@property(copy, nonatomic) NSArray *ParentFolderIds; // @synthesize ParentFolderIds=_ParentFolderIds;
-@property(retain, nonatomic) EWSRestrictionType *Restriction; // @synthesize Restriction=_Restriction;
-@property(nonatomic) long long Traversal; // @synthesize Traversal=_Traversal;
 
 @end
 

@@ -6,18 +6,15 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageDestination.h>
 
-@class HMDAccountHandle, NSDictionary;
+@class HMDAccountHandle;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteAccountMessageDestination : HMDRemoteMessageDestination
 {
     _Bool _multicast;
-    _Bool _restrictToResidentCapable;
-    HMDAccountHandle *_handle;
-    NSDictionary *_deviceCapabilities;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (_Bool);
@@ -28,20 +25,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)áã!0Bùq1Â0@ù
 × ;
-- (id)tart;
+- (id)_executionStart;
 - (id)to check whether CloudKit is reachable or not... End;
 - (id)failed to read constraint from accessory:(id)arg1 %@;
 - (_Bool)ved notification;
 - (id)@;
-- (id)ion;
+- (id)HMDFetchedAccessorySettingsControllerSettingsUpdateNotification;
 - (id)tore;
 - (void)8Q16^B24;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *deviceCapabilities; // @synthesize deviceCapabilities=_deviceCapabilities;
 @property(readonly, copy) HMDAccountHandle *handle; // @synthesize handle=_handle;
-@property(readonly, getter=isMulticast) _Bool multicast; // @synthesize multicast=_multicast;
-@property _Bool restrictToResidentCapable; // @synthesize restrictToResidentCapable=_restrictToResidentCapable;
 
 @end
 

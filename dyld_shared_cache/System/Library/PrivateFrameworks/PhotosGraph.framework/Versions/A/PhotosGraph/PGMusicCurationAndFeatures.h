@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGFlexMusicCuration, PGMusicCuration, PGMusicCurationFeatures;
+@class PGMusicCuration;
 
 @interface PGMusicCurationAndFeatures
 {
     PGMusicCuration *_appleMusicCuration;
-    PGFlexMusicCuration *_flexMusicCuration;
-    PGMusicCurationFeatures *_features;
 }
 
+- (id)me:(id)arg1;
+- (id)_shouldDescribeEmptyElementWithRoleDescription;
+- (id)V_contentTitle;
+- (id)yT4;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)Club;
 
 // Remaining properties
 @property(readonly) PGMusicCuration *appleMusicCuration; // @synthesize appleMusicCuration=_appleMusicCuration;
-@property(readonly) PGMusicCurationFeatures *features; // @synthesize features=_features;
-@property(readonly) PGFlexMusicCuration *flexMusicCuration; // @synthesize flexMusicCuration=_flexMusicCuration;
 
 @end
 

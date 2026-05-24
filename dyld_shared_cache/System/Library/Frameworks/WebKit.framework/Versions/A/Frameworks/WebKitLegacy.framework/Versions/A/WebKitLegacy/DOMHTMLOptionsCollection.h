@@ -11,17 +11,16 @@
 }
 
 - (id);
-- (id);
+- (id)dBC;
 - (void);
-- (void);
+- (void)blic}@:[%{public}@] Attempting to add a property with non-NSString key:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)setOverriddenPort:(unsigned int)arg1;
+- (void)charge_duration_var_at_charge_start_secs_curr_dynamic_bin_2;
 
 // Remaining properties
-@property unsigned int length;
 @property int selectedIndex;
 
 @end

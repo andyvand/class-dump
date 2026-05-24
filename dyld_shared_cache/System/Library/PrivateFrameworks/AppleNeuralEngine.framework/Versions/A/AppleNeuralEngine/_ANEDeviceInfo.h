@@ -10,10 +10,10 @@
 
 + (_Bool);
 + (id);
++ (_Bool)buyAddOn;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)/;
 + (_Bool);
 + (id);
 + (unsigned int);
@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (unsigned int);
-+ (_Bool)dateNetworkCreateMLIR:validation_params: /* Error: Ran out of types for this method. */;
++ (_Bool)validateNetworkCreateMLIR:validation_params: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

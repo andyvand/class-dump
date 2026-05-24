@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDClientMetadata, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABAssignmentRequest
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDClientMetadata *_clientMetadata;
-    NSString *_guid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestType;
-    struct {
-        unsigned int has_requestType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientMetadata:1;
-        unsigned int read_guid:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ceSettings:(id)arg1;
-- (void);
++ (_Bool)setHasMapSettingsCyclingVoiceSettings:(id)arg1;
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)_handleClientMessage:(id)arg1 client: /* Error: Ran out of types for this method. */;
+- (id)S7	;
 - (void);
 - (void);
 - (id);
@@ -43,8 +29,8 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)dServicesForPlaceData:(struct _NSZone *)arg1;
-- (_Bool)nitWithTileKey:subscriptionIdentifier: /* Error: Ran out of types for this method. */;
+- (id)linkedServicesForPlaceData:(struct _NSZone *)arg1;
+- (_Bool)initWithTileKey:subscriptionIdentifier: /* Error: Ran out of types for this method. */;
 - (id)m;
 - (id)ype is not a dictionary;
 - (void)COMPONENT_TYPE_PLACECARD_URL;
@@ -63,13 +49,7 @@
 - (void)k5F>;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDClientMetadata *clientMetadata;
-@property(retain, nonatomic) NSString *guid;
-@property(readonly, nonatomic) _Bool hasClientMetadata;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) int requestType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

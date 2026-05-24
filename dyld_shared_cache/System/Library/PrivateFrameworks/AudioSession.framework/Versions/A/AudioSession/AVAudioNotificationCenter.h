@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioNotificationCenterHandler, NSMutableSet;
-@protocol AVAudioNotificationCenterServer;
-
 @interface AVAudioNotificationCenter
 {
     struct unfair_lock _mutex;
-    id <AVAudioNotificationCenterServer> _server;
-    NSMutableSet *_propertiesOfInterest;
-    _Bool _wantsInterruptions;
-    AVAudioNotificationCenterHandler *_handler;
-    unsigned long long _delegateID;
-    int _type;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)nParameters",R,V_childSecurityAssociationParameters;
+- (void)roxyServer",C,V_SOCKSServer;
+- (void)pp;
+- (void)MCCAndMNCs;
+- (void)NENexusFlow;
+- (void)NEVPNConnectivitySessionDelegate;
+- (void)NEVPNConnectivitySession;
+- (void)NEPathControllerNetworkAgent;
+- (id)NEIKEv2EncryptedFragmentPayload;
+- (id)NEIKEv2ConfigurationAttribute;
+- (unsigned long long)NEEthernetTunnelNetworkSettings;
+- (void)NEProfileIngestionPluginDelegate;
+- (void);
 - (id);
 - (void);
+- (id);
+- (void);
 
 @end
 

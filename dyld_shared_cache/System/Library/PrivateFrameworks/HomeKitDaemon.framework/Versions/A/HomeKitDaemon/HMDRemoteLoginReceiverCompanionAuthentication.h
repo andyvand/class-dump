@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)q>C;
+- (id)service:(id)arg1 account:(id)arg2 inviteDroppedForSessionID:(id)arg3 fromID:(id)arg4 context:(id)arg5 error:(id)arg6;
+- (void);
+- (void);
+- (void)2;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)electedNotificationKey;
+- (void)HMDTargetControlServiceSelectedNotificationKey;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDRemoteLoginCompanionAuthenticationRequest *request; // @synthesize request=_request;

@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SGSeekableData
 {
     NSData *_data;
-    const void *_bytes;
-    unsigned long long _length;
-    unsigned long long _offsetInFile;
 }
 
 - (id);
 - (const void *);
-- (id);
+- (id)ITUCountryCodeForISOCountryCode:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long)Ô ;
-- (void)onSystem;
+- (void)SGTextUnderstandingObservationSystem;
 - (void)dissector:(unsigned long long)arg1 detectContacts is OFF;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long offsetInFile; // @synthesize offsetInFile=_offsetInFile;
-@property(readonly) Class superclass;
 
 @end
 

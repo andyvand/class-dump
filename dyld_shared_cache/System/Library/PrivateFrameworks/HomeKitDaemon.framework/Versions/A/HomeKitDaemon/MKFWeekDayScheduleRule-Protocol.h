@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFWeekDayScheduleRuleDatabaseID, NSDate, NSNumber;
-@protocol MKFGuest, MKFHAPAccessory, MKFInvitation;
+@class NSNumber;
 
 @protocol MKFWeekDayScheduleRule
+- (void);
+- (void);
 - (NSNumber *)
 × ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFWeekDayScheduleRuleDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *daysOfTheWeek;
-@property(copy, nonatomic) NSNumber *endTime;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(retain, nonatomic) id <MKFHAPAccessory> hapAccessory;
-@property(retain, nonatomic) id <MKFInvitation> invitation;
-@property(copy, nonatomic) NSNumber *startTime;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

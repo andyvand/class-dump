@@ -7,12 +7,6 @@
 @interface UIUpdateInfo
 {
     unsigned long long _updateNumber;
-    _Bool _immediatePresentationExpected;
-    _Bool _lowLatencyEventDispatchConfirmed;
-    _Bool _performingLowLatencyPhases;
-    double _modelTime;
-    double _completionDeadlineTime;
-    double _estimatedPresentationTime;
 }
 
 + (id);
@@ -26,12 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double completionDeadlineTime; // @synthesize completionDeadlineTime=_completionDeadlineTime;
-@property(readonly, nonatomic) double estimatedPresentationTime; // @synthesize estimatedPresentationTime=_estimatedPresentationTime;
-@property(readonly, nonatomic, getter=isImmediatePresentationExpected) _Bool immediatePresentationExpected; // @synthesize immediatePresentationExpected=_immediatePresentationExpected;
-@property(readonly, nonatomic, getter=isLowLatencyEventDispatchConfirmed) _Bool lowLatencyEventDispatchConfirmed; // @synthesize lowLatencyEventDispatchConfirmed=_lowLatencyEventDispatchConfirmed;
 @property(readonly, nonatomic) double modelTime; // @synthesize modelTime=_modelTime;
-@property(readonly, nonatomic, getter=isPerformingLowLatencyPhases) _Bool performingLowLatencyPhases; // @synthesize performingLowLatencyPhases=_performingLowLatencyPhases;
 
 @end
 

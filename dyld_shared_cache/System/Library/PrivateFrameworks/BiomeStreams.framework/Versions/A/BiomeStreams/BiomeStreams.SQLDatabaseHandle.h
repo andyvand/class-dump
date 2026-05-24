@@ -7,8 +7,6 @@
 @interface BiomeStreams.SQLDatabaseHandle
 {
     id databaseFileURL;
-    id db;
-    id assertion;
 }
 
 @end

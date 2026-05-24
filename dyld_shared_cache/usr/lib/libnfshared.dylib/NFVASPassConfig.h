@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NFVASPassConfig
 {
     long long _vasMode;
-    NSString *_passIdentifier;
 }
 
 + (id);
@@ -17,12 +14,11 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)initWithLeadingText:(id)arg1 trailingText:style:gradientColors:gradientLocations:fraction: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *passIdentifier; // @synthesize passIdentifier=_passIdentifier;
 @property(readonly, nonatomic) long long vasMode; // @synthesize vasMode=_vasMode;
 
 @end

@@ -4,85 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BTMagicPairingSettings
 {
     NSString *_bluetoothAddress;
-    NSData *_masterKey;
-    NSData *_masterHint;
-    NSData *_accessoryKey;
-    NSData *_accessoryHint;
-    NSData *_encryptionKey;
-    NSData *_irk;
-    NSData *_crownRotationDirection;
-    NSString *_name;
-    NSString *_productID;
-    NSString *_vendorID;
-    NSString *_buttonModes;
-    NSString *_color;
-    NSString *_deviceIDFeatureBitsV1;
-    NSString *_deviceIDFeatureBitsV2;
-    NSString *_listeningServices;
-    NSString *_listeningServicesV2;
-    NSString *_spatialAudio;
-    NSString *_optimizedBatteryCharging;
-    NSString *_optimizedBatteryFullChargeDeadline;
-    NSString *_ratchet;
-    NSString *_reserved;
-    NSString *_settingsMask;
-    NSString *_supportedServices;
-    NSString *_version;
 }
 
-+ (id);
++ (id)unionOrderedSet:(id)arg1;
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)writeObjects: /* Error: Ran out of types for this method. */;
+- (id)wordpressLocation;
+- (void)windowIDFromWindowInfo:(id)arg1;
+- (void)whitespaceAndNewlineCharacterSet;
+- (void)wf_unarchiveRootObjectAndFinishWithAllowedClasses:(id)arg1;
+- (void)wf_teamIdentifier;
+- (void)wf_stringWithData:(id)arg1;
+- (void)wf_stringContainsCharacterInSet:(id)arg1;
+- (void)wf_stringByReplacingNewlinesWithSpaces;
+- (void)wf_stringByReplacingCharactersInSet:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)wf_securelyArchivedDataWithRootObject:(id)arg1 deletionResponsibility: /* Error: Ran out of types for this method. */;
+- (void)wf_securelyArchivedDataWithRootObject:(id)arg1 deletionResponsibility: /* Error: Ran out of types for this method. */;
+- (id)wf_sandboxAllowsReadingFileWithAuditToken: /* Error: Ran out of types for this method. */;
+- (id)wf_sandboxAllowsReadingFile;
+- (id)wf_proposedFileIsContainedByDirectoryAtURL: /* Error: Ran out of types for this method. */;
+- (id)wf_postalAddressIdentifier;
+- (id)wf_photoLibraryFilteringPredicate;
+- (id)wf_enumerateClassMethodsWithPrefix:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)wf_durationObjectClass;
+- (id)wfSerializedRepresentationWithPrivateItemIdentifiers;
+- (id)wfIdleTimerDisabled;
+- (id)wfFileCoder;
+- (void)webView:(id)arg1 didStartProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (id)webView:didFinishNavigation: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
+- (id)Generated.cpp 274:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)߈	;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id)(;
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)initWithInternalSwiftExtensions:descriptorResolutionParameters: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -94,31 +70,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessoryHint; // @synthesize accessoryHint=_accessoryHint;
-@property(retain, nonatomic) NSData *accessoryKey; // @synthesize accessoryKey=_accessoryKey;
 @property(retain, nonatomic) NSString *bluetoothAddress; // @synthesize bluetoothAddress=_bluetoothAddress;
-@property(retain, nonatomic) NSString *buttonModes; // @synthesize buttonModes=_buttonModes;
-@property(retain, nonatomic) NSString *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSData *crownRotationDirection; // @synthesize crownRotationDirection=_crownRotationDirection;
-@property(retain, nonatomic) NSString *deviceIDFeatureBitsV1; // @synthesize deviceIDFeatureBitsV1=_deviceIDFeatureBitsV1;
-@property(retain, nonatomic) NSString *deviceIDFeatureBitsV2; // @synthesize deviceIDFeatureBitsV2=_deviceIDFeatureBitsV2;
-@property(retain, nonatomic) NSData *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property(retain, nonatomic) NSData *irk; // @synthesize irk=_irk;
-@property(retain, nonatomic) NSString *listeningServices; // @synthesize listeningServices=_listeningServices;
-@property(retain, nonatomic) NSString *listeningServicesV2; // @synthesize listeningServicesV2=_listeningServicesV2;
-@property(retain, nonatomic) NSData *masterHint; // @synthesize masterHint=_masterHint;
-@property(retain, nonatomic) NSData *masterKey; // @synthesize masterKey=_masterKey;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *optimizedBatteryCharging; // @synthesize optimizedBatteryCharging=_optimizedBatteryCharging;
-@property(retain, nonatomic) NSString *optimizedBatteryFullChargeDeadline; // @synthesize optimizedBatteryFullChargeDeadline=_optimizedBatteryFullChargeDeadline;
-@property(retain, nonatomic) NSString *productID; // @synthesize productID=_productID;
-@property(retain, nonatomic) NSString *ratchet; // @synthesize ratchet=_ratchet;
-@property(retain, nonatomic) NSString *reserved; // @synthesize reserved=_reserved;
-@property(retain, nonatomic) NSString *settingsMask; // @synthesize settingsMask=_settingsMask;
-@property(retain, nonatomic) NSString *spatialAudio; // @synthesize spatialAudio=_spatialAudio;
-@property(retain, nonatomic) NSString *supportedServices; // @synthesize supportedServices=_supportedServices;
-@property(retain, nonatomic) NSString *vendorID; // @synthesize vendorID=_vendorID;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

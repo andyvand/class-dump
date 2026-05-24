@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)lmentControllerServiceDelegate>";
 - (id);
 
 @end

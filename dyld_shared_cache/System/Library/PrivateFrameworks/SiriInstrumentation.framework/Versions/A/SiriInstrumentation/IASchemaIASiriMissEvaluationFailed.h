@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IASchemaIASiriMissEvaluationFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)cachedMapImageForLocation:altitude:pitch:width:andHeight: /* Error: Ran out of types for this method. */;
 - (id)Atð!`@ù±à1Â0@ù
 × ;
 - (id)ng",C,N,V_speechIdString;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

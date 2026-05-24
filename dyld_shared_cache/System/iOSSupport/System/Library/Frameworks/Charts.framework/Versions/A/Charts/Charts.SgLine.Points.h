@@ -7,6 +7,7 @@
 @interface Charts.SgLine.Points
 {
     id points;
+    id;
 }
 
 @end

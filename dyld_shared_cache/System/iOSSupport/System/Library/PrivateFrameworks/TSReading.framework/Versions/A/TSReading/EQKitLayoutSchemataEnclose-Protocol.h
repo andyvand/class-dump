@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataEnclose
+- (id <EQKitLayoutNode>)yback queue for SharePlay behavior [sharedListeningToken is unknown type:%@] /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface UnknownClass (HMConnectivity)
 + (id);
 + (id);
@@ -24,11 +22,10 @@
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isHMError) _Bool hmError;
-@property(readonly, copy, nonatomic) NSError *hmPublicError;
 @end
 

@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLComputePipelineReflection, MTLDebugInstrumentationData;
 @protocol MTL4BinaryFunction, MTLFunctionHandle;
 
 @protocol MTLComputePipelineStateSPI
+- (void);
+- (id <MTLFunctionHandle>)R;
+- (unsigned long long)( ;
 - (long long)dation;
 - (id <MTLFunctionHandle>)es:(id <MTL4BinaryFunction>)arg1 indexCount:indexType:indexBuffer:indexBufferLength:instanceCount:] /* Error: Ran out of types for this method. */;
-- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocatedSize;
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(nonatomic) unsigned long long globalConstantsBase;
-@property(nonatomic) unsigned long long globalConstantsSize;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
 @property(readonly) long long textureWriteRoundingMode;
-@property(readonly) unsigned long long uniqueIdentifier;
 @end
 

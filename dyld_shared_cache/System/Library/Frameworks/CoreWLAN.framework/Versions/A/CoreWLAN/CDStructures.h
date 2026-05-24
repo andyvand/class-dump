@@ -13,26 +13,22 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct WiFiDeviceClientInternalCallbacks {
-    CDStruct_22da90bb powerChangedCallback;
-    CDStruct_22da90bb scanAsyncCallback;
-    CDStruct_22da90bb extendedLinkCallcback;
-    CDStruct_22da90bb deviceAvailabilityCallback;
-    CDStruct_22da90bb virtualInterfaceStateCallback;
+    CDStruct_e7388bff _field1;
+    CDStruct_e7388bff _field2;
+    CDStruct_e7388bff _field3;
+    CDStruct_e7388bff _field4;
+    CDStruct_e7388bff _field5;
 };
 
 struct WiFiManagerClientInternalCallbacks {
-    CDStruct_22da90bb deviceAttachedCallback;
-    CDStruct_22da90bb wowStateChangedCallback;
-};
-
-struct ether_addr {
-    unsigned char octet[6];
+    CDStruct_e7388bff _field1;
+    CDStruct_e7388bff _field2;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    CDUnknownFunctionPointerType callback;
-    void *refcon;
-} CDStruct_22da90bb;
+    CDUnknownFunctionPointerType _field1;
+    void *_field2;
+} CDStruct_e7388bff;
 

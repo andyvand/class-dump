@@ -9,11 +9,10 @@
 @interface WFContentLocation
 {
     NSString *_localizedTitle;
-    NSString *_identifier;
-    unsigned long long _promptingBehaviour;
 }
 
 + (id);
++ (id)q@;
 + (id);
 + (id);
 + (id);
@@ -27,8 +26,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
@@ -39,15 +37,15 @@
 + (id);
 + (id);
 + (id);
++ (id)#;
++ (id)E;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setTitleHyphenationFactor: /* Error: Ran out of types for this method. */;
 + (_Bool);
 
 @end

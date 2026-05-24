@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUIButton.h>
 
-@class NSArray, NSString, NSURL, SASTTemplateContentRating;
+@class NSString;
 
 @interface SAVCSContentButton : SAUIButton
 {
@@ -14,25 +14,21 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)l;
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (void)esult;
+- (void)intentSlotResolutionResult;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalId;
-@property(retain, nonatomic) SASTTemplateContentRating *contentRating;
-@property(copy, nonatomic) NSString *contentType;
-@property(copy, nonatomic) NSArray *togglePlayPauseCommands;
-@property(copy, nonatomic) NSURL *url;
 
 @end
 

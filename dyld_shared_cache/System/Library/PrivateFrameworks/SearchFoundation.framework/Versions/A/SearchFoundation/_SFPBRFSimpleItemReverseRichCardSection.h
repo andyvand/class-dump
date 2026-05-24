@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSimpleItemReverseRichCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,35 +22,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)R%;
+- (id)VNSession;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)removeBlackBarsFromExifThumbnail:(id)arg1 fullSize: /* Error: Ran out of types for this method. */;
+- (id)le to write retry creation request data to path %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

@@ -6,23 +6,19 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class AKSignature, NSColor, NSString;
+@class AKSignature;
 
 @interface AKSignatureAnnotation : AKAnnotation
 {
     AKSignature *_signature;
-    NSColor *_strokeColorHDR;
-    NSColor *_strokeColorSDR;
-    double _rotationAngle;
-    struct CGRect _rectangle;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (_Bool);
 - (void);
@@ -31,35 +27,23 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)tmost window to the Dock.;
+- (void)r decoding accessoryAccessCodeValue:(struct CGPoint)arg1 %@, updatedAccessCodeValue:%@, /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGRect);
 - (void);
 - (double);
-- (id);
-- (id);
-- (void);
+- (id)@;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
+- (id);
+- (void)8;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(retain) AKSignature *signature; // @synthesize signature=_signature;
-@property(copy) NSColor *strokeColor;
-@property(retain) NSColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) NSColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
-@property(readonly) Class superclass;
 
 @end
 

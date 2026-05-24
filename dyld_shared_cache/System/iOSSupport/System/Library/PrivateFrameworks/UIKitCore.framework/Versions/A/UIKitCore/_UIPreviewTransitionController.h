@@ -6,21 +6,15 @@
 
 #import <UIKitCore/UIPercentDrivenInteractiveTransition.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, UIInteractionProgress, _UIStatesFeedbackGenerator;
-@protocol UIViewControllerContextTransitioning;
+@class UIInteractionProgress;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewTransitionController : UIPercentDrivenInteractiveTransition
 {
     UIInteractionProgress *_interactionProgress;
-    unsigned long long _targetPresentationPhase;
-    NSDictionary *_viewsParticipatingInCommitTransition;
-    _UIStatesFeedbackGenerator *_feedbackGenerator;
-    NSMutableDictionary *_animationsByPresentationPhase;
-    id <UIViewControllerContextTransitioning> _transitionContext;
 }
 
-+ (id);
++ (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,23 +23,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)yContext"16;
+- (id)Context:storageContext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)milar message:(unsigned long long)arg1 %@;
+- (void)s accidentally.;
+- (void)%@ account:(id)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
+- (void)eInfo:(id)arg1 %@;
+- (void)ssingPipelineComponent> Unable to extract payload URL;
 - (void);
 - (double);
-- (id);
-- (void)peWithRoundedRect:(_Bool)arg1 cornerRadii:cornerCurve: /* Error: Ran out of types for this method. */;
-- (void)age:(id)arg1 forLeftSegmentState:rightSegmentState:barMetrics: /* Error: Ran out of types for this method. */;
+- (id)or was missing mapping for MPModelRelationshipSongPreviewAsset;
+- (void)shapeWithRoundedRect:(_Bool)arg1 cornerRadii:cornerCurve: /* Error: Ran out of types for this method. */;
+- (void)_setDividerImage:(id)arg1 forLeftSegmentState:rightSegmentState:barMetrics: /* Error: Ran out of types for this method. */;
 - (void)|þÿ;
 - (void);
 - (void)o unsupported type;
-- (void)cationWillChangeStatusBarFrameNotification;
+- (void)UIApplicationWillChangeStatusBarFrameNotification;
 - (void)E 23Xßmþ 23¤rþÝ23Pßmþµ23\ßmþ½23hßmþÍ23tßmþÍ23ßmþÍ23´ßmþí23Ðßmþ23Üßmþ23èßmþm23ôßmþ½23;
 - (void);
 - (void)];
@@ -54,31 +48,7 @@ __attribute__((visibility("hidden")))
 - (id)·¨`;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *animationsByPresentationPhase; // @synthesize animationsByPresentationPhase=_animationsByPresentationPhase;
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIInteractionProgress *interactionProgress; // @synthesize interactionProgress=_interactionProgress;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long targetPresentationPhase; // @synthesize targetPresentationPhase=_targetPresentationPhase;
-@property(nonatomic) __weak id <UIViewControllerContextTransitioning> transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(retain, nonatomic) NSDictionary *viewsParticipatingInCommitTransition; // @synthesize viewsParticipatingInCommitTransition=_viewsParticipatingInCommitTransition;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

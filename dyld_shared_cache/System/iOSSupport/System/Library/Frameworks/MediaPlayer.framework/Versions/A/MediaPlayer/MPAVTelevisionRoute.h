@@ -11,13 +11,12 @@
 @interface MPAVTelevisionRoute : MPAVRoute
 {
     MPAVRouteConnection *_connection;
-    void *_television;
 }
 
 - (void *);
 - (long long);
 - (id);
-- (long long);
+- (long long)_fixUpChatParticipantsIfNeeded:usingChatGUIDToChatMap: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEORPNavigationSettings
 {
     unsigned long long _distanceUnits;
-    unsigned long long _maxAlternateRouteCount;
-    NSString *_voiceLanguage;
-    unsigned long long _voiceVolume;
-    int _userPreferredTransportType;
-    _Bool _beepBeforeInstruction;
-    _Bool _muteSpeechOverride;
-    _Bool _pauseSpokenAudio;
-    _Bool _shouldUseGuidanceEventManager;
-    _Bool _speechEnabled;
-    struct {
-        unsigned int has_distanceUnits:1;
-        unsigned int has_maxAlternateRouteCount:1;
-        unsigned int has_voiceVolume:1;
-        unsigned int has_userPreferredTransportType:1;
-        unsigned int has_beepBeforeInstruction:1;
-        unsigned int has_muteSpeechOverride:1;
-        unsigned int has_pauseSpokenAudio:1;
-        unsigned int has_shouldUseGuidanceEventManager:1;
-        unsigned int has_speechEnabled:1;
-    } _flags;
 }
 
-+ (_Bool)tats:(id)arg1;
++ (_Bool)setLatencyStats:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -52,16 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)"CNResult";
+- (void)updateContact:(_Bool)arg1 byAddingPhoneNumberWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)sendDidCreatePSCWithCountOfStores:(unsigned long long)arg1 countOfAccounts: /* Error: Ran out of types for this method. */;
+- (void)keyPathsForValuesAffectingIsCompany;
+- (_Bool)CNVCardParsedResultBuilderFactory;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,38 +55,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CSVoiceTriggerRTModelRequestOptions;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)fPhotos"b1};
-- (id)oryScores;
+- (id)clearCategoryScores;
 - (id),æ;
-- (id)ACCESS_INFO;
+- (id)COMPONENT_TYPE_ROAD_ACCESS_INFO;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool beepBeforeInstruction;
-@property(nonatomic) unsigned long long distanceUnits;
-@property(nonatomic) _Bool hasBeepBeforeInstruction;
-@property(nonatomic) _Bool hasDistanceUnits;
-@property(nonatomic) _Bool hasMaxAlternateRouteCount;
-@property(nonatomic) _Bool hasMuteSpeechOverride;
-@property(nonatomic) _Bool hasPauseSpokenAudio;
-@property(nonatomic) _Bool hasShouldUseGuidanceEventManager;
-@property(nonatomic) _Bool hasSpeechEnabled;
-@property(nonatomic) _Bool hasUserPreferredTransportType;
-@property(readonly, nonatomic) _Bool hasVoiceLanguage;
 @property(nonatomic) _Bool hasVoiceVolume;
-@property(nonatomic) unsigned long long maxAlternateRouteCount;
-@property(nonatomic) _Bool muteSpeechOverride;
-@property(nonatomic) _Bool pauseSpokenAudio;
-@property(nonatomic) _Bool shouldUseGuidanceEventManager;
-@property(nonatomic) _Bool speechEnabled;
-@property(nonatomic) int userPreferredTransportType;
-@property(retain, nonatomic) NSString *voiceLanguage;
-@property(nonatomic) unsigned long long voiceVolume;
 
 @end
 

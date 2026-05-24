@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (id);
+- (id)h~;
 - (void);
-- (void);
+- (void)IS%d MT%d;
 
 // Remaining properties
 @property(retain, nonatomic) EMFollowUp *followUp; // @synthesize followUp=_followUp;

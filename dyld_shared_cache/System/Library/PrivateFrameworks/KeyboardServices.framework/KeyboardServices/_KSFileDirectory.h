@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0@"CNContactRelation"8;
 - (id);
 - (id);
 - (void);

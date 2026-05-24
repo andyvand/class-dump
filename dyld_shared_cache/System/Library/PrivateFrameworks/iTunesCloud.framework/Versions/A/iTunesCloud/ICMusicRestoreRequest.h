@@ -6,14 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICMediaRedownloadResponse, ICMusicRestoreRequestParameters, ICStoreRequestContext, ICStoreURLRequest;
+@class ICStoreRequestContext;
 
 @interface ICMusicRestoreRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    ICStoreURLRequest *_storeURLRequest;
-    ICMediaRedownloadResponse *_response;
-    ICMusicRestoreRequestParameters *_requestParameters;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void)xternalSharedListeningConnectionController;
+- (void)ICExternalSharedListeningConnectionController;
 
 @end
 

@@ -12,7 +12,7 @@
 - (id);
 - (void);
 - (void)onfiguration"56@?<v@?@"NSError">64;
-- (void)thTXTRecordData: /* Error: Ran out of types for this method. */;
+- (void)initWithTXTRecordData: /* Error: Ran out of types for this method. */;
 
 @end
 

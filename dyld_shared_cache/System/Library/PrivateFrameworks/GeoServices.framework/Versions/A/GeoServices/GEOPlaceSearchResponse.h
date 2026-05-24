@@ -4,44 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPlaceSearchResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOMapRegion *_mapRegion;
-    NSMutableArray *_namedFeatures;
-    NSString *_nearbySectionHeader;
-    NSMutableArray *_placeResults;
-    NSMutableArray *_suggestionEntryLists;
-    NSData *_suggestionMetadata;
-    double _turnaroundTime;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _statusCodeInfo;
-    int _status;
-    _Bool _isChainResultSet;
-    struct {
-        unsigned int has_turnaroundTime:1;
-        unsigned int has_statusCodeInfo:1;
-        unsigned int has_isChainResultSet:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_namedFeatures:1;
-        unsigned int read_nearbySectionHeader:1;
-        unsigned int read_placeResults:1;
-        unsigned int read_suggestionEntryLists:1;
-        unsigned int read_suggestionMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)y follow:%{public}@ /* Error: Ran out of types for this method. */;
 + (Class);
-+ (Class);
-+ (_Bool);
++ (_Bool)setIsDodgeballOutsideOfMapsEnroute:(id)arg1;
 - (double);
 - (id);
 - (unsigned long long);
@@ -53,17 +26,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setPrimitiveCreationDateYearless:(id)arg1;
+- (void)removeObserver:(id)arg1 name:object: /* Error: Ran out of types for this method. */;
+- (void)registrarWithPropertyListPersistenceAtURL:(id)arg1;
+- (void)insertContactIntoStore:(_Bool)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (void)evaluateWithObject:(_Bool)arg1;
+- (void)consolidateDuplicateContainersInContext:(_Bool)arg1 store: /* Error: Ran out of types for this method. */;
+- (void)Store",&,V_store;
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -88,20 +61,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)opportuneSpeakListenerBypassEnabled;
 - (void);
-- (void);
+- (void)_invoke_2;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)infoCardChildUnactionableUIElements;
 - (_Bool);
 - (id);
 - (void);
 - (id)wrote_anyField"b1};
-- (int)goPathForScale: /* Error: Ran out of types for this method. */;
-- (id)eWithNewSegments:range: /* Error: Ran out of types for this method. */;
+- (int)logoPathForScale: /* Error: Ran out of types for this method. */;
+- (id)_updateCacheWithNewSegments:range: /* Error: Ran out of types for this method. */;
 - (id)±x³Ø³:P´ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)onKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16Q24B32;
@@ -109,23 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsChainResultSet;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(readonly, nonatomic) _Bool hasNearbySectionHeader;
-@property(nonatomic) _Bool hasStatusCodeInfo;
-@property(readonly, nonatomic) _Bool hasSuggestionMetadata;
-@property(nonatomic) _Bool hasTurnaroundTime;
-@property(nonatomic) _Bool isChainResultSet;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(retain, nonatomic) NSMutableArray *namedFeatures;
-@property(retain, nonatomic) NSString *nearbySectionHeader;
-@property(retain, nonatomic) NSMutableArray *placeResults;
 @property(nonatomic) int status;
-@property(nonatomic) int statusCodeInfo;
-@property(retain, nonatomic) NSMutableArray *suggestionEntryLists;
-@property(retain, nonatomic) NSData *suggestionMetadata;
-@property(nonatomic) double turnaroundTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

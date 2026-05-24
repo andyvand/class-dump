@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OTApplicantToSponsorRound2M1, OTSponsorToApplicantRound1M2, OTSponsorToApplicantRound2M2, OTSupportOctagonMessage, OTSupportSOSMessage;
-
 __attribute__((visibility("hidden")))
 @interface OTPairingMessage
 {
     unsigned long long _version;
-    OTSponsorToApplicantRound1M2 *_epoch;
-    OTApplicantToSponsorRound2M1 *_prepare;
-    OTSupportOctagonMessage *_supportsOctagon;
-    OTSupportSOSMessage *_supportsSOS;
-    OTSponsorToApplicantRound2M2 *_voucher;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
 - (id);
@@ -31,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)_SecIdentity=}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -51,18 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) OTSponsorToApplicantRound1M2 *epoch; // @synthesize epoch=_epoch;
 @property(readonly, nonatomic) _Bool hasEpoch;
-@property(readonly, nonatomic) _Bool hasPrepare;
-@property(readonly, nonatomic) _Bool hasSupportsOctagon;
-@property(readonly, nonatomic) _Bool hasSupportsSOS;
-@property(nonatomic) _Bool hasVersion;
-@property(readonly, nonatomic) _Bool hasVoucher;
-@property(retain, nonatomic) OTApplicantToSponsorRound2M1 *prepare; // @synthesize prepare=_prepare;
-@property(retain, nonatomic) OTSupportOctagonMessage *supportsOctagon; // @synthesize supportsOctagon=_supportsOctagon;
-@property(retain, nonatomic) OTSupportSOSMessage *supportsSOS; // @synthesize supportsSOS=_supportsSOS;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
-@property(retain, nonatomic) OTSponsorToApplicantRound2M2 *voucher; // @synthesize voucher=_voucher;
 
 @end
 

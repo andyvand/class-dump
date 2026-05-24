@@ -11,12 +11,12 @@
     NSString *_identifier;
 }
 
-+ (id);
++ (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)u, aggregationsByDataNumber = %@ }>;
 - (id);
 - (void);
 

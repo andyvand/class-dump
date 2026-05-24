@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, PGFeature;
+@class NSDate;
 
 @interface PHAMemoryElectionTask
 {
     _Bool _userInitiated;
-    _Bool _createTransientMemories;
-    _Bool _forceNotification;
-    _Bool _featureAvailable;
-    NSDate *_universalDate;
-    CLLocation *_location;
-    unsigned long long _requestedCategory;
-    unsigned long long _requestedTriggerType;
-    PGFeature *_requestedFeature;
-    NSString *_requestedUniqueMemoryIdentifier;
-    unsigned long long _featureCode;
 }
 
 + (void);
@@ -43,15 +33,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
@@ -67,53 +57,16 @@
 - (id);
 - (id);
 - (id);
-- (void)unt: /* Error: Ran out of types for this method. */;
+- (void)addItemCount: /* Error: Ran out of types for this method. */;
 - (_Bool)for single class training.;
 - (void)eady ended;
 - (_Bool)\ºÿÿ;
 - (void);
-- (int)er;
+- (int)identifier;
 - (void)|úÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool createTransientMemories; // @synthesize createTransientMemories=_createTransientMemories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool featureAvailable; // @synthesize featureAvailable=_featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_featureAvailable
-
-@property(readonly, nonatomic) unsigned long long featureCode; // @synthesize featureCode=_featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N,V_featureCode
-
-@property(readonly, nonatomic) _Bool featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool forceNotification; // @synthesize forceNotification=_forceNotification;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
-@property(nonatomic) unsigned long long requestedCategory; // @synthesize requestedCategory=_requestedCategory;
-@property(retain, nonatomic) PGFeature *requestedFeature; // @synthesize requestedFeature=_requestedFeature;
-@property(nonatomic) unsigned long long requestedTriggerType; // @synthesize requestedTriggerType=_requestedTriggerType;
-@property(retain, nonatomic) NSString *requestedUniqueMemoryIdentifier; // @synthesize requestedUniqueMemoryIdentifier=_requestedUniqueMemoryIdentifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSDate *universalDate; // @synthesize universalDate=_universalDate;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)rXPC getAssetIDForAccessoryID:(id)arg1 ];
 
 @end
 

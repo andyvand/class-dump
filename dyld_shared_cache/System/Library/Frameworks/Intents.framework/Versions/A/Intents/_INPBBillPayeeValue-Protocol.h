@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBValueMetadata;
+@class NSString, _INPBDataString;
 
 @protocol _INPBBillPayeeValue
-- (_Bool)dTaskList;
+- (void);
+- (_Bool)c;
+- (_Bool)createdTaskList;
 - (_INPBDataString *)rikit.intent.call.AnswerCallIntent;
 - (void)ä;
-- (_INPBValueMetadata *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountNumber;
-@property(readonly, nonatomic) _Bool hasAccountNumber;
-@property(readonly, nonatomic) _Bool hasNickname;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBDataString *nickname;
-@property(retain, nonatomic) _INPBDataString *organizationName;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

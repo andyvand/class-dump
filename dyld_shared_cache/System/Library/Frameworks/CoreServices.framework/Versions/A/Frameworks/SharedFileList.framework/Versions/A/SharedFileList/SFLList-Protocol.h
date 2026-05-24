@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol SFLList
-- (unsigned long long)l_cachedResourcePropertyForKey: /* Error: Ran out of types for this method. */;
+- (NSArray *)P;
+- (unsigned long long)__sfl_cachedResourcePropertyForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long seed;
-@property(readonly, copy) NSArray *snapshotItems;
 @end
 

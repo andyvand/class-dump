@@ -6,13 +6,10 @@
 
 #import <AVFCore/AVAssetInspector.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVPlaybackItemInspector : AVAssetInspector
 {
     struct OpaqueFigPlaybackItem *_playbackItem;
-    NSArray *_trackIDs;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void *);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -30,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)zäzüzt{¬{}~;
 - (struct CGSize)%p> horizontalFieldOfView:%@, cameraSystemBaseline:%@, disparityAdjustment:%@, cameraCalibrationDataLensCollection:%@ /* Error: Ran out of types for this method. */;
-- (id)strarOperations;
+- (id)RegistrarOperations;
 - (long long);
 
 // Remaining properties

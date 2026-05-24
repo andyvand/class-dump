@@ -4,56 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOMapRegion, MSPTransitStorageAttribution, MSPTransitStorageLine, NSArray, NSMutableArray, NSString, PBUnknownFields;
-@protocol GEOEncyclopedicInfo, GEOTransitArtworkDataSource, GEOTransitAttribution, GEOTransitSystem;
+@class NSArray, PBUnknownFields;
 
 @interface MSPTransitStorageLineItem
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_incidents;
-    MSPTransitStorageLine *_line;
-    GEOMapRegion *_storedMapRegion;
-    MSPTransitStorageAttribution *_transitAttribution;
 }
 
-+ (Class);
++ (Class)id;
 - (void);
+- (void)T;
+- (_Bool);
+- (_Bool)T;
+- (id);
+- (id)chooseMessageDataToDownload;
+- (id);
+- (_Bool).;
+- (void)with nil headerData;
+- (void)ng V2 upgrade;
+- (id)WHERE uid LIKE 'temp-%';
+- (id)E;
+- (id)RL"8@"NSURL"16;
+- (_Bool)ttachments-1.0.plist;
+- (_Bool)modify display index of mailbox;
+- (unsigned long long)ing messages with last date viewed non null;
+- (id)DER BY ROWID DESC LIMIT ?;
+- (id)last_viewed NOTNULL ORDER BY ROWID DESC LIMIT ?;
+- (id)BY mailboxes.ROWID;
+- (_Bool)essage does not have an EWS item ID;
+- (_Bool)securityLayerType;
+- (_Bool)MaximumConcurrentEWSAccountRemoteTaskOperations;
+- (id)essages.rowid IN (SELECT message FROM message_references WHERE reference IN (%@)) AND messages.conversation_id != -1;
+- (_Bool)esults table;
+- (unsigned long long)ager.m;
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id);
+- (void)t;
 - (id);
 - (id);
 - (unsigned long long);
@@ -68,43 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> alternateArtwork;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
-@property(readonly, nonatomic) id <GEOTransitAttribution> attribution;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
-@property(readonly, nonatomic) _Bool departuresAreVehicleSpecific;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <GEOEncyclopedicInfo> encyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasEncyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasIncidentComponent;
-@property(readonly, nonatomic) _Bool hasLine;
-@property(readonly, nonatomic) _Bool hasLineColorString;
-@property(readonly, nonatomic) _Bool hasStoredMapRegion;
-@property(readonly, nonatomic) _Bool hasTransitAttribution;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> headerArtwork;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(retain, nonatomic) NSMutableArray *incidents; // @synthesize incidents=_incidents;
-@property(readonly, nonatomic) _Bool isBus;
-@property(readonly, nonatomic) _Bool isIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(retain, nonatomic) MSPTransitStorageLine *line; // @synthesize line=_line;
-@property(readonly, nonatomic) NSString *lineColorString;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> modeArtwork;
-@property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) _Bool showVehicleNumber;
-@property(retain, nonatomic) GEOMapRegion *storedMapRegion; // @synthesize storedMapRegion=_storedMapRegion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitSystem> system;
-@property(retain, nonatomic) MSPTransitStorageAttribution *transitAttribution; // @synthesize transitAttribution=_transitAttribution;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

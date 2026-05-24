@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUErrorMessage, NUTrait, UILabel;
+@class NUErrorMessage, UILabel;
 
 @interface NUErrorView
 {
     NUErrorMessage *_errorMessage;
-    long long _textAlignment;
-    unsigned long long _verticalAlignment;
-    UILabel *_label;
-    NUTrait *_labelMaxWidthTrait;
 }
 
 - (void);
@@ -34,11 +30,7 @@
 - (void)ion:(long long)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NUErrorMessage *errorMessage; // @synthesize errorMessage=_errorMessage;
 @property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) NUTrait *labelMaxWidthTrait; // @synthesize labelMaxWidthTrait=_labelMaxWidthTrait;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(nonatomic) unsigned long long verticalAlignment; // @synthesize verticalAlignment=_verticalAlignment;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SASportsNewsItem : AceObject
 {
@@ -15,8 +15,8 @@
 + (id);
 + (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)9h;
 - (id);
 - (id);
 - (id);
@@ -24,16 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSURL *link;
-@property(copy, nonatomic) NSString *summary;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

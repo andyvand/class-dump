@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, _UNNotificationContact;
+@class NSString;
 
 @interface _UNNotificationCommunicationContext
 {
     NSString *_identifier;
-    NSString *_associatedObjectUri;
-    NSString *_bundleIdentifier;
-    NSString *_displayName;
-    NSArray *_recipients;
-    _UNNotificationContact *_sender;
-    NSURL *_contentURL;
-    NSString *_imageName;
-    _Bool _systemImage;
-    _Bool _mentionsCurrentUser;
-    _Bool _notifyRecipientAnyway;
-    _Bool _replyToCurrentUser;
-    unsigned long long _recipientCount;
-    long long _capabilities;
-    _Bool _businessCorrespondence;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -51,51 +37,24 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)) ;
 - (_Bool);
+- (void) ;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_parserOptions;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allContacts;
-@property(readonly, copy) NSString *associatedObjectUri; // @synthesize associatedObjectUri=_associatedObjectUri;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, getter=isBusinessCorrespondence) _Bool businessCorrespondence; // @synthesize businessCorrespondence=_businessCorrespondence;
-@property(readonly) long long capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, copy) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isDirect) _Bool direct;
-@property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, getter=isGroup) _Bool group;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly) _Bool mentionsCurrentUser; // @synthesize mentionsCurrentUser=_mentionsCurrentUser;
-@property(readonly) _Bool notifyRecipientAnyway; // @synthesize notifyRecipientAnyway=_notifyRecipientAnyway;
-@property(readonly, copy) NSString *preferredDescription;
-@property(readonly, copy) NSString *preferredRecipientsSummary;
-@property(readonly, copy) NSString *preferredSenderSummary;
-@property(readonly) unsigned long long recipientCount; // @synthesize recipientCount=_recipientCount;
-@property(readonly, copy) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, getter=isReplyToCurrentUser) _Bool replyToCurrentUser; // @synthesize replyToCurrentUser=_replyToCurrentUser;
-@property(readonly, copy) _UNNotificationContact *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, getter=isSystemImage) _Bool systemImage; // @synthesize systemImage=_systemImage;
 
 @end
 

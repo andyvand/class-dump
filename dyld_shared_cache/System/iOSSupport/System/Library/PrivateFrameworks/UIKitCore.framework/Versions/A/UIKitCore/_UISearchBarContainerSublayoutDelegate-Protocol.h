@@ -5,6 +5,9 @@
 //
 
 @protocol _UISearchBarContainerSublayoutDelegate
+- (_Bool)payloadForceEncryptedBackup;
+- (double)*>>="__begin_"^@"__end_"^@""{?="__cap_"^@}};
+- (void)_MPMediaSearchStringPredicate;
 - (void);
 
 // Remaining properties

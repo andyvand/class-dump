@@ -7,11 +7,6 @@
 @interface ContactsUI.AvatarPickerPhotoProvider
 {
     id _activeCollectionType;
-    id _activeSubCollection;
-    id _isActiveCollectionCollapsed;
-    id _allPhotosCount;
-    id photoProvider;
-    id selectedImageIndex;
 }
 
 @end

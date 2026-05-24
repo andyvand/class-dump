@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary;
+@class NSData;
 @protocol IMDCNContactStore;
 
 @interface IMDContactBatchFetcher
 {
     NSData *_currentHistoryToken;
-    NSMutableDictionary *_fetchedContacts;
-    id <IMDCNContactStore> _contactStore;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDCNContactStore> contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(retain, nonatomic) NSMutableDictionary *fetchedContacts; // @synthesize fetchedContacts=_fetchedContacts;
 
 @end
 

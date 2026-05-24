@@ -9,6 +9,10 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)ift_Builtin_float.dylib;
+- (void);
+- (void)hu;
 - (void)tionChallenge"24@?<v@?q@"NSURLCredential">32;
 - (void)esolver -- service id:(NSURLSession *)arg1 %llu;
 @end

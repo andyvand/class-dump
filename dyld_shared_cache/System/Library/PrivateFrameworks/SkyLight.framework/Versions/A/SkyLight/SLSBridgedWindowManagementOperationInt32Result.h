@@ -11,11 +11,11 @@
     int _int32Value;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)J*(!;
+- (id)ed.;
 - (id);
 - (int);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly) int int32Value; // @synthesize int32Value=_int32Value;

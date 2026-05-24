@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.LiveActivityBackgroundTaskController
 {
     id backgroundTaskProvider;
+    id;
 }
 
 @end

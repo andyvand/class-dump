@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventViewController, NSLayoutConstraint, UIButton, UILabel, UIView, UIVisualEffectView;
+@class UIView;
 
 @interface EKEventReportJunkView
 {
     UIView *_containerView;
-    UIVisualEffectView *_effectView;
-    UILabel *_reportLabel;
-    UIButton *_reportButton;
-    EKEventViewController *_controller;
-    NSLayoutConstraint *_containerLeadingConstraint;
-    NSLayoutConstraint *_containerTrailingConstraint;
-    NSLayoutConstraint *_containerWidthConstraint;
-    NSLayoutConstraint *_centerXConstraint;
-    _Bool _isLargeDayView;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Y%s;
 - (id);
 - (void);
-- (void)eInset:labelInset: /* Error: Ran out of types for this method. */;
+- (void)setOccurrenceInset:labelInset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool isLargeDayView; // @synthesize isLargeDayView=_isLargeDayView;

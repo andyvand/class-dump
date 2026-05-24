@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface SFShareSheetRemoteActivity
 {
     _Bool _isRTS;
-    long long _activitySourceType;
-    NSString *_identifier;
-    NSUUID *_uuid;
-    NSString *_title;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (id);
@@ -33,11 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long activitySourceType; // @synthesize activitySourceType=_activitySourceType;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isRTS; // @synthesize isRTS=_isRTS;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

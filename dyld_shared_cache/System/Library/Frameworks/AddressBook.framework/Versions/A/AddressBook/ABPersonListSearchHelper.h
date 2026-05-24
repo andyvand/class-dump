@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListController, CNPublishingSubject, NSDictionary;
-@protocol CNCancelable;
+@class NSDictionary;
 
 @interface ABPersonListSearchHelper
 {
     NSDictionary *_cachedPersonEntriesByIdentifier;
-    NSDictionary *_cachedSuggestionEntriesByIdentifier;
-    ABPersonListController *_personListController;
-    CDUnknownBlockType _resultHandler;
-    CNPublishingSubject *_searchObservable;
-    id <CNCancelable> _localSearchSubscription;
-    id <CNCancelable> _suggestionSearchSubscription;
-    _Bool _includeSuggestions;
 }
 
 + (id);
@@ -28,7 +20,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (void);
@@ -53,7 +45,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)f@9hf;
 - (void);
 - (void);
 - (void);
@@ -65,13 +57,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *cachedPersonEntriesByIdentifier; // @synthesize cachedPersonEntriesByIdentifier=_cachedPersonEntriesByIdentifier;
-@property(retain, nonatomic) NSDictionary *cachedSuggestionEntriesByIdentifier; // @synthesize cachedSuggestionEntriesByIdentifier=_cachedSuggestionEntriesByIdentifier;
-@property(nonatomic) _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
-@property(retain, nonatomic) id <CNCancelable> localSearchSubscription; // @synthesize localSearchSubscription=_localSearchSubscription;
-@property(nonatomic) __weak ABPersonListController *personListController; // @synthesize personListController=_personListController;
-@property(copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(retain, nonatomic) CNPublishingSubject *searchObservable; // @synthesize searchObservable=_searchObservable;
-@property(retain, nonatomic) id <CNCancelable> suggestionSearchSubscription; // @synthesize suggestionSearchSubscription=_suggestionSearchSubscription;
 
 @end
 

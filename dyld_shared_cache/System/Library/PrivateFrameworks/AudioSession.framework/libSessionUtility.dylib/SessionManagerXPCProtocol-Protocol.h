@@ -5,5 +5,8 @@
 //
 
 @protocol SessionManagerXPCProtocol
+- (void);
+- (void)ting;
+- (void)C;
 @end
 

@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSString, PKCreditInstallmentPlanPayment, PKCreditInstallmentPlanProduct, PKInstallmentPlanMerchant, PKInstallmentPlanSummary, PKPaymentTransactionRewards;
+@class NSString;
 
 @interface PKCreditInstallmentPlan
 {
     _Bool _userViewedIntroduction;
-    NSString *_identifier;
-    long long _state;
-    NSDate *_lastUpdated;
-    NSDecimalNumber *_apr;
-    unsigned long long _duration;
-    NSString *_currencyCode;
-    NSDecimalNumber *_totalAmount;
-    NSDecimalNumber *_totalProductAmount;
-    NSDecimalNumber *_totalInterestAmount;
-    long long _periodType;
-    NSString *_transactionReferenceIdentifier;
-    NSString *_accountUserAltDSID;
-    PKInstallmentPlanSummary *_summary;
-    PKInstallmentPlanMerchant *_merchant;
-    PKCreditInstallmentPlanProduct *_product;
-    NSArray *_lineItems;
-    NSArray *_payments;
-    PKPaymentTransactionRewards *_rewards;
 }
 
 + (_Bool)0@ù
 × ;
 - (_Bool);
+- (id)�;
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kI;
 - (_Bool);
 - (id);
 - (void);
@@ -66,13 +48,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
+- (unsigned long long);
+- (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (long long);
-- (_Bool);
+- (long long)@"NSTableColumn"24q32;
+- (_Bool)hasRemoteSidecarPeerTraffic;
 - (void);
 - (void);
 - (id);
@@ -80,35 +62,13 @@
 × ;
 - (void)0@ù
 × ;
-- (id)Instruments: /* Error: Ran out of types for this method. */;
-- (id)riptor;
-- (void)RK_NAME_MIR_CARD_NAME;
+- (id)setPaymentInstruments: /* Error: Ran out of types for this method. */;
+- (id)_productSubtypeDescriptor;
+- (void)NETWORK_NAME_MIR_CARD_NAME;
 - (_Bool)_];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(retain, nonatomic) NSDecimalNumber *apr; // @synthesize apr=_apr;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSArray *lineItems; // @synthesize lineItems=_lineItems;
-@property(retain, nonatomic) PKInstallmentPlanMerchant *merchant; // @synthesize merchant=_merchant;
-@property(readonly, nonatomic) PKCreditInstallmentPlanPayment *nextPaymentDue;
-@property(copy, nonatomic) NSArray *payments; // @synthesize payments=_payments;
-@property(nonatomic) long long periodType; // @synthesize periodType=_periodType;
-@property(retain, nonatomic) PKCreditInstallmentPlanProduct *product; // @synthesize product=_product;
-@property(readonly, nonatomic) NSDecimalNumber *remainingAmount;
-@property(retain, nonatomic) PKPaymentTransactionRewards *rewards; // @synthesize rewards=_rewards;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) PKInstallmentPlanSummary *summary; // @synthesize summary=_summary;
-@property(retain, nonatomic) NSDecimalNumber *totalAmount; // @synthesize totalAmount=_totalAmount;
-@property(readonly, nonatomic) NSDecimalNumber *totalBilled;
-@property(retain, nonatomic) NSDecimalNumber *totalInterestAmount; // @synthesize totalInterestAmount=_totalInterestAmount;
-@property(retain, nonatomic) NSDecimalNumber *totalProductAmount; // @synthesize totalProductAmount=_totalProductAmount;
-@property(copy, nonatomic) NSString *transactionReferenceIdentifier; // @synthesize transactionReferenceIdentifier=_transactionReferenceIdentifier;
-@property(nonatomic) _Bool userViewedIntroduction; // @synthesize userViewedIntroduction=_userViewedIntroduction;
 
 @end
 

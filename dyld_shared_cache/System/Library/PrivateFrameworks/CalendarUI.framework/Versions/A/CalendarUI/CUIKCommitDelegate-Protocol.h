@@ -5,5 +5,6 @@
 //
 
 @protocol CUIKCommitDelegate
+- (_Bool);
 @end
 

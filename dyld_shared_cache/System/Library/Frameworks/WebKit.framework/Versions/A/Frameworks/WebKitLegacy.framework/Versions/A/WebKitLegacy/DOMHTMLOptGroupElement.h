@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class NSString;
-
 @interface DOMHTMLOptGroupElement : DOMHTMLElement
 {
 }
@@ -19,7 +17,6 @@
 
 // Remaining properties
 @property _Bool disabled;
-@property(copy) NSString *label;
 
 @end
 

@@ -9,16 +9,14 @@
 @interface PKEncryptedVPANPaymentCredentials
 {
     NSData *_ephemeralPublicKey;
-    NSData *_encryptedCardData;
 }
 
 - (id);
 - (id);
-- (id)Type;
-- (void)me;
+- (id)_senderAddressType;
+- (void)income;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *encryptedCardData; // @synthesize encryptedCardData=_encryptedCardData;
 @property(readonly, copy, nonatomic) NSData *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
 
 @end

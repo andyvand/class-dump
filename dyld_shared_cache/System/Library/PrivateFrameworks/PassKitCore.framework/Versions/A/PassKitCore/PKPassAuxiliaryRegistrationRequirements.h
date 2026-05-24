@@ -9,26 +9,23 @@
 @interface PKPassAuxiliaryRegistrationRequirements
 {
     NSArray *_deviceSignatureRequirements;
-    NSArray *_deviceDecryptionRequirements;
 }
 
 + (_Bool)î%1Â0@ù
 × ;
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)rsion;
+- (_Bool)setHasBackCameraCaptureDuration:(id)arg1;
+- (void)tcpi_rxoutoforderbytes;
+- (id)apiVersion;
 - (void)'%@'; ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRequirements;
-@property(readonly, nonatomic) NSArray *deviceDecryptionRequirements; // @synthesize deviceDecryptionRequirements=_deviceDecryptionRequirements;
 @property(readonly, nonatomic) NSArray *deviceSignatureRequirements; // @synthesize deviceSignatureRequirements=_deviceSignatureRequirements;
 
 @end

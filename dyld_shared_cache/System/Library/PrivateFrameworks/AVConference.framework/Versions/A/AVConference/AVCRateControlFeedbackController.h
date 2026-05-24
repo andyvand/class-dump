@@ -4,35 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCStatisticsCollector, VCConnectionHealthMonitor;
-
 __attribute__((visibility("hidden")))
 @interface AVCRateControlFeedbackController
 {
     _Bool _isECNEnabled;
-    unsigned int _mode;
-    AVCStatisticsCollector *_statisticsCollector;
-    unsigned int _feedbackMessageCount;
-    unsigned int _processedMessageCount;
-    unsigned int _currentMediaTimestamp;
-    unsigned int _outOfOrderCount;
-    _Bool _isFeedbackReceived;
-    _Bool _didRegisterPacketReceivedHandler;
-    unsigned int _totalECT1Count;
-    unsigned int _previousTotalECT1Count;
-    unsigned int _totalCECount;
-    unsigned int _totalReceivedAudioPackets;
-    unsigned int _previousTotalReceivedAudioPackets;
-    unsigned int _totalReceivedVideoPackets;
-    unsigned char _numBadECNEvents;
-    double _feedbackMessageReceivedTime;
-    double _lastBadECNEventTime;
-    unsigned char _txLinkType;
-    unsigned char _ecnLinkType;
-    VCConnectionHealthMonitor *_connectionHealthMonitor;
 }
 
-- (_Bool);
+- (_Bool)T_;
 - (id);
 - (void);
 - (void);
@@ -40,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,11 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VCConnectionHealthMonitor *connectionHealthMonitor; // @synthesize connectionHealthMonitor=_connectionHealthMonitor;
-@property(readonly, nonatomic) _Bool isECNEnabled; // @synthesize isECNEnabled=_isECNEnabled;
-@property(nonatomic) _Bool isFeedbackReceived; // @synthesize isFeedbackReceived=_isFeedbackReceived;
 @property(nonatomic) unsigned int mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) unsigned int processedMessageCount; // @synthesize processedMessageCount=_processedMessageCount;
 
 @end
 

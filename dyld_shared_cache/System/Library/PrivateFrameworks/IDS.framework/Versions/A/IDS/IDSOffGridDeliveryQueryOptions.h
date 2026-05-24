@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)seCase;
 - (void);
 
 // Remaining properties

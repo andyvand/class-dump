@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreCloudAccessoryModel
@@ -13,23 +13,15 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)uncleMothersYoungerBrotherOriya;
 + (id)5áÿ°';
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)red sessions;
+- (id)load of stored sessions;
+- (id)ShareETABlocklistMigration2022;
+- (id)_aliases;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *networkDeclarationsData; // @dynamic networkDeclarationsData;
-@property(retain, nonatomic) NSData *pairedMetadataData; // @dynamic pairedMetadataData;
-@property(readonly) Class superclass;
 
 @end
 

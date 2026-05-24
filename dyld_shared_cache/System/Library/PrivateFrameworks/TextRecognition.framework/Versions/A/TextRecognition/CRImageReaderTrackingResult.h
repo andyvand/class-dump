@@ -9,19 +9,13 @@
 @interface CRImageReaderTrackingResult
 {
     unsigned long long _stabilityLevel;
-    NSArray *_trackedRegions;
-    NSArray *_updatedRegionIDs;
-    NSArray *_addedRegionIDs;
-    NSArray *_removedRegionIDs;
-    unsigned long long _trackedRegionType;
-    NSArray *_regionTrackingGroups;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -33,12 +27,7 @@
 - (void)@40@0:8@16{CGSize=dd}24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *addedRegionIDs; // @synthesize addedRegionIDs=_addedRegionIDs;
-@property(retain) NSArray *regionTrackingGroups; // @synthesize regionTrackingGroups=_regionTrackingGroups;
-@property(retain) NSArray *removedRegionIDs; // @synthesize removedRegionIDs=_removedRegionIDs;
-@property(readonly) unsigned long long stabilityLevel; // @synthesize stabilityLevel=_stabilityLevel;
 @property(retain) NSArray *trackedRegions; // @synthesize trackedRegions=_trackedRegions;
-@property(retain) NSArray *updatedRegionIDs; // @synthesize updatedRegionIDs=_updatedRegionIDs;
 
 @end
 

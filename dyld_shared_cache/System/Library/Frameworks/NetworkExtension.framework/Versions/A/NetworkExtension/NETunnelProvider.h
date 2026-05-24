@@ -6,15 +6,11 @@
 
 #import <NetworkExtension/NEProvider.h>
 
-@class NEVPNProtocol, NSArray, NSString;
+@class NEVPNProtocol;
 
 @interface NETunnelProvider : NEProvider
 {
     _Bool _reasserting;
-    _Bool _onDemandEnabled;
-    _Bool _gracefulShutdown;
-    NEVPNProtocol *_protocolConfiguration;
-    NSArray *_appRules;
 }
 
 - (void);
@@ -29,17 +25,7 @@
 - (void)ualInterface_s=}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *appRules; // @synthesize appRules=_appRules;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NEVPNProtocol *protocolConfiguration; // @synthesize protocolConfiguration=_protocolConfiguration;
-@property _Bool reasserting;
-@property(readonly) long long routingMethod;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INResumeTimerIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)unarchivedObjectOfClass:(long long)arg1 fromData:error: /* Error: Ran out of types for this method. */;
++ (int)initWithAdditionsPresentOnURL:(long long)arg1 includingExtendedAttributes:error: /* Error: Ran out of types for this method. */;
++ (long long)generationBehavior;
++ (_Bool)fileExistsAtPath:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)initWithHIDService:(id)arg1 manager: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)sed on channel list (%{public}@);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)ntifier:requiresUserIdentification: /* Error: Ran out of types for this method. */;
+- (long long)initWithString:vocabularyIdentifier:requiresUserIdentification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *resumedTimers;
-@property(readonly) Class superclass;
 
 @end
 

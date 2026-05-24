@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface VirtualDisplayListener
 {
     NSMapTable *_database;
-    NSLock *_lock;
-    unsigned int _portSet;
-    CDUnknownFunctionPointerType _demux;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _running;
 }
 
 - (void);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)c;
 
 @end
 

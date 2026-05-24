@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VNProcessingDevice;
-@protocol MLComputeDeviceProtocol;
+@class VNProcessingDevice;
 
 __attribute__((visibility("hidden")))
 @interface VNProcessingDeviceComputeDeviceBridge
@@ -15,21 +14,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)rType;
+- (id)06:1998 /* Error: Ran out of types for this method. */;
+- (void)VNMRCDetectorType;
 
 // Remaining properties
-@property(readonly) id <MLComputeDeviceProtocol> computeDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) VNProcessingDevice *processingDevice;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface PKPaletteImageGeneratingToolView : PKPaletteToolView
 {
     UIView *_animatedLightToolView;
-    UIView *_animatedDarkToolView;
 }
 
 - (void);
@@ -20,9 +19,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)_lp_isEqualToAny: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)esizeSupport;
+- (void)SynthesizeSupport;
 
 @end
 

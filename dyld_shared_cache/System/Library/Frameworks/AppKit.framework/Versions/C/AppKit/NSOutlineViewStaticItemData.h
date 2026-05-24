@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTableRowView;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSOutlineViewStaticItemData
 {
     NSMutableArray *_children;
-    NSTableRowView *_rowView;
-    _Bool _expandable;
-    _Bool _expanded;
-    _Bool _loadedFromEncoder;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (void)¡ê/Ð!CùQß31Â0@ù
@@ -33,10 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSMutableArray *children; // @synthesize children=_children;
-@property _Bool expandable; // @synthesize expandable=_expandable;
-@property _Bool expanded; // @synthesize expanded=_expanded;
-@property _Bool loadedFromEncoder; // @synthesize loadedFromEncoder=_loadedFromEncoder;
-@property(retain) NSTableRowView *rowView; // @synthesize rowView=_rowView;
 
 @end
 

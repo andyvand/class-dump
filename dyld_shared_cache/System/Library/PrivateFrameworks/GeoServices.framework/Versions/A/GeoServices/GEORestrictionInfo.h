@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORestrictionInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_effectiveTimeRange;
-    NSMutableArray *_restrictionDetails;
-    GEOFormattedString *_subTitleString;
-    GEOFormattedString *_titleString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_effectiveTimeRange:1;
-        unsigned int read_restrictionDetails:1;
-        unsigned int read_subTitleString:1;
-        unsigned int read_titleString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)etManeuverDisplaySteps:(id)arg1;
++ (Class)_CNOffMainThreadScheduler;
++ (_Bool)setManeuverDisplaySteps:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -37,20 +21,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
+- (_Bool)d;
+- (_Bool)CNCDContactVCardParsedResultBuilderFactory;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)a;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_allowLanguageDetectorAssetDownloading;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -58,20 +42,13 @@
 - (id);
 - (void);
 - (id)e"b1"has_associationLength"b1"has_associationReason"b1"has_band"b1"has_captiveDetermination"b1"has_cca"b1"has_channelWidth"b1"has_channel"b1"has_clientAssociationSubreason"b1"has_disassociationReason"b1"has_dohAvailability"b1"has_networkOrigin"b1"has_networkType"b1"has_phyMode"b1"has_roundTripTimeAvgActive"b1"has_roundTripTimeAvg"b1"has_roundTripTimeMinActive"b1"has_roundTripTimeMin"b1"has_roundTripTimeVarActive"b1"has_roundTripTimeVar"b1"has_rssi"b1"has_snr"b1"has_sslConnectionCount"b1"has_sslErrorCount"b1"has_topDLRate"b1"has_type"b1"has_wasCaptiveFlag"b1"has_hotspot20"b1"has_isEdgeBSS"b1"has_isKnownGood"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"read_authTraits"b1"read_nameAttributes"b1"read_traits"b1"read_beaconInfo"b1"read_essMembers"b1"read_feedbacks"b1"read_hotspotHelperProviders"b1"read_identifier"b1"read_label"b1"read_location"b1"read_nearbyBSSs"b1"read_passpointInfo"b1"read_roamStates"b1"read_speedTests"b1"read_uniqueID"b1"wrote_anyField"b1};
+- (id)executionInstructionsForSpoken;
 - (id);
-- (id);
-- (id)to_item_type;
+- (id)photo_item_type;
 - (void) ø1æ9P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *effectiveTimeRange;
-@property(readonly, nonatomic) _Bool hasEffectiveTimeRange;
-@property(readonly, nonatomic) _Bool hasSubTitleString;
 @property(readonly, nonatomic) _Bool hasTitleString;
-@property(retain, nonatomic) NSMutableArray *restrictionDetails;
-@property(retain, nonatomic) GEOFormattedString *subTitleString;
-@property(retain, nonatomic) GEOFormattedString *titleString;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

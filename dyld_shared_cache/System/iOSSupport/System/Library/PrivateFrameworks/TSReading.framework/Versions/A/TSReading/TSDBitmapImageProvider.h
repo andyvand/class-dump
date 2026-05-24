@@ -6,31 +6,17 @@
 
 #import <TSReading/TSDImageProvider.h>
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface TSDBitmapImageProvider : TSDImageProvider
 {
     struct CGImageSource *mImageSource;
-    struct CGImage *mImage;
-    unsigned long long mImageGamut;
-    struct CGSize mNaturalSize;
-    long long mOrientation;
-    _Bool mIsOpaque;
-    _Bool mIsValid;
-    unsigned long long mDPI;
-    NSObject<OS_dispatch_semaphore> *mImageLock;
-    long long mCheckIfValidToken;
-    struct CGImage *mHalfSizeImage;
-    struct CGImage *mQuarterSizeImage;
 }
 
 + (struct CGImageSource *);
-+ (struct CGImage *);
++ (struct CGImage *)AsyncAssetReaderSequence;
 + (struct CGImageSource *);
-+ (struct CGImageSource *);
++ (struct CGImageSource *);
 + (id);
-+ (struct CGSize);
++ (struct CGSize)]Y;
 + (void);
 + (id);
 + (struct CGImage *);
@@ -42,20 +28,20 @@
 - (struct CGImageSource *);
 - (void);
 - (struct CGImage *);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)c;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)';
 - (void);
 - (struct CGImage *);
-- (_Bool);
-- (struct CGImageSource *);
+- (_Bool)J;
+- (struct CGImageSource *)FCArticleHistoryFeature;
 - (void);
 - (_Bool);
 - (_Bool);

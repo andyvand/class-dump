@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SFCertificate_Ivars
 {
     long long certificateType;
-    NSString *subject;
-    NSString *issuerName;
-    NSData *serialNumber;
-    struct __SecCertificate *secCertificate;
 }
 
 - (void);

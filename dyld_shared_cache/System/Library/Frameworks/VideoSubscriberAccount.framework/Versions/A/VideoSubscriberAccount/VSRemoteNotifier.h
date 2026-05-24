@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDistributedNotificationCenter, NSString;
-@protocol VSRemoteNotifierDelegate;
+@class NSString;
 
 @interface VSRemoteNotifier
 {
     NSString *_remoteNotificationName;
-    id <VSRemoteNotifierDelegate> _delegate;
-    NSString *_notificationObject;
-    NSDistributedNotificationCenter *_distributedNotificationCenter;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
@@ -32,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <VSRemoteNotifierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDistributedNotificationCenter *distributedNotificationCenter; // @synthesize distributedNotificationCenter=_distributedNotificationCenter;
 @property(copy, nonatomic) NSString *notificationObject; // @synthesize notificationObject=_notificationObject;
-@property(readonly, copy, nonatomic) NSString *remoteNotificationName; // @synthesize remoteNotificationName=_remoteNotificationName;
 
 @end
 

@@ -9,31 +9,25 @@
 @interface NFTNEPService
 {
     unsigned char _minWaitTime;
-    unsigned char _maxWaitTimeExtension;
-    unsigned short _maxMessageSize;
-    NSString *_uri;
 }
 
 + (_Bool);
 + (id);
-- (void);
-- (void);
+- (void)NO_NAME;
+- (void)CNContactRelation;
 - (unsigned char);
-- (unsigned char);
-- (void);
+- (unsigned char)nu;
+- (void)^;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void):(id)arg1 ;
+- (id)(;
 - (unsigned short);
-- (void);
+- (void)root;
 - (id)rs:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned short maxMessageSize; // @synthesize maxMessageSize=_maxMessageSize;
-@property(nonatomic) unsigned char maxWaitTimeExtension; // @synthesize maxWaitTimeExtension=_maxWaitTimeExtension;
-@property(nonatomic) unsigned char minWaitTime; // @synthesize minWaitTime=_minWaitTime;
 @property(retain, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end

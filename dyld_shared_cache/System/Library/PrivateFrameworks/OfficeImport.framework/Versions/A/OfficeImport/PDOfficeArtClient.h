@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OADImageRecolorInfo, PDAnimationInfo, PDPlaceholder;
+@class OADImageRecolorInfo;
 
 __attribute__((visibility("hidden")))
 @interface PDOfficeArtClient
 {
     OADImageRecolorInfo *mImageRecolorInfo;
-    PDPlaceholder *mPlaceholder;
-    _Bool mIsComment;
-    PDAnimationInfo *mAnimationInfo;
-    _Bool mHasOleChart;
-    int mInheritedTextStylePlaceholderType;
 }
 
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (_Bool);
-- (int);
+- (_Bool);
+- (int);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (struct CGRect);
 - (id);
@@ -38,14 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int inheritedTextStylePlaceholderType; // @synthesize inheritedTextStylePlaceholderType=mInheritedTextStylePlaceholderType;
-@property(readonly) Class superclass;
 
 @end
 

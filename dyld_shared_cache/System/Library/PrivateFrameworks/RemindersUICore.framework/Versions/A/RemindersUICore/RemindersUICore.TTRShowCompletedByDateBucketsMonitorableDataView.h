@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRShowCompletedByDateBucketsMonitorableDataView
 {
     id store;
-    id remindersToPrefetchCount;
 }
 
 @end

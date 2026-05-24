@@ -6,40 +6,38 @@
 
 #import <AppKit/NSMenuBarDisplayWindow.h>
 
-@class NSArray, NSMenuBarRepresentation, NSMutableArray;
+@class NSArray, NSMenuBarRepresentation;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuBarLocalDisplayWindow : NSMenuBarDisplayWindow
 {
     NSMenuBarRepresentation *_associatedRepresentation;
-    NSMutableArray *_replicantWindows;
-    NSMutableArray *_replicantWindowReuseStack;
 }
 
 - (void);
 - (void);
+- (id)SessionPID;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (id)stringByAppendingPathExtension: /* Error: Ran out of types for this method. */;
+- (void)_streamInitialized;
+- (void)ry store for this process;
+- (void)ma:(id)arg1 DB=%@ response create - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)i
+;
 - (void);
 - (void);
-- (void)elper;
+- (void)NSFocusScrollingHelper;
 - (void)Ì·ÿñ¼@;
 - (void)çLF;
 
 // Remaining properties
-@property(readonly) __weak NSMenuBarRepresentation *associatedRepresentation;
 @property(readonly) NSArray *replicantWindows;
 
 @end

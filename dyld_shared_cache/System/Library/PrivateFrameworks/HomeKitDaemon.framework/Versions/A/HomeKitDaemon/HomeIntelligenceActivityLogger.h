@@ -7,11 +7,6 @@
 @interface HomeIntelligenceActivityLogger
 {
     id $defaultActor;
-    id home;
-    id scheduler;
-    id eventStream;
-    id activityObservers;
-    id submitter;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WBSBlockedHighlightsBannerSQLiteStore;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HighlightManager
 {
     NSMutableDictionary *_highlightToBackForwardListItemsMap;
-    WBSBlockedHighlightsBannerSQLiteStore *_store;
-    NSMutableDictionary *_blockedHighlightIdentifierToNumberOfTemporaryBanners;
 }
 
 + (id);

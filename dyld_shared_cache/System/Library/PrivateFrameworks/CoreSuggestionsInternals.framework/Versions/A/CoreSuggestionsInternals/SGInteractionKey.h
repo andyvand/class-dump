@@ -18,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId;
-@property(readonly, nonatomic) NSString *personHandle;
 
 @end
 

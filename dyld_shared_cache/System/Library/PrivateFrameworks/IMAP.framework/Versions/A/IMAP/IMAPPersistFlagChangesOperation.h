@@ -6,18 +6,16 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class NSDictionary;
 @protocol IMAPPersistFlagChangesOperationDelegate;
 
 @interface IMAPPersistFlagChangesOperation : IMAPPersistenceTaskOperation
 {
     id <IMAPPersistFlagChangesOperationDelegate> _delegate;
-    NSDictionary *_flagChangesByServerMessage;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPPersistFlagChangesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *flagChangesByServerMessage; // @synthesize flagChangesByServerMessage=_flagChangesByServerMessage;
 
 @end
 

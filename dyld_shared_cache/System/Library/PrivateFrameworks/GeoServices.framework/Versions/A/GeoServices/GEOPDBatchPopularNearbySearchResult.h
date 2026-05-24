@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBatchPopularNearbySearchResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_popularNearbyResults;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ቹ;
 - (id)ey"b1"has_value"b1};
-- (id);
+- (id)_baseURL;
 - (id);
 - (void);
 

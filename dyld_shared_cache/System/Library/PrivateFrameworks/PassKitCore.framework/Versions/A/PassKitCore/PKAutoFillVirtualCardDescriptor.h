@@ -22,9 +22,9 @@
 - (struct CGImage *);
 - (id);
 - (struct CGImage *);
-- (void);
+- (void)Q;
 - (_Bool)credential:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)primaryTCIs;
 
 // Remaining properties
 @property(readonly, nonatomic) PKVirtualCard *virtualCard; // @synthesize virtualCard=_virtualCard;

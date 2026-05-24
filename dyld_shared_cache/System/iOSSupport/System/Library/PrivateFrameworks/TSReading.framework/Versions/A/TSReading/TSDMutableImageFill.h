@@ -6,7 +6,7 @@
 
 #import <TSReading/TSDImageFill.h>
 
-@class TSPData, TSUColor;
+@class TSPData;
 
 @interface TSDMutableImageFill : TSDImageFill
 {
@@ -21,11 +21,7 @@
 - (void)ÄV;
 
 // Remaining properties
-@property(nonatomic) struct CGSize fillSize; // @dynamic fillSize;
 @property(retain, nonatomic) TSPData *imageData; // @dynamic imageData;
-@property(nonatomic) _Bool interpretsUntaggedImageDataAsGeneric; // @dynamic interpretsUntaggedImageDataAsGeneric;
-@property(nonatomic) int technique; // @dynamic technique;
-@property(copy, nonatomic) TSUColor *tintColor; // @dynamic tintColor;
 
 @end
 

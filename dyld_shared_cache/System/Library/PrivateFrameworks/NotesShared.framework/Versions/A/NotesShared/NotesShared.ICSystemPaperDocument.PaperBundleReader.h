@@ -7,7 +7,6 @@
 @interface NotesShared.ICSystemPaperDocument.PaperBundleReader
 {
     id lock;
-    id queue;
 }
 
 @end

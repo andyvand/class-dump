@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface EDSearchableIndexSchedulerState
 {
     NSMutableSet *_indexingEnabledForActivityTypes;
-    NSMutableSet *_indexingEnabledForTaskTypes;
-    _Bool _dataSourceIndexingPermitted;
-    double _otherIndexingTime;
-    double _maintenanceIndexingTime;
-    long long _fastPassIndexedItemCount;
-    double _fastPassIndexingTime;
 }
 
 - (void);
@@ -33,25 +27,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (double);
-- (_Bool);
-- (id);
+- (id);
+- (double)loadiCloudMCCKit;
+- (_Bool);
+- (id)UsoEntityBuilderProtocol_commonStock_StockAttribute;
 - (_Bool);
 - (_Bool);
 - (double);
 - (void)"NSDate"16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDataSourceIndexingPermitted) _Bool dataSourceIndexingPermitted; // @synthesize dataSourceIndexingPermitted=_dataSourceIndexingPermitted;
-@property(readonly, nonatomic) long long fastPassIndexedItemCount; // @synthesize fastPassIndexedItemCount=_fastPassIndexedItemCount;
-@property(nonatomic) double fastPassIndexingTime; // @synthesize fastPassIndexingTime=_fastPassIndexingTime;
-@property(readonly, nonatomic, getter=isIndexingEnabledByActivities) _Bool indexingEnabledByActivities;
-@property(readonly, copy, nonatomic) NSSet *indexingEnabledForActivityTypes; // @synthesize indexingEnabledForActivityTypes=_indexingEnabledForActivityTypes;
-@property(readonly, copy, nonatomic) NSSet *indexingEnabledForTaskTypes; // @synthesize indexingEnabledForTaskTypes=_indexingEnabledForTaskTypes;
-@property(nonatomic) double maintenanceIndexingTime; // @synthesize maintenanceIndexingTime=_maintenanceIndexingTime;
 @property(nonatomic) double otherIndexingTime; // @synthesize otherIndexingTime=_otherIndexingTime;
-@property(readonly, copy, nonatomic) NSDictionary *powerEventData;
 
 @end
 

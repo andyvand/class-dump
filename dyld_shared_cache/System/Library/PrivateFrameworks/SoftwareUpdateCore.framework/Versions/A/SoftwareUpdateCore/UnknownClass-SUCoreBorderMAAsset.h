@@ -6,7 +6,7 @@
 
 @interface UnknownClass (SUCoreBorderMAAsset)
 + (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -17,7 +17,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (long long);
++ (long long);
 + (id);
 + (id);
 + (void);
@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

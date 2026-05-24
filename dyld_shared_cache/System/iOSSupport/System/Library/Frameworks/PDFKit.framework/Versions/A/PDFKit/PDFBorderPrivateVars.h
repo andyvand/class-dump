@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PDFAnnotation;
+@class PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFBorderPrivateVars
 {
     PDFAnnotation *annotation;
-    long long style;
-    double hCornerRadius;
-    double vCornerRadius;
-    double lineWidth;
-    long long dashCount;
-    NSArray *dashPattern;
-    double *dashPatternRaw;
 }
 
 - (void);

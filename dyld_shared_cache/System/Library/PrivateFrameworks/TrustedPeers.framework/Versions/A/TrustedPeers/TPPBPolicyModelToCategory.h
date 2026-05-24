@@ -9,32 +9,28 @@
 @interface TPPBPolicyModelToCategory
 {
     NSString *_category;
-    NSString *_prefix;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)0;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)Local record not read for city %@.;
 - (id);
-- (id);
-- (_Bool);
+- (id)DiagnosticsData() failed:(struct _NSZone *)arg1 %m (encryptionContext = %@, remoteDataPort = %d);
+- (_Bool)APDemoManagerIsDemoSession;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) _Bool hasCategory;
 @property(readonly, nonatomic) _Bool hasPrefix;
-@property(retain, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end
 

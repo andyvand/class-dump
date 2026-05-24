@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABContactPickerDelegateWrapper, CNContactPicker, NSArray;
-@protocol ABPersonPickerDelegate;
+@class CNContactPicker, NSArray;
 
 @interface ABPersonPicker
 {
     CNContactPicker *_picker;
-    ABContactPickerDelegateWrapper *_delegateWrapper;
-    NSArray *_properties;
-    id <ABPersonPickerDelegate> _delegate;
 }
 
 - (void);
@@ -20,13 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)activityAttributesType;
+- (void)4 p;
+- (void);
 - (void);
 
 // Remaining properties
-@property id <ABPersonPickerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy) NSArray *properties; // @synthesize properties=_properties;
 
 @end

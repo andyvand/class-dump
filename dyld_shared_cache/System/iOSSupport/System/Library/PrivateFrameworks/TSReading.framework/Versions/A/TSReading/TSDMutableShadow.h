@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)e isPlaying ;
 - (void);
 - (void);
 - (void);

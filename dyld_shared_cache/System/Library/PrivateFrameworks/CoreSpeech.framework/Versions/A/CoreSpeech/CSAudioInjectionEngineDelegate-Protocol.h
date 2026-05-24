@@ -5,5 +5,6 @@
 //
 
 @protocol CSAudioInjectionEngineDelegate
+- (void);
 @end
 

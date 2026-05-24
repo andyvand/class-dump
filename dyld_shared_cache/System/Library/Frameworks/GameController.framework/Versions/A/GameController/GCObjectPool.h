@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface GCObjectPool
 {
     NSMutableArray *objects;
-    struct os_unfair_lock_s lock;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)Jl;
 - (id);
 - (void);
 

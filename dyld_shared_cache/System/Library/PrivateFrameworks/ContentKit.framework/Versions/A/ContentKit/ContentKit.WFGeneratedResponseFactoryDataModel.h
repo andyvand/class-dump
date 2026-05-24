@@ -7,8 +7,6 @@
 @interface ContentKit.WFGeneratedResponseFactoryDataModel
 {
     id entityList;
-    id model;
-    id conversation;
 }
 
 + (void);

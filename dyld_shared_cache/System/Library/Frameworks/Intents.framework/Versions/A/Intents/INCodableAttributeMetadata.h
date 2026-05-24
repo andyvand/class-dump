@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttribute, INCodableDescription, INCodableLocalizationTable, NSString;
+@class INCodableAttribute, NSString;
 
 @interface INCodableAttributeMetadata
 {
     NSString *_name;
-    NSString *_placeholder;
-    NSString *_placeholderID;
-    INCodableAttribute *_codableAttribute;
 }
 
 + (_Bool);
-+ (id):(id)arg1 scope:(id *)arg2 scopeEntityName: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 appId:properties:scope:scopeEntityName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak INCodableDescription *_codableDescription;
-@property(readonly, copy, nonatomic) INCodableLocalizationTable *_localizationTable;
 @property(nonatomic) __weak INCodableAttribute *codableAttribute; // @synthesize codableAttribute=_codableAttribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedPlaceholder;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(copy, nonatomic) NSString *placeholderID; // @synthesize placeholderID=_placeholderID;
-@property(readonly) Class superclass;
 
 @end
 

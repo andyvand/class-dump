@@ -14,7 +14,7 @@
 
 - (id);
 - (id)"UIInputContextHistory";
-- (id)rComponent;
+- (id)_UIDatePickerComponent;
 - (void);
 
 @end

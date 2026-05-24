@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNHumanBodyPose3DSpecifier : VNRecognizedPoints3DSpecifier
 {
     NSArray *_orderedHumanBodyPose3DKeypoints;
-    CDStruct_95fa7c00 _cameraTransformMatrix;
-    float _humanHeight;
-    float _heightEstimatedScale;
-    struct CGSize _inputSize;
-    CDStruct_1fe29af2 _cameraIntrinsics;
-    CDStruct_95fa7c00 _cameraRenderTransformMatrix;
 }
 
 + (id);
@@ -31,19 +25,14 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (CDStruct_1fe29af2);
-- (struct CGSize);
-- (id);
+- (struct CGSize)fp_makeWritableWithError: /* Error: Ran out of types for this method. */;
+- (id)enumerateSearchResultForRequest:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void)nt_right_ear_bottom;
+- (void)animal_joint_right_ear_bottom;
 
 // Remaining properties
 @property(readonly, nonatomic) float bodyHeight;
-@property(readonly, nonatomic) CDStruct_1fe29af2 cameraIntrinsics; // @synthesize cameraIntrinsics=_cameraIntrinsics;
-@property(readonly, nonatomic) CDStruct_95fa7c00 cameraRenderTransformMatrix; // @synthesize cameraRenderTransformMatrix=_cameraRenderTransformMatrix;
-@property(readonly, nonatomic) CDStruct_95fa7c00 cameraTransformMatrix; // @synthesize cameraTransformMatrix=_cameraTransformMatrix;
-@property(readonly, nonatomic) float heightEstimatedScale; // @synthesize heightEstimatedScale=_heightEstimatedScale;
-@property(readonly, nonatomic) struct CGSize inputSize; // @synthesize inputSize=_inputSize;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray, NSObject;
-@protocol OS_os_transaction;
+@class CKServerChangeToken;
 
 __attribute__((visibility("hidden")))
 @interface AXSSCloudData
 {
     CKServerChangeToken *_serverChangeToken;
-    NSArray *_recordsToUpdate;
-    NSArray *_recordIDsToDelete;
-    NSObject<OS_os_transaction> *_openTransaction;
 }
 
 - (void);
@@ -22,14 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)TIVE_ACCESS;
+- (id)ASSISTIVE_ACCESS;
 - (void)ÿý£Að2ûÿ;
 - (id)yÏA9m;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_os_transaction> *openTransaction; // @synthesize openTransaction=_openTransaction;
-@property(retain, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(retain, nonatomic) NSArray *recordsToUpdate; // @synthesize recordsToUpdate=_recordsToUpdate;
 @property(retain, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
 
 @end

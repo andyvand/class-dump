@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIBezierPath, UIColor, _UIShapeView;
+@class _UIShapeView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPlatterShadowView : UIView
@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)16@"NSArray"24C32@"NSArray"36q44q52@"NSString"60@"NSString"68@"NSString"76;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool)áÐ!;
 - (double);
-- (void)AndLayoutChangesToLinkedButton;
-- (void)d;
+- (void)synchronizeAppearanceAndLayoutChangesToLinkedButton;
+- (void)_installScrollPocketInteractionIfNeeded;
 - (id)Øx;
-- (id)nInfo;
+- (id)attributionInfo;
 - (void)Õû;
 - (void)]Ðð¥\;
 - (struct CGSize);
@@ -33,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)äc_;
 
 // Remaining properties
-@property(nonatomic) _Bool punchOut; // @synthesize punchOut=_punchOut;
-@property(retain, nonatomic) UIColor *shadowColor;
 @property(readonly, nonatomic) _UIShapeView *shadowMaskView; // @synthesize shadowMaskView=_shadowMaskView;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) double shadowOpacity;
-@property(retain, nonatomic) UIBezierPath *shadowPath;
-@property(nonatomic) double shadowRadius;
 
 @end
 

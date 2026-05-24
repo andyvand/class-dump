@@ -15,25 +15,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (id)=;
+- (id);
+- (id)';
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)NSt3__120__shared_ptr_emplaceI41BambiConferenceCallSessionTerminatedStateNS_9allocatorIS1_EEEE;
 - (id);
 - (void);
-- (void)eOutOfProcessMapperExclusively;
+- (void)useOutOfProcessMapperExclusively;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountExternalIdentifier; // @synthesize accountExternalIdentifier=_accountExternalIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

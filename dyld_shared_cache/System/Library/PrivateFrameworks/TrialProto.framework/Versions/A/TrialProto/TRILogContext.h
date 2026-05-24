@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRILogTime;
-
 @interface TRILogContext
 {
     unsigned long long _processEventIndex;
-    TRILogTime *_deviceLogTime;
-    TRILogTime *_deviceTrackingTime;
-    unsigned int _projectId;
-    NSString *_trackingId;
-    struct {
-        unsigned int processEventIndex:1;
-        unsigned int projectId:1;
-    } _has;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)setLastSessionCompletionDate: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)16@24q32@40;
+- (unsigned long long)originalAVAssetCommonMetadata;
+- (_Bool)age sharing suggestion:(id)arg1 found a matching suggestion (%@) - unique suggestion matching NLP Context;
 - (void);
 - (id);
 - (id);
@@ -48,16 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRILogTime *deviceLogTime; // @synthesize deviceLogTime=_deviceLogTime;
-@property(retain, nonatomic) TRILogTime *deviceTrackingTime; // @synthesize deviceTrackingTime=_deviceTrackingTime;
-@property(readonly, nonatomic) _Bool hasDeviceLogTime;
-@property(readonly, nonatomic) _Bool hasDeviceTrackingTime;
-@property(nonatomic) _Bool hasProcessEventIndex;
 @property(nonatomic) _Bool hasProjectId;
-@property(readonly, nonatomic) _Bool hasTrackingId;
-@property(nonatomic) unsigned long long processEventIndex; // @synthesize processEventIndex=_processEventIndex;
-@property(nonatomic) unsigned int projectId; // @synthesize projectId=_projectId;
-@property(retain, nonatomic) NSString *trackingId; // @synthesize trackingId=_trackingId;
 
 @end
 

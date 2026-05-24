@@ -5,5 +5,8 @@
 //
 
 @protocol VGVirtualGarageObserver
+
+@optional
+- (void);
 @end
 

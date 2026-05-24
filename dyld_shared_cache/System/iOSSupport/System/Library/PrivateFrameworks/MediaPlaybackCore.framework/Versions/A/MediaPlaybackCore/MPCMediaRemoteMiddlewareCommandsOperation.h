@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFuture, MPCMediaRemoteMiddleware, NSArray, NSError, NSString;
+@class MPCMediaRemoteMiddleware;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteMiddlewareCommandsOperation
 {
     CDUnknownBlockType _invalidationHandler;
-    NSArray *_invalidationObservers;
-    MPCMediaRemoteMiddleware *_middleware;
-    MPCFuture *_supportedCommandsFuture;
-    MPCFuture *_lastSectionContentItemFuture;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)library:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)ntItemUserInfo;
+- (void)invalidateContentItemUserInfo;
 - (void)â° siri-wha-metrics:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
-@property(retain, nonatomic) MPCFuture *lastSectionContentItemFuture; // @synthesize lastSectionContentItemFuture=_lastSectionContentItemFuture;
 @property(retain, nonatomic) MPCMediaRemoteMiddleware *middleware; // @synthesize middleware=_middleware;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MPCFuture *supportedCommandsFuture; // @synthesize supportedCommandsFuture=_supportedCommandsFuture;
 
 @end
 

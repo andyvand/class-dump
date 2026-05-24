@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol _SFReaderControllerDelegate
+
+@optional
+- (NSURL *);
+- (void)SecureCloudInviteRequest;
+- (void)ActivitySharingTransportItem;
+- (void);
+- (void)$;
+- (void);
 @end
 

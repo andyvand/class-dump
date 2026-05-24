@@ -9,13 +9,9 @@
 @interface _INPBSeat
 {
     struct _has;
-    NSString *_seatNumber;
-    NSString *_seatRow;
-    NSString *_seatSection;
-    NSString *_seatingType;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -36,24 +32,10 @@
 - (void);
 - (id);
 - (id);
-- (void)pportsConfirmation;
+- (void)ResolutionResultSupportsConfirmation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSeatNumber;
-@property(readonly, nonatomic) _Bool hasSeatRow;
-@property(readonly, nonatomic) _Bool hasSeatSection;
-@property(readonly, nonatomic) _Bool hasSeatingType;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *seatNumber; // @synthesize seatNumber=_seatNumber;
-@property(copy, nonatomic) NSString *seatRow; // @synthesize seatRow=_seatRow;
-@property(copy, nonatomic) NSString *seatSection; // @synthesize seatSection=_seatSection;
-@property(copy, nonatomic) NSString *seatingType; // @synthesize seatingType=_seatingType;
-@property(readonly) Class superclass;
 
 @end
 

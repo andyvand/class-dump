@@ -7,21 +7,19 @@
 @interface TSWPRangeMap
 {
     struct _NSRange _subRange;
-    struct vector<_TSWPCharIndexAndAffinity, std::allocator<_TSWPCharIndexAndAffinity>> _unmappedIndexes;
-    struct vector<_TSWPCharIndexAndAffinity, std::allocator<_TSWPCharIndexAndAffinity>> _mappedIndexes;
 }
 
-- (struct _NSRange);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (struct _NSRange);
+- (struct _NSRange)yID=%@;
+- (unsigned long long)GroupSessionID=%@;
+- (unsigned long long)art:(unsigned long long)arg1;
+- (unsigned long long)scanning];
+- (struct _NSRange);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)cumentContext_Moving;
+- (void)TSKAddedToDocumentContext_Moving;
 
 @end
 

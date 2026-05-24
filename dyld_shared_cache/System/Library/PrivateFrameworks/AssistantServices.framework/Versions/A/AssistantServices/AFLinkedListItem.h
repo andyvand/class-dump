@@ -7,15 +7,13 @@
 @interface AFLinkedListItem
 {
     id _object;
-    AFLinkedListItem *_previousItem;
-    AFLinkedListItem *_nextItem;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@qb;
 - (void);
 - (id);
 - (id);
@@ -23,9 +21,7 @@
 - (void)L",C,N,V_addressBookID;
 
 // Remaining properties
-@property(retain, nonatomic) AFLinkedListItem *nextItem; // @synthesize nextItem=_nextItem;
 @property(readonly, nonatomic) id object; // @synthesize object=_object;
-@property(retain, nonatomic) AFLinkedListItem *previousItem; // @synthesize previousItem=_previousItem;
 
 @end
 

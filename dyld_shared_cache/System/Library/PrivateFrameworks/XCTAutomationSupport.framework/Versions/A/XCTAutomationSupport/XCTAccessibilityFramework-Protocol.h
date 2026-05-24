@@ -5,6 +5,7 @@
 //
 
 @protocol XCTAccessibilityFramework
+- (id);
 
 // Remaining properties
 @property(readonly) _Bool allowsRemoteAccess;

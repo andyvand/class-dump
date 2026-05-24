@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatDecorationItem
 {
     id decoration;
-    id feedDecoration;
 }
 
 @end

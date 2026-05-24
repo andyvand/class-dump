@@ -5,5 +5,8 @@
 //
 
 @protocol FetcherDelegate
+
+@optional
+- (void);
 @end
 

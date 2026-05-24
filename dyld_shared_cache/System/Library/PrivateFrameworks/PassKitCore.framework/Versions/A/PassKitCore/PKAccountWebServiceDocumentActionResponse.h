@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PKAccountWebServiceDocumentActionResponse : PKAccountWebServiceResponse
 {
     NSData *_documentPDFData;
-    NSString *_documentDataFilename;
-    NSString *_documentDataHash;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void)PassKitCore.ProvisioningRequirementsContainer;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *documentDataFilename; // @synthesize documentDataFilename=_documentDataFilename;
-@property(readonly, copy, nonatomic) NSString *documentDataHash; // @synthesize documentDataHash=_documentDataHash;
 @property(readonly, copy, nonatomic) NSData *documentPDFData; // @synthesize documentPDFData=_documentPDFData;
 
 @end

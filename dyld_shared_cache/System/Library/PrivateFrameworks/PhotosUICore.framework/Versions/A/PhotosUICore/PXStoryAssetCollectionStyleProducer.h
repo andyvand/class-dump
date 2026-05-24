@@ -10,7 +10,6 @@
 @interface PXStoryAssetCollectionStyleProducer
 {
     id <PXDisplayAssetCollection> _assetCollection;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)eRootContainer;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

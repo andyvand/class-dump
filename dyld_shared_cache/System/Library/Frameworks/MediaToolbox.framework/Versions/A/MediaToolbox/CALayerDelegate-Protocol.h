@@ -9,6 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
+- (void);
 - (void)p time but clamp above anchor time). Current timebase time %1.3f;
 - (id <CAAction>)ampleBufferConsumerSbufInspector %p>;
 @end

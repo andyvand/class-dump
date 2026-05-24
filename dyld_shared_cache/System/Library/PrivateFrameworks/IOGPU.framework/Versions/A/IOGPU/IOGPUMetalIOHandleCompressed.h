@@ -10,14 +10,12 @@
 @interface IOGPUMetalIOHandleCompressed
 {
     IOGPUMetalDevice<MTLDevice> *_dev;
-    unsigned int _vnioID;
-    unsigned long long _globalTraceObjectID;
 }
 
 - (id);
-- (unsigned int);
-- (void);
-- (void);
+- (unsigned int);
+- (void)@;
+- (void)rnal Server Error;
 - (unsigned long long);
 
 // Remaining properties

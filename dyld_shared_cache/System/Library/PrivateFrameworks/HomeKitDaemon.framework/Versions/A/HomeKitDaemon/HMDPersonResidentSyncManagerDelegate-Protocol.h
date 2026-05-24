@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NAFuture;
+
 @protocol HMDPersonResidentSyncManagerDelegate
+- (NAFuture *)d Trip] Notification's subtitle when sharing;
 @end
 

@@ -7,9 +7,6 @@
 @interface Foundation.AttributedString.Guts
 {
     id version;
-    id string;
-    id runs;
-    id trackedRanges;
 }
 
 @end

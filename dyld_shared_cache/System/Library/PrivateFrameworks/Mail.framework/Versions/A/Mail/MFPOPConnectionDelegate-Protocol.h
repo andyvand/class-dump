@@ -5,6 +5,7 @@
 //
 
 @protocol MFPOPConnectionDelegate
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool connectionShouldPrefetchMessages;

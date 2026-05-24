@@ -6,32 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWNotificationContext : SISchemaInstrumentationMessage
 {
     _Bool _isLongNotification;
-    _Bool _isSummarized;
-    _Bool _isHighlight;
-    struct {
-        unsigned int isLongNotification:1;
-        unsigned int isSummarized:1;
-        unsigned int isHighlight:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (id)MobileKeybag framework (upgrading from prior to 10.16);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -47,13 +38,7 @@
 - (void)¬|D+;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsHighlight;
-@property(nonatomic) _Bool hasIsLongNotification;
-@property(nonatomic) _Bool hasIsSummarized;
-@property(nonatomic) _Bool isHighlight; // @synthesize isHighlight=_isHighlight;
 @property(nonatomic) _Bool isLongNotification; // @synthesize isLongNotification=_isLongNotification;
-@property(nonatomic) _Bool isSummarized; // @synthesize isSummarized=_isSummarized;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

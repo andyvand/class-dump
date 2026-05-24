@@ -4,80 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPopoverTransitioningDelegate, CKSendMenuPopoverViewController, CKSendMenuViewController, ChatKit.CKSendMenuPopoverContainerViewController, NSString, UIViewController;
-@protocol CKSceneOverlayPresentationContext, CKSendMenuPresentationDelegate;
+@class UIViewController;
 
 @interface CKSendMenuPresentation
 {
     _Bool _hasRequestedKeyboardSnapshot;
-    CDUnknownBlockType _sendMenuHasInitialFrame;
-    CDUnknownBlockType _sendMenuFrameChanged;
-    CKSendMenuViewController *_sendMenuViewController;
-    id <CKSceneOverlayPresentationContext> _overlayPresentationContext;
-    UIViewController *_presentingViewController;
-    UIViewController *_appCardContentViewController;
-    unsigned long long _appCardPresentationStyle;
-    id <CKSendMenuPresentationDelegate> _delegate;
-    long long _presentationState;
-    CKSendMenuPopoverTransitioningDelegate *_sendMenuTransitioningDelegate;
-    CKSendMenuPopoverViewController *_popoverRootViewController;
-    ChatKit.CKSendMenuPopoverContainerViewController *_popoverContainerViewController;
-    struct CGRect _lastAnchorViewRectInWindow;
 }
 
 + (_Bool);
+- (void)ic_existingObjectWithID:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)ic_evaluateJavaScript:(id)arg1;
+- (void)ic_enumerateParagraphsInRange:(CDUnknownBlockType)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)handwritingRecognitionDrawingQueue;
+- (void)handwritingRecognitionContext;
+- (void)forcesBiometricAuthentication;
+- (void)editingCount;
+- (void)createToDoItemForCharacterRange:(_Bool)arg1 paragraphStyle:textStorage: /* Error: Ran out of types for this method. */;
+- (void)allKeyword;
+- (void)allIndexableObjectIDsInReversedReindexingOrderWithContext:(id)arg1;
+- (id)_webView:willSubmitFormValues:frameInfo:sourceFrameInfo:userObject:submissionHandler: /* Error: Ran out of types for this method. */;
+- (id)URL:method:submissionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 supportedXRSessionFeatures:arFeatures: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 startXRSessionWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 saveDataToFile:(id)arg2 suggestedFilename:mimeType:originatingURL: /* Error: Ran out of types for this method. */;
+- (void)ures:(struct CGRect)arg1 consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_webView:requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(struct CGRect)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_buttonIdentifiersToButtons;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)didAcceptShare:(id)arg1;
+- (id)nController",W,N,V_attachmentInsertionController;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)iderInternal",N,R;
+- (id)_TtCE7NotesUICSo29ICCalculateScrubberController15HoverController;
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)collapsibleUUIDs;
 - (_Bool);
+- (void)AN_AOyADyAQ_ARA3_tGGtGGAKtGGA6_G_G;
 - (void);
-- (void);
-- (void);
+- (void)r;
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (id)d;
+- (void)ShareDirty = YES;
+- (void)may lose it.;
+- (void)lose it.;
+- (void)ateTouchIDSheetInWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)metadata;
+- (void)ICTableAttachmentSelectionDidChangeNotification;
+- (void)50onPaletteIM;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (void);
@@ -88,28 +74,7 @@
 - (void)?:(id)arg1 £/;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *appCardContentViewController; // @synthesize appCardContentViewController=_appCardContentViewController;
-@property(nonatomic) unsigned long long appCardPresentationStyle; // @synthesize appCardPresentationStyle=_appCardPresentationStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSendMenuPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasRequestedKeyboardSnapshot; // @synthesize hasRequestedKeyboardSnapshot=_hasRequestedKeyboardSnapshot;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect lastAnchorViewRectInWindow; // @synthesize lastAnchorViewRectInWindow=_lastAnchorViewRectInWindow;
-@property(retain, nonatomic) id <CKSceneOverlayPresentationContext> overlayPresentationContext; // @synthesize overlayPresentationContext=_overlayPresentationContext;
-@property(retain, nonatomic) ChatKit.CKSendMenuPopoverContainerViewController *popoverContainerViewController; // @synthesize popoverContainerViewController=_popoverContainerViewController;
-@property(retain, nonatomic) CKSendMenuPopoverViewController *popoverRootViewController; // @synthesize popoverRootViewController=_popoverRootViewController;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
-@property(readonly, nonatomic) long long presentationStyle;
 @property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(copy, nonatomic) CDUnknownBlockType sendMenuFrameChanged; // @synthesize sendMenuFrameChanged=_sendMenuFrameChanged;
-@property(copy, nonatomic) CDUnknownBlockType sendMenuHasInitialFrame; // @synthesize sendMenuHasInitialFrame=_sendMenuHasInitialFrame;
-@property(retain, nonatomic) CKSendMenuPopoverTransitioningDelegate *sendMenuTransitioningDelegate; // @synthesize sendMenuTransitioningDelegate=_sendMenuTransitioningDelegate;
-@property(retain, nonatomic) CKSendMenuViewController *sendMenuViewController; // @synthesize sendMenuViewController=_sendMenuViewController;
-@property(readonly) Class superclass;
 
 @end
 

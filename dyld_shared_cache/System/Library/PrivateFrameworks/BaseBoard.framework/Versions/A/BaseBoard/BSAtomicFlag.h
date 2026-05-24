@@ -9,7 +9,7 @@
     _Atomic _Bool _flag;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);

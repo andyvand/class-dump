@@ -9,74 +9,12 @@
 @interface GEONetworkSessionTaskTransactionMetrics
 {
     PBUnknownFields *_unknownFields;
-    double _connectEnd;
-    double _connectStart;
-    double _domainLookupEnd;
-    double _domainLookupStart;
-    double _fetchStart;
-    double _requestEnd;
-    double _requestStart;
-    double _responseEnd;
-    double _responseStart;
-    double _secureConnectEnd;
-    double _secureConnectStart;
-    int _protocolName;
-    int _resourceFetchType;
-    _Bool _proxyConnection;
-    _Bool _reusedConnection;
-    struct {
-        unsigned int has_connectEnd:1;
-        unsigned int has_connectStart:1;
-        unsigned int has_domainLookupEnd:1;
-        unsigned int has_domainLookupStart:1;
-        unsigned int has_fetchStart:1;
-        unsigned int has_requestEnd:1;
-        unsigned int has_requestStart:1;
-        unsigned int has_responseEnd:1;
-        unsigned int has_responseStart:1;
-        unsigned int has_secureConnectEnd:1;
-        unsigned int has_secureConnectStart:1;
-        unsigned int has_protocolName:1;
-        unsigned int has_resourceFetchType:1;
-        unsigned int has_proxyConnection:1;
-        unsigned int has_reusedConnection:1;
-    } _flags;
 }
 
-+ (_Bool)etHasUniqueIdentifier:(id)arg1;
++ (_Bool)setHasUniqueIdentifier:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) double connectEnd;
-@property(nonatomic) double connectStart;
-@property(nonatomic) double domainLookupEnd;
-@property(nonatomic) double domainLookupStart;
-@property(nonatomic) double fetchStart;
-@property(nonatomic) _Bool hasConnectEnd;
-@property(nonatomic) _Bool hasConnectStart;
-@property(nonatomic) _Bool hasDomainLookupEnd;
-@property(nonatomic) _Bool hasDomainLookupStart;
 @property(nonatomic) _Bool hasFetchStart;
-@property(nonatomic) _Bool hasProtocolName;
-@property(nonatomic) _Bool hasProxyConnection;
-@property(nonatomic) _Bool hasRequestEnd;
-@property(nonatomic) _Bool hasRequestStart;
-@property(nonatomic) _Bool hasResourceFetchType;
-@property(nonatomic) _Bool hasResponseEnd;
-@property(nonatomic) _Bool hasResponseStart;
-@property(nonatomic) _Bool hasReusedConnection;
-@property(nonatomic) _Bool hasSecureConnectEnd;
-@property(nonatomic) _Bool hasSecureConnectStart;
-@property(nonatomic) int protocolName;
-@property(nonatomic) _Bool proxyConnection;
-@property(nonatomic) double requestEnd;
-@property(nonatomic) double requestStart;
-@property(nonatomic) int resourceFetchType;
-@property(nonatomic) double responseEnd;
-@property(nonatomic) double responseStart;
-@property(nonatomic) _Bool reusedConnection;
-@property(nonatomic) double secureConnectEnd;
-@property(nonatomic) double secureConnectStart;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

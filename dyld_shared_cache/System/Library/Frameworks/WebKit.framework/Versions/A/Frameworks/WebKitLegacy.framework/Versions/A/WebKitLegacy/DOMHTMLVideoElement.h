@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLMediaElement.h>
 
-@class NSString;
-
 @interface DOMHTMLVideoElement : DOMHTMLMediaElement
 {
 }
@@ -25,18 +23,11 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)b;
 - (void);
 - (void);
 
 // Remaining properties
-@property unsigned int height;
-@property _Bool playsInline;
-@property(copy) NSString *poster;
-@property(readonly) unsigned int videoHeight;
-@property(readonly) unsigned int videoWidth;
-@property(readonly) _Bool webkitDisplayingFullscreen;
-@property(readonly) _Bool webkitSupportsFullscreen;
 @property unsigned int width;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoreDataKeyedArchivingDelegate
+- (_Bool);
 @end
 

@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface FPImportProgressReport
 {
     _Bool _isStreamResetRunning;
-    _Bool _xpcActivityRegisteredWithDuet;
-    _Bool _xpcActivityIsActive;
-    _Bool _latestFolderSelectedForImportWasModifiedOnDisk;
-    _Bool _latestFolderSelectedForImportWasModifiedRemotely;
-    _Bool _latestFolderSelectedForImportIsMonitored;
-    long long _status;
-    long long _numberOfItemsReconciled;
-    long long _numberOfItemsInError;
-    NSArray *_errorDetails;
-    long long _dbCreationTimestamp;
-    long long _stateOfDownloadJobs;
-    long long _stateOfUploadJobs;
-    long long _stateOfOtherJobs;
-    long long _numberOfItemsPendingReconciliation;
-    long long _numberOfItemsPendingSelection;
-    long long _numberOfItemsPendingScanningDisk;
-    long long _numberOfItemsPendingScanningProvider;
-    unsigned long long _xpcActivityTimeSinceLastRegistration;
-    unsigned long long _xpcActivityTimeSinceLastActivation;
-    unsigned long long _xpcActivityTimeSinceLastAbleToRun;
-    long long _xpcActivityDasdContext;
-    NSArray *_itemsPendingReconciliation;
-    NSArray *_itemsPendingScanningDisk;
-    NSArray *_itemsPendingScanningProvider;
-    long long _latestFolderSelectedForImport;
-    long long _latestFolderSelectedForImportTimestamp;
-    long long _latestFolderSelectedForImportState;
 }
 
 + (_Bool);
@@ -68,12 +39,12 @@
 - (void);
 - (void);
 - (void);
+- (void)M;
+- (void)bM;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)M;
 - (void);
 - (long long);
 - (long long);
@@ -102,35 +73,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long dbCreationTimestamp; // @synthesize dbCreationTimestamp=_dbCreationTimestamp;
-@property(copy, nonatomic) NSArray *errorDetails; // @synthesize errorDetails=_errorDetails;
-@property(nonatomic) _Bool isStreamResetRunning; // @synthesize isStreamResetRunning=_isStreamResetRunning;
-@property(copy, nonatomic) NSArray *itemsPendingReconciliation; // @synthesize itemsPendingReconciliation=_itemsPendingReconciliation;
-@property(copy, nonatomic) NSArray *itemsPendingScanningDisk; // @synthesize itemsPendingScanningDisk=_itemsPendingScanningDisk;
-@property(copy, nonatomic) NSArray *itemsPendingScanningProvider; // @synthesize itemsPendingScanningProvider=_itemsPendingScanningProvider;
-@property(readonly, copy, nonatomic) NSDictionary *json;
-@property(nonatomic) long long latestFolderSelectedForImport; // @synthesize latestFolderSelectedForImport=_latestFolderSelectedForImport;
-@property(nonatomic) _Bool latestFolderSelectedForImportIsMonitored; // @synthesize latestFolderSelectedForImportIsMonitored=_latestFolderSelectedForImportIsMonitored;
-@property(nonatomic) long long latestFolderSelectedForImportState; // @synthesize latestFolderSelectedForImportState=_latestFolderSelectedForImportState;
-@property(nonatomic) long long latestFolderSelectedForImportTimestamp; // @synthesize latestFolderSelectedForImportTimestamp=_latestFolderSelectedForImportTimestamp;
-@property(nonatomic) _Bool latestFolderSelectedForImportWasModifiedOnDisk; // @synthesize latestFolderSelectedForImportWasModifiedOnDisk=_latestFolderSelectedForImportWasModifiedOnDisk;
-@property(nonatomic) _Bool latestFolderSelectedForImportWasModifiedRemotely; // @synthesize latestFolderSelectedForImportWasModifiedRemotely=_latestFolderSelectedForImportWasModifiedRemotely;
-@property(nonatomic) long long numberOfItemsInError; // @synthesize numberOfItemsInError=_numberOfItemsInError;
-@property(nonatomic) long long numberOfItemsPendingReconciliation; // @synthesize numberOfItemsPendingReconciliation=_numberOfItemsPendingReconciliation;
-@property(nonatomic) long long numberOfItemsPendingScanningDisk; // @synthesize numberOfItemsPendingScanningDisk=_numberOfItemsPendingScanningDisk;
-@property(nonatomic) long long numberOfItemsPendingScanningProvider; // @synthesize numberOfItemsPendingScanningProvider=_numberOfItemsPendingScanningProvider;
-@property(nonatomic) long long numberOfItemsPendingSelection; // @synthesize numberOfItemsPendingSelection=_numberOfItemsPendingSelection;
-@property(nonatomic) long long numberOfItemsReconciled; // @synthesize numberOfItemsReconciled=_numberOfItemsReconciled;
-@property(nonatomic) long long stateOfDownloadJobs; // @synthesize stateOfDownloadJobs=_stateOfDownloadJobs;
-@property(nonatomic) long long stateOfOtherJobs; // @synthesize stateOfOtherJobs=_stateOfOtherJobs;
-@property(nonatomic) long long stateOfUploadJobs; // @synthesize stateOfUploadJobs=_stateOfUploadJobs;
 @property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) long long xpcActivityDasdContext; // @synthesize xpcActivityDasdContext=_xpcActivityDasdContext;
-@property(nonatomic) _Bool xpcActivityIsActive; // @synthesize xpcActivityIsActive=_xpcActivityIsActive;
-@property(nonatomic) _Bool xpcActivityRegisteredWithDuet; // @synthesize xpcActivityRegisteredWithDuet=_xpcActivityRegisteredWithDuet;
-@property(nonatomic) unsigned long long xpcActivityTimeSinceLastAbleToRun; // @synthesize xpcActivityTimeSinceLastAbleToRun=_xpcActivityTimeSinceLastAbleToRun;
-@property(nonatomic) unsigned long long xpcActivityTimeSinceLastActivation; // @synthesize xpcActivityTimeSinceLastActivation=_xpcActivityTimeSinceLastActivation;
-@property(nonatomic) unsigned long long xpcActivityTimeSinceLastRegistration; // @synthesize xpcActivityTimeSinceLastRegistration=_xpcActivityTimeSinceLastRegistration;
 
 @end
 

@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLngE7, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDISO3166Code
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_countryCode;
-    GEOLatLngE7 *_location;
-    NSString *_subdivisonCode;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isDisputed;
-    struct {
-        unsigned int has_isDisputed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_location:1;
-        unsigned int read_subdivisonCode:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)bsStartSampleId;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)ialDuplicateAnchors;
+- (id)_eraseSequentialDuplicateAnchors;
 - (id)ðÄ;
 - (void);
 

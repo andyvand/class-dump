@@ -5,5 +5,8 @@
 //
 
 @protocol MSStreamsProtocolDelegate
+
+@optional
+- (void)sync, no domain(s) specified;
 @end
 

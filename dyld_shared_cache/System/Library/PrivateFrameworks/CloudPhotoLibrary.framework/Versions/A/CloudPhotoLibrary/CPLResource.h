@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLResourceIdentity, CPLScopedIdentifier, NSString;
+@class CPLResourceIdentity;
 
 @interface CPLResource
 {
     unsigned long long _backgroundDownloadTaskIdentifier;
-    _Bool _canGenerateDerivative;
-    CPLResourceIdentity *_identity;
-    CPLScopedIdentifier *_itemScopedIdentifier;
-    unsigned long long _resourceType;
-    unsigned long long _sourceResourceType;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool canGenerateDerivative; // @synthesize canGenerateDerivative=_canGenerateDerivative;
 @property(retain, nonatomic) CPLResourceIdentity *identity; // @synthesize identity=_identity;
-@property(copy, nonatomic) NSString *itemIdentifier;
-@property(copy, nonatomic) CPLScopedIdentifier *itemScopedIdentifier; // @synthesize itemScopedIdentifier=_itemScopedIdentifier;
-@property(nonatomic) unsigned long long resourceType; // @synthesize resourceType=_resourceType;
-@property(nonatomic) unsigned long long sourceResourceType; // @synthesize sourceResourceType=_sourceResourceType;
 @end
 

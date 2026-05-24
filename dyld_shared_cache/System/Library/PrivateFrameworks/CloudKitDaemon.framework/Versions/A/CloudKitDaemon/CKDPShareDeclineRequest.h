@@ -4,45 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPProtectionInfo, CKDPShareIdentifier, NSString;
+@class NSString;
 
 @interface CKDPShareDeclineRequest
 {
     NSString *_participantId;
-    CKDPProtectionInfo *_protectionInfo;
-    CKDPShareIdentifier *_shareId;
 }
 
 + (id);
-- (void);
+- (void)configurationProvider;
+- (id)0;
+- (_Bool)roup definitions must contain a non-empty name;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned int);
+- (id)eB;
 - (_Bool);
 - (void);
+- (void);
+- (unsigned long long)void *, CFDictionaryRef);
+- (_Bool);
+- (unsigned int)@9;
+- (_Bool);
+- (void)w
+;
 - (id);
 - (void);
 - (id);
-- (Class)erID:databaseScope: /* Error: Ran out of types for this method. */;
+- (Class)initWithContainerID:databaseScope: /* Error: Ran out of types for this method. */;
 - (id),V_deviceHardwareVersion;
 - (void);
 - (void)ø;
 - (_Bool)ion for app site association data completed with success:%@%@%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasParticipantId;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(retain, nonatomic) NSString *participantId; // @synthesize participantId=_participantId;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
 
 @end
 

@@ -6,29 +6,21 @@
 
 #import <Photos/PHImportSource.h>
 
-@class NSArray, NSDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PHImportUrlSource : PHImportSource
 {
     NSObject<OS_dispatch_queue> *_pendingAssetDataRequestQueue;
-    NSObject<OS_dispatch_queue> *_activeAssetDataRequestQueue;
-    NSObject<OS_dispatch_semaphore> *_concurrentAssetDataRequestSemaphore;
-    NSMutableSet *_accessedURLs;
-    _Bool _isReadonlyVolume;
-    NSString *_prefix;
-    NSArray *_urls;
-    NSDictionary *_resourcePathsByIdentifier;
-    NSArray *_baseNames;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
+- (void).;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,21 +36,18 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)test_createPasskeyWithUserName:displayName:relyingPartyIdentifier:userHandle:groupID:inRecentlyDeleted:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
+- (id)available for %{public}s:%{public}s user:%{public}s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (_Bool)OnClientWithLibrary:error: /* Error: Ran out of types for this method. */;
+- (void)charactersIgnoringModifiers;
+- (_Bool)changeFailedOnClientWithLibrary:error: /* Error: Ran out of types for this method. */;
 - (void)PHImportAsset",&,N,V_base;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *baseNames; // @synthesize baseNames=_baseNames;
-@property(nonatomic) _Bool isReadonlyVolume; // @synthesize isReadonlyVolume=_isReadonlyVolume;
-@property(retain, nonatomic) NSDictionary *resourcePathsByIdentifier; // @synthesize resourcePathsByIdentifier=_resourcePathsByIdentifier;
-@property(retain, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

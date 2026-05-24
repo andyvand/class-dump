@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface OADSolidFill : OADFill
 {
     OADColor *mColor;
-    _Bool mIsColorOverridden;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);

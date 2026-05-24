@@ -4,61 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOReportedProgress, NSDate, NSMutableData, NSObject, NSProgress, NSString, NSURL, NSURLSession, NSURLSessionTask;
-@protocol GEORequestCounterTicket, OS_dispatch_queue, OS_os_log;
+@class NSURL;
 
 @interface GEOResourceLoadOperation
 {
     NSURL *_url;
-    NSURL *_proxyURL;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSURLSession *_session;
-    NSURLSessionTask *_task;
-    id <GEORequestCounterTicket> _requestCounterTicket;
-    NSString *_eTag;
-    GEOApplicationAuditToken *_auditToken;
-    NSURL *_authProxyURL;
-    struct os_unfair_lock_s _lock;
-    _Bool _requiresWiFi;
-    _Bool _preferDirectNetworking;
-    GEOReportedProgress *_progress;
-    NSObject<OS_os_log> *_log;
-    NSString *_serviceAddress;
-    NSDate *_starttime;
-    NSURL *_downloadedFileURL;
-    NSMutableData *_data;
 }
 
-- (id);
+- (id)SURL",&,V_URL;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void){;
 - (void);
 - (void);
 - (void);
+- (void){CLLocationCoordinate2D=dd},R;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ate:(id)arg1;
+- (void)removeKeysMatchingPredicate:(id)arg1;
 - (void)ntReadAllFrom can only be called once per object;
-- (id)sitRouteUpdater;
+- (id)GEOTransitRouteUpdater;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preferDirectNetworking; // @synthesize preferDirectNetworking=_preferDirectNetworking;
-@property(readonly) NSProgress *progress;
-@property(nonatomic) _Bool requiresWiFi; // @synthesize requiresWiFi=_requiresWiFi;
-@property(readonly) Class superclass;
 
 @end
 

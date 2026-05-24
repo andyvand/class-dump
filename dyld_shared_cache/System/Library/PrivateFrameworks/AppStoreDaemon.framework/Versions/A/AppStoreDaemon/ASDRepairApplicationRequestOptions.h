@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDRepairApplicationRequestOptions
 {
     NSString *_bundleID;
-    NSNumber *_accountDSID;
-    long long _claimStyle;
-    unsigned long long _exitReason;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (long long);
@@ -24,14 +21,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *accountDSID; // @synthesize accountDSID=_accountDSID;
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) long long claimStyle; // @synthesize claimStyle=_claimStyle;
-@property(nonatomic) unsigned long long exitReason; // @synthesize exitReason=_exitReason;
 
 @end
 

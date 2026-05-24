@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUFixedScalePolicy
 {
     CDStruct_1e2b2e48 _scale;
@@ -19,17 +17,10 @@
 - (CDStruct_912cb5d2);
 - (_Bool);
 - (id);
-- (id)faultNamespace;
+- (id)defaultNamespace;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) CDStruct_912cb5d2 scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

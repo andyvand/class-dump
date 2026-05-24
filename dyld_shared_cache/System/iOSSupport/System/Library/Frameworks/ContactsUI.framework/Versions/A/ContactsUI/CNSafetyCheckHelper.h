@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id),V_capabilities;
 - (void);
 - (void);
-- (id);
+- (id)quickCheckForNeedsContainerMigration;
 
 @end
 

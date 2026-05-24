@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
-+ (void);
++ (id)== &pg_query__alter_default_privileges_stmt__descriptor;
++ (void)]A<;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):(id)arg1 %{public}@ due to deferral;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ackCameraCaptureDuration:(id)arg1 %u;
 - (id);
 - (id);
 - (void)äúÿúÿDúÿhúÿúÿ°úÿìúÿúÿ4úÿXúÿúÿ¸úÿÜúÿ;

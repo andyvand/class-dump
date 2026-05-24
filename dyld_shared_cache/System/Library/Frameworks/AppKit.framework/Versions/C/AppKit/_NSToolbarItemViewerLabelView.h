@@ -15,28 +15,26 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)UZyrJHlX635ocWEjBkt9YA;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize)getUnderlyingHTTPConnectionInfoWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)p:can't do this with a dispatch based scheduling set /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
+- (double)TLSFailureEvent;
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (long long);
-- (_Bool)ks;
+- (long long)erShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
+- (_Bool)NSPasteboardReportsLeaks;
 - (void)D could not be handled because %@ cannot open files in the \U201C%@\U201D format.;
 - (struct NSEdgeInsets)AXGrid;
 - (void);
 
 // Remaining properties
-@property __weak NSToolbarItem *item;
-@property _Bool showingRollover;
 @property long long state;
 
 @end

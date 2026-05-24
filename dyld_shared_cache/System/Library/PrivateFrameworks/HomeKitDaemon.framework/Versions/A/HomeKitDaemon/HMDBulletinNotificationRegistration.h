@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSSet;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinNotificationRegistration
@@ -17,20 +17,19 @@ __attribute__((visibility("hidden")))
 + (_Bool)¨Ä:ä¯¨ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)4A;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id)ionID;
+- (id)executionSessionID;
 - (id)le handling did start stream callback:%@ /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (void)æÊ;
 
 // Remaining properties
 @property(readonly, copy) NSSet *conditions; // @synthesize conditions=_conditions;
-@property(readonly, copy) NSPredicate *predicate;
 
 @end
 

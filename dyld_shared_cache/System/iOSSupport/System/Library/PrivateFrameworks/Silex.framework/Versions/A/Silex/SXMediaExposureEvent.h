@@ -9,7 +9,6 @@
 @interface SXMediaExposureEvent : SXMediaEvent
 {
     unsigned long long _numberOfImagesExposed;
-    unsigned long long _numberOfImages;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfImages; // @synthesize numberOfImages=_numberOfImages;
 @property(nonatomic) unsigned long long numberOfImagesExposed; // @synthesize numberOfImagesExposed=_numberOfImagesExposed;
 
 @end

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGraphicsContext, NSView, NSWindow;
+@class NSView;
 
 @interface NSSurface
 {
     NSView *_view;
-    NSWindow *_window;
-    struct CGRect _frame;
-    unsigned int _surfaceID;
-    unsigned int _backingStore;
-    int _saveWeighting;
-    NSGraphicsContext *_graphicsContext;
-    _Atomic _Bool _focused;
-    struct {
-        unsigned int opaque:1;
-        unsigned int orderedIn:1;
-        unsigned int ordersOutWhileAlphaValueIsZero:1;
-        unsigned int deferSync:1;
-        unsigned int needsDisplay:1;
-        unsigned int reserved:27;
-    } _sFlags;
-    int _lastScreenNumber;
-    double _lastResolution;
-    double _alphaValue;
 }
 
 - (void);
@@ -43,7 +25,7 @@
 - (int);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);
@@ -51,7 +33,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ple.networkextension;
 - (_Bool);
 - (void);
 - (void);
@@ -59,32 +41,32 @@
 - (void);
 - (void);
 - (void);
+- (void)write:handler: /* Error: Ran out of types for this method. */;
+- (void)currentProcess;
+- (void)%x) invalid - encrypted?;
+- (struct CGRect)he_response WHERE time_stamp >= "%s");
+- (void)olicy, b.response_object, b.proto_props, d.isDataOnFS, d.receiver_data, b.request_object, b.user_info, r.time_stamp FROM cfurl_cache_response r, cfurl_cache_blob_data b, cfurl_cache_receiver_data d WHERE r.request_key=%q AND b.entry_ID=r.entry_ID AND b.entry_ID=d.entry_ID;;
+- (struct CGSRegionObject *)sDataOnFS,receiver_data FROM cfurl_cache_receiver_data WHERE entry_ID=%q;
+- (void)DB=%@ pragma wal enable - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (double)CFURLRequestSetHTTPCookieStorageAcceptPolicy_block_invoke;
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (unsigned int);
 - (struct CGRect);
-- (void);
-- (struct CGSRegionObject *);
-- (void);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
-- (struct CGRect);
-- (void)resentation: /* Error: Ran out of types for this method. */;
-- (double)nts;
-- (void)angedCount;
-- (id)omTargetWindow: /* Error: Ran out of types for this method. */;
+- (void)setPropertyListRepresentation: /* Error: Ran out of types for this method. */;
+- (double)dataSourceMatchesCurrentCounts;
+- (void)_verticalScrollerStateChangedCount;
+- (id)_regularTabMergeOfWindowsFromTargetWindow: /* Error: Ran out of types for this method. */;
 - (void)T@"NSCoordinateSpace",N,R;
-- (void)owTabsVCMDebugComparison;
+- (void)NSSolariumWindowTabsVCMDebugComparison;
 - (_Bool);
 - (id)ºC;
 - (_Bool)(sB;

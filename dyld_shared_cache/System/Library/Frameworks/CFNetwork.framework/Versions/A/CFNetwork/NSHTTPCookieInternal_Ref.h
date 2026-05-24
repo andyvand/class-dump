@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct CompactHTTPCookieReference *_fromRef;
 }
 
-- (void);
+- (void)rtXMajor is uninitialized;
 - (id);
 - (id);
 - (struct HTTPCookie *);

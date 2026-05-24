@@ -9,21 +9,19 @@
 @interface AFSpeechAcousticFeature
 {
     NSArray *_acousticFeatureValuePerFrame;
-    double _frameDuration;
 }
 
-+ (_Bool);
++ (_Bool)`R;
 - (id);
 - (id);
-- (double);
-- (id);
+- (double)Ti;
+- (id);
 - (void);
-- (id);
-- (void)fromCommandWithIdentifier:asChildrenOfItemWithIdentifier:isSupplemental:isImmersiveExperience:isPersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (void)_addItemsForAceViews:withDialogPhase:fromCommandWithIdentifier:asChildrenOfItemWithIdentifier:isSupplemental:isImmersiveExperience:isPersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *acousticFeatureValuePerFrame; // @synthesize acousticFeatureValuePerFrame=_acousticFeatureValuePerFrame;
-@property(readonly, nonatomic) double frameDuration; // @synthesize frameDuration=_frameDuration;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PromotedContentUI.VisibilityChecker
 {
     id visibilityOperationLimit;
-    id visibilityWorkQueue;
-    id visibilityOperationCount;
 }
 
 @end

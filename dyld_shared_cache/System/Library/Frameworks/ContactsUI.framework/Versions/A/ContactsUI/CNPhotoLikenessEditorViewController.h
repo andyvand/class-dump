@@ -6,46 +6,28 @@
 
 #import <ContactsUI/CNLikenessEditorViewController.h>
 
-@class CNPhotoLikenessEditorView, MLMediaLibrary, NSArray, NSArrayController, NSImage, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSString, NSTreeController;
-@protocol CNCancelable;
+@class CNPhotoLikenessEditorView;
 
 @interface CNPhotoLikenessEditorViewController : CNLikenessEditorViewController
 {
     _Bool _viewHasLoaded;
-    _Bool _userSetup;
-    MLMediaLibrary *_mediaLibrary;
-    NSImage *_image;
-    NSMutableArray *_visibleRootGroups;
-    CNPhotoLikenessEditorView *_mainView;
-    NSMutableDictionary *_rootGroupsByMediaSourceIdentifier;
-    NSMutableArray *_rootGroups;
-    NSTreeController *_groupsTreeController;
-    NSArrayController *_objectsArrayController;
-    NSArrayController *_defaultPhotosArrayController;
-    NSMutableSet *_observedMediaSources;
-    NSSet *_foundSources;
-    unsigned long long _numRootGroupsLoaded;
-    NSArray *_defaultPhotos;
-    NSMutableDictionary *_rootGroupIDToObjectMap;
-    id <CNCancelable> _imageRepresentationOfItemChangedToken;
-    struct CGRect _cropRect;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (void);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)kb;
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -78,60 +60,35 @@
 - (id);
 - (void);
 - (long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)T(;
 - (void);
-- (void);
-- (struct CGImage *);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@9I;
+- (struct CGImage *);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (struct CGRect)ontactCardWarningFormatter;
+- (void);
+- (void)?;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct CGRect)contactCardWarningFormatter;
 
 // Remaining properties
-@property struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSArray *defaultPhotos; // @synthesize defaultPhotos=_defaultPhotos;
-@property(retain) NSArrayController *defaultPhotosArrayController; // @synthesize defaultPhotosArrayController=_defaultPhotosArrayController;
-@property(readonly, copy) NSString *description;
-@property(retain) NSSet *foundSources; // @synthesize foundSources=_foundSources;
-@property(retain) NSTreeController *groupsTreeController; // @synthesize groupsTreeController=_groupsTreeController;
-@property(readonly) unsigned long long hash;
-@property(retain) NSImage *image; // @synthesize image=_image;
-@property(retain) id <CNCancelable> imageRepresentationOfItemChangedToken; // @synthesize imageRepresentationOfItemChangedToken=_imageRepresentationOfItemChangedToken;
 @property(retain) CNPhotoLikenessEditorView *mainView; // @synthesize mainView=_mainView;
-@property(retain) MLMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property unsigned long long numRootGroupsLoaded; // @synthesize numRootGroupsLoaded=_numRootGroupsLoaded;
-@property(retain) NSArrayController *objectsArrayController; // @synthesize objectsArrayController=_objectsArrayController;
-@property(retain) NSMutableSet *observedMediaSources; // @synthesize observedMediaSources=_observedMediaSources;
-@property(retain) NSMutableDictionary *rootGroupIDToObjectMap; // @synthesize rootGroupIDToObjectMap=_rootGroupIDToObjectMap;
-@property(retain) NSMutableArray *rootGroups; // @synthesize rootGroups=_rootGroups;
-@property(retain) NSMutableDictionary *rootGroupsByMediaSourceIdentifier; // @synthesize rootGroupsByMediaSourceIdentifier=_rootGroupsByMediaSourceIdentifier;
-@property(readonly) Class superclass;
-@property _Bool userSetup; // @synthesize userSetup=_userSetup;
-@property(readonly) double viewFinderDiameter;
-@property _Bool viewHasLoaded; // @synthesize viewHasLoaded=_viewHasLoaded;
-@property(retain) NSMutableArray *visibleRootGroups; // @synthesize visibleRootGroups=_visibleRootGroups;
 
 @end
 

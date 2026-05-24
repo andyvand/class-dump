@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSession_Tundra, NSMutableArray;
+@class AVCaptureSession_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureOutputInternal_Tundra
 {
     AVCaptureSession_Tundra *session;
-    NSMutableArray *connections;
-    struct CGAffineTransform metadataTransform;
-    double rollAdjustment;
-    struct os_unfair_lock_s internalLock;
-    _Bool physicallyMirrorsVideo;
 }
 
 @end

@@ -6,14 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFWiFiManager, NSObject, _HMFNetManagerWoWAssertion;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMFNetManager : HMFObject
 {
     NSObject<OS_dispatch_queue> *_clientQueue;
-    _HMFNetManagerWoWAssertion *_wowAssertion;
-    HMFWiFiManager *_wifiManager;
 }
 
 + (id);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, nonatomic) HMFWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property __weak _HMFNetManagerWoWAssertion *wowAssertion; // @synthesize wowAssertion=_wowAssertion;
 
 @end
 

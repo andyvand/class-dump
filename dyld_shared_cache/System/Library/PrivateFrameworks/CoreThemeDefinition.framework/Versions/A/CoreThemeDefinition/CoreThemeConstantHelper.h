@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CoreThemeConstantHelper
 {
     unsigned long long _identifier;
-    NSString *_label;
-    NSString *_displayName;
 }
 
 + (id);
@@ -18,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)P;
 
 @end
 

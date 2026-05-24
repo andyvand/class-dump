@@ -13,11 +13,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)T;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)VendorEventData=ICCSIIiff[6f]f[6s]fIiSB[6I]B[3f][3f]fB}16@0:(id)arg1 8;
 - (id);
 - (void);
 

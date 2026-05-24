@@ -5,5 +5,6 @@
 //
 
 @protocol MTLIndirectComputeCommandSPI
+- (_Bool);
 @end
 

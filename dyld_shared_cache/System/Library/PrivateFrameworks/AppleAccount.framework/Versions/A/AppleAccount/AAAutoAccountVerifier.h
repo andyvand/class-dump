@@ -11,13 +11,14 @@
     ACAccount *_account;
 }
 
-- (void);
-- (void);
+- (void)nary type mismatch;
+- (void)rapTokenWithACMContext:Maximum length of %d from argument exceeded
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void)Features:forAccount: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ithType;
+- (void)filteredServerProvidedFeatures:forAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

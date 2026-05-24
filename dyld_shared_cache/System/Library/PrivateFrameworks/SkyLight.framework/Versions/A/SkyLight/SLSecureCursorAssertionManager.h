@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface SLSecureCursorAssertionManager
 {
     NSHashTable *_strongAssertionUUIDs;
-    NSMapTable *_weakAssertionMap;
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitHistoryAnalyzerContext.m;
+- (void)udkit.share.persist;
+- (id)@' was skipped because it was configured with databaseScope == CKDatabaseShared.;
+- (void)nship identified by the keyPath.;
+- (void)_master m WHERE d.name = m.name AND d.aggregate = TRUE;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *strongAssertionUUIDs; // @synthesize strongAssertionUUIDs=_strongAssertionUUIDs;
-@property(readonly, nonatomic) NSMapTable *weakAssertionMap; // @synthesize weakAssertionMap=_weakAssertionMap;
 
 @end
 

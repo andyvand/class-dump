@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)lass getCKAllowedSharingOptionsClass(void)_block_invoke;
 - (void)D;

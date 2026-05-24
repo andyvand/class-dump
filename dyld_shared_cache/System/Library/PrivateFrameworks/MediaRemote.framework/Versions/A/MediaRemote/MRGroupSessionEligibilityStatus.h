@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRMediaUserState, NSArray;
-
 @interface MRGroupSessionEligibilityStatus
 {
     _Bool _isEligibleForHostingGroupSession;
-    _Bool _isEligibleForHostingGroupSessionExcludingAcknowledgements;
-    _Bool _isEligibleForJoiningGroupSession;
-    _Bool _isManateeEnabled;
-    _Bool _idsAccountIsValid;
-    unsigned char _routeType;
-    _Bool _routeIsValidForHosting;
-    unsigned long long _mediaAccountHostingState;
-    unsigned long long _mediaAccountJoiningState;
-    MRMediaUserState *_currentMediaUserState;
-    NSArray *_mediaUserStates;
 }
 
 + (_Bool);
+- (void)P7(P6d;
+- (void)';
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Z;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -41,12 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned char);
+- (void)core;
+- (unsigned char)TicketUsed,V_greenCarTicketUsed;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h@9;
 - (void);
 - (id);
 - (void);
@@ -55,17 +43,7 @@
 - (void)ror",C,N,V_error;
 
 // Remaining properties
-@property(retain, nonatomic) MRMediaUserState *currentMediaUserState; // @synthesize currentMediaUserState=_currentMediaUserState;
-@property(nonatomic) _Bool idsAccountIsValid; // @synthesize idsAccountIsValid=_idsAccountIsValid;
 @property(nonatomic) _Bool isEligibleForHostingGroupSession; // @synthesize isEligibleForHostingGroupSession=_isEligibleForHostingGroupSession;
-@property(nonatomic) _Bool isEligibleForHostingGroupSessionExcludingAcknowledgements; // @synthesize isEligibleForHostingGroupSessionExcludingAcknowledgements=_isEligibleForHostingGroupSessionExcludingAcknowledgements;
-@property(nonatomic) _Bool isEligibleForJoiningGroupSession; // @synthesize isEligibleForJoiningGroupSession=_isEligibleForJoiningGroupSession;
-@property(nonatomic) _Bool isManateeEnabled; // @synthesize isManateeEnabled=_isManateeEnabled;
-@property(nonatomic) unsigned long long mediaAccountHostingState; // @synthesize mediaAccountHostingState=_mediaAccountHostingState;
-@property(nonatomic) unsigned long long mediaAccountJoiningState; // @synthesize mediaAccountJoiningState=_mediaAccountJoiningState;
-@property(retain, nonatomic) NSArray *mediaUserStates; // @synthesize mediaUserStates=_mediaUserStates;
-@property(nonatomic) _Bool routeIsValidForHosting; // @synthesize routeIsValidForHosting=_routeIsValidForHosting;
-@property(nonatomic) unsigned char routeType; // @synthesize routeType=_routeType;
 
 @end
 

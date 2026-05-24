@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NCMaterialLayer
 {
     NSString *_groupName;
-    CALayer *_backdropLayer;
-    CALayer *_tintLayer;
-    unsigned char _materialStyle;
-    unsigned long long _material;
 }
 
-+ (_Bool);
++ (_Bool)updateScreenSharingStatusAndViews;
 + (void);
-- (void);
-- (unsigned char);
-- (id);
-- (void);
+- (void)updateStyleForCurrentEffect;
+- (unsigned char)updateSnapshotAnimatingDifferences:completion: /* Error: Ran out of types for this method. */;
+- (id)updateShortcutItemsWithConversations:(unsigned long long)arg1;
+- (void)updateSharedProfileNavigationBarPaletteVisibility;
 - (void);
 - (unsigned long long);
 - (void);
@@ -29,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long material; // @synthesize material=_material;
-@property(nonatomic) unsigned char materialStyle; // @synthesize materialStyle=_materialStyle;
 
 @end
 

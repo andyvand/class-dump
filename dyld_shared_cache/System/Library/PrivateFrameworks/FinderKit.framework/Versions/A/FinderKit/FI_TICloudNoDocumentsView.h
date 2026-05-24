@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)64^@72;
 - (void);
 - (void)(à
 ;

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAddressFormatConfiguration, PKNameComponentFormatConfiguration;
+@class PKNameComponentFormatConfiguration;
 
 @interface PKRegionalContactFormatConfiguration
 {
     PKNameComponentFormatConfiguration *_nameComponentFormatConfiguration;
-    PKAddressFormatConfiguration *_addressFormatConfiguration;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)ementIdentifiers:(id)arg1;
-- (void)pgrade;
+- (id)J9;
+- (void)_iWLANStatus;
+- (id)iso18013BlobsForSecureElementIdentifiers:(id)arg1;
+- (void)passcodeUpgrade;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAddressFormatConfiguration *addressFormatConfiguration; // @synthesize addressFormatConfiguration=_addressFormatConfiguration;
 @property(readonly, nonatomic) PKNameComponentFormatConfiguration *nameComponentFormatConfiguration; // @synthesize nameComponentFormatConfiguration=_nameComponentFormatConfiguration;
 
 @end

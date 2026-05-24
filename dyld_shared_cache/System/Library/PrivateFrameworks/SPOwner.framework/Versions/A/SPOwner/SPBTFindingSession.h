@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString, NSUUID, SPBTFindingSessionConfig;
-@protocol OS_dispatch_queue, SPBTFindingXPCProtocol;
+@class NSUUID, SPBTFindingSessionConfig;
 
 @interface SPBTFindingSession
 {
     SPBTFindingSessionConfig *_config;
-    CDUnknownBlockType _sessionInvalidatedCallback;
-    CDUnknownBlockType _didUpdateBTRSSIMeasurementCallback;
-    CDUnknownBlockType _didUpdateBTRSSIResultCallback;
-    CDUnknownBlockType _findingSessionErrorCallback;
-    NSUUID *_beacon;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPBTFindingXPCProtocol> _proxy;
 }
 
 + (id);
@@ -38,19 +27,19 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)_;
+- (id)`;
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -60,23 +49,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *beacon; // @synthesize beacon=_beacon;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy, nonatomic) SPBTFindingSessionConfig *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didUpdateBTRSSIMeasurementCallback; // @synthesize didUpdateBTRSSIMeasurementCallback=_didUpdateBTRSSIMeasurementCallback;
-@property(copy, nonatomic) CDUnknownBlockType didUpdateBTRSSIResultCallback; // @synthesize didUpdateBTRSSIResultCallback=_didUpdateBTRSSIResultCallback;
-@property(copy, nonatomic) CDUnknownBlockType findingSessionErrorCallback; // @synthesize findingSessionErrorCallback=_findingSessionErrorCallback;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPBTFindingXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidatedCallback; // @synthesize sessionInvalidatedCallback=_sessionInvalidatedCallback;
-@property(readonly) Class superclass;
 
 @end
 

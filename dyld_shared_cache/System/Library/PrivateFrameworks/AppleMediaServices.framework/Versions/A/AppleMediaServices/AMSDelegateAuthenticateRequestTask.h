@@ -6,12 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSBag, NSString;
+@class ACAccount, AMSBag;
 
 @interface AMSDelegateAuthenticateRequestTask : AMSTask
 {
     ACAccount *_account;
-    AMSBag *_bag;
 }
 
 + (id)Iò¶ºÀr.&ã">ï?õ¬Âv¦]%!êd©þjÓ8üMÜ£·»¦ü1aetiçrõø ÿ5zb§Zïûo+R2ìCÒ;T¥ÜbFLÇü}4qÿ69vW0øß?+ÛpÊù0´­Q¶K^ñªÁûÊ»s¼®+hÏ]÷Jú	M­nu_]å¥bjÍÈï¸h£Ó* 4tÐK?!+|dôujÑÐ;&bâÌ¼jæ
@@ -20,7 +19,7 @@
 + (id)8;
 - (id);
 - (id);
-- (id);
+- (id)oreID for URL;
 - (id);
 - (id)failed. error = %{public}@;
 - (void)Ï¤¶¾ãsô×++t¡MïUî¾ÚPöMÙ.Y¢¥NÏîvbºvT½"$_kêAj«öÞxTÑÇ¨©+ê§`ÒS¨ôþÍ÷IxO$.Ësxñ{Åù.+xÃ³]ôçA'Àèûõ±I;
@@ -28,15 +27,7 @@
 ¾«ÂnQg?#ñ]úFB#9®R÷ßh*ÀU;hRªGÁïÛ:¤¬À|©TªºoìY¾zË°Ï!BQ¸Ìa="ðOVÆ´:ÏwÖ7KÐs'ùo*Åé¾br1ë»8ÅN /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
 @property(readonly) AMSBag *bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

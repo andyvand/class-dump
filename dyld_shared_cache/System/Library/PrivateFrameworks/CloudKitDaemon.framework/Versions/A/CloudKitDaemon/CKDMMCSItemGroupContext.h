@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDMMCS, CKDMMCSItem, CKDMMCSItemGroup, CKSignpost, NSMapTable, NSObject;
-@protocol CDKMMCSItemGroupContextDelegate, CKDMMCSOperationMethods;
+@protocol CDKMMCSItemGroupContextDelegate;
 
 @interface CKDMMCSItemGroupContext
 {
     _Bool _shouldCloneFileInAssetCache;
-    NSObject<CKDMMCSOperationMethods> *_operation;
-    id _operationInfo;
-    id <CDKMMCSItemGroupContextDelegate> _conformingOperation;
-    CKSignpost *_signpost;
-    CKDMMCS *_MMCS;
-    CKDMMCSItemGroup *_itemGroup;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _commandBlock;
-    CDUnknownBlockType _startBlock;
-    CDUnknownBlockType _completionBlock;
-    CKDMMCSItem *_MMCSPackageSectionItem;
-    NSMapTable *_MMCSItemsByItemID;
-    long long _mmcsOperationType;
 }
 
 + (struct MMCSItemReaderWriter *);
-- (_Bool);
+- (_Bool)read:(id)arg1:(id *)arg2 common_OffsetDateTime;
 - (id);
 - (void);
 - (_Bool);
@@ -35,34 +21,35 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)1a;
+- (_Bool)ڰ;
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)ersFromCurrent:preferredBSS:ssidIsSplit:transitionCandidates:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)ef_containsKeyPath:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)3, 0, 0, 0, :started_at, NULL),
+       (:account, 24, 0, 0, 0, :started_at, NULL) /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -79,30 +66,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)onfig for source %@ dest %@:%s /* Error: Ran out of types for this method. */;
 - (void)°!ØGùqÛ°1Â0@ù
 × ;
-- (void)redKeysAtIndex:(id)arg1;
-- (CDUnknownBlockType);
+- (void)rootRecordDesiredKeysAtIndex:(id)arg1;
+- (CDUnknownBlockType)noteSideEffectRecordAbsent: /* Error: Ran out of types for this method. */;
 - (void)rorRef *);
 - (void)o begin container content access;
 - (id)cked key-rolling requirements for record %@. May have rolled keys as well.;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCS *MMCS; // @synthesize MMCS=_MMCS;
-@property(retain, nonatomic) NSMapTable *MMCSItemsByItemID; // @synthesize MMCSItemsByItemID=_MMCSItemsByItemID;
-@property(retain, nonatomic) CKDMMCSItem *MMCSPackageSectionItem; // @synthesize MMCSPackageSectionItem=_MMCSPackageSectionItem;
-@property(copy, nonatomic) CDUnknownBlockType commandBlock; // @synthesize commandBlock=_commandBlock;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain, nonatomic) id <CDKMMCSItemGroupContextDelegate> conformingOperation; // @synthesize conformingOperation=_conformingOperation;
-@property(retain, nonatomic) CKDMMCSItemGroup *itemGroup; // @synthesize itemGroup=_itemGroup;
-@property(nonatomic) long long mmcsOperationType; // @synthesize mmcsOperationType=_mmcsOperationType;
-@property(readonly, nonatomic) NSObject<CKDMMCSOperationMethods> *operation; // @synthesize operation=_operation;
-@property(retain, nonatomic) id operationInfo; // @synthesize operationInfo=_operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(readonly, nonatomic) CKSignpost *signpost; // @synthesize signpost=_signpost;
-@property(copy, nonatomic) CDUnknownBlockType startBlock; // @synthesize startBlock=_startBlock;
 
 @end
 

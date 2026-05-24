@@ -7,12 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepLegacyURLRedemption
 {
     id context;
-    id credential;
-    id sharedState;
-    id completion;
-    id subcredential;
-    id timeout;
-    id passLibrary;
 }
 
 - (void);

@@ -6,25 +6,22 @@
 
 #import <NaturalLanguage/NLDataProvider.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NLSplitDataProvider : NLDataProvider
 {
     NLDataProvider *_dataProvider;
-    NSArray *_indexes;
 }
 
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)wbhInputKeysDefined;
+- (unsigned long long)deviceRegion;
+- (unsigned long long)Frameworks/DictationServices.framework/Contents/MacOS/DictationServices;
+- (unsigned long long)hObjects.framework/Versions/A/Frameworks/DictationServices.framework/Contents/MacOS/DictationServices;
+- (id)16;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)0@"PHLivePhoto"8@"NSDictionary"16B24;
 - (id);
 - (void);
 - (struct __CFStringTokenizer *);

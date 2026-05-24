@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOElementDetails, GEOImpressionObjectId, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateElementImpression
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOElementDetails *_element;
-    unsigned long long _impressNonvisibleTsInMs;
-    unsigned long long _impressVisibleTsInMs;
-    GEOImpressionObjectId *_impressionObjectId;
-    NSString *_query;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _elementSource;
-    int _impressEvent;
-    struct {
-        unsigned int has_impressNonvisibleTsInMs:1;
-        unsigned int has_impressVisibleTsInMs:1;
-        unsigned int has_elementSource:1;
-        unsigned int has_impressEvent:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_element:1;
-        unsigned int read_impressionObjectId:1;
-        unsigned int read_query:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)RankingCompositeFeatures:(id)arg1;
++ (_Bool)setHasSupportClientRankingCompositeFeatures:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -45,7 +23,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -54,26 +32,26 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)CNFutureResult;
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ce music is being played now;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)2;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (id)eletingLastPathComponent;
+- (id)stringByDeletingLastPathComponent;
 - (int)Item;
 - (id)String",R,N,V_ianaTimeZoneName;
 - (id)%{public}llu / %{public}llu;
@@ -83,21 +61,7 @@
 - (void)ÿbí;
 
 // Remaining properties
-@property(retain, nonatomic) GEOElementDetails *element;
-@property(nonatomic) int elementSource;
 @property(readonly, nonatomic) _Bool hasElement;
-@property(nonatomic) _Bool hasElementSource;
-@property(nonatomic) _Bool hasImpressEvent;
-@property(nonatomic) _Bool hasImpressNonvisibleTsInMs;
-@property(nonatomic) _Bool hasImpressVisibleTsInMs;
-@property(readonly, nonatomic) _Bool hasImpressionObjectId;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(nonatomic) int impressEvent;
-@property(nonatomic) unsigned long long impressNonvisibleTsInMs;
-@property(nonatomic) unsigned long long impressVisibleTsInMs;
-@property(retain, nonatomic) GEOImpressionObjectId *impressionObjectId;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

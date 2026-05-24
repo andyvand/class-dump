@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDCloudShareMessengerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudShareMessenger
 {
     _Bool _configured;
-    NSUUID *_messageTargetUUID;
-    id <HMDCloudShareMessengerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDHome *_home;
-    CDUnknownBlockType _shareInvitationRetryHandler;
 }
 
 + (id)ù´*C;
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)_stopMonitoringSystemBlockList;
+- (void)removing token %{private}@ for %{private}@;
+- (void)@] adding token %{private}@ for %{private}@;
+- (void)0ZXMSAlVTGghJbGxpbm9pcyICSUwqBENvb2syB0NoaWNhZ286BTYwNjA2QghUaGUgTG9vcFILUyBXYWNrZXIgRHJaAzIzM2IPMjMzIFMgV2Fja2VyIERyagQ2MzA2cgxXaWxsaXMgVG93ZXKKAQdDaGljYWdvigEIVGhlIExvb3CiAQo2MDYwNi02MzA2ShIJIRqCiHnwREARgBL69LPoVcBYBGISCTJrzmZ68ERAEfH7kujA6FXAcMI7;
 - (void);
 - (id);
+- (id);
+- (void)`B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -50,23 +44,6 @@ __attribute__((visibility("hidden")))
 - (id)0zÿ¹°A;
 
 // Remaining properties
-@property(getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCloudShareMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(copy) CDUnknownBlockType shareInvitationRetryHandler; // @synthesize shareInvitationRetryHandler=_shareInvitationRetryHandler;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
-
 @interface UserRegistryDB
 {
     struct sqlite3 *_sqliteHandle;
-    struct sqlite3_stmt *_recordIDStatment;
-    struct sqlite3_stmt *_replaceStatment;
-    struct sqlite3_stmt *_deleteStatment;
-    struct sqlite3_stmt *_insertWatch;
-    struct sqlite3_stmt *_updateWatch;
-    struct sqlite3_stmt *_insertMirrorKey;
-    struct sqlite3_stmt *_updateMirrorKey;
-    struct sqlite3_stmt *_markMirrorKey;
-    struct sqlite3_stmt *_deleteMirrorKeys;
-    struct sqlite3_stmt *_resetCurrentMirrorKey;
-    struct sqlite3_stmt *_insertEscrowKey;
-    struct sqlite3_stmt *_updateEscrowKey;
-    struct sqlite3_stmt *_deleteEscrowKey;
-    struct sqlite3_stmt *_queryEscrowKey;
-    struct sqlite3_stmt *_queryEscrowKeysAll;
-    struct sqlite3_stmt *_insertWatchKey;
-    struct sqlite3_stmt *_queryMissingKeys;
-    struct sqlite3_stmt *_queryWatches;
-    NSObject<OS_os_log> *_oslog;
-    NSString *_dsid;
 }
 
 - (struct sqlite3_stmt *);
@@ -47,20 +24,20 @@
 - (struct sqlite3_stmt *);
 - (_Bool);
 - (struct sqlite3_stmt *);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)P;
 - (struct sqlite3 *);
 - (struct sqlite3_stmt *);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (struct sqlite3_stmt *);
 - (struct sqlite3_stmt *);
 - (id);
@@ -80,51 +57,31 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (struct sqlite3_stmt *);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (void)9h;
 - (void);
-- (void);
-- (struct sqlite3_stmt *);
+- (struct sqlite3_stmt *)triggered;
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct sqlite3_stmt *);
-- (void);
+- (struct sqlite3_stmt *)__swift5_protos;
+- (void)session_canResumeWithRequestedInterface;
 - (struct sqlite3_stmt *);
 - (id);
-- (struct sqlite3_stmt *);
+- (struct sqlite3_stmt *);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)used:%@ /* Error: Ran out of types for this method. */;
+- (void)rvices observer;
 
 // Remaining properties
-@property struct sqlite3_stmt *deleteEscrowKey; // @synthesize deleteEscrowKey=_deleteEscrowKey;
-@property struct sqlite3_stmt *deleteMirrorKeys; // @synthesize deleteMirrorKeys=_deleteMirrorKeys;
-@property struct sqlite3_stmt *deleteStatment; // @synthesize deleteStatment=_deleteStatment;
-@property(retain) NSString *dsid; // @synthesize dsid=_dsid;
-@property struct sqlite3_stmt *insertEscrowKey; // @synthesize insertEscrowKey=_insertEscrowKey;
-@property struct sqlite3_stmt *insertMirrorKey; // @synthesize insertMirrorKey=_insertMirrorKey;
-@property struct sqlite3_stmt *insertWatch; // @synthesize insertWatch=_insertWatch;
-@property struct sqlite3_stmt *insertWatchKey; // @synthesize insertWatchKey=_insertWatchKey;
-@property struct sqlite3_stmt *markMirrorKey; // @synthesize markMirrorKey=_markMirrorKey;
-@property(retain) NSObject<OS_os_log> *oslog; // @synthesize oslog=_oslog;
-@property struct sqlite3_stmt *queryEscrowKey; // @synthesize queryEscrowKey=_queryEscrowKey;
-@property struct sqlite3_stmt *queryEscrowKeysAll; // @synthesize queryEscrowKeysAll=_queryEscrowKeysAll;
-@property struct sqlite3_stmt *queryMissingKeys; // @synthesize queryMissingKeys=_queryMissingKeys;
-@property struct sqlite3_stmt *queryWatches; // @synthesize queryWatches=_queryWatches;
-@property struct sqlite3_stmt *recordIDStatment; // @synthesize recordIDStatment=_recordIDStatment;
-@property struct sqlite3_stmt *replaceStatment; // @synthesize replaceStatment=_replaceStatment;
-@property struct sqlite3_stmt *resetCurrentMirrorKey; // @synthesize resetCurrentMirrorKey=_resetCurrentMirrorKey;
 @property struct sqlite3 *sqliteHandle; // @synthesize sqliteHandle=_sqliteHandle;
-@property struct sqlite3_stmt *updateEscrowKey; // @synthesize updateEscrowKey=_updateEscrowKey;
-@property struct sqlite3_stmt *updateMirrorKey; // @synthesize updateMirrorKey=_updateMirrorKey;
-@property struct sqlite3_stmt *updateWatch; // @synthesize updateWatch=_updateWatch;
 
 @end
 

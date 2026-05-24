@@ -8,8 +8,6 @@
 {
     id delegate;
     id _accessoryID;
-    id _client;
-    id _subscriptions;
 }
 
 @end

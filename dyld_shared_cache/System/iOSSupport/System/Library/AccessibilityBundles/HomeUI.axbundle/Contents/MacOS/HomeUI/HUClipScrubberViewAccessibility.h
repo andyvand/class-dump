@@ -14,10 +14,10 @@
 + (id);
 + (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, NSMutableDictionary, NSString;
 @protocol MPCPlaybackEngineEventConsumer;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEngineEventStreamSubscription
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasEnqueuedIncrementalFlush;
-    _Bool _hasUnhandledEvents;
-    _Bool _didHandleLastFlushedEvents;
-    id <MPCPlaybackEngineEventConsumer> _consumer;
-    MPCPlaybackEngineEventStream *_eventStream;
-    NSString *_streamID;
-    unsigned long long _lastEventSuccessTimestamp;
-    unsigned long long _maximumEventDeliveryTimestamp;
-    NSMutableDictionary *_mutatingEventHandlers;
-    NSMutableDictionary *_eventHandlers;
 }
 
 - (void);
@@ -33,34 +22,20 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)unt.framework/Versions/A/AppleAccount;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__DATA_CONST;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id)gate of lease prevention [engineDidPauseForLeaseEnd:] - item:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)PlaybackContext:| adding data source [] sil=%{public}@ position=Last section=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCPlaybackEngineEventConsumer> consumer; // @synthesize consumer=_consumer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didHandleLastFlushedEvents; // @synthesize didHandleLastFlushedEvents=_didHandleLastFlushedEvents;
-@property(readonly, nonatomic) NSMutableDictionary *eventHandlers; // @synthesize eventHandlers=_eventHandlers;
-@property(readonly, nonatomic) __weak MPCPlaybackEngineEventStream *eventStream; // @synthesize eventStream=_eventStream;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long lastEventSuccessTimestamp; // @synthesize lastEventSuccessTimestamp=_lastEventSuccessTimestamp;
-@property(nonatomic) unsigned long long maximumEventDeliveryTimestamp; // @synthesize maximumEventDeliveryTimestamp=_maximumEventDeliveryTimestamp;
-@property(readonly, nonatomic) NSMutableDictionary *mutatingEventHandlers; // @synthesize mutatingEventHandlers=_mutatingEventHandlers;
-@property(readonly, copy, nonatomic) NSString *streamID; // @synthesize streamID=_streamID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PKEncryptedPushProvisioningTarget
 {
     NSData *_ephemeralPublicKey;
-    NSData *_publicKeyHash;
-    NSData *_data;
-    unsigned long long _status;
-    unsigned long long _source;
-    unsigned long long _targetDevice;
-    NSString *_verificationCode;
-    NSString *_secondarySource;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
-- (void);
+- (void)	_	ki;
 - (_Bool);
 - (id);
 - (id);
@@ -36,25 +29,18 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)highTxPerTrue;
+- (id)hasTransmitDuration;
+- (void)];
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void)edPayments;
+- (void)_scheduledPayments;
 - (unsigned long long)nnhD ;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(copy, nonatomic) NSData *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(retain, nonatomic) NSString *secondarySource; // @synthesize secondarySource=_secondarySource;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long targetDevice; // @synthesize targetDevice=_targetDevice;
-@property(retain, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
 
 @end
 

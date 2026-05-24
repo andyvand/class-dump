@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadGoodnessScoreOverrideState, NSString;
+@class AFMyriadGoodnessScoreOverrideState;
 
 @interface _AFMyriadGoodnessScoreOverrideStateMutation
 {
     AFMyriadGoodnessScoreOverrideState *_base;
-    long long _overrideOption;
-    NSString *_reason;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasOverrideOption:1;
-        unsigned int hasReason:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (long long);
 - (_Bool);
 - (void);
-- (id)tendingWithReason:(id)arg1;
-- (void)thography;
+- (id)stopAttendingWithReason:(id)arg1;
+- (void)_orthography;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

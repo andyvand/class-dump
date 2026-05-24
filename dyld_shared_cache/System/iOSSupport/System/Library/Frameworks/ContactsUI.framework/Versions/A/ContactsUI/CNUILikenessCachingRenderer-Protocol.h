@@ -5,5 +5,6 @@
 //
 
 @protocol CNUILikenessCachingRenderer
+- (void)e %@;
 @end
 

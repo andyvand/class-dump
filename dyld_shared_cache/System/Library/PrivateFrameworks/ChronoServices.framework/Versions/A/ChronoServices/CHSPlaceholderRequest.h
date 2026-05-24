@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetMetrics, NSFileHandle;
+@class CHSWidgetMetrics;
 
 @interface CHSPlaceholderRequest
 {
     CHSWidgetMetrics *_metrics;
-    long long _family;
-    NSFileHandle *_fileHandle;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)k;
 - (long long);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long family; // @synthesize family=_family;
-@property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
 @property(readonly, nonatomic) CHSWidgetMetrics *metrics; // @synthesize metrics=_metrics;
 
 @end

@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothDeviceBooleanSettingResponse, NSString;
+@class AFBluetoothDeviceBooleanSettingResponse;
 
 @interface _AFBluetoothDeviceBooleanSettingResponseMutation
 {
     AFBluetoothDeviceBooleanSettingResponse *_base;
-    long long _value;
-    long long _status;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasValue:1;
-        unsigned int hasStatus:1;
-    } _mutationFlags;
 }
 
 - (long long);
 - (void);
 - (void);
-- (_Bool);
-- (long long);
-- (id)genceVoiceSelectionUpsell;
-- (void)AtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)I;
+- (long long)configurationWithPointSize:weight:scale: /* Error: Ran out of types for this method. */;
+- (id)shouldSkipIntelligenceVoiceSelectionUpsell;
+- (void)_indexPathForItemAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

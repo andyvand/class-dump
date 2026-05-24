@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)backgroundTask:didReceiveChallenge:reply: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)tocolViolation;
++ (id)CopyAllCredentialsWithAccessControlGroupIncludeLegacyKeychain;
++ (_Bool)2Oc;
 - (id);
 
 @end

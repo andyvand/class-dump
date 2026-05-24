@@ -6,52 +6,37 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SARemoteDevice : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)8;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)hOut:(id)arg1;
-- (void)ctedUserId;
+- (id);
+- (id);
+- (void);
+- (id)setNickname: /* Error: Ran out of types for this method. */;
+- (void)setAttributionPunchOut:(id)arg1;
+- (void)selectedUserId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assistantId;
-@property(copy, nonatomic) NSString *brandName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceName;
-@property(copy, nonatomic) NSString *discoveryMode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *personalDomainsAuthenticationMode;
-@property(copy, nonatomic) NSNumber *personalDomainsEnabled;
-@property(nonatomic) _Bool siriEnabled;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *userAgent;
 
 @end
 

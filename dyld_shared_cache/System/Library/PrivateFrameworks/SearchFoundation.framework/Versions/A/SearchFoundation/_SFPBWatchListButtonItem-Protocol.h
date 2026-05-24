@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBToggleButtonConfiguration, _SFPBWatchListItem;
+@class NSData, _SFPBWatchListItem;
 
 @protocol _SFPBWatchListButtonItem
+- (id);
+- (NSData *)d,S_setDownloadCancelled:,V__downloadCancelled /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId;
 @property(retain, nonatomic) _SFPBWatchListItem *watchListItem;
 @end
 

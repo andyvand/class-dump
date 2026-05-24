@@ -8,17 +8,11 @@ __attribute__((visibility("hidden")))
 @interface VCMediaControlInfo
 {
     unsigned short _bitmap;
-    unsigned long long _serializedSize;
-    id _delegate;
-    struct tagVCMediaControlInfoRealtimeDelegateProtocolVTable _delegateVTable;
-    unsigned char _version;
-    unsigned char _fecFeedbackVersion;
-    struct tagVCMediaControlVTableC _vtableC;
 }
 
 - (int);
 - (int);
-- (void);
+- (void)";
 - (int);
 - (id);
 - (_Bool);
@@ -32,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property unsigned char fecFeedbackVersion; // @synthesize fecFeedbackVersion=_fecFeedbackVersion;
 @property(readonly) unsigned long long serializedSize; // @synthesize serializedSize=_serializedSize;
-@property unsigned char version; // @synthesize version=_version;
 
 @end
 

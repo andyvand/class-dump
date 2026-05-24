@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSavePanelCustomAction;
+@class NSSavePanelCustomAction;
 
 __attribute__((visibility("hidden")))
 @interface _NSSavePanel_CustomActionContext
 {
     NSSavePanelCustomAction *_action;
-    NSArray *_urlsToActOn;
 }
 
 - (id);
-- (void);
+- (void)sult = %d);
 - (id);
 - (void)¥ýÿ?\ÿÿ;
 - (void)andleMask;
 
 // Remaining properties
 @property __weak NSSavePanelCustomAction *action; // @synthesize action=_action;
-@property(retain) NSArray *urlsToActOn; // @synthesize urlsToActOn=_urlsToActOn;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSSQLiteDatabase;
-@protocol OS_dispatch_queue;
+@class WBSSQLiteDatabase;
 
 @interface WBSSiteMetadataImageCacheSettingsSQLiteStore
 {
     WBSSQLiteDatabase *_database;
-    _Bool _isClosed;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    long long _protectionType;
-    NSURL *_databaseURL;
 }
 
 + (long long);
@@ -40,19 +35,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
 - (void);
-- (id);
+- (id)_onscreenVisibleStrokesQueue;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)argetLocale: /* Error: Ran out of types for this method. */;
+- (id)Z;
+- (void)replaceExtractedContent:withTranslatedContent:targetLocale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSSQLiteDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
 
 @end
 

@@ -11,9 +11,6 @@
 @interface HMSettingLanguageValue : HMImmutableSettingValue
 {
     NSString *_inputLanguageCode;
-    NSString *_outputVoiceLanguageCode;
-    NSString *_outputVoiceGenderCode;
-    NSString *_voiceName;
 }
 
 - (id);
@@ -26,17 +23,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)millionth;
 - (id);
-- (id);
-- (id);
-- (void)MBoundedIntegerSetting;
+- (id)6
+;
+- (id);
+- (void)HMBoundedIntegerSetting;
 
 // Remaining properties
 @property(readonly, copy) NSString *inputLanguageCode; // @synthesize inputLanguageCode=_inputLanguageCode;
-@property(readonly, copy) NSString *outputVoiceGenderCode; // @synthesize outputVoiceGenderCode=_outputVoiceGenderCode;
-@property(readonly, copy) NSString *outputVoiceLanguageCode; // @synthesize outputVoiceLanguageCode=_outputVoiceLanguageCode;
-@property(readonly, copy) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

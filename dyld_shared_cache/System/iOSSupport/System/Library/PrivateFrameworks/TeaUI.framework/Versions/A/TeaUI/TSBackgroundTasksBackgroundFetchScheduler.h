@@ -7,13 +7,11 @@
 @interface TSBackgroundTasksBackgroundFetchScheduler
 {
     id application;
-    id taskIdentifier;
-    id minimumBackgroundFetchInterval;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)tagScoringConfiguration;
 - (void);
 - (void);
 

@@ -7,20 +7,11 @@
 @interface NewsFeed.DebugFormatEditorStatusView
 {
     id onErrorTap;
-    id errorButton;
-    id onServerTap;
-    id serverButton;
-    id maxWidth;
-    id statusLabel;
-    id editor;
-    id progressView;
-    id serverReloadQueueLabel;
-    id statusLabelBranchIcon;
 }
 
 - (struct CGSize);
 - (id);
-- (void);
+- (void)ntroller willEndAccessToResourceForcingToWaitForPendingAccesses:] /* Error: Ran out of types for this method. */;
 - (id)!@ùÿ1Â0@ù
 × ;
 - (void)é$ÿ;

@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (_Bool)TableViewCellReorderControl;
++ (_Bool)UITableViewCellReorderControl;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool)ntrollerDismissActionView>"16@0:(id)arg1 8;
-- (void)izeForInputViewController:(id)arg1 inputView:includeAssistantBar: /* Error: Ran out of types for this method. */;
-- (id)BatteryInsidesWithSize:capacity:style:usingTintColor: /* Error: Ran out of types for this method. */;
+- (void)sizeForInputViewController:(id)arg1 inputView:includeAssistantBar: /* Error: Ran out of types for this method. */;
+- (id)drawBatteryInsidesWithSize:capacity:style:usingTintColor: /* Error: Ran out of types for this method. */;
 - (id)_allowsInteractivePopWhenNavigationBarHidden;
 - (void)dpointInjectorConfiguring>"8;
 - (id)3yñ&¿7G;

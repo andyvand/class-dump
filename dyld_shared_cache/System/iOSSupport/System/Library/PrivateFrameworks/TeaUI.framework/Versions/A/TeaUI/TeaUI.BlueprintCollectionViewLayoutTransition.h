@@ -7,7 +7,6 @@
 @interface TeaUI.BlueprintCollectionViewLayoutTransition
 {
     id state;
-    id completionBlocks;
 }
 
 @end

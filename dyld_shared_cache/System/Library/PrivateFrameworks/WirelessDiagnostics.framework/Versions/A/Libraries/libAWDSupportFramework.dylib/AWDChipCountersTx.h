@@ -7,41 +7,16 @@
 @interface AWDChipCountersTx
 {
     unsigned long long _txbyte;
-    unsigned long long _txchit;
-    unsigned long long _txcmiss;
-    unsigned long long _txctl;
-    unsigned long long _txerror;
-    unsigned long long _txframe;
-    unsigned long long _txnoassoc;
-    unsigned long long _txnobuf;
-    unsigned long long _txprshort;
-    unsigned long long _txretrans;
-    unsigned long long _txrunt;
-    unsigned long long _txserr;
-    struct {
-        unsigned int txbyte:1;
-        unsigned int txchit:1;
-        unsigned int txcmiss:1;
-        unsigned int txctl:1;
-        unsigned int txerror:1;
-        unsigned int txframe:1;
-        unsigned int txnoassoc:1;
-        unsigned int txnobuf:1;
-        unsigned int txprshort:1;
-        unsigned int txretrans:1;
-        unsigned int txrunt:1;
-        unsigned int txserr:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -49,17 +24,17 @@
 - (void);
 - (void);
 - (void);
+- (void)d;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -83,40 +58,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTxbyte;
-@property(nonatomic) _Bool hasTxchit;
-@property(nonatomic) _Bool hasTxcmiss;
-@property(nonatomic) _Bool hasTxctl;
-@property(nonatomic) _Bool hasTxerror;
 @property(nonatomic) _Bool hasTxframe;
-@property(nonatomic) _Bool hasTxnoassoc;
-@property(nonatomic) _Bool hasTxnobuf;
-@property(nonatomic) _Bool hasTxprshort;
-@property(nonatomic) _Bool hasTxretrans;
-@property(nonatomic) _Bool hasTxrunt;
-@property(nonatomic) _Bool hasTxserr;
-@property(nonatomic) unsigned long long txbyte; // @synthesize txbyte=_txbyte;
-@property(nonatomic) unsigned long long txchit; // @synthesize txchit=_txchit;
-@property(nonatomic) unsigned long long txcmiss; // @synthesize txcmiss=_txcmiss;
-@property(nonatomic) unsigned long long txctl; // @synthesize txctl=_txctl;
-@property(nonatomic) unsigned long long txerror; // @synthesize txerror=_txerror;
-@property(nonatomic) unsigned long long txframe; // @synthesize txframe=_txframe;
-@property(nonatomic) unsigned long long txnoassoc; // @synthesize txnoassoc=_txnoassoc;
-@property(nonatomic) unsigned long long txnobuf; // @synthesize txnobuf=_txnobuf;
-@property(nonatomic) unsigned long long txprshort; // @synthesize txprshort=_txprshort;
-@property(nonatomic) unsigned long long txretrans; // @synthesize txretrans=_txretrans;
-@property(nonatomic) unsigned long long txrunt; // @synthesize txrunt=_txrunt;
-@property(nonatomic) unsigned long long txserr; // @synthesize txserr=_txserr;
 
 @end
 

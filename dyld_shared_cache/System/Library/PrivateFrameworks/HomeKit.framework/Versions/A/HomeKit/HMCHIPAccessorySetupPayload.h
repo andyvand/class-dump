@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface HMCHIPAccessorySetupPayload
 {
     _Bool _hasShortDiscriminator;
-    _Bool _requiresCustomFlow;
-    NSNumber *_setupCode;
-    NSNumber *_discriminator;
-    NSString *_setupPayloadString;
-    NSNumber *_vendorID;
-    NSNumber *_productID;
-    NSString *_serialNumber;
-    NSNumber *_deviceTypeID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 
 @end
 

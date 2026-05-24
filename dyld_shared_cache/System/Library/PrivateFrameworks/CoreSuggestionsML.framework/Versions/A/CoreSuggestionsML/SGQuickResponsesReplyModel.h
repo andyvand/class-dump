@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SGQuickResponsesReplyModel
 {
     _Bool _dynamicLabel;
-    unsigned long long _semanticClassIndex;
-    NSArray *_semanticClasses;
-    NSArray *_selectedPseudocounts;
-    double _scoreWeight;
-    unsigned long long _category;
 }
 
 + (id);
@@ -27,12 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) _Bool dynamicLabel; // @synthesize dynamicLabel=_dynamicLabel;
-@property(readonly, nonatomic) double scoreWeight; // @synthesize scoreWeight=_scoreWeight;
-@property(readonly, nonatomic) NSArray *selectedPseudocounts; // @synthesize selectedPseudocounts=_selectedPseudocounts;
 @property(readonly, nonatomic) unsigned long long semanticClassIndex; // @synthesize semanticClassIndex=_semanticClassIndex;
-@property(readonly, nonatomic) NSArray *semanticClasses; // @synthesize semanticClasses=_semanticClasses;
 
 @end
 

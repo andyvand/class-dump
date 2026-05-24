@@ -7,8 +7,6 @@
 @interface SPShared.CancellationToken__priv_A1F6AB55F9BFA26527C1C12C0252530F
 {
     id _isCanceled;
-    id _cancellationBlocks;
-    id accessQueue;
 }
 
 @end

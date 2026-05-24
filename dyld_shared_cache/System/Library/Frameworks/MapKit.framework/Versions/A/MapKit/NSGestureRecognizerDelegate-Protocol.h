@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSGestureRecognizer;
+
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)copyWithPropertyKeys:(NSGestureRecognizer *)arg1;
+- (_Bool);
+- (_Bool)dReceiveSysDaemonCrash:(NSGestureRecognizer *)arg1 ];
+- (_Bool)ne_filter_protocol_disconnect;
 - (_Bool)reduceMotionEnabled;
 @end
 

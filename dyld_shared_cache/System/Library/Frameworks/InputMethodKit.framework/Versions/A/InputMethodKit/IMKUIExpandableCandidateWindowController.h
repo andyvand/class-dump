@@ -6,27 +6,20 @@
 
 #import <InputMethodKit/IMKUICandidateWindowController.h>
 
-@class IMKUICandidateArrowButton, IMKUICandidateBarListView, IMKUICandidateItemLayout, IMKUICandidateLayoutTraits, IMKUICandidateLineLayout, IMKUICandidateListContainingView;
+@class IMKUICandidateArrowButton;
 
 @interface IMKUIExpandableCandidateWindowController : IMKUICandidateWindowController
 {
     IMKUICandidateArrowButton *_arrowButton;
-    IMKUICandidateItemLayout *_collapsedItemLayout;
-    IMKUICandidateLayoutTraits *_expandedLayoutTraits;
-    long long _layoutState;
-    IMKUICandidateLineLayout *_lineLayout;
-    IMKUICandidateBarListView *_listView;
-    _Bool _windowIsExpanded;
-    IMKUICandidateListContainingView *_listContainerView;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)9);
+- (unsigned long long)a;
 - (id);
 - (_Bool);
 - (void);
@@ -43,17 +36,17 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)T;
 - (double);
 - (_Bool);
 - (struct CGRect);
@@ -62,49 +55,41 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
+- (void);
 - (void);
+- (id);
+- (void);
+- (void)qa;
+- (void);
+- (void);
+- (void)B;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)callerPreEmptiveTimeoutInSecs;
 - (void);
 - (void);
-- (long long);
+- (long long)";
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMKUICandidateArrowButton *arrowButton; // @synthesize arrowButton=_arrowButton;
-@property(retain, nonatomic) IMKUICandidateItemLayout *collapsedItemLayout; // @synthesize collapsedItemLayout=_collapsedItemLayout;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *expandedLayoutTraits; // @synthesize expandedLayoutTraits=_expandedLayoutTraits;
-@property(readonly, nonatomic) _Bool isOneLine;
-@property(nonatomic) long long layoutState; // @synthesize layoutState=_layoutState;
-@property(retain, nonatomic) IMKUICandidateLineLayout *lineLayout; // @synthesize lineLayout=_lineLayout;
-@property(retain, nonatomic) IMKUICandidateListContainingView *listContainerView; // @synthesize listContainerView=_listContainerView;
-@property(retain, nonatomic) IMKUICandidateBarListView *listView; // @synthesize listView=_listView;
-@property(nonatomic) _Bool windowIsExpanded; // @synthesize windowIsExpanded=_windowIsExpanded;
 
 @end
 

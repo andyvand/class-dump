@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface DGOperation
 {
     _Bool _enabled;
-    _Bool _interactive;
-    NSString *_currentAutoIdentifier;
-    NSMutableDictionary *_autoSettings;
 }
 
 + (_Bool);
@@ -19,11 +14,11 @@
 + (id);
 + (id);
 + (id);
++ (id)6;
 + (id);
 + (id);
-+ (id);
-+ (void)eConvolution;
-+ (_Bool)Dist;
++ (void)DGBilateralSliceConvolution;
++ (_Bool)focalDist;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)/J;
 - (id);
 - (id);
 - (_Bool);
@@ -75,8 +70,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setShouldIgnoreDocumentMargin: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -92,7 +87,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)l;
 - (id);
 - (id);
 - (_Bool);
@@ -100,13 +95,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

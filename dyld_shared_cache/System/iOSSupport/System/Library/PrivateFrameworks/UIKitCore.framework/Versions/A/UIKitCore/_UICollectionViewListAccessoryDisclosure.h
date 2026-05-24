@@ -6,28 +6,18 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSString, UIColor, UIImage, UIImageView, UIMenu;
-@protocol UITableConstants;
+@class UIImageView, UIMenu;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewListAccessoryDisclosure : UIControl
 {
     UIImageView *_imageView;
-    _Bool _accessoryUsesMonochromaticTreatment;
-    _Bool _rotated;
-    UIImage *_image;
-    id <UITableConstants> _constants;
-    UIColor *_accessoryTintColor;
-    CDUnknownBlockType _actionHandler;
-    double _rotationAngle;
-    UIMenu *_menu;
-    CDUnknownBlockType _selectedElementDidChangeHandler;
 }
 
-- (void);
-- (id);
-- (void);
-- (double);
+- (void)"32@"NSString"40@"NSNumber"48@"NSNumber"56;
+- (id)TB,N,V_nicknameIsUploadingToCK;
+- (void)account:(id)arg1 blockIdleStatusChanged:(id)arg2;
+- (double)age-routing-timer;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -47,8 +37,8 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType)!4Cùe1Â0@ù
 × ;
 - (void)lerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (void)mage;
-- (id)t:rect:layout:scale:applyContentsTransform: /* Error: Ran out of types for this method. */;
+- (void)_randomImage;
+- (id)_drawInContext:rect:layout:scale:applyContentsTransform: /* Error: Ran out of types for this method. */;
 - (struct CGSize)ayerPresentationContext",R,C,N;
 - (void);
 - (id);
@@ -63,23 +53,7 @@ __attribute__((visibility("hidden")))
 - (id)°ûd;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;
-@property(nonatomic) _Bool accessoryUsesMonochromaticTreatment; // @synthesize accessoryUsesMonochromaticTreatment=_accessoryUsesMonochromaticTreatment;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) id <UITableConstants> constants; // @synthesize constants=_constants;
-@property(readonly, nonatomic) UIControl *control;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(nonatomic) _Bool rotated; // @synthesize rotated=_rotated;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(copy, nonatomic) CDUnknownBlockType selectedElementDidChangeHandler; // @synthesize selectedElementDidChangeHandler=_selectedElementDidChangeHandler;
-@property(readonly) Class superclass;
 
 @end
 

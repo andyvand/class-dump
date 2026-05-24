@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_axIsNotObscuredItemsContainer;
 + (void);
 - (struct CGPoint);
 - (_Bool);

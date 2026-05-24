@@ -6,26 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterDecisionGenAIMetadata : SISchemaInstrumentationMessage
 {
     _Bool _isExplicit;
-    int _genAIAppIntent;
-    int _correctionOutcome;
-    int _requestedGenAIAgent;
-    struct {
-        unsigned int isExplicit:1;
-        unsigned int genAIAppIntent:1;
-        unsigned int correctionOutcome:1;
-        unsigned int requestedGenAIAgent:1;
-    } _has;
 }
 
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +32,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)OCSP_request_sign;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -54,15 +43,7 @@
 - (id)entRankerResponse;
 
 // Remaining properties
-@property(nonatomic) int correctionOutcome; // @synthesize correctionOutcome=_correctionOutcome;
-@property(nonatomic) int genAIAppIntent; // @synthesize genAIAppIntent=_genAIAppIntent;
-@property(nonatomic) _Bool hasCorrectionOutcome;
-@property(nonatomic) _Bool hasGenAIAppIntent;
-@property(nonatomic) _Bool hasIsExplicit;
-@property(nonatomic) _Bool hasRequestedGenAIAgent;
 @property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestedGenAIAgent; // @synthesize requestedGenAIAgent=_requestedGenAIAgent;
 
 @end
 

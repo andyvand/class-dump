@@ -11,11 +11,10 @@
 @interface ECIMAPFlagChangeUndownloadedActionReplayer : ECLocalActionReplayer
 {
     id <ECIMAPServerInterface> serverInterface;
-    id <ECIMAPLocalActionReplayerDelegate> delegate;
 }
 
-- (void);
-- (id);
+- (void)olsView.;
+- (id)uested restore;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate; // @synthesize delegate;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface; // @synthesize serverInterface;
 
 @end
 

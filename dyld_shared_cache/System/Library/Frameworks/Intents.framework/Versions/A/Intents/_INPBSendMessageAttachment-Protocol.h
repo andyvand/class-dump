@@ -7,31 +7,14 @@
 @class NSString, _INPBFileDataAttachment, _INPBURLValue;
 
 @protocol _INPBSendMessageAttachment
-- (_Bool)emsFromVocabularySpeakables:ofType:loggingWarnings: /* Error: Ran out of types for this method. */;
-- (void)etailsValue:(_INPBURLValue *)arg1;
-- (NSString *);
-- (_INPBURLValue *)mumValue;
+- (_INPBURLValue *);
+- (_Bool)validatedItemsFromVocabularySpeakables:ofType:loggingWarnings: /* Error: Ran out of types for this method. */;
+- (void)addPayloadBillDetailsValue:(_INPBURLValue *)arg1;
+- (NSString *)CubicKilometers;
+- (_INPBURLValue *)INTypePropertyMetadataMaximumValue;
 - (void).messages.PlayAudioMessageIntentResponse;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBFileDataAttachment *audioMessageFile;
-@property(retain, nonatomic) _INPBURLValue *audioMessageFileURL;
-@property(nonatomic) _Bool currentLocation;
-@property(retain, nonatomic) _INPBFileDataAttachment *file;
-@property(retain, nonatomic) _INPBURLValue *fileURL;
-@property(readonly, nonatomic) _Bool hasAudioMessageFile;
-@property(readonly, nonatomic) _Bool hasAudioMessageFileURL;
-@property(readonly, nonatomic) _Bool hasCurrentLocation;
-@property(readonly, nonatomic) _Bool hasFile;
-@property(readonly, nonatomic) _Bool hasFileURL;
-@property(readonly, nonatomic) _Bool hasPhAssetId;
-@property(readonly, nonatomic) _Bool hasSharedLink;
-@property(readonly, nonatomic) _Bool hasSpeechDataURL;
-@property(readonly, nonatomic) _Bool hasTypeIdentifier;
-@property(copy, nonatomic) NSString *phAssetId;
-@property(retain, nonatomic) _INPBURLValue *sharedLink;
-@property(retain, nonatomic) _INPBURLValue *speechDataURL;
-@property(copy, nonatomic) NSString *typeIdentifier;
-@property(readonly, nonatomic) unsigned long long whichDatasource;
 @end
 

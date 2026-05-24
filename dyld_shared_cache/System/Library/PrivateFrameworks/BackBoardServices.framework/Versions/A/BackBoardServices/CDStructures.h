@@ -55,6 +55,6 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int ctx[96];
-} CDStruct_43cfb2c2;
+    unsigned int _field1[96];
+} CDStruct_39d5974f;
 

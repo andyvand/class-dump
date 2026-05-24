@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CDPContext;
+@protocol CDPStateUIProviderInternal;
+
 @protocol CDPDaemonProtocol
+- (oneway void)tection;
+- (void)yType, parentKey, duplicateKeyHash, duplicateKeyHashBlob) VALUES (:(CDPContext *)arg1 tag, :(id <CDPStateUIProviderInternal>)arg2 entityKey, :(void (^)(_Bool, _Bool, NSError *))arg3 entityType, :parentKey, '-', :duplicateKeyHash) /* Error: Ran out of types for this method. */;
+- (void)(;
+- (void);
+- (void)ropagateToPrimaryOutput cannot specify primary media;
+- (oneway void)H;
+- (void)initWithTime:(CDPContext *)arg1 faceTrackingDictionary:(id <CDPStateUIProviderInternal>)arg2 input:(void (^)(_Bool, NSError *))arg3;
+- (void)ndarySampleBuffer;
+- (void)timeLapseCaptureRateNeedsUpdate;
 @end
 

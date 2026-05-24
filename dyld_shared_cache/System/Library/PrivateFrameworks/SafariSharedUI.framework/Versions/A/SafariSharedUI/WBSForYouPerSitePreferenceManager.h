@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
+@class WBSPerSitePreferencesSQLiteStore;
 
 @interface WBSForYouPerSitePreferenceManager
 {
     WBSPerSitePreferencesSQLiteStore *_preferencesStore;
-    WBSPerSitePreference *_preference;
 }
 
 - (void);
@@ -22,17 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void)lor:isSavedToDisk: /* Error: Ran out of types for this method. */;
+- (void)_updateTemplateIconsDataForHost:image:themeColor:isSavedToDisk: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

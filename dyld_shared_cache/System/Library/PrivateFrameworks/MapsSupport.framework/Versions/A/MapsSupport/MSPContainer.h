@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPContainerPersister, MSPQuerySource, NSArray, NSCountedSet, NSHashTable, NSMutableArray, NSMutableSet, NSObject, NSString;
-@protocol MSPContainerStateSnapshot, NSObject><NSCopying, OS_dispatch_queue;
+@class MSPQuerySource, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MSPContainer
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    id <MSPContainerStateSnapshot> _currentStateSnapshot;
-    NSArray *_currentProcessedContents;
-    NSHashTable *_observers;
-    MSPContainerPersister *_persister;
-    NSCountedSet *_editCoalescingContexts;
-    _Bool _isCommittingEnqueuedEdits;
-    id <NSObject><NSCopying> _contextCoalescingFor;
-    _Bool _coalescedEditsNeedEntireContents;
-    NSMutableSet *_coalescedPartialContentIdentifiersToFetch;
-    NSMutableArray *_enqueuedCoalescingEditBarrierBlocks;
-    NSMutableArray *_enqueuedCoalescingCompletionBlocks;
-    _Bool _hasScheduledDelayedCommitForCoalescedEdits;
-    _Bool _hasLoadedContents;
-    _Bool _preventsAssertionsForDuplicateStorageIdentifiers;
-    _Bool _simulatesClearingDiscardableDataAfterOperations;
 }
 
 + (void);
@@ -35,9 +20,9 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -47,20 +32,20 @@
 - (void);
 - (id);
 - (void);
+- (void)L;
+- (_Bool)P;
+- (void)@;
+- (id);
+- (void)	;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
@@ -70,19 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _preventsAssertionsForDuplicateStorageIdentifiers; // @synthesize _preventsAssertionsForDuplicateStorageIdentifiers;
-@property(readonly, nonatomic, getter=_accessQueue) NSObject<OS_dispatch_queue> *accessQueue;
-@property(readonly, nonatomic) _Bool containerHasLoadedContents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) MSPQuerySource *entireContentsQuerySource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MSPContainerPersister *persister; // @synthesize persister=_persister;
-@property(nonatomic, getter=_simulatesClearingDiscardableDataAfterOperations, setter=_setSimulatesClearingDiscardableDataAfterOperations:) _Bool simulatesClearingDiscardableDataAfterOperations; // @synthesize simulatesClearingDiscardableDataAfterOperations=_simulatesClearingDiscardableDataAfterOperations;
-@property(readonly) Class superclass;
 
 @end
 

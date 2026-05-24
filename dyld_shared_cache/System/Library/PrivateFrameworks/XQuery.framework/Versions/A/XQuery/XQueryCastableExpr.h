@@ -6,13 +6,10 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSString, XQueryTypeDeclaration;
-
 __attribute__((visibility("hidden")))
 @interface XQueryCastableExpr : XQueryExpr
 {
     id _expr;
-    XQueryTypeDeclaration *_type;
 }
 
 + (id);
@@ -20,16 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)*!�(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

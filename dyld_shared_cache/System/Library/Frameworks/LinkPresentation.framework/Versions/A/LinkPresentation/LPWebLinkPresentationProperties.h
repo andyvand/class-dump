@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPARAsset, LPAudio, LPCaptionBarPresentationProperties, LPImage, LPImagePresentationProperties, LPIndeterminateProgressSpinnerPresentationProperties, LPInlineMediaPlaybackInformation, LPVideo, NSArray, NSColor, NSNumber, NSString, NSURL;
-
 @interface LPWebLinkPresentationProperties
 {
     _Bool _preliminary;
-    _Bool _allowsDominantImageBackgroundColorAsCaptionBackground;
-    _Bool __hasComputedDominantImageBackgroundColor;
-    long long _style;
-    LPCaptionBarPresentationProperties *_captionBar;
-    LPCaptionBarPresentationProperties *_mediaTopCaptionBar;
-    LPCaptionBarPresentationProperties *_mediaBottomCaptionBar;
-    NSString *_quotedText;
-    LPImage *_image;
-    LPImagePresentationProperties *_imageProperties;
-    NSArray *_alternateImages;
-    LPVideo *_video;
-    LPAudio *_audio;
-    LPARAsset *_arAsset;
-    NSColor *_backgroundColor;
-    NSColor *_dominantImageBackgroundColor;
-    LPImage *_backgroundImage;
-    LPImagePresentationProperties *_backgroundImageProperties;
-    NSNumber *_minimumHeight;
-    LPInlineMediaPlaybackInformation *_inlinePlaybackInformation;
-    NSString *_domainNameForIndicator;
-    NSURL *_overrideURL;
-    NSNumber *_overrideAllowOpeningSensitiveURLs;
-    LPIndeterminateProgressSpinnerPresentationProperties *_progressSpinner;
 }
 
 - (void);
@@ -56,7 +31,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)2k;
 - (_Bool);
 - (void);
 - (id);
@@ -67,7 +42,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)SessionStartTimestamp;
 - (void);
 - (void);
 - (id);
@@ -76,46 +51,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
-- (void);
+- (void)initAsDelegate;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setHasComputedDominantImageBackgroundColor:) _Bool _hasComputedDominantImageBackgroundColor; // @synthesize _hasComputedDominantImageBackgroundColor=__hasComputedDominantImageBackgroundColor;
-@property(nonatomic) _Bool allowsDominantImageBackgroundColorAsCaptionBackground; // @synthesize allowsDominantImageBackgroundColorAsCaptionBackground=_allowsDominantImageBackgroundColorAsCaptionBackground;
-@property(retain, nonatomic) NSArray *alternateImages; // @synthesize alternateImages=_alternateImages;
-@property(retain, nonatomic) LPARAsset *arAsset; // @synthesize arAsset=_arAsset;
-@property(retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) LPImagePresentationProperties *backgroundImageProperties; // @synthesize backgroundImageProperties=_backgroundImageProperties;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *domainNameForIndicator; // @synthesize domainNameForIndicator=_domainNameForIndicator;
-@property(retain, nonatomic) NSColor *dominantImageBackgroundColor; // @synthesize dominantImageBackgroundColor=_dominantImageBackgroundColor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) LPImagePresentationProperties *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(retain, nonatomic) LPInlineMediaPlaybackInformation *inlinePlaybackInformation; // @synthesize inlinePlaybackInformation=_inlinePlaybackInformation;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) NSNumber *minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(copy, nonatomic) NSNumber *overrideAllowOpeningSensitiveURLs; // @synthesize overrideAllowOpeningSensitiveURLs=_overrideAllowOpeningSensitiveURLs;
-@property(copy, nonatomic) NSURL *overrideURL; // @synthesize overrideURL=_overrideURL;
-@property(nonatomic, getter=isPreliminary) _Bool preliminary; // @synthesize preliminary=_preliminary;
-@property(retain, nonatomic) LPIndeterminateProgressSpinnerPresentationProperties *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(copy, nonatomic) NSString *quotedText; // @synthesize quotedText=_quotedText;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPVideo *video; // @synthesize video=_video;
 
 @end
 

@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, NSArray, NSString;
-
 @interface IMDChatStatusChangeContext
 {
     unsigned char _chatStyle;
-    _Bool _isBlackholed;
-    _Bool _isMessageSentFromMe;
-    int _chatStatus;
-    NSString *_chatIdentifier;
-    NSString *_displayName;
-    NSString *_groupID;
-    NSString *_originalGroupID;
-    NSString *_lastAddressedHandle;
-    NSString *_lastAddressedSIMID;
-    NSArray *_handleInfo;
-    IMDAccount *_account;
-    long long _category;
-    NSString *_extensionName;
-    NSString *_messageID;
-    long long _spamDetectionSource;
 }
 
-- (long long);
+- (long long)#;
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)؃;
+- (void);
+- (void)R-;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)a&;
 - (id);
 - (id);
 - (id);
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)veMediaKeyInfo:media key/salt derivation failed /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)x8;
 - (void);
 - (id);
 - (id);
@@ -64,33 +47,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)
+	;
 - (long long);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
-- (void)ardsCompatibilitySizeOverride;
+- (void)shouldAllowBackwardsCompatibilitySizeOverride;
 - (void);
 - (id)ssage with GUID %@.;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(nonatomic) long long category; // @synthesize category=_category;
-@property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
 @property(nonatomic) int chatStatus; // @synthesize chatStatus=_chatStatus;
-@property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *extensionName; // @synthesize extensionName=_extensionName;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSArray *handleInfo; // @synthesize handleInfo=_handleInfo;
-@property(nonatomic) _Bool isBlackholed; // @synthesize isBlackholed=_isBlackholed;
-@property(nonatomic) _Bool isMessageSentFromMe; // @synthesize isMessageSentFromMe=_isMessageSentFromMe;
-@property(retain, nonatomic) NSString *lastAddressedHandle; // @synthesize lastAddressedHandle=_lastAddressedHandle;
-@property(retain, nonatomic) NSString *lastAddressedSIMID; // @synthesize lastAddressedSIMID=_lastAddressedSIMID;
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(retain, nonatomic) NSString *originalGroupID; // @synthesize originalGroupID=_originalGroupID;
-@property(nonatomic) long long spamDetectionSource; // @synthesize spamDetectionSource=_spamDetectionSource;
 
 @end
 

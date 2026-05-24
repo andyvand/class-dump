@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaObjectsViewController, NSButton, NSSearchField, NSSplitView, NSString, NSTextField, NSView;
+@class ILMediaObjectsViewController;
 
 @interface ILMediaBrowserView
 {
     ILMediaObjectsViewController *_mediaObjectsViewController;
-    NSSplitView *_splitView;
-    NSView *_controlView;
-    NSSearchField *_searchField;
-    NSTextField *_itemCountText;
-    NSButton *_playButton;
-    NSButton *_applyButton;
-    NSButton *_clipboardButton;
-    unsigned long long _currentBrowserType;
-    unsigned long long _displayMode;
-    unsigned long long _controlSize;
-    _Bool _showsControlView;
-    _Bool _allowsMultipleSelection;
-    _Bool _displaysToolTips;
-    SEL _doubleAction;
-    unsigned long long _filteredContentTypes;
-    NSString *_filterString;
-    _Bool _useSplitView;
-    _Bool _isCollapsed;
-    _Bool _isVertical;
-    struct CGSize _thumbnailCellSize;
-    _Bool _showsThumbnailCaptions;
-    _Bool _delegateFiltersMediaManagers;
-    _Bool _delegateFiltersMediaGroups;
-    _Bool _delegateFiltersMediaObjects;
-    _Bool _delegateControlsObjectSelection;
-    _Bool _establishedBindings;
-    _Bool _inDelegatePreview;
-    long long _lastiTunesCategory;
-    long long _lastiPhotoCategory;
-    long long _lastMovieCategory;
-    id _delegate;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
 }
 
 + (Class);
@@ -57,8 +23,8 @@
 + (Class);
 + (Class);
 + (Class);
-+ (id);
-- (void);
++ (id);
+- (void)?ןb;
 - (struct CGSize);
 - (id);
 - (id);
@@ -73,16 +39,16 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)5;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -101,7 +67,7 @@
 - (void);
 - (void);
 - (Class);
-- (Class);
+- (Class);
 - (void);
 - (void);
 - (id);
@@ -126,21 +92,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool))A;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (id);
@@ -152,21 +118,21 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)D;
 - (void);
 - (void);
+- (void)D;
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void)ionSpecificConfig",&,N,V_forYouTodaySectionConfig;
+- (id)leArray",&,N,V_groupableFeedIds;
+- (void);
+- (_Bool)P*;
 - (void);
 - (void);
 - (double);
@@ -177,47 +143,41 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (SEL);
+- (void)%s. | Assuming background date in distant past and proceeding with app launch processing. . .;
+- (id)storage... failed. error=%{public}s;
+- (SEL)ide of being installed on a View. This will always read the default value and will not update.;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)_;
+- (void);
+- (void)`;
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool)!;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)ILMediaBrowserImportPanelView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

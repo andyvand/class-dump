@@ -5,9 +5,17 @@
 //
 
 @protocol MTLRenderCommandEncoderSPI
-- (void)AtIndex:(float)arg1;
+- (void)џ;
+- (void)b;
+- (void);
+- (void)#A9;
+- (void)indirectComputeCommandAtIndex:(float)arg1;
 
 @optional
+- (void);
+- (void);
+- (void);
+- (void);
 - (void)0@ù
 × ;
 - (void)4Q32Q40{?=QQQ}48@72Q80Q88{?=QQQ}96Q120;

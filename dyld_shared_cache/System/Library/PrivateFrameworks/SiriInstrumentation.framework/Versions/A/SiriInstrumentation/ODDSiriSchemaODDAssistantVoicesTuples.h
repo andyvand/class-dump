@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDAssistantVoicesTuples : SISchemaInstrumentationMessage
 {
     NSArray *_speakingDurationInSecs;
-    NSArray *_autoMOSs;
-    NSArray *_customerPerceivedLatencyInSecs;
 }
 
 - (id);
@@ -29,7 +27,7 @@
 - (float);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -37,7 +35,7 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,9 +47,6 @@
 - (void)edUsoGraphNodeDatas.linkedUsoEntitySpans.properties.valueString;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoMOSs; // @synthesize autoMOSs=_autoMOSs;
-@property(copy, nonatomic) NSArray *customerPerceivedLatencyInSecs; // @synthesize customerPerceivedLatencyInSecs=_customerPerceivedLatencyInSecs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *speakingDurationInSecs; // @synthesize speakingDurationInSecs=_speakingDurationInSecs;
 
 @end

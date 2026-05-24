@@ -5,18 +5,15 @@
 //
 
 @class NSString;
-@protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIPaymentVerificationMetrics
 {
     NSString *_appID;
-    id <AMSBagProtocol> _bag;
-    NSString *_displayReason;
 }
 
 + (id);
-+ (id);
++ (id)ModelMigrator _requestAvailabilityChangeForAssetsMissing1kResourcesInStore:(id)arg1 ];
 - (void);
 - (id);
 - (void);
@@ -27,14 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)40;
 - (void)Point=dd}16;
-- (id)etServiceBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setServiceBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (void)Ó@Sg;
 - (void)per;
 
 // Remaining properties
 @property(retain) NSString *appID; // @synthesize appID=_appID;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSString *displayReason; // @synthesize displayReason=_displayReason;
 
 @end
 

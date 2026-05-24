@@ -6,18 +6,15 @@
 
 #import <ContentKit/WFAlertButton.h>
 
-@class NSString, WFImage;
+@class NSString;
 
 @interface WFSelectableAlertButton : WFAlertButton
 {
     _Bool _selected;
-    _Bool _stickySelection;
-    NSString *_subtitle;
-    WFImage *_image;
 }
 
 + (id);
-+ (id);
++ (id)b?;
 + (id);
 + (id);
 - (_Bool);
@@ -25,12 +22,9 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)utionSet:includesDefaultAttributionSet:cachingIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)itemWithRepresentation:forType:attributionSet:includesDefaultAttributionSet:cachingIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) _Bool stickySelection; // @synthesize stickySelection=_stickySelection;
 @property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 
 @end

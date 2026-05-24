@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackFieldOptionAnnotations, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackFieldOption
 {
     PBDataReader *_reader;
-    GEORPFeedbackFieldOptionAnnotations *_annotations;
-    NSString *_defaultText;
-    NSString *_localizedText;
-    NSMutableArray *_tags;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _key;
-    struct {
-        unsigned int has_key:1;
-        unsigned int read_annotations:1;
-        unsigned int read_defaultText:1;
-        unsigned int read_localizedText:1;
-        unsigned int read_tags:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)usted:(id)arg1;
++ (_Bool)setIsTrusted:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -40,13 +24,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)x;
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSelectedBuiltInBundleDeviceUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -55,9 +39,9 @@
 - (id);
 - (void);
 - (id)arser"16@"NSString"24@"NSString"32;
-- (id)lResourceNames;
+- (id)allResourceNames;
 - (id)X¹ü¹L»4¼¾;
-- (id)FallbackShield;
+- (id)iconFallbackShield;
 - (_Bool);
 - (void)ÿÿÿÿ;
 - (void)ÁbM@;
@@ -68,15 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPFeedbackFieldOptionAnnotations *annotations;
-@property(retain, nonatomic) NSString *defaultText;
-@property(readonly, nonatomic) _Bool hasAnnotations;
-@property(readonly, nonatomic) _Bool hasDefaultText;
 @property(nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasLocalizedText;
-@property(nonatomic) int key;
-@property(retain, nonatomic) NSString *localizedText;
-@property(retain, nonatomic) NSMutableArray *tags;
 
 @end
 

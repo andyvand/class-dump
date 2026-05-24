@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneIdentity, FBSSceneSettingsDiff, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _FBSScenesClientHostEvent
 {
     NSMutableArray *_completions;
-    _Bool _canCoalesce;
-    FBSSceneIdentity *_identity;
-    FBSSceneSettingsDiff *_diff;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonChatModifyReadStateProtocol
+- (void);
 @end
 

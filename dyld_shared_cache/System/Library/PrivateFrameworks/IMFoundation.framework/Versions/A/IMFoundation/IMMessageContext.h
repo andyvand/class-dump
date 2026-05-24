@@ -5,19 +5,11 @@
 //
 
 @class IMLocalObject, NSObject;
-@protocol OS_voucher, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface IMMessageContext
 {
     NSObject<OS_xpc_object> *_xpcMessage;
-    _Bool _boost;
-    _Bool _shouldBoost;
-    _Bool _sync;
-    _Bool _reply;
-    _Bool _needReply;
-    IMLocalObject *_localObject;
-    id _context;
-    NSObject<OS_voucher> *_voucher;
 }
 
 - (void);
@@ -25,31 +17,24 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)OnNetworkStatus;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)rsiloInterface;
+- (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain) id context; // @synthesize context=_context;
 @property(retain) IMLocalObject *localObject; // @synthesize localObject=_localObject;
-@property(nonatomic) _Bool needReply; // @synthesize needReply=_needReply;
-@property(nonatomic) _Bool reply; // @synthesize reply=_reply;
-@property _Bool shouldBoost; // @synthesize shouldBoost=_shouldBoost;
-@property(nonatomic) _Bool sync; // @synthesize sync=_sync;
-@property(retain) NSObject<OS_voucher> *voucher; // @synthesize voucher=_voucher;
-@property(retain) NSObject<OS_xpc_object> *xpcMessage; // @synthesize xpcMessage=_xpcMessage;
 
 @end
 

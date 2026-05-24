@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STAgePresetsViewedCoreAnalyticsEvent
 {
     _Bool _initialSetup;
-    NSString *_sessionId;
 }
 
 + (id);
-- (id);
+- (id)ND) END) END) END), best_artwork_source_type = (CASE WHEN cloud_artwork_token != '' THEN 1 ELSE (CASE WHEN sync_artwork_token != '' THEN 2 ELSE (CASE WHEN purchase_history_artwork_token != '' THEN 3 ELSE (CASE WHEN store_artwork_token != '' THEN 4 ELSE 0 END) END) END) END);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom;
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool initialSetup; // @synthesize initialSetup=_initialSetup;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 @property(readonly) NSString *sessionId; // @synthesize sessionId=_sessionId;
 
 @end

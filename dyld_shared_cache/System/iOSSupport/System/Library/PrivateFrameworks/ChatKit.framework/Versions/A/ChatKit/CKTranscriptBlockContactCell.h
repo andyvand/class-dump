@@ -16,21 +16,20 @@ __attribute__((visibility("hidden")))
 
 + (double);
 + (id);
+- (void)declareTypes:(id)arg1 owner: /* Error: Ran out of types for this method. */;
+- (void)croppingQuadBottomLeftY;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)G;
+- (id)n;
+- (id)e;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)_valueIdentifier;
 - (void)/;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;
-@property(retain, nonatomic) UIButton *blockContactButton; // @synthesize blockContactButton=_blockContactButton;
 
 @end
 

@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMMediaProfile, HMMediaSystemRole, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaSystemComponent
 {
     struct os_unfair_lock_s _lock;
-    HMMediaProfile *_mediaProfile;
-    HMMediaSystemRole *_role;
-    NSUUID *_uniqueIdentifier;
-    HMAccessory *_accessory;
-    NSUUID *_uuid;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)s;
 + (id)aStreamVideoPreferences;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_preflightChecksForFiringParticipantAssetTrashNotificationWithPhotoLibrary:(id)arg1;
+- (id)_populateValidationProperties:fromEntityDescription: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)?	/	$	>	;
+- (_Bool)casualty;
 - (void);
 - (id);
 - (id);
@@ -45,17 +40,6 @@
 - (void)fying client of updated settings:(id)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMMediaProfile *mediaProfile; // @synthesize mediaProfile=_mediaProfile;
-@property(readonly, nonatomic) HMMediaSystemRole *role; // @synthesize role=_role;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

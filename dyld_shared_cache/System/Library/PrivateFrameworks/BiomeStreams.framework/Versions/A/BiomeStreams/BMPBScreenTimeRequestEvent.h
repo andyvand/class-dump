@@ -4,52 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBScreenTimeRequestEvent
 {
     double _eventTime;
-    int _approvalTime;
-    NSString *_bundleID;
-    int _kind;
-    NSString *_requestID;
-    NSString *_requesterDSID;
-    NSString *_responderDSID;
-    int _status;
-    NSString *_websitePath;
-    _Bool _isActionUserDevice;
-    struct {
-        unsigned int eventTime:1;
-        unsigned int approvalTime:1;
-        unsigned int kind:1;
-        unsigned int status:1;
-        unsigned int isActionUserDevice:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)t;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)#;
+- (id);
+- (int)<�;
+- (void);
+- (int)@9?%;
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (int);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (void);
@@ -58,50 +40,31 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (double);
+- (double)IMKTextInputTextDocumentAdaptor;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool)$!CùÑvð1Â0@ù
 × ;
-- (int)dentifier:messageIdentifier:fromHandle:toHandles:ccHandles:bccHandles:headers:subject:htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments: /* Error: Ran out of types for this method. */;
+- (int)initWithUniqueId:domainId:absoluteTimestamp:accountIdentifier:messageIdentifier:fromHandle:toHandles:ccHandles:bccHandles:headers:subject:htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments: /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool)BiomeLibrary;
-- (void)t_stmt__free_unpacked;
+- (void)pg_query__alter_database_set_stmt__free_unpacked;
 - (int);
 - (void)ù
 ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int approvalTime; // @synthesize approvalTime=_approvalTime;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) double eventTime; // @synthesize eventTime=_eventTime;
-@property(nonatomic) _Bool hasApprovalTime;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasEventTime;
-@property(nonatomic) _Bool hasIsActionUserDevice;
-@property(nonatomic) _Bool hasKind;
 @property(readonly, nonatomic) _Bool hasRequestID;
-@property(readonly, nonatomic) _Bool hasRequesterDSID;
-@property(readonly, nonatomic) _Bool hasResponderDSID;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasWebsitePath;
-@property(nonatomic) _Bool isActionUserDevice; // @synthesize isActionUserDevice=_isActionUserDevice;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) NSString *requesterDSID; // @synthesize requesterDSID=_requesterDSID;
-@property(retain, nonatomic) NSString *responderDSID; // @synthesize responderDSID=_responderDSID;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *websitePath; // @synthesize websitePath=_websitePath;
 
 @end
 

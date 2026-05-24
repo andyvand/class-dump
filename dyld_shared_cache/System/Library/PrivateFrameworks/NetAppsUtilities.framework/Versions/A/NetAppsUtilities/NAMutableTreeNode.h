@@ -6,20 +6,17 @@
 
 #import <NetAppsUtilities/NATreeNode.h>
 
-@class NSSet;
-
 @interface NAMutableTreeNode : NATreeNode
 {
 }
 
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *childNodes; // @dynamic childNodes;
 @property(retain, nonatomic) id representedObject; // @dynamic representedObject;
 
 @end

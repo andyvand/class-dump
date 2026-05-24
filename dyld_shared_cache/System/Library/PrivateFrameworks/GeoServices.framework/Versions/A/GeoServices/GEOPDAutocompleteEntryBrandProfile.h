@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteEntryBrandProfile
 {
     PBUnknownFields *_unknownFields;
-    NSString *_brandId;
 }
 
-+ (_Bool)tMeters:(id)arg1;
++ (_Bool)setHasWalkingLimitMeters:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
@@ -20,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)H;
+- (void)ibrationEnabled:(id)arg1 isVibrationSupported:suppressStartAlert:activationHostTime:isVoiceOverSiriSoundsEnabled:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -41,9 +40,7 @@ VenueField
 	LONG_NAME;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *brandId;
 @property(readonly, nonatomic) _Bool hasBrandId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

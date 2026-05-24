@@ -6,31 +6,25 @@
 
 #import <MediaPlayer/MPModelKind.h>
 
-@class MPModelPlaylistEntryKind;
-
 @interface MPModelPlaylistKind : MPModelKind
 {
     unsigned long long _variants;
-    MPModelPlaylistEntryKind *_playlistEntryKind;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id)failedToReadData;
 + (id);
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)IMPinningShouldTryFetchAgainIfNullKey;
+- (unsigned long long)musicDataCollectionMaximumRecordsPerType;
+- (id)stringWithFormat: /* Error: Ran out of types for this method. */;
+- (unsigned long long)X&;
 - (_Bool);
 - (void);
 - (void)evel;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) MPModelPlaylistEntryKind *playlistEntryKind; // @synthesize playlistEntryKind=_playlistEntryKind;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

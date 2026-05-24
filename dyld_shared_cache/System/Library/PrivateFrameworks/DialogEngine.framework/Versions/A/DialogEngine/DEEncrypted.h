@@ -15,23 +15,23 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (id)`;
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)meout to %d;
++ (id)_handleUpdateOutgoingInvitationState:(unsigned long long)arg1;
 
 @end
 

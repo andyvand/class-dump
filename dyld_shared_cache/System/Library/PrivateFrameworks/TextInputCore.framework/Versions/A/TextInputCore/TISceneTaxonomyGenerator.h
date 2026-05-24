@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLTagger, NSArray, NSSet;
+@class NLTagger, NSArray;
 
 @interface TISceneTaxonomyGenerator
 {
     NLTagger *_tagger;
-    NSSet *_taxonomyIdentifiers;
-    NSSet *_taxonomyIdentifiersAllowListSynonymExclusions;
-    NSSet *_phrases;
-    NSArray *_notSupportingInputModes;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@20;
+- (id)fetchRequestWithEntityName: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *notSupportingInputModes; // @synthesize notSupportingInputModes=_notSupportingInputModes;
-@property(readonly, nonatomic) NSSet *phrases; // @synthesize phrases=_phrases;
-@property(readonly, nonatomic) NLTagger *tagger; // @synthesize tagger=_tagger;
-@property(readonly, nonatomic) NSSet *taxonomyIdentifiers; // @synthesize taxonomyIdentifiers=_taxonomyIdentifiers;
-@property(readonly, nonatomic) NSSet *taxonomyIdentifiersAllowListSynonymExclusions; // @synthesize taxonomyIdentifiersAllowListSynonymExclusions=_taxonomyIdentifiersAllowListSynonymExclusions;
 
 @end
 

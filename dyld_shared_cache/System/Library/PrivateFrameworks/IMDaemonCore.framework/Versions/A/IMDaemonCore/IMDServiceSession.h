@@ -4,54 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChatRegistry, IMDService, IMDServiceAttachmentController, IMNetworkMonitor, IMOneTimeCodeUtilities, IMSystemProxySettingsFetcher, IMTimer, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSRecursiveLock, NSString, NSTimer;
-@protocol IMDAutoReplying;
+@class NSRecursiveLock;
 
 @interface IMDServiceSession
 {
     NSRecursiveLock *_lock;
-    IMDAccount *_account;
-    NSMutableArray *_accounts;
-    NSMutableDictionary *_localProperties;
-    NSMutableSet *_changedBuddies;
-    NSMutableDictionary *_groupChatIdentifierToChatRoomMap;
-    NSMutableDictionary *_chatRoomToGroupChatIdentifierMap;
-    IMTimer *_messageRoutingTimer;
-    IMTimer *_messageExpireStateTimer;
-    IMTimer *_messageWatchdogTimer;
-    id <IMDAutoReplying> _messageAutoReplier;
-    IMNetworkMonitor *_networkMonitor;
-    NSTimer *_reconnectTimer;
-    NSString *_loginID;
-    NSString *_pwRequestID;
-    IMSystemProxySettingsFetcher *_systemProxySettingsFetcher;
-    int _buddyChangeLevel;
-    _Bool _activated;
-    _Bool _saveKeychainPassword;
-    IMOneTimeCodeUtilities *_otcUtilities;
-    _Bool _shouldReconnect;
-    _Bool _badPass;
-    IMDService *_service;
-    NSMutableDictionary *_buddies;
-    NSString *_proxyHost;
-    NSString *_proxyAccount;
-    NSString *_proxyPassword;
-    NSString *_password;
-    NSString *_serverHost;
-    long long _proxyType;
-    unsigned short _proxyPort;
-    _Bool _useSSL;
-    unsigned short _serverPort;
-    IMDServiceAttachmentController *_baseAttachmentController;
-    IMDServiceSession *_replicationProxy;
-    NSMutableArray *_serviceSessionDelegates;
-    IMDServiceSession *_mainSession;
-    IMDAccount *_replicationAccount;
-    IMDService *_replicationService;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -72,112 +33,13 @@
 - (void);
 - (void);
 - (Class);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)o;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
+- (void)R;
 - (void);
 - (void);
 - (id);
@@ -185,25 +47,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void).@;
 - (void);
 - (void);
 - (void);
@@ -212,73 +57,68 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)#@ ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void).@;
+- (void);
+- (void);
+- (void);
+- (void).;
+- (void);
+- (void);
+- (void);
+- (void)l;
+- (void);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void))-;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void)@!!IM!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void).;
+- (void);
 - (_Bool);
+- (_Bool);
+- (_Bool)M-m"-l*;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)8 ;
+- (void)q;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -288,72 +128,6 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -364,6 +138,193 @@
 - (_Bool);
 - (_Bool);
 - (long long);
+- (long long)i;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)8e;
+- (void);
+- (void);
+- (void)a;
+- (void)aA8a;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id)bL"!8"  @;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)(;
+- (void)(;
+- (void);
+- (void);
+- (void),c8,H;
+- (void)(;
+- (void);
+- (void)(;
+- (void);
+- (void)!(;
+- (void) (;
+- (void);
+- (void).;
+- (void);
+- (void)(;
+- (void)(;
+- (void)T(;
+- (void);
+- (void);
+- (void)"(! j1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)+8 ;
+- (void);
+- (void)7;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)'.;
+- (void);
+- (void),  ");
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)S~v;
+- (void)H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)H;
+- (void)'  "%;
+- (void)R;
+- (void);
+- (void)!  L`;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void).`;
+- (void) H;
+- (void)8 ;
+- (void);
+- (void)H;
+- (id).;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)H;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id).;
+- (id);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)L%;
+- (_Bool)>;
+- (void)"H;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)!(#H;
+- (void);
+- (void)H;
+- (void);
+- (void)" 8 ;
+- (void)A ;
+- (void);
+- (void)9*;
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool).;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)f;
+- (void);
+- (void);
+- (_Bool)@9);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)i;
+- (_Bool)*(;
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#0f;
+- (_Bool)!h;
+- (_Bool);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -372,7 +333,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Mc3;
 - (id);
 - (void);
 - (void);
@@ -381,7 +342,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (id);
@@ -396,33 +357,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*H;
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)(-!@!;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)	;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void),!@!;
+- (void);
+- (id).;
 - (id);
 - (id);
 - (void);
@@ -447,23 +408,23 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)destroyEventQueue;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -480,37 +441,37 @@
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void)_wrmLinkTypeCellSignalStrength;
 - (id);
 - (id);
+- (id)auxilliaryViewWidthForWindowType: /* Error: Ran out of types for this method. */;
+- (void);
+- (void):(id)arg1 (oneway) delivered on IM Server side in %@, waitCount = %d, Perform block on main thread in Mode='%@';
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_curatedCollectionIdentifier;
 - (id);
+- (void);
+- (long long);
+- (id)#;
+- (id)FilteredImageUUID;
 - (void);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)sendEventWithStreamIdentifier:timestamp:signpostID:eventData:eventDataVersion:account:remoteName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (id);
+- (id)L;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -520,7 +481,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
@@ -531,11 +492,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void)Change;
+- (void)?;
+- (void)keyRollPendingStateDidChange;
 - (void)´3()ÿYK;
 - (_Bool);
 - (id)hats for chat metadata %@;
@@ -544,46 +505,7 @@
 - (void)ng Keep Message setting to Keep forever.  VersionID:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *accountDefaults;
-@property(readonly, nonatomic) NSString *accountID;
-@property(readonly, nonatomic) _Bool accountNeedsLogin;
-@property(readonly, nonatomic) _Bool accountNeedsPassword;
-@property(readonly, nonatomic) _Bool accountShouldBeAlwaysLoggedIn;
-@property(readonly, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(readonly, nonatomic) NSArray *allBuddies;
-@property(readonly, nonatomic) _Bool allowedAsChild;
-@property(readonly, nonatomic) IMDServiceAttachmentController *baseAttachmentController; // @synthesize baseAttachmentController=_baseAttachmentController;
 @property(readonly, nonatomic) long long bestGuessUnifiedMetricTransportType;
-@property(readonly) NSDictionary *buddyPictures;
-@property(readonly) NSDictionary *buddyProperties;
-@property(readonly, nonatomic) IMDChatRegistry *chatRegistry;
-@property(readonly, nonatomic) NSString *displayName;
-@property(retain, nonatomic) NSNumber *globalReadReceiptSettingVersion;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) __weak IMDServiceSession *mainSession; // @synthesize mainSession=_mainSession;
-@property(readonly, nonatomic) _Bool networkConditionsAllowLogin;
-@property(readonly, nonatomic) _Bool overrideNetworkAvailability;
-@property(readonly, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, nonatomic) NSString *proxyAccount; // @synthesize proxyAccount=_proxyAccount;
-@property(readonly, nonatomic) NSString *proxyHost; // @synthesize proxyHost=_proxyHost;
-@property(readonly, nonatomic) NSString *proxyPassword; // @synthesize proxyPassword=_proxyPassword;
-@property(readonly, nonatomic) unsigned short proxyPort; // @synthesize proxyPort=_proxyPort;
-@property(readonly, nonatomic) long long proxyType; // @synthesize proxyType=_proxyType;
-@property(nonatomic) _Bool readReceiptsGloballyEnabled;
-@property(readonly, nonatomic) NSDictionary *registrationAlertInfo;
-@property(readonly, nonatomic) int registrationError;
-@property(readonly, nonatomic) long long registrationStatus;
-@property(readonly, nonatomic, getter=isReplicating) _Bool replicating;
-@property(readonly, nonatomic) __weak IMDAccount *replicationAccount; // @synthesize replicationAccount=_replicationAccount;
-@property(readonly, nonatomic) IMDServiceSession *replicationProxy; // @synthesize replicationProxy=_replicationProxy;
-@property(readonly, nonatomic) __weak IMDService *replicationService; // @synthesize replicationService=_replicationService;
-@property(readonly, nonatomic) NSArray *replicationSessions;
-@property(readonly, nonatomic) NSString *serverHost; // @synthesize serverHost=_serverHost;
-@property(readonly, nonatomic) unsigned short serverPort; // @synthesize serverPort=_serverPort;
-@property(readonly, nonatomic) IMDService *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSMutableArray *serviceSessionDelegates; // @synthesize serviceSessionDelegates=_serviceSessionDelegates;
-@property(readonly, nonatomic) _Bool useSSL; // @synthesize useSSL=_useSSL;
 
 @end
 

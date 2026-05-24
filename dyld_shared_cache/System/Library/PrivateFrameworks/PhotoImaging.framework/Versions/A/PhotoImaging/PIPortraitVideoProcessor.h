@@ -12,12 +12,12 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (int);
++ (int)_partsOfDayWithThreshold: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)initWithCoordinates:(int)arg1 withEvent:(id)arg2;
 
 @end
 

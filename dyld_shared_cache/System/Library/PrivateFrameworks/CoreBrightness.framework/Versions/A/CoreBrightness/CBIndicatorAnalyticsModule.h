@@ -6,23 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBHistogramBuilder3D, CBIndicatorBrightnessModule, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class CBHistogramBuilder3D;
 
 __attribute__((visibility("hidden")))
 @interface CBIndicatorAnalyticsModule : CBModule
 {
     CBHistogramBuilder3D *_stats;
-    CBIndicatorBrightnessModule *_indicatorModule;
-    NSObject<OS_dispatch_source> *_timer;
-    NSDictionary *_ddFactorEdgeMapping;
-    NSDictionary *_luxEdgeMapping;
-    NSDictionary *_nitsEdgeMapping;
-    _Bool _timerIsSuspended;
-    double _timerIntervalMs;
-    float _sessionStart;
-    float _lastSessionDuration;
-    float _trustedLux;
 }
 
 - (id);
@@ -31,22 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)InvalidPixelValue;
+- (void)b;
 - (_Bool);
 - (id);
+- (void)@;
 - (void);
-- (void);
-- (void)iceClients;
+- (void)_alsServiceClients;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

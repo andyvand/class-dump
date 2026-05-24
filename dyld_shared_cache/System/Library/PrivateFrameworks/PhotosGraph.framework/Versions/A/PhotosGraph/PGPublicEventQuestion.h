@@ -6,26 +6,21 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGPublicEventQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
 - (_Bool);
-- (id);
+- (id)keyboardFocusedApplicationElement;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)dayService;
-- (void)tdc;
+- (id)holidayService;
+- (void)attdc;
 
 @end
 

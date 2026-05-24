@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIEventSessionTouchAction : _UIEventSessionAction
 {
     long long _tapDragState;
-    long long _numFingers;
-    long long _windowSection;
 }
 
 - (long long);
@@ -19,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long)noteLastBatchFromStorageForAccountID: /* Error: Ran out of types for this method. */;
+- (long long)latestActiveDate;
 - (id);
 - (id);
 - (long long)1Â0@ù
@@ -28,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)G_additionalTouchesCancelLift,S_setAdditionalTouchesCancelLift:(struct _NSZone *)arg1 ,V_additionalTouchesCancelLift;
 
 // Remaining properties
-@property(nonatomic) long long numFingers; // @synthesize numFingers=_numFingers;
 @property(nonatomic) long long tapDragState; // @synthesize tapDragState=_tapDragState;
-@property(nonatomic) long long windowSection; // @synthesize windowSection=_windowSection;
 
 @end
 

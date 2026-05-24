@@ -9,7 +9,6 @@
 @interface GLKEffectPropertyConstantColor : GLKEffectProperty
 {
     union _GLKVector4 _color;
-    unsigned char _enabled;
 }
 
 + (void);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (union _GLKVector4);
-- (void);
+- (void)+;
 - (unsigned char);
 
 // Remaining properties
-@property(nonatomic) union _GLKVector4 color; // @synthesize color=_color;
 @property(nonatomic) unsigned char enabled; // @synthesize enabled=_enabled;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)SignpostAggregationAccumulatorEntry;
 
 @end
 

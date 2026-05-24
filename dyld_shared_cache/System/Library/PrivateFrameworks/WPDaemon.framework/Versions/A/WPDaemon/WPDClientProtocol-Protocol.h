@@ -4,20 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData, NSString, NSUUID;
 
 @protocol WPDClientProtocol
 
 @optional
+- (void);
+- (void)roup"@"NSError">24;
+- (void)C.dylib;
 - (void)!øFùð1Â0@ù
 × ;
 - (void)ð1Â0@ù
 × ;
-- (void)orPeer:(NSData *)arg1;
-- (void)ionary;
+- (void)sendDatatoLePipe:(NSData *)arg1 forPeer:(NSString *)arg2;
+- (void)_peerTrackingDictionary;
 - (void)teDataToPipe:(NSUUID *)arg1 output stream is not opened %lu;
 - (void)%{public}@ for client %@;
 - (void)emon - ignoring;
-- (void)ticProperties;
+- (void)kCharacteristicProperties;
 @end
 

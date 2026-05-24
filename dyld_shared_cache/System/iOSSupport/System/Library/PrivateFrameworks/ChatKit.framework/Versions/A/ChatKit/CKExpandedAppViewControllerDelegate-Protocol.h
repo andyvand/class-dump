@@ -5,5 +5,9 @@
 //
 
 @protocol CKExpandedAppViewControllerDelegate
+
+@optional
+- (void)control:(long long)arg1 textShouldBeginEditing:(long long)arg2;
+- (double)Item",R,N,V_sortableSearchableItem;
 @end
 

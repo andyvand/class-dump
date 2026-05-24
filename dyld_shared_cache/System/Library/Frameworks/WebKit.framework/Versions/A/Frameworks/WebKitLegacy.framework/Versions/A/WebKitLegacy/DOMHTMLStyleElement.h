@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMStyleSheet, NSString;
-
 @interface DOMHTMLStyleElement : DOMHTMLElement
 {
 }
@@ -24,9 +22,6 @@
 
 // Remaining properties
 @property _Bool disabled;
-@property(copy) NSString *media;
-@property(readonly) DOMStyleSheet *sheet;
-@property(copy) NSString *type;
 
 @end
 

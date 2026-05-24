@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IHKSliderNetCPModel, NSData, NUComposition, PISliderNetAdjustmentsRequest, PISliderNetLiftRequest;
+@class IHKSliderNetCPModel, PISliderNetLiftRequest;
 
 @interface PISmartCopyPasteAutoCalculator
 {
     IHKSliderNetCPModel *_sliderNetModel;
-    NUComposition *_targetComposition;
-    double _similarityGatingThreshold;
-    NSData *_sourceAssetScenePrint;
-    NSData *_targetAssetScenePrint;
-    PISliderNetLiftRequest *_liftRequest;
-    PISliderNetAdjustmentsRequest *_adjustmentsRequest;
 }
 
 + (id);
@@ -29,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,14 +31,10 @@
 - (void);
 - (id);
 - (void);
-- (void)mediaType: /* Error: Ran out of types for this method. */;
+- (void)validatedCompositionCopyForComposition:mediaType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PISliderNetAdjustmentsRequest *adjustmentsRequest; // @synthesize adjustmentsRequest=_adjustmentsRequest;
 @property(retain, nonatomic) PISliderNetLiftRequest *liftRequest; // @synthesize liftRequest=_liftRequest;
-@property(nonatomic) double similarityGatingThreshold; // @synthesize similarityGatingThreshold=_similarityGatingThreshold;
-@property(copy, nonatomic) NSData *sourceAssetScenePrint; // @synthesize sourceAssetScenePrint=_sourceAssetScenePrint;
-@property(copy, nonatomic) NSData *targetAssetScenePrint; // @synthesize targetAssetScenePrint=_targetAssetScenePrint;
 
 @end
 

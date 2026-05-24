@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void)1Â0@ù
 × ;

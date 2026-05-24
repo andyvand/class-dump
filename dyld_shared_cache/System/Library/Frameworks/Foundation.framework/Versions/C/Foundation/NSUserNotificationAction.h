@@ -15,14 +15,13 @@
 + (id)e0küxPÿ;
 + (id)÷;
 - (id);
-- (id);
-- (void);
+- (id)`";
+- (void)(;
 - (id)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @dynamic identifier;
-@property(readonly, copy) NSString *title; // @dynamic title;
 
 @end
 

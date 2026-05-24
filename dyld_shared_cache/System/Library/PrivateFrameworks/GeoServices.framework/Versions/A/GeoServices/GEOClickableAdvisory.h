@@ -4,61 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOClickableAdvisory
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _incidentIndexs;
-    GEOFormattedString *_advisoryMessage;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_incidentIndexs:1;
-        unsigned int read_advisoryMessage:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)nsportType:(id)arg1;
++ (_Bool)setHasNavigationTransportType:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (void)k"24@?<v@?@"NSInputStream">32;
+- (unsigned long long);
 - (unsigned int *);
 - (unsigned int);
-- (_Bool);
+- (_Bool)an Marino;
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (id);;
+- (void)MACaptionForegroundColor;
+- (void)getCachedIrsFromCSAsset:(id)arg1 cachedIrDir: /* Error: Ran out of types for this method. */;
+- (id)ioSessionController _stopMonitoring];
+- (void)Lt;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ffffr;
 - (_Bool);
 - (id);
 - (void);
-- (id)orVer;
+- (id)requestAppIdMinorVer;
 - (id);
 - (id)t;
 - (id);
 - (void)æ?6;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *advisoryMessage;
 @property(readonly, nonatomic) _Bool hasAdvisoryMessage;
-@property(readonly, nonatomic) unsigned int *incidentIndexs;
-@property(readonly, nonatomic) unsigned long long incidentIndexsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface ChatKit.CKGlassConfiguration
 {
     id variant;
-    id subvariant;
-    id isAdaptive;
-    id isFlexible;
-    id smoothness;
-    id tintColor;
-    id identifier;
 }
 
 + (id);
@@ -21,13 +15,14 @@
 + (id);
 + (_Bool);
 + (_Bool);
++ (id)a
+;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void);
 - (id);
 - (void)¶;
 

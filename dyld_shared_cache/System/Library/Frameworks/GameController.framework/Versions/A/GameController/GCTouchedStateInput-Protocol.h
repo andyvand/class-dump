@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GCTouchedStateInput
+- (_Bool);
 
 // Remaining properties
-@property(readonly) double lastTouchedStateLatency;
-@property(readonly) double lastTouchedStateTimestamp;
-@property(readonly, copy) NSSet *sources;
-@property(readonly, getter=isTouched) _Bool touched;
 @property(copy) CDUnknownBlockType touchedDidChangeHandler;
 @end
 

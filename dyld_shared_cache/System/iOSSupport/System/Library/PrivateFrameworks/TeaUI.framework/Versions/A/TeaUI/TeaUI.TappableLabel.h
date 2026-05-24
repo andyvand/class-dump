@@ -6,8 +6,6 @@
 
 #import <TeaUI/TeaUI.TouchInsetsLabel.h>
 
-@class NSString;
-
 @interface TeaUI.TappableLabel : TeaUI.TouchInsetsLabel
 {
     id onTap;
@@ -15,17 +13,15 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)userOnboardingChannelPickerComplete;
 - (void)lÈúÿÈúÿ4ÊúÿpÊúÿÊúÿ¸Êúÿ´ÌúÿÍúÿ4ÍúÿÏúÿ¨ÏúÿäÏúÿÐúÿTÐúÿlÐúÿÐúÿÌÐúÿ;
-- (id)tBuilder;
+- (id)layoutBuilder;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic) unsigned long long accessibilityTraits;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

@@ -8,8 +8,6 @@
 {
     id _connection;
     id _currentQuestion;
-    id _payload;
-    id _$observationRegistrar;
 }
 
 - (void);

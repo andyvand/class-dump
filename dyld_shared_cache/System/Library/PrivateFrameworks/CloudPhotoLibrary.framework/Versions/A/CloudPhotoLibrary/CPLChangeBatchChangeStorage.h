@@ -6,19 +6,17 @@
 
 #import <CloudPhotoLibrary/CPLChangeStorage.h>
 
-@class CPLChangeBatch, NSDictionary, NSString;
+@class CPLChangeBatch, NSDictionary;
 
 @interface CPLChangeBatchChangeStorage : CPLChangeStorage
 {
     NSDictionary *_changesPerScopedIdentifier;
-    NSString *_storageDescription;
-    CPLChangeBatch *_batch;
 }
 
 - (id);
+- (id)e;
 - (id);
 - (id);
-- (id)ùúªàªøªà@ùöªàªôªý{I©ôOH©öWG©é#Fmÿÿ_Ö#ÕÿCÑôO©ý{©ýó;
 - (id);
 - (void)1°1Â0@ù
 × ;

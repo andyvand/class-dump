@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBAdvertiser, CBDiscovery, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class CBAdvertiser;
 
 __attribute__((visibility("hidden")))
 @interface APBrowserBTLEManager
 {
     unsigned short _btleMode;
-    _Bool _p2pSoloSupported;
-    _Bool _p2pSoloSupportedIsSet;
-    void *_eventContext;
-    _Bool _isAdvertising;
-    _Bool _isScanning;
-    _Bool _isEnabled;
-    _Bool _preferencesUpdated;
-    _Bool _isInvalidated;
-    _Bool _isSoloBeaconDisabled;
-    int _btleAdvertiserSeed;
-    int _btleDiscovererSeed;
-    CBAdvertiser *_btleAdvertiser;
-    CBDiscovery *_btleDiscoverer;
-    void *_eventHandlerContext;
-    CDUnknownFunctionPointerType _eventHandlerFunc;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_btleDevices;
-    const void *_btleDiscoveryManagerToken;
 }
 
 + (id);
@@ -60,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)n;
 - (_Bool);
 - (id);
 - (void);
@@ -69,9 +49,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType));
 - (void);
 - (id);
 - (int);
@@ -85,30 +65,15 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void)Accessory:(_Bool)arg1;
+- (void)#;
+- (void)home:(_Bool)arg1 didUnblockAccessory: /* Error: Ran out of types for this method. */;
 - (_Bool)gs, FigThreadPriority, CFDictionaryRef, APTransportConnectionRef *);
 
 // Remaining properties
 @property(retain, nonatomic) CBAdvertiser *btleAdvertiser; // @synthesize btleAdvertiser=_btleAdvertiser;
-@property(nonatomic) int btleAdvertiserSeed; // @synthesize btleAdvertiserSeed=_btleAdvertiserSeed;
-@property(retain, nonatomic) NSMutableDictionary *btleDevices; // @synthesize btleDevices=_btleDevices;
-@property(retain, nonatomic) CBDiscovery *btleDiscoverer; // @synthesize btleDiscoverer=_btleDiscoverer;
-@property(nonatomic) int btleDiscovererSeed; // @synthesize btleDiscovererSeed=_btleDiscovererSeed;
-@property(nonatomic) const void *btleDiscoveryManagerToken; // @synthesize btleDiscoveryManagerToken=_btleDiscoveryManagerToken;
-@property(nonatomic) void *eventHandlerContext; // @synthesize eventHandlerContext=_eventHandlerContext;
-@property(nonatomic) CDUnknownFunctionPointerType eventHandlerFunc; // @synthesize eventHandlerFunc=_eventHandlerFunc;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-@property(nonatomic) _Bool isAdvertising; // @synthesize isAdvertising=_isAdvertising;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(nonatomic) _Bool isInvalidated; // @synthesize isInvalidated=_isInvalidated;
-@property(nonatomic) _Bool isScanning; // @synthesize isScanning=_isScanning;
-@property(nonatomic) _Bool isSoloBeaconDisabled; // @synthesize isSoloBeaconDisabled=_isSoloBeaconDisabled;
-@property(nonatomic) _Bool preferencesUpdated; // @synthesize preferencesUpdated=_preferencesUpdated;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

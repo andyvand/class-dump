@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOAccelMemoryOpenGLInfo
 {
     int pid;
-    NSString *sharegroup;
-    unsigned long long objectType;
-    int name;
-    int blamedProcess;
-    NSString *objectDescription;
-    NSString *debugLabel;
-    id _expansionData;
 }
 
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
@@ -30,19 +21,13 @@
 - (void);
 - (int);
 - (id);
-- (int);
+- (int)P;
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property int blamedProcess; // @synthesize blamedProcess;
-@property(retain) NSString *debugLabel; // @synthesize debugLabel;
-@property int name; // @synthesize name;
-@property(retain) NSString *objectDescription; // @synthesize objectDescription;
-@property unsigned long long objectType; // @synthesize objectType;
 @property int pid; // @synthesize pid;
-@property(retain) NSString *sharegroup; // @synthesize sharegroup;
 
 @end
 

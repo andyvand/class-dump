@@ -7,16 +7,15 @@
 @interface CKLinkIntentsManager
 {
     id messagesNavigator;
-    id chatController;
 }
 
-+ (id)ned;
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)isWidthConstrained;
+- (void)hd;
+- (void)time:(id)arg1 %f. ID:%@:%ld /* Error: Ran out of types for this method. */;
+- (void)py fallback PDF data:(id)arg1 %@;
+- (void)string:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)SharingSection;
+- (void)LocationSharingSection;
 
 @end
 

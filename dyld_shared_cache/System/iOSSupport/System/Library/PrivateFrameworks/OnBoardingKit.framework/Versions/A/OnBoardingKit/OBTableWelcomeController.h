@@ -6,16 +6,11 @@
 
 #import <OnBoardingKit/OBWelcomeController.h>
 
-@class NSString, OBTableHeaderFooterView, UITableView, UIView;
+@class OBTableHeaderFooterView;
 
 @interface OBTableWelcomeController : OBWelcomeController
 {
     _Bool _adoptTableViewScrollView;
-    UITableView *_tableView;
-    OBTableHeaderFooterView *_headerContainer;
-    OBTableHeaderFooterView *_footerContainer;
-    UIView *_hostedTableFooterView;
-    UIView *_hostedTableHeaderView;
 }
 
 - (void);
@@ -32,18 +27,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)P;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -52,13 +47,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)@R;
+- (void)bResourceLoader:(id)arg1:willSendRequestInternal:resource load canceled because request is NULL (2) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (id);
 - (void);
 - (void);
@@ -66,19 +61,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool adoptTableViewScrollView; // @synthesize adoptTableViewScrollView=_adoptTableViewScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) OBTableHeaderFooterView *footerContainer; // @synthesize footerContainer=_footerContainer;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) OBTableHeaderFooterView *headerContainer; // @synthesize headerContainer=_headerContainer;
-@property(retain, nonatomic) UIView *hostedTableFooterView; // @synthesize hostedTableFooterView=_hostedTableFooterView;
-@property(retain, nonatomic) UIView *hostedTableHeaderView; // @synthesize hostedTableHeaderView=_hostedTableHeaderView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

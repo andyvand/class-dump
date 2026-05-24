@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)ReloadingReason;
 - (void);
 
 @end

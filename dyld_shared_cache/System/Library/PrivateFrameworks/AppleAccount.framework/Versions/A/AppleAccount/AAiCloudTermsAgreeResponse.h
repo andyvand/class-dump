@@ -13,8 +13,8 @@
     NSDictionary *_acceptedTermsInfo;
 }
 
-- (id);
-- (void)reLockAssertErrors: /* Error: Ran out of types for this method. */;
+- (id)%s/ManagedClient.log;
+- (void)set_ignoreLockAssertErrors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *acceptedTermsInfo;

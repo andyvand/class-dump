@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NUHistogram, NUHistogramCalculator;
+@class NUHistogramCalculator;
 
 @interface NUBrushStrokeMaskIntersector
 {
     unsigned long long _signpost;
-    NUHistogram *_brushHistogram;
-    NUHistogram *_maskHistogram;
-    NUHistogram *_intersectionHistogram;
-    CIImage *_intersectionImage;
-    CIImage *_brushMinusMaskImage;
-    NUHistogramCalculator *_histogramCalculator;
-    CIImage *_brushStrokeMaskImage;
-    CIImage *_maskImage;
 }
 
 - (double);
@@ -30,21 +22,12 @@
 - (double);
 - (id);
 - (id);
+- (id)NSArray",R,C,N,V_customMediaItems;
 - (id);
-- (id);
-- (void)lSampleDataLength;
+- (void)totalSampleDataLength;
 
 // Remaining properties
-@property(readonly, nonatomic) NUHistogram *brushHistogram; // @synthesize brushHistogram=_brushHistogram;
-@property(readonly, nonatomic) CIImage *brushMinusMaskImage; // @synthesize brushMinusMaskImage=_brushMinusMaskImage;
-@property(readonly, nonatomic) double brushPercentInsideMask;
-@property(readonly, nonatomic) CIImage *brushStrokeMaskImage; // @synthesize brushStrokeMaskImage=_brushStrokeMaskImage;
 @property(readonly, nonatomic) NUHistogramCalculator *histogramCalculator; // @synthesize histogramCalculator=_histogramCalculator;
-@property(readonly, nonatomic) NUHistogram *intersectionHistogram; // @synthesize intersectionHistogram=_intersectionHistogram;
-@property(readonly, nonatomic) CIImage *intersectionImage; // @synthesize intersectionImage=_intersectionImage;
-@property(readonly, nonatomic) NUHistogram *maskHistogram; // @synthesize maskHistogram=_maskHistogram;
-@property(readonly, nonatomic) CIImage *maskImage; // @synthesize maskImage=_maskImage;
-@property(readonly, nonatomic) double maskPercentInsideBrush;
 
 @end
 

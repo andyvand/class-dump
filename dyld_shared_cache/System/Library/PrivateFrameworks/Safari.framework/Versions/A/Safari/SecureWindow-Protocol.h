@@ -7,9 +7,9 @@
 @class NSWindow;
 
 @protocol SecureWindow
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSWindow *windowToSecure;
-@property(readonly, nonatomic) _Bool windowToSecureIsMainWindow;
 @end
 

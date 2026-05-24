@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSNumber;
+@class NSFileHandle;
 
 __attribute__((visibility("hidden")))
 @interface UAFileChunkInputStream
 {
     NSFileHandle *_file;
-    NSNumber *_chunkOffset;
-    long long _chunkSize;
-    NSNumber *_currentOffset;
-    long long _readSize;
-    unsigned long long _status;
 }
 
 - (void);
@@ -23,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,15 +34,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)H;
 
 // Remaining properties
-@property(retain) NSNumber *chunkOffset; // @synthesize chunkOffset=_chunkOffset;
-@property long long chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(retain) NSNumber *currentOffset; // @synthesize currentOffset=_currentOffset;
 @property(retain) NSFileHandle *file; // @synthesize file=_file;
-@property long long readSize; // @synthesize readSize=_readSize;
-@property unsigned long long status; // @synthesize status=_status;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXPhotosSectionHeaderLayoutSpec, SLHighlight;
-@protocol PXContentSyndicationSectionHeaderViewDelegate;
+@class SLHighlight;
 
 @interface PXContentSyndicationSectionHeaderView
 {
     SLHighlight *_socialLayerHighlight;
-    PXPhotosSectionHeaderLayoutSpec *_spec;
-    id <PXContentSyndicationSectionHeaderViewDelegate> _delegate;
 }
 
 - (id);
@@ -23,9 +20,7 @@
 - (void)GenerativeStoryDisambiguationSelectedAssetsCountView;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXContentSyndicationSectionHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) SLHighlight *socialLayerHighlight; // @synthesize socialLayerHighlight=_socialLayerHighlight;
-@property(retain, nonatomic) PXPhotosSectionHeaderLayoutSpec *spec; // @synthesize spec=_spec;
 
 @end
 

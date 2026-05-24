@@ -6,54 +6,41 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableArray;
-@protocol CKUploadMergeableDeltasOperationCallbacks><CKDOperationCallbackProxy;
+@class NSArray;
 
 @interface CKDUploadMergeableDeltasOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _uploadDeltaCompletionBlock;
-    CDUnknownBlockType _replaceDeltasRequestCompletionBlock;
-    NSArray *_deltas;
-    NSArray *_replacementRequests;
-    NSMutableArray *_pendingReplacementRequests;
-    NSMutableArray *_pendingDeltaUploads;
 }
 
-+ (id);
++ (id)setTotalDecodingAttempts:(unsigned long long)arg1;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)[;
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)Anchor:endAnchor:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (int);
 - (id);
-- (_Bool)PCSUpdateRetry: /* Error: Ran out of types for this method. */;
+- (_Bool)setZoneIDsNeedingPCSUpdateRetry: /* Error: Ran out of types for this method. */;
 - (void)±L²²°´¬µè·;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKUploadMergeableDeltasOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(copy, nonatomic) NSArray *deltas; // @synthesize deltas=_deltas;
-@property(retain, nonatomic) NSMutableArray *pendingDeltaUploads; // @synthesize pendingDeltaUploads=_pendingDeltaUploads;
-@property(retain, nonatomic) NSMutableArray *pendingReplacementRequests; // @synthesize pendingReplacementRequests=_pendingReplacementRequests;
-@property(copy, nonatomic) CDUnknownBlockType replaceDeltasRequestCompletionBlock; // @synthesize replaceDeltasRequestCompletionBlock=_replaceDeltasRequestCompletionBlock;
-@property(copy, nonatomic) NSArray *replacementRequests; // @synthesize replacementRequests=_replacementRequests;
-@property(nonatomic) unsigned long long state; // @dynamic state;
-@property(copy, nonatomic) CDUnknownBlockType uploadDeltaCompletionBlock; // @synthesize uploadDeltaCompletionBlock=_uploadDeltaCompletionBlock;
 
 @end
 

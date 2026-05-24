@@ -7,9 +7,6 @@
 @interface PGGraphEntityTaggingServiceClient
 {
     id etService;
-    id personView;
-    id log;
-    id entityTagsToIngest;
 }
 
 - (id);

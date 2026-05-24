@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray, NSString;
 
 @interface TIUserModelIndexedCounter
 {
     NSMutableArray *_persisted;
-    NSMutableArray *_current;
-    int _dataType;
-    NSString *_name;
 }
 
 - (void);
@@ -20,15 +17,16 @@
 - (void);
 - (void);
 - (void);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
+- (int)1*'F
+;
+- (id)PLModelMigrationAction_RepairMaintenanceTaskMarker;
 - (id);
-- (int);
-- (id);
-- (id);
-- (int);
+- (int)O;
 - (id);
 - (int);
 - (void)¨
@@ -40,12 +38,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *aggregatedCount;
-@property(readonly, nonatomic) int bucketCount;
-@property(readonly, nonatomic) NSArray *counts;
-@property(readonly, nonatomic) NSArray *currentCounts;
-@property(readonly, nonatomic) int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) int days;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

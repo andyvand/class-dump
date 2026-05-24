@@ -9,15 +9,12 @@
 @interface PKSharingIDSManagerHandlerConfiguration
 {
     unsigned long long _sharingGroup;
-    NSString *_handle;
-    NSString *_accountIdentifier;
-    unsigned long long _accessLevel;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id)À;
@@ -26,10 +23,7 @@
 - (void)So34PKContinuityProximityAdvertisementCSo47PKProvisioningContinuityDiscoveryRequestMessageCIeggo_;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) unsigned long long sharingGroup; // @synthesize sharingGroup=_sharingGroup;
 
 @end
 

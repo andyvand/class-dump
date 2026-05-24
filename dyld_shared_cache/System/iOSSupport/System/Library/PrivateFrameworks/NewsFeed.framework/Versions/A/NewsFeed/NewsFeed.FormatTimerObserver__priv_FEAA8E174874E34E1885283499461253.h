@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatTimerObserver__priv_FEAA8E174874E34E1885283499461253
 {
     id token;
-    id block;
 }
 
 @end

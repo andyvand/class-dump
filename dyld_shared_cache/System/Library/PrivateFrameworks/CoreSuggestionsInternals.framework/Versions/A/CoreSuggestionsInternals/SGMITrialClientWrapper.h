@@ -9,7 +9,6 @@
 @interface SGMITrialClientWrapper
 {
     _PASLock *_lock;
-    TRIClient *_triClient;
 }
 
 + (id);
@@ -20,6 +19,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)__swift5_assocty__TEXT;
+- (id);
+- (id);
+- (id);
+- (id)__swift5_typeref__TEXT;
 - (id);
 - (id);
 - (id);
@@ -32,6 +44,17 @@
 - (id);
 - (id);
 - (id);
+- (id)mponent: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)__objc_arraydata__DATA_CONST;
+- (id)__objc_methtype;
+- (id)__TEXT;
 - (id);
 - (id);
 - (id);
@@ -41,34 +64,10 @@
 - (id);
 - (id);
 - (id);
+- (id)(Q;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)vedDate:positionInReceivedItems: /* Error: Ran out of types for this method. */;
+- (void)searchForEndOfCentralDirectoryFromInputStream:offset: /* Error: Ran out of types for this method. */;
+- (void)processItem:receivedDate:positionInReceivedItems: /* Error: Ran out of types for this method. */;
 - (void)»;
 
 // Remaining properties

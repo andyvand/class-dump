@@ -8,30 +8,6 @@
 {
     id currentPartialSpec;
     id measurements;
-    id currentTimestamp;
-    id idContext;
-    id updateParametersSignals;
-    id plotAreaSizeSignal;
-    id viewportSizeSignal;
-    id isCanvasAccelerated;
-    id environmentSignals;
-    id measurementsSignal;
-    id paddingSignal;
-    id safeMarginSignal;
-    id xScaleSignal;
-    id yScaleSignal;
-    id foregroundStyleScaleSignal;
-    id symbolScaleSignal;
-    id symbolSizeScaleSignal;
-    id lineStyleScaleSignal;
-    id domainOverrideInOuts;
-    id plotAreaContentsSignal;
-    id xAxisSignal;
-    id yAxisSignal;
-    id selectionSignal;
-    id accessibilityElementsSignal;
-    id accessibilityAudioGraphSignal;
-    id legendContextSignal;
 }
 
 @end

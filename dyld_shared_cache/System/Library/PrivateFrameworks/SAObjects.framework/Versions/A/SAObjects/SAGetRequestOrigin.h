@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAGetRequestOrigin : SABaseClientBoundCommand
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -27,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *desiredAccuracy;
-@property(copy, nonatomic) NSNumber *maxAge;
-@property(copy, nonatomic) NSNumber *searchTimeout;
 
 @end
 

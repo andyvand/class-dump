@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DESBfloat16Transport, DESBinary32Transport, DESBinary64Transport;
+@class DESBfloat16Transport;
 
 @interface DESDataTransport
 {
     DESBfloat16Transport *_bfloat16;
-    DESBinary32Transport *_binary32;
-    DESBinary64Transport *_binary64;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ameterConfirmation.item.value.primitive.app.bundleId;
+- (void)sults.payload.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (void)rationRequest.statementResults.payload.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (_Bool)eated.unresolvedParameterSets.parameters.candidate.value.collection.values.primitive.app.bundleId;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)er.custom.bundleId;
+- (id)earch.returnType.collection.values.enumeration.typeIdentifier.custom.bundleId;
+- (id)ssionName.structuredSearch.returnType.collection.values.enumeration.typeIdentifier.custom.bundleId;
+- (id)ated.statements.expressionName.structuredSearch.returnType.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (id);
 - (void);
 - (void);
@@ -30,15 +28,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)GeneralPreferences;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) DESBfloat16Transport *bfloat16; // @synthesize bfloat16=_bfloat16;
-@property(retain, nonatomic) DESBinary32Transport *binary32; // @synthesize binary32=_binary32;
-@property(retain, nonatomic) DESBinary64Transport *binary64; // @synthesize binary64=_binary64;
-@property(readonly, nonatomic) _Bool hasBfloat16;
-@property(readonly, nonatomic) _Bool hasBinary32;
 @property(readonly, nonatomic) _Bool hasBinary64;
 
 @end

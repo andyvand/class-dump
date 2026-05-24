@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITextRange;
-@protocol UIDragSession;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UITextDragRequest
 {
     _Bool _selected;
-    UITextRange *_dragRange;
-    NSArray *_existingItems;
-    id <UIDragSession> _dragSession;
-    NSArray *_suggestedItems;
 }
 
+- (id)closeSessionForChat:chatGUID:didDeleteConversation:style: /* Error: Ran out of types for this method. */;
+- (void)_messageGUIDForMessageWithFallbackHash:(id)arg1 chat: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id)e;
+- (id)fullScreenWebRTCCapture;
 - (void)sAnimationManager;
 - (void)ôa;
 - (_Bool)Ôiâÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITextRange *dragRange; // @synthesize dragRange=_dragRange;
-@property(readonly, nonatomic) id <UIDragSession> dragSession; // @synthesize dragSession=_dragSession;
-@property(readonly, nonatomic) NSArray *existingItems; // @synthesize existingItems=_existingItems;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 @property(retain, nonatomic) NSArray *suggestedItems; // @synthesize suggestedItems=_suggestedItems;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UniversalAccessHelperProtocol
+- (void)DiscoveryEnded";
 @end
 

@@ -9,10 +9,6 @@
 @interface ASEProcessing
 {
     ASEProcessingT0 *_ase;
-    _Bool _inputType;
-    float _enhancementStrength;
-    unsigned int _destinationWidth;
-    unsigned int _destinationHeight;
 }
 
 + (_Bool);
@@ -35,14 +31,11 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)ayload is unchanged;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int destinationHeight; // @synthesize destinationHeight=_destinationHeight;
-@property(nonatomic) unsigned int destinationWidth; // @synthesize destinationWidth=_destinationWidth;
 @property(nonatomic) float enhancementStrength; // @synthesize enhancementStrength=_enhancementStrength;
-@property(nonatomic) _Bool inputType; // @synthesize inputType=_inputType;
 
 @end
 

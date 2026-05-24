@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactInlineActionsViewController, CNGroupIdentity, CNGroupIdentityInlineActionsViewConfiguration, NSString;
-@protocol CNGroupIdentityInlineActionsViewControllerDelegate;
+@class CNContactInlineActionsViewController, CNGroupIdentity;
 
 __attribute__((visibility("hidden")))
 @interface CNGroupIdentityInlineActionsViewController
 {
     CNGroupIdentity *_group;
-    id <CNGroupIdentityInlineActionsViewControllerDelegate> _delegate;
-    CNContactInlineActionsViewController *_inlineActionsViewController;
-    CNGroupIdentityInlineActionsViewConfiguration *_configuration;
 }
 
-+ (id)ontact: /* Error: Ran out of types for this method. */;
++ (id)setupContainerContextIfNeededForContact: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)R	jA;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)';
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -35,8 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (id);
-- (void);
+- (id)4b4;
+- (void)T
+@y;
 - (_Bool);
 - (long long);
 - (id);
@@ -46,21 +43,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)ixView;
+- (void)_colorMatrixView;
 
 // Remaining properties
-@property(readonly, nonatomic) CNGroupIdentityInlineActionsViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNGroupIdentityInlineActionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNGroupIdentity *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNContactInlineActionsViewController *inlineActionsViewController; // @synthesize inlineActionsViewController=_inlineActionsViewController;
-@property(readonly, nonatomic) long long style;
-@property(readonly) Class superclass;
 
 @end
 

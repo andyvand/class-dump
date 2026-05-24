@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, RFTextProperty, RFVisualProperty;
+@class RFTextProperty;
 
 @protocol RFTableCell
+- (void)p;
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps;
-@property(copy, nonatomic) NSNumber *column_span;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text;
-@property(retain, nonatomic) RFVisualProperty *visual;
 @end
 

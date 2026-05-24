@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugInspectionJSONActivityItemSource
 {
     id debugInspection;
-    id destinationURL;
 }
 
 - (id);

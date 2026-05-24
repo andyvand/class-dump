@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (float);
+- (float);
 
 // Remaining properties
 @property(nonatomic) float volume; // @synthesize volume=_volume;

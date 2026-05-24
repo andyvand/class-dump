@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, SFButtonItem;
+@class RFTextProperty, SFButtonItem;
 
 @protocol RFSimpleItemPlayerCardSection
+- (RFTextProperty *);
+- (RFTextProperty *)_enableAccessibilityDrawing;
+- (void)ibute, expected NSString, (got:(SFButtonItem *)arg1 %@, %@);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFButtonItem *player;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
 @end
 

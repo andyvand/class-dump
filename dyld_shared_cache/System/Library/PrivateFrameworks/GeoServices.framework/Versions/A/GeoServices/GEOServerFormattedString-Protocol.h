@@ -5,19 +5,12 @@
 //
 
 @class NSArray, NSString;
-@protocol GEOServerConditionalString;
 
 @protocol GEOServerFormattedString
+- (NSString *)C�H;
 - (_Bool)É³O@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerConditionalString> alternativeString;
-@property(readonly, nonatomic) NSString *basicString;
 @property(readonly, nonatomic) NSArray *formatStrings;
-@property(readonly, nonatomic) NSArray *formatStyles;
-@property(readonly, nonatomic) NSArray *formatTokens;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(readonly, nonatomic) NSArray *separators;
-@property(readonly, nonatomic) NSString *stringWithDefaultValues;
 @end
 

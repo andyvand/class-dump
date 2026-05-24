@@ -10,11 +10,12 @@
 
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)32@0:(id)arg1 8S16C20^{BluetoothHCIEventReadRemoteExtendedFeaturesResults=CSCC{BluetoothHCISupportedFeatures=[8C]}}24;
+- (void)equestID '%@', %ld keys
+;
 - (id);
 - (id);
 

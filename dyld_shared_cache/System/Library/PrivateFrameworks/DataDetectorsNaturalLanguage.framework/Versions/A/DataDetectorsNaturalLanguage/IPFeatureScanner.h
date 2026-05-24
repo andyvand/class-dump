@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet;
+@class NSArray;
 
 @interface IPFeatureScanner
 {
     NSArray *_bodyMessageUnits;
-    NSMutableArray *_bodyAllFeatures;
-    NSMutableArray *_bodyDataDetectorsFeatures;
-    NSMutableArray *_bodyKeywordFeatures;
-    NSMutableArray *_bodySentenceFeatures;
-    NSMutableArray *_detectedEvents;
-    NSArray *_stitchedEvents;
-    NSArray *_filteredDetectedEvents;
-    long long _resultType;
-    NSMutableSet *_extractedNotesStrings;
 }
 
 + (void);
@@ -31,31 +22,31 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)k;
 - (id);
 - (id);
 - (unsigned long long);
@@ -66,7 +57,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -80,7 +71,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (void);
 - (void);
 - (id);
@@ -90,8 +81,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)E;
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -100,16 +91,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *bodyAllFeatures; // @synthesize bodyAllFeatures=_bodyAllFeatures;
-@property(retain) NSMutableArray *bodyDataDetectorsFeatures; // @synthesize bodyDataDetectorsFeatures=_bodyDataDetectorsFeatures;
-@property(retain) NSMutableArray *bodyKeywordFeatures; // @synthesize bodyKeywordFeatures=_bodyKeywordFeatures;
 @property(retain) NSArray *bodyMessageUnits; // @synthesize bodyMessageUnits=_bodyMessageUnits;
-@property(retain) NSMutableArray *bodySentenceFeatures; // @synthesize bodySentenceFeatures=_bodySentenceFeatures;
-@property(retain) NSMutableArray *detectedEvents; // @synthesize detectedEvents=_detectedEvents;
-@property(retain) NSMutableSet *extractedNotesStrings; // @synthesize extractedNotesStrings=_extractedNotesStrings;
-@property(retain) NSArray *filteredDetectedEvents; // @synthesize filteredDetectedEvents=_filteredDetectedEvents;
-@property long long resultType; // @synthesize resultType=_resultType;
-@property(retain) NSArray *stitchedEvents; // @synthesize stitchedEvents=_stitchedEvents;
 
 @end
 

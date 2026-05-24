@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPhotoInfo
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
-    int _size;
-    struct {
-        unsigned int has_size:1;
-    } _flags;
 }
 
-+ (_Bool)nternalErrors:(id)arg1;
++ (_Bool)setInternalErrors:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ClientLag:(id)arg1 Using DefaultServerFeatures with disconnected-state sfLatency:%{public}f /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool) ;
 - (int);
 - (void);
-- (void);
-- (_Bool);
+- (void)g",C,N,V_merchantCode;
+- (_Bool)錹hj{8;
 - (_Bool);
 - (void);
 - (id){?="read_normalizedQuery"b1"read_normalizerName"b1"read_originalQuery"b1"wrote_anyField"b1};
-- (id)rtsAdvancedMap: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)setSupportsAdvancedMap: /* Error: Ran out of types for this method. */;
+- (id)_subsequentEventId;
 - (id)ÈÓpÕ×	üÝ	hà	ã	°å	Lè	ðê	í<ï4ô4õ ö@û@ü ýð¬(À;
 - (id)resources;
 - (void);
@@ -46,10 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSize;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(nonatomic) int size;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

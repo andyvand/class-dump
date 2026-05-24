@@ -5,5 +5,6 @@
 //
 
 @protocol BSInvalidatable
+- (void)tF;
 @end
 

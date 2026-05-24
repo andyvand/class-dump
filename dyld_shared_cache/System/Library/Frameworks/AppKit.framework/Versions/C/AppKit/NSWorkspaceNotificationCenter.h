@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSLock, NSWorkspace;
+@class NSWorkspace;
 
 __attribute__((visibility("hidden")))
 @interface NSWorkspaceNotificationCenter
 {
     NSWorkspace *_workspace;
-    NSLock *_workspaceLock;
-    struct NSWorkspaceNotificationCenterSubsystemContext_t _subsystemContexts[19];
-    NSHashTable *_notificationObservers[24];
 }
 
 - (_Bool);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)Network-AOSKit:(int)arg1 Reaching out to AOSKit for X-mobile me token;
 - (void);
 - (void);
 - (void);
@@ -31,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)xtRange"16^B24;
 - (id)
 × ;
 - (void)ñá3Ð1Â0@ù

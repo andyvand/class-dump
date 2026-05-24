@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOMapDataSubscription, NSString;
+@class GEOMapDataSubscription;
 
 @interface GEOMapSubscriptionAddReply : GEOXPCReply
 {
@@ -15,20 +15,13 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)mvpMatrix;
 - (id);
-- (void)zeWithQueue:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)calculateFreeableSizeWithQueue:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (void)P«2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOMapDataSubscription *subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,13 +12,13 @@
     unsigned long long _selectionGrouping;
 }
 
-- (id);
+- (id)__AUTH_CONST;
 - (void);
 - (unsigned long long);
 - (void)á°!ÜBùñ\1Â0@ù
 × ;
-- (id)ntifier: /* Error: Ran out of types for this method. */;
-- (_Bool)State:(id)arg1;
+- (id)touchUp:withIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setSolutionState:(id)arg1;
 - (unsigned long long)allowsHidingShortcuts;
 - (void)HjÙô];
 

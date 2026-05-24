@@ -7,7 +7,6 @@
 @interface TUConversationInvitationPreference
 {
     long long _handleType;
-    long long _notificationStyles;
 }
 
 + (long long);
@@ -17,23 +16,22 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)!t;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (long long)splayName;
+- (long long)generateDisplayName;
 
 // Remaining properties
 @property(readonly, nonatomic) long long handleType; // @synthesize handleType=_handleType;
-@property(readonly, nonatomic) long long notificationStyles; // @synthesize notificationStyles=_notificationStyles;
 
 @end
 

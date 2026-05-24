@@ -11,8 +11,8 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id);
+- (long long)_TtC11PhotosGraph48PhotosChallengeEvaluableAlgorithm2ndChristmasDay;
+- (id)aesthetics, %d for wallpaper score, %d for clock overlap, %d for low resolution, %d for crop score, %d for not safe for display, %d for positive people scene, %d for low light, %d for sensitive location;
 - (id);
 - (void);
 

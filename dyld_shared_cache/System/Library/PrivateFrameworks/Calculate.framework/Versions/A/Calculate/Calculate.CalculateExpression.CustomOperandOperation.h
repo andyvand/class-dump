@@ -9,7 +9,6 @@
 @interface Calculate.CalculateExpression.CustomOperandOperation : Calculate.CalculateExpression.OperandOperation
 {
     id operandToken;
-    id negative;
 }
 
 @end

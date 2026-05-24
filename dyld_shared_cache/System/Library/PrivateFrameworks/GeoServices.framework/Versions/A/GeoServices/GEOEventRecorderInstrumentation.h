@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface GEOEventRecorderInstrumentation
 {
     NSObject<OS_dispatch_queue> *_loggingQueue;
-    NSString *_filepath;
-    NSString *_geoFilepath;
-    NSString *_movieFilepath;
-    NSDate *_startDate;
 }
 
-+ (id);
++ (id)g;
 + (void);
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)addOperation: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)for Selected Recipients;
+- (void)COUNTRY;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)[CSBuiltInVoiceTrigger _setIsSecondPassRunning:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 @end

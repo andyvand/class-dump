@@ -5,5 +5,7 @@
 //
 
 @protocol FPDaemonActionOperationClient
+- (void);
+- (void)M;
 @end
 

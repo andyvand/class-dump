@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y0;
 - (id);
-- (void)etherTurnedOff;
+- (void)wifiTurnedOffTogetherTurnedOff;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *deviceScoreIdentifier; // @synthesize deviceScoreIdentifier=_deviceScoreIdentifier;

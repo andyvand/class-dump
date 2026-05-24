@@ -13,7 +13,7 @@
     VNImageBuffer *_targetedImageBuffer;
 }
 
-+ (Class);
++ (Class)ror"32;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,7 +50,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)torage.lv.optimizeDenominator;
 - (void)ter.mlmodelc;
 - (_Bool);
 

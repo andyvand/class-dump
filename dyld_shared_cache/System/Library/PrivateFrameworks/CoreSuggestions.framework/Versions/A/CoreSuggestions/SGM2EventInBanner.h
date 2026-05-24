@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2EventInBanner
 {
     int _app;
-    int _category;
-    int _extracted;
-    NSString *_key;
-    int _state;
-    struct {
-        unsigned int app:1;
-        unsigned int category:1;
-        unsigned int extracted:1;
-        unsigned int state:1;
-    } _has;
 }
 
 - (void);
@@ -28,48 +16,39 @@
 - (_Bool);
 - (id);
 - (int);
-- (id);
-- (void);
+- (id);
+- (void);
 - (int);
 - (int);
 - (int);
 - (void);
 - (_Bool);
 - (int);
-- (id);
-- (void);
-- (int);
+- (id)deleteForKey:(int)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_purchaseRequestEncoder;
+- (int)_createOversizedHeadersPayloadForRequest:(id)arg1 totalHeaderSize:threshold:maxSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)createEnvironmentDictionaryFromParameters;
 - (void);
 - (id);
+- (int)B;
+- (_Bool);
 - (int);
-- (_Bool);
-- (int);
-- (void);
+- (void)9;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)setAlertInviteeDeclines:(int)arg1;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasExtracted;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasState;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

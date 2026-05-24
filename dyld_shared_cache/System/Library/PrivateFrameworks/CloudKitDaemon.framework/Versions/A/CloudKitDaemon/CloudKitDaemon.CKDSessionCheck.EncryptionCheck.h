@@ -7,12 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.EncryptionCheck
 {
     id actor;
-    id sessionConfiguration;
-    id previousInvalidationContext;
-    id testDeviceReferenceProtocol;
-    id account;
-    id applicationID;
-    id systemInteraction;
 }
 
 @end

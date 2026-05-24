@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)curatorID;
++ (id)creatorTwitterUsername;
++ (id)_overrideURL;
++ (id)_overrideSubtitle;
 + (id);
 
 @end

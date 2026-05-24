@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKSubcredentialEncryptedContainer
 {
     NSString *_encryptionScheme;
-    NSString *_ephemeralPublicKey;
-    NSString *_publicKeyHash;
-    NSData *_data;
 }
 
 + (_Bool);
@@ -22,20 +19,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)acCompletionsCount;
 - (id);
 - (id);
 - (id);
-- (id)Activation;
-- (id)iderDataForSecureElementPass:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)y;
+- (id)passesPendingActivation;
+- (id)getEncryptedServiceProviderDataForSecureElementPass:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)GrayMcCarty;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(readonly, nonatomic) NSString *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(readonly, nonatomic) NSString *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(readonly, nonatomic) NSData *rawEphemeralPublicKey;
 
 @end
 

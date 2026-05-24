@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSearchField, NSString, SearchUIRowModel, SearchUITableModel;
-@protocol SFFeedbackListener, SearchUICardViewDelegate, SearchUIResultsViewDelegate;
-
 @interface SearchUITableViewController
 {
     _Bool _forceSectionJump;
-    NSSearchField *_searchField;
-    SearchUIRowModel *_savedSelection;
-    _Bool _disableNextCards;
-    _Bool _selectOnHover;
-    _Bool _activateOnSelect;
-    _Bool _inPreviewPlatter;
-    id <SFFeedbackListener> _feedbackListener;
-    SearchUITableModel *_tableModel;
-    id <SearchUICardViewDelegate> _cardViewDelegate;
-    id <SearchUIResultsViewDelegate> _resultsViewDelegate;
-    unsigned long long _lastVisibleResultsFeedbackEvent;
-    unsigned long long _lastResultEngagementFeedbackEvent;
 }
 
 - (void);
@@ -53,27 +38,27 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (void)_generalContextLeft;
+- (_Bool)_espressoModelFile;
+- (id)_distanceThreshold;
+- (void)selectorForMethod:(long long)arg1 preprocessor:(long long)arg2;
+- (void)tSender;
+- (id)setGlobalTransformerForTesting:(unsigned long long)arg1;
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)cted %@, got %@;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)(;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -81,25 +66,7 @@
 - (void)j,xÿÿÿ'j,<Øüÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool activateOnSelect; // @synthesize activateOnSelect=_activateOnSelect;
-@property(nonatomic) __weak id <SearchUICardViewDelegate> cardViewDelegate; // @synthesize cardViewDelegate=_cardViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableNextCards; // @synthesize disableNextCards=_disableNextCards;
-@property(nonatomic) __weak id <SFFeedbackListener> feedbackListener; // @synthesize feedbackListener=_feedbackListener;
-@property(nonatomic) _Bool floatingHeaders;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inPreviewPlatter; // @synthesize inPreviewPlatter=_inPreviewPlatter;
-@property unsigned long long lastResultEngagementFeedbackEvent; // @synthesize lastResultEngagementFeedbackEvent=_lastResultEngagementFeedbackEvent;
 @property unsigned long long lastVisibleResultsFeedbackEvent; // @synthesize lastVisibleResultsFeedbackEvent=_lastVisibleResultsFeedbackEvent;
-@property(nonatomic) __weak id <SearchUIResultsViewDelegate> resultsViewDelegate; // @synthesize resultsViewDelegate=_resultsViewDelegate;
-@property(nonatomic) __weak NSSearchField *searchField;
-@property(nonatomic) _Bool selectOnHover; // @synthesize selectOnHover=_selectOnHover;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SearchUITableModel *tableModel; // @synthesize tableModel=_tableModel;
 
 @end
 

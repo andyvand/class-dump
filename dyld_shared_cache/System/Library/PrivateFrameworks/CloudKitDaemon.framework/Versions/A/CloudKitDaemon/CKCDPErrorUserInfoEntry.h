@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCDPErrorUserInfoValue, NSString;
+@class NSString;
 
 @interface CKCDPErrorUserInfoEntry
 {
     NSString *_key;
-    CKCDPErrorUserInfoValue *_value;
 }
 
 - (void);
 - (id);
+- (void)NFContactlessPaymentResultOfflineDeclined;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)*, size_t, uint64_t);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool).framework/Versions/A/IOKit;
+- (_Bool)<OS_os_log>"16@0:(id)arg1 8;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)_cloudKitAccount;
+- (_Bool)ck_cloudKitAccount;
 - (void),V_destinationRecord;
 - (void)record to a CKModifyRecordsOperation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) CKCDPErrorUserInfoValue *value; // @synthesize value=_value;
 
 @end
 

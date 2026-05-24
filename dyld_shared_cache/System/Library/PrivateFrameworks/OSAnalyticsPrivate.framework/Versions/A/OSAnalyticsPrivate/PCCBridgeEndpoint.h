@@ -6,43 +6,38 @@
 
 #import <OSAnalyticsPrivate/PCCEndpoint.h>
 
-@class NSMutableDictionary, NSMutableSet, NSObject, OS_remote_device_browser, OS_xpc_remote_connection;
-@protocol OS_dispatch_queue;
+@class OS_remote_device_browser;
 
 @interface PCCBridgeEndpoint : PCCEndpoint
 {
     OS_remote_device_browser *_device_browser;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSObject<OS_dispatch_queue> *_initializationQueue;
-    NSMutableDictionary *_remoteDevices;
-    NSMutableDictionary *_remoteCRKeys;
-    NSMutableDictionary *_outgoingConnections;
-    OS_xpc_remote_connection *_listeningConnection;
-    NSMutableSet *_interruptedDevices;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (id);
++ (id)DetectionEnabled=%d, isGroupPlaybackSession=%d, interfaceName=%@;
++ (_Bool)onRef, CFArrayRef, Boolean, CFDictionaryRef *);
++ (id)apsession_ensureControlStreamSetup;
++ (void)r}] Created APKeyHolderLegacy [%{ptr}]
+;
++ (id)Authentication Type %s is not supported for AirPlay sessions.
+;
+- (id)ssion_ensureStartedInternalStage2StartTransaction(void *);
+- (void)m streamConnectedInfo (err=%m)
+;
+- (void)igTransportStreamRef);
+- (void)nsportEventStream(APSenderSessionRef, FigTransportStreamRef);
+- (void)apsession_connectTransportEventStream;
+- (id)ef, void *);
+- (id)sportStreamRef, OSType, CMBlockBufferRef, void *);
+- (void)StreamMessageCallback(FigTransportStreamRef, OSType, CMBlockBufferRef, void *);
+- (id)groupContainsGroupLeader;
+- (void)PlaybackSession=%d, interfaceName=%@;
+- (void)ptr}] Mc2UcDetectionEnabled=%d, isGroupPlaybackSession=%d, interfaceName=%@;
+- (id)trolSetupRequest(APSenderSessionRef, CFMutableDictionaryRef, CFArrayRef);
+- (_Bool)MC2UCDetection;
+- (id)t parse iCloud Share URL %@;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)@;
 
 @end
 

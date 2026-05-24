@@ -9,7 +9,6 @@
 @interface ReminderKitInternal.REMBertTextClassifierInput
 {
     id input_ids;
-    id attention_mask;
 }
 
 - (id);

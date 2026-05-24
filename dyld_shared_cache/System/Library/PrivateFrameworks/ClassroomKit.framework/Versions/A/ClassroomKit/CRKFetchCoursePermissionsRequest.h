@@ -11,7 +11,7 @@
     DMFControlGroupIdentifier *_courseIdentifier;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 - (void);
 - (id);

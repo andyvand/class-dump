@@ -8,26 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCAudioCaptionsBufferInfo
 {
     struct AudioStreamBasicDescription _format;
-    struct opaqueVCAudioBufferList *_buffer;
-    unsigned char _priority;
-    unsigned int _countOfLowPrioritySamples;
-    long long _token;
 }
 
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (struct AudioStreamBasicDescription)Èý;
 - (unsigned char)JÑÿ÷Àê)÷%;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int countOfLowPrioritySamples; // @synthesize countOfLowPrioritySamples=_countOfLowPrioritySamples;
-@property(readonly, nonatomic) struct AudioStreamBasicDescription format; // @synthesize format=_format;
-@property(readonly, nonatomic) unsigned char priority; // @synthesize priority=_priority;
 @property(readonly, nonatomic) long long token; // @synthesize token=_token;
 
 @end

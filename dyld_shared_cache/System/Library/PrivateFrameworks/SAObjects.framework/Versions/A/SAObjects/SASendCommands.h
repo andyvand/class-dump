@@ -13,12 +13,13 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)h string
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;

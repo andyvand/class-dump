@@ -7,6 +7,8 @@
 @class TSWPShapeInfo;
 
 @protocol TSWPTextEditingHostLayout
+- (void)bet;
+- (TSWPShapeInfo *);
 
 // Remaining properties
 @property(retain, nonatomic) TSWPShapeInfo *editingShape;

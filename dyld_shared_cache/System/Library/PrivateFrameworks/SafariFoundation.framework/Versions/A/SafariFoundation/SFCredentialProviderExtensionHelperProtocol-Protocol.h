@@ -5,5 +5,6 @@
 //
 
 @protocol SFCredentialProviderExtensionHelperProtocol
+- (void)c;
 @end
 

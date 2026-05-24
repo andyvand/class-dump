@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWiFiConnectionQuality, NSString;
+@class GEOWiFiConnectionQuality;
 
 @interface WiFiUsageConnectionQualityRecord
 {
     GEOWiFiConnectionQuality *_geoMessage;
-    NSString *_identifier;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)apPlayback_ensureTransportStreamsCreated;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) GEOWiFiConnectionQuality *geoMessage; // @synthesize geoMessage=_geoMessage;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

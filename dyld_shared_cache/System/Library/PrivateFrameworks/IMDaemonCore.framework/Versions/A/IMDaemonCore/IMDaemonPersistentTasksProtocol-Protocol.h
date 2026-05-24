@@ -5,5 +5,8 @@
 //
 
 @protocol IMDaemonPersistentTasksProtocol
+- (void);
+- (void);
+- (void);
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Factory)
-+ (id);
++ (id)durationForTransitionKind:(id)arg1 songPace: /* Error: Ran out of types for this method. */;
 + (id);
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _GCSystemButtonServiceInternal;
+@class _GCSystemButtonServiceInternal;
 
 @interface GCSystemButtonService
 {
@@ -15,20 +15,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)?;
+- (id)16@24@?32;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, getter=isAvailable) _Bool available;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly, copy) NSSet *respondingProcessBundleIdentifiers;
-@property(readonly, copy) NSString *sfSymbolName;
 
 @end
 

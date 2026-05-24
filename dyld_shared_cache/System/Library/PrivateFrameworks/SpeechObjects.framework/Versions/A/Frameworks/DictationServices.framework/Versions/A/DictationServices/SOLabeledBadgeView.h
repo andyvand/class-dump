@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSTextField, NSView, SOLabeledBadgeStrokeView;
+@class NSTextField, NSView;
 
 @interface SOLabeledBadgeView
 {
     NSTextField *_labelView;
-    NSView *_backgroundView;
-    SOLabeledBadgeStrokeView *_strokeView;
-    struct CGSize _placeholderIntrinsicContentSize;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (id);
 - (struct CGSize);
+- (struct CGSize)G;
+- (id)ChangedCallback;
+- (void)andidatesCount:(id)arg1 %lu _maxCandidatesCount:%lu /* Error: Ran out of types for this method. */;
+- (id);
+- (void)N14CoreNavigation3CLP8LogEntry11PrivateData17BeidouB2SyncStateE;
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)setHotKeyDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSBezierPath *_maskPath;
 @property(retain, nonatomic) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) NSTextField *labelView; // @synthesize labelView=_labelView;
-@property(nonatomic) struct CGSize placeholderIntrinsicContentSize; // @synthesize placeholderIntrinsicContentSize=_placeholderIntrinsicContentSize;
-@property(retain, nonatomic) SOLabeledBadgeStrokeView *strokeView; // @synthesize strokeView=_strokeView;
 
 @end
 

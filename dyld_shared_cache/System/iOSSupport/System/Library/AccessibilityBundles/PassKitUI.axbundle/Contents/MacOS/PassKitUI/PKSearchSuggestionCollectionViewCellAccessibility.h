@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_accessibilityPostPasteboardTextForOperation: /* Error: Ran out of types for this method. */;
++ (void);
 - (_Bool);
 - (id);
 

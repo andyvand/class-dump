@@ -6,50 +6,30 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface HMFHardwareAddress : HMFObject
 {
     NSString *_formattedString;
-    NSData *_data;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)	>	8	;
+- (id)metatheory;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)HMHomeFetchNetworkInfoMessage;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *formattedString; // @synthesize formattedString=_formattedString;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long length;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

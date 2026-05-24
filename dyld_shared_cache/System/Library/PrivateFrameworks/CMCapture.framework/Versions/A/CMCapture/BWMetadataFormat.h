@@ -14,7 +14,7 @@
 + (id)pendingIrisRecordings;
 + (void)ajectoryHomographies:] /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (struct opaqueCMFormatDescription *);
 - (id)Íé;

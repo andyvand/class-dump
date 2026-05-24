@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSDictionary, NSString, UIButton, UITextView;
-@protocol IMExpandingLabelDelegate;
+@class CAGradientLayer;
 
 @interface IMExpandingLabel
 {
     CAGradientLayer *_gradientLayer;
-    id _gradientClearColor;
-    id _gradientSemiClearColor;
-    id _gradientSolidColor;
-    _Bool _expanded;
-    _Bool _hasGradient;
-    _Bool _fitsWithinLineLimit;
-    UITextView *_textView;
-    NSString *_text;
-    NSDictionary *_textAttributes;
-    unsigned long long _numberOfLines;
-    long long _textMode;
-    UIButton *_moreButton;
-    double _gradientHeight;
-    id <IMExpandingLabelDelegate> _delegate;
-    unsigned long long _languageDirection;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)f;
 - (double);
 - (long long);
-- (void);
+- (void)kieStorage=}16;
 - (void);
 - (id);
 - (double);
@@ -42,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)createDataTaskWithRequest:activity:dataTaskCreationCompletionHandler:requestCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -54,25 +38,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (void);
 - (void);
-- (unsigned long long)rt;
+- (unsigned long long)chart;
 
 // Remaining properties
-@property(nonatomic) __weak id <IMExpandingLabelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
 @property(nonatomic) _Bool fitsWithinLineLimit; // @synthesize fitsWithinLineLimit=_fitsWithinLineLimit;
-@property(nonatomic) double gradientHeight; // @synthesize gradientHeight=_gradientHeight;
-@property(nonatomic) _Bool hasGradient; // @synthesize hasGradient=_hasGradient;
-@property(nonatomic) unsigned long long languageDirection; // @synthesize languageDirection=_languageDirection;
-@property(retain, nonatomic) UIButton *moreButton; // @synthesize moreButton=_moreButton;
-@property(nonatomic) unsigned long long numberOfLines; // @synthesize numberOfLines=_numberOfLines;
-@property(nonatomic, getter=isScrollEnabled) _Bool scrollEnabled;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSDictionary *textAttributes; // @synthesize textAttributes=_textAttributes;
-@property(nonatomic) long long textMode; // @synthesize textMode=_textMode;
-@property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end
 

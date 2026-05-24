@@ -14,10 +14,6 @@
 + (id)|;
 
 // Remaining properties
-@property(readonly) unsigned long long access; // @dynamic access;
-@property(readonly) unsigned long long alignment; // @dynamic alignment;
-@property(readonly) unsigned long long dataSize; // @dynamic dataSize;
-@property(readonly) _Bool elementIsArgumentBuffer; // @dynamic elementIsArgumentBuffer;
 @property(readonly) unsigned long long elementType; // @dynamic elementType;
 
 @end

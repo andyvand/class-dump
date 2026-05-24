@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface STUsageDetailItem
 {
     _Bool _usageTrusted;
-    float _quantity;
-    NSString *_identifier;
-    long long _type;
 }
 
 @end

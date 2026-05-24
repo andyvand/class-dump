@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TeaCharts.LineSeriesDataElement__priv_9EE3010B3705A23DEDCE010A1E357089
 {
     id seriesElement;
-    id cachedLabel;
-    id cachedValue;
 }
 
 - (void);
 - (id);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (void);
+- (id)prb;
+- (id)r>, std::__1::allocator<char> >={__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}} /* Error: Ran out of types for this method. */;
+- (void)public}s;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class NSString, UIColor;
 
 @protocol UIPreviewActionItem_Internal
+- (long long)@;
 - (void)°!@ù_°1Â0@ù
 × ;
-- (void)ndSession:(NSString *)arg1;
-- (void)attingShouldSkipHidingOnResignFirstResponder;
-- (NSString *)eractionDriver;
+- (void)findInteraction:(NSString *)arg1 didBeginFindSession: /* Error: Ran out of types for this method. */;
+- (void)_textFormattingShouldSkipHidingOnResignFirstResponder;
+- (NSString *)_UILongPressClickInteractionDriver;
 - (void)¤;
 - (NSString *)d phase = %@, autocompleted phase = %@, to responder:%@, from responder:%@ /* Error: Ran out of types for this method. */;
 - (UIColor *)ÿÎÙþ;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) long long style;
 @property(copy, nonatomic) NSString *title;
 @end
 

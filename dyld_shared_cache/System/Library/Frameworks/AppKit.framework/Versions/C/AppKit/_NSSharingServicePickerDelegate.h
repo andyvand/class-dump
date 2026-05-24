@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSharingServicePicker, NSString;
+@class NSSharingServicePicker;
 
 __attribute__((visibility("hidden")))
 @interface _NSSharingServicePickerDelegate
@@ -16,21 +16,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)n registration for %@ failed;
+- (id)p folder:(id)arg1 %@;
 - (void)n\U2019t been changed recently.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak NSSharingServicePicker *nsSharingServicePicker; // @synthesize nsSharingServicePicker=_nsSharingServicePicker;
-@property(readonly) Class superclass;
 
 @end
 

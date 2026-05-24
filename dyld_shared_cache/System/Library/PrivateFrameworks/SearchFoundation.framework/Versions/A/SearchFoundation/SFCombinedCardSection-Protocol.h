@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFCombinedCardSection
+- (NSData *);
+- (void)C;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cardSections;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *type;
 @end
 

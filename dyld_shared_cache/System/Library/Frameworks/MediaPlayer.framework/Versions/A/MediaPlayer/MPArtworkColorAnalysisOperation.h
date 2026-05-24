@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVArtworkColorAnalysis, NSError, NSURL;
+@class MSVArtworkColorAnalysis, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MPArtworkColorAnalysisOperation
 {
     NSURL *_sourceURL;
-    MSVArtworkColorAnalysis *_colorAnalysis;
-    NSError *_error;
 }
 
 - (struct CGImageSource *);
 - (struct CGImage *);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithUserIdentityStore:requestContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)__MPModelPropertyPlaylistHasAnyCleanTracks__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) MSVArtworkColorAnalysis *colorAnalysis;
-@property(readonly, nonatomic) NSError *error;
 
 @end
 

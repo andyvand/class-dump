@@ -9,15 +9,13 @@
 @interface LUI2UserGridLayout : LUI2UserLayout
 {
     double _xContentOffset;
-    struct CGPoint _contentOffset;
-    struct LUI2UserGridDimensions _gridDimensions;
 }
 
 + (struct CGSize);
 + (long long);
-+ (unsigned long long);
-+ (struct CGSize);
-+ (struct CGSize);
++ (unsigned long long);
++ (struct CGSize)P;
++ (struct CGSize);
 + (id);
 + (struct LUI2UserGridDimensions);
 - (double);
@@ -25,19 +23,17 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (struct LUI2UserGridDimensions);
+- (struct LUI2UserGridDimensions)*;
 - (void);
 - (void);
-- (void);
+- (void)messageServiceDisabled;
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
 - (id)) occurred checking the ACL for "%@";
 
 // Remaining properties
-@property struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
 @property(readonly) struct LUI2UserGridDimensions gridDimensions; // @synthesize gridDimensions=_gridDimensions;
-@property(nonatomic) double xContentOffset; // @synthesize xContentOffset=_xContentOffset;
 
 @end
 

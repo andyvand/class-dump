@@ -6,25 +6,22 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface LPWalletPassMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    long long _style;
-    NSDate *_eventDate;
-    NSDate *_expirationDate;
 }
 
-+ (id);
++ (id)startCommunicationForEntity:action:address: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)transcriptCollectionViewControllerDidRemoveTapback:(id)arg1 tapbackChatItem: /* Error: Ran out of types for this method. */;
+- (id)trackiMessageJunkEvent:(id)arg1 withDictionary: /* Error: Ran out of types for this method. */;
+- (id)trackiMessageJunkEvent:(id)arg1;
+- (id)trackSelectedGuid:(id)arg1 selectionState: /* Error: Ran out of types for this method. */;
+- (void)trackDidSelectTextStyle:(id)arg1 styleLength: /* Error: Ran out of types for this method. */;
+- (id)textView:(id)arg1 shouldChangeTextInRanges:replacementText: /* Error: Ran out of types for this method. */;
+- (_Bool)textEffectCoordinator:(id)arg1 didChangeStateOfAnimator:textView: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
@@ -35,25 +32,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)__objc_classname__TEXT;
 - (void)Á÷Ð!EùQ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

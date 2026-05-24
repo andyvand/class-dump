@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPassTextField;
+@class NSString;
 
 @interface PKPassFieldView
 {
     NSString *_key;
-    PKPassTextField *_labelField;
-    PKPassTextField *_valueField;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) PKPassTextField *labelField; // @synthesize labelField=_labelField;
-@property(readonly) PKPassTextField *valueField; // @synthesize valueField=_valueField;
 
 @end
 

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol OSASyncProxyHandler;
 
 @interface PCCEndpoint
 {
     id <OSASyncProxyHandler> _delegate;
-    unsigned int _fileTimeout;
-    NSArray *_deviceIds;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (_Bool);
+- (id)PWDSender;
+- (id)apsession_connectTransportEventStream(APSenderSessionRef, FigTransportStreamRef);
+- (id)apsession_connectTransportEventStream;
+- (void)apsession_eventStreamCreateReplyCallback;
+- (unsigned int)UP Request%?{end}:%@
+%@ /* Error: Ran out of types for this method. */;
+- (id)osName;
+- (void)apsession_appendControlSetupRequest;
+- (_Bool)%''@:(id)arg1 %@
+;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *deviceIds; // @synthesize deviceIds=_deviceIds;
 @property unsigned int fileTimeout; // @synthesize fileTimeout=_fileTimeout;
 
 @end

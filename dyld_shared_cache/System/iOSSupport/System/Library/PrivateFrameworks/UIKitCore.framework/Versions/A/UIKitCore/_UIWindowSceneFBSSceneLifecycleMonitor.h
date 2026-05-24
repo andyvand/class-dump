@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UIWindowSceneFBSSceneLifecycleMonitor : _UISceneLifecycleMonitor
 {
     NSNumber *_transitioningState;
-    _Bool _transitioning;
-    _Bool _connected;
 }
 
 - (long long);
 - (id)! GùQbÐ1Â0@ù
 × ;
 - (void);
-- (void)cksTextToFit;
+- (void)UILabelConfiguration_autotracksTextToFit;
 - (id)er and the presentation controller's delegate needs to be the view controller itself.;
 - (void)þÿ¿þÿ;
 - (void)Ñþÿ

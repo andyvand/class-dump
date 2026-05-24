@@ -6,22 +6,17 @@
 
 #import <UIKitCore/_UIToolbarVisualProvider.h>
 
-@protocol _UIBarAppearanceChangeObserver;
-
 @interface UIKit.ToolbarVisualProvider : _UIToolbarVisualProvider
 {
     id model;
-    id hostingView;
-    id pointerAssistant;
-    id isInteractive;
 }
 
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)spamFilterExtensionParams;
+- (void)dNSName;
+- (void)R,C;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long)Bù1`1Â0@ù
 × ;
 - (struct CGSize)0@ù
@@ -29,9 +24,9 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)ctCursorPanGestureWithState:(id)arg1 withTranslation:withFlickDirection: /* Error: Ran out of types for this method. */;
-- (_Bool)ltIndentationWidth;
-- (void)InactiveWidth;
+- (void)indirectCursorPanGestureWithState:(id)arg1 withTranslation:withFlickDirection: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateDefaultIndentationWidth;
+- (void)_overrideInlineInactiveWidth;
 - (id)UIView",&,N,V_mirroredLightBorderView;
 - (void)ø¹ÿdr;
 - (void)VØÿbû;
@@ -40,8 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) id <_UIBarAppearanceChangeObserver> appearanceObserver;
-@property(nonatomic) double backgroundTransitionProgress;
 @property(nonatomic, readonly) _Bool toolbarIsSmall;
 
 @end

@@ -9,21 +9,17 @@
 @interface UXCollectionViewAnimationContext
 {
     NSArray *_viewAnimations;
-    long long _animationCount;
-    id _completionHandler;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long animationCount; // @synthesize animationCount=_animationCount;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSArray *viewAnimations; // @synthesize viewAnimations=_viewAnimations;
 
 @end

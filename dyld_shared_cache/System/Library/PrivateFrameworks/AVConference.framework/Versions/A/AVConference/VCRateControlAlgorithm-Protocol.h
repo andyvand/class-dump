@@ -7,48 +7,16 @@
 @class VCRateControlMediaController;
 
 @protocol VCRateControlAlgorithm
+- (struct tagVCRateControlAlgorithmReinforcementLearningVariables);
+- (void);
+- (void)!;
+- (double)";
+- (_Bool);
+- (unsigned int);
+- (struct tagVCRateControlAlgorithmReportStats)Query<gss::PropertyID>>>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (struct tagVCRateControlAlgorithmConfig)t;
 
 // Remaining properties
-@property(readonly, nonatomic) double activeMLEngagedDuration;
-@property(readonly, nonatomic) unsigned int actualBitrate;
-@property(readonly, nonatomic) unsigned int bytesInFlight;
-@property(readonly, nonatomic) int bytesInFlightState;
-@property(readonly, nonatomic) struct tagVCRateControlAlgorithmConfig config;
-@property(nonatomic) _Bool didMBLRampDown;
-@property(readonly, nonatomic) double ecnCERatio;
-@property(readonly, nonatomic) _Bool isCongested;
-@property(readonly, nonatomic) _Bool isFirstInitialRampUpDone;
-@property(nonatomic) _Bool isFirstTimestampArrived;
-@property(readonly, nonatomic) _Bool isLossBasedAdaptationOn;
-@property(readonly, nonatomic) _Bool isMLEngaged;
-@property(readonly, nonatomic) _Bool isNewRateSentOut;
-@property(readonly, nonatomic) _Bool isRampingDown;
-@property(readonly, nonatomic) _Bool isSendBitrateLimited;
-@property(nonatomic) unsigned int localBandwidthEstimation;
-@property(nonatomic) struct tagVCRateControlMachineLearningNetworkEnvironment machineLearningEnvironment;
 @property(retain, nonatomic) VCRateControlMediaController *mediaController;
-@property(readonly, nonatomic) unsigned int mostBurstLoss;
-@property(readonly, nonatomic) double mostRecentRoundTripTime;
-@property(readonly, nonatomic) double nowrd;
-@property(readonly, nonatomic) double nowrdAcc;
-@property(readonly, nonatomic) double owrd;
-@property(readonly, nonatomic) double packetLossRate;
-@property(readonly, nonatomic) double packetLossRateAudio;
-@property(readonly, nonatomic) double packetLossRateVideo;
-@property(readonly, nonatomic) unsigned int rateChangeCounter;
-@property(readonly, nonatomic) double rateControlTime;
-@property(nonatomic) unsigned int rateSharingCount;
-@property(readonly, nonatomic) unsigned int remoteBandwidthEstimation;
-@property(readonly, nonatomic) struct tagVCRateControlAlgorithmReportStats reportStatistics;
-@property(readonly, nonatomic) double roundTripTime;
-@property(readonly, nonatomic) double roundTripTimeMinEnvelope;
-@property(readonly, nonatomic) unsigned int targetBitrate;
-@property(readonly, nonatomic) unsigned int targetBitrateAtTimeOfDisengagement;
-@property(readonly, nonatomic) unsigned int targetBitrateTier;
-@property(readonly, nonatomic) unsigned int totalPacketReceived;
-@property(readonly, nonatomic) struct tagVCRateControlAlgorithmReinforcementLearningVariables trainingVariables;
-@property(readonly, nonatomic) unsigned int worstRecentBurstLoss;
-@property(readonly, nonatomic) double worstRecentRoundTripTime;
 @end
 

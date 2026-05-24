@@ -14,9 +14,9 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)a;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)rChargingState] Invalid payload!;
 - (_Bool);
 - (void);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, copy, nonatomic) NSString *rawAddress;
 
 @end
 

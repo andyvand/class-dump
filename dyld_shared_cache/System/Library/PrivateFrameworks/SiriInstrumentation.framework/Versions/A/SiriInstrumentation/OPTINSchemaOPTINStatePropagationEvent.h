@@ -6,30 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaUUID;
-
 @interface OPTINSchemaOPTINStatePropagationEvent : SISchemaTopLevelUnionType
 {
     int _optInState;
-    int _propagationState;
-    SISchemaUUID *_hashedHomeKitAccessoryId;
-    struct {
-        unsigned int optInState:1;
-        unsigned int propagationState:1;
-    } _has;
-    _Bool _hasHashedHomeKitAccessoryId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)**;
 - (_Bool);
 - (void);
 - (void);
@@ -37,7 +28,7 @@
 - (void);
 - (id);
 - (int);
-- (id);
+- (id)(=;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -46,18 +37,12 @@
 - (id)0@ù
 × ;
 - (id)ficationMetadata";
-- (id)actionRequirement;
+- (id)_actionRequirement;
 - (id)rameterName;
-- (void);
+- (void)flowContactTier1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHashedHomeKitAccessoryId; // @synthesize hasHashedHomeKitAccessoryId=_hasHashedHomeKitAccessoryId;
-@property(nonatomic) _Bool hasOptInState;
-@property(nonatomic) _Bool hasPropagationState;
-@property(retain, nonatomic) SISchemaUUID *hashedHomeKitAccessoryId; // @synthesize hashedHomeKitAccessoryId=_hashedHomeKitAccessoryId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int optInState; // @synthesize optInState=_optInState;
-@property(nonatomic) int propagationState; // @synthesize propagationState=_propagationState;
 
 @end
 

@@ -11,10 +11,10 @@
     double _zAngle;
 }
 
++ (id)CMVideoDimensions;
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)G;
+- (id),P;
 
 @end
 

@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
 + (id);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int rawOutputIndex;
 @property(readonly, nonatomic) unsigned int yuvOutputIndex;
 
 @end

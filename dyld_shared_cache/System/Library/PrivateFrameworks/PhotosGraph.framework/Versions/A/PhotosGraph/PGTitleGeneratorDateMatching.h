@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSSet, NSString, PGGraph, PGTitle, PGTitleGenerationContext;
+@class PGGraph, PGTitleGenerationContext;
 
 @interface PGTitleGeneratorDateMatching
 {
     PGTitleGenerationContext *_titleGenerationContext;
-    NSString *_holidayName;
-    _Bool _isForHighlight;
-    PGGraph *_graph;
-    long long _type;
-    NSDateInterval *_referenceDateInterval;
-    NSSet *_dateNodes;
-    NSSet *_momentNodes;
-    unsigned long long _lineBreakBehavior;
 }
 
-+ (_Bool);
++ (_Bool)rangeOfCharacterFromSet:(long long)arg1 options:(long long)arg2 range: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (void);
@@ -30,28 +22,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_didRegisterSelectedChildrenChangedNotification;
+- (unsigned long long)_AXKClassPredicate;
 - (long long);
+- (long long)H;
+- (_Bool)I;
 - (long long);
-- (_Bool);
-- (long long);
-- (id)mproved:poiIsSpecial: /* Error: Ran out of types for this method. */;
+- (id)initFromMomentNode:toPOINode:confidence:poiIsImproved:poiIsSpecial: /* Error: Ran out of types for this method. */;
 - (void)sonImportanceAnalyzer.m;
 - (id)dLibrarySimulationParameters;
 - (id)ÿÿt¤üÿ<ÿxkÿÿ;
 - (void)ô;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowedTimeTitleFormats;
-@property(retain, nonatomic) NSSet *dateNodes; // @synthesize dateNodes=_dateNodes;
 @property(retain, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) _Bool isForHighlight; // @synthesize isForHighlight=_isForHighlight;
-@property(nonatomic) unsigned long long lineBreakBehavior; // @synthesize lineBreakBehavior=_lineBreakBehavior;
-@property(readonly, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(readonly, nonatomic) NSDateInterval *referenceDateInterval; // @synthesize referenceDateInterval=_referenceDateInterval;
-@property(readonly, nonatomic) PGTitle *title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

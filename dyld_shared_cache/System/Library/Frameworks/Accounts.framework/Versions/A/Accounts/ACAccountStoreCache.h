@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACCredentialCache, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
+@class ACCredentialCache;
 
 @interface ACAccountStoreCache
 {
     _Bool _allAccountTypeCached;
-    struct os_unfair_lock_s _accountTypeCacheLock;
-    NSMutableDictionary *_accountTypeCache;
-    struct os_unfair_lock_s _accountNotifyCachesLock;
-    NSMutableDictionary *_accountNotifyCaches;
-    NSObject<OS_dispatch_source> *_memoryNotificationSource;
-    ACCredentialCache *_credentialCache;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)7;
 - (id);
 - (void);
 - (void);

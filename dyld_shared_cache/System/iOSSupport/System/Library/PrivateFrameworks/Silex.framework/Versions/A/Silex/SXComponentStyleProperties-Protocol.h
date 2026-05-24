@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXBorder, SXComponentMask, SXComponentShadow, SXDataTableStyle, SXFill, UIColor;
+@class SXComponentMask, SXFill;
 
 @protocol SXComponentStyleProperties
+- (unsigned long long);
+- (SXComponentMask *)`;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor;
-@property(readonly, nonatomic) SXBorder *border;
-@property(readonly, nonatomic) double cornerRadius;
 @property(readonly, nonatomic) SXFill *fill;
-@property(readonly, nonatomic) SXComponentMask *mask;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) SXComponentShadow *shadow;
-@property(readonly, nonatomic) SXDataTableStyle *tableStyle;
-@property(readonly, nonatomic) unsigned long long traits;
 @end
 

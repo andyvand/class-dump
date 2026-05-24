@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)aluation failed with status 0x%llX;
 
 @end
 

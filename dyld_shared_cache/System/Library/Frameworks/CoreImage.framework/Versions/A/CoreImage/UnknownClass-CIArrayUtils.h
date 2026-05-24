@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (CIArrayUtils)
-+ (id);
++ (id);
 + (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 @end
 

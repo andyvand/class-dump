@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id)teConstraintsFromReadResponses:(struct _NSZone *)arg1 readRequests:flow: /* Error: Ran out of types for this method. */;
-- (unsigned long long)gregator;
+- (id)createConstraintsFromReadResponses:(struct _NSZone *)arg1 readRequests:flow: /* Error: Ran out of types for this method. */;
+- (unsigned long long)HMDHomeActivityVacationAggregator;
 - (id)ol parameters;
 
 // Remaining properties

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)lastPathComponent;
++ (_Bool)lastCapturedString;
++ (id)initWithURL:configuration: /* Error: Ran out of types for this method. */;
 
 @end
 

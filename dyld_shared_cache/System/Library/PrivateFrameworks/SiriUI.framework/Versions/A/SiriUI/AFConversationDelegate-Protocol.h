@@ -5,5 +5,8 @@
 //
 
 @protocol AFConversationDelegate
+
+@optional
+- (void);
 @end
 

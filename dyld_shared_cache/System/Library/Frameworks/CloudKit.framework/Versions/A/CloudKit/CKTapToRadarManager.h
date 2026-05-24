@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKTapToRadarManager
 {
     NSObject<OS_dispatch_queue> *_alertQueue;
-    NSUserDefaults *_userDefaults;
-    NSMutableDictionary *_lastPromptDateByMessageHash;
 }
 
-+ (id);
++ (id)BRInternalErrorDomain;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)K;
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id));
 - (id)ák-ð!ÜBùQG1°1Â0@ù
 × ;
-- (void)lbacks;
+- (void)CKFetchUserQuotaOperationCallbacks;
 - (void)¬4;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *alertQueue; // @synthesize alertQueue=_alertQueue;
-@property(retain, nonatomic) NSMutableDictionary *lastPromptDateByMessageHash; // @synthesize lastPromptDateByMessageHash=_lastPromptDateByMessageHash;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

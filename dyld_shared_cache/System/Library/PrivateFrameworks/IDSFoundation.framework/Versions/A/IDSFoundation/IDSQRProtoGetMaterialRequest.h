@@ -13,7 +13,7 @@
 
 + (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (id);
 - (void);
@@ -23,8 +23,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)updateAccessoryBlob:(id)arg1;
+- (void)Distance changed:(id)arg1 %s -> %s, %@
+;
 - (id);
 - (id);
 - (void);

@@ -7,12 +7,6 @@
 @interface SiriInference.DateTime.DateTimeRange
 {
     id at;
-    id start;
-    id end;
-    id duration;
-    id interval;
-    id definedValue;
-    id qualifier;
 }
 
 @end

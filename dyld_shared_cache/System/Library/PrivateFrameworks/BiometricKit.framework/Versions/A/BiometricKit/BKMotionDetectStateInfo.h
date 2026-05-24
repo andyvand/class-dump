@@ -9,7 +9,6 @@
 @interface BKMotionDetectStateInfo
 {
     NSArray *_motionMatrix;
-    unsigned long long _motionDetectState;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long motionDetectState; // @synthesize motionDetectState=_motionDetectState;
 @property(readonly, nonatomic) NSArray *motionMatrix; // @synthesize motionMatrix=_motionMatrix;
 
 @end

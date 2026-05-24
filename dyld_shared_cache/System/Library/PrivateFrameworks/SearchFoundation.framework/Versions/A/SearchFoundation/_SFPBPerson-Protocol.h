@@ -7,15 +7,15 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBPerson
+- (void);
+- (void)eenTimeInSeconds;
+- (void)_didReceivePushPayload:(NSString *)arg1 channelUUID:reply:isServiceUpdateMessage:isHighPriority:remainingHighPriorityBudget: /* Error: Ran out of types for this method. */;
+- (NSString *)addObject:(unsigned long long)arg1;
+- (void)_hintDataCurrentOffset;
+- (NSData *)er;
 - (NSArray *)ssetsPercentage;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(copy, nonatomic) NSString *displayName;
-@property(copy, nonatomic) NSArray *emailAddresses;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *personIdentifier;
-@property(copy, nonatomic) NSArray *phoneNumbers;
-@property(copy, nonatomic) NSString *photosIdentifier;
 @end
 

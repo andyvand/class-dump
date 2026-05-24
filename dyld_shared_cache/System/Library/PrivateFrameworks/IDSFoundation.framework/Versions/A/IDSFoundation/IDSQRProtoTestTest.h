@@ -13,8 +13,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)KeysInfo=SS}28;
+- (void):(id)arg1 %##@
+;
 - (id);
 - (id);
 

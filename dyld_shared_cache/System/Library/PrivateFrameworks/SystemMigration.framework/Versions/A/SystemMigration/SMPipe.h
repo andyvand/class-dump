@@ -7,7 +7,6 @@
 @interface SMPipe
 {
     int _fds[2];
-    _Bool _opened;
 }
 
 - (_Bool);

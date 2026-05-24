@@ -6,20 +6,15 @@
 
 #import <IMCore/IMMessageStatusChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMMessageReplyCountChatItem : IMMessageStatusChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_threadIdentifier;
-    NSString *_replyMessageGUID;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(readonly, nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(readonly, copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 @end
 

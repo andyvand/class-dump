@@ -5,5 +5,6 @@
 //
 
 @protocol TRIAssetExtracting
+- (CDStruct_6b48f683)lOutputStreamDelegate>",W,V_delegate;
 @end
 

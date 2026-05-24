@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CVNLPCLIPModel
 {
     NSString *_modelName;
-    NSDictionary *_options;
-    shared_ptr_44a2a795 _model;
 }
 
 - (id);
+- (id),~;
+- (id);
+- (id)F;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (shared_ptr_44a2a795);
+- (shared_ptr_d07efcea);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) shared_ptr_44a2a795 model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
+@property(readonly, nonatomic) shared_ptr_d07efcea model; // @synthesize model=_model;
 
 @end
 

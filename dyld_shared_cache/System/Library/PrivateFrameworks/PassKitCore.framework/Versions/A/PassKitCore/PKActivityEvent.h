@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKActivityEvent
 {
     _Bool _unread;
-    NSString *_eventType;
-    NSString *_identifier;
-    NSDate *_date;
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)͗;
+- (_Bool)?;
+- (id)-;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)clearCcas;
 - (id)!@ùñî%1Â0@ù
 × ;
 - (void)contextLocalizedPrimaryActionTitle;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=isUnread) _Bool unread; // @synthesize unread=_unread;
 
 @end
 

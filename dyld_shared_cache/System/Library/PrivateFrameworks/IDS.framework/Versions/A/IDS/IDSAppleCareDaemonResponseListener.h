@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDaemonRequestTimer, NSString;
+@class IDSDaemonRequestTimer;
 
 @interface IDSAppleCareDaemonResponseListener
 {
     IDSDaemonRequestTimer *_requestTimer;
-    CDUnknownBlockType _disconnectedBlock;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)d ;
 - (void)1,Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

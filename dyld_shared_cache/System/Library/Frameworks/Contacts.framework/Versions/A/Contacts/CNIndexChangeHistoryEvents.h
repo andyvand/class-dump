@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNIndexChangeHistoryEvents
 {
     _Bool _stop;
-    CDUnknownBlockType _block;
 }
 
 + (_Bool);
@@ -20,21 +17,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)FamilyChecklistExperimental;
 - (void);
 - (void)1*Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool stop; // @synthesize stop=_stop;
-@property(readonly) Class superclass;
 
 @end
 

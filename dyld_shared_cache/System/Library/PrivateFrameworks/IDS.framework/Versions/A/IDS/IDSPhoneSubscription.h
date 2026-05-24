@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSPhoneSubscription
 {
     long long _subscriptionSlot;
-    NSString *_labelID;
 }
 
 + (id);
@@ -28,15 +25,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)-data from sessionInfo.;
+- (id)QueryResponseTime;
 - (void);
 - (id);
 - (void)f(!LAù,°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *labelID; // @synthesize labelID=_labelID;
 @property(nonatomic) long long subscriptionSlot; // @synthesize subscriptionSlot=_subscriptionSlot;
 
 @end

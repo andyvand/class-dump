@@ -9,8 +9,6 @@
 @interface _ANEPerformanceStats
 {
     unsigned long long _hwExecutionTime;
-    NSData *_pStatsRawData;
-    NSData *_perfCounterData;
 }
 
 + (id);
@@ -26,14 +24,12 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)@16B24;
+- (id){;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long hwExecutionTime; // @synthesize hwExecutionTime=_hwExecutionTime;
-@property(readonly, nonatomic) NSData *pStatsRawData; // @synthesize pStatsRawData=_pStatsRawData;
 @property(readonly, nonatomic) NSData *perfCounterData; // @synthesize perfCounterData=_perfCounterData;
 
 @end

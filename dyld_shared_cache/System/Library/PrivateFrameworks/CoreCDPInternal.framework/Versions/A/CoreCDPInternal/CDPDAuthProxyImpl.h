@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CDPDAuthProxyImpl
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)WindowReopener;
+- (void)PerSitePreferencePopUpItemViewController;
+- (void)PerSitePreferencePopUpButtonCell;
+- (id)ColorPickerWellViewController;
+- (void)neContext;
+- (void)GroupSharingExtras;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

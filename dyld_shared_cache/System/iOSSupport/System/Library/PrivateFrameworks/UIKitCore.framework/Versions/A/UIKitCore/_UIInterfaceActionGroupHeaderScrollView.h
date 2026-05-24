@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     UIView *_contentView;
 }
 
-- (void);
-- (double);
+- (void)edData",R,N,V_idsTrustedData;
+- (double)r task;
 - (void)! Cùq`1Â0@ù
 × ;
 - (id);

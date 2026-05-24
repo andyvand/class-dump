@@ -9,13 +9,16 @@
 @protocol SFFeedbackListener
 
 @optional
-- (void)FTopHitNo;
-- (void)SectionsBundleIds;
+- (void);
+- (void)taSourceForApplicationBundleIdentifier"b1};
+- (void)blic}@".;
+- (void)SFTopHitNo;
+- (void)TopHitsFilterSectionsBundleIds;
 - (void)calCand:(SFCardSectionEngagementFeedback *)arg1 %d, bundleID:%@, identifier:%@, name:%@, topicality:%f (pommesL1Score = %f, embeddingSimilarity = %f, keywordMatchScore = %f, documentEmbeddingAvailable = %d, retrievalType = %i), %@:%f, ri:%p/%p/%lu, isMailCategory:(HighImpact = %d, Promotions = %d, Transactions = %d, Updates = %d) /* Error: Ran out of types for this method. */;
-- (void)Type;
-- (void)rmFrequenciesWeighted_Min_Prefix;
-- (void)ncies_Var_Prefix;
-- (void)Mode;
+- (void)_isCalendarOtherReservationEventType;
+- (void)kMDItemCategory_TermFrequenciesWeighted_Min_Prefix;
+- (void)_kMDItemSnippet_TermFrequencies_Var_Prefix;
+- (void)kMDItemAppleLoopsLoopMode;
 - (void)ijà	á	klmnopqrstuvwxyz{|}~hijâ	ã	V
 W
 ä	å	 ¡¢£¤¥¦§¨©ª«¬klm­®¯°±²³´µ¶æ	ç	X

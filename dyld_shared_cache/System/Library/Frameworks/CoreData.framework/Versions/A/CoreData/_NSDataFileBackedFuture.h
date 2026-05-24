@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL, NSUUID;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _NSDataFileBackedFuture
 {
     NSURL *_fileURL;
-    NSURL *_originalFileURL;
-    unsigned long long _fileSize;
-    NSUUID *_uuid;
-    NSData *_realData;
-    NSData *_bytes;
 }
 
 + (_Bool);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (unsigned long long);
 - (id);
-- (const void *);
+- (const void *);
 - (_Bool);
 - (void);
 - (id);
@@ -42,8 +37,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ibute);
 
 // Remaining properties
-@property(readonly) NSUUID *UUID; // @synthesize UUID=_uuid;
-@property(readonly) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
 @property(readonly) NSURL *fileURL;
 
 @end

@@ -14,10 +14,10 @@
 
 + (Class);
 - (id);
+- (void)article_list_id;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)setSubscriptionRelatedImpressionValue:(struct CGRect)arg1;
+- (id);
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

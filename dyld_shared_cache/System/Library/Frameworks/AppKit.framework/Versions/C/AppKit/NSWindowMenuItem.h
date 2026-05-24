@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowMenuItem
 {
     NSWindow *_window;
-    NSString *_path;
-    NSString *_title;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)e}}};
-- (void);
-- (id)482CDFD006234D7AC5D37_NSTextSuggestionsControlMenuDelegate;
+- (void)fileNameFromRunningSavePanelForSaveOperation:(id)arg1;
+- (id)_TtC6AppKitP33_BA0ECE0BE2983482CDFD006234D7AC5D37_NSTextSuggestionsControlMenuDelegate;
 - (id);
 
 // Remaining properties
-@property(retain) NSString *path; // @synthesize path=_path;
-@property(copy) NSString *title; // @synthesize title=_title;
 @property NSWindow *window; // @synthesize window=_window;
 
 @end

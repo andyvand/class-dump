@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADBevel
 {
     int mType;
-    float mWidth;
-    float mHeight;
 }
 
 - (id);
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (float);
 - (float);
-- (int);
+- (int)y;
 - (_Bool);
 - (void);
 - (id);

@@ -7,14 +7,9 @@
 @interface CKDTrafficLogger
 {
     id $defaultActor;
-    id accumulatedLogs;
-    id accumulatedLogSize;
-    id accumulatedCompletedLogCount;
-    id transaction;
-    id delayedFlushTask;
 }
 
-+ (id)lityTrafficBinary;
++ (id)LogFacilityTrafficBinary;
 - (void);
 - (void);
 - (void);

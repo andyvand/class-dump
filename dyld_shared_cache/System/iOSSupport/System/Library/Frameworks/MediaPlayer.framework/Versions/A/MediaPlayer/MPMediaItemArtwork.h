@@ -7,7 +7,6 @@
 @interface MPMediaItemArtwork
 {
     struct CGSize _bounds;
-    CDUnknownBlockType _requestHandler;
 }
 
 - (id);
@@ -16,13 +15,12 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (struct CGRect);
-- (id);
+- (struct CGRect)UltronReportingPlan;
+- (id)ional results are available. Get more rows...;
 - (void)xtColor;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) struct CGRect imageCropRect;
 
 @end
 

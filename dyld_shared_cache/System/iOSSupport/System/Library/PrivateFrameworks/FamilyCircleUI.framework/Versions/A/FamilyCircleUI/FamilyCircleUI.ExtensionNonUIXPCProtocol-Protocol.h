@@ -5,5 +5,6 @@
 //
 
 @protocol FamilyCircleUI.ExtensionNonUIXPCProtocol
+- (void);
 @end
 

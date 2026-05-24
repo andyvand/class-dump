@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
-
 @interface NEOnDemandRule
 {
     long long _action;
-    NSArray *_DNSSearchDomainMatch;
-    NSArray *_DNSServerAddressMatch;
-    long long _interfaceTypeMatch;
-    NSArray *_SSIDMatch;
-    NSURL *_probeURL;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)setQpodParameters: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)response ID %u (vs %u):(id)arg1 %#m
+;
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)qa;
 - (id);
 - (long long);
 - (id);
 - (void)8;
-- (_Bool)eFlow:(id)arg1 withVerdict: /* Error: Ran out of types for this method. */;
+- (_Bool)resumeFlow:(id)arg1 withVerdict: /* Error: Ran out of types for this method. */;
 - (id)ethod in KE payload (responder rekey child followup KE);
 
 // Remaining properties
-@property(copy) NSArray *DNSSearchDomainMatch; // @synthesize DNSSearchDomainMatch=_DNSSearchDomainMatch;
-@property(copy) NSArray *DNSServerAddressMatch; // @synthesize DNSServerAddressMatch=_DNSServerAddressMatch;
-@property(copy) NSArray *SSIDMatch; // @synthesize SSIDMatch=_SSIDMatch;
 @property(readonly) long long action; // @synthesize action=_action;
-@property long long interfaceTypeMatch; // @synthesize interfaceTypeMatch=_interfaceTypeMatch;
-@property(copy) NSURL *probeURL; // @synthesize probeURL=_probeURL;
 
 @end
 

@@ -6,36 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class CAAnimation, CALayer, CAShapeLayer, NSColor, NSMutableArray, NSString, NSTrailingGlow, TUIGlowEffect;
+@class NSColor;
 
 @interface NSTextInsertionIndicator : NSView
 {
     NSColor *_color;
-    long long _displayMode;
-    long long _currentState;
-    unsigned long long _substate;
-    CALayer *_glowContainer;
-    CAShapeLayer *_glowLayer;
-    CALayer *_indicatorLayer;
-    TUIGlowEffect *_glowEffect;
-    NSTrailingGlow *_pendingTrailingGlow;
-    NSMutableArray *_animatingTrailingGlows;
-    struct __CFRunLoopTimer *_waitTimer;
-    struct __CFRunLoopObserver *_trackingLoopObserver;
-    CAAnimation *_currentAnimation;
-    unsigned int _animationCount;
-    _Bool _isMoving;
-    _Bool _isDictating;
-    _Bool _isTracking;
-    _Bool _disableBlinking;
-    _Bool _showsGlow;
-    long long _automaticModeOptions;
-    CDUnknownBlockType _effectsViewInserter;
 }
 
 + (_Bool)â31Â0@ù
 × ;
-- (_Bool);
+- (_Bool)wtUF1NceYeLT6IHovZvocw;
+- (void)6RrxXzvfw2GZeUPLKXxrmA;
+- (void)7l0BaQsNxJCanoeHMJ2huA;
 - (void);
 - (void);
 - (void);
@@ -43,9 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)w;
 - (void);
 - (void);
 - (void);
@@ -59,16 +39,16 @@
 - (id);
 - (_Bool);
 - (long long);
+- (void)CFNetDiagnosticCreateWithStreams;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (void)Ñæ3Ð1Â0@ù
 × ;
-- (id)tAccessGranted:(struct CGRect)arg1;
+- (id)setAccessGranted:(struct CGRect)arg1;
 - (void),R,N,GisWritingToolsActive;
 - (void)×A¾?À?
 ×£p=
@@ -76,17 +56,7 @@
 - (long long);
 
 // Remaining properties
-@property long long automaticModeOptions; // @synthesize automaticModeOptions=_automaticModeOptions;
-@property(copy) NSColor *color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property long long displayMode;
-@property(copy) CDUnknownBlockType effectsViewInserter; // @synthesize effectsViewInserter=_effectsViewInserter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

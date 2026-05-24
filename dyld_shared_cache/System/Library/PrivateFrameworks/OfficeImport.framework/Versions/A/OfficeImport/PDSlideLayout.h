@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PDSlideLayout : PDSlideChild
 {
     int mSlideLayoutType;
-    PDSlideMaster *mSlideMaster;
 }
 
 - (id);
@@ -26,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)@9;
 - (id);
 - (id);
 - (void);

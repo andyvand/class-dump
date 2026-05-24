@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, geo_isolater;
-@protocol OS_dispatch_source;
+@class geo_isolater;
 
 @interface GEORequestCountPowerLogger
 {
     geo_isolater *_isolater;
-    struct atomic_flag _didRead;
-    NSDate *_startDate;
-    NSMutableDictionary *_clientInfo;
-    _Bool _isDirty;
-    NSObject<OS_dispatch_source> *_writeTimer;
-    NSObject<OS_dispatch_source> *_flushTimer;
 }
 
 + (id);

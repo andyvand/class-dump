@@ -5,6 +5,6 @@
 //
 
 @protocol NSMenuItemValidation
-- (_Bool)iginRequestPending;
+- (_Bool)_originRequestPending;
 @end
 

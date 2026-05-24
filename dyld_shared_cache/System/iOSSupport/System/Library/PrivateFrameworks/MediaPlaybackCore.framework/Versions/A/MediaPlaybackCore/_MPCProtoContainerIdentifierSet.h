@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoContainerIdentifierSet
 {
     long long _cloudID;
-    long long _delegateInfoID;
-    long long _storeAdamID;
-    NSString *_cloudCollectionID;
-    NSString *_cloudUniversalLibraryID;
-    NSString *_radioStationID;
-    NSString *_storePlaylistGlobalID;
-    NSString *_storePlaylistVersionHash;
-    struct {
-        unsigned int cloudID:1;
-        unsigned int delegateInfoID:1;
-        unsigned int storeAdamID:1;
-    } _has;
 }
 
 - (id);

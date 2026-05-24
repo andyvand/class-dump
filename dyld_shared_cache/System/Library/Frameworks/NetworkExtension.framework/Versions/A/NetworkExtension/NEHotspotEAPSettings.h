@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface NEHotspotEAPSettings
 {
     _Bool _tlsClientCertificateRequired;
-    NSArray *_supportedEAPTypes;
-    NSString *_username;
-    NSString *_outerIdentity;
-    long long _ttlsInnerAuthenticationType;
-    NSString *_password;
-    NSArray *_trustedServerNames;
-    long long _preferredTLSVersion;
-    NSArray *_clientTrustChainReference;
-    NSData *_identityReference;
-    NSArray *_trustedServerCertificateReferences;
 }
 
-+ (_Bool);
++ (_Bool)setPendingTotalCount: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -42,28 +32,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)== SFAirDropUserDefaults ==
+Error getting descriptions
+;
 - (_Bool);
 - (void);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ificateReference: /* Error: Ran out of types for this method. */;
+- (void)setLocalCertificateReference: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSArray *clientTrustChainReference; // @synthesize clientTrustChainReference=_clientTrustChainReference;
-@property(copy) NSData *identityReference; // @synthesize identityReference=_identityReference;
-@property(copy) NSString *outerIdentity; // @synthesize outerIdentity=_outerIdentity;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property long long preferredTLSVersion; // @synthesize preferredTLSVersion=_preferredTLSVersion;
-@property(copy) NSArray *supportedEAPTypes; // @synthesize supportedEAPTypes=_supportedEAPTypes;
-@property(getter=isTLSClientCertificateRequired) _Bool tlsClientCertificateRequired; // @synthesize tlsClientCertificateRequired=_tlsClientCertificateRequired;
-@property(copy) NSArray *trustedServerCertificateReferences; // @synthesize trustedServerCertificateReferences=_trustedServerCertificateReferences;
-@property(copy) NSArray *trustedServerNames; // @synthesize trustedServerNames=_trustedServerNames;
-@property long long ttlsInnerAuthenticationType; // @synthesize ttlsInnerAuthenticationType=_ttlsInnerAuthenticationType;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

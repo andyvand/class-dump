@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MROperation
 {
     struct os_unfair_lock_s _lock;
-    NSDate *_creationDate;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSDate *_cancellationDate;
-    CDUnknownBlockType _operationBlock;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (double);
@@ -30,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *cancellationDate; // @synthesize cancellationDate=_cancellationDate;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) double executionDuration;
-@property(copy, nonatomic) CDUnknownBlockType operationBlock; // @synthesize operationBlock=_operationBlock;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) double totalDuration;
-@property(readonly, nonatomic) double waitDuration;
 
 @end
 

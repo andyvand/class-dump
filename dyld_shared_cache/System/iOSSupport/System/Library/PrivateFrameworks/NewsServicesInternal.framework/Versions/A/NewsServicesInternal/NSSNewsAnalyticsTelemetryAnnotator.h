@@ -11,7 +11,7 @@
     id <NSSNewsAnalyticsUserIDProvider> _userIDProvider;
 }
 
-- (id);
+- (id)OnboardingLandingPageCloseActionHandler;
 - (void);
 - (id);
 - (id);

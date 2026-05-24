@@ -6,7 +6,7 @@
 
 #import <ExchangeWebServices/EWSSearchExpressionType.h>
 
-@class EWSBasePathToElementType, NSString;
+@class EWSBasePathToElementType;
 
 @interface EWSExistsType : EWSSearchExpressionType
 {
@@ -16,18 +16,11 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)TimeCore;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSBasePathToElementType *Path; // @synthesize Path=_Path;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

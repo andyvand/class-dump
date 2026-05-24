@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSSet;
-
 @interface PXFeedSectionInfosChange
 {
     _Bool _shouldReload;
-    NSIndexSet *_deletedIndexes;
-    NSIndexSet *_insertedIndexes;
-    NSIndexSet *_updatedIndexes;
-    NSSet *_sectionInfosWithCommentChanges;
-    NSSet *_updatedAssets;
-    NSSet *_updatedAssetOIDs;
 }
 
 - (id);
@@ -30,19 +22,13 @@
 - (id);
 - (void)!Aùñ9°1Â0@ù
 × ;
-- (_Bool)ce;
+- (_Bool)PXSharedLibraryPhotoKitDataSource;
 - (id)	
 ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexSet *deletedIndexes; // @synthesize deletedIndexes=_deletedIndexes;
-@property(retain, nonatomic) NSIndexSet *insertedIndexes; // @synthesize insertedIndexes=_insertedIndexes;
-@property(retain, nonatomic) NSSet *sectionInfosWithCommentChanges; // @synthesize sectionInfosWithCommentChanges=_sectionInfosWithCommentChanges;
 @property(nonatomic) _Bool shouldReload; // @synthesize shouldReload=_shouldReload;
-@property(retain, nonatomic) NSSet *updatedAssetOIDs; // @synthesize updatedAssetOIDs=_updatedAssetOIDs;
-@property(retain, nonatomic) NSSet *updatedAssets; // @synthesize updatedAssets=_updatedAssets;
-@property(retain, nonatomic) NSIndexSet *updatedIndexes; // @synthesize updatedIndexes=_updatedIndexes;
 
 @end
 

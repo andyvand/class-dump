@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (void);
 + (void);
@@ -26,11 +26,6 @@
 + (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *TTML; // @dynamic TTML;
-@property(nonatomic) _Bool hasDownloadedCatalogLyrics; // @dynamic hasDownloadedCatalogLyrics;
-@property(nonatomic) _Bool hasLibraryLyrics; // @dynamic hasLibraryLyrics;
-@property(nonatomic) _Bool hasStoreLyrics; // @dynamic hasStoreLyrics;
-@property(nonatomic) _Bool hasTimeSyncedLyrics; // @dynamic hasTimeSyncedLyrics;
 @property(copy, nonatomic) NSString *text; // @dynamic text;
 
 @end

@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)d-name-and-photo;
+- (id);
+- (id)ritesDataSource.serialQueue;
+- (id)aSource:(SEL)arg1 fetchContacts;
+- (id)urce loading;
+- (Class)LINK_TITLE_PARTICIPANT_NAME_FORMAT_AND_ONE_OTHER;
+- (unsigned long long)_alertMessage;
+- (_Bool)BGtcG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

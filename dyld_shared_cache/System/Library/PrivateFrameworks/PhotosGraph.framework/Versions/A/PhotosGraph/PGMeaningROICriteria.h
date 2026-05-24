@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PGMeaningROICriteria
 {
     NSArray *_positiveROIs;
-    NSArray *_negativeROIs;
-    unsigned long long _minimumNumberOfROIs;
 }
 
 + (id);
@@ -22,22 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)__CGEvent=}48@0:8@"AXEEventTapManager"16@"AXEGestureEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40 /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (void)rectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphBuilder+Processing.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long minimumNumberOfROIs; // @synthesize minimumNumberOfROIs=_minimumNumberOfROIs;
-@property(retain, nonatomic) NSArray *negativeROIs; // @synthesize negativeROIs=_negativeROIs;
 @property(retain, nonatomic) NSArray *positiveROIs; // @synthesize positiveROIs=_positiveROIs;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextCheckingResult;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRTypologyCandidate
 {
     NSString *_candidateString;
-    struct _NSRange _selectedRange;
-    NSTextCheckingResult *_result;
-    double _openTime;
-    double _closeTime;
-    _Bool _isOpen;
 }
 
 + (id);

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITableViewCell.h>
 
-@class UIColor, UIVisualEffect;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCollectionCell : UITableViewCell
@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (void)mit;
-- (_Bool)CategoryImageAdjusting;
+- (void)expectingCommit;
+- (_Bool)UIAccessibilityContentSizeCategoryImageAdjusting;
 - (_Bool)õ;
 - (void)¶;
 - (void);
@@ -35,26 +35,7 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets)¤Èÿ;
 
 // Remaining properties
-@property(nonatomic) long long accessoryType;
 @property(copy, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic) struct UIEdgeInsets backgroundInset;
-@property(nonatomic) double defaultLeadingCellMarginWidth;
-@property(nonatomic) double defaultTrailingCellMarginWidth;
-@property(nonatomic) _Bool drawsSeparatorAtBottomOfSection;
-@property(nonatomic) _Bool drawsSeparatorAtTopOfSection;
-@property(nonatomic) long long editingStyle;
-@property(nonatomic) long long indentationLevel;
-@property(nonatomic) double indexBarExtentFromEdge;
-@property(nonatomic) _Bool insetsContentViewsToSafeArea;
-@property(nonatomic) _Bool layoutMarginsFollowReadableWidth; // @dynamic layoutMarginsFollowReadableWidth;
-@property(nonatomic) int sectionLocation; // @dynamic sectionLocation;
-@property(copy, nonatomic) UIColor *separatorColor; // @dynamic separatorColor;
-@property(retain, nonatomic) UIVisualEffect *separatorEffect;
-@property(nonatomic) struct UIEdgeInsets separatorInset;
-@property(nonatomic) _Bool separatorInsetIsRelativeToCellEdges;
-@property(nonatomic) long long separatorStyle; // @dynamic separatorStyle;
-@property(nonatomic) _Bool shouldIndentWhileEditing;
-@property(nonatomic) _Bool showsReorderControl;
 
 @end
 

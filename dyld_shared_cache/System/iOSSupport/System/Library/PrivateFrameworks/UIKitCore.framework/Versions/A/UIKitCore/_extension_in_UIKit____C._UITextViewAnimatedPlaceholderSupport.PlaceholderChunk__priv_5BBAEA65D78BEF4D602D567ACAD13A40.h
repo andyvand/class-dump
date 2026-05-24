@@ -12,7 +12,7 @@
     id identifier;
 }
 
-- (id);
+- (id)_deleteChatRecordsWithRecordIDs:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)öÞÿgöÒð_;
 

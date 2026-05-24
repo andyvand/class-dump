@@ -9,8 +9,6 @@
 @interface SwiftUI.PlatformDocument
 {
     id documentBox;
-    id isLockedObservation;
-    id sceneItemID;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool){;
 - (void);
 - (void);
 - (_Bool);

@@ -11,11 +11,9 @@
 @interface PKMockPeerPaymentController : PKPeerPaymentController
 {
     id _performCompletion;
-    _Bool _shouldGenerateMockTransactions;
-    PKCurrencyAmount *_mockBalance;
 }
 
-+ (void);
++ (void)@9?;
 + (void);
 + (id);
 + (void);
@@ -34,15 +32,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)*i;
 - (void);
-- (void);
-- (void);
-- (void)itOtherFerry;
+- (void);
+- (void)h@9;
+- (void)TransitOtherFerry;
 
 // Remaining properties
 @property(retain, nonatomic) PKCurrencyAmount *mockBalance; // @synthesize mockBalance=_mockBalance;
-@property(nonatomic) _Bool shouldGenerateMockTransactions; // @synthesize shouldGenerateMockTransactions=_shouldGenerateMockTransactions;
 
 @end
 

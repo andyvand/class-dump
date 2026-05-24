@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol FCNonDestructivePrivateDataActionProvider;
 
 @interface FCNonDestructivePrivateDataMigrationHandler
 {
     _Bool _privateDataSyncingEnabled;
-    id <FCNonDestructivePrivateDataActionProvider> _privateDataActionProvider;
-    NSArray *_privateDataControllers;
 }
 
 - (id);
@@ -20,15 +17,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)fixPathsInPlist:(id)arg1 pattern:replacement:ownershipAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ed config operation must have a request;
 - (_Bool)ÄÔÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCNonDestructivePrivateDataActionProvider> privateDataActionProvider; // @synthesize privateDataActionProvider=_privateDataActionProvider;
-@property(copy, nonatomic) NSArray *privateDataControllers; // @synthesize privateDataControllers=_privateDataControllers;
-@property(nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled; // @synthesize privateDataSyncingEnabled=_privateDataSyncingEnabled;
 
 @end
 

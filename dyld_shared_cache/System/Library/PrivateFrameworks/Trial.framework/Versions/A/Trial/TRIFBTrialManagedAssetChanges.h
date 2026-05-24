@@ -7,22 +7,6 @@
 @interface TRIFBTrialManagedAssetChanges
 {
     unsigned char _changeTypePath;
-    unsigned int _replacementPath;
-    unsigned char _changeTypeFileType;
-    unsigned char _replacementFileType;
-    unsigned char _changeTypeAssetId;
-    unsigned int _replacementAssetId;
-    unsigned char _replacementCloudKitMetadataType;
-    unsigned char _changeTypeCloudKitMetadata;
-    unsigned int _replacementCloudKitMetadata;
-    unsigned char _changeTypeIsOnDemand;
-    _Bool _replacementIsOnDemand;
-    unsigned char _changeTypeDownloadSize;
-    unsigned long long _replacementDownloadSize;
-    unsigned char _changeTypeAssetName;
-    unsigned int _replacementAssetName;
-    unsigned char _changeTypeHasOnDemandFlag;
-    _Bool _replacementHasOnDemandFlag;
 }
 
 - (void);
@@ -41,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T?!;
+- (void)T?;
 - (void);
 - (void);
 - (void);

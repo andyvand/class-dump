@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCQueueController, NSDictionary, NSMutableDictionary, NSString;
+@class MPCQueueController, NSMutableDictionary;
 
 @interface MPCQueueControllerEdit
 {
     NSMutableDictionary *_suggestedContentItemIDs;
-    _Bool _committed;
-    _Bool _allowsChangingCurrentItem;
-    MPCQueueController *_queueController;
-    NSString *_identifier;
-    NSString *_label;
-    NSString *_suggestedStartingContentItemID;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)@0:8 /* Error: Ran out of types for this method. */;
+- (id)valueForKey: /* Error: Ran out of types for this method. */;
+- (void)ions for enablement %@;
+- (void)taclass actions:(id)arg1 %@;
+- (id)';
 - (_Bool);
 - (id);
 - (void);
@@ -33,12 +27,7 @@
 - (void)¦ | unable to create directory [] url=%{public}@ error=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsChangingCurrentItem; // @synthesize allowsChangingCurrentItem=_allowsChangingCurrentItem;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(readonly, nonatomic) MPCQueueController *queueController; // @synthesize queueController=_queueController;
-@property(readonly, copy, nonatomic) NSDictionary *suggestedContentItemIDsForDeletedContentItemIDs;
-@property(readonly, copy, nonatomic) NSString *suggestedStartingContentItemID; // @synthesize suggestedStartingContentItemID=_suggestedStartingContentItemID;
 
 @end
 

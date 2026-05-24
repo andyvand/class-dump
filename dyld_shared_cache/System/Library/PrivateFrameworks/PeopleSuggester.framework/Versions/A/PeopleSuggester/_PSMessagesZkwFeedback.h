@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _PSMessagesZkwFeedback
 {
     _Bool _dryRun;
-    NSString *_chatGuidEngaged;
-    NSArray *_suggestions;
 }
 
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)_fullPayloadCorrectorOutput;
+- (id)_fullPayloadCorrectorInput;
+- (id)_deviceProximity;
+- (unsigned long long)_countAttributeUnigramMatch;
+- (id)_commandStatus;
+- (long long)_cirAlertMediaPodcastOverride;
+- (id)_appleMusicVoicePreviewOfferNotShown;
+- (id)_appUsageCount2Min;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *chatGuidEngaged; // @synthesize chatGuidEngaged=_chatGuidEngaged;
 @property(nonatomic) _Bool dryRun; // @synthesize dryRun=_dryRun;
-@property(readonly, copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

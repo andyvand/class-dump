@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExploreGuides, MKExploreGuidesResponse, UIButton, UIFont, UIImageView, UILabel, UIStackView, UIView;
+@class GEOExploreGuides, MKExploreGuidesResponse;
 
 @interface MKExploreGuidesView
 {
     MKExploreGuidesResponse *_exploreGuidesResponse;
-    struct UIEdgeInsets _edgeInsets;
-    GEOExploreGuides *_exploreGuide;
-    UIView *_contentView;
-    UIButton *_button;
-    UIStackView *_labelsStack;
-    UIImageView *_imageView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIFont *_defaultTitleFont;
-    UIFont *_defaultSubtitleFont;
-    UIFont *_maxSupportedTitleFont;
-    CDUnknownBlockType _tapHandler;
 }
 
-+ (double);
++ (double)(;
 - (void);
 - (void);
 - (void);
@@ -48,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id):ScaleTransformOperation, Source = WebCore::TransformOperation, PtrTraits = WTF::RawPtrTraits<WebCore::TransformOperation>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::TransformOperation>] /* Error: Ran out of types for this method. */;
+- (void)ePairTraits, KeyTraits = WTF:(id)arg1:HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -63,24 +51,14 @@
 - (void);
 - (void)
 × ;
-- (id)inishChangingMapDisplayStyle: /* Error: Ran out of types for this method. */;
-- (void)oat: /* Error: Ran out of types for this method. */;
-- (id)round;
+- (id)mapLayer:didFinishChangingMapDisplayStyle: /* Error: Ran out of types for this method. */;
+- (void)_scaleViewFormattedStringForFloat: /* Error: Ran out of types for this method. */;
+- (id)_mapkit_clearGlassBackground;
 - (id)Spotlight;
 - (id)&'	;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIFont *defaultSubtitleFont; // @synthesize defaultSubtitleFont=_defaultSubtitleFont;
-@property(retain, nonatomic) UIFont *defaultTitleFont; // @synthesize defaultTitleFont=_defaultTitleFont;
 @property(retain, nonatomic) GEOExploreGuides *exploreGuide; // @synthesize exploreGuide=_exploreGuide;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIStackView *labelsStack; // @synthesize labelsStack=_labelsStack;
-@property(retain, nonatomic) UIFont *maxSupportedTitleFont; // @synthesize maxSupportedTitleFont=_maxSupportedTitleFont;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(copy, nonatomic) CDUnknownBlockType tapHandler; // @synthesize tapHandler=_tapHandler;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SSIntentBasedSectionConfiguration, SSIntentBasedSuggestionsConfiguration;
-
 @interface SSQueryIntent
 {
     int _intentType;
-    SSIntentBasedSuggestionsConfiguration *_suggestionConfig;
-    SSIntentBasedSectionConfiguration *_sectionConfig;
 }
 
-+ (id);
-+ (id);
-+ (int);
++ (id)initWithStyle:(int)arg1 presentationProperties:themePath:generator: /* Error: Ran out of types for this method. */;
++ (id)initWithStyle:(int)arg1 icon:platform:sizeClass:sizeClassParameters:hasButton: /* Error: Ran out of types for this method. */;
++ (int)_overlaidTextColor;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void); 
+}
+;
 - (int);
 - (void)topicalityScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int intentType; // @synthesize intentType=_intentType;
-@property(retain, nonatomic) SSIntentBasedSectionConfiguration *sectionConfig; // @synthesize sectionConfig=_sectionConfig;
-@property(retain, nonatomic) SSIntentBasedSuggestionsConfiguration *suggestionConfig; // @synthesize suggestionConfig=_suggestionConfig;
 
 @end
 

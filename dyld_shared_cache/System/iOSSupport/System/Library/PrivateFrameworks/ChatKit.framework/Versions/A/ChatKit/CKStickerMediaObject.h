@@ -11,8 +11,8 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);;
+- (id)r;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;

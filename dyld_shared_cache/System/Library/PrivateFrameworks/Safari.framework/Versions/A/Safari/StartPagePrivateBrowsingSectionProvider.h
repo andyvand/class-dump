@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, StartPageCollectionViewLayoutSection;
-@protocol StartPageCollectionSectionProviderDelegate;
+@class NSString, StartPageCollectionViewLayoutSection;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivateBrowsingSectionProvider
 {
     StartPageCollectionViewLayoutSection *_cachedLayoutSection;
-    _Bool usesPrivateBrowsing;
-    NSString *identifier;
-    id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate;
 }
 
 - (void);
@@ -26,34 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long)Controller"16;
-- (id)emoveChild: /* Error: Ran out of types for this method. */;
+- (id)removeChild: /* Error: Ran out of types for this method. */;
 - (void)Ð;
 - (_Bool);
 - (void)-;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing;
 
 @end
 

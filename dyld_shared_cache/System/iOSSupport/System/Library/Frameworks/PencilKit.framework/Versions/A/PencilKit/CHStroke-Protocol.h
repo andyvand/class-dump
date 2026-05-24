@@ -10,11 +10,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) double endTimestamp;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(readonly, nonatomic) double startTimestamp;
-@property(readonly, nonatomic) unsigned long long strokeAttributes;
 @property(readonly, nonatomic) id <CHStrokeIdentifier> strokeIdentifier;
 @end
 

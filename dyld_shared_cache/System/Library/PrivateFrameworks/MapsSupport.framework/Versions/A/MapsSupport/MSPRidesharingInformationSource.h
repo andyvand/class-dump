@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedWaypoint, NSString;
+@class GEOComposedWaypoint;
 
 @interface MSPRidesharingInformationSource
 {
     GEOComposedWaypoint *_startWaypoint;
-    GEOComposedWaypoint *_endWaypoint;
 }
 
 - (id);
@@ -20,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_endWaypoint) GEOComposedWaypoint *endWaypoint; // @synthesize endWaypoint=_endWaypoint;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_startWaypoint) GEOComposedWaypoint *startWaypoint; // @synthesize startWaypoint=_startWaypoint;
-@property(readonly) Class superclass;
 
 @end
 

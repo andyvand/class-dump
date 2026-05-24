@@ -11,24 +11,22 @@
 @interface SFPasskeyCredentialIdentity : SFCredentialIdentity
 {
     NSString *_credentialID;
-    NSString *_userHandle;
 }
 
-+ (_Bool);
++ (_Bool)inputDistortionAmount;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (_Bool);
+- (_Bool)g",C,N,V_callerIconPath;
 - (void);
-- (id);
+- (id)"NSTimer";
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy, nonatomic) NSString *userHandle; // @synthesize userHandle=_userHandle;
 
 @end
 

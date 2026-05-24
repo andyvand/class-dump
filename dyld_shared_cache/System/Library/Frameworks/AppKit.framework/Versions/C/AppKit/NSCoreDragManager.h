@@ -6,37 +6,34 @@
 
 #import <AppKit/_NSDragManager.h>
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSCoreDragManager : _NSDragManager
 {
     NSMutableDictionary *_dragSessions;
-    NSMutableDictionary *_filePromiseTargets;
-    NSMutableSet *_cancelFilePromiseTargets;
-    struct OpaqueCoreDragHandler *applicationHandlerRef;
 }
 
 + (void);
 + (void)³õþ-Ú;
-- (void);
+- (void)!;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ratch;
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)/;
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)lic}@> cannot retry background data task with identifier %lu because there is no such task;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

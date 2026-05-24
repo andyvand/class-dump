@@ -7,7 +7,6 @@
 @interface TeaUI.PillViewRenderer
 {
     id styler;
-    id imageRenderer;
 }
 
 @end

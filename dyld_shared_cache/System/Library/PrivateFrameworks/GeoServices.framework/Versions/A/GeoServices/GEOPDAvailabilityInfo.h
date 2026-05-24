@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDAvailabilityInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _availableNum;
-    int _status;
-    unsigned int _totalNum;
-    struct {
-        unsigned int has_availableNum:1;
-        unsigned int has_status:1;
-        unsigned int has_totalNum:1;
-    } _flags;
 }
 
 - (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ata"@"NSString"@"NSError"@"NSDictionary">96;
-- (id)s;
+- (id)_automobileOptions;
 - (id)ØãQh´³ÜýQÄ´³¤Rø´³ÀRµ³@R µ³ôR4µ³¬RHµ³6R\µ³<Rµ³8\R µ³]R´µ³à]RÈµ³lcR¶³¸|R¶³ÜR0¶³0RD¶³(RX¶³DRl¶³\R¶³ä¥R¶³Ì¦R¤¶³´§R´¶³©RÄ¶³Ø©Rä¶³¨ªR·³«R·³¬R0·³®R\·³°®Rp·³d¯R·³L±R´·³ô±RÈ·³¨²Rà·³d³Rø·³ÔµR¸³ø·R(¸³Ä¸R@¸³¹RX¸³\ºRp¸³l»R¸³X½R´¸³;
 - (void)nþ;
 

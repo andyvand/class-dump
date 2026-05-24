@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatPuzzleEmbedViewController
 {
     id puzzleEmbedViewController;
-    id onReuse;
-    id layoutIdentifier;
-    id layoutGuide;
-    id resizingProvider;
-    id onKeyboardWillShow;
-    id onKeyboardWillHide;
-    id teaserInteractionEvents;
-    id currentAccessoryView;
-    id identifier;
-    id componentProvider;
 }
 
 - (void);

@@ -15,8 +15,8 @@
 - (CDStruct_912cb5d2);
 - (CDStruct_996ac03c);
 - (void);
-- (void);
-- (CDStruct_996ac03c);
+- (void);
+- (CDStruct_996ac03c);
 - (CDStruct_912cb5d2);
 - (long long);
 - (CDStruct_912cb5d2);

@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)tionResults;
+- (id)hB@9;
+- (_Bool)P;
+- (oneway void)	+F;
+- (_Bool)LLM]%@ Skipping (arg is an event type hotel and hasNonOptionalSearchTerm=1);
+- (struct _NSZone *)serverSuggestionResults;
+
+@optional
+- (NSString *)];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

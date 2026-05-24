@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, SUCoreFSM, SUCoreLog, SUCoreMobileAsset, SUCoreScan, SUMacControllerBridgeOSManager, SUMacControllerClientRequest, SUMacControllerRecoveryOSManager, SUMacControllerRosettaManager, SUMacControllerScanEventInfo;
-@protocol OS_dispatch_queue;
+@class SUCoreLog;
 
 @interface SUMacControllerScanManager
 {
     SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_completionDispatchQueue;
-    SUCoreScan *_coreScanner;
-    SUCoreFSM *_stateMachine;
-    SUMacControllerBridgeOSManager *_bridgeOSManager;
-    SUMacControllerRosettaManager *_rosettaManager;
-    SUMacControllerRecoveryOSManager *_recoveryOSManager;
-    SUCoreMobileAsset *_majorDocumentationMobileAssetControl;
-    SUCoreMobileAsset *_minorDocumentationMobileAssetControl;
-    SUCoreMobileAsset *_splatDocumentationMobileAssetControl;
-    SUMacControllerClientRequest *_currentClientRequest;
-    NSMutableArray *_duplicateClientRequests;
-    SUMacControllerScanEventInfo *_pendingEvent;
 }
 
 + (id);
@@ -48,13 +35,13 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -81,7 +68,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -96,35 +83,16 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id)sesSFRSoftwareUpdates;
+- (id)SUMacControllerDocumentationDescriptor;
+- (id)SUMacControllerOverridesUsesSFRSoftwareUpdates;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUMacControllerBridgeOSManager *bridgeOSManager; // @synthesize bridgeOSManager=_bridgeOSManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionDispatchQueue; // @synthesize completionDispatchQueue=_completionDispatchQueue;
-@property(retain, nonatomic) SUCoreScan *coreScanner; // @synthesize coreScanner=_coreScanner;
-@property(retain, nonatomic) SUMacControllerClientRequest *currentClientRequest; // @synthesize currentClientRequest=_currentClientRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *duplicateClientRequests; // @synthesize duplicateClientRequests=_duplicateClientRequests;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) SUCoreMobileAsset *majorDocumentationMobileAssetControl; // @synthesize majorDocumentationMobileAssetControl=_majorDocumentationMobileAssetControl;
-@property(retain, nonatomic) SUCoreMobileAsset *minorDocumentationMobileAssetControl; // @synthesize minorDocumentationMobileAssetControl=_minorDocumentationMobileAssetControl;
-@property(retain, nonatomic) SUMacControllerScanEventInfo *pendingEvent; // @synthesize pendingEvent=_pendingEvent;
-@property(retain, nonatomic) SUMacControllerRecoveryOSManager *recoveryOSManager; // @synthesize recoveryOSManager=_recoveryOSManager;
-@property(retain, nonatomic) SUMacControllerRosettaManager *rosettaManager; // @synthesize rosettaManager=_rosettaManager;
-@property(retain, nonatomic) SUCoreMobileAsset *splatDocumentationMobileAssetControl; // @synthesize splatDocumentationMobileAssetControl=_splatDocumentationMobileAssetControl;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

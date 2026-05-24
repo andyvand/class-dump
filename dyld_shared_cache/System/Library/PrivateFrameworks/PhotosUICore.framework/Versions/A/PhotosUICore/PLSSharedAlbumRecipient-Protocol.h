@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol PLSSharedAlbumRecipient
+- (NSString *)Tests,TodayFeedConfigDecoder,NewsScoringService,NewsUserEvents,NewsUserEventsTests,NewsUI2,NewsUI2Tests,NewsFeed,NewsFeedTests,NewsKit,NewsKitTests,NewsKitDemo,NewsLiveActivitiesCore,NewsLiveActivitiesCoreTests,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFormat,NewsFormatTests,NewsSubscription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsTag,NewsToday2,NewsTodayIntents,NewsEngagement,NewsEngagementTests,NewsEngagementExtension,NewsDiagnosticExtension,NewsScoringService,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksDiagnosticExtension,StocksWidget,StocksPersonalization,Weather,WeatherTests;
 - (NSString *)0;
-- (NSString *)setsCount;
+- (NSString *)assetsCount;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEmailsArray;
-@property(readonly, nonatomic) NSArray *allPhonesArray;
-@property(readonly, nonatomic) NSString *displayName;
 @property(readonly, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) NSString *lastName;
 @end
 

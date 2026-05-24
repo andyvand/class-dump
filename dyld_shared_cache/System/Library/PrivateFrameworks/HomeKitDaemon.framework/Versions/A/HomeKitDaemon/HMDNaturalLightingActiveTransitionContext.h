@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDNaturalLightingActiveTransitionContext
 {
     NSDate *_startDate;
-    unsigned long long _millisecondsElapsedSinceStartDate;
-    NSNumber *_transitionChecksum;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)createXPCListener;
+- (id)sharing:(id)arg1 %@ | listener:(unsigned long long)arg2 %@;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)lationship.destinationEntity];
 
 // Remaining properties
-@property(readonly) unsigned long long millisecondsElapsedSinceStartDate; // @synthesize millisecondsElapsedSinceStartDate=_millisecondsElapsedSinceStartDate;
 @property(readonly, copy) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, copy) NSNumber *transitionChecksum; // @synthesize transitionChecksum=_transitionChecksum;
 
 @end
 

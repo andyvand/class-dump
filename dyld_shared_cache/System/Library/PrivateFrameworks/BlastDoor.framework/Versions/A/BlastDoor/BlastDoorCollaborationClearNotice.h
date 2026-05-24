@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface BlastDoorCollaborationClearNotice
 {
     id collaborationClearNotice;
 }
 
-- (id);
-- (id);
+- (id)gate>";
+- (id)iew"16@"UICollectionViewFocusUpdateContext"24;
 - (id);
 - (long long);
 - (id);
@@ -21,11 +21,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *collaborationId;
-@property(nonatomic, readonly) NSDate *date;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *guidString;
-@property(nonatomic, readonly) long long version;
 
 @end
 

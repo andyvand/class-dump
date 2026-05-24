@@ -6,73 +6,60 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAppearance, NSArray, NSCollectionView, NSString;
+@class NSArray, NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPanelFavoritesList : NSView
 {
     NSCollectionView *_collectionView;
-    NSArray *_savedColors;
-    NSArray *_savedColorsStoreIndexes;
-    CDUnknownBlockType _colorSelectionHandler;
-    NSAppearance *_appearanceForRenderingColor;
 }
 
 - (long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (unsigned long long);
+- (void)edURLResponse"24@?<v@?@"NSCachedURLResponse">32;
+- (void)_groupSession_ivar;
+- (void)ic}@ failed to enqueue;
+- (void)ching proxy credential %p;
+- (void)d to deserialize data error %@;
+- (void)@ XPC error %@;
+- (void)error %@;
+- (void)ed to create ABQuery data %{public}@ error %@;
+- (void)o multiple values;
+- (void)vailable;
+- (void)CFURLCache;
+- (CDUnknownBlockType)kground AVAggregateAssetDownloadTask, as remote session is unavailable;
+- (_Bool)DownloadTask from background transfer daemon:(id)arg1 %@;
+- (unsigned long long)fer daemon:(id)arg1 %@;
+- (id)session is unavailable;
+- (void)RLSessionDownloadTask from background transfer daemon:(id)arg1 %@;
+- (_Bool)ckground NSURLSessionUploadTask, as remote session is unavailable;
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)/TemporaryDirectory.WBOEkW/Sources/boringssl/ssl/t1_enc.cc;
+- (void);
 - (void);
 - (void);
+- (void)_shouldSetOriginalFontAttribute;
 - (void);
 - (id)becomeKeyIfNeeded;
 - (long long)Ø¬;
 - (_Bool)rt.HID.DeviceAdded;
-- (void)tion;
+- (void)Saturation;
 - (struct NSEdgeInsets)tÛD;
-- (_Bool);
+- (_Bool)4iG;
 
 // Remaining properties
-@property(retain) NSAppearance *appearanceForRenderingColor;
-@property(copy) CDUnknownBlockType colorSelectionHandler; // @synthesize colorSelectionHandler=_colorSelectionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *presentedColors;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol CKTranscriptLinkCustomizationPickerDelegate
+
+@optional
+- (void)ICCalculateAccessibilityController;
+- (void)_TtC7NotesUI25AudioRecordingCoordinator;
+- (void)_TtC7NotesUI21AudioRecordingManager;
+- (void)_TtC7NotesUI16AudioAssetWriter;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSString;
+@class NSString;
 
 @interface INBusTrip
 {
     NSString *_provider;
-    NSString *_busName;
-    NSString *_busNumber;
-    INDateComponentsRange *_tripDuration;
-    CLPlacemark *_departureBusStopLocation;
-    NSString *_departurePlatform;
-    CLPlacemark *_arrivalBusStopLocation;
-    NSString *_arrivalPlatform;
 }
 
 + (id);
@@ -26,36 +19,22 @@
 - (id);
 - (id);
 - (id);
+- (id):8@16B24Q28@?36 /* Error: Ran out of types for this method. */;
+- (id)@"<QLThumbnailGenerationRequest><NSXPCProxyCreating>";
 - (id);
 - (id);
+- (unsigned long long)2;
+- (_Bool),C,V_setCaptivePortalCredentialsHandler;
+- (void)CWFSCNetworkConfiguration.m;
 - (id);
+- (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ocabularyItemSiriID;
+- (id)_everyVocabularyItemSiriID;
 - (void)kit.intent.contact.SearchForMeCardIntent;
 - (id)o;
 
 // Remaining properties
-@property(readonly, copy) CLPlacemark *arrivalBusStopLocation; // @synthesize arrivalBusStopLocation=_arrivalBusStopLocation;
-@property(readonly, copy) NSString *arrivalPlatform; // @synthesize arrivalPlatform=_arrivalPlatform;
-@property(readonly, copy) NSString *busName; // @synthesize busName=_busName;
-@property(readonly, copy) NSString *busNumber; // @synthesize busNumber=_busNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) CLPlacemark *departureBusStopLocation; // @synthesize departureBusStopLocation=_departureBusStopLocation;
-@property(readonly, copy) NSString *departurePlatform; // @synthesize departurePlatform=_departurePlatform;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(readonly, copy) INDateComponentsRange *tripDuration; // @synthesize tripDuration=_tripDuration;
 
 @end
 

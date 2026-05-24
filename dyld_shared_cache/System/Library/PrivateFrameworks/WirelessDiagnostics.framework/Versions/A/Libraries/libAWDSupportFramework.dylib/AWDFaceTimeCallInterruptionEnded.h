@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallInterruptionEnded
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _interruptionDuration;
-    unsigned int _isAudioResumed;
-    unsigned int _isVideo;
-    unsigned int _isVideoResumed;
-    int _linkQuality;
-    unsigned int _onLockScreen;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int interruptionDuration:1;
-        unsigned int isAudioResumed:1;
-        unsigned int isVideo:1;
-        unsigned int isVideoResumed:1;
-        unsigned int linkQuality:1;
-        unsigned int onLockScreen:1;
-    } _has;
 }
 
 - (void);
@@ -37,13 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)JJJ
+JJJ)-
+JI	)AIJ)%;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,7 +43,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -70,22 +54,7 @@
 - (void)D¾Ùÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasInterruptionDuration;
-@property(nonatomic) _Bool hasIsAudioResumed;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasIsVideoResumed;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int interruptionDuration; // @synthesize interruptionDuration=_interruptionDuration;
-@property(nonatomic) unsigned int isAudioResumed; // @synthesize isAudioResumed=_isAudioResumed;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int isVideoResumed; // @synthesize isVideoResumed=_isVideoResumed;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

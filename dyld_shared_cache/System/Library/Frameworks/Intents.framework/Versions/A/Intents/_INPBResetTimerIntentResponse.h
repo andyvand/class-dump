@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBResetTimerIntentResponse
 {
     struct _has;
-    NSArray *_resetTimers;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)thumbnailRequestForFileAtURL:size:minimumSize:scale:iconMode: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)�@9?	;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)solvedIntent;
+- (void)resolvedIntent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *resetTimers; // @synthesize resetTimers=_resetTimers;
-@property(readonly, nonatomic) unsigned long long resetTimersCount;
-@property(readonly) Class superclass;
 
 @end
 

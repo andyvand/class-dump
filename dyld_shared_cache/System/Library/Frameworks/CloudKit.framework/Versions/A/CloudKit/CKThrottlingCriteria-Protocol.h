@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSObject, NSString;
+@protocol NSFastEnumeration;
 
 @protocol CKThrottlingCriteria
 
 @optional
+- (NSObject<NSFastEnumeration> *);
 - (NSString *);
 - (NSString *)@.%{public}@%@;
 - (_Bool)ÿÿ;

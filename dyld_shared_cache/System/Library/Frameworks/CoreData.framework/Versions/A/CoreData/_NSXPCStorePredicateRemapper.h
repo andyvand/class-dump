@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)DidSetupNotificationName;
+- (void)PFCloudKitDidSetupNotificationName;
 - (void)ed branch row in optimized model detected:(id)arg1 %@;
 - (void);
 

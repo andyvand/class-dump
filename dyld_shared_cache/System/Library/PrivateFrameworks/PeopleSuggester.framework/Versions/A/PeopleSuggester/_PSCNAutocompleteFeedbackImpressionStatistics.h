@@ -7,41 +7,27 @@
 @interface _PSCNAutocompleteFeedbackImpressionStatistics
 {
     long long _countTapped;
-    long long _totalRankTapped;
-    long long _highestRankTapped;
-    long long _lowestRankTapped;
-    long long _countUsed;
-    long long _totalRankUsed;
-    long long _highestRankUsed;
-    long long _lowestRankUsed;
 }
 
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
+- (long long)_extendLatencyMillis;
+- (void)_entitySpanMatched;
+- (void)_entitySearchBundleScoreRemote;
+- (void)_digestType;
+- (void)_didTriggerFirstPass;
+- (void)_dictationAlternativesViewed;
+- (void)_dictationAlternativesSelected;
+- (void)_countRequiredAssets;
+- (long long)_cdmXpcEventProcessingContext;
+- (long long)_cdmUsoGraphTier1;
+- (long long)_appSelectionUses;
+- (long long)x;
+- (long long)e;
+- (long long)i,N,V_responseStatus;
+- (long long)V_relativeAppUsage7Day;
+- (void)7Days;
 
 // Remaining properties
 @property(nonatomic) long long countTapped; // @synthesize countTapped=_countTapped;
-@property(nonatomic) long long countUsed; // @synthesize countUsed=_countUsed;
-@property(nonatomic) long long highestRankTapped; // @synthesize highestRankTapped=_highestRankTapped;
-@property(nonatomic) long long highestRankUsed; // @synthesize highestRankUsed=_highestRankUsed;
-@property(nonatomic) long long lowestRankTapped; // @synthesize lowestRankTapped=_lowestRankTapped;
-@property(nonatomic) long long lowestRankUsed; // @synthesize lowestRankUsed=_lowestRankUsed;
-@property(nonatomic) long long totalRankTapped; // @synthesize totalRankTapped=_totalRankTapped;
-@property(nonatomic) long long totalRankUsed; // @synthesize totalRankUsed=_totalRankUsed;
 
 @end
 

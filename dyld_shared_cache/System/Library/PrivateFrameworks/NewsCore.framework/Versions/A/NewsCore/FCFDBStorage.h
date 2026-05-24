@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFDBPruningPolicy, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol FCFDBConnectionReadable, FCFDBConnectionWritable, OS_dispatch_queue;
-
 @interface FCFDBStorage
 {
     long long _options;
-    NSString *_path;
-    FCFDBPruningPolicy *_pruningPolicy;
-    id <FCFDBConnectionReadable> _readDBConnection;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_cachedFeeds;
-    NSMutableDictionary *_cachedFeedItemOrders;
-    NSMutableDictionary *_cachedFeedItems;
-    long long _lastFeedLookupID;
-    NSMutableSet *_modifiedFeedItemIDs;
-    NSMutableSet *_modifiedFeedIDs;
-    NSMutableSet *_prunedFeedIDs;
-    NSObject<OS_dispatch_queue> *_saveQueue;
-    id <FCFDBConnectionWritable> _writeDBConnection;
 }
 
 - (id);
@@ -30,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (long long);
@@ -46,10 +30,10 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (void);
+- (void)backgroundImageNameForType:usingTraitCollection: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void)invoke;
@@ -57,20 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, nonatomic) NSMutableDictionary *cachedFeedItemOrders; // @synthesize cachedFeedItemOrders=_cachedFeedItemOrders;
-@property(readonly, nonatomic) NSMutableDictionary *cachedFeedItems; // @synthesize cachedFeedItems=_cachedFeedItems;
-@property(readonly, nonatomic) NSMutableDictionary *cachedFeeds; // @synthesize cachedFeeds=_cachedFeeds;
-@property(nonatomic) long long lastFeedLookupID; // @synthesize lastFeedLookupID=_lastFeedLookupID;
-@property(readonly, nonatomic) NSMutableSet *modifiedFeedIDs; // @synthesize modifiedFeedIDs=_modifiedFeedIDs;
-@property(readonly, nonatomic) NSMutableSet *modifiedFeedItemIDs; // @synthesize modifiedFeedItemIDs=_modifiedFeedItemIDs;
 @property(readonly, nonatomic) long long options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSMutableSet *prunedFeedIDs; // @synthesize prunedFeedIDs=_prunedFeedIDs;
-@property(readonly, nonatomic) FCFDBPruningPolicy *pruningPolicy; // @synthesize pruningPolicy=_pruningPolicy;
-@property(readonly, nonatomic) id <FCFDBConnectionReadable> readDBConnection; // @synthesize readDBConnection=_readDBConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *saveQueue; // @synthesize saveQueue=_saveQueue;
-@property(retain, nonatomic) id <FCFDBConnectionWritable> writeDBConnection; // @synthesize writeDBConnection=_writeDBConnection;
 
 @end
 

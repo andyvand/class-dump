@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPPerformEntityQueryCommandForFeedback
 
 // Remaining properties
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *tokenString;
 @end
 

@@ -11,7 +11,6 @@
 @interface SFCardViewDisappearFeedback : SFFeedback
 {
     SFCard *_card;
-    unsigned long long _cardDisappearEvent;
 }
 
 + (_Bool);

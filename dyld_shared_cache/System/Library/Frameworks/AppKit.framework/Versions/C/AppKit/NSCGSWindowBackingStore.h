@@ -12,25 +12,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGContext *);
-- (void);
+- (struct CGContext *)URLSession:task:_schemeUpgraded:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLProtocol:didLoadData: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGImage *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n_duration_ms=%u, private_relay=%{bool}d, idle_duration_ms=%u};
+- (void)ct_duration_ms=%u, secure_connection_duration_ms=%u, private_relay=%{bool}d, idle_duration_ms=%u};
+- (void)ation failed(%d);
+- (void)ction %llu:(struct CGRect)arg1 default TLS Trust evaluation failed(%d);
+- (void)tes, no error, and no EOF from connection;
+- (void)xpected API behavior:(struct CGRect)arg1 received no bytes, no error, and no EOF from connection;
 
 // Remaining properties
 @property(readonly) NSCGSWindowBuffer *backBuffer; // @dynamic backBuffer;
-@property(copy) struct CGColorSpace *colorSpace; // @dynamic colorSpace;
-@property unsigned int depth; // @dynamic depth;
-@property _Bool keepsExcessAllocation; // @dynamic keepsExcessAllocation;
-@property(getter=isOpaque) _Bool opaque; // @dynamic opaque;
-@property(readonly) double scale; // @dynamic scale;
-@property(readonly) struct CGSize size; // @dynamic size;
 
 @end
 

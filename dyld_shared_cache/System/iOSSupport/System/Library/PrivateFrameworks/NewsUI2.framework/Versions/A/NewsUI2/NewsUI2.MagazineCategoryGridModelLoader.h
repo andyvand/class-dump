@@ -7,17 +7,6 @@
 @interface NewsUI2.MagazineCategoryGridModelLoader
 {
     id identifier;
-    id title;
-    id activity;
-    id delegate;
-    id configService;
-    id paidBundleConfigManager;
-    id categoryService;
-    id issueService;
-    id issueModelFactory;
-    id tagService;
-    id assetHandleFactory;
-    id _sort;
 }
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
 @protocol ACCTransportPluginManagerProtocol;
 
 @interface ACCTransportPlugin
 {
     id <ACCTransportPluginManagerProtocol> _delegate;
-    NSMutableSet *_activeConnectionUUIDs;
-    NSString *_pluginName;
-    NSMutableDictionary *_connectionPropertyChangeHandlers;
-    NSMutableDictionary *_endpointPropertyChangeHandlers;
 }
 
 - (int);
@@ -38,7 +33,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -50,7 +45,7 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -61,22 +56,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ected %lu added reminders from REM change tracking {added:%@}. /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
+- (id)t;
+- (void)arHomeSyncToken;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeConnectionUUIDs; // @synthesize activeConnectionUUIDs=_activeConnectionUUIDs;
-@property(retain, nonatomic) NSMutableDictionary *connectionPropertyChangeHandlers; // @synthesize connectionPropertyChangeHandlers=_connectionPropertyChangeHandlers;
 @property(nonatomic) __weak id <ACCTransportPluginManagerProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableDictionary *endpointPropertyChangeHandlers; // @synthesize endpointPropertyChangeHandlers=_endpointPropertyChangeHandlers;
-@property(readonly, nonatomic) NSString *pluginClassAndName;
-@property(readonly, nonatomic) NSString *pluginName; // @synthesize pluginName=_pluginName;
 
 @end
 

@@ -5,12 +5,11 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @protocol MTLBinaryArchive
+- (_Bool)!;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(copy) NSString *label;
 @end
 

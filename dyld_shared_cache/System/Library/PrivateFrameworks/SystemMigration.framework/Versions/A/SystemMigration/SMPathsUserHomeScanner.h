@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSDirectoryEnumerator, NSMutableDictionary, NSURL, SMPathStats, SMSystem_Daemon;
-@protocol SMPathEnumerationProtocol;
+@class NSURL, SMPathStats;
 
 @interface SMPathsUserHomeScanner
 {
     SMPathStats *statsForMiscUserHomeContents;
-    _Bool _shallowScanOnly;
-    NSArray *_updateClients;
-    NSURL *_path;
-    NSDictionary *_longTermSystemIdentifier;
-    NSMutableDictionary *_pathStatsByTopLevelFolder;
 }
 
 - (id);
@@ -36,14 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSDirectoryEnumerator<SMPathEnumerationProtocol> *allFilesEnumerator;
-@property(readonly) NSArray *allTopLevelContents;
-@property(readonly) NSDictionary *longTermSystemIdentifier; // @synthesize longTermSystemIdentifier=_longTermSystemIdentifier;
 @property(retain) NSURL *path; // @synthesize path=_path;
-@property(retain) NSMutableDictionary *pathStatsByTopLevelFolder; // @synthesize pathStatsByTopLevelFolder=_pathStatsByTopLevelFolder;
-@property _Bool shallowScanOnly; // @synthesize shallowScanOnly=_shallowScanOnly;
-@property(readonly) SMSystem_Daemon *system;
-@property __weak NSArray *updateClients; // @synthesize updateClients=_updateClients;
 
 @end
 

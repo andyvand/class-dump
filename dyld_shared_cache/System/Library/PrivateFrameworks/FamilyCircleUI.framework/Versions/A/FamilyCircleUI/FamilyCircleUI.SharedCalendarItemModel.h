@@ -7,10 +7,6 @@
 @interface FamilyCircleUI.SharedCalendarItemModel
 {
     id _isLoading;
-    id _showICloudDisabledAlert;
-    id ekEventStore;
-    id aidaAccountManager;
-    id _$observationRegistrar;
 }
 
 @end

@@ -6,26 +6,23 @@
 
 #import <OfficeImport/OABReaderState.h>
 
-@class WBReader, WXReadState;
+@class WBReader;
 
 __attribute__((visibility("hidden")))
 @interface WBOfficeArtReaderState : OABReaderState
 {
     WBReader *mReader;
-    int mCurrentTextType;
-    WXReadState *mXmlDocumentState;
 }
 
 - (void);
 - (id);
-- (int);
+- (int)@y	@9)	;
 - (void);
 - (id);
 - (id)ÙtÙ¨Û Ü;
 - (void)ficeParser/shared/utility/TSUBezierPath.m;
 
 // Remaining properties
-@property(nonatomic) int currentTextType; // @synthesize currentTextType=mCurrentTextType;
 @property(nonatomic) __weak WBReader *reader; // @synthesize reader=mReader;
 
 @end

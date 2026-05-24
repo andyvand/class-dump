@@ -8,30 +8,23 @@ __attribute__((visibility("hidden")))
 @interface AVVideoTrackThumbnail
 {
     struct CGImage *_image;
-    _Bool _imageIsPlacehoder;
-    unsigned long long _index;
-    unsigned long long _zoomFactor;
-    double _time;
 }
 
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)yGroup:-> %@, error:%@
+ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (struct CGImage *);
 - (_Bool);
 - (double);
-- (unsigned long long);
+- (unsigned long long)dMy.accesoriesConnectionStateChanged;
 - (unsigned long long)reController setCanStartAutomaticallyWhenEnteringBackground:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGImage *image;
-@property(readonly) _Bool imageIsPlacehoder; // @synthesize imageIsPlacehoder=_imageIsPlacehoder;
 @property(readonly) unsigned long long index; // @synthesize index=_index;
-@property(readonly) double time; // @synthesize time=_time;
-@property(readonly) unsigned long long zoomFactor; // @synthesize zoomFactor=_zoomFactor;
 
 @end
 

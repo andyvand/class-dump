@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_Arrival : _GEORouteMatchUpdater
 {
     GEOComposedRouteStep *_arrivalStep;
-    GEOComposedRouteStep *_previousExitStationStep;
-    struct PolylineCoordinate _arrivalRouteCoordinate;
-    CDStruct_2c43369c _destinationLocationCoordinate;
 }
 
 - (_Bool);

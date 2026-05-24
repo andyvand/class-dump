@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
+- (void)2ko;
+- (id)R;
 - (id);
-- (id);
-- (id)nmentRectInsetsForState:(struct CGRect)arg1;
+- (id)_starAlignmentRectInsetsForState:(struct CGRect)arg1;
 
 @end
 

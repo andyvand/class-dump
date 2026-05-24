@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _GCProximityHIDEventParser : _GCHIDEventParser
 {
     unsigned long long _fingerTouchKey;
-    unsigned long long _levelKey;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

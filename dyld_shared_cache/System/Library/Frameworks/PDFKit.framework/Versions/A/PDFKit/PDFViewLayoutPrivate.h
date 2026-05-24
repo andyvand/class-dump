@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, PDFDocument;
-
 __attribute__((visibility("hidden")))
 @interface PDFViewLayoutPrivate
 {
     id delegate;
-    _Bool delegateKnowsMargins;
-    _Bool delegateKnowsDisplayMode;
-    _Bool delegateKnowsDisplayAsBook;
-    _Bool delegateKnowsDisplayBox;
-    _Bool delegateKnowsDisplayRTL;
-    _Bool delegateKnowsDisplaysDirection;
-    _Bool delegateKnowsDocumentMargins;
-    _Bool delegateKnowsHasEnabledSwipeGestures;
-    PDFDocument *document;
-    unsigned long long pageCount;
-    NSLock *pageLayoutLock;
-    struct vector<CGRect, std::allocator<CGRect>> pageLayoutBounds;
-    struct CGSize singlePageContinuousSize;
-    struct CGSize twoUpContinousSize;
-    long long cachedContinuousSizeDisplayDirection;
 }
 
 - (id);

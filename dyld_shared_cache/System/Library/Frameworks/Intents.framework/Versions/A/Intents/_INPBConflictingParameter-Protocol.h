@@ -7,11 +7,11 @@
 @class NSArray, NSString;
 
 @protocol _INPBConflictingParameter
+- (void);
+- (NSArray *);
+- (NSString *)O+;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternateItems;
-@property(readonly, nonatomic) unsigned long long alternateItemsCount;
-@property(readonly, nonatomic) _Bool hasKeyPath;
-@property(copy, nonatomic) NSString *keyPath;
 @end
 

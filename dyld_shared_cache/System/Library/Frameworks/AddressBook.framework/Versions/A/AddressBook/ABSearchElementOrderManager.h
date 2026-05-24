@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary;
 
 @interface ABSearchElementOrderManager
 {
     NSDictionary *_propertyDefinitions;
-    NSMutableDictionary *_propertiesDefinitionsByName;
-    NSMutableArray *_propertyNames;
 }
 
 + (id);

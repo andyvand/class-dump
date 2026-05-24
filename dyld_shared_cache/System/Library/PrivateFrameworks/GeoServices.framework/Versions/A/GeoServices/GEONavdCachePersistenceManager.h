@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id);
-- (double);
+- (id)context because there's no speech controller.;
+- (double)lity;
 - (void);
 - (long long);
-- (void)EntryList;
+- (void)GEOSuggestionEntryList;
 - (void)th;
 - (void);
 - (void);

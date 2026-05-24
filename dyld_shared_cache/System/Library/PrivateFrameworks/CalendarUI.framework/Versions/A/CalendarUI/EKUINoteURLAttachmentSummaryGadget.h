@@ -9,14 +9,11 @@
 @interface EKUINoteURLAttachmentSummaryGadget : EKUISummaryGadget
 {
     _Bool _hideBecauseAllIsolatedAreVisible;
-    _Bool _hasEverHadNote;
-    _Bool _hasEverHadURL;
-    _Bool _hasEverHadAttachment;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -29,13 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (double);
-- (id);
+- (double);
+- (id)29CellularUsageMetricsInterface;
 
 // Remaining properties
-@property _Bool hasEverHadAttachment; // @synthesize hasEverHadAttachment=_hasEverHadAttachment;
-@property _Bool hasEverHadNote; // @synthesize hasEverHadNote=_hasEverHadNote;
-@property _Bool hasEverHadURL; // @synthesize hasEverHadURL=_hasEverHadURL;
 @property _Bool hideBecauseAllIsolatedAreVisible; // @synthesize hideBecauseAllIsolatedAreVisible=_hideBecauseAllIsolatedAreVisible;
 
 @end

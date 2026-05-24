@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitExitPlanInfo, GEOTransitListTimeInstruction, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitBoardingInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOTransitListTimeInstruction *_endTimeInstruction;
-    NSMutableArray *_entrys;
-    GEOTransitExitPlanInfo *_exitPlanInfo;
-    GEOTransitListTimeInstruction *_preBoardingTimeInstruction;
-    GEOTransitListTimeInstruction *_summaryTimeInstruction;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_endTimeInstruction:1;
-        unsigned int read_entrys:1;
-        unsigned int read_exitPlanInfo:1;
-        unsigned int read_preBoardingTimeInstruction:1;
-        unsigned int read_summaryTimeInstruction:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)eLastUpdate:(id)arg1;
++ (_Bool)setMinSecondsSinceLastUpdate:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -40,54 +22,38 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)setCustomValuesData: /* Error: Ran out of types for this method. */;
+- (id)autoupdatingCurrentCalendar;
+- (unsigned long long)accessViolationReporter;
+- (id)absoluteString;
+- (id)_urls;
+- (id)_pscResultFromCacheEntry:withStoreDescriptionKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)initWithOptions:(id)arg1 capacity: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (void)ks/CoreServices.framework/Versions/A/Frameworks/SharedFileList.framework/Versions/A/SharedFileList;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)as_fetchStart"b1"has_requestEnd"b1"has_requestStart"b1"has_responseEnd"b1"has_responseStart"b1"has_secureConnectEnd"b1"has_secureConnectStart"b1"has_protocolName"b1"has_resourceFetchType"b1"has_proxyConnection"b1"has_reusedConnection"b1};
-- (id)erPreferences;
-- (id)tionDetails;
-- (id)EIGHBORHOOD;
+- (id)hasWalkingUserPreferences;
+- (id)GEOTrailingEntityActionDetails;
+- (id)NEIGHBORHOOD;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *endTimeInstruction;
-@property(retain, nonatomic) NSMutableArray *entrys;
-@property(retain, nonatomic) GEOTransitExitPlanInfo *exitPlanInfo;
-@property(readonly, nonatomic) _Bool hasEndTimeInstruction;
-@property(readonly, nonatomic) _Bool hasExitPlanInfo;
-@property(readonly, nonatomic) _Bool hasPreBoardingTimeInstruction;
-@property(readonly, nonatomic) _Bool hasSummaryTimeInstruction;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *preBoardingTimeInstruction;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *summaryTimeInstruction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

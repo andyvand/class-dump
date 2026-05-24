@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCNetworkAgent
 {
     int _assertionRefCount;
-    _Bool active;
-    _Bool kernelActivated;
-    _Bool userActivated;
-    _Bool voluntary;
-    _Bool specificUseOnly;
-    NSString *agentDescription;
-    NSUUID *agentUUID;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)LocalOnWiFiOrWired;
++ (id)VCConnection_IsLocalOnWiFiOrWired;
 - (unsigned long long);
 - (const char *);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,53 +33,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id)x:mediaEntries: /* Error: Ran out of types for this method. */;
+- (id)appendStreamGroup:maxQualityIndex:mediaEntries: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active;
 @property(copy, nonatomic) NSString *agentDescription; // @synthesize agentDescription;
-@property(copy, nonatomic) NSUUID *agentUUID; // @synthesize agentUUID;
-@property(nonatomic, getter=isKernelActivated) _Bool kernelActivated; // @synthesize kernelActivated;
-@property(nonatomic, getter=isNetworkProvider) _Bool networkProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNetworkProvider
-
-@property(nonatomic, getter=isNexusProvider) _Bool nexusProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisNexusProvider
-
-@property(nonatomic) _Bool requiresAssert;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isSpecificUseOnly) _Bool specificUseOnly; // @synthesize specificUseOnly;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSpecificUseOnly,VspecificUseOnly
-
-@property(nonatomic) _Bool supportsBrowseRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsListenRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool supportsResolveRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool updateClientsImmediately;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isUserActivated) _Bool userActivated; // @synthesize userActivated;
-@property(nonatomic, getter=isVoluntary) _Bool voluntary; // @synthesize voluntary;
 
 @end
 

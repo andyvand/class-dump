@@ -9,9 +9,6 @@
 @interface VNRectangleObservation : VNDetectedObjectObservation
 {
     struct CGPoint _topLeft;
-    struct CGPoint _bottomLeft;
-    struct CGPoint _bottomRight;
-    struct CGPoint _topRight;
 }
 
 + (id);
@@ -22,10 +19,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
 @property(readonly, nonatomic) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight; // @synthesize topRight=_topRight;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <TSReading/TSDCurvedShadow.h>
 
-@class TSUColor;
-
 @interface TSDMutableCurvedShadow : TSDCurvedShadow
 {
 }
@@ -16,19 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) TSUColor *TSUColor; // @dynamic TSUColor;
-@property(nonatomic) double angle; // @dynamic angle;
-@property(nonatomic) struct CGColor *color; // @dynamic color;
 @property(nonatomic) double curve; // @dynamic curve;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @dynamic enabled;
-@property(nonatomic) double offset; // @dynamic offset;
-@property(nonatomic) double opacity; // @dynamic opacity;
-@property(nonatomic) double radius; // @dynamic radius;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFProcessInfo, NSObject, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class HMFProcessInfo, NSXPCInterface;
 
 @protocol HMXPCConnection
+- (void)/M7A!A;
+- (NSXPCInterface *)stagingLocationForURL:withinStagingSubsytem:usingUniqueName:error: /* Error: Ran out of types for this method. */;
+- (void)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (void);
+- (void)unweighted;
 - (void);
 - (NSXPCInterface *)g delegate didUpdateMediaState %@ with state:p:%tu s:%tu r:%tu v:%f m:%@ sw:%tu /* Error: Ran out of types for this method. */;
 - (HMFProcessInfo *)saved share;
 
 // Remaining properties
-@property(readonly) CDStruct_6ad76789 auditToken;
-@property(retain) NSXPCInterface *exportedInterface;
-@property(retain) id exportedObject;
-@property(copy) CDUnknownBlockType interruptionHandler;
-@property(copy) CDUnknownBlockType invalidationHandler;
-@property(readonly) int processIdentifier;
 @property(readonly) HMFProcessInfo *processInfo;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
-@property(retain) NSXPCInterface *remoteObjectInterface;
-@property(readonly) id remoteObjectProxy;
 @end
 

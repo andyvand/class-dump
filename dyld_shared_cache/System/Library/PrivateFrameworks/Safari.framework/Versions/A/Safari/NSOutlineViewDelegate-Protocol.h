@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (NSString *);
+- (void);
 @end
 

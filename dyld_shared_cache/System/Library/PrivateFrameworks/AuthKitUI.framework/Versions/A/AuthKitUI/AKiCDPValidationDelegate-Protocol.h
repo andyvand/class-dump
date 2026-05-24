@@ -7,19 +7,15 @@
 @class NSArray;
 
 @protocol AKiCDPValidationDelegate
+- (void);
+- (void)T;
+- (_Bool)X;;
+
+@optional
+- (void)"16@"NSArray"24@"NSDictionary"32@"NSArray"40@"NSArray"48@"NSArray"56B64@"NSDictionary"68f76@"SFEngagementSignal"80;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowCancel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool approvalOnlyMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) _Bool offerRemoteApproval;
-@property(readonly, nonatomic) _Bool offerServerRecovery;
-@property(readonly, nonatomic) _Bool offerToUseRecoveryKey;
 @end
 

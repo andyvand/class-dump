@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSObject, NSString, PHFetchResult, PHPhotoLibrary, PHUserFeedbackCalculator;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSArray, NSHashTable;
 
 @interface PXPassiveContentPeoplePickerDataSourceBase
 {
     NSArray *_vipPersons;
-    NSArray *_nonVIPPersons;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_os_log> *_log;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
-    NSHashTable *_changeObservers;
-    PHFetchResult *_peopleSuggestions;
-    PHFetchResult *_vipPersonsFetchResult;
-    PHFetchResult *_nonVIPPersonsFetchResult;
 }
 
 - (id);
@@ -43,7 +33,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)TANH;
 - (id)it];
 - (void)`;
 - (void);
@@ -51,22 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *changeObservers; // @synthesize changeObservers=_changeObservers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) NSArray *nonVIPPersons; // @synthesize nonVIPPersons=_nonVIPPersons;
-@property(retain, nonatomic) PHFetchResult *nonVIPPersonsFetchResult; // @synthesize nonVIPPersonsFetchResult=_nonVIPPersonsFetchResult;
-@property(retain, nonatomic) PHFetchResult *peopleSuggestions; // @synthesize peopleSuggestions=_peopleSuggestions;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PHUserFeedbackCalculator *userFeedbackCalculator; // @synthesize userFeedbackCalculator=_userFeedbackCalculator;
-@property(retain) NSArray *vipPersons; // @synthesize vipPersons=_vipPersons;
-@property(retain, nonatomic) PHFetchResult *vipPersonsFetchResult; // @synthesize vipPersonsFetchResult=_vipPersonsFetchResult;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

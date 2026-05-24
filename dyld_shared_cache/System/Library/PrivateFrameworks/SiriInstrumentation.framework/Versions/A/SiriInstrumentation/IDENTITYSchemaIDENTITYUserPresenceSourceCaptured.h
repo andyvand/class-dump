@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IDENTITYSchemaIDENTITYUserPresenceSourceCaptured : SISchemaInstrumentationMessage
 {
     int _userPresenceSource;
-    struct {
-        unsigned int userPresenceSource:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)x;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithDictionary: /* Error: Ran out of types for this method. */;
 - (id)àð1Â0@ù
 × ;
 - (id)"ODDSiriSchemaODDmacOSAssistantProperties",&,N,V_macOSAssistant;
 - (id)FèG;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUserPresenceSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int userPresenceSource; // @synthesize userPresenceSource=_userPresenceSource;
 
 @end

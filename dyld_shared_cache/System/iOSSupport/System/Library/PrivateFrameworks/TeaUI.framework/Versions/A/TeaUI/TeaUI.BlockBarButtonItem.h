@@ -9,17 +9,14 @@
 @interface TeaUI.BlockBarButtonItem
 {
     id barButtonItemIdentifier;
-    id shouldRecolor;
-    id actionHandler;
-    id customContentView;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)todaySectionIdentifiersToFRGroupViewExposureTypes;
 - (void)¼ÿÿ;
-- (id);
+- (id)vertical;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

@@ -7,7 +7,6 @@
 @interface NewsAnalytics.SportsSyncEventPrivacySampler
 {
     id appConfigurationManager;
-    id privacySampler;
 }
 
 @end

@@ -9,6 +9,8 @@
 @protocol NSFileProviderExtension_Private
 
 @optional
+- (void);
+- (void)estPresentationTimeStamp;
 - (void)ailed to fetch item %@ during fetchHierarchyForItemID:(NSString *)arg1;
 @end
 

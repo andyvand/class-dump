@@ -14,10 +14,10 @@
 - (id);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (int)UIDs;
+- (int)assetUUIDs;
 
 @end
 

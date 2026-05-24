@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNContactPosterDataStore;
 
 @interface CNContactPosterDataStore
@@ -13,7 +12,7 @@
 }
 
 + (id);
-+ (void);
++ (void)s;
 + (_Bool);
 + (id);
 + (id);
@@ -25,27 +24,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
+- (id)1	?׿F;
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)length;
 - (void)2B40B44@48q56B64;
-- (id)r;
+- (id)teacher;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <CNContactPosterDataStore> impl; // @synthesize impl=_impl;
-@property(readonly) long long maximumContactImagesPerContact;
-@property(readonly) long long maximumContactPostersPerContact;
-@property(readonly) Class superclass;
 
 @end
 

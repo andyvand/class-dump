@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStyle, NSString;
-@protocol CNVisualIdentityImagePickerControllerDelegate, CNVisualIdentityPickerPresenterDelegate;
+@class CNContactStyle;
 
 __attribute__((visibility("hidden")))
 @interface CNVisualIdentityImagePickerController
 {
     _Bool _isMeContact;
-    id <CNVisualIdentityPickerPresenterDelegate> _presenterDelegate;
-    id <CNVisualIdentityImagePickerControllerDelegate> _delegate;
-    CNContactStyle *_contactStyle;
-    NSString *_photoLibraryAssetID;
 }
 
 + (id);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)0@ù
 × ;
 - (void);
@@ -46,22 +41,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ingName;
+- (void)beginEditingName;
 - (id)ÈÉ;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStyle *contactStyle; // @synthesize contactStyle=_contactStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityImagePickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMeContact; // @synthesize isMeContact=_isMeContact;
-@property(retain, nonatomic) NSString *photoLibraryAssetID; // @synthesize photoLibraryAssetID=_photoLibraryAssetID;
-@property(nonatomic) __weak id <CNVisualIdentityPickerPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate=_presenterDelegate;
-@property(readonly) Class superclass;
 
 @end
 

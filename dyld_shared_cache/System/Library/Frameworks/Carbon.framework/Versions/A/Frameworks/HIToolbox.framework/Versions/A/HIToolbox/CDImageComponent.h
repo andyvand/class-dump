@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CDImageComponent
 {
     id _image;
-    struct CGRect _frame;
-    struct CGRect _originalFrame;
-    NSString *_key;
-    unsigned int _slotID;
-    unsigned int _flags;
-    unsigned int _fadeEdges;
 }
 
 + (id);
@@ -31,24 +23,189 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (id);
+- (id)yTemp;
+    
+    minTemp      =  1500.0;
+    maxTemp      = 11500.0;
+    identityTemp =  6500.0;
+    
+    V = sample(src, samplerCoord(src));
+    unpremultiply(V);
+    
+    V.rgb = inputTemperature &lt; identityTemp ? CoolWithPercent(V.rgb, 1.0 - (inputTemperature - minTemp     ) / (identityTemp - minTemp     ))
+                                            :WarmWithPercent(V.rgb,       (inputTemperature - identityTemp) / (maxTemp      - identityTemp));
+    return premultiply(V);
+}
+</string>
+
+
+<key>0xC4F5ABE76F39DE1F</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Microsoft Word (16.55 .. 16.75) using fastPerlinNoise kernel in "Cement" Artistic Effect. rdar://problem/21112516 rdar://problem/54810527 -->
+<!-- This is failing due to usage of program scope const vec2  -->
+<dict>
+    <key>const vec2 size = vec2(255.0, 255.0);</key> <string>#define size vec2(255.0, 255.0)</string>
+    <key>const vec2 offset = vec2(0.5, 0.5);</key> <string>#define offset vec2(0.5, 0.5)</string>
+</dict>
+
+
+<key>0x8502104437125360</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Microsoft Word (16.55 .. 16.75) when emboss_dirN kernels Artistic Effect. rdar://problem/21112516  -->
+<!-- This is failing due to rdar://22060930 Fosl:missing dependency of program-scope const variable -->
+<dict>
+    <key>const vec2 NWpos = vec2(-1.0, 1.0);</key>  <string>#define NWpos vec2(-1.0, 1.0)</string>
+    <key>const vec2 Npos = vec2(0.0, 1.0);</key>    <string>#define Npos vec2(0.0, 1.0)</string>
+    <key>const vec2 NEpos = vec2(1.0, 1.0);</key>   <string>#define NEpos vec2(1.0, 1.0)</string>
+    <key>const vec2 Wpos = vec2(-1.0, 0.0);</key>   <string>#define Wpos vec2(-1.0, 0.0)</string>
+    <key>const vec2 Epos = vec2(1.0, 0.0);</key>    <string>#define Epos vec2(1.0, 0.0)</string>
+    <key>const vec2 SWpos = vec2(-1.0, -1.0);</key> <string>#define SWpos vec2(-1.0, -1.0)</string>
+    <key>const vec2 Spos = vec2(0.0, -1.0);</key>   <string>#define Spos vec2(0.0, -1.0)</string>
+    <key>const vec2 SEpos = vec2(1.0, -1.0);</key>  <string>#define SEpos vec2(1.0, -1.0)</string>
+</dict>
+
+
+<key>0xE7DD973AB5611DDD</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Microsoft Word (16.55 .. 16.75) when using gridMaker kernel to display the "Artisitc Effects" popup toolbar menu. rdar://problem/21112516  -->
+<!-- This is failing due to attempted promotion of float to vec4 (mixVale = step)  TODO file a Fosl radar?-->
+<dict>
+    <key>vec4 mixVal</key> <string>float mixVal</string>
+</dict>
+
+
+<key>0xF17242F1C2848D83</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Microsoft Word (16.55 .. 16.75) when using textureMixer kernel to display the "Artisitc Effects" popup toolbar menu. rdar://problem/21112516  -->
+<!-- This is failing due to use of 'texture' as a variable name  except that it is a glsl builtin (replaced in the override with 't' -->
+<!-- This is failing due to:<rdar://problem/21450804> [CruftCompatibility] CI kernels with functions overloading builtin GLSL functions fail to compile -->
+<!-- This is failing due to rdar://22060930 Fosl:missing dependency of program-scope const variable -->
+<dict>
+    <key>const float textureDimensions = 128.0;</key>  <string>#define textureDimensions 128.0</string>
+    <key>texture,</key> <string>t, </string>
+</dict>
+
+
+<key>0x7A2DAF2484AB78D</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Microsoft Word (16.55 .. 16.75) when displaying the "Artisitc Effects" popup toolbar menu. rdar://problem/21112516  -->
+<!-- This is failing due to use of 'texture' as a variable name  except that it is a glsl builtin (replaced in the override with 't' -->
+<!-- This is failing due to:<rdar://problem/21450804> [CruftCompatibility] CI kernels with functions overloading builtin GLSL functions fail to compile -->
+<dict>
+    <key>texture</key> <string>t</string>
+</dict>
+
+
+<key>0x47E18121B083E097</key>
+<!-- Found in ColorStrokes when using paint. -->
+<!-- This is failing due to rdar://problem/21329720 ... -->
+<!-- The app was using samplerCoord to obtain the coordinates of destination pixels.  It should use destCoord instead. -->
+<dict>
+    <key>samplerCoord(src)</key> <string>destCoord()</string>
+</dict>
+
+
+<key>0xFA9D742E2D5D5A6E</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Contacts when browsing through the effects panel of the image. -->
+<!-- Found in Pixelmator when applying the 'pointillizeStep' kernel in /System/Library/Compositions/Pointillize.qtz -->
+<!-- Found in other apps like Automator, Boinx memoLive, Ecamm. -->
+<!-- This is failing due to rdar://problem/21501444. textureSize is a keyword that cannot be used as a variable in kernel... -->
+<dict>
+    <key>textureSize</key> <string>tSize</string>
+</dict>
+
+
+<key>0x54D1E1A433E487C1</key>
+<!-- Appears in CoreAnalytics data. -->
+<!-- Found in Pixelmator (3.9) when when applying the 'CustomNoiseKernel' kernel for the Black & White effect. -->
+<!-- This is failing due to rdar://problem/21437716 Fosl does not support const -->
+<dict>
+    <key>const float</key> <string>float</string>
+    <key>const vec4</key> <string>vec4</string>
+</dict>
+
+
+<key>0xB5A555D34F66546</key>
+<!-- Appears in CoreAnalytics data. But less so in the recent data perhaps because "Retroactive" no longer works on Sequoia. -->
+<!-- Found in Aperture when doing opening a RAW file. -->
+<!-- <rdar://problem/20826094> GALA REG:Some adjusted photo from Aperture library shows defect after upgrading on Gala.-->
+<!-- <rdar://problem/21909269> GALA REG:Adjusted highlights are black / noisy in exported photos and previews -->
+<!-- There is issue here where pix.rgb-gray was causing problems doing a divide by zero. -->
+<!-- Once that was fixed then the square noisy was still an issue and had to do with the mix that was being performed. -->
+<!-- The mix factor needed to be clamped and also worked fine with larger clamp ranges but something is going wrong with the normal mix(). -->
+<!-- Note:GL and openCL have slightly different definitions of mix() -->
+<string>
+    vec3 myMix(vec3 a, vec3 b, vec3 x)
+    {
+        x = clamp(x, 0.0, 1.0);
+        return (vec3(1.0 - x)*a) + x*b;
+    }
+    
+    kernel vec4 colorCastCorrection(sampler src, float grayBrightness, vec2 blackUVOffset, vec2 grayUVOffset, vec2 whiteUVOffset) __attribute__ ((preserves_opacity))
+    {
+    vec2 p, lowerOffset, upperOffset;
+    vec3 gray;
+    vec4 pix, yuv;
+    
+    // get color
+    p = destCoord();
+    pix = unpremultiply(sample(src, samplerTransform(src, p)));
+    // convert to Yuv here
+    yuv.r = dot(pix.rgb, vec3( 0.299,  0.587,  0.114)); // Y
+    yuv.g = dot(pix.rgb, vec3(-0.147, -0.289,  0.436)); // u
+    yuv.b = dot(pix.rgb, vec3( 0.615, -0.515, -0.100)); // v
+    // compute this color's UV offset, add it in
+    lowerOffset = mix(blackUVOffset, grayUVOffset, yuv.r / grayBrightness);
+    upperOffset = mix(grayUVOffset, whiteUVOffset, (yuv.r - grayBrightness) / (1.0 - grayBrightness));
+    yuv.gb += compare(vec2(yuv.r - grayBrightness), lowerOffset, upperOffset); // note:Y is not changed
+    // convert Yuv back to RGB
+    pix.r = dot(yuv.rgb, vec3(1.000,  0.000,  1.140));
+    pix.g = dot(yuv.rgb, vec3(1.000, -0.395, -0.581));
+    pix.b = dot(yuv.rgb, vec3(1.000,  2.032,  0.000));
+    // clamp colors to RGB space, preserving luminance and new hue
+    gray = clamp(vec3(yuv.r), 0.0, 1.0);
+    vec3 denom = pix.rgb - gray;
+    denom = sign(denom) * max(abs(denom), vec3(0.00001));
+    pix.rgb = compare(1.0 - pix.rgb, myMix(gray, pix.rgb, (1.0 - gray) / denom), pix.rgb); // gamut limit at component == 1.0
+    pix.rgb = compare(pix.rgb, myMix(gray, pix.rgb, - gray / denom), pix.rgb); // gamut limit at component == 0.0
+
+    return premultiply(pix);
+    }
+</string>
+
+
+<key>0x280255A5AB649BB0</key>
+<!-- Found in iPhoto when playing back a video for rdar://problem/22388694. -->
+<!-- Fixed by renaming kernel name from 'filter' to 'Filter'. -->
+<!-- This is failing due to <rdar://problem/22411769> [CruftCompatibility] CI kernels using reserved keyword "filter" fail to compile -->
+<dict>
+    <key>filter</key> <string>Filter</string>
+</dict>
+
+
+<key>0x44832C579DB58032</key>
+<!-- Found in Focus 2 when reproducing <rdar://problem/23574500> REG:Focus 2 fails to apply effects to images. -->
+<!-- This is failing due to <rdar://problem/27536168> [CruftCompatibility] CI kernels that declare program-scope constants fail to compile (w/ Metal context) -->
+<!-- Also the variable 'gray' was declared mor than once in the kernel 'highPassFilter' -->
+<dict>
+    <key>float gray = clamp</key> <string>gray = clamp</string>
+    <key>const vec3 grayVec = vec3(0.2989, 0.5870, 0.1140);</key> <string>#define grayVec vec3(0.2989, 0.5870, 0.1140)</string>
+</dict>
+
+
+</dict>
+ /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (id);
+- (id)NSValue object because its encoding %{public}s contains an object.;
 - (struct CGRect);
 - (void);
-- (unsigned int);
-- (id);
+- (unsigned int)A;
+- (id);
 - (void);
 
 // Remaining properties
 @property unsigned int fadeEdges; // @synthesize fadeEdges=_fadeEdges;
-@property(readonly) unsigned int flags; // @synthesize flags=_flags;
-@property struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) id image; // @synthesize image=_image;
-@property(retain) NSString *key; // @synthesize key=_key;
-@property(readonly) id layerSafeContents;
-@property struct CGRect originalFrame; // @synthesize originalFrame=_originalFrame;
-@property unsigned int slotID; // @synthesize slotID=_slotID;
 
 @end
 

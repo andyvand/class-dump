@@ -6,13 +6,9 @@
 
 #import <ReminderKit/REMAttachment.h>
 
-@class NSURL;
-
 @interface REMFileAttachment : REMAttachment
 {
     _Bool _isTemporaryFileURL;
-    unsigned long long _fileSize;
-    NSURL *_fileURL;
 }
 
 + (id);
@@ -22,11 +18,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ode_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)ow.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)s 1Â0@ù
@@ -36,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) _Bool isTemporaryFileURL; // @synthesize isTemporaryFileURL=_isTemporaryFileURL;
 
 @end
 

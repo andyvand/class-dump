@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOABConfigValue
 {
     PBUnknownFields *_unknownFields;
-    double _doubleValue;
-    long long _intValue;
-    NSString *_stringValue;
-    _Bool _boolValue;
-    struct {
-        unsigned int has_doubleValue:1;
-        unsigned int has_intValue:1;
-        unsigned int has_boolValue:1;
-    } _flags;
 }
 
-+ (_Bool)tHasMapSettingsHeadingEnabled:(id)arg1;
++ (_Bool)setHasMapSettingsHeadingEnabled:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -29,41 +20,33 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A�;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_handleVoiceTriggerAssetWithCompletion:(id)arg1;
+- (void)`;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)INE options;
 - (_Bool);
 - (_Bool);
 - (double);
 - (void)!L@ùQ·*ð1Â0@ù
 × ;
-- (id)ssHandler:(struct _NSZone *)arg1 finishedHandler:errorHandler: /* Error: Ran out of types for this method. */;
-- (id)ags;
+- (id)loadWithCallbackQueue:(struct _NSZone *)arg1 requireWiFi:willLoadHandler:progressHandler:finishedHandler:errorHandler: /* Error: Ran out of types for this method. */;
+- (id)_correctedFlags;
 - (id)W´X´Z;
 - (id)_boardStepIndex;
-- (_Bool)N_OPTIONS_PROMPT;
+- (_Bool)COARSE_LOCATION_OPTIONS_PROMPT;
 - (id);
 - (long long)lØ;
 - (void)°t;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue;
-@property(nonatomic) double doubleValue;
-@property(nonatomic) _Bool hasBoolValue;
-@property(nonatomic) _Bool hasDoubleValue;
 @property(nonatomic) _Bool hasIntValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) long long intValue;
-@property(retain, nonatomic) NSString *stringValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

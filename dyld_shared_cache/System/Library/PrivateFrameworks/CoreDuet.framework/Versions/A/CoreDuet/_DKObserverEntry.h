@@ -10,7 +10,6 @@
 @interface _DKObserverEntry
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject *_call;
 }
 
 - (void);

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _CUIThemeGradientRendition : CUIThemeRendition
 {
     CUIThemeGradient *gradient;
-    double gradientAngle;
 }
 
 - (unsigned int);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)otlight Background;
-- (id)ient;
+- (id)kCUIRenditionTypeNamedGradient;
 
 @end
 

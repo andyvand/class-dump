@@ -4,61 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNNavigationSessionState, NSArray, NSError, NSHashTable, NSMutableDictionary, NSString, NSUUID;
+@class MNNavigationSessionState, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationSessionLogger
 {
     NSUUID *_lastGuidanceSignID;
-    NSArray *_lastARInfos;
-    NSError *_previousSuppressedRerouteError;
-    NSMutableDictionary *_displayETALookup;
-    NSHashTable *_activeCameraInfos;
-    MNNavigationSessionState *_navigationSessionState;
 }
 
 - (void);
-- (void);
+- (void)n
+;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)7|l
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ArchivableDisplayList;
+- (void);
+- (void)ArchivableFactory;
+- (void);
+- (void)?4ٳY74m
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)NavigationSearchDisabledAdjustmentModifier;
+- (void)IsSearchImplemented;
 - (void);
 - (id);
 - (id);
 - (void)"VGVirtualGarage";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) MNNavigationSessionState *navigationSessionState; // @synthesize navigationSessionState=_navigationSessionState;
-@property(readonly) Class superclass;
 
 @end
 

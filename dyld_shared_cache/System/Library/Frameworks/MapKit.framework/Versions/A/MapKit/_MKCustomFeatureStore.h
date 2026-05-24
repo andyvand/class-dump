@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, MKQuadTrie, NSHashTable, NSMutableSet, NSString;
+@class MKQuadTrie;
 @protocol MKCustomFeatureStoreDelegate;
 
 @interface _MKCustomFeatureStore
 {
     MKQuadTrie *_annotationsTrie;
-    NSMutableSet *_globalAnnotations;
-    NSHashTable *_observers;
-    _Bool _isClusteringEnabled;
-    GEOFeatureStyleAttributes *_clusterStyleAttributes;
-    NSString *_annotationText;
-    NSString *_annotationLocale;
-    unsigned char _sceneID;
-    unsigned char _sceneState;
-    id <MKCustomFeatureStoreDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (unsigned char);
-- (void);
+- (void)computeEnergyDiff: /* Error: Ran out of types for this method. */;
+- (void)onWithClientID:(id)arg1 connection created;
+- (void)RROR_CONNECTION_INVALID;
+- (unsigned char), lastReportedTotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
+- (void)r=%@;
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
@@ -36,35 +27,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@9H;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)h;
+- (id)dictionary;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (unsigned char)0@ù
 × ;
-- (void)cePlatform: /* Error: Ran out of types for this method. */;
-- (void)ryBackgroundColor;
+- (void)setDevicePlatform: /* Error: Ran out of types for this method. */;
+- (void)ImageryBackgroundColor;
 
 // Remaining properties
-@property(copy, nonatomic) GEOFeatureStyleAttributes *clusterStyleAttributes; // @synthesize clusterStyleAttributes=_clusterStyleAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MKCustomFeatureStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isClusteringEnabled; // @synthesize isClusteringEnabled=_isClusteringEnabled;
-@property(nonatomic) unsigned char sceneID; // @synthesize sceneID=_sceneID;
-@property(readonly) Class superclass;
 
 @end
 

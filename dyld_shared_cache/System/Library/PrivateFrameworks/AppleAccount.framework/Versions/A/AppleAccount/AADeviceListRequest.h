@@ -15,9 +15,9 @@
 
 + (Class);
 - (id);
-- (id);
-- (void)ithHandle:firstName:lastName: /* Error: Ran out of types for this method. */;
-- (id)answer;
+- (id)trainerCPDeSerializer;
+- (void)initWithHandle:firstName:lastName: /* Error: Ran out of types for this method. */;
+- (id)security_answer;
 
 @end
 

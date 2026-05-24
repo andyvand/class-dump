@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void);
+- (id)__TEXT;
 - (void)fýÿ;
 
 @end

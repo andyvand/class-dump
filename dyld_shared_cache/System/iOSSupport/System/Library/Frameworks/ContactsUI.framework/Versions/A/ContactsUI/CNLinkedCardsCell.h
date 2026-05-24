@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface CNLinkedCardsCell : CNLabeledCell
 {
     id <CNPropertyCellDelegate> _delegate;
-    UILabel *_sourceLabel;
-    UILabel *_nameLabel;
 }
 
 + (_Bool);
@@ -26,14 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)Properties;
+- (void)_contactProperties;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 @property(readonly, nonatomic) UILabel *sourceLabel; // @synthesize sourceLabel=_sourceLabel;
 
 @end

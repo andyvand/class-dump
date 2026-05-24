@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface ASDUpdateMetricsStore
 {
     double _averagePollTime;
-    NSArray *_metrics;
-    NSDate *_lastAutoPollDate;
 }
 
 - (id);
@@ -18,13 +14,11 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double averagePollTime; // @synthesize averagePollTime=_averagePollTime;
-@property(readonly, nonatomic) NSDate *lastAutoPollDate; // @synthesize lastAutoPollDate=_lastAutoPollDate;
-@property(readonly, nonatomic) NSArray *metrics; // @synthesize metrics=_metrics;
 
 @end
 

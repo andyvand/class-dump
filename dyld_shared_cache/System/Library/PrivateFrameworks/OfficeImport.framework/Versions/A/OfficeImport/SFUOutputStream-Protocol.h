@@ -5,6 +5,8 @@
 //
 
 @protocol SFUOutputStream
-- (long long);
+- (void);
+- (_Bool);
+- (long long)PP;
 @end
 

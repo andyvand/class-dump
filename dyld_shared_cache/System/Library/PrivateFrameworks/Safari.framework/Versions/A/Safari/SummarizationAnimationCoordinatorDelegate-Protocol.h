@@ -5,5 +5,6 @@
 //
 
 @protocol SummarizationAnimationCoordinatorDelegate
+- (void);
 @end
 

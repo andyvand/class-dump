@@ -21,21 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,28 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUBezierPath
 {
     long long sfr_elementCount;
-    long long sfr_elementMax;
-    struct PATHSEGMENT *sfr_head;
-    double *sfr_elementLength;
-    double sfr_totalLength;
-    long long sfr_lastSubpathIndex;
-    void *sfr_extraSegments;
-    double sfr_lineWidth;
-    struct CGRect sfr_controlPointBounds;
-    double sfr_miterLimit;
-    double sfr_flatness;
-    double *sfr_dashedLinePattern;
-    unsigned long long sfr_dashedLineCount;
-    double sfr_dashedLinePhase;
-    void *sfr_path;
-    long long sfr_extraSegmentCount;
-    long long sfr_extraSegmentMax;
-    struct {
-        unsigned int sfr_flags:8;
-        unsigned int sfr_pathState:2;
-        unsigned int sfr_calculatedLengths:1;
-        unsigned int sfr_unused:21;
-    } sfr_bpFlags;
 }
 
 + (id);
@@ -37,6 +15,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -44,8 +23,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)�	Q;
 + (double);
 + (unsigned long long);
 + (unsigned long long);
@@ -63,12 +41,12 @@ __attribute__((visibility("hidden")))
 + (void);
 + (double);
 + (void);
-+ (void);
++ (void)TLRasterizationRateMapDescriptor"16;
 + (double)UPackageInputBundle lengthOfEntry:] /* Error: Ran out of types for this method. */;
 + (void);
 + (void)ÃÃÃÃÃÃÃÄÄÄÄÄÄÄÄÄÄÄÄÄÅÅÅÅÅÅÅÅÅÅÅÅÅÆÆÆÆÆÆÆÆÆ;
 - (void);
-- (id);
+- (id)(;
 - (double);
 - (double);
 - (_Bool);
@@ -82,11 +60,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
 - (struct CGPoint);
@@ -101,7 +79,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,7 +87,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
@@ -133,18 +111,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPath *);
-- (void);
-- (void);
+- (void)data_source;
+- (void)kDataConnectionEmLoc;
+- (void)torIcEEEENSA_ISC_EEEEENS2_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISH_EENSM_IFvRKNS2_10connectionEbSG_EEENS2_5mutexEE16invocation_stateEEE;
+- (struct CGPath *)33CompanionPhoneNumberSyncInterface;
+- (void)ileCountryCodeEN3xpc10auto_replyEE3$_0Fv3MCCEEE;
+- (void)NSt3__120__shared_ptr_emplaceINS_8functionIFvvEEENS_9allocatorIS3_EEEE;
 - (void);
 - (id);
 - (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (long long);
 - (id);

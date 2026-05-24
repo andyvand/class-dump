@@ -6,12 +6,11 @@
 
 #import <ContactsFoundation/CNInhibitor.h>
 
-@class NSString, RBSAssertion;
+@class NSString;
 
 @interface _CNRunningBoardInhibitor : CNInhibitor
 {
     NSString *_explanation;
-    RBSAssertion *_assertion;
 }
 
 + (id);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;
 @property(readonly, copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
 
 @end

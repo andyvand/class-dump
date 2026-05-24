@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FCAssetDataProvider;
 
 @interface NewsFeed.StubAssetHandle
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id <FCAssetDataProvider> dataProvider;
-@property(nonatomic, readonly) NSString *uniqueKey;
 
 @end
 

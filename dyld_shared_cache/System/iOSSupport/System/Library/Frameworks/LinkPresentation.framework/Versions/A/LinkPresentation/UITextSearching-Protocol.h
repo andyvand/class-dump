@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextRange;
+@class NSString, UITextRange;
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
 - (UITextRange *);
 
+@optional
+- (void)containerSetupInfo:(UITextRange *)arg1 %@, collaborationShareOptions:(id <NSObject><NSCopying>)arg2 %@;
+- (_Bool)S [%@];
+- (id <NSObject><NSCopying>);
+- (void):(NSString *)arg1 ];
+
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

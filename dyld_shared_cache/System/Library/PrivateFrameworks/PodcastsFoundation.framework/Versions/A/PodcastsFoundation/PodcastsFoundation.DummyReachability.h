@@ -9,17 +9,13 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool)ÿÿ%V;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isGlobalCellularEnabled;
-@property(nonatomic, readonly) _Bool isPodcastsCellularDownloadsEnabled;
-@property(nonatomic, readonly) _Bool isReachable;
 @property(nonatomic, readonly) _Bool isReachableViaCellular;
-@property(nonatomic, readonly) _Bool isReachableViaWifi;
 
 @end
 

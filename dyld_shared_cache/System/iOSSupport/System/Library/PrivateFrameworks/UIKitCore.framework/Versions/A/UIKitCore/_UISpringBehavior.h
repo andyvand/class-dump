@@ -12,18 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _UISpringBehavior : UIDynamicBehavior
 {
     UIAttachmentBehavior *_topLeft;
-    UIAttachmentBehavior *_topRight;
-    UIAttachmentBehavior *_bottomRight;
-    UIAttachmentBehavior *_bottomLeft;
-    double _damping;
-    double _frequency;
-    struct CGPoint _anchorPoint;
 }
 
 - (id);
-- (void);
-- (id);
-- (void)tring:(double)arg1;
+- (void)stringByAppendingFormat:(struct CGPoint)arg1;
+- (id)ublic}@;
+- (void)shouldAcceptCandidate:(double)arg1 beforeInputString: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (void)O¯?;
 - (double)^;
@@ -32,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(nonatomic) double damping; // @synthesize damping=_damping;
-@property(nonatomic) double frequency; // @synthesize frequency=_frequency;
 
 @end
 

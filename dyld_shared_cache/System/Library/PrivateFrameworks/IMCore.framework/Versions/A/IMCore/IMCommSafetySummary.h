@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (void)RROR no valid slot for mode=%d;
++ (void)ient:(unsigned long long)arg1 connect layer %p mode=%d with  <--> slot %lu;
++ (id)sForModes dictionary missing;
++ (id)nt '%@' sends encrypted messages. Dropping encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
 
 @end
 

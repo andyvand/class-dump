@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)VendorProtocol;
+- (void)_extensionAuxiliaryVendorProtocol;
 
 // Remaining properties
 @property(retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;

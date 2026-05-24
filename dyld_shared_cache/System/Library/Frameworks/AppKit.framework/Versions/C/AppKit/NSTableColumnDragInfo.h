@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSView;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSTableColumnDragInfo
 {
     NSImage *_bodyDragImage;
-    double _dragYPos;
-    double _dragImageInset;
-    NSView *_draggedColumnView;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *bodyDragImage; // @synthesize bodyDragImage=_bodyDragImage;
-@property(nonatomic) double dragImageInset; // @synthesize dragImageInset=_dragImageInset;
-@property(nonatomic) double dragYPos; // @synthesize dragYPos=_dragYPos;
-@property(retain, nonatomic) NSView *draggedColumnView; // @synthesize draggedColumnView=_draggedColumnView;
 
 @end
 

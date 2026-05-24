@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)userInterfaceEnabled;
 - (void);
 - (id);
 

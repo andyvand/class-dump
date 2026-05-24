@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemManager, NSString, QLSqliteDatabase;
+@class QLSqliteDatabase;
 
 @interface QLCacheIndexDatabase
 {
     QLSqliteDatabase *_database;
-    NSString *_databasePath;
-    unsigned long long _maxThumbnailLifeTime;
-    FPItemManager *_itemManager;
 }
 
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
 - (void);
 - (id);
@@ -32,56 +29,50 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)7;
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id)_accountDetailsViewModel;
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)sponse body:[%@] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)-@9m;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) QLSqliteDatabase *database; // @synthesize database=_database;
-@property(readonly) unsigned long long fileEntryCount;
-@property(retain) FPItemManager *itemManager; // @synthesize itemManager=_itemManager;
 @property(readonly) unsigned long long maxThumbnailLifeTime; // @synthesize maxThumbnailLifeTime=_maxThumbnailLifeTime;
-@property(readonly) unsigned long long reserveBufferCount;
-@property(readonly) unsigned long long reserveBufferSize;
-@property(readonly) unsigned long long thumbnailCount;
 
 @end
 

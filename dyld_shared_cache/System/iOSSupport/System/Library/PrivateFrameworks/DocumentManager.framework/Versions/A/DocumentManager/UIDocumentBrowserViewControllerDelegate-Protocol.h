@@ -5,5 +5,8 @@
 //
 
 @protocol UIDocumentBrowserViewControllerDelegate
+
+@optional
+- (void)@;
 @end
 

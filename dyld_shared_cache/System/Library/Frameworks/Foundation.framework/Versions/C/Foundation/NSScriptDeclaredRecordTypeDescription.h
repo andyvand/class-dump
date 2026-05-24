@@ -6,15 +6,11 @@
 
 #import <Foundation/NSScriptRecordTypeDescription.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NSScriptDeclaredRecordTypeDescription : NSScriptRecordTypeDescription
 {
     NSString *_name;
-    unsigned int _appleEventCode;
-    NSArray *_fieldDescriptions;
-    _Bool _isHidden;
-    NSString *_presentableDescription;
 }
 
 - (void);
@@ -26,10 +22,10 @@
 - (id);
 - (unsigned int);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)getAUPropertyInfo:onServer:audioUnit:scope:element:intoDataSize:writeable: /* Error: Ran out of types for this method. */;
+- (_Bool)nctionIFbjEEERKNS5_IFjRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERN10applesauce2CF9StringRefEjEEEEUlSH_SL_jNS_4spanIKjLm18446744073709551615EEEE_FjSH_SL_jSS_EEE;
 
 @end
 

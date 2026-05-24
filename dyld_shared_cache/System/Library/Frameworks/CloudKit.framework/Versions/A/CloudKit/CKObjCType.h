@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKObjCType
 {
     long long _code;
@@ -20,16 +18,11 @@
 - (unsigned long long);
 - (long long)ÑG1Ð1Â0@ù
 × ;
-- (id)MergeableDeltaRequestSize;
+- (id)resetMaximumMergeableDeltaRequestSize;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *className;
 @property(readonly, nonatomic) long long code; // @synthesize code=_code;
-@property(readonly, nonatomic) NSString *encoding;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long size;
 
 @end
 

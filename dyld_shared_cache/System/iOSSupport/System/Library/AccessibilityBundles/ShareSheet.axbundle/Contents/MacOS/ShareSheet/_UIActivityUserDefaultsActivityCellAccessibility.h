@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)pple.arkit.worldTracking.mlRelocalizationMode;
++ (void);
 - (unsigned int);
 - (id);
 

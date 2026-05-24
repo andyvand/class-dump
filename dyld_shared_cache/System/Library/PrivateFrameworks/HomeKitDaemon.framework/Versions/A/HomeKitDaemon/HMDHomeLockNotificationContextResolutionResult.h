@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeLockNotificationContextResolutionResult
 {
     NSUUID *_userUUID;
-    NSString *_label;
-    NSUUID *_labelIdentifier;
 }
 
 + (_Bool)0YÛ¸[Ü`ÝhdÞ¤gß<là`oáø;
-- (id);
-- (id);
+- (id)W;
+- (id)RT::BufferObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)initWithHome:(struct _NSZone *)arg1 appleAccountManager: /* Error: Ran out of types for this method. */;
 - (id)public}@Installing managed configuration profile;
 - (void)d during processUpdatedAccessoryServer;
 
 // Remaining properties
-@property(readonly, copy) NSString *label; // @synthesize label=_label;
-@property(readonly, copy) NSUUID *labelIdentifier; // @synthesize labelIdentifier=_labelIdentifier;
 @property(readonly, copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end

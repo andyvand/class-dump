@@ -11,8 +11,6 @@
 @interface MFMessageCriterion : MFCriterion
 {
     NSString *_originalGroupUniqueID;
-    long long _specialMailboxTypeCode;
-    NSString *_groupUniqueID;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 + (long long);
 + (id);
 + (void)p;
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -38,14 +36,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)H;
 - (_Bool);
 - (id);
 - (id);
@@ -65,6 +63,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)qA;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -80,8 +79,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,8 +87,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)qA;
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -101,19 +99,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsIncludeConversationsCriterion;
-@property(readonly, nonatomic) _Bool containsLastViewedDateCriterion;
-@property(readonly, nonatomic) MFMessageCriterion *criterionByExpandingSpecialMailboxCriterion;
-@property(readonly, copy, nonatomic) NSArray *emailAddressesForGroupCriterion;
-@property(readonly, copy, nonatomic) NSArray *emailAddressesForVIPCriterion;
-@property(copy) NSString *groupUniqueID; // @synthesize groupUniqueID=_groupUniqueID;
-@property(readonly, nonatomic) _Bool hasQualifier;
-@property(readonly, nonatomic) MFMessageCriterion *mf_firstSpotlightCriterion;
 @property(readonly, copy, nonatomic) NSArray *mf_mailboxURLStrings;
-@property(readonly, copy) NSString *originalGroupUniqueID;
-@property(readonly, copy, nonatomic) NSArray *recursiveGroupUniqueIDs;
-@property(nonatomic) unsigned int ruleType;
-@property long long specialMailboxTypeCode; // @synthesize specialMailboxTypeCode=_specialMailboxTypeCode;
 
 @end
 

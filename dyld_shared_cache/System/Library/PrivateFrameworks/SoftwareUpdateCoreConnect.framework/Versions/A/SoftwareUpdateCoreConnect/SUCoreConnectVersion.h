@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_redNumPayloads;
 - (void);
 - (id);
 - (void);

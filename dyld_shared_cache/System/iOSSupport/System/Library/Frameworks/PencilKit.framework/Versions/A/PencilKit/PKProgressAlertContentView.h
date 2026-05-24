@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PKAnimatableBorderCornerRadiusView, _PKPathView;
+@class _PKAnimatableBorderCornerRadiusView;
 
 @interface PKProgressAlertContentView
 {
     _PKAnimatableBorderCornerRadiusView *_outerRingView;
-    _PKPathView *_innerPieView;
-    double _progress;
 }
 
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
-- (double);
+- (id)H;
+- (double);
 - (void);
 - (void)legate>",W,N,V_delegate;
 

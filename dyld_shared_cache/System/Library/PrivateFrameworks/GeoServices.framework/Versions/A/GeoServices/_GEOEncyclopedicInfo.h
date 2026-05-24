@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, GEOPDPlace, NSArray, NSMapTable, NSString;
+@class GEOPDPlace;
 
 __attribute__((visibility("hidden")))
 @interface _GEOEncyclopedicInfo
 {
     GEOPDPlace *_placeData;
-    NSMapTable *_attributionMap;
 }
 
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (id);
@@ -27,21 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEOMapItemAttribution *encyclopedicAttribution;
-@property(readonly, nonatomic) NSArray *factoids;
-@property(readonly, nonatomic) _Bool hasPairOfFactoids;
-@property(readonly, nonatomic) _Bool hasStandAloneFactoids;
 @property(readonly, nonatomic) _Bool hasTextBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *placeSummaryFactoids;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *textBlockText;
-@property(readonly, nonatomic) NSString *textBlockTitle;
 
 @end
 

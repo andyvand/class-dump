@@ -7,53 +7,10 @@
 @interface NewsUI2.PuzzleViewController
 {
     id fullScreenModalDelegate;
-    id styler;
-    id eventHandler;
-    id puzzleModel;
-    id puzzleViewConfig;
-    id puzzleEmbedViewController;
-    id newsActivityManager;
-    id contentOverlayViewController;
-    id puzzleRadarReporter;
-    id historyService;
-    id puzzleNavigationBarThemeProvider;
-    id puzzleDifficultyDescriptionProvider;
-    id tracker;
-    id commands;
-    id _windowTitle;
-    id puzzle;
-    id currentPuzzleBarButtonItems;
-    id initialLeftBarButtonItems;
-    id initialLeadingRightBarButtonItems;
-    id currentRightMenuItems;
-    id currentLeftMenuItems;
-    id currentAccessoryView;
-    id publisherLogo;
-    id didSetInitialTitle;
-    id initialIsPencilInputExpected;
-    id paywall;
-    id currentPuzzleColorTheme;
-    id revealTypesUsed;
-    id isBackgrounded;
-    id isVisible;
-    id _backgroundTaskID;
-    id $__lazy_storage_$_radarBarButtonItem;
-    id $__lazy_storage_$_puzzleMenuAction;
-    id instanceID;
-    id subscribed;
-    id onboardingManager;
-    id bundleSubscriptionManager;
-    id visibilityEventManager;
-    id embedLoadEventManager;
-    id timer;
-    id embedDidLoadCompletion;
-    id transitionEffectView;
-    id feedConfigurationFactory;
-    id skipModalPresentation;
 }
 
 - (void);
-- (void);
+- (void)r/lib/swift/libswiftMetal.dylib;
 - (void);
 - (void);
 - (id);

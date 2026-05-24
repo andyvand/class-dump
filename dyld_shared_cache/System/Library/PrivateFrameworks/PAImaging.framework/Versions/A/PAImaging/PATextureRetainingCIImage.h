@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)6;
 
 // Remaining properties
 @property(retain) PATexture *referencedTexture; // @synthesize referencedTexture;

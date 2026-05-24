@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSTouchBarItem;
+@class NSImage, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarPaletteBarItem
 {
     NSImage *_itemSnapshot;
-    NSString *_itemIdentifier;
-    NSTouchBarItem *_representedItem;
-    long long _customizability;
-    NSString *_disabledContainingGroupIdentifier;
-    struct CGSize _minSize;
-    struct CGSize _preferredSize;
-    struct CGSize _maxSize;
-    _Bool _hasCachedMinMaxSize;
 }
 
 + (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)ow-unsealed;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (long long);
+- (long long)USE]:Resuming WebSocket task after task has completed /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ame:(struct _NSZone *)arg1 pullsDown: /* Error: Ran out of types for this method. */;
+- (id)initWithFrame:(struct _NSZone *)arg1 pullsDown: /* Error: Ran out of types for this method. */;
 - (struct CGSize)presentable as a NSRange:loc=%ld, len=%ld. /* Error: Ran out of types for this method. */;
 - (id)Q³;
 - (struct CGSize)Ô$,@;
 
 // Remaining properties
-@property(readonly) long long customizability; // @synthesize customizability=_customizability;
-@property(copy) NSString *disabledContainingGroupIdentifier; // @synthesize disabledContainingGroupIdentifier=_disabledContainingGroupIdentifier;
 @property(readonly, copy) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) NSTouchBarItem *representedItem; // @synthesize representedItem=_representedItem;
 
 @end
 

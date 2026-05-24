@@ -17,7 +17,7 @@
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 

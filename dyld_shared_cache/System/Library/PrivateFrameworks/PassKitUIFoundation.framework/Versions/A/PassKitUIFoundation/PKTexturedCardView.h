@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKMetalRenderLoop, PKTexturedCardRenderer;
-
 @interface PKTexturedCardView
 {
     _Bool _invalidated;
-    _Bool _draw;
-    _Bool _effectivePaused;
-    CDStruct_da14d750 _lastRotation;
-    PKMetalRenderLoop *_renderLoop;
-    PKTexturedCardRenderer *_renderer;
-    _Bool _limitZAngle;
-    _Bool _paused;
-    _Bool _motionEnabled;
 }
 
 - (void);
@@ -24,8 +14,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)sationContactItem>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -36,16 +26,7 @@
 - (_Bool)ne"8@?0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(nonatomic, getter=isMotionEnabled) _Bool motionEnabled; // @synthesize motionEnabled=_motionEnabled;
 @property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly) Class superclass;
 
 @end
 

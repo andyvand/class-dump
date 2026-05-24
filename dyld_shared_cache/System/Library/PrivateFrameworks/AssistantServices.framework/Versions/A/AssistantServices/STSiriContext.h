@@ -11,13 +11,13 @@
     NSArray *_modelObjects;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)tAnnouncementRoute;
+- (void)_getCurrentAnnouncementRoute;
 
 @end
 

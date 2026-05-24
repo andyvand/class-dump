@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatAdMetricsNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id privacyMarkerFrameIdentifier;
 }
 
 @end

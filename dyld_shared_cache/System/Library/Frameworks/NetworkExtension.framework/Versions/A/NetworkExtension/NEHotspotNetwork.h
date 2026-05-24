@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NEHotspotNetwork
 {
     struct __CNNetwork *_network;
-    long long _securityType;
 }
 
 + (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C�?;
 - (void);
-- (id);
+- (id)ng/Framework/XPC/SFClientIdentity.swift;
 - (double);
-- (long long);
+- (long long)<;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *BSSID;
-@property(readonly) NSString *SSID;
 @property long long securityType; // @synthesize securityType=_securityType;
 
 @end

@@ -6,38 +6,22 @@
 
 #import <EventKit/EKSerializableObject.h>
 
-@class EKSerializableParticipant, EKSerializableStructuredLocation, NSArray, NSDate, NSNumber, NSString, NSTimeZone, NSURL;
+@class NSDate;
 
 @interface EKSerializableEvent : EKSerializableObject
 {
     _Bool _isAllDay;
-    NSNumber *_isNew;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSTimeZone *_timeZone;
-    double _travelTime;
-    NSArray *_recurrenceRules;
-    NSString *_title;
-    NSString *_notes;
-    NSURL *_url;
-    NSString *_calendarIdentifier;
-    NSString *_location;
-    EKSerializableStructuredLocation *_structuredLocation;
-    NSArray *_attendees;
-    EKSerializableParticipant *_selfAttendee;
-    NSArray *_alarms;
-    NSArray *_attachments;
 }
 
-+ (id);
-+ (id);
++ (id)validated;
++ (id)tePassword(CFStringRef, __strong dispatch_queue_t, void (^__strong)(CFStringRef));
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)at %@;
+- (void)igin %@;
+- (void)inClient] Destroying %@ for origin %@;
+- (void)@ at %@;
 - (void);
 - (id);
 - (void);
@@ -51,47 +35,31 @@
 - (void);
 - (double);
 - (id);
+- (void)Match=%@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id)_n;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)P;
 - (void)Q2'°1Â0@ù
 × ;
-- (_Bool)alues;
-- (id)aultValuesForObjects:inEventStore: /* Error: Ran out of types for this method. */;
+- (_Bool)dirtyPropertiesAndValues;
+- (id)_takeDefaultValuesForObjects:inEventStore: /* Error: Ran out of types for this method. */;
 - (id)omponents;
 - (id)invoke;
 - (void);
 - (void)Øþöÿî¤[¾È;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alarms; // @synthesize alarms=_alarms;
-@property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(copy, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(retain, nonatomic) NSNumber *isNew; // @synthesize isNew=_isNew;
-@property(copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) NSArray *recurrenceRules; // @synthesize recurrenceRules=_recurrenceRules;
-@property(retain, nonatomic) EKSerializableParticipant *selfAttendee; // @synthesize selfAttendee=_selfAttendee;
 @property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) EKSerializableStructuredLocation *structuredLocation; // @synthesize structuredLocation=_structuredLocation;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) double travelTime; // @synthesize travelTime=_travelTime;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

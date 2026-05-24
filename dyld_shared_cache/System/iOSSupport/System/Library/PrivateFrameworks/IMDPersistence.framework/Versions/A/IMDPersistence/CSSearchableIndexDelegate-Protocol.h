@@ -5,5 +5,8 @@
 //
 
 @protocol CSSearchableIndexDelegate
+
+@optional
+- (void);
 @end
 

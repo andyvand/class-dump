@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
-- (void);
+- (void)akBubbleFillColor;
+- (id)akBlendedColorWithFraction:ofColor: /* Error: Ran out of types for this method. */;
+- (void)adornmentsHidden;
 - (id);
 - (void);
 

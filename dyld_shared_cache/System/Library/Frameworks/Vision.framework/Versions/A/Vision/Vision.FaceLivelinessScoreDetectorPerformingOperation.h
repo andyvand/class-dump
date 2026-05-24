@@ -7,8 +7,6 @@
 @interface Vision.FaceLivelinessScoreDetectorPerformingOperation
 {
     id requests;
-    id faceObservations;
-    id options;
 }
 
 @end

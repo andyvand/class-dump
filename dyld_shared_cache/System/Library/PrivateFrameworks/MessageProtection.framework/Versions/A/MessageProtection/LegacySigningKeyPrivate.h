@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
     id _secKeyRef;
 }
 
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (id);
 
 // Remaining properties

@@ -7,6 +7,11 @@
 @protocol RTIInputSystemSessionDelegate
 
 @optional
+- (void)_;
+- (void);
+- (void);
+- (void)__DATA_CONST;
+- (void);
 - (void);
 @end
 

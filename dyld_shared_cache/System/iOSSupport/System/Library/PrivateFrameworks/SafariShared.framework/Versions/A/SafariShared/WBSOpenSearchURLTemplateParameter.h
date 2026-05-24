@@ -9,15 +9,442 @@
 @interface WBSOpenSearchURLTemplateParameter
 {
     _Bool _optional;
-    NSString *_name;
-    NSString *_prefix;
-    struct _NSRange _range;
 }
 
-- (id);
-- (struct _NSRange);
+- (id)ansit. Singular hour.;
+- (struct _NSRange)Index(e));c&&_.unshift("-"),o&&_.push("]");let C=_bitSetIndexForCharacter("/")-_bitSetIndexForCharacter(" ")+1+(_bitSetIndexForCharacter("@")-_bitSetIndexForCharacter(":")+1)+(_bitSetIndexForCharacter("`")-_bitSetIndexForCharacter("[")+1)+(_bitSetIndexForCharacter("~")-_bitSetIndexForCharacter("{")+1);u=_.length===C,u||(n=n.concat(_));let h=[];return i&&l&&s&&u?[new NamedCharacterClass(Identifier.ASCII_PRINTABLE)]:(i&&h.push(new NamedCharacterClass(Identifier.UPPER)),l&&h.push(new NamedCharacterClass(Identifier.LOWER)),s&&h.push(new NamedCharacterClass(Identifier.DIGIT)),u&&h.push(new NamedCharacterClass(Identifier.SPECIAL)),n.length&&h.push(new CustomCharacterClass(n)),h)}function _indexOfNonWhitespaceCharacter(e,r=0){let t=e.length;for(;r<t&&_isASCIIWhitespace(e[r]);)++r;return r}function _parseIdentifier(e,r){let t=e.length,a=[];do{let t=e[r];if(!_isIdentifierCharacter(t))break;a.push(t),++r}while(r<t);return[a.join(""),r]}function _isValidRequiredOrAllowedPropertyValueIdentifier(e){return e&&Object.values(Identifier).includes(e.toLowerCase())}function _parseCustomCharacterClass(e,r){let t=e.length;if(++r>=t)return[null,r];let a=r,n=[];do{let t=e[r];if(_isASCIIPrintableCharacter(t)){if("-"===t&&r-a>0)++r;else if(n.push(t),++r,t===CHARACTER_CLASS_END_SENTINEL)break}else++r}while(r<t);return r<t&&e[r]!==CHARACTER_CLASS_END_SENTINEL||r==t&&e[r-1]==CHARACTER_CLASS_END_SENTINEL?(n.pop(),[n,r]):r<t&&e[r]==CHARACTER_CLASS_END_SENTINEL?[n,r+1]:[null,r]}function _parsePasswordRequiredOrAllowedPropertyValue(e,r){let t=e.length,a=[];for(;;){if(_isIdentifierCharacter(e[r])){let t=r;var[n,r]=_parseIdentifier(e,r);if(!_isValidRequiredOrAllowedPropertyValueIdentifier(n))return[null,t];a.push(new NamedCharacterClass(n))}else{if(e[r]!=CHARACTER_CLASS_START_SENTINEL)return[null,r];var[n,r]=_parseCustomCharacterClass(e,r);n&&n.length&&a.push(new CustomCharacterClass(n))}if((r=_indexOfNonWhitespaceCharacter(e,r))>=t||e[r]===PROPERTY_SEPARATOR)break;if(e[r]!==PROPERTY_VALUE_SEPARATOR)return[null,r];if((r=_indexOfNonWhitespaceCharacter(e,r+1))>=t)return[null,r]}return[a,r]}function _parsePasswordRule(e,r){let t=e.length;var a=r,[n,r]=_parseIdentifier(e,r);if(!Object.values(RuleName).includes(n))return[null,a];if(r>=t)return[null,r];if(e[r]!==PROPERTY_VALUE_START_SENTINEL)return[null,r];let i={name:n,value:null};if((r=_indexOfNonWhitespaceCharacter(e,r+1))>=t||e[r]===PROPERTY_SEPARATOR)return[new Rule(i.name,i.value),r];switch(n){case RuleName.ALLOWED:case RuleName.REQUIRED:var[l,r]=_parsePasswordRequiredOrAllowedPropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r];case RuleName.MAX_CONSECUTIVE:var[l,r]=_parseMaxConsecutivePropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r];case RuleName.MIN_LENGTH:case RuleName.MAX_LENGTH:var[l,r]=_parseMinLengthMaxLengthPropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r]}}function _parseMinLengthMaxLengthPropertyValue(e,r){return _parseInteger(e,r)}function _parseMaxConsecutivePropertyValue(e,r){return _parseInteger(e,r)}function _parseInteger(e,r){if(!_isASCIIDigit(e[r]))return[null,r];let t=e.length,a=0;do{a=10*a+parseInt(e[r],10),++r}while(r<t&&e[r]!==PROPERTY_SEPARATOR&&_isASCIIDigit(e[r]));return r>=t||e[r]===PROPERTY_SEPARATOR?[a,r]:[null,r]}function _parsePasswordRulesInternal(e){let r=[],t=e.length;for(var a=_indexOfNonWhitespaceCharacter(e);a<t;){if(!_isIdentifierCharacter(e[a]))return r;var[n,a]=_parsePasswordRule(e,a);if(n&&n.value&&r.push(n),(a=_indexOfNonWhitespaceCharacter(e,a))>=t)break;if(e[a]!==PROPERTY_SEPARATOR)return null;if((a=_indexOfNonWhitespaceCharacter(e,a+1))>=t)return r}return r}function parsePasswordRules(e,r){let t=_parsePasswordRulesInternal(e)||[],a=r,n=[],i=[],l=null,s=0,u=null;for(let e of t)switch(e.name){case RuleName.MAX_CONSECUTIVE:l=l?Math.min(e.value,l):e.value;break;case RuleName.MIN_LENGTH:s=Math.max(e.value,s);break;case RuleName.MAX_LENGTH:u=u?Math.min(e.value,u):e.value;break;case RuleName.REQUIRED:e.value=_canonicalizedPropertyValues(e.value,r),n.push(e),a||(i=i.concat(e.value));break;case RuleName.ALLOWED:i=i.concat(e.value)}return i=_canonicalizedPropertyValues(i,a),a||i.length||(i=[new NamedCharacterClass(Identifier.ASCII_PRINTABLE)]),i.length&&n.push(new Rule(RuleName.ALLOWED,i)),null!==l&&n.push(new Rule(RuleName.MAX_CONSECUTIVE,l)),s>0&&n.push(new Rule(RuleName.MIN_LENGTH,s)),null!==u&&n.push(new Rule(RuleName.MAX_LENGTH,u)),n}console||(console={assert:function(){},error:function(){},warn:function(){}});const Identifier={ASCII_PRINTABLE:"ascii-printable",DIGIT:"digit",LOWER:"lower",SPECIAL:"special",UNICODE:"unicode",UPPER:"upper"},RuleName={ALLOWED:"allowed",MAX_CONSECUTIVE:"max-consecutive",REQUIRED:"required",MIN_LENGTH:"minlength",MAX_LENGTH:"maxlength"},HTMLEntity={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;"},CHARACTER_CLASS_START_SENTINEL="[",CHARACTER_CLASS_END_SENTINEL="]",PROPERTY_VALUE_SEPARATOR=",",PROPERTY_SEPARATOR=";",PROPERTY_VALUE_START_SENTINEL=":",SPACE_CODE_POINT=" ".codePointAt(0),SHOULD_NOT_BE_REACHED="Should not be reached";class Rule{constructor(e,r){this._name=e,this.value=r}get name(){return this._name}toString(){return JSON.stringify(this)}}class NamedCharacterClass{constructor(e){this._name=e}get name(){return this._name.toLowerCase()}toString(){return this._name}toHTMLString(){return this._name}}class CustomCharacterClass{constructor(e){this._characters=e}get characters(){return this._characters}toString(){return`[${this._characters.join("")}]`}toHTMLString(){return`[${this._characters.join("").replace(/[&<>"']/g,(e=>HTMLEntity[e]))}]`}}
+0; /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)u_emissionTextureSampler           [[ sampler(0), function_constant(use_emission_map)]]
+                             , texture2d<float> u_ambientTexture                   [[ texture(1), function_constant(use_ambient_map)]]
+                             , sampler          u_ambientTextureSampler            [[ sampler(1), function_constant(use_ambient_map)]]
+                             , texture2d<float> u_diffuseTexture                   [[ texture(2), function_constant(use_diffuse_map)]]
+                             , sampler          u_diffuseTextureSampler            [[ sampler(2), function_constant(use_diffuse_map)]]
+                             , texture2d<float> u_specularTexture                  [[ texture(3), function_constant(use_specular_map)]]
+                             , sampler          u_specularTextureSampler           [[ sampler(3), function_constant(use_specular_map)]]
+                             , texture2d<float> u_reflectiveTexture                [[ texture(4), function_constant(use_reflective_map)]]
+                             , sampler          u_reflectiveTextureSampler         [[ sampler(4), function_constant(use_reflective_map)]]
+                             , texturecube<float> u_reflectiveCubeTexture          [[ texture(4), function_constant(use_reflectivecube_map)]]
+                             , sampler            u_reflectiveCubeTextureSampler   [[ sampler(4), function_constant(use_reflectivecube_map)]]
+                             , texture2d<float> u_transparentTexture               [[ texture(5), function_constant(use_transparent_map)]]
+                             , sampler          u_transparentTextureSampler        [[ sampler(5), function_constant(use_transparent_map)]]
+                             , texture2d<float> u_multiplyTexture                  [[ texture(6), function_constant(use_multiply_map)]]
+                             , sampler          u_multiplyTextureSampler           [[ sampler(6), function_constant(use_multiply_map)]]
+                             , texture2d<float> u_normalTexture                    [[ texture(7), function_constant(use_normal_map)]]
+                             , sampler          u_normalTextureSampler             [[ sampler(7), function_constant(use_normal_map)]]
+                             , texture2d<float> u_metalnessTexture                 [[ texture(3), function_constant(use_metalness_map) ]]
+                             , sampler          u_metalnessTextureSampler          [[ sampler(3), function_constant(use_metalness_map) ]]
+                             , texture2d<float> u_roughnessTexture                 [[ texture(4), function_constant(use_roughness_map) ]]
+                             , sampler          u_roughnessTextureSampler          [[ sampler(4), function_constant(use_roughness_map) ]]
+                             , texturecube<float> u_irradianceTexture              [[ texture(8), function_constant(use_pbr) ]]
+                             
+                             , texturecube<float> u_radianceTexture                [[ texture(9), function_constant(use_pbr) ]]
+                             , texture2d<float>   u_specularDFGTexture             [[ texture(10), function_constant(use_pbr) ]]
+                             , texture2d<float> u_ssaoTexture                      [[ texture(11), function_constant(use_ssao) ]]
+
+                             
+                             , depth2d<float> u_shadowTexture0                     [[ texture(12), function_constant(use_shadow0) ]]
+                             , depth2d<float> u_shadowTexture1                     [[ texture(13), function_constant(use_shadow1) ]]
+                             , depth2d<float> u_shadowTexture2                     [[ texture(14), function_constant(use_shadow2) ]]
+                             , depth2d<float> u_shadowTexture3                     [[ texture(15), function_constant(use_shadow3) ]]
+                             
+                             
+                             , texture2d<float> u_goboTexture0                     [[ texture(16), function_constant(use_gobo0) ]]
+                             , texture2d<float> u_goboTexture1                     [[ texture(17), function_constant(use_gobo1) ]]
+                             , texture2d<float> u_goboTexture2                     [[ texture(18), function_constant(use_gobo2) ]]
+                             , texture2d<float> u_goboTexture3                     [[ texture(19), function_constant(use_gobo3) ]]
+
+                             
+                             
+                             
+                             
+                             
+                             , texture2d<float> u_iesTexture0                      [[ texture(16), function_constant(use_ies0) ]]
+                             , texture2d<float> u_iesTexture1                      [[ texture(17), function_constant(use_ies1) ]]
+                             , texture2d<float> u_iesTexture2                      [[ texture(18), function_constant(use_ies2) ]]
+                             , texture2d<float> u_iesTexture3                      [[ texture(19), function_constant(use_ies3) ]]
+
+                             
+                             , texturecube<float> u_iesCubeTexture0                [[ texture(16), function_constant(use_iesCube0) ]]
+                             , texturecube<float> u_iesCubeTexture1                [[ texture(17), function_constant(use_iesCube1) ]]
+                             , texturecube<float> u_iesCubeTexture2                [[ texture(18), function_constant(use_iesCube2) ]]
+                             , texturecube<float> u_iesCubeTexture3                [[ texture(19), function_constant(use_iesCube3) ]]
+                             
+                             , bool isFrontFacing                                  [[ front_facing, function_constant(use_double_sided) ]]
+
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+__FragmentExtraArguments__
+#endif
+                             )
+{
+    
+    
+    scn_std_node in_node;
+    if (use_instancing) {
+        
+        in_node = scn_nodes[0];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderSurface _surface;
+
+    float2 uv[kSCNTexcoordCount];
+    switch (io_texcoord_count - 1) {
+        case 7 :(id)arg1 uv[7] = in.texcoord7;
+        case 6 :uv[6] = in.texcoord6;
+        case 5 :uv[5] = in.texcoord5;
+        case 4 :uv[4] = in.texcoord4;
+        case 3 :uv[3] = in.texcoord3;
+        case 2 :uv[2] = in.texcoord2;
+        case 1 :uv[1] = in.texcoord1;
+        case 0 :uv[0] = in.texcoord0;
+    }
+
+    if (is_function_constant_defined(diffuse_texcoord_io_index))
+        _surface.diffuseTexcoord = uv[diffuse_texcoord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :-1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -26,9 +453,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

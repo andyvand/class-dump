@@ -7,9 +7,6 @@
 @interface IMPacketTracker
 {
     id expectedPackets;
-    id trackedPacketCount;
-    id packetBits;
-    id expectedLastPacketBits;
 }
 
 - (_Bool);

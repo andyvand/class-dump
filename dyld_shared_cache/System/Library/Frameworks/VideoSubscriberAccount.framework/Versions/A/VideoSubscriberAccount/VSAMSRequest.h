@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, VSAuditToken;
+@class NSString;
 
 @interface VSAMSRequest
 {
     NSString *_methodName;
-    unsigned long long _requestType;
-    NSString *_providerIdentifier;
-    NSDictionary *_parameters;
-    VSAuditToken *_auditToken;
 }
 
 + (_Bool);
@@ -20,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)trIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_hasInstalledApplicationWithIdentifier:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -36,11 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) VSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
 @property(copy, nonatomic) NSString *methodName; // @synthesize methodName=_methodName;
-@property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
 
 @end
 

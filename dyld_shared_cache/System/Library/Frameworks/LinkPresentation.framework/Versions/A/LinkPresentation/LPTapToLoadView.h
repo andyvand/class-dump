@@ -6,30 +6,23 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPTapToLoadViewStyle, LPTextView, NSPressGestureRecognizer, NSString, NSView;
+@class LPTextView;
 @protocol LPTapToLoadViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LPTapToLoadView : LPComponentView
 {
     LPTextView *_captionView;
-    NSView *_progressView;
-    LPTapToLoadViewStyle *_style;
-    NSView *_highlightView;
-    NSPressGestureRecognizer *_highlightGestureRecognizer;
-    _Bool _wasTapped;
-    CDUnknownBlockType _animateOutCompletionHandler;
-    id <LPTapToLoadViewDelegate> _tapToLoadViewDelegate;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_�h;
 - (id);
 - (void);
-- (void);
+- (void)ԝ{;
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -39,13 +32,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <LPTapToLoadViewDelegate> tapToLoadViewDelegate; // @synthesize tapToLoadViewDelegate=_tapToLoadViewDelegate;
 
 @end

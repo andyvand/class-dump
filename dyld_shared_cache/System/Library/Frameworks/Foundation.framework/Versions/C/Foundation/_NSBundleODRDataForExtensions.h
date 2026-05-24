@@ -6,7 +6,7 @@
 
 #import <Foundation/_NSBundleODRDataCommon.h>
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface _NSBundleODRDataForExtensions : _NSBundleODRDataCommon
@@ -21,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)L`¼`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

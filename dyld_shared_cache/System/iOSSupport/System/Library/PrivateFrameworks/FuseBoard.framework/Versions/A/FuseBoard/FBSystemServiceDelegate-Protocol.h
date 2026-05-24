@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FBSystemService;
+@protocol FBSApplicationInfoProvider;
+
 @protocol FBSystemServiceDelegate
+
+@optional
+- (void);
+- (id <FBSApplicationInfoProvider>);
+- (void):(FBSystemService *)arg1 >;
+- (void)>;
+- (void)x:(FBSystemService *)arg1 >;
+- (void)X<>;
 @end
 

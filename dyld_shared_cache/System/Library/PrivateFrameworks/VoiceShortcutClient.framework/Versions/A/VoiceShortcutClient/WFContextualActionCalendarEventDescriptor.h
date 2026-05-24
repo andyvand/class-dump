@@ -9,26 +9,22 @@
 @interface WFContextualActionCalendarEventDescriptor
 {
     NSString *_eventIdentifier;
-    NSString *_uniqueIdentifier;
-    NSString *_title;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id).Lz;
+- (id)f;
+- (id)-`z;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)and client contents:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

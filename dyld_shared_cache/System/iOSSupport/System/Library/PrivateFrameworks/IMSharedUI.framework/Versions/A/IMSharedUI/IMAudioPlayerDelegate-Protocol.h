@@ -5,5 +5,9 @@
 //
 
 @protocol IMAudioPlayerDelegate
+- (void)P;
+
+@optional
+- (void);
 @end
 

@@ -9,13 +9,12 @@
 @interface C2MetricOperationGroupOptions
 {
     NSString *_operationGroupId;
-    NSString *_operationGroupName;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)|;
 - (void);
 - (_Bool);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *operationGroupId; // @synthesize operationGroupId=_operationGroupId;
-@property(copy, nonatomic) NSString *operationGroupName; // @synthesize operationGroupName=_operationGroupName;
 
 @end
 

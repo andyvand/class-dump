@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMCoreAccountsMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    ACAccount *_cachedPrimaryAppleAccount;
 }
 
 + (id)ôÿÿÿúÿ,líÿi;
-- (id);
+- (id)p) Failed to create number ref for key=%s;
 - (void);
 - (id);
 - (void)U6;

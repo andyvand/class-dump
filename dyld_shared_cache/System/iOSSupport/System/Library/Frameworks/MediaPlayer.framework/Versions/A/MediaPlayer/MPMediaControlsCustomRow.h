@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UTType;
+@class NSString;
 
 @interface MPMediaControlsCustomRow
 {
     NSString *_identifier;
-    UTType *_type;
-    NSString *_titleOverride;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)AvailabilityKit;
 - (id);
 - (_Bool);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *titleOverride; // @synthesize titleOverride=_titleOverride;
-@property(copy, nonatomic) UTType *type; // @synthesize type=_type;
 
 @end
 

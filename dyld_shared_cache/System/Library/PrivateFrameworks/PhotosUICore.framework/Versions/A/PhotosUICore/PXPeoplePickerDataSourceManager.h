@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PHFetchResult, PXPeoplePickerDataSource;
+@class NSMutableArray, PXPeoplePickerDataSource;
 
 @interface PXPeoplePickerDataSourceManager
 {
     NSMutableArray *_selectedLocalIdentifiers;
-    NSArray *_suggestedLocalIdentifiers;
-    PHFetchResult *_people;
 }
 
 + (id);
@@ -28,13 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXPeoplePickerDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

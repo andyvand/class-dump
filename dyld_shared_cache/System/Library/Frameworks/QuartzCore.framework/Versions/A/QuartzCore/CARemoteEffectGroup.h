@@ -6,27 +6,24 @@
 
 #import <QuartzCore/CARemoteEffect.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CARemoteEffectGroup : CARemoteEffect
 {
     _Bool _matched;
-    _Bool _source;
-    NSArray *_effects;
-    NSString *_groupName;
 }
 
 + (id);
 + (_Bool);
-+ (id);
-- (void);
++ (id)17TClientFontEntity;
+- (void)@q#;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)GӨ;
 - (id);
 - (void *);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
@@ -41,9 +38,6 @@
 
 // Remaining properties
 @property(copy) NSArray *effects; // @synthesize effects=_effects;
-@property(copy) NSString *groupName; // @synthesize groupName=_groupName;
-@property(getter=isMatched) _Bool matched; // @synthesize matched=_matched;
-@property(getter=isSource) _Bool source; // @synthesize source=_source;
 
 @end
 

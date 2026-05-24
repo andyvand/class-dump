@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool)erChangeToken",&,N,V_originalDatabaseChangeToken;
 - (void)sÿð¼*?;

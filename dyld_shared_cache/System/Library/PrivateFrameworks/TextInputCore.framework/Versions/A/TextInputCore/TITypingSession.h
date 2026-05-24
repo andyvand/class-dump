@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSLocale, NSMutableArray, NSMutableDictionary, NSString, NSUUID, TIDeleteWordEvent, TIFeatureUsageMetricsCache, TIKeyboardInput, TIKeyboardState, TIKeyboardTouchEvent, TITypingSessionParams, TIWordEntry;
+@class NSMutableArray;
 
 @interface TITypingSession
 {
     NSMutableArray *_cachedKeyboardStates;
-    NSMutableArray *_cachedCandidatesOffered;
-    _Bool _fromLegacyRecording;
-    _Bool _didReceiveSecureFieldEvent;
-    _Bool _includeInputToLastWord;
-    _Bool _includeInputToLastDeletion;
-    int _candidatesAccepted;
-    int _candidatesAcceptedWithText;
-    NSString *_layoutName;
-    NSString *_startContext;
-    NSMutableArray *_layouts;
-    NSLocale *_locale;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSUUID *_sessionId;
-    NSString *_applicationID;
-    TITypingSessionParams *_sessionParams;
-    TIFeatureUsageMetricsCache *_featureUsageMetricsCache;
-    NSMutableArray *_userActionHistory;
-    NSArray *_originalWords;
-    TIWordEntry *_currentWord;
-    TIKeyboardInput *_lastInput;
-    TIKeyboardState *_savedDeleteInputKeyboardState;
-    unsigned long long _currentLayoutID;
-    TIWordEntry *_lastWord;
-    TIDeleteWordEvent *_lastDeletion;
-    NSString *_candidateAcceptedTrigger;
-    NSString *_contextChangeTrigger;
-    TIKeyboardTouchEvent *_timeCalibrationTouch;
-    double _calibratedTimeBase;
-    NSMutableDictionary *_touchesHistory;
-    long long _lastActivePathIndex;
 }
 
 + (_Bool);
@@ -48,23 +17,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)__const;
 - (void);
 - (struct _NSRange);
 - (void);
 - (void);
-- (void);
+- (void)containingBundleRecord;
 - (id);
-- (id);
+- (id)tates) || (!aThread && !aDispatchQueue && swiftTaskStates);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -72,10 +41,10 @@
 - (void);
 - (void);
 - (void);
+- (void)wnload failed:(struct _NSRange)arg1 %{public}@;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -86,14 +55,14 @@
 - (double);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)setTokens: /* Error: Ran out of types for this method. */;
+- (void)endMonitoringProviderDomainChanges:(long long)arg1;
+- (_Bool)_filePathWithCacheForIdentifiers:scopes:groupId: /* Error: Ran out of types for this method. */;
+- (void)personTermsMatchCardUnderName;
+- (id)s;
+- (void)y",&,N,V_bundleIDs;
+- (id)SSDeleteCoreSpotlightItemsCommand;
+- (void)kMDItemVendorName_QueryTermsNum_Min_Word;
 - (void);
 - (_Bool);
 - (void);
@@ -110,20 +79,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)32@40;
+- (_Bool)u;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setLostConnection:(id)arg1;
 - (id);
 - (void);
 - (int);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)race_chunk}^{ktrace_chunk}QQQqq}^{ktrace_chunk}^{ktrace_chunk}^{ktrace_chunk}QQI{timezone=ii}{?=II}i^{ktrace_file}^{__CFDictionary}I^{__CFDictionary}^{ktrace_chunk}*Q@?@?@?qqBBBBBB}16@24@32^@40;
+- (void)(%{errno}d);
 - (id);
 - (void);
 - (long long);
@@ -133,55 +102,19 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (double);
 - (void)ÔÐ!;
-- (void)on;
+- (void)_useCandidateSelection;
 - (void)jiKeyTaps;
 - (id)TrackingMask;
-- (void)ickerTask;
-- (id)gApostropheBetweenNonseparators;
+- (void)TIKeyboardInputManagerStickerTask;
+- (id)FilterWordEndingApostropheBetweenNonseparators;
 - (void)t a valid contact name nor sortkey equivalent to what the user typed;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationID; // @synthesize applicationID=_applicationID;
-@property double calibratedTimeBase; // @synthesize calibratedTimeBase=_calibratedTimeBase;
-@property(retain, nonatomic) NSString *candidateAcceptedTrigger; // @synthesize candidateAcceptedTrigger=_candidateAcceptedTrigger;
-@property(nonatomic) int candidatesAccepted; // @synthesize candidatesAccepted=_candidatesAccepted;
-@property(nonatomic) int candidatesAcceptedWithText; // @synthesize candidatesAcceptedWithText=_candidatesAcceptedWithText;
-@property(retain, nonatomic) NSString *contextChangeTrigger; // @synthesize contextChangeTrigger=_contextChangeTrigger;
-@property(nonatomic) unsigned long long currentLayoutID; // @synthesize currentLayoutID=_currentLayoutID;
-@property(retain, nonatomic) TIWordEntry *currentWord; // @synthesize currentWord=_currentWord;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveSecureFieldEvent; // @synthesize didReceiveSecureFieldEvent=_didReceiveSecureFieldEvent;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) TIFeatureUsageMetricsCache *featureUsageMetricsCache; // @synthesize featureUsageMetricsCache=_featureUsageMetricsCache;
-@property(nonatomic) _Bool fromLegacyRecording; // @synthesize fromLegacyRecording=_fromLegacyRecording;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeInputToLastDeletion; // @synthesize includeInputToLastDeletion=_includeInputToLastDeletion;
-@property(nonatomic) _Bool includeInputToLastWord; // @synthesize includeInputToLastWord=_includeInputToLastWord;
-@property(nonatomic) long long lastActivePathIndex; // @synthesize lastActivePathIndex=_lastActivePathIndex;
-@property(retain, nonatomic) TIDeleteWordEvent *lastDeletion; // @synthesize lastDeletion=_lastDeletion;
-@property(retain, nonatomic) TIKeyboardInput *lastInput; // @synthesize lastInput=_lastInput;
-@property(retain, nonatomic) TIWordEntry *lastWord; // @synthesize lastWord=_lastWord;
-@property(copy, nonatomic) NSString *layoutName; // @synthesize layoutName=_layoutName;
-@property(retain, nonatomic) NSMutableArray *layouts; // @synthesize layouts=_layouts;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSArray *originalWords; // @synthesize originalWords=_originalWords;
-@property(retain, nonatomic) TIKeyboardState *savedDeleteInputKeyboardState; // @synthesize savedDeleteInputKeyboardState=_savedDeleteInputKeyboardState;
-@property(retain, nonatomic) NSUUID *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) TITypingSessionParams *sessionParams; // @synthesize sessionParams=_sessionParams;
-@property(copy, nonatomic) NSString *startContext; // @synthesize startContext=_startContext;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(retain) TIKeyboardTouchEvent *timeCalibrationTouch; // @synthesize timeCalibrationTouch=_timeCalibrationTouch;
-@property(retain, nonatomic) NSMutableDictionary *touchesHistory; // @synthesize touchesHistory=_touchesHistory;
 @property(retain, nonatomic) NSMutableArray *userActionHistory; // @synthesize userActionHistory=_userActionHistory;
 
 @end

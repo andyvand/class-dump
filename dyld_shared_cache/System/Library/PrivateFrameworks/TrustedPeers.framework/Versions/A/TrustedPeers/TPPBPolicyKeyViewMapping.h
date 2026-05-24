@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TPPBDictionaryMatchingRule;
+@class TPPBDictionaryMatchingRule;
 
 @interface TPPBPolicyKeyViewMapping
 {
     TPPBDictionaryMatchingRule *_matchingRule;
-    NSString *_view;
 }
 
 + (id);
@@ -17,24 +16,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ǥ;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)Failed to read SFI 17;
+- (id)eControlSessionRef, FigTransportStreamRef, int64_t, CFStringRef);
+- (id)kind;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMatchingRule;
-@property(readonly, nonatomic) _Bool hasView;
-@property(retain, nonatomic) TPPBDictionaryMatchingRule *matchingRule; // @synthesize matchingRule=_matchingRule;
-@property(retain, nonatomic) NSString *view; // @synthesize view=_view;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaLibrary, NSDictionary;
+@class MLMediaLibrary;
 
 @interface MLMediaObjectImpl
 {
     _Bool _thumbnailURLRequested;
-    MLMediaLibrary *_mediaLibrary;
-    NSDictionary *_attributes;
-    unsigned long long _mediaType;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)X;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(nonatomic) MLMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property(nonatomic) unsigned long long mediaType; // @synthesize mediaType=_mediaType;
-@property(nonatomic) _Bool thumbnailURLRequested; // @synthesize thumbnailURLRequested=_thumbnailURLRequested;
 
 @end
 

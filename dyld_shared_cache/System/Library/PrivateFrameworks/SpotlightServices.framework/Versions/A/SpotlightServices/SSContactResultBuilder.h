@@ -6,63 +6,50 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class CNMutableContact, NSString;
-
 @interface SSContactResultBuilder : SSResultBuilder
 {
     int _resultType;
-    NSString *_personIdentifier;
-    CNMutableContact *_contact;
-    NSString *_displayName;
-    NSString *_personQueryIdentifier;
-    NSString *_realContactIdentifier;
 }
 
-+ (id);
++ (id)utton:(id)arg1 secondaryCaptionButton:(id)arg2;
++ (_Bool)appearanceNamed:(id)arg1;
++ (id)_wasPlayingOrWaitingToPlayWhenUnparented;
++ (id)_wasCopiedFromIncompleteMetadata;
++ (_Bool);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)LPMultipleMetadataPresentationTransformer"16;
+- (id)systemPurpleColor;
+- (id)shouldFetchSubresources;
+- (id)requirePrivateRelayForAllNetworkTraffic;
+- (id)requireFixedSize;
+- (id)removePlaceholderViews;
+- (id)removeObjectForKey: /* Error: Ran out of types for this method. */;
+- (id)removeObject: /* Error: Ran out of types for this method. */;
+- (id)registerForStoreAvailablityChangesWithToken:handler: /* Error: Ran out of types for this method. */;
+- (id)registerDataRepresentationForTypeIdentifier:visibility:loadHandler: /* Error: Ran out of types for this method. */;
+- (id)redColor;
+- (id)reasonForWaitingToPlay;
+- (id)promisedItemResourceValuesForKeys:error: /* Error: Ran out of types for this method. */;
+- (id)initWithThemePath:(id)arg1 generator: /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:storefrontCountryCode:withContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ed slide 0x%llx, slidBaseAddress 0x%llx for %s;
 - (id);
 - (void);
+- (id);
+- (void)textView:(int)arg1 writeCell:atIndex:toPasteboard:type: /* Error: Ran out of types for this method. */;
 - (int);
-- (void)rResponseFeedback: /* Error: Ran out of types for this method. */;
+- (void)didReportUserResponseFeedback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *fullName;
-@property(retain, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(retain, nonatomic) NSString *personQueryIdentifier; // @synthesize personQueryIdentifier=_personQueryIdentifier;
-@property(retain, nonatomic) NSString *realContactIdentifier; // @synthesize realContactIdentifier=_realContactIdentifier;
 @property(nonatomic) int resultType; // @synthesize resultType=_resultType;
 
 @end

@@ -9,13 +9,11 @@
 @interface UIKit._UIGenieAnimator.DebugView__priv_A4B2A5C8E093A80E4BC9006C0C278951 : UIView
 {
     id mesh;
-    id dots;
-    id faces;
 }
 
-- (id);
+- (id)c;
 - (void);
-- (id)tion;
+- (id)_UIStatusBarCycleAnimation;
 - (void)DÌ[}m;
 
 @end

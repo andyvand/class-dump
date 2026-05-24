@@ -6,29 +6,22 @@
 
 #import <PhotosUICore/PXContentSyndicationCountsController.h>
 
-@class NSString, PXAssetsDataSourceCountsController, PXFetchResultCountObserver;
+@class PXAssetsDataSourceCountsController;
 
 @interface PXContentSyndicationPhotoKitCountsController : PXContentSyndicationCountsController
 {
     PXAssetsDataSourceCountsController *_assetsCountsController;
-    PXFetchResultCountObserver *_fetchResultCountObserver;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)äÿÀ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

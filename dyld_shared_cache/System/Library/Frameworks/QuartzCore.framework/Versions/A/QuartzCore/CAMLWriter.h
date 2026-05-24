@@ -5,7 +5,6 @@
 //
 
 @class NSURL;
-@protocol CAMLWriterDelegate;
 
 @interface CAMLWriter
 {
@@ -19,21 +18,20 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)S	;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void),&,N,V_endColor;
 - (id)e mach_msg failed with %s [0x%x];
 - (void);
 
 // Remaining properties
 @property(retain) NSURL *baseURL;
-@property __weak id <CAMLWriterDelegate> delegate;
 
 @end
 

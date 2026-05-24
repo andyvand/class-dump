@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOComposedStringFormatStyle
 {
     int _type;
-    NSString *_token;
 }
 
 + (_Bool)to set sha1 on temporary path "%@" - %@;
 - (id);
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)setDisallowStandaloneFallback:(struct _NSZone *)arg1;
 - (void)é6¡5;
 
 @end

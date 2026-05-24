@@ -9,18 +9,16 @@
 @interface PXFlexMusicCuration
 {
     id <PXAudioAssetFetchResult> _bestSongSuggestions;
-    id <PXAudioAssetFetchResult> _secondarySongSuggestions;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)FormatChooser;
+- (void)ImageRequestFastFormatChooser;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAssetFetchResult> bestSongSuggestions; // @synthesize bestSongSuggestions=_bestSongSuggestions;
-@property(readonly, nonatomic) id <PXAudioAssetFetchResult> secondarySongSuggestions; // @synthesize secondarySongSuggestions=_secondarySongSuggestions;
 
 @end
 

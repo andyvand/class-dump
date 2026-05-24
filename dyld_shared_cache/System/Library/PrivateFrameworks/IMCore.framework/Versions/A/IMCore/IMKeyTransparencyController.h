@@ -9,28 +9,26 @@
 @interface IMKeyTransparencyController
 {
     id state;
-    KTVerifier *verifier;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (id);
+- (void)AudioReceiver=%p with JitterBuffer=%p for direction=%d enableAACELDInactiveFrameDetection=%d;
+- (void)udio receiver=%p;
+- (void)%s:(id)arg1 %d Audio issue detector=%p is created in audio receiver=%p;
+- (_Bool)ideoClient:slotForMode %d /* Error: Ran out of types for this method. */;
+- (id)capture of type:(id)arg1 %d;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)t oneToOne if we haven't yet received an active connection;
+- (void)t Instance;
 - (void);
+- (void);
 - (void);
+- (id)secureEraseWithLevel:handlingProgress:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)eralElement;
+- (void)ArrayLiteralElement;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool selfOptedIn;
 @property(nonatomic, readonly) KTVerifier *verifier; // @synthesize verifier;
 
 @end

@@ -10,34 +10,26 @@ __attribute__((visibility("hidden")))
 @interface TISKMetricDefinition
 {
     _Bool _isPointMetric;
-    int _metricType;
-    NSString *_metricName;
-    unsigned long long _positionalSize;
-    CDStruct_2418a849 *_metricDefinition;
 }
 
 + (double);
 + (id);
++ (id)z;
++ (id);
++ (id)c;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (unsigned long long);
-- (CDStruct_2418a849 *);
-- (_Bool);
-- (id);
+- (unsigned long long)handleRTTVoicemailMessage: /* Error: Ran out of types for this method. */;
+- (CDStruct_2418a849 *)appendStringFromOtherContactPath: /* Error: Ran out of types for this method. */;
+- (_Bool)SString",&,N,V_callIdentifier;
+- (id)ettings cache for:(id)arg1 %@;
 - (int);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPointMetric; // @synthesize isPointMetric=_isPointMetric;
-@property(readonly, nonatomic) CDStruct_2418a849 *metricDefinition; // @synthesize metricDefinition=_metricDefinition;
 @property(readonly, nonatomic) NSString *metricName; // @synthesize metricName=_metricName;
-@property(readonly, nonatomic) int metricType; // @synthesize metricType=_metricType;
-@property(readonly, nonatomic) unsigned long long positionalSize; // @synthesize positionalSize=_positionalSize;
 
 @end
 

@@ -9,16 +9,6 @@
 @interface _MRGameControllerAccelerationProtobuf
 {
     NSData *_data;
-    float _w;
-    float _x;
-    float _y;
-    float _z;
-    struct {
-        unsigned int w:1;
-        unsigned int x:1;
-        unsigned int y:1;
-        unsigned int z:1;
-    } _has;
 }
 
 - (void);
@@ -27,41 +17,32 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
+- (float)priority;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)getODDDeviceProperties:(float)arg1;
+- (id)AFDirectActionEventWeather;
 - (float);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (float);
-- (void)ngth;
+- (void)_hasLength;
 - (float);
 - (float)yingPlayerClient] Added Fields:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) _Bool hasData;
-@property(nonatomic) _Bool hasW;
-@property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZ;
-@property(nonatomic) float w; // @synthesize w=_w;
-@property(nonatomic) float x; // @synthesize x=_x;
-@property(nonatomic) float y; // @synthesize y=_y;
-@property(nonatomic) float z; // @synthesize z=_z;
 
 @end
 

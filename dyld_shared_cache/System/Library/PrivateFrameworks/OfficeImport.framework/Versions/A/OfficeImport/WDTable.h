@@ -6,18 +6,17 @@
 
 #import <OfficeImport/WDBlock.h>
 
-@class NSMutableArray, WDTableProperties;
+@class WDTableProperties;
 
 __attribute__((visibility("hidden")))
 @interface WDTable : WDBlock
 {
     WDTableProperties *mProperties;
-    NSMutableArray *mRows;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -27,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)_calendarIdentifier;
 - (id);
 - (id);
-- (id);
-- (int);
+- (int)eaveByMessage;
 - (unsigned long long);
 - (void)BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/NSFileManager_SFUAdditions.m;
 

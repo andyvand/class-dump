@@ -13,7 +13,7 @@
     NUCompositionSourceDefinition *_sourceDefinition;
 }
 
-- (id);
+- (id)h7;
 - (id);
 - (id);
 - (id);

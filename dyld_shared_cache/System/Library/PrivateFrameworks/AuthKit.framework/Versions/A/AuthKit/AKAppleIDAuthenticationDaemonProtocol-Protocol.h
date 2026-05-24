@@ -5,5 +5,8 @@
 //
 
 @protocol AKAppleIDAuthenticationDaemonProtocol
+- (void);
+- (void)";
+- (void);
 @end
 

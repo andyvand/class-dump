@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _SWCDomain
 {
     _Bool _wildcard;
-    BOOL _modeOfOperation;
-    NSString *_host;
-    NSNumber *_port;
 }
 
 + (id);
@@ -19,11 +16,11 @@
 + (_Bool);
 + (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,28 +29,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)String"24@"NSString"32@"NSNumber"40;
 - (id);
-- (id);
+- (id);
 - (id);
 - (BOOL);
 - (id);
-- (id);
+- (id)87;
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *host; // @synthesize host=_host;
-@property(readonly, getter=isHostIPAddress) _Bool hostIPAddress;
-@property(readonly) BOOL modeOfOperation; // @synthesize modeOfOperation=_modeOfOperation;
-@property(readonly) _SWCDomain *nonWildcardDomain;
-@property(readonly) NSNumber *port; // @synthesize port=_port;
 @property(readonly) NSString *rawValue;
-@property(readonly) NSString *topLevelDomainValue;
-@property(readonly, getter=isValid) _Bool valid;
-@property(readonly, getter=isWildcard) _Bool wildcard; // @synthesize wildcard=_wildcard;
-@property(readonly) _SWCDomain *wildcardDomain;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface Foundation._TimeZoneGMTICU
 {
     id offset;
-    id name;
 }
 
 @end

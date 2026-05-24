@@ -11,16 +11,14 @@
     id sMSFilteringSettingsMessage;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)24@32@40B48;
+- (id)SRange=QQ}56;
 - (id);
 - (id);
 - (void)É~ÿÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *filterExtensionName;
-@property(nonatomic, readonly) unsigned long long smsFilterCapabilitiesOptions;
 
 @end
 

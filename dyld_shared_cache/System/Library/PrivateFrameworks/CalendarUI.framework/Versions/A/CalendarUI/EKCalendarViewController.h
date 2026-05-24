@@ -17,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,8 +25,8 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)qc;
+- (id)B;
 - (void);
 - (id)dTime)-[_textTimePicker]-(>=0)-|;
 

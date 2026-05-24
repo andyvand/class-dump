@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, HMDHAPAccessory, HMDService, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraLocalStreamAccessoryCommunicator
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    HMDHAPAccessory *_accessory;
-    HMDService *_streamManagementService;
 }
 
 + (id)nÿÀ`;
+- (void)minimumNotificationInterval;
+- (void)minimalStrategyIdentifierType;
+- (void)migrateFromiCloudKVSIfNeeded;
+- (void)lookupTransactionType;
+- (id)<GEOEncyclopedicInfo>",R,N;
+- (id)stringByResolvingSymlinksInPath;
+- (void);
+- (void);
+- (void);
+- (id)a;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)2(;
 - (id);
 - (id);
 - (id)!LAù11Â0@ù
@@ -42,16 +39,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDService *streamManagementService; // @synthesize streamManagementService=_streamManagementService;
-@property(readonly) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface NTPBAVAsset
 {
     unsigned long long _size;
-    NSData *_bookmark;
-    NSMutableArray *_contentKeyIdentifiers;
-    NSString *_identifier;
-    NSString *_remoteURL;
-    struct {
-        unsigned int size:1;
-    } _has;
 }
 
 @end

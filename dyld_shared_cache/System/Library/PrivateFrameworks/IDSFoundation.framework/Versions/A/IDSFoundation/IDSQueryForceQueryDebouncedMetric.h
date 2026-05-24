@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSQueryForceQueryDebouncedMetric
 {
     _Bool _preventedQueryFromFlighting;
-    NSString *_serviceIdentifier;
-    NSString *_queryReason;
-    unsigned long long _uriCount;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)\;
 - (id);
 - (id);
 - (void)navailable, trying again later...;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) _Bool preventedQueryFromFlighting; // @synthesize preventedQueryFromFlighting=_preventedQueryFromFlighting;
-@property(readonly, nonatomic) NSString *queryReason; // @synthesize queryReason=_queryReason;
 @property(readonly, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long uriCount; // @synthesize uriCount=_uriCount;
 
 @end
 

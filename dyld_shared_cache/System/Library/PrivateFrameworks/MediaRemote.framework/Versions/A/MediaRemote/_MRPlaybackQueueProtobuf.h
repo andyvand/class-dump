@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRDictionaryProtobuf, _MRNowPlayingPlayerPathProtobuf, _MRPlaybackQueueContextProtobuf;
+@class _MRDictionaryProtobuf;
 
 @interface _MRPlaybackQueueProtobuf
 {
     _MRDictionaryProtobuf *_auxiliaryNowPlayingInfo;
-    NSMutableArray *_contentItems;
-    _MRPlaybackQueueContextProtobuf *_context;
-    NSMutableArray *_homeUserIdentifiers;
-    int _location;
-    NSMutableArray *_participants;
-    _MRDictionaryProtobuf *_properties;
-    NSString *_queueIdentifier;
-    NSString *_requestID;
-    _MRNowPlayingPlayerPathProtobuf *_resolvedPlayerPath;
-    _Bool _sendingPlaybackQueueTransaction;
-    struct {
-        unsigned int location:1;
-        unsigned int sendingPlaybackQueueTransaction:1;
-    } _has;
 }
 
 + (Class);
++ (Class)';
 + (Class);
-+ (Class);
 - (void);
 - (void);
 - (unsigned long long);
@@ -39,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (_Bool);
@@ -47,32 +33,32 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)setQueue:(id)arg1;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void),&,N,V_targetChatGUIDs;
+- (id)	?ט;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
+- (void)currentAudioRoute;
+- (unsigned long long)unt %@ %{public}d;
+- (void)SID:(id)arg1 sessionID:completion:] /* Error: Ran out of types for this method. */;
+- (id)erNotificationAnnouncementSpeakingStateObserver _stopObservingAllNotifications];
 - (void);
-- (unsigned long long);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -80,31 +66,13 @@
 × ;
 - (id)cyUniqueIdentifier"b1"lyricsAdamID"b1"radioStationIdentifier"b1"releaseDate"b1"reportingAdamID"b1"startTime"b1"activeFormatJustification"b1"albumTraits"b1"artworkDataHeightDeprecated"b1"artworkDataWidthDeprecated"b1"chapterCount"b1"defaultPlaybackRate"b1"discNumber"b1"downloadProgress"b1"downloadState"b1"editingStyleFlags"b1"episodeNumber"b1"episodeType"b1"formatTierPreference"b1"mediaSubType"b1"mediaType"b1"numberOfSections"b1"playCount"b1"playbackProgress"b1"playbackRate"b1"playlistTraits"b1"playlistType"b1"radioStationType"b1"seasonNumber"b1"songTraits"b1"totalDiscCount"b1"totalTrackCount"b1"trackNumber"b1"artworkAvailable"b1"excludeFromSuggestions"b1"hasAlternativeFormats"b1"infoAvailable"b1"isAdvertisement"b1"isAlwaysLive"b1"isContainer"b1"isCurrentlyPlaying"b1"isExplicitItem"b1"isInTransition"b1"isInWishList"b1"isLiked"b1"isLoading"b1"isPlayable"b1"isResolvableParticipant"b1"isSharable"b1"isSteerable"b1"isStreamingContent"b1"languageOptionsAvailable"b1"lyricsAvailable"b1"transcriptAlignmentsAvailable"b1};
 - (_Bool)setRadioStationIdentifier: /* Error: Ran out of types for this method. */;
-- (void)layerLastPlayingDateForPlayerPath:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)_requestPlayerLastPlayingDateForPlayerPath:queue:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)T@"NSData",C,N,V_purchaseInfoData;
 - (void)d
 ;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDictionaryProtobuf *auxiliaryNowPlayingInfo; // @synthesize auxiliaryNowPlayingInfo=_auxiliaryNowPlayingInfo;
-@property(retain, nonatomic) NSMutableArray *contentItems; // @synthesize contentItems=_contentItems;
-@property(retain, nonatomic) _MRPlaybackQueueContextProtobuf *context; // @synthesize context=_context;
-@property(readonly, nonatomic) _Bool hasAuxiliaryNowPlayingInfo;
-@property(readonly, nonatomic) _Bool hasContext;
 @property(nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasProperties;
-@property(readonly, nonatomic) _Bool hasQueueIdentifier;
-@property(readonly, nonatomic) _Bool hasRequestID;
-@property(readonly, nonatomic) _Bool hasResolvedPlayerPath;
-@property(nonatomic) _Bool hasSendingPlaybackQueueTransaction;
-@property(retain, nonatomic) NSMutableArray *homeUserIdentifiers; // @synthesize homeUserIdentifiers=_homeUserIdentifiers;
-@property(nonatomic) int location; // @synthesize location=_location;
-@property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) _MRDictionaryProtobuf *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *resolvedPlayerPath; // @synthesize resolvedPlayerPath=_resolvedPlayerPath;
-@property(nonatomic) _Bool sendingPlaybackQueueTransaction; // @synthesize sendingPlaybackQueueTransaction=_sendingPlaybackQueueTransaction;
 
 @end
 

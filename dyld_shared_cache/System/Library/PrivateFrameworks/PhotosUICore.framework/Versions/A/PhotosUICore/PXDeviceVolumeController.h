@@ -6,30 +6,23 @@
 
 #import <PhotosUICore/PXVolumeController.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PXDeviceVolumeController : PXVolumeController
 {
     NSObject<OS_os_log> *_log;
-    float _lastKnownVolume;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (void)Ii¶(6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSEntityDescription, NSString;
+@class NSEntityDescription;
 
 __attribute__((visibility("hidden")))
 @interface HMDEntityCodingDescription
 {
     NSEntityDescription *_entity;
-    NSString *_typeID;
-    NSString *_refContextCodingKey;
-    NSString *_refContextKeyPath;
-    NSEntityDescription *_refContextEntity;
-    NSDictionary *_keyAttributesByCodingKey;
-    NSDictionary *_attributesByCodingKey;
-    NSDictionary *_attributeCodingKeysByPropertyName;
-    NSDictionary *_relationshipsByCodingKey;
-    NSDictionary *_relationshipCodingKeysByPropertyName;
-    NSArray *_parentRelationships;
-    NSDictionary *_concreteSubentitiesByTypeID;
 }
 
 - (id);
+- (id)CED ENTIRELY };
+- (id)essure?). Perform an initial load and postpone the access.;
+- (id)pshot isn't loaded (memory pressure?). Perform an initial load and postpone the access.;
+- (id)empt occurred, but the state snapshot isn't loaded (memory pressure?). Perform an initial load and postpone the access.;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
@@ -37,21 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)are version string from %@ to %@.;
-- (void)e;
+- (void)batteryState;
 
 // Remaining properties
-@property(readonly) NSDictionary *attributesByCodingKey;
-@property(readonly) NSDictionary *concreteSubentitiesByTypeID;
 @property(readonly) NSEntityDescription *entity;
-@property(readonly) _Bool hasConcreteSubentities;
-@property(readonly) NSDictionary *keyAttributesByCodingKey;
-@property(readonly) NSString *name;
-@property(readonly) NSArray *parentRelationships; // @synthesize parentRelationships=_parentRelationships;
-@property(readonly) NSString *refContextCodingKey;
-@property(readonly) NSEntityDescription *refContextEntity;
-@property(readonly) NSString *refContextKeyPath;
-@property(readonly) NSDictionary *relationshipsByCodingKey;
-@property(readonly) NSString *typeID;
 
 @end
 

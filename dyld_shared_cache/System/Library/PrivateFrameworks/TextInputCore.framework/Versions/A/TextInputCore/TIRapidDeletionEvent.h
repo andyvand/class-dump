@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)TY error:(id)arg1 %@;
 
 @end
 

@@ -7,39 +7,23 @@
 @interface CalendarWidget.SpatialLayoutDelegate
 {
     struct CGRect displayedRect;
-    id startDate;
-    id endDate;
-    id startHourToShow;
-    id endHourToShow;
-    id scale;
-    id calendar;
-    double topPadding;
-    _Bool originIsUpperLeft;
-    id hoursInDay;
-    id secondsInDay;
-    id secondsInMinute;
-    id secondsInHour;
 }
 
 - (void);
 - (void);
-- (double);
+- (double)Appearance;
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (double);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double)9;
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)systemName;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect displayedRect; // @synthesize displayedRect;
-@property(nonatomic, readonly) double hourHeight;
-@property(nonatomic) _Bool originIsUpperLeft; // @synthesize originIsUpperLeft;
-@property(nonatomic, readonly) double timeWidth;
-@property(nonatomic) double topPadding; // @synthesize topPadding;
 
 @end
 

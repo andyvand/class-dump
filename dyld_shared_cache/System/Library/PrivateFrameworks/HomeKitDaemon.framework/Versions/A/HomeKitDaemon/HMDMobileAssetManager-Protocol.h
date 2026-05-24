@@ -5,5 +5,7 @@
 //
 
 @protocol HMDMobileAssetManager
+- (void)initWithGroupSession:(void (^)(long long, NSError *))arg1;
+- (void)Cannot create composedRoute from %lu routingPathLegs and %lu waypoints;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsArticles.TableOfContentsBlueprintModifierFactory
 {
     id assetHandleFactory;
-    id bundleSubscriptionManager;
 }
 
 @end

@@ -7,24 +7,6 @@
 @interface AppStoreKit.TodayCard
 {
     id heading;
-    id title;
-    id shortTitle;
-    id media;
-    id overlay;
-    id supportsMediaMirroring;
-    id automationMetadata;
-    id titleCharacteristics;
-    id titleArtwork;
-    id style;
-    id heroMedia;
-    id backgroundColor;
-    id inlineDescription;
-    id collapsedHeading;
-    id id;
-    id impressionMetrics;
-    id clickAction;
-    id editorialDisplayOptions;
-    id searchAdOpportunity;
 }
 
 @end

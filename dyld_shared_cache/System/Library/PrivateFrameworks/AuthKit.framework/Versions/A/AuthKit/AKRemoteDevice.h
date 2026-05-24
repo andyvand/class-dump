@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKDeviceSafetyRestrictionState, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface AKRemoteDevice
 {
     _Bool _trusted;
-    _Bool _inCircle;
-    NSString *_name;
-    NSString *_serialNumber;
-    NSString *_secureDeviceId;
-    NSString *_trustedDeviceId;
-    NSString *_buildNumber;
-    NSString *_operatingSystemName;
-    NSString *_operatingSystemVersion;
-    NSString *_model;
-    NSString *_services;
-    NSString *_colorCode;
-    NSString *_enclosureColorCode;
-    NSString *_coverGlassColorCode;
-    NSString *_housingColorCode;
-    NSString *_backingColorCode;
-    NSDate *_lastUpdatedDate;
-    NSString *_machineId;
-    NSString *_pushToken;
-    NSDictionary *_additionalInfo;
-    NSDate *_deletedDate;
-    long long _removalReason;
-    AKDeviceSafetyRestrictionState *_deviceRestrictionState;
-    NSDate *_lastCacheUpdatedDate;
 }
 
 + (_Bool);
@@ -43,39 +20,39 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)	K;
 - (long long);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)uSi;
+- (void);
+- (id)@	;
 - (void);
 - (void);
+- (id)*;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)b;
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
-- (id);
+- (id)JUNIPER_PPPOE_ATM;
 - (void);
 - (void);
-- (void);
+- (void)ata-size;
 - (id);
 - (void);
 - (id);
@@ -83,7 +60,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)(ï;
@@ -95,30 +72,7 @@
 ¬Íríl	71îýæå5P$¥æ®\ì·jZaË¯,³b$ø³2T¿!Ç°YqW¦Ðo87=ÎÍÓ¶{4Û*ÂàóRt@óãh7YÅÈq½~dÂêd=gâ/ ¶ÊWQyöãµQUR`ÀªÕH¸2ûéÖÓa_1ù:Ñð>ÝbQË9J)}Þ{gYS4¾à¾ÁZÈÆw½Àêlèõ\[T©os,BbàjVèÙ»£ñÃëc&õK^5øÿÀöÐváÉÉ±?qzÊRh|rZ#á£r[WDÁú¢ éGØÌëÀð´]'C¨Ãkm$AÉ/iüÈÚ],ò%<ËÃkÃLëu«X²OpÊ6¨x«yPùãXèzË ^ún¡Òýa·âIÏTþSí*¯+[Í®)4òÎ¼çI-ÄQ®e¤J¶­¾V|.9%Ì÷z<¹Á3ø§`Æpû¥ñ§ð>(äóPR'­ft¼Çî¿XwôÅ¦´sA-¥/U0BÏÅ6cy"ÂÆ­º:!ì6MäÄNûwïç_¸ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(copy, nonatomic) NSString *backingColorCode; // @synthesize backingColorCode=_backingColorCode;
-@property(copy, nonatomic) NSString *buildNumber; // @synthesize buildNumber=_buildNumber;
-@property(copy, nonatomic) NSString *colorCode; // @synthesize colorCode=_colorCode;
-@property(copy, nonatomic) NSString *coverGlassColorCode; // @synthesize coverGlassColorCode=_coverGlassColorCode;
-@property(copy, nonatomic) NSDate *deletedDate; // @synthesize deletedDate=_deletedDate;
-@property(retain, nonatomic) AKDeviceSafetyRestrictionState *deviceRestrictionState; // @synthesize deviceRestrictionState=_deviceRestrictionState;
-@property(copy, nonatomic) NSString *enclosureColorCode; // @synthesize enclosureColorCode=_enclosureColorCode;
-@property(copy, nonatomic) NSString *housingColorCode; // @synthesize housingColorCode=_housingColorCode;
-@property(nonatomic) _Bool inCircle; // @synthesize inCircle=_inCircle;
-@property(copy, nonatomic) NSDate *lastCacheUpdatedDate; // @synthesize lastCacheUpdatedDate=_lastCacheUpdatedDate;
-@property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(copy, nonatomic) NSString *machineId; // @synthesize machineId=_machineId;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *operatingSystemName; // @synthesize operatingSystemName=_operatingSystemName;
-@property(copy, nonatomic) NSString *operatingSystemVersion; // @synthesize operatingSystemVersion=_operatingSystemVersion;
-@property(copy, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(nonatomic) long long removalReason; // @synthesize removalReason=_removalReason;
-@property(copy, nonatomic) NSString *secureDeviceId; // @synthesize secureDeviceId=_secureDeviceId;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSString *services; // @synthesize services=_services;
-@property(nonatomic) _Bool trusted; // @synthesize trusted=_trusted;
-@property(copy, nonatomic) NSString *trustedDeviceId; // @synthesize trustedDeviceId=_trustedDeviceId;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatFileViewController
 {
     id sourceMetrics;
-    id editor;
-    id styler;
-    id fileViewController;
-    id model;
 }
 
 - (id);

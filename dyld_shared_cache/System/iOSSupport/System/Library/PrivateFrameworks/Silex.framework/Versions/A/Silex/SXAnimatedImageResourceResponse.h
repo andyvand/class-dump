@@ -13,7 +13,7 @@
     SXAnimatedImage *_animatedImage;
 }
 
-- (void);
+- (void)q!;
 - (id);
 - (void)@24@32;
 

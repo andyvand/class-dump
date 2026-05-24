@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface IDSToolKTSelfVerificationHealableErrors
 {
     NSArray *_accountHealableErrors;
-    NSDictionary *_deviceIdToHealableErrors;
-    unsigned long long _healableState;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property NSArray *accountHealableErrors; // @synthesize accountHealableErrors=_accountHealableErrors;
-@property NSDictionary *deviceIdToHealableErrors; // @synthesize deviceIdToHealableErrors=_deviceIdToHealableErrors;
-@property unsigned long long healableState; // @synthesize healableState=_healableState;
 
 @end
 

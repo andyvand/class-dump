@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, NSUUID;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface UAPasteboardFileItemProvider
 {
     _Bool _preferFileRep;
-    _Bool _isDir;
-    NSString *_type;
-    NSUUID *_uuid;
-    NSURL *_fileURL;
-    NSData *_sandboxExtension;
 }
 
 + (_Bool);
@@ -38,19 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property _Bool isDir; // @synthesize isDir=_isDir;
-@property(nonatomic) _Bool preferFileRep; // @synthesize preferFileRep=_preferFileRep;
-@property(retain) NSData *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

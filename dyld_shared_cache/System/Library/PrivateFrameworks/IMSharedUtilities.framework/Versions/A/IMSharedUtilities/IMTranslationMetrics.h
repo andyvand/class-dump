@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
++ (id)l*;
 - (void);
-- (id);
+- (id)validityDuration;
 
 @end
 

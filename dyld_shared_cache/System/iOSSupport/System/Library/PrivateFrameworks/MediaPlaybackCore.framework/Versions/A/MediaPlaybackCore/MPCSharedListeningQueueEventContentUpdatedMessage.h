@@ -9,7 +9,6 @@
 @interface MPCSharedListeningQueueEventContentUpdatedMessage
 {
     NSString *_localizedTitle;
-    NSString *_localizedMessage;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (id)aResourceRequestEvent"16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;
 @property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

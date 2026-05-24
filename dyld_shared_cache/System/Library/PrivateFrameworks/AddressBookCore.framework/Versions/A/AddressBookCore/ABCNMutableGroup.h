@@ -6,8 +6,6 @@
 
 #import <AddressBookCore/ABCNGroup.h>
 
-@class ABCNGroupIdentifier, NSString;
-
 @interface ABCNMutableGroup : ABCNGroup
 {
 }
@@ -19,11 +17,9 @@
 × ;
 - (void)
 × ;
-- (id)icy;
+- (id)ABAddressBookCommandExecutionPolicy;
 
 // Remaining properties
-@property(copy, nonatomic) ABCNGroupIdentifier *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
 @property(copy, nonatomic) ABCNGroup *snapshot; // @dynamic snapshot;
 
 @end

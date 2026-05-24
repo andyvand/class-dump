@@ -11,24 +11,21 @@
 @interface LUI2TextFieldViewController : LUI2ViewController
 {
     LUI2TextField *_textField;
-    LUI2TextFieldBackgroundView *_backgroundView;
 }
 
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)PEER_PAYMENT_INVALID_ROUTING_NUMBER_ERROR_TITLE;
+- (id);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain) LUI2TextFieldBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property long long blendingMode;
-@property(readonly) LUI2TextField *textField; // @synthesize textField=_textField;
 
 @end
 

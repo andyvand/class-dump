@@ -6,14 +6,11 @@
 
 #import <BiometricKit/BKOperation.h>
 
-@class BKAccessoryGroup, NSData;
 @protocol BKEnrollOperationDelegate;
 
 @interface BKEnrollOperation : BKOperation
 {
     unsigned int _userID;
-    NSData *_credentialSet;
-    BKAccessoryGroup *_accessoryGroup;
 }
 
 - (void);
@@ -36,10 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BKAccessoryGroup *accessoryGroup; // @synthesize accessoryGroup=_accessoryGroup;
-@property(copy, nonatomic) NSData *credentialSet; // @synthesize credentialSet=_credentialSet;
 @property(nonatomic) __weak id <BKEnrollOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) unsigned int userID; // @synthesize userID=_userID;
 
 @end
 

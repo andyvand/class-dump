@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMEEventForwarder, HMMLogEventSubmitting;
+@protocol HMEEventForwarder;
 
 __attribute__((visibility("hidden")))
 @interface HMDLoggingEventForwarder
 {
     id <HMEEventForwarder> _eventForwarder;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 - (id);

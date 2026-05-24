@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPConnectedEcosystemsChangedBulletin
 {
     _Bool _timeSensitive;
-    NSString *_title;
-    NSString *_body;
-    NSString *_threadIdentifier;
-    NSDate *_dateOfOccurrence;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -23,22 +18,17 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)respondsToSelector: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (id)dentUUIDs;
+- (id)preferredResidentUUIDs;
 - (id)ing audio SSRC without having a write request to set it on;
 - (id)auto-Configuring current target controllers with the newly added media accessory:%@ (%@/%@) /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *body; // @synthesize body=_body;
-@property(readonly, copy) NSDate *dateOfOccurrence; // @synthesize dateOfOccurrence=_dateOfOccurrence;
-@property(readonly, copy) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(readonly, getter=isTimeSensitive) _Bool timeSensitive; // @synthesize timeSensitive=_timeSensitive;
 @property(readonly, copy) NSString *title; // @synthesize title=_title;
-@property(readonly, copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

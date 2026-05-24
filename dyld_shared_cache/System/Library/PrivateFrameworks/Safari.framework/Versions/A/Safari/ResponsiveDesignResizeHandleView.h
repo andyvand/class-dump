@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize)generateTranscriptBackground:senderContext:completion: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

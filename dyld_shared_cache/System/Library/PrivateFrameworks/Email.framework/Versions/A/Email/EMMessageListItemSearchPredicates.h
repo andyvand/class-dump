@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)KeyPaths;
 + (id);
 + (id);
 + (id);

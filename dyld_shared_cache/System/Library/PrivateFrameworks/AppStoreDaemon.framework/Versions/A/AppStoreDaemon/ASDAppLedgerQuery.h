@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface ASDAppLedgerQuery
 {
     _Bool _neverLaunched;
-    NSDate *_installedSinceDate;
-    unsigned long long _resultLimit;
-    NSString *_genre;
-    NSNumber *_genreID;
-    long long _sortOrder;
 }
 
 + (_Bool);
@@ -26,23 +21,18 @@
 - (id);
 - (id);
 - (id);
+- (void)addMemberView;
 - (void);
 - (void);
-- (void);
+- (id)ot;;
+- (unsigned long long)tch:) /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *genre; // @synthesize genre=_genre;
-@property(copy) NSNumber *genreID; // @synthesize genreID=_genreID;
 @property(copy) NSDate *installedSinceDate; // @synthesize installedSinceDate=_installedSinceDate;
-@property _Bool neverLaunched; // @synthesize neverLaunched=_neverLaunched;
-@property unsigned long long resultLimit; // @synthesize resultLimit=_resultLimit;
-@property long long sortOrder; // @synthesize sortOrder=_sortOrder;
 
 @end
 

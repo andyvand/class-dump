@@ -11,7 +11,7 @@
     long long _availability;
 }
 
-- (id);
+- (id)createIdentity:(long long)arg1 complete: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties

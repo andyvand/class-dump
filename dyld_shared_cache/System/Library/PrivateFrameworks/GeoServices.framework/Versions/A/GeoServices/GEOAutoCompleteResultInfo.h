@@ -9,13 +9,9 @@
 @interface GEOAutoCompleteResultInfo
 {
     PBUnknownFields *_unknownFields;
-    int _suggestionsAcType;
-    struct {
-        unsigned int has_suggestionsAcType:1;
-    } _flags;
 }
 
-+ (_Bool)us:(id)arg1;
++ (_Bool)setHasMifResponseStatus:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -23,18 +19,18 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)audioRecorderDidStopRecord:(id)arg1 audioStreamHandleId:reason: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)aceDetailsConfig;
+- (id)placeDetailsConfig;
 - (id)Ôñ<òüòÈó;
 - (id)essObjectPtrFromGEOPDAddress(GEOPDAddress *__strong, NSString *__strong, NSString *__strong, NSString *__strong, NSString *__strong, NSString *__strong);
 - (id);
@@ -42,8 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSuggestionsAcType;
-@property(nonatomic) int suggestionsAcType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

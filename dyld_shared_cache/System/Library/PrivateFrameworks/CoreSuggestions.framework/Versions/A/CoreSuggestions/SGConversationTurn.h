@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SGConversationTurn
 {
     NSString *_text;
-    NSString *_senderID;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)(*;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)Dĵr#t;
 - (id);
 - (_Bool);
 - (void);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *senderID; // @synthesize senderID=_senderID;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

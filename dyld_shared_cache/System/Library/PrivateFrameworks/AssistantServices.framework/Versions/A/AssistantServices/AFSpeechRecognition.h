@@ -9,9 +9,6 @@
 @interface AFSpeechRecognition
 {
     NSArray *_phrases;
-    NSArray *_utterances;
-    NSArray *_personalEntities;
-    double _processedAudioDuration;
 }
 
 + (id);
@@ -22,32 +19,29 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)T*;
 - (id);
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_assistantID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *personalEntities; // @synthesize personalEntities=_personalEntities;
 @property(readonly, copy, nonatomic) NSArray *phrases; // @synthesize phrases=_phrases;
-@property(readonly, nonatomic) double processedAudioDuration; // @synthesize processedAudioDuration=_processedAudioDuration;
-@property(readonly, copy, nonatomic) NSArray *utterances; // @synthesize utterances=_utterances;
 
 @end
 

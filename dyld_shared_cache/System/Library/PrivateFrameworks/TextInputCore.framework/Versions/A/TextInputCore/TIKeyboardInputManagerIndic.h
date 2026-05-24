@@ -6,30 +6,26 @@
 
 #import <TextInputCore/TIKeyboardInputManager.h>
 
-@class TIIndicScriptComposer;
-
 @interface TIKeyboardInputManagerIndic : TIKeyboardInputManager
 {
     _Bool _alphabeticLayout;
-    TIIndicScriptComposer *_scriptComposer;
 }
 
-- (void);
-- (void);
-- (void);
-- (Class);
-- (id);
+- (void)ax_filteredArrayUsingBlock:(id)arg1;
+- (void)currentProcessHandlesCloudRelay;
+- (void)ind:(_Bool)arg1 [%@] %@ > %@ (%@ -> %@);
+- (Class)pped transcription for callUUID %@;
+- (id)o stop transcribing:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 
 // Remaining properties
 @property _Bool alphabeticLayout; // @synthesize alphabeticLayout=_alphabeticLayout;
-@property(retain) TIIndicScriptComposer *scriptComposer; // @synthesize scriptComposer=_scriptComposer;
 
 @end
 

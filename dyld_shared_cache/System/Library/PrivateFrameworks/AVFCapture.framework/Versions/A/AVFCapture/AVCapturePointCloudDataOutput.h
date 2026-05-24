@@ -6,52 +6,39 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, NSObject, NSString;
-@protocol AVCapturePointCloudDataOutputDelegate, OS_dispatch_queue;
+@class AVCaptureDataOutputDelegateCallbackHelper;
+@protocol AVCapturePointCloudDataOutputDelegate;
 
 @interface AVCapturePointCloudDataOutput : AVCaptureOutput
 {
     AVCaptureDataOutputDelegateCallbackHelper *_delegateCallbackHelper;
-    AVWeakReference *_weakReference;
-    _Bool _alwaysDiscardsLatePointCloudData;
 }
 
 + (id);
-+ (void)netfgrrfbolg;
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
++ (void)nedfedbhedhheddhedfhedhcedtcedhdedgdedosnetfgrrfbolg;
+- (void)setDismissOverlaysOnLockscreen:(id)arg1;
+- (void),N,V_data;
+- (_Bool)StoreBookKeeper;
+- (_Bool)ed to decode root object;
+- (_Bool)egmentedSubEncoder>"16^B24;
+- (void)saveWithError:rollbackOnFailure: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id)lit;
 - (void);
+- (void)K;
 - (id);
-- (void)beddedThumbnailSourcePixelBuffer;
-- (id);
-- (id);
+- (void)_embeddedThumbnailSourcePixelBuffer;
+- (id)_deferredPhotoProxyDimensions;
+- (id)_cameraFaceResult30;
 - (void)ÜèÜ;
 - (void)%s:(id)arg1 %@ manualFramingDeviceType changed (value %ld), displayVideoZoomFactorMultiplier %@ (value %.2f);
 - (_Bool)suppressed gesture property listener;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLatePointCloudData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <AVCapturePointCloudDataOutputDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

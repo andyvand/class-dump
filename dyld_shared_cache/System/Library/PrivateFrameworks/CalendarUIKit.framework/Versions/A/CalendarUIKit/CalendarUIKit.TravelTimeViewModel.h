@@ -7,19 +7,6 @@
 @interface CalendarUIKit.TravelTimeViewModel
 {
     id _selectedTravelTime;
-    id _travelStartLocation;
-    id _routingMode;
-    id eventLocation;
-    id eventDataSource;
-    id _travelTimeEnabled;
-    id _editTravelTime;
-    id _editRoutingMode;
-    id _editTravelStartLocation;
-    id _isEstimating;
-    id _arrivalDate;
-    id _startLocationFromChooser;
-    id _travelTimeEstimatedValues;
-    id _$observationRegistrar;
 }
 
 @end

@@ -9,16 +9,14 @@
 @interface GEOClientRankingFeatureUnitExponentPair
 {
     unsigned int _exponent;
-    GEOClientRankingFeatureUnit *_unit;
 }
 
-- (id);
+- (id)appendDescriptionToBuilder:(id)arg1;
 - (unsigned int);
 - (void)ôÀ5Ä6;
 - (id);;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int exponent; // @synthesize exponent=_exponent;
 @property(readonly, nonatomic) GEOClientRankingFeatureUnit *unit; // @synthesize unit=_unit;
 
 @end

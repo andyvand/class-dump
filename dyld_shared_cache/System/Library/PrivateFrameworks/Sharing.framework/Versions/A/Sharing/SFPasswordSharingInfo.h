@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SFPasswordSharingInfo
 {
     NSNumber *_channel;
-    NSString *_networkName;
-    NSString *_psk;
 }
 
 + (_Bool);
@@ -21,13 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_APBonjourBrowserCreateEventInfoDictionary;
 - (void))­ÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) NSString *networkName; // @synthesize networkName=_networkName;
-@property(retain, nonatomic) NSString *psk; // @synthesize psk=_psk;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextEffectsWindow;
 @protocol PKTextEffectsWindowObserverDelegate;
 
 @interface PKTextEffectsWindowObserver
 {
     struct CGRect _cachedKeyWindowBounds;
-    long long _cachedKeyWindowUIStyle;
-    id <PKTextEffectsWindowObserverDelegate> _delegate;
-    UITextEffectsWindow *_textEffectsWindow;
 }
 
 - (id);
@@ -26,14 +22,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)KStrokeProviderSliceIdentifier",R,N,V_identifier;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKTextEffectsWindowObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) __weak UITextEffectsWindow *textEffectsWindow; // @synthesize textEffectsWindow=_textEffectsWindow;
 
 @end
 

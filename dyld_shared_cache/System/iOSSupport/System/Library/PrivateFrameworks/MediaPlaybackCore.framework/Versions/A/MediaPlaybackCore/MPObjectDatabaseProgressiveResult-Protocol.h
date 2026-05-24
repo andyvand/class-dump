@@ -5,12 +5,10 @@
 //
 
 @class MPIdentifierSet;
-@protocol MPObjectDatabaseProgressiveResult;
 
 @protocol MPObjectDatabaseProgressiveResult
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPIdentifierSet *inputIdentifiers;
-@property(readonly, nonatomic) id <MPObjectDatabaseProgressiveResult> parentResult;
 @end
 

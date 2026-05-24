@@ -9,7 +9,7 @@
 @protocol NSTextContainerTextView
 
 @optional
-- (_Bool)rtContentView;
+- (_Bool)_configureAlertContentView;
 - (NSParagraphStyle *)g}Ê1YÜ×?;
 - (NSDictionary *)µ;
 
@@ -17,10 +17,6 @@
 @property(readonly, copy) NSParagraphStyle *defaultParagraphStyle;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSParagraphStyle",?,R,C
-
-@property(readonly, copy) NSDictionary *linkTextAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C
 
 @end
 

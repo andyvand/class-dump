@@ -9,10 +9,6 @@
 @interface MSRHDRProcessingT3 : MSRHDRProcessingT2
 {
     int _unequalSpacingTmLutMode;
-    float _toneMapLUT0[257];
-    float _toneMapLUT1[257];
-    float _toneMapLUT2[497];
-    float _toneMapLUT3[497];
 }
 
 - (void);
@@ -27,7 +23,7 @@
 - (unsigned long long);
 - (int);
 - (void);
-- (id);
+- (id))!;
 
 @end
 

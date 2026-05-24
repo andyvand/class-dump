@@ -6,7 +6,7 @@
 
 #import <TextRecognition/CRRecognizedTextRegion.h>
 
-@class CRNormalizedPolyline, CRNormalizedQuad, NSArray, NSString;
+@class NSString;
 
 @interface CRMutableRecognizedTextRegion : CRRecognizedTextRegion
 {
@@ -16,18 +16,7 @@
 - (void);
 
 // Remaining properties
-@property double activationProbability; // @dynamic activationProbability;
-@property(retain) CRNormalizedQuad *boundingQuad; // @dynamic boundingQuad;
-@property(retain) NSArray *candidates; // @dynamic candidates;
-@property double confidence; // @dynamic confidence;
-@property _Bool isCurved; // @dynamic isCurved;
-@property unsigned long long layoutDirection; // @dynamic layoutDirection;
-@property(retain) NSString *locale; // @dynamic locale;
-@property(retain) CRNormalizedPolyline *polygon; // @dynamic polygon;
-@property(retain) NSArray *subregions; // @dynamic subregions;
 @property(retain) NSString *text; // @dynamic text;
-@property unsigned long long textRegionType; // @dynamic textRegionType;
-@property _Bool whitespaceInjected; // @dynamic whitespaceInjected;
 
 @end
 

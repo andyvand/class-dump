@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, OBAnimationView, OBHeaderAccessoryButton, OBImageView, OBTemplateHeaderDetailLabel, OBTemplateLabel, UIImage, UIImageSymbolConfiguration, UILabel, UIView;
+@class OBAnimationView;
 
 @interface OBHeaderView
 {
     _Bool _iconInheritsTint;
-    _Bool _allowFullWidthIcon;
-    _Bool _underlineLinks;
-    _Bool _forceCenterAlignment;
-    _Bool _useIntroScreenLayout;
-    OBAnimationView *_animationView;
-    UIView *_customIconContainerView;
-    double _customIconContainerHeight;
-    OBImageView *_imageView;
-    NSString *_symbolName;
-    UIImageSymbolConfiguration *_additionalSymbolConfiguration;
-    UIView *_topAssetContainer;
-    NSArray *_topAssetContainerConstraints;
-    NSLayoutConstraint *_headerLeftEdgeConstraint;
-    NSLayoutConstraint *_headerRightEdgeConstraint;
-    OBTemplateLabel *_headerLabel;
-    OBTemplateLabel *_subtitleLabel;
-    UILabel *_appNameLabel;
-    UILabel *_badgeLabel;
-    OBTemplateHeaderDetailLabel *_detailLabel;
-    NSArray *_imageViewConstraints;
-    NSArray *_detailLabelConstraints;
-    NSArray *_subtitleLabelConstraints;
-    OBHeaderAccessoryButton *_accessoryButton;
-    unsigned long long _templateType;
-    UIImage *_originalIconImage;
-    unsigned long long _headerStyle;
 }
 
 - (_Bool);
@@ -64,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -117,9 +91,9 @@
 - (id);
 - (id);
 - (id);
+- (id)y"16{CGSize=dd}24@?<v@?@"NSError">40;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -133,11 +107,11 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)iderProxy;
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (id);
 - (void);
 - (void);
@@ -151,36 +125,10 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) OBHeaderAccessoryButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
-@property(retain, nonatomic) UIImageSymbolConfiguration *additionalSymbolConfiguration; // @synthesize additionalSymbolConfiguration=_additionalSymbolConfiguration;
-@property(nonatomic) _Bool allowFullWidthIcon; // @synthesize allowFullWidthIcon=_allowFullWidthIcon;
 @property(retain, nonatomic) OBAnimationView *animationView; // @synthesize animationView=_animationView;
-@property(retain, nonatomic) UILabel *appNameLabel; // @synthesize appNameLabel=_appNameLabel;
-@property(retain, nonatomic) UILabel *badgeLabel; // @synthesize badgeLabel=_badgeLabel;
-@property(nonatomic) double customIconContainerHeight; // @synthesize customIconContainerHeight=_customIconContainerHeight;
-@property(retain, nonatomic) UIView *customIconContainerView; // @synthesize customIconContainerView=_customIconContainerView;
-@property(retain, nonatomic) OBTemplateHeaderDetailLabel *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(retain, nonatomic) NSArray *detailLabelConstraints; // @synthesize detailLabelConstraints=_detailLabelConstraints;
-@property(nonatomic) _Bool forceCenterAlignment; // @synthesize forceCenterAlignment=_forceCenterAlignment;
-@property(retain, nonatomic) OBTemplateLabel *headerLabel; // @synthesize headerLabel=_headerLabel;
-@property(retain, nonatomic) NSLayoutConstraint *headerLeftEdgeConstraint; // @synthesize headerLeftEdgeConstraint=_headerLeftEdgeConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *headerRightEdgeConstraint; // @synthesize headerRightEdgeConstraint=_headerRightEdgeConstraint;
-@property(nonatomic) unsigned long long headerStyle; // @synthesize headerStyle=_headerStyle;
-@property(nonatomic) _Bool iconInheritsTint; // @synthesize iconInheritsTint=_iconInheritsTint;
-@property(retain, nonatomic) OBImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSArray *imageViewConstraints; // @synthesize imageViewConstraints=_imageViewConstraints;
-@property(retain, nonatomic) UIImage *originalIconImage; // @synthesize originalIconImage=_originalIconImage;
-@property(retain, nonatomic) OBTemplateLabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) NSArray *subtitleLabelConstraints; // @synthesize subtitleLabelConstraints=_subtitleLabelConstraints;
-@property(retain, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
-@property(retain, nonatomic) UIView *topAssetContainer; // @synthesize topAssetContainer=_topAssetContainer;
-@property(retain, nonatomic) NSArray *topAssetContainerConstraints; // @synthesize topAssetContainerConstraints=_topAssetContainerConstraints;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
-@property(nonatomic) _Bool useIntroScreenLayout; // @synthesize useIntroScreenLayout=_useIntroScreenLayout;
 
 @end
 

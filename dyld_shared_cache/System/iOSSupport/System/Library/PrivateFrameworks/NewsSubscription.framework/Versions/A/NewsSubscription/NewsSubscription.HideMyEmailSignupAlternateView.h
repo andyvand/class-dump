@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupAlternateView
 {
     id email;
-    id checkmark;
 }
 
 - (id);

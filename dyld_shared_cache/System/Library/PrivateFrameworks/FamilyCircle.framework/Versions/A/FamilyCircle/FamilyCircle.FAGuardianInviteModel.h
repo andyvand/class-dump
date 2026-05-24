@@ -7,15 +7,6 @@
 @interface FamilyCircle.FAGuardianInviteModel
 {
     id title;
-    id subtitle;
-    id inviteURL;
-    id inviteCode;
-    id iconURL;
-    id canEditRecipients;
-    id mailLinkTitle;
-    id mailLinkSubtitle;
-    id mailMessageSubject;
-    id mailMessageBodyHTML;
 }
 
 @end

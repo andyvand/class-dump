@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSURL *_url;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)NSArray"16r^{?=BQ^{?}}24^@32;
+- (id);
 - (struct BindingEvaluator);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)( ;
 - (void)ì;
 
 @end

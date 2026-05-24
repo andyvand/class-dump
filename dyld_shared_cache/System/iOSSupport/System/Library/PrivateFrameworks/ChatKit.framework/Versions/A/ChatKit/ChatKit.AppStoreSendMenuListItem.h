@@ -7,13 +7,6 @@
 @interface ChatKit.AppStoreSendMenuListItem
 {
     id $__lazy_storage_$_title;
-    id $__lazy_storage_$_lightModeImage;
-    id $__lazy_storage_$_darkModeImage;
-    id $__lazy_storage_$_lightModeImageCompositingFilter;
-    id $__lazy_storage_$_darkModeImageCompositingFilter;
-    id imageInsets;
-    id customIconLayer;
-    id isEnabled;
 }
 
 @end

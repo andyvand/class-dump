@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPKCalculatedGeometry
 {
     NSString *_identifier;
-    double _fontSize;
-    unsigned long long _cellCountInRow;
-    struct CGSize _margin;
-    struct CGSize _drawCellGap;
-    struct CGSize _minimumItemSize;
 }
 
 + (id);
@@ -30,22 +25,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)4c;
 - (void);
 - (double);
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGSize)thSkinToneVariant: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (struct CGSize)copyWithSkinToneVariant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cellCountInRow; // @synthesize cellCountInRow=_cellCountInRow;
-@property(nonatomic) struct CGSize drawCellGap; // @synthesize drawCellGap=_drawCellGap;
-@property(readonly, nonatomic) struct CGSize drawCellSize;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) struct CGSize margin; // @synthesize margin=_margin;
 @property(nonatomic) struct CGSize minimumItemSize; // @synthesize minimumItemSize=_minimumItemSize;
 
 @end

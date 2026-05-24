@@ -7,15 +7,10 @@
 @interface MailUI.ManualSummaryController
 {
     id logger;
-    id originalContentMessageGenerator;
-    id messages;
-    id sourceViewController;
-    id summaryRequest;
-    id summaryResponse;
 }
 
 - (id);
-- (void)erion;
+- (void)mailboxCriterion;
 
 @end
 

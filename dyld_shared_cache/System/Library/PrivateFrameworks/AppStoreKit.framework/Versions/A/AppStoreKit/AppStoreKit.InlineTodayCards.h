@@ -7,8 +7,6 @@
 @interface AppStoreKit.InlineTodayCards
 {
     id cards;
-    id id;
-    id impressionMetrics;
 }
 
 @end

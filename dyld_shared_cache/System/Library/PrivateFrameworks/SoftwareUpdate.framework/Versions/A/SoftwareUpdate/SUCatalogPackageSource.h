@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
 @interface SUCatalogPackageSource : SUPackageSource
 {
     NSMutableDictionary *_packageReferencesByProduct;
-    NSMutableDictionary *_digestByPackageURLPath;
-    NSMutableDictionary *_extraPackageReferencesByProduct;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
+- (void)1Ց;
+- (id);
+- (id)q;
+- (id);
+- (id)t;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)0 - calling event handler %p;
 - (id);
 - (void);
 

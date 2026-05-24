@@ -6,25 +6,19 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, NSString, TLKImage, TLKImageView, TLKKeyValueGridView, TLKStackView;
+@class NSArray, TLKKeyValueGridView;
 
 @interface TLKKeyValueView : TLKView
 {
     NSArray *_leadingTuples;
-    NSArray *_trailingTuples;
-    TLKImage *_image;
-    TLKKeyValueGridView *_leadingGrid;
-    TLKKeyValueGridView *_trailingGrid;
-    TLKImageView *_imageView;
-    double _lastMeasuredWidth;
 }
 
 + (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -43,27 +37,13 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)4 ;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKStackView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) TLKImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) double lastMeasuredWidth; // @synthesize lastMeasuredWidth=_lastMeasuredWidth;
 @property(retain, nonatomic) TLKKeyValueGridView *leadingGrid; // @synthesize leadingGrid=_leadingGrid;
-@property(retain, nonatomic) NSArray *leadingTuples; // @synthesize leadingTuples=_leadingTuples;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKKeyValueGridView *trailingGrid; // @synthesize trailingGrid=_trailingGrid;
-@property(retain, nonatomic) NSArray *trailingTuples; // @synthesize trailingTuples=_trailingTuples;
 
 @end
 

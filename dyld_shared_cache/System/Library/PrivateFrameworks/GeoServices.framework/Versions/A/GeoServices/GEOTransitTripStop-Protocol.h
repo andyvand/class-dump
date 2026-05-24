@@ -5,20 +5,15 @@
 //
 
 @class GEOLatLng, GEOStyleAttributes, NSArray, NSString, NSTimeZone;
-@protocol GEOTransitDeparture;
 
 @protocol GEOTransitTripStop
-- (GEOLatLng *)geUploadInfo;
+- (NSArray *);
+- (NSString *)setEkCalendarItem: /* Error: Ran out of types for this method. */;
+- (GEOStyleAttributes *)RotationFilterSnappingThreshold;
+- (GEOLatLng *)imageUploadInfo;
 - (NSTimeZone *)¹_¯U¨æ}þ¹_¯Uø-~þ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitDeparture> departure;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) GEOLatLng *location;
-@property(readonly, nonatomic) unsigned long long stationIdentifier;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
 @property(readonly, nonatomic) NSTimeZone *timeZone;
 @end
 

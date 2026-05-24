@@ -4,40 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 @interface PKPaymentWebServiceLocalProxyTargetDevice
 {
     NSObject<OS_dispatch_queue> *_handlerQueue;
-    NSXPCConnection *_connection;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)6;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool)";
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)T;
 - (void);
 - (void);
 - (void);
@@ -47,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (void);
@@ -59,48 +58,48 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)�;
+- (_Bool)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)B;
+- (void)];
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (id)*;
+- (void);
+- (void)__LINKEDIT;
+- (void);
+- (id);
+- (void)0.;
+- (void)layerContainingQuickBackgroundForLoupeOnOverlayAtPageIndex:(id)arg1 forAnnotationController: /* Error: Ran out of types for this method. */;
+- (void)map tabs to spaces when reading the input. Tidy never outputs tabs. ;
+- (id);
+- (void)SArray",R;
+- (id);
+- (void)setMaxRTTSmallPktSize:(CDUnknownBlockType)arg1;
+- (void)setHasWasPrimary:(id)arg1;
+- (id)connectionMethodAsString:(id)arg1;
+- (void)ingTimestamp;
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -112,7 +111,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -123,29 +122,22 @@
 - (void)
 × ;
 - (void)aymentRewardsRedemption";
-- (id)URL: /* Error: Ran out of types for this method. */;
-- (void)ype:(id)arg1;
-- (void)PI;
-- (void)nStateDashboardMessageOverridesByAID;
-- (id)ymentServiceExportedInterface;
+- (id)setReportLostBagURL: /* Error: Ran out of types for this method. */;
+- (void)encodeWithCloudRecord:(id)arg1 codingType:(id)arg2;
+- (void)_useLegacyGetAPI;
+- (void)_paymentApplicationStateDashboardMessageOverridesByAID;
+- (id)PDInAppPaymentServiceExportedInterface;
 - (id)¸nÿÿÿÿÿ;
 - (void)ating a new scorer.;
-- (void);
-- (_Bool)RTUAL_CARD_SET_UP_ERROR;
-- (id)ntReference;
+- (void)pushProvisionedToAllDevices;
+- (_Bool)VIRTUAL_CARD_SET_UP_ERROR;
+- (id)accountEventReference;
 - (void)';
 ;
 - (void)y"16@?0@"PKPassShareTimeSchedule"8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

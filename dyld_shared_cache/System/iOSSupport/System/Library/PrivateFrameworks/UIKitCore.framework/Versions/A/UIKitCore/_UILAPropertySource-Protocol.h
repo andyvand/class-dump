@@ -11,21 +11,16 @@
 × ;
 - (long long)q\1Â0@ù
 × ;
-- (void)asRequestedKeyboardEventEnvironmentDeferring;
-- (NSSet *)led:serviceEnabled:dataNetworkEnabled:serviceString:serviceCrossfadeString:serviceBadgeString:serviceContentType:dataNetworkType:gsmSignalStrengthRaw:gsmSignalStrengthBars:callForwardingType:lowDataModeActive: /* Error: Ran out of types for this method. */;
-- (void)cay;
+- (void)_hasRequestedKeyboardEventEnvironmentDeferring;
+- (NSSet *)_cellularEntryWithData:signalStrengthEnabled:serviceEnabled:dataNetworkEnabled:serviceString:serviceCrossfadeString:serviceBadgeString:serviceContentType:dataNetworkType:gsmSignalStrengthRaw:gsmSignalStrengthBars:callForwardingType:lowDataModeActive: /* Error: Ran out of types for this method. */;
+- (void)_allowsPopOffsetDecay;
 - (NSSet *)lOpacities;
 - (void)found a touch view the current view without finding a touch for the current window;
 - (NSSet *)arItemGroup;
-- (_Bool)y;
+- (_Bool)UIAutofillContactHeuristicsKey;
 - (_Bool)ê³þÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems;
 @property(nonatomic) long long axis;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints;
-@property(nonatomic) _Bool layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling;
 @end
 

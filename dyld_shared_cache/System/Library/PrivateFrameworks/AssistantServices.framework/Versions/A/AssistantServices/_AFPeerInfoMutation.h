@@ -4,104 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFPeerInfo, NSString;
+@class AFPeerInfo;
 
 @interface _AFPeerInfoMutation
 {
     AFPeerInfo *_base;
-    _Bool _isDeviceOwnedByCurrentUser;
-    NSString *_assistantIdentifier;
-    NSString *_sharedUserIdentifier;
-    NSString *_idsIdentifier;
-    NSString *_idsDeviceUniqueIdentifier;
-    NSString *_rapportEffectiveIdentifier;
-    NSString *_homeKitAccessoryIdentifier;
-    NSString *_mediaSystemIdentifier;
-    NSString *_mediaRouteIdentifier;
-    _Bool _isCommunalDevice;
-    NSString *_roomName;
-    NSString *_name;
-    NSString *_productType;
-    NSString *_buildVersion;
-    NSString *_userInterfaceIdiom;
-    NSString *_aceVersion;
-    _Bool _isLocationSharingDevice;
-    _Bool _isSiriCloudSyncEnabled;
-    NSString *_myriadTrialTreatment;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsDeviceOwnedByCurrentUser:1;
-        unsigned int hasAssistantIdentifier:1;
-        unsigned int hasSharedUserIdentifier:1;
-        unsigned int hasIdsIdentifier:1;
-        unsigned int hasIdsDeviceUniqueIdentifier:1;
-        unsigned int hasRapportEffectiveIdentifier:1;
-        unsigned int hasHomeKitAccessoryIdentifier:1;
-        unsigned int hasMediaSystemIdentifier:1;
-        unsigned int hasMediaRouteIdentifier:1;
-        unsigned int hasIsCommunalDevice:1;
-        unsigned int hasRoomName:1;
-        unsigned int hasName:1;
-        unsigned int hasProductType:1;
-        unsigned int hasBuildVersion:1;
-        unsigned int hasUserInterfaceIdiom:1;
-        unsigned int hasAceVersion:1;
-        unsigned int hasIsLocationSharingDevice:1;
-        unsigned int hasIsSiriCloudSyncEnabled:1;
-        unsigned int hasMyriadTrialTreatment:1;
-    } _mutationFlags;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id)discoveryItemWithIdentifier:callToAction:isScrollable: /* Error: Ran out of types for this method. */;
+- (void)alidUntil:(_Bool)arg1 '%@'; ;
+- (_Bool)PKWalletShouldAutomaticallyRegisterKey;
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)t:(id)arg1 withQueue:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)erFeedback;
-- (void)stinationID;
+- (void);
+- (id);
+- (id);;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id)defuseBalloonPluginPayloadData:senderContext:withBundleIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)knameEncryptionCipherRecordField"16;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)storeBTEvent:(id)arg1 withQueue:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_participationsForUserFeedback;
+- (void)_callDestinationID;
 - (void)AFMetrics;
 - (void)file:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

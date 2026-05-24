@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IDSConnection;
+
 @protocol IDSConnectionDelegatePrivate
+
+@optional
+- (void)systemPowerNotifierWithTarget:(IDSConnection *)arg1;
+- (void)_EXQueryController;
+- (void)m;
 @end
 

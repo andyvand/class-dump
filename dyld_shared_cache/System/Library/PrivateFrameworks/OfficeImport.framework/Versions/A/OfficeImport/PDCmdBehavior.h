@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface PDCmdBehavior : PDAnimateBehavior
 {
     _Bool mHasBehaviorType;
-    int mBehaviorType;
 }
 
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol INIntentResponseObserver
+
+@optional
+- (void)6;
 @end
 

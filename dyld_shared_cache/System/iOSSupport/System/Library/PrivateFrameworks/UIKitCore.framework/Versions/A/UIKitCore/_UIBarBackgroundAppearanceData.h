@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIBarAppearanceData.h>
 
-@class NSArray, UIBlurEffect, UIColor, UIImage, UIVibrancyEffect;
+@class UIBlurEffect;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarBackgroundAppearanceData : _UIBarAppearanceData
@@ -17,53 +17,41 @@ __attribute__((visibility("hidden")))
         unsigned int hasShadow:1;
         unsigned int needsToCalculateVibrantEffect:1;
     } _flags;
-    UIVibrancyEffect *_shadowViewEffect;
-    UIVibrancyEffect *_tabBarVibrancyEffect;
-    NSArray *_backgroundEffects;
-    UIColor *_backgroundColor;
-    UIImage *_backgroundImage;
-    long long _backgroundImageContentMode;
-    UIVibrancyEffect *_overrideTabBarVibrancyEffect;
-    UIColor *_shadowColor;
-    UIImage *_shadowImage;
-    UIVibrancyEffect *_shadowEffect;
-    long long _visibility;
-    double _visibilityOnScrollDistance;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)Ô ;
 + (id)lorAssetName;
 - (void);
 - (id);
-- (id);
+- (id)chunk %s;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)getRepresentativeMetadataForPlaybackContext:properties:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long)@ù
 × ;
-- (void)WithLabel:(id)arg1 sourceNode:targetNode:directed: /* Error: Ran out of types for this method. */;
-- (id)dleRecordForAuditToken:error: /* Error: Ran out of types for this method. */;
-- (double)ntinuation:scene: /* Error: Ran out of types for this method. */;
-- (id)emoveFindOnPageHighlighter: /* Error: Ran out of types for this method. */;
+- (void)initWithLabel:(id)arg1 sourceNode:targetNode:directed: /* Error: Ran out of types for this method. */;
+- (id)bundleRecordForAuditToken:error: /* Error: Ran out of types for this method. */;
+- (double)beginMaskingForReason:continuation:scene: /* Error: Ran out of types for this method. */;
+- (id)_removeFindOnPageHighlighter: /* Error: Ran out of types for this method. */;
 - (void)tionEnter;
 - (void)sResponderSender;
 - (id):,V__scrollPocketContainerInteraction /* Error: Ran out of types for this method. */;
-- (void)ndicator;
+- (void)_revealsVerticalScrollIndicator;
 - (id)OfDocument;
-- (long long)ory;
+- (long long)_UIInputViewAnimationFactory;
 - (void)ôÌhÍÌÍ;
 - (id)g the translatesAutoresizingMaskIntoConstraints property of a UITableViewHeaderFooterView that is managed by a UITableView is not supported, and will result in incorrect self-sizing. View:%@ /* Error: Ran out of types for this method. */;
 - (id)hText:'%{sensitive}@' /* Error: Ran out of types for this method. */;
 - (id)u}, passed in %@ that overflows the adjusted resolvedRange, {%lu, %lu}. Stopping Writing Tools;
-- (void)nLayout;
-- (long long)ScrollViewInteractionActivityTrackingBaseName;
+- (void)columnLayout;
+- (long long)UIScrollViewInteractionActivityTrackingBaseName;
 - (id)view to an out-of-bounds row (%ld) when there are only %ld rows in section %ld. Table view:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)EdgeProgress=%f;
-- (id)LaunchOptionsSearchResultIdentifierKey;
+- (id)UIApplicationLaunchOptionsSearchResultIdentifierKey;
 - (_Bool)*__strong);
 - (long long)nst NSUInteger, const _UIDataSourceUpdate, const _UIMapIndex, const _UIDataSourceModel, const _UIDataSourceModel, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, _UIFastIndexSet *const __strong, _UIFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
 - (void)_UINavigationControllerNavigationBarVisibilityDidChangeNotification;
@@ -77,23 +65,7 @@ __attribute__((visibility("hidden")))
 - (void)bb;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(copy, nonatomic) UIBlurEffect *backgroundEffect;
-@property(copy, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;
-@property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(nonatomic) long long backgroundImageContentMode; // @synthesize backgroundImageContentMode=_backgroundImageContentMode;
-@property(readonly, nonatomic) _Bool hasBackground;
-@property(readonly, nonatomic) _Bool hasShadow;
-@property(retain, nonatomic) UIVibrancyEffect *overrideTabBarVibrancyEffect; // @synthesize overrideTabBarVibrancyEffect=_overrideTabBarVibrancyEffect;
-@property(copy, nonatomic) UIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(copy, nonatomic) UIVibrancyEffect *shadowEffect; // @synthesize shadowEffect=_shadowEffect;
-@property(retain, nonatomic) UIImage *shadowImage; // @synthesize shadowImage=_shadowImage;
-@property(readonly, nonatomic) UIColor *shadowViewBackgroundColor;
-@property(readonly, nonatomic) UIVibrancyEffect *shadowViewEffect; // @synthesize shadowViewEffect=_shadowViewEffect;
-@property(readonly, nonatomic) UIColor *shadowViewTintColor;
-@property(readonly, nonatomic) UIVibrancyEffect *tabBarVibrancyEffect; // @synthesize tabBarVibrancyEffect=_tabBarVibrancyEffect;
-@property(nonatomic) long long visibility; // @synthesize visibility=_visibility;
-@property(nonatomic) double visibilityOnScrollDistance; // @synthesize visibilityOnScrollDistance=_visibilityOnScrollDistance;
 
 @end
 

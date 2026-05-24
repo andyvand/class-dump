@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)imulateHWFeatureDetection;
 + (void);
-- (_Bool);
+- (_Bool)sendUINSEventToHost: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 

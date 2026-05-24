@@ -9,10 +9,6 @@
 @interface AppStoreKit.InAppPurchaseLockup : AppStoreKit.Lockup
 {
     id descriptionText;
-    id theme;
-    id productAction;
-    id isSubscription;
-    id parent;
 }
 
 @end

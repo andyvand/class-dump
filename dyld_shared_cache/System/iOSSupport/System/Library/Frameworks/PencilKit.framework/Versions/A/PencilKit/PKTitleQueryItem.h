@@ -9,7 +9,6 @@
 @interface PKTitleQueryItem
 {
     NSString *_transcribedTitle;
-    struct CGRect _bounds;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)trokeUUID;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(readonly, nonatomic) NSString *transcribedTitle; // @synthesize transcribedTitle=_transcribedTitle;
 
 @end

@@ -7,8 +7,6 @@
 @interface SFDeviceAssetRequestConfiguration
 {
     CDUnknownBlockType _queryResultHandler;
-    double _timeout;
-    CDUnknownBlockType _downloadCompletionHandler;
 }
 
 - (void);
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType downloadCompletionHandler; // @synthesize downloadCompletionHandler=_downloadCompletionHandler;
 @property(readonly, copy, nonatomic) CDUnknownBlockType queryResultHandler; // @synthesize queryResultHandler=_queryResultHandler;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

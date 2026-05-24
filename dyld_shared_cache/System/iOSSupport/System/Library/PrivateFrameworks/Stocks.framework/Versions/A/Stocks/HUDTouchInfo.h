@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UITouch, UIView;
+@class UITouch;
 
 @interface HUDTouchInfo
 {
     UITouch *_touch;
-    UIImageView *_dot;
-    UIView *_bar;
-    struct CGPoint _plottedLocation;
-    struct CGPoint _locationInHUD;
-    CDStruct_d4d9707c _stockValue;
 }
 
-- (CDStruct_d4d9707c);
+- (CDStruct_8cc9ba3e);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (void);
+- (struct CGPoint);
+- (struct CGPoint)ho&u;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)xN\z;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *bar; // @synthesize bar=_bar;
-@property(retain, nonatomic) UIImageView *dot; // @synthesize dot=_dot;
-@property(nonatomic) struct CGPoint locationInHUD; // @synthesize locationInHUD=_locationInHUD;
-@property(nonatomic) struct CGPoint plottedLocation; // @synthesize plottedLocation=_plottedLocation;
-@property(nonatomic) CDStruct_d4d9707c stockValue; // @synthesize stockValue=_stockValue;
-@property(nonatomic) __weak UITouch *touch; // @synthesize touch=_touch;
+@property(nonatomic) CDStruct_8cc9ba3e stockValue; // @synthesize stockValue=_stockValue;
 
 @end
 

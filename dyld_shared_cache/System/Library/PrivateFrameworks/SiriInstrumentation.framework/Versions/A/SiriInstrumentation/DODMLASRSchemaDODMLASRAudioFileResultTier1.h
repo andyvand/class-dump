@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRRecognitionResultTier1, NSArray, NSData, SISchemaUUID;
+@class ASRSchemaASRRecognitionResultTier1;
 
 @interface DODMLASRSchemaDODMLASRAudioFileResultTier1 : SISchemaInstrumentationMessage
 {
     ASRSchemaASRRecognitionResultTier1 *_recognitionResult;
-    NSArray *_oneBestTranscripts;
-    SISchemaUUID *_linkId;
-    _Bool _hasRecognitionResult;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -22,36 +18,31 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id)1b;
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ntactAffinityScoreForPhoneCallReceived"b1"appContactFreqForPhoneCall2Min"b1"appContactFreqForPhoneCall10Min"b1"appContactFreqForPhoneCall1Hr"b1"appContactFreqForPhoneCall6Hr"b1"appContactFreqForPhoneCall1Day"b1"appContactFreqForPhoneCall7Day"b1"appContactFreqForPhoneCall28Day"b1"appContactFreqForPhoneCallInf"b1"appContactFreqForPhoneCall"b1"appContactFreqForPhoneCallUsingSiri"b1"appContactFreqForPhoneCallHaptic"b1};
-- (id)s;
+- (id)NLXSchemaCDMSystemReportedSuccess;
 - (id)`;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasRecognitionResult; // @synthesize hasRecognitionResult=_hasRecognitionResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *oneBestTranscripts; // @synthesize oneBestTranscripts=_oneBestTranscripts;
 @property(retain, nonatomic) ASRSchemaASRRecognitionResultTier1 *recognitionResult; // @synthesize recognitionResult=_recognitionResult;
 
 @end

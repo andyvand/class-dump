@@ -5,6 +5,7 @@
 //
 
 @protocol MKCustomFeatureAnnotation
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool showsBalloonCallout;

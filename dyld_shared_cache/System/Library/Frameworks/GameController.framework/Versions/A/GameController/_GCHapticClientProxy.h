@@ -4,43 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCSProfile, NSArray, NSMutableDictionary, NSString, _GCControllerManagerServer;
-@protocol GCSSettingsStoreService, NSCopying><NSObject><NSSecureCoding, _GCIPCIncomingConnection;
-
 __attribute__((visibility("hidden")))
 @interface _GCHapticClientProxy
 {
     _Bool _playersPlayedHapticsThisSlice;
-    _GCControllerManagerServer *_server;
-    struct HapticSharedMemory _sharedMemory;
-    id <GCSSettingsStoreService> _settingsStore;
-    GCSProfile *_activeProfile;
-    _Bool _dirtyMuteState;
-    _Bool _muted;
-    _Bool _neverMute;
-    int _muteReasons[5];
-    float _hapticStrength;
-    _Atomic _Bool _invalid;
-    _Bool _running;
-    _Bool _stopping;
-    id <_GCIPCIncomingConnection> _connection;
-    id _connectionInvalidationRegistration;
-    id _connectionInterruptedRegistration;
-    double _initializationTime;
-    _Bool _shouldSquareContinuousIntensity;
-    _Bool _complete;
-    _Bool _mockClient;
-    unsigned int _applicationState;
-    int _totalPlayers;
-    unsigned long long _clientID;
-    NSString *_bundleIdentifier;
-    id <NSCopying><NSObject><NSSecureCoding> _identifier;
-    NSString *_persistentControllerIdentifier;
-    NSString *_controllerProductCategory;
-    NSArray *_actuators;
-    NSMutableDictionary *_hapticPlayers;
-    double _activeLifetimeInSeconds;
-    NSArray *_invalidationHandlers;
 }
 
 + (id);
@@ -53,22 +20,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (void);
-- (float);
-- (id);
-- (void);
-- (id);
+- (float)0;
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (double);
 - (id);
 - (void);
@@ -80,6 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,23 +60,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)h	;
+- (id)t;
 - (unsigned int);
 - (void *);
 - (_Bool);
@@ -123,22 +90,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double activeLifetimeInSeconds; // @synthesize activeLifetimeInSeconds=_activeLifetimeInSeconds;
-@property(readonly, copy, nonatomic) NSArray *actuators; // @synthesize actuators=_actuators;
-@property(nonatomic) unsigned int applicationState; // @synthesize applicationState=_applicationState;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) unsigned long long clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(readonly, copy, nonatomic) NSString *controllerProductCategory; // @synthesize controllerProductCategory=_controllerProductCategory;
-@property(copy, nonatomic) NSMutableDictionary *hapticPlayers; // @synthesize hapticPlayers=_hapticPlayers;
-@property(readonly, copy, nonatomic) id <NSCopying><NSObject><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(copy, nonatomic) NSArray *invalidationHandlers; // @synthesize invalidationHandlers=_invalidationHandlers;
-@property(nonatomic, getter=isMockClient) _Bool mockClient; // @synthesize mockClient=_mockClient;
-@property(readonly, copy, nonatomic) NSString *persistentControllerIdentifier; // @synthesize persistentControllerIdentifier=_persistentControllerIdentifier;
-@property(nonatomic) _Bool shouldSquareContinuousIntensity; // @synthesize shouldSquareContinuousIntensity=_shouldSquareContinuousIntensity;
-@property(readonly, nonatomic) double totalLifetimeInSeconds;
-@property(readonly, nonatomic) int totalPlayers; // @synthesize totalPlayers=_totalPlayers;
 
 @end
 

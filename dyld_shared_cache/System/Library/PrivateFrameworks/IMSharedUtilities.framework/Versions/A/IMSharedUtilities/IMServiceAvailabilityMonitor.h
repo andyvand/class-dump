@@ -7,20 +7,16 @@
 @interface IMServiceAvailabilityMonitor
 {
     id mmsEnabled;
-    id rcsEnabled;
-    id mmsToken;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)cancelled;
 - (_Bool)!,CùqL&1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isMMSEnabled;
-@property(nonatomic, readonly) _Bool isRCSEnabled;
 @property(nonatomic, readonly) _Bool isiMessageEnabled;
 
 @end

@@ -4,42 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface NSXPCSharedListener
 {
     NSMutableDictionary *_listeners;
-    NSHashTable *_delegates;
-    void *reserved;
-    struct os_unfair_lock_s lock;
 }
 
-+ (id);
++ (id);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
++ (id)X;
++ (void)	k+;
 + (void);
 + (id);
++ (id);
++ (void);
++ (void);
++ (id)V;
++ (void)*;
++ (void);
 + (void);
 + (id);
++ (void);
++ (id)�;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void));
 - (id);
 - (void);
 - (void);

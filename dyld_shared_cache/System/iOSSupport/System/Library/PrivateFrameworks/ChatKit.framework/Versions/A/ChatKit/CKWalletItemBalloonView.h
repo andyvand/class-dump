@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface CKWalletItemBalloonView : CKLinkBalloonView
 {
     _Bool _pendingPropertyChange;
-    _Bool _isIrisAsset;
-    LPWebLinkPresentationProperties *_presentationProperties;
 }
 
-- (_Bool);
+- (_Bool)ngEnabled;
 - (void);
+- (void)*Somebody** deleted the subfolder;
+- (void)ot a modify operation {container:(id)arg1 %@, operation:%@} /* Error: Ran out of types for this method. */;
+- (id)ying records, canceling dependent operations:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)ps;
+- (void)ShowAllInstalledMessageApps;
 
 // Remaining properties
 @property(retain, nonatomic) LPWebLinkPresentationProperties *presentationProperties; // @synthesize presentationProperties=_presentationProperties;

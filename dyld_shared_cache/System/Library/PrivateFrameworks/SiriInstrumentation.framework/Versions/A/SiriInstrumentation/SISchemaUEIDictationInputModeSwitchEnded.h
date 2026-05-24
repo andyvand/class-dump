@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationInputModeSwitchEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)catchError:onScheduler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)JOIN chat AS c  ON crmj.chat_id = c.ROWID AND c.guid = ?);;
 - (id);
 - (id);
-- (id)ed;
-- (id)cifier;
-- (_Bool)NES_RADIO;
-- (_Bool)AMETER__PLAYMEDIAINTENT__PLAYEDITORIALPLAYLIST__ARTIST;
+- (id)deleteEntityPoolReturned;
+- (id)_hasAssetSpecifier;
+- (_Bool)MEDIATYPE_ITUNES_RADIO;
+- (_Bool)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAYEDITORIALPLAYLIST__ARTIST;
 - (void)£!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

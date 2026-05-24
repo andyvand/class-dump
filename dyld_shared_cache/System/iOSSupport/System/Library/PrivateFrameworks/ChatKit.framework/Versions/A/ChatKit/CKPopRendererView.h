@@ -9,21 +9,11 @@
 @interface CKPopRendererView
 {
     id device;
-    id commandQueue;
-    id renderer;
-    id startTimestamp;
-    id sourceTexture;
-    id isStarted;
-    id isSoundPlayed;
-    id metalLayer;
-    id displayLink;
-    id renderScale;
-    id <CKPopRendererViewDelegate> delegate;
 }
 
 + (double);
-- (void);
-- (_Bool);
+- (void)#;
+- (_Bool)ed to view notes locked with your password.;
 - (struct CGRect);
 - (void);
 - (void);
@@ -33,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)effectWithPreview: /* Error: Ran out of types for this method. */;
 - (void)¼Áªÿ;
 
 // Remaining properties

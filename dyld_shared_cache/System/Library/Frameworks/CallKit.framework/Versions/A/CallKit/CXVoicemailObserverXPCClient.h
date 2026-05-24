@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CXVoicemailObserverXPCClient
 {
     int _notifyToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_mutableVoicemailUUIDToVoicemailMap;
-    NSHashTable *_delegates;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (oneway void);
 - (void);
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
@@ -44,19 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *mutableVoicemailUUIDToVoicemailMap; // @synthesize mutableVoicemailUUIDToVoicemailMap=_mutableVoicemailUUIDToVoicemailMap;
-@property(readonly, nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *voicemailUUIDToVoicemailMap;
 
 @end
 

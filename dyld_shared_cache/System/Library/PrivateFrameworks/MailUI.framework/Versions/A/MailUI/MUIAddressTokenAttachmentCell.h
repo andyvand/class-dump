@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, NSColor;
-
 @interface MUIAddressTokenAttachmentCell
 {
     _Bool _neverShowSeparator;
-    _Bool _isFromAddress;
-    unsigned long long _attachmentCellColor;
-    NSColor *_foregroundColor;
-    long long _businessID;
-    EMCategory *_category;
 }
 
 + (id);
@@ -23,8 +16,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -32,18 +25,13 @@
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void)ant;
+- (void)AXVScrollMenuItem;
+- (void)mui_unemphasizedFontVariant;
 - (void)any matching results.;
-- (id)ders;
+- (id)RemoveFromVipSenders;
 
 // Remaining properties
 @property(nonatomic) unsigned long long attachmentCellColor; // @synthesize attachmentCellColor=_attachmentCellColor;
-@property(nonatomic) long long businessID; // @synthesize businessID=_businessID;
-@property(retain, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(retain, nonatomic) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(nonatomic) _Bool isFromAddress; // @synthesize isFromAddress=_isFromAddress;
-@property _Bool neverShowSeparator; // @synthesize neverShowSeparator=_neverShowSeparator;
 
 @end
 

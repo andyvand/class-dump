@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PFCachingArchiveIndex
 {
     _Bool _loaded;
@@ -19,20 +17,14 @@
 - (id);
 - (_Bool);
 - (unique_ptr_70a5b3c4);
-- (unsigned long long);
-- (const char *);
+- (unsigned long long)setContactIdentifiersByLookupInfo: /* Error: Ran out of types for this method. */;
+- (const char *)ompleteWithError without an error but no response body where one was expected;
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

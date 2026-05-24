@@ -5,37 +5,32 @@
 //
 
 @class CNContactStore;
-@protocol CNLSApplicationWorkspace, CNUIInteractionDonor;
 
 @interface CNUIUserActivityManager
 {
     CNContactStore *_contactStore;
-    id <CNLSApplicationWorkspace> _applicationWorkspace;
-    id <CNUIInteractionDonor> _interactionDonor;
 }
 
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_cancelationToken;
 - (id);
 - (void):8@"<CNUIUserActionListConsumer>"16@"CNContact"24@"NSString"32 /* Error: Ran out of types for this method. */;
 - (id)ardGroupProtocol;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) id <CNUIInteractionDonor> interactionDonor; // @synthesize interactionDonor=_interactionDonor;
 
 @end
 

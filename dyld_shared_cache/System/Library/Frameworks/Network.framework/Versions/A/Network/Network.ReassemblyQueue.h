@@ -7,12 +7,6 @@
 @interface Network.ReassemblyQueue
 {
     id currentOffset;
-    id lastOffset;
-    id availableToDequeue;
-    id size;
-    id finOffset;
-    id headOfLineBlocked;
-    id items;
 }
 
 @end

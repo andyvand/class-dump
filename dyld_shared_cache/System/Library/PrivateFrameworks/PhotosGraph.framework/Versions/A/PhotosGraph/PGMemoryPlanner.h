@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MARelation, NSArray, NSDate, NSMutableDictionary, NSObject, NSSet, PGMemoryElectorConfiguration;
-@protocol OS_os_log;
+@class NSArray, PGMemoryElectorConfiguration;
 
 @interface PGMemoryPlanner
 {
     NSArray *_pastMemories;
-    NSArray *_memoriesToAvoid;
-    NSArray *_futureMemoriesGroupedByTrigger;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSDate *_currentUniversalMemoryDate;
-    NSSet *_similarCategorySets;
-    NSMutableDictionary *_timeDecayScoreByPastMemoryCreationDate;
-    NSMutableDictionary *_maximumTimeDecayScoreByPastMemoryIdentifier;
-    MARelation *_secondaryFeatureOfFeature;
-    NSSet *_similarFeatureSets;
-    PGMemoryElectorConfiguration *_configuration;
 }
 
 + (id);
@@ -33,18 +22,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)"AXFTextRange"16;
+- (id)autorelease;
+- (id)nController;
+- (double)\[;
+- (id)le.AccessibilityKit.AXKScreenDescriber.DelegateQueue;
+- (double)$;
+- (double)5;
+- (double);
+- (double);
 - (double);
 - (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void)Edge Count:%lu

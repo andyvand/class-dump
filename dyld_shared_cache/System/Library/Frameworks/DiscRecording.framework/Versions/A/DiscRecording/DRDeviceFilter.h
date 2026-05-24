@@ -9,14 +9,14 @@
     id _delegate;
 }
 
-+ (id);
++ (id)siriSupportWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)_destinationDesiredPixelBufferColorPrimaries;
+- (id)d access registration on invalid stack ;
+- (void)h;
 - (void);
-- (void);
-- (id);
+- (id)base64EncodedStringWithOptions:(struct _NSZone *)arg1;
 
 @end
 

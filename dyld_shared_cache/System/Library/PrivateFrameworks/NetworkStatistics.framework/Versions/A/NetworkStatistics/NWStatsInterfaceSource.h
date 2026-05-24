@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface NWStatsInterfaceSource
 {
     unsigned int _ifIndex;
-    unsigned long long _srcRef;
-    unsigned long long _threshold;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned int);
-- (id);
-- (void);
+- (id)TRIPersistentUserSettings;
+- (void)_kMDItemRecentOutOfSpotlightEngagementDates;
 - (void);
 - (unsigned long long)or="flags"I}"quic"{nstat_tcp_descriptor="upid"Q"eupid"Q"start_timestamp"Q"timestamp"Q"rx_transfer_size"Q"tx_transfer_size"Q"activity_bitmap"{activity_bitmap="start"Q"bitmap"[2Q]}"ifindex"I"state"I"sndbufsize"I"sndbufused"I"rcvbufsize"I"rcvbufused"I"txunacked"I"txwindow"I"txcwindow"I"traffic_class"I"traffic_mgt_flags"I"pid"I"epid"I"local"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"remote"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"cc_algo"[16c]"pname"[64c]"uuid"[16C]"euuid"[16C]"vuuid"[16C]"fuuid"[16C]"persona_id"I"uid"I""(?="connstatus"{tcp_conn_status=""(?=""{?="probe_activated"b1"write_probe_failed"b1"read_probe_failed"b1"conn_probe_failed"b1}"pad_field"I)}"__pad_connstatus"[4C])"ifnet_properties"I"fallback_mode"C"reserved"[3C]}"conn"{nstat_connection_descriptor="start_timestamp"Q"timestamp"Q"upid"Q"eupid"Q"pid"I"epid"I"ifnet_properties"I"pname"[64c]"uuid"[16C]"euuid"[16C]"cuuid"[16C]"puuid"[16C]"fuuid"[16C]"persona_id"I"uid"I"reserved"[4C]})};
 
 // Remaining properties
-@property unsigned int ifIndex; // @synthesize ifIndex=_ifIndex;
 @property unsigned long long srcRef; // @synthesize srcRef=_srcRef;
-@property unsigned long long threshold; // @synthesize threshold=_threshold;
 
 @end
 

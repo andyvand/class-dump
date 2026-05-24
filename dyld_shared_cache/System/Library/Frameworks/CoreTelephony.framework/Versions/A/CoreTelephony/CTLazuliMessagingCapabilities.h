@@ -7,25 +7,23 @@
 @interface CTLazuliMessagingCapabilities
 {
     _Bool _supportsComposingIndicator;
-    long long _notificationDisplay;
 }
 
-+ (_Bool);
++ (_Bool)ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_handleConnectionResult:(id)arg1 uuid:proxyId:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long notificationDisplay; // @synthesize notificationDisplay=_notificationDisplay;
-@property(nonatomic) _Bool supportsComposingIndicator; // @synthesize supportsComposingIndicator=_supportsComposingIndicator;
 
 @end
 

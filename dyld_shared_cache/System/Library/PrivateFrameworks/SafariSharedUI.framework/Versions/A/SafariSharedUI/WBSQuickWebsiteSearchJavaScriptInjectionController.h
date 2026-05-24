@@ -13,7 +13,7 @@
     void delegate;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);

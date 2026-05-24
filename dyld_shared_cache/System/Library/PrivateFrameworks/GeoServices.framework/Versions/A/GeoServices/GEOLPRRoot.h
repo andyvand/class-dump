@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLPRRoot
 {
     PBDataReader *_reader;
-    NSMutableDictionary *_powerTypes;
-    NSMutableArray *_regions;
-    NSMutableDictionary *_vehicleTypes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_4ca0835f _flags;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool);
++ (Class)rypt pronoun, invalid base64 string supplied;
++ (Class)ices.framework/Contents/MacOS/RunningBoardServices;
++ (_Bool)setHasSectionId:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,38 +24,36 @@
 - (void);
 - (id);
 - (id);
+- (void)initRequiringSecureCoding:(CDUnknownBlockType)arg1;
+- (void)indexSectionsFromPropertyList:(CDUnknownBlockType)arg1;
+- (void)_cn_indexOfFirstObjectPassingTest: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)com.apple.mobile.keybagd.first_unlock;
+- (unsigned long long)CNDefaultsFilteredAccountsAndContainersKey;
+- (void)protocol;
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)16@?0@"NSData"8;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id):(struct _NSZone *)arg1;
-- (id)gAsBusinessSortOrder: /* Error: Ran out of types for this method. */;
+- (id)setMiscFieldsInDirectionsRequest:(struct _NSZone *)arg1;
+- (id)StringAsBusinessSortOrder: /* Error: Ran out of types for this method. */;
 - (id)rect for 180Â° course swing by modifying course accuracy. Last good location timestamp:%0.1f, course:%0.1fÂ°, accuracy:Â±%0.1fÂ°. Current location timestamp:%0.1f, course:%0.1fÂ°, accuracy:Â±%0.1fÂ° /* Error: Ran out of types for this method. */;
 - (id)hÀ;
 - (unsigned long long)ËFçrI@;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *powerTypes;
 @property(retain, nonatomic) NSMutableArray *regions;
-@property(retain, nonatomic) NSMutableDictionary *vehicleTypes;
 
 @end
 

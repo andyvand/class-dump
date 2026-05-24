@@ -7,16 +7,10 @@
 @interface ConversationKit.InCallControlsTitleCell
 {
     id summaryLabel;
-    id titleLabel;
-    id videoHeaderIcon;
-    id joinCountdownButton;
-    id messagesButton;
-    id buttonStackView;
-    id delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

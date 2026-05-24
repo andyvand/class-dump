@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICannyEdgeDetector : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputGaussianSigma;
-    NSNumber *inputPerceptual;
-    NSNumber *inputThresholdHigh;
-    NSNumber *inputThresholdLow;
-    NSNumber *inputHysteresisPasses;
 }
 
 + (id);
@@ -35,12 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)`i_p`iavh||~~~~ivtv~~~~~h}}pywzgoktUjdutvu{uz{}auvxqqqqiiiiddddQc\d]f_iYjcnkpjv_og}zu}n|yoonoO`Xhttttvhut{VpmxuuszhzyvvtvR]Qiemfszx|}XheoSTKT-@0D7C4KJ]VisNkf{Se^s||||{{{{bjcoff_fPaVgajaujpitvvvvuuuuRdZmLbXowzw~{¥¥¥¥H\Qitrmt;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputGaussianSigma; // @synthesize inputGaussianSigma;
-@property(retain, nonatomic) NSNumber *inputHysteresisPasses; // @synthesize inputHysteresisPasses;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputPerceptual; // @synthesize inputPerceptual;
-@property(retain, nonatomic) NSNumber *inputThresholdHigh; // @synthesize inputThresholdHigh;
-@property(retain, nonatomic) NSNumber *inputThresholdLow; // @synthesize inputThresholdLow;
 
 @end
 

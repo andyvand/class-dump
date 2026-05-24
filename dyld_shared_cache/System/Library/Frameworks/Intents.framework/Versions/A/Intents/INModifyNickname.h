@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface INModifyNickname
 {
     NSString *_targetNickname;
-    NSNumber *_isRemoval;
 }
 
 + (id);
@@ -17,26 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_sourceTouchedThreshold;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)cancelAuthorizationProxCardHandler;
+- (void);    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusout', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:(id)arg1 true}); }); await p; return p;;
 - (id);
 - (id);
-- (id)eueLocations;
-- (void)sCollectionForControlHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)clearPayloadPlaybackQueueLocations;
+- (void)provideTimeOptionsCollectionForControlHome:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)Æ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isRemoval; // @synthesize isRemoval=_isRemoval;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *targetNickname; // @synthesize targetNickname=_targetNickname;
 
 @end

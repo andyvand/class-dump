@@ -15,7 +15,7 @@
 - (double);
 - (id);
 - (float);
-- (unsigned long long);
+- (unsigned long long)_omit;
 
 @end
 

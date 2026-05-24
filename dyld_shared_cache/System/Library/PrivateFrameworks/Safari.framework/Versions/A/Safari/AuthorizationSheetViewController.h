@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class InlineAuthorizationViewController, NSButton, NSView;
-@protocol AuthorizationSheetViewControllerDelegate;
+@class InlineAuthorizationViewController, NSView;
 
 __attribute__((visibility("hidden")))
 @interface AuthorizationSheetViewController
 {
     InlineAuthorizationViewController *_inlineAuthorizationViewController;
-    id <AuthorizationSheetViewControllerDelegate> _delegate;
-    NSView *_authorizationView;
-    NSButton *_cancelButton;
-    NSButton *_unlockButton;
 }
 
 - (id);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ion flow for handle:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)áA!ä@ù±¢ð1Â0@ù
 × ;
@@ -37,10 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSView *authorizationView; // @synthesize authorizationView=_authorizationView;
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak id <AuthorizationSheetViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) InlineAuthorizationViewController *inlineAuthorizationViewController; // @synthesize inlineAuthorizationViewController=_inlineAuthorizationViewController;
-@property(nonatomic) __weak NSButton *unlockButton; // @synthesize unlockButton=_unlockButton;
 
 @end
 

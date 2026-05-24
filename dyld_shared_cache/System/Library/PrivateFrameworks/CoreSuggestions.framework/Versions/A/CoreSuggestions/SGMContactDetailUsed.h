@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) PETScalarEventTracker *tracker; // @synthesize tracker=_tracker;

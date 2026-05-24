@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFullScreenEffect, NSMutableArray;
+@class CKFullScreenEffect;
 
 @interface CKMomentCollectionViewCell
 {
     CKFullScreenEffect *_effect;
-    NSMutableArray *_effectViews;
 }
 
 + (id);
-- (void);
+- (void)commonMetadata;
 - (id);
+- (void)rrently authenticating;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)ct.;
 - (void)d;
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKFullScreenEffect *effect; // @synthesize effect=_effect;
-@property(retain, nonatomic) NSMutableArray *effectViews; // @synthesize effectViews=_effectViews;
 
 @end
 

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Coalescing TCP Conn [%llu] may go into %@;
+- (_Bool)r;
+- (_Bool)nection in addInputHandler;
 - (id);
 - (void);
 - (_Bool)É;

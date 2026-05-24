@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol _UISceneHostingSheetPresentationHostProviding
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setTargetViewController:) __weak UIViewController *_targetViewController;

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)etectorElement.scannerResult;
 + (void);
 - (id);
 

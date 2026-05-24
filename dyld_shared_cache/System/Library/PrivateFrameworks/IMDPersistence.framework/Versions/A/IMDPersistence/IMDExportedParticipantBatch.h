@@ -6,27 +6,25 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedParticipantBatch : IMDExportedRecordBatch
 {
     void batchIterationKeys;
-    void records;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)control:(id)arg1 textShouldBeginEditing: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void).balloon_bundle_id IS NULL OR m.balloon_bundle_id != 'com.apple.messages.chatbot') ORDER BY a.ROWID LIMIT ? ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *batchIterationKeys;
-@property(nonatomic, readonly) NSArray *records;
 
 @end
 

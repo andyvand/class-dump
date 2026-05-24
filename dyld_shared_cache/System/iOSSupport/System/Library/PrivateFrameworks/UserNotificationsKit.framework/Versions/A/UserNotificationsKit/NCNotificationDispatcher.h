@@ -4,80 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NCLayoutLoopDetector, NCNotificationAlertQueue, NCNotificationDestinationsRegistry, NCNotificationSystemSettings, NSHashTable, NSMutableDictionary, NSString;
-@protocol NCAlertingController, NCNotificationDispatcherDelegate;
+@class NCNotificationAlertQueue, NCNotificationDestinationsRegistry;
+@protocol NCNotificationDispatcherDelegate;
 
 @interface NCNotificationDispatcher
 {
     id <NCNotificationDispatcherDelegate> _delegate;
     NCNotificationDestinationsRegistry *_destinationsRegistry;
-    NCNotificationAlertQueue *_alertQueue;
-    NSMutableDictionary *_sectionSettings;
-    NSHashTable *_sourceDelegates;
-    NCLayoutLoopDetector *_layoutDetector;
-    NCNotificationSystemSettings *_notificationSystemSettings;
-    id <NCAlertingController> _alertingController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)OfClass:(id)arg1 [NSString class]];
+- (void)?0@"LNPropertyMetadata"8;
+- (void)there were no matching interactions found;
+- (void)raction or condition not handled.;
+- (void)State.m;
+- (void)HMCharacteristicMetadataFormatUInt64;
+- (void)HMCharacteristicMetadataFormatUInt32;
+- (void)HomeCharacteristic;
+- (void)@:(id)arg1;
+- (void)ed;
+- (id)n.m;
+- (id)nvoke;
+- (void)richtext;
+- (id)yncFlagsIfNecessaryWithCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)ssistant;
+- (id)indOfClass:[LNAction class]] /* Error: Ran out of types for this method. */;
+- (void)esenter showWebPage:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)entedContentForRunningContext:(id)arg1 completionHandler:(id)arg2 ]_block_invoke;
+- (void)gContext:(id)arg1 completionHandler:(id)arg2 ];
+- (void)UIPresenter applicationWillLaunchInForegroundForRunningContext:(id)arg1 isLastAction:(_Bool)arg2 ];
+- (void)aunchInForegroundForRunningContext:(id)arg1 isLastAction:(_Bool)arg2 ]_block_invoke;
+- (void)ution:(id)arg1 runningContext:(id)arg2 ];
+- (void)enter updateAttribution:(id)arg1 runningContext:(_Bool)arg2 ]_block_invoke;
+- (void)showDialogRequest:(id)arg1 runningContext:(_Bool)arg2 completionHandler:(id)arg3 ];
+- (void)quest:(id)arg1 runningContext:(_Bool)arg2 completionHandler:(id)arg3 ]_block_invoke;
+- (void)ke;
+- (void)andler:(id)arg1 ]_block_invoke;
+- (void)Presenter completePersistentModeWithSuccess:(id)arg1 runningContext:(_Bool)arg2 completionHandler:(id)arg3 ]_block_invoke;
+- (void)deWithRunningContext:(id)arg1 attribution:(id)arg2 completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)lowKit.ShortcutsViewService;
+- (void)eterStateFromLinkValue:(id)arg1 ];
+- (void)self->_alert != nil;
+- (void)ework/IntentsCore;
+- (id)INCLocalExtensionRegistry;
+- (void).bundled-intent;
+- (void)bile(void);
+- (void)CNLabelPhoneNumberiPhone;
+- (void)ring *getCNLabelPhoneNumberiPhone(void);
+- (void)RBSRequestErrorDomain;
+- (id)eExecutionStopRequest readMessageFromData:error:] /* Error: Ran out of types for this method. */;
+- (void)open action can determine control flow;
+- (void)tions:(id)arg1 ];
+- (void)leState.m;
+- (void)void)_block_invoke;
+- (void)erateFileRepresentation:(id)arg1 options:(CDUnknownBlockType)arg2 forType:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void).item;
+- (void)NSString"24@?0@"LNContentType"8Q16;
+- (_Bool)_block_invoke;
+- (void)e;
+- (void)ppUsageResultCoercionHandler]_block_invoke;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)WFApp;
+- (_Bool)AppUsageResultAppEntity;
+- (id)ContactEntity;
+- (void)MailMessageEntity;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setLatestError:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -90,20 +84,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) NCNotificationAlertQueue *alertQueue; // @synthesize alertQueue=_alertQueue;
-@property(retain, nonatomic) id <NCAlertingController> alertingController; // @synthesize alertingController=_alertingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NCNotificationDispatcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NCNotificationDestinationsRegistry *destinationsRegistry; // @synthesize destinationsRegistry=_destinationsRegistry;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NCLayoutLoopDetector *layoutDetector; // @synthesize layoutDetector=_layoutDetector;
-@property(retain, nonatomic) NCNotificationSystemSettings *notificationSystemSettings; // @synthesize notificationSystemSettings=_notificationSystemSettings;
-@property(retain, nonatomic) NSMutableDictionary *sectionSettings; // @synthesize sectionSettings=_sectionSettings;
-@property(retain, nonatomic) NSHashTable *sourceDelegates; // @synthesize sourceDelegates=_sourceDelegates;
-@property(readonly) Class superclass;
 
 @end
 

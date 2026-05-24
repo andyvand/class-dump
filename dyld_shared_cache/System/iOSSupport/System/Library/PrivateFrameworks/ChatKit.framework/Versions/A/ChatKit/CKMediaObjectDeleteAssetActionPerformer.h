@@ -11,14 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)closestAncestor;
++ (id)ICCalculateDocumentControllerDidUpdateDocument;
++ (id)?
+;
 + (_Bool);
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

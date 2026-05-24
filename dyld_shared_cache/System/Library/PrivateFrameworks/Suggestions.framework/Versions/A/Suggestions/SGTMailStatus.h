@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface SGTMailStatus
 {
     NSArray *names;
-    NSString *menuName;
-    NSString *imageName;
-    NSString *spotlightAttribute;
-    NSImage *statusImage;
-    long long statusType;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)(;
+- (id)@;
 - (long long);
-- (void);
+- (void)avingForThisDocument;
 
 // Remaining properties
 @property(readonly) NSString *displayName;
-@property(readonly) NSString *menuName; // @synthesize menuName;
-@property(readonly) NSString *spotlightAttribute; // @synthesize spotlightAttribute;
-@property(readonly) NSImage *statusImage;
-@property(readonly) long long statusType; // @synthesize statusType;
 
 @end
 

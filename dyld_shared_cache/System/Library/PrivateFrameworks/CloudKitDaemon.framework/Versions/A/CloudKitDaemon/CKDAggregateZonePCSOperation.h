@@ -6,40 +6,28 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDPCSKeySyncCoreAnalytics, CKRecordZone, CKRecordZoneID, NSArray, NSError, NSMutableDictionary;
-
 @interface CKDAggregateZonePCSOperation : CKDDatabaseOperation
 {
     _Bool _isHandlingRetryableError;
-    _Bool _needsSynchronizeSigningIdentities;
-    _Bool _didSynchronizeSigningIdentities;
-    NSArray *_sourceZoneIDs;
-    CKRecordZone *_targetZone;
-    NSMutableDictionary *_zonePCSDataByZoneID;
-    NSError *_currentError;
-    long long _numZoneSaveAttempts;
-    long long _maxZoneSaveAttempts;
-    CKRecordZoneID *_zoneWaitingOnKeyRegistrySync;
-    CKDPCSKeySyncCoreAnalytics *_keySyncAnalytics;
 }
 
-+ (id);
++ (id)setRoamStatus_FailedNotFound_Count_WhileTDWait:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)g;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -50,10 +38,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)gedHandler;
 - (id);
 - (long long);
-- (void);
+- (void)7;
 - (void);
 - (_Bool);
 - (id);
@@ -62,23 +50,12 @@
 - (void);
 - (int);
 - (id);
-- (void);
-- (void)Access: /* Error: Ran out of types for this method. */;
+- (void)%@ reply:%s error:%@ /* Error: Ran out of types for this method. */;
+- (void)setBlockedAccess: /* Error: Ran out of types for this method. */;
 - (void)uldn't serialize zone update PCS for share %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSError *currentError; // @synthesize currentError=_currentError;
-@property(nonatomic) _Bool didSynchronizeSigningIdentities; // @synthesize didSynchronizeSigningIdentities=_didSynchronizeSigningIdentities;
-@property _Bool isHandlingRetryableError; // @synthesize isHandlingRetryableError=_isHandlingRetryableError;
-@property(retain, nonatomic) CKDPCSKeySyncCoreAnalytics *keySyncAnalytics; // @synthesize keySyncAnalytics=_keySyncAnalytics;
-@property(nonatomic) long long maxZoneSaveAttempts; // @synthesize maxZoneSaveAttempts=_maxZoneSaveAttempts;
-@property(nonatomic) _Bool needsSynchronizeSigningIdentities; // @synthesize needsSynchronizeSigningIdentities=_needsSynchronizeSigningIdentities;
-@property(nonatomic) long long numZoneSaveAttempts; // @synthesize numZoneSaveAttempts=_numZoneSaveAttempts;
-@property(retain, nonatomic) NSArray *sourceZoneIDs; // @synthesize sourceZoneIDs=_sourceZoneIDs;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) CKRecordZone *targetZone; // @synthesize targetZone=_targetZone;
-@property(retain, nonatomic) NSMutableDictionary *zonePCSDataByZoneID; // @synthesize zonePCSDataByZoneID=_zonePCSDataByZoneID;
-@property(retain, nonatomic) CKRecordZoneID *zoneWaitingOnKeyRegistrySync; // @synthesize zoneWaitingOnKeyRegistrySync=_zoneWaitingOnKeyRegistrySync;
 
 @end
 

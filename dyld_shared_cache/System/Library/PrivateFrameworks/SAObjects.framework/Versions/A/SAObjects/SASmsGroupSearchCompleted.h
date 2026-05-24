@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SASmsGroupSearchCompleted : SABaseCommand
 {
@@ -18,19 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
 @property(copy, nonatomic) NSArray *smsGroups;
-@property(readonly) Class superclass;
 
 @end
 

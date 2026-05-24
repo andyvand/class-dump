@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class NSDate, NSNumber, NSString, NSUUID;
+@class NSNumber, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKModel : HMDManagedObject
@@ -35,33 +35,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id)clearIncidents;
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id)rip;
+- (long long)avigationListener waypoints updated %{private}@;
+- (id)MSPUGCTimeIntervalToCacheBAACertificatesForRAPRequestsKey;
+- (_Bool)SharedTripVirtualReceiver;
+- (_Bool)Stopped;
+- (void)om.apple.mapspushd.ETAReceivingTransaction;
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void)pdateSetting:forKeyPath: /* Error: Ran out of types for this method. */;
+- (void)didUpdateSetting:forKeyPath: /* Error: Ran out of types for this method. */;
 - (id)e; not updating current access mode;
 - (void)th error:%@ /* Error: Ran out of types for this method. */;
-- (void)Enabled;
+- (void)sharingFaceClassificationsEnabled;
 - (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFake) _Bool fake;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(readonly, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
 @property(copy, nonatomic) NSUUID *primitiveFlags; // @dynamic primitiveFlags;
-@property(readonly, nonatomic) _Bool shouldSkipValidationDuringImport;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

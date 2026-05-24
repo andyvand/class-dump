@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)kConditionalConnectionRequirementDuetPreClearedMode;
 + (id)CoreDuet:launchLikelihoodForTopNApplications /* Error: Ran out of types for this method. */;
 
 @end

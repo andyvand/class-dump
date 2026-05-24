@@ -9,7 +9,6 @@
 @interface PXStoryPassthroughSongsProducer
 {
     unsigned long long logContext;
-    PXStorySongsConfiguration *_songsConfiguration;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void)tionUpdated;
+- (void)_keyAssetSelectionUpdated;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long logContext; // @synthesize logContext;
 @property(readonly, nonatomic) PXStorySongsConfiguration *songsConfiguration; // @synthesize songsConfiguration=_songsConfiguration;
 
 @end

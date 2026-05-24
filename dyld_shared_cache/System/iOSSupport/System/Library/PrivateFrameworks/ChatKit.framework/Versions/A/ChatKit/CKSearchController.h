@@ -4,80 +4,73 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKQLPreviewControllerDataSource, CKQueryController, NSArray, NSString;
-@protocol CKSearchControllerDelegate;
+@class CKQueryController;
 
 @interface CKSearchController
 {
     _Bool _suppressAvatars;
-    id <CKSearchControllerDelegate> _delegate;
-    CKQueryController *_queryController;
-    unsigned long long _mode;
-    CKQLPreviewControllerDataSource *_qlPreviewDataSource;
-    unsigned long long _headerButtonMode;
-    NSString *_currentSearchText;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id);
++ (id);
++ (id)e;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)ange;
++ (id)%@ %@>;
 + (Class);
 + (id);
 + (id);
 + (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)textStorage:didProcessEditing:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (_Bool)textRangeForSearchRange:inSearchableString: /* Error: Ran out of types for this method. */;
+- (void)shouldPresentSwitchToDevicePasswordPromptForAccount:(id)arg1;
+- (_Bool)initialAttachmentPreviewDidLoad:(id)arg1;
+- (void)ic_imageFromColor:(_Bool)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)folderItemIdentifiersToParentFolderItemIdentifier;
+- (void)folderForIdentifier:(id)arg1;
+- (void)collaborationController:(unsigned long long)arg1 presentExportViewForAttachment:window: /* Error: Ran out of types for this method. */;
+- (void)attachmentPreviewImagesDidUpdate:(id)arg1;
+- (id)_lockedObjectsInSource;
+- (void)_linkName;
+- (id)_leadingConstraint;
+- (void)_isDisplayingParticipantMatch;
+- (void)_highlightPatternRegexFinder;
+- (void)_accountsOfModernSourceObjects;
+- (void)dow;
+- (void)&,N,V_url;
+- (id)initWithWindow:(id)arg1;
+- (id)T@"NSClickGestureRecognizer",R,N,V_clickGestureRecognizer;
+- (id)initWithFormat:(id)arg1;
+- (id)initWithCMTime:(id)arg1;
+- (unsigned long long)tributedString",R,N,V_marker;
+- (id)imageViewBottomLayoutConstraint;
+- (id)ICTTTextStorage;
+- (id)%&;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (Class)XP;
 - (unsigned long long);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (Class);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (Class);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (struct NSDirectionalEdgeInsets);
+- (void)u;
+- (struct NSDirectionalEdgeInsets)g share:%@, account ID = %@, attemptNumber = %@ /* Error: Ran out of types for this method. */;
+- (id)ationController updatePendingInvitationsInAccountWithID:(id)arg1 receivedSince:] /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool)Link;
+- (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (double);
@@ -90,17 +83,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(copy, nonatomic) NSString *currentSearchText; // @synthesize currentSearchText=_currentSearchText;
-@property(nonatomic) __weak id <CKSearchControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasMoreResults;
-@property(nonatomic) unsigned long long headerButtonMode; // @synthesize headerButtonMode=_headerButtonMode;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) CKQLPreviewControllerDataSource *qlPreviewDataSource; // @synthesize qlPreviewDataSource=_qlPreviewDataSource;
-@property(readonly, nonatomic) unsigned long long queriedResultsCount;
 @property(retain, nonatomic) CKQueryController *queryController; // @synthesize queryController=_queryController;
-@property(readonly, nonatomic) NSArray *results;
-@property(nonatomic) _Bool suppressAvatars; // @synthesize suppressAvatars=_suppressAvatars;
 
 @end
 

@@ -15,14 +15,14 @@
 
 + (double);
 + (double)%llu;
-- (id);
+- (id)control:textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (void)arrangedObjects;
+- (void)ICAttachmentBrickView;
+- (void)ICAudioController;
+- (void)SizeCategoryLimitModifier;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)lection:(long long)arg1;
+- (id)appMenuSendLaterMessagesIconForTraitCollection:(long long)arg1;
 - (void)¹ëi$é;
 
 // Remaining properties

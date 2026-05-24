@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSBusinessCategoryCache, CLSLocationCache, NSArray, NSObject, NSString;
-@protocol GEOMapServiceBatchSpatialLookupTicket, OS_os_log;
+@class CLSLocationCache, NSArray;
 
 @interface CLSBusinessItemGenericQueryPerformer
 {
     CLSLocationCache *_locationCache;
-    CLSBusinessCategoryCache *_businessCategoryCache;
-    _Bool _isCancelled;
-    NSArray *_locationGeoParameters;
-    id <GEOMapServiceBatchSpatialLookupTicket> _businessGenericTicket;
-    NSArray *_regions;
-    double _precision;
-    NSObject<OS_os_log> *_loggingConnection;
-    CDStruct_95c2efd7 _statistics;
 }
 
 + (id);
@@ -26,7 +17,7 @@
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)|>;
 - (void);
 - (id);
 - (id);
@@ -37,32 +28,17 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_95c2efd7);
+- (CDStruct_889e84b8);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)p;
 - (double);
 - (id);
 - (id)>16@?<v@?B@"NSError"@"<CLSQueryProtocol>">24;
 
 // Remaining properties
-@property(readonly, nonatomic) CLSBusinessCategoryCache *businessCategoryCache; // @synthesize businessCategoryCache=_businessCategoryCache;
-@property(readonly, nonatomic) id <GEOMapServiceBatchSpatialLookupTicket> businessGenericTicket; // @synthesize businessGenericTicket=_businessGenericTicket;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) CLSLocationCache *locationCache; // @synthesize locationCache=_locationCache;
 @property(readonly, nonatomic) NSArray *locationGeoParameters; // @synthesize locationGeoParameters=_locationGeoParameters;
-@property(nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(nonatomic) double precision; // @synthesize precision=_precision;
-@property(readonly, copy, nonatomic) NSArray *regions; // @synthesize regions=_regions;
-@property(nonatomic) CDStruct_95c2efd7 statistics; // @synthesize statistics=_statistics;
-@property(readonly) Class superclass;
 
 @end
 

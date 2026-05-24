@@ -4,72 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMHomeManager, HMMediaSystem, HMMediaSystemRole, HMUser, NSArray, NSDictionary, NSMutableDictionary, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUHomeKitManager
 {
     int _homeKitPrefsNotifyToken;
-    HMHomeManager *_homeManager;
-    _Bool _homeManagerDidUpdateHomes;
-    NSMutableDictionary *_homes;
-    NSMutableDictionary *_resolvableAccessoriesMap;
-    _Bool _selfAccessoryEnabled;
-    NSUUID *_selfAccessoryRoomID;
-    _Bool _selfAccessoryMediaAccessEnabled;
-    _Bool _selfAccessoryMediaSystemEnabled;
-    _Bool _selfAccessorySiriAccessEnabled;
-    HMUser *_selfAccessoryUser;
-    NSMutableDictionary *_users;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    _Bool _selfAccessorySiriEnabled;
-    unsigned int _flags;
-    unsigned int _state;
-    unsigned int _selfAccessoryMediaAccessFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _stateChangedHandler;
-    NSArray *_resolvableAccessories;
-    CDUnknownBlockType _resolvableAccessoriesChangedHandler;
-    HMAccessory *_selfAccessory;
-    NSDictionary *_selfAccessoryAppData;
-    CDUnknownBlockType _selfAccessoryAppDataChangedHandler;
-    CDUnknownBlockType _selfAccessoryUpdatedHandler;
-    NSString *_selfAccessoryMediaAccessPassword;
-    CDUnknownBlockType _selfAccessoryMediaAccessUpdatedHandler;
-    HMMediaSystem *_selfAccessoryMediaSystem;
-    HMAccessory *_selfAccessoryMediaSystemCounterpart;
-    NSString *_selfAccessoryMediaSystemName;
-    HMMediaSystemRole *_selfAccessoryMediaSystemRole;
-    CDUnknownBlockType _selfAccessoryMediaSystemUpdatedHandler;
-    CDUnknownBlockType _selfAccessorySiriAccessUpdatedHandler;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)minSecondsBetweenRetriesUnderMemoryPressure;
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)g};
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)setBeneficiaryPassword: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)evice list cache information;
+- (void)AKAuthorizationIsEligibleForUpgradeFromPassword;
 - (void);
 - (void);
 - (void);
@@ -78,10 +41,10 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
@@ -99,77 +62,48 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)FanOut;
+- (id);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
+- (id)R;
+- (void);
+- (void);
+- (void)q(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)@;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)Tl;
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void)rI12mecab_node_t12mecab_path_tEE;
 - (void);
+- (void)4;
+- (void)existsInKeychain:(id)arg1 path:(id)arg2;
+- (void)_caSerialNumber;
 - (void);
+- (void)t;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)erDecodeErrorDidOccur:error: /* Error: Ran out of types for this method. */;
+- (void)audioPlayerDecodeErrorDidOccur:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSArray *resolvableAccessories; // @synthesize resolvableAccessories=_resolvableAccessories;
-@property(copy, nonatomic) CDUnknownBlockType resolvableAccessoriesChangedHandler; // @synthesize resolvableAccessoriesChangedHandler=_resolvableAccessoriesChangedHandler;
-@property(readonly, nonatomic) HMAccessory *selfAccessory; // @synthesize selfAccessory=_selfAccessory;
-@property(readonly, copy, nonatomic) NSDictionary *selfAccessoryAppData; // @synthesize selfAccessoryAppData=_selfAccessoryAppData;
-@property(copy, nonatomic) CDUnknownBlockType selfAccessoryAppDataChangedHandler; // @synthesize selfAccessoryAppDataChangedHandler=_selfAccessoryAppDataChangedHandler;
-@property(readonly, nonatomic) unsigned int selfAccessoryMediaAccessFlags; // @synthesize selfAccessoryMediaAccessFlags=_selfAccessoryMediaAccessFlags;
-@property(readonly, copy, nonatomic) NSString *selfAccessoryMediaAccessPassword; // @synthesize selfAccessoryMediaAccessPassword=_selfAccessoryMediaAccessPassword;
-@property(copy, nonatomic) CDUnknownBlockType selfAccessoryMediaAccessUpdatedHandler; // @synthesize selfAccessoryMediaAccessUpdatedHandler=_selfAccessoryMediaAccessUpdatedHandler;
-@property(readonly, nonatomic) HMMediaSystem *selfAccessoryMediaSystem; // @synthesize selfAccessoryMediaSystem=_selfAccessoryMediaSystem;
-@property(readonly, nonatomic) HMAccessory *selfAccessoryMediaSystemCounterpart; // @synthesize selfAccessoryMediaSystemCounterpart=_selfAccessoryMediaSystemCounterpart;
-@property(copy, nonatomic) NSString *selfAccessoryMediaSystemName; // @synthesize selfAccessoryMediaSystemName=_selfAccessoryMediaSystemName;
-@property(readonly, nonatomic) HMMediaSystemRole *selfAccessoryMediaSystemRole; // @synthesize selfAccessoryMediaSystemRole=_selfAccessoryMediaSystemRole;
-@property(copy, nonatomic) CDUnknownBlockType selfAccessoryMediaSystemUpdatedHandler; // @synthesize selfAccessoryMediaSystemUpdatedHandler=_selfAccessoryMediaSystemUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType selfAccessorySiriAccessUpdatedHandler; // @synthesize selfAccessorySiriAccessUpdatedHandler=_selfAccessorySiriAccessUpdatedHandler;
-@property(readonly, nonatomic) _Bool selfAccessorySiriEnabled; // @synthesize selfAccessorySiriEnabled=_selfAccessorySiriEnabled;
-@property(copy, nonatomic) CDUnknownBlockType selfAccessoryUpdatedHandler; // @synthesize selfAccessoryUpdatedHandler=_selfAccessoryUpdatedHandler;
-@property(readonly, nonatomic) unsigned int state; // @synthesize state=_state;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedHandler; // @synthesize stateChangedHandler=_stateChangedHandler;
-@property(readonly) Class superclass;
 
 @end
 

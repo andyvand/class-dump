@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (id);

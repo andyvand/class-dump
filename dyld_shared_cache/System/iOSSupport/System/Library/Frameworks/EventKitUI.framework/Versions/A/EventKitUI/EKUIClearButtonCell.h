@@ -6,22 +6,20 @@
 
 #import <EventKitUI/EKUITableViewCell.h>
 
-@class NSArray, UIButton, UIListContentView;
+@class UIButton, UIListContentView;
 
 @interface EKUIClearButtonCell : EKUITableViewCell
 {
     UIListContentView *_listContentView;
-    NSArray *_constraints;
-    UIButton *_clearButton;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ing";
+- (id);
 - (id);
-- (id);
-- (void)Fits;
+- (void)stringForDateThatFits;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *clearButton; // @synthesize clearButton=_clearButton;

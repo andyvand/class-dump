@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAccountDataSecurityObserver, CKDLogicalDeviceScopedStateManager, CKDMetadataCache, CKDOperationInfoCache, CKDThrottleManager, CKDTokenRegistrationScheduler, CKSQLiteDatabase, NSHashTable, NSObject, NSString, NSURL;
-@protocol CKDTestDeviceProtocol, CKDTestServerProtocol, CKTestDeviceReferenceProtocol, OS_dispatch_queue;
+@class CKDAccountDataSecurityObserver;
+@protocol CKDTestServerProtocol;
 
 @interface CKDLogicalDeviceContext
 {
     id <CKDTestServerProtocol> _testServer;
-    CKDMetadataCache *_metadataCache;
-    CKDOperationInfoCache *_operationInfoCache;
-    CKDThrottleManager *_throttleManager;
-    CKDLogicalDeviceScopedStateManager *_deviceScopedStateManager;
-    CKDTokenRegistrationScheduler *_tokenRegistrationScheduler;
-    CKDAccountDataSecurityObserver *_accountDataSecurityObserver;
-    id <CKTestDeviceReferenceProtocol> _testDeviceReference;
-    NSHashTable *_sharedPcsCaches;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
 + (id);
@@ -30,21 +21,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ctionaryRef, CFTypeRef *);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
-- (long long);
-- (_Bool);
+- (long long)setCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)system log while file logging is configured;
 - (id);
 - (void);
 - (void);
+- (void)excludedPeerIDs;
 - (void);
-- (void);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (id);
@@ -57,29 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKDAccountDataSecurityObserver *accountDataSecurityObserver; // @synthesize accountDataSecurityObserver=_accountDataSecurityObserver;
-@property(readonly, nonatomic) NSURL *cacheDirectory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CKSQLiteDatabase *deviceScopedDatabase;
-@property(readonly, nonatomic) __weak CKDLogicalDeviceScopedStateManager *deviceScopedStateManager; // @synthesize deviceScopedStateManager=_deviceScopedStateManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDetachedTestServerReference;
-@property(readonly, nonatomic) _Bool isLiveDevice;
-@property(readonly, nonatomic) CKDMetadataCache *metadataCache; // @synthesize metadataCache=_metadataCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) CKDOperationInfoCache *operationInfoCache; // @synthesize operationInfoCache=_operationInfoCache;
-@property(readonly, nonatomic) long long pushBehavior;
-@property(retain, nonatomic) NSHashTable *sharedPcsCaches; // @synthesize sharedPcsCaches=_sharedPcsCaches;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCaching;
-@property(readonly, nonatomic) id <CKDTestDeviceProtocol> testDevice;
-@property(readonly) id <CKTestDeviceReferenceProtocol> testDeviceReference; // @synthesize testDeviceReference=_testDeviceReference;
-@property(readonly, nonatomic) id <CKDTestServerProtocol> testServer; // @synthesize testServer=_testServer;
-@property(readonly, nonatomic) CKDThrottleManager *throttleManager; // @synthesize throttleManager=_throttleManager;
-@property(readonly, nonatomic) CKDTokenRegistrationScheduler *tokenRegistrationScheduler; // @synthesize tokenRegistrationScheduler=_tokenRegistrationScheduler;
 
 @end
 

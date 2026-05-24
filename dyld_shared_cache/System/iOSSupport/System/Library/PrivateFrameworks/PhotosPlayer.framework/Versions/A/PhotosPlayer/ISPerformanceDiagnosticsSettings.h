@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (_Bool);
-- (void);
+- (_Bool)_fixLayoutOffsets;
+- (void)_dynamicAnimator;
 - (void);
 
 // Remaining properties

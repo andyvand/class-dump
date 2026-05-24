@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUISizeCache, TLKRichText;
+@class TLKRichText;
 
 __attribute__((visibility("hidden")))
 @interface TLKLabelItem
 {
     unsigned long long row;
-    double horizontalHuggingPriority;
-    double horizontalCompressionResistance;
-    NUISizeCache *sizeCache;
-    TLKRichText *_richText;
-    struct _NSRange columnRange;
-    struct CGRect frame;
 }
 
 + (void);
 + (double);
-+ (id);
++ (id)P;
 + (void);
 - (struct CGSize);
 - (id);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (struct _NSRange);
-- (void);
+- (void);
 - (double);
 - (void);
 - (_Bool);
@@ -37,10 +31,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (float);
 - (float);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)D\;
+- (id);
+- (id)syncedAttachmentCount;
+- (id)4;
 - (unsigned long long);
 - (struct CGRect);
 - (void);
@@ -48,20 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange columnRange; // @synthesize columnRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect frame; // @synthesize frame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalCompressionResistance; // @synthesize horizontalCompressionResistance;
-@property(nonatomic) double horizontalHuggingPriority; // @synthesize horizontalHuggingPriority;
 @property(retain, nonatomic) TLKRichText *richText; // @synthesize richText=_richText;
-@property(nonatomic) unsigned long long row; // @synthesize row;
-@property(retain, nonatomic) NUISizeCache *sizeCache; // @synthesize sizeCache;
-@property(readonly) Class superclass;
 
 @end
 

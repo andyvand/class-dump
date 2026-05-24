@@ -7,48 +7,6 @@
 @interface Speech.RequestEndMetrics
 {
     id recognizerComponents;
-    id averageActiveTokensPerFrame;
-    id languageModelInterpolationWeights;
-    id signalToNoiseRatioInDecibels;
-    id recognitionDuration;
-    id audioDurationMs;
-    id eagerUsed;
-    id utteranceDetectionEnabled;
-    id utteranceConcatenationEnabled;
-    id continuousListeningEnabled;
-    id cpuRealTimeFactor;
-    id numLmeDataStreams;
-    id phoneticMatchDecoderName;
-    id allItnRunIntervals;
-    id pauseDurations;
-    id itnDurationInNs;
-    id totalITNDurationInNs;
-    id totalITNRuns;
-    id isEmojiPersonalizationUsed;
-    id isEmojiDisambiguationUsed;
-    id isEmojiExpectedButNotRecognized;
-    id recognizedEmojis;
-    id loggedResultPackage;
-    id pmInput;
-    id pmOutput;
-    id cpuInstructionsInMillionsPerSecond;
-    id aneUsed;
-    id jitLmeUsed;
-    id aotLmeUsed;
-    id jitLmeRecognized;
-    id aotLmeRecognized;
-    id numContextualEmbeddings;
-    id responseTime;
-    id modelLoadTime;
-    id ttfw;
-    id cpuRtf;
-    id jitLmeProcessingTime;
-    id asrInitializationTime;
-    id rescoringEvents;
-    id rescoringOriginalTranscript;
-    id rescoringModifiedTranscript;
-    id rescoringResultDurationInSeconds;
-    id rescoringFinalizeDurationInSeconds;
 }
 
 @end

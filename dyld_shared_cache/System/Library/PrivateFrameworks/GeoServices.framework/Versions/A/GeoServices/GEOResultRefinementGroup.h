@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRefinementSessionState, GEOResultRefinementBar, GEOResultRefinementView;
+@class GEOResultRefinementBar;
 
 @interface GEOResultRefinementGroup
 {
     GEOResultRefinementBar *_resultRefinementBar;
-    GEOResultRefinementView *_resultRefinementView;
-    GEOPDRefinementSessionState *_refinementSessionState;
 }
 
 - (void);
@@ -19,14 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)canSetValueForProperty:(id)arg1;
+- (id)callFallbackAlternateName;
 - (void)7àñ>P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDRefinementSessionState *refinementSessionState; // @synthesize refinementSessionState=_refinementSessionState;
 @property(retain, nonatomic) GEOResultRefinementBar *resultRefinementBar; // @synthesize resultRefinementBar=_resultRefinementBar;
-@property(retain, nonatomic) GEOResultRefinementView *resultRefinementView; // @synthesize resultRefinementView=_resultRefinementView;
 
 @end
 

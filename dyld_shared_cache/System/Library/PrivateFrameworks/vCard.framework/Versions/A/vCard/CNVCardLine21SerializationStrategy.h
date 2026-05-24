@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)SeasonRange;
+- (void)P;
 
 @end
 

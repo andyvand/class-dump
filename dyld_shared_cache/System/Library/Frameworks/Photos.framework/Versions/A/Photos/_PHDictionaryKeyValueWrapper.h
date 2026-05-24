@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectID, NSMutableSet, NSSet;
+@class NSDictionary, NSManagedObjectID;
 
 @interface _PHDictionaryKeyValueWrapper
 {
     NSDictionary *_fetchedPropertyNamesByEntityName;
-    NSMutableSet *_missingPropertyNames;
-    NSManagedObjectID *_objectID;
-    NSDictionary *_dictionary;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)_loadSavedAccounts;
 - (id);
-- (id);
-- (id);
-- (void)Connection;
+- (id)unregisterInterestedEventNotifications: /* Error: Ran out of types for this method. */;
+- (void)_clientConnection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSSet *missingPropertyNames;
 @property(readonly, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
 
 @end

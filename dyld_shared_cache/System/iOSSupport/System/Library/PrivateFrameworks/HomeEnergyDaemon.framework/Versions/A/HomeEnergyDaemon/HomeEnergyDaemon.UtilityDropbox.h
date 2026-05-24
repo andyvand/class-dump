@@ -8,12 +8,6 @@
 {
     id $defaultActor;
     id isExecuting;
-    id isDropboxDisabled;
-    id isForceDropboxRefreshEnabled;
-    id isTokenErrorInducerEnabled;
-    id isAggressivePollingEnabled;
-    id isCKTokenOneHourExpirationEnabled;
-    id tokenErrorInducerValue;
 }
 
 @end

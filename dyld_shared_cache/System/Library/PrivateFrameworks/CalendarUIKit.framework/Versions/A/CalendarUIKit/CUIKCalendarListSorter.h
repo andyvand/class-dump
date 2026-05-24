@@ -8,9 +8,9 @@
 {
 }
 
-+ (long long)Ë¨ø;
-+ (CDUnknownBlockType)©ý;
-+ (CDUnknownBlockType)£;
++ (long long);
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 
 @end

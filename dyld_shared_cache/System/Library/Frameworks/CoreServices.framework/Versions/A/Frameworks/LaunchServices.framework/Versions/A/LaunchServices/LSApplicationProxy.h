@@ -6,13 +6,11 @@
 
 #import <LaunchServices/LSBundleProxy.h>
 
-@class LSApplicationRecord, NSArray;
+@class LSApplicationRecord;
 
 @interface LSApplicationProxy : LSBundleProxy
 {
     LSApplicationRecord *_record;
-    NSArray *_plugInKitPlugins;
-    _Bool _userInitiatedUninstall;
 }
 
 @end

@@ -4,41 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDaemonRequestTimer, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSPhoneCertificateVendor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    IDSPhoneCertificateVendor *_strongSelfReference;
-    IDSDaemonRequestTimer *_daemonRequestTimer;
 }
 
-- (id);
+- (id);
 - (long long);
 - (void);
+- (long long)`;
+- (void);
+- (id);
+- (id)browser_handleConnectivityHelperEventInternal;
+- (id);
+- (id)Lk;
+- (void);
+- (id);
+- (id)a;
+- (id);
+- (void);
+- (void)iled due to invalid operation flags.;
+- (void)uest;
+- (void);
+- (void);
+- (void)_;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
@@ -46,16 +44,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSDaemonRequestTimer *daemonRequestTimer; // @synthesize daemonRequestTimer=_daemonRequestTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) IDSPhoneCertificateVendor *strongSelfReference; // @synthesize strongSelfReference=_strongSelfReference;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURLResponse, NSURLSessionTask;
-@protocol OS_dispatch_data, OS_dispatch_queue, __NSCFURLSessionConnectionDelegate;
+@class NSURLSessionTask;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFURLSessionConnection
 {
     NSURLSessionTask *_task;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <__NSCFURLSessionConnectionDelegate> _delegate;
-    _Bool _isFromCache;
-    NSURLResponse *_cacheResponse;
-    NSObject<OS_dispatch_data> *_cacheData;
-    unsigned long long _cacheDataMax;
-    long long _maxCacheEntrySize;
 }
 
+- (void)hatafqamats28;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void)åùÿ;
 - (void);
 - (void)úß;
 - (void)2Vo;
-- (void);
-- (void)y;
+- (void)6Hd;
+- (void)6_y;
 - (void)./1;
 - (id)20G;
 

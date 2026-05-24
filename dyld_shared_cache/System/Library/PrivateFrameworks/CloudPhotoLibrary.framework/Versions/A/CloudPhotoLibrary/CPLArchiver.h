@@ -4,43 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CPLArchiver
 {
     id _archive;
-    id _archiveCursor;
-    id _rootObject;
-    NSMutableArray *_context;
-    CDUnknownFunctionPointerType _pushContext;
-    CDUnknownFunctionPointerType _popContext;
-    _Bool _unarchiving;
-    _Bool _forDisplay;
 }
 
-+ (id);
-+ (id);
++ (id));
++ (id)iority UNSIGNED INT NOT NULL,
+  retry_count SMALLINT NOT NULL,
+  next_retry_date INTEGER NOT NULL,
+  last_error_date INTEGER NOT NULL,
+  last_error BLOB NULL,
+  domain_wide_error INT NOT NULL
+);
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)ÐðâEùñª1\íò0
-ÁÚð;;
++ (id)(=;
 + (id);
 + (id);
-+ (id);
++ (id)a;
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)?;
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGRect);
@@ -48,26 +46,25 @@
 - (void);
 - (struct CGPoint);
 - (id);
-- (id)à@ùB§àª@§ý{E©ôOD©öWC©ÿÿ_ÖB©àªÒ#ÕÿÑé#môO©ý{©ýÃ@ùô;
-- (_Bool)1\íò0
-ÁÚð+;
-- (void)à;
 - (id);
-- (const char *)ÁÚ¨Áð£©àªñö;
+- (_Bool);
+- (void);
+- (id);
+- (const char *)C�`;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void *);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (_Bool);
 - (int);
@@ -75,8 +72,8 @@
 × ;
 - (void);
 - (long long)oreUserIdentifier>";
-- (_Bool)ier:(id)arg1;
-- (double)ype;
+- (_Bool)setParentScopedIdentifier:(id)arg1;
+- (double)_subtype;
 - (long long)n place;
 - (id)ive batches from transport;
 - (int)contains changes for the same record twice:(id)arg1 %@ vs. %@;
@@ -89,9 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id archiveCursor; // @synthesize archiveCursor=_archiveCursor;
 @property(readonly, nonatomic) NSString *archiverContext;
-@property(readonly, nonatomic) _Bool forDisplay; // @synthesize forDisplay=_forDisplay;
 
 @end
 

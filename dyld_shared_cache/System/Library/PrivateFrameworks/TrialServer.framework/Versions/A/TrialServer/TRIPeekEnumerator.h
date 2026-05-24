@@ -9,10 +9,9 @@
 @interface TRIPeekEnumerator
 {
     NSEnumerator *_underlyingEnum;
-    id _peek;
 }
 
-- (id);
+- (id)quickTimeMetadataCinematicVideoRendering;
 - (id);
 - (id);
 - (void)a×ð!Ä@ù1!1Â0@ù

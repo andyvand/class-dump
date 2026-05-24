@@ -9,23 +9,21 @@
 @interface HMAccessoryInfoWifiInfo
 {
     NSString *_macAddress;
-    NSString *_networkSSID;
 }
 
+- (id)0;
 - (id);
+- (id);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (void)unarchiving;
 
 // Remaining properties
 @property(readonly) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(readonly) NSString *networkSSID; // @synthesize networkSSID=_networkSSID;
 
 @end
 

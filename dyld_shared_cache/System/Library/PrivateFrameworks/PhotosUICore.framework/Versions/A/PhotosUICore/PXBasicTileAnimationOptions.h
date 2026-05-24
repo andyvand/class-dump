@@ -7,11 +7,6 @@
 @interface PXBasicTileAnimationOptions
 {
     _Bool _shouldNotifyTiles;
-    _Bool _shouldSnapshotDynamicContents;
-    double _delay;
-    double _duration;
-    long long _style;
-    unsigned long long _flags;
 }
 
 + (id);
@@ -21,23 +16,19 @@
 - (void);
 - (long long);
 - (id);
-- (double);
+- (double)_p;
 - (void);
 - (id);
 - (double);
-- (void);
-- (id)nterval:(struct _NSZone *)arg1 repeats:block: /* Error: Ran out of types for this method. */;
-- (unsigned long long)tory;
+- (void)Scalar:(long long)arg1 %f
+;
+- (id)initWithFireDate:(struct _NSZone *)arg1 interval:repeats:block: /* Error: Ran out of types for this method. */;
+- (unsigned long long)PXMemoryAssetsActionFactory;
 - (void)Ä-;
 - (void)5îÿïLh?;
 
 // Remaining properties
 @property(nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) _Bool shouldNotifyTiles; // @synthesize shouldNotifyTiles=_shouldNotifyTiles;
-@property(nonatomic) _Bool shouldSnapshotDynamicContents; // @synthesize shouldSnapshotDynamicContents=_shouldSnapshotDynamicContents;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

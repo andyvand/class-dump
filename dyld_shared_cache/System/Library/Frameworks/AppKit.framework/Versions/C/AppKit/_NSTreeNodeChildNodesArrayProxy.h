@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void));
+- (void)m parameter OID;
+- (id)DisplayPort;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ot an actual effective configuration:(id)arg1 %@;
 
 @end
 

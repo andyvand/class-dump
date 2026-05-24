@@ -7,22 +7,20 @@
 @interface CUTWeakReference
 {
     id _object;
-    unsigned long long _objectAddress;
 }
 
 + (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)N;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;
-@property(nonatomic) unsigned long long objectAddress; // @synthesize objectAddress=_objectAddress;
 
 @end
 

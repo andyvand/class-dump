@@ -9,8 +9,6 @@
 @interface MPSectionedIdentifierListPosition
 {
     NSString *_sectionIdentifier;
-    NSString *_itemIdentifier;
-    long long _entryType;
 }
 
 + (id);
@@ -21,16 +19,14 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)setUsesPredominantAxisScrolling: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_signaturesListWidth;
 - (void);
-- (void)s;
+- (void)_preloadedSessions;
 - (id)NO;
 
 // Remaining properties
-@property(readonly, nonatomic) long long entryType; // @synthesize entryType=_entryType;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 @property(readonly, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end

@@ -14,26 +14,26 @@ __attribute__((visibility("hidden")))
     NSFont *_originalFont;
 }
 
++ (id)ring cookie since it's expired. Ignoring cookie and deleting from store if exists. Cookie = %@;
++ (id)_canHandleRequest;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)2x1;
 - (Class);
 - (void);
-- (void);
+- (void)'\;
 - (id);
+- (_Bool)setStoragePartitionIdentifier:(id)arg1;
+- (id)FHTTPAuthenticationParseHeader():No scheme or not expecting base64 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (id)?@;
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void)d %@;
 - (void)q²J;
 
 @end

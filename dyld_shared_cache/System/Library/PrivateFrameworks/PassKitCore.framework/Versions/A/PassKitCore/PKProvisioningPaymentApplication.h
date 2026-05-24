@@ -9,21 +9,17 @@
 @interface PKProvisioningPaymentApplication
 {
     NSString *_appletTypeIdentifier;
-    unsigned long long _paymentType;
-    NSString *_applicationIdentifier;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id)hAccount:orientation:completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)ntMethodSubtype;
+- (id)presentPeerPaymentTermsAndConditionsWithAccount:orientation:completion: /* Error: Ran out of types for this method. */;
+- (id)isPaymentPassActivationAvailable;
+- (void)paymentMethodSubtype;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *appletTypeIdentifier; // @synthesize appletTypeIdentifier=_appletTypeIdentifier;
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, nonatomic) unsigned long long paymentType; // @synthesize paymentType=_paymentType;
 
 @end
 

@@ -16,8 +16,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (long long)nType:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)I;
+- (long long)setSystemAuthenticationType:resultHandler: /* Error: Ran out of types for this method. */;
 - (long long)å-´4âqÿÕ-´Èãqÿ;
 - (void).aÿ;
 

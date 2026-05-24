@@ -13,7 +13,7 @@
 }
 
 + (Class);
-- (id);
+- (id)View;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *locationMobilityTypes;

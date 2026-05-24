@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBColor, _SFPBRichText;
+@class NSData, _SFPBColor;
 
 @protocol _SFPBColorBarCardSection
+- (void)categoryIdentifier;
+- (NSData *)PHAssetSceneprintProperties;
+- (_SFPBColor *);
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBColor *barColor;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(retain, nonatomic) _SFPBRichText *topText;
 @end
 

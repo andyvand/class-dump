@@ -10,7 +10,7 @@
 {
 }
 
-- (id)te_enum_stmt__free_unpacked;
+- (id)pg_query__create_enum_stmt__free_unpacked;
 
 @end
 

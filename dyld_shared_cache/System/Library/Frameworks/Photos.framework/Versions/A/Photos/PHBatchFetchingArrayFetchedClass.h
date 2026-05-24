@@ -7,19 +7,17 @@
 @interface PHBatchFetchingArrayFetchedClass
 {
     Class _fetchedPropertySetClass;
-    Class _fetchedObjectClass;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (Class);
+- (Class)B;
 - (Class);
 - (void)olationQueue;
 
 // Remaining properties
-@property(retain) Class fetchedObjectClass; // @synthesize fetchedObjectClass=_fetchedObjectClass;
 @property(retain) Class fetchedPropertySetClass; // @synthesize fetchedPropertySetClass=_fetchedPropertySetClass;
 
 @end

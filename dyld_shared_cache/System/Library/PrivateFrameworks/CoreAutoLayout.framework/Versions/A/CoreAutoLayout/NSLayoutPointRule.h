@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutPoint, NSString;
+@class NSLayoutPoint;
 
 @interface NSLayoutPointRule
 {
     NSLayoutPoint *_firstLayoutPoint;
-    NSLayoutPoint *_secondLayoutPoint;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MLFeatureValueConstraint;
 - (id);
-- (unsigned long long);
+- (unsigned long long)c ;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSLayoutPoint *firstLayoutPoint; // @synthesize firstLayoutPoint=_firstLayoutPoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly, copy) NSLayoutPoint *secondLayoutPoint; // @synthesize secondLayoutPoint=_secondLayoutPoint;
-@property(readonly) Class superclass;
 
 @end
 

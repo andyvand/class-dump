@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DRSTaskingEventSubscriber
 {
     unsigned long long _token;
-    NSString *_teamID;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)B;
 - (id)ionary value;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 @property(readonly, nonatomic) unsigned long long token; // @synthesize token=_token;
 
 @end

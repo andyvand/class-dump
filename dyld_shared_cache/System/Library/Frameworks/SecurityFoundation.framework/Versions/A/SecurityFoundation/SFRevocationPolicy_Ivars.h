@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SFRevocationPolicy_Ivars
 {
     unsigned long long revocationMethods;
-    long long networkLookup;
 }
 
 @end

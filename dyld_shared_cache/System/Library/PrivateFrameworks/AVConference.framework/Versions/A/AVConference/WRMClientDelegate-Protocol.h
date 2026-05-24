@@ -5,5 +5,7 @@
 //
 
 @protocol WRMClientDelegate
+- (void)?;
+- (void);
 @end
 

@@ -9,7 +9,6 @@
 @interface KGNeighborRelation
 {
     KGEdgeFilter *_edgeFilter;
-    unsigned long long _edgeDirection;
 }
 
 - (id);
@@ -19,10 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Verifying tracked applications;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long edgeDirection; // @synthesize edgeDirection=_edgeDirection;
 @property(readonly, nonatomic) KGEdgeFilter *edgeFilter; // @synthesize edgeFilter=_edgeFilter;
 
 @end

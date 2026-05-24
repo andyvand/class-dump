@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SANPSetRepeatMode : SADomainCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(copy, nonatomic) NSString *repeatMode;
 
 @end
 

@@ -9,14 +9,13 @@
 @interface WBSCRDTGeneration
 {
     NSString *_deviceIdentifier;
-    unsigned long long _generation;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)amework/Versions/A/AuthKitUI;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) _Bool isValid;
 
 @end
 

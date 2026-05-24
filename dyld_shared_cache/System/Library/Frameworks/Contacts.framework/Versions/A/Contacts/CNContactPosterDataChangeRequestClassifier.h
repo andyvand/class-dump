@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface CNContactPosterDataChangeRequestClassifier
 {
     NSMutableArray *_createRequests;
-    NSMutableArray *_updateRequests;
-    NSMutableArray *_deleteRequests;
 }
 
-+ (id);
++ (id);
 - (void);
-- (void);
+- (void)F;
 - (void);
 - (void);
 - (id);
@@ -26,15 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *createRequests; // @synthesize createRequests=_createRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSArray *deleteRequests; // @synthesize deleteRequests=_deleteRequests;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *updateRequests; // @synthesize updateRequests=_updateRequests;
 
 @end
 

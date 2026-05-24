@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRExternalDevice, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPAVRouteConnection
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _invalidated;
-    MRExternalDevice *_externalDevice;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -29,22 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`B;
 - (_Bool);
 - (void *);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
-- (void)MISSING__;
+- (void)"JM;
+- (void)__MPModelPropertyFileAssetHLSKeyServerProtocol__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic, getter=isConnecting) _Bool connecting;
 @property(readonly, nonatomic) void *externalDevice; // @dynamic externalDevice;
-@property(readonly, nonatomic) MRExternalDevice *externalDeviceObject;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

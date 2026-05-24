@@ -7,6 +7,7 @@
 @interface __UIKitAccessibility
 {
     struct CGRect __CGRect__;
+    id;
 }
 
 @end

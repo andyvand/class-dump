@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface NBStateController
 {
     NSXPCConnection *_serviceConnection;
-    NSLock *_connectionLock;
 }
 
-+ (id);
++ (id)k/Versions/A/AVFoundation;
 - (void);
 - (void);
 - (void);
@@ -22,14 +21,13 @@
 - (void);
 - (void);
 - (id);
+- (id)op monitoring Routine.;
 - (id);
-- (id);
-- (id);
+- (id)5;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSLock *connectionLock; // @synthesize connectionLock=_connectionLock;
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
 
 @end

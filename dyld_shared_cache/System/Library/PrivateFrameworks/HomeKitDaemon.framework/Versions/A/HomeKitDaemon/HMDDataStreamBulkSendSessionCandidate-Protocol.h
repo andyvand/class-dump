@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol HMDDataStreamBulkSendSessionCandidate
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *metadata;

@@ -7,21 +7,6 @@
 @interface ConversationKit.ConversationPresentationStateProvider
 {
     id audioVideoModeSubject;
-    id callDisplayStatusSubject;
-    id isSendingVideoSubject;
-    id isMutedSubject;
-    id callDisplayInfoSubject;
-    id callDurationStringSubject;
-    id imageSubject;
-    id isOneToOneModeEnabledSubject;
-    id heldCallDisplayNameSubject;
-    id isEmergency;
-    id contactsByHandleSubject;
-    id ignoreLetMeInRequestsSubject;
-    id isRTTCallSubject;
-    id shouldShowRTTUpgradeSubject;
-    id unknownHandlesBlockedSubject;
-    id stateManager;
 }
 
 @end

@@ -7,12 +7,6 @@
 @interface WiFiChannel
 {
     _Bool _is2_4GHz;
-    _Bool _is5GHz;
-    _Bool _is6GHz;
-    _Bool _isDFS;
-    _Bool _extensionChannelAbove;
-    unsigned int _channelNumber;
-    long long _bandwidth;
 }
 
 + (_Bool);
@@ -22,7 +16,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)i;
 - (id);
 - (_Bool);
 - (id);
@@ -32,13 +26,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bandwidth; // @synthesize bandwidth=_bandwidth;
-@property(readonly, nonatomic) unsigned int channelNumber; // @synthesize channelNumber=_channelNumber;
 @property(readonly, nonatomic) _Bool extensionChannelAbove; // @synthesize extensionChannelAbove=_extensionChannelAbove;
-@property(readonly, nonatomic) _Bool is2_4GHz; // @synthesize is2_4GHz=_is2_4GHz;
-@property(readonly, nonatomic) _Bool is5GHz; // @synthesize is5GHz=_is5GHz;
-@property(readonly, nonatomic) _Bool is6GHz; // @synthesize is6GHz=_is6GHz;
-@property(readonly, nonatomic) _Bool isDFS; // @synthesize isDFS=_isDFS;
 
 @end
 

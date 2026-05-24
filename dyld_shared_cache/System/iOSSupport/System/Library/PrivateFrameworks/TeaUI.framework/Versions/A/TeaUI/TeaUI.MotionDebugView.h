@@ -7,13 +7,12 @@
 @interface TeaUI.MotionDebugView
 {
     id label;
-    id labelBackgroundView;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)nameImageScaleFactor;
+- (void);
+- (id)setTappedClickValueBaseline:(struct CGRect)arg1;
 - (void);
 - (void)øÿÿ;
 

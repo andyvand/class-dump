@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGGraphMomentNodeCollection;
-
 @protocol PGGraphMemoryProtocol
+- (_Bool)AXFUIElement"16;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool generatedWithFallbackRequirements;
 @property(readonly, nonatomic) unsigned long long memoryCategory;
-@property(readonly, nonatomic) unsigned long long memoryCategorySubcategory;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *memoryMomentNodes;
 @end
 

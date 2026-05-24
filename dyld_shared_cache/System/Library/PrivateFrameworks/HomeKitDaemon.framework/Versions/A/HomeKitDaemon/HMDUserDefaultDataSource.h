@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
+@class NSNotificationCenter;
 
 @interface HMDUserDefaultDataSource
 {
@@ -20,8 +20,6 @@
 - (id)vpC;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fmfDeviceName;
-@property(nonatomic, readonly) _Bool isThisDeviceDesignatedFMFDevice;
 @property(nonatomic, readonly) NSNotificationCenter *notificationCenter;
 
 @end

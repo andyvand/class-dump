@@ -4,42 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSObject, NSPersistentStoreCoordinator, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface _KSTextReplacementCoreDataStore
 {
     NSObject<OS_dispatch_queue> *_queueMOC;
-    NSObject<OS_dispatch_queue> *_queuePSC;
-    NSString *_directoryPath;
-    NSManagedObjectContext *_managedObjectContext;
-    NSManagedObjectModel *_managedObjectModel;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void),V_searchController;
 - (_Bool);
-- (_Bool);
+- (_Bool)setExcludeRelationships:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)VarUI4FromI4;
+- (id)ion.minor;
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool)l;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,13 +43,10 @@
 - (id)@ù
 × ;
 - (id)ve state:%@ /* Error: Ran out of types for this method. */;
-- (id)tNegativeLearning;
+- (id)KSUserWordSortNegativeLearning;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *directoryPath; // @synthesize directoryPath=_directoryPath;
-@property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(retain, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
 
 @end
 

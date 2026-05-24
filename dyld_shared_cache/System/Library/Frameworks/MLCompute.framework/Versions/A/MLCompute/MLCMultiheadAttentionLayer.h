@@ -6,20 +6,15 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCMultiheadAttentionDescriptor, NSArray;
+@class MLCMultiheadAttentionDescriptor;
 
 @interface MLCMultiheadAttentionLayer : MLCLayer
 {
     MLCMultiheadAttentionDescriptor *_descriptor;
-    NSArray *_weights;
-    NSArray *_biases;
-    NSArray *_attentionBiases;
-    NSArray *_weightsParameters;
-    NSArray *_biasesParameters;
 }
 
 + (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (id);
@@ -35,17 +30,12 @@
 - (id);
 - (id);
 - (id);
+- (id)ka%;
 - (id);
-- (id);
-- (void);
+- (void)threadExecutionWidth;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *attentionBiases; // @synthesize attentionBiases=_attentionBiases;
-@property(readonly, retain, nonatomic) NSArray *biases; // @synthesize biases=_biases;
-@property(readonly, retain, nonatomic) NSArray *biasesParameters; // @synthesize biasesParameters=_biasesParameters;
 @property(readonly, copy, nonatomic) MLCMultiheadAttentionDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, retain, nonatomic) NSArray *weights; // @synthesize weights=_weights;
-@property(readonly, retain, nonatomic) NSArray *weightsParameters; // @synthesize weightsParameters=_weightsParameters;
 
 @end
 

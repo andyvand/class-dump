@@ -4,44 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMiniCard, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTrafficCamera
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_identifier;
-    GEOMiniCard *_infoCard;
-    GEOLatLng *_position;
-    NSString *_speedLimitText;
-    double _speedThreshold;
-    GEOMiniCard *_speedingCard;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _cameraPriority;
-    unsigned int _countryCodeStyleId;
-    unsigned int _highlightDistance;
-    int _type;
-    struct {
-        unsigned int has_speedThreshold:1;
-        unsigned int has_cameraPriority:1;
-        unsigned int has_countryCodeStyleId:1;
-        unsigned int has_highlightDistance:1;
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_identifier:1;
-        unsigned int read_infoCard:1;
-        unsigned int read_position:1;
-        unsigned int read_speedLimitText:1;
-        unsigned int read_speedingCard:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ookupCorrections:(id)arg1;
++ (_Bool)setMerchantLookupCorrections:(id)arg1;
 - (id);
-- (double);
+- (double)C;
 - (id);
 - (void);
 - (void);
@@ -58,23 +30,23 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)2@40@48;
+- (_Bool)setBirthdayYearless: /* Error: Ran out of types for this method. */;
+- (_Bool)readWriteSharingACL;
+- (_Bool)insertContactIntoStore:configuration: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithConcurrencyType: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)te Exchange endpoint:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)B ;
+- (void);
 - (void);
 - (id);
+- (void)hasRemoteCoreSpeech;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -84,41 +56,21 @@
 - (void);
 - (void);
 - (id)all"b1"has_isInternalTool"b1"read_unknownFields"b1"read_deviceHwIdentifier"b1"read_deviceOsVersion"b1"wrote_anyField"b1};
-- (void)t;
-- (id)ex;
+- (void)originalsCount;
+- (id)hasSystemIndex;
 - (id)e",R,N,V_serverDisplayETA;
 - (int)ivisionCode;
-- (id)RPFeedbackIdLookupResult;
+- (id)GEORPFeedbackIdLookupResult;
 - (_Bool)4Th ;
-- (id)ts;
+- (id)supports_guidance_events;
 - (void);
 - (id)ÿÿ;
 - (_Bool)Û0;
-- (void)__baseIFvRK11_GEOTileKeyRKN3geo13_geo_weak_ptrIU8__strongP11GEOTileDataEEdmEEE;
+- (void)NSt3__110__function6__baseIFvRK11_GEOTileKeyRKN3geo13_geo_weak_ptrIU8__strongP11GEOTileDataEEdmEEE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int cameraPriority;
-@property(nonatomic) unsigned int countryCodeStyleId;
-@property(nonatomic) _Bool hasCameraPriority;
-@property(nonatomic) _Bool hasCountryCodeStyleId;
-@property(nonatomic) _Bool hasHighlightDistance;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasInfoCard;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasSpeedLimitText;
-@property(nonatomic) _Bool hasSpeedThreshold;
-@property(readonly, nonatomic) _Bool hasSpeedingCard;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int highlightDistance;
-@property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) GEOMiniCard *infoCard;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(retain, nonatomic) NSString *speedLimitText;
-@property(nonatomic) double speedThreshold;
-@property(retain, nonatomic) GEOMiniCard *speedingCard;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

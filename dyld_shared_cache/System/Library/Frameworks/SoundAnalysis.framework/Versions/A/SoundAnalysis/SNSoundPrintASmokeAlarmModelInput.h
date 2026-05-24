@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNSoundPrintASmokeAlarmModelInput
 {
     MLMultiArray *_input1;
-    MLMultiArray *_stateIn;
-    MLMultiArray *_thresholdedHistoryIn;
-    MLMultiArray *_detectedHistoryIn;
 }
 
 - (id);
@@ -22,18 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)4rúÿXrúÿrúÿ¸rúÿsúÿPsúÿsúÿèsúÿhtúÿ¤túÿÈtúÿuúÿ$uúÿTuúÿxuúÿ´uúÿØuúÿ$vúÿHvúÿlvúÿ vúÿÜvúÿ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *detectedHistoryIn; // @synthesize detectedHistoryIn=_detectedHistoryIn;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *input1; // @synthesize input1=_input1;
-@property(retain, nonatomic) MLMultiArray *stateIn; // @synthesize stateIn=_stateIn;
-@property(retain, nonatomic) MLMultiArray *thresholdedHistoryIn; // @synthesize thresholdedHistoryIn=_thresholdedHistoryIn;
 
 @end
 

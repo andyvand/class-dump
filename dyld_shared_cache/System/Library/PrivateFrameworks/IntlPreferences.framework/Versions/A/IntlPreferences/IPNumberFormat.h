@@ -9,15 +9,13 @@
 @interface IPNumberFormat
 {
     NSString *_formattedNumber;
-    NSString *_decimalSeparator;
-    NSString *_groupingSeparator;
 }
 
 + (id);
 + (id);
 + (void)í;
-- (id);
-- (id);
+- (id)bufferIndex;
+- (id)allowsTranslation;
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *decimalSeparator; // @synthesize decimalSeparator=_decimalSeparator;
-@property(readonly, nonatomic) NSString *formattedNumber; // @synthesize formattedNumber=_formattedNumber;
-@property(readonly, nonatomic) NSString *groupingSeparator; // @synthesize groupingSeparator=_groupingSeparator;
 
 @end
 

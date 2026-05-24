@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIStoryboardPreviewingSegueTemplateStorage, UIView, UIViewController;
+@class UIViewController;
 @protocol UIViewControllerPreviewing;
 
 __attribute__((visibility("hidden")))
 @interface UIStoryboardPreviewingRegistrant
 {
     id <UIViewControllerPreviewing> _previewingContext;
-    UIStoryboardPreviewingSegueTemplateStorage *_segueTemplateStorage;
-    UIViewController *_viewController;
-    UIView *_sourceView;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)acceptMomentShareWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)asDarkUIAppearance;
-- (void)pActionRegion;
+- (id);
+- (id)_maxDescriptorCount;
+- (void);
+- (void)hasDarkUIAppearance;
+- (void)tapActionRegion;
 - (id)ted orientations has no common orientation with the application, and [%@ shouldAutorotate] is returning YES;
 - (void)(½b;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

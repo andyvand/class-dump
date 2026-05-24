@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDCategory
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_eventCategoryId;
-    NSMutableArray *_localizedNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _level;
-    struct {
-        unsigned int has_level:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_eventCategoryId:1;
-        unsigned int read_localizedNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
++ (Class)phologyPronoun"8;
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool)wFieldName:(id)arg1;
++ (_Bool)setHasWorkflowFieldName:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -41,35 +27,30 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)ft/libswiftMetal.dylib;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)guageCode;
+- (void)itoring];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id)rResponseFeedback";
-- (id);
+- (id)_cacheRoad: /* Error: Ran out of types for this method. */;
 - (id)dÔÈA´ÀØÜA´èêðA´´ðB´¬õ0B´¤ødB´¸ZxB´p\B´^ B´Ü_´B´üæÈB´¨ïÜB´°ôôB´¨÷C´ì$C´¤8C´üLC´ô,xC´Ü- C´°.´C´ÌøC´D´L D´4D´ÈHD´\D´@pD´;
-- (id)IKEABLE_SIDE_LEFT;
+- (id)BIKEABLE_SIDE_LEFT;
 - (void);
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *eventCategoryId;
-@property(readonly, nonatomic) _Bool hasEventCategoryId;
 @property(nonatomic) _Bool hasLevel;
-@property(nonatomic) int level;
-@property(retain, nonatomic) NSMutableArray *localizedNames;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,14 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification;
+@class NSArray, NSNotification;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (NSArray *)ewController;
+- (NSArray *)needsInlineEditButton;
+- (void);
+- (void)g;
 - (void)AVCaptureDevice";
-- (void)dUpdate:(NSNotification *)arg1;
-- (_Bool)dowBecameKey;
+- (void)recordingOutputTimerDidUpdate:(NSNotification *)arg1;
+- (_Bool)clientWindowBecameKey;
 - (void)SExtensionContext",R,&;
 - (void)stopInAppBroadcastWithHandler:(NSNotification *)arg1 withHandler: /* Error: Ran out of types for this method. */;
 - (struct CGSize)on to replayd invalidated;

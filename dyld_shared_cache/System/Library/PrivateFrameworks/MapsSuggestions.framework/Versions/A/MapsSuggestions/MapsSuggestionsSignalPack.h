@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 - (_Bool);
@@ -21,15 +21,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 - (id);
 - (unsigned long long);
 - (void)OEnhancedPlacement"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)FromBundleID: /* Error: Ran out of types for this method. */;
+- (id)canLearnFromBundleID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

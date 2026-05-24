@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, INWorkoutCustomization, NSArray, NSNumber, NSString;
+@class INSpeakableString;
 
 @interface INStartWorkoutIntent : INIntent
 {
@@ -16,22 +16,6 @@
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSArray *associatedItems;
-@property(copy) INWorkoutCustomization *customization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *goalValue;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *isBuiltInWorkoutType;
-@property(readonly, copy) NSNumber *isOpenEnded;
-@property(copy) NSNumber *isVoiceOnly;
-@property long long sequenceLabel;
-@property(readonly) Class superclass;
-@property(readonly) long long workoutGoalUnitType;
-@property(readonly) long long workoutLocationType;
 @property(readonly, copy) INSpeakableString *workoutName;
 
 @end

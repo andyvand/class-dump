@@ -11,35 +11,31 @@
 @interface EKEventDetailCell : EKUITableViewCell
 {
     EKEvent *_event;
-    _Bool _editable;
-    double _lastLaidOutWidth;
-    int _lastLaidOutPosition;
 }
 
++ (double)s;
 + (double);
 + (double);
++ (double))s;
 + (double);
-+ (double);
-+ (double);
-+ (double);
-+ (id);
++ (double)(s;
++ (id)s;
 - (_Bool);
 - (id);
-- (double);
-- (double);
+- (double)6&s;
+- (double);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)DC222LLP;
 - (id);
 - (void);
 - (id);
-- (void)ationWithEkObject:obfuscateKeyProperties: /* Error: Ran out of types for this method. */;
-- (_Bool)gestionTapped: /* Error: Ran out of types for this method. */;
+- (void)serializedRepresentationWithEkObject:obfuscateKeyProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)_deleteSuggestionTapped: /* Error: Ran out of types for this method. */;
 - (void)tViewControllerDidComplete:some or all preCommit ObjectIDs are nil. nil states:[%s, %s, %s] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EKEvent *event;
-@property(readonly, nonatomic) _Bool isEditable;
 
 @end
 

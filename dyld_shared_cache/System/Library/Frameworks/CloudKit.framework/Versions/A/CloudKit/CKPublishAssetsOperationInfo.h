@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKPublishAssetsOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_recordIDs;
-    NSDictionary *_fileNamesByAssetFieldNames;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
 }
 
 + (_Bool);
@@ -22,19 +19,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)brc_errorNotRegularFile;
 - (unsigned long long);
 - (void)
 × ;
 - (void);
 - (void)ä ,!;
-- (id);
+- (id)MMCSSignatureIsValidV2;
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(retain, nonatomic) NSDictionary *fileNamesByAssetFieldNames; // @synthesize fileNamesByAssetFieldNames=_fileNamesByAssetFieldNames;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
 
 @end
 

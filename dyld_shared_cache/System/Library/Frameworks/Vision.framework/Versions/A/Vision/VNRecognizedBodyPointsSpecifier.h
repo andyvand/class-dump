@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fp_scanForURLOfChildWithName:(id)arg1 isFolder:maxChildrenCount:notMatchingFileID:nextAvailableBounceNumber: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)ionQuality;
+- (void)VNImageBufferOption_DownscaleCGInterpolationQuality;
 
 @end
 

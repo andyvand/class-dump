@@ -8,11 +8,6 @@
 {
     id interpolationElements;
     id seriesMinValue;
-    id seriesMaxValue;
-    id seriesMinSecondValue;
-    id seriesMaxSecondValue;
-    id seriesMinThirdValue;
-    id seriesMaxThirdValue;
 }
 
 @end

@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface PS190SoCRestoreInfoHelperOS
 {
     CDUnknownFunctionPointerType _logFunction;
-    void *_logContext;
-    _Bool _verbose;
 }
 
-- (void);
+- (void)addPendingItem:(id)arg1;
 - (id);
 - (void);
 - (void);

@@ -17,13 +17,12 @@
 - (id);
 - (id);
 - (const float *);
-- (void);
+- (void)initWithQuery:(id)arg1 language:fuzzyThreshold:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)3úI¿Ã?¸R m¸?ÈD´¶Í¶?-ÃÌ?;
 
 // Remaining properties
 @property(readonly, nonatomic) float thresholdValue;
-@property(readonly, nonatomic) const float *transform;
 
 @end
 

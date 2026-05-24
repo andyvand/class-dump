@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)showKeyTransparencyReportToApplePopoverWithWindow: /* Error: Ran out of types for this method. */;
 
 @end
 

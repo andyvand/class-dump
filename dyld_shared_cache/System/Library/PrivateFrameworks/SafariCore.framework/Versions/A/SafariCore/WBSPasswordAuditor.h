@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, WBSAutoFillQuirksManager, WBSSavedAccountStore;
+@class NSDictionary;
 
 @interface WBSPasswordAuditor
 {
     struct os_unfair_lock_s _cacheLock;
-    WBSSavedAccountStore *_savedAccountStore;
-    WBSAutoFillQuirksManager *_autoFillQuirksManager;
-    NSDictionary *_passwordToSavedAccountsCache;
 }
 
 - (_Bool);
@@ -21,22 +18,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 - (void)A×°!Bù±XÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WBSAutoFillQuirksManager *autoFillQuirksManager; // @synthesize autoFillQuirksManager=_autoFillQuirksManager;
 @property(retain, nonatomic) NSDictionary *passwordToSavedAccountsCache; // @synthesize passwordToSavedAccountsCache=_passwordToSavedAccountsCache;
-@property(readonly, nonatomic) WBSSavedAccountStore *savedAccountStore; // @synthesize savedAccountStore=_savedAccountStore;
-@property(readonly, nonatomic) _Bool test_accountStoreHasDuplicatedPasswords;
 
 @end
 

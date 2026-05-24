@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface EXPSiriSchemaEXPRolloutChangeSnapshot : SISchemaInstrumentationMessage
 {
     unsigned long long _trialRolloutUpdateReceivedAtTimestampInMs;
-    NSArray *_rollouts;
-    struct {
-        unsigned int trialRolloutUpdateReceivedAtTimestampInMs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -29,22 +23,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)vigationUpdatesForComponent:(id)arg1 %@;
+- (id).appstate;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)imeStamp"b1};
-- (id)urceDownloadFailed;
+- (id)POMMESSchemaPOMMESResourceDownloadFailed;
 - (id)(÷Ô÷Xø4ú;
 - (void)4¯¹ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrialRolloutUpdateReceivedAtTimestampInMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *rollouts; // @synthesize rollouts=_rollouts;
 @property(nonatomic) unsigned long long trialRolloutUpdateReceivedAtTimestampInMs; // @synthesize trialRolloutUpdateReceivedAtTimestampInMs=_trialRolloutUpdateReceivedAtTimestampInMs;
 
 @end

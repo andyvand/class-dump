@@ -7,10 +7,6 @@
 @interface NewsUI2.PDFReplicaCoordinator
 {
     id delegate;
-    id pages;
-    id issue;
-    id tracker;
-    id newsActivityManager;
 }
 
 @end

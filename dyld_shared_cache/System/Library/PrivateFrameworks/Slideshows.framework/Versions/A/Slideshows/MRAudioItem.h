@@ -9,19 +9,10 @@
 @interface MRAudioItem
 {
     float _volume;
-    float _duckLevel;
-    AVPlayerItem *_avPlayerItem;
-    double _startTime;
-    double _duration;
-    double _localTimeOffset;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    double _duckInDuration;
-    double _duckOutDuration;
 }
 
 - (float);
-- (void);
+- (void)registerEnvelopesAsReceivedByUploader:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -31,29 +22,20 @@
 - (float);
 - (double);
 - (double);
-- (double);
+- (double)`;
 - (id);
-- (void);
-- (void);
-- (double);
-- (double);
+- (void)KS	KqS|;
 - (void);
 - (double);
 - (double);
 - (void);
-- (float);
+- (double);
+- (double);
+- (void);
+- (float)headlineService;
 
 // Remaining properties
 @property(readonly) AVPlayerItem *avPlayerItem; // @synthesize avPlayerItem=_avPlayerItem;
-@property double duckInDuration; // @synthesize duckInDuration=_duckInDuration;
-@property float duckLevel; // @synthesize duckLevel=_duckLevel;
-@property double duckOutDuration; // @synthesize duckOutDuration=_duckOutDuration;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
-@property double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property double localTimeOffset; // @synthesize localTimeOffset=_localTimeOffset;
-@property(readonly) double startTime; // @synthesize startTime=_startTime;
-@property float volume; // @synthesize volume=_volume;
 
 @end
 

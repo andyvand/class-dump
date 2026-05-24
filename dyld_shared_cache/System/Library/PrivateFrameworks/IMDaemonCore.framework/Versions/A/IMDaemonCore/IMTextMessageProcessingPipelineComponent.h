@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDMessageFromStorageController, IMDMessageStore;
+@class IMDAccount;
 
 @interface IMTextMessageProcessingPipelineComponent
 {
     IMDAccount *_account;
-    IMDMessageStore *_messageStore;
-    IMDMessageFromStorageController *_storageController;
 }
 
 - (id);
@@ -20,8 +18,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)-t;
 - (void);
 
 @end

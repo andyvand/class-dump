@@ -7,10 +7,9 @@
 @class NSString, NSURL;
 
 @protocol TUBusinessCallerItem
+- (NSURL *)able AudioSession full API;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *department;
-@property(readonly, copy, nonatomic) NSURL *logoURL;
 @property(readonly, copy, nonatomic) NSString *name;
 @end
 

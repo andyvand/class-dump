@@ -7,8 +7,6 @@
 @interface ATMicrophoneInjectionInsertManager
 {
     struct guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences, caulk::concurrent::guarded_lookup_default_hash_fn<std::string>> mUUIDToMixTapToUplinkHostMap;
-    struct synchronized<std::vector<std::string>, caulk::mach::unfair_lock, caulk::empty_atomic_interface<std::vector<std::string>>> mUUIDsOfAudioStreams;
-    struct atomic<bool> mScreenSharingEnabled;
 }
 
 + (id);
@@ -17,12 +15,12 @@
 - (int);
 - (void);
 - (void);
-- (vector_64acebbd);
+- (vector_76d36e47);
 - (struct ScopedLookupOfMixTapToUplinkHost);
 - (id);
+- (id)=;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

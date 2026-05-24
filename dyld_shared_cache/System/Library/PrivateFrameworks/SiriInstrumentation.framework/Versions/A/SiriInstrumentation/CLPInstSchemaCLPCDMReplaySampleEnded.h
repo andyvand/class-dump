@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface CLPInstSchemaCLPCDMReplaySampleEnded : SISchemaInstrumentationMessage
 {
     _Bool _isReplaySuccessful;
-    NSArray *_comparatorResults;
-    struct {
-        unsigned int isReplaySuccessful:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)@�h;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,16 +31,13 @@
 - (_Bool);
 - (id);
 - (id)onQueryCallStarted";
-- (id)LINKSchemaFLOWLinkActionFailed;
+- (id)FLOWLINKSchemaFLOWLinkActionFailed;
 - (id)
 ;
 - (void)4Ã°ÿ²®ºE&;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *comparatorResults; // @synthesize comparatorResults=_comparatorResults;
-@property(nonatomic) _Bool hasIsReplaySuccessful;
 @property(nonatomic) _Bool isReplaySuccessful; // @synthesize isReplaySuccessful=_isReplaySuccessful;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

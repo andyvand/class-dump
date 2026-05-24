@@ -5,5 +5,6 @@
 //
 
 @protocol InteractionProtocol
+- (void);
 @end
 

@@ -9,10 +9,6 @@
 @interface PPPBLabeledSocialProfile
 {
     NSString *_label;
-    NSString *_service;
-    NSString *_urlString;
-    NSString *_userIdentifier;
-    NSString *_username;
 }
 
 - (_Bool);
@@ -22,15 +18,15 @@
 - (id);
 - (void);
 - (id);
+- (void){;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)IMDFamilyInviteReponseHandler;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (id);
@@ -38,21 +34,12 @@
 - (void);
 - (void)!LDù1÷1Â0@ù
 × ;
-- (_Bool)chTimeOfDayFactor;
-- (id)eleteAllNamedEntityFeedbackCountsOlderThanDate: /* Error: Ran out of types for this method. */;
+- (_Bool)locationAppPredictionLaunchTimeOfDayFactor;
+- (id)deleteAllNamedEntityFeedbackCountsOlderThanDate: /* Error: Ran out of types for this method. */;
 - (void)SourceProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasService;
-@property(readonly, nonatomic) _Bool hasUrlString;
-@property(readonly, nonatomic) _Bool hasUserIdentifier;
-@property(readonly, nonatomic) _Bool hasUsername;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(retain, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(retain, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

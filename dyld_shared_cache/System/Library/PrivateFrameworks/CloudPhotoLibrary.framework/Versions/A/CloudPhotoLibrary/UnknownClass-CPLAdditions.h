@@ -7,7 +7,7 @@
 @interface UnknownClass (CPLAdditions)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)=%ld][SpotlightRanking][Calibration] Unsupported vector format;
+- (_Bool)mbedding dimension;
 @end
 

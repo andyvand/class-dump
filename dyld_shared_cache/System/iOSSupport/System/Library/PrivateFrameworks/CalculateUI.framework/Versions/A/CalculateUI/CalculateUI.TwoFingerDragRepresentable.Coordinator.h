@@ -8,10 +8,9 @@
 {
     id converter;
     id startLocation;
-    id currentLocation;
 }
 
-- (id);
+- (id)r.swift;
 - (_Bool);
 - (void);
 

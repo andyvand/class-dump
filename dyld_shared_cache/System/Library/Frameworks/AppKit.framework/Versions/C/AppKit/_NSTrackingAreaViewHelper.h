@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSTrackingAreaViewHelper
 {
@@ -22,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)root %d failed with error 0x%016llX;
+- (void)ot %d;
+- (void)ert=%d;
+- (void)R Combined Format unexpected tag:(struct CGRect)arg1 %llu;
+- (id)FirmwarePreflightInfo;
 - (void);
 - (void);
 - (void);
@@ -40,14 +38,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)CONNECTION_MACH_SERVICE_PRIVILEGED) failed for delegate class %llu;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) _Bool areCursorRectsValid; // @dynamic areCursorRectsValid;
-@property(readonly) NSArray *trackingAreas;
 
 @end
 

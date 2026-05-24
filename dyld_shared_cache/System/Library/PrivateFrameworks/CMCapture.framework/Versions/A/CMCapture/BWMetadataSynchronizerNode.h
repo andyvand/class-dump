@@ -6,29 +6,20 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface BWMetadataSynchronizerNode : BWNode
 {
     NSDictionary *_syncMetadataByPortType;
-    NSArray *_propagateSampleBufferAttachmentKeys;
-    NSArray *_propagateSampleBufferMetadataDictKeys;
-    NSArray *_syncOnlyIfMetadataEnabledForKeys;
-    struct os_unfair_lock_s _bufferServicingLock;
-    struct {
-        id _field1;
-        struct opaqueCMSimpleQueue *_field2;
-        CDStruct_1b6d18a9 _field3;
-    } *_inputsStorage;
 }
 
 + (void)achEndOfDataForConfigurationID:input:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)W;
+- (void)(;
+- (void)one recipient address (%{sensitive}@) seems to be a group.;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)A;
 - (id)ublic}@ (%d) state, device has%s been stolen, and will NOT wait for capture of type %{public}@ to complete;
 - (void)À;
 - (void)cîÿgîÿjîÿoïÿsïÿwïÿ|ïÿïÿïÿïÿïÿïÿïÿ¤ðÿªðÿ°ðÿ¶ðÿ½ðÿÃðÿÉñÿÏñ ÿÖñ¡ÿÜñ¢ÿâñ¢ÿéò£ÿðò¤ÿ^öÿ_öÿ`öÿaöÿcöÿeöÿhöÿköÿnöÿröÿv÷ÿ{÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ¡÷ÿ§÷ÿ¬øÿ²øÿ¸øÿ¿øÿÅøÿËø ÿÑù¡ÿ×ù¡ÿÝù¢ÿäù£ÿêù¤ÿðù¤ÿdÿÿeÿÿeÿÿgÿÿhÿÿjÿÿmÿÿpÿÿsÿÿwÿÿ{ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ£ÿÿ©ÿÿ¯ÿÿ´ÿÿºÿÿÁÿÿÇÿ ÿÌÿ¡ÿÒÿ¡ÿÙÿ¢ÿßÿ£ÿåÿ¤ÿëÿ¤ÿðÿ¥ÿ;

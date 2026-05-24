@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKWebView;
+
 @protocol WKURLSchemeHandler
+- (void)browserAccessibilityDetailsElements;
+- (void)browserAccessibilityDeleteTextAtCursor:(WKWebView *)arg1;
 @end
 

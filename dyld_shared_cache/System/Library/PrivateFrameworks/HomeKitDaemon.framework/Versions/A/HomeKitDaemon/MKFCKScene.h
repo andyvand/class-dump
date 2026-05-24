@@ -6,42 +6,32 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKHome, NSArray, NSDate, NSDictionary, NSSet, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKScene : MKFCKHomeObject
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)@
+;
+- (_Bool)handleForDeviceVersion:(id)arg1;
+- (_Bool){public}@ supports passing sharing closure reasons:(id)arg1 %s;
+- (id)r foundAccount %@ for identifier %@ from set %@;
+- (id)sharing;
+- (id)rivate}@ (%{public}@)...;
+- (id)ng from aliasStrings %@;
+- (id)for contact %{private}@;
+- (id)ntact cleaning up and calling completion handler with type %{public}@ for contact %{private}@;
+- (id)o remove:(id)arg1 %{private}@;
+- (id)ivate}@;
+- (id)%@;
+- (id)%@;
+- (id)] cleanGroup %@;
+- (id)public}@, closed %{public}@ for reason %lu, etaInPast %{public}@);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessories; // @dynamic accessories;
 @property(retain, nonatomic) NSArray *actions; // @dynamic actions;
-@property(retain, nonatomic) NSDictionary *applicationData; // @dynamic applicationData;
-@property(retain, nonatomic) NSSet *automations; // @dynamic automations;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

@@ -5,7 +5,8 @@
 //
 
 @protocol PLModelMigrationActionCore
-- (id)¸È¬	\;
++ (id)setRemovedDate: /* Error: Ran out of types for this method. */;
+- (_Complex)¸È¬	\;
 - (id)SpaceInStagedStore:] /* Error: Ran out of types for this method. */;
 - (id)ationship %@ defines relationPropertyNames (%@) but the model does not define an inverse relationship:%@ /* Error: Ran out of types for this method. */;
 @end

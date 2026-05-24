@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, NSTextField, NSView;
+@class NSPopUpButton;
 
 @interface RemindersUICore.TTRMCustomRepeatViewController
 {
     id displayDate;
-    id viewModel;
-    void detailTypePopUpButton;
-    void intervalTextField;
-    void everyLabel;
-    void frequencyLabel;
-    void detailContainerView;
-    id presenter;
-    id detail;
 }
 
 - (void);
@@ -39,11 +31,7 @@
 - (void)sWÿ;
 
 // Remaining properties
-@property(nonatomic) __weak NSView *detailContainerView; // @synthesize detailContainerView;
 @property(nonatomic) __weak NSPopUpButton *detailTypePopUpButton; // @synthesize detailTypePopUpButton;
-@property(nonatomic) __weak NSTextField *everyLabel; // @synthesize everyLabel;
-@property(nonatomic) __weak NSTextField *frequencyLabel; // @synthesize frequencyLabel;
-@property(nonatomic) __weak NSTextField *intervalTextField; // @synthesize intervalTextField;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UILAConfigurationHistory
 {
     NSMutableSet *_newlyHiddenItems;
-    NSMutableSet *_newlyUnhiddenItems;
-    NSMutableSet *_invalidBaselineConstraints;
-    _Bool _layoutFillsCanvas;
-    _Bool _layoutUsesCanvasMarginsWhenFilling;
-    _Bool _hasEstablishedBaseValues;
-    _Bool _inLayoutArrangementUpdateSection;
-    long long _axis;
 }
 
 - (id);
@@ -26,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)n;
 - (id)ider;
-- (void)itingToolsAllowedInputOptions;
+- (void)writingToolsAllowedInputOptions;
 - (id)View",&,N,V_blurView;
-- (void)ricCalculation;
-- (id)t;
+- (void)usesSymmetricCalculation;
+- (id)Client;
 - (_Bool)n state!;
 - (void);
 - (_Bool);
@@ -39,21 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)¥^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems; // @synthesize _newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems; // @synthesize _newlyUnhiddenItems;
-@property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasEstablishedBaseValues; // @synthesize hasEstablishedBaseValues=_hasEstablishedBaseValues;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInLayoutArrangementUpdateSection) _Bool inLayoutArrangementUpdateSection; // @synthesize inLayoutArrangementUpdateSection=_inLayoutArrangementUpdateSection;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints; // @synthesize invalidBaselineConstraints=_invalidBaselineConstraints;
-@property(nonatomic) _Bool layoutFillsCanvas; // @synthesize layoutFillsCanvas=_layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling; // @synthesize layoutUsesCanvasMarginsWhenFilling=_layoutUsesCanvasMarginsWhenFilling;
-@property(readonly) Class superclass;
 
 @end
 

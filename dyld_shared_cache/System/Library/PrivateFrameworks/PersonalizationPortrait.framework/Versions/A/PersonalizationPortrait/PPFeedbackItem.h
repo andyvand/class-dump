@@ -9,13 +9,12 @@
 @interface PPFeedbackItem
 {
     unsigned int _itemFeedbackType;
-    NSString *_itemString;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)addIndex:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int itemFeedbackType; // @synthesize itemFeedbackType=_itemFeedbackType;
 @property(readonly, nonatomic) NSString *itemString; // @synthesize itemString=_itemString;
 
 @end

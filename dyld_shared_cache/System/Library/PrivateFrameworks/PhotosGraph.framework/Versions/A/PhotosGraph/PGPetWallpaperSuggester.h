@@ -6,45 +6,34 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class CLSSceneConfidenceThresholdHelper, NSString, PGPetWallpaperSuggesterFilteringContext, PGWallpaperSuggestionAssetGater;
+@class PGPetWallpaperSuggesterFilteringContext, PGWallpaperSuggestionAssetGater;
 
 @interface PGPetWallpaperSuggester : PGAbstractSuggester
 {
     PGWallpaperSuggestionAssetGater *_assetGater;
-    CLSSceneConfidenceThresholdHelper *_peopleSceneConfidenceThresholdHelper;
-    PGPetWallpaperSuggesterFilteringContext *_primaryFilteringContext;
-    PGPetWallpaperSuggesterFilteringContext *_secondaryFilteringContext;
 }
 
-+ (id);
-+ (id);
++ (id)doubleValue;
++ (id)ButtonWithAttributes;
++ (_Bool)ate.checked;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
 + (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ents.framework/Versions/A/AccessibilityEvents;
 - (void);
+- (id)__elementCache;
+- (id)Library/BuildRoots/4~CNpfugCqAkKaPhovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c;
 - (id);
-- (id);
-- (id);
-- (void)nciation;
+- (void)Annunciation;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *primaryFilteringContext; // @synthesize primaryFilteringContext=_primaryFilteringContext;
-@property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *secondaryFilteringContext; // @synthesize secondaryFilteringContext=_secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

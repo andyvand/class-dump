@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface CUAppleIDClient
 {
     struct __SecCertificate *_myCertificate;
-    struct __SecIdentity *_myIdentity;
-    struct __SecKey *_mySecretKey;
-    NSData *_myValidationData;
-    struct __SecCertificate *_peerCertificate;
-    struct __SecKey *_peerPublicKey;
-    _Bool _peerSignatureVerified;
-    NSDictionary *_peerValidationDict;
-    _Bool _peerValidated;
-    int _securityLevel;
-    NSString *_myAppleID;
-    CUAppleIDClient *_myInfoClient;
-    NSString *_peerAppleID;
-    NSArray *_peerAppleIDs;
-    NSData *_peerCertificateData;
-    NSData *_peerValidationData;
-    NSData *_myCertificateData;
-    NSData *_mySecretKeyData;
-    NSString *_mySecretKeyType;
 }
 
 - (_Bool);
@@ -40,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)�;
 - (id);
 - (id);
 - (id);
@@ -57,25 +39,17 @@
 - (struct __SecCertificate *);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)(=;
+- (void);
+- (void)?;
 - (id);
-- (void);
+- (void)
+;
 - (id)ta TLV failed:%d /* Error: Ran out of types for this method. */;
 - (id)Other;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *myAppleID; // @synthesize myAppleID=_myAppleID;
 @property(copy, nonatomic) NSData *myCertificateData; // @synthesize myCertificateData=_myCertificateData;
-@property(retain, nonatomic) CUAppleIDClient *myInfoClient; // @synthesize myInfoClient=_myInfoClient;
-@property(copy, nonatomic) NSData *mySecretKeyData; // @synthesize mySecretKeyData=_mySecretKeyData;
-@property(copy, nonatomic) NSString *mySecretKeyType; // @synthesize mySecretKeyType=_mySecretKeyType;
-@property(copy, nonatomic) NSString *peerAppleID; // @synthesize peerAppleID=_peerAppleID;
-@property(copy, nonatomic) NSArray *peerAppleIDs; // @synthesize peerAppleIDs=_peerAppleIDs;
-@property(copy, nonatomic) NSData *peerCertificateData; // @synthesize peerCertificateData=_peerCertificateData;
-@property(copy, nonatomic) NSData *peerValidationData; // @synthesize peerValidationData=_peerValidationData;
-@property(readonly, nonatomic) int securityLevel;
 
 @end
 

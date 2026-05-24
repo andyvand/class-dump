@@ -9,7 +9,6 @@
 @interface ITLibRequestContainer
 {
     ITLibModelKind *_libModelKind;
-    unsigned long long _iTunesLibraryPersistentID;
 }
 
 - (unsigned long long);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long iTunesLibraryPersistentID; // @synthesize iTunesLibraryPersistentID=_iTunesLibraryPersistentID;
 @property(retain, nonatomic) ITLibModelKind *libModelKind; // @synthesize libModelKind=_libModelKind;
 
 @end

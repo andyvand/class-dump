@@ -7,7 +7,6 @@
 @interface ChatKit.CKBalloonGradientPositionTrackingLayer
 {
     id configuration;
-    id gradientReferenceView;
 }
 
 - (id);

@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostControllerInterface;
-
 @interface IOUSBHostCIDeviceStateMachine
 {
     int _deviceState;
-    unsigned long long _completeRoute;
-    unsigned long long _deviceAddress;
-    IOUSBHostControllerInterface *_controllerInterface;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ClipStreamTimeCodeStart;
+- (_Bool)ClipConstraint_set3_flag;
+- (_Bool)ClipProfile_idc;
+- (_Bool)PlayListRecordTimeAndDate;
+- (id)AVCHDDaylightSavingTimeFlag;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (int);
+- (int)invoke;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long completeRoute; // @synthesize completeRoute=_completeRoute;
-@property(retain, nonatomic) IOUSBHostControllerInterface *controllerInterface; // @synthesize controllerInterface=_controllerInterface;
-@property(nonatomic) unsigned long long deviceAddress; // @synthesize deviceAddress=_deviceAddress;
 @property(nonatomic) int deviceState; // @synthesize deviceState=_deviceState;
 
 @end

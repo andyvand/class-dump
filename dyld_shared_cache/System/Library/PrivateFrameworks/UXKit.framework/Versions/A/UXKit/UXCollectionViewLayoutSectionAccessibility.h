@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UXCollectionView, UXCollectionViewLayoutAccessibility;
+@class NSArray, UXCollectionView;
 
 @interface UXCollectionViewLayoutSectionAccessibility
 {
@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
 - (void);
 - (id);
@@ -49,8 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UXCollectionView *collectionView;
-@property(readonly, nonatomic) __weak UXCollectionViewLayoutAccessibility *layoutAccessibility;
-@property(readonly, nonatomic) unsigned long long sectionIndex;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol NFHardwareEventListener
 
 @optional
-- (void)ceSerialNumbers;
+- (void)c;
+- (void)_additionalDeviceSerialNumbers;
 @end
 

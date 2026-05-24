@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamSynchronizer
 {
     double _sourcePlayoutSampleSystemTime;
-    int _sourceRTPTimestampWraps;
-    NSObject<OS_dispatch_queue> *_mediaStreamSynchronizerQueue;
-    struct tagHANDLE *_videoPlayerHandle;
-    CDUnknownBlockType _destinationHandler;
-    struct tagVCMediaStreamSyncTime _source;
-    struct tagVCMediaStreamSyncTime _destination;
-    unsigned int _sourcePlayoutSampleRTPTimestamp;
-    int _sourceState;
-    CDUnknownBlockType _sourcePlayoutTimeUpdatedHandler;
-    struct os_unfair_lock_s _sourcePlayoutHandlerLock;
-    struct os_unfair_lock_s _destinationHandlerLock;
 }
 
 - (unsigned int);
@@ -29,14 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned int sourceSampleRate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostInterface;
-
 @interface IOUSBHostIOSource
 {
     unsigned int _debugLoggingMask;
-    unsigned int _ioConnection;
-    IOUSBHostInterface *_hostInterface;
-    unsigned long long _deviceAddress;
-    unsigned long long _endpointAddress;
-    struct IONotificationPort *_ioNotificationPortRef;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4};
 - (void);
 - (struct IONotificationPort *);
-- (unsigned int);
-- (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
+- (id)CAVCHDlMediaContainer;
+- (id)ClipIFrameLength;
+- (unsigned int)8;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -33,11 +26,6 @@
 
 // Remaining properties
 @property unsigned int debugLoggingMask; // @synthesize debugLoggingMask=_debugLoggingMask;
-@property unsigned long long deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property unsigned long long endpointAddress; // @synthesize endpointAddress=_endpointAddress;
-@property(retain) IOUSBHostInterface *hostInterface; // @synthesize hostInterface=_hostInterface;
-@property unsigned int ioConnection; // @synthesize ioConnection=_ioConnection;
-@property struct IONotificationPort *ioNotificationPortRef; // @synthesize ioNotificationPortRef=_ioNotificationPortRef;
 
 @end
 

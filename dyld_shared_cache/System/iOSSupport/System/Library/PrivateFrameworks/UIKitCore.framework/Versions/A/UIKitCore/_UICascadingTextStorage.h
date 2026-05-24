@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, UIColor, UIFont;
+@class NSMutableDictionary, UIFont;
 @protocol _UITextAttributeDefaults;
 
 __attribute__((visibility("hidden")))
@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (id)ð¥\;
 - (void);
 - (void);
-- (void);
-- (long long);
-- (id);
+- (void)iner_stream_read_chunk_data;
+- (long long)__hasDownloadedCatalogLyrics_KEY;
+- (id)@H;
 - (void);
 - (long long);
 - (long long);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (void)× ;
 - (double);
 - (id)bBarController"16@0:(unsigned long long)arg1 8;
-- (void)der;
-- (id)nalSnapshot:(id)arg1 source:(unsigned long long)arg2 difference:(struct _NSRange *)arg3 reorderedItemIdentifiers:(struct _NSRange)arg4 sectionTransactions: /* Error: Ran out of types for this method. */;
-- (id)shifted:(id)arg1;
+- (void)sectionHeader;
+- (id)initWithInitialSnapshot:(id)arg1 finalSnapshot:(unsigned long long)arg2 source:(struct _NSRange *)arg3 difference:(struct _NSRange)arg4 reorderedItemIdentifiers:sectionTransactions: /* Error: Ran out of types for this method. */;
+- (id)setAutoshifted:(id)arg1;
 - (id)on;
 - (id)xÆ,¨QÑÌì,ÐQÑü;
 - (id)et catalog from bundle %@:%@ /* Error: Ran out of types for this method. */;
@@ -51,16 +51,7 @@ __attribute__((visibility("hidden")))
 - (void)Øþ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setDefaults:) id <_UITextAttributeDefaults> _defaults; // @synthesize _defaults;
-@property(copy, nonatomic) NSDictionary *defaultAttributes;
-@property(nonatomic) long long defaultBaseWritingDirection;
 @property(retain, nonatomic) UIFont *font;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) double shadowBlur;
-@property(retain, nonatomic) UIColor *shadowColor;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
 
 @end
 

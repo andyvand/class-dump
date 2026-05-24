@@ -5,5 +5,9 @@
 //
 
 @protocol CKInvisibleInkEffectCoverageTrackerDelegate
+
+@optional
+- (void)attachmentActivityItemsForSharing;
+- (void)attachedSheet;
 @end
 

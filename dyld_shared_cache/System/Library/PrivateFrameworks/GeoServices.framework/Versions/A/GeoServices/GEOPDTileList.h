@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_tiles;
 }
 
-- (id);
-- (void);
+- (id)";
+- (void)numberOfSections;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)SessionState"b1"wrote_anyField"b1};
-- (id)teMuid;
+- (id)_searchAlongRouteMuid;
 - (id)°t|¸;
 - (void){÷Ç{ÕJ@;
 

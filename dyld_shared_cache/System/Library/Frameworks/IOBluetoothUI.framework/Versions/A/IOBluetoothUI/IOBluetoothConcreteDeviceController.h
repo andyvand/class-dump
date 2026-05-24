@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDeviceCollectionView, IOBluetoothDeviceInquiryTableView, NSButton, NSDate, NSImageView, NSMutableArray, NSProgressIndicator, NSString, NSTextField, NSTimer, NSView;
+@class CBDeviceCollectionView, NSImageView;
 
 @interface IOBluetoothConcreteDeviceController
 {
     NSImageView *mIconView;
-    NSTextField *mTitleTextField;
-    NSTextField *mDescriptionTextField;
-    IOBluetoothDeviceInquiryTableView *mDeviceInquiryTableView;
-    NSView *_placeHolderView;
-    NSProgressIndicator *mProgressIndicator;
-    NSTextField *mStatusTextField;
-    NSImageView *mWarningImageView;
-    NSButton *mSelectButton;
-    NSButton *mCancelButton;
-    NSButton *mFavoriteButton;
-    struct OpaqueIOBluetoothNotificationRef *mBTNotificationRef;
-    _Bool mInquiryInProgress;
-    _Bool mRemoteNameReadsInProgress;
-    int mRunState;
-    unsigned char mDeviceType;
-    unsigned char mDeviceCategory;
-    id mModalDelegate;
-    SEL mDidEndSelector;
-    void *mContextInfo;
-    unsigned int mOptions;
-    struct IOBluetoothDeviceSearchAttributes *mSearchAttributes;
-    _Bool mIsValidatingDevice;
-    NSMutableArray *mAllowedServiceArray;
-    NSDate *mPanelRunDate;
-    NSString *mWindowTitle;
-    NSString *mHeaderText;
-    NSString *mDescriptionText;
-    NSString *mPrompt;
-    NSString *mCancel;
-    _Bool mShowBDAddrs;
-    NSTimer *mDelayedScanTimer;
-    _Bool mIsFirstIteration;
-    long long mPanelEndCode;
-    CBDeviceCollectionView *_collectionView;
 }
 
 - (void);
@@ -116,12 +82,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),(;
 - (void);
 - (void);
 - (void);
@@ -130,13 +96,6 @@
 
 // Remaining properties
 @property(retain) CBDeviceCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

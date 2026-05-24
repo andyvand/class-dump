@@ -5,5 +5,8 @@
 //
 
 @protocol _ASCredentialAuthenticationViewControllerDelegate
+
+@optional
+- (void);
 @end
 

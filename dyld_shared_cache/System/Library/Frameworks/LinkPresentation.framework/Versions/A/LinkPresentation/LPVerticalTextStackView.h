@@ -6,20 +6,17 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPVerticalTextStackViewStyle, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface LPVerticalTextStackView : LPComponentView
 {
     NSMutableArray *_items;
-    _Bool _hasEverBuilt;
-    struct NSEdgeInsets _contentInset;
-    LPVerticalTextStackViewStyle *_style;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (struct CGSize);
 - (void);
 - (void);

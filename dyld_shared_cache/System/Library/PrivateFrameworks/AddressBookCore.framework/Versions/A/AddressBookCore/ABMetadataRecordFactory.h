@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, NSMutableDictionary;
+@class ABAddressBook;
 
 @interface ABMetadataRecordFactory
 {
     ABAddressBook *_addressBook;
-    ABAccount *_account;
-    NSMutableDictionary *_recordMapping;
 }
 
 - (id);

@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAPPlaceCardModule
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _contents;
-    NSString *_metadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_contents:1;
-        unsigned int read_metadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (id);
-+ (_Bool)lume:(id)arg1;
-- (void);
++ (id);
++ (_Bool)setHasMapSettingsNavVolume:(id)arg1;
+- (void)allEvents;
 - (unsigned long long);
 - (void);
 - (int);
+- (id)ey:(int)arg1 %@;
+- (int)VN9bdc36cda32be948a5089e37392596ec;
+- (void);
+- (void);
+- (void);
 - (id);
-- (int);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)_installedAssetOfType:(id)arg1 withLanguage:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool);
+- (int)sTransparency;
 - (_Bool);
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)AtDistance:(struct _NSZone *)arg1 from: /* Error: Ran out of types for this method. */;
-- (void)erviceProxy;
+- (id)locationAtDistance:(struct _NSZone *)arg1 from: /* Error: Ran out of types for this method. */;
+- (void)GEOWiFiQualityServiceProxy;
 - (id)Y;
 - (int)led once per object;
-- (id)ogMessageUsageURL;
+- (id)GEOVoltaireLogMessageUsageURL;
 - (void)\¼;
 - (int *)¸;
 - (id)|ø;
@@ -62,12 +50,7 @@
 - (void).=ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) int *contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *metadata;
-@property(nonatomic) int type;
 
 @end
 

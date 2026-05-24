@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface CKEvent
 {
     NSString *_identifier;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSDictionary *_metadata;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)unadjustedDerivativeImageURLs;
+- (id)forceSyncMomentShare:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)mand"16@0:(id)arg1 8;
 - (id);
 - (id);
 - (id);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

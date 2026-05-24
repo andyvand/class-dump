@@ -11,20 +11,16 @@
 @interface MPPlaybackSessionCommandEvent : MPRemoteCommandEvent
 {
     NSString *_identifier;
-    NSString *_revision;
-    long long _priority;
 }
 
+- (id);
 - (id);
-- (id);
-- (void)PING_MISSING__;
+- (void)__MPModelPropertyRadioStationProviderName__MAPPING_MISSING__;
 - (id),N,V_isAssetLoaded;
 - (long long)r MPModelPropertyAlbumSuperHeroTallEditorialArtwork;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSString *revision; // @synthesize revision=_revision;
 
 @end
 

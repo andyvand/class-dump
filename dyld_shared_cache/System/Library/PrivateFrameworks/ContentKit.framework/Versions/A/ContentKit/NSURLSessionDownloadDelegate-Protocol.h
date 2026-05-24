@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDownloadDelegate
+- (void)set_shouldForwardSceneRendererDelegationMessagesToPrivateRendererOwner:(NSURLSession *)arg1;
 @end
 

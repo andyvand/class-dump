@@ -10,8 +10,6 @@
 @interface ABUserDefaults
 {
     id <ABPrimitiveUserDefaults> _primitiveDefaults;
-    NSDictionary *_registeredDefaults;
-    _Bool _areAddressingGrammarPreferencesLoaded;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
@@ -30,13 +28,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)removed in a later release. ***
+;
 - (id);
 - (double);
 - (id);
@@ -44,13 +43,13 @@
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void)ccount with identifier %@;
 - (void)to %@;
 - (void)ccount:(double)arg1 %{public}@ -> %@;
 - (id)%@;
-- (void)arch;
+- (void)ABDisablePredicateSearch;
 - (long long)ces/AddressBook/Framework/AddressBook/ABImageLoading.m;
 
 // Remaining properties

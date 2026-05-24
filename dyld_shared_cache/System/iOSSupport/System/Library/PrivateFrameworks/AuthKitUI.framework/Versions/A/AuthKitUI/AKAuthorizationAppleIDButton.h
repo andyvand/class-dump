@@ -6,41 +6,35 @@
 
 #import <AuthKitUI/AKAuthorizationButton.h>
 
-@class CAFilter;
-
 @interface AKAuthorizationAppleIDButton : AKAuthorizationButton
 {
     long long _type;
-    long long _style;
-    CAFilter *_highlightFilter;
-    _Bool _changesInterfaceStyle;
-    double _cornerRadius;
 }
 
 + (id);
 + (long long);
-+ (double);
++ (double)he same relyingPartyIdentifier.;
 + (Class);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)ions/A/QuartzCore;
+- (void)6;
 - (id);
-- (void);
+- (void)CUIKSingleDayTimelineLayout;
 - (void);
 - (struct CGSize);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)_suggestions;
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)Yl;
 - (id);
 
 // Remaining properties

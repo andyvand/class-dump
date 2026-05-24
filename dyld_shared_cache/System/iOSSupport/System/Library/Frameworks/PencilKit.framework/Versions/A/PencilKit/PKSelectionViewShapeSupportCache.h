@@ -9,8 +9,6 @@
 @interface PKSelectionViewShapeSupportCache
 {
     NSArray *_shapes;
-    NSArray *_originalStrokes;
-    long long _shapeType;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 - (void)y",&,N,V_controlPoints;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *originalStrokes; // @synthesize originalStrokes=_originalStrokes;
-@property(nonatomic) long long shapeType; // @synthesize shapeType=_shapeType;
 @property(retain, nonatomic) NSArray *shapes; // @synthesize shapes=_shapes;
 
 @end

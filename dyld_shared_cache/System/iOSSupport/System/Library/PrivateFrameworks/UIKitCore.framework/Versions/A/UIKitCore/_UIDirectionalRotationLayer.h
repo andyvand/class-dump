@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _UIDirectionalRotationLayer
 {
     struct CATransform3D _previousTransform;
-    _Bool _counterTransformLayer;
-    _Bool _inverseTransformLayer;
 }
 
 - (void);
-- (_Bool)imaryContentFrame:layoutAxis:supplementaryFrames:preferredSizes:layoutRTL:supplementaryKind: /* Error: Ran out of types for this method. */;
-- (void)ndVisualEffect;
+- (_Bool)_computeContentSizeForEmptyHostContentSizeForContainer:primaryContentFrame:layoutAxis:supplementaryFrames:preferredSizes:layoutRTL:supplementaryKind: /* Error: Ran out of types for this method. */;
+- (void)calculateBackgroundVisualEffect;
 - (void)_setTargetRectView:(struct CATransform3D)arg1 ,V_targetRectView;
 - (void)ä;
 - (_Bool)|88: /* Error: Ran out of types for this method. */;

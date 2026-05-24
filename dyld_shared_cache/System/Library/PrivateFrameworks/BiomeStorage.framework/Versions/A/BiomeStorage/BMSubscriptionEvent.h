@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface BMSubscriptionEvent
 {
     NSString *_uniqueIdentifier;
-    unsigned int _dataVersion;
-    _Bool _starting;
-    NSString *_client;
-    NSString *_identifier;
-    NSString *_useCase;
-    NSUUID *_bootUUID;
 }
 
 + (id);
@@ -26,39 +20,26 @@
 - (id);
 - (id);
 - (unsigned int);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ateFrameworks/PDS.framework/Versions/A/PDS;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)etService for the current AirPlay device; posting .DidResolveAirPlayDeviceNetServiceNotification..;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)thVoiceTriggerCtxt:(id)arg1 withOtherCtxt:assetToUse:withCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *bootUUID; // @synthesize bootUUID=_bootUUID;
 @property(readonly, copy, nonatomic) NSString *client; // @synthesize client=_client;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
 
 @end
 

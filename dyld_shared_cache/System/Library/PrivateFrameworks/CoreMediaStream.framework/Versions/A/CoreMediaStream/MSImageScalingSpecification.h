@@ -7,18 +7,15 @@
 @interface MSImageScalingSpecification
 {
     int _assetTypeFlags;
-    double _nominalShortSideLength;
-    double _minimumLongSideLength;
-    double _maximumLongSideLength;
 }
 
 + (id);
 + (id);
 - (double);
-- (id);
+- (id)ý;
 - (double);
 - (int);
-- (void);
+- (void)entryEventBackwardDefinitionSiriFalseAlarm;
 - (void);
 - (double);
 - (double);
@@ -26,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int assetTypeFlags; // @synthesize assetTypeFlags=_assetTypeFlags;
-@property(nonatomic) double maximumLongSideLength; // @synthesize maximumLongSideLength=_maximumLongSideLength;
-@property(nonatomic) double minimumLongSideLength; // @synthesize minimumLongSideLength=_minimumLongSideLength;
 @property(nonatomic) double nominalShortSideLength; // @synthesize nominalShortSideLength=_nominalShortSideLength;
 
 @end

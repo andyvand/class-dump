@@ -6,13 +6,9 @@
 
 #import <PAImaging/PAGLObject.h>
 
-@class NSString;
-
 @interface PAGLShader : PAGLObject
 {
     _Bool _compiled;
-    unsigned int _type;
-    NSString *_source;
 }
 
 + (void);
@@ -22,15 +18,13 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (_Bool);
-- (unsigned int);
+- (_Bool)P;
+- (unsigned int);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCompiled) _Bool compiled; // @synthesize compiled=_compiled;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

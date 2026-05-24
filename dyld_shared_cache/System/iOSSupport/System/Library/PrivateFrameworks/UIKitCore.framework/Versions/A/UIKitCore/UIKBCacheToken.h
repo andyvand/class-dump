@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSet, NSString;
+@class NSMutableArray, NSString;
 
 @interface UIKBCacheToken
 {
     NSMutableArray *_components;
-    NSString *_name;
-    double _scale;
-    int _emptyFields;
-    NSSet *_transformationIdentifiers;
-    long long _renderFlags;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)s to truth zone ;
++ (id)ing %@. Disk Space Available:(id)arg1 %@;
++ (id)achment zone;
++ (id)ck should not get called;
++ (id)dic syncing with cloudkit;
 + (id);
 + (id);
 - (id);
@@ -30,10 +25,10 @@
 - (void);
 - (int);
 - (id);
+- (id)entifiers;
+- (void)MPModelPodcastKind;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)%p setVideoArtworkCacheURL:error creating directory at URL %{public}@ /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (int);
@@ -50,10 +45,10 @@
 - (id)0@ù
 × ;
 - (void)?24;
-- (id)ViewController:(CDUnknownBlockType)arg1;
-- (int)pplicationEnter;
-- (id)ingFunc;
-- (id)youtView;
+- (id)setCollapsedViewController:(CDUnknownBlockType)arg1;
+- (int)isApplicationEnter;
+- (id)animationEasingFunc;
+- (id)_UISearchTokenLayoutView;
 - (void)(ø;
 - (int)tate:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
@@ -68,17 +63,7 @@
 - (void)ôÎ\%g;
 
 // Remaining properties
-@property(nonatomic) int displayHint;
-@property(nonatomic) int emptyFields; // @synthesize emptyFields=_emptyFields;
-@property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long renderFlags; // @synthesize renderFlags=_renderFlags;
-@property(nonatomic) int rowHint;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) struct CGSize size;
 @property(readonly, nonatomic) NSString *string;
-@property(nonatomic) CDStruct_227bb23d styling;
-@property(retain, nonatomic) NSSet *transformationIdentifiers; // @synthesize transformationIdentifiers=_transformationIdentifiers;
 
 @end
 

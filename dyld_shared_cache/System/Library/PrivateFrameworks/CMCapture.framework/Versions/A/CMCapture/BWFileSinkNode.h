@@ -19,8 +19,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 lastFileDuration;
-@property(readonly, nonatomic) unsigned long long lastFileSize;
 @property(nonatomic) id <BWNodeFileWriterStatusDelegate> recordingStatusDelegate; // @synthesize recordingStatusDelegate=_recordingStatusDelegate;
 
 @end

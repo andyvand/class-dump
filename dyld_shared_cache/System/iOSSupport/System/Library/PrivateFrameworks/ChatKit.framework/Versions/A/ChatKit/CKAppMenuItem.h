@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface CKAppMenuItem
 {
     NSString *_displayName;
-    NSString *_identifier;
-    NSString *_accessibilityIdentifier;
-    UIImage *_image;
 }
 
++ (id)ectionType:(id)arg1 ];
 + (id);
-+ (id);
-- (id);
+- (id)can read and edit all notes within it.;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)balloonTextLinkColorForColorType: /* Error: Ran out of types for this method. */;
 - (id)AByAAym]ß\Gê]G*GSgÔ§]G_]yO]yAAyAAy³]þ]ySiSgGGrí\GSg_AVtGGt;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end
 

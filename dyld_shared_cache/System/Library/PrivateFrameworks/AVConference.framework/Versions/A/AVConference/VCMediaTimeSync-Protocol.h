@@ -5,5 +5,6 @@
 //
 
 @protocol VCMediaTimeSync
+- (void)2;
 @end
 

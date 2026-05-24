@@ -9,11 +9,6 @@
 @interface _PXStoryAspectFittingTimeline_DisplayAssetClip
 {
     id <PXDisplayAsset> _displayAsset;
-    double _weight;
-    struct CGRect _clipFrame;
-    struct CGRect _transformedFrame;
-    CDStruct_e83c9415 _clipTimeRange;
-    CDStruct_c0304e72 _clipInfo;
 }
 
 - (struct CGRect);
@@ -25,22 +20,16 @@
 - (id);
 - (long long);
 - (long long);
-- (CDStruct_e83c9415);
-- (CDStruct_c0304e72);
+- (CDStruct_e83c9415);
+- (CDStruct_58af7e62);
 - (struct CGRect);
-- (unsigned long long);
+- (unsigned long long);
 - (double)_shelfViewModelsMap;
-- (void)cerFactory;
-- (void)abilityManager;
+- (void)PXStoryPersistableRecipeProducerFactory;
+- (void)PhotosSearchFeatureAvailabilityManager;
 
 // Remaining properties
-@property(nonatomic) struct CGRect clipFrame; // @synthesize clipFrame=_clipFrame;
-@property(nonatomic) CDStruct_c0304e72 clipInfo; // @synthesize clipInfo=_clipInfo;
 @property(nonatomic) CDStruct_e83c9415 clipTimeRange; // @synthesize clipTimeRange=_clipTimeRange;
-@property(retain, nonatomic) id <PXDisplayAsset> displayAsset; // @synthesize displayAsset=_displayAsset;
-@property(readonly, nonatomic) unsigned long long orientation;
-@property(nonatomic) struct CGRect transformedFrame; // @synthesize transformedFrame=_transformedFrame;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)L3OLcHM3GMeH;
 - (void);
 - (void);
 - (_Bool);

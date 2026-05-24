@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCSController, GCSGame, GCSProfile, NSArray;
+@class NSArray;
 
 @interface GameController.GCOverlaySettingsStore
 {
     id preferencesVersion;
-    id userDefaults;
-    void connectedControllerIdentifiers;
-    void allControllers;
-    GCSController *curentController;
-    void profiles;
-    void games;
 }
 
 + (id);
@@ -27,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -40,13 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *allControllers;
 @property(nonatomic, copy) NSArray *connectedControllerIdentifiers;
-@property(nonatomic, retain) GCSController *curentController; // @synthesize curentController;
-@property(nonatomic, readonly) GCSGame *defaultGame;
-@property(nonatomic, readonly) GCSProfile *defaultProfile;
-@property(nonatomic, copy) NSArray *games;
-@property(nonatomic, copy) NSArray *profiles;
 
 @end
 

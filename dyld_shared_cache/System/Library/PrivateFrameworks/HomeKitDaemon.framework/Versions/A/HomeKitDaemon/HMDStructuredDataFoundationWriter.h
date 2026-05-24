@@ -6,15 +6,10 @@
 
 #import <HomeKitDaemon/HMDStructuredWriter.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDStructuredDataFoundationWriter : HMDStructuredWriter
 {
     id _container;
-    NSString *_currentKey;
-    NSMutableArray *_stack;
-    _Bool _mutableContainers;
 }
 
 - (void);
@@ -23,8 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)indexesOfReplacedObjects;
+- (void)s-
+;
 - (void);
 - (void);
 - (void);
@@ -33,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)public}@Rule contains an unknown '%@' value %@:%@ /* Error: Ran out of types for this method. */;
-- (void)InvitationMS;
-- (void)voiceNameValueName;
+- (void)sendInvitationMS;
+- (void)root_siri_language_voiceNameValueName;
 
 @end
 

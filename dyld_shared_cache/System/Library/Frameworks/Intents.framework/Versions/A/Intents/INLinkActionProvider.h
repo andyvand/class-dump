@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
-@protocol INAppIntentsMetadataProvider;
+@class NSDictionary;
 
 @interface INLinkActionProvider
 {
     _Bool _cacheLinkMetadata;
-    struct os_unfair_lock_s _lock;
-    id <INAppIntentsMetadataProvider> _metadataProvider;
-    NSArray *_lockCachedBundleIdentifiers;
-    NSMutableDictionary *_lockCachedActionIdentifiers;
-    NSMutableDictionary *_lockCachedEntityIdentifiers;
-    NSDictionary *_lockCachedActions;
-    NSDictionary *_lockCachedEntities;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)videEntityTypeOptionsCollectionForUncompressFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityTypeOptionsCollectionForUncompressFile:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionsGroupedByBundleIdentifier;
-@property(nonatomic, getter=isCachingLinkMetadata) _Bool cacheLinkMetadata; // @synthesize cacheLinkMetadata=_cacheLinkMetadata;
-@property(readonly, nonatomic) NSDictionary *entitiesGroupedByBundleIdentifier;
 
 @end
 

@@ -4,6 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKEvent, IMChipAction;
+
 @protocol ChatKit.CKSuggestedActionsHandlerDelegate
+- (void)Account",&,N,V_account;
+- (void)leItemAttributeSet",R,N;
+- (void)_imageViewRightLayoutConstraint;
+- (void)vatarImageRenderer",R,N,V_renderer;
+- (void)layLink;
+- (void)_hairlineLayers;
+- (void)Asset",&,N,V_currentAsset;
+- (void)N,V_layoutDelegate;
+- (void)oteHTMLEditorViewLayoutDelegate>",W,N,V_layoutDelegate;
+- (void)W,N,V_mentionsController;
+- (void)authenticateObjectWithKeychain:(IMChipAction *)arg1;
+- (void)nagedObjectChangeController;
+- (void)dObjectContextChangeController",&,N,V_managedObjectChangeController;
+- (void)ontroller;
+- (void)attributedStringFromHTMLString:(EKEvent *)arg1;
+- (void)leClickableTextView;
+- (void)attachmentViews;
+- (void)N,V_touchBarController;
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSString;
+@class NSString;
 
 @interface ICUserSpecificRecordIDParser
 {
     unsigned long long _hash;
-    NSString *_recordType;
-    CKRecordID *_recordID;
-    NSString *_sharedRecordType;
-    CKRecordID *_sharedRecordID;
 }
 
-+ (id);
++ (id)nfig record failed:(id)arg1 %@ (%d);
 + (id);
 + (_Bool);
 + (_Bool);
@@ -28,15 +24,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)";
 - (void);
 - (_Bool)Æ	øÆhÉÔÉlËäËäÌ;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
 @property(readonly, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(readonly, nonatomic) CKRecordID *sharedRecordID; // @synthesize sharedRecordID=_sharedRecordID;
-@property(readonly, nonatomic) NSString *sharedRecordType; // @synthesize sharedRecordType=_sharedRecordType;
 
 @end
 

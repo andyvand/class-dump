@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILChangeManager, NSObject, NSString;
-@protocol ILMediaObjectsProvider, NSLocking;
+@class NSString;
 
 @interface ILAuxiliaryContext
 {
     NSString *_pluginIdentifier;
-    ILChangeManager *_changeManager;
-    NSObject<ILMediaObjectsProvider> *_mediaObjectsProvider;
-    int _loadState;
-    NSObject<NSLocking> *_stateLock;
 }
 
 - (void);
@@ -21,12 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)r"16;
 - (void);
 - (void);
 - (id);
 - (id);
-- (int)sts: /* Error: Ran out of types for this method. */;
+- (int)dictionaryWithPlaylists: /* Error: Ran out of types for this method. */;
 
 @end
 

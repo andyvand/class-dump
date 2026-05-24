@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INVocabularyGenerationDocument, _INVocabularyStoreManager;
+@class NSString, _INVocabularyGenerationDocument;
 
 @interface _INSyncTransaction
 {
     NSString *_pathToLatestVocabularyDocument;
-    NSString *_pathToStagedVocabularyDocument;
-    NSString *_pathToSentVocabularyDocument;
-    NSString *_syncSlot;
-    _INVocabularyStoreManager *_storeManager;
-    _Bool _deleteExistingVocabulary;
-    _Bool _vocabularyUpdatesEnabled;
-    _Bool _fullResetRequired;
-    _INVocabularyGenerationDocument *_latest;
-    _INVocabularyGenerationDocument *_sent;
 }
 
 + (id);
@@ -33,12 +24,10 @@
 - (void);
 - (void);
 - (id);
-- (void)ified;
+- (void)INChangeAlarmStatusIntentResponseCodeUnspecified;
 
 // Remaining properties
-@property(nonatomic) _Bool fullResetRequired; // @synthesize fullResetRequired=_fullResetRequired;
 @property(readonly, nonatomic) _INVocabularyGenerationDocument *latestVocabularyDocument; // @synthesize latestVocabularyDocument=_latest;
-@property(readonly, nonatomic) _INVocabularyGenerationDocument *sentVocabularyDocument; // @synthesize sentVocabularyDocument=_sent;
 
 @end
 

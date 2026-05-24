@@ -11,11 +11,10 @@
 @interface PGGraphMomentChange : PGGraphChange
 {
     NSString *_momentUUID;
-    unsigned long long _updateTypes;
 }
 
-- (id);
-- (void);
+- (id)_menuControllerSelectedItem;
+- (void)_batteryStatus;
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *momentUUID; // @synthesize momentUUID=_momentUUID;
-@property(readonly, nonatomic) unsigned long long updateTypes; // @synthesize updateTypes=_updateTypes;
 
 @end
 

@@ -8,37 +8,23 @@ __attribute__((visibility("hidden")))
 @interface HMDHH2AutoMigrationEligibilityResult
 {
     _Bool _eligible;
-    _Bool _hasOnlyEmptyHomes;
-    unsigned long long _status;
-    unsigned long long _iCloudAccountStatus;
-    unsigned long long _unsupportedDevices;
-    unsigned long long _numberOwnedNonEmptyHomes;
-    unsigned long long _numberUnownedSharedHomes;
-    unsigned long long _numberOwnedSharedHomes;
 }
 
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)MSPDefaultMaxNumberOfNotificationsKey;
+- (unsigned long long)MSPInternalOnly_EnableSharedTripManglerKey;
+- (unsigned long long)MSPInternalOnly_EnableSharedTripManglerKey;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id)res:(struct _NSZone *)arg1;
-- (unsigned long long)aConfigurationEventHistogram;
+- (unsigned long long)_cameraConfigurationEventHistogram;
 - (_Bool)dTimer:%@ interval:%@ /* Error: Ran out of types for this method. */;
 - (id)d value type:%@ for streaming service:%@, Status Active characteristic /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, getter=isEligible) _Bool eligible; // @synthesize eligible=_eligible;
-@property(readonly) _Bool hasOnlyEmptyHomes; // @synthesize hasOnlyEmptyHomes=_hasOnlyEmptyHomes;
-@property(readonly) unsigned long long iCloudAccountStatus; // @synthesize iCloudAccountStatus=_iCloudAccountStatus;
-@property(readonly) unsigned long long numberOwnedNonEmptyHomes; // @synthesize numberOwnedNonEmptyHomes=_numberOwnedNonEmptyHomes;
-@property(readonly) unsigned long long numberOwnedSharedHomes; // @synthesize numberOwnedSharedHomes=_numberOwnedSharedHomes;
-@property(readonly) unsigned long long numberUnownedSharedHomes; // @synthesize numberUnownedSharedHomes=_numberUnownedSharedHomes;
-@property(readonly) unsigned long long status; // @synthesize status=_status;
-@property(readonly) unsigned long long unsupportedDevices; // @synthesize unsupportedDevices=_unsupportedDevices;
 
 @end
 

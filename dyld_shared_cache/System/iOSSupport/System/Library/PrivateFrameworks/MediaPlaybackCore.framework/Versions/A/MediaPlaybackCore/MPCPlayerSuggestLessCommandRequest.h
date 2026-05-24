@@ -12,17 +12,15 @@ __attribute__((visibility("hidden")))
 @interface MPCPlayerSuggestLessCommandRequest : MPCPlayerCommandRequest
 {
     _Bool _value;
-    MPModelObject *_modelObject;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)type=%{public}@ date=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;
-@property(readonly, nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

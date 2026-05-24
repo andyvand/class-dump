@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, TIEventDescriptorRegistry, TIMetricDescriptorRegistry;
-@protocol OS_dispatch_queue;
+@class TIEventDescriptorRegistry;
 
 __attribute__((visibility("hidden")))
 @interface TICounterChangeCache
 {
     TIEventDescriptorRegistry *_eventDescriptorRegistry;
-    TIMetricDescriptorRegistry *_metricDescriptorRegistry;
-    NSMutableDictionary *_cache;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableSet *_referencedCounters;
-    _Bool _userModelRateLimitingDisabled;
-    double _timeOfLastPersist;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface TTSFormatArgument
 {
     NSString *formatSpecifier;
-    NSDictionary *attributes;
-    NSString *formattedArg;
 }
 
 - (void);

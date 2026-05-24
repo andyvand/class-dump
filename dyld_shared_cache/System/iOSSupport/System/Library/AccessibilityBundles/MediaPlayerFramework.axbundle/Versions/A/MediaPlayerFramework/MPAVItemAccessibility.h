@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)AXPerformingVisiblePointHitTest;
 - (id);
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool)ward;
++ (_Bool)backward;
 - (id)alStrategy:] /* Error: Ran out of types for this method. */;
 - (long long)î;
 

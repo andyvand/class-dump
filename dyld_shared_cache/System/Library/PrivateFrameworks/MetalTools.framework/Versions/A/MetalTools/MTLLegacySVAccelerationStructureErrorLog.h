@@ -11,8 +11,6 @@
 @interface MTLLegacySVAccelerationStructureErrorLog : MTLLegacySVGPULog
 {
     NSString *_functionName;
-    unsigned long long _expectedAccelerationStructureType;
-    unsigned long long _actualAccelerationStructureType;
 }
 
 - (void);
@@ -22,11 +20,9 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id)xClamp:atIndex: /* Error: Ran out of types for this method. */;
+- (id)setVertexSamplerState:lodMinClamp:lodMaxClamp:atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long actualAccelerationStructureType; // @synthesize actualAccelerationStructureType=_actualAccelerationStructureType;
-@property(nonatomic) unsigned long long expectedAccelerationStructureType; // @synthesize expectedAccelerationStructureType=_expectedAccelerationStructureType;
 @property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MLCTensorData;
+
 @protocol _MLNeuralNetworkTensorDataStoring
+- (_Bool)alf2;
+- (MLCTensorData *)onstant %@ (%lu) value is required by function %@;
 @end
 

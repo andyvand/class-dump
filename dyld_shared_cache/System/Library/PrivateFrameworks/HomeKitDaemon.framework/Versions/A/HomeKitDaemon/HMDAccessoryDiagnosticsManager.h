@@ -6,19 +6,13 @@
 
 #import <HomeKitDaemon/HMDAccessoryDiagnosticsManagerInternal.h>
 
-@class HMDAccessoryDiagnosticsSettings, HMDHAPAccessory, HMDService, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsManager : HMDAccessoryDiagnosticsManagerInternal
 {
     _Bool _didShutDown;
-    _Bool _cloudFetchInProgress;
-    _Bool _cloudFetchCompleted;
-    HMDService *_diagnosticsService;
-    HMDAccessoryDiagnosticsSettings *_diagnosticsSettings;
 }
 
-- (id);
+- (id)Discard succeeded;
 - (void);
 - (void);
 - (void);
@@ -40,15 +34,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)__objc_intobj;
 - (void);
+- (void)setUnderlyingQueue:(id)arg1;
+- (void)deviceAuthenticationVersion;
+- (void)Successfully collected metrics %@;
+- (void)eadScalar<voffset_t>(buf_.data() + field_location->id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)operationForceGeocoderWithLocation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)B,GisConfigured,V_configured;
 - (id)%{public}@Performing Matter ecosystem device setup using request:%@ /* Error: Ran out of types for this method. */;
@@ -56,19 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)8*C;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @dynamic accessory;
-@property _Bool cloudFetchCompleted; // @synthesize cloudFetchCompleted=_cloudFetchCompleted;
-@property _Bool cloudFetchInProgress; // @synthesize cloudFetchInProgress=_cloudFetchInProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDService *diagnosticsService; // @synthesize diagnosticsService=_diagnosticsService;
-@property(retain) HMDAccessoryDiagnosticsSettings *diagnosticsSettings; // @synthesize diagnosticsSettings=_diagnosticsSettings;
-@property _Bool didShutDown; // @synthesize didShutDown=_didShutDown;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

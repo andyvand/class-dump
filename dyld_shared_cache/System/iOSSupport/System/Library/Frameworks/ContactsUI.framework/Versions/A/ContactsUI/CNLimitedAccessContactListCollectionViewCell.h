@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactFormatter, UIImage;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNLimitedAccessContactListCollectionViewCell
 {
     _Bool _isShowingSearchResult;
-    CNContact *_contact;
-    UIImage *_avatarImage;
-    CNContactFormatter *_contactFormatter;
-    unsigned long long _caption;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)labelForClassStructure:(struct CGRect)arg1 length:remoteAddress: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)_contactMiniCache;
 - (id);
 - (void)ë"p;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *avatarImage; // @synthesize avatarImage=_avatarImage;
-@property(nonatomic) unsigned long long caption; // @synthesize caption=_caption;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(nonatomic) _Bool isShowingSearchResult; // @synthesize isShowingSearchResult=_isShowingSearchResult;
 
 @end
 

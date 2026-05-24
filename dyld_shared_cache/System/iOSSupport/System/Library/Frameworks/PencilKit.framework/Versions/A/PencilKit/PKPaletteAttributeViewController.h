@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPaletteAttributeViewController
 {
     _Bool _didExperienceUserInteraction;
-    _Bool _didSendDismissStatistics;
-    unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    NSString *_toolIdentifier;
 }
 
 - (void);
@@ -31,18 +25,7 @@
 - (void)H	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didExperienceUserInteraction; // @synthesize didExperienceUserInteraction=_didExperienceUserInteraction;
 @property(nonatomic) _Bool didSendDismissStatistics; // @synthesize didSendDismissStatistics=_didSendDismissStatistics;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *toolIdentifier; // @synthesize toolIdentifier=_toolIdentifier;
 
 @end
 

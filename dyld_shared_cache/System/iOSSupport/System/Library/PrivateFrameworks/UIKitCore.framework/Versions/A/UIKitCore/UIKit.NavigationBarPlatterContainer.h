@@ -9,13 +9,10 @@
 @interface UIKit.NavigationBarPlatterContainer : _UITouchPassthroughView
 {
     id platters;
-    id platterViews;
-    id disappearingPlatterViews;
-    id assistant;
 }
 
 - (id);
-- (id)UIHIDPathCollection;
+- (id)_UIHIDPathCollection;
 - (void);
 
 @end

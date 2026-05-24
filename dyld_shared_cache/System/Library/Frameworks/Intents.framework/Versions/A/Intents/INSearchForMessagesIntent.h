@@ -6,14 +6,14 @@
 
 #import <Intents/INIntent.h>
 
-@class INDateComponentsRange, NSArray, NSString;
+@class NSArray;
 
 @interface INSearchForMessagesIntent : INIntent
 {
 }
 
 + (_Bool);
-- (long long);
+- (long long)a;
 - (id);
 - (void);
 - (void);
@@ -32,8 +32,8 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
-- (id);
+- (id)l;
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -46,49 +46,27 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void)setQueue:(id)arg1;
+- (void)initWithFileURL:(id)arg1 generatorID:generatorVersion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)cacheAssocitivity;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)l;
 - (id)î;
 
 // Remaining properties
-@property(readonly) unsigned long long attributes;
-@property(readonly, copy) NSArray *conversationIdentifiers;
-@property(readonly) long long conversationIdentifiersOperator;
-@property(readonly, copy) INDateComponentsRange *dateTimeRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *identifiers;
-@property(readonly) long long identifiersOperator;
-@property(readonly, copy) NSArray *notificationIdentifiers;
-@property(readonly) long long notificationIdentifiersOperator;
 @property(readonly, copy) NSArray *recipients;
-@property(readonly) long long recipientsOperator;
-@property(readonly, copy) NSArray *searchTerms;
-@property(readonly) long long searchTermsOperator;
-@property(readonly, copy) NSArray *senders;
-@property(readonly) long long sendersOperator;
-@property(readonly, copy) NSArray *speakableGroupNames;
-@property(readonly) long long speakableGroupNamesOperator;
-@property(readonly) Class superclass;
 
 @end
 

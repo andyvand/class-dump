@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCMediaStreamConfig, AVConferenceXPCClient, NSDictionary, NSObject, VCAudioStream;
-@protocol OS_dispatch_queue;
-
 @interface AVCAudioStream
 {
     long long _streamToken;
-    long long _uplinkToken;
-    long long _downlinkToken;
-    AVConferenceXPCClient *_connection;
-    id _delegate;
-    VCAudioStream *_opaqueStream;
-    AVCMediaStreamConfig *_configuration;
-    NSDictionary *_capabilities;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    _Bool _isInProcess;
 }
 
 + (id);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -38,7 +26,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (double);
@@ -46,55 +34,55 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)kB;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id));
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)R;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ScreenTimeAgentTests;
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -102,7 +90,7 @@
 - (float);
 - (void);
 - (id);
-- (long long)on:didStopWithError: /* Error: Ran out of types for this method. */;
+- (long long)session:didStopWithError: /* Error: Ran out of types for this method. */;
 - (void)mera available! camera name = %@;
 - (void);
 

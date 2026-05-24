@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)_UIBasicHeaderFooterContentViewConfigurationAccessibility;
 - (struct CGRect);
 - (id);
 

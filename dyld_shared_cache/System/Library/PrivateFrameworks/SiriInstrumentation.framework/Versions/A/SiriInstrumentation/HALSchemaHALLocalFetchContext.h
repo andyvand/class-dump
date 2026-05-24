@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class HALSchemaHALLocalFetchEnded, HALSchemaHALLocalFetchFailed, HALSchemaHALLocalFetchStarted, NSData;
+@class HALSchemaHALLocalFetchStarted;
 
 @interface HALSchemaHALLocalFetchContext : SISchemaInstrumentationMessage
 {
     HALSchemaHALLocalFetchStarted *_startedOrChanged;
-    HALSchemaHALLocalFetchEnded *_ended;
-    HALSchemaHALLocalFetchFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -40,8 +34,8 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)setRequestType: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id)cEvaluatorTaskName;
@@ -49,14 +43,7 @@
 - (void)È;
 
 // Remaining properties
-@property(retain, nonatomic) HALSchemaHALLocalFetchEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) HALSchemaHALLocalFetchFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) HALSchemaHALLocalFetchStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

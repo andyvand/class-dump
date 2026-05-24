@@ -5,5 +5,8 @@
 //
 
 @protocol PLAssetsdNonBindingDebugServiceProtocol
+- (id);
+- (id);
+- (id)ka;
 @end
 

@@ -13,19 +13,18 @@
     AVCapturePhotoBracketSettingsInternal_Tundra *_bracketSettingsInternal;
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)Word;
+- (_Bool)e .waiting. Error %{public}@;
+- (id)s is empty.;
+- (void)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bracketedSettings;
-@property(nonatomic, getter=isLensStabilizationEnabled) _Bool lensStabilizationEnabled;
 
 @end
 

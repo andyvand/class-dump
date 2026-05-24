@@ -4,58 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPRecordIdentifier, CKDPRecordType, NSString;
+@class NSString;
 
 @interface CKDPRecordRetrieveChangesResponseRecordChange
 {
     NSString *_etag;
-    CKDPRecord *_record;
-    CKDPRecordIdentifier *_recordIdentifier;
-    CKDPRecordType *_recordType;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (_Bool);
-- (id);
+- (id)UsoTask_summarise_common_Message;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_getBufferLevelTimeEstimateForHose;
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)setLocationChangedCallback:(id)arg1;
 - (int);
-- (id);
+- (id)TPPBDispositionUnknownReasonRemovalMachineID;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (int);
-- (void);
+- (void)SBJ
+bmMuMQwwCgYDVQQLEwNFVFMxDzANBgNVBAMTBlJhcHRvcoIJAKLEjm9wthY+MAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAqrgiRsSNB4ubv2ZDUqH7p1a1
+Hca1vMmXZy1bTBXTbxoNJ/tHnkBZrQHoRq31931Sd6CDLnN/8h+Zpcg7C40vKMBu
+nJ4gaPVrPZlv36rrW/xNf6ZLETt0Q8VM554/P2QfT4aU/2v2rFb/orAqsKSW6wtJ
+9WmL1qAfmVJAPdcwYbY=
+-----END CERTIFICATE-----;
 - (_Bool);
-- (id)sertUserIdentity:(int)arg1 forLookupInfo:container: /* Error: Ran out of types for this method. */;
-- (_Bool)nLocKey;
-- (void)eplaceResponse;
+- (id)insertUserIdentity:(int)arg1 forLookupInfo:container: /* Error: Ran out of types for this method. */;
+- (_Bool)hasActionLocKey;
+- (void)CKDPMergeableDeltaReplaceResponse;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasRecord;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasRecordType;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) CKDPRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) CKDPRecordType *recordType; // @synthesize recordType=_recordType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

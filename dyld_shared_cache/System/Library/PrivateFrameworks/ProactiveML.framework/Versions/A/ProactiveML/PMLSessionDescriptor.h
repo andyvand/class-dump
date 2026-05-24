@@ -9,41 +9,29 @@
 @interface PMLSessionDescriptor
 {
     _PASLazyResult *_featureVersion;
-    NSString *_name;
-    NSString *_version;
-    NSString *_locale;
 }
 
 + (float);
 + (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (float);
-- (id);
-- (id);
+- (id)usageTable;
+- (id)P;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

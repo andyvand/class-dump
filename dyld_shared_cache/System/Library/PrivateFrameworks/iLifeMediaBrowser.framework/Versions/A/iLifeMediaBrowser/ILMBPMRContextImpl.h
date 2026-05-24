@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface ILMBPMRContextImpl
 {
     NSMutableDictionary *mInstruments;
-    NSString *mAppName;
-    NSString *mLogPath;
-    NSString *mDefaultInstrumentType;
 }
 
-- (struct ILMBPMRInstrument *);
-- (void);
-- (void);
+- (struct ILMBPMRInstrument *)poraryDirectory.foAUbA/Sources/FeldsparServices/feldsparfoundation/FeldsparFoundation/Promises/NFPromise.m;
+- (void)zalgo;
+- (void)alerted;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)hString;
+- (id)_searchString;
 
 @end
 

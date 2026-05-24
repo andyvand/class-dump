@@ -6,26 +6,18 @@
 
 #import <AVFCore/AVSearchCursor.h>
 
-@class AVLegibleMediaSearchMatchDescription, AVStringSearchPredicate, NSArray;
+@class AVStringSearchPredicate;
 
 __attribute__((visibility("hidden")))
 @interface AVLegibleMediaSearchCursor : AVSearchCursor
 {
     struct OpaqueFigCaptionSearch *_captionSearchService;
-    CDStruct_1b6d18a9 _inputPTS;
-    AVStringSearchPredicate *_predicate;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _hasBeenSetUp;
-    unsigned long long _matchIndex;
-    unsigned long long _cueMatchIndex;
-    unsigned long long _numMatchesInCue;
-    NSArray *_results;
 }
 
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id);
 - (long long);
 - (void);
 - (int);
@@ -34,14 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)";
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVLegibleMediaSearchMatchDescription *matchDescription;
 @property(readonly, nonatomic) AVStringSearchPredicate *predicate;
 
 @end

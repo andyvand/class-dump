@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CalCancelable;
+
 @protocol CalAsyncBlockPerformer
+- (id <CalCancelable>)amEndpointObj}"numMemoryTrackers"I"pMemoryTracker"^{uarpMemoryTracker}};
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, OSPRequest;
+@class OSPRequest;
 
 @interface OSPGlobalSigningController
 {
     OSPRequest *_request;
-    NSOperationQueue *_queue;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSOperationQueue *queue; // @synthesize queue=_queue;
 @property(retain) OSPRequest *request; // @synthesize request=_request;
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)tableTextAccessibleLabel: /* Error: Ran out of types for this method. */;
 
 @end
 

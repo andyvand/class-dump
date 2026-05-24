@@ -11,7 +11,6 @@
 @interface AKCropAdornmentLayer : AKAdornmentLayer
 {
     CAShapeLayer *_cornerHandlesLayer;
-    CAShapeLayer *_edgeHandlesLayer;
 }
 
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain) CAShapeLayer *cornerHandlesLayer; // @synthesize cornerHandlesLayer=_cornerHandlesLayer;
-@property(retain) CAShapeLayer *edgeHandlesLayer; // @synthesize edgeHandlesLayer=_edgeHandlesLayer;
 
 @end
 

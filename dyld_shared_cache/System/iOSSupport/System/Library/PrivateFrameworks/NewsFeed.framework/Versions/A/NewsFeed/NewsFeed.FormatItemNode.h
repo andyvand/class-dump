@@ -7,18 +7,6 @@
 @interface NewsFeed.FormatItemNode
 {
     id _identifier;
-    id itemIdentifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id _styles;
-    id _selectors;
-    id _options;
-    id _blocks;
-    id _zIndex;
-    id _visibility;
-    id _sourceItems;
-    id flex;
 }
 
 @end

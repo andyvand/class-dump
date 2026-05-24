@@ -7,6 +7,7 @@
 @class EMObjectID;
 
 @protocol EMDiagnosticInfoProviding
+- (EMObjectID *)P;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) EMObjectID *providerObjectID;

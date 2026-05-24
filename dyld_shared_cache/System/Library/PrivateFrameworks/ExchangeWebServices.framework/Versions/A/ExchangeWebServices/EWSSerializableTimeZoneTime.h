@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
-
 @interface EWSSerializableTimeZoneTime
 {
     long long _Bias;
-    NSDateComponents *_Time;
-    long long _DayOrder;
-    long long _Month;
-    long long _DayOfWeek;
-    NSString *_Year;
 }
 
 + (id);
@@ -25,28 +18,17 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)c;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))
+*$;
 
 // Remaining properties
 @property(nonatomic) long long Bias; // @synthesize Bias=_Bias;
-@property(nonatomic) long long DayOfWeek; // @synthesize DayOfWeek=_DayOfWeek;
-@property(nonatomic) long long DayOrder; // @synthesize DayOrder=_DayOrder;
-@property(nonatomic) long long Month; // @synthesize Month=_Month;
-@property(retain, nonatomic) NSDateComponents *Time; // @synthesize Time=_Time;
-@property(copy, nonatomic) NSString *Year; // @synthesize Year=_Year;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

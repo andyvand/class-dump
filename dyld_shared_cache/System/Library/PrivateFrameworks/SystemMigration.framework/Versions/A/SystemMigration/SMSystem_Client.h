@@ -6,64 +6,18 @@
 
 #import <SystemMigration/SMSystem.h>
 
-@class NSArray, NSImage, NSMutableSet, NSNumber, NSObject, NSString, NSURL, SMSystemStateTransformer, SMSystemTypeTransformer;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface SMSystem_Client : SMSystem
 {
     _Bool selected;
-    _Bool selectableSystem;
-    _Bool enabled;
-    _Bool availableAction;
-    _Bool ineligible;
-    _Bool isFileProviderBusy;
-    _Bool isFinalSelectedSystem;
-    _Bool isNetworkSystem;
-    _Bool isRemoteSystem;
-    _Bool forceUnlock;
-    _Bool sortsToTop;
-    _Bool valid;
-    NSArray *childSystems;
-    unsigned long long state;
-    unsigned long long stateError;
-    NSString *ineligibleReasonKey;
-    NSString *systemName;
-    NSString *volumeName;
-    NSURL *path;
-    unsigned long long systemType;
-    NSString *productVersion;
-    NSString *systemVersion;
-    long long enrolledBetaProgram;
-    NSURL *remoteDiskID;
-    NSString *accessibilityDescription;
-    unsigned long long freeSpace;
-    NSNumber *passcode;
-    id longTermIdentifier;
-    id exlongTermIdentifier;
-    NSMutableSet *childReferences;
-    NSArray *allGroupsCache;
-    id primaryIdentifier;
-    NSString *modelID;
-    NSString *displayName;
-    NSString *availableActionLabel;
-    NSImage *displayIcon;
-    NSImage *warningBadge;
-    NSImage *idBadge;
-    NSString *displayState;
-    unsigned long long uiRank;
-    NSString *volumeIconAccesibilityLabel;
-    NSArray *availableBackups;
-    SMSystemTypeTransformer *_systemTypeTransformer;
-    SMSystemStateTransformer *_systemStateTransformer;
-    NSArray *_allUsersCache;
-    NSObject<OS_dispatch_queue> *_daemonPropertyQueue;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (Class);
++ (Class)T;
 + (id);
 + (id);
 - (id);
@@ -96,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -147,7 +101,7 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -171,75 +125,24 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (void)/libobjc.A.dylib;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)%K;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)ByTopLevelFolder: /* Error: Ran out of types for this method. */;
+- (void)setPathStatsByTopLevelFolder: /* Error: Ran out of types for this method. */;
 - (_Bool)s to Migrate in %@ record.;
 - (void)sssNewTotalSizeCompleted:(id)arg1;
 
 // Remaining properties
-@property(retain) NSString *accessibilityDescription; // @synthesize accessibilityDescription;
-@property(readonly) __weak NSArray *allGroups;
-@property(retain) NSArray *allGroupsCache; // @synthesize allGroupsCache;
-@property(readonly) __weak NSArray *allUsers;
-@property(retain) NSArray *allUsersCache; // @synthesize allUsersCache=_allUsersCache;
-@property _Bool availableAction; // @synthesize availableAction;
-@property(readonly) NSString *availableActionLabel; // @synthesize availableActionLabel;
-@property(retain) NSArray *availableBackups; // @synthesize availableBackups;
-@property(readonly) _Bool availableInSystemLists;
 @property(retain) NSMutableSet *childReferences; // @synthesize childReferences;
-@property(retain) NSArray *childSystems; // @synthesize childSystems;
-@property(retain) NSObject<OS_dispatch_queue> *daemonPropertyQueue; // @synthesize daemonPropertyQueue=_daemonPropertyQueue;
-@property(retain) NSImage *displayIcon; // @synthesize displayIcon;
-@property(readonly) NSString *displayName; // @synthesize displayName;
-@property(retain) NSString *displayState; // @synthesize displayState;
-@property _Bool enabled; // @synthesize enabled;
-@property long long enrolledBetaProgram; // @synthesize enrolledBetaProgram;
-@property(retain) id exlongTermIdentifier; // @synthesize exlongTermIdentifier;
-@property _Bool forceUnlock; // @synthesize forceUnlock;
-@property unsigned long long freeSpace; // @synthesize freeSpace;
-@property(retain) NSImage *idBadge; // @synthesize idBadge;
-@property _Bool ineligible; // @synthesize ineligible;
-@property(retain) NSString *ineligibleReasonKey; // @synthesize ineligibleReasonKey;
-@property _Bool isFileProviderBusy; // @synthesize isFileProviderBusy;
-@property _Bool isFinalSelectedSystem; // @synthesize isFinalSelectedSystem;
-@property _Bool isNetworkSystem; // @synthesize isNetworkSystem;
-@property _Bool isRemoteSystem; // @synthesize isRemoteSystem;
-@property(retain) id longTermIdentifier; // @synthesize longTermIdentifier;
-@property(readonly) unsigned long long migratableItemsSupported;
-@property(readonly) unsigned long long migrationServerType;
-@property(readonly) __weak NSString *migrationServerVersion;
-@property(retain) NSString *modelID; // @synthesize modelID;
-@property(readonly) NSNumber *passcode; // @synthesize passcode;
-@property(retain) NSURL *path; // @synthesize path;
-@property(retain) id primaryIdentifier; // @synthesize primaryIdentifier;
-@property(retain) NSString *productVersion; // @synthesize productVersion;
-@property(retain) NSURL *remoteDiskID; // @synthesize remoteDiskID;
-@property _Bool selectableSystem; // @synthesize selectableSystem;
-@property _Bool selected; // @synthesize selected;
-@property _Bool sortsToTop; // @synthesize sortsToTop;
-@property unsigned long long state; // @synthesize state;
-@property unsigned long long stateError; // @synthesize stateError;
-@property(retain) NSString *systemName; // @synthesize systemName;
-@property(retain) SMSystemStateTransformer *systemStateTransformer; // @synthesize systemStateTransformer=_systemStateTransformer;
-@property unsigned long long systemType; // @synthesize systemType;
-@property(retain) SMSystemTypeTransformer *systemTypeTransformer; // @synthesize systemTypeTransformer=_systemTypeTransformer;
-@property(retain) NSString *systemVersion; // @synthesize systemVersion;
-@property unsigned long long uiRank; // @synthesize uiRank;
-@property _Bool valid; // @synthesize valid;
-@property(retain) NSString *volumeIconAccesibilityLabel; // @synthesize volumeIconAccesibilityLabel;
-@property(retain) NSString *volumeName; // @synthesize volumeName;
-@property(retain) NSImage *warningBadge; // @synthesize warningBadge;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-
 @interface MTLToolsGLDrawable : MTLToolsObject
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)a�!;
 - (int);
 - (int);
 - (int);
@@ -23,20 +21,9 @@
 - (int);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int height;
-@property(readonly) Class superclass;
-@property(readonly) int surfaceHeight;
-@property(readonly) int surfaceWidth;
-@property(readonly) int width;
 @property(readonly) unsigned long long windowMode;
 
 @end

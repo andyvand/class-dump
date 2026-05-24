@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNScheduler;
-
 __attribute__((visibility("hidden")))
 @interface _CNUIDataCollectorSGLogger
 {
     CDUnknownBlockType _serviceProvider;
-    id <CNScheduler> _workQueue;
 }
 
 - (void);
@@ -19,23 +15,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (id);
+- (CDUnknownBlockType)|;
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
+- (void)cancelSearch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) CDUnknownBlockType serviceProvider; // @synthesize serviceProvider=_serviceProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

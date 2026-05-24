@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)Pf;
 
 // Remaining properties
 @property(retain, nonatomic) EWSItemType *Item; // @synthesize Item=_Item;

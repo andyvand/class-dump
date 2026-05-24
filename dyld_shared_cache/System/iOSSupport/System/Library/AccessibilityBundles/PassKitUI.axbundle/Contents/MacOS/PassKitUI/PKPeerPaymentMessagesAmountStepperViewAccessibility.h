@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)},R,N,V_textRange;
++ (void);
 - (void);
 - (void);
 - (void);

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TCFontFamily;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TCFont
 {
     NSDictionary *_namesByLanguage;
-    NSString *_psName;
-    TCFontFamily *_family;
-    struct TCFontStyling _styling;
 }
 
 + (id);
@@ -28,15 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id)tem = %@, name = %@, uuid = %@, valid = %@>;
+- (id)!;
 - (void)nternal/Library/BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSULocale.m;
 
 // Remaining properties
-@property(nonatomic) TCFontFamily *family; // @synthesize family=_family;
 @property(readonly, nonatomic) NSDictionary *namesByLanguage; // @synthesize namesByLanguage=_namesByLanguage;
-@property(readonly, nonatomic) NSString *psName; // @synthesize psName=_psName;
-@property(readonly, nonatomic) struct TCFontStyling styling; // @synthesize styling=_styling;
 
 @end
 

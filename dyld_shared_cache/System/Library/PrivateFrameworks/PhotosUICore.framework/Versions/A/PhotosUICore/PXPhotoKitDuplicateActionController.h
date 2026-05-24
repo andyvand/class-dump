@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSUndoManager, PXDuplicateAssetsAction;
+@class NSProgress, PXDuplicateAssetsAction;
 
 @interface PXPhotoKitDuplicateActionController
 {
     PXDuplicateAssetsAction *_action;
-    NSUndoManager *_undoManager;
-    NSProgress *_progress;
 }
 
 + (void);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) _Bool shouldUseAlertController;
-@property(readonly, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

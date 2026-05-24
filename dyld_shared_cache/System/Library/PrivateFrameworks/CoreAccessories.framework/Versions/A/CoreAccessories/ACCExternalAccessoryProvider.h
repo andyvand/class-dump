@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSObject, NSString, NSXPCConnection;
-@protocol ACCExternalAccessoryProviderProtocol, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface ACCExternalAccessoryProvider
 {
     _Bool _isClientRegistered;
-    int _clientCapabilities;
-    id <ACCExternalAccessoryProviderProtocol> _delegate;
-    NSXPCConnection *_serverConnection;
-    NSDictionary *_eaClientRegistrationInfo;
-    NSMutableSet *_currentlyConnectedAccessories;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
 }
 
 + (id);
-- (id);
+- (id))I*)	I*);
 - (void);
 - (void);
 - (void);
@@ -46,50 +39,37 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id)%{public}@};
+- (_Bool)dataUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void)`;
 - (id);
 - (void);
-- (void);
+- (id);
+- (_Bool)E;
+- (void)n Status API;
+- (void)ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, WTF:(id)arg1:(id)arg2 KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)SString"16@"NSString"24@"NSDate"32@?<v@?@"SGXPCResponse1">40;
 - (void);
 - (void);
 - (int);
-- (void);
-- (id);
+- (void)recipientString;
+- (id)s/;
 - (void);
 - (void);
 
 // Remaining properties
-@property int clientCapabilities; // @synthesize clientCapabilities=_clientCapabilities;
-@property(retain) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(retain) NSMutableSet *currentlyConnectedAccessories; // @synthesize currentlyConnectedAccessories=_currentlyConnectedAccessories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ACCExternalAccessoryProviderProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *eaClientRegistrationInfo; // @synthesize eaClientRegistrationInfo=_eaClientRegistrationInfo;
-@property(readonly) unsigned long long hash;
-@property _Bool isClientRegistered; // @synthesize isClientRegistered=_isClientRegistered;
 @property(retain) NSXPCConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface PhotosUICore.PhotosFullscreenPlaybackOverlayController
 {
     id _storyViewModel;
-    id _canBeVisible;
-    id model;
-    void containerViewController;
 }
 
 - (void);
@@ -20,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSViewController *containerViewController; // @synthesize containerViewController;
-@property(nonatomic, readonly) struct CGSize effectiveContentSize;
 
 @end
 

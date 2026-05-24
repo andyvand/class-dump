@@ -5,5 +5,6 @@
 //
 
 @protocol AFUIBridgeService
+- (oneway void);
 @end
 

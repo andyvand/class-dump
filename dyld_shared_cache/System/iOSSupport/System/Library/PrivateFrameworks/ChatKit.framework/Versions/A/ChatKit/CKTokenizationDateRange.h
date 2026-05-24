@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface CKTokenizationDateRange
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-- (id);
+- (id)coalesceAuthorHighlightUpdates;
 - (id);
 - (id);
 - (id);
 - (void)H;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

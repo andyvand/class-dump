@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

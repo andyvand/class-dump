@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHSubRequestEnded, ORCHSchemaORCHSubRequestFailed, ORCHSchemaORCHSubRequestStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHSubRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_subRequestId;
-    ORCHSchemaORCHSubRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHSubRequestFailed *_failed;
-    ORCHSchemaORCHSubRequestEnded *_ended;
-    _Bool _hasSubRequestId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasFailed;
-    _Bool _hasEnded;
-    unsigned long long _whichSubrequestevent;
 }
 
 - (unsigned long long);
@@ -35,10 +27,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void){:(_Bool)arg1;
 - (_Bool);
 - (void);
-- (void);
+- (void)@y?;
 - (id);
 - (id);
 - (id);
@@ -47,25 +39,16 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)attachments %ld from %ld most recent chats:(id)arg1 (Results:%ld) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
-- (id)enrichedUrl;
-- (id)ernSequenceGenerated: /* Error: Ran out of types for this method. */;
+- (id)_enrichedUrl;
+- (id)setHasPatternSequenceGenerated: /* Error: Ran out of types for this method. */;
 - (void)actionConfirmation.systemStyle.generativeAIEnablement.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHSubRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHSubRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHSubRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
 @property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(readonly, nonatomic) unsigned long long whichSubrequestevent; // @synthesize whichSubrequestevent=_whichSubrequestevent;
 
 @end
 

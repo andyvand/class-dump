@@ -12,7 +12,7 @@
 {
 }
 
-- (void);
+- (void)9H;
 - (void);
 - (id);
 - (id);
@@ -22,14 +22,10 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) int columnNumber;
 @property(copy, nonatomic) NSString *functionName;
-@property(nonatomic) int lineNumber;
-@property(copy, nonatomic) NSString *scriptId;
-@property(copy, nonatomic) NSString *url;
 
 @end
 

@@ -6,29 +6,16 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDOperation, CKUploadRequestConfiguration, NSArray, NSDictionary, NSMutableDictionary, NSSet;
-@protocol CKRepairAssetsOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDRepairAssetsOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _assetOrPackageRepairedBlock;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
-    NSDictionary *_UUIDToAssetOrPackage;
-    NSDictionary *_assetOrPackageUUIDToMetadata;
-    NSArray *_unavailableAssetsAndPackages;
-    CKDOperation *_fetchOperation;
-    CKDOperation *_uploadOperation;
-    CKDOperation *_updateOperation;
-    NSMutableDictionary *_assetOrPackageUUIDToOriginalRecord;
-    NSDictionary *_assetOrPackageUUIDToUploadError;
-    NSSet *_uploadedAssetOrPackageUUIDs;
 }
 
-+ (id);
++ (id)setThermalIndex50Duration:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,11 +34,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)mestamp IS NOT NULL                         AND read.firstReadTimestamp >= recategorize.lastRecategorizeTimestamp                     THEN FALSE                WHEN read.firstReadTimestamp IS NULL                         AND recategorize.lastRecategorizeTimestamp IS NULL                     THEN False                ELSE NULL                END AS hadReadBeforeRecat,           receive.reasonCodes,           recategorize.recategorizationBy,           receive.isL1,           ROW_NUMBER() OVER (ORDER BY RANDOM()) AS rn    FROM receive         LEFT JOIN read                 ON receive.accountId = read.accountId                    AND receive.messageId = read.messageId         LEFT JOIN recategorize                 ON receive.accountId = recategorize.accountId                    AND receive.messageId = recategorize.messageId), sampled_msg_cnt AS (    SELECT MIN(500, (ABS(RANDOM()) %% (COUNT(*) - FLOOR(0.9 * COUNT(*)) + 1)) + FLOOR(0.9 * COUNT(*))) AS max_rn    FROM flattened) SELECT accountId,       messageId,       senderId,       receivingAccountDomain,       metadataPrimaryKey,       isAllInboxesBlackPearlEnabled,       isMailAccountPersonalAccount,       isMailAccountBlackPearlEnabled,       predictedCategory,       currCategoryView,       hadFirstReadWithBlackPearlEnabled,       hadReadBeforeRecat,       reasonCodes,       recategorizationBy,       isL1 FROM flattened      JOIN sampled_msg_cnt           ON 1=1 WHERE rn <= max_rn;;
 - (id);
 - (void);
 - (void);
@@ -61,19 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *UUIDToAssetOrPackage; // @synthesize UUIDToAssetOrPackage=_UUIDToAssetOrPackage;
-@property(copy, nonatomic) CDUnknownBlockType assetOrPackageRepairedBlock; // @synthesize assetOrPackageRepairedBlock=_assetOrPackageRepairedBlock;
-@property(retain, nonatomic) NSDictionary *assetOrPackageUUIDToMetadata; // @synthesize assetOrPackageUUIDToMetadata=_assetOrPackageUUIDToMetadata;
-@property(retain, nonatomic) NSMutableDictionary *assetOrPackageUUIDToOriginalRecord; // @synthesize assetOrPackageUUIDToOriginalRecord=_assetOrPackageUUIDToOriginalRecord;
-@property(retain, nonatomic) NSDictionary *assetOrPackageUUIDToUploadError; // @synthesize assetOrPackageUUIDToUploadError=_assetOrPackageUUIDToUploadError;
-@property(retain, nonatomic) id <CKRepairAssetsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) CKDOperation *fetchOperation; // @synthesize fetchOperation=_fetchOperation;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSArray *unavailableAssetsAndPackages; // @synthesize unavailableAssetsAndPackages=_unavailableAssetsAndPackages;
-@property(retain, nonatomic) CKDOperation *updateOperation; // @synthesize updateOperation=_updateOperation;
-@property(retain, nonatomic) CKDOperation *uploadOperation; // @synthesize uploadOperation=_uploadOperation;
-@property(retain, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
-@property(retain, nonatomic) NSSet *uploadedAssetOrPackageUUIDs; // @synthesize uploadedAssetOrPackageUUIDs=_uploadedAssetOrPackageUUIDs;
 
 @end
 

@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutVisualTreeNode : _NSCollectionLayoutVisualFormatItem
 {
     int _axis;
-    NSArray *_children;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)== kSHTTPConnectionCacheEntryNewTubeCreated;
+- (id);
 - (id);
 - (void);
 - (int);
 - (_Bool);
-- (_Bool)PanelFace;
+- (_Bool)FontPanelFace;
 - (void)nnull, NSLayoutAttribute, NSUserInterfaceLayoutDirection, NSView * _Nonnull * _Nonnull, NSLayoutAttribute * _Nonnull, NSView * _Nonnull * _Nonnull, NSLayoutAttribute * _Nonnull);
 
 // Remaining properties
-@property(nonatomic) int axis; // @synthesize axis=_axis;
 @property(retain, nonatomic) NSArray *children; // @synthesize children=_children;
 
 @end

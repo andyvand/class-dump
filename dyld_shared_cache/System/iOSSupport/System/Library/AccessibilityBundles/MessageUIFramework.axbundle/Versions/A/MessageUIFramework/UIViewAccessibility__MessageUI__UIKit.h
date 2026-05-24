@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)___UICollectionViewListHeaderFooterAccessibility_super;
 + (void);
 - (void);
 - (_Bool);

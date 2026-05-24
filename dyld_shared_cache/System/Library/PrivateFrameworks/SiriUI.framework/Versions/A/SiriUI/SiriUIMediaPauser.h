@@ -12,12 +12,13 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (int);
++ (id)Sh
+;
++ (int)(	;
 + (void);
 + (void);
 + (_Bool);

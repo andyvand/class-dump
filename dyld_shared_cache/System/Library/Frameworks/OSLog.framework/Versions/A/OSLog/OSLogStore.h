@@ -9,17 +9,16 @@
 @interface OSLogStore
 {
     OSLogEventSource *_source;
-    int _constraint;
 }
 
 + (id);
++ (id)0;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

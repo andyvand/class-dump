@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INUnsendMessagesIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setUserInfoValueProviderForDomain:(long long)arg1 provider: /* Error: Ran out of types for this method. */;
++ (long long)setParentDirectorySandboxWrapper:(int)arg1;
++ (_Bool)setGenerateThumbnailsAtBackgroundPriority:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)_GCLogicalDevice>"16;
 - (id);
-- (id);
-- (void);
+- (void)N:(id)arg1 Found followup 6GHz BSS target from RNR (scanResult=%{public}@, RNRBSS=%{public}@, knownNetwork=%{public}@);
 - (id);
 - (id);
 - (long long)me;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

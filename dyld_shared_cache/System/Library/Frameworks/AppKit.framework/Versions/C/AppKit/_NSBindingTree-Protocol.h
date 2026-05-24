@@ -5,5 +5,8 @@
 //
 
 @protocol _NSBindingTree
+- (id)ysConfig3 *__singleallocSysConfig3(SysConfig3Magic, SysConfig3Version);
+- (_Bool)Library/PrivateFrameworks/NearField.framework/Contents/MacOS/NearField;
+- (_Bool);
 @end
 

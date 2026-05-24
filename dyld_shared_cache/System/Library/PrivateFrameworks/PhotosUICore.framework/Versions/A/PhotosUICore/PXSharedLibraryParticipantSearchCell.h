@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSLayoutConstraint, NSString, NSTextField, PXRoundImageView;
-@protocol PXSharedLibraryParticipantSearchCellDisclosureDelegate;
+@class NSLayoutConstraint, NSString;
 
 @interface PXSharedLibraryParticipantSearchCell
 {
     NSLayoutConstraint *_canDiscloseStackViewTrailingConstraint;
-    NSLayoutConstraint *_cannotDiscloseStackViewTrailingConstraint;
-    PXRoundImageView *_imageView;
-    NSTextField *_textLabel;
-    NSTextField *_detailTextLabel;
-    NSButton *_discloseButton;
-    _Bool _isValid;
-    _Bool _canDisclose;
-    NSString *_contactIdentifier;
-    NSString *_text;
-    NSString *_detailText;
-    NSImage *_image;
-    long long _resultType;
-    id <PXSharedLibraryParticipantSearchCellDisclosureDelegate> _disclosureDelegate;
 }
 
 - (id);
@@ -34,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (void);
@@ -49,14 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canDisclose; // @synthesize canDisclose=_canDisclose;
 @property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-@property(nonatomic) __weak id <PXSharedLibraryParticipantSearchCellDisclosureDelegate> disclosureDelegate; // @synthesize disclosureDelegate=_disclosureDelegate;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

@@ -6,17 +6,13 @@
 
 #import <HomeKitDaemon/HMCContextProvider.h>
 
-@class HMDAppleAccountManager, HMDRemoteAccountManager, NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccountRegistry : HMCContextProvider
 {
     struct os_unfair_lock_s _lock;
-    _Bool _started;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMDRemoteAccountManager *_remoteAccountManager;
-    HMDAppleAccountManager *_appleAccountManager;
 }
 
 + (id);
@@ -33,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)ssets Trial update handler loading trialManager;
 - (void);
 - (id);
 - (void);
@@ -61,9 +57,9 @@ __attribute__((visibility("hidden")))
 - (void)rom pair setup:(id)arg1 %@;
 - (id)ecording load balancing because it is the primary resident:(id)arg1 %@;
 - (id)er devices:%@ /* Error: Ran out of types for this method. */;
-- (id)ication;
-- (id)otificationKey;
-- (void)diaShuffleState;
+- (id)HMDAppleMediaAccessoryCapabilitiesUpdatedNotification;
+- (id)kStreamStoppedRemoteNotificationKey;
+- (void)HMMediaShuffleState;
 - (_Bool);
 - (void)Aüó@;
 - (unsigned long long);
@@ -71,18 +67,7 @@ __attribute__((visibility("hidden")))
 - (void)kÒTD;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-@property(readonly) __weak HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDRemoteAccountManager *remoteAccountManager; // @synthesize remoteAccountManager=_remoteAccountManager;
-@property(readonly) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

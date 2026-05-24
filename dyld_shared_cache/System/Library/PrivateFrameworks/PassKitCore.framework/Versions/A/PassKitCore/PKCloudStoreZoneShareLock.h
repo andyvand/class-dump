@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKCloudStoreZoneShareLock
 {
     NSString *_zoneName;
-    NSDate *_creationDate;
-    NSString *_originDeviceIdentifier;
-    NSString *_originDeviceName;
 }
 
 + (id);
@@ -22,29 +19,27 @@
 + (_Bool)î%Ð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)I;
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)J;
 - (void);
 - (void);
-- (void);
+- (id)";
 - (id);
-- (id);
-- (id);
+- (id)j"D)
+k`;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasLowTxPhyRateFalse;
 - (void);
 - (id)id Exit Field;
 - (void)ame;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy, nonatomic) NSString *originDeviceIdentifier; // @synthesize originDeviceIdentifier=_originDeviceIdentifier;
-@property(readonly, copy, nonatomic) NSString *originDeviceName; // @synthesize originDeviceName=_originDeviceName;
 @property(readonly, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end

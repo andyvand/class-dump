@@ -6,29 +6,22 @@
 
 #import <ContactsDonation/_CNDExtensionContext.h>
 
-@class CNDonationExtensionRequestHandler, NSString;
+@class CNDonationExtensionRequestHandler;
 
 @interface _CNDRemoteExtensionContext : _CNDExtensionContext
 {
     CNDonationExtensionRequestHandler *_requestHandler;
 }
 
-- (void);
-- (void);
+- (void)ictionary",R;
+- (void)ionary",&,N,V_subImages;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)displaysLocalCameras;
+- (void)_serverName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNDonationExtensionRequestHandler *requestHandler; // @synthesize requestHandler=_requestHandler;
-@property(readonly) Class superclass;
 
 @end
 

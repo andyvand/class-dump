@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WiFiChannel, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiP2PAWDLState
 {
     _Bool _supportsSoloMode;
-    _Bool _supportsDataTransfer;
-    _Bool _isEnabled;
-    unsigned int _substate;
-    NSString *_interfaceName;
-    NSArray *_channelSequence;
-    WiFiMACAddress *_macAddress;
-    WiFiChannel *_peerMasterChannel;
-    WiFiChannel *_peerPrimaryPreferredChannel;
-    WiFiChannel *_peerSecondaryPreferredChannel;
 }
 
 + (_Bool);
-+ (id);
++ (id)t %{public}s:%d, %{public}s forbids:%{public}s. Requires a delegate /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -36,21 +27,12 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id)Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsPredictor.m;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *channelSequence; // @synthesize channelSequence=_channelSequence;
 @property(readonly, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) WiFiMACAddress *macAddress; // @synthesize macAddress=_macAddress;
-@property(readonly, nonatomic) WiFiChannel *peerMasterChannel; // @synthesize peerMasterChannel=_peerMasterChannel;
-@property(readonly, nonatomic) WiFiChannel *peerPrimaryPreferredChannel; // @synthesize peerPrimaryPreferredChannel=_peerPrimaryPreferredChannel;
-@property(readonly, nonatomic) WiFiChannel *peerSecondaryPreferredChannel; // @synthesize peerSecondaryPreferredChannel=_peerSecondaryPreferredChannel;
-@property(readonly, nonatomic) unsigned int substate; // @synthesize substate=_substate;
-@property(readonly, nonatomic) _Bool supportsDataTransfer; // @synthesize supportsDataTransfer=_supportsDataTransfer;
-@property(readonly, nonatomic) _Bool supportsSoloMode; // @synthesize supportsSoloMode=_supportsSoloMode;
 
 @end
 

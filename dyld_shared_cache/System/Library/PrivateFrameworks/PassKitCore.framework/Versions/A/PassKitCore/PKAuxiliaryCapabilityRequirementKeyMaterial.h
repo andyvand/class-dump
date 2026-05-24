@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKAuxiliaryCapabilityRequirementKeyMaterial
 {
     NSArray *_contents;
-    NSArray *_encryptedContents;
-    NSArray *_rootAttestation;
-    NSString *_version;
 }
 
 + (_Bool)X"Ð!Cùî%Ð1Â0@ù
@@ -19,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)n*;
 - (id);
 - (id);
 - (id);
@@ -27,18 +24,15 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)hasConfigType;
 - (void);
 - (void);
 - (id);
-- (id)Value;
-- (void)cesAirplaneModeDidChangeNotification;
+- (id)_unformattedValue;
+- (void)RadiosPreferencesAirplaneModeDidChangeNotification;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) NSArray *encryptedContents; // @synthesize encryptedContents=_encryptedContents;
-@property(retain, nonatomic) NSArray *rootAttestation; // @synthesize rootAttestation=_rootAttestation;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

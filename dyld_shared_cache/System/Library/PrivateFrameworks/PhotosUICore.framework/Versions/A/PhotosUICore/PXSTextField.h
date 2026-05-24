@@ -9,8 +9,6 @@
 @interface PXSTextField
 {
     _Bool _emphasized;
-    NSString *_text;
-    double _fontSize;
 }
 
 + (id);
@@ -18,16 +16,14 @@
 - (id);
 - (id)(°!ÄCù<ð1Â0@ù
 × ;
-- (double)y;
+- (double)allowsUnadjustedOpportunisticDelivery;
 - (void)àÝøÞß;
 - (_Bool);
 - (void)Description);
 - (void)MessagesStackItemsLayout didUpdate];
-- (void)deStoryScrubberKind;
+- (void)PXLemonadeStoryScrubberKind;
 
 // Remaining properties
-@property(nonatomic, getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

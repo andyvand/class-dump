@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPurchaseResult, AMSPurchaseSIWAAuthorizationResult;
+@class AMSPurchaseResult;
 
 @interface AMSPurchaseSIWAResult
 {
     AMSPurchaseResult *_purchaseResult;
-    AMSPurchaseSIWAAuthorizationResult *_authorizationResult;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool):(id)arg1 8;
 - (void);
-- (id);
+- (id)A;
 - (void)êÅÛ6RÞKÛ-lí¶Y¶­0q\2@Î'þ!4<Zº9-¾96½¬lÔè.;
 
 // Remaining properties
-@property(readonly) AMSPurchaseSIWAAuthorizationResult *authorizationResult; // @synthesize authorizationResult=_authorizationResult;
 @property(readonly) AMSPurchaseResult *purchaseResult; // @synthesize purchaseResult=_purchaseResult;
 
 @end

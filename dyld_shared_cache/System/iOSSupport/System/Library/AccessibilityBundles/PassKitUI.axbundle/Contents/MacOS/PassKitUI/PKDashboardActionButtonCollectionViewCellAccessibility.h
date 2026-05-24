@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)nt;
 + (void);
 - (unsigned long long);
 

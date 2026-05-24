@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKScanUIControllerAdvanced, NSMutableArray, NSString;
+@class IKScanUIControllerAdvanced;
 
 @interface IKSelfTestHandler
 {
     IKScanUIControllerAdvanced *_delegate;
-    NSString *_downloadDirectory;
-    NSString *_deviceName;
-    NSMutableArray *_selfTests;
-    struct CGRect _scanRect;
-    struct CGSize _selectionSize;
-    struct CGRect _scanRectNonClipped;
-    double _rotationAngle;
-    struct CGRect _rotatedScanRect;
-    struct CGSize _rotatedSelectionSize;
-    struct CGRect _rotatedScanRectNonClipped;
-    unsigned long long _resolution;
 }
 
 - (void);
@@ -31,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
+- (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
-- (void);
-- (struct CGSize);
+- (void)a;
+- (struct CGSize)#;
 - (struct CGRect);
 - (void);
 - (id);
@@ -54,26 +43,16 @@
 - (void);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long)';
 - (id);
 - (void);
 - (void);
 - (id);
 - (void)needsToDefragment;
-- (void)IfAny:delegate: /* Error: Ran out of types for this method. */;
+- (void)_performAsyncImportIfAny:delegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property IKScanUIControllerAdvanced *delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy) NSString *downloadDirectory; // @synthesize downloadDirectory=_downloadDirectory;
-@property unsigned long long resolution; // @synthesize resolution=_resolution;
-@property struct CGRect rotatedScanRect; // @synthesize rotatedScanRect=_rotatedScanRect;
-@property struct CGRect rotatedScanRectNonClipped; // @synthesize rotatedScanRectNonClipped=_rotatedScanRectNonClipped;
-@property struct CGSize rotatedSelectionSize; // @synthesize rotatedSelectionSize=_rotatedSelectionSize;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property struct CGRect scanRect; // @synthesize scanRect=_scanRect;
-@property struct CGRect scanRectNonClipped; // @synthesize scanRectNonClipped=_scanRectNonClipped;
-@property struct CGSize selectionSize; // @synthesize selectionSize=_selectionSize;
 
 @end
 

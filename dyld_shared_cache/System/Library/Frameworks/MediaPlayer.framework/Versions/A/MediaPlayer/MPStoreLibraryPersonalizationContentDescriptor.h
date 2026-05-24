@@ -9,23 +9,21 @@
 @interface MPStoreLibraryPersonalizationContentDescriptor
 {
     MPModelObject *_model;
-    long long _personalizationStyle;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)?;
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void)entDelivery;
+- (long long)__oslogstring;
+- (void)_skipSerializedEventDelivery;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *model; // @synthesize model=_model;
-@property(readonly, nonatomic) long long personalizationStyle; // @synthesize personalizationStyle=_personalizationStyle;
 
 @end
 

@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct timeval {
-    long long tv_sec;
-    int tv_usec;
+    long long _field1;
+    int _field2;
 };
 
 #pragma mark Typedef'd Structures

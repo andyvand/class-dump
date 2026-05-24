@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SSTokenizedString;
+@class SSTokenizedString;
 
 @interface MatchedTokenAttribute
 {
     SSTokenizedString *_token;
-    unsigned long long _tokenNum;
-    unsigned long long _tokenLength;
-    NSArray *_queryPositions;
-    NSArray *_matchedTypes;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void):(id)arg1 8@"_WKDataTask"16@"NSHTTPURLResponse"24@"NSURLRequest"32@?<v@?q>40;
+- (void)@24B32;
+- (id)shouldIgnoreAppStoreMetadata;
+- (id)setApplicationBundleIdenfier: /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:(id)arg1 storefrontCountryCode:(id)arg2;
 - (unsigned long long);
-- (void);
+- (void)head_JNT;
 - (id);
-- (void);
-- (void)ntId;
+- (void)_authProvider;
+- (void)_queryEventId;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *matchedTypes; // @synthesize matchedTypes=_matchedTypes;
-@property(retain, nonatomic) NSArray *queryPositions; // @synthesize queryPositions=_queryPositions;
 @property(retain, nonatomic) SSTokenizedString *token; // @synthesize token=_token;
-@property unsigned long long tokenLength; // @synthesize tokenLength=_tokenLength;
-@property unsigned long long tokenNum; // @synthesize tokenNum=_tokenNum;
 
 @end
 

@@ -9,18 +9,16 @@
 @interface CRKFTSEntry
 {
     NSString *_path;
-    struct stat _stat;
 }
 
 - (struct stat);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) struct stat stat; // @synthesize stat=_stat;
 
 @end
 

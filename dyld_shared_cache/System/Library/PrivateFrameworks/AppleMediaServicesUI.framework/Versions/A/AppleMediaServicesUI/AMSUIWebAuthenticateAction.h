@@ -6,19 +6,14 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSAuthenticateRequest, AMSUIWebClientContext, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAuthenticateAction : AMSUIWebAction
 {
     _Bool _makeCurrentAccount;
-    _Bool _pauseTimeouts;
-    _Bool _isAuthenticatingCloud;
-    AMSAuthenticateRequest *_request;
 }
 
-- (void);
-- (void);
+- (void)ContactLabel;
+- (void)%p, query:(_Bool)arg1 %@, policy:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -28,22 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)ier";
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isAuthenticatingCloud; // @synthesize isAuthenticatingCloud=_isAuthenticatingCloud;
-@property _Bool makeCurrentAccount; // @synthesize makeCurrentAccount=_makeCurrentAccount;
 @property _Bool pauseTimeouts; // @synthesize pauseTimeouts=_pauseTimeouts;
-@property(retain) AMSAuthenticateRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

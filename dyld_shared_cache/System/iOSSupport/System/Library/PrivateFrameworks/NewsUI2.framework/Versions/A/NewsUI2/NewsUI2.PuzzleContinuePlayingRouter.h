@@ -7,9 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingRouter
 {
     id controller;
-    id resolver;
-    id navigator;
-    id tracker;
 }
 
 @end

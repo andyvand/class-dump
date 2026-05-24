@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol DEDClientProtocol, DEDWorkerProtocol, OS_os_log;
+@class NSObject;
+@protocol DEDClientProtocol, OS_os_log;
 
 @interface DEDLocalTransport
 {
     id <DEDClientProtocol> _clientDelegate;
-    id <DEDWorkerProtocol> _workerDelegate;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
@@ -27,18 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -46,25 +33,27 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (void);
+- (void);
+- (void)};
+- (void);
+- (void);
+- (id)P;
+- (void);
+- (void);
+- (void)numberWithInteger:(id)arg1;
+- (long long);
 - (void);
 - (id);
-- (void)iseUUID:(id)arg1;
+- (void)setFilePromiseUUID:(id)arg1;
 
 // Remaining properties
-@property __weak id <DEDClientProtocol> clientDelegate; // @synthesize clientDelegate=_clientDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
-@property __weak id <DEDWorkerProtocol> workerDelegate; // @synthesize workerDelegate=_workerDelegate;
 
 @end
 

@@ -6,22 +6,20 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContactStore, CNContainer;
+@class CNContainer;
 
 __attribute__((visibility("hidden")))
 @interface CNContactEnableGuardianRestrictionsAction : CNContactAction
 {
     CNContainer *_container;
-    CNContactStore *_contactStore;
 }
 
-- (id);
-- (id)tainer: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)initWithContactStore:presentationDelegate:targetGroup:targetContainer: /* Error: Ran out of types for this method. */;
 - (void)@"NSString",C,N,V_bannerTitle;
 - (id)H¥Üÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(readonly, nonatomic) CNContainer *container; // @synthesize container=_container;
 
 @end

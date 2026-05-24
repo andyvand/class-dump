@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, PXDisplayLinkProtocol, PXStoryPacingClock, PXStoryPacingTimeSourceDelegate;
+@protocol PXDisplayLinkProtocol;
 
 @interface PXStoryPacingAutoIncrementingTimeSource
 {
     _Bool _active;
-    _Bool _lowPowerMode;
-    id <PXStoryPacingTimeSourceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_layoutQueue;
-    id <PXStoryPacingClock> _pacingClock;
-    id <PXDisplayLinkProtocol> _playLink;
 }
 
 - (void);
@@ -27,30 +21,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)/usr/lib/swift/libswiftModelIO.dylib;
+- (_Bool)setDefaultFeaturingDuration: /* Error: Ran out of types for this method. */;
+- (void)kMPAuthoringDetectFacesInBackground;
 - (id);
 - (_Bool);
-- (CDStruct_1b6d18a9): /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)assetIsSafeForWidgetDisplay: /* Error: Ran out of types for this method. */;
 - (void)¸åÌº¨ÿÿÿ;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXStoryPacingTimeSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRealTime;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *layoutQueue; // @synthesize layoutQueue=_layoutQueue;
-@property(readonly, nonatomic) _Bool lowPowerMode; // @synthesize lowPowerMode=_lowPowerMode;
-@property(nonatomic) __weak id <PXStoryPacingClock> pacingClock; // @synthesize pacingClock=_pacingClock;
 @property(retain, nonatomic) id <PXDisplayLinkProtocol> playLink; // @synthesize playLink=_playLink;
-@property(readonly) Class superclass;
 
 @end
 

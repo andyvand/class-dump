@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ICContentKeyNonceResponse
 {
     long long _status;
-    NSData *_nonceData;
 }
 
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void)tæ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *nonceData; // @synthesize nonceData=_nonceData;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGPoint);
 - (id);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_c3b9c2ee):%@ on account:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) MKAnnotationView *annotationView; // @synthesize annotationView=_annotationView;

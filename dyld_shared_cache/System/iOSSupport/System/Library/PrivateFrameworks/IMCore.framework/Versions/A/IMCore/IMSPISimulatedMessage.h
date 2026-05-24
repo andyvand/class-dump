@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IMSPISimulatedMessage
 {
     _Bool _fromMe;
-    _Bool _experimental;
-    NSString *_guid;
-    NSString *_text;
-    NSString *_sender;
-    NSString *_serviceName;
-    NSString *_accountID;
-    NSDate *_date;
-    NSString *_effectID;
-    unsigned long long _flags;
-    NSString *_bundleID;
-    NSData *_payloadData;
-    NSString *_threadIdentifier;
-    NSArray *_parts;
-    NSString *_groupID;
-    NSString *_chatGUID;
-    NSArray *_handles;
-    NSString *_lastAddressedHandle;
 }
 
 + (id)r;
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)_webViewEndXRSession: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)eceiveServerRedirectForProvisionalLoad:Called with no provisional DocumentLoader (frameState=%hhu, stateForDebugging=%i) /* Error: Ran out of types for this method. */;
+- (void)ierGeneric<WebCore:(id)arg1:ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Deque<WTF::Function<void ()>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)e, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeTaskProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -59,10 +42,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (id)a;
+- (id)P;
+- (unsigned long long)J;
 - (void);
 - (void);
 - (void);
@@ -73,38 +56,13 @@
 - (id);
 - (void);
 - (id);
-- (id)rtConfiguration;
+- (id)exportConfiguration;
 - (void)KtM NpOPPpTäT`]_ÀbìixkôkTll`màm;
 - (void)ÿ!ÿÿö#ÿÿÈ*ÿÿ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSString *effectID; // @synthesize effectID=_effectID;
-@property(nonatomic) _Bool experimental; // @synthesize experimental=_experimental;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) _Bool fromMe; // @synthesize fromMe=_fromMe;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
 @property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(retain, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lastAddressedHandle; // @synthesize lastAddressedHandle=_lastAddressedHandle;
-@property(retain, nonatomic) NSArray *parts; // @synthesize parts=_parts;
-@property(retain, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property(retain, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

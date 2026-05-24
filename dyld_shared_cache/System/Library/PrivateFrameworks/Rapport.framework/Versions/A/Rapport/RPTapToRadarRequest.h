@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface RPTapToRadarRequest
 {
     NSString *_title;
-    NSString *_message;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

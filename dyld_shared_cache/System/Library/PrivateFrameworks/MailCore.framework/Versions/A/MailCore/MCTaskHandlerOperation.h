@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCTaskHandler, NSError, NSString;
+@class MCTaskHandler;
 
 @interface MCTaskHandlerOperation
 {
     _Bool _succeeded;
-    MCTaskHandler *_handler;
-    NSError *_error;
-    NSString *_logPrefix;
 }
 
 - (void);
@@ -19,16 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
-- (id);
+- (id)setMessageBody: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) MCTaskHandler *handler; // @synthesize handler=_handler;
-@property(copy) NSString *logPrefix; // @synthesize logPrefix=_logPrefix;
-@property _Bool succeeded; // @synthesize succeeded=_succeeded;
 
 @end
 

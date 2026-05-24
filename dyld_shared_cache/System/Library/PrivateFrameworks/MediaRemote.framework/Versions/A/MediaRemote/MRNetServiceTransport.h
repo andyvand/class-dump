@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
 @interface MRNetServiceTransport : MRExternalDeviceTransport
 {
     MRDeviceInfo *_deviceInfo;
-    _Bool _requiresCustomPairing;
-    NSNetService *_netService;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)?;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)(P6z;
+- (_Bool)x);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id);
@@ -37,11 +35,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)tifier;
-- (id)llerID;
+- (id)controllerID;
 
 // Remaining properties
 @property(retain, nonatomic) NSNetService *netService; // @synthesize netService=_netService;
-@property(nonatomic) _Bool requiresCustomPairing;
 
 @end
 

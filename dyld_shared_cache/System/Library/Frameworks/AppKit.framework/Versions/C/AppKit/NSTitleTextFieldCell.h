@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)sionsWithAttributes:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)beginMatchingExtensionsWithAttributes:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void).swift;
 
 // Remaining properties

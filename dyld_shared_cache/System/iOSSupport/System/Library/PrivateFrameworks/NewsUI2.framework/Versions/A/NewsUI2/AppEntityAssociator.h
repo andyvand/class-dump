@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void).initialize with negative count;
 - (id);
 
 @end

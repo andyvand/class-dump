@@ -11,10 +11,10 @@
     id button;
 }
 
+- (id)4;
+- (void)/;
 - (id);
-- (void);
-- (id);
-- (void)ickerStyle;
+- (void)PalettePickerStyle;
 
 @end
 

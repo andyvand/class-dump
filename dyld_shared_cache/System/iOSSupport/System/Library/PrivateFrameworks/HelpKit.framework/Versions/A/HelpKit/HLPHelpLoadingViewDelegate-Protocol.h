@@ -5,5 +5,6 @@
 //
 
 @protocol HLPHelpLoadingViewDelegate
+- (void)4;
 @end
 

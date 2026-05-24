@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)V_hotspot20;
 - (void);
 
 // Remaining properties

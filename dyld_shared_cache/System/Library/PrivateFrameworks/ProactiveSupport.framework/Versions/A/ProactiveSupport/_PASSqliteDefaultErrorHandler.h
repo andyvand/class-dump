@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _PASSqliteDefaultErrorHandler
 {
 }
@@ -15,6 +13,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)preferredOwnerAddress;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,36 +23,56 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)needToCreateForwardstopFor2019DeploymentVariant:(id)arg1 withCompressionTypes:(CDUnknownBlockType)arg2;
+- (_Bool)initWithName:(id)arg1 withSize:(CDUnknownBlockType)arg2 atScale:(id)arg3;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)withOBEXSession:(id)arg1;
+- (_Bool)bluetoothUserDisconnectNotification:(id)arg1 deviceConnected:(CDUnknownBlockType)arg2;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)R:(id)arg1 nil / empty token description length);
+- (_Bool)n;
+- (_Bool)t, bool, dispatch_queue_t, void *, db_pgnum_t, MDMutablePlistBytesRef, ranking_mode_t, ci_rankingbits_t *, ci_tc_distances_t *, ci_vector_distances_t *, struct PartialQueryResults *, SISearchCtx_METADATA *&, int, bool &, ReadData_s *, OSQueueHead *, ci_combobits_wrapped_t *, dispatch_semaphore_t)_block_invoke;
+- (_Bool)g;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (_Bool)i;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)!;
 - (_Bool);
+- (_Bool)";
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)`;
+- (_Bool)h!;
 - (_Bool);
+- (_Bool)&;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)isResponseEligibleForUpdateForSections:(id)arg1 task:(CDUnknownBlockType)arg2 config:(id)arg3 response: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,50 +80,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)runAnimationGroup:(id)arg1;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)5.0] pixelControl->blendLogicCurve.point0.slope=%f
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)`
+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)rupted;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

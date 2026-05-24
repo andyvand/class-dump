@@ -10,8 +10,6 @@
 @interface TSTableView
 {
     _Bool _tsaxPrefersCustomReorderMessage;
-    NSObject<OS_dispatch_group> *_touchDeferGroup;
-    long long _touchDeferCounter;
 }
 
 + (long long);
@@ -24,15 +22,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_accessibilityShouldSpeakScrollStatusOnEntry;
 - (id);
 - (void);
 - (void)"ÒþÿTýÿ"Òþÿ´ëýÿ Òþÿºþýÿ!Òþÿþýÿ%Òþÿþýÿ þýÿLþÿ;
 
 // Remaining properties
-@property(nonatomic) long long touchDeferCounter; // @synthesize touchDeferCounter=_touchDeferCounter;
 @property(readonly, nonatomic) NSObject<OS_dispatch_group> *touchDeferGroup; // @synthesize touchDeferGroup=_touchDeferGroup;
-@property(nonatomic) _Bool tsaxPrefersCustomReorderMessage; // @synthesize tsaxPrefersCustomReorderMessage=_tsaxPrefersCustomReorderMessage;
 
 @end
 

@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (id);
+- (id)}S;
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *plugins; // @synthesize plugins=_plugins;

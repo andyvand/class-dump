@@ -6,13 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDDeclineSharesURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _shareDeclinedBlock;
-    NSArray *_shareMetadatasToDecline;
-    NSMutableDictionary *_shareMetadataByRequestID;
 }
 
 - (id);
@@ -32,8 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType shareDeclinedBlock; // @synthesize shareDeclinedBlock=_shareDeclinedBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadataByRequestID; // @synthesize shareMetadataByRequestID=_shareMetadataByRequestID;
 @property(retain, nonatomic) NSArray *shareMetadatasToDecline; // @synthesize shareMetadatasToDecline=_shareMetadatasToDecline;
 
 @end

@@ -7,17 +7,6 @@
 @interface NewsUI2.MastheadViewProvider
 {
     id mastheadView;
-    id titleViewStyler;
-    id layoutAttributesFactory;
-    id margins;
-    id model;
-    id animationManager;
-    id engagementBanner;
-    id eventManager;
-    id lastLayoutOptions;
-    id mastheadable;
-    id featureAvailability;
-    id bundleSubscriptionManager;
 }
 
 - (void);

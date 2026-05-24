@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitStepBadge
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    GEOFormattedString *_text;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_text:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)nState:(id)arg1 transportType:isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
++ (_Bool)setNavigationSessionState:(id)arg1 transportType:isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
+- (_Bool)24@0:8@"NSCoder"16 /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)metricsCopyWithRequestId:(id)arg1 lastAudioChunkHostTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -43,18 +31,14 @@
 - (void);
 - (id);
 - (id)rPointRange: /* Error: Ran out of types for this method. */;
-- (id)rAssertion;
+- (id)_powerAssertion;
 - (void)XÈ;
 - (id)segment of pathlet ;
 - (_Bool)¬v¨;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
 @property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasText;
-@property(retain, nonatomic) GEOFormattedString *text;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

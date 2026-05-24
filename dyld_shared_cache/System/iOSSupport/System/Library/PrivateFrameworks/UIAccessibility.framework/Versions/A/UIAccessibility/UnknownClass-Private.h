@@ -18,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _accessibilityUsesFrameInContainerSpace; // @dynamic _accessibilityUsesFrameInContainerSpace;
 @property(nonatomic) __weak id accessibilityDelegate; // @dynamic accessibilityDelegate;
-@property(nonatomic) struct CGRect bounds; // @dynamic bounds;
 @end
 

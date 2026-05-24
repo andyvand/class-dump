@@ -26,15 +26,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)UARPSupportedAccessoryUSB;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *netServiceDomain;
-@property(readonly, nonatomic) NSString *netServiceName;
-@property(readonly, nonatomic) unsigned long long port;
 
 @end
 

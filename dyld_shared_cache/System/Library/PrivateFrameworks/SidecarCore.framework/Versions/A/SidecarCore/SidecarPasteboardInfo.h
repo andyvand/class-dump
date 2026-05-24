@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SidecarPasteboardInfo
 {
     NSString *_serviceName;
-    NSString *_localizedItemName;
-    NSArray *_preferredTypes;
 }
 
 + (unsigned long long);
@@ -24,21 +22,12 @@
 - (id);
 - (id);
 - (id);
+- (void)_contactHandles;
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *localizedItemName; // @synthesize localizedItemName=_localizedItemName;
-@property(copy, nonatomic) NSArray *preferredTypes; // @synthesize preferredTypes=_preferredTypes;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

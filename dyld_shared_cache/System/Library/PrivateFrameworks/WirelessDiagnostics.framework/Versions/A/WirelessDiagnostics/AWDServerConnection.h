@@ -13,9 +13,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)setObject:(CDUnknownBlockType)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)_sqlEntity;
 - (id);
 - (_Bool);
 - (_Bool);

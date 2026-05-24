@@ -5,6 +5,9 @@
 //
 
 @protocol PDSharingChannelServiceExportedInterface_Server
-- (void)NG_CONTACT_EMAIL_REQUIRED;
+- (void)�L;
+- (void);
+- (void);
+- (void)IN_APP_PAYMENT_SHIPPING_CONTACT_EMAIL_REQUIRED;
 @end
 

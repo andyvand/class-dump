@@ -6,17 +6,12 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSSet, NSString, _UISheetPresentationControllerConfiguration;
-@protocol _UIRemoteSheet_Internal, _UIRemoteViewControllerImpl;
+@class NSSet;
+@protocol _UIRemoteViewControllerImpl;
 
 @interface _UIRemoteViewController : UIViewController
 {
     id <_UIRemoteViewControllerImpl> _impl;
-    struct {
-        unsigned int usesSceneHostingImplementation:1;
-    } _flags;
-    _Bool __appProtectionLocked;
-    NSString *_serviceBundleIdentifier;
 }
 
 - (void);
@@ -25,58 +20,58 @@
 - (long long);
 - (long long);
 - (struct CGSize);
-- (Class);
+- (Class)4@"NSString"32@"NSString"40;
+- (void)didReplaceMessage:(long long)arg1 newMessage:(double)arg2;
+- (void)didPerformAdditionalStorageRequiredCheckWithSuccess:(id)arg1 additionalStorageRequired:forAccountId:error: /* Error: Ran out of types for this method. */;
+- (void)didJoinReadOnlyChat:(long long)arg1 style:(double)arg2 displayName:(_Bool)arg3 groupID:(_Bool)arg4 handleInfo:category:spamExtensionName: /* Error: Ran out of types for this method. */;
+- (_Bool)createAttachmentZone;
+- (id)_accountControllerSharedInstance;
+- (_Bool)N,V_scheduleState;
+- (_Bool)bled;
+- (id)ceSession",R,N,V_replicationProxy;
+- (void)_serviceDelegate;
+- (void)e",&,N,V_subscriptionValidationTokenByHandleIDCache;
+- (void)isioningManager",&,N,V_trustKitManager;
+- (void)actionTypeFrom: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)@U@;
+- (void).;
+- (void)L;
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
+- (void)h;
+- (void)G;
+- (id);
+- (id);
+- (void)de. Did not find any active iMessage account logged in using email.;
+- (void)sent with identifier %@ ;
+- (id)t;
+- (id)for delivered quietly receipt:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)hats after checking pref key %@:merged-duplicate-chats /* Error: Ran out of types for this method. */;
+- (void)orphaned:(long long)arg1 not in message(nil:(id)arg2 %{BOOL}d), bundle %@;
+- (_Bool)transfers, too many for one message;
+- (_Bool)ound saved transfer from DB:(const CDStruct_6f49ea1d *)arg1 %@;
+- (void)es:(int)arg1 %@ onServices %@ limit %d recordStoreRecords:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)hen attempting to update a message;
+- (unsigned int)mmand %ld while processing GUID (%@);
+- (_Bool)age %@;
 - (void);
 - (void);
 - (int);
 - (id);
-- (CDStruct_4c969caf);
-- (void);
+- (CDStruct_6ad76789);
+- (void)vggishLaughterDetectorCoreML;
 - (id);
 - (id);
 - (void);
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (void);
+- (void)initWithMaximumCapacity:(id)arg1;
 - (void)!ÜBùQ[1Â0@ù
 × ;
 - (_Bool);
@@ -88,17 +83,17 @@
 × ;
 - (id)dð1Â0@ù
 × ;
-- (void)nInteraction:(_Bool)arg1;
-- (void)rackingDefaultItemSearchInfoIfNecessary;
+- (void)_secondaryPreviewsForClickPresentationInteraction:(_Bool)arg1;
+- (void)_beginTrackingDefaultItemSearchInfoIfNecessary;
 - (_Bool)",&,N,V_keyboardSnapshot;
-- (void)chedMargin;
+- (void)_attachedMargin;
 - (void);
 - (id)s not nil.;
 - (void)mark(CFURLRef, BOOL);
 - (unsigned long long)lizer. You must call -[UIPopoverController initWithContentViewController:]. /* Error: Ran out of types for this method. */;
 - (void)set overrides;
 - (unsigned long long);
-- (void)ingDevicePairedEarDidChangeMessage;
+- (void)HearingDevicePairedEarDidChangeMessage;
 - (id);
 - (id)Þ\;
 - (long long)wÿ%æÕLM_;
@@ -106,31 +101,7 @@
 - (void)·2ÿMÙÀù_;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isAppProtectionLocked) _Bool _appProtectionLocked; // @synthesize _appProtectionLocked=__appProtectionLocked;
-@property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_UIRemoteSheet_Internal>",?,R,N
-
-@property(readonly, nonatomic) NSString *_extensionBundleIdentifierForAppProtection;
 @property(readonly, nonatomic) NSSet *_keyboardSceneLayers;
-@property(readonly, nonatomic) _Bool _remoteSheetAllowsConnection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;
-@property(nonatomic, setter=_setShouldUpdateRemoteTextEffectsWindow:) _Bool _shouldUpdateRemoteTextEffectsWindow;
-@property(nonatomic, setter=_setViewClipsToBounds:) _Bool _viewClipsToBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDStruct_4c969caf serviceAuditToken;
-@property(readonly, nonatomic) NSString *serviceBundleIdentifier; // @synthesize serviceBundleIdentifier=_serviceBundleIdentifier;
-@property(readonly, nonatomic) int serviceProcessIdentifier;
-@property(nonatomic) _Bool serviceViewShouldShareTouchesWithHost;
-@property(readonly) Class superclass;
 
 @end
 

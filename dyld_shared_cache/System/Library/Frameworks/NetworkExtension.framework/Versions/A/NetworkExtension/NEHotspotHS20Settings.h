@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NEHotspotHS20Settings
 {
     _Bool _roamingEnabled;
-    NSString *_domainName;
-    NSArray *_roamingConsortiumOIs;
-    NSArray *_naiRealmNames;
-    NSArray *_MCCAndMNCs;
 }
 
-+ (_Bool);
++ (_Bool)setPendingTransactions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -27,17 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)haring/Framework/SFAirDropUserDefaults.swift;
 - (void);
 - (id);
-- (void)tchDomains: /* Error: Ran out of types for this method. */;
+- (void)setMatchDomains: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *MCCAndMNCs; // @synthesize MCCAndMNCs=_MCCAndMNCs;
 @property(readonly) NSString *domainName; // @synthesize domainName=_domainName;
-@property(copy) NSArray *naiRealmNames; // @synthesize naiRealmNames=_naiRealmNames;
-@property(copy) NSArray *roamingConsortiumOIs; // @synthesize roamingConsortiumOIs=_roamingConsortiumOIs;
-@property(getter=isRoamingEnabled) _Bool roamingEnabled; // @synthesize roamingEnabled=_roamingEnabled;
 
 @end
 

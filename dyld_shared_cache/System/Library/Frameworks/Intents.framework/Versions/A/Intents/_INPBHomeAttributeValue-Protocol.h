@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeAttributeRange;
+@class NSString;
 
 @protocol _INPBHomeAttributeValue
+- (NSString *);
+- (void);
+- (_Bool);
+- (int)(	;
+- (int)eturned %d
+;
+- (void)!	;
+- (long long)qh;
+- (_Bool)$;
+- (void)H;
+- (NSString *)H;
 - (int)@;
 
 // Remaining properties
 @property(nonatomic) _Bool booleanValue;
-@property(nonatomic) double doubleValue;
-@property(nonatomic) _Bool hasBooleanValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntegerValue;
-@property(nonatomic) _Bool hasLimitValue;
-@property(readonly, nonatomic) _Bool hasRangeValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasUnit;
-@property(nonatomic) _Bool hasValueType;
-@property(nonatomic) long long integerValue;
-@property(nonatomic) int limitValue;
-@property(retain, nonatomic) _INPBHomeAttributeRange *rangeValue;
-@property(copy, nonatomic) NSString *stringValue;
-@property(nonatomic) int unit;
-@property(nonatomic) int valueType;
 @end
 

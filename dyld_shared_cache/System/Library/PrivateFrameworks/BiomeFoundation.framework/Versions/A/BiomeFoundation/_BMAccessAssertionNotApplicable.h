@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessDescriptor, BMResourceContainer, NSString;
+@class BMAccessDescriptor;
 
 @interface _BMAccessAssertionNotApplicable
 {
     BMAccessDescriptor *_descriptor;
-    NSString *_path;
-    BMResourceContainer *_container;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)ing records.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BMResourceContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BMAccessDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
 
 @end
 

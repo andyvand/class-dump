@@ -7,10 +7,6 @@
 @interface IDSIDInfoOptions
 {
     _Bool _allowRefresh;
-    _Bool _respectExpiry;
-    _Bool _waitForReply;
-    _Bool _forceRefresh;
-    _Bool _bypassLimit;
 }
 
 + (id);
@@ -28,18 +24,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)07(06};
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)X;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowRefresh; // @synthesize allowRefresh=_allowRefresh;
-@property(nonatomic) _Bool bypassLimit; // @synthesize bypassLimit=_bypassLimit;
-@property(nonatomic) _Bool forceRefresh; // @synthesize forceRefresh=_forceRefresh;
-@property(nonatomic) _Bool respectExpiry; // @synthesize respectExpiry=_respectExpiry;
-@property(nonatomic) _Bool waitForReply; // @synthesize waitForReply=_waitForReply;
 
 @end
 

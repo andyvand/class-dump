@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PINeutralGrayWhiteBalanceFilter
 {
     CIImage *_inputImage;
-    NSNumber *_strength;
-    NSNumber *_warmth;
-    NSNumber *_y;
-    NSNumber *_i;
-    NSNumber *_q;
 }
 
 + (id);
@@ -28,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -36,18 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)__swift_as_ret;
 - (id);
-- (void)sMaskHoles: /* Error: Ran out of types for this method. */;
+- (void)setInpaintFillsMaskHoles: /* Error: Ran out of types for this method. */;
 - (id)nal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPhotosPipelineHelper.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *i; // @synthesize i=_i;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *q; // @synthesize q=_q;
-@property(retain, nonatomic) NSNumber *strength; // @synthesize strength=_strength;
-@property(retain, nonatomic) NSNumber *warmth; // @synthesize warmth=_warmth;
-@property(retain, nonatomic) NSNumber *y; // @synthesize y=_y;
 
 @end
 

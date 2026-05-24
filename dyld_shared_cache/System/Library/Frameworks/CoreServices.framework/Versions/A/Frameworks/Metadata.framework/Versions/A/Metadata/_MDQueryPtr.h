@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     struct __MDQuery *_query;
 }
 
-- (void);
-- (struct __MDQuery *);
+- (void)1;
+- (struct __MDQuery *)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

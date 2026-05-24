@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)AME TO item_extra;
 - (id);
 - (void);
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)NULL,  PRIMARY KEY (team_id) );
 + (id);
 + (id);
 - (id);

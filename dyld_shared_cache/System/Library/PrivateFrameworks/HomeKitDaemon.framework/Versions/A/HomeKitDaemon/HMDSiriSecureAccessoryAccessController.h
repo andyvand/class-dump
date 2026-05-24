@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAssistantWatchAuthenticationDataSource;
 @protocol HMDSiriSecureAccessoryAccessControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriSecureAccessoryAccessController
 {
     id <HMDSiriSecureAccessoryAccessControllerDataSource> _dataSource;
-    HMDAssistantWatchAuthenticationDataSource *_watchAuthDataSource;
 }
 
 - (void);
-- (id);
+- (id)emonRemoteProxy",W,N,V_target;
 - (id)o destination:(id)arg1 %@;
 - (void)v32@?0@"HMAccessCodeModificationResponseValue"8Q16^B24;
 

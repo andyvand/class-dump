@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSSet;
-@protocol PXDisplayAssetFetchResult;
+@class NSArray, NSMutableArray;
 
 @interface PXStoryExplicitChapterCollection
 {
     NSMutableArray *_initializedChapters;
-    id <PXDisplayAssetFetchResult> _initializedAssets;
-    NSArray *_chapters;
-    NSDictionary *_chapterIndexesByIdentifier;
-    NSSet *_chapterBeginningAssetlocalIdentifiers;
 }
 
 - (long long);
@@ -30,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *chapterBeginningAssetlocalIdentifiers; // @synthesize chapterBeginningAssetlocalIdentifiers=_chapterBeginningAssetlocalIdentifiers;
-@property(readonly, nonatomic) NSDictionary *chapterIndexesByIdentifier; // @synthesize chapterIndexesByIdentifier=_chapterIndexesByIdentifier;
 @property(readonly, nonatomic) NSArray *chapters; // @synthesize chapters=_chapters;
-@property(readonly, nonatomic) long long numberOfChapters;
 
 @end
 

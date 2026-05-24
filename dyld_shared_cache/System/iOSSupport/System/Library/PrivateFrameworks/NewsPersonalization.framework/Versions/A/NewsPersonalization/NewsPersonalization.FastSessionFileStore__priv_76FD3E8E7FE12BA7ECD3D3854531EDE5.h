@@ -7,7 +7,6 @@
 @interface NewsPersonalization.FastSessionFileStore__priv_76FD3E8E7FE12BA7ECD3D3854531EDE5
 {
     id parentDirectory;
-    id parentDirectoryResult;
 }
 
 @end

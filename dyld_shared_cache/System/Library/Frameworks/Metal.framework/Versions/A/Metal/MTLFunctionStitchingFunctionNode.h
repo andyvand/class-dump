@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MTLFunctionStitchingFunctionNode
 {
     NSString *_name;
-    NSArray *_arguments;
-    NSArray *_controlDependencies;
 }
 
 - (void);
@@ -20,25 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)tract;
+- (id)6;
+- (id)A;
+- (void)@;
+- (void)MTLBlendOperationSubtract;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(copy, nonatomic) NSArray *controlDependencies; // @synthesize controlDependencies=_controlDependencies;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

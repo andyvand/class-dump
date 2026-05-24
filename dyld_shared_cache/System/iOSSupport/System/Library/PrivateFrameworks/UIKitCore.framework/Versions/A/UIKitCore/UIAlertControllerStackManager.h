@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIScene;
+@class NSMutableArray, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface UIAlertControllerStackManager
 {
     NSMutableArray *_alertControllerStack;
-    NSMutableArray *_hiddenAlertControllers;
-    UIScene *_scene;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)s;
+- (void)encodeObject:(id)arg1;
+- (void)stWokeDate;
 - (void);
 - (void);
 - (void)
@@ -27,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)thread is not allowed:view <%@:%p> with nearest ancestor view controller <%@:%p>; backtrace:%@ /* Error: Ran out of types for this method. */;
 - (void)inksEnabled=%{bool}d;
 - (id)oup=%p;
-- (void);
+- (void)UIChildViewControllers;
 - (id)hh;
 - (void)ÕÏ ûk;
 - (void)Xl;
@@ -36,13 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

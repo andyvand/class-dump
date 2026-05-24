@@ -7,13 +7,12 @@
 @interface PGSocialGroupsElector
 {
     id graph;
-    id photoLibrary;
 }
 
 + (long long);
+- (id)_;
 - (id);
-- (id);
-- (void)electionAutoOnResetTimeout;
+- (void)librarySelectionAutoOnResetTimeout;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface _PSPhotoSuggestionsCancellationToken
 {
     NSArray *_personCancellationArray;
-    CDUnknownBlockType _sceneCancellationBlock;
 }
 
 - (void);

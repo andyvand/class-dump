@@ -11,14 +11,14 @@
     NSString *_identifier;
 }
 
-+ (_Bool);
++ (_Bool)_;
 - (id);
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)error:(id)arg1;
 - (id);
-- (void)fterCurrentRequest:isOneWay:completion: /* Error: Ran out of types for this method. */;
+- (void)_handleCommand:afterCurrentRequest:isOneWay:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

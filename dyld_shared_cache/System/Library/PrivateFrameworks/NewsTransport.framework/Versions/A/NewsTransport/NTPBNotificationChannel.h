@@ -17,15 +17,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)/;
+- (_Bool)iled;
 - (_Bool);
 - (id);
-- (id);
-- (void)resetMinimumWidthInPixels: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void)setHasDynamicThumbnailSizePresetMinimumWidthInPixels: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
 @property(readonly, nonatomic) _Bool hasChannelId;
 
 @end

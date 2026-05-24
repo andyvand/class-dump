@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESOnDeviceIndexSearchEnded, POMMESSchemaPOMMESOnDeviceIndexSearchFailed, POMMESSchemaPOMMESOnDeviceIndexSearchStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESOnDeviceIndexSearchContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    POMMESSchemaPOMMESOnDeviceIndexSearchStarted *_startedOrChanged;
-    POMMESSchemaPOMMESOnDeviceIndexSearchEnded *_ended;
-    POMMESSchemaPOMMESOnDeviceIndexSearchFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,43 +20,34 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)	?ל;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)ache;
+- (void)AppleInputSourceHistory;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)i;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)toreSubEntitlementsCacheUpdated;
 - (_Bool);
-- (_Bool);
+- (_Bool)needing sync;
 - (id);
 - (id);
-- (id)AlwaysPromptOutcomeReceived;
+- (id)_pommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived;
 - (id)UserSpeakingContext;
-- (void)OUP;
+- (void)FLOWHOMECONTAINERTYPE_GROUP;
 - (void)hAÖÿÌ:(id)arg1 °åç";
 - (id)ð'ÊÿµÄâ#;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) POMMESSchemaPOMMESOnDeviceIndexSearchEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESOnDeviceIndexSearchFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESOnDeviceIndexSearchStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _SFPBNamedProtobufMessage
 {
     NSData *_protobufMessageData;
-    NSString *_protobufMessageName;
 }
 
 - (void);
@@ -21,23 +20,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)photosMemoryAssetCountsKey;
+- (id)sizeOfLocallyAvailableiCloudQuotaResourcesWithError:unable to create PLPhotoLibrary /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ssets"b1};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *protobufMessageData; // @synthesize protobufMessageData=_protobufMessageData;
-@property(copy, nonatomic) NSString *protobufMessageName; // @synthesize protobufMessageName=_protobufMessageName;
-@property(readonly) Class superclass;
 
 @end
 

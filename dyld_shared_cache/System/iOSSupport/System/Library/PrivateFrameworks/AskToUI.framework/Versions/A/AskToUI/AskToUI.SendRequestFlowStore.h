@@ -8,18 +8,10 @@
 {
     id _messageComposeRequestTask;
     id _messageAlertContent;
-    id connection;
-    id _connectedClientVerifier;
-    id _daemonConnectionManager;
-    id contactStore;
-    id downtimeContainerFetcher;
-    id _showMessageCompose;
-    id _showScreenTimePasscodeView;
-    id _$observationRegistrar;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

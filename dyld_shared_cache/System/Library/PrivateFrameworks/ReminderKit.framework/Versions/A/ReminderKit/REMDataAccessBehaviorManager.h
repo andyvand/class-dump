@@ -12,24 +12,24 @@
 }
 
 - (id);
-- (id);
+- (id)_groupingResultsByStrategyIdentifier;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ions:forOperation:withCredentialSet:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
+- (void);
+- (id);
 - (void);
+- (void)׉;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void)0@ù
 × ;

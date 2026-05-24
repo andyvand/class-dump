@@ -7,14 +7,10 @@
 @interface VoiceShortcutClient.ProgressKeyValueObservation
 {
     id progress;
-    id key;
-    id keyPath;
-    id changeHandler;
-    id observing;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)_°1Â0@ù
 × ;

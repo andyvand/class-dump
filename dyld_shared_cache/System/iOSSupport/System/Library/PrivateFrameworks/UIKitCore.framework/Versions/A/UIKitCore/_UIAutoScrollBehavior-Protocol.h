@@ -5,7 +5,7 @@
 //
 
 @protocol _UIAutoScrollBehavior
-- (struct UIEdgeInsets)tifier: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)keyboardInputModeWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)for an intrinsicContentSizeDimension. Using UIViewNoIntrinsicMetric instead.;
 
 // Remaining properties

@@ -5,6 +5,7 @@
 //
 
 @protocol TSDTapGesture
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfTapsRequired;

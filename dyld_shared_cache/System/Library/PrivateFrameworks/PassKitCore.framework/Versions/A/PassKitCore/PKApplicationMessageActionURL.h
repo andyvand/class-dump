@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void)RANSACTION_DECLINED_REASON_VERIFICATION_FAILED_ZIP;
+- (void)TRANSACTION_DECLINED_REASON_VERIFICATION_FAILED_ZIP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

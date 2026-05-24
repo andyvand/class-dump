@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSDictionary;
-
 @interface NSGraphicsContext
 {
 }
 
 
 // Remaining properties
-@property(readonly) struct CGContext *CGContext;
-@property(readonly) CIContext *CIContext;
-@property(readonly, copy) NSDictionary *attributes;
-@property long long colorRenderingIntent;
-@property unsigned long long compositingOperation;
-@property(readonly, getter=isDrawingToScreen) _Bool drawingToScreen;
-@property(readonly, getter=isFlipped) _Bool flipped;
-@property(readonly) void *graphicsPort;
-@property unsigned long long imageInterpolation;
-@property struct CGPoint patternPhase;
 @property _Bool shouldAntialias;
 @end
 

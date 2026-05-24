@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFSystemFont;
-
 @interface RFFont
 {
     struct {
@@ -13,44 +11,30 @@
         unsigned int system:1;
         unsigned int applySmallCaps:1;
     } _has;
-    _Bool _applySmallCaps;
-    int _name;
-    RFSystemFont *_system;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)removeArtworkForEntityPersistentID:entityType:artworkType:sourceType: /* Error: Ran out of types for this method. */;
+- (id)isDRMProtected;
 - (_Bool);
-- (int);
+- (int)_ensureRecentlyDeletedSavedAccountsAreLoadedOnInternalQueue;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)shouldImportAssetsFromDCIMSubDirectoryAtURL:(id)arg1 assetsKind: /* Error: Ran out of types for this method. */;
+- (id)putedAttributes.harmoniousColorScore;
 - (id);
 - (id);
 - (void);
 - (void)adata",&,N,V_metadata;
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps; // @synthesize applySmallCaps=_applySmallCaps;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RFSystemFont *system; // @synthesize system=_system;
 
 @end
 

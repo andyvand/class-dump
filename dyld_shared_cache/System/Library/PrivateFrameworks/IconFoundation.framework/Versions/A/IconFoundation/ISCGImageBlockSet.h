@@ -9,7 +9,7 @@
     struct CGImageBlockSet *_blockSet;
 }
 
-- (void);
+- (void)E~3F;
 - (id);
 - (struct CGImageBlockSet *);
 - (void);

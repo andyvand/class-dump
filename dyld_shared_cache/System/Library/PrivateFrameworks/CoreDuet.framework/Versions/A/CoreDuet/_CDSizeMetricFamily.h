@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface _CDSizeMetricFamily
 {
     NSString *_name;
-    NSMutableDictionary *_sizeMetrics;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

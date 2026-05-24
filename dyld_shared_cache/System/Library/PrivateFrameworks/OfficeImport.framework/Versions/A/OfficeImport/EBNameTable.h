@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct XlName *);
-+ (void);
-+ (id);
++ (void);
++ (id);
 + (void *);
 
 @end

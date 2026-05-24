@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned char);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)%@;
 - (void);
 - (id);
 - (double);
@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 	
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
 - (void);
-- (void);
+- (void)AVOutOfBandAlternateTrackExtendedLanguageTagKey;
 
 @end
 

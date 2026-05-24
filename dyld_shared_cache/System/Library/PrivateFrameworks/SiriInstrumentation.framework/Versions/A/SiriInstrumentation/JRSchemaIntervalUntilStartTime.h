@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaIntervalUntilStartTime : SISchemaInstrumentationMessage
 {
     NSArray *_candidateBooleanMasks;
-    NSArray *_candidateTimeIntervalMatrixs;
 }
 
 - (void);
@@ -37,13 +36,11 @@
 - (id);
 - (id);
 - (id)"NSString",C,N,V_contextName;
-- (id)ionStarted;
+- (id)RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncObjectAcquisitionStarted;
 - (void)THÝÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateBooleanMasks; // @synthesize candidateBooleanMasks=_candidateBooleanMasks;
-@property(copy, nonatomic) NSArray *candidateTimeIntervalMatrixs; // @synthesize candidateTimeIntervalMatrixs=_candidateTimeIntervalMatrixs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

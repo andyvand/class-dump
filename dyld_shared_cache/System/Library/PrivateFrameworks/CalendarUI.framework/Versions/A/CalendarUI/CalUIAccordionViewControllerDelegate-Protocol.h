@@ -5,5 +5,6 @@
 //
 
 @protocol CalUIAccordionViewControllerDelegate
+- (long long)?;
 @end
 

@@ -7,18 +7,16 @@
 @class UIView;
 
 @protocol _UIRemoteKeyboardInputViewPlaceholder
+- (struct CGSize)C,N,V_payloadRestrictStoreSoftwareupdateOnly;
+- (void)lld;
 - (void)q]ð1Â0@ù
 × ;
 - (UIView *);
-- (void)ndicatorTintColor;
-- (_Bool)tle:image:selectedImage:action:forBarStyle:landscape:alwaysBordered: /* Error: Ran out of types for this method. */;
-- (void)SubtitleCellContentViewConfiguration;
+- (void)_pageIndicatorTintColor;
+- (_Bool)_getSystemItemStyle:title:image:selectedImage:action:forBarStyle:landscape:alwaysBordered: /* Error: Ran out of types for this method. */;
+- (void)_UISubtitleCellContentViewConfiguration;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *associatedView;
-@property(retain, nonatomic) UIView *fallbackView;
 @property(nonatomic) struct CGSize fixedSize;
-@property(readonly, nonatomic) _Bool isLocalMinimumHeightPlaceholder;
-@property(readonly) UIView *placeheldView;
 @end
 

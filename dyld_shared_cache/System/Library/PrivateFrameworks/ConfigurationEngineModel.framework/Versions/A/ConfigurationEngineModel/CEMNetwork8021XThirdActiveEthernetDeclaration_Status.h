@@ -10,12 +10,12 @@
 {
 }
 
++ (id)__AUTH_CONST;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
-- (_Bool);
+- (_Bool)lf volume:(id)arg1 %lf;
 
 @end
 

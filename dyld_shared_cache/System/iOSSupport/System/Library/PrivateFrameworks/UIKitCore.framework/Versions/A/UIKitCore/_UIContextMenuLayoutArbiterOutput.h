@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLayoutArbiterOutput
 {
     unsigned long long _type;
-    double _maximumMenuHeight;
-    NSMapTable *_accessoryPositions;
-    struct CGRect _contentBounds;
-    CDStruct_17a0fc55 _anchor;
-    CDStruct_d52ce5d2 _preview;
-    CDStruct_d52ce5d2 _menu;
 }
 
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)userNotificationWithIdentifier:(double)arg1 title:message:defaultButton:alternateButton:otherButton: /* Error: Ran out of types for this method. */;
+- (void)serverHost;
+- (void)registerWithCacheDelete;
+- (double)compressedProtobuf2DataForGroupTitleChangeItem;
 - (id);
 - (void);
 - (struct CGRect);
 - (unsigned long long)!GùdÐ1Â0@ù
 × ;
-- (CDStruct_d52ce5d2),V_animatingConstraintsChange;
+- (CDStruct_9253ee8c),V_animatingConstraintsChange;
 - (void);
 - (void)nvalid section (%ld);
 - (void)l×þ;
-- (CDStruct_17a0fc55)d	¬ÿ;
-- (CDStruct_d52ce5d2)Xxû_;
+- (CDStruct_96a80611)d	¬ÿ;
+- (CDStruct_9253ee8c)Xxû_;
 - (void)`í+ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *accessoryPositions; // @synthesize accessoryPositions=_accessoryPositions;
-@property(nonatomic) CDStruct_17a0fc55 anchor; // @synthesize anchor=_anchor;
-@property(nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;
-@property(nonatomic) double maximumMenuHeight; // @synthesize maximumMenuHeight=_maximumMenuHeight;
-@property(nonatomic) CDStruct_d52ce5d2 menu; // @synthesize menu=_menu;
-@property(nonatomic) CDStruct_d52ce5d2 preview; // @synthesize preview=_preview;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol CNCDManagedObjectContextSaveListenerDelegate
+
+@optional
+- (void)coreStorageSetupInfoForLVUUID;
 @end
 

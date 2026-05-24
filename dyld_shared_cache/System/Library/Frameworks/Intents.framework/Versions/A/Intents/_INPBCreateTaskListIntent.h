@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBCreateTaskListIntent
 {
     struct _has;
-    _INPBDataString *_groupName;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_taskTitles;
-    _INPBDataString *_title;
 }
 
 + (Class);
@@ -26,38 +22,24 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Ց;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)corewifi] CWFPinger:(id)arg1 Connection Cancelled;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id)48@0:8@16d24q32q40 /* Error: Ran out of types for this method. */;
-- (_Bool)eportIncidentIntentResponse;
-- (void)ingHeartRateAverage;
+- (_Bool)INReportIncidentIntentResponse;
+- (void)walkingHeartRateAverage;
 - (void)»;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBDataString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *taskTitles; // @synthesize taskTitles=_taskTitles;
-@property(readonly, nonatomic) unsigned long long taskTitlesCount;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)MissingRegions;
+- (id);
+- (void)transactionsMissingRegions;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentRecurringPayment *recurringPayment; // @synthesize recurringPayment=_recurringPayment;

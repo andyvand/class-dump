@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject, NSSet;
-@protocol IAPNavigationDelegate, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface IAPNavigation
 {
     struct __CFNotificationCenter *_darwinNotificationCenter;
-    NSNotificationCenter *_localNotificationCenter;
-    _Bool _connected;
-    id <IAPNavigationDelegate> _delegate;
-    NSSet *_availableAccessories;
-    NSObject<OS_xpc_object> *_iap2d_connection;
-    NSObject<OS_dispatch_queue> *_processingQ;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)=;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)ey;
+- (_Bool)IAPAudioTransportLineoutStateKey;
 
 // Remaining properties
-@property(retain) NSSet *availableAccessories; // @synthesize availableAccessories=_availableAccessories;
-@property _Bool connected; // @synthesize connected=_connected;
-@property __weak id <IAPNavigationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSObject<OS_xpc_object> *iap2d_connection; // @synthesize iap2d_connection=_iap2d_connection;
-@property(retain) NSObject<OS_dispatch_queue> *processingQ; // @synthesize processingQ=_processingQ;
 
 @end
 

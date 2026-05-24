@@ -7,6 +7,12 @@
 @protocol CNKDestinationQueryControllerDelegate;
 
 @protocol CNKDestinationQueryControllerProtocol
+- (long long)z;
+- (long long)r;
+- (long long)�Qr;
+- (long long);
+- (long long)Qr;
+- (void);
 - (void)!Dù±Ð1Â0@ù
 × ;
 

@@ -7,21 +7,6 @@
 @interface NewsFeed.FormatDebugger
 {
     id _breakpoints;
-    id _state;
-    id _context;
-    id _bindBreakExecution;
-    id _layoutBreakExecution;
-    id internalBreakpoints;
-    id internalState;
-    id internalContext;
-    id semaphore;
-    id lock;
-    id count;
-    id breakExecutionState;
-    id callStack;
-    id workspaceStack;
-    id internalBindBreakExecution;
-    id internalLayoutBreakExecution;
 }
 
 @end

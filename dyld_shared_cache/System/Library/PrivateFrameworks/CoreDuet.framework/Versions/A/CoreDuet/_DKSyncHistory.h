@@ -9,7 +9,6 @@
 @interface _DKSyncHistory
 {
     NSDate *_lastSyncDate;
-    unsigned long long _lastDaySyncCount;
 }
 
 - (unsigned long long);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long lastDaySyncCount; // @synthesize lastDaySyncCount=_lastDaySyncCount;
 @property(readonly, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
 
 @end

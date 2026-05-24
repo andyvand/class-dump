@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone, SGPostalAddressComponents;
-
 @interface SGDataDetectorMatch
 {
     _Bool _allDay;
-    _Bool _inferredDate;
-    _Bool _approximateTime;
-    _Bool _partialDate;
-    unsigned int _matchType;
-    int _parsecDomain;
-    NSString *_valueString;
-    NSString *_labelString;
-    NSString *_parsecWikidataQid;
-    NSDate *_detectedDate;
-    NSTimeZone *_detectedTimeZone;
-    NSDate *_detectedEndDate;
-    NSTimeZone *_detectedEndTimeZone;
-    SGPostalAddressComponents *_postalAddressComponents;
-    struct _NSRange _range;
-    struct _NSRange _labelRange;
-    struct _NSRange _valueRange;
 }
 
 + (_Bool);
@@ -38,7 +20,7 @@
 + (id);
 + (id);
 + (_Bool);
-- (struct _NSRange);
+- (struct _NSRange)J	;
 - (id);
 - (_Bool);
 - (id);
@@ -49,19 +31,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)xJ	;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)serverTrust;
+- (_Bool)ight = %f, allDayView.frame = %@, _allDaySeparatorHeight = %f;
 - (id);
 - (_Bool);
 - (unsigned int);
 - (id);
 - (id);
 - (unsigned long long);
-- (struct _NSRange);
+- (struct _NSRange)(;
 - (_Bool);
 - (void);
 - (id);
@@ -69,23 +51,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly, nonatomic) _Bool approximateTime; // @synthesize approximateTime=_approximateTime;
-@property(readonly, nonatomic) NSDate *detectedDate; // @synthesize detectedDate=_detectedDate;
-@property(readonly, nonatomic) NSDate *detectedEndDate; // @synthesize detectedEndDate=_detectedEndDate;
-@property(readonly, nonatomic) NSTimeZone *detectedEndTimeZone; // @synthesize detectedEndTimeZone=_detectedEndTimeZone;
-@property(readonly, nonatomic) NSTimeZone *detectedTimeZone; // @synthesize detectedTimeZone=_detectedTimeZone;
-@property(readonly, nonatomic) _Bool inferredDate; // @synthesize inferredDate=_inferredDate;
-@property(readonly, nonatomic) struct _NSRange labelRange; // @synthesize labelRange=_labelRange;
-@property(readonly, nonatomic) NSString *labelString; // @synthesize labelString=_labelString;
 @property(readonly, nonatomic) unsigned int matchType; // @synthesize matchType=_matchType;
-@property(readonly, nonatomic) int parsecDomain; // @synthesize parsecDomain=_parsecDomain;
-@property(readonly, nonatomic) NSString *parsecWikidataQid; // @synthesize parsecWikidataQid=_parsecWikidataQid;
-@property(readonly, nonatomic) _Bool partialDate; // @synthesize partialDate=_partialDate;
-@property(readonly, nonatomic) SGPostalAddressComponents *postalAddressComponents; // @synthesize postalAddressComponents=_postalAddressComponents;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) struct _NSRange valueRange; // @synthesize valueRange=_valueRange;
-@property(readonly, nonatomic) NSString *valueString; // @synthesize valueString=_valueString;
 
 @end
 

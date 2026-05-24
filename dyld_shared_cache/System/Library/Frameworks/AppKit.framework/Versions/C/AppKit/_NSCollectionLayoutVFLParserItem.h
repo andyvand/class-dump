@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutVFLParserItem
 {
     NSString *_name;
-    double _fraction;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double)_uploadTaskWithRequest:(id)arg1 fromFile:delegate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)ntent;
 
 // Remaining properties
-@property(nonatomic) double fraction; // @synthesize fraction=_fraction;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

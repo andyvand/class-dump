@@ -7,17 +7,9 @@
 @interface DataDetectorsSourceAccess
 {
     CDStruct_4c969caf _auditToken;
-    int _clientpid;
-    unsigned int _clientuid;
-    _Bool _privacyUserReadEntitled;
-    unsigned char _privacyUserReadEntitlementChecked;
-    _Bool _privacyUserWriteEntitled;
-    unsigned char _privacyUserWriteEntitlementChecked;
-    _Bool _privacySystemWriteEntitled;
-    unsigned char _privacySystemWriteEntitlementChecked;
 }
 
-- (void);
+- (void)>;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,7 +19,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (CDStruct_4c969caf);
+- (CDStruct_4c969caf)neroDelegate;
 - (void);
 - (unsigned int);
 - (void);
@@ -36,8 +28,6 @@
 
 // Remaining properties
 @property CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property int processIdentifier; // @synthesize processIdentifier=_clientpid;
-@property unsigned int userIdentifier; // @synthesize userIdentifier=_clientuid;
 
 @end
 

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (id);
+- (struct CGSize)lFrameHandle";
+- (void);
+- (id)com.apple.iBooks.PlayAudiobookIntent;
 - (void);
 
 @end

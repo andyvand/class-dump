@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EMInstantAnswerHotel
 {
     NSDateComponents *_checkInDateComponents;
-    NSString *_name;
-    NSString *_address;
-    NSString *_city;
 }
 
 + (_Bool);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
@@ -25,10 +22,7 @@
 - (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
 @property(readonly, nonatomic) NSDateComponents *checkInDateComponents; // @synthesize checkInDateComponents=_checkInDateComponents;
-@property(readonly, nonatomic) NSString *city; // @synthesize city=_city;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

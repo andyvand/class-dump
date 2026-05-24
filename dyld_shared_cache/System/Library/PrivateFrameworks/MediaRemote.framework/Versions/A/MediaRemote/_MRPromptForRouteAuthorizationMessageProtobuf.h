@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRAVOutputDeviceDescriptorProtobuf;
-
 @interface _MRPromptForRouteAuthorizationMessageProtobuf
 {
     int _inputType;
-    _MRAVOutputDeviceDescriptorProtobuf *_route;
-    struct {
-        unsigned int inputType:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (int);
-- (int);
-- (void);
+- (int)_billPayAmountType;
+- (void)PKSearchSelectedItemTitles;
 - (id);
 - (void);
 - (void);
@@ -30,16 +24,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)CommandAfterRespeakCheck = %u];
 - (id);
 - (void);
-- (void)rNotificationsForEndpoint: /* Error: Ran out of types for this method. */;
+- (void)_unregisterForNotificationsForEndpoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInputType;
 @property(readonly, nonatomic) _Bool hasRoute;
-@property(nonatomic) int inputType; // @synthesize inputType=_inputType;
-@property(retain, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *route; // @synthesize route=_route;
 
 @end
 

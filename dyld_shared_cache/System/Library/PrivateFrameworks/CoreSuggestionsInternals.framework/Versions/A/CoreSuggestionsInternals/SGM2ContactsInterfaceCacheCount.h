@@ -14,21 +14,21 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)`
+;
+- (_Bool)%;
+- (id)mMaxPopulatedRow;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)etTzid:(id)arg1;
+- (void)setTzid:(id)arg1;
 - (void)DÂÂ¨ÂüÂÃ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __NSEventDiscardInfo
 {
     unsigned long long mask;
-    unsigned long long time;
 }
 
 @end

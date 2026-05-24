@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue;
-
 @interface CSAutomaticVolumeEnabledMonitor
 {
     _Bool _isAutomaticVolumeEnabled;
-    NSUserDefaults *_defaults;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)tSpeechSynthesisRecord;
++ (id)_mostRecentSpeechSynthesisRecord;
 - (void);
 - (id);
+- (void)ebug;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)e:withMetrics:usesAutomaticEndpointing: /* Error: Ran out of types for this method. */;
+- (void)attSiriNode:didDetectHardEndpointAtTime:withMetrics:usesAutomaticEndpointing: /* Error: Ran out of types for this method. */;
 
 @end
 

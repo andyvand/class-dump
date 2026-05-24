@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _isShiftKeyBeingHeld;
 }
 
-- (void);
+- (void);
 - (void)ÔÐ!CùÑ]1Â0@ù
 × ;
-- (void)ressBackground;
-- (void)t;
+- (void)_shouldSuppressBackground;
+- (void)_backButtonLeadingConstraint;
 
 @end
 

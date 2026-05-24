@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimer;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface TILanguageModelMaintainer
 {
     NSDate *_nextEligibleMaintenanceDate;
-    NSTimer *_dynamicLearningCacheTimer;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setAllowsCellularAccess: /* Error: Ran out of types for this method. */;
+- (void)addEntriesFromDictionary:(id)arg1;
+- (id)[%@]%@;
+- (_Bool)? %@;
 - (id);
 - (void);
+- (void);
+- (void)th %d < CFDataGetLength(stitchData) %lld + snumLength %d;
+- (void);
+- (id);
+- (void)4@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSTimer *dynamicLearningCacheTimer; // @synthesize dynamicLearningCacheTimer=_dynamicLearningCacheTimer;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDate *nextEligibleMaintenanceDate; // @synthesize nextEligibleMaintenanceDate=_nextEligibleMaintenanceDate;
-@property(readonly) Class superclass;
 
 @end
 

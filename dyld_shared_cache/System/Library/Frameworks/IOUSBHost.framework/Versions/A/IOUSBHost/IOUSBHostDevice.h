@@ -15,13 +15,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (const struct IOUSBConfigurationDescriptor *);
 - (_Bool);
-- (_Bool);
+- (_Bool)_keywordThreshold;
 
 // Remaining properties
-@property(readonly) const struct IOUSBConfigurationDescriptor *configurationDescriptor;
 @property unsigned long long lastKnownConfiguration; // @synthesize lastKnownConfiguration=_lastKnownConfiguration;
 
 @end

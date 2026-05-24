@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, BMStoreStream, NSObject, NSString, _PASCoalescingTimer;
-@protocol OS_dispatch_queue;
-
 @interface _CDPersistedCoalescingTimer
 {
     double _delay;
-    double _leeway;
-    NSObject<OS_dispatch_queue> *_queue;
-    _PASCoalescingTimer *_coalescingTimer;
-    NSString *_persistencePath;
-    BMStoreStream *_storeStream;
-    BMSource *_source;
 }
 
 - (void);

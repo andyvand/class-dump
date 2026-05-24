@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFAppIconImage, _SFPBRFAvatarImage, _SFPBRFBadgedImage, _SFPBRFDefaultBrowserAppIconImage, _SFPBRFMonogramImage, _SFPBRFSymbolImage, _SFPBRFUrlImage;
+@class NSData, _SFPBRFMonogramImage, _SFPBRFSymbolImage, _SFPBRFUrlImage;
 
 @protocol _SFPBRFImageSource
+- (void);
+- (_SFPBRFMonogramImage *)7;
+- (NSData *)_duplicateAssetPhotoLibraryType;
+- (_SFPBRFSymbolImage *)"<PHMediaRequestContextDelegate>",W,N,V_delegate;
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFAppIconImage *app_icon;
-@property(retain, nonatomic) _SFPBRFAvatarImage *avatar;
-@property(retain, nonatomic) _SFPBRFBadgedImage *badged_image;
-@property(retain, nonatomic) _SFPBRFDefaultBrowserAppIconImage *default_browser_app_icon;
-@property(nonatomic) _Bool do_not_show_loading_placeholder;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFMonogramImage *monogram;
-@property(retain, nonatomic) _SFPBRFSymbolImage *symbol;
 @property(retain, nonatomic) _SFPBRFUrlImage *url;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

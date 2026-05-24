@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ECEmailAddressConvertible;
-
 @interface EMGroupedSenderCollectionItemID
 {
     long long _businessID;
-    id <ECEmailAddressConvertible> _emailAddress;
 }
 
 + (_Bool);
@@ -20,8 +16,8 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)URLSession:(id)arg1 task:willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)Nk;
 - (id);
 - (id);
 - (id);
@@ -29,15 +25,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long businessID; // @synthesize businessID=_businessID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) id <ECEmailAddressConvertible> emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

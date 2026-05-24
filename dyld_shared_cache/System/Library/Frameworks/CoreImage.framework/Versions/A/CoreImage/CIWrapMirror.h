@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (id)kuuv^^U^)>+N8J=UffafB`Ynookppppp;
 

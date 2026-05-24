@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController, CALayer, NSDictionary, NSString;
-
 @interface WebAVPlayerLayer
 {
     struct ThreadSafeWeakPtr<WebCore::VideoPresentationModel, WTF::NoTaggingTraits<WebCore::VideoPresentationModel>> _presentationModel;
-    struct RetainPtr<WebAVPlayerController> _playerController;
-    struct RetainPtr<CALayer> _videoSublayer;
-    struct RetainPtr<CALayer> _captionsLayer;
-    struct FloatRect _targetVideoFrame;
-    struct CGSize _videoDimensions;
-    struct RetainPtr<NSString> _videoGravity;
-    struct RetainPtr<NSString> _previousVideoGravity;
-    struct unique_ptr<WebCore::WebAVPlayerLayerPresentationModelClient, std::default_delete<WebCore::WebAVPlayerLayerPresentationModelClient>> _presentationModelClient;
-    struct NSEdgeInsets _legibleContentInsets;
-    _Bool _showingCaptionPreview;
-    unsigned long long _logIdentifier;
-    _Bool _readyForDisplay;
-    NSDictionary *_pixelBufferAttributes;
 }
 
 + (id)aultValue that is greater than the maxValue;
@@ -34,7 +19,7 @@
 - (void);
 - (RefPtr_abca5c66);
 - (const void *);
-- (CDStruct_1328923a *);
+- (CDStruct_1328923a *)C;
 - (id);
 - (struct FloatRect);
 - (struct CGRect);
@@ -43,14 +28,14 @@
 - (void);
 - (struct NSEdgeInsets);
 - (void);
-- (void);
+- (void)!;
 - (id);
-- (id);
+- (id)tConferenced=%i, validSystemProvider=%i, validNotEmergencyCall=%i, validCallStatus=%i(%i), validEndpointOnCurrentDevice=%i, validIsNotVideo=%i, validLocale=%i(%@), validCaptioningAvailable=%i, isGASRAvailable=%i, validLockdownMode=%i, qfaLocaleExpansionEnabled=%i;
 - (id);
 - (id);
 - (unsigned long long)RegistrableDomain, WTF::HashSet<WebCore::ProcessQualified<WTF::UUID>>>::KeyValuePairTraits, WTF::HashTraits<WebCore::RegistrableDomain>>::validateKey(const ValueType &) [Key = WebCore::RegistrableDomain, Value = WTF::KeyValuePair<WebCore::RegistrableDomain, WTF::HashSet<WebCore::ProcessQualified<WTF::UUID>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::RegistrableDomain, WTF::HashSet<WebCore::ProcessQualified<WTF::UUID>>>>, HashFunctions = WTF::DefaultHash<WebCore::RegistrableDomain>, Traits = WTF::HashMap<WebCore::RegistrableDomain, WTF::HashSet<WebCore::ProcessQualified<WTF::UUID>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::RegistrableDomain>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (struct CGSize)ModuleScriptLoader];
-- (void)ionObjC:(id)arg1:TimeoutTimer /* Error: Ran out of types for this method. */;
+- (void)MediaPlayerPrivateAVFoundationObjC:(id)arg1:TimeoutTimer /* Error: Ran out of types for this method. */;
 - (void)order;
 - (void)ame!=="watchos-activity-indicator-fades-out")
 return;classList.remove("spins");classList.remove("fades-out");},{once:true});}}
@@ -588,22 +573,10 @@ set maximumRightContainerButtonCountOverride(count)
 áilåsó®ìÊç-zone-úèåaæðiôñ;
 - (_Bool);
 - (id);
-- (void)coderProfileCapability_IsHardwareAccelerated;
+- (void)kVTDecoderProfileCapability_IsHardwareAccelerated;
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *captionsLayer;
-@property(nonatomic) struct NSEdgeInsets legibleContentInsets;
-@property(readonly, nonatomic) CDStruct_1328923a *logChannel;
 @property(readonly, nonatomic) unsigned long long logIdentifier;
-@property(readonly, nonatomic) const void *loggerPtr;
-@property(copy, nonatomic) NSDictionary *pixelBufferAttributes; // @synthesize pixelBufferAttributes=_pixelBufferAttributes;
-@property(retain, nonatomic) AVPlayerController *playerController;
-@property(nonatomic) RefPtr_abca5c66 presentationModel;
-@property(nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay; // @synthesize readyForDisplay=_readyForDisplay;
-@property(readonly, nonatomic) _Bool showingCaptionPreview;
-@property struct CGSize videoDimensions;
-@property(retain, nonatomic) NSString *videoGravity;
-@property(retain, nonatomic) CALayer *videoSublayer;
 
 @end
 

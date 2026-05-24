@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol HMDFeaturesDataSource;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfileSettingsCoreDataAdapter
 {
     NSUUID *_hapAccessoryUUID;
-    NSUUID *_homeUUID;
-    NSUUID *_cameraProfileSettingsModelID;
-    NSUUID *_derivedPropertiesModelID;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)addStep:(id)arg1;
+- (void)addDelegate:(id)arg1 queue:(CDUnknownBlockType)arg2;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)áß°!ÈBùð1Â0@ù
 × ;
-- (id)pdateRequiredNotificationThreshold;
+- (id)_homeUpdateRequiredNotificationThreshold;
 - (void);
 
 // Remaining properties
-@property(readonly) NSUUID *cameraProfileSettingsModelID; // @synthesize cameraProfileSettingsModelID=_cameraProfileSettingsModelID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSUUID *derivedPropertiesModelID; // @synthesize derivedPropertiesModelID=_derivedPropertiesModelID;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
 @property(readonly) NSUUID *hapAccessoryUUID; // @synthesize hapAccessoryUUID=_hapAccessoryUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) Class superclass;
 
 @end
 

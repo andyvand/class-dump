@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPersonEntity, BMTopicEntity;
-
 @interface BMEntity
 {
     _Bool _isPersonType;
-    _Bool _isTopicType;
-    BMTopicEntity *_topicEntity;
-    BMPersonEntity *_personEntity;
 }
 
 - (id);
@@ -24,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id)ATTRIBUTE ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPersonType; // @synthesize isPersonType=_isPersonType;
-@property(readonly, nonatomic) _Bool isTopicType; // @synthesize isTopicType=_isTopicType;
-@property(readonly, nonatomic) BMPersonEntity *personEntity; // @synthesize personEntity=_personEntity;
-@property(readonly, nonatomic) BMTopicEntity *topicEntity; // @synthesize topicEntity=_topicEntity;
 
 @end
 

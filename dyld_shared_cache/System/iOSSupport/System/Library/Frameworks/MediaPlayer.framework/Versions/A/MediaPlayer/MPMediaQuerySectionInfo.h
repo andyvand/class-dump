@@ -9,30 +9,25 @@
 @interface MPMediaQuerySectionInfo
 {
     NSArray *_sections;
-    NSArray *_sectionIndexTitles;
-    _Bool _hasUnknownSection;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)__kIMAccountControllerAccountAddedNotification;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
-- (id);
+- (id)rdConfigurations: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)isDefinitiveInformation,V_definitiveInformation;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) _Bool hasUnknownSection; // @synthesize hasUnknownSection=_hasUnknownSection;
 @property(copy, nonatomic) NSArray *sectionIndexTitles;
-@property(readonly, copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end
 

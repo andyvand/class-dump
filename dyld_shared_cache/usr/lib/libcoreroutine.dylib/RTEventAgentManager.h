@@ -6,40 +6,31 @@
 
 #import <coreroutine/RTXPCListener.h>
 
-@class NSString, NSXPCConnection, RTPlatform;
+@class NSXPCConnection;
 
 @interface RTEventAgentManager : RTXPCListener
 {
     NSXPCConnection *_pluginConnection;
-    RTPlatform *_platform;
 }
 
 - (void);
-- (id);
+- (id)Y;
 - (void);
+- (void)IDSSendMessageOptionActivityContinuation;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (id)ionnaire;
-- (id)ocation;
+- (id)hasPlaceQuestionnaire;
+- (id)_location;
 - (void)%@, restorationIdentifier, %@, success, %@;
 - (void)rameter not satisfying:beam /* Error: Ran out of types for this method. */;
 - (void)i`;
 - (void)8áØÿí+m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 @property(retain, nonatomic) NSXPCConnection *pluginConnection; // @synthesize pluginConnection=_pluginConnection;
-@property(readonly) Class superclass;
 
 @end
 

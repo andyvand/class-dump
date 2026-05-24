@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol DDMiscActionProtocol
++ (_Bool);
+
+@optional
++ (_Bool);
++ (NSString *)3;
 @end
 

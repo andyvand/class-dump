@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOReachability
 {
     _Bool _networkReachable;
-    unsigned long long _errorCount;
-    int _symptomsAlternateAdviceToken;
-    unsigned long long _xpcErrors;
-    int _daemonLaunchNotifyToken;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -28,13 +22,7 @@
 - (void)j2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

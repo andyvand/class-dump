@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString, NSUUID;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingGroup
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_identifier;
-    NSUUID *_parentIdentifier;
-    NSString *_name;
-    NSString *_keyPath;
-    NSMutableSet *_settingsInternal;
-    NSMutableSet *_groupsInternal;
 }
 
 + (_Bool)ñ;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_connections;
+- (id)MSPShareETAIncludeMockSkyTripForUITestingKey;
 - (void);
 - (void);
 - (id);
@@ -33,27 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)WifiManager:(id)arg1;
+- (id)setWifiManager:(id)arg1;
 - (id)_TtC13HomeKitDaemon25CommunicationTrustHandler;
-- (void)rationMS_HH2;
+- (void)firstCoreDataContainerSetupDurationMS_HH2;
 - (id)DAppleMediaAccessory"16@?0@"HMDAppleMediaAccessory"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *groups;
-@property(retain) NSMutableSet *groupsInternal; // @synthesize groupsInternal=_groupsInternal;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, copy) NSArray *settings;
 @property(retain) NSMutableSet *settingsInternal; // @synthesize settingsInternal=_settingsInternal;
-@property(readonly) Class superclass;
 
 @end
 

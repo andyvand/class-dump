@@ -5,5 +5,7 @@
 //
 
 @protocol HMDXPCClientConnectionDelegate
+- (void);
+- (void);
 @end
 

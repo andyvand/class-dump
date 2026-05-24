@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseConnection, _EDThreadPersistence_StatementCache;
+@class EDPersistenceDatabaseConnection;
 
 @interface _EDThreadPersistence_SQLHelper
 {
     EDPersistenceDatabaseConnection *_connection;
-    _EDThreadPersistence_StatementCache *_cache;
 }
 
 - (long long);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)cal_status;
+- (void):mail_local_status /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _EDThreadPersistence_StatementCache *cache; // @synthesize cache=_cache;
 @property(readonly, nonatomic) EDPersistenceDatabaseConnection *connection; // @synthesize connection=_connection;
 
 @end

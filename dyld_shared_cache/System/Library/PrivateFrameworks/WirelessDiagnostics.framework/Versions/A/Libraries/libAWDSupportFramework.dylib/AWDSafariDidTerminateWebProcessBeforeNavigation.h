@@ -7,11 +7,6 @@
 @interface AWDSafariDidTerminateWebProcessBeforeNavigation
 {
     unsigned long long _timestamp;
-    int _terminationReason;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int terminationReason:1;
-    } _has;
 }
 
 - (id);
@@ -20,25 +15,23 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)@
+;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool){;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id),m;
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTerminationReason;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int terminationReason; // @synthesize terminationReason=_terminationReason;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

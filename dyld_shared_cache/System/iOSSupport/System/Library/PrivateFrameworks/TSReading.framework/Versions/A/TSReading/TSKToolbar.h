@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, TSKToolbarTitleView, UIColor, UINavigationItem;
+@class NSString, UINavigationItem;
 
 @interface TSKToolbar
 {
     UINavigationItem *_navigationItem;
-    CALayer *_shadowLayer;
-    _Bool _shadowEnabled;
-    TSKToolbarTitleView *_navigationTitleView;
-    double _leftToolbarItemsInset;
-    double _rightToolbarItemsInset;
-    double _leftToolbarItemsMaximumWidth;
-    double _rightToolbarItemsMaximumWidth;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
+- (_Bool)sing from delegate info: /* Error: Ran out of types for this method. */;
+- (void)yer item ;
+- (void):(double)arg1;
+- (void)me [Media services unavailable]- identifier:(id)arg1;
+- (void)tem];
+- (void)ementation;
+- (void)backCore.AudioSessionConfiguration;
+- (void)ismatched item];
+- (double)AVPlayerItemTimeJumpedReasonClientInitiated;
+- (double)AVPlayerItemTimeJumpedReasonUnknown;
 - (id);
+- (double);
 - (double);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)wift;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void)@;
+- (id)configurationManager;
 - (id)!X@ùq1Â0@ù
 × ;
-- (void)lectionForSwatchGeneration;
+- (void)fadeReflectionForSwatchGeneration;
 
 // Remaining properties
-@property(nonatomic) double leftToolbarItemsInset; // @synthesize leftToolbarItemsInset=_leftToolbarItemsInset;
-@property(nonatomic) double leftToolbarItemsMaximumWidth; // @synthesize leftToolbarItemsMaximumWidth=_leftToolbarItemsMaximumWidth;
-@property(retain, nonatomic) TSKToolbarTitleView *navigationTitleView; // @synthesize navigationTitleView=_navigationTitleView;
-@property(nonatomic) double rightToolbarItemsInset; // @synthesize rightToolbarItemsInset=_rightToolbarItemsInset;
-@property(nonatomic) double rightToolbarItemsMaximumWidth; // @synthesize rightToolbarItemsMaximumWidth=_rightToolbarItemsMaximumWidth;
-@property(nonatomic) _Bool shadowEnabled; // @synthesize shadowEnabled=_shadowEnabled;
 @property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) UIColor *titleColor;
 
 @end
 

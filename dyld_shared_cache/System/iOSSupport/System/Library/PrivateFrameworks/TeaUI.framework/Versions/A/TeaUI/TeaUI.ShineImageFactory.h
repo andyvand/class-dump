@@ -7,8 +7,6 @@
 @interface TeaUI.ShineImageFactory
 {
     id lruCache;
-    id lock;
-    id inflightRequests;
 }
 
 - (void);

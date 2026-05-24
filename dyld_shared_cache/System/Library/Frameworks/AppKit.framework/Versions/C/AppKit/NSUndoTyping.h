@@ -6,19 +6,16 @@
 
 #import <AppKit/NSUndoTextOperation.h>
 
-@class NSMutableAttributedString;
-
 @interface NSUndoTyping : NSUndoTextOperation
 {
     struct _NSRange _replacementRange;
-    NSMutableAttributedString *_attributedString;
 }
 
-- (void);
+- (void)parse signed section sequence:(id)arg1 %d;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)kCFHTTPAuthenticationPropertyMethod;
 - (void);
 
 @end

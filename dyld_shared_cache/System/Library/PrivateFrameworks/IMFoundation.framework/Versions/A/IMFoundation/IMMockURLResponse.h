@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse, NSString;
+@class NSHTTPURLResponse;
 
 @interface IMMockURLResponse
 {
     NSHTTPURLResponse *_response;
-    NSData *_data;
-    NSString *_requestBodyKeyPath;
-    NSString *_mockID;
 }
 
-+ (id);
++ (id)24d32;
 + (_Bool);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *data; // @synthesize data=_data;
-@property(copy) NSString *mockID; // @synthesize mockID=_mockID;
-@property(copy) NSString *requestBodyKeyPath; // @synthesize requestBodyKeyPath=_requestBodyKeyPath;
 @property(retain) NSHTTPURLResponse *response; // @synthesize response=_response;
 
 @end

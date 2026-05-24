@@ -9,7 +9,6 @@
 @interface PXStoryDefaultAutoEditDecisionListsProducerFactory
 {
     PFStoryAutoEditConfiguration *_configuration;
-    PXStoryConfiguration *_storyConfiguration;
 }
 
 - (id);

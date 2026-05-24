@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id),N,V_gpuWalltimeInterval;
 
 @end
 

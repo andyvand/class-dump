@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)nailImage;
-- (void)deredSetWithArray:(id)arg1;
+- (id)thumbnailImage;
+- (void)orderedSetWithArray:(id)arg1;
 - (void)tMode;
 
 // Remaining properties

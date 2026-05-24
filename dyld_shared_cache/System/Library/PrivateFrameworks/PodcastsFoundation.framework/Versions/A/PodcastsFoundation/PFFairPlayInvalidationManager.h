@@ -7,11 +7,9 @@
 @interface PFFairPlayInvalidationManager
 {
     id keyLoader;
-    id episodeFetcher;
-    id internalQueue;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

@@ -6,32 +6,26 @@
 
 #import <AVFCore/AVAssetInspectorLoader.h>
 
-@class AVAssetInspector, NSMutableArray, NSURL;
+@class AVAssetInspector;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetMakeReadyForInspectionLoader : AVAssetInspectorLoader
 {
     AVAssetInspector *_assetInspector;
-    struct OpaqueFigFormatReader *_formatReader;
-    struct OpaqueFigSimpleMutex *_loadingMutex;
-    NSMutableArray *_keysAwaitingCompletion;
-    long long _status;
-    int _basicInspectionFailureCode;
-    NSURL *_URL;
 }
 
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)�;
 - (id);
-- (void);
+- (void)T&;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (struct OpaqueFigSimpleMutex *);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct OpaqueFigFormatReader *);
 - (id);
@@ -44,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (struct OpaqueFigPlaybackItem *);

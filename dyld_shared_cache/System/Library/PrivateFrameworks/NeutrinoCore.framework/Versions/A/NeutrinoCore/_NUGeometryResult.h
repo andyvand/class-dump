@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString, NUImageGeometry;
-@protocol NURenderStatistics;
+@class NUImageGeometry;
 
 @interface _NUGeometryResult : _NURenderResult
 {
@@ -20,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NUImageGeometry *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

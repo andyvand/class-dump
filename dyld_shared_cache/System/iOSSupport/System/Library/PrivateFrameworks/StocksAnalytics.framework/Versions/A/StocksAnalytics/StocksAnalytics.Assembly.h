@@ -7,6 +7,7 @@
 @interface StocksAnalytics.Assembly
 {
     id assemblies;
+    id;
 }
 
 @end

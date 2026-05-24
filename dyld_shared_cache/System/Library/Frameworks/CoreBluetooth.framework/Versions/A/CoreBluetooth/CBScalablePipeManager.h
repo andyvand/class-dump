@@ -6,20 +6,11 @@
 
 #import <CoreBluetooth/CBManager.h>
 
-@class NSHashTable, NSMutableSet, NSSet;
-@protocol CBScalablePipeManagerDelegate;
+@class NSHashTable, NSMutableSet;
 
 @interface CBScalablePipeManager : CBManager
 {
     NSMutableSet *_identifiers;
-    struct {
-        unsigned int didRegisterEndpoint:1;
-        unsigned int didUnregisterEndpoint:1;
-        unsigned int pipeDidConnect:1;
-        unsigned int pipeDidDisconnect:1;
-    } _delegateFlags;
-    id <CBScalablePipeManagerDelegate> _delegate;
-    NSHashTable *_pipes;
 }
 
 - (void);
@@ -31,30 +22,28 @@
 - (void);
 - (void);
 - (void);
+- (id)";
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ionDate;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)`;
+- (id)ifier=%@, intervalCount=%lu;
+- (void)___BuildMessageSync___;
 - (void);
 - (void);
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)indexOfObjectPassingTest: /* Error: Ran out of types for this method. */;
 - (void)D;
 - (id)gs %@:%@ %@ /* Error: Ran out of types for this method. */;
-- (void)th;
+- (void)SharingSiriWatchAuth;
 
 // Remaining properties
-@property(nonatomic) __weak id <CBScalablePipeManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain, nonatomic) NSSet *identifiers; // @synthesize identifiers=_identifiers;
 @property(readonly, retain, nonatomic) NSHashTable *pipes; // @synthesize pipes=_pipes;
 
 @end

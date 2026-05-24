@@ -6,24 +6,16 @@
 
 #import <TSReading/TSDStroke.h>
 
-@class NSString, TSDFrameSpec;
+@class TSDFrameSpec;
 
 @interface TSDFrame : TSDStroke
 {
     TSDFrameSpec *mSpec;
-    NSString *mFrameName;
-    double mAssetScale;
-    _Bool mScaledSizesValid;
-    double mLeftWidth;
-    double mRightWidth;
-    double mTopHeight;
-    double mBottomHeight;
-    struct CGSize mAdornmentSize;
 }
 
 + (Class);
 - (_Bool);
-- (id);
+- (id)TransitionProvider;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,16 +25,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)l;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)';
 - (double);
 - (double);
 - (double);
 - (double);
 - (struct CGRect);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -54,7 +46,7 @@
 - (struct CGRect);
 - (struct _TSDStrokeOutsets);
 - (_Bool);
-- (_Bool);
+- (_Bool), error=%{public}@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -67,7 +59,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double assetScale; // @synthesize assetScale=mAssetScale;
-@property(readonly, nonatomic) TSDFrameSpec *frameSpec; // @synthesize frameSpec=mSpec;
 
 @end
 

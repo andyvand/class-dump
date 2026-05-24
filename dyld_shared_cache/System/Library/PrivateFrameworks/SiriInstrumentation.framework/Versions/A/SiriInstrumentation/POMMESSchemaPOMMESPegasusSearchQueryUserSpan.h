@@ -6,33 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface POMMESSchemaPOMMESPegasusSearchQueryUserSpan : SISchemaInstrumentationMessage
 {
     NSString *_label;
-    _Bool _hasLabel;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)T;
+- (unsigned long long)ternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequestResponse_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ClearDeleteTombStones deleted pending sync table;
 - (id);
 - (id);
-- (id)uestMatchSignalSet;
+- (id)_requestMatchSignalSet;
 - (id)owUpInSameContainerAsSiriRequest;
-- (void)eForSiriAndFollowup;
-- (void)AYERTASKTYPE_SET_AUDIO_LANGUAGE;
-- (_Bool)D_DIRECTORY;
+- (void)isSameCallRouteForSiriAndFollowup;
+- (void)FLOWMEDIAPLAYERTASKTYPE_SET_AUDIO_LANGUAGE;
+- (_Bool)ASRSAMPLEDAUDIOSTORAGEFAILUREREASON_CANNOT_CREATE_DATED_DIRECTORY;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

@@ -7,7 +7,6 @@
 @interface ISDGlobalId
 {
     CDStruct_e6eac3cb _bytes;
-    unsigned long long _hash;
 }
 
 + (id);
@@ -18,26 +17,26 @@
 + (void);
 + (void)arrayByAddingObject: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)8;
 - (int);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (CDStruct_e6eac3cb *);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)9;
 - (Class);
 - (id);
-- (unsigned long long);
+- (unsigned long long)i!;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)@;
+- (id)J	;
 - (_Bool);
-- (id);
+- (id);
 - (unsigned short);
 - (long long);
 - (id);

@@ -9,8 +9,6 @@
 @interface ConversationKit.InCallControlsCountdownJoinButton : ConversationKit.CallControlsButton
 {
     id countdownView;
-    id delegate;
-    id countdownControllerDelegate;
 }
 
 - (void)

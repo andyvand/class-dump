@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-@protocol EFSQLValueExpressable;
+@class NSString;
 
 @interface EFSQLSelectStatement
 {
     _Bool _distinct;
-    id <EFSQLValueExpressable> _where;
-    unsigned long long _limit;
-    NSString *_tableName;
-    NSMutableArray *_results;
-    NSMutableArray *_joinExpressions;
-    NSArray *_groupExpressions;
-    NSMutableArray *_orderExpressions;
 }
 
 - (id);
@@ -33,26 +25,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@ succeed;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ctionViewItem"32@0:(id)arg1 8@"NSCollectionView"16@"NSIndexPath"24;
+- (void)RequestEndMetrics;
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)i;
+- (void);
+- (id)NULL;
 - (unsigned long long);
 - (id);
 - (void);
@@ -61,26 +53,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ingCharactersInSet:(id)arg1 ignoringCharactersInSet: /* Error: Ran out of types for this method. */;
+- (void)_trimTrailingCharactersInSet:(id)arg1 ignoringCharactersInSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool distinct; // @synthesize distinct=_distinct;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(retain, nonatomic) NSArray *groupExpressions; // @synthesize groupExpressions=_groupExpressions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *joinExpressions; // @synthesize joinExpressions=_joinExpressions;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) NSMutableArray *orderExpressions; // @synthesize orderExpressions=_orderExpressions;
-@property(readonly, copy, nonatomic) NSString *queryString;
-@property(readonly, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
-@property(retain, nonatomic) id <EFSQLValueExpressable> where; // @synthesize where=_where;
 
 @end
 

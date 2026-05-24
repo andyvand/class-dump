@@ -4,56 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, NSWindow;
+@class NSWindow;
 @protocol MFMessageComposeViewControllerHelperDelegate;
 
 @interface MFMessageComposeViewControllerHelper
 {
     id <MFMessageComposeViewControllerHelperDelegate> delegate;
-    NSWindow *_appNSWindow;
-    NSMutableDictionary *_parameters;
-    NSString *_body;
-    NSMutableArray *_attachments;
 }
 
-+ (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
++ (_Bool)articleRecirculationConfigService;
+- (id)setActiveGestureCount: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityTraits:(id)arg1;
+- (void)setAccessibilityLabel:(id)arg1;
+- (void)effectiveUserInterfaceLayoutDirection;
 - (_Bool);
 - (void);
+- (void)bundleViaOfferSubscriptionButtonConfigurationsByType;
 - (void);
+- (id);
+- (void);
 - (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)MapsSuggestionsUserPlacePK;
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
-- (void);
+- (void)F;
 
 // Remaining properties
 @property(nonatomic) __weak NSWindow *appNSWindow; // @synthesize appNSWindow=_appNSWindow;
-@property(retain, nonatomic) NSMutableArray *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFMessageComposeViewControllerHelperDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

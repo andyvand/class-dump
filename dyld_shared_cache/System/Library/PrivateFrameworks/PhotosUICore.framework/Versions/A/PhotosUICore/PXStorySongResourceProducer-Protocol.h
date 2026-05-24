@@ -5,7 +5,7 @@
 //
 
 @protocol PXStorySongResourceProducer
-- (void)CurrentAsset;
+- (void)_updatePlayerCurrentAsset;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext;

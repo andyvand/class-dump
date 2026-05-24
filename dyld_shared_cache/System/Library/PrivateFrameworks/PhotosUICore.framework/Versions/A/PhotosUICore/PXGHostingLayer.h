@@ -6,14 +6,12 @@
 
 #import <PhotosUICore/PXImageQueueLayer.h>
 
-@class NSObject, NSString, PXGHostingController, PXGHostingLayerVisibilityInfo;
-@protocol OS_dispatch_queue, PXGMutableHostingControllerPresenter;
+@class PXGHostingController;
+@protocol PXGMutableHostingControllerPresenter;
 
 @interface PXGHostingLayer : PXImageQueueLayer
 {
     id <PXGMutableHostingControllerPresenter> _presenter;
-    PXGHostingController *_hostingController;
-    PXGHostingLayerVisibilityInfo *_visibilityInfo;
 }
 
 - (id);
@@ -30,16 +28,7 @@
 - (void)LemonadeWallpaperCell;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;
-@property(readonly) NSObject<OS_dispatch_queue> *hostingControllerObservationQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXGHostingLayerVisibilityInfo *visibilityInfo; // @synthesize visibilityInfo=_visibilityInfo;
 
 @end
 

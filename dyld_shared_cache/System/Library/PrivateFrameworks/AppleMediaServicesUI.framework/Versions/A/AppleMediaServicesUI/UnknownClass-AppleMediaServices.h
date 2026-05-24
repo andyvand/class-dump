@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUICommonNavigationController, AMSUIWebContainerViewController, NSColor, NSViewController;
+@class NSColor;
 
 @interface UnknownClass (AppleMediaServices)
 - (void);
 - (void);
-- (void);
+- (void)^;
 - (void);
 - (void);
 - (id);
@@ -27,11 +27,5 @@
 
 // Remaining properties
 @property(retain, setter=ams_setBackgroundColor:) NSColor *ams_backgroundColor;
-@property(readonly) AMSUICommonNavigationController *ams_commonNavigationController;
-@property(readonly) NSViewController *ams_frontmostController;
-@property(readonly) AMSUICommonNavigationController *ams_navigationController;
-@property(readonly) unsigned long long ams_navigationIndex;
-@property(readonly) NSViewController *ams_navigationItemViewController;
-@property(readonly) AMSUIWebContainerViewController *ams_parentContainer;
 @end
 

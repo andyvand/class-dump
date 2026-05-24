@@ -7,9 +7,6 @@
 @interface AXCoreUtilities.AXCoreSettingsStore
 {
     id cachedSuites;
-    id suiteLock;
-    id observationLock;
-    id observations;
 }
 
 - (id);

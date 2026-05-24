@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class NSString;
 
 @interface UIStoryboardSegue
 {
     NSString *_identifier;
-    UIViewController *_sourceViewController;
-    UIViewController *_destinationViewController;
-    CDUnknownBlockType _performHandler;
-    CDUnknownBlockType _prepareHandler;
-    id _sender;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)_checkAndUpdateSMSSpamFilterExtensionForUnregisteredOrUpdatedPlugins:arePluginsRegistered: /* Error: Ran out of types for this method. */;
+- (id)incoming message:%@ in chat:%@ was determined to be %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -33,12 +28,7 @@
 - (void)ÞÈe;
 
 // Remaining properties
-@property(readonly, nonatomic) UIViewController *destinationViewController; // @synthesize destinationViewController=_destinationViewController;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType performHandler; // @synthesize performHandler=_performHandler;
 @property(copy, nonatomic) CDUnknownBlockType prepareHandler; // @synthesize prepareHandler=_prepareHandler;
-@property(retain, nonatomic) id sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) UIViewController *sourceViewController; // @synthesize sourceViewController=_sourceViewController;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFMouseCursorImage, NSString, NSTimer;
+@class AXFMouseCursorImage;
 
 __attribute__((visibility("hidden")))
 @interface _AXFMouseHardware
 {
     struct __CGEventSource *__eventSource;
-    _Bool _accumulateClickCount;
-    _Bool _keepCursorImageSynchronizedWithSystem;
-    unsigned int __cgsConnectionID;
-    unsigned int __currentCursorSeed;
-    unsigned int __currentSystemCursorSeed;
-    AXFMouseCursorImage *_cursorImage;
-    long long _currentDownButton;
-    unsigned long long __currentDownButtonClickCount;
-    unsigned long long __currentModifierFlags;
-    NSTimer *__cursorTypeUpdateTimer;
-    struct CGPoint __lastMouseButtonPressLocation;
 }
 
 + (id);
@@ -28,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -80,36 +69,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (struct CGPoint);
-- (void);
-- (void)e:(struct CGPoint)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)systemDidUnlock;
+- (void)enumerateAttributesInRange:(struct CGPoint)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int _cgsConnectionID; // @synthesize _cgsConnectionID=__cgsConnectionID;
-@property(nonatomic) unsigned int _currentCursorSeed; // @synthesize _currentCursorSeed=__currentCursorSeed;
-@property(nonatomic) unsigned long long _currentDownButtonClickCount; // @synthesize _currentDownButtonClickCount=__currentDownButtonClickCount;
-@property(nonatomic) unsigned long long _currentModifierFlags; // @synthesize _currentModifierFlags=__currentModifierFlags;
-@property(nonatomic) unsigned int _currentSystemCursorSeed; // @synthesize _currentSystemCursorSeed=__currentSystemCursorSeed;
-@property(retain, nonatomic) NSTimer *_cursorTypeUpdateTimer; // @synthesize _cursorTypeUpdateTimer=__cursorTypeUpdateTimer;
-@property(nonatomic) struct CGPoint _lastMouseButtonPressLocation; // @synthesize _lastMouseButtonPressLocation=__lastMouseButtonPressLocation;
-@property(nonatomic) _Bool accumulateClickCount; // @synthesize accumulateClickCount=_accumulateClickCount;
-@property(nonatomic) long long currentDownButton; // @synthesize currentDownButton=_currentDownButton;
-@property(nonatomic) struct CGPoint currentLocation;
 @property(retain, nonatomic) AXFMouseCursorImage *cursorImage; // @synthesize cursorImage=_cursorImage;
-@property(readonly, nonatomic) struct CGSize cursorImageSize;
-@property(nonatomic) double cursorScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keepCursorImageSynchronizedWithSystem; // @synthesize keepCursorImageSynchronizedWithSystem=_keepCursorImageSynchronizedWithSystem;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGHallucinationDetectionEnded, RGSiriSchemaRGHallucinationDetectionFailed, RGSiriSchemaRGHallucinationDetectionStarted;
+@class RGSiriSchemaRGHallucinationDetectionStarted;
 
 @interface RGSiriSchemaRGHallucinationDetectionContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGHallucinationDetectionStarted *_startedOrChanged;
-    RGSiriSchemaRGHallucinationDetectionEnded *_ended;
-    RGSiriSchemaRGHallucinationDetectionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,31 +25,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)mework/Versions/A/DeveloperToolsSupport;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ed at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDMigrationRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)tForTable(NSString *, NSError **);
 - (id);
 - (id);
-- (id)Messages:(id)arg1;
+- (id)addOrderedMessages:(id)arg1;
 - (id)Score;
-- (void)asNextRejection;
+- (void)hasNextRejection;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGHallucinationDetectionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGHallucinationDetectionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGHallucinationDetectionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

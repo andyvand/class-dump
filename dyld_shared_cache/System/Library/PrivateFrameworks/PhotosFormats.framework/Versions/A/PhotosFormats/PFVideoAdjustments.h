@@ -9,41 +9,37 @@
 @interface PFVideoAdjustments : PFAssetAdjustments
 {
     float _slowMotionRate;
-    CDStruct_e83c9415 _slowMotionTimeRange;
 }
 
-+ (id);
-+ (CDStruct_1b6d18a9);
-+ (CDStruct_e83c9415);
-+ (float);
++ (id);
++ (CDStruct_198678f7);
++ (CDStruct_3c1748cc);
++ (float);
 + (id);
 + (_Bool);
-- (CDStruct_e83c9415);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
+- (CDStruct_3c1748cc);
 - (void);
-- (_Bool);
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
+- (_Bool)_TtCO10Accelerate4BNNS14ReductionLayer;
+- (CDStruct_198678f7);
+- (CDStruct_198678f7);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)L;
 - (float);
 - (id);
 - (_Bool);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_e83c9415 slowMotionRampIn;
-@property(readonly, nonatomic) CDStruct_e83c9415 slowMotionRampOut;
-@property(nonatomic) float slowMotionRate; // @synthesize slowMotionRate=_slowMotionRate;
-@property(nonatomic) CDStruct_e83c9415 slowMotionTimeRange; // @synthesize slowMotionTimeRange=_slowMotionTimeRange;
+@property(readonly, nonatomic) float slowMotionRate;
 
 @end
 

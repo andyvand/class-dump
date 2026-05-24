@@ -7,15 +7,6 @@
 @interface NewsArticles.RecipeInteractor
 {
     id delegate;
-    id dataManager;
-    id routeModel;
-    id paywallFactory;
-    id accessChecker;
-    id recipeLoader;
-    id recipeFactory;
-    id _recipeWasLoaded;
-    id unitConfigDataManger;
-    id recipeUnitDataManager;
 }
 
 @end

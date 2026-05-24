@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStoreClient, CKStoreResponse, NSArray, NSDictionary, NSError;
+@class CKStoreClient, NSArray;
 
 @interface CKPurchaseResponse
 {
     NSArray *_downloads;
-    CKStoreClient *_storeClient;
-    CKStoreResponse *_storeResponse;
 }
 
 + (_Bool);
@@ -19,21 +17,17 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id)(was %d);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *downloads;
-@property(readonly) NSError *error;
-@property(readonly) NSDictionary *metrics;
 @property(retain) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(retain) CKStoreResponse *storeResponse; // @synthesize storeResponse=_storeResponse;
 
 @end
 

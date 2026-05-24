@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NewsAnalytics)
-- (id);
+- (id)PCUI] Got noAdsInCache for fetching context.;
 @end
 

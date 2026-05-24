@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISAppearanceEffect
 {
     long long _appearance;
 }
 
-- (id);
+- (id)setScript:(id)arg1;
 - (long long);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property long long appearance; // @synthesize appearance=_appearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

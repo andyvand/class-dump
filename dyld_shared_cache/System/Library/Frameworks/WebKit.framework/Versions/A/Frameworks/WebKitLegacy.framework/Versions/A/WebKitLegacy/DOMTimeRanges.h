@@ -11,7 +11,7 @@
 }
 
 - (double);
-- (void);
+- (void)blic}@;
 - (unsigned int);
 - (double);
 

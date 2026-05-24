@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)turning as that would mess up our statistics;
 - (id);
 - (id);
 

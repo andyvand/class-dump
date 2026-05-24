@@ -5,5 +5,6 @@
 //
 
 @protocol HMDSimpleDownloader
+- (void)hasMessageForRouteStepping;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactEventTrigger, _INPBDataString, _INPBIntentMetadata, _INPBSpatialEventTrigger, _INPBTask, _INPBTemporalEventTrigger;
+@class _INPBContactEventTrigger;
 
 @interface _INPBSetTaskAttributeIntent
 {
@@ -12,14 +12,6 @@
         unsigned int priority:1;
         unsigned int status:1;
     } _has;
-    int _priority;
-    int _status;
-    _INPBContactEventTrigger *_contactEventTrigger;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBSpatialEventTrigger *_spatialEventTrigger;
-    _INPBTask *_targetTask;
-    _INPBDataString *_taskTitle;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
 }
 
 + (_Bool);
@@ -41,52 +33,30 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)M;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (int);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (_Bool);
-- (void)teTypes;
+- (void)clearPayloadHomeAttributeTypes;
 - (_Bool)entExecution;
-- (int)ntentResponseCodeInProgress;
-- (void)y;
+- (int)INShareETAIntentResponseCodeInProgress;
+- (void)_originalDictionary;
 - (int);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger; // @synthesize contactEventTrigger=_contactEventTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasTargetTask;
-@property(readonly, nonatomic) _Bool hasTaskTitle;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger; // @synthesize spatialEventTrigger=_spatialEventTrigger;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTask *targetTask; // @synthesize targetTask=_targetTask;
-@property(retain, nonatomic) _INPBDataString *taskTitle; // @synthesize taskTitle=_taskTitle;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
 
 @end
 

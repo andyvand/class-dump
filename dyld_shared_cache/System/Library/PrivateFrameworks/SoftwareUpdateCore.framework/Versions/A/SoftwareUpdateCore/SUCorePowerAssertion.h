@@ -7,25 +7,23 @@
 @interface SUCorePowerAssertion
 {
     int _activeAssertionCount;
-    unsigned int _assertionID;
 }
 
 + (_Bool);
 - (void);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id)anager";
+- (id)_makeToolbarItemForAutoFill;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)A;
 
 // Remaining properties
 @property(nonatomic) int activeAssertionCount; // @synthesize activeAssertionCount=_activeAssertionCount;
-@property(nonatomic) unsigned int assertionID; // @synthesize assertionID=_assertionID;
 
 @end
 

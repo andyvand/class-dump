@@ -6,28 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHAcousticFalseTriggerMitigationStarted : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    int _mitigationType;
-    struct {
-        unsigned int mitigationType:1;
-    } _has;
-    _Bool _hasModelVersion;
 }
 
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)R@;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)t.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,15 +31,11 @@
 × ;
 - (id)aPLUSSuggestionDomainOutcome",&,N,V_domainOutcome;
 - (id)vice;
-- (void)OUTING_DISAMBIGUATION;
+- (void)FLOWSTATUSREASON_SIRI_ACTION_ROUTING_DISAMBIGUATION;
 - (void)àNáÿ5³Î!;
 - (id)¨7ºÿÇ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMitigationType;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mitigationType; // @synthesize mitigationType=_mitigationType;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end

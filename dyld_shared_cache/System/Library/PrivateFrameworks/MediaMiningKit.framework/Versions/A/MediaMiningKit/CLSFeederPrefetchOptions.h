@@ -7,10 +7,6 @@
 @interface CLSFeederPrefetchOptions
 {
     unsigned long long _personCountPrefetchMode;
-    unsigned long long _personsPrefetchMode;
-    unsigned long long _scenesPrefetchMode;
-    unsigned long long _faceInformationPrefetchMode;
-    unsigned long long _locationPrefetchMode;
 }
 
 + (id);
@@ -19,21 +15,17 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)date curation cache for multiple moments.;
+- (id)Ȃ@9;
 
 // Remaining properties
-@property(nonatomic) unsigned long long faceInformationPrefetchMode; // @synthesize faceInformationPrefetchMode=_faceInformationPrefetchMode;
-@property(nonatomic) unsigned long long locationPrefetchMode; // @synthesize locationPrefetchMode=_locationPrefetchMode;
 @property(nonatomic) unsigned long long personCountPrefetchMode; // @synthesize personCountPrefetchMode=_personCountPrefetchMode;
-@property(nonatomic) unsigned long long personsPrefetchMode; // @synthesize personsPrefetchMode=_personsPrefetchMode;
-@property(nonatomic) unsigned long long scenesPrefetchMode; // @synthesize scenesPrefetchMode=_scenesPrefetchMode;
 
 @end
 

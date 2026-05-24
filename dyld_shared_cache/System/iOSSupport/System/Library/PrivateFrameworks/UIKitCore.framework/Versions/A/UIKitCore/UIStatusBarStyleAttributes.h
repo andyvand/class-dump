@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIStatusBarForegroundStyleAttributes, UIStatusBarStyleRequest;
+@class UIStatusBarStyleRequest;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarStyleAttributes
 {
     UIStatusBarStyleRequest *_request;
-    UIStatusBarForegroundStyleAttributes *_foregroundStyle;
-    _Bool _pulsingAnimationEnabled;
 }
 
+- (_Bool)authenticateAccount: /* Error: Ran out of types for this method. */;
+- (_Bool)_deleteAttachmentsWithRecordIDs:completion: /* Error: Ran out of types for this method. */;
+- (void)IMDCKSyncTokenStore;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (double);
+- (double)sset. Asset from ckrecord has path %@;
 - (id);
-- (long long);
+- (long long)signing cert;
 - (_Bool);
-- (_Bool);
+- (_Bool)imageWithRenderingMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id)0@ù
@@ -30,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (double)1Â0@ù
 × ;
 - (id);
-- (long long)lts;
-- (_Bool)nmodifiedInput: /* Error: Ran out of types for this method. */;
+- (long long)standardUserDefaults;
+- (_Bool)set_unmodifiedInput: /* Error: Ran out of types for this method. */;
 - (_Bool)tChangeBarrier;
-- (id)ricCornerRadius;
+- (id)alwaysUseConcentricCornerRadius;
 - (id)elegate;
 - (long long);
 - (_Bool)SceneForLayout:] /* Error: Ran out of types for this method. */;
-- (double)rfaceLevel;
+- (double)UserInterfaceLevel;
 - (id)13e\;
 - (void);
 - (_Bool)ðì`;

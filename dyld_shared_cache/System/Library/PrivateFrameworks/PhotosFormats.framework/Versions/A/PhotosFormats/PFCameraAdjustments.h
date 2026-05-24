@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVApplePortraitMetadata, NSString;
+@class NSString;
 
 @interface PFCameraAdjustments
 {
     NSString *_effectFilterName;
-    NSString *_portraitEffectFilterName;
-    AVApplePortraitMetadata *_portraitMetadata;
-    _Bool _depthEnabled;
-    _Bool _isEligibleForCinematicAudioEffectProcessing;
-    unsigned long long _cinematicVideoRenderingVersion;
-    struct CGRect _cropRect;
-    _Bool _sloMoEnabled;
 }
 
 + (_Bool);
@@ -27,26 +20,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)rtsTranscodeChoice: /* Error: Ran out of types for this method. */;
-- (struct CGRect)userInfo: /* Error: Ran out of types for this method. */;
+- (id)setSupportsTranscodeChoice: /* Error: Ran out of types for this method. */;
+- (struct CGRect)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cinematicVideoRenderingVersion; // @synthesize cinematicVideoRenderingVersion=_cinematicVideoRenderingVersion;
-@property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(readonly, nonatomic, getter=isDepthEnabled) _Bool depthEnabled; // @synthesize depthEnabled=_depthEnabled;
 @property(readonly, copy, nonatomic) NSString *effectFilterName; // @synthesize effectFilterName=_effectFilterName;
-@property(readonly, nonatomic) _Bool hasCrop;
-@property(readonly, nonatomic) _Bool isEligibleForCinematicAudioEffectProcessing; // @synthesize isEligibleForCinematicAudioEffectProcessing=_isEligibleForCinematicAudioEffectProcessing;
-@property(readonly, copy, nonatomic) NSString *portraitEffectFilterName; // @synthesize portraitEffectFilterName=_portraitEffectFilterName;
-@property(readonly, nonatomic) AVApplePortraitMetadata *portraitMetadata; // @synthesize portraitMetadata=_portraitMetadata;
-@property(readonly, nonatomic, getter=isSloMoEnabled) _Bool sloMoEnabled; // @synthesize sloMoEnabled=_sloMoEnabled;
 
 @end
 

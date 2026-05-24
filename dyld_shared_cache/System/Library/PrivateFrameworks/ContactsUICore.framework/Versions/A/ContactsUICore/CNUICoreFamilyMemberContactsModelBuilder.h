@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUICoreContactTypeAssessor, NSArray;
+@class NSArray;
 
 @interface CNUICoreFamilyMemberContactsModelBuilder
 {
     _Bool _includeWhitelistedContactsOnly;
-    _Bool _sortItemsByName;
-    _Bool _markItemsAsPersisted;
-    _Bool _markItemsAsProposed;
-    NSArray *_contacts;
-    CNUICoreContactTypeAssessor *_contactTypeAssessor;
-    long long _contactFormatterStyle;
 }
 
 + (_Bool);
@@ -28,30 +22,24 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
+- (_Bool)A9;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)(;
 - (long long);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)dex:toPasteboard:type: /* Error: Ran out of types for this method. */;
+- (void)textView:writeCell:atIndex:toPasteboard:type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long contactFormatterStyle; // @synthesize contactFormatterStyle=_contactFormatterStyle;
-@property(retain, nonatomic) CNUICoreContactTypeAssessor *contactTypeAssessor; // @synthesize contactTypeAssessor=_contactTypeAssessor;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(nonatomic) _Bool includeWhitelistedContactsOnly; // @synthesize includeWhitelistedContactsOnly=_includeWhitelistedContactsOnly;
-@property(nonatomic) _Bool markItemsAsPersisted; // @synthesize markItemsAsPersisted=_markItemsAsPersisted;
-@property(nonatomic) _Bool markItemsAsProposed; // @synthesize markItemsAsProposed=_markItemsAsProposed;
-@property(nonatomic) _Bool sortItemsByName; // @synthesize sortItemsByName=_sortItemsByName;
 
 @end
 

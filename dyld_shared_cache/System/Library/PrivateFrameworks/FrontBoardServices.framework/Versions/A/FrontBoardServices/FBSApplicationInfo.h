@@ -6,59 +6,11 @@
 
 #import <FrontBoardServices/FBSBundleInfo.h>
 
-@class LSApplicationIdentity, NSArray, NSDictionary, NSNumber, NSSet, NSString, NSURL, RBSProcessIdentity;
+@class NSDictionary;
 
 @interface FBSApplicationInfo : FBSBundleInfo
 {
     NSDictionary *_lazy_entitlements;
-    unsigned int _signatureVersion;
-    NSSet *_backgroundModes;
-    struct os_unfair_lock_s _lock;
-    _Bool _initialized;
-    _Bool _hasViewServicesEntitlement;
-    _Bool _provisioningProfileValidated;
-    _Bool _uppProvisioningProfileValidated;
-    _Bool _freeDeveloperProvisioningProfileValidated;
-    _Bool _supportsMultiwindow;
-    _Bool _enabled;
-    _Bool _restricted;
-    _Bool _blocked;
-    _Bool _beta;
-    _Bool _requiresPersistentWiFi;
-    _Bool _builtWithTSAN;
-    _Bool _installing;
-    _Bool _uninstalling;
-    _Bool _pendingUninstall;
-    _Bool _tentativeUninstall;
-    float _minimumBrightnessLevel;
-    LSApplicationIdentity *_applicationIdentity;
-    RBSProcessIdentity *_processIdentity;
-    NSURL *_executableURL;
-    NSURL *_bundleContainerURL;
-    NSURL *_dataContainerURL;
-    NSURL *_sandboxURL;
-    double _lastModifiedDate;
-    NSString *_preferenceDomain;
-    NSString *_teamIdentifier;
-    NSString *_signerIdentity;
-    NSDictionary *_environmentVariables;
-    NSString *_sdkVersion;
-    NSArray *_customMachServices;
-    unsigned long long _type;
-    NSArray *_requiredCapabilities;
-    NSArray *_deviceFamilies;
-    NSArray *_tags;
-    NSString *_shortVersionString;
-    long long _interfaceOrientation;
-    unsigned long long _supportedInterfaceOrientations;
-    NSArray *_externalAccessoryProtocols;
-    long long _screenTimePolicy;
-    long long _ratingRank;
-    NSNumber *_itemID;
-    NSNumber *_purchaserDSID;
-    NSNumber *_downloaderDSID;
-    NSURL *_advertisingAttributionReportEndpoint;
-    NSString *_appIDEntitlement;
 }
 
 + (id);

@@ -7,10 +7,13 @@
 @class NSString;
 
 @protocol TSWPTextMagnifierRendererDelegate
+- (NSString *)ID:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)FailedToDecodeSession;
+- (NSString *)ndResult"16;
+- (NSString *)ing playback due to our intentional sample rate change [previousRate: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *maskImageName;
-@property(readonly, nonatomic) NSString *overlayImageName;
 @property(readonly, nonatomic) NSString *underlayImageName;
 @end
 

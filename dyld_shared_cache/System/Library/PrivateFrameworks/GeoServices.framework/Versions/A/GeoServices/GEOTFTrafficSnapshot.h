@@ -4,42 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOTFTrafficSnapshot
 {
     PBDataReader *_reader;
-    NSMutableArray *_compactSpeeds;
-    NSString *_feedId;
-    unsigned long long _feedPublishTime;
-    long long _feedUpdateTime;
-    NSMutableArray *_incidents;
-    NSMutableArray *_regions;
-    NSString *_snapshotId;
-    NSMutableArray *_speeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _trafficVersion;
-    struct {
-        unsigned int has_feedPublishTime:1;
-        unsigned int has_feedUpdateTime:1;
-        unsigned int has_trafficVersion:1;
-        unsigned int read_compactSpeeds:1;
-        unsigned int read_feedId:1;
-        unsigned int read_incidents:1;
-        unsigned int read_regions:1;
-        unsigned int read_snapshotId:1;
-        unsigned int read_speeds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)_CNDefaultQueueingStrategy;
++ (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)eviousRouteMatch:(id)arg1;
++ (_Bool)setMaxMatchDistanceFromPreviousRouteMatch:(id)arg1;
 - (unsigned int);
 - (unsigned long long);
 - (id);
@@ -55,65 +31,53 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@"CNResult"32@0:8@"NSString"16@"NSURL"24 /* Error: Ran out of types for this method. */;
+- (id)16@"NSString"24@"NSURL"32^@40;
+- (id)32@0:8Q16Q24 /* Error: Ran out of types for this method. */;
+- (_Bool)thumbnailImageDataCheckingLegacyImages: /* Error: Ran out of types for this method. */;
+- (_Bool)setIsEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)callFallbackAlternateName;
+- (_Bool)calendarWithOffsetFromGMT: /* Error: Ran out of types for this method. */;
+- (_Bool)calendarWithIdentifier: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
+- (unsigned long long)Without a container, this save will fail with a contact constraint violation.;
+- (id)(migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (id)expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (void)te.contacts.allow-oop;
+- (void)privacyFlags;
+- (void)alue);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)b
+;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)convertSISchemaAudioInputRouteToMHRoute:(id)arg1 withRecordingInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)"wrote_anyField"b1};
-- (id)e;
-- (id)eatureElectronicVehicleCount;
-- (id)reAccessRequestParameters;
-- (id)I_MULTIPLE;
+- (id)hasPlaceCardIsPersonAddressAvailable;
+- (id)_mapFeatureElectronicVehicleCount;
+- (id)_GEOMapFeatureAccessRequestParameters;
+- (id)FEEDBACK_FIELD_OPTION_POI_MULTIPLE;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *compactSpeeds;
-@property(retain, nonatomic) NSString *feedId;
-@property(nonatomic) unsigned long long feedPublishTime;
-@property(nonatomic) long long feedUpdateTime;
-@property(readonly, nonatomic) _Bool hasFeedId;
-@property(nonatomic) _Bool hasFeedPublishTime;
-@property(nonatomic) _Bool hasFeedUpdateTime;
-@property(readonly, nonatomic) _Bool hasSnapshotId;
-@property(nonatomic) _Bool hasTrafficVersion;
-@property(retain, nonatomic) NSMutableArray *incidents;
 @property(retain, nonatomic) NSMutableArray *regions;
-@property(retain, nonatomic) NSString *snapshotId;
-@property(retain, nonatomic) NSMutableArray *speeds;
-@property(nonatomic) unsigned int trafficVersion;
 
 @end
 

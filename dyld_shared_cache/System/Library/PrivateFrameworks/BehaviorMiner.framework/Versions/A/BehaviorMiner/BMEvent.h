@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMItem, NSDate;
+@class NSDate;
 
 @interface BMEvent
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    BMItem *_item;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) BMItem *item; // @synthesize item=_item;
 @property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

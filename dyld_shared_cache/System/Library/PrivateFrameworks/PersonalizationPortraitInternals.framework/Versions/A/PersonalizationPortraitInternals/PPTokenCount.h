@@ -9,19 +9,17 @@
 @interface PPTokenCount
 {
     unsigned int _count;
-    NSString *_token;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)sendMessage:destinationID:filePaths:groupID:bundleID:attributionInfoName:service:timeOut:error: /* Error: Ran out of types for this method. */;
+- (void)join chat:(id)arg1 %@;
 - (void);
 - (unsigned int);
 - (void)A¡°!TBù÷°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end

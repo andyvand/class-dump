@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSUUID;
 @protocol LSRegistrantStrategy;
 
 __attribute__((visibility("hidden")))
 @interface LSByURLPluginUnregistrant
 {
     id <LSRegistrantStrategy> _strategy;
-    NSUUID *_uuid;
-    NSURL *_url;
 }
 
 - (id);

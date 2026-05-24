@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSData, NSDictionary, NSMutableArray, NSObject, NSString, SFAnimatedLockButton, SFAuthorization;
-@protocol OS_dispatch_queue;
+@class SFAnimatedLockButton;
 
 __attribute__((visibility("hidden")))
 @interface SFAuthorizationView_ivars
 {
     SFAnimatedLockButton *_lockIconButton;
-    NSButton *_textButton;
-    NSString *_textButtonString;
-    NSMutableArray *_constraints;
-    CDStruct_166d2db6 *_authorizationRights;
-    SFAuthorization *_authorization;
-    id _delegate;
-    int _currentState;
-    _Bool _authorized;
-    double _timeInterval;
-    unsigned int _flags;
-    _Bool _initiallyLockedOrHidden;
-    NSDictionary *_textAttributes;
-    _Bool _asyncOperation;
-    NSObject<OS_dispatch_queue> *_interactiveHandlingQueue;
-    _Bool _initialized;
-    NSData *_lacontext;
 }
 
-- (void);
+- (void)c;
 
 @end
 

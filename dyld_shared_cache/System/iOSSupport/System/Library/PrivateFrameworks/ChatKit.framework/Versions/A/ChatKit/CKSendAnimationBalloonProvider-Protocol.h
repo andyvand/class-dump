@@ -5,5 +5,7 @@
 //
 
 @protocol CKSendAnimationBalloonProvider
+- (_Bool);
+- (void)KFrameInfo"32@?<v@?q>40;
 @end
 

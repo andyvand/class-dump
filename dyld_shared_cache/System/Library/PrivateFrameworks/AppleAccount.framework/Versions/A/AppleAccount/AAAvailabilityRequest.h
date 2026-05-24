@@ -15,9 +15,9 @@
 
 + (Class);
 - (id);
-- (id);
-- (void)NameForLocalContactInfo: /* Error: Ran out of types for this method. */;
-- (id)AGE_AFTER_MESSAGING_v2;
+- (id)_delegateAlgorithm;
+- (void)firstNameForLocalContactInfo: /* Error: Ran out of types for this method. */;
+- (id)INHERITANCE_SETUP_COMPLETE_MESSAGE_AFTER_MESSAGING_v2;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface SOLabeledElementsOverlayController
 {
     _Bool _isActive;
-    NSMutableArray *_labeledElements;
 }
 
 - (void);
@@ -17,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -28,7 +27,6 @@
 - (void)0;
 
 // Remaining properties
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(retain, nonatomic) NSMutableArray *labeledElements; // @synthesize labeledElements=_labeledElements;
 
 @end

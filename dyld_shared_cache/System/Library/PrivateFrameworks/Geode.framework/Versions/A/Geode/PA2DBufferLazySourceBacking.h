@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PA2DMutablePurgeableBuffer;
 @protocol PA2DBufferLazySource;
 
 @interface PA2DBufferLazySourceBacking
 {
     struct vector<PFIntRect_st, std::allocator<PFIntRect_st>> _tileList;
-    struct vector<bool, std::allocator<bool>> _localTileState;
-    PA2DMutablePurgeableBuffer *_cacheBuffer;
-    struct PFIntSize_st _tileSize;
-    unsigned long long _tilesWide;
-    id <PA2DBufferLazySource> _source;
 }
 
 - (unsigned long long);
@@ -38,23 +32,15 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id <PA2DBufferLazySource> source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

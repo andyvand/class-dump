@@ -14,29 +14,30 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)dictionary writing to atsc output stream failed. Error:(out id *)arg1 %@;
+- (id);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)WIFI;
+- (id)accessoryWithAccessoryServer:instanceID:discoveredServices: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool),H;
 - (id);
 - (id);
-- (id);
+- (id)VALUES (
+        ;
 - (_Bool);
 - (_Bool);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingString: /* Error: Ran out of types for this method. */;
 - (id)Á;
 
 // Remaining properties

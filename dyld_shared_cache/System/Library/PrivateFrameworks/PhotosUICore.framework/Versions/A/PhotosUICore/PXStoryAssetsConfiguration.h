@@ -9,14 +9,12 @@
 @interface PXStoryAssetsConfiguration
 {
     id <PXDisplayAssetFetchResult> _keyAsset;
-    id <PXDisplayAssetFetchResult> _curatedAssets;
-    id <PXDisplayAssetFetchResult> _allAssets;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tType>",R,N,V_advertisement;
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,8 +22,6 @@
 - (void)9ø´ü;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssets; // @synthesize allAssets=_allAssets;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> curatedAssets; // @synthesize curatedAssets=_curatedAssets;
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> keyAsset; // @synthesize keyAsset=_keyAsset;
 
 @end

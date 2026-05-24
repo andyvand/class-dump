@@ -9,15 +9,9 @@
 @interface ILPluginLoadManager
 {
     NSLock *_stateLock;
-    int _loadState;
-    _Bool _loadRequestPending;
-    _Bool _cancelLoadRequestPending;
-    _Bool _autoReloadEnabled;
-    _Bool _needsReload;
-    _Bool _loadDataCalled;
 }
 
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int)edTypes: /* Error: Ran out of types for this method. */;
+- (int)registerForDraggedTypes: /* Error: Ran out of types for this method. */;
 
 @end
 

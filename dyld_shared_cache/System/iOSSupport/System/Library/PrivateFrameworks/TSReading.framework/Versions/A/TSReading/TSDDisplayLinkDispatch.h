@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSDDisplayLink;
+@class TSDDisplayLink;
 
 @interface TSDDisplayLinkDispatch
 {
     TSDDisplayLink *_displayLink;
-    NSMutableArray *_blocks;
 }
 
-- (void);
+- (void);
 - (void);
 
 @end

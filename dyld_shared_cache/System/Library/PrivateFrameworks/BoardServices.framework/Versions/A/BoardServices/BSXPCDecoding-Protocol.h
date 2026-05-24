@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol BSXPCDecoding
+- (struct CGRect);
+- (struct CGPoint);
+- (_Bool)spot;
+- (double)standardLabelsForLabel:(NSString *)arg1;
 @end
 

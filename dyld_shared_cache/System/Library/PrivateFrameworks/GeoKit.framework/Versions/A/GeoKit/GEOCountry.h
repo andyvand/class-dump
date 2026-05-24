@@ -6,21 +6,18 @@
 
 #import <GeoKit/GeoKitPlace.h>
 
-@class NSNumber, NSSet, NSString;
+@class NSNumber;
 
 @interface GEOCountry : GeoKitPlace
 {
 }
 
-+ (id);
-+ (id);
-- (id);
++ (id)[%{public}@] Anisette provisioning did not provide keybag data;
++ (id). Error:(id)arg1 %{public}@;
+- (id)[%{public}@] Legacy attestation failed with error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSNumber *area; // @dynamic area;
-@property(retain) NSSet *cities; // @dynamic cities;
-@property(retain) NSString *code; // @dynamic code;
-@property(retain) NSString *languages; // @dynamic languages;
 
 @end
 

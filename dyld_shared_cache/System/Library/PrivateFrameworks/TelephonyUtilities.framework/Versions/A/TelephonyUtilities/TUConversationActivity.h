@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID, TUConversationActivityContext, TUConversationActivityMetadata, TUHandle, TUScreenShareAttributes;
+@class NSString;
 
 @interface TUConversationActivity
 {
     _Bool _supported;
-    _Bool _requiresParticipantTranslation;
-    _Bool _systemActivity;
-    _Bool _startWhenStaged;
-    NSUUID *_UUID;
-    NSData *_applicationContext;
-    NSString *_bundleIdentifier;
-    NSString *_activityIdentifier;
-    TUConversationActivityMetadata *_metadata;
-    TUHandle *_originator;
-    TUHandle *_trustedFromHandle;
-    NSDate *_timestamp;
-    NSString *_fallbackApplicationName;
-    NSString *_staticIdentifier;
-    NSString *_activationSceneIdentifier;
-    TUScreenShareAttributes *_screenShareAttributes;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)U};
 - (id);
 - (id);
 - (void);
@@ -39,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -63,57 +48,37 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)er = WTF::CrashOnOverflow, minCapacity = 16, Malloc = WTF::FastMalloc] /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
+- (void);
 - (void);
+- (_Bool)DMFFetchInstalledProfilesRequest;
 - (void);
-- (_Bool);
-- (void);
-- (void)onversationLinkBaseURL: /* Error: Ran out of types for this method. */;
+- (void)setConversationLinkBaseURL: /* Error: Ran out of types for this method. */;
 - (id)gacyScreenSharingInvite=%d;
 - (void);
 - (void)Ð-;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSString *activationSceneIdentifier; // @synthesize activationSceneIdentifier=_activationSceneIdentifier;
-@property(readonly, copy, nonatomic) TUConversationActivityContext *activityContext;
 @property(copy, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(copy, nonatomic) NSData *applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic, getter=isEligibleForHandoff) _Bool eligibleForHandoff;
-@property(readonly, nonatomic, getter=isEligibleForWebBrowser) _Bool eligibleForWebBrowser;
-@property(copy, nonatomic) NSString *fallbackApplicationName; // @synthesize fallbackApplicationName=_fallbackApplicationName;
-@property(retain, nonatomic) TUConversationActivityMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) TUHandle *originator; // @synthesize originator=_originator;
-@property(readonly, nonatomic, getter=isPlaceholderActivity) _Bool placeholderActivity;
-@property(readonly, copy, nonatomic) NSString *representativeBundleIdentifier;
-@property(nonatomic) _Bool requiresParticipantTranslation; // @synthesize requiresParticipantTranslation=_requiresParticipantTranslation;
-@property(copy, nonatomic) TUScreenShareAttributes *screenShareAttributes; // @synthesize screenShareAttributes=_screenShareAttributes;
-@property(nonatomic) _Bool startWhenStaged; // @synthesize startWhenStaged=_startWhenStaged;
-@property(copy, nonatomic) NSString *staticIdentifier; // @synthesize staticIdentifier=_staticIdentifier;
-@property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
-@property(nonatomic, getter=isSystemActivity) _Bool systemActivity; // @synthesize systemActivity=_systemActivity;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) TUHandle *trustedFromHandle; // @synthesize trustedFromHandle=_trustedFromHandle;
 
 @end
 

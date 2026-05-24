@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CTGeofenceInfo
 {
     NSNumber *_longitude;
-    NSNumber *_latitude;
-    NSNumber *_radius;
-    NSString *_geofenceId;
 }
 
-+ (_Bool);
++ (_Bool)n asset at non-local URL '%@';
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)";
 - (void);
-- (void);
+- (void)D@;
 - (id);
 - (id);
 - (void);
@@ -32,10 +29,7 @@
 - (id)rrierName=%@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *geofenceId; // @synthesize geofenceId=_geofenceId;
-@property(retain, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
 @property(retain, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSNumber *radius; // @synthesize radius=_radius;
 
 @end
 

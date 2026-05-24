@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _WKVisitedLinkStore;
-@protocol HistoryDelegate, WBSHistoryConnectionProxy;
+@class NSMutableDictionary, _WKVisitedLinkStore;
 
 __attribute__((visibility("hidden")))
 @interface History
 {
     NSMutableDictionary *_lastImportedVisitDatesByBrowserBundleIdentifier;
-    id <WBSHistoryConnectionProxy> _connectionProxy;
-    _WKVisitedLinkStore *_visitedLinkStore;
-    id <HistoryDelegate> _delegate;
 }
 
 + (void);
@@ -36,11 +32,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (Class);
 - (id);
 - (void);
@@ -50,19 +46,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)17IMSharedUtilities39RemoteIntentRequestOutputRepresentationP;
 - (void);
 - (void)T;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HistoryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _WKVisitedLinkStore *visitedLinkStore; // @synthesize visitedLinkStore=_visitedLinkStore;
 
 @end

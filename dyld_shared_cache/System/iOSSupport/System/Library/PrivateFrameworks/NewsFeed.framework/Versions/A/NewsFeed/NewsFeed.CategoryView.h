@@ -7,9 +7,6 @@
 @interface NewsFeed.CategoryView
 {
     id contentView;
-    id iconImageView;
-    id titleLabel;
-    id checkmarkImageView;
 }
 
 - (id);

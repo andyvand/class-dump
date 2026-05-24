@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSPasskeyAutoFillFromNearbyDeviceOptions;
+@class NSArray;
 
 @interface WBSSavedAccountMatchResult
 {
     NSArray *_exactMatches;
-    NSArray *_potentialMatches;
-    NSArray *_associatedDomainMatches;
-    WBSPasskeyAutoFillFromNearbyDeviceOptions *_nearbyDeviceOptions;
 }
 
 + (_Bool);
@@ -24,21 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (unsigned long long);
 - (void)!×ð!ð@ùXð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *associatedDomainMatches; // @synthesize associatedDomainMatches=_associatedDomainMatches;
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy, nonatomic) NSArray *exactMatches; // @synthesize exactMatches=_exactMatches;
-@property(readonly, nonatomic) _Bool hasMatches;
-@property(readonly, copy, nonatomic) NSArray *matchesForPasswordAutoFill;
-@property(readonly, copy, nonatomic) WBSPasskeyAutoFillFromNearbyDeviceOptions *nearbyDeviceOptions; // @synthesize nearbyDeviceOptions=_nearbyDeviceOptions;
-@property(readonly, copy, nonatomic) NSArray *orderedMatches;
-@property(readonly, copy, nonatomic) NSArray *potentialMatches; // @synthesize potentialMatches=_potentialMatches;
 
 @end
 

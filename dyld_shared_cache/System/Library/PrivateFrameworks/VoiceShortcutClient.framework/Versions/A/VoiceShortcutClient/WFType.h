@@ -10,8 +10,8 @@
 {
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)__DATA_DIRTY;
+- (_Bool)|;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -22,14 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *string;
 @property(readonly, nonatomic) NSString *typeDescription;
 
 @end

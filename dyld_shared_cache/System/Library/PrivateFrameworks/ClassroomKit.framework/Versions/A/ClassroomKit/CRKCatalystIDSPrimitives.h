@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKIDSAddressTranslator, CRKIDSPrimitives;
+@protocol CRKIDSPrimitives;
 
 @interface CRKCatalystIDSPrimitives
 {
     id <CRKIDSPrimitives> _primitives;
-    id <CRKIDSAddressTranslator> _addressTranslator;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKIDSAddressTranslator> addressTranslator; // @synthesize addressTranslator=_addressTranslator;
 @property(readonly, nonatomic) id <CRKIDSPrimitives> primitives; // @synthesize primitives=_primitives;
 
 @end

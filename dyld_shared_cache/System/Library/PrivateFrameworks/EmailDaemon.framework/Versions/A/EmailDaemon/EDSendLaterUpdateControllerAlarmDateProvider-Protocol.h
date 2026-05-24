@@ -7,6 +7,9 @@
 @class NSDate;
 
 @protocol EDSendLaterUpdateControllerAlarmDateProvider
+- (NSDate *)subscribeToCurrentUserDidChangeEvents: /* Error: Ran out of types for this method. */;
+- (void)t to %1.3f
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *nextDate;

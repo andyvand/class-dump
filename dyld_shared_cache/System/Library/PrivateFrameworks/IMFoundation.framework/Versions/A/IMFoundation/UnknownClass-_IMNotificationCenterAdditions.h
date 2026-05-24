@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (_IMNotificationCenterAdditions)
-- (void);
-- (void);
-- (void);
+- (void)eMigrator";
+- (void)32^@36;
+- (void):(id)arg1 8^@16Q24;
 - (void);
 @end
 

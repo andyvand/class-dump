@@ -6,37 +6,27 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAUIColor : AceObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)J;
 - (long long);
-- (void);
-- (void);
+- (void)_reportTimer;
+- (void)_idsDeviceIdentifierConflict;
 - (long long);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *alpha;
-@property(nonatomic) long long blueValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long greenValue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long redValue;
-@property(readonly) Class superclass;
 
 @end
 

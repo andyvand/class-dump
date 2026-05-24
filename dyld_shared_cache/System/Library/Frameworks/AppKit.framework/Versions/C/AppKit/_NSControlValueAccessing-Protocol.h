@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @protocol _NSControlValueAccessing
+- (void);
+- (void)T;
+- (void)~;
+- (long long)textViewportLayoutController:renderingSurfaceForTextLayoutFragment: /* Error: Ran out of types for this method. */;
 - (void)ItemGroupPickerExpandedView";
 - (float);
-- (NSString *)ingBindingsInArray: /* Error: Ran out of types for this method. */;
+- (NSString *)_removeBinding:byReplacingWithRemainingBindingsInArray: /* Error: Ran out of types for this method. */;
 - (void)z¢;
 - (int)4¬;
 - (id)'ÿ;
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedStringValue;
-@property double doubleValue;
-@property float floatValue;
-@property int intValue;
-@property long long integerValue;
 @property(copy) id objectValue;
-@property(copy) NSString *stringValue;
 @end
 

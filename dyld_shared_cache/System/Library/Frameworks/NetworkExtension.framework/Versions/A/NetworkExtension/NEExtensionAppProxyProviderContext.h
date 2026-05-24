@@ -6,36 +6,25 @@
 
 #import <NetworkExtension/NEExtensionTunnelProviderContext.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface NEExtensionAppProxyProviderContext : NEExtensionTunnelProviderContext
 {
     unsigned int _delegateInterfaceIndex;
-    NSObject<OS_dispatch_queue> *_flowQueue;
-    struct _NEFlowDirector *_director;
 }
 
 + (id);
-+ (id);
++ (id)vate=};
 - (Class);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
-- (void)gs:xflags: /* Error: Ran out of types for this method. */;
+- (void)scopedInterfaceFlags:eflags:xflags: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

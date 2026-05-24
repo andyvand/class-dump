@@ -9,11 +9,9 @@
 @interface PPContextKitResultContainer
 {
     NSArray *_topics;
-    NSArray *_namedEntities;
-    NSArray *_topicsExactMatchesInSourceText;
 }
 
-- (void)mically: /* Error: Ran out of types for this method. */;
+- (void)writeToFile:atomically: /* Error: Ran out of types for this method. */;
 
 @end
 

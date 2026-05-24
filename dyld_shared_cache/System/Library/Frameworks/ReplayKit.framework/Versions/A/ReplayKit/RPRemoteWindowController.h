@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteViewController, NSString, NSWindow, RPBlurWindow, RPDimAndShadowWindow;
+@class RPDimAndShadowWindow;
 
 @interface RPRemoteWindowController
 {
     _Bool _disableServiceWindowPresentation;
-    _Bool _noSourceWindow;
-    NSRemoteViewController *_remoteViewController;
-    NSWindow *_clientWindow;
-    RPDimAndShadowWindow *_dimAndShadowWindow;
-    RPBlurWindow *_blurWindow;
-    struct CGRect _dimFrame;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -54,21 +48,7 @@
 - (void)or H264;
 
 // Remaining properties
-@property struct CGRect blurFrame;
-@property(retain) RPBlurWindow *blurWindow; // @synthesize blurWindow=_blurWindow;
-@property(retain) NSWindow *clientWindow; // @synthesize clientWindow=_clientWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) RPDimAndShadowWindow *dimAndShadowWindow; // @synthesize dimAndShadowWindow=_dimAndShadowWindow;
-@property struct CGRect dimFrame; // @synthesize dimFrame=_dimFrame;
-@property _Bool disableServiceWindowPresentation; // @synthesize disableServiceWindowPresentation=_disableServiceWindowPresentation;
-@property(readonly) unsigned long long hash;
-@property _Bool noSourceWindow; // @synthesize noSourceWindow=_noSourceWindow;
-@property __weak NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned short);
-- (id);
-- (id);
+- (id)P;
+- (id)standardPaddingInline;
 
 // Remaining properties
 @property(readonly) unsigned short epro; // @synthesize epro=_epro;

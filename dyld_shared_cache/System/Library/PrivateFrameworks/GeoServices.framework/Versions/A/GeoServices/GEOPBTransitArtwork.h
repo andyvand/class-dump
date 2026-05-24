@@ -4,50 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitIcon, GEOPBTransitShield, GEOSFSymbol, NSString, PBDataReader, PBUnknownFields;
-@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
+@class PBDataReader;
 
 @interface GEOPBTransitArtwork
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_accessibilityString;
-    GEOSFSymbol *_appleAccountAvatarFallbackSfSymbol;
-    GEOPBTransitShield *_iconFallbackShield;
-    GEOPBTransitIcon *_icon;
-    GEOSFSymbol *_sfSymbol;
-    GEOPBTransitShield *_shield;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _artworkType;
-    int _artworkUse;
-    int _badge;
-    struct {
-        unsigned int has_artworkType:1;
-        unsigned int has_artworkUse:1;
-        unsigned int has_badge:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_accessibilityString:1;
-        unsigned int read_appleAccountAvatarFallbackSfSymbol:1;
-        unsigned int read_iconFallbackShield:1;
-        unsigned int read_icon:1;
-        unsigned int read_sfSymbol:1;
-        unsigned int read_shield:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Mode:(id)arg1;
++ (_Bool)setHasUserTrackingMode:(id)arg1;
 - (id);
+- (id)"A�z;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)p{;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -68,22 +41,22 @@
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)__AUTH_CONST;
 - (id);
 - (id);
 - (int);
 - (int);
-- (void);
-- (int);
-- (void);
-- (id);
+- (void)ize=dd}}80@0:(int)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48{CGSize=dd}64;
+- (int)timeIntervalWithScheduler:(id)arg1;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (id);
+- (void)0:(_Bool)arg1 8@16q24@32@40^@48;
+- (_Bool)A;
 - (void);
 - (id);
-- (void);
+- (void)tAP _setAsset:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -91,7 +64,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)*;
 - (id)!'ð! Cùñ¶*Ð1Â0@ù
 × ;
 - (void)eightAboveGroundM"b1"has_index"b1"has_metricsVersion"b1"has_type"b1"read_capabilitys"b1"read_lodWithTextures"b1"wrote_anyField"b1};
@@ -99,45 +72,12 @@
 - (id)dentifier;
 - (id)ransitInfo;
 - (id)Ä¿â;
-- (id)ENUES;
+- (id)VECTOR_VENUES;
 - (void);
 - (int)!)¢Ï8;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibilityString;
-@property(readonly, nonatomic) NSString *accessibilityText;
-@property(retain, nonatomic) GEOSFSymbol *appleAccountAvatarFallbackSfSymbol;
 @property(readonly, nonatomic) int artworkSourceType;
-@property(nonatomic) int artworkType;
-@property(nonatomic) int artworkUse;
-@property(readonly, nonatomic) int artworkUseType;
-@property(nonatomic) int badge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccessibilityString;
-@property(readonly, nonatomic) _Bool hasAppleAccountAvatarFallbackSfSymbol;
-@property(nonatomic) _Bool hasArtworkType;
-@property(nonatomic) _Bool hasArtworkUse;
-@property(nonatomic) _Bool hasBadge;
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasIconFallbackShield;
-@property(readonly, nonatomic) _Bool hasRoutingIncidentBadge;
-@property(readonly, nonatomic) _Bool hasSfSymbol;
-@property(readonly, nonatomic) _Bool hasShield;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOPBTransitIcon *icon;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(retain, nonatomic) GEOPBTransitShield *iconFallbackShield;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(retain, nonatomic) GEOSFSymbol *sfSymbol;
-@property(retain, nonatomic) GEOPBTransitShield *shield;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

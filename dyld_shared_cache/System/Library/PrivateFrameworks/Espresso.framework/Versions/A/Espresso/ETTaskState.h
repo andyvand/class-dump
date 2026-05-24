@@ -7,21 +7,19 @@
 @interface ETTaskState
 {
     shared_ptr_d082c67d _networkPointer;
-    unordered_map_15d4c443 _blobs;
 }
 
 - (void);
 - (void);
 - (shared_ptr_d082c67d);
 - (id);
-- (unordered_map_15d4c443);
+- (unordered_map_bc276792);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property unordered_map_15d4c443 blobs; // @synthesize blobs=_blobs;
-@property shared_ptr_d082c67d networkPointer; // @synthesize networkPointer=_networkPointer;
+@property unordered_map_bc276792 blobs; // @synthesize blobs=_blobs;
 
 @end
 

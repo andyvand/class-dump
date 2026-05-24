@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.HMDCoreDataStoreActivityLogEventAnalyzer
 {
     id intervalBins;
-    id eventTimesByStore;
-    id dataSource;
 }
 
 - (id);

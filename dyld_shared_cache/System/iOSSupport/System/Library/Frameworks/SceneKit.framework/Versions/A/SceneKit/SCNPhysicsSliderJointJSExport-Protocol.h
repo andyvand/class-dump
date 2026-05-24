@@ -7,21 +7,10 @@
 @class SCNPhysicsBody;
 
 @protocol SCNPhysicsSliderJointJSExport
+- (void);
+- (double);
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 anchorA;
-@property(nonatomic) struct SCNVector3 anchorB;
-@property(nonatomic) struct SCNVector3 axisA;
-@property(nonatomic) struct SCNVector3 axisB;
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
-@property(nonatomic) double maximumAngularLimit;
-@property(nonatomic) double maximumLinearLimit;
-@property(nonatomic) double minimumAngularLimit;
-@property(nonatomic) double minimumLinearLimit;
-@property(nonatomic) double motorMaximumForce;
-@property(nonatomic) double motorMaximumTorque;
-@property(nonatomic) double motorTargetAngularVelocity;
-@property(nonatomic) double motorTargetLinearVelocity;
 @end
 

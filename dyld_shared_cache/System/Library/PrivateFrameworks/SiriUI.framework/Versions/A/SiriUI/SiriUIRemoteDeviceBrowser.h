@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, OS_remote_device_browser;
-@protocol SiriUIRemoteDeviceBrowserDelegate;
+@class OS_remote_device_browser;
 
 @interface SiriUIRemoteDeviceBrowser
 {
     OS_remote_device_browser *_deviceBrowser;
-    NSMutableOrderedSet *_connectedRemoteDarwinIdentifiers;
-    id <SiriUIRemoteDeviceBrowserDelegate> _delegate;
 }
 
 - (void);
@@ -23,14 +20,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)MenuHasInitialFrame;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableOrderedSet *connectedRemoteDarwinIdentifiers; // @synthesize connectedRemoteDarwinIdentifiers=_connectedRemoteDarwinIdentifiers;
-@property(nonatomic) __weak id <SiriUIRemoteDeviceBrowserDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) OS_remote_device_browser *deviceBrowser; // @synthesize deviceBrowser=_deviceBrowser;
 
 @end

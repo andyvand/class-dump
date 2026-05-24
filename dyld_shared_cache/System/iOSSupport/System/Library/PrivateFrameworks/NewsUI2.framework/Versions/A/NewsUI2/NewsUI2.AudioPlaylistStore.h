@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioPlaylistStore
 {
     id playlistUpdatedSignal;
-    id audioPlaylist;
-    id headlineService;
-    id headlineCache;
 }
 
 - (void);

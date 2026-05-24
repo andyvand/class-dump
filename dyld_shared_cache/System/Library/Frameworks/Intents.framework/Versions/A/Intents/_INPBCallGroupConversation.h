@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallGroup, _INPBContactValue;
+@class _INPBCallGroup;
 
 @interface _INPBCallGroupConversation
 {
     struct _has;
-    _INPBCallGroup *_callGroup;
-    _INPBContactValue *_caller;
-    NSString *_conversationId;
-    NSArray *_otherParticipants;
 }
 
 + (Class);
@@ -25,39 +21,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@@9;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)"GCGameIntentLauncherXPCProxyClient";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ror"@"CWFLinkQualityMetric">24;
+- (void)nfiguration/kSCEntNetDHCP:(id)arg1 (%{public}@);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)doubleValue;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCallGroup *callGroup; // @synthesize callGroup=_callGroup;
-@property(retain, nonatomic) _INPBContactValue *caller; // @synthesize caller=_caller;
-@property(copy, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCallGroup;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(readonly, nonatomic) _Bool hasConversationId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *otherParticipants; // @synthesize otherParticipants=_otherParticipants;
-@property(readonly, nonatomic) unsigned long long otherParticipantsCount;
-@property(readonly) Class superclass;
 
 @end
 

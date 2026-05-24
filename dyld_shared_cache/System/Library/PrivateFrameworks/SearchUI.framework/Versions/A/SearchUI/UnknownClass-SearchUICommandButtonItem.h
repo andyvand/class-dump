@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SearchUICommandButtonItem)
 - (Class);
-- (Class);
+- (Class);
 @end
 

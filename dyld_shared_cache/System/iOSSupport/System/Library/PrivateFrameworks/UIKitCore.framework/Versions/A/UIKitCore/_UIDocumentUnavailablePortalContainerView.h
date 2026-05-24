@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     _UIPortalView *_portalView;
 }
 
-- (void);
+- (void);
 - (id)´m;
 - (void)ð>Ðä \;
 

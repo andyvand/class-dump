@@ -11,9 +11,6 @@
 @interface QCRoundValue : QCPatch
 {
     QCNumberPort *inputValue;
-    QCNumberPort *outputRound;
-    QCNumberPort *outputFloor;
-    QCNumberPort *outputCeil;
 }
 
 + (_Bool);

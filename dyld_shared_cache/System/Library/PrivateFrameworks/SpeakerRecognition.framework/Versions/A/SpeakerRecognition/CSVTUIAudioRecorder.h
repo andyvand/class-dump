@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVoiceController, CSVTUIAudioRecorderRemoteDeviceContext, CSVTUIRemoteRecordClient, NSDictionary, NSHashTable, NSObject, NSString;
+@class AVVoiceController, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVTUIAudioRecorder
 {
     AVVoiceController *_voiceController;
-    struct AudioBufferList _interleavedABL;
-    struct AudioBufferList *_pNonInterleavedABL;
-    CSVTUIRemoteRecordClient *_remoteRecordClient;
-    NSDictionary *_latestContext;
-    _Bool _waitingForDidStart;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_voiceControllerCreationQueue;
-    NSHashTable *_observers;
-    CSVTUIAudioRecorderRemoteDeviceContext *_remoteDeviceContext;
 }
 
 - (void);
@@ -35,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,12 +34,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)p";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)StringAsKeyHealth:(id)arg1;
+- (void)ion;
 - (void);
 - (void);
 - (id);
@@ -58,25 +49,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)deling.framework/Versions/A/LanguageModeling;
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)P;
+- (id)_profileIdentifiers;
+- (void)C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSVTUIAudioRecorderRemoteDeviceContext *remoteDeviceContext; // @synthesize remoteDeviceContext=_remoteDeviceContext;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *voiceControllerCreationQueue; // @synthesize voiceControllerCreationQueue=_voiceControllerCreationQueue;
 
 @end
 

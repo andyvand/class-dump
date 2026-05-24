@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IAMMessage
 {
     _Bool _requiresCloseButton;
-    NSString *_identifier;
-    NSString *_messageGroupIdentifier;
-    NSArray *_contentPages;
 }
 
+- (id);
+- (_Bool)setMaskView: /* Error: Ran out of types for this method. */;
+- (id)setParsedArgSearchTermFromQU:(id)arg1;
+- (id)hasQueryTextEmbedding;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)*h;
+- (void)&;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contentPages; // @synthesize contentPages=_contentPages;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *messageGroupIdentifier; // @synthesize messageGroupIdentifier=_messageGroupIdentifier;
-@property(readonly, nonatomic) _Bool requiresCloseButton; // @synthesize requiresCloseButton=_requiresCloseButton;
 
 @end
 

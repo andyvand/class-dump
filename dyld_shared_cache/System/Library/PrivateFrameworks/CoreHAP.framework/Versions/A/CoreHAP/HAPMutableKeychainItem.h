@@ -6,25 +6,16 @@
 
 #import <CoreHAP/HAPKeychainItem.h>
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface HAPMutableKeychainItem : HAPKeychainItem
 {
 }
 
-- (id);
+- (id)systemBackgroundColor;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessGroup; // @dynamic accessGroup;
-@property(retain, nonatomic) NSString *account; // @dynamic account;
-@property(retain, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSData *genericData; // @dynamic genericData;
-@property(retain, nonatomic) NSString *itemDescription; // @dynamic itemDescription;
-@property(retain, nonatomic) NSString *label; // @dynamic label;
-@property(nonatomic, getter=isSyncable) _Bool syncable; // @dynamic syncable;
-@property(retain, nonatomic) NSNumber *type; // @dynamic type;
-@property(retain, nonatomic) NSData *valueData; // @dynamic valueData;
-@property(retain, nonatomic) NSString *viewHint; // @dynamic viewHint;
 
 @end
 

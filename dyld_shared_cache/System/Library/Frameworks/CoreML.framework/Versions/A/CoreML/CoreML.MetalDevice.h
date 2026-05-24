@@ -7,10 +7,6 @@
 @interface CoreML.MetalDevice
 {
     id id;
-    id mtlDevice;
-    id commandQueue;
-    id sharedEventPool;
-    id mpsGraphDevice;
 }
 
 @end

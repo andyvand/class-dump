@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface SCNCommonProfileProgramGenerator
 {
     struct os_unfair_lock_s _programMutex;
-    struct __CFDictionary *_shaders;
-    struct __CFDictionary *_trackedResourcesToHashcode;
 }
 
 + (id);
 - (void);
-- (struct __C3DFXProgram *);
+- (struct __C3DFXProgram *)o`;
 - (void);
 - (void);
 - (id);

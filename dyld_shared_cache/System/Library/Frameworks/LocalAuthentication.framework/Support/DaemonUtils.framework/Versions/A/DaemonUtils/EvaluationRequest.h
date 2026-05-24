@@ -6,37 +6,18 @@
 
 #import <DaemonUtils/Request.h>
 
-@class LAAnalyticsEvaluation, LACAnalyticsData, LACClientInfo, NSData, NSDictionary, NSError, NSMutableSet, NSString, NSUUID;
-@protocol LACContextCallbackXPC, LACXPCClient;
+@class NSData;
 
 @interface EvaluationRequest : Request
 {
     _Bool immediateSuccess;
-    _Bool _customUI;
-    unsigned int _evaluationUserId;
-    LACAnalyticsData *analyticsData;
-    NSUUID *_contextID;
-    unsigned long long _originatorId;
-    id <LACContextCallbackXPC> _callback;
-    long long _policy;
-    NSData *_acl;
-    id _aclOperation;
-    NSDictionary *_options;
-    id <LACXPCClient> _client;
-    LACClientInfo *_clientInfo;
-    NSData *_externalizedContext;
-    long long _purpose;
-    NSError *_retryingForError;
-    LAAnalyticsEvaluation *_analytics;
-    NSMutableSet *_pausedEvents;
-    NSDictionary *_payload;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)ler %lu for namespace %@;
 - (void);
 - (id);
 - (void);
@@ -44,47 +25,47 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)_inlinePreviewLayerTreeDidUpdate;
+- (_Bool)kIKScannerDeviceView_Advanced_sizeFormatStringPixel;
+- (id)valueForUndefinedKey:(id)arg1 %@;
+- (_Bool)v24@?0{CGSize=dd}8;
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (void);
+- (void)transformCyrillicToLatin:(id)arg1;
+- (id)shouldAddSpaceToNeutralQuotationMarks: /* Error: Ran out of types for this method. */;
+- (id)matNumber: /* Error: Ran out of types for this method. */;
+- (_Bool)textSynthesizer;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void)";
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id))A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)mobileSoftwareUpdateInProgress;
 - (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -95,39 +76,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *acl; // @synthesize acl=_acl;
-@property(retain, nonatomic) id aclOperation; // @synthesize aclOperation=_aclOperation;
-@property(retain, nonatomic) LAAnalyticsEvaluation *analytics; // @synthesize analytics=_analytics;
-@property(retain, nonatomic) LACAnalyticsData *analyticsData; // @synthesize analyticsData;
-@property(retain, nonatomic) id <LACContextCallbackXPC> callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) id <LACXPCClient> client; // @synthesize client=_client;
-@property(retain, nonatomic) LACClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(retain, nonatomic) NSUUID *contextID; // @synthesize contextID=_contextID;
-@property(nonatomic) _Bool customUI; // @synthesize customUI=_customUI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int evaluationUserId; // @synthesize evaluationUserId=_evaluationUserId;
-@property(retain, nonatomic) NSData *externalizedContext; // @synthesize externalizedContext=_externalizedContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int identifier;
-@property(nonatomic, getter=isImmediateSuccess) _Bool immediateSuccess; // @synthesize immediateSuccess;
-@property(readonly, nonatomic) _Bool isInteractive;
-@property(readonly, nonatomic) _Bool isPurposeApplePay;
-@property(readonly, nonatomic) _Bool isPurposeInAppPayment;
-@property(readonly, nonatomic) _Bool isPurposeSecureUIRecording;
-@property(readonly, nonatomic) _Bool isPurposeUnlock;
-@property(readonly, nonatomic) _Bool isRecoveringFromBiolockout;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) unsigned long long originatorId; // @synthesize originatorId=_originatorId;
-@property(retain, nonatomic) NSMutableSet *pausedEvents; // @synthesize pausedEvents=_pausedEvents;
-@property(retain, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(nonatomic) long long policy; // @synthesize policy=_policy;
-@property(nonatomic) long long purpose; // @synthesize purpose=_purpose;
-@property(retain, nonatomic) NSError *retryingForError; // @synthesize retryingForError=_retryingForError;
-@property(nonatomic) _Bool secureIntentRequested;
-@property(readonly) Class superclass;
 
 @end
 

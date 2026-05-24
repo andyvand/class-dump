@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (_Bool);
+- (id)ge='%@', sequenceNumber='%d';
+- (_Bool)on[%@] transportSessionID[%u] idsParticipantID[%@] participantUUID[%@] receives message[%@];
 
 @end
 

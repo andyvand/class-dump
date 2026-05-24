@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatProgressViewNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id progressColor;
-    id trackColor;
-    id ignoresSmartInvertColors;
 }
 
 @end

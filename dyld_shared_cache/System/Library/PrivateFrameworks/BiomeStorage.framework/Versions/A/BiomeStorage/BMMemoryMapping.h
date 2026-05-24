@@ -7,53 +7,38 @@
 @interface BMMemoryMapping
 {
     int _protection;
-    int _advice;
-    _Atomic unsigned long long _currentWriteOffset;
-    void *_start;
-    unsigned long long _size;
-    long long _offset;
-    void *_mappedAddress;
-    unsigned long long _pageAlignedSize;
-    unsigned long long _offsetSpace;
 }
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void *);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char)DID_GET_SESSION_STATE;
 - (_Bool);
 - (void *);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)/d;
 - (unsigned long long);
 - (unsigned char);
 - (unsigned char);
 - (char *);
-- (unsigned long long);
+- (unsigned long long)hair_curly_medium_down_centerPart;
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned char);
-- (_Bool);
+- (_Bool)_triggersContainer;
 - (void);
 - (_Bool);
-- (void);
+- (void)timeStampWithSaltGrain;
 - (long long);
 
 // Remaining properties
-@property(readonly) unsigned long long currentWriteOffset;
-@property(readonly) char *end;
-@property(readonly) unsigned long long freeSpace;
-@property(readonly) long long offset;
-@property(readonly) unsigned long long size;
 @property(readonly) void *start;
-@property(readonly) unsigned long long used;
-@property(readonly, getter=isWritable) _Bool writable;
 
 @end
 

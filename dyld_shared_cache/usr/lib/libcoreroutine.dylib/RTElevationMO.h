@@ -10,14 +10,10 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)arrayWithCapacity:(id)arg1;
++ (id)active_virtual_participants;
 
 // Remaining properties
-@property(nonatomic) double elevation; // @dynamic elevation;
-@property(nonatomic) double elevationUncertainty; // @dynamic elevationUncertainty;
-@property(copy, nonatomic) NSDate *endDate; // @dynamic endDate;
-@property(nonatomic) short estimationStatus; // @dynamic estimationStatus;
 @property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
 
 @end

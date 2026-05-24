@@ -5,17 +5,14 @@
 //
 
 @protocol VKTrackableAnnotationPresentation
+- (CDStruct_2c43369c)enabledSections;
+- (struct VKEdgeInsets)mail address from id token.;
 - (double)ùq*°1Â0@ù
 × ;
 - (void)¸¸¹%<»¸»ü¼¾#À,Á;
 - (_Bool)P;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingAccuracy) _Bool animatingAccuracy;
-@property(readonly, nonatomic) struct VKEdgeInsets annotationTrackingEdgeInsets;
-@property(readonly, nonatomic) double minimumAccuracy;
-@property(nonatomic) double presentationAccuracy;
-@property(nonatomic) CDStruct_c3b9c2ee presentationCoordinate;
-@property(nonatomic) _Bool tracking;
+@property(nonatomic) CDStruct_2c43369c presentationCoordinate;
 @end
 

@@ -6,18 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class CIFilter, NSMutableArray, QCImagePort, QCNumberPort, QCStructurePort;
+@class QCStructurePort;
 
 @interface QCDepthBlurEffectEditor : QCPatch
 {
     QCStructurePort *inputImages;
-    QCNumberPort *inputAperture;
-    QCImagePort *outputImage;
-    QCImagePort *outputMainImage;
-    QCImagePort *outputDisparityImage;
-    QCImagePort *outputAlphaMatteImage;
-    NSMutableArray *_inputImages;
-    CIFilter *_cachedFilter;
 }
 
 + (_Bool);

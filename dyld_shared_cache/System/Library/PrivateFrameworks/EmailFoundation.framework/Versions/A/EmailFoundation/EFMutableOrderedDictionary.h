@@ -20,8 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)s:(struct _NSZone *)arg1:%s:no conversion necessary
+ /* Error: Ran out of types for this method. */;
+- (void)ecause of invalid arguments;
 - (void);
 - (void);
 

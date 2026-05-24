@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CTDataConnectionStatus
 {
     _Bool _suspended;
-    _Bool _publicNetAllowed;
-    unsigned int _wirelessTechnologyMask;
-    int _state;
-    int _ipFamily;
-    int _contextType;
-    int _transportType;
-    NSNumber *_pdp;
-    NSString *_interfaceName;
-    NSString *_apnName;
-    NSArray *_qosFlows;
-    NSArray *_trafficDescriptors;
 }
 
-+ (_Bool);
++ (_Bool)om.apple.avfoundation.customurl.cfurlconnection;
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)4F;
 - (void);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)directAction;
 - (id);
 - (int);
 - (unsigned int);
-- (void);
+- (void)text on %{public}@ cid:(id)arg1 %u;
 - (id);
 - (void);
 - (void);
@@ -50,23 +39,12 @@
 - (void);
 - (void)
 × ;
-- (void)ntSubscriberId;
+- (void)currentSubscriberId;
 - (int)d;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apnName; // @synthesize apnName=_apnName;
-@property(nonatomic) int contextType; // @synthesize contextType=_contextType;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) int ipFamily; // @synthesize ipFamily=_ipFamily;
 @property(retain, nonatomic) NSNumber *pdp; // @synthesize pdp=_pdp;
-@property(nonatomic) _Bool publicNetAllowed; // @synthesize publicNetAllowed=_publicNetAllowed;
-@property(retain, nonatomic) NSArray *qosFlows; // @synthesize qosFlows=_qosFlows;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) _Bool suspended; // @synthesize suspended=_suspended;
-@property(retain, nonatomic) NSArray *trafficDescriptors; // @synthesize trafficDescriptors=_trafficDescriptors;
-@property(nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(nonatomic) unsigned int wirelessTechnologyMask; // @synthesize wirelessTechnologyMask=_wirelessTechnologyMask;
 
 @end
 

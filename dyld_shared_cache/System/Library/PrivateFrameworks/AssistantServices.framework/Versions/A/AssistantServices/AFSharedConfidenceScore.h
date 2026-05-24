@@ -9,7 +9,6 @@
 @interface AFSharedConfidenceScore
 {
     NSString *_sharedUserId;
-    unsigned long long _confidenceScore;
 }
 
 + (id);
@@ -17,8 +16,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)N,V_scheduledDeliveryDate;
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -26,21 +25,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)DisplayServicesAmbientLightCompensationEnabled;
 - (id);
 - (id);
 - (void)advertisementContextVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *sharedUserId; // @synthesize sharedUserId=_sharedUserId;
-@property(readonly) Class superclass;
 
 @end
 

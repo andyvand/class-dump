@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeBoxURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

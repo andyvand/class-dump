@@ -6,30 +6,28 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSColor, NSNumber;
+@class NSColor;
 
 @interface DGColorMonochromeOperation : DGOperation
 {
     NSColor *_inputColor;
-    NSNumber *_inputIntensity;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSColor *inputColor; // @synthesize inputColor=_inputColor;
-@property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 
 @end
 

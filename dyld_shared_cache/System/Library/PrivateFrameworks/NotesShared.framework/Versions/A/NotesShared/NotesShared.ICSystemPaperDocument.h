@@ -15,9 +15,9 @@
 + (void);
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)rd-10.9-noticeboard.merged-1.sucatalog;
 - (id);
 - (_Bool);
 - (id);

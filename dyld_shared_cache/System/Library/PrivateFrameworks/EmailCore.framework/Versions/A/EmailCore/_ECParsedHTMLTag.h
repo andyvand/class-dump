@@ -13,9 +13,9 @@
     NSString *_tagName;
 }
 
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (_Bool)sView.;
+- (id)already active. Ignoring. %@;
+- (unsigned long long)view count;
 - (void);
 - (id);
 - (void);

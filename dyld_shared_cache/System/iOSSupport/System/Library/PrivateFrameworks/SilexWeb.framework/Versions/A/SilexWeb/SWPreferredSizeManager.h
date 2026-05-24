@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SWLogger;
 
 @interface SWPreferredSizeManager
 {
     CDUnknownBlockType preferredSizeBlock;
-    id <SWLogger> _logger;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void)ү;
 - (void);
-- (void);
-- (id);
+- (id)webViewSetNeedsLayout;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(copy, nonatomic, setter=onPreferredSize:) CDUnknownBlockType preferredSizeBlock; // @synthesize preferredSizeBlock;
-@property(readonly) Class superclass;
 
 @end
 

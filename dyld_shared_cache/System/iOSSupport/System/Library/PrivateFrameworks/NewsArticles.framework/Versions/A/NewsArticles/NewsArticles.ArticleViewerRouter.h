@@ -7,10 +7,6 @@
 @interface NewsArticles.ArticleViewerRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id router;
-    id offlineManager;
 }
 
 @end

@@ -9,9 +9,6 @@
 @interface _MRGameControllerMotionProtobuf
 {
     _MRGameControllerAccelerationProtobuf *_attitude;
-    _MRGameControllerAccelerationProtobuf *_gravity;
-    _MRGameControllerAccelerationProtobuf *_rotation;
-    _MRGameControllerAccelerationProtobuf *_userAcceleration;
 }
 
 - (_Bool);
@@ -19,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)86Z;
 - (_Bool);
 - (id);
 - (void);
@@ -30,22 +27,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_simulateRecipientIndexerTimeoutRaceKey;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)IsValid;
+- (id)ilyCircleStatusManager init];
+- (void)_idsAccountIsValid;
 
 // Remaining properties
-@property(retain, nonatomic) _MRGameControllerAccelerationProtobuf *attitude; // @synthesize attitude=_attitude;
-@property(retain, nonatomic) _MRGameControllerAccelerationProtobuf *gravity; // @synthesize gravity=_gravity;
-@property(readonly, nonatomic) _Bool hasAttitude;
 @property(readonly, nonatomic) _Bool hasGravity;
-@property(readonly, nonatomic) _Bool hasRotation;
-@property(readonly, nonatomic) _Bool hasUserAcceleration;
-@property(retain, nonatomic) _MRGameControllerAccelerationProtobuf *rotation; // @synthesize rotation=_rotation;
-@property(retain, nonatomic) _MRGameControllerAccelerationProtobuf *userAcceleration; // @synthesize userAcceleration=_userAcceleration;
 
 @end
 

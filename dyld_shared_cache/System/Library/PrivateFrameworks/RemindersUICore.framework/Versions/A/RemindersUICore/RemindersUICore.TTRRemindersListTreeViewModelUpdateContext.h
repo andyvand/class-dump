@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersListTreeViewModelUpdateContext
 {
     id itemToStartEditing;
-    id internalTreeViewModel;
-    id viewUpdateType;
-    id cachedTreeViewUpdates;
 }
 
 @end

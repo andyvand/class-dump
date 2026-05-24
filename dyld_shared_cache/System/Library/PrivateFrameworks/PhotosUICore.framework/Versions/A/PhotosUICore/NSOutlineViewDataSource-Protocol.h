@@ -5,5 +5,8 @@
 //
 
 @protocol NSOutlineViewDataSource
+
+@optional
+- (void);
 @end
 

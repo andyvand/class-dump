@@ -6,26 +6,24 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVHrefItem, CoreDAVItemWithNoChildren;
+@class CoreDAVHrefItem;
 
 @interface CoreDAVCurrentUserPrincipalItem : CoreDAVItem
 {
     CoreDAVHrefItem *_href;
-    CoreDAVItemWithNoChildren *_unauthenticated;
 }
 
 + (id);
 - (id);
+- (id)_smallIcon;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)x;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *unauthenticated; // @synthesize unauthenticated=_unauthenticated;
 
 @end
 

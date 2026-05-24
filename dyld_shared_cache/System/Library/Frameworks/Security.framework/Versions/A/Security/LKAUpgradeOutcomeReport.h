@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface LKAUpgradeOutcomeReport
 {
     int _outcome;
-    NSDictionary *_attributes;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (int);
+- (void)HHHHHHHHHHH;
+- (int)(;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property int outcome; // @synthesize outcome=_outcome;
 
 @end

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFPathComponent, EMRemoteContentURLSession, NSDate, NSError, NSNumber, NSPort, NSProgress, NSString, NSURL;
+@class NSURL;
 
 @interface MCRemoteURLAttachmentDataSource
 {
     _Bool _isAutoArchiveAttachment;
-    _Bool _isMailDropIndividualImage;
-    _Bool _isMailDropImageArchive;
-    _Bool _hasUntrustedRemoteURL;
-    NSProgress *_downloadProgress;
-    NSURL *_attachmentsDirectory;
-    CDUnknownBlockType _fileWrapperCompletionBlock;
-    NSURL *_remoteURL;
-    NSPort *_downloadPort;
-    NSError *_downloadError;
-    NSNumber *_fileSize;
-    NSDate *_downloadURLExpiration;
-    EFPathComponent *_filename;
-    EMRemoteContentURLSession *_privacyProxySession;
 }
 
 - (void);
@@ -33,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Q	;
 - (void);
 - (void);
 - (void);
@@ -51,7 +38,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)RP;
 - (void);
 - (_Bool);
 - (void);
@@ -63,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (id);
 - (id);
@@ -72,30 +59,7 @@
 - (id)attachment;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *attachmentsDirectory; // @synthesize attachmentsDirectory=_attachmentsDirectory;
-@property(readonly, nonatomic) _Bool canResultsBeCached;
-@property(readonly, nonatomic) _Bool dataIsLocallyAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *downloadError; // @synthesize downloadError=_downloadError;
-@property(readonly, nonatomic) NSPort *downloadPort; // @synthesize downloadPort=_downloadPort;
-@property(retain, nonatomic) NSProgress *downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(readonly, nonatomic) NSDate *downloadURLExpiration; // @synthesize downloadURLExpiration=_downloadURLExpiration;
-@property(readonly, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(copy, nonatomic) CDUnknownBlockType fileWrapperCompletionBlock; // @synthesize fileWrapperCompletionBlock=_fileWrapperCompletionBlock;
-@property(readonly, copy, nonatomic) EFPathComponent *filename; // @synthesize filename=_filename;
-@property(readonly, nonatomic) _Bool hasUntrustedRemoteURL; // @synthesize hasUntrustedRemoteURL=_hasUntrustedRemoteURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutoArchiveAttachment; // @synthesize isAutoArchiveAttachment=_isAutoArchiveAttachment;
-@property(readonly, nonatomic) _Bool isDirectory;
-@property(readonly, nonatomic) _Bool isMailDropImageArchive; // @synthesize isMailDropImageArchive=_isMailDropImageArchive;
-@property(readonly, nonatomic) _Bool isMailDropIndividualImage; // @synthesize isMailDropIndividualImage=_isMailDropIndividualImage;
-@property(retain, nonatomic) EMRemoteContentURLSession *privacyProxySession; // @synthesize privacyProxySession=_privacyProxySession;
 @property(retain, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAction, MRAction, MRRenderer, MRTouchSet, NSArray, NSObject, NSSet;
+@class MCAction, MRRenderer;
 
 @interface MRGestureRecognizer
 {
     MRRenderer *_renderer;
-    MRAction *_automaticStartAction;
-    MRAction *_automaticUpdateAction;
-    MRAction *_automaticEndAction;
-    MRAction *_automaticCancelAction;
-    MRAction *_startAction;
-    MRAction *_updateAction;
-    MRAction *_endAction;
-    MRAction *_cancelAction;
-    NSObject *_sender;
-    NSArray *_matrixChain;
-    int _state;
-    struct CGSize _referenceSize;
-    double _referenceScale;
-    MRTouchSet *_touchSet;
-    struct CGPoint _centroidStartLocation;
-    struct CGPoint _centroidLocation;
-    struct CGPoint _previousCentroidLocation;
-    struct CGPoint _offsetFromCentroid;
-    double _scale;
-    double _previousScale;
-    double _ratioFromScale;
-    double _rotation;
-    double _previousRotation;
-    double _offsetFromRotation;
-    double _startTime;
-    double _hitTime;
-    double _previousHitTime;
-    double _score;
-    unsigned char _requiredTouchCount;
 }
 
 - (void);
@@ -46,20 +17,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned char);
+- (void)"<FCOperationThrottler>";
+- (unsigned char)initWithConfigProvider:maxPayloadSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)ploadInWindow:(id)arg1 ];
+- (id)entries;
 - (void);
 - (void);
-- (void);
+- (void));
 - (struct CGPoint);
 - (void);
+- (void)~ӶT;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -75,7 +46,7 @@
 - (double);
 - (id);
 - (void);
-- (void)specificGuidelines;
+- (void)_specificGuidelines;
 - (void)#define SampleTexture2			texture2DRect(_textureUnit2, vTextureCoordinates2) 
 		#define DeclareTexture0_2D		uniform lowp sampler2D _textureUnit0; varying mediump vec2 vTextureCoordinates0 
 		#define DeclareTexture1_2D		uniform lowp sampler2D _textureUnit1; varying mediump vec2 vTextureCoordinates1 
@@ -127,18 +98,7 @@
 				;
 
 // Remaining properties
-@property(retain) MCAction *cancelAction;
-@property(retain) MCAction *endAction;
-@property(retain) NSArray *matrixChain; // @synthesize matrixChain=_matrixChain;
-@property(nonatomic) double referenceScale; // @synthesize referenceScale=_referenceScale;
-@property(nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(nonatomic) unsigned char requiredTouchCount; // @synthesize requiredTouchCount=_requiredTouchCount;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(readonly) id sender; // @synthesize sender=_sender;
 @property(retain) MCAction *startAction;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) NSSet *touches;
-@property(retain) MCAction *updateAction;
 
 @end
 

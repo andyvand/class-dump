@@ -9,21 +9,17 @@
 @interface BWLimitedGMErrorLogger
 {
     int _maxLoggingCount;
-    int _currentLoggingCount;
-    NSString *_name;
 }
 
 - (void);
-- (id);
+- (id)";
 - (int);
-- (id);
+- (id);
 - (void);
 - (int)ÌÌ<;
 - (void)ÙI;
 
 // Remaining properties
-@property(readonly, nonatomic) int currentLoggingCount; // @synthesize currentLoggingCount=_currentLoggingCount;
-@property(readonly, nonatomic) int maxLoggingCount; // @synthesize maxLoggingCount=_maxLoggingCount;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

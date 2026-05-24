@@ -6,21 +6,19 @@
 
 #import <TSReading/TSPFileDataStorage.h>
 
-@class NSData, NSURL, TSPObjectContext;
+@class NSURL;
 
 @interface TSPExternalReferenceDataStorage : TSPFileDataStorage
 {
     NSURL *_URL;
-    NSData *_bookmarkData;
-    TSPObjectContext *_context;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)supported:%@ /* Error: Ran out of types for this method. */;
+- (void)idReachEndOfQueue;
+- (id)NUIApplicationOpenExternalURLOptionsKey;
 - (id);
 - (_Bool);
-- (id);
+- (id)nEvent.viewAction;
 - (void)©ª\¼¬;
 
 // Remaining properties

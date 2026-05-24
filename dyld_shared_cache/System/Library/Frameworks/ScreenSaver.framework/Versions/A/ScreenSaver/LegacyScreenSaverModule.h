@@ -9,7 +9,6 @@
 @interface LegacyScreenSaverModule : ScreenSaverModule
 {
     _Bool _hasConfigurationSheet;
-    CDUnknownBlockType configureSheetCompletionBlock;
 }
 
 + (void);
@@ -22,10 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)
+;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType configureSheetCompletionBlock; // @synthesize configureSheetCompletionBlock;
 @property _Bool hasConfigurationSheet; // @synthesize hasConfigurationSheet=_hasConfigurationSheet;
 
 @end

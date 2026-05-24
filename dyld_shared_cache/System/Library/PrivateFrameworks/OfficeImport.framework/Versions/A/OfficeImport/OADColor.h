@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)#;
 + (int);
 + (id);
 + (id);
@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_;
 - (void);
 - (id);
 - (unsigned long long);

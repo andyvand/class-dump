@@ -7,48 +7,6 @@
 @interface PXPickerConfiguration
 {
     id sourceType;
-    id clientBundleIdentifier;
-    id hasClearBackgroundColor;
-    id displayMode;
-    id isLimitedLibraryPicker;
-    id reverseSortOrder;
-    id assetsFilterPredicate;
-    id disableAutoPlaybackInPreview;
-    id selectionModeEnabled;
-    id selectionCoordinator;
-    id showCheckmarkOnSourceAlbum;
-    id allowsSwipeToSelect;
-    id wantsNumberedSelectionStyle;
-    id preselectedLocalIdentifiers;
-    id includedLocalIdentifiers;
-    id disabledLocalIdentifiers;
-    id navigationTitle;
-    id showNavigationBar;
-    id isSidebarVisible;
-    id isForAssetPicker;
-    id assetAspectRatio;
-    id excludeSharedAlbums;
-    id excludeHiddenAlbum;
-    id excludeEmptyAlbums;
-    id isForAlbumPicker;
-    id isForSharedAlbumPicker;
-    id isForSharedCollectionPicker;
-    id targetAlbum;
-    id targetAlbumName;
-    id sourceAlbum;
-    id scrollToSourceAlbumWhenPresented;
-    id prompt;
-    id wantsPets;
-    id collectionsAspectRatio;
-    id collectionList;
-    id excludeRecentlyDeleted;
-    id excludeDuplicates;
-    id excludeMapAlbum;
-    id excludeRecovered;
-    id isForCollectionsPicker;
-    id desiredCollectionSuggestions;
-    id includeFeaturedCollections;
-    id excludedCollections;
 }
 
 - (id);

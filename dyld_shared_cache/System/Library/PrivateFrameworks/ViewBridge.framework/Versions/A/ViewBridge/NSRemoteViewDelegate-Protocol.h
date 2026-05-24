@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCInterface;
+@class NSObject, NSXPCInterface;
 
 @protocol NSRemoteViewDelegate
 
 @optional
+- (_Bool);
+- (_Bool)T;
+- (void)!;
+- (NSObject *);
 - (NSXPCInterface *)¡-ð!ÈEùq}1Ð1Â0@ù
 × ;
 

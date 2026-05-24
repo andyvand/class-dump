@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebGetEligibilityAction : AMSUIWebAction
@@ -14,22 +14,14 @@ __attribute__((visibility("hidden")))
     NSString *_eligibilityDomain;
 }
 
-- (void);
+- (void)criptions:(id)arg1 %{public}@;
+- (id)completed with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)16@"NSArray"24;
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSString *eligibilityDomain; // @synthesize eligibilityDomain=_eligibilityDomain;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

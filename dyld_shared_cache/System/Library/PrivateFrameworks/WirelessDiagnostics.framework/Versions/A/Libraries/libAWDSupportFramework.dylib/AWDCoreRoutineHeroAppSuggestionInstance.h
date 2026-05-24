@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineHeroAppSuggestionInstance
 {
     unsigned long long _timestamp;
-    NSString *_bundleId;
-    int _lat;
-    int _lon;
-    NSString *_suggestionId;
-    _Bool _installed;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int lat:1;
-        unsigned int lon:1;
-        unsigned int installed:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +15,7 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,16 +25,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (id);
@@ -56,18 +43,7 @@
 - (int)ChannelFlags;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasInstalled;
-@property(nonatomic) _Bool hasLat;
-@property(nonatomic) _Bool hasLon;
-@property(readonly, nonatomic) _Bool hasSuggestionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool installed; // @synthesize installed=_installed;
-@property(nonatomic) int lat; // @synthesize lat=_lat;
-@property(nonatomic) int lon; // @synthesize lon=_lon;
-@property(retain, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

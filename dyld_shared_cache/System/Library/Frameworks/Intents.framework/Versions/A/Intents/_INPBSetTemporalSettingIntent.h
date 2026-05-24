@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBSettingMetadata, _INPBTemporalEventTrigger;
-
 @interface _INPBSetTemporalSettingIntent
 {
     struct {
         unsigned int action:1;
     } _has;
-    int _action;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBSettingMetadata *_settingMetadata;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
-    _INPBDateTimeRangeValue *_timeValue;
 }
 
 + (_Bool);
@@ -24,21 +17,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)AASignOutFlowController:(_Bool)arg1 Will begin sign out of account:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ed terms info.;
 - (int);
 - (id);
-- (id);
+- (id)__ustring;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)Su;
 - (id);
 - (id);
 - (void);
@@ -50,22 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) int action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly, nonatomic) _Bool hasTimeValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *timeValue; // @synthesize timeValue=_timeValue;
 
 @end
 

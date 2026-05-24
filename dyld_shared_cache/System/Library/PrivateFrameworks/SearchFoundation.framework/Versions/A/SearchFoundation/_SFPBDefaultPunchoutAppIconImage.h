@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPunchout;
+@class _SFPBPunchout;
 
 @interface _SFPBDefaultPunchoutAppIconImage
 {
     _SFPBPunchout *_punchout;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)or proposed paired recoveryOS local policy for %s (%u);
+- (id)rtion, bailing;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)keyAssetID;
+- (id)PHPhotoLibrary specified;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)Feedback: /* Error: Ran out of types for this method. */;
+- (void)setJsonFeedback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPunchout *punchout; // @synthesize punchout=_punchout;
-@property(readonly) Class superclass;
 
 @end
 

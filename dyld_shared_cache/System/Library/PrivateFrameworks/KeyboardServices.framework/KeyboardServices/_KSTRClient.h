@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _KSTextReplacementServer;
+@class _KSTextReplacementServer;
 
 @interface _KSTRClient
 {
     _KSTextReplacementServer *_owner;
-    _Bool _hasReadAccess;
-    long long _generation;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -28,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) _Bool hasReadAccess; // @synthesize hasReadAccess=_hasReadAccess;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

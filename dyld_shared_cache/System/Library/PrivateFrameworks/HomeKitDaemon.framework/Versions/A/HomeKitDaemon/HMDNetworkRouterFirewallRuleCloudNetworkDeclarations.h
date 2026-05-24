@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSArray, NSDate, NSDictionary, NSString;
+@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleCloudNetworkDeclarations
 {
     HMDNetworkRouterFirewallRuleAccessoryIdentifier *_baseAccessoryIdentifier;
-    NSString *_name;
-    NSDate *_lastModifiedTime;
-    NSArray *_ruleConfigurations;
-    NSDictionary *_ruleConfigurationsByVersionString;
 }
 
 + (id);
@@ -21,32 +17,20 @@ __attribute__((visibility("hidden")))
 + (id)oB;
 - (id);
 - (id);
+- (id)ue>"16@?<v@?@"GEORPFeedbackResponse"@"NSData"@"NSError">24@?<v@?B>32;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id)onvert;
-- (void)ceType;
+- (void)selectedResidentDeviceType;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDNetworkRouterFirewallRuleAccessoryIdentifier *baseAccessoryIdentifier; // @synthesize baseAccessoryIdentifier=_baseAccessoryIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastModifiedTime; // @synthesize lastModifiedTime=_lastModifiedTime;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDictionary *prettyJSONDictionary;
-@property(readonly, nonatomic) NSArray *ruleConfigurations; // @synthesize ruleConfigurations=_ruleConfigurations;
 @property(readonly, copy) NSDictionary *ruleConfigurationsByVersionString; // @synthesize ruleConfigurationsByVersionString=_ruleConfigurationsByVersionString;
-@property(readonly) Class superclass;
 
 @end
 

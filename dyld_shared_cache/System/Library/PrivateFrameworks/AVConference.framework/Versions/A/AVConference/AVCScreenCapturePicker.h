@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject;
-@protocol AVCScreenCapturePickerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVCScreenCapturePicker
 {
     NSObject<OS_dispatch_queue> *_screenCapturePickerQueue;
-    AVConferenceXPCClient *_connection;
-    id <AVCScreenCapturePickerDelegate> _delegate;
-    _Bool _isValid;
-    _Bool _excludeCurrentApplication;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

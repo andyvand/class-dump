@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSMutableDictionary, NSString, VFXNode;
+@class NSArray, VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTComponentInstance
 {
     NSArray *_assets;
-    VFXNode *_assetNode;
-    NSString *_materialVariant;
-    NSString *_assetImage;
-    NSString *_assetImageVariant;
-    float _skinnerVariantIntensity;
-    _Bool _didInitializeVariantSkinnerPairs;
-    NSMapTable *_variantSkinnerPairs;
-    NSMutableDictionary *_visibilityRules;
-    NSDictionary *_layers;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (CDStruct_ccff9734);
+- (CDStruct_b062b2f2);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *assetImage; // @synthesize assetImage=_assetImage;
 @property(readonly) VFXNode *assetNode; // @synthesize assetNode=_assetNode;
-@property(readonly) CDStruct_ccff9734 uvRemappingInfo;
 
 @end
 

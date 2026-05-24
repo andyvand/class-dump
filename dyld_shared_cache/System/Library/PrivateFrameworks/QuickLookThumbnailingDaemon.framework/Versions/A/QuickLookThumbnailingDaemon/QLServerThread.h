@@ -4,48 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSURL, _QLCacheThread;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary, NSOperationQueue;
 
 @interface QLServerThread
 {
     NSOperationQueue *_downloadsOperationQueue;
-    NSObject<OS_dispatch_queue> *_pendingDownloadsQueue;
-    _Bool _drainScheduled;
-    _Atomic int _thumbnailDownloadsInFlight;
-    NSObject<OS_dispatch_queue> *_downloadResponseProcessingQueue;
-    NSObject<OS_dispatch_queue> *_externalThumbnailCacheQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_watchdogTimer;
-    NSMutableDictionary *_queuedDownloadRequests;
-    NSMutableDictionary *_externalThumbnailCaches;
-    NSMutableDictionary *_externalThumbnailCacheInboxURLs;
-    NSMutableDictionary *_externalThumbnailCacheThumbnailURLs;
-    NSMutableDictionary *_externalThumbnailCacheAvailablePendingBlocks;
-    NSMutableSet *_knownDomainsWithoutExternalThumbnailCaches;
-    NSObject<OS_dispatch_queue> *_completionBlocksQueue;
-    NSObject<OS_dispatch_queue> *_genstoreCachingQueue;
-    NSMutableDictionary *_pendingRequests;
-    NSOperationQueue *_uncachedThumbnailRetrievalQueue;
-    NSOperationQueue *_downscaledThumbnailGenerationQueue;
-    NSObject<OS_dispatch_queue> *_previewThumbnailGeneratorQueue;
-    struct os_unfair_lock_s _domainCacheLock;
-    struct os_unfair_lock_s _volumeCacheLock;
-    struct os_unfair_lock_s _fsidCacheLock;
-    NSURL *_overrideBasePersonaVolumesURLForTesting;
-    _QLCacheThread *_cacheThread;
-    NSMutableDictionary *_domainsToCaches;
-    NSMutableDictionary *_volumesToCaches;
-    NSMutableDictionary *_fsidsToCaches;
 }
 
-+ (void);
++ (void)ا;
 + (void);
 + (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -58,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
@@ -81,13 +53,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (void);
 - (void);
@@ -106,7 +78,7 @@
 - (void);
 - (struct os_unfair_lock_s);
 - (id);
-- (_Bool);
+- (_Bool)/G�iii8)RIIi8	J;
 - (id);
 - (void);
 - (void);
@@ -121,18 +93,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;
-@property(retain) NSObject<OS_dispatch_queue> *completionBlocksQueue; // @synthesize completionBlocksQueue=_completionBlocksQueue;
-@property(readonly, nonatomic) struct os_unfair_lock_s domainCacheLock; // @synthesize domainCacheLock=_domainCacheLock;
-@property(retain) NSMutableDictionary *domainsToCaches; // @synthesize domainsToCaches=_domainsToCaches;
-@property(readonly, nonatomic) struct os_unfair_lock_s fsidCacheLock; // @synthesize fsidCacheLock=_fsidCacheLock;
-@property(retain) NSMutableDictionary *fsidsToCaches; // @synthesize fsidsToCaches=_fsidsToCaches;
-@property(copy) NSURL *overrideBasePersonaVolumesURLForTesting; // @synthesize overrideBasePersonaVolumesURLForTesting=_overrideBasePersonaVolumesURLForTesting;
 @property(retain) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSMutableDictionary *queuedDownloadRequests; // @synthesize queuedDownloadRequests=_queuedDownloadRequests;
-@property(readonly, nonatomic) struct os_unfair_lock_s volumeCacheLock; // @synthesize volumeCacheLock=_volumeCacheLock;
-@property(retain) NSMutableDictionary *volumesToCaches; // @synthesize volumesToCaches=_volumesToCaches;
 
 @end
 

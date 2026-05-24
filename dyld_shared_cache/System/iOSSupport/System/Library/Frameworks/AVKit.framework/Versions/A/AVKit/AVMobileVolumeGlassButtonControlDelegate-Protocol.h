@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileVolumeGlassButtonControlDelegate
+
+@optional
+- (void);
 @end
 

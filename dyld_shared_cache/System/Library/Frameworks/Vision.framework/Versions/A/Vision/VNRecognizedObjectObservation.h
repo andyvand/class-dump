@@ -11,25 +11,23 @@
 @interface VNRecognizedObjectObservation : VNDetectedObjectObservation
 {
     NSArray *_labels;
-    VNPixelBufferObservation *_segmentationMask;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)fp_shortDescriptionExpandingAtMost:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)ionBlur;
+- (void)VNImageBufferAugmentationBlur;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *labels; // @synthesize labels=_labels;
 @property(readonly) VNPixelBufferObservation *segmentationMask; // @synthesize segmentationMask=_segmentationMask;
 
 @end

@@ -6,24 +6,16 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class CLSServiceManager, NSSet, NSString, PGGraphLocationCityNode, PGGraphPersonNode, PGTimeTitleOptions;
-
 @interface PGTrendsMemoryTitleGenerator : PGTitleGenerator
 {
     long long _type;
-    NSString *_sceneFeatureLabel;
-    PGGraphLocationCityNode *_cityNode;
-    PGGraphPersonNode *_personNode;
-    NSSet *_momentNodes;
-    PGTimeTitleOptions *_timeTitleOptions;
-    CLSServiceManager *_serviceManager;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)elVersion;
+- (void)eventLabelingV2ModelVersion;
 
 @end
 

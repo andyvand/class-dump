@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)chat identifier:(struct CGRect)arg1 %@;
 - (void);
 - (void);
-- (id);
+- (id)process:(struct CGRect)arg1 %@;
 
 @end
 

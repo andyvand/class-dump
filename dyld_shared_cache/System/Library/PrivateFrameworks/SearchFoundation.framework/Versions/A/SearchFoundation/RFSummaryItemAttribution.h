@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFTextProperty;
+@class RFTextProperty;
 
 @interface RFSummaryItemAttribution
 {
     RFTextProperty *_text;
-    RFTextProperty *_text_compact;
-    RFTextProperty *_text_minimal;
 }
 
 + (_Bool);
@@ -18,31 +16,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)lowestValue;
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)tableThumbnailDataForAsset:(id)arg1 dataSpecification: /* Error: Ran out of types for this method. */;
+- (id)gSuggestionWithContactID;
 - (id);
 - (id);
 - (void);
 - (void)"_SFPBQuickLookThumbnailImage",&,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RFTextProperty *text; // @synthesize text=_text;
-@property(retain, nonatomic) RFTextProperty *text_compact; // @synthesize text_compact=_text_compact;
-@property(retain, nonatomic) RFTextProperty *text_minimal; // @synthesize text_minimal=_text_minimal;
 
 @end
 

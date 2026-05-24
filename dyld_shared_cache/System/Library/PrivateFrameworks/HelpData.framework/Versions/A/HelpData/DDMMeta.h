@@ -11,11 +11,6 @@
 @interface DDMMeta : DDMObject
 {
     NSString *_buildDate;
-    NSString *_contentType;
-    NSString *_framework;
-    NSString *_appIcon;
-    NSString *_product;
-    NSString *_version;
 }
 
 - (id);
@@ -27,12 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *appIcon; // @synthesize appIcon=_appIcon;
 @property(readonly) NSString *buildDate; // @synthesize buildDate=_buildDate;
-@property(readonly) NSString *contentType; // @synthesize contentType=_contentType;
-@property(readonly) NSString *framework; // @synthesize framework=_framework;
-@property(readonly) NSString *product; // @synthesize product=_product;
-@property(readonly) NSString *version; // @synthesize version=_version;
 
 @end
 

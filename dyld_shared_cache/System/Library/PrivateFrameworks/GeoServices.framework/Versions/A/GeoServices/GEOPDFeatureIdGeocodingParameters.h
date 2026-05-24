@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDFeatureIdGeocodingParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _encryptedFeatureIds;
-    unsigned long long _featureId;
-    GEOLatLng *_location;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _formattedAddressType;
-    struct {
-        unsigned int has_featureId:1;
-        unsigned int has_formattedAddressType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_encryptedFeatureIds:1;
-        unsigned int read_location:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)lizedString";
-- (id)egments;
+- (id)_directedRoadSegments;
 - (id)¨Ï;
 - (void);
 

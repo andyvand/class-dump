@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAIntentGroupIntentInvocationResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAIntentGroupSupportedIntentResponse : SAIntentGroupIntentInvocationResponse
 {
@@ -18,13 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)`";
+- (void)t isn't a standard signed or unsigned integer type;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSString *useCaseId;
 
 @end
 

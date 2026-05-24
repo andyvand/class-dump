@@ -9,7 +9,6 @@
 @interface TKPickerOutlineView
 {
     _Bool _shouldSkipNextScrollRowToVisibleMessage;
-    id <TKPickerOutlineViewEventHandlingDelegate> _eventHandlingDelegate;
 }
 
 - (void);

@@ -4,12 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSService;
+@class IDSAccount, IDSService, NSArray, NSString;
 
 @protocol IDSServiceDelegate
 
 @optional
-- (void)hOutputContextCommunicationChannel:(IDSService *)arg1 outputContext:(IDSAccount *)arg2;
+- (void)resendVerificationRequest:(IDSService *)arg1 completion:(NSArray *)arg2;
+- (void)rescindInvitations:(IDSService *)arg1 onCredential:(NSString *)arg2 withCompletion:(NSArray *)arg3;
+- (void)rescheduleCommutePlanRenewalReminderForPassWithUniqueID:(IDSService *)arg1;
+- (void)requiresUserAction;
+- (void)requiresUnifiedAccessCapableDevice;
+- (void)requiresSimultaneousRequestRouting;
+- (void)requiresNonceValidityChecks;
+- (void)requiresLocation;
+- (void)displayNameForAddress:(IDSService *)arg1 contactResolver:(IDSAccount *)arg2;
+- (void)didReceiveMerchantSessionCompleteWithSession:(IDSService *)arg1 error:(IDSAccount *)arg2;
+- (void)tadata = %@, syncMetadataCapability = %@, peerToPeerHandoffCapability = %@, muxSupportCapability = %@, meDevice = %@, siriLanguage = %@, companionName = %@};
+- (void)initWithOutputContextCommunicationChannel:(IDSService *)arg1 outputContext:(IDSAccount *)arg2;
 - (void)%{public}@>;
 @end
 

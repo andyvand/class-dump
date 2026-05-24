@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureAudioDataOutputSampleBufferDelegate
+
+@optional
+- (void)at;
 @end
 

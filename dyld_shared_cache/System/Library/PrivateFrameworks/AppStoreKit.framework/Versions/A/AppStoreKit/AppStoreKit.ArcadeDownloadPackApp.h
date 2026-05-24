@@ -9,7 +9,6 @@
 @interface AppStoreKit.ArcadeDownloadPackApp
 {
     void adamId;
-    void categoryId;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *adamId;
-@property(nonatomic, readonly) NSString *categoryId;
 
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLRangeBrick
 {
     int _size;
-    float _start;
-    float _stepSize;
-    float _startValueParameter;
-    float _endValueParameter;
-    float _stepSizeValueParameter;
 }
 
-- (float);
-- (float);
-- (float);
-- (id);
+- (float)binFragmentsKernel;
+- (float)dispatchBinsKernel;
+- (float)thod must be implemented by a derived class;
+- (id)cpp_ptr_type_get;
 - (_Bool);
 - (_Bool);
 - (float);
@@ -31,19 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float endValueParameter; // @synthesize endValueParameter=_endValueParameter;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int size; // @synthesize size=_size;
-@property(readonly, nonatomic) float start; // @synthesize start=_start;
-@property(readonly, nonatomic) float startValueParameter; // @synthesize startValueParameter=_startValueParameter;
-@property(readonly, nonatomic) float stepSize; // @synthesize stepSize=_stepSize;
-@property(readonly, nonatomic) float stepSizeValueParameter; // @synthesize stepSizeValueParameter=_stepSizeValueParameter;
-@property(readonly) Class superclass;
 
 @end
 

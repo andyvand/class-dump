@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSetStatus, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MAAutoAssetSetShortTermLockInMemoryRecord
 {
     NSString *_lockerFileRealPath;
-    NSDate *_recordDate;
-    MAAutoAssetSetStatus *_setStatus;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *lockerFileRealPath; // @synthesize lockerFileRealPath=_lockerFileRealPath;
-@property(readonly, retain, nonatomic) NSDate *recordDate; // @synthesize recordDate=_recordDate;
-@property(readonly, retain, nonatomic) MAAutoAssetSetStatus *setStatus; // @synthesize setStatus=_setStatus;
 
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, ICRankingQueriesDefinition, NSArray, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface ICSortableSearchableItem
 {
     _Bool _isPrefixMatch;
-    _Bool _isExactTitleMatch;
-    _Bool _needsLazyInitialization;
-    NSDictionary *_highlightInfo;
-    unsigned long long _hash;
-    CSSearchableItem *_searchableItem;
-    double _rankingScore;
-    NSArray *_attachmentUniqueIdentifiers;
-    unsigned long long _relevanceBitField;
-    unsigned long long _modificationDateBucket;
-    NSDate *_modificationDate;
-    NSDate *_creationDate;
-    unsigned long long _searchResultType;
-    NSString *_searchString;
-    ICRankingQueriesDefinition *_rankingQueriesDefinition;
-    NSString *_language;
 }
 
 + (id);
@@ -35,8 +20,8 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)localeifyIfNeeded:(id)arg1;
+- (id)localeByFindingExistingLocaleWithGroupRec:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -44,7 +29,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void)à;
@@ -54,21 +39,7 @@
 - (id)UpdateOperation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachmentUniqueIdentifiers; // @synthesize attachmentUniqueIdentifiers=_attachmentUniqueIdentifiers;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSDictionary *highlightInfo; // @synthesize highlightInfo=_highlightInfo;
-@property(readonly, nonatomic) _Bool isExactTitleMatch; // @synthesize isExactTitleMatch=_isExactTitleMatch;
-@property(readonly, nonatomic) _Bool isPrefixMatch; // @synthesize isPrefixMatch=_isPrefixMatch;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly, nonatomic) unsigned long long modificationDateBucket; // @synthesize modificationDateBucket=_modificationDateBucket;
-@property(nonatomic) _Bool needsLazyInitialization; // @synthesize needsLazyInitialization=_needsLazyInitialization;
-@property(retain, nonatomic) ICRankingQueriesDefinition *rankingQueriesDefinition; // @synthesize rankingQueriesDefinition=_rankingQueriesDefinition;
-@property(readonly, nonatomic) double rankingScore; // @synthesize rankingScore=_rankingScore;
-@property(readonly, nonatomic) unsigned long long relevanceBitField; // @synthesize relevanceBitField=_relevanceBitField;
-@property(readonly, nonatomic) unsigned long long searchResultType; // @synthesize searchResultType=_searchResultType;
 @property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) CSSearchableItem *searchableItem; // @synthesize searchableItem=_searchableItem;
 
 @end
 

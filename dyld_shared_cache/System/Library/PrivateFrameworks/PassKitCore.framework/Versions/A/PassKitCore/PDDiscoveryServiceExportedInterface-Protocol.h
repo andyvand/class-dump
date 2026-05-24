@@ -5,5 +5,8 @@
 //
 
 @protocol PDDiscoveryServiceExportedInterface
+- (void);
+- (void)4);
+- (void);
 @end
 

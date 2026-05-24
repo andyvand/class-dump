@@ -11,10 +11,9 @@
 @interface TKTokenPasswordAuthOperation : TKTokenAuthOperation
 {
     NSString *_password;
-    NSString *_localizedPasswordLabel;
 }
 
-+ (_Bool);
++ (_Bool)getUnspeakableRangeOfTextCompleted;
 - (void);
 - (id);
 - (void);
@@ -23,11 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)}@;
 
 // Remaining properties
 @property(copy) NSString *localizedPasswordLabel; // @synthesize localizedPasswordLabel=_localizedPasswordLabel;
-@property(copy) NSString *password; // @synthesize password=_password;
 
 @end
 

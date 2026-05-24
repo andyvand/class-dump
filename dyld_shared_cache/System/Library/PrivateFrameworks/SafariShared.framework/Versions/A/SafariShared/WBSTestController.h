@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSURL;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface WBSTestController
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSArray *_testBundles;
-    _Bool _running;
-    NSURL *_suiteURL;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
-- (id);
+- (id)scrollWheel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)À;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleType;
-@property(readonly, nonatomic) NSArray *bundles;
-@property(readonly, nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(readonly, nonatomic) NSURL *suiteURL; // @synthesize suiteURL=_suiteURL;
 
 @end
 

@@ -9,12 +9,11 @@
 @interface LXLanguageIdentifier
 {
     struct unique_ptr<lexicon::LanguageIdentifierImpl, std::default_delete<lexicon::LanguageIdentifierImpl>> _impl;
-    NSArray *_availableLocales;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);

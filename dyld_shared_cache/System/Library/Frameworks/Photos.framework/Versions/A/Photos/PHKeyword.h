@@ -11,20 +11,19 @@
 @interface PHKeyword : PHObject
 {
     NSString *_title;
-    NSString *_shortcut;
 }
 
++ (id));
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)getCurrentURLMappingSet;
 + (id);
 + (id);
 + (id);
 + (id)ÿp¤Æ;
-- (id);
+- (id)?;
 - (Class);
 - (id);
 - (id);
@@ -32,7 +31,6 @@
 - (void)",&,N,V_supplementaryRequestContext;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *shortcut; // @synthesize shortcut=_shortcut;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

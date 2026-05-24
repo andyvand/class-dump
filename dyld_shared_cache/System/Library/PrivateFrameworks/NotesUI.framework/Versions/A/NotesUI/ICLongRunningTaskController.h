@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMProgressWindowController, NSDate, NSProgress, NSString, NSWindow;
+@class NSWindow;
 
 @interface ICLongRunningTaskController
 {
     _Bool _isCancelled;
-    _Bool _shouldShowCancelButton;
-    _Bool _indeterminate;
-    _Bool _shouldShowSpinner;
-    _Bool _allowSingleUnitProgress;
-    NSString *_customCancelButtonTitle;
-    NSString *_progressString;
-    CDUnknownBlockType _progressStringBlock;
-    NSWindow *_window;
-    double _intervalBeforeOpeningProgressDialog;
-    id _keepAlive;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _updateProgressUIBlock;
-    NSProgress *_progress;
-    NSDate *_lastAccessibilityAnnouncementDate;
-    NSDate *_openProgressDate;
-    ICMProgressWindowController *_progressWindowController;
-    NSString *_progressText;
 }
 
 + (void);
@@ -34,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
@@ -78,30 +61,6 @@
 - (void)ter migrating note;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSingleUnitProgress; // @synthesize allowSingleUnitProgress=_allowSingleUnitProgress;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) NSString *customCancelButtonTitle; // @synthesize customCancelButtonTitle=_customCancelButtonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
-@property(nonatomic) double intervalBeforeOpeningProgressDialog; // @synthesize intervalBeforeOpeningProgressDialog=_intervalBeforeOpeningProgressDialog;
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(retain, nonatomic) id keepAlive; // @synthesize keepAlive=_keepAlive;
-@property(retain, nonatomic) NSDate *lastAccessibilityAnnouncementDate; // @synthesize lastAccessibilityAnnouncementDate=_lastAccessibilityAnnouncementDate;
-@property(retain, nonatomic) NSDate *openProgressDate; // @synthesize openProgressDate=_openProgressDate;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSString *progressString; // @synthesize progressString=_progressString;
-@property(copy, nonatomic) CDUnknownBlockType progressStringBlock; // @synthesize progressStringBlock=_progressStringBlock;
-@property(readonly, nonatomic) NSString *progressText; // @synthesize progressText=_progressText;
-@property(retain, nonatomic) ICMProgressWindowController *progressWindowController; // @synthesize progressWindowController=_progressWindowController;
-@property(nonatomic) _Bool shouldShowCancelButton; // @synthesize shouldShowCancelButton=_shouldShowCancelButton;
-@property(nonatomic) _Bool shouldShowSpinner; // @synthesize shouldShowSpinner=_shouldShowSpinner;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateProgressUIBlock; // @synthesize updateProgressUIBlock=_updateProgressUIBlock;
 @property(retain, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAInviteContext, FAInviteLinkMetadata, FASharingViewController, NSSharingService, NSString, NSWindow;
+@class NSSharingService;
 
 @interface FASharingController
 {
     NSSharingService *_selectedService;
-    CDUnknownBlockType _sharingCompletion;
-    NSWindow *_parentWindow;
-    FAInviteContext *_inviteContext;
-    FAInviteLinkMetadata *_linkMetadata;
-    FASharingViewController *_viewController;
-    NSWindow *_sharingWindow;
-    NSSharingService *_inviteInPerson;
-    NSSharingService *_composeEmail;
 }
 
 - (void);
@@ -32,17 +24,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setBatchTranslationEvent: /* Error: Ran out of types for this method. */;
 - (void)Ì5T6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

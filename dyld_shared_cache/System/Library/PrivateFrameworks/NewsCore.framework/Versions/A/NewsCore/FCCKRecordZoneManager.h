@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCCKPrivateDatabase, NSArray, NSDictionary, NSString;
+@class FCCKPrivateDatabase;
 
 @interface FCCKRecordZoneManager
 {
     FCCKPrivateDatabase *_database;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_fcRecordZonesByName;
-    NSDictionary *_ckRecordZonesByID;
-    FCAsyncSerialQueue *_serialQueue;
 }
 
 - (void);
 - (void)IDProvider removeObserver:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

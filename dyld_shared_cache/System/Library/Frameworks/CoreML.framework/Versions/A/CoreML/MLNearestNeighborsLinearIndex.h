@@ -8,15 +8,12 @@ __attribute__((visibility("hidden")))
 @interface MLNearestNeighborsLinearIndex
 {
     vector_926a3350 vData;
-    vector_926a3350 vDataL2Squared;
-    unsigned long long _numDataPoints;
-    unsigned long long _numDimensions;
 }
 
-+ (_Bool);
-- (_Bool);
-- (void);
-- (void);
++ (_Bool)5;
+- (_Bool)SampleMaskRet;
+- (void)MTLCodeGenServiceCreate;
+- (void)4/MTLCompiler;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -25,12 +22,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)]@9K;
 - (void)x %lu ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numDataPoints; // @synthesize numDataPoints=_numDataPoints;
-@property(nonatomic) unsigned long long numDimensions; // @synthesize numDimensions=_numDimensions;
 
 @end
 

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, NSMutableIndexSet, NSMutableSet, NSPredicate, NSSet, NSString, NSTimer, NSValueTransformer;
-@protocol CATCollectionControllerDelegate;
+@class NSArray, NSMutableArray;
 
 @interface CATCollectionController
 {
     NSMutableArray *mPendingArrangedObjects;
-    NSMutableArray *mPendingInsertedObjects;
-    NSMutableArray *mPendingDeletedObjects;
-    NSMutableSet *mContent;
-    id mTarget;
-    NSString *mKeyPath;
-    NSMutableIndexSet *mChangingSelection;
-    _Bool mDelegateKnowsContentIsChanging;
-    NSSet *mKeysAffectingArrangement;
-    NSMutableSet *mObjectsToRearrange;
-    NSTimer *mRearrangeTimer;
-    NSValueTransformer *mTransformer;
-    id mOriginalObjects;
-    _Bool _automaticallyRearrangesObjects;
-    id <CATCollectionControllerDelegate> _delegate;
-    NSArray *_sortDescriptors;
-    NSPredicate *_filterPredicate;
-    NSIndexSet *_selectionIndexes;
-    NSArray *_arrangedObjects;
 }
 
 - (void);
@@ -46,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -63,25 +44,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_secureIO;
 - (void);
 
 // Remaining properties
 @property(retain) NSArray *arrangedObjects; // @synthesize arrangedObjects=_arrangedObjects;
-@property _Bool automaticallyRearrangesObjects; // @synthesize automaticallyRearrangesObjects=_automaticallyRearrangesObjects;
-@property(readonly, nonatomic) NSSet *content;
-@property __weak id <CATCollectionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(readonly) NSArray *selectedObjects;
-@property(copy) NSIndexSet *selectionIndexes; // @synthesize selectionIndexes=_selectionIndexes;
-@property(copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

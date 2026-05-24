@@ -7,14 +7,6 @@
 @interface JetEngine.ImpressionsCalculator
 {
     id parent;
-    id itemsByElementID;
-    id configuration;
-    id tracker;
-    id parentItemID;
-    id dateProvider;
-    id context;
-    id isVisible;
-    id viewBounds;
 }
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSSet, NSString;
 @protocol HMDCLLocationManagerDelegate;
 
 @interface UnknownClass (HMDLocation)
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HMDCLLocationManagerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double desiredAccuracy;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CLLocation *location;
-@property(readonly, copy, nonatomic) NSSet *monitoredRegions;
-@property(readonly) Class superclass;
 @end
 

@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMapTable, NSMutableArray, NSString, UIFocusSystem, _UIDebugLogStack;
-@protocol UIFocusEnvironment, _UIFocusEnvironmentPreferenceEnumerationContextDelegate;
+@class UIFocusSystem;
+@protocol _UIFocusEnvironmentPreferenceEnumerationContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusEnvironmentPreferenceEnumerationContext
 {
     UIFocusSystem *_focusSystem;
-    id <UIFocusEnvironment> _preferredSubtree;
-    NSMutableArray *_visitedEnvironmentStack;
-    id <UIFocusEnvironment> _lastPrimaryPreferredEnvironment;
-    NSArray *_cachedPreferredEnvironments;
-    NSHashTable *_allVisitedEnvironments;
-    _Bool _hasResolvedPreferredFocusEnvironments;
-    _Bool _hasNeverPoppedInPreferredSubtree;
-    id <UIFocusEnvironment> _preferredSubtreeEntryPoint;
-    NSMapTable *_preferredEnvironmentsMap;
-    _Bool _cachedPrefersNothingFocused;
-    id <UIFocusEnvironment> _environment;
-    id <_UIFocusEnvironmentPreferenceEnumerationContextDelegate> _delegate;
-    _UIDebugLogStack *_debugStack;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)submitAndOpenTapToRadarWithNotificationIdentifier:(id)arg1 notificationTitle:notificationBody:draftTitle:problemDescription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
+- (_Bool)setSettingValue:forKey: /* Error: Ran out of types for this method. */;
+- (id)setSenderRegistrationProperties: /* Error: Ran out of types for this method. */;
+- (id)setPreviewGenerationVersion: /* Error: Ran out of types for this method. */;
+- (void)setLastSentDowngradeRequestSinceLoadDate: /* Error: Ran out of types for this method. */;
+- (_Bool)markHasHadSuccessfulQueryForIDs:style:onServices: /* Error: Ran out of types for this method. */;
+- (_Bool)markChatAsSpamWithGUID:chatIdentifiers:style:services:isAutoReport:isJunkReportedToCarrier:reportReason:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)lsAppRecordForURL:checkInstalledAppsOnly: /* Error: Ran out of types for this method. */;
+- (_Bool)bleMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id)_fromFamilyMember: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool)nsupported.;
+- (void)fetching messages:%@ /* Error: Ran out of types for this method. */;
+- (id)T Using person centric grouped chats cache;
 - (id);
 - (id);
 - (void)¡Ð!øCùdð1Â0@ù
@@ -53,23 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _UIDebugLogStack *debugStack; // @synthesize debugStack=_debugStack;
 @property(nonatomic) __weak id <_UIFocusEnvironmentPreferenceEnumerationContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <UIFocusEnvironment> environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInPreferredSubtree) _Bool inPreferredSubtree;
-@property(readonly, nonatomic) _Bool isLeafPreference;
-@property(readonly, nonatomic) _Bool isPrimaryPreference;
-@property(readonly, nonatomic, getter=isPreferredByItself) _Bool preferredByItself;
-@property(readonly, nonatomic) NSArray *preferredEnvironments;
-@property(readonly, nonatomic) id <UIFocusEnvironment> preferringEnvironment;
-@property(readonly, nonatomic) _Bool prefersNothingFocused; // @synthesize prefersNothingFocused=_cachedPrefersNothingFocused;
-@property(readonly) Class superclass;
 
 @end
 

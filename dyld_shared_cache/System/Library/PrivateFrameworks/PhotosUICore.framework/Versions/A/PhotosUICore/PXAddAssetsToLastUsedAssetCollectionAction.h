@@ -6,17 +6,16 @@
 
 #import <PhotosUICore/PXAssetsAction.h>
 
-@class PHAssetCollection, PXAddAssetsToAssetCollectionAction;
+@class PXAddAssetsToAssetCollectionAction;
 
 @interface PXAddAssetsToLastUsedAssetCollectionAction : PXAssetsAction
 {
     PXAddAssetsToAssetCollectionAction *_underlyingAction;
-    PHAssetCollection *_targetAssetCollection;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 - (id);
@@ -30,7 +29,6 @@
 - (void)øâ;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *targetAssetCollection; // @synthesize targetAssetCollection=_targetAssetCollection;
 @property(readonly, nonatomic) PXAddAssetsToAssetCollectionAction *underlyingAction; // @synthesize underlyingAction=_underlyingAction;
 
 @end

@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCollectionResult, GEODirectionIntent, GEOMapItemIdentifier, GEOPublisherResult, GEOResolvedItem, GEORetainedSearchMetadata, GEOSearchCategory, GEOServerResultScoreMetadata, GEOStyleAttributes, NSArray, NSData, NSString;
+@class GEODirectionIntent, GEOMapItemIdentifier, GEOPublisherResult, GEOResolvedItem, GEORetainedSearchMetadata, GEOStyleAttributes, NSArray;
 @protocol GEOMapItem;
 
 @protocol GEOCompletionItem
-- (GEOMapItemIdentifier *)tatus;
+- (GEORetainedSearchMetadata *)P;
+- (GEOStyleAttributes *);
+- (NSArray *)ks/vCard.framework/Versions/A/vCard;
+- (float)works/login.framework/Versions/A/login;
+- (GEOResolvedItem *);
+- (_Bool)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (GEOPublisherResult *)_lock;
+- (GEODirectionIntent *)CNPersistentStoreCoordinatorFactory;
+- (long long)L request.;
+- (void)_imageTintColor;
+- (GEOMapItemIdentifier *)_httpStatus;
 - (id <GEOMapItem>)¼kØ¤m;
 - (int)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long autocompleteCellType;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolved;
-@property(readonly, nonatomic) GEOCollectionResult *collectionResult;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(readonly, nonatomic) float disambiguationRadiusMeters;
 @property(readonly, nonatomic) NSArray *displayLines;
-@property(readonly, nonatomic) NSData *entryMetadata;
-@property(readonly, nonatomic) long long entryTapBehavior;
-@property(readonly, nonatomic) id <GEOMapItem> geoMapItem;
-@property(readonly, nonatomic) _Bool hasDisambiguationRadiusMeters;
-@property(readonly, nonatomic) _Bool hasQueryAcceleratorAffordanceEnabled;
-@property(readonly, nonatomic) _Bool hasSortPriority;
-@property(readonly, nonatomic) GEOStyleAttributes *iconStyleAttributes;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) NSData *metadata;
-@property(readonly, nonatomic) int placeType;
-@property(readonly, nonatomic) GEOPublisherResult *publisherResult;
-@property(readonly, nonatomic) NSString *queryAcceleratorCompletionString;
-@property(readonly, nonatomic) NSArray *resultRefinements;
-@property(readonly, nonatomic) GEORetainedSearchMetadata *retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchCategory *searchCategory;
-@property(readonly, nonatomic) GEOServerResultScoreMetadata *serverResultScoreMetadata;
-@property(readonly, nonatomic) long long sortPriority;
-@property(readonly, nonatomic) long long type;
 @end
 

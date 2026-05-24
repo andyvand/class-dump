@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICOutlineController, ICTTTextStorage;
+@class ICOutlineController;
 
 @interface ICTTTextContentStorage
 {
     ICOutlineController *_outlineController;
 }
 
-- (void);
+- (void);
 - (struct _NSRange);
 - (id);
 - (_Bool);
@@ -24,12 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (void)dOperationWithAttachment:size:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
-- (void)on;
+- (void)addOperationWithAttachment:size:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)outputContinuation;
 
 // Remaining properties
 @property(retain, nonatomic) ICOutlineController *outlineController; // @synthesize outlineController=_outlineController;
-@property(readonly, nonatomic) ICTTTextStorage *textStorage; // @dynamic textStorage;
 
 @end
 

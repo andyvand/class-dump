@@ -7,7 +7,6 @@
 @interface IMDaemonCore.ScheduledMessageBlocklistController
 {
     id $__lazy_storage_$_blockedHandles;
-    id cancellables;
 }
 
 - (id);

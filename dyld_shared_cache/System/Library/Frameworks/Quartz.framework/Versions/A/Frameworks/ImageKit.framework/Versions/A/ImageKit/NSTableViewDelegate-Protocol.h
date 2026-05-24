@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSTableView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void)XH;
+- (_Bool);
+- (_Bool)?*;
+- (void):(NSTableView *)arg1 +;
 @end
 

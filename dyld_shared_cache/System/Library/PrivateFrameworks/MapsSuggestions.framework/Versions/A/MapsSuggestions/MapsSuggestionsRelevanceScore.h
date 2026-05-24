@@ -4,24 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface MapsSuggestionsRelevanceScore
 {
     double _confidence;
-    NSDate *_lastInteractionTime;
 }
 
-- (void);
+- (void)T(;
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)x; 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+   pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 lab = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+ 	pix = sample(gmapped, samplerCoord(gmapped)); 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+    pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 labOther = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+	float dist = (pow(lab.r - labOther.r, 2.0) + pow(lab.g - labOther.g, 2.0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	dist = smoothstep(0.04, 1.0, dist); 
+	float gray = (origPix.r + origPix.g + origPix.b) / 3.0; 
+	// if we're close to zero distance, then we get gray scale, but if it's mapped more, we get a color pixel, scaled by the amount of the mapping 
+	pix.rgb = mix(vec3(gray), pix.rgb, dist); 
+ 	return pix; 
+};
 - (void)or">24;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) NSDate *lastInteractionTime; // @synthesize lastInteractionTime=_lastInteractionTime;
 
 @end
 

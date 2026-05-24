@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, NSArray, NSDate, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CSItemSummary
 {
     NSString *_type;
-    NSString *_name;
-    NSString *_contactIdentifier;
-    NSPersonNameComponents *_nameComponents;
-    NSArray *_alternateNames;
-    NSArray *_phoneNumbers;
-    NSArray *_emailAddresses;
-    NSArray *_allEmailAddresses;
-    long long _contactScope;
-    NSDate *_dateFrom;
-    NSDate *_dateTo;
-    NSString *_textQuery;
-    long long _textScope;
-    long long _statusValue;
-    NSString *_attachmentQuery;
-    long long _attachmentScope;
-    NSString *_senderContainsQuery;
-    NSString *_senderContainsSearchString;
-    long long _senderContainsScope;
-    CSSearchableItem *_sourceItem;
 }
 
 + (_Bool);

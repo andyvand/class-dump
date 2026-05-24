@@ -8,7 +8,6 @@
 {
     id clientIdentifier;
     id containerBundleIdentifier;
-    id sessionLock;
 }
 
 @end

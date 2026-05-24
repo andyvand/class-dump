@@ -7,11 +7,6 @@
 @interface NewsFeed.SportsLiveActivityManager
 {
     id $defaultActor;
-    id availability;
-    id cachedAvailability;
-    id subscriptionUpdatesMulticaster;
-    id availabilityUpdatesMulticaster;
-    id task;
 }
 
 @end

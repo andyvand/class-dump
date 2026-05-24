@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSAutoFillAssociatedDomainsManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_domainToDomainsWithAssociatedCredentials;
-    NSMutableDictionary *_domainsToDomainsToConsiderIdentical;
-    NSArray *_domainsWithAssociatedCredentials;
-    NSArray *_domainsToConsiderIdentical;
 }
 
 - (void);
@@ -31,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *domainsToConsiderIdentical; // @synthesize domainsToConsiderIdentical=_domainsToConsiderIdentical;
 @property(copy, nonatomic) NSArray *domainsWithAssociatedCredentials; // @synthesize domainsWithAssociatedCredentials=_domainsWithAssociatedCredentials;
 
 @end

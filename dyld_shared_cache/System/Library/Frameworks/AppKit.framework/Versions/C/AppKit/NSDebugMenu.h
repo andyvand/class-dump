@@ -10,16 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSDebugMenu
 {
     NSMutableArray *_menuItemProviders;
-    NSMenu *_debugMenu;
 }
 
 + (void);
 + (void);
++ (id)ing stream received unexpected read event %ld
+;
++ (id)ot get default cookie store - using a memory store for this process;
++ (id), (SELECT max(rowid) FROM alt_services)+1);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
+- (id);
 - (id);
 - (void)(	Ùÿ;
 

@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateDeviceLocale
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_deviceInputLocale;
-    NSString *_deviceOutputLocale;
-    NSString *_deviceSettingsLocale;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_deviceInputLocale:1;
-        unsigned int read_deviceOutputLocale:1;
-        unsigned int read_deviceSettingsLocale:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ortAutocompleteSessionData:(id)arg1;
++ (_Bool)setHasSupportAutocompleteSessionData:(id)arg1;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)blic}@;
 - (void);
 - (id);
 - (id);
@@ -42,10 +28,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)top;
-- (_Bool)StatusCodeInfo: /* Error: Ran out of types for this method. */;
-- (_Bool)ingType;
-- (id)dressOnly: /* Error: Ran out of types for this method. */;
+- (id)stop;
+- (_Bool)setIncludeStatusCodeInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)formatStringType;
+- (id)setAddressOnly: /* Error: Ran out of types for this method. */;
 - (id)osition %.1f;
 - (id);
 - (id)@ 	;
@@ -55,13 +41,7 @@
 - (id)4ÕÿA¬8ZÇ6;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceInputLocale;
-@property(retain, nonatomic) NSString *deviceOutputLocale;
-@property(retain, nonatomic) NSString *deviceSettingsLocale;
-@property(readonly, nonatomic) _Bool hasDeviceInputLocale;
-@property(readonly, nonatomic) _Bool hasDeviceOutputLocale;
 @property(readonly, nonatomic) _Bool hasDeviceSettingsLocale;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

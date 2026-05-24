@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SXJSONFontAttributes : SXJSONObject
 {
@@ -19,22 +19,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *familyName; // @dynamic familyName;
 @property(readonly, nonatomic) NSString *fontFamily; // @dynamic fontFamily;
-@property(readonly, nonatomic) NSNumber *grade; // @dynamic grade;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long style; // @dynamic style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long weight; // @dynamic weight;
-@property(readonly, nonatomic) long long width; // @dynamic width;
 
 @end
 

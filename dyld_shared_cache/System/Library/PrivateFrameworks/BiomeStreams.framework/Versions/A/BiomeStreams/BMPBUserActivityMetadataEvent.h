@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface BMPBUserActivityMetadataEvent
 {
     double _absoluteTimestamp;
-    NSString *_activityType;
-    NSString *_associatedBundleId;
-    NSString *_associatedURLString;
-    NSString *_modeIdentifier;
-    NSString *_title;
-    NSMutableArray *_topics;
-    NSData *_userActivityData;
-    NSString *_uuid;
-    _Bool _hasAssociatedImageRepresentation;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int hasAssociatedImageRepresentation:1;
-    } _has;
 }
 
 + (Class);
@@ -33,16 +18,16 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)B;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,7 +37,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (id);
@@ -63,9 +48,9 @@
 - (id)	
 ;
 - (_Bool);
-- (void)one;
+- (void)none;
 - (id)pg_query.RowCompareExpr;
-- (void)eck;
+- (void)TermConditionCheck;
 - (_Bool)d;
 - (id);
 - (id);
@@ -73,25 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(retain, nonatomic) NSString *associatedBundleId; // @synthesize associatedBundleId=_associatedBundleId;
-@property(retain, nonatomic) NSString *associatedURLString; // @synthesize associatedURLString=_associatedURLString;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasActivityType;
-@property(readonly, nonatomic) _Bool hasAssociatedBundleId;
-@property(nonatomic) _Bool hasAssociatedImageRepresentation; // @synthesize hasAssociatedImageRepresentation=_hasAssociatedImageRepresentation;
-@property(readonly, nonatomic) _Bool hasAssociatedURLString;
-@property(nonatomic) _Bool hasHasAssociatedImageRepresentation;
-@property(readonly, nonatomic) _Bool hasModeIdentifier;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasUserActivityData;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(retain, nonatomic) NSString *modeIdentifier; // @synthesize modeIdentifier=_modeIdentifier;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSMutableArray *topics; // @synthesize topics=_topics;
-@property(retain, nonatomic) NSData *userActivityData; // @synthesize userActivityData=_userActivityData;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

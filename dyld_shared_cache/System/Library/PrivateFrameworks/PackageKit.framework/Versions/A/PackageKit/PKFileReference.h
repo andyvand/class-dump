@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface PKFileReference
 {
     int _parentDeviceId;
-    int _fileDeviceID;
-    NSString *_path;
-    unsigned long long _parentInode;
-    unsigned long long _fileInode;
 }
 
 + (int);
 + (int);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (int);
-- (unsigned long long);
+- (unsigned long long)@9;
 - (int);
 - (id);
 - (void);
@@ -35,10 +31,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) int fileDeviceID; // @synthesize fileDeviceID=_fileDeviceID;
-@property(nonatomic) unsigned long long fileInode; // @synthesize fileInode=_fileInode;
-@property(nonatomic) int parentDeviceId; // @synthesize parentDeviceId=_parentDeviceId;
-@property(nonatomic) unsigned long long parentInode; // @synthesize parentInode=_parentInode;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

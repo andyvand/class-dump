@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 × ;
 + (_Bool)DefaultCategories>",R,N;
 + (_Bool);
-- (id);
-- (_Bool);
+- (id)e:(id)arg1 Expected dictionary, Got %@;
+- (_Bool);
 - (void)Á!ØBùb1Â0@ù
 × ;
-- (id)ystemOcclusionRects:(id)arg1;
+- (id)_setSystemOcclusionRects:(id)arg1;
 - (id)itchControl>",W,N,V_switchControl;
 
 @end

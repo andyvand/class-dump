@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PDFPointerRegionPrivate
 {
     struct CGRect rect;
-    NSString *identifier;
 }
 
 - (void);

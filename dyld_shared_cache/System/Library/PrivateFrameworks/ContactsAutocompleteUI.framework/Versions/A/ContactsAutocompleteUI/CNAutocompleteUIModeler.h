@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol CNAutocompleteResultWindowDelegate;
 
 @interface CNAutocompleteUIModeler
 {
     _Bool _returnAutocompleteResults;
-    id <CNAutocompleteResultWindowDelegate> _delegate;
-    NSMutableArray *_model;
 }
 
 + (id);
@@ -28,12 +25,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) id <CNAutocompleteResultWindowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *model; // @synthesize model=_model;
-@property _Bool returnAutocompleteResults; // @synthesize returnAutocompleteResults=_returnAutocompleteResults;
 
 @end
 

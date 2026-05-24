@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString, NSTextField, UAOnboardingAccessibilitySettingsManager;
+@class NSImageView;
 
 @interface UAOnboardingWelcomeCategoryViewController
 {
     NSImageView *_categoryCompletedIcon;
-    NSTextField *_categoryTitle;
-    NSImageView *_categoryIcon;
-    NSString *_categoryName;
-    UAOnboardingAccessibilitySettingsManager *_settingsManager;
 }
 
+- (void)Event";
 - (void);
-- (void);
+- (void)t";
+- (void)CClientEvent";
+- (id)ty"b1"modelLocation"b1"useCase"b1"externalPartner"b1"genAIAgentUsed"b1};
+- (id)SchemaGATTextMetadata";
+- (id);
+- (void)ntName"b1"genAIAgentUsed"b1};
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)'F
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)OTION;
+- (void)REDUCEMOTION_PLAY_LABEL_REDUCEMOTION;
 
 // Remaining properties
 @property __weak NSImageView *categoryCompletedIcon; // @synthesize categoryCompletedIcon=_categoryCompletedIcon;
-@property __weak NSImageView *categoryIcon; // @synthesize categoryIcon=_categoryIcon;
-@property(copy, nonatomic) NSString *categoryName; // @synthesize categoryName=_categoryName;
-@property __weak NSTextField *categoryTitle; // @synthesize categoryTitle=_categoryTitle;
-@property(retain, nonatomic) UAOnboardingAccessibilitySettingsManager *settingsManager; // @synthesize settingsManager=_settingsManager;
 
 @end
 

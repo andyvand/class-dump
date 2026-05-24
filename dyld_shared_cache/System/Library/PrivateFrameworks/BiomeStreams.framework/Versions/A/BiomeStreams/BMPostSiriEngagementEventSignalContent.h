@@ -11,11 +11,10 @@
 @interface BMPostSiriEngagementEventSignalContent : BMEventBase
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (id);
@@ -23,20 +22,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (void)µ¶;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

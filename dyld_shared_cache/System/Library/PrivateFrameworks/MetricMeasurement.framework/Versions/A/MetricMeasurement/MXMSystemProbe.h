@@ -6,12 +6,11 @@
 
 #import <MetricMeasurement/MXMProbe.h>
 
-@class MXMMutableSampleData, NSThread;
+@class MXMMutableSampleData;
 
 @interface MXMSystemProbe : MXMProbe
 {
     MXMMutableSampleData *_data;
-    NSThread *_updateThread;
 }
 
 + (id);

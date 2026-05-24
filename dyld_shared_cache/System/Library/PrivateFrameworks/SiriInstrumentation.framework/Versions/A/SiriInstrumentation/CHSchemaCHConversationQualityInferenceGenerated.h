@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CHSchemaCHConversationQualityInferenceMetadata, CHSchemaCHEvaluatorMetadata, NSData;
+@class CHSchemaCHEvaluatorMetadata;
 
 @interface CHSchemaCHConversationQualityInferenceGenerated : SISchemaInstrumentationMessage
 {
     CHSchemaCHEvaluatorMetadata *_evaluatorMetadata;
-    CHSchemaCHConversationQualityInferenceMetadata *_conversationQualityInferenceMetadata;
-    _Bool _hasEvaluatorMetadata;
-    _Bool _hasConversationQualityInferenceMetadata;
 }
 
 - (void);
@@ -26,24 +23,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id)!;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)SchemaDODMLASRAudioFileResultTier1";
-- (id)ueryCallEnded;
+- (id)ExecutorSiriSchemaExecutorSearchToolQueryCallEnded;
 - (id);
 - (void)H°ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CHSchemaCHConversationQualityInferenceMetadata *conversationQualityInferenceMetadata; // @synthesize conversationQualityInferenceMetadata=_conversationQualityInferenceMetadata;
 @property(retain, nonatomic) CHSchemaCHEvaluatorMetadata *evaluatorMetadata; // @synthesize evaluatorMetadata=_evaluatorMetadata;
-@property(nonatomic) _Bool hasConversationQualityInferenceMetadata; // @synthesize hasConversationQualityInferenceMetadata=_hasConversationQualityInferenceMetadata;
-@property(nonatomic) _Bool hasEvaluatorMetadata; // @synthesize hasEvaluatorMetadata=_hasEvaluatorMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

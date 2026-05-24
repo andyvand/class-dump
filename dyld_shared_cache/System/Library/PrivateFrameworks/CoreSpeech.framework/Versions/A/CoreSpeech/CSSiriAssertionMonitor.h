@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CSSiriAssertionMonitor
 {
     unsigned char _assertionState;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)eCandidate: /* Error: Ran out of types for this method. */;
++ (id)_notifySecondPassReject:result:isSecondChanceCandidate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -24,16 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void)onDecisionForRCId:requestId:completion: /* Error: Ran out of types for this method. */;
+- (void)getMitigationDecisionForRCId:requestId:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

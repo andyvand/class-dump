@@ -7,7 +7,6 @@
 @interface NewsArticles.TableOfContentsPDFCellViewRenderer
 {
     id styler;
-    id thumbnailCache;
 }
 
 @end

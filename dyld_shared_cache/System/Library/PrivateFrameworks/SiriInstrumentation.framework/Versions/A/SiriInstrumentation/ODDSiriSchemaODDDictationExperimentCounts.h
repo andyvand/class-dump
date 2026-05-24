@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDReliabilityCounts, ODDSiriSchemaODDTaskCounts, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDDictationExperimentCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    ODDSiriSchemaODDTaskCounts *_taskCounts;
-    ODDSiriSchemaODDReliabilityCounts *_reliabilityCounts;
-    _Bool _hasTurnCounts;
-    _Bool _hasTaskCounts;
-    _Bool _hasReliabilityCounts;
 }
 
+- (id)w;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -27,15 +22,15 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)胈X;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)appendString:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,12 +42,6 @@
 - (void)tTier1.textQuery;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReliabilityCounts; // @synthesize hasReliabilityCounts=_hasReliabilityCounts;
-@property(nonatomic) _Bool hasTaskCounts; // @synthesize hasTaskCounts=_hasTaskCounts;
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDReliabilityCounts *reliabilityCounts; // @synthesize reliabilityCounts=_reliabilityCounts;
-@property(retain, nonatomic) ODDSiriSchemaODDTaskCounts *taskCounts; // @synthesize taskCounts=_taskCounts;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

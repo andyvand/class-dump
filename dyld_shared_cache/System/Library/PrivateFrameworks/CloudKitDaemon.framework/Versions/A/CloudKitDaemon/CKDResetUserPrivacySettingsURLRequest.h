@@ -11,7 +11,7 @@
 }
 
 - (_Bool);
-- (long long);
+- (long long)C;
 - (id)O(SS;
 - (id)s request;
 - (id)ination ancestry for zone %{public}@.;

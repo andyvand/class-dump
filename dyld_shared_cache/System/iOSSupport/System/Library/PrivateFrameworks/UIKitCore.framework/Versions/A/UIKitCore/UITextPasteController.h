@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 @protocol UITextPasteConfigurationSupporting_Internal;
 
 __attribute__((visibility("hidden")))
@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)_sendVolumeButtonEventWithUsagePage:(id)arg1 usage:(id)arg2 down: /* Error: Ran out of types for this method. */;
+- (_Bool)upingType:existentPID:] /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (void)! FùeÐ1Â0@ù
 × ;
 - (id)nged"b1"rotationEnabledChanged"b1"useDefaultViewPropertiesApplierChanged"b1"chargeChanged"b1"dynamicChanged"b1};
-- (void)butedName:(id)arg1 image:actionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)inator;
+- (void)initWithAttributedName:(id)arg1 image:actionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_barInteractiveAnimationCoordinator;
 - (id)extCursorAssertion>",&,N,V_inputModeAssertion;
 - (void)=ØÞ;
 - (id)ïÿÔ¢ïÿïÿ;
@@ -36,13 +36,6 @@ __attribute__((visibility("hidden")))
 - (void)*`D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <UITextPasteConfigurationSupporting_Internal> supportingView; // @synthesize supportingView=_supportingView;
 
 @end

@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBag, NSString;
+@class AMSBag, AMSBagKeySet, NSString;
 
 @protocol AMSBagConsumer
-+ (NSString *)BaseIdentifierDatasource;
++ (NSString *)onDelegate>",R,N,V_delegate;
++ (NSString *)_TtC17AdPlatformsCommon24BaseIdentifierDatasource;
 
 @optional
-+ (AMSBag *)ativeArea;
++ (AMSBagKeySet *)setHandleTTSCodes: /* Error: Ran out of types for this method. */;
++ (AMSBag *)unknownAdministrativeArea;
 @end
 

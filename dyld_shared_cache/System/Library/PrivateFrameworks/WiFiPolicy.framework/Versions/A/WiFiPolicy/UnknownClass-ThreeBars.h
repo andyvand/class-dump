@@ -6,7 +6,7 @@
 
 @interface UnknownClass (ThreeBars)
 + (id);
-+ (id);
++ (id)@"NSData"16@"NSString"24;
 + (id);
 @end
 

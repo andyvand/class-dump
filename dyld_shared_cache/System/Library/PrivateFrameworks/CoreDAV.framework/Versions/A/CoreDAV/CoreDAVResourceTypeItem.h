@@ -6,46 +6,35 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVItemWithNoChildren, NSSet;
+@class CoreDAVItemWithNoChildren;
 
 @interface CoreDAVResourceTypeItem : CoreDAVItem
 {
     CoreDAVItemWithNoChildren *_addressBook;
-    CoreDAVItemWithNoChildren *_searchAddressBook;
-    CoreDAVItemWithNoChildren *_shared;
-    CoreDAVItemWithNoChildren *_principal;
-    CoreDAVItemWithNoChildren *_collection;
-    CoreDAVItemWithNoChildren *_unauthenticated;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)addressString;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)targetForPayWithWallet;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)EWSAutodiscoverOperation;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *collection; // @synthesize collection=_collection;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *principal; // @synthesize principal=_principal;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *searchAddressBook; // @synthesize searchAddressBook=_searchAddressBook;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *shared; // @synthesize shared=_shared;
-@property(readonly, nonatomic) NSSet *stringSet;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *unauthenticated; // @synthesize unauthenticated=_unauthenticated;
 
 @end
 

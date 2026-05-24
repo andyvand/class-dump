@@ -8,9 +8,9 @@
 {
 }
 
++ (id)ale '%@' not found;
 + (id);
-+ (id);
-+ (id);
++ (id)AttrTypeNative:(id)arg1 apple-dns-domain;
 + (id);
 + (id);
 + (void);

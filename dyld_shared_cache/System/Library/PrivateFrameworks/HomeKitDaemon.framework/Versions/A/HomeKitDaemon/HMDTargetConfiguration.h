@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDTargetConfiguration
 {
     NSUUID *_uuid;
-    NSNumber *_identifier;
-    NSString *_name;
-    long long _category;
-    NSArray *_buttonConfiguration;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)droppedPinFloorOrdinal;
+- (id)_activeContacts;
 - (id);
 - (id);
 - (id);
@@ -26,16 +22,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (id)Delegate;
+- (id)HAPAccessoryDelegate;
 - (id)peration;
 - (void);
-- (void)pType;
+- (void)objectGroupType;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *buttonConfiguration; // @synthesize buttonConfiguration=_buttonConfiguration;
-@property(readonly, nonatomic) long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

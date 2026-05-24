@@ -9,18 +9,18 @@
     id localizer;
 }
 
+- (id)0;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)e;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)OnErrorExpressibleByJSON;
+- (id)isLabelFullWidth;
+- (void)_DiscardOnErrorExpressibleByJSON;
 
 @end
 

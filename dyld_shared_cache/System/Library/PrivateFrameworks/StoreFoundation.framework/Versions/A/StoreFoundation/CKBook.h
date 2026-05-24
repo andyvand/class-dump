@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString, NSURL, SSPurchase;
+@class NSMutableDictionary;
 
 @interface CKBook
 {
     _Bool _isLocal;
-    NSString *_path;
-    NSString *_title;
-    NSString *_author;
-    NSString *_category;
-    NSString *_sortName;
-    NSDate *_purchaseDate;
-    NSString *_uniqueIdentifier;
-    NSNumber *_itemIdentifier;
-    NSNumber *_publicationVersion;
-    NSString *_publicationDisplayVersion;
-    NSDictionary *_bookInfo;
-    NSDictionary *_iTunesMetaData;
-    NSString *_redownloadBuyParams;
-    NSNumber *_downloadAssetSize;
-    NSString *_updateBuyParams;
-    NSDate *_expectedReleaseDate;
-    NSNumber *_daapPurchasedToken;
-    NSNumber *_daapItemIdentifier;
-    NSMutableDictionary *_externalMetadata;
-    NSURL *_coverImageURL;
-    NSNumber *_jaliscoItemIdentifier;
 }
 
 + (id);
@@ -49,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -70,7 +49,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (_Bool);
 - (id);
@@ -78,15 +57,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)32@?40;
 - (id);
 - (void);
-- (id);
+- (id)_intents_matchSiriExtensionsForIntent:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)_tracingPrefix;
+- (id)T;
+- (void)3*ABF'
+;
 - (id);
 - (void);
 - (void);
@@ -94,31 +74,7 @@
 - (id)no longer supported. Attempted path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *author; // @synthesize author=_author;
-@property(copy) NSDictionary *bookInfo; // @synthesize bookInfo=_bookInfo;
-@property(copy) NSString *category; // @synthesize category=_category;
-@property(copy) NSURL *coverImageURL; // @synthesize coverImageURL=_coverImageURL;
-@property(copy) NSNumber *daapItemIdentifier; // @synthesize daapItemIdentifier=_daapItemIdentifier;
-@property(copy) NSNumber *daapPurchasedToken; // @synthesize daapPurchasedToken=_daapPurchasedToken;
-@property(copy) NSNumber *downloadAssetSize; // @synthesize downloadAssetSize=_downloadAssetSize;
-@property(copy) NSDate *expectedReleaseDate; // @synthesize expectedReleaseDate=_expectedReleaseDate;
 @property(retain) NSMutableDictionary *externalMetadata; // @synthesize externalMetadata=_externalMetadata;
-@property(copy) NSDictionary *iTunesMetaData; // @synthesize iTunesMetaData=_iTunesMetaData;
-@property _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(readonly) _Bool isPreorder;
-@property(copy, nonatomic) NSNumber *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(copy) NSNumber *jaliscoItemIdentifier; // @synthesize jaliscoItemIdentifier=_jaliscoItemIdentifier;
-@property(copy) NSString *path; // @synthesize path=_path;
-@property(copy) NSString *publicationDisplayVersion; // @synthesize publicationDisplayVersion=_publicationDisplayVersion;
-@property(copy) NSNumber *publicationVersion; // @synthesize publicationVersion=_publicationVersion;
-@property(copy) NSDate *purchaseDate; // @synthesize purchaseDate=_purchaseDate;
-@property(copy) NSString *redownloadBuyParams; // @synthesize redownloadBuyParams=_redownloadBuyParams;
-@property(readonly) SSPurchase *redownloadPurchase;
-@property(copy) NSString *sortName; // @synthesize sortName=_sortName;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(copy) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(copy) NSString *updateBuyParams; // @synthesize updateBuyParams=_updateBuyParams;
-@property(readonly) SSPurchase *updatePurchase;
 
 @end
 

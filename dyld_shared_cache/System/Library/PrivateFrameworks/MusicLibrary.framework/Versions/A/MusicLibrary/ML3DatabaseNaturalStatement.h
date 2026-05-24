@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ML3DatabaseNaturalStatement
 {
     NSString *_sql;
-    NSMutableArray *_parameters;
 }
 
 + (_Bool);
 + (id)0@ù
 × ;
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)_abortWithRebuildReasonPLRebuildReasonPersonUUIDCorruption;
+- (id)AsJunk;
+- (void)ctedDate;
+- (id)naled fatal error:(id)arg1 %s;
 - (void);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 - (id)iled (invalid DAAP payload).;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *parameters; // @synthesize parameters=_parameters;
 @property(copy, nonatomic) NSString *sql; // @synthesize sql=_sql;
 
 @end

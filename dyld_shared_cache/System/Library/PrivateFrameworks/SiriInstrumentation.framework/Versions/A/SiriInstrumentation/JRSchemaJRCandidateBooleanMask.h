@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRCandidateBooleanMask : SISchemaInstrumentationMessage
 {
@@ -21,7 +21,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,12 +29,11 @@
 - (id)!`AùÑß1Â0@ù
 × ;
 - (id)on;
-- (id)chemaOrderedSessionEvent;
+- (id)SessionSchemaOrderedSessionEvent;
 - (void)ª8";
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *isApplicableToCandidates; // @synthesize isApplicableToCandidates=_isApplicableToCandidates;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

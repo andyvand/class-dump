@@ -11,7 +11,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id)service:account:incomingPendingMessageOfType:fromID:context: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties

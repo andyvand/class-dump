@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSNumber;
+@class CLLocation;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeLocationData
 {
     CLLocation *_location;
-    NSDate *_locationUpdateTimestamp;
-    NSNumber *_locationSource;
 }
 
 + (_Bool)°"Ï$Ð%&Ñp+l,Òô/ÓP142ÔX4\5Õt8x9ÖL<P=×hEØ|FÙhITJÚLX0YÛ¸[Ü`ÝhdÞ¤gß<là`oáø;
-- (id);
+- (id)"NSError"24;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) CLLocation *location; // @synthesize location=_location;
-@property(readonly) NSNumber *locationSource; // @synthesize locationSource=_locationSource;
-@property(readonly) NSDate *locationUpdateTimestamp; // @synthesize locationUpdateTimestamp=_locationUpdateTimestamp;
 
 @end
 

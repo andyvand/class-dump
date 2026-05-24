@@ -9,23 +9,17 @@
 @interface PFVideoMetadataAudioTrackFormatInfo
 {
     AVAssetTrack *_audioTrack;
-    struct opaqueCMFormatDescription *_firstFormatDescription;
-    const struct AudioFormatListItem *_formatListItem;
-    const struct AudioChannelLayout *_channelLayout;
-    _Bool _channelLayoutUsesHigherOrderAmbisonics;
 }
 
 + (id);
+- (_Bool)_TtCO10Accelerate4BNNSP33_0647BF09B7CC46762C8799D029904E5619NearestNeighborsRef;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)setAccessibilityElement: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly) long long channelCount;
-@property(readonly) _Bool channelLayoutUsesChannelDescriptions;
 @property(readonly) _Bool channelLayoutUsesHigherOrderAmbisonics; // @synthesize channelLayoutUsesHigherOrderAmbisonics=_channelLayoutUsesHigherOrderAmbisonics;
 
 @end

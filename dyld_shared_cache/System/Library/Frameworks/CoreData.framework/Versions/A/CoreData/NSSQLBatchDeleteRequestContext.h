@@ -6,23 +6,17 @@
 
 #import <CoreData/NSSQLBatchOperationRequestContext.h>
 
-@class NSArray, NSBatchDeleteRequest, NSFetchRequest, NSSQLFetchRequestContext;
+@class NSBatchDeleteRequest, NSFetchRequest;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLBatchDeleteRequestContext : NSSQLBatchOperationRequestContext
 {
     NSFetchRequest *_fetchRequestForObjectsToDelete;
-    NSArray *_deleteStatements;
-    NSArray *_deletedObjectIDs;
-    NSSQLFetchRequestContext *_fetchContext;
-    NSArray *_externalDataReferenceTriggerStatements;
-    NSArray *_externalDataReferencesToDelete;
-    NSArray *_fileBackedFuturesToDelete;
 }
 
+- (void)E;
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool)1Â0@ù

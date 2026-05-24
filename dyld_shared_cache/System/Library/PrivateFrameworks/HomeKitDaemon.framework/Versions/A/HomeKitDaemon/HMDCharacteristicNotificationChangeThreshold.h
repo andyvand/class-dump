@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristic, NSNumber;
+@class HMDCharacteristic;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicNotificationChangeThreshold
 {
     HMDCharacteristic *_characteristic;
-    NSNumber *_threshold;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)k`;
+- (id)@;
 - (void);
 - (void)atched room identifier for ;
 - (id)Ì3çÿx;
 
 // Remaining properties
 @property(retain, nonatomic) HMDCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(copy, nonatomic) NSNumber *threshold; // @synthesize threshold=_threshold;
 
 @end
 

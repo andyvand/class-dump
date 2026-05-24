@@ -9,7 +9,6 @@
 @interface GFNodeActor
 {
     GFPort *_tooltipPort;
-    void *_unused[4];
 }
 
 + (id);

@@ -5,26 +5,18 @@
 //
 
 @class CPXEventDeferringPolicy, WSEventDeliveryManager;
-@protocol BSInvalidatable, CPXConnectionManaging, CPXProcessManaging;
 
 __attribute__((visibility("hidden")))
 @interface CPXEventDeferringManager
 {
     WSEventDeliveryManager *_deliveryManager;
-    id <CPXConnectionManaging> _connectionManager;
-    id <CPXProcessManaging> _processManager;
-    CPXEventDeferringPolicy *_enforcedPolicy;
-    id <BSInvalidatable> _adviceRule;
-    id <BSInvalidatable> _keyThiefRule;
-    id <BSInvalidatable> _frontmostToPSNRule;
-    id <BSInvalidatable> _psnToTargetRule;
 }
 
-+ (id);
-- (void);
-- (id);
-- (id);
-- (void);
++ (id)SELECT NSCoreDataDATriggerUpdatedAffectedObjectValue('%@', Z_ENT, Z_PK, '%@', %@) FROM %@ WHERE Z_PK = OLD.%@%@;;
+- (void)loudKitImportZoneContext initializeCachesWithManagedObjectContext:(id)arg1 andObservedStore:(id)arg2 error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)ry key for entity failed;
+- (id)ELECT refToDelete FROM ZQ_BATCH_DELETE_MARSHALLING;
+- (void);
 - (void)ä;
 
 // Remaining properties

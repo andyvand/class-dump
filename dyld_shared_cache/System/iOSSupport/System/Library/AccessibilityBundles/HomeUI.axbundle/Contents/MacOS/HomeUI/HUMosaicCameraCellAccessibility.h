@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)_accessibilityFindSubviewDescendantsPassingTest: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,32 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SGMIMetricsSubmodelsProbabilities, SGMIMetricsTrialMetadata;
-
 @interface SGMIMetricsInferenceAndGroundTruth
 {
     unsigned long long _missingAttachmentPredictionPerformanceInMilliSeconds;
-    unsigned long long _missingRecipientPredictionPerformanceInMilliSeconds;
-    unsigned long long _saliencyPredictionPerformanceInMilliSeconds;
-    NSMutableArray *_missingAttachments;
-    NSMutableArray *_missingRecipients;
-    int _predictedSaliency;
-    float _predictedSaliencyScore;
-    SGMIMetricsSubmodelsProbabilities *_submodelsProbabilities;
-    SGMIMetricsTrialMetadata *_trialMetadata;
-    _Bool _estimatedGroundTruth;
-    struct {
-        unsigned int missingAttachmentPredictionPerformanceInMilliSeconds:1;
-        unsigned int missingRecipientPredictionPerformanceInMilliSeconds:1;
-        unsigned int saliencyPredictionPerformanceInMilliSeconds:1;
-        unsigned int predictedSaliency:1;
-        unsigned int predictedSaliencyScore:1;
-        unsigned int estimatedGroundTruth:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
++ (Class)pn_verticalServiceCharacterSet;
++ (Class)integerValue;
 - (id);
 - (id);
 - (void);
@@ -47,20 +28,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Frameworks/SoftLinking.framework/Versions/A/SoftLinking;
 - (unsigned long long);
 - (float);
 - (id);
 - (int);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)_lp_lengthOfDeepSubdomainsFromComponents: /* Error: Ran out of types for this method. */;
+- (id)_lp_hostByStrippingTopLevelDomain;
+- (unsigned long long)stTopLevelDomainComponent: /* Error: Ran out of types for this method. */;
+- (id)_lp_highLevelDomainFromComponents:(unsigned long long)arg1 indexOfFirstHighLevelDomainComponent:indexOfFirstTopLevelDomainComponent: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_lp_highLevelDomainFromComponents:indexOfFirstHighLevelDomainComponent:indexOfFirstTopLevelDomainComponent: /* Error: Ran out of types for this method. */;
+- (id)_lp_hasCaseInsensitiveSubstring:startingAt: /* Error: Ran out of types for this method. */;
+- (unsigned long long)valueWithRange: /* Error: Ran out of types for this method. */;
+- (id)lowercaseString;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,7 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (void);
 - (void);
 - (int);
@@ -78,32 +59,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)r;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void)ü,;
 
 // Remaining properties
-@property(nonatomic) _Bool estimatedGroundTruth; // @synthesize estimatedGroundTruth=_estimatedGroundTruth;
-@property(nonatomic) _Bool hasEstimatedGroundTruth;
-@property(nonatomic) _Bool hasMissingAttachmentPredictionPerformanceInMilliSeconds;
-@property(nonatomic) _Bool hasMissingRecipientPredictionPerformanceInMilliSeconds;
-@property(nonatomic) _Bool hasPredictedSaliency;
-@property(nonatomic) _Bool hasPredictedSaliencyScore;
-@property(nonatomic) _Bool hasSaliencyPredictionPerformanceInMilliSeconds;
-@property(readonly, nonatomic) _Bool hasSubmodelsProbabilities;
 @property(readonly, nonatomic) _Bool hasTrialMetadata;
-@property(nonatomic) unsigned long long missingAttachmentPredictionPerformanceInMilliSeconds; // @synthesize missingAttachmentPredictionPerformanceInMilliSeconds=_missingAttachmentPredictionPerformanceInMilliSeconds;
-@property(retain, nonatomic) NSMutableArray *missingAttachments; // @synthesize missingAttachments=_missingAttachments;
-@property(nonatomic) unsigned long long missingRecipientPredictionPerformanceInMilliSeconds; // @synthesize missingRecipientPredictionPerformanceInMilliSeconds=_missingRecipientPredictionPerformanceInMilliSeconds;
-@property(retain, nonatomic) NSMutableArray *missingRecipients; // @synthesize missingRecipients=_missingRecipients;
-@property(nonatomic) int predictedSaliency; // @synthesize predictedSaliency=_predictedSaliency;
-@property(nonatomic) float predictedSaliencyScore; // @synthesize predictedSaliencyScore=_predictedSaliencyScore;
-@property(nonatomic) unsigned long long saliencyPredictionPerformanceInMilliSeconds; // @synthesize saliencyPredictionPerformanceInMilliSeconds=_saliencyPredictionPerformanceInMilliSeconds;
-@property(retain, nonatomic) SGMIMetricsSubmodelsProbabilities *submodelsProbabilities; // @synthesize submodelsProbabilities=_submodelsProbabilities;
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *trialMetadata; // @synthesize trialMetadata=_trialMetadata;
 
 @end
 

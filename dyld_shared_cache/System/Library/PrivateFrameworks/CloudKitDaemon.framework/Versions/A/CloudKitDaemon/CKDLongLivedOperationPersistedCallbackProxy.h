@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDOperationInfoCache, NSString, Protocol;
+@class NSString;
 
 @interface CKDLongLivedOperationPersistedCallbackProxy
 {
     NSString *_operationID;
-    Protocol *_callbackProtocol;
-    SEL _completionSelector;
-    CKDOperationInfoCache *_operationInfoCache;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)c;
+- (id);
 - (SEL);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)"24@?<v@?>32;
+- (void)initWithDatabase:(id)arg1 hookResponder: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -31,17 +28,7 @@
 - (void)'ïÿ;
 
 // Remaining properties
-@property(retain, nonatomic) Protocol *callbackProtocol; // @synthesize callbackProtocol=_callbackProtocol;
-@property(nonatomic) SEL completionSelector; // @synthesize completionSelector=_completionSelector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(retain, nonatomic) CKDOperationInfoCache *operationInfoCache; // @synthesize operationInfoCache=_operationInfoCache;
-@property(readonly) Class superclass;
 
 @end
 

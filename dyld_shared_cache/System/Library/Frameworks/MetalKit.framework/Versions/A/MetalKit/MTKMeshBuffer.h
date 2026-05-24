@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTKMeshBufferAllocator, MTKMeshBufferZone, NSString;
-@protocol MDLMeshBufferZone, MTLBuffer;
+@class MTKMeshBufferZone;
 
 @interface MTKMeshBuffer
 {
     MTKMeshBufferZone *_zone;
-    unsigned long long _length;
-    MTKMeshBufferAllocator *_allocator;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
-    unsigned long long _type;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,7 +22,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -36,20 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MTKMeshBufferAllocator *allocator; // @synthesize allocator=_allocator;
-@property(readonly, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) id <MDLMeshBufferZone> zone; // @synthesize zone=_zone;
 
 @end
 

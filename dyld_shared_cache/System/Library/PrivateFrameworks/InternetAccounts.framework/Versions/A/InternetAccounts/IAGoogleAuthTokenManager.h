@@ -4,33 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAListPlugin, NSArray, NSButton, NSPanel, NSString, NSURL, NSWindow, NSXPCConnection, WebView;
-@protocol IAXPCProtocol;
+@class NSString, NSXPCConnection;
 
 @interface IAGoogleAuthTokenManager
 {
     NSXPCConnection *_connection;
-    id <IAXPCProtocol> _agent;
-    NSWindow *_hostWindow;
-    _Bool _isSheet;
-    NSPanel *_currentSheet;
-    IAAListPlugin *_googlePlugin;
-    NSString *_currentToken;
-    NSArray *_topLevelObjects;
-    NSURL *_webLoginURL;
-    WebView *_webview;
-    struct __CFURLStorageSession *_privateSession;
-    NSPanel *_googleWebLoginWebViewPanel;
-    NSButton *_doneButton;
-    CDUnknownBlockType _completion;
 }
 
 + (void);
++ (id)R;
++ (id);
++ (void)?;
 + (id);
-+ (id);
-+ (void);
-+ (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
@@ -43,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -53,7 +39,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)m";
 
 // Remaining properties
 @property(retain) NSString *currentToken; // @synthesize currentToken=_currentToken;

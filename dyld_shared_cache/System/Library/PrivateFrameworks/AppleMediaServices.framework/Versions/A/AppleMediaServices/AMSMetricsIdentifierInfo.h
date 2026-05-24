@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSMetricsIdentifierInfo
 {
     _Bool _crossDeviceSync;
-    _Bool _deleted;
-    NSString *_idKey;
-    NSString *_name;
-    NSString *_storeUUID;
-    NSString *_value;
-    NSDate *_expires;
-    NSDate *_lastSync;
-    NSDate *_modified;
-    NSDate *_serverProvidedAt;
-    NSNumber *_changeCounter;
-    NSNumber *_changeCause;
-    NSString *_previousValue;
 }
 
 + (_Bool);
@@ -30,29 +16,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)contentViewController;
+- (id)tField",&,V_safeBootTextField;
 - (void);
 - (void);
 - (id);
+- (_Bool)noteCoreDuetSyncEnded;
+- (void)deleteMessagesZone;
+- (id)s.IMPersistentMenu;
+- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)mReceiptData;
 - (id)¡#ð!`Cù§&°1Â0@ù
 × ;
 - (void)eature flag is enabled:(id)arg1 %@;
@@ -62,19 +48,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *changeCause; // @synthesize changeCause=_changeCause;
-@property(retain, nonatomic) NSNumber *changeCounter; // @synthesize changeCounter=_changeCounter;
 @property _Bool crossDeviceSync; // @synthesize crossDeviceSync=_crossDeviceSync;
-@property _Bool deleted; // @synthesize deleted=_deleted;
-@property(retain) NSDate *expires; // @synthesize expires=_expires;
-@property(retain) NSString *idKey; // @synthesize idKey=_idKey;
-@property(retain) NSDate *lastSync; // @synthesize lastSync=_lastSync;
-@property(retain) NSDate *modified; // @synthesize modified=_modified;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *previousValue; // @synthesize previousValue=_previousValue;
-@property(retain) NSDate *serverProvidedAt; // @synthesize serverProvidedAt=_serverProvidedAt;
-@property(retain) NSString *storeUUID; // @synthesize storeUUID=_storeUUID;
-@property(retain) NSString *value; // @synthesize value=_value;
 
 @end
 

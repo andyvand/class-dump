@@ -9,8 +9,6 @@
 @interface PhotosUICore.PXStoryChromeSystemButton
 {
     id tintColor;
-    id <NSCopying> userData;
-    struct CGRect clippingRect;
 }
 
 - (void);
@@ -20,11 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (id)w:(struct CGRect)arg1 viewForTableColumn:row: /* Error: Ran out of types for this method. */;
+- (id)tableView:(struct CGRect)arg1 viewForTableColumn:row: /* Error: Ran out of types for this method. */;
 - (void)¸: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;
 @property(nonatomic, retain) id <NSCopying> userData; // @synthesize userData;
 
 @end

@@ -9,7 +9,6 @@
 @interface IKFinderCell : IKIconCell
 {
     short _canDrawPlaceholder;
-    short _isMoreButton;
 }
 
 + (id);
@@ -21,16 +20,16 @@
 + (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);
++ (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
-+ (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGPoint);
 - (_Bool);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
@@ -41,8 +40,8 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ShadowMigrationResult;
+- (id)ICCameraDeviceCanTakePicture;
 
 @end
 

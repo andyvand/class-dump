@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementConnection, AMSEngagementMessageCache, NSMapTable, NSMutableSet, NSObject, NSString;
-@protocol AMSBagProtocol, OS_dispatch_queue;
+@class NSMapTable, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AMSEngagement
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMapTable *_observerInfo;
-    NSMutableSet *_runningPromises;
-    id <AMSBagProtocol> _bag;
-    AMSEngagementConnection *_connection;
-    AMSEngagementMessageCache *_cacheInfo;
 }
 
 + (id);
@@ -31,38 +26,38 @@ l§XÒ»¾ÿûeÔayª{¡ÄEÈp­%9ñØ±zD«|ç8¸H*z
 + (id)³ÿ;
 + (id)øµ¤ÿ;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (void)R;
 - (void);
 - (id);
 - (id);
+- (long long)&,V_domain;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)setIsRequestMadeWithPhysicalDeviceInteraction:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id)buf",&,N,V_getVolumeControlCapabilitiesResultMessage;
+- (id)playbackSessionMigrateEndMessage;
+- (id);
+- (void);
+- (id);
+- (void)7;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)>16;
-- (id)sDowngrading;
+- (id)isDowngrading;
 - (id);
 - (id);
 - (id)Jþÿ Jþÿd[þÿÚþÿæþÿ8þÿþþÿ;
@@ -80,18 +75,7 @@ l§XÒ»¾ÿûeÔayª{¡ÄEÈp­%9ñØ±zD«|ç8¸H*z
 - (void)3ÏXªngFçì{ÕÛÌú0QÇx;d¾bÔ¤V¶=áj+l)¥­ó/§}ºýåÑÛE!f8æw8áê*Ãt-¦¨âWý2ÛÊO xns¸SÏ3ñ©¸´uÕoIbìmmfÑ>,8¥¿W¶#mÚNH9W²¬­üO|³qØë/5n}¢ûï¹)m¦"GI½Õ­ìGH«|)@HÐ=;£*gðiï¥´°AþRÞ%|tui/BÉ:(id)arg1 òZÏ6ç³¯îóu¢DKd((HÈï­=÷jAô?uo½R& ¢û;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) AMSEngagementMessageCache *cacheInfo; // @synthesize cacheInfo=_cacheInfo;
-@property(retain) AMSEngagementConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMapTable *observerInfo; // @synthesize observerInfo=_observerInfo;
-@property(retain) NSMutableSet *runningPromises; // @synthesize runningPromises=_runningPromises;
-@property(readonly) Class superclass;
 
 @end
 

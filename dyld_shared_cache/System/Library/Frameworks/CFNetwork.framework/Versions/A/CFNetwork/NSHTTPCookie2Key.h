@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSHTTPCookie2Key
 {
     NSString *_name;
-    NSString *_domain;
-    NSString *_path;
-    NSString *_partition;
 }
 
 - (unsigned long long);

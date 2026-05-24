@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSLinkSelectorPrimarySecondary, NSString;
+@class NSString;
 
 @interface IDSGLP2PLinkEngineHandle
 {
     id engine;
-    IDSLinkSelectorPrimarySecondary *idsPrimarySecondaryLinkSelector;
 }
 
 - (void);
@@ -35,14 +34,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)s);
+- (id)";
 - (void)a usage identifier:%@)  (%p) /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowOngoingTasks;
-@property(nonatomic, retain) IDSLinkSelectorPrimarySecondary *idsPrimarySecondaryLinkSelector; // @synthesize idsPrimarySecondaryLinkSelector;
 @property(nonatomic, copy) NSString *tag;
 
 @end

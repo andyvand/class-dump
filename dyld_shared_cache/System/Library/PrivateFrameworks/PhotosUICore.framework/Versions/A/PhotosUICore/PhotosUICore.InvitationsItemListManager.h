@@ -7,17 +7,6 @@
 @interface PhotosUICore.InvitationsItemListManager
 {
     id _itemList;
-    id photoLibrary;
-    id sharedAlbumsInvitationsManager;
-    id sharedAlbumsObservation;
-    id sharedAlbumsLastSeenObservation;
-    id sharedLibraryStatusProvider;
-    id sharedLibraryObservation;
-    id sharedLibraryLastSeenObservation;
-    id initialSharedAlbumsLoadCallback;
-    id changeDetailsRepository;
-    id observable;
-    id sharedAlbumInvitationFetchDidComplete;
 }
 
 @end

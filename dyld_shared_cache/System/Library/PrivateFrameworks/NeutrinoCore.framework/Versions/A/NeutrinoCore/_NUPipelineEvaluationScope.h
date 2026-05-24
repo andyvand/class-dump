@@ -9,18 +9,18 @@
 @interface _NUPipelineEvaluationScope
 {
     NSMutableDictionary *_channelData;
-    NSString *_name;
 }
 
+- (void);
+- (id);
+- (id);
 - (void);
+- (id)O;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)_^;
+- (id)$
+;
 - (id);
 - (void)Ñáð1Â0@ù
 × ;

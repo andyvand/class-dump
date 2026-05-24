@@ -17,9 +17,9 @@
 - (double);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize)PY;
 - (struct CATransform3D);
-- (double);
+- (double)ArtworkRecipe"b1"collaborative"b1"collaborationSharingMode"b1"collaborationMode"b1"collaboratorPermissions"b1"collaborationInvitationURL"b1"collaborationInvitationURLExpirationDate"b1"collaborationJoinRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"isLibraryAdded"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
 - (double);
 - (double)0@ù
 × ;
@@ -28,13 +28,13 @@
 - (double)Ô ;
 - (void)
 × ;
-- (id)OfSearchController: /* Error: Ran out of types for this method. */;
-- (double)e;
-- (double)s: /* Error: Ran out of types for this method. */;
-- (double)ationWithMass:(double)arg1 stiffness:(struct CGRect)arg2 damping:velocity:fromValue:toValue: /* Error: Ran out of types for this method. */;
-- (struct CGSize)railingBackgroundView;
+- (id)setShowsCancelButton:onBehalfOfSearchController: /* Error: Ran out of types for this method. */;
+- (double)_textFromCameraImageName;
+- (double)_setHorizontalMargins:preservesSuperviewLayoutMargins: /* Error: Ran out of types for this method. */;
+- (double)_dynamicValueAnimationMatchingCASpringAnimationWithMass:(double)arg1 stiffness:(struct CGRect)arg2 damping:velocity:fromValue:toValue: /* Error: Ran out of types for this method. */;
+- (struct CGSize)__trailingBackgroundView;
 - (double)ontroller",R,N,V_previewViewController;
-- (double)abberAction;
+- (double)__grabberAction;
 - (double)bug.;
 - (double)vðoþ;
 

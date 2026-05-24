@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface EFDevice
 {
     _Bool _isInternal;
-    _Bool _areInternalSecurityPoliciesAllowed;
-    NSUUID *_identifier;
 }
 
 + (id);
-+ (void);
-+ (void);
++ (void)BS;
++ (void)age was HEIF but preserveHEIF was NO;
 + (void);
 + (id);
 + (id);
@@ -27,13 +25,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)setOfApplicationIdentifiersUsedByCustomCommands;
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)timed out request:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ibute database discovery type:%tu due to a connection error. Current retries, %tu, max retries, %d. /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)ons/A/RemoteServiceDiscovery;
 - (id)!(Cù1Í°1Â0@ù
 × ;
 - (_Bool)ÈÄ;
@@ -41,25 +39,7 @@
 - (id)Ax;
 
 // Remaining properties
-@property _Bool areInternalSecurityPoliciesAllowed; // @synthesize areInternalSecurityPoliciesAllowed=_areInternalSecurityPoliciesAllowed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *hardwareModel;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property(readonly) _Bool isMac;
-@property(readonly) _Bool isPad;
-@property(readonly) _Bool isPhone;
-@property(readonly) _Bool isRealityDevice;
-@property(readonly) _Bool isRunningNative;
-@property(readonly) _Bool isVirtualMachine;
-@property(readonly) NSString *platformName;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsGenerativeModelSystems;
 
 @end
 

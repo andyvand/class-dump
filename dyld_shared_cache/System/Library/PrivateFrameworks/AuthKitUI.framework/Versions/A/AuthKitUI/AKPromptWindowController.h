@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 @interface AKPromptWindowController
 {
     _Bool _makeSheetCritical;
-    _Bool __currentlyActive;
-    NSWindow *_hostWindow;
 }
 
 - (void);
 - (void);
-- (void);
+- (void),V;
 - (_Bool);
 - (void);
 - (void);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _currentlyActive; // @synthesize _currentlyActive=__currentlyActive;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
 
 @end
 

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (NSArchiverCallBack)
 - (id);
-- (Class);
+- (Class)rror:%s /* Error: Ran out of types for this method. */;
 @end
 

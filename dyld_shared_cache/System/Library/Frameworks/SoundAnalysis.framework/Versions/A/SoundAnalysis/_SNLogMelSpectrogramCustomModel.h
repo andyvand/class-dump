@@ -7,13 +7,11 @@
 @interface _SNLogMelSpectrogramCustomModel
 {
     id inputFeatureName;
-    id outputFeatureName;
-    id logMelExtractionParameters;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)Òøÿ\ÒøÿÒøÿÌÒøÿ(ÓøÿLÓøÿÓøÿ¤ÓøÿÈÓøÿÔøÿ(Ôøÿ\ÔøÿÔøÿ¤ÔøÿHØøÿlØøÿØøÿ´ØøÿðØøÿÙøÿPÙøÿtÙøÿÙøÿ¼ÙøÿøÙøÿÚøÿ@Úøÿ|Úøÿ ÚøÿÄÚøÿ;
 
 @end

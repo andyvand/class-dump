@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIGameControllerEvent : UIEvent
 {
     CDStruct_a7a14e3b _previousState;
-    unsigned long long _activeComponent;
-    _Bool _beginningInputStream;
 }
 
 - (void);
@@ -24,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)
 × ;
 - (long long);
-- (_Bool)outWithContext:(CDStruct_a7a14e3b *)arg1;
+- (_Bool)_invalidateLayoutWithContext:(CDStruct_a7a14e3b *)arg1;
 - (_Bool)ÿÄ;
-- (long long)hipID;
+- (long long)ChipID;
 - (void)ngCarPlay;
 
 @end

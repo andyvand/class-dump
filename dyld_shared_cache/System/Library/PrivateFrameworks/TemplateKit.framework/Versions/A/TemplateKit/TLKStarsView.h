@@ -6,15 +6,10 @@
 
 #import <TemplateKit/TLKStackView.h>
 
-@class NSFont;
-
 __attribute__((visibility("hidden")))
 @interface TLKStarsView : TLKStackView
 {
     _Bool _useCompactMode;
-    double _starRating;
-    NSFont *_font;
-    double _currentStarRating;
 }
 
 - (_Bool);
@@ -31,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double currentStarRating; // @synthesize currentStarRating=_currentStarRating;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(nonatomic) double starRating; // @synthesize starRating=_starRating;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

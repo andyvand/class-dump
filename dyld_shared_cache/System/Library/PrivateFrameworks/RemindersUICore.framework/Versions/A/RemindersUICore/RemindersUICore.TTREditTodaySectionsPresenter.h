@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTREditTodaySectionsPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id router;
-    id undoManager;
-    id needsDiscardChangesConfirmation;
-    id viewModel;
-    id optimisticApply;
 }
 
 @end

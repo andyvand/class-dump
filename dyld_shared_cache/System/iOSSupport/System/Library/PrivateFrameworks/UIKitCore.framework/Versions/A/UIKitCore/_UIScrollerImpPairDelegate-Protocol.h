@@ -5,5 +5,9 @@
 //
 
 @protocol _UIScrollerImpPairDelegate
+- (void)DomainError;
+
+@optional
+- (struct CGPoint);
 @end
 

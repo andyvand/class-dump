@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKnownKeysDictionary, _PFWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface _PFResultArray
 {
     int _cd_rc;
-    unsigned int _count;
-    unsigned int _resultType;
-    CDStruct_2b54fbaf *_resultSet;
-    _PFWeakReference *_weakRequestStore;
-    NSKnownKeysDictionary *_metadata;
 }
 
 + (void)lyChangesIfNeeded:]_block_invoke_2 /* Error: Ran out of types for this method. */;
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (oneway void);
+- (oneway void);
 - (Class);
 - (id);
 - (_Bool);
@@ -33,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)	;
 - (unsigned long long);
 - (unsigned long long)local store's metadata:(CDStruct_70511ce9 *)arg1 %@;
 

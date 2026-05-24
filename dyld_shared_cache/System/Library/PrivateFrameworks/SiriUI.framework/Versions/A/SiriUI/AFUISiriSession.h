@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFConnection, AFModesConfiguration, NSObject, NSString, NSTimer, SRUIFAudioPowerLevelUpdater, SRUIFSiriSessionStateHandler, SRUIFSpeechRequestHandler, SRUIFStateFeedbackManager, SRUIFUIBridgeClient;
-@protocol AFUISiriSessionDelegate, AFUISiriSessionLocalDataSource, AFUISiriSessionLocalDelegate, OS_dispatch_queue, SRUIFSpeechSynthesizing;
+@class AFConnection, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFUISiriSession
 {
     NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _currentRequestDidPresent;
-    SRUIFSiriSessionStateHandler *_siriSessionStateHandler;
-    id <SRUIFSpeechSynthesizing> _speechSynthesis;
-    AFModesConfiguration *_modesConfiguration;
-    _Bool _ttsIsSpeaking;
-    SRUIFStateFeedbackManager *_stateFeedbackManager;
-    SRUIFSpeechRequestHandler *_speechRequestHandler;
-    SRUIFUIBridgeClient *_uiBridgeClient;
-    NSTimer *_typeToSiriLatencyTimer;
-    _Bool _isDialogPhasePossiblyPartOfMultiTurnRequest;
-    _Bool _eyesFree;
-    _Bool _isProcessingAcousticIdRequest;
-    id <AFUISiriSessionDelegate> _delegate;
-    id <AFUISiriSessionLocalDataSource> _localDataSource;
-    id <AFUISiriSessionLocalDelegate> _localDelegate;
-    AFConnection *_connection;
-    SRUIFAudioPowerLevelUpdater *_audioPowerLevelUpdater;
-    NSTimer *_attentionTimer;
 }
 
 + (void);
@@ -49,15 +31,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,24 +57,24 @@
 - (void);
 - (id);
 - (void);
+- (id)c;
+- (void)*;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)$@9	;
 - (_Bool);
 - (void);
 - (void);
@@ -115,7 +97,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)*k	;
 - (id);
 - (void);
 - (void);
@@ -125,6 +107,7 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -137,19 +120,18 @@
 - (void);
 - (void);
 - (void);
+- (void)RA�;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)w2?;
 - (void);
 - (void);
 - (void);
@@ -162,7 +144,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)suppressAvatars;
 - (void);
 - (_Bool);
 - (id);
@@ -175,25 +157,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)rClient: /* Error: Ran out of types for this method. */;
+- (id)_registerTask:forClient: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *attentionTimer; // @synthesize attentionTimer=_attentionTimer;
-@property(readonly, nonatomic, getter=_audioPowerLevelUpdater) SRUIFAudioPowerLevelUpdater *audioPowerLevelUpdater; // @synthesize audioPowerLevelUpdater=_audioPowerLevelUpdater;
 @property(readonly, nonatomic, getter=_connection) AFConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AFUISiriSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEyesFree) _Bool eyesFree; // @synthesize eyesFree=_eyesFree;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isProcessingAcousticIdRequest; // @synthesize isProcessingAcousticIdRequest=_isProcessingAcousticIdRequest;
-@property(nonatomic) __weak id <AFUISiriSessionLocalDataSource> localDataSource; // @synthesize localDataSource=_localDataSource;
-@property(nonatomic) __weak id <AFUISiriSessionLocalDelegate> localDelegate; // @synthesize localDelegate=_localDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_uiBridgeClient) SRUIFUIBridgeClient *uiBridgeClient; // @synthesize uiBridgeClient=_uiBridgeClient;
 
 @end
 

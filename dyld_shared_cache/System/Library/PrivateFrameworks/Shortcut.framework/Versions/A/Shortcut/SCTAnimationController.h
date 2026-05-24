@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSViewAnimation, SCTInfiniteAnimation, SCTPopAnimation, SCTShowcaseWindow;
+@class SCTShowcaseWindow;
 
 __attribute__((visibility("hidden")))
 @interface SCTAnimationController
 {
     SCTShowcaseWindow *mShowcaseWindow;
-    NSView *mShowcaseView;
-    struct CGPoint mNextAnimationLocation;
-    NSViewAnimation *mFadeInAnimation;
-    NSViewAnimation *mPopAnimationPhaseOne;
-    NSViewAnimation *mPopAnimationPhaseTwo;
-    NSViewAnimation *mFadeOutAnimation;
-    SCTPopAnimation *mPopAnimation;
-    SCTInfiniteAnimation *mHoverAnimation;
-    _Bool mIsShowcasing;
-    unsigned long long mPreviousPosition;
 }
 
-+ (id);
++ (id)p<SwiftFieldKey, unsigned int, std::hash<SwiftFieldKey>, std::equal_to<SwiftFieldKey>, std::allocator<std::pair<const SwiftFieldKey, unsigned int>>>="__table_"{__hash_table<std::__hash_value_type<SwiftFieldKey, unsigned int>, std::__unordered_map_hasher<SwiftFieldKey, std::pair<const SwiftFieldKey, unsigned int>, std::hash<SwiftFieldKey>, std::equal_to<SwiftFieldKey>>, std::__unordered_map_equal<SwiftFieldKey, std::pair<const SwiftFieldKey, unsigned int>, std::equal_to<SwiftFieldKey>, std::hash<SwiftFieldKey>>, std::allocator<std::pair<const SwiftFieldKey, unsigned int>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -33,13 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

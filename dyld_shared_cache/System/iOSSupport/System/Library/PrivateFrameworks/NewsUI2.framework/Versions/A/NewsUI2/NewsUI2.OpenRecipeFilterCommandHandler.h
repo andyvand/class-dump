@@ -7,8 +7,6 @@
 @interface NewsUI2.OpenRecipeFilterCommandHandler
 {
     id navigator;
-    id tracker;
-    id featureAvailability;
 }
 
 @end

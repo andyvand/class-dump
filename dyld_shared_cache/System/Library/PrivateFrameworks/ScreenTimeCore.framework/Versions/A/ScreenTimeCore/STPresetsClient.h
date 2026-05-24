@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)ist SET representative_item_artwork_token = IFNULL( (SELECT best_artwork_token FROM item_artwork WHERE item_pid = representative_item_pid), '');
 
 @end
 

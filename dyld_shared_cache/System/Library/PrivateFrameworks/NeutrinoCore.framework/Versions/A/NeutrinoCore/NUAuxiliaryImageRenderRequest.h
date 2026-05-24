@@ -9,7 +9,6 @@
 @interface NUAuxiliaryImageRenderRequest : NURenderRequest
 {
     _Bool _skipRenderIfNotRequired;
-    long long _auxiliaryImageType;
 }
 
 - (_Bool);
@@ -19,13 +18,12 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
-@property _Bool skipRenderIfNotRequired; // @synthesize skipRenderIfNotRequired=_skipRenderIfNotRequired;
 
 @end
 

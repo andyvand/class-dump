@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDate, NSDictionary, NSMutableSet, NSSet, NSString;
+@class NSDictionary;
 
 @interface ACAccountCredential
 {
     NSDictionary *_credentialItems;
-    NSString *_credentialType;
-    NSMutableSet *_dirtyProperties;
-    ACAccount *_owningAccount;
-    _Bool _requiresTouchID;
-    _Bool _dirty;
-    _Bool _empty;
 }
 
++ (id)lC;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (_Bool)=;
 + (_Bool);
-+ (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id)K;
 - (id);
 - (void);
 - (id);
@@ -46,12 +40,12 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -60,16 +54,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)(;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool)kCFStreamEventOpenCompleted;
 - (void);
 - (void);
 - (id);
@@ -79,34 +73,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)Type"32@?<v@?@@"NSError">40;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *credentialType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly, nonatomic) NSSet *dirtyProperties;
-@property(nonatomic, getter=isEmpty) _Bool empty; // @synthesize empty=_empty;
-@property(retain, nonatomic) NSDate *expiryDate;
-@property(copy, nonatomic) NSString *findMyiPhoneToken;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hsaToken;
-@property(copy, nonatomic) NSString *mapsToken;
-@property(copy, nonatomic) NSString *mdmServerToken;
-@property(copy) NSString *oauthRefreshToken;
-@property(copy, nonatomic) NSString *oauthToken;
-@property(copy, nonatomic) NSString *oauthTokenNoSync;
-@property(copy) NSString *oauthTokenSecret;
-@property(copy) NSString *password;
 @property _Bool requiresTouchID; // @synthesize requiresTouchID=_requiresTouchID;
-@property(readonly) Class superclass;
-@property(copy) NSString *token;
-@property(copy, nonatomic) NSDate *tokenExpiryDate;
 
 @end
 

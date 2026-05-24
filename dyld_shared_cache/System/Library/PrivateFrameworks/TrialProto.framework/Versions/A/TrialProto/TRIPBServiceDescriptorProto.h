@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIPBServiceOptions;
+@class NSString;
 
 @interface TRIPBServiceDescriptorProto : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasOptions; // @dynamic hasOptions;
-@property(retain, nonatomic) NSMutableArray *methodArray; // @dynamic methodArray;
-@property(readonly, nonatomic) unsigned long long methodArray_Count; // @dynamic methodArray_Count;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) TRIPBServiceOptions *options; // @dynamic options;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet, _NSCollectionViewMutableIndexPathSet;
+@class _NSCollectionViewMutableIndexPathSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewMutableIndexPathSetEnumerator
 {
     _NSCollectionViewMutableIndexPathSet *_indexPathSet;
-    NSMutableIndexSet *_sectionIndexSet;
-    NSIndexSet *_currentItemIndexSet;
-    unsigned long long _currentSectionIndex;
-    unsigned long long _lastItemIndexReturned;
 }
 
 - (id);

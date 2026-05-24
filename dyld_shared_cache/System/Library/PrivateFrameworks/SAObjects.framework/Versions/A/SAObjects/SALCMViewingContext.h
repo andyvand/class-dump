@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber, NSString, SALCMContent;
-
 @interface SALCMViewingContext : SADomainObject
 {
 }
@@ -15,7 +13,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,12 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool commercialPlaying;
-@property(copy, nonatomic) NSNumber *durationInMilliseconds;
-@property(retain, nonatomic) SALCMContent *nowPlaying;
-@property(copy, nonatomic) NSString *nowPlayingAppId;
-@property(nonatomic) _Bool paused;
-@property(copy, nonatomic) NSNumber *playbackPositionInMilliseconds;
-@property(copy, nonatomic) NSArray *viewingHistory;
 
 @end
 

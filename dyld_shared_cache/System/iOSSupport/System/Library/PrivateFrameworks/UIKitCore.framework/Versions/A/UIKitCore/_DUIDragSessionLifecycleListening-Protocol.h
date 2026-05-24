@@ -5,5 +5,8 @@
 //
 
 @protocol _DUIDragSessionLifecycleListening
+- (oneway void)IMAuxVideoProviderChangedState;
+- (oneway void);
+- (oneway void);
 @end
 

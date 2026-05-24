@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 @interface TUDelegateController
 {
     struct os_unfair_lock_s _delegateLock;
-    NSMapTable *_delegateToQueue;
 }
 
 - (void);
@@ -17,12 +14,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)reateConversationsForCallsNotBackedByGroupSessions: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setShouldCreateConversationsForCallsNotBackedByGroupSessions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s delegateLock; // @synthesize delegateLock=_delegateLock;
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
 
 @end
 

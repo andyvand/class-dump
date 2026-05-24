@@ -5,46 +5,43 @@
 //
 
 @class _DKSyncCloudKitKnowledgeStorage;
-@protocol _DKSyncRemoteKnowledgeStorageFetchDelegate;
 
 @interface _DKSyncUpCloudKitKnowledgeStorage
 {
     _DKSyncCloudKitKnowledgeStorage *_common;
-    id <_DKSyncRemoteKnowledgeStorageFetchDelegate> _delegate;
 }
 
 + (id)_dispatch_semaphore>";
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void),
+mE;
 - (id);
 - (void);
 - (void);
+- (void)!;
 - (void);
+- (_Bool);
+- (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void).sm;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (long long)dIntentIdentifiers:bundleId: /* Error: Ran out of types for this method. */;
-- (void)ndlerAsynchronous;
+- (long long)pruneWithDeletedIntentIdentifiers:bundleId: /* Error: Ran out of types for this method. */;
+- (void)_isHandlerAsynchronous;
 - (void)not yet synced deletions;
 
 // Remaining properties
-@property(getter=isAvailable) _Bool available;
 @property(retain) _DKSyncCloudKitKnowledgeStorage *common; // @synthesize common=_common;
-@property(retain) id <_DKSyncRemoteKnowledgeStorageFetchDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

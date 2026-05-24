@@ -6,42 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDMobileAssetErrorsReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_maErrorsDigests;
-    int _maEventType;
-    struct {
-        unsigned int maEventType:1;
-    } _has;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (int);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)iaToolbox;
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)Ȟ;
 - (id);
 - (id);
 - (id);
@@ -50,11 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(nonatomic) _Bool hasMaEventType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *maErrorsDigests; // @synthesize maErrorsDigests=_maErrorsDigests;
-@property(nonatomic) int maEventType; // @synthesize maEventType=_maEventType;
 
 @end
 

@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface COMAPPLEPROACTIVEGMSGMSGenerativeFunctionEvent
 {
     double _inferenceMillis;
-    double _promptConstructionMillis;
-    double _responseProcessingMillis;
-    double _totalLatencyMillis;
-    long long _version;
-    NSString *_functionIdentifier;
-    NSString *_invocationIdentifier;
-    struct {
-        unsigned int inferenceMillis:1;
-        unsigned int promptConstructionMillis:1;
-        unsigned int responseProcessingMillis:1;
-        unsigned int totalLatencyMillis:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (double);
@@ -47,9 +32,9 @@
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
-- (void);
+- (id)Q;
+- (void);
+- (void)L;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -62,20 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *functionIdentifier; // @synthesize functionIdentifier=_functionIdentifier;
-@property(readonly, nonatomic) _Bool hasFunctionIdentifier;
-@property(nonatomic) _Bool hasInferenceMillis;
-@property(readonly, nonatomic) _Bool hasInvocationIdentifier;
-@property(nonatomic) _Bool hasPromptConstructionMillis;
-@property(nonatomic) _Bool hasResponseProcessingMillis;
-@property(nonatomic) _Bool hasTotalLatencyMillis;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double inferenceMillis; // @synthesize inferenceMillis=_inferenceMillis;
-@property(retain, nonatomic) NSString *invocationIdentifier; // @synthesize invocationIdentifier=_invocationIdentifier;
-@property(nonatomic) double promptConstructionMillis; // @synthesize promptConstructionMillis=_promptConstructionMillis;
-@property(nonatomic) double responseProcessingMillis; // @synthesize responseProcessingMillis=_responseProcessingMillis;
-@property(nonatomic) double totalLatencyMillis; // @synthesize totalLatencyMillis=_totalLatencyMillis;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

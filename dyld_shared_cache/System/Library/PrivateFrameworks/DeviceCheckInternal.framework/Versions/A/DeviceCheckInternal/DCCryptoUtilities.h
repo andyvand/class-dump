@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (unsigned int);
++ (id)initWithActivity: /* Error: Ran out of types for this method. */;
++ (unsigned int)initWithAccounts: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateComponents;
+@class NSArray, NSDate;
 
 @interface PGContextualOptions
 {
     NSArray *_contextualRules;
-    NSDate *_localToday;
-    NSDateComponents *_localTodayComponents;
 }
 
-- (void);
+- (void)_rangeContainingPosition:(id)arg1 unit: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)lity;
+- (void)utility;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *localToday; // @synthesize localToday=_localToday;
-@property(retain, nonatomic) NSDateComponents *localTodayComponents; // @synthesize localTodayComponents=_localTodayComponents;
 
 @end
 

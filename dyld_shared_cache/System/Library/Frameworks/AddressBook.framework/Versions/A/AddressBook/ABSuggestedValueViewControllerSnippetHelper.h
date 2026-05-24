@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextView;
+@class NSString;
 
 @interface ABSuggestedValueViewControllerSnippetHelper
 {
     NSString *_snippet;
-    NSTextView *_textView;
-    struct _NSRange _range;
 }
 
 + (id);
@@ -19,23 +17,22 @@
 + (void);
 - (id);
 - (void);
+- (void)'w�
+%;
+- (void)F4;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange)@;
 - (id);
 - (id);
 - (void);
 - (void)¾;
 
 // Remaining properties
-@property(readonly) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, copy) NSString *snippet; // @synthesize snippet=_snippet;
-@property(readonly) NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

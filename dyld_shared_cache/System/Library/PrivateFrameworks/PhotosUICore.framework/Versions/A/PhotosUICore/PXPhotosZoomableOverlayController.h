@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXPhotosViewModel;
-@protocol PXPhotosLensControlItem, PXPhotosOverlayControllerDelegate;
-
 @interface PXPhotosZoomableOverlayController
 {
     id photoLibrary;
-    void overlayLayoutProvider;
-    PXPhotosViewModel *photosViewModel;
-    id <PXPhotosLensControlItem> currentLens;
-    void delegate;
-    id observation;
-    id isSwitchingLens;
-    id currentZoomStep;
 }
 
 - (void);
@@ -35,11 +25,7 @@
 - (void)8 : /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *availableLenses;
-@property(nonatomic, retain) id <PXPhotosLensControlItem> currentLens; // @synthesize currentLens;
-@property(nonatomic) __weak id <PXPhotosOverlayControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, copy) CDUnknownBlockType overlayLayoutProvider;
-@property(nonatomic, retain) PXPhotosViewModel *photosViewModel; // @synthesize photosViewModel;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol _UIPlatterMenuPanningTransformerDelegate
+- (void);
+- (void);
 @end
 

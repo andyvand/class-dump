@@ -7,9 +7,6 @@
 @interface PromotedContentUI.AppStoreDataProviderSession
 {
     id context;
-    id rawContentData;
-    id promotedContent;
-    id lastFetch;
 }
 
 @end

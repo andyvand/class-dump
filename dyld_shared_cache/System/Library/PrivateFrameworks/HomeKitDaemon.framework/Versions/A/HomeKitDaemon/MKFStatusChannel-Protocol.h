@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFStatusChannelDatabaseID, NSData, NSDate, NSNumber;
+@class MKFStatusChannelDatabaseID, NSData, NSNumber;
 @protocol MKFHome;
 
 @protocol MKFStatusChannel
+- (NSNumber *);
+- (MKFStatusChannelDatabaseID *)R_;
 - (id <MKFHome>)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *channelMetadata;
-@property(copy, nonatomic) NSNumber *channelType;
-@property(copy, nonatomic) NSDate *creationTimestamp;
-@property(readonly, copy, nonatomic) MKFStatusChannelDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

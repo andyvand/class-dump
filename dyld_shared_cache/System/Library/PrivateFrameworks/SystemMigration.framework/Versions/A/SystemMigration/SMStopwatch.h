@@ -7,19 +7,17 @@
 @interface SMStopwatch
 {
     _Bool _isRunning;
-    double _startTime;
 }
 
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double)box;
+- (double)_pathsInSandbox;
 
 // Remaining properties
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end

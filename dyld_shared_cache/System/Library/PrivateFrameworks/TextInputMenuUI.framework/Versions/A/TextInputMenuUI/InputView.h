@@ -7,9 +7,6 @@
 @interface InputView
 {
     _Bool selected;
-    id delegate;
-    long long trackingTag;
-    unsigned long long index;
 }
 
 - (long long);
@@ -35,10 +32,7 @@
 - (void)D to get process info for psn=%ld:(id)arg1 %ld;
 
 // Remaining properties
-@property(retain) id delegate; // @synthesize delegate;
-@property unsigned long long index; // @synthesize index;
 @property(nonatomic) _Bool selected; // @synthesize selected;
-@property long long trackingTag; // @synthesize trackingTag;
 
 @end
 

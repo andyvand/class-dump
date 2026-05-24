@@ -6,25 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALLocalFetchFailed : SISchemaInstrumentationMessage
 {
     int _failureReason;
-    CDStruct_ebe11093 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)CNContactPickerDelegate;
+- (_Bool)ler avatarViewController:contactAvatarDidChange:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)setDatumLabelPopupTextColor:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)r;
 - (id)±à°1Â0@ù
 × ;
 - (id)usDomain;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

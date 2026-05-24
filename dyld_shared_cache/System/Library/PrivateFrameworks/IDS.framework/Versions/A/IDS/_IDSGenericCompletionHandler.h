@@ -9,7 +9,7 @@
     CDUnknownBlockType _handler;
 }
 
-- (void);
+- (void)*;
 - (id);
 - (void);
 - (CDUnknownBlockType);

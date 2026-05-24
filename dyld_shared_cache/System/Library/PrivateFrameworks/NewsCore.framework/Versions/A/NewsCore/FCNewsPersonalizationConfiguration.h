@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsArticleEmbeddingsConfiguration, FCNewsPersonalizationFeatureConfiguration, FCNewsPersonalizationTrainingConfiguration, FCStatelessPersonalizationConfiguration, FCUserEventHistoryTrackingConfiguration;
+@class FCStatelessPersonalizationConfiguration;
 
 @interface FCNewsPersonalizationConfiguration
 {
     FCStatelessPersonalizationConfiguration *_statelessPersonalizationConfiguration;
-    FCUserEventHistoryTrackingConfiguration *_trackingConfiguration;
-    FCNewsPersonalizationFeatureConfiguration *_featureConfiguration;
-    FCNewsPersonalizationTrainingConfiguration *_trainingConfiguration;
-    FCNewsArticleEmbeddingsConfiguration *_articleEmbeddingsConfiguration;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)onfidenceForData:scorerIndex:group:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -33,11 +29,7 @@
 - (void)dChainStartingWithRecordIDs:visitedRecordIDs:recordsLookupBlock:visitorBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsArticleEmbeddingsConfiguration *articleEmbeddingsConfiguration; // @synthesize articleEmbeddingsConfiguration=_articleEmbeddingsConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationFeatureConfiguration *featureConfiguration; // @synthesize featureConfiguration=_featureConfiguration;
 @property(retain, nonatomic) FCStatelessPersonalizationConfiguration *statelessPersonalizationConfiguration; // @synthesize statelessPersonalizationConfiguration=_statelessPersonalizationConfiguration;
-@property(retain, nonatomic) FCUserEventHistoryTrackingConfiguration *trackingConfiguration; // @synthesize trackingConfiguration=_trackingConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationTrainingConfiguration *trainingConfiguration; // @synthesize trainingConfiguration=_trainingConfiguration;
 
 @end
 

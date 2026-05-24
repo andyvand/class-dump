@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLatLng;
+@class NSData, NSString, SFLatLng;
 
 @protocol SFWorldMapCardSection
+- (SFLatLng *);
+- (NSData *)pj;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *highlightedTimeZoneName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *pinLocation;
 @property(copy, nonatomic) NSString *type;
 @end
 

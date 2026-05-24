@@ -7,6 +7,6 @@
 @class NSData;
 
 @protocol RBEncodable
-- (NSData *)ier;
+- (NSData *)ChildModifier;
 @end
 

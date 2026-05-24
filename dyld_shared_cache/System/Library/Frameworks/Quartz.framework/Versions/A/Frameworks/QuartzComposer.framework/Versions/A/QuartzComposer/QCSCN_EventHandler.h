@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (void);
-- (id);
+- (id)ainer_tag TEXT NOT NULL DEFAULT '';
 - (void);
 - (_Bool);
 - (id);

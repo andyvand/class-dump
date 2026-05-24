@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutableContact, NSString;
+@class CNMutableContact;
 
 __attribute__((visibility("hidden")))
 @interface CNContactVCardParsedResultBuilder
 {
     CNMutableContact *_contact;
-    _Bool _empty;
 }
 
 + (id);
@@ -35,13 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)0:8@"NSData"16@"CNApplicationProxy"24@?<v@?B@"NSError">32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

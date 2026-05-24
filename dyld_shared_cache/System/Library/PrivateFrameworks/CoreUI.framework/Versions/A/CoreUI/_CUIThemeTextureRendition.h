@@ -6,16 +6,12 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIStructuredThemeStore, NSMutableArray, TXRTextureInfo;
+@class CUIStructuredThemeStore;
 
 __attribute__((visibility("hidden")))
 @interface _CUIThemeTextureRendition : CUIThemeRendition
 {
     CUIStructuredThemeStore *_sourceProvider;
-    long long _textureInterpretation;
-    _Bool _textureSourceImageOpaque;
-    TXRTextureInfo *_textureInfo;
-    NSMutableArray *_textureMipLevels;
 }
 
 - (long long);

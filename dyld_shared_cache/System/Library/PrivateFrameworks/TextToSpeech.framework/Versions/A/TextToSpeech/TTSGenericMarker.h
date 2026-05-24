@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisMarker, NSString;
-
 @interface TTSGenericMarker
 {
     long long _byteOffset;
-    NSString *_name;
 }
 
 - (id);
 - (long long);
-- (long long);
+- (long long)tFollowSystemInputEnabled (%p) enabled=%d;
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVSpeechSynthesisMarker *avMark;
 @property(nonatomic) long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long markType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

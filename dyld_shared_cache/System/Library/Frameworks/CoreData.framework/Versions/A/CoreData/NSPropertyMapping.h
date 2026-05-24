@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSExpression, NSString;
+@class NSString;
 
 @interface NSPropertyMapping
 {
     void *_reserved;
-    NSArray *_transformValidations;
-    NSArray *_propertyTransforms;
-    NSString *_name;
-    NSExpression *_valueExpression;
-    NSDictionary *_userInfo;
-    struct __propertyMappingFlags {
-        unsigned int _isInUse:1;
-        unsigned int _reservedPropertyMapping:31;
-    } _propertyMappingFlags;
 }
 
 + (_Bool);
 + (void)en:%p> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)3;
 - (id);
-- (id);
-- (id);
+- (id);;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)qa;
 - (void);
 - (id);
-- (void);
+- (void)j;
 - (void)request:HAVING with no GROUP BY /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *name;
-@property(retain) NSDictionary *userInfo;
-@property(retain) NSExpression *valueExpression;
 
 @end
 

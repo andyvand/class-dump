@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABAssignmentResponse;
+@class NSNumber;
 @protocol GEOExperimentServerProxyDelegate;
 
 @protocol GEOExperimentServerProxy
+- (void)m;
+- (NSNumber *)addTileGroupObserver:(id *)arg1 queue: /* Error: Ran out of types for this method. */;
 - (void)as_disableFasterRerouteByDefault"b1"has_includeDismissButton"b1"has_preserveBannerInUpdates"b1"has_shouldShowTimer"b1"read_unknownFields"b1"read_analyticsMessageValue"b1"read_artworkOverride"b1"read_bannerDescription"b1"read_bannerId"b1"read_bannerLargeTexts"b1"read_bannerSmallTexts"b1"read_buttons"b1"read_cameraInput"b1"read_eventInfo"b1"read_localizedIncidentBanners"b1"read_localizedIncidentSpokenTexts"b1"read_localizedIncidentSubBanners"b1"read_progressBarRange"b1"read_spokenPrompt"b1"read_triggerRange"b1"wrote_anyField"b1};
 - (void)hÀ;
 
 // Remaining properties
 @property(nonatomic) __weak id <GEOExperimentServerProxyDelegate> delegate;
-@property(readonly, nonatomic) GEOABAssignmentResponse *experimentsInfo;
 @end
 

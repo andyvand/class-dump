@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSAttributedString, NSDateComponents, NSString, NSURL, NSUserActivity, REMObjectID;
+@class NSAttributedString, NSDateComponents;
 
 @protocol REMReminderCreationDelegate
+- (NSDateComponents *);
+
+@optional
+- (_Bool)R;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDateComponents *dueDateComponents;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) long long locationProximity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *locationString;
-@property(readonly, nonatomic) NSAttributedString *notes;
-@property(readonly, nonatomic) REMObjectID *reminderID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"REMObjectID",?,R,N
-
 @property(readonly, nonatomic) NSAttributedString *title;
-@property(readonly, nonatomic) _Bool titleIsGeneratedSuggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) NSUserActivity *userActivity;
-@property(readonly, nonatomic) _Bool wantsExtendedDetailOnlyView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

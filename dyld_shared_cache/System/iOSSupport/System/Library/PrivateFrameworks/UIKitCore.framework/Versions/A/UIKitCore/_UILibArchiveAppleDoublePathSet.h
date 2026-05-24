@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)updateNotice:(id)arg1;
+- (void)conversationManager:(id)arg1 kickedMembersChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(id)arg1 ignoreLMIRequestsChangedForConversation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

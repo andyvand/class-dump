@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSLanguageMap, NSCharacterSet, NSLocale, NSString;
+@class AXSSLanguageMap, NSLocale;
 
 @interface AXSSDialectMap
 {
     AXSSLanguageMap *_languageMap;
-    NSLocale *_locale;
-    NSString *_specificLanguageID;
-    NSString *_voiceName;
-    NSString *_voiceIdentifier;
-    NSCharacterSet *_speakableCharacters;
-    NSCharacterSet *_secondaryLanguageRange;
 }
 
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -30,26 +24,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)D;
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ll devices from CloudKit;
+- (id)WBSHistoryVisitsWereRemovedFromDatabaseNotification;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak AXSSLanguageMap *languageMap; // @synthesize languageMap=_languageMap;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, copy, nonatomic) NSString *regionID;
-@property(retain, nonatomic) NSCharacterSet *secondaryLanguageRange; // @synthesize secondaryLanguageRange=_secondaryLanguageRange;
-@property(copy, nonatomic) NSCharacterSet *speakableCharacters; // @synthesize speakableCharacters=_speakableCharacters;
-@property(copy, nonatomic) NSString *specificLanguageID; // @synthesize specificLanguageID=_specificLanguageID;
-@property(copy, nonatomic) NSString *voiceIdentifier; // @synthesize voiceIdentifier=_voiceIdentifier;
-@property(copy, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

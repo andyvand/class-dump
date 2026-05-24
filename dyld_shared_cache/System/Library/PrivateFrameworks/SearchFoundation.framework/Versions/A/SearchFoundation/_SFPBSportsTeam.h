@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBButtonItem, _SFPBImage;
+@class _SFPBImage;
 
 @interface _SFPBSportsTeam
 {
     _Bool _isWinner;
-    _SFPBImage *_logo;
-    NSString *_record;
-    NSString *_score;
-    NSString *_accessibilityDescription;
-    NSString *_name;
-    _SFPBButtonItem *_button;
 }
 
 - (void);
@@ -24,13 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)iled to save downtime override:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
+- (id)setChangeDetectionCriteria:(id)arg1;
+- (id)ssetBundleExport:%{public}@] Marking SOC resource(s) as purgeable in asset bundle. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -38,26 +32,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)ng",C,N,V_scopedSearchApplicationBundleIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(retain, nonatomic) _SFPBButtonItem *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isWinner; // @synthesize isWinner=_isWinner;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBImage *logo; // @synthesize logo=_logo;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *record; // @synthesize record=_record;
-@property(copy, nonatomic) NSString *score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 
 @end
 

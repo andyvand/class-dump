@@ -4,56 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _MRLanguageOptionProtobuf;
+@class _MRLanguageOptionProtobuf;
 
 @interface MRLanguageOption
 {
     _Bool _hasType;
-    unsigned int _type;
-    NSString *_languageTag;
-    NSArray *_characteristics;
-    NSString *_displayName;
-    NSString *_identifier;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (id)HX
+;
+- (unsigned int)accountChatStyleMessageSent;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)alyticsConnection dealloc];
 - (id);
 - (id);
 - (_Bool)proactiveEndpointController;
-- (void)essage;
+- (void)getVolumeMessage;
 - (void)ageProtobuf",&,N,V_getVolumeResultMessage;
-- (void)orUnresolvedPlayerPath: /* Error: Ran out of types for this method. */;
+- (void)resolveForUnresolvedPlayerPath: /* Error: Ran out of types for this method. */;
 - (id)uageOption"8;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *characteristics; // @synthesize characteristics=_characteristics;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hasType; // @synthesize hasType=_hasType;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *languageTag; // @synthesize languageTag=_languageTag;
 @property(readonly, nonatomic) _MRLanguageOptionProtobuf *protobuf;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

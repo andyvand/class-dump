@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFDispatchQueue;
 @protocol _AXFEventProviderDelegate;
 
 @interface _AXFEventProvider
 {
     id <_AXFEventProviderDelegate> _delegate;
-    AXFDispatchQueue *_delegateQueue;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)AMAuthInstallApFtabCreateMeasurementsWithTag;
 - (id);
 - (id);
-- (void);
+- (void),V_callStatisticsGUID;
 - (id);
 
 // Remaining properties
 @property(readonly) __weak id <_AXFEventProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) AXFDispatchQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 
 @end
 

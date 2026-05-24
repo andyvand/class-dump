@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFAttribution, RFVisualProperty, SFCardSection;
+@class RFAttribution;
 
 @interface RFAttributionSource
 {
@@ -12,10 +12,6 @@
         unsigned int attribution:1;
         unsigned int card_section:1;
     } _has;
-    RFAttribution *_attribution;
-    SFCardSection *_card_section;
-    RFVisualProperty *_thumbnail;
-    NSString *_text_1;
 }
 
 + (_Bool);
@@ -28,12 +24,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithTelevision:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setVariant:(id)arg1;
+- (id)ntifier;
 - (id);
 - (id);
 - (id);
@@ -41,18 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RFAttribution *attribution; // @synthesize attribution=_attribution;
-@property(retain, nonatomic) SFCardSection *card_section; // @synthesize card_section=_card_section;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) RFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

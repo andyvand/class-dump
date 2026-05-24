@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, TKSmartCardSlot;
+@class NSHashTable, TKSmartCardSlot;
 
 __attribute__((visibility("hidden")))
 @interface TKSmartCardSlotProxy
 {
     TKSmartCardSlot *_slot;
-    NSMutableArray *_queuedParameters;
-    NSHashTable *_cards;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ate.LASRPVerifierIdentifier;
 
 // Remaining properties
 @property(readonly) NSHashTable *cards; // @synthesize cards=_cards;

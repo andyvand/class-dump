@@ -11,14 +11,14 @@
     id <AKAuthenticationRVSServiceDelegate> _remoteViewServiceDelegate;
 }
 
-+ (void);
++ (void){__CFError}}32;
 - (void);
+- (id)CSDBSqliteConnection}^{sqlite3_stmt}i}16;
 - (id);
-- (id);
 - (void);
+- (void)d_map<long long, WBSHistoryItem *, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>="__table_"{__hash_table<std::__hash_value_type<long long, WBSHistoryItem *>, std::__unordered_map_hasher<long long, std::pair<const long long, WBSHistoryItem *>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryItem *>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)setDefaultDownloadsItemForProviderDomain:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AKAuthenticationRVSServiceDelegate> remoteViewServiceDelegate; // @synthesize remoteViewServiceDelegate=_remoteViewServiceDelegate;

@@ -8,16 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchIdTapsPair
 {
     unsigned long long _poiId;
-    int _poiIdTaps;
 }
 
 - (id);
-- (void);
+- (void)minValue;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)lBatteryCharge"b1"has_currentBatteryCharge"b1"has_currentBatteryPercentage"b1"has_lastSocUpdateDate"b1"has_lowBatteryCharge"b1"has_maxBatteryCharge"b1"has_maxRange"b1"has_minBatteryCharge"b1"has_isCharging"b1"read_unknownFields"b1"read_chargerPlugsInfo"b1"read_chargingArguments"b1"read_consumptionArguments"b1"read_vehicleArguments"b1"read_vehicleIdentifier"b1"wrote_anyField"b1};
-- (id)ainTextURLSHA256Checksum;
+- (id)_plainTextURLSHA256Checksum;
 - (id)¼$;
 
 @end

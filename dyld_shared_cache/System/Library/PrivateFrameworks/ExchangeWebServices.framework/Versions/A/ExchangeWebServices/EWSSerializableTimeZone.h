@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSSerializableTimeZoneTime, NSString;
-
 @interface EWSSerializableTimeZone
 {
     long long _Bias;
-    EWSSerializableTimeZoneTime *_StandardTime;
-    EWSSerializableTimeZoneTime *_DaylightTime;
 }
 
 + (id);
@@ -18,24 +14,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)5;
 
 // Remaining properties
 @property(nonatomic) long long Bias; // @synthesize Bias=_Bias;
-@property(retain, nonatomic) EWSSerializableTimeZoneTime *DaylightTime; // @synthesize DaylightTime=_DaylightTime;
-@property(retain, nonatomic) EWSSerializableTimeZoneTime *StandardTime; // @synthesize StandardTime=_StandardTime;
-@property(readonly, copy, nonatomic) NSString *StandardTimeZoneName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

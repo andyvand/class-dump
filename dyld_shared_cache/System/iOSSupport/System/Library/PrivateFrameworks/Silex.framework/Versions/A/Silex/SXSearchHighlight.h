@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SXTangierTextRenderCollectorItem;
+@class NSArray;
 
 @interface SXSearchHighlight
 {
     NSArray *_rects;
-    NSArray *_ranges;
-    SXTangierTextRenderCollectorItem *_item;
-    unsigned long long _index;
 }
 
 - (id);
@@ -25,9 +22,6 @@
 - (void)entStyleRenderer>",R,N,V_componentStyleRenderer;
 
 // Remaining properties
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(retain, nonatomic) SXTangierTextRenderCollectorItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSArray *ranges; // @synthesize ranges=_ranges;
 @property(readonly, nonatomic) NSArray *rects; // @synthesize rects=_rects;
 
 @end

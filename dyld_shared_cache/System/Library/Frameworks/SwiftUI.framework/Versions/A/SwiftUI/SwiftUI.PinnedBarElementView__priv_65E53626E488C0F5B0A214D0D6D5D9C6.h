@@ -9,7 +9,7 @@
     id style;
 }
 
-- (long long);
+- (long long);
 - (id);
 - (id);
 

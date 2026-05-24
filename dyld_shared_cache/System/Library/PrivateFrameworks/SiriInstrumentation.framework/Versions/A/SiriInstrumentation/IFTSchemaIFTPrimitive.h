@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTPrimitive : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _primitiveType;
-    struct {
-        unsigned int exists:1;
-        unsigned int primitiveType:1;
-    } _has;
 }
 
 - (void);
@@ -24,27 +17,23 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)rl;
-- (id)lEditClassificationContext;
+- (id)url;
+- (id)ASRSchemaASRManualEditClassificationContext;
 - (_Bool)89åÿÇ;
 - (_Bool)Á%;
 - (void)ýÿ¾³-Ò);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPrimitiveType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int primitiveType; // @synthesize primitiveType=_primitiveType;
 
 @end
 

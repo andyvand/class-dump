@@ -7,18 +7,10 @@
 @interface NewsFeed.FormatProgressPieView
 {
     id identifier;
-    id backgroundLayer;
-    id progressLayer;
-    id radius;
-    id clockwise;
-    id stepPercentage;
-    id minPercentage;
-    id maxPercentage;
-    id layerDelegate;
 }
 
 - (id);
-- (void);
+- (void)than once.;
 - (id)
 × ;
 - (void)Øtîþ;

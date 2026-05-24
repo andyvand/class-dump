@@ -4,62 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, NSData, NSNumber, NSSet, NSString;
+@class HMDAccessory, NSNumber;
 @protocol HMDMatterAccessoryProtocol;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPAccessoryDataSource
 {
     NSNumber *_nodeID;
-    HMDAccessory<HMDMatterAccessoryProtocol> *_accessory;
 }
 
 + (id)ÐB;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)addRecords: /* Error: Ran out of types for this method. */;
+- (void)_maps_indexesOfObjectsCorrespondingToIdentifiableObjects:(_Bool)arg1;
+- (void)_maps_indexOfObjectCorrespondingToIdentifiableObject:(id)arg1;
+- (void)_maps_indexOfObjectCorrespondingToIdentifiableObject:(id)arg1;
+- (void)_identifiersAtopByIdentifier;
+- (void)_iconAttributeKey;
+- (void)_currentlyArrivedAtWaypoint;
+- (void)_commitEditWithFinalContents:(id)arg1 context:(CDUnknownBlockType)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)_checkAndAddCoalescedEditForContext:(id)arg1 identifiers:(CDUnknownBlockType)arg2 enqueuedBlock:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)V_persistenceFileURL;
+- (void)@"NSMutableDictionary",&,N,V_receiverRules;
+- (id)osed/arrived trip;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)targetNumberOfMemoriesWithMemoryContext:totalNumberOfMemoryNodes:referenceNumberOfDays: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id)
 × ;
-- (id)ndingThreadHome;
+- (id)pendingThreadHome;
 - (void)Ñ~&ÿ;
 - (id)YM;
 
 // Remaining properties
 @property __weak HMDAccessory<HMDMatterAccessoryProtocol> *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSData *attributeDatabase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *extendedMACAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSNumber *nodeID; // @synthesize nodeID=_nodeID;
-@property(readonly, copy, nonatomic) NSSet *pairings;
-@property(readonly, copy, nonatomic) NSNumber *productID;
-@property(readonly, copy, nonatomic) NSNumber *softwareVersionNumber;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSNumber *supportedLinkLayerTypes;
-@property(readonly, copy, nonatomic) NSNumber *vendorID;
-@property(readonly, nonatomic) _Bool wedSupport;
 
 @end
 

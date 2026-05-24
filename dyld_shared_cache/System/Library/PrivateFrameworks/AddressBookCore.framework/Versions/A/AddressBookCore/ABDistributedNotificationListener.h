@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSData, NSMutableArray, NSNotificationCenter;
-@protocol ABDistributedNotificationListenerDelegate, CNScheduler;
+@class NSNotificationCenter;
 
 @interface ABDistributedNotificationListener
 {
     NSNotificationCenter *_notificationCenter;
-    NSMutableArray *_notificationTokens;
-    id <CNScheduler> _scheduler;
-    CNContactStore *_store;
-    NSData *_lastHistoryToken;
-    id <ABDistributedNotificationListenerDelegate> _delegate;
 }
 
 + (id);
@@ -24,27 +18,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)askToCommunicate;
 - (void);
 - (void);
 - (void);
 - (id)nBlock;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <ABDistributedNotificationListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSData *lastHistoryToken; // @synthesize lastHistoryToken=_lastHistoryToken;
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSMutableArray *notificationTokens; // @synthesize notificationTokens=_notificationTokens;
-@property(retain, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(retain, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end
 

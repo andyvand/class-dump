@@ -6,14 +6,11 @@
 
 #import <LoginUIKit/LUIController.h>
 
-@class LUIPopoverViewController, NSPopover, NSView;
+@class NSPopover;
 
 @interface LUIPopoverController : LUIController
 {
     NSPopover *_popover;
-    LUIPopoverViewController *_viewController;
-    NSView *_positioningView;
-    unsigned long long _preferredEdge;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)ces.error.invalid-verification-code;
 - (int);
 - (id);
 - (void);

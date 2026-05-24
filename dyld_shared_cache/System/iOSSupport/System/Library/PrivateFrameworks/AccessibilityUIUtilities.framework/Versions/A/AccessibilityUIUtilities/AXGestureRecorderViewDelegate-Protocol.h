@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIBezierPath;
+
 @protocol AXGestureRecorderViewDelegate
+- (unsigned long long)g|;
+- (void);
+- (UIBezierPath *)d|;
+- (_Bool);
 @end
 

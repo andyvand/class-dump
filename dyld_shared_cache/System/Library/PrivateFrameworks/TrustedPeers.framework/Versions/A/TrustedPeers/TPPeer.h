@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TPPeerDynamicInfo, TPPeerPermanentInfo, TPPeerStableInfo;
+@class NSString, TPPeerPermanentInfo;
 
 @interface TPPeer
 {
     TPPeerPermanentInfo *_permanentInfo;
-    TPPeerStableInfo *_stableInfo;
-    TPPeerDynamicInfo *_dynamicInfo;
 }
 
 + (_Bool);
-+ (id);
++ (id)!;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)CRKPrimitiveBackedIDSMessageBroadcaster;
 - (id);
 - (id);
 - (id);
+- (id)t invalid currentRTPTime when sending AP progress metadata
+;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)iiii}16@24;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TPPeerDynamicInfo *dynamicInfo; // @synthesize dynamicInfo=_dynamicInfo;
 @property(readonly, nonatomic) NSString *peerID;
-@property(readonly, nonatomic) TPPeerPermanentInfo *permanentInfo; // @synthesize permanentInfo=_permanentInfo;
-@property(readonly, nonatomic) TPPeerStableInfo *stableInfo; // @synthesize stableInfo=_stableInfo;
-@property(readonly, nonatomic) NSSet *trustedPeerIDs;
 
 @end
 

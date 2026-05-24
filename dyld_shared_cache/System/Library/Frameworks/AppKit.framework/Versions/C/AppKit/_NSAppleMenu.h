@@ -6,18 +6,12 @@
 
 #import <AppKit/NSMenu.h>
 
-@class NSMenuItem, NSString;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface _NSAppleMenu : NSMenu
 {
     NSMenuItem *_locationMenuItem;
-    NSMenuItem *_recentsMenuItem;
-    long long _recentItemsCount;
-    NSString *_logoutFormat;
-    NSString *_logoutNowFormat;
-    _Bool _isAppleMenuEnabled;
-    _Bool _isInstallerMode;
 }
 
 + (id);
@@ -27,6 +21,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)peration;
+- (void)g-identifier;
 - (void);
 - (void);
 - (void);
@@ -35,27 +34,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ectionDelegate>";
+- (void)@"NSObject<OS_tcp_connection>";
+- (void)task:(id)arg1 _willUseEffectiveConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)task:(id)arg1 _willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)superclass;
+- (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)_basePrioritySetExplicitly;
+- (void)_backgroundTransactionMetrics;
+- (id)ymptoms:sampler couldn't generate task corpse with error:%d /* Error: Ran out of types for this method. */;
+- (void)an't seal more than we own!;
+- (id)aning up;
+- (id)ection %llu:(id)arg1 starting, TC(0x%x);
+- (id)oring sec configuration block - connection canceled;
+- (id)policies %lu;
+- (void)working for activity %@;
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
@@ -66,13 +60,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

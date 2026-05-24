@@ -7,10 +7,6 @@
 @interface NewsAds.AdPlacementPolicyValidator
 {
     id layoutEnvironmentProvider;
-    id viewportEnvironmentProvider;
-    id policies;
-    id _queue;
-    id validationQueue;
 }
 
 @end

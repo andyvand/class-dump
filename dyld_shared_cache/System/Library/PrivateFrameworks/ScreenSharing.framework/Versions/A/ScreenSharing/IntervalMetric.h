@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface IntervalMetric
 {
     unsigned long long _min;
-    unsigned long long _max;
-    unsigned long long _median;
-    unsigned long long _intervalStart;
-    NSMutableArray *_data;
 }
 
 - (void);
@@ -25,22 +19,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long)ð1Â0@ù
 × ;
-- (void)FramesWith:(unsigned long long)arg1;
-- (void)cted: /* Error: Ran out of types for this method. */;
+- (void)updateRenderViewFramesWith:(unsigned long long)arg1;
+- (void)setSharePlaySessionConnected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableArray *data; // @synthesize data=_data;
 @property unsigned long long intervalStart; // @synthesize intervalStart=_intervalStart;
-@property unsigned long long max; // @synthesize max=_max;
-@property unsigned long long median; // @synthesize median=_median;
-@property unsigned long long min; // @synthesize min=_min;
 
 @end
 

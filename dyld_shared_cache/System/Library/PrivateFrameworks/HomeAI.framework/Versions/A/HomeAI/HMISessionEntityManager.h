@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIPersonTracker, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface HMISessionEntityManager
 {
     NSMutableDictionary *_sessionUUIDToPreviousFaceprints;
-    NSMutableDictionary *_sessionUUIDToPreviousTorsoprints;
-    HMIPersonTracker *_personTracker;
-    NSMutableDictionary *_sessionEntities;
-    double _faceVIPThresholdForTorsoAnnotation;
 }
 
-+ (id);
++ (id)C;
 + (id)Ü;
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -30,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double faceVIPThresholdForTorsoAnnotation; // @synthesize faceVIPThresholdForTorsoAnnotation=_faceVIPThresholdForTorsoAnnotation;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMutableDictionary *sessionEntities; // @synthesize sessionEntities=_sessionEntities;
-@property(readonly) Class superclass;
 
 @end
 

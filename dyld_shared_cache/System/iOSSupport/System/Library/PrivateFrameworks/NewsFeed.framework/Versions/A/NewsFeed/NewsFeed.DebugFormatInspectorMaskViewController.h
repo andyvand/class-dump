@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatInspectorMaskViewController
 {
     id editor;
-    id maskSegmentedViewController;
 }
 
 - (id);

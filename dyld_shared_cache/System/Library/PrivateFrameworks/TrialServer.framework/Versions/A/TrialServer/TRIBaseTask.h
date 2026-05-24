@@ -4,36 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-@protocol TRITaskQueueStateProviding;
+@class NSDate, NSString;
 
 @interface TRIBaseTask
 {
     NSDate *startTime;
-    id <TRITaskQueueStateProviding> _stateProvider;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)isEqualToPFStoryClusteringProperties: /* Error: Ran out of types for this method. */;
+- (void)isBackground;
+- (id)ntId];
+- (id)JQnlnQ/qen4HGnSKuv7tDMo9LSlj8T
+aAN4tIqoNUZYipMX1gaWn4vK5Yr0RBGemlYjb69tq1tt8kqsYg3REnlF1pJdpZ6J
+JSe8enlvFNrOxVggjXw+kLU8ZkVLFCybmvXNWESRDVkq7MMqLOdfor6K5C9tR9e5
+qasuJK81XxjmfuFFmFL5r6hip0QfCuAEM3TCGGf1vPAJtZpC6CXPLPWS9xl2xV4L
+/JII1Q3S6FJ02ZL2xJamyfX5AgMBAAGjYzBhMB0GA1UdDgQWBBTmlYB7NhU+hu2c
+sZK0SSV/7N5ZZzAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFOaVgHs2FT6G
+7ZyxkrRJJX/s3llnMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0BAQsFAAOCAQEA
+Il83Ysg/b+toHmrIh4Ww+d0yB7tsHu3pxw9MqynFz+DA7h+VlzeAp3v6+NA2EE7g
+m4DcWqecmVLr0I4kFGshw6weK82wfz2R4O54783IUCqC8cVzIt4KqqML6blA3Mjl
+nLZhTuX5tt6EcLIPofHMzdNPPt+awmbK1MMheiaQdQ/0nJi1LWY0Xm67Pzi7fesV
+7Xpeh7THV26g02835QRdbvkgXgeovojfDVGhFqGlpYXyf5iiwiJbAdXAGOpeHt1J
+GinRg3uOfb9wGTJuXouzmffFuhgU+fLl4wvqZ2RMlcaL/X45F87chTRSEnYuNt83
+e4Wy0WD9kkUaHYvUrJ2gkQ==
+-----END CERTIFICATE-----
+;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)nnot propagate original auxiliary data;
 - (void);
 - (_Bool);
 - (void)×ð!x@ùQ!°1Â0@ù
 × ;
-- (id)ficationWithDeployment;
+- (id)FetchRolloutNotificationWithDeployment;
 - (unsigned long long)equired for immediate download:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider; // @synthesize stateProvider=_stateProvider;
-@property(readonly, nonatomic) NSArray *tags;
 @property(readonly, nonatomic) NSString *taskName;
 
 @end

@@ -6,29 +6,12 @@
 
 #import <UIKitCore/UIKBKeyView.h>
 
-@class NSMutableArray, NSMutableSet, NSString, UIBezierPath, UIDelayedAction, UIKBHandwritingBezierPathPointFIFO, UIKBHandwritingBoxcarFilterPointFIFO, UIKBHandwritingInputSpeedModel, UIKBHandwritingQuadCurvePointFIFO, UIKBHandwritingStrokePointFIFO, UIKBHandwritingStrokeView, UIView;
+@class UIKBHandwritingStrokeView;
 
 __attribute__((visibility("hidden")))
 @interface UIKBHandwritingView : UIKBKeyView
 {
     _Bool _initialPointPosted;
-    double _inkWidth;
-    struct CGColor *_inkColor;
-    struct CGImage *_inkMask;
-    NSMutableArray *_interpolatedPoints;
-    UIBezierPath *_currentPath;
-    NSMutableArray *_currentPoints;
-    UIKBHandwritingStrokePointFIFO *_strokeFIFO;
-    UIKBHandwritingBoxcarFilterPointFIFO *_smoothingFIFO;
-    UIKBHandwritingQuadCurvePointFIFO *_interpolatingFIFO;
-    UIKBHandwritingBezierPathPointFIFO *_bezierPathFIFO;
-    UIKBHandwritingStrokeView *_strokeView;
-    UIView *_snapshotView;
-    NSMutableSet *_activeTouches;
-    double _pageOffset;
-    UIDelayedAction *_nextPageTimer;
-    UIKBHandwritingInputSpeedModel *_inputSpeedModel;
-    CDStruct_23d8ee2f _previousPoint;
 }
 
 - (void);
@@ -37,26 +20,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (void)ived signal that blocklist updated;
+- (void)ng tokens, no further action needed.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)to %@;
+- (void)eption handling incomming local incoming push:(id)arg1 %@;
+- (void)Context, bail.;
+- (void)text is not a IDSMessageContext, bail.;
+- (void)Exception handling incoming filtering settings message:(_Bool)arg1 %@;
+- (void)isSOS message; incoming message marked critical, but existing message already read -- NOT re-alerting; existingMessage:(id)arg1 %@;
+- (void)toIdentifier;
+- (void)g a retraction stamp at index 0.;
+- (void)d was successful (%@) with error (%@) while processing GUID (%@);
+- (id)%@;
+- (id)on notification for explicit download of transfer:(long long)arg1 %@;
+- (id)e:%@, notice:%@ /* Error: Ran out of types for this method. */;
+- (double)cal device, looking for fromID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Message not providing error to caller.;
+- (id)tered for SMS;
+- (_Bool)SubType;
+- (void)MultimapValuesIndex;
 - (id);
 - (void);
 - (void);
@@ -71,26 +54,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Identifiers;
 - (void);
 - (void);
 - (struct CGColor *);
-- (void);
+- (void)%@;
 - (double);
 - (id);
 - (void);
-- (struct);
-- (void);
+- (CDStruct_cccd6e1b);
+- (void)\;
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void)tVariableObservationsCreateIfNecessary;
-- (void)PreCommitHandlersAfterCAFlush;
-- (void)r;
+- (void)_stashedLayoutVariableObservationsCreateIfNecessary;
+- (void)_checkPreCommitHandlersAfterCAFlush;
+- (void)HUDShadowColor;
 - (void)ne",R,W,N,V_windowScene;
 - (_Bool)ized = YES;
 - (void);
-- (void)tationEnvironmentToStateMachineMap;
+- (void)presentationEnvironmentToStateMachineMap;
 - (void);hÜ{®];
 - (_Bool)­Ö_;
 - (void)psþ¿$;
@@ -101,31 +84,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;
-@property(retain, nonatomic) UIKBHandwritingBezierPathPointFIFO *bezierPathFIFO; // @synthesize bezierPathFIFO=_bezierPathFIFO;
-@property(retain, nonatomic) UIBezierPath *currentPath; // @synthesize currentPath=_currentPath;
-@property(retain, nonatomic) NSMutableArray *currentPoints; // @synthesize currentPoints=_currentPoints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool initialPointPosted; // @synthesize initialPointPosted=_initialPointPosted;
-@property(nonatomic) struct CGColor *inkColor; // @synthesize inkColor=_inkColor;
-@property(nonatomic) struct CGImage *inkMask; // @synthesize inkMask=_inkMask;
-@property(nonatomic) double inkWidth; // @synthesize inkWidth=_inkWidth;
-@property(retain, nonatomic) UIKBHandwritingInputSpeedModel *inputSpeedModel; // @synthesize inputSpeedModel=_inputSpeedModel;
-@property(retain, nonatomic) NSMutableArray *interpolatedPoints; // @synthesize interpolatedPoints=_interpolatedPoints;
-@property(retain, nonatomic) UIKBHandwritingQuadCurvePointFIFO *interpolatingFIFO; // @synthesize interpolatingFIFO=_interpolatingFIFO;
-@property(retain, nonatomic) UIDelayedAction *nextPageTimer; // @synthesize nextPageTimer=_nextPageTimer;
-@property(nonatomic) double pageOffset; // @synthesize pageOffset=_pageOffset;
-@property(nonatomic) CDStruct_19cde01f previousPoint; // @synthesize previousPoint=_previousPoint;
-@property(retain, nonatomic) UIKBHandwritingBoxcarFilterPointFIFO *smoothingFIFO; // @synthesize smoothingFIFO=_smoothingFIFO;
-@property(retain, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(retain, nonatomic) UIKBHandwritingStrokePointFIFO *strokeFIFO; // @synthesize strokeFIFO=_strokeFIFO;
 @property(retain, nonatomic) UIKBHandwritingStrokeView *strokeView; // @synthesize strokeView=_strokeView;
-@property(readonly) Class superclass;
 
 @end
 

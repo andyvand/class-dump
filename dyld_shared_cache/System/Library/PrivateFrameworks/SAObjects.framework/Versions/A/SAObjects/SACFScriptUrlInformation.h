@@ -6,27 +6,25 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface SACFScriptUrlInformation : SABaseAceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)#;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ñ#;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *downloadUrl;
-@property(copy, nonatomic) NSDictionary *headerFields;
-@property(copy, nonatomic) NSString *requestMethodType;
 
 @end
 

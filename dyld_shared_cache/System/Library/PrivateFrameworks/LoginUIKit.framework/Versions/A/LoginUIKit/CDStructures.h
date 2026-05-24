@@ -11,25 +11,25 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct LUI2UserGridDimensions {
-    long long style;
-    long long numRowsPerPage;
-    long long numColumnsPerPage;
-    long long numPages;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
 };
 
 struct NSEdgeInsets {
@@ -42,10 +42,6 @@ struct NSEdgeInsets {
 struct _NSRange {
     unsigned long long _field1;
     unsigned long long _field2;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 #pragma mark Typedef'd Structures
@@ -61,8 +57,8 @@ typedef struct {
 } CDStruct_fadd2e06;
 
 typedef struct {
-    struct CGPoint userPictureCenter;
-    double userPictureRadius;
-    struct CGSize userViewSize;
-} CDStruct_fa0fd69b;
+    struct CGPoint _field1;
+    double _field2;
+    struct CGSize _field3;
+} CDStruct_3817e2c3;
 

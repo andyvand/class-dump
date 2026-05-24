@@ -9,9 +9,6 @@
 @interface PromotedContent.ExpandTapAction : APPCTapAction
 {
     id adIdentifier;
-    id expandedDestinationURL;
-    id maximumExpandedSize;
-    id delegate;
 }
 
 - (id);

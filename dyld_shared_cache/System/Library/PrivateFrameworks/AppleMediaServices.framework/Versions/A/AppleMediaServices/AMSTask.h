@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsActivity, AMSMutablePromise, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AMSTask
 {
     struct os_unfair_lock_s _promiseAccessLock;
-    long long _runMode;
-    NSObject<OS_dispatch_queue> *_performTaskQueue;
-    AMSMutablePromise *_promise;
-    AMSMetricsActivity *_activity;
 }
 
 + (id);
@@ -23,29 +19,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)alEndpoint...;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool)th action: /* Error: Ran out of types for this method. */;
 - (void)Äc]#oÈ=,9}Sã[%«Ð3¿;ö©ÚG÷C.åÒ³Ät7îc'3è6·?A;
-- (void)essible;
+- (void)SecureCodingDictionaryExpressible;
 
 // Remaining properties
-@property(retain) AMSMetricsActivity *activity; // @synthesize activity=_activity;
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, getter=isFinished) _Bool finished;
 @property(retain) NSObject<OS_dispatch_queue> *performTaskQueue; // @synthesize performTaskQueue=_performTaskQueue;
-@property(retain) AMSMutablePromise *promise; // @synthesize promise=_promise;
-@property struct os_unfair_lock_s promiseAccessLock; // @synthesize promiseAccessLock=_promiseAccessLock;
-@property long long runMode; // @synthesize runMode=_runMode;
-@property(readonly, getter=isRunning) _Bool running;
 
 @end
 

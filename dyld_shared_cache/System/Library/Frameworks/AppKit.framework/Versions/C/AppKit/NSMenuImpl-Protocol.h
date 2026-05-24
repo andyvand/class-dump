@@ -4,19 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSView;
+@class NSMenu, NSMenuItem, NSView;
 
 @protocol NSMenuImpl
++ (_Bool)5;
++ (void)0:(NSMenu *)arg1 8@"NSURLProtocol"16@"NSURLResponse"24Q32;
+- (void)Format (trustObject);
+- (void)ot decode to a multicombined data, proceed with combined format;
+- (void)RItemSpecs);
+- (void)mbined Format, invalid tag length;
+- (void)DecodeCheckProducerIDRevocation failed with error 0x%016llX;
+- (void)x;
+- (void);
+- (void);
+- (void)`	;
+- (void)A;
+- (void)#;
+- (void) ;
+- (void);
+- (void)_ִ;
+- (void);
+- (struct CGSize);
+- (unsigned long long)unscheduleFromRunLoop:forMode: /* Error: Ran out of types for this method. */;
+- (void)arrayWithObjects:(_Bool)arg1;
+- (void)dpd;
 
 @optional
-- (NSView *)groundColors;
+- (void)`;
+- (NSView *)textBackgroundColors;
 
 // Remaining properties
-@property(setter=_setCurrentMenuUpdateFlags:) unsigned long long _currentMenuUpdateFlags;
-@property(readonly) NSView *_presentingView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView",?,R
-
 @property(readonly) NSMenuItem *targetedItem;
 @end
 

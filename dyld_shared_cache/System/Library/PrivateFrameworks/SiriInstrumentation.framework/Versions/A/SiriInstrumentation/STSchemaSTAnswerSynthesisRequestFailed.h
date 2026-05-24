@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTAnswerSynthesisRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
-- (void);
+- (void)5;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)_specialNavTrayEvents:forLeg: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setEventType: /* Error: Ran out of types for this method. */;
+- (_Bool)ABGroupListCellViewStyle;
+- (_Bool)iled to create index madrid_guid_index.;
 - (void);
 - (id);
 - (id);
-- (id)IsSoundAnalysisEnabled;
-- (id)gPromptTier1;
-- (void)SEAPPFOLLOWUP_NO_APP_FOLLOWUP;
-- (void)_SWITCHER_ICON;
+- (id)deleteIsSoundAnalysisEnabled;
+- (id)_hasPgPromptTier1;
+- (void)PSEAPPFOLLOWUP_NO_APP_FOLLOWUP;
+- (void)INVOCATIONSOURCE_DICTATION_POP_UP_UI_LANGUAGE_SWITCHER_ICON;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

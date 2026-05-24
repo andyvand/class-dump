@@ -5,5 +5,11 @@
 //
 
 @protocol IDSXPCInternalTesting
+- (void);
+- (void);
+- (void)*H;
+- (void);
+- (void)jh8mS;
+- (void);
 @end
 

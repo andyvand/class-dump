@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutManager, NSMutableArray, NSString;
-@protocol AXVMenuTableViewMouseEventDelegate;
+@class NSLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface AXVMenuTableView
 {
     _Bool _isHighContrast;
-    _Bool __hasSubmenuIndicators;
-    double _menuItemFontSize;
-    NSMutableArray *_menuItems;
-    id <AXVMenuTableViewMouseEventDelegate> _mouseEventDelegate;
-    NSLayoutManager *__layoutManager;
-    long long __selectedRowIndex;
 }
 
 - (void);
@@ -28,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -47,20 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool _hasSubmenuIndicators; // @synthesize _hasSubmenuIndicators=__hasSubmenuIndicators;
 @property(retain, nonatomic, setter=_setLayoutManager:) NSLayoutManager *_layoutManager; // @synthesize _layoutManager=__layoutManager;
-@property(nonatomic, setter=_setSelectedRowIndex:) long long _selectedRowIndex; // @synthesize _selectedRowIndex=__selectedRowIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHighContrast; // @synthesize isHighContrast=_isHighContrast;
-@property(nonatomic) double menuItemFontSize; // @synthesize menuItemFontSize=_menuItemFontSize;
-@property(retain, nonatomic) NSMutableArray *menuItems; // @synthesize menuItems=_menuItems;
-@property(nonatomic) __weak id <AXVMenuTableViewMouseEventDelegate> mouseEventDelegate; // @synthesize mouseEventDelegate=_mouseEventDelegate;
-@property(readonly) Class superclass;
 
 @end
 

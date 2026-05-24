@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, __NSFontTypefaceInfo;
-
 @interface __NSFontExtraData
 {
     double _ascender;
-    double _lineHeight;
-    struct {
-        unsigned int _isSystemFont:1;
-        unsigned int _isIBScaledFont:1;
-        unsigned int _hasVerticalMetrics:2;
-        unsigned int _isUIFont:1;
-        unsigned int _renderingMode:3;
-        unsigned int _systemFontType:8;
-        unsigned int _appearanceSize:1;
-        unsigned int _forceAscenderDelta:1;
-        unsigned int _isHiragino:1;
-    } _fFlags;
-    struct CGAffineTransform _matrix;
-    double _defaultLineHeight;
-    double _defaultLineHeightForUI;
-    double _ascenderDelta;
-    __NSFontTypefaceInfo *_typeface;
-    double *_glyphAdvancementCache;
-    id _key;
-    NSString *_textStyleForScaling;
-    double _pointSizeForScaling;
-    double _maximumPointSizeAfterScaling;
 }
 
 - (_Bool);

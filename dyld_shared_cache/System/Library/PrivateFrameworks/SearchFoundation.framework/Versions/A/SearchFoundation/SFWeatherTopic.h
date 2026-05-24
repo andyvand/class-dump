@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFQueryTopic.h>
 
-@class NSString, SFLatLng;
+@class SFLatLng;
 
 @interface SFWeatherTopic : SFQueryTopic
 {
@@ -16,28 +16,18 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)aque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}};
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)";
+- (void)@0:(id)arg1 8@16B24;
+- (id)_PHResourceLocalAvailabilityRequestResourceTypeVideoComplement;
 - (id);
-- (id);
-- (void)rtSearch: /* Error: Ran out of types for this method. */;
+- (void)initWithStartSearch: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(copy, nonatomic) SFLatLng *location; // @synthesize location=_location;
-@property(readonly, copy, nonatomic) NSString *query;
-@property(readonly, nonatomic) int queryType;
-@property(readonly) Class superclass;
 
 @end
 

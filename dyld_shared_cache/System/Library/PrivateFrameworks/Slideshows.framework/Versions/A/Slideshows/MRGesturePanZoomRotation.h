@@ -7,21 +7,6 @@
 @interface MRGesturePanZoomRotation
 {
     double time;
-    double x;
-    double y;
-    double deltaX;
-    double deltaY;
-    double scale;
-    double rotation;
-    double speedX;
-    double speedY;
-    double speedScale;
-    double speedRotation;
-    unsigned char direction;
-    unsigned char countOfTouches;
-    _Bool okToAnimate;
-    _Bool isInFocusMode;
-    _Bool isInZoomMode;
 }
 
 @end

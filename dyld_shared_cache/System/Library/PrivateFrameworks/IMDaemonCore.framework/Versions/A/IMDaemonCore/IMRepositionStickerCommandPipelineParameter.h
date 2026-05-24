@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorStickerAttachmentInfo, IMDAccount, IMDChat, IMDServiceSession, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface IMRepositionStickerCommandPipelineParameter
 {
     _Bool _isFromStorage;
-    _Bool _isLastFromStorage;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    NSString *_GUID;
-    NSDictionary *_batchContext;
-    NSString *_replicationSourceServiceName;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
-    BlastDoorStickerAttachmentInfo *_stickerAttachmentInfo;
-    NSString *_stickerEditedMessageGuid;
-    NSArray *_messageItems;
-    IMDChat *_chat;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -32,10 +20,10 @@
 - (void);
 - (id);
 - (id);
+- (id)qa;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool).videoQueue;
 - (void);
 - (id);
 - (void);
@@ -48,19 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *batchContext; // @synthesize batchContext=_batchContext;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
 @property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) _Bool isFromStorage; // @synthesize isFromStorage=_isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage; // @synthesize isLastFromStorage=_isLastFromStorage;
-@property(copy, nonatomic) NSArray *messageItems; // @synthesize messageItems=_messageItems;
-@property(copy, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(readonly, copy, nonatomic) BlastDoorStickerAttachmentInfo *stickerAttachmentInfo; // @synthesize stickerAttachmentInfo=_stickerAttachmentInfo;
-@property(readonly, copy, nonatomic) NSString *stickerEditedMessageGuid; // @synthesize stickerEditedMessageGuid=_stickerEditedMessageGuid;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

@@ -6,56 +6,39 @@
 
 #import <FrontBoardServices/FBSSceneAction.h>
 
-@class BSActionResponder, BSSettings, FBSSceneSnapshotRequestHandle, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface FBSSceneSnapshotAction : FBSSceneAction
 {
     NSMutableArray *_requests;
-    CDUnknownBlockType _requestHandler;
-    CDUnknownBlockType _completionHandler;
-    FBSSceneSnapshotRequestHandle *_outgoingRequestHandle;
-    int _expired;
-    BSActionResponder *_responder;
-    BSSettings *_clientExtendedData;
 }
 
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool){H뗨'f)	*H;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType)̉;
 - (void);
 - (_Bool);
-- (id);
+- (id)communicationOptions;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (Class);
-- (double);
+- (double)postProcessNameComponents: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) BSSettings *clientExtendedData; // @synthesize clientExtendedData=_clientExtendedData;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expirationInterval; // @dynamic expirationInterval;
-@property(readonly, getter=isExpired) _Bool expired; // @dynamic expired;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType requestHandler; // @synthesize requestHandler=_requestHandler;
-@property(readonly) Class superclass;
 
 @end
 

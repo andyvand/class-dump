@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSMutableDictionary, NSString;
+@class CKRecordZoneID, NSMutableDictionary;
 
 @interface PKCloudRecordArrayDatabaseZone
 {
     CKRecordZoneID *_zoneID;
-    NSString *_databaseIdentifier;
-    NSMutableDictionary *_cloudRecordByZoneRecord;
 }
 
 + (_Bool)0@ù
@@ -30,7 +28,7 @@
 - (void);
 - (id);
 - (long long)a;
-- (void)s;
+- (void)values;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cloudRecordByZoneRecord; // @synthesize cloudRecordByZoneRecord=_cloudRecordByZoneRecord;

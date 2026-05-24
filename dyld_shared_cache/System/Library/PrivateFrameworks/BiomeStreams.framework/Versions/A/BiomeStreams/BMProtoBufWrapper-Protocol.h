@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PBCodable;
+
 @protocol BMProtoBufWrapper
-- (id)__a__expr__pack_to_buffer;
+- (PBCodable *)e8痣;
+- (id)pg_query__a__expr__pack_to_buffer;
 @end
 

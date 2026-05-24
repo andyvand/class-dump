@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBReader : OCBReader
 {
     struct PptObjectFactory *mPptObjectFactory;
-    const void *mBuffer;
 }
 
 - (void *);

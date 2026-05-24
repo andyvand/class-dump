@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisparityWeightsV3 : CIFilter
 {
     CIImage *inputImage;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputScale;
 }
 
 - (id);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

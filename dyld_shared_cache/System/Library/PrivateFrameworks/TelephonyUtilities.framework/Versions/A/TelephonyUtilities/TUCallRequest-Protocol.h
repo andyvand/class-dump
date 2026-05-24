@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol TUCallRequest
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *uniqueProxyIdentifier;

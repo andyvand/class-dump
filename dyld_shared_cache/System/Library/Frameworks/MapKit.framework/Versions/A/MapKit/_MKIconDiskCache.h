@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _MKIconDiskCache
 {
     NSURL *_directoryURL;
-    NSObject<OS_dispatch_queue> *_storingQueue;
-    NSLock *_lock;
-    NSMutableArray *_inProgressUUIDs;
 }
 
 - (id);
@@ -21,17 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)ourOptions: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (void)setGeoMapItemOpeningHourOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

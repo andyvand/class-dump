@@ -7,8 +7,6 @@
 @interface Photos.PHDatabaseStatisticsTracker.State__priv_73DA1AED3537CD5AB4BDC028C1566D6D
 {
     id activeContexts;
-    id isGatheringEnabled;
-    id sqlStatements;
 }
 
 @end

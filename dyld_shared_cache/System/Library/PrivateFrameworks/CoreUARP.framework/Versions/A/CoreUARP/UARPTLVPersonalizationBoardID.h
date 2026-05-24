@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)g off download of transfer guids:%s from message guids:%s. /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)};
 - (id);
-- (id);
+- (id)AMSSQLiteQueryDescriptor;
 
 // Remaining properties
 @property(readonly) unsigned int boardID; // @synthesize boardID=_boardID;

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSTextCheckingKeyEvent
 {
     long long _layoutType;
-    unsigned long long _keyboardType;
-    NSString *_identifier;
-    NSString *_primaryLanguage;
-    unsigned long long _flags;
-    double _time;
-    NSString *_keys;
-    NSString *_ukeys;
 }
 
 + (_Bool)oded by non-keyed archivers;
@@ -31,21 +22,14 @@
 - (double);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (id)0@ù
 × ;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *characters;
-@property(readonly, copy) NSString *charactersIgnoringModifiers;
-@property(readonly) unsigned long long flags;
-@property(readonly, copy) NSString *keyboardLayoutIdentifier;
 @property(readonly) long long keyboardLayoutType;
-@property(readonly) unsigned long long keyboardType;
-@property(readonly, copy) NSString *primaryLanguage;
-@property(readonly) double timestamp;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface ADTransparencyDetails
 {
     NSString *_transparencyDetailsUnavailableMessage;
-    NSString *_transparencyRendererPayload;
-    NSString *_transparencyRendererURL;
 }
 
 - (id);
@@ -24,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,11 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTransparencyDetailsUnavailableMessage;
-@property(readonly, nonatomic) _Bool hasTransparencyRendererPayload;
-@property(readonly, nonatomic) _Bool hasTransparencyRendererURL;
-@property(retain, nonatomic) NSString *transparencyDetailsUnavailableMessage; // @synthesize transparencyDetailsUnavailableMessage=_transparencyDetailsUnavailableMessage;
-@property(retain, nonatomic) NSString *transparencyRendererPayload; // @synthesize transparencyRendererPayload=_transparencyRendererPayload;
-@property(retain, nonatomic) NSString *transparencyRendererURL; // @synthesize transparencyRendererURL=_transparencyRendererURL;
 
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFCHardwareManager, NSNumber, NSObject, NSString;
-@protocol NFCReaderSession, NFTag, OS_dispatch_queue;
+@class NFCHardwareManager, NSNumber;
+@protocol NFTag;
 
 @interface NFCTag
 {
     id <NFTag> _tag;
     NSNumber *_sessionKey;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct os_unfair_lock_s _lock;
-    long long _configuration;
-    NFCHardwareManager *_hardwareManager;
 }
 
 + (double);
@@ -23,27 +19,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (id)ɚ
+;
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
@@ -58,24 +55,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)?;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
 @property(readonly, nonatomic) long long configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NFCHardwareManager *hardwareManager; // @synthesize hardwareManager=_hardwareManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <NFCReaderSession> session;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

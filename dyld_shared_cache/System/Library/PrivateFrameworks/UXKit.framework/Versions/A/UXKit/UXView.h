@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSVisualEffectView, UXViewController;
+@class UXViewController;
 
 @interface UXView
 {
     _Bool _blurEnabled;
-    long long _blurMaterial;
-    NSColor *_backgroundColor;
-    NSColor *_borderColor;
-    struct NSEdgeInsets _frozenSafeAreaInsets;
-    NSVisualEffectView *_contentBackgroundVisualEffectsView;
-    _Bool _opaque;
-    _Bool _exclusiveTouch;
-    _Bool _userInteractionEnabled;
-    _Bool _needsContentBackgroundVisualEffect;
-    _Bool _accessibilityChildrenHidden;
-    UXViewController *_viewControllerProxy;
-    NSVisualEffectView *__visualEffectsView;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,16 +36,16 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)_handleContentModeChange: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (id);
 - (id);
@@ -76,30 +64,17 @@
 - (struct NSEdgeInsets);
 - (void);
 - (void);
-- (void);
+- (void)@:(id)arg1 radius=%f,softness=%f,opacity=%f,pointCount=%lu,extent=%@>;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)dexPathsAreContiguous;
+- (void)_initialIndexPathsAreContiguous;
 - (id)=dd}}8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSVisualEffectView *_visualEffectsView; // @synthesize _visualEffectsView=__visualEffectsView;
-@property(nonatomic) _Bool accessibilityChildrenHidden; // @synthesize accessibilityChildrenHidden=_accessibilityChildrenHidden;
-@property(copy) NSColor *backgroundColor; // @dynamic backgroundColor;
-@property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(readonly, nonatomic) struct CGPoint center;
-@property(nonatomic) long long contentMode;
-@property(readonly, nonatomic) long long effectiveUserInterfaceLayoutDirection;
-@property(nonatomic, getter=isExclusiveTouch) _Bool exclusiveTouch; // @synthesize exclusiveTouch=_exclusiveTouch;
-@property(nonatomic) _Bool needsContentBackgroundVisualEffect; // @synthesize needsContentBackgroundVisualEffect=_needsContentBackgroundVisualEffect;
-@property(getter=isOpaque) _Bool opaque; // @synthesize opaque=_opaque;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 @property(nonatomic) __weak UXViewController *viewControllerProxy; // @synthesize viewControllerProxy=_viewControllerProxy;
-@property(nonatomic) _Bool wantsSafeAreaInsetsFrozen;
 
 @end
 

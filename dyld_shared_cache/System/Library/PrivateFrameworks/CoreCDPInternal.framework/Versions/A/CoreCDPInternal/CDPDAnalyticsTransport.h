@@ -4,66 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFAnalyticsTransportInProcessRTC, CDPDTTRController, NSNumber, NSString;
+@class NSNumber;
 
 @interface CDPDAnalyticsTransport
 {
     NSNumber *_clientType;
-    NSString *_clientBundleId;
-    NSString *_clientName;
-    CDPDTTRController *_ttrController;
-    AAFAnalyticsTransportInProcessRTC *_transport;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)SegmentedControlWithDynamicWidth;
++ (id)SecurePreferencesModule;
++ (_Bool)ReaderizedArticleFetcherNavigationDelegate;
++ (id)PerSitePreferencePopUpButton;
++ (id)PerSitePreferencesPopoverItem;
++ (id)PerSitePreferenceCheckBoxItemViewController;
++ (id)PerSitePreferenceCheckBoxItemViewController;
++ (id)PasswordsExporter;
++ (id)PasswordGenerationImageViewWithBadge;
++ (id)PasswordGenerationAssistanceAutoFillCellView;
++ (id)PassKitController;
++ (id)PassDownloadSuppressionManager;
++ (id)ParsecFeatureNotificationViewController;
++ (id)ParsecFeatureNotificationViewController;
++ (id)PageWithHeaderViewDelegate;
++ (id)PageWithHeaderViewController;
++ (id)PageWithHeaderView;
++ (id)PageTestHandler;
++ (id)PagePreviewViewController;
++ (void)BrowserInputDelegate;
++ (id)KeyLoopSplicingContainerView;
++ (id)FavoritesPickerVisibilityManagerDataSource;
 + (void);
 + (id);
-+ (id);
-+ (void);
-+ (id);
+- (id)StartPageCollectionSectionTitleViewDelegate;
+- (_Bool)SiteMetadataFetcherClient;
+- (void)SingleCreditCardDataAutoFillCellView;
+- (void)SafariWBTabGroupExtras;
+- (id)ReaderTestArticleContentBeautifier;
+- (void)PrivacyReportPopoverViewController;
+- (void)PrivacyProxyDisabledStatusSection;
+- (void)PopupWindowUnifiedField;
+- (void)TabDraggingInfo;
+- (id)MessageTracerBucketer;
+- (void)ImportedFirefoxCredential;
+- (id)SafariNSTableRowViewExtras;
+- (void)CollectionViewPlusDelegate;
+- (void)CLLocationManagerDelegate;
+- (_Bool)EnableDevelopMenuButtonServiceViewController;
+- (_Bool)WBSPerSitePreferenceManagerDefaultsDelegate;
+- (_Bool)CredentialCompletionAutoFillCellView;
+- (void)ContentHuggingTextField;
+- (void)WBSCloudBookmarksMigrationCoordinatorLocalDataProvider;
+- (id)CloudBookmarksMigrationCoordinationConsul;
 - (id);
-- (_Bool);
+- (id)prerequisiteReleaseType;
+- (void)NSt3__120__shared_ptr_emplaceI19CSonySR2ImageParserNS_9allocatorIS1_EEEE;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (oneway void);
+- (oneway void)(;
 - (void);
 - (void);
 - (id);
@@ -73,18 +69,7 @@
 - (id)record's label has prefix '%@';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientBundleId; // @synthesize clientBundleId=_clientBundleId;
-@property(copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
 @property(copy, nonatomic) NSNumber *clientType; // @synthesize clientType=_clientType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AAFAnalyticsTransportInProcessRTC *transport; // @synthesize transport=_transport;
-@property(retain, nonatomic) CDPDTTRController *ttrController; // @synthesize ttrController=_ttrController;
 
 @end
 

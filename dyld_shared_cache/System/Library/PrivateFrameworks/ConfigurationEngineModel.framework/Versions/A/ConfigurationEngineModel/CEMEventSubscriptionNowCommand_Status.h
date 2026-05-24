@@ -11,7 +11,6 @@
 @interface CEMEventSubscriptionNowCommand_Status : CEMPayloadBase
 {
     NSArray *_statusInactiveEvents;
-    NSArray *_statusUnknownEvents;
 }
 
 + (id);
@@ -23,12 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)arameterInfoTable.size();
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *statusInactiveEvents; // @synthesize statusInactiveEvents=_statusInactiveEvents;
-@property(copy, nonatomic) NSArray *statusUnknownEvents; // @synthesize statusUnknownEvents=_statusUnknownEvents;
 
 @end
 

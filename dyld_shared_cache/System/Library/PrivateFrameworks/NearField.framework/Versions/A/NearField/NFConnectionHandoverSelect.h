@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-@protocol NFConnectionHandoverTransportServiceValue;
+@class NSString;
 
 @interface NFConnectionHandoverSelect
 {
     NSString *_version;
-    NSString *_applicationLabel;
-    id <NFConnectionHandoverTransportServiceValue> _userInfo;
-    NSArray *_transportServiceList;
-    NSNumber *_retryInMS;
-    NSNumber *_retryRandom;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4T;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)IY6m;
+- (id)m;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *applicationLabel; // @synthesize applicationLabel=_applicationLabel;
-@property(retain, nonatomic) NSNumber *retryInMS; // @synthesize retryInMS=_retryInMS;
-@property(retain, nonatomic) NSNumber *retryRandom; // @synthesize retryRandom=_retryRandom;
-@property(retain, nonatomic) NSArray *transportServiceList; // @synthesize transportServiceList=_transportServiceList;
-@property(retain, nonatomic) id <NFConnectionHandoverTransportServiceValue> userInfo; // @synthesize userInfo=_userInfo;
 @property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

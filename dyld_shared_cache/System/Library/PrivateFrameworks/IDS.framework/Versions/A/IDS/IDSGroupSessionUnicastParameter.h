@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_nw_endpoint, OS_nw_parameters;
+@class NSString;
 
 @interface IDSGroupSessionUnicastParameter
 {
     int _socket;
-    NSString *_groupSessionID;
-    unsigned long long _localParticipantID;
-    unsigned long long _remoteParticipantID;
-    NSData *_salt;
-    unsigned long long _connectionIndex;
-    long long _dataMode;
-    NSObject<OS_nw_parameters> *_parameters;
-    NSObject<OS_nw_endpoint> *_endpoint;
 }
 
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (int);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)uffer length for IP list (%d).;
 - (void);
 - (id);
 - (id);
@@ -45,15 +36,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long connectionIndex; // @synthesize connectionIndex=_connectionIndex;
-@property(readonly, nonatomic) long long dataMode; // @synthesize dataMode=_dataMode;
-@property(readonly, nonatomic) NSObject<OS_nw_endpoint> *endpoint; // @synthesize endpoint=_endpoint;
 @property(readonly, nonatomic) NSString *groupSessionID; // @synthesize groupSessionID=_groupSessionID;
-@property(readonly, nonatomic) unsigned long long localParticipantID; // @synthesize localParticipantID=_localParticipantID;
-@property(readonly, nonatomic) NSObject<OS_nw_parameters> *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) unsigned long long remoteParticipantID; // @synthesize remoteParticipantID=_remoteParticipantID;
-@property(readonly, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property int socket; // @synthesize socket=_socket;
 
 @end
 

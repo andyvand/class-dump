@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CAARSchemaCAARClientEventMetadata, CAARSchemaCAARFeaturesGenerated, CAARSchemaCAARModelExecuted, CAARSchemaCAARRequestContext, CAARSchemaCAARTieBreakersExecuted, NSData, SISchemaInstrumentationMessage;
+@class CAARSchemaCAARClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CAARSchemaCAARClientEvent : SISchemaTopLevelUnionType
 {
     CAARSchemaCAARClientEventMetadata *_eventMetadata;
-    CAARSchemaCAARRequestContext *_caarRequestContext;
-    CAARSchemaCAARFeaturesGenerated *_featuresGenerated;
-    CAARSchemaCAARModelExecuted *_modelExecuted;
-    CAARSchemaCAARTieBreakersExecuted *_tieBreakersExecuted;
-    _Bool _hasEventMetadata;
-    _Bool _hasCaarRequestContext;
-    _Bool _hasFeaturesGenerated;
-    _Bool _hasModelExecuted;
-    _Bool _hasTieBreakersExecuted;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -37,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,7 +43,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (int);
 - (id);
 - (void);
@@ -62,7 +52,7 @@
 - (_Bool);
 - (id);
 - (id)austiveParses"b1"hasVoiceCommandParses"b1"hasVoiceCommandEditIntent"b1"hasVoiceCommandAfterReranking"b1"hasNoVoiceCommandAfterRespeakCheck"b1};
-- (id)nabled;
+- (id)deleteSiriUODEnabled;
 - (unsigned long long)RENCESchemaINFERENCEEuclidServiceMetrics",&,N,V_euclidServiceMetrics;
 - (id)	
 ;
@@ -71,19 +61,7 @@
 - (void)­±&;
 
 // Remaining properties
-@property(retain, nonatomic) CAARSchemaCAARRequestContext *caarRequestContext; // @synthesize caarRequestContext=_caarRequestContext;
-@property(retain, nonatomic) CAARSchemaCAARClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) CAARSchemaCAARFeaturesGenerated *featuresGenerated; // @synthesize featuresGenerated=_featuresGenerated;
-@property(nonatomic) _Bool hasCaarRequestContext; // @synthesize hasCaarRequestContext=_hasCaarRequestContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFeaturesGenerated; // @synthesize hasFeaturesGenerated=_hasFeaturesGenerated;
-@property(nonatomic) _Bool hasModelExecuted; // @synthesize hasModelExecuted=_hasModelExecuted;
-@property(nonatomic) _Bool hasTieBreakersExecuted; // @synthesize hasTieBreakersExecuted=_hasTieBreakersExecuted;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CAARSchemaCAARModelExecuted *modelExecuted; // @synthesize modelExecuted=_modelExecuted;
-@property(retain, nonatomic) CAARSchemaCAARTieBreakersExecuted *tieBreakersExecuted; // @synthesize tieBreakersExecuted=_tieBreakersExecuted;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

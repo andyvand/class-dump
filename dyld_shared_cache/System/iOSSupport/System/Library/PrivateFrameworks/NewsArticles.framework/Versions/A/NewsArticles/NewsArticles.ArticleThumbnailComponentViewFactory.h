@@ -9,18 +9,15 @@
 @interface NewsArticles.ArticleThumbnailComponentViewFactory
 {
     id renderingView;
-    id resolver;
-    id linkedContentProvider;
 }
 
 - (id);
 - (id);
 - (id);
 - (int);
-- (void)outeFactory;
+- (void)articleRouteFactory;
 
 // Remaining properties
-@property(nonatomic, readonly) int role;
 @property(nonatomic, readonly) NSString *type;
 
 @end

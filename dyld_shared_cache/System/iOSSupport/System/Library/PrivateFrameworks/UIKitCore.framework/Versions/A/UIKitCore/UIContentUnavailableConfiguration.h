@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIBackgroundConfiguration, UIButtonConfiguration, UIContentUnavailableButtonProperties, UIContentUnavailableImageProperties, UIContentUnavailableTextProperties, UIImage;
-
 @interface UIContentUnavailableConfiguration
 {
     struct {
@@ -17,27 +15,13 @@
         unsigned int hasCustomizedTextToButtonPadding:1;
         unsigned int hasCustomizedButtonToSecondaryButtonPadding:1;
     } _configurationFlags;
-    _Bool _prefersSideBySideButtonAndSecondaryButton;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    double _imageToTextPadding;
-    double _textToSecondaryTextPadding;
-    double _textToButtonPadding;
-    double _buttonToSecondaryButtonPadding;
-    long long _defaultStyle;
-    UIContentUnavailableImageProperties *_imageProperties;
-    UIContentUnavailableTextProperties *_textProperties;
-    UIContentUnavailableTextProperties *_secondaryTextProperties;
-    UIContentUnavailableButtonProperties *_buttonProperties;
-    UIContentUnavailableButtonProperties *_secondaryButtonProperties;
-    UIBackgroundConfiguration *_background;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 - (double);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)buildWithIdentifier:(long long)arg1 withName:withCertificateIdentifier: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (struct NSDirectionalEdgeInsets);
@@ -45,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setSecondaryLabel:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
@@ -63,23 +47,23 @@
 - (void)asing"b1"guardAgainstDegenerateBaselineCalculation"b1"preferredImageDynamicRange"b2"animateHDRHeadroomUsageTraitChange"b1};
 - (void){CGPoint=dd}{CGPoint=dd}}32B96;
 - (long long)ipeActionController"16@"UIView"24@"UIView"32@"UIContextualAction"40@"NSIndexPath"48{?=QQBddd}56@?<v@?B>104;
-- (void)tcherTimer;
-- (id)esizing;
-- (void)tiesWithSet:(double)arg1;
-- (_Bool)forKey:(id)arg1;
-- (void)shotViewForPreview:(id)arg1;
-- (void)izeAndWeight;
-- (void)ings;
-- (double)edViewForTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
-- (void)DetectionController;
-- (void)ntingViewControllerHierarchy;
+- (void)touchShowSwitcherTimer;
+- (id)stopResizing;
+- (void)intersectingPrioritiesWithSet:(double)arg1;
+- (_Bool)encodeRect:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)createSnapshotViewForPreview:(id)arg1;
+- (void)configurationWithUnspecifiedPointSizeAndWeight;
+- (void)_useImageSettings;
+- (double)_topArrowPinnedViewForTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)_targetDetectionController;
+- (void)_descriptionForPrintingViewControllerHierarchy;
 - (_Bool),&,VzoomInShowcase;
 - (id)ô¸;
 - (void)$l"È0Ì;
 - (void)ew controller:(id)arg1 %@;
 - (unsigned long long)tRectForPosition:with a position beyond the NSTextStorage (%ld) /* Error: Ran out of types for this method. */;
-- (id)Size;
-- (void)buteValueLinear;
+- (id)UISolariumFocusSpecularHighlightMaxSize;
+- (void)UIKBAttributeValueLinear;
 - (void);
 - (id)Åº13´0qþ»13ûlþE»13¤ûlþ»13´ûlþ;
 - (double);
@@ -111,43 +95,7 @@
 - (void)Ï®n;
 
 // Remaining properties
-@property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(nonatomic, setter=_setButtonToSecondaryButtonPadding:) double _buttonToSecondaryButtonPadding; // @synthesize _buttonToSecondaryButtonPadding;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic, setter=_setImageToTextPadding:) double _imageToTextPadding; // @synthesize _imageToTextPadding;
-@property(readonly, nonatomic) _Bool _prefersActivityIndicator;
 @property(nonatomic, setter=_setPrefersSideBySideButtonAndSecondaryButton:) _Bool _prefersSideBySideButtonAndSecondaryButton; // @synthesize _prefersSideBySideButtonAndSecondaryButton;
-@property(nonatomic, setter=_setTextToButtonPadding:) double _textToButtonPadding; // @synthesize _textToButtonPadding;
-@property(nonatomic, setter=_setTextToSecondaryTextPadding:) double _textToSecondaryTextPadding; // @synthesize _textToSecondaryTextPadding;
-@property(nonatomic) long long alignment;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(retain, nonatomic) UIBackgroundConfiguration *background; // @synthesize background=_background;
-@property(retain, nonatomic) UIButtonConfiguration *button;
-@property(readonly, nonatomic) UIContentUnavailableButtonProperties *buttonProperties; // @synthesize buttonProperties=_buttonProperties;
-@property(nonatomic) double buttonToSecondaryButtonPadding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image;
-@property(readonly, nonatomic) UIContentUnavailableImageProperties *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(nonatomic) double imageToTextPadding;
-@property(nonatomic) _Bool prefersSideBySideButtonAndSecondaryButton;
-@property(copy, nonatomic) NSAttributedString *secondaryAttributedText;
-@property(retain, nonatomic) UIButtonConfiguration *secondaryButton;
-@property(readonly, nonatomic) UIContentUnavailableButtonProperties *secondaryButtonProperties; // @synthesize secondaryButtonProperties=_secondaryButtonProperties;
-@property(copy, nonatomic) NSString *secondaryText;
-@property(readonly, nonatomic) UIContentUnavailableTextProperties *secondaryTextProperties; // @synthesize secondaryTextProperties=_secondaryTextProperties;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
-@property(readonly, nonatomic) UIContentUnavailableTextProperties *textProperties; // @synthesize textProperties=_textProperties;
-@property(nonatomic) double textToButtonPadding;
-@property(nonatomic) double textToSecondaryTextPadding;
 
 @end
 

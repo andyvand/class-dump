@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRNowPlayingPlayerProtobuf
 {
     struct {
@@ -13,21 +11,12 @@
         unsigned long long count;
         unsigned long long size;
     } _mxSessionIDs;
-    unsigned int _audioSessionID;
-    int _audioSessionType;
-    NSString *_displayName;
-    NSString *_iconURL;
-    NSString *_identifier;
-    struct {
-        unsigned int audioSessionID:1;
-        unsigned int audioSessionType:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -36,20 +25,20 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)setIsRCSSendWithoutEncryption: /* Error: Ran out of types for this method. */;
 - (id);
+- (long long *)llpaperMetadata;
+- (long long)NSAttributedString;
 - (id);
-- (long long *);
-- (long long);
-- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (id)nceStatusManager saeAvailable];
 - (id);
 - (_Bool);
 - (_Bool);
@@ -57,23 +46,12 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (void)eredForEndpointInvalidations;
-- (unsigned int);
-- (void)pe;
+- (void)_registeredForEndpointInvalidations;
+- (unsigned int)homeKitUserIdentifier;
+- (void)actionType;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(nonatomic) int audioSessionType; // @synthesize audioSessionType=_audioSessionType;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hasAudioSessionID;
-@property(nonatomic) _Bool hasAudioSessionType;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasIconURL;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *iconURL; // @synthesize iconURL=_iconURL;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long *mxSessionIDs;
-@property(readonly, nonatomic) unsigned long long mxSessionIDsCount;
 
 @end
 

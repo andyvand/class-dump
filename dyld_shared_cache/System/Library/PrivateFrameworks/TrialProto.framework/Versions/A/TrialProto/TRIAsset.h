@@ -16,19 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetId; // @dynamic assetId;
-@property(nonatomic) int cloudKitContainer; // @dynamic cloudKitContainer;
-@property(nonatomic) unsigned int cloudKitIndex; // @dynamic cloudKitIndex;
-@property(nonatomic) _Bool hasAssetId; // @dynamic hasAssetId;
-@property(nonatomic) _Bool hasCloudKitContainer; // @dynamic hasCloudKitContainer;
-@property(nonatomic) _Bool hasCloudKitIndex; // @dynamic hasCloudKitIndex;
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasSigned_p; // @dynamic hasSigned_p;
-@property(nonatomic) _Bool hasSize; // @dynamic hasSize;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) _Bool signed_p; // @dynamic signed_p;
-@property(nonatomic) unsigned long long size; // @dynamic size;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotoStyleCollection.Mutator
 {
     id observable;
-    id _selectedIndex;
 }
 
 @end

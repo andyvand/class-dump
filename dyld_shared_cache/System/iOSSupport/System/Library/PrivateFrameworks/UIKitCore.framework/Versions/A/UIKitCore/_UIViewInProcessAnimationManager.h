@@ -8,14 +8,14 @@
 {
 }
 
-+ (void);
-+ (_Bool);
++ (void)CEMApplicationInstallDeclaration;
++ (_Bool)_persistentIDsPredicate;
 + (void);
 + (void);
 + (void);
 + (void)0@ù
 × ;
-+ (void)tURL:toURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
++ (void)displayForCopyingFileAtURL:toURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
 + (void)õ;
 + (void);
 + (_Bool)øÌô0e;

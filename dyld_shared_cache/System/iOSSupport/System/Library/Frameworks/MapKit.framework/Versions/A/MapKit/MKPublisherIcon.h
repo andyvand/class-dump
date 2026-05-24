@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface MKPublisherIcon
 {
     UIImage *_publisherImage;
-    NSString *_publisherName;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ponse: /* Error: Ran out of types for this method. */;
+- (void)configureWithExploreGuidesResponse: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *publisherImage; // @synthesize publisherImage=_publisherImage;
-@property(readonly, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
 
 @end
 

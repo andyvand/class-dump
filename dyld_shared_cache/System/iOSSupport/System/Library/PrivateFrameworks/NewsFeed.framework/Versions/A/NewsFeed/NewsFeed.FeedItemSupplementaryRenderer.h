@@ -7,12 +7,6 @@
 @interface NewsFeed.FeedItemSupplementaryRenderer
 {
     id colorPaletteProvider;
-    id formatLayoutViewRenderer;
-    id internalErrorViewRenderer;
-    id formatHeaderRegistrationIdentifiers;
-    id formatFooterRegistrationIdentifiers;
-    id debugEnabled;
-    id transition;
 }
 
 @end

@@ -7,10 +7,10 @@
 @class MPSectionedCollection, NSIndexPath;
 
 @protocol MPCMediaRemoteMiddlewareModelObjectsProviding
+- (NSIndexPath *)6@0:8 /* Error: Ran out of types for this method. */;
+- (MPSectionedCollection *);
 
 // Remaining properties
-@property(readonly, nonatomic) MPSectionedCollection *modelObjects;
-@property(readonly, copy, nonatomic) NSIndexPath *playingIndexPath;
 @property(readonly, nonatomic) MPSectionedCollection *sourceContentItems;
 @end
 

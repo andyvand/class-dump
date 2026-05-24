@@ -16,11 +16,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)G;
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)N8Espresso21kernel_with_uniforms_INS_22inner_product_uniformsENS_34abstract_kernel_with_weights_grad_EEE;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);

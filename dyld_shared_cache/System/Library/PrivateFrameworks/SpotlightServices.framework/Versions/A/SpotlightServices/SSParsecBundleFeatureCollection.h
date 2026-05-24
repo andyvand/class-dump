@@ -9,17 +9,6 @@
 @interface SSParsecBundleFeatureCollection
 {
     NSNumber *_numResults;
-    NSNumber *_maxScore;
-    NSNumber *_originalOrderAbsRank;
-    NSNumber *_originalOrderRelRank;
-    NSNumber *_maxCEPAbsRank;
-    NSNumber *_maxCEPRelRank;
-    NSNumber *_cep;
-    NSNumber *_cepMaxRatio;
-    NSNumber *_cepAllMaxRatio;
-    NSNumber *_blockIdValue;
-    NSNumber *_maxScoreAbsRank;
-    NSNumber *_maxScoreRelRank;
 }
 
 - (void);
@@ -34,34 +23,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setSize: /* Error: Ran out of types for this method. */;
+- (id)setShowsControls: /* Error: Ran out of types for this method. */;
+- (id)setIsSolariumEnabled: /* Error: Ran out of types for this method. */;
+- (void)selectItemWithTitle:(id)arg1;
+- (id)ruleDictionaryForStyle: /* Error: Ran out of types for this method. */;
+- (void)playerLayerWithPlayer:(id)arg1;
+- (id)phoneNumber;
+- (id)overlaidTextColor;
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)ttedWorldClockResultsFromTimeZoneLocations:shouldEmphasizeTimeZone:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)getFormattedWorldClockResultsFromTimeZoneLocations:shouldEmphasizeTimeZone:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *blockIdValue; // @synthesize blockIdValue=_blockIdValue;
-@property(retain, nonatomic) NSNumber *cep; // @synthesize cep=_cep;
-@property(retain, nonatomic) NSNumber *cepAllMaxRatio; // @synthesize cepAllMaxRatio=_cepAllMaxRatio;
-@property(retain, nonatomic) NSNumber *cepMaxRatio; // @synthesize cepMaxRatio=_cepMaxRatio;
-@property(retain, nonatomic) NSNumber *maxCEPAbsRank; // @synthesize maxCEPAbsRank=_maxCEPAbsRank;
-@property(retain, nonatomic) NSNumber *maxCEPRelRank; // @synthesize maxCEPRelRank=_maxCEPRelRank;
-@property(retain, nonatomic) NSNumber *maxScore; // @synthesize maxScore=_maxScore;
-@property(retain, nonatomic) NSNumber *maxScoreAbsRank; // @synthesize maxScoreAbsRank=_maxScoreAbsRank;
-@property(retain, nonatomic) NSNumber *maxScoreRelRank; // @synthesize maxScoreRelRank=_maxScoreRelRank;
 @property(retain, nonatomic) NSNumber *numResults; // @synthesize numResults=_numResults;
-@property(retain, nonatomic) NSNumber *originalOrderAbsRank; // @synthesize originalOrderAbsRank=_originalOrderAbsRank;
-@property(retain, nonatomic) NSNumber *originalOrderRelRank; // @synthesize originalOrderRelRank=_originalOrderRelRank;
 
 @end
 

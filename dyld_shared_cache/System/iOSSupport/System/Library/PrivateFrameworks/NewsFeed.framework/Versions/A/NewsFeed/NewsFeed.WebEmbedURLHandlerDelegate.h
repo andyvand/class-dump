@@ -7,9 +7,6 @@
 @interface NewsFeed.WebEmbedURLHandlerDelegate
 {
     id webLinkPresentingViewController;
-    id webEmbedIdentifier;
-    id tipManager;
-    id webEmbedCoordinator;
 }
 
 - (void);

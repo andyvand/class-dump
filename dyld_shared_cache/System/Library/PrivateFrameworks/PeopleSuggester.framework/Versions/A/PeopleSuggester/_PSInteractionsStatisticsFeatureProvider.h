@@ -11,9 +11,9 @@
     NSMutableDictionary *_mlFeatures;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)_enrollmentUIUtteranceTrainingAttempted;
+- (id)_buildInstallationTimestampInSecondsSince1970;
+- (id)_appAssetPath;
 - (id);
 - (void);
 

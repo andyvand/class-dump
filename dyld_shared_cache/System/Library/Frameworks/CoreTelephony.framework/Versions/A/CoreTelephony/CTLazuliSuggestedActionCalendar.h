@@ -11,15 +11,15 @@
     CTLazuliChatBotCreateCalendarEvent *_event;
 }
 
-+ (_Bool);
++ (_Bool)playbackDuration;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (_Bool);
-- (void);
-- (id);
+- (void)_synchronousRemoteContext;
+- (id)c;
 - (void);
 - (void)øÿ^wF;];
 

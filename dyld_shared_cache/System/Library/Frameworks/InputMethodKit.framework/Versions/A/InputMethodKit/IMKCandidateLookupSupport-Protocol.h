@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol IMKCandidateDictionaryLookupSupport;
+
 @protocol IMKCandidateLookupSupport
+- (id <IMKCandidateDictionaryLookupSupport>)M藁;
 @end
 

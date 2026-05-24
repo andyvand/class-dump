@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)<;
 
 @end
 

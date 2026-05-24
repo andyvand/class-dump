@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, _UIEditMenuPresentation;
+@class UIScene, _UIEditMenuPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuSceneComponent
@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)0@ù
 × ;
-- (void)redKeyList;
+- (void)orderedKeyList;
 - (void)quidLensViewSmallVariantSpec",N,&,Vsmall;
 - (id)èæçè¬è	pé
 Lêàêë;
@@ -28,15 +28,7 @@ Lêàêë;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
 @property(readonly, nonatomic) _UIEditMenuPresentation *activePresentation; // @synthesize activePresentation=_activePresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

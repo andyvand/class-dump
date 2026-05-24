@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayoutMonitor, NSMutableDictionary, NSString, PLXPCListenerOperatorComposition;
+@class FBSDisplayLayoutMonitor;
 
 @interface PLScreenStateAgent
 {
     FBSDisplayLayoutMonitor *_mainDisplayMonitor;
-    FBSDisplayLayoutMonitor *_airPlayDisplayMonitor;
-    FBSDisplayLayoutMonitor *_carPlayDisplayMonitor;
-    PLXPCListenerOperatorComposition *_windowModeListener;
-    NSMutableDictionary *_lastScreenStateEntries;
-    NSMutableDictionary *_lastLayoutMonitorEntries;
 }
 
 + (id);
@@ -54,23 +49,11 @@
 - (void);
 - (id);
 - (void);
-- (void)stCPUTimeDict;
+- (void)lastCPUTimeDict;
 - (void)TLParseBufferToCxt:dataFabricErr(533) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) FBSDisplayLayoutMonitor *airPlayDisplayMonitor; // @synthesize airPlayDisplayMonitor=_airPlayDisplayMonitor;
-@property(retain) FBSDisplayLayoutMonitor *carPlayDisplayMonitor; // @synthesize carPlayDisplayMonitor=_carPlayDisplayMonitor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *lastLayoutMonitorEntries; // @synthesize lastLayoutMonitorEntries=_lastLayoutMonitorEntries;
-@property(retain) NSMutableDictionary *lastScreenStateEntries; // @synthesize lastScreenStateEntries=_lastScreenStateEntries;
 @property(retain) FBSDisplayLayoutMonitor *mainDisplayMonitor; // @synthesize mainDisplayMonitor=_mainDisplayMonitor;
-@property(readonly) Class superclass;
-@property(retain) PLXPCListenerOperatorComposition *windowModeListener; // @synthesize windowModeListener=_windowModeListener;
 
 @end
 

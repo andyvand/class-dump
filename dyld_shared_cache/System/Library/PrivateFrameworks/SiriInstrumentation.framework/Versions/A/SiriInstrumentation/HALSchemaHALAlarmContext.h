@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALAlarmContext : SISchemaInstrumentationMessage
 {
     unsigned long long _timeSinceAlarmFiredInSeconds;
-    struct {
-        unsigned int timeSinceAlarmFiredInSeconds:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -28,12 +23,10 @@
 - (_Bool);
 - (id);
 - (id)ed";
-- (id)pLocale;
+- (id)deleteTopLocale;
 - (id)4æè;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeSinceAlarmFiredInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timeSinceAlarmFiredInSeconds; // @synthesize timeSinceAlarmFiredInSeconds=_timeSinceAlarmFiredInSeconds;
 
 @end

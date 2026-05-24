@@ -9,10 +9,6 @@
 @interface CKDPRecordRetrieveVersionsResponse
 {
     NSMutableArray *_recordVersions;
-    _Bool _isDeleted;
-    struct {
-        unsigned int isDeleted:1;
-    } _has;
 }
 
 + (Class);
@@ -27,11 +23,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_handleSetRateToZero;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)[;
 - (id);
 - (id);
 - (void);
@@ -39,8 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsDeleted;
-@property(nonatomic) _Bool isDeleted; // @synthesize isDeleted=_isDeleted;
-@property(retain, nonatomic) NSMutableArray *recordVersions; // @synthesize recordVersions=_recordVersions;
 
 @end
 

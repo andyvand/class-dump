@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NUIContainerStackView, UIColor, UIFont, _UIVisualEffectBackdropView;
-@protocol CNActionsViewProtocol;
+@class NSMutableDictionary;
 
 @interface CNActionsView
 {
     _Bool _enableVisualEffectViewCaptureView;
-    NSObject<CNActionsViewProtocol> *_actionsDelegate;
-    NSArray *_sortedActionTypes;
-    double _spacing;
-    long long _style;
-    NSMutableDictionary *_actionItemsByType;
-    NSMutableDictionary *_actionViewsByType;
-    UIFont *_titleFont;
-    UIColor *_posterTintColor;
-    NUIContainerStackView *_containerView;
-    _UIVisualEffectBackdropView *_visualEffectViewCaptureView;
 }
 
 + (long long);
@@ -29,14 +18,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Q_);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
@@ -46,14 +35,14 @@
 - (id);
 - (long long);
 - (id);
+- (struct CGSize)textViewWritingToolsDidEnd:(struct CGSize)arg1;
+- (void)sessionCompletionHandler;
 - (struct CGSize);
-- (void);
-- (struct CGSize);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)_objc_debug_indexed_isa_index_shift;
 - (double);
-- (void)ension;
+- (void)extension;
 - (void),&,N,V_editableAvatarViewController;
 - (void)ookupToken;
 - (id)xtensionContext shouldPerformDefaultActionForContact:propertyKey:propertyIdentifier:] call took longer than desired:%@ /* Error: Ran out of types for this method. */;
@@ -61,23 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *actionItemsByType; // @synthesize actionItemsByType=_actionItemsByType;
-@property(retain, nonatomic) NSMutableDictionary *actionViewsByType; // @synthesize actionViewsByType=_actionViewsByType;
-@property(nonatomic) __weak NSObject<CNActionsViewProtocol> *actionsDelegate; // @synthesize actionsDelegate=_actionsDelegate;
-@property(retain, nonatomic) NUIContainerStackView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableVisualEffectViewCaptureView; // @synthesize enableVisualEffectViewCaptureView=_enableVisualEffectViewCaptureView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *posterTintColor; // @synthesize posterTintColor=_posterTintColor;
-@property(copy, nonatomic) NSArray *sortedActionTypes; // @synthesize sortedActionTypes=_sortedActionTypes;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(retain, nonatomic) _UIVisualEffectBackdropView *visualEffectViewCaptureView; // @synthesize visualEffectViewCaptureView=_visualEffectViewCaptureView;
 
 @end
 

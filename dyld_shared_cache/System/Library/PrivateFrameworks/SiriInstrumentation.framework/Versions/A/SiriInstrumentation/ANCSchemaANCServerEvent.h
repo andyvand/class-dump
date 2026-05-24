@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ANCSchemaANCServerEventMetadata, ANCSchemaANCServerUserResponseEvaluated, NSData, SISchemaInstrumentationMessage;
+@class ANCSchemaANCServerEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ANCSchemaANCServerEvent : SISchemaTopLevelUnionType
 {
     ANCSchemaANCServerEventMetadata *_eventMetadata;
-    ANCSchemaANCServerUserResponseEvaluated *_userResponseEvaluated;
-    _Bool _hasEventMetadata;
-    _Bool _hasUserResponseEvaluated;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -27,35 +23,30 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)˿;
 - (void);
 - (_Bool);
-- (void);
+- (void)CoreFollowUp;
 - (id);
-- (id);
+- (id)rontBoardServices.framework;
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)ngeInSeconds: /* Error: Ran out of types for this method. */;
-- (id)eKeyboardLanguage;
-- (unsigned long long)eraction;
+- (id)h
+;
+- (id)setTimeSinceLastStatusChangeInSeconds: /* Error: Ran out of types for this method. */;
+- (id)deleteKeyboardLanguage;
+- (unsigned long long)SISchemaUserViewRegionInteraction;
 - (id)(_;
-- (id)RNLUCOMPONENT_SPAN_MATCH_MENTION_RESOLVER;
+- (id)USOENTITYIDENTIFIERNLUCOMPONENT_SPAN_MATCH_MENTION_RESOLVER;
 - (int).priorOrdinality;
 - (void)S^®¾@';
 
 // Remaining properties
-@property(retain, nonatomic) ANCSchemaANCServerEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasUserResponseEvaluated; // @synthesize hasUserResponseEvaluated=_hasUserResponseEvaluated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ANCSchemaANCServerUserResponseEvaluated *userResponseEvaluated; // @synthesize userResponseEvaluated=_userResponseEvaluated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

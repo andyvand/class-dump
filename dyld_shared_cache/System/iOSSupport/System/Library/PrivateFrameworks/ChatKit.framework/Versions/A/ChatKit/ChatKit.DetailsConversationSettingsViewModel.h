@@ -9,14 +9,6 @@
 @interface ChatKit.DetailsConversationSettingsViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id _isPresentingLeaveAlert;
-    id _isPresentingDeleteAndBlockAlert;
-    id _supportsSharingFocusStatus;
-    id _isSharingFocusStatus;
-    id _isSharingFocusStatusToggleOn;
-    id _availableTranslationLocales;
-    id _supportsSendingReadReceipts;
-    id _supportsAutomaticTranslation;
-    id _$observationRegistrar;
 }
 
 - (void);

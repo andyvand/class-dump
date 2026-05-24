@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCCKRecordFieldSchema
 {
     _Bool _isEncrypted;
-    int _type;
-    NSString *_name;
 }
 
 - (id);

@@ -9,7 +9,6 @@
 @interface ICIAMImpressionNode
 {
     NSString *_impressionType;
-    NSString *_recoAlgoId;
 }
 
 - (_Bool);
@@ -18,22 +17,19 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (_Bool)*;
+- (_Bool)__dlopen_cstrs;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)t;
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void)$;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasImpressionType;
-@property(readonly, nonatomic) _Bool hasRecoAlgoId;
-@property(retain, nonatomic) NSString *impressionType; // @synthesize impressionType=_impressionType;
-@property(retain, nonatomic) NSString *recoAlgoId; // @synthesize recoAlgoId=_recoAlgoId;
 
 @end
 

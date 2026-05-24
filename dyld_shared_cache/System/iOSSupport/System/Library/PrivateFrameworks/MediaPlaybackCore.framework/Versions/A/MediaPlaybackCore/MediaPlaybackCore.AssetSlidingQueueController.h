@@ -9,29 +9,6 @@
 @interface MediaPlaybackCore.AssetSlidingQueueController
 {
     id delegate;
-    id currentQueueControllerItem;
-    id playerController;
-    id assetLoader;
-    id queueController;
-    id errorController;
-    id externalPlaybackController;
-    id reporter;
-    id backgroundTaskController;
-    id playbackDefaults;
-    id transitionController;
-    id assetQueue;
-    id behavior;
-    id playerItemStateSnapshot;
-    id reloadingWithFadeout;
-    id deferredPlaybackRateForNextSetQueue;
-    id playbackStallTimer;
-    id unloadingTimer;
-    id validationTask;
-    id synchronizingToPlayer;
-    id restoringOutgoingItem;
-    id setQueueState;
-    id currentPlayerQueueItem;
-    id chaptersObservation;
 }
 
 - (void);

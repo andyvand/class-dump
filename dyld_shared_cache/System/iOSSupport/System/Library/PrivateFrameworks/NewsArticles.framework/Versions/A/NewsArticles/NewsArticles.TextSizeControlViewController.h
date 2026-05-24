@@ -7,24 +7,16 @@
 @interface NewsArticles.TextSizeControlViewController
 {
     id commandCenter;
-    id tracker;
-    id styler;
-    id divider;
-    id stackView;
-    id increaseButton;
-    id increaseAction;
-    id decreaseButton;
-    id decreaseAction;
 }
 
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)=;
 - (struct CGSize);
 - (void);
-- (void);
+- (void)'Wh5;
 - (void)appConfigurationManager;
 
 // Remaining properties

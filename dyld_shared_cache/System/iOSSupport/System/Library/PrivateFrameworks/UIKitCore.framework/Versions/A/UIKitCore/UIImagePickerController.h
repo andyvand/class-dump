@@ -6,30 +6,11 @@
 
 #import <UIKitCore/UINavigationController.h>
 
-@class NSArray, NSExtension, NSMutableDictionary, NSString, UIView, UIViewController, _UIRemoteViewController;
-@protocol UINavigationControllerDelegate><UIImagePickerControllerDelegate;
+@class NSExtension;
 
 @interface UIImagePickerController : UINavigationController
 {
     long long _sourceType;
-    id _image;
-    struct CGRect _cropRect;
-    NSArray *_mediaTypes;
-    NSMutableDictionary *_properties;
-    int _previousStatusBarStyle;
-    _Bool _previousStatusBarHidden;
-    Class _photoPickerRequestOptionsClass;
-    CDUnknownBlockType _photoPickerDisplayCompletion;
-    CDUnknownBlockType _photoPickerPreviewDisplayCompletion;
-    _Bool _photoPickerDidStartDelayingPresentation;
-    _Bool _photoPickerDidEndDelayingPresentation;
-    _Bool _photoPickerIsPreheating;
-    _Bool _photoPickerIsReadyForDisplay;
-    _Bool _photoPickerViewControllerIsConnected;
-    UIViewController *_photoPickerPreheatedViewController;
-    CDStruct_d1897728 _imagePickerFlags;
-    unsigned long long _savingOptions;
-    NSExtension *_photosExtension;
 }
 
 + (_Bool);
@@ -39,24 +20,24 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void);
+- (void);
 - (double);
-- (void);
+- (void)L;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (Class);
-- (void);
-- (long long);
+- (_Bool)@;
+- (void)file at path %@ ;
+- (void)ssageGUID:(_Bool)arg1 forReason:withMetadata:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
+- (void)erring message %@;
+- (void)<IMDeferReplicatedMessagePipelineComponent> Deferring message %@;
+- (void)y dictionary to the kSMSDefaultsAllowedKey;
+- (void)handle/simIDs of chats got modified, force reloading chats;
+- (void)y, re-syncing chats;
+- (void)L}d;
+- (void)oding;
+- (Class)eview generation state change;
+- (void)change;
+- (long long)er state. transferState:%@ cloudKitSyncState:%@ existsAtLocalPath:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -64,13 +45,13 @@
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (id);
+- (id)5;
 - (long long);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -85,10 +66,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)T@9;
 - (void);
 - (void);
 - (_Bool);
@@ -106,7 +87,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -128,24 +109,24 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)accountLogin;
+- (void)_setSimulatedChats:(id)arg1;
+- (void)ocationSharingDeviceChangeWithCompletion completed without an error.;
+- (void)equesting asynchronous connection and setup for client;
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)2@;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)e.activation.advanced;
 - (id);
 - (void);
 - (id);
-- (void)nnection;
-- (void)oView:(id)arg1;
+- (void)stopConnection;
+- (void)addOneFingerTextSelectionInteractionsToView:(id)arg1;
 - (void)iewDuringDropAnimation;
 - (_Bool);
 - (void)¼¹ÿ¿Y;
@@ -157,31 +138,7 @@
 - (void)(;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;
-@property(nonatomic) _Bool allowsEditing;
-@property(nonatomic) _Bool allowsImageEditing;
-@property(nonatomic) long long cameraCaptureMode;
-@property(nonatomic) long long cameraDevice;
-@property(nonatomic) long long cameraFlashMode;
-@property(retain, nonatomic) UIView *cameraOverlayView;
-@property(nonatomic) struct CGAffineTransform cameraViewTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UINavigationControllerDelegate><UIImagePickerControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long imageExportPreset;
-@property(copy, nonatomic) NSArray *mediaTypes;
-@property(readonly, nonatomic) Class photoPickerRequestOptionsClass;
 @property(retain, nonatomic) NSExtension *photosExtension; // @synthesize photosExtension=_photosExtension;
-@property(nonatomic) _Bool showsCameraControls;
-@property(nonatomic) long long sourceType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *videoExportPreset;
-@property(nonatomic) double videoMaximumDuration;
-@property(nonatomic) long long videoQuality;
 
 @end
 

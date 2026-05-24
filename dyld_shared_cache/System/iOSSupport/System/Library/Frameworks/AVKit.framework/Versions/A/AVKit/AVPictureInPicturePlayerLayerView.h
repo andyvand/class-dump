@@ -11,7 +11,7 @@
     _AVSimplePlayerLayerView *_simplePlayerLayerView;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)A!dCùq[1Â0@ù

@@ -8,27 +8,21 @@ __attribute__((visibility("hidden")))
 @interface TURepeatingAction
 {
     CDUnknownBlockType _action;
-    CDUnknownBlockType _completion;
-    unsigned long long _remainingIterations;
-    double _pauseDuration;
 }
 
-- (void);
+- (void)`;
 - (void);
 - (unsigned long long);
-- (double);
+- (double);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)U;
+- (CDUnknownBlockType)ib;
 - (void);
-- (void)g;
+- (void)uPlusOneScreenSharing;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) double pauseDuration; // @synthesize pauseDuration=_pauseDuration;
-@property(nonatomic) unsigned long long remainingIterations; // @synthesize remainingIterations=_remainingIterations;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface Foundation.ICUNumberFormatterBase
 {
     id uformatter;
-    id skeleton;
 }
 
 @end

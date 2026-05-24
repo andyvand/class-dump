@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString, SARemoteDevice;
+@class NSString;
 
 @interface SAExecuteOnRemoteRequest : SABaseClientBoundCommand
 {
@@ -33,17 +33,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personaAccessLevel;
-@property(copy, nonatomic) NSString *personaId;
-@property(retain, nonatomic) SARemoteDevice *remoteDevice;
-@property(nonatomic) _Bool requiresResponseFromRemote;
-@property(copy, nonatomic) NSData *serializedCommand;
-@property(nonatomic) _Bool shouldFallbackOnAWDL;
-@property(nonatomic) _Bool suppressResponse;
-@property(nonatomic) _Bool useGuaranteedDelivery;
 
 @end
 

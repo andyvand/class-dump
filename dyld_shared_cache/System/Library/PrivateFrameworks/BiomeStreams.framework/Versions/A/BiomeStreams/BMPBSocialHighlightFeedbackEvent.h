@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBRankableSocialHighlight, NSString;
-
 @interface BMPBSocialHighlightFeedbackEvent
 {
     double _feedbackCreationSecondsSinceReferenceDate;
-    NSString *_clientIdentifier;
-    NSString *_clientVariant;
-    int _feedbackType;
-    BMPBRankableSocialHighlight *_highlight;
-    struct {
-        unsigned int feedbackCreationSecondsSinceReferenceDate:1;
-        unsigned int feedbackType:1;
-    } _has;
 }
 
 - (void);
@@ -26,18 +16,19 @@
 - (_Bool);
 - (double);
 - (id);
-- (void);
+- (void)olpath[%d].PreToneMap3x3Enable = %d
+;
+- (_Bool);
+- (id)8I16I20I24*28;
+- (int)streamDidRTPTimeOut:(id)arg1;
+- (id)r;
+- (id);
 - (_Bool);
 - (id);
-- (int);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
@@ -45,21 +36,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)I?;
 - (void)86:; /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) NSString *clientVariant; // @synthesize clientVariant=_clientVariant;
-@property(nonatomic) double feedbackCreationSecondsSinceReferenceDate; // @synthesize feedbackCreationSecondsSinceReferenceDate=_feedbackCreationSecondsSinceReferenceDate;
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(readonly, nonatomic) _Bool hasClientIdentifier;
-@property(readonly, nonatomic) _Bool hasClientVariant;
-@property(nonatomic) _Bool hasFeedbackCreationSecondsSinceReferenceDate;
-@property(nonatomic) _Bool hasFeedbackType;
-@property(readonly, nonatomic) _Bool hasHighlight;
-@property(retain, nonatomic) BMPBRankableSocialHighlight *highlight; // @synthesize highlight=_highlight;
 
 @end
 

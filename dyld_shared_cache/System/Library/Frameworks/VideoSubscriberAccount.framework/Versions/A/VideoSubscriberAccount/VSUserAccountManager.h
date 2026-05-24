@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VSRemoteNotifier, VSUserAccountServiceConnection;
+@class VSUserAccountServiceConnection;
 
 @interface VSUserAccountManager
 {
     VSUserAccountServiceConnection *_connection;
-    VSRemoteNotifier *_remoteNotifier;
 }
 
 + (id);
@@ -20,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)entityChangedEvE3$_0vJEEE;
+- (void)N4fstd16callable_details15callable_holderINSt3__18functionIFvvEEEvJEEE;
 - (id);
 - (id);
 - (void);
@@ -32,14 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) VSUserAccountServiceConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(readonly) Class superclass;
 
 @end
 

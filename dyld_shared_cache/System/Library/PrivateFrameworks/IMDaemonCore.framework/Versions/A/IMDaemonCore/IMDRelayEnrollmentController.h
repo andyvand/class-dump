@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDService, NSArray, NSMutableDictionary, NSString;
-@protocol IMDRelayEnrollmentControllerDispatchDelegate, IMDRelayEnrollmentControllerServiceDelegate;
+@class IMDService;
+@protocol IMDRelayEnrollmentControllerServiceDelegate;
 
 @interface IMDRelayEnrollmentController
 {
     id <IMDRelayEnrollmentControllerServiceDelegate> _serviceDelegate;
-    id <IMDRelayEnrollmentControllerDispatchDelegate> _dispatchDelegate;
-    NSMutableDictionary *_pendingCodesToDevicesForApproval;
 }
 
 - (void);
@@ -20,67 +18,52 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
+- (_Bool);
+- (void);
+- (void)hB;
+- (void)8!	" ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)R;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <IMDRelayEnrollmentControllerDispatchDelegate> dispatchDelegate; // @synthesize dispatchDelegate=_dispatchDelegate;
-@property(readonly, nonatomic) _Bool hasBeenRemoteApproved;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *pendingCodesToDevicesForApproval; // @synthesize pendingCodesToDevicesForApproval=_pendingCodesToDevicesForApproval;
 @property(readonly, nonatomic) IMDService *service;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"IMDService",?,R,N
 
-@property(readonly, nonatomic) id <IMDRelayEnrollmentControllerServiceDelegate> serviceDelegate; // @synthesize serviceDelegate=_serviceDelegate;
-@property(readonly) Class superclass;
 
 @end
 

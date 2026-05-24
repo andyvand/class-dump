@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     _UISearchBarLayout *_fromLayout;
 }
 
-- (void);
+- (void)owPlaying",&,N;
 - (void)@ù
 × ;
 - (id)õ°;
 - (id);
-- (void)le;
+- (void)CoreListMetricsSectionSpacingStyle;
 
 // Remaining properties
 @property(copy, nonatomic) _UISearchBarLayout *fromLayout; // @synthesize fromLayout=_fromLayout;

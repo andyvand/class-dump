@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PKDownloaderQueue, PKDownloaderSpeedTracker;
+@class PKDownloaderQueue;
 
 @interface PKDownloader
 {
     PKDownloaderQueue *_queue;
-    _Bool _isQueueRunning;
-    _Bool _stopNotificationPending;
-    PKDownloaderSpeedTracker *_downloadTracker;
-    PKDownloaderSpeedTracker *_checksumTracker;
-    NSTimer *_progressTimer;
-    NSString *_lastKnownPeerAddress;
-    _Bool _downloadInBackground;
-    CDUnknownBlockType _loggingBlock;
-    id _delegate;
 }
 
 + (id);
 + (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -63,7 +54,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -71,7 +62,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -80,9 +71,6 @@
 
 // Remaining properties
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property _Bool downloadInBackground; // @synthesize downloadInBackground=_downloadInBackground;
-@property(copy, nonatomic) CDUnknownBlockType loggingBlock; // @synthesize loggingBlock=_loggingBlock;
-@property long long maxConcurrentDownloadCount;
 
 @end
 

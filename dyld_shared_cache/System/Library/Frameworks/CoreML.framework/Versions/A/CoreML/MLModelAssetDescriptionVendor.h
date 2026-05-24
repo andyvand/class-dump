@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelAssetDescription, MLModelAssetResourceFactory;
+@class MLModelAssetResourceFactory;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetDescriptionVendor
 {
     MLModelAssetResourceFactory *_resourceFactory;
-    MLModelAssetDescription *_modelAssetDescription;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)D;
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)an TreeEnsembleRegressor;
 
 // Remaining properties
-@property(retain) MLModelAssetDescription *modelAssetDescription; // @synthesize modelAssetDescription=_modelAssetDescription;
 @property(readonly, nonatomic) MLModelAssetResourceFactory *resourceFactory; // @synthesize resourceFactory=_resourceFactory;
 
 @end

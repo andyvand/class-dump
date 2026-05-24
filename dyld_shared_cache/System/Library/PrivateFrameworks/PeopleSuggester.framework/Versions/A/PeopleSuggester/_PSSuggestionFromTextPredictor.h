@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, EKEventStore, REMStore, _CDInteractionStore;
+@class EKEventStore;
 
 @interface _PSSuggestionFromTextPredictor
 {
     EKEventStore *_eventStore;
-    _CDInteractionStore *_interactionStore;
-    CNContactFormatter *_contactFormatter;
-    REMStore *_remStore;
 }
 
-+ (_Bool);
++ (_Bool)_alarmContext;
 - (id);
 - (id);
 - (id);
+- (id)imageDescriptorNamed:(id)arg1;
+- (id)#4/G
+;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 
 @end
 

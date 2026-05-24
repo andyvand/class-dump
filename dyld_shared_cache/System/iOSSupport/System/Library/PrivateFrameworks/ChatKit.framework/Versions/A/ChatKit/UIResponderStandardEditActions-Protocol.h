@@ -7,10 +7,11 @@
 @protocol UIResponderStandardEditActions
 
 @optional
+- (void);
+- (void)=;
 - (void)S;
 - (void)urrentIntent:(NSDictionary * (^)(NSDictionary *))arg1 %@;
 - (void)ew animatedImage:(id)arg1 %@ %@];
-- (void);
 - (void)jÐ8ÊÿÁÂjp9Êÿ©ÂjÍ²ÿ©Âjt,ÆÿùÂj-ÊÿÉÂjÍ²ÿÉÂjÍ²ÿ±ÂjX,Æÿ;
 - (void)ÿU_kà}¹ÿm_kÜ}¹ÿ-_kØ}¹ÿM_kì}¹ÿ%_kè}¹ÿe_ký¹ÿ;
 - (void);

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableSet, NSString, WiFiUsageInterfaceCapabilities;
+@class NSDate, NSString;
 
 @interface WiFiUsageLQMRollingWindow
 {
     NSString *_interfaceName;
-    NSString *_label;
-    NSDate *_createdTimestamp;
-    double _duration;
-    NSMutableArray *_samples;
-    WiFiUsageInterfaceCapabilities *_capabilities;
-    NSMutableArray *_triggerCriteriaFilterList;
-    NSMutableSet *_features;
-    NSMutableArray *_preceedingTriggers;
-    NSString *_fgApp;
-    NSString *_lastSampleBssid;
 }
 
 + (void);
@@ -27,25 +17,25 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (void)t;
-- (id);
++ (void)_currentContext;
+- (id)?;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (double);
+- (void)setBundleID:(id)arg1;
+- (double)notifyDelegateDidUpdateWithRecord: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Builder_skip_common_Notification;
+- (void)UsoTaskBuilder_addToAlbum_apple_PhotoMemory;
 - (id);
 - (id);
 - (void);
@@ -53,35 +43,25 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)lback(const void *, const void *, void *);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) WiFiUsageInterfaceCapabilities *capabilities; // @synthesize capabilities=_capabilities;
 @property(copy, nonatomic) NSDate *createdTimestamp; // @synthesize createdTimestamp=_createdTimestamp;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSMutableSet *features; // @synthesize features=_features;
-@property(retain, nonatomic) NSString *fgApp; // @synthesize fgApp=_fgApp;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *lastSampleBssid; // @synthesize lastSampleBssid=_lastSampleBssid;
-@property(readonly, nonatomic) NSMutableArray *preceedingTriggers; // @synthesize preceedingTriggers=_preceedingTriggers;
-@property(retain, nonatomic) NSMutableArray *samples; // @synthesize samples=_samples;
-@property(retain, nonatomic) NSMutableArray *triggerCriteriaFilterList; // @synthesize triggerCriteriaFilterList=_triggerCriteriaFilterList;
 
 @end
 

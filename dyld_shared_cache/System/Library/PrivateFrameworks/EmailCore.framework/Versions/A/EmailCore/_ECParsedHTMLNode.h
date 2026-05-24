@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECPriceFormattingThresholds, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _ECParsedHTMLNode
 {
     NSMutableArray *_childNodes;
-    _ECParsedHTMLNode *_parentNode;
-    _ECParsedHTMLNode *_nextSibling;
-    _ECParsedHTMLNode *_rootNode;
-    NSString *_htmlString;
-    unsigned long long _startLocation;
-    unsigned long long _endLocation;
-    unsigned long long _depth;
-    ECPriceFormattingThresholds *_priceFormattingThresholds;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)hile one was already active. Ignoring. %@;
+- (id)o %@.;
+- (void)t to transition while adjusting bounds.;
+- (void)ng.;
+- (void)ect (%@);
 - (id);
 - (void);
 - (void);
@@ -39,37 +31,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)LM;
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)_reasonCode;
+- (void)XS;
 - (struct _NSRange);
 - (id);
-- (void);
+- (void)t;
 - (id);
-- (unsigned long long)mNames;
+- (unsigned long long)mechanismNames;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) unsigned long long depth; // @synthesize depth=_depth;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long endLocation; // @synthesize endLocation=_endLocation;
-@property(readonly, nonatomic) _ECParsedHTMLNode *firstChild;
-@property(readonly, nonatomic) _Bool hasChildNodes;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *htmlString; // @synthesize htmlString=_htmlString;
-@property(readonly, nonatomic) _ECParsedHTMLNode *lastChild;
-@property(nonatomic) __weak _ECParsedHTMLNode *nextSibling; // @synthesize nextSibling=_nextSibling;
-@property(nonatomic) __weak _ECParsedHTMLNode *parentNode; // @synthesize parentNode=_parentNode;
-@property(nonatomic) ECPriceFormattingThresholds *priceFormattingThresholds; // @synthesize priceFormattingThresholds=_priceFormattingThresholds;
-@property(nonatomic) __weak _ECParsedHTMLNode *rootNode; // @synthesize rootNode=_rootNode;
-@property(nonatomic) unsigned long long startLocation; // @synthesize startLocation=_startLocation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *tagName;
 
 @end
 

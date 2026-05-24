@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSPrintingController
 {
     _Bool _isShowingPrintOrExportSheet;
-    _Bool _isShowingPrintOrExportAppModalDialog;
-    NSString *_sceneIdentifier;
 }
 
 + (id);
@@ -20,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)0:8f16 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

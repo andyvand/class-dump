@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id)ConvolutionWeightsLayoutOIHW;
+- (id)MPSCNNConvolutionWeightsLayoutOIHW;
 
 @end
 

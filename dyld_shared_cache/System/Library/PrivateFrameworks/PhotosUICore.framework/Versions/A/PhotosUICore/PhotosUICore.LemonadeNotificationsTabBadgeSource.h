@@ -7,8 +7,6 @@
 @interface PhotosUICore.LemonadeNotificationsTabBadgeSource
 {
     id id;
-    id _itemListManager;
-    id _$observationRegistrar;
 }
 
 @end

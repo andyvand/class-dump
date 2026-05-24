@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol NWRemotePacketProxyDelegate;
 
 @interface NWRemotePacketProxy
 {
     unsigned int _receiveWindowPacketCount;
-    NSObject<NWRemotePacketProxyDelegate> *_delegate;
-    NSMutableArray *_writeRequests;
-    struct nw_protocol *_packetProtocol;
-    struct nw_protocol *_defaultOutputHandler;
-    struct nw_hash_table *_packetHashTable;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`&;
 - (void);
 - (void);
 - (unsigned int);
@@ -31,7 +26,7 @@
 - (struct nw_protocol *);
 - (struct nw_protocol *);
 - (struct nw_hash_table *);
-- (void);
+- (void)lphs-%@;
 - (id);
 - (void);
 - (id);
@@ -39,13 +34,7 @@
 - (struct nw_protocol *)Ce32Ce3aCe3cCe3eCe3iCe3oCe3sCe3t.e3;
 
 // Remaining properties
-@property struct nw_protocol *defaultOutputHandler; // @synthesize defaultOutputHandler=_defaultOutputHandler;
 @property __weak NSObject<NWRemotePacketProxyDelegate> *delegate; // @synthesize delegate=_delegate;
-@property struct nw_hash_table *packetHashTable; // @synthesize packetHashTable=_packetHashTable;
-@property struct nw_protocol *packetProtocol; // @synthesize packetProtocol=_packetProtocol;
-@property(readonly, nonatomic) struct nw_protocol *protocol;
-@property(nonatomic) unsigned int receiveWindowPacketCount; // @synthesize receiveWindowPacketCount=_receiveWindowPacketCount;
-@property(retain) NSMutableArray *writeRequests; // @synthesize writeRequests=_writeRequests;
 
 @end
 

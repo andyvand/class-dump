@@ -17,12 +17,12 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)ted;
 + (id)PHPhotoLibraryManager.m;
 + (id)àp;
 - (id);
 - (int);
-- (void)ageResourceChooserBestPolicyHandler;
+- (void)PHImageResourceChooserBestPolicyHandler;
 - (id)tting count of assets with predicate %@:(id)arg1 %@;
 
 // Remaining properties

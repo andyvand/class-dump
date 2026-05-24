@@ -9,22 +9,18 @@
 @interface CBAccessorySetupMetadata
 {
     BOOL _rssiOffsetProxPairing;
-    NSData *_manufacturerID;
-    NSData *_modelID;
 }
 
 - (void);
 - (void);
 - (BOOL);
 - (id);
-- (id);
+- (id)DisplayTime;
 - (void);
 - (void)mpanionLink;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *manufacturerID; // @synthesize manufacturerID=_manufacturerID;
-@property(copy, nonatomic) NSData *modelID; // @synthesize modelID=_modelID;
-@property(nonatomic) BOOL rssiOffsetProxPairing; // @synthesize rssiOffsetProxPairing=_rssiOffsetProxPairing;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTMapItem;
-
 @interface RTPinnedPlace
 {
     unsigned long long _type;
-    RTMapItem *_mapItem;
 }
 
 - (id);
-- (id);
+- (id)pantIDs %@;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id)ation: /* Error: Ran out of types for this method. */;
+- (id)initWithFillRate:capacity:initialAllocation: /* Error: Ran out of types for this method. */;
 - (void)nap to home work error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

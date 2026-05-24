@@ -19,18 +19,18 @@ struct AUSamplerInstrumentData {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct ComponentInstanceRecord {
@@ -43,8 +43,8 @@ struct ProcessSerialNumber {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
@@ -70,7 +70,7 @@ typedef struct {
     unsigned long long _field1;
     struct CGSize _field2;
     double _field3;
-} CDStruct_b0c29973;
+} CDStruct_73e0ad32;
 
 typedef struct {
     struct ProcessSerialNumber _field1;

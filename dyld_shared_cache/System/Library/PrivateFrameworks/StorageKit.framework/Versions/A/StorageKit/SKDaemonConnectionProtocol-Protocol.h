@@ -5,5 +5,13 @@
 //
 
 @protocol SKDaemonConnectionProtocol
+- (void)9);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

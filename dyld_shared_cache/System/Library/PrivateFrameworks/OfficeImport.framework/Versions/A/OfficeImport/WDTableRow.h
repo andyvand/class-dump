@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WDTable, WDTableRowProperties;
+@class WDTable;
 
 __attribute__((visibility("hidden")))
 @interface WDTableRow
 {
     unsigned long long mIndex;
-    WDTableRowProperties *mProperties;
-    NSMutableArray *mCells;
-    WDTable *mTable;
 }
 
-- (id);
+- (id)";
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)K;
+- (id)_hideBecauseAllIsolatedAreVisible;
 - (id);
 - (id);
 - (unsigned long long);

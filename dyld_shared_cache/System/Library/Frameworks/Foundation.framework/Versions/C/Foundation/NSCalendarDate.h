@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
-
 @interface NSCalendarDate
 {
     unsigned long long refCount;
-    double _timeIntervalSinceReferenceDate;
-    NSTimeZone *_timeZone;
-    NSString *_formatString;
-    void *_reserved;
 }
 
 @end

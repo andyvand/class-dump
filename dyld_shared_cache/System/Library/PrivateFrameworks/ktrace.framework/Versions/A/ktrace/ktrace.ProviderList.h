@@ -7,7 +7,6 @@
 @interface ktrace.ProviderList
 {
     id providers;
-    id machine;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

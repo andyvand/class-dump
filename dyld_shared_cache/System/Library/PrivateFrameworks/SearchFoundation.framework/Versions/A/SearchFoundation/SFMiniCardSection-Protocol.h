@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSString, SFImage, SFRichText;
 
 @protocol SFMiniCardSection
+- (void)art time:(SFImage *)arg1 %f [override:%{BOOL}u] /* Error: Ran out of types for this method. */;
+- (void)synchronousRemoteObjectProxyWithErrorHandler:(SFRichText *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface STSchemaSTFailureError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
@@ -22,27 +19,23 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)LocalAudioCapabilityMonitorCreate(void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setOptedInForMacOSEligibility: /* Error: Ran out of types for this method. */;
+- (_Bool)CNUIDeleteCoreRecentsCommand;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)TEXT, guid TEXT, room_name TEXT, account_login TEXT, participants BLOB);
 - (id);
-- (id);
+- (id),1;
 - (id);
 - (id)deleteLanguageDetected;
-- (id)reviousUtterance;
+- (id)_hasPreviousUtterance;
 - (long long)|;
-- (void)METER_NOT_ALLOWED;
+- (void)ODDTHIRDPARTYGENAIREQUESTSTATUS_PARAMETER_NOT_ALLOWED;
 - (void)ientEvent.MWTCheckpointReported;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NUIContainerStackView;
+@class NSArray;
 
 @interface CNModernAtomIconView
 {
     NSArray *_iconImages;
-    NUIContainerStackView *_stackView;
-    struct CGPoint _drawingOffset;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
-- (id);
+- (id);
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)p;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint drawingOffset; // @synthesize drawingOffset=_drawingOffset;
 @property(retain, nonatomic) NSArray *iconImages; // @synthesize iconImages=_iconImages;
-@property(nonatomic) double iconPadding;
-@property(retain, nonatomic) NUIContainerStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

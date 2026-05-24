@@ -5,5 +5,7 @@
 //
 
 @protocol CKDMMCSItemReaderWriterDelegateProtocol
+- (_Bool)mon_Calendar;
+- (void);
 @end
 

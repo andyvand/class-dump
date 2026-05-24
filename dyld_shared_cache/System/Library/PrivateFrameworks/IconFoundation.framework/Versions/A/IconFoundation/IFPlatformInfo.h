@@ -9,10 +9,10 @@
 }
 
 + (id);
+- (unsigned long long)�EF.H';
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)1F';
 
 // Remaining properties
 @property(readonly) unsigned long long nativePlatform;

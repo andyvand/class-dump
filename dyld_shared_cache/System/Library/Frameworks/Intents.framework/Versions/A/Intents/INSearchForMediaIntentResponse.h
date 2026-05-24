@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForMediaIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)@"NSUUID"24@"NSError"32;
++ (int)ioSurfaceBlock;
++ (long long)initWithFileId:(int)arg1 fsid:(int)arg2;
++ (_Bool)initWithCGImage:(long long)arg1 scale:orientation: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)_canCreateContextOfSize:(id)arg1 forRequest: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)observeFinishOnQueue:(id)arg1 withOptions:block: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)}@ qos=%d intf=%{public}@ uuid=%{public}@ err=%ld);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)nsactionNote;
+- (long long)transactionNote;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *mediaItems;
-@property(readonly) Class superclass;
 
 @end
 

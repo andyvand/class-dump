@@ -5,9 +5,9 @@
 //
 
 @protocol CXVideoAspectRatioDescriptor
+- (struct CGSize)erialQueue;
 
 // Remaining properties
 @property(nonatomic) struct CGSize localLandscapeAspectRatio;
-@property(nonatomic) struct CGSize localPortraitAspectRatio;
 @end
 

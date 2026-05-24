@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface TXRTextureInfo
 {
     unsigned long long _pixelFormat;
-    unsigned long long _alphaInfo;
-    id _dimensions;
-    unsigned long long _mipmapLevelCount;
-    unsigned long long _arrayLength;
-    _Bool _cubemap;
-    NSError *_error;
 }
 
 - (unsigned long long);
-- (void);
+- (void)R";
 - (void);
 - (_Bool);
 - (id);
@@ -26,20 +18,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)'/;
 - (id);
-- (void);
+- (void)E3D�;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long alphaInfo; // @synthesize alphaInfo=_alphaInfo;
-@property(nonatomic) unsigned long long arrayLength; // @synthesize arrayLength=_arrayLength;
-@property(nonatomic) _Bool cubemap; // @synthesize cubemap=_cubemap;
-@property(nonatomic) id dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long mipmapLevelCount; // @synthesize mipmapLevelCount=_mipmapLevelCount;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

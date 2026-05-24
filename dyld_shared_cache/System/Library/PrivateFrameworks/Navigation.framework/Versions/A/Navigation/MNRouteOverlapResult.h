@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPolylineCoordinateRangeArray, NSUUID;
+@class NSUUID;
 
 @interface MNRouteOverlapResult
 {
     NSUUID *_routeID;
-    GEOPolylineCoordinateRangeArray *_overlapRanges;
-    GEOPolylineCoordinateRangeArray *_uniqueRanges;
-    GEOPolylineCoordinateRange_1706676a _routeRange;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (struct GEOPolylineCoordinateRange);
-- (id);
+- (GEOPolylineCoordinateRange_e9365640);
+- (id)AnimatedValueView;
 - (id);
 - (void);
 - (id);
@@ -28,10 +25,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPolylineCoordinateRangeArray *overlapRanges; // @synthesize overlapRanges=_overlapRanges;
 @property(retain, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
-@property(nonatomic) GEOPolylineCoordinateRange_3ad5eabb routeRange; // @synthesize routeRange=_routeRange;
-@property(retain, nonatomic) GEOPolylineCoordinateRangeArray *uniqueRanges; // @synthesize uniqueRanges=_uniqueRanges;
 
 @end
 

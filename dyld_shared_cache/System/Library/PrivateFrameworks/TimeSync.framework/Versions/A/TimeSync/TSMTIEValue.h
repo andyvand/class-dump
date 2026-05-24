@@ -7,16 +7,14 @@
 @interface TSMTIEValue
 {
     double _observationInterval;
-    double _mtie;
 }
 
 - (double);
 - (double);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double mtie; // @synthesize mtie=_mtie;
 @property(readonly, nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
 
 @end

@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol INUncompressFileIntent
+- (void);
+- (id)#;
 - (NSString *)cess to bundle identifiers from helper. %@;
 
 // Remaining properties
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
 @end
 

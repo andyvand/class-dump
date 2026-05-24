@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, RPSignedInUserProvider;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPStatusSubscriber
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    id <RPSignedInUserProvider> _userProvider;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableDictionary *_devices;
-    NSMutableDictionary *_statusConfigurations;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 + (_Bool);
@@ -31,22 +21,22 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
+- (id)i-device callback:(id)arg1 %@;
+- (id)e the function intends to return false.;
+- (void)odel, used in combination with skip-blanks-threshold;
+- (id)ERN5kaldi14WordHypLatticeERNSt3__16vectorIPNS1_3ArcENS3_9allocatorIS6_EEEEbE3$_2;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)h;
 - (CDUnknownBlockType);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (id);
 - (void);
 - (void);
@@ -54,19 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *devices; // @synthesize devices=_devices;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) NSMutableDictionary *statusConfigurations; // @synthesize statusConfigurations=_statusConfigurations;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
 
 @end
 

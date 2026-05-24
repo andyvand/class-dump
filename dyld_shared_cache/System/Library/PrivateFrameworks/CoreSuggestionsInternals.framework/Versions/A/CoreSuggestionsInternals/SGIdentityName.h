@@ -9,39 +9,29 @@
 @interface SGIdentityName
 {
     NSString *_privFullName;
-    NSString *_firstname;
-    NSString *_surname;
-    NSString *_middlename;
-    NSString *_prefix;
-    NSString *_suffix;
 }
 
 + (id);
-+ (id);
++ (id);
+- (id);
+- (id)Xu;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)clearDataForService:(id)arg1 username:syncState: /* Error: Ran out of types for this method. */;
 - (void)X4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *firstname; // @synthesize firstname=_firstname;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) NSString *middlename; // @synthesize middlename=_middlename;
-@property(readonly, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
-@property(readonly, nonatomic) NSString *surname; // @synthesize surname=_surname;
 
 @end
 

@@ -6,51 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, UIMovieScrubberTrackOverlayView;
+@class NSArray;
 @protocol UIMovieScrubberTrackViewDataSource, UIMovieScrubberTrackViewDelegate;
 
 @interface UIMovieScrubberTrackView : UIView
 {
     NSArray *_summaryThumbnailViews;
-    NSArray *_summaryThumbnailTimestamps;
-    NSArray *_summaryThumbnailChildTimestamps;
-    NSDictionary *_thumbnailStartXValues;
-    NSDictionary *_childThumbnailViews;
-    NSMutableDictionary *_thumbnailViews;
-    NSArray *_timestamps;
-    UIMovieScrubberTrackOverlayView *_overlayView;
-    UIView *_maskContainerView;
-    struct CGSize _thumbnailSize;
-    float _zoomOriginXDelta;
-    float _zoomWidthDelta;
-    float _unclampedZoomWidthDelta;
-    float _zoomAnimationDuration;
-    double _duration;
-    double _value;
-    double _startValue;
-    double _endValue;
-    struct {
-        unsigned int delegateSizeOriginDelta:1;
-        unsigned int delegateDidExpand:1;
-        unsigned int delegateDidCollapse:1;
-        unsigned int delegateWillRequestThumbs:1;
-        unsigned int delegateDidRequestThumbs:1;
-        unsigned int delegateZoomAnimationDuration:1;
-        unsigned int delegateZoomAnimationDelay:1;
-        unsigned int needsReload:1;
-        unsigned int editing:1;
-        unsigned int editingHandle;
-        unsigned int zoomIsDisabled:1;
-    } _trackFlags;
-    id <UIMovieScrubberTrackViewDataSource> _dataSource;
-    id <UIMovieScrubberTrackViewDelegate> _delegate;
 }
 
-- (double);
+- (double)IMResolveFallbackHashesProcessingParameter;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)i;
+- (void)IncomingMessageAlertSpamForcedSubCategory;
+- (void)ChatCommandPipelineParameter %p; GUID = %@; timestamp = %@; isFromStorage = %{BOOL}d; isLastFromStorage = %{BOOL}d; isFromMe = %{BOOL}d; OUTPUT chat = %@;;
 - (void);
 - (void);
 - (void);
@@ -60,15 +28,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)MPDispatchQueueExclusiveAccessToken;
 - (void);
 - (id)
 × ;
 - (void)i="topLeft"d"bottomLeft"d"bottomRight"d"topRight"d};
 - (void)32;
-- (void)veToConstraintContainer;
+- (void)nsli_lowersExpressionRelativeToConstraintContainer;
 - (void)ment;
-- (id)atsTouches:(struct CGRect)arg1;
+- (id)setEatsTouches:(struct CGRect)arg1;
 - (void)ÔÿÎ¶ÉüSe;
 - (void)l;
 

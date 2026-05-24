@@ -7,18 +7,6 @@
 @interface AppleMediaServicesUI.DynamicModel
 {
     id _account;
-    id _anonymousMetrics;
-    id _clientInfo;
-    id _clientOptions;
-    id _impressionItems;
-    id _mediaClientIdentifier;
-    id _metricsOverlay;
-    id _carrierLinkResult;
-    id _purchaseResult;
-    id _resolvedResult;
-    id _result;
-    id handlers;
-    id coordinator;
 }
 
 @end

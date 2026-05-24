@@ -9,7 +9,6 @@
 @interface SXDataTableSelectorValidator
 {
     SXDataRecordStore *_recordStore;
-    unsigned long long _dataOrientation;
 }
 
 - (_Bool);
@@ -23,7 +22,6 @@
 - (void)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataOrientation; // @synthesize dataOrientation=_dataOrientation;
 @property(readonly, nonatomic) SXDataRecordStore *recordStore; // @synthesize recordStore=_recordStore;
 
 @end

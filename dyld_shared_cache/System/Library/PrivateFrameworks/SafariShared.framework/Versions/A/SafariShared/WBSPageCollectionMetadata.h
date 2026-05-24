@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL;
+@class NSDate, NSURL;
 
 @interface WBSPageCollectionMetadata
 {
     NSDate *_creationDate;
-    NSString *_platform;
-    NSString *_osBuild;
-    NSString *_webkitVersion;
-    NSString *_safariVersion;
-    NSString *_assetUUIDString;
-    _Bool _savedPageLooksLikeOriginal;
-    NSURL *_url;
-    NSString *_pageTitle;
-    NSString *_userAgent;
-    NSString *_indexFileName;
-    NSString *_screenCaptureFileName;
-    NSString *_formType;
-    unsigned long long _collectionMethod;
-    struct CGSize _viewportSize;
 }
 
 + (id);
@@ -36,7 +22,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id),;
 - (unsigned long long);
 - (id);
 - (id);
@@ -55,17 +41,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long collectionMethod; // @synthesize collectionMethod=_collectionMethod;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *formType; // @synthesize formType=_formType;
-@property(copy, nonatomic) NSString *indexFileName; // @synthesize indexFileName=_indexFileName;
-@property(copy, nonatomic) NSString *pageTitle; // @synthesize pageTitle=_pageTitle;
-@property(nonatomic) _Bool savedPageLooksLikeOriginal; // @synthesize savedPageLooksLikeOriginal=_savedPageLooksLikeOriginal;
-@property(copy, nonatomic) NSString *screenCaptureFileName; // @synthesize screenCaptureFileName=_screenCaptureFileName;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(copy, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
-@property(nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
-@property(readonly, copy, nonatomic) NSString *zipFileNameCandidate;
 
 @end
 

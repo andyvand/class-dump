@@ -7,10 +7,11 @@
 @class NSArray, NSData, _SFPBCopyItem;
 
 @protocol _SFPBCopyCommand
+- (NSArray *);
+- (id)A;
+- (NSData *)PHSuggestionChangeRequest;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCopyItem *copyableItem;
-@property(copy, nonatomic) NSArray *copyableItems;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

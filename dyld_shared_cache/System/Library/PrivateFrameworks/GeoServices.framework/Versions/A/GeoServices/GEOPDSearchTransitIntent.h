@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchTransitIntent
 {
     PBDataReader *_reader;
-    NSString *_name;
-    GEOPDSearchTokenSet *_tokenSet;
-    unsigned long long _transitId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _transitType;
-    struct {
-        unsigned int has_transitId:1;
-        unsigned int has_transitType:1;
-        unsigned int read_name:1;
-        unsigned int read_tokenSet:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)unregisterBlock;
+- (id)fakeAssetRollNotificationRegistrationToken;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

@@ -7,8 +7,6 @@
 @interface AppStoreKit.WeakNotificationObserver
 {
     id scheduler;
-    id block;
-    id center;
 }
 
 - (void);

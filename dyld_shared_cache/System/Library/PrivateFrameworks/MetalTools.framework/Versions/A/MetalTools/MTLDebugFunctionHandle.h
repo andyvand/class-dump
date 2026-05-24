@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsFunctionHandle.h>
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface MTLDebugFunctionHandle : MTLToolsFunctionHandle
 {
     unsigned long long _stage;
@@ -22,19 +19,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long functionType;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long resourceIndex;
 @property(readonly) unsigned long long stage; // @synthesize stage=_stage;
-@property(readonly) Class superclass;
 
 @end
 

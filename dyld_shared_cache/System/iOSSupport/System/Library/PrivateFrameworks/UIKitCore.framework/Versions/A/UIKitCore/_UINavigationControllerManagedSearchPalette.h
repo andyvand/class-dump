@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UINavigationControllerPalette.h>
 
-@class UISearchBar, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationControllerManagedSearchPalette : _UINavigationControllerPalette
 {
     _Bool _ignoreGeometryChanges;
-    CDUnknownBlockType _resetAfterSearchFieldFade;
-    UISearchBar *__searchBar;
 }
 
 - (void);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool){U;
 - (void);
 - (void);
 - (void);
@@ -30,10 +28,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!Aùqa°1Â0@ù
 × ;
-- (void)rimmingCharactersInCFCharacterSet:(struct CGRect)arg1;
+- (void)_stringByTrimmingCharactersInCFCharacterSet:(struct CGRect)arg1;
 - (id)waysAllowsEdgeAttached: /* Error: Ran out of types for this method. */;
 - (void)gationEnabled;
-- (void)iewBackgroundMenu;
+- (void)_isCollectionViewBackgroundMenu;
 - (void)h}þÿ;
 - (void)dynamic type;
 - (CDUnknownBlockType)hLayout[active]=;
@@ -41,10 +39,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, setter=_setSearchBar:) __weak UISearchBar *_searchBar; // @synthesize _searchBar=__searchBar;
-@property(nonatomic, setter=_setShadowAlpha:) double _shadowAlpha;
-@property(nonatomic) _Bool ignoreGeometryChanges; // @synthesize ignoreGeometryChanges=_ignoreGeometryChanges;
-@property(copy, nonatomic) CDUnknownBlockType resetAfterSearchFieldFade; // @synthesize resetAfterSearchFieldFade=_resetAfterSearchFieldFade;
 @property(readonly, nonatomic) UIView *viewForAsymmetricFade;
 
 @end

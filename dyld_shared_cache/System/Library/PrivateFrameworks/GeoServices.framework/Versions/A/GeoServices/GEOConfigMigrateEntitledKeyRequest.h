@@ -11,31 +11,22 @@
 @interface GEOConfigMigrateEntitledKeyRequest : GEOXPCRequest
 {
     NSString *_keyString;
-    unsigned long long _keyOptions;
 }
 
-+ (Class);
++ (Class)SLWebUserInfoResponse;
 - (void);
 - (id);
+- (unsigned long long)h;
+- (id)`;
+- (_Bool)invalidateAndCancel;
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void)nce;
+- (void)_contentProvider;
+- (void)highlight_distance;
 - (id)¼;
 - (void)@³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long keyOptions; // @synthesize keyOptions=_keyOptions;
 @property(retain, nonatomic) NSString *keyString; // @synthesize keyString=_keyString;
-@property(readonly) Class superclass;
 
 @end
 

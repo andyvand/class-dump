@@ -6,54 +6,39 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSString, UIColor, UIImage, UIImageView, UIView, UIVisualEffectView, _UIClickInteraction;
+@class UIView;
 
 @interface UICoverSheetButton : UIControl
 {
     UIView *_containerView;
-    UIImageView *_contentView;
-    UIVisualEffectView *_backgroundEffectView;
-    NSArray *_backgroundEffects;
-    NSArray *_selectedBackgroundEffects;
-    _UIClickInteraction *_clickInteraction;
-    _Bool _interactive;
-    _Bool _didActivateDuringInteraction;
-    double _maxForceDuringInteraction;
-    double _highlightProgress;
-    _Bool _pronounced;
-    _Bool _latching;
-    _Bool _shouldUseContinuousCorners;
-    UIImage *_image;
-    UIImage *_selectedImage;
-    UIColor *_selectedTintColor;
-    NSString *_localizedAccessoryTitle;
-    NSString *_backgroundEffectViewGroupName;
-    NSString *_statisticsIdentifier;
-    struct UIEdgeInsets _edgeInsets;
 }
 
-- (id);
+- (id)a matching handle for the mentioned identity, and it is a valid alias:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ed sending to an unauthorized recipient;
+- (void)@ and asset fileURL %@;
+- (void)ync, filtered to %lu unique recordID;
+- (void)chived zone. Kicking off another batch of fetching;
+- (void)achment;
+- (void)irty messages needing a T2 update. Bailing for now;
+- (void)ve messages;
+- (void)g batch of %lu messages.;
+- (id)ment to disk on incoming:%@ /* Error: Ran out of types for this method. */;
+- (id)critical database migration step failed.
+
+Event:Invalid Use of GroupID
+
+Description:Updated groupID/originalGroupID on service %@ /* Error: Ran out of types for this method. */;
+- (void)ageFilterQueryRequestClass(void)_block_invoke;
+- (_Bool), user did not tap to downloaded.;
+- (_Bool)__kIMDFileTransferHighQualityDownloadCompletedFileURLKey;
+- (id)C;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -64,9 +49,9 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id)× ;
-- (id)ctedAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)cellShouldScrollWhenSelectedAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id)tionPreview;
 - (void)(1;
 - (void)background thread is not supported.;
@@ -74,24 +59,7 @@
 - (void)H×h;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *backgroundEffectViewGroupName; // @synthesize backgroundEffectViewGroupName=_backgroundEffectViewGroupName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) long long imageContentMode;
-@property(nonatomic, getter=isLatching) _Bool latching; // @synthesize latching=_latching;
-@property(copy, nonatomic) NSString *localizedAccessoryTitle; // @synthesize localizedAccessoryTitle=_localizedAccessoryTitle;
 @property(nonatomic, getter=isPronounced) _Bool pronounced; // @synthesize pronounced=_pronounced;
-@property(retain, nonatomic) UIImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(retain, nonatomic) UIColor *selectedTintColor; // @synthesize selectedTintColor=_selectedTintColor;
-@property(nonatomic) _Bool shouldUseContinuousCorners; // @synthesize shouldUseContinuousCorners=_shouldUseContinuousCorners;
-@property(copy, nonatomic) NSString *statisticsIdentifier; // @synthesize statisticsIdentifier=_statisticsIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

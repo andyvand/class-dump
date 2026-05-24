@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, NSString;
+@class EFFuture;
 
 @interface EFPromise
 {
@@ -15,20 +15,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)g3;
+- (void)8;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) EFFuture *future; // @synthesize future=_future;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

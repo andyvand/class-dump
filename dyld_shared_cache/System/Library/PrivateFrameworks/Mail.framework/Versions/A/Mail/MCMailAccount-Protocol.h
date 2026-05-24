@@ -9,8 +9,6 @@
 @protocol MCMailAccount
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isGmailAccount;
-@property(readonly, nonatomic) NSOperationQueue *remoteFetchQueue;
 @property(readonly, nonatomic) NSOperationQueue *remoteTaskQueue;
 @end
 

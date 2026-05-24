@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionConcreteVisualStyle
 {
 }
 
 - (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (double);
+- (_Bool):merged-duplicate-chats /* Error: Ran out of types for this method. */;
+- (_Bool)l chats in registry;
+- (_Bool)ats, forcing reload;
+- (id)urrently;
+- (id)are optimizing attachment storage.;
+- (id)ransfer sync state %@, non-empty salt %@;
+- (id)ren't able to get a CKRecordID from a transfer; transfer sync state %@, non-empty salt %@;
+- (struct CGSize)ts - Failed to update transfer preview size for %@, transfer not found;
+- (struct CGSize)e:%@   (%@) /* Error: Ran out of types for this method. */;
+- (double)20;
 - (id);
 - (double);
 - (void);
@@ -29,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (double);
-- (id);
+- (double)d-;
+- (id);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,17 +46,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (struct UIEdgeInsets);
-- (id)g;
+- (struct UIEdgeInsets)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s23_clnt.c;
+- (id)BSXPCCoding;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

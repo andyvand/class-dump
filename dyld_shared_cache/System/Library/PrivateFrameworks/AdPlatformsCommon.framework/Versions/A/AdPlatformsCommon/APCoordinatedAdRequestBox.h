@@ -11,16 +11,14 @@
 @interface APCoordinatedAdRequestBox : APCoordinatedRetryBox
 {
     APAdRequestContents *_requestContents;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) APAdRequestContents *requestContents; // @synthesize requestContents=_requestContents;
 
 @end

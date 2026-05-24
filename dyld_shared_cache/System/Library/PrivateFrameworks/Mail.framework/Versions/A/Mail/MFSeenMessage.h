@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface MFSeenMessage
 {
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateSeen;
-@property(nonatomic) _Bool isOnServer;
-@property(copy, nonatomic) NSString *messageID;
-@property(nonatomic) _Bool shouldDeleteFromServer;
 
 @end
 

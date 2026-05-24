@@ -6,13 +6,11 @@
 
 #import <Email/EMObjectID.h>
 
-@class EMGroupedSenderCollectionItemID, EMThreadScope;
-@protocol ECEmailAddressConvertible;
+@class EMGroupedSenderCollectionItemID;
 
 @interface EMGroupedSenderObjectID : EMObjectID
 {
     EMGroupedSenderCollectionItemID *_collectionItemID;
-    EMThreadScope *_threadScope;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)_CTCellularUsagePolicyNotificationQ;
 - (void);
 - (id);
 - (id);
@@ -35,10 +33,7 @@
 - (id)in server configuration.;
 
 // Remaining properties
-@property(readonly, nonatomic) long long businessID;
 @property(readonly, nonatomic) EMGroupedSenderCollectionItemID *collectionItemID; // @synthesize collectionItemID=_collectionItemID;
-@property(readonly, copy, nonatomic) id <ECEmailAddressConvertible> emailAddress;
-@property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
 
 @end
 

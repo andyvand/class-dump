@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSSet;
 
 @interface _DKBiomePredicateScanner
 {
     NSSet *_searchKeys;
-    NSMutableSet *_matchedKeys;
 }
 
 + (id);
 - (id);
 - (void);
 - (void)=%@; customIdentifier=%@, interval=%@; deviceIdentifiers=%@; histogram=%@; countOverAllValues=%@};
-- (void)efaultTime;
+- (void)SuStartDefaultTime;
 - (void)=Û^;
 
 @end

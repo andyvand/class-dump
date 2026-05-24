@@ -6,13 +6,12 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class CATMessage, CATRemoteTransport;
+@class CATRemoteTransport;
 
 __attribute__((visibility("hidden")))
 @interface _CATRemoteTransportSendMessageOperation : CATOperation
 {
     CATRemoteTransport *_transport;
-    CATMessage *_message;
 }
 
 - (void);
@@ -20,14 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
 - (_Bool)¤þÿP;
 
 // Remaining properties
-@property(retain, nonatomic) CATMessage *message; // @synthesize message=_message;
 @property(nonatomic) __weak CATRemoteTransport *transport; // @synthesize transport=_transport;
 
 @end

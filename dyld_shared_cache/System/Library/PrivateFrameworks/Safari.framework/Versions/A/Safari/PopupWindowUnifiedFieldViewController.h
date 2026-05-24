@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PopupWindowUnifiedFieldViewController
 {
     NSLayoutConstraint *_unifiedFieldWindowCenteringConstraint;
-    PopupWindowUnifiedField *_popupWindowUnifiedField;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)};
 - (void)ìÀ;
 
 // Remaining properties

@@ -4,60 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSelectorDelayer, NSManagedObjectContext, NSManagedObjectID, NSOperationQueue, NSSet, NSString, NSURL;
+@class NSManagedObjectContext, NSOperationQueue;
 
 @interface ICBundleChangeFilePresenter
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSManagedObjectID *_objectID;
-    NSURL *_url;
-    CDUnknownBlockType _presentedItemDidApplyChanges;
-    NSOperationQueue *_operationQueue;
-    ICSelectorDelayer *_applyChangesSelectorDelayer;
 }
 
-- (void);
+- (void)hasSuffix:(CDUnknownBlockType)arg1;
 - (CDUnknownBlockType);
-- (id);
+- (id)7;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)ishPresentedItemToWriter: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id)relinquishPresentedItemToWriter: /* Error: Ran out of types for this method. */;
 - (void),äæ\çÈè;
 - (id)dQ;
 
 // Remaining properties
-@property(retain, nonatomic) ICSelectorDelayer *applyChangesSelectorDelayer; // @synthesize applyChangesSelectorDelayer=_applyChangesSelectorDelayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(copy, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
 @property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(copy, nonatomic) CDUnknownBlockType presentedItemDidApplyChanges; // @synthesize presentedItemDidApplyChanges=_presentedItemDidApplyChanges;
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

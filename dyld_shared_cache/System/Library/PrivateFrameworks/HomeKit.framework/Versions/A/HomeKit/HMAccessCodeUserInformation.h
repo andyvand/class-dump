@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMRemovedUserInfo, HMUser, NSArray, NSString, NSUUID;
+@class NSString;
 
 @interface HMAccessCodeUserInformation
 {
     NSString *_simpleLabel;
-    NSUUID *_labelIdentifier;
-    HMUser *_user;
-    HMRemovedUserInfo *_removedUserInfo;
 }
 
 + (id);
@@ -30,30 +27,10 @@
 - (id);
 - (id);
 - (void):%@ /* Error: Ran out of types for this method. */;
-- (id)cumentation;
+- (id)SoftwareUpdateDocumentation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *labelIdentifier; // @synthesize labelIdentifier=_labelIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) HMRemovedUserInfo *removedUserInfo; // @synthesize removedUserInfo=_removedUserInfo;
-@property(readonly, copy) NSString *shortDescription;
 @property(readonly, copy) NSString *simpleLabel; // @synthesize simpleLabel=_simpleLabel;
-@property(readonly) Class superclass;
-@property(readonly) HMUser *user; // @synthesize user=_user;
 
 @end
 

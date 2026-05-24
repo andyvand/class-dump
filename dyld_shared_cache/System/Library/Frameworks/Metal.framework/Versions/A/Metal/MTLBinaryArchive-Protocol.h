@@ -8,10 +8,10 @@
 @protocol MTLDevice;
 
 @protocol MTLBinaryArchive
-- (void)ion:(NSString *)arg1 BVHBuffer:BVHBufferOffset:toBuffer:sizesBufferOffset: /* Error: Ran out of types for this method. */;
+- (id <MTLDevice>)acircumflexgrave;
+- (void)writeGenericBVHStructureSizesWithEncoder:(NSString *)arg1 version:BVHBuffer:BVHBufferOffset:toBuffer:sizesBufferOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(copy) NSString *label;
 @end
 

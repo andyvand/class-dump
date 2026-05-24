@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, PDFAKAnnotationAdaptorPrivate, PDFAnnotation;
+@class PDFAKAnnotationAdaptorPrivate, PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKAnnotationAdaptor
@@ -25,7 +25,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -34,43 +43,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (void)	H*H*!H*AH*;
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)H*!H*AH*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,7 +91,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AKAnnotation *akAnnotation;
 @property(readonly, nonatomic) __weak PDFAnnotation *pdfAnnotation;
 
 @end

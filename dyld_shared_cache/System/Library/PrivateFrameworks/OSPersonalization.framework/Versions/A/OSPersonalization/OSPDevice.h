@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
-
 @interface OSPDevice
 {
     _Bool _isX86;
-    _Bool _personalizationEnabled;
-    _Bool _globalSigningEnabled;
-    _Bool _supportsImage4;
-    _Bool _productionMode;
-    _Bool _effectiveProductionMode;
-    _Bool _securityMode;
-    _Bool _effectiveSecurityMode;
-    _Bool _targetDiskMode;
-    _Bool _engineeringUseOnlyUnit;
-    _Bool _internalUseOnlyUnit;
-    unsigned int _boardID;
-    unsigned int _chipID;
-    unsigned int _securityDomain;
-    unsigned int _cryptex1ProductClass;
-    NSString *_image4DigestType;
-    unsigned long long _ecid;
-    NSString *_hardwareModel;
-    NSString *_buildVersion;
-    NSString *_bridgeVersion;
-    NSDictionary *_apSoftwareCoprocessorParameters;
-    NSDictionary *_centauriParameters;
-    NSURL *_mountPointURL;
 }
 
 + (id);
@@ -42,7 +18,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -51,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,34 +39,34 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)L,;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)E;
+- (_Bool)7;
 - (unsigned int);
-- (void);
-- (id);
+- (void)st) ?;
+- (id)niformTypeIdentifier UTI-CONFORMS-TO %@;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)MA;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool) �;
 - (id);
 - (void);
 - (void);
@@ -102,30 +78,7 @@ Apple Inc.10U
 California0v0*HÎ=+;
 
 // Remaining properties
-@property(readonly) NSDictionary *apParameters;
-@property(retain) NSDictionary *apSoftwareCoprocessorParameters; // @synthesize apSoftwareCoprocessorParameters=_apSoftwareCoprocessorParameters;
-@property unsigned int boardID; // @synthesize boardID=_boardID;
-@property(retain) NSString *bridgeVersion; // @synthesize bridgeVersion=_bridgeVersion;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain) NSDictionary *centauriParameters; // @synthesize centauriParameters=_centauriParameters;
-@property unsigned int chipID; // @synthesize chipID=_chipID;
-@property unsigned int cryptex1ProductClass; // @synthesize cryptex1ProductClass=_cryptex1ProductClass;
-@property unsigned long long ecid; // @synthesize ecid=_ecid;
-@property _Bool effectiveProductionMode; // @synthesize effectiveProductionMode=_effectiveProductionMode;
-@property _Bool effectiveSecurityMode; // @synthesize effectiveSecurityMode=_effectiveSecurityMode;
-@property _Bool engineeringUseOnlyUnit; // @synthesize engineeringUseOnlyUnit=_engineeringUseOnlyUnit;
-@property _Bool globalSigningEnabled; // @synthesize globalSigningEnabled=_globalSigningEnabled;
-@property(retain) NSString *hardwareModel; // @synthesize hardwareModel=_hardwareModel;
-@property(retain) NSString *image4DigestType; // @synthesize image4DigestType=_image4DigestType;
-@property _Bool internalUseOnlyUnit; // @synthesize internalUseOnlyUnit=_internalUseOnlyUnit;
 @property _Bool isX86; // @synthesize isX86=_isX86;
-@property(retain) NSURL *mountPointURL; // @synthesize mountPointURL=_mountPointURL;
-@property _Bool personalizationEnabled; // @synthesize personalizationEnabled=_personalizationEnabled;
-@property _Bool productionMode; // @synthesize productionMode=_productionMode;
-@property unsigned int securityDomain; // @synthesize securityDomain=_securityDomain;
-@property _Bool securityMode; // @synthesize securityMode=_securityMode;
-@property _Bool supportsImage4; // @synthesize supportsImage4=_supportsImage4;
-@property _Bool targetDiskMode; // @synthesize targetDiskMode=_targetDiskMode;
 
 @end
 

@@ -10,28 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _UIImageSystemImageVisualStyle
 {
     UIImage *_actionsImage;
-    UIImage *_addImage;
-    UIImage *_removeImage;
-    UIImage *_checkmarkImage;
-    UIImage *_strokedCheckmarkImage;
 }
 
-+ (id);
-+ (id);
++ (id)getting command blastdoor object from result:(id)arg1 <%@ %p>, ;
++ (id)command:(id)arg1 %@, %@;
 + (id);
 - (id);
 - (id);
-- (id);
-- (id)reviousWordBoundaryInDocument:tokenAccumulator: /* Error: Ran out of types for this method. */;
+- (id)k*�;
+- (id)_positionFromPosition:toPreviousWordBoundaryInDocument:tokenAccumulator: /* Error: Ran out of types for this method. */;
 - (id)pletionCoachingTask;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *actionsImage; // @synthesize actionsImage=_actionsImage;
-@property(readonly, nonatomic) UIImage *addImage; // @synthesize addImage=_addImage;
-@property(readonly, nonatomic) UIImage *checkmarkImage; // @synthesize checkmarkImage=_checkmarkImage;
-@property(readonly, nonatomic) UIImage *removeImage; // @synthesize removeImage=_removeImage;
-@property(readonly, nonatomic) UIImage *strokedCheckmarkImage; // @synthesize strokedCheckmarkImage=_strokedCheckmarkImage;
 
 @end
 

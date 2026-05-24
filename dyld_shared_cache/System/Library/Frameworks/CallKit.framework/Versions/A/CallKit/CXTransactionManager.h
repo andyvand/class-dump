@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol CXTransactionManagerDelegate, OS_dispatch_queue;
 
 @interface CXTransactionManager
 {
     id <CXTransactionManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_outstandingTransactionGroups;
 }
 
 - (id);
@@ -21,19 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)Core.dylib;
+- (void)STUniquelySerializableManagedObject;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CXTransactionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableSet *outstandingTransactionGroups; // @synthesize outstandingTransactionGroups=_outstandingTransactionGroups;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

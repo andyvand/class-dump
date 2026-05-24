@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (long long);

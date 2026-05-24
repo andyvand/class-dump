@@ -13,13 +13,12 @@
         char *mallocedPtr;
         unsigned char inlineBuffer[300];
     } _tlv;
-    _Bool _addHasFailed;
 }
 
 + (id);
 + (id)Request timed out waiting for response.;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

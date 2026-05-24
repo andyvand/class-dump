@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNObserver, _CNObservableTakeUntilSignalObserverDelegate;
+@protocol CNObserver;
 
 @interface _CNObservableTakeUntilSignalObserver
 {
     id <CNObserver> _observer;
-    id <_CNObservableTakeUntilSignalObserverDelegate> _delegate;
 }
 
 - (id);
@@ -18,20 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)Identifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)initWithBundleIdentifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
 - (void)pdateAcconuts:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <_CNObservableTakeUntilSignalObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <CNObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

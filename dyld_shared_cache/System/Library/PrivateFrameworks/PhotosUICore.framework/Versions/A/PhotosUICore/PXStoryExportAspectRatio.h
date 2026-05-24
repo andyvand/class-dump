@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryExportOrientation;
-
 @interface PXStoryExportAspectRatio
 {
     long long _type;
-    double _ratio;
-    PXStoryExportOrientation *_orientation;
 }
 
 + (id);
@@ -29,14 +25,11 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id)resentation:(struct _NSZone *)arg1;
+- (id)setIsSpatialPresentation:(struct _NSZone *)arg1;
 - (void)xb;
 - (id)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) PXStoryExportOrientation *orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) double ratio; // @synthesize ratio=_ratio;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

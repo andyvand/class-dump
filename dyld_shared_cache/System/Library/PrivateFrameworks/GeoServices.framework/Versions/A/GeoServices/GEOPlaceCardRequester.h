@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, geo_isolater;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface GEOPlaceCardRequester
 {
     NSObject<OS_dispatch_queue> *_requestQ;
-    geo_isolater *_isolater;
-    NSMutableDictionary *_pendingRequestConnections;
 }
 
 + (id);
@@ -22,16 +20,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)launchSiriDebugFeedbackBannerFalseRejectBannerWithTriggerScore:withTriggeredPhraseId: /* Error: Ran out of types for this method. */;
+- (void)_currentAudioRecorderSampleRate;
+- (void);
+- (void)%llu> needs update:(CDUnknownBlockType)arg1 expired:%d, hasComponent:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)reData;
+- (void)explicitTextureData;
 - (void)9t;à;;
-- (id)tion;
+- (id)throttle_duration;
 - (unsigned long long)0;
 - (void)l	ù gMK@;
 

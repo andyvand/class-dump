@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKRulerLayer, PKRulerView;
-@protocol PKRulerDelegate;
+@class PKRulerLayer;
 
 @interface PKRulerController
 {
     _Bool _isInteractingWithRuler;
-    _Bool _rulerSelected;
-    _Bool _rulerIsRotating;
-    _Bool _rulerWasShownViaGesture;
-    _Bool _canRulerSnapToAngle;
-    _Bool _lastTouchWasMaskedByRuler;
-    _Bool _lastDrawingWasMaskedByRuler;
-    _Bool _lastDrawingWasSnappedToRuler;
-    id <PKRulerDelegate> _delegate;
-    PKRulerView *_rulerView;
-    PKRulerLayer *_rulerLayer;
-    CDStruct_cfd08fee _rulerState;
-    CDStruct_cfd08fee _previousRulerState;
-    struct CGAffineTransform _rulerStartTransform;
-    struct CGAffineTransform _defaultRulerTransform;
 }
 
 + (id);
@@ -43,18 +28,18 @@
 - (void);
 - (_Bool);
 - (struct CGAffineTransform);
-- (CDStruct_cfd08fee);
+- (CDStruct_249e8220);
 - (struct CGAffineTransform);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (CDStruct_cfd08fee);
+- (void);
+- (void)";
+- (CDStruct_249e8220);
 - (struct CGAffineTransform);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
@@ -72,30 +57,15 @@
 - (void);
 - (struct CGAffineTransform);
 - (void);
-- (void);
-- (id);
+- (void)0@0:(id)arg1 8Q16Q24@32;
+- (id)didOpenNewBlankTabWithTrigger:tabCollectionViewType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canRulerSnapToAngle; // @synthesize canRulerSnapToAngle=_canRulerSnapToAngle;
-@property(nonatomic) struct CGAffineTransform defaultRulerTransform; // @synthesize defaultRulerTransform=_defaultRulerTransform;
-@property(nonatomic) __weak id <PKRulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isInteractingWithRuler; // @synthesize isInteractingWithRuler=_isInteractingWithRuler;
-@property(nonatomic) _Bool lastDrawingWasMaskedByRuler; // @synthesize lastDrawingWasMaskedByRuler=_lastDrawingWasMaskedByRuler;
-@property(nonatomic) _Bool lastDrawingWasSnappedToRuler; // @synthesize lastDrawingWasSnappedToRuler=_lastDrawingWasSnappedToRuler;
-@property(nonatomic) _Bool lastTouchWasMaskedByRuler; // @synthesize lastTouchWasMaskedByRuler=_lastTouchWasMaskedByRuler;
-@property(nonatomic) CDStruct_cfd08fee previousRulerState; // @synthesize previousRulerState=_previousRulerState;
-@property(nonatomic) _Bool rulerIsRotating; // @synthesize rulerIsRotating=_rulerIsRotating;
 @property(retain, nonatomic) PKRulerLayer *rulerLayer; // @synthesize rulerLayer=_rulerLayer;
-@property(readonly, nonatomic) _Bool rulerSelected; // @synthesize rulerSelected=_rulerSelected;
-@property(nonatomic) struct CGAffineTransform rulerStartTransform; // @synthesize rulerStartTransform=_rulerStartTransform;
-@property(nonatomic) CDStruct_cfd08fee rulerState; // @synthesize rulerState=_rulerState;
-@property(readonly, nonatomic) struct CGAffineTransform rulerTransform;
-@property(retain, nonatomic) PKRulerView *rulerView; // @synthesize rulerView=_rulerView;
-@property(nonatomic) _Bool rulerWasShownViaGesture; // @synthesize rulerWasShownViaGesture=_rulerWasShownViaGesture;
 
 @end
 

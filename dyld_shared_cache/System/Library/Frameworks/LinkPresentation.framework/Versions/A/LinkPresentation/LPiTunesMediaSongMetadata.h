@@ -6,21 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, LPLyricExcerptMetadata, NSArray, NSString, NSURL;
+@class NSString;
 
 @interface LPiTunesMediaSongMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    NSString *_album;
-    NSString *_lyrics;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSURL *_previewURL;
-    NSArray *_offers;
-    LPLyricExcerptMetadata *_lyricExcerpt;
 }
 
 + (id);
@@ -35,57 +25,40 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);S;
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)j;
+- (id);
+- (void);
+- (id);
+- (void)E;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)DataRef, NSArray *__strong, CFErrorRef *);
+- (id)tion %{public}@;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithEncodedImagePropertyData:(id)arg1 contentType:timeZoneLookup: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)@+;
 - (void);
 - (void);
 - (id)ÄÑ;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) LPLyricExcerptMetadata *lyricExcerpt; // @synthesize lyricExcerpt=_lyricExcerpt;
-@property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

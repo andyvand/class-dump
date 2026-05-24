@@ -7,7 +7,6 @@
 @interface NewsPersonalization.TagEvaluator
 {
     id bundleSubscriptionIsSubscribedProvider;
-    id computeService;
 }
 
 @end

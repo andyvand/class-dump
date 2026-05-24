@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setResultMatrixOrigin: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MLCMatMulDescriptor *descriptor; // @synthesize descriptor=_descriptor;

@@ -5,5 +5,6 @@
 //
 
 @protocol AVAsynchronousKeyValueLoading
+- (void);
 @end
 

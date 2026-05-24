@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class);
+- (unsigned long long)a: /* Error: Ran out of types for this method. */;
+- (_Bool)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
+- (oneway void)s/app_icons/reminders@2x.png;
+- (_Bool)_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE (associated_message_guid = ?) AND (handle_id IN (SELECT ROWID FROM handle where id = ?));;
+- (id)_accessibilityPageElements;
 - (struct _NSZone *)i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

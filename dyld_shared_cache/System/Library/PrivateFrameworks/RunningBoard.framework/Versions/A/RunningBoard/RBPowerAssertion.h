@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface RBPowerAssertion
 {
     unsigned int _identifier;
-    NSDate *_acquisitionDate;
-    NSString *_name;
-    NSString *_baseName;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
-- (id);
-- (int);
+- (id)splayID;
+- (int)V;
 - (id);
 - (id);
 - (void);

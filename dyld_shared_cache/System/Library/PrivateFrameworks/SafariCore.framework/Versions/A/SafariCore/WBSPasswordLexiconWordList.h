@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)_subtractRectB:fromRectA: /* Error: Ran out of types for this method. */;
 
 @end
 

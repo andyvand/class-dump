@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
-@protocol CRKComposableView;
+@class NSView;
 
 @interface CRKContainerCardSectionView
 {
     NSView *_userInputEventInterceptView;
-    NSView<CRKComposableView> *_composedSuperview;
-    NSString *_cardSectionViewIdentifier;
-    NSView *_contentView;
-    struct CGSize _contentSize;
 }
 
 + (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -27,26 +22,15 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
+- (void)TIContextTokens"24I32;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)g6;
 - (struct CGSize);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardSectionViewIdentifier; // @synthesize cardSectionViewIdentifier=_cardSectionViewIdentifier;
-@property(nonatomic) __weak NSView<CRKComposableView> *composedSuperview; // @synthesize composedSuperview=_composedSuperview;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
 @property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interceptsTouches;
-@property(readonly) Class superclass;
 
 @end
 

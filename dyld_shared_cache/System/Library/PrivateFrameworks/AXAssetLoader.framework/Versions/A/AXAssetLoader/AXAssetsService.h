@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface AXAssetsService
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)fetchAssetsForLanguage:(id)arg1 taskHint:(id)arg2 clientIdentifier:(_Bool)arg3 progress:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

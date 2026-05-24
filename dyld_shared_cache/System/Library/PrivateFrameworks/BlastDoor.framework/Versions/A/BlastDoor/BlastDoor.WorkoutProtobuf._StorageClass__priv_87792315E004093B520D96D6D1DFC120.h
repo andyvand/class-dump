@@ -7,21 +7,6 @@
 @interface BlastDoor.WorkoutProtobuf._StorageClass__priv_87792315E004093B520D96D6D1DFC120
 {
     id _sample;
-    id _type;
-    id _duration;
-    id _totalEnergyBurnedInCanonicalUnit;
-    id _totalBasalEnergyBurnedInCanonicalUnit;
-    id _totalDistanceInCanonicalUnit;
-    id _goalType;
-    id _goalInCanonicalUnit;
-    id _bundleID;
-    id _isWatchWorkout;
-    id _isIndoorWorkout;
-    id _deviceManufacturer;
-    id _deviceModel;
-    id _amm;
-    id _seymourCatalogWorkoutIdentifier;
-    id _seymourMediaType;
 }
 
 @end

@@ -6,27 +6,9 @@
 
 #import <Foundation/NSCoder.h>
 
-@class NSMutableArray;
-@protocol NSKeyedArchiverDelegate;
-
 @interface NSKeyedArchiver : NSCoder
 {
     void *_stream;
-    _Atomic unsigned long long _flags;
-    id <NSKeyedArchiverDelegate> _delegate;
-    NSMutableArray *_containers;
-    NSMutableArray *_objects;
-    struct __CFDictionary *_objRefMap;
-    struct __CFDictionary *_replacementMap;
-    struct __CFDictionary *_classNameMap;
-    struct __CFDictionary *_conditionals;
-    struct __CFDictionary *_classes;
-    unsigned long long _genericKey;
-    const struct __CFKeyedArchiverUID **_cache;
-    unsigned long long _cacheSize;
-    unsigned long long _estimatedCount;
-    struct __CFSet *_visited;
-    unsigned long long _pac_signature;
 }
 
 @end

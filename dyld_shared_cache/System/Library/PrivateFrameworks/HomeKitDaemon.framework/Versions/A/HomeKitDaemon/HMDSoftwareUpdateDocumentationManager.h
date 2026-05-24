@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFNetMonitor, NSArray, NSMutableOrderedSet, NSMutableSet, NSObject, NSString;
-@protocol HMDFileManager, OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateDocumentationManager
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMFNetMonitor *_netMonitor;
-    NSMutableOrderedSet *_assets;
-    NSMutableSet *_registeredMetadata;
-    id <HMDFileManager> _fileManager;
 }
 
 + (id)ion;
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A/CoreGraphics;
 - (void);
 - (id);
 - (void);
@@ -37,17 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *assets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMutableSet *registeredMetadata; // @synthesize registeredMetadata=_registeredMetadata;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

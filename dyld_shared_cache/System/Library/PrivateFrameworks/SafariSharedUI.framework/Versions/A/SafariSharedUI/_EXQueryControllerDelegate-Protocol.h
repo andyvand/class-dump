@@ -5,5 +5,11 @@
 //
 
 @protocol _EXQueryControllerDelegate
+
+@optional
+- (void)nd;
+- (void)nough bits to represent a signed value;
+- (void)Pointer with negative count;
+- (void);
 @end
 

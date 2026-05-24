@@ -7,13 +7,14 @@
 @class UIColor;
 
 @protocol UIInterfaceActionVisualBackgroundDisplaying
+- (void);
 - (void)]¸^ `¸aÜb;
-- (void)ations;
-- (void)erStr;
+- (void)notifications;
+- (void)UIKBAttributeValueKeyboardTypeTwitterStr;
 
 @optional
 - (UIColor *)ation dictionary %@;
-- (void)TFontTextStyleSubhead1;
+- (void)UICTFontTextStyleSubhead1;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor;

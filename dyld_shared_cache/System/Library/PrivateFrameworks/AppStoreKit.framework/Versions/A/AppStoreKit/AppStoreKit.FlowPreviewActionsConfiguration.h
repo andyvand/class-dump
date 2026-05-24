@@ -7,9 +7,6 @@
 @interface AppStoreKit.FlowPreviewActionsConfiguration
 {
     id actions;
-    id offerDisplayProperties;
-    id offerActionIndex;
-    id destructiveActionIndex;
 }
 
 @end

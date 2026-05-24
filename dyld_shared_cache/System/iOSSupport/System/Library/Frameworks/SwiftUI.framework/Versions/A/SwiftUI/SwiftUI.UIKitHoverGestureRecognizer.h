@@ -12,8 +12,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id)GetEmptyStringAlreadyInited;
 - (void);
 - (void)
 ;

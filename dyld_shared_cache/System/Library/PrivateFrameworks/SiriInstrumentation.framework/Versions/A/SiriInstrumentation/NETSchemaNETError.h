@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NETSchemaNETError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    NSString *_description;
-    long long _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasDomain;
-    _Bool _hasDescription;
 }
 
 - (void);
@@ -26,11 +21,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)=ddd}40{?=ddd}64;
+- (void)uester.;
 - (id);
 - (void);
-- (void);
+- (void)ReqTBE;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -46,13 +41,7 @@
 - (long long)à²¨a';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasDescription; // @synthesize hasDescription=_hasDescription;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

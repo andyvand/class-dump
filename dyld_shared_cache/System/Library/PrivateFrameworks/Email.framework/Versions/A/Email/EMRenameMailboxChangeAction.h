@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)ObserverInterfaceInternal;
 - (id);
 - (id);
 - (void);

@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)uod_force_asr_on_server;
 
 @end
 

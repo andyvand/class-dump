@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGSize);
-- (id)rowViewCoordinates;
+- (struct CGSize)h;
+- (id)audioRecordingPillViewFrameInThrowViewCoordinates;
 
 @end
 

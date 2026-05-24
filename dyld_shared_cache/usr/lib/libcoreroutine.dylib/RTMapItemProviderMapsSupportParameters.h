@@ -7,22 +7,18 @@
 @interface RTMapItemProviderMapsSupportParameters
 {
     double _favoriteConfidence;
-    double _historyEntryRouteConfidence;
-    double _historyEntryPlaceDisplayConfidence;
 }
 
 - (id);
 - (double);
 - (double);
-- (double);
-- (id);
+- (double)currentItemPointerModificationTime;
+- (id)e identity data protection class {error:%{public}@, identity:%{private}@, dataProtectionClass:%d} /* Error: Ran out of types for this method. */;
 - (id);
 - (id)> 1,(%lu) drive segments, attempting route compounding, commuteID,%@;
 
 // Remaining properties
 @property(readonly, nonatomic) double favoriteConfidence; // @synthesize favoriteConfidence=_favoriteConfidence;
-@property(readonly, nonatomic) double historyEntryPlaceDisplayConfidence; // @synthesize historyEntryPlaceDisplayConfidence=_historyEntryPlaceDisplayConfidence;
-@property(readonly, nonatomic) double historyEntryRouteConfidence; // @synthesize historyEntryRouteConfidence=_historyEntryRouteConfidence;
 
 @end
 

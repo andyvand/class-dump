@@ -9,41 +9,23 @@
 @interface PAPerfLoggingOperationCompletionNotificationIntervalData
 {
     NSString *_intervalType;
-    double _intervalRateInIntervalsPerSecond;
-    double _intervalRateIgnoringDelayInIntervalsPerSecond;
-    unsigned long long _intervalCount;
-    unsigned long long _averageDurationInMachAbsTime;
-    unsigned long long _durationStandardDeviationInMachAbsTime;
-    unsigned long long _initialDelayInMachAbsTime;
-    unsigned long long _trailingDelayInMachAbsTime;
 }
 
-- (double);
+- (double)K;
 - (unsigned long long);
 - (id);
 - (double);
 - (double);
 - (double);
-- (unsigned long long);
-- (double);
+- (unsigned long long);
+- (double)#;
 - (unsigned long long);
 - (double);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long averageDurationInMachAbsTime; // @synthesize averageDurationInMachAbsTime=_averageDurationInMachAbsTime;
-@property(readonly) double averageDurationInMs;
-@property(readonly) unsigned long long durationStandardDeviationInMachAbsTime; // @synthesize durationStandardDeviationInMachAbsTime=_durationStandardDeviationInMachAbsTime;
-@property(readonly) double durationStandardDeviationInMs;
-@property(readonly) unsigned long long initialDelayInMachAbsTime; // @synthesize initialDelayInMachAbsTime=_initialDelayInMachAbsTime;
-@property(readonly) double initialDelayInMs;
-@property(readonly) unsigned long long intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(readonly) double intervalRateIgnoringDelayInIntervalsPerSecond; // @synthesize intervalRateIgnoringDelayInIntervalsPerSecond=_intervalRateIgnoringDelayInIntervalsPerSecond;
-@property(readonly) double intervalRateInIntervalsPerSecond; // @synthesize intervalRateInIntervalsPerSecond=_intervalRateInIntervalsPerSecond;
 @property(readonly) NSString *intervalType; // @synthesize intervalType=_intervalType;
-@property(readonly) unsigned long long trailingDelayInMachAbsTime; // @synthesize trailingDelayInMachAbsTime=_trailingDelayInMachAbsTime;
-@property(readonly) double trailingDelayInMs;
 
 @end
 

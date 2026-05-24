@@ -9,14 +9,13 @@
 @interface CKContextFingerprintMinHash : CKContextFingerprint
 {
     unsigned int _numHashes;
-    int *_hashes;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (float);
-- (void);
+- (id)or adding album artist=%{public}s. Could not prepare track data for import=%{public}s;
+- (float)nding album artist deletes OR accumulated enough adds OR track modifications finished with status=%{BOOL}u;
+- (void);
 - (id);
 - (int *);
 - (unsigned int);
@@ -25,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int *hashes; // @synthesize hashes=_hashes;
 @property(readonly, nonatomic) unsigned int numHashes; // @synthesize numHashes=_numHashes;
 
 @end

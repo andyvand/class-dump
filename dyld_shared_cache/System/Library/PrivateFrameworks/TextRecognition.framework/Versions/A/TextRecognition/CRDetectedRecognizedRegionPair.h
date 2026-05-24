@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRDetectedLineRegion, NSArray;
+@class CRDetectedLineRegion;
 
 @interface CRDetectedRecognizedRegionPair
 {
     CRDetectedLineRegion *_detectedLineRegion;
-    NSArray *_recognizedTextRegions;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)tsOfFile:encoding:error: /* Error: Ran out of types for this method. */;
+- (void)stringWithContentsOfFile:encoding:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CRDetectedLineRegion *detectedLineRegion; // @synthesize detectedLineRegion=_detectedLineRegion;
-@property(retain) NSArray *recognizedTextRegions; // @synthesize recognizedTextRegions=_recognizedTextRegions;
 
 @end
 

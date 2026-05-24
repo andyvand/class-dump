@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)eRequest"b1"isSnippetNextCardRequest"b1"isMachineUtterance"b1"isDisambiguation"b1"isLiveScoreRequest"b1};
+- (void)entMetadata";
 - (_Bool);
 - (id);
 

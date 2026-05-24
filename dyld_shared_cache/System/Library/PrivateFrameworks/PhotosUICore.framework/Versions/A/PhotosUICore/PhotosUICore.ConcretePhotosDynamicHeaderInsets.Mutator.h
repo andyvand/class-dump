@@ -7,10 +7,6 @@
 @interface PhotosUICore.ConcretePhotosDynamicHeaderInsets.Mutator
 {
     id observable;
-    id _mainContentInsets;
-    id _floatingAreaInsets;
-    id _maximumFloatingAreaInsets;
-    id _safeAreaInsets;
 }
 
 @end

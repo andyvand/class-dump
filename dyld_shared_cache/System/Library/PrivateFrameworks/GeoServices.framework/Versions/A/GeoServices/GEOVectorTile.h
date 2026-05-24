@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface GEOVectorTile
 {
     shared_ptr_07a3cc42 _vectorTile;
-    NSMutableArray *_cached_lines;
-    NSMutableArray *_cached_coastlines;
-    NSMutableArray *_cached_buildingFootprints;
-    NSMutableArray *_cached_transitLines;
-    NSMutableArray *_cached_transitLinks;
-    NSMutableArray *_cached_overlapBuildingFootprints;
-    NSMutableArray *_cached_connectivityJunctions;
-    struct once_flag _initLinesFlag;
-    struct once_flag _initCoastlinesFlag;
-    struct once_flag _initBuildingFootprintsFlag;
-    struct once_flag _initTransitLinesFlag;
-    struct once_flag _initTransitLinksFlag;
-    struct once_flag _initOverlapBuildingFootprintsFlag;
-    struct once_flag _initConnectivityJunctionsFlag;
 }
 
 - (unsigned long long);
@@ -40,8 +24,8 @@
 - (unsigned long long);
 - (unsigned long long *);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)A;
+- (unsigned long long)H;
 - (unsigned int);
 - (BOOL);
 - (unsigned short);
@@ -50,7 +34,7 @@
 - (struct GeoCodecsDaVinciExplicitTextureMappingData *);
 - (void *);
 - (unsigned long long *);
-- (void *);
+- (void *);
 - (unsigned int);
 - (struct GeoCodecsLabelLineFeatureSection *);
 - (unsigned long long);
@@ -60,7 +44,7 @@
 - (unsigned long long *);
 - (unsigned long long);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (struct GeoCodecsDaVinciBuildingSection *);
 - (id);
 - (unsigned int);
@@ -69,26 +53,29 @@
 - (float);
 - (short);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)0.2f, %0.2f, %0.2f, %0.2f]
+  [%0.2f, %0.2f, %0.2f, %0.2f]
+  [%0.2f, %0.2f, %0.2f, %0.2f]
+  [%0.2f, %0.2f, %0.2f, %0.2f] ];
 - (unsigned int);
 - (unsigned int);
 - (unsigned long long);
-- (struct GeoCodecsVectorTilePoint3D *);
+- (struct GeoCodecsVectorTilePoint3D *)_remoteEditingWhitelistedComponent;
 - (unsigned short);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (struct GeoCodecsCharacteristicPoint *);
-- (unsigned char *);
-- (unsigned long long);
-- (struct GeoCodecsLabelLineAttribute *);
-- (id);
-- (unsigned long long *);
-- (unsigned int);
+- (unsigned char *)initWithRoute:isRemoteDevice:remoteDeviceUID:remoteDeviceProductIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)cvtConfig;
+- (struct GeoCodecsLabelLineAttribute *)SupportedRequestType:audioSessionId:recordDeviceInfo: /* Error: Ran out of types for this method. */;
+- (id)le to parse fake model meta json :%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long *)ck;
+- (unsigned int)%s setting delay interstitial %{public}d sounds with level :%{public}d /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (void *);
 - (unsigned long long);
-- (float *);
+- (float *));
 - (unsigned short);
 - (id);
 - (unsigned long long);
@@ -112,12 +99,12 @@
 - (struct GeoCodecsConnectivityJunction *);
 - (struct GeoCodecsConnectivityPointOnRoad *);
 - (unsigned long long *);
-- (unsigned long long);
+- (unsigned long long)k ;
 - (void);
 - (struct GeoCodecsCharacteristicPoint *);
-- (struct GeoCodecsLabelSummaryIcon *);
+- (struct GeoCodecsLabelSummaryIcon *);
 - (unsigned int);
-- (unsigned short);
+- (unsigned short)description;
 - (unsigned short);
 - (void);
 - (struct GeoCodecsDaVinciScene *);
@@ -128,14 +115,14 @@
 - (struct GeoCodecsDaVinciMaterialSheet *);
 - (void *);
 - (struct GeoCodecsTileKey *);
-- (struct GeoCodecsDaVinciRenderable *);
-- (short);
-- (struct GeoCodecsConnectivityOverpass *);
-- (unsigned long long *);
-- (struct GeoCodecsVertexPool *);
-- (unsigned long long);
-- (unsigned short);
-- (struct GeoCodecsLabelTextPlacement *);
+- (struct GeoCodecsDaVinciRenderable *)urlForDirectionsFromMapItem:toMapItem:transportType:options: /* Error: Ran out of types for this method. */;
+- (short)tracking;
+- (struct GeoCodecsConnectivityOverpass *)setTriedKeys: /* Error: Ran out of types for this method. */;
+- (unsigned long long *)numberWithUnsignedLong: /* Error: Ran out of types for this method. */;
+- (struct GeoCodecsVertexPool *)eploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_startPoint;
+- (unsigned short)_mapkit_isCLLocationUnknown;
+- (struct GeoCodecsLabelTextPlacement *)_detailCalloutAccessoryView;
 - (_Bool);
 - (unsigned short);
 - (unsigned int);
@@ -148,10 +135,10 @@
 - (unsigned long long *);
 - (unsigned long long);
 - (id);
-- (void *);
+- (void *);
 - (struct GeoCodecsDaVinciMesh *);
 - (unsigned short);
-- (unsigned short *);
+- (unsigned short *);
 - (id);
 - (unsigned long long);
 - (unsigned short);
@@ -163,22 +150,22 @@
 - (unsigned long long)_category"b1};
 - (struct GeoCodecsStrokeSpecification *)wnFields"b1"read_familarRouteUuid"b1"read_routeLegs"b1"wrote_anyField"b1};
 - (unsigned long long *)56B64@68;
-- (unsigned long long);
-- (unsigned long long)dinate:radius:categories:maxResultCount:source: /* Error: Ran out of types for this method. */;
-- (struct GeoCodecsVenueLevel *)eocodeCoordinate:floor:includeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
-- (id)eCount;
-- (void)eSource;
-- (id)bug_fetchAllAvailableExperiments: /* Error: Ran out of types for this method. */;
-- (void)afeDataForQuadKeyNum:(CDUnknownBlockType)arg1 result: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setGeometry: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithCoordinate:radius:categories:maxResultCount:source: /* Error: Ran out of types for this method. */;
+- (struct GeoCodecsVenueLevel *)_searchable_ticketForReverseGeocodeCoordinate:floor:includeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
+- (id)_requestedImageCount;
+- (void)_featureTypeSource;
+- (id)_debug_fetchAllAvailableExperiments: /* Error: Ran out of types for this method. */;
+- (void)unsafeDataForQuadKeyNum:(CDUnknownBlockType)arg1 result: /* Error: Ran out of types for this method. */;
 - (unsigned short)hasUuid;
 - (CDStruct_7523a67d *)L<MðM NPOP¸P8QÈQ|R,SÜS¬T\UV¼VpW XÔXY<ZðZ¤[d\]Ä]t^$_Ì_`Pabc¼cpd$eØef@gôgh4ièijPk;
 - (void *)This is a path-codec library error. Clamping and attempting to continue...;
-- (id)_BOOKING_SESSION;
-- (struct GeoCodecsConnectivityPointOnRoad **)hAction_LowFuelAction;
-- (const struct GeoCodecsTransitLinkSection *)weenConsecutiveLocationUpdatesInSeconds;
-- (unsigned long long)ionlessURL;
+- (id)TABLE_BOOKING_SESSION;
+- (struct GeoCodecsConnectivityPointOnRoad **)AP_LaunchAction_LowFuelAction;
+- (const struct GeoCodecsTransitLinkSection *)NavdMinimumTimeBetweenConsecutiveLocationUpdatesInSeconds;
+- (unsigned long long)analyticsSessionlessURL;
 - (void *)TAP_EV_TIPKIT;
-- (unsigned long long)msg_event;
+- (unsigned long long)log_msg_event;
 - (unsigned long long)s/libprotobuf/src/google/protobuf/dynamic_message.cc;
 - (void *)AddUInt32;
 - (struct GeoCodecsLineCrossing *)à`;
@@ -188,7 +175,7 @@
 - (struct GeoCodecsTileLabelLine *);
 - (struct GeoCodecsVectorTilePoint3D *);
 - (struct GeoCodecsVenueComponent *);
-- (void)erE;
+- (void)N6gloria11ShardHeaderE;
 - (shared_ptr_07a3cc42)ÄBAusñ·=RQ@;
 - (void)=íbM@;
 - (unsigned short)AÃ'HRL@;
@@ -196,149 +183,7 @@
 - (struct GeoCodecsTileKey *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long buildingFootprintsCount;
-@property(readonly, nonatomic) _Bool buildingsHaveTerrainElevation;
-@property(readonly, nonatomic) unsigned long long coastlinesCount;
-@property(readonly, nonatomic) _Bool containsDaVinciData;
-@property(readonly, nonatomic) _Bool containsProjectedLegacyData;
-@property(readonly, nonatomic) struct GeoCodecsCurveVertexPool *curveLineVertices;
-@property(readonly, nonatomic) unsigned short daVinciAssetCount;
-@property(readonly, nonatomic) void *daVinciAssets;
-@property(readonly, nonatomic) unsigned short daVinciBuildingCount;
-@property(readonly, nonatomic) unsigned short daVinciBuildingSectionCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciBuildingSection *daVinciBuildingSections;
-@property(readonly, nonatomic) unsigned int daVinciBuildingVertexCount;
-@property(readonly, nonatomic) unsigned int daVinciBuildingVertexOffset;
-@property(readonly, nonatomic) struct GeoCodecsVectorTilePoint3D *daVinciBuildingVertices;
-@property(readonly, nonatomic) void *daVinciBuildings;
-@property(readonly, nonatomic) unsigned short daVinciDecalCount;
-@property(readonly, nonatomic) void *daVinciDecals;
-@property(readonly, nonatomic) unsigned short daVinciExternalAssetCount;
-@property(readonly, nonatomic) unsigned long long *daVinciExternalAssetIDs;
-@property(readonly, nonatomic) unsigned short daVinciExternalMaterialCount;
-@property(readonly, nonatomic) unsigned long long *daVinciExternalMaterialIDs;
-@property(readonly, nonatomic) unsigned int daVinciIndexCount;
-@property(readonly, nonatomic) unsigned short *daVinciIndices;
-@property(readonly, nonatomic) unsigned short daVinciLineLoopCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciLineLoop *daVinciLineLoops;
-@property(readonly, nonatomic) unsigned short daVinciMaterialSheetCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciMaterialSheet *daVinciMaterialSheets;
-@property(readonly, nonatomic) unsigned short daVinciMeshCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciMesh *daVinciMeshes;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciMetaData *daVinciMetaData;
-@property(readonly, nonatomic) unsigned short daVinciRenderableCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciRenderable *daVinciRenderables;
-@property(readonly, nonatomic) unsigned short daVinciSceneCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciScene *daVinciScenes;
-@property(readonly, nonatomic) unsigned short daVinciStyleAttributeRasterCount;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciStyleAttributeRaster *daVinciStyleAttributeRasters;
-@property(readonly, nonatomic) unsigned int daVinciTileVersion;
-@property(readonly, nonatomic) unsigned int daVinciVertexCount;
-@property(readonly, nonatomic) struct GeoCodecsVectorTilePoint3D *daVinciVertices;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciDirectionalXYTextureMappingData *directionalXYTextureData;
-@property(readonly, nonatomic) unsigned short directionalXYTextureDataCount;
-@property(readonly, nonatomic) unsigned int elevationRasterByteCount;
-@property(readonly, nonatomic) char *elevationRasterPng;
-@property(readonly, nonatomic) struct GeoCodecsDaVinciExplicitTextureMappingData *explicitTextureData;
-@property(readonly, nonatomic) unsigned short explicitTextureDataCount;
-@property(readonly, nonatomic) CDStruct_7523a67d *geoConnectivityPointOnRoad;
-@property(readonly, nonatomic) CDStruct_183601bc **geoSortedConnectivityPointOnRoad;
-@property(readonly, nonatomic) struct _GEOTileKey geoTileKey;
-@property(readonly, nonatomic) _Bool hasComputedJunctions;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *junctions;
-@property(readonly, nonatomic) unsigned long long junctionsCount;
-@property(readonly, nonatomic) NSMutableArray *junctionsWithoutFeature;
-@property(readonly, nonatomic) struct GeoCodecsLabelLineAttribute *labelLineAttributes;
-@property(readonly, nonatomic) unsigned int labelLineAttributesCount;
-@property(readonly, nonatomic) struct GeoCodecsLabelLineFeatureSection *labelLineFeatureSections;
-@property(readonly, nonatomic) unsigned int labelLineFeatureSectionsCount;
-@property(readonly, nonatomic) struct GeoCodecsLabelSummaryIcon *labelSummaryIcons;
-@property(readonly, nonatomic) unsigned int labelSummaryIconsCount;
-@property(readonly, nonatomic) struct GeoCodecsLabelTextPlacement *labelTextPlacements;
-@property(readonly, nonatomic) unsigned int labelTextPlacementsCount;
-@property(readonly, nonatomic) unsigned long long lineCharacteristicPointCount;
-@property(readonly, nonatomic) struct GeoCodecsCharacteristicPoint *lineCharacteristicPoints;
-@property(readonly, nonatomic) struct GeoCodecsLineCrossing *lineCrossings;
-@property(readonly, nonatomic) unsigned long long lineCrossingsCount;
-@property(readonly, nonatomic) unsigned long long lineStrokeSpecificationCount;
-@property(readonly, nonatomic) struct GeoCodecsStrokeSpecification *lineStrokeSpecifications;
-@property(readonly, nonatomic) struct GeoCodecsVertexPool *lineVertices;
 @property(readonly, nonatomic) unsigned long long linesCount;
-@property(readonly, nonatomic) short maxElevationInMeters;
-@property(readonly, nonatomic) double metersToTileSize;
-@property(readonly, nonatomic) short minElevationInMeters;
-@property(readonly, nonatomic) unsigned long long nonOverlappingBuildingFootprintsCount;
-@property(readonly, nonatomic) unsigned long long nonOverlappingThreeDBuildingsCount;
-@property(readonly, nonatomic) NSMutableArray *overlapBuildingFootprints;
-@property(readonly, nonatomic) unsigned long long overlapBuildingFootprintsCount;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityOverpass *overpasses;
-@property(readonly, nonatomic) void *physicalFeatures;
-@property(readonly, nonatomic) unsigned long long physicalFeaturesCount;
-@property(readonly, nonatomic) struct GeoCodecsVertexPool *physicalFeaturesVertices;
-@property(readonly, nonatomic) unsigned long long *poiStorefrontBundleIDs;
-@property(readonly, nonatomic) unsigned int poiStorefrontBundleIDsCount;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityPointOnRoad *pointsOnRoad;
-@property(readonly, nonatomic) unsigned long long pointsOnRoadCount;
-@property(readonly, nonatomic) void *pois;
-@property(readonly, nonatomic) unsigned long long poisCount;
-@property(readonly, nonatomic) unsigned long long polygonCharacteristicPointCount;
-@property(readonly, nonatomic) struct GeoCodecsCharacteristicPoint *polygonCharacteristicPoints;
-@property(readonly, nonatomic) unsigned long long polygonStrokeSpecificationCount;
-@property(readonly, nonatomic) struct GeoCodecsStrokeSpecification *polygonStrokeSpecifications;
-@property(readonly, nonatomic) void *polygons;
-@property(readonly, nonatomic) unsigned long long polygonsCount;
-@property(readonly, nonatomic) unsigned long long polygonsVertexCount;
-@property(readonly, nonatomic) unsigned int runningTrackFlags;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityPointOnRoad **sortedPointsOnRoad;
-@property(readonly, nonatomic) struct GeoCodecsSslpmTileInfo *sslpmTileInfo;
-@property(readonly, nonatomic) struct GeoCodecsTileKey *tileKey;
-@property(readonly, nonatomic) struct GeoCodecsTileLabelLine *tileLabelLines;
-@property(readonly, nonatomic) unsigned int tileLabelLinesCount;
-@property(readonly, nonatomic) unsigned long long tileReferenceCount;
-@property(readonly, nonatomic) float tileSizeInMeters;
-@property(readonly, nonatomic) unsigned long long totalBuildingFootprintsCount;
-@property(readonly, nonatomic) unsigned long long totalThreeDBuildingsCount;
-@property(readonly, nonatomic) unsigned long long transitAccessPointCount;
-@property(readonly, nonatomic) void *transitAccessPoints;
-@property(readonly, nonatomic) BOOL transitCoverage;
-@property(readonly, nonatomic) unsigned long long transitJunctionCount;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *transitJunctions;
-@property(readonly, nonatomic) unsigned long long transitLineCount;
-@property(readonly, nonatomic) unsigned char *transitLineDirections;
-@property(readonly, nonatomic) unsigned long long transitLinkCount;
-@property(readonly, nonatomic) unsigned long long *transitLinkLineIndices;
-@property(readonly, nonatomic) unsigned long long transitLinkLineIndicesCount;
-@property(readonly, nonatomic) float *transitLinkLineMinZoomOverrides;
-@property(readonly, nonatomic) const struct GeoCodecsTransitLinkSection *transitLinkSections;
-@property(readonly, nonatomic) unsigned long long transitNodeCollapseIDCount;
-@property(readonly, nonatomic) unsigned long long *transitNodeCollapseIDs;
-@property(readonly, nonatomic) unsigned long long transitNodeCollapseIndexCount;
-@property(readonly, nonatomic) unsigned long long *transitNodeCollapseIndices;
-@property(readonly, nonatomic) unsigned long long transitNodeCount;
-@property(readonly, nonatomic) unsigned long long transitNodeIndexCount;
-@property(readonly, nonatomic) unsigned long long *transitNodeLineIndices;
-@property(readonly, nonatomic) unsigned long long *transitNodeSubtitleLineIndices;
-@property(readonly, nonatomic) unsigned long long *transitNodeSystemIndices;
-@property(readonly, nonatomic) void *transitNodes;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityPointOnRoad *transitPointsOnRoad;
-@property(readonly, nonatomic) unsigned long long transitPointsOnRoadCount;
-@property(readonly, nonatomic) unsigned long long *transitShieldIndices;
-@property(readonly, nonatomic) unsigned long long transitStationTransferCount;
-@property(readonly, nonatomic) struct GeoCodecsVertexPool *transitStationTransferVertices;
-@property(readonly, nonatomic) void *transitStationTransfers;
-@property(readonly, nonatomic) unsigned long long transitSystemCount;
-@property(readonly, nonatomic) void *transitSystems;
-@property(readonly, nonatomic) unsigned int *transitTravelTimes;
-@property(readonly, nonatomic) struct GeoCodecsVertexPool *transitVertices;
-@property(readonly, nonatomic) void *venueBuildings;
-@property(readonly, nonatomic) unsigned long long venueBuildingsCount;
-@property(readonly, nonatomic) struct GeoCodecsVenueComponent *venueComponents;
-@property(readonly, nonatomic) unsigned long long venueComponentsCount;
-@property(readonly, nonatomic) struct GeoCodecsVenueLevel *venueLevels;
-@property(readonly, nonatomic) unsigned long long venueLevelsCount;
-@property(readonly, nonatomic) void *venues;
-@property(readonly, nonatomic) unsigned long long venuesCount;
-@property(readonly, nonatomic) unsigned short zResolutionBits;
 
 @end
 

@@ -9,40 +9,34 @@
 @interface GEOLinkValue
 {
     PBUnknownFields *_unknownFields;
-    int _appLinkValue;
-    struct {
-        unsigned int has_appLinkValue:1;
-    } _flags;
 }
 
-+ (_Bool)etHasSessionGUID:(id)arg1;
++ (_Bool)setHasSessionGUID:(id)arg1;
 - (void);
 - (void);
+- (id)decodeObjectOfClass:(int)arg1 data:error: /* Error: Ran out of types for this method. */;
+- (int)decodeObjectOfClass:data:error: /* Error: Ran out of types for this method. */;
+- (_Bool)jects 	 %ld bytes 	 %@ 	 %@;
+- (int)leArray"8@16;
+- (void)�;
 - (id);
-- (int);
-- (_Bool);
-- (int);
-- (void);
 - (id);
-- (id);
+- (void)ȓ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)AutocompleteRequest:(struct _NSZone *)arg1;
-- (id)off: /* Error: Ran out of types for this method. */;
+- (id)setPdAutocompleteRequest:(struct _NSZone *)arg1;
+- (id)StringAsRouteHandoff: /* Error: Ran out of types for this method. */;
 - (id)d "%@" request:%@ - %@ /* Error: Ran out of types for this method. */;
 - (id)ÿÿ;
 - (void)M4;
 
 // Remaining properties
-@property(nonatomic) int appLinkValue;
 @property(nonatomic) _Bool hasAppLinkValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

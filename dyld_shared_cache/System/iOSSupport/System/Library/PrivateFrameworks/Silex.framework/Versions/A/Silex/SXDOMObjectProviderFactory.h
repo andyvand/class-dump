@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXJSONObjectMerger;
 @protocol SXDocumentControllerProvider;
 
 @interface SXDOMObjectProviderFactory
 {
     id <SXDocumentControllerProvider> _documentControllerProvider;
-    SXJSONObjectMerger *_componentStyleMerger;
-    SXJSONObjectMerger *_componentTextStyleMerger;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void)24Q32@40@48@56;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONObjectMerger *componentStyleMerger; // @synthesize componentStyleMerger=_componentStyleMerger;
-@property(readonly, nonatomic) SXJSONObjectMerger *componentTextStyleMerger; // @synthesize componentTextStyleMerger=_componentTextStyleMerger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXDocumentControllerProvider> documentControllerProvider; // @synthesize documentControllerProvider=_documentControllerProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

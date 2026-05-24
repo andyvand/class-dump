@@ -10,8 +10,8 @@
 
 - (struct CGRect);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)8;
+- (void)or:Requesting to %{public}s field detect for reason:%@ /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
 
 @end

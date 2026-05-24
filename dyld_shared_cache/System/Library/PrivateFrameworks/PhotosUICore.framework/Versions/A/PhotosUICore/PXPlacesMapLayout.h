@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXPlacesGeotaggedItemDataSource, PXPlacesMapPipelineComponentProvider;
+@protocol PXPlacesGeotaggedItemDataSource;
 
 @interface PXPlacesMapLayout
 {
     id <PXPlacesGeotaggedItemDataSource> _dataSource;
-    id <PXPlacesMapPipelineComponentProvider> pipelineComponentProvider;
 }
 
 - (void);
@@ -24,14 +22,6 @@
 
 // Remaining properties
 @property(readonly) id <PXPlacesGeotaggedItemDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPlacesMapPipelineComponentProvider> pipelineComponentProvider; // @synthesize pipelineComponentProvider;
-@property(readonly) Class superclass;
 
 @end
 

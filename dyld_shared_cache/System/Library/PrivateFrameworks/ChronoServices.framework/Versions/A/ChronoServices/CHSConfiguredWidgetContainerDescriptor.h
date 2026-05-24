@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSConfiguredWidgetDescriptor, NSArray, NSString;
+@class NSString;
 
 @interface CHSConfiguredWidgetContainerDescriptor
 {
     NSString *_activeWidgetUniqueIdentifier;
-    long long _activeWidgetIndex;
-    _Bool _canAppearInSecureEnvironment;
-    _Bool _stack;
-    NSString *_uniqueIdentifier;
-    NSArray *_widgets;
-    long long _family;
-    long long _location;
-    unsigned long long _page;
 }
 
 + (id);
@@ -28,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -40,28 +32,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)ing;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CHSConfiguredWidgetDescriptor *activeWidget;
-@property(readonly, nonatomic) _Bool canAppearInSecureEnvironment; // @synthesize canAppearInSecureEnvironment=_canAppearInSecureEnvironment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long family; // @synthesize family=_family;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSystemConfigured;
-@property(readonly, nonatomic) long long location; // @synthesize location=_location;
-@property(readonly, nonatomic) unsigned long long page; // @synthesize page=_page;
-@property(readonly, nonatomic, getter=isStack) _Bool stack; // @synthesize stack=_stack;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, copy, nonatomic) NSArray *widgets; // @synthesize widgets=_widgets;
 
 @end
 

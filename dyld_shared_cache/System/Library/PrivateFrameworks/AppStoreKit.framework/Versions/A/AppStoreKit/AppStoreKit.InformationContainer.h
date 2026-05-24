@@ -7,7 +7,6 @@
 @interface AppStoreKit.InformationContainer
 {
     id annotationGroups;
-    id id;
 }
 
 @end

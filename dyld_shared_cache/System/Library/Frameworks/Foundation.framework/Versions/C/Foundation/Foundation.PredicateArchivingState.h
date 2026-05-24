@@ -7,7 +7,6 @@
 @interface Foundation.PredicateArchivingState
 {
     id configuration;
-    id variableMap;
 }
 
 @end

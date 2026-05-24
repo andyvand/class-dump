@@ -6,18 +6,12 @@
 
 #import <AudioToolboxCore/AUAudioUnitBus.h>
 
-@class AUAudioUnit_XPC, AVAudioFormat, NSArray, NSXPCConnection;
+@class AUAudioUnit_XPC;
 
 __attribute__((visibility("hidden")))
 @interface AUAudioUnitBus_XPC : AUAudioUnitBus
 {
     AUAudioUnit_XPC *_audioUnit;
-    NSXPCConnection *_remoteAUXPCConnection;
-    unsigned int _scope;
-    unsigned int _element;
-    AVAudioFormat *_format;
-    NSArray *_supportedChannelLayoutTags;
-    _Bool _removingObserverWithContext;
 }
 
 + (_Bool);
@@ -25,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)SecKeychainItemCreateFromEncryptedContent;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)~;
 - (void);
 - (id);
-- (void);
+- (void)oop_enter_rendercall;
 - (void)ity:(id)arg1 %s:(id)arg2 %d:(unsigned long long)arg3 HOA Error; Trying to create a HOA rotation matrix of order = %d > 3 with FuMa normalization, capping to order 3;
 
 @end

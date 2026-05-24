@@ -6,15 +6,12 @@
 
 #import <DTXConnectionServices/DTXFileDescriptorTransport.h>
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface DTXSocketTransport : DTXFileDescriptorTransport
 {
     NSObject<OS_dispatch_semaphore> *_socketAcceptedSem;
-    _Atomic int _socketSemProtector;
-    NSArray *_addresses;
-    int _port;
 }
 
 + (id);

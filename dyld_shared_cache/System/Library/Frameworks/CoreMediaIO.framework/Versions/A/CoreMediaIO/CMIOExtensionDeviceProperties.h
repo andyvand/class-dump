@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface CMIOExtensionDeviceProperties
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_propertiesDictionary;
 }
 
 + (id);
@@ -23,17 +22,13 @@
 - (void);
 - (id);
 - (void);
+- (id)not extend more than one at a time;
 - (id);
-- (id);
-- (void);
+- (void)Power (PZ3F);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *linkedCoreAudioDeviceUID;
 @property(retain) NSString *model;
-@property(copy) NSDictionary *propertiesDictionary;
-@property(retain) NSNumber *suspended;
-@property(retain) NSNumber *transportType;
 
 @end
 

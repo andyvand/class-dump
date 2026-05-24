@@ -11,20 +11,14 @@
     NSString *_espressoModelFile;
 }
 
-+ (id);
++ (id)PassUniqueID;
 - (id);
-- (unsigned long long);
+- (unsigned long long)80CE10007305B08400038405B09500025805B09B0002BC04B097753005B2019C753005B2039C019005B201C4753005B202C4753005B203C4753005B204C4753005B205C4753005B206C4753005B207C4753005B208C4753005B209C4753005B20AC4753005E2003001F4035075300384025805FFFFFF00FA00;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

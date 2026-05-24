@@ -9,54 +9,25 @@
 @protocol AAOBWelcomeControllerModelProtocol
 
 @optional
-- (NSString *)lper;
+- (void)dComputerSettings returns YES since found at least one active search node;
+- (void)local computer node MCXSettings;
+- (void)erride DEP bit since we appear to have a DEP config set;
+- (void)IdentityCertificateRef;
+- (void)DisablePhotosiCloudSetting;
+- (NSString *)CPPluginsInfo_DomainsHandledByPlugin;
+- (NSString *)nt;
+- (NSString *)ication.PlugInKit.management;
+- (AACustodianshipInfo *)file setAuthorizationFromData:] unable to create authorization from data:%d /* Error: Ran out of types for this method. */;
+- (void)r ptr2 have bad type;
+- (NSString *)sFromResource has no return data param;
+- (NSString *)________________________________________;
+- (void)lumaVal :(NSString *)arg1 { { %d, %d }, { %d, %d }, { %d, %d }, { %d, %d } }
+;
+- (NSString *);
+- (NSString *)AAOBModelHelper;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) AACustodianshipInfo *custodianshipInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AACustodianshipInfo",?,C,N
-
-@property(copy, nonatomic) NSString *detailText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *helpLinkTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *helpLinkURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 @property(copy, nonatomic) NSString *imageName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *ownerHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *primaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *recipientHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *secondaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *title;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N
 

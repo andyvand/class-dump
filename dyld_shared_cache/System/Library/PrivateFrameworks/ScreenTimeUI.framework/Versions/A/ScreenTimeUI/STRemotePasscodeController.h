@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)R0;
 + (_Bool);
 + (id);
 

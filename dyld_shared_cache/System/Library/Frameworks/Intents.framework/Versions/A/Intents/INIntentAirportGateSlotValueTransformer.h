@@ -13,7 +13,7 @@
 + (Class);
 + (long long)MediaSearchs;
 - (id);
-- (id)kResolutionResult;
+- (id)INStartCallCallRecordToCallBackResolutionResult;
 
 @end
 

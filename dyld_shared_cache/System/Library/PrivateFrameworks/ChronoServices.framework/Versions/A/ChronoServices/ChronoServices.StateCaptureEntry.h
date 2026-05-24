@@ -7,12 +7,10 @@
 @interface ChronoServices.StateCaptureEntry
 {
     id title;
-    id queue;
-    id captureHandler;
 }
 
 - (id);
-- (void);
+- (void)`";
 
 @end
 

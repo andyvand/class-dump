@@ -6,23 +6,12 @@
 
 #import <CoreBrightness/CBDisplayModule.h>
 
-@class HIDDevice, HIDElement, NSObject, NSString;
-@protocol CBBrightnessProxy, OS_os_log;
+@protocol CBBrightnessProxy;
 
 __attribute__((visibility("hidden")))
 @interface CBDisplayModuleHIDLegacy : CBDisplayModule
 {
     id <CBBrightnessProxy> _brightnessControlProxy;
-    NSObject<OS_os_log> *_logHandle;
-    HIDDevice *_brightnessDevice;
-    float _userBrightness;
-    _Bool _ALCEnabled;
-    struct IONotificationPort *_brightnessServiceArrivalNotificationPort;
-    unsigned int _brightnessServiceArrivalIterator;
-    HIDElement *_elementBrightness;
-    HIDElement *_elementALCState;
-    HIDElement *_elementALCReset;
-    HIDElement *_elementMacMode;
 }
 
 + (_Bool);
@@ -31,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -56,21 +45,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)|
+S|SN;
+- (id)DoubleOrder;
+- (void)(;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

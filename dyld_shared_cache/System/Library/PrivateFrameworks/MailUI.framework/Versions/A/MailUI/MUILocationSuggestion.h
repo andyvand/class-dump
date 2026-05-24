@@ -6,25 +6,23 @@
 
 #import <MailUI/MUIResultSuggestion.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MUILocationSuggestion : MUIResultSuggestion
 {
     NSString *_address;
-    NSDate *_date;
 }
 
 + (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)houtHiddenExtension;
+- (id);
+- (id)e.popoverAlert.deleteDraft;
+- (void)preferredFilenameWithoutHiddenExtension;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPPersistenceTask.h>
 
-@class IMAPTaskManager, NSMutableDictionary, NSString;
+@class IMAPTaskManager, NSMutableDictionary;
 
 @interface IMAPPersistFlagChangesTask : IMAPPersistenceTask
 {
     NSMutableDictionary *_flagsByUIDs;
-    NSMutableDictionary *_flagChangesByServerMessage;
-    IMAPTaskManager *_taskManager;
 }
 
 - (void);
@@ -26,13 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
 
 @end

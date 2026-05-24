@@ -13,10 +13,10 @@
     NSSet *_values;
 }
 
-+ (id);
++ (id)localAvailability for resource:(id)arg1 %{public}@, with fileID:(id)arg2 %lld, expected at url:%@ /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
-- (id);
+- (id)CHRecentCallOriginatingUITypeCarPlayAnswerIncoming;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,8 +25,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)yFromURL:(id)arg1 inLibrary:(Class)arg2;
+- (_Bool)ue>"16@0:(id)arg1 8;
+- (void)entityFromURL:(id)arg1 inLibrary:(Class)arg2;
 - (void)d AND best_artwork_token.entity_type = %ld) WHERE item.%@ = %@.ROWID ORDER BY item.media_type, best_artwork_token.available_artwork_token IS NOT NULL DESC LIMIT 1), 0);
 
 // Remaining properties

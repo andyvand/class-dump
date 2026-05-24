@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGFastHighShadFilter
 {
     CIImage *inputImage;
-    NSNumber *inputHighlightAmount;
-    NSNumber *inputShadowAmount;
-    NSNumber *inputRadius;
 }
 
 + (id);

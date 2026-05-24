@@ -9,7 +9,6 @@
 @interface SpeakerRecognition.SSRTranscriptionResult
 {
     void text;
-    float snr;
 }
 
 - (id);
@@ -20,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) float snr; // @synthesize snr;
 @property(nonatomic, readonly) NSString *text;
 
 @end

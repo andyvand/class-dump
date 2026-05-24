@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)or;
+- (id)removeRecordForIconUUIDs: /* Error: Ran out of types for this method. */;
+- (id)PGGraphIngestNextEdgesProcessor;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _SignpostAggregationValueSegmentParser
 {
     _Bool _telemetryEnabled;
-    NSString *_group;
-    NSString *_type;
-    NSString *_unit;
-    NSNumber *_value;
 }
 
 - (void);
@@ -21,20 +17,16 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)control;
+- (id)rendererWithOptions:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)8I;
+- (id)�=;
 - (void);
 - (id)Queue;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *group; // @synthesize group=_group;
-@property(nonatomic) _Bool telemetryEnabled; // @synthesize telemetryEnabled=_telemetryEnabled;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *unit; // @synthesize unit=_unit;
-@property(retain, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end
 

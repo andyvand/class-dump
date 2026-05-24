@@ -10,16 +10,15 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)s] %s:%d AVCRemoteVideoClient callback:videoDidSuspend=%d for streamToken=%u /* Error: Ran out of types for this method. */;
+- (id)%d);
+- (id)ptMessage:(id)arg1 message '%@' is too long (%d > %d);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *serviceNamesForSending;
-@property(nonatomic, readonly) long long taskDeadlineSeconds;
 
 @end
 

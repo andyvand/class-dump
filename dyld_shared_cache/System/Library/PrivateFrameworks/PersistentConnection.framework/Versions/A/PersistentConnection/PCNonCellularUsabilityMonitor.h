@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSObject, NSString, PCInterfaceUsabilityMonitor;
-@protocol OS_dispatch_queue, PCInterfaceUsabilityMonitorDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PCNonCellularUsabilityMonitor
 {
     NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSObject<OS_dispatch_queue> *_monitorDelegateQueue;
-    CUTWeakReference *_delegateReference;
-    NSString *_demoOverrideInterface;
-    int _previousLinkQuality;
-    _Bool _trackUsability;
-    unsigned long long _thresholdOffTransitionCount;
-    double _trackedTimeInterval;
-    PCInterfaceUsabilityMonitor *_monitor;
 }
 
 - (void);
-- (void);
+- (void)IE	*!'
+}S	ASKr;
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)!;
+- (void)enabled state;
 - (void);
 - (int);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
+- (void)&>2;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,45 +41,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) int currentRAT;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <PCInterfaceUsabilityMonitorDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long interface5GMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long interfaceConstraint;
-@property(readonly, nonatomic) long long interfaceIdentifier;
-@property(readonly, nonatomic) _Bool isBadLinkQuality;
-@property(readonly, nonatomic) _Bool isInterfaceHistoricallyUsable;
-@property(readonly, nonatomic) _Bool isInterfaceUsable;
-@property(readonly, nonatomic) _Bool isInternetReachable;
-@property(readonly, nonatomic) _Bool isLTEWithCDRX;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isNetworkingPowerExpensiveToUse;
-@property(readonly, nonatomic) _Bool isPoorLinkQuality;
 @property(readonly, nonatomic) _Bool isRadioHot;
-@property(readonly, nonatomic) int linkQuality;
-@property(readonly, retain, nonatomic) NSString *linkQualityString;
-@property(readonly, nonatomic) NSString *networkCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct __CFString *wwanInterfaceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFString=},?,R,N
-
 
 @end
 

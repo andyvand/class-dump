@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IHSchemaIHScore : SISchemaInstrumentationMessage
 {
     float _score;
-    float _upperBoundary;
-    float _lowerBoundary;
-    struct {
-        unsigned int score:1;
-        unsigned int upperBoundary:1;
-        unsigned int lowerBoundary:1;
-    } _has;
 }
 
 - (float);
@@ -26,34 +17,28 @@
 - (void);
 - (void);
 - (float);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ȹpV;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)T0;
 - (id);
 - (id)0@ù
 × ;
-- (float)ClientEvent: /* Error: Ran out of types for this method. */;
+- (float)setFailedToConvertClientEvent: /* Error: Ran out of types for this method. */;
 - (id)zerScore;
-- (id)maASTExprContinuePlanningVariant;
+- (id)IFTSchemaASTExprContinuePlanningVariant;
 - (void)ClientEvent.ORCHPommesBridgeContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLowerBoundary;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasUpperBoundary;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float lowerBoundary; // @synthesize lowerBoundary=_lowerBoundary;
 @property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) float upperBoundary; // @synthesize upperBoundary=_upperBoundary;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class NSArray, NSString;
-@protocol CKFetchRegisteredBundleIDsOperationCallbacks;
+@class NSArray;
 
 @interface CKFetchRegisteredBundleIDsOperation : CKOperation
 {
     CDUnknownBlockType _fetchRegisteredBundleIDsCompletionBlock;
-    NSArray *_bundleIDs;
 }
 
 + (SEL);
@@ -32,15 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(readonly, nonatomic) id <CKFetchRegisteredBundleIDsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchRegisteredBundleIDsCompletionBlock; // @synthesize fetchRegisteredBundleIDsCompletionBlock=_fetchRegisteredBundleIDsCompletionBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     struct RefPtr<WebCore::ArchiveResource, WTF::RawPtrTraits<WebCore::ArchiveResource>, WTF::DefaultRefDerefTraits<WebCore::ArchiveResource>> coreResource;
 }
 
-+ (void)layVisible;
++ (void)ResourceUsageOverlayVisible;
 - (id);
-- (void);
+- (void)c}@:[%{public}@] Follow up DENIED due to inactive account %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù

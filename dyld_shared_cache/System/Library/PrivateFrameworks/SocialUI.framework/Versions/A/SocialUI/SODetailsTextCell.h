@@ -11,7 +11,7 @@
     SODetailsTextView *_textView;
 }
 
-- (id);
+- (id)enqueueSaveBlock:(id)arg1 withPriority: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

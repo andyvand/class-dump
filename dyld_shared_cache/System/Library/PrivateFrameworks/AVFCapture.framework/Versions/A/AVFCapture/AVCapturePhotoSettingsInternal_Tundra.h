@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVCapturePhotoSettingsInternal_Tundra
 {
     NSDictionary *format;
-    NSString *processedFileType;
-    long long uniqueID;
-    _Bool highResolutionPhotoEnabled;
-    long long photoQualityPrioritization;
-    long long flashMode;
-    _Bool constantColorEnabled;
-    _Bool constantColorFallbackPhotoDeliveryEnabled;
-    _Bool shutterSoundSuppressionEnabled;
-    CDStruct_79c71658 maxPhotoDimensions;
 }
 
 @end

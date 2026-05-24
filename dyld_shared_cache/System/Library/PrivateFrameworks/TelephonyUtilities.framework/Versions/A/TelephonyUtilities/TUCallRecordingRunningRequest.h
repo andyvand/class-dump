@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ticipantHandles;
+- (void)remoteParticipantHandles;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *recordingSessionUUID; // @synthesize recordingSessionUUID=_recordingSessionUUID;

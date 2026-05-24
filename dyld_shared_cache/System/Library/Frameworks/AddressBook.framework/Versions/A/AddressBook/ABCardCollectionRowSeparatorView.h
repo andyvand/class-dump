@@ -6,14 +6,11 @@
 
 #import <AddressBook/ABCardCollectionRowView.h>
 
-@class ABCardViewSeparator, NSArray;
+@class ABCardViewSeparator;
 
 @interface ABCardCollectionRowSeparatorView : ABCardCollectionRowView
 {
     ABCardViewSeparator *_separator;
-    NSArray *_separatorConstraints;
-    double _leadingMarginWidth;
-    double _trailingMarginWidth;
 }
 
 - (double);
@@ -32,10 +29,7 @@
 - (void)or:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(nonatomic) double leadingMarginWidth; // @synthesize leadingMarginWidth=_leadingMarginWidth;
 @property(retain, nonatomic) ABCardViewSeparator *separator; // @synthesize separator=_separator;
-@property(retain, nonatomic) NSArray *separatorConstraints; // @synthesize separatorConstraints=_separatorConstraints;
-@property(nonatomic) double trailingMarginWidth; // @synthesize trailingMarginWidth=_trailingMarginWidth;
 
 @end
 

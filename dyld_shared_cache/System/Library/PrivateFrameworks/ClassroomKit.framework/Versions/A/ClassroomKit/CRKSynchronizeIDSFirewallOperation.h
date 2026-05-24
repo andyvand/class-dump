@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, NSSet;
-@protocol CRKIDSLocalFirewallStorage, CRKIDSPrimitives;
+@protocol CRKIDSLocalFirewallStorage;
 
 @interface CRKSynchronizeIDSFirewallOperation
 {
     id <CRKIDSLocalFirewallStorage> _localStorage;
-    id <CRKIDSPrimitives> _IDSPrimitives;
-    NSSet *_trustedRosterAppleIDs;
-    NSSet *_appleIDsToAdd;
-    NSSet *_appleIDsToRemove;
-    CATOperation *_fetchAllowedAppleIDsOperation;
-    CATOperation *_addAllowedAppleIDsOperation;
-    CATOperation *_removeAllowedAppleIDsOperation;
 }
 
 - (id);
@@ -27,10 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -51,14 +43,7 @@
 - (_Bool)e, courseUser, instructorsByIdentifier, type, mustRequestUnenroll, requestingUnenroll, automaticRemovalDate, expired;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(retain, nonatomic) CATOperation *addAllowedAppleIDsOperation; // @synthesize addAllowedAppleIDsOperation=_addAllowedAppleIDsOperation;
-@property(copy, nonatomic) NSSet *appleIDsToAdd; // @synthesize appleIDsToAdd=_appleIDsToAdd;
-@property(copy, nonatomic) NSSet *appleIDsToRemove; // @synthesize appleIDsToRemove=_appleIDsToRemove;
-@property(retain, nonatomic) CATOperation *fetchAllowedAppleIDsOperation; // @synthesize fetchAllowedAppleIDsOperation=_fetchAllowedAppleIDsOperation;
 @property(readonly, nonatomic) id <CRKIDSLocalFirewallStorage> localStorage; // @synthesize localStorage=_localStorage;
-@property(retain, nonatomic) CATOperation *removeAllowedAppleIDsOperation; // @synthesize removeAllowedAppleIDsOperation=_removeAllowedAppleIDsOperation;
-@property(readonly, copy, nonatomic) NSSet *trustedRosterAppleIDs; // @synthesize trustedRosterAppleIDs=_trustedRosterAppleIDs;
 
 @end
 

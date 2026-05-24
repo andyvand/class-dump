@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSPredicate, NSString;
+@class NSString;
 
 @interface WADeviceAnalyticsUsageDimension
 {
     NSString *_dimension;
-    long long _inf;
-    unsigned long long _useAs;
-    NSPredicate *_filterPredicate;
-    NSEntityDescription *_entity;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (_Bool)76a;
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (long long);
 - (void);
+- (id)yChecklistSPI END add participants to shared grocery list {sharedGroceryList:%{public}@} /* Error: Ran out of types for this method. */;
+- (id)intermediateBoutsStepLengthQ95Heightnorm;
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)*;
+- (void)T;
 - (id);
 
 // Remaining properties
 @property(retain) NSString *dimension; // @synthesize dimension=_dimension;
-@property(retain) NSEntityDescription *entity; // @synthesize entity=_entity;
-@property(retain) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property long long inf; // @synthesize inf=_inf;
-@property unsigned long long useAs; // @synthesize useAs=_useAs;
 
 @end
 

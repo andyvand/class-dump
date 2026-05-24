@@ -6,17 +6,11 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SSPersonalAnswerResultBuilder : SSResultBuilder
 {
     _Bool _isFlight;
-    _Bool _isHotel;
-    _Bool _isRestaurant;
-    NSString *_titleString;
-    NSString *_displayName;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
@@ -27,34 +21,28 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool):8@16{CGSize=dd}24Q40^@48 /* Error: Ran out of types for this method. */;
+- (id)setSecurityRestrictionMode: /* Error: Ran out of types for this method. */;
+- (id)setSecondaryCaptionButton: /* Error: Ran out of types for this method. */;
+- (id)setPlatform: /* Error: Ran out of types for this method. */;
+- (id)setNeverShowIcon: /* Error: Ran out of types for this method. */;
+- (_Bool)setMinimumHeight: /* Error: Ran out of types for this method. */;
+- (id)setMessagesAppIcon: /* Error: Ran out of types for this method. */;
+- (id)setMediaFixedAspectRatio: /* Error: Ran out of types for this method. */;
+- (_Bool)setAddFullWidthLineForButton: /* Error: Ran out of types for this method. */;
+- (id)releaseDate;
 - (id);
 - (void);
+- (id)H;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)ictionWindow:predictionInterval: /* Error: Ran out of types for this method. */;
+- (void)getRankedCategoriesDictionaryWithPredictionWindow:predictionInterval: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool isFlight; // @synthesize isFlight=_isFlight;
-@property(nonatomic) _Bool isHotel; // @synthesize isHotel=_isHotel;
-@property(nonatomic) _Bool isRestaurant; // @synthesize isRestaurant=_isRestaurant;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(retain, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;
 
 @end

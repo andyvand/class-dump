@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface _DKEventStatsCollection
 {
     NSMutableDictionary *_eventCounterStats;
-    NSString *_name;
 }
 
 - (void)ñ©3Ð1Â0@ù

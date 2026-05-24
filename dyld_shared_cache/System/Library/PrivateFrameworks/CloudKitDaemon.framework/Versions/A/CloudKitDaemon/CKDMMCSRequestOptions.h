@@ -4,44 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MetricOptions, CKContainerID, CKOperationMMCSRequestOptions, NSArray, NSData, NSDictionary, NSNumber, NSString;
-@protocol C2NetworkingDelegate;
-
 @interface CKDMMCSRequestOptions
 {
     _Bool _allowsCellularAccess;
-    _Bool _allowsExpensiveNetworkAccess;
-    _Bool _allowsPowerNapScheduling;
-    _Bool _resolvedAutomaticallyRetryNetworkFailures;
-    _Bool _isCrossOwner;
-    _Bool _shouldCloneFileInAssetCache;
-    _Bool _useFORD;
-    long long _databaseScope;
-    CKContainerID *_containerID;
-    NSString *_topmostParentOperationID;
-    NSString *_topmostParentOperationGroupID;
-    NSString *_topmostParentOperationGroupName;
-    NSString *_applicationBundleIdentifierForContainerAccess;
-    NSString *_applicationBundleIdentifierForNetworkAttribution;
-    NSString *_applicationSecondaryID;
-    NSArray *_zoneNames;
-    NSString *_deviceHardwareID;
-    NSData *_authPutResponse;
-    NSDictionary *_authPutResponseHeaders;
-    long long _qualityOfService;
-    long long _clientQueuePriority;
-    unsigned long long _resolvedDiscretionaryNetworkBehavior;
-    unsigned long long _duetPreClearedMode;
-    C2MetricOptions *_metricOptions;
-    NSNumber *_cacheDeleteAvailableSpaceClass;
-    id <C2NetworkingDelegate> _networkingDelegate;
-    unsigned long long _networkServiceType;
-    CKOperationMMCSRequestOptions *_MMCSRequestOptions;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)ʈ;
 - (id);
 - (_Bool);
 - (id);
@@ -54,19 +24,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)airPlayDescription_hasFeatureInternal;
 - (void);
 - (id);
 - (long long);
 - (void);
+- (void)assetWithName:(_Bool)arg1 andExtension: /* Error: Ran out of types for this method. */;
+- (id),N,V_publicDNSPacketLoss;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)SystemInVehicleDuration;
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)e)	;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -75,19 +45,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)mVuzHR5Cu0peL1MiMB
+nMjKoG3YyhB4geQ9
+-----END CERTIFICATE-----;
 - (void);
 - (long long);
 - (void)@"CKCDPTrustedTargetCryptoMetadata";
-- (id)teUserKeySyncWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id)rdDesiredKeys;
+- (id)noteUserKeySyncWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)clearRootRecordDesiredKeys;
 - (void)¸V;
 - (_Bool)et requestor from AssetUploadTokenRetrieveResponseUploadToken on %@;
 - (id)mergeableValueType;
 - (void)= $SERVICE;
 - (void)ry returned while copying identities. Can't add identities for %@ to mutable identity set.;
 - (void)to serialize request;
-- (void);
+- (void)zonePcsUserIdentityUnknown;
 - (void)rverInfo"8@"NSError"16;
 - (void)lumeIndex = $VOL AND status = $STATUS AND fileID IN %@;
 - (void)e zonePCSData not available yet;
@@ -103,34 +75,7 @@
 - (unsigned long long)« ;
 
 // Remaining properties
-@property(retain, nonatomic) CKOperationMMCSRequestOptions *MMCSRequestOptions; // @synthesize MMCSRequestOptions=_MMCSRequestOptions;
-@property(nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(nonatomic) _Bool allowsExpensiveNetworkAccess; // @synthesize allowsExpensiveNetworkAccess=_allowsExpensiveNetworkAccess;
-@property(nonatomic) _Bool allowsPowerNapScheduling; // @synthesize allowsPowerNapScheduling=_allowsPowerNapScheduling;
-@property(retain, nonatomic) NSString *applicationBundleIdentifierForContainerAccess; // @synthesize applicationBundleIdentifierForContainerAccess=_applicationBundleIdentifierForContainerAccess;
-@property(retain, nonatomic) NSString *applicationBundleIdentifierForNetworkAttribution; // @synthesize applicationBundleIdentifierForNetworkAttribution=_applicationBundleIdentifierForNetworkAttribution;
-@property(retain, nonatomic) NSString *applicationSecondaryID; // @synthesize applicationSecondaryID=_applicationSecondaryID;
-@property(retain, nonatomic) NSData *authPutResponse; // @synthesize authPutResponse=_authPutResponse;
-@property(retain, nonatomic) NSDictionary *authPutResponseHeaders; // @synthesize authPutResponseHeaders=_authPutResponseHeaders;
-@property(retain, nonatomic) NSNumber *cacheDeleteAvailableSpaceClass; // @synthesize cacheDeleteAvailableSpaceClass=_cacheDeleteAvailableSpaceClass;
-@property(nonatomic) long long clientQueuePriority; // @synthesize clientQueuePriority=_clientQueuePriority;
-@property(retain, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
 @property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(retain, nonatomic) NSString *deviceHardwareID; // @synthesize deviceHardwareID=_deviceHardwareID;
-@property(nonatomic) unsigned long long duetPreClearedMode; // @synthesize duetPreClearedMode=_duetPreClearedMode;
-@property(nonatomic) _Bool isCrossOwner; // @synthesize isCrossOwner=_isCrossOwner;
-@property(retain, nonatomic) C2MetricOptions *metricOptions; // @synthesize metricOptions=_metricOptions;
-@property(nonatomic) unsigned long long networkServiceType; // @synthesize networkServiceType=_networkServiceType;
-@property(retain, nonatomic) id <C2NetworkingDelegate> networkingDelegate; // @synthesize networkingDelegate=_networkingDelegate;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) _Bool resolvedAutomaticallyRetryNetworkFailures; // @synthesize resolvedAutomaticallyRetryNetworkFailures=_resolvedAutomaticallyRetryNetworkFailures;
-@property(nonatomic) unsigned long long resolvedDiscretionaryNetworkBehavior; // @synthesize resolvedDiscretionaryNetworkBehavior=_resolvedDiscretionaryNetworkBehavior;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(retain, nonatomic) NSString *topmostParentOperationGroupID; // @synthesize topmostParentOperationGroupID=_topmostParentOperationGroupID;
-@property(retain, nonatomic) NSString *topmostParentOperationGroupName; // @synthesize topmostParentOperationGroupName=_topmostParentOperationGroupName;
-@property(retain, nonatomic) NSString *topmostParentOperationID; // @synthesize topmostParentOperationID=_topmostParentOperationID;
-@property(nonatomic) _Bool useFORD; // @synthesize useFORD=_useFORD;
-@property(retain, nonatomic) NSArray *zoneNames; // @synthesize zoneNames=_zoneNames;
 
 @end
 

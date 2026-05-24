@@ -7,15 +7,11 @@
 @interface IMFilterMessagePipelineComponentContext
 {
     _Bool _wasContextUsed;
-    _Bool _isBlackholed;
-    _Bool _shouldTrackForRequery;
-    long long _isFiltered;
-    long long _spamDetectionSource;
 }
 
-- (_Bool);
+- (_Bool)#`!)B+`;
 - (long long);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
@@ -25,10 +21,6 @@
 - (long long);
 
 // Remaining properties
-@property _Bool isBlackholed; // @synthesize isBlackholed=_isBlackholed;
-@property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
-@property _Bool shouldTrackForRequery; // @synthesize shouldTrackForRequery=_shouldTrackForRequery;
-@property(nonatomic) long long spamDetectionSource; // @synthesize spamDetectionSource=_spamDetectionSource;
 @property _Bool wasContextUsed; // @synthesize wasContextUsed=_wasContextUsed;
 
 @end

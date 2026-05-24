@@ -4,55 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSIndexSet, NSMapTable, NSScrollView, NSString, NSUUID, _NSCollectionViewCore;
+@class _NSCollectionViewCore;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewOrthogonalScrollerSectionController
 {
     _Bool _concurrentScrollingDisabled;
-    _Bool _layoutRTL;
-    _Bool _shouldUpdateElementOrdering;
-    _NSCollectionViewCore *_collectionView;
-    NSMapTable *_scrollViewFromSectionMap;
-    NSMapTable *_scrollViewToSectionMap;
-    NSHashTable *_frontMostElements;
-    NSHashTable *_elementsBelowOrthogonalScrollView;
-    NSIndexSet *_currentOrthogonalSectionIndexes;
-    NSScrollView *_scrollViewCurrentlyBeingConfigured;
-    NSUUID *_lastUpdateIdentifier;
 }
 
+- (void);
+- (_Bool)o create iterator:%s  /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)BasebandChipId;
+- (id)aEYopBd4ggpA;
+- (id)ce:/IOResources/AppleKeyStore/AppleKeyStoreUserClient /* Error: Ran out of types for this method. */;
+- (id)NG8S+Q7a/s1A;
+- (void)b7yAD70+Uho7g;
+- (double)yfzgAbxQ/5aniA;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (long long)';
 - (id);
 - (struct CGSize);
 - (void);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (double)eam client bypassing proxies on TCP Conn [%llu:(double)arg1 %p];
+- (id)inishing wake up for uuid %@ for session %@ with identifier %@;
+- (id)@> no outstanding tasks getting auth headers, finishing wake up for uuid %@ for session %@ with identifier %@;
+- (void)tive services;
+- (id)d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void);
 - (id);
 - (void);
 - (void);
@@ -60,8 +50,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)initWithSamplingFrequency:duration:initialValue:finalValue: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -73,32 +63,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)O@;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
 @property(nonatomic) __weak _NSCollectionViewCore *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) _Bool concurrentScrollingDisabled;
-@property(retain, nonatomic) NSIndexSet *currentOrthogonalSectionIndexes; // @synthesize currentOrthogonalSectionIndexes=_currentOrthogonalSectionIndexes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSHashTable *elementsBelowOrthogonalScrollView; // @synthesize elementsBelowOrthogonalScrollView=_elementsBelowOrthogonalScrollView;
-@property(retain, nonatomic) NSHashTable *frontMostElements; // @synthesize frontMostElements=_frontMostElements;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *lastUpdateIdentifier; // @synthesize lastUpdateIdentifier=_lastUpdateIdentifier;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(retain, nonatomic) NSScrollView *scrollViewCurrentlyBeingConfigured; // @synthesize scrollViewCurrentlyBeingConfigured=_scrollViewCurrentlyBeingConfigured;
-@property(retain, nonatomic) NSMapTable *scrollViewFromSectionMap; // @synthesize scrollViewFromSectionMap=_scrollViewFromSectionMap;
-@property(retain, nonatomic) NSMapTable *scrollViewToSectionMap; // @synthesize scrollViewToSectionMap=_scrollViewToSectionMap;
-@property(nonatomic) _Bool shouldUpdateElementOrdering; // @synthesize shouldUpdateElementOrdering=_shouldUpdateElementOrdering;
-@property(readonly) Class superclass;
 
 @end
 

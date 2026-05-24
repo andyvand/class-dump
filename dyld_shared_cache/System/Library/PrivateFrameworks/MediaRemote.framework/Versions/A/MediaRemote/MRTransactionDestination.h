@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, MRTransactionPacketizer, NSObject;
-@protocol OS_dispatch_queue;
+@class MRTransactionPacketizer;
 
 @interface MRTransactionDestination
 {
     MRTransactionPacketizer *_packetizer;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _name;
-    MRPlayerPath *_playerPath;
 }
 
 - (void);
@@ -24,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long name; // @synthesize name=_name;
-@property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

@@ -6,27 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCEdgeCacheHint, NSArray, NSDictionary;
-@protocol FCContentContext, FCCoreConfiguration;
+@class NSDictionary;
 
 @interface FCMultiSourceHeadlinesOperation : FCOperation
 {
     _Bool _shouldBypassRecordSourcePersistence;
-    id <FCCoreConfiguration> _configuration;
-    id <FCContentContext> _context;
-    NSArray *_articleListIDs;
-    NSArray *_articleIDs;
-    FCCachePolicy *_cachePolicyForArticles;
-    FCCachePolicy *_cachePolicyForArticleLists;
-    FCEdgeCacheHint *_edgeCacheHint;
-    NSArray *_networkEvents;
-    NSDictionary *_heldRecordsByType;
-    CDUnknownBlockType _headlinesCompletionHandler;
-    CDUnknownBlockType _heldRecordsCompletionHandler;
-    NSDictionary *_resultHeldRecordsByType;
-    NSDictionary *_resultArticleListHeadlinesByArticleListID;
-    NSDictionary *_resultArticleListsByID;
-    NSDictionary *_resultArticleIDHeadlinesByArticleID;
 }
 
 - (void);
@@ -41,9 +25,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ler",W,N,V_viewControllerProxy;
 - (_Bool);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
@@ -51,12 +35,12 @@
 - (id);
 - (id);
 - (void)24@0:(id)arg1 8@?<v@?@"NSURL">16;
-- (void)esentations:(id)arg1;
-- (id)hMinNewsVersion:maxNewsVersion: /* Error: Ran out of types for this method. */;
+- (void)setLocalNotificationMaxNumberOfPresentations:(id)arg1;
+- (id)isNewsVersionAllowedWithMinNewsVersion:maxNewsVersion: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)ybackClickValue;
 - (void)V_sportsType;
 - (id)T@"NSString",R,C,N,V_identifier;
-- (void)putOutputConfiguration;
+- (void)_bundleInputOutputConfiguration;
 - (void)ÿt;
 - (void)/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFileURLs.m;
 - (id)tity-token;
@@ -68,22 +52,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *articleIDs; // @synthesize articleIDs=_articleIDs;
-@property(copy, nonatomic) NSArray *articleListIDs; // @synthesize articleListIDs=_articleListIDs;
-@property(retain, nonatomic) FCCachePolicy *cachePolicyForArticleLists; // @synthesize cachePolicyForArticleLists=_cachePolicyForArticleLists;
-@property(retain, nonatomic) FCCachePolicy *cachePolicyForArticles; // @synthesize cachePolicyForArticles=_cachePolicyForArticles;
-@property(copy, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(copy, nonatomic) CDUnknownBlockType headlinesCompletionHandler; // @synthesize headlinesCompletionHandler=_headlinesCompletionHandler;
-@property(retain, nonatomic) NSDictionary *heldRecordsByType; // @synthesize heldRecordsByType=_heldRecordsByType;
-@property(copy, nonatomic) CDUnknownBlockType heldRecordsCompletionHandler; // @synthesize heldRecordsCompletionHandler=_heldRecordsCompletionHandler;
-@property(copy, nonatomic) NSArray *networkEvents; // @synthesize networkEvents=_networkEvents;
-@property(retain, nonatomic) NSDictionary *resultArticleIDHeadlinesByArticleID; // @synthesize resultArticleIDHeadlinesByArticleID=_resultArticleIDHeadlinesByArticleID;
-@property(retain, nonatomic) NSDictionary *resultArticleListHeadlinesByArticleListID; // @synthesize resultArticleListHeadlinesByArticleListID=_resultArticleListHeadlinesByArticleListID;
-@property(retain, nonatomic) NSDictionary *resultArticleListsByID; // @synthesize resultArticleListsByID=_resultArticleListsByID;
 @property(retain, nonatomic) NSDictionary *resultHeldRecordsByType; // @synthesize resultHeldRecordsByType=_resultHeldRecordsByType;
-@property(nonatomic) _Bool shouldBypassRecordSourcePersistence; // @synthesize shouldBypassRecordSourcePersistence=_shouldBypassRecordSourcePersistence;
 
 @end
 

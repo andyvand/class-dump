@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABAccountBackupOperation
 {
@@ -12,15 +12,13 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *backupFilename;
-@property(readonly) NSArray *files;
 @property(readonly) NSString *workingDirectory;
 
 @end

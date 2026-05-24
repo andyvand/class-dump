@@ -5,5 +5,6 @@
 //
 
 @protocol AFSharedConfidenceScoreMutating
+- (void)i';
 @end
 

@@ -7,10 +7,6 @@
 @interface PhotoAnalysis.StateHolder
 {
     id entity;
-    id identifier;
-    id logger;
-    id signposter;
-    id state;
 }
 
 @end

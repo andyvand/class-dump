@@ -9,6 +9,6 @@
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>)xtFieldView;
+- (id <CAAction>)LUISecureTextFieldView;
 @end
 

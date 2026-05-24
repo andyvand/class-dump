@@ -9,12 +9,6 @@
 @interface MSHistoryMultiPointRoute : MSHistoryItem
 {
     id _navigationInterrupted;
-    id _requiredCharge;
-    id _routeProgressWaypointIndex;
-    id _routeRequestStorage;
-    id _sharedETAData;
-    id _type;
-    id _vehicleIdentifier;
 }
 
 + (Class);

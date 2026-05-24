@@ -6,15 +6,11 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class NSBox, NSString, NSView, PPSpecifierTableViewController;
+@class NSView;
 
 @interface AOSUISpyglassPaneViewController : AOSUISpyglassBaseViewController
 {
     AOSUISpyglassBaseViewController *_topViewController;
-    PPSpecifierTableViewController *_tableViewController;
-    NSView *_infoView;
-    NSView *_topView;
-    NSBox *_detailView;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -36,18 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSBox *detailView; // @synthesize detailView=_detailView;
-@property(readonly) unsigned long long hash;
-@property __weak NSView *infoView; // @synthesize infoView=_infoView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PPSpecifierTableViewController *tableViewController; // @synthesize tableViewController=_tableViewController;
 @property __weak NSView *topView; // @synthesize topView=_topView;
-@property(retain, nonatomic) AOSUISpyglassBaseViewController *topViewController; // @synthesize topViewController=_topViewController;
 
 @end
 

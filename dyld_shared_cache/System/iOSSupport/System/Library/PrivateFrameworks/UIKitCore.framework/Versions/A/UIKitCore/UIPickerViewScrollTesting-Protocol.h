@@ -5,5 +5,6 @@
 //
 
 @protocol UIPickerViewScrollTesting
+- (void)availabilityOffGridRecipientEncryptionValidationToken;
 @end
 

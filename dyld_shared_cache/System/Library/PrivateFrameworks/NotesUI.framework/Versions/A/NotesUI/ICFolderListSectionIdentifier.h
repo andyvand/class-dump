@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
-@protocol ICItemIdentifier;
+@class NSManagedObjectID;
 
 @interface ICFolderListSectionIdentifier
 {
     unsigned long long _hash;
-    NSManagedObjectID *_accountObjectID;
-    long long _sectionType;
-    NSString *_title;
 }
 
 + (id);
@@ -22,11 +18,11 @@
 - (id);
 - (long long);
 - (long long);
-- (void);
+- (void)A;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -37,27 +33,11 @@
 - (id)Ñ
 Ð1Â0@ù
 × ;
-- (void)kingText;
+- (void)_isTypingOrMarkingText;
 - (long long)e:hint:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSManagedObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
-@property(readonly, nonatomic, getter=isCollapsible) _Bool collapsible;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *expansionStateContext;
-@property(readonly, nonatomic) _Bool hasHeader;
-@property(readonly) unsigned long long hash; // @synthesize hash=_hash;
-@property(readonly, nonatomic) id <ICItemIdentifier> parentIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<ICItemIdentifier>",?,R,N
-
-@property(nonatomic) long long sectionType; // @synthesize sectionType=_sectionType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

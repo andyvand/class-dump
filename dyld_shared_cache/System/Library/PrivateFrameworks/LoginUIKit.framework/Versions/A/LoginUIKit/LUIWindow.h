@@ -7,8 +7,6 @@
 @interface LUIWindow
 {
     _Bool _canBecomeKey;
-    id _target;
-    SEL _action;
 }
 
 - (void);
@@ -16,14 +14,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)for Apple Balance top up token:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -34,9 +32,7 @@
 × ;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
 @property _Bool canBecomeKey; // @synthesize canBecomeKey=_canBecomeKey;
-@property id target; // @synthesize target=_target;
 
 @end
 

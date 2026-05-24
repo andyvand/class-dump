@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSuspendableSchedulerDecorator, NSString;
-@protocol CNScheduler, CNSchedulerProvider;
+@protocol CNSchedulerProvider;
 
 __attribute__((visibility("hidden")))
 @interface CNUISchedulerProvider
 {
     id <CNSchedulerProvider> _schedulerProvider;
-    CNSuspendableSchedulerDecorator *_suspendableBackgroundScheduler;
-    id <CNScheduler> _afterCACommitScheduler;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h nil data!
+Where it all went wrong:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)stringWithCapacity: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)NN=;
 - (id);
-- (id);
-- (id);
-- (void)dSaveUnknownPersons;
+- (void)authorizeAndSaveUnknownPersons;
 - (id);
-- (id)ELL_TITLE_DISPLAY_MODE;
+- (id)ADD_TO_LIST_TABLE_CELL_TITLE_DISPLAY_MODE;
 - (id)8&;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNScheduler> afterCACommitScheduler; // @synthesize afterCACommitScheduler=_afterCACommitScheduler;
-@property(readonly, nonatomic) id <CNScheduler> backgroundScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNScheduler> immediateScheduler;
-@property(readonly, nonatomic) id <CNScheduler> inlineScheduler;
-@property(readonly, nonatomic) id <CNScheduler> mainThreadScheduler;
 @property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNSuspendableSchedulerDecorator *suspendableBackgroundScheduler; // @synthesize suspendableBackgroundScheduler=_suspendableBackgroundScheduler;
 
 @end
 

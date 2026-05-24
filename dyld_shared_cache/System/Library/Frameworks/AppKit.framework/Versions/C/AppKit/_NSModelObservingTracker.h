@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSModelObservingTracker
 {
     id _modelObserver;
-    NSArray *_availableModelAndProxyKeys;
-    NSArray *_indexReferenceModelObjectArray;
-    NSMutableIndexSet *_observedModelIndexData;
-    id _observedModelObjectsData;
-    struct __modelObservingTrackerFlags {
-        unsigned int _multipleObservedModelObjects:1;
-        unsigned int _reservedModelObservingTrackerFlags:31;
-    } _modelObservingTrackerFlags;
-    NSMutableDictionary *_observedModelKeyPathInfoTable;
-    NSMutableArray *_modelAndProxyKeysArray;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)1@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)size:(struct _NSRange)arg1 %d;
+- (void)v7h4TrJdmukTl8gpzVl3DQ;
+- (void)ary/PrivateFrameworks/Sharing.framework;
+- (void)nt Capacity;
+- (void)r source dictionary;
 - (id);
 - (id);
 - (id);
@@ -49,8 +37,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lu) creds %@ challenge %@;
+- (void)foreground;
 - (void);
 - (void);
 

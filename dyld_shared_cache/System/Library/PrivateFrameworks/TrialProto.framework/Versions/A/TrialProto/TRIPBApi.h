@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIPBSourceContext;
+@class NSString;
 
 @interface TRIPBApi : TRIPBMessage
 {
@@ -15,17 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSourceContext; // @dynamic hasSourceContext;
-@property(retain, nonatomic) NSMutableArray *methodsArray; // @dynamic methodsArray;
-@property(readonly, nonatomic) unsigned long long methodsArray_Count; // @dynamic methodsArray_Count;
-@property(retain, nonatomic) NSMutableArray *mixinsArray; // @dynamic mixinsArray;
-@property(readonly, nonatomic) unsigned long long mixinsArray_Count; // @dynamic mixinsArray_Count;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSMutableArray *optionsArray; // @dynamic optionsArray;
-@property(readonly, nonatomic) unsigned long long optionsArray_Count; // @dynamic optionsArray_Count;
-@property(retain, nonatomic) TRIPBSourceContext *sourceContext; // @dynamic sourceContext;
-@property(nonatomic) int syntax; // @dynamic syntax;
-@property(copy, nonatomic) NSString *version; // @dynamic version;
 
 @end
 

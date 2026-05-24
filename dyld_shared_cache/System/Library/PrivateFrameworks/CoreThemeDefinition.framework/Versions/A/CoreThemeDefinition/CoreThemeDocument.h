@@ -4,44 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectModel, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSURL, NSUUID, TDCatalogGlobals, TDDeviceTraits, TDHistorian, TDThreadMOCOrganizer;
-@protocol TDAssetManagementDelegate, TDCustomAssetProvider;
+@class NSMutableDictionary, NSString;
 
 @interface CoreThemeDocument
 {
     NSMutableDictionary *constantArrayControllers;
-    NSMutableDictionary *cachedConstantArrays;
-    long long cachedMaxIdentifierInUse;
-    TDHistorian *m_historian;
-    TDThreadMOCOrganizer *m_mocOrganizer;
-    NSManagedObjectModel *m_managedObjectModel;
-    NSString *pathToRepresentedDocument;
-    NSString *_relativePathToProductionData;
-    NSString *_targetPlatform;
-    NSMutableDictionary *_packableRenditions;
-    NSMutableDictionary *_explicitlyPackedIdentifiers;
-    NSMutableDictionary *_explicitlyPackedPackings;
-    NSMutableDictionary *_explicitlyPackedContents;
-    _Bool m_didMigrate;
-    int _updateVersionMetadataState;
-    NSString *_minimumDeploymentVersion;
-    int _majorVersion;
-    int _minorVersion;
-    int _patchVersion;
-    NSMutableArray *_deviceTraits;
-    struct _renditionkeyfmt *_keyFormat;
-    TDCatalogGlobals *_catalogGlobals;
-    NSMutableArray *_cachedAppearances;
-    NSMutableSet *_cachedUnknownAppearanceIds;
-    NSMutableArray *_cachedLocalizations;
-    NSMutableSet *_cachedUnknownLocalizationIds;
-    NSMutableArray *_cachedModelAssets;
-    _Bool _donotstoreDocumentChecksum;
-    NSMutableArray *_tempFilesToCleanup;
-    NSMutableDictionary *_appearanceIconFilesForName;
-    _Bool _shouldSkipAppStoreDeployment;
-    id <TDAssetManagementDelegate> _assetManagementDelegate;
-    id <TDCustomAssetProvider> _customAssetProvider;
 }
 
 + (long long);
@@ -60,7 +27,7 @@
 + (long long);
 + (long long);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -83,10 +50,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -101,7 +68,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -119,7 +86,7 @@
 - (id);
 - (id);
 - (long long);
-- (int);
+- (int);
 - (_Bool);
 - (void);
 - (void);
@@ -158,7 +125,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id){;
 - (void);
 - (void);
 - (void);
@@ -171,27 +138,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -285,7 +252,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -300,7 +267,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -316,8 +283,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)reuse not available for account;
+- (void)the authentication because the account provided is a local account.;
 - (id);
 - (id);
 - (long long);
@@ -334,32 +301,20 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned int);
 - (const struct _renditionkeyfmt *);
 - (id);
 - (void);
-- (int);
+- (int)@;
 - (int);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) id <TDAssetManagementDelegate> assetManagementDelegate; // @synthesize assetManagementDelegate=_assetManagementDelegate;
-@property(readonly) TDCatalogGlobals *catalogGlobals;
-@property(nonatomic) id <TDCustomAssetProvider> customAssetProvider; // @synthesize customAssetProvider=_customAssetProvider;
-@property(readonly, nonatomic) int majorVersion;
-@property(copy, nonatomic) NSString *minimumDeploymentVersion; // @synthesize minimumDeploymentVersion=_minimumDeploymentVersion;
-@property(readonly, nonatomic) int minorVersion;
-@property(retain, nonatomic) TDDeviceTraits *optimizeForDeviceTraits;
-@property(readonly, nonatomic) int patchVersion;
 @property(copy) NSString *pathToRepresentedDocument; // @synthesize pathToRepresentedDocument;
-@property(nonatomic) _Bool shouldSkipAppStoreDeployment; // @synthesize shouldSkipAppStoreDeployment=_shouldSkipAppStoreDeployment;
-@property long long targetPlatform;
-@property(readonly, nonatomic) NSURL *themeBitSourceURL;
-@property(copy, nonatomic) NSUUID *uuid;
 
 @end
 

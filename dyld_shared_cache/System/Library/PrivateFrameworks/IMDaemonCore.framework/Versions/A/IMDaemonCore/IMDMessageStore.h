@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, IMStateCaptureAssistant, IMUnreadCountController, IMUnreadCountReportDelta, NSMutableDictionary, NSMutableSet, NSNumber, NSString, NSTimer;
+@class NSString;
 
 @interface IMDMessageStore
 {
     NSString *_modificationStamp;
-    NSNumber *_cachedUnreadMessageCount;
-    NSNumber *_cachedLastFailedMessageDate;
-    _Bool _suppressedUpdates;
-    _Bool _pendingDBUpdatePost;
-    NSTimer *_suppressedUpdatesTimer;
-    _Bool _deferredUnreadCountRefresh;
-    NSMutableDictionary *_visitedChats;
-    IMUnreadCountController *_unreadCountController;
-    IMStateCaptureAssistant *_stateCaptureAssistant;
-    long long _lastNotifiedUnreadCount;
-    NSMutableSet *_deferredRebuildGUIDs;
 }
 
 + (void);
@@ -35,114 +24,114 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool)IMKTextInput_NSAppearance;
 - (_Bool);
 - (id);
-- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (struct _IMDHandleRecordStruct *);
-- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void)SecurityType;
+- (_Bool)kSnowAirPortDialogSecurityTypeWPA2_Enterprise_Mixed;
+- (id);
+- (id);
+- (struct _IMDHandleRecordStruct *)addChild:(id)arg1 withPendingUnitCount:(id)arg2;
+- (id)ue>",&,N,V_frameworkAsyncOperationsQueue;
+- (void)P;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)6;
 - (id);
-- (long long);
+- (long long)d to perform cleanup command;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)error;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)c;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)setAllowDaemonConnectionRetries: /* Error: Ran out of types for this method. */;
+- (void)server;
+- (id),y;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)!;
 - (id);
-- (id);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)I;
+- (id);
+- (void)initWithCString:(id)arg1 encoding:(id)arg2;
+- (id);
+- (id);
+- (id)B;
+- (void);
+- (id)pg_query__create_extension_stmt__get_packed_size;
+- (id)pg_query__reassign_owned_stmt__pack_to_buffer;
+- (id){;
+- (id)in_range_nulls_first;
+- (id)table_list;
+- (id);
+- (id)essoryControlEvent event with base:(long long)arg1 %@, accessoryUniqueIdentifier:%@, accessoryStateString:%@, accessoryStateNumber:%@, accessoryStateData:%@, serviceUniqueIdentifier:%@, serviceType:%@, characteristicType:%@, serviceGroupUniqueIdentifier:%@, zoneUniqueIdentifiers:%@, roomUniqueIdentifier:%@, accessoryName:%@, serviceName:%@, roomName:%@, serviceGroupName:%@, zoneNames:%@, homeName:%@ /* Error: Ran out of types for this method. */;
+- (id)W;
+- (id);
+- (id)RSTUVWXY.;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
 - (_Bool);
 - (id);
 - (void);
@@ -159,7 +148,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -189,27 +178,28 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)\L;
+- (_Bool)NoGpHpy6mRb3kI/Library/Caches/com.apple.xbs/TemporaryDirectory.lwsgJi/Sources/TimeSync/TimeSync/Analysis/TSPythonRunner.m;
+- (id)Delay Log Mean Interval:%hhd
+ /* Error: Ran out of types for this method. */;
+- (void)lSyncInfo:(id)arg1 response;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool)message provided;
+- (id)eate sealedData. Data Recovery failed.;
 - (id);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void)i;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -227,13 +217,13 @@
 - (id)@ù
 × ;
 - (void)0:(id)arg1 8;
-- (id)SyncTimer:(id)arg1;
-- (id)ta:(id)arg1 toDestinations:(id)arg2 priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (id)setLongRunningSyncTimer:(id)arg1;
+- (id)sendData:(id)arg1 toDestinations:(id)arg2 priority:options:identifier:error: /* Error: Ran out of types for this method. */;
 - (id)ssedHandleID:(id)arg1 originalGroupID:chatIdentifier: /* Error: Ran out of types for this method. */;
-- (id)hmentsFilteredUsingPredicate:(id)arg1 limit:(id)arg2;
-- (id)ecordZone;
-- (id):(id)arg1 account:(id)arg2;
-- (void)t;
+- (id)attachmentsFilteredUsingPredicate:(id)arg1 limit:(id)arg2;
+- (id)attachmentRecordZone;
+- (id)acceptSubscriptionRequest:(id)arg1 from:(id)arg2 account:(id)arg3;
+- (void)_addDefaultPairedDeviceToAllowedSMSRelayList;
 - (id)çÿÿÿÿÿ(;
 - (id)8òô;
 - (id)lLdNpP¨RPU[`]¼`Èeìin oHr¼rôwhx~~, ðdXü;
@@ -245,22 +235,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableSet *deferredRebuildGUIDs; // @synthesize deferredRebuildGUIDs=_deferredRebuildGUIDs;
-@property(nonatomic) _Bool deferredUnreadCountRefresh; // @synthesize deferredUnreadCountRefresh=_deferredUnreadCountRefresh;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long lastNotifiedUnreadCount; // @synthesize lastNotifiedUnreadCount=_lastNotifiedUnreadCount;
-@property(retain) NSString *modificationStamp; // @synthesize modificationStamp=_modificationStamp;
-@property(readonly, nonatomic) CKRecordZoneID *recordZoneID;
-@property(retain, nonatomic) IMStateCaptureAssistant *stateCaptureAssistant; // @synthesize stateCaptureAssistant=_stateCaptureAssistant;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMUnreadCountController *unreadCountController; // @synthesize unreadCountController=_unreadCountController;
-@property(readonly, nonatomic) IMUnreadCountReportDelta *unreadCountReportDeltaForSetupInfo;
-@property(retain, nonatomic) NSMutableDictionary *visitedChats; // @synthesize visitedChats=_visitedChats;
 
 @end
 

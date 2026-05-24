@@ -7,6 +7,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)w;
+- (void)`";
+- (void);
 - (void)baseObserver";
 - (void)#´Ø;
 - (void)°;

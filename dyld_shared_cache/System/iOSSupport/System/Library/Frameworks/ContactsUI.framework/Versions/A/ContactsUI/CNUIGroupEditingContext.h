@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface CNUIGroupEditingContext
 {
     NSArray *_originalGroups;
-    NSArray *_addedGroups;
-    NSArray *_removedGroups;
 }
 
-- (void);
+- (void)};
 - (id);
 - (id);
 - (id);
@@ -25,13 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)undNavigationListStyleToCell: /* Error: Ran out of types for this method. */;
+- (void)applyCollapsedBackgroundNavigationListStyleToCell: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *addedGroups; // @synthesize addedGroups=_addedGroups;
-@property(readonly, nonatomic) NSArray *groupsToDisplayForEditing;
-@property(readonly, nonatomic) NSArray *originalGroups; // @synthesize originalGroups=_originalGroups;
-@property(retain, nonatomic) NSArray *removedGroups; // @synthesize removedGroups=_removedGroups;
 
 @end
 

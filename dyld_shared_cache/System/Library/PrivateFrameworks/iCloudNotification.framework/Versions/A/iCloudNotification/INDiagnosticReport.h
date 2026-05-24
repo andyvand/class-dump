@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface INDiagnosticReport
 {
     _Bool _disabled;
-    NSString *_pushEnvironment;
-    NSString *_pushToken;
-    NSArray *_pushTopics;
-    NSDate *_nextHeartbeatDate;
 }
 
 + (_Bool);
@@ -25,17 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void));
+- (id)A;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(copy, nonatomic) NSDate *nextHeartbeatDate; // @synthesize nextHeartbeatDate=_nextHeartbeatDate;
 @property(copy, nonatomic) NSString *pushEnvironment; // @synthesize pushEnvironment=_pushEnvironment;
-@property(copy, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(copy, nonatomic) NSArray *pushTopics; // @synthesize pushTopics=_pushTopics;
 
 @end
 

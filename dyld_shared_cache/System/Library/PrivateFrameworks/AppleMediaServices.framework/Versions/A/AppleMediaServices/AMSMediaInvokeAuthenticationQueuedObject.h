@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMutablePromise, AMSURLTaskInfo, NSURLResponse;
+@class NSURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface AMSMediaInvokeAuthenticationQueuedObject
 {
     _Bool _ignoringResult;
-    NSURLResponse *_response;
-    AMSURLTaskInfo *_taskInfo;
-    AMSMutablePromise *_pendingPromise;
 }
 
 - (void);
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)*Uc­äÒsE:Âô½"]k¥ìÚ.gQ©ÖàI /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool ignoringResult; // @synthesize ignoringResult=_ignoringResult;
-@property(retain) AMSMutablePromise *pendingPromise; // @synthesize pendingPromise=_pendingPromise;
 @property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property(retain) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
 
 @end
 

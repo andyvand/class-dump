@@ -4,36 +4,90 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVSignedNumberValue, HAPTLVUnsignedNumberValue, HMDNetworkRouterIPAddressList, NSData, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientStatus
 {
     HAPTLVUnsignedNumberValue *_clientIdentifier;
-    NSData *_macAddress;
-    HMDNetworkRouterIPAddressList *_ipAddressList;
-    HAPTLVUnsignedNumberValue *_lanIdentifier;
-    NSString *_name;
-    HAPTLVSignedNumberValue *_rssi;
 }
 
-+ (id);
++ (id)momentLocationWeight;
+- (void);
 - (void);
-- (void);
+- (id)IndexSet",R,N;
+- (id)MSPTransitStorageSystem;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)<= 0.8) ? mix(c0.x, c1.x, (s.x-0.2)/(0.8-0.2)) :mix(c1.x, 1.0, (s.x-0.8)/(1.0-0.8));
+float x = clamp((s.x-0.2)/(0.8-0.2), 0.0, 1.0);
+cw.yz = mix(c0.yz, c1.yz, x);
+return vec4(cw, s.a);
+}
+kernel vec4 ipt_color_wash_duo_variable(__sample s, vec3 c0, vec3 c1) {
+vec3 cw;
+cw.x = (s.x <= c0.x) ? mix(0.0, c0.x, s.x/c0.x) :(s.x <= c1.x) ? mix(c0.x, c1.x, (s.x-c0.x)/(c1.x-c0.x)) :mix(c1.x, 1.0, (s.x-c1.x)/(1.0-c1.x));
+float x = clamp((s.x-c0.x)/(c1.x-c0.x), 0.0, 1.0);
+cw.yz = mix(c0.yz, c1.yz, x);
+return vec4(cw, s.a);
+}
+kernel vec4 ipt_hue_chroma_color_wash_duo(__sample s, vec3 c0, vec3 c1) {
+vec3 lhc = mix(c0, c1, s.x);
+lhc.z = 0.5*(s.z+lhc.z);
+return vec4(lhc, s.a);
+}
+kernel vec4 ipt_hue_chroma_color_wash_duo_fixed(__sample s, vec3 c0, vec3 c1) {
+float l = (s.x <= 0.8) ? mix(c0.x, c1.x, s.x/0.8) :mix(c1.x, 1.0, (s.x-0.8)/(1.0-0.8));
+float x = clamp(s.x/0.8, 0.0, 1.0);
+vec2 hc = mix(c0.yz, c1.yz, x);
+hc.y = 0.5*(s.z+hc.y);
+return vec4(l, hc.x, hc.y, s.a);
+}
+kernel vec4 ipt_hue_chroma_color_wash_duo_variable(__sample s, vec3 c0, vec3 c1) {
+float l = (s.x <= c1.x) ? mix(c0.x, c1.x, s.x/c1.x) :mix(c1.x, 1.0, (s.x-c1.x)/(1.0-c1.x));
+float x = clamp(s.x/c1.x, 0.0, 1.0);
+vec2 hc = mix(c0.yz, c1.yz, x);
+hc.y = 0.5*(s.z+hc.y);
+return vec4(l, hc.x, hc.y, s.a);
+}
+kernel vec4 rgb_color_wash_duo(__sample s, __color c0, __color c1) {
+float l = dot(s.rgb, vec3(0.299, 0.587, 0.114));
+vec3 cw = mix(c0.rgb, c1.rgb, l);
+return vec4(cw, s.a);
+}
+kernel vec4 rgb_color_wash_duo_fixed(__sample s, __color c0, __color c1) {
+float l = dot(s.rgb, vec3(0.299, 0.587, 0.114));
+vec3 cw;
+if (l <= 0.75) {
+cw = mix(c0.rgb, c1.rgb, l/0.75);
+} else {
+cw = mix(c1.rgb, vec3(1), 4*(l-0.75));
+}
+return vec4(cw, s.a);
+}
+kernel vec4 rgb_color_wash_duo_variable(__sample s, __color c0, __color c1) {
+float l = dot(s.rgb, vec3(0.299, 0.587, 0.114));
+float l0 = dot(c0.rgb, vec3(0.299, 0.587, 0.114));
+float l1 = dot(c1.rgb, vec3(0.299, 0.587, 0.114));
+vec3 cw;
+if (l <= l1) {
+cw = mix(c0.rgb, c1.rgb, l/l1);
+} else {
+cw = mix(c1.rgb, vec3(1), (l-l1)/(1-l1));
+}
+return vec4(cw, s.a);
+}
+
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id)CharacteristicType:(struct _NSZone *)arg1 serviceType: /* Error: Ran out of types for this method. */;
+- (id)isBulletinSupportedForNonSecureCharacteristicType:(struct _NSZone *)arg1 serviceType: /* Error: Ran out of types for this method. */;
 - (id)iled to fetch local camera significant event registrations, error:%@ /* Error: Ran out of types for this method. */;
 - (void)ame to %@;
 - (void)6@?0@"HMDCameraAccessModeBulletinNotificationRegistrationRemote"8;
@@ -41,18 +95,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterIPAddressList *ipAddressList; // @synthesize ipAddressList=_ipAddressList;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *lanIdentifier; // @synthesize lanIdentifier=_lanIdentifier;
-@property(retain, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) HAPTLVSignedNumberValue *rssi; // @synthesize rssi=_rssi;
-@property(readonly) Class superclass;
 
 @end
 

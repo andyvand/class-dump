@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteLogEvent
 {
     _Bool _iCloudSignedIn;
-    _Bool _manateeAvailable;
-    _Bool _networkAvailable;
-    _Bool _IDSAvailable;
-    NSUUID *_sessionIdentifier;
-    unsigned long long _invitationType;
-    unsigned long long _invitationAge;
-    unsigned long long _invitationAgeSeconds;
-    unsigned long long _invitationSource;
-    long long _IDSRegistrationStatus;
-    long long _IDSRegistrationError;
-    NSError *_lastTransientError;
 }
 
 - (void);
@@ -32,63 +21,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)supersededSearchIdentifier;
+- (unsigned long long)subscribeToUpdatesToSharedTrip:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)subscribeToUpdatesToSharedTrip:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)subscribeToSharedTripUpdatesWithIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)URLByAppendingPathComponent:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (_Bool)sure reasons:%s /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)Ι;
+- (id)connectionFailedCommError;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void)veReason;
+- (void)HMDApplicationTerminatedSaveReason;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool IDSAvailable; // @synthesize IDSAvailable=_IDSAvailable;
-@property(nonatomic) long long IDSRegistrationError; // @synthesize IDSRegistrationError=_IDSRegistrationError;
-@property(nonatomic) long long IDSRegistrationStatus; // @synthesize IDSRegistrationStatus=_IDSRegistrationStatus;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(nonatomic) _Bool iCloudSignedIn; // @synthesize iCloudSignedIn=_iCloudSignedIn;
-@property(nonatomic) unsigned long long invitationAge; // @synthesize invitationAge=_invitationAge;
-@property(nonatomic) unsigned long long invitationAgeSeconds; // @synthesize invitationAgeSeconds=_invitationAgeSeconds;
-@property(nonatomic) unsigned long long invitationSource; // @synthesize invitationSource=_invitationSource;
-@property unsigned long long invitationType; // @synthesize invitationType=_invitationType;
-@property(retain) NSError *lastTransientError; // @synthesize lastTransientError=_lastTransientError;
-@property(nonatomic) _Bool manateeAvailable; // @synthesize manateeAvailable=_manateeAvailable;
-@property(nonatomic) _Bool networkAvailable; // @synthesize networkAvailable=_networkAvailable;
 @property(retain) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

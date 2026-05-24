@@ -19,11 +19,9 @@
 - (CDStruct_e83c9415);
 - (id);
 - (CDStruct_e83c9415);
-- (void):filteredAndSortedAccordingToPreferredLanguages: /* Error: Ran out of types for this method. */;
+- (void)metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long alternateGroupID;
-@property(readonly, nonatomic) CDStruct_e83c9415 mediaDecodeTimeRange;
 @property(readonly, nonatomic) CDStruct_e83c9415 mediaPresentationTimeRange;
 
 @end

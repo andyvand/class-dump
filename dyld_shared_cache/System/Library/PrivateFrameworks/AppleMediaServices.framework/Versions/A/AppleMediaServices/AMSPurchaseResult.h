@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPurchase, NSDictionary, NSError, NSString, NSURLResponse;
+@class NSString;
 
 @interface AMSPurchaseResult
 {
     _Bool _didShowPaymentSheet;
-    NSString *_correlationID;
-    NSDictionary *_finalizedBlindedData;
-    NSError *_error;
-    AMSPurchase *_purchase;
-    NSDictionary *_responseDictionary;
-    NSDictionary *_loadURLEventDictionary;
-    NSURLResponse *_URLResponse;
 }
 
 + (_Bool);
@@ -35,7 +28,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)xpcConnection;
 - (void);
 - (id);
 - (void);
@@ -44,14 +37,7 @@
 - (id)ë¤èôº[x`nq,1ØÂ¸ÈììZ(vçO';TÛÞ¹¾UÅWs'ÃýG~¬ñÍ1å`³e´Ö;
 
 // Remaining properties
-@property(copy) NSURLResponse *URLResponse; // @synthesize URLResponse=_URLResponse;
 @property(copy) NSString *correlationID; // @synthesize correlationID=_correlationID;
-@property _Bool didShowPaymentSheet; // @synthesize didShowPaymentSheet=_didShowPaymentSheet;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(retain) NSDictionary *finalizedBlindedData; // @synthesize finalizedBlindedData=_finalizedBlindedData;
-@property(copy) NSDictionary *loadURLEventDictionary; // @synthesize loadURLEventDictionary=_loadURLEventDictionary;
-@property(copy) AMSPurchase *purchase; // @synthesize purchase=_purchase;
-@property(copy) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
 
 @end
 

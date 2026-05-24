@@ -4,53 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserToolbarItem, ButtonPlus, CloudTabStore, CollaborationToolbarItem, NSSegmentedControl, NSSplitViewController, NSString, NSTextField, NSToolbar, NSToolbarItem, NSWindow, NewTabTitlebarButton, SearchProvidersController, ToolbarDownloadsButton, ToolbarItemProvider, UnifiedField, UnifiedFieldBezelView, UnifiedFieldContainerView, UnifiedTabBar, VisualTabPickerToolbarButton, WKWebpagePreferences;
-@protocol ToolbarControllerDelegate;
+@class NSSegmentedControl, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface ToolbarController
 {
     NSWindow *_toolbarWindow;
-    SearchProvidersController *_searchProvidersController;
-    UnifiedFieldBezelView *_unifiedFieldBezelView;
-    UnifiedFieldBezelView *_unifiedCustomizeFieldBezelView;
-    UnifiedFieldContainerView *_unifiedCustomizeFieldContainerView;
-    _Bool _validatingExtensionToolbarItemsSoon;
-    _Bool _windowDidClose;
-    _Bool _addCloudTabsButtonIfAppropriateHasBeenCalled;
-    NSString *_pendingTabGroupPickerButtonTitle;
-    NSString *_selectedTabGroupUUID;
-    _Bool _isFixingCombinedSidebarTabGroupPosition;
-    NSToolbar *_toolbar;
-    NSToolbar *_sidebarItemOnlyToolbar;
-    ButtonPlus *_sidebarButtonForSidebarOnlyToolbar;
-    ToolbarItemProvider *_toolbarItemProvider;
-    ToolbarItemProvider *_defaultToolbarItemProvider;
-    ToolbarItemProvider *_sidebarToolbarItemProvider;
-    WKWebpagePreferences *_defaultWebpagePreferences;
-    _Bool _autoHidesToolbarInFullScreen;
-    _Bool _toolbarItemsHidden;
-    _Bool _displayedInWebAppPopupWindow;
-    _Bool _reduceMotion;
-    _Bool _showsTabBarInToolbar;
-    UnifiedField *_unifiedField;
-    UnifiedFieldContainerView *_unifiedFieldContainerView;
-    UnifiedField *_unifiedCustomizeField;
-    ButtonPlus *_sidebarButton;
-    NSSegmentedControl *_backForwardSegmentedControl;
-    NSSegmentedControl *_textSizeSegmentedControl;
-    NewTabTitlebarButton *_newTabButton;
-    NSTextField *_webAppTitleLabel;
-    UnifiedTabBar *_unifiedTabBar;
-    id <ToolbarControllerDelegate> _delegate;
-    CloudTabStore *_cloudTabStore;
-    unsigned long long _browsingMode;
-    NSSplitViewController *_splitViewController;
-    NSToolbarItem *_tabPickerItem;
-    VisualTabPickerToolbarButton *_tabPickerButton;
-    long long _trackerCount;
-    long long _lockdownModeStatus;
-    NSString *_profileServerID;
 }
 
 + (void);
@@ -71,7 +30,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (unsigned long long);
 + (id);
-+ (_Bool);
++ (_Bool)b;
 + (void);
 + (CDUnknownBlockType);
 + (unsigned long long);
@@ -114,7 +73,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)`";
 - (id);
 - (id);
 - (_Bool);
@@ -165,11 +124,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)O;
 - (id);
 - (id);
 - (id);
@@ -230,7 +189,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -248,52 +207,52 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)P;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)_lastName;
 - (id);
-- (void);
+- (void)ber of entries %lu;
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void)sentingViewController;
+- (unsigned long long)legacyAccessService;
+- (void)presentingViewController;
 - (void)8>;
 - (id)i-article_h211233-macos_ui-06162020;
 - (void)ookmark;
@@ -339,54 +298,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)Åä-;
 
 // Remaining properties
-@property(nonatomic) _Bool autoHidesToolbarInFullScreen; // @synthesize autoHidesToolbarInFullScreen=_autoHidesToolbarInFullScreen;
 @property(readonly, nonatomic) NSSegmentedControl *backForwardCustomizeSegmentedControl;
-@property(readonly, nonatomic) NSSegmentedControl *backForwardSegmentedControl; // @synthesize backForwardSegmentedControl=_backForwardSegmentedControl;
-@property(nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(readonly, nonatomic) __weak CloudTabStore *cloudTabStore; // @synthesize cloudTabStore=_cloudTabStore;
-@property(readonly, nonatomic) BrowserToolbarItem *cloudTabsItem;
-@property(readonly, nonatomic) CollaborationToolbarItem *collaborateToolbarItem;
-@property(readonly, nonatomic) BrowserToolbarItem *combinedSidebarTabGroupItem;
-@property(readonly, nonatomic) BrowserToolbarItem *combinedSidebarTabGroupItemForSidebarOnlyToolbar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ToolbarControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayedInWebAppPopupWindow; // @synthesize displayedInWebAppPopupWindow=_displayedInWebAppPopupWindow;
-@property(readonly, nonatomic) BrowserToolbarItem *firstVisibleItemWithView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BrowserToolbarItem *lastVisibleItemWithView;
-@property(readonly, nonatomic) BrowserToolbarItem *lockdownModeIndicator;
-@property(nonatomic) long long lockdownModeStatus; // @synthesize lockdownModeStatus=_lockdownModeStatus;
-@property(readonly, nonatomic) NewTabTitlebarButton *newTabButton; // @synthesize newTabButton=_newTabButton;
-@property(readonly, nonatomic) BrowserToolbarItem *privacyReportItem;
-@property(readonly, copy, nonatomic) NSString *profileServerID; // @synthesize profileServerID=_profileServerID;
-@property(nonatomic) _Bool reduceMotion; // @synthesize reduceMotion=_reduceMotion;
-@property(readonly, nonatomic) BrowserToolbarItem *shareItem;
-@property(readonly, nonatomic) ToolbarDownloadsButton *showDownloadsButton;
-@property(readonly, nonatomic, getter=isShowingSidebarItemOnly) _Bool showingSidebarItemOnly;
-@property(nonatomic) _Bool showsTabBarInToolbar; // @synthesize showsTabBarInToolbar=_showsTabBarInToolbar;
-@property(readonly, nonatomic) ButtonPlus *sidebarButton; // @synthesize sidebarButton=_sidebarButton;
-@property(readonly, nonatomic) ButtonPlus *sidebarButtonForSidebarOnlyToolbar; // @synthesize sidebarButtonForSidebarOnlyToolbar=_sidebarButtonForSidebarOnlyToolbar;
-@property(retain, nonatomic) NSSplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BrowserToolbarItem *tabGroupPickerItem;
-@property(readonly, nonatomic) VisualTabPickerToolbarButton *tabPickerButton; // @synthesize tabPickerButton=_tabPickerButton;
-@property(readonly, nonatomic) NSToolbarItem *tabPickerItem; // @synthesize tabPickerItem=_tabPickerItem;
-@property(readonly, nonatomic) NSSegmentedControl *textSizeCustomizeSegmentedControl;
-@property(readonly, nonatomic) NSSegmentedControl *textSizeSegmentedControl; // @synthesize textSizeSegmentedControl=_textSizeSegmentedControl;
-@property(readonly, nonatomic) _Bool toolbarContainsUnifiedBar;
-@property(readonly, nonatomic) _Bool toolbarContainsUnifiedField;
-@property(nonatomic) _Bool toolbarItemsHidden; // @synthesize toolbarItemsHidden=_toolbarItemsHidden;
-@property(nonatomic) long long trackerCount; // @synthesize trackerCount=_trackerCount;
-@property(readonly, nonatomic) UnifiedField *unifiedCustomizeField; // @synthesize unifiedCustomizeField=_unifiedCustomizeField;
-@property(readonly, nonatomic) UnifiedField *unifiedField; // @synthesize unifiedField=_unifiedField;
-@property(readonly, nonatomic) UnifiedFieldContainerView *unifiedFieldContainerView; // @synthesize unifiedFieldContainerView=_unifiedFieldContainerView;
-@property(copy, nonatomic) NSString *unifiedFieldPlaceholderString;
-@property(readonly, nonatomic) UnifiedTabBar *unifiedTabBar; // @synthesize unifiedTabBar=_unifiedTabBar;
-@property(readonly, nonatomic) NSTextField *webAppTitleLabel; // @synthesize webAppTitleLabel=_webAppTitleLabel;
 
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation;
-
 __attribute__((visibility("hidden")))
 @interface _GEOWalkingRouteMatcherRecentLocationInfo
 {
     _Bool _isOnRoute;
-    GEOLocation *_location;
 }
 
 - (void);

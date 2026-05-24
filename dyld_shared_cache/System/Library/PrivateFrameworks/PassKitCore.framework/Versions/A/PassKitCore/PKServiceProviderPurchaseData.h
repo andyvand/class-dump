@@ -11,15 +11,15 @@
     NSDictionary *_dictionaryRepresentation;
 }
 
-+ (_Bool);
++ (_Bool)Versions/C/Foundation;
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
-- (void);
+- (void)_sockFltrRegister;
 - (id);
-- (id)ToService:(id)arg1;
+- (id)networksSupportedAccordingToService:(id)arg1;
 - (void)tPromotionCompletionStep"8;
 
 // Remaining properties

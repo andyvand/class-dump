@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableDictionary, NSObject, NSPersistentStoreCoordinator;
-@protocol OS_dispatch_queue;
-
 @interface ICBundleChangeObserver
 {
     _Bool _isObserving;
-    _Bool _didAddForExistingPaperAttachments;
-    NSManagedObjectContext *_managedObjectContext;
-    NSMutableDictionary *_mutableFilePresenters;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    CDUnknownBlockType _didChangeFilePresenters;
-    CDUnknownBlockType _attachmentDidChange;
 }
 
 - (void);
 - (void);
+- (void)$;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)sion.plist;
 - (CDUnknownBlockType);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -43,7 +33,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)PrivateFrameworks/ReminderKitInternal.framework/Versions/A/ReminderKitInternal;
 - (void);
 - (id);
 - (id);
@@ -52,14 +42,7 @@
 - (id)P;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType attachmentDidChange; // @synthesize attachmentDidChange=_attachmentDidChange;
-@property(nonatomic) _Bool didAddForExistingPaperAttachments; // @synthesize didAddForExistingPaperAttachments=_didAddForExistingPaperAttachments;
-@property(copy, nonatomic) CDUnknownBlockType didChangeFilePresenters; // @synthesize didChangeFilePresenters=_didChangeFilePresenters;
 @property(nonatomic) _Bool isObserving; // @synthesize isObserving=_isObserving;
-@property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(retain, nonatomic) NSMutableDictionary *mutableFilePresenters; // @synthesize mutableFilePresenters=_mutableFilePresenters;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol VCSessionStatsControllerDelegate
+- (void);
 @end
 

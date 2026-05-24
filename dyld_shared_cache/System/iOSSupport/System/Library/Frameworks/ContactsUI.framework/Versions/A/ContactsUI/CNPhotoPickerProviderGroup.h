@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
-@protocol CNPhotoPickerProviderGroupDelegate, CNScheduler;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerProviderGroup
 {
     _Bool _allowAddItem;
-    _Bool _showCircleMask;
-    long long _groupType;
-    id <CNPhotoPickerProviderGroupDelegate> _delegate;
-    unsigned long long _itemsPerRow;
-    NSArray *_providers;
-    NSArray *_addItems;
-    NSArray *_displayItems;
-    NSArray *_addedItems;
-    NSArray *_removedItems;
-    NSMutableDictionary *_itemsGroupedByProvider;
-    NSArray *_availablePaddingItems;
-    NSArray *_removedPaddingItems;
-    NSArray *_paddingItems;
-    id <CNScheduler> _workQueue;
-    id <CNScheduler> _providerItemRenderingQueue;
-    id <CNScheduler> _callbackQueue;
 }
 
 + (id);
@@ -35,14 +18,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)TH;
 - (void);
-- (void);
-- (void);
+- (void)}S;
 - (id);
 - (long long);
 - (void);
@@ -56,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tC;
 - (_Bool);
 - (id);
 - (id);
@@ -68,42 +51,19 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void)ew;
+- (void)_markerView;
 - (id)dexPath:%@, contact:%@ /* Error: Ran out of types for this method. */;
 - (void)ýÿÿ;
 - (long long)°;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *addItems; // @synthesize addItems=_addItems;
-@property(retain, nonatomic) NSArray *addedItems; // @synthesize addedItems=_addedItems;
-@property(readonly, nonatomic) _Bool allowAddItem; // @synthesize allowAddItem=_allowAddItem;
-@property(retain, nonatomic) NSArray *availablePaddingItems; // @synthesize availablePaddingItems=_availablePaddingItems;
-@property(readonly, nonatomic) id <CNScheduler> callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNPhotoPickerProviderGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *displayItems; // @synthesize displayItems=_displayItems;
-@property(readonly, nonatomic) long long groupType; // @synthesize groupType=_groupType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *itemsGroupedByProvider; // @synthesize itemsGroupedByProvider=_itemsGroupedByProvider;
-@property(nonatomic) unsigned long long itemsPerRow; // @synthesize itemsPerRow=_itemsPerRow;
-@property(retain, nonatomic) NSArray *paddingItems; // @synthesize paddingItems=_paddingItems;
-@property(readonly, nonatomic) id <CNScheduler> providerItemRenderingQueue; // @synthesize providerItemRenderingQueue=_providerItemRenderingQueue;
 @property(retain, nonatomic) NSArray *providers; // @synthesize providers=_providers;
-@property(retain, nonatomic) NSArray *removedItems; // @synthesize removedItems=_removedItems;
-@property(retain, nonatomic) NSArray *removedPaddingItems; // @synthesize removedPaddingItems=_removedPaddingItems;
-@property(readonly, nonatomic) _Bool showCircleMask; // @synthesize showCircleMask=_showCircleMask;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

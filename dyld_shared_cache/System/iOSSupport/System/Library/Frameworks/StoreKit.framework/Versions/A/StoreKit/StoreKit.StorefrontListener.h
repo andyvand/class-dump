@@ -7,10 +7,6 @@
 @interface StoreKit.StorefrontListener
 {
     id $defaultActor;
-    id server;
-    id _currentStorefront;
-    id storefrontUpdateTask;
-    id stream;
 }
 
 @end

@@ -7,14 +7,6 @@
 @interface PromotedContentUI.StoreProductRequester
 {
     id actionResult;
-    id actionDelegate;
-    id adamIdentifier;
-    id notificationObserver;
-    id notificationOpenObserver;
-    id backgroundedTime;
-    id storeProductInfo;
-    id storeProductViewController;
-    id isAAKEnabled;
 }
 
 - (void);

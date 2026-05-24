@@ -5,6 +5,6 @@
 //
 
 @protocol NSAnimationProgressMark
-- (float)rVisibility;
+- (float)_updateSeparatorVisibility;
 @end
 

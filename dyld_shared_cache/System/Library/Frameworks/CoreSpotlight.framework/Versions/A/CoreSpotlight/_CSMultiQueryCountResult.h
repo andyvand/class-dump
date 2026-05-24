@@ -11,7 +11,7 @@
     unsigned long long _count;
 }
 
-- (void);
+- (void)ti-link Frame Relay link-layer type filtering not implemented;
 - (unsigned long long);
 
 // Remaining properties

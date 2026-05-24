@@ -12,8 +12,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)filterCategoryCustomKey;
+- (unsigned long long)ddyProperties:buddyPictures:) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

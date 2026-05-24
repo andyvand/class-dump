@@ -7,17 +7,11 @@
 @interface RemindersUICore.TTRMContentUnavailableView
 {
     id configuration;
-    id unavailableViewDelegate;
-    id stackView;
-    id imageView;
-    id textLabel;
-    id secondaryTextLabel;
-    id helpAnchorLink;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ractorCapability:persist last selected list ID {objectID:%s} /* Error: Ran out of types for this method. */;
 

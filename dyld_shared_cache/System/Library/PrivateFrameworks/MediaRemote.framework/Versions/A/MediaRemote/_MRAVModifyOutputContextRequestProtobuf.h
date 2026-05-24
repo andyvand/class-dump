@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MRGroupTopologyModificationRequestProtobuf;
+@class NSMutableArray;
 
 @interface _MRAVModifyOutputContextRequestProtobuf
 {
     NSMutableArray *_addingOutputDeviceUIDs;
-    NSMutableArray *_clusterAwareAddingOutputDeviceUIDs;
-    NSMutableArray *_clusterAwareRemovingOutputDeviceUIDs;
-    NSMutableArray *_clusterAwareSettingOutputDeviceUIDs;
-    int _outputContextType;
-    NSMutableArray *_removingOutputDeviceUIDs;
-    _MRGroupTopologyModificationRequestProtobuf *_request;
-    NSMutableArray *_settingOutputDeviceUIDs;
-    struct {
-        unsigned int outputContextType:1;
-    } _has;
 }
 
 + (Class);
@@ -41,16 +31,16 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(86{;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -73,11 +63,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setUserNameLabelPasswordRequiredConstraint:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)143466;
 - (int);
 - (void);
 - (void)ontextEmpty;
@@ -85,16 +75,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *addingOutputDeviceUIDs; // @synthesize addingOutputDeviceUIDs=_addingOutputDeviceUIDs;
-@property(retain, nonatomic) NSMutableArray *clusterAwareAddingOutputDeviceUIDs; // @synthesize clusterAwareAddingOutputDeviceUIDs=_clusterAwareAddingOutputDeviceUIDs;
-@property(retain, nonatomic) NSMutableArray *clusterAwareRemovingOutputDeviceUIDs; // @synthesize clusterAwareRemovingOutputDeviceUIDs=_clusterAwareRemovingOutputDeviceUIDs;
-@property(retain, nonatomic) NSMutableArray *clusterAwareSettingOutputDeviceUIDs; // @synthesize clusterAwareSettingOutputDeviceUIDs=_clusterAwareSettingOutputDeviceUIDs;
 @property(nonatomic) _Bool hasOutputContextType;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(nonatomic) int outputContextType; // @synthesize outputContextType=_outputContextType;
-@property(retain, nonatomic) NSMutableArray *removingOutputDeviceUIDs; // @synthesize removingOutputDeviceUIDs=_removingOutputDeviceUIDs;
-@property(retain, nonatomic) _MRGroupTopologyModificationRequestProtobuf *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSMutableArray *settingOutputDeviceUIDs; // @synthesize settingOutputDeviceUIDs=_settingOutputDeviceUIDs;
 
 @end
 

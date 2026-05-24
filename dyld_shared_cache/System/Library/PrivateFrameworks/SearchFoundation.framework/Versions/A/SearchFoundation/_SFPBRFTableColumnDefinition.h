@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTableContentColumnDefinition, _SFPBRFTableSpacerColumnDefinition;
+@class _SFPBRFTableSpacerColumnDefinition;
 
 @interface _SFPBRFTableColumnDefinition
 {
     _SFPBRFTableSpacerColumnDefinition *_spacer;
-    _SFPBRFTableContentColumnDefinition *_content;
-    unsigned long long _whichDefinition;
 }
 
 - (unsigned long long);
@@ -21,8 +19,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestRequiredResourcesForManagedAssetObjectUUID:(id)arg1 library:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)result;
 - (id);
 - (void);
 - (id);
@@ -30,17 +28,7 @@
 - (void)BRFLongItemStandardCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFTableContentColumnDefinition *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTableSpacerColumnDefinition *spacer; // @synthesize spacer=_spacer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichDefinition; // @synthesize whichDefinition=_whichDefinition;
 
 @end
 

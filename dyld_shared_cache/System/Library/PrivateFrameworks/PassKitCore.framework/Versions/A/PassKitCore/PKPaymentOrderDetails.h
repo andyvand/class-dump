@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPaymentOrderDetails
 {
     NSString *_orderTypeIdentifier;
-    NSString *_orderIdentifier;
-    NSURL *_webServiceURL;
-    NSString *_authenticationToken;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -22,18 +19,15 @@
 - (void);
 - (id);
 - (id);
+- (id)qa;
 - (id);
-- (id);
-- (void);
-- (void)eduling;
+- (void)AWDWRMAntSelPolicyStats;
+- (void)advancedScheduling;
 - (id)icKey '%@' isn't a valid EC compact public key. Valid curves are secp256r1.;
 - (void)nt:(id)arg1 '%@'; ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authenticationToken; // @synthesize authenticationToken=_authenticationToken;
-@property(copy, nonatomic) NSString *orderIdentifier; // @synthesize orderIdentifier=_orderIdentifier;
 @property(copy, nonatomic) NSString *orderTypeIdentifier; // @synthesize orderTypeIdentifier=_orderTypeIdentifier;
-@property(copy, nonatomic) NSURL *webServiceURL; // @synthesize webServiceURL=_webServiceURL;
 
 @end
 

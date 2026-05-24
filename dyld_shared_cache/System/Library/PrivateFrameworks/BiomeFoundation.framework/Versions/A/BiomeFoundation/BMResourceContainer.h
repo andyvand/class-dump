@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface BMResourceContainer
 {
     unsigned char _availabilityState;
-    NSURL *_url;
-    NSString *_personaIdentifier;
 }
 
 + (_Bool);
@@ -28,21 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char)ate:%s /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char availabilityState; // @synthesize availabilityState=_availabilityState;
 @property(readonly, nonatomic) unsigned char containerType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personaIdentifier; // @synthesize personaIdentifier=_personaIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

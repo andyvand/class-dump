@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingAudioCodecConfiguration, HMDCameraRecordingGeneralConfiguration, HMDCameraRecordingVideoCodecConfiguration, NSData;
+@class HMDCameraRecordingGeneralConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSelectedConfiguration
 {
     HMDCameraRecordingGeneralConfiguration *_generalConfiguration;
-    HMDCameraRecordingVideoCodecConfiguration *_videoConfiguration;
-    HMDCameraRecordingAudioCodecConfiguration *_audioConfiguration;
 }
 
 + (_Bool)p);xÈ;
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (_Bool);
 - (id);
@@ -27,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)LØ#½Ü&,\;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDCameraRecordingAudioCodecConfiguration *audioConfiguration; // @synthesize audioConfiguration=_audioConfiguration;
 @property(readonly, copy, nonatomic) HMDCameraRecordingGeneralConfiguration *generalConfiguration; // @synthesize generalConfiguration=_generalConfiguration;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDCameraRecordingVideoCodecConfiguration *videoConfiguration; // @synthesize videoConfiguration=_videoConfiguration;
 
 @end
 

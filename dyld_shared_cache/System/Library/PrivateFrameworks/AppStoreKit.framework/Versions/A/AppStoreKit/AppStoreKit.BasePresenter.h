@@ -7,20 +7,6 @@
 @interface AppStoreKit.BasePresenter
 {
     id pendingPageRender;
-    id pageRenderMetrics;
-    id isUpdating;
-    id metricsPage;
-    id metricsPipeline;
-    id pageContext;
-    id pageEnterGate;
-    id referrer;
-    id impressionsTracker;
-    id impressionsCalculator;
-    id objectGraph;
-    id advertRotationData;
-    id searchGhostHintData;
-    id impressionsAppendixData;
-    id deviceWindowData;
 }
 
 @end

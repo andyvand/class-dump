@@ -9,8 +9,6 @@
 @interface _RKResponse
 {
     NSString *_speechAct;
-    NSString *_headword;
-    NSString *_text;
 }
 
 - (id);
@@ -19,16 +17,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (unsigned long long)b(;
+- (_Bool)I;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *headword; // @synthesize headword=_headword;
 @property(readonly, copy) NSString *speechAct; // @synthesize speechAct=_speechAct;
-@property(readonly, copy) NSString *text; // @synthesize text=_text;
-@property(readonly) unsigned long long type;
 
 @end
 

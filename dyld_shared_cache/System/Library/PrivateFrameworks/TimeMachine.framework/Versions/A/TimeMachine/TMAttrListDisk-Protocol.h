@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol TMAttrListDisk
+- (NSString *)RECOVERY_KEY_REPAIR_ADP_VERIFY_RK_ACTION;
+- (struct fsid);
 
 // Remaining properties
-@property(readonly, copy) NSNumber *bytesFree;
-@property(readonly, copy) NSNumber *bytesUsed;
-@property(readonly, copy) NSNumber *capacity;
-@property(readonly, copy) NSString *deviceName;
-@property(readonly, copy) NSString *devicePath;
-@property(readonly, copy) NSString *filesystemTypeName;
-@property(readonly) struct fsid fsid;
-@property(readonly, copy) NSString *liveDiskDevicePath;
 @property(readonly) NSURL *mountPoint;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSNumber *quota;
-@property(readonly, copy) NSString *snapshotName;
-@property(readonly) unsigned long long traits;
-@property(readonly, copy) NSString *userVisibleName;
-@property(readonly, copy) NSString *volumeUUID;
 @end
 

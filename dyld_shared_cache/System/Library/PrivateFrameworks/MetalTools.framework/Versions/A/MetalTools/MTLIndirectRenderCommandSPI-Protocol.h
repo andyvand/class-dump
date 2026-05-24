@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _MTLIndirectDrawIndexedArguments;
+
 @protocol MTLIndirectRenderCommandSPI
+- (void);
+- (void)!;
+- (unsigned long long);
+- (_MTLIndirectDrawIndexedArguments *)A;
+- (void);
+
+@optional
+- (unsigned long long);
 @end
 

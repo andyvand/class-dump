@@ -4,45 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIActivityIndicatorView, UIButton, UIImageView, UILabel, UIView, _UISystemBackgroundView;
+@class UIImageView;
 
 @interface UIButtonConfigurationVisualProvider
 {
     UIImageView *_indicatorView;
-    UIActivityIndicatorView *_progressIndicatorView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    CDStruct_b8e46c6b _layoutData;
-    unsigned long long _accessibilityButtonShapesChangedToken;
-    UIView *_contentView;
-    double _downscale;
-    struct {
-        unsigned int needsUpdateConfiguration:1;
-        unsigned int fadeInAnimated:1;
-    } _flags;
-    UIImageView *_imageView;
-    _UISystemBackgroundView *_backgroundView;
-    _Bool _vendsBaselineInformationToAutoLayout;
-    _Bool _avoidDefaultTitleAndImageLayout;
-    UIButton *_button;
-    double _widthForMultilineTextLayout;
-    double _previousFirstBaselineOffsetForAttributeLowering;
-    double _previousLastBaselineOffsetForAttributeLowering;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)kMMCSRequestOptionMmeDataClass;
 + (_Bool);
 - (void);
 - (_Bool);
-- (CDStruct_b8e46c6b);
-- (CDStruct_b8e46c6b);
+- (CDStruct_19847cfa);
+- (CDStruct_19847cfa);
 - (void);
 - (id);
-- (_Bool);
-- (CDStruct_b8e46c6b);
-- (void);
+- (_Bool)ameters"b1"redownloadable"b1"accountIdentifier"b1"shouldReportPlayEvents"b1"subscriptionRequired"b1};
+- (CDStruct_19847cfa)scalingMode;
+- (void)hasVideos;
 - (id);
 - (void);
 - (void);
@@ -51,20 +32,20 @@
 - (_Bool);
 - (void)0@ù
 × ;
-- (_Bool)opAttributeConstant:(id)arg1;
-- (_Bool)EffectViewConstraintsIfNeeded;
-- (double)tPoint: /* Error: Ran out of types for this method. */;
-- (void)nsitionOverlayView;
+- (_Bool)updateTopAttributeConstant:(id)arg1;
+- (_Bool)removePathEffectViewConstraintsIfNeeded;
+- (double)endTrackingAtPoint: /* Error: Ran out of types for this method. */;
+- (void)_transitionOverlayView;
 - (void)upted;
 - (struct CGRect)"8@"NSNumber"16^B24;
 - (id)e only %ld items in section %ld. Collection view:%@. /* Error: Ran out of types for this method. */;
 - (id)on.;
 - (struct CGSize)erPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_4;
-- (void)ebugEnabled;
-- (double)tStyleExtraLight;
+- (void)BarCustomizationDebugEnabled;
+- (double)UIBlurEffectStyleExtraLight;
 - (id)rnalIvarStorageAllocation * _Nullable * _Nonnull, const NSUInteger);
 - (void)ert controller presenting as an alert must not have its delegate modified;
-- (void)dShadowOpacity;
+- (void)preferredShadowOpacity;
 - (struct CGSize);
 - (_Bool)ontroller cannot materialize after other state mutations have occurred ð¤;
 - (void);
@@ -73,19 +54,19 @@
 - (void);
 - (void)¬þ;
 - (void)`z¾7yn¦;
-- (id)_p;
+- (id)So12_UIAssertion_p;
 - (id)Aê¿7}03Iegnngd_;
 - (void):(id)arg1 path:/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (CDStruct_b8e46c6b)?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
+- (CDStruct_19847cfa)?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
 - (void);
-- (void)raitControlGlassStyle;
+- (void)_UITraitControlGlassStyle;
 - (void)h:(id)arg1 2h23g;
 - (double)·%;
 - (double);
 - (void)D33àþD33,þ;
 - (_Bool);
-- (_Bool)ratorState;
+- (_Bool)CompoundSpringIntegratorState;
 - (void)ð¢;
 - (void);
 - (void)á43¤tþ;
@@ -154,28 +135,7 @@ g;
 - (id)ÑÍ¬Øp;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidDefaultTitleAndImageLayout; // @synthesize avoidDefaultTitleAndImageLayout=_avoidDefaultTitleAndImageLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,V_avoidDefaultTitleAndImageLayout
-
-@property(nonatomic) UIButton *button; // @synthesize button=_button;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,N,V_button
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double focusSizeIncrease;
-@property(readonly, nonatomic) _Bool hasBaseline;
-@property(readonly, nonatomic) _Bool hasMultilineText;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) double previousFirstBaselineOffsetForAttributeLowering; // @synthesize previousFirstBaselineOffsetForAttributeLowering=_previousFirstBaselineOffsetForAttributeLowering;
-@property(nonatomic) double previousLastBaselineOffsetForAttributeLowering; // @synthesize previousLastBaselineOffsetForAttributeLowering=_previousLastBaselineOffsetForAttributeLowering;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool vendsBaselineInformationToAutoLayout; // @synthesize vendsBaselineInformationToAutoLayout=_vendsBaselineInformationToAutoLayout;
-@property(nonatomic) double widthForMultilineTextLayout; // @synthesize widthForMultilineTextLayout=_widthForMultilineTextLayout;
 
 @end
 

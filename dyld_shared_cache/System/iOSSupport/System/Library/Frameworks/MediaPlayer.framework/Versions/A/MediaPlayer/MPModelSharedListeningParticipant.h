@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (void);
++ (id);
++ (void)d data.;
 + (id);
 - (id);
 

@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPReachability, NSString;
-@protocol HLPReachabilityManagerDelegate;
-
 @interface HLPReachabilityManager
 {
     _Bool _notifying;
     _Bool _hostActive;
-    _Bool _reachabilityInitialized;
-    _Bool _connected;
-    _Bool _internetActive;
-    id <HLPReachabilityManagerDelegate> _delegate;
-    HLPReachability *_internetReachability;
-    HLPReachability *_hostReachability;
-    NSString *_hostName;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -36,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,11 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(nonatomic) __weak id <HLPReachabilityManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSString *hostName; // @synthesize hostName=_hostName;
-@property(retain, nonatomic) HLPReachability *hostReachability; // @synthesize hostReachability=_hostReachability;
-@property(nonatomic) _Bool internetActive; // @synthesize internetActive=_internetActive;
-@property(retain, nonatomic) HLPReachability *internetReachability; // @synthesize internetReachability=_internetReachability;
 @property(nonatomic) _Bool reachabilityInitialized; // @synthesize reachabilityInitialized=_reachabilityInitialized;
 
 @end

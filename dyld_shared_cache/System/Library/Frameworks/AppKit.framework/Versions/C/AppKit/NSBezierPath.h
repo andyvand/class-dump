@@ -7,23 +7,6 @@
 @interface NSBezierPath
 {
     double _lineWidth;
-    double _miterLimit;
-    double _flatness;
-    double *_dashedLinePattern;
-    unsigned long long _dashedLineCount;
-    double _dashedLinePhase;
-    struct CGPath *_cgPath;
-    struct {
-        unsigned long long _field1;
-        struct CGPoint _field2;
-        struct CGPoint _field3;
-        struct CGPoint _field4;
-    } *_localPathCache;
-    struct {
-        unsigned int _flags:8;
-        unsigned int _pathState:2;
-        unsigned int _unused:22;
-    } _bpFlags;
 }
 
 @end

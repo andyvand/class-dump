@@ -6,26 +6,12 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AKAppleIDAuthenticationContext, AMSBinaryPromise, AMSFinancePaymentSheetResponse, AMSMutablePromise, AMSPaymentSheetAssetCache, AMSPaymentSheetRequest, AMSPurchaseInfo, NSDictionary, NSMutableArray, NSString, PKPaymentAuthorizationController, _PaymentSheetState;
+@class AMSPaymentSheetAssetCache;
 @protocol AMSBagProtocol;
 
 @interface AMSPaymentSheetTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    NSDictionary *_metricsDictionary;
-    NSString *_presentingSceneBundleIdentifier;
-    NSString *_presentingSceneIdentifier;
-    id _presentingWindow;
-    AMSPurchaseInfo *_purchaseInfo;
-    AMSPaymentSheetAssetCache *_assetCache;
-    AKAppleIDAuthenticationContext *_authenticationContext;
-    PKPaymentAuthorizationController *_paymentAuthorizationController;
-    AMSMutablePromise *_paymentSheetPromise;
-    AMSFinancePaymentSheetResponse *_paymentSheetResponse;
-    AMSPaymentSheetRequest *_request;
-    _PaymentSheetState *_state;
-    NSMutableArray *_userActions;
-    AMSBinaryPromise *_initialBiometricsAvailability;
 }
 
 + (_Bool);
@@ -34,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -75,18 +61,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)earchableIndex",&,N,V_searchableIndex;
 - (id);
 - (void);
+- (id)_resetSessionsAtNextRequestBoundary;
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)A;
 - (void);
-- (id)ent:(id)arg1 serviceType:(id)arg2;
+- (id);
+- (_Bool)AppConnectionServerEndpointLost;
+- (void);
+- (id)engagement:(id)arg1 didUpdateRequest:(id)arg2 placement:serviceType: /* Error: Ran out of types for this method. */;
 - (void)ãíIJò¾ñDZÃÿW4ád£¦ìLÅâ÷8J<~E¾9¹L¸Ä¸@êÈ¼csûQ°å¥ß?÷À#B{dbëÍ3vtÅM½¸¹ÏCöÅ¬>~ëäPµ¤P@
 y´±R£æz®ÞÁé%]X©¹Íûr1ÿÉvßç!¢ÄfxAµ´Ýþúw¾ÌùY\$¨¼BØZ|¥®8;üóÇHùGã³0¤^áûX#@ýöH~	M¤[óÙ¯=´"àþ×_EFlø²5+êË
 ?·MMm|±0ÇöËÖ¶"¿Òlpt.Ïi1ly>LÂyÊ	ë>²Âqq¡mÊæ·×Ê#º]6ÑcK%>$wõØìNÌüj86»°jýGÍF;
@@ -96,27 +82,6 @@
 
 // Remaining properties
 @property(retain) AMSPaymentSheetAssetCache *assetCache; // @synthesize assetCache=_assetCache;
-@property(retain, nonatomic) AKAppleIDAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSBinaryPromise *initialBiometricsAvailability; // @synthesize initialBiometricsAvailability=_initialBiometricsAvailability;
-@property(retain) NSDictionary *metricsDictionary; // @synthesize metricsDictionary=_metricsDictionary;
-@property(retain) PKPaymentAuthorizationController *paymentAuthorizationController; // @synthesize paymentAuthorizationController=_paymentAuthorizationController;
-@property(retain) AMSMutablePromise *paymentSheetPromise; // @synthesize paymentSheetPromise=_paymentSheetPromise;
-@property(readonly) AMSFinancePaymentSheetResponse *paymentSheetResponse; // @synthesize paymentSheetResponse=_paymentSheetResponse;
-@property(copy) NSString *presentingSceneBundleIdentifier; // @synthesize presentingSceneBundleIdentifier=_presentingSceneBundleIdentifier;
-@property(copy) NSString *presentingSceneIdentifier; // @synthesize presentingSceneIdentifier=_presentingSceneIdentifier;
-@property(retain) id presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(retain) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
-@property(readonly) AMSPaymentSheetRequest *request; // @synthesize request=_request;
-@property(retain) _PaymentSheetState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *userActions; // @synthesize userActions=_userActions;
 
 @end
 

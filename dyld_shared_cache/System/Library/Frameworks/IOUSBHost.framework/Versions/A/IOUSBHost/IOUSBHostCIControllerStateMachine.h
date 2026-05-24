@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostControllerInterface;
-
 @interface IOUSBHostCIControllerStateMachine
 {
     int _controllerState;
-    IOUSBHostControllerInterface *_controllerInterface;
-    unsigned long long _lastFrameNumber;
-    unsigned long long _lastFrameTimestamp;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)d;
+- (void)CFDictionaryRef;
+- (_Bool)ClipHorizontalSize;
+- (_Bool)ClipCCFlag;
+- (_Bool)ClipTSRecordingRate;
+- (unsigned long long)ClipEndPTS;
 - (_Bool);
+- (id)ail.tdt2;
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (int);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IOUSBHostControllerInterface *controllerInterface; // @synthesize controllerInterface=_controllerInterface;
 @property(nonatomic) int controllerState; // @synthesize controllerState=_controllerState;
-@property(nonatomic) unsigned long long lastFrameNumber; // @synthesize lastFrameNumber=_lastFrameNumber;
-@property(nonatomic) unsigned long long lastFrameTimestamp; // @synthesize lastFrameTimestamp=_lastFrameTimestamp;
 
 @end
 

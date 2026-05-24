@@ -9,10 +9,11 @@
     struct CLCallbackAssertionInternal *fInternal;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (void);
+- (void)eIO OOP %s (%s)
+;
 - (void);
 
 @end

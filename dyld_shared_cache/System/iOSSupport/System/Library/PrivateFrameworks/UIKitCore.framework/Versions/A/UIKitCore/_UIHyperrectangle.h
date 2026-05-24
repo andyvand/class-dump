@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHyperrectangle
 {
     double *__maximumPoint;
-    double *__minimumPoint;
-    unsigned long long __dimensions;
 }
 
-+ (id)retBeforeTap: /* Error: Ran out of types for this method. */;
++ (id)setCaretBeforeTap: /* Error: Ran out of types for this method. */;
 + (_Bool)-code;
+- (void)all incompatibleMessagesForDeletion, set version (%ld) current version (%d);
+- (void)st to determine if we should mark all incompatibleMessagesForDeletion, set version (%ld) current version (%d);
+- (const double *)is not available, subscriptionValidationTokenForHandle:completion: /* Error: Ran out of types for this method. */;
+- (const double *)@:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (const double *);
-- (const double *);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void)escriptor:(id)arg1;
-- (id)nwrapIfPossible;
+- (_Bool)topLevelObject;
+- (void)setCurrentEffectDescriptor:(id)arg1;
+- (id)_backing_unwrapIfPossible;
 - (id);
 - (void)iew. Collection View:(double *)arg1 %@, Attributes:(const double *)arg2 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) const double *_maximumPoint;
 @property(readonly, nonatomic) const double *_minimumPoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

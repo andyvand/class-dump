@@ -8,8 +8,8 @@
 {
 }
 
-- (double);
-- (id);
+- (double)ler;
+- (id)=;
 - (double);
 
 @end

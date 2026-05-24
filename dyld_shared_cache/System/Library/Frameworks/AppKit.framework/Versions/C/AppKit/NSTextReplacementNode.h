@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTextReplacementNode
 {
     NSString *curString;
-    NSString *replacementString;
-    unsigned long long replacementFlags;
-    NSTextReplacementNode *children[28];
 }
 
 - (void);

@@ -6,25 +6,20 @@
 
 #import <AccessibilityVisuals/AXVWindow.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary;
 
 @interface AXVStickyKeysOverlayWindow : AXVWindow
 {
     _Bool _alwaysHidden;
-    unsigned long long _windowLocation;
-    NSDictionary *__modifierKeyViews;
-    NSMutableArray *__visibleModifierKeyViews;
-    NSMutableDictionary *__nonExpandingHorizontalEdgeConstraints;
-    NSMutableDictionary *__expandingHorizontalEdgeConstraints;
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)	;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))	;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -52,12 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_expandingHorizontalEdgeConstraints; // @synthesize _expandingHorizontalEdgeConstraints=__expandingHorizontalEdgeConstraints;
 @property(readonly, nonatomic) NSDictionary *_modifierKeyViews; // @synthesize _modifierKeyViews=__modifierKeyViews;
-@property(readonly, nonatomic) NSMutableDictionary *_nonExpandingHorizontalEdgeConstraints; // @synthesize _nonExpandingHorizontalEdgeConstraints=__nonExpandingHorizontalEdgeConstraints;
-@property(readonly, nonatomic) NSMutableArray *_visibleModifierKeyViews; // @synthesize _visibleModifierKeyViews=__visibleModifierKeyViews;
-@property(nonatomic) _Bool alwaysHidden; // @synthesize alwaysHidden=_alwaysHidden;
-@property(nonatomic) unsigned long long windowLocation; // @synthesize windowLocation=_windowLocation;
 
 @end
 

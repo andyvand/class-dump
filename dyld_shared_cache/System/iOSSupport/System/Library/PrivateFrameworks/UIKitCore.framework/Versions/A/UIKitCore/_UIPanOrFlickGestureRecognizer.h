@@ -6,34 +6,18 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class UIDelayedAction;
-@protocol _UIPanOrFlickGestureRecognizerDelegate;
-
 @interface _UIPanOrFlickGestureRecognizer : UIPanGestureRecognizer
 {
     unsigned long long _touchCount;
-    _Bool _didLongPress;
-    _Bool _longPressOnly;
-    unsigned long long _allowedFlickDirections;
-    double _maximumFlickDuration;
-    double _minimumFlickDistance;
-    double _minimumPressDuration;
-    double _allowableMovement;
-    double _responsivenessDelay;
-    double _timestampBeforeGestureBegan;
-    double _timestampOfLastEvent;
-    UIDelayedAction *_elapsedAction;
-    UIDelayedAction *_responsivenessAction;
-    struct CGPoint _initialCentroidLocation;
 }
 
 - (void);
 - (void);
 - (id)]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24r*28i36r*40i48B52;
-- (void)shedObjectWithName:(id)arg1;
-- (void)al;
-- (void)SizeMenus;
-- (void)SizeChange:(double)arg1 withVisibleHeight:pinningEdge: /* Error: Ran out of types for this method. */;
+- (void)publishedObjectWithName:(id)arg1;
+- (void)_typingSlowInterval;
+- (void)_enableShadowsForStandardSizeMenus;
+- (void)_centerRect:(double)arg1 forSizeChange:withVisibleHeight:pinningEdge: /* Error: Ran out of types for this method. */;
 - (double)ÑXÑ|ãäàñXò\óÐó öôöX÷ øÐùLú;
 - (_Bool)s immediate attention.;
 - (double)hes, %p
@@ -42,7 +26,7 @@
 - (void);
 - (id)üÏîÿÏþÿ;
 - (void)Äçîÿ;
-- (void);
+- (void)animationCurve;
 - (void)e.uikit.%@ %p;
 - (void)%d
 ;
@@ -72,21 +56,7 @@
 - (void)%À;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(nonatomic) unsigned long long allowedFlickDirections; // @synthesize allowedFlickDirections=_allowedFlickDirections;
-@property(readonly, nonatomic) _Bool didLongPress; // @synthesize didLongPress=_didLongPress;
-@property(retain, nonatomic) UIDelayedAction *elapsedAction; // @synthesize elapsedAction=_elapsedAction;
-@property(nonatomic) struct CGPoint initialCentroidLocation; // @synthesize initialCentroidLocation=_initialCentroidLocation;
-@property(nonatomic) _Bool longPressOnly; // @synthesize longPressOnly=_longPressOnly;
-@property(nonatomic) double maximumFlickDuration; // @synthesize maximumFlickDuration=_maximumFlickDuration;
-@property(nonatomic) double minimumFlickDistance; // @synthesize minimumFlickDistance=_minimumFlickDistance;
-@property(nonatomic) double minimumPressDuration; // @synthesize minimumPressDuration=_minimumPressDuration;
-@property(readonly, nonatomic) id <_UIPanOrFlickGestureRecognizerDelegate> panOrFlickDelegate;
-@property(readonly, nonatomic) unsigned long long recognizedFlickDirection;
-@property(retain, nonatomic) UIDelayedAction *responsivenessAction; // @synthesize responsivenessAction=_responsivenessAction;
-@property(nonatomic) double responsivenessDelay; // @synthesize responsivenessDelay=_responsivenessDelay;
 @property(nonatomic) double timestampBeforeGestureBegan; // @synthesize timestampBeforeGestureBegan=_timestampBeforeGestureBegan;
-@property(nonatomic) double timestampOfLastEvent; // @synthesize timestampOfLastEvent=_timestampOfLastEvent;
 
 @end
 

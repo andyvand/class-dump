@@ -10,23 +10,18 @@
 @interface PPXPCClientPipelinedBatchQueryContext
 {
     _Bool _stop;
-    CDUnknownBlockType _finalizeCall;
-    struct atomic_flag _calledFinalizeBlock;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handleBatch;
 }
 
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handleBatch; // @synthesize handleBatch=_handleBatch;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

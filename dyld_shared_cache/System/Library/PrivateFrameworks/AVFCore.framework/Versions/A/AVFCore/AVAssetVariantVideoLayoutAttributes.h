@@ -20,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long packingType;
-@property(readonly, nonatomic) unsigned long long projectionType;
-@property(readonly, nonatomic) unsigned long long stereoViewComponents;
 
 @end
 

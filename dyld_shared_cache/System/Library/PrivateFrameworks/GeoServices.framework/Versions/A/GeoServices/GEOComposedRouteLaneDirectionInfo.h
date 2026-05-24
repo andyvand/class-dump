@@ -7,21 +7,19 @@
 @interface GEOComposedRouteLaneDirectionInfo
 {
     int _direction;
-    float _angle;
 }
 
 + (_Bool)source:%{public}@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id)fallbackLibraryFolder;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (float)'Ð!dEùñ¹*°1Â0@ù
 × ;
-- (int)REQUEST_COUNT;
+- (int)MSL_CATEGORY_TRIGGER_PHRASE_REQUEST_COUNT;
 
 // Remaining properties
-@property(readonly, nonatomic) float angle;
 @property(readonly, nonatomic) int direction;
 
 @end

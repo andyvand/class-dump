@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMAttributableContent;
-
 @interface IMPersistentMenuItem
 {
     long long type;
-    id <IMAttributableContent> content;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)y.received.payment-request.locked;
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (id)essResourceByConsumingSandboxExtensionWithBlock: /* Error: Ran out of types for this method. */;
+- (id)n;
+- (id)accessResourceByConsumingSandboxExtensionWithBlock: /* Error: Ran out of types for this method. */;
 - (void)Ùÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMAttributableContent> content; // @synthesize content;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

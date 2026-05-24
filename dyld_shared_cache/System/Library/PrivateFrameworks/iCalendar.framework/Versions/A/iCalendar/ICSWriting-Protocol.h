@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol ICSWriting
+- (NSSet *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *propertiesToExcludeForChecksum;

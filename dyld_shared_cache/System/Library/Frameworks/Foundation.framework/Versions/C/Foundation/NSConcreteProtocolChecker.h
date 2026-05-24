@@ -6,18 +6,17 @@
 
 #import <Foundation/NSProtocolChecker.h>
 
-@class NSObject, Protocol;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NSConcreteProtocolChecker : NSProtocolChecker
 {
     NSObject *_target;
-    Protocol *_protocol;
 }
 
 - (id);
 - (void);
-- (id)uteKey:(id)arg1 fromElement:(id)arg2;
+- (id)_booleanValueForCocoaAttributeKey:(id)arg1 fromElement:(id)arg2;
 - (id);
 
 @end

@@ -7,22 +7,16 @@
 @interface UARPStats
 {
     unsigned int _packetsNoVersionAgreement;
-    unsigned int _packetsMissed;
-    unsigned int _packetsDuplicate;
-    unsigned int _packetsOutOfOrder;
 }
 
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)};
 - (unsigned int);
 - (id);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int packetsDuplicate; // @synthesize packetsDuplicate=_packetsDuplicate;
-@property(readonly) unsigned int packetsMissed; // @synthesize packetsMissed=_packetsMissed;
 @property(readonly) unsigned int packetsNoVersionAgreement; // @synthesize packetsNoVersionAgreement=_packetsNoVersionAgreement;
-@property(readonly) unsigned int packetsOutOfOrder; // @synthesize packetsOutOfOrder=_packetsOutOfOrder;
 
 @end
 

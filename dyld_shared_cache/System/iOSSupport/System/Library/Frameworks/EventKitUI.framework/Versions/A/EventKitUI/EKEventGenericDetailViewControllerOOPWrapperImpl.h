@@ -4,87 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKUIEmailCompositionManager, EKUIEventStatusButtonsView, EventKitUI.EKEventGenericDetailViewControllerOOPImpl, NSArray, NSString, SingleToolbarItemContainerView, UIColor;
-@protocol EKEditItemViewControllerDelegate;
+@class EventKitUI.EKEventGenericDetailViewControllerOOPImpl, NSString;
 
 @interface EKEventGenericDetailViewControllerOOPWrapperImpl
 {
     NSString *_viewID;
-    EKEvent *_event;
-    EKUIEventStatusButtonsView *_statusButtonsView;
-    SingleToolbarItemContainerView *_statusButtonsContainerView;
-    double _statusButtonsViewCachedFontSize;
-    NSArray *_leftBarButtonActions;
-    NSArray *_leftBarButtonItems;
-    NSArray *_rightBarButtonActions;
-    NSArray *_rightBarButtonItems;
-    NSArray *_bottomStatusButtonActions;
-    EventKitUI.EKEventGenericDetailViewControllerOOPImpl *_vc;
-    EKUIEmailCompositionManager *_messageSendingManager;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)s;
+- (void)ؒ&s;
+- (void)s;
+- (void)s;
+- (id)Y%s;
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)%s;
 - (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)&s;
+- (void);
+- (void)9&s;
+- (id)s;
+- (void)s;
+- (id)%&s;
+- (id)$&s;
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (void)iew: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGSize)NSObject;
+- (void)setGestureOccurrenceSuperview: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bottomStatusButtonActions; // @synthesize bottomStatusButtonActions=_bottomStatusButtonActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *leftBarButtonActions; // @synthesize leftBarButtonActions=_leftBarButtonActions;
-@property(retain, nonatomic) NSArray *leftBarButtonItems; // @synthesize leftBarButtonItems=_leftBarButtonItems;
-@property(retain, nonatomic) EKUIEmailCompositionManager *messageSendingManager; // @synthesize messageSendingManager=_messageSendingManager;
-@property(retain, nonatomic) UIColor *oopContentBackgroundColor;
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) NSArray *rightBarButtonActions; // @synthesize rightBarButtonActions=_rightBarButtonActions;
-@property(retain, nonatomic) NSArray *rightBarButtonItems; // @synthesize rightBarButtonItems=_rightBarButtonItems;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(retain, nonatomic) EventKitUI.EKEventGenericDetailViewControllerOOPImpl *vc; // @synthesize vc=_vc;
 
 @end

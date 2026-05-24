@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMThreadSafeBalloonPluginMap
 {
     unsigned long long _pluginCount;
-    NSObject<OS_dispatch_queue> *_dataQueue;
-    NSMutableDictionary *_map;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)gC;
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,18 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)n];
 - (void)
 × ;
 - (void)D;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allIdentifiers;
-@property(readonly, nonatomic) NSArray *allPlugins;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dataQueue; // @synthesize dataQueue=_dataQueue;
-@property(readonly, nonatomic) NSDictionary *dictionaryMapCopy;
-@property(retain, nonatomic) NSMutableDictionary *map; // @synthesize map=_map;
-@property(readonly, nonatomic) unsigned long long pluginCount; // @synthesize pluginCount=_pluginCount;
 
 @end
 

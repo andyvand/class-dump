@@ -8,13 +8,6 @@
 {
     id liveActivityController;
     id activityDefinitionLoader;
-    id liveActivitiesEnabled;
-    id scheduledLiveActivityFactory;
-    id staleActivityTaskScheduler;
-    id observerManager;
-    id activities;
-    id activityReconciler;
-    id loadActivities;
 }
 
 @end

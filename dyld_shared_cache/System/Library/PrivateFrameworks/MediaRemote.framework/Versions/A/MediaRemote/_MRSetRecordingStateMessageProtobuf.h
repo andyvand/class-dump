@@ -7,14 +7,13 @@
 @interface _MRSetRecordingStateMessageProtobuf
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,13 +21,12 @@
 - (void);
 - (int);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)verride selector sent to %p;
+- (id)SURL=#@@^v^v};
 
 // Remaining properties
 @property(nonatomic) _Bool hasState;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

@@ -7,10 +7,9 @@
 @class NSData;
 
 @protocol _SFPBRFAspectRatio
+- (NSData *)ringMode;
 
 // Remaining properties
-@property(nonatomic) float height;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float width;
 @end
 

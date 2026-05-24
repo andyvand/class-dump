@@ -4,7 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CWFRequestParameters;
+
 @protocol CWFXPCRequestProtocolCoreWLAN
-- (void)UpdateEventPredicateData;
+- (void);
+- (void)__swift5_reflstr__TEXT;
+- (void);
+- (void)nPresentationContext";
+- (void)n, max) VALUES (%lf, %lf, %lf, %lf, %lf, %lf, %lf) ;
+- (void);
+- (void)_aa_setPrimaryEmail:(CWFRequestParameters *)arg1;
+- (void);
+- (void);
+- (void)*J;
+- (void)e.GameController.Daemon;
+- (void);
+- (void)__TEXT;
+- (void)& body_len > 0" -> %llu;
+- (void)FD:(CWFRequestParameters *)arg1 opened resource file
+;
+- (void)Sources/libressl/libressl-2.8/crypto/ts/ts_rsp_verify.c;
+- (void)ect Information Access;
+- (void)wifiNetworkSharingNetworkListUpdateEventPredicateData;
 @end
 

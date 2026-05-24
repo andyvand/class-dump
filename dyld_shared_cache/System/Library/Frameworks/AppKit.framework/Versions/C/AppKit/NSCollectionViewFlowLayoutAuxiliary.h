@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NSCollectionViewFlowLayoutAuxiliary
 {
     NSMutableDictionary *_cachedItemAttributes;
-    NSMutableDictionary *_cachedItemFrames;
 }
 
 - (void);
-- (id);
+- (id)'%{private}@' cannot create URL;
 - (id);
 - (id);
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSMutableDictionary *cachedItemAttributes; // @synthesize cachedItemAttributes=_cachedItemAttributes;
-@property(retain) NSMutableDictionary *cachedItemFrames; // @synthesize cachedItemFrames=_cachedItemFrames;
 
 @end
 

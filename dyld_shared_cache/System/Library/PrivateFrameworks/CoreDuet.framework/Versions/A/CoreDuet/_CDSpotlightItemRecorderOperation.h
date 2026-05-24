@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _CDSpotlightItemRecorderOperation
 {
     NSArray *_items;
-    NSString *_bundleID;
-    long long _type;
 }
 
 - (void)ñ©3ð1Â0@ù

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MTL4PipelineStageDynamicLinkingDescriptor
 {
     unsigned long long _maxCallStackDepth;
-    NSArray *_binaryLinkedFunctions;
-    NSArray *_preloadedLibraries;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *binaryLinkedFunctions; // @synthesize binaryLinkedFunctions=_binaryLinkedFunctions;
 @property(nonatomic) unsigned long long maxCallStackDepth; // @synthesize maxCallStackDepth=_maxCallStackDepth;
-@property(copy, nonatomic) NSArray *preloadedLibraries; // @synthesize preloadedLibraries=_preloadedLibraries;
 
 @end
 

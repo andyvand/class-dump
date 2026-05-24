@@ -4,42 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSImage, NSMutableArray, NSMutableDictionary, NSObject, NSTextStorage, PDFAccessibilityEffectLayer, PDFAnnotation, PDFHighlightDetectedFormFieldsEffectLayer, PDFOCREffectLayer, PDFPage, PDFPageLayerEffect, PDFPageViewAnnotationController, PDFRenderingProperties, PDFTextPreciseBoundingBoxesEffectLayer, PDFTextSelectionBoundingBoxesEffectLayer;
-@protocol PDFPageLayerGeometryInterface, PDFPageLayerInterface;
+@class NSObject;
+@protocol PDFPageLayerGeometryInterface;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageViewPrivate
 {
     NSObject<PDFPageLayerGeometryInterface> *geometryInterface;
-    PDFRenderingProperties *renderingProperties;
-    PDFPage *page;
-    CALayer<PDFPageLayerInterface> *pageLayer;
-    id scrollViewObservation;
-    PDFPageLayerEffect *searchLayer;
-    NSMutableArray *pageAnnotationEffects;
-    PDFAnnotation *activeAnnotation;
-    NSMutableDictionary *activeControls;
-    NSTextStorage *activeTextStorage;
-    NSMutableArray *pageSignatures;
-    PDFPageViewAnnotationController *annotationController;
-    CALayer *backgroundLayer;
-    NSImage *backgroundImage;
-    int backgroundQuality;
-    struct os_unfair_lock_s backgroundImageLock;
-    unsigned long long visibilityDelegateIndex;
-    _Bool isPerformingUndo;
-    CALayer *bookmarkLayer;
-    struct CGSize bookmarkSize;
-    PDFHighlightDetectedFormFieldsEffectLayer *detectedFormFieldBoundingBoxesLayer;
-    PDFPageLayerEffect *pdfResultLayer;
-    PDFPageLayerEffect *selectionLayer;
-    PDFAccessibilityEffectLayer *accessibilityLayer;
-    PDFTextPreciseBoundingBoxesEffectLayer *textPreciseBoundingBoxesLayer;
-    PDFTextSelectionBoundingBoxesEffectLayer *textSelectionBoundingBoxesLayer;
-    PDFOCREffectLayer *ocrEffectLayer;
-    _Bool isDetachedView;
-    _Bool hasDrawnTables;
-    NSMutableDictionary *toolTipTags;
 }
 
 - (void);

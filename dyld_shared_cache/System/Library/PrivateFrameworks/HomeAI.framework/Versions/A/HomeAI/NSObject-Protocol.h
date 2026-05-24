@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
+- (oneway void);
+- (_Bool)D;
+- (_Bool)	;
+- (_Bool)@) State Changed (Paired:(Protocol *)arg1 %{public}@, State:%{public}@) /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)print:%@, Average:%@, Peak:%@ /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

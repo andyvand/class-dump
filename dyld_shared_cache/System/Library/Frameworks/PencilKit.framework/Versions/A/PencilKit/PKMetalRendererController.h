@@ -4,75 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer, NSArray, NSMutableArray, NSObject, NSString, PKLinedPaper, PKMetalConfig, PKMetalRenderer, PKStrokeGenerator;
-@protocol CAMetalDrawable, MTLCommandQueue, MTLDevice, MTLTexture, OS_dispatch_queue, OS_dispatch_semaphore, PKMetalRendererControllerDelegate;
+@class PKMetalConfig, PKMetalRenderer;
 
 @interface PKMetalRendererController
 {
     PKMetalConfig *_metalConfig;
-    _Bool _synchronous;
-    NSObject<OS_dispatch_queue> *_renderQueue;
-    _Atomic int _cancelLongRunningRenderingCount;
-    _Atomic int _cancelAllRendering;
-    NSObject<OS_dispatch_semaphore> *_canBeginRenderSemaphore;
-    struct atomic_flag _readyToBeginRender;
-    _Atomic double _lastFrameDuration;
-    _Atomic unsigned long long _lastPresentationTime;
-    _Bool _vSyncControllerIsActive;
-    _Atomic int _queuedRenders;
-    NSMutableArray *_postPresentCallbacks;
-    _Bool _isTorndown;
-    struct CGSize _pixelSize;
-    struct CGSize _actualSize;
-    long long _presentationCount;
-    struct PKRunningStat _strokeLatencyStat;
-    struct PKRunningStat _predictedTouchesLatencyStat;
-    id <MTLTexture> _currentTextureTarget;
-    id <CAMetalDrawable> _currentDrawable;
-    id <MTLTexture> _currentMultiplyTextureTarget;
-    id <CAMetalDrawable> _currentMultiplyDrawable;
-    struct CGImage *_paperTextureImage;
-    struct CGPoint _canvasOffset;
-    struct CGAffineTransform _strokeTransformForRenderQueue;
-    CDUnknownBlockType _canvasOffsetBlock;
-    NSArray *_liveStrokeStrokes;
-    struct CGRect _liveStrokeStrokesAnimationBounds;
-    _Bool _dirtyRectMightBeInvalid;
-    _Bool _renderingForPreview;
-    NSString *_currentInkIdentifier;
-    double _timestampForDrawingBegan;
-    NSObject<OS_dispatch_semaphore> *_updateCycleSemaphore;
-    _Bool _isPDFCanvasForAnalytics;
-    unsigned long long _extendedRangePixelFormat;
-    _Bool _sixChannelUsesWideGamut;
-    _Bool _liveStrokeMode;
-    _Bool _fadeOutStrokesMode;
-    _Bool _invertColors;
-    _Bool _wantsExtendedDynamicRangeContent;
-    _Bool _drawBitmapEraserMask;
-    _Bool _combineStrokesAllowed;
-    _Bool _allowBrushIndicator;
-    id <PKMetalRendererControllerDelegate> _delegate;
-    unsigned long long _pixelFormat;
-    unsigned long long _sixChannelMetalLayerPixelFormat;
-    double _contentZoomScale;
-    PKStrokeGenerator *_inputController;
-    PKLinedPaper *_linedPaper;
-    double _liveStrokeElapsedTime;
-    double _liveStrokeDuration;
-    double __latestLatency;
-    CAMetalLayer *_presentationLayer;
-    CAMetalLayer *_multiplyPresentationLayer;
-    long long _sixChannelBlendingMode;
-    unsigned long long _previewStrokeMaxPoints;
-    double _previewStrokeAlpha;
-    PKMetalRenderer *_renderer;
-    double _inputScale;
-    struct CGSize _liveStrokeMaxSize;
-    struct CGRect _viewScissor;
-    struct CGAffineTransform _strokeTransform;
-    struct CGAffineTransform _paperTransform;
-    struct CGAffineTransform _renderTransform;
 }
 
 - (struct CGRect);
@@ -104,6 +40,7 @@
 - (void);
 - (void);
 - (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -116,8 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct CGImage *);
 - (void);
 - (id);
@@ -129,10 +65,10 @@
 - (_Bool);
 - (void);
 - (struct CGAffineTransform);
-- (struct CGImage *);
+- (struct CGImage *);
 - (struct CGImage *);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (double);
@@ -147,7 +83,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -175,7 +111,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -193,66 +129,30 @@
 - (void);
 - (struct CGAffineTransform);
 - (_Bool);
-- (void);
-- (void);
+- (void)2@0:(_Bool)arg1 8q16@24;
+- (void)setPasskeyEndpointsDateLastRefreshed:(id)arg1;
+- (id)_hasValidWebsite;
+- (void)test_isLegacyCredential;
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)_secondary_title;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (struct CGSize);
 - (double);
-- (void);
+- (void)}C;
 - (unsigned long long)_ptr<PKProtobufUnknownFields>=^{PKProtobufUnknownFields}^{__shared_weak_count}}96;
 - (id)IJK;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) double _latestLatency; // @synthesize _latestLatency=__latestLatency;
-@property(readonly, nonatomic) unsigned long long activePixelFormat;
-@property(readonly, nonatomic) struct CGSize actualSize; // @synthesize actualSize=_actualSize;
-@property(nonatomic) _Bool allowBrushIndicator; // @synthesize allowBrushIndicator=_allowBrushIndicator;
-@property(nonatomic) double backboardPaperMultiply;
-@property(nonatomic) _Bool combineStrokesAllowed; // @synthesize combineStrokesAllowed=_combineStrokesAllowed;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(nonatomic) double contentZoomScale; // @synthesize contentZoomScale=_contentZoomScale;
-@property(nonatomic) __weak id <PKMetalRendererControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(nonatomic) _Bool drawBitmapEraserMask; // @synthesize drawBitmapEraserMask=_drawBitmapEraserMask;
-@property(nonatomic) _Bool fadeOutStrokesMode; // @synthesize fadeOutStrokesMode=_fadeOutStrokesMode;
-@property(readonly, nonatomic) PKStrokeGenerator *inputController; // @synthesize inputController=_inputController;
-@property double inputScale; // @synthesize inputScale=_inputScale;
-@property(nonatomic) _Bool invertColors; // @synthesize invertColors=_invertColors;
-@property(nonatomic) _Bool isPDFCanvasForAnalytics;
-@property(retain, nonatomic) PKLinedPaper *linedPaper; // @synthesize linedPaper=_linedPaper;
-@property(nonatomic) double liveStrokeDuration; // @synthesize liveStrokeDuration=_liveStrokeDuration;
-@property(nonatomic) double liveStrokeElapsedTime; // @synthesize liveStrokeElapsedTime=_liveStrokeElapsedTime;
-@property(nonatomic) struct CGSize liveStrokeMaxSize; // @synthesize liveStrokeMaxSize=_liveStrokeMaxSize;
-@property(nonatomic) _Bool liveStrokeMode; // @synthesize liveStrokeMode=_liveStrokeMode;
-@property(nonatomic) __weak CAMetalLayer *multiplyPresentationLayer; // @synthesize multiplyPresentationLayer=_multiplyPresentationLayer;
-@property(nonatomic) struct CGAffineTransform paperTransform; // @synthesize paperTransform=_paperTransform;
-@property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=_pixelSize;
-@property(nonatomic) __weak CAMetalLayer *presentationLayer; // @synthesize presentationLayer=_presentationLayer;
-@property(nonatomic) double previewStrokeAlpha; // @synthesize previewStrokeAlpha=_previewStrokeAlpha;
-@property(nonatomic) unsigned long long previewStrokeMaxPoints; // @synthesize previewStrokeMaxPoints=_previewStrokeMaxPoints;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *renderQueue; // @synthesize renderQueue=_renderQueue;
-@property struct CGAffineTransform renderTransform; // @synthesize renderTransform=_renderTransform;
 @property(retain, nonatomic) PKMetalRenderer *renderer; // @synthesize renderer=_renderer;
-@property(nonatomic) long long sixChannelBlendingMode; // @synthesize sixChannelBlendingMode=_sixChannelBlendingMode;
-@property(readonly, nonatomic) unsigned long long sixChannelMetalLayerPixelFormat; // @synthesize sixChannelMetalLayerPixelFormat=_sixChannelMetalLayerPixelFormat;
-@property(readonly, nonatomic) _Bool sixChannelUsesWideGamut; // @synthesize sixChannelUsesWideGamut=_sixChannelUsesWideGamut;
-@property(nonatomic) struct CGAffineTransform strokeTransform; // @synthesize strokeTransform=_strokeTransform;
-@property(nonatomic) struct CGRect viewScissor; // @synthesize viewScissor=_viewScissor;
-@property(nonatomic) _Bool wantsExtendedDynamicRangeContent; // @synthesize wantsExtendedDynamicRangeContent=_wantsExtendedDynamicRangeContent;
 
 @end
 

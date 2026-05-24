@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
-
 @interface SFSearchSuggestion
 {
     struct {
@@ -13,20 +11,6 @@
         unsigned int type:1;
         unsigned int previouslyEngaged:1;
     } _has;
-    _Bool _previouslyEngaged;
-    int _type;
-    NSString *_identifier;
-    NSString *_suggestion;
-    NSString *_query;
-    double _score;
-    NSArray *_duplicateSuggestions;
-    NSString *_topicIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_fbr;
-    NSString *_scopedSearchApplicationBundleIdentifier;
-    NSString *_utteranceText;
-    NSString *_detailText;
-    NSMutableDictionary *_serverFeatures;
 }
 
 + (_Bool);

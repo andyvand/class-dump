@@ -7,14 +7,9 @@
 @interface BMPBMindfulnessSessionEvent
 {
     int _sessionType;
-    int _stateType;
-    struct {
-        unsigned int sessionType:1;
-        unsigned int stateType:1;
-    } _has;
 }
 
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
@@ -24,13 +19,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (int);
-- (void);
+- (void)64@0:(id)arg1 8{CGAffineTransform=dddddd}16;
 - (id);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (void);
 - (void)ing of private streams in directory:(_Bool)arg1 %{public}@ due to deferral;
@@ -38,9 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSessionType;
-@property(nonatomic) _Bool hasStateType;
-@property(nonatomic) int sessionType; // @synthesize sessionType=_sessionType;
-@property(nonatomic) int stateType; // @synthesize stateType=_stateType;
 
 @end
 

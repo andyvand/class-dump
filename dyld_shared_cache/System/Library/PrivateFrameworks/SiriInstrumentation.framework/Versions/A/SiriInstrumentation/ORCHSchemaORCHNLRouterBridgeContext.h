@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHNLRouterBridgeEnded, ORCHSchemaORCHNLRouterBridgeFailed, ORCHSchemaORCHNLRouterBridgeStarted, SISchemaUUID;
+@class ORCHSchemaORCHNLRouterBridgeStarted;
 
 @interface ORCHSchemaORCHNLRouterBridgeContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHNLRouterBridgeStarted *_startedOrChanged;
-    ORCHSchemaORCHNLRouterBridgeEnded *_ended;
-    ORCHSchemaORCHNLRouterBridgeFailed *_failed;
-    SISchemaUUID *_trpId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTrpId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -26,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (void);
 - (void);
@@ -47,24 +39,15 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id)rmed;
+- (id)_confirmed;
 - (id)ntext",&,N,V_inferencePluginInvocationContext;
 - (void)GenerationRequest.statementResults.payload.outcome.valueDisambiguation.items.collection.values.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHNLRouterBridgeEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHNLRouterBridgeFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHNLRouterBridgeStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

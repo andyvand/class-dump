@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface DESBfloat16Transport
 {
     unsigned int _count;
-    NSData *_data;
-    struct {
-        unsigned int count:1;
-    } _has;
 }
 
 - (void);
@@ -21,22 +15,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)N7morphun8analysis7stemmer13HiLemmaFilterE;
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned int);
+- (id)ult=%@;
+- (void)",&,N,V_numberOfEngagedSuggestionsFromCurrentAppWithConversation;
+- (unsigned int)Ensemble:<anonymised> suggestions proxies found %@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool hasCount;
 @property(readonly, nonatomic) _Bool hasData;
 
 @end

@@ -11,7 +11,7 @@
 + (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 
 @end

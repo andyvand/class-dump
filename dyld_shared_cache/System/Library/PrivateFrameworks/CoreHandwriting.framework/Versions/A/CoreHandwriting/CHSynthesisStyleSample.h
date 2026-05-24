@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSDate, NSSet, NSString;
+@class CHDrawing;
 
 @interface CHSynthesisStyleSample
 {
     CHDrawing *_drawing;
-    NSString *_transcription;
-    long long _script;
-    long long _creationTimestep;
-    long long _samplingCount;
-    NSDate *_creationDate;
-    NSSet *_strokeIdentifiers;
-    vector_926a3350 _embeddingVector;
 }
 
 + (id);
@@ -27,17 +20,22 @@
 + (id);
 + (id);
 + (double);
-+ (_Bool);
++ (_Bool)E;
 + (id);
-+ (vector_926a3350);
-+ (vector_926a3350);
++ (vector_4858b34d);
++ (vector_4858b34d)c;
 + (float);
 + (float);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)JcRp
+Jp
+Jp
+Jp
+Jp
+JkJp;
++ (_Bool)_imageWithSystemSymbolName: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -51,14 +49,14 @@
 - (float);
 - (void);
 - (id);
-- (long long);
-- (vector_926a3350);
+- (long long);
+- (vector_4858b34d);
 - (id);
 - (id);
+- (id)thumbnailUsingRequest:atEnd: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)handleFailureInFunction:(long long)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -67,14 +65,7 @@
 - (void)Ì";
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) long long creationTimestep; // @synthesize creationTimestep=_creationTimestep;
-@property(readonly, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) vector_926a3350 embeddingVector; // @synthesize embeddingVector=_embeddingVector;
-@property(nonatomic) long long samplingCount; // @synthesize samplingCount=_samplingCount;
-@property(nonatomic) long long script; // @synthesize script=_script;
-@property(readonly, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
+@property(nonatomic) vector_4858b34d embeddingVector; // @synthesize embeddingVector=_embeddingVector;
 
 @end
 

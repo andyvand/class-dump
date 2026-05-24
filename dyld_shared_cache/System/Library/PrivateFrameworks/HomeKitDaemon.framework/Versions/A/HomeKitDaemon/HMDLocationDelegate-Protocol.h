@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLRegion;
+
 @protocol HMDLocationDelegate
+
+@optional
+- (void)replaceObjectInEditableObjectsAtIndex:(CLRegion *)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)replaceEditableObjectsAtIndexes:(long long)arg1 withEditableObjects:(CLRegion *)arg2;
+- (void)removedImmutableObjects;
 @end
 

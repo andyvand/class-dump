@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSDate;
+@class NSBezierPath;
 
 @interface AKPVSignaturePayload
 {
     NSBezierPath *_path;
-    double _baselineHeight;
-    NSDate *_creationDate;
-    NSDate *_lastUsedDate;
 }
 
 + (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (void);
+- (id)performDatabaseOperation:withAttributes:options:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)validateDebugTextBoundingBoxesMenuItem:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property double baselineHeight; // @synthesize baselineHeight=_baselineHeight;
-@property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
 @property(retain) NSBezierPath *path; // @synthesize path=_path;
 
 @end

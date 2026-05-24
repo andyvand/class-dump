@@ -9,7 +9,7 @@
 @interface UnknownClass (PXViewSpec)
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

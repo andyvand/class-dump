@@ -4,40 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, RTDefaultsManager, RTDeviceLocationPredictor, RTDistanceCalculator, RTHintManager, RTLearnedLocationManager, RTLocationAwarenessManager, RTLocationManager, RTMetricManager, RTMotionActivityManager, RTPlatform, RTTimer, RTTimerManager, RTVisitFeedBuffer, RTVisitLabeler, RTVisitMonitorState;
-@protocol OS_dispatch_queue, RTVisitMonitorDelegate;
+@class RTDefaultsManager, RTVisitFeedBuffer;
 
 @interface RTVisitMonitor
 {
     RTVisitFeedBuffer *_feedBuffer;
-    RTTimer *_feedBufferTimer;
-    _Bool _monitoringVisitIncidents;
-    _Bool _monitoringLeechedVisitIncidents;
-    _Bool _monitoringLowConfidenceVisitIncidents;
-    id <RTVisitMonitorDelegate> _delegate;
-    RTDefaultsManager *_defaultsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHintManager *_hintManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationAwarenessManager *_locationAwarenessManager;
-    RTLocationManager *_locationManager;
-    RTMetricManager *_metricManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPlatform *_platform;
-    RTTimerManager *_timerManager;
-    RTVisitMonitorState *_state;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _feedBufferReferenceCounter;
-    unsigned long long _lowConfidencePipelineReferenceCounter;
-    unsigned long long _highConfidencePipelineReferenceCounter;
-    NSMutableSet *_pipelinesMonitoringRegion;
-    NSMutableDictionary *_pipelines;
-    RTVisitLabeler *_visitLabeler;
 }
 
 + (id);
-+ (long long);
++ (long long)e [%s].;
 + (double);
 + (id);
 + (id);
@@ -56,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)s nil; not processing binding response;
 - (void);
 - (id);
 - (void);
@@ -72,7 +47,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (void);
 - (void);
 - (void);
@@ -80,9 +55,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)taType_SessionInfoResponseErrorKey should be %u byte, not %u;
+- (void)dentity {identityBlob:(id)arg1 %@};
+- (unsigned long long)void);
 - (id);
 - (void);
 - (void);
@@ -93,7 +68,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)NETWORK_RULE_ERROR_INVALID_DIRECTION;
 - (void);
 - (id);
 - (void);
@@ -119,8 +94,8 @@
 - (void)!Eù1C,1Â0@ù
 × ;
 - (void);
-- (unsigned long long)dBackgroundInertialOdometrySamples:handler: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (unsigned long long)addBackgroundInertialOdometrySamples:handler: /* Error: Ran out of types for this method. */;
+- (void)RTStateModelOneVisit;
 - (id)yàz4{äX
 p(T4;
 - (double);
@@ -137,28 +112,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) __weak id <RTVisitMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) unsigned long long feedBufferReferenceCounter; // @synthesize feedBufferReferenceCounter=_feedBufferReferenceCounter;
-@property(nonatomic) unsigned long long highConfidencePipelineReferenceCounter; // @synthesize highConfidencePipelineReferenceCounter=_highConfidencePipelineReferenceCounter;
-@property(retain, nonatomic) RTHintManager *hintManager; // @synthesize hintManager=_hintManager;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationAwarenessManager *locationAwarenessManager; // @synthesize locationAwarenessManager=_locationAwarenessManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(nonatomic) unsigned long long lowConfidencePipelineReferenceCounter; // @synthesize lowConfidencePipelineReferenceCounter=_lowConfidencePipelineReferenceCounter;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(nonatomic) _Bool monitoringLeechedVisitIncidents; // @synthesize monitoringLeechedVisitIncidents=_monitoringLeechedVisitIncidents;
-@property(nonatomic) _Bool monitoringLowConfidenceVisitIncidents; // @synthesize monitoringLowConfidenceVisitIncidents=_monitoringLowConfidenceVisitIncidents;
-@property(nonatomic) _Bool monitoringVisitIncidents; // @synthesize monitoringVisitIncidents=_monitoringVisitIncidents;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) NSMutableDictionary *pipelines; // @synthesize pipelines=_pipelines;
-@property(retain, nonatomic) NSMutableSet *pipelinesMonitoringRegion; // @synthesize pipelinesMonitoringRegion=_pipelinesMonitoringRegion;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTVisitMonitorState *state; // @synthesize state=_state;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTVisitLabeler *visitLabeler; // @synthesize visitLabeler=_visitLabeler;
 
 @end
 

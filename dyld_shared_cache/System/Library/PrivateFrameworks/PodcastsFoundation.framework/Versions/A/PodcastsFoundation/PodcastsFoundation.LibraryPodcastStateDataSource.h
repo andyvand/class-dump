@@ -7,13 +7,6 @@
 @interface PodcastsFoundation.LibraryPodcastStateDataSource
 {
     id workerQueue;
-    id lock;
-    id publisher;
-    id subscription;
-    id _dataSourceDelegate;
-    id states;
-    id expectedPodcastStatesByAdamId;
-    id expectedPodcastStatesByUuid;
 }
 
 @end

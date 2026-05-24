@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ode;
+- (void)lineBreakMode;
 - (void)ÿõ|ÁHÚ-;
 
 // Remaining properties

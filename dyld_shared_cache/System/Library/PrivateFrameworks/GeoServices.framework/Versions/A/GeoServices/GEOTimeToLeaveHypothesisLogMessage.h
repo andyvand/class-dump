@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)ity:(id)arg1;
++ (_Bool)setMerchantCity:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)getCSVoiceTriggerRTModelRequestOptions:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id)"{?="indoorProbability"b1"outdoorProbability"b1"type"b1}};
-- (id)dedString;
-- (id)reIdentifier;
-- (id);
+- (id)hasSpotlightSearchPunchinEncodedString;
+- (id)GEOClientRankingModelFeatureIdentifier;
+- (id)autocomplete_request;
 
 @end
 

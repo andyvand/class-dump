@@ -6,25 +6,23 @@
 
 #import <WiFiPolicy/WiFiUsageLQMWindowAnalysis.h>
 
-@class NSString, WFMeasureResult;
+@class WFMeasureResult;
 
 @interface WiFiUsageLQMWindowAnalysisLinkTest : WiFiUsageLQMWindowAnalysis
 {
     WFMeasureResult *_linkTestResults;
-    NSString *_linkTestReason;
 }
 
+- (id)addDelegate:queue: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)ion;
+- (id)څ;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *linkTestReason; // @synthesize linkTestReason=_linkTestReason;
 @property(retain, nonatomic) WFMeasureResult *linkTestResults; // @synthesize linkTestResults=_linkTestResults;
 
 @end

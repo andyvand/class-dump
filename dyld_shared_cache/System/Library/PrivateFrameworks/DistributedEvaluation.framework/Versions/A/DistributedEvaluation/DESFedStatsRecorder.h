@@ -9,8 +9,8 @@
 }
 
 + (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)sults.payload.outcome.parameterConfirmation.item.collection.values.primitive.app.bundleId;
+- (_Bool)ifier.custom.bundleId;
 
 @end
 

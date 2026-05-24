@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SafariOBPrivacyPresenterExtras)
 + (void);
-+ (void);
++ (void);
 @end
 

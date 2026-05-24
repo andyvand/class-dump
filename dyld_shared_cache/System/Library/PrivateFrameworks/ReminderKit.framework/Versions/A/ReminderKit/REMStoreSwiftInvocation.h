@@ -14,14 +14,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)1;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) REMFetchResultToken *fetchResultTokenToDiffAgainst; // @synthesize fetchResultTokenToDiffAgainst=_fetchResultTokenToDiffAgainst;
 @property(readonly, nonatomic) NSString *name;
 
 @end

@@ -8,6 +8,16 @@
 
 @protocol MNNavigationSessionManagerDelegate
 - (void);
-- (void)rExpectedTravelTime:(MNNavigationSessionManager *)arg1 dateUnitStyle: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)b1"delegateDidDismiss"b1"delegateDidReceiveResponse"b1"padding"b3};
+- (void)48@0:(MNNavigationSessionManager *)arg1 8q16q24@"JSValue"32@40;
+- (void)setExpirationTimeout:(MNNavigationSessionManager *)arg1;
+- (void)ptor update needed. Already discovered descriptors:(MNNavigationSessionManager *)arg1 %@;
+- (void);
+- (void);
+- (void)LATE] syntax error:(MNNavigationSessionManager *)arg1 assetBuildVersions (%lu) and assetProductVersions (%lu) must have the same count;
+- (void)(simulator disabled);
+- (void)repeatCurrentTrafficAlert:(MNNavigationSessionManager *)arg1;
+- (void)_navigation_stringForExpectedTravelTime:(MNNavigationSessionManager *)arg1 dateUnitStyle: /* Error: Ran out of types for this method. */;
 @end
 

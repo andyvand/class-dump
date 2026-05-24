@@ -16,16 +16,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleListID; // @synthesize articleListID=_articleListID;
 @property(readonly, nonatomic) _Bool hasArticleListID;
 
 @end

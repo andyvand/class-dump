@@ -5,5 +5,6 @@
 //
 
 @protocol BundleBrowserViewController
+- (void);
 @end
 

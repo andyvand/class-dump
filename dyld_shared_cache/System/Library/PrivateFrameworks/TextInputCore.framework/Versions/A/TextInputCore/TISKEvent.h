@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TISKTap;
-
 __attribute__((visibility("hidden")))
 @interface TISKEvent
 {
     _Bool _emojiSearchMode;
-    _Bool _hasTimestamp;
-    int _type;
-    TISKTap *_tap;
-    unsigned long long _order;
 }
 
 - (id);
 - (double);
 - (double);
-- (void);
-- (void);
+- (void)lastUtteranceIndexForMe:(id)arg1 isTranscription: /* Error: Ran out of types for this method. */;
+- (void)lastUtteranceForMe:(id)arg1 withText:(id)arg2;
+- (_Bool)@"NSDate",&,N,V_lastChangeDate;
+- (id)@);
+- (id)text:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
+- (id)I;
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)_providerLabel;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void)
 × ;
-- (void)usLanguageModelWeight;
+- (void)_favoniusLanguageModelWeight;
 
 // Remaining properties
-@property(nonatomic) _Bool emojiSearchMode; // @synthesize emojiSearchMode=_emojiSearchMode;
-@property(nonatomic) _Bool hasTimestamp; // @synthesize hasTimestamp=_hasTimestamp;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
-@property(retain, nonatomic) TISKTap *tap; // @synthesize tap=_tap;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

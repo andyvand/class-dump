@@ -6,26 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingFirstBufferStart : SISchemaInstrumentationMessage
 {
     unsigned long long _firstBufferStartTimeOffsetInNs;
-    NSString *_audioInterfaceVendorId;
-    NSString *_audioInterfaceProductName;
-    struct {
-        unsigned int firstBufferStartTimeOffsetInNs:1;
-    } _has;
-    _Bool _hasAudioInterfaceVendorId;
-    _Bool _hasAudioInterfaceProductName;
 }
 
 - (void);
 - (void);
+- (void)1;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,25 +27,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t-type;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)tScans:(id)arg1;
+- (id)setHasNumberOfMobileAssetScans:(id)arg1;
 - (id)lStarted",&,N,V_startedOrChanged;
 - (void)a|¯¯!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *audioInterfaceProductName; // @synthesize audioInterfaceProductName=_audioInterfaceProductName;
-@property(copy, nonatomic) NSString *audioInterfaceVendorId; // @synthesize audioInterfaceVendorId=_audioInterfaceVendorId;
 @property(nonatomic) unsigned long long firstBufferStartTimeOffsetInNs; // @synthesize firstBufferStartTimeOffsetInNs=_firstBufferStartTimeOffsetInNs;
-@property(nonatomic) _Bool hasAudioInterfaceProductName; // @synthesize hasAudioInterfaceProductName=_hasAudioInterfaceProductName;
-@property(nonatomic) _Bool hasAudioInterfaceVendorId; // @synthesize hasAudioInterfaceVendorId=_hasAudioInterfaceVendorId;
-@property(nonatomic) _Bool hasFirstBufferStartTimeOffsetInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

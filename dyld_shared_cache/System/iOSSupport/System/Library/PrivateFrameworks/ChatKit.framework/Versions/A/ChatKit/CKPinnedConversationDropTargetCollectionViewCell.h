@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDropZoneCircleView, CKPinnedConversationView, UILabel;
+@class CKDropZoneCircleView;
 
 __attribute__((visibility("hidden")))
 @interface CKPinnedConversationDropTargetCollectionViewCell
 {
     _Bool _shouldHideLabel;
-    _Bool _shouldAnimateCircle;
-    long long _layoutStyle;
-    CKDropZoneCircleView *_dropZoneCircleView;
-    UILabel *_instructionLabel;
-    CKPinnedConversationView *_prototypeConversationView;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)cachedScaledFloatWithValue:fontStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)Markers: /* Error: Ran out of types for this method. */;
+- (void)containersByAccountID;
+- (void)componentsWithURL:(_Bool)arg1 resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (void)calculateDocumentController;
+- (void)_isOverrideVariant;
+- (id)azy_storage_$_documentOptions;
+- (id)g;
+- (void)n Activity Stream;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
@@ -42,11 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKDropZoneCircleView *dropZoneCircleView; // @synthesize dropZoneCircleView=_dropZoneCircleView;
-@property(retain, nonatomic) UILabel *instructionLabel; // @synthesize instructionLabel=_instructionLabel;
-@property(nonatomic) long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(retain, nonatomic) CKPinnedConversationView *prototypeConversationView; // @synthesize prototypeConversationView=_prototypeConversationView;
-@property(nonatomic) _Bool shouldAnimateCircle; // @synthesize shouldAnimateCircle=_shouldAnimateCircle;
-@property(nonatomic) _Bool shouldHideLabel; // @synthesize shouldHideLabel=_shouldHideLabel;
 
 @end
 

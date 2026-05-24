@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface HIDAnalyticsEvent
 {
     NSMutableDictionary *_fields;
-    _Bool _isUpdated;
-    _Bool _isLogged;
-    NSString *_name;
-    NSDictionary *_desc;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_containerPath;
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)`!`;
 - (void);
+- (id)displaysAccessoryView;
+- (id)setImageLoaded: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void)uZ;
 - (void);
-- (void);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)Go;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *desc; // @synthesize desc=_desc;
-@property _Bool isLogged; // @synthesize isLogged=_isLogged;
 @property(retain) NSString *name; // @synthesize name=_name;
 
 @end

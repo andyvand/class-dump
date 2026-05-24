@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface MPModelPodcastChapter : MPModelObject
 {
@@ -16,18 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)ams;
++ (void)urrent event segment:%@ timestamp:%f diff:%f /* Error: Ran out of types for this method. */;
++ (void)n:%@ /* Error: Ran out of types for this method. */;
++ (void)%@, giving up.;
++ (void)ream:%@, giving up . /* Error: Ran out of types for this method. */;
++ (id)e;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) double duration; // @dynamic duration;
-@property(readonly, nonatomic, getter=isPlayable) _Bool playable; // @dynamic playable;
-@property(readonly, nonatomic) double startTime; // @dynamic startTime;
 @property(readonly, copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

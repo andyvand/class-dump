@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneRenderingEnvironmentHostComponent
@@ -19,31 +19,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
+- (long long)initWithIDSHandle: /* Error: Ran out of types for this method. */;
+- (void)T;
 - (void)0@ù
 × ;
 - (id)ÑeÐ1Â0@ù
 × ;
 - (void)er:(id)arg1;
-- (void)tBehaviorConfiguration;
+- (void)_UIFeedbackEventBehaviorConfiguration;
 - (id)¸ª;
 - (void)X;
 - (void)nerNode<_UICollectionViewRTreeElement>:(id)arg1:commonInit() [T = _UICollectionViewRTreeElement] /* Error: Ran out of types for this method. */;
 - (void)TextItemTagAttribute;
 
 // Remaining properties
-@property(nonatomic) long long activeAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isCapturingContentForAdditionalRenderingDestination;
-@property(readonly, nonatomic) _Bool prefersContentProtection;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *systemDisplayIdentifier;
 
 @end
 

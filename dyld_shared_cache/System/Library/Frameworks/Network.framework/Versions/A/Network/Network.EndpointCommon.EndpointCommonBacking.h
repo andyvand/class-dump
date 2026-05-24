@@ -7,8 +7,6 @@
 @interface Network.EndpointCommon.EndpointCommonBacking
 {
     id txtRecord;
-    id deviceID;
-    id agentID;
 }
 
 @end

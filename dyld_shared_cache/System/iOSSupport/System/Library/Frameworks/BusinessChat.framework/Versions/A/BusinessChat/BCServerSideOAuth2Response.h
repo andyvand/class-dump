@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCError, NSDictionary;
+@class BCError;
 
 @interface BCServerSideOAuth2Response
 {
@@ -12,18 +12,17 @@
     BCError *_error;
 }
 
-- (_Bool);
+- (_Bool)previewController:(id)arg1 shouldOpenURL:forPreviewItem: /* Error: Ran out of types for this method. */;
+- (id)presentationControllerShouldDismiss:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)H2;
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)_delegate;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) BCError *error; // @synthesize error=_error;
 @property(nonatomic) long long status; // @synthesize status=_status;
 

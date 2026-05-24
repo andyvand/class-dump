@@ -4,9 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MNGuidanceSignInfo, NSArray;
+@protocol MNNavigationServiceProxy;
+
 @protocol MNNavigationServiceClientInterface
-- (void)nService"16@"MNTrafficIncidentAlert"24;
 - (void);
+- (void)C;
+- (void)initWithClientInfo:(id <MNNavigationServiceProxy>)arg1 withClientID:(MNGuidanceSignInfo *)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_didFinishLoadingRequest:(id <MNNavigationServiceProxy>)arg1 forFrame:(NSArray *)arg2 withError: /* Error: Ran out of types for this method. */;
+- (void)hed:(id <MNNavigationServiceProxy>)arg1 ];
+- (void)beginning to prepare update, the state machine does not have a valid descriptor;
+- (void)error:(id <MNNavigationServiceProxy>)arg1 %@ 
+<<<];
+- (void)A;
+- (void)nService"16@"MNTrafficIncidentAlert"24;
 - (void)alGarageStandardProvider.garageIsolater;
 @end
 

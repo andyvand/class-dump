@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSMutableDictionary, UXCollectionView, UXCollectionViewLayout;
+@class UXCollectionView;
 
 @interface UXCollectionViewData
 {
     UXCollectionView *_collectionView;
-    UXCollectionViewLayout *_layout;
-    NSMapTable *_screenPageMap;
-    id *_globalItems;
-    NSMutableDictionary *_supplementaryLayoutAttributes;
-    NSMutableDictionary *_decorationLayoutAttributes;
-    NSMutableDictionary *_invalidatedSupplementaryViews;
-    struct CGRect _validLayoutRect;
-    long long _numItems;
-    long long _numSections;
-    long long *_sectionItemCounts;
-    long long _lastSectionTestedForNumberOfItemsBeforeSection;
-    long long _lastResultForNumberOfItemsBeforeSection;
-    struct CGSize _contentSize;
-    struct {
-        unsigned int contentSizeIsValid:1;
-        unsigned int itemCountsAreValid:1;
-        unsigned int layoutIsPrepared:1;
-        unsigned int layoutLocked:1;
-    } _collectionViewDataFlags;
-    NSMutableArray *_clonedLayoutAttributes;
 }
 
 + (void);
 - (void);
+- (id);
 - (id);
+- (void);
+- (struct CGRect);
 - (id);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
+- (id)8;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -66,18 +46,16 @@
 - (id);
 - (_Bool);
 - (long long);
-- (struct CGRect);
+- (struct CGRect)setInput4Spread: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (long long);
 - (long long);
 - (id);
-- (id)rnal_class;
+- (id)_internal_class;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clonedLayoutAttributes; // @synthesize clonedLayoutAttributes=_clonedLayoutAttributes;
 @property(readonly, nonatomic) _Bool layoutIsPrepared;
-@property(nonatomic, getter=isLayoutLocked) _Bool layoutLocked;
 
 @end
 

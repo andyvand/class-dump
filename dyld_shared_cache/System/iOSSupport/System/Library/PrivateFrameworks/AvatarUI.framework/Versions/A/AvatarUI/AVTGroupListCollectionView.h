@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSString, UICollectionView;
+@class UICollectionView;
 @protocol AVTGroupPickerDelegate;
 
 @interface AVTGroupListCollectionView
 {
     id <AVTGroupPickerDelegate> delegate;
-    NSArray *_groupItems;
-    long long selectedGroupIndex;
-    UICollectionView *_collectionView;
-    CALayer *_border;
 }
 
 - (void);
@@ -29,30 +25,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ng",&,N,V_platform;
+- (void)te:(id)arg1 completionValue:(id)arg2 alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (long long);
-- (void);
+- (long long)X;
+- (void)}$;
 - (double);
 - (void);
-- (id)ratorForKey:(id)arg1;
+- (id)flushGeneratorForKey:(id)arg1;
 - (void)ýÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *border; // @synthesize border=_border;
 @property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTGroupPickerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *groupItems; // @synthesize groupItems=_groupItems;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long selectedGroupIndex; // @synthesize selectedGroupIndex;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface WBSQuerySuggestion
 {
     NSString *_title;
-    NSString *_identifier;
-    long long _type;
-    id _tag;
 }
 
 - (id);
@@ -23,10 +20,7 @@
 - (void)0À;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id tag; // @synthesize tag=_tag;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INPerson, NSNumber, NSString;
+@class NSString;
 
 @interface INFileProperty
 {
     NSString *_name;
-    NSString *_qualifier;
-    NSString *_type;
-    INDateComponentsRange *_dateComponentsRange;
-    INPerson *_person;
-    NSString *_value;
-    NSNumber *_quantity;
 }
 
 + (_Bool);
@@ -22,13 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id)settingsVersion;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)__shouldAllowPreAssocScan;
+- (void)-96b4-f45c89abb0d9;
 - (id);
 - (id);
 - (id);
@@ -38,20 +32,7 @@
 - (void)hCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) INDateComponentsRange *dateComponentsRange; // @synthesize dateComponentsRange=_dateComponentsRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) INPerson *person; // @synthesize person=_person;
-@property(readonly, copy) NSString *qualifier; // @synthesize qualifier=_qualifier;
-@property(readonly, copy) NSNumber *quantity; // @synthesize quantity=_quantity;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
-@property(readonly, copy) NSString *value; // @synthesize value=_value;
 
 @end
 

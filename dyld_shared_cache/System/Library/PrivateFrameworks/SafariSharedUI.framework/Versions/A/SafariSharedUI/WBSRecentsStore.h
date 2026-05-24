@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, WBSLPLinkMetadataProvider;
+@class NSArray, NSMutableArray;
 
 @interface WBSRecentsStore
 {
     NSMutableArray *_providers;
-    NSMutableArray *_recentItemsByProviderIndex;
-    NSArray *_displayableRecentItems;
-    NSArray *_availableDevices;
-    WBSLPLinkMetadataProvider *_linkPresentationMetadataProvider;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,9 +23,7 @@
 - (void)_primaryButtonHandler;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableDevices; // @synthesize availableDevices=_availableDevices;
 @property(readonly, nonatomic) NSArray *displayableRecentItems; // @synthesize displayableRecentItems=_displayableRecentItems;
-@property(readonly, nonatomic) __weak WBSLPLinkMetadataProvider *linkPresentationMetadataProvider; // @synthesize linkPresentationMetadataProvider=_linkPresentationMetadataProvider;
 
 @end
 

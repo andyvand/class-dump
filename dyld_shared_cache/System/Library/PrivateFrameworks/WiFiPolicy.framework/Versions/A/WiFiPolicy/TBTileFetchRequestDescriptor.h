@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPredicate, NSSet, NSString, PBCodable, TBLocalFetchRequestDescriptor;
+@class NSSet, TBLocalFetchRequestDescriptor;
 
 @interface TBTileFetchRequestDescriptor
 {
     TBLocalFetchRequestDescriptor *_localFetchDescriptor;
-    unsigned long long _type;
-    NSSet *_tileItems;
-    TBLocalFetchRequestDescriptor *_preferLocalFetchDescriptor;
-    NSPredicate *_localFetchPredicate;
-    NSDate *_maxCacheAge;
 }
 
 - (id);
@@ -30,28 +25,14 @@
 - (id);
 - (Class);
 - (void);
-- (id);
+- (id)nt version %u (exp %u);
 - (void);
 - (id);
-- (void);
+- (void)$B�;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *localFetchDescriptor; // @synthesize localFetchDescriptor=_localFetchDescriptor;
-@property(retain, nonatomic) NSPredicate *localFetchPredicate; // @synthesize localFetchPredicate=_localFetchPredicate;
-@property(retain, nonatomic) NSDate *maxCacheAge; // @synthesize maxCacheAge=_maxCacheAge;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *preferLocalFetchDescriptor; // @synthesize preferLocalFetchDescriptor=_preferLocalFetchDescriptor;
-@property(readonly, nonatomic) PBCodable *remoteRequest;
-@property(readonly, nonatomic) Class remoteRequestClass;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSSet *tileItems; // @synthesize tileItems=_tileItems;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

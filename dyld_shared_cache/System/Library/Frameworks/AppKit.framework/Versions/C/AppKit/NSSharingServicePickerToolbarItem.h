@@ -6,15 +6,9 @@
 
 #import <AppKit/NSToolbarItem.h>
 
-@class NSSharingServicePicker;
-@protocol NSSharingServicePickerToolbarItemDelegate;
-
 @interface NSSharingServicePickerToolbarItem : NSToolbarItem
 {
     _Bool _isShowing;
-    id <NSSharingServicePickerToolbarItemDelegate> _delegate;
-    NSSharingServicePicker *_picker;
-    NSSharingServicePicker *_collapsedPicker;
 }
 
 @end

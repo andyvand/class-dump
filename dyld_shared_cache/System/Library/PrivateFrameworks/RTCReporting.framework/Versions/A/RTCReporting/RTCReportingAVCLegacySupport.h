@@ -5,13 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_dispatch_queue;
 
 @interface RTCReportingAVCLegacySupport
 {
     NSObject<OS_dispatch_queue> *_dispatchQ;
-    NSObject<OS_os_log> *_logger;
-    id _awdAdaptor;
 }
 
 - (void);

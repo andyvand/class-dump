@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 @interface HomeKitDaemon.ResidentStatusProtobufSerializerResidentSelectionInfo
 {
     void selectionTimestamp;
-    unsigned long long selectionMode;
-    void userPreferredResidentIDSIdentifier;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (void)X©>;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long selectionMode; // @synthesize selectionMode;
 @property(nonatomic, readonly) NSDate *selectionTimestamp;
-@property(nonatomic, readonly) NSUUID *userPreferredResidentIDSIdentifier;
 
 @end
 

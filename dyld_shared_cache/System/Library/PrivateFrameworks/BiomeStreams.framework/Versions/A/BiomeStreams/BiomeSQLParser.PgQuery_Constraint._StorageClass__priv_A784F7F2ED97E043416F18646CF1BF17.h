@@ -7,33 +7,6 @@
 @interface BiomeSQLParser.PgQuery_Constraint._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _contype;
-    id _conname;
-    id _deferrable;
-    id _initdeferred;
-    id _location;
-    id _isNoInherit;
-    id _rawExpr;
-    id _cookedExpr;
-    id _generatedWhen;
-    id _keys;
-    id _including;
-    id _exclusions;
-    id _options;
-    id _indexname;
-    id _indexspace;
-    id _resetDefaultTblspc;
-    id _accessMethod;
-    id _whereClause;
-    id _pktable;
-    id _fkAttrs;
-    id _pkAttrs;
-    id _fkMatchtype;
-    id _fkUpdAction;
-    id _fkDelAction;
-    id _oldConpfeqop;
-    id _oldPktableOid;
-    id _skipValidation;
-    id _initiallyValid;
 }
 
 @end

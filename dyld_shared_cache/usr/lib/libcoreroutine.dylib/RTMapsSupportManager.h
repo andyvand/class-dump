@@ -11,7 +11,6 @@
 @interface RTMapsSupportManager : RTService
 {
     NSArray *storeSubscriptionTypes;
-    RTMapServiceManager *_mapServiceManager;
 }
 
 - (void);
@@ -20,17 +19,17 @@
 - (void);
 - (void);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)E;
 - (void);
 - (void);
 - (void);
@@ -40,7 +39,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)th supports IPv4 %s IPv6 %s;
 - (void);
 - (void);
 - (long long);
@@ -51,7 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(copy, nonatomic) NSArray *storeSubscriptionTypes; // @synthesize storeSubscriptionTypes;
 
 @end
 

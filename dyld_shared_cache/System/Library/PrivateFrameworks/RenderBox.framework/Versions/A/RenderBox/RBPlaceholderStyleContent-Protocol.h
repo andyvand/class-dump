@@ -5,15 +5,10 @@
 //
 
 @protocol RBPlaceholderStyleContent
+- (struct CGRect)p %@ evaluating %@ (data:%@) /* Error: Ran out of types for this method. */;
 - (unsigned int)d;
 
 // Remaining properties
-@property(nonatomic) float alpha;
-@property(nonatomic) int blendMode;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) unsigned int itemIdentifier;
-@property(readonly, nonatomic) CDStruct_60067b7e itemNamespace;
-@property(readonly, nonatomic) unsigned int styleIdentifier;
 @property(readonly, nonatomic) CDStruct_60067b7e styleNamespace;
 @end
 

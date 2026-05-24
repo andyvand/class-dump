@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSQLCore;
+@class NSSQLCore;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLCoreDispatchManager
 {
     NSSQLCore *_sqlCore;
-    NSMutableArray *_connectionManagers;
 }
 
 - (void);

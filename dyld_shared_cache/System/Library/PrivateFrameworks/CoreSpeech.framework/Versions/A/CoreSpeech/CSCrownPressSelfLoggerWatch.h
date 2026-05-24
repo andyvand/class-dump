@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSCrownPressSelfLoggerWatch
 {
     _Bool _listeningEnabled;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _displayWakeHostTime;
 }
 
 - (void);
@@ -24,25 +22,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithDescriptorData:(id)arg1 elementType:elementCount:originatingRequestSpecifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void)IdFromDictation;
+- (void)bundleIdFromDictation;
 - (void)apple.corespeech.attending.xpc.connection;
-- (void);
+- (void)lastAudioChunkHostTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayWakeHostTime; // @synthesize displayWakeHostTime=_displayWakeHostTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool listeningEnabled; // @synthesize listeningEnabled=_listeningEnabled;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

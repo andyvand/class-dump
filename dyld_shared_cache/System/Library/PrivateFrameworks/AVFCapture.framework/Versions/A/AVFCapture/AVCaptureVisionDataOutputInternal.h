@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, NSData;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVisionDataOutputInternal
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    AVWeakReference *weakReference;
-    CDStruct_1b6d18a9 minFrameDuration;
-    CDStruct_1b6d18a9 minBurstFrameDuration;
-    CDStruct_1b6d18a9 maxBurstDuration;
-    unsigned long long gaussianPyramidOctavesCount;
-    float gaussianPyramidBaseOctaveDownscalingFactor;
-    unsigned long long maxKeypointsCount;
-    _Bool featureBinningEnabled;
-    _Bool featureOrientationAssignmentEnabled;
-    _Bool dynamicThresholdingEnabled;
-    unsigned long long keypointDetectionFlowType;
-    unsigned long long subPixelThreshold;
-    _Bool featureMatchingEnabled;
-    unsigned long long featureMatchingDescriptorSize;
-    float orientationDistanceThreshold;
-    float sigmaDistanceThreshold;
-    float squareDistanceDisparityFraction;
-    unsigned long long hammingDistanceThreshold;
-    NSData *laccConfigAndMetadata;
-    float keypointDetectionThreshold;
 }
 
-- (void);
-- (id);
+- (void)0:8@"ACAccount"16@"ACDAccountStore"24@"NSDictionary"32@?<v@?@"ACAccount"@"NSError">40 /* Error: Ran out of types for this method. */;
+- (id)?;
 
 @end
 

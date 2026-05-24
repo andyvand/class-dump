@@ -6,30 +6,18 @@
 
 #import <Safari/BrowserContainerViewController.h>
 
-@class BrowserViewController, NSClickGestureRecognizer, NSProgressIndicator, NSString, NSTextField, NSURL, NSView;
+@class BrowserViewController;
 @protocol PagePreviewViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PagePreviewViewController : BrowserContainerViewController
 {
     BrowserViewController *_previewBrowserViewController;
-    NSView *_previewAndScreenTimeWrapperView;
-    struct CGSize _mainViewSize;
-    NSTextField *_titleTextField;
-    NSClickGestureRecognizer *_clickRecognizer;
-    NSProgressIndicator *_spinner;
-    double _popoverToViewScale;
-    _Bool _isPreviewingImage;
-    _Bool _isPopoverClosing;
-    _Bool _loading;
-    id <PagePreviewViewControllerDelegate> _delegate;
-    NSString *_previewTitle;
-    NSURL *_URL;
 }
 
 + (struct CGSize);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (_Bool);
@@ -47,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)d;
+- (id)downloading;
 - (void);
 - (void);
 - (void)ÿÿ;
@@ -56,17 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)xV-;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PagePreviewViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLoading) _Bool loading; // @synthesize loading=_loading;
-@property(copy, nonatomic) NSString *previewTitle; // @synthesize previewTitle=_previewTitle;
-@property(readonly) Class superclass;
 
 @end
 

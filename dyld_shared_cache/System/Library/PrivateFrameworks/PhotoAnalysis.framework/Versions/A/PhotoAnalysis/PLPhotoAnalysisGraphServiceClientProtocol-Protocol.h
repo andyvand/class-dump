@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSString;
+
 @protocol PLPhotoAnalysisGraphServiceClientProtocol
+- (void)u;
+- (void)initForTestingWithQuestions:(NSArray *)arg1 assetsByAssetId:(NSString *)arg2 momentUUIDByAssetIdentifier:(NSDictionary *)arg3 activePersonUUIDByPersonUUID:(void (^)(NSDictionary *, NSError *))arg4 tripKeyAssetIdentifiers:momentUUIDsForExhaustiveMomentLabeling:dayHighlightAssetIdentifiers: /* Error: Ran out of types for this method. */;
 @end
 

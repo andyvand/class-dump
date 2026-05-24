@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface ExchangeOpenIDMetadataResponse
 {
     NSString *_tokenRequestURI;
-    NSString *_authorizationURI;
-    NSString *_jwsURI;
-    NSString *_issuer;
-    NSDictionary *_data;
-    long long _statusCode;
-    NSError *_error;
-    NSString *_errorMessage;
 }
 
 - (id);
@@ -25,18 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (long long)tativelyAcceptItem;
+- (id)C;
+- (void)CK;
+- (long long)TentativelyAcceptItem;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authorizationURI; // @synthesize authorizationURI=_authorizationURI;
-@property(readonly, nonatomic) NSDictionary *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(readonly, nonatomic) NSString *jwsURI; // @synthesize jwsURI=_jwsURI;
-@property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 @property(readonly, nonatomic) NSString *tokenRequestURI; // @synthesize tokenRequestURI=_tokenRequestURI;
 
 @end

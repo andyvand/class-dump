@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)duleRetry[%s]:Can't retry task because it was already cancelled. When a task is cancelled it is expected to be marked as complete in the calling context. /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)AMSURLSession:task:shouldFailWithServerError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned char liveNonce; // @synthesize liveNonce=_liveNonce;

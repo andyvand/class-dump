@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL, UIViewController;
+
 @protocol NUWebViewControllerFactoryType
+- (UIViewController *):(NSURL *)arg1:addRegistryChildToChannelDictionary  Cant create channelStreamDictionary
+ /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceCitySelectorViewTicket
+- (void)r;
+- (void)_chat:(void (^)(GEOAllGuidesLocationsViewResult *, NSError *))arg1 retryGroupPhotoUpload:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

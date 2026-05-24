@@ -6,54 +6,35 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutDimension, NSLayoutYAxisAnchor, NSString;
-
 @interface _UILayoutGuide : UIView
 {
     _Bool _allowsArchivingAsSubview;
-    _Bool _horizontal;
-    NSArray *_constraintsToRemoveAtRuntime;
-    NSString *_archivedIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)e;
+- (_Bool)stered;
+- (_Bool)u;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)!;
 - (id);
-- (void);
+- (void)`;
 - (double);
-- (id);
+- (id)erMonitor.calloutQueue;
 - (void);
 - (void)!`Dù1]ð1Â0@ù
 × ;
-- (void)IsFirstResponder:(id)arg1;
+- (void)setIsFirstResponder:(id)arg1;
 - (id);
 - (id)emHandler: /* Error: Ran out of types for this method. */;
-- (id)stureWithState:(struct CGRect)arg1;
+- (id)_enterRecoveryWindowOrEndGestureWithState:(struct CGRect)arg1;
 - (void)%@
 ;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsArchivingAsSubview:) _Bool _allowsArchivingAsSubview; // @synthesize _allowsArchivingAsSubview;
-@property(copy, nonatomic, setter=_setArchivedIdentifier:) NSString *_archivedIdentifier; // @synthesize _archivedIdentifier;
-@property(copy, nonatomic, setter=_setConstraintsToRemoveAtRuntime:) NSArray *_constraintsToRemoveAtRuntime; // @synthesize _constraintsToRemoveAtRuntime;
 @property(nonatomic, getter=isHorizontal, setter=_setHorizontal:) _Bool _horizontal; // @synthesize _horizontal;
-@property(readonly) NSLayoutYAxisAnchor *bottomAnchor; // @dynamic bottomAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSLayoutDimension *heightAnchor; // @dynamic heightAnchor;
-@property(readonly, nonatomic) double length;
-@property(readonly) Class superclass;
-@property(readonly) NSLayoutYAxisAnchor *topAnchor; // @dynamic topAnchor;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)callID:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

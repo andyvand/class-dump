@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface LPPadding
 {
     LPPointUnit *_top;
-    LPPointUnit *_leading;
-    LPPointUnit *_bottom;
-    LPPointUnit *_trailing;
 }
 
+- (void)toolbarAllowedItemIdentifiers:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
+- (id)storedFilterModes;
+- (struct UIEdgeInsets)startCommitPayload:(_Bool)arg1 forConversation: /* Error: Ran out of types for this method. */;
+- (id)RawValue;
 - (id);
 - (void);
 - (id);
@@ -31,10 +28,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPPointUnit *bottom; // @synthesize bottom=_bottom;
-@property(retain, nonatomic) LPPointUnit *leading; // @synthesize leading=_leading;
 @property(retain, nonatomic) LPPointUnit *top; // @synthesize top=_top;
-@property(retain, nonatomic) LPPointUnit *trailing; // @synthesize trailing=_trailing;
 
 @end
 

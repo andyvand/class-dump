@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleSettingsRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

@@ -7,14 +7,6 @@
 @interface IMKDefinitionToLayoutConstraint
 {
     double _maxWidth;
-    double _minWidth;
-    double _maxHeight;
-    double _minHeight;
-    unsigned long long _maxNumberOfCandidatesPerLine;
-    double _minimumCellLineSize;
-    unsigned long long _numberOfSimilarWidthCandidates;
-    _Bool _shouldAddExtraLine;
-    _Bool _optimizedLayoutForFixedSize;
 }
 
 - (_Bool);
@@ -27,25 +19,17 @@
 - (double);
 - (unsigned long long);
 - (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (double);
+- (double)y	8AyI;
 - (double);
 - (void);
 - (void);
+- (double);
+- (double);
+- (void);
+- (void)UplinkSegmentWithStreamGroups:(double)arg1 withPayload:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;
-@property(nonatomic) unsigned long long maxNumberOfCandidatesPerLine; // @synthesize maxNumberOfCandidatesPerLine=_maxNumberOfCandidatesPerLine;
 @property(nonatomic) double maxWidth; // @synthesize maxWidth=_maxWidth;
-@property(nonatomic) double minHeight; // @synthesize minHeight=_minHeight;
-@property(nonatomic) double minWidth; // @synthesize minWidth=_minWidth;
-@property(nonatomic) double minimumCellLineSize; // @synthesize minimumCellLineSize=_minimumCellLineSize;
-@property(nonatomic) unsigned long long numberOfSimilarWidthCandidates; // @synthesize numberOfSimilarWidthCandidates=_numberOfSimilarWidthCandidates;
-@property(nonatomic) _Bool optimizedLayoutForFixedSize; // @synthesize optimizedLayoutForFixedSize=_optimizedLayoutForFixedSize;
-@property(nonatomic) _Bool shouldAddExtraLine; // @synthesize shouldAddExtraLine=_shouldAddExtraLine;
 
 @end
 

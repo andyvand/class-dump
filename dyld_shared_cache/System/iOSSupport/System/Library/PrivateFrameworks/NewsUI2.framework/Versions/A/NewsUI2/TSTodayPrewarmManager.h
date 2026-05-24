@@ -9,8 +9,8 @@
 }
 
 + (void);
-- (id);
-- (void);
+- (id)P7;
+- (void)TodayFeedWithCarouselOptimizationsDisabledScrollTestCase;
 
 @end
 

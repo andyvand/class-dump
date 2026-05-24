@@ -7,14 +7,11 @@
 @class NSString, _INPBIntentSlotValue;
 
 @protocol _INPBProperty
-- (NSString *)ProxiedBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (NSString *)setProxiedBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (void)thCode:(NSString *)arg1 userActivity:] /* Error: Ran out of types for this method. */;
-- (void)thCompletion:(_INPBIntentSlotValue *)arg1;
+- (void)provideScopeEntityNameOptionsForOpenFile:(_INPBIntentSlotValue *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(readonly, nonatomic) _Bool hasRole;
 @property(retain, nonatomic) _INPBIntentSlotValue *payload;
-@property(copy, nonatomic) NSString *role;
 @end
 

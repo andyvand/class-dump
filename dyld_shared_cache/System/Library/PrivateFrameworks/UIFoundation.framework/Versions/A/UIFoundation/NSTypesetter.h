@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSLayoutManager, NSParagraphStyle, NSTextContainer;
-
 @interface NSTypesetter
 {
     void *_reserved;
-    NSParagraphStyle *_defaultParagraphStyle;
 }
 
 + (unsigned long long);
 + (id);
 + (id);
-+ (long long);
++ (long long)_DKDiscoverabilitySignalsMetadataKey__context;
 + (long long);
 + (_Bool);
 + (struct CGSize);
-+ (void)ner: /* Error: Ran out of types for this method. */;
++ (void)beginScrollingForView:textContainer: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -34,31 +31,31 @@
 - (void);
 - (long long)
 × ;
-- (id)hExtension;
-- (id)Name:traits:pointSize: /* Error: Ran out of types for this method. */;
-- (id)MLWithData:options:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)BeforeIndex:withinRange: /* Error: Ran out of types for this method. */;
-- (double)itWithTextContainer:(id)arg1;
+- (id)pathExtension;
+- (id)newFontCacheKeyWithFontName:traits:pointSize: /* Error: Ran out of types for this method. */;
+- (id)loadFromHTMLWithData:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)lineBreakBeforeIndex:withinRange: /* Error: Ran out of types for this method. */;
+- (double)initWithTextContainer:(id)arg1;
 - (_Bool)imageContent;
 - (void)gmentGlyphRange:(struct _NSRange)arg1 containerOrigin:(unsigned int *)arg2;
 - (struct _NSRange)nts:hasStrongRight:syncDirection:mirrorsTextAlignment:maximumWidth: /* Error: Ran out of types for this method. */;
-- (double)t:(unsigned long long)arg1;
-- (double)ParagraphStyle;
-- (void)agments;
-- (unsigned long long)ect:(struct _NSRange)arg1 padding:(unsigned short *)arg2 graphicsContext:(long long *)arg3 forceClipping:(unsigned long long *)arg4 attributes:(char *)arg5 stringDrawingOptions:drawingContext:stringDrawingInterface: /* Error: Ran out of types for this method. */;
-- (double)Mask;
-- (_Bool)ateTextParagraphForEmptyDocument;
-- (struct _NSRange)ferSize;
-- (void)illSoftInvalidationToLocation:(id)arg1 verticalOffset: /* Error: Ran out of types for this method. */;
+- (double)addPoint:(unsigned long long)arg1;
+- (double)_textViewHasDefaultParagraphStyle;
+- (void)_textLayoutFragments;
+- (unsigned long long)_stringDrawingCoreTextEngineWithOriginalString:(struct _NSRange)arg1 rect:(unsigned short *)arg2 padding:(long long *)arg3 graphicsContext:(unsigned long long *)arg4 forceClipping:(char *)arg5 attributes:stringDrawingOptions:drawingContext:stringDrawingInterface: /* Error: Ran out of types for this method. */;
+- (double)_propMask;
+- (_Bool)_invalidateTextParagraphForEmptyDocument;
+- (struct _NSRange)_glyphBufferSize;
+- (void)_fillSoftInvalidationToLocation:(id)arg1 verticalOffset: /* Error: Ran out of types for this method. */;
 - (unsigned long long)aracters:(unsigned long long)arg1;
-- (_Bool)eringAttributesAtCharacterIndex:effectiveRange: /* Error: Ran out of types for this method. */;
-- (CDStruct_3fda14a5 *)lineOffsetForUILayout;
-- (void)on;
-- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)_defaultRenderingAttributesAtCharacterIndex:effectiveRange: /* Error: Ran out of types for this method. */;
+- (CDStruct_c3bcf0a7 *)_baselineOffsetForUILayout;
+- (void)_allowsHyphenation;
+- (_Bool)removeObserver: /* Error: Ran out of types for this method. */;
 - (void)",R,V_suggestionsByUUID;
 - (void)_affinity;
-- (float)apAndMergeWithBlockRange: /* Error: Ran out of types for this method. */;
-- (double)ng;
+- (float)_moveGapAndMergeWithBlockRange: /* Error: Ran out of types for this method. */;
+- (double)NSMutableCopying;
 - (long long)ÝÜÝßHàãäÜèÌéàëÜìLî,ïôï!¤ðñ<ñ¤òóôløø0údúÈú;
 - (void)µ<Ã;
 - (id);
@@ -66,31 +63,31 @@
 - (struct _NSRange)ÌüY¼Z°¸YÀðYä´Y¼¼[ÀìYüà¼[¤°ZÜYà°ZìäX	0°Z¨Ô\À(;
 - (struct _NSRange)Øg Èk;
 - (void)ä!¤"ô¬!è¨!Äü"Äô!Ì¤!Øàô!È"Ô(ô!¨ø!Ð8ô!Àp"ÀX"¨è!°lð! ì!¨Dü!øä! 0°!;
-- (void)ar;
+- (void)pgMar;
 - (void):schemeClr val="phClr"><a:shade val="94000"/><a:satMod val="135000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"><a:shade val="95000"/><a:satMod val="105000"/></a:schemeClr></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (void)></a:(float)arg1 minorFont></a:fontScheme><a:fmtScheme name="Default"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="50000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="35000"><a:schemeClr val="phClr"><a:tint val="37000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:tint val="15000"/><a:satMod val="350000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="1"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:shade val="51000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="80000"><a:schemeClr val="phClr"><a:shade val="93000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="94000"/><a:satMod val="135000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"><a:shade val="95000"/><a:satMod val="105000"/></a:schemeClr></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (void)ationship Id="rId2" Type="http:(_Bool)arg1 //schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships> /* Error: Ran out of types for this method. */;
 - (id)ontent-types;
 - (void)er range {%ld %ld} for CTRun %p. Ignoring the run...;
-- (CDStruct_3fda14a5 *)ng glyphs.;
+- (CDStruct_c3bcf0a7 *)ng glyphs.;
 - (struct _NSRange)lueCount is missing.";
 - (void)ble">%@</style:(struct _NSRange)arg1 style>;
 - (void)le-name="TableCell%lu">
 ;
 - (unsigned long long)F Writer;
 - (void)ateGlyphsForCharacterRange invalid change in length;
-- (void)cation;
-- (float)neBreaking;
+- (void)NSAllowsTighteningForTruncation;
+- (float)NSUsesOptimalLineBreaking;
 - (void)NSFont<%p>;
-- (struct _NSRange);
+- (struct _NSRange)codebase;
 - (_Bool)\height%ld%s;
 - (id)\sn lineWidth}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn bWMode}{\sv 9}}{\sp{\sn fBackground}{\sv 1}}}}}
 ;
-- (CDUnion_09a75e3c *)backgroundone;
-- (void)de;
+- (CDUnion_4707a439 *)cbackgroundone;
+- (void)ViewMode;
 - (struct _NSRange)finish.;
 - (unsigned long long)osedRange is not a subset of the contextRange.;
-- (id)acterSetAttribute;
+- (id)NSCTFontCharacterSetAttribute;
 - (unsigned long long)STextHighlightRun
 	RunIndex:(struct _NSRange)arg1 %u
 	Range:(unsigned int *)arg2 %@
@@ -102,20 +99,6 @@
 - (void);
 
 // Remaining properties
-@property NSAttributedString *attributedString;
-@property(readonly, copy) NSDictionary *attributesForExtraLineFragment;
-@property _Bool bidiProcessingEnabled;
-@property(readonly, copy) NSParagraphStyle *currentParagraphStyle;
-@property(readonly) NSTextContainer *currentTextContainer;
-@property float hyphenationFactor;
-@property(readonly) NSLayoutManager *layoutManager;
-@property double lineFragmentPadding;
-@property(readonly) struct _NSRange paragraphCharacterRange;
-@property(readonly) struct _NSRange paragraphGlyphRange;
-@property(readonly) struct _NSRange paragraphSeparatorCharacterRange;
-@property(readonly) struct _NSRange paragraphSeparatorGlyphRange;
-@property(readonly) NSArray *textContainers;
-@property long long typesetterBehavior;
 @property _Bool usesFontLeading;
 
 @end

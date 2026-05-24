@@ -9,11 +9,10 @@
 @interface NSHelpAttachment
 {
     NSString *markerName;
-    NSString *fileName;
 }
 
 - (id);
-- (id);
+- (id)@"NSHTTPCookie2Storage";
 - (void);
 - (id)ment;
 

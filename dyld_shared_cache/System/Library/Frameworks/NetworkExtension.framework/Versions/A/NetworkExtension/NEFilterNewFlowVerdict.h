@@ -9,10 +9,6 @@
 @interface NEFilterNewFlowVerdict : NEFilterVerdict
 {
     _Bool _filterInbound;
-    _Bool _filterOutbound;
-    long long _statisticsReportFrequency;
-    unsigned long long _peekInboundBytes;
-    unsigned long long _peekOutboundBytes;
 }
 
 + (id);
@@ -22,14 +18,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)setOrderedObject:forKey: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,14 +33,10 @@
 - (id);
 - (void);
 - (id);
-- (id)ID;
+- (id)SocketID;
 
 // Remaining properties
 @property _Bool filterInbound; // @synthesize filterInbound=_filterInbound;
-@property _Bool filterOutbound; // @synthesize filterOutbound=_filterOutbound;
-@property unsigned long long peekInboundBytes; // @synthesize peekInboundBytes=_peekInboundBytes;
-@property unsigned long long peekOutboundBytes; // @synthesize peekOutboundBytes=_peekOutboundBytes;
-@property long long statisticsReportFrequency; // @synthesize statisticsReportFrequency=_statisticsReportFrequency;
 
 @end
 

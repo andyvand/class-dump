@@ -6,33 +6,15 @@
 
 #import <QuickLook/QLClient.h>
 
-@class FPItem, QLThumbnailGenerationRequest, QLThumbnailMetadata;
-@protocol QLThumbnailGeneratorInfo;
-
 @interface QLThumbnail : QLClient
 {
     struct __QLThumbnail *_thumbnailRef;
-    struct CGImage *_image;
-    QLThumbnailMetadata *_properties;
-    id <QLThumbnailGeneratorInfo> _generatorInfo;
-    _Bool _imageComputed;
-    _Bool _isLowQuality;
-    _Bool _forcedContentTypeUTI;
-    int _flavor;
-    QLThumbnailGenerationRequest *_generationRequest;
-    id _queueContext;
-    FPItem *_fpitem;
-    double _minimumDimension;
-    CDUnknownBlockType _completionHandler;
-    struct CGSize _maxSize;
-    struct CGSize _minimumUsefulSize;
-    struct CGRect _contentRect;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id);
++ (id)Ѿ;
 + (id);
 + (struct CGImage *);
 + (struct CGImage *);
@@ -42,16 +24,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (int);
 - (struct CGImage *);
@@ -69,11 +51,11 @@
 - (void);
 - (struct CGImage *);
 - (struct CGImage *);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)7(6';
 - (void);
 - (void);
 - (_Bool);
@@ -93,25 +75,10 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)b;
 - (id)has been invalidated;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property int flavor; // @synthesize flavor=_flavor;
-@property _Bool forcedContentTypeUTI; // @synthesize forcedContentTypeUTI=_forcedContentTypeUTI;
-@property(retain) FPItem *fpitem; // @synthesize fpitem=_fpitem;
-@property(retain) QLThumbnailGenerationRequest *generationRequest; // @synthesize generationRequest=_generationRequest;
-@property(retain) id <QLThumbnailGeneratorInfo> generatorInfo; // @synthesize generatorInfo=_generatorInfo;
-@property struct CGImage *image;
-@property _Bool imageComputed; // @synthesize imageComputed=_imageComputed;
-@property _Bool isLowQuality; // @synthesize isLowQuality=_isLowQuality;
-@property struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property double minimumDimension; // @synthesize minimumDimension=_minimumDimension;
-@property struct CGSize minimumUsefulSize; // @synthesize minimumUsefulSize=_minimumUsefulSize;
-@property(retain) QLThumbnailMetadata *properties; // @synthesize properties=_properties;
-@property(retain) id queueContext; // @synthesize queueContext=_queueContext;
 @property(readonly) struct __QLThumbnail *thumbnailRef;
 
 @end

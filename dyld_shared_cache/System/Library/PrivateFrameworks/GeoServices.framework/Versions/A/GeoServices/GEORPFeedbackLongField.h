@@ -7,22 +7,20 @@
 @interface GEORPFeedbackLongField
 {
     long long _edited;
-    long long _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)KeyOptions:(id)arg1;
++ (_Bool)setKeyOptions:(id)arg1;
 - (void);
-- (void);
+- (void)performSelector:(_Bool)arg1 withObject: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void)kers for a tracker type:(long long)arg1 %@;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,15 +28,12 @@
 - (void);
 - (id){_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16i24i28;
 - (long long)lter"b1"read_transitAttributionFilter"b1"read_transitIncidentFilter"b1"read_transitInfoFilter"b1"read_transitInfoSnippetFilter"b1"read_transitPaymentMethodInfoFilter"b1"read_transitScheduleFilter"b1"read_transitTripGeometryFilter"b1"read_transitTripStopFilter"b1"read_transitTripStopTimeFilter"b1"read_transitVehiclePositionFilter"b1"read_vendorAmenitiesFilter"b1"read_venueInfoFilter"b1"read_visitedPlacesMetaDataFilter"b1"read_visualEvidenceFilter"b1"read_walletCategoryInformationFilter"b1"read_wifiFingerprintFilter"b1"wrote_anyField"b1};
-- (id)tCellTypeAsString: /* Error: Ran out of types for this method. */;
+- (id)autocompleteResultCellTypeAsString: /* Error: Ran out of types for this method. */;
 - (id)kll;
 - (id)cameraInput;
 
 // Remaining properties
-@property(nonatomic) long long edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) long long original;
 
 @end
 

@@ -5,6 +5,9 @@
 //
 
 @protocol OABBasePropertiesManager
+- (int);
+- (int);
+- (struct EshColor);
 - (int)0
 @1À1
 p2;

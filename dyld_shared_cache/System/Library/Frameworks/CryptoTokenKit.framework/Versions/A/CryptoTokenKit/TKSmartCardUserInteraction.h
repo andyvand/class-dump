@@ -9,16 +9,14 @@
 @interface TKSmartCardUserInteraction
 {
     id <TKSmartCardUserInteractionDelegate> _delegate;
-    double _initialTimeout;
-    double _interactionTimeout;
 }
 
-+ (_Bool);
++ (_Bool)getSpeechSynthesisVolumeResponseWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property __weak id <TKSmartCardUserInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property double initialTimeout; // @synthesize initialTimeout=_initialTimeout;
-@property double interactionTimeout; // @synthesize interactionTimeout=_interactionTimeout;
 
 @end
 

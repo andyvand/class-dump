@@ -9,7 +9,6 @@
 @interface TIHandwritingCandidate : TIKeyboardCandidateSingle
 {
     unsigned long long _uniqueID;
-    unsigned long long _completionUniqueID;
 }
 
 + (int);
@@ -26,7 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long completionUniqueID; // @synthesize completionUniqueID=_completionUniqueID;
 @property(readonly, nonatomic) unsigned long long uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

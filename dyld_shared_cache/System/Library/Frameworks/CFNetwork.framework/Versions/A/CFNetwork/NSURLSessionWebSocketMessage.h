@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
+@class NSObject;
 
 @interface NSURLSessionWebSocketMessage
 {
@@ -14,16 +14,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)2f];
 - (_Bool);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSData *data;
-@property(readonly, copy) NSString *string;
 @property(readonly) long long type;
 
 @end

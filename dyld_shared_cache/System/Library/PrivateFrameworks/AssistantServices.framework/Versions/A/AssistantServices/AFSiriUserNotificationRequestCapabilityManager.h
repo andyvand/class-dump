@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol AFAnnouncementRequestCapabilityProviding, OS_dispatch_queue;
+@class NSHashTable;
 
 @interface AFSiriUserNotificationRequestCapabilityManager
 {
     NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <AFAnnouncementRequestCapabilityProviding> _capabilityProvider;
-    long long _platform;
 }
 
 + (_Bool);
@@ -25,11 +21,11 @@
 - (void);
 - (void);
 - (id);
+- (void)carKeyAcceptInvitationWithInvitationIdentifier:(id)arg1 activationCode:(unsigned long long)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)ixel:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)questInitialInterstitialBeginTimeInterval;
+- (void)_activeRequestInitialInterstitialBeginTimeInterval;
 
 @end
 

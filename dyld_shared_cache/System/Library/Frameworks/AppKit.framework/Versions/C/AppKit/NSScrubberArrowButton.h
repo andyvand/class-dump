@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (id);
-- (_Bool);
-- (long long);
+- (_Bool)se>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (long long)setCancellationHandler: /* Error: Ran out of types for this method. */;
 - (id)framework;
 - (_Bool)nt ;
 - (id)@;

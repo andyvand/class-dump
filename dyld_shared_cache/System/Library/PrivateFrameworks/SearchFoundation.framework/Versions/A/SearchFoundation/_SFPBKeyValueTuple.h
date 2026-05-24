@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBKeyValueTuple
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
@@ -17,27 +16,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)notifyWhenGraphReadyWithCoalescingIdentifier:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)olding path %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)CardSection;
+- (void)splitCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

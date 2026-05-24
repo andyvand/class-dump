@@ -10,7 +10,6 @@
 @interface PGUpNextMusicCurator
 {
     NSObject<OS_os_log> *_loggingConnection;
-    _Bool _isAppleMusicSubscriber;
 }
 
 + (id);
@@ -18,11 +17,11 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)_menuDidOpen:(id)arg1;
+- (id)XKElementController"8;
+- (id)6;
 - (id);
-- (id);
-- (id);
-- (void)ryTitleFormat;
+- (void)PGPetAdventuresMemoryTitleFormat;
 
 @end
 

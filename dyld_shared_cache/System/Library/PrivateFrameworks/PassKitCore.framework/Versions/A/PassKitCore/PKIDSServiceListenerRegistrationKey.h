@@ -7,13 +7,12 @@
 @interface PKIDSServiceListenerRegistrationKey
 {
     unsigned short _messageType;
-    _Bool _isRequest;
 }
 
-- (id);
+- (id)*a;
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)rxLatencyTID5s;
+- (id);
 
 @end
 

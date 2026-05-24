@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PowerUIChargingController
 {
     NSObject<OS_os_log> *_log;
-    NSMutableDictionary *_tokenDict;
-    NSLock *_chargeLimitLock;
 }
 
 + (id)ocalContext>"24;
 - (id);
-- (void);
-- (_Bool);
-- (struct __CFString *);
+- (void)Q;
+- (_Bool)initWithMediaType:(long long)arg1;
+- (struct __CFString *)_isRepeatedPromptsSupported;
 - (void);
 - (void);
 - (id);
@@ -34,9 +32,7 @@
 - (void)ÿVÃ]W±;
 
 // Remaining properties
-@property(retain, nonatomic) NSLock *chargeLimitLock; // @synthesize chargeLimitLock=_chargeLimitLock;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSMutableDictionary *tokenDict; // @synthesize tokenDict=_tokenDict;
 
 @end
 

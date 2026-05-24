@@ -7,12 +7,11 @@
 @interface IOCEventMute
 {
     _Bool muted;
-    unsigned int muteDirection;
 }
 
 + (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)H;
 - (id);
 - (id);
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int muteDirection; // @synthesize muteDirection;
-@property(nonatomic) _Bool muted; // @synthesize muted;
 
 @end
 

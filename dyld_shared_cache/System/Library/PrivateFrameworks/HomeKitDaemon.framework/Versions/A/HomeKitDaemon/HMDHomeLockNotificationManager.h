@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDHomeLockNotificationManagerDataSource, OS_dispatch_queue;
+@class NSObject, NSUUID;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeLockNotificationManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_uuid;
-    HMDHome *_home;
-    HMFMessageDispatcher *_msgDispatcher;
-    id <HMDHomeLockNotificationManagerDataSource> _dataSource;
 }
 
 + (id);
 + (id)d@ÿÒ(@B;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ce"16@"NSArray"24;
+- (void)initWithMaximumNumberOfNotifications:(id)arg1 minimumNotificationInterval:(unsigned char)arg2;
+- (void)initWithMachServiceName:(id)arg1 options:(id)arg2;
+- (void)initWithGeoWaypointRoute:(id)arg1 initializerData:(id)arg2;
+- (void)_subscribeToSharedTripUpdatesWithIdentifier:(id)arg1 completion:(id)arg2;
+- (void)_submitWithCallbackQueue:(id)arg1 handler:(id)arg2 networkActivity:(CDUnknownBlockType)arg3;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)hh8);
 - (void);
 - (void);
 - (void);
@@ -42,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Normalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -54,24 +50,7 @@ __attribute__((visibility("hidden")))
 - (id)ä,@;
 
 // Remaining properties
-@property(readonly) id <HMDHomeLockNotificationManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasReachablePrimaryResidentSupportingLockNotificationContext;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

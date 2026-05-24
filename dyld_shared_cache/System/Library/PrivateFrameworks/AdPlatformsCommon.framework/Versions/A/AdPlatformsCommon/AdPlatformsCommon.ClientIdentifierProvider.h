@@ -7,13 +7,6 @@
 @interface AdPlatformsCommon.ClientIdentifierProvider
 {
     id lock;
-    id identifierCache;
-    id identifierRequester;
-    id notificationReceiver;
-    id maxEnrichmentSessionIdCacheSize;
-    id enrichmentSessionIdMappingCache;
-    id enrichmentSessionIdCacheOrder;
-    id sessionProvider;
 }
 
 @end

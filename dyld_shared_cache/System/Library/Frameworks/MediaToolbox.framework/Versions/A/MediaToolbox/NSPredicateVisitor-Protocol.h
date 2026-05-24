@@ -5,8 +5,11 @@
 //
 
 @protocol NSPredicateVisitor
-- (void)edPlaybackSynchronizationTimebase;
-- (void)S_AllowCacheMemoryToBeVolatile;
-- (void)pdateFrameStatus;
+- (void)itemfig_clearCoordinatedPlaybackSynchronizationTimebase;
+- (void)CRABS_AllowCacheMemoryToBeVolatile;
+- (void)SCStreamUpdateFrameStatus;
+
+@optional
+- (void);
 @end
 

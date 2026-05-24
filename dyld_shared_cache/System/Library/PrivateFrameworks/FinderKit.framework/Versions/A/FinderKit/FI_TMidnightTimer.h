@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponents, NSTimer;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TMidnightTimer
 {
     NSTimer *_midnightTimer;
-    NSDate *_midnightFireDate;
-    NSDateComponents *_dateComponents;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
-    TNSWeakPtr_db0eab6c _checkTimerAndFireDateToken;
 }
 
 - (void);

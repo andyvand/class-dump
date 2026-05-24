@@ -9,17 +9,15 @@
 @interface SFLocaleAlternative
 {
     NSLocale *_locale;
-    double _confidence;
 }
 
 - (id);
-- (id);
+- (id)works/AvatarKit.framework;
 - (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end

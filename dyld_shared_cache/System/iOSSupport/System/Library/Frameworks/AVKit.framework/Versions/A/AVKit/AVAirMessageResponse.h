@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVAirMessageResponse
 {
     long long _status;
-    NSString *_localizedDescription;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (long long);
@@ -26,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)"<AVTransitionControllerDelegate>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

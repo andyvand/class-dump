@@ -9,9 +9,9 @@
     _Atomic int _state;
 }
 
+- (void)T7;
 - (void);
-- (void);
-- (void);
+- (void)d.WBSPrivacyProxyAvailabilityManager.%@.%p.notificationQueue;
 - (void);
 - (_Bool);
 - (_Bool);

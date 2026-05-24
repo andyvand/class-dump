@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppleIDPasswordMetadata, NSData, NSDate, NSDictionary, NSString;
-
 @interface CSSESWrapper
 {
     _Bool _recoveryPassphraseMutable;
-    _Bool _useAppleIDPassword;
-    int _reqVersion;
-    AppleIDPasswordMetadata *_appleIDPasswordMetadata;
-    NSString *_decodedLabel;
-    NSDate *_escrowDate;
-    NSData *_recoveryBlob;
-    struct ckvr_srp_context *_ckvr;
-    NSString *_dsid;
-    NSData *_passcodeStashSecret;
-    NSString *_recoveryPassphrase;
-    NSString *_label;
-    NSString *_recordID;
-    NSDictionary *_escrowRecord;
-    NSData *_escrowBlob;
 }
 
 - (_Bool);
@@ -32,9 +16,9 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)k	;
 - (void);
 - (void);
 - (void);
@@ -47,6 +31,7 @@
 - (id);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
 - (id);
@@ -55,8 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct ckvr_srp_context *);
@@ -69,21 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AppleIDPasswordMetadata *appleIDPasswordMetadata; // @synthesize appleIDPasswordMetadata=_appleIDPasswordMetadata;
-@property(readonly, nonatomic) struct ckvr_srp_context *ckvr; // @synthesize ckvr=_ckvr;
-@property(copy, nonatomic) NSString *decodedLabel; // @synthesize decodedLabel=_decodedLabel;
-@property(copy, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSData *escrowBlob; // @synthesize escrowBlob=_escrowBlob;
-@property(copy, nonatomic) NSDate *escrowDate; // @synthesize escrowDate=_escrowDate;
-@property(readonly, copy, nonatomic) NSDictionary *escrowRecord; // @synthesize escrowRecord=_escrowRecord;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSData *passcodeStashSecret; // @synthesize passcodeStashSecret=_passcodeStashSecret;
-@property(readonly, copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(retain) NSData *recoveryBlob; // @synthesize recoveryBlob=_recoveryBlob;
-@property(copy, nonatomic) NSString *recoveryPassphrase; // @synthesize recoveryPassphrase=_recoveryPassphrase;
-@property(nonatomic) _Bool recoveryPassphraseMutable; // @synthesize recoveryPassphraseMutable=_recoveryPassphraseMutable;
 @property(nonatomic) int reqVersion; // @synthesize reqVersion=_reqVersion;
-@property(readonly) _Bool useAppleIDPassword; // @synthesize useAppleIDPassword=_useAppleIDPassword;
 
 @end
 

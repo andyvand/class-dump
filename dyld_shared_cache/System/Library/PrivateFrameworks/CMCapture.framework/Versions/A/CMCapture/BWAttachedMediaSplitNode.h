@@ -6,30 +6,24 @@
 
 #import <CMCapture/BWFanOutNode.h>
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
+@class NSArray;
 
 @interface BWAttachedMediaSplitNode : BWFanOutNode
 {
     NSArray *_attachedMediaKeys;
-    NSMutableDictionary *_attachedMediaFormatDescriptions;
-    NSArray *_attachedMediaToPropagateToPrimaryOutput;
-    NSMutableSet *_disabledAttachedMediaKeys;
-    int _numOutputs;
-    _Bool _emitsNodeErrorsForMissingAttachedMedia;
-    _Bool _emitsDroppedSampleForMissingAttachedMedia;
 }
 
 + (void)CaptureStreams:figCaptureStreams:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id)rmediateBufferPoolDimensions;
+- (id)_intermediateBufferPoolDimensions;
 - (void);
 - (void)ÿùÃÿ;
 - (id)yàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿáÐÿâÒÿãÓÿåÕÿªæÖÿ´éÚÿ½ëÜÿÅíÝÿÍîßÿÖðáÿÝòâÿãôãÿéöäÿïøäÿõúäÿùûäÿûûäÿüüäÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÏÿzàÏÿzàÏÿzàÏÿáÐÿãÒÿäÓÿ¥æÕÿ°éÙÿ¹ëÛÿÂìÜÿËîÞÿÓðßÿÛòáÿâôâÿèöãÿïøãÿôúãÿùûãÿûüãÿüüâÿ;

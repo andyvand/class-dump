@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSPredicate;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _NSPersistentHistoryTransactionPredicateParser
 {
     NSPredicate *_predicate;
-    NSMutableDictionary *_storeTokens;
-    _Bool _hasDate;
-    _Bool _hasTimestamp;
-    NSError *_localError;
 }
 
-- (_Bool);
+- (_Bool)s;
 - (void);
 - (id);
 - (id);

@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface AVMomentCaptureMovieRecordingResolvedSettings
 {
     long long _uniqueID;
-    _Bool _torchEnabled;
-    NSURL *_movieURL;
-    NSURL *_spatialOverCaptureURL;
-    CDStruct_79c71658 _movieDimensions;
 }
 
 + (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (CDStruct_79c71658);
+- (id)returnDate: /* Error: Ran out of types for this method. */;
+- (id)bindNullValueToParameterAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_writeSource;
+- (id)tered for message handling.;
+- (CDStruct_1ef3fb1f)s(MSVHasher * _Nonnull, const void * _Nonnull, size_t);
 - (void);
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly) CDStruct_79c71658 movieDimensions; // @synthesize movieDimensions=_movieDimensions;
-@property(readonly) NSURL *movieURL; // @synthesize movieURL=_movieURL;
-@property(readonly) NSURL *spatialOverCaptureURL; // @synthesize spatialOverCaptureURL=_spatialOverCaptureURL;
-@property(readonly, getter=isTorchEnabled) _Bool torchEnabled; // @synthesize torchEnabled=_torchEnabled;
 @property(readonly) long long uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOLatLng, NSObject;
-@protocol OS_dispatch_queue;
+@class GEOLatLng;
 
 __attribute__((visibility("hidden")))
 @interface _GEOLocationShiftLocation
 {
     GEOLatLng *_latLng;
-    GEOApplicationAuditToken *_auditToken;
-    double _accuracy;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _mustGoToNetworkCallback;
-    CDUnknownBlockType _functionHandler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (id);
@@ -34,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy; // @synthesize accuracy=_accuracy;
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
 @property(readonly, nonatomic) GEOLatLng *latLng; // @synthesize latLng=_latLng;
 
 @end

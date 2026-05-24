@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString, WBSAppIDsToDomainsAssociationManager, WBSAutoFillAssociatedDomainsManager, WBSChangePasswordURLManager, WBSPair, WBSPasswordAuditingEligibleDomainsManager, WBSPasswordGenerationManager, WBSRemotelyUpdatableDataController;
-@protocol OS_dispatch_queue;
+@class WBSPasswordGenerationManager;
 
 @interface WBSAutoFillQuirksManager
 {
     WBSPasswordGenerationManager *_passwordGenerationManager;
-    WBSAutoFillAssociatedDomainsManager *_associatedDomainsManager;
-    WBSRemotelyUpdatableDataController *_remotelyUpdatableDataController;
-    WBSPasswordAuditingEligibleDomainsManager *_passwordAuditingEligibleDomainsManager;
-    WBSAppIDsToDomainsAssociationManager *_appToWebsiteAssociationManager;
-    WBSChangePasswordURLManager *_changePasswordURLManager;
-    NSSet *_domainsThatWhenEmbeddedAsThirdPartyAskForPasswordsForOtherServices;
-    NSString *_importCommit;
-    _Bool _isForTesting;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _shouldAttemptToDownloadConfiguration;
 }
 
 - (_Bool);
@@ -53,7 +42,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (id);
 - (id);
@@ -61,21 +50,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WBSAppIDsToDomainsAssociationManager *appToWebsiteAssociationManager;
-@property(readonly, nonatomic) WBSAutoFillAssociatedDomainsManager *associatedDomainsManager;
-@property(readonly, nonatomic) WBSChangePasswordURLManager *changePasswordURLManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *importCommit;
-@property(readonly, nonatomic) WBSPair *knownWebBrowsersAndExtensionStorefronts;
-@property(readonly, nonatomic) WBSPasswordAuditingEligibleDomainsManager *passwordAuditingEligibleDomainsManager;
 @property(readonly, nonatomic) WBSPasswordGenerationManager *passwordGenerationManager;
-@property(nonatomic) _Bool shouldAttemptToDownloadConfiguration; // @synthesize shouldAttemptToDownloadConfiguration=_shouldAttemptToDownloadConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

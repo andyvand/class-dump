@@ -5,5 +5,8 @@
 //
 
 @protocol FenceGroupMember
+- (void)';
+- (void);
+- (void)H;
 @end
 

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedPreview, UIView, UIViewFloatAnimatableProperty, _UIMorphingPlatterView, _UIPortalView, _UIUnflockReparentingView;
-
 __attribute__((visibility("hidden")))
 @interface _UIUnflockItemAnimation
 {
     long long _type;
-    _UIMorphingPlatterView *_platterView;
-    UITargetedPreview *_destination;
-    UIView *_positionReferenceView;
-    _UIUnflockReparentingView *_reparentingContainerView;
-    _UIPortalView *_reparentingPortalView;
-    UIViewFloatAnimatableProperty *_positionTrackingProperty;
 }
 
 + (id);
@@ -25,26 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
 - (id)0@ù
 × ;
-- (void)CaptureToken;
+- (void)stateCaptureToken;
 - (void)egate>",W,N,S_setDelegate:(long long)arg1 ,V__delegate;
-- (void)elegate;
+- (void)UIWebPDFViewDelegate;
 - (void)onAsPrimaryAction enabled:%@ /* Error: Ran out of types for this method. */;
 - (id)s %@;
 - (void)y¬.3GGG;
 
 // Remaining properties
-@property(retain, nonatomic) UITargetedPreview *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) _UIMorphingPlatterView *platterView; // @synthesize platterView=_platterView;
-@property(retain, nonatomic) UIView *positionReferenceView; // @synthesize positionReferenceView=_positionReferenceView;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *positionTrackingProperty; // @synthesize positionTrackingProperty=_positionTrackingProperty;
-@property(retain, nonatomic) _UIUnflockReparentingView *reparentingContainerView; // @synthesize reparentingContainerView=_reparentingContainerView;
-@property(retain, nonatomic) _UIPortalView *reparentingPortalView; // @synthesize reparentingPortalView=_reparentingPortalView;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

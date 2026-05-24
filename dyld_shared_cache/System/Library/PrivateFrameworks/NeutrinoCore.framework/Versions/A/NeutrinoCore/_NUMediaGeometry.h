@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NUMediaGeometry
 {
     long long _orientation;
-    CDStruct_d58201db _size;
-    CDStruct_1b6d18a9 _duration;
 }
 
 - (id);
@@ -26,16 +22,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

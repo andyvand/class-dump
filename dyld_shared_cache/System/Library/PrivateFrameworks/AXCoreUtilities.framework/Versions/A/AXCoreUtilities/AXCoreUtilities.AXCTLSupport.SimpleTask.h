@@ -7,10 +7,6 @@
 @interface AXCoreUtilities.AXCTLSupport.SimpleTask
 {
     id task;
-    id collectOutput;
-    id stdOutData;
-    id stdErrorData;
-    id result;
 }
 
 - (id);

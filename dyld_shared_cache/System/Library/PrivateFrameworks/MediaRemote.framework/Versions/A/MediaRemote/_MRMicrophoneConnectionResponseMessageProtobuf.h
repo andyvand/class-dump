@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRMicrophoneConnectionResponseMessageProtobuf
 {
     NSData *_pairingData;
-    NSString *_rapportIdentifier;
-    int _result;
-    struct {
-        unsigned int result:1;
-    } _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (int);
@@ -27,26 +22,21 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)_preferredLanguage;
 - (_Bool);
 - (void);
 - (int);
 - (void)1Â0@ù
 × ;
-- (void)ybackRate;
+- (void)_preferredPlaybackRate;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPairingData;
-@property(readonly, nonatomic) _Bool hasRapportIdentifier;
 @property(nonatomic) _Bool hasResult;
-@property(retain, nonatomic) NSData *pairingData; // @synthesize pairingData=_pairingData;
-@property(retain, nonatomic) NSString *rapportIdentifier; // @synthesize rapportIdentifier=_rapportIdentifier;
-@property(nonatomic) int result; // @synthesize result=_result;
 
 @end
 

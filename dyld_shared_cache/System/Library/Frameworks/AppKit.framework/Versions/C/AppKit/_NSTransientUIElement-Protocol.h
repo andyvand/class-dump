@@ -4,14 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSEvent, NSWindow;
+
 @protocol _NSTransientUIElement
+- (long long);
+- (void)?^?}16@0:(NSWindow *)arg1 8;
+- (void)RLCredentialInternal";
+- (void)FURLCredential=}16@0:(NSEvent *)arg1 8;
+
+@optional
+- (_Bool)0gkWjKWKuS2gqzTaFHKxqw;
 
 // Remaining properties
 @property(setter=_setRegisteredTransientBehavior:) long long _registeredTransientBehavior;
-@property(readonly) long long _transientBehavior;
-@property(readonly, getter=isDetached) _Bool detached;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisDetached
-
 @end
 

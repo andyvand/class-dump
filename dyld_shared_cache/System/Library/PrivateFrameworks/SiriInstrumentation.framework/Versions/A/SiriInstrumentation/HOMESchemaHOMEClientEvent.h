@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class HOMESchemaHOMEAssistantDeviceBirthday, HOMESchemaHOMEAssistantInfoReported, HOMESchemaHOMEClientEventMetadata, NSData, SISchemaInstrumentationMessage;
+@class HOMESchemaHOMEClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface HOMESchemaHOMEClientEvent : SISchemaTopLevelUnionType
 {
     HOMESchemaHOMEClientEventMetadata *_eventMetadata;
-    HOMESchemaHOMEAssistantInfoReported *_assistantInfoReported;
-    HOMESchemaHOMEAssistantDeviceBirthday *_assistantDeviceBirthday;
-    _Bool _hasEventMetadata;
-    _Bool _hasAssistantInfoReported;
-    _Bool _hasAssistantDeviceBirthday;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)dler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -46,25 +40,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_cacheMetaData;
 - (id)1Â0@ù
 × ;
-- (id)ce;
-- (unsigned long long)ds;
-- (id)sNetworkError;
+- (id)isQueryStrippedOfWhitespace;
+- (unsigned long long)numberOfSeconds;
+- (id)hasNetworkError;
 - (id)×HÚ;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) HOMESchemaHOMEAssistantDeviceBirthday *assistantDeviceBirthday; // @synthesize assistantDeviceBirthday=_assistantDeviceBirthday;
-@property(retain, nonatomic) HOMESchemaHOMEAssistantInfoReported *assistantInfoReported; // @synthesize assistantInfoReported=_assistantInfoReported;
-@property(retain, nonatomic) HOMESchemaHOMEClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAssistantDeviceBirthday; // @synthesize hasAssistantDeviceBirthday=_hasAssistantDeviceBirthday;
-@property(nonatomic) _Bool hasAssistantInfoReported; // @synthesize hasAssistantInfoReported=_hasAssistantInfoReported;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

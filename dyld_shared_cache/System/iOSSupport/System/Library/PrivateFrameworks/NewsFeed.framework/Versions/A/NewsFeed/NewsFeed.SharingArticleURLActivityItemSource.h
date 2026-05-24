@@ -7,15 +7,11 @@
 @interface NewsFeed.SharingArticleURLActivityItemSource
 {
     id headline;
-    id sourceChannelPublic;
-    id articleURL;
-    id mailShareLinkTextProvider;
-    id linkPresentationSource;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void)0j;
 

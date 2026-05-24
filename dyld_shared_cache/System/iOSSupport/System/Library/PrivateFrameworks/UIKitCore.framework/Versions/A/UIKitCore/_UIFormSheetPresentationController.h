@@ -16,8 +16,8 @@
 × ;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void)rItemAtIndexPath:(id)arg1;
+- (_Bool)I;
+- (void)collectionView:(id)arg1 canPerformPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)3F7DEFECFDF;
 - (void);
 - (struct CGSize);

@@ -7,17 +7,11 @@
 #import <OfficeImport/CHBState.h>
 
 @class EBReaderSheetState, OADColorScheme;
-@protocol CHAutoStyling;
 
 __attribute__((visibility("hidden")))
 @interface CHBReaderState : CHBState
 {
     EBReaderSheetState *mEBReaderSheetState;
-    void *mXlReader;
-    id <CHAutoStyling> mAutoStyling;
-    int mAxisGroup;
-    void *mXlCurrentPlot;
-    int mXlCurrentPlotIndex;
 }
 
 - (void *);
@@ -32,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (const struct XlChartSeriesFormat *);
 - (int);
 - (id);

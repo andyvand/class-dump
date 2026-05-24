@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol MTL4BinaryFunction
+- (unsigned long long)4(;
 
 // Remaining properties
-@property(readonly) unsigned long long functionType;
 @property(readonly) NSString *name;
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface TSPrefetchedArticlesFetchResult
 {
     void selectedArticleID;
-    void articleIDs;
-    void prefetchedHeadlines;
 }
 
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -22,8 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *articleIDs;
-@property(nonatomic, readonly) NSDictionary *prefetchedHeadlines;
 @property(nonatomic, readonly) NSString *selectedArticleID;
 
 @end

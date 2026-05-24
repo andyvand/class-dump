@@ -6,26 +6,25 @@
 
 #import <TSUtility/TSUFlushableObject.h>
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface TSUCache : TSUFlushableObject
 {
     NSString *mCacheName;
-    NSMutableDictionary *mCache;
 }
 
-- (id);
-- (void);
+- (id)inlineCategoriesKnobs;
+- (void)featuredIssueArticleKnobs;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)i;
 - (void);
 - (unsigned long long);
 

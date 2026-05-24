@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSOrderedSet, SXComponentDependencyResolver, SXLayoutOptions;
-@protocol SXComponentBlueprintFactory, SXUnitConverterFactory;
+@protocol SXComponentBlueprintFactory;
 
 @interface SXLayoutBlueprint
 {
     _Bool _isComplete;
-    _Bool _updating;
-    SXLayoutBlueprint *_parentLayoutBlueprint;
-    SXLayoutOptions *_layoutOptions;
-    id <SXComponentBlueprintFactory> _componentBlueprintFactory;
-    id <SXUnitConverterFactory> _unitConverterFactory;
-    NSMutableDictionary *_blueprint;
-    NSMutableDictionary *_flattenedBlueprint;
-    NSMutableArray *_orderedComponentIdentifiers;
-    NSMutableSet *_invalidatedComponents;
-    SXComponentDependencyResolver *_dependencySolver;
-    NSOrderedSet *_snapLines;
-    struct CGSize _blueprintSize;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -48,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
@@ -71,27 +58,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)tSize: /* Error: Ran out of types for this method. */;
+- (_Bool)autosizedFrameForTextLayout:textSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *blueprint; // @synthesize blueprint=_blueprint;
-@property(nonatomic) struct CGSize blueprintSize; // @synthesize blueprintSize=_blueprintSize;
 @property(readonly, nonatomic) id <SXComponentBlueprintFactory> componentBlueprintFactory; // @synthesize componentBlueprintFactory=_componentBlueprintFactory;
-@property(retain, nonatomic) SXComponentDependencyResolver *dependencySolver; // @synthesize dependencySolver=_dependencySolver;
-@property(retain, nonatomic) NSMutableDictionary *flattenedBlueprint; // @synthesize flattenedBlueprint=_flattenedBlueprint;
-@property(retain, nonatomic) NSMutableSet *invalidatedComponents; // @synthesize invalidatedComponents=_invalidatedComponents;
-@property(readonly, nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, nonatomic) SXLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;
-@property(retain, nonatomic) NSMutableArray *orderedComponentIdentifiers; // @synthesize orderedComponentIdentifiers=_orderedComponentIdentifiers;
-@property(nonatomic) __weak SXLayoutBlueprint *parentLayoutBlueprint; // @synthesize parentLayoutBlueprint=_parentLayoutBlueprint;
-@property(readonly, nonatomic) SXLayoutBlueprint *rootLayoutBlueprint;
-@property(retain, nonatomic) NSOrderedSet *snapLines; // @synthesize snapLines=_snapLines;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
-@property(nonatomic, getter=isUpdating) _Bool updating; // @synthesize updating=_updating;
 
 @end
 

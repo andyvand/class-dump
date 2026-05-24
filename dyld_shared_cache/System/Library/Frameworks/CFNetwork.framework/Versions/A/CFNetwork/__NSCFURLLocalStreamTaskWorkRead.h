@@ -6,19 +6,13 @@
 
 #import <CFNetwork/__NSCFURLLocalStreamTaskWork.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskWorkRead : __NSCFURLLocalStreamTaskWork
 {
     unsigned int _minBytes;
-    unsigned int _maxBytes;
-    CDUnknownBlockType _completion;
-    NSData *_readData;
-    _Bool _eof;
 }
 
-- (void);
+- (void)gravecmb;
 
 @end
 

@@ -9,12 +9,11 @@
 @interface WiFiUsageUserSession : WiFiUsageSession
 {
     _Bool _userInactive;
-    _Bool _deviceLocked;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 

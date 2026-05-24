@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPKeyValueObserver
 {
     id _object;
-    NSString *_keyPath;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -19,11 +15,9 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)ber__MAPPING_MISSING__;
+- (void)__MPModelPropertyTVSeasonNumber__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(readonly, nonatomic) __weak id object; // @synthesize object=_object;
 
 @end

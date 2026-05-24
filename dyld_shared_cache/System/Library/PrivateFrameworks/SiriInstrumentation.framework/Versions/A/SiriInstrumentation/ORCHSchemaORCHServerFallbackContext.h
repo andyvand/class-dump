@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHServerFallbackFailed, ORCHSchemaORCHServerFallbackInitiated, ORCHSchemaORCHServerFallbackResponseReceived, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHServerFallbackContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    ORCHSchemaORCHServerFallbackInitiated *_startedOrChanged;
-    ORCHSchemaORCHServerFallbackResponseReceived *_ended;
-    ORCHSchemaORCHServerFallbackFailed *_failed;
-    SISchemaUUID *_trpId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTrpId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -32,14 +22,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
+- (void)A4;
 - (_Bool);
 - (void);
 - (void);
@@ -56,7 +46,7 @@
 - (id);
 - (id)!tEùñÝÐ1Â0@ù
 × ;
-- (id)iDialogOutput;
+- (id)_displayedSiriDialogOutput;
 - (id)try",&,N,V_entry;
 - (void)Id;
 - (void);
@@ -64,17 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) ORCHSchemaORCHServerFallbackResponseReceived *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHServerFallbackFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHServerFallbackInitiated *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

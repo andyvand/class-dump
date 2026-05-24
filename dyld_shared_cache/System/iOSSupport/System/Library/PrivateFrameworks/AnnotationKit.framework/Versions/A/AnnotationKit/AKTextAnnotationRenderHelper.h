@@ -8,8 +8,8 @@
 {
 }
 
-+ (struct CGSize);
-+ (void);
++ (struct CGSize);
++ (void);
 + (_Bool);
 + (void);
 + (id);

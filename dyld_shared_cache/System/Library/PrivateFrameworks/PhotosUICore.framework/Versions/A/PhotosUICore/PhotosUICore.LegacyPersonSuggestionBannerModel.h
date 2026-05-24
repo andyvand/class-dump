@@ -7,17 +7,6 @@
 @interface PhotosUICore.LegacyPersonSuggestionBannerModel
 {
     id dataSource;
-    id _isBannerCompleted;
-    id $__lazy_storage_$_proxy;
-    id useCase;
-    id _avatarPerson;
-    id avatarStyle;
-    id title;
-    id subtitle;
-    id primaryButtonTitle;
-    id _bannerViewControllerToPresent;
-    id id;
-    id _$observationRegistrar;
 }
 
 @end

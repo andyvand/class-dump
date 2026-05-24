@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface GEOXPCConnection
 {
     CDUnknownBlockType _creationBlock;
-    geo_isolater *_connectionIsolater;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _eventHandler;
-    NSMapTable *_barrierDelegates;
-    _Bool _greetingSent;
-    _Bool _hasActiveBarrier;
-    _Bool _reconnectAutomatically;
-    unsigned long long _serverType;
-    NSString *_debugIdentifier;
-    CDUnknownBlockType _reconnectBlock;
 }
 
-+ (void);
-+ (void);
++ (void)_isExtendedGreenTeaDeviceStorage;
++ (void)_immediateScheduler;
 + (id);
 + (CDUnknownBlockType);
 + (id);
@@ -44,17 +30,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)calendarWithIdentifier:(id)arg1;
+- (void)addPersistentStoreWithDescription: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ervices;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id)Attribution";
-- (id)etEvChargingMode: /* Error: Ran out of types for this method. */;
-- (_Bool)ityScore;
+- (id)setEvChargingMode: /* Error: Ran out of types for this method. */;
+- (_Bool)_densityScore;
 - (void)SearchKeyValueBytesPairReadAllFrom can only be called once per object;
 - (id);
 - (void)0;
@@ -64,11 +50,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(nonatomic) _Bool reconnectAutomatically; // @synthesize reconnectAutomatically=_reconnectAutomatically;
-@property(copy, nonatomic) CDUnknownBlockType reconnectBlock; // @synthesize reconnectBlock=_reconnectBlock;
-@property(readonly, nonatomic) unsigned long long serverType; // @synthesize serverType=_serverType;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcConnection;
 
 @end
 

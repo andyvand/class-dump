@@ -6,13 +6,11 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString, PKDrawing;
+@class PKDrawing;
 
 @interface AKInkAnnotation : AKAnnotation
 {
     PKDrawing *_drawing;
-    struct CGSize _drawingSize;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -26,29 +24,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)gCardinalNumber;
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)daemon was interrupted:(struct CGPoint)arg1 %p;
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property struct CGSize drawingSize; // @synthesize drawingSize=_drawingSize;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 
 @end
 

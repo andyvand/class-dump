@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDataDetector, NSString;
+@class NSString;
 
 @interface CNAutocompleteResultNamer
 {
     _Bool _includeAddress;
-    _Bool _onlyEmailFormat;
-    NSString *_prefix;
-    NSString *_addressString;
-    NSDataDetector *_phoneNumberDetector;
 }
 
 + (id);
@@ -46,10 +42,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *addressString; // @synthesize addressString=_addressString;
-@property _Bool includeAddress; // @synthesize includeAddress=_includeAddress;
-@property _Bool onlyEmailFormat; // @synthesize onlyEmailFormat=_onlyEmailFormat;
-@property(retain) NSDataDetector *phoneNumberDetector; // @synthesize phoneNumberDetector=_phoneNumberDetector;
 @property(copy) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end

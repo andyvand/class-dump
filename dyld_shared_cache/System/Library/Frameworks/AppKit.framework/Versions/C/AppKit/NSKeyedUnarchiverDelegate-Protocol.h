@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSKeyedUnarchiver;
+
 @protocol NSKeyedUnarchiverDelegate
+
+@optional
+- (void)an retry(%c) with reason(%d) for error [%ld:(NSKeyedUnarchiver *)arg1 %d];
+- (void)d) bytes written(%c);
+- (void)ror [%ld:(NSKeyedUnarchiver *)arg1 %d];
 @end
 

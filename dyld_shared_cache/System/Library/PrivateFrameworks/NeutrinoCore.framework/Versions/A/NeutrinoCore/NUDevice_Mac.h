@@ -15,13 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDiscrete) _Bool discrete;
 @property(readonly, nonatomic, getter=isIntegrated) _Bool integrated;
 
 @end

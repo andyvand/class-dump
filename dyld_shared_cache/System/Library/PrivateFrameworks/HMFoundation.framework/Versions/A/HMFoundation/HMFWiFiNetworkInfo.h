@@ -6,15 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFMACAddress, NSArray, NSString;
+@class HMFMACAddress;
 
 @interface HMFWiFiNetworkInfo : HMFObject
 {
     HMFMACAddress *_MACAddress;
-    NSString *_SSID;
-    NSString *_networkBSSID;
-    NSString *_networkGatewayIPAddress;
-    NSString *_networkGatewayMACAddress;
 }
 
 - (id);
@@ -24,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(	M	5	8	M	%	?	;
 - (_Bool);
 - (void);
-- (id);
+- (id)navailable>;
 - (id);
 - (id);
 - (void);
@@ -35,27 +31,6 @@
 
 // Remaining properties
 @property(readonly, copy) HMFMACAddress *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(readonly, copy) NSString *SSID; // @synthesize SSID=_SSID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *networkBSSID; // @synthesize networkBSSID=_networkBSSID;
-@property(readonly, copy) NSString *networkGatewayIPAddress; // @synthesize networkGatewayIPAddress=_networkGatewayIPAddress;
-@property(readonly, copy) NSString *networkGatewayMACAddress; // @synthesize networkGatewayMACAddress=_networkGatewayMACAddress;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

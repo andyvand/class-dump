@@ -5,5 +5,9 @@
 //
 
 @protocol SFXPCInterface
+
+@optional
+- (void);
+- (void)ttempt;
 @end
 

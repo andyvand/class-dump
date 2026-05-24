@@ -11,7 +11,6 @@
 @interface CKMarkNotificationsReadOperation : CKOperation
 {
     NSArray *_notificationIDs;
-    CDUnknownBlockType _markNotificationsReadCompletionBlock;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 - (void)";
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType markNotificationsReadCompletionBlock; // @synthesize markNotificationsReadCompletionBlock=_markNotificationsReadCompletionBlock;
 @property(copy, nonatomic) NSArray *notificationIDs; // @synthesize notificationIDs=_notificationIDs;
 
 @end

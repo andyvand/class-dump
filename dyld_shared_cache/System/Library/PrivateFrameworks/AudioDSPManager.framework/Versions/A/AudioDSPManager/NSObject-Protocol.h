@@ -9,13 +9,10 @@
 @protocol NSObject
 - (struct _NSZone *)!ø8¤!ø5"è5+à8¼+Ü8Ì,8ì-à8ð-¼;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

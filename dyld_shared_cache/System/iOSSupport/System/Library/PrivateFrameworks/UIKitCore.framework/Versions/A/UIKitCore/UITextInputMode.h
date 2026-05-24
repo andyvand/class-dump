@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
++ (id)N;
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (void)tWithTitle:(id)arg1 action:keyEquivalent: /* Error: Ran out of types for this method. */;
+- (void)initWithTitle:(id)arg1 action:keyEquivalent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *primaryLanguage;

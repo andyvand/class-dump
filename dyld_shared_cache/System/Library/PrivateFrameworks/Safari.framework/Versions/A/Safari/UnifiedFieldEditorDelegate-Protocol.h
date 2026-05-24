@@ -5,5 +5,7 @@
 //
 
 @protocol UnifiedFieldEditorDelegate
+- (_Bool)B;
+- (void)P;
 @end
 

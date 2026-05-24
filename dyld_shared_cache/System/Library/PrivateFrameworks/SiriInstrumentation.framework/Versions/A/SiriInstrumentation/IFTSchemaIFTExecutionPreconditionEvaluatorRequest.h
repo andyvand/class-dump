@@ -6,16 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest, NSData;
+@class IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest;
 
 @interface IFTSchemaIFTExecutionPreconditionEvaluatorRequest : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest *_request;
-    _Bool _hasRequest;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,15 +25,13 @@
 - (id);
 - (id)
 × ;
-- (id)ineRequest:(id)arg1;
+- (id)setIsIntelligenceEngineRequest:(id)arg1;
 - (id);
-- (void)NERATION_SERVICE_SETUP;
+- (void)IFPLATFORMTARGET_RESPONSE_GENERATION_SERVICE_SETUP;
 - (void)&i¯Ât#;
 - (_Bool)r*;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequest; // @synthesize hasRequest=_hasRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest *request; // @synthesize request=_request;
 
 @end

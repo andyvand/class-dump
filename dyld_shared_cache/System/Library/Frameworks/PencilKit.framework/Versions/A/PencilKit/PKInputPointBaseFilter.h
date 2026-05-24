@@ -7,8 +7,6 @@
 @interface PKInputPointBaseFilter
 {
     double _maxZDistance;
-    long long _numInputPoints;
-    CDStruct_4cc01785 _filteredPoint;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_4cc01785 filteredPoint; // @synthesize filteredPoint=_filteredPoint;
-@property(nonatomic) double maxZDistance; // @synthesize maxZDistance=_maxZDistance;
 @property(nonatomic) long long numInputPoints; // @synthesize numInputPoints=_numInputPoints;
 
 @end

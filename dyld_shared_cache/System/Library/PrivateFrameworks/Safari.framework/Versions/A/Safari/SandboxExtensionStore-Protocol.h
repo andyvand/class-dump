@@ -5,5 +5,7 @@
 //
 
 @protocol SandboxExtensionStore
+- (void);
+- (void);
 @end
 

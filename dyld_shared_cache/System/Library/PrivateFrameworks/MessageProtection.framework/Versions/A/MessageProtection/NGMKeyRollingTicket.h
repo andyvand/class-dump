@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NGMFullPrekey, NGMPublicDeviceIdentity;
+@class NGMFullPrekey;
 
 @interface NGMKeyRollingTicket
 {
     NGMFullPrekey *_prekey;
-    NGMPublicDeviceIdentity *_registrationInfo;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)isLocallyAdministeredBitSetInBSSData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NGMFullPrekey *prekey; // @synthesize prekey=_prekey;
-@property(readonly, nonatomic) NGMPublicDeviceIdentity *registrationInfo; // @synthesize registrationInfo=_registrationInfo;
 
 @end
 

@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (id);
++ (void)__PLSlalomRegionEditorAccessibility_super;
+- (id);
 
 @end
 

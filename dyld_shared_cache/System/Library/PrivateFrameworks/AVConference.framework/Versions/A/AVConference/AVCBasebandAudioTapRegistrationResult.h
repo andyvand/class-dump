@@ -7,27 +7,21 @@
 @interface AVCBasebandAudioTapRegistrationResult
 {
     _Bool _didSucceed;
-    long long _tapToken;
-    long long _uplinkToken;
-    long long _downlinkToken;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id){;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(nonatomic) long long downlinkToken; // @synthesize downlinkToken=_downlinkToken;
-@property(nonatomic) long long tapToken; // @synthesize tapToken=_tapToken;
-@property(nonatomic) long long uplinkToken; // @synthesize uplinkToken=_uplinkToken;
 
 @end
 

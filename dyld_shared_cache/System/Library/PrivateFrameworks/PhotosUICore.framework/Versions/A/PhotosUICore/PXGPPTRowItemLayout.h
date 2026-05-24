@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface PXGPPTRowItemLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned int _colorSpriteIndex;
-    NSColor *_color;
 }
 
 - (void);
@@ -25,13 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

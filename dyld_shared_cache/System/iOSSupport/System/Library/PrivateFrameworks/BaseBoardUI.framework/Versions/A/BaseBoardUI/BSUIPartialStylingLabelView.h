@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIColor, UIFont, UILabel;
+@class UIFont;
 
 @interface BSUIPartialStylingLabelView
 {
     CDUnknownBlockType _rangeFindingBlock;
-    UILabel *_tokenTypeLabel;
-    NSString *_rawText;
-    NSAttributedString *_rawAttributedText;
-    UILabel *_contentLabel;
 }
 
 
 // Remaining properties
-@property(nonatomic, getter=_textAlignmentFollowsWritingDirection, setter=_setTextAlignmentFollowsWritingDirection:) _Bool _textAlignmentFollowsWritingDirection;
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(readonly, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;
 @property(retain, nonatomic) UIFont *font;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) long long numberOfLines;
-@property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
 @end
 

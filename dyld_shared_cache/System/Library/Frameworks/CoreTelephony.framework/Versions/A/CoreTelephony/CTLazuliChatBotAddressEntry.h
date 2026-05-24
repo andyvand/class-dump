@@ -9,14 +9,13 @@
 @interface CTLazuliChatBotAddressEntry
 {
     NSString *_address;
-    NSString *_label;
 }
 
-+ (_Bool);
++ (_Bool)add an output that has already been added to another AVAssetReader;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

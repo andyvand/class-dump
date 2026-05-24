@@ -9,31 +9,27 @@
 @interface BMPBMailContentHeaderEntry
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)h"m8;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)updateSelectedKnobContents;
 - (id);
 - (id);
 - (id);
-- (_Bool)SCRIPTION_TYPE__ALTER_SUBSCRIPTION_OPTIONS;
-- (void)ogyString;
+- (_Bool)PG_QUERY__ALTER_SUBSCRIPTION_TYPE__ALTER_SUBSCRIPTION_OPTIONS;
+- (void)technologyString;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

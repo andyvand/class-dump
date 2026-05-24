@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMIPerson
 {
     NSUUID *_UUID;
-    NSString *_name;
-    NSSet *_personLinks;
 }
 
-+ (id);
-+ (_Bool);
++ (id)�;
++ (_Bool)qA;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Key = WTF:(struct _NSZone *)arg1:ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSSet *personLinks; // @synthesize personLinks=_personLinks;
 
 @end
 

@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFEnablementConfigurationProviderParameters, AFExperiment, NSDate, NSDictionary, NSError, NSString;
+@class AFEnablementConfigurationProviderParameters;
 
 @interface _AFEnablementConfigurationProviderParametersMutation
 {
     AFEnablementConfigurationProviderParameters *_base;
-    long long _enablementFlow;
-    _Bool _newUser;
-    NSError *_userStatusFetchError;
-    NSDate *_dateStartedResolvingUserStatus;
-    NSDate *_dateEndedResolvingUserStatus;
-    AFExperiment *_experiment;
-    NSError *_experimentFetchError;
-    NSDate *_dateStartedResolvingExperiment;
-    NSDate *_dateEndedResolvingExperiment;
-    NSDictionary *_outputVoiceCountForRecognitionLanguage;
-    _Bool _recognitionLanguageWithMultipleOutputVoicesExists;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasEnablementFlow:1;
-        unsigned int hasNewUser:1;
-        unsigned int hasUserStatusFetchError:1;
-        unsigned int hasDateStartedResolvingUserStatus:1;
-        unsigned int hasDateEndedResolvingUserStatus:1;
-        unsigned int hasExperiment:1;
-        unsigned int hasExperimentFetchError:1;
-        unsigned int hasDateStartedResolvingExperiment:1;
-        unsigned int hasDateEndedResolvingExperiment:1;
-        unsigned int hasOutputVoiceCountForRecognitionLanguage:1;
-        unsigned int hasRecognitionLanguageWithMultipleOutputVoicesExists:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -41,15 +16,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
+- (void)q;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)Q?%;
 - (id);
 - (id);
 - (long long);
@@ -57,19 +32,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_selectedPaymentOffer;
 - (_Bool);
-- (id)echResponseFailure;
-- (void)eOptionFromMediaRemoteRepresentation: /* Error: Ran out of types for this method. */;
+- (id)speechResponseFailure;
+- (void)_languageOptionFromMediaRemoteRepresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

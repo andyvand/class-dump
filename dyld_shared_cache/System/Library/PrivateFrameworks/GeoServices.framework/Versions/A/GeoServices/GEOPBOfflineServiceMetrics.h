@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPBOfflineServiceMetrics
 {
     unsigned long long _startTimeMs;
-    unsigned long long _stopTimeMs;
-    int _serviceId;
-    struct {
-        unsigned int has_startTimeMs:1;
-        unsigned int has_stopTimeMs:1;
-        unsigned int has_serviceId:1;
-    } _flags;
 }
 
 - (id);

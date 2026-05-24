@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPCacheHitFeedback
+- (NSString *);
+- (NSString *)TUAudioSystemActiveCategoryVolumeChangedNotification;
 - (void)mentTriggeredFeedback";
-- (int)chFeedback;
+- (int)_didGoToSearchFeedback;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
-@property(copy, nonatomic) NSString *uuid;
 @end
 

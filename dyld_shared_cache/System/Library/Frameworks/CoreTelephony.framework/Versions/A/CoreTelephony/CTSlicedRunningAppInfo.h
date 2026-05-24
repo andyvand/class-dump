@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CTSlicedRunningAppInfo
 {
     NSString *_bundleId;
-    NSNumber *_foreground;
-    NSArray *_interfaces;
 }
 
-+ (_Bool);
++ (_Bool)meric - see CMTIME_IS_NUMERIC;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)4	;
+- (void)makeUserWithUUID:(id)arg1 disk:database:controller: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSNumber *foreground; // @synthesize foreground=_foreground;
-@property(retain, nonatomic) NSArray *interfaces; // @synthesize interfaces=_interfaces;
 
 @end
 

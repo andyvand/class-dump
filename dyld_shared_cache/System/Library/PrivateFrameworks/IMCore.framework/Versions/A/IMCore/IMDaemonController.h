@@ -4,71 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDaemonListener, IMDaemonQueryController, IMDistributingProxy, IMMultiplexedDaemonConnection, NSArray, NSDictionary, NSMapTable, NSMutableDictionary, NSString;
-@protocol IMDaemonConnectionManaging, IMDaemonProtocol;
-
 @interface IMDaemonController
 {
     _Bool __blocksConnectionAtResume;
-    _Bool _blockMainThreadForNewSetup;
-    struct os_unfair_lock_s _lock;
-    id _delegate;
-    IMDaemonListener *_listener;
-    NSString *_listenerID;
-    IMDaemonQueryController *_queryController;
-    NSArray *__servicesToAllow;
-    NSArray *__servicesToDeny;
-    NSDictionary *_processContext;
-    unsigned long long _processCapabilities;
-    id <IMDaemonConnectionManaging> _connection;
-    NSMapTable *_multiplexedConnections;
-    NSMutableDictionary *_retainedMultiplexedConnections;
-    IMMultiplexedDaemonConnection *_anonymousMultiplexedConnection;
-    IMDistributingProxy *_remoteDaemonProxy;
 }
 
-+ (void);
++ (void)E;
 + (id);
 + (id)R;
+- (id)dedFrame;
+- (void)%s] %s:%d destination=%@, callID=%@, error=%@ /* Error: Ran out of types for this method. */;
+- (void)re configured with the same prominence indices;
+- (_Bool)amter;
+- (void)rtStream that is not externally scheduled;
+- (void)allocate payloadListValue;
+- (void)=%d;
+- (id)etThread=%p Failed to create packet thread %d;
+- (void)to store the last two played samples for crossfade. sampleCount=%d;
+- (id)'t decode any samples this cycle. Output buffer should compensate to return erased samples to caller. Moving up the inputSamplesTS to account for implicit erasure. originalInputSamplesTS=%u samples=%d sampleCount=%d;
+- (id)amples for crossfade. bytesOut=%d;
+- (id)re the last two decoded samples for crossfade. bytesOut=%d;
+- (id)ueueSizeThresholdMet=%d, packetLifetimeThresholdMet=%d, growthModeDtxOrLoss=%d;
+- (id)ient has died. Cleaning up VCEffectsMananger by removing associated objects;
+- (_Bool)nner=%d, isInternalBuild=%d;
+- (_Bool)%s:%d @:@ AVCRemoteVideoClient-init (%p) streamToken=%ld /* Error: Ran out of types for this method. */;
+- (id)yptMessageWithMKI='%@' message='%@', sequenceNumber='%d';
+- (_Bool)g message for _sessionID='%d', participantID='%@';
+- (void)shared instance of NAT64Resolver does not exist. Creating it...;
+- (void)] %s:(id)arg1 %d StreamGroup:%s VideoStreamIDs:%@ videoMediaBitrates:%@ for targetBitrate:%d /* Error: Ran out of types for this method. */;
+- (void)apture settings %dx%d %d fps;
+- (void)er;
+- (id)e payload types set;
+- (void)] %s:%d VCSession received message about CellTech change :%d, remote bitrate %u /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)queue;
+- (_Bool)reshold=%llu;
+- (void)s] %s:(id)arg1 %d SIPClientDataDictionary dealloc;
+- (void)cipant while in 1:(_Bool)arg1 1 mode!;
+- (void)s:(CDUnknownBlockType)arg1 %d Attempting to add another participant while in 1:1 mode! /* Error: Ran out of types for this method. */;
+- (_Bool)sing default value=%d;
+- (unsigned long long)ller with status=%{BOOL}d;
+- (unsigned long long)ured;
+- (void)as nil;
+- (void)[%s] %s:%d %@(%p) OneToOne config was nil /* Error: Ran out of types for this method. */;
+- (_Bool)y=%s;
+- (void)ce context is nil (in VideoConferenceManagerCategories) <<<<<;
+- (id)<<<<<;
+- (id)%@ streamToken=%u;
 - (id);
 - (id);
 - (unsigned long long);
@@ -85,40 +67,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_initializeFindMySessionIfInAllowedProcess;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (_Bool);
 - (unsigned long long);
-- (struct os_unfair_lock_s)tDigest;
+- (struct os_unfair_lock_s)cachedRecipientDigest;
 - (void)^;
 
 // Remaining properties
-@property(nonatomic, setter=_setBlocksConnectionAtResume:) _Bool _blocksConnectionAtResume; // @synthesize _blocksConnectionAtResume=__blocksConnectionAtResume;
-@property(retain, setter=_setServicesToAllow:) NSArray *_servicesToAllow; // @synthesize _servicesToAllow=__servicesToAllow;
-@property(retain, setter=_setServicesToDeny:) NSArray *_servicesToDeny; // @synthesize _servicesToDeny=__servicesToDeny;
-@property(retain, nonatomic) IMMultiplexedDaemonConnection *anonymousMultiplexedConnection; // @synthesize anonymousMultiplexedConnection=_anonymousMultiplexedConnection;
-@property(nonatomic) _Bool blockMainThreadForNewSetup; // @synthesize blockMainThreadForNewSetup=_blockMainThreadForNewSetup;
-@property(readonly, nonatomic) unsigned int capabilities;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) id <IMDaemonConnectionManaging> connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isConnecting;
-@property(readonly, nonatomic) IMDaemonListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic, setter=_setListenerID:) NSString *listenerID; // @synthesize listenerID=_listenerID;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSMapTable *multiplexedConnections; // @synthesize multiplexedConnections=_multiplexedConnections;
-@property(nonatomic) unsigned long long processCapabilities; // @synthesize processCapabilities=_processCapabilities;
-@property(readonly, nonatomic) NSDictionary *processContext; // @synthesize processContext=_processContext;
-@property(readonly, nonatomic) IMDaemonQueryController *queryController; // @synthesize queryController=_queryController;
-@property(readonly, nonatomic) id <IMDaemonProtocol> remoteDaemon;
-@property(readonly, nonatomic) IMDistributingProxy *remoteDaemonProxy; // @synthesize remoteDaemonProxy=_remoteDaemonProxy;
-@property(readonly, nonatomic) id <IMDaemonProtocol> replyingRemoteDaemon;
-@property(readonly, nonatomic) NSMutableDictionary *retainedMultiplexedConnections; // @synthesize retainedMultiplexedConnections=_retainedMultiplexedConnections;
-@property(readonly, nonatomic) id <IMDaemonProtocol> synchronousRemoteDaemon;
-@property(readonly, nonatomic) id <IMDaemonProtocol> synchronousReplyingRemoteDaemon;
 
 @end
 

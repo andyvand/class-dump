@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
+- (id)ib/libSystem.B.dylib;
+- (void)TQ,R;
 - (void);
 - (id);
 - (void)|%{public}@ %{public}@ %2i %{public}@  â alternate:%{public}@ /* Error: Ran out of types for this method. */;

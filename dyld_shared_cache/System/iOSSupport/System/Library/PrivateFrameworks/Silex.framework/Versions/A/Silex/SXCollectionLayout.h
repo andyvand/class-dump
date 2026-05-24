@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SXCollectionLayout
 {
     double _spaceBetweenRows;
-    NSArray *_rowsLayouts;
 }
 
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)Yh@�X @y`;
 - (id);
 - (void)4@0:8@"SXTextSource"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *rowsLayouts; // @synthesize rowsLayouts=_rowsLayouts;
 @property(nonatomic) double spaceBetweenRows; // @synthesize spaceBetweenRows=_spaceBetweenRows;
 
 @end

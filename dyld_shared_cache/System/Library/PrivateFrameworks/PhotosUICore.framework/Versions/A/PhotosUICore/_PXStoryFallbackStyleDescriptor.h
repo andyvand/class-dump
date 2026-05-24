@@ -5,7 +5,6 @@
 //
 
 @class NSString;
-@protocol PXStoryAutoEditDecisionList, PXStorySongResource;
 
 @interface _PXStoryFallbackStyleDescriptor
 {
@@ -16,15 +15,10 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList;
-@property(readonly, nonatomic) long long customColorGradeKind;
-@property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCustomized;
 @property(readonly, nonatomic) NSString *originalColorGradeCategory;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource;
 
 @end
 

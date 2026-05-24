@@ -7,6 +7,7 @@
 @class EMQuery;
 
 @protocol EDMessageRepositoryQueryHandler
+- (void)UsoEntityBuilderProtocol_appleTimer_TimerAttribute;
 - (void);
 
 // Remaining properties

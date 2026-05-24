@@ -7,15 +7,6 @@
 @interface NewsFeed.FeedModelFactory
 {
     id feedHeadlineFactory;
-    id feedIssueFactory;
-    id feedTagFactory;
-    id feedWebEmbedFactory;
-    id feedCustomItemFactory;
-    id feedBannerAdFactory;
-    id feedPuzzleFactory;
-    id feedPuzzleTypeFactory;
-    id feedPuzzleStatisticFactory;
-    id feedRecipeFactory;
 }
 
 @end

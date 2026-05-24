@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIApplicationSceneSettings, UIScene;
+@class UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneLifecycleMultiplexer
 {
     UIScene *_uiSceneOfRecord;
-    UIApplicationSceneSettings *_transitionalLifecycleState;
-    struct {
-        unsigned int completedLaunch:1;
-        unsigned int activatedOnce:1;
-    } _multiplexerFlags;
 }
 
 + (id);
-+ (void);
++ (void)performAnimatableChanges:(unsigned long long)arg1 animated:completion: /* Error: Ran out of types for this method. */;
 + (id);
 + (id)ù\1Â0@ù
 × ;
 + (id)× ;
-+ (long long);
++ (long long)_shouldProxyContextMenuDelegate;
 + (id)þ;
 + (id)PQk;
 - (id);
@@ -42,9 +37,9 @@ __attribute__((visibility("hidden")))
 - (long long)
 × ;
 - (void)DeliveryTarget>";
-- (void)etDictationAutoPunctuation:(id)arg1;
-- (_Bool)ondaryLabelColor;
-- (_Bool)tifierAfterIdentifier:(id)arg1;
+- (void)setDictationAutoPunctuation:(id)arg1;
+- (_Bool)secondaryLabelColor;
+- (_Bool)_identifierAfterIdentifier:(id)arg1;
 - (_Bool);
 - (void)à;
 - (_Bool);
@@ -53,12 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activatedOnce;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) long long applicationState;
-@property(readonly, nonatomic) _Bool lifecycleWantsUnnecessaryDelayForSceneDelivery;
-@property(readonly, nonatomic) _Bool runningInTaskSwitcher;
-@property(readonly, nonatomic) _Bool suspendedEventsOnly;
-@property(readonly, nonatomic) _Bool suspendedUnderLock;
 
 @end
 

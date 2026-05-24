@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface MAProgressHandler
 {
     unsigned long long _notificationInterval;
-    NSMutableArray *_callBackArray;
 }
 
 - (void);
@@ -20,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *callBackArray; // @synthesize callBackArray=_callBackArray;
 @property(nonatomic) unsigned long long notificationInterval; // @synthesize notificationInterval=_notificationInterval;
 
 @end

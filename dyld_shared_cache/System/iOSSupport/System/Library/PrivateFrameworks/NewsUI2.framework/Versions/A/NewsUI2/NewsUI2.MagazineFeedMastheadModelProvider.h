@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineFeedMastheadModelProvider
 {
     id bundleSubscriptionManager;
-    id featureAvailability;
 }
 
 @end

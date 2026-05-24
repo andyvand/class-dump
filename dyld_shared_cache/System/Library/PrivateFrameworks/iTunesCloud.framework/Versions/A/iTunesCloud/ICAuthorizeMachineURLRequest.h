@@ -6,29 +6,25 @@
 
 #import <iTunesCloud/ICStoreURLRequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ICAuthorizeMachineURLRequest : ICStoreURLRequest
 {
     NSString *_keybagPath;
-    NSString *_reason;
-    NSData *_tokenData;
 }
 
 - (void);
 - (id);
 - (void);
+- (id)=@@{BufferDescriptor=iii}{BufferDescriptor=iii}}@}8;
 - (id);
-- (id);
-- (void);
+- (void)R$;
 - (void);
 - (void)àpè\d;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keybagPath; // @synthesize keybagPath=_keybagPath;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;
 
 @end
 

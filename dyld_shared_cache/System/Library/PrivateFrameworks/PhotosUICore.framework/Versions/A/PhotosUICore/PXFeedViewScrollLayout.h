@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedContentLayout, PXFeedViewModel;
+@class PXFeedContentLayout;
 
 @interface PXFeedViewScrollLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _isClearingLastVisibleAreaAnchoringInformation;
-    PXFeedViewModel *_viewModel;
-    PXFeedContentLayout *_feedContentLayout;
 }
 
 - (long long);
-- (long long);
+- (long long)@9?;
 - (void);
 - (void);
 - (id);
@@ -24,7 +21,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,15 +34,7 @@
 - (id)TªòÿEúPÀâ=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PXFeedContentLayout *feedContentLayout; // @synthesize feedContentLayout=_feedContentLayout;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

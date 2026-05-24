@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SGSqlEntityStore;
-@protocol OS_dispatch_queue;
-
 @interface SGDSpotlightCommander
 {
     id _deviceStateToken;
-    SGSqlEntityStore *_store;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (void)L;
+- (_Bool)me;
 - (id);
 - (id);
+- (id)owInfo=IIIIISCb1b1}20;
+- (id)mlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}^{_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS}16@"CXNamespace"24@"OAXDrawingState"32;
+- (void)initWithPatternImage:(id)arg1;
+- (void)META_SETRELABS;
+- (void);
+- (void);
 - (id);
-- (id);
+- (void)_;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)nt64:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)encodeInt64:forKey: /* Error: Ran out of types for this method. */;
 - (void)à;
 - (id)or Event Found in Mail on device or fallback URL.;
 

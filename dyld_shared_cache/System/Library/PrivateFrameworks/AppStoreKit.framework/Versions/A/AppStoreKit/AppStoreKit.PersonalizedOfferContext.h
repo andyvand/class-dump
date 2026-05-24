@@ -7,8 +7,6 @@
 @interface AppStoreKit.PersonalizedOfferContext
 {
     id offerAction;
-    id offerDisplayProperties;
-    id personalizedOfferType;
 }
 
 @end

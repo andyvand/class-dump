@@ -5,5 +5,8 @@
 //
 
 @protocol VSDeveloperServiceProtocol
+- (void)llocatorISA_EEEERK7TStringENKUlvE_clEvEUlvE0_vJEEE;
+- (void)ToNode:(void (^)(VSFailable *))arg1 allowLeftoverLastPathComponent:updatePathHandler:autoCompleteHandler:completionHandler:]E4$_10FvRKbEEE /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

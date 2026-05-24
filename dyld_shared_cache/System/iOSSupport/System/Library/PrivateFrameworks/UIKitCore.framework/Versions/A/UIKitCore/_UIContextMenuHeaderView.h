@@ -6,25 +6,12 @@
 
 #import <UIKitCore/UICollectionReusableView.h>
 
-@class NSArray, NSString, UIAction, UIButton, UILabel, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuHeaderView : UICollectionReusableView
 {
     _Bool _needsConstraintRebuild;
-    _Bool _isDisplayingTitleAndAccessory;
-    _Bool _isMenuTitle;
-    unsigned long long _separatorStyle;
-    NSString *_title;
-    UIAction *_accessoryAction;
-    UIView *_contentView;
-    UIView *_bgView;
-    UILabel *_titleLabel;
-    UIView *_separator;
-    UIButton *_accessoryButton;
-    UIView *_titleWithAccessoryContainer;
-    NSArray *_titleWithAccessoryContainerConstraints;
-    struct NSDirectionalEdgeInsets _unscaledLayoutMargins;
 }
 
 - (struct NSDirectionalEdgeInsets);
@@ -33,23 +20,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)estProxySend:(id)arg1 preferredCallerID: /* Error: Ran out of types for this method. */;
+- (void)recoverableMessagesMetadataPendingCloudKitSaveWithLimit:(id)arg1;
+- (_Bool)_writeUpdatesWithType:updateStep:activity:completion: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)d4;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)&;
+- (id);
+- (void)ack %s but could not find original message using infix string;
+- (long long)not found on disk;
+- (_Bool)loaded record successfully;
+- (id)URLForFileTransferWithGUIDs:options:completion:] /* Error: Ran out of types for this method. */;
+- (void)-[IMDFileTransferCenter retrieveLocalFileURLForFileTransferWithGUIDs:options:completion:] /* Error: Ran out of types for this method. */;
+- (id)tring"8;
 - (void);
 - (void);
 - (id);
@@ -57,10 +41,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (double)RangeAtPoint:inContainer: /* Error: Ran out of types for this method. */;
-- (id)rticalScrollIndicatorBaseInsets;
-- (void)tion:(id)arg1 processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
-- (id)splayInline;
+- (void)bytes_write_buffered;
+- (id)dlerDialog";
+- (void);
+- (double)nearestTextRangeAtPoint:inContainer: /* Error: Ran out of types for this method. */;
+- (id)cachedVerticalScrollIndicatorBaseInsets;
+- (void)_initWithSourceApplication:(id)arg1 processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
+- (id)_canDisplayInline;
 - (void)roller",W,N,S_setLocalSheetPresentationController:(id)arg1 ,V_localSheetPresentationController;
 - (id):animated:completion: /* Error: Ran out of types for this method. */;
 - (void)×þ;
@@ -71,18 +58,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ëÿgIÚXd;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAction *accessoryAction; // @synthesize accessoryAction=_accessoryAction;
-@property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
 @property(retain, nonatomic) UIView *bgView; // @synthesize bgView=_bgView;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool isMenuTitle; // @synthesize isMenuTitle=_isMenuTitle;
-@property(retain, nonatomic) UIView *separator; // @synthesize separator=_separator;
-@property(nonatomic) unsigned long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UIView *titleWithAccessoryContainer; // @synthesize titleWithAccessoryContainer=_titleWithAccessoryContainer;
-@property(retain, nonatomic) NSArray *titleWithAccessoryContainerConstraints; // @synthesize titleWithAccessoryContainerConstraints=_titleWithAccessoryContainerConstraints;
-@property(nonatomic) struct NSDirectionalEdgeInsets unscaledLayoutMargins; // @synthesize unscaledLayoutMargins=_unscaledLayoutMargins;
 
 @end
 

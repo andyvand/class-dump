@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatCommandAction
 {
     id identifier;
-    id isStateful;
-    id canExecuteBlock;
-    id executeBlock;
-    id evaluateWithObserverBlock;
-    id addChangeObserverBlock;
-    id evaluateBlock;
-    id evaluateStateBlock;
-    id evaluateStateWithObserverBlock;
-    id descriptionBlock;
 }
 
 @end

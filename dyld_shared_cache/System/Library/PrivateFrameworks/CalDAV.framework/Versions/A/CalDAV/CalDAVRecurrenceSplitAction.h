@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface CalDAVRecurrenceSplitAction
 {
     _Bool _isFloating;
-    _Bool _isAllDay;
-    NSURL *_resourceURL;
-    NSDate *_recurrenceDate;
-    NSString *_uidForCreatedSeries;
-    id _changeContext;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)CADDatabaseShouldPermitOrganizerPhoneNumberFromJunkChecks:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
+- (void)hh8);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) id changeContext; // @synthesize changeContext=_changeContext;
-@property(readonly, nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(readonly, nonatomic) NSDate *recurrenceDate; // @synthesize recurrenceDate=_recurrenceDate;
 @property(readonly, nonatomic) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
-@property(readonly, nonatomic) NSString *uidForCreatedSeries; // @synthesize uidForCreatedSeries=_uidForCreatedSeries;
 
 @end
 

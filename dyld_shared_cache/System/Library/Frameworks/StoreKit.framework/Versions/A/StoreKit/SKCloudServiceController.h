@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudServiceStatusMonitor;
-
 @interface SKCloudServiceController
 {
     _Bool _allowsPromptingForPrivacyAcknowledgement;
-    ICCloudServiceStatusMonitor *_cloudServiceStatusMonitor;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
 + (void);
-+ (long long);
++ (long long)izeSetting;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -26,10 +22,10 @@
 - (void);
 - (void);
 - (id);
+- (void)@);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsPromptingForPrivacyAcknowledgement:) _Bool _allowsPromptingForPrivacyAcknowledgement;

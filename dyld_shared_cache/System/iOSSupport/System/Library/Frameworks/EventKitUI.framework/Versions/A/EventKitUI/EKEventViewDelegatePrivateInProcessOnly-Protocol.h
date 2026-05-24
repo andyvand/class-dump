@@ -5,5 +5,14 @@
 //
 
 @protocol EKEventViewDelegatePrivateInProcessOnly
+
+@optional
+- (_Bool)s;
+- (_Bool)x.%s;
+- (_Bool);
+- (_Bool)%s;
+- (void)&s;
+- (void);
+- (void)+s;
 @end
 

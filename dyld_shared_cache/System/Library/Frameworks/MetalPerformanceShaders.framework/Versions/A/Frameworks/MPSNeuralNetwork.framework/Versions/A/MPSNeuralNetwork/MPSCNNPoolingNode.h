@@ -9,27 +9,21 @@
 @interface MPSCNNPoolingNode : MPSNNFilterNode
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
 }
 
-+ (id);
-+ (id);
++ (id)?;
++ (id):(id)arg1;
 - (void *);
 - (id);
+- (id);
 - (id);
-- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)dowInY;
+- (unsigned long long)_windowInY;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(readonly, nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
 
 @end
 

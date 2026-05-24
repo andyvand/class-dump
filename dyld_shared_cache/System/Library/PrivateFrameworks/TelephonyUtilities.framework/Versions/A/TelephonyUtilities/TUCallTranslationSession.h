@@ -4,59 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, NSUUID;
-
 @interface TUCallTranslationSession
 {
     int _translationState;
-    int _translationLinks;
-    NSUUID *_UUID;
-    NSString *_callUUID;
-    NSLocale *_localLocale;
-    NSLocale *_remoteLocale;
-    NSUUID *_uplinkTranslatorIdentifier;
-    NSUUID *_downlinkTranslatorIdentifier;
-    NSUUID *_requestUUID;
 }
 
 + (_Bool);
 - (id);
 - (int);
 - (int);
+- (void)4@;
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id)ferSetFlusher::FlushType)::(anonymous class)::operator()(ImageBufferSetPrepareBufferForDisplayOutputData, RenderingUpdateID) const /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (id)(;
+- (id)hB;
+- (void)8;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)edCallStatus;
+- (void)resolvedCallStatus;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSString *callUUID; // @synthesize callUUID=_callUUID;
-@property(retain, nonatomic) NSUUID *downlinkTranslatorIdentifier; // @synthesize downlinkTranslatorIdentifier=_downlinkTranslatorIdentifier;
-@property(retain, nonatomic) NSLocale *localLocale; // @synthesize localLocale=_localLocale;
-@property(retain, nonatomic) NSLocale *remoteLocale; // @synthesize remoteLocale=_remoteLocale;
-@property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(nonatomic) int translationLinks; // @synthesize translationLinks=_translationLinks;
 @property(nonatomic) int translationState; // @synthesize translationState=_translationState;
-@property(retain, nonatomic) NSUUID *uplinkTranslatorIdentifier; // @synthesize uplinkTranslatorIdentifier=_uplinkTranslatorIdentifier;
 
 @end
 

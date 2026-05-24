@@ -5,23 +5,20 @@
 //
 
 @class NSString;
-@protocol MPMediaKitEntityRelationshipPayloadProvider;
 
 @interface MPMediaKitEntityTranslatorContext
 {
     NSString *_personID;
-    id <MPMediaKitEntityRelationshipPayloadProvider> _relationshipPayloadProvider;
 }
 
 - (id);
-- (void);
+- (void)Gf;
 - (void);
 - (id);
 - (void)",W,N,V_mItemCountLabel;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) id <MPMediaKitEntityRelationshipPayloadProvider> relationshipPayloadProvider; // @synthesize relationshipPayloadProvider=_relationshipPayloadProvider;
 
 @end
 

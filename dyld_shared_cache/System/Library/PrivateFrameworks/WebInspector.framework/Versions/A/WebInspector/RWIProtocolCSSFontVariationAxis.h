@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void));
 - (void);
 - (double);
 - (void);
@@ -25,10 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double defaultValue;
-@property(nonatomic) double maximumValue;
-@property(nonatomic) double minimumValue;
-@property(copy, nonatomic) NSString *name;
 @property(copy, nonatomic) NSString *tag;
 
 @end

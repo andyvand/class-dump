@@ -7,8 +7,6 @@
 @interface Speech.SelfLoggingPreheatWithPowerContainer
 {
     id preheatContext;
-    id powerSnapshot;
-    id powerEventContext;
 }
 
 @end

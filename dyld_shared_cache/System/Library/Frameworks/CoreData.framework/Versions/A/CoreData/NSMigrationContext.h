@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityMapping, NSMigrationManager, NSMutableDictionary, NSPropertyMapping, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSMigrationContext
 {
     NSMutableDictionary *_bySourceAssociationTable;
-    NSMutableDictionary *_byDestinationAssociationTable;
-    NSMutableDictionary *_byMappingBySourceAssociationTable;
-    NSMutableDictionary *_byMappingByDestinationAssociationTable;
-    NSMigrationManager *_migrationManager;
-    NSEntityMapping *_currentMapping;
-    unsigned long long _currentStep;
-    NSPropertyMapping *_currentPropertyMapping;
-    NSString *_destinationConfigurationForCloudKitValidation;
 }
 
 - (id);

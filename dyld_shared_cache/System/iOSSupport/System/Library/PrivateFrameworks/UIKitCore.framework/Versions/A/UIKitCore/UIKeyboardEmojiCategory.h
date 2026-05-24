@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
-
 @interface UIKeyboardEmojiCategory
 {
     long long _categoryType;
-    NSArray *_emoji;
-    long long _lastVisibleFirstEmojiIndex;
-    NSMutableDictionary *_localizedNames;
-    NSMutableDictionary *_shortLocalizedNames;
-    NSString *_displaySymbol;
 }
 
 + (void);
@@ -22,7 +15,7 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (long long);
 + (id);
 + (_Bool);
@@ -31,24 +24,24 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (long long)0@ù
 × ;
-+ (id)nputMode:userInitiated: /* Error: Ran out of types for this method. */;
++ (id)setInputMode:userInitiated: /* Error: Ran out of types for this method. */;
 + (id);
 + (id)÷ÿìÊtp;
 - (id);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (void)ailed with error:(long long)arg1 %@;
+- (void)ceived a delete command, but it was not from one of our own devices From:%@ /* Error: Ran out of types for this method. */;
+- (long long)re still uploading the nickname to iCloud, queue to send info out of band for chat %@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)rofile.install;
 - (id);
 - (void);
 - (long long);
@@ -57,12 +50,6 @@
 
 // Remaining properties
 @property long long categoryType; // @synthesize categoryType=_categoryType;
-@property(readonly, getter=displaySymbol) NSString *displaySymbol; // @synthesize displaySymbol=_displaySymbol;
-@property(retain) NSArray *emoji; // @synthesize emoji=_emoji;
-@property(nonatomic) long long lastVisibleFirstEmojiIndex; // @synthesize lastVisibleFirstEmojiIndex=_lastVisibleFirstEmojiIndex;
-@property(retain) NSMutableDictionary *localizedNames; // @synthesize localizedNames=_localizedNames;
-@property(readonly, nonatomic, getter=name) NSString *name;
-@property(retain) NSMutableDictionary *shortLocalizedNames; // @synthesize shortLocalizedNames=_shortLocalizedNames;
 
 @end
 

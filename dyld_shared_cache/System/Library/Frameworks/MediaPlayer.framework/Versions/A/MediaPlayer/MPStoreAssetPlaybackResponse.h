@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPStoreHLSAssetInfo, NSArray, NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface MPStoreAssetPlaybackResponse
 {
     NSDictionary *_dialogDictionary;
-    NSDate *_expirationDate;
-    NSArray *_fileAssetInfoList;
-    MPStoreHLSAssetInfo *_hlsAssetInfo;
-    _Bool _liveRadioStream;
-    NSArray *_radioStreamAssetInfoList;
-    id _suzeLeaseID;
-    _Bool _subscriptionRequired;
-    _Bool _onlineSubscriptionKeysRequired;
 }
 
 - (id);
@@ -28,21 +20,13 @@
 - (id);
 - (id);
 - (id);
+- (id)V;
 - (id);
-- (id);
-- (id);
-- (void)stingBundleVersion;
+- (id);
+- (void)_requestingBundleVersion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dialogDictionary; // @synthesize dialogDictionary=_dialogDictionary;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSArray *fileAssetInfoList; // @synthesize fileAssetInfoList=_fileAssetInfoList;
-@property(readonly, nonatomic) MPStoreHLSAssetInfo *hlsAssetInfo; // @synthesize hlsAssetInfo=_hlsAssetInfo;
-@property(readonly, nonatomic, getter=isLiveRadioStream) _Bool liveRadioStream; // @synthesize liveRadioStream=_liveRadioStream;
-@property(readonly, nonatomic) _Bool onlineSubscriptionKeysRequired; // @synthesize onlineSubscriptionKeysRequired=_onlineSubscriptionKeysRequired;
-@property(readonly, copy, nonatomic) NSArray *radioStreamAssetInfoList; // @synthesize radioStreamAssetInfoList=_radioStreamAssetInfoList;
-@property(readonly, nonatomic, getter=isSubscriptionRequired) _Bool subscriptionRequired; // @synthesize subscriptionRequired=_subscriptionRequired;
-@property(readonly, nonatomic) id suzeLeaseID; // @synthesize suzeLeaseID=_suzeLeaseID;
 
 @end
 

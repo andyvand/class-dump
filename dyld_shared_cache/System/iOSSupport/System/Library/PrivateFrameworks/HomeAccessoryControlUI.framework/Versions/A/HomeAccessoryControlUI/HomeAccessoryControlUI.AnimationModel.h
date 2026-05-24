@@ -8,13 +8,6 @@
 {
     id delegate;
     id tileCornerRadius;
-    id transitionType;
-    id wantsSystemDismissAnimation;
-    id _shouldShowControlView;
-    id _shouldTurnOnTileTextVisibility;
-    id _shouldShowBackground;
-    id _shouldShowHeaderFooter;
-    id _swipeDismissOffset;
 }
 
 @end

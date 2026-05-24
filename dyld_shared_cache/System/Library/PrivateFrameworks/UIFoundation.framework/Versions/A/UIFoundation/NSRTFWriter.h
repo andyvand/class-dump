@@ -4,44 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, NSFileWrapper, NSMapTable, NSMutableArray, NSMutableData, NSMutableDictionary, NSString, NSTextContentStorage;
+@class NSMutableData;
 
 @interface NSRTFWriter
 {
     NSMutableData *_output;
-    NSAttributedString *_attrString;
-    unsigned long long _attrStringLength;
-    NSFileWrapper *_document;
-    NSMutableDictionary *_fontNames;
-    NSMutableDictionary *_fontObjects;
-    NSMutableDictionary *_colors;
-    NSMutableArray *_indexedColors;
-    NSMutableArray *_listRanges;
-    id _curFont;
-    id _curForegroundColor;
-    id _curBackgroundColor;
-    id _curParagraphStyle;
-    id _curKern;
-    id _curBaselineOffset;
-    id _curSuperscript;
-    id _curUnderlineStyle;
-    unsigned long long _curTraits;
-    unsigned int _curEncoding;
-    CDStruct_9bd68751 _rwFlags;
-    double _rightMargin;
-    NSDictionary *_docAttrs;
-    void *_layoutSections;
-    NSMapTable *_attachmentData;
-    long long _textScalingConversionSource;
-    long long _textScalingConversionTarget;
-    NSMutableArray *_indexedHighlightStyles;
-    NSMutableArray *_indexedHighlightColorSchemes;
-    NSString *_curHighlightStyle;
-    NSString *_curHighlightColorScheme;
-    NSTextContentStorage *_textListMarkerTextContentStorage;
 }
 
-+ (void)ntCell;
++ (void)attachmentCell;
 - (void);
 
 @end

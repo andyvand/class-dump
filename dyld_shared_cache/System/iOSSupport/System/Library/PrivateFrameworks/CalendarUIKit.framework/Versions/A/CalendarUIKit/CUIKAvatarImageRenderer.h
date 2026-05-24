@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id)Position",R,N;
 - (void)recurrenceChanged;
 
 @end

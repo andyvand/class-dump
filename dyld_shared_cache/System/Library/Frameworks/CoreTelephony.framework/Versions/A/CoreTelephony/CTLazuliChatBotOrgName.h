@@ -11,7 +11,7 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)byteRangeLocation;
 - (_Bool);
 - (id);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)Ս;
 - (void);
 - (void)ª)ð1Â0@ù
 × ;

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
-- (id);
+- (id)nsion(__unsafe_unretained Class _Nonnull, __unsafe_unretained FBSSettingsExtensionType _Nonnull);
 - (int);
 
 @end

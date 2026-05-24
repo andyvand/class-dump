@@ -11,17 +11,13 @@
 @interface CLSLocationCache : CLSDBCache
 {
     NSPredicate *_entryPredicateWithContactsPostalAddressTemplate;
-    NSPredicate *_entryPredicateWithAddressBookDictionaryTemplate;
-    NSPredicate *_entryPredicateWithCoordinateTemplate;
-    NSPredicate *_entryPredicateWithAddressTemplate;
-    NSPredicate *_entryPredicateWithMUID;
 }
 
 + (_Bool);
-+ (id);
++ (id)invalidateReverseLocationDataForRevGeoProviderChangeUsingManager:progressBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,11 +40,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@9;
 - (id);
 - (id);
 - (id);

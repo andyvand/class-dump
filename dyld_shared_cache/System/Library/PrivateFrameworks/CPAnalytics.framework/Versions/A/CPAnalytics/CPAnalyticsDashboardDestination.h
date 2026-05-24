@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, NSArray, NSString;
+@class CPAnalytics;
 
 @interface CPAnalyticsDashboardDestination
 {
@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (void);
 - (id);
@@ -26,21 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allErrorProperties;
-@property(readonly, nonatomic) NSArray *allMediaProperties;
-@property(readonly, nonatomic) NSArray *allStandardProperties;
 @property(readonly, nonatomic) __weak CPAnalytics *cpAnalyticsInstance; // @synthesize cpAnalyticsInstance=_cpAnalyticsInstance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

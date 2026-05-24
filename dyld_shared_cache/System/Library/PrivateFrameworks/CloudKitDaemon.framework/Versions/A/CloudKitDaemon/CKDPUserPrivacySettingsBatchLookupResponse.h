@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Audio(Boolean);
 - (_Bool);
 - (_Bool);
 - (void);

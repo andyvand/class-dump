@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerPlaybackCoordinator, MPCPlaybackEngine, NSMapTable, NSString;
+@class MPCPlaybackEngine, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaFoundationTranslator
 {
     MPCPlaybackEngine *_playbackEngine;
-    AVPlayerPlaybackCoordinator *_playbackCoordinator;
-    NSMapTable *_mapping;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)library bundle %@ for unsupported platform;
 - (id);
-- (_Bool);
+- (_Bool)demoted to secondary (account:(long long)arg1 %@);
 - (id);
-- (id);
-- (id);
+- (id)?0B8@"NSError"12;
+- (id)4;
 - (_Bool);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)ssibleByIntegerLiteralP;
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void)g Item pivot time in ItemTransitionParameters event=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) double crossfadeDuration;
 @property(readonly, copy, nonatomic) NSMapTable *mapping; // @synthesize mapping=_mapping;
-@property(readonly, nonatomic) AVPlayerPlaybackCoordinator *playbackCoordinator; // @synthesize playbackCoordinator=_playbackCoordinator;
-@property(nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic) _Bool queueSupportsTransitionSettings;
-@property(readonly, copy, nonatomic) NSString *targetContentItemID;
-@property(readonly, nonatomic) long long transitionStyle;
-@property(readonly, nonatomic) _Bool transitionsEnabled;
 
 @end
 

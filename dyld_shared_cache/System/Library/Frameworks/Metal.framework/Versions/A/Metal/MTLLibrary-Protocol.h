@@ -5,17 +5,18 @@
 //
 
 @class NSArray, NSString;
-@protocol MTLDevice, MTLFunction;
+@protocol MTLFunction;
 
 @protocol MTLLibrary
+- (void)inputFocalLength;
+- (void)l
+;
+- (NSString *);
+- (id <MTLFunction>).;
+- (NSArray *))2		;
 - (void)al""pointCoordYFlipEnabled"B"visibilityResultType"q"supportColorAttachmentMapping"B};
-- (id <MTLFunction>);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *functionNames;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

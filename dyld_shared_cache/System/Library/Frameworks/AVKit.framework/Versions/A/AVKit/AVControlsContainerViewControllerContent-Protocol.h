@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @protocol AVControlsContainerViewControllerContent
+- (NSString *);
+- (void);
 
 // Remaining properties
-@property(readonly) NSImage *backgroundBackdropViewMaskImage;
 @property(readonly) NSString *controlsStyleIdentifier;
-@property(readonly) _Bool movableControlsContentView;
-@property(readonly) long long preferredBlendingMode;
-@property(readonly) long long preferredEffectMaterial;
 @end
 

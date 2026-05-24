@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _SFPBGraphicalFloat;
+@class NSString;
 
 @interface _SFPBSearchSuggestion
 {
     _Bool _previouslyEngaged;
-    int _type;
-    NSString *_identifier;
-    NSString *_suggestion;
-    NSString *_query;
-    _SFPBGraphicalFloat *_score;
-    NSArray *_duplicateSuggestions;
-    NSString *_topicIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_fbr;
-    NSString *_scopedSearchApplicationBundleIdentifier;
-    NSString *_utteranceText;
-    NSString *_detailText;
-    NSDictionary *_serverFeatures;
 }
 
 - (id);
@@ -45,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ICMusicUserTokenCache;
 - (id);
 - (id);
 - (void);
@@ -56,11 +43,11 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setAcceptableCropRectWithNormalizedRect:(id)arg1;
+- (id)incrementally unsubscribe from collection share:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -70,28 +57,7 @@
 - (void)@"_SFPBAppColor"16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-@property(copy, nonatomic) NSArray *duplicateSuggestions; // @synthesize duplicateSuggestions=_duplicateSuggestions;
-@property(copy, nonatomic) NSString *fbr; // @synthesize fbr=_fbr;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool previouslyEngaged; // @synthesize previouslyEngaged=_previouslyEngaged;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(copy, nonatomic) NSString *scopedSearchApplicationBundleIdentifier; // @synthesize scopedSearchApplicationBundleIdentifier=_scopedSearchApplicationBundleIdentifier;
-@property(retain, nonatomic) _SFPBGraphicalFloat *score; // @synthesize score=_score;
-@property(copy, nonatomic) NSDictionary *serverFeatures; // @synthesize serverFeatures=_serverFeatures;
-@property(copy, nonatomic) NSString *suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *topicIdentifier; // @synthesize topicIdentifier=_topicIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *utteranceText; // @synthesize utteranceText=_utteranceText;
 
 @end
 

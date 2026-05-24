@@ -13,12 +13,11 @@
 
 - (id);
 - (id);
-- (id);
+- (id)eworks/AppKit.framework/Versions/C/AppKit;
 - (void)1õÇ¤a;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *displayName;
 
 @end
 

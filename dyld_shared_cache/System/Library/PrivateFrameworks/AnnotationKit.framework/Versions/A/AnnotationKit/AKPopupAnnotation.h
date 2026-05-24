@@ -6,15 +6,9 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString;
-
 @interface AKPopupAnnotation : AKAnnotation
 {
     long long _visualStyle;
-    AKAnnotation *_parentAnnotation;
-    NSString *_contents;
-    struct CGRect _rectangle;
-    struct CGRect _openRectangle;
 }
 
 + (id);
@@ -22,13 +16,13 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)tart listening [to me];
+- (void)%@;
 - (void);
 - (struct CGRect);
 - (id);
@@ -41,17 +35,6 @@
 - (void)<;
 
 // Remaining properties
-@property(copy) NSString *contents; // @synthesize contents=_contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGRect openRectangle; // @synthesize openRectangle=_openRectangle;
-@property __weak AKAnnotation *parentAnnotation; // @synthesize parentAnnotation=_parentAnnotation;
-@property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 @property long long visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end

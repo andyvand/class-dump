@@ -13,14 +13,12 @@
 }
 
 - (id);
-- (void);
+- (void)heck (another thread created it) for clientIdentifier:%{public}@, account:%{public}@, bag:%{public}@, clientInfo:%{public}@, urlKnownToBeTrusted:%{public}d /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)dictor";
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *listStyle;
-@property(readonly, copy) NSString *separator;
 
 @end
 

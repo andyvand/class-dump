@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAccount, CKDLogicalDeviceContext, NSMutableDictionary, NSString;
+@class CKDAccount;
 
 @interface CKDPCSIdentityManager
 {
     _Bool _forceEnableReadOnlyManatee;
-    _Bool _forceSecurityErrorOnIdentityValidation;
-    _Bool _serviceIsManateeForUnitTests;
-    _Bool _refetchPCSIdentitySet;
-    _Bool _shouldEnforceIdentityFetchLimit;
-    unsigned int _clientSDKVersion;
-    NSString *_serviceName;
-    CKDAccount *_account;
-    CKDLogicalDeviceContext *_deviceContext;
-    NSString *_cachedAccountDSID;
-    NSMutableDictionary *_PCSIdentityWrappersByServiceName;
-    struct _PCSIdentityData *_debugIdentity;
-    unsigned long long _identityFetchLimit;
-    NSMutableDictionary *_pcsTestOverrides;
 }
 
-+ (id);
-+ (id);
++ (id)9: /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 + (_Bool);
 + (id);
 + (_Bool);
 + (struct _PCSIdentitySetData *);
-+ (struct _PCSIdentitySetData *);
++ (struct _PCSIdentitySetData *)�?;
 + (void);
 + (_Bool);
 + (_Bool);
@@ -42,20 +29,20 @@
 + (id);
 + (struct _PCSIdentitySetData *);
 + (struct _PCSIdentitySetData *);
-+ (struct _PCSIdentitySetData *);
++ (struct _PCSIdentitySetData *);
 + (id);
-+ (struct _PCSIdentitySetData *);
++ (struct _PCSIdentitySetData *)ProtobufConversionError;
 - (struct _PCSIdentitySetData *);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (struct _PCSIdentitySetData *);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -68,19 +55,20 @@
 - (struct _PCSIdentityData *);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)APRealTimeAudioFileWriterCreate;
+- (unsigned long long)econds
+;
 - (struct _PCSIdentityData *);
 - (void);
 - (_Bool);
 - (struct _PCSPublicIdentityData *);
-- (_Bool);
+- (_Bool)_FWTxPER & ;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct _PCSIdentitySetData *);
+- (struct _PCSIdentitySetData *)_remoteContentManager;
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -94,10 +82,10 @@
 - (struct _PCSIdentityData *);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)gsResetResponse:(struct _PCSIdentityData *)arg1;
-- (struct _PCSIdentityData *)hareRowID:(id)arg1 toChildrenOfRowID:(id *)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)setUserPrivacySettingsResetResponse:(struct _PCSIdentityData *)arg1;
+- (struct _PCSIdentityData *)propagateShareRowID:(id)arg1 toChildrenOfRowID:(id *)arg2 error: /* Error: Ran out of types for this method. */;
 - (id)e>",W,N,V_delegate;
 - (struct _PCSIdentityData *)Á;
 - (void)ookupInfo = $LOOKUPINFO AND containerIdentifier = $ID AND dataSeparationHash = $HASH;
@@ -117,21 +105,7 @@ create index if not exists OperationUUID on Callback (operationID);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *PCSIdentityWrappersByServiceName; // @synthesize PCSIdentityWrappersByServiceName=_PCSIdentityWrappersByServiceName;
 @property(retain) CKDAccount *account; // @synthesize account=_account;
-@property(retain) NSString *cachedAccountDSID; // @synthesize cachedAccountDSID=_cachedAccountDSID;
-@property(nonatomic) unsigned int clientSDKVersion; // @synthesize clientSDKVersion=_clientSDKVersion;
-@property(readonly, nonatomic) _Bool currentServiceIsManatee;
-@property(nonatomic) struct _PCSIdentityData *debugIdentity; // @synthesize debugIdentity=_debugIdentity;
-@property(readonly, nonatomic) CKDLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property(readonly, nonatomic) _Bool forceEnableReadOnlyManatee; // @synthesize forceEnableReadOnlyManatee=_forceEnableReadOnlyManatee;
-@property(nonatomic) _Bool forceSecurityErrorOnIdentityValidation; // @synthesize forceSecurityErrorOnIdentityValidation=_forceSecurityErrorOnIdentityValidation;
-@property(nonatomic) unsigned long long identityFetchLimit; // @synthesize identityFetchLimit=_identityFetchLimit;
-@property(retain, nonatomic) NSMutableDictionary *pcsTestOverrides; // @synthesize pcsTestOverrides=_pcsTestOverrides;
-@property(nonatomic) _Bool refetchPCSIdentitySet; // @synthesize refetchPCSIdentitySet=_refetchPCSIdentitySet;
-@property(nonatomic) _Bool serviceIsManateeForUnitTests; // @synthesize serviceIsManateeForUnitTests=_serviceIsManateeForUnitTests;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldEnforceIdentityFetchLimit; // @synthesize shouldEnforceIdentityFetchLimit=_shouldEnforceIdentityFetchLimit;
 
 @end
 

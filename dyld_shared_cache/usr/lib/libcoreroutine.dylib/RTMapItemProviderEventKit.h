@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTEventManager, RTMapItemProviderEventKitParameters, RTMapServiceManager;
+@class RTEventManager;
 
 @interface RTMapItemProviderEventKit : RTMapItemProviderBase
 {
     RTEventManager *_eventManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTMapItemProviderEventKitParameters *_parameters;
 }
 
 - (_Bool);
@@ -28,16 +26,7 @@
 - (void)}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) RTEventManager *eventManager; // @synthesize eventManager=_eventManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, copy, nonatomic) RTMapItemProviderEventKitParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

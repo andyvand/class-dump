@@ -9,6 +9,7 @@
 @interface CRCameraReaderOutput
 {
     CRCameraReaderOutputInternal *_objectInternal;
+    id objectInternal;
 }
 
 - (void);
@@ -22,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *formattedStringValue;
 @property(retain) CRCameraReaderOutputInternal *objectInternal; // @synthesize objectInternal=_objectInternal;
-@property(readonly) NSString *stringValue;
 @property(readonly) NSString *type;
 
 @end

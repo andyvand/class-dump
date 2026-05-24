@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)80@0:(NSCoder *)arg1 8@"NSString"16@"NSString"24@"NSNumber"32@"NSNumber"40@"NSNumber"48Q56@"NSNumber"64@?<v@?B@"NSError">72;
 @end
 

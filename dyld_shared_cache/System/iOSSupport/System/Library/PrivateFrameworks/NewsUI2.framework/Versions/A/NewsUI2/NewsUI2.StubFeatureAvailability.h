@@ -4,61 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NewsSubscription.PaidBundleViaOfferSettings;
-
 @interface NewsUI2.StubFeatureAvailability
 {
     _Bool interstellarEnabled;
-    _Bool appleMagazineContent;
-    _Bool allowSharingAlways;
-    _Bool narrativeAudio;
-    id cardFeed;
-    _Bool useContinueReading;
-    _Bool useNewsArticleSearch;
-    _Bool useNotificationsV2;
-    _Bool useWelcomeSeries;
-    id puzzles;
-    _Bool puzzlesEnabled;
-    _Bool puzzlesGameCenterEnabled;
-    _Bool useOfflineMode;
-    _Bool dimNonSubscriberContentOffline;
-    id useGradientInChannelPickerListSection;
-    _Bool articleLinkBehaviorImprovementsEnabled;
-    NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
-    id appleNewsContent;
-    id appleNewsPrivateData;
-    id allowFollowingOfEndOfArticlePublisher;
-    id allowLikeDislike;
-    _Bool useMoreToReadEOA;
-    _Bool useMoreFromIssueEOA;
-    _Bool useMultipleNativeAds;
-    id shouldDisplaySaveInTopBar;
-    _Bool allowInAppMessages;
-    _Bool allowCIPBestOffer;
-    _Bool allowSIWAOnMac;
-    _Bool configurableOffersEnabled;
-    _Bool localOnboardingEnabled;
-    _Bool featurePromotionEnabled;
-    id sports;
-    _Bool sportsNativeAdsEnabled;
-    _Bool allowPaidBundleViaOffer;
-    _Bool useFineGrainedNewsletterManagement;
-    id liveActivitiesEnabled;
-    id enableAIAttribution;
-    _Bool useFood;
-    _Bool recipeHistoryFeedEnabled;
-    _Bool recipeUnitConversionEnabled;
-    _Bool multipartRecipesEnabled;
-    _Bool recipeRatingsEnabled;
-    _Bool ingredientScalingEnabled;
-    _Bool recipeNotesEnabled;
-    _Bool imagesInStepsEnabled;
-    _Bool nutritionInfoEnabled;
-    _Bool widgetUpsellFeaturesEnabled;
-    _Bool useSearchInArticle;
 }
 
 - (void);
+- (void)__swift_as_entry__TEXT;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)__swift5_builtin__TEXT;
+- (void);
+- (void);
+- (void);
+- (void)__swift5_reflstr__TEXT;
+- (void)__swift5_capture__TEXT;
 - (void);
 - (void);
 - (void);
@@ -67,35 +29,24 @@
 - (void);
 - (void);
 - (void);
+- (void)__ustring;
+- (void)__gcc_except_tab__TEXT;
+- (void)__oslogstring;
+- (void);
+- (void)__cstring;
+- (void)__const;
+- (void);
+- (void)__auth_stubs;
+- (void);
+- (void);
+- (void)__TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -103,76 +54,40 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)performSubscriptionStatusRequest:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)MPCPlaybackEngineFirstAudioFrameNotification;
 - (_Bool);
+- (void);
 - (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)CюJ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool)w;
-- (_Bool)Router;
+- (_Bool)PuzzleContinuePlayingRouter;
 - (_Bool)H;
-- (_Bool)bility;
+- (_Bool)FeedAvailability;
 - (_Bool)d·v;
 - (_Bool)e,Y¹þE&eY¹þ-&eÔY¹þE&eZ¹þ&edZ¹þ&e¬Z¹þ­&eôZ¹þµ&eD[¹þ&e¤[¹þý%eô[¹þe&eD\¹þ;
 - (_Bool)e{;
 - (_Bool)Suggestion;
-- (_Bool)eedRouter;
+- (_Bool)MagazineFeedRouter;
 - (_Bool)e°°þje°°þ½je°°þ½je°°þíje°°þke°°þje °°þ5ke¤°°þÕje¨°°þUje¬°°þ5ke°°°þåje´°°þje¸°°þ]je¼°°þmjeÀ°°þ=jeÄ°°þõjeÀ°°þÕjeÄ°°þjeÈ°°þÍjeÌ°°þMjeÐ°°þujeÔ°°þujeØ°°þjeÜ°°þÅieØ°°þÍieÜ°°þ­jeØ°°þjeÜ°°þmjeà°°þmjeä°°þjeè°°þ;
 - (_Bool);
 - (_Bool);
 - (_Bool)±È;
 
 // Remaining properties
-@property(nonatomic) _Bool allowCIPBestOffer; // @synthesize allowCIPBestOffer;
-@property(nonatomic) _Bool allowInAppMessages; // @synthesize allowInAppMessages;
-@property(nonatomic) _Bool allowPaidBundleViaOffer; // @synthesize allowPaidBundleViaOffer;
-@property(nonatomic) _Bool allowSIWAOnMac; // @synthesize allowSIWAOnMac;
-@property(nonatomic) _Bool allowSharingAlways; // @synthesize allowSharingAlways;
-@property(nonatomic) _Bool appleMagazineContent; // @synthesize appleMagazineContent;
-@property(nonatomic) _Bool articleLinkBehaviorImprovementsEnabled; // @synthesize articleLinkBehaviorImprovementsEnabled;
-@property(nonatomic) _Bool configurableOffersEnabled; // @synthesize configurableOffersEnabled;
-@property(nonatomic) _Bool dimNonSubscriberContentOffline; // @synthesize dimNonSubscriberContentOffline;
-@property(nonatomic) _Bool featurePromotionEnabled; // @synthesize featurePromotionEnabled;
-@property(nonatomic) _Bool imagesInStepsEnabled; // @synthesize imagesInStepsEnabled;
-@property(nonatomic) _Bool ingredientScalingEnabled; // @synthesize ingredientScalingEnabled;
 @property(nonatomic) _Bool interstellarEnabled; // @synthesize interstellarEnabled;
-@property(nonatomic) _Bool localOnboardingEnabled; // @synthesize localOnboardingEnabled;
-@property(nonatomic) _Bool multipartRecipesEnabled; // @synthesize multipartRecipesEnabled;
-@property(nonatomic) _Bool narrativeAudio; // @synthesize narrativeAudio;
-@property(nonatomic) _Bool nutritionInfoEnabled; // @synthesize nutritionInfoEnabled;
-@property(nonatomic, retain) NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability; // @synthesize paidBundleViaOfferAvailability;
-@property(nonatomic) _Bool puzzlesEnabled; // @synthesize puzzlesEnabled;
-@property(nonatomic) _Bool puzzlesGameCenterEnabled; // @synthesize puzzlesGameCenterEnabled;
-@property(nonatomic) _Bool recipeHistoryFeedEnabled; // @synthesize recipeHistoryFeedEnabled;
-@property(nonatomic) _Bool recipeNotesEnabled; // @synthesize recipeNotesEnabled;
-@property(nonatomic) _Bool recipeRatingsEnabled; // @synthesize recipeRatingsEnabled;
-@property(nonatomic) _Bool recipeUnitConversionEnabled; // @synthesize recipeUnitConversionEnabled;
-@property(nonatomic) _Bool sportsNativeAdsEnabled; // @synthesize sportsNativeAdsEnabled;
-@property(nonatomic) _Bool useContinueReading; // @synthesize useContinueReading;
-@property(nonatomic) _Bool useFineGrainedNewsletterManagement; // @synthesize useFineGrainedNewsletterManagement;
-@property(nonatomic) _Bool useFood; // @synthesize useFood;
-@property(nonatomic) _Bool useMoreFromIssueEOA; // @synthesize useMoreFromIssueEOA;
-@property(nonatomic) _Bool useMoreToReadEOA; // @synthesize useMoreToReadEOA;
-@property(nonatomic) _Bool useMultipleNativeAds; // @synthesize useMultipleNativeAds;
-@property(nonatomic) _Bool useNewsArticleSearch; // @synthesize useNewsArticleSearch;
-@property(nonatomic) _Bool useNotificationsV2; // @synthesize useNotificationsV2;
-@property(nonatomic) _Bool useOfflineMode; // @synthesize useOfflineMode;
-@property(nonatomic) _Bool useSearchInArticle; // @synthesize useSearchInArticle;
-@property(nonatomic) _Bool useWelcomeSeries; // @synthesize useWelcomeSeries;
-@property(nonatomic) _Bool widgetUpsellFeaturesEnabled; // @synthesize widgetUpsellFeaturesEnabled;
 
 @end
 

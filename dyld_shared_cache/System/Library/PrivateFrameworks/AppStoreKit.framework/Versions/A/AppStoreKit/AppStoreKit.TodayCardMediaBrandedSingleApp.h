@@ -9,8 +9,6 @@
 @interface AppStoreKit.TodayCardMediaBrandedSingleApp : AppStoreKit.TodayCardMediaAppIcon
 {
     id artworks;
-    id videos;
-    id artworkLayoutsWithMetrics;
 }
 
 @end

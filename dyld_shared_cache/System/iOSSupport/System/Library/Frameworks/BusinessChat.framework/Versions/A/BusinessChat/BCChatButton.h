@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UILabel, UIView;
-
 @interface BCChatButton
 {
     _Bool _isInverted;
     long long _style;
-    UILabel *_label;
-    UILabel *_smallLabel;
-    UIImageView *_iconImageView;
-    UIView *_centeredView;
 }
 
 - (void);
 - (void);
+- (id);;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (struct CGSize)B;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)identity:%@ /* Error: Ran out of types for this method. */;
+- (void):(long long)arg1 A;
 - (void);
 - (id);
 - (void);
@@ -43,24 +37,20 @@
 - (void);
 - (void);
 - (void);
+- (id)matographyDetection",&,V_internalDetection;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)T@"CPListTemplateDetailsHeader",&,N,V_listHeader;
+- (id)maryKey=%d accNavType=%ld;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *centeredView; // @synthesize centeredView=_centeredView;
-@property(retain, nonatomic) UIImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
 @property(nonatomic) _Bool isInverted; // @synthesize isInverted=_isInverted;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) UILabel *smallLabel; // @synthesize smallLabel=_smallLabel;
 @property(nonatomic) long long style; // @synthesize style=_style;
 
 @end

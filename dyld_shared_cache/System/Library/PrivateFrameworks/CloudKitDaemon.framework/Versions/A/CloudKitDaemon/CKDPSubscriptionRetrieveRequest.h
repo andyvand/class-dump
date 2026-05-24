@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_audioHoseRegistrarRegisterHose;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -25,12 +25,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class)ded:bytesDownloaded:networkServiceType:connections:connectionsCreated:bytesFulfilledByPeers:bytesFulfilledLocally:bytesResumed:totalBytesByChunkProfile:chunkCountByChunkProfile:fileCountByChunkProfile:walrusEnabled:zoneishKeysRolled:perRecordKeysRolled:zoneKeysRolled:shareKeysRolled:keyRollsSkippedBySizeCheck:identitiesRolledOnRecordSave:identitiesRolledOnZoneSave:failedIdentityRollAttempts:zoneKeysRemoved:zoneishKeysRemoved:recordKeysRemoved:keysNotRemoved:adopterCapabilityCheckValidationFailures:adopterCapabilityCheckValidationFailureTypes:adopterCapabilityCheckResult:requiredFeatureSetValidationFailures:requiredFeatureSetValidationFailureTypes: /* Error: Ran out of types for this method. */;
+- (Class)initWithStartDate:duration:queueing:executing:bytesUploaded:bytesDownloaded:networkServiceType:connections:connectionsCreated:bytesFulfilledByPeers:bytesFulfilledLocally:bytesResumed:totalBytesByChunkProfile:chunkCountByChunkProfile:fileCountByChunkProfile:walrusEnabled:zoneishKeysRolled:perRecordKeysRolled:zoneKeysRolled:shareKeysRolled:keyRollsSkippedBySizeCheck:identitiesRolledOnRecordSave:identitiesRolledOnZoneSave:failedIdentityRollAttempts:zoneKeysRemoved:zoneishKeysRemoved:recordKeysRemoved:keysNotRemoved:adopterCapabilityCheckValidationFailures:adopterCapabilityCheckValidationFailureTypes:adopterCapabilityCheckResult:requiredFeatureSetValidationFailures:requiredFeatureSetValidationFailureTypes: /* Error: Ran out of types for this method. */;
 - (void)8À;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

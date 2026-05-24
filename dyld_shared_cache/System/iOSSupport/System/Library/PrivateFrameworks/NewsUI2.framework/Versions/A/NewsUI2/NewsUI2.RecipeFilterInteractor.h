@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeFilterInteractor
 {
     id delegate;
-    id dataManager;
-    id updateFilterEditingContextTask;
 }
 
 @end

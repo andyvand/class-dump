@@ -5,5 +5,7 @@
 //
 
 @protocol CKMessageRequestsTipsViewDelegate
+- (void)ect={CGPoint=dd}{CGSize=dd}}40@72;
+- (void);
 @end
 

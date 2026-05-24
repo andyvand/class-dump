@@ -6,8 +6,6 @@
 
 #import <SAObjects/SASettingSnippet.h>
 
-@class NSNumber;
-
 @interface SASettingBoolSnippet : SASettingSnippet
 {
 }
@@ -16,14 +14,13 @@
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)wasLocaleToggled;
+- (id)`#;
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool toggle;
-@property(copy, nonatomic) NSNumber *value;
 
 @end
 

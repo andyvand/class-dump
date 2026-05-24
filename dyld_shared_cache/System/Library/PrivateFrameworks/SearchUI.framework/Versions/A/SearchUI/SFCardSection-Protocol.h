@@ -4,49 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
+@class NSArray, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFCommand, SFCopyItem, SFUserReportRequest;
 
 @protocol SFCardSection
-- (int)FCardSectionRowModel;
+- (SFUserReportRequest *)wavy_medium_down_flapper;
+- (_Bool)none_goatee_shadow;
+- (_Bool)none_anchor_shadow;
+- (void)handlebar_ducktail;
+- (void)spreadFull_short;
+- (void)tadpole_rounded_thick;
+- (void)_age_child_50.heic;
+- (void)ic;
+- (void)variant_age_child_50.heic;
+- (void)ebrows_even_rounded_thick_variant_age_child_50.heic;
+- (void)nded_medium_variant_age_child_50.heic;
+- (void)brows_willowLeaf_angled_thick_variant_age_child_75.heic;
+- (void)iant_age_child.heic;
+- (void)81 45 0;
+- (void)trick 5;
+- (void)225;
+- (void)specularhsv_HIGHLIGHTS;
+- (void);
+- (SFCommand *)eliner Green;
+- (int)presence_reflective;
+- (NSString *)83 109 84 55;
+- (NSMutableDictionary *)09 84 200;
+- (NSString *)ush Purple;
+- (NSString *)84 255;
+- (SFCommand *)Brown;
+- (NSString *)Beige;
+- (NSArray *)emission;
+- (NSArray *)it/outfit_hanbok.aa;
+- (int)short_up_shaped.aa;
+- (_Bool)hadow_boldWing_combo.aa;
+- (NSString *)ed_thick.aa;
+- (SFCopyItem *)right_tragus.aa;
+- (_Bool)_right.aa;
+- (SFAppEntityAnnotation *)outfit_turtleneck_left_cuff;
+- (void)outfit_poncho_left_button;
+- (void)outfit_cheongsamQipao_trim;
+- (NSArray *);
+- (void);
+- (void);
+- (NSString *)";
+- (void);
+- (SFCard *)internalModules;
+- (void)�;
+- (SFCommand *)t declare compatibility with NCV (%{public}@, %u); will be omitted from installation.;
+- (int)SearchUIRFCardSectionRowModel;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 @end
 

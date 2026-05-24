@@ -5,5 +5,6 @@
 //
 
 @protocol ICMediaLibraryAccessPermissionsHelper
+- (void);
 @end
 

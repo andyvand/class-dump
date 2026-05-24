@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBExecuteMenuItemCommand
 {
     NSString *_applicationBundleIdentifier;
-    NSString *_menuItemIdentifier;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)localAvailabilityTarget;
+- (id),N,V_type;
+- (id)formTypeIdentifier (%{public}@) on asset:%{public}@. Falling back to "known unsupported formats" lookup /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void)eferTopPlatter: /* Error: Ran out of types for this method. */;
+- (void)setPreferTopPlatter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *menuItemIdentifier; // @synthesize menuItemIdentifier=_menuItemIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

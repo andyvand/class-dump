@@ -6,22 +6,18 @@
 
 #import <PassKitCore/PKPendingProvisioning.h>
 
-@class NSString, PKPassShare, PKSharingMessage;
+@class NSString;
 
 @interface PKPendingStatefulTransferProvisioning : PKPendingProvisioning
 {
     NSString *_transportIdentifier;
-    PKSharingMessage *_invitation;
-    PKPassShare *_share;
-    NSString *_originalShareURL;
-    NSString *_accountAttestationAnonymizationSalt;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -30,22 +26,18 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)k	;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)!;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)en;
+- (void)r;
+- (void)authorizationRedemptionToken;
 - (id)Åíÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountAttestationAnonymizationSalt; // @synthesize accountAttestationAnonymizationSalt=_accountAttestationAnonymizationSalt;
-@property(retain, nonatomic) PKSharingMessage *invitation; // @synthesize invitation=_invitation;
-@property(retain, nonatomic) NSString *originalShareURL; // @synthesize originalShareURL=_originalShareURL;
-@property(retain, nonatomic) PKPassShare *share; // @synthesize share=_share;
 @property(retain, nonatomic) NSString *transportIdentifier; // @synthesize transportIdentifier=_transportIdentifier;
 
 @end

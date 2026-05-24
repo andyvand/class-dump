@@ -6,13 +6,9 @@
 
 #import <AuthKitUI/AKiCDPDeviceValidationFlowViewController.h>
 
-@class OBTemplateView;
-
 @interface AKiCDPWaitForApprovalViewController : AKiCDPDeviceValidationFlowViewController
 {
     _Bool _resetButtonEnabled;
-    AKiCDPDeviceValidationFlowViewController *_flowController;
-    OBTemplateView *_templateView;
 }
 
 - (void);
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) AKiCDPDeviceValidationFlowViewController *flowController; // @synthesize flowController=_flowController;
-@property(nonatomic) _Bool resetButtonEnabled; // @synthesize resetButtonEnabled=_resetButtonEnabled;
-@property(readonly, nonatomic) _Bool shouldAllowReset;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

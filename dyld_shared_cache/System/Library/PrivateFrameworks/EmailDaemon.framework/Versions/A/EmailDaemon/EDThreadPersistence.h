@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCategoryPersistence, EDMessagePersistence, EDPersistenceDatabase, EDPersistenceHookRegistry, EDThreadScopeManager, EFDebouncer, EMBlockedSenderManager, EMCoreAnalyticsCollector, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol EFScheduler, EMVIPManager;
+@class EDMessagePersistence, NSMutableSet;
 
 @interface EDThreadPersistence
 {
     NSMutableSet *_threadObjectIDsToRecompute;
-    struct os_unfair_lock_s _threadRecomputationLock;
-    NSMutableArray *_migratingThreadScopes;
-    NSMutableDictionary *_backgroundProcessingAssertionsByMigratingThreadScope;
-    struct os_unfair_lock_s _migratingThreadScopesLock;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceDatabase *_database;
-    EDPersistenceHookRegistry *_hookRegistry;
-    id <EMVIPManager> _vipManager;
-    EMBlockedSenderManager *_blockedSenderManager;
-    EDThreadScopeManager *_threadScopeManager;
-    id <EFScheduler> _consistencyCheckScheduler;
-    EDCategoryPersistence *_categoryPersistence;
-    id <EFScheduler> _threadRecomputationScheduler;
-    EFDebouncer *_threadRecomputationDebouncer;
-    EMCoreAnalyticsCollector *_analyticsCollector;
 }
 
 + (id);
@@ -36,62 +20,62 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (long long);
-- (void);
+- (void)setObservers:(id)arg1;
+- (long long)descriptionUsesRealName;
+- (void)ms:(id)arg1 %@;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void)initWithSelectedRecord:(id)arg1;
+- (id)continueButton;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)CRKConcreteMCXPrimitives_macOS;
+- (id)heck if %{public}@ is a directory. Error:(id)arg1 %{public}@;
+- (id)isconnectOperationDidFinish:(id)arg1 ];
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)SIRINLUUserAcknowledged;
+- (id)_TtC12SiriOntology27UsoEntityBuilder_common_Tag;
+- (id)_TtC12SiriOntology33UsoTaskBuilder_find_common_Device;
+- (id)_TtC12SiriOntology42UsoTaskBuilder_noVerb_common_DailyBriefing;
+- (id)_TtC12SiriOntology34UsoTaskBuilder_unlike_common_Photo;
+- (id);
+- (id);
+- (void);
+- (void)checkExistence:(id)arg1:(id)arg2 common_OffsetDateTime;
+- (void)UsoEntityBuilderProtocol_common_DateTimeRangeQualifier;
+- (_Bool)UsoTaskBuilder_skipBackward_common_Calendar;
+- (id);
+- (id)eV;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
+- (void)#;
 - (_Bool);
 - (void);
 - (id);
@@ -118,36 +102,37 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)isHelium:(long long)arg1;
+- (id)use the default one.;
+- (id);
+- (id);
+- (id);
+- (void)@;
+- (id);
+- (id)m;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)ream_resumeInternal(FigEndpointStreamRef, CFDictionaryRef);
+- (void)gs}). Setting volume %0.2f => default %.2f dB
+;
+- (void)updateBadgingFormatInfo;
+- (id)void manager_handleBrowserAddOrUpdateEvent(APTransportDeviceRef, void *);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (_Bool)(;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -165,13 +150,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_bssBlacklistExpiry;
+- (id)apNamePortionC_after;
+- (id)ityTracing.m;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id).;
+- (void)ingRuleFieldRegexMatch",&,N,V_match;
 - (id);
 - (id);
 - (id)Ñ³1Â0@ù
@@ -185,31 +170,13 @@
 - (id)has unsupported filter predicate:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)tics_message_donations_identified_item_started_at_index index;
 - (id)ax(date, excluded.date) ;;
-- (id)ymentIdentifier;
+- (id)trialRolloutDeploymentIdentifier;
 - (_Bool);
 - (id);
 - (id)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) EMCoreAnalyticsCollector *analyticsCollector; // @synthesize analyticsCollector=_analyticsCollector;
-@property(readonly, nonatomic) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(readonly, nonatomic) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, nonatomic) id <EFScheduler> consistencyCheckScheduler; // @synthesize consistencyCheckScheduler=_consistencyCheckScheduler;
-@property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) EFDebouncer *threadRecomputationDebouncer; // @synthesize threadRecomputationDebouncer=_threadRecomputationDebouncer;
-@property(retain, nonatomic) id <EFScheduler> threadRecomputationScheduler; // @synthesize threadRecomputationScheduler=_threadRecomputationScheduler;
-@property(readonly, nonatomic) EDThreadScopeManager *threadScopeManager; // @synthesize threadScopeManager=_threadScopeManager;
-@property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

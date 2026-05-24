@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKRecordMetadataEncodedRecordAsset, NSCKRecordMetadataSystemFieldsAsset, NSCKRecordZoneMetadata, NSNumber, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSCKRecordMetadata : NSManagedObject
@@ -21,24 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)pnap assertions on self;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *ckRecordName; // @dynamic ckRecordName;
-@property(retain, nonatomic) NSCKRecordMetadataEncodedRecordAsset *encodedRecordAsset; // @dynamic encodedRecordAsset;
-@property(retain, nonatomic) NSNumber *entityId; // @dynamic entityId;
-@property(retain, nonatomic) NSNumber *entityPK; // @dynamic entityPK;
-@property(retain, nonatomic) NSNumber *lastExportedTransactionNumber; // @dynamic lastExportedTransactionNumber;
-@property(retain, nonatomic) NSSet *moveReceipts; // @dynamic moveReceipts;
-@property(nonatomic) _Bool needsCloudDelete; // @dynamic needsCloudDelete;
-@property(nonatomic) _Bool needsLocalDelete; // @dynamic needsLocalDelete;
-@property(nonatomic) _Bool needsUpload; // @dynamic needsUpload;
-@property(retain, nonatomic) NSNumber *pendingExportChangeTypeNumber; // @dynamic pendingExportChangeTypeNumber;
-@property(retain, nonatomic) NSNumber *pendingExportTransactionNumber; // @dynamic pendingExportTransactionNumber;
-@property(retain, nonatomic) NSCKRecordZoneMetadata *recordZone; // @dynamic recordZone;
-@property(retain, nonatomic) NSCKRecordMetadataSystemFieldsAsset *systemFieldsAsset; // @dynamic systemFieldsAsset;
 
 @end
 

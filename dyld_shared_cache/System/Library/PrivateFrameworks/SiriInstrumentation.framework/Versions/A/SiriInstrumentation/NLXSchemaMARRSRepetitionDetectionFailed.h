@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSRepetitionDetectionFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (void);
-- (void);
+- (void)X509V3_add1_i2d;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (id);
 - (id);
@@ -30,8 +27,6 @@
 - (void)Id;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

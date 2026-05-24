@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageBrowserLayoutManager, NSArray, NSMutableIndexSet;
-
 @interface IKImageBrowserSubsetLayoutManager
 {
     struct _NSRange _range;
-    CDStruct_02837cd9 _frame;
-    CDStruct_8caa76fc _contentSize;
-    struct __IKImageBrowserLayoutParameter *_layoutParameters;
-    NSArray *_groups;
-    NSMutableIndexSet *_ghostIndexes;
-    int _collapsedCellCount;
-    id _parentGroup;
-    int _headerHeight;
-    _Bool _visuallyCollapsed;
-    IKImageBrowserLayoutManager *_parent;
 }
 
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (double);
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -41,14 +29,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (int);
+- (int);
 - (double);
 - (long long);
 - (long long);
 - (CDStruct_c3b9c2ee);
 - (id);
 - (int);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (void);
 - (CDStruct_c3b9c2ee);
 - (void);
@@ -59,23 +47,23 @@
 - (id);
 - (id);
 - (int);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (struct CGSize);
 - (void);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)localizedStringFromPersonNameComponents:(int)arg1 style:options: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
 - (id);
-- (void);
+- (void)qb;
 - (void);
 - (struct _NSRange);
 - (void);
 - (void);
 - (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24;
-- (id)on: /* Error: Ran out of types for this method. */;
+- (id)collectionView:layout:referenceSizeForHeaderInSection: /* Error: Ran out of types for this method. */;
 - (void)IKScanUIControllerAdvanced",N,V_scanUIControllerAdvanced;
 - (_Bool)0òÿ3C*ë;
 

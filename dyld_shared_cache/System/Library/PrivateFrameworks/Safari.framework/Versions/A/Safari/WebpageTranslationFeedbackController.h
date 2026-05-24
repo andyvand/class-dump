@@ -6,14 +6,12 @@
 
 #import <Safari/FeedbackAlertController.h>
 
-@class NSString, WBSTranslationConsentAlertHelper, WBSTranslationConsentAlertLearnMoreWindowControllerMac, WBSTranslationContext;
+@class WBSTranslationConsentAlertHelper, WBSTranslationContext;
 
 __attribute__((visibility("hidden")))
 @interface WebpageTranslationFeedbackController : FeedbackAlertController
 {
     WBSTranslationConsentAlertHelper *_consentHelper;
-    WBSTranslationConsentAlertLearnMoreWindowControllerMac *_learnMoreController;
-    WBSTranslationContext *_translationContext;
 }
 
 - (id);
@@ -31,13 +29,6 @@ __attribute__((visibility("hidden")))
 - (void)¤;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WBSTranslationContext *translationContext; // @synthesize translationContext=_translationContext;
 
 @end

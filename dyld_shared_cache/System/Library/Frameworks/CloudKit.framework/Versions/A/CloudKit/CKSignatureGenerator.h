@@ -7,7 +7,6 @@
 @interface CKSignatureGenerator
 {
     _Bool _valid;
-    void *_generator;
 }
 
 - (void);
@@ -22,11 +21,10 @@
 - (void);
 - (void)
 × ;
-- (void)erRecordZoneCompletionBlock:(id)arg1;
+- (void)setPerRecordZoneCompletionBlock:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) void *generator; // @synthesize generator=_generator;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SLPlace
 {
     NSString *_identifier;
-    NSString *_name;
-    NSURL *_pictureURL;
-    NSString *_category;
-    double _latitude;
-    double _longitude;
-    double _distance;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id), %@, %lu;
 - (id);
 - (id);
 - (double);
+- (void);
+- (id)@;
 - (void);
+- (void)setDeviceConsideredAsSleep:(double)arg1;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)B;
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)};
 
 // Remaining properties
-@property(retain) NSString *category; // @synthesize category=_category;
-@property double distance; // @synthesize distance=_distance;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property double latitude; // @synthesize latitude=_latitude;
-@property double longitude; // @synthesize longitude=_longitude;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSURL *pictureURL; // @synthesize pictureURL=_pictureURL;
 
 @end
 

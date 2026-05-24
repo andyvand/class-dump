@@ -4,58 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHapticEngine, NSDate, NSDictionary, NSObject, NSString, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBFeedbackGenerator
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_soundsDefaults;
-    int _ringerStateNotifyToken;
-    _Bool _isActive;
-    NSDate *_engineStartDate;
-    double _engineActiveDuration;
-    unsigned long long _engineStartCount;
-    unsigned long long _actionCount;
-    float _volume;
-    _Bool _isFeedbackDisabled;
-    _Bool _isAudioOnly;
-    _Bool _usesCoreHapticsForAudioOnly;
-    CHHapticEngine *_engine;
-    NSDictionary *_players;
-    NSDictionary *_systemSounds;
-    double _lastActionTime;
-    double _lastVolume;
-    double _lastHapticIntensity;
-    double _lastPitch;
-    double _lastPan;
-    double _lastBrightness;
-    long long _textLength;
-    _Bool __isEngineRunning;
-    long long __mode;
 }
 
 + (_Bool);
-+ (_Bool)tCarPlayTouchpads: /* Error: Ran out of types for this method. */;
++ (_Bool)setCarPlayTouchpads: /* Error: Ran out of types for this method. */;
 + (id),N,V_alternativesView;
-+ (_Bool)Dark;
++ (_Bool)UIKBAttributeValueDark;
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (double);
-- (void);
+- (void)val of destination item reader writer failed.;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -75,20 +52,20 @@ __attribute__((visibility("hidden")))
 - (double)× ;
 - (_Bool)°!Cùñb1Â0@ù
 × ;
-- (void)gAccessoryConfigurations:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (long long):bottomView: /* Error: Ran out of types for this method. */;
-- (void)tureRecognizer;
-- (void)lableComponent;
-- (void)boardAvailable;
-- (double)eratingAnimations;
+- (void)setLeadingAccessoryConfigurations:(id)arg1;
+- (void)referenceView;
+- (void)preferStringKeycapOverImage;
+- (void)initWithView:targetState:minimumRequiredState: /* Error: Ran out of types for this method. */;
+- (long long)initWithTopView:bottomView: /* Error: Ran out of types for this method. */;
+- (void)barHideOnTapGestureRecognizer;
+- (void)availableComponent;
+- (void)_isHardwareKeyboardAvailable;
+- (double)_isGeneratingAnimations;
 - (void)t=dd}{CGSize=dd}},N,V_pocketRectInNSWindow;
 - (_Bool)sentAutomatically;
 - (void)regular;
 - (double)ate>",W,N,V_delegate;
-- (void)gs;
+- (void)_UISceneRenderingEnvironmentSettings;
 - (void)1;
 - (void)0ëÜëìÀï<ð;
 - (void)|°;
@@ -96,24 +73,12 @@ __attribute__((visibility("hidden")))
 - (double)umn"8;
 - (_Bool)nController's top view controller to check is %@;
 - (_Bool);
-- (void)figuration;
+- (void)Configuration;
 - (void)¥43àp;
 - (void)³Ö<ð\;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _areHapticsEnabled;
-@property(readonly, nonatomic) _Bool _areKeyClicksEnabled;
 @property(readonly, nonatomic) _Bool _isAppSuspended;
-@property(nonatomic, setter=_setIsEngineRunning:) _Bool _isEngineRunning; // @synthesize _isEngineRunning=__isEngineRunning;
-@property(readonly, nonatomic) _Bool _isRingerSwitchOn;
-@property(nonatomic, setter=_setMode:) long long _mode; // @synthesize _mode=__mode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface PersonalizationPortraitInternals.TextUnderstandingImporter
 {
     id $defaultActor;
-    id sourceBuffer;
-    id db;
-    id neBuffer;
-    id tpBuffer;
-    id locBuffer;
 }
 
 @end

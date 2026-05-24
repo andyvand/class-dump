@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SPSimpleMetadataPattern : SPMetadataPattern
 {
     struct os_unfair_lock_s _queryEvalLock;
-    struct __MDSimpleQueryEvaluator *_queryEval;
-    _Bool _isCoreSpotlight;
-    NSString *_queryString;
 }
 
 - (void);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *queryString; // @synthesize queryString=_queryString;

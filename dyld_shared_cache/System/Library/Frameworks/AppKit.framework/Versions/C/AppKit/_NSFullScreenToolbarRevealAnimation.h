@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface _NSFullScreenToolbarRevealAnimation : NSAnimation
 {
     _NSFullScreenMenuBarCompanionController *_controller;
-    double _toolbarRevealAnimationStart;
-    double _toolbarRevealAnimationTarget;
 }
 
-- (id);
+- (id)> Storing work to do when ready to wake app for uuid %@ for session %@ with identifier %@;
 - (void)it.subproj/appCache.m;
 - (void);
 

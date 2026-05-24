@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)ationType,%d,fetchPreferredNames,%{sensitive}d;
 
 @end
 

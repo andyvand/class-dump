@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ValueAtIndex: /* Error: Ran out of types for this method. */;
++ (long long)payloadBillDetailsValueAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)NPBPowerValue;
+- (id)_INPBPowerValue;
 
 @end
 

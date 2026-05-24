@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 __attribute__((visibility("hidden")))
 @interface HMSettingsMessageHandler
 {
     _HMContext *_context;
-    NSUUID *_homeTargetUUID;
-    NSUUID *_userTargetUUID;
-    NSString *_targetSettingsType;
 }
 
 - (void);
 - (void);
-- (void)nal;
+- (void)HMAccessorySettingsContainerInternal;
 
 @end
 

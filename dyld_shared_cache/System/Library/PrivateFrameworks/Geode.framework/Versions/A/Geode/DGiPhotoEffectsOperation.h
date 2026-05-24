@@ -11,17 +11,10 @@
 @interface DGiPhotoEffectsOperation : DGOperation
 {
     NSNumber *_blackAndWhiteIntensity;
-    NSNumber *_sepiaIntensity;
-    NSNumber *_antiqueIntensity;
-    NSNumber *_matteIntensity;
-    NSNumber *_vignetteIntensity;
-    NSNumber *_edgeBlurIntensity;
-    NSNumber *_fadeIntensity;
-    NSNumber *_boostIntensity;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -49,15 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAntiqueIntensity; // @synthesize inputAntiqueIntensity=_antiqueIntensity;
-@property(copy, nonatomic) NSNumber *inputBlackAndWhiteIntensity; // @synthesize inputBlackAndWhiteIntensity=_blackAndWhiteIntensity;
-@property(copy, nonatomic) NSNumber *inputBoostIntensity; // @synthesize inputBoostIntensity=_boostIntensity;
-@property(copy, nonatomic) NSNumber *inputEdgeBlurIntensity; // @synthesize inputEdgeBlurIntensity=_edgeBlurIntensity;
 @property(nonatomic) NSNumber *inputEffectType;
-@property(copy, nonatomic) NSNumber *inputFadeIntensity; // @synthesize inputFadeIntensity=_fadeIntensity;
-@property(copy, nonatomic) NSNumber *inputMatteIntensity; // @synthesize inputMatteIntensity=_matteIntensity;
-@property(copy, nonatomic) NSNumber *inputSepiaIntensity; // @synthesize inputSepiaIntensity=_sepiaIntensity;
-@property(copy, nonatomic) NSNumber *inputVignetteIntensity; // @synthesize inputVignetteIntensity=_vignetteIntensity;
 
 @end
 

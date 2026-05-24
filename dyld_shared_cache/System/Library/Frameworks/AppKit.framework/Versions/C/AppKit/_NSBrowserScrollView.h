@@ -11,18 +11,18 @@
 }
 
 + (Class)n English;
-- (void);
+- (void):(long long)arg1 Buffer contains %lu unused bytes;
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)_requestIsUncacheable;
+- (id)_doesSZExtractorConsumeExtractedData;
+- (id)ionSpace",R,C;
+- (struct NSEdgeInsets)nsfer daemon:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
 - (struct NSEdgeInsets);
-- (void);
-- (struct NSEdgeInsets);
-- (id)steboardTypes:(struct CGRect)arg1;
-- (void)ibilityIsSortButton;
+- (id)tokenFieldCell:(struct CGRect)arg1 shouldUseReadablePasteboardTypes: /* Error: Ran out of types for this method. */;
+- (void)accessibilityIsSortButton;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMDFeaturesDataSource, HMDPreferences, HMMLogEventSubmitting;
+@protocol HMDFeaturesDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingManagerDependencyFactory
@@ -22,20 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)eristic;
+- (id)_interruptCharacteristic;
 - (id)?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly) id <HMDPreferences> preferences;
-@property(readonly) Class superclass;
 
 @end
 

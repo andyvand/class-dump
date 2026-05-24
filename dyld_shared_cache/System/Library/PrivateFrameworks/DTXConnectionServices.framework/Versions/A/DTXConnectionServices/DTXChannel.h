@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DTXConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface DTXChannel
 {
     NSString *_label;
-    DTXConnection *_connection;
-    DTXConnection *_strongConnection;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    struct os_unfair_lock_s _handlerGuard;
-    unsigned int _channelCode;
-    int _compressionTypeHint;
-    _Bool _canceled;
-    CDStruct_f5f3468d _channelGuarded;
 }
 
 - (void);
@@ -29,14 +20,14 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_f5f3468d);
-- (void);
-- (id);
+- (CDStruct_88b52802);
+- (void);
+- (id)H;
 - (id);
 - (void);
 - (void);
@@ -49,18 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) DTXConnection *_connection; // @synthesize _connection;
-@property(readonly, nonatomic) unsigned int channelCode; // @synthesize channelCode=_channelCode;
-@property int compressionTypeHint; // @synthesize compressionTypeHint=_compressionTypeHint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool isCanceled; // @synthesize isCanceled=_canceled;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

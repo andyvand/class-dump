@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)aph"24^@32;
 - (id)Post WAC accessory already located, handoff;
 
 // Remaining properties

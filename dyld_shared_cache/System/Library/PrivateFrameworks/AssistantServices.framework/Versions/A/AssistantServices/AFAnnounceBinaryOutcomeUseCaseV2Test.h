@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFAnnounceBinaryOutcomeUseCaseV2Test
 {
 }
 
 + (id);
 + (_Bool);
+- (id)_vpanIdentifier;
+- (id)B;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)textHitTestingEnabled;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) long long type;
 
 @end

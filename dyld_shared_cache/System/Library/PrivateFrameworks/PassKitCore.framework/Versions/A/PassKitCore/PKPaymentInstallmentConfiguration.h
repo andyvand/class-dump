@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDecimalNumber, NSDictionary, NSString;
-
 @interface PKPaymentInstallmentConfiguration
 {
     _Bool _inStorePurchase;
-    long long _feature;
-    NSData *_merchandisingImageData;
-    NSDecimalNumber *_openToBuyThresholdAmount;
-    NSDecimalNumber *_bindingTotalAmount;
-    NSString *_currencyCode;
-    NSString *_installmentMerchantIdentifier;
-    NSString *_referrerIdentifier;
-    NSArray *_installmentItems;
-    NSDictionary *_applicationMetadata;
-    long long _retailChannel;
 }
 
 + (_Bool)áW"ð!Cùqî%Ð1Â0@ù
@@ -44,27 +32,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setHasWlanPreempted:(id)arg1;
 - (void);
 - (id)getDeviceProtocol>";
-- (void)llet:peerPaymentDeviceTapTransactionAdded /* Error: Ran out of types for this method. */;
+- (void)wallet:peerPaymentDeviceTapTransactionAdded /* Error: Ran out of types for this method. */;
 - (void);
 - (long long)­¿ÿ,1l;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *applicationMetadata; // @synthesize applicationMetadata=_applicationMetadata;
-@property(retain, nonatomic) NSDecimalNumber *bindingTotalAmount; // @synthesize bindingTotalAmount=_bindingTotalAmount;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(nonatomic) long long feature; // @synthesize feature=_feature;
-@property(nonatomic, getter=isInStorePurchase) _Bool inStorePurchase; // @synthesize inStorePurchase=_inStorePurchase;
-@property(copy, nonatomic) NSArray *installmentItems; // @synthesize installmentItems=_installmentItems;
-@property(copy, nonatomic) NSString *installmentMerchantIdentifier; // @synthesize installmentMerchantIdentifier=_installmentMerchantIdentifier;
-@property(copy, nonatomic) NSData *merchandisingImageData; // @synthesize merchandisingImageData=_merchandisingImageData;
-@property(retain, nonatomic) NSDecimalNumber *openToBuyThresholdAmount; // @synthesize openToBuyThresholdAmount=_openToBuyThresholdAmount;
-@property(copy, nonatomic) NSString *referrerIdentifier; // @synthesize referrerIdentifier=_referrerIdentifier;
-@property(nonatomic) long long retailChannel; // @synthesize retailChannel=_retailChannel;
 
 @end
 

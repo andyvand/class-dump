@@ -6,59 +6,41 @@
 
 #import <coreroutine/RTDaemonClientRegistrar.h>
 
-@class NSMutableDictionary, NSObject, NSString, RTInvocationDispatcher, RTScenarioTriggerManager;
-@protocol OS_dispatch_queue, RTDaemonClientRegistrarScenarioTriggerProtocol;
+@class NSMutableDictionary;
 
 @interface RTDaemonClientRegistrarScenarioTrigger : RTDaemonClientRegistrar
 {
     unsigned long long _monitoredScenarioTriggerTypes;
-    id <RTDaemonClientRegistrarScenarioTriggerProtocol> _delegate;
-    NSMutableDictionary *_pendingScenarioInvocations;
-    RTScenarioTriggerManager *_scenarioTriggerManager;
-    RTInvocationDispatcher *_dispatcher;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)ly:%d /* Error: Ran out of types for this method. */;
+- (void)short buffer.;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)continuity:didStartAdvertisingOfType: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)SbSo7NSErrorCSgIeyByy_Sg;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)d:(CDUnknownBlockType)arg1 withError:(CDUnknownBlockType)arg2;
+- (void)onCacheDownloadResult:(CDUnknownBlockType)arg1 userInitiatedDownload:(CDUnknownBlockType)arg2 withError:(id)arg3;
 - (_Bool)¼;
 - (void)adcrumb,%{sensitive}@,startBreadcrumbDist,%f,stopBreadcrumbDist,%f;
 - (void)`ö-}2;
 - (_Bool)dêÿ{Æ+E;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RTDaemonClientRegistrarScenarioTriggerProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long monitoredScenarioTriggerTypes; // @synthesize monitoredScenarioTriggerTypes=_monitoredScenarioTriggerTypes;
 @property(retain, nonatomic) NSMutableDictionary *pendingScenarioInvocations; // @synthesize pendingScenarioInvocations=_pendingScenarioInvocations;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTScenarioTriggerManager *scenarioTriggerManager; // @synthesize scenarioTriggerManager=_scenarioTriggerManager;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)createDirectoryAtPath:(unsigned long long)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (void)?20;
 - (id);
 - (void)%{sensitive}@;
 

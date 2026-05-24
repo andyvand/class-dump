@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (double)neratedStories:%{sensitive}s /* Error: Ran out of types for this method. */;
-- (void)rary_FilterMenu_Subtitle_FromSharedLibraryPreview;
+- (void)PXSharedLibrary_FilterMenu_Subtitle_FromSharedLibraryPreview;
 - (void)rrentChapter();
 
 // Remaining properties

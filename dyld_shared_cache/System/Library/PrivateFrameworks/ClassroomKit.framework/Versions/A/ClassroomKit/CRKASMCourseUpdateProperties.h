@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface CRKASMCourseUpdateProperties
 {
     NSString *_name;
-    NSNumber *_color;
-    NSNumber *_mascot;
-    NSSet *_usersToAdd;
-    NSSet *_usersToRemove;
-    NSSet *_trustedUsersToAdd;
-    NSSet *_trustedUsersToRemove;
 }
 
 - (id);
@@ -36,13 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSNumber *mascot; // @synthesize mascot=_mascot;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSSet *trustedUsersToAdd; // @synthesize trustedUsersToAdd=_trustedUsersToAdd;
-@property(copy, nonatomic) NSSet *trustedUsersToRemove; // @synthesize trustedUsersToRemove=_trustedUsersToRemove;
-@property(copy, nonatomic) NSSet *usersToAdd; // @synthesize usersToAdd=_usersToAdd;
-@property(copy, nonatomic) NSSet *usersToRemove; // @synthesize usersToRemove=_usersToRemove;
 
 @end
 

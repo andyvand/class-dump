@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSWindow;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface NSGameControllerNavigationBinding
 {
     _Bool _active;
-    _Bool _hasTimer;
-    unsigned long long _phase;
-    long long _command;
-    NSWindow *_window;
-    NSTimer *_timer;
 }
 
-+ (id);
++ (id)%p>{host = %@, port = %d, realm = %@, serverType = %d, authenticationScheme = %d};
 - (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)set_tcpConnectionPoolName:(long long)arg1;
+- (_Bool)preferredProtSpaceIndex;
+- (void)spatch_data>"16r^{?=qi}24;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_bidiLevelsAndResolvedBaseWritingDirectionPointer: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -38,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)SÌ@;
 
 // Remaining properties
-@property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly) long long command; // @synthesize command=_command;
-@property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) _Bool hasTimer; // @synthesize hasTimer=_hasTimer;
-@property unsigned long long phase; // @synthesize phase=_phase;
 @property(retain) NSTimer *timer; // @synthesize timer=_timer;
-@property(readonly) NSWindow *window; // @synthesize window=_window;
 
 @end
 

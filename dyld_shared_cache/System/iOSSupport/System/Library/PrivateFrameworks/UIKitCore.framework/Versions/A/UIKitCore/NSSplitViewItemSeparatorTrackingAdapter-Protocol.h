@@ -8,42 +8,16 @@
 @protocol NSSplitViewItemAccessoryView;
 
 @protocol NSSplitViewItemSeparatorTrackingAdapter
+- (long long)SNGenerateShazamSignatureRequest;
+
+@optional
+- (struct CGRect);
+- (void)FeatureDescription;
+- (_Bool);
+- (NSView<NSSplitViewItemAccessoryView> *);
+- (double)C;
 
 // Remaining properties
-@property(readonly) _Bool allowsFloatingLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool allowsFullHeightLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *bottomAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly) struct NSEdgeInsets floatingSidebarInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?,R
-
-@property(readonly) _Bool isSidebar;
-@property(readonly) _Bool isTrailingSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
 @property(readonly) struct CGRect splitFrame;
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *titlebarAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly) long long titlebarSeparatorStyle;
-@property double topSidebarInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
 @end
 

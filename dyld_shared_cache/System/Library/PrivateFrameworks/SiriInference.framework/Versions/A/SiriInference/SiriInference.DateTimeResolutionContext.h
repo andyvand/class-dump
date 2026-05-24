@@ -7,12 +7,6 @@
 @interface SiriInference.DateTimeResolutionContext
 {
     id language;
-    id regionFormat;
-    id regionAwareLanguage;
-    id timeZone;
-    id hemisphere;
-    id calendar;
-    id date;
 }
 
 @end

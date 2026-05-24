@@ -6,43 +6,11 @@
 
 #import <CMCapture/BWFanOutNode.h>
 
-@class BWNodeOutput, NSArray, NSDictionary, NSSet;
+@class BWNodeOutput;
 
 @interface BWFaceDetectionNode : BWFanOutNode
 {
     BWNodeOutput *_metadataObjectOutput;
-    NSArray *_boxedMetadataOutputs;
-    struct CGRect _rectOfInterest;
-    struct os_unfair_lock_s _configurationLock;
-    _Bool _metadataObjectOutputEnabled;
-    _Bool _boxedMetadataOutputEnabled;
-    _Bool _emitsEmptyObjectDetectionMetadata;
-    NSSet *_enabledDetectedObjectTypes;
-    int _lastObjectFaceCount;
-    int _lastDetectedObjectsCount;
-    unsigned int _localIDsForFaces_BE[5];
-    unsigned int _localIDsForDetectedHumanBodies_BE[3];
-    unsigned int _localIDsForDetectedCatHeads_BE[3];
-    unsigned int _localIDsForDetectedCatBodies_BE[3];
-    unsigned int _localIDsForDetectedDogHeads_BE[3];
-    unsigned int _localIDsForDetectedDogBodies_BE[3];
-    unsigned int _localIDsForDetectedSalientObjects_BE[3];
-    NSDictionary *_detectionTimingInfoByBoxedOutput;
-    unsigned int _localIDOfDetectedFace_BE;
-    unsigned int _localIDOfDetectedFaceFaceID_BE;
-    unsigned int _localIDOfDetectedFaceBounds_BE;
-    unsigned int _localIDOfDetectedFaceRoll_BE;
-    unsigned int _localIDOfDetectedFaceYaw_BE;
-    struct OpaqueCMBlockBuffer *_emptyMetadataSampleData;
-    CDStruct_1b6d18a9 _startMarkerBufferPTS;
-    CDStruct_1b6d18a9 _prevBoxedFacePTS;
-    CDStruct_1b6d18a9 _prevBoxedFaceDur;
-    CDStruct_1b6d18a9 _prevBoxedNoFacePTS;
-    int _lastBoxedFaceCount;
-    unsigned int _recordCollectionAtomIdentifier_BE;
-    unsigned int _collectionItemsAtomIdentifier_BE;
-    long long _previousDetectedFacesTimestamp;
-    long long _previousDetectedObjectsTimestamp;
 }
 
 + (void)'%@;
@@ -54,7 +22,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)	;
 - (id);
 - (id)ourceNode >>>> %s:*** Uh oh, we've been generating silence and now CoreAudio has resumed with a sample time jump that's less than the silence already emitted.  Audio is now behind video by %lld frames. *** /* Error: Ran out of types for this method. */;
 - (id)ell Closed;
@@ -68,7 +36,6 @@
 - (void)ØàÿÝt&;
 
 // Remaining properties
-@property(readonly) NSArray *boxedMetadataOutputs; // @synthesize boxedMetadataOutputs=_boxedMetadataOutputs;
 @property(readonly) BWNodeOutput *metadataObjectOutput; // @synthesize metadataObjectOutput=_metadataObjectOutput;
 
 @end

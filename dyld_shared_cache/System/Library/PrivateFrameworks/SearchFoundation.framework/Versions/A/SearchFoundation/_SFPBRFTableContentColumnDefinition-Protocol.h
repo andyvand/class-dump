@@ -7,14 +7,10 @@
 @class NSData;
 
 @protocol _SFPBRFTableContentColumnDefinition
+- (void);
+- (NSData *)Identifiers;
 
 // Remaining properties
-@property(nonatomic) _Bool disable_truncation;
-@property(nonatomic) int drop_order;
-@property(nonatomic) int equal_size_column_group;
-@property(nonatomic) int horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool should_drop_in_flow_layout;
 @property(nonatomic) float size_percent;
 @end
 

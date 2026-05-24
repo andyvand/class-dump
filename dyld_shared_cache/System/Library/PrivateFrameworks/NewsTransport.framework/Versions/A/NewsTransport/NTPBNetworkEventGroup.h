@@ -9,30 +9,26 @@
 @interface NTPBNetworkEventGroup
 {
     NSString *_respondingInstance;
-    NSString *_via;
 }
 
+- (void)enableRecentlyViewedCollection;
+- (id)collectionView:didSelectItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)canShowEllipsisButton;
+- (_Bool)cePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_videoScrubberDelegateFlags;
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)tiple Users;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRespondingInstance;
 @property(readonly, nonatomic) _Bool hasVia;
-@property(retain, nonatomic) NSString *respondingInstance; // @synthesize respondingInstance=_respondingInstance;
-@property(retain, nonatomic) NSString *via; // @synthesize via=_via;
 
 @end
 

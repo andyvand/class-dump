@@ -6,21 +6,18 @@
 
 #import <CloudKit/CKSQLiteTableGroup.h>
 
-@class CKPackageDatabase, CKPackageInfo, CKPackageItemTable, CKPackageSectionTable;
+@class CKPackageInfo;
 
 @interface CKSQLitePackage : CKSQLiteTableGroup
 {
     CKPackageInfo *_packageInfo;
-    CKPackageDatabase *_packageDB;
-    CKPackageItemTable *_items;
-    CKPackageSectionTable *_sections;
 }
 
 + (id);
-+ (id);
++ (id);
 + (double);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -28,22 +25,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)-;
 - (id);
 - (id);
 - (id);
+- (id)?);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)qh;
 - (id);
 - (id);
 - (id);

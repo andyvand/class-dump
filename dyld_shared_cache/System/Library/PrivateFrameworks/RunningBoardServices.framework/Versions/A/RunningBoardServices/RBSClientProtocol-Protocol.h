@@ -5,5 +5,8 @@
 //
 
 @protocol RBSClientProtocol
+- (oneway void);
+- (oneway void)A;
+- (oneway void);
 @end
 

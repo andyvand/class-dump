@@ -6,18 +6,11 @@
 
 #import <AnnotationKit/AKAnnotationPopoverViewController.h>
 
-@class AKCalloutBar, NSString, UIAlertController, UIButton, UIView;
+@class AKCalloutBar;
 
 @interface AKHighlightColorEditorController : AKAnnotationPopoverViewController
 {
     AKCalloutBar *mCalloutBar;
-    UIView *mColorControls;
-    UIButton *mAddNoteButton;
-    UIButton *mDeleteButton;
-    UIButton *mRightArrowButton;
-    UIButton *mShareButton;
-    int _pageTheme;
-    UIAlertController *_alertController;
 }
 
 - (void);
@@ -29,14 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -66,31 +59,17 @@
 - (void);
 - (int);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void):outConfirmPasswordElementUniqueID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *addNoteButton; // @synthesize addNoteButton=mAddNoteButton;
-@property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;
 @property(retain, nonatomic) AKCalloutBar *calloutBar; // @synthesize calloutBar=mCalloutBar;
-@property(retain, nonatomic) UIView *colorControls; // @synthesize colorControls=mColorControls;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) UIButton *deleteButton; // @synthesize deleteButton=mDeleteButton;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int pageTheme; // @synthesize pageTheme=_pageTheme;
-@property(retain, nonatomic) UIButton *rightArrowButton; // @synthesize rightArrowButton=mRightArrowButton;
-@property(retain, nonatomic) UIButton *shareButton; // @synthesize shareButton=mShareButton;
-@property(readonly) Class superclass;
 
 @end
 

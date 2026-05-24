@@ -7,10 +7,9 @@
 @class NSData, _SFPBURL;
 
 @protocol _SFPBURLImage
+- (NSData *)userQuery;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *darkUrlValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *urlValue;
 @end
 

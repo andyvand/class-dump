@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 @protocol CalDAVRecurrenceSplitTaskGroupDelegate;
 
 @interface CalDAVRecurrenceSplitTaskGroup
 {
     NSURL *_folderURL;
-    NSArray *_actions;
 }
 
 - (id);

@@ -6,14 +6,12 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class UIImageView, UILabel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CKMomentShareStatusBalloonView : CKColoredBalloonView
 {
     UIImageView *_iconImageView;
-    UILabel *_primaryLabel;
-    UILabel *_secondaryLabel;
 }
 
 + (id);

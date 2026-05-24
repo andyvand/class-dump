@@ -13,15 +13,15 @@
     CSFilesSearchQueryContext *_context;
 }
 
-- (id);
+- (id)R;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (void);
+- (void)crc32-bzip2;
 - (void);
 
 // Remaining properties

@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.BGSystemTaskReporter
 {
     id bgSystemTask;
-    id logger;
 }
 
 @end

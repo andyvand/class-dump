@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSCache *_cache;
 }
 
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (void);
+- (void)_;
 - (id);
 - (void);
 - (void)±[ð1Â0@ù

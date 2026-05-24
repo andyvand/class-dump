@@ -10,7 +10,6 @@
 {
     _Bool _isMe;
     NSString *_handle;
-    NSArray *_contactIdentifiers;
 }
 
 - (_Bool);
@@ -23,7 +22,6 @@
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
 @property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
 
 @end
 

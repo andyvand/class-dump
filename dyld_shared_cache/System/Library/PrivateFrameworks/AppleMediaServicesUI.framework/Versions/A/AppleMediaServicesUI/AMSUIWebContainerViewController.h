@@ -6,69 +6,46 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSBinaryPromise, AMSUICommonNavigationItem, AMSUIWebAppearance, AMSUIWebClientContext, AMSUIWebNavigationBarModel, AMSUIWebPageRenderMetricsPresenterWrapper, NSDictionary, NSNumber, NSString, NSViewController;
-@protocol AMSUIWebPagePresenter, AMSUIWebPageProvider, AMSUIWebPresentationDelegate;
+@class AMSBinaryPromise;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebContainerViewController : AMSUICommonViewController
 {
     _Bool _shouldSkipInitialRefresh;
-    _Bool _didAppearOnce;
-    _Bool _dismissCalled;
-    _Bool _isAppearing;
-    NSViewController<AMSUIWebPagePresenter> *_containedViewController;
-    unsigned long long _activePresentationType;
-    AMSUIWebAppearance *_appearance;
-    long long _containerIndex;
-    long long _disableReappearPlaceholder;
-    AMSUIWebContainerViewController<AMSUIWebPresentationDelegate> *_modalPresentationDelegate;
-    AMSUIWebContainerViewController *_nextContainer;
-    NSDictionary *_pageInfo;
-    AMSUIWebPageRenderMetricsPresenterWrapper *_pageRenderPresenter;
-    AMSUIWebContainerViewController<AMSUIWebPresentationDelegate> *_pushPresentationDelegate;
-    AMSBinaryPromise *_activeRefresh;
-    AMSUIWebClientContext *_context;
-    NSViewController *_hiddenViewController;
-    AMSUICommonNavigationItem *_lastNavigationItem;
-    long long _lastNavigationStyle;
-    AMSUIWebNavigationBarModel *_navigationBarModel;
-    NSNumber *_pageAppearTime;
-    id <AMSUIWebPageProvider> _pageModel;
-    struct CGPoint _scrollPosition;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)to purged asset (%{public}@) with result:(id)arg1 %lu;
+- (void)sets:(id)arg1 %{public}@;
+- (void)%{public}@;
+- (_Bool)rving types:%@ /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
+- (void)}lu, status:(_Bool)arg1 %{public}lu;
+- (void)tivity:(id)arg1 %{public}@ for approximately %{public}@ (tolerance of %ld seconds);
+- (void)anager is not supported for query:(id)arg1 %@;
+- (void)upported locales :(id)arg1 %@;
+- (void)on due to error:(id)arg1 %@;
+- (void)ine the latest auto asset version due to error:(id)arg1 %@;
+- (void)ot fetch the current status of auto asset due to error:(id)arg1 %@;
+- (void)rSelector successful for asset selector:(id)arg1 %@;
+- (void)for auto asset:(long long)arg1 %@ with error:%@ /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
+- (void)us, manager interface is nil for asset type:(id)arg1 %@;
+- (void)%{public}@;
+- (void)at %{public}@;
+- (void)"12;
+- (void)list;
+- (void)%@);
+- (void)nary"8@?0;
+- (id):%p, type:%@, path:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -77,9 +54,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)0;
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -102,54 +79,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)tring"40;
+- (void);
+- (struct CGPoint)C;
 - (id);
 - (void);
-- (struct CGPoint);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)>	;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ror;
 - (void)ration";
 - (void);
 - (void)î;
 
 // Remaining properties
-@property(readonly) unsigned long long activePresentationType; // @synthesize activePresentationType=_activePresentationType;
 @property(retain) AMSBinaryPromise *activeRefresh; // @synthesize activeRefresh=_activeRefresh;
-@property(retain) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
-@property(retain) NSViewController<AMSUIWebPagePresenter> *containedViewController; // @synthesize containedViewController=_containedViewController;
-@property long long containerIndex; // @synthesize containerIndex=_containerIndex;
-@property __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didAppearOnce; // @synthesize didAppearOnce=_didAppearOnce;
-@property long long disableReappearPlaceholder; // @synthesize disableReappearPlaceholder=_disableReappearPlaceholder;
-@property _Bool dismissCalled; // @synthesize dismissCalled=_dismissCalled;
-@property(readonly) unsigned long long hash;
-@property(retain) NSViewController *hiddenViewController; // @synthesize hiddenViewController=_hiddenViewController;
-@property _Bool isAppearing; // @synthesize isAppearing=_isAppearing;
-@property __weak AMSUICommonNavigationItem *lastNavigationItem; // @synthesize lastNavigationItem=_lastNavigationItem;
-@property long long lastNavigationStyle; // @synthesize lastNavigationStyle=_lastNavigationStyle;
-@property __weak AMSUIWebContainerViewController<AMSUIWebPresentationDelegate> *modalPresentationDelegate; // @synthesize modalPresentationDelegate=_modalPresentationDelegate;
-@property(retain) AMSUIWebNavigationBarModel *navigationBarModel; // @synthesize navigationBarModel=_navigationBarModel;
-@property __weak AMSUIWebContainerViewController *nextContainer; // @synthesize nextContainer=_nextContainer;
-@property(retain) NSNumber *pageAppearTime; // @synthesize pageAppearTime=_pageAppearTime;
-@property(retain) NSDictionary *pageInfo; // @synthesize pageInfo=_pageInfo;
-@property(readonly) NSDictionary *pageMetrics;
-@property(retain) id <AMSUIWebPageProvider> pageModel; // @synthesize pageModel=_pageModel;
-@property(retain) AMSUIWebPageRenderMetricsPresenterWrapper *pageRenderPresenter; // @synthesize pageRenderPresenter=_pageRenderPresenter;
-@property __weak AMSUIWebContainerViewController<AMSUIWebPresentationDelegate> *pushPresentationDelegate; // @synthesize pushPresentationDelegate=_pushPresentationDelegate;
-@property struct CGPoint scrollPosition; // @synthesize scrollPosition=_scrollPosition;
-@property _Bool shouldSkipInitialRefresh; // @synthesize shouldSkipInitialRefresh=_shouldSkipInitialRefresh;
-@property(readonly) Class superclass;
 
 @end
 

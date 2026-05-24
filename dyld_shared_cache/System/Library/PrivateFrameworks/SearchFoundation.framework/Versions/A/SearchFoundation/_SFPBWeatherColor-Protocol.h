@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate, _SFPBLatLng;
+@class NSData, NSString;
 
 @protocol _SFPBWeatherColor
-- (void)tlightIndexUsedReason;
+- (double)R%;
+- (NSData *)tDuplicateLivePhotoAsStill:,V_duplicateLivePhotoAsStill /* Error: Ran out of types for this method. */;
+- (void)_coreSpotlightIndexUsedReason;
 
 // Remaining properties
-@property(nonatomic) double cloudCover;
-@property(nonatomic) double cloudCoverHighAltPct;
-@property(nonatomic) double cloudCoverLowAltPct;
-@property(nonatomic) double cloudCoverMidAltPct;
 @property(copy, nonatomic) NSString *condition;
-@property(retain, nonatomic) _SFPBDate *date;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLatLng *location;
 @end
 

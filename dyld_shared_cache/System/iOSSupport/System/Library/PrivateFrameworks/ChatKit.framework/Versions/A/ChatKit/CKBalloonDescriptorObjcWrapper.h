@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ator migrateLockedNotesInAccount:(struct CKBalloonDescriptor_t)arg1 toMode:(id)arg2 window:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool)o edit the expression that produced this result;
 - (id);
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)ionHandler:(struct _NSZone *)arg1 ];
 
 @end
 

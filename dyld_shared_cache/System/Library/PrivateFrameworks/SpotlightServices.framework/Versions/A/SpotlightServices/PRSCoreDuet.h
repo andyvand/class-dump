@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DKEventStream, _DKKnowledgeStore;
+@class _DKKnowledgeStore;
 
 @interface PRSCoreDuet
 {
     _DKKnowledgeStore *_knowledgeStore;
-    _DKEventStream *_spotlightStream;
 }
 
 - (id);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (void)coringConfig;
-- (id)temProviderDataTypes;
+- (void)_scoringConfig;
+- (id)_kMDItemProviderDataTypes;
 
 // Remaining properties
 @property(retain) _DKKnowledgeStore *knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
-@property(retain) _DKEventStream *spotlightStream; // @synthesize spotlightStream=_spotlightStream;
 
 @end
 

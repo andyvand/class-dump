@@ -6,15 +6,11 @@
 
 #import <SystemMigration/SMUser_Daemon.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SMWindowsUser_Daemon : SMUser_Daemon
 {
     NSNumber *cachedHomeDirSize;
-    NSData *randomPictureData;
-    NSDictionary *attributes;
-    NSArray *components;
-    NSMutableDictionary *_componentDictionary;
 }
 
 + (id);
@@ -50,17 +46,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6;
 
 // Remaining properties
-@property(readonly, retain) NSData *accountPictureData;
-@property(retain) NSDictionary *attributes; // @synthesize attributes;
 @property(retain) NSNumber *cachedHomeDirSize; // @synthesize cachedHomeDirSize;
-@property(readonly) _Bool canTransfer;
-@property(retain) NSMutableDictionary *componentDictionary; // @synthesize componentDictionary=_componentDictionary;
-@property(retain) NSArray *components; // @synthesize components;
-@property(retain) NSData *randomPictureData; // @synthesize randomPictureData;
-@property(readonly, retain) NSString *windowsSID;
 
 @end
 

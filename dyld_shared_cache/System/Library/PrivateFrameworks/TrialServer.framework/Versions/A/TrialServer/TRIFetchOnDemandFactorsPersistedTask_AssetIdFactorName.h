@@ -10,13 +10,10 @@
 {
 }
 
-+ (id);
++ (id)SignpostSupportSubsystemCategoryBlocklist;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetId; // @dynamic assetId;
-@property(copy, nonatomic) NSString *factorName; // @dynamic factorName;
-@property(nonatomic) _Bool hasAssetId; // @dynamic hasAssetId;
-@property(nonatomic) _Bool hasFactorName; // @dynamic hasFactorName;
 
 @end
 

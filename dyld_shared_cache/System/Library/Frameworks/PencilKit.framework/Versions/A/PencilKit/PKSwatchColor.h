@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface PKSwatchColor
 {
     NSColor *_color;
-    NSString *_identifier;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)tB;
+- (id).;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

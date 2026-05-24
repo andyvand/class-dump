@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface FCPuzzlesConfiguration
 {
     _Bool _puzzlesEnabled;
-    _Bool _puzzlesArchiveAPIEnabled;
-    _Bool _puzzleLeaderboardsEnabled;
-    _Bool _allowLowerProgressOnCompletedPuzzles;
-    NSString *_puzzleHubTagID;
-    NSString *_puzzleFullArchiveTagID;
-    NSArray *_puzzleTypes;
-    long long _autoEnableNotificationMinimumPlayCount;
-    double _autoEnableNotificationPlayTimeInterval;
-    double _autoDisableNotificationEngagementInterval;
-    double _progressUpdateTimeInterval;
-    double _badgingUpdateQuiesenceInterval;
-    NSDictionary *_difficultyDescriptions;
-    long long _numberOfHistoryPuzzlesToPrewarm;
-    double _puzzleHistoryPrewarmTimeInterval;
-    double _puzzlesPrewarmTimeInterval;
-    double _puzzlesEngineRefreshTimeInterval;
-    double _puzzlesCacheLifetime;
-    double _recentPuzzlesCacheLifetime;
-    double _puzzleTypeThumbnailsCacheLifetime;
-    double _streakCheckLocalTimeInterval;
-    long long _streakNotificationDeliveryLocalTime;
-    long long _streakLapseNotificationMinimumStreakCount;
-    NSString *_streakNotificationTitle;
-    NSString *_streakNotificationBodyOneStreak;
-    NSString *_streakNotificationBodyTwoStreaks;
-    NSString *_streakNotificationBodyMultipleStreaks;
-    NSDictionary *_puzzleFullArchiveMenuOptionsConfigByPuzzleTypeID;
-    NSDictionary *_puzzleTypeLeaderboards;
-    NSDictionary *_puzzleRanksByPuzzleTypeID;
-    NSArray *_puzzleGameCenterActivities;
 }
 
 - (id);
@@ -66,47 +34,17 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)`;
 - (long long);
 - (double);
 - (_Bool);
 - (id);
 - (long long);
-- (void)ggregation;
+- (void)eventAggregation;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowLowerProgressOnCompletedPuzzles; // @synthesize allowLowerProgressOnCompletedPuzzles=_allowLowerProgressOnCompletedPuzzles;
-@property(readonly, nonatomic) double autoDisableNotificationEngagementInterval; // @synthesize autoDisableNotificationEngagementInterval=_autoDisableNotificationEngagementInterval;
-@property(readonly, nonatomic) long long autoEnableNotificationMinimumPlayCount; // @synthesize autoEnableNotificationMinimumPlayCount=_autoEnableNotificationMinimumPlayCount;
-@property(readonly, nonatomic) double autoEnableNotificationPlayTimeInterval; // @synthesize autoEnableNotificationPlayTimeInterval=_autoEnableNotificationPlayTimeInterval;
-@property(readonly, nonatomic) double badgingUpdateQuiesenceInterval; // @synthesize badgingUpdateQuiesenceInterval=_badgingUpdateQuiesenceInterval;
-@property(readonly, nonatomic) NSDictionary *difficultyDescriptions; // @synthesize difficultyDescriptions=_difficultyDescriptions;
-@property(readonly, nonatomic) long long numberOfHistoryPuzzlesToPrewarm; // @synthesize numberOfHistoryPuzzlesToPrewarm=_numberOfHistoryPuzzlesToPrewarm;
-@property(readonly, nonatomic) double progressUpdateTimeInterval; // @synthesize progressUpdateTimeInterval=_progressUpdateTimeInterval;
-@property(readonly, nonatomic) NSDictionary *puzzleFullArchiveMenuOptionsConfigByPuzzleTypeID; // @synthesize puzzleFullArchiveMenuOptionsConfigByPuzzleTypeID=_puzzleFullArchiveMenuOptionsConfigByPuzzleTypeID;
-@property(readonly, nonatomic) NSString *puzzleFullArchiveTagID; // @synthesize puzzleFullArchiveTagID=_puzzleFullArchiveTagID;
-@property(readonly, nonatomic) NSArray *puzzleGameCenterActivities; // @synthesize puzzleGameCenterActivities=_puzzleGameCenterActivities;
-@property(readonly, nonatomic) double puzzleHistoryPrewarmTimeInterval; // @synthesize puzzleHistoryPrewarmTimeInterval=_puzzleHistoryPrewarmTimeInterval;
-@property(readonly, nonatomic) NSString *puzzleHubTagID; // @synthesize puzzleHubTagID=_puzzleHubTagID;
-@property(readonly, nonatomic) _Bool puzzleLeaderboardsEnabled; // @synthesize puzzleLeaderboardsEnabled=_puzzleLeaderboardsEnabled;
-@property(readonly, nonatomic) NSDictionary *puzzleRanksByPuzzleTypeID; // @synthesize puzzleRanksByPuzzleTypeID=_puzzleRanksByPuzzleTypeID;
-@property(readonly, nonatomic) NSDictionary *puzzleTypeLeaderboards; // @synthesize puzzleTypeLeaderboards=_puzzleTypeLeaderboards;
-@property(readonly, nonatomic) double puzzleTypeThumbnailsCacheLifetime; // @synthesize puzzleTypeThumbnailsCacheLifetime=_puzzleTypeThumbnailsCacheLifetime;
-@property(readonly, nonatomic) NSArray *puzzleTypes; // @synthesize puzzleTypes=_puzzleTypes;
-@property(readonly, nonatomic) _Bool puzzlesArchiveAPIEnabled; // @synthesize puzzlesArchiveAPIEnabled=_puzzlesArchiveAPIEnabled;
-@property(readonly, nonatomic) double puzzlesCacheLifetime; // @synthesize puzzlesCacheLifetime=_puzzlesCacheLifetime;
 @property(readonly, nonatomic) _Bool puzzlesEnabled; // @synthesize puzzlesEnabled=_puzzlesEnabled;
-@property(readonly, nonatomic) double puzzlesEngineRefreshTimeInterval; // @synthesize puzzlesEngineRefreshTimeInterval=_puzzlesEngineRefreshTimeInterval;
-@property(readonly, nonatomic) double puzzlesPrewarmTimeInterval; // @synthesize puzzlesPrewarmTimeInterval=_puzzlesPrewarmTimeInterval;
-@property(readonly, nonatomic) double recentPuzzlesCacheLifetime; // @synthesize recentPuzzlesCacheLifetime=_recentPuzzlesCacheLifetime;
-@property(readonly, nonatomic) double streakCheckLocalTimeInterval; // @synthesize streakCheckLocalTimeInterval=_streakCheckLocalTimeInterval;
-@property(readonly, nonatomic) long long streakLapseNotificationMinimumStreakCount; // @synthesize streakLapseNotificationMinimumStreakCount=_streakLapseNotificationMinimumStreakCount;
-@property(readonly, nonatomic) NSString *streakNotificationBodyMultipleStreaks; // @synthesize streakNotificationBodyMultipleStreaks=_streakNotificationBodyMultipleStreaks;
-@property(readonly, nonatomic) NSString *streakNotificationBodyOneStreak; // @synthesize streakNotificationBodyOneStreak=_streakNotificationBodyOneStreak;
-@property(readonly, nonatomic) NSString *streakNotificationBodyTwoStreaks; // @synthesize streakNotificationBodyTwoStreaks=_streakNotificationBodyTwoStreaks;
-@property(readonly, nonatomic) long long streakNotificationDeliveryLocalTime; // @synthesize streakNotificationDeliveryLocalTime=_streakNotificationDeliveryLocalTime;
-@property(readonly, nonatomic) NSString *streakNotificationTitle; // @synthesize streakNotificationTitle=_streakNotificationTitle;
 
 @end
 

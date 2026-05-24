@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)SJXjxJ=SA'!*;
 - (id);
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)(;
 - (id);
-- (void)InPixels;
+- (void)focalLengthInPixels;
 
 @end
 

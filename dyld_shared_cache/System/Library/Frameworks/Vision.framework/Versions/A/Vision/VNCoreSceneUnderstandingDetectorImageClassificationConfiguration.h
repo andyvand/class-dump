@@ -12,15 +12,12 @@ __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingDetectorImageClassificationConfiguration : VNCoreSceneUnderstandingDetectorFeatureConfiguration
 {
     float _minimumConfidence;
-    VNDisallowedList *_disallowedList;
-    unsigned long long _maximumLeafClassifications;
-    unsigned long long _maximumHierarchicalClassifications;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,13 +25,10 @@ __attribute__((visibility("hidden")))
 - (float);
 - (_Bool);
 - (id);
-- (void)ivelinessScoreFull;
+- (void)exclaveLivelinessScoreFull;
 
 // Remaining properties
 @property(retain) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property unsigned long long maximumHierarchicalClassifications; // @synthesize maximumHierarchicalClassifications=_maximumHierarchicalClassifications;
-@property unsigned long long maximumLeafClassifications; // @synthesize maximumLeafClassifications=_maximumLeafClassifications;
-@property float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 
 @end
 

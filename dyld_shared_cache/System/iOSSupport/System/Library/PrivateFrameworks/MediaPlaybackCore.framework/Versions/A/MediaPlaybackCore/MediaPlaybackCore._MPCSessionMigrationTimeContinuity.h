@@ -9,10 +9,6 @@
 @interface MediaPlaybackCore._MPCSessionMigrationTimeContinuity
 {
     id playbackRate;
-    id referencePosition;
-    id referenceTime;
-    id scheduledRateChangeTime;
-    id isLive;
 }
 
 - (id);

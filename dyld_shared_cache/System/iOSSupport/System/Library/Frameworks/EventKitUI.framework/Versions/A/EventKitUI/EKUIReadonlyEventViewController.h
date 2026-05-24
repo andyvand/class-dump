@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)+s;
 - (_Bool);
 - (id);
 - (unsigned long long)d!Gù±n°1Â0@ù

@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *rmstie; // @dynamic rmstie;

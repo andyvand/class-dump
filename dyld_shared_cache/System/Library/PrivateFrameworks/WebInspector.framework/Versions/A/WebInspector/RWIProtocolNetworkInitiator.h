@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolConsoleStackTrace;
-
 @interface RWIProtocolNetworkInitiator : RWIProtocolJSONObject
 {
 }
@@ -25,11 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double lineNumber;
-@property(nonatomic) int nodeId;
-@property(retain, nonatomic) RWIProtocolConsoleStackTrace *stackTrace;
 @property(nonatomic) long long type;
-@property(copy, nonatomic) NSString *url;
 
 @end
 

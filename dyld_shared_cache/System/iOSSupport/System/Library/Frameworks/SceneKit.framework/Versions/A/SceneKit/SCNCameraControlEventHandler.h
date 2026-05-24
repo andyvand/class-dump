@@ -6,76 +6,36 @@
 
 #import <SceneKit/SCNEventHandler.h>
 
-@class SCNNode, UIGestureRecognizer;
+@class SCNNode;
 
 @interface SCNCameraControlEventHandler : SCNEventHandler
 {
     SCNNode *_freeViewCameraNode;
-    struct CGPoint _initialPoint;
-    union C3DMatrix4x4 _initialMatrix;
-    float _initialZoom;
-    float _originalFovX;
-    float _originalFovY;
-    float _originalOrthoScale;
-    float _zoomFactor;
-    id _clickOrigin;
-    int _lastGestureFingerCount;
-    _Bool _isDraggingWithOneFinger;
-    float _roll;
-    union C3DMatrix4x4 _initialMatrixForRoll;
-    UIGestureRecognizer *_pressGesture;
-    UIGestureRecognizer *_tapGesture;
-    UIGestureRecognizer *_pinchGesture;
-    UIGestureRecognizer *_panGesture;
-    UIGestureRecognizer *_rotateGesture;
-    unsigned long long _stickyAxis;
-    struct C3DSphere _viewedObjectSphere;
-    unsigned int _isViewedObjectSphereComputed:1;
-    struct os_unfair_lock_s _stateLock;
-    unsigned int _enabled:1;
-    unsigned int _hasAutomaticCameraTarget:1;
-    unsigned int _automaticCameraTargetUpToDate:1;
-    unsigned int _inertia:1;
-    unsigned int _didEverFocusNode:1;
-    unsigned int _allowsTranslation:1;
-    unsigned int _pinchShouldMoveCamera:1;
-    unsigned int _alternateMode:1;
-    unsigned int _upDirIsSet:1;
-    unsigned int _gimbalLockMode:1;
-    unsigned int _inertiaRunning:1;
-    long long _browseMode;
-    id _upDir;
-    struct SCNVector3 _cameraTarget;
-    struct SCNVector3 _autoCameraTarget;
-    float _browseScaleFactor;
-    double _friction;
-    struct CGPoint _totalDragWithInertia;
-    struct CGPoint _inertiaVelocity;
-    double _lastSimulationTime;
 }
 
 + (struct SCNMatrix4);
 + (id);
+- (void)connectedDeviceIdentifiers;
+- (void)configureWithCard:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)configureSubviewsForAnimationType;
+- (void)configureReusableTransparentHeaderView:(id)arg1;
+- (void)configureForConversationStorable:(id)arg1;
+- (void)configurationWithPointSize:(id)arg1 weight:scale: /* Error: Ran out of types for this method. */;
+- (void)configurationWithPointSize:(id)arg1 weight: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)G;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)=j
+;
 - (struct SCNVector3);
 - (_Bool);
 - (void);
@@ -119,7 +79,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)r;
 - (_Bool);
 - (void);
 - (id);
@@ -133,14 +93,7 @@
 - (double)ú0;
 
 // Remaining properties
-@property _Bool allowsTranslation;
-@property _Bool automaticCameraTarget;
-@property struct SCNVector3 cameraTarget;
-@property _Bool enableInertia;
-@property double friction;
 @property _Bool gimbalLockMode;
-@property struct SCNVector3 gimbalLockVector;
-@property unsigned long long stickyAxis;
 
 @end
 

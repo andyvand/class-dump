@@ -11,7 +11,6 @@
 @interface BMReadMessageEvent : BMEventBase
 {
     _Bool _markedUnread;
-    NSString *_idsHandle;
 }
 
 + (id);
@@ -26,20 +25,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)_create_trig_stmt__pack;
+- (id)pg_query__create_trig_stmt__pack;
 - (void)w;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(readonly, nonatomic) _Bool markedUnread; // @synthesize markedUnread=_markedUnread;
-@property(readonly) Class superclass;
 
 @end
 

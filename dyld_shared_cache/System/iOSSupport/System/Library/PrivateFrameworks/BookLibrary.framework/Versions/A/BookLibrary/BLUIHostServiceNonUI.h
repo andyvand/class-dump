@@ -8,10 +8,10 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)jsonForURL:(id)arg1 success:(id)arg2 error:(CDUnknownBlockType)arg3;
+- (void)itemWithURL:(id)arg1 shouldCheckURLAttributes:(CDUnknownBlockType)arg2;
+- (void)itemTypeToShow;
+- (void)itemIdentifierForIndexPath:(id)arg1;
 
 @end
 

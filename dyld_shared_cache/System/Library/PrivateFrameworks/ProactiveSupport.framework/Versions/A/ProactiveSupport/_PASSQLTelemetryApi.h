@@ -11,13 +11,13 @@
     _PASSQLTelemetryContext *_telemetryContext;
 }
 
-- (id);
-- (id);
+- (id)oo big ! expected <%u>, got <%u>;
+- (id)ESPRESSO:Message <type=0x%04x, id=0x%04x> Length too big ! expected <%u>, got <%u> /* Error: Ran out of types for this method. */;
+- (void)= %s, Product Version = 0x%04x;
+- (id)accessoryName;
+- (void)uarpFirmwareForAccessory;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)tokenType;
 
 @end
 

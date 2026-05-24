@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCHIPHome.h>
 
-@class HMCHIPEcosystem, NSString;
+@class NSString;
 
 @interface HMMutableCHIPHome : HMCHIPHome
 {
@@ -15,7 +15,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) HMCHIPEcosystem *ecosystem; // @dynamic ecosystem;
 @property(copy) NSString *name; // @dynamic name;
 
 @end

@@ -6,42 +6,32 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface STTimer : STSiriModelObject
 {
     NSString *_timerId;
-    long long _state;
-    NSNumber *_value;
-    NSDate *_fireDate;
-    NSNumber *_duration;
-    NSString *_label;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)RLSession:(id)arg1 task:didCompleteWithError:Credential renewal failed /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (id);
+- (id)i;
 - (void)"16@"NSString"24@"NSString"32@"NSNumber"40@"NSNumber"48@"NSNumber"56@"NSNumber"64@"NSNumber"72;
-- (void)ControlCodeAtIndex:withBuffer:totalLength:consumedLength:hadEmpties:containsPrivacySensitiveContents:externalProviders: /* Error: Ran out of types for this method. */;
+- (void)_handleControlCodeAtIndex:withBuffer:totalLength:consumedLength:hadEmpties:containsPrivacySensitiveContents:externalProviders: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long state; // @synthesize state=_state;
 @property(copy, nonatomic) NSString *timerId; // @synthesize timerId=_timerId;
-@property(copy, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end
 

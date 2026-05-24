@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *);
+- (oneway void)able to get on-demand reference counts per user;
+- (id);
+- (_Bool)Point=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}},R,N,V_principalLines;
+- (_Bool);
+
+@optional
+- (NSString *)stm_infoText;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

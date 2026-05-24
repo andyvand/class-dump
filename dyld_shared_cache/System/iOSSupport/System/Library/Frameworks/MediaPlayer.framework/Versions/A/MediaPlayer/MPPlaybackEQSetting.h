@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPPlaybackEQSetting
 {
     long long _preset;
@@ -17,14 +15,11 @@
 - (int);
 - (id);
 - (id);
+- (id)initWithCommonFormat:sampleRate:channels:interleaved: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (long long);
+- (long long)A;
 
 // Remaining properties
-@property(readonly, nonatomic) int avPreset;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) long long preset; // @synthesize preset=_preset;
 
 @end

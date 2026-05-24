@@ -6,15 +6,12 @@
 
 @protocol _UIFocusItemForTVFrameworksOnly
 
+@optional
+- (_Bool):8@"IDSService"16@"IDSAccount"24@"NSString"32@"NSString"40@48 /* Error: Ran out of types for this method. */;
+- (_Bool)rvice"16@"IDSAccount"24@"NSString"32@40;
+- (_Bool)SAccount"24@"NSString"32q40q48;
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool _tvAddsChildFocusItemsBeforeSelf;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _tvAddsChildFocusItemsButNotSelf;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _Bool _tvAllowsFocusInChildrenWhenFocused;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

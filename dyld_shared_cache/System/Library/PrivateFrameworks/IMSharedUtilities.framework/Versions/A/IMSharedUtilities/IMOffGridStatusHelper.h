@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)yment.continuity.received;
 
 @end
 

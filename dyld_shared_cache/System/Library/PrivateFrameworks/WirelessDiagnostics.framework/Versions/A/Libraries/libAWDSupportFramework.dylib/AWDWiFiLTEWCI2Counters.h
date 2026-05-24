@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiLTEWCI2Counters
 {
     unsigned long long _lteTxPowerLimitCount;
-    unsigned long long _lteTxPowerLimitTimeInMS;
-    unsigned long long _timeSharingWLANIntervalCount;
-    unsigned long long _timeSharingWLANTimeInMS;
-    unsigned long long _timestamp;
-    unsigned long long _type4DueToTimerExpiryCount;
-    unsigned long long _type4HonouredCount;
-    unsigned long long _type4HonouredTimeInMS;
-    unsigned long long _wlanProtectionFramesDueToLTECoexCount;
-    unsigned long long _wlanRxPriCount;
-    unsigned long long _wlanRxPriTimeInMS;
-    NSMutableArray *_wci2Counters;
-    CDStruct_cfe90018 _has;
 }
 
 + (Class);
@@ -35,6 +21,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,64 +38,41 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (void);
-- (void);
+- (void)9_;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLteTxPowerLimitCount;
-@property(nonatomic) _Bool hasLteTxPowerLimitTimeInMS;
-@property(nonatomic) _Bool hasTimeSharingWLANIntervalCount;
-@property(nonatomic) _Bool hasTimeSharingWLANTimeInMS;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType4DueToTimerExpiryCount;
-@property(nonatomic) _Bool hasType4HonouredCount;
-@property(nonatomic) _Bool hasType4HonouredTimeInMS;
-@property(nonatomic) _Bool hasWlanProtectionFramesDueToLTECoexCount;
-@property(nonatomic) _Bool hasWlanRxPriCount;
-@property(nonatomic) _Bool hasWlanRxPriTimeInMS;
-@property(nonatomic) unsigned long long lteTxPowerLimitCount; // @synthesize lteTxPowerLimitCount=_lteTxPowerLimitCount;
-@property(nonatomic) unsigned long long lteTxPowerLimitTimeInMS; // @synthesize lteTxPowerLimitTimeInMS=_lteTxPowerLimitTimeInMS;
-@property(nonatomic) unsigned long long timeSharingWLANIntervalCount; // @synthesize timeSharingWLANIntervalCount=_timeSharingWLANIntervalCount;
-@property(nonatomic) unsigned long long timeSharingWLANTimeInMS; // @synthesize timeSharingWLANTimeInMS=_timeSharingWLANTimeInMS;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long type4DueToTimerExpiryCount; // @synthesize type4DueToTimerExpiryCount=_type4DueToTimerExpiryCount;
-@property(nonatomic) unsigned long long type4HonouredCount; // @synthesize type4HonouredCount=_type4HonouredCount;
-@property(nonatomic) unsigned long long type4HonouredTimeInMS; // @synthesize type4HonouredTimeInMS=_type4HonouredTimeInMS;
-@property(retain, nonatomic) NSMutableArray *wci2Counters; // @synthesize wci2Counters=_wci2Counters;
-@property(nonatomic) unsigned long long wlanProtectionFramesDueToLTECoexCount; // @synthesize wlanProtectionFramesDueToLTECoexCount=_wlanProtectionFramesDueToLTECoexCount;
-@property(nonatomic) unsigned long long wlanRxPriCount; // @synthesize wlanRxPriCount=_wlanRxPriCount;
-@property(nonatomic) unsigned long long wlanRxPriTimeInMS; // @synthesize wlanRxPriTimeInMS=_wlanRxPriTimeInMS;
 
 @end
 

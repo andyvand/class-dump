@@ -11,17 +11,11 @@
 @interface FPExtensionEnumerationSettings : FPEnumerationSettings
 {
     FPItemID *_enumeratedItemID;
-    _Bool _presenterEnumeration;
-    _Bool _wantsDirectExtensionEnumeration;
-    _Bool _requireSandboxAccess;
-    _Bool _unbounded;
-    _Bool _buildAndFilterAppLibraries;
-    NSURL *_enumeratedURL;
 }
 
-+ (_Bool);
++ (_Bool)+;
 - (void);
-- (void);
+- (void)a';
 - (id);
 - (_Bool);
 - (id);
@@ -31,10 +25,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)ImsTcpNw is null;
 - (void);
 - (_Bool);
 - (id);
@@ -44,14 +38,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool buildAndFilterAppLibraries; // @synthesize buildAndFilterAppLibraries=_buildAndFilterAppLibraries;
-@property(copy, nonatomic) FPItemID *enumeratedItemID;
 @property(copy, nonatomic) NSURL *enumeratedURL; // @synthesize enumeratedURL=_enumeratedURL;
-@property(copy, nonatomic) FPItemID *nullableEnumeratedItemID; // @dynamic nullableEnumeratedItemID;
-@property(nonatomic, getter=isPresenterEnumeration) _Bool presenterEnumeration; // @synthesize presenterEnumeration=_presenterEnumeration;
-@property(nonatomic) _Bool requireSandboxAccess; // @synthesize requireSandboxAccess=_requireSandboxAccess;
-@property(nonatomic, getter=isUnbounded) _Bool unbounded; // @synthesize unbounded=_unbounded;
-@property(nonatomic) _Bool wantsDirectExtensionEnumeration; // @synthesize wantsDirectExtensionEnumeration=_wantsDirectExtensionEnumeration;
 
 @end
 

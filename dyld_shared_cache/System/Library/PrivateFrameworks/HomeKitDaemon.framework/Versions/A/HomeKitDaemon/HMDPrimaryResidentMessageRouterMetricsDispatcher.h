@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)_MULTIPLE_AUDIO_ACCESSORY;
+- (void)NOTIFICATION_MESSAGE_CAMERA_DOORBELL_EVENT_FAMILIAR_MULTIPLE_AUDIO_ACCESSORY;
 - (id)Ø#!	&Ü¬;
 
 // Remaining properties

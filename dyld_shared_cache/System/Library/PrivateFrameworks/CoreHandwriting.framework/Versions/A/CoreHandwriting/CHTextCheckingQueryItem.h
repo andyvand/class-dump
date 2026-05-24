@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSTextCheckingResult;
+@class NSSet;
 
 @interface CHTextCheckingQueryItem
 {
     long long _textCheckingResultGrammarDetailIndex;
-    int _textCheckingResultType;
-    struct CGPath *_estimatedBaseline;
-    NSSet *_strokeIdentifiers;
-    NSTextCheckingResult *_textCheckingResult;
 }
 
 - (int);
@@ -21,20 +17,16 @@
 - (_Bool);
 - (struct CGPath *);
 - (_Bool);
-- (id);
-- (struct _NSRange);
-- (void);
+- (id)__MPModelPropertyPodcastEpisodeSubtitle__MAPPING_MISSING__;
+- (struct _NSRange)ryLabeledPhoneNumberEntryData"16@?<v@?>24;
+- (void)PHMemoryPropertySetIdentifier;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPath *estimatedBaseline; // @synthesize estimatedBaseline=_estimatedBaseline;
-@property(readonly, nonatomic) NSArray *replacementStrings;
 @property(readonly, copy, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly, nonatomic) NSTextCheckingResult *textCheckingResult; // @synthesize textCheckingResult=_textCheckingResult;
-@property(readonly, nonatomic) int textCheckingResultType; // @synthesize textCheckingResultType=_textCheckingResultType;
 
 @end
 

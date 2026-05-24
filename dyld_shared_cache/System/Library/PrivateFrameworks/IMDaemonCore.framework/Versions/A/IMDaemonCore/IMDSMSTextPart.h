@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
+@class NSString;
 
 @interface IMDSMSTextPart
 {
     NSString *_contentLocation;
-    NSMutableString *_text;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *contentLocation; // @synthesize contentLocation=_contentLocation;
-@property(readonly, retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

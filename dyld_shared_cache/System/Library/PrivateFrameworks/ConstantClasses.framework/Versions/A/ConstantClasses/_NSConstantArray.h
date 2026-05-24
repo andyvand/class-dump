@@ -10,13 +10,13 @@
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)setInitialBiometricsAvailability: /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)J;
+- (id)!;
 - (unsigned long long);
 - (id);
 - (unsigned long long);

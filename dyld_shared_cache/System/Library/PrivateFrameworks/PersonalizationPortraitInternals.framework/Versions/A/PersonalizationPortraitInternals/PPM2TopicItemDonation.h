@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPM2TopicItemDonation
 {
     long long _rank;
-    NSString *_activeTreatments;
-    int _algorithm;
-    int _donationSource;
-    NSString *_groupId;
-    _Bool _newItem;
-    _Bool _userCreated;
-    CDStruct_9710aa02 _has;
 }
 
 - (_Bool);
@@ -34,46 +25,33 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)=;
 - (_Bool);
 - (void);
 - (void);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)4H;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)isSpamFilteringEnabled;
+- (_Bool)_existingChatForHandleUsingPersonID: /* Error: Ran out of types for this method. */;
+- (void)eadOriginator:(id)arg1 %@, capacity:%lu, initial chatItems count:%lu /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void)4@0:8Q16 /* Error: Ran out of types for this method. */;
 - (void)O.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasGroupId;
-@property(nonatomic) _Bool hasNewItem;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasUserCreated;
-@property(nonatomic) _Bool newItem; // @synthesize newItem=_newItem;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(nonatomic) _Bool userCreated; // @synthesize userCreated=_userCreated;
 
 @end
 

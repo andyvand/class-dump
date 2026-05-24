@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol MLComputeDataProvider
+- (unsigned long long)offsetForTexture:(unsigned long long)arg1 ];
+- (NSDictionary *)F;
 @end
 

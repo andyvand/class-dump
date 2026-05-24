@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTTypedValue, NSData, NSString;
-
 @interface IFTSchemaIFTParameterCandidatesNotFound : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_parameterId;
-    IFTSchemaIFTTypedValue *_value;
-    CDStruct_b33ad018 _has;
-    _Bool _hasParameterId;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -24,22 +17,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)tal_count FROM unsynced_removed_recoverable_messages;;
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)mutableCopy;
+- (id)ageCreateRGBColorSpaceWithPrimariesAndTransferFunction error:gamma is 0
+ /* Error: Ran out of types for this method. */;
 - (id)Qàð1Â0@ù
 × ;
-- (id)tches:(id)arg1;
+- (id)setSpanMatches:(id)arg1;
 - (id)Ä7ÿÿÿÿÿä;
 - (_Bool)!;
 - (void)¬Ïÿ®¬]#;
@@ -48,12 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
-@property(retain, nonatomic) IFTSchemaIFTTypedValue *value; // @synthesize value=_value;
 
 @end
 

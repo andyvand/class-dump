@@ -11,16 +11,10 @@
 @interface AVTRecordView : AVTView
 {
     _Bool mute;
-    float maxRecordingDuration;
-    id <AVTRecordViewDelegate> recordDelegate;
 }
 
 
 // Remaining properties
-@property(nonatomic) float maxRecordingDuration; // @synthesize maxRecordingDuration;
-@property(nonatomic) _Bool mute; // @synthesize mute;
-@property(readonly, nonatomic, getter=isPreviewing) _Bool previewing;
 @property(nonatomic) __weak id <AVTRecordViewDelegate> recordDelegate; // @synthesize recordDelegate;
-@property(readonly, nonatomic, getter=isRecording) _Bool recording;
 @end
 

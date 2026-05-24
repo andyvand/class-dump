@@ -17,12 +17,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)getCropRectThatCompletelyContainsMasterImageForPitch:(id)arg1 yaw:(id *)arg2 roll: /* Error: Ran out of types for this method. */;
+- (void)initWithAsset:(id)arg1 resourceID:(_Bool)arg2 format:(CDUnknownBlockType)arg3 geometry:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)ramework/Versions/A/RunningBoardServices;
 - (void);
 - (void)
 × ;

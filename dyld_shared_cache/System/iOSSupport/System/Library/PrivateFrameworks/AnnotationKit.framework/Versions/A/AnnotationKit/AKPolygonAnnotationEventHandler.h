@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)esms;
 - (_Bool);
 - (void);
 

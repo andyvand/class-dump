@@ -7,11 +7,10 @@
 @interface _PSPhotosShareInformation
 {
     unsigned long long _interactionCount;
-    unsigned long long _totalInteractionCount;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)_hasCompanionSyncUploadStarted;
+- (id)_endMilliseconds;
 - (unsigned long long);
 
 @end

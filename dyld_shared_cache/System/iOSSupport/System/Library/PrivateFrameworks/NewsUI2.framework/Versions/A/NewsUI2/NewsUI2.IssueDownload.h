@@ -7,10 +7,6 @@
 @interface NewsUI2.IssueDownload
 {
     id interestToken;
-    id identifier;
-    id source;
-    id state;
-    id progress;
 }
 
 @end

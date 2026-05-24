@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)create supported payload array;
 
 @end
 

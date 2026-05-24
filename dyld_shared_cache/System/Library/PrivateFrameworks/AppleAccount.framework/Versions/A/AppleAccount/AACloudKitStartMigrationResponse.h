@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)D:completion: /* Error: Ran out of types for this method. */;
+- (void)getUserInformationForAltDSID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *status; // @synthesize status=_status;

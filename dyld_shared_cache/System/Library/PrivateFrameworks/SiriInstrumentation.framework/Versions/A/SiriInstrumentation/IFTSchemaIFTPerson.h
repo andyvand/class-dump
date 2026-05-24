@@ -6,15 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTPerson : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -25,15 +22,13 @@
 - (id)!0DùQàÐ1Â0@ù
 × ;
 - (id)&,N,V_uufrShownTier1;
-- (id)d;
+- (id)ASRSchemaASRAppleNeuralEngineModelInitializationEnded;
 - (_Bool)q;
 - (_Bool)²XÊ%;
 - (void)<³Ú);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

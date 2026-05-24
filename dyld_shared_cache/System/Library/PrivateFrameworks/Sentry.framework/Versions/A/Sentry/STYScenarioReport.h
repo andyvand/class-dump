@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, STYUserScenario, SignpostInterval;
+@class NSString;
 
 @interface STYScenarioReport
 {
     float _observedLatencyInMs;
-    float _targetLatencyInMs;
-    float _observedFps;
-    float _targetFps;
-    unsigned long long _scenarioStartTime;
-    unsigned long long _scenarioEndTime;
-    NSString *_issueCategory;
-    STYUserScenario *_scenario;
-    NSString *_metadata;
-    SignpostInterval *_interval;
-    NSMutableDictionary *_symptomsSignature;
 }
 
 + (id);
@@ -33,7 +23,7 @@
 - (void);
 - (float);
 - (float);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (id);
@@ -43,22 +33,12 @@
 - (id);
 - (float);
 - (id);
-- (void);
-- (void);
+- (void)setShouldIgnoreDoNotDisturb:(id)arg1;
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain) SignpostInterval *interval; // @synthesize interval=_interval;
-@property(readonly) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
 @property(retain) NSString *metadata; // @synthesize metadata=_metadata;
-@property(readonly) float observedFps; // @synthesize observedFps=_observedFps;
-@property(readonly) float observedLatencyInMs; // @synthesize observedLatencyInMs=_observedLatencyInMs;
-@property(readonly) STYUserScenario *scenario; // @synthesize scenario=_scenario;
-@property(readonly) unsigned long long scenarioEndTime; // @synthesize scenarioEndTime=_scenarioEndTime;
-@property(readonly) unsigned long long scenarioStartTime; // @synthesize scenarioStartTime=_scenarioStartTime;
-@property(retain) NSMutableDictionary *symptomsSignature; // @synthesize symptomsSignature=_symptomsSignature;
-@property(readonly) float targetFps; // @synthesize targetFps=_targetFps;
-@property float targetLatencyInMs; // @synthesize targetLatencyInMs=_targetLatencyInMs;
 
 @end
 

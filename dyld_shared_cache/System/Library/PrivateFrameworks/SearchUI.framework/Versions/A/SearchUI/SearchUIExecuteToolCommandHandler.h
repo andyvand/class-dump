@@ -12,7 +12,7 @@
 
 - (void);
 - (_Bool);
-- (id);
+- (id)rectory at %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

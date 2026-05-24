@@ -7,17 +7,10 @@
 @class NSString;
 
 @protocol MCMailbox
+- (NSString *);
 - (NSString *){Maey}x#x;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString;
 @property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *displayNameWithoutPII;
-@property(readonly, copy, nonatomic) NSString *extendedDisplayName;
-@property(readonly, copy, nonatomic) NSString *extendedDisplayNameWithoutPII;
-@property(readonly) unsigned long long unseenCount;
-@property(readonly) _Bool unseenCountIsKnown;
-@property _Bool useStatusCounts;
-@property(readonly, nonatomic) _Bool useTotalInsteadOfUnread;
 @end
 

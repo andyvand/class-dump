@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextInsertionIndicator, NSView, NSViewWindowBackingStoreBuffer;
+@class NSTextInsertionIndicator;
 
 __attribute__((visibility("hidden")))
 @interface NSTextDragInfo
 {
     struct CGRect indicatorViewRect;
-    _Bool savedImageValid;
-    NSViewWindowBackingStoreBuffer *cacheFromUnderIndicator;
-    _Bool draggingLinkedFile;
-    NSView *dragAnimationOverlay;
-    NSTextInsertionIndicator *dragIndicator;
 }
 
-- (void);
+- (void)(N ;
 - (void);
 - (void);
 - (void);
@@ -25,19 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
-- (id);
-- (id);
+- (struct CGRect);
+- (id)SystemConfiguration;
+- (id)talt.dylib;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSViewWindowBackingStoreBuffer *cacheFromUnderIndicator; // @synthesize cacheFromUnderIndicator;
-@property(nonatomic) NSView *dragAnimationOverlay; // @synthesize dragAnimationOverlay;
 @property(retain, nonatomic) NSTextInsertionIndicator *dragIndicator; // @synthesize dragIndicator;
-@property(nonatomic, getter=isDraggingLinkedFile) _Bool draggingLinkedFile; // @synthesize draggingLinkedFile;
-@property(nonatomic) struct CGRect indicatorViewRect; // @synthesize indicatorViewRect;
-@property(nonatomic, getter=isSavedImageValid) _Bool savedImageValid; // @synthesize savedImageValid;
 
 @end
 

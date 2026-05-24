@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWMetadataTimeMachineWaitRequest : BWMetadataTimeMachineRequest
 {
     int _capacity;
-    int _completionCapacity;
 }
 
 - (id);

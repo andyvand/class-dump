@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_mrc_cached_local_records_inquiry;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CWFLocalDeviceDiscovery
 {
     struct _LXLexicon *_lexiconEnglish;
-    struct _LXLexicon *_lexiconUserLocale;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_mrcQueue;
-    NSCharacterSet *_tokenizationCharacterSet;
-    NSDictionary *_filteredNames;
-    NSObject<OS_mrc_cached_local_records_inquiry> *_mrcInquiry;
 }
 
 - (void);
@@ -41,11 +35,7 @@
 - (void)romRSSI;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *filteredNames; // @synthesize filteredNames=_filteredNames;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSObject<OS_mrc_cached_local_records_inquiry> *mrcInquiry; // @synthesize mrcInquiry=_mrcInquiry;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *mrcQueue; // @synthesize mrcQueue=_mrcQueue;
-@property(retain, nonatomic) NSCharacterSet *tokenizationCharacterSet; // @synthesize tokenizationCharacterSet=_tokenizationCharacterSet;
 
 @end
 

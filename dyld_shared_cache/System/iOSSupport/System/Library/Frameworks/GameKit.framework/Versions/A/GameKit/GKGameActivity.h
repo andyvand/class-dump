@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GKAchievementDescription, GKGameActivityDefinition, GKLeaderboard, GKPlayer, GameKit.GSGameActivitySupport, NSDate, NSDictionary, NSSet, NSString, NSURL;
+@class NSString;
 @protocol OS_dispatch_source_timer;
 
 @interface GKGameActivity
 {
     id _instanceSnapshot;
     id subscriptions;
-    id <OS_dispatch_source_timer> gsTimer;
-    void identifier;
-    GKGameActivityDefinition *activityDefinition;
-    id _achievements;
-    id _leaderboardScores;
-    GKPlayer *creator;
-    _Bool initiatedByApple;
-    GKLeaderboard *referralLeaderboard;
-    GKAchievementDescription *referralAchievement;
-    void participants;
-    void participantStates;
-    void consumptionState;
-    GameKit.GSGameActivitySupport *support;
-    id updateTrigger;
-    NSDate *lastUpdateTime;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (_Bool);
 + (void);
 + (void);
@@ -66,7 +51,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -85,30 +70,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *achievements;
-@property(nonatomic, readonly) GKGameActivityDefinition *activityDefinition; // @synthesize activityDefinition;
-@property(nonatomic, readonly) NSString *consumptionState;
-@property(nonatomic, readonly) NSDate *creationDate;
-@property(nonatomic, readonly) GKPlayer *creator; // @synthesize creator;
-@property(nonatomic, readonly) double duration;
-@property(nonatomic, readonly) NSDate *endDate;
 @property(nonatomic, retain) id <OS_dispatch_source_timer> gsTimer; // @synthesize gsTimer;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool initiatedByApple; // @synthesize initiatedByApple;
-@property(nonatomic, readonly) NSDate *lastResumeDate;
-@property(nonatomic, retain) NSDate *lastUpdateTime; // @synthesize lastUpdateTime;
-@property(nonatomic, readonly) NSSet *leaderboardScores;
-@property(nonatomic, readonly) NSDictionary *participantStates;
-@property(nonatomic, readonly) NSSet *participants;
-@property(nonatomic, readonly) NSString *partyCode;
-@property(nonatomic, readonly) NSURL *partyURL;
-@property(nonatomic, copy) NSDictionary *properties;
-@property(nonatomic, readonly) GKAchievementDescription *referralAchievement; // @synthesize referralAchievement;
-@property(nonatomic, readonly) GKLeaderboard *referralLeaderboard; // @synthesize referralLeaderboard;
-@property(nonatomic, readonly) NSString *shortGroupID;
-@property(nonatomic, readonly) NSDate *startDate;
-@property(nonatomic, readonly) unsigned long long state;
-@property(nonatomic, readonly) GameKit.GSGameActivitySupport *support; // @synthesize support;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <Foundation/NSOperation.h>
 
-@class NSException, NSInvocation;
+@class NSInvocation;
 
 @interface NSInvocationOperation : NSOperation
 {
     NSInvocation *_inv;
-    NSException *_exception;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSInvocation *invocation;
-@property(readonly, retain) id result;
 
 @end
 

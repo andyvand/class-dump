@@ -22,15 +22,15 @@ struct AudioBufferList {
 };
 
 struct AudioStreamBasicDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
+    double _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
+    unsigned int _field9;
 };
 
 struct CGPoint {
@@ -47,8 +47,6 @@ struct CGSize {
     double _field1;
     double _field2;
 };
-
-struct SmartSiriVolume;
 
 struct __sFILE {
     char *_field1;
@@ -79,26 +77,12 @@ struct __sbuf {
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct unique_ptr<SmartSiriVolume, std::default_delete<SmartSiriVolume>> {
-    struct {
-        struct SmartSiriVolume *__ptr_;
-    } ;
+    unsigned int _field1;
 };
 
 struct unique_ptr<corespeech::CSAudioCircularBufferImpl<unsigned char>, std::default_delete<corespeech::CSAudioCircularBufferImpl<unsigned char>>> {
     struct {
         void *__ptr_;
-    } ;
-};
-
-struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
-    struct {
-        float *__cap_;
     } ;
 };
 

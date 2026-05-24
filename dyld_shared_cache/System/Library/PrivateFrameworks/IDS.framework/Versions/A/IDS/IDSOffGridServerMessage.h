@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSDictionary;
+@class IDSURI;
 
 @interface IDSOffGridServerMessage
 {
     IDSURI *_senderURI;
-    IDSURI *_recipientURI;
-    NSDictionary *_topLevelFields;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void)f(!`@ù,°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSURI *recipientURI; // @synthesize recipientURI=_recipientURI;
 @property(readonly, nonatomic) IDSURI *senderURI; // @synthesize senderURI=_senderURI;
-@property(readonly, nonatomic) NSDictionary *topLevelFields; // @synthesize topLevelFields=_topLevelFields;
 
 @end
 

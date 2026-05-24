@@ -9,16 +9,9 @@
 @interface BKSystemProtectedConfiguration
 {
     NSNumber *_biometryEnabled;
-    NSNumber *_unlockEnabled;
-    NSNumber *_identificationEnabled;
-    NSNumber *_loginEnabled;
-    NSNumber *_unlockTokenMaxLifetime;
-    NSNumber *_bioMatchLifespan;
-    NSNumber *_passcodeInputLifespan;
-    NSNumber *_periocularFaceIDMatchEnabled;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,28 +19,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)growingToken should not be nil;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *bioMatchLifespan; // @synthesize bioMatchLifespan=_bioMatchLifespan;
 @property(retain, nonatomic) NSNumber *biometryEnabled; // @synthesize biometryEnabled=_biometryEnabled;
-@property(retain, nonatomic) NSNumber *identificationEnabled; // @synthesize identificationEnabled=_identificationEnabled;
-@property(retain, nonatomic) NSNumber *loginEnabled; // @synthesize loginEnabled=_loginEnabled;
-@property(retain, nonatomic) NSNumber *passcodeInputLifespan; // @synthesize passcodeInputLifespan=_passcodeInputLifespan;
-@property(retain, nonatomic) NSNumber *periocularFaceIDMatchEnabled; // @synthesize periocularFaceIDMatchEnabled=_periocularFaceIDMatchEnabled;
-@property(retain, nonatomic) NSNumber *unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
-@property(retain, nonatomic) NSNumber *unlockTokenMaxLifetime; // @synthesize unlockTokenMaxLifetime=_unlockTokenMaxLifetime;
 
 @end
 

@@ -8,24 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _UIViewAnimationFrame
 {
     id _value;
-    double _startTime;
-    double _duration;
 }
 
-- (void);
-- (double);
+- (void);
+- (double)t;
 - (id);
 - (double);
 - (void);
-- (long long);
+- (long long)st",&,N,V_modelRequest;
 - (void)¡!ôBù\1Â0@ù
 × ;
 - (id)ws;
-- (void)lPocketCollectorInteractionCSgXw;
+- (void)So35_UIScrollPocketCollectorInteractionCSgXw;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end

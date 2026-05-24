@@ -10,29 +10,27 @@ __attribute__((visibility("hidden")))
 @interface NSCalibratedWhiteColor : NSColor
 {
     double whiteComponent;
-    double alphaComponent;
-    struct CGColor *_cachedCGColor;
 }
 
-+ (id);
-- (double);
-- (_Bool);
-- (void);
++ (id)%{public}@ RetryReason:(id)arg1:(struct _NSZone *)arg2 Permit_ConnectionLost fNumConnectionLossRetries=%d, fNumRetries=%d;
+- (double)tring;
+- (_Bool)actor:,V_extractor /* Error: Ran out of types for this method. */;
+- (void)d];
 - (id);
 - (id);
 - (id);
 - (struct CGColor *);
 - (void);
 - (id);
-- (id);
+- (id)typeCodeFromName: /* Error: Ran out of types for this method. */;
 - (Class);
 - (unsigned long long);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (long long)omSeparatorLayer;
-- (struct CGColor *)age;
+- (long long)_bottomSeparatorLayer;
+- (struct CGColor *)NSComboButtonImage;
 - (void)dÿ;
 - (void)e"PJG;
 - (void) ÄµG;

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 @protocol MTFeedCategory;
 
 @protocol MTFeedCategory
+- (id <MTFeedCategory>);
+- (NSString *)ect globalid,localid from RecordIdMap where globalid=?;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *artworkHeight;
-@property(readonly, nonatomic) NSString *artworkPrimaryColor;
-@property(readonly, nonatomic) NSString *artworkTemplateURL;
-@property(readonly, nonatomic) NSNumber *artworkWidth;
-@property(readonly, nonatomic) NSSet *children;
-@property(readonly, nonatomic) NSString *color;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) id <MTFeedCategory> parent;
-@property(readonly, nonatomic) NSString *url;
 @end
 

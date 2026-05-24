@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIBlurEffect, UIColor, UIImage, UIVibrancyEffect, _UIBarBackgroundAppearanceData;
 @protocol _UIBarAppearanceChangeObserver;
 
 @interface UIBarAppearance
 {
     id <_UIBarAppearanceChangeObserver> _changeObserver;
-    long long _idiom;
-    _UIBarBackgroundAppearanceData *_backgroundData;
-    long long _batchedChanges;
-    _Bool _batchingChanges;
-    long long _overrideUserInterfaceStyle;
 }
 
 + (_Bool)e view:%@ /* Error: Ran out of types for this method. */;
@@ -22,14 +16,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ributes;
-- (void)maryShownFromGesture:(id)arg1;
-- (void)etMaterial:(id)arg1;
-- (id)ByContextID;
+- (_Bool)defaultTextAttributes;
+- (void)_unspecifiedStyleSetPrimaryShownFromGesture:(id)arg1;
+- (void)_setMaterial:(id)arg1;
+- (id)_latestHoverEventsByContextID;
 - (void)_UIDragSetDownItemAnimation;
-- (void)gate;
-- (void)wLayoutAttributes;
-- (void)ICollectionEstimatedSolutionBookmark;
+- (void)UIKBFocusGuideDelegate;
+- (void)_UIDocumentCarouselViewLayoutAttributes;
+- (void)_UICollectionEstimatedSolutionBookmark;
 - (id);
 - (id)Tî;
 - (void)\7
@@ -47,22 +41,22 @@
 - (void)øNþÿOþÿ0OþÿLOþÿhOþÿOþÿ Oþÿ¼OþÿØOþÿôOþÿPþÿ,PþÿXPþÿtPþÿPþÿ¬PþÿÈPþÿäPþÿ;
 - (long long);
 - (id)zþÿÈîÿ;
-- (void)nsformView;
+- (void)highlightTransformView;
 - (void)Class getMPAVRoutingSheetClass(void)_block_invoke;
 - (id)use viewController.view.keyboardLayoutGuide (or something else that's the size of your window).;
 - (void)attempt to move index path (%@) that does not exist - there are only %ld rows in section %ld before the update;
 - (id)ted initializer on UIView;
 - (id)for test restoration directory took %f;
-- (id)e;
+- (id)PredictionActive;
 - (id)ntiated view controller must call -[super initWithCoder:] /* Error: Ran out of types for this method. */;
-- (void)MENU_LOOKUP_PLAIN;
+- (void)MACMENUITEM_CONTEXTMENU_LOOKUP_PLAIN;
 - (id)ller doesn't match parent of incoming view controller;
 - (void){_NSRange=QQ}80^B96;
 - (id)NþÿÂ9þÿà9þÿÄ9þÿ¶9þÿ¼9þÿÐ9þÿ;
-- (id)tentLayoutManagerCSgXwz_Xx;
+- (id)So29_UITabBarContentLayoutManagerCSgXwz_Xx;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)CornerProviderIdentifier;
 - (id);
 - (id);T,U_;
 - (id)>ð};
@@ -83,19 +77,7 @@
 - (id)1ÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setChangeObserver:) __weak id <_UIBarAppearanceChangeObserver> _changeObserver; // @synthesize _changeObserver;
 @property(readonly) _Bool _hasTransparentBackground;
-@property(nonatomic, setter=_setOverrideUserInterfaceStyle:) long long _overrideUserInterfaceStyle; // @synthesize _overrideUserInterfaceStyle;
-@property(copy, nonatomic, setter=_setSelectedItemVibrancyEffect:) UIVibrancyEffect *_selectedItemVibrancyEffect;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(copy, nonatomic) UIBlurEffect *backgroundEffect;
-@property(copy, nonatomic) NSArray *backgroundEffects;
-@property(retain, nonatomic) UIImage *backgroundImage;
-@property(nonatomic) long long backgroundImageContentMode;
-@property(readonly, nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(copy, nonatomic) UIColor *shadowColor;
-@property(copy, nonatomic) UIVibrancyEffect *shadowEffect;
-@property(retain, nonatomic) UIImage *shadowImage;
 
 @end
 

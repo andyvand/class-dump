@@ -5,5 +5,8 @@
 //
 
 @protocol UIFindInteractionDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,22 +6,21 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTLearnedLocationStore, RTMapServiceManager;
+@class RTLearnedLocationStore;
 
 @interface RTMapItemManager : RTService
 {
     RTLearnedLocationStore *_learnedLocationStore;
-    RTMapServiceManager *_mapServiceManager;
 }
 
-+ (id);
++ (id)version == VERSION2 || sp->version == VERSION1_5;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)FString=}16;
+- (void)fetchCurrentItem:(id)arg1 viewhint:(unsigned long long)arg2 complete:(CDUnknownBlockType)arg3;
+- (void)not in registry, updating needed:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
 
 @end
 

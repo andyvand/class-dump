@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleViewerPageViewControllerProvider
 {
     id articleModule;
-    id replicaModule;
-    id interstitialAdModule;
-    id paidAccessChecker;
 }
 
 @end

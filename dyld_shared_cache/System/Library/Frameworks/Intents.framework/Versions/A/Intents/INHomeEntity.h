@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSArray, NSString;
+@class INSpeakableString;
 
 @interface INHomeEntity
 {
     INSpeakableString *_entityName;
-    long long _type;
-    NSString *_entityIdentifier;
-    NSArray *_deviceTypes;
-    long long _sceneType;
-    INSpeakableString *_room;
-    INSpeakableString *_zone;
-    INSpeakableString *_home;
-    INSpeakableString *_group;
-    NSArray *_zones;
 }
 
 + (id);

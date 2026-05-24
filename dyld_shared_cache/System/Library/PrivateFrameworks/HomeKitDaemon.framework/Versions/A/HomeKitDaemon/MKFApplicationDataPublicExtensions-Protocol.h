@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MKFApplicationDataContainer;
+
 @protocol MKFApplicationDataPublicExtensions
++ (id <MKFApplicationDataContainer>)8	;
 @end
 

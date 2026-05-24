@@ -21,10 +21,10 @@
 - (unsigned short);
 - (void);
 - (float);
-- (short);
-- (unsigned char);
+- (short)his DA item to export payload {reminder:%{public}@} /* Error: Ran out of types for this method. */;
+- (unsigned char)4;
 - (int);
-- (const char *);
+- (const char *);
 - (long long);
 - (unsigned long long);
 

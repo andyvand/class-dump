@@ -5,5 +5,6 @@
 //
 
 @protocol WKFormControl
+- (void);
 @end
 

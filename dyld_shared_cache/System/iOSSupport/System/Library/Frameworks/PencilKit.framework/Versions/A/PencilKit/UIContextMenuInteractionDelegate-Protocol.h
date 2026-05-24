@@ -10,8 +10,8 @@
 - (UIContextMenuConfiguration *)r<std:(UIContextMenuInteraction *)arg1:(struct CGPoint)arg2 pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 @optional
-- (void)olViewForTool:(UIContextMenuInteraction *)arg1;
-- (void);
+- (void)makePaletteToolViewForTool:(UIContextMenuInteraction *)arg1;
+- (void)_clearLiveSelectionPath;
 - (UITargetedPreview *) à	;
 - (UITargetedPreview *)eate new palette view interaction for window:(UIContextMenuInteraction *)arg1 %@, windowScene:(UIContextMenuConfiguration *)arg2 %@;
 - (void)on;

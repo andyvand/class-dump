@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INContactCard, NSString;
-
 @interface INSetRelationshipIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)@84@0:(long long)arg1 8q16i24@28d36{CGRect={CGPoint=dd}{CGSize=dd}}44@76;
++ (int)provideLowQualityThumbnail;
++ (long long)numberWithDouble:(int)arg1;
++ (_Bool)isItemAtURLValidInsidePermanentStorage:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -23,10 +21,10 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)setButtonBackLeftSecondary:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)return profiles = '%@';
 - (id);
 - (id);
 - (id);
@@ -34,14 +32,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INContactCard *meCard;
-@property(readonly) Class superclass;
 
 @end
 

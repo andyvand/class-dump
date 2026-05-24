@@ -9,8 +9,6 @@
 @interface TMTarget
 {
     NSString *_volumeRelativePath;
-    NSString *_volumeName;
-    NSString *_volumeUUID;
 }
 
 + (id);
@@ -19,13 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AACustodianErrors;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *volumeName; // @synthesize volumeName=_volumeName;
 @property(copy) NSString *volumeRelativePath; // @synthesize volumeRelativePath=_volumeRelativePath;
-@property(readonly, copy) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

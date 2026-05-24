@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufPaymentSummaryItem;
+@class PKProtobufPaymentSummaryItem;
 
 @interface PKProtobufAutomaticReloadPaymentRequest
 {
     PKProtobufPaymentSummaryItem *_automaticPaymentBilling;
-    NSString *_billingAgreement;
-    NSString *_managementURL;
-    NSString *_paymentDescription;
-    NSString *_tokenNotificationURL;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,28 +26,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)1"ssidChanged"b1"teardownReason"b1"familyDevice"b1};
 - (void);
 - (id);
 - (id);
-- (void)NVALID_NAME_MESSAGE;
+- (void)INVALID_NAME_MESSAGE;
 
 // Remaining properties
-@property(retain, nonatomic) PKProtobufPaymentSummaryItem *automaticPaymentBilling; // @synthesize automaticPaymentBilling=_automaticPaymentBilling;
-@property(retain, nonatomic) NSString *billingAgreement; // @synthesize billingAgreement=_billingAgreement;
-@property(readonly, nonatomic) _Bool hasAutomaticPaymentBilling;
-@property(readonly, nonatomic) _Bool hasBillingAgreement;
-@property(readonly, nonatomic) _Bool hasManagementURL;
 @property(readonly, nonatomic) _Bool hasPaymentDescription;
-@property(readonly, nonatomic) _Bool hasTokenNotificationURL;
-@property(retain, nonatomic) NSString *managementURL; // @synthesize managementURL=_managementURL;
-@property(retain, nonatomic) NSString *paymentDescription; // @synthesize paymentDescription=_paymentDescription;
-@property(retain, nonatomic) NSString *tokenNotificationURL; // @synthesize tokenNotificationURL=_tokenNotificationURL;
 
 @end
 

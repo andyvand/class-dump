@@ -9,7 +9,6 @@
 @interface TRICellularParameterGuardedData
 {
     NSString *guardedCarrierBundleIdentifier;
-    NSString *guardedCarrierCountryIsoCode;
 }
 
 - (id);

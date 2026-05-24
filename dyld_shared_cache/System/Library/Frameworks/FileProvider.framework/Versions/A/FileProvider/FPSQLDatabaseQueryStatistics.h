@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FPSQLDatabaseQueryStatistics
 {
     double _minTime;
-    double _maxTime;
-    double _cumulatedTime;
-    double _cumulatedSquareDiffFromMean;
-    long long _count;
-    NSString *_queryPlan;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -25,25 +18,20 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (double);
+- (double)3;
 - (void);
 - (double);
 - (void)Ñç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(nonatomic) double cumulatedSquareDiffFromMean; // @synthesize cumulatedSquareDiffFromMean=_cumulatedSquareDiffFromMean;
-@property(nonatomic) double cumulatedTime; // @synthesize cumulatedTime=_cumulatedTime;
-@property(nonatomic) double maxTime; // @synthesize maxTime=_maxTime;
 @property(nonatomic) double minTime; // @synthesize minTime=_minTime;
-@property(retain, nonatomic) NSString *queryPlan; // @synthesize queryPlan=_queryPlan;
 
 @end
 

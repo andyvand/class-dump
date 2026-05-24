@@ -4,50 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface SecItemRateLimit
 {
     _Bool _forceEnabled;
-    NSObject<OS_dispatch_queue> *_dataQueue;
-    int _roCapacity;
-    int _rwCapacity;
-    double _roRate;
-    double _rwRate;
-    double _limitMultiplier;
-    NSDate *_roBucket;
-    NSDate *_rwBucket;
 }
 
 + (id);
-+ (id);
++ (id)er;
 + (void);
 - (double);
 - (_Bool);
 - (id);
 - (void);
-- (int);
+- (int)@mAm;
 - (id);
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (double);
 - (id);
 - (int);
-- (_Bool)ateInheritanceKey:(_Bool)arg1 uuid:oldIK:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)recreateInheritanceKey:(_Bool)arg1 uuid:oldIK:reply: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double limitMultiplier; // @synthesize limitMultiplier=_limitMultiplier;
-@property(readonly, nonatomic) NSDate *roBucket; // @synthesize roBucket=_roBucket;
 @property(readonly, nonatomic) int roCapacity; // @synthesize roCapacity=_roCapacity;
-@property(readonly, nonatomic) double roRate; // @synthesize roRate=_roRate;
-@property(readonly, nonatomic) NSDate *rwBucket; // @synthesize rwBucket=_rwBucket;
-@property(readonly, nonatomic) int rwCapacity; // @synthesize rwCapacity=_rwCapacity;
-@property(readonly, nonatomic) double rwRate; // @synthesize rwRate=_rwRate;
 
 @end
 

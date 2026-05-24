@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SANoteObject : SADomainObject
 {
@@ -17,22 +17,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contents;
-@property(copy, nonatomic) NSDate *createdDate;
-@property(copy, nonatomic) NSDate *lastModifiedDate;
-@property(nonatomic) _Bool restricted;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

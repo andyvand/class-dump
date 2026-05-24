@@ -6,14 +6,11 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@protocol CNCancelable, CNObservable;
+@protocol CNObservable;
 
 @interface _CNSamplingObservable : CNObservable
 {
     id <CNObservable> _observable;
-    id <CNObservable> _sampler;
-    id _sample;
-    id <CNCancelable> _timer;
 }
 
 - (void);
@@ -26,13 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)UnitTestingSupport;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNObservable> observable; // @synthesize observable=_observable;
-@property(retain) id sample; // @synthesize sample=_sample;
-@property(readonly, nonatomic) id <CNObservable> sampler; // @synthesize sampler=_sampler;
-@property(retain) id <CNCancelable> timer; // @synthesize timer=_timer;
 
 @end
 

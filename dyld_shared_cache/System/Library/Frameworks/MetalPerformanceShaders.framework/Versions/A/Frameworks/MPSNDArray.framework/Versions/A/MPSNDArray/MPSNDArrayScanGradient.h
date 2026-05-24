@@ -9,13 +9,10 @@
 @interface MPSNDArrayScanGradient : MPSNDArrayUnaryGradientKernel
 {
     _Bool _exclusive;
-    _Bool _reverse;
-    int _operation;
-    unsigned long long _axis;
 }
 
-+ (const struct MPSLibraryInfo *);
-- (void);
++ (const struct MPSLibraryInfo *);
+- (void)n;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -28,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
-@property(nonatomic) _Bool exclusive; // @synthesize exclusive=_exclusive;
 @property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
-@property(nonatomic) _Bool reverse; // @synthesize reverse=_reverse;
 
 @end
 

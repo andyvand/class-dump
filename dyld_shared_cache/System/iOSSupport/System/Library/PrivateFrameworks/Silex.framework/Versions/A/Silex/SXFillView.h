@@ -5,13 +5,10 @@
 //
 
 @class SXFill;
-@protocol SXDraggable;
 
 @interface SXFillView
 {
     SXFill *_fill;
-    id <SXDraggable> _dragable;
-    struct CGRect _originalFrame;
 }
 
 - (id);
@@ -22,14 +19,11 @@
 - (void);
 - (struct CGRect);
 - (void)ver>"16;
-- (void)age;
+- (void)_textStorage;
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic) struct CGRect contentFrame;
-@property(readonly, nonatomic) id <SXDraggable> dragable; // @synthesize dragable=_dragable;
 @property(readonly, nonatomic) SXFill *fill; // @synthesize fill=_fill;
-@property(nonatomic) struct CGRect originalFrame; // @synthesize originalFrame=_originalFrame;
 
 @end
 

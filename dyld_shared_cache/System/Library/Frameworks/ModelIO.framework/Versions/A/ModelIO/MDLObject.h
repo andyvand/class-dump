@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-@protocol MDLObjectContainerComponent;
-
 @interface MDLObject
 {
     MDLObject *_parent;
-    NSMapTable *_components;
-    MDLObject *_instance;
-    _Bool _hidden;
-    NSString *name;
-    id <MDLObjectContainerComponent> _children;
 }
 
 @end

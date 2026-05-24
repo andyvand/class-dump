@@ -13,11 +13,11 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)w;
 + (struct _NSRange);
 + (id);
-+ (id);
-+ (id);
++ (id)	;
++ (id)ation - Checking whether the client name matches:(id)arg1 '%s' - '%s';
 + (id);
 + (id);
 + (id);

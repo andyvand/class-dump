@@ -6,23 +6,21 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPeerPaymentTermsAcceptanceResponse : PKPeerPaymentWebServiceResponse
 {
     NSString *_termsIdentifier;
-    NSURL *_termsURL;
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)q`;
+- (id);
 - (id);
 - (void)ple.developer.payment-pass-provisioning;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *termsIdentifier; // @synthesize termsIdentifier=_termsIdentifier;
-@property(readonly, copy, nonatomic) NSURL *termsURL; // @synthesize termsURL=_termsURL;
 
 @end
 

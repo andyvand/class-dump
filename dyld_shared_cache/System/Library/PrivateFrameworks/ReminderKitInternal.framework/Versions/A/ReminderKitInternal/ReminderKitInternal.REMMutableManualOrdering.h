@@ -7,12 +7,6 @@
 @interface ReminderKitInternal.REMMutableManualOrdering
 {
     id objectID;
-    id listType;
-    id listID;
-    id uncommitedElementsAccountID;
-    id modifiedDate;
-    id orderedSetOfTopLevelElementIDs;
-    id orderedSetOfSecondaryLevelElementIDsByTopLevelElementID;
 }
 
 @end

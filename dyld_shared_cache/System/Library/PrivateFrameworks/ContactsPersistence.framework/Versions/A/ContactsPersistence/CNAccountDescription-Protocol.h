@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 @protocol CNAccountDescription
+- (_Bool);
 - (_Bool)t this situation). Arbitrarily routing the contact to the first container we found in the store.;
 
 // Remaining properties
-@property(readonly, copy) NSURL *baseURL;
-@property(readonly, copy) NSArray *childAccounts;
-@property(readonly) ABCDContainer *containerRepresentation;
-@property(readonly) NSNumber *dsid;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isChildAccount;
-@property(readonly) _Bool isEnabled;
-@property(readonly) _Bool isPersistent;
-@property(readonly) NSURL *persistentStoreURL;
 @end
 

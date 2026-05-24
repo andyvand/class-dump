@@ -12,16 +12,15 @@
 - (_Bool);
 - (double);
 - (double);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (struct CAFrameRateRange)bic_frag;
+- (void);
+- (struct CAFrameRateRange)path_cubic_frag;
 - (_Bool)»_;
 
 // Remaining properties
-@property(nonatomic, getter=isPaused) _Bool paused;
 @property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
 
 @end

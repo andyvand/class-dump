@@ -17,11 +17,11 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (void);
 - (void);
-- (id)tadata;
+- (id)reminderMetadata;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSecureCoding> response3; // @synthesize response3=_response3;

@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)UsoTaskBuilder_summarise_common_JournalEntry;
 - (void)ersistenceDatabaseConnection init];
 
 @end

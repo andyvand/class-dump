@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSContactSuggesterRequestMetadataReported : SISchemaInstrumentationMessage
 {
     _Bool _isPlusContactSuggesterEnabled;
-    _Bool _isForcePromptUsed;
-    struct {
-        unsigned int isPlusContactSuggesterEnabled:1;
-        unsigned int isForcePromptUsed:1;
-    } _has;
 }
 
 - (void);
@@ -31,20 +24,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)Deleted | Insert to chat message table failed for chat guid %@:(id)arg1 %@;
 - (id);
 - (id)r!4@ùÝ1Â0@ù
 × ;
-- (id)tiatedCall;
+- (id)_hasSiriInitiatedCall;
 - (id)N,V_hasDodmlClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsForcePromptUsed;
-@property(nonatomic) _Bool hasIsPlusContactSuggesterEnabled;
-@property(nonatomic) _Bool isForcePromptUsed; // @synthesize isForcePromptUsed=_isForcePromptUsed;
 @property(nonatomic) _Bool isPlusContactSuggesterEnabled; // @synthesize isPlusContactSuggesterEnabled=_isPlusContactSuggesterEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.AppLaunchUpsellNotificationLaunchStatusProvider
 {
     id notificationResponseObservable;
-    id appLaunchingNotificationActionIDs;
 }
 
 @end

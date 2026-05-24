@@ -7,8 +7,6 @@
 @interface JetEngine.LocalizedStringsContainerJSONFiles
 {
     id bundle;
-    id path;
-    id strings;
 }
 
 @end

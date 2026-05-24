@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)getQueryRankingConfigurationWithRanker:spotlightQuery:queryContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoTaskingConfigMetadata, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DRSProtoTaskingConfigCompletion
 {
     float _activeDuration;
-    NSString *_completionDescription;
-    NSString *_completionType;
-    DRSProtoTaskingConfigMetadata *_taskingConfigMetadata;
-    struct {
-        unsigned int activeDuration:1;
-    } _has;
 }
 
 - (id);
@@ -28,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -43,21 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) float activeDuration; // @synthesize activeDuration=_activeDuration;
-@property(retain, nonatomic) NSString *completionDescription; // @synthesize completionDescription=_completionDescription;
-@property(retain, nonatomic) NSString *completionType; // @synthesize completionType=_completionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasActiveDuration;
-@property(readonly, nonatomic) _Bool hasCompletionDescription;
-@property(readonly, nonatomic) _Bool hasCompletionType;
-@property(readonly, nonatomic) _Bool hasTaskingConfigMetadata;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) DRSProtoTaskingConfigMetadata *taskingConfigMetadata; // @synthesize taskingConfigMetadata=_taskingConfigMetadata;
 
 @end
 

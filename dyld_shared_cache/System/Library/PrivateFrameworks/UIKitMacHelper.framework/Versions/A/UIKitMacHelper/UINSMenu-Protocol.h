@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIWindow;
-@protocol UINSMenuItem;
+@class NSString;
 
 @protocol UINSMenu
+- (void);
+- (long long)v8Q16Q24;
+- (void)customFilters;
 
 // Remaining properties
-@property(nonatomic) __weak id <UINSMenuItem> currentHighlightedItem;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSArray *items;
-@property(nonatomic) unsigned long long presentationStyle;
-@property(nonatomic) struct CGRect rectInUIWindow;
-@property(nonatomic) long long selectionMode;
-@property(nonatomic) __weak UIWindow *sourceUIWindow;
 @property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long type;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL, PKOSVersionRequirement;
+@class PKOSVersionRequirement;
 
 @interface PKAccountMinimumOSVersions
 {
     _Bool _isDeviceEligibleForUpgrade;
-    _Bool _shouldDisplayEffectiveDate;
-    PKOSVersionRequirement *_versions;
-    NSDate *_effectiveDate;
-    NSURL *_ineligibleLearnMoreURL;
 }
 
 + (_Bool)!X"!Aù±î%1Â0@ù
@@ -22,26 +18,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)%;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_systemAuthenMethod;
 - (void);
-- (id);
-- (id)esolved:(id)arg1;
+- (id);
+- (id)_createForType:(id)arg1 resolved: /* Error: Ran out of types for this method. */;
 - (void)isDelegatedRequest;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *effectiveDate; // @synthesize effectiveDate=_effectiveDate;
-@property(retain, nonatomic) NSURL *ineligibleLearnMoreURL; // @synthesize ineligibleLearnMoreURL=_ineligibleLearnMoreURL;
-@property(nonatomic, setter=setDeviceEligibleForUpgrade:) _Bool isDeviceEligibleForUpgrade; // @synthesize isDeviceEligibleForUpgrade=_isDeviceEligibleForUpgrade;
-@property(nonatomic) _Bool shouldDisplayEffectiveDate; // @synthesize shouldDisplayEffectiveDate=_shouldDisplayEffectiveDate;
 @property(retain, nonatomic) PKOSVersionRequirement *versions; // @synthesize versions=_versions;
 
 @end

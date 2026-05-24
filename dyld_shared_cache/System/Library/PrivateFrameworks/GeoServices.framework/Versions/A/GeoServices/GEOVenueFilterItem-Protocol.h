@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GEOVenueIdentifier, GEOVenueLabel;
+@protocol GEOVenueIdentifier;
 
 @protocol GEOVenueFilterItem
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool describesParentVenue;
 @property(readonly, nonatomic) id <GEOVenueIdentifier> filterID;
-@property(readonly, nonatomic) id <GEOVenueLabel> label;
 @end
 

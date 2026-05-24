@@ -5,5 +5,8 @@
 //
 
 @protocol AMSUIWebPageViewControllerDelegate
+
+@optional
+- (void)assetObserver;
 @end
 

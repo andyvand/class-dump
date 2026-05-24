@@ -6,23 +6,18 @@
 
 #import <FTServices/FTIDSMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FTProtobufMessage : FTIDSMessage
 {
     int _version;
-    int _responseValue;
-    NSString *_pushTopic;
-    NSString *_messageID;
-    NSData *_protoData;
-    NSData *_protoResponse;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)convertVideoAtSourceURLCollection:(id)arg1 toDestinationURLCollection:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)convertVideoAtSourceURLCollection:(id)arg1 toDestinationURLCollection:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)contextualVideoThumbnailIdentifierFromFileURL: /* Error: Ran out of types for this method. */;
+- (id)contextualVideoThumbnailIdentifierFromFileURL: /* Error: Ran out of types for this method. */;
+- (id)contextAsLocationWithError:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,8 +26,8 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)autorelease;
+- (id)startAnimation: /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (id);
@@ -46,21 +41,16 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)quickTypeItemsWithLanguageModelingTokens:(id)arg1 localeIdentifier:recipients:bundleIdentifier:limit:completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool);
 - (id)ÔÁÈ°!ÐEùqO °1Â0@ù
 × ;
-- (id)tyFallbackProhibitedForDeviceBasedOnCapability:subscriptionInfo: /* Error: Ran out of types for this method. */;
+- (id)_isIdentityFallbackProhibitedForDeviceBasedOnCapability:subscriptionInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(retain, nonatomic) NSData *protoData; // @synthesize protoData=_protoData;
-@property(retain, nonatomic) NSData *protoResponse; // @synthesize protoResponse=_protoResponse;
 @property(retain, nonatomic) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
-@property(nonatomic) int responseValue; // @synthesize responseValue=_responseValue;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSFontManager;
+@class UINSFontManager;
 @protocol UITextFormattingCoordinatorDelegate;
 
 @interface UITextFormattingCoordinator
@@ -13,11 +13,11 @@
     id <UITextFormattingCoordinatorDelegate> _delegate;
 }
 
-+ (void);
-+ (id);
++ (void)k command blastdoor object from result:(id)arg1 <%@ %p>, ;
++ (id)elds called on object %@ %@;
 + (_Bool);
 - (void);
-- (void);
+- (void)__objc_stubs;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -28,14 +28,7 @@
 - (void)ü2ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UITextFormattingCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

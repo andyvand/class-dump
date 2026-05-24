@@ -7,23 +7,16 @@
 @interface HMAccessoryDiagnosticInfoProtoCloudInfo
 {
     int _cloudState;
-    int _octagonState;
-    _Bool _firstCloudImportComplete;
-    struct {
-        unsigned int cloudState:1;
-        unsigned int octagonState:1;
-        unsigned int firstCloudImportComplete:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -37,18 +30,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)cancellation;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int cloudState; // @synthesize cloudState=_cloudState;
-@property(nonatomic) _Bool firstCloudImportComplete; // @synthesize firstCloudImportComplete=_firstCloudImportComplete;
 @property(nonatomic) _Bool hasCloudState;
-@property(nonatomic) _Bool hasFirstCloudImportComplete;
-@property(nonatomic) _Bool hasOctagonState;
-@property(nonatomic) int octagonState; // @synthesize octagonState=_octagonState;
 
 @end
 

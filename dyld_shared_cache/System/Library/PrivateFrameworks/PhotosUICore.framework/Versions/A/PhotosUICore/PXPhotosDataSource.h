@@ -4,91 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSNumber, NSObject, NSPredicate, NSSet, NSString, PHAsset, PHAssetCollection, PHCollection, PHFetchResult, PHObjectChangeDetails, PHPhotoLibrary, PHSocialGroup, PXBackgroundFetchToken, PXLIFOQueue, PXLibraryFilterState, PXPhotosAssetsFetcher, PXPhotosDataSourceSectionCache, PXSharedLibraryStatusProvider;
-@protocol OS_dispatch_queue, OS_os_log, PXAssetsDataSourceContainer;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PXPhotosDataSource
 {
     NSObject<OS_dispatch_queue> *_observersQueue;
-    _Bool _observersQueue_shouldCopyChangeObserversOnWrite;
-    NSHashTable *_observersQueue_observers;
-    struct os_unfair_lock_s _sectionCacheLock;
-    PXPhotosDataSourceSectionCache *__sectionCache;
-    PXPhotosDataSourceSectionCache *__preparedSectionCache;
-    NSDictionary *_hintIndexPathByAssetReferenceCache;
-    NSDictionary *_preparedIndexPathByAssetReferenceCache;
-    NSDictionary *_preparedResultRecordChangeDetailsByAssetCollection;
-    NSMutableDictionary *_resultRecordByAssetCollection;
-    NSMutableSet *__inaccurateAssetCollections;
-    _Bool _inaccurateAssetCollectionsNeedsUpdate;
-    NSMutableDictionary *_preparedChangeDetailsByAssetCollection;
-    PHObjectChangeDetails *_preparedContainerChangeDetails;
-    NSMutableDictionary *_infoForAssetCollection;
-    _Bool _backgroundFetchOriginSectionChanged;
-    _Bool _needToStartBackgroundFetch;
-    _Bool _didFinishBackgroundFetch;
-    PXBackgroundFetchToken *_backgroundFetchToken;
-    _Bool _interruptBackgroundFetch;
-    _Bool _pauseBackgroundFetchResultsDelivery;
-    NSMutableSet *_pauseLibraryChangeDeliveryTokens;
-    _Atomic int _backgroundFetchId;
-    NSMutableDictionary *_pendingResultsByAssetCollection;
-    NSMutableDictionary *_pendingPreparedResultRecordByAssetCollection;
-    NSObject<OS_dispatch_queue> *_pendingResultsIsolationQueue;
-    _Bool _processAndPublishScheduledOnRunloop;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    PXLIFOQueue *_backgroundLIFOQueue;
-    NSMutableOrderedSet *_queuedAssetCollectionsToFetch;
-    NSObject<OS_dispatch_queue> *_prefetchQueue;
-    NSMutableDictionary *_facesByAssetCache;
-    NSMutableDictionary *_weightByAssetCache;
-    _Bool _hideHiddenAssets;
-    NSArray *_fetchPropertySets;
-    long long _curationType;
-    long long _curationKind;
-    long long _curationLength;
-    NSNumber *_cachedIsEmpty;
-    long long _nestedChanges;
-    long long _nestedCoalesceChanges;
-    NSMutableArray *_coalescedChanges;
-    PXPhotosDataSource *_parentDataSource;
-    _Bool _includeOthersInSocialGroupAssets;
-    _Bool _ignoreSharedLibraryFilters;
-    _Bool _canIncludeUnsavedSyndicatedAssets;
-    _Bool _includeSharedCollectionAssets;
-    _Bool _includeAllBurstAssets;
-    _Bool _hasAnyAllowedUUIDs;
-    _Bool _reverseSortOrder;
-    _Bool _wantsCurationByDefault;
-    _Bool _isBackgroundFetching;
-    _Bool _allowNextChangeDeliveryOnAllRunLoopModes;
-    _Bool _allowSlowFetchesOnClientQueue;
-    PHCollection *_containerCollection;
-    unsigned long long _options;
-    PHPhotoLibrary *_photoLibrary;
-    long long _versionIdentifier;
-    PHFetchResult *_collectionListFetchResult;
-    PHAsset *_referenceAsset;
-    NSArray *_filterPersons;
-    PHSocialGroup *_filterSocialGroup;
-    long long _backgroundFetchOriginSection;
-    NSPredicate *_basePredicate;
-    NSPredicate *_filterPredicate;
-    long long _libraryFilter;
-    NSSet *_allowedUUIDs;
-    NSSet *_allowedOIDs;
-    unsigned long long _fetchLimit;
-    NSArray *_sortDescriptors;
-    unsigned long long __previousCollectionsCount;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    unsigned long long _signpostIntervalId;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    CDUnknownBlockType _assetContainerProvider;
-    PHFetchResult *_emptyAssetsFetchResult;
 }
 
-+ (void);
++ (void);
 + (id);
 + (long long);
 + (id);
@@ -98,7 +22,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (void);
 - (void);
@@ -125,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (unsigned long long);
 - (id);
@@ -143,7 +67,7 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -161,7 +85,7 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)A�$B�;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -173,7 +97,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -255,12 +179,12 @@
 - (void);
 - (void);
 - (void);
+- (void)v;
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)b;
 - (void);
 - (unsigned long long);
 - (void);
@@ -268,7 +192,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -299,19 +223,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@"MRTouchSet";
 - (unsigned long long);
 - (void);
 - (id);
 - (long long)nually:currentAudioVolume: /* Error: Ran out of types for this method. */;
-- (void)CompositionsForFallback:(_Bool)arg1;
+- (void)possibleClipCompositionsForFallback:(_Bool)arg1;
 - (void)	
 ;
 - (_Bool)8øÿÔûÿ;
 - (id)<UèÿDúþD;
 - (void);
 - (_Bool)èGÿ;
-- (void)ibraryAssistant_Rules_ShareEverything;
+- (void)PXSharedLibraryAssistant_Rules_ShareEverything;
 - (id)pleDataSourceManager removeInfo:] /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (void)enus;
@@ -325,60 +249,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setPreviousCollectionsCount:) unsigned long long _previousCollectionsCount; // @synthesize _previousCollectionsCount=__previousCollectionsCount;
-@property(nonatomic) _Bool allowNextChangeDeliveryOnAllRunLoopModes; // @synthesize allowNextChangeDeliveryOnAllRunLoopModes=_allowNextChangeDeliveryOnAllRunLoopModes;
-@property(nonatomic) _Bool allowSlowFetchesOnClientQueue; // @synthesize allowSlowFetchesOnClientQueue=_allowSlowFetchesOnClientQueue;
-@property(copy, nonatomic) NSSet *allowedOIDs; // @synthesize allowedOIDs=_allowedOIDs;
-@property(copy, nonatomic) NSSet *allowedUUIDs; // @synthesize allowedUUIDs=_allowedUUIDs;
-@property(readonly, nonatomic) _Bool areAllSectionsConsideredAccurate;
-@property(readonly, nonatomic) CDUnknownBlockType assetContainerProvider; // @synthesize assetContainerProvider=_assetContainerProvider;
-@property(nonatomic) long long backgroundFetchOriginSection; // @synthesize backgroundFetchOriginSection=_backgroundFetchOriginSection;
-@property(readonly, nonatomic) NSPredicate *basePredicate; // @synthesize basePredicate=_basePredicate;
-@property(nonatomic) _Bool canIncludeUnsavedSyndicatedAssets; // @synthesize canIncludeUnsavedSyndicatedAssets=_canIncludeUnsavedSyndicatedAssets;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(retain, nonatomic) PHFetchResult *collectionListFetchResult; // @synthesize collectionListFetchResult=_collectionListFetchResult;
-@property(readonly, nonatomic) id <PXAssetsDataSourceContainer> container;
-@property(readonly, nonatomic) PHAssetCollection *containerAssetCollection;
-@property(readonly, nonatomic) PHCollection *containerCollection; // @synthesize containerCollection=_containerCollection;
-@property(readonly, nonatomic) _Bool containsMultipleAssets;
-@property(nonatomic) long long curationLength; // @synthesize curationLength=_curationLength;
-@property(readonly, nonatomic) NSObject<OS_os_log> *dataSourceLog;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PHFetchResult *emptyAssetsFetchResult; // @synthesize emptyAssetsFetchResult=_emptyAssetsFetchResult;
-@property(readonly, nonatomic) long long estimatedOtherCount;
-@property(readonly, nonatomic) long long estimatedPhotosCount;
-@property(readonly, nonatomic) long long estimatedVideosCount;
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly, nonatomic) PXPhotosAssetsFetcher *fetcher;
-@property(readonly, nonatomic) NSArray *filterPersons; // @synthesize filterPersons=_filterPersons;
-@property(retain, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(readonly, nonatomic) PHSocialGroup *filterSocialGroup; // @synthesize filterSocialGroup=_filterSocialGroup;
-@property(nonatomic) _Bool hasAnyAllowedUUIDs; // @synthesize hasAnyAllowedUUIDs=_hasAnyAllowedUUIDs;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreSharedLibraryFilters; // @synthesize ignoreSharedLibraryFilters=_ignoreSharedLibraryFilters;
-@property(nonatomic) _Bool includeAllBurstAssets; // @synthesize includeAllBurstAssets=_includeAllBurstAssets;
-@property(nonatomic) _Bool includeOthersInSocialGroupAssets; // @synthesize includeOthersInSocialGroupAssets=_includeOthersInSocialGroupAssets;
-@property(nonatomic) _Bool includeSharedCollectionAssets; // @synthesize includeSharedCollectionAssets=_includeSharedCollectionAssets;
-@property(nonatomic) _Bool isBackgroundFetching; // @synthesize isBackgroundFetching=_isBackgroundFetching;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isImmutable;
-@property(nonatomic) long long libraryFilter; // @synthesize libraryFilter=_libraryFilter;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PHAsset *referenceAsset; // @synthesize referenceAsset=_referenceAsset;
-@property(nonatomic) _Bool reverseSortOrder; // @synthesize reverseSortOrder=_reverseSortOrder;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(nonatomic) unsigned long long signpostIntervalId; // @synthesize signpostIntervalId=_signpostIntervalId;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCurationToggling;
-@property(readonly, nonatomic) long long versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
-@property(nonatomic) _Bool wantsCurationByDefault; // @synthesize wantsCurationByDefault=_wantsCurationByDefault;
-@property(readonly, nonatomic) _Bool wantsCurationForFirstAssetCollection;
 
 @end
 

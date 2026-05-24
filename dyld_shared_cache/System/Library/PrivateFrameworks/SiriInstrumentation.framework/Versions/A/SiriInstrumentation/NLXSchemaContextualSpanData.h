@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaContextualSpanData : SISchemaInstrumentationMessage
 {
     _Bool _isSurroundingTextMatched;
-    struct {
-        unsigned int isSurroundingTextMatched:1;
-    } _has;
 }
 
 - (void);
@@ -22,20 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)EDIPARTYNAME;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)C;
 - (id)ár!TDù±ÞÐ1Â0@ù
 × ;
 - (id);
 - (id)aASRActiveConfigUpdateContext",&,N,V_activeConfigUpdateContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSurroundingTextMatched;
 @property(nonatomic) _Bool isSurroundingTextMatched; // @synthesize isSurroundingTextMatched=_isSurroundingTextMatched;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

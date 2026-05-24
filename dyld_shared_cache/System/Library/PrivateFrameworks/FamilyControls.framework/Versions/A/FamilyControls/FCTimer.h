@@ -9,14 +9,11 @@
 @interface FCTimer
 {
     NSTimer *_timer;
-    double _interval;
-    id _userInfo;
-    int _kind;
 }
 
-+ (id);
-- (_Bool);
-- (void);
++ (id)tifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTitle:subtitle:imageURL: /* Error: Ran out of types for this method. */;
+- (void)initWithTier:(id)arg1 localizedTitle:(SEL)arg2 localizedSubtitle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);

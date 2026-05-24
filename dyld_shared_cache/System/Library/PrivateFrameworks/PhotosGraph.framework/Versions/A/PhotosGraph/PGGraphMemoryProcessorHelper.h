@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)JDKU/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c;
++ (void)CNpfugCqAkKaPhovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c;
 + (id);
 + (id);
 + (id);

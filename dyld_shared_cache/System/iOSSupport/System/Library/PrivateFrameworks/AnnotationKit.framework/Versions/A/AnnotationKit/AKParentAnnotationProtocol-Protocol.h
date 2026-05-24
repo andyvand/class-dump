@@ -7,6 +7,7 @@
 @class AKAnnotation;
 
 @protocol AKParentAnnotationProtocol
+- (void)ass()_block_invoke;
 
 // Remaining properties
 @property __weak AKAnnotation *childAnnotation;

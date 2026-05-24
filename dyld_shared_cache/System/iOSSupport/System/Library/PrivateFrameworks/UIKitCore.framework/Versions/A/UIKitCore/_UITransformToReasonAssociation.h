@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)payloadTLSAllowTrustExceptions;
 - (id);
-- (id);
-- (id);
+- (id)_updateVolumeControlCapabilities: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool)@24q32;
-- (void)tMonthYearContainerEdgeInsets:(id)arg1;
+- (void)setMonthYearContainerEdgeInsets:(id)arg1;
 - (void);
 - (void)G;
 

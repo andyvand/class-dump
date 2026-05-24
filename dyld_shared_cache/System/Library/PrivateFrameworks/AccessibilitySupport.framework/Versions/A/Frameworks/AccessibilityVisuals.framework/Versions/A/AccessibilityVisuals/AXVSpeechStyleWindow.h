@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)D9;
 
 @end
 

@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface CNGroupIdentityInlineActionsViewConfiguration
 {
     _Bool _displaysUnavailableActionTypes;
-    NSArray *_supportedActionTypes;
-    NSDictionary *_actionsPerType;
-    long long _actionViewStyle;
-    NSString *_geminiChannelIdentifier;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)!ta';
 - (long long);
 - (void)mator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionViewStyle; // @synthesize actionViewStyle=_actionViewStyle;
-@property(readonly, nonatomic) NSDictionary *actionsPerType; // @synthesize actionsPerType=_actionsPerType;
 @property(readonly, nonatomic) _Bool displaysUnavailableActionTypes; // @synthesize displaysUnavailableActionTypes=_displaysUnavailableActionTypes;
-@property(retain, nonatomic) NSString *geminiChannelIdentifier; // @synthesize geminiChannelIdentifier=_geminiChannelIdentifier;
-@property(readonly, nonatomic) NSArray *supportedActionTypes; // @synthesize supportedActionTypes=_supportedActionTypes;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMDMessageActiveDevice
 {
     _Bool _hasReceivedReadReceipt;
-    NSString *_idsDestination;
-    NSDate *_latestActiveDate;
-    NSDate *_latestReadReceipt;
 }
 
 - (_Bool);
@@ -25,17 +22,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)4^@28;
 - (id);
 - (id);
 - (_Bool);
 - (void)v()ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReceivedReadReceipt; // @synthesize hasReceivedReadReceipt=_hasReceivedReadReceipt;
 @property(retain, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(retain, nonatomic) NSDate *latestActiveDate; // @synthesize latestActiveDate=_latestActiveDate;
-@property(retain, nonatomic) NSDate *latestReadReceipt; // @synthesize latestReadReceipt=_latestReadReceipt;
 
 @end
 

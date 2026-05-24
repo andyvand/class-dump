@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKPass;
+@class NSData;
 
 @interface SGWalletPassViewManager
 {
     NSData *_passData;
-    PKPass *_pass;
 }
 
 - (double);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)orDescriptor: /* Error: Ran out of types for this method. */;
+- (id)imageForDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPass *pass; // @synthesize pass=_pass;
 @property(readonly, nonatomic) NSData *passData; // @synthesize passData=_passData;
 
 @end

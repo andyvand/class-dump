@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSImage, NSString, SGRealtimeEvent;
+@class SGRealtimeEvent;
 @protocol SGSuggestionDelegate;
 
 @interface SGEventSuggestionBase
 {
     SGRealtimeEvent *_realtimeEvent;
-    EKEvent *_eventKitEvent;
-    NSImage *_calendarImage;
-    _Bool bannerForVisionDevice;
-    id <SGSuggestionDelegate> _suggestionDelegate;
 }
 
 + (void);
-+ (id);
-+ (id);
++ (id):prepareToSuspendTimeoutTimerFired:Updating process assertion to allow suspension /* Error: Ran out of types for this method. */;
++ (id)U8h;
 - (id);
 - (long long);
 - (id);
@@ -31,7 +27,7 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)U;
 - (id);
 - (id);
 - (id);
@@ -41,20 +37,13 @@
 - (long long);
 - (void);
 - (id);
+- (id)/;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)?;
+- (void)5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate; // @synthesize suggestionDelegate=_suggestionDelegate;
-@property(readonly) Class superclass;
 
 @end
 

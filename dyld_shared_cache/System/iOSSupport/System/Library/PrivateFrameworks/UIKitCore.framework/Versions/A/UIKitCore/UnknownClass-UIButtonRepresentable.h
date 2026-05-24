@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (UIButtonRepresentable)
-- (void);
+- (void)MessageDeletionComplete;
 - (void);
 - (void);
 - (void);

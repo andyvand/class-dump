@@ -9,20 +9,18 @@
 @interface TKPickerRowItem : TKPickerItem
 {
     _Bool _wantsIndentedLayout;
-    long long _row;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)showLibraryUpdatingSheet:completionHander: /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
+- (_Bool)SUCoreOTAPreSUStagingDetermineFinished;
 
 // Remaining properties
 @property(nonatomic, setter=_setRow:) long long row; // @synthesize row=_row;
-@property(nonatomic, setter=_setWantsIndentedLayout:) _Bool wantsIndentedLayout; // @synthesize wantsIndentedLayout=_wantsIndentedLayout;
 
 @end
 

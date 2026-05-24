@@ -9,14 +9,6 @@
 @interface VMUDuplicatesAnalyzer : VMUAnalyzerBase
 {
     _Bool _invertCallTrees;
-    _Bool _showRawClassNames;
-    _Bool _stringsOnly;
-    _Bool _showStacks;
-    _Bool _fullStacks;
-    _Bool _showCallTrees;
-    _Bool _quiet;
-    unsigned int _objectContentLevel;
-    unsigned long long _minimumLabelCount;
 }
 
 - (void);
@@ -29,19 +21,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)qB;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (const char *);
+- (const char *)6;
 - (void);
 - (_Bool);
 - (unsigned int)1Â0@ù
@@ -49,15 +41,7 @@
 - (void)cap_"^{?}}};
 
 // Remaining properties
-@property(nonatomic) _Bool fullStacks; // @synthesize fullStacks=_fullStacks;
 @property(nonatomic) _Bool invertCallTrees; // @synthesize invertCallTrees=_invertCallTrees;
-@property(nonatomic) unsigned long long minimumLabelCount; // @synthesize minimumLabelCount=_minimumLabelCount;
-@property(nonatomic) unsigned int objectContentLevel; // @synthesize objectContentLevel=_objectContentLevel;
-@property(nonatomic) _Bool quiet; // @synthesize quiet=_quiet;
-@property(nonatomic) _Bool showCallTrees; // @synthesize showCallTrees=_showCallTrees;
-@property(nonatomic) _Bool showRawClassNames; // @synthesize showRawClassNames=_showRawClassNames;
-@property(nonatomic) _Bool showStacks; // @synthesize showStacks=_showStacks;
-@property(nonatomic) _Bool stringsOnly; // @synthesize stringsOnly=_stringsOnly;
 
 @end
 

@@ -28,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ock:(struct _NSZone *)arg1;
+- (id)scheduleTaskWithQoS:(struct _NSZone *)arg1 block: /* Error: Ran out of types for this method. */;
 - (id)ä<åtæ;
 
 // Remaining properties

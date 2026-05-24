@@ -7,7 +7,6 @@
 @interface NewsUI2.HistoryFeedServiceContextFactory
 {
     id dataProvider;
-    id appConfigManager;
 }
 
 @end

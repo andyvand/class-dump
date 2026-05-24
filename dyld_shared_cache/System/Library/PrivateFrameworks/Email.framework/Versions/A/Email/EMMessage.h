@@ -6,27 +6,19 @@
 
 #import <Email/EMBaseMessageListItem.h>
 
-@class ECMessageFlags, ECSubject, EFFuture, EMCategory, EMFollowUp, EMGeneratedSummary, EMMailDropMetadata, EMMessageObjectID, EMMessageRepository, EMObjectID, EMReadLater, EMSearchableMessageID, NSArray, NSDate, NSIndexSet, NSNumber, NSString, NSURL, NSUUID, UTType;
-@protocol ECEmailAddressConvertible, EMCollectionItemID;
+@class EMMessageRepository;
 
 @interface EMMessage : EMBaseMessageListItem
 {
     _Bool _isAvailableLocally;
-    int _exchangeEventUID;
-    long long _dataTransferByteCount;
-    long long _storageByteCount;
-    EMMailDropMetadata *_mailDropMetadata;
-    CDUnknownBlockType _loaderBlock;
-    NSUUID *_documentID;
-    EMSearchableMessageID *_searchableMessageID;
 }
 
 + (id);
++ (id)PresencePayloadResidentSelectionInfo;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)6=;
++ (id)̟@;
 + (id);
 + (id);
 + (id);
@@ -36,87 +28,7 @@
 + (id);
 
 // Remaining properties
-@property _Bool allowAuthenticationWarning;
-@property unsigned long long attachmentCount;
-@property(copy, nonatomic) NSArray *availableRepresentations;
-@property(copy, nonatomic) NSArray *bccList;
-@property(retain, nonatomic) NSURL *brandIndicatorLocation;
-@property long long businessID;
-@property(copy) NSString *businessLogoID;
-@property(retain) EMCategory *category;
-@property(copy) NSArray *ccList;
-@property(copy, nonatomic) NSString *contentID;
-@property long long conversationID;
-@property long long conversationNotificationLevel;
-@property unsigned long long count;
-@property(nonatomic) long long dataTransferByteCount; // @synthesize dataTransferByteCount=_dataTransferByteCount;
-@property(retain) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) _Bool deleteMovesToTrash;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDate *displayDate;
-@property(readonly) EFFuture *displayMessage;
-@property(retain) id <EMCollectionItemID> displayMessageItemID;
-@property(readonly) EMObjectID *displayMessageObjectID;
-@property(copy, nonatomic) NSString *displayName;
-@property(copy, nonatomic) NSUUID *documentID; // @synthesize documentID=_documentID;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) int exchangeEventUID; // @synthesize exchangeEventUID=_exchangeEventUID;
-@property(copy) NSIndexSet *flagColors;
-@property(retain) ECMessageFlags *flags;
-@property(retain) EMFollowUp *followUp;
-@property(copy) EMGeneratedSummary *generatedSummary;
-@property(retain) NSArray *groupedSenderMessageListItems;
-@property _Bool hasAttachments;
-@property _Bool hasUnflagged;
-@property(readonly) unsigned long long hash;
-@property _Bool isAuthenticated;
-@property(nonatomic) _Bool isAvailableLocally; // @synthesize isAvailableLocally=_isAvailableLocally;
-@property _Bool isBlocked;
-@property _Bool isCCMe;
-@property(readonly) _Bool isEditable;
-@property(readonly) _Bool isGroupedSender;
-@property _Bool isToMe;
-@property _Bool isUrgent;
-@property _Bool isVIP;
-@property(readonly, nonatomic) id <EMCollectionItemID> itemID;
-@property(copy, nonatomic) CDUnknownBlockType loaderBlock; // @synthesize loaderBlock=_loaderBlock;
-@property(copy, nonatomic) EMMailDropMetadata *mailDropMetadata; // @synthesize mailDropMetadata=_mailDropMetadata;
-@property(readonly, copy, nonatomic) NSString *mailProviderDisplayNameForBIMI;
-@property(copy) NSArray *mailboxObjectIDs;
-@property(copy) NSArray *mailboxes;
-@property(readonly, copy) NSArray *mailboxesIfAvailable;
-@property CDStruct_7ad7028e messageColor;
-@property _Bool messageColorIsHighlight;
-@property unsigned long long messageSize;
-@property(readonly, copy, nonatomic) EMMessageObjectID *objectID; // @dynamic objectID;
-@property long long priority;
-@property(retain) EMReadLater *readLater;
 @property(readonly, nonatomic) EMMessageRepository *repository;
-@property(retain) NSNumber *searchRelevanceScore;
-@property long long searchResultType;
-@property(copy, nonatomic) EMSearchableMessageID *searchableMessageID; // @synthesize searchableMessageID=_searchableMessageID;
-@property(retain) NSDate *sendLaterDate;
-@property(retain, nonatomic) id <ECEmailAddressConvertible> senderAddress;
-@property(copy) NSArray *senderList;
-@property(readonly) _Bool shouldArchiveByDefault;
-@property(nonatomic) long long storageByteCount; // @synthesize storageByteCount=_storageByteCount;
-@property(retain) ECSubject *subject;
-@property(copy) NSString *summary;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsArchiving;
-@property(copy) NSArray *toList;
-@property(readonly, copy, nonatomic) UTType *type;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier;
-@property long long unsubscribeType;
-@property _Bool wasActedOnByExtension;
 
 @end
 

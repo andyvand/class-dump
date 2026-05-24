@@ -6,29 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, IFTSchemaIFTStatementOutcome, NSData, NSString, SISchemaUUID;
+@class IFTSchemaIFTStatementOutcome;
 
 @interface IFTSchemaIFTInterpretedStatementResult : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementOutcome *_outcome;
-    IFTSchemaIFTStatementId *_resultStatementId;
-    IFTSchemaIFTStatementId *_originProgramStatementId;
-    NSString *_toolId;
-    SISchemaUUID *_actionEventId;
-    IFTSchemaIFTStatementId *_originTaskStatementId;
-    _Bool _hasOutcome;
-    _Bool _hasResultStatementId;
-    _Bool _hasOriginProgramStatementId;
-    _Bool _hasToolId;
-    _Bool _hasActionEventId;
-    _Bool _hasOriginTaskStatementId;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?q;
 - (void);
 - (void);
 - (void);
@@ -46,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -55,7 +44,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)bb;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -64,23 +53,11 @@
 × ;
 - (id)wareInterfaceVendorID;
 - (id)¨Ü6ÿÿÿÿÿ;
-- (id)tupMissingAssetsDetected;
+- (id)cdmSetupMissingAssetsDetected;
 - (void)t#;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *actionEventId; // @synthesize actionEventId=_actionEventId;
-@property(nonatomic) _Bool hasActionEventId; // @synthesize hasActionEventId=_hasActionEventId;
-@property(nonatomic) _Bool hasOriginProgramStatementId; // @synthesize hasOriginProgramStatementId=_hasOriginProgramStatementId;
-@property(nonatomic) _Bool hasOriginTaskStatementId; // @synthesize hasOriginTaskStatementId=_hasOriginTaskStatementId;
-@property(nonatomic) _Bool hasOutcome; // @synthesize hasOutcome=_hasOutcome;
-@property(nonatomic) _Bool hasResultStatementId; // @synthesize hasResultStatementId=_hasResultStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originProgramStatementId; // @synthesize originProgramStatementId=_originProgramStatementId;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originTaskStatementId; // @synthesize originTaskStatementId=_originTaskStatementId;
 @property(retain, nonatomic) IFTSchemaIFTStatementOutcome *outcome; // @synthesize outcome=_outcome;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *resultStatementId; // @synthesize resultStatementId=_resultStatementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

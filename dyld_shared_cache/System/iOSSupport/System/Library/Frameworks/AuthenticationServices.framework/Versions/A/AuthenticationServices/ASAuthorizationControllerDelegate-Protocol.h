@@ -5,5 +5,8 @@
 //
 
 @protocol ASAuthorizationControllerDelegate
+
+@optional
+- (void);
 @end
 

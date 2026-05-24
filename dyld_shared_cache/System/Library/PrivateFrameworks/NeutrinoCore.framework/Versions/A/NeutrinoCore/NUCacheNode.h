@@ -6,25 +6,19 @@
 
 #import <NeutrinoCore/NURenderNode.h>
 
-@class NSError, NSObject, NSString, NURenderContext, NUSourceNode;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface NUCacheNode : NURenderNode
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    NURenderContext *_renderContext;
-    NUSourceNode *_sourceNode;
-    NSError *_sourceError;
-    long long _subsampleFactor;
-    NSString *_cachedCacheIdentifier;
 }
 
 + (void);
 + (id);
 + (void);
 + (long long);
-+ (void);
++ (void);
 + (id);
 + (id);
 - (_Bool);
@@ -60,22 +54,17 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)CU.elf;
 - (id);
-- (void)teSchemaIdentifier:type:error: /* Error: Ran out of types for this method. */;
+- (void)validateSchemaIdentifier:type:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxiliaryImageType;
-@property(readonly, nonatomic) NSString *cacheIdentifier;
 @property(retain) NSString *cachedCacheIdentifier; // @synthesize cachedCacheIdentifier=_cachedCacheIdentifier;
-@property(readonly, nonatomic) NURenderNode *inputNode;
-@property(readonly, nonatomic) long long subsampleFactor; // @synthesize subsampleFactor=_subsampleFactor;
-@property(readonly, nonatomic) _Bool wantsDependentJob;
 
 @end
 

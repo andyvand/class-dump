@@ -7,17 +7,10 @@
 @interface AWDCoreRoutineMapItem
 {
     CDStruct_95bda58d _mapItemSources;
-    _Bool _hasMuid;
-    struct {
-        unsigned int hasMuid:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasMuid;
-@property(nonatomic) _Bool hasMuid; // @synthesize hasMuid=_hasMuid;
-@property(readonly, nonatomic) int *mapItemSources;
 @property(readonly, nonatomic) unsigned long long mapItemSourcesCount;
 @end
 

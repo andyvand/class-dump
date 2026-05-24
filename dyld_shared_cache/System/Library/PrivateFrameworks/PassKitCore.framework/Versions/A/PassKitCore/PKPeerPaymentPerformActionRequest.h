@@ -11,18 +11,16 @@
 @interface PKPeerPaymentPerformActionRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_paymentIdentifier;
-    NSString *_action;
 }
 
 - (void);
 - (id);
-- (id);
-- (id)siderCellularRegion;
+- (id);
+- (id)_shouldConsiderCellularRegion;
 - (void)@"NSString",C,N,V_anonymizationSalt;
-- (void)cceptOrDecline;
+- (void)acceptOrDecline;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
 @property(copy, nonatomic) NSString *paymentIdentifier; // @synthesize paymentIdentifier=_paymentIdentifier;
 
 @end

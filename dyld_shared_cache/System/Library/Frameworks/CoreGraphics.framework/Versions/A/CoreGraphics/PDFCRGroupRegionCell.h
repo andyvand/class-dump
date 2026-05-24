@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFCRGroupRegionCell : PDFCRGroupRegion
 {
     unsigned long long _groupID;
-    unsigned long long _rowIndex;
-    unsigned long long _colIndex;
-    unsigned long long _rowSpan;
-    unsigned long long _colSpan;
 }
 
 - (void);
@@ -25,15 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)%@:(unsigned long long)arg1 First attempt at moving in to place failed with error:%@
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long)ý;
 
 // Remaining properties
-@property unsigned long long colIndex; // @synthesize colIndex=_colIndex;
-@property unsigned long long colSpan; // @synthesize colSpan=_colSpan;
 @property unsigned long long groupID; // @synthesize groupID=_groupID;
-@property unsigned long long rowIndex; // @synthesize rowIndex=_rowIndex;
-@property unsigned long long rowSpan; // @synthesize rowSpan=_rowSpan;
 
 @end
 

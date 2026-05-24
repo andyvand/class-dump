@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObjectAssetDataSource, NSURL, PHMomentShare;
+@class CKMediaObjectAssetDataSource, PHMomentShare;
 
 @interface CKMediaObjectAssetDataSourceManager
 {
     CKMediaObjectAssetDataSource *_mediaObjectDataSource;
-    PHMomentShare *_momentShare;
-    NSURL *_momentShareURL;
-    CDStruct_15189878 _additionalItemsCount;
 }
 
+- (void)itemIDs;
+- (void)edString",R,N;
+- (void)ng",C,N,V_string;
+- (id);
+- (id);
+- (id)n;
+- (CDStruct_3f164e09):] /* Error: Ran out of types for this method. */;
+- (void)pple.notes.invitations-index-access-queue;
+- (void)ICNoteDidChangeCalculatePreviewBehavior;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (CDStruct_15189878);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDStruct_15189878);
+- (CDStruct_3f164e09);
 - (id);
 - (void);
-- (id)gXwz_Xx;
+- (id)SgXwz_Xx;
 - (void)¤;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalItemsCount:) CDStruct_15189878 additionalItemsCount; // @synthesize additionalItemsCount=_additionalItemsCount;
-@property(retain, nonatomic) CKMediaObjectAssetDataSource *mediaObjectDataSource; // @synthesize mediaObjectDataSource=_mediaObjectDataSource;
 @property(retain, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(retain, nonatomic) NSURL *momentShareURL; // @synthesize momentShareURL=_momentShareURL;
 
 @end
 

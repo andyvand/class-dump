@@ -7,8 +7,6 @@
 @interface BSZeroingWeakReference
 {
     id _object;
-    Class _objectClass;
-    unsigned long long _objectAddress;
 }
 
 + (id);

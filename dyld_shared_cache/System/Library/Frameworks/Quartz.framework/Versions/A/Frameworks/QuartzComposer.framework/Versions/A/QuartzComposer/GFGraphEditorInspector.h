@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFGraphEditorView, GFGraphView, GFInspectorWindow, GFList, GFNode, NSPopUpButton, NSTextField, NSView;
+@class GFInspectorWindow;
 
 @interface GFGraphEditorInspector
 {
     GFInspectorWindow *_window;
-    NSPopUpButton *_menu;
-    NSTextField *_text;
-    GFList *_views;
-    GFList *_viewSizes;
-    NSView *_currentView;
-    GFGraphEditorView *_graphEditor;
-    GFNode *_targetNode;
-    GFGraphView *_targetGraphView;
-    struct __CFDictionary *_savedDimensions;
-    void *_unused[2];
 }
 
 + (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)/Frameworks/CoreMedia.framework/Versions/A/CoreMedia;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
 - (id);
 - (void)ä	;
-- (void)ntextPushTransformsGL;
-- (_Bool)X;
+- (void)C3DRendererContextPushTransformsGL;
+- (_Bool)_protocolInput_X;
 
 @end
 

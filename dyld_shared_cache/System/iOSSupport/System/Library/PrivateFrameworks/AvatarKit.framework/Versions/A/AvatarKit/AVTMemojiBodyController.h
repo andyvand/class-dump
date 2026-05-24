@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, VFXNode;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVTMemojiBodyController
 {
     NSMutableArray *_bodyJoints;
-    NSMutableArray *_leftHandJoints;
-    NSMutableArray *_rightHandJoints;
-    VFXNode *_bodyRoot;
-    VFXNode *_leftHand;
-    VFXNode *_rightHand;
-    VFXNode *_leftHandModel;
-    VFXNode *_rightHandModel;
-    CDStruct_da14d750 spine0_originalOrientation;
-    CDStruct_da14d750 r_shoulderNeutralSrcInv;
-    CDStruct_da14d750 l_shoulderNeutralSrcInv;
-    CDStruct_da14d750 r_shoulderNeutralDst;
-    CDStruct_da14d750 l_shoulderNeutralDst;
 }
 
 - (void);

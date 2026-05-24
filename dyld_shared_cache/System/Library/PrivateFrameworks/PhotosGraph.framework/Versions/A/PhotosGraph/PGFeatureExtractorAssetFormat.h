@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ningNode;
+- (id)removeGrantedPermissions:origins:exactPatternMatchesOnly: /* Error: Ran out of types for this method. */;
+- (id)PGGraphPersonActivityMeaningNode;
 
 @end
 

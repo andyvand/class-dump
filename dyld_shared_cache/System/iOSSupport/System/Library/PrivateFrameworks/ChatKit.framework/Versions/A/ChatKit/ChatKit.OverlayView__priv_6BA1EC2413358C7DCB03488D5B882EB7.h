@@ -10,7 +10,7 @@
 
 - (id);
 - (id);
-- (_Bool)epareToDismissForSecondInstance;
+- (_Bool)prepareToDismissForSecondInstance;
 
 @end
 

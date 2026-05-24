@@ -9,16 +9,15 @@
 @interface AVAssetDownloadContentConfiguration
 {
     NSArray *_variantQualifiers;
-    NSArray *_mediaSelections;
 }
 
 + (_Bool);
 - (id);
+- (void)p;
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct FigStreamingAssetDownloadContentConfig *);
+- (struct FigStreamingAssetDownloadContentConfig *)K;
 - (id);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *mediaSelections; // @synthesize mediaSelections=_mediaSelections;
 @property(copy, nonatomic) NSArray *variantQualifiers; // @synthesize variantQualifiers=_variantQualifiers;
 
 @end

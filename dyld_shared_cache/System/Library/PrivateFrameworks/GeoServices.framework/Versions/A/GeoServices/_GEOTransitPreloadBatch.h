@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileKeyList, NSMutableArray, NSMutableSet;
-@protocol GEOMapServiceTicket;
+@class GEOTileKeyList;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitPreloadBatch
 {
     GEOTileKeyList *_tilesToLoad;
-    NSMutableSet *_placeDatasToLoad;
-    unsigned long long status;
-    unsigned long long generation;
-    unsigned long long errCount;
-    unsigned long long bytesLoaded;
-    unsigned long long bytesLoadedFromNetwork;
-    double startTime;
-    double endTime;
-    struct vector<GEOLocationCoordinate2D, std::allocator<GEOLocationCoordinate2D>> coords;
-    NSMutableArray *_latLngToLoad;
-    unsigned int priority;
-    id <GEOMapServiceTicket> placeDataRequestTicketForBatch;
-    double endTimeForScheduleFreshness;
 }
 
 - (id);
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)&,N;
 - (id);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *placeDatasToLoad; // @synthesize placeDatasToLoad=_placeDatasToLoad;
 @property(retain, nonatomic) GEOTileKeyList *tilesToLoad; // @synthesize tilesToLoad=_tilesToLoad;
 
 @end

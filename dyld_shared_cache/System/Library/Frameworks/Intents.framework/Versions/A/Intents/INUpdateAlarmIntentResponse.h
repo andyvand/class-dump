@@ -6,45 +6,34 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INAlarm, NSArray, NSString;
-
 @interface INUpdateAlarmIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setWithArray:(long long)arg1;
++ (long long)setPropertyList:(int)arg1 forExtendedAttributeNamed:(int)arg2 flags:(_Bool)arg3 onFileDescriptor:error: /* Error: Ran out of types for this method. */;
++ (_Bool)setGenericSandboxWrapper:(long long)arg1;
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)R4;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)k;
 - (id);
+- (id)r_lock_s="_os_unfair_lock_opaque"I};
 - (id);
-- (id);
-- (void);
+- (void)ublic}@' is not allowed (error=(%{public}@), network=(%{public}@));
 - (id);
 - (id);
 - (long long)onary",C,N,V_keyImagesByType;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *conflictAlarms;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INAlarm *updatedAlarm;
 
 @end
 

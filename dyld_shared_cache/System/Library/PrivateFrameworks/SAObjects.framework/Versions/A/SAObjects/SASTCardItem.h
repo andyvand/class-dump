@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIColor, SAUIDecoratedText;
+@class SAUIColor;
 
 @interface SASTCardItem : AceObject
 {
@@ -16,36 +16,23 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)U;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)!*;
 - (id);
 - (id);
 - (void);
-- (void)mmandInfo;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)commandInfo;
 
 // Remaining properties
 @property(retain, nonatomic) SAUIColor *backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SAUIDecoratedText *footnote;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIDecoratedText *label;
-@property(retain, nonatomic) SAUIColor *labelTextColor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUIDecoratedText *title;
-@property(retain, nonatomic) SAUIColor *titleBackgroundColor;
-@property(retain, nonatomic) SAUIColor *titleTextColor;
 
 @end
 

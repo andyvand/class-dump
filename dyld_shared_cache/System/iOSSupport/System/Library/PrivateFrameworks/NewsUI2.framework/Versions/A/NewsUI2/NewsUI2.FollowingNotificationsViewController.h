@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingNotificationsViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id followingNotificationsPrewarm;
-    id $__lazy_storage_$_closeBarButtonItem;
 }
 
 - (void);

@@ -5,5 +5,6 @@
 //
 
 @protocol _UIFocusMovementPerformerDelegate
+- (_Bool)rked;
 @end
 

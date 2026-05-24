@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItemArtwork : MPMediaItemArtwork
 {
     MPArtworkCatalog *_catalog;
-    struct CGRect _bounds;
 }
 
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
-- (void)dioStationSubtype__MAPPING_MISSING__;
+- (void)__MPModelPropertyRadioStationSubtype__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) MPArtworkCatalog *artworkCatalog;

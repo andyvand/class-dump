@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleSwipeViewController : UINSGameModuleConfigViewController
 {
     NSTextField *_distanceField;
-    NSTextField *_durationField;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)
+";
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property __weak NSTextField *distanceField; // @synthesize distanceField=_distanceField;
-@property __weak NSTextField *durationField; // @synthesize durationField=_durationField;
 
 @end
 

@@ -11,10 +11,6 @@
 @interface WBSRetryableCKModifySubscriptionsOperation : WBSRetryableCKDatabaseOperation
 {
     NSArray *_subscriptionsToSave;
-    NSArray *_subscriptionIDsToDelete;
-    CDUnknownBlockType _perSubscriptionSaveBlock;
-    CDUnknownBlockType _perSubscriptionDeleteBlock;
-    CDUnknownBlockType _modifySubscriptionsCompletionBlock;
 }
 
 - (void);
@@ -35,10 +31,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType modifySubscriptionsCompletionBlock; // @synthesize modifySubscriptionsCompletionBlock=_modifySubscriptionsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionDeleteBlock; // @synthesize perSubscriptionDeleteBlock=_perSubscriptionDeleteBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionSaveBlock; // @synthesize perSubscriptionSaveBlock=_perSubscriptionSaveBlock;
-@property(copy, nonatomic) NSArray *subscriptionIDsToDelete; // @synthesize subscriptionIDsToDelete=_subscriptionIDsToDelete;
 @property(copy, nonatomic) NSArray *subscriptionsToSave; // @synthesize subscriptionsToSave=_subscriptionsToSave;
 
 @end

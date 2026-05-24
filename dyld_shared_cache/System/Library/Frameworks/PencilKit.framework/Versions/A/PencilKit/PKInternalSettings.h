@@ -15,8 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool forceShowImageWandOnboarding;
-@property(readonly, nonatomic) _Bool imageWandOnboardingDisabled;
 @property(readonly, nonatomic) _Bool showResetImageWandOnboardingInPalette;
 
 @end

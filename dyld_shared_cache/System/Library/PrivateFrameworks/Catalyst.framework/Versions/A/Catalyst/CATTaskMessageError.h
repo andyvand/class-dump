@@ -13,7 +13,7 @@
     NSError *_taskError;
 }
 
-+ (_Bool);
++ (_Bool)_tsdb;
 - (id);
 - (void);
 - (id);

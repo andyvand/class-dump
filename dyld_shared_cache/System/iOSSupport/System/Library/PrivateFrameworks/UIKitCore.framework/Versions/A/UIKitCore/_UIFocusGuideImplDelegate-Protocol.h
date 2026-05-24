@@ -12,6 +12,6 @@
 × ;
 
 @optional
-- (NSArray *)extContentView:(_UIFocusGuideImpl *)arg1 shouldChangeSizeForContentSize:(unsigned long long)arg2;
+- (NSArray *)textContentView:(_UIFocusGuideImpl *)arg1 shouldChangeSizeForContentSize:(unsigned long long)arg2;
 @end
 

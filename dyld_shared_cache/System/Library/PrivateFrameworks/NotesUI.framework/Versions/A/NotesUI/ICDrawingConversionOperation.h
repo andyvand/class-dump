@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment, ICBaseTextAttachment, NSManagedObjectID;
+@class ICAttachment;
 
 @interface ICDrawingConversionOperation
 {
     _Bool _isAutomatic;
-    NSManagedObjectID *_attachmentID;
-    NSManagedObjectID *_finalAttachmentID;
-    ICBaseTextAttachment *_textAttachment;
-    ICAttachment *_attachment;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)hlightedClickableAttributedString;
+- (void)_highlightedClickableAttributedString;
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, nonatomic) NSManagedObjectID *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(readonly, nonatomic) NSManagedObjectID *finalAttachmentID; // @synthesize finalAttachmentID=_finalAttachmentID;
-@property(readonly, nonatomic) _Bool isAutomatic; // @synthesize isAutomatic=_isAutomatic;
-@property(retain, nonatomic) ICBaseTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
 
 @end
 

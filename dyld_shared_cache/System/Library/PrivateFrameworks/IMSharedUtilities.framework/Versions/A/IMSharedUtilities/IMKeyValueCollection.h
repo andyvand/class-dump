@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol IMKeyValueCollectionDelegate, IMKeyValueCollectionStorage;
+@class NSMutableDictionary;
 
 @interface IMKeyValueCollection
 {
     long long _batchCount;
-    id <IMKeyValueCollectionStorage> _keyValueStorage;
-    id <IMKeyValueCollectionDelegate> _delegate;
-    NSMutableDictionary *_recordedChanges;
 }
 
 - (unsigned long long);
@@ -32,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -40,34 +36,25 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)antLookupResponse"8@"NSError"16;
+- (void)ement.available;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)`;
 - (void);
 - (id);
 - (_Bool);
 - (long long);
-- (void)chments;
+- (void)_attachments;
 - (void);
 - (void)I-ò?O;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKeyValueCollectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <IMKeyValueCollectionStorage> keyValueStorage; // @synthesize keyValueStorage=_keyValueStorage;
 @property(readonly) NSMutableDictionary *recordedChanges; // @synthesize recordedChanges=_recordedChanges;
-@property(readonly) Class superclass;
 
 @end
 

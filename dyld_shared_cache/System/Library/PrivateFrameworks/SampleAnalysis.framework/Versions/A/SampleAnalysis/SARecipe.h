@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SARecipe
 {
     NSMutableArray *_states;
-    unsigned long long _identifier;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSArray *states;
 
 @end
 

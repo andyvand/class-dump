@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackRequestEnvironment, MPIdentifierSet, MPModelGenericObject, MPModelRequest, MSVPair, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface MPCModelPlaybackContext
 {
     _Bool _skipEncodingMediaLibraryUniqueID;
-    _Bool _allowsJumpToIt;
-    MPModelRequest *_request;
-    MPIdentifierSet *_startItemIdentifiers;
-    NSDictionary *_startTimeModifications;
-    NSDictionary *_endTimeModifications;
-    MPModelGenericObject *_fallbackSectionRepresentation;
-    NSString *_encodedMediaLibraryUniqueID;
-    MPCPlaybackRequestEnvironment *_playbackRequestEnvironment;
-    NSData *_delegateTokenB;
-    MSVPair *_overrideStartItemID;
 }
 
 + (_Bool);
@@ -26,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)e	;
 - (void);
 - (void);
 - (void);
@@ -38,14 +28,14 @@
 - (void);
 - (id);
 - (id);
+- (id)enableMultiLibraryMode;
+- (void)account:(CDUnknownBlockType)arg1 willChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (id)eams for account %@;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)vateFrameworks/PhotoLibraryServicesCore.framework/Versions/A/PhotoLibraryServicesCore;
+- (void)debugDescription;
 - (Class);
 - (_Bool);
 - (id);
@@ -54,33 +44,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)b';
 - (void);
 - (id);
-- (_Bool);
-- (void)ContentItemID:(id)arg1;
+- (_Bool)set_sessionActivationAVTime: /* Error: Ran out of types for this method. */;
+- (void)jumpToContentItemID:(id)arg1;
 - (void)²â­ title:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsJumpToIt; // @synthesize allowsJumpToIt=_allowsJumpToIt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSData *delegateTokenB; // @synthesize delegateTokenB=_delegateTokenB;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *encodedMediaLibraryUniqueID; // @synthesize encodedMediaLibraryUniqueID=_encodedMediaLibraryUniqueID;
-@property(copy, nonatomic) NSDictionary *endTimeModifications; // @synthesize endTimeModifications=_endTimeModifications;
-@property(copy, nonatomic) MPModelGenericObject *fallbackSectionRepresentation; // @synthesize fallbackSectionRepresentation=_fallbackSectionRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MSVPair *overrideStartItemID; // @synthesize overrideStartItemID=_overrideStartItemID;
-@property(copy, nonatomic) MPCPlaybackRequestEnvironment *playbackRequestEnvironment; // @synthesize playbackRequestEnvironment=_playbackRequestEnvironment;
-@property(copy, nonatomic) MPModelRequest *request; // @synthesize request=_request;
-@property(nonatomic) _Bool skipEncodingMediaLibraryUniqueID; // @synthesize skipEncodingMediaLibraryUniqueID=_skipEncodingMediaLibraryUniqueID;
-@property(copy, nonatomic) MPIdentifierSet *startItemIdentifiers; // @synthesize startItemIdentifiers=_startItemIdentifiers;
-@property(copy, nonatomic) NSDictionary *startTimeModifications; // @synthesize startTimeModifications=_startTimeModifications;
-@property(readonly) Class superclass;
 
 @end
 

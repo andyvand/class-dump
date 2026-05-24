@@ -5,5 +5,7 @@
 //
 
 @protocol IMDMessageSyncCoordinatorDelegate
+- (void)';
+- (void);
 @end
 

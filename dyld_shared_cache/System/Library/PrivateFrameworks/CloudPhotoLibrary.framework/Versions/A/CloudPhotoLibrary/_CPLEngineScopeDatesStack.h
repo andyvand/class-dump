@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString;
+@class NSDate;
 
 @interface _CPLEngineScopeDatesStack
 {
     NSDate *_now;
-    NSDate *_earliestDate;
-    NSDate *_lastDate;
-    NSMutableArray *_intermediateStatuses;
-    NSString *_proposedKey;
 }
 
 - (void)AÂð!Dù±Ð1Â0@ù

@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+@protocol WKWebExtensionTab;
+
 @protocol WKWebExtensionTab
 
 @optional
-- (void);
+- (NSURL *)#;
+- (_Bool);
+- (void);
+- (id <WKWebExtensionTab>);
+- (_Bool);
 @end
 

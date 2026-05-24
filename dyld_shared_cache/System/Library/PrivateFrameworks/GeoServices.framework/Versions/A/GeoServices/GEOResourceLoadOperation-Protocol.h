@@ -5,9 +5,10 @@
 //
 
 @protocol GEOResourceLoadOperation
+- (void)zeTime:(_Bool)arg1 ];
+- (void)quickRouteShouldIncludeTransitWhenNotPreferredTransportType;
 
 // Remaining properties
-@property(nonatomic) _Bool preferDirectNetworking;
 @property(nonatomic) _Bool requiresWiFi;
 @end
 

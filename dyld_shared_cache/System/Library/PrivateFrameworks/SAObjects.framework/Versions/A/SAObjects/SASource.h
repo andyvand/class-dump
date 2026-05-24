@@ -6,30 +6,27 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SASource : SADomainObject
 {
 }
 
 + (id);
-+ (id);
++ (id)8;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (id);
-- (void);
+- (void)searchCriteriaFilterWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)e;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier;
-@property(copy, nonatomic) NSString *accountName;
-@property(copy, nonatomic) NSString *domainIdentifier;
-@property(copy, nonatomic) NSNumber *remote;
 
 @end
 

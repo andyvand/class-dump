@@ -6,15 +6,12 @@
 
 #import <AVKit/AVCatalystUIViewHoster.h>
 
-@class AVPlayerViewControllerCustomControlsView, AVVisualAnalysisView, NSArray, UIView;
+@class NSArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVFullscreenContentOverlayViewHoster : AVCatalystUIViewHoster
 {
     NSArray *_customControlsViewConstraints;
-    UIView *_contentOverlayView;
-    AVPlayerViewControllerCustomControlsView *_customControlsView;
-    AVVisualAnalysisView *_visualAnalysisView;
 }
 
 - (void);
@@ -31,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentOverlayView; // @synthesize contentOverlayView=_contentOverlayView;
-@property(retain, nonatomic) AVPlayerViewControllerCustomControlsView *customControlsView; // @synthesize customControlsView=_customControlsView;
-@property(retain, nonatomic) AVVisualAnalysisView *visualAnalysisView; // @synthesize visualAnalysisView=_visualAnalysisView;
 
 @end
 

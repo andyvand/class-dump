@@ -7,8 +7,6 @@
 @interface AccessibilitySharedSupport.AXSSRemoteDesktopServerBase
 {
     id _delegate;
-    id _coder;
-    id enabledFeatures;
 }
 
 @end

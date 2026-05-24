@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface SRCSCommandRecognitionSystem
 {
     NSArray *_targetTypes;
-    NSMutableArray *_recognizers;
-    NSMutableDictionary *_resolvedBuiltInIdentifiers;
-    NSString *_localeIdentifier;
 }
 
 - (id);
@@ -27,8 +24,6 @@
 - (id)and move the content down a bit.;
 
 // Remaining properties
-@property(readonly, retain) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly, retain) NSArray *recognizers; // @synthesize recognizers=_recognizers;
 @property(readonly, nonatomic) NSArray *targetTypes; // @synthesize targetTypes=_targetTypes;
 
 @end

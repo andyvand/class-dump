@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
 @protocol HMDACAccount;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudPhotosSettingObserver
 {
     _Bool _cloudPhotosEnabled;
-    _Bool _supported;
-    id <HMDACAccount> _account;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
 + (id)ØB;
-- (void);
+- (void)%@ with %{public}@/%{public}@. Will pass to trip service.;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)I;
 - (void);
-- (id);
+- (id)!fe;
 - (id);
 - (void);
 - (_Bool);
@@ -32,16 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id <HMDACAccount> account; // @synthesize account=_account;
-@property(getter=isCloudPhotosEnabled) _Bool cloudPhotosEnabled; // @synthesize cloudPhotosEnabled=_cloudPhotosEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PMLTrainingLogEntry
 {
     double _timestamp;
-    unsigned long long _serverIteration;
 }
 
 - (id);
@@ -15,7 +14,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long serverIteration; // @synthesize serverIteration=_serverIteration;
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

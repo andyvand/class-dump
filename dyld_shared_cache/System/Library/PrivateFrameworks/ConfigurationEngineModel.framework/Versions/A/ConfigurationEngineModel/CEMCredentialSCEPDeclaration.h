@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, CEMCredentialSCEPDeclaration_SCEP, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMCredentialSCEPDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    CEMCredentialSCEPDeclaration_SCEP *_payloadSCEP;
 }
 
 + (id);
@@ -19,25 +18,17 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)`m;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) CEMCredentialSCEPDeclaration_SCEP *payloadSCEP; // @synthesize payloadSCEP=_payloadSCEP;
-@property(readonly) Class superclass;
 
 @end
 

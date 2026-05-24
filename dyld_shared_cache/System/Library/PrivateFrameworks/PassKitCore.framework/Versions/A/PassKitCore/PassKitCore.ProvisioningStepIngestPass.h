@@ -7,11 +7,6 @@
 @interface PassKitCore.ProvisioningStepIngestPass
 {
     id context;
-    id credential;
-    id sharedState;
-    id assertions;
-    id fieldsModel;
-    id eligibilityResponse;
 }
 
 @end

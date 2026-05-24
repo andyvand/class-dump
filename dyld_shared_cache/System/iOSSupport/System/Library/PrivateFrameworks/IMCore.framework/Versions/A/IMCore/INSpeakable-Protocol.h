@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INSpeakable
-- (NSString *)vailabilityForHandle: /* Error: Ran out of types for this method. */;
+- (NSString *)T;
+- (NSString *)availabilityForHandle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternativeSpeakableMatches;
-@property(readonly, nonatomic) NSString *identifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *pronunciationHint;
 @property(readonly, nonatomic) NSString *spokenPhrase;
-@property(readonly, nonatomic) NSString *vocabularyIdentifier;
 @end
 

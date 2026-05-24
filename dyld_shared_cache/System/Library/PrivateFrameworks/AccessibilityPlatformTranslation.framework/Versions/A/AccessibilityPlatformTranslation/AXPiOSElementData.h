@@ -8,21 +8,19 @@ __attribute__((visibility("hidden")))
 @interface AXPiOSElementData
 {
     int _pid;
-    CDStruct_26bd94fa _uid;
 }
 
 - (int);
-- (id);
+- (id)m;
 - (unsigned long long);
-- (CDStruct_26bd94fa);
-- (_Bool);
+- (CDStruct_4bcfbbae);
+- (_Bool)!);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(nonatomic) CDStruct_26bd94fa uid; // @synthesize uid=_uid;
+@property(nonatomic) CDStruct_4bcfbbae uid; // @synthesize uid=_uid;
 
 @end
 

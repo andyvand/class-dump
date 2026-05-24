@@ -6,23 +6,22 @@
 
 #import <MapKit/MKSelectionAccessoryView.h>
 
-@class NSColor, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MKOpenInMapsSelectionAccessoryView : MKSelectionAccessoryView
 {
     NSURL *_url;
-    NSColor *_bgColor;
 }
 
 - (void);
-- (void);
+- (void)Kw;
 - (id);
 - (void);
-- (id);
+- (id)ampleCountWithOption:(id)arg1 ];
 - (void)
 × ;
-- (void);
+- (void)lookAroundGestureControllerDidStopUserInteraction: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)VCVideoRules:(id)arg1 Failed to create supported payload array;
 
 @end
 

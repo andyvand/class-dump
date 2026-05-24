@@ -5,15 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface SKXPCConnection
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _disconnectBlock;
-    CDUnknownBlockType _messageBlock;
 }
 
 - (void);
@@ -29,11 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType disconnectBlock;
-@property(copy) CDUnknownBlockType messageBlock;
 
 @end
 

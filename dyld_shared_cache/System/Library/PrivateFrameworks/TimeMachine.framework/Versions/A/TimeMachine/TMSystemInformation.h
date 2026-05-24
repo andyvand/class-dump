@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)xpected for end record to be on disk 0, but zip64 end record locator claimed disk %d;
 + (id);
 + (id);
 + (_Bool);

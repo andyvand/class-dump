@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AKAppleIDAuthenticationController, NSDictionary;
-@protocol AARemoteServerProtocol;
+@class ACAccount;
 
 @interface AATermsUserActionReporter
 {
     ACAccount *_account;
-    NSDictionary *_requestDictionary;
-    AKAppleIDAuthenticationController *_authController;
-    unsigned long long _requestCount;
-    id <AARemoteServerProtocol> _remoteServer;
 }
 
+- (void)IME:SecTrustEvaluate rc:%d  result:%d /* Error: Ran out of types for this method. */;
+- (id)etch done;
+- (id)nRecord message tracer logging result = %d;;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)onKey: /* Error: Ran out of types for this method. */;
+- (void)setContinuationKey: /* Error: Ran out of types for this method. */;
 
 @end
 

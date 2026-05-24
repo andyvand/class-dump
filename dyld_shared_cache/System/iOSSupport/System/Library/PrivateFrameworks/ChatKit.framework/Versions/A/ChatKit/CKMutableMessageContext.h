@@ -6,28 +6,22 @@
 
 #import <ChatKit/CKMessageContext.h>
 
-@class IMChatContext, NSString;
+@class IMChatContext;
 
 @interface CKMutableMessageContext : CKMessageContext
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)allowsTextAttachmentView;
+- (void)allowsMentions;
+- (void)_marker;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAudioMessage) _Bool audioMessage; // @dynamic audioMessage;
 @property(copy, nonatomic) IMChatContext *chatContext; // @dynamic chatContext;
-@property(nonatomic, getter=isFromMe) _Bool fromMe; // @dynamic fromMe;
-@property(nonatomic, getter=isSenderUnauthenticated) _Bool senderUnauthenticated; // @dynamic senderUnauthenticated;
-@property(nonatomic, getter=isSenderUnknown) _Bool senderUnknown; // @dynamic senderUnknown;
-@property(copy, nonatomic) NSString *serviceName; // @dynamic serviceName;
-@property(nonatomic, getter=isSpam) _Bool spam; // @dynamic spam;
 
 @end
 

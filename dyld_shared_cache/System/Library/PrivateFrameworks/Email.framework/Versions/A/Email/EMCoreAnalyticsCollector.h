@@ -5,13 +5,10 @@
 //
 
 @class EFLocked;
-@protocol EFScheduler;
 
 @interface EMCoreAnalyticsCollector
 {
     struct atomic_flag _didRegister;
-    EFLocked *_blocks;
-    id <EFScheduler> _oneTimeScheduler;
 }
 
 + (id);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EFLocked *blocks; // @synthesize blocks=_blocks;
-@property(readonly, nonatomic) id <EFScheduler> oneTimeScheduler; // @synthesize oneTimeScheduler=_oneTimeScheduler;
 
 @end
 

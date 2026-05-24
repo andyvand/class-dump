@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)p;
 + (void);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)nse;
 
 @end
 

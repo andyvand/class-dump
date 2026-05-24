@@ -8,16 +8,16 @@
 {
 }
 
-+ (struct __CFString *);
++ (struct __CFString *)@;
 + (void);
 + (struct __CFString *);
-+ (struct __CFString *);
++ (struct __CFString *);
 + (id);
 + (struct __CFDictionary *);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
-+ (void);
++ (void)length of input array should be %d, not %d;
 
 @end
 

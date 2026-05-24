@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-+ (long long);
++ (long long)T;
 + (long long);
 
 @end

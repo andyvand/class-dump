@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSImageRepGeometryProxy
 {
     NSImageRep *_rep;
-    struct CGRect _alignmentRect;
-    struct NSEdgeInsets _capInsets;
-    long long _resizingMode;
-    _Bool _template;
 }
 
-+ (id);
-- (_Bool);
++ (id)$x;
+- (_Bool)nseOptions=BBBBBQQ}>32;
 - (struct CGRect);
 - (void);
 - (id);
 - (id);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)ic}@;
 - (void)1ß31Â0@ù
 × ;
 - (_Bool);

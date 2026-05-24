@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool)uteMatchAtDistance returning:%{private}@ /* Error: Ran out of types for this method. */;
-- (id)ssOnly;
+- (id)poiAddressOnly;
 
 @end
 

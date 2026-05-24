@@ -7,19 +7,6 @@
 @interface RemindersUICore.TTRExtensionCreateReminderInteractor
 {
     id delegate;
-    id reminderChangeItem;
-    id reminderChangeItemWithSectionsCount;
-    id store;
-    id undoManager;
-    id urlMetadataInteractor;
-    id undoObservationToken;
-    id reminderEditorPromise;
-    id saveRequirementsPromise;
-    id accounts;
-    id reminderEditorResult;
-    id extensionContextExtractorResult;
-    id pendingMoveList;
-    id pendingMoveSection;
 }
 
 @end

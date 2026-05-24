@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -24,7 +24,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (int);
 - (id);
@@ -35,11 +35,11 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)ger setAccessoryIDUnreachable:(id)arg1 ];
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
+- (id)_model;
 - (long long);
 - (id);
 - (id);
@@ -47,7 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (id);
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol _DKSimpleKeyValueStore
+- (void)Front 0x%x-0x%x (%s) in session 0x%x - current list is ( %{public}@ );
 @end
 

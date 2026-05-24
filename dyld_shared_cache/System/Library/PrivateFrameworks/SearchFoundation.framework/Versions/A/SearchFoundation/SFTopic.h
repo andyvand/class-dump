@@ -12,26 +12,19 @@
 }
 
 + (_Bool);
-- (id);
+- (id)16q24;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)setAttenuatedGlobalGainReduction:(id)arg1;
+- (void)ӄ;
+- (id)eaName called on non-Area PHMemoryFeature, (got type %@, %@ of class %@);
 - (id);
-- (id);
-- (void)aming_state;
+- (void)hasStreaming_state;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

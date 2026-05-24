@@ -9,30 +9,23 @@
 @interface GEORoadEdge
 {
     struct GeoCodecsRoadEdge _edge;
-    GEOMultiSectionFeature *_feature;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (struct GeoCodecsConnectivityJunction *);
-- (struct GeoCodecsConnectivityJunction *);
-- (id);
+- (unsigned long long)reportBuildMetrics;
+- (unsigned long long)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
+- (struct GeoCodecsConnectivityJunction *)removePersistentStore:error: /* Error: Ran out of types for this method. */;
+- (struct GeoCodecsConnectivityJunction *)removeObserver:name:object: /* Error: Ran out of types for this method. */;
+- (id)T@"<CNCDIOSLegacyIdentifierRegistration>",&,D;
 - (id)e"b1"read_manufacturer"b1"read_model"b1"read_screenDimension"b1"wrote_anyField"b1};
 - (void)ª¹BA¦ÐVP@;
 - (struct GeoCodecsRoadEdge *)ÿ¡q5`Ó4;
 
 // Remaining properties
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *junctionA;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *junctionB;
-@property(readonly, nonatomic) unsigned long long junctionIndexA;
-@property(readonly, nonatomic) unsigned long long junctionIndexB;
 @property(readonly, nonatomic) GEOMultiSectionFeature *road;
-@property(readonly, nonatomic) unsigned long long vertexIndexA;
-@property(readonly, nonatomic) unsigned long long vertexIndexB;
 
 @end
 

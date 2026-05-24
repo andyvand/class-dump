@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegularExpression, NSString;
+@class NSString;
 
 @interface TESPatternMatcherBase
 {
     _Bool _matchMustBeWordOrSentenceTerminal;
-    NSString *_pattern;
-    NSRegularExpression *_regularExpression;
-    long long _effectType;
-    long long _matchType;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)ndows (Menu);
+- (id)"BrowserWindowPersistentState"8;
+- (_Bool)ontrols;
+- (id)ession State Key;
+- (void)tMachineryAccessQueue;
 - (void);
 - (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
+- (id)1Q;
 - (id);
-- (id);
-- (void);
+- (void)isHSA2Account;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long effectType; // @synthesize effectType=_effectType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool matchMustBeWordOrSentenceTerminal; // @synthesize matchMustBeWordOrSentenceTerminal=_matchMustBeWordOrSentenceTerminal;
-@property(nonatomic) long long matchType; // @synthesize matchType=_matchType;
 @property(retain, nonatomic) NSString *pattern; // @synthesize pattern=_pattern;
-@property(retain, nonatomic) NSRegularExpression *regularExpression; // @synthesize regularExpression=_regularExpression;
-@property(readonly) Class superclass;
 
 @end
 

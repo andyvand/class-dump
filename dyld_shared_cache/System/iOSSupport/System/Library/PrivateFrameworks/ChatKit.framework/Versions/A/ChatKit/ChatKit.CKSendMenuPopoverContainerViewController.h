@@ -9,13 +9,12 @@
 @interface ChatKit.CKSendMenuPopoverContainerViewController
 {
     void delegate;
-    id layout;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void)filter mode %d filterModeNum=%@ predicate=%@ older than date %@ (oldest conversation date:(_Bool)arg1 %@) conversationCount=%llu;

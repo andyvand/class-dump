@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTStatementId : SISchemaInstrumentationMessage
 {
     unsigned int _index;
-    CDStruct_bde79ab9 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)_saveNotificationShown;
+- (_Bool)KECHAINRECOVERY_SECURITY_CODE_ELE_RESET_MESSAGE;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)/lib/swift/libswiftsimd.dylib;
 - (id)0@ù
 × ;
 - (id)@"CDASchemaCDADebugElectionDecisionMade",&,N,V_debugElectionDecisionMade;
 - (unsigned int)loadFailed",&,N,V_failed;
-- (id)xecutorSiriSchemaExecutorPersonQueryCallEnded;
+- (id)ExecutorSiriSchemaExecutorPersonQueryCallEnded;
 - (void)d2 ÿ|jk½';
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex;
 @property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

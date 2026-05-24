@@ -5,5 +5,6 @@
 //
 
 @protocol ADAttribution_XPC
+- (void);
 @end
 

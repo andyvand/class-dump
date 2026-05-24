@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 
 + (id)ÁD°!XCùQtð1Â0@ù
 × ;
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)updateAvailableTransports;
+- (id)recordEvent:with: /* Error: Ran out of types for this method. */;
+- (void)_updateAvailableTransports;
 
 // Remaining properties
 @property(retain, nonatomic) CNEntitlementVerifier *entitlementVerifier; // @synthesize entitlementVerifier=_entitlementVerifier;

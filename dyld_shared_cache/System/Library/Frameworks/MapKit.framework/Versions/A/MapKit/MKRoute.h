@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, MKPolyline, MKRoutePolyline, NSArray, NSString;
+@class GEOComposedRoute;
 
 @interface MKRoute
 {
     GEOComposedRoute *_geoComposedRoute;
-    MKRoutePolyline *_polyline;
-    NSArray *_steps;
 }
 
 - (id);
@@ -20,23 +18,14 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)DetectHumanHandPoseRequestCodingKeys;
 - (id);
 - (double);
-- (void)enURL:fromView: /* Error: Ran out of types for this method. */;
-- (unsigned long long)racyRingAlpha: /* Error: Ran out of types for this method. */;
+- (void)placeCardActionController:openURL:fromView: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setAccuracyRingAlpha: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *advisoryNotices;
-@property(readonly, nonatomic) double distance;
-@property(readonly, nonatomic) double expectedTravelTime;
 @property(readonly, nonatomic, getter=_geoComposedRoute) GEOComposedRoute *geoComposedRoute; // @synthesize geoComposedRoute=_geoComposedRoute;
-@property(readonly, nonatomic) _Bool hasHighways;
-@property(readonly, nonatomic) _Bool hasTolls;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) MKPolyline *polyline; // @synthesize polyline=_polyline;
-@property(readonly, nonatomic) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly, nonatomic) unsigned long long transportType;
 
 @end
 

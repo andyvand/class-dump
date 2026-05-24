@@ -5,5 +5,8 @@
 //
 
 @protocol InlineAuthorizationViewControllerDelegate
+
+@optional
+- (void);
 @end
 

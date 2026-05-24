@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AAPendingIDSMessage
 {
     NSString *_senderHandle;
-    NSString *_sentToHandleUri;
-    NSData *_data;
-    long long _type;
 }
 
+- (id)seForOneDomain - no existing policies were found;
+- (id)ound optional passcode payload to check and merge;
+- (id)ng propertyList] raised exception "%s" because "%s";
+- (long long);
+- (id)8;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void)ServiceProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (void)remoteServiceProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
-@property(readonly, copy, nonatomic) NSString *sentToHandleUri; // @synthesize sentToHandleUri=_sentToHandleUri;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

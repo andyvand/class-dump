@@ -7,8 +7,6 @@
 @interface SwiftUI.SheetBridge
 {
     id host;
-    id runningSheets;
-    id lastPresentations;
 }
 
 - (void);

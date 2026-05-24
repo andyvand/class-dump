@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (struct _NSRange);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)amenityItemViewForMapItem:amenityItemConfiguration: /* Error: Ran out of types for this method. */;
 
 @end
 

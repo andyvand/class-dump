@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPRep, TSWPTextMagnifierRenderer, TSWPTextMagnifierTimeWeightedPoint;
+@class TSWPRep;
 
 @interface TSWPTextMagnifierRanged
 {
     TSWPRep *_target;
-    struct CGPoint _magnificationPoint;
-    struct CGPoint _offset;
-    struct CGPoint _animationPoint;
-    TSWPTextMagnifierTimeWeightedPoint *_weightedPoint;
-    TSWPTextMagnifierRenderer *_magnifierRenderer;
-    _Bool _inPlace;
 }
 
+- (id)ler.allowsPictureInPicturePlayback;
+- (_Bool)nTrack"8@"NSIndexPath"16^B24;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)VAReloadPrerollDuration;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
+- (void)uFeed/SharedWithYouFeedModule.swift;
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)ification;
+- (void)ines with min=%ld, max=%ld, ordering=%{public}@;
+- (struct CGPoint)ed embedded in magazine feed is deprecated sports event, identifier=%{public}@;
+- (double)not find feed identifier for feed bin %ld; ignoring sport topic fetch for tag %{public}@;
 - (double);
-- (double);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (void);
@@ -42,29 +36,14 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (struct CGPoint)ignoring height;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_animationPoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint magnificationPoint;
-@property(readonly, nonatomic) NSString *maskImageName;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSString *overlayImageName;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) TSWPRep *target; // @synthesize target=_target;
-@property(readonly, nonatomic) struct CGPoint terminalPoint;
-@property(readonly, nonatomic) _Bool terminalPointPlacedCarefully;
-@property(readonly, nonatomic) NSString *underlayImageName;
 
 @end
 

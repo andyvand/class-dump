@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSLayoutConstraint, NSString, SiriUIButton;
-@protocol SiriUICardHeaderViewControllerDelegate;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface SiriUICardHeaderViewController
 {
     _Bool _allowsStashing;
-    _Bool _navigating;
-    id <SiriUICardHeaderViewControllerDelegate> _delegate;
-    NSString *_summaryTitle;
-    SiriUIButton *_backNavigationButton;
-    NSImageView *_iconView;
-    NSLayoutConstraint *_backNavigationButtonLeadingConstraintToContainer;
-    NSLayoutConstraint *_backNavigationButtonTrailingConstraintToImageView;
-    NSLayoutConstraint *_backNavigationButtonVerticalConstraint;
-    NSLayoutConstraint *_imageViewLeadingConstraintToContainer;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@9`;
 - (id);
 - (id);
 - (id);
@@ -40,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)traitCollectionDidChange: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (id);
 - (_Bool);
@@ -52,17 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)id not implement getUserVoiceProfileWithProvider:(_Bool)arg1 .;
 
 // Remaining properties
-@property _Bool allowsStashing; // @synthesize allowsStashing=_allowsStashing;
-@property(retain) SiriUIButton *backNavigationButton; // @synthesize backNavigationButton=_backNavigationButton;
-@property(retain) NSLayoutConstraint *backNavigationButtonLeadingConstraintToContainer; // @synthesize backNavigationButtonLeadingConstraintToContainer=_backNavigationButtonLeadingConstraintToContainer;
-@property(retain) NSLayoutConstraint *backNavigationButtonTrailingConstraintToImageView; // @synthesize backNavigationButtonTrailingConstraintToImageView=_backNavigationButtonTrailingConstraintToImageView;
-@property(retain) NSLayoutConstraint *backNavigationButtonVerticalConstraint; // @synthesize backNavigationButtonVerticalConstraint=_backNavigationButtonVerticalConstraint;
-@property(nonatomic) __weak id <SiriUICardHeaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSImage *icon; // @dynamic icon;
 @property __weak NSImageView *iconView; // @synthesize iconView=_iconView;
-@property(retain) NSLayoutConstraint *imageViewLeadingConstraintToContainer; // @synthesize imageViewLeadingConstraintToContainer=_imageViewLeadingConstraintToContainer;
-@property(nonatomic) _Bool navigating; // @synthesize navigating=_navigating;
-@property(retain) NSString *summaryTitle; // @synthesize summaryTitle=_summaryTitle;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface TUToolbarDefaultCompressionAnimation
 {
     double _topOffset;
-    UIToolbar *_toolbar;
 }
 
 - (void);
@@ -25,18 +24,11 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)deleted_from_cloud;
 - (void)¨(úÿÌ(úÿ(+úÿ,úÿ@,úÿd,úÿ ,úÿÄ,úÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldCloseGapOnScroll;
-@property(readonly, nonatomic) _Bool shouldCompressAtTop;
 @property(retain, nonatomic) UIToolbar *toolbar; // @synthesize toolbar=_toolbar;
-@property(readonly, nonatomic) double topOffset; // @synthesize topOffset=_topOffset;
 
 @end
 

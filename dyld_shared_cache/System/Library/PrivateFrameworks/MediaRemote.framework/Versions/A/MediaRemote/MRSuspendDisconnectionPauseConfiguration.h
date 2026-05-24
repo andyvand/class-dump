@@ -11,10 +11,10 @@
     NSString *_deviceAddress;
 }
 
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)continuitySendError;
+- (id)ԝl;
 - (void);
 
 // Remaining properties

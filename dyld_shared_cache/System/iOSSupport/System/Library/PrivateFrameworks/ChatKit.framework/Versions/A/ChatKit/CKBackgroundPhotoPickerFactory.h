@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)te note with content length %lu and hash %lu;
++ (id)-[ICAuthorHighlightsController setCoalesceAuthorHighlightUpdates:] /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

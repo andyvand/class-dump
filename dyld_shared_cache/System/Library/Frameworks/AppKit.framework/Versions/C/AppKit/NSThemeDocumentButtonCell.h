@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)rk.Instruments;
 - (id);
 
 @end

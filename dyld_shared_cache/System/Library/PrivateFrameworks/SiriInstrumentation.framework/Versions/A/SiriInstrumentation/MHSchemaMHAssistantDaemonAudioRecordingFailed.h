@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    NSString *_audioInterfaceVendorId;
-    NSString *_audioInterfaceProductId;
-    CDStruct_6555f803 _has;
-    _Bool _hasAudioInterfaceVendorId;
-    _Bool _hasAudioInterfaceProductId;
 }
 
 - (void);
@@ -30,28 +23,22 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)`;
 - (void);
-- (void);
+- (void)00;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void) ;
 - (id);
 - (id)ß1Â0@ù
 × ;
-- (id)MetadataReported:(id)arg1;
+- (id)setHasMwtMusicMetadataReported:(id)arg1;
 - (id)verCounterfactualTriggeredTier1",&,N,V_counterfactualTriggered;
 - (void);
 - (void)»³!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *audioInterfaceProductId; // @synthesize audioInterfaceProductId=_audioInterfaceProductId;
-@property(copy, nonatomic) NSString *audioInterfaceVendorId; // @synthesize audioInterfaceVendorId=_audioInterfaceVendorId;
-@property(nonatomic) _Bool hasAudioInterfaceProductId; // @synthesize hasAudioInterfaceProductId=_hasAudioInterfaceProductId;
-@property(nonatomic) _Bool hasAudioInterfaceVendorId; // @synthesize hasAudioInterfaceVendorId=_hasAudioInterfaceVendorId;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

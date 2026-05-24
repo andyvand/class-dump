@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface AFSiriUserNotificationSummary
 {
     NSString *_summary;
-    long long _summaryType;
-    NSError *_error;
 }
 
 + (_Bool);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (id)L7failure_t;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)echEvent;
+- (id);
+- (void)_activeRequestSpeechEvent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly, nonatomic) long long summaryType; // @synthesize summaryType=_summaryType;
 
 @end
 

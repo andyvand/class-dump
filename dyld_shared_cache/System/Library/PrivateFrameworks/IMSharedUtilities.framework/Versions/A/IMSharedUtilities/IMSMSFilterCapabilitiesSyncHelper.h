@@ -15,7 +15,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)`B;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -24,9 +24,9 @@
 + (id);
 + (unsigned long long);
 + (unsigned long long);
-+ (id);
++ (id)k ;
 + (void);
-+ (unsigned long long);
++ (unsigned long long)#;
 
 @end
 

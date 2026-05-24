@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface UserStyleSheetGenerator
 {
 }
 
-+ (id)g: /* Error: Ran out of types for this method. */;
++ (id)attributedStringFromHTMLString: /* Error: Ran out of types for this method. */;
 + (id)umnID must not be nil.;
 - (id);
 - (id);
@@ -23,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *userStyleSheetStringForMainWindow;
-@property(readonly, nonatomic) NSURL *userStyleSheetURLForMainWindow;
-@property(readonly, nonatomic) NSURL *userStyleSheetURLForSingleNoteWindow;
 
 @end
 

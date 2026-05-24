@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)lResolutionResource: /* Error: Ran out of types for this method. */;
+- (void)setPreferFullResolutionResource: /* Error: Ran out of types for this method. */;
 
 @end
 

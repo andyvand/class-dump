@@ -7,27 +7,21 @@
 @interface CADisplayStateControl
 {
     unsigned int _server_port;
-    struct ClientIPC _client_ipc;
-    unsigned int _display_id;
-    void *_display_state;
-    void *_shmem;
-    struct Transition *_display_state_transition;
-    struct Transition *_cloning_state_transition;
 }
 
 - (void);
 - (void);
 - (long long);
 - (long long);
+- (long long)@q#;
+- (void);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (void);
 - (id);
-- (long long);
-- (void);
-- (id);
-- (char *);
+- (char *)QhR;
 - (char *);
 - (void);
 - (long long);
@@ -35,12 +29,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long cloningState;
-@property(readonly, nonatomic) long long displayState;
-@property(readonly, nonatomic) long long powerState;
-@property(readonly, nonatomic) long long targetCloningState;
 @property(readonly, nonatomic) long long targetDisplayState;
-@property(readonly, nonatomic) long long targetPowerState;
 
 @end
 

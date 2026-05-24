@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADCubicBezierToPathElement : OADPathElement
 {
     struct OADAdjustPoint mControlPoint1;
-    struct OADAdjustPoint mControlPoint2;
-    struct OADAdjustPoint mToPoint;
-    _Bool mRelative;
 }
 
 - (void);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct OADAdjustPoint);
 - (struct OADAdjustPoint);
-- (struct OADAdjustPoint);
+- (struct OADAdjustPoint)erViewHeight)]|;
 
 @end
 

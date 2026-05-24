@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _AXFTextPositionMarkerBased : AXFTextPosition
 {
     struct __AXTextMarker *_marker;
-    AXFUIElement *__webAreaUIElement;
 }
 
 - (void);
@@ -29,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)pple.xbs/TemporaryDirectory.Pb6i3e/Sources/HTTPServer/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.m;
 - (_Bool);
 - (long long);
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)_acceptedChats;
 
 // Remaining properties
 @property(retain, nonatomic) AXFUIElement *_webAreaUIElement; // @synthesize _webAreaUIElement=__webAreaUIElement;

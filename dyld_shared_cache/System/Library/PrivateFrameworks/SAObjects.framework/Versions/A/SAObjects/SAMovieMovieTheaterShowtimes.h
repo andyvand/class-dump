@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SALocalSearchBusiness2;
+@class NSArray;
 
 @interface SAMovieMovieTheaterShowtimes : AceObject
 {
@@ -16,24 +16,15 @@
 + (id);
 - (id);
 - (void);
+- (void)vc;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *movieShowtimes;
-@property(copy, nonatomic) NSArray *showtimes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SALocalSearchBusiness2 *theater;
 
 @end
 

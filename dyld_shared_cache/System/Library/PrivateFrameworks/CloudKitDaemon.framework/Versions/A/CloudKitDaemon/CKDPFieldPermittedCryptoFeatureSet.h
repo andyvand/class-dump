@@ -7,14 +7,10 @@
 @interface CKDPFieldPermittedCryptoFeatureSet
 {
     CDStruct_95bda58d _assetKeyEncryptionTypes;
-    CDStruct_95bda58d _encryptedFieldContextTypes;
-    CDStruct_95bda58d _mmcsVersions;
-    int _minimumSchemaVersion;
-    CDStruct_fe6a063f _has;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -30,14 +26,14 @@
 - (unsigned long long);
 - (int *);
 - (int);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)getHistoryNumber:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -47,14 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int *assetKeyEncryptionTypes;
-@property(readonly, nonatomic) unsigned long long assetKeyEncryptionTypesCount;
-@property(readonly, nonatomic) int *encryptedFieldContextTypes;
-@property(readonly, nonatomic) unsigned long long encryptedFieldContextTypesCount;
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
-@property(readonly, nonatomic) int *mmcsVersions;
-@property(readonly, nonatomic) unsigned long long mmcsVersionsCount;
 
 @end
 

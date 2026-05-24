@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SafariWebBookmarkList;
+@class NSObject, SafariWebBookmarkList;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface URLCompletionDatabase
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _reloadNotificationPending;
-    _Bool _enumeratingBookmarkMatches;
-    _Bool _enumeratingHistoryMatches;
-    SafariWebBookmarkList *_topBookmark;
 }
 
 + (id);
 - (id);
+- (void)C;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -31,15 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEnumeratingBookmarkMatches) _Bool enumeratingBookmarkMatches; // @synthesize enumeratingBookmarkMatches=_enumeratingBookmarkMatches;
-@property(readonly, nonatomic, getter=isEnumeratingHistoryMatches) _Bool enumeratingHistoryMatches; // @synthesize enumeratingHistoryMatches=_enumeratingHistoryMatches;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property __weak SafariWebBookmarkList *topBookmark; // @synthesize topBookmark=_topBookmark;
 
 @end

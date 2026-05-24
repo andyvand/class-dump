@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVenueContainer, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDFeatureVenue
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_buildings;
-    NSMutableArray *_levels;
-    GEOPDVenueContainer *_venueContainer;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_buildings:1;
-        unsigned int read_levels:1;
-        unsigned int read_venueContainer:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)hybridClassifier;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)yIcons"b1"read_prefCategoryNames"b1"read_prefDisplayName"b1"read_prefPhone"b1"read_prefUrl"b1"wrote_anyField"b1};
-- (id)equest;
+- (id)_directionsRequest;
 - (id)Hóóô#÷ øÌø8ú;
 - (void)ÙÎ÷Sã@V-ÿ@;
 

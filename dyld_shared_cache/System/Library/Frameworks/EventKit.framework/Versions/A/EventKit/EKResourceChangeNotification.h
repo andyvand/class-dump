@@ -6,24 +6,23 @@
 
 #import <EventKit/EKNotification.h>
 
-@class NSDate, NSSet;
+@class NSDate;
 
 @interface EKResourceChangeNotification : EKNotification
 {
 }
 
-+ (id);
++ (id)ices in formed endpoint. Expected:%@, got:%@ /* Error: Ran out of types for this method. */;
 + (Class);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)nnection] initialize<%p> - context:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *lastModifiedDate;
-@property(copy, nonatomic) NSSet *resourceChanges;
 
 @end
 

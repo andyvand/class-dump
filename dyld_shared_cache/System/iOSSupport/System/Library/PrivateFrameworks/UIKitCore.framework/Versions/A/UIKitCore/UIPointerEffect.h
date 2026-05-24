@@ -4,29 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue, UITargetedPreview, UIViewSpringAnimationBehavior;
+@class UITargetedPreview;
 
 @interface UIPointerEffect
 {
     UITargetedPreview *_preview;
 }
 
-+ (id);
-- (_Bool);
++ (id)q;
+- (_Bool)subject;
 - (struct CGPoint);
 - (double);
 - (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (struct CGPoint);
+- (double)X;
+- (double)Persistence returning nil for batchOfRecordIDsToDelete for DeletedChatStore.;
+- (id)s not supported %hhu;
+- (id)session, please file a radar-------*/;
+- (double)hotoUpload from legacy service session, please file a radar-------*/;
+- (double)ssion, please file a radar-------*/;
+- (double)nable to mark message %@ as completed when it should be;
+- (double)R;
+- (double)pc_activity_t to XPC_ACTIVITY_STATE_DEFER;
+- (_Bool)t:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)l;
 - (double);
 - (double);
 - (unsigned long long);
@@ -35,41 +35,14 @@
 - (unsigned long long);
 - (unsigned long long)!Ð@ù1g°1Â0@ù
 × ;
-- (id);
-- (_Bool)ld;
-- (id)aView;
+- (id)viewForTraitCollection;
+- (_Bool)minHistoricalAccuracyThreshold;
+- (id)configMediaView;
 - (id);
 - (void)Hud;
 
 // Remaining properties
-@property(readonly, nonatomic) double _plasmaLensParallaxFactor;
-@property(readonly, nonatomic) double _plasmaParallaxFactor;
-@property(readonly, nonatomic) struct CGPoint _plasmaRubberbandFactor;
-@property(readonly, nonatomic) _Bool allowsSanitization;
-@property(readonly, nonatomic) unsigned long long constrainedAxes;
-@property(readonly, nonatomic) double dampedAnimationDampingRatio;
-@property(readonly, nonatomic) double dampedAnimationResponse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultPointerCornerRadius;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double liftForceExponent;
-@property(readonly, nonatomic) double liftProgressFloor;
-@property(readonly, nonatomic) UIViewSpringAnimationBehavior *liftProgressSpring;
-@property(readonly, nonatomic) double maxSlip;
-@property(readonly, nonatomic) unsigned long long options;
-@property(readonly, nonatomic) NSValue *overrideSlipPoints;
-@property(readonly, nonatomic) double parallaxAmount;
 @property(copy, nonatomic) UITargetedPreview *preview; // @synthesize preview=_preview;
-@property(readonly, nonatomic) double scaleUpAnimationDampingRatio;
-@property(readonly, nonatomic) double scaleUpAnimationResponse;
-@property(readonly, nonatomic) double scaleUpPoints;
-@property(readonly, nonatomic) struct CGPoint slipFactor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useSoftShadow;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface UMUserPersonaAttributes
 {
     _Bool _isEnterprisePersona;
-    _Bool _isPersonalPersona;
-    _Bool _isUniversalPersona;
-    _Bool _isSystemPersona;
-    _Bool _isDefaultPersona;
-    _Bool _isGuestPersona;
-    _Bool _isDataSeparatedPersona;
-    _Bool _isDisabled;
-    unsigned int _userPersona_id;
-    NSString *_userPersonaUniqueString;
-    unsigned long long _userPersonaType;
-    NSURL *_personaLayoutPathURL;
-    NSString *_disablementReason;
-    NSArray *_userPersonaBundleIDList;
-    NSString *_userPersonaDisplayName;
-    NSDate *_creationDate;
-    NSDate *_lastLoginDate;
-    NSDate *_lastDisableDate;
-    NSDate *_lastEnableDate;
 }
 
 + (id);
@@ -42,13 +24,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id)yer.slicestatic().*_size values.;
+- (_Bool)els of the kernel `(;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)>;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -59,17 +41,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)J ;
 - (id);
-- (id);
+- (id)lx %s:%@%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)displayedHostname;
+- (id)_resolvedConfiguration;
+- (_Bool)CKDistributedTimestampImmutableClockVector;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -81,25 +63,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *disablementReason; // @synthesize disablementReason=_disablementReason;
-@property(nonatomic) _Bool isDataSeparatedPersona; // @synthesize isDataSeparatedPersona=_isDataSeparatedPersona;
-@property(nonatomic) _Bool isDefaultPersona; // @synthesize isDefaultPersona=_isDefaultPersona;
-@property(nonatomic) _Bool isDisabled; // @synthesize isDisabled=_isDisabled;
-@property(nonatomic) _Bool isEnterprisePersona; // @synthesize isEnterprisePersona=_isEnterprisePersona;
-@property(nonatomic) _Bool isGuestPersona; // @synthesize isGuestPersona=_isGuestPersona;
-@property(nonatomic) _Bool isPersonalPersona; // @synthesize isPersonalPersona=_isPersonalPersona;
-@property(nonatomic) _Bool isSystemPersona; // @synthesize isSystemPersona=_isSystemPersona;
-@property(nonatomic) _Bool isUniversalPersona; // @synthesize isUniversalPersona=_isUniversalPersona;
-@property(copy, nonatomic) NSDate *lastDisableDate; // @synthesize lastDisableDate=_lastDisableDate;
-@property(copy, nonatomic) NSDate *lastEnableDate; // @synthesize lastEnableDate=_lastEnableDate;
-@property(copy, nonatomic) NSDate *lastLoginDate; // @synthesize lastLoginDate=_lastLoginDate;
 @property(copy, nonatomic) NSURL *personaLayoutPathURL; // @synthesize personaLayoutPathURL=_personaLayoutPathURL;
-@property(copy, nonatomic) NSArray *userPersonaBundleIDList; // @synthesize userPersonaBundleIDList=_userPersonaBundleIDList;
-@property(copy, nonatomic) NSString *userPersonaDisplayName; // @synthesize userPersonaDisplayName=_userPersonaDisplayName;
-@property(nonatomic) unsigned long long userPersonaType; // @synthesize userPersonaType=_userPersonaType;
-@property(copy, nonatomic) NSString *userPersonaUniqueString; // @synthesize userPersonaUniqueString=_userPersonaUniqueString;
-@property(nonatomic) unsigned int userPersona_id; // @synthesize userPersona_id=_userPersona_id;
 
 @end
 

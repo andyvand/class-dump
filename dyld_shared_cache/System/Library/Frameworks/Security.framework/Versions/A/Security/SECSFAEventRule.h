@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, SECSFAAction, SECSFAVersionMatch;
-
 __attribute__((visibility("hidden")))
 @interface SECSFAEventRule
 {
     long long _repeatAfterSeconds;
-    SECSFAAction *_action;
-    int _eventClass;
-    NSString *_eventType;
-    NSData *_match;
-    NSString *_processName;
-    SECSFAVersionMatch *_versions;
-    _Bool _matchOnFirstFailure;
-    struct {
-        unsigned int repeatAfterSeconds:1;
-        unsigned int eventClass:1;
-        unsigned int matchOnFirstFailure:1;
-    } _has;
 }
 
 - (id);
@@ -32,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)#;�	Q;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,43 +30,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (int);
 - (_Bool);
 - (id);
+- (_Bool)to be %llx, was %llx.;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (id);
+- (void)P;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)T;
+- (void)Lih8Li)8);
 - (void)ø8ü	;
 
 // Remaining properties
-@property(retain, nonatomic) SECSFAAction *action; // @synthesize action=_action;
-@property(nonatomic) int eventClass; // @synthesize eventClass=_eventClass;
-@property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasEventClass;
 @property(readonly, nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) _Bool hasMatch;
-@property(nonatomic) _Bool hasMatchOnFirstFailure;
-@property(readonly, nonatomic) _Bool hasProcessName;
-@property(nonatomic) _Bool hasRepeatAfterSeconds;
-@property(readonly, nonatomic) _Bool hasVersions;
-@property(retain, nonatomic) NSData *match; // @synthesize match=_match;
-@property(nonatomic) _Bool matchOnFirstFailure; // @synthesize matchOnFirstFailure=_matchOnFirstFailure;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(nonatomic) long long repeatAfterSeconds; // @synthesize repeatAfterSeconds=_repeatAfterSeconds;
-@property(retain, nonatomic) SECSFAVersionMatch *versions; // @synthesize versions=_versions;
 
 @end
 

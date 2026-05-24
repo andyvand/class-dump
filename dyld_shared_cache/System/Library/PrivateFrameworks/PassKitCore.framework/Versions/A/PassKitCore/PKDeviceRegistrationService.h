@@ -9,7 +9,6 @@
 @interface PKDeviceRegistrationService
 {
     PKXPCService *_remoteService;
-    _Bool _isRegistering;
 }
 
 + (id)(òÿ;
@@ -21,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)ion;
+- (id)";
+- (id)contactFromContactInformation;
 - (void)om.apple.Passbook.additive;
 
 @end

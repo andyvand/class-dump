@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSDCanvas, TSDLayout, TSUPointerKeyDictionary;
+@class NSObject;
 @protocol TSDInfo;
 
 @interface TSDDefaultPartitioner
 {
     NSObject<TSDInfo> *mInfo;
-    TSDCanvas *mCanvas;
-    TSDLayout *mLayout;
-    TSUPointerKeyDictionary *mMainRepsByCanvas;
-    TSUPointerKeyDictionary *mCachedImagesByCanvas;
-    TSUPointerKeyDictionary *mPartialRepsByCanvas;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)I;
 - (id);
 - (_Bool);
 - (id);
@@ -39,13 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

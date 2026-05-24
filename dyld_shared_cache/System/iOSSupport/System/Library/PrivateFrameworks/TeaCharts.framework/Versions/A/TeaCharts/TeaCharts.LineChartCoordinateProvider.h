@@ -7,10 +7,6 @@
 @interface TeaCharts.LineChartCoordinateProvider
 {
     id valueCoordinateCalculator;
-    id categoryCoordinateCalculator;
-    id coordinateSpace;
-    id size;
-    id lock;
 }
 
 @end

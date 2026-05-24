@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserNotificationCenter;
+@class NSUserNotification, NSUserNotificationCenter;
 
 @protocol NSUserNotificationCenterDelegate
 
 @optional
-- (_Bool)k:(NSUserNotificationCenter *)arg1;
+- (_Bool)enumerateMemoryEntitiesWithProperties:(NSUserNotificationCenter *)arg1 usingBlock:(NSUserNotification *)arg2;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol IPAGeometryConverter
+- (_Bool)&;
+- (struct CGAffineTransform);
+- (struct CGPoint);
 @end
 

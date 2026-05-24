@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _AXKApplicationOperation
 {
     AXKApplicationController *__applicationController;
-    CDUnknownBlockType __work;
-    id __result;
 }
 
 - (id);
@@ -23,12 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)set_previousDragMouseLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setApplicationController:) __weak AXKApplicationController *_applicationController; // @synthesize _applicationController=__applicationController;
-@property(retain, nonatomic, setter=_setResult:) id _result; // @synthesize _result=__result;
-@property(copy, nonatomic, setter=_setWork:) CDUnknownBlockType _work; // @synthesize _work=__work;
 
 @end
 

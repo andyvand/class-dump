@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface WiFiUsageLQMFeature
 {
     _Bool _isPerSecond;
-    NSString *_fieldName;
-    NSNumber *_median;
 }
 
 - (id);
@@ -18,17 +16,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)len1 0x%x derLen 0x%zx;
 - (void);
 - (id);
 - (void)× ;
 - (void);
-- (id)SleepCount;
+- (id)_currentBssMsgInSleepCount;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(nonatomic) _Bool isPerSecond; // @synthesize isPerSecond=_isPerSecond;
-@property(retain, nonatomic) NSNumber *median; // @synthesize median=_median;
 
 @end
 

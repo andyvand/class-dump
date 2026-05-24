@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPHyperlinkField, UITableViewCell;
+@class TSWPHyperlinkField;
 
 @interface TSWPHyperlinkSettingsViewController
 {
     TSWPHyperlinkField *_hyperlink;
-    UITableViewCell *_editingCell;
-    _Bool _readOnly;
 }
 
-- (void);
+- (void)time;
 - (void);
 - (void);
 - (id);
@@ -26,17 +24,10 @@
 - (void);
 - (void)
 × ;
-- (unsigned long long)ntWithPinning:isTail:selectionType: /* Error: Ran out of types for this method. */;
+- (unsigned long long)charIndexForPointWithPinning:isTail:selectionType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) TSWPHyperlinkField *hyperlink; // @synthesize hyperlink=_hyperlink;
-@property(readonly) Class superclass;
 
 @end
 

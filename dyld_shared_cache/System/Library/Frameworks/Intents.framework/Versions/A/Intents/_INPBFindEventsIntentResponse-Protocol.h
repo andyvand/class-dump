@@ -7,9 +7,13 @@
 @class NSArray;
 
 @protocol _INPBFindEventsIntentResponse
++ (Class)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
+- (void);
+- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *events;
-@property(readonly, nonatomic) unsigned long long eventsCount;
 @end
 

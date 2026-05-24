@@ -9,17 +9,6 @@
 @interface AppStoreKit.FlowAction : AppStoreKit.Action
 {
     id page;
-    id pageUrl;
-    id referrerUrl;
-    id referrerData;
-    id pageDataPageRenderMetrics;
-    id presentationContext;
-    id animationBehavior;
-    id origin;
-    id presentation;
-    id options;
-    id pageData;
-    id appStateController;
 }
 
 @end

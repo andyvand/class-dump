@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBIdentityAuthority, NSArray, NSData, NSImage, NSString, NSUUID;
+@class CBIdentityAuthority;
 
 @interface CBIdentity
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,13 +30,13 @@
 - (id);
 - (id);
 - (struct __CSIdentity *);
+- (id);
+- (void);
+- (id)_generateWarningsForMethodType:(id)arg1 onClass:superclassMethods:numberOfSuperclassMethods: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)e";
+- (unsigned long long)@;
 - (id);
 - (id);
 - (_Bool);
@@ -44,24 +44,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)newlineCharacterSet;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) struct __CSIdentity *CSIdentity;
-@property(readonly, nonatomic) NSString *UUIDString;
-@property(readonly, nonatomic) NSArray *aliases;
 @property(readonly, nonatomic) CBIdentityAuthority *authority;
-@property(readonly, nonatomic) NSString *emailAddress;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSImage *image;
-@property(readonly, nonatomic) NSData *persistentReference;
-@property(readonly, nonatomic) NSString *posixName;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

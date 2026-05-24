@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary;
 
 @interface SXFontIndex
 {
     NSDictionary *_fonts;
-    NSCache *_attributeToFontIndex;
-    NSCache *_fontToAttributeIndex;
-    NSMutableArray *_fontFamilyProviders;
 }
 
 - (void);
@@ -30,17 +27,7 @@
 - (id)@"<SXComponentController>"16@?0@"<TFResolver>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *attributeToFontIndex; // @synthesize attributeToFontIndex=_attributeToFontIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableArray *fontFamilyProviders; // @synthesize fontFamilyProviders=_fontFamilyProviders;
-@property(readonly, nonatomic) NSCache *fontToAttributeIndex; // @synthesize fontToAttributeIndex=_fontToAttributeIndex;
 @property(readonly, nonatomic) NSDictionary *fonts; // @synthesize fonts=_fonts;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

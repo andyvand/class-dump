@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface GPURawCounterSelect
 {
     NSString *_name;
-    NSDictionary *_options;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

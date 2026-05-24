@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedFaceCropModel
@@ -12,22 +12,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)enerativeModels;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)encodeObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)V;
 - (id);
 - (struct CGRect);
 
 // Remaining properties
-@property(retain) NSData *dataRepresentation; // @dynamic dataRepresentation;
-@property(retain) NSDate *dateCreated; // @dynamic dateCreated;
-@property struct CGRect faceBoundingBox;
 @property(retain) NSData *faceBoundingBoxData; // @dynamic faceBoundingBoxData;
-@property(retain) NSUUID *personFaceCropUUID; // @dynamic personFaceCropUUID;
 
 @end
 

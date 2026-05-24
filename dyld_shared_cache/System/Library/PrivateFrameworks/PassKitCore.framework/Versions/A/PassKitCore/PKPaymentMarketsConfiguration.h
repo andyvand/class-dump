@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSSet;
 
 @interface PKPaymentMarketsConfiguration
 {
     NSSet *_markets;
-    NSString *_version;
-    NSURL *_url;
 }
 
 + (void);
 + (id);
 + (_Bool)áW"ð!Cùqî%Ð1Â0@ù
 × ;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (void);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSSet *markets; // @synthesize markets=_markets;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
-@property(readonly, copy) NSString *version; // @synthesize version=_version;
 
 @end
 

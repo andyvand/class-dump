@@ -9,32 +9,26 @@
 @interface _UITextViewContentPadding
 {
     long long _mode;
-    double _targetValue;
-    double _currentValue;
-    id <_UITextViewContentPaddingDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void)a!@ù1`°1Â0@ù
 × ;
 - (void)
 × ;
-- (void)itionFromView:(double)arg1 toView:containerView: /* Error: Ran out of types for this method. */;
-- (double)nPanInZ;
-- (void)mateShadow;
-- (id)mator;
-- (void)p;
+- (void)performDisappearanceTransitionFromView:(double)arg1 toView:containerView: /* Error: Ran out of types for this method. */;
+- (double)canPanInZ;
+- (void)_shouldAnimateShadow;
+- (id)_propertyAnimator;
+- (void)_p;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentValue; // @synthesize currentValue=_currentValue;
 @property(nonatomic) __weak id <_UITextViewContentPaddingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) double targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

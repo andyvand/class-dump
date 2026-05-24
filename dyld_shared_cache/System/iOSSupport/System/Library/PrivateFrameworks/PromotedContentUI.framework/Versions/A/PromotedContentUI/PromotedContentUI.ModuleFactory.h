@@ -7,41 +7,6 @@
 @interface PromotedContentUI.ModuleFactory
 {
     id adCandidateIDGenerator;
-    id birthYearSource;
-    id birthYearSourceAnalytics;
-    id clock;
-    id instanceIDGenerator;
-    id localConfiguration;
-    id regulatedAppAdAnalytics;
-    id storefrontIDSource;
-    id xpcAdRequester;
-    id toroIdProvider;
-    id policyEngine;
-    id metricHelper;
-    id fpdiPoolManager;
-    id timer;
-    id appStore;
-    id policyInstrumentation;
-    id isColdStart;
-    id greenTeaLogger;
-    id locationManager;
-    id systemInfoProvider;
-    id idAccountProvider;
-    id frequencyCapStore;
-    id configurationProvider;
-    id featureFlag;
-    id userInformationSource;
-    id metaFieldsSource;
-    id searchAdsSettings;
-    id coreSettings;
-    id routingInfoProvider;
-    id rotatingIdentifierProvider;
-    id jsVersionProvider;
-    id appAdCapabilities;
-    id poiAdCapabilities;
-    id executionEnvironment;
-    id trialManager;
-    id enrichmentIdentifierProvider;
 }
 
 @end

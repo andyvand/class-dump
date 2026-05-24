@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PPTopicRecord;
+@class NSString;
 
 @interface PPTopic
 {
     NSString *_topicIdentifier;
-    NSString *_clusterIdentifier;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id)destinationAssetCopyProperties;
 - (id);
-- (id);
-- (id);
+- (id)defaultSingleFramebufferSixChannelPipelineConfigWantsExtendedDynamicRange:(id)arg1;
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -35,10 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clusterIdentifier; // @synthesize clusterIdentifier=_clusterIdentifier;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) PPTopicRecord *mostRelevantRecord;
-@property(readonly, nonatomic) double sentimentScore;
-@property(readonly, nonatomic) NSString *topicIdentifier; // @synthesize topicIdentifier=_topicIdentifier;
 
 @end
 

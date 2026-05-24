@@ -6,50 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UIDropShadowRimPartView, _UIGrabber, _UIRoundedRectShadowView;
-@protocol UIDropShadowViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface UIDropShadowView : UIView
 {
     _Bool __hasGrabber;
-    _Bool __insetsContentViewForGrabber;
-    _Bool __grabberLumaTrackingEnabled;
-    _Bool __grabberBlurEnabled;
-    _Bool _masksTopCornersOnly;
-    _Bool _supportsShadow;
-    UIView *_contentView;
-    UIView *_overlayView;
-    double __grabberAlpha;
-    double __grabberSpacing;
-    long long __grabberEdge;
-    double _rimTreatmentAlpha;
-    id <UIDropShadowViewDelegate> __delegate;
-    long long _independentCorners;
-    UIView *_firstCornerClippingDescendant;
-    NSArray *_cornerClippingDescendants;
-    _UIGrabber *__topGrabber;
-    _UIGrabber *__bottomGrabber;
-    _UIRoundedRectShadowView *_magicShadowView;
-    UIDropShadowRimPartView *_topLeft;
-    UIDropShadowRimPartView *_topEdge;
-    UIDropShadowRimPartView *_topRight;
-    UIDropShadowRimPartView *_leftEdge;
-    UIDropShadowRimPartView *_rightEdge;
-    UIDropShadowRimPartView *_bottomLeft;
-    UIDropShadowRimPartView *_bottomEdge;
-    UIDropShadowRimPartView *_bottomRight;
-    UIDropShadowRimPartView *_allRimParts;
-    struct CGSize __grabberPreferredSize;
-    struct UIRectCornerRadii _environmentMatchingCornerRadii;
-    struct UIEdgeInsets _contentTouchInsets;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)hannelPeerRequest(MDSChannelPeerRef, MDSChannelAccessTokenRef, MDPlistBytesRef, MDPlistBytesRef *);
+- (void)_payloadHarddiskInternal;
 - (void);
 - (id);
 - (void);
@@ -57,27 +24,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)"NSString",C,N,V_versionHash;
+- (id)kForPlayer [] playerPath=%{public}@;
+- (id)dentifierSet stepError:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
+- (id);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (void)1Â0@ù
 × ;
@@ -96,16 +63,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)á	°!`Dù1fð1Â0@ù
 × ;
-- (double): /* Error: Ran out of types for this method. */;
-- (id)lement: /* Error: Ran out of types for this method. */;
-- (id)leViewController;
-- (void)faultLabelForCell:(id)arg1;
-- (_Bool)imations;
+- (double)setBackgroundMasksCorners: /* Error: Ran out of types for this method. */;
+- (id)selectTextFieldWithElement: /* Error: Ran out of types for this method. */;
+- (id)rootTableViewController;
+- (void)defaultLabelForCell:(id)arg1;
+- (_Bool)_resetDictationAnimations;
 - (void)pedEndInputSession;
 - (id)ghtColor,S_setHighlightColor: /* Error: Ran out of types for this method. */;
-- (double)erOverlayPlatterView;
-- (void)yboardEmojiGenerationPresenter;
-- (void)availableConfiguration;
+- (double)_UIDatePickerOverlayPlatterView;
+- (void)UIKeyboardEmojiGenerationPresenter;
+- (void)UIContentUnavailableConfiguration;
 - (long long)üã;
 - (void)èm;
 - (void)X;
@@ -130,41 +97,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _UIGrabber *_bottomGrabber; // @synthesize _bottomGrabber=__bottomGrabber;
-@property(readonly, nonatomic) struct CGRect _contentViewFrame;
-@property(nonatomic) __weak id <UIDropShadowViewDelegate> _delegate; // @synthesize _delegate=__delegate;
-@property(readonly, nonatomic) _Bool _effectiveInsetsContentViewForGrabber;
-@property(nonatomic, setter=_setGrabberAlpha:) double _grabberAlpha; // @synthesize _grabberAlpha=__grabberAlpha;
-@property(nonatomic, getter=_isGrabberBlurEnabled, setter=_setGrabberBlurEnabled:) _Bool _grabberBlurEnabled; // @synthesize _grabberBlurEnabled=__grabberBlurEnabled;
-@property(nonatomic, setter=_setGrabberEdge:) long long _grabberEdge; // @synthesize _grabberEdge=__grabberEdge;
-@property(nonatomic, getter=_isGrabberLumaTrackingEnabled, setter=_setGrabberLumaTrackingEnabled:) _Bool _grabberLumaTrackingEnabled; // @synthesize _grabberLumaTrackingEnabled=__grabberLumaTrackingEnabled;
-@property(nonatomic, setter=_setGrabberPreferredSize:) struct CGSize _grabberPreferredSize; // @synthesize _grabberPreferredSize=__grabberPreferredSize;
-@property(nonatomic, setter=_setGrabberSpacing:) double _grabberSpacing; // @synthesize _grabberSpacing=__grabberSpacing;
-@property(readonly, nonatomic) _Bool _hasCreatedGrabbers;
-@property(nonatomic, setter=_setHasGrabber:) _Bool _hasGrabber; // @synthesize _hasGrabber=__hasGrabber;
-@property(nonatomic, setter=_setInsetsContentViewForGrabber:) _Bool _insetsContentViewForGrabber; // @synthesize _insetsContentViewForGrabber=__insetsContentViewForGrabber;
-@property(readonly, nonatomic) _UIGrabber *_topGrabber; // @synthesize _topGrabber=__topGrabber;
-@property(retain, nonatomic) UIDropShadowRimPartView *allRimParts; // @synthesize allRimParts=_allRimParts;
-@property(retain, nonatomic) UIDropShadowRimPartView *bottomEdge; // @synthesize bottomEdge=_bottomEdge;
-@property(retain, nonatomic) UIDropShadowRimPartView *bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(retain, nonatomic) UIDropShadowRimPartView *bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(nonatomic) struct UIEdgeInsets contentTouchInsets; // @synthesize contentTouchInsets=_contentTouchInsets;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) NSArray *cornerClippingDescendants; // @synthesize cornerClippingDescendants=_cornerClippingDescendants;
-@property(readonly, nonatomic) UIView *deepestClippingView;
-@property(nonatomic) struct UIRectCornerRadii environmentMatchingCornerRadii; // @synthesize environmentMatchingCornerRadii=_environmentMatchingCornerRadii;
-@property(readonly, nonatomic) __weak UIView *firstCornerClippingDescendant; // @synthesize firstCornerClippingDescendant=_firstCornerClippingDescendant;
-@property(readonly, nonatomic) long long independentCorners; // @synthesize independentCorners=_independentCorners;
-@property(retain, nonatomic) UIDropShadowRimPartView *leftEdge; // @synthesize leftEdge=_leftEdge;
-@property(readonly, nonatomic) _UIRoundedRectShadowView *magicShadowView; // @synthesize magicShadowView=_magicShadowView;
-@property(nonatomic) _Bool masksTopCornersOnly; // @synthesize masksTopCornersOnly=_masksTopCornersOnly;
-@property(retain, nonatomic) UIView *overlayView; // @synthesize overlayView=_overlayView;
-@property(retain, nonatomic) UIDropShadowRimPartView *rightEdge; // @synthesize rightEdge=_rightEdge;
-@property(nonatomic) double rimTreatmentAlpha; // @synthesize rimTreatmentAlpha=_rimTreatmentAlpha;
 @property(readonly, nonatomic) _Bool supportsShadow; // @synthesize supportsShadow=_supportsShadow;
-@property(retain, nonatomic) UIDropShadowRimPartView *topEdge; // @synthesize topEdge=_topEdge;
-@property(retain, nonatomic) UIDropShadowRimPartView *topLeft; // @synthesize topLeft=_topLeft;
-@property(retain, nonatomic) UIDropShadowRimPartView *topRight; // @synthesize topRight=_topRight;
 
 @end
 

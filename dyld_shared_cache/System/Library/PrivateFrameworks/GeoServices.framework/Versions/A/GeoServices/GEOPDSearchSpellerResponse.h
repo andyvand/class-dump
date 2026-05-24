@@ -4,72 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSpellerResponse
 {
     PBDataReader *_reader;
-    NSString *_debugResponse;
-    unsigned long long _decileId;
-    double _latencyMs;
-    double _misspellScore;
-    NSMutableArray *_spellSuggestions;
-    NSMutableArray *_tokenCandidates;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _modelNumberMajor;
-    unsigned int _modelNumberMinor;
-    int _rankerModelType;
-    int _resultStatus;
-    _Bool _isFromDLCacheModel;
-    _Bool _isFromDLRuntimeModel;
-    struct {
-        unsigned int has_decileId:1;
-        unsigned int has_latencyMs:1;
-        unsigned int has_misspellScore:1;
-        unsigned int has_modelNumberMajor:1;
-        unsigned int has_modelNumberMinor:1;
-        unsigned int has_rankerModelType:1;
-        unsigned int has_resultStatus:1;
-        unsigned int has_isFromDLCacheModel:1;
-        unsigned int has_isFromDLRuntimeModel:1;
-        unsigned int read_debugResponse:1;
-        unsigned int read_spellSuggestions:1;
-        unsigned int read_tokenCandidates:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)ve:(id)arg1;
-- (unsigned long long);
++ (_Bool)setIncludeTravelTimeConservative:(id)arg1;
+- (unsigned long long)setSyncAnchorData: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)interface;
+- (id)intValue;
+- (id)insertPhoneNumberWithConfiguration:(unsigned long long)arg1;
+- (void)copyAddressingGrammarPropertyValuesToContacts:(id)arg1;
+- (void)_predicate;
+- (void)ectionUpdateWatcher",&,V_updateWatcher;
+- (void)CNCDIOSLegacyIdentifierRegistrationRequest;
+- (void)CNEWSMapping;
+- (void)_CNCDDatabaseXPCRemover;
 - (void);
 - (void);
 - (void);
+- (void)tom property definitions in store;
+- (void)ublic}@;
+- (void)stence.CNCDMeCardImporter;
+- (void)ipRect_1;
+- (void);
+- (void)emote-persistence;
+- (void)_requestedContainerIdentifierCount;
+- (void)_requestedGroupIdentifierCount;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)@;
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -77,14 +47,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
+- (_Bool)Խj;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -101,45 +71,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)N,V_domainGroupName;
+- (id)enableAlwaysOnVoiceTrigger;
+- (void)ublic}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)eName"b1"wrote_anyField"b1};
-- (int);
-- (void)aypointForWaypointTyped:(int)arg1 completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
-- (id)ions;
+- (int)punchInURL;
+- (void)composedWaypointForWaypointTyped:(int)arg1 completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
+- (id)_refreshPhotoAttributions;
 - (id)¼¥¤¦t§\¨,©ªäªÈ«¬­P® ¯¯;
-- (id)ISE_TO_ENTER_AR_WALKING;
+- (id)RAISE_TO_ENTER_AR_WALKING;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *debugResponse;
-@property(nonatomic) unsigned long long decileId;
-@property(readonly, nonatomic) _Bool hasDebugResponse;
-@property(nonatomic) _Bool hasDecileId;
-@property(nonatomic) _Bool hasIsFromDLCacheModel;
-@property(nonatomic) _Bool hasIsFromDLRuntimeModel;
-@property(nonatomic) _Bool hasLatencyMs;
-@property(nonatomic) _Bool hasMisspellScore;
-@property(nonatomic) _Bool hasModelNumberMajor;
-@property(nonatomic) _Bool hasModelNumberMinor;
-@property(nonatomic) _Bool hasRankerModelType;
-@property(nonatomic) _Bool hasResultStatus;
-@property(nonatomic) _Bool isFromDLCacheModel;
-@property(nonatomic) _Bool isFromDLRuntimeModel;
-@property(nonatomic) double latencyMs;
-@property(nonatomic) double misspellScore;
-@property(nonatomic) unsigned int modelNumberMajor;
-@property(nonatomic) unsigned int modelNumberMinor;
-@property(nonatomic) int rankerModelType;
-@property(nonatomic) int resultStatus;
 @property(retain, nonatomic) NSMutableArray *spellSuggestions;
-@property(retain, nonatomic) NSMutableArray *tokenCandidates;
 
 @end
 

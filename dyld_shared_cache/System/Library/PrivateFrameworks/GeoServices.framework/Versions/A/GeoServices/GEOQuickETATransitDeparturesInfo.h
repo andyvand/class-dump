@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface GEOQuickETATransitDeparturesInfo
 {
     NSString *_direction;
-    NSString *_headsign;
-    _Bool _departuresHaveFrequency;
-    double _departureFrequency;
-    NSDate *_departureFrequencyValidUntil;
 }
 
 - (id);
@@ -27,11 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)°ç(L@;
 
 // Remaining properties
-@property(readonly, nonatomic) double departureFrequency; // @synthesize departureFrequency=_departureFrequency;
-@property(readonly, nonatomic) NSDate *departureFrequencyValidUntil; // @synthesize departureFrequencyValidUntil=_departureFrequencyValidUntil;
-@property(readonly, nonatomic) _Bool departuresHaveFrequency; // @synthesize departuresHaveFrequency=_departuresHaveFrequency;
 @property(readonly, nonatomic) NSString *direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) NSString *headsign; // @synthesize headsign=_headsign;
 
 @end
 

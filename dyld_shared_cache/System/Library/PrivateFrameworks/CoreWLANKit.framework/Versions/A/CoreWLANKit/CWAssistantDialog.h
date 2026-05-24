@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImageView, NSString, NSTextField, NSTextView;
+@class NSImageView;
 @protocol CWAssistantDialogDelegate;
 
 @interface CWAssistantDialog
 {
     NSImageView *_imageView;
-    NSTextField *_titleTF;
-    NSTextView *_descriptionTV;
-    NSTextField *_indexTF;
-    NSTextField *_ofTF;
-    NSTextField *_totalTF;
-    NSButton *_previousButton;
-    NSButton *_nextButton;
-    NSButton *_cancelButton;
-    NSArray *_recommendationItems;
-    unsigned long long _currentIndex;
-    id <CWAssistantDialogDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T ;
 - (void);
 - (void);
 - (void);
@@ -38,14 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <CWAssistantDialogDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

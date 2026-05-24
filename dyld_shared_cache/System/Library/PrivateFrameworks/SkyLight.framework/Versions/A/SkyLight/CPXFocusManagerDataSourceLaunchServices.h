@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol CPXLaunchServicesProviding, CPXProcessManaging;
+@protocol CPXLaunchServicesProviding;
 
 __attribute__((visibility("hidden")))
 @interface CPXFocusManagerDataSourceLaunchServices
 {
     id <CPXLaunchServicesProviding> _launchServicesProvider;
-    id <CPXProcessManaging> _processManager;
-    struct CPSProcessSerNum _processToBringForwardAtNextCheckinPSN;
-    unsigned int _processToBringForwardAtNextCheckingSeed;
-    struct CPSProcessRec *_gpFrontProc;
-    NSMutableArray *_permittedFrontList;
-    unsigned int _keyThiefConnectionID;
 }
 
-- (int);
+- (int)sum(pageno) FROM dbstat d, sqlite_master m WHERE d.name = m.name AND d.aggregate = TRUE;
 - (void);
-- (short);
-- (short);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (struct CPSProcessRec *);
-- (short);
+- (short)B24;
+- (short)ne threshold;
+- (unsigned int)serInfo %@ while fetchTableNames from store:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ok;
+- (_Bool)ocking_mode=NORMAL;
+- (id)h was in progress;
+- (_Bool)ializing query generations;
+- (struct CPSProcessRec *)%d;
+- (short)tes;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CPSProcessRec *frontmostProcess;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

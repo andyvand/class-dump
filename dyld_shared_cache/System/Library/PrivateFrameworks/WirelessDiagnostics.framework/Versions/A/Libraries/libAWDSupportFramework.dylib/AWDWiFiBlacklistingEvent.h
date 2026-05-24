@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWiFiBlacklistingEvent
 {
     unsigned long long _timestamp;
-    unsigned int _blacklistedDuration;
-    unsigned int _blacklistedReason;
-    unsigned int _blacklistedSubreason;
-    unsigned int _networkFlags;
-    NSData *_oui;
-    unsigned int _securityType;
-    unsigned int _unblacklistingReason;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int blacklistedDuration:1;
-        unsigned int blacklistedReason:1;
-        unsigned int blacklistedSubreason:1;
-        unsigned int networkFlags:1;
-        unsigned int securityType:1;
-        unsigned int unblacklistingReason:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -46,17 +28,17 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)	AHJ%;
+- (void)j;
+- (id)];
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -64,28 +46,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int blacklistedDuration; // @synthesize blacklistedDuration=_blacklistedDuration;
-@property(nonatomic) unsigned int blacklistedReason; // @synthesize blacklistedReason=_blacklistedReason;
-@property(nonatomic) unsigned int blacklistedSubreason; // @synthesize blacklistedSubreason=_blacklistedSubreason;
-@property(nonatomic) _Bool hasBlacklistedDuration;
-@property(nonatomic) _Bool hasBlacklistedReason;
-@property(nonatomic) _Bool hasBlacklistedSubreason;
-@property(nonatomic) _Bool hasNetworkFlags;
-@property(readonly, nonatomic) _Bool hasOui;
-@property(nonatomic) _Bool hasSecurityType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUnblacklistingReason;
-@property(nonatomic) unsigned int networkFlags; // @synthesize networkFlags=_networkFlags;
-@property(retain, nonatomic) NSData *oui; // @synthesize oui=_oui;
-@property(nonatomic) unsigned int securityType; // @synthesize securityType=_securityType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int unblacklistingReason; // @synthesize unblacklistingReason=_unblacklistingReason;
 
 @end
 

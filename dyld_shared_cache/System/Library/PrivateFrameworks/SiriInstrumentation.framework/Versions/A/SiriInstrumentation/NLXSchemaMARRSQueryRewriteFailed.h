@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSQueryRewriteFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
+- (void)AiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_skey.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -31,8 +28,6 @@
 - (void)llection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

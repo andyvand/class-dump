@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPointerArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureSessionConfiguration
 {
     long long _configurationID;
-    NSArray *_inputs;
-    NSArray *_outputs;
-    NSPointerArray *_videoPreviewLayers;
-    NSArray *_connections;
 }
 
-- (void);
+- (void)setValuesWithObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (_Bool)B);
 - (id);
 - (id);
-- (id)ataSaliencyHeatMap;
+- (id)N3mrc7imaging9__details32CommonVTPixelManipulationSessionIP28OpaqueVTPixelRotationSessionXtlNS_12fixed_stringILm20EEEtlNS_18basic_fixed_stringIcLm20ENSt3__111char_traitsIcEEEEtlA21_cLc80ELc105ELc120ELc101ELc108ELc82ELc111ELc116ELc97ELc116ELc105ELc111ELc110ELc83ELc101ELc115ELc115ELc105ELc111ELc110EEEEEEE;
+- (id);
+- (id)AVMetadataSaliencyHeatMap;
 
 // Remaining properties
 @property(readonly) long long configurationID; // @synthesize configurationID=_configurationID;
-@property(readonly) NSArray *connections; // @synthesize connections=_connections;
-@property(readonly) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(readonly) NSArray *outputs; // @synthesize outputs=_outputs;
-@property(readonly) NSPointerArray *videoPreviewLayers; // @synthesize videoPreviewLayers=_videoPreviewLayers;
 
 @end
 

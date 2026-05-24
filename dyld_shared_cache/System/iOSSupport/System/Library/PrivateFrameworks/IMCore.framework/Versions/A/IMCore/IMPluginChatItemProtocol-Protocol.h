@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMBalloonPluginDataSource, NSString;
+@class NSString;
 
 @protocol IMPluginChatItemProtocol
 
 // Remaining properties
-@property(readonly, retain, nonatomic) IMBalloonPluginDataSource *dataSource;
-@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, retain, nonatomic) NSString *type;
 @end
 

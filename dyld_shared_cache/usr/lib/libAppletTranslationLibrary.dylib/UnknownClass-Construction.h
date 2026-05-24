@@ -6,6 +6,6 @@
 
 @interface UnknownClass (Construction)
 + (id);
-+ (id);
++ (id);
 @end
 

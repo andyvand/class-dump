@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorPreviewMode, AVTCoreModelGroup, NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface AVTAvatarAttributeEditorCategory
 {
     NSArray *_sectionProviders;
-    NSArray *_sections;
-    NSString *_localizedName;
-    AVTAvatarAttributeEditorPreviewMode *_previewMode;
-    NSDictionary *_symbolNames;
-    AVTCoreModelGroup *_modelGroup;
 }
 
 - (CDUnknownBlockType);
@@ -29,20 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) AVTCoreModelGroup *modelGroup; // @synthesize modelGroup=_modelGroup;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorPreviewMode *previewMode; // @synthesize previewMode=_previewMode;
-@property(readonly, copy, nonatomic) NSArray *sectionProviders; // @synthesize sectionProviders=_sectionProviders;
-@property(readonly, copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType symbolNameProvider;
-@property(readonly, copy, nonatomic) NSDictionary *symbolNames; // @synthesize symbolNames=_symbolNames;
 
 @end
 

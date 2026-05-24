@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSharedPersona, NSDictionary, NSString;
+@class IMSharedPersona;
 
 @interface IMSharedEmergencyInfo
 {
     IMSharedPersona *_emergencyUserPersona;
-    IMSharedPersona *_senderPersona;
-    NSString *_conversationID;
-    long long _messageType;
 }
 
-+ (id);
++ (id)ala;
 + (_Bool);
 - (id);
 - (id);
@@ -29,11 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) IMSharedPersona *emergencyUserPersona; // @synthesize emergencyUserPersona=_emergencyUserPersona;
-@property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) IMSharedPersona *senderPersona; // @synthesize senderPersona=_senderPersona;
 
 @end
 

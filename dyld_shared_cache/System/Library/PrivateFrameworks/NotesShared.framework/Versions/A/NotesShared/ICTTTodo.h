@@ -9,7 +9,6 @@
 @interface ICTTTodo
 {
     _Bool _done;
-    NSUUID *_uuid;
 }
 
 - (id);
@@ -28,7 +27,6 @@
 - (_Bool)annot delete items from keychain because no itemIdentifier was specified;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool done; // @synthesize done=_done;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

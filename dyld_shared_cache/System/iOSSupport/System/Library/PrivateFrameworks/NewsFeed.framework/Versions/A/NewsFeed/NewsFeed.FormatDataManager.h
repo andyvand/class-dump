@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatDataManager
 {
     id delegate;
-    id pluginData;
-    id subscriptionController;
 }
 
 - (void);

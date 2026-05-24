@@ -21,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_gridViewController;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)initializeWithType:tasteType: /* Error: Ran out of types for this method. */;
+- (void)_initializeWithType:tasteType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *predicates; // @synthesize predicates=_predicates;

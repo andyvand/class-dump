@@ -6,41 +6,33 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class NSString, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventURLInlineEditItem : EKEventEditItem
 {
     UITableViewCell *_cell;
-    _Bool _tokenized;
-    _Bool _hasChanges;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)z*s;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)d s;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)setPreferredRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

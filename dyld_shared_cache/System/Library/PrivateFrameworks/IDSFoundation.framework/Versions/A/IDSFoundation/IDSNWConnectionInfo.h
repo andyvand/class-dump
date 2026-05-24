@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSNWQPodParameters, NSObject, NSString, NSUUID;
-@protocol OS_nw_connection, OS_nw_endpoint;
-
 @interface IDSNWConnectionInfo
 {
     _Bool _isValid;
-    _Bool _isQUICPod;
-    _Bool _isRelay;
-    _Bool _isCellular;
-    unsigned long long _connectionID;
-    NSString *_token;
-    unsigned long long _clientUniquePID;
-    NSString *_sessionID;
-    NSUUID *_childConnectionID;
-    NSString *_protocolStackDescription;
-    NSObject<OS_nw_connection> *_connection;
-    NSObject<OS_nw_endpoint> *_localEndpoint;
-    NSObject<OS_nw_endpoint> *_remoteEndpoint;
-    IDSNWQPodParameters *_qpodParameters;
 }
 
 - (void);
@@ -47,7 +31,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)i;
 - (void);
 - (id);
 - (void);
@@ -56,26 +40,10 @@
 - (void)edByPublicIdentity:(_Bool)arg1 decryptionBlock: /* Error: Ran out of types for this method. */;
 - (const struct sockaddr *)orage=CC[6c]q[112c]},R;
 - (void)rRequest:Token:%@, _tokenToCandidatePairs:%@ /* Error: Ran out of types for this method. */;
-- (const struct sockaddr *)XAccountBDConstraints;
+- (const struct sockaddr *)EnableXAccountBDConstraints;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *childConnectionID; // @synthesize childConnectionID=_childConnectionID;
-@property(nonatomic) unsigned long long clientUniquePID; // @synthesize clientUniquePID=_clientUniquePID;
-@property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
 @property(nonatomic) unsigned long long connectionID; // @synthesize connectionID=_connectionID;
-@property(nonatomic) _Bool isCellular; // @synthesize isCellular=_isCellular;
-@property(readonly, nonatomic) _Bool isL4S;
-@property(nonatomic) _Bool isQUICPod; // @synthesize isQUICPod=_isQUICPod;
-@property(nonatomic) _Bool isRelay; // @synthesize isRelay=_isRelay;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly) const struct sockaddr *localAddress;
-@property(retain, nonatomic) NSObject<OS_nw_endpoint> *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property(retain, nonatomic) NSString *protocolStackDescription; // @synthesize protocolStackDescription=_protocolStackDescription;
-@property(retain, nonatomic) IDSNWQPodParameters *qpodParameters; // @synthesize qpodParameters=_qpodParameters;
-@property(readonly) const struct sockaddr *remoteAddress;
-@property(retain, nonatomic) NSObject<OS_nw_endpoint> *remoteEndpoint; // @synthesize remoteEndpoint=_remoteEndpoint;
-@property(retain, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(copy, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

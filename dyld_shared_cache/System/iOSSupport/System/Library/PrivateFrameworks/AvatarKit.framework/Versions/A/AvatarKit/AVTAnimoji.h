@@ -6,17 +6,11 @@
 
 #import <AvatarKit/AVTAvatar.h>
 
-@class NSDictionary, NSString, NSURL, VFXNode;
+@class NSURL;
 
 @interface AVTAnimoji : AVTAvatar
 {
     NSURL *_url;
-    VFXNode *_lightingNode;
-    VFXNode *_headNode;
-    VFXNode *_avatarNode;
-    VFXNode *_cameraNode;
-    NSDictionary *_specializationSettings;
-    NSString *_name;
 }
 
 + (id);
@@ -48,9 +42,9 @@
 - (id);
 - (void);
 - (id);
+- (id)Cannot set/store the cam3DV2ecef Transformation Matrix Covariance;
 - (id);
-- (id);
-- (void);
+- (void)class, use the class methods!;
 - (void);
 - (void);
 - (id);
@@ -60,7 +54,6 @@
 - (void)lattenCorrectivesAtIndices:inCorrective:weight:morpher:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSURL *url;
 
 @end

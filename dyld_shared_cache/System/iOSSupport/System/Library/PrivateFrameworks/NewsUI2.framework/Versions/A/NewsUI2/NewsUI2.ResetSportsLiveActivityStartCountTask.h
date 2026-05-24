@@ -7,7 +7,6 @@
 @interface NewsUI2.ResetSportsLiveActivityStartCountTask
 {
     id executionPhase;
-    id sportsLiveActivityManager;
 }
 
 @end

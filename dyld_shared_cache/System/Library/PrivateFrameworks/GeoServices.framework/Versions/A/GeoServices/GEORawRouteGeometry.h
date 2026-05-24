@@ -9,27 +9,24 @@
 @interface GEORawRouteGeometry
 {
     NSArray *_paths;
-    int _elevationModel;
 }
 
 + (_Bool)%{public}@;
 - (void);
+- (id)CNCDDatabaseCompatibilityAnalysis;
+- (id)CNCDRemotePersistentStoreEndpointFetchResponse;
+- (id)ABCDDistributionListConfig;
+- (id);
+- (int);
 - (id);
 - (id);
 - (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)`;
 - (void)gP@;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int elevationModel; // @synthesize elevationModel=_elevationModel;
 @property(readonly, nonatomic) NSArray *paths; // @synthesize paths=_paths;
-@property(readonly, nonatomic) NSArray *rawData;
 
 @end
 

@@ -7,15 +7,11 @@
 @class NSArray, SAUITemplateEdgeInsets;
 
 @protocol SAUITemplateItem
-- (SAUITemplateEdgeInsets *)erFields;
-- (void)sponse;
+- (void);
+- (SAUITemplateEdgeInsets *)headerFields;
+- (void)getAppInfoResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *communicationOptions;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *fullScreenPaddingDelta;
-@property(nonatomic) _Bool hasPriorityLayout;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *padding;
-@property(copy, nonatomic) NSArray *presentationOptions;
-@property(nonatomic) _Bool shouldBeOffscreenInPartial;
 @end
 

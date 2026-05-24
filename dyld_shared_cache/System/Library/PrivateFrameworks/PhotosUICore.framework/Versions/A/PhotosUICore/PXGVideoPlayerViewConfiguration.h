@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, PXVideoSession;
+@class PXVideoSession;
 
 @interface PXGVideoPlayerViewConfiguration
 {
     _Bool _toneMapToStandardDynamicRange;
-    PXVideoSession *_videoSession;
-    NSImage *_placeholderImage;
-    Class _visualEffectViewClass;
 }
 
 - (Class);
@@ -22,25 +19,11 @@
 - (_Bool);
 - (id);
 - (id)6@0:8@16I24d28 /* Error: Ran out of types for this method. */;
-- (id)erOfColorResources;
+- (id)numberOfColorResources;
 - (void)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool toneMapToStandardDynamicRange; // @synthesize toneMapToStandardDynamicRange=_toneMapToStandardDynamicRange;
 @property(readonly, nonatomic) PXVideoSession *videoSession; // @synthesize videoSession=_videoSession;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(retain, nonatomic) Class visualEffectViewClass; // @synthesize visualEffectViewClass=_visualEffectViewClass;
 
 @end
 

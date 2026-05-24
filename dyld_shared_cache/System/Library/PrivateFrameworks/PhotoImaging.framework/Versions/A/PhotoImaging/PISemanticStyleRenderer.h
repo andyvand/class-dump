@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMISmartStyleMetalRendererV1, FigMetalContext;
+@class FigMetalContext;
 @protocol MTLCommandQueue;
 
 @interface PISemanticStyleRenderer
 {
     FigMetalContext *_ctx;
-    unsigned long long _sid;
-    _Bool _useStyleEngine;
-    int _processingType;
-    id <MTLCommandQueue> _metalCommandQueue;
-    CMISmartStyleMetalRendererV1 *_processor;
 }
 
 + (_Bool);
@@ -23,17 +18,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int)tive, mask.hash}@ with error:%{public}@. /* Error: Ran out of types for this method. */;
+- (id)d resource for page and icon urls. Error code:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void)ha;
+- (id)(a;
+- (void)topGradientAlpha;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandQueue> metalCommandQueue; // @synthesize metalCommandQueue=_metalCommandQueue;
-@property(readonly, nonatomic) int processingType; // @synthesize processingType=_processingType;
-@property(readonly, nonatomic) CMISmartStyleMetalRendererV1 *processor; // @synthesize processor=_processor;
-@property(readonly, nonatomic) _Bool useStyleEngine; // @synthesize useStyleEngine=_useStyleEngine;
 
 @end
 

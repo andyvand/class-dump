@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIClientNamespaceMetadataStoring, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIPurgeabilityLevelMapper
 {
     id <TRIPaths> _paths;
-    id <TRIClientNamespaceMetadataStoring> _namespaceMetadataStorage;
 }
 
-+ (int);
++ (int)eenTimeAgent.command-line-tool;
 + (id);
-- (int);
+- (int);
 - (int);
 - (id);
 - (void);

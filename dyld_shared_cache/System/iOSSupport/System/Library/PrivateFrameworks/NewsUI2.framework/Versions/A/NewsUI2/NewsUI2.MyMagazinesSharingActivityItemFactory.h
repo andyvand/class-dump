@@ -7,9 +7,6 @@
 @interface NewsUI2.MyMagazinesSharingActivityItemFactory
 {
     id sharingActivityItemFactory;
-    id bundleSubscriptionManager;
-    id issueSubscriptionController;
-    id commandCenter;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <PhotosUICore/PXDayAssetsSectionBodyLayout.h>
 
-@class NSString;
-
 @interface PXEditorialSectionBodyLayout : PXDayAssetsSectionBodyLayout
 {
     _Bool _disableClipping;
@@ -19,14 +17,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool disableClipping; // @synthesize disableClipping=_disableClipping;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

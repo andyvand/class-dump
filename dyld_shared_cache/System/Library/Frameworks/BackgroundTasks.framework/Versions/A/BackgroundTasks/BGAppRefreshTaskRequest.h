@@ -12,7 +12,7 @@
 
 + (id);
 + (Class);
-- (id);
+- (id)ing grocery categories rules;
 - (id);
 - (unsigned long long);
 - (id);

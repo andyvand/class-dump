@@ -9,15 +9,12 @@
 @interface WBSOpenSearchURLTemplateParameter
 {
     _Bool _optional;
-    NSString *_name;
-    NSString *_prefix;
-    struct _NSRange _range;
 }
 
 - (id);
 - (struct _NSRange);
 - (void);
-- (void);
+- (void)ogressInstallForProduct:(id)arg1 ]_block_invoke_2;
 - (id);
 - (void);
 - (_Bool);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

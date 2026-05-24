@@ -9,17 +9,15 @@
 @interface ICLiveLinkQueueEventContentUpdatedMessage
 {
     NSString *_localizedTitle;
-    NSString *_localizedMessage;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ailed;
+- (void)ICPlayActivityCenter;
+- (id)MusicUserTokenFetchingFailed;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;
 @property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

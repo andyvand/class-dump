@@ -4,48 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AMSSQLiteConnection, NSString;
 
 @interface AMSStorageDatabase
 {
     NSString *_domain;
-    AMSSQLiteConnection *_connection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)itterSessionInfo";
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (id);
+- (_Bool)PersonalRequestsMigrationVersion;
+- (id)RemoteIntentMessageItemScheduleState;
 - (_Bool);
 - (void);
 - (double);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_clientConfigurationIsInSync;
 - (long long);
 - (id);
+- (id)os;
+- (_Bool)MRGroupTopologyModificationRequest;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)@;
 - (id)ÀËy;
 - (void)efaultMediaType = %{public}@;
 - (_Bool)e provided response dictionary is missing one or more required keys. responseDict = ;
@@ -54,15 +51,6 @@
 
 // Remaining properties
 @property(retain) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly) Class superclass;
 
 @end
 

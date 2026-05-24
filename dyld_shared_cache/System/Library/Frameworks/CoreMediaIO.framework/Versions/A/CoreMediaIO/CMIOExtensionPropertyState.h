@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionPropertyAttributes, NSString;
+@class NSString;
 
 @interface CMIOExtensionPropertyState
 {
     NSString *_description;
-    id _value;
-    CMIOExtensionPropertyAttributes *_attributes;
-    long long _objectType;
 }
 
 + (id);
@@ -19,25 +16,23 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ϋ;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)nabled;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)Invalidating package identifier %@ because required PKM not found;
 - (id);
-- (id);
+- (id)D�;
 - (id);
 
 // Remaining properties
-@property(readonly) CMIOExtensionPropertyAttributes *attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) long long objectType; // @synthesize objectType=_objectType;
-@property(readonly, copy) id value; // @synthesize value=_value;
 
 @end
 

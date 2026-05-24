@@ -6,16 +6,11 @@
 
 #import <MediaPlayer/MPAVRoute.h>
 
-@class MPAVOutputDeviceRoute, MPAVRouteConnection, MPMRAVEndpointWrapper, MRAVEndpoint, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MPAVRouteConnection;
 
 @interface MPAVEndpointRoute : MPAVRoute
 {
     MPAVRouteConnection *_connection;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSString *_sortName;
-    MPMRAVEndpointWrapper *_endpointWrapper;
 }
 
 + (void);
@@ -25,25 +20,25 @@
 - (id);
 - (void);
 - (long long);
-- (long long);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long)atAddInherit;
+- (long long)atValidateConstraintRecurse;
+- (_Bool)start;
+- (_Bool)security;
+- (_Bool)savepoint;
+- (_Bool)routines;
+- (_Bool)references;
+- (_Bool)new;
+- (_Bool)left;
+- (_Bool)lateralP;
+- (_Bool)label;
+- (_Bool)grant;
+- (_Bool)force;
+- (_Bool)deallocate;
+- (_Bool)currentUser;
+- (_Bool)collation;
+- (_Bool)dotDot;
+- (_Bool)_ctequery;
+- (_Bool)_copiedOrder;
 - (id);
 - (id);
 - (void);
@@ -55,44 +50,38 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)convert BMPBSleepModeState enum value:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)_copyMessageDictionaryForLogging;
+- (id)ateNanosecondIntervalNumber:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)=}16;
 - (void *);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)tensorSizeAndAlignWithDescriptor: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool)moteLyricsItemToken: /* Error: Ran out of types for this method. */;
+- (long long)(;
+- (_Bool)!;
+- (_Bool)initWithMediaRemoteLyricsItemToken: /* Error: Ran out of types for this method. */;
 - (void)er;
-- (_Bool)bMediaItemPropertyStopTime;
+- (_Bool)ITLibMediaItemPropertyStopTime;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canModifyGroupMembership;
 @property(retain, nonatomic) MPAVRouteConnection *connection;
-@property(readonly, nonatomic) void *endpoint;
-@property(readonly, nonatomic) MRAVEndpoint *endpointObject;
-@property(retain, nonatomic) MPMRAVEndpointWrapper *endpointWrapper; // @synthesize endpointWrapper=_endpointWrapper;
-@property(readonly, nonatomic) MPAVOutputDeviceRoute *predictedOutputDevice;
-@property(readonly, nonatomic) NSString *sortName;
 
 @end
 

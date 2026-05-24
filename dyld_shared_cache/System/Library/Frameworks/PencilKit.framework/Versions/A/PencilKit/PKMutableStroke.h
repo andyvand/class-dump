@@ -14,7 +14,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void)PersonalizationPortraitSocialHighlight;
 - (id)¡[!$Eùñßð1Â0@ù
 × ;
 

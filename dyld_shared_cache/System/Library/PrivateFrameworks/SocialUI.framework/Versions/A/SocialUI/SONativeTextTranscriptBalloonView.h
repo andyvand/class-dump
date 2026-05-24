@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)tsGroupForYouTopicsConfig;
 - (id);
 - (id);
 - (void);

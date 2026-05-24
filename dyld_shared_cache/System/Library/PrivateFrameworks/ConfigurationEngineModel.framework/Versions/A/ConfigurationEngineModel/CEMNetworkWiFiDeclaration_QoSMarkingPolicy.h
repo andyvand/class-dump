@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface CEMNetworkWiFiDeclaration_QoSMarkingPolicy : CEMPayloadBase
 {
     NSArray *_payloadQoSMarkingWhitelistedAppIdentifiers;
-    NSNumber *_payloadQoSMarkingAppleAudioVideoCalls;
-    NSNumber *_payloadQoSMarkingEnabled;
 }
 
 + (id);
@@ -25,13 +23,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)e/SSML/Source/Helpers/Extensions.swift;
 - (id);
-- (void);
+- (void)ong;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadQoSMarkingAppleAudioVideoCalls; // @synthesize payloadQoSMarkingAppleAudioVideoCalls=_payloadQoSMarkingAppleAudioVideoCalls;
-@property(copy, nonatomic) NSNumber *payloadQoSMarkingEnabled; // @synthesize payloadQoSMarkingEnabled=_payloadQoSMarkingEnabled;
 @property(copy, nonatomic) NSArray *payloadQoSMarkingWhitelistedAppIdentifiers; // @synthesize payloadQoSMarkingWhitelistedAppIdentifiers=_payloadQoSMarkingWhitelistedAppIdentifiers;
 
 @end

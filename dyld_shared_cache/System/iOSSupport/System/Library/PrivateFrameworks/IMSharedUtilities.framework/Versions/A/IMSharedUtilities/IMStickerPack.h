@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSSet, NSString, NSURL;
+@class NSMutableSet, NSString;
 
 @interface IMStickerPack
 {
     NSMutableSet *_stickers;
-    NSString *_GUID;
-    NSString *_name;
-    NSURL *_displayAssetURL;
-    NSURL *_fileURL;
-    NSString *_appBundleIdentifier;
-    NSString *_appVersion;
 }
 
+- (id)C;
+- (void);
+- (id)a;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id)Àâ¸;
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -37,17 +31,10 @@
 - (void);
 - (void),&,N,V_label;
 - (void)d±ÿÿè2ÿÿn±ÿÿà2ÿÿè\ÿÿB?ÿÿ;
-- (id)DAT;
+- (id)IDAT;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(copy, nonatomic) NSString *appVersion; // @synthesize appVersion=_appVersion;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSURL *displayAssetURL; // @synthesize displayAssetURL=_displayAssetURL;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSSet *stickers;
 
 @end
 

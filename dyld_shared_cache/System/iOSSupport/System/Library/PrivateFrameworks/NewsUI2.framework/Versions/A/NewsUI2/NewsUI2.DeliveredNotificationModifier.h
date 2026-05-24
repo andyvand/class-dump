@@ -7,9 +7,6 @@
 @interface NewsUI2.DeliveredNotificationModifier
 {
     id notificationService;
-    id articleIdentifiersToRemove;
-    id clusterIdentifiersToRemove;
-    id articleIdentifiersToPenalize;
 }
 
 @end

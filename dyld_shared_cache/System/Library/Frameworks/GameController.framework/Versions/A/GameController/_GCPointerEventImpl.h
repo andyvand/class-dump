@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _GCPointerEventImpl
 {
     unsigned long long timestamp;
-    float x;
-    float y;
 }
 
 - (id);
 - (unsigned long long);
+- (void)aida_errorWithCode:(float)arg1;
 - (void);
-- (void);
-- (id);
+- (id)32@0:(struct _NSZone *)arg1 8@"AACustodianRecoveryRequestContext"16@?<v@?@"AACustodianRecoveryRequestContext"@"NSError">24;
 - (void);
 - (float);
 - (float)0:8@"<_GCPointerEventSource>"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp; // @synthesize timestamp;
-@property(nonatomic) float x; // @synthesize x;
-@property(nonatomic) float y; // @synthesize y;
 
 @end
 

@@ -14,17 +14,17 @@
 }
 
 + (id);
-+ (id);
++ (id) ;
 + (id);
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)N,V_probeRequest;
 - (void)Too many suggested amounts;
 
 // Remaining properties

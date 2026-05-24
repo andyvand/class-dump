@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSObject, NSSet, NSString, _DKEvent;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSDictionary;
 
 @interface _DKMonitor
 {
     NSDictionary *_state;
-    NSString *_bootSessionUUID;
-    unsigned int _qualityOfService;
-    CDUnknownBlockType _instantHandler;
-    CDUnknownBlockType _historicalHandler;
-    CDUnknownBlockType _shutdownHandler;
-    NSDate *_lastUpdate;
-    _DKEvent *_currentEvent;
-    NSMutableDictionary *_instantState;
-    NSMutableDictionary *_historicalState;
-    CDUnknownBlockType _eventComparator;
-    CDUnknownBlockType _filter;
-    long long _references;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _machTimeAtLastClockChange;
-    NSDate *_dateAtLastClockChange;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
@@ -38,9 +20,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -55,12 +37,12 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)BERLIN_S_Bahn_Berlin_GmbH_SFourSeven_AltTwo;
+- (void)$;
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -69,40 +51,17 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)H[;
 - (void);
 - (void);
-- (void);
+- (void)i`;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *classesForSecureStateDecoding;
-@property(retain, nonatomic) _DKEvent *currentEvent; // @synthesize currentEvent=_currentEvent;
-@property(retain) NSDate *dateAtLastClockChange; // @synthesize dateAtLastClockChange=_dateAtLastClockChange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType eventComparator; // @synthesize eventComparator=_eventComparator;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-@property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType historicalHandler; // @synthesize historicalHandler=_historicalHandler;
-@property(readonly, nonatomic) NSMutableDictionary *historicalState; // @synthesize historicalState=_historicalState;
-@property(copy, nonatomic) CDUnknownBlockType instantHandler; // @synthesize instantHandler=_instantHandler;
-@property(readonly, nonatomic) NSMutableDictionary *instantState; // @synthesize instantState=_instantState;
-@property(retain, nonatomic) NSDate *lastUpdate; // @synthesize lastUpdate=_lastUpdate;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property unsigned long long machTimeAtLastClockChange; // @synthesize machTimeAtLastClockChange=_machTimeAtLastClockChange;
-@property(readonly, nonatomic) unsigned int qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) long long references; // @synthesize references=_references;
-@property(copy, nonatomic) CDUnknownBlockType shutdownHandler; // @synthesize shutdownHandler=_shutdownHandler;
-@property(readonly) Class superclass;
 
 @end
 

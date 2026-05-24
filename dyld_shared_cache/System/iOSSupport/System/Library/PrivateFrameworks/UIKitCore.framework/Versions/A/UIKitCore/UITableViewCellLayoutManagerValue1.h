@@ -10,12 +10,12 @@
 {
 }
 
-- (double);
-- (double);
+- (double)ibrary/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/d1_srtp.c;
+- (double)setPlaylistName:(id)arg1;
 - (void);
 - (id)Z1Â0@ù
 × ;
-- (void)ithCompletionHandler:(struct CGRect *)arg1;
+- (void)requestTextRectsForString:(struct CGRect *)arg1 withCompletionHandler:(struct CGRect *)arg2;
 - (id)TB,N,V_forceImageKeycap;
 - (id)tonEventWithType:(id)arg1 phase:timestamp:] /* Error: Ran out of types for this method. */;
 - (struct CGSize)ginsGuide.horizontalCornerAdaptation;

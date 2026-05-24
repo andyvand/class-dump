@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRDictationVoiceCommandMetricsReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_voiceCommandId;
-    unsigned long long _commandEndTimeInNs;
-    unsigned long long _commandParserStartTimeInNs;
-    unsigned long long _commandParserEndTimeInNs;
-    unsigned long long _utteranceStartTimeInNs;
-    unsigned long long _utteranceEndTimeInNs;
-    SISchemaUUID *_recognitionResultLinkId;
-    SISchemaUUID *_dictationVoiceCommandLinkId;
-    struct {
-        unsigned int commandEndTimeInNs:1;
-        unsigned int commandParserStartTimeInNs:1;
-        unsigned int commandParserEndTimeInNs:1;
-        unsigned int utteranceStartTimeInNs:1;
-        unsigned int utteranceEndTimeInNs:1;
-    } _has;
-    _Bool _hasVoiceCommandId;
-    _Bool _hasRecognitionResultLinkId;
-    _Bool _hasDictationVoiceCommandLinkId;
 }
 
 - (id);
@@ -38,6 +21,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,11 +29,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)hb;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,35 +53,19 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)raise:(id)arg1 format: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)etWeatherCount: /* Error: Ran out of types for this method. */;
+- (id)setWeatherCount: /* Error: Ran out of types for this method. */;
 - (id)¬¼@¼pì@;
 - (id);
 - (void)Xé§ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandEndTimeInNs; // @synthesize commandEndTimeInNs=_commandEndTimeInNs;
-@property(nonatomic) unsigned long long commandParserEndTimeInNs; // @synthesize commandParserEndTimeInNs=_commandParserEndTimeInNs;
-@property(nonatomic) unsigned long long commandParserStartTimeInNs; // @synthesize commandParserStartTimeInNs=_commandParserStartTimeInNs;
-@property(retain, nonatomic) SISchemaUUID *dictationVoiceCommandLinkId; // @synthesize dictationVoiceCommandLinkId=_dictationVoiceCommandLinkId;
-@property(nonatomic) _Bool hasCommandEndTimeInNs;
-@property(nonatomic) _Bool hasCommandParserEndTimeInNs;
-@property(nonatomic) _Bool hasCommandParserStartTimeInNs;
-@property(nonatomic) _Bool hasDictationVoiceCommandLinkId; // @synthesize hasDictationVoiceCommandLinkId=_hasDictationVoiceCommandLinkId;
-@property(nonatomic) _Bool hasRecognitionResultLinkId; // @synthesize hasRecognitionResultLinkId=_hasRecognitionResultLinkId;
-@property(nonatomic) _Bool hasUtteranceEndTimeInNs;
-@property(nonatomic) _Bool hasUtteranceStartTimeInNs;
-@property(nonatomic) _Bool hasVoiceCommandId; // @synthesize hasVoiceCommandId=_hasVoiceCommandId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *recognitionResultLinkId; // @synthesize recognitionResultLinkId=_recognitionResultLinkId;
-@property(nonatomic) unsigned long long utteranceEndTimeInNs; // @synthesize utteranceEndTimeInNs=_utteranceEndTimeInNs;
-@property(nonatomic) unsigned long long utteranceStartTimeInNs; // @synthesize utteranceStartTimeInNs=_utteranceStartTimeInNs;
 @property(retain, nonatomic) SISchemaUUID *voiceCommandId; // @synthesize voiceCommandId=_voiceCommandId;
 
 @end

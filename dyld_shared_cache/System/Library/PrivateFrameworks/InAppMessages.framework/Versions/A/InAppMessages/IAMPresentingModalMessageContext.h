@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAMMessage, IAMMessageGroup, NSTimer, NSViewController;
+@class IAMMessage;
 
 @interface IAMPresentingModalMessageContext
 {
     IAMMessage *_message;
-    IAMMessageGroup *_messageGroup;
-    NSViewController *_presentingViewController;
-    NSTimer *_presentationExpirationTimer;
-    CDUnknownBlockType _presentationHandler;
 }
 
 - (void);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IAMMessage *message; // @synthesize message=_message;
-@property(retain, nonatomic) IAMMessageGroup *messageGroup; // @synthesize messageGroup=_messageGroup;
-@property(retain, nonatomic) NSTimer *presentationExpirationTimer; // @synthesize presentationExpirationTimer=_presentationExpirationTimer;
-@property(copy, nonatomic) CDUnknownBlockType presentationHandler; // @synthesize presentationHandler=_presentationHandler;
-@property(nonatomic) __weak NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 
 @end
 

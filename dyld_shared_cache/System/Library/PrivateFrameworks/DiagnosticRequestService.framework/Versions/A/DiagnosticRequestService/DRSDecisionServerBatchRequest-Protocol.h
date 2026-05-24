@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoClientDeviceMetadata, NSMutableArray;
+@class DRSProtoClientDeviceMetadata;
 
 @protocol DRSDecisionServerBatchRequest
+- (DRSProtoClientDeviceMetadata *);
 - (_Bool)ï°!Aùq
 
 ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) DRSProtoClientDeviceMetadata *clientMetadata;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(retain, nonatomic) NSMutableArray *requests;
 @end
 

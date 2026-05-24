@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoEffectsFilter05
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
-    NSNumber *inputW;
-    NSNumber *inputH;
-    CIImage *inputWts;
-    NSNumber *inputVariant;
-    CIImage *mImage[35];
 }
 
-+ (void)FilterConstructor;
++ (void)CIFilterConstructor;
 - (struct CGRect);
 - (id);
 - (id);

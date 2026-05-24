@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMailbox, NSArray, NSColor, NSDictionary, NSMutableArray, NSString;
+@class MFMailbox, NSDictionary;
 
 @interface MFMessageRule
 {
     MFMailbox *_copyDestinationMailbox;
-    NSString *_copyDestinationMailboxURL;
-    MFMailbox *_destinationMailbox;
-    NSString *_destinationMailboxURL;
-    NSColor *_color;
-    NSString *_playSound;
-    NSString *_appleScriptPath;
-    NSArray *_recipients;
-    NSString *_responseMessage;
-    int _autoResponseType;
-    NSString *_ruleName;
-    NSMutableArray *_criteria;
-    long long _flags;
-    unsigned int _isActive:1;
-    unsigned int _ruleWasAutoDeactivated:1;
-    unsigned int _allCriteriaMustBeSatisfied:1;
-    unsigned int _shouldTransferMessage:1;
-    unsigned int _shouldCopyMessage:1;
-    unsigned int _shouldStopEvaluatingRules:1;
-    unsigned int _highlightTextUsingColor:1;
-    unsigned int _shouldNotifyUser:1;
-    unsigned int _shouldSendNotification:1;
-    _Bool _isJunkMailRule;
-    _Bool _isSafeToMarkAsNotJunkRule;
-    _Bool _isDefaultRule;
-    _Bool _isMessageActionRule;
-    _Bool _didChange;
-    NSString *_uniqueId;
-    NSDictionary *_otherInfo;
 }
 
 + (id);
@@ -47,6 +19,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)$N)
+;
+- (void);
+- (void);
+- (void)Qh;
+- (void)J;
+- (void)H)
+;
+- (void);
+- (void);
+- (void);
+- (void)%@qA;
 - (void);
 - (void);
 - (void);
@@ -61,17 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Ti;
 - (void);
 - (void);
 - (void);
@@ -85,7 +59,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)S;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -108,7 +82,7 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -118,48 +92,48 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)P@90;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (unsigned int)q!;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)C;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)B;
+- (id);
+- (_Bool);
+- (id)H;
+- (_Bool);
+- (id);
+- (id);
+- (id)D;
+- (id);
+- (id);
+- (unsigned long long)s;
+- (id);
+- (_Bool)rrect authentication information provided (HTTP status code %ld);
+- (void);
+- (id);
+- (_Bool);
+- (id)"GAHGtGGAFG_Qo_;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id)ÿÿÿÿl
 ;
 - (id);
@@ -170,46 +144,7 @@
 - (void)¿ÿu`J#¿ÿe`J#¿ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool affectsColorEvaluation;
-@property(nonatomic) _Bool allCriteriaMustBeSatisfied;
-@property(copy, nonatomic) NSString *appleScriptPath;
-@property(copy, nonatomic) NSArray *autoResponseRecipients;
-@property(nonatomic) int autoResponseType;
-@property(retain, nonatomic) NSColor *color;
-@property(retain, nonatomic) MFMailbox *copyDestinationMailbox;
-@property(copy, nonatomic) NSArray *criteria;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MFMailbox *destinationMailbox;
-@property(nonatomic) _Bool didChange; // @synthesize didChange=_didChange;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) long long flagsToApply;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightTextUsingColor;
-@property(nonatomic) _Bool isActive;
-@property(nonatomic) _Bool isDefaultRule; // @synthesize isDefaultRule=_isDefaultRule;
-@property(nonatomic) _Bool isJunkMailRule; // @synthesize isJunkMailRule=_isJunkMailRule;
-@property(readonly, nonatomic) _Bool isMessageActionRule; // @synthesize isMessageActionRule=_isMessageActionRule;
-@property(nonatomic) _Bool isSafeToMarkAsNotJunkRule; // @synthesize isSafeToMarkAsNotJunkRule=_isSafeToMarkAsNotJunkRule;
-@property(readonly, nonatomic) _Bool isTerminalAction;
 @property(readonly, copy, nonatomic) NSDictionary *otherInfo; // @synthesize otherInfo=_otherInfo;
-@property(copy, nonatomic) NSString *playSound;
-@property(copy, nonatomic) NSString *responseMessage;
-@property(copy, nonatomic) NSString *ruleName;
-@property(nonatomic) _Bool shouldCopyMessage;
-@property(nonatomic) _Bool shouldNotifyUser;
-@property(nonatomic) _Bool shouldSendNotification;
-@property(nonatomic) _Bool shouldStopEvaluatingRules;
-@property(nonatomic) _Bool shouldTransferMessage;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

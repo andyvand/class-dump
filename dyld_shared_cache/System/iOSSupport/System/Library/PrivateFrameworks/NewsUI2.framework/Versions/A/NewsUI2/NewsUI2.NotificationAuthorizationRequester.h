@@ -7,7 +7,6 @@
 @interface NewsUI2.NotificationAuthorizationRequester
 {
     id notificationService;
-    id uid;
 }
 
 - (id);

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPipelineStage, FigCaptureMovieFileSinkPipelineConfiguration;
+@class FigCaptureMovieFileSinkPipelineConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkHeadPipelineConfiguration
 {
     FigCaptureMovieFileSinkPipelineConfiguration *_movieFileSinkPipelineConfiguration;
-    BWPipelineStage *_movieFilePipelineStage;
-    BWPipelineStage *_transferPipelineStage;
-    int _visMotionMetadataPreloadingMode;
 }
 
-- (void);
-- (void);
+- (void)mNormal;
+- (void)A;
 - (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (id)eraSceneMonitor >>>> Fig;
-- (id)chmentsKey_RelativeAttitude;
+- (id)AttachmentsKey_RelativeAttitude;
 
 // Remaining properties
-@property(retain, nonatomic) BWPipelineStage *movieFilePipelineStage; // @synthesize movieFilePipelineStage=_movieFilePipelineStage;
 @property(retain, nonatomic) FigCaptureMovieFileSinkPipelineConfiguration *movieFileSinkPipelineConfiguration; // @synthesize movieFileSinkPipelineConfiguration=_movieFileSinkPipelineConfiguration;
-@property(retain, nonatomic) BWPipelineStage *transferPipelineStage; // @synthesize transferPipelineStage=_transferPipelineStage;
-@property(nonatomic) int visMotionMetadataPreloadingMode; // @synthesize visMotionMetadataPreloadingMode=_visMotionMetadataPreloadingMode;
 
 @end
 

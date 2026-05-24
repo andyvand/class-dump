@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMultiSectionFeature;
-
 @interface GEOBuildingFootprintFeature
 {
     void *_buildingFootprintFeature;
-    GEOMultiSectionFeature *_multiSectionFeature;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)errorWithErrno: /* Error: Ran out of types for this method. */;
+- (_Bool)Subscription(%@);
 - (unsigned long long);
 - (unsigned long long);
 - (id);

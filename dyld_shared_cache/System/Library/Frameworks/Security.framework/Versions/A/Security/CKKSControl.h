@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface CKKSControl
 {
     _Bool _synchronous;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -24,16 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -45,12 +33,20 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (_Bool)O ;
+- (id)ݗ@;
 - (void)äÜ;
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end

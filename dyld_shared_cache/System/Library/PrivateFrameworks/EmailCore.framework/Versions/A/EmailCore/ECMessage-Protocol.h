@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, ECMessageFlags, ECSubject, NSArray, NSDate, NSDictionary, NSSet, NSString, NSUUID;
-@protocol ECMailAccount, ECMailbox, ECMessageHeaders, ECMimeBody;
+@class ECMessageFlags, NSArray, NSData, NSDate, NSString;
+@protocol ECMessageHeaders, ECMimeBody;
 
 @protocol ECMessage
+- (id <ECMimeBody>);
+- (_Bool);
+- (id <ECMessageHeaders>)d a source layer.;
+- (NSData *)BufferDisplayLayer Render Size changed:(_Bool *)arg1 %@;
+- (NSString *)s old:(_Bool *)arg1 %ld --> new:%ld /* Error: Ran out of types for this method. */;
+- (NSString *)e (%f x %f);
+- (NSArray *)ted AVMobileControlsViewController to:%@ /* Error: Ran out of types for this method. */;
+- (NSDate *)!;
+- (NSArray *)transResultDelegate;
+- (NSDate *)ko;
+- (NSArray *)Wireless1,BTSecondaryManuf;
+- (NSString *)String *__strong _Nonnull, EFLogStateType, __strong EFLogStateCaptureBlock _Nonnull);
+- (id <ECMessageHeaders>)type %@.;
+- (ECMessageFlags *)audio_call_placed_relative_rank;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ECMailAccount> account;
-@property(readonly, copy) NSArray *bcc;
-@property(readonly, copy) NSArray *cc;
-@property(readonly) long long conversationID;
-@property(readonly) NSDate *dateReceived;
-@property(readonly) NSDate *dateSent;
-@property(readonly, copy) NSUUID *documentID;
-@property(readonly, nonatomic) ECMessageFlags *flags;
-@property(readonly, copy) NSArray *from;
-@property(readonly, nonatomic) id <ECMessageHeaders> headers;
-@property(readonly, copy, nonatomic) NSDictionary *headersDictionary;
-@property(readonly, nonatomic) id <ECMessageHeaders> headersIfAvailable;
-@property(readonly, nonatomic) _Bool isServerSearchResult;
-@property(readonly) NSSet *labels;
-@property(readonly, nonatomic) ECAngleBracketIDHash *listIDHash;
-@property(readonly, copy) NSArray *listUnsubscribe;
-@property(readonly, nonatomic) id <ECMailbox> mailbox;
-@property(readonly, copy, nonatomic) NSString *messageIDHeader;
-@property(readonly) ECAngleBracketIDHash *messageIDHeaderHash;
-@property(readonly, nonatomic) id <ECMimeBody> mimeBody;
-@property(readonly) unsigned long long numberOfAttachments;
-@property(readonly, nonatomic, getter=isPartOfExistingThread) _Bool partOfExistingThread;
 @property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly, copy, nonatomic) NSArray *references;
-@property(readonly, copy) NSString *remoteID;
-@property(readonly, copy) NSArray *senders;
-@property(readonly, copy) ECSubject *subject;
-@property(readonly, copy) NSArray *to;
 @end
 

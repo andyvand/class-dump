@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingGeneralConfiguration
 {
     NSNumber *_prebufferLength;
-    unsigned long long _eventTriggerOptions;
-    NSArray *_mediaContainerConfigurations;
 }
 
 + (_Bool)Ì ;¼Ã;
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void)õ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long eventTriggerOptions; // @synthesize eventTriggerOptions=_eventTriggerOptions;
-@property(readonly, copy, nonatomic) NSArray *mediaContainerConfigurations; // @synthesize mediaContainerConfigurations=_mediaContainerConfigurations;
 @property(readonly, copy, nonatomic) NSNumber *prebufferLength; // @synthesize prebufferLength=_prebufferLength;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

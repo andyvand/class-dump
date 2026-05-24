@@ -7,13 +7,6 @@
 @interface Calculate.CalculateDocument
 {
     id id;
-    id _options;
-    id _synchronous;
-    id _declaredSymbols;
-    id _expressions;
-    id _anonymizedSymbols;
-    id _isEvaluating;
-    id _$observationRegistrar;
 }
 
 @end

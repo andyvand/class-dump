@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRConfusionPairToken : SISchemaInstrumentationMessage
 {
     NSArray *_recognizedTokens;
-    NSArray *_correctedTokens;
-    int _recognizedTokensStartIndex;
-    struct {
-        unsigned int recognizedTokensStartIndex:1;
-    } _has;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (int);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -34,27 +29,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
-- (id);
+- (id)dictionary;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (id);
-- (id)etUufrPresented: /* Error: Ran out of types for this method. */;
+- (id)setUufrPresented: /* Error: Ran out of types for this method. */;
 - (id)~ä~;
 - (id);
 - (void)Lk§ÿÀÙ²';
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *correctedTokens; // @synthesize correctedTokens=_correctedTokens;
-@property(nonatomic) _Bool hasRecognizedTokensStartIndex;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *recognizedTokens; // @synthesize recognizedTokens=_recognizedTokens;
-@property(nonatomic) int recognizedTokensStartIndex; // @synthesize recognizedTokensStartIndex=_recognizedTokensStartIndex;
 
 @end
 

@@ -4,60 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLookAroundView, NSClickGestureRecognizer, NSDate, NSMagnificationGestureRecognizer, NSPanGestureRecognizer, NSString, VKCompoundAnimation;
-@protocol MKLookAroundGestureControllerDelegate;
+@class MKLookAroundView;
 
 __attribute__((visibility("hidden")))
 @interface MKLookAroundGestureController
 {
     long long _userInteractionCount;
-    NSClickGestureRecognizer *_singleNavigateGestureRecognizer;
-    NSPanGestureRecognizer *_panGestureRecognizer;
-    NSMagnificationGestureRecognizer *_zoomGestureRecognizer;
-    NSDate *_singleTapTime;
-    VKCompoundAnimation *_panDecelerationAnimationGroup;
-    long long _lastZoomDirection;
-    double _startZoomScale;
-    double _lastZoomScale;
-    _Bool _readyToReplayTap;
-    _Bool _navigatingEnabled;
-    _Bool _panningEnabled;
-    _Bool _zoomingEnabled;
-    id <MKLookAroundGestureControllerDelegate> _delegate;
-    MKLookAroundView *_lookAroundView;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)RU!;
+- (_Bool)em;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)HighConsecutiveAudioErasuresGroup;
+- (void)ExtendedPoorConnectionGroup;
 - (void);
 - (id);
-- (id);
+- (id)o;
 - (void);
 - (_Bool);
-- (void)dex:targetID:transitSystem:transitDepartureSequence:transitCardCategory:transitIncident:feedbackDelegateSelector: /* Error: Ran out of types for this method. */;
+- (void)infoCardTransitAnalyticsDidSelectionAction:resultIndex:targetID:transitSystem:transitDepartureSequence:transitCardCategory:transitIncident:feedbackDelegateSelector: /* Error: Ran out of types for this method. */;
 - (void)R,N,G_enhancedPlacement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKLookAroundGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak MKLookAroundView *lookAroundView; // @synthesize lookAroundView=_lookAroundView;
-@property(nonatomic) _Bool navigatingEnabled; // @synthesize navigatingEnabled=_navigatingEnabled;
-@property(nonatomic) _Bool panningEnabled; // @synthesize panningEnabled=_panningEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool zoomingEnabled; // @synthesize zoomingEnabled=_zoomingEnabled;
 
 @end
 

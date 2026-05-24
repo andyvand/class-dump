@@ -4,18 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)ambient.;
+- (id)y = %@);
+- (id)orKey:(SEL)arg1 property:(id)arg2 ];
+- (id)geTransform;
+- (id)content;
+- (Class)Material setDoubleSided:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)lic}@;
+- (_Bool);
+- (_Bool)_lightweightPersonalizedPlaybackPositionWithUnpersonalizedPlaybackPosition:(id)arg1 libraryPlaybackPosition:personalizationProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)loc;
+- (id)initWithHashes:count: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)t"16@"CXAction"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

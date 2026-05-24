@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TCDumpType;
+@class TCDumpType;
 
 __attribute__((visibility("hidden")))
 @interface TCDumpField
 {
     TCDumpType *mType;
-    NSString *mName;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)y;
+- (id);
 - (void)ntervalFromStringWithCompactStyleStartUnit(NSString *, NSTimeInterval *, TSUDurationUnits *, TSUDurationStyle *, TSUDurationUnits, OITSULocale *);
 
 @end

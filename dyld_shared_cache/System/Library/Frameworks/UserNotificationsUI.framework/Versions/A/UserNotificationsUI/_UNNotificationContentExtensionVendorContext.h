@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, _UNNotificationContentExtensionVendorContainer;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _UNNotificationContentExtensionVendorContext
 {
     _Bool _queueInactive;
-    _Bool _didCheckActionResponseDelegate;
-    NSArray *_notificationActions;
-    id <_UNNotificationContentExtensionVendorContainer> _notificationExtensionContainer;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (id);
@@ -30,10 +26,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)";
+- (id)q;
 - (void);
 - (void);
 - (void);
@@ -43,9 +37,11 @@
 - (void);
 - (void);
 - (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -62,16 +58,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#|޾;
 - (void);
-- (id);
+- (id)+;
 
 // Remaining properties
-@property(nonatomic) _Bool didCheckActionResponseDelegate; // @synthesize didCheckActionResponseDelegate=_didCheckActionResponseDelegate;
-@property(copy, nonatomic) NSArray *notificationActions; // @synthesize notificationActions=_notificationActions;
-@property(nonatomic) __weak id <_UNNotificationContentExtensionVendorContainer> notificationExtensionContainer; // @synthesize notificationExtensionContainer=_notificationExtensionContainer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic, getter=isQueueInactive) _Bool queueInactive; // @synthesize queueInactive=_queueInactive;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerScheduleChangesItem, CalDAVUpdateOwnerItem, NSString;
+@class NSString;
 
 @interface CalDAVCalendarItemData
 {
     NSString *_scheduleTag;
-    CalDAVCalendarServerScheduleChangesItem *_scheduleChanges;
-    CalDAVUpdateOwnerItem *_createdBy;
-    CalDAVUpdateOwnerItem *_updatedBy;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *createdBy; // @synthesize createdBy=_createdBy;
-@property(retain, nonatomic) CalDAVCalendarServerScheduleChangesItem *scheduleChanges; // @synthesize scheduleChanges=_scheduleChanges;
 @property(retain, nonatomic) NSString *scheduleTag; // @synthesize scheduleTag=_scheduleTag;
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *updatedBy; // @synthesize updatedBy=_updatedBy;
 
 @end
 

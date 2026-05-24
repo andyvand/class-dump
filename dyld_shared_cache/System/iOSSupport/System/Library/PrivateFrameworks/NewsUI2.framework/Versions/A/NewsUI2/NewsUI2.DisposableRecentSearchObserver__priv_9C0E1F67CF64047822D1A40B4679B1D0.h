@@ -7,8 +7,6 @@
 @interface NewsUI2.DisposableRecentSearchObserver__priv_9C0E1F67CF64047822D1A40B4679B1D0
 {
     id observer;
-    id keepAliveObject;
-    id origination;
 }
 
 @end

@@ -9,19 +9,17 @@
 @interface NUAlphaHistogramCalculator : NUHistogramCalculator
 {
     CDStruct_83984b6f _luminanceWeights;
-    CDStruct_83984b6f _luminanceThresholds;
 }
 
 - (void);
 - (void);
-- (CDStruct_83984b6f);
-- (CDStruct_83984b6f);
+- (CDStruct_83984b6f);
+- (CDStruct_83984b6f);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDStruct_83984b6f luminanceThresholds; // @synthesize luminanceThresholds=_luminanceThresholds;
 @property(nonatomic) CDStruct_83984b6f luminanceWeights; // @synthesize luminanceWeights=_luminanceWeights;
 
 @end

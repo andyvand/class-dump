@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol PFCachingArchiveIndex
+- (unsigned long long)setShouldSkipPCSRetryBehavior: /* Error: Ran out of types for this method. */;
+- (const char *);
+- (NSString *)HandlerForActiveObjectINS1_15MountStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 @end
 

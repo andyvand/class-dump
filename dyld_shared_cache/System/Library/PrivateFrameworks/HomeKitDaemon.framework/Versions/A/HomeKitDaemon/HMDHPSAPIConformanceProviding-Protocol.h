@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHPSAPIConformanceProviding
++ (_Bool);
 @end
 

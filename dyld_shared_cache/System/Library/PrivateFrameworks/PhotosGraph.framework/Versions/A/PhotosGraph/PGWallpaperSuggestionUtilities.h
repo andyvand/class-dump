@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ataBiometryMatchAttempted;
 + (_Bool);
 + (unsigned long long);
 + (id);

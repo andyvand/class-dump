@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     ML3Track *_track;
 }
 
-- (id);
+- (id)V_localCreationDateCreator;
 - (void)ign_key_check;
 
 @end

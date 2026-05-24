@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPress, UIPressesEvent;
+@class UIPress;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureDelayedPress
 {
     long long _delayCount;
-    _Bool _clonedForSecondDelivery;
-    UIPress *_press;
-    UIPress *_stateWhenDelayed;
-    UIPress *_stateWhenDelivered;
-    UIPressesEvent *_event;
 }
 
 - (id);
@@ -23,33 +18,22 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)r MPModelRelationshipPlaylistEntryTVEpisode;
 - (id);
 - (void);
 - (long long)_°1Â0@ù
 × ;
 - (id)Qfð1Â0@ù
 × ;
-- (id)TableFooterView;
+- (id)rectForTableFooterView;
 - (long long)tle;
-- (void)rolModernContentView;
+- (void)_UIRefreshControlModernContentView;
 - (id);
 - (_Bool)Ý%ÿçÕDdb;
 - (void)°"h;
 
 // Remaining properties
-@property(nonatomic) _Bool clonedForSecondDelivery; // @synthesize clonedForSecondDelivery=_clonedForSecondDelivery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIPressesEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) UIPress *press; // @synthesize press=_press;
-@property(readonly, nonatomic) UIPress *stateWhenDelayed; // @synthesize stateWhenDelayed=_stateWhenDelayed;
-@property(readonly, nonatomic) UIPress *stateWhenDelivered; // @synthesize stateWhenDelivered=_stateWhenDelivered;
-@property(readonly) Class superclass;
 
 @end
 

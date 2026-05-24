@@ -9,10 +9,11 @@
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)4X] SetRateAndAnchorTime:Honoring callback rate = %f err = %d sampleTime = Invalid
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

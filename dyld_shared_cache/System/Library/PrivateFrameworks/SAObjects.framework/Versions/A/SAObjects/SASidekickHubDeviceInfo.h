@@ -12,38 +12,24 @@
 {
 }
 
+- (id)_;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessoryIdentifier;
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hubDeviceType;
-@property(copy, nonatomic) NSString *hubUserId;
-@property(nonatomic) _Bool mediaPlaybackEnabled;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *sidekickBrand;
-@property(copy, nonatomic) NSString *sidekickDeviceType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUIProperties;
-
 @interface IMKCandidateSelectionViewButton
 {
     _Bool _mousePointerInside;
-    _Bool _radarButton;
-    IMKUIProperties *_properties;
-    long long _trackingRectTag;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)i6R9?;
 - (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)hreshold;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool mousePointerInside; // @synthesize mousePointerInside=_mousePointerInside;
-@property(retain, nonatomic) IMKUIProperties *properties; // @synthesize properties=_properties;
 @property(nonatomic, getter=isRadarButton) _Bool radarButton; // @synthesize radarButton=_radarButton;
-@property(nonatomic) long long trackingRectTag; // @synthesize trackingRectTag=_trackingRectTag;
 
 @end
 

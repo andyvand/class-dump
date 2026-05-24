@@ -11,38 +11,28 @@
 @interface NSTextTableBlock : NSTextBlock
 {
     NSTextTable *_table;
-    long long _rowNum;
-    long long _colNum;
-    long long _rowSpan;
-    long long _colSpan;
-    void *_tableBlockPrimary;
-    void *_tableBlockSecondary;
 }
 
 + (_Bool);
-+ (void)AtIndex: /* Error: Ran out of types for this method. */;
++ (void)beginLineWithGlyphAtIndex: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (long long);
-- (long long);
+- (long long)processIdentifier;
 - (void);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) long long columnSpan;
-@property(readonly) long long rowSpan;
-@property(readonly) long long startingColumn;
-@property(readonly) long long startingRow;
 @property(readonly) NSTextTable *table;
 
 @end

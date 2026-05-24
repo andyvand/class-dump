@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDynamicLayerCrossDissolveConfiguration, PKDynamicLayerEmitterConfiguration, PKDynamicLayerTransactionEffectConfiguration;
-
 @interface PKDynamicLayerConfiguration
 {
     _Bool _supported;
-    _Bool _parallaxEnabled;
-    unsigned long long _version;
-    PKDynamicLayerEmitterConfiguration *_backgroundParallaxEmitter;
-    PKDynamicLayerEmitterConfiguration *_neutralEmitter;
-    PKDynamicLayerEmitterConfiguration *_foregroundParallaxEmitter;
-    PKDynamicLayerEmitterConfiguration *_staticOverlayEmitter;
-    PKDynamicLayerTransactionEffectConfiguration *_transactionEffect;
-    PKDynamicLayerCrossDissolveConfiguration *_crossDissolve;
 }
 
 + (_Bool)0@ù
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -37,24 +27,16 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)AH;
+- (void)9;
 - (id);
-- (id)aryGroupCount;
+- (id)_secondaryGroupCount;
 - (_Bool)quested externalized auth returned %@;
 - (void)entifier:'%@';  /* Error: Ran out of types for this method. */;
 - (void)lÌö;
 
 // Remaining properties
-@property(retain, nonatomic) PKDynamicLayerEmitterConfiguration *backgroundParallaxEmitter; // @synthesize backgroundParallaxEmitter=_backgroundParallaxEmitter;
-@property(retain, nonatomic) PKDynamicLayerCrossDissolveConfiguration *crossDissolve; // @synthesize crossDissolve=_crossDissolve;
-@property(retain, nonatomic) PKDynamicLayerEmitterConfiguration *foregroundParallaxEmitter; // @synthesize foregroundParallaxEmitter=_foregroundParallaxEmitter;
-@property(retain, nonatomic) PKDynamicLayerEmitterConfiguration *neutralEmitter; // @synthesize neutralEmitter=_neutralEmitter;
-@property(nonatomic) _Bool parallaxEnabled; // @synthesize parallaxEnabled=_parallaxEnabled;
-@property(retain, nonatomic) PKDynamicLayerEmitterConfiguration *staticOverlayEmitter; // @synthesize staticOverlayEmitter=_staticOverlayEmitter;
 @property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
-@property(retain, nonatomic) PKDynamicLayerTransactionEffectConfiguration *transactionEffect; // @synthesize transactionEffect=_transactionEffect;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

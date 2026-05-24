@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFStringHash, NSData, NSString;
 @protocol NSObject><NSSecureCoding><NSCopying;
 
 @interface EMObjectID
 {
     unsigned long long _hash;
-    struct os_unfair_lock_s _lock;
-    _Bool _ephemeral;
-    id <NSObject><NSSecureCoding><NSCopying> _representedObjectID;
-    EFStringHash *_stringHash;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id),A;
 + (_Bool);
 + (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)col"16;
 - (void);
-- (id);
+- (id)I;
 - (id);
 - (void)1Â0@ù
 × ;
 - (id)ää;
 - (id)(;
-- (id)nderManagerBlockedListDidChangeNotification;
+- (id)EMBlockedSenderManagerBlockedListDidChangeNotification;
 - (id);
 - (void)ÜÜ;
 - (_Bool)¨ 8;
 - (id)7üÿØ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEphemeral) _Bool ephemeral; // @synthesize ephemeral=_ephemeral;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) id <NSObject><NSSecureCoding><NSCopying> representedObjectID; // @synthesize representedObjectID=_representedObjectID;
-@property(readonly, copy, nonatomic) NSData *serializedRepresentation;
-@property(readonly) EFStringHash *stringHash; // @synthesize stringHash=_stringHash;
-@property(readonly) Class superclass;
 
 @end
 

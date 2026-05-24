@@ -7,9 +7,11 @@
 @class NSData, _SFPBCard;
 
 @protocol _SFPBShowSFCardCommand
+- (_SFPBCard *);
+- (void)line;
+- (NSData *)N,V_adjustmentBakeInOptions;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCard *card;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol GraphRenderOperationDelegate
+- (void);
 @end
 

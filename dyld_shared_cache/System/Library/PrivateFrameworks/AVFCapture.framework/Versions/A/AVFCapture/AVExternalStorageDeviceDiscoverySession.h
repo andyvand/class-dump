@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface AVExternalStorageDeviceDiscoverySession
 {
     struct OpaqueFigSimpleMutex *_lock;
-    NSMutableArray *_externalStorageDevices;
-    NSMutableArray *_uuidOfExternalStorageDevice;
 }
 
 + (id);
 + (_Bool);
 + (void)ÿ	.VÔ`Ð?Xÿç0_^Ö?¼z¶À;
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
+- (id)NSDateFormatter",&,N,V_dateFormatter;
+- (void)%{public}@ options:(_Bool)arg1 %lu… | opening database for creation [failed readonly open] result=%d;
+- (int)essage.;
+- (void)t is currently not supported on this platform.;
+- (void)<transliteration> element must be inside <transliterations>;
 - (void);
 - (id);
 

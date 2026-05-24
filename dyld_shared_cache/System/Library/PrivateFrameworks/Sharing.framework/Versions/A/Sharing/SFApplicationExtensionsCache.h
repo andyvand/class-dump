@@ -7,15 +7,6 @@
 @interface SFApplicationExtensionsCache
 {
     id cachedExtensionIdentitiesByIdentifier;
-    id cachedSupersedingPluginsByIdentifier;
-    id cachedResults;
-    id keysBeingDiscovered;
-    id lock;
-    id queue;
-    id discoveryTask;
-    id primed;
-    id cacheMisses;
-    id cacheHits;
 }
 
 + (id)ªÄýÿP;

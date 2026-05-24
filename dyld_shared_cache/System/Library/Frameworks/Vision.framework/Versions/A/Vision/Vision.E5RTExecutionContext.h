@@ -7,14 +7,6 @@
 @interface Vision.E5RTExecutionContext
 {
     id prewireInUseAllocations;
-    id isPrebound;
-    id boundInputObjects;
-    id boundOutputObjects;
-    id function;
-    id executionStreamOperationHandle;
-    id executionStreamHandle;
-    id boundInputPorts;
-    id boundOutputPorts;
 }
 
 @end

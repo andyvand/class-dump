@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatButtonNodeLayoutAttributes
 {
     id layoutAttributes;
-    id stateMaskLayoutAttributes;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id name;
 }
 
 @end

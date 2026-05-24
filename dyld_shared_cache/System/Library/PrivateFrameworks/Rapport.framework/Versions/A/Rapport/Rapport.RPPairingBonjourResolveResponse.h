@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData;
 
 @interface Rapport.RPPairingBonjourResolveResponse
 {
     void serverPublicKey;
-    void bonjourServiceID;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSUUID *bonjourServiceID;
 @property(nonatomic, readonly) NSData *serverPublicKey;
 
 @end

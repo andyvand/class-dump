@@ -7,9 +7,6 @@
 @interface ConversationKit.ParticipantViewButton
 {
     id imageView;
-    id blurView;
-    id discView;
-    id image;
 }
 
 - (id);

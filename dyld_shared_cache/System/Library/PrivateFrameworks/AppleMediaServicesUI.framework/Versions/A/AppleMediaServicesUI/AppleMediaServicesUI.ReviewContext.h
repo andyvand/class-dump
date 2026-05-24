@@ -7,20 +7,14 @@
 @interface AppleMediaServicesUI.ReviewContext
 {
     id accentColor;
-    id lockupStyle;
-    id lockupDetails;
-    id mediaTaskType;
-    id clientInfo;
-    id itemIdentifier;
-    id itemVersion;
 }
 
-+ (void);
++ (void)y",C,V_authenticateArguments;
 + (_Bool);
+- (id)kh8;
 - (id);
-- (id);
-- (void);
-- (void)llObjects;
+- (void)V_supportsSiriEndpointSetup;
+- (void)removeAllObjects;
 
 @end
 

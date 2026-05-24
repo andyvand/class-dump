@@ -30,7 +30,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)9;
 + (id);
 + (id);
 + (id);
@@ -42,7 +42,7 @@
 + (void);
 + (id);
 + (struct __AMFDR *);
-+ (_Bool);
++ (_Bool)rI;
 
 @end
 

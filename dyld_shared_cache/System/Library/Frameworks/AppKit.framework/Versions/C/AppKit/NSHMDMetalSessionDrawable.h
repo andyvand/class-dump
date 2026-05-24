@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHMDIOSurfaceDrawable, NSHMDMetalSession, NSString;
-@protocol MTLTexture;
+@class NSHMDMetalSession;
 
 __attribute__((visibility("hidden")))
 @interface NSHMDMetalSessionDrawable
 {
     NSHMDMetalSession *_session;
-    NSHMDIOSurfaceDrawable *_drawable;
-    CDUnknownBlockType _presentScheduledHandler;
-    CDUnknownBlockType _presentedHandler;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)ist;
+- (void);;
 - (double);
-- (id);
-- (unsigned long long);
+- (id)8o^@16o^@24;
+- (unsigned long long)_allCredentialsWithAccessControlGroup:includeLegacyKeychain: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
 - (unsigned long long)Ô ;
 - (void)ntrolStripState",R;
-- (unsigned long long)otificationCounter;
+- (unsigned long long)_suppressAllNotificationCounter;
 - (void)`E;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property unsigned long long debugSignpost;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long drawableID;
-@property(readonly) unsigned long long hash;
-@property double inputTimeStamp;
-@property(readonly, nonatomic) double presentedTime;
 @property(readonly) NSHMDMetalSession *session;
-@property(readonly, nonatomic) unsigned long long status;
-@property(readonly) Class superclass;
-@property(readonly) id <MTLTexture> texture;
 
 @end
 

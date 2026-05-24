@@ -13,9 +13,6 @@ __attribute__((visibility("hidden")))
 @interface FPFetchAppLibraryIconsOperation : FPOperation
 {
     NSDictionary *_itemIdentifierByAppBundleID;
-    struct CGSize _desiredSize;
-    double _screenScale;
-    id <FPOperationProgressDelegate> _delegate;
 }
 
 - (void);

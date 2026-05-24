@@ -11,12 +11,12 @@
     NSData *_data;
 }
 
-+ (_Bool);
++ (_Bool)ess:%@ requestStartTime:%@ requestEndTime:%@ responseStartTime:%@ responseEndTime:%@ error:%@ byteRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SANPVideoAudioAndSubtitleLanguageOptions;
 - (_Bool);
 - (id);
 - (void);

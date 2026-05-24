@@ -19,7 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)*J
+;
 - (void);
 - (id);
 - (void)aAnalysisResultAttributesKey(void);

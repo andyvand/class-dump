@@ -13,8 +13,8 @@
 
 - (void);
 - (int);
-- (id);
-- (void)ssType;
+- (id)!;
+- (void)shareAccessType;
 
 // Remaining properties
 @property(nonatomic) int operationType; // @synthesize operationType=_operationType;

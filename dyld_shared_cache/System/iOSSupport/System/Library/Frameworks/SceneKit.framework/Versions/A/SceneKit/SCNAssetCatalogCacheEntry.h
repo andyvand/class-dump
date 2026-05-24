@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface SCNAssetCatalogCacheEntry
 {
     id item;
-    double timestamp;
 }
 
 - (void);
-- (void);
-- (double);
+- (void);
+- (double)_convertCoreErrorToPublicError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id item; // @synthesize item;
-@property(nonatomic) double timestamp; // @synthesize timestamp;
 
 @end
 

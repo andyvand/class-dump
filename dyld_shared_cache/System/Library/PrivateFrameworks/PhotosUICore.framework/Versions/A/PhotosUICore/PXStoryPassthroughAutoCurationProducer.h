@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAssetFetchResult;
-
 @interface PXStoryPassthroughAutoCurationProducer
 {
     unsigned long long _availableLengths;
-    id <PXDisplayAssetFetchResult> _assets;
 }
 
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (id)llShelvesExpandingMovementAnimationType;
+- (id)_allShelvesExpandingMovementAnimationType;
 - (void)xåÍÅºþÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAssetFetchResult> assets; // @synthesize assets=_assets;
 @property(nonatomic) unsigned long long availableLengths; // @synthesize availableLengths=_availableLengths;
 
 @end

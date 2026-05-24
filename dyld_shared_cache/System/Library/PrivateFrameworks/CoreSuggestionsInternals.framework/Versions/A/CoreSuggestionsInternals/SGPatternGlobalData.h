@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSMutableSet, SGPatternDataFile;
+@class NSDictionary;
 
 @interface SGPatternGlobalData
 {
     NSDictionary *patternDict;
-    SGPatternDataFile *patternData;
-    int globalLanguageVersion;
-    NSArray *currentLanguages;
-    NSHashTable *patternInstances;
-    _Bool useAllLanguages;
-    NSMutableSet *regexesImmuneToDeath;
 }
 
 - (void);

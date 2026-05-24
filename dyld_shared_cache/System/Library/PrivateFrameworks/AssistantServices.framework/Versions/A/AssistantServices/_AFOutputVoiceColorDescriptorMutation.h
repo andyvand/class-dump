@@ -4,44 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFOutputVoiceColorDescriptor, NSString;
+@class AFOutputVoiceColorDescriptor;
 
 @interface _AFOutputVoiceColorDescriptorMutation
 {
     AFOutputVoiceColorDescriptor *_baseModel;
-    NSString *_hexColor;
-    NSString *_colorName;
-    float _alpha;
-    NSString *_localizedOutputVoiceColor;
-    NSString *_localizedOutputVoice;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasHexColor:1;
-        unsigned int hasColorName:1;
-        unsigned int hasAlpha:1;
-        unsigned int hasLocalizedOutputVoiceColor:1;
-        unsigned int hasLocalizedOutputVoice:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
+- (void)J;
+- (id);
+- (id))8;
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)ageSizeInBytes;
+- (void)_pageSizeInBytes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

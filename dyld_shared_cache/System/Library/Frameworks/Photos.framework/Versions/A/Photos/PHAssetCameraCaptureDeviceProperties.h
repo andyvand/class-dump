@@ -9,18 +9,16 @@
 @interface PHAssetCameraCaptureDeviceProperties : PHAssetPropertySet
 {
     _Bool _isSelfie;
-    _Bool _isFrontRear;
 }
 
 + (id);
 + (id);
-+ (id)d;
++ (id)succeeded;
 - (_Bool);
 - (_Bool);
 - (id)ering is not done since the current criteria filtered out all clusters.;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFrontRear; // @synthesize isFrontRear=_isFrontRear;
 @property(readonly, nonatomic) _Bool isSelfie; // @synthesize isSelfie=_isSelfie;
 
 @end

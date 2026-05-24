@@ -7,11 +7,6 @@
 @interface CKDPListPosition
 {
     int _index;
-    _Bool _isReversed;
-    struct {
-        unsigned int index:1;
-        unsigned int isReversed:1;
-    } _has;
 }
 
 - (void);
@@ -19,9 +14,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)getSlalomSettings;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)HoseRegistrarProtocol> on <%p>;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -30,14 +25,11 @@
 - (void);
 - (id);
 - (int);
-- (_Bool)Permission;
+- (_Bool)MyParticipantPermission;
 - (void)eallocated before request per value ID block;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasIsReversed;
-@property(nonatomic) int index; // @synthesize index=_index;
-@property(nonatomic) _Bool isReversed; // @synthesize isReversed=_isReversed;
 
 @end
 

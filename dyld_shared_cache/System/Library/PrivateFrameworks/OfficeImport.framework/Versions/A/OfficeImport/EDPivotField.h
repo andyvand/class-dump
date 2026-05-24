@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotField
 {
     int mAxis;
-    _Bool mCompact;
-    _Bool mDataField;
-    _Bool mShowDefaultSubTotal;
-    _Bool mInsertBlankRow;
-    _Bool mOutlineItems;
-    _Bool mShowAllItems;
-    _Bool mSubtotalTop;
-    unsigned long long mNumFmtId;
-    EDCollection *mPivotFieldItems;
 }
 
 + (id);
@@ -28,18 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)c;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)y;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)t required fields on %s;
+- (void)ۢ;
 - (int);
 - (_Bool)0@ù
 × ;

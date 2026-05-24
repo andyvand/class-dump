@@ -9,18 +9,6 @@
 @interface AppStoreKit.ArticlePage : AppStoreKit.BasePage
 {
     id title;
-    id subtitle;
-    id card;
-    id shelfOrdering;
-    id shelfMapping;
-    id footerLockup;
-    id arcadeFooterLockup;
-    id shareAction;
-    id isIncomplete;
-    id touchMode;
-    id shouldTerminateOnClose;
-    id nextPage;
-    id editorialStoryCard;
 }
 
 @end

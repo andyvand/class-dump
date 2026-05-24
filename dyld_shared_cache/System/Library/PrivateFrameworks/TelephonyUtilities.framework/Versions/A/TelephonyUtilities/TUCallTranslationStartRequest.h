@@ -11,10 +11,6 @@
 @interface TUCallTranslationStartRequest : TUCallTranslationRequest
 {
     int _translationLinks;
-    int _remoteAudioMode;
-    int _translationMode;
-    NSLocale *_localLocale;
-    NSLocale *_remoteLocale;
 }
 
 + (_Bool);
@@ -27,24 +23,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)@�;
 - (int);
 - (void);
 - (int);
-- (id);
+- (id))!;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)Section: /* Error: Ran out of types for this method. */;
+- (void)resultGroupForSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *localLocale; // @synthesize localLocale=_localLocale;
-@property(nonatomic) int remoteAudioMode; // @synthesize remoteAudioMode=_remoteAudioMode;
-@property(retain, nonatomic) NSLocale *remoteLocale; // @synthesize remoteLocale=_remoteLocale;
-@property(nonatomic) int translationLinks; // @synthesize translationLinks=_translationLinks;
-@property(nonatomic) int translationMode; // @synthesize translationMode=_translationMode;
 
 @end
 

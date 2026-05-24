@@ -9,7 +9,6 @@
 @interface PolicyGlobal : PolicyBase
 {
     struct PWGlobalAccessFeatures mGlobalPolicy;
-    struct PWGlobalMoreAccessFeatures mExtraGlobalPolicy;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
 - (void);
-- (void);
+- (void)#;
 
 @end
 

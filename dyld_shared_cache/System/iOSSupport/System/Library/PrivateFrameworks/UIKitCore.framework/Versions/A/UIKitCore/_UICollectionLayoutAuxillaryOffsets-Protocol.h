@@ -5,8 +5,11 @@
 //
 
 @class NSSet;
+@protocol _UICollectionLayoutAuxillaryOffsets;
 
 @protocol _UICollectionLayoutAuxillaryOffsets
+- (id)setVolumeListenerBlock:(id <_UICollectionLayoutAuxillaryOffsets>)arg1;
+- (long long)contentRatingsBySystem;
 - (id);
 - (NSSet *)@ø;
 

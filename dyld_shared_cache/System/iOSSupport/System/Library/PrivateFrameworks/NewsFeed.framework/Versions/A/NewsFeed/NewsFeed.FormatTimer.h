@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatTimer
 {
     id timers;
-    id observers;
 }
 
 @end

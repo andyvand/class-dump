@@ -5,13 +5,19 @@
 //
 
 @protocol HMAccessoryCapabilities
+- (_Bool);
+- (_Bool)ECVDSTADDR;
+- (_Bool)haCount;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool)°!$Dùð1Â0@ù
 × ;
 - (_Bool)ÔAâÐ!ÄDùQÐ1Â0@ù
 × ;
 - (_Bool)NSBackgroundActivityScheduler"16@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)itation: /* Error: Ran out of types for this method. */;
-- (_Bool)atePresenceFeeder;
+- (_Bool)manager:incomingInvitation: /* Error: Ran out of types for this method. */;
+- (_Bool)createPresenceFeeder;
 - (_Bool)ì@@;
 - (_Bool):%@ /* Error: Ran out of types for this method. */;
 - (_Bool)ble to download, asset is already downloading or downloaded;
@@ -21,44 +27,6 @@
 - (_Bool)BC4C-1D19-499A-BE28-6CE8F1A9EF66;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clearsKeychainWhenRemovedFromHome;
-@property(readonly, nonatomic) _Bool supportsAnnounce;
-@property(readonly, nonatomic) _Bool supportsAssistantAccessControl;
-@property(readonly, nonatomic) _Bool supportsAudioReturnChannel;
-@property(readonly, nonatomic) _Bool supportsCloudDataSync;
-@property(readonly, nonatomic) _Bool supportsCompanionInitiatedObliterate;
-@property(readonly, nonatomic) _Bool supportsCompanionInitiatedRestart;
-@property(readonly, nonatomic) _Bool supportsCoordinationDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsCoordinationFreeDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsCrossfadeAsAirPlaySource;
-@property(readonly, nonatomic) _Bool supportsDeviceSetup;
-@property(readonly, nonatomic) _Bool supportsDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsHomeHub;
-@property(readonly, nonatomic) _Bool supportsHomeInvitation;
-@property(readonly, nonatomic) _Bool supportsHomeLevelLocationServiceSetting;
-@property(readonly, nonatomic) _Bool supportsInstallManagedConfigurationProfile;
-@property(readonly, nonatomic) _Bool supportsJustSiri;
-@property(readonly, nonatomic) _Bool supportsKeyTransferClient;
-@property(readonly, nonatomic) _Bool supportsKeyTransferServer;
 @property(readonly, nonatomic) _Bool supportsKeychainSync;
-@property(readonly, nonatomic) _Bool supportsLoreto;
-@property(readonly, nonatomic) _Bool supportsManagedConfigurationProfile;
-@property(readonly, nonatomic) _Bool supportsMediaActions;
-@property(readonly, nonatomic) _Bool supportsMessagedHomePodSettings;
-@property(readonly, nonatomic) _Bool supportsMultiUser;
-@property(readonly, nonatomic) _Bool supportsMusicAlarm;
-@property(readonly, nonatomic) _Bool supportsNetworkDiagnostics;
-@property(readonly, nonatomic) _Bool supportsPreferredMediaUser;
-@property(readonly, nonatomic) _Bool supportsRMVonAppleTV;
-@property(readonly, nonatomic) _Bool supportsSoftwareUpdateV2;
-@property(readonly, nonatomic) _Bool supportsStandaloneMode;
-@property(readonly, nonatomic) _Bool supportsStereoOdeonTTSUBypassingPrimary;
-@property(readonly, nonatomic) _Bool supportsTVOSUpdateManualUpdateAvailableNotification;
-@property(readonly, nonatomic) _Bool supportsTargetControl;
-@property(readonly, nonatomic) _Bool supportsThirdPartyMusic;
-@property(readonly, nonatomic) _Bool supportsThreadBorderRouter;
-@property(readonly, nonatomic) _Bool supportsUserMediaSettings;
-@property(readonly, nonatomic) _Bool supportsWholeHouseAudio;
-@property(readonly, nonatomic) _Bool supportsWiFiRepairV2;
 @end
 

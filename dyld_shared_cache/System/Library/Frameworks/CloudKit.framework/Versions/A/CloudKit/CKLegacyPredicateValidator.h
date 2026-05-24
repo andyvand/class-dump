@@ -21,9 +21,10 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (_Bool)1
+;
 - (_Bool);
-- (_Bool);
-- (_Bool)SAP;
+- (_Bool)_dropInMemoryAssetContentASAP;
 
 @end
 

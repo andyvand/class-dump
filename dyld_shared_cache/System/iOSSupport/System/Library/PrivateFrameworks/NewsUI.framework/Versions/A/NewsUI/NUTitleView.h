@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NUAnimationQueue, NUCrossFadeTitleView, NUFadeViewAnimator, NUSlideViewAnimator;
-@protocol NUTitleViewDelegate, NUTitleViewStyler, OS_dispatch_semaphore;
+@class NUCrossFadeTitleView;
+@protocol NUTitleViewStyler;
 
 @interface NUTitleView
 {
     id <NUTitleViewStyler> _styler;
-    id <NUTitleViewDelegate> _delegate;
-    NUCrossFadeTitleView *_titleView;
-    NUCrossFadeTitleView *_incomingTitleView;
-    NUSlideViewAnimator *_slideAnimator;
-    NUFadeViewAnimator *_fadeAnimator;
-    NUAnimationQueue *_animationQueue;
-    NSObject<OS_dispatch_semaphore> *_lingerSemaphore;
-    struct CGRect _lastLayoutBounds;
 }
 
 - (id);
+- (void)=;
+- (id);
+- (id)styleInsertionBehavior;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)riptionStrings",R,N;
+- (id)@o;
 - (void);
 - (void);
 - (id);
@@ -47,14 +39,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NUAnimationQueue *animationQueue; // @synthesize animationQueue=_animationQueue;
-@property(nonatomic) __weak id <NUTitleViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NUFadeViewAnimator *fadeAnimator; // @synthesize fadeAnimator=_fadeAnimator;
-@property(retain, nonatomic) NUCrossFadeTitleView *incomingTitleView; // @synthesize incomingTitleView=_incomingTitleView;
-@property(nonatomic) struct CGRect lastLayoutBounds; // @synthesize lastLayoutBounds=_lastLayoutBounds;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *lingerSemaphore; // @synthesize lingerSemaphore=_lingerSemaphore;
-@property(readonly, nonatomic) NUSlideViewAnimator *slideAnimator; // @synthesize slideAnimator=_slideAnimator;
-@property(retain, nonatomic) id <NUTitleViewStyler> styler; // @synthesize styler=_styler;
 @property(retain, nonatomic) NUCrossFadeTitleView *titleView; // @synthesize titleView=_titleView;
 
 @end

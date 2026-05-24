@@ -6,34 +6,25 @@
 
 #import <Photos/PHAssetCollection.h>
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 @interface PHProject : PHAssetCollection
 {
     NSData *_projectExtensionData;
-    NSDate *_creationDate;
-    NSString *_projectExtensionIdentifier;
-    NSString *_projectDocumentType;
-    NSString *_projectRenderUuid;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)homeManagerDidRemoveCurrentAccessory: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)riesNumber;
++ (id)_includePendingMemoriesNumber;
 + (id)Þ«;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasProjectPreview;
 @property(readonly, nonatomic) NSData *projectData;
-@property(readonly, nonatomic) NSString *projectDocumentType; // @synthesize projectDocumentType=_projectDocumentType;
-@property(readonly, nonatomic) NSData *projectExtensionData; // @synthesize projectExtensionData=_projectExtensionData;
-@property(readonly, nonatomic) NSString *projectExtensionIdentifier; // @synthesize projectExtensionIdentifier=_projectExtensionIdentifier;
-@property(readonly, nonatomic) NSString *projectRenderUuid; // @synthesize projectRenderUuid=_projectRenderUuid;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSData, NSHashTable, NSMutableSet, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVStreamSessionInternal
 {
     AVWeakReference *_welf;
-    NSData *_appIdentifier;
-    NSURL *_storageURL;
-    NSObject<OS_dispatch_queue> *_threadSafetyQ;
-    NSHashTable *_streamDataParsers;
-    NSMutableSet *_contentKeySessions;
-    _Bool _isExpired;
-    struct OpaqueFigCPEProtector *_figCPEProtector;
-    NSData *_figCPEProtectorSessionIdentifier;
 }
 
 @end

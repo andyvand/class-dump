@@ -7,6 +7,7 @@
 @class _MKPlaceActionButtonController;
 
 @protocol _MKPlaceActionControlledButton
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak _MKPlaceActionButtonController *buttonController;

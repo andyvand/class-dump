@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)stureRecognizer;
+- (id)UIKeyboardFloatingPinchGestureRecognizer;
 
 @end
 

@@ -4,61 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, SFAnalytics;
+@class NSHashTable;
 
 @interface TransparencyAnalytics
 {
     int _token;
-    NSHashTable *_nfsObserver;
-    SFAnalytics *_sfanalytics;
 }
 
 + (id);
-+ (id);
++ (id)ction to remove newly unreferenced assets.;
 + (void);
-+ (unsigned long long);
++ (unsigned long long)isMeCardEmailInAdditionalRecipients;
 + (id);
 + (_Bool);
 + (id);
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)lastTimeNanoseconds;
 + (id);
 + (id);
 + (id)Ð¥;
 - (void);
 - (void);
 - (void);
+- (void)oken '%@' contains illegal characters. Please use only alphanumeric characters and '_'.;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)ubjectIdPersistedTask contains unreasonably short deviceId:"%@" /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)requestPoliciesForBundleIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)kMDItemPhotosMemoryTitle_QueryTermsNum_Mean_Word;
+- (void);
+- (void)J;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ge>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)Roots/4~CNqyugANfjeykhXE7zlFjn-MBVpr5AKcVYUFpSU/Library/Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/plugins/gssapi.c near line %d;
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)uploadEventsWithCompletion:(id)arg1;
 - (void);
 - (unsigned int);
 - (int);
 - (void);
-- (void);
+- (void).4f;
 - (void);
 - (void);
 - (_Bool);
@@ -66,12 +64,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)So7NSValueC;
 
 // Remaining properties
 @property(retain) NSHashTable *nfsObserver; // @synthesize nfsObserver=_nfsObserver;
-@property(retain) SFAnalytics *sfanalytics; // @synthesize sfanalytics=_sfanalytics;
-@property int token; // @synthesize token=_token;
 
 @end
 

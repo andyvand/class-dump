@@ -7,9 +7,6 @@
 @interface IDSFoundation.LinkEngineConnectBestController
 {
     id tags;
-    id shouldRetryHook;
-    id fallbackDelay;
-    id disconnectDelay;
 }
 
 @end

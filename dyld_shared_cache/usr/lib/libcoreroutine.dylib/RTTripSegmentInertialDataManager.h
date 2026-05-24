@@ -6,12 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class CLLocationManagerRoutine, NSString, RTTripSegmentInertialDataStore;
+@class CLLocationManagerRoutine;
 
 @interface RTTripSegmentInertialDataManager : RTService
 {
     CLLocationManagerRoutine *_routineLocationManager;
-    RTTripSegmentInertialDataStore *_inertialDataStore;
 }
 
 + (long long);
@@ -23,24 +22,16 @@
 - (id);
 - (void);
 - (void);
+- (void)ta}^{__CFArray}Ii{?=BBBBBBB}I}16;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)OOB fetch;
+- (void);
 - (id);
 - (void), %{sensitive}@;
 - (void)¢;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTTripSegmentInertialDataStore *inertialDataStore; // @synthesize inertialDataStore=_inertialDataStore;
 @property(retain, nonatomic) CLLocationManagerRoutine *routineLocationManager; // @synthesize routineLocationManager=_routineLocationManager;
-@property(readonly) Class superclass;
 
 @end
 

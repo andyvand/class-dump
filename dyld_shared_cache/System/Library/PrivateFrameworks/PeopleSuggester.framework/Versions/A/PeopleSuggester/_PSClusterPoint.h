@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface _PSClusterPoint
 {
     _Bool _timestampExists;
-    NSDate *_timestamp;
-    double _x;
-    double _y;
 }
 
 + (_Bool);
-- (_Bool);
-- (int);
-- (double);
-- (double);
-- (_Bool);
-- (double);
+- (_Bool)_asrFeatureLatencyDistribution;
+- (int)_analyzerPrependingSamples;
+- (double)_activeRedactionPolicies;
+- (double)_actionCandidates;
+- (_Bool)ocality;
+- (double)N,V_responseDialogSource;
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)e;
 - (void);
 - (double);
 - (id);
 - (void);
-- (double)text: /* Error: Ran out of types for this method. */;
+- (double)sendDataToPETAsync:withConfig:andContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) _Bool timestampExists; // @synthesize timestampExists=_timestampExists;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

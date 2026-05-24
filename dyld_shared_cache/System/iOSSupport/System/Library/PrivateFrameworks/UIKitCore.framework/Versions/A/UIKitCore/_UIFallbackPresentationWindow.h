@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)!;
-- (_Bool);
+- (_Bool)e %@ are different %@;
 - (_Bool)index path of an inserted shadow update should never be nil;
 
 @end

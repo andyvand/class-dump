@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSAttendingTriggerInfo
 {
     float _amountOfSpeechDetectedInMs;
-    float _triggerThresholdInMs;
-    long long _attendingType;
-    NSString *_detectedToken;
-    unsigned long long _triggerMachTime;
-    unsigned long long _triggerAbsStartSampleId;
-    long long _audioRecordType;
-    NSString *_deviceId;
 }
 
 + (id);
@@ -28,22 +19,15 @@
 - (float);
 - (unsigned long long);
 - (long long);
+- (id)@0:(id)arg1 8o^@16;
+- (id);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)allInstalledSpeakerRecognitionAssetsForLanguage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) float amountOfSpeechDetectedInMs; // @synthesize amountOfSpeechDetectedInMs=_amountOfSpeechDetectedInMs;
 @property(readonly, nonatomic) long long attendingType; // @synthesize attendingType=_attendingType;
-@property(readonly, nonatomic) long long audioRecordType; // @synthesize audioRecordType=_audioRecordType;
-@property(readonly, nonatomic) NSString *detectedToken; // @synthesize detectedToken=_detectedToken;
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly, nonatomic) unsigned long long triggerAbsStartSampleId; // @synthesize triggerAbsStartSampleId=_triggerAbsStartSampleId;
-@property(readonly, nonatomic) unsigned long long triggerMachTime; // @synthesize triggerMachTime=_triggerMachTime;
-@property(readonly, nonatomic) float triggerThresholdInMs; // @synthesize triggerThresholdInMs=_triggerThresholdInMs;
 
 @end
 

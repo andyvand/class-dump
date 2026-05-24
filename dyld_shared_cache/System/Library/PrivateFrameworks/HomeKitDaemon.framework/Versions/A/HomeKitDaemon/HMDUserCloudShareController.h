@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol HMDUserCloudShareControllerDelegate, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol HMDUserCloudShareControllerDelegate, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserCloudShareController
 {
     NSObject<OS_os_log> *_logger;
-    NSHashTable *_connectedClients;
-    NSMutableDictionary *_containerIdToConnectionIdentifierMap;
-    id <HMDUserCloudShareControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_pendingRequests;
-    double _pendingRequestTimeoutInterval;
-    HMFTimer *_pendingRequestTimer;
 }
 
 + (id)Ò?;
@@ -27,23 +20,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)age error:(id)arg1 %s;
+- (void)isRenderVersionSupported:(id)arg1;
+- (void)%@;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (void)!;
+- (double)`;
 - (id);
 - (void);
 - (id);
 - (void);
-- (double);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void)ings:(id)arg1;
-- (void)ringAuditTimeForRG;
-- (void)areForBoundary:(id)arg1 withMetadata:(id)arg2;
+- (void)setRestrictedGuestAccessSettings:(id)arg1;
+- (void)lastPairingAuditTimeForRG;
+- (void)compareForBoundary:(id)arg1 withMetadata:(id)arg2;
 - (id)electWiFiNetworkHandler;
 - (void)essory unique identifier from message:%@ /* Error: Ran out of types for this method. */;
 - (id)et device from remote device is reachable notification object:%@ /* Error: Ran out of types for this method. */;
@@ -52,23 +45,10 @@ __attribute__((visibility("hidden")))
 - (id)rings;
 - (void)ome manager connection has become active;
 - (void)wiFiManager;
-- (void)EndpointProfilePreviousSessionStateKey;
+- (void)HMDSiriEndpointProfilePreviousSessionStateKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, nonatomic) NSHashTable *connectedClients; // @synthesize connectedClients=_connectedClients;
-@property(retain, nonatomic) NSMutableDictionary *containerIdToConnectionIdentifierMap; // @synthesize containerIdToConnectionIdentifierMap=_containerIdToConnectionIdentifierMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDUserCloudShareControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double pendingRequestTimeoutInterval; // @synthesize pendingRequestTimeoutInterval=_pendingRequestTimeoutInterval;
-@property(retain, nonatomic) HMFTimer *pendingRequestTimer; // @synthesize pendingRequestTimer=_pendingRequestTimer;
-@property(readonly, nonatomic) NSMutableArray *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(readonly) Class superclass;
 
 @end
 

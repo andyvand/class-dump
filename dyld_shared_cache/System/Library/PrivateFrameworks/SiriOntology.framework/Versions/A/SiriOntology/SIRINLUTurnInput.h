@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SIRINLUTurnContext;
+@class NSArray;
 
 @interface SIRINLUTurnInput
 {
     _Bool _tapToEdit;
-    NSArray *_asrOutputs;
-    NSArray *_systemDialogActs;
-    NSArray *_activeTasks;
-    NSArray *_executedTasks;
-    NSArray *_salientEntities;
-    SIRINLUTurnContext *_turnContext;
-    NSString *_locale;
-    unsigned long long _startTimestamp;
 }
 
 + (_Bool);
@@ -40,22 +32,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void).apple.corespotlight.developer.ReindexAllItemsWithIdentifiers;
 - (id);
 - (void);
 - (unsigned long long)cI)B}}16B136;
 - (void)SiriOntology.UsoTaskBuilder_start_common_Recipe;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeTasks; // @synthesize activeTasks=_activeTasks;
 @property(retain, nonatomic) NSArray *asrOutputs; // @synthesize asrOutputs=_asrOutputs;
-@property(retain, nonatomic) NSArray *executedTasks; // @synthesize executedTasks=_executedTasks;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSArray *salientEntities; // @synthesize salientEntities=_salientEntities;
-@property(nonatomic) unsigned long long startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(retain, nonatomic) NSArray *systemDialogActs; // @synthesize systemDialogActs=_systemDialogActs;
-@property(nonatomic) _Bool tapToEdit; // @synthesize tapToEdit=_tapToEdit;
-@property(retain, nonatomic) SIRINLUTurnContext *turnContext; // @synthesize turnContext=_turnContext;
 
 @end
 

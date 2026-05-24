@@ -7,7 +7,9 @@
 @protocol IKLinkedListLinkProtocol;
 
 @protocol IKLinkedListLinkProtocol
-- (void)tionsToView:(id)arg1;
-- (id <IKLinkedListLinkProtocol>)viceView_Advanced_Orientation;
+- (void);
+- (id <IKLinkedListLinkProtocol>)etalShader *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)addSaveOptionsToView:(id)arg1;
+- (id <IKLinkedListLinkProtocol>)kIKScannerDeviceView_Advanced_Orientation;
 @end
 

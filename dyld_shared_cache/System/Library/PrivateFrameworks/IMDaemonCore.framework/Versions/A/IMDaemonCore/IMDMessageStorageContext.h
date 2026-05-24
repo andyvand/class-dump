@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat;
-
 @interface IMDMessageStorageContext
 {
     _Bool _forceReplace;
-    _Bool _modifyError;
-    _Bool _modifyFlags;
-    _Bool _updateMessageCache;
-    _Bool _calculateUnreadCount;
-    _Bool _reindexMessage;
-    _Bool _cloudImport;
-    _Bool _incomingMessage;
-    unsigned long long _flagMask;
-    long long _reindexReason;
-    IMDChat *_chat;
 }
 
 - (_Bool);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
@@ -34,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)>;
 - (_Bool);
 - (void);
 - (void);
@@ -46,17 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool calculateUnreadCount; // @synthesize calculateUnreadCount=_calculateUnreadCount;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(nonatomic, getter=isCloudImport) _Bool cloudImport; // @synthesize cloudImport=_cloudImport;
-@property(nonatomic) unsigned long long flagMask; // @synthesize flagMask=_flagMask;
 @property(nonatomic) _Bool forceReplace; // @synthesize forceReplace=_forceReplace;
-@property(nonatomic, getter=isIncomingMessage) _Bool incomingMessage; // @synthesize incomingMessage=_incomingMessage;
-@property(nonatomic) _Bool modifyError; // @synthesize modifyError=_modifyError;
-@property(nonatomic) _Bool modifyFlags; // @synthesize modifyFlags=_modifyFlags;
-@property(nonatomic) _Bool reindexMessage; // @synthesize reindexMessage=_reindexMessage;
-@property(nonatomic) long long reindexReason; // @synthesize reindexReason=_reindexReason;
-@property(nonatomic) _Bool updateMessageCache; // @synthesize updateMessageCache=_updateMessageCache;
 
 @end
 

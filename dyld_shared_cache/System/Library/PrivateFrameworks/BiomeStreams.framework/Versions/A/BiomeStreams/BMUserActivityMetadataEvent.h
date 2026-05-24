@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface BMUserActivityMetadataEvent
 {
     _Bool _hasAssociatedImageRepresentation;
-    double _absoluteTimestamp;
-    NSData *_userActivityData;
-    NSString *_title;
-    NSString *_activityType;
-    NSString *_associatedBundleId;
-    NSString *_associatedURLString;
-    NSString *_modeIdentifier;
-    NSArray *_topics;
-    NSString *_uuid;
 }
 
 + (id);

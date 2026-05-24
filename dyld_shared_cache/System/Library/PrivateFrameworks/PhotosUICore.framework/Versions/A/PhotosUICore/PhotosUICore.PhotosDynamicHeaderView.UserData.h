@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id)nsForClient:(void *)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)fetchSuggestedPersonsForClient:(void *)arg1 options: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

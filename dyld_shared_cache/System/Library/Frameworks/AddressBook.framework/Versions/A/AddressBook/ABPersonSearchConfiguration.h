@@ -9,7 +9,6 @@
 @interface ABPersonSearchConfiguration
 {
     ABPersonListSearchController *_controller;
-    _Bool _shouldSelectBestEntry;
 }
 
 - (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)CPKEmojiIMRequestCoverTouchBarNotification;
 - (void);
 - (void)aA!FùÑª°1Â0@ù
 × ;

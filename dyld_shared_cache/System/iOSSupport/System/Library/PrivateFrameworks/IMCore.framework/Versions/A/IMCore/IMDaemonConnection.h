@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonProtocol;
-
 @interface IMDaemonConnection
 {
     id queue;
-    id setupQueue;
-    id isInvokingSetup;
-    id listener;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)\;
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (_Bool);
@@ -30,9 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;
-@property(nonatomic, copy) CDUnknownBlockType onSetupComplete;
-@property(nonatomic, readonly) id <IMDaemonProtocol> remoteObjectProxy;
-@property(nonatomic, readonly) id <IMDaemonProtocol> synchronousRemoteObjectProxy;
 
 @end
 

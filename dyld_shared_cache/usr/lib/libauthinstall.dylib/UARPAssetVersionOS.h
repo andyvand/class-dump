@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UARPAssetVersionOS
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _releaseVersion;
-    unsigned long long _buildVersion;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)shouldRequireFailureOfGestureRecognizer: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)keyPathsForValuesAffectingZoomScreenShareEnabled;
+- (void)didDetectForceEndPoint;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly) _Bool isValid;
 @property(readonly) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly) unsigned long long releaseVersion; // @synthesize releaseVersion=_releaseVersion;
-@property(readonly) NSString *versionString;
 
 @end
 

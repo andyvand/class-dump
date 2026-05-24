@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineMiddleware, MPCPlayerRequest, NSArray, NSError, NSMapTable, NSString;
+@class MPCPlaybackEngineMiddleware, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackEngineMiddlewareOperation
 {
     NSMapTable *_inputOperations;
-    CDUnknownBlockType _invalidationHandler;
-    NSArray *_invalidationObservers;
-    MPCPlaybackEngineMiddleware *_middleware;
-    MPCPlayerRequest *_playerRequest;
 }
 
 - (void);
@@ -28,25 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)wPlayingInfoCenter:(CDUnknownBlockType)arg1 availableLanguageOptionsForContentItem:completion: /* Error: Ran out of types for this method. */;
+- (void)nowPlayingInfoCenter:(CDUnknownBlockType)arg1 availableLanguageOptionsForContentItem:completion: /* Error: Ran out of types for this method. */;
 - (void)â %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *inputOperations; // @synthesize inputOperations=_inputOperations;
-@property(readonly, nonatomic) NSArray *inputProtocols;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
 @property(retain, nonatomic) MPCPlaybackEngineMiddleware *middleware; // @synthesize middleware=_middleware;
-@property(readonly, nonatomic) NSArray *outputProtocols;
-@property(retain, nonatomic) MPCPlayerRequest *playerRequest; // @synthesize playerRequest=_playerRequest;
-@property(readonly) Class superclass;
 
 @end
 

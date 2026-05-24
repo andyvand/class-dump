@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionReusableView;
+@class NSArray, UICollectionReusableView;
 
 @protocol UICollectionViewDataSource
 
 @optional
+- (long long)c;
+- (NSArray *)Q\;
+- (long long);
 - (UICollectionReusableView *)ñ	Ð1Â0@ù
 × ;
 @end

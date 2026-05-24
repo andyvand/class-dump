@@ -9,12 +9,10 @@
 @interface MREffectStretchableSlide : MREffect
 {
     struct CGRect mSpriteInnerRect;
-    struct CGRect mImageInnerRect;
-    _Bool mDontDrawInner;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
 - (_Bool);
 - (void);
 

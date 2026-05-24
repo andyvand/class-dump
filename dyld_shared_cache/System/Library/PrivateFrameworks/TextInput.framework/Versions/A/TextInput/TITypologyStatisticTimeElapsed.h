@@ -11,10 +11,9 @@
 @interface TITypologyStatisticTimeElapsed : TITypologyStatistic
 {
     TITypologyTimer *_timer;
-    TITypologyTimer *_adjustedTimer;
 }
 
-- (id);
+- (id)conversationIdentifier;
 - (id);
 - (id);
 - (void);
@@ -25,12 +24,9 @@
 - (id)Á´¨Í¤È;
 - (void)¤
 ;
-- (double);
+- (double)atone;
 
 // Remaining properties
-@property(readonly, nonatomic) double adjustedElapsedTime;
-@property(retain, nonatomic) TITypologyTimer *adjustedTimer; // @synthesize adjustedTimer=_adjustedTimer;
-@property(readonly, nonatomic) double elapsedTime;
 @property(retain, nonatomic) TITypologyTimer *timer; // @synthesize timer=_timer;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INCurrencyAmount, INPerson, NSString;
+@class INPerson;
 
 @interface INRequestPaymentIntent : INIntent
 {
@@ -15,16 +15,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) INCurrencyAmount *currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *note;
 @property(readonly, copy) INPerson *payer;
-@property(readonly) Class superclass;
 
 @end
 

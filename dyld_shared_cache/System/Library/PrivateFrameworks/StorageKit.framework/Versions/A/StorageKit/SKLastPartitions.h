@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SKLastPartitions
 {
     SKDisk *_resizablePart;
-    SKDisk *_recoveryPart;
-    unsigned long long _nonResizableSize;
 }
 
 + (unsigned long long);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long nonResizableSize; // @synthesize nonResizableSize=_nonResizableSize;
-@property(readonly, nonatomic) SKDisk *recoveryPart; // @synthesize recoveryPart=_recoveryPart;
 @property(readonly, nonatomic) SKDisk *resizablePart; // @synthesize resizablePart=_resizablePart;
 
 @end

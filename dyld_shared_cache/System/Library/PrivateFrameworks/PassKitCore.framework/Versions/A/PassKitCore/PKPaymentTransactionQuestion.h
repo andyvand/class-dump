@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-
 @interface PKPaymentTransactionQuestion
 {
     _Bool _answered;
-    _Bool _answeredOnThisDevice;
-    _Bool _messageDismissed;
-    unsigned long long _type;
-    NSDate *_expirationDate;
-    NSString *_answer;
 }
 
 + (_Bool)0@ù
@@ -34,21 +27,15 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)b1"eventType"b1"interfaceType"b1"isInitiator"b1"protocolVersion"b1"providerType"b1"resultCode"b1"retryCount"b1"skeEnabled"b1"transportType"b1};
+- (void)leArray",&,N,V_cTLMIndex1s;
 - (void);
 - (id);
 - (id);
-- (id)ype;
-- (void)dentifierKey;
+- (id)hasRequestType;
+- (void)PKOverrideMarketGeoExpressOpenLoopNotificationIdentifierKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedAnswers;
-@property(copy, nonatomic) NSString *answer; // @synthesize answer=_answer;
-@property(nonatomic) _Bool answered; // @synthesize answered=_answered;
-@property(nonatomic) _Bool answeredOnThisDevice; // @synthesize answeredOnThisDevice=_answeredOnThisDevice;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool messageDismissed; // @synthesize messageDismissed=_messageDismissed;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 @interface CKRecordFetchAggregatorOperationInfo
 {
     _Bool _fetchAssetContents;
-    _Bool _fetchMergeableValues;
-    _Bool _preserveOrdering;
-    _Bool _forceDecryptionAttempt;
-    NSSet *_desiredKeys;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
 }
 
 - (id);
@@ -22,7 +15,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)signDataWithRegistrationFormatter:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)½;
@@ -32,12 +25,7 @@
 - (void)RL %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(retain, nonatomic) NSSet *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
 @property(nonatomic) _Bool fetchAssetContents; // @synthesize fetchAssetContents=_fetchAssetContents;
-@property(nonatomic) _Bool fetchMergeableValues; // @synthesize fetchMergeableValues=_fetchMergeableValues;
-@property(nonatomic) _Bool forceDecryptionAttempt; // @synthesize forceDecryptionAttempt=_forceDecryptionAttempt;
-@property(nonatomic) _Bool preserveOrdering; // @synthesize preserveOrdering=_preserveOrdering;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.BackgroundSystemTask
 {
     id deferralDelegate;
-    id taskCompletedHandler;
-    id wasDeferred;
 }
 
 @end

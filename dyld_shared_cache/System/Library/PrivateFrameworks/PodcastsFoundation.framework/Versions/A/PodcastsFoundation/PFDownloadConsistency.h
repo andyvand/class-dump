@@ -7,10 +7,6 @@
 @interface PFDownloadConsistency
 {
     id listener;
-    id identifier;
-    id resolutionStrategy;
-    id effectApplicator;
-    id environment;
 }
 
 - (void);

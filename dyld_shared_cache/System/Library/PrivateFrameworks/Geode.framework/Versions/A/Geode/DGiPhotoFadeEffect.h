@@ -9,16 +9,10 @@
 @interface DGiPhotoFadeEffect
 {
     CIFilter *_saturationFilter;
-    CIFilter *_temperatureFilter;
-    CIFilter *_exposureFilter;
-    float _level;
-    float _saturation;
-    float _temperature;
-    float _exposure;
 }
 
 - (void);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (void);

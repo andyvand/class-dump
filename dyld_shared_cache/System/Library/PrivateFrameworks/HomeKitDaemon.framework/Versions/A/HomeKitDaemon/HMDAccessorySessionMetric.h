@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2AccessorySessionInfo, HMDCharacteristicReadWriteLogEventManager, HMDHAPAccessory, NSDate, NSDictionary, NSError, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHAPAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySessionMetric
 {
     _Bool _isFromPrimary;
-    _Bool _isBonjourUpdateForced;
-    _Bool _hasActiveSession;
-    _Bool _isReachable;
-    NSString *_accessoryTransport;
-    double _activeSessionDurationSec;
-    double _reachableDurationSec;
-    unsigned long long _sessionFailures;
-    unsigned long long _successfulSessionRetries;
-    NSError *_topError;
-    double _submissionIntervalSec;
-    NSString *_expectedTransport;
-    HAP2AccessorySessionInfo *_sessionInfo;
-    HMDHAPAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCharacteristicReadWriteLogEventManager *_readWriteLogEventManager;
-    NSDate *_sessionStartTime;
-    NSDate *_reachableStartTime;
-    NSDate *_metricCollectionStartTime;
-    NSMutableDictionary *_errorCounts;
 }
 
 + (id)C;
+- (void));
+- (void)actValue called for handle %@ with %{public}@/%{public}@. Will pass to trip service.;
+- (id)dentifier:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ntents;
+- (double)le.LaunchServices.applicationUnregistered;
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
+- (id)ԁP;
 - (id);
-- (id);
-- (double);
-- (id);
+- (double)R;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -64,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
@@ -75,17 +55,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)_createSessionElapsed;
+- (unsigned long long)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)ges;
+- (void)_hasEntitledClientOnlyChanges;
 - (void)ÿ¸;
 - (id)e resident device identifier found in peristed state:%@ /* Error: Ran out of types for this method. */;
 - (id)work '%@;
@@ -96,37 +76,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(copy, nonatomic) NSString *accessoryTransport; // @synthesize accessoryTransport=_accessoryTransport;
-@property(nonatomic) double activeSessionDurationSec; // @synthesize activeSessionDurationSec=_activeSessionDurationSec;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *errorCounts; // @synthesize errorCounts=_errorCounts;
-@property(readonly, nonatomic) NSString *expectedTransport; // @synthesize expectedTransport=_expectedTransport;
-@property(nonatomic) _Bool hasActiveSession; // @synthesize hasActiveSession=_hasActiveSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBonjourUpdateForced; // @synthesize isBonjourUpdateForced=_isBonjourUpdateForced;
-@property(nonatomic) _Bool isFromPrimary; // @synthesize isFromPrimary=_isFromPrimary;
-@property(readonly, nonatomic) _Bool isHomeThreadCapable;
-@property(readonly, nonatomic) _Bool isPrimaryResidentThreadCapable;
-@property(nonatomic) _Bool isReachable; // @synthesize isReachable=_isReachable;
-@property(readonly, nonatomic) _Bool isThreadNetworkUp;
-@property(copy, nonatomic) NSDate *metricCollectionStartTime; // @synthesize metricCollectionStartTime=_metricCollectionStartTime;
-@property(nonatomic) double reachableDurationSec; // @synthesize reachableDurationSec=_reachableDurationSec;
-@property(copy, nonatomic) NSDate *reachableStartTime; // @synthesize reachableStartTime=_reachableStartTime;
-@property(readonly, nonatomic) HMDCharacteristicReadWriteLogEventManager *readWriteLogEventManager; // @synthesize readWriteLogEventManager=_readWriteLogEventManager;
-@property(readonly, nonatomic) double sessionCheckIntervalSec;
-@property(nonatomic) unsigned long long sessionFailures; // @synthesize sessionFailures=_sessionFailures;
-@property(copy, nonatomic) HAP2AccessorySessionInfo *sessionInfo; // @synthesize sessionInfo=_sessionInfo;
-@property(copy, nonatomic) NSDate *sessionStartTime; // @synthesize sessionStartTime=_sessionStartTime;
-@property(readonly, copy, nonatomic) NSDictionary *state;
-@property(nonatomic) double submissionIntervalSec; // @synthesize submissionIntervalSec=_submissionIntervalSec;
-@property(nonatomic) unsigned long long successfulSessionRetries; // @synthesize successfulSessionRetries=_successfulSessionRetries;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSError *topError; // @synthesize topError=_topError;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

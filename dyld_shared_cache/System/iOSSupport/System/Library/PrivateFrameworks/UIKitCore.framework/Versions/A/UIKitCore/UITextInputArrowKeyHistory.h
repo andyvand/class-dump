@@ -10,24 +10,18 @@ __attribute__((visibility("hidden")))
 @interface UITextInputArrowKeyHistory
 {
     UITextPosition *startPosition;
-    long long amount;
-    int anchor;
-    UITextPosition *start;
-    UITextPosition *end;
-    UITextPosition *cursor;
-    _Bool affinityDownstream;
 }
 
-- (void);
-- (_Bool);
+- (void)IMAssistiveAccessIndirectContactsQueryDelegate;
+- (_Bool)dy deduplicated ***;
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)$;
 - (id);
 - (id)_sendWillEndWithOperation: /* Error: Ran out of types for this method. */;
-- (id)rollerBottomLayoutGuide;
+- (id)UIViewControllerBottomLayoutGuide;
 - (void)_;
 - (void)å"ÿiV;
 - (void)úþ¦ÔD b;
@@ -35,12 +29,6 @@ __attribute__((visibility("hidden")))
 - (void)àòg;
 
 // Remaining properties
-@property(nonatomic) _Bool affinityDownstream; // @synthesize affinityDownstream;
-@property(nonatomic) long long amount; // @synthesize amount;
-@property(nonatomic) int anchor; // @synthesize anchor;
-@property(retain, nonatomic) UITextPosition *cursor; // @synthesize cursor;
-@property(retain, nonatomic) UITextPosition *end; // @synthesize end;
-@property(retain, nonatomic) UITextPosition *start; // @synthesize start;
 @property(retain, nonatomic) UITextPosition *startPosition; // @synthesize startPosition;
 
 @end

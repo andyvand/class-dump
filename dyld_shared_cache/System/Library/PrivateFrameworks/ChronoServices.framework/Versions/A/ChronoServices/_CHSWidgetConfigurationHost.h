@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetMetricsSpecification, NSArray, NSString;
+@class CHSWidgetMetricsSpecification, NSString;
 
 @interface _CHSWidgetConfigurationHost
 {
     NSString *_identifier;
-    NSArray *_configurations;
-    CHSWidgetMetricsSpecification *_metricsSpecification;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)rationSecs;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, copy, nonatomic) CHSWidgetMetricsSpecification *metricsSpecification;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *widgetConfigurations;
 
 @end
 

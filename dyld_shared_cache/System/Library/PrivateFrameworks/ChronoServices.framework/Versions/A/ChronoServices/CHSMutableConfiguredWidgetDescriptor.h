@@ -6,8 +6,7 @@
 
 #import <ChronoServices/CHSConfiguredWidgetDescriptor.h>
 
-@class CHSWidgetDisplayProperties, NSArray, NSDateComponents;
-@protocol CHSWidgetRefreshStrategy;
+@class NSDateComponents;
 
 @interface CHSMutableConfiguredWidgetDescriptor : CHSConfiguredWidgetDescriptor
 {
@@ -22,25 +21,14 @@
 - (void);
 - (void);
 - (void);
+- (void)AccessChangedNotification registered.;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void)Ø;
 
 // Remaining properties
-@property(copy, nonatomic) CHSWidgetDisplayProperties *displayProperties; // @dynamic displayProperties;
 @property(retain, nonatomic) NSDateComponents *idealizedDateComponents; // @dynamic idealizedDateComponents;
-@property(retain, nonatomic) id <CHSWidgetRefreshStrategy> refreshStrategy; // @dynamic refreshStrategy;
-@property(nonatomic) _Bool showsComplicationLabel;
-@property(nonatomic) _Bool showsWidgetLabel; // @dynamic showsWidgetLabel;
-@property(nonatomic, getter=isSuggestion) _Bool suggestion; // @dynamic suggestion;
-@property(nonatomic) unsigned long long supportedColorSchemes; // @dynamic supportedColorSchemes;
-@property(nonatomic) unsigned long long supportedProximities; // @dynamic supportedProximities;
-@property(copy, nonatomic) NSArray *supportedRenderSchemes; // @dynamic supportedRenderSchemes;
-@property(nonatomic) unsigned long long supportedRenderingModes; // @dynamic supportedRenderingModes;
-@property(nonatomic) _Bool supportsLowLuminance; // @dynamic supportsLowLuminance;
-@property(nonatomic, getter=isSystemConfigured) _Bool systemConfigured; // @dynamic systemConfigured;
 
 @end
 

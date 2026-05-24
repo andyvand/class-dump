@@ -6,14 +6,11 @@
 
 #import <PowerlogLiteOperators/PLDuetServiceImpl.h>
 
-@class NSMutableDictionary, PLEntryNotificationOperatorComposition, PLXPCListenerOperatorComposition;
+@class NSMutableDictionary;
 
 @interface PLDuetServiceSimple : PLDuetServiceImpl
 {
     _Bool _isCharging;
-    NSMutableDictionary *_bundleIDToState;
-    PLXPCListenerOperatorComposition *_resetListener;
-    PLEntryNotificationOperatorComposition *_chargingListener;
 }
 
 - (void);
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *bundleIDToState; // @synthesize bundleIDToState=_bundleIDToState;
-@property(retain) PLEntryNotificationOperatorComposition *chargingListener; // @synthesize chargingListener=_chargingListener;
-@property _Bool isCharging; // @synthesize isCharging=_isCharging;
-@property(retain) PLXPCListenerOperatorComposition *resetListener; // @synthesize resetListener=_resetListener;
 
 @end
 

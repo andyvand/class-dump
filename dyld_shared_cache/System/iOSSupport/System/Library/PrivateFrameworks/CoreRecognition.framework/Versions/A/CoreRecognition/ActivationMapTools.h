@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (int);
 + (id);
-+ (id);
++ (id);
 
 @end
 

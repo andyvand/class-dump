@@ -6,21 +6,20 @@
 
 #import <Vision/VNDetector.h>
 
-@class VNCIContrastFromAverageColorFilter, VNCIContrastWithPivotColorFilter;
+@class VNCIContrastFromAverageColorFilter;
 
 __attribute__((visibility("hidden")))
 @interface VNContoursDetector : VNDetector
 {
     VNCIContrastFromAverageColorFilter *_ciContrastFromAvgFilter;
-    VNCIContrastWithPivotColorFilter *_ciContrastWithPivotFilter;
 }
 
-+ (id);
++ (id)CNContactStoreContactsFetchResult;
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void)ositeType;
+- (id);
+- (void)supplementalCompositeType;
 
 @end
 

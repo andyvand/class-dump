@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PHCloudIdentifierLookup
 {
     PHPhotoLibrary *_photoLibrary;
-    NSDictionary *_cloudIdentifierKeysByFetchType;
-    NSArray *_cloudIdentifiers;
-    NSMutableDictionary *_localIdentifersByCloudIdentiferStrings;
-    NSMutableSet *_unresolvedCloudIdentifierStrings;
-    NSMutableDictionary *_resolvedCloudIdentifiersForLocalCloudIdentifiers;
-    NSMutableDictionary *_cloudIdentifiersByLocalIdentifiers;
-    _Bool _excludeUnsyncedItems;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (id);

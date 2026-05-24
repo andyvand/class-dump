@@ -11,17 +11,16 @@
 @interface ASDRingBufferInputStream : ASDStream
 {
     struct unique_ptr<ASDBufferList, std::default_delete<ASDBufferList>> _bufferList;
-    id <ASDManagedRingBuffer> _ringBuffer;
 }
 
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)numWriteThirdPartyApp;
+- (CDUnknownBlockType)makeLockNotificationManagerWithHomeUUID:workQueue: /* Error: Ran out of types for this method. */;
+- (id)che:(unsigned int)arg1 streamPreference:(id)arg2;
+- (void)<;
+- (void).;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)gistrationURL.;
 - (void);
 
 // Remaining properties

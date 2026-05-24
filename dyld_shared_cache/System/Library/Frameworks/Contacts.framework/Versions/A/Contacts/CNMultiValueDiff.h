@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)t create dynamic store;
 - (id);
 - (_Bool);
 - (void)!q&ð!Aù1*°1Â0@ù

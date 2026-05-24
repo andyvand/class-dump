@@ -5,28 +5,24 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CWFKernelEventMonitor
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSObject<OS_dispatch_source> *_keventSource;
-    _Bool _isMonitoringEvents;
-    CDUnknownBlockType _eventHandler;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)modelDisplayName;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)SNCapabilities;
+- (void)RSNCapabilities;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;

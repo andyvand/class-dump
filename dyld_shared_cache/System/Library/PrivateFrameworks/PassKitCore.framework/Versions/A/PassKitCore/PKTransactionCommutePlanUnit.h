@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKTransactionCommutePlanUnit
 {
     NSString *_identifier;
-    NSString *_label;
-    unsigned long long _planType;
-    PKCurrencyAmount *_valueCount;
 }
 
-+ (_Bool);
++ (_Bool)T;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?	;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)addJitterBufferUnderflowRateHistogram:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id)AddressInvalidErrorWithKey:(id)arg1 localizedDescription: /* Error: Ran out of types for this method. */;
+- (id)paymentBillingAddressInvalidErrorWithKey:(id)arg1 localizedDescription: /* Error: Ran out of types for this method. */;
 - (void)@' has no issuer country, falling back to global networks;
 - (void)d1cd-8a3e-818564739479/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/258x258.png;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) unsigned long long planType; // @synthesize planType=_planType;
-@property(readonly, copy, nonatomic) PKCurrencyAmount *valueCount; // @synthesize valueCount=_valueCount;
 
 @end
 

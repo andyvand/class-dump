@@ -4,147 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventAuthenticationMessage, BKSWindowServerHitTestSecurityAnalysis, NSArray, NSMutableArray, NSNumber, NSString, UIResponder, UIView, UIWindow, _UIEventComponentPhaseValue, _UISTouchAuthenticationRecord, _UITouchPredictor;
-@protocol _UIGestureRecognizerContainer, _UITouchPhaseChangeDelegate;
-
 @interface UITouch
 {
     double _movementMagnitudeSquared;
-    long long _phase;
-    unsigned long long _tapCount;
-    long long _edgeType;
-    unsigned long long _edgeAim;
-    unsigned long long _precision;
-    unsigned int _touchIdentifier;
-    UIWindow *_window;
-    UIResponder<_UIGestureRecognizerContainer> *_responder;
-    UIView *_cachedResponderView;
-    UIView *_warpedIntoView;
-    NSMutableArray *_gestureRecognizers;
-    NSMutableArray *_forwardingRecord;
-    struct CGPoint _locationInWindow;
-    struct CGPoint _previousLocationInWindow;
-    struct CGPoint _preciseLocationInWindow;
-    struct CGPoint _precisePreviousLocationInWindow;
-    double _previousPressure;
-    long long _pathIndex;
-    unsigned char _pathIdentity;
-    double _pathMajorRadius;
-    double _majorRadiusTolerance;
-    double _pressure;
-    double _maxObservedPressure;
-    float _zGradient;
-    struct {
-        unsigned int _firstTouchForView:1;
-        unsigned int _isTap:1;
-        unsigned int _isDelayed:1;
-        unsigned int _sentTouchesEnded:1;
-        unsigned int _abandonForwardingRecord:1;
-        unsigned int _deliversUpdatesInTouchesMovedIsValid:1;
-        unsigned int _deliversUpdatesInTouchesMoved:1;
-        unsigned int _isPredictedTouch:1;
-        unsigned int _didDispatchAsEnded:1;
-        unsigned int _isPointerTouch:1;
-    } _touchFlags;
-    _UITouchPredictor *_touchPredictor;
-    double _rollAngle;
-    double _previousRollAngle;
-    _Bool _eaten;
-    _Bool _needsForceUpdate;
-    _Bool _hasForceUpdate;
-    unsigned char _forceStage;
-    _Bool _needsRollUpdate;
-    _Bool _hasRollUpdate;
-    _Bool __expectedToBecomeDrag;
-    double _timestamp;
-    long long _updateCorrelationToken;
-    double _maximumPossiblePressure;
-    unsigned long long _senderID;
-    struct __IOHIDEvent *_hidEvent;
-    double _altitudeAngle;
-    unsigned long long _pointerSenderID;
-    unsigned long long _pointerSource;
-    _UISTouchAuthenticationRecord *_touchAuthenticationRecord;
-    long long _type;
-    id <_UITouchPhaseChangeDelegate> __phaseChangeDelegate;
-    UIWindow *__windowServerHitTestWindow;
-    double _azimuthAngleInCADisplay;
-    double _azimuthAngleInWindow;
-    BKSHIDEventAuthenticationMessage *__authenticationMessage;
-    BKSWindowServerHitTestSecurityAnalysis *__hitTestSecurityAnalysis;
-    double _initialTouchTimestamp;
-    struct CGSize _displacement;
 }
 
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAuthenticationMessage:) BKSHIDEventAuthenticationMessage *_authenticationMessage; // @synthesize _authenticationMessage=__authenticationMessage;
-@property(nonatomic, setter=_setDisplacement:) struct CGSize _displacement; // @synthesize _displacement;
-@property(nonatomic, getter=_isEaten, setter=_setEaten:) _Bool _eaten; // @synthesize _eaten;
-@property(nonatomic, setter=_setEdgeAim:) unsigned long long _edgeAim; // @synthesize _edgeAim;
-@property(nonatomic, setter=_setEdgeType:) long long _edgeType; // @synthesize _edgeType;
-@property(readonly, nonatomic) _Bool _effectivelyAuthentic;
-@property(retain, nonatomic, setter=_setEventComponentPhase:) _UIEventComponentPhaseValue *_eventComponentPhase;
-@property(readonly, nonatomic) unsigned long long _eventComponentType;
-@property(nonatomic, getter=_expectedToBecomeDrag, setter=_setExpectedToBecomeDrag:) _Bool _expectedToBecomeDrag; // @synthesize _expectedToBecomeDrag=__expectedToBecomeDrag;
-@property(nonatomic, setter=_setForceStage:) unsigned char _forceStage; // @synthesize _forceStage;
-@property(nonatomic, setter=_setHasForceUpdate:) _Bool _hasForceUpdate; // @synthesize _hasForceUpdate;
-@property(nonatomic, setter=_setHasRollUpdate:) _Bool _hasRollUpdate; // @synthesize _hasRollUpdate;
-@property(nonatomic, setter=_setHidEvent:) struct __IOHIDEvent *_hidEvent; // @synthesize _hidEvent;
-@property(retain, nonatomic, setter=_setHitTestSecurityAnalysis:) BKSWindowServerHitTestSecurityAnalysis *_hitTestSecurityAnalysis; // @synthesize _hitTestSecurityAnalysis=__hitTestSecurityAnalysis;
-@property(readonly, nonatomic) _Bool _isHoverPhase;
-@property(nonatomic, setter=_setIsPointerTouch:) _Bool _isPointerTouch;
-@property(nonatomic, setter=_setIsPredictedTouch:) _Bool _isPredictedTouch;
-@property(nonatomic, setter=_setMaximumPossiblePressure:) double _maximumPossiblePressure; // @synthesize _maximumPossiblePressure;
-@property(nonatomic, setter=_setNeedsForceUpdate:) _Bool _needsForceUpdate; // @synthesize _needsForceUpdate;
-@property(nonatomic, setter=_setNeedsRollUpdate:) _Bool _needsRollUpdate; // @synthesize _needsRollUpdate;
-@property(readonly, nonatomic) _Bool _originatesFromPointerEvent;
-@property(nonatomic, setter=_setPathIdentity:) unsigned char _pathIdentity; // @synthesize _pathIdentity;
-@property(nonatomic, setter=_setPathIndex:) long long _pathIndex; // @synthesize _pathIndex;
-@property(retain, nonatomic, setter=_setPhaseChangeDelegate:) id <_UITouchPhaseChangeDelegate> _phaseChangeDelegate; // @synthesize _phaseChangeDelegate=__phaseChangeDelegate;
-@property(nonatomic, setter=_setPointerSenderID:) unsigned long long _pointerSenderID; // @synthesize _pointerSenderID;
-@property(nonatomic, setter=_setIndirectPointerSource:) unsigned long long _pointerSource; // @synthesize _pointerSource;
 @property(nonatomic, setter=_setPrecision:) unsigned long long _precision; // @synthesize _precision;
-@property(readonly, nonatomic) double _pressure; // @synthesize _pressure;
-@property(readonly, nonatomic) _Bool _respectsCharge;
-@property(retain, nonatomic, setter=_setResponder:) UIResponder<_UIGestureRecognizerContainer> *_responder;
-@property(nonatomic, setter=_setSenderID:) unsigned long long _senderID; // @synthesize _senderID;
-@property(retain, nonatomic, setter=_setTouchAuthenticationRecord:) _UISTouchAuthenticationRecord *_touchAuthenticationRecord; // @synthesize _touchAuthenticationRecord;
-@property(readonly, nonatomic) double _unclampedForce;
-@property(nonatomic, setter=_setUpdateCorrelationToken:) long long _updateCorrelationToken; // @synthesize _updateCorrelationToken;
-@property(retain, nonatomic, setter=_setWindowServerHitTestWindow:) UIWindow *_windowServerHitTestWindow; // @synthesize _windowServerHitTestWindow=__windowServerHitTestWindow;
-@property(nonatomic, setter=_setZGradient:) float _zGradient; // @synthesize _zGradient;
-@property(nonatomic, setter=_setAltitudeAngle:) double altitudeAngle; // @synthesize altitudeAngle=_altitudeAngle;
-@property(readonly, nonatomic) double azimuthAngle;
-@property(nonatomic, setter=_setAzimuthAngleInCADisplay:) double azimuthAngleInCADisplay; // @synthesize azimuthAngleInCADisplay=_azimuthAngleInCADisplay;
-@property(readonly, nonatomic) double azimuthAngleInWindow; // @synthesize azimuthAngleInWindow=_azimuthAngleInWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long estimatedProperties;
-@property(readonly, nonatomic) long long estimatedPropertiesExpectingUpdates;
-@property(readonly, nonatomic) NSNumber *estimationUpdateIndex;
-@property(readonly, nonatomic) double force;
-@property(readonly, copy, nonatomic) NSArray *gestureRecognizers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double initialTouchTimestamp; // @synthesize initialTouchTimestamp=_initialTouchTimestamp;
-@property(nonatomic) _Bool isTap;
-@property(nonatomic) double majorRadius; // @synthesize majorRadius=_pathMajorRadius;
-@property(nonatomic) double majorRadiusTolerance; // @synthesize majorRadiusTolerance=_majorRadiusTolerance;
-@property(readonly, nonatomic) double maximumPossibleForce;
-@property(nonatomic) long long phase;
-@property(readonly, nonatomic) double rollAngle;
-@property(nonatomic) _Bool sentTouchesEnded;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tapCount;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic, setter=_setType:) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) UIView *view;
-@property(retain, nonatomic) UIView *warpedIntoView;
-@property(retain, nonatomic) UIWindow *window;
 
 @end
 

@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSString, NSURLSessionConfiguration;
+@class NSObject;
 @protocol C2NetworkingDelegate, NSURLSessionDelegate><C2RequestDelegate;
 
 @interface C2NetworkingDelegateURLSession
 {
     NSObject<C2NetworkingDelegate> *_networkingDelegate;
-    NSString *_sessionDescription;
-    NSOperationQueue *_delegateQueue;
-    NSURLSessionConfiguration *_configuration;
-    id <NSURLSessionDelegate><C2RequestDelegate> _sessionDelegate;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)@	;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)N8Espresso20kernel_with_uniformsINS_23no_op_kernel_parametersEEE;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)h";
+- (void);
+- (void);
+- (id)P;
 
 // Remaining properties
-@property(copy) NSURLSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain) NSOperationQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(nonatomic) __weak NSObject<C2NetworkingDelegate> *networkingDelegate; // @synthesize networkingDelegate=_networkingDelegate;
 @property(nonatomic) __weak id <NSURLSessionDelegate><C2RequestDelegate> sessionDelegate; // @synthesize sessionDelegate=_sessionDelegate;
-@property(copy) NSString *sessionDescription; // @synthesize sessionDescription=_sessionDescription;
 
 @end
 

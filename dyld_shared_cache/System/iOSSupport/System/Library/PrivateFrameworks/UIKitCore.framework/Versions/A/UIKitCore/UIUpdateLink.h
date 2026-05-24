@@ -7,30 +7,26 @@
 @interface UIUpdateLink
 {
     struct ActionListHead _actions;
-    struct _UIUpdateRequest _request;
-    _Bool _engaged;
-    _Bool _active;
-    _Bool _enabled;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (id)n Time Interval:(id)arg1 %f);
++ (id)to:(id)arg1 %@   (Skip Services:(CDUnknownBlockType)arg2 %@   Skip GUIDs:%@   Within Time Interval:%f) /* Error: Ran out of types for this method. */;
++ (id)u];
++ (id){BOOL}d, isCritical %{BOOL}d, fallbackHash (len):(id)arg1 %llu];
++ (id)y:(id)arg1 %{BOOL}d, wasDetonated:(CDUnknownBlockType)arg2 %{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
++ (id)ecovered:(id)arg1 '%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (_Bool)setPosterWasRemoved: /* Error: Ran out of types for this method. */;
+- (_Bool)setPlainTextSubject: /* Error: Ran out of types for this method. */;
+- (void)existingChatsForIDs:(_Bool)arg1 displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (void)it:(_Bool)arg1;
+- (void)cachedOffGridModeAndLastPublisherForHandle:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ing an attachment metadata only sync before we continue with the full sync;
+- (void)*** Nuking CloudKit data ******;
+- (void)%@;
+- (void)er unlock;
+- (void)tains an empty string, rejecting edit;
 - (void);
 - (_Bool);
 - (void);
@@ -45,11 +41,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_isEngaged, setter=_setEngaged:) _Bool _engaged;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
-@property(nonatomic) _Bool requiresContinuousUpdates;
-@property(nonatomic) _Bool wantsImmediatePresentation;
-@property(nonatomic) _Bool wantsLowLatencyEventDispatch;
 
 @end
 

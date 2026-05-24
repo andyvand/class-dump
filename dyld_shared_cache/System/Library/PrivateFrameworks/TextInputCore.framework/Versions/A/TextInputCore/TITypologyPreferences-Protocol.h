@@ -8,16 +8,11 @@
 @protocol TITypologyProfileOptInManaging;
 
 @protocol TITypologyPreferences
+- (double);
+- (long long);
+- (NSURL *)-[SignpostSupportObject tz_dsttime];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTypologyInDatavault;
-@property(readonly, nonatomic) long long maxBytesPersistedTypologyRecords;
-@property(readonly, nonatomic) long long maxBytesPersistedTypologyTraceLogs;
-@property(readonly, nonatomic) double maxLifetimeInterval;
-@property(readonly, nonatomic) unsigned long long persistenceStrategy;
-@property(readonly, nonatomic) NSURL *typologyDirectoryURL;
-@property(readonly, nonatomic) _Bool typologyLoggingEnabled;
-@property(readonly, nonatomic) _Bool typologyLoggingEnabledByProfile;
 @property(nonatomic) __weak id <TITypologyProfileOptInManaging> typologyProfileOptInManager;
 @end
 

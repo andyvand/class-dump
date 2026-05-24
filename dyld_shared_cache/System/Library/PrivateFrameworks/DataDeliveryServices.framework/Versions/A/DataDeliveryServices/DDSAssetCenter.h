@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSMAAutoAssetManager, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString;
-@protocol DDSAssetObserving, DDSAssetProviding, DDSTrialManager, OS_dispatch_queue;
+@protocol DDSAssetProviding;
 
 @interface DDSAssetCenter
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_delegates;
-    id <DDSAssetProviding> _provider;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <DDSAssetObserving> _assetObserver;
-    id <DDSTrialManager> _trialManager;
-    DDSMAAutoAssetManager *_autoAssetManager;
-    NSMutableDictionary *_managerInterfaceByAssetType;
-    CDUnknownBlockType _createXPCInterface;
 }
 
 + (id);
@@ -27,7 +18,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)gsViewController:(id)arg1 Continue button tapped, showing alert view;
 - (id);
 - (void);
 - (id);
@@ -40,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (void);
 - (void);
 - (id);
@@ -54,27 +45,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)mageView;
+- (void)3;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <DDSAssetObserving> assetObserver; // @synthesize assetObserver=_assetObserver;
-@property(readonly, nonatomic) DDSMAAutoAssetManager *autoAssetManager; // @synthesize autoAssetManager=_autoAssetManager;
-@property(readonly, copy) CDUnknownBlockType createXPCInterface; // @synthesize createXPCInterface=_createXPCInterface;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSSet *delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableDictionary *managerInterfaceByAssetType; // @synthesize managerInterfaceByAssetType=_managerInterfaceByAssetType;
-@property(readonly, copy) NSSet *managerInterfaces;
 @property(readonly, nonatomic) id <DDSAssetProviding> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <DDSTrialManager> trialManager; // @synthesize trialManager=_trialManager;
 
 @end
 

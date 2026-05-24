@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVParamCharacteristicList, HAP2TLVServicePropertiesWrapper, HAPTLVUnsignedNumberValue, NSData, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVParamServiceSignature
 {
     HAPTLVUnsignedNumberValue *_instanceID;
-    NSData *_serviceType;
-    HAP2TLVServicePropertiesWrapper *_properties;
-    NSData *_linkedServices;
-    HAP2TLVParamCharacteristicList *_characteristicList;
 }
 
 + (id);
@@ -28,27 +24,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)ADBackgroundTaskRequest;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ytes, size:(id)arg1 %zu offset:%lld file:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void)ralsWithAccessories: /* Error: Ran out of types for this method. */;
+- (void)setDiscoveredPeripheralsWithAccessories: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HAP2TLVParamCharacteristicList *characteristicList; // @synthesize characteristicList=_characteristicList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *instanceID; // @synthesize instanceID=_instanceID;
-@property(retain, nonatomic) NSData *linkedServices; // @synthesize linkedServices=_linkedServices;
-@property(retain, nonatomic) HAP2TLVServicePropertiesWrapper *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSData *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

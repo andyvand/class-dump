@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (_Bool)SaliencyImageRequest;
+- (_Bool)GenerateObjectnessBasedSaliencyImageRequest;
 
 // Remaining properties
 @property(readonly, copy) NSArray *results; // @dynamic results;

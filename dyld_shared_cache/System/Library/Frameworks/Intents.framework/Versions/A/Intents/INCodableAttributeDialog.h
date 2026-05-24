@@ -4,59 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttribute, INCodableDescription, NSString;
+@class INCodableAttribute;
 
 @interface INCodableAttributeDialog
 {
     _Bool _defaultDialog;
-    INCodableAttribute *_codableAttribute;
-    NSString *_formatString;
-    NSString *_formatStringID;
 }
 
 + (_Bool);
-+ (id)Type:(id)arg1 entityName:(id *)arg2 appId:properties:scope:scopeEntityName: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (id);
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 appId:properties:scope:scopeEntityName: /* Error: Ran out of types for this method. */;
+- (id)p;
+- (void)CLSAdditions_Internal;
+- (id)GCStylus;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)9][0-9]?|monday|tuesday|wednesday|thursday|friday|saturday|sunday|noon|today|tomorrow|[0-9][0-9]?(am?|pm?));
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)unt;
+- (void)Counter:(id)arg1 clientID:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void)sOperator;
-- (void)RadioStationIntentResponse;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)speakableGroupNamesOperator;
+- (void)SetRadioStationIntentResponse;
 - (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setCodableAttribute:) __weak INCodableAttribute *_codableAttribute; // @synthesize _codableAttribute;
-@property(readonly, nonatomic) __weak INCodableDescription *_codableDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=isDefaultDialog) _Bool defaultDialog; // @synthesize defaultDialog=_defaultDialog;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(copy, nonatomic) NSString *formatStringID; // @synthesize formatStringID=_formatStringID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

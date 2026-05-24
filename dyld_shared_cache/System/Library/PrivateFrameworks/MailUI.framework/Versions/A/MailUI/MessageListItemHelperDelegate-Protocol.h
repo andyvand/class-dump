@@ -5,5 +5,6 @@
 //
 
 @protocol MessageListItemHelperDelegate
+- (_Bool);
 @end
 

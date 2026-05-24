@@ -6,19 +6,18 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSDate, NSDateInterval, NSNumber, NSUUID, RTLearnedPlaceMO, RTLearnedTransitionMO, RTMapItemMO;
+@class NSDateInterval, NSNumber;
 
 @interface RTLearnedVisitMO : RTCloudManagedObject
 {
     NSDateInterval *_interval;
-    RTMapItemMO *cachedFinerGranularityMapItem;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setEscrowIdentity:(id)arg1;
++ (id)setDeleteStatment:(id)arg1;
++ (id)setData:(id)arg1;
++ (id)%@ becoming %@ opportunistic topics were %@ becoming %@ nonwaking topics were %@ becoming %@ commands were %@ becoming %@;
++ (id)initWithLoginID:(id)arg1 uniqueID:(id)arg2 serviceName:delegateContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -27,33 +26,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_forceCellular;
+- (id);
 - (void)%@ success.;
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItemMO *cachedFinerGranularityMapItem; // @synthesize cachedFinerGranularityMapItem;
-@property(copy, nonatomic) NSNumber *confidence; // @dynamic confidence;
-@property(copy, nonatomic) NSNumber *dataPointCount; // @dynamic dataPointCount;
-@property(copy, nonatomic) NSDate *entryDate; // @dynamic entryDate;
-@property(copy, nonatomic) NSDate *exitDate; // @dynamic exitDate;
-@property(copy, nonatomic) NSNumber *finerGranularityMapItemConfidence; // @dynamic finerGranularityMapItemConfidence;
-@property(copy, nonatomic) NSUUID *finerGranularityMapItemIdentifier; // @dynamic finerGranularityMapItemIdentifier;
-@property(copy, nonatomic) NSNumber *finerGranularityMapItemSource; // @dynamic finerGranularityMapItemSource;
-@property(retain, nonatomic) RTLearnedTransitionMO *inbound; // @dynamic inbound;
-@property(readonly, nonatomic) NSDateInterval *interval; // @synthesize interval=_interval;
-@property(copy, nonatomic) NSNumber *locationAltitude; // @dynamic locationAltitude;
-@property(copy, nonatomic) NSNumber *locationHorizontalUncertainty;
-@property(copy, nonatomic) NSNumber *locationLatitude; // @dynamic locationLatitude;
-@property(copy, nonatomic) NSNumber *locationLongitude; // @dynamic locationLongitude;
-@property(copy, nonatomic) NSNumber *locationReferenceFrame; // @dynamic locationReferenceFrame;
-@property(copy, nonatomic) NSNumber *locationSourceAccuracy; // @dynamic locationSourceAccuracy;
 @property(copy, nonatomic) NSNumber *locationUncertainty; // @dynamic locationUncertainty;
-@property(copy, nonatomic) NSNumber *locationVerticalUncertainty; // @dynamic locationVerticalUncertainty;
-@property(retain, nonatomic) RTLearnedTransitionMO *outbound; // @dynamic outbound;
-@property(retain, nonatomic) RTLearnedPlaceMO *place; // @dynamic place;
-@property(copy, nonatomic) NSNumber *placeConfidence; // @dynamic placeConfidence;
-@property(copy, nonatomic) NSNumber *placeSource; // @dynamic placeSource;
 
 @end
 

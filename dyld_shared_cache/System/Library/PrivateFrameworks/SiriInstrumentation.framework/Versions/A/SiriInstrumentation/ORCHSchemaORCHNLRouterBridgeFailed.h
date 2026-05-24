@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHNLRouterBridgeRoutingDecision;
-
 @interface ORCHSchemaORCHNLRouterBridgeFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    ORCHSchemaORCHNLRouterBridgeRoutingDecision *_routingDecision;
-    CDStruct_7b2c8649 _has;
-    _Bool _hasRoutingDecision;
 }
 
 - (void);
@@ -25,34 +19,28 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ngSession"24{CGPoint=dd}32Q48;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool).-;
 - (id);
-- (void);
+- (void)-;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool);
+- (int);
 - (id);
 - (id)!<BùñÝð1Â0@ù
 × ;
-- (id)ontactFirstNamePhoneticScore;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)_contactFirstNamePhoneticScore;
+- (id)setHasAppIntentSignalGenerated: /* Error: Ran out of types for this method. */;
 - (void)queryResults.candidates.value.value.primitive.app.bundleId;
 - (void);
 - (int)@.»ÿq;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasRoutingDecision; // @synthesize hasRoutingDecision=_hasRoutingDecision;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHNLRouterBridgeRoutingDecision *routingDecision; // @synthesize routingDecision=_routingDecision;
 
 @end
 

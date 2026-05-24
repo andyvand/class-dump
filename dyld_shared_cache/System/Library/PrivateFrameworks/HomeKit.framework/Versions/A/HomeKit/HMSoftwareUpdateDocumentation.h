@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHTMLDocument, HMPlainTextDocument, NSNumber;
+@class HMHTMLDocument;
 
 @interface HMSoftwareUpdateDocumentation
 {
     HMHTMLDocument *_releaseNotesSummary;
-    HMHTMLDocument *_releaseNotes;
-    HMPlainTextDocument *_textReleaseNotes;
-    HMHTMLDocument *_licenseAgreement;
-    NSNumber *_licenseAgreementVersion;
 }
 
 
 // Remaining properties
-@property(readonly, copy) HMHTMLDocument *licenseAgreement; // @synthesize licenseAgreement=_licenseAgreement;
-@property(readonly, copy) NSNumber *licenseAgreementVersion; // @synthesize licenseAgreementVersion=_licenseAgreementVersion;
-@property(readonly, copy) HMHTMLDocument *releaseNotes; // @synthesize releaseNotes=_releaseNotes;
 @property(readonly, copy) HMHTMLDocument *releaseNotesSummary; // @synthesize releaseNotesSummary=_releaseNotesSummary;
-@property(readonly, copy) HMPlainTextDocument *textReleaseNotes; // @synthesize textReleaseNotes=_textReleaseNotes;
 @end
 

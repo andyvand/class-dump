@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSTimeChangeType, NSString;
-
 @interface EWSTimeZoneType
 {
     _Bool _IsBaseOffsetSpecified;
-    double _BaseOffset;
-    EWSTimeChangeType *_Standard;
-    EWSTimeChangeType *_Daylight;
-    NSString *_TimeZoneName;
 }
 
 + (id);
++ (id));
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -33,26 +27,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double)	;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)J;
 
 // Remaining properties
 @property(nonatomic) double BaseOffset; // @synthesize BaseOffset=_BaseOffset;
-@property(retain, nonatomic) EWSTimeChangeType *Daylight; // @synthesize Daylight=_Daylight;
-@property(nonatomic) _Bool IsBaseOffsetSpecified; // @synthesize IsBaseOffsetSpecified=_IsBaseOffsetSpecified;
-@property(retain, nonatomic) EWSTimeChangeType *Standard; // @synthesize Standard=_Standard;
-@property(readonly, copy, nonatomic) NSString *StandardTimeZoneName;
-@property(copy, nonatomic) NSString *TimeZoneName; // @synthesize TimeZoneName=_TimeZoneName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

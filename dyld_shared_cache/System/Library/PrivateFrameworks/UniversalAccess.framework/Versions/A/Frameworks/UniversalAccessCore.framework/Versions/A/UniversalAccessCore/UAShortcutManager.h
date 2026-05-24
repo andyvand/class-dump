@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
-
 @interface UAShortcutManager
 {
     _Bool __registeredForNotifications;
-    _Bool __needToReload;
-    CDUnknownBlockType __handler;
-    NSMutableArray *__orderedCategories;
-    NSMutableDictionary *__vendedCategoriesByIdentifier;
-    NSDictionary *__vendedFeaturesByIdentifier;
-    NSMutableArray *__mutableFeaturesAllowedToBeVisibleInTripleClick;
 }
 
 + (id);
@@ -29,40 +21,32 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)uitsource_Invalidate(CMBaseObjectRef);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)N14CoreNavigation3CLP8LogEntry16InternalToolData24GnssMsmtAnalysisToolData15MeasurementDataE;
+- (id)PFSharedLibrarySuggestionsLastBannerDismissDateKey;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void)o property (error = %d);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _handler; // @synthesize _handler=__handler;
-@property(retain, nonatomic) NSMutableArray *_mutableFeaturesAllowedToBeVisibleInTripleClick; // @synthesize _mutableFeaturesAllowedToBeVisibleInTripleClick=__mutableFeaturesAllowedToBeVisibleInTripleClick;
-@property(nonatomic) _Bool _needToReload; // @synthesize _needToReload=__needToReload;
-@property(retain, nonatomic) NSMutableArray *_orderedCategories; // @synthesize _orderedCategories=__orderedCategories;
-@property(nonatomic) _Bool _registeredForNotifications; // @synthesize _registeredForNotifications=__registeredForNotifications;
-@property(retain, nonatomic) NSMutableDictionary *_vendedCategoriesByIdentifier; // @synthesize _vendedCategoriesByIdentifier=__vendedCategoriesByIdentifier;
-@property(copy) NSDictionary *_vendedFeaturesByIdentifier; // @synthesize _vendedFeaturesByIdentifier=__vendedFeaturesByIdentifier;
-@property(readonly, copy, nonatomic) NSArray *categories;
-@property(readonly, nonatomic) _Bool shouldShowSystemPrefLinks;
 
 @end
 

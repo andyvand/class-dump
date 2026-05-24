@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)reRecoveryKeysDistrusted succeeded, octagon circle contains distrusted recovery keys:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSAutodiscoverKillSwitch, EWSAutodiscoverV2Binding, EWSAutodiscoverV2Response, NSError, NSString, NSURLSession;
-
 @interface EWSAutodiscoverV2Operation
 {
     _Bool _isOnPrem;
-    _Bool _logsActivity;
-    _Bool _inProgress;
-    _Bool _retrieveAuthURI;
-    EWSAutodiscoverV2Operation *_me;
-    NSString *_emailAddress;
-    EWSAutodiscoverV2Response *_response;
-    EWSAutodiscoverV2Binding *_binding;
-    NSError *_error;
-    NSURLSession *_session;
-    EWSAutodiscoverKillSwitch *_killSwitch;
-    NSString *_protocol;
 }
 
 + (id);
@@ -37,42 +24,24 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)I;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void),s;
+- (void)sses parameter for the update contact intent;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)V_codeChallengeMethod;
 
 // Remaining properties
-@property(readonly, nonatomic) EWSAutodiscoverV2Binding *binding; // @synthesize binding=_binding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property(nonatomic) _Bool isOnPrem; // @synthesize isOnPrem=_isOnPrem;
-@property(retain, nonatomic) EWSAutodiscoverKillSwitch *killSwitch; // @synthesize killSwitch=_killSwitch;
-@property _Bool logsActivity; // @synthesize logsActivity=_logsActivity;
 @property(retain, nonatomic) EWSAutodiscoverV2Operation *me; // @synthesize me=_me;
-@property(retain, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
-@property(retain, nonatomic) EWSAutodiscoverV2Response *response; // @synthesize response=_response;
-@property(nonatomic) _Bool retrieveAuthURI; // @synthesize retrieveAuthURI=_retrieveAuthURI;
-@property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

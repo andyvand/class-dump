@@ -5,5 +5,6 @@
 //
 
 @protocol AMSPaymentViewServiceProtocol
+- (void)s;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @protocol _UIScenePresenterOwnerDelegate
-- (void)er;
+- (void)_appearingOrAppearedChildModalViewController;
 @end
 

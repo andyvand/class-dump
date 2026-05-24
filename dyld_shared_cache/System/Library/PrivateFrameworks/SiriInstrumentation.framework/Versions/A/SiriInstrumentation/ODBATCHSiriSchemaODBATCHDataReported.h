@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODBATCHSiriSchemaODBATCHDataReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalClockId;
-    unsigned int _daysWithTwoValidAssistantTurnsPerWeek;
-    unsigned int _daysWithTwoAssistantSpeechRequestsPerWeek;
-    CDStruct_d0dd3291 _has;
-    _Bool _hasOriginalClockId;
 }
 
 - (void);
@@ -25,32 +21,26 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)0y;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)dictionaryCount;
 - (id)DonationEventMetaData",&,N,V_eventMetaData;
-- (void)TURNTYPE_ACTIVATED;
+- (void)IFTMGRSPEECHTURNTYPE_ACTIVATED;
 
 // Remaining properties
-@property(nonatomic) unsigned int daysWithTwoAssistantSpeechRequestsPerWeek; // @synthesize daysWithTwoAssistantSpeechRequestsPerWeek=_daysWithTwoAssistantSpeechRequestsPerWeek;
-@property(nonatomic) unsigned int daysWithTwoValidAssistantTurnsPerWeek; // @synthesize daysWithTwoValidAssistantTurnsPerWeek=_daysWithTwoValidAssistantTurnsPerWeek;
-@property(nonatomic) _Bool hasDaysWithTwoAssistantSpeechRequestsPerWeek;
-@property(nonatomic) _Bool hasDaysWithTwoValidAssistantTurnsPerWeek;
-@property(nonatomic) _Bool hasOriginalClockId; // @synthesize hasOriginalClockId=_hasOriginalClockId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalClockId; // @synthesize originalClockId=_originalClockId;
 
 @end

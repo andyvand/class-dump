@@ -9,12 +9,18 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void)histogram for input image [err:(NSNotification *)arg1 %ld];
+- (void)kTDIterationDimension2;
+- (void);
+- (void);
+- (void)A;
+- (void);
 - (void)Aµ#!hFùÑR'ð1Â0@ù
 × ;
 - (void)ceAttributes}}36;
-- (_Bool):(NSWindow *)arg1 rowActionsForRow:edge: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:(NSWindow *)arg1 rowActionsForRow:edge: /* Error: Ran out of types for this method. */;
 - (void)btype:(NSNotification *)arg1 data1:data2: /* Error: Ran out of types for this method. */;
-- (void)nSheet:(NSNotification *)arg1 modalForWindow:modalDelegate:didEndSelector:contextInfo: /* Error: Ran out of types for this method. */;
+- (void)beginSheet:(NSNotification *)arg1 modalForWindow:modalDelegate:didEndSelector:contextInfo: /* Error: Ran out of types for this method. */;
 - (struct CGSize)pheral;
 @end
 

@@ -9,17 +9,16 @@
 @interface GEOLogMsgEventDeviceSyncStatus
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_syncDatas;
 }
 
 + (Class);
-+ (_Bool)sis:(id)arg1;
++ (_Bool)setHasSiriUserConsentsForAnalysis:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)fileExistsAtPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (void)_message_options>",R,N,V_messageOptionsForSyncNoPrompt;
 - (void);
 - (id);
 - (id);
@@ -31,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)eForTransportType:(struct _NSZone *)arg1 countryConfiguration: /* Error: Ran out of types for this method. */;
+- (id)setRoutePointTypeForTransportType:(struct _NSZone *)arg1 countryConfiguration: /* Error: Ran out of types for this method. */;
 - (id)tionCapabilities",&,N;
 - (id)ds ago which is less than the required %f;
 - (id)ø;
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *syncDatas;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

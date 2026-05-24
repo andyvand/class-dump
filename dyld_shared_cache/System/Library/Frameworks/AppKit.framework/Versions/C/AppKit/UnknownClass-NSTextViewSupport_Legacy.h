@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)K(;
 - (id);
 - (_Bool);
 @end

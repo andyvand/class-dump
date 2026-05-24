@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRLyricsTokenProtobuf;
+@class NSString;
 
 @interface _MRLyricsItemProtobuf
 {
     NSString *_lyrics;
-    _MRLyricsTokenProtobuf *_token;
-    _Bool _userProvided;
-    struct {
-        unsigned int userProvided:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -28,22 +23,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)Create(__strong id, NSString *__strong, __strong AFKeyValueObservingHandler, AFKeyValueObservingDeliveryOptions *__strong);
 - (_Bool);
-- (void)earchWithTimeout: /* Error: Ran out of types for this method. */;
+- (void)_onQueue_beginSearchWithTimeout: /* Error: Ran out of types for this method. */;
 - (_Bool)elevision bonjour service.;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLyrics;
-@property(readonly, nonatomic) _Bool hasToken;
-@property(nonatomic) _Bool hasUserProvided;
-@property(retain, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(retain, nonatomic) _MRLyricsTokenProtobuf *token; // @synthesize token=_token;
-@property(nonatomic) _Bool userProvided; // @synthesize userProvided=_userProvided;
 
 @end
 

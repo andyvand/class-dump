@@ -9,9 +9,6 @@
 @interface PKExternalDeviceMigrationPaymentDetails
 {
     NSString *_fpan;
-    NSString *_expiration;
-    NSString *_cvv;
-    NSString *_cardholder;
 }
 
 + (_Bool)X"°!ÌFùî%°1Â0@ù
@@ -24,15 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)migrationTimeInterval;
 - (void);
-- (void)ymentCredentials;
+- (void)paymentCredentials;
 - (id)B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cardholder; // @synthesize cardholder=_cardholder;
-@property(readonly, nonatomic) NSString *cvv; // @synthesize cvv=_cvv;
-@property(readonly, nonatomic) NSString *expiration; // @synthesize expiration=_expiration;
 @property(readonly, nonatomic) NSString *fpan; // @synthesize fpan=_fpan;
 
 @end

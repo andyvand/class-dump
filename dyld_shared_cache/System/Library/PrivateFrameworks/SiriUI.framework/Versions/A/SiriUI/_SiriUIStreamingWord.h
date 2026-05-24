@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _SiriUIStreamingWord : SiriUITintedImageView
 {
     _SiriUIStreamingWord *_previous;
-    long long _insertType;
-    double _glyphLocationInWordX;
-    struct _NSRange _textRange;
 }
 
-+ (id);
++ (id)CNModernAtomIconView;
 - (void);
 - (void);
 - (long long);
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double glyphLocationInWordX; // @synthesize glyphLocationInWordX=_glyphLocationInWordX;
-@property(nonatomic) long long insertType; // @synthesize insertType=_insertType;
 @property(retain, nonatomic) _SiriUIStreamingWord *previous; // @synthesize previous=_previous;
-@property(nonatomic) struct _NSRange textRange; // @synthesize textRange=_textRange;
 
 @end
 

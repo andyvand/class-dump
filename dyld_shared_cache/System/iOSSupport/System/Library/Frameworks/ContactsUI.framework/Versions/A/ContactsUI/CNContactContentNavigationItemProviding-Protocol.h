@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UINavigationItem;
 @protocol CNContactContentNavigationItemDelegate;
 
 @protocol CNContactContentNavigationItemProviding
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *doneButtonItem;
-@property(readonly, nonatomic) UINavigationItem *effectiveNavigationItem;
 @property(nonatomic) __weak id <CNContactContentNavigationItemDelegate> navigationItemDelegate;
 @end
 

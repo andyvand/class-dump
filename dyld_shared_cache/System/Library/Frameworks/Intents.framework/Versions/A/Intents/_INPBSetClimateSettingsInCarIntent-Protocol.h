@@ -4,37 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBDouble, _INPBInteger, _INPBIntentMetadata, _INPBTemperature;
-
 @protocol _INPBSetClimateSettingsInCarIntent
-- (_Bool)armSearch:alarms: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void)@"NSString",R,N,V_identifier;
+- (void)`;
+- (_Bool)initWithAlarmSearch:alarms: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int airCirculationMode;
-@property(retain, nonatomic) _INPBDataString *carName;
-@property(nonatomic) int climateZone;
-@property(nonatomic) _Bool enableAirConditioner;
-@property(nonatomic) _Bool enableAutoMode;
-@property(nonatomic) _Bool enableClimateControl;
-@property(nonatomic) _Bool enableFan;
-@property(retain, nonatomic) _INPBInteger *fanSpeedIndex;
-@property(retain, nonatomic) _INPBDouble *fanSpeedPercentage;
-@property(nonatomic) _Bool hasAirCirculationMode;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasClimateZone;
-@property(nonatomic) _Bool hasEnableAirConditioner;
-@property(nonatomic) _Bool hasEnableAutoMode;
-@property(nonatomic) _Bool hasEnableClimateControl;
-@property(nonatomic) _Bool hasEnableFan;
-@property(readonly, nonatomic) _Bool hasFanSpeedIndex;
-@property(readonly, nonatomic) _Bool hasFanSpeedPercentage;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRelativeFanSpeedSetting;
-@property(nonatomic) _Bool hasRelativeTemperatureSetting;
-@property(readonly, nonatomic) _Bool hasTemperature;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int relativeFanSpeedSetting;
-@property(nonatomic) int relativeTemperatureSetting;
-@property(retain, nonatomic) _INPBTemperature *temperature;
 @end
 

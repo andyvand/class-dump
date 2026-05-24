@@ -11,11 +11,10 @@
 @interface CKScheduledUpdater : CKManualUpdater
 {
     _Bool _updateSynchronouslyIfPossible;
-    NSCountedSet *_holdingUpdatesKeys;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)setWidth:type:forLayer: /* Error: Ran out of types for this method. */;
+- (void)ic_postNotificationOnMainThreadWithName:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
@@ -23,18 +22,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)9(!;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCountedSet *holdingUpdatesKeys; // @synthesize holdingUpdatesKeys=_holdingUpdatesKeys;
-@property(nonatomic) _Bool updateSynchronouslyIfPossible; // @synthesize updateSynchronouslyIfPossible=_updateSynchronouslyIfPossible;
 
 @end
 

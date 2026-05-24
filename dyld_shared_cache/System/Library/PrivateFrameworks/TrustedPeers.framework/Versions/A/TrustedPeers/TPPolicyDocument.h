@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, TPPolicyVersion;
+@class NSArray, TPPolicyVersion;
 
 @interface TPPolicyDocument
 {
     TPPolicyVersion *_version;
-    NSData *_protobuf;
 }
 
 + (id);
@@ -26,23 +25,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
+- (id)xception:(unsigned long long)arg1 %s;
 - (id);
-- (id);
-- (id);
+- (id)";
 - (_Bool);
-- (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly) NSArray *keyViewMapping;
-@property(readonly, nonatomic) NSData *protobuf; // @synthesize protobuf=_protobuf;
-@property(readonly, nonatomic) TPPolicyVersion *version; // @synthesize version=_version;
 
 @end
 

@@ -4,30 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HighlightManager, NSAppearance, NSArray, NSMapTable, NSMutableDictionary, NSMutableSet, NSRelativeDateTimeFormatter, NSString, StartPageCollectionViewLayoutSection, WBSStartPageSuggestionsManager;
-@protocol StartPageCollectionSectionProviderDelegate, StartPageSuggestionsSectionProviderDelegate;
+@class HighlightManager;
+@protocol StartPageSuggestionsSectionProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface StartPageHighlightsSectionProvider
 {
     HighlightManager *_highlightManager;
-    NSArray *_highlights;
-    NSMutableSet *_highlightsIdentifierThatSentFeedback;
-    StartPageCollectionViewLayoutSection *_cachedEmptyItemLayoutSection;
-    _Bool _hideEmptyItemView;
-    _Bool _showingSingleSection;
-    _Bool _inPrivateBrowsing;
-    WBSStartPageSuggestionsManager *_suggestionsManager;
-    NSArray *_suggestions;
-    NSMutableDictionary *_suggestionToAttributionViewMap;
-    NSRelativeDateTimeFormatter *_relativeDateFormatter;
-    NSMapTable *_suggestionItemsToMetadataTokens;
-    NSString *_profileIdentifier;
-    _Bool _usesCompactAppearance;
-    _Bool _usesPrivateBrowsing;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
-    id <StartPageSuggestionsSectionProviderDelegate> _delegate;
 }
 
 - (_Bool);
@@ -35,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -60,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)3;
 - (void);
 - (long long);
 - (void);
@@ -74,35 +57,13 @@ __attribute__((visibility("hidden")))
 - (long long)
 × ;
 - (long long)dsNotificationManager";
-- (id)eloadCompletionListAnimatingDifferences: /* Error: Ran out of types for this method. */;
+- (id)reloadCompletionListAnimatingDifferences: /* Error: Ran out of types for this method. */;
 - (void)È;
 - (_Bool);
 - (void)ãÿLÄ-;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <StartPageSuggestionsSectionProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

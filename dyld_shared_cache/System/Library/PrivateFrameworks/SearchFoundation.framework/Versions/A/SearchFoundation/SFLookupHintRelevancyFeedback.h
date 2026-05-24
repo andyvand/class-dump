@@ -11,34 +11,27 @@
 @interface SFLookupHintRelevancyFeedback : SFFeedback
 {
     _Bool _discarded;
-    NSString *_context;
-    NSString *_domain;
-    unsigned long long _grade;
-    struct _NSRange _hintRange;
 }
 
 + (_Bool);
-- (id);
+- (id)!C
+;
 - (void);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
-- (id);
+- (id)setIndexInChaptersWithAnyType:(id)arg1;
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)orAlertType:(id)arg1 (%{public}@) […]:Detected alert type for text message in conversation. toneIdentifier = %{public}@. /* Error: Ran out of types for this method. */;
+- (void)tes for %@:(id)arg1 %@;
+- (void)limit (%ld) for resource repair requests (%d).;
 - (id);
-- (void)fiedTokens;
+- (void)_hasUnspecifiedTokens;
 - (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *context; // @synthesize context=_context;
-@property(nonatomic) _Bool discarded; // @synthesize discarded=_discarded;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned long long grade; // @synthesize grade=_grade;
-@property(nonatomic) struct _NSRange hintRange; // @synthesize hintRange=_hintRange;
 
 @end
 

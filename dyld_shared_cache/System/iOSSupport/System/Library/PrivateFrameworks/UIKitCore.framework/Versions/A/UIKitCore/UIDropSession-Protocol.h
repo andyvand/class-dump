@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
 @protocol UIDragSession;
 
 @protocol UIDropSession
+- (NSProgress *)44;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIDragSession> localDragSession;

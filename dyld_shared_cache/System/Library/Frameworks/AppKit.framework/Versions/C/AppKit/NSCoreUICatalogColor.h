@@ -6,31 +6,27 @@
 
 #import <AppKit/NSDynamicNamedColor.h>
 
-@class CUINamedColor, NSAppearance, NSBundle;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface NSCoreUICatalogColor : NSDynamicNamedColor
 {
     NSBundle *_bundle;
-    struct os_unfair_lock_s _cachedColorLock;
-    CUINamedColor *_cachedNamedColor;
-    NSAppearance *_cachedAppearance;
-    long long _cachedDisplayGamut;
 }
 
-+ (CDStruct_0f015c83);
++ (CDStruct_0f015c83);
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)_enableSPIDelegateCallbacks;
 - (_Bool);
 - (void);
-- (void);
+- (void)AvgDur"b1"callDurEveFri"b1"callDurEveSat"b1"callDurEveSun"b1"callDurEveWeekday"b1"callDurMorningFri"b1"callDurMorningSat"b1"callDurMorningSun"b1"callDurMorningWeekday"b1"callDurNightFri"b1"callDurNightSat"b1"callDurNightSun"b1"callDurNightWeekday"b1"callDurNoonFri"b1"callDurNoonSat"b1"callDurNoonSun"b1"callDurNoonWeekday"b1"callEveFri"b1"callEveSat"b1"callEveSun"b1"callEveWeekday"b1"callLongEveFri"b1"callLongEveSat"b1"callLongEveSun"b1"callLongEveWeekday"b1"callLongMorningFri"b1"callLongMorningSat"b1"callLongMorningSun"b1"callLongMorningWeekday"b1"callLongNightFri"b1"callLongNightSat"b1"callLongNightSun"b1"callLongNightWeekday"b1"callLongNoonFri"b1"callLongNoonSat"b1"callLongNoonSun"b1"callLongNoonWeekday"b1"callLongRatio"b1"callMaxDur"b1"callMorningFri"b1"callMorningSat"b1"callMorningSun"b1"callMorningWeekday"b1"callNightFri"b1"callNightSat"b1"callNightSun"b1"callNightWeekday"b1"callNoonFri"b1"callNoonSat"b1"callNoonSun"b1"callNoonWeekday"b1"callOutgoingRatio"b1"callTotal"b1"callTotalDur"b1"firstPartyMsgEveFri"b1"firstPartyMsgEveSat"b1"firstPartyMsgEveSun"b1"firstPartyMsgEveWeekday"b1"firstPartyMsgMorningFri"b1"firstPartyMsgMorningSat"b1"firstPartyMsgMorningSun"b1"firstPartyMsgMorningWeekday"b1"firstPartyMsgNightFri"b1"firstPartyMsgNightSat"b1"firstPartyMsgNightSun"b1"firstPartyMsgNightWeekday"b1"firstPartyMsgNoonFri"b1"firstPartyMsgNoonSat"b1"firstPartyMsgNoonSun"b1"firstPartyMsgNoonWeekday"b1"firstPartyMsgOutgoingRatio"b1"firstPartyMsgTotal"b1"thirdPartyMsgEveFri"b1"thirdPartyMsgEveSat"b1"thirdPartyMsgEveSun"b1"thirdPartyMsgEveWeekday"b1"thirdPartyMsgMorningFri"b1"thirdPartyMsgMorningSat"b1"thirdPartyMsgMorningSun"b1"thirdPartyMsgMorningWeekday"b1"thirdPartyMsgNightFri"b1"thirdPartyMsgNightSat"b1"thirdPartyMsgNightSun"b1"thirdPartyMsgNightWeekday"b1"thirdPartyMsgNoonFri"b1"thirdPartyMsgNoonSat"b1"thirdPartyMsgNoonSun"b1"thirdPartyMsgNoonWeekday"b1"thirdPartyMsgTotal"b1"callBirthday"b1"contactEmergency"b1"contactEmergencyFamily"b1"contactFamilyName"b1"contactFamilyRelation"b1"contactFavorite"b1"contactInAirDrop"b1"contactInAirDropAtHome"b1"contactInFMFFavorite"b1"contactInFMFFollowingMe"b1"contactInFMFSharingWithMe"b1"contactInHome"b1"contactInPhotos"b1"contactParent"b1};
 - (Class);
-- (id);
+- (id)$S;
 - (id)ntries in representedObject->indexPath map);
-- (struct CGColor *)sFnKeySettingChangedNotification;
+- (struct CGColor *)AppleKeyboardPreferencesFnKeySettingChangedNotification;
 - (double)%	Ü\G;
 
 // Remaining properties

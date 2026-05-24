@@ -14,13 +14,11 @@ __attribute__((visibility("hidden")))
     _Bool _parentChild;
 }
 
-- (_Bool);
+- (_Bool)beginCoalescingEditsWithContext: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isParentChild) _Bool parentChild;
-@property(readonly, getter=isReference) _Bool reference;
 @property(readonly) NSRelationshipDescription *relationship;
 
 @end

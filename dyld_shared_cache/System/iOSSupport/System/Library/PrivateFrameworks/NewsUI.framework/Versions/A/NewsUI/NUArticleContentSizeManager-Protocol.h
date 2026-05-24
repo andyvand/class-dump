@@ -5,5 +5,6 @@
 //
 
 @protocol NUArticleContentSizeManager
+- (long long);
 @end
 

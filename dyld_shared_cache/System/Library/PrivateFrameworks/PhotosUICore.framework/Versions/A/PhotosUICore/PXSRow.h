@@ -11,7 +11,6 @@
 @interface PXSRow : PXSItem
 {
     PXSRowAction *_action;
-    CDUnknownBlockType _valueValidatator;
 }
 
 + (id);
@@ -19,16 +18,14 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)øn¬AAyAB>|¬GGACG;
 - (void)error:(id)arg1 %s;
 - (void)ëñ;
 
 // Remaining properties
-@property(retain, nonatomic) PXSRowAction *action; // @synthesize action=_action;
 @property(retain, nonatomic) NSPredicate *condition; // @dynamic condition;
-@property(copy, nonatomic) CDUnknownBlockType valueValidatator; // @synthesize valueValidatator=_valueValidatator;
 
 @end
 

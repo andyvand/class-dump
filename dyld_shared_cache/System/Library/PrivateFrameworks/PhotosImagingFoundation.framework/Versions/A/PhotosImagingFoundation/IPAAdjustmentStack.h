@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAAdjustmentVersionInfo, NSArray;
+@class IPAAdjustmentVersionInfo;
 
 @interface IPAAdjustmentStack
 {
     IPAAdjustmentVersionInfo *_versionInfo;
-    NSArray *_adjustments;
 }
 
+- (id)NAVAssetExportSessionStatus;
+- (_Bool)ܧ"_;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)inMovieAsset;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *adjustments; // @synthesize adjustments=_adjustments;
 @property(copy, nonatomic) IPAAdjustmentVersionInfo *versionInfo; // @synthesize versionInfo=_versionInfo;
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioFeedOfflineFeedUpdater
 {
     id feedService;
-    id serviceConfigFetcher;
-    id serviceContextFactory;
-    id groupProcessors;
-    id offlineDatabase;
 }
 
 @end

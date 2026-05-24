@@ -17,17 +17,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__objc_arraydata__DATA_CONST;
+- (unsigned long long)y.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c;
+- (id)ovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c;
 - (unsigned long long);
+- (id)24@?0@"NSDictionary"8@"NSError"16;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 

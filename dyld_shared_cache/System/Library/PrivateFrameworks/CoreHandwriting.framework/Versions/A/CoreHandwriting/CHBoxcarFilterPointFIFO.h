@@ -9,13 +9,11 @@
 @interface CHBoxcarFilterPointFIFO : CHPointFIFO
 {
     float _spacing;
-    unsigned long long _width;
-    struct vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>> _prevPoints;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -26,7 +24,6 @@
 - (void)ters.;
 
 // Remaining properties
-@property(nonatomic) float spacing; // @synthesize spacing=_spacing;
 @property(nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end

@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)ult.visualSearchResult;
++ (void)>;
 - (_Bool);
 - (unsigned long long);
 

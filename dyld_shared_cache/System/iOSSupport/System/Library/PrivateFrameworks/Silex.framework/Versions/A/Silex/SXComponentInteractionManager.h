@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentInteractionPreview, SXComponentView, SXDelayed, SXViewport, UIHoverGestureRecognizer, UILongPressGestureRecognizer, UITapGestureRecognizer;
 @protocol SXComponentInteractionHandlerManager;
 
 @interface SXComponentInteractionManager
 {
     _Bool _wantsPointyHand;
-    id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
-    SXViewport *_viewport;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    UIHoverGestureRecognizer *_hoverGestureRecognizer;
-    SXDelayed *_longPressDelay;
-    SXComponentInteractionPreview *_currentPreview;
-    SXComponentView *_currentComponentView;
-    struct CGPoint _longPressStartLocation;
 }
 
 - (void);
@@ -45,7 +35,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -55,23 +45,7 @@
 - (void)6Q24;
 
 // Remaining properties
-@property(retain, nonatomic) SXComponentView *currentComponentView; // @synthesize currentComponentView=_currentComponentView;
-@property(retain, nonatomic) SXComponentInteractionPreview *currentPreview; // @synthesize currentPreview=_currentPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverGestureRecognizer *hoverGestureRecognizer; // @synthesize hoverGestureRecognizer=_hoverGestureRecognizer;
 @property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
-@property(retain, nonatomic) SXDelayed *longPressDelay; // @synthesize longPressDelay=_longPressDelay;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(nonatomic) struct CGPoint longPressStartLocation; // @synthesize longPressStartLocation=_longPressStartLocation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
-@property(nonatomic) _Bool wantsPointyHand; // @synthesize wantsPointyHand=_wantsPointyHand;
 
 @end
 

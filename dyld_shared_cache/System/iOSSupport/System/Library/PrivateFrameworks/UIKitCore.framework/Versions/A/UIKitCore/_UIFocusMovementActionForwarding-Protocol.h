@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIFocusMovementAction;
+
 @protocol _UIFocusMovementActionForwarding
+- (void)service:(UIFocusMovementAction *)arg1 account:didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
 @end
 

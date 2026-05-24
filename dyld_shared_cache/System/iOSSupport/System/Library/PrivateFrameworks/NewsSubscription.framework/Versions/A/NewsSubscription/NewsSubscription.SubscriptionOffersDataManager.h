@@ -7,9 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersDataManager
 {
     id purchaseManager;
-    id hideMyEmailSignupConfigProvider;
-    id hideMyEmailService;
-    id account;
 }
 
 @end

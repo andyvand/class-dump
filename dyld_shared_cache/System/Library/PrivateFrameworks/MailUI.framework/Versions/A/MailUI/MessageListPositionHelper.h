@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUIMessageListCollectionView, MUIMessageListDiffableDataSource, NSArray;
-@protocol EMCollectionItemID;
+@class MUIMessageListCollectionView;
 
 @interface MessageListPositionHelper
 {
     _Bool _userIsScrolling;
-    MUIMessageListCollectionView *_collectionView;
-    MUIMessageListDiffableDataSource *_dataSource;
-    double _startingContentOffset;
-    id <EMCollectionItemID> _firstVisibleItemID;
-    long long _firstVisibleIndex;
-    double _firstVisibleCellOrigin;
 }
 
 - (double);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
-- (id);
+- (id)q@;
 - (struct CGRect);
 - (id);
 - (id);
@@ -41,17 +34,10 @@
 - (void);
 - (id);
 - (void);
-- (void)MessageListItemFetchTimeoutCancelable: /* Error: Ran out of types for this method. */;
+- (void)setMessageListItemFetchTimeoutCancelable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actuallyVisibleItemIDs;
 @property(retain, nonatomic) MUIMessageListCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) MUIMessageListDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) double firstVisibleCellOrigin; // @synthesize firstVisibleCellOrigin=_firstVisibleCellOrigin;
-@property(nonatomic) long long firstVisibleIndex; // @synthesize firstVisibleIndex=_firstVisibleIndex;
-@property(retain, nonatomic) id <EMCollectionItemID> firstVisibleItemID; // @synthesize firstVisibleItemID=_firstVisibleItemID;
-@property(nonatomic) double startingContentOffset; // @synthesize startingContentOffset=_startingContentOffset;
-@property(nonatomic) _Bool userIsScrolling; // @synthesize userIsScrolling=_userIsScrolling;
 
 @end
 

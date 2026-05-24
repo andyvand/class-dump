@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _CPPunchoutForFeedback
 {
     int _knownBundleIdentifier;
-    NSString *_name;
-    NSString *_label;
-    NSArray *_urls;
-    NSString *_bundleIdentifier;
-    unsigned long long _whichBundleid;
 }
 
-- (id);
-- (void);
+- (id)uePairKeyExtractor<WTF:(unsigned long long)arg1:KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::RefPtr<API::InspectorExtension>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<API::InspectorExtension>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)re, WeakPtrImpl = WTF:(id)arg1:DefaultWeakPtrImpl, PtrTraits = WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
@@ -40,20 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) int knownBundleIdentifier; // @synthesize knownBundleIdentifier=_knownBundleIdentifier;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
-@property(readonly, nonatomic) unsigned long long whichBundleid; // @synthesize whichBundleid=_whichBundleid;
 
 @end
 

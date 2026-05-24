@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewFloatAnimatableProperty, UIViewSpringAnimationBehavior;
+@class UIViewSpringAnimationBehavior;
 
 @interface _UIAnimatedTextSpacer
 {
     UIViewSpringAnimationBehavior *_springBehavior;
-    double _delay;
-    double _duration;
-    double _targetHeight;
-    CDUnknownBlockType _synchronizedAnimationUpdater;
-    CDUnknownBlockType _completionHandler;
-    UIViewFloatAnimatableProperty *_heightAnimationProperty;
-    double _height;
-    CDUnknownBlockType _layoutInvalidator;
 }
 
-+ (_Bool);
++ (_Bool)aux video source, bad transfer/data (assetPath %@ mimeType %@ utiType %@ guid %@);
 - (double);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ctionary"32@"NSString"40;
+- (void)sendNicknamePreferencesDidChange;
+- (void)launchListenerForCapability:(CDUnknownBlockType)arg1;
+- (void)initWithGUIDString:(id)arg1 sender:metadata:date:dateViewed: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_processFetchArchivedRecordCompletionWithError:(struct CGRect)arg1 WithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ing",&,N,V_mySIMIDString;
+- (id)IMSpamFilterHelperProtocol;
 - (id);
-- (id);
-- (id);
+- (id)X;
 - (void);
-- (void);
+- (void)ing message types.;
 - (void);
 - (void);
 - (void);
@@ -41,17 +33,12 @@
 - (CDUnknownBlockType)isRunningSuspendTest;
 - (id)"UIInputViewController",&,N,V_accessoryViewController;
 - (_Bool)h;
-- (void)ffectCornerRadius;
+- (void)_visualEffectCornerRadius;
 - (void)É];
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *heightAnimationProperty; // @synthesize heightAnimationProperty=_heightAnimationProperty;
 @property(readonly, nonatomic) _Bool isAnimating; // @dynamic isAnimating;
-@property(copy, nonatomic) CDUnknownBlockType layoutInvalidator; // @synthesize layoutInvalidator=_layoutInvalidator;
-@property(copy, nonatomic) CDUnknownBlockType synchronizedAnimationUpdater; // @synthesize synchronizedAnimationUpdater=_synchronizedAnimationUpdater;
 
 @end
 

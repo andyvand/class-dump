@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTouristInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMapViewLocation
 {
     PBUnknownFields *_unknownFields;
-    GEOTouristInfo *_touristInfo;
-    int _locationBucket;
-    _Bool _isCurrentLocationInViewport;
-    struct {
-        unsigned int has_locationBucket:1;
-        unsigned int has_isCurrentLocationInViewport:1;
-    } _flags;
 }
 
-+ (_Bool)asSupportForIdsBasedNotifications:(id)arg1;
++ (_Bool)setHasSupportForIdsBasedNotifications:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (void);
+- (_Bool)ectory;
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -34,13 +27,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
-- (void);
-- (id)ldActionsCount;
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)ple.SpeechRecognitionCore;
+- (id)supportedChildActionsCount;
+- (_Bool)setEvChargingPreferences: /* Error: Ran out of types for this method. */;
 - (id)s;
-- (void)ng;
+- (void)GEOComposedStringArgument_String;
 - (void)om network:(int)arg1 %{bytes}llu
 	Tiles already in cache:%llu
 	Tiles failed:%llu
@@ -60,13 +53,7 @@
 - (void)ÂZ4> 3;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCurrentLocationInViewport;
 @property(nonatomic) _Bool hasLocationBucket;
-@property(readonly, nonatomic) _Bool hasTouristInfo;
-@property(nonatomic) _Bool isCurrentLocationInViewport;
-@property(nonatomic) int locationBucket;
-@property(retain, nonatomic) GEOTouristInfo *touristInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

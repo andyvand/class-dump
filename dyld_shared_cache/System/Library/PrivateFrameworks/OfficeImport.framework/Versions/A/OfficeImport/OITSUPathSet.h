@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface OITSUPathSet
 {
     NSMutableSet *mPaths;
-    NSMutableDictionary *mBasePathToNumberMap;
-    OITSUPathSet *mUnderlyingSet;
 }
 
 + (void);

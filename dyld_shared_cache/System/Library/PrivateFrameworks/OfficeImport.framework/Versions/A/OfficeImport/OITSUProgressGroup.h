@@ -6,15 +6,12 @@
 
 #import <OfficeImport/OITSUProgress.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface OITSUProgressGroup : OITSUProgress
 {
     NSArray *mChildren;
-    NSArray *mChildrenProgressObservers;
-    NSObject<OS_dispatch_queue> *mChildrenProgressObserversQueue;
 }
 
 - (void);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (id)tionalFormattingRuleWithResources:(id)arg1;
+- (id)conditionalFormattingRuleWithResources:(id)arg1;
 
 @end
 

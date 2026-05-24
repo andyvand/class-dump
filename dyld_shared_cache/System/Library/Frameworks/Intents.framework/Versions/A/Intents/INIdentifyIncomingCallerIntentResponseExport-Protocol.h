@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INIdentifyIncomingCallerIntentResponseExport
-- (long long)entifier;
+- (long long)hasCarIdentifier;
 - (long long);
 - (void)kQ;
 
 // Remaining properties
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
-@property long long statusCode;
 @end
 

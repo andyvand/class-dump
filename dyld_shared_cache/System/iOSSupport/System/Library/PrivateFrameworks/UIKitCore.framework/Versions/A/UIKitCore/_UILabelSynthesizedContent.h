@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextEncapsulation, UIColor, _UILabelContent;
+@class _UILabelContent;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelSynthesizedContent
 {
     _UILabelContent *_content;
-    UIColor *_overrideTextColor;
-    long long _semanticContentAttribute;
-    NSTextEncapsulation *_textEncapsulation;
-    struct {
-        unsigned int eliminateShadows:1;
-        unsigned int overallWritingDirectionFollowsLayoutDirection:1;
-        unsigned int disableLinkHypenation:1;
-        unsigned int hasExplicitBaselineOffset:1;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (id)"60;
+- (_Bool)nary"40;
+- (_Bool)processMessageForSending:toChat:style:allowWatchdog:account:didReplaceMessageBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)isDateInYesterday: /* Error: Ran out of types for this method. */;
+- (_Bool)historyQuery:chatID:services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)d %ld transfers.;
+- (void)rocessing;
 - (id);
 - (id);
+- (unsigned long long)activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (_Bool)tedConfigurationForButton:(id)arg1;
-- (long long)esture:touchBeganAtDigitizerLocation: /* Error: Ran out of types for this method. */;
+- (_Bool)updatedConfigurationForButton:(id)arg1;
+- (long long)focusEnginePanGesture:touchBeganAtDigitizerLocation: /* Error: Ran out of types for this method. */;
 - (id)V_hidEvent;
 - (id)@;
 - (id);
@@ -46,14 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UILabelContent *content; // @synthesize content=_content;
-@property(readonly, nonatomic) _Bool disableLinkHypenation;
-@property(readonly, nonatomic) _Bool eliminateShadows;
-@property(readonly, nonatomic) _Bool hasExplicitBaselineOffset;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) _Bool overallWritingDirectionFollowsLayoutDirection;
-@property(readonly, nonatomic) UIColor *overrideTextColor; // @synthesize overrideTextColor=_overrideTextColor;
-@property(readonly, nonatomic) long long semanticContentAttribute; // @synthesize semanticContentAttribute=_semanticContentAttribute;
-@property(readonly, nonatomic) NSTextEncapsulation *textEncapsulation;
 
 @end
 

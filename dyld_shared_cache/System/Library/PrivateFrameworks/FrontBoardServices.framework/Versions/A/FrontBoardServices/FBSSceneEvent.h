@@ -6,39 +6,30 @@
 
 #import <FrontBoardServices/FBSSceneMessage.h>
 
-@class FBSSceneClientSettingsDiff, FBSSceneSettingsDiff, FBSSceneTransitionContext, NSSet;
-
 @interface FBSSceneEvent : FBSSceneMessage
 {
     long long _source;
-    FBSSceneSettingsDiff *_settingsDiff;
-    FBSSceneClientSettingsDiff *_clientSettingsDiff;
-    FBSSceneTransitionContext *_transitionContext;
 }
 
 - (id);
 - (id);
+- (id)h;
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)conformsToProtocol: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)T@"NSString",C,V_password;
+- (void)zB;
 - (id)be configured as requested :%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *actions;
-@property(retain, nonatomic) FBSSceneClientSettingsDiff *clientSettingsDiff; // @synthesize clientSettingsDiff=_clientSettingsDiff;
-@property(retain, nonatomic) FBSSceneSettingsDiff *settingsDiff; // @synthesize settingsDiff=_settingsDiff;
 @property(nonatomic) long long source; // @synthesize source=_source;
-@property(retain, nonatomic) FBSSceneTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
 
 @end
 

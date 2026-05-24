@@ -6,13 +6,11 @@
 
 #import <MetalTools/MTLToolsComputeCommandEncoder.h>
 
-@class MTLTelemetryCommandBuffer, MTLTelemetryDevice;
+@class MTLTelemetryDevice;
 
 @interface MTLTelemetryComputeCommandEncoder : MTLToolsComputeCommandEncoder
 {
     MTLTelemetryDevice *_telemetryDevice;
-    MTLTelemetryCommandBuffer *_telemetryCommandBuffer;
-    unsigned int _ceDispatches;
 }
 
 - (void);
@@ -25,9 +23,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)NSt3__110__function6__baseIFvPvPKhjjfPbEEE;
 
 @end
 

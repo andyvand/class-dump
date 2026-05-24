@@ -6,23 +6,17 @@
 
 #import <Geode/PFCopyOnWriteInterest.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface PA2DBufferMutableTile : PFCopyOnWriteInterest
 {
     _Bool _isEmpty;
-    int _format;
-    struct PFIntRect_st _bounds;
-    long long _bytesPerRow;
-    NSData *_fill;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (long long);

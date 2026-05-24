@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _RequestRewriter;
-@protocol CNContactPosterDataStore, CNContactPosterUnifiedContactIdentifierExpansion;
+@protocol CNContactPosterDataStore;
 
 @interface CNContactPosterDataUnifiedContactExpandingDecorator
 {
     id <CNContactPosterDataStore> _store;
-    id <CNContactPosterUnifiedContactIdentifierExpansion> _expander;
-    _RequestRewriter *_requestRewriter;
 }
 
 - (id);
@@ -23,21 +20,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)_DMpartitionToPeerPartitionsAndIndex;
+- (long long)localizedStringForKey:(id)arg1 value:(id *)arg2 table: /* Error: Ran out of types for this method. */;
 - (void)t"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <CNContactPosterUnifiedContactIdentifierExpansion> expander; // @synthesize expander=_expander;
-@property(readonly) unsigned long long hash;
-@property(readonly) _RequestRewriter *requestRewriter; // @synthesize requestRewriter=_requestRewriter;
 @property(readonly) id <CNContactPosterDataStore> store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

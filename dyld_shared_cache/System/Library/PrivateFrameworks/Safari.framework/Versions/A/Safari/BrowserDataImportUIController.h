@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthorizationRequest, BrowserDataImportConflictsPanelController, NSMenu, NSMenuItem, NSXPCConnection;
+@class NSMenu, NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataImportUIController
 {
     NSMenu *_fileMenu;
-    NSMenuItem *_importFromSeparatorMenuItem;
-    NSMenuItem *_bookmarksHTMLFileMenuItem;
-    _Bool _didGenerateBrowserMenuItems;
-    _Bool _isCheckingForImportableData;
-    BrowserDataImportConflictsPanelController *_importConflictsPanelController;
-    NSMenuItem *_importFromBrowserMenuItem;
-    AuthorizationRequest *_authorizationRequestImportBrowsingData;
-    NSMenuItem *_passwordsCSVFileMenuItem;
-    NSXPCConnection *_connectionToCredentialExtractionService;
-    AuthorizationRequest *_authorizationRequest;
-    NSMenuItem *_importFromMenuItem;
 }
 
 + (void);
@@ -35,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);

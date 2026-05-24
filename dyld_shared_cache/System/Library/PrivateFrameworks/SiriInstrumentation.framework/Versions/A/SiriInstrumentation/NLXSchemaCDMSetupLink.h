@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSiriClientSetupLink, NSData;
+@class NLXSchemaCDMSiriClientSetupLink;
 
 @interface NLXSchemaCDMSetupLink : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMSiriClientSetupLink *_siriClientSetupLink;
-    _Bool _hasSiriClientSetupLink;
-    unsigned long long _whichNlxclients;
 }
 
 - (id);
@@ -23,10 +21,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)a:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool))U%ث;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -35,10 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriClientSetupLink; // @synthesize hasSiriClientSetupLink=_hasSiriClientSetupLink;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMSiriClientSetupLink *siriClientSetupLink; // @synthesize siriClientSetupLink=_siriClientSetupLink;
-@property(readonly, nonatomic) unsigned long long whichNlxclients; // @synthesize whichNlxclients=_whichNlxclients;
 
 @end
 

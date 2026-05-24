@@ -12,16 +12,16 @@
 
 + (_Bool);
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_activityVConstraints;
 - (struct CGRect);
 - (id);
 

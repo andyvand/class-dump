@@ -11,7 +11,7 @@
 }
 
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)__common;
 + (_Bool);
 
 @end

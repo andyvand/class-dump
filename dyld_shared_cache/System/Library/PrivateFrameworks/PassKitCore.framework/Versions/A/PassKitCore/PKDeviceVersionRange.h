@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKDeviceVersionRange
 {
     NSString *_minimum;
-    NSString *_maximum;
-    NSArray *_models;
-    PKDeviceVersionRange *_companion;
 }
 
 + (_Bool);
@@ -21,21 +18,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasTcpECNIntFallbackDropRxmt;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)terestCalculation;
-- (void)_CAR_DELIVERY_NAME;
+- (id)_remainingPeriodMinimumPaymentExcludedFromInterestCalculation;
+- (void)CAR_KEY_ENTITLEMENT_CAR_DELIVERY_NAME;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PKDeviceVersionRange *companion; // @synthesize companion=_companion;
-@property(readonly, nonatomic) NSString *maximum; // @synthesize maximum=_maximum;
 @property(readonly, nonatomic) NSString *minimum; // @synthesize minimum=_minimum;
-@property(readonly, nonatomic) NSArray *models; // @synthesize models=_models;
 
 @end
 

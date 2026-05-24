@@ -9,7 +9,6 @@
 @interface DEVersionWriter
 {
     NSData *_version;
-    struct CC_SHA256state_st _context;
 }
 
 + (id);
@@ -18,11 +17,11 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)stSendCancelDragToRemote:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (struct CC_SHA256state_st);
+- (struct CC_SHA256state_st)i`;
 - (void);
 - (void);
 - (void) ;
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CC_SHA256state_st context; // @synthesize context=_context;
-@property(retain, nonatomic) NSData *version; // @synthesize version=_version;
 
 @end
 

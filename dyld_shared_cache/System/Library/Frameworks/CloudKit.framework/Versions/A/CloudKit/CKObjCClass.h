@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CKObjCClass
 {
     Class _handle;
-    NSString *_name;
-    NSArray *_properties;
 }
 
 + (id);
@@ -18,15 +14,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id).;
 - (Class);
 - (void)ÿÿÿÿØ;
 - (id)bySo19CKServerChangeTokenC06serverbC0_Sb10moreComingt¡b_pGIegg_;
 
 // Remaining properties
 @property(readonly, nonatomic) Class handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *properties; // @synthesize properties=_properties;
 
 @end
 

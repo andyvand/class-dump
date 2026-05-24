@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void)itWithMapItem:maxWidth: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:maxWidth: /* Error: Ran out of types for this method. */;
 
 @end
 

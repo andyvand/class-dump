@@ -4,53 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKComposition, CKMessageEditingBalloonView, NSLocale, NSString, UIButton, UIColor, UIView;
-@protocol CKMessageEditingViewDelegate;
+@class CKMessageEditingBalloonView;
 
 @interface CKMessageEditingView
 {
     _Bool _firstLayoutPassCompleted;
-    UIButton *_confirmButton;
-    UIButton *_rejectButton;
-    long long _messageEditingViewState;
-    CKComposition *_originalComposition;
-    CKMessageEditingBalloonView *_messageEditingBalloonView;
-    id <CKMessageEditingViewDelegate> _messageEditingViewDelegate;
-    NSLocale *_translationLanguage;
-    NSLocale *_translationToLanguage;
-    UIColor *_messageEditingBalloonTintColor;
 }
 
+- (void)initWithType:parentIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initForSharePreviewThumbnailWithNote:(id)arg1 appearanceInfo: /* Error: Ran out of types for this method. */;
+- (id)imageForCurrentDecryptedStatusForNote:imageType: /* Error: Ran out of types for this method. */;
+- (id)decisionOnObjectID:(id)arg1 searchableItemToIndex:additionalItemsToIndex:objectIDURIToDelete:additionalUniqueIdentifiersToDelete:context: /* Error: Ran out of types for this method. */;
+- (void)_collapsed;
+- (void)shouldIncludeOutlineParentItems;
+- (void)shiftIndexesStartingAtIndex:(id)arg1 by: /* Error: Ran out of types for this method. */;
+- (void)sharedConverter;
+- (void)okens;
+- (void);
+- (id);
+- (void)y;
+- (void);
+- (long long)R;
+- (id)T;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (BOOL);
-- (id);
-- (void);
-- (void);
+- (_Bool)t;
+- (id)f;
+- (id)r:] /* Error: Ran out of types for this method. */;
+- (BOOL)tes;
+- (id)dy contains a shared note. People who currently have access to this note may lose it.;
+- (void)parent != nil AND                               account.enabled == YES AND                               (entity != %@ || notes.@count > 0);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,25 +58,7 @@
 - (id)ìFÿÕ÷k_ªÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *balloonViewForAlignment;
-@property(retain, nonatomic) UIButton *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(readonly, nonatomic) CKComposition *currentComposition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool firstLayoutPassCompleted; // @synthesize firstLayoutPassCompleted=_firstLayoutPassCompleted;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *messageEditingBalloonTintColor; // @synthesize messageEditingBalloonTintColor=_messageEditingBalloonTintColor;
 @property(retain, nonatomic) CKMessageEditingBalloonView *messageEditingBalloonView; // @synthesize messageEditingBalloonView=_messageEditingBalloonView;
-@property(nonatomic) __weak id <CKMessageEditingViewDelegate> messageEditingViewDelegate; // @synthesize messageEditingViewDelegate=_messageEditingViewDelegate;
-@property(nonatomic) long long messageEditingViewState; // @synthesize messageEditingViewState=_messageEditingViewState;
-@property(retain, nonatomic) CKComposition *originalComposition; // @synthesize originalComposition=_originalComposition;
-@property(retain, nonatomic) UIButton *rejectButton; // @synthesize rejectButton=_rejectButton;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSLocale *translationLanguage; // @synthesize translationLanguage=_translationLanguage;
-@property(readonly, nonatomic) NSLocale *translationToLanguage; // @synthesize translationToLanguage=_translationToLanguage;
 
 @end
 

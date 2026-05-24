@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)T@qa;
++ (_Bool),5)+);
 + (_Bool);
 + (_Bool);
 + (_Bool)ntainer currentStatus] shouldn't be called by the daemon.%@;

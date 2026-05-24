@@ -5,5 +5,6 @@
 //
 
 @protocol CNAutocompleteUIFetchDelegate
+- (_Bool)needsReindexing;
 @end
 

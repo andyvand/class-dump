@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSWindow *_windowPresented;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)V;
+- (void)s:(id)arg1 marking socket attribution as user <non-app-initiated flag %d> with website context;
+- (id)_requestHeaderBytesSent;
 - (void);
 - (id);
 

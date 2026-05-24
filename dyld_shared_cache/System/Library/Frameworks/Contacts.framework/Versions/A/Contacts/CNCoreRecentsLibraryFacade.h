@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol CNCoreRecentsLibraryFacadeQueryHandler;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCoreRecentsLibraryFacade
 {
     NSArray *_domains;
-    id <CNCoreRecentsLibraryFacadeQueryHandler> _queryHandler;
 }
 
 + (id);
@@ -33,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -57,15 +55,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *domains; // @synthesize domains=_domains;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <CNCoreRecentsLibraryFacadeQueryHandler> queryHandler; // @synthesize queryHandler=_queryHandler;
-@property(readonly) Class superclass;
 
 @end
 

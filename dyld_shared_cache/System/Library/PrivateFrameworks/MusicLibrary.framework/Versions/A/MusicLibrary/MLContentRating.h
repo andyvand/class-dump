@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MLContentRating
 {
     NSMutableDictionary *_dictionary;
 }
 
-- (void);
+- (void)_calculateCloudAdjustmentFingerprintFromAdjustmentPListAndCPLResources;
+- (void)_cachedUrl;
+- (id)__smartToneAdjustments;
+- (id)mode;
+- (void)alescedSaveNotification;
+- (void)on coalescing limit:(id)arg1 transaction count = %zd, change count = %zd;
+- (id)yi;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setExecutionCompletionDeterminedBySpokenCommandItself: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -30,9 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ratingDescription;
-@property(copy, nonatomic) NSString *ratingLabel;
-@property(retain, nonatomic) NSNumber *ratingRank;
-@property(copy, nonatomic) NSString *ratingSystem;
 
 @end
 

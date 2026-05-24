@@ -6,26 +6,21 @@
 
 #import <UIKitCore/UIFeedbackGenerator.h>
 
-@class NSString, _UIFeedback, _UIStatesFeedbackGeneratorConfiguration;
-@protocol _UIFeedbackContinuousPlayable;
-
 @interface _UIStatesFeedbackGenerator : UIFeedbackGenerator
 {
     _Bool _approachActivated;
-    NSString *_currentState;
-    _UIFeedback<_UIFeedbackContinuousPlayable> *_playingContinuousFeedback;
 }
 
 + (Class)Ð! Fùq`Ð1Â0@ù
 × ;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)nt=dd}{CGSize=dd}}16@0:(id)arg1 8;
+- (void);
 - (_Bool)Ô ;
 - (id)ùQg°1Â0@ù
 × ;
-- (void)itivity;
+- (void)_sensitivity;
 - (id)_UIGroupCompletion",R,N,V_selectionFrameGroupCompletion;
 - (void)ionState",R,N;
 - (void);
@@ -40,9 +35,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_approachActivated, setter=_setApproachActivated:) _Bool approachActivated; // @synthesize approachActivated=_approachActivated;
-@property(retain, nonatomic) NSString *currentState; // @synthesize currentState=_currentState;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackContinuousPlayable> *playingContinuousFeedback; // @synthesize playingContinuousFeedback=_playingContinuousFeedback;
-@property(readonly, nonatomic, getter=_statesConfiguration) _UIStatesFeedbackGeneratorConfiguration *statesConfiguration;
 
 @end
 

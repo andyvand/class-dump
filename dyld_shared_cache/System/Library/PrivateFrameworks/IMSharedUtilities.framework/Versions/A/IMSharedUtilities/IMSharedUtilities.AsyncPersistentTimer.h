@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.AsyncPersistentTimer
 {
     id $defaultActor;
-    id task;
 }
 
 @end

@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryInterpretationMetadata
 {
     PBDataReader *_reader;
-    NSString *_canonicalCompletion;
-    NSString *_completion;
-    NSMutableArray *_featureMaps;
-    NSMutableArray *_triggerFeatures;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _score;
-    _Bool _isFromRuntimeQueryTriggerStore;
-    struct {
-        unsigned int has_score:1;
-        unsigned int has_isFromRuntimeQueryTriggerStore:1;
-        unsigned int read_canonicalCompletion:1;
-        unsigned int read_completion:1;
-        unsigned int read_featureMaps:1;
-        unsigned int read_triggerFeatures:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)n or nil domainID. Ignoring.;
+- (id)decodeBoolForKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

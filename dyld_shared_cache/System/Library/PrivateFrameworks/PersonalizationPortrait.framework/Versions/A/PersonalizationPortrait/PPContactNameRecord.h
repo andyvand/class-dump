@@ -15,10 +15,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)NSt3__110__function6__baseIFvmP11BoxedDoubleEEE;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_supportsOpacity;
 - (id);
 - (id);
 - (unsigned long long);
@@ -37,7 +37,7 @@
 - (id);
 - (id)ð1Â0@ù
 × ;
-- (id)yName;
+- (id)_familyName;
 - (id)¶à;
 
 @end

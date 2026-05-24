@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
 @interface _NSDatePickerOverlayPanel : NSPanel
 {
     id <_NSDatePickerOverlayPanelDelegate> _panelDelegate;
-    id _closeEventMonitor;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)from data %s %@ of length %llu
+;
+- (void)8kcKPCGGyCpf66MMl5TVkA;
+- (void)BYYil6kIk8Hm5lRuA1k8Tw;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)DeviceCommunicationExceptionResult;
 - (void);
 - (id);
 - (id);
@@ -33,7 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) id _closeEventMonitor; // @synthesize _closeEventMonitor;
-@property(setter=_setPanelDelegate:) id <_NSDatePickerOverlayPanelDelegate> _panelDelegate; // @synthesize _panelDelegate;
 
 @end
 

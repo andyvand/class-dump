@@ -6,8 +6,6 @@
 
 #import <Symbolication/VMUFieldInfo.h>
 
-@class NSString;
-
 @interface VMUMutableFieldInfo : VMUFieldInfo
 {
 }
@@ -15,26 +13,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)![;
+- (void)_ց;
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int flags; // @dynamic flags;
-@property(nonatomic) _Bool isByref; // @dynamic isByref;
-@property(nonatomic) _Bool isCapture; // @dynamic isCapture;
-@property(copy, nonatomic) NSString *ivarName; // @dynamic ivarName;
-@property(nonatomic) unsigned int scanType; // @dynamic scanType;
 @property(nonatomic) unsigned int scannableSize; // @dynamic scannableSize;
-@property(nonatomic) unsigned int stride; // @dynamic stride;
-@property(copy, nonatomic) NSString *typeName; // @dynamic typeName;
 
 @end
 

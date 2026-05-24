@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface _UILargeContentViewerItemStoredProperties
 {
     _Bool _didSetShowsLargeContentViewer;
-    _Bool _showsLargeContentViewer;
-    _Bool _didSetLargeContentTitle;
-    _Bool _didSetLargeContentImage;
-    _Bool _didSetScalesLargeContentImage;
-    _Bool _scalesLargeContentImage;
-    _Bool _didSetLargeContentImageInsets;
-    NSString *_largeContentTitle;
-    UIImage *_largeContentImage;
-    struct UIEdgeInsets _largeContentImageInsets;
 }
 
 + (_Bool)"NSError"28;
-- (_Bool);
+- (_Bool)statusAutoSetupAdminAccounts;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)sPhoneRoute;
 - (void);
 - (struct UIEdgeInsets);
 - (void);
@@ -33,31 +22,22 @@
 × ;
 - (_Bool)!ÐGù±g°1Â0@ù
 × ;
-- (void)oard:(id)arg1;
+- (void)setIsActiveDictationInputInMultilingualKeyboard:(id)arg1;
 - (_Bool)originatingLocation;
-- (_Bool)n;
-- (_Bool)ateBridgedOverlayDatePickerIfNecessaryElement: /* Error: Ran out of types for this method. */;
+- (_Bool)isSingleItemSection;
+- (_Bool)createBridgedOverlayDatePickerIfNecessaryElement: /* Error: Ran out of types for this method. */;
 - (id)ompletion: /* Error: Ran out of types for this method. */;
 - (void)layOrder;
 - (void)0à;
 - (void)delta %.1f? (%@);
 - (void)`;
-- (void)nedToElementMaximum;
-- (void)nabled;
+- (void)constrainedToElementMaximum;
+- (void)_backButtonMaskEnabled;
 - (id)IImageReaderConfigurationCG;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool didSetLargeContentImage; // @synthesize didSetLargeContentImage=_didSetLargeContentImage;
-@property(nonatomic) _Bool didSetLargeContentImageInsets; // @synthesize didSetLargeContentImageInsets=_didSetLargeContentImageInsets;
-@property(nonatomic) _Bool didSetLargeContentTitle; // @synthesize didSetLargeContentTitle=_didSetLargeContentTitle;
-@property(nonatomic) _Bool didSetScalesLargeContentImage; // @synthesize didSetScalesLargeContentImage=_didSetScalesLargeContentImage;
 @property(nonatomic) _Bool didSetShowsLargeContentViewer; // @synthesize didSetShowsLargeContentViewer=_didSetShowsLargeContentViewer;
-@property(retain, nonatomic) UIImage *largeContentImage; // @synthesize largeContentImage=_largeContentImage;
-@property(nonatomic) struct UIEdgeInsets largeContentImageInsets; // @synthesize largeContentImageInsets=_largeContentImageInsets;
-@property(copy, nonatomic) NSString *largeContentTitle; // @synthesize largeContentTitle=_largeContentTitle;
-@property(nonatomic) _Bool scalesLargeContentImage; // @synthesize scalesLargeContentImage=_scalesLargeContentImage;
-@property(nonatomic) _Bool showsLargeContentViewer; // @synthesize showsLargeContentViewer=_showsLargeContentViewer;
 
 @end
 

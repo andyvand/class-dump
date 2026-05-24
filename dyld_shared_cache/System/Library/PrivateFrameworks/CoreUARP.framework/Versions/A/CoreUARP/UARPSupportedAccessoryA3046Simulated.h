@@ -17,8 +17,8 @@
 + (unsigned short);
 + (id);
 + (unsigned short);
-- (id);
-- (void);
+- (id)AMSPromiseSerialQueueItem;
+- (void)z=;
 
 @end
 

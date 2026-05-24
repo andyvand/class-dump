@@ -5,5 +5,6 @@
 //
 
 @protocol LACContextObserver
+- (void);
 @end
 

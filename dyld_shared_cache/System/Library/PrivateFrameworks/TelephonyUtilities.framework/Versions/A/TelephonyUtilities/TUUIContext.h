@@ -9,7 +9,7 @@
     unsigned long long _inCallUIState;
 }
 
-+ (_Bool);
++ (_Bool)U;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -19,9 +19,7 @@
 - (id)roxy when requesting synchronous policy check for addresses:(unsigned long long)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFullScreen) _Bool fullScreen;
 @property(nonatomic) unsigned long long inCallUIState; // @synthesize inCallUIState=_inCallUIState;
-@property(readonly, nonatomic, getter=isMicIndicatorVisible) _Bool isMicIndicatorVisible;
 
 @end
 

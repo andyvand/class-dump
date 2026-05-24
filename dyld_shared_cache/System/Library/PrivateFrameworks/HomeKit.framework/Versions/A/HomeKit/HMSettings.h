@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSettingGroup;
-@protocol HMSettingsDelegate, HMSettingsOwner;
+@protocol HMSettingsOwner;
 
 @interface HMSettings
 {
@@ -17,16 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4@?<v@?@"TIKeyboardCandidateResultSet">40;
+- (id)thermal;
 - (id);
-- (id);
-- (void)ccessoryInfoProtoNetworkServiceEvent;
+- (void)HMAccessoryInfoProtoNetworkServiceEvent;
 
 // Remaining properties
-@property(readonly, getter=isControllable) _Bool controllable;
-@property __weak id <HMSettingsDelegate> delegate;
 @property(readonly) __weak id <HMSettingsOwner> owner; // @synthesize owner=_owner;
-@property(readonly) HMSettingGroup *rootGroup;
 
 @end
 

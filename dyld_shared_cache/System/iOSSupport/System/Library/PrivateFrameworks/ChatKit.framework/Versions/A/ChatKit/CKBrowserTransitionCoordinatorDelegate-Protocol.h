@@ -4,6 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKAppGrabberView, CKBrowserTransitionCoordinator, NSString, UIImage, UIViewController;
+
 @protocol CKBrowserTransitionCoordinatorDelegate
+
+@optional
+- (UIViewController *);
+- (void)pinnedTimelineSectionIdentifierWithTitle:(CKBrowserTransitionCoordinator *)arg1 referenceDate: /* Error: Ran out of types for this method. */;
+- (void)items;
+- (void)divider;
+- (void)destination;
+- (void)placeholder;
+- (_Bool)Body;
+- (void)rage_$_applicationWillResignActivePublisher;
+- (void)_lazy_storage_$_applicationDidBecomeActivePublisher;
+- (double)_lazy_storage_$_didFinishBackgroundFetchPublisher;
+- (void);
+- (struct CGSize)debounceInterval;
+- (void)type;
+- (void)NSViewType;
+- (void)_colorScheme;
+- (void)trailing;
+- (NSString *)_AAt;
+- (CKAppGrabberView *)So27ICSystemPaperImageGeneratorC;
+- (UIImage *)f;
 @end
 

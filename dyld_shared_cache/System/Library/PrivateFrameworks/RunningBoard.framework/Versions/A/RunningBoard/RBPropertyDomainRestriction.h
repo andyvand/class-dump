@@ -6,27 +6,26 @@
 
 #import <RunningBoard/RBDomainRestriction.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RBPropertyDomainRestriction : RBDomainRestriction
 {
     NSString *_property;
-    NSNumber *_numberValue;
-    NSString *_stringValue;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ostCAIntervalAggregationStats",R,N,V_firstFrameGlitchStats;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)v
+;
 
 @end
 

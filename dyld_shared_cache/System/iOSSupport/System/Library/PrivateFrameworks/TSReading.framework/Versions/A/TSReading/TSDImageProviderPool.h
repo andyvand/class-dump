@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSUPointerKeyDictionary;
+@class TSUPointerKeyDictionary;
 
 @interface TSDImageProviderPool
 {
     TSUPointerKeyDictionary *mImageDataToImageProviderMap;
-    unsigned long long mOpenFileDescriptorLimit;
-    _Bool mHaveRaisedFileDescriptorLimit;
 }
 
 + (Class);
@@ -19,14 +17,14 @@
 + (id);
 + (id)xo;
 - (void);
-- (void);
+- (void)ms:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)St;
 - (void);
 - (void);
 - (void);
@@ -40,13 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

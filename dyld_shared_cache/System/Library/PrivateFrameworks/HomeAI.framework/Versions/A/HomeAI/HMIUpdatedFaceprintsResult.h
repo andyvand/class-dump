@@ -9,8 +9,6 @@
 @interface HMIUpdatedFaceprintsResult
 {
     NSSet *_existingAtOtherVersions;
-    NSSet *_createdAtCurrentVersion;
-    NSSet *_existingAtCurrentVersion;
 }
 
 - (id);
@@ -22,9 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *allAtCurrentVersion;
-@property(readonly) NSSet *createdAtCurrentVersion; // @synthesize createdAtCurrentVersion=_createdAtCurrentVersion;
-@property(readonly) NSSet *existingAtCurrentVersion; // @synthesize existingAtCurrentVersion=_existingAtCurrentVersion;
-@property(readonly) NSSet *existingAtOtherVersions; // @synthesize existingAtOtherVersions=_existingAtOtherVersions;
 
 @end
 

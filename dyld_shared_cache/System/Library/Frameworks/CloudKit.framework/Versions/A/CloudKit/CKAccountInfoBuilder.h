@@ -4,54 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKAccountInfoBuilder
 {
     _Bool _hasValidCredentials;
-    _Bool _bypassPCSEncryption;
-    _Bool _needsToVerifyTerms;
-    long long _accountStatus;
-    long long _accountPartition;
-    long long _deviceToDeviceEncryptionAvailability;
-    long long _walrusStatus;
-    long long _accountAccessAuthorization;
-    NSString *_identifier;
-    long long _validationCounter;
 }
 
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (long long);
+- (long long);
+- (void);
+- (long long);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (long long);
-- (id);
 - (_Bool);
 - (void);
-- (id)AllOperations;
+- (id)_holdAllOperations;
 - (void)Ø ;
 
 // Remaining properties
-@property(nonatomic) long long accountAccessAuthorization; // @synthesize accountAccessAuthorization=_accountAccessAuthorization;
-@property(nonatomic) long long accountPartition; // @synthesize accountPartition=_accountPartition;
 @property(nonatomic) long long accountStatus; // @synthesize accountStatus=_accountStatus;
-@property(nonatomic) _Bool bypassPCSEncryption; // @synthesize bypassPCSEncryption=_bypassPCSEncryption;
-@property(nonatomic) long long deviceToDeviceEncryptionAvailability; // @synthesize deviceToDeviceEncryptionAvailability=_deviceToDeviceEncryptionAvailability;
-@property(nonatomic) _Bool hasValidCredentials; // @synthesize hasValidCredentials=_hasValidCredentials;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool needsToVerifyTerms; // @synthesize needsToVerifyTerms=_needsToVerifyTerms;
-@property(nonatomic) long long walrusStatus; // @synthesize walrusStatus=_walrusStatus;
 
 @end
 

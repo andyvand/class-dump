@@ -7,7 +7,6 @@
 @interface NewsPersonalization.TopicClusteringJournalStorageService
 {
     id sizeFormatter;
-    id journalsDirectory;
 }
 
 @end

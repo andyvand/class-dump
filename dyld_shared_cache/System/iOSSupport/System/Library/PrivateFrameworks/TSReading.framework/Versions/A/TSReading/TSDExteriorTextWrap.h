@@ -7,11 +7,6 @@
 @interface TSDExteriorTextWrap
 {
     _Bool _isHTMLWrap;
-    int _type;
-    int _direction;
-    int _fitType;
-    double _margin;
-    double _alphaThreshold;
 }
 
 + (id);
@@ -24,18 +19,13 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)CodingKeys;
 - (id);
 - (int);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double alphaThreshold; // @synthesize alphaThreshold=_alphaThreshold;
-@property(readonly, nonatomic) int direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) int fitType; // @synthesize fitType=_fitType;
 @property(readonly, nonatomic) _Bool isHTMLWrap; // @synthesize isHTMLWrap=_isHTMLWrap;
-@property(readonly, nonatomic) double margin; // @synthesize margin=_margin;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

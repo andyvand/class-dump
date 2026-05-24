@@ -8,17 +8,13 @@
 {
     id delegate;
     id placementKey;
-    id identifierKey;
-    id sourceKey;
-    id messageIDKey;
-    id offerKey;
 }
 
 - (long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)@"<PXPhotosNavigationPermission>"16;
+- (void)B16@"NSString"20;
+- (void)PXGEntityManager"16;
+- (void)oryFontsSpecIdentifier=qqq{CGSize=dd}dB}16@0:(id)arg1 8;
 - (id);
 - (void);
 

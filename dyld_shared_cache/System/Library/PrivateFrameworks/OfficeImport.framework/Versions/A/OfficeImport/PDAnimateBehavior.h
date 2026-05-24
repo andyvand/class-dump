@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface PDAnimateBehavior : PDTimeNode
 {
     PDAnimationTarget *mTgtElement;
-    NSMutableArray *mAttributeNames;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)sendTransientUIChangedNotification;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)errorForUnableToOpenDialRequest:(id)arg1 withUnderlyingError: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ÿÿ9;
 

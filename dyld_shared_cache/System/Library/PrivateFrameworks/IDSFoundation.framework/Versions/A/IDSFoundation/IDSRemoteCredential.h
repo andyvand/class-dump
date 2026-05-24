@@ -10,8 +10,6 @@
 @interface IDSRemoteCredential
 {
     NSObject<OS_xpc_object> *_connection;
-    int _retries;
-    _Bool _wantsRetries;
 }
 
 - (_Bool);

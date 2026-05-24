@@ -7,8 +7,6 @@
 @interface NewsPersonalization.ComputeServiceMyMagazinesPersonalizationService
 {
     id articleFeaturesFactory;
-    id computeService;
-    id isSubscribed;
 }
 
 @end

@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void)gAddressFields;
+- (void)requiredBillingAddressFields;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;

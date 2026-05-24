@@ -12,25 +12,22 @@ __attribute__((visibility("hidden")))
 @interface _UIContinuousSelectionGestureRecognizer : UIGestureRecognizer
 {
     NSMutableArray *_locationInWindow;
-    NSMutableArray *_windows;
-    struct CGVector _allowableMovement;
-    struct CGPoint _originalLocation;
 }
 
 + (_Bool)!´Cù`1Â0@ù
 × ;
+- (void)56@60;
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint);
+- (id);
 - (id);
 - (id);
-- (id);
-- (struct CGPoint)Pressed;
-- (void)tOrigin:(id)arg1 coordinateSpace:(id)arg2 scale:fallbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
-- (void)trollerContainerViewWidthConstraint;
+- (struct CGPoint)keyPressed;
+- (void)initWithTextLayoutController:(id)arg1 typingAttributes:(id)arg2 usesLineFragmentOrigin:coordinateSpace:scale:fallbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
+- (void)_separatedHeaderContentViewControllerContainerViewWidthConstraint;
 - (void)plyQueue:(id)arg1 completion:(id)arg2;
-- (_Bool)rningMode:(id)arg1;
+- (_Bool)_acceptTextCompletion:(id)arg1 learningMode:(id)arg2;
 - (void)ader;
 - (struct CGVector)&Ä&;
 - (void)BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
@@ -39,10 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)äÿ:è /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGVector allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(retain, nonatomic) NSMutableArray *locationInWindow; // @synthesize locationInWindow=_locationInWindow;
 @property(nonatomic) struct CGPoint originalLocation; // @synthesize originalLocation=_originalLocation;
-@property(retain, nonatomic) NSMutableArray *windows; // @synthesize windows=_windows;
 
 @end
 

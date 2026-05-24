@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OS_os_workgroup;
-@protocol PHASERoomCongruenceInterface, PHASESessionInterface;
-
 @protocol PHASEPlatform
+- (unsigned int)3;
+- (_Bool)a5ps;
+
+@optional
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bufferFrameSize;
-@property(readonly, nonatomic) id <PHASERoomCongruenceInterface> roomCongruenceInterface;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PHASERoomCongruenceInterface>",?,R,N
-
-@property(readonly, nonatomic) _Bool running;
 @property(readonly, nonatomic) double sampleRate;
-@property(readonly, nonatomic) id <PHASESessionInterface> sessionInterface;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PHASESessionInterface>",?,R,N
-
-@property(readonly, nonatomic) OS_os_workgroup *workgroup;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OS_os_workgroup",?,R,N
-
 @end
 

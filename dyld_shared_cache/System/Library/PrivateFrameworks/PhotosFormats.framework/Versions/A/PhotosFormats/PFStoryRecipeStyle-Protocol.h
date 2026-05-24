@@ -7,13 +7,11 @@
 @class NSString;
 
 @protocol PFStoryRecipeStyle
+- (NSString *)S�_;
+- (long long);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long customColorGradeKind;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isCustomized;
-@property(readonly, nonatomic) NSString *originalColorGradeCategory;
-@property(readonly, nonatomic) NSString *songAssetIdentifier;
 @end
 

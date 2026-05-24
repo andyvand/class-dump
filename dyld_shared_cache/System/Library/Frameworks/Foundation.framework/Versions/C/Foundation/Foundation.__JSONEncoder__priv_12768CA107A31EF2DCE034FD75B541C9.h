@@ -7,12 +7,6 @@
 @interface Foundation.__JSONEncoder__priv_12768CA107A31EF2DCE034FD75B541C9
 {
     id singleValue;
-    id array;
-    id object;
-    id options;
-    id ownerEncoder;
-    id sharedSubEncoder;
-    id codingKey;
 }
 
 @end

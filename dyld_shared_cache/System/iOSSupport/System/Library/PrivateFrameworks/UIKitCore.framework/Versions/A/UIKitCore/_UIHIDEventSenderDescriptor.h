@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIHIDEventSenderDescriptor
 {
@@ -14,32 +12,24 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)loadAllChats;
 - (id);
 - (id);
+- (id)__show_KEY;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (unsigned int);
 - (void)1Â0@ù
 × ;
 - (id)A	°!Bùqe1Â0@ù
 × ;
-- (_Bool)ffset;
-- (unsigned long long)rameters: /* Error: Ran out of types for this method. */;
-- (id)eateRenderingBufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
+- (_Bool)tinyPunctuationGlyphOffset;
+- (unsigned long long)initWithLiftAnimationDuration:liftTimingParameters: /* Error: Ran out of types for this method. */;
+- (id)_createRenderingBufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
 - (id)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long senderID; // @synthesize senderID=_senderID;
-@property(readonly) Class superclass;
 
 @end
 

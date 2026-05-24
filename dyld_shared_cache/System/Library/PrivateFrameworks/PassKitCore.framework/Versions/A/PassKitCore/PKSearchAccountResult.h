@@ -11,14 +11,14 @@
     NSString *_accountIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_nUnknownStatusUpdat;
 - (id)<§;
-- (void)ymentRequests;
+- (void)allowsFormalPaymentRequests;
 - (void)locations:(id)arg1 '%@'; ;
 
 // Remaining properties

@@ -9,11 +9,9 @@
 @interface CKDSystemAvailabilityMonitor
 {
     NSMutableArray *_watcherWrappersInRegistrationOrder;
-    unsigned long long _availabilityState;
-    unsigned long long _simulatedAvailabilityState;
 }
 
-+ (id);
++ (id);
 + (void)ess to client for operation %{public}@ error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -36,7 +34,6 @@
 
 // Remaining properties
 @property unsigned long long availabilityState; // @synthesize availabilityState=_availabilityState;
-@property unsigned long long simulatedAvailabilityState; // @synthesize simulatedAvailabilityState=_simulatedAvailabilityState;
 
 @end
 

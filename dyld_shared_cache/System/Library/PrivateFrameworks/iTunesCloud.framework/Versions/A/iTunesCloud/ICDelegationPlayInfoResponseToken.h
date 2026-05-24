@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationPlayInfoResponseToken
 {
     NSData *_tokenData;
-    NSDate *_expirationDate;
-    NSString *_storefrontIdentifier;
 }
 
 - (void);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 @property(copy, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;
 
 @end

@@ -19,14 +19,14 @@
 ;
 - (long long);
 - (void);
+- (id)for metadata dictionary %s;
+- (_Bool)ndicationIdentifier:%@, asset:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)hasTimeSnapshot;
 - (unsigned long long);
 - (void)Ô ;
-- (_Bool)CollectionByFilteringTraits:(id)arg1;
-- (void)ue:(id)arg1;
+- (_Bool)traitCollectionByFilteringTraits:(id)arg1;
+- (void)setDefaultValue:(id)arg1;
 - (id)onCapturesStatusBarAppearance;
 - (void);
 

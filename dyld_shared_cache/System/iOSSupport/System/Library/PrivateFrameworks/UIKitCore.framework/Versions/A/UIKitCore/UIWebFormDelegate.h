@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWebBrowserView, _UIWebFormDelegateEditedFormsMap;
+@class UIWebBrowserView, _UIWebFormDelegateEditedFormsMap;
 
 @interface UIWebFormDelegate
 {
@@ -12,33 +12,27 @@
     _UIWebFormDelegateEditedFormsMap *_editedForms;
 }
 
-- (CDStruct_856ef1b3);
+- (CDStruct_856ef1b3)service:(id)arg1 didSwitchActivePairedDevice:(unsigned int)arg2 acknowledgementBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
+- (_Bool)failedCompression;
+- (void);
+- (void);
+- (_Bool)addedTransfer %@ for messageItem:(id)arg1 %@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (void)@;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)TLS1_CHECK_SERVERHELLO_TLSEXT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

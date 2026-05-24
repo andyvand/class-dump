@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SiriSharedUICompactViewModelController, SiriUICompactViewController;
-@protocol SiriUIPresentationDataSource, SiriUIPresentationDelegate;
+@class SiriSharedUICompactViewModelController, SiriUICompactViewController;
 
 __attribute__((visibility("hidden")))
 @interface SiriUICompactPresentation
 {
     SiriUICompactViewController *_compactViewController;
-    _Bool _isPresentingContent;
-    id <SiriUIPresentationDataSource> _dataSource;
-    id <SiriUIPresentationDelegate> _delegate;
-    SiriSharedUICompactViewModelController *_activeViewModelController;
-    long long _inputType;
 }
 
-- (int);
+- (int);
 - (void);
 - (_Bool);
 - (void);
@@ -28,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)3x;
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -41,12 +35,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
@@ -57,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)";
 - (long long);
 - (id);
 - (id);
@@ -70,23 +64,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) SiriSharedUICompactViewModelController *activeViewModelController; // @synthesize activeViewModelController=_activeViewModelController;
-@property(nonatomic) __weak id <SiriUIPresentationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SiriUIPresentationDataSource>",?,W,N,V_dataSource
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUIPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SiriUIPresentationDelegate>",?,W,N,V_delegate
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_inputType, setter=_setInputType:) long long inputType; // @synthesize inputType=_inputType;
-@property(readonly, nonatomic) _Bool isPresentingContent; // @synthesize isPresentingContent=_isPresentingContent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,35 +5,24 @@
 //
 
 @class IOSurface;
-@protocol MTLDevice;
 
 @interface TSDBrushStrokeDirectSurfaceRenderingContext
 {
     IOSurface *_surface;
-    double _contentsScale;
-    struct CGColorSpace *_destinationColorSpaceOverride;
-    id <MTLDevice> _metalDeviceOverride;
-    struct CGRect _frame;
-    struct CGAffineTransform _transform;
 }
 
 - (id);
-- (id);
+- (id);
 - (struct CGColorSpace *);
 - (void);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)!;
 - (double);
 - (struct CGRect);
 - (void)yle class.;
 
 // Remaining properties
-@property(readonly, nonatomic) double contentsScale; // @synthesize contentsScale=_contentsScale;
-@property(readonly, nonatomic) struct CGColorSpace *destinationColorSpaceOverride; // @synthesize destinationColorSpaceOverride=_destinationColorSpaceOverride;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) id <MTLDevice> metalDeviceOverride; // @synthesize metalDeviceOverride=_metalDeviceOverride;
 @property(readonly, nonatomic) IOSurface *surface; // @synthesize surface=_surface;
-@property(readonly, nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

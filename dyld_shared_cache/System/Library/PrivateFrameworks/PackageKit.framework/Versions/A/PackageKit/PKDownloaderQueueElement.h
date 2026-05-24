@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDownload, PKPackageReference;
+@class PKPackageReference;
 
 @interface PKDownloaderQueueElement
 {
     PKPackageReference *_packageRef;
-    NSString *_destination;
-    PKDownload *_download;
-    unsigned long long _downloadedBytes;
-    unsigned long long _checksummedBytes;
-    unsigned long long _progressIncrement;
 }
 
 - (id);
@@ -25,12 +20,12 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)=X;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 
 @end

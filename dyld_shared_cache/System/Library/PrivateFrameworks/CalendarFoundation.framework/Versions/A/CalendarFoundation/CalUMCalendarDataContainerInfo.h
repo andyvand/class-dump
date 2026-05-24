@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CalUMCalendarDataContainerInfo
 {
     _Bool _usesDataSeparatedContainer;
-    NSString *_accountID;
-    NSString *_personaID;
-    NSURL *_containerURL;
 }
 
 + (id);
@@ -20,21 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)dApplicationCreateFromPath failed for:(id)arg1 %s (%d);
+- (void)?;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSURL *containerURL; // @synthesize containerURL=_containerURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesDataSeparatedContainer; // @synthesize usesDataSeparatedContainer=_usesDataSeparatedContainer;
 
 @end
 

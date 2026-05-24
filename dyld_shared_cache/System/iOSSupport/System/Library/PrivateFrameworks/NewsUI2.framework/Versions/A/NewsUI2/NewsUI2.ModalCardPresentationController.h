@@ -7,8 +7,6 @@
 @interface NewsUI2.ModalCardPresentationController
 {
     id effectView;
-    id observation;
-    id useBlurEffect;
 }
 
 - (void);

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOMapLayerDataServiceLayer
 {
     unsigned int _identifier;
-    CDStruct_7c00b98a _flags;
 }
 
 - (id);
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)eysCount;
+- (id)vehicleTypeKeysCount;
 - (id)on",&,N;
 - (id)à¿­hXA;
 

@@ -4,45 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSOrderedSet, NSSet, UnifiedTabBarItem, UnifiedTabBarItemList;
+@class UnifiedTabBarItemList;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBarLayoutConfiguration
 {
     _Bool _cacheNeedsRefresh;
-    _Bool _hasActiveTab;
-    _Bool _isActiveTabDragged;
-    _Bool _isActiveTabPinned;
-    _Bool _isActiveTabUnpinned;
-    _Bool _showOnlyActiveTab;
-    NSOrderedSet *_arrangedTabBarItems;
-    NSOrderedSet *_arrangedPinnedTabBarItems;
-    unsigned long long _numberOfTabs;
-    unsigned long long _numberOfPinnedTabs;
-    unsigned long long _numberOfUnpinnedTabs;
-    unsigned long long _activeTabBarItemIndex;
-    NSOrderedSet *_arrangedContainerIdentifiers;
-    NSMapTable *_tabBarItemsToContainerIdentifiers;
-    UnifiedTabBarItemList *_tabBarItemList;
-    UnifiedTabBarItem *_activeTabBarItem;
-    NSSet *_selectedTabBarItems;
-    unsigned long long _numberOfTabsForInteractiveTabClosing;
-    UnifiedTabBarItem *_draggedTabBarItem;
-    unsigned long long _dropIndex;
-    UnifiedTabBarItem *_dropLocationPlaceholder;
-    unsigned long long _layoutOptions;
-    double _scrollViewDocumentViewWidth;
-    UnifiedTabBarItem *_tabBarItemScrollTarget;
-    NSSet *_draggedTabBarItems;
-    struct CGPoint _mouseDragLocation;
-    struct CGPoint _buttonDragAnchorPoint;
-    struct CGRect _tabBarBounds;
-    struct CGRect _titlebarMainContentLayoutFrameForCentering;
-    struct CGRect _scrollViewClipViewBounds;
 }
 
 - (struct CGRect);
-- (id);
+- (id)m;
 - (id);
 - (unsigned long long);
 - (id);
@@ -67,18 +38,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@;
 - (unsigned long long);
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (struct CGPoint);
@@ -104,37 +75,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ÐÔ;
 
 // Remaining properties
-@property(retain, nonatomic) UnifiedTabBarItem *activeTabBarItem; // @synthesize activeTabBarItem=_activeTabBarItem;
-@property(readonly, nonatomic) unsigned long long activeTabBarItemIndex; // @synthesize activeTabBarItemIndex=_activeTabBarItemIndex;
-@property(readonly, nonatomic) unsigned long long activeTabBarItemPositionInContainer;
-@property(readonly, copy, nonatomic) NSOrderedSet *arrangedContainerIdentifiers; // @synthesize arrangedContainerIdentifiers=_arrangedContainerIdentifiers;
-@property(readonly, copy, nonatomic) NSOrderedSet *arrangedPinnedTabBarItems; // @synthesize arrangedPinnedTabBarItems=_arrangedPinnedTabBarItems;
-@property(readonly, copy, nonatomic) NSOrderedSet *arrangedTabBarItems; // @synthesize arrangedTabBarItems=_arrangedTabBarItems;
-@property(nonatomic) struct CGPoint buttonDragAnchorPoint; // @synthesize buttonDragAnchorPoint=_buttonDragAnchorPoint;
-@property(readonly, nonatomic) unsigned long long containerPositionForActiveTabBarItem;
-@property(retain, nonatomic) UnifiedTabBarItem *draggedTabBarItem; // @synthesize draggedTabBarItem=_draggedTabBarItem;
-@property(readonly, copy, nonatomic) NSSet *draggedTabBarItems; // @synthesize draggedTabBarItems=_draggedTabBarItems;
-@property(nonatomic) unsigned long long dropIndex; // @synthesize dropIndex=_dropIndex;
-@property(retain, nonatomic) UnifiedTabBarItem *dropLocationPlaceholder; // @synthesize dropLocationPlaceholder=_dropLocationPlaceholder;
-@property(readonly, nonatomic) _Bool hasActiveTab; // @synthesize hasActiveTab=_hasActiveTab;
-@property(readonly, nonatomic) _Bool isActiveTabDragged; // @synthesize isActiveTabDragged=_isActiveTabDragged;
-@property(readonly, nonatomic) _Bool isActiveTabPinned; // @synthesize isActiveTabPinned=_isActiveTabPinned;
-@property(readonly, nonatomic) _Bool isActiveTabUnpinned; // @synthesize isActiveTabUnpinned=_isActiveTabUnpinned;
-@property(nonatomic) unsigned long long layoutOptions; // @synthesize layoutOptions=_layoutOptions;
-@property(nonatomic) struct CGPoint mouseDragLocation; // @synthesize mouseDragLocation=_mouseDragLocation;
-@property(readonly, nonatomic) unsigned long long numberOfPinnedTabs; // @synthesize numberOfPinnedTabs=_numberOfPinnedTabs;
-@property(readonly, nonatomic) unsigned long long numberOfTabs; // @synthesize numberOfTabs=_numberOfTabs;
-@property(nonatomic) unsigned long long numberOfTabsForInteractiveTabClosing; // @synthesize numberOfTabsForInteractiveTabClosing=_numberOfTabsForInteractiveTabClosing;
-@property(readonly, nonatomic) unsigned long long numberOfUnpinnedTabs; // @synthesize numberOfUnpinnedTabs=_numberOfUnpinnedTabs;
-@property(nonatomic) struct CGRect scrollViewClipViewBounds; // @synthesize scrollViewClipViewBounds=_scrollViewClipViewBounds;
-@property(nonatomic) double scrollViewDocumentViewWidth; // @synthesize scrollViewDocumentViewWidth=_scrollViewDocumentViewWidth;
-@property(copy, nonatomic) NSSet *selectedTabBarItems; // @synthesize selectedTabBarItems=_selectedTabBarItems;
-@property(nonatomic) _Bool showOnlyActiveTab; // @synthesize showOnlyActiveTab=_showOnlyActiveTab;
-@property(nonatomic) struct CGRect tabBarBounds; // @synthesize tabBarBounds=_tabBarBounds;
 @property(copy, nonatomic) UnifiedTabBarItemList *tabBarItemList; // @synthesize tabBarItemList=_tabBarItemList;
-@property(retain, nonatomic) UnifiedTabBarItem *tabBarItemScrollTarget; // @synthesize tabBarItemScrollTarget=_tabBarItemScrollTarget;
-@property(readonly, copy, nonatomic) NSMapTable *tabBarItemsToContainerIdentifiers; // @synthesize tabBarItemsToContainerIdentifiers=_tabBarItemsToContainerIdentifiers;
-@property(nonatomic) struct CGRect titlebarMainContentLayoutFrameForCentering; // @synthesize titlebarMainContentLayoutFrameForCentering=_titlebarMainContentLayoutFrameForCentering;
 
 @end
 

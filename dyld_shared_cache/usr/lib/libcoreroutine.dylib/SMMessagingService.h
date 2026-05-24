@@ -6,16 +6,15 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, NSUUID, SMIDSMessenger, SMMadridMessenger;
+@class SMIDSMessenger;
 
 @interface SMMessagingService : RTService
 {
     SMIDSMessenger *_idsMessenger;
-    SMMadridMessenger *_madridMessenger;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)ensurePCSFieldsOperation: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -35,32 +34,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
+- (void)zedEscrowRecord;
+- (id);
+- (void):(id)arg1 /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)ingTripSegmentInCurrentCountry;
+- (id)shouldAllowProcessingTripSegmentInCurrentCountry;
 - (void)llowed based on region check,%@,startCoordinate,%{sensitive}.7lf,%{sensitive}.7lf,stopCoordinate,%{sensitive}.7lf,%{sensitive}.7lf;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSUUID *deviceIdentifier;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SMIDSMessenger *idsMessenger; // @synthesize idsMessenger=_idsMessenger;
-@property(retain, nonatomic) SMMadridMessenger *madridMessenger; // @synthesize madridMessenger=_madridMessenger;
-@property(readonly) Class superclass;
 
 @end
 

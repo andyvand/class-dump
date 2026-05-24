@@ -4,73 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCSlide, MPFrame, MPLayerGroup, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol MPEffectSupport;
+@class MPFrame;
 
 @interface MPSlide
 {
     MPFrame *_frame;
-    NSMutableDictionary *_attributes;
-    NSString *_path;
-    MPLayerGroup *_layerGroup;
-    NSMutableArray *_filters;
-    NSMutableDictionary *_animationPaths;
-    MCSlide *_slide;
-    NSObject<MPEffectSupport> *_parent;
-    double _startTime;
-    double _duration;
-    double _audioFadeInDuration;
-    double _audioFadeOutDuration;
-    double _audioDuckInDuration;
-    double _audioDuckOutDuration;
-    double _audioDuckLevel;
-    double _scale;
-    double _rotation;
-    struct CGPoint _center;
-    double _audioVolume;
-    NSString *_sizingMode;
-    unsigned long long _mediaType;
-    _Bool _isSecondary;
-    _Bool _mirrorToDuplicatePaths;
-    double _cachedShowTime;
-    double _cachedShowDuration;
-    struct CGSize _cachedSize;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
+- (id)initWithURLSessionQueue:(id)arg1;
+- (id)NDAnalyticsUploadScheduler;
+- (double)FCCacheCoordinatorDelegate;
+- (double)NDAnalyticsUploadSchedulerDelegate;
+- (double)NDAnalyticsEnvelopeStoreObserver;
+- (void);
+- (void)t;
+- (void);
+- (void)loggenIn;
+- (void)appBuildNumber;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)l;
+- (void)f3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
+- (id)lopes requiring upload, identifier=%{public}@;
+- (id);
+- (void)ticsUploadScheduler scheduleUploadInWindow:withForegroundUploadCompletion:] /* Error: Ran out of types for this method. */;
+- (void)StoreEntry initWithStringRepresentation:(long long)arg1 ];
+- (void)dUploader.m;
+- (void)re _reportEnvelopesToNewsAutomationIfNeeded:(id)arg1 ];
+- (void)nvelopeStore envelopesForEntries:(id)arg1 ];
 - (id);
 - (id);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)I;
 - (id);
 - (long long);
 - (id);
@@ -80,14 +54,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)0;
+- (void)RB;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void));
+- (double)( ;
 - (double);
 - (double);
 - (double);
@@ -121,26 +95,27 @@
 - (id);
 - (double);
 - (double);
-- (void);
+- (void)6U@�D;
 - (void);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id)configureAutoplayForVideoWithURL:analyticsRouter: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)!;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)*;
+- (void)A
+;
 - (id);
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void)vec2		borderCenter, borderSize; 
 		uniform mediump vec2		imageCenter, imageSize; 
 		uniform mediump vec2		invRadii; 
@@ -172,22 +147,7 @@
 - (double);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *absolutePath;
-@property(nonatomic) double audioDuckInDuration;
-@property(nonatomic) double audioDuckLevel;
-@property(nonatomic) double audioDuckOutDuration;
-@property(nonatomic) double audioFadeInDuration;
-@property(nonatomic) double audioFadeOutDuration;
-@property(nonatomic) double audioVolume;
-@property(nonatomic) struct CGPoint center;
-@property(nonatomic) double duration;
 @property(retain, nonatomic) MPFrame *frame;
-@property(retain, nonatomic) MPLayerGroup *layerGroup;
-@property(copy, nonatomic) NSString *path;
-@property(nonatomic) double rotation;
-@property(nonatomic) double scale;
-@property(copy, nonatomic) NSString *sizingMode;
-@property(nonatomic) double startTime;
 
 @end
 

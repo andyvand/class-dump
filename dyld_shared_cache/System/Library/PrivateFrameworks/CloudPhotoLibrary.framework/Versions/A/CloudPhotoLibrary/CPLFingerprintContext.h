@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLFingerprintScheme, CPLFingerprintSchemeV1, CPLFingerprintSchemeV2, NSData;
+@class NSData;
 
 @interface CPLFingerprintContext
 {
     struct os_unfair_lock_s _lock;
-    _Bool _usesMMCSv2AsDefault;
-    CPLFingerprintSchemeV1 *_mmcsv1FingerprintScheme;
-    CPLFingerprintSchemeV2 *_mmcsv2FingerprintScheme;
 }
 
 + (void);
@@ -27,23 +24,19 @@
 - (void);
 - (void);
 - (id);
+- (id)ureLocationsText=%@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ternal/Library/BuildRoots/4~CNqDugCvxsAqS6DX8BD3e2ecMLSfRYQ_ycw7Pqo/Library/Caches/com.apple.xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/shared/envmgr.cpp;
 - (void)ñÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy) NSData *boundaryKey;
-@property(readonly, nonatomic) CPLFingerprintScheme *fingerprintSchemeForNewMasterAsset;
-@property(readonly) CPLFingerprintSchemeV1 *mmcsv1FingerprintScheme; // @synthesize mmcsv1FingerprintScheme=_mmcsv1FingerprintScheme;
-@property(readonly) CPLFingerprintSchemeV2 *mmcsv2FingerprintScheme; // @synthesize mmcsv2FingerprintScheme=_mmcsv2FingerprintScheme;
-@property(readonly) _Bool usesMMCSv2AsDefault; // @synthesize usesMMCSv2AsDefault=_usesMMCSv2AsDefault;
 
 @end
 

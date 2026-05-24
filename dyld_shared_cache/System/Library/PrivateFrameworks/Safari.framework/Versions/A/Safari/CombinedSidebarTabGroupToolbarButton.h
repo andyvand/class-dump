@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSStackView, NSString, NSTextField, NSTrackingArea, NSView, TabGroupPickerToolbarButton;
+@class NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface CombinedSidebarTabGroupToolbarButton
 {
     NSStackView *_stackView;
-    NSButton *_sidebarButton;
-    NSPopUpButton *_newTabGroupButton;
-    TabGroupPickerToolbarButton *_tabGroupPickerButton;
-    NSView *_separatorForAttachedPickerButton;
-    NSTextField *_privateBrowsingLabel;
-    NSTrackingArea *_trackingArea;
-    _Bool _needsPrivateBrowsingLabel;
-    _Bool _tabGroupPickerButtonAttachedToSideBarButton;
-    _Bool _sidebarVisible;
-    _Bool _privateBrowsing;
-    _Bool _locatedInSidebar;
 }
 
 - (id);
@@ -54,28 +43,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)(;
+- (_Bool)dIdentifier;
+- (void)P;
 - (void)ÿÿ;
 - (void)8;
 - (_Bool) î/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLocatedInSidebar) _Bool locatedInSidebar; // @synthesize locatedInSidebar=_locatedInSidebar;
 @property(nonatomic, getter=isNewTabGroupButtonHidden) _Bool newTabGroupButtonHidden;
-@property(nonatomic, getter=isPrivateBrowsing) _Bool privateBrowsing; // @synthesize privateBrowsing=_privateBrowsing;
-@property(nonatomic, getter=isSidebarVisible) _Bool sidebarVisible; // @synthesize sidebarVisible=_sidebarVisible;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tabGroupPickerButtonAttachedToSideBarButton; // @synthesize tabGroupPickerButtonAttachedToSideBarButton=_tabGroupPickerButtonAttachedToSideBarButton;
-@property(nonatomic, getter=isTabGroupPickerButtonHidden) _Bool tabGroupPickerButtonHidden;
-@property(readonly, copy, nonatomic) NSString *tabGroupPickerButtonTitle;
 
 @end
 

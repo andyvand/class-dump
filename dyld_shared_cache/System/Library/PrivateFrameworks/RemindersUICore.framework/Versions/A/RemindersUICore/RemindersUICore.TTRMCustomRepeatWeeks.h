@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMCustomRepeatWeeks
 {
     id delegate;
-    id weeksView;
-    id daysInWeek;
 }
 
 @end

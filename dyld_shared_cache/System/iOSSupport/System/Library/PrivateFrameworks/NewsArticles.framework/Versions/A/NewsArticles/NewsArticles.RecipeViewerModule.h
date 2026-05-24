@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeViewerModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

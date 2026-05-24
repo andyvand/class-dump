@@ -9,7 +9,6 @@
 @interface CNDSIMCardItem
 {
     NSString *_identifier;
-    NSString *_value;
 }
 
 + (_Bool);
@@ -22,11 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_isString:words:plausiblyInLanguage:increasedThreshold: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

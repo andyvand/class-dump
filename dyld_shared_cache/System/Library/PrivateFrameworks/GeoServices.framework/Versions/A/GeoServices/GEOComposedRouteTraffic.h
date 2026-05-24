@@ -9,8 +9,6 @@
 @interface GEOComposedRouteTraffic
 {
     NSArray *_trafficColors;
-    NSArray *_incidents;
-    NSArray *_offRouteIncidents;
 }
 
 + (_Bool)e at URL:%@ /* Error: Ran out of types for this method. */;
@@ -22,10 +20,10 @@
 - (unsigned int *);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)";
+- (id)languageHeaderSectionsFromPropertyList:(id)arg1 collator:(id)arg2;
+- (id)languageHeaderSectionsFromPropertyList:(id)arg1 collator:(id)arg2;
+- (id)compare:(id)arg1 options:(id)arg2;
 - (id);
 - (id);
 - (id);
@@ -37,14 +35,6 @@
 - (void)S56;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *offRouteIncidents; // @synthesize offRouteIncidents=_offRouteIncidents;
-@property(readonly, nonatomic) NSArray *routeIncidents; // @synthesize routeIncidents=_incidents;
-@property(readonly, nonatomic) NSArray *routeTrafficColors; // @synthesize routeTrafficColors=_trafficColors;
-@property(readonly, nonatomic) unsigned int *trafficColorOffsets;
-@property(readonly, nonatomic) unsigned long long trafficColorOffsetsCount;
-@property(readonly, nonatomic) unsigned int *trafficColors;
-@property(readonly, nonatomic) unsigned long long trafficColorsCount;
-@property(readonly, nonatomic) NSArray *trafficIncidentOffsets;
 @property(readonly, nonatomic) NSArray *trafficIncidents;
 
 @end

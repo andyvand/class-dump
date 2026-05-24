@@ -6,22 +6,11 @@
 
 #import <NetworkStatistics/NWStatsProtocolSnapshot.h>
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface NWStatsUDPSnapshot : NWStatsProtocolSnapshot
 {
     NSString *_processName;
-    NSDate *_startTimestamp;
-    NSDate *_snapshotTimestamp;
-    double _startTimeInterval;
-    double _snapshotTimeInterval;
-    NSUUID *_uuid;
-    NSUUID *_euuid;
-    NSUUID *_vuuid;
-    NSUUID *_flowuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    struct nstat_udp_descriptor *_descriptor;
 }
 
 - (void);
@@ -45,10 +34,10 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
+- (id)*y;
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -59,7 +48,7 @@
 - (unsigned short);
 - (unsigned short);
 - (id);
-- (unsigned int);
+- (unsigned int)enum_kMDItemFilename;
 - (unsigned int);
 - (id);
 - (id);
@@ -69,16 +58,16 @@
 - (unsigned int);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (int);
-- (unsigned int);
+- (unsigned int)i;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)still over %u;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -88,7 +77,7 @@
 - (id);
 - (_Bool);
 - (double);
-- (int);
+- (int)/;
 - (unsigned int);
 - (unsigned long long)monitoring interface %d with srcref %lld threshold %lld;
 - (_Bool)-coretop;

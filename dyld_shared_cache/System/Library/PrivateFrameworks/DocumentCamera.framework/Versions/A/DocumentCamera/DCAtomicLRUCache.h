@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)type from %d to %d;
 - (void);
 - (void);
 - (id);

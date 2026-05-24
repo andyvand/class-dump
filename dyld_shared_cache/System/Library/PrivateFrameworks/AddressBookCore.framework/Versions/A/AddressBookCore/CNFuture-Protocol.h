@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNFuture;
+
 @protocol CNFuture
+- (CNFuture *);
 - (void)!¬Fùñ0*°1Â0@ù
 × ;
 - (void)c}@ %{public}@ %{public}@;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
 @property(readonly, getter=isFinished) _Bool finished;
 @end
 

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWStateReason : SISchemaInstrumentationMessage
 {
     int _statusReason;
-    CDStruct_b48ac316 _has;
 }
 
 - (void);
@@ -20,8 +17,8 @@
 - (int);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)RINGTONE_PICKER_GROUP_TITLE_RINGTONES;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,8 +27,6 @@
 - (id)¸Lø|d<;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatusReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int statusReason; // @synthesize statusReason=_statusReason;
 
 @end

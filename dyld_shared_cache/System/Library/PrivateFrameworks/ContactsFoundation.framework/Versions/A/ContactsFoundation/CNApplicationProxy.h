@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNApplicationProxy
 {
     NSString *_bundleIdentifier;
-    NSString *_teamIdentifier;
-    NSString *_localizedName;
-    NSArray *_activityTypes;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)U;
 - (void);
 - (id);
 - (void);
@@ -30,13 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)&p;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityTypes; // @synthesize activityTypes=_activityTypes;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 
 @end
 

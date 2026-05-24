@@ -15,12 +15,12 @@
 
 + (id);
 - (void);
-- (id);
+- (id)t;
+- (void)t(IC) ic_fontDescriptorForSystemFontOfSize:(id)arg1 useSingleLineA:bold:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)matedImageAttachmentItemPreview;
+- (id)initWithSettings:(struct CGRect)arg1;
+- (void)CKAnimatedImageAttachmentItemPreview;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentBalloonView *balloonView; // @synthesize balloonView=_balloonView;

@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFFaceprintDatabaseID, NSData, NSDate, NSString, NSUUID;
-@protocol MKFHome, MKFUser;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFFaceprint : _MKFModel
@@ -17,26 +16,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)observer %@ of full refetch.;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @dynamic data;
-@property(readonly, copy, nonatomic) MKFFaceprintDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSUUID *faceCropUUID; // @dynamic faceCropUUID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSUUID *modelUUID; // @dynamic modelUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MKFUser> user; // @dynamic user;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

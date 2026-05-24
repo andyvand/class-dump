@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _SFAnalysisOptions
 {
     _Bool _keepANEModelLoaded;
-    long long _priority;
-    NSString *_aneContext;
-    NSString *_cpuContext;
-    NSString *_gpuContext;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *aneContext; // @synthesize aneContext=_aneContext;
-@property(readonly, copy, nonatomic) NSString *cpuContext; // @synthesize cpuContext=_cpuContext;
-@property(readonly, copy, nonatomic) NSString *gpuContext; // @synthesize gpuContext=_gpuContext;
-@property(readonly, nonatomic) _Bool keepANEModelLoaded; // @synthesize keepANEModelLoaded=_keepANEModelLoaded;
 @property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end

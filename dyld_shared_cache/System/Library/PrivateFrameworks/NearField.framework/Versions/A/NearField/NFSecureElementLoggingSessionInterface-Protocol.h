@@ -5,5 +5,10 @@
 //
 
 @protocol NFSecureElementLoggingSessionInterface
+- (oneway void)embers:(void (^)(NSError *, NSData *))arg1 %@ %@;
+- (oneway void)eateSmartGroupCommand.m;
+- (oneway void)oraryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBookUI/ABBindingsValueTransformers.m;
+- (oneway void);
+- (oneway void)lock_invoke;
 @end
 

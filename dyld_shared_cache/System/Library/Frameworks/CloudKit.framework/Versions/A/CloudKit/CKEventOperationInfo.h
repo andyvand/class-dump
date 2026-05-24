@@ -9,12 +9,10 @@
 @interface CKEventOperationInfo
 {
     NSString *_operationID;
-    NSString *_operationType;
-    NSString *_operationGroupID;
 }
 
 + (_Bool);
-- (id);
+- (id)6H;
 - (id);
 - (void);
 - (id);
@@ -23,9 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *operationGroupID; // @synthesize operationGroupID=_operationGroupID;
 @property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(readonly, copy, nonatomic) NSString *operationType; // @synthesize operationType=_operationType;
 
 @end
 

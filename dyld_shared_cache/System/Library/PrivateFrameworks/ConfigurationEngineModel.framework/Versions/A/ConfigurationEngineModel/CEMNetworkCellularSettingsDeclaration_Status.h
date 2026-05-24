@@ -11,11 +11,11 @@
 }
 
 + (id);
++ (id)a1;
 + (id);
-+ (id);
-+ (id);
++ (id)A;
 - (id);
-- (_Bool);
+- (_Bool)ak with the supplied language code;
 
 @end
 

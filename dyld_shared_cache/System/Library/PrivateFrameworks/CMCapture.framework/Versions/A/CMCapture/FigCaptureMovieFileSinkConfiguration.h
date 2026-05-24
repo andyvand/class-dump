@@ -6,16 +6,12 @@
 
 #import <CMCapture/FigCaptureSinkConfiguration.h>
 
-@class NSString;
-
 @interface FigCaptureMovieFileSinkConfiguration : FigCaptureSinkConfiguration
 {
     _Bool _trueVideoCaptureEnabled;
-    _Bool _multiCamClientCompositingEnabled;
-    NSString *_multiCamClientCompositingPrimaryConnectionID;
 }
 
-- (void);
+- (void)mLocked;
 - (id);
 - (void);
 - (_Bool);
@@ -39,11 +35,9 @@
 - (id)ôÿôÿõÿ¡õÿ©õÿ±öÿºöÿÂöÿÊöÿÒ÷ÿÛ÷ÿã÷ÿë÷ÿó÷ÿ÷÷ÿ;
 - (void)~ÿ;
 - (_Bool)d;
-- (_Bool)Regions;
+- (_Bool)NumTrackedRegions;
 
 // Remaining properties
-@property(nonatomic) _Bool multiCamClientCompositingEnabled; // @synthesize multiCamClientCompositingEnabled=_multiCamClientCompositingEnabled;
-@property(copy, nonatomic) NSString *multiCamClientCompositingPrimaryConnectionID; // @synthesize multiCamClientCompositingPrimaryConnectionID=_multiCamClientCompositingPrimaryConnectionID;
 @property(nonatomic) _Bool trueVideoCaptureEnabled; // @synthesize trueVideoCaptureEnabled=_trueVideoCaptureEnabled;
 
 @end

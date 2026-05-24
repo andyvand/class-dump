@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSOrderedSet, NSString, SOAlarmsSnapshot;
+@class SOAlarmsSnapshot;
 
 @interface _SOAlarmsSnapshotMutation
 {
     SOAlarmsSnapshot *_base;
-    NSDate *_date;
-    NSDictionary *_alarmsByID;
-    NSOrderedSet *_firingAlarmIDs;
-    NSOrderedSet *_dismissedAlarmIDs;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasDate:1;
-        unsigned int hasAlarmsByID:1;
-        unsigned int hasFiringAlarmIDs:1;
-        unsigned int hasDismissedAlarmIDs:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)FetchablePredicateConversionError;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

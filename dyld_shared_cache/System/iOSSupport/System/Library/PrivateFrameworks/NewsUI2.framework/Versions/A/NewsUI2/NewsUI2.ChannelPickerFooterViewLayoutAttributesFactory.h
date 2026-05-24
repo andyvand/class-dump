@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelPickerFooterViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

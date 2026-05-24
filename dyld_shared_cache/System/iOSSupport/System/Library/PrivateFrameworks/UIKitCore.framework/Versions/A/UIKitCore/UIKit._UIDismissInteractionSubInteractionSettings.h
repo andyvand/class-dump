@@ -9,27 +9,19 @@
 @interface UIKit._UIDismissInteractionSubInteractionSettings
 {
     UIViewSpringAnimationBehaviorSettings *updateSpring;
-    double effectiveDistanceFactor;
-    double dismissThreshold;
-    double scaleDismissThreshold;
-    double hysteresisPadding;
-    double coneOfInfluenceLeftAngle;
-    double coneOfInfluenceRightAngle;
-    double minScale;
-    double scaleStretchinessLowerBound;
-    double scaleStretchinessUpperBound;
 }
 
 + (id);
-- (id);
+- (id)fileURL %@;
+- (void)xhtml;
+- (void)Session;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (double)4;
 - (double);
 - (double);
 - (double);
@@ -37,24 +29,14 @@
 - (double);
 - (double);
 - (double);
-- (double);
 - (void);
 - (void);
-- (double)tingsWithDuration:timingFunction: /* Error: Ran out of types for this method. */;
-- (void)emplateImage: /* Error: Ran out of types for this method. */;
+- (double)settingsWithDuration:timingFunction: /* Error: Ran out of types for this method. */;
+- (void)_setInternalTemplateImage: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ø¦l;
 
 // Remaining properties
-@property(nonatomic) double coneOfInfluenceLeftAngle; // @synthesize coneOfInfluenceLeftAngle;
-@property(nonatomic) double coneOfInfluenceRightAngle; // @synthesize coneOfInfluenceRightAngle;
-@property(nonatomic) double dismissThreshold; // @synthesize dismissThreshold;
-@property(nonatomic) double effectiveDistanceFactor; // @synthesize effectiveDistanceFactor;
-@property(nonatomic) double hysteresisPadding; // @synthesize hysteresisPadding;
-@property(nonatomic) double minScale; // @synthesize minScale;
-@property(nonatomic) double scaleDismissThreshold; // @synthesize scaleDismissThreshold;
-@property(nonatomic) double scaleStretchinessLowerBound; // @synthesize scaleStretchinessLowerBound;
-@property(nonatomic) double scaleStretchinessUpperBound; // @synthesize scaleStretchinessUpperBound;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *updateSpring; // @synthesize updateSpring;
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSoftwareUpdate, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMSoftwareUpdateManagerDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMSoftwareUpdateManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _started;
-    HMSoftwareUpdate *_availableUpdate;
-    id <HMSoftwareUpdateManagerDelegate> _delegate;
-    _HMContext *_context;
-    NSUUID *_identifier;
 }
 
 + (id)is nil;
@@ -25,41 +19,36 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)ctedItem";
+- (id)(
+?
+8
+<
+
+G
+*
+B
+0
+5
+
+;
+- (id)N3fst8internal14ComposeFstImplINS_17DefaultCacheStoreINS_6ArcTplINS_17TropicalWeightTplIfEEEEEENS_21SequenceComposeFilterIN13cmdp_fst_util14SpecialMatcherINS_13SortedMatcherINS_3FstIS6_EEEEEESF_EENS_24GenericComposeStateTableIS6_NS_18IntegerFilterStateIaEENS_24DefaultComposeStateTupleIiSJ_EENS_21CompactHashStateTableISL_NS_11ComposeHashISL_EEEEEEEE;
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)deValue;
-- (void)rkConfigurationProfileDelegatePrivate;
+- (void)_accessoryAccessCodeValue;
+- (void)HMNetworkConfigurationProfileDelegatePrivate;
 - (id)dle:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void)ÔÿLÏ¢Ä;
 
 // Remaining properties
-@property(readonly) HMSoftwareUpdate *availableUpdate; // @synthesize availableUpdate=_availableUpdate;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSoftwareUpdateManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

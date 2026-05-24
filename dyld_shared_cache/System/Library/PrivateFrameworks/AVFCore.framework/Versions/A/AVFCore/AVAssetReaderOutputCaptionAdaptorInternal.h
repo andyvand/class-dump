@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReaderTrackOutput, AVWeakReference, NSMutableArray;
+@class AVAssetReaderTrackOutput;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderOutputCaptionAdaptorInternal
 {
     AVAssetReaderTrackOutput *trackOutput;
-    NSMutableArray *avCaptionGroupOutputQueue;
-    struct __CFDictionary *figCaptionToAVCaptionMapping;
-    struct OpaqueFigCaptionTimelineGenerator *sbufToCaptionGroupConverter;
-    _Bool endOfStream;
-    AVWeakReference *validationDelegate;
 }
 
 @end

@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBScanVisualCodeIntent
-- (_Bool)tedReason;
+- (void);
+- (_Bool)hasRequestPaymentIntentCurrencyAmountUnsupportedReason;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

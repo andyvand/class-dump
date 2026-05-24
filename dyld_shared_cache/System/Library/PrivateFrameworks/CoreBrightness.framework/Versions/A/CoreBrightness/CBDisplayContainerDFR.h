@@ -6,33 +6,24 @@
 
 #import <CoreBrightness/CBContainer.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CBDisplayContainerDFR : CBContainer
 {
     struct __IOHIDServiceClient *_dfrService;
-    _Bool _isRunning;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)BufferPoolSharedWithSynchronizedStreams;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

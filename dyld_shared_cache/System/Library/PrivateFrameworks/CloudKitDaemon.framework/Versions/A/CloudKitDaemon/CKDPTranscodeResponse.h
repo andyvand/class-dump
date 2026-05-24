@@ -16,18 +16,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ineRef);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)IODeviceTree;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecord;
-@property(retain, nonatomic) CKCodeRecordTransport *record; // @synthesize record=_record;
 
 @end
 

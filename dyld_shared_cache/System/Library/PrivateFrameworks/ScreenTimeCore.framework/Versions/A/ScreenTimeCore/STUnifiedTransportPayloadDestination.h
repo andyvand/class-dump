@@ -9,39 +9,28 @@
 @interface STUnifiedTransportPayloadDestination
 {
     NSString *_address;
-    NSString *_type;
-    unsigned long long _state;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id), key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)_fitnessPrivacyObserverToken;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)~;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

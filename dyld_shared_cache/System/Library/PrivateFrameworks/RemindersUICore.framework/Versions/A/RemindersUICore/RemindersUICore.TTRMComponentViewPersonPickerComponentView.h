@@ -9,14 +9,12 @@
 @interface RemindersUICore.TTRMComponentViewPersonPickerComponentView
 {
     id delegate;
-    void personPickerButton;
-    id picker;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_beginDraggingSessionForIndexPaths:(id)arg1;
 - (id);
 - (id);
 - (void);

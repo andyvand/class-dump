@@ -5,5 +5,8 @@
 //
 
 @protocol GEOResourceManifestTileGroupObserver
+
+@optional
+- (void)@8+;
 @end
 

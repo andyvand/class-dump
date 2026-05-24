@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSData, TRIWKMS;
+@class NSData;
 
 @interface TRIEncryptedMessage : TRIPBMessage
 {
@@ -16,11 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encryptedData; // @dynamic encryptedData;
-@property(nonatomic) int encryptionAlgorithm; // @dynamic encryptionAlgorithm;
-@property(nonatomic) _Bool hasEncryptedData; // @dynamic hasEncryptedData;
-@property(nonatomic) _Bool hasEncryptionAlgorithm; // @dynamic hasEncryptionAlgorithm;
-@property(readonly, nonatomic) int keyLocationOneOfCase; // @dynamic keyLocationOneOfCase;
-@property(retain, nonatomic) TRIWKMS *wkms; // @dynamic wkms;
 
 @end
 

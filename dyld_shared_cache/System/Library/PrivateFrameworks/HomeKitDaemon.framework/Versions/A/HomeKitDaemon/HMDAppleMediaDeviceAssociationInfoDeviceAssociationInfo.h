@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMDAppleMediaDeviceAssociationInfoDeviceAssociationInfo
 {
     NSString *_accessoryUUID;
-    NSString *_idsDestination;
-    NSString *_idsIdentifier;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)usePotentialSuggestions:(id)arg1;
+- (void)suggesterInputsByDateIntervalForInputs:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -30,18 +28,13 @@ __attribute__((visibility("hidden")))
 - (void)1Â0@ù
 × ;
 - (id);
-- (id)on;
-- (id)BulletinAccessoryRegistration;
+- (id)discoveryAssertion;
+- (id)MKFLocalBulletinAccessoryRegistration;
 - (void);
 - (id)\A;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
 @property(readonly, nonatomic) _Bool hasAccessoryUUID;
-@property(readonly, nonatomic) _Bool hasIdsDestination;
-@property(readonly, nonatomic) _Bool hasIdsIdentifier;
-@property(retain, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(retain, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
 
 @end
 

@@ -6,25 +6,20 @@
 
 #import <AppKit/NSImageView.h>
 
-@class NSLayoutConstraint;
-
 __attribute__((visibility("hidden")))
 @interface NSToolbarImageView : NSImageView
 {
     unsigned long long _controlSize;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    struct CGSize _cachedImageSize;
 }
 
 - (_Bool);
 - (void);
-- (double);
+- (double);
 - (void);
 - (unsigned long long);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void)@;
 - (void)creen=;
 - (void);
 

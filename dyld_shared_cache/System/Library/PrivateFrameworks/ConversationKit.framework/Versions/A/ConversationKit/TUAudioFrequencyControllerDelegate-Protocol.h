@@ -5,5 +5,8 @@
 //
 
 @protocol TUAudioFrequencyControllerDelegate
+
+@optional
+- (void);
 @end
 

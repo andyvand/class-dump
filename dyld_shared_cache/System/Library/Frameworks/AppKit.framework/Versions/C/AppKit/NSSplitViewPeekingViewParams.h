@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSplitViewDividerDragParams, NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSSplitViewPeekingViewParams
 {
     _Bool leadingEdge;
-    _Bool _snappedToPreferredThickness;
-    double originalWidth;
-    double minimumWidth;
-    unsigned long long dividerIndex;
-    NSView *view;
-    NSSplitViewDividerDragParams *dividerDragParams;
 }
 
 - (_Bool);
@@ -25,24 +17,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (void)@;
 - (void);
+- (double)2t;
 - (void);
+- (void)v;
 - (double);
-- (void);
-- (void);
-- (double);
-- (id)ctionPasteAtIndex:fromPasteboard: /* Error: Ran out of types for this method. */;
+- (id)_rangesForMultipleTextSelectionPasteAtIndex:fromPasteboard: /* Error: Ran out of types for this method. */;
 - (void)r must not have an order.;
 - (void)^;
 
 // Remaining properties
-@property(retain) NSSplitViewDividerDragParams *dividerDragParams; // @synthesize dividerDragParams;
-@property unsigned long long dividerIndex; // @synthesize dividerIndex;
-@property _Bool leadingEdge; // @synthesize leadingEdge;
-@property double minimumWidth; // @synthesize minimumWidth;
 @property double originalWidth; // @synthesize originalWidth;
-@property _Bool snappedToPreferredThickness; // @synthesize snappedToPreferredThickness=_snappedToPreferredThickness;
-@property __weak NSView *view; // @synthesize view;
 
 @end
 

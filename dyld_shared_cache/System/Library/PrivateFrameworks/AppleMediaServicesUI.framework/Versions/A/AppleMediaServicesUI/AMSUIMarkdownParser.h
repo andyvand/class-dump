@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol AMSUIMarkdownParserDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIMarkdownParser
 {
     NSString *_string;
-    id <AMSUIMarkdownParserDelegate> _delegate;
-    struct _xmlParserCtxt *__parserContext;
 }
 
 + (void)g_;
@@ -25,13 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)updateSafeAreaEdgesForPageModel: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct _xmlParserCtxt *_parserContext; // @synthesize _parserContext=__parserContext;
-@property(nonatomic) __weak id <AMSUIMarkdownParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

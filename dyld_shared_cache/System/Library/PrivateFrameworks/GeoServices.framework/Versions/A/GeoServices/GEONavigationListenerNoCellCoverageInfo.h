@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMeasurement, NSUUID;
+@class NSUUID;
 
 @interface GEONavigationListenerNoCellCoverageInfo
 {
     NSUUID *_uniqueID;
-    NSDate *_alertDate;
-    NSDate *_noCellCoverageStartDate;
-    NSMeasurement *_distanceAhead;
-    double _outageDuration;
-    NSMeasurement *_outageLength;
 }
 
 + (_Bool)inate:%{private}@ | etaRoute:%p | usingLiveTravelDurations:%d /* Error: Ran out of types for this method. */;
@@ -35,11 +30,6 @@
 - (void)¤pEÿ0p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *alertDate; // @synthesize alertDate=_alertDate;
-@property(readonly, nonatomic) NSMeasurement *distanceAhead; // @synthesize distanceAhead=_distanceAhead;
-@property(readonly, nonatomic) NSDate *noCellCoverageStartDate; // @synthesize noCellCoverageStartDate=_noCellCoverageStartDate;
-@property(readonly, nonatomic) double outageDuration; // @synthesize outageDuration=_outageDuration;
-@property(readonly, nonatomic) NSMeasurement *outageLength; // @synthesize outageLength=_outageLength;
 @property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

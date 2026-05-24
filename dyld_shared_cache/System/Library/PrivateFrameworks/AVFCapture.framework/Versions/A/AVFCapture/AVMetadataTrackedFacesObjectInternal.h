@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)setSmartStyleReversibilityEnabled: /* Error: Ran out of types for this method. */;
 - (void)NotificationWithPayload:(id)arg1 ];
 
 // Remaining properties

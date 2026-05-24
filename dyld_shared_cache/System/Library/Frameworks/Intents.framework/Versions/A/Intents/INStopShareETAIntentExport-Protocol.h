@@ -7,7 +7,8 @@
 @class NSArray;
 
 @protocol INStopShareETAIntentExport
-- (NSArray *)matString;
+- (id);
+- (NSArray *)_conciseFormatString;
 
 // Remaining properties
 @property(copy) NSArray *recipients;

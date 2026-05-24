@@ -7,22 +7,13 @@
 @interface PETDistribution
 {
     double _max;
-    double _mean;
-    double _min;
-    double _variance;
-    struct {
-        unsigned int max:1;
-        unsigned int mean:1;
-        unsigned int min:1;
-        unsigned int variance:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -41,18 +32,11 @@
 - (void);
 - (id);
 - (id);
-- (double);
-- (double);
+- (double)isEqualToNotification: /* Error: Ran out of types for this method. */;
+- (double)calendar.notifications.fakeNotificationSourceQ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMax;
-@property(nonatomic) _Bool hasMean;
 @property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasVariance;
-@property(nonatomic) double max; // @synthesize max=_max;
-@property(nonatomic) double mean; // @synthesize mean=_mean;
-@property(nonatomic) double min; // @synthesize min=_min;
-@property(nonatomic) double variance; // @synthesize variance=_variance;
 
 @end
 

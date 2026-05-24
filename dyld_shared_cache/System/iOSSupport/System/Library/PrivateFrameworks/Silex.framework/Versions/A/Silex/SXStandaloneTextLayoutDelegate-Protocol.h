@@ -5,5 +5,6 @@
 //
 
 @protocol SXStandaloneTextLayoutDelegate
+- (double);
 @end
 

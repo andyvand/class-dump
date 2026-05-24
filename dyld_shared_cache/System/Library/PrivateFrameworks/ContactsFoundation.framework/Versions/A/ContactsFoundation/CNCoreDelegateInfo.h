@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSPersonNameComponents, NSString;
+@class NSNumber;
 
 @interface CNCoreDelegateInfo
 {
     NSNumber *_dsid;
-    NSString *_altDSID;
-    NSString *_appleID;
-    NSString *_principalPath;
-    NSPersonNameComponents *_nameComponents;
-    _Bool _isMe;
 }
 
 + (id);
@@ -24,28 +19,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	k;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)B;
 - (_Bool);
+- (id)=;
 - (id);
+- (id)aKey:isMultiValue:toAddressBookTransform:fromAddressBookTransform: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)ToArray: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_cn_isIdenticalToArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
 @property(readonly, copy, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(readonly, nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(readonly, copy, nonatomic) NSString *principalPath; // @synthesize principalPath=_principalPath;
 
 @end
 

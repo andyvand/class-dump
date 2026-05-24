@@ -33,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (const CDStruct_22c2ae3f *);
 - (void);
-- (void);
+- (void)#;
 - (const CDStruct_22c2ae3f *);
 - (unsigned long long);
 - (const CDStruct_22c2ae3f *);
 - (unsigned long long);
-- (const CDStruct_c77fb927 *);
-- (id);
+- (const CDStruct_c77fb927 *);
+- (id)j.@�;
 - (const CDStruct_22c2ae3f *);
 - (unsigned long long);
 - (const CDStruct_22c2ae3f *);

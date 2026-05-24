@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIStatusBarStyleOverrideLoggingCapture, TITypologyLog, TITypologyStatistic;
-@protocol TITypologyPreferences;
+@class NSString;
 
 @interface TIKeyboardInputManagerLogger
 {
     _Bool _hadSecureText;
-    id <TITypologyPreferences> _typologyPreferences;
-    NSString *_inputModeIdentifier;
-    TITypologyLog *_typologyLog;
-    TITypologyStatistic *_typologyStatistic;
-    TIStatusBarStyleOverrideLoggingCapture *_sbsOverrideLoggingCapture;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id)schemaVersionFile;
 + (void);
 + (void);
 + (_Bool);
-+ (void);
++ (void)V_subscriptionAdamID;
 + (id);
 - (void);
 - (void);
@@ -35,52 +29,40 @@
 - (void);
 - (id);
 - (id);
+- (_Bool)sCube"B};
+- (id);
+- (void);
+- (id);
+- (void)dev@group.apple.com;
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)P*;
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)r=%@ MDItemIdentifier=%@ messageID=%@ messageHeader=%@ contentURL=%@ appEntityInstanceId=%@ name=%@ isFileType=%d linkType=%@;
+- (_Bool)pple.searchtoold;
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)CoreSymbolication.framework/Versions/A/CoreSymbolication;
 - (void)1Â0@ù
 × ;
 - (void)Àk;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hadSecureText; // @synthesize hadSecureText=_hadSecureText;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *inputModeIdentifier; // @synthesize inputModeIdentifier=_inputModeIdentifier;
-@property(retain, nonatomic) TIStatusBarStyleOverrideLoggingCapture *sbsOverrideLoggingCapture; // @synthesize sbsOverrideLoggingCapture=_sbsOverrideLoggingCapture;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TITypologyLog *typologyLog; // @synthesize typologyLog=_typologyLog;
-@property(readonly, nonatomic) id <TITypologyPreferences> typologyPreferences; // @synthesize typologyPreferences=_typologyPreferences;
-@property(retain, nonatomic) TITypologyStatistic *typologyStatistic; // @synthesize typologyStatistic=_typologyStatistic;
 
 @end
 

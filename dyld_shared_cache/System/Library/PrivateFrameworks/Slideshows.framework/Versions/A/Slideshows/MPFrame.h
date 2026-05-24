@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPFrameInternal, MPSlide, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MPFrame
 {
     NSMutableDictionary *_attributes;
-    MPSlide *_parentSlide;
-    MPFrameInternal *_internal;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (void);
+- (void)localHour;
+- (void)tentType)[contentType unsignedIntegerValue]); }];
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -38,7 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *frameID; // @dynamic frameID;
-@property(copy, nonatomic) NSString *presetID; // @dynamic presetID;
 
 @end
 

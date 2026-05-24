@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDEndPointAddress
 {
     _Bool _isIPv6Address;
-    NSString *_ipAddress;
-    NSNumber *_videoRTPPort;
-    NSNumber *_audioRTPPort;
 }
 
 + (_Bool)Tt;
@@ -25,16 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)l;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *audioRTPPort; // @synthesize audioRTPPort=_audioRTPPort;
 @property(readonly, copy, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(readonly, nonatomic) _Bool isIPv6Address; // @synthesize isIPv6Address=_isIPv6Address;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) NSNumber *videoRTPPort; // @synthesize videoRTPPort=_videoRTPPort;
 
 @end
 

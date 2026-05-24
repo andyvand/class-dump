@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TLAccessQueue;
-@protocol NSCopying;
+@class NSString, TLAccessQueue;
 
 @interface TLToneManager
 {
     TLAccessQueue *_accessQueue;
-    NSDictionary *_tonesByIdentifier;
-    NSDictionary *_toneIdentifiersBySyncIdentifier;
-    NSDictionary *_systemTonesByIdentifier;
-    NSDictionary *_toneIdentifierAliasMap;
-    id <NSCopying> _contentProtectionStateObserverToken;
-    _Bool _shouldUseServiceToAccessTonePreferences;
-    NSDictionary *_cachedTonePreferences;
-    _Bool _shouldIgnoreNextToneDidChangeNotification;
 }
 
 + (id);
@@ -28,12 +19,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_deviceITunesRingtoneDirectory;
-@property(readonly, nonatomic) NSString *_deviceITunesRingtoneInformationPlist;
-@property(readonly, nonatomic) NSString *_iTunesRingtoneDirectory;
-@property(readonly, nonatomic) NSString *_iTunesRingtoneInformationPlist;
 @property(readonly, nonatomic) NSString *_rootDirectory;
-@property(readonly, nonatomic) NSString *_systemRingtoneDirectory;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PLPhotoAnalysisWallpaperServiceProtocol
+- (void);
 @end
 

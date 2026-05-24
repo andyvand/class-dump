@@ -7,8 +7,6 @@
 @interface NewsArticles.RecommendedEndOfArticleFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

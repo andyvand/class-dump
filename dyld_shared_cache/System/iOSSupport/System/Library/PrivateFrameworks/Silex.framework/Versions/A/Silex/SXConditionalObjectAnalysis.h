@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface SXConditionalObjectAnalysis
 {
     NSMutableDictionary *_conditionsToComponentsMap;
-    NSMutableDictionary *_componentsToConditionsMap;
-    NSMutableDictionary *_conditionsToComponentStylesMap;
-    NSMutableDictionary *_componentStylesToConditionsMap;
-    NSMutableDictionary *_conditionsToComponentLayoutsMap;
-    NSMutableDictionary *_componentLayoutsToConditionsMap;
-    NSMutableDictionary *_conditionsToComponentTextStylesMap;
-    NSMutableDictionary *_componentTextStylesToConditionsMap;
-    NSMutableDictionary *_conditionsToTextStylesMap;
-    NSMutableDictionary *_textStylesToConditionsMap;
-    NSMutableSet *_documentStyleConditionTypes;
 }
 
 - (id);
@@ -26,6 +16,7 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,8 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);

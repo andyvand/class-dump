@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface DiagnosticsController
@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,13 +38,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bookmarksReport;
 @property(readonly, nonatomic) NSURL *homeDirectoryURL; // @synthesize homeDirectoryURL=_homeDirectoryURL;
-@property(readonly, nonatomic) NSDictionary *lastSession;
-@property(readonly, nonatomic) NSDictionary *preferences;
-@property(readonly, nonatomic) NSURL *safariSettingsDirectoryURL;
-@property(readonly, nonatomic) NSString *safariVersionReport;
-@property(readonly, nonatomic) NSURL *userLibraryDirectoryURL;
 
 @end
 

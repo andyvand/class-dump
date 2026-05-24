@@ -7,8 +7,6 @@
 @interface JetEngine.StackContainer
 {
     id $defaultActor;
-    id factory;
-    id stack;
 }
 
 @end

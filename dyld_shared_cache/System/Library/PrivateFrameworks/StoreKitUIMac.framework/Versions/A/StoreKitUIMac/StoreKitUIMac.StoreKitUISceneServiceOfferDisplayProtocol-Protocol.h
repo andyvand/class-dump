@@ -5,5 +5,6 @@
 //
 
 @protocol StoreKitUIMac.StoreKitUISceneServiceOfferDisplayProtocol
+- (void)%;
 @end
 

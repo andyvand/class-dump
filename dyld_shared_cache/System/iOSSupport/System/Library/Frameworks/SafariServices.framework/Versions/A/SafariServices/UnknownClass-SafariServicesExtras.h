@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SafariServicesExtras)
-+ (id);
++ (id)p;
 @end
 

@@ -9,7 +9,6 @@
 @interface _DPStringRandomizer
 {
     id <_DPStringRandomizer> _randomizer;
-    unsigned long long _algorithm;
 }
 
 + (id);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@0:8:16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) id <_DPStringRandomizer> randomizer; // @synthesize randomizer=_randomizer;
 
 @end
 

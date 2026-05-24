@@ -7,14 +7,6 @@
 @interface PodcastsFoundation.StoreFeedUpdater
 {
     id queue;
-    id ctx;
-    id requests;
-    id deltaQueue;
-    id bootstrapQueue;
-    id pendingBootstrapRequests;
-    id retries;
-    id deltaPullToFreshOnShowPageShouldBootstrap;
-    id backoffIntervals;
 }
 
 @end

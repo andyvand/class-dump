@@ -6,15 +6,12 @@
 
 #import <FileProvider/FPUnionCollection.h>
 
-@class FPQueryCollection, NSObject;
-@protocol OS_dispatch_queue;
+@class FPQueryCollection;
 
 __attribute__((visibility("hidden")))
 @interface FPTrashUnionCollection : FPUnionCollection
 {
     id _providerDomainChangesToken;
-    FPQueryCollection *_trashQueryCollection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

@@ -8,12 +8,9 @@ __attribute__((visibility("hidden")))
 @interface BU_TBUStarfieldShadowLayer
 {
     struct TRef<CGImage *, TRetainReleasePolicy<CGImageRef>> _shadowImage;
-    struct CGRect _shadowImageBounds;
-    struct CGRect _windowContentBounds;
-    struct vector<CALayer *, std::allocator<CALayer *>> _layers;
 }
 
-- (struct CGRect);
+- (struct CGRect)@;
 - (int);
 - (void);
 - (struct CGRect);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (struct CGRect);
+- (struct CGRect)a;
 - (id);
 - (void);
 - (struct CGImage *);
@@ -30,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CGImage *shadowImage;
-@property(nonatomic) struct CGRect shadowImageBounds; // @synthesize shadowImageBounds=_shadowImageBounds;
-@property(nonatomic) struct CGRect windowContentBounds; // @synthesize windowContentBounds=_windowContentBounds;
 
 @end
 

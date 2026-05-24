@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface PPRecordMonitoringHelper
 {
     NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_delegates;
-    _Bool _hasRegistered;
 }
 
 - (id);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)oper/PrivateFrameworks/CoreSimulator.framework;
 - (void);
 - (void);
 

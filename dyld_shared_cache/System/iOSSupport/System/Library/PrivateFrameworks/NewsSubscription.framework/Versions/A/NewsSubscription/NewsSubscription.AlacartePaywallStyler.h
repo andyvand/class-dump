@@ -7,8 +7,6 @@
 @interface NewsSubscription.AlacartePaywallStyler
 {
     id colorPaletteProvider;
-    id titleMaxLines;
-    id descriptionMaxLines;
 }
 
 @end

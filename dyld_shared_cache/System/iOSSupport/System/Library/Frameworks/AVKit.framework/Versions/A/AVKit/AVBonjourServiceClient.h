@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSNetServiceBrowser, NSString;
-@protocol AVBonjourServiceClientDelegate;
+@class NSNetServiceBrowser;
 
 __attribute__((visibility("hidden")))
 @interface AVBonjourServiceClient
 {
     _Bool _discovering;
-    NSMutableSet *_resolvedServices;
-    NSMutableSet *_resolvingServices;
-    NSMutableSet *_monitoringServices;
-    NSMutableDictionary *_netServiceIdentifierToChannel;
-    id _observeAirPlayVideoActiveDidChange;
-    id _observeMRDeviceInfoDidChange;
-    NSString *_serviceType;
-    id <AVBonjourServiceClientDelegate> _delegate;
-    NSNetServiceBrowser *_netServiceBrowser;
-    void *_airplayDeviceRef;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void *);
@@ -36,31 +25,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).;
+- (void)packageFromPPackage:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)packageDirectoryForBundleID:(id)arg1;
+- (void)packageAssetSizes;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithServiceName:(id)arg1 listenerVendor:(id)arg2 interfaceVendor:(_Bool)arg3 daemonListenerVendor:queue:workloop: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) void *airplayDeviceRef; // @synthesize airplayDeviceRef=_airplayDeviceRef;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVBonjourServiceClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNetServiceBrowser *netServiceBrowser; // @synthesize netServiceBrowser=_netServiceBrowser;
-@property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

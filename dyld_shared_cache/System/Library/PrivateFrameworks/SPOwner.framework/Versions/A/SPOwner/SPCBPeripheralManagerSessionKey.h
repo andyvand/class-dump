@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface SPCBPeripheralManagerSessionKey
 {
     NSUUID *_userIdentifier;
-    NSString *_bundleId;
 }
 
 + (_Bool);
-- (id);
+- (id)*)`;
 - (id);
 - (id);
 - (unsigned long long);
@@ -21,11 +20,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)IMCoreSpotlightIndexReasonAppDeleted;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(readonly, copy, nonatomic) NSUUID *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end

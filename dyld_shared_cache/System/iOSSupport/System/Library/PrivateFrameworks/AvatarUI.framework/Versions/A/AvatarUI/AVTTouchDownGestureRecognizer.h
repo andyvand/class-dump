@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSHashTable;
 
 @interface AVTTouchDownGestureRecognizer
 {
     _Bool _allowsTouchesToPassThrough;
-    NSHashTable *_recognizersRequiredToFail;
 }
 
 - (void);
@@ -27,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsTouchesToPassThrough; // @synthesize allowsTouchesToPassThrough=_allowsTouchesToPassThrough;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSHashTable *recognizersRequiredToFail; // @synthesize recognizersRequiredToFail=_recognizersRequiredToFail;
-@property(readonly) Class superclass;
 
 @end
 

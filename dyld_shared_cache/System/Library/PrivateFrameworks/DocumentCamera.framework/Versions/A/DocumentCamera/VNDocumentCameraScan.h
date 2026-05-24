@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSURL;
+@class NSString;
 
 @interface VNDocumentCameraScan
 {
     NSString *_title;
-    NSMutableArray *_docInfos;
-    NSURL *_scannedDocumentImageDirectoryURL;
 }
 
 + (id);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -42,15 +40,12 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *docInfos; // @synthesize docInfos=_docInfos;
-@property(readonly, nonatomic) unsigned long long pageCount;
-@property(readonly, nonatomic) NSURL *scannedDocumentImageDirectoryURL; // @synthesize scannedDocumentImageDirectoryURL=_scannedDocumentImageDirectoryURL;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

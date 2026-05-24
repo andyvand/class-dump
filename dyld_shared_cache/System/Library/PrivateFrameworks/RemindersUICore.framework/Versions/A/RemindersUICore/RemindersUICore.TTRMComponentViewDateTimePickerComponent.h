@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewDateTimePickerComponent
 {
     id elements;
-    id enabledState;
-    id datePickerView;
-    id dateComponentsAction;
 }
 
 - (void);

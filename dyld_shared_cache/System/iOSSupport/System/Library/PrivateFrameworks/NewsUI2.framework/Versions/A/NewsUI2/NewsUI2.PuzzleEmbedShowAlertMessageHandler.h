@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleEmbedShowAlertMessageHandler
 {
     id puzzleComponentsViewProvider;
-    id scriptsManager;
-    id delegate;
 }
 
 - (void);

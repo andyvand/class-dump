@@ -9,16 +9,11 @@
 @interface TSAudioTimeErrorCorrelatorResampler : TSAudioTimeErrorCorrelator
 {
     float *_scratchBuffer;
-    float *_channelABuffer;
-    float *_channelBBuffer;
-    float *_correlationBuffer;
-    float *_upsamplerFilterCoefficientsBuffer;
-    long long _upsamplerFilterCoefficientsLength;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

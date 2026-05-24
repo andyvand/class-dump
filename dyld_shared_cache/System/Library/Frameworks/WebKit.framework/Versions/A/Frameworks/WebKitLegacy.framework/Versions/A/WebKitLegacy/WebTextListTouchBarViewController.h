@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WebView;
-
 __attribute__((visibility("hidden")))
 @interface WebTextListTouchBarViewController
 {
     int _currentListType;
-    WebView *_webView;
 }
 
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)MemoryModelDescriptor";
 
 // Remaining properties
 @property(nonatomic) int currentListType; // @synthesize currentListType=_currentListType;

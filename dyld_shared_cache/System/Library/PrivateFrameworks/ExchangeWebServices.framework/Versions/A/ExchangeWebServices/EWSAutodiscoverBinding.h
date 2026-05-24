@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSAutodiscoverOperation, NSString;
-@protocol EWSAutodiscoverBindingDelegate;
+@class EWSAutodiscoverOperation;
 
 @interface EWSAutodiscoverBinding
 {
     _Bool _logsActivity;
-    NSString *_host;
-    id <EWSAutodiscoverBindingDelegate> _delegate;
-    EWSAutodiscoverOperation *_operation;
 }
 
 - (void);
@@ -27,9 +23,6 @@
 - (void)R,N,V_account;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <EWSAutodiscoverBindingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property _Bool logsActivity; // @synthesize logsActivity=_logsActivity;
 @property(nonatomic) __weak EWSAutodiscoverOperation *operation; // @synthesize operation=_operation;
 
 @end

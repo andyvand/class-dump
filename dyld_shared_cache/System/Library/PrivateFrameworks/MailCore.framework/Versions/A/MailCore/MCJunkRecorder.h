@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MCJunkRecorder
 {
     NSMutableArray *_imageInfos;
-    _Bool _isShort;
-    _Bool _isSigned;
-    unsigned long long _imageCount;
-    unsigned long long _characterCount;
-    double _imageToTextRatio;
-    double _lsmScore;
 }
 
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)\*;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)BagSnapshotOverlay;
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property unsigned long long characterCount; // @synthesize characterCount=_characterCount;
-@property unsigned long long imageCount; // @synthesize imageCount=_imageCount;
-@property(readonly, copy) NSArray *imageInfos;
-@property double imageToTextRatio; // @synthesize imageToTextRatio=_imageToTextRatio;
 @property _Bool isShort; // @synthesize isShort=_isShort;
-@property _Bool isSigned; // @synthesize isSigned=_isSigned;
-@property double lsmScore; // @synthesize lsmScore=_lsmScore;
 
 @end
 

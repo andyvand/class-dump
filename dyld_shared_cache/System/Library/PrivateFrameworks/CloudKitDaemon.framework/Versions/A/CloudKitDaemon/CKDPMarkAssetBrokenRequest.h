@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordIdentifier, NSMutableArray, NSString;
+@class NSString;
 
 @interface CKDPMarkAssetBrokenRequest
 {
     NSString *_affectedRecordType;
-    CKDPRecordIdentifier *_brokenAssetRecordID;
-    NSString *_fieldName;
-    NSMutableArray *_fileSignatures;
-    int _listIndex;
-    NSMutableArray *_referenceSignatures;
-    _Bool _isPackage;
-    _Bool _skipWriteMissingAssetStatusRecord;
-    struct {
-        unsigned int listIndex:1;
-        unsigned int isPackage:1;
-        unsigned int skipWriteMissingAssetStatusRecord:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 + (id);
 - (_Bool);
 - (void);
@@ -36,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,7 +33,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)�^@9*;
 - (void);
 - (id);
 - (id);
@@ -56,9 +44,10 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)handleEventInIdle:(id)arg1 eventVersion:eventData:appletAID:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)msgs / %u ms), avgBitrate %.2f (%u bits / %u ms), currentBitrate %.2f (%u bits / %u ms)
+;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -69,25 +58,12 @@
 - (void);
 - (_Bool)
 × ;
-- (Class)ary;
+- (Class)discoverableTrinary;
 - (void):The URL session data task should be nil:%p /* Error: Ran out of types for this method. */;
 - (id)egistration;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *affectedRecordType; // @synthesize affectedRecordType=_affectedRecordType;
-@property(retain, nonatomic) CKDPRecordIdentifier *brokenAssetRecordID; // @synthesize brokenAssetRecordID=_brokenAssetRecordID;
-@property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) NSMutableArray *fileSignatures; // @synthesize fileSignatures=_fileSignatures;
-@property(readonly, nonatomic) _Bool hasAffectedRecordType;
 @property(readonly, nonatomic) _Bool hasBrokenAssetRecordID;
-@property(readonly, nonatomic) _Bool hasFieldName;
-@property(nonatomic) _Bool hasIsPackage;
-@property(nonatomic) _Bool hasListIndex;
-@property(nonatomic) _Bool hasSkipWriteMissingAssetStatusRecord;
-@property(nonatomic) _Bool isPackage; // @synthesize isPackage=_isPackage;
-@property(nonatomic) int listIndex; // @synthesize listIndex=_listIndex;
-@property(retain, nonatomic) NSMutableArray *referenceSignatures; // @synthesize referenceSignatures=_referenceSignatures;
-@property(nonatomic) _Bool skipWriteMissingAssetStatusRecord; // @synthesize skipWriteMissingAssetStatusRecord=_skipWriteMissingAssetStatusRecord;
 
 @end
 

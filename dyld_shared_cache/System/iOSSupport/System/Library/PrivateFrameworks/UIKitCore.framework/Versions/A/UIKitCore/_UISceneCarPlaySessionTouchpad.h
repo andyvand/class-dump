@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UISceneCarPlaySessionTouchpad
 {
     unsigned long long _senderID;
-    double _sensitivity;
-    unsigned long long _supportedFeedbackTypes;
-    struct CGSize _physicalSize;
 }
 
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)0:8B16 /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
-- (unsigned long long)tion: /* Error: Ran out of types for this method. */;
-- (struct CGSize)diaTimeWhenIndicatorWasFirstPresentedInResponseToWheelEvent;
+- (unsigned long long)objectSnappedAtLocation: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_mediaTimeWhenIndicatorWasFirstPresentedInResponseToWheelEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool feedbackSupported;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize physicalSize; // @synthesize physicalSize=_physicalSize;
 @property(readonly, nonatomic) unsigned long long senderID; // @synthesize senderID=_senderID;
-@property(readonly, nonatomic) double sensitivity; // @synthesize sensitivity=_sensitivity;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long supportedFeedbackTypes; // @synthesize supportedFeedbackTypes=_supportedFeedbackTypes;
 
 @end
 

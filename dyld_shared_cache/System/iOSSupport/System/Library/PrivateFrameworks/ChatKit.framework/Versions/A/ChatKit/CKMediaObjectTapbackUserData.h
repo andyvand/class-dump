@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObjectBackedAsset, UIView;
-@protocol CKGradientReferenceView, CKPhotoGridTapbackPileDelegate;
+@class CKMediaObjectBackedAsset;
 
 @interface CKMediaObjectTapbackUserData
 {
     _Bool _shouldAnimate;
-    _Bool _invertTailDirection;
-    _Bool _displayedInGridView;
-    CKMediaObjectBackedAsset *_asset;
-    UIView<CKGradientReferenceView> *_gradientReferenceView;
-    id <CKPhotoGridTapbackPileDelegate> _photoGridTapbackPileDelegate;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)toValue;
+- (void)",W,N,V_layoutDelegate;
+- (void)T@"NSFetchedResultsController",&,N,V_modernFetchedResultsController;
 - (id);
-- (_Bool);
+- (_Bool)tGG;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -37,11 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObjectBackedAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic, getter=isDisplayedInGridView) _Bool displayedInGridView; // @synthesize displayedInGridView=_displayedInGridView;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(nonatomic) _Bool invertTailDirection; // @synthesize invertTailDirection=_invertTailDirection;
-@property(nonatomic) __weak id <CKPhotoGridTapbackPileDelegate> photoGridTapbackPileDelegate; // @synthesize photoGridTapbackPileDelegate=_photoGridTapbackPileDelegate;
-@property(nonatomic) _Bool shouldAnimate; // @synthesize shouldAnimate=_shouldAnimate;
 
 @end
 

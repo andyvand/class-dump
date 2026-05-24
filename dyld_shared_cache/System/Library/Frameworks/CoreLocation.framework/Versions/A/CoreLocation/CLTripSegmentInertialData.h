@@ -9,12 +9,6 @@
 @interface CLTripSegmentInertialData
 {
     NSDate *_timestamp;
-    double _dataPeriod_s;
-    double _deltaCourse_rad;
-    double _deltaSpeed_mps;
-    double _deltaCourseVar_rad2;
-    double _deltaSpeedVar_mps2;
-    double _deltaCourseSpeedCovar_radmps;
 }
 
 @end

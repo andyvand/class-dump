@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOResourceManifestConfiguration, GEOTileKeyList, GEOTileKeyMap, NSLocale, NSString;
+@class GEOTileKeyList;
 
 @interface GEOTileRequest
 {
     GEOTileKeyList *_keyList;
-    GEOResourceManifestConfiguration *_manifestConfiguration;
-    NSLocale *_locale;
-    GEOTileKeyMap *_cachedEtags;
-    GEOTileKeyMap *_cachedData;
-    GEOTileKeyMap *_priorities;
-    GEOTileKeyMap *_signpostIDs;
-    GEOTileKeyMap *_createTimes;
-    GEOTileKeyMap *_additionalInfos;
-    GEOTileKeyMap *_cacheInfos;
-    GEOApplicationAuditToken *_auditToken;
-    unsigned long long _constraints;
-    NSString *_backgroundSessionIdentifier;
-    _Bool _shouldParticipateInBalancer;
-    unsigned char _loadReason;
 }
 
 - (_Bool);
@@ -39,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (id)ype;
-- (id)stance;
-- (id)ityPopularity;
+- (id)hotspotHelperProviderType;
+- (id)canCalculateDistance;
+- (id)_globalEntityPopularity;
 - (void);
 - (id)§BATàd¸/J@;
 - (id)k| ñíèãÝØÒÌ
@@ -49,21 +35,7 @@
 éíñõøüÿ0F\q´Êà÷$;RiÁÇÌÑÖÛàå£©°¶¼;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOTileKeyMap *additionalInfos; // @synthesize additionalInfos=_additionalInfos;
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) NSString *backgroundSessionIdentifier; // @synthesize backgroundSessionIdentifier=_backgroundSessionIdentifier;
-@property(readonly, nonatomic) GEOTileKeyMap *cacheInfos; // @synthesize cacheInfos=_cacheInfos;
-@property(readonly, nonatomic) GEOTileKeyMap *cachedData; // @synthesize cachedData=_cachedData;
-@property(readonly, nonatomic) GEOTileKeyMap *cachedEtags; // @synthesize cachedEtags=_cachedEtags;
-@property(readonly, nonatomic) unsigned long long constraints; // @synthesize constraints=_constraints;
-@property(readonly, nonatomic) GEOTileKeyMap *createTimes; // @synthesize createTimes=_createTimes;
 @property(readonly, nonatomic) GEOTileKeyList *keyList; // @synthesize keyList=_keyList;
-@property(readonly, nonatomic) unsigned char loadReason; // @synthesize loadReason=_loadReason;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) GEOResourceManifestConfiguration *manifestConfiguration; // @synthesize manifestConfiguration=_manifestConfiguration;
-@property(readonly, nonatomic) GEOTileKeyMap *priorities; // @synthesize priorities=_priorities;
-@property(readonly, nonatomic) _Bool shouldParticipateInBalancer; // @synthesize shouldParticipateInBalancer=_shouldParticipateInBalancer;
-@property(readonly, nonatomic) GEOTileKeyMap *signpostIDs; // @synthesize signpostIDs=_signpostIDs;
 
 @end
 

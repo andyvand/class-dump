@@ -7,6 +7,11 @@
 @interface UnknownClass (CNUI)
 + (id);
 + (id);
++ (id)H;
++ (id);
++ (id);
++ (id);
++ (id)7*!;
 + (id);
 + (id);
 + (id);
@@ -17,14 +22,9 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (struct CGImage *);

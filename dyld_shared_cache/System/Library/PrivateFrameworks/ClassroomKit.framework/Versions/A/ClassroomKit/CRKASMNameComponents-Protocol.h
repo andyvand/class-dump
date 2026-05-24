@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @protocol CRKASMNameComponents
-- (NSString *)yloadCertificateAnchorPersistentID;
+- (NSString *)leaderPayloadCertificateAnchorPersistentID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *attributedFullName;
-@property(readonly, copy, nonatomic) NSString *familyName;
-@property(readonly, copy, nonatomic) NSString *fullName;
 @property(readonly, copy, nonatomic) NSString *givenName;
-@property(readonly, copy, nonatomic) NSString *monogram;
-@property(readonly, copy, nonatomic) NSString *phoneticFamilyName;
-@property(readonly, copy, nonatomic) NSString *phoneticFullName;
-@property(readonly, copy, nonatomic) NSString *phoneticGivenName;
 @end
 

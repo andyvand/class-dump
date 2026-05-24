@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageNicknameRetrieved
 {
     unsigned long long _timeTaken;
-    unsigned long long _timestamp;
-    unsigned int _connectionType;
-    unsigned int _hasAvatar;
-    int _linkQuality;
-    unsigned int _publicOperationalErrorCode;
-    NSString *_publicOperationalErrorDomain;
-    unsigned int _publicSuccess;
-    unsigned int _updated;
-    struct {
-        unsigned int timeTaken:1;
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int hasAvatar:1;
-        unsigned int linkQuality:1;
-        unsigned int publicOperationalErrorCode:1;
-        unsigned int publicSuccess:1;
-        unsigned int updated:1;
-    } _has;
 }
 
 - (void);
@@ -45,55 +25,38 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
+- (_Bool)k!3;
+- (_Bool)M;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)x;
 - (_Bool);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void)j"�i";
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)	;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (id);
-- (id);
+- (id)";
 - (void);
 - (int);
 - (void);
-- (void);
-- (void)sSampleCounts:(unsigned int)arg1;
+- (void);
+- (void)setHasSampleCounts:(unsigned int)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) unsigned int hasAvatar; // @synthesize hasAvatar=_hasAvatar;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasHasAvatar;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasPublicOperationalErrorCode;
-@property(readonly, nonatomic) _Bool hasPublicOperationalErrorDomain;
-@property(nonatomic) _Bool hasPublicSuccess;
-@property(nonatomic) _Bool hasTimeTaken;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUpdated;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) unsigned int publicOperationalErrorCode; // @synthesize publicOperationalErrorCode=_publicOperationalErrorCode;
-@property(retain, nonatomic) NSString *publicOperationalErrorDomain; // @synthesize publicOperationalErrorDomain=_publicOperationalErrorDomain;
-@property(nonatomic) unsigned int publicSuccess; // @synthesize publicSuccess=_publicSuccess;
-@property(nonatomic) unsigned long long timeTaken; // @synthesize timeTaken=_timeTaken;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int updated; // @synthesize updated=_updated;
 
 @end
 

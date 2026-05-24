@@ -9,7 +9,6 @@
 @interface Sharing._SFAirDropTransferObserverAdaptor
 {
     id client;
-    void delegate;
 }
 
 - (void);

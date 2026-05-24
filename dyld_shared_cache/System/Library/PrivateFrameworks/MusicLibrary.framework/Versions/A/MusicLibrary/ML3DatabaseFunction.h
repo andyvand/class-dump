@@ -9,19 +9,17 @@
 @interface ML3DatabaseFunction
 {
     int _argumentCount;
-    NSString *_name;
 }
 
-- (id);
-- (int);
-- (void);
+- (id)TB,R,N,V_confirmed;
+- (int)ng",C,N,V_country;
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void)E container_item_media_type SET count = count - ? WHERE container_pid = ? AND media_type = ?;
 
 // Remaining properties
-@property(nonatomic) int argumentCount; // @synthesize argumentCount=_argumentCount;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

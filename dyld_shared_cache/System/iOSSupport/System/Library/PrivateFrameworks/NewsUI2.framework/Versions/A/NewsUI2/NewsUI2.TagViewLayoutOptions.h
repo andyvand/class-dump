@@ -7,13 +7,6 @@
 @interface NewsUI2.TagViewLayoutOptions
 {
     id tagViewLayoutMargins;
-    id minimumHeight;
-    id verticalPadding;
-    id verticalPaddingForLargeText;
-    id accessoryOptions;
-    id layoutOptions;
-    id width;
-    id allowSuggestedDescription;
 }
 
 @end

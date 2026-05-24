@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextClient, PPTextToTopicTransform;
+@class CKContextClient;
 
 @interface PPTopicDissector
 {
     CKContextClient *_contextClient;
-    PPTextToTopicTransform *_transform;
 }
 
-+ (id)s:scoringDate:perRecordDecayRate:decayRate:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
++ (id)scoredEntityFromRecords:scoringDate:perRecordDecayRate:decayRate:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)impl.remoteFrequencyStabilityUpper;
 - (id);
 - (void);
 - (void);

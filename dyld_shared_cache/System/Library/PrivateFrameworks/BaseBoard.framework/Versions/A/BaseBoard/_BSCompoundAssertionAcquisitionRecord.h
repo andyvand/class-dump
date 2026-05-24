@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCompoundAssertion, NSString, _BSCompoundAssertionAcquisitionReference;
+@class BSCompoundAssertion;
 
 @interface _BSCompoundAssertionAcquisitionRecord
 {
     BSCompoundAssertion *_assertion;
-    NSString *_reason;
-    _BSCompoundAssertionAcquisitionReference *_reference;
-    id _context;
 }
 
 - (void);

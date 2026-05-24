@@ -9,8 +9,6 @@
 @interface Speech.AssetsInstallationRequest
 {
     id assetConfigs;
-    id clientID;
-    NSProgress *progress;
 }
 
 - (id);

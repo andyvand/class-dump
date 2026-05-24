@@ -6,14 +6,14 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SASetRestrictions : SABaseCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)L;
 - (void);
 - (id);
 - (id);
@@ -21,16 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
 @property(copy, nonatomic) NSArray *restrictions;
-@property(readonly) Class superclass;
 
 @end
 

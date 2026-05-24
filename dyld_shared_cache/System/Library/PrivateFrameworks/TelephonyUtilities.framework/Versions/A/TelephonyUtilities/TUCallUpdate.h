@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUCallProvider, TUCallServicesInterface, TUHandle;
 @protocol TUFeatureFlags;
 
 @interface TUCallUpdate
 {
     _Bool _hasVideo;
-    _Bool _conversation;
-    _Bool _answeringMachineAvailable;
-    _Bool _eligibleForScreening;
-    TUCallProvider *_provider;
-    TUHandle *_handle;
-    unsigned long long _remoteParticipantCount;
-    NSUUID *_UUID;
-    NSUUID *_callUUID;
-    id <TUFeatureFlags> _featureFlags;
-    TUCallServicesInterface *_callServicesInterface;
-    CDUnknownBlockType _contactsCountBlock;
-    long long _priority;
-    long long _junkConfidence;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)e;
 - (void);
 - (void);
 - (unsigned long long);
@@ -40,44 +26,31 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)09551615UL];
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)qa;
+- (id);
+- (id)!;
+- (id);
 - (void);
+- (void)@0:(id)arg1 8@16;
 - (_Bool);
-- (void)portsFaceTimeAudio;
-- (void)emotely;
-- (id)sOnHold;
-- (void)ation;
+- (void)supportsFaceTimeAudio;
+- (void)ringtoneSuppressedRemotely;
+- (id)isOnHold;
+- (void)TUCallRemoteVideoContentRectChangedNotification;
 - (long long)ateFrameworks/FTServices.framework/Contents/MacOS/FTServices;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic, getter=isAnsweringMachineAvailable) _Bool answeringMachineAvailable; // @synthesize answeringMachineAvailable=_answeringMachineAvailable;
-@property(retain, nonatomic) TUCallServicesInterface *callServicesInterface; // @synthesize callServicesInterface=_callServicesInterface;
-@property(retain, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
-@property(copy, nonatomic) CDUnknownBlockType contactsCountBlock; // @synthesize contactsCountBlock=_contactsCountBlock;
-@property(nonatomic, getter=isConversation) _Bool conversation; // @synthesize conversation=_conversation;
-@property(nonatomic, getter=isEligibleForScreening) _Bool eligibleForScreening; // @synthesize eligibleForScreening=_eligibleForScreening;
 @property(retain, nonatomic) id <TUFeatureFlags> featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(retain, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(nonatomic) long long junkConfidence; // @synthesize junkConfidence=_junkConfidence;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) TUCallProvider *provider; // @synthesize provider=_provider;
-@property(nonatomic) unsigned long long remoteParticipantCount; // @synthesize remoteParticipantCount=_remoteParticipantCount;
 
 @end
 

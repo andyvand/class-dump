@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXPlacesMapLayout.h>
 
-@class NSArray;
 @protocol PXPlacesMapLayoutResult;
 
 @interface PXPlacesMapThumbnailClusterLayout : PXPlacesMapLayout
 {
     double _horizontalClusteringDistancePixels;
-    double _verticalClusteringDistancePixels;
-    id <PXPlacesMapLayoutResult> _currentMapLayoutResult;
-    unsigned long long _currentChangeType;
-    NSArray *_geotaggablesSortDescriptors;
 }
 
 - (double);
@@ -45,11 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentChangeType; // @synthesize currentChangeType=_currentChangeType;
 @property(retain, nonatomic) id <PXPlacesMapLayoutResult> currentMapLayoutResult; // @synthesize currentMapLayoutResult=_currentMapLayoutResult;
-@property(retain, nonatomic) NSArray *geotaggablesSortDescriptors; // @synthesize geotaggablesSortDescriptors=_geotaggablesSortDescriptors;
-@property(nonatomic) double horizontalClusteringDistancePixels; // @synthesize horizontalClusteringDistancePixels=_horizontalClusteringDistancePixels;
-@property(nonatomic) double verticalClusteringDistancePixels; // @synthesize verticalClusteringDistancePixels=_verticalClusteringDistancePixels;
 
 @end
 

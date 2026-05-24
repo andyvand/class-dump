@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIDelayedAction, UITextMagnifierTimeWeightedPoint, _UIStatesFeedbackGenerator;
-@protocol _UIKeyboardTextSelectionGestureControllerDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardTextSelectionGestureController
 {
     NSMutableArray *_deallocHandlers;
-    _Bool _wasScrollingEnabled;
-    _Bool _wasNestedPinchingDisabled;
-    _Bool _suppressTwoFingerPan;
-    _Bool _didSuppressSelectionGrabbers;
-    _Bool _isLongPressing;
-    _Bool _isPanning;
-    _Bool _isSpacePan;
-    _Bool _hadAddedTouch;
-    _Bool _didFloatCursor;
-    int _previousForcePressCount;
-    id <_UIKeyboardTextSelectionGestureControllerDelegate> _delegate;
-    double _lastPressTimestamp;
-    UITextMagnifierTimeWeightedPoint *_weightedPoint;
-    double _twoFingerTapTimestamp;
-    long long _previousRepeatedGranularity;
-    long long _panGestureState;
-    double _spacePanDistance;
-    NSMutableArray *_activeGestures;
-    UIDelayedAction *_tapLogTimer;
-    UIDelayedAction *_longForcePressAction;
-    _UIStatesFeedbackGenerator *_feedbackBehaviour;
-    struct CGPoint _lastPanTranslation;
-    struct CGPoint _accumulatedAcceleration;
-    struct CGPoint _accumulatedBounding;
-    struct CGPoint _cursorLocationBase;
 }
 
 + (id)ÌVáÿµÎ@k;
@@ -45,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_payloadAuthName;
+- (void)lowMultiplayerGaming;
+- (id)CEMPasscodeLockscreenSettingsDeclaration_Status;
 - (void);
 - (struct CGPoint);
 - (void);
@@ -55,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (Class);
-- (_Bool);
+- (_Bool)setNeedsReloadForSignificantRequestChange;
+- (Class)GisPlaceholder,V_placeholder;
+- (_Bool)ing for MPModelPropertyAlbumLastDevicePlaybackDate;
 - (id);
 - (id);
 - (_Bool);
@@ -85,35 +59,35 @@ __attribute__((visibility("hidden")))
 - (void)8@16B24^@28d36;
 - (_Bool)chDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (id);
-- (id)Button:(id)arg1 forHeldState: /* Error: Ran out of types for this method. */;
-- (double)ewYConstraint: /* Error: Ran out of types for this method. */;
-- (void)les:(id)arg1;
-- (void)DidInsertCallbacksWithTextOperations:(struct CGPoint)arg1;
-- (long long)referredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
-- (void)FromComponents: /* Error: Ran out of types for this method. */;
+- (id)updateButton:(id)arg1 forHeldState: /* Error: Ran out of types for this method. */;
+- (double)setSymbolImageViewYConstraint: /* Error: Ran out of types for this method. */;
+- (void)setPossibleShortTitles:(id)arg1;
+- (void)sendAutoFillDidInsertCallbacksWithTextOperations:(struct CGPoint)arg1;
+- (long long)navigationControllerPreferredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
+- (void)dateFromComponents: /* Error: Ran out of types for this method. */;
 - (int);
-- (void)typeSelectInteraction;
+- (void)_typeSelectInteraction;
 - (double)ed:maxEnabledValue: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)isabled:(_Bool)arg1;
-- (_Bool)ithSourceApplication:processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
-- (id)e_windowWillBecomeHidden: /* Error: Ran out of types for this method. */;
-- (double)bolImageConfiguration;
-- (struct CGPoint)t: /* Error: Ran out of types for this method. */;
+- (void)_setPointerLiftDelay: /* Error: Ran out of types for this method. */;
+- (void)_setAdjustsContentInsetWhenScrollDisabled:(_Bool)arg1;
+- (_Bool)_initWithSourceApplication:processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
+- (id)_delegate_windowWillBecomeHidden: /* Error: Ran out of types for this method. */;
+- (double)_childIndicatorSymbolImageConfiguration;
+- (struct CGPoint)_addCharacterRectsToDocumentState:textRange:offset: /* Error: Ran out of types for this method. */;
 - (_Bool),&,N,V_customHighlighterGesture;
 - (_Bool);
 - (void);
 - (id)ver animation;
 - (void);
 - (double);
-- (_Bool)r;
+- (_Bool)spacer;
 - (id)dialog;
 - (void)turned a cell without a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (void)UIKitCore/_UIShadowEdgeMask.swift;
 - (_Bool);
 - (void);
 - (void)¿7G;
-- (id)nDefinitionError;
+- (id)UISceneConnectionOptionDefinitionError;
 - (void);
 - (void)*;
 - (void);
@@ -122,31 +96,7 @@ __attribute__((visibility("hidden")))
 - (void)0g_;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accumulatedAcceleration; // @synthesize accumulatedAcceleration=_accumulatedAcceleration;
-@property(nonatomic) struct CGPoint accumulatedBounding; // @synthesize accumulatedBounding=_accumulatedBounding;
-@property(retain, nonatomic) NSMutableArray *activeGestures; // @synthesize activeGestures=_activeGestures;
-@property(nonatomic) struct CGPoint cursorLocationBase; // @synthesize cursorLocationBase=_cursorLocationBase;
-@property(nonatomic) __weak id <_UIKeyboardTextSelectionGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didFloatCursor; // @synthesize didFloatCursor=_didFloatCursor;
-@property(nonatomic) _Bool didSuppressSelectionGrabbers; // @synthesize didSuppressSelectionGrabbers=_didSuppressSelectionGrabbers;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackBehaviour; // @synthesize feedbackBehaviour=_feedbackBehaviour;
-@property(nonatomic) _Bool hadAddedTouch; // @synthesize hadAddedTouch=_hadAddedTouch;
-@property(nonatomic) _Bool isLongPressing; // @synthesize isLongPressing=_isLongPressing;
-@property(nonatomic) _Bool isPanning; // @synthesize isPanning=_isPanning;
-@property(nonatomic) _Bool isSpacePan; // @synthesize isSpacePan=_isSpacePan;
 @property(nonatomic) struct CGPoint lastPanTranslation; // @synthesize lastPanTranslation=_lastPanTranslation;
-@property(nonatomic) double lastPressTimestamp; // @synthesize lastPressTimestamp=_lastPressTimestamp;
-@property(retain, nonatomic) UIDelayedAction *longForcePressAction; // @synthesize longForcePressAction=_longForcePressAction;
-@property(nonatomic) long long panGestureState; // @synthesize panGestureState=_panGestureState;
-@property(nonatomic) int previousForcePressCount; // @synthesize previousForcePressCount=_previousForcePressCount;
-@property(nonatomic) long long previousRepeatedGranularity; // @synthesize previousRepeatedGranularity=_previousRepeatedGranularity;
-@property(nonatomic) double spacePanDistance; // @synthesize spacePanDistance=_spacePanDistance;
-@property(nonatomic) _Bool suppressTwoFingerPan; // @synthesize suppressTwoFingerPan=_suppressTwoFingerPan;
-@property(retain, nonatomic) UIDelayedAction *tapLogTimer; // @synthesize tapLogTimer=_tapLogTimer;
-@property(nonatomic) double twoFingerTapTimestamp; // @synthesize twoFingerTapTimestamp=_twoFingerTapTimestamp;
-@property(nonatomic) _Bool wasNestedPinchingDisabled; // @synthesize wasNestedPinchingDisabled=_wasNestedPinchingDisabled;
-@property(nonatomic) _Bool wasScrollingEnabled; // @synthesize wasScrollingEnabled=_wasScrollingEnabled;
-@property(retain, nonatomic) UITextMagnifierTimeWeightedPoint *weightedPoint; // @synthesize weightedPoint=_weightedPoint;
 
 @end
 

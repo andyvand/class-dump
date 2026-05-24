@@ -7,14 +7,6 @@
 @interface WidgetKit.JindoViewStates
 {
     id count;
-    id viewEntryToEnvironment;
-    id environment;
-    id _views;
-    id _metricsDefinition;
-    id _collection;
-    id _lastJindoViewTagProcessed;
-    id _lastEnvProcessed;
-    id _viewTags;
 }
 
 @end

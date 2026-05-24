@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, UIWebDocumentView;
+@class NSObject;
 @protocol WebDocumentView;
 
 @interface UIWebPaginationInfo
 {
     NSObject<WebDocumentView> *_documentView;
-    double _scaleFactor;
-    struct CGSize _layoutSize;
-    NSArray *_pageRects;
-    UIWebDocumentView *_webDocumentView;
 }
 
-- (struct CGSize);
-- (void);
+- (struct CGSize)scheduleAttachmentAssetDownloadWithDelegate:(long long)arg1;
+- (void)pendingRemoteFileRequests;
+- (id)_resetSyncStateAndAttemptCounts;
+- (double)IMDCKCacheDeleteManager;
+- (id)<ij;
 - (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)`;
+- (void)se;
 - (double)t be locked to its owning view before retaining system constraints;
-- (struct CGSize)tsHiddenKey;
+- (struct CGSize)TitleElementsHiddenKey;
 - (void);
 - (unsigned long long)d;
 
 // Remaining properties
-@property(readonly, nonatomic) double lastPageHeight;
 @property(readonly, nonatomic) unsigned long long pageCount;
-@property(retain, nonatomic) UIWebDocumentView *webDocumentView; // @synthesize webDocumentView=_webDocumentView;
 
 @end
 

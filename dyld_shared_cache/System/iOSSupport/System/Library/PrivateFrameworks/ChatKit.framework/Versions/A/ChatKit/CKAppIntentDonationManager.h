@@ -8,15 +8,17 @@
 {
 }
 
++ (void)"
+;
++ (void);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)=x$
+;
 + (void);
 - (id);
 - (void)ViewModel;

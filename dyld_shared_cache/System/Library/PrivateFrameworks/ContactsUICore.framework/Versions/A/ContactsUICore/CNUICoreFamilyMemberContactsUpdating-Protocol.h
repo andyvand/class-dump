@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNFuture;
+
 @protocol CNUICoreFamilyMemberContactsUpdating
+- (CNFuture *)A9;
+- (CNFuture *);
 @end
 

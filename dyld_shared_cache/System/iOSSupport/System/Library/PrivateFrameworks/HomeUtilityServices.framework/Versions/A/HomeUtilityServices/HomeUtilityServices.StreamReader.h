@@ -8,10 +8,6 @@
 {
     id encoding;
     id chunkSize;
-    id fileHandle;
-    id buffer;
-    id delimData;
-    id atEof;
 }
 
 @end

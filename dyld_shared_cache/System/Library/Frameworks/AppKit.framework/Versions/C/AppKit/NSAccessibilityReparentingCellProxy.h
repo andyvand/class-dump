@@ -11,20 +11,20 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)or = %d;
+- (id)n;
+- (id)NSTemporaryExceptionRequiresForwardSecrecy;
+- (id)BundleException;
+- (id)ECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (void)y_ID in 								 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %d);
+- (id)e WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %q);
+- (id)%s WHERE isDataOnFS > 0 AND entry_ID in 									 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %q);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)table index on time_stamp - %s. ErrCode:(id)arg1 %d.;
+- (id)al_mode=WAL;;
+- (_Bool), response="%@";
+- (id)needClientCert;
+- (id)ntry.cpp;
 - (struct CGRect);
 
 @end

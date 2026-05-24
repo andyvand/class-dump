@@ -7,11 +7,6 @@
 @interface ConversationKit.CallScreeningCaptionsProvider
 {
     id logger;
-    id participantCaptionsProviderDelegate;
-    id captionsClient;
-    id lowConfidenceThreshold;
-    id uniqueProxyIdentifier;
-    id captionsEnabled;
 }
 
 - (void);

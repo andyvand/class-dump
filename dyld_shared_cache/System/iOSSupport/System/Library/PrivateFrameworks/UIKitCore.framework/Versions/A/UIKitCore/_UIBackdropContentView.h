@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _isForcingLayout;
 }
 
-- (void);
+- (void)_updateChatUsingCKRecord:(id)arg1 onRead:didSucceed:dispatchToMain: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)imension";
-- (id)bleKeyPaths;
+- (id)_additionalAnimatableKeyPaths;
 - (void)¿;
 
 @end

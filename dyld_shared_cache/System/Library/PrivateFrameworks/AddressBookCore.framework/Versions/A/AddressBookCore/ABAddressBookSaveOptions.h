@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABAddressBookSaveOptions
 {
     _Bool _shouldTriggerSync;
-    _Bool _shouldUseFileLock;
-    _Bool _shouldIgnoreGuardianRestrictions;
-    NSString *_transactionAuthor;
 }
 
 + (id);
 + (_Bool);
 + (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (unsigned long long)sortListPrioritizingiOSRecords: /* Error: Ran out of types for this method. */;
+- (_Bool)(;
+- (void);
+- (void);
+- (id);
+- (id)SSearchableItem"8;
 - (void);
 
 // Remaining properties
-@property _Bool shouldIgnoreGuardianRestrictions; // @synthesize shouldIgnoreGuardianRestrictions=_shouldIgnoreGuardianRestrictions;
 @property _Bool shouldTriggerSync; // @synthesize shouldTriggerSync=_shouldTriggerSync;
-@property _Bool shouldUseFileLock; // @synthesize shouldUseFileLock=_shouldUseFileLock;
-@property(copy) NSString *transactionAuthor; // @synthesize transactionAuthor=_transactionAuthor;
 
 @end
 

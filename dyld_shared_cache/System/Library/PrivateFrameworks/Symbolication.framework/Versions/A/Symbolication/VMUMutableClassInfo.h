@@ -6,8 +6,6 @@
 
 #import <Symbolication/VMUClassInfo.h>
 
-@class NSString;
-
 @interface VMUMutableClassInfo : VMUClassInfo
 {
 }
@@ -16,16 +14,16 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
+- (void)B28;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void)validate;
 - (void);
 - (void);
 - (void);
@@ -35,17 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *binaryPath; // @dynamic binaryPath;
-@property(nonatomic) unsigned int defaultScanType; // @dynamic defaultScanType;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(nonatomic) _Bool hasStorageIvar; // @dynamic hasStorageIvar;
-@property(nonatomic) unsigned int infoType; // @dynamic infoType;
-@property(nonatomic) unsigned int instanceSize; // @dynamic instanceSize;
-@property(nonatomic) _Bool isCoreMediaFigObject; // @dynamic isCoreMediaFigObject;
-@property(nonatomic) _Bool isRootClass; // @dynamic isRootClass;
-@property(nonatomic) _Bool isStorageForSpecificOwnerClassInfo; // @dynamic isStorageForSpecificOwnerClassInfo;
 @property(retain, nonatomic) VMUClassInfo *superclassInfo; // @dynamic superclassInfo;
-@property(nonatomic) unsigned int superclassOffset; // @dynamic superclassOffset;
 
 @end
 

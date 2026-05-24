@@ -6,16 +6,15 @@
 
 #import <LaunchServices/LSPlugInQuery.h>
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LSPlugInQueryWithUnits : LSPlugInQuery
 {
     NSArray *_pluginUnits;
-    NSUUID *_dbUUID;
 }
 
-+ (_Bool);
++ (_Bool)32@0:8@"<MTLFunction>"16Q24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

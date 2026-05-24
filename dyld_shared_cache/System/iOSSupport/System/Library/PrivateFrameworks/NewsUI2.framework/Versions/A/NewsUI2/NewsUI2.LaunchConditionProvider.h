@@ -7,8 +7,6 @@
 @interface NewsUI2.LaunchConditionProvider
 {
     id appLaunchMethodChecker;
-    id bootstrapFlowProvider;
-    id hasEnteredBackground;
 }
 
 @end

@@ -9,7 +9,7 @@
 @protocol UIWindowSceneDelegate
 
 @optional
-- (void)ingMultiSelectRows:(UIWindow *)arg1;
+- (void)_deselectAllRowsAnimated:(UIWindow *)arg1 notifyDelegate:excludingMultiSelectRows: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;

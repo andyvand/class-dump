@@ -11,12 +11,6 @@ __attribute__((visibility("hidden")))
 @interface AMSKeychainStore
 {
     NSString *_identifier;
-    NSString *_service;
-    NSString *_keychainAccessGroup;
-    NSObject<OS_dispatch_queue> *_keychainQueue;
-    CDUnknownFunctionPointerType _storeSecItemAddFunc;
-    CDUnknownFunctionPointerType _storeSecItemCopyMatchingFunc;
-    CDUnknownFunctionPointerType _storeSecItemDeleteFunc;
 }
 
 + (_Bool);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (_Bool);
@@ -44,13 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)<p¶·þÂ[Úµ«'5þ302Ú©T.k§Ï¾æj;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *keychainAccessGroup; // @synthesize keychainAccessGroup=_keychainAccessGroup;
 @property(retain) NSObject<OS_dispatch_queue> *keychainQueue; // @synthesize keychainQueue=_keychainQueue;
-@property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType storeSecItemAddFunc; // @synthesize storeSecItemAddFunc=_storeSecItemAddFunc;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType storeSecItemCopyMatchingFunc; // @synthesize storeSecItemCopyMatchingFunc=_storeSecItemCopyMatchingFunc;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType storeSecItemDeleteFunc; // @synthesize storeSecItemDeleteFunc=_storeSecItemDeleteFunc;
 
 @end
 

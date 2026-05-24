@@ -5,5 +5,7 @@
 //
 
 @protocol MTLAccelerationStructureCommandEncoder
+- (void);
+- (void)com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/grimoire/trie/header.h:(const id *)arg1 21:(unsigned long long)arg2 MARISA_FORMAT_ERROR:(unsigned long long)arg3 !test_header(ptr);
 @end
 

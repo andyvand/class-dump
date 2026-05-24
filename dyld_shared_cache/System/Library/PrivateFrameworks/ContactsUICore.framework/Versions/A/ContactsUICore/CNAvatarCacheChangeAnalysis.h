@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface CNAvatarCacheChangeAnalysis
 {
     NSData *_currentChangeHistoryToken;
-    NSArray *_identifiersOfAffectedContacts;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ateContactsInWhitelistFuture: /* Error: Ran out of types for this method. */;
+- (void)setUpdateContactsInWhitelistFuture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *currentChangeHistoryToken; // @synthesize currentChangeHistoryToken=_currentChangeHistoryToken;
-@property(readonly, copy, nonatomic) NSArray *identifiersOfAffectedContacts; // @synthesize identifiersOfAffectedContacts=_identifiersOfAffectedContacts;
 
 @end
 

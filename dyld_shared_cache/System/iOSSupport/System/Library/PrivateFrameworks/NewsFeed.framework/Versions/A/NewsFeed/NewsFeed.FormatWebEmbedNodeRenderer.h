@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatWebEmbedNodeRenderer
 {
     id reuseProtector;
-    id webEmbedImageGenerator;
-    id commandCenter;
-    id tracker;
 }
 
 @end

@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @protocol _SFPBUserActivityData
+- (void)B;
+- (NSData *),&,N,V_unverifiedPsiSearchIndex;
+- (NSString *)";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *userInfos;
 @end
 

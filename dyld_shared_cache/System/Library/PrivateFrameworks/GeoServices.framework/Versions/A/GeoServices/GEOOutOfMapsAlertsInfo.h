@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAlertNonRecommendedRouteText, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOOutOfMapsAlertsInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOAlertNonRecommendedRouteText *_alertNonRecommendedRouteText;
 }
 
-+ (_Bool)lular:(id)arg1;
++ (_Bool)setHasUsedCellular:(id)arg1;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)withLock_compactAndRemoveDelegates: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)a;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)stringByTrimmingCharactersInSet:(_Bool)arg1;
+- (void)8d56;
+- (void)ler _teardownAudioProviderIfNeeded];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)onst _GEOTileKey, std:(struct _NSZone *)arg1:__list_iterator<CacheItem, void *>>>>="__table_"{__hash_table<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, std::__unordered_map_hasher<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>, hashkey, eqkey>, std::__unordered_map_equal<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>, eqkey, hashkey>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)ionCorrectionMagnitude: /* Error: Ran out of types for this method. */;
+- (id)setLocationCorrectionMagnitude: /* Error: Ran out of types for this method. */;
 - (id)XÍ°|ÛÍ;
-- (id)ARY_CELL_WITH_THUMBNAIL;
+- (id)GUIDE_SUMMARY_CELL_WITH_THUMBNAIL;
 - (void)+8&22;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAlertNonRecommendedRouteText *alertNonRecommendedRouteText;
 @property(readonly, nonatomic) _Bool hasAlertNonRecommendedRouteText;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

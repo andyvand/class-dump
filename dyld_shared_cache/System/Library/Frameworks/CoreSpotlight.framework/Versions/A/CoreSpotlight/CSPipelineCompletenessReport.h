@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface CSPipelineCompletenessReport
 {
     NSString *_bundleID;
-    NSString *_pipeline;
-    NSDate *_reportDate;
-    NSNumber *_eligibleItems;
-    NSNumber *_pipelineCompleteness;
-    NSNumber *_pipelineCompletenessHeuristicScore;
-    NSNumber *_pipelineCompletenessFirstTimeBucket;
-    NSNumber *_pipelineCompletenessSecondBucket;
-    NSNumber *_pipelineCompletenessThirdBucket;
 }
 
 + (_Bool);
@@ -36,14 +28,6 @@
 
 // Remaining properties
 @property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) NSNumber *eligibleItems; // @synthesize eligibleItems=_eligibleItems;
-@property(readonly) NSString *pipeline; // @synthesize pipeline=_pipeline;
-@property(readonly) NSNumber *pipelineCompleteness; // @synthesize pipelineCompleteness=_pipelineCompleteness;
-@property(readonly) NSNumber *pipelineCompletenessFirstTimeBucket; // @synthesize pipelineCompletenessFirstTimeBucket=_pipelineCompletenessFirstTimeBucket;
-@property(readonly) NSNumber *pipelineCompletenessHeuristicScore; // @synthesize pipelineCompletenessHeuristicScore=_pipelineCompletenessHeuristicScore;
-@property(readonly) NSNumber *pipelineCompletenessSecondBucket; // @synthesize pipelineCompletenessSecondBucket=_pipelineCompletenessSecondBucket;
-@property(readonly) NSNumber *pipelineCompletenessThirdBucket; // @synthesize pipelineCompletenessThirdBucket=_pipelineCompletenessThirdBucket;
-@property(readonly) NSDate *reportDate; // @synthesize reportDate=_reportDate;
 
 @end
 

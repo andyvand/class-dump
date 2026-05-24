@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMAccount, REMColor, REMList, REMListBadge, REMSmartList;
+@class REMAccount, REMSmartList;
 
 @interface REMSmartListCustomContext
 {
     REMAccount *_account;
-    REMList *_parentList;
-    REMSmartList *_smartlist;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)í;
 - (id);
 - (id);
 - (void)
@@ -25,11 +23,6 @@
 - (id)JSON data. This is probably not what you want for performance to trigger it from -isEqual:, unless you are running Tests then it's fine {class:%{public}@, self-map:%@, other-map:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) REMListBadge *badge;
-@property(readonly, nonatomic) REMColor *color;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) REMList *parentList; // @synthesize parentList=_parentList;
 @property(retain, nonatomic) REMSmartList *smartlist; // @synthesize smartlist=_smartlist;
 
 @end

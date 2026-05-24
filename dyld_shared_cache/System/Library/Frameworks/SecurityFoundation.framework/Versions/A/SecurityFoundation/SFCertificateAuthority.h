@@ -13,7 +13,7 @@
 + (id);
 + (void);
 + (id);
-+ (int);
++ (int);
 - (id);
 - (void);
 - (void);
@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (_Bool);
@@ -43,14 +43,14 @@
 - (void);
 - (void);
 - (int);
-- (struct __SecCertificate *);
+- (struct __SecCertificate *)( ;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)H ;
 - (int);
 - (int);
 - (struct __SecKey *);
@@ -60,13 +60,13 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (struct __SecCertificate *);
 - (id);
-- (id);
-- (void);
+- (id)applyInnerNodeOffsetsBVH2AOSKernel;
+- (void);
 
 @end
 

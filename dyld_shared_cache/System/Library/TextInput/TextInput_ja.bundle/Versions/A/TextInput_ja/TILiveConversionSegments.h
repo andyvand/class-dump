@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, TIKeyboardCandidate, TIMecabraSegment;
-
 @interface TILiveConversionSegments
 {
     unsigned int _inputIndex;
     unsigned long long _index;
-    NSString *_rawInputString;
-    NSString *_inputString;
-    NSString *_autoCommitString;
-    NSArray *_segmentRanges;
-    TIKeyboardCandidate *_currentCandidate;
-    TIMecabraSegment *_currentSegment;
-    NSMutableArray *_rawSegments;
 }
 
 - (void);
@@ -31,33 +22,26 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)U;
 - (void);
 - (id);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)a;
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)Missing parameter for input named %@ for kernel %@; returning empty image.;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *autoCommitString; // @synthesize autoCommitString=_autoCommitString;
-@property(copy, nonatomic) TIKeyboardCandidate *currentCandidate; // @synthesize currentCandidate=_currentCandidate;
-@property(retain, nonatomic) TIMecabraSegment *currentSegment; // @synthesize currentSegment=_currentSegment;
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(nonatomic) unsigned int inputIndex; // @synthesize inputIndex=_inputIndex;
-@property(copy, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(copy, nonatomic) NSString *rawInputString; // @synthesize rawInputString=_rawInputString;
-@property(retain, nonatomic) NSMutableArray *rawSegments; // @synthesize rawSegments=_rawSegments;
-@property(copy, nonatomic) NSArray *segmentRanges; // @synthesize segmentRanges=_segmentRanges;
 
 @end
 

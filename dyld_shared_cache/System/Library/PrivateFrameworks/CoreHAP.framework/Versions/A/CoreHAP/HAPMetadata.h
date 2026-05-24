@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface HAPMetadata
 {
     unsigned int _hapUnitMapOffset;
-    unsigned int _hapPropertyMapOffset;
-    unsigned int _hapCharacteristicMapOffset;
-    unsigned int _hapCharacteristicShortUUIDToNameMapOffset;
-    unsigned int _hapServiceMapOffset;
-    unsigned int _hapServiceShortUUIDToNameMapOffset;
-    unsigned int _hapServiceBTLEShortUUIDToNameMapOffset;
-    unsigned int _hapSupportsAuthDataSetOffset;
-    NSNumber *_version;
-    NSNumber *_schemaVersion;
-    NSString *_hapBaseUUIDSuffix;
-    NSData *_metadata;
 }
 
 + (id);
@@ -27,54 +16,54 @@
 + (CDUnknownBlockType);
 + (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool)S;
+- (id)imageWithSize:(id)arg1 flipped:drawingHandler: /* Error: Ran out of types for this method. */;
+- (id)mpleted fetches;
+- (id)84;
+- (id);
+- (void);
+- (unsigned int);
+- (id);
+- (id);
+- (unsigned int);
 - (id);
 - (id);
+- (id);
+- (id)resentEnabled;
+- (unsigned int)leGlassDisplayModeControlsView",&,N,V_displayModeControlsView;
+- (_Bool)AVTransportControlsViewDelegate;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (void)initWithPath:(unsigned int)arg1 withExtraRules:forcedRulesOnly:assessmentClass:feedback: /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (_Bool);
+- (unsigned int);
+- (void);
+- (id)ugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/x509v3/v3_utl.c;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned int);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -88,7 +77,7 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
+- (id)failed to allocate digest;
 - (void);
 - (_Bool);
 - (id);
@@ -100,26 +89,9 @@
 × ;
 - (void):8@"<HAP2UnpairedAccessoryServer>"16Q24@?<v@?@"NSError">32 /* Error: Ran out of types for this method. */;
 - (id)g"24Q32^Q40Q48^@56;
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (id)_processSetupExchangeData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *hapBaseUUIDSuffix; // @synthesize hapBaseUUIDSuffix=_hapBaseUUIDSuffix;
-@property(nonatomic) unsigned int hapCharacteristicMapOffset; // @synthesize hapCharacteristicMapOffset=_hapCharacteristicMapOffset;
-@property(nonatomic) unsigned int hapCharacteristicShortUUIDToNameMapOffset; // @synthesize hapCharacteristicShortUUIDToNameMapOffset=_hapCharacteristicShortUUIDToNameMapOffset;
-@property(readonly, nonatomic) NSArray *hapCharacteristics;
-@property(readonly, nonatomic) NSArray *hapProperties;
-@property(nonatomic) unsigned int hapPropertyMapOffset; // @synthesize hapPropertyMapOffset=_hapPropertyMapOffset;
-@property(nonatomic) unsigned int hapServiceBTLEShortUUIDToNameMapOffset; // @synthesize hapServiceBTLEShortUUIDToNameMapOffset=_hapServiceBTLEShortUUIDToNameMapOffset;
-@property(nonatomic) unsigned int hapServiceMapOffset; // @synthesize hapServiceMapOffset=_hapServiceMapOffset;
-@property(nonatomic) unsigned int hapServiceShortUUIDToNameMapOffset; // @synthesize hapServiceShortUUIDToNameMapOffset=_hapServiceShortUUIDToNameMapOffset;
-@property(readonly, nonatomic) NSArray *hapServices;
-@property(nonatomic) unsigned int hapSupportsAuthDataSetOffset; // @synthesize hapSupportsAuthDataSetOffset=_hapSupportsAuthDataSetOffset;
-@property(readonly, nonatomic) NSArray *hapSupportsAuthDataTuples;
-@property(nonatomic) unsigned int hapUnitMapOffset; // @synthesize hapUnitMapOffset=_hapUnitMapOffset;
-@property(readonly, nonatomic) NSArray *hapValueUnits;
-@property(retain, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSDictionary *rawPlist;
-@property(retain, nonatomic) NSNumber *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
 @property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end

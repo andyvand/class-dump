@@ -9,10 +9,6 @@
 @interface SOTimer
 {
     NSString *_group;
-    unsigned long long _milliSeconds;
-    id _listener;
-    SEL _selector;
-    NSString *_identifier;
 }
 
 + (unsigned long long);
@@ -27,16 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (SEL);
-- (void);
+- (SEL);
+- (void)systemFontOfSize: /* Error: Ran out of types for this method. */;
 - (void)l or text emergency services.;
 
 // Remaining properties
 @property(retain) NSString *group; // @synthesize group=_group;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property __weak id listener; // @synthesize listener=_listener;
-@property unsigned long long milliSeconds; // @synthesize milliSeconds=_milliSeconds;
-@property SEL selector; // @synthesize selector=_selector;
 
 @end
 

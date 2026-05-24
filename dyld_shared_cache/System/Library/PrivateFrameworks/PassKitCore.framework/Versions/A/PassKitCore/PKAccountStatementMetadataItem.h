@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKAccountStatementMetadataItem
 {
     _Bool _hasBeenProcessed;
-    NSString *_identifier;
-    unsigned long long _type;
-    long long _accountEventType;
-    NSString *_originatorAltDSID;
-    NSString *_zoneName;
-    unsigned long long _status;
-    long long _processedAttemptCount;
-    NSDate *_lastProcessedDate;
-    NSDate *_lastReportDate;
-    long long _reportCount;
-    unsigned long long _error;
 }
 
 + (_Bool);
@@ -32,8 +21,8 @@
 - (long long);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)7�@9?;
+- (long long)H;
 - (void);
 - (void);
 - (_Bool);
@@ -41,36 +30,25 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long)q;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (void)setHasCellNrEstimatedThroughput:(unsigned long long)arg1;
+- (_Bool)_wrmRecommendedRAT;
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)b;
 - (void);
 - (id);
 - (id)!àAùñî%ð1Â0@ù
 × ;
-- (id)e;
+- (id)_displayableEndDate;
 - (id);
 - (void)merchant shipping contact selected;
 
 // Remaining properties
-@property(nonatomic) long long accountEventType; // @synthesize accountEventType=_accountEventType;
-@property(nonatomic) unsigned long long error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasBeenProcessed; // @synthesize hasBeenProcessed=_hasBeenProcessed;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastProcessedDate; // @synthesize lastProcessedDate=_lastProcessedDate;
-@property(nonatomic) NSDate *lastReportDate; // @synthesize lastReportDate=_lastReportDate;
-@property(copy, nonatomic) NSString *originatorAltDSID; // @synthesize originatorAltDSID=_originatorAltDSID;
-@property(nonatomic) long long processedAttemptCount; // @synthesize processedAttemptCount=_processedAttemptCount;
-@property(nonatomic) long long reportCount; // @synthesize reportCount=_reportCount;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

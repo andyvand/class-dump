@@ -6,27 +6,17 @@
 
 #import <UIKitCore/UIPreviewPresentationController.h>
 
-@class UIViewPropertyAnimator, _UIPreviewPresentationPlatterView;
-@protocol UIViewControllerPreviewing_Internal, _UIPreviewInteractionHighlighting;
+@class _UIPreviewPresentationPlatterView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewPresentationController2 : UIPreviewPresentationController
 {
     _Bool _hasPerformedInitialLayout;
-    _Bool _shouldScaleContentViewToAspectFitPlatter;
-    _Bool _shouldEnableUserInteractionOnPlatter;
-    id <UIViewControllerPreviewing_Internal> _previewingContext;
-    _UIPreviewPresentationPlatterView *_revealPlatterView;
-    id <_UIPreviewInteractionHighlighting> _currentHighlighter;
-    UIViewPropertyAnimator *_currentTransitionAnimator;
-    double _interactiveTransitionFraction;
-    _UIPreviewPresentationPlatterView *_contentPlatterView;
-    struct CGAffineTransform _preferredContentPlatterTransform;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -42,46 +32,36 @@ __attribute__((visibility("hidden")))
 - (struct CGAffineTransform);
 - (double);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)rray"24;
+- (id)ceForSending: /* Error: Ran out of types for this method. */;
+- (id)reindexMessagesWithCollaborationMetadata:collaborationMetadata:reason:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)plainTextBodyWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (void)pathExtensionForUTIType: /* Error: Ran out of types for this method. */;
+- (void)_shouldForceSensitivityResult;
+- (_Bool)dler;
 - (void);
 - (void);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ySS_SSypSgtc;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (void)L;
+- (struct CGRect)ht. isSWYSpam %@, showQuickAction:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool)r)];
 - (void)GSize=dd}}8@?0;
 - (void)¨N2;
-- (void)in;
+- (void)_UINavigationBarSettingsDomain;
 - (void)¾];
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect _computedPlatterFrame;
-@property(retain, nonatomic) _UIPreviewPresentationPlatterView *contentPlatterView; // @synthesize contentPlatterView=_contentPlatterView;
-@property(nonatomic) __weak id <_UIPreviewInteractionHighlighting> currentHighlighter; // @synthesize currentHighlighter=_currentHighlighter;
-@property(nonatomic) __weak UIViewPropertyAnimator *currentTransitionAnimator; // @synthesize currentTransitionAnimator=_currentTransitionAnimator;
-@property(nonatomic) _Bool hasPerformedInitialLayout; // @synthesize hasPerformedInitialLayout=_hasPerformedInitialLayout;
-@property(nonatomic) double interactiveTransitionFraction; // @synthesize interactiveTransitionFraction=_interactiveTransitionFraction;
-@property(nonatomic) struct CGAffineTransform preferredContentPlatterTransform; // @synthesize preferredContentPlatterTransform=_preferredContentPlatterTransform;
-@property(nonatomic) __weak id <UIViewControllerPreviewing_Internal> previewingContext; // @synthesize previewingContext=_previewingContext;
 @property(retain, nonatomic) _UIPreviewPresentationPlatterView *revealPlatterView; // @synthesize revealPlatterView=_revealPlatterView;
-@property(nonatomic) _Bool shouldEnableUserInteractionOnPlatter; // @synthesize shouldEnableUserInteractionOnPlatter=_shouldEnableUserInteractionOnPlatter;
-@property(nonatomic) _Bool shouldScaleContentViewToAspectFitPlatter; // @synthesize shouldScaleContentViewToAspectFitPlatter=_shouldScaleContentViewToAspectFitPlatter;
 
 @end
 

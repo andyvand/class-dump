@@ -14,7 +14,7 @@
 
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties

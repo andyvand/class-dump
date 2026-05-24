@@ -14,13 +14,13 @@
 - (unsigned long long);
 - (int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (unsigned long long);
 - (int);
 - (unsigned int);
 - (struct _cl_image_format);
-- (int);
+- (int)A9	K;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);

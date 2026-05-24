@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class UIColor;
 
 @interface NUNewsFeedTitleViewStyler
 {
     UIColor *_textColor;
-    long long _textAlignment;
 }
 
 - (void);
 - (id);
 - (id);
+- (id)R";
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setSession: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
 @property(copy, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 
 @end

@@ -12,23 +12,23 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)webLoginVC;
++ (id)saveAccountWithVerificationOptions:(id)arg1 dataclassActions:(id)arg2;
++ (_Bool)localizedStringWithKeyPrefix:(id)arg1;
++ (void)localizedStringForKey:(id)arg1 value:(id)arg2 table:(id *)arg3;
++ (void)labeledViewsHaveLargeSidePadding;
++ (id)llQuit;
++ (id)Suggestion;
++ (id)_passwordPanel;
++ (_Bool)dataclassFilter;
++ (id)sharedWorkspace;
++ (id)tring",R,N;
++ (id)setAccessibilityTitleUIElement:(id)arg1;
++ (id)serviceViewControllerForWindow:(id)arg1;
++ (_Bool)ACUIAccountInfoViewControllerAccountSyncDelegate;
++ (id)NSControlTextEditingDelegate;
++ (id)ACUINewMultipleAccounts;
++ (id)alNotificationForAccount:(id)arg1 ];
 
 @end
 

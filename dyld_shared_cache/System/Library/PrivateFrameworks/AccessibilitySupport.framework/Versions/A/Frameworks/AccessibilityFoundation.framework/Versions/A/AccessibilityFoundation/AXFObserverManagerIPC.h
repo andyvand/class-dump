@@ -6,24 +6,16 @@
 
 #import <AccessibilityFoundation/AXFObserverManager.h>
 
-@class NSLock, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface AXFObserverManagerIPC : AXFObserverManager
 {
     NSLock *__observerLock;
-    NSObject<OS_dispatch_source> *__pruneTimer;
-    NSObject<OS_dispatch_queue> *__pruneTimerQueue;
-    NSMutableDictionary *__applicationAXObservers;
-    NSMutableDictionary *__applicationLocks;
-    NSMutableDictionary *__applicationObserverGroupSets;
-    NSLock *__observerIDToAppLock;
-    NSMutableDictionary *__observerIDToApp;
 }
 
 + (id);
-+ (id);
++ (id)isSendingAudioFor:%@   callID:%d returning %d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -31,36 +23,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)a;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void)update;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *_applicationAXObservers; // @synthesize _applicationAXObservers=__applicationAXObservers;
-@property(retain, nonatomic) NSMutableDictionary *_applicationLocks; // @synthesize _applicationLocks=__applicationLocks;
-@property(retain, nonatomic) NSMutableDictionary *_applicationObserverGroupSets; // @synthesize _applicationObserverGroupSets=__applicationObserverGroupSets;
-@property(retain, nonatomic) NSMutableDictionary *_observerIDToApp; // @synthesize _observerIDToApp=__observerIDToApp;
-@property(retain, nonatomic) NSLock *_observerIDToAppLock; // @synthesize _observerIDToAppLock=__observerIDToAppLock;
 @property(retain, nonatomic) NSLock *_observerLock; // @synthesize _observerLock=__observerLock;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *_pruneTimer; // @synthesize _pruneTimer=__pruneTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_pruneTimerQueue; // @synthesize _pruneTimerQueue=__pruneTimerQueue;
 
 @end
 

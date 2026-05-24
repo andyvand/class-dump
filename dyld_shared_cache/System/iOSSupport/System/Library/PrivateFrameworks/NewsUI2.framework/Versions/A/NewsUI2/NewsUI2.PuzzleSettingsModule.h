@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleSettingsModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

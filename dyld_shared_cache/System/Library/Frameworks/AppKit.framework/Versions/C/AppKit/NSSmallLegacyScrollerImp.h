@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)_allProtocolProperties;
 - (double);
 - (double);
 - (unsigned long long);

@@ -6,12 +6,11 @@
 
 #import <PhotoImaging/PIParallaxStyleDefinition.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PIParallaxStyleFilterStackDefinition : PIParallaxStyleDefinition
 {
     NSString *_stackName;
-    NSArray *_filters;
 }
 
 - (id);
@@ -23,10 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void)eringVersion: /* Error: Ran out of types for this method. */;
+- (void)setRenderingVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
 @property(readonly, copy, nonatomic) NSString *stackName; // @synthesize stackName=_stackName;
 
 @end

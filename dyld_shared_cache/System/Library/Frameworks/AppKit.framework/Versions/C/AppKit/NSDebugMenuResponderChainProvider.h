@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSString;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuResponderChainProvider
@@ -12,20 +12,13 @@ __attribute__((visibility("hidden")))
     NSMenuItem *_menuItem;
 }
 
-- (void);
-- (id);
+- (void)t;
+- (id)v32@0:8Q16@"NSDictionary"24 /* Error: Ran out of types for this method. */;
 - (void)=B;
 - (_Bool)­fÿ¯èVCG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property(readonly) Class superclass;
 
 @end
 

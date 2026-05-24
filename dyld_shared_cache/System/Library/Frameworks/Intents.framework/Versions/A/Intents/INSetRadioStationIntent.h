@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class NSNumber, NSString;
-
 @interface INSetRadioStationIntent : INIntent
 {
 }
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (id);
@@ -29,28 +27,17 @@
 - (void);
 - (id);
 - (void);
+- (void)blic}@);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)eWorkoutNameOptionsCollectionForResumeWorkout:(long long)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideWorkoutNameOptionsCollectionForResumeWorkout:(long long)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (long long)provideDestinationTypeOptionsCollectionForMoveFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *channel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *frequency;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *presetNumber;
 @property(readonly) long long radioType;
-@property(readonly, copy) NSString *stationName;
-@property(readonly) Class superclass;
 
 @end
 

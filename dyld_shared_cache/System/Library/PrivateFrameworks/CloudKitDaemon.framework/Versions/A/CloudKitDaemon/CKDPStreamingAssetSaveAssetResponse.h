@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKDPStreamingAssetSaveAssetResponse
 {
     long long _reservedSize;
-    long long _uploadURLExpirationTimeSeconds;
-    NSString *_uploadURL;
-    struct {
-        unsigned int reservedSize:1;
-        unsigned int uploadURLExpirationTimeSeconds:1;
-    } _has;
 }
 
 - (long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_;
 - (long long);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)te(CFAllocatorRef, APSNetworkClockRef, CFDictionaryRef, FigEndpointStreamAudioEngineRef *)_block_invoke;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)!^;
 - (void)@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasReservedSize;
-@property(readonly, nonatomic) _Bool hasUploadURL;
-@property(nonatomic) _Bool hasUploadURLExpirationTimeSeconds;
-@property(nonatomic) long long reservedSize; // @synthesize reservedSize=_reservedSize;
-@property(retain, nonatomic) NSString *uploadURL; // @synthesize uploadURL=_uploadURL;
-@property(nonatomic) long long uploadURLExpirationTimeSeconds; // @synthesize uploadURLExpirationTimeSeconds=_uploadURLExpirationTimeSeconds;
 
 @end
 

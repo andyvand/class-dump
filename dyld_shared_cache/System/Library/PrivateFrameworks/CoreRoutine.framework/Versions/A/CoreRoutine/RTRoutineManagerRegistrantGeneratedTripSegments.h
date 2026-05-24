@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _clientCallback;
 }
 
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)˒k;
+- (void)loadWithSandboxId:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (_Bool)dler;
+- (_Bool)leechedVisitHandler;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType clientCallback; // @synthesize clientCallback=_clientCallback;
-@property(readonly, nonatomic, getter=isRegistered) _Bool registered;
 
 @end
 

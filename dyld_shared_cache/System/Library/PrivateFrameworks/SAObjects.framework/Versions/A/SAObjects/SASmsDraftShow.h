@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_TtC12DebugSymbols28AdjacentSymbolSearchStrategy;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *smsIdentifier;

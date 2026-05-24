@@ -7,7 +7,9 @@
 @class NSData;
 
 @protocol SCNGeometryElementJSExport
-- (float)layLink;
+- (void)+;
+- (void);
+- (float)_displayLink;
 - (void)ly = u_multiplyColor;
 #elif defined(USE_MULTIPLY)
     _surface.multiply = vec4(1.);
@@ -182,15 +184,6 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerIndex;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long indicesChannelCount;
-@property(readonly, nonatomic, getter=hasInterleavedIndicesChannels) _Bool interleavedIndicesChannels;
-@property(nonatomic) float maximumPointScreenSpaceRadius;
-@property(nonatomic) float minimumPointScreenSpaceRadius;
-@property(nonatomic) float pointSize;
-@property(readonly, nonatomic) long long primitiveCount;
-@property(nonatomic) struct _NSRange primitiveRange;
-@property(readonly, nonatomic) long long primitiveType;
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagnosticCase, NSObject;
-@protocol DiagnosticReportGeneratorDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface DiagnosticReportGenerator
 {
     _Bool _reportGenerated;
-    NSObject<OS_dispatch_queue> *_queue;
-    double _timeoutSeconds;
-    id <DiagnosticReportGeneratorDelegate> _delegate;
-    DiagnosticCase *_diagCase;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (_Bool);
 - (id);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) __weak id <DiagnosticReportGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) DiagnosticCase *diagCase; // @synthesize diagCase=_diagCase;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool reportGenerated; // @synthesize reportGenerated=_reportGenerated;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
 
 @end
 

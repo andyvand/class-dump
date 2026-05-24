@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFOSTransaction, HMFTimer, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface HMIPersonsModelManager
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_userDefinedPersonLinksByHome;
-    HMFTimer *_watchdogTimer;
-    HMFOSTransaction *_transaction;
-    NSDictionary *_personsModelsByHome;
-    NSDictionary *_torsoModelsByHome;
-    NSDictionary *_torsoToFaceCropByHome;
-    NSDictionary *_equivalencyTablesByHome;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -42,32 +35,32 @@
 ;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)�;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)#;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (void);
+- (id)(;
 - (id);
 - (id);
 - (void);
@@ -75,20 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *equivalencyTablesByHome; // @synthesize equivalencyTablesByHome=_equivalencyTablesByHome;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *personsModelsByHome; // @synthesize personsModelsByHome=_personsModelsByHome;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *torsoModelsByHome; // @synthesize torsoModelsByHome=_torsoModelsByHome;
-@property(readonly) NSDictionary *torsoToFaceCropByHome; // @synthesize torsoToFaceCropByHome=_torsoToFaceCropByHome;
-@property(retain) HMFOSTransaction *transaction; // @synthesize transaction=_transaction;
 @property(readonly) NSDictionary *userDefinedPersonLinksByHome; // @synthesize userDefinedPersonLinksByHome=_userDefinedPersonLinksByHome;
-@property(readonly) HMFTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
 
 @end
 

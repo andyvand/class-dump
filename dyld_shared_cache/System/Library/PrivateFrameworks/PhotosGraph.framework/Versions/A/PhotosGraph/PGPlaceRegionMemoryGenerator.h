@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGPlaceRegionMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
@@ -26,11 +21,11 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)screenManager:(id)arg1 mainScreenChanged: /* Error: Ran out of types for this method. */;
+- (id)_attributedString;
+- (void)ApplicationObserver;
+- (unsigned long long)CacheOrderdKeysForPruning;
+- (id)NSObject;
 - (void)@	%@;
 
 @end

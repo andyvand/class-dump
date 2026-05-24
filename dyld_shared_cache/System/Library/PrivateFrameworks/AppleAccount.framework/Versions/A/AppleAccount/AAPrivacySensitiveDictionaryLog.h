@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface AAPrivacySensitiveDictionaryLog
 {
     NSDictionary *_response;
-    NSSet *_keysToRedact;
 }
 
+- (id)CPClearActivationInfo;
+- (id)ration state for disable;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)hContext:completion: /* Error: Ran out of types for this method. */;
+- (void)removeCustodianWithContext:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *keysToRedact; // @synthesize keysToRedact=_keysToRedact;
 @property(readonly, nonatomic) NSDictionary *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

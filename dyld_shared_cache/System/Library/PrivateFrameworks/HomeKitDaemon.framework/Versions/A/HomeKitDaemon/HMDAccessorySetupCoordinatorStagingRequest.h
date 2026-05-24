@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessage, NSError, NSMutableArray, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySetupCoordinatorStagingRequest
 {
     NSUUID *_UUID;
-    HMFMessage *_pendingCancelMessage;
-    HMFMessage *_pendingRequestMessage;
-    CDUnknownBlockType _confirmDeviceCredentialCompletionHandler;
-    CDUnknownBlockType _selectWiFiNetworkHandler;
-    CDUnknownBlockType _selectThreadNetworkHandler;
-    CDUnknownBlockType _cancelHandler;
-    NSMutableArray *_pendingResponsePayloads;
-    NSError *_error;
 }
 
 - (void);
-- (void);
+- (void)Y;
 - (void);
 - (void);
 - (void);
@@ -37,20 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)otAllowed;
-- (void)ryInterval;
+- (CDUnknownBlockType)HMDUserVacationStateLocationAuthorizationNotAllowed;
+- (void)lowPowerModeRetryInterval;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
-@property(copy, nonatomic) CDUnknownBlockType confirmDeviceCredentialCompletionHandler; // @synthesize confirmDeviceCredentialCompletionHandler=_confirmDeviceCredentialCompletionHandler;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) HMFMessage *pendingCancelMessage; // @synthesize pendingCancelMessage=_pendingCancelMessage;
-@property(retain, nonatomic) HMFMessage *pendingRequestMessage; // @synthesize pendingRequestMessage=_pendingRequestMessage;
-@property(retain, nonatomic) NSMutableArray *pendingResponsePayloads; // @synthesize pendingResponsePayloads=_pendingResponsePayloads;
-@property(copy, nonatomic) CDUnknownBlockType selectThreadNetworkHandler; // @synthesize selectThreadNetworkHandler=_selectThreadNetworkHandler;
-@property(copy, nonatomic) CDUnknownBlockType selectWiFiNetworkHandler; // @synthesize selectWiFiNetworkHandler=_selectWiFiNetworkHandler;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)",R,N,V_appearingState;
 + (id)Ç: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);

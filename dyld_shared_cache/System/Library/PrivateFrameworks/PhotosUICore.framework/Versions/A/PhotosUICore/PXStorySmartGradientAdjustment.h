@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStorySmartGradientAdjustment
 {
     _Bool _useSmartColor;
-    _Bool _useSimpleBlur;
-    _Bool _simpleBlurRepeatEdges;
-    double _simpleBlurRadius;
-    double _simpleBlurExposure;
-    double _simpleBlurEdgeStretch;
-    struct CGSize _targetSize;
-    struct CGRect _normalizedSourceRect;
 }
 
 - (_Bool);
@@ -26,7 +17,7 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -42,26 +33,10 @@
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (id)ouldIncludeSpatialOvercaptureResources:(struct _NSZone *)arg1;
+- (id)setShouldIncludeSpatialOvercaptureResources:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsUnadjustedOpportunisticDelivery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect normalizedSourceRect; // @synthesize normalizedSourceRect=_normalizedSourceRect;
-@property(nonatomic) double simpleBlurEdgeStretch; // @synthesize simpleBlurEdgeStretch=_simpleBlurEdgeStretch;
-@property(nonatomic) double simpleBlurExposure; // @synthesize simpleBlurExposure=_simpleBlurExposure;
-@property(nonatomic) double simpleBlurRadius; // @synthesize simpleBlurRadius=_simpleBlurRadius;
-@property(nonatomic) _Bool simpleBlurRepeatEdges; // @synthesize simpleBlurRepeatEdges=_simpleBlurRepeatEdges;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(nonatomic) _Bool useSimpleBlur; // @synthesize useSimpleBlur=_useSimpleBlur;
 @property(nonatomic) _Bool useSmartColor; // @synthesize useSmartColor=_useSmartColor;
-@property(readonly, nonatomic) _Bool wantsSingleHighQualityDelivery;
 
 @end
 

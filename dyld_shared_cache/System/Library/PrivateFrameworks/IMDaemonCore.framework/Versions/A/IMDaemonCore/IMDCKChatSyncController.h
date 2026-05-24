@@ -6,19 +6,12 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class CKRecord, CKServerChangeToken, IMDCKChatSyncCKOperationFactory, IMDChatRegistry, IMDRecordZoneManager, NSObject;
-@protocol OS_dispatch_queue, SyncTokenStoreProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMDCKChatSyncController : IMDCKAbstractSyncController
 {
     _Bool _fetchedChatsDuringLastSync;
-    CKServerChangeToken *_latestSyncToken;
-    NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDChatRegistry *_chatRegistry;
-    IMDRecordZoneManager *_recordZoneManager;
-    id <SyncTokenStoreProviding> _syncTokenStore;
-    IMDCKChatSyncCKOperationFactory *_CKOperationFactory;
-    CKRecord *_lockRecord;
 }
 
 + (id)ears to need recovery but style is not supported %hhu;
@@ -26,10 +19,10 @@
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -60,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (id);
 - (id);
@@ -74,23 +67,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)BMEventTimeElapsingImplementor;
 - (long long);
 - (void);
-- (void);
+- (void)=;
 - (void)ÿ}n;
 - (void)not exist at local path (%@) and is not in thumbnail state, retrieving;
 - (id)eading current deletion preference:%{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMDCKChatSyncCKOperationFactory *CKOperationFactory; // @synthesize CKOperationFactory=_CKOperationFactory;
-@property(retain, nonatomic) IMDChatRegistry *chatRegistry; // @synthesize chatRegistry=_chatRegistry;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(nonatomic) _Bool fetchedChatsDuringLastSync; // @synthesize fetchedChatsDuringLastSync=_fetchedChatsDuringLastSync;
-@property(retain, nonatomic) CKServerChangeToken *latestSyncToken; // @synthesize latestSyncToken=_latestSyncToken;
-@property(retain, nonatomic) CKRecord *lockRecord; // @synthesize lockRecord=_lockRecord;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) id <SyncTokenStoreProviding> syncTokenStore; // @synthesize syncTokenStore=_syncTokenStore;
 
 @end
 

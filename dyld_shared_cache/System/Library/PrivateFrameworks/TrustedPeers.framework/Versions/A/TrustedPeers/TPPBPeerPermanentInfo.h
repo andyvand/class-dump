@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface TPPBPeerPermanentInfo
 {
     unsigned long long _creationTime;
-    unsigned long long _epoch;
-    NSData *_encryptionPubKey;
-    NSString *_machineId;
-    NSString *_modelId;
-    NSData *_signingPubKey;
-    struct {
-        unsigned int creationTime:1;
-        unsigned int epoch:1;
-    } _has;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)SASStateMachine"16@"MSASComment"24@"MSASAssetCollection"32@"MSASAlbum"40@"NSDictionary"48@"NSError"56;
+- (_Bool)ary"24;
 - (id);
 - (void);
 - (id);
@@ -37,11 +26,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)K;
+- (void)der doesn't expect processEndOfTransaction;
+- (id)zing RCS.
+;
 - (_Bool);
 - (id);
 - (void);
@@ -52,18 +42,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long creationTime; // @synthesize creationTime=_creationTime;
-@property(retain, nonatomic) NSData *encryptionPubKey; // @synthesize encryptionPubKey=_encryptionPubKey;
-@property(nonatomic) unsigned long long epoch; // @synthesize epoch=_epoch;
-@property(nonatomic) _Bool hasCreationTime;
-@property(readonly, nonatomic) _Bool hasEncryptionPubKey;
 @property(nonatomic) _Bool hasEpoch;
-@property(readonly, nonatomic) _Bool hasMachineId;
-@property(readonly, nonatomic) _Bool hasModelId;
-@property(readonly, nonatomic) _Bool hasSigningPubKey;
-@property(retain, nonatomic) NSString *machineId; // @synthesize machineId=_machineId;
-@property(retain, nonatomic) NSString *modelId; // @synthesize modelId=_modelId;
-@property(retain, nonatomic) NSData *signingPubKey; // @synthesize signingPubKey=_signingPubKey;
 
 @end
 

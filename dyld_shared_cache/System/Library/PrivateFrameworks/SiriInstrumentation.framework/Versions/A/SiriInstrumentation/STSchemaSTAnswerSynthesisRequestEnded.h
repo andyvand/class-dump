@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface STSchemaSTAnswerSynthesisRequestEnded : SISchemaInstrumentationMessage
 {
@@ -14,26 +14,25 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)setEnableExtensions: /* Error: Ran out of types for this method. */;
+- (_Bool)ABGroupEntriesList;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)eated index pieces_message_index.;
 - (id);
-- (id);
-- (id)allEnabled;
-- (id)ontext;
+- (id)!;
+- (id)deleteIsSiriInCallEnabled;
+- (id)_hasPgModelInferenceContext;
 - (void)M_SELECTED;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UISegmentedControlFontCacheKey
 {
     NSString *_styleProviderName;
-    int _size;
-    _Bool _selected;
-    _Bool _bold;
-    _Bool _material;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool)sition"16@"UITextRange"24;
-- (_Bool)ateIfKeyboardStateChanged;
-- (id)cessibility_triggerBarButtonItem:(struct _NSZone *)arg1;
-- (void)inition;
+- (_Bool)forceShiftUpdateIfKeyboardStateChanged;
+- (id)_accessibility_triggerBarButtonItem:(struct _NSZone *)arg1;
+- (void)UIContainedInBarMaterialTraitDefinition;
 
 @end
 

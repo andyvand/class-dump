@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, WebArchivePrivate, WebResource;
+@class WebArchivePrivate, WebResource;
 
 @interface WebArchive
 {
@@ -17,19 +17,16 @@
 - (void *);
 - (id);
 - (id);
+- (void)ctionary, will use %{public}@;
+- (id)(	;
+- (id)+;
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)shouldRefreshPrincipalSearchProperties;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
 @property(readonly, nonatomic) WebResource *mainResource;
-@property(readonly, copy, nonatomic) NSArray *subframeArchives;
-@property(readonly, copy, nonatomic) NSArray *subresources;
 
 @end
 

@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void)So26AMSRatingsStorefrontResultCSgSo7NSErrorCSgIeyByy_;
 + (unsigned long long);
 + (_Bool);
 + (void);
@@ -28,7 +28,7 @@
 + (long long);
 + (void);
 + (long long);
-+ (void)ory;
++ (void)category;
 
 @end
 

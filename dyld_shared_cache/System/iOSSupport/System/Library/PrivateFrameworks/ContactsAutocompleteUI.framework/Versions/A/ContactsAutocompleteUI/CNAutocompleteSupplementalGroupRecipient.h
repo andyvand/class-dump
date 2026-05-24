@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNAutocompleteSupplementalGroupRecipient
 {
     NSString *_identifier;
-    NSString *_title;
-    NSArray *_members;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSArray *members; // @synthesize members=_members;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSocketInfo, HMFNetAddress, NSError, NSObject, NSString;
-@protocol HAPCoreUtilsHTTPClient, HAPHTTPClientDebugDelegate, HAPHTTPClientDelegate, OS_dispatch_queue;
+@class NSString;
+@protocol HAPCoreUtilsHTTPClient;
 
 @interface HAPHTTPClient
 {
     id <HAPCoreUtilsHTTPClient> _httpClient;
-    _Bool _invalidated;
-    _Bool _invalidateRequested;
-    NSString *_dnsName;
-    long long _port;
-    HMFNetAddress *_peerAddress;
-    NSError *_invalidateReason;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HAPHTTPClientDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <HAPHTTPClientDebugDelegate> _debugDelegate;
-    NSObject<OS_dispatch_queue> *_debugDelegateQueue;
-    NSString *_wakeAddress;
-    HAPSocketInfo *_pendingConnectionSocketInfo;
-    NSString *_uniqueClientIdentifier;
-    unsigned long long _requestCounter;
 }
 
-+ (id);
++ (id);
 + (id)ermission to provide credentials...;
 - (id);
 - (id);
@@ -73,13 +58,13 @@
 - (void);
 - (id);
 - (id);
+- (void)ELETE CASCADE                                                  );
+- (void)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (void)g UTI attribute:%@ /* Error: Ran out of types for this method. */;
+- (id)h;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)IMCorePipelineHelloWorldClass_Impl;
 - (id);
 - (id);
 - (void);
@@ -87,38 +72,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (id);
 - (void):8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int clientID;
-@property(nonatomic) __weak id <HAPHTTPClientDebugDelegate> debugDelegate; // @synthesize debugDelegate=_debugDelegate;
-@property(nonatomic) __weak NSObject<OS_dispatch_queue> *debugDelegateQueue; // @synthesize debugDelegateQueue=_debugDelegateQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAPHTTPClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *dnsName; // @synthesize dnsName=_dnsName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *invalidateReason; // @synthesize invalidateReason=_invalidateReason;
-@property(nonatomic) _Bool invalidateRequested; // @synthesize invalidateRequested=_invalidateRequested;
-@property(nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, nonatomic) HMFNetAddress *peerAddress; // @synthesize peerAddress=_peerAddress;
-@property(readonly, nonatomic) HMFNetAddress *peerAddressEx;
-@property(readonly, nonatomic) NSString *peerEndpointDescription;
-@property(readonly, nonatomic) HAPSocketInfo *peerSocketInfo;
-@property(readonly, nonatomic) HAPSocketInfo *pendingConnectionSocketInfo; // @synthesize pendingConnectionSocketInfo=_pendingConnectionSocketInfo;
-@property(readonly, nonatomic) long long port; // @synthesize port=_port;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long requestCounter; // @synthesize requestCounter=_requestCounter;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *uniqueClientIdentifier; // @synthesize uniqueClientIdentifier=_uniqueClientIdentifier;
-@property(retain, nonatomic) NSString *wakeAddress; // @synthesize wakeAddress=_wakeAddress;
 
 @end
 

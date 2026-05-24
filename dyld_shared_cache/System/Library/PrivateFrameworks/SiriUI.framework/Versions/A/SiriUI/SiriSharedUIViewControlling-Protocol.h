@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AceObject, NSUUID;
+@class AceObject;
 
 @protocol SiriSharedUIViewControlling
+- (AceObject *);
+
+@optional
+- (void);
+- (void)=;
+- (double);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AceObject *aceObject;
-@property(retain, nonatomic) NSUUID *instrumentationTurnIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,&,N
-
-@property(nonatomic) _Bool isInAmbient;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isInAmbientInteractivity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isPresentedWithSmartDialogText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isUtteranceUserInteractionEnabled) _Bool utteranceUserInteractionEnabled;
 @end
 

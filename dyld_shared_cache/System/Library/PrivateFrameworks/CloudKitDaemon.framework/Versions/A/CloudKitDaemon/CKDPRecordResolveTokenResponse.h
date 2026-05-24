@@ -4,69 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPShareMetadata, CKDPZone, NSMutableArray, NSString;
+@class NSString;
 
 @interface CKDPRecordResolveTokenResponse
 {
     NSString *_container;
-    int _containerEnvironment;
-    CKDPZone *_recordZone;
-    NSMutableArray *_records;
-    CKDPShareMetadata *_shareMetadata;
-    CKDPRecord *_shareRecord;
-    struct {
-        unsigned int containerEnvironment:1;
-    } _has;
 }
 
 + (Class);
-- (void);
+- (void)?|;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id));
 - (void);
 - (int);
 - (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)APPairingClientCoreUtilsUpdateGroupInfo;
+- (unsigned long long)d bufferedAudioEngine_updateTranscodeIsRestingDuringTrancode(FigEndpointStreamAudioEngineRef);
 - (_Bool);
 - (id);
-- (id);
+- (id):Log file deletion detected, rotating... /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id)entifier",&,N,V_creatorUserId;
 - (void);
-- (void)onInfo;
+- (void)protectionInfo;
 - (void){;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *container; // @synthesize container=_container;
-@property(nonatomic) int containerEnvironment; // @synthesize containerEnvironment=_containerEnvironment;
 @property(readonly, nonatomic) _Bool hasContainer;
-@property(nonatomic) _Bool hasContainerEnvironment;
-@property(readonly, nonatomic) _Bool hasRecordZone;
-@property(readonly, nonatomic) _Bool hasShareMetadata;
-@property(readonly, nonatomic) _Bool hasShareRecord;
-@property(retain, nonatomic) CKDPZone *recordZone; // @synthesize recordZone=_recordZone;
-@property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(retain, nonatomic) CKDPShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
-@property(retain, nonatomic) CKDPRecord *shareRecord; // @synthesize shareRecord=_shareRecord;
 
 @end
 

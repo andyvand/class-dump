@@ -4,124 +4,132 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UITableConstants_TV
 {
 }
 
 + (id)atorViewText;
-- (id);
+- (id)errorWithDomain:(_Bool)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)_serviceSessionDelegates;
+- (id)_modifyGroupWithServiceSession:groupID:toParticipants:toIdentifier:fromIdentifier:account:messageTimeStamp: /* Error: Ran out of types for this method. */;
+- (_Bool)_mapRoomChatToGroupChat:(long long)arg1 style:(struct UIEdgeInsets)arg2;
+- (_Bool)_makeDeletePartsDictFor:(long long)arg1 withIndexes:(long long)arg2 withIndexToRangeMap:(id)arg3 deleteDate:(id)arg4;
+- (_Bool)_lookupChatUsingParentChatID:(long long)arg1 service:(_Bool)arg2;
+- (_Bool)_hasAdministrativePrivilegesForHighlight:(id)arg1 chatGUID: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (double);
+- (double);
+- (_Bool);
+- (id)yNotification change reason is NSUbiquitousKeyValueStoreAccountChange.;
+- (double)ed in a nil zone;
+- (double)updating syncedSyndicationRanges for message guid %@ ;
+- (double)te updates T2 operation %@;
+- (double)rites completed sucess:(long long)arg1 %@ error %@;
+- (id)@;
+- (id)out creating update zone *******;
+- (id)hing changes from update zone %@;
+- (double)syncs;
+- (id)andler found for original message service %@, using SMS handler instead;
+- (id)%d
+retryAsUnencryptedRCS:(id)arg1 %d;
+- (id)ult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (struct _UITableConstantsBackgroundProperties)result %@:(id)arg1 isFinal:(id)arg2 %d
+isRCS:%d
+didSupportEncryption:%d
+serviceForSendingResult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (id)lculateServiceForSending for pushMessageGUID %@ and service result %@:(long long)arg1 isFinal:%d
+isRCS:%d
+didSupportEncryption:%d
+serviceForSendingResult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (struct _UITableConstantsBackgroundProperties)%@, payload=%{sensitive}@;
+- (double)of type %@ had key %@ but it was of class %@ instead of NSDictionary;
+- (double)h type %d and context %@;
+- (double)%d ;
+- (double)ed message %@ for service %@ on account %@ with type %d ;
+- (double)ved a local message from a device that is not our own.;
+- (double);
+- (double)pple.messages.SMSReceivedRelayLocalCommand;
+- (_Bool). service %@ account %@ data %@ fromID %@;
+- (struct CGSize)omething was null. service %@ account %@ message %@ fromID %@;
+- (id)anging SMS Push Hander Regiration State to:(id)arg1 %@;
+- (double)oadMessageBlock;
+- (double)astDoorJunkChatCommand, bail:(id)arg1 %@;
+- (id)rned error %@, bail.;
+- (id)ck:(long long)arg1 messageContext is not a IDSMessageContext, bail.;
+- (id)esponse;
+- (double)elay group mutation;
+- (id)filtering settings message:(id)arg1 %@;
+- (double)ock SMS Filtering Settings;
+- (struct UIEdgeInsets)essages.SMSReceivedRelaySMSFilteringSettings;
+- (long long).SMSReceivedRelayPinCodeApproval;
+- (double)rCommand:(_Bool)arg1 %@;
+- (_Bool)quest;
+- (double)lures Message;
+- (id)%@;
+- (id)andling outgoing download message push:(id)arg1 %@;
+- (double)SendDownloadRequest;
+- (double)handling outgoing message  push:(id)arg1 %@;
+- (double)%@;
+- (double)oming Downlaod Message;
+- (id)le.messages.SMSReceivedRelayDownloadRequest;
+- (id)andler:(id)arg1 %@;
+- (id)%@;
+- (struct UIEdgeInsets)equest ID %@ result %@;
+- (id)%@;
+- (id)laintext or unknown attributes;
+- (id)n for %@, has translated message parts;
+- (id)ressive send;
+- (double)ng replication for %@, has associated message GUID;
+- (id)ionProxy;
+- (id)** Performing delayed replication for %@;
+- (id)age %@;
+- (id)g %@ after replicated message release;
+- (double)ted message %@;
+- (id)n account with possible numbers %@;
+- (id)plication based on alias %@;
+- (id)oginID %@ canonicalLoginID %@;
+- (id)r %@ from %@;
+- (struct CGSize)server bag;
+- (double)e since last:(id)arg1 %f, interval:(id)arg2 %f);
+- (double)lication interval:(id)arg1 %f;
+- (id)plication disabled by server bag;
+- (double)ting all chats to joined.;
+- (id)at whose service supports group mutability. Setting all chats to joined.;
+- (id)Thread. Setting all chats to ReadOnly.;
+- (id)mong merged chats. Attempting to repair;
+- (id)ncy.;
+- (struct CGRect)aving as is.;
+- (id)d groupPhotoGuid %@;
+- (id)ying groupPhotoGuid %@ to chat %@ which previously had groupPhotoGuid %@;
+- (id)groupPhotoGuid is %@. Transfer:(id)arg1 %@;
+- (double)preferred group photo among inconsistent merged chats. Leaving inconsistency as is.;
+- (double)ir;
+- (double)oup photo inconsistency detected among merged chats. Attempting to repair;
+- (struct UIEdgeInsets)ier:(long long)arg1 %@, asset:(long long)arg2 %@;
+- (double)sset, but a corresponding file transfer was not found using the asset's syndicationIdentifier. syndicationIdentifier:(long long)arg1 %@, asset:(_Bool)arg2 %@;
+- (double)w analysis data. transfer %@, asset:(long long)arg1 %@;
+- (double)hanges! syndicationIdentifier:%@ /* Error: Ran out of types for this method. */;
+- (double)ge:(_Bool)arg1 %@;
+- (struct _UITableConstantsBackgroundProperties)yndicationLibrary:(long long)arg1 %@;
+- (double)targeting transfer GUID from %@ to %@;
+- (double)IDsOn got something thats not a IMMessageItem:(id)arg1 %@;
+- (id)ulting to %@;
+- (id)t...;
+- (CDStruct_1c347ee2)already scheduled with interval:(id)arg1 %f;
+- (id)es validation.;
+- (double)ting chat from chat identifiers to see whether it passes validation.;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (double);
-- (double);
-- (double);
+- (id)C;
 - (double);
 - (id);
 - (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (struct _UITableConstantsBackgroundProperties);
-- (id);
-- (struct _UITableConstantsBackgroundProperties);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (struct CGSize);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (double);
 - (struct UIEdgeInsets);
-- (long long);
-- (double);
-- (_Bool);
-- (double);
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (double);
-- (double);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct _UITableConstantsBackgroundProperties);
-- (double);
-- (double);
-- (id);
-- (id);
-- (CDStruct_1c347ee2);
-- (id);
-- (double);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (double);
 - (id);
@@ -129,13 +137,7 @@ __attribute__((visibility("hidden")))
 - (struct _UITableConstantsBackgroundProperties);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

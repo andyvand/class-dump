@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, TUAnimationPointFunction, TUAnimationSizeFunction;
+@class CAMediaTimingFunction, TUAnimationPointFunction;
 
 @interface TUAnimationRectFunction
 {
     CAMediaTimingFunction *_timingFunction;
-    double _speed;
-    TUAnimationPointFunction *_originFunction;
-    TUAnimationSizeFunction *_sizeFunction;
-    struct CGRect _startValue;
-    struct CGRect _endValue;
 }
 
 - (struct CGRect);
@@ -25,7 +20,7 @@
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)_backingMapTable;
 - (double);
 - (id);
 - (void);
@@ -34,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect endValue; // @synthesize endValue=_endValue;
 @property(retain, nonatomic) TUAnimationPointFunction *originFunction; // @synthesize originFunction=_originFunction;
-@property(retain, nonatomic) TUAnimationSizeFunction *sizeFunction; // @synthesize sizeFunction=_sizeFunction;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) struct CGRect startValue; // @synthesize startValue=_startValue;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 
 @end
 

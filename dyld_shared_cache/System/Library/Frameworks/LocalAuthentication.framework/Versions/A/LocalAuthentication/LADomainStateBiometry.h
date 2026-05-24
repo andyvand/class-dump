@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface LADomainStateBiometry
 {
     long long _biometryType;
-    NSData *_stateHash;
 }
 
 - (id);
+- (id)e;
 - (id);
-- (id);
-- (long long);
+- (long long);;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long biometryType; // @synthesize biometryType=_biometryType;
-@property(readonly, nonatomic) NSData *stateHash; // @synthesize stateHash=_stateHash;
 
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMutableArray, NSString, SiriUIAcousticIDSpinner, SiriUIContentLabel;
-@protocol SiriUISuggestionsViewDelegate;
+@class NSString, SiriUIContentLabel;
 
 @interface SiriUISuggestionsView
 {
     SiriUIContentLabel *_headerLabel;
-    SiriUIContentLabel *_oldHeaderLabel;
-    SiriUIContentLabel *_subheaderLabel;
-    SiriUIContentLabel *_largeSubheaderLabel;
-    _Bool _firstSuggestionPresentation;
-    SiriUIAcousticIDSpinner *_acousticIDSpinner;
-    _Bool _useSmallText;
-    NSMutableArray *_allConstraints;
-    _Bool _springAnimateIn;
-    NSString *_headerText;
-    NSString *_subheaderText;
-    NSString *_largeSubheaderText;
-    NSColor *_textColor;
-    id <SiriUISuggestionsViewDelegate> _delegate;
-    struct CGPoint _contentOffset;
 }
 
 - (_Bool);
@@ -39,7 +24,7 @@
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (unsigned long long);
@@ -52,34 +37,27 @@
 - (_Bool);
 - (void);
 - (double);
+- (void);
+- (id)dd}}16@48;
+- (id);
+- (_Bool)@"CKMultiDict",&,N,V_pendingBlocks;
 - (void);
-- (id);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool)fl¬ÖÐ«Ö;
 - (id);
 - (void);
 - (void);
 - (struct CGPoint);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)aringServicePicker"16@"NSSharingService"24;
 - (void)0@ù
 × ;
 - (id)UI30SiriUISiriIconToggleButtonView"16;
-- (void)calizedCompactTriggerPhraseForLanguageCode:(id)arg1;
+- (void)localizedCompactTriggerPhraseForLanguageCode:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(nonatomic) __weak id <SiriUISuggestionsViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSString *headerText; // @synthesize headerText=_headerText;
-@property(copy, nonatomic) NSString *largeSubheaderText; // @synthesize largeSubheaderText=_largeSubheaderText;
-@property(nonatomic) _Bool springAnimateIn; // @synthesize springAnimateIn=_springAnimateIn;
-@property(copy, nonatomic) NSString *subheaderText; // @synthesize subheaderText=_subheaderText;
-@property(copy, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) _Bool useSmallText;
 
 @end
 

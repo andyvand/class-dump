@@ -6,13 +6,9 @@
 
 #import <MetalTools/MTLToolsAccelerationStructure.h>
 
-@class MTLDebugBuffer;
-
 @interface MTLDebugAccelerationStructure : MTLToolsAccelerationStructure
 {
     struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    MTLDebugBuffer *_debugBuffer;
 }
 
 - (void);
@@ -20,11 +16,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)c;
 - (unsigned long long);
-- (id)geSize:textureType:pixelFormat:sampleCount: /* Error: Ran out of types for this method. */;
+- (id)tileSizeWithSparsePageSize:textureType:pixelFormat:sampleCount: /* Error: Ran out of types for this method. */;
 
 @end
 

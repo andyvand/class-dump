@@ -7,13 +7,10 @@
 @interface AXMediaUtilities.AXMClickabilityDetectorResult
 {
     id box;
-    id label;
-    id labelName;
-    id confidence;
 }
 
 - (long long);
-- (double);
+- (double)[|;
 - (struct CGRect);
 - (id);
 - (id);

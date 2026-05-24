@@ -8,8 +8,6 @@
 {
     id state;
     id offlineStatusProvider;
-    id _$scope;
-    id task;
 }
 
 @end

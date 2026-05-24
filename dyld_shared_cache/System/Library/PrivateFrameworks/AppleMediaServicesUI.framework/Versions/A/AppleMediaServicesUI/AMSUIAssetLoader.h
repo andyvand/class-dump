@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (id);
-- (void)mpletion: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleSceneBundleIdentifierRequest:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

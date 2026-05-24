@@ -5,5 +5,6 @@
 //
 
 @protocol MSPSharedTripAvailabiltyDelegate
+- (void)RK;
 @end
 

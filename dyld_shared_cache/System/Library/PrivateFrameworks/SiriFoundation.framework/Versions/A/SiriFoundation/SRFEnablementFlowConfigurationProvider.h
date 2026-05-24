@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFEnablementConfiguration, AFEnablementFlowConfigurationProvider, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AFEnablementConfiguration;
 
 @interface SRFEnablementFlowConfigurationProvider
 {
     AFEnablementConfiguration *_enablementConfiguration;
-    long long _enablementFlow;
-    NSArray *_recognitionLanguageCodes;
-    NSObject<OS_dispatch_queue> *_enablementConfigurationAccessQueue;
-    AFEnablementFlowConfigurationProvider *_enablementFlowConfigurationProvider;
 }
 
 + (id);
@@ -21,24 +16,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_rotatingAccess;
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) AFEnablementConfiguration *enablementConfiguration; // @synthesize enablementConfiguration=_enablementConfiguration;
-@property(readonly) NSObject<OS_dispatch_queue> *enablementConfigurationAccessQueue; // @synthesize enablementConfigurationAccessQueue=_enablementConfigurationAccessQueue;
-@property(readonly, nonatomic) long long enablementFlow; // @synthesize enablementFlow=_enablementFlow;
-@property(readonly) AFEnablementFlowConfigurationProvider *enablementFlowConfigurationProvider; // @synthesize enablementFlowConfigurationProvider=_enablementFlowConfigurationProvider;
-@property(copy, nonatomic) NSArray *recognitionLanguageCodes; // @synthesize recognitionLanguageCodes=_recognitionLanguageCodes;
 
 @end
 

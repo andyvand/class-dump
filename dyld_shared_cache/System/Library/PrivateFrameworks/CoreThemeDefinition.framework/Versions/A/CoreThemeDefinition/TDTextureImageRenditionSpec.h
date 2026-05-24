@@ -6,8 +6,6 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class TDTextureAsset, TDTextureMipLevel, TDTextureRenditionSpec, TDThemeCompressionType;
-
 @interface TDTextureImageRenditionSpec : TDRenditionSpec
 {
 }
@@ -20,16 +18,11 @@
 - (int);
 - (struct CGImage *);
 - (_Bool);
-- (long long);
-- (id)essionType;
+- (long long);
+- (id)compressionType;
 
 // Remaining properties
-@property(retain, nonatomic) TDTextureAsset *asset; // @dynamic asset;
-@property(retain, nonatomic) TDThemeCompressionType *compressionType; // @dynamic compressionType;
 @property(nonatomic) _Bool flipped; // @dynamic flipped;
-@property(readonly, nonatomic) TDTextureRenditionSpec *texture;
-@property(readonly, nonatomic) long long textureFormat;
-@property(retain, nonatomic) TDTextureMipLevel *textureLevelAssignment; // @dynamic textureLevelAssignment;
 
 @end
 

@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface OTEscrowRecordMetadataClientMetadata
 {
     unsigned long long _devicePlatform;
-    unsigned long long _secureBackupMetadataTimestamp;
-    unsigned long long _secureBackupNumericPassphraseLength;
-    unsigned long long _secureBackupUsesComplexPassphrase;
-    unsigned long long _secureBackupUsesNumericPassphrase;
-    NSString *_deviceColor;
-    NSString *_deviceEnclosureColor;
-    NSString *_deviceMid;
-    NSString *_deviceModel;
-    NSString *_deviceModelClass;
-    NSString *_deviceModelVersion;
-    NSString *_deviceName;
-    struct {
-        unsigned int devicePlatform:1;
-        unsigned int secureBackupMetadataTimestamp:1;
-        unsigned int secureBackupNumericPassphraseLength:1;
-        unsigned int secureBackupUsesComplexPassphrase:1;
-        unsigned int secureBackupUsesNumericPassphrase:1;
-    } _has;
 }
 
 - (void);
@@ -44,14 +24,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -59,20 +39,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)String=}16^v24{?=qq}32@48;
 - (_Bool);
 - (void);
-- (void);
+- (void);
+- (_Bool)a",&,N,VsandboxProfile;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -82,30 +62,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
-@property(retain, nonatomic) NSString *deviceEnclosureColor; // @synthesize deviceEnclosureColor=_deviceEnclosureColor;
-@property(retain, nonatomic) NSString *deviceMid; // @synthesize deviceMid=_deviceMid;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(retain, nonatomic) NSString *deviceModelClass; // @synthesize deviceModelClass=_deviceModelClass;
-@property(retain, nonatomic) NSString *deviceModelVersion; // @synthesize deviceModelVersion=_deviceModelVersion;
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) unsigned long long devicePlatform; // @synthesize devicePlatform=_devicePlatform;
-@property(readonly, nonatomic) _Bool hasDeviceColor;
-@property(readonly, nonatomic) _Bool hasDeviceEnclosureColor;
-@property(readonly, nonatomic) _Bool hasDeviceMid;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(readonly, nonatomic) _Bool hasDeviceModelClass;
-@property(readonly, nonatomic) _Bool hasDeviceModelVersion;
-@property(readonly, nonatomic) _Bool hasDeviceName;
-@property(nonatomic) _Bool hasDevicePlatform;
 @property(nonatomic) _Bool hasSecureBackupMetadataTimestamp;
-@property(nonatomic) _Bool hasSecureBackupNumericPassphraseLength;
-@property(nonatomic) _Bool hasSecureBackupUsesComplexPassphrase;
-@property(nonatomic) _Bool hasSecureBackupUsesNumericPassphrase;
-@property(nonatomic) unsigned long long secureBackupMetadataTimestamp; // @synthesize secureBackupMetadataTimestamp=_secureBackupMetadataTimestamp;
-@property(nonatomic) unsigned long long secureBackupNumericPassphraseLength; // @synthesize secureBackupNumericPassphraseLength=_secureBackupNumericPassphraseLength;
-@property(nonatomic) unsigned long long secureBackupUsesComplexPassphrase; // @synthesize secureBackupUsesComplexPassphrase=_secureBackupUsesComplexPassphrase;
-@property(nonatomic) unsigned long long secureBackupUsesNumericPassphrase; // @synthesize secureBackupUsesNumericPassphrase=_secureBackupUsesNumericPassphrase;
 
 @end
 

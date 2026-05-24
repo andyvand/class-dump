@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactContentActionPresentingDelegate
+- (void);
 @end
 

@@ -9,9 +9,6 @@
 @interface NSActionCell : NSCell
 {
     long long _tag;
-    SEL _action;
-    id _target;
-    id _controlView;
 }
 
 + (void)ØýH;
@@ -20,17 +17,15 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (long long)e validated and indexed to index the values.";
 - (void);
-- (long long);
-- (void);
-- (id)sertion;
+- (id)_dictationAccessoryAssertion;
 - (SEL)t be called with %@;
-- (void)netFolder;
+- (void)IconInternetFolder;
 - (void)PÇçÿÕ;
 
 // Remaining properties
-@property SEL action;
-@property long long tag;
 @property __weak id target;
 
 @end

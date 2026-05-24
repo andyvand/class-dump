@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableIndexSet, PDFDocument, PDFView;
-@protocol PDFPageOverlayViewProvider;
+@class NSMapTable, PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFOverlayViewsController
 {
     NSMapTable *_pageToOverlayMap;
-    _Bool _isTornDown;
-    NSMutableIndexSet *_observedPageIndices;
-    PDFView *_pdfView;
-    PDFDocument *_pdfDocument;
-    id <PDFPageOverlayViewProvider> _viewProvider;
 }
 
 + (id);
@@ -23,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ѭ;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,9 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak PDFDocument *pdfDocument; // @synthesize pdfDocument=_pdfDocument;
 @property __weak PDFView *pdfView; // @synthesize pdfView=_pdfView;
-@property __weak id <PDFPageOverlayViewProvider> viewProvider; // @synthesize viewProvider=_viewProvider;
 
 @end
 

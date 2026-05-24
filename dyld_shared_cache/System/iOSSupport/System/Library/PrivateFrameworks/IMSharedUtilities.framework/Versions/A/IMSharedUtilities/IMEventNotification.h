@@ -7,15 +7,12 @@
 @interface IMEventNotification
 {
     id _target;
-    id _sender;
-    CDUnknownBlockType _eventNotificationWithSenderBlock;
-    CDUnknownBlockType _eventNotificationBlock;
 }
 
++ (id)A;
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -30,9 +27,6 @@
 - (_Bool)8569-c753b1bff6fa;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType eventNotificationBlock; // @synthesize eventNotificationBlock=_eventNotificationBlock;
-@property(copy) CDUnknownBlockType eventNotificationWithSenderBlock; // @synthesize eventNotificationWithSenderBlock=_eventNotificationWithSenderBlock;
-@property __weak id sender; // @synthesize sender=_sender;
 @property __weak id target; // @synthesize target=_target;
 
 @end

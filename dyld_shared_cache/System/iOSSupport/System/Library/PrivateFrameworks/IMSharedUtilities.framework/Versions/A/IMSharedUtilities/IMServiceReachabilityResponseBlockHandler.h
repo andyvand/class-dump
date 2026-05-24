@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)emoteIntent;
+- (void)sentViaRemoteIntent;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

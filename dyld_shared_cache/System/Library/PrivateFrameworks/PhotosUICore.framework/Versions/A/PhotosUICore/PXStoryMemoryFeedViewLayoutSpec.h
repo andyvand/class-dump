@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSShadow, PXMemoriesSpec, PXScrollBehavior;
+@class PXMemoriesSpec;
 
 @interface PXStoryMemoryFeedViewLayoutSpec
 {
     _Bool _isFullScreen;
-    PXScrollBehavior *_scrollBehavior;
-    long long _numberOfColumns;
-    long long _rootLayoutOrientation;
-    double _overlayFeedPeekDistance;
-    double _itemCornerRadius;
-    NSShadow *_itemShadow;
-    NSFont *_subtitleFont;
-    NSColor *_subtitleColor;
-    PXMemoriesSpec *_memoriesSpec;
-    struct NSEdgeInsets _viewOutsets;
-    struct NSEdgeInsets _subtitleInsets;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,33 +34,14 @@
 - (void);
 - (_Bool);
 - (double);
-- (struct CGSize);
+- (struct CGSize)_fullscreenVideoPlaybackManager;
 - (id);
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsAutoplayContent;
-@property(readonly, nonatomic) struct NSEdgeInsets horizontalScrollIndicatorInsets;
-@property(nonatomic) _Bool isFullScreen; // @synthesize isFullScreen=_isFullScreen;
-@property(readonly, nonatomic) double itemCornerRadius; // @synthesize itemCornerRadius=_itemCornerRadius;
-@property(readonly, nonatomic) NSShadow *itemShadow; // @synthesize itemShadow=_itemShadow;
 @property(readonly, nonatomic) PXMemoriesSpec *memoriesSpec; // @synthesize memoriesSpec=_memoriesSpec;
-@property(readonly, nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly, nonatomic) double overlayFeedPeekDistance; // @synthesize overlayFeedPeekDistance=_overlayFeedPeekDistance;
-@property(readonly, nonatomic) struct NSEdgeInsets placeholderMargins;
-@property(readonly, nonatomic) long long rootLayoutOrientation; // @synthesize rootLayoutOrientation=_rootLayoutOrientation;
-@property(readonly, nonatomic) PXScrollBehavior *scrollBehavior; // @synthesize scrollBehavior=_scrollBehavior;
-@property(readonly, nonatomic) NSColor *subtitleColor; // @synthesize subtitleColor=_subtitleColor;
-@property(readonly, nonatomic) NSFont *subtitleFont; // @synthesize subtitleFont=_subtitleFont;
-@property(readonly, nonatomic) struct NSEdgeInsets subtitleInsets; // @synthesize subtitleInsets=_subtitleInsets;
-@property(readonly, nonatomic) struct NSEdgeInsets verticalScrollIndicatorInsets;
-@property(readonly, nonatomic) struct NSEdgeInsets viewOutsets; // @synthesize viewOutsets=_viewOutsets;
-@property(readonly, nonatomic) _Bool wantsFirstItemFullscreen;
-@property(readonly, nonatomic) _Bool wantsItemHoverEvents;
-@property(readonly, nonatomic) _Bool wantsSafeAreaInsets;
-@property(readonly, nonatomic) _Bool wantsScrollIndicators;
 
 @end
 

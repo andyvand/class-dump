@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface CalDAVPrincipalResult
 {
     NSString *_firstName;
-    NSString *_lastName;
-    NSString *_displayName;
-    NSString *_resultType;
-    NSString *_principalPath;
-    NSArray *_emailAddresses;
-    NSMutableArray *_mCUAddresses;
-    NSMutableArray *_mEmailAddresses;
 }
 
 + (id);
@@ -28,36 +21,26 @@
 - (void);
 - (void);
 - (id);
+- (void)A;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cuAddresses;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *emailAddress;
-@property(retain, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 @property(retain, nonatomic) NSMutableArray *mCUAddresses; // @synthesize mCUAddresses=_mCUAddresses;
-@property(retain, nonatomic) NSMutableArray *mEmailAddresses; // @synthesize mEmailAddresses=_mEmailAddresses;
-@property(readonly, nonatomic) NSString *preferredCUAddress;
-@property(retain, nonatomic) NSString *principalPath; // @synthesize principalPath=_principalPath;
-@property(retain, nonatomic) NSString *resultType; // @synthesize resultType=_resultType;
 
 @end
 

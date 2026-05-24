@@ -7,13 +7,11 @@
 @interface FAFamilyFetchActivityScheduler
 {
     id $__lazy_storage_$_scheduler;
-    id familyCircleFetchBlock;
-    id cacheLoadBlock;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)LastPowerlogResponseMock;
 - (void);
 
 @end

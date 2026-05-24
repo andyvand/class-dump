@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInput, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceInternal
 {
     int openRefCount;
-    int configLockRefCount;
-    int configLockPid;
-    _Bool usingDevice;
-    AVCaptureDeviceInput *activeInput;
-    NSMutableArray *activeReactions;
 }
 
-- (void);
+- (void)_commitOrRollbackDataclassActions:forAccount:originalEnabledDataclasses: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

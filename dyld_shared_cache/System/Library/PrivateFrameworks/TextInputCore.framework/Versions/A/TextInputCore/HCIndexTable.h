@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HCIndexTable
 {
     struct vector<unsigned long long, std::allocator<unsigned long long>> _mutableHuffmanCodes;
-    NSData *_huffmanCodesMemoryMappedData;
-    NSUUID *_versionUUID;
-    struct HCIndexTableFileHeader *_fileHeader;
 }
 
 + (id);
+- (id)lls %@;
 - (id);
 - (id);
-- (id);
-- (const unsigned long long *);
+- (const unsigned long long *);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)updateProminences;
 - (const struct HCIndexTableFileHeader *);
 - (_Bool);
 - (unsigned long long);
@@ -31,12 +28,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) const struct HCIndexTableFileHeader *fileHeader;
-@property(readonly, nonatomic) const unsigned long long *huffmanCodes;
 @property(readonly, nonatomic) NSData *huffmanCodesMemoryMappedData; // @synthesize huffmanCodesMemoryMappedData=_huffmanCodesMemoryMappedData;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly) NSUUID *versionUUID;
 
 @end
 

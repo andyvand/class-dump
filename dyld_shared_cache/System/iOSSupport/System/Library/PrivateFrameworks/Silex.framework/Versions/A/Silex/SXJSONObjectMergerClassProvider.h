@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXJSONObjectMergerClassProvider
 {
     Class _objectClass;
@@ -17,14 +15,7 @@
 - (id)olicyProvider:(Class)arg1 dataSourceProvider:layoutInvalidator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) Class objectClass; // @synthesize objectClass=_objectClass;
-@property(readonly) Class superclass;
 
 @end
 

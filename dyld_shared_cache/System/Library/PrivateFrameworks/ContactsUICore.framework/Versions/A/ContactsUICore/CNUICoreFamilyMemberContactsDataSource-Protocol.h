@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
 @protocol CNUICoreFamilyMemberContactsObserver;
 
 @protocol CNUICoreFamilyMemberContactsDataSource
@@ -12,8 +11,6 @@
 - (id <CNUICoreFamilyMemberContactsObserver>)cts were returned from the intent execution;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *countOfFamilyMemberContacts;
-@property(readonly, nonatomic) long long fetchStatus;
 @property(nonatomic) __weak id <CNUICoreFamilyMemberContactsObserver> observer;
 @end
 

@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaLinkedAccessoryState : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_accessoryId;
-    NSArray *_gradingOptInStateChanges;
-    _Bool _hasAccessoryId;
 }
 
 - (void);
@@ -23,27 +21,24 @@
 - (id);
 - (void);
 - (void);
+- (void)@9*;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)pDeliveredIniOSApp;
+- (_Bool)s(void)_block_invoke;
+- (_Bool)DEFAULT 0, is_read INTEGER DEFAULT 0, is_system_message INTEGER DEFAULT 0, is_sent INTEGER DEFAULT 0, has_dd_results INTEGER DEFAULT 0, is_service_message INTEGER DEFAULT 0, is_forward INTEGER DEFAULT 0, was_downgraded INTEGER DEFAULT 0, is_archive INTEGER DEFAULT 0, cache_has_attachments INTEGER DEFAULT 0, cache_roomnames TEXT, was_data_detected INTEGER DEFAULT 0, was_deduplicated INTEGER DEFAULT 0, is_audio_message INTEGER DEFAULT 0, is_played INTEGER DEFAULT 0, date_played INTEGER, item_type INTEGER DEFAULT 0, other_handle INTEGER DEFAULT -1, group_title TEXT, group_action_type INTEGER DEFAULT 0, share_status INTEGER, share_direction INTEGER, is_expirable INTEGER DEFAULT 0, expire_state INTEGER DEFAULT 0, message_action_type INTEGER DEFAULT 0, message_source INTEGER DEFAULT 0);;
 - (id);
-- (id);
-- (id)itionStarted;
-- (id)etSets;
-- (void)rtupItemCreationToLtluDurationInMs;
+- (id)	;
+- (id)deleteCompanionSyncPluginSyncObjectAcquisitionStarted;
+- (id)_eliminatedAssetSets;
+- (void)cmInitialStartupItemCreationToLtluDurationInMs;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *accessoryId; // @synthesize accessoryId=_accessoryId;
-@property(copy, nonatomic) NSArray *gradingOptInStateChanges; // @synthesize gradingOptInStateChanges=_gradingOptInStateChanges;
-@property(nonatomic) _Bool hasAccessoryId; // @synthesize hasAccessoryId=_hasAccessoryId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

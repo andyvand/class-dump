@@ -7,7 +7,6 @@
 @interface ConversationKit.Defaults
 {
     id featureFlags;
-    id springboardDefaults;
 }
 
 @end

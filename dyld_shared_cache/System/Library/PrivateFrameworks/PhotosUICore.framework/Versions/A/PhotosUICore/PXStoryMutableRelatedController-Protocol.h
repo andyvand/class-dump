@@ -7,11 +7,11 @@
 @class NSSet;
 
 @protocol PXStoryMutableRelatedController
-- (void)justablePreview;
+- (void);
+- (NSSet *);
+- (void)PhotosViewBannerAdjustablePreview;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;
-@property(copy, nonatomic) NSSet *recentlyUsedAppleMusicSongIDs;
-@property(copy, nonatomic) NSSet *recentlyUsedFlexSongIDs;
 @end
 

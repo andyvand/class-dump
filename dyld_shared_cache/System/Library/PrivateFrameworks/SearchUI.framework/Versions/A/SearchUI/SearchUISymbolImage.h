@@ -6,26 +6,14 @@
 
 #import <SearchUI/SearchUIImage.h>
 
-@class NSColor, NSFont, NSString;
+@class NSString;
 
 @interface SearchUISymbolImage : SearchUIImage
 {
     _Bool _punchThroughBackground;
-    int _backgroundColor;
-    int _primaryColor;
-    int _secondaryColor;
-    int _specifiedFillStyle;
-    long long _preferredFill;
-    long long _symbolScale;
-    double _preferredSymbolFontSize;
-    NSColor *_customForegroundColor;
-    NSColor *_customBackgroundColor;
-    NSString *_symbolName;
-    NSFont *_symbolFont;
-    double _symbolWeight;
 }
 
-+ (id);
++ (id)_handleEventResponseObject:(id)arg1 type:(id)arg2 httpStatus:(long long)arg3 error:(double)arg4 characteristics:(_Bool)arg5 requestedEventState:(int)arg6 completion:(int)arg7 queue:(id)arg8;
 + (id);
 + (id);
 + (id);
@@ -40,25 +28,25 @@
 - (double);
 - (long long);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)axReplyLength;
+- (void)64;
+- (_Bool)_pencil.aa;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)t requested it and there aren't any outstanding targeted scans;
 - (int);
-- (void);
+- (void)?;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)t;
 - (void);
 - (double);
 - (void);
@@ -72,19 +60,7 @@
 - (double);
 
 // Remaining properties
-@property int backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSColor *customBackgroundColor; // @synthesize customBackgroundColor=_customBackgroundColor;
-@property(retain, nonatomic) NSColor *customForegroundColor; // @synthesize customForegroundColor=_customForegroundColor;
-@property long long preferredFill; // @synthesize preferredFill=_preferredFill;
-@property double preferredSymbolFontSize; // @synthesize preferredSymbolFontSize=_preferredSymbolFontSize;
-@property int primaryColor; // @synthesize primaryColor=_primaryColor;
-@property _Bool punchThroughBackground; // @synthesize punchThroughBackground=_punchThroughBackground;
-@property int secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property int specifiedFillStyle; // @synthesize specifiedFillStyle=_specifiedFillStyle;
-@property(retain) NSFont *symbolFont; // @synthesize symbolFont=_symbolFont;
 @property(retain) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property long long symbolScale; // @synthesize symbolScale=_symbolScale;
-@property double symbolWeight; // @synthesize symbolWeight=_symbolWeight;
 
 @end
 

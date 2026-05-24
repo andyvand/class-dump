@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWAccumulation;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NWAccumulatedValue
 {
     NSObject *_object;
-    NSString *_keyPath;
-    NWAccumulation *_accumulation;
-    CDUnknownBlockType _callback;
 }
 
-- (id);
+- (id)patternFromSlice: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)/÷þ0;
 
 // Remaining properties
-@property(retain, nonatomic) NWAccumulation *accumulation; // @synthesize accumulation=_accumulation;
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(retain, nonatomic) NSObject *object; // @synthesize object=_object;
 
 @end

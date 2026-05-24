@@ -34,7 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) void *documentArchive; // @synthesize documentArchive=_documentArchive;
-@property(readonly, nonatomic) unsigned long long futureVersionCount;
 
 @end
 

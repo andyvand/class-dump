@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADFontReference, OADStyleMatrixReference;
+@class OADStyleMatrixReference;
 
 __attribute__((visibility("hidden")))
 @interface OADShapeStyle
 {
     OADStyleMatrixReference *mLineReference;
-    OADStyleMatrixReference *mFillReference;
-    OADStyleMatrixReference *mEffectReference;
-    OADFontReference *mFontReference;
 }
 
 + (id);
@@ -25,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)<;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)3;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)	;
 - (id);
 - (void)¤Ä
 ;

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface AXSSPunctuationEntry
 {
     NSUUID *_uuid;
-    NSUUID *_groupUUID;
-    _Bool _inCloud;
-    unsigned short _version;
-    NSString *_punctuation;
-    NSString *_replacement;
-    long long _rule;
-    NSString *_ckChangeTag;
-    NSDate *_lastModifiedDate;
-    NSDate *_ckRecordProcessDate;
 }
 
 + (id);
@@ -33,36 +24,25 @@
 - (void);
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short);
+- (id)k;
+- (id);
+- (void);
+- (_Bool)noring.;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)movieTypes;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ckChangeTag; // @synthesize ckChangeTag=_ckChangeTag;
-@property(retain, nonatomic) NSDate *ckRecordProcessDate; // @synthesize ckRecordProcessDate=_ckRecordProcessDate;
-@property(retain, nonatomic) NSUUID *groupUUID; // @synthesize groupUUID=_groupUUID;
-@property(nonatomic) _Bool inCloud; // @synthesize inCloud=_inCloud;
-@property(readonly, nonatomic) NSDictionary *jsonDictionary;
-@property(readonly, nonatomic) NSData *jsonRepresentation;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 @property(retain, nonatomic) NSString *punctuation; // @synthesize punctuation=_punctuation;
-@property(retain, nonatomic) NSString *replacement; // @synthesize replacement=_replacement;
-@property(nonatomic) long long rule; // @synthesize rule=_rule;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) unsigned short version; // @synthesize version=_version;
 
 @end
 

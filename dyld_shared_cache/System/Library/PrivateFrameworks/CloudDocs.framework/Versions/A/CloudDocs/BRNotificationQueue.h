@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface BRNotificationQueue
 {
     NSMutableArray *_array;
-    NSMutableArray *_callbacks;
-    NSMutableDictionary *_index;
-    unsigned long long _dequeued;
-    unsigned long long _dequeuedNotificationCount;
 }
 
 - (void);

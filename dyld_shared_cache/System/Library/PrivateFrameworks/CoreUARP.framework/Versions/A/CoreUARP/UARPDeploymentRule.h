@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSNumber, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_os_log;
 
 @interface UARPDeploymentRule
 {
     NSObject<OS_os_log> *_log;
-    NSString *_testSerialNumber;
-    NSNumber *_deploymentPercent;
-    NSNumber *_deploymentDay;
-    NSString *_serialNumber;
-    NSString *_minOSVersion;
-    NSString *_maxOSVersion;
-    _Bool _isFullyDeployedDeploymentLimits;
-    NSString *_currentISOCountryCode;
-    NSDate *_goLiveDate;
-    NSArray *_countryList;
-    NSNumber *_rampPeriod;
-    NSNumber *_deploymentLimit;
-    NSMutableDictionary *_deploymentLimits;
 }
 
 + (_Bool);
@@ -30,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -45,12 +32,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -63,19 +50,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (id);
-- (void);
+- (void)ibswiftAccelerate.dylib;
 
 // Remaining properties
-@property(copy) NSArray *countryList; // @synthesize countryList=_countryList;
 @property(copy) NSString *currentISOCountryCode; // @synthesize currentISOCountryCode=_currentISOCountryCode;
-@property(copy) NSNumber *deploymentLimit; // @synthesize deploymentLimit=_deploymentLimit;
-@property(copy) NSMutableDictionary *deploymentLimits; // @synthesize deploymentLimits=_deploymentLimits;
-@property(copy) NSDate *goLiveDate; // @synthesize goLiveDate=_goLiveDate;
-@property _Bool isFullyDeployedDeploymentLimits; // @synthesize isFullyDeployedDeploymentLimits=_isFullyDeployedDeploymentLimits;
-@property(copy) NSNumber *rampPeriod; // @synthesize rampPeriod=_rampPeriod;
 
 @end
 

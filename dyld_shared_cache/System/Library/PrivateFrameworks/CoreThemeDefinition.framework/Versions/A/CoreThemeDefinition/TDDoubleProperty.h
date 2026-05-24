@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (double);
+- (double)_systemCFStringEncoding;
 
 // Remaining properties
 @property(nonatomic) double doubleValue;

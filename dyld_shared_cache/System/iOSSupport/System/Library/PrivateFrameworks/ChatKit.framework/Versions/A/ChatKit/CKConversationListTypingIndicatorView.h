@@ -9,37 +9,29 @@
 @interface CKConversationListTypingIndicatorView
 {
     _Bool _highlightedState;
-    _Bool _flipForRTLLayout;
-    _Bool _isDarkAqua;
-    CKConversationListTypingIndicatorLayer *_typingLayer;
-    double _typingIndicatorScale;
 }
 
-- (id);
-- (double);
+- (id)_updateSelectorDelayer;
+- (double)_unsupportedObjectsInSource;
+- (void)ICAccountPassphraseManager;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)e;
+- (_Bool)viewUpdateDate:%@). /* Error: Ran out of types for this method. */;
+- (void)word;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (_Bool)l,A§ÿl(A§ÿ;
 - (void)4ÜÅ.;
 
 // Remaining properties
-@property(nonatomic) _Bool flipForRTLLayout; // @synthesize flipForRTLLayout=_flipForRTLLayout;
-@property(nonatomic, getter=isHighlighted) _Bool highlightedState; // @synthesize highlightedState=_highlightedState;
-@property(nonatomic) _Bool isDarkAqua; // @synthesize isDarkAqua=_isDarkAqua;
-@property(nonatomic) double typingIndicatorScale; // @synthesize typingIndicatorScale=_typingIndicatorScale;
 @property(retain, nonatomic) CKConversationListTypingIndicatorLayer *typingLayer; // @synthesize typingLayer=_typingLayer;
 
 @end

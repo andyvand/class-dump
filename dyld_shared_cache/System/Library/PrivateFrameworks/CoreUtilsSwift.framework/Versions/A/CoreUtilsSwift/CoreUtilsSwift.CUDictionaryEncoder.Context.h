@@ -7,7 +7,6 @@
 @interface CoreUtilsSwift.CUDictionaryEncoder.Context
 {
     id configuration;
-    id depth;
 }
 
 @end

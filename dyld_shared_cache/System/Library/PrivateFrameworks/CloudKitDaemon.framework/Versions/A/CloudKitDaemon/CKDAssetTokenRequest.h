@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface CKDAssetTokenRequest
 {
     unsigned int _size;
-    unsigned int _sizeUpperBound;
-    NSMutableArray *_assetBatches;
-    NSMutableSet *_failedAssetBatches;
 }
 
-- (id);
+- (id)pass;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)DreamworksRecord;
 - (id);
 - (void);
+- (unsigned int)initializePerformanceTest;
+- (id)_triggerDisconnectExecutedCount;
+- (void);
+- (id);
 - (unsigned int);
-- (id);
+- (void)8p;
 - (void);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)G;
 - (void)etadata;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *assetBatches; // @synthesize assetBatches=_assetBatches;
-@property(retain, nonatomic) NSMutableSet *failedAssetBatches; // @synthesize failedAssetBatches=_failedAssetBatches;
-@property(nonatomic) unsigned int size; // @synthesize size=_size;
-@property(nonatomic) unsigned int sizeUpperBound; // @synthesize sizeUpperBound=_sizeUpperBound;
 
 @end
 

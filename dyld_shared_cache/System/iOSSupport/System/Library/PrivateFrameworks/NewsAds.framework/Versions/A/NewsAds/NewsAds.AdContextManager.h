@@ -7,8 +7,6 @@
 @interface NewsAds.AdContextManager
 {
     id contextBuilder;
-    id subscriptionController;
-    id appConfigurationManager;
 }
 
 - (void);

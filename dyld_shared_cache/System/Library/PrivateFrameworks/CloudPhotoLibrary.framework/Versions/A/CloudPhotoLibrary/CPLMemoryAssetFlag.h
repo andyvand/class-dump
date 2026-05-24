@@ -7,48 +7,33 @@
 @interface CPLMemoryAssetFlag
 {
     _Bool _isCurated;
-    _Bool _isCustomUserAsset;
-    _Bool _isExtendedCurated;
-    _Bool _isKeyAsset;
-    _Bool _isMovieCurated;
-    _Bool _isRepresentative;
-    _Bool _isUserCurated;
-    struct {
-        unsigned int isCurated:1;
-        unsigned int isCustomUserAsset:1;
-        unsigned int isExtendedCurated:1;
-        unsigned int isKeyAsset:1;
-        unsigned int isMovieCurated:1;
-        unsigned int isRepresentative:1;
-        unsigned int isUserCurated:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)contactWithEmailForMailResults:(_Bool)arg1;
+- (void)NSDictionary",R,V_groupedResults;
+- (void)compareWithCCCDTopHitCandidate:(_Bool)arg1;
+- (void)command;
+- (void)",C,N,V_queryUnderstandingOutput;
+- (void)ts;
+- (void)nary",&,N,V_textScoreWeights;
+- (_Bool)t4ԡ;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,27 +41,14 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool)wýªwþó;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCurated;
-@property(nonatomic) _Bool hasIsCustomUserAsset;
-@property(nonatomic) _Bool hasIsExtendedCurated;
-@property(nonatomic) _Bool hasIsKeyAsset;
-@property(nonatomic) _Bool hasIsMovieCurated;
 @property(nonatomic) _Bool hasIsRepresentative;
-@property(nonatomic) _Bool hasIsUserCurated;
-@property(nonatomic) _Bool isCurated; // @synthesize isCurated=_isCurated;
-@property(nonatomic) _Bool isCustomUserAsset; // @synthesize isCustomUserAsset=_isCustomUserAsset;
-@property(nonatomic) _Bool isExtendedCurated; // @synthesize isExtendedCurated=_isExtendedCurated;
-@property(nonatomic) _Bool isKeyAsset; // @synthesize isKeyAsset=_isKeyAsset;
-@property(nonatomic) _Bool isMovieCurated; // @synthesize isMovieCurated=_isMovieCurated;
-@property(nonatomic) _Bool isRepresentative; // @synthesize isRepresentative=_isRepresentative;
-@property(nonatomic) _Bool isUserCurated; // @synthesize isUserCurated=_isUserCurated;
 
 @end
 

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)gerStub:assertionIDsForClientID called (returning empty set) /* Error: Ran out of types for this method. */;
+- (id)id receive asset:%@ for client:%@ /* Error: Ran out of types for this method. */;
+- (id)ervices.DDSAssertionTracker;
 - (void)ble>"16@"NSDictionary"24;
 
 // Remaining properties

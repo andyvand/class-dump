@@ -11,14 +11,14 @@
     _Bool _shouldShowIndicators;
 }
 
-- (_Bool);
+- (_Bool)̪;
 - (void);
-- (void);
+- (void)ode metric stream report:(unsigned short)arg1 %@ (error %@);
 - (void);
 - (unsigned short);
 - (id);
-- (id)onospacedDigitSystemFontOfSize:(struct CGRect)arg1 weight: /* Error: Ran out of types for this method. */;
-- (void)ow;
+- (id)monospacedDigitSystemFontOfSize:(struct CGRect)arg1 weight: /* Error: Ran out of types for this method. */;
+- (void)glow;
 
 @end
 

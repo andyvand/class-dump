@@ -6,14 +6,12 @@
 
 #import <AVKit/AVCaptureControlsRecordingViewController.h>
 
-@class AVVolumeControlSlider, NSView;
+@class AVVolumeControlSlider;
 
 __attribute__((visibility("hidden")))
 @interface AVFloatingCaptureControlsViewController : AVCaptureControlsRecordingViewController
 {
     AVVolumeControlSlider *_volumeControl;
-    NSView *_recordButton;
-    NSView *_captureDevicePopUpButton;
 }
 
 + (id);
@@ -22,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (struct CGSize);
-- (CDStruct_83cd8af5);
+- (struct CGSize);
+- (CDStruct_d2b197d1);
 - (id);
 - (id);
 - (long long);

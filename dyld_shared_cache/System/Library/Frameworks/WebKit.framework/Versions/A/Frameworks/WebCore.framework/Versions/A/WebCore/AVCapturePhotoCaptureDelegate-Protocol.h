@@ -5,5 +5,9 @@
 //
 
 @protocol AVCapturePhotoCaptureDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

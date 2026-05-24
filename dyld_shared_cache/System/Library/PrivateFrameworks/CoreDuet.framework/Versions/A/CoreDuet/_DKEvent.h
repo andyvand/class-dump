@@ -6,19 +6,9 @@
 
 #import <CoreDuet/_DKObject.h>
 
-@class NSDate, NSDictionary, NSString, NSTimeZone, _DKEventStream;
-
 @interface _DKEvent : _DKObject
 {
     _Bool _shouldSync;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    _DKEventStream *_stream;
-    _DKObject *_value;
-    NSTimeZone *_timeZone;
-    NSDictionary *_metadata;
-    double _confidence;
-    long long _compatibilityVersion;
 }
 
 + (id);
@@ -27,14 +17,14 @@
 + (_Bool);
 + (id);
 + (id);
++ (id)kbiU;
++ (id)kbiL;
++ (id)E;
 + (id);
++ (id)kbi2;
++ (id)i(;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bi;
 + (id);
 + (id);
 + (id);
@@ -46,30 +36,15 @@
 + (id);
 + (id);
 + (_Bool);
++ (id)Hc;
++ (id)q+#;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 + (id)DKEventAdapter"8;
 
 // Remaining properties
-@property long long compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property double confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly) unsigned long long hash;
-@property(copy) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property _Bool shouldSync; // @synthesize shouldSync=_shouldSync;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain) _DKEventStream *stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
-@property(retain) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain) _DKObject *value; // @synthesize value=_value;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsUI2.SearchHomeModule
 {
     id resolver;
-    id tracker;
-    id searchHomeContainerController;
-    id featureAvailability;
-    id offlineManager;
-    id searchOrigination;
-    id filterProvider;
 }
 
 @end

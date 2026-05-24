@@ -9,7 +9,6 @@
 @interface TRIXPCStatusRequestHandler
 {
     TRIXPCServerContextPromise *_promise;
-    CDStruct_4c969caf _auditToken;
 }
 
 - (void);

@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRMComponentView
 {
     id delegate;
-    id isResizable;
-    id contentView;
-    id stackView;
-    id topComponents;
-    id bottomComponents;
-    id installedConstraints;
 }
 
 - (id);

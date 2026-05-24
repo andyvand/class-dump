@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)eObjectOfClass:(CDStruct_70511ce9 *)arg1 forKey:(id *)arg2 withCoder:(unsigned long long)arg3 expectNonNull:errorDomain:errorCode:logHandle: /* Error: Ran out of types for this method. */;
+- (unsigned long long)robustDecodeObjectOfClass:(CDStruct_70511ce9 *)arg1 forKey:(id *)arg2 withCoder:(unsigned long long)arg3 expectNonNull:errorDomain:errorCode:logHandle: /* Error: Ran out of types for this method. */;
 @end
 

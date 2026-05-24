@@ -6,7 +6,7 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FIRadialProgressLayer, NSString;
+@class FIRadialProgressLayer;
 
 __attribute__((visibility("hidden")))
 @interface FIRadialProgressView : FI_TUpdateLayerView
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     FIRadialProgressLayer *_progressLayer;
 }
 
-- (void);
+- (void)*;
 - (_Bool);
 - (void);
 - (void);
@@ -22,14 +22,7 @@ __attribute__((visibility("hidden")))
 - (double)fyAuditTokenS2_PU36objcproto25TNodeTaskDelegateProtocol8NSObjectbb20TAppManagedFilesInfoP8NSWindow7TFENodeE3$_0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double percentComplete;
-@property(readonly) Class superclass;
 
 @end
 

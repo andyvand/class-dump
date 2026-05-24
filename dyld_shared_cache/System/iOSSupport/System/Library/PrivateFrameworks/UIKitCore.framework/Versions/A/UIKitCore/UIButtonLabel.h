@@ -6,20 +6,15 @@
 
 #import <UIKitCore/UILabel.h>
 
-@class UIButton;
-
 __attribute__((visibility("hidden")))
 @interface UIButtonLabel : UILabel
 {
     _Bool _reverseShadow;
-    UIButton *_button;
-    _Bool _externallySetNumberOfLines;
-    _Bool _fontIsDefaultForIdiom;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)_companionCallbackToken;
+- (_Bool)ingPlaybackQueueDataSource>",W,N;
 - (double)Ð1Â0@ù
 × ;
 - (void)Á;
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)!XDùqað1Â0@ù
 × ;
 - (_Bool);
-- (void)ffsetX;
+- (void)_startOffsetX;
 - (_Bool)3<¤ü
 ð;
 - (void);

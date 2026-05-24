@@ -9,17 +9,14 @@
 @interface CWFWiFiNetworkSharingNetworkListUpdate
 {
     _Bool _isAskToShareNetworkAvailable;
-    _Bool _isAskToShareRequestFromAppPending;
-    NSArray *_networkList;
-    unsigned long long _networkListUpdateCounter;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,14 +26,11 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)e_of_type:(struct _NSZone *)arg1 device not found;
 - (void)Q,N,V_maxScanCycles;
 
 // Remaining properties
-@property _Bool isAskToShareNetworkAvailable; // @synthesize isAskToShareNetworkAvailable=_isAskToShareNetworkAvailable;
-@property _Bool isAskToShareRequestFromAppPending; // @synthesize isAskToShareRequestFromAppPending=_isAskToShareRequestFromAppPending;
 @property(copy) NSArray *networkList; // @synthesize networkList=_networkList;
-@property unsigned long long networkListUpdateCounter; // @synthesize networkListUpdateCounter=_networkListUpdateCounter;
 
 @end
 

@@ -4,52 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNContact, NSArray, UILabel, UIStackView;
+@class CNAvatarView, CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharedProfileCellContentView
 {
     CNContact *_meContact;
-    CNAvatarView *_avatarView;
-    UIStackView *_labelStackView;
-    UILabel *_titleLabel;
-    UILabel *_valueLabel;
-    NSArray *_constraints;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)6;
+- (id)R(;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)%@;
+- (id)initWithKey:backgroundColorString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)r;
+- (void)_container;
 - (id)tion;
 - (void)ÿÇ¬!Xv;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) UIStackView *labelStackView; // @synthesize labelStackView=_labelStackView;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

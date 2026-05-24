@@ -7,14 +7,11 @@
 @interface NSSQLiteDatabaseStatistics
 {
     long long _cacheHitPages;
-    long long _cacheMissPages;
-    long long _cacheSpillPages;
-    long long _pageSize;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -24,11 +21,7 @@
 - (id)oreData+CloudKit:%s(%d):Waiting on zone fetch record for store %@ and setup request %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cacheHitPages; // @synthesize cacheHitPages=_cacheHitPages;
 @property(readonly, nonatomic) long long cacheMissPages; // @synthesize cacheMissPages=_cacheMissPages;
-@property(readonly, nonatomic) long long cacheSpillPages; // @synthesize cacheSpillPages=_cacheSpillPages;
-@property(readonly, nonatomic) long long pageSize; // @synthesize pageSize=_pageSize;
-@property(readonly, nonatomic) long long totalCachePages;
 
 @end
 

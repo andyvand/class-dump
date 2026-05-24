@@ -8,10 +8,10 @@
 {
 }
 
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
-- (void);
+- (void)n.;
 
 @end
 

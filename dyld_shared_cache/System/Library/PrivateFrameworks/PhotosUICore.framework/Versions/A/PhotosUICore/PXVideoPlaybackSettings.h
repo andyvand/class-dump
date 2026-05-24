@@ -9,13 +9,12 @@
 @interface PXVideoPlaybackSettings : PXSettings
 {
     _Bool _isDownloadingVideoSegmentsEnabled;
-    double _maxHighlightFractionForDisplay;
 }
 
-+ (id);
++ (id)andler;
 + (id);
 - (void);
-- (void);
+- (void)P;
 - (double);
 - (_Bool);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isDownloadingVideoSegmentsEnabled; // @synthesize isDownloadingVideoSegmentsEnabled=_isDownloadingVideoSegmentsEnabled;
-@property(nonatomic) double maxHighlightFractionForDisplay; // @synthesize maxHighlightFractionForDisplay=_maxHighlightFractionForDisplay;
 
 @end
 

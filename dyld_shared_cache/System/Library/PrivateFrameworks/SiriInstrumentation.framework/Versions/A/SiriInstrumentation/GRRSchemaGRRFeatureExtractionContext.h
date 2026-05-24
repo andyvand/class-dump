@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GRRSchemaGRRFeatureExtracted, GRRSchemaGRRFeatureExtractionStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GRRSchemaGRRFeatureExtractionContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    GRRSchemaGRRFeatureExtractionStarted *_startedOrChanged;
-    GRRSchemaGRRFeatureExtracted *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,7 +25,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)localizedStringForKey:(id)arg1 value:table: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -39,7 +33,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)e timer fired at date %@;
 - (id)earchRequestEnded";
 - (id)ay",C,N,V_recognizedTokens;
 - (id)<üdýþþÿ;
@@ -49,13 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) GRRSchemaGRRFeatureExtracted *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) GRRSchemaGRRFeatureExtractionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

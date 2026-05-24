@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSOperationQueue, NSString, VSOptional;
-@protocol VSStateMachineDelegate;
+@class NSOperationQueue;
 
 @interface VSStateMachine
 {
     _Atomic int _mode;
-    _Bool _ignoresUnassignedEvents;
-    NSString *_name;
-    VSOptional *_currentState;
-    id <VSStateMachineDelegate> _delegate;
-    NSOperationQueue *_transitionQueue;
-    NSMutableArray *_enqueuedTransitions;
-    NSMutableDictionary *_transitionTable;
-    NSMutableDictionary *_ignoredEventsByState;
 }
 
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -36,7 +27,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,14 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VSOptional *currentState; // @synthesize currentState=_currentState;
-@property(nonatomic) __weak id <VSStateMachineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableArray *enqueuedTransitions; // @synthesize enqueuedTransitions=_enqueuedTransitions;
-@property(retain, nonatomic) NSMutableDictionary *ignoredEventsByState; // @synthesize ignoredEventsByState=_ignoredEventsByState;
-@property(nonatomic) _Bool ignoresUnassignedEvents; // @synthesize ignoresUnassignedEvents=_ignoresUnassignedEvents;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSOperationQueue *transitionQueue; // @synthesize transitionQueue=_transitionQueue;
-@property(retain, nonatomic) NSMutableDictionary *transitionTable; // @synthesize transitionTable=_transitionTable;
 
 @end
 

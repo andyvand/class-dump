@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol STCoreAnalyticsEvent
+- (NSString *)ܗ;
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 @end
 

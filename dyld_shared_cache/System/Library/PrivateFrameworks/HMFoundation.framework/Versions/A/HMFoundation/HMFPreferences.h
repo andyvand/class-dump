@@ -6,27 +6,23 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFClassRegistry, NSMutableDictionary;
-
 @interface HMFPreferences : HMFObject
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSMutableDictionary *_preferences;
-    HMFClassRegistry *_classRegistry;
 }
 
 + (void);
 + (id);
 + (Class);
-+ (id);
-+ (id);
++ (id)A	.	>	(	;
++ (id)asAccentKey = %s;
 + (void);
 + (id);
 - (Class);
+- (id);
+- (id)	;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_cancelInviteWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

@@ -11,15 +11,14 @@
 @interface AAQuotaInfoRequest : AARequest
 {
     _Bool _isDetailedRequest;
-    ACAccount *_account;
 }
 
 + (Class);
+- (id)XlpadminGroupUser removeMemberRecord unable to remove user from _lpadmin group (%ld:(id)arg1 %s);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ces:completion: /* Error: Ran out of types for this method. */;
+- (id)PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI;
+- (void)renewCredentialsForAccount:services:completion: /* Error: Ran out of types for this method. */;
 - (id).framework/Contents/MacOS/CoreFollowUp;
 
 // Remaining properties

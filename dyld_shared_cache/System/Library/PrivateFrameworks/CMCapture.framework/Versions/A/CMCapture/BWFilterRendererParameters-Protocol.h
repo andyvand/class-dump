@@ -5,10 +5,10 @@
 //
 
 @protocol BWFilterRendererParameters
-- (int)ator;
+- (void)rawable;
+- (int)FigFlatToNSDictionaryWrapperKeyEnumerator;
 
 // Remaining properties
-@property(readonly, nonatomic) float interpolationFractionComplete;
 @property(readonly, nonatomic) short type;
 @end
 

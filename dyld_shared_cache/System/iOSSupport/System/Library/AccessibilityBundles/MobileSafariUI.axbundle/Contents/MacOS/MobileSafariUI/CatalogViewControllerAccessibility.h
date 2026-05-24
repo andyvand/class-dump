@@ -10,17 +10,17 @@
 {
 }
 
-+ (Class);
++ (Class)kCPAlertActionTitleKey;
 + (id);
 + (void);
 - (void);
 - (void);
+- (void)";
+- (void)H;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)9;
+- (void);
 - (void);
 - (void);
 

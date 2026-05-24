@@ -13,7 +13,7 @@
     NSString *_displayedNetworkName;
 }
 
-+ (_Bool);
++ (_Bool)n;
 - (id);
 - (id);
 - (id);

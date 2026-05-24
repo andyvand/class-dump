@@ -14,9 +14,9 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)EARAudioResultsGenerator;
+- (void)_EARAppLmArtifactUtils;
+- (void)EMTAlignmentResult;
 - (void);
 - (id);
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray;
+@class NSLock;
 
 @interface IMDSpotlightClientStateManager
 {
     _Bool _didFinishSetup;
-    NSLock *_setupLock;
-    NSMutableArray *_setupBlocks;
 }
 
 + (void);
-+ (id);
++ (id)caseCreatedTime;
 - (id);
 - (id);
 - (void);
@@ -23,16 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void)hat_id == ? AND message_id >= ? ORDER BY message_id ASC LIMIT ?;;
 
 // Remaining properties
-@property(nonatomic) _Bool didFinishSetup; // @synthesize didFinishSetup=_didFinishSetup;
-@property(retain, nonatomic) NSMutableArray *setupBlocks; // @synthesize setupBlocks=_setupBlocks;
 @property(readonly, nonatomic) NSLock *setupLock; // @synthesize setupLock=_setupLock;
 
 @end

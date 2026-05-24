@@ -7,13 +7,6 @@
 @interface PhotosUICore.StoryDraft
 {
     id presentationEnvironmentAdjuster;
-    id assetCollectionDeleter;
-    id assetCollectionAnnotator;
-    id saveConfirmationSpec;
-    id persistedAssetCollection;
-    id id;
-    id _state;
-    id _$observationRegistrar;
 }
 
 @end

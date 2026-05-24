@@ -7,8 +7,6 @@
 @interface MNCommuteRouteServer
 {
     id _listener;
-    id _performanceEventLogger;
-    id $__lazy_storage_$__xpcInterface;
 }
 
 - (void);

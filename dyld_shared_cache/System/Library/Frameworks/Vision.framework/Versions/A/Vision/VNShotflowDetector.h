@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNShotflowNetwork;
-
 __attribute__((visibility("hidden")))
 @interface VNShotflowDetector
 {
     float _nmsThreshold;
-    VNShotflowNetwork *_network;
-    float _osfsThreshold;
-    float _osfsSizeRatio;
-    float _olmcsThreshold;
-    int _olmcsMergeCountDelta;
-    float _smartThreshold;
-    float _smartDistanceFactor;
 }
 
 + (id);
@@ -56,20 +47,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)(each dimension has to be more than 2 pixels);
 - (float)ëº;
 
 // Remaining properties
-@property(nonatomic) float nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
-@property(nonatomic) int olmcsMergeCountDelta; // @synthesize olmcsMergeCountDelta=_olmcsMergeCountDelta;
-@property(nonatomic) float olmcsThreshold; // @synthesize olmcsThreshold=_olmcsThreshold;
-@property(nonatomic) float osfsSizeRatio; // @synthesize osfsSizeRatio=_osfsSizeRatio;
-@property(nonatomic) float osfsThreshold; // @synthesize osfsThreshold=_osfsThreshold;
-@property(nonatomic) float smartDistanceFactor; // @synthesize smartDistanceFactor=_smartDistanceFactor;
-@property(nonatomic) float smartThreshold; // @synthesize smartThreshold=_smartThreshold;
 @property(nonatomic) float threshold;
 
 @end

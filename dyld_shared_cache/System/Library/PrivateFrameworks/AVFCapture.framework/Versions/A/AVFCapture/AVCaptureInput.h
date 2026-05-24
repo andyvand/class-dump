@@ -12,17 +12,17 @@
 }
 
 + (void);
+- (id)ediaservices.MSVQRConnection.delegateQueue;
+- (void)addEnabledAccounts: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ystem/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/Versions/A/IntelligencePlatformLibrary;
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct OpaqueCMClock *);
+- (struct OpaqueCMClock *)NSt3__110__function6__funcIZN3mrc12_GLOBAL__N_122CachedPyramidAllocatorILNS2_25PyramidGenerationBehaviorE0EE8prepare_ERNS_8optionalINS2_5ErrorEEERKNS7_IyEEEUlmmmE_FbmmmEEE;
 - (void)ryGainMapSampleBuffer;
 - (void)ections;
 - (void)Dv;

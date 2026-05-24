@@ -10,18 +10,19 @@
 - (void)ACyACyxñ;
 - (void)m.apple.HIToolbox.frontMenuBarShown;
 - (void)arItemModifyVisibilityCount(NSTouchBar * _Nonnull, NSInteger);
-- (void)ipeLog;
+- (void)NSTableViewSwipeLog;
 - (void)> Animator Proxy for:(id)arg1 {
 %@
 };
-- (void)ces;
+- (void)NSDebugServices;
 - (void)@;
-- (void);
+- (void)_NSOpenPanelLayerBackedContentViewConsideredHarmful;
 - (void)e:(NSArray *)arg1 completionHandler:(id)arg2 ]_block_invoke;
 - (void)ple.WebKit.Plugin.32;
 - (void)ndows;
 - (void)n it into an AXUIElementRef;
 - (void)NSScrollPocketChangeBarAlphaBasedOnOccupancy;
 - (void)tÿ;
+- (void);
 @end
 

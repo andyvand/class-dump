@@ -9,13 +9,13 @@
     int _identifier;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)#;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void);
 - (unsigned int);
 - (id);
 

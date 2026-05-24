@@ -17,12 +17,12 @@
 + (void);
 + (void);
 + (id);
-- (id);
-- (id);
+- (id)und;
+- (id)AutoPlayPlaceholderArtworkVisualIdenticality;
 - (unsigned int);
 - (SEL);
-- (id);
-- (id);
+- (id)UserEventStateHandling;
+- (id);
 - (id);
 - (void);
 - (void)´i;

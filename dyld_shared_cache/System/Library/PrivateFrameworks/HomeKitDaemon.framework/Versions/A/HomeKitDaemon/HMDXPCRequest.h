@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCRequest
 {
     NSString *_name;
-    long long _qualityOfService;
-    NSDate *_timeoutDate;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (CDUnknownBlockType);
@@ -24,9 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly, copy) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(readonly, copy) NSDate *timeoutDate; // @synthesize timeoutDate=_timeoutDate;
 
 @end
 

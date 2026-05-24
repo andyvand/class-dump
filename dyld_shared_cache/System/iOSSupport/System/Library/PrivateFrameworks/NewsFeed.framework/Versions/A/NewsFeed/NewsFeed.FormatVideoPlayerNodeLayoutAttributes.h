@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id style;
-    id reuseIdentifier;
-    id posterLayoutAttributes;
-    id auxViewRequirements;
-    id logoLayoutAttributes;
 }
 
 @end

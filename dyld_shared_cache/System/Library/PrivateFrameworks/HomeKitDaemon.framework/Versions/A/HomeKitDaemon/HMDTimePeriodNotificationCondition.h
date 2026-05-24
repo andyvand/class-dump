@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDTimePeriodNotificationCondition : HMDNotificationCondition
 {
     HMDTimePeriodElement *_startElement;
-    HMDTimePeriodElement *_endElement;
 }
 
 + (id);
@@ -20,19 +19,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)tchingQueue";
 - (id);
-- (id);
-- (id);
+- (id)t;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)lay;
+- (id)packetRelay;
 - (id)ccess violations:%@ /* Error: Ran out of types for this method. */;
 - (id)ublic}@Could not perform initial sync :(id)arg1 %@;
 - (void)%@;
 
 // Remaining properties
-@property(readonly) HMDTimePeriodElement *endElement; // @synthesize endElement=_endElement;
 @property(readonly) HMDTimePeriodElement *startElement; // @synthesize startElement=_startElement;
 
 @end

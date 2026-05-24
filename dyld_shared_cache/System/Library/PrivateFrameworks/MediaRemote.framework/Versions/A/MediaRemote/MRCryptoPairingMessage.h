@@ -14,20 +14,16 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (id);
+- (unsigned long long)setLastAutoFilledBySafari: /* Error: Ran out of types for this method. */;
+- (unsigned long long)SystemNeedsUpdate;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (int);
+- (int)= %@, speechInfo = %@, requestHandlingContextSnapshot = %@, deviceRestrictions = %@, userInfo = %@};
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *pairingData;
-@property(readonly, nonatomic, getter=isRetrying) _Bool retrying;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly, nonatomic) int status;
-@property(readonly, nonatomic, getter=isUsingSystemPairing) _Bool usingSystemPairing;
 
 @end
 

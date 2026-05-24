@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBAnnouncementRecord;
 
 @protocol _INPBStopAnnouncementIntentResponse
+- (_INPBAnnouncementRecord *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *stoppedAnnouncementRecords;
-@property(readonly, nonatomic) unsigned long long stoppedAnnouncementRecordsCount;
 @end
 

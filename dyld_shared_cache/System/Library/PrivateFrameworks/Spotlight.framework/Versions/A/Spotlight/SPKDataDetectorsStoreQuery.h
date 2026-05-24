@@ -13,8 +13,8 @@
 
 + (int);
 + (unsigned int);
-- (id);
-- (void);
+- (id)hs:%u fs:%lld /* Error: Ran out of types for this method. */;
+- (void)(;
 - (void);
 - (void);
 

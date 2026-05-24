@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SAMPPlaylist;
+@class NSString;
 
 @interface SAMPAddMediaItemsToPlaylist : SABaseClientBoundCommand
 {
@@ -15,22 +15,19 @@
 + (id);
 + (id);
 - (void);
+- (void)y;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *influencedUserSharedUserId;
-@property(copy, nonatomic) NSString *insertLocation;
-@property(copy, nonatomic) NSArray *mediaItems;
-@property(retain, nonatomic) SAMPPlaylist *playlist;
 
 @end
 

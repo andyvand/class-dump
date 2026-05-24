@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatAdMetricsNode
 {
     id _identifier;
-    id content;
-    id privacyMarkerFrameIdentifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id flex;
 }
 
 @end

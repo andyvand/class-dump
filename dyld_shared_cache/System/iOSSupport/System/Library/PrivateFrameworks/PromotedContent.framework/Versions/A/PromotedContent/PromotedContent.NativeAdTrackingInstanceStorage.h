@@ -7,7 +7,6 @@
 @interface PromotedContent.NativeAdTrackingInstanceStorage
 {
     id lock;
-    id adInstances;
 }
 
 @end

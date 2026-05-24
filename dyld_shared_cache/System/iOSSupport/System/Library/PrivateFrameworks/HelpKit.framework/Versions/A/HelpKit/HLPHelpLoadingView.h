@@ -11,27 +11,25 @@
 {
     _Bool _supportsDarkMode;
     id <HLPHelpLoadingViewDelegate> _delegate;
-    UIActivityIndicatorView *_activityIndicatorView;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void)CT;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (id);
+- (id)ome %@, error occurred:(struct CGRect)arg1 %@;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;
 @property(nonatomic) __weak id <HLPHelpLoadingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool supportsDarkMode; // @synthesize supportsDarkMode=_supportsDarkMode;
 
 @end
 

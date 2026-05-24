@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SPKernelExtensionPolicyItem
 {
     _Bool _originalAllowed;
-    _Bool allowed;
-    _Bool rebootRequired;
-    _Bool isPendingUpgrade;
-    NSString *applicationName;
-    NSString *applicationPath;
-    NSString *developerName;
-    NSString *teamID;
-    NSArray *bundleIDs;
 }
 
-+ (_Bool);
-- (_Bool);
-- (_Bool);
++ (_Bool)2;
+- (_Bool)pc;
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -29,26 +21,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)PC error for retrieveFMMAccountWithCompletion:%li /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isAllowed) _Bool allowed; // @synthesize allowed;
-@property(readonly, nonatomic) NSString *applicationName; // @synthesize applicationName;
-@property(readonly, nonatomic) NSString *applicationPath; // @synthesize applicationPath;
-@property(readonly, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs;
 @property(readonly, nonatomic) NSString *developerName; // @synthesize developerName;
-@property(readonly, nonatomic) _Bool isPendingUpgrade; // @synthesize isPendingUpgrade;
-@property(readonly, nonatomic, getter=isModified) _Bool modified;
-@property(readonly, nonatomic, getter=isRebootRequired) _Bool rebootRequired; // @synthesize rebootRequired;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID;
 
 @end
 

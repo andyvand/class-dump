@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, WBSHostTabProvider;
+@class NSUUID;
 
 @protocol WBSHostableTab
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *contentUUID;
-@property(retain, nonatomic) WBSHostTabProvider *hostTabProvider;
 @end
 

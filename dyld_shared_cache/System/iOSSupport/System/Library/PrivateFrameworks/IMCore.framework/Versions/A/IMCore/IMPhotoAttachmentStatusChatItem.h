@@ -9,16 +9,12 @@
 @interface IMPhotoAttachmentStatusChatItem : IMTranscriptChatItem
 {
     unsigned long long _numberOfPhotos;
-    unsigned long long _numberOfVideos;
-    unsigned long long _numberOfSavedAssets;
 }
 
-+ (id);
++ (id)safari_sfAppDefaults;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfPhotos; // @synthesize numberOfPhotos=_numberOfPhotos;
-@property(readonly, nonatomic) unsigned long long numberOfSavedAssets; // @synthesize numberOfSavedAssets=_numberOfSavedAssets;
-@property(readonly, nonatomic) unsigned long long numberOfVideos; // @synthesize numberOfVideos=_numberOfVideos;
 
 @end
 

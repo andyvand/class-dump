@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHHandle
 {
     long long _type;
-    NSString *_value;
-    NSString *_normalizedValue;
 }
 
 @end

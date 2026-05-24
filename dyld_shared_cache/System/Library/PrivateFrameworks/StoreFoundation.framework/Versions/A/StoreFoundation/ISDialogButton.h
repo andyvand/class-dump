@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface ISDialogButton
 {
     int _actionType;
-    id _parameter;
-    NSString *_title;
-    long long _urlType;
-    NSNumber *_state;
 }
 
 + (id);
@@ -21,28 +15,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (int);
 - (id);
 - (long long);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)J
+;
 - (id);
 - (void);
 
 // Remaining properties
 @property int actionType; // @synthesize actionType=_actionType;
-@property(retain) id parameter; // @synthesize parameter=_parameter;
-@property(retain) NSNumber *state; // @synthesize state=_state;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property long long urlType; // @synthesize urlType=_urlType;
 
 @end
 

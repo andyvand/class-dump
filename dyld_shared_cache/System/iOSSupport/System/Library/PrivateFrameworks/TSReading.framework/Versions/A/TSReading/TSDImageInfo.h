@@ -6,35 +6,22 @@
 
 #import <TSReading/TSDMediaInfo.h>
 
-@class NSObject, NSString, TSDBezierPath, TSDImageAdjustments, TSDInfoGeometry, TSDMaskInfo, TSDMediaStyle, TSPData, TSPObject;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class TSPData;
 
 @interface TSDImageInfo : TSDMediaInfo
 {
     TSPData *mImageData;
-    TSPData *mThumbnailImageData;
-    TSPData *mOriginalImageData;
-    _Bool mInterpretsUntaggedImageDataAsGeneric;
-    TSDImageAdjustments *mImageAdjustments;
-    TSPData *mAdjustedImageData;
-    TSPData *mThumbnailAdjustedImageData;
-    TSPData *mEnhancedImageData;
-    TSDMediaStyle *mStyle;
-    TSDMaskInfo *mMaskInfo;
-    TSDBezierPath *mInstantAlphaPath;
-    TSDBezierPath *mTracedPath;
-    struct CGSize mNaturalSize;
 }
 
-+ (id);
++ (id)l};
 + (id);
 + (void);
 + (void);
 + (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)set up yet.;
+- (void)iniSinf;
+- (id);
 - (id);
 - (struct CGSize);
 - (Class);
@@ -47,23 +34,23 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)0;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct CGSize);
-- (id);
+- (id);
 - (id);
 - (struct CGAffineTransform);
 - (struct CGPoint);
@@ -89,47 +76,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (id)dLayoutAndRenderState;
+- (id)p_backgroundLayoutAndRenderState;
 - (void)ure Shader;
 - (void);
 - (struct CGSize)TÌ;
 
 // Remaining properties
-@property(retain, nonatomic) TSPData *adjustedImageData; // @synthesize adjustedImageData=mAdjustedImageData;
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @dynamic anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TSPData *enhancedImageData;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @dynamic floatingAboveText;
-@property(copy, nonatomic) TSDInfoGeometry *geometry;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) TSDImageAdjustments *imageAdjustments; // @synthesize imageAdjustments=mImageAdjustments;
 @property(retain, nonatomic) TSPData *imageData; // @synthesize imageData=mImageData;
-@property(readonly, nonatomic) TSDMediaStyle *imageStyle;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @dynamic inlineWithText;
-@property(retain, nonatomic) TSDBezierPath *instantAlphaPath; // @synthesize instantAlphaPath=mInstantAlphaPath;
-@property(nonatomic) _Bool interpretsUntaggedImageDataAsGeneric;
-@property(retain, nonatomic) TSDMaskInfo *maskInfo; // @synthesize maskInfo=mMaskInfo;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) struct CGSize naturalSize;
-@property(retain, nonatomic) TSPData *originalImageData; // @synthesize originalImageData=mOriginalImageData;
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @dynamic owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse; // @dynamic owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSPData *thumbnailAdjustedImageData; // @synthesize thumbnailAdjustedImageData=mThumbnailAdjustedImageData;
-@property(retain, nonatomic) TSPData *thumbnailImageData; // @synthesize thumbnailImageData=mThumbnailImageData;
-@property(readonly, nonatomic) TSDBezierPath *tracedPath;
 
 @end
 

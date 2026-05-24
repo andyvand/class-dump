@@ -10,34 +10,22 @@ __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileFields
 {
     NSString *_needsOnboardingField;
-    NSString *_supportsOnboardingField;
-    NSString *_isSiriEnableField;
-    NSString *_isSiriListeningField;
-    NSString *_siriTouchToUseField;
-    NSString *_siriLightOnUseField;
-    NSString *_siriSoundOnUseField;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)aringIdentity";
+- (id):8@16^@24^B32 /* Error: Ran out of types for this method. */;
+- (id)descriptorForRequiredKeys;
 - (id);
 - (id)ion holder for session %{public,uuid_t}.16P;
 - (void)%@, iid:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *isSiriEnableField; // @synthesize isSiriEnableField=_isSiriEnableField;
-@property(readonly, copy) NSString *isSiriListeningField; // @synthesize isSiriListeningField=_isSiriListeningField;
 @property(readonly, copy) NSString *needsOnboardingField; // @synthesize needsOnboardingField=_needsOnboardingField;
-@property(readonly, copy) NSString *siriLightOnUseField; // @synthesize siriLightOnUseField=_siriLightOnUseField;
-@property(readonly, copy) NSString *siriSoundOnUseField; // @synthesize siriSoundOnUseField=_siriSoundOnUseField;
-@property(readonly, copy) NSString *siriTouchToUseField; // @synthesize siriTouchToUseField=_siriTouchToUseField;
-@property(readonly, copy) NSString *supportsOnboardingField; // @synthesize supportsOnboardingField=_supportsOnboardingField;
 
 @end
 

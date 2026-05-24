@@ -9,16 +9,6 @@
 @interface PKAccountAdditionalPushTopics
 {
     NSString *_account;
-    NSString *_extendedAccount;
-    NSString *_payments;
-    NSString *_users;
-    NSString *_sharedAccountCloudStore;
-    NSString *_applications;
-    NSString *_physicalCards;
-    NSString *_virtualCards;
-    NSString *_servicingToken;
-    NSString *_fundingSources;
-    NSString *_creditRecoveryPaymentPlans;
 }
 
 + (_Bool)!X"!°@ù±î%1Â0@ù
@@ -28,44 +18,34 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_resolutionMilliseconds;
 - (void);
 - (id);
-- (id);
-- (id):(id)arg1;
+- (id);
+- (id)_categoryIsCurrentBalanceType:(id)arg1;
 - (void)tep",&,N,V_departure;
 - (void)itTemperatureCG;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSString *applications; // @synthesize applications=_applications;
-@property(copy, nonatomic) NSString *creditRecoveryPaymentPlans; // @synthesize creditRecoveryPaymentPlans=_creditRecoveryPaymentPlans;
-@property(copy, nonatomic) NSString *extendedAccount; // @synthesize extendedAccount=_extendedAccount;
-@property(copy, nonatomic) NSString *fundingSources; // @synthesize fundingSources=_fundingSources;
-@property(copy, nonatomic) NSString *payments; // @synthesize payments=_payments;
-@property(copy, nonatomic) NSString *physicalCards; // @synthesize physicalCards=_physicalCards;
-@property(copy, nonatomic) NSString *servicingToken; // @synthesize servicingToken=_servicingToken;
-@property(copy, nonatomic) NSString *sharedAccountCloudStore; // @synthesize sharedAccountCloudStore=_sharedAccountCloudStore;
-@property(copy, nonatomic) NSString *users; // @synthesize users=_users;
-@property(copy, nonatomic) NSString *virtualCards; // @synthesize virtualCards=_virtualCards;
 
 @end
 

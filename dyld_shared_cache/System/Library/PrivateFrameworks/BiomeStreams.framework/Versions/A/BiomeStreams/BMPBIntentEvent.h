@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface BMPBIntentEvent
 {
     double _absoluteTimestamp;
-    NSString *_bundleID;
-    NSString *_groupIdentifier;
-    NSString *_intentClass;
-    int _intentHandlingStatus;
-    int _intentType;
-    NSString *_intentVerb;
-    NSData *_interaction;
-    int _interactionDirection;
-    NSString *_itemID;
-    NSString *_sourceId;
-    _Bool _donatedBySiri;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int intentHandlingStatus:1;
-        unsigned int intentType:1;
-        unsigned int interactionDirection:1;
-        unsigned int donatedBySiri:1;
-    } _has;
 }
 
 - (_Bool);
@@ -43,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)ijh8?;
 - (unsigned long long);
-- (id);
+- (id)A;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -55,12 +35,12 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (void)(=;
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)setContentInset:(id)arg1;
 - (int);
 - (int);
 - (id);
@@ -69,16 +49,16 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)n;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)s: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSchema:publisherBlockWithOptions:acceptPublisherOptions: /* Error: Ran out of types for this method. */;
 - (void)$C;
 - (void)ÎÂ×ÿ;
-- (_Bool)_query__expr__pack;
+- (_Bool)pg_query__expr__pack;
 - (id)ORCE_NOT_NULL (;
 - (id)&& SELF.%K == %@;
 - (id);
@@ -88,30 +68,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) _Bool donatedBySiri; // @synthesize donatedBySiri=_donatedBySiri;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasDonatedBySiri;
-@property(readonly, nonatomic) _Bool hasGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentClass;
-@property(nonatomic) _Bool hasIntentHandlingStatus;
-@property(nonatomic) _Bool hasIntentType;
-@property(readonly, nonatomic) _Bool hasIntentVerb;
-@property(readonly, nonatomic) _Bool hasInteraction;
-@property(nonatomic) _Bool hasInteractionDirection;
-@property(readonly, nonatomic) _Bool hasItemID;
-@property(readonly, nonatomic) _Bool hasSourceId;
-@property(retain, nonatomic) NSString *intentClass; // @synthesize intentClass=_intentClass;
-@property(nonatomic) int intentHandlingStatus; // @synthesize intentHandlingStatus=_intentHandlingStatus;
-@property(nonatomic) int intentType; // @synthesize intentType=_intentType;
-@property(retain, nonatomic) NSString *intentVerb; // @synthesize intentVerb=_intentVerb;
-@property(retain, nonatomic) NSData *interaction; // @synthesize interaction=_interaction;
-@property(nonatomic) int interactionDirection; // @synthesize interactionDirection=_interactionDirection;
-@property(retain, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
-@property(retain, nonatomic) NSString *sourceId; // @synthesize sourceId=_sourceId;
 
 @end
 

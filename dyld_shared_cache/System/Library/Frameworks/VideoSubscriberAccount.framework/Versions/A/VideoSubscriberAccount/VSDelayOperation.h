@@ -6,16 +6,12 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSDate, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface VSDelayOperation : VSAsyncOperation
 {
     NSObject<OS_dispatch_source> *_timerSource;
-    _Bool _shouldIgnoreTolerance;
-    double _delay;
-    double _tolerance;
-    NSDate *_fireDate;
 }
 
 + (id);
@@ -27,18 +23,15 @@
 - (void);
 - (id);
 - (id);
-- (double);
-- (double);
-- (void);
+- (double)`;
+- (double)rameworks/Vision.framework/Vision;
+- (void)t NSString *getkSymptomAnalyticsServiceDomainTrackingClearHistoryStartDate(void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(readonly, copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(nonatomic) _Bool shouldIgnoreTolerance; // @synthesize shouldIgnoreTolerance=_shouldIgnoreTolerance;
-@property(readonly, nonatomic) double tolerance; // @synthesize tolerance=_tolerance;
 
 @end
 

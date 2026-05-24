@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSError, NSFileProviderItemVersion, NSNumber, NSPersonNameComponents, NSString, UTType;
+@class NSString;
 
 @interface BRTrashItem
 {
@@ -19,136 +19,7 @@
 - (id)ing owned by %lu other collections%@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capabilities;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy, nonatomic) NSNumber *childItemCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDate *contentModificationDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,C,N
-
-@property(readonly, nonatomic) long long contentPolicy;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, copy, nonatomic) UTType *contentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UTType",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *documentSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,C,N
-
-@property(readonly, nonatomic, getter=isDownloaded) _Bool downloaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisDownloaded
-
-@property(readonly, nonatomic, getter=isDownloading) _Bool downloading;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisDownloading
-
-@property(readonly, copy, nonatomic) NSError *downloadingError;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSError",?,R,C,N
-
-@property(readonly, nonatomic) NSDictionary *extendedAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, copy, nonatomic) NSNumber *favoriteRank;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,C,N
-
-@property(readonly, nonatomic) unsigned long long fileSystemFlags;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy, nonatomic) NSString *filename;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *itemIdentifier;
-@property(readonly, nonatomic) NSFileProviderItemVersion *itemVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSFileProviderItemVersion",?,R,N
-
-@property(readonly, copy, nonatomic) NSDate *lastUsedDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,C,N
-
-@property(readonly, nonatomic) NSPersonNameComponents *mostRecentEditorNameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R,N
-
-@property(readonly, nonatomic, getter=isMostRecentVersionDownloaded) _Bool mostRecentVersionDownloaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisMostRecentVersionDownloaded
-
-@property(readonly, nonatomic) NSPersonNameComponents *ownerNameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *parentItemIdentifier;
-@property(readonly, nonatomic, getter=isShared) _Bool shared;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisShared
-
-@property(readonly, nonatomic, getter=isSharedByCurrentUser) _Bool sharedByCurrentUser;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisSharedByCurrentUser
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *symlinkTargetPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSData *tagData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,C,N
-
-@property(readonly, nonatomic, getter=isTrashed) _Bool trashed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisTrashed
-
-@property(readonly, nonatomic) struct NSFileProviderTypeAndCreator typeAndCreator;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSFileProviderTypeAndCreator=II},?,R,N
-
-@property(readonly, copy, nonatomic) NSString *typeIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic, getter=isUploaded) _Bool uploaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisUploaded
-
-@property(readonly, nonatomic, getter=isUploading) _Bool uploading;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisUploading
-
-@property(readonly, copy, nonatomic) NSError *uploadingError;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSError",?,R,C,N
-
-@property(readonly, nonatomic) NSDictionary *userInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSData *versionIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
 
 @end
 

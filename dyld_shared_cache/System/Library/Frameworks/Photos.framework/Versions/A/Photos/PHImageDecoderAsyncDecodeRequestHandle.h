@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHImageDecoder;
-
 @interface PHImageDecoderAsyncDecodeRequestHandle
 {
     struct atomic_flag _cancelFlag;
-    _Bool _cancelRequested;
-    PHImageDecoder *_initialDecoder;
-    unsigned long long _figRequestID;
-    unsigned long long _figGainMapRequestID;
-    struct CMPhotoDecompressionContainer *_c;
-    struct CMPhotoDecompressionContainer *_figDecompressionContainer;
 }
 
 - (void);
 - (id);
-- (struct CMPhotoDecompressionContainer *);
+- (struct CMPhotoDecompressionContainer *);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)W;
 - (struct CMPhotoDecompressionContainer *);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ar;
+- (void)writeToURL:(struct CMPhotoDecompressionContainer *)arg1 atomically: /* Error: Ran out of types for this method. */;
+- (void)currentCalendar;
 
 // Remaining properties
-@property(retain, nonatomic) struct CMPhotoDecompressionContainer *c; // @synthesize c=_c;
-@property(readonly, nonatomic) _Bool cancelRequested;
-@property(retain, nonatomic) struct CMPhotoDecompressionContainer *figDecompressionContainer; // @synthesize figDecompressionContainer=_figDecompressionContainer;
-@property(nonatomic) unsigned long long figGainMapRequestID; // @synthesize figGainMapRequestID=_figGainMapRequestID;
 @property(nonatomic) unsigned long long figRequestID; // @synthesize figRequestID=_figRequestID;
-@property(readonly, nonatomic) PHImageDecoder *initialDecoder; // @synthesize initialDecoder=_initialDecoder;
 
 @end
 

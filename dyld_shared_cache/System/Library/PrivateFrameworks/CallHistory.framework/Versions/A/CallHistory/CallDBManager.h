@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDeviceObserver, DBManager, NSString;
-
 @interface CallDBManager
 {
     unsigned char _dataStoreType;
-    unsigned char _notifyDataStoreChangeReason;
-    DBManager *_dbManager;
-    CHDeviceObserver *_deviceObserver;
 }
 
 + (id);
@@ -21,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ionHandler: /* Error: Ran out of types for this method. */;
+- (id)PLFetchRecorderPredicateVisitor;
 - (unsigned char);
 - (id);
 - (_Bool);
@@ -37,23 +32,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)G	3	;
 - (id);
 - (void);
 - (unsigned char);
 
 // Remaining properties
 @property unsigned char dataStoreType; // @synthesize dataStoreType=_dataStoreType;
-@property(retain, nonatomic) DBManager *dbManager; // @synthesize dbManager=_dbManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CHDeviceObserver *deviceObserver; // @synthesize deviceObserver=_deviceObserver;
-@property(readonly) unsigned long long hash;
-@property unsigned char notifyDataStoreChangeReason; // @synthesize notifyDataStoreChangeReason=_notifyDataStoreChangeReason;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _IFValueTransformer
 {
     CDUnknownBlockType _forwardTransformation;
-    CDUnknownBlockType _reverseTransformation;
 }
 
-+ (_Bool);
++ (_Bool)_transpose_kernel>(top_transpose_node) != nullptr;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType forwardTransformation; // @synthesize forwardTransformation=_forwardTransformation;
-@property(readonly, copy, nonatomic) CDUnknownBlockType reverseTransformation; // @synthesize reverseTransformation=_reverseTransformation;
 
 @end
 

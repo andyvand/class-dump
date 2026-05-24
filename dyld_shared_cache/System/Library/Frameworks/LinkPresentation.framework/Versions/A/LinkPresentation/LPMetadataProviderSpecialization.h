@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPMetadataProviderSpecializationContext;
 @protocol LPMetadataProviderSpecializationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LPMetadataProviderSpecialization
 {
     id <LPMetadataProviderSpecializationDelegate> _delegate;
-    LPMetadataProviderSpecializationContext *_context;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)orks/SiriOntologyProtobuf.framework/Versions/A/SiriOntologyProtobuf;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LPMetadataProviderSpecializationContext *context; // @synthesize context=_context;
 @property(nonatomic) __weak id <LPMetadataProviderSpecializationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

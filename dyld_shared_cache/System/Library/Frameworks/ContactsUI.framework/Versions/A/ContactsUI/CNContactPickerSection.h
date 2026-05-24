@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
-@protocol CNContactPickerSectionDelegate;
+@class NSString;
 
 @interface CNContactPickerSection
 {
     NSString *_identifier;
-    NSString *_displayName;
-    NSView *_contentView;
-    NSView *_rightTopBarView;
-    id <CNContactPickerSectionDelegate> _delegate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id):appID = %@, preference = %@, result = %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id)Ey=:êGSgGG@êGtGGAJGAJGtGGATGAJG(êGyFêGGG /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly) id <CNContactPickerSectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSView *rightTopBarView; // @synthesize rightTopBarView=_rightTopBarView;
 
 @end
 

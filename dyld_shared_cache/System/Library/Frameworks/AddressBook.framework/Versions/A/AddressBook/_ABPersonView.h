@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPerson, ABPersonViewNotificationWatcher, CNContactCardViewController, NSString, NSView;
-@protocol ABPersonViewDelegate;
+@class ABAddressBook;
 
 @interface _ABPersonView
 {
     ABAddressBook *_addressBook;
-    ABPerson *_person;
-    id _delegate;
-    NSView *_view;
-    id _reserved3;
-    id _reserved2;
-    id _watcher;
-    CNContactCardViewController *_contactCardViewController;
-    double _contentHeight;
-    _Bool _loaded;
 }
 
 + (id);
-+ (id);
++ (id)@y	(@9`;
 + (id);
 + (id);
 + (void);
@@ -34,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,7 +47,7 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -67,14 +57,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)yIA	*;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (void);
-- (double);
+- (void)`;
+- (double);
 - (void);
 - (_Bool);
 - (void);
@@ -89,25 +79,25 @@
 - (void);
 - (double);
 - (struct CGSize);
-- (id);
+- (id)initWithUniqueIdentifier:location:page:family:widgets:activeWidget: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)sharedWorkspace;
 - (void);
 - (void);
 - (id);
+- (void)isiteCheck] Starting prerequisite check...;
+- (void);
+- (void)-session.%p;
 - (id);
-- (id);
+- (id)B;
+- (id)R;
 - (double);
-- (id);
+- (id)R,;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (void);
@@ -115,28 +105,11 @@
 × ;
 - (_Bool)ñªÐ1Â0@ù
 × ;
-- (_Bool)ancel: /* Error: Ran out of types for this method. */;
+- (_Bool)handleCancel: /* Error: Ran out of types for this method. */;
 - (struct CGSize)nk:r:path:/System/Library/Frameworks/Contacts.framework/Contacts /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain) CNContactCardViewController *contactCardViewController; // @synthesize contactCardViewController=_contactCardViewController;
-@property(nonatomic) double contentHeight; // @synthesize contentHeight=_contentHeight;
-@property(readonly) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <ABPersonViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool editing;
-@property(readonly) unsigned long long hash;
-@property(getter=isLoaded) _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) ABPerson *person; // @synthesize person=_person;
-@property _Bool shouldShowLinkedPeople;
-@property _Bool shouldShowSuggestedFields;
-@property(readonly) Class superclass;
-@property(retain) ABPersonViewNotificationWatcher *watcher; // @synthesize watcher=_watcher;
 
 @end
 

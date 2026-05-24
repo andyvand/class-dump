@@ -6,29 +6,21 @@
 
 #import <PhotosUICore/PXMemoriesFeedLayoutGenerator.h>
 
-@class NSDictionary, NSIndexSet, PXMemoriesSpec;
-
 @interface PXMemoriesFeedEntryLayoutGenerator : PXMemoriesFeedLayoutGenerator
 {
     struct CGSize _size;
-    PXMemoriesSpec *_spec;
-    NSIndexSet *_geometryKinds;
-    struct CGRect _sectionHeaderRect;
-    NSDictionary *_rectsByIndexByKind;
-    _Bool _isPrepared;
-    long long _layoutAxis;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void)Â0@ù
 × ;
-- (id)ack:(struct _NSZone *)arg1;
+- (id)possibleClipCompositionsForFallback:(struct _NSZone *)arg1;
 - (id)GG;
 - (void)upportError;
 - (long long);

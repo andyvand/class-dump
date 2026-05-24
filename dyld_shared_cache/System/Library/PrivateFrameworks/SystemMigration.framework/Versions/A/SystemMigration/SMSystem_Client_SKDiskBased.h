@@ -6,16 +6,9 @@
 
 #import <SystemMigration/SMSystem_Client.h>
 
-@class NSString;
-
 @interface SMSystem_Client_SKDiskBased : SMSystem_Client
 {
     _Bool _isPasswordLocked;
-    _Bool _isDefaultEffaceable;
-    _Bool _isEncrypted;
-    _Bool _isFilevault;
-    _Bool _systemAndDataMounted;
-    NSString *_protocol;
 }
 
 + (id);
@@ -49,12 +42,7 @@
 - (void)untPoints;
 
 // Remaining properties
-@property _Bool isDefaultEffaceable; // @synthesize isDefaultEffaceable=_isDefaultEffaceable;
-@property _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property _Bool isFilevault; // @synthesize isFilevault=_isFilevault;
 @property _Bool isPasswordLocked; // @synthesize isPasswordLocked=_isPasswordLocked;
-@property(retain) NSString *protocol; // @synthesize protocol=_protocol;
-@property _Bool systemAndDataMounted; // @synthesize systemAndDataMounted=_systemAndDataMounted;
 
 @end
 

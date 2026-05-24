@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDActiveXPCConnectionLogEvent
 {
     _Bool _activated;
-    _Bool _added;
-    NSString *_name;
 }
 
 + (id);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)rAccessCodePrivateExtensions;
+- (_Bool)MKFRemovedUserAccessCodePrivateExtensions;
 - (void)	;
 
 // Remaining properties
-@property(readonly, getter=isActivated) _Bool activated; // @synthesize activated=_activated;
-@property(readonly) _Bool added; // @synthesize added=_added;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

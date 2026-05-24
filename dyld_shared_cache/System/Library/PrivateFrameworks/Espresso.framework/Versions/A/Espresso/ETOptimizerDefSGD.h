@@ -9,9 +9,6 @@
 @interface ETOptimizerDefSGD : ETOptimizerDef
 {
     float _lr;
-    float _lr_decay_epoch;
-    float _momentum;
-    float _weight_decay;
 }
 
 - (float);
@@ -20,15 +17,12 @@
 - (void);
 - (float);
 - (float);
-- (void);
-- (float);
+- (void)returnEventResults;
+- (float)removeServerRefreshRelatedPropertiesForSelfAndAllEventsSaveAndCommitWithError: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property float lr; // @synthesize lr=_lr;
-@property float lr_decay_epoch; // @synthesize lr_decay_epoch=_lr_decay_epoch;
-@property float momentum; // @synthesize momentum=_momentum;
-@property float weight_decay; // @synthesize weight_decay=_weight_decay;
 
 @end
 

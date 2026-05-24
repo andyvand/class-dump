@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class __CFN_TransactionMetrics;
-
 @interface NSURLSessionTaskTransactionMetrics
 {
     _Bool __connectionTimingCached;
-    _Bool __forCache;
-    __CFN_TransactionMetrics *__metrics;
-    struct {
-        double domainLookupBeginTime;
-        double connectBeginTime;
-        unsigned int domainLookupDuration;
-        unsigned int connectDuration;
-        unsigned int secureConnectionDuration;
-        _Bool secure;
-    } __connectionTiming;
 }
 
 @end

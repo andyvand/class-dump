@@ -10,16 +10,12 @@ __attribute__((visibility("hidden")))
 @interface BitrateLimits
 {
     unsigned long long defaultValue;
-    unsigned long long defaultValueCellular;
-    unsigned long long defaultValue2G;
-    NSArray *limits;
-    _Bool _enableFTAProactiveRed;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);

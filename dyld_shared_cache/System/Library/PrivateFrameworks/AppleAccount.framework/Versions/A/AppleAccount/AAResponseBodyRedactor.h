@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)up;
++ (id)mpositorWatcher uids have already been set up;
 
 @end
 

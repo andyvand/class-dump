@@ -9,12 +9,9 @@
 @interface PHBatchPerformChanges
 {
     PHPhotoLibrary *_library;
-    unsigned long long _itemCount;
-    unsigned long long _batchSize;
-    CDUnknownBlockType _batchBlock;
 }
 
-- (void);
+- (void)N`;
 - (_Bool);
 - (id);
 - (void);
@@ -26,7 +23,7 @@
 - (id);
 - (struct _NSRange);
 - (_Bool);
-- (void)chSingletonFacesWithOptions: /* Error: Ran out of types for this method. */;
+- (void)fetchSingletonFacesWithOptions: /* Error: Ran out of types for this method. */;
 
 @end
 

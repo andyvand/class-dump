@@ -7,47 +7,13 @@
 @interface AWDChipCountersRx
 {
     unsigned long long _rxbadcm;
-    unsigned long long _rxbadda;
-    unsigned long long _rxbadds;
-    unsigned long long _rxbadproto;
-    unsigned long long _rxbadsrcmac;
-    unsigned long long _rxbyte;
-    unsigned long long _rxctl;
-    unsigned long long _rxerror;
-    unsigned long long _rxfilter;
-    unsigned long long _rxfragerr;
-    unsigned long long _rxframe;
-    unsigned long long _rxgiant;
-    unsigned long long _rxnobuf;
-    unsigned long long _rxnondata;
-    unsigned long long _rxnoscb;
-    unsigned long long _rxrtry;
-    unsigned long long _rxrunt;
-    struct {
-        unsigned int rxbadcm:1;
-        unsigned int rxbadda:1;
-        unsigned int rxbadds:1;
-        unsigned int rxbadproto:1;
-        unsigned int rxbadsrcmac:1;
-        unsigned int rxbyte:1;
-        unsigned int rxctl:1;
-        unsigned int rxerror:1;
-        unsigned int rxfilter:1;
-        unsigned int rxfragerr:1;
-        unsigned int rxframe:1;
-        unsigned int rxgiant:1;
-        unsigned int rxnobuf:1;
-        unsigned int rxnondata:1;
-        unsigned int rxnoscb:1;
-        unsigned int rxrtry:1;
-        unsigned int rxrunt:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -64,12 +30,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)u	*;
+- (void)
+(*;
+- (void)i	;
+- (void)}S(3;
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -90,6 +56,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool){#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -97,8 +64,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -113,9 +79,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (void)3I;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -123,40 +89,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRxbadcm;
-@property(nonatomic) _Bool hasRxbadda;
-@property(nonatomic) _Bool hasRxbadds;
-@property(nonatomic) _Bool hasRxbadproto;
-@property(nonatomic) _Bool hasRxbadsrcmac;
-@property(nonatomic) _Bool hasRxbyte;
-@property(nonatomic) _Bool hasRxctl;
-@property(nonatomic) _Bool hasRxerror;
-@property(nonatomic) _Bool hasRxfilter;
-@property(nonatomic) _Bool hasRxfragerr;
 @property(nonatomic) _Bool hasRxframe;
-@property(nonatomic) _Bool hasRxgiant;
-@property(nonatomic) _Bool hasRxnobuf;
-@property(nonatomic) _Bool hasRxnondata;
-@property(nonatomic) _Bool hasRxnoscb;
-@property(nonatomic) _Bool hasRxrtry;
-@property(nonatomic) _Bool hasRxrunt;
-@property(nonatomic) unsigned long long rxbadcm; // @synthesize rxbadcm=_rxbadcm;
-@property(nonatomic) unsigned long long rxbadda; // @synthesize rxbadda=_rxbadda;
-@property(nonatomic) unsigned long long rxbadds; // @synthesize rxbadds=_rxbadds;
-@property(nonatomic) unsigned long long rxbadproto; // @synthesize rxbadproto=_rxbadproto;
-@property(nonatomic) unsigned long long rxbadsrcmac; // @synthesize rxbadsrcmac=_rxbadsrcmac;
-@property(nonatomic) unsigned long long rxbyte; // @synthesize rxbyte=_rxbyte;
-@property(nonatomic) unsigned long long rxctl; // @synthesize rxctl=_rxctl;
-@property(nonatomic) unsigned long long rxerror; // @synthesize rxerror=_rxerror;
-@property(nonatomic) unsigned long long rxfilter; // @synthesize rxfilter=_rxfilter;
-@property(nonatomic) unsigned long long rxfragerr; // @synthesize rxfragerr=_rxfragerr;
-@property(nonatomic) unsigned long long rxframe; // @synthesize rxframe=_rxframe;
-@property(nonatomic) unsigned long long rxgiant; // @synthesize rxgiant=_rxgiant;
-@property(nonatomic) unsigned long long rxnobuf; // @synthesize rxnobuf=_rxnobuf;
-@property(nonatomic) unsigned long long rxnondata; // @synthesize rxnondata=_rxnondata;
-@property(nonatomic) unsigned long long rxnoscb; // @synthesize rxnoscb=_rxnoscb;
-@property(nonatomic) unsigned long long rxrtry; // @synthesize rxrtry=_rxrtry;
-@property(nonatomic) unsigned long long rxrunt; // @synthesize rxrunt=_rxrunt;
 
 @end
 

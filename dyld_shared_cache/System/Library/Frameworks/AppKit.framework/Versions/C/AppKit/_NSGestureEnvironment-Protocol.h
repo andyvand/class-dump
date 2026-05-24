@@ -4,18 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSView, NSWindow;
+@class NSEvent, NSGestureRecognizer, NSView, NSWindow;
 
 @protocol _NSGestureEnvironment
-- (void)latedItemViews;
+- (NSEvent *);
+- (void)copyNumberFromDeviceTree:(NSGestureRecognizer *)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSGestureRecognizer *)was issued by trusted key %d (success);
+- (NSEvent *)PearlMotionDetectionCapability;
+- (NSView *)PasswordProtected;
+- (long long)OnDeviceSiriCapability;
+- (_Bool)with status:0x%X /* Error: Ran out of types for this method. */;
+- (_Bool)#;
+- (NSWindow *)h;
+- (void)populatedItemViews;
 
 // Remaining properties
-@property(readonly) _Bool hasActiveGestureRecognizers;
-@property(readonly) _Bool hasDelayedEvents;
-@property(readonly) _Bool isGatheringActiveGestureRecognizers;
-@property long long lastPressureMTID;
-@property(readonly) NSView *latchedView;
-@property(readonly) NSEvent *latchingEvent;
 @property __weak NSWindow *window;
 @end
 

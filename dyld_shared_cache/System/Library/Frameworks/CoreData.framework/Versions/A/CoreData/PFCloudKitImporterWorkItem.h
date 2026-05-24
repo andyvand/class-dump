@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringImportRequest, PFCloudKitImporterOptions;
+@class PFCloudKitImporterOptions;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImporterWorkItem
 {
     PFCloudKitImporterOptions *_options;
-    NSCloudKitMirroringImportRequest *_request;
 }
 
 - (void);

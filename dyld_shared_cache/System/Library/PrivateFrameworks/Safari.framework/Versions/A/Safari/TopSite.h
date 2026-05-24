@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSURL, WBSHistoryItem;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TopSite
 {
     _Bool _builtIn;
-    _Bool _pinned;
-    _Bool _hasStaticTitle;
-    NSString *_urlString;
-    NSString *_title;
-    NSString *_suggestionIdentifier;
-    NSNumber *_score;
-    WBSHistoryItem *_historyItem;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)initWithStewieUserPersona:(_Bool)arg1 stewieUserPersona:conversationID:messageType: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void)0@ù
 × ;
 - (id)!°Bùq¦Ð1Â0@ù
 × ;
-- (id)nt;
-- (_Bool)rogressEntry:forWebView: /* Error: Ran out of types for this method. */;
+- (id)leadingContentConstraint;
+- (_Bool)downloadsManager:willStartDownloadAtURL:downloadProgressEntry:forWebView: /* Error: Ran out of types for this method. */;
 - (id)<DØ;
 - (id)y completed, migrating user defaults.;
 - (id)n;
@@ -41,23 +34,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isBuiltIn) _Bool builtIn; // @synthesize builtIn=_builtIn;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool hasStaticTitle; // @synthesize hasStaticTitle=_hasStaticTitle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak WBSHistoryItem *historyItem; // @synthesize historyItem=_historyItem;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(readonly, copy, nonatomic) NSString *suggestionIdentifier; // @synthesize suggestionIdentifier=_suggestionIdentifier;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

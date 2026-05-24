@@ -9,8 +9,6 @@
 @interface PXCornerMaskCacheEntry
 {
     NSImage *_image;
-    struct CGSize _size;
-    struct PXCornerRadius _cornerRadius;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct PXCornerRadius cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

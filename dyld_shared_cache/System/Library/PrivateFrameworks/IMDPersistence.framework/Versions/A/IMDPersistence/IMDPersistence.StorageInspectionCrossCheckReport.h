@@ -7,7 +7,6 @@
 @interface IMDPersistence.StorageInspectionCrossCheckReport
 {
     id comparisions;
-    id inspectionReportsURLs;
 }
 
 @end

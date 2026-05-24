@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactConfirmed
 {
     int _app;
-    int _extracted;
-    unsigned int _extractionModelVersion;
-    NSString *_key;
-    int _type;
-    int _uiType;
-    _Bool _firstNameAdj;
-    _Bool _isUpdate;
-    _Bool _lastNameAdj;
-    _Bool _middleNameAdj;
-    _Bool _selfId;
-    struct {
-        unsigned int app:1;
-        unsigned int extracted:1;
-        unsigned int extractionModelVersion:1;
-        unsigned int type:1;
-        unsigned int uiType:1;
-        unsigned int firstNameAdj:1;
-        unsigned int isUpdate:1;
-        unsigned int lastNameAdj:1;
-        unsigned int middleNameAdj:1;
-        unsigned int selfId:1;
-    } _has;
 }
 
 - (void);
@@ -74,16 +50,16 @@
 - (int);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
-- (_Bool);
+- (_Bool)iled; returning NULL;
 - (id);
 - (int);
 - (_Bool);
-- (void);
+- (void)<;
 - (id);
 - (void);
 - (id);
@@ -96,28 +72,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) unsigned int extractionModelVersion; // @synthesize extractionModelVersion=_extractionModelVersion;
-@property(nonatomic) _Bool firstNameAdj; // @synthesize firstNameAdj=_firstNameAdj;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasExtracted;
-@property(nonatomic) _Bool hasExtractionModelVersion;
-@property(nonatomic) _Bool hasFirstNameAdj;
-@property(nonatomic) _Bool hasIsUpdate;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasLastNameAdj;
-@property(nonatomic) _Bool hasMiddleNameAdj;
-@property(nonatomic) _Bool hasSelfId;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasUiType;
-@property(nonatomic) _Bool isUpdate; // @synthesize isUpdate=_isUpdate;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool lastNameAdj; // @synthesize lastNameAdj=_lastNameAdj;
-@property(nonatomic) _Bool middleNameAdj; // @synthesize middleNameAdj=_middleNameAdj;
-@property(nonatomic) _Bool selfId; // @synthesize selfId=_selfId;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) int uiType; // @synthesize uiType=_uiType;
 
 @end
 

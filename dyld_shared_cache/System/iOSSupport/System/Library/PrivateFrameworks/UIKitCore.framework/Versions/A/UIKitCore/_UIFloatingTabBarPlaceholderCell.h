@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (void);
-- (id);
+- (id)writes completed sucess:%@ error %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)tream] id=%{public}@;
 - (void)!4Bù1\1Â0@ù
 × ;
-- (id)ost;
+- (id)_currentHost;
 
 @end
 

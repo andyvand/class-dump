@@ -11,7 +11,7 @@
     PPXPCClientHelper *_clientHelper;
 }
 
-+ (id);
++ (id)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool)ying;
+- (_Bool)NSCopying;
 
 @end
 

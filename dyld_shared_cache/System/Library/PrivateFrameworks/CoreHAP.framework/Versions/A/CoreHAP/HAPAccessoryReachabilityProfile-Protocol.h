@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristic;
-
 @protocol HAPAccessoryReachabilityProfile
 
 // Remaining properties
-@property(readonly, nonatomic) HAPCharacteristic *pollCharacteristic;
 @property(nonatomic) double sleepInterval;
-@property(readonly, nonatomic) HAPCharacteristic *sleepIntervalCharacteristic;
 @end
 

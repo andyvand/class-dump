@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODataURLSession, GEODataURLSessionTask, NSString;
+@class GEODataURLSession;
 
 __attribute__((visibility("hidden")))
 @interface GEODataURLSessionWaiter
 {
     GEODataURLSession *_session;
-    GEODataURLSessionTask *_task;
-    CDUnknownBlockType _handler;
-    id _strongReferenceToSelf;
 }
 
-- (void);
-- (id);
+- (void)to query admin group members:(id)arg1 %@;
+- (id)0@?0@"NSError"8B16;
 - (void);
 - (void)Û%;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStoreCacheGroup, NSString, NSUUID;
+@class HMDBackingStoreCacheGroup, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchRecordMappingResult
 {
     NSString *_recordName;
-    NSUUID *_uuid;
-    NSUUID *_parentUuid;
-    NSString *_type;
-    HMDBackingStoreCacheGroup *_group;
 }
 
 - (id);
@@ -26,18 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)Åèþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *parentUuid; // @synthesize parentUuid=_parentUuid;
-@property(readonly, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

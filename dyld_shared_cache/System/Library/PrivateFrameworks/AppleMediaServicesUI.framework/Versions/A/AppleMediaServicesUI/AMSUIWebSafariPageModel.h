@@ -6,79 +6,43 @@
 
 #import <AppleMediaServicesUI/AMSUIWebModel.h>
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebLoadingPageModel, AMSUIWebNavigationBarModel, NSDictionary, NSString, NSURL;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebSafariPageModel : AMSUIWebModel
 {
     _Bool _hideToolBar;
-    _Bool _showShareButton;
-    _Bool _hideRefreshButton;
-    NSString *_backgroundColor;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    NSString *_callbackScheme;
-    NSDictionary *_data;
-    AMSUIWebLoadingPageModel *_loadingModel;
-    NSURL *_URL;
-    AMSUIWebClientContext *_context;
-    struct CGSize _windowSize;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)for query:(id)arg1 %{public}@;
+- (void)s in progress for query:(_Bool)arg1 (%{public}@);
+- (void):(id)arg1 %{public}@ added for assertion:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ed for %{public}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)eate trial asset for url attributes missing:%@ /* Error: Ran out of types for this method. */;
+- (id)face is nil for asset type:(id)arg1 %@;
+- (_Bool)%d, cO:%d, %@> /* Error: Ran out of types for this method. */;
+- (_Bool)y:%@, locO:%d, iO:%d, latO:%d, cO:%d, %@> /* Error: Ran out of types for this method. */;
+- (_Bool)ace"16@?0@"NSString"8;
 - (id);
 - (id);
-- (id);
+- (void)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
+- (id)sB;
+- (id)H;
+- (void)owItem};
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)*<;
 - (void)r"12;
-- (id)ingView;
+- (id)AMSUITouchForwardingView;
 - (long long)=y%§=GQo_;
-- (id)SUIMarketingItem;
+- (id)AMSUIMarketingItem;
 - (struct CGSize);
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) NSString *callbackScheme; // @synthesize callbackScheme=_callbackScheme;
 @property(readonly) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(readonly) unsigned long long hash;
-@property _Bool hideRefreshButton; // @synthesize hideRefreshButton=_hideRefreshButton;
-@property _Bool hideToolBar; // @synthesize hideToolBar=_hideToolBar;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(retain) AMSUIWebLoadingPageModel *loadingModel; // @synthesize loadingModel=_loadingModel;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property _Bool showShareButton; // @synthesize showShareButton=_showShareButton;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

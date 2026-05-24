@@ -6,30 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAAdvertisementData : SISchemaInstrumentationMessage
 {
     unsigned int _audioHash;
-    unsigned int _goodnessScore;
-    unsigned int _confidenceScore;
-    unsigned int _deviceClass;
-    unsigned int _deviceGroup;
-    unsigned int _productType;
-    unsigned int _tieBreaker;
-    _Bool _isFromContextCollector;
-    _Bool _isSelf;
-    struct {
-        unsigned int audioHash:1;
-        unsigned int goodnessScore:1;
-        unsigned int confidenceScore:1;
-        unsigned int deviceClass:1;
-        unsigned int deviceGroup:1;
-        unsigned int productType:1;
-        unsigned int tieBreaker:1;
-        unsigned int isFromContextCollector:1;
-        unsigned int isSelf:1;
-    } _has;
 }
 
 - (void);
@@ -44,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -63,15 +42,15 @@
 - (void);
 - (unsigned int);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)Array"16@"JSValue"24;
+- (void)9;
 - (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -79,8 +58,8 @@
 - (_Bool);
 - (id);
 - (id)b1"trumpReason"b1"psdScore"b1"mediaState"b1"alarmState"b1"timerState"b1"timeSinceLastWinInMilliseconds"b1"triggerType"b1"timeSinceTriggerInMilliseconds"b1"isNearMiss"b1};
-- (unsigned int)s: /* Error: Ran out of types for this method. */;
-- (id)ntEventMetadata;
+- (unsigned int)setHits: /* Error: Ran out of types for this method. */;
+- (id)ASRSpeechProfileSchemaASRSpeechProfileClientEventMetadata;
 - (id)Ühÿÿøhÿÿiÿÿ0iÿÿLiÿÿhiÿÿiÿÿ iÿÿ¼iÿÿØiÿÿôiÿÿjÿÿ,jÿÿHjÿÿdjÿÿjÿÿjÿÿ¸jÿÿÔjÿÿðjÿÿkÿÿ(kÿÿDkÿÿ`kÿÿ|kÿÿkÿÿ´kÿÿÐkÿÿìkÿÿlÿÿ$lÿÿ@lÿÿ\lÿÿxlÿÿlÿÿ°lÿÿÌlÿÿèlÿÿmÿÿ mÿÿ<mÿÿXmÿÿtmÿÿmÿÿ¬mÿÿÈmÿÿämÿÿ;
 - (void)Ú(;
 - (_Bool);
@@ -89,24 +68,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int audioHash; // @synthesize audioHash=_audioHash;
-@property(nonatomic) unsigned int confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) unsigned int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) unsigned int deviceGroup; // @synthesize deviceGroup=_deviceGroup;
-@property(nonatomic) unsigned int goodnessScore; // @synthesize goodnessScore=_goodnessScore;
-@property(nonatomic) _Bool hasAudioHash;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasDeviceGroup;
-@property(nonatomic) _Bool hasGoodnessScore;
-@property(nonatomic) _Bool hasIsFromContextCollector;
-@property(nonatomic) _Bool hasIsSelf;
-@property(nonatomic) _Bool hasProductType;
-@property(nonatomic) _Bool hasTieBreaker;
-@property(nonatomic) _Bool isFromContextCollector; // @synthesize isFromContextCollector=_isFromContextCollector;
-@property(nonatomic) _Bool isSelf; // @synthesize isSelf=_isSelf;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int productType; // @synthesize productType=_productType;
-@property(nonatomic) unsigned int tieBreaker; // @synthesize tieBreaker=_tieBreaker;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatAdMetricsView
 {
     id identifier;
-    id contentView;
-    id metricsView;
-    id privacyMarker;
-    id onCollapse;
 }
 
 - (void);

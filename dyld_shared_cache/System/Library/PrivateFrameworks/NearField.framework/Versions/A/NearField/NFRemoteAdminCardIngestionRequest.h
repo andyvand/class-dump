@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NFRemoteAdminCardIngestionRequest
 {
     NSString *_serverIdentifier;
-    NSString *_uri;
-    NSString *_sessionToken;
-    NSDictionary *_cardServiceInfo;
-    unsigned long long _maxDetectionTimeout;
 }
 
 + (id);
 + (_Bool);
-- (void);
-- (void);
+- (void)kABConverterEndNotification;
+- (void)amework/Contents/MacOS/CoreSpotlight;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)N,V_gmsPrivateCloudMetrics;
 - (id);
 - (id);
 - (id);
@@ -32,11 +28,7 @@
 - (id)nnectionHandoverInitiator readerSession:didDetectTags:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *cardServiceInfo; // @synthesize cardServiceInfo=_cardServiceInfo;
-@property(nonatomic) unsigned long long maxDetectionTimeout; // @synthesize maxDetectionTimeout=_maxDetectionTimeout;
 @property(retain, nonatomic) NSString *serverIdentifier; // @synthesize serverIdentifier=_serverIdentifier;
-@property(retain, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
-@property(retain, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

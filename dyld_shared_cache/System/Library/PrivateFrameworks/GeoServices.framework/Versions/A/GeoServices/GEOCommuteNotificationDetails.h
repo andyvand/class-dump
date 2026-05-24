@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEOCommuteNotificationDetails
 {
     NSString *_title;
-    NSString *_message;
-    NSString *_commuteDetailsIdentifier;
-    NSDate *_expirationDate;
-    long long _score;
 }
 
 + (_Bool)ind tile set for style %d;
+- (id)cgpointHash:(id)arg1;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id).AdBlockerAssets.ma.new-asset-installed;
 - (void);
-- (id)yleAttributes;
-- (long long)E_LOW_POWER_MODE;
-- (id)tionSec;
-- (id)ata;
+- (id)schoolStyleAttributes;
+- (long long)DISABLED_REASON_DEVICE_LOW_POWER_MODE;
+- (id)durationSec;
+- (id)poi_busyness_data;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *commuteDetailsIdentifier; // @synthesize commuteDetailsIdentifier=_commuteDetailsIdentifier;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) long long score; // @synthesize score=_score;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

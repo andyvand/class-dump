@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXMDisplay
 {
     _Bool _supportsDeepColor;
-    NSString *_name;
-    double _scale;
-    double _orientation;
-    long long _physicalOrientation;
-    long long _backingType;
-    struct CGSize _size;
-    struct CGRect _referenceBounds;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)|;
+- (void)[|;
 - (void);
 - (long long);
 - (struct CGRect);
 - (struct CGPoint);
 - (id);
 - (long long);
-- (void);
+- (void)n;
 - (id);
 - (id);
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (double);
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)ateFrameworks/CoreFollowUp.framework/Contents/MacOS/CoreFollowUp;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long backingType; // @synthesize backingType=_backingType;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) long long physicalOrientation; // @synthesize physicalOrientation=_physicalOrientation;
-@property(nonatomic) struct CGRect referenceBounds; // @synthesize referenceBounds=_referenceBounds;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) _Bool supportsDeepColor; // @synthesize supportsDeepColor=_supportsDeepColor;
 
 @end
 

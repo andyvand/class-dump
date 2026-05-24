@@ -11,10 +11,10 @@
     TRIClient *_client;
 }
 
-- (void);
+- (void)isSpatialPhotoBackground;
+- (id)encodeFile:(id)arg1 destination:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)4+;
 - (void)0@ù
 × ;
 

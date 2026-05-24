@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)ns/A/Email;
 
 // Remaining properties
 @property(retain) SigningPublicKey *signingKey; // @synthesize signingKey=_signingKey;

@@ -4,61 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAnalyticMetadata, GEOPDClientMetadata, GEOPDPlaceRequestParameters, GEOPrivacyMetadata, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDPlaceRequest
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAnalyticMetadata *_analyticMetadata;
-    NSMutableArray *_auxiliaryTierRequestedComponents;
-    GEOPDClientMetadata *_clientMetadata;
-    NSMutableArray *_displayLanguages;
-    NSString *_displayRegion;
-    NSData *_handleData;
-    NSMutableArray *_partiallyComposedSearchResultRequestedComponents;
-    GEOPDPlaceRequestParameters *_placeRequestParameters;
-    GEOPrivacyMetadata *_privacyMetadata;
-    NSMutableArray *_requestedComponents;
-    NSMutableArray *_spokenLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestType;
-    _Bool _needLatency;
-    _Bool _suppressResultsRequiringAttribution;
-    struct {
-        unsigned int has_requestType:1;
-        unsigned int has_needLatency:1;
-        unsigned int has_suppressResultsRequiringAttribution:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_analyticMetadata:1;
-        unsigned int read_auxiliaryTierRequestedComponents:1;
-        unsigned int read_clientMetadata:1;
-        unsigned int read_displayLanguages:1;
-        unsigned int read_displayRegion:1;
-        unsigned int read_handleData:1;
-        unsigned int read_partiallyComposedSearchResultRequestedComponents:1;
-        unsigned int read_placeRequestParameters:1;
-        unsigned int read_privacyMetadata:1;
-        unsigned int read_requestedComponents:1;
-        unsigned int read_spokenLanguages:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (id);
++ (Class)setWakeGestureTimestamp: /* Error: Ran out of types for this method. */;
++ (id)[CSVoiceTriggerSecondPass _calculateRecordingTimeForAOPTriggerFromFirstPassInfo:(unsigned long long)arg1 completion:(id)arg2 ];
 + (id);
 + (id);
 + (id);
 + (id)A'!¨Gù·*1Â0@ù
 × ;
-+ (_Bool)eUploadParameters:(id)arg1;
++ (_Bool)setImageUploadParameters:(id)arg1;
 + (Class)8ô;
 - (void);
 - (id);
@@ -71,7 +35,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
@@ -79,7 +43,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (_Bool);
@@ -104,17 +68,17 @@
 - (id);
 - (void);
 - (id);
+- (int)D;
+- (id);
+- (void);
+- (void);
+- (void)_updateFromRemoteToLocalAssets:forAssetType:completion: /* Error: Ran out of types for this method. */;
+- (id)_hearstNumberOfSamplesPerChunk;
+- (void)dPass[%{public}@]:(id)arg1 Failed to create SSR controller with error %@;
+- (void);
+- (void);
 - (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
+- (id)H;
 - (id);
 - (int);
 - (unsigned long long);
@@ -125,28 +89,29 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)factor dimension (%d).
+;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)m;
 - (id);
 - (void);
+- (id)out %lld/%lld) last (in %lld/%lld out %lld/%lld)]start get input;
+- (unsigned int)ed%{sensitive, mask.hash, networkextension:string}.*P (app info ref %X pid %d for %s) %s - %s /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned int);
+- (id)%lu;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (int);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)"24;
+- (id)localizedTitleForIncidentType:(id)arg1 laneType:(id)arg2 laneCount: /* Error: Ran out of types for this method. */;
+- (id)collisionMode;
+- (id)URLForTilePath:(id)arg1 keyframeIndex:(_Bool)arg2;
 - (id);
 - (id);
 - (unsigned long long);
@@ -158,15 +123,15 @@
 - (id);
 - (id);
 - (void);
+- (id)B;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void)1Â0@ù
@@ -186,22 +151,22 @@
 - (id)ld"b1};
 - (_Bool)etAbStatus"b1"read_debugApiKey"b1"read_displayLanguages"b1"read_displayRegion"b1"read_dotPlaces"b1"read_globalResult"b1"read_mapsResults"b1"read_legacyPlaceResults"b1"read_spokenLanguages"b1"wrote_anyField"b1};
 - (void)ionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)herShown: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)lConnections;
+- (id)setHasMapUiShownWeatherShown: /* Error: Ran out of types for this method. */;
+- (void)setHasHotspot20:(id)arg1;
+- (id)hasSuccessfulConnections;
 - (id)_intersectedRoadsInAdjacentTile:tileBorderPoint:junction:desiredRoadDirectionality:muid:requireExactMuidMatch:featuresToIgnore:shouldStop: /* Error: Ran out of types for this method. */;
-- (void)ation:(_Bool)arg1;
+- (void)StringAsDeviceInterfaceOrientation:(_Bool)arg1;
 - (id)¨ª0¬ ¬­;
 - (_Bool)¸d¹Øº\»d¼(¾ø¿;
 - (id)|Ý;
 - (void).;
-- (unsigned long long)ARD;
-- (id)nstruction;
-- (_Bool)sult;
-- (id)ork_for_ranking;
-- (id)URS;
-- (id)PE_ARRIVAL_ENTRY_POINT;
-- (void)uble;
+- (unsigned long long)MSG_WEATHER_TYPE_CONDITION_BLIZZARD;
+- (id)transit_sign_instruction;
+- (_Bool)popularNearbySearchResult;
+- (id)enable_maps_intelligence_framework_for_ranking;
+- (id)LINKED_SERVICE_HOURS;
+- (id)DIRECTIONS_CORRECTION_TYPE_ARRIVAL_ENTRY_POINT;
+- (void)SetRepeatedDouble;
 - (void)¨ä;
 - (int);
 - (void)È¸;
@@ -238,30 +203,7 @@
 - (id)[ÿ¿;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAnalyticMetadata *analyticMetadata;
-@property(retain, nonatomic) NSMutableArray *auxiliaryTierRequestedComponents;
-@property(retain, nonatomic) GEOPDClientMetadata *clientMetadata;
-@property(retain, nonatomic) NSMutableArray *displayLanguages;
-@property(retain, nonatomic) NSString *displayRegion;
-@property(retain, nonatomic) NSData *handleData;
-@property(readonly, nonatomic) _Bool hasAnalyticMetadata;
-@property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasDisplayRegion;
-@property(readonly, nonatomic) _Bool hasHandleData;
 @property(nonatomic) _Bool hasNeedLatency;
-@property(readonly, nonatomic) _Bool hasPlaceRequestParameters;
-@property(readonly, nonatomic) _Bool hasPrivacyMetadata;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasSuppressResultsRequiringAttribution;
-@property(nonatomic) _Bool needLatency;
-@property(retain, nonatomic) NSMutableArray *partiallyComposedSearchResultRequestedComponents;
-@property(retain, nonatomic) GEOPDPlaceRequestParameters *placeRequestParameters;
-@property(retain, nonatomic) GEOPrivacyMetadata *privacyMetadata;
-@property(nonatomic) int requestType;
-@property(retain, nonatomic) NSMutableArray *requestedComponents;
-@property(retain, nonatomic) NSMutableArray *spokenLanguages;
-@property(nonatomic) _Bool suppressResultsRequiringAttribution;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

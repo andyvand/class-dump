@@ -20,12 +20,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (int);
+- (id)L;
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chStrokeIdentifiers;
-@property(readonly, nonatomic) NSArray *replacementStrings;
 
 @end
 

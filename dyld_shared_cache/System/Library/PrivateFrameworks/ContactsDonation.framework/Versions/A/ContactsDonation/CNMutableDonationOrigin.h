@@ -6,7 +6,7 @@
 
 #import <ContactsDonation/CNDonationOrigin.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CNMutableDonationOrigin : CNDonationOrigin
 {
@@ -14,7 +14,7 @@
 
 + (id);
 - (void);
-- (void);
+- (void)_separator;
 - (id);
 - (void);
 - (id);
@@ -23,10 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(copy, nonatomic) NSString *clusterIdentifier; // @dynamic clusterIdentifier;
-@property(copy, nonatomic) NSDate *donationDate; // @dynamic donationDate;
-@property(copy, nonatomic) NSString *donationIdentifier; // @dynamic donationIdentifier;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
 
 @end
 

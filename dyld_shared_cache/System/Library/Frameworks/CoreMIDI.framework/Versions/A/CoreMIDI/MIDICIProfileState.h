@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MIDICIProfileState
 {
     unsigned char midiChannel;
-    NSArray *enabledProfiles;
-    NSArray *disabledProfiles;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)rPlayActive;
 - (void);
 - (id);
 - (id);
@@ -29,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *disabledProfiles; // @synthesize disabledProfiles;
-@property(readonly, nonatomic) NSArray *enabledProfiles; // @synthesize enabledProfiles;
 @property(readonly, nonatomic) unsigned char midiChannel; // @synthesize midiChannel;
 
 @end

@@ -7,7 +7,7 @@
 @class NSData, NSNumber, NSString;
 
 @protocol HMCache
-- (NSData *)s;
+- (NSData *)_presenceComputeStatus;
 - (NSNumber *)e.m;
 - (void)0@"NSNull"8;
 

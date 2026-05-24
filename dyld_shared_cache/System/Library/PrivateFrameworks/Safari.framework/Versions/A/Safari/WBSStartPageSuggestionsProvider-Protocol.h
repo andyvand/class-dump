@@ -5,14 +5,12 @@
 //
 
 @class NSArray, NSString;
-@protocol WBSStartPageSuggestionsProviderDelegate;
 
 @protocol WBSStartPageSuggestionsProvider
+- (id);
 - (NSArray *).apple.Safari.BookmarkLoadWaiting;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *providerSectionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(nonatomic) __weak id <WBSStartPageSuggestionsProviderDelegate> suggestionsProviderDelegate;
 @end
 

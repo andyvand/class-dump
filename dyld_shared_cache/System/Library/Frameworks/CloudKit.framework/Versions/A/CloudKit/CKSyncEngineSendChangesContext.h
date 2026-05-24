@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSyncEngineSendChangesOptions, NSString;
-
 @interface CKSyncEngineSendChangesContext
 {
     long long _reason;
-    CKSyncEngineSendChangesOptions *_options;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (long long);
+- (id));
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)nsOperationInfo;
+- (void)C16@0:(id)arg1 8;
+- (void)CKFetchRecordVersionsOperationInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) CKSyncEngineSendChangesOptions *options; // @synthesize options=_options;
 @property(readonly) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

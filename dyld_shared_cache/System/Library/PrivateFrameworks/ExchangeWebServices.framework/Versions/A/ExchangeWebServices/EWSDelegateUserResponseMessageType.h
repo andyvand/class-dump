@@ -15,8 +15,8 @@
 
 + (id);
 - (void);
-- (id);
-- (void);
+- (id)kB;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSDelegateUserType *DelegateUser; // @synthesize DelegateUser=_DelegateUser;

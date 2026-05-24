@@ -7,10 +7,6 @@
 @interface ChatKit.ConversationNameTitleView.Configuration
 {
     id _title;
-    id _subtitle;
-    id _showsPlatter;
-    id _wantsChevron;
-    id _$observationRegistrar;
 }
 
 @end

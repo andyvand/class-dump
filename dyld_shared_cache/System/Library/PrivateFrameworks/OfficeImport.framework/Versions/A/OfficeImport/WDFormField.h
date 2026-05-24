@@ -6,36 +6,29 @@
 
 #import <OfficeImport/WDRun.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WDFormField : WDRun
 {
     unsigned int mPosition;
-    _Bool mLinkAbsolute;
-    _Bool mLinkSpecifyingNamedLocation;
-    NSString *mNamedLocation;
-    NSString *mURI;
-    NSString *mMacName;
-    NSString *mDosName;
 }
 
-- (void);
-- (void);
+- (void)	
+k;
+- (void)k;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id));
 - (unsigned int);
 - (void);
-- (void)veUnnecessaryOverrides;
+- (void)removeUnnecessaryOverrides;
 - (void)nvariant;
 - (id);
 

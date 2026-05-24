@@ -4,63 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAssetDownloadingOption, CSPolicy, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CSPolicy, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSAssetManager
 {
     CSPolicy *_enablePolicy;
-    NSString *_currentLanguageCode;
-    CSAssetDownloadingOption *_downloadingOption;
-    NSMutableDictionary *_observers;
-    NSObject<OS_dispatch_source> *_downloadTimer;
-    long long _downloadTimerCount;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)ueIdentifier;
 - (void);
+- (void)%@;
+- (id);
+- (void)Set";
+- (void)secureTemporarySubdirectoryWithName:(id)arg1;
 - (id);
 - (void);
 - (void);
+- (void)generateScaledMaskForImageForInstances:(id)arg1 fromRequestHandler:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)nt;
+- (void);
+- (id);
+- (void)_vtEndInSampleCount;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currentLanguageCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

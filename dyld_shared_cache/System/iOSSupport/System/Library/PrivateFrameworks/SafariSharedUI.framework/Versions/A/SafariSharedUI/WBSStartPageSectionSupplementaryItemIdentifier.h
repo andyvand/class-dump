@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)entifier;
 - (_Bool);
 - (void)eemphasizedText:attributesForHTTPSProtocol: /* Error: Ran out of types for this method. */;
 

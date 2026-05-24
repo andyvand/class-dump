@@ -11,9 +11,9 @@
 }
 
 - (id);
+- (id)S;
 - (id);
-- (id);
-- (void);
+- (void)d signature. Error = %{public}@;
 - (unsigned int);
 
 // Remaining properties

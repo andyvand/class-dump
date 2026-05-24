@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedCachedUserReview
@@ -15,12 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) long long muid; // @dynamic muid;
-@property(nonatomic) int numberPhotosUploaded; // @dynamic numberPhotosUploaded;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic) short rating; // @dynamic rating;
 
 @end
 

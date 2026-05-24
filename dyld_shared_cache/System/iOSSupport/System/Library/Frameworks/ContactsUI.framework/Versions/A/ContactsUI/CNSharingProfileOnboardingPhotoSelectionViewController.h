@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNMutableContact, CNPhotoPickerViewController, CNSharingProfileAvatarItemProviderConfiguration, CNSharingProfileLogger, CNSharingProfilePhotoPickerViewController, NSString, OBBoldTrayButton, OBLinkTrayButton;
-@protocol AVTAvatarRecord, CNSharingProfileOnboardingPhotoSelectionViewControllerDelegate;
+@class CNContact;
+@protocol CNSharingProfileOnboardingPhotoSelectionViewControllerDelegate;
 
 @interface CNSharingProfileOnboardingPhotoSelectionViewController
 {
     id <CNSharingProfileOnboardingPhotoSelectionViewControllerDelegate> _delegate;
-    CNContact *_contact;
-    id <AVTAvatarRecord> _avatarRecord;
-    CNSharingProfileAvatarItemProviderConfiguration *_avatarItemProviderConfiguration;
-    CNSharingProfileLogger *_logger;
-    OBLinkTrayButton *_setupLaterButton;
-    OBBoldTrayButton *_backButton;
-    OBBoldTrayButton *_confirmButton;
-    CNSharingProfilePhotoPickerViewController *_sharingPhotoPickerViewController;
-    CNPhotoPickerViewController *_photoPickerViewController;
-    CNMutableContact *_photoProviderContact;
 }
 
-+ (id)ection: /* Error: Ran out of types for this method. */;
++ (id)shouldDisplaySupplementaryHeaderItemForSection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -33,49 +23,32 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9k;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)h>;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)tch_queueCGALG;
 - (id);
 - (void);
-- (id)g;
 - (void);
-- (id)el;
+- (id)x_threads;
+- (void);
+- (id)endEditing;
+- (void)actionsManagerForContacts: /* Error: Ran out of types for this method. */;
+- (id)Carousel;
 - (id);
 - (void))Ä"(;
 
 // Remaining properties
-@property(retain, nonatomic) CNSharingProfileAvatarItemProviderConfiguration *avatarItemProviderConfiguration; // @synthesize avatarItemProviderConfiguration=_avatarItemProviderConfiguration;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) OBBoldTrayButton *backButton; // @synthesize backButton=_backButton;
-@property(retain, nonatomic) OBBoldTrayButton *confirmButton; // @synthesize confirmButton=_confirmButton;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CNSharingProfileOnboardingPhotoSelectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNSharingProfileLogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) CNPhotoPickerViewController *photoPickerViewController; // @synthesize photoPickerViewController=_photoPickerViewController;
-@property(retain, nonatomic) CNMutableContact *photoProviderContact; // @synthesize photoProviderContact=_photoProviderContact;
-@property(retain, nonatomic) OBLinkTrayButton *setupLaterButton; // @synthesize setupLaterButton=_setupLaterButton;
-@property(retain, nonatomic) CNSharingProfilePhotoPickerViewController *sharingPhotoPickerViewController; // @synthesize sharingPhotoPickerViewController=_sharingPhotoPickerViewController;
-@property(readonly) Class superclass;
 
 @end
 

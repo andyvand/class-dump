@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIWindow;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface UICoreKeyboardTracking
 {
     UIWindow *_window;
-    NSMutableArray *_elements;
-    struct CGSize _trackingSize;
 }
 
-+ (id);
++ (id)Marking nickname %@ as current for handle %@;
 + (void);
 + (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize){public}s] registering for throughput tracking for flag %{public}s;
+- (void)andling chat-clear, could not find chat by GUID:(struct CGSize)arg1 %@;
 - (void);
 - (id);
 - (id)!GùQ^Ð1Â0@ù
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (id)JÕÌk;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *elements; // @synthesize elements=_elements;
-@property(nonatomic) struct CGSize trackingSize; // @synthesize trackingSize=_trackingSize;
 @property(readonly, nonatomic) __weak UIWindow *window; // @synthesize window=_window;
 
 @end

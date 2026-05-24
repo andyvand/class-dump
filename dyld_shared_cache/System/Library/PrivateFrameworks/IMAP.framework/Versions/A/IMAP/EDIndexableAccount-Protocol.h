@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAccount;
-
 @protocol EDIndexableAccount
 - (_Bool)oð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) ECAccount *baseAccount;
 @property(readonly, nonatomic, getter=isManaged) _Bool managed;
 @end
 

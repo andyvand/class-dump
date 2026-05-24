@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSValue, UIBezierPath, UISelectionGrabberCustomPath, UITextSelectionRectCustomHandleInfo, UITextSelectionRectImpl;
+@class NSValue, UITextSelectionRectImpl;
 
 @interface UITextSelectionRect
 {
@@ -12,32 +12,17 @@
     double _baselineOffset;
 }
 
-+ (id);
-+ (_Bool);
-+ (struct CGRect);
-+ (id);
++ (id)trieving %llu file transfers (%@);
++ (_Bool)fer %@ is in thumbnail state, not retrieving;
++ (struct CGRect)guid;
++ (id)andleFileTransfer accepted %@;
 + (id);
 + (_Bool);
 + (struct CGRect);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextSelectionRectCustomHandleInfo *_customHandleInfo;
-@property(readonly, nonatomic) _Bool _drawsOwnHighlight;
-@property(readonly, nonatomic) UISelectionGrabberCustomPath *_endCustomSelectionPath;
-@property(readonly, nonatomic) struct CGRect _endEdgeRect;
-@property(readonly, nonatomic) UIBezierPath *_path;
-@property(readonly, nonatomic) UISelectionGrabberCustomPath *_startCustomSelectionPath;
-@property(readonly, nonatomic) struct CGRect _startEdgeRect;
-@property(retain, nonatomic, setter=_setTransform:) NSValue *_transform; // @synthesize _transform=_legacyTransform;
-@property(nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(readonly, nonatomic) _Bool containsEnd;
-@property(readonly, nonatomic) _Bool containsStart;
 @property(readonly, nonatomic, getter=_isImpl) UITextSelectionRectImpl *isImpl;
-@property(readonly, nonatomic) _Bool isVertical;
-@property(readonly, nonatomic) struct CGRect rect;
-@property(readonly, nonatomic) struct CGAffineTransform transform;
-@property(readonly, nonatomic) long long writingDirection;
 
 @end
 

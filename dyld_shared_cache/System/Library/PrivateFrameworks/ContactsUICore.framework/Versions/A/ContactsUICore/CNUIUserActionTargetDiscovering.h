@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionTargetDiscoveryCache, NSDictionary, NSString;
-@protocol CNCapabilities, CNLSApplicationWorkspace, CNMCProfileConnection, CNSchedulerProvider, CNTUCallProviderManager;
+@protocol CNLSApplicationWorkspace;
 
 @interface CNUIUserActionTargetDiscovering
 {
     id <CNLSApplicationWorkspace> _applicationWorkspace;
-    id <CNTUCallProviderManager> _callProviderManager;
-    id <CNMCProfileConnection> _profileConnection;
-    id <CNCapabilities> _capabilities;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNSchedulerProvider> _highLatencySchedulerProvider;
-    CNUIUserActionTargetDiscoveryCache *_cache;
-    NSDictionary *_defaultMessagingAppsBundleIdentifierScorerCache;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)C;
 - (id);
 - (id);
 - (id);
@@ -43,43 +35,29 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)?;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id)setDataclassTableViewHeight: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
+- (id)tyStartDelay;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ctCardViewControllerActionDelegate>",W,N,V_actionDelegate;
 - (void)0@0:8@16Q24@32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;
-@property(readonly, nonatomic) CNUIUserActionTargetDiscoveryCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) id <CNTUCallProviderManager> callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, nonatomic) id <CNCapabilities> capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSDictionary *defaultMessagingAppsBundleIdentifierScorerCache; // @synthesize defaultMessagingAppsBundleIdentifierScorerCache=_defaultMessagingAppsBundleIdentifierScorerCache;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNSchedulerProvider> highLatencySchedulerProvider; // @synthesize highLatencySchedulerProvider=_highLatencySchedulerProvider;
-@property(readonly, nonatomic) id <CNMCProfileConnection> profileConnection; // @synthesize profileConnection=_profileConnection;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

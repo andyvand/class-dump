@@ -6,26 +6,22 @@
 
 #import <PassKitCore/PKSharingChannelDescriptor.h>
 
-@class NSString;
-
 @interface PKSharingProximityChannelDescriptor : PKSharingChannelDescriptor
 {
     unsigned long long _group;
-    NSString *_sessionIdentifier;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)tialWithPaymentPass:completion: /* Error: Ran out of types for this method. */;
+- (void)_txPacketBurstSizes;
+- (unsigned long long)_updateCredentialWithPaymentPass:completion: /* Error: Ran out of types for this method. */;
 - (void)text:'%@';> /* Error: Ran out of types for this method. */;
 - (id)deviceSignatureRequirements;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

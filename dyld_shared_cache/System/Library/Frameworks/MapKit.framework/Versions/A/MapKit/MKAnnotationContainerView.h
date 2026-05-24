@@ -4,59 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotationView, MKPinAnnotationView, MKPriorityToIndexMap, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSString;
-@protocol MKAnnotationContainerViewDelegate;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface MKAnnotationContainerView
 {
     NSMutableOrderedSet *_annotationViews;
-    NSMutableDictionary *_clusteringAnnotationViews;
-    NSMutableArray *_customFeatureDataSourceObservers;
-    NSMutableArray *_awaitingDropPins;
-    MKAnnotationView *_selectedAnnotationView;
-    MKAnnotationView *_annotationViewToSelect;
-    id <MKAnnotationContainerViewDelegate> _delegate;
-    MKAnnotationView *_draggingAnnotationView;
-    struct CGPoint _previousMouseDragPoint;
-    double _previousMouseDragTimeStamp;
-    struct CGPoint _mouseDownPoint;
-    struct CGPoint _draggingAnnotationViewCenter;
-    unsigned long long _mapType;
-    _Bool _clickedOnAnnotationView;
-    _Bool _didDragAnnotationView;
-    MKAnnotationView *_userLocationView;
-    double _annotationViewsRotationRadians;
-    struct CGAffineTransform _mapTransform;
-    _Bool _suppressCallout;
-    NSMutableArray *_pinsToAnimate;
-    double _mapPitchRadians;
-    CDStruct_0a13ab6d _mapDisplayStyle;
-    _Bool _suppress;
-    _Bool _isUpdating;
-    double _lastUpdate;
-    NSMutableDictionary *_clusterableAnnotationViews;
-    NSMutableArray *_requiredPriorityAnnotationViews;
-    NSMutableSet *_collidableAnnotationViews;
-    NSMutableDictionary *_collidingAnnotationViews;
-    NSMutableDictionary *_existingClusterAnnotationViews;
-    MKPriorityToIndexMap *_priorityMap;
-    NSMutableSet *_prioritiesToAdd;
 }
 
 - (void);
-- (id);
+- (id)@9H;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (unsigned char);
 - (void);
@@ -64,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -76,18 +44,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)l;
 - (struct CLLocationCoordinate2D);
 - (id);
 - (_Bool);
 - (id);
+- (id)6;
 - (id);
-- (id);
+- (void)ion;
+- (void)Foundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)__TEXT;
 - (_Bool);
 - (void);
 - (struct CGRect);
@@ -98,62 +66,47 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)8@?56;
+- (_Bool)4@32@40B48@?52;
+- (_Bool)Q32Q40;
+- (void)4;
+- (id)triggerThresholdValues: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)�(;
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (CDStruct_02837cd9);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (CDStruct_2f492f29);
 - (_Bool);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)summaryPropertyForMatchInfo:(struct CGSize)arg1;
 - (id);
+- (void)orary store at %s.;
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)CSP2P_VoiceProfileOnboardTimeStamp_Key;
 - (void);
 - (void)1*°1Â0@ù
 × ;
 - (unsigned char)";
-- (void)aultPerformer;
+- (void)defaultPerformer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableOrderedSet *annotationViews;
-@property(readonly, nonatomic) MKPinAnnotationView *bubblePin;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKAnnotationContainerViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MKAnnotationView *draggingAnnotationView;
-@property(readonly, nonatomic) _Bool hasDroppingPins;
-@property(readonly, nonatomic) _Bool hasPendingAnimations;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long mapType;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressCallout; // @synthesize suppressCallout=_suppressCallout;
-@property(readonly, nonatomic) MKAnnotationView *userLocationView;
 
 @end
 

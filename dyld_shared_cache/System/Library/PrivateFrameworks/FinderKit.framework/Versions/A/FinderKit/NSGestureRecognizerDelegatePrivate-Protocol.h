@@ -5,5 +5,8 @@
 //
 
 @protocol NSGestureRecognizerDelegatePrivate
+
+@optional
+- (_Bool);
 @end
 

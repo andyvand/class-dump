@@ -7,26 +7,20 @@
 @interface GEOPrivacyManager
 {
     _Bool _lastKnownLocationServicesEnabled;
-    _Bool _hasLastKnownLocationServicesEnabled;
-    _Bool _hasFiredCallHistoryRecentsClearedNotification;
-    _Bool _hasFiredResetPrivacyWarningsNotification;
-    _Bool _hasFiredLocationServicesDisabledNotification;
 }
 
 + (id);
 - (void);
-- (id);
+- (id):taskName:processedAudioDurationInMilliseconds:acousticEndpointerScore:fromServer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)@ open;
+- (_Bool)_clusterStyleAttributes;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasFiredCallHistoryRecentsClearedNotification; // @synthesize hasFiredCallHistoryRecentsClearedNotification=_hasFiredCallHistoryRecentsClearedNotification;
-@property(readonly, nonatomic) _Bool hasFiredLocationServicesDisabledNotification; // @synthesize hasFiredLocationServicesDisabledNotification=_hasFiredLocationServicesDisabledNotification;
-@property(readonly, nonatomic) _Bool hasFiredResetPrivacyWarningsNotification; // @synthesize hasFiredResetPrivacyWarningsNotification=_hasFiredResetPrivacyWarningsNotification;
 
 @end
 

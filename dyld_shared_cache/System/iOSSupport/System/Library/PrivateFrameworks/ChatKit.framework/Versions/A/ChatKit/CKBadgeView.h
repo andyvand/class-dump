@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CKBadgeView
 {
     unsigned long long _value;
-    UILabel *_countLabel;
 }
 
 - (id);
 - (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize)M;
+- (void)B;
 - (id);
 - (unsigned long long)1Â0@ù
 × ;
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *countLabel; // @synthesize countLabel=_countLabel;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

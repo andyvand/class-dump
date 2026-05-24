@@ -7,14 +7,13 @@
 @interface TeaUI.OnboardingAdPrivacyHeaderIconView
 {
     id label;
-    id backgroundView;
 }
 
 - (struct CGSize);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)unregisterNotificationsForChannelID: /* Error: Ran out of types for this method. */;
+- (void)deletedUnencryptedData;
+- (id)setWidgetSectionConfigForegroundMinimumUpdateInterval:(struct CGRect)arg1;
 - (void);
 
 @end

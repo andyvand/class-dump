@@ -5,9 +5,9 @@
 //
 
 @protocol MTLDrawable
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long drawableID;
 @property(readonly, nonatomic) double presentedTime;
 @end
 

@@ -9,6 +9,7 @@
 @interface HomeServices.GridLookupRequest : HomeServices.GridBaseRequest
 {
     id HMACAuthInfo;
+    id;
 }
 
 @end

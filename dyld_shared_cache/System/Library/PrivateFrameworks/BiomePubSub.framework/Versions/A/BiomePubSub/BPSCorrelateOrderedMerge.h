@@ -11,13 +11,12 @@
 @interface BPSCorrelateOrderedMerge : BMBookmarkablePublisher
 {
     NSArray *_publishers;
-    CDUnknownBlockType _comparator;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)P;
+- (id)service:account:identifier:didSendWithSuccess:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -28,7 +27,6 @@
 - (id)ublisher>",R,N,V_upstream;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
 @property(readonly, nonatomic) NSArray *publishers; // @synthesize publishers=_publishers;
 
 @end

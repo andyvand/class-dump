@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)endDate <= %@ && %f <= latitude && latitude <= %f && %f <= longitude && longitude <= %f;
 
 @end
 

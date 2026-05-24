@@ -4,60 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTrafficSignal
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_identifier;
-    GEOLatLng *_position;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _countryCodeStyleId;
-    int _type;
-    struct {
-        unsigned int has_countryCodeStyleId:1;
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_identifier:1;
-        unsigned int read_position:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)r:(id)arg1;
++ (_Bool)setMessageTrigger:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)maxGroupSequenceNumberInUse;
+- (unsigned int)CNAccountCollectionUpdateWatcherState;
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)H;
+- (id);
 - (void);
 - (void);
+- (id);
+- (void)initWithCSRTModelRequestOptions:(id)arg1 builder: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (int);
+- (unsigned long long)%A9?;
+- (_Bool);
+- (int)U;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id)1"has_optimizeStorage"b1"has_regionTilesWereResized"b1};
-- (void)Name:(int)arg1 fallbackBundle:fallbackNameHandler: /* Error: Ran out of types for this method. */;
-- (id)lds;
+- (void)pathForResourceWithName:(int)arg1 fallbackBundle:fallbackNameHandler: /* Error: Ran out of types for this method. */;
+- (id)hasTransitShields;
 - (id)N,V_countryCode;
-- (int)dler:(id)arg1;
-- (id)sgEventMapLaunch;
+- (int)setEdgeHandler:(id)arg1;
+- (id)GEOLogMsgEventMapLaunch;
 - (_Bool)XÀtD tDHÐ;
-- (id)ddressGeocodeAccuracy;
+- (id)addressGeocodeAccuracy;
 - (void)(;
 - (id)Ô;
 - (_Bool)ìÝÜØÔÝìØ¼ÝüØ$;
@@ -65,15 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int countryCodeStyleId;
-@property(nonatomic) _Bool hasCountryCodeStyleId;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

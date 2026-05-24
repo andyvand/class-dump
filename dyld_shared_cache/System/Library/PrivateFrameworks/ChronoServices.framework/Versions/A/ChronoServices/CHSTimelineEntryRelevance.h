@@ -9,32 +9,26 @@
 @interface CHSTimelineEntryRelevance
 {
     _Bool _hasRelevance;
-    NSDate *_date;
-    double _score;
-    double _duration;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)[;
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
-- (id);
+- (id)D;
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) _Bool hasRelevance; // @synthesize hasRelevance=_hasRelevance;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

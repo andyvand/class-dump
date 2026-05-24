@@ -7,13 +7,6 @@
 @interface AWDWiFiRetStats
 {
     unsigned long long _retDuration;
-    unsigned long long _rxDuration;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int retDuration:1;
-        unsigned int rxDuration:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
@@ -35,16 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRetDuration;
-@property(nonatomic) _Bool hasRxDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long retDuration; // @synthesize retDuration=_retDuration;
-@property(nonatomic) unsigned long long rxDuration; // @synthesize rxDuration=_rxDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

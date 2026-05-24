@@ -10,18 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMPBMetadataCategory
 {
     NSString *_catDescription;
-    int _identifier;
-    NSString *_uuidStr;
-    struct {
-        unsigned int identifier:1;
-    } _has;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)interior;
 - (id);
 - (id);
 - (void)X=;

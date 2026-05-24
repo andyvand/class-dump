@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUChannelData, NUChannelExpression;
-@protocol NUChannelOutputPort;
+@protocol NUChannelInputPort;
 
 @protocol NUChannelInputPort
+- (id <NUChannelInputPort>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUChannelOutputPort> connectedOutputPort;
-@property(readonly, nonatomic) NUChannelData *data;
-@property(readonly, nonatomic) NUChannelExpression *expression;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasExpression;
 @property(readonly, nonatomic) _Bool isConnected;
 @end
 

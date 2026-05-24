@@ -13,9 +13,9 @@
     NSDictionary *_payload;
 }
 
-- (void);
+- (void)vitation:(CDUnknownBlockType)arg1 no current server INVITE transaction;
 - (id);
-- (id);
+- (id)or unknown track mode (%@);
 - (void);
 
 // Remaining properties

@@ -5,9 +5,9 @@
 //
 
 @protocol NSValidatedUserInterfaceItem
+- (SEL)A/CryptoKit;
 
 // Remaining properties
 @property(readonly) SEL action;
-@property(readonly) long long tag;
 @end
 

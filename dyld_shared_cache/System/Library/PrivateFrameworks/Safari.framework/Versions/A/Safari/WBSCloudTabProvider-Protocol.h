@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol WBSCloudTabProvider
-- (NSString *)loverOverrideColor;
+- (NSString *)_rolloverOverrideColor;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCloseRequestSupported) _Bool closeRequestSupported;
-@property(readonly, copy, nonatomic) NSString *deviceTypeIdentifier;
-@property(readonly, copy, nonatomic) NSString *disambiguatedName;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSArray *tabs;
-@property(readonly, copy, nonatomic) NSString *uuid;
 @end
 

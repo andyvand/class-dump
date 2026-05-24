@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCloudBookmarksMigrationCoordinatorLocalDataProvider
+- (void);
 @end
 

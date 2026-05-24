@@ -8,8 +8,8 @@
 {
 }
 
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void)P;
 - (id);
 - (_Bool)
 × ;

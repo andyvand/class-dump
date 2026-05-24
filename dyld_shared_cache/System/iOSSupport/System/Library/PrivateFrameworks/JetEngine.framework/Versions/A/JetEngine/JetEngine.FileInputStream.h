@@ -7,7 +7,6 @@
 @interface JetEngine.FileInputStream
 {
     id file;
-    id length;
 }
 
 @end

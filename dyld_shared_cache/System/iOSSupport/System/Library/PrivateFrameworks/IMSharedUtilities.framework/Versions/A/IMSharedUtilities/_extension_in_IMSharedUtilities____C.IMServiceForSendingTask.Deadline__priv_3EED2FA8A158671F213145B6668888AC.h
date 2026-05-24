@@ -7,8 +7,6 @@
 @interface (extension in IMSharedUtilities):__C.IMServiceForSendingTask.Deadline__priv_3EED2FA8A158671F213145B6668888AC
 {
     id time;
-    id timer;
-    id fired;
 }
 
 @end

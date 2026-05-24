@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
+@class NSNumber;
 
 @interface IDSQRParticipantStreams
 {
     NSNumber *_participantID;
-    NSMutableArray *_streamArray;
-    _Bool _anyParticipant;
-    _Bool _anyStream;
 }
 
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void)mporary-get-dependent-interval;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool anyParticipant; // @synthesize anyParticipant=_anyParticipant;
-@property(readonly, nonatomic) _Bool anyStream; // @synthesize anyStream=_anyStream;
 @property(readonly) NSNumber *participantID; // @synthesize participantID=_participantID;
-@property(readonly) NSMutableArray *streamArray; // @synthesize streamArray=_streamArray;
 
 @end
 

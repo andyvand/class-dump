@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSURL;
+@class NSURL;
 
 @interface CTLazuliSystemCapablities
 {
     _Bool _autoAcceptChat;
-    _Bool _autoAcceptGroupChat;
-    _Bool _fileTransferAutoAccept;
-    NSURL *_exploderUri;
-    NSNumber *_maxGroupSize;
-    NSURL *_fileTransferUrl;
-    NSNumber *_fileTransferMaxRecipients;
-    NSNumber *_maxFileTransferSize;
 }
 
-+ (_Bool);
++ (_Bool).avfoundation.avmetrics;
 - (void);
 - (void);
 - (void);
@@ -27,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -35,25 +28,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)R";
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)biometryRequirementWithFallback:(id)arg1;
 - (id);
 - (void)&°!¨Cùª)1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool autoAcceptChat; // @synthesize autoAcceptChat=_autoAcceptChat;
-@property(nonatomic) _Bool autoAcceptGroupChat; // @synthesize autoAcceptGroupChat=_autoAcceptGroupChat;
 @property(retain, nonatomic) NSURL *exploderUri; // @synthesize exploderUri=_exploderUri;
-@property(nonatomic) _Bool fileTransferAutoAccept; // @synthesize fileTransferAutoAccept=_fileTransferAutoAccept;
-@property(retain, nonatomic) NSNumber *fileTransferMaxRecipients; // @synthesize fileTransferMaxRecipients=_fileTransferMaxRecipients;
-@property(retain, nonatomic) NSURL *fileTransferUrl; // @synthesize fileTransferUrl=_fileTransferUrl;
-@property(retain, nonatomic) NSNumber *maxFileTransferSize; // @synthesize maxFileTransferSize=_maxFileTransferSize;
-@property(retain, nonatomic) NSNumber *maxGroupSize; // @synthesize maxGroupSize=_maxGroupSize;
 
 @end
 

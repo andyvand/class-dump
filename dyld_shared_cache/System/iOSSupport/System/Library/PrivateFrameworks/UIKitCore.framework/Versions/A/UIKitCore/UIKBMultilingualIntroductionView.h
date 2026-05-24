@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
++ (_Bool)D:(id)arg1 %@;
+- (id)ailed! Disabling any active accounts  (Error:(id)arg1 %@);
+- (unsigned long long)IMDCollaborationNoticeRateLimiter;
+- (id)iceRateLimiter.persistenceQueue;
 - (id)Q;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol CNContactPickerInternalSetup
+- (void);
+- (void)kB;
 @end
 

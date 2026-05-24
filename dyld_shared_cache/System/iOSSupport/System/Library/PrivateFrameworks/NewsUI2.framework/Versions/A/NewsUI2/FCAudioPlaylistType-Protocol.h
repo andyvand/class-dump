@@ -7,14 +7,14 @@
 @class NSArray, NSDate;
 
 @protocol FCAudioPlaylistType
+- (void);
+- (_Bool);
 - (NSDate *)Pªÿ;
 - (void)=%{public}@;
 - (void)l for the list of tag identifiers;
 - (void)ÉgXpÐîÿ;
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSDate *modificationDate;
 @end
 

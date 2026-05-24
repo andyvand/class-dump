@@ -9,7 +9,6 @@
 @interface MKPlaceSectionRowView : MKPlaceSectionItemView
 {
     _Bool _selected;
-    _Bool _highlighted;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (_Bool)ottomHairlineHidden;
 
 // Remaining properties
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 
 @end

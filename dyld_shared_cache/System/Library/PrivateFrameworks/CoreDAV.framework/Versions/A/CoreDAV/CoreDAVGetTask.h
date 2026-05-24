@@ -11,14 +11,13 @@
 @interface CoreDAVGetTask : CoreDAVTask
 {
     id _appSpecificDataItemResult;
-    _Bool _forceNoCache;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)_transparentColor;
 - (id);
 - (id);
 - (id);
@@ -27,9 +26,7 @@
 - (unsigned long long)reDAVItemWithNoChildren",&,N,V_unauthenticated;
 
 // Remaining properties
-@property(retain, nonatomic) id appSpecificDataItemResult; // @synthesize appSpecificDataItemResult=_appSpecificDataItemResult;
 @property(nonatomic) __weak id <CoreDAVTaskDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool forceNoCache; // @synthesize forceNoCache=_forceNoCache;
 
 @end
 

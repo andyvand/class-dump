@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIVector;
+@class CIVector;
 
 @interface PIRadialGradient
 {
     CIVector *_inputCenter;
-    CIVector *_inputPoint0;
-    CIVector *_inputPoint1;
-    CIColor *_inputColor0;
-    CIColor *_inputColor1;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void);
+- (id)ategory;
+- (id);
+- (void);
+- (void)ansient Caches;
 - (id);
 - (void);
 - (id);
-- (void)ilter;
+- (void)smoothLinearGradientFilter;
 
 // Remaining properties
 @property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter=_inputCenter;
-@property(retain, nonatomic) CIColor *inputColor0; // @synthesize inputColor0=_inputColor0;
-@property(retain, nonatomic) CIColor *inputColor1; // @synthesize inputColor1=_inputColor1;
-@property(retain, nonatomic) CIVector *inputPoint0; // @synthesize inputPoint0=_inputPoint0;
-@property(retain, nonatomic) CIVector *inputPoint1; // @synthesize inputPoint1=_inputPoint1;
 
 @end
 

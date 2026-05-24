@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (IMSharedUtilitiesAdditions)
-+ (id);
-+ (id);
++ (id);
++ (id)Q?;
 - (id);
 - (id);
 - (id);

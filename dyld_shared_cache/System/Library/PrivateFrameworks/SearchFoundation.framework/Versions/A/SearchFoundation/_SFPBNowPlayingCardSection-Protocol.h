@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, _SFPBColor, _SFPBPunchout;
 
 @protocol _SFPBNowPlayingCardSection
+- (_SFPBPunchout *)Rh";
+- (_Bool)loadIsUpdateInProgressWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)listenerEndpointProvider;
+- (void);
+- (NSData *);
+- (_SFPBColor *)h;
 - (int)ã«×;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *movies;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)quest;
+- (id)removeTemporaryPermissionsForTab: /* Error: Ran out of types for this method. */;
+- (id)PGPublicEventCachingFetchRequest;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRKDeviceGestalt
 {
     unsigned long long _platform;
-    NSString *_systemVersion;
 }
 
 + (_Bool);
@@ -19,11 +16,10 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id)didReceiveData:(id)arg1;
+- (id)URLSession:(id)arg1 dataTask:didReceiveData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly, copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
 
 @end
 

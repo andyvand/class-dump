@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface GEOURLWithHeaders
 {
     NSURL *_URL;
-    NSDictionary *_headerFields;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)initial"d}"threshold"d};
 - (void)ö@ûyS
 ÏC@;
 - (id)Y/@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSDictionary *headerFields; // @synthesize headerFields=_headerFields;
 
 @end
 

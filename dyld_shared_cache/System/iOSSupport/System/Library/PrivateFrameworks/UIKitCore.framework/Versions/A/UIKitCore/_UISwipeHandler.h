@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISwipeActionController, _UIStatesFeedbackGenerator, _UISwipeActionPanGestureRecognizer, _UISwipeDismissalGestureRecognizer;
+@class UISwipeActionController;
 
 __attribute__((visibility("hidden")))
 @interface _UISwipeHandler
@@ -13,21 +13,11 @@ __attribute__((visibility("hidden")))
         unsigned int didProcessBegan:1;
         unsigned int beganSuccessfully:1;
     } _flags;
-    _UISwipeDismissalGestureRecognizer *_dismissalGestureRecognizer;
-    _UISwipeActionPanGestureRecognizer *_swipeActionPanRecognizer;
-    CDStruct_324b76a9 _currentSwipeConfig;
-    unsigned long long _currentSwipeState;
-    _Bool _resetSwipeWhileInitiating;
-    double _initialTranslation;
-    double _confirmationTranslationAdjustment;
-    _Bool _active;
-    _UIStatesFeedbackGenerator *_swipeFeedbackGenerator;
-    UISwipeActionController *_swipeController;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (CDStruct_324b76a9);
+- (CDStruct_d18b0196);
 - (void);
 - (_Bool);
 - (void);
@@ -35,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ary MIMEType to be a string. Got:(id)arg1 %@;
 - (id);
-- (CDStruct_9b6dff2a);
-- (unsigned long long);
+- (CDStruct_b06b0113)diaSelectionGroup"32;
+- (unsigned long long)catalogId;
 - (void);
 - (void);
 - (void);
@@ -49,9 +39,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)0@ù
 × ;
 - (id)mageLoader"16;
-- (id)rAlignedAccessoryView;
-- (unsigned long long)ionInset: /* Error: Ran out of types for this method. */;
-- (_Bool)lizeManagedDictationViews;
+- (id)titlebarAlignedAccessoryView;
+- (unsigned long long)setSectionInset: /* Error: Ran out of types for this method. */;
+- (_Bool)_didInitializeManagedDictationViews;
 - (void)senter: /* Error: Ran out of types for this method. */;
 - (void)Anchor",R,N,V_bottomAnchor;
 - (void)collapsed %@ UISplitViewController;
@@ -60,19 +50,7 @@ __attribute__((visibility("hidden")))
 - (void),;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) CDStruct_324b76a9 currentSwipeConfig;
-@property(readonly, nonatomic) unsigned long long currentSwipeState; // @synthesize currentSwipeState=_currentSwipeState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInteracting) _Bool interacting;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UISwipeActionController *swipeController; // @synthesize swipeController=_swipeController;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *swipeFeedbackGenerator; // @synthesize swipeFeedbackGenerator=_swipeFeedbackGenerator;
 
 @end
 

@@ -6,21 +6,11 @@
 
 #import <CalendarUI/CalUIControlView.h>
 
-@class CalUILabel, EKInviteeAlternativeTime, EKViewController, NSImage, NSImageView, NSString;
-@protocol EKUINewTimeOptionViewDelegate;
+@class EKViewController;
 
 @interface EKUINewTimeOptionView : CalUIControlView
 {
     _Bool _selected;
-    id <EKUINewTimeOptionViewDelegate> _delegate;
-    EKInviteeAlternativeTime *_alternativeTime;
-    EKViewController *_viewController;
-    NSImageView *_selectionImageView;
-    CalUILabel *_dayLabel;
-    CalUILabel *_timeLabel;
-    CalUILabel *_attendeesLabel;
-    NSImage *_busyStatusIcon;
-    long long _index;
 }
 
 - (void);
@@ -45,31 +35,15 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)EMM_ACCESS_BARRED_INFINITE_RETRY;
 - (void);
 - (id)#Ð1Â0@ù
 × ;
-- (void)ringForPhoneNumber:(id)arg1;
-- (void);
-- (_Bool)ReminderRepeatPickerGadget;
+- (void)formattedStringForPhoneNumber:(id)arg1;
+- (void)candidates;
+- (_Bool)EKUIReminderRepeatPickerGadget;
 
 // Remaining properties
-@property(retain, nonatomic) EKInviteeAlternativeTime *alternativeTime; // @synthesize alternativeTime=_alternativeTime;
-@property(retain) CalUILabel *attendeesLabel; // @synthesize attendeesLabel=_attendeesLabel;
-@property(retain) NSImage *busyStatusIcon; // @synthesize busyStatusIcon=_busyStatusIcon;
-@property(retain) CalUILabel *dayLabel; // @synthesize dayLabel=_dayLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EKUINewTimeOptionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(retain) NSImageView *selectionImageView; // @synthesize selectionImageView=_selectionImageView;
-@property(readonly) Class superclass;
-@property(retain) CalUILabel *timeLabel; // @synthesize timeLabel=_timeLabel;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

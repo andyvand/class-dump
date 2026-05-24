@@ -7,7 +7,6 @@
 @interface TeaUI.BlueprintLayoutCollectionPipelineProcessorState
 {
     id layoutOptions;
-    id sidecarLayoutOptions;
 }
 
 @end

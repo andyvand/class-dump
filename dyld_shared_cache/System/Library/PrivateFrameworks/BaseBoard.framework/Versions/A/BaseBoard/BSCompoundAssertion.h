@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSObject, NSOrderedSet, NSSet, NSString;
-@protocol OS_os_log;
+@class NSSet, NSString;
 
 @interface BSCompoundAssertion
 {
     NSString *_identifierPrefix;
-    struct os_unfair_lock_s _syncLock;
-    _Bool _syncLock_invalid;
-    CDUnknownBlockType _syncLock_block;
-    struct os_unfair_lock_s _dataLock;
-    NSMutableOrderedSet *_dataLock_acquisitionRecords;
-    NSObject<OS_os_log> *_dataLock_log;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,24 +25,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_check() and/or SecTask();
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isActive) _Bool active;
-@property(readonly) NSSet *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *log;
-@property(readonly) NSOrderedSet *orderedContext;
-@property(readonly) NSOrderedSet *orderedReasons;
 @property(readonly) NSSet *reasons;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsArticles.AIHeaderViewController
 {
     id label;
-    id renderer;
-    id channelName;
-    id headerDelegate;
 }
 
 - (id);
@@ -17,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void)vityProviderFactory;
+- (void)audioSharingActivityProviderFactory;
 
 @end
 

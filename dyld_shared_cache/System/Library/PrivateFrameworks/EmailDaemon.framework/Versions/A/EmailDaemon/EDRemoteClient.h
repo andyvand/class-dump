@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAccountRepository, EDActivityRegistry, EDClientResumer, EDClientState, EDDaemonInterfaceFactory, EDDiagnosticInfoGatherer, EDFetchController, EDInteractionLogger, EDMailboxRepository, EDMessageRepository, EDOutgoingMessageRepository, EDSearchableIndex, EDSenderRepository, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol EDServerRemoteClientsProvider, EMVIPManagerInterface;
+@class NSXPCConnection;
 
 @interface EDRemoteClient
 {
     struct os_unfair_lock_s _lock;
-    NSXPCListenerEndpoint *_appEndpoint;
-    EDAccountRepository *_accountRepository;
-    EDMailboxRepository *_mailboxRepository;
-    EDOutgoingMessageRepository *_outgoingMessageRepository;
-    EDSenderRepository *_senderRepository;
-    EDFetchController *_fetchController;
-    EDSearchableIndex *_searchableIndex;
-    EDInteractionLogger *_interactionLogger;
-    id <EMVIPManagerInterface> _vipManagerInterface;
-    EDActivityRegistry *_activityRegistry;
-    NSXPCConnection *_clientConnection;
-    EDDaemonInterfaceFactory *_daemonInterfaceFactory;
-    id <EDServerRemoteClientsProvider> _serverRemoteClientsProvider;
-    EDClientState *_clientState;
-    EDMessageRepository *_messageRepository;
-    EDClientResumer *_clientResumer;
-    EDDiagnosticInfoGatherer *_diagnosticInfoGatherer;
 }
 
 + (id)!Bù³Ð1Â0@ù
@@ -55,48 +37,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)?;
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tring, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>>>={__hash_table<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *>=^v}}{?=Q}{?=f}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{AudioCaptureOptions=I}B}32 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)UsoEntityBuilder_appleContact_ContactAttribute;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_trafficClassBEAttemptedSmall;
+- (id)elRollingWindow kernelLQMRollingWindow:withReferenceWindow:andLqmFeatures:] /* Error: Ran out of types for this method. */;
 - (id)à;
 - (void)ation:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EDAccountRepository *accountRepository; // @synthesize accountRepository=_accountRepository;
-@property(readonly, nonatomic) EDActivityRegistry *activityRegistry; // @synthesize activityRegistry=_activityRegistry;
 @property(readonly, nonatomic) NSXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, nonatomic) EDClientResumer *clientResumer; // @synthesize clientResumer=_clientResumer;
-@property(readonly, nonatomic) EDClientState *clientState; // @synthesize clientState=_clientState;
-@property(readonly, nonatomic) EDDaemonInterfaceFactory *daemonInterfaceFactory; // @synthesize daemonInterfaceFactory=_daemonInterfaceFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EDDiagnosticInfoGatherer *diagnosticInfoGatherer; // @synthesize diagnosticInfoGatherer=_diagnosticInfoGatherer;
-@property(readonly, nonatomic) EDFetchController *fetchController; // @synthesize fetchController=_fetchController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDInteractionLogger *interactionLogger; // @synthesize interactionLogger=_interactionLogger;
-@property(readonly, nonatomic) EDMailboxRepository *mailboxRepository; // @synthesize mailboxRepository=_mailboxRepository;
-@property(readonly, nonatomic) EDMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;
-@property(readonly, nonatomic) EDOutgoingMessageRepository *outgoingMessageRepository; // @synthesize outgoingMessageRepository=_outgoingMessageRepository;
-@property(readonly, nonatomic) EDSearchableIndex *searchableIndex; // @synthesize searchableIndex=_searchableIndex;
-@property(readonly, nonatomic) EDSenderRepository *senderRepository; // @synthesize senderRepository=_senderRepository;
-@property(readonly, nonatomic) __weak id <EDServerRemoteClientsProvider> serverRemoteClientsProvider; // @synthesize serverRemoteClientsProvider=_serverRemoteClientsProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMVIPManagerInterface> vipManagerInterface; // @synthesize vipManagerInterface=_vipManagerInterface;
 
 @end
 

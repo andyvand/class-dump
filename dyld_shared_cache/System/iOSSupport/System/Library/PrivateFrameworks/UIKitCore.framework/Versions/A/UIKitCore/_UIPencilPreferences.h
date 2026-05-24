@@ -8,20 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _UIPencilPreferences
 {
     long long _cachedPreferredTapAction;
-    long long _cachedPreferredSqueezeAction;
-    struct {
-        unsigned int cachedPrefersPencilOnlyDrawing:1;
-        unsigned int cachedPrefersHoverToolPreview:1;
-        unsigned int cachedHasSeenPencilPairingUI:1;
-        unsigned int cachedHasUsedPassivePencil:1;
-    } _preferenceFlags;
 }
 
-+ (void);
-+ (void);
++ (void)tered chat identifier:(_Bool)arg1 %@;
++ (void)"32@"IMMessageContext"40@"IMPowerAssertion"48;
 + (_Bool);
 + (_Bool);
-+ (long long);
++ (long long);
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -37,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void)ot prepared;
+- (_Bool)Junk filtering:decision service not prepared /* Error: Ran out of types for this method. */;
+- (void)iled to update summary property on chat with guid %s.;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)H;
+- (id)nslator was missing mapping for MPModelPropertyArtistAlbumCount;
 - (void);
 
 @end

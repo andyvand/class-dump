@@ -11,7 +11,7 @@
     NSDictionary *_values;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (id);
 - (id);
@@ -27,7 +27,6 @@
 ­,¬';
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *validationRequirements;
 @property(retain, nonatomic) NSDictionary *values; // @synthesize values=_values;
 
 @end

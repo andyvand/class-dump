@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDLocalSearchInfoCollector, EDMessagePersistence, EDMessageQueryEvaluator, EDPersistenceHookRegistry, EDRemindMeNotificationController, EFManualCancelationToken, EFPromise, EMQuery, NSMutableSet, NSString;
-@protocol EDMessageQueryHelperDelegate, EDSearchProvider, EFCancelable><NSProgressReporting, EFScheduler;
-
 @interface EDMessageQueryHelper
 {
     struct atomic_flag _didStart;
-    NSMutableSet *_noLongerMatchingMessages;
-    struct os_unfair_lock_s _noLongerMatchingMessagesLock;
-    _Bool _shouldReconcileJournal;
-    _Bool _keepMessagesInListOnBucketChange;
-    _Bool _addMessagesSynchronously;
-    _Bool _returningInitialResults;
-    EMQuery *_query;
-    long long _initialBatchSize;
-    long long _maximumBatchSize;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    id <EDSearchProvider> _searchProvider;
-    EDRemindMeNotificationController *_remindMeNotificationController;
-    id <EFScheduler> _scheduler;
-    id <EDMessageQueryHelperDelegate> _delegate;
-    EDMessageQueryEvaluator *_queryEvaluator;
-    EFPromise *_initialResultsPromise;
-    NSString *_pendingFlagChangesKey;
-    NSString *_pendingConversationIDChangesKey;
-    NSString *_pendingReadLaterDateChangesKey;
-    NSString *_pendingDisplayDateChangesKey;
-    NSString *_pendingCategorizationChangesKey;
-    NSString *_pendingAuthenticationChangesKey;
-    NSString *_pendingLabelChangesKey;
-    id <EFCancelable><NSProgressReporting> _searchQuery;
-    unsigned long long _snippetDataBudgetRemaining;
-    EDLocalSearchInfoCollector *_localSearchInfoCollector;
-    EFManualCancelationToken *_cancelationToken;
 }
 
 + (id)0@ù
@@ -56,26 +25,26 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (long long);
 - (id);
@@ -91,39 +60,39 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)};
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
-- (long long);
+- (_Bool)setXpcResponderPLAPITest: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)l;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (id);
+- (long long)`?;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)endpoint_authorizationRequestCompletionCallback;
+- (void)APEndpointUtilities;
+- (void)%u;
 - (void);
 - (void);
 - (id);
@@ -132,41 +101,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool addMessagesSynchronously; // @synthesize addMessagesSynchronously=_addMessagesSynchronously;
-@property(retain, nonatomic) EFManualCancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <EDMessageQueryHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
 @property(readonly, nonatomic) long long initialBatchSize; // @synthesize initialBatchSize=_initialBatchSize;
-@property(readonly, nonatomic) EFPromise *initialResultsPromise; // @synthesize initialResultsPromise=_initialResultsPromise;
-@property(readonly, nonatomic) _Bool isSearchCanceled;
-@property(readonly, nonatomic) _Bool keepMessagesInListOnBucketChange; // @synthesize keepMessagesInListOnBucketChange=_keepMessagesInListOnBucketChange;
-@property(retain, nonatomic) EDLocalSearchInfoCollector *localSearchInfoCollector; // @synthesize localSearchInfoCollector=_localSearchInfoCollector;
-@property(readonly, nonatomic) long long maximumBatchSize; // @synthesize maximumBatchSize=_maximumBatchSize;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) NSString *pendingAuthenticationChangesKey; // @synthesize pendingAuthenticationChangesKey=_pendingAuthenticationChangesKey;
-@property(readonly) NSString *pendingCategorizationChangesKey; // @synthesize pendingCategorizationChangesKey=_pendingCategorizationChangesKey;
-@property(readonly) NSString *pendingConversationIDChangesKey; // @synthesize pendingConversationIDChangesKey=_pendingConversationIDChangesKey;
-@property(readonly) NSString *pendingDisplayDateChangesKey; // @synthesize pendingDisplayDateChangesKey=_pendingDisplayDateChangesKey;
-@property(readonly) NSString *pendingFlagChangesKey; // @synthesize pendingFlagChangesKey=_pendingFlagChangesKey;
-@property(readonly) NSString *pendingLabelChangesKey; // @synthesize pendingLabelChangesKey=_pendingLabelChangesKey;
-@property(readonly) NSString *pendingReadLaterDateChangesKey; // @synthesize pendingReadLaterDateChangesKey=_pendingReadLaterDateChangesKey;
-@property(readonly, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) EDMessageQueryEvaluator *queryEvaluator; // @synthesize queryEvaluator=_queryEvaluator;
-@property(readonly, nonatomic) EDRemindMeNotificationController *remindMeNotificationController; // @synthesize remindMeNotificationController=_remindMeNotificationController;
-@property(nonatomic) _Bool returningInitialResults; // @synthesize returningInitialResults=_returningInitialResults;
-@property(readonly, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly, nonatomic) id <EDSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(retain, nonatomic) id <EFCancelable><NSProgressReporting> searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly, nonatomic) _Bool shouldReconcileJournal; // @synthesize shouldReconcileJournal=_shouldReconcileJournal;
-@property(nonatomic) unsigned long long snippetDataBudgetRemaining; // @synthesize snippetDataBudgetRemaining=_snippetDataBudgetRemaining;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool updateDisplayDate;
 
 @end
 

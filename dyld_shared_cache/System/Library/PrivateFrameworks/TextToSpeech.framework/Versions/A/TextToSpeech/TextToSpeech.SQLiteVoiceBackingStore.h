@@ -7,8 +7,6 @@
 @interface TextToSpeech.SQLiteVoiceBackingStore
 {
     id $defaultActor;
-    id readOnly;
-    id connection;
 }
 
 @end

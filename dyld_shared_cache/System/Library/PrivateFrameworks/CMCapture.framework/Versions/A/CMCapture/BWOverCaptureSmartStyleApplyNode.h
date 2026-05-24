@@ -6,42 +6,14 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPixelBufferPool, BWVideoFormat, CMISmartStyleOvercaptureThumbnailGenerator;
-@protocol CMISmartStyle, CMISmartStyleProcessor, CMISmartStyleProxyRenderer, MTLCommandQueue;
-
 @interface BWOverCaptureSmartStyleApplyNode : BWNode
 {
     int _renderingMethod;
-    float _globalLocalSystemMixFactorDecayRate;
-    id <MTLCommandQueue> _metalCommandQueue;
-    Class _smartStyleClass;
-    id <CMISmartStyle> _currentStyle;
-    id <CMISmartStyleProxyRenderer> _smartStyleProxyRenderer;
-    Class _smartStyleProcessorInputOutputClass;
-    id <CMISmartStyleProcessor> _smartStyleProcessor;
-    _Bool _firstFrame;
-    struct opaqueCMSampleBuffer *_mostRecentCoefficients;
-    _Bool _applyGlobalMostRecentCoefficients;
-    float _currentGlobalLocalMixFactor;
-    int _mostRecentQuadraBinningFactor;
-    BWVideoFormat *_filterCoefficientsVideoFormatToPrepare;
-    BWPixelBufferPool *_filteredCoefficientsPixelBufferPool;
-    unsigned int _filteredCoefficientsPixelBufferPoolSize;
-    unsigned long long _filterType;
-    BWPixelBufferPool *_unstyledThumbnailPixelBufferPool;
-    int _maxLossyCompressionLevel;
-    struct __CVBuffer *_identityCoefficientsPixelBuffer;
-    struct __CVBuffer *_previewThumbnailBuffer;
-    _Bool _useOptimizedThumbnailGeneration;
-    CMISmartStyleOvercaptureThumbnailGenerator *_overcaptureThumbnailGenerator;
-    _Bool _didSetTimeToStartStyleEngineBypass;
-    float _timeToStartStyleEngineBypass;
-    _Bool _applyDither;
 }
 
 + (void)de _startUpFormatWriterAtTime:withSettings:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)\;
 - (void);
 - (int);
 - (int);
@@ -52,10 +24,10 @@
 - (int);
 - (int);
 - (int);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (int);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id)iled to copy a capture device without an error!;

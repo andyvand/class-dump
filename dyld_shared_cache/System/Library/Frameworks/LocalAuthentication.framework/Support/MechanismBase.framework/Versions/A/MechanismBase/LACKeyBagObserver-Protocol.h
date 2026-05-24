@@ -5,5 +5,6 @@
 //
 
 @protocol LACKeyBagObserver
+- (void)this distribution type;
 @end
 

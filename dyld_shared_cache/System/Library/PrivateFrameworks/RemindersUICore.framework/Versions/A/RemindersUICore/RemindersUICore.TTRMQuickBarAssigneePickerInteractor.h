@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarAssigneePickerInteractor
 {
     id delegate;
-    id editingSession;
 }
 
 @end

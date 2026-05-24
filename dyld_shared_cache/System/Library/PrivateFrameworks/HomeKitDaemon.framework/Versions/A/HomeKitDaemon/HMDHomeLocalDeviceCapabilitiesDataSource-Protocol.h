@@ -5,20 +5,13 @@
 //
 
 @protocol HMDHomeLocalDeviceCapabilitiesDataSource
+- (_Bool);
+- (_Bool)Prefix;
 - (_Bool),V_experimentTimer;
 - (_Bool)lic}@Stop thread network:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)|v=;
 
 // Remaining properties
-@property(readonly) _Bool isCompanionCapable;
-@property(readonly) _Bool isResidentCapable;
-@property(readonly) _Bool supportsAddingAccessory;
-@property(readonly) _Bool supportsBulletinBoard;
-@property(readonly) _Bool supportsHomeInvitation;
 @property(readonly) _Bool supportsHomeKitDataStream;
-@property(readonly) _Bool supportsHomeNotificationEnablement;
-@property(readonly) _Bool supportsRemoteAccess;
-@property(readonly) _Bool supportsSiriUnsecuringActionsWithNoPasscode;
-@property(readonly) _Bool supportsSiriUnsecuringActionsWithWatchAuth;
 @end
 

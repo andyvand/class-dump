@@ -7,12 +7,6 @@
 @interface Network.ProtocolStack
 {
     id $__lazy_storage_$_persistentApplication;
-    id $__lazy_storage_$_application;
-    id $__lazy_storage_$_transport;
-    id internet;
-    id $__lazy_storage_$_link;
-    id originalProxiedTransport;
-    id secondaryTransport;
 }
 
 @end

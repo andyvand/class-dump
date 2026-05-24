@@ -6,26 +6,21 @@
 
 #import <DataDetectorsNaturalLanguage/IPFeatureScanner.h>
 
-@class IPFeatureData, NSArray, NSMutableArray;
+@class NSArray;
 
 @interface IPFeatureMailScanner : IPFeatureScanner
 {
     _Bool _subjectContainsDate;
-    NSArray *_subjectDataDetectorsFeatures;
-    NSArray *_subjectSentenceFeatures;
-    NSMutableArray *_subjectKeywordFeatures;
-    NSMutableArray *_subjectAndBodyDataDetectorsFeatures;
-    IPFeatureData *_dateInSubjectFeatureData;
 }
 
-- (id);
+- (id)BE;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)+;
 - (void);
 - (id);
 - (double);
@@ -42,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) IPFeatureData *dateInSubjectFeatureData; // @synthesize dateInSubjectFeatureData=_dateInSubjectFeatureData;
-@property(retain) NSMutableArray *subjectAndBodyDataDetectorsFeatures; // @synthesize subjectAndBodyDataDetectorsFeatures=_subjectAndBodyDataDetectorsFeatures;
-@property _Bool subjectContainsDate; // @synthesize subjectContainsDate=_subjectContainsDate;
 @property(retain) NSArray *subjectDataDetectorsFeatures; // @synthesize subjectDataDetectorsFeatures=_subjectDataDetectorsFeatures;
-@property(retain) NSMutableArray *subjectKeywordFeatures; // @synthesize subjectKeywordFeatures=_subjectKeywordFeatures;
-@property(retain) NSArray *subjectSentenceFeatures; // @synthesize subjectSentenceFeatures=_subjectSentenceFeatures;
 
 @end
 

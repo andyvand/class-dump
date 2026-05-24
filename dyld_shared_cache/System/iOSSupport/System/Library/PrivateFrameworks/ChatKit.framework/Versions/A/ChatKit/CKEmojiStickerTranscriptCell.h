@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKAssociatedStickerTranscriptCell.h>
 
-@class CKEmojiStickerLabel, IMEmojiSticker;
+@class CKEmojiStickerLabel;
 
 @interface CKEmojiStickerTranscriptCell : CKAssociatedStickerTranscriptCell
 {
@@ -15,9 +15,9 @@
 
 - (void);
 - (void);
+- (void)macOS 13 or later is required to view notes locked with your password.;
 - (void);
-- (void);
-- (void);
+- (void)J!@9*!;
 - (id);
 - (void);
 - (void);
@@ -26,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMEmojiSticker *emojiSticker;
 @property(readonly, nonatomic) CKEmojiStickerLabel *labelView; // @synthesize labelView=_labelView;
 
 @end

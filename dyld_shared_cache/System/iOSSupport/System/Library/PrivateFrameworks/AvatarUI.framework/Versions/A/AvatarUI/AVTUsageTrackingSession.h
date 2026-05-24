@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarConfiguration, AVTAvatarRecord, AVTUsageTrackingRecordTimedEvent, NSDate, NSObject, NSString;
-@protocol AVTAvatarConfigurationMetric, AVTAvatarStoreInternal, AVTCoreAnalyticsClient, AVTDifferentialPrivacyRecorder, AVTUILogger, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVTUsageTrackingSession
 {
     _Bool _expandedMode;
-    _Bool _recordedVideo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <AVTUILogger> _logger;
-    id <AVTCoreAnalyticsClient> _ntsCAClient;
-    NSString *_keyBasePrefix;
-    NSString *_bundleAppName;
-    id <AVTDifferentialPrivacyRecorder> _ntsDPRecorder;
-    id <AVTAvatarConfigurationMetric> _metric;
-    CDUnknownBlockType _recordTransformer;
-    AVTAvatarConfiguration *_defaultConfiguration;
-    AVTAvatarRecord *_avatarRecord;
-    CDUnknownBlockType _timeProvider;
-    NSDate *_editorEnterDate;
-    AVTUsageTrackingRecordTimedEvent *_faceTrackingEvent;
-    id <AVTAvatarStoreInternal> _avatarStore;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (CDUnknownBlockType);
@@ -61,7 +46,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -79,11 +64,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)S;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,7 +79,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -106,21 +91,6 @@
 - (id)|Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTAvatarRecord *avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(readonly, nonatomic) NSString *bundleAppName; // @synthesize bundleAppName=_bundleAppName;
-@property(readonly, nonatomic) AVTAvatarConfiguration *defaultConfiguration; // @synthesize defaultConfiguration=_defaultConfiguration;
-@property(retain, nonatomic) NSDate *editorEnterDate; // @synthesize editorEnterDate=_editorEnterDate;
-@property(nonatomic) _Bool expandedMode; // @synthesize expandedMode=_expandedMode;
-@property(retain, nonatomic) AVTUsageTrackingRecordTimedEvent *faceTrackingEvent; // @synthesize faceTrackingEvent=_faceTrackingEvent;
-@property(readonly, nonatomic) NSString *keyBasePrefix; // @synthesize keyBasePrefix=_keyBasePrefix;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <AVTAvatarConfigurationMetric> metric; // @synthesize metric=_metric;
-@property(readonly, nonatomic) id <AVTCoreAnalyticsClient> ntsCAClient; // @synthesize ntsCAClient=_ntsCAClient;
-@property(readonly, nonatomic) id <AVTDifferentialPrivacyRecorder> ntsDPRecorder; // @synthesize ntsDPRecorder=_ntsDPRecorder;
-@property(readonly, copy, nonatomic) CDUnknownBlockType recordTransformer; // @synthesize recordTransformer=_recordTransformer;
-@property(nonatomic) _Bool recordedVideo; // @synthesize recordedVideo=_recordedVideo;
-@property(readonly, copy, nonatomic) CDUnknownBlockType timeProvider; // @synthesize timeProvider=_timeProvider;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatDockButtonItem
 {
     id button;
-    id badgeLabel;
-    id isEnabled;
-    id _badge;
-    id model;
 }
 
 @end

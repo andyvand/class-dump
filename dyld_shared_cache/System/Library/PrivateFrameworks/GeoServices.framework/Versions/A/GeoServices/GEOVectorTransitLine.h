@@ -9,28 +9,21 @@
 @interface GEOVectorTransitLine
 {
     void *_vectorTransitLine;
-    GEOFeature *_feature;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (float);
-- (struct GeoCodecsRGBAColor8 *);
+- (struct GeoCodecsRGBAColor8 *)setTableView: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned int)N;
-- (void)pperIxEE;
+- (unsigned int)PLACE_SUMMARY_FORMAT_TYPE_UNKNOWN;
+- (void)N6google8protobuf8internal20RepeatedFieldWrapperIxEE;
 - (id);
 - (void *)2;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cartoId;
-@property(readonly, nonatomic) struct GeoCodecsRGBAColor8 *color;
 @property(readonly, nonatomic) GEOFeature *feature;
-@property(readonly, nonatomic) float minZoom;
-@property(readonly, nonatomic) unsigned int order;
-@property(readonly, nonatomic) unsigned int subtitleOffset;
-@property(readonly, nonatomic) unsigned int systemIndex;
 
 @end
 

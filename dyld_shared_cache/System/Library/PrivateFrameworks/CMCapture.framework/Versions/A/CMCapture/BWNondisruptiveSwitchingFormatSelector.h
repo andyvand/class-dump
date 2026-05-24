@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWNondisruptiveSwitchingFormatSelector
 {
     NSString *_portType;
-    float _baseZoomFactor;
-    NSDictionary *_zoomFactorToNondisruptiveSwitchingFormatIndexSIFRBinned;
-    NSDictionary *_zoomFactorToNondisruptiveSwitchingFormatIndexSIFRNonBinned;
-    int _ultraHighResolutionNondisruptiveStreamingFormatIndex;
-    int _mainFormatSIFRBinningFactor;
-    int _videoStabilizationStrength;
-    NSDictionary *_quadraSubPixelSwitchingParameters;
-    struct BWSmartCameraScene _quadraSubPixelSceneBasedOnNormalizedSNR;
-    struct BWSmartCameraScene _quadraSubPixelSceneBasedOnLuxLevel;
-    struct BWSmartCameraScene _quadraSubPixelSceneBasedOnGain;
-    _Bool _quadraSubPixelSceneMonitoringForActionCameraEnabled;
-    _Bool _quadraSubPixelSceneMonitoringForDigitalFlashEnabled;
-    _Bool _quadraSubPixelSceneMonitoringForVideoEnabled;
-    _Bool _quadraSubPixelSceneMonitoringForPhotoEnabled;
-    float _lastZoomFactor;
-    int _lastDigitalFlashMode;
-    _Bool _lastStationary;
-    int _lastNondisruptiveSwitchingFormatIndex;
-    NSString *_lastQuadraSubPixelSwitchingIntent;
 }
 
 + (void)sEqual:currStagedSettings] /* Error: Ran out of types for this method. */;

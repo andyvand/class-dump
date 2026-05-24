@@ -4,43 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PPSQLDatabase, TRIClient, _PASLock;
+@class NSString, _PASLock;
 
 @interface PPTrialWrapper
 {
     _PASLock *_lock;
-    NSDictionary *_namespaceNamesIdsDict;
-    _Bool _useDefaultFiles;
-    PPSQLDatabase *_db;
-    TRIClient *_trialClient;
 }
 
 + (id);
-+ (id)rror:queryId:completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void);
-- (id);
++ (id)scoredEventsBatch:isLast:error:queryId:completion: /* Error: Ran out of types for this method. */;
+- (id)uery.ExecuteStmt;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
+- (id)AMFDRDataPatchWithOptions;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)isLocalUserAvailableForContactInActiveMode:error: /* Error: Ran out of types for this method. */;
+- (id)__removeChatFromGroupIDChatIndex:(id)arg1;
+- (id)=;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id);
+- (id)setHasBeenRemoved:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -53,7 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *concatenatedTreatmentNames;
-@property(readonly, nonatomic) unsigned int treatmentsHash;
 
 @end
 

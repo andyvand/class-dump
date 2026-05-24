@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, NSURL, PKImage;
+@class NSString;
 
 @interface PKPhysicalCard
 {
     NSString *_identifier;
-    NSString *_accountUserAltDSID;
-    unsigned long long _state;
-    NSString *_FPANSuffix;
-    NSURL *_frontFaceImageURL;
-    NSString *_nameOnCard;
-    NSDate *_lastUpdated;
-    NSString *_trackingNumber;
-    NSString *_shippingCompany;
-    NSSet *_orderActivity;
-    NSSet *_shippingActivity;
-    NSString *_activationCodeHash;
-    unsigned long long _expirationMonth;
-    unsigned long long _expirationYear;
-    PKImage *_frontFaceImage;
 }
 
 + (_Bool);
@@ -36,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T	M;
 - (void);
 - (void);
 - (void);
@@ -46,9 +32,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)k,!;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -56,40 +42,26 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)P;
+- (id);
+- (id)I;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)tion";
+- (void)ceChange;
 - (void);
-- (void);
-- (id);
+- (id)';
 - (id);
 - (void)0@ù
 × ;
-- (id)ntifier:(id)arg1 carKeySharingDict: /* Error: Ran out of types for this method. */;
-- (void)oSignedChallenge;
+- (id)initWithRawMessage:(id)arg1 type:shareIdentifier:friendKeyIdentifier:carKeySharingDict: /* Error: Ran out of types for this method. */;
+- (void)fidoSignedChallenge;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *FPANSuffix; // @synthesize FPANSuffix=_FPANSuffix;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(copy, nonatomic) NSString *activationCodeHash; // @synthesize activationCodeHash=_activationCodeHash;
-@property(nonatomic) unsigned long long expirationMonth; // @synthesize expirationMonth=_expirationMonth;
-@property(nonatomic) unsigned long long expirationYear; // @synthesize expirationYear=_expirationYear;
-@property(retain, nonatomic) PKImage *frontFaceImage; // @synthesize frontFaceImage=_frontFaceImage;
-@property(copy, nonatomic) NSURL *frontFaceImageURL; // @synthesize frontFaceImageURL=_frontFaceImageURL;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSString *nameOnCard; // @synthesize nameOnCard=_nameOnCard;
-@property(copy, nonatomic) NSSet *orderActivity; // @synthesize orderActivity=_orderActivity;
-@property(copy, nonatomic) NSSet *shippingActivity; // @synthesize shippingActivity=_shippingActivity;
-@property(copy, nonatomic) NSString *shippingCompany; // @synthesize shippingCompany=_shippingCompany;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *trackingNumber; // @synthesize trackingNumber=_trackingNumber;
 
 @end
 

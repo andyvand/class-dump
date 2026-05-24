@@ -6,28 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETDebugSessionConnectionNetwork : SISchemaInstrumentationMessage
 {
     int _wiFiPhyMode;
-    double _signalStrengthBars;
-    double _openTimeInMs;
-    unsigned int _connectedSubflowCount;
-    struct {
-        unsigned int wiFiPhyMode:1;
-        unsigned int signalStrengthBars:1;
-        unsigned int openTimeInMs:1;
-        unsigned int connectedSubflowCount:1;
-    } _has;
 }
 
-- (int);
+- (int);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (_Bool);
@@ -40,28 +29,20 @@
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void);
+- (void)anupDirectory:(double)arg1 No directory provided to remove;
 - (id);
-- (void);
+- (void)dITRedirect;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (double)zeOfOTAAssetsInAssetSet;
+- (double)totalSizeOfOTAAssetsInAssetSet;
 - (id)dError;
 - (id)SString",C,N,V_subscriberName;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectedSubflowCount; // @synthesize connectedSubflowCount=_connectedSubflowCount;
-@property(nonatomic) _Bool hasConnectedSubflowCount;
-@property(nonatomic) _Bool hasOpenTimeInMs;
-@property(nonatomic) _Bool hasSignalStrengthBars;
-@property(nonatomic) _Bool hasWiFiPhyMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double openTimeInMs; // @synthesize openTimeInMs=_openTimeInMs;
-@property(nonatomic) double signalStrengthBars; // @synthesize signalStrengthBars=_signalStrengthBars;
 @property(nonatomic) int wiFiPhyMode; // @synthesize wiFiPhyMode=_wiFiPhyMode;
 
 @end

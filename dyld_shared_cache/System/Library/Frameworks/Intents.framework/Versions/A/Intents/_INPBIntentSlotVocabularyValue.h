@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBIntentSlotVocabularyValue
 {
     struct _has;
-    NSArray *_examples;
-    NSString *_phrase;
-    NSString *_pronunciation;
 }
 
 + (_Bool);
@@ -28,29 +25,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)IntentResponseParameterMetadataFalseDisplayNameID;
+- (void)INIntentResponseParameterMetadataFalseDisplayNameID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *examples; // @synthesize examples=_examples;
-@property(readonly, nonatomic) unsigned long long examplesCount;
-@property(readonly, nonatomic) _Bool hasPhrase;
-@property(readonly, nonatomic) _Bool hasPronunciation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *phrase; // @synthesize phrase=_phrase;
-@property(copy, nonatomic) NSString *pronunciation; // @synthesize pronunciation=_pronunciation;
-@property(readonly) Class superclass;
 
 @end
 

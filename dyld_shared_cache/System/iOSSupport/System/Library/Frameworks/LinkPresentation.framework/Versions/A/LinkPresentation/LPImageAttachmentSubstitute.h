@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)sizeThatFits:textAlignmentInsets:tailInsets: /* Error: Ran out of types for this method. */;
+- (id)0:(id)arg1 8i16;
 - (void);
 - (id);
 - (long long);

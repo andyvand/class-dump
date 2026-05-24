@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPNowPlayingInfoLyricsItemToken, NSDate;
-
 @interface MPNowPlayingInfoLyricsEvent
 {
     void *_mediaRemoteLyricsEvent;
@@ -16,13 +14,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B,N,V_reportingEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate;
 @property(readonly, nonatomic) void *mediaRemoteLyricsEvent; // @synthesize mediaRemoteLyricsEvent=_mediaRemoteLyricsEvent;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) MPNowPlayingInfoLyricsItemToken *token;
 
 @end
 

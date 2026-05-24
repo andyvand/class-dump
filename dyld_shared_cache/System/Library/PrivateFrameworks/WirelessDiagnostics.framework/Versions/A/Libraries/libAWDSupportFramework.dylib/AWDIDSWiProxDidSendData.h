@@ -7,11 +7,6 @@
 @interface AWDIDSWiProxDidSendData
 {
     unsigned long long _resultCode;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int resultCode:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (_Bool);
@@ -21,22 +16,19 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)NStatusUpdateDelayBin4:(_Bool)arg1;
-- (unsigned long long);
+- (void)setHasNStatusUpdateDelayBin4:(_Bool)arg1;
+- (unsigned long long)_serviceKey;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResultCode;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

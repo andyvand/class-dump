@@ -8,6 +8,6 @@
 @protocol OS_os_log;
 
 @protocol EFLoggable
-+ (NSObject<OS_os_log> *)t;
++ (NSObject<OS_os_log> *)spanningSet;
 @end
 

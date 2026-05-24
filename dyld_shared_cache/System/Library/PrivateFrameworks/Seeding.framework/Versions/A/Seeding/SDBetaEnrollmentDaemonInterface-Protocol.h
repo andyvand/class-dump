@@ -5,5 +5,17 @@
 //
 
 @protocol SDBetaEnrollmentDaemonInterface
+- (void)@16f24;
+- (void);
+- (void)ns";
+- (void)or>";
+- (void)t";
+- (void)FPowerContext="cpuContext"Q"aneContext"Q"gpuContext"Q};
+- (void)text=QQQ}64{AFPowerContext=QQQ}88;
+- (void)xt=QQQ}16{AFPowerContext=QQQ}40{AFPowerContext=QQQ}64{AFPowerContext=QQQ}88Q112;
+- (void)v28@0:(void (^)(NSArray *))arg1 8B16@?20;
+- (void)SessionEvent"16@?<v@?B@"NSError">24;
+- (void)"@"NSError">32;
+- (void)NSDictionary"@"NSDictionary">32;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSTimer;
-@protocol OS_dispatch_queue, RWINotifier;
+@class NSDate;
 
 @interface RWINotificationWaiter
 {
     NSDate *_startTime;
-    unsigned long long _notificationHandlerID;
-    NSTimer *_watchdogTimer;
-    double _timeout;
-    id <RWINotifier> _notifier;
-    CDUnknownBlockType _predicate;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
@@ -26,23 +18,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?	;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)red
+;
 - (double);
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, nonatomic) double elapsedTime;
-@property(retain, nonatomic) id <RWINotifier> notifier; // @synthesize notifier=_notifier;
-@property(copy, nonatomic) CDUnknownBlockType predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end

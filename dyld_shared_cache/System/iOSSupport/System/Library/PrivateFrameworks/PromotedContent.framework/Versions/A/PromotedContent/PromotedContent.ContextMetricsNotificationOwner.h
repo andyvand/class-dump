@@ -7,8 +7,6 @@
 @interface PromotedContent.ContextMetricsNotificationOwner
 {
     id unfairLock;
-    id metricNotification;
-    id handlers;
 }
 
 @end

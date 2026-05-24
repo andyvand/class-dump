@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigMetalAllocator, NSString;
+@class FigMetalAllocator;
 @protocol MTLDeviceSPI;
 
 __attribute__((visibility("hidden")))
 @interface BWCoreImageIntermediateAllocator
 {
     id <MTLDeviceSPI> _device;
-    FigMetalAllocator *_metalAllocator;
-    unsigned long long _poolID;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)_collectionViewWidthConstraint;
+- (unsigned long long)ccessulSysdiagnoseFilenames;
+- (void)#;
 - (void);
 - (void);
 - (id);
 - (unsigned long long)÷´ÿÿ³ÿÿ²ÿÿ±ÿÿ±ÿÿ°ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDeviceSPI> device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long maxAvailableAllocationSize;
 @property(readonly) FigMetalAllocator *metalAllocator; // @synthesize metalAllocator=_metalAllocator;
-@property(readonly) unsigned long long poolID; // @synthesize poolID=_poolID;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long totalSize;
 
 @end
 

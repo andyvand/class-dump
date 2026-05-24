@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPDetails, GEORPNotification, GEORPResolution, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPProblemStatus
 {
     PBDataReader *_reader;
-    double _creationDate;
-    GEORPDetails *_details;
-    GEORPNotification *_notification;
-    NSString *_problemId;
-    GEORPResolution *_problemResolution;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _problemState;
-    struct {
-        unsigned int has_creationDate:1;
-        unsigned int has_problemState:1;
-        unsigned int read_details:1;
-        unsigned int read_notification:1;
-        unsigned int read_problemId:1;
-        unsigned int read_problemResolution:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)neID:(id)arg1;
++ (_Bool)setLineID:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
-- (id);
-- (id);
+- (id)defaultSortOrder;
+- (int)defaultPersistentStore;
+- (id)defaultNameOrder;
+- (id)defaultContainer;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,39 +33,28 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ptureMonitor"16B24@"CSAudioStartStreamOption"28@"NSString"36;
+- (void)spkrIdTimeDelta;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (id);
 - (void);
 - (void)0@ù
 × ;
 - (id)ead_clientCapabilities"b1"read_problemIds"b1"read_servicesState"b1"read_statusNotificationId"b1"read_userCredentials"b1"wrote_anyField"b1};
-- (_Bool)lientFeedbackInfo;
+- (_Bool)hasClientFeedbackInfo;
 - (id)components;
-- (void)odeID;
+- (void)_toNodeID;
 - (id)|s;
-- (id)Type_MODULE_TYPE_ANNOTATED_PICTURE;
-- (id)tions_intent_metadata;
+- (id)ElementType_MODULE_TYPE_ANNOTATED_PICTURE;
+- (id)query_directions_intent_metadata;
 - (void);þÛO@;
 - (id)A¹5é¶DhF@;
 - (void)8B3;
 
 // Remaining properties
-@property(nonatomic) double creationDate;
-@property(retain, nonatomic) GEORPDetails *details;
-@property(nonatomic) _Bool hasCreationDate;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasNotification;
 @property(readonly, nonatomic) _Bool hasProblemId;
-@property(readonly, nonatomic) _Bool hasProblemResolution;
-@property(nonatomic) _Bool hasProblemState;
-@property(retain, nonatomic) GEORPNotification *notification;
-@property(retain, nonatomic) NSString *problemId;
-@property(retain, nonatomic) GEORPResolution *problemResolution;
-@property(nonatomic) int problemState;
 
 @end
 

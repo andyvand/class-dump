@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     id <_UITextFieldEditingProcessorDelegate> _delegate;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ing"24@"NSString"32@"NSString"40;
+- (id)A;
 - (void)!Eùbð1Â0@ù
 × ;
 - (void)LP;

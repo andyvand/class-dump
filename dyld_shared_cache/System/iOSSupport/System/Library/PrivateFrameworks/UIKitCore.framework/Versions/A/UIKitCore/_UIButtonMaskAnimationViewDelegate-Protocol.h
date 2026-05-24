@@ -5,6 +5,6 @@
 //
 
 @protocol _UIButtonMaskAnimationViewDelegate
-- (void)Collection: /* Error: Ran out of types for this method. */;
+- (void)preferredFontDescriptorWithTextStyle:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
 @end
 

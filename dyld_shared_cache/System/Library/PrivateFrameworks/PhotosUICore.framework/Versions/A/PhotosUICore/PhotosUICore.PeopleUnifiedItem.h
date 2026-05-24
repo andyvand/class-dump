@@ -7,7 +7,6 @@
 @interface PhotosUICore.PeopleUnifiedItem
 {
     id backingItem;
-    id isElectedForMagicSlot;
 }
 
 @end

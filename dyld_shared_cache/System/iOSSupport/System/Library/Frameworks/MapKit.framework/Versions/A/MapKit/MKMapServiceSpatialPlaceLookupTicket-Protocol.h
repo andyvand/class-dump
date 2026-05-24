@@ -7,6 +7,8 @@
 @class GEOMapRegion;
 
 @protocol MKMapServiceSpatialPlaceLookupTicket
+- (void);
+- (void)shouldPostNotifications;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapRegion *boundingRegion;

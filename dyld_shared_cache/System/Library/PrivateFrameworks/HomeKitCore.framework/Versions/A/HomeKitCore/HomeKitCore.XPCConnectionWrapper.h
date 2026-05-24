@@ -7,8 +7,6 @@
 @interface HomeKitCore.XPCConnectionWrapper
 {
     id $defaultActor;
-    id xpcConnection;
-    id interruptionsStreamContainer;
 }
 
 @end

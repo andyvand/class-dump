@@ -5,5 +5,8 @@
 //
 
 @protocol NSUserActivityDelegate
+
+@optional
+- (void);
 @end
 

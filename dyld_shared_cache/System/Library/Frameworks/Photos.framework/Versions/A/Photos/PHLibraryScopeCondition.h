@@ -18,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setVideoPresentationState:(struct _NSZone *)arg1;
 - (id);
 - (void)questHelper",R,N,V_collectionsHelper;
 
 // Remaining properties
-@property(nonatomic) unsigned long long criteria; // @dynamic criteria;
 @property(retain, nonatomic) PLLibraryScopeCondition *proxyObject; // @synthesize proxyObject=_proxyObject;
-@property(readonly, nonatomic) unsigned long long type; // @dynamic type;
 
 @end
 

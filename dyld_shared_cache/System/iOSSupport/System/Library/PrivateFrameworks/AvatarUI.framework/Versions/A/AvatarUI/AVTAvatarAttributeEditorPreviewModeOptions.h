@@ -9,16 +9,14 @@
 @interface AVTAvatarAttributeEditorPreviewModeOptions
 {
     NSString *_framingMode;
-    NSString *_bodyPosePack;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyPosePack; // @synthesize bodyPosePack=_bodyPosePack;
 @property(readonly, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;
 
 @end

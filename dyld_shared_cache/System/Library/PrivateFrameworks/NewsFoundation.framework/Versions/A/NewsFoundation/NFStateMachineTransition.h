@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachine, NFStateMachineEvent, NFStateMachineState;
-@protocol NFStateMachineContextType;
+@class NFStateMachine;
 
 @interface NFStateMachineTransition
 {
     NFStateMachine *_stateMachine;
-    NFStateMachineEvent *_event;
-    NFStateMachineState *_fromState;
-    NFStateMachineState *_toState;
-    id <NFStateMachineContextType> _context;
 }
 
 - (id);
@@ -21,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -32,11 +27,7 @@
 - (void)4@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <NFStateMachineContextType> context; // @synthesize context=_context;
-@property(retain, nonatomic) NFStateMachineEvent *event; // @synthesize event=_event;
-@property(retain, nonatomic) NFStateMachineState *fromState; // @synthesize fromState=_fromState;
 @property(retain, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(retain, nonatomic) NFStateMachineState *toState; // @synthesize toState=_toState;
 
 @end
 

@@ -6,16 +6,13 @@
 
 #import <CMCapture/BWMetadataTimeMachineRequest.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface BWMetadataTimeMachineMetadataRequest : BWMetadataTimeMachineRequest
 {
     CDStruct_e83c9415 _ptsRange;
-    NSArray *_metadataForPTSRange;
 }
 
-- (void);
+- (void)X/;
 - (id);
 
 @end

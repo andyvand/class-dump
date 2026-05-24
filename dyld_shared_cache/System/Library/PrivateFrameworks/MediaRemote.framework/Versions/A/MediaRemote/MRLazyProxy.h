@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
-
 @interface MRLazyProxy
 {
     CDUnknownBlockType _objectCallback;
-    Protocol *_protocol;
 }
 
 + (id);
@@ -17,11 +14,10 @@
 - (void);
 - (id);
 - (void)rollerInputModeCallbackQueue;
-- (id)emoteCommandInfoIsActiveKey;
+- (id)kMRMediaRemoteCommandInfoIsActiveKey;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType objectCallback; // @synthesize objectCallback=_objectCallback;
-@property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

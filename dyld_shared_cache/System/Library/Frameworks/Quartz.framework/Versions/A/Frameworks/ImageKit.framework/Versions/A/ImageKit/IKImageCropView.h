@@ -4,83 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIImage, IKImageCropPRS, IKImageCropViewEffect, IKImageCropViewSlider, IKImageWrapper, IKMipmapImage, IKSFCropElement, NSAttributedString, NSButton, NSColor, NSImage, NSMutableArray, NSProgressIndicator, NSString, NSTimer, NSUndoManager, QCRenderer;
+@class IKImageWrapper;
 
 @interface IKImageCropView
 {
     IKImageWrapper *_originalImage;
-    IKImageCropPRS *_cropPRS;
-    struct CGSize _sourceSize;
-    float _zoomValue;
-    float _cropFrameZoomValue;
-    float _zoomFactorMinResolution;
-    float _zoomFactorMaxResolution;
-    id _delegate;
-    NSColor *_backgroundColor;
-    NSColor *_cropBackgroundColor;
-    NSColor *_dimmedLayerColor;
-    NSColor *_alphaFrameColor;
-    NSColor *_borderColor;
-    struct CGSize _cropSize;
-    int _cropZoneBehavior;
-    _Bool _allowEdit;
-    int _constraintMode;
-    _Bool _allowRotations;
-    _Bool _showZoomSlider;
-    _Bool _showZoomMinMax;
-    _Bool _showValidateButton;
-    _Bool _acceptsDrop;
-    int _borderType;
-    NSProgressIndicator *_progressIndicator;
-    _Bool _defaultCropIsZoomToFit;
-    _Bool _useOverlayMask;
-    NSImage *_overlayMaskImage;
-    struct CGPoint _dragOrigin;
-    IKImageCropPRS *_dragInitialCropPRS;
-    float _dragOriginRotation;
-    struct CGPoint _dragOriginGizmoPosition;
-    float _dragCurrentRotation;
-    float _dragLastRotation;
-    _Bool _inImageDrag;
-    int _clockwiseRotation;
-    IKImageCropViewEffect *_draggedGizmo;
-    _Bool _mouseInside;
-    _Bool _keepFocusMode;
-    struct CGPoint _focus;
-    _Bool _focusValid;
-    _Bool _nicestDrawingMode;
-    _Bool _nicestDrawPosted;
-    IKImageCropViewSlider *_zoomSlider;
-    NSButton *_zoomMinButton;
-    NSButton *_zoomMaxButton;
-    _Bool _centeredVerticalAlignment;
-    NSString *_informationalString;
-    NSAttributedString *_informationalAttributedString;
-    _Bool _datasourceStable;
-    _Bool _preloadThreadLaunched;
-    CIContext *_context;
-    NSMutableArray *_ciEffects;
-    IKSFCropElement *_imageAffineTransform;
-    IKSFCropElement *_imageAffineRotation;
-    IKSFCropElement *_viewAffineTransform;
-    IKSFCropElement *_cameraElement;
-    _Bool _inCameraMode;
-    CIImage *_lastRenderedCIImage;
-    IKImageCropViewEffect *_qcEffect;
-    struct CGSize _offscreeQCCacheSize;
-    struct CGContext *_offscreenCGContext;
-    QCRenderer *_offscreenQCRenderer;
-    IKImageWrapper *_qcBuffer;
-    NSUndoManager *_undoManager;
-    NSTimer *_animatedGifsTimer;
-    int _currentAnimatedImageFrame;
-    int _onAnimatedImageTimerCount;
-    _Bool _animates;
-    _Bool _isDirty;
-    IKMipmapImage *_mipmap;
-    struct CGImage *_ciInputCache;
-    _Bool _drawContent;
-    _Bool _usesCircularCrop;
 }
 
 + (id);
@@ -89,14 +17,14 @@
 + (id);
 - (float);
 - (float);
-- (float);
+- (float);
 - (struct CGSize);
 - (void);
 - (void);
 - (float);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (float);
 - (_Bool);
 - (_Bool);
@@ -134,8 +62,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
@@ -158,7 +86,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (void);
@@ -187,7 +115,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -198,7 +126,7 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -216,31 +144,31 @@
 - (void);
 - (float);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setBudgetLimit:(struct CGSize)arg1 forDay: /* Error: Ran out of types for this method. */;
+- (void)isEqualToNumber:(int)arg1;
+- (void)initWithDictionaryRepresentation:(_Bool)arg1;
+- (void)_resultsController;
+- (void)_categoryUsageWithoutAllUsageItem;
+- (void)_allowExplicitMediaContent;
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (void)torefrontClient fetching storefront for remote child with DSID %{public}@, parent account %@...;
+- (void)ud:(id)arg1 %{public}@;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (_Bool);
+- (void)_populateDuplicatingAssetCreationRequest:(id)arg1 photoLibrary:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)2@?0@"NSArray"8@"NSArray"16@"NSArray"24@"NSArray"32@"NSArray"40@"NSArray"48@"PHSearchQueryMatchDetails"56@"NSAttributedString"64@"NSAttributedString"72B80@"NSError"84;
 - (void);
 - (_Bool);
 - (id);
@@ -265,9 +193,9 @@
 × ;
 - (_Bool)Qî1Â0@ù
 × ;
-- (struct CGRect)nsforms;
+- (struct CGRect)resetTransforms;
 - (void)¨;
-- (void)cation;
+- (void)Communication;
 - (void)ÿ;
 - (void)ÿs86;
 

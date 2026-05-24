@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Logging)
-- (id);
+- (id)X;
 - (id);
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol _INPBIntentSlotVocabularyValue
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *examples;
-@property(readonly, nonatomic) unsigned long long examplesCount;
-@property(readonly, nonatomic) _Bool hasPhrase;
-@property(readonly, nonatomic) _Bool hasPronunciation;
-@property(copy, nonatomic) NSString *phrase;
-@property(copy, nonatomic) NSString *pronunciation;
 @end
 

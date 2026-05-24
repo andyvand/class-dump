@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface SISchemaUEISiriWasUnavailable : SISchemaInstrumentationMessage
 {
     int _product;
-    int _reason;
-    NSArray *_assetTypes;
-    NSArray *_siriUnavailabilityReasons;
-    int _orchestrationMode;
-    struct {
-        unsigned int product:1;
-        unsigned int reason:1;
-        unsigned int orchestrationMode:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -34,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -47,31 +36,23 @@
 - (void);
 - (int);
 - (id);
-- (int);
+- (int)_isAllowedToSwitchTransportTypes;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getAppEventsWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/IMDCNPersonAliasResolver.m;
 - (void);
 - (id);
 - (id);
-- (id)itted;
-- (id)ted;
+- (id)deleteFlowOutputSubmitted;
+- (id)_hasCloudKitErrorReported;
 - (void)nt.PNRODScheduleDebugSummary;
-- (void)UPFAILUREREASON_ERROR_DURING_CDM_SETUP;
+- (void)CDMCLIENTSETUPFAILUREREASON_ERROR_DURING_CDM_SETUP;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *assetTypes; // @synthesize assetTypes=_assetTypes;
-@property(nonatomic) _Bool hasOrchestrationMode;
-@property(nonatomic) _Bool hasProduct;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int orchestrationMode; // @synthesize orchestrationMode=_orchestrationMode;
 @property(nonatomic) int product; // @synthesize product=_product;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSArray *siriUnavailabilityReasons; // @synthesize siriUnavailabilityReasons=_siriUnavailabilityReasons;
 
 @end
 

@@ -6,31 +6,23 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLAppleWordTaggerParameters, NSString;
+@class MLAppleWordTaggerParameters;
 
 @interface MLAppleWordTagger : MLModel
 {
     void *wordTaggingModel;
-    MLAppleWordTaggerParameters *_parameters;
 }
 
 + (_Bool);
 + (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void)er the output feature named '%@' has a dynamic shape with error:%d. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLAppleWordTaggerParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

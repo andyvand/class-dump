@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *appPunchOut;
-@property(nonatomic) _Bool showKeyLine;
 
 @end
 

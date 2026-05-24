@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *factorArray; // @dynamic factorArray;
-@property(readonly, nonatomic) unsigned long long factorArray_Count; // @dynamic factorArray_Count;
 
 @end
 

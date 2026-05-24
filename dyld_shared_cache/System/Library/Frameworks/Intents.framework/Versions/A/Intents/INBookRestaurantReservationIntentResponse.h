@@ -6,7 +6,7 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INRestaurantReservationUserBooking, NSString;
+@class INRestaurantReservationUserBooking;
 
 @interface INBookRestaurantReservationIntentResponse : INIntentResponse
 {
@@ -18,24 +18,16 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ionHandler;
+- (void)' must be called before dealloc;
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)__INIntentCodablePhrasePronunciationHintID;
 - (void)lIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INRestaurantReservationUserBooking *userBooking; // @synthesize userBooking=_userBooking;
 
 @end
 

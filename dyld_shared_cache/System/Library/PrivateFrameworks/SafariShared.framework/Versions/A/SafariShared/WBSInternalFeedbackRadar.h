@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, WBSInternalFeedbackRadarComponent;
+@class WBSInternalFeedbackRadarComponent;
 
 @interface WBSInternalFeedbackRadar
 {
     _Bool _disableAutoDiagnostics;
-    WBSInternalFeedbackRadarComponent *_component;
-    NSString *_title;
-    NSString *_descriptionTemplate;
-    NSString *_classification;
-    NSString *_reproducibility;
-    NSArray *_keywords;
-    NSArray *_attachmentPaths;
-    NSArray *_extensionIdentifiers;
 }
 
 - (void);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -43,16 +35,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attachmentPaths; // @synthesize attachmentPaths=_attachmentPaths;
-@property(copy, nonatomic) NSString *classification; // @synthesize classification=_classification;
 @property(copy, nonatomic) WBSInternalFeedbackRadarComponent *component; // @synthesize component=_component;
-@property(readonly, copy, nonatomic) NSURL *continueInTapToRadarURL;
-@property(copy, nonatomic) NSString *descriptionTemplate; // @synthesize descriptionTemplate=_descriptionTemplate;
-@property(nonatomic) _Bool disableAutoDiagnostics; // @synthesize disableAutoDiagnostics=_disableAutoDiagnostics;
-@property(copy, nonatomic) NSArray *extensionIdentifiers; // @synthesize extensionIdentifiers=_extensionIdentifiers;
-@property(copy, nonatomic) NSArray *keywords; // @synthesize keywords=_keywords;
-@property(copy, nonatomic) NSString *reproducibility; // @synthesize reproducibility=_reproducibility;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

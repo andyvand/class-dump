@@ -11,17 +11,15 @@
 @interface MPChangeLanguageOptionCommandEvent : MPRemoteCommandEvent
 {
     MPNowPlayingInfoLanguageOption *_languageOption;
-    long long _setting;
 }
 
-- (id);
+- (id)grantStmt;
 - (id);
 - (long long);
-- (void);
+- (void)collectionPersistentIdentifiers;
 
 // Remaining properties
 @property(readonly, nonatomic) MPNowPlayingInfoLanguageOption *languageOption; // @synthesize languageOption=_languageOption;
-@property(readonly, nonatomic) long long setting; // @synthesize setting=_setting;
 
 @end
 

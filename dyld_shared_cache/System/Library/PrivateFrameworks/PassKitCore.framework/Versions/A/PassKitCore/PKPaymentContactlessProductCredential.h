@@ -6,35 +6,29 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSDictionary, NSString, PKPaymentSetupProduct;
+@class NSString, PKPaymentSetupProduct;
 
 @interface PKPaymentContactlessProductCredential : PKPaymentCredential
 {
     PKPaymentSetupProduct *_product;
-    NSString *_productIdentifier;
-    NSDictionary *_readerModeMetadata;
-    NSString *_cardSessionToken;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void)ber;
+- (void)targetDeviceSerialNumber;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardSessionToken; // @synthesize cardSessionToken=_cardSessionToken;
-@property(readonly, copy, nonatomic) PKPaymentSetupProduct *product; // @synthesize product=_product;
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(copy, nonatomic) NSDictionary *readerModeMetadata; // @synthesize readerModeMetadata=_readerModeMetadata;
 
 @end
 

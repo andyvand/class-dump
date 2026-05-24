@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSString;
+
 @protocol MZMediaManagement
+- (NSString *)loggedOut;
+- (NSString *)isProxyConnection;
+- (NSString *)cellularRadioAccessTechnology;
+- (_Bool)FCEndpointEnvironment;
+- (struct __IOSurface *);
+
+@optional
+- (id);
+- (NSData *)analyticsEndpointMaxPayloadSize;
 @end
 

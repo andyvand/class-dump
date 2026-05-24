@@ -6,18 +6,18 @@
 
 @interface UnknownClass (TSUTemporaryDirectoryAdditions)
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)gXw;
+- (void)GSg;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)hortcutsEventHandlerTypeP;
+- (_Bool)wsUI230WebEmbedInteractorTypeDelegateP;
+- (_Bool)ardingManagerObserverP;
 - (_Bool);
+- (void)eP;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)derTypeP;
 - (_Bool);
 - (unsigned long long);
 @end

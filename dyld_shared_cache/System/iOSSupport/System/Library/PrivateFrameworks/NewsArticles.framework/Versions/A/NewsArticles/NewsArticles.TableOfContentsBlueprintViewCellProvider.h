@@ -7,8 +7,6 @@
 @interface NewsArticles.TableOfContentsBlueprintViewCellProvider
 {
     id delegate;
-    id headerViewRenderer;
-    id pdfCellRenderer;
 }
 
 @end

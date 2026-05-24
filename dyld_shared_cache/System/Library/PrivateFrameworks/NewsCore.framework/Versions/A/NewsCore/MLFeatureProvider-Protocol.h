@@ -7,7 +7,7 @@
 @class MLFeatureValue, NSSet, NSString;
 
 @protocol MLFeatureProvider
-- (NSSet *)rInitializationData: /* Error: Ran out of types for this method. */;
+- (NSSet *)contentKeySession:didProvideContentKeyRequests:forInitializationData: /* Error: Ran out of types for this method. */;
 - (MLFeatureValue *)eadlineUtilities transformed heldTagRecords:(NSString *)arg1 %lu into tags:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties

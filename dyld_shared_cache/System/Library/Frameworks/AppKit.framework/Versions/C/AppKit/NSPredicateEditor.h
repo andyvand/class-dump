@@ -11,36 +11,28 @@
 @interface NSPredicateEditor : NSRuleEditor
 {
     NSArray *_rootTrees;
-    id _allTemplates;
-    NSArray *_rootHeaderTrees;
-    id _predicateTarget;
-    SEL _predicateAction;
-    struct {
-        unsigned int suppressAction:4;
-        unsigned int reserved:28;
-    } _peFlags;
 }
 
 - (void);
 - (id);
 - (void);
+- (void)32@"NSUUID"40@?<v@?B>48;
+- (_Bool)SessionConfiguration",R,W;
 - (void);
+- (void);
+- (void);
+- (unsigned long long)Xg6;
+- (void)rt_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)4;
+- (id);
+- (void)6;
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)ate:(id)arg1:Canceled) || (_state == State::Error) /* Error: Ran out of types for this method. */;
+- (void)mesCompletion;
+- (_Bool)o.uk;
 - (id);
 - (id);
 - (unsigned long long);

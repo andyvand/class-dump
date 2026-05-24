@@ -6,24 +6,9 @@
 
 #import <SceneKit/SCNGeometry.h>
 
-@class NSBezierPath, NSFont, NSString;
-
 @interface SCNText : SCNGeometry
 {
     float _flatness;
-    float _chamferRadius;
-    float _extrusionDepth;
-    float _discretizedStraightLineMaxLength;
-    NSBezierPath *_chamferProfile;
-    long long _primitiveType;
-    id _string;
-    NSFont *_font;
-    _Bool _wrapped;
-    int _alignmentMode;
-    int _truncationMode;
-    _Bool _useCustomContainerFrame;
-    struct CGRect _customContainerFrame;
-    _Bool __wantsSeparateGeometryElements;
 }
 
 + (id);
@@ -53,9 +38,9 @@
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (CDStruct_8bd95810);
+- (CDStruct_8b503eb2){;
 - (void);
-- (id);
+- (id)thirtytwo;
 - (long long);
 - (void);
 - (void);
@@ -66,34 +51,23 @@
 - (id);
 - (id);
 - (id);
+- (id)ailed to notify client of updated audio destination due to no delegate caller for context:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)E;
+- (struct CGRect)urce_type = 1;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (id)in (void)
 {	
 	gl_FragColor =	texture2D(textureSampler0,TexCoord);
 };
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alignmentMode;
-@property(copy, nonatomic) NSBezierPath *chamferProfile;
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) long long chamferSegmentCount;
-@property(nonatomic) struct CGRect containerFrame;
 @property(nonatomic) double extrusionDepth;
-@property(nonatomic) double flatness;
-@property(retain, nonatomic) NSFont *font;
-@property(copy, nonatomic) id string;
-@property(readonly, nonatomic) struct CGSize textSize;
-@property(copy, nonatomic) NSString *truncationMode;
-@property(nonatomic, getter=isWrapped) _Bool wrapped;
 
 @end
 

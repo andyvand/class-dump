@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, NSString;
-@protocol GEOPictureItemContainer, GEOTextItemContainer;
+@protocol GEOPictureItemContainer;
 
 @interface GEOAnnotatedItemList
 {
     id <GEOPictureItemContainer> _pictureItemContainer;
-    id <GEOTextItemContainer> _textItemContainer;
-    NSString *_title;
-    int _annotatedItemStyle;
-    GEOMapItemAttribution *_attribution;
 }
 
 - (id);
+- (id)_coalescingWindow;
 - (id);
 - (id);
-- (id);
-- (int);
+- (int)!;
 - (id);
 - (id);
 - (id)ÿÿÿÿ;
 - (void)ûé6;
 
 // Remaining properties
-@property(readonly, nonatomic) int annotatedItemStyle; // @synthesize annotatedItemStyle=_annotatedItemStyle;
-@property(readonly, nonatomic) GEOMapItemAttribution *attribution; // @synthesize attribution=_attribution;
 @property(readonly, nonatomic) id <GEOPictureItemContainer> pictureItemContainer; // @synthesize pictureItemContainer=_pictureItemContainer;
-@property(readonly, nonatomic) id <GEOTextItemContainer> textItemContainer; // @synthesize textItemContainer=_textItemContainer;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

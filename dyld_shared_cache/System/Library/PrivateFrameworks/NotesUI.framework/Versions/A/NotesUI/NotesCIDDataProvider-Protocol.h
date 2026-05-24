@@ -5,5 +5,6 @@
 //
 
 @protocol NotesCIDDataProvider
+- (_Bool);
 @end
 

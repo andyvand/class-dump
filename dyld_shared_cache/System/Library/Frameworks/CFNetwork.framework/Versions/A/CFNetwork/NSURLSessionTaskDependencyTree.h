@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)blacklenticularbracketleftvertical;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *mainDocumentURL; // @synthesize mainDocumentURL=_mainDocumentURL;

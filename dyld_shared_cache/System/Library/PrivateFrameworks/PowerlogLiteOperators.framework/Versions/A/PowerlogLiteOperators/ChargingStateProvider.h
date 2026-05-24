@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol ChargingStateProviderDelegate, OS_dispatch_queue;
+@protocol ChargingStateProviderDelegate;
 
 @interface ChargingStateProvider
 {
     int _chargingIconographyStateNotifyToken;
-    int _powerSourceNotifyToken;
-    int _uisocChangeToken;
-    int _chargeToFullNotifyToken;
-    int _chargingStatusOverrideNotifyToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_delegates;
-    _Bool _isLowPowerModeEnabled;
-    _Bool _isExternallyConnected;
-    _Bool _isEoc;
-    _Bool _isPaused;
-    _Bool _isSlowCharger;
-    short _chargingState;
-    int _uisocLevel;
-    id <ChargingStateProviderDelegate> _delegate;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 - (int);
 - (void);
@@ -48,7 +33,7 @@
 - (_Bool);
 - (id);
 - (short);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (_Bool);
@@ -60,7 +45,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)q;
 - (short);
 - (id);
 - (void)¼;
@@ -68,14 +53,7 @@
 ;
 
 // Remaining properties
-@property short chargingState; // @synthesize chargingState=_chargingState;
 @property(nonatomic) __weak id <ChargingStateProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool isEoc; // @synthesize isEoc=_isEoc;
-@property _Bool isExternallyConnected; // @synthesize isExternallyConnected=_isExternallyConnected;
-@property _Bool isLowPowerModeEnabled; // @synthesize isLowPowerModeEnabled=_isLowPowerModeEnabled;
-@property _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property _Bool isSlowCharger; // @synthesize isSlowCharger=_isSlowCharger;
-@property int uisocLevel; // @synthesize uisocLevel=_uisocLevel;
 
 @end
 

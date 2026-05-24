@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSMutableArray;
+@class NSArray, NSError;
 
 __attribute__((visibility("hidden")))
 @interface _NSKeyedUnarchiverHelper
 {
     NSArray *_allowed;
-    unsigned int _lastRef;
-    NSMutableArray *_allowedClasses;
-    NSError *_decodeError;
-    _Bool expectsUnnestedCollection;
-    _Bool decodedCollection;
 }
 
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);

@@ -13,7 +13,7 @@
     NSMutableSet *_keyframes;
 }
 
-+ (id);
++ (id)!;
 + (_Bool);
 - (void);
 - (void);
@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -42,7 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);

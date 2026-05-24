@@ -11,14 +11,13 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)6;
 - (id);
-- (unsigned long long);
+- (unsigned long long)i found in emojiString:%@ /* Error: Ran out of types for this method. */;
 - (struct _MRHIDTouchEvent);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MRHIDTouchEvent event;
-@property(readonly, nonatomic) unsigned long long virtualDeviceID;
 
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (struct CGSize);
+- (void)ectView;
+- (struct CGSize);;
 
 @end
 

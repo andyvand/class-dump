@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface KtraceLoggingDataSource
 {
     _Bool _skipFirst;
-    struct ktrace_file *_ktfile;
-    struct ktrace_chunk *_nextChunk;
-    NSData *_metadata;
 }
 
 - (void);
@@ -24,14 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)id device identifier data:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct ktrace_file *_ktfile; // @synthesize _ktfile;
-@property(retain, nonatomic) NSData *_metadata; // @synthesize _metadata;
-@property(nonatomic) struct ktrace_chunk *_nextChunk; // @synthesize _nextChunk;
-@property(nonatomic) _Bool _skipFirst; // @synthesize _skipFirst;
 
 @end
 

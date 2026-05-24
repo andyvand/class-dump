@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGCuratedEventKey, SGEntity;
-
 @interface SGRealtimeEventResponse
 {
     int _state;
-    SGEntity *_entity;
-    SGCuratedEventKey *_duplicateEventKey;
 }
 
+- (id)0.;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (int);
+- (id);
+- (int);
 - (id);
 - (void)D¢ËÿÿÿÿÿÌ;
 
 // Remaining properties
-@property(readonly, nonatomic) SGCuratedEventKey *duplicateEventKey; // @synthesize duplicateEventKey=_duplicateEventKey;
-@property(readonly, nonatomic) SGEntity *entity; // @synthesize entity=_entity;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
 
 @end

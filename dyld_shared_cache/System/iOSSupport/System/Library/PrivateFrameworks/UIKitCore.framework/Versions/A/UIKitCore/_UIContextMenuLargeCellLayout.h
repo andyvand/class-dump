@@ -4,97 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView;
+@class _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLargeCellLayout
 {
     _UIContextMenuCellContentView *_contentView;
-    NSArray *_managedConstraints;
-    NSLayoutConstraint *_topToFirstBaseline;
-    NSLayoutConstraint *_lastBaselineToBottom;
-    NSLayoutConstraint *_leadingToLabelStackViewLeading;
-    NSLayoutConstraint *_decorationViewCenterX;
-    NSLayoutConstraint *_iconViewCenterXToTrailing;
-    NSLayoutConstraint *_labelStackViewTrailingToIconViewCenterX;
-    NSLayoutConstraint *_minHeightConstraint;
-    NSLayoutConstraint *_labelStackViewTrailingToDecorationViewLeading;
-    NSLayoutConstraint *_keyboardShortcutTrailingToTrailing;
-    NSLayoutConstraint *_labelStackViewTrailingToKeyboardShortcutLeading;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)validateSpotlightClientStateWithCompletion:(id)arg1;
+- (void)updateServicesForChatWithGUID:(id)arg1 services:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)updateEngroupCreationDate:(id)arg1;
+- (void)unreadCountForChatsWithGUIDs:(id)arg1;
+- (void)unassignIdentifier:(id)arg1 fromChatRecordWithGUID:forDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClasses:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClass:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)transferState;
+- (void)startWatchingBuddy:(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)setCkChatSyncControllerNeedsSync:(id)arg1;
+- (void)service:(unsigned long long)arg1 account:(id)arg2 incomingResourceAtURL:metadata:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)isSMSFilteringEnabledInSMSFilterCapabilitiesOptions;
+- (id)handleEditMessageCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleAKUserInfoChangedNotification: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:addedActiveConversation: /* Error: Ran out of types for this method. */;
+- (id)chatsWithGroupedHandles:displayName:style: /* Error: Ran out of types for this method. */;
+- (id)buddyPictures;
+- (id)balloonPluginBundleID;
+- (long long)availabilityOffGridRecipientEncryptionValidationTokenWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (id)availabilityOffGridRecipientEncryptionValidationToken;
+- (id)availabilityOffGridRecipientEncryptionValidationToken;
+- (id)automationCompletionBlock;
+- (unsigned long long)autoReplier:sendNotifyRecipientCommandForMessages:inChat: /* Error: Ran out of types for this method. */;
+- (id)associatedMessageRangeLocation;
+- (void)_shouldFindAssociatedMessagePartTextForMessageItem: /* Error: Ran out of types for this method. */;
+- (id)isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)fromIdentifier:toIdentifier:participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchID:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (long long)estSinceLoadDate;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
+- (id)x;
+- (_Bool)und duplicate message for GUID %@ on Service %@ and it did not have an error;
 - (id);
 - (void)!xAùa°1Â0@ù
 × ;
 - (void)ublicState;
-- (long long)iewAndSubview;
+- (long long)ScrollViewAndSubview;
 - (id);
 - (void)ü×þ2JU;
 - (id)*=ÖTc;
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSLayoutConstraint *decorationViewCenterX; // @synthesize decorationViewCenterX=_decorationViewCenterX;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(retain, nonatomic) NSLayoutConstraint *iconViewCenterXToTrailing; // @synthesize iconViewCenterXToTrailing=_iconViewCenterXToTrailing;
-@property(retain, nonatomic) NSLayoutConstraint *keyboardShortcutTrailingToTrailing; // @synthesize keyboardShortcutTrailingToTrailing=_keyboardShortcutTrailingToTrailing;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToDecorationViewLeading; // @synthesize labelStackViewTrailingToDecorationViewLeading=_labelStackViewTrailingToDecorationViewLeading;
-@property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToIconViewCenterX; // @synthesize labelStackViewTrailingToIconViewCenterX=_labelStackViewTrailingToIconViewCenterX;
-@property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToKeyboardShortcutLeading; // @synthesize labelStackViewTrailingToKeyboardShortcutLeading=_labelStackViewTrailingToKeyboardShortcutLeading;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(retain, nonatomic) NSLayoutConstraint *lastBaselineToBottom; // @synthesize lastBaselineToBottom=_lastBaselineToBottom;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSLayoutConstraint *leadingToLabelStackViewLeading; // @synthesize leadingToLabelStackViewLeading=_leadingToLabelStackViewLeading;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *minHeightConstraint; // @synthesize minHeightConstraint=_minHeightConstraint;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *topToFirstBaseline; // @synthesize topToFirstBaseline=_topToFirstBaseline;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

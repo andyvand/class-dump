@@ -7,12 +7,9 @@
 @class NSString;
 
 @protocol PAPixelFormat
+- (_Bool)@32;
 
 // Remaining properties
-@property(readonly) unsigned long long bitsPerPixel;
-@property(readonly) unsigned long long bitsPerSample;
-@property(readonly) _Bool hasAlpha;
 @property(readonly) NSString *name;
-@property(readonly) unsigned long long numberOfComponents;
 @end
 

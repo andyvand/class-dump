@@ -5,5 +5,7 @@
 //
 
 @protocol _DKKnowledgeSynchronizing
+- (_Bool)supportsHeapAccelerationStructureAllocation;
+- (_Bool)`;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegularExpression, NSSet, NSString;
+@class NSRegularExpression, NSSet;
 
 @interface ICSearchResultRegexMatchFinder
 {
     NSRegularExpression *_normalRegex;
-    NSSet *_prefixMatchingTokens;
-    NSSet *_substringMatchingTokens;
-    NSString *_searchString;
-    NSRegularExpression *_fallbackRegex;
 }
 
 + (_Bool);
@@ -27,20 +23,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)RE;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)cription;
+- (void)accessibilityRoleDescription;
 - (void)k;
 - (id)note %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSRegularExpression *fallbackRegex; // @synthesize fallbackRegex=_fallbackRegex;
-@property(retain, nonatomic) NSRegularExpression *normalRegex; // @synthesize normalRegex=_normalRegex;
 @property(retain, nonatomic) NSSet *prefixMatchingTokens; // @synthesize prefixMatchingTokens=_prefixMatchingTokens;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) NSSet *substringMatchingTokens; // @synthesize substringMatchingTokens=_substringMatchingTokens;
 
 @end
 

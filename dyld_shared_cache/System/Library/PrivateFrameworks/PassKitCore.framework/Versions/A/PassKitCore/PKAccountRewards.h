@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PKCurrencyAmount, PKPaymentTransactionRewards;
+@class NSString;
 
 @interface PKAccountRewards
 {
     NSString *_identifier;
-    PKCurrencyAmount *_currencyAmount;
-    NSString *_status;
-    long long _statusCode;
-    PKPaymentTransactionRewards *_rewards;
-    unsigned long long _type;
-    NSSet *_transactionIdentifiers;
-    NSSet *_rewardsAddedIdentifiers;
 }
 
 + (id);
@@ -26,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_=;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -37,7 +30,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_tvOSPeers;
 - (void);
 - (void);
 - (id);
@@ -45,26 +38,12 @@
 - (void);
 - (id)
 × ;
-- (void)otSharingMode;
+- (void)notSharingMode;
 - (long long)";
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKPaymentTransactionRewards *rewards; // @synthesize rewards=_rewards;
-@property(copy, nonatomic) NSSet *rewardsAddedIdentifiers; // @synthesize rewardsAddedIdentifiers=_rewardsAddedIdentifiers;
-@property(copy, nonatomic) NSString *status; // @synthesize status=_status;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *transactionIdentifiers; // @synthesize transactionIdentifiers=_transactionIdentifiers;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

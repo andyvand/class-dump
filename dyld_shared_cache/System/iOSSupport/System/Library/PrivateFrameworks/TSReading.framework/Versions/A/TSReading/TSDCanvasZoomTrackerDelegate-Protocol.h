@@ -5,5 +5,8 @@
 //
 
 @protocol TSDCanvasZoomTrackerDelegate
+- (void);
+- (void)jO;
+- (void)PlayerBoundaryTimeSubscription;
 @end
 

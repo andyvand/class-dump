@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNGenerateAnimalSegmentationRequestConfiguration : VNImageBasedRequestConfiguration
 {
     unsigned int _outputPixelFormat;
-    long long _qualityLevel;
 }
 
 - (id);

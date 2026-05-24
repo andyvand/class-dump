@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WuluDecoder
 {
     unsigned long long decoderState;
-    _Bool debug;
 }
 
 + (id);
@@ -42,12 +41,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)C;
+- (id)oševi;
+- (id)indexFromBundle:(id)arg1 protectionClass:(id)arg2 options:(id)arg3 items:(id)arg4 itemsText:(id *)arg5 itemsHTML:clientState:expectedClientState:clientStateName:deletes:userActivities:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ketUsed: /* Error: Ran out of types for this method. */;
+- (void)getGreenCarTicketUsed: /* Error: Ran out of types for this method. */;
 
 @end
 

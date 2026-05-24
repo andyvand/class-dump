@@ -11,12 +11,12 @@
     _Bool _managedOnly;
 }
 
-+ (Class);
++ (Class)=;
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);

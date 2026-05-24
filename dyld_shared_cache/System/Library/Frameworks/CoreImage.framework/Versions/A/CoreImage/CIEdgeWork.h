@@ -6,27 +6,25 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIEdgeWork : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)nvvvzzzzYtr|uuuullllU[OcM`Ti~~~~w¡¡¡²²²²°°°°Jc[oVaYbiiiiruuwutttt=NDS-;*ABF:FUZYZggggffefIWIdTf\qy~`qhff    |^~v¢ £«ªª««    zxxxxYaaaFNENIICIKLILAPHQLZT_ttst|{|Ypl|tvtyzzzzvyyyktpw~{x~r}uuuuppppkicm_bYmWg_u~trnwYkfqssssfjcn=XJm{\un}z~y~Ti]wDdWyu¡wwwwlrqu~~~~svrOja~¥¥¥¥­­­­t{?dZyD\OnMg_shyy|zzzzXhckAOB[9I<UJQFS=K?O6E5IGN?P^_Ug{¦¦¦¦¡¨¨w|w©©©©¯¯¯¯©©©©|lkbl:P>]ah^meqmuuuuu}}}}YmjtBUHgM`Wl||||}}}}hkdoMYKeD]QhanfrttntI\NlX]Pjvvvv}}}}mqmxXjeumqqqJ]U`%C3Vdhck{Ee_w /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

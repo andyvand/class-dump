@@ -9,11 +9,10 @@
 @interface NEAgentPacketTunnelExtension : NEAgentTunnelExtension
 {
     _Bool _isUserEthernetInterfaceCreated;
-    long long _interfaceType;
 }
 
 - (void);
-- (void);
+- (void)t;
 - (void);
 
 @end

@@ -9,23 +9,19 @@
 @interface PGGraphMemoriesEnrichmentProcessorMemoryNodesToSort
 {
     NSArray *_memoryNodesWithoutLocalMemory;
-    NSArray *_memoryNodesWithoutLocalMemoryLastEnrichmentDate;
-    NSArray *_memoryNodesWithLocalMemoryLastEnrichmentDate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)__trackingIndividualScreenCursor;
+- (id)__trackerQueue;
+- (id)__sharedKeyboardFocusedElementSelectedElementControllers;
 - (id);
 - (void)Memories/MemoryTriggers/PGMemoryTriggerFeatureCentricHoliday.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *memoryNodesWithLocalMemoryLastEnrichmentDate; // @synthesize memoryNodesWithLocalMemoryLastEnrichmentDate=_memoryNodesWithLocalMemoryLastEnrichmentDate;
 @property(retain, nonatomic) NSArray *memoryNodesWithoutLocalMemory; // @synthesize memoryNodesWithoutLocalMemory=_memoryNodesWithoutLocalMemory;
-@property(retain, nonatomic) NSArray *memoryNodesWithoutLocalMemoryLastEnrichmentDate; // @synthesize memoryNodesWithoutLocalMemoryLastEnrichmentDate=_memoryNodesWithoutLocalMemoryLastEnrichmentDate;
 
 @end
 

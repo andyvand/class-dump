@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsTrigger
+- (void);
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface LSBundleRecordUpdater : LSRecordBuilder
 {
     struct LSContext _context;
-    _Bool _hasContext;
-    unsigned int _bundleID;
-    struct LSBundleData _bundleData;
-    struct unordered_map<unsigned int, LSPluginData, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, LSPluginData>>> _modifiedPlugins;
-    unsigned long long _oldRatingRank;
-    unsigned long long _newRatingRank;
 }
 
 - (_Bool);

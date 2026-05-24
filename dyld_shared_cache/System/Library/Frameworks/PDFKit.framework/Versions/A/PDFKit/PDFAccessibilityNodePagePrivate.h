@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodePagePrivate
 {
     PDFAccessibilityNode *pageContentRootNode;
-    unsigned long long pageNumber;
-    PDFAccessibilityNode *signatureWidgetForVOFocus;
 }
 
 - (void);

@@ -4,56 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, OAVReadState, OCPPackagePart;
-
 __attribute__((visibility("hidden")))
 @interface OAVShapeManager
 {
     struct _xmlNode *mShape;
-    unsigned short mType;
-    OCPPackagePart *mPackagePart;
-    NSDictionary *mShapeStyle;
-    NSDictionary *mTextBoxStyle;
-    OAVReadState *mOAVState;
 }
 
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)h;
 - (struct OAVTextBoxInsets);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (float);
+- (id)TJ;
 - (id);
 - (id);
 - (float);
 - (id);
 - (id);
+- (float);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (struct CGPoint);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)+;
+- (_Bool);
+- (_Bool);
+- (_Bool)(;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)A9;
 - (id);
 - (_Bool);
 - (id);

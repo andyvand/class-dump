@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SecuritydXPCCallback
 {
     CDUnknownBlockType _callback;
 }
 
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (void);
+- (id)APFSIOC_CREATE_HIDDEN_SYNTHETIC_SYMLINK;
+- (CDUnknownBlockType);
 - (void) À
 ;
-- (void)ntext;
+- (void)CSSM_CSP_CreateSignatureContext;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPerson;
+@class NSData, NSString;
 
 @protocol _SFPBContactButtonItem
+- (void)CXCallDirectoryManagerSupport;
+- (unsigned long long)$E;
+- (NSData *)PHCollectionReference;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionTypesToShows;
 @property(copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPerson *person;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

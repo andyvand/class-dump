@@ -7,11 +7,16 @@
 @class AMSBinaryPromise;
 
 @protocol AMSUIMessageViewController
+- (_Bool)ing",&,N,V_clientIdentifier;
+- (void)_filter;
+- (void)uildVersion;
+- (void)DDSMAAutoAssetSelector;
+- (AMSBinaryPromise *)eter:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)date:%f, date:%@ /* Error: Ran out of types for this method. */;
+- (void)sion of auto asset:%@ on server /* Error: Ran out of types for this method. */;
+- (unsigned long long)tentSync completed for auto asset:%@ with error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long engagementImpressionsReportingFrequency;
-@property unsigned long long impressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise;
-@property _Bool shouldAutomaticallyReportMetrics;
 @end
 

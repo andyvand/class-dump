@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WBSCoreAnalyticsExtensionsStatistics
 {
     _Bool _hasExtensionThatCanOverrideNewTabPage;
-    _Bool _newTabPageIsOverridden;
-    unsigned long long _enabledCount;
-    unsigned long long _disabledCount;
-    NSArray *_telemetryDataForExtensions;
 }
 
 - (id);
@@ -21,16 +15,12 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void)A×Ð!ØFùÑX1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long disabledCount; // @synthesize disabledCount=_disabledCount;
 @property(readonly, nonatomic) unsigned long long enabledCount; // @synthesize enabledCount=_enabledCount;
-@property(readonly, nonatomic) _Bool hasExtensionThatCanOverrideNewTabPage; // @synthesize hasExtensionThatCanOverrideNewTabPage=_hasExtensionThatCanOverrideNewTabPage;
-@property(readonly, nonatomic) _Bool newTabPageIsOverridden; // @synthesize newTabPageIsOverridden=_newTabPageIsOverridden;
-@property(readonly, nonatomic) NSArray *telemetryDataForExtensions; // @synthesize telemetryDataForExtensions=_telemetryDataForExtensions;
 
 @end
 

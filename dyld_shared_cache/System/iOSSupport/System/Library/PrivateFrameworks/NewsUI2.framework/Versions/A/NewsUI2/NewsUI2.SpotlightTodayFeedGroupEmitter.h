@@ -7,9 +7,6 @@
 @interface NewsUI2.SpotlightTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id personalizationService;
 }
 
 @end

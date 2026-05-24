@@ -9,14 +9,13 @@
 @interface ABCNLabelValuePair
 {
     NSString *_label;
-    id _value;
 }
 
 + (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)hasRecoveryKey;
+- (id)HJ;
 - (_Bool);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *label; // @synthesize label=_label;
-@property(readonly, copy) id value; // @synthesize value=_value;
 
 @end
 

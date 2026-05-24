@@ -9,7 +9,6 @@
 @interface IKImageAdjust
 {
     IKImageAdjustView *_ikImageAdjustView;
-    NSArray *_ikImageAdjustViewTLO;
 }
 
 - (void);

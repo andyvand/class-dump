@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureOSStateHandle, FigCaptureSessionAttachedSessionManager, NSHashTable, NSMapTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface FigCaptureSessionObservatory
 {
     NSMapTable *_captureSessionsStorage;
-    NSHashTable *_registeredObservers;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _lastRunningIdentifier;
-    FigCaptureSessionAttachedSessionManager *_attachedSessionManager;
-    FigCaptureOSStateHandle *_osStateHandle;
 }
 
 + (id);
-+ (void)RFrameRateRatio;
++ (void)MainToSIFRFrameRateRatio;
 - (void);
-- (void);
+- (void)playCreateMonoBrush:in_pRecord: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Warning;
 - (id);
-- (void);
+- (void)v32@0:(id)arg1 8@"NSUUID"16@"RTIDocumentTraits"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

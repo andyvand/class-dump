@@ -15,8 +15,8 @@
 + (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)m/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility;
 
 @end
 

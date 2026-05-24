@@ -21,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ary/Frameworks/Accounts.framework/Versions/A/Accounts;
 - (void);
 - (unsigned long long);
 

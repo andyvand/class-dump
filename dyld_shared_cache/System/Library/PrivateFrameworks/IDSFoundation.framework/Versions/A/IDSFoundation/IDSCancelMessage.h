@@ -11,7 +11,6 @@
 @interface IDSCancelMessage : IDSMessage
 {
     NSString *_fromID;
-    NSString *_queueOneIdentifier;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (long long);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fromID; // @synthesize fromID=_fromID;
-@property(retain, nonatomic) NSString *queueOneIdentifier; // @synthesize queueOneIdentifier=_queueOneIdentifier;
 
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBMicroLocationRestrictedLocalizationEvent
 {
     double _absoluteTimeStamp;
-    double _maxProbability;
-    NSString *_clientBundleId;
-    NSString *_maxProbabilityLabel;
-    NSMutableArray *_numDevicesVectors;
-    NSMutableArray *_probabilityVectors;
-    struct {
-        unsigned int absoluteTimeStamp:1;
-        unsigned int maxProbability:1;
-    } _has;
 }
 
 + (Class);
@@ -33,43 +22,35 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)v
+;
 - (void);
 - (double);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)6@0:(id)arg1 8;
 - (id);
 - (id);
 - (_Bool);
 - (void):; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimeStamp; // @synthesize absoluteTimeStamp=_absoluteTimeStamp;
-@property(retain, nonatomic) NSString *clientBundleId; // @synthesize clientBundleId=_clientBundleId;
 @property(nonatomic) _Bool hasAbsoluteTimeStamp;
-@property(readonly, nonatomic) _Bool hasClientBundleId;
-@property(nonatomic) _Bool hasMaxProbability;
-@property(readonly, nonatomic) _Bool hasMaxProbabilityLabel;
-@property(nonatomic) double maxProbability; // @synthesize maxProbability=_maxProbability;
-@property(retain, nonatomic) NSString *maxProbabilityLabel; // @synthesize maxProbabilityLabel=_maxProbabilityLabel;
-@property(retain, nonatomic) NSMutableArray *numDevicesVectors; // @synthesize numDevicesVectors=_numDevicesVectors;
-@property(retain, nonatomic) NSMutableArray *probabilityVectors; // @synthesize probabilityVectors=_probabilityVectors;
 
 @end
 

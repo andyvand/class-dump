@@ -6,19 +6,17 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface CKDAnonymousShareAddURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _anonymousShareSavedBlock;
-    NSDictionary *_encryptedAnonymousSharesToAdd;
-    NSMutableDictionary *_encryptedAnonymousShareHashToAddByRequestID;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -30,8 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousShareSavedBlock; // @synthesize anonymousShareSavedBlock=_anonymousShareSavedBlock;
-@property(retain, nonatomic) NSMutableDictionary *encryptedAnonymousShareHashToAddByRequestID; // @synthesize encryptedAnonymousShareHashToAddByRequestID=_encryptedAnonymousShareHashToAddByRequestID;
 @property(retain, nonatomic) NSDictionary *encryptedAnonymousSharesToAdd; // @synthesize encryptedAnonymousSharesToAdd=_encryptedAnonymousSharesToAdd;
 
 @end

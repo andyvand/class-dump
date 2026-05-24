@@ -5,5 +5,11 @@
 //
 
 @protocol TSDAreaTracking
+- (void)siveResult *__strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong);
+- (void)eFinalPlaceholder(_MPCAccumulatorProgressiveResult *__strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong);
+- (void);
+- (void)sRequestAccumulation.m;
+- (void)ProgressiveResult"8;
+- (void)entifierSet=%@;
 @end
 

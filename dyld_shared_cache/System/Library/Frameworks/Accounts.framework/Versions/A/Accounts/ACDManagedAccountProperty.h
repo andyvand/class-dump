@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDManagedAccount, NSString;
-
 @interface ACDManagedAccountProperty
 {
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(retain, nonatomic) ACDManagedAccount *owner; // @dynamic owner;
 @property(retain, nonatomic) id value; // @dynamic value;
 @end
 

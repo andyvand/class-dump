@@ -5,6 +5,10 @@
 //
 
 @protocol NSDraggingInfo_Private
+- (_Bool);
+- (_Bool);
+- (long long)ssionTaskHTTPAuthenticator";
+- (double)alStorage=^^?^{__CFAllocator}i}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id localContext;

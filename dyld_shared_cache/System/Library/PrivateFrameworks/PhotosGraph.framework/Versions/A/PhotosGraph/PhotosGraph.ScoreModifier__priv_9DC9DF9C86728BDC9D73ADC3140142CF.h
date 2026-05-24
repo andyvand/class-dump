@@ -7,12 +7,6 @@
 @interface PhotosGraph.ScoreModifier__priv_9DC9DF9C86728BDC9D73ADC3140142CF
 {
     id conditionIsTrue;
-    id cityLevelModifier;
-    id stateLevelModifier;
-    id countryLevelModifier;
-    id AOILevelModifier;
-    id scoreModifierName;
-    id shouldStopExecution;
 }
 
 @end

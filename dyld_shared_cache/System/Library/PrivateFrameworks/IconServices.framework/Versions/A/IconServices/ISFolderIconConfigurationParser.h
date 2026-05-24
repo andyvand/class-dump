@@ -6,20 +6,17 @@
 
 #import <IconServices/ISIconConfigurationMarkupParser.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISFolderIconConfigurationParser : ISIconConfigurationMarkupParser
 {
 }
 
 - (id);
-- (id);
-- (id);
+- (id)qq^?^v}16;
+- (id)activeProcessorCount;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *assetCatalogImageName;
 @property(readonly) id tintColor;
 
 @end

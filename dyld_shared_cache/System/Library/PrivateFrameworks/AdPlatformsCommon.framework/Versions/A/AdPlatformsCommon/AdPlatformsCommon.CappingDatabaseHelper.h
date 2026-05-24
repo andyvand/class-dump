@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.CappingDatabaseHelper
 {
     id clientDatabase;
-    id manager;
 }
 
 @end

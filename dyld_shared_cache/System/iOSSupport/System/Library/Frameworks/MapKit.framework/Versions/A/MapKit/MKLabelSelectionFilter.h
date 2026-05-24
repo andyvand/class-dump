@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSString;
+@class MKMapView;
 
 @interface MKLabelSelectionFilter
 {
     CDUnknownBlockType _selectionHandler;
-    long long _featureOptions;
-    MKMapView *_mapView;
 }
 
 - (_Bool);
@@ -21,26 +19,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (void)d:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)alculateBounds;
+- (void)_setCamera:animated:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_calculateBounds;
 - (void)inates for Polygon LinearRing:(id)arg1 %lu. Expected between %lu and %lu.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long mapFeatureOptions; // @synthesize mapFeatureOptions=_featureOptions;
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(readonly, nonatomic) _Bool selectionEnabled;
-@property(readonly, nonatomic) CDUnknownBlockType selectionHandler; // @synthesize selectionHandler=_selectionHandler;
-@property(readonly) Class superclass;
 
 @end
 

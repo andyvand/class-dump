@@ -7,7 +7,6 @@
 @interface NewsFeed.ShareAttributionViewReuseFactory
 {
     id sharedItemManager;
-    id itemsByReuseIdentifier;
 }
 
 @end

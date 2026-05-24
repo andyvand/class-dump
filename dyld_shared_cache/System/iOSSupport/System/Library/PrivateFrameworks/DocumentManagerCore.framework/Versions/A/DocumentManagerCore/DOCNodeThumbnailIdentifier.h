@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface DOCNodeThumbnailIdentifier
 {
     _Bool _isTopLevelSharedItem;
-    _Bool _isDownloaded;
-    _Bool _isActionable;
-    id _nodeIdentifier;
-    NSDate *_modificationDate;
-    id _contentVersion;
-    unsigned long long _folderType;
-    NSString *_fileExtension;
-    NSString *_customFolderId;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)6;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool))=;
 - (id);
-- (id);
-- (_Bool);
+- (id)y/PrivateFrameworks/NanoRegistry.framework/Versions/A/NanoRegistry;
+- (_Bool)_adornmentClassForAnnotation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) id contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(readonly) NSString *customFolderId; // @synthesize customFolderId=_customFolderId;
-@property(readonly) NSString *fileExtension; // @synthesize fileExtension=_fileExtension;
-@property(readonly) unsigned long long folderType; // @synthesize folderType=_folderType;
-@property(readonly) _Bool isActionable; // @synthesize isActionable=_isActionable;
-@property(readonly) _Bool isDownloaded; // @synthesize isDownloaded=_isDownloaded;
-@property(readonly) _Bool isTopLevelSharedItem; // @synthesize isTopLevelSharedItem=_isTopLevelSharedItem;
-@property(readonly) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
 @property(readonly) id nodeIdentifier; // @synthesize nodeIdentifier=_nodeIdentifier;
 
 @end

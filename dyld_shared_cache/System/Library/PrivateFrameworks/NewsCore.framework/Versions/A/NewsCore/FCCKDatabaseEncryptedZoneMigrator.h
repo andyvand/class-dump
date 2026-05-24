@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKPrivateDatabaseSchema, NSString;
-@protocol FCCKDatabaseRecordMiddleware;
+@class FCCKPrivateDatabaseSchema;
 
 @interface FCCKDatabaseEncryptedZoneMigrator
 {
     FCCKPrivateDatabaseSchema *_schema;
-    id <FCCKDatabaseRecordMiddleware> _recordEncryptionMiddleware;
-    CDUnknownBlockType _deprecatedBlock;
 }
 
 - (id);
@@ -23,13 +20,7 @@
 - (void)NquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCurrentMagazineContentFetchOperation.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTableDeleteScanLineView, NSTableRowView, NSTableRowViewSpringAnimation;
-
 __attribute__((visibility("hidden")))
 @interface NSTableSwipeData
 {
     _Bool hasMoreThanOneButtonAndAConsumer;
-    long long rowIndex;
-    NSTableRowView *rowView;
-    unsigned long long rowEdge;
-    double totalSlideAmount;
-    double cellOffset;
-    long long token;
-    double previousPercentage;
-    double percentage;
-    double consumePercentage;
-    double buttonPercentage;
-    NSTableRowViewSpringAnimation *catchupAnimation;
-    NSTableRowViewSpringAnimation *finishAnimation;
-    NSTableDeleteScanLineView *scanLineView;
 }
 
 - (void);

@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatItemNodeLayoutAttributes
 {
     id layoutAttributes;
-    id style;
-    id resizing;
-    id resizingGroupIdentifier;
-    id zIndex;
-    id visibility;
 }
 
 @end

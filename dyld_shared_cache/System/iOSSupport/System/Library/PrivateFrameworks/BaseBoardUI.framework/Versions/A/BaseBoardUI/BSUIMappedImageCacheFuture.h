@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicSignal, NSObject, NSThread, UIImage;
-@protocol OS_dispatch_queue;
-
 @interface BSUIMappedImageCacheFuture
 {
     struct os_unfair_lock_s _lock;
-    BSAtomicSignal *_submitted;
-    NSThread *_submissionThread;
-    CDUnknownBlockType _lock_workBlock;
-    _Bool _lock_workCompletionWasCalled;
-    UIImage *_postlock_cachedImage;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSpellCheckerErrorModel;
-
 @interface CHSpellChecker
 {
     struct AppleSpell *_spellServer;
-    CHSpellCheckerErrorModel *_errorModel;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)getFileData:(id)arg1 fromDevice:(_Bool)arg2 withOptions:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

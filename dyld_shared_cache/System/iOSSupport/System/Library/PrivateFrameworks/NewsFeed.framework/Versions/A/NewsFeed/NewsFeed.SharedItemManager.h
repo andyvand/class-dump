@@ -7,13 +7,6 @@
 @interface NewsFeed.SharedItemManager
 {
     id lock;
-    id sharedItemCenter;
-    id sortedArticleIDs;
-    id itemsByArticleID;
-    id modificationDate;
-    id observers;
-    id viewContextsByArticleID;
-    id $__lazy_storage_$_initializingTask;
 }
 
 - (id);

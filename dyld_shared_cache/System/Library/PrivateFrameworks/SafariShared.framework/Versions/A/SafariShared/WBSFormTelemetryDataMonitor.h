@@ -9,9 +9,6 @@
 @interface WBSFormTelemetryDataMonitor
 {
     NSMutableDictionary *_formIDToFormData;
-    unsigned long long typesOfAutoFillOffered;
-    unsigned long long typesOfAutoFillUsed;
-    NSString *_webpageLocale;
 }
 
 + (long long);

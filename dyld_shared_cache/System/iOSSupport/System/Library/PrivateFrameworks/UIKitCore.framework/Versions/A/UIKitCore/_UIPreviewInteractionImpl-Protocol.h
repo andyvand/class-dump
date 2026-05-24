@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPreviewInteraction, UIView;
-@protocol UIPreviewInteractionDelegate, _UIPreviewInteractionTouchForceProviding;
+@class UIView;
+@protocol UIPreviewInteractionDelegate;
 
 @protocol _UIPreviewInteractionImpl
+- (void)@"NSArray"24@"NSError"32;
 - (void)0@ù
 × ;
-- (UIView *)stingAccessoryViewFrom: /* Error: Ran out of types for this method. */;
-- (void)tSides;
+- (UIView *)_canDirectlyUpdateExistingAccessoryViewFrom: /* Error: Ran out of types for this method. */;
+- (void)phoneCompactHeightSides;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate;
-@property(nonatomic) __weak UIPreviewInteraction *previewInteraction;
-@property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> touchForceProvider;
-@property(readonly, nonatomic) __weak UIView *view;
 @end
 

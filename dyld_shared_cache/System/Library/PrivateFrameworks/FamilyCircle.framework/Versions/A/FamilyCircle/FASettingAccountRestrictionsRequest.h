@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)foundNearby;
+- (void)isShutdownOnly;
+- (void)ShowSpeechAlternatives;
 
 @end
 

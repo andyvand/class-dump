@@ -4,68 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, UIImage, UIImageSymbolConfiguration, UILayoutGuide, UIView, _UIImageCIImageRenderer, _UIImageLoader, _UIImageSymbolVariant, _UIImageViewSymbolAnimationPresetManager;
-@protocol UITraitChangeRegistration, _UIImageViewLoadingDelegate;
+@class NSMapTable, UIImage, UIImageSymbolConfiguration, UILayoutGuide, _UIImageLoader, _UIImageSymbolVariant;
+@protocol _UIImageViewLoadingDelegate;
 
 @protocol _UIImageViewStorage
+- (void);
+- (void);
+- (_Bool)R;
 - (UIImageSymbolConfiguration *);
 - (void)Ð!h@ùqe°1Â0@ù
 × ;
 - (_UIImageSymbolVariant *)p@ùñe°1Â0@ù
 × ;
 - (id <_UIImageViewLoadingDelegate>)@0:8{CGSize=dd}16Q32q40{NSDirectionalEdgeInsets=dddd}48 /* Error: Ran out of types for this method. */;
-- (_Bool)eViewController;
-- (_UIImageLoader *)electionDuration;
-- (void)tureMap;
-- (_Bool)Pointer: /* Error: Ran out of types for this method. */;
-- (long long)mentRequest:inFocusMap:withSnapshot: /* Error: Ran out of types for this method. */;
-- (void)iling;
+- (_Bool)sceneViewController;
+- (_UIImageLoader *)layerSelectionDuration;
+- (void)gestureMap;
+- (_Bool)_splitViewControllerColumnToResizeAtPoint:isPointer: /* Error: Ran out of types for this method. */;
+- (long long)_fallbackFocusItemForMovementRequest:inFocusMap:withSnapshot: /* Error: Ran out of types for this method. */;
+- (void)_constraintsForInsettingLabelsViewLeadingAndTrailing;
 - (void)esPointerUpdatesWhilePanning;
 - (void)erInteraction",&,N,S_setScrollPocketContainerInteraction:(_UIImageSymbolVariant *)arg1 ,V__scrollPocketContainerInteraction;
-- (NSArray *);
 - (void)elegate>",N,W,Vdelegate;
 - (void)wParticipating>",&,N,V_identityContainerView;
 - (void)Øß¼à;
 - (void)Ô±;
-- (id <UITraitChangeRegistration>);
-- (UILayoutGuide *)nmentFrame;
+- (UILayoutGuide *)_hostParentStackAlignmentFrame;
 - (void)ts.create.action;
 - (void)ke indexes:(id <_UIImageViewLoadingDelegate>)arg1 %@;
 - (void)s != nil;
-- (void)nkColor;
+- (void)systemPinkColor;
 - (_Bool)size cached!;
 - (void)ion items do not allow setting titleView;
 - (_Bool)g;
-- (NSMapTable *)rve;
+- (NSMapTable *)CALayerCornerCurve;
 
 // Remaining properties
-@property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer;
-@property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;
-@property(nonatomic) double animationDuration;
-@property(retain, nonatomic) NSArray *animationImages;
-@property(retain, nonatomic) _UIImageViewSymbolAnimationPresetManager *animationPresetManager;
-@property(nonatomic) long long animationRepeatCount;
-@property(nonatomic) long long defaultRenderingMode;
-@property(nonatomic) unsigned int drawMode;
-@property(nonatomic, getter=isEnqueueingLoad) _Bool enqueueingLoad;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(retain, nonatomic) NSArray *highlightedAnimationImages;
-@property(retain, nonatomic) UIImage *highlightedImage;
 @property(retain, nonatomic) UIImage *image;
-@property(retain, nonatomic) UIImage *imageBeingSetByLoader;
-@property(retain, nonatomic) UILayoutGuide *imageContentGuide;
-@property(retain, nonatomic) _UIImageLoader *imageLoader;
-@property(retain, nonatomic) NSMapTable *layouts;
-@property(retain, nonatomic) id <_UIImageViewLoadingDelegate> loadingDelegate;
-@property(nonatomic) _Bool masksTemplateImages;
-@property(retain, nonatomic) UIImageSymbolConfiguration *overridingSymbolConfiguration;
-@property(retain, nonatomic) UIView *placeholderView;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) _UIImageSymbolVariant *preferredSymbolVariant;
-@property(retain, nonatomic) UIImage *resolvedHighlightedImage;
-@property(retain, nonatomic) UIImage *resolvedImage;
-@property(nonatomic, getter=isStartingLoad) _Bool startingLoad;
-@property(nonatomic, getter=isStoppingLoad) _Bool stoppingLoad;
-@property(retain, nonatomic) id <UITraitChangeRegistration> systemIconAppearanceTraitRegistration;
 @end
 

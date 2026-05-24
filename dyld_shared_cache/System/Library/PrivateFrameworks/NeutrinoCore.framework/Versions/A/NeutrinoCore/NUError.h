@@ -36,7 +36,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) id invalidObject;
 @property(readonly) NSString *nonLocalizedFailureReason;
 
 @end

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSQLiteDB, NSMutableArray, NSObject, geo_isolater;
-@protocol OS_dispatch_source;
+@class GEOSQLiteDB;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigDBOperationQueue
 {
     GEOSQLiteDB *_db;
-    geo_isolater *_isolator;
-    NSMutableArray *_operations;
-    NSObject<OS_dispatch_source> *_timer;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)ction:validForDateFromBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)_wire_format (:(id)arg1 false.

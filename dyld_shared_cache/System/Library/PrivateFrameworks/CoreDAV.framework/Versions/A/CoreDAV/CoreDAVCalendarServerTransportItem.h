@@ -6,50 +6,37 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVItemWithHrefChildItem, CoreDAVLeafItem;
+@class CoreDAVLeafItem;
 
 @interface CoreDAVCalendarServerTransportItem : CoreDAVItem
 {
     CoreDAVLeafItem *_apsBundleID;
-    CoreDAVLeafItem *_courierServer;
-    CoreDAVItemWithHrefChildItem *_subscriptionURL;
-    CoreDAVItemWithHrefChildItem *_tokenURL;
-    CoreDAVLeafItem *_apsEnv;
-    CoreDAVLeafItem *_refreshInterval;
-    CoreDAVLeafItem *_xmppServer;
-    CoreDAVLeafItem *_xmppURI;
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)L~_&;
+- (id)indexAndOffset;
+- (id)_selectCandidateAtIndex:endSelecting: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)pickerViewLikenessType:(id)arg1;
+- (void);
+- (id)SelectableTextView;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)remaining entries in array --
+;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVLeafItem *apsBundleID; // @synthesize apsBundleID=_apsBundleID;
-@property(retain, nonatomic) CoreDAVLeafItem *apsEnv; // @synthesize apsEnv=_apsEnv;
-@property(retain, nonatomic) CoreDAVLeafItem *courierServer; // @synthesize courierServer=_courierServer;
-@property(retain, nonatomic) CoreDAVLeafItem *refreshInterval; // @synthesize refreshInterval=_refreshInterval;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *subscriptionURL; // @synthesize subscriptionURL=_subscriptionURL;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *tokenURL; // @synthesize tokenURL=_tokenURL;
-@property(retain, nonatomic) CoreDAVLeafItem *xmppServer; // @synthesize xmppServer=_xmppServer;
-@property(retain, nonatomic) CoreDAVLeafItem *xmppURI; // @synthesize xmppURI=_xmppURI;
 
 @end
 

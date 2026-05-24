@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INMediaItem, INPlayMediaIntent, NSData;
-@protocol WFPropertyListObject;
+@class INPlayMediaIntent;
 
 @interface WFContextualMediaDescriptor
 {
     INPlayMediaIntent *_intent;
-    NSData *_artwork;
-    INMediaItem *_mediaItem;
-    id <WFPropertyListObject> _serializedRepresentation;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)o;
+- (id)Rnz;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -29,10 +25,7 @@
 - (id)øÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *artwork; // @synthesize artwork=_artwork;
 @property(readonly, nonatomic) INPlayMediaIntent *intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) INMediaItem *mediaItem; // @synthesize mediaItem=_mediaItem;
-@property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation; // @synthesize serializedRepresentation=_serializedRepresentation;
 
 @end
 

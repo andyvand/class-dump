@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSThread;
-
 @interface VSSingleThreadDispatchQueue
 {
     long long _state;
-    NSString *_name;
-    NSThread *_underlyingThread;
-    struct __CFRunLoop *_underlyingRunLoop;
-    struct __CFRunLoopSource *_runLoopSource;
-    NSMutableArray *_blocks;
-    CDUnknownBlockType _startCompletionBlock;
 }
 
-+ (id);
++ (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)CompleteHandler:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -33,21 +25,15 @@
 - (void);
 - (struct __CFRunLoop *);
 - (long long);
-- (void);
+- (void)WBSStartPageSectionManagerStorage;
 - (void);
 - (void);
 - (id);
 - (struct __CFRunLoopSource *);
-- (void);
+- (void)c;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *blocks; // @synthesize blocks=_blocks;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) struct __CFRunLoopSource *runLoopSource; // @synthesize runLoopSource=_runLoopSource;
-@property(copy, nonatomic) CDUnknownBlockType startCompletionBlock; // @synthesize startCompletionBlock=_startCompletionBlock;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) struct __CFRunLoop *underlyingRunLoop; // @synthesize underlyingRunLoop=_underlyingRunLoop;
-@property(retain, nonatomic) NSThread *underlyingThread; // @synthesize underlyingThread=_underlyingThread;
 
 @end
 

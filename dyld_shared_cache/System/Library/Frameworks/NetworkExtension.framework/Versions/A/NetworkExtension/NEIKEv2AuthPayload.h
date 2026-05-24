@@ -6,21 +6,20 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NEIKEv2AuthenticationProtocol, NSData;
+@class NEIKEv2AuthenticationProtocol;
 
 @interface NEIKEv2AuthPayload : NEIKEv2Payload
 {
     NEIKEv2AuthenticationProtocol *_authProtocol;
-    NSData *_authenticationData;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)gentUUID: /* Error: Ran out of types for this method. */;
-- (id)ateErrorFailedToSend;
+- (void)setNetworkAgentUUID: /* Error: Ran out of types for this method. */;
+- (id)NEIKEv2CreateErrorFailedToSend;
 
 @end
 

@@ -7,13 +7,10 @@
 @interface TeaUI.FullscreenTransitionCoverManager
 {
     id closure;
-    id coverView;
-    id transitioning;
-    id dimmed;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

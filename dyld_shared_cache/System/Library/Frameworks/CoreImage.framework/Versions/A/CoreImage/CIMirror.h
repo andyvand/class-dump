@@ -6,20 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIMirror : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputPoint;
-    NSNumber *inputAngle;
 }
 
 + (id);
 - (id);
 - (struct Rectangle);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (void);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputPoint; // @synthesize inputPoint;
 
 @end
 

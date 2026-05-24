@@ -7,12 +7,6 @@
 @interface AppStoreKit.GuidedSearchToken
 {
     id value;
-    id isSelected;
-    id leadingIconSymbolName;
-    id displayName;
-    id clickAction;
-    id id;
-    id impressionMetrics;
 }
 
 @end

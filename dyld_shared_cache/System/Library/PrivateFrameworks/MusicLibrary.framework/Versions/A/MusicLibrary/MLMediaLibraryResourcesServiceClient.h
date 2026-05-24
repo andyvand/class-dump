@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSString, NSXPCConnection;
-@protocol MLMediaLibraryAccountChangeObserver, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MLMediaLibraryResourcesServiceClient
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSXPCConnection *_xpcClientConnection;
-    id <MLMediaLibraryAccountChangeObserver> _accountChangeObserver;
-    NSOperationQueue *_accountChangeOperationQueue;
 }
 
 + (id);
+- (id)_cloudResourceThumbnailsMaxResourcesPerFetch;
+- (void)_checkDenyPolicy;
+- (id)_addUUIDsToExistingKeywordsInStore:(id *)arg1;
+- (id):(id *)arg1;
+- (void)VisualSearchAttributes",&,D,N;
+- (id)setImportMutex:(id *)arg1;
+- (id)eDeleteRegistration",R,V_cacheDeleteRegistration;
+- (id)payloadClassIDs;
+- (id)setsdResourceInternalClient",R;
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)_evaluateCheckScript:withPath:allowInsecure:nodeIdentifier:returningError:errorCode:warningCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)áð!ðBùñÐ1Â0@ù
 × ;
@@ -39,18 +35,7 @@
 - (id)geniusId;
 
 // Remaining properties
-@property(retain, nonatomic) id <MLMediaLibraryAccountChangeObserver> accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(retain, nonatomic) NSOperationQueue *accountChangeOperationQueue; // @synthesize accountChangeOperationQueue=_accountChangeOperationQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcClientConnection; // @synthesize xpcClientConnection=_xpcClientConnection;
 
 @end
 

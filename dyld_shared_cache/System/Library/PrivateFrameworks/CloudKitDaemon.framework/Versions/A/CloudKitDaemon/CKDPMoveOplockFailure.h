@@ -15,19 +15,18 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)parseStartEventISO:(id)arg1 withApplet:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_audioHoseRegistrarDeregisterProtocolDriverHoseLegacyInternal;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)tifier;
+- (void)applicationBundleIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMovedRecordDestinationIdentifier;
-@property(retain, nonatomic) CKDPRecordIdentifier *movedRecordDestinationIdentifier; // @synthesize movedRecordDestinationIdentifier=_movedRecordDestinationIdentifier;
 
 @end
 

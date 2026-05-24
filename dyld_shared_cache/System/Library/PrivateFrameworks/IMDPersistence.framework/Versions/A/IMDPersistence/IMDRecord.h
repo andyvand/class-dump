@@ -11,15 +11,15 @@
 + (_Bool);
 + (id)care about donating preview to CoreSpotlight;
 - (unsigned long long);
-- (id);
+- (id)_contactImageView;
 - (oneway void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool)alCacheDecoder;
+- (_Bool)Event;
+- (void);
+- (_Bool)SNumber",&,N,V_autoBugCaptureUID;
+- (_Bool)RecordLocalCacheDecoder;
 
 @end
 

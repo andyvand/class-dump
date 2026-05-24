@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocumentConflictPanelController, NSFileVersion, NSImage, QLThumbnailGenerationRequest;
+@class NSDocumentConflictPanelController;
 
 __attribute__((visibility("hidden")))
 @interface _NSDocumentConflict
 {
     _Bool _selected;
-    QLThumbnailGenerationRequest *_thumbnailGenerationRequest;
-    _Bool _showName;
-    _Bool _documentIsShared;
-    NSDocumentConflictPanelController *_controller;
-    NSFileVersion *_version;
-    NSImage *_thumbnail;
 }
 
 - (void);
+- (_Bool)__DATA;
+- (void);
+- (void)tag %c%c%c%c;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)K;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -41,11 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak NSDocumentConflictPanelController *controller; // @synthesize controller=_controller;
-@property _Bool documentIsShared; // @synthesize documentIsShared=_documentIsShared;
-@property(getter=isSelected) _Bool selected;
-@property _Bool showName; // @synthesize showName=_showName;
-@property(copy) NSImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain) NSFileVersion *version; // @synthesize version=_version;
 
 @end
 

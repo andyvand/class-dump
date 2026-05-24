@@ -13,13 +13,13 @@
 
 + (_Bool)e calling out to a method prefixed with '_safari_' but it looks like you are not Safari. I mean... what did you expect to happen?;
 - (void);
-- (id);
+- (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool)=dd}}16B48@52;
-- (void)DidMoveToWindow:(id)arg1;
-- (id)inesAtPoint: /* Error: Ran out of types for this method. */;
-- (id)lly;
+- (void)sizeTrackingViewDidMoveToWindow:(id)arg1;
+- (id)drawLinesAtPoint: /* Error: Ran out of types for this method. */;
+- (id)_allowsParentToBeginHorizontally;
 
 // Remaining properties
 @property(nonatomic) long long unlockFailureCount; // @synthesize unlockFailureCount=_unlockFailureCount;

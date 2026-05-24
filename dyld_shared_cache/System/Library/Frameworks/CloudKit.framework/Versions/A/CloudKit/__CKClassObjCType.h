@@ -11,7 +11,7 @@
     Class _class;
 }
 
-- (id);
+- (id)	;
 - (id);
 - (id)¯^Oblg;
 

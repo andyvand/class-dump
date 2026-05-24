@@ -6,37 +6,29 @@
 
 #import <UIKitCore/_UISettings.h>
 
-@class NSString, _UIScreenEdgePanRecognizerCornerSettings, _UIScreenEdgePanRecognizerDwellSettings, _UIScreenEdgePanRecognizerEdgeSettings;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIScreenEdgePanRecognizerSettings : _UISettings
 {
     NSString *_multitaskingGestureMode;
-    NSString *_navigationGestureMode;
-    _UIScreenEdgePanRecognizerEdgeSettings *_edgeSettings;
-    _UIScreenEdgePanRecognizerDwellSettings *_dwellSettings;
-    _UIScreenEdgePanRecognizerCornerSettings *_cornerSettings;
 }
 
 + (id);
+- (void);
 - (void);
+- (void)B�@;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)GPUSupportMercury.dylib;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)and"16@"IMDChat"24@"NSString"32@"IMSenderContext"40;
+- (id)setLastNotifiedUnreadCount: /* Error: Ran out of types for this method. */;
+- (void)DescendantHiddenAncestorSheetIDs;
 
 // Remaining properties
-@property(retain, nonatomic) _UIScreenEdgePanRecognizerCornerSettings *cornerSettings; // @synthesize cornerSettings=_cornerSettings;
-@property(retain, nonatomic) _UIScreenEdgePanRecognizerDwellSettings *dwellSettings; // @synthesize dwellSettings=_dwellSettings;
-@property(retain, nonatomic) _UIScreenEdgePanRecognizerEdgeSettings *edgeSettings; // @synthesize edgeSettings=_edgeSettings;
 @property(copy, nonatomic) NSString *multitaskingGestureMode; // @synthesize multitaskingGestureMode=_multitaskingGestureMode;
-@property(copy, nonatomic) NSString *navigationGestureMode; // @synthesize navigationGestureMode=_navigationGestureMode;
 
 @end
 

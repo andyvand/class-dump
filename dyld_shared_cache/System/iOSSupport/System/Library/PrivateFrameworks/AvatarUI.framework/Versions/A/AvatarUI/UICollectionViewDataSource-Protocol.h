@@ -7,10 +7,11 @@
 @class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)eModelGroup:(UICollectionView *)arg1;
+- (long long)public}@:(UICollectionView *)arg1 Failed to unsubscribe from album %{public}@. Error:(long long)arg2 %{public}@;
+- (UICollectionViewCell *)previewModeForCoreModelGroup:(UICollectionView *)arg1;
 
 @optional
-- (void)on:(UICollectionView *)arg1 completion:(NSIndexPath *)arg2;
+- (void)animateAlongsideTransition:(UICollectionView *)arg1 completion:(NSIndexPath *)arg2;
 - (UICollectionReusableView *)otalTime;
 @end
 

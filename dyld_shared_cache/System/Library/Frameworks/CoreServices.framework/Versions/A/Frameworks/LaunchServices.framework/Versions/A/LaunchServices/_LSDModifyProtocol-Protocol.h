@@ -5,5 +5,12 @@
 //
 
 @protocol _LSDModifyProtocol
+- (void);
+- (void);
+- (void);
+- (void)?;
+- (void)j`;
+- (void) ;
+- (void)y;
 @end
 

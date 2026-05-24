@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, REMDueDateDeltaInterval, REMObjectID;
+@class NSUUID;
 
 @interface REMDueDateDeltaAlert
 {
     NSUUID *_identifier;
-    REMObjectID *_reminderID;
-    REMObjectID *_accountID;
-    REMDueDateDeltaInterval *_dueDateDelta;
-    NSDate *_creationDate;
-    NSDate *_acknowledgedDate;
-    long long _minimumSupportedAppVersion;
 }
 
 + (id);
@@ -22,11 +16,11 @@
 + (id);
 + (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,14 +35,7 @@
 - (id).urgent;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSDate *acknowledgedDate; // @synthesize acknowledgedDate=_acknowledgedDate;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) REMDueDateDeltaInterval *dueDateDelta; // @synthesize dueDateDelta=_dueDateDelta;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long minimumSupportedAppVersion; // @synthesize minimumSupportedAppVersion=_minimumSupportedAppVersion;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) REMObjectID *reminderID; // @synthesize reminderID=_reminderID;
 
 @end
 

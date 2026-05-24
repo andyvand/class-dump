@@ -7,6 +7,7 @@
 @class SXLayoutBlueprint;
 
 @protocol SXLayoutBlueprintProvider
+- (SXLayoutBlueprint *)x;
 
 // Remaining properties
 @property(readonly, nonatomic) SXLayoutBlueprint *blueprint;

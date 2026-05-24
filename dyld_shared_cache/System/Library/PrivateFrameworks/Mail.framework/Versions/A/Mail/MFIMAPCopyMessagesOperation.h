@@ -6,13 +6,11 @@
 
 #import <Mail/MFIMAPOperation.h>
 
-@class NSIndexSet, NSPointerArray, NSString;
+@class NSPointerArray, NSString;
 
 @interface MFIMAPCopyMessagesOperation : MFIMAPOperation
 {
     NSString *_destinationMailbox;
-    NSPointerArray *_sourceUidPointerArray;
-    NSPointerArray *_destinationUidPointerArray;
 }
 
 - (id);
@@ -33,12 +31,7 @@
 - (void)è	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationMailbox; // @synthesize destinationMailbox=_destinationMailbox;
-@property(retain, nonatomic) NSPointerArray *destinationUidPointerArray; // @synthesize destinationUidPointerArray=_destinationUidPointerArray;
-@property(readonly, copy, nonatomic) NSIndexSet *destinationUids;
 @property(retain, nonatomic) NSPointerArray *sourceUidPointerArray; // @synthesize sourceUidPointerArray=_sourceUidPointerArray;
-@property(readonly, copy, nonatomic) NSIndexSet *sourceUids;
-@property(nonatomic) _Bool usesRealUids; // @dynamic usesRealUids;
 
 @end
 

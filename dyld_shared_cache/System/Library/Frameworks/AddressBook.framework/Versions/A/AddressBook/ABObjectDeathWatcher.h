@@ -7,7 +7,6 @@
 @interface ABObjectDeathWatcher
 {
     void *_objectPointer;
-    CDUnknownBlockType _block;
 }
 
 + (void);

@@ -6,51 +6,20 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectPinMap : MREffect
 {
     NSMutableDictionary *mSprites;
-    float mLocalMatrix[16];
-    MRImageProvider *mGradientProvider;
-    MRImageProvider *mPinProvider;
-    MRImageProvider *mYellowPinProvider;
-    MRImageProvider *mRedPinProvider;
-    MRImageProvider *mTextBoxArrowProvider;
-    MRImageProvider *mTextBoxMiddleProvider;
-    MRImageProvider *mTextBoxCapProvider;
-    MRImageProvider *mTextBoxArrowFlippedProvider;
-    MRImageProvider *mTextBoxMiddleFlippedProvider;
-    MRImageProvider *mTextBoxCapFlippedProvider;
-    MRImageProvider *mTextBox2ArrowProvider;
-    MRImageProvider *mTextBox2MiddleProvider;
-    MRImageProvider *mTextBox2CapProvider;
-    MRImageProvider *mTextBox2ArrowFlippedProvider;
-    MRImageProvider *mTextBox2MiddleFlippedProvider;
-    MRImageProvider *mTextBox2CapFlippedProvider;
-    MRImageProvider *mTitleBoxLeftProvider;
-    MRImageProvider *mTitleBoxMiddleProvider;
-    MRImageProvider *mTitleBoxRightProvider;
-    MRImageProvider *mBoxShadowSmall;
-    MRImageProvider *mBoxShadowBigScaled;
-    MRImageProvider *mWaterProvider;
-    NSMutableArray *mTextImages;
-    NSMutableArray *mTextLineCounts;
-    NSMutableArray *mTextYOffsets;
-    NSArray *mSortedPins;
-    _Bool mNeedsWater;
-    _Bool mHas2LineLabels;
-    _Bool mHas1LineLabels;
-    _Bool mNeedsTitle;
 }
 
-- (void);
-- (_Bool);
+- (void),;
+- (_Bool)miss;
 - (id);
+- (_Bool)UAnalyticsEnvelopeTrackerContentTypeIsSupported(envelope.contentType); }];
+- (id)lyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:(id)arg1 success:error:willRetry:hitEndpoint:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)ContentEnvironmentData;
 - (struct CGSize);
 - (long long);
 - (void);
@@ -59,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)removeObserver: /* Error: Ran out of types for this method. */;
 
 @end
 

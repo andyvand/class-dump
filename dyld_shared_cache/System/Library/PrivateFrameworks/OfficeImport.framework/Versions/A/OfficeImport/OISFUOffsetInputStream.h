@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SFUInputStream;
 
 __attribute__((visibility("hidden")))
 @interface OISFUOffsetInputStream
 {
     id <SFUInputStream> mInputStream;
-    long long mInitialOffset;
 }
 
-- (unsigned long long);
+- (unsigned long long)@9Ă;
 - (id);
 - (void);
 - (void);
@@ -22,18 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (void)32@0:(long long)arg1 8@16Q24;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

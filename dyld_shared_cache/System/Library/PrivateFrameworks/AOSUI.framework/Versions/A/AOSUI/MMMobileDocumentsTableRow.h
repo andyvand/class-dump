@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSMutableDictionary, NSProgressIndicator, NSTextField;
+@class NSButton;
 @protocol MMMobileDocumentsTableRowDelegate;
 
 @interface MMMobileDocumentsTableRow
 {
     NSButton *_checkbox;
-    NSTextField *_serviceNameField;
-    NSImageView *_icon;
-    int _rowViewType;
-    NSMutableDictionary *_appDict;
-    NSLayoutConstraint *_leadingWidth;
-    NSTextField *_progressField;
-    NSProgressIndicator *_spinner;
-    NSLayoutConstraint *_progressLargeServiceSpacer;
-    id <MMMobileDocumentsTableRowDelegate> _delegate;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void)k;
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
@@ -37,7 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) id <MMMobileDocumentsTableRowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) int rowViewType; // @synthesize rowViewType=_rowViewType;
 
 @end
 

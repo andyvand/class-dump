@@ -6,28 +6,26 @@
 
 #import <GeoServices/GEOBaseMapItem.h>
 
-@class GEOFeatureStyleAttributes, GEOMapItemIdentifier, GEOPDLinkedPlace;
+@class GEOPDLinkedPlace;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapItemContainedPlaceLinkedPlace : GEOBaseMapItem
 {
     GEOPDLinkedPlace *_linkedPlace;
-    GEOMapItemIdentifier *_identifier;
-    GEOFeatureStyleAttributes *_styleAttributes;
 }
 
 - (id);
 - (id);
 - (id);
+- (_Bool)s.y;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (CDStruct_c3b9c2ee)'ð!XGù1¸*1Â0@ù
 × ;
 - (int)
 × ;
-- (unsigned long long)sAutocompleteOriginationEditingServerWaypoints: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setHasAutocompleteOriginationEditingServerWaypoints: /* Error: Ran out of types for this method. */;
 - (int),N,VrouteMatchScore;
 - (_Bool)hÉlË	ÏäÐ;
 - (id);

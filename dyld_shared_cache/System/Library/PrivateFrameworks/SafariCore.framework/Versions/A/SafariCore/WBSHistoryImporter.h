@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString, NSURL;
+@class NSError;
 @protocol WBSHistoryImporterDelegate;
 
 @interface WBSHistoryImporter
 {
     NSError *_lastError;
-    NSMutableArray *_stack;
-    _Bool _foundVisitArray;
-    NSURL *_url;
-    NSString *_title;
-    long long _visitTime;
-    _Bool _loadFailure;
-    _Bool _httpGet;
-    NSURL *_redirectSourceURL;
-    long long _redirectSourceVisitTime;
-    NSURL *_redirectDestinationURL;
-    long long _redirectDestinationVisitTime;
-    unsigned long long _visitCount;
-    id <WBSHistoryImporterDelegate> _delegate;
-    double _ageLimit;
 }
 
 - (void);
+- (_Bool)[;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,13 +27,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)originalImageDescription;
+- (void)p%;
 - (void)A×Ð!X@ù±Xð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double ageLimit; // @synthesize ageLimit=_ageLimit;
 @property(nonatomic) __weak id <WBSHistoryImporterDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

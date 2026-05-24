@@ -7,10 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionAnnotator
 {
     id photoLibrary;
-    id log;
-    id logger;
-    id queryAnnotatorSessionManager;
-    id queryAnnotator;
 }
 
 @end

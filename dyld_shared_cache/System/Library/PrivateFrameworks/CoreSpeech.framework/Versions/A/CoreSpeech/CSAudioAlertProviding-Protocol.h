@@ -7,6 +7,7 @@
 @class NSURL;
 
 @protocol CSAudioAlertProviding
+- (void)44;
 - (_Bool)SAudioInjectionServices createAudioInjectionDeviceWithType:(long long)arg1 deviceName:deviceID:productID:handlingDaemon:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)ssfully:(NSURL *)arg1 option:(long long)arg2 withEventUUID:(_Bool)arg3 ]_block_invoke;
 - (_Bool);

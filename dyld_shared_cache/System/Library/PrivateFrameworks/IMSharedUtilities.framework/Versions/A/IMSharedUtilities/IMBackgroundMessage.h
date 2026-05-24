@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (void)setRemoteSessionEndReason:(id)arg1;
 - (id);
 - (void);
-- (void)perMetadataCSg;
+- (void)So19IMWallpaperMetadataCSg;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;

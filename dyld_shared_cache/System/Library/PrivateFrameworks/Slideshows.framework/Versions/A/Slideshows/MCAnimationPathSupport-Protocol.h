@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class MCAnimationPath, NSArray, NSSet;
 
 @protocol MCAnimationPathSupport
+- (void);
+- (NSArray *)initWithDelegate: /* Error: Ran out of types for this method. */;
+- (unsigned long long)isStoreDemoUser;
+- (NSSet *)newsEdgeAppConfig;
+- (MCAnimationPath *)newsEdgeWidgetConfigAndTodayConfigLite;
+- (void)stringRepresentations;
+- (void)_strong _Nonnull);
 
 // Remaining properties
 @property(readonly) NSSet *animationPaths;
-@property(readonly) unsigned long long countOfAnimationPaths;
 @end
 

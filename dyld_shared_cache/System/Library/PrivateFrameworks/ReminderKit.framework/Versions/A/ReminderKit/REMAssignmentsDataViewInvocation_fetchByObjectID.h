@@ -11,7 +11,6 @@
 @interface REMAssignmentsDataViewInvocation_fetchByObjectID : REMStoreInvocation
 {
     _Bool _allowConcealedObjects;
-    NSArray *_objectIDs;
 }
 
 + (_Bool);
@@ -29,7 +28,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowConcealedObjects; // @synthesize allowConcealedObjects=_allowConcealedObjects;
 @property(readonly, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end

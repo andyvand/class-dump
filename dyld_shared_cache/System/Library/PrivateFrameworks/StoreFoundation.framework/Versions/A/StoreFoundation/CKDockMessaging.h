@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface CKDockMessaging
 {
     NSObject<OS_xpc_object> *_xpcDockConnection;
-    NSMutableDictionary *_cachedIconPaths;
 }
 
 + (id);
+- (id)�;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

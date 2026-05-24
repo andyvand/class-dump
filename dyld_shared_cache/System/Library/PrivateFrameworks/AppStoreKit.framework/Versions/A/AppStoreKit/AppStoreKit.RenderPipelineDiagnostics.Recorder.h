@@ -7,10 +7,9 @@
 @interface AppStoreKit.RenderPipelineDiagnostics.Recorder
 {
     id rawNotifications;
-    id stateLock;
 }
 
-- (void);
+- (void)/o;
 
 @end
 

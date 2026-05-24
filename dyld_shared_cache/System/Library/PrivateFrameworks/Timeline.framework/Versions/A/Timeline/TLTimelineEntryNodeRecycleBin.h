@@ -13,11 +13,10 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)d;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maximumNumberOfRecycledNodes;
 @property(readonly, nonatomic) unsigned long long numberOfRecycledNodes;
 
 @end

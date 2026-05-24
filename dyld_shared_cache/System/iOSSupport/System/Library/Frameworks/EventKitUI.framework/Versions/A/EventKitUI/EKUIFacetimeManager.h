@@ -8,18 +8,18 @@
 {
 }
 
-+ (void);
++ (void);
++ (id)S%s;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)s;
++ (id)R%s;
++ (_Bool)*s;
++ (_Bool)s;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (id);
-+ (void);
++ (void)2%s;
 
 @end
 

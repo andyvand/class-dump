@@ -9,8 +9,6 @@
 @interface MDLCheckerboardTexture : MDLTexture
 {
     int _divisions;
-    struct CGColor *_color1;
-    struct CGColor *_color2;
 }
 
 - (void);
@@ -18,14 +16,12 @@
 - (id);
 - (float);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *)setPreferredDisplayCriteria: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGColor *);
-- (void);
+- (void)withResultStream;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *color1;
-@property(nonatomic) struct CGColor *color2;
 @property(nonatomic) float divisions;
 
 @end

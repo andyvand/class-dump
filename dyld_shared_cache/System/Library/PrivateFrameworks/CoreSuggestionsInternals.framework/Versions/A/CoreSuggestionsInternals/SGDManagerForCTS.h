@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGServiceContext;
-@protocol SGXPCActivityManagerProtocol;
-
 @interface SGDManagerForCTS
 {
     CDUnknownBlockType _harvestStoreGetter;
-    SGServiceContext *_context;
-    struct SGDSuggestManagerCTSCriteriaState _ctsCriteriaState;
-    struct _opaque_pthread_mutex_t _geocodeLock;
-    struct _opaque_pthread_mutex_t _verificationLock;
-    double _lastFrontfillFinishTime;
-    id <SGXPCActivityManagerProtocol> _xpcActivityManager;
 }
 
 + (void);
-+ (id);
++ (id)ֻ;
 + (id);
 - (void);
 - (id);
@@ -32,31 +23,31 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)webView:(id)arg1 runJavaScriptAlertPanelWithMessage:(id)arg2 initiatedByFrame:(id)arg3 completionHandler:(id)arg4;
+- (void)verifyCredentialsForAccount:saveWhenAuthorized:withHandler: /* Error: Ran out of types for this method. */;
+- (void)verifyCredentialsForAccount:options:completion: /* Error: Ran out of types for this method. */;
+- (void)username;
+- (void)userNotificationCenter:didActivateNotification: /* Error: Ran out of types for this method. */;
+- (void)userNameField;
+- (void)userAccepted;
+- (void)urlRequestForClientID:secret:redirectURI:authCode:tokenURL: /* Error: Ran out of types for this method. */;
+- (void)urlRequestForClientID:secret:redirectURI:authCode:tokenURL: /* Error: Ran out of types for this method. */;
+- (void)urlRequestForClientID:redirectURI:scope:username:authRequestURL: /* Error: Ran out of types for this method. */;
+- (void)uiDataclasses;
+- (void)tokenResponseClass;
+- (void)titleForOtherAccountsSetup;
+- (_Bool)tableView:(id)arg1 shouldTrackCell:(id)arg2 forTableColumn:(id)arg3 row:(id)arg4;
+- (void)tableView:shouldReorderColumn:toColumn: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 shouldEditTableColumn:row: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 setObjectValue:forTableColumn:row: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 rowViewForRow:(id)arg2;
+- (void)tableView:(id)arg1 pasteboardWriterForRow: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 objectValueForTableColumn:row: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 nextTypeSelectMatchFromRow:toRow:forString: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedRowsWithIndexes: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 mouseDownInHeaderOfTableColumn: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 isGroupRow: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 draggingSession:willBeginAtPoint:forRowIndexes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void) ;
 

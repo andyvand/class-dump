@@ -9,13 +9,12 @@
 @interface CKDZoneGatekeeper
 {
     CKDZoneGatekeeperImplementation *_foreground;
-    CKDZoneGatekeeperImplementation *_background;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)EAPAssocFailure;
 - (id);
 - (id);
 - (void)ÑàÑÓÜÓÜÔ,Õ;
@@ -25,7 +24,6 @@
 - (_Bool)arent identity found on updated child zone PCS for zone %@.;
 
 // Remaining properties
-@property(retain, nonatomic) CKDZoneGatekeeperImplementation *background; // @synthesize background=_background;
 @property(retain, nonatomic) CKDZoneGatekeeperImplementation *foreground; // @synthesize foreground=_foreground;
 
 @end

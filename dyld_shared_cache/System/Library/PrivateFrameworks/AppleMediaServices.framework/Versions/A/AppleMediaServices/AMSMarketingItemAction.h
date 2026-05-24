@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBuyParams, NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSDictionary;
 
 @interface AMSMarketingItemAction
 {
@@ -36,35 +36,19 @@
 - (id);
 - (id);
 - (id);
+- (id)permanentlyDeletedMessagesInChatsWithDeletedChatGUIDsAndQueryID;
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id)ificationQueue;
+- (id)changeNotificationQueue;
 - (void)P'Þô>nîRt>«N¯cLrytñB´ÀPö ½®úòö Óç,GÇiPÂÕòZh}.·oÕùç²¿7B:Ì¼wÇ8p,t<Ø8¿Õa¦tc0lKTq(Â,ËäVêHhá&S@ñqÓ¢óí@8ê2ªü´­óííÂ8½);ë'qA /* Error: Ran out of types for this method. */;
 - (id)#8Â³èi«Limx=¼Ü>YøÄ['R­'¶ÁÆ¹k¸8[ª{ñ<&(k0NË;
 
 // Remaining properties
-@property(readonly) AMSBuyParams *buyParams;
-@property(readonly) NSString *callToActionLabel;
-@property(readonly) NSString *disclaimerText;
-@property(readonly) _Bool isDefault;
-@property(readonly) _Bool isFamily;
-@property(readonly) _Bool isRecommended;
-@property(readonly) NSString *offerID;
-@property(readonly) NSNumber *price;
-@property(readonly) NSNumber *priceDiff;
-@property(readonly) NSString *priceDiffForDisplay;
-@property(readonly) NSString *priceForDisplay;
 @property(retain) NSDictionary *rawValues; // @synthesize rawValues=_rawValues;
-@property(readonly) NSArray *serviceComponents;
-@property(readonly) NSString *type;
-@property(readonly) NSURL *url;
-@property(readonly) NSString *valuePropDetail;
-@property(readonly) NSString *valuePropInfo;
 
 @end
 

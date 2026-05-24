@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface HALSchemaHALCrossDeviceCommandExecutionEnded : SISchemaInstrumentationMessage
 {
     NSArray *_selecteds;
-    int _action;
-    int _actionResult;
-    int _homeKitTarget;
-    struct {
-        unsigned int action:1;
-        unsigned int actionResult:1;
-        unsigned int homeKitTarget:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -33,9 +25,9 @@
 - (void);
 - (_Bool);
 - (int);
-- (void);
-- (id);
-- (id);
+- (void)_handleHardLimitReset:(id)arg1 shouldRegister:password:pet:didReset:modifiesCircle:firstDevice: /* Error: Ran out of types for this method. */;
+- (id)il.;
+- (id)number2,name=Error}d ;
 - (void);
 - (void);
 - (_Bool);
@@ -46,9 +38,9 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)t",&,N,V_cachedGetHandlesSharingLocationsWithMe;
 - (id)mponent"b1"startIndex"b1"endIndex"b1"originAppBundleIdType"b1};
-- (void)onReported;
+- (void)_hasUserFeedbackParticipantCollectionReported;
 - (id)rMake;
 - (int)7\94:¤;Ä<>È>¨?8@A\AÌBCôC<DäJ,KèL0MNTN0OxOTPPXRxSèTVxWÀW0YxYXZ0[ \0]T^^|_T`bXbÈcXd|eÄe¤f|g8ii lhlHmm /* Error: Ran out of types for this method. */;
 - (id)tT;
@@ -56,13 +48,6 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) int actionResult; // @synthesize actionResult=_actionResult;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasActionResult;
-@property(nonatomic) _Bool hasHomeKitTarget;
-@property(nonatomic) int homeKitTarget; // @synthesize homeKitTarget=_homeKitTarget;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *selecteds; // @synthesize selecteds=_selecteds;
 
 @end

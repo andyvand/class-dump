@@ -9,20 +9,6 @@
 @interface NewsPersonalization.XavierScoringService
 {
     id aggregateStore;
-    id aggregateContext;
-    id _personalizationTreatment;
-    id _clientSideEngagementBoostEnabled;
-    id _fallbackToReverseChronSorting;
-    id _publisherDampeningConfig;
-    id _shadowPublisherDampeningConfig;
-    id translationProvider;
-    id userContextProvider;
-    id computeServiceScoringService;
-    id computeServiceCohortMembershipService;
-    id configurationManager;
-    id tracker;
-    id recipeScoringService;
-    id disableArticleScoring;
 }
 
 - (id);

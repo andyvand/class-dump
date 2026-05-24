@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, SPQueryTask, _SPResultsArrays;
-@protocol SPSearchAgentDelegate;
+@class SPQueryTask;
 
 @interface SPUISearchModel
 {
     long long _updatesDisabled;
-    NSString *_lastQueryString;
-    _Bool _infinitePatience;
-    _Bool _queryComplete;
-    NSArray *_sections;
-    NSObject<SPSearchAgentDelegate> *_delegate;
-    SPQueryTask *_queryTask;
-    _SPResultsArrays *_lastResponse;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -35,12 +27,12 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)*, WTF::IdentityExtractor, WTF::DefaultHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>>::validateKey(const ValueType &) [Key = JSC::JSObject *, Value = JSC::JSObject *, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<JSC::JSObject *>, Traits = WTF::HashTraits<JSC::JSObject *>, KeyTraits = WTF::HashTraits<JSC::JSObject *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)ssageId;
 - (id);
 - (void);
 - (void);
@@ -53,12 +45,7 @@
 - (void);
 
 // Remaining properties
-@property __weak NSObject<SPSearchAgentDelegate> *delegate; // @synthesize delegate=_delegate;
-@property _Bool infinitePatience; // @synthesize infinitePatience=_infinitePatience;
-@property(retain) _SPResultsArrays *lastResponse; // @synthesize lastResponse=_lastResponse;
-@property _Bool queryComplete; // @synthesize queryComplete=_queryComplete;
 @property(retain) SPQueryTask *queryTask; // @synthesize queryTask=_queryTask;
-@property(retain) NSArray *sections; // @synthesize sections=_sections;
 
 @end
 

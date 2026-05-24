@@ -8,21 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNShotflowNetwork
 {
     CDStruct_2bc666a5 _espressoNetwork;
-    void *_espressoPlan;
-    void *_espressoContext;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _logitsPosOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _logitsNegOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _offsetsOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _rollOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _yawOutputs;
-    unsigned long long _currentNetworkWidth;
-    unsigned long long _currentNetworkHeight;
-    _Bool _releaseEspressoContext;
-    _Bool _releaseEspressoPlan;
-    _Bool isAnchorSquare[10];
-    float _defaultBoxSizes[6][10][2];
-    float _threshold;
-    unsigned long long _preferredSmallSide;
 }
 
 + (id);
@@ -31,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (float);
 + (float);
-+ (id);
++ (id);
 + (float);
 + (float);
 + (float);
@@ -60,7 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long preferredSmallSide; // @synthesize preferredSmallSide=_preferredSmallSide;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)HUQuickControlIconView;
 - (void);
 - (void);
 

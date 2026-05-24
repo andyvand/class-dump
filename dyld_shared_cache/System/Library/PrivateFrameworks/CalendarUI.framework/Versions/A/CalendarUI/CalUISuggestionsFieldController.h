@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUISuggestionsField, NSString;
+@class CalUISuggestionsField;
 
 @interface CalUISuggestionsFieldController
 {
@@ -16,17 +16,10 @@
 - (void);
 - (void);
 - (void)× ;
-- (_Bool)nel:(id)arg1;
+- (_Bool)numberOfPreviewItemsInPreviewPanel:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak CalUISuggestionsField *suggestionsField; // @synthesize suggestionsField=_suggestionsField;
-@property(readonly) Class superclass;
 
 @end
 

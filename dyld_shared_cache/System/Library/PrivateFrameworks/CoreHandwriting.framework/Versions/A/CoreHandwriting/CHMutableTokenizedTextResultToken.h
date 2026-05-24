@@ -6,16 +6,14 @@
 
 #import <CoreHandwriting/CHTokenizedTextResultToken.h>
 
-@class NSIndexSet, NSLocale, NSString;
+@class NSString;
 
 @interface CHMutableTokenizedTextResultToken : CHTokenizedTextResultToken
 {
     NSString *_string;
-    NSIndexSet *_strokeIndexes;
-    struct CGRect _bounds;
 }
 
-+ (_Bool);
++ (_Bool)_flashFallTime;
 - (id);
 - (void);
 - (void);
@@ -29,28 +27,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct CGRect);
+- (void);
+- (struct CGRect)iles in directory:%@ -- %@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)renderStrokesSync:(struct CGRect)arg1 clippedToStrokeSpaceRect:strokeTransform:imageClipRect: /* Error: Ran out of types for this method. */;
+- (void)_handwritingStrokeUUIDs;
+- (id)H;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double alignmentScore; // @dynamic alignmentScore;
-@property(nonatomic) struct CGRect bounds; // @dynamic bounds;
-@property(nonatomic) double combinedScore; // @dynamic combinedScore;
-@property(nonatomic) unsigned long long inputSources; // @dynamic inputSources;
-@property(nonatomic) double modelScore; // @dynamic modelScore;
-@property(nonatomic) unsigned long long properties; // @dynamic properties;
-@property(nonatomic) double recognitionScore; // @dynamic recognitionScore;
-@property(copy, nonatomic) NSLocale *recognizerSourceLocale; // @dynamic recognizerSourceLocale;
 @property(copy, nonatomic) NSString *string; // @dynamic string;
-@property(copy, nonatomic) NSIndexSet *strokeIndexes; // @dynamic strokeIndexes;
-@property(nonatomic) long long substrokeCount; // @dynamic substrokeCount;
-@property(nonatomic) unsigned int wordID; // @dynamic wordID;
 
 @end
 

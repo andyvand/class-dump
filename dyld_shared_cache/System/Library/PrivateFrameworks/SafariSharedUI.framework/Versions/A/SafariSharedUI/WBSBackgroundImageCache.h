@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface WBSBackgroundImageCache
 {
     NSMutableDictionary *_responseCache;
-    NSMutableSet *_requests;
-    NSMutableSet *_pendingLoads;
 }
 
 - (void);
@@ -23,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void)ntelligenceHistorySearch;
+- (void)WBSSiriIntelligenceHistorySearch;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *requests;

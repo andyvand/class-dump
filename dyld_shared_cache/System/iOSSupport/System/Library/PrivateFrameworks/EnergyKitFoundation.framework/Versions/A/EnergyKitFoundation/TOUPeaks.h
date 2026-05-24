@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface TOUPeaks
 {
@@ -13,12 +13,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *descriptor; // @dynamic descriptor;
-@property(nonatomic, copy) NSDate *end; // @dynamic end;
-@property(nonatomic, copy) NSData *peaks; // @dynamic peaks;
 @property(nonatomic, copy) NSDate *start; // @dynamic start;
 @property(nonatomic, copy) NSString *tariffProfileID; // @dynamic tariffProfileID;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VSAccountChannels;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VSAccountsArchive
 {
     NSArray *_accounts;
-    VSAccountChannels *_channels;
 }
 
 + (_Bool);
@@ -19,13 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_isColorSpaceIncompatibleForThresholdingInImage:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(copy, nonatomic) VSAccountChannels *channels; // @synthesize channels=_channels;
 
 @end
 

@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL, NSUserNotification, NSUserNotificationCenter, NSXPCConnection, SDXPCServer;
-@protocol OS_dispatch_queue;
+@class SDXPCServer;
 
 @interface SFUserAlert
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct __CFUserNotification *_cfNotif;
-    NSUserNotification *_bannerNotification;
-    NSUserNotificationCenter *_notificationCenter;
-    NSXPCConnection *_xpcCnx;
-    struct __CFRunLoopSource *_runLoopSrc;
-    _Bool _asBanner;
-    _Bool _textInput;
-    _Bool _hasDefaultButton;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _responseHandler;
-    CDUnknownBlockType _textResponseHandler;
-    CDUnknownBlockType _dictionaryResponseHandler;
-    NSDictionary *_additionalInfo;
-    NSURL *_iconURL;
-    NSString *_message;
-    NSURL *_soundURL;
-    NSString *_textInputTitle;
-    double _timeout;
-    NSString *_title;
-    NSString *_defaultButtonTitle;
-    NSString *_alternateButtonTitle;
-    NSString *_otherButtonTitle;
-    SDXPCServer *_server;
 }
 
 + (_Bool);
@@ -62,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)R(;
 - (void);
 - (id);
 - (void);
@@ -86,50 +60,25 @@
 - (void);
 - (void);
 - (id);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)L2;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)>;
 - (CDUnknownBlockType)´;
 - (void);
 - (void)W¡;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(retain, nonatomic) NSString *alternateButtonTitle; // @synthesize alternateButtonTitle=_alternateButtonTitle;
-@property(nonatomic) _Bool asBanner; // @synthesize asBanner=_asBanner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *defaultButtonTitle; // @synthesize defaultButtonTitle=_defaultButtonTitle;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dictionaryResponseHandler; // @synthesize dictionaryResponseHandler=_dictionaryResponseHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(nonatomic) _Bool hasDefaultButton; // @synthesize hasDefaultButton=_hasDefaultButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSString *otherButtonTitle; // @synthesize otherButtonTitle=_otherButtonTitle;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(retain, nonatomic) SDXPCServer *server; // @synthesize server=_server;
-@property(retain, nonatomic) NSURL *soundURL; // @synthesize soundURL=_soundURL;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textInput; // @synthesize textInput=_textInput;
-@property(retain, nonatomic) NSString *textInputTitle; // @synthesize textInputTitle=_textInputTitle;
-@property(copy, nonatomic) CDUnknownBlockType textResponseHandler; // @synthesize textResponseHandler=_textResponseHandler;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

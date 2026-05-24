@@ -6,7 +6,6 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSString;
 @protocol NUScalePolicy;
 
 @interface NUClassifyPipelineImageCorrectionRequest : NURenderRequest
@@ -25,15 +24,7 @@
 - (void)@0:8^{CMPhotoDecompressionSession=}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

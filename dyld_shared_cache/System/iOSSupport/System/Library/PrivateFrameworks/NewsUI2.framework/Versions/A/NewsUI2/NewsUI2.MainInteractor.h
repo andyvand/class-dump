@@ -7,20 +7,6 @@
 @interface NewsUI2.MainInteractor
 {
     id delegate;
-    id dataManager;
-    id followingSelection;
-    id offerManager;
-    id tabBarEngagementModifier;
-    id engagementEventHandler;
-    id engagementViewControllerFactory;
-    id engagementUpsellTriggerStateManager;
-    id metricsBuilder;
-    id purchaseObserver;
-    id tipManager;
-    id bootstrapper;
-    id appLaunchMethodChecker;
-    id featureAvailability;
-    id paidBundleViaOfferUIHandler;
 }
 
 @end

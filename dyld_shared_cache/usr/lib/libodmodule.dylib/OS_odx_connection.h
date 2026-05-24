@@ -6,19 +6,12 @@
 
 #import <odmodule/OS_odx_object.h>
 
-@class NSString;
-
 @interface OS_odx_connection : OS_odx_object
 {
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

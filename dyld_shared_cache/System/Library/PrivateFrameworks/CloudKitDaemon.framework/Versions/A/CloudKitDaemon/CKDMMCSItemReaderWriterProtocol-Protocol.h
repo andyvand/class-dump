@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C3DownloadChunkContext, CKDMMCSItem, CKDMMCSItemGroupContext;
+@class C3DownloadChunkContext, CKDMMCSItemGroupContext;
 
 @protocol CKDMMCSItemReaderWriterProtocol
+- (_Bool);
 - (_Bool)it.containerTCCQueue;
 
-// Remaining properties
-@property(readonly, nonatomic) CKDMMCSItem *MMCSItem;
-@property(readonly, nonatomic) CKDMMCSItemGroupContext *MMCSRequest;
-@property(readonly, nonatomic) C3DownloadChunkContext *downloadChunkContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"C3DownloadChunkContext",?,R,N
+@optional
+- (C3DownloadChunkContext *)$;
 
+// Remaining properties
+@property(readonly, nonatomic) CKDMMCSItemGroupContext *MMCSRequest;
 @end
 

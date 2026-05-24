@@ -4,66 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageController, AKPageModelController, CALayer, CAShapeLayer, NSMapTable;
+@class AKPageController;
 
 @interface AKLayerPresentationManager
 {
     _Bool _shouldPixelate;
-    _Bool _adornmentsHidden;
-    _Bool _isObservingModel;
-    AKPageController *_pageController;
-    CALayer *_rootLayer;
-    double _alignmentGuidePositionX;
-    double _alignmentGuidePositionY;
-    NSMapTable *_annotationsToAnnotationLayers;
-    NSMapTable *_annotationsToAdornmentLayers;
-    CALayer *_cropAnnotationLayer;
-    CALayer *_cropAdornmentLayer;
-    CAShapeLayer *_alignmentGuideXLayer;
-    CAShapeLayer *_alignmentGuideYLayer;
-    AKPageModelController *_pageModelController;
-    double _currentScaleFactor;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)/;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)y;
+- (id);
 - (id);
 - (double);
 - (double);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)R;
+- (void)88W;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (void);
 - (void);
 - (void);
@@ -71,27 +53,18 @@
 - (void);
 - (void);
 - (void);
+- (double);
+- (void);
 - (void);
-- (id);
 - (void);
-- (void)KTextAnnotationProtocol;
+- (void);
+- (id)=r++;if(1===e.length){let t=e[0];t.ControlOrderedParts=this.#n(t)}else 2===e.length?(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken,WBSContactStreetAddressLine3OrderedPartToken]):e.length>=3&&(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken],e[2].ControlOrderedParts=[WBSContactStreetAddressLine3OrderedPartToken]);k=e.length;continue}if(B===WBSContactInstantMessageClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!0);1===e.length&&(e[0].ControlClassification=WBSContactInstantMessageClassificationToken,r&&(e[0].ControlClassificationHints=[r])),k=e.length;continue}if(B.startsWith(WBSContactTelephoneClassificationToken)){const e=this.continuingFieldsInFormControls(t,S,!0,!1);if(1==e.length){e[0].ControlClassification=WBSContactTelephoneClassificationToken,e[0].ControlOrderedParts=WBSTelephoneDefaultOrderedParts,r&&(e[0].ControlClassificationHints=[r]);continue}let o=++u,n=0;for(let t of e)t.ControlClassification=WBSContactTelephoneClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=n++,r&&(t.ControlClassificationHints=[r]);2===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken,WBSTelephoneLocalSuffixOrderedPartToken]):3===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):4===e.length?(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken],e[4].ControlOrderedParts=[WBSTelephoneExtensionOrderedPartToken]),k=e.length;continue}if(B===WBSContactBirthdayClassificationToken){const o=this.continuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
+0; /* Error: Ran out of types for this method. */;
+- (void);
+- (void)conformsToAKTextAnnotationProtocol;
 
 // Remaining properties
-@property(nonatomic) _Bool adornmentsHidden; // @synthesize adornmentsHidden=_adornmentsHidden;
-@property(nonatomic) double alignmentGuidePositionX; // @synthesize alignmentGuidePositionX=_alignmentGuidePositionX;
-@property(nonatomic) double alignmentGuidePositionY; // @synthesize alignmentGuidePositionY=_alignmentGuidePositionY;
-@property(retain) CAShapeLayer *alignmentGuideXLayer; // @synthesize alignmentGuideXLayer=_alignmentGuideXLayer;
-@property(retain) CAShapeLayer *alignmentGuideYLayer; // @synthesize alignmentGuideYLayer=_alignmentGuideYLayer;
-@property(retain) NSMapTable *annotationsToAdornmentLayers; // @synthesize annotationsToAdornmentLayers=_annotationsToAdornmentLayers;
-@property(retain) NSMapTable *annotationsToAnnotationLayers; // @synthesize annotationsToAnnotationLayers=_annotationsToAnnotationLayers;
-@property(retain) CALayer *cropAdornmentLayer; // @synthesize cropAdornmentLayer=_cropAdornmentLayer;
-@property(retain) CALayer *cropAnnotationLayer; // @synthesize cropAnnotationLayer=_cropAnnotationLayer;
-@property double currentScaleFactor; // @synthesize currentScaleFactor=_currentScaleFactor;
-@property _Bool isObservingModel; // @synthesize isObservingModel=_isObservingModel;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(retain) AKPageModelController *pageModelController; // @synthesize pageModelController=_pageModelController;
-@property(retain) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
-@property(nonatomic) _Bool shouldPixelate; // @synthesize shouldPixelate=_shouldPixelate;
 
 @end
 

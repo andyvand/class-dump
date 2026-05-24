@@ -16,14 +16,13 @@ __attribute__((visibility("hidden")))
         CDUnknownFunctionPointerType release;
         CDUnknownFunctionPointerType describe;
     } _callBacks;
-    struct __CFBasicHash *_ht;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)hasizedItalicBody;
+- (id)a;
 - (unsigned long long);
 - (void);
 - (_Bool);

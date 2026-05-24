@@ -9,17 +9,16 @@
 @interface CKShareSheetChatController : CKComposeChatController
 {
     unsigned long long _interactionSignPost;
-    _Bool _alreadySetUp;
 }
 
-- (_Bool);
+- (_Bool)isBeingEditedLocallyOnDevice;
+- (void)appURLForNote:(_Bool)arg1 inVirtualSmartFolder: /* Error: Ran out of types for this method. */;
+- (void)ndler:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)f;
+- (void)t All to Medium;
+- (void):]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface BWFrameStatistics
 {
     NSString *_portType;
-    NSDictionary *_aeStatistics;
-    NSArray *_displayStrobeRGBEstimate;
-    NSData *_colorCorrectionMatrix;
-    CDStruct_441bd2e9 *_storage;
 }
 
 - (id);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)playFillClosedCurve:in_size:in_flags: /* Error: Ran out of types for this method. */;
+- (_Bool)decodeInt32ForKey: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (float);
+- (void);
+- (float)̀;
 - (_Bool);
 - (unsigned short);
 - (unsigned int);
@@ -34,10 +30,10 @@
 - (id);
 - (int);
 - (unsigned int);
-- (unsigned short);
+- (unsigned short)S)	*;
 - (unsigned int);
 - (int);
-- (unsigned int);
+- (unsigned int)9;
 - (void);
 - (int);
 - (float);
@@ -46,16 +42,16 @@
 - (float);
 - (unsigned short);
 - (unsigned int);
-- (int);
+- (int)A;
 - (unsigned short);
-- (_Bool);
-- (_Bool);
+- (_Bool)SaliencyModelConfig:Error in processing ground truth estimation rules. /* Error: Ran out of types for this method. */;
+- (_Bool)Tehran;
 - (long long);
 - (unsigned int);
 - (id);
 - (id);
 - (float);
-- (id);
+- (id);
 - (int);
 - (float);
 - (float);
@@ -65,7 +61,7 @@
 - (float);
 - (float);
 - (unsigned short);
-- (struct CGRect);
+- (struct CGRect)items;
 - (unsigned short);
 - (int);
 - (unsigned short);
@@ -74,7 +70,7 @@
 - (int);
 - (unsigned int)
 × ;
-- (unsigned short)firstOverCaptureDisplayedFramePTS;
+- (unsigned short)_firstOverCaptureDisplayedFramePTS;
 - (unsigned int)t H`À ;
 - (int)ÿ	ÿ"ÿ$ÿ&ÿ"'ÿ)(ÿ/)ÿ7*ÿ>+ÿE+ÿL,ÿS,ÿ[,ÿb-ÿi-ÿq	-ÿy
 .ÿ.ÿ.ÿ/ÿ/ÿ /ÿ¨0ÿ°0ÿ·1ÿÀ1ÿÈ2ÿÏ3ÿ×4ÿß5ÿ;
@@ -84,81 +80,15 @@
 - (_Bool)ÖýÿÞÖýÿæÖýÿíÕýÿõÕýÿüÕüÿ;
 - (int)ÿáÿ âÿ¨ãÿ°ä~ÿ¸å{ÿÀçwÿÈèrÿÐénÿ×ëkÿÝìgÿäíeÿéîcÿìîaÿîî`ÿîî_ÿiÞÿiÞÿiÞÿiÞÿhÞÿhÞÿhÞÿhÞÿhÞÿhÞÿgÞÿgÞÿlÞÿußÿàÿàÿáÿâÿ¡ãÿ©äÿ±åÿ¸æ|ÿÀçxÿÈètÿÏépÿ×ëlÿÝìiÿäífÿéîdÿìîbÿîïaÿîî`ÿ;
 - (CDStruct_441bd2e9 *)eue );
-- (float)t;
+- (float)UnknownClient;
 - (double)eck.slackmacgap;
-- (id)HysteresisLag;
+- (id)NormalizedSNRHysteresisLag;
 - (CDStruct_1b6d18a9)ÿ¦Þ;
 - (double);
 - (unsigned int)&;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int aeAverage;
-@property(readonly, nonatomic) unsigned int aeFaceAverage;
-@property(readonly, nonatomic) _Bool aeLimitsReached;
-@property(readonly, nonatomic) _Bool aeLocked;
-@property(readonly, nonatomic) _Bool aeStable;
-@property(readonly, nonatomic) NSDictionary *aeStatistics;
-@property(readonly, nonatomic) unsigned int aeTarget;
-@property(readonly, nonatomic) NSString *afConvergenceRequiresHigherFPSForPortType;
-@property(readonly, nonatomic) _Bool afLocked;
-@property(readonly, nonatomic) NSString *afRecommendedPrimaryPortType;
-@property(readonly, nonatomic) long long afRecommendedPrimaryPortTypeChangeTime;
-@property(readonly, nonatomic) int afStationaryCount;
-@property(readonly, nonatomic) int afStatus;
-@property(readonly, nonatomic) unsigned int agc;
-@property(readonly, nonatomic) unsigned short awbBGain;
-@property(readonly, nonatomic) unsigned short awbComboBGain;
-@property(readonly, nonatomic) unsigned short awbComboGGain;
-@property(readonly, nonatomic) unsigned short awbComboRGain;
-@property(readonly, nonatomic) unsigned short awbGGain;
-@property(readonly, nonatomic) _Bool awbLocked;
-@property(readonly, nonatomic) unsigned short awbRGain;
-@property(readonly, nonatomic) unsigned short awbSkinBGain;
-@property(readonly, nonatomic) unsigned short awbSkinGGain;
-@property(readonly, nonatomic) unsigned short awbSkinRGain;
-@property(readonly, nonatomic) unsigned int awbSpatialCCMMixingFactor;
-@property(readonly, nonatomic) _Bool awbStable;
-@property(readonly, nonatomic) float baseISO;
-@property(readonly, nonatomic) unsigned int cct;
-@property(readonly, nonatomic) NSData *colorCorrectionMatrix;
-@property(readonly, nonatomic) unsigned int conversionGain;
-@property(readonly, nonatomic) float currentFrameRate;
-@property(readonly, nonatomic) NSArray *displayStrobeRGBEstimate;
-@property(readonly, nonatomic) double eit;
-@property(readonly, nonatomic) double exposureBias;
-@property(readonly, nonatomic) int filteredLogicalFocusLensPosition;
-@property(readonly, nonatomic) int filteredLogicalFocusLensPositionStep;
-@property(readonly, nonatomic) struct CGRect finalCropRect;
-@property(readonly, nonatomic) float focusDistance;
-@property(readonly, nonatomic) int focusPosition;
-@property(readonly, nonatomic) int focusPositionStep;
-@property(readonly, nonatomic) int focusRegionType;
-@property(readonly, nonatomic) int focusingMethod;
-@property(readonly, nonatomic) float gain;
-@property(readonly, nonatomic) _Bool hrEnabled;
-@property(readonly, nonatomic) double integrationTime;
-@property(readonly, nonatomic) unsigned int ispDGain;
-@property(readonly, nonatomic) float ispDGainRangeExpansionFactor;
-@property(readonly, nonatomic) int lastFocusingMethod;
-@property(readonly, nonatomic) int logicalFocusLensPosition;
-@property(readonly, nonatomic) int logicalFocusLensPositionStep;
-@property(readonly, nonatomic) int ltmCurve;
-@property(readonly, nonatomic) unsigned int luxLevel;
-@property(readonly, nonatomic) float motionDataBiasErrorEstimate;
-@property(readonly, nonatomic) unsigned int motionDataStatus;
-@property(readonly, nonatomic) int motionFromAEMatrix;
-@property(readonly, nonatomic) float normalizedQsumSNR;
-@property(readonly, nonatomic) float normalizedSNR;
 @property(readonly, nonatomic) NSString *portType;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 pts;
-@property(readonly, nonatomic) unsigned int readNoise_1x;
-@property(readonly, nonatomic) unsigned int readNoise_8x;
-@property(readonly, nonatomic) unsigned int sensorDGain;
-@property(readonly, nonatomic) float sifrGain;
-@property(readonly, nonatomic) float tofMeasuredDepth;
-@property(readonly, nonatomic) int tofROIType;
-@property(readonly, nonatomic) int tofSensorConfidence;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

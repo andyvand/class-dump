@@ -6,26 +6,21 @@
 
 #import <AVFCore/AVAssetTrackInspector.h>
 
-@class AVWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface AVPlaybackItemTrackInspector : AVAssetTrackInspector
 {
     struct OpaqueFigPlaybackItem *_playbackItem;
-    int _trackID;
-    unsigned int _mediaType;
-    AVWeakReference *_weakReferenceToAsset;
 }
 
 - (void);
 - (id);
-- (void *);
+- (void *)!;
 - (unsigned long long);
 - (_Bool);
 - (float);
 - (_Bool);
 - (id);
-- (struct OpaqueFigPlaybackItem *);
+- (struct OpaqueFigPlaybackItem *)X;
 - (id);
 - (float);
 - (CDStruct_1b6d18a9);
@@ -35,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGAffineTransform))ð1Â0@ù
 × ;
-- (struct CGSize)onRequired;
+- (struct CGSize)AVCoordinatedPlaybackSuspensionReasonUserActionRequired;
 - (int);
 
 @end

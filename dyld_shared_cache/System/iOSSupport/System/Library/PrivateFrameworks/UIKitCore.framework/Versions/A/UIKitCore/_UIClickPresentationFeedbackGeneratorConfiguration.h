@@ -12,28 +12,21 @@
 @interface _UIClickPresentationFeedbackGeneratorConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     NSString *_hidPreviewedPatternName;
-    NSString *_hidPoppedPatternName;
-    NSString *_hidDraggedPatternName;
 }
 
 + (id)filters.vibrantColorMatrix.inputColorMatrix;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)containsWarnState;
+- (id)biaReferenceIDWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (id)Task>",&,N,V_currentlyExecutingSyncTask;
+- (id)__im_isLivePhotoBundleComponent;
+- (id)tionTrustManaging>",&,N,V_communicationTrustManager;
 - (id);
 - (long long);
-- (id)hObservers;
-- (long long)onfigurationCornerStyle;
+- (id)touchObservers;
+- (long long)NUIButtonConfigurationCornerStyle;
 - (void)\g×þ°X^;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *draggedPattern;
-@property(readonly, nonatomic) NSString *hidDraggedPatternName; // @synthesize hidDraggedPatternName=_hidDraggedPatternName;
-@property(readonly, nonatomic) NSString *hidPoppedPatternName; // @synthesize hidPoppedPatternName=_hidPoppedPatternName;
-@property(readonly, nonatomic) NSString *hidPreviewedPatternName; // @synthesize hidPreviewedPatternName=_hidPreviewedPatternName;
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *poppedPattern;
 @property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *previewedPattern;
 
 @end

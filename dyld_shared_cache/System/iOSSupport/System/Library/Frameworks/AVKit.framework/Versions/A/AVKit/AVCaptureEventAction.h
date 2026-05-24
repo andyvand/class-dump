@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureEventInteraction;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureEventAction
 {
     CDUnknownBlockType _handler;
-    AVCaptureEventInteraction *_interaction;
-    unsigned long long _source;
 }
 
 - (id);

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)layoutDirectionForSwipeActionController: /* Error: Ran out of types for this method. */;
 + (void);
 - (long long);
-- (_Bool);
-- (id);
+- (_Bool)g;
+- (id)__PKApplyOfferCreditCardViewAccessibility_super;
 
 @end
 

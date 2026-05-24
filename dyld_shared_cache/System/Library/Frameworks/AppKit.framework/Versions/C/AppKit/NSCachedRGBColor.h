@@ -13,7 +13,7 @@
 - (unsigned long long);
 - (oneway void);
 - (id);
-- (id)ileNames;
+- (id)_fileNames;
 - (_Bool);
 - (id)d row:%li /* Error: Ran out of types for this method. */;
 - (id)YYE;

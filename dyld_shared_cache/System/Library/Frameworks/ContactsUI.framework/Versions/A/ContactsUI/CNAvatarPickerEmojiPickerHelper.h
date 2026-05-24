@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKEmojiDataSource, CPKPopover, NSString, NSWindow;
+@class NSWindow;
 
 @interface CNAvatarPickerEmojiPickerHelper
 {
     NSWindow *_presentingWindow;
-    CPKPopover *_popover;
-    CPKEmojiDataSource *_emojiDataSource;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)9?;
 - (_Bool);
-- (id);
+- (id)?	;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CPKEmojiDataSource *emojiDataSource; // @synthesize emojiDataSource=_emojiDataSource;
-@property(readonly) unsigned long long hash;
-@property(retain) CPKPopover *popover; // @synthesize popover=_popover;
 @property __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
 
 @end
 

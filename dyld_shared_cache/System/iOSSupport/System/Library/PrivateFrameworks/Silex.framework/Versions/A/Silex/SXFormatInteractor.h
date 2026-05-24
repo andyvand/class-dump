@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDebugLayoutOptionsProviding, SXFormatInteractorDelegate, SXLayoutCoordinator, SXLayoutOptionsFactory, SXNewsletterSubscriptionStatusProviding, SXOfferIdentifierProviding, SXOfferUpsellScenarioProviding, SXPresentationAttributesProvider, SXPresentationEnvironment, SXRenderingConfigurationProvider, SXSubscriptionActivationEligibilityProviding, SXSubscriptionStatusProviding, SXTagSubscriptionStatusProviding;
+@protocol SXLayoutCoordinator;
 
 @interface SXFormatInteractor
 {
     _Bool _requestedContentHiding;
-    id <SXFormatInteractorDelegate> _delegate;
-    id <SXLayoutCoordinator> _layoutCoordinator;
-    id <SXLayoutOptionsFactory> _layoutOptionsFactory;
-    id <SXPresentationAttributesProvider> _presentationAttributesProvider;
-    id <SXSubscriptionStatusProviding> _subscriptionStatusProvider;
-    id <SXPresentationEnvironment> _presentationEnvironment;
-    id <SXDebugLayoutOptionsProviding> _debugLayoutOptionsProvider;
-    id <SXNewsletterSubscriptionStatusProviding> _newsletterSubscriptionStatusProvider;
-    id <SXOfferUpsellScenarioProviding> _offerUpsellScenarioProvider;
-    id <SXSubscriptionActivationEligibilityProviding> _subscriptionActivationEligibilityProvider;
-    id <SXOfferIdentifierProviding> _offerIdentifierProvider;
-    id <SXRenderingConfigurationProvider> _renderingConfigurationProvider;
-    id <SXTagSubscriptionStatusProviding> _tagSubscriptionStatusProvider;
 }
 
 - (void);
@@ -60,27 +46,7 @@
 - (void)utResult>"32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <SXDebugLayoutOptionsProviding> debugLayoutOptionsProvider; // @synthesize debugLayoutOptionsProvider=_debugLayoutOptionsProvider;
-@property(nonatomic) __weak id <SXFormatInteractorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXLayoutCoordinator> layoutCoordinator; // @synthesize layoutCoordinator=_layoutCoordinator;
-@property(readonly, nonatomic) id <SXLayoutOptionsFactory> layoutOptionsFactory; // @synthesize layoutOptionsFactory=_layoutOptionsFactory;
-@property(readonly, nonatomic) id <SXNewsletterSubscriptionStatusProviding> newsletterSubscriptionStatusProvider; // @synthesize newsletterSubscriptionStatusProvider=_newsletterSubscriptionStatusProvider;
-@property(readonly, nonatomic) id <SXOfferIdentifierProviding> offerIdentifierProvider; // @synthesize offerIdentifierProvider=_offerIdentifierProvider;
-@property(readonly, nonatomic) id <SXOfferUpsellScenarioProviding> offerUpsellScenarioProvider; // @synthesize offerUpsellScenarioProvider=_offerUpsellScenarioProvider;
-@property(readonly, nonatomic) id <SXPresentationAttributesProvider> presentationAttributesProvider; // @synthesize presentationAttributesProvider=_presentationAttributesProvider;
-@property(nonatomic) __weak id <SXPresentationEnvironment> presentationEnvironment; // @synthesize presentationEnvironment=_presentationEnvironment;
-@property(readonly, nonatomic) id <SXRenderingConfigurationProvider> renderingConfigurationProvider; // @synthesize renderingConfigurationProvider=_renderingConfigurationProvider;
-@property(nonatomic) _Bool requestedContentHiding; // @synthesize requestedContentHiding=_requestedContentHiding;
-@property(readonly, nonatomic) id <SXSubscriptionActivationEligibilityProviding> subscriptionActivationEligibilityProvider; // @synthesize subscriptionActivationEligibilityProvider=_subscriptionActivationEligibilityProvider;
-@property(readonly, nonatomic) id <SXSubscriptionStatusProviding> subscriptionStatusProvider; // @synthesize subscriptionStatusProvider=_subscriptionStatusProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXTagSubscriptionStatusProviding> tagSubscriptionStatusProvider; // @synthesize tagSubscriptionStatusProvider=_tagSubscriptionStatusProvider;
 
 @end
 

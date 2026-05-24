@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthenticationInProgress, NSMapTable, NSMutableArray;
-@protocol LACRemoteAuthenticationOwnership;
+@class AuthenticationInProgress;
 
 @interface AuthenticationManager
 {
     AuthenticationInProgress *_runningAuthentication;
-    NSMutableArray *_idleBlocks;
-    _Bool _daemon;
-    id <LACRemoteAuthenticationOwnership> _remoteAuthenticationOwnership;
-    NSMapTable *_remoteAuthentications;
-    int _bkOperationToken;
-    AuthenticationInProgress *_pendingAuthentication;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
@@ -37,21 +29,19 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id)e;
+- (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)�(;
 - (void);
 - (void);
+- (void)ldRoots/4~CNqRugD-iyv6YGTkX35bTGSZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m" at line 243
+;
+- (void)	;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) _Bool isBiometryIdle;
-@property(readonly, nonatomic) AuthenticationInProgress *pendingAuthentication; // @synthesize pendingAuthentication=_pendingAuthentication;
-@property(readonly, nonatomic) AuthenticationInProgress *runningAuthentication; // @synthesize runningAuthentication=_runningAuthentication;
 
 @end
 

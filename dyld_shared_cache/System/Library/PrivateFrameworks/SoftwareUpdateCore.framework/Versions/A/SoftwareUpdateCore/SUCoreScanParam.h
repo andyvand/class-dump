@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSString, SUCoreDescriptor;
-
 @interface SUCoreScanParam
 {
     int _type;
-    long long _resultCode;
-    NSError *_error;
-    SUCoreDescriptor *_descriptor;
-    SUCoreDescriptor *_fallbackDescriptor;
-    SUCoreDescriptor *_majorPrimaryDescriptor;
-    SUCoreDescriptor *_majorSecondaryDescriptor;
-    SUCoreDescriptor *_minorPrimaryDescriptor;
-    SUCoreDescriptor *_minorSecondaryDescriptor;
-    NSString *_note;
-    NSMutableDictionary *_additionalInfo;
 }
 
 + (_Bool);
@@ -38,10 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)troller";
+- (void)isAuthenticationSession;
+- (id)_maximumTilesPerRow;
+- (id)$L;
 - (void);
 - (void);
 - (void);
@@ -54,15 +42,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(retain, nonatomic) SUCoreDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) SUCoreDescriptor *fallbackDescriptor; // @synthesize fallbackDescriptor=_fallbackDescriptor;
-@property(retain, nonatomic) SUCoreDescriptor *majorPrimaryDescriptor; // @synthesize majorPrimaryDescriptor=_majorPrimaryDescriptor;
-@property(retain, nonatomic) SUCoreDescriptor *majorSecondaryDescriptor; // @synthesize majorSecondaryDescriptor=_majorSecondaryDescriptor;
-@property(retain, nonatomic) SUCoreDescriptor *minorPrimaryDescriptor; // @synthesize minorPrimaryDescriptor=_minorPrimaryDescriptor;
-@property(retain, nonatomic) SUCoreDescriptor *minorSecondaryDescriptor; // @synthesize minorSecondaryDescriptor=_minorSecondaryDescriptor;
-@property(retain, nonatomic) NSString *note; // @synthesize note=_note;
 @property(nonatomic) long long resultCode; // @synthesize resultCode=_resultCode;
 
 @end

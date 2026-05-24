@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface UIWebOverflowScrollInfo
 {
     _Bool _isUserScroll;
-    DOMNode *_node;
-    struct CGPoint _offset;
 }
 
-- (void);
+- (void)deleteAllCloudKitData;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
-- (void);
-- (void);
+- (void)session id length;
+- (void)UIButtonBarKeyboardBIUUnderline;
 - (struct CGPoint)$Y1ÿX;
 - (id)d;
 
 // Remaining properties
-@property(nonatomic) _Bool isUserScroll; // @synthesize isUserScroll=_isUserScroll;
 @property(retain, nonatomic) DOMNode *node; // @synthesize node=_node;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
 
 @end
 

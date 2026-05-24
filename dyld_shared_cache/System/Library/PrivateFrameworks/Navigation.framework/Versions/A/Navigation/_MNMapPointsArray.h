@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MNMapPointsArray
 {
     unsigned long long _count;
-    CDStruct_c3b9c2ee *_mapPoints;
 }
 
 - (CDStruct_c3b9c2ee *);
@@ -20,8 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *mapPoints; // @synthesize mapPoints=_mapPoints;
-@property(readonly, nonatomic) void *points;
 
 @end
 

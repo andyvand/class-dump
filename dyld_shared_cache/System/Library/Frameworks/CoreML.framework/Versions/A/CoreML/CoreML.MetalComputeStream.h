@@ -7,7 +7,6 @@
 @interface CoreML.MetalComputeStream
 {
     id device;
-    id cache;
 }
 
 @end

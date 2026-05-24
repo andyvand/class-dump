@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TQueuedPopoverController : FI_TPopoverController
 {
     struct shared_ptr<TThreadSafeQueue<FI_TQueuedPopoverController *>> _queue;
-    struct TNSWeakPtr<NSView> _weakView;
-    struct CGRect _frameInView;
-    unsigned long long _preferredEdge;
 }
 
 - (void);

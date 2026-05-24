@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIKBKeyView.h>
 
-@class NSString, UIKeyboardEmojiKeyDisplayController;
+@class UIKeyboardEmojiKeyDisplayController;
 @protocol UIKeyboardEmojiCategoryUpdateDelegate;
 
 __attribute__((visibility("hidden")))
@@ -22,14 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak UIKeyboardEmojiKeyDisplayController<UIKeyboardEmojiCategoryUpdateDelegate> *emojiKeyManager; // @synthesize emojiKeyManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

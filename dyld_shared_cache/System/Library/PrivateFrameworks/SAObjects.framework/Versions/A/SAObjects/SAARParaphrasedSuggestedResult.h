@@ -6,7 +6,6 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSString;
 @protocol SAClientBoundCommand;
 
 @interface SAARParaphrasedSuggestedResult : SAAceView
@@ -22,12 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)k;
 
 // Remaining properties
 @property(retain, nonatomic) id <SAClientBoundCommand> command;
-@property(copy, nonatomic) NSString *displayText;
-@property(nonatomic) long long rank;
 
 @end
 

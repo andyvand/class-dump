@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerConfigurationProvider, AVTUILogger;
 @protocol AVTAvatarStoreInternal;
 
 @interface AVTStickerRecentsMigrator
 {
     _Bool _migrationHasBeenPerformed;
-    id <AVTAvatarStoreInternal> _store;
-    AVTStickerConfigurationProvider *_stickerConfigurationProvider;
-    AVTUILogger *_logger;
 }
 
 - (id);
@@ -22,16 +18,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)´TôT;
 - (void)Pòÿ;
 
 // Remaining properties
-@property(nonatomic) AVTUILogger *logger; // @synthesize logger=_logger;
-@property(nonatomic) _Bool migrationHasBeenPerformed; // @synthesize migrationHasBeenPerformed=_migrationHasBeenPerformed;
-@property(retain, nonatomic) AVTStickerConfigurationProvider *stickerConfigurationProvider; // @synthesize stickerConfigurationProvider=_stickerConfigurationProvider;
 @property(retain, nonatomic) id <AVTAvatarStoreInternal> store; // @synthesize store=_store;
 
 @end

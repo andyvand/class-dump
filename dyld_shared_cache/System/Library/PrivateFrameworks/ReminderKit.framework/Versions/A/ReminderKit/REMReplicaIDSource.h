@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class REMObjectID;
 
 @interface REMReplicaIDSource
 {
     REMObjectID *_accountID;
-    NSString *_crdtID;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)áê°!ôFùÑr ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *crdtID; // @synthesize crdtID=_crdtID;
 
 @end
 

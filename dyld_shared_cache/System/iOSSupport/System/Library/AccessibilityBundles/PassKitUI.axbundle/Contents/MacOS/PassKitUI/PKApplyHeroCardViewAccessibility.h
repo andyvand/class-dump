@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)dog;
 + (void);
 - (_Bool);
 - (unsigned long long);

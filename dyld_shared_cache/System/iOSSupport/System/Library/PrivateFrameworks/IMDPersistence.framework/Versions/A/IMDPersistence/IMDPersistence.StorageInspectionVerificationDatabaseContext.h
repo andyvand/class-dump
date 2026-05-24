@@ -9,16 +9,6 @@
 @interface IMDPersistence.StorageInspectionVerificationDatabaseContext : IMDPersistence.StorageInspectionDatabaseContext
 {
     id contextName;
-    id chatVerificationTable;
-    id messageVerificationTable;
-    id handleVerificationTable;
-    id attachmentVerificationTable;
-    id chatMessageJoinVerificationTable;
-    id chatHandleJoinVerificationTable;
-    id messageAttachmentJoinVerificationTable;
-    id deletedMessagesVerificationTable;
-    id chatRecoverableMessagesJoinVerificationTable;
-    id tables;
 }
 
 @end

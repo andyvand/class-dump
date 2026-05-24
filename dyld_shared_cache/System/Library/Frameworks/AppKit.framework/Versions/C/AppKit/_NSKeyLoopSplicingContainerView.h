@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyLoopSplicingContainerView : NSView
 {
     NSView *_externalNextKeyView;
-    NSView *_firstKeyView;
-    NSView *_lastKeyView;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)tionRowControllerApplicationWantsSystemModalFunctionRowObservationContext;
+- (void)d creating download file:(id)arg1 %s;
+- (void)led to clone trust, error %@ [%ld];
+- (void)NSApplicationFunctionRowControllerApplicationWantsSystemModalFunctionRowObservationContext;
 
 // Remaining properties
 @property(nonatomic) __weak NSView *firstKeyView; // @synthesize firstKeyView=_firstKeyView;
-@property(nonatomic) __weak NSView *lastKeyView; // @synthesize lastKeyView=_lastKeyView;
 
 @end
 

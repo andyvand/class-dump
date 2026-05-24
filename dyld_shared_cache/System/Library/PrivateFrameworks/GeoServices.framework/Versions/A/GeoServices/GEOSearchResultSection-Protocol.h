@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSString;
+@class GEOStyleAttributes;
 
 @protocol GEOSearchResultSection
-- (long long)ilteredGuides;
+- (void);
+- (GEOStyleAttributes *)rivate}ld;
+- (long long)_filteredGuides;
 
 // Remaining properties
 @property(nonatomic) long long cellType;
-@property(copy, nonatomic) NSString *headerDisplayName;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(copy, nonatomic) NSString *subHeaderDisplayName;
 @end
 

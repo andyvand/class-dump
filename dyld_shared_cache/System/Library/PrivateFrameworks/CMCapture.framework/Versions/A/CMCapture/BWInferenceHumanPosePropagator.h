@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWInferenceMetadataRequirement, NSMutableData, NSString;
+@class BWInferenceMetadataRequirement;
 
 __attribute__((visibility("hidden")))
 @interface BWInferenceHumanPosePropagator
 {
     BWInferenceMetadataRequirement *_outputRequirement;
-    _Bool _rotateOutput;
-    NSMutableData *_heatmapData;
-    struct __IOSurface *_tensorBackingSurface;
 }
 
 - (void);
 - (id);
-- (struct __IOSurface *);
-- (_Bool);
+- (struct __IOSurface *);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAsyncPropagation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

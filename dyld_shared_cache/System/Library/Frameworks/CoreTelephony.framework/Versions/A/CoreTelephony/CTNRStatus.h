@@ -7,40 +7,30 @@
 @interface CTNRStatus
 {
     _Bool _saSwitchVisible;
-    _Bool _saSwitchConfigurable;
-    _Bool _saDisabled;
-    _Bool _nsaDisabled;
-    unsigned long long _saDisabledReasonMask;
-    unsigned long long _nsaDisabledReasonMask;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ave a value of YES for providesPreciseDurationAndTiming;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)r Hza;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)HzA;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)diskNameForSystemVolumeWithError:(id)arg1;
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isNSADisabled) _Bool nsaDisabled; // @synthesize nsaDisabled=_nsaDisabled;
-@property(nonatomic) unsigned long long nsaDisabledReasonMask; // @synthesize nsaDisabledReasonMask=_nsaDisabledReasonMask;
-@property(nonatomic, getter=isSADisabled) _Bool saDisabled; // @synthesize saDisabled=_saDisabled;
-@property(nonatomic) unsigned long long saDisabledReasonMask; // @synthesize saDisabledReasonMask=_saDisabledReasonMask;
-@property(nonatomic, getter=isSASwitchConfigurable) _Bool saSwitchConfigurable; // @synthesize saSwitchConfigurable=_saSwitchConfigurable;
 @property(nonatomic, getter=isSASwitchVisible) _Bool saSwitchVisible; // @synthesize saSwitchVisible=_saSwitchVisible;
 
 @end

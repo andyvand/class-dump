@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation;
-
 @interface NewsFeed.LocationDetectionManager
 {
     id observers;
-    id locationManager;
-    id statusFetchQueue;
-    id observableMostFrequentLocation;
-    id _mostFrequentLocation;
-    id _currentLocation;
-    id onUserInteractedWithLocationAuthorizationTCC;
 }
 
 - (void);
@@ -23,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)E;
 - (id);
 - (void);
 - (_Bool);
@@ -36,10 +28,6 @@
 - (void)£;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool authorized;
-@property(nonatomic, retain) CLLocation *currentLocation;
-@property(nonatomic, readonly) _Bool locationServicesEnabled;
-@property(nonatomic, retain) CLLocation *mostFrequentLocation;
 @property(nonatomic, retain) id observableMostFrequentLocation; // @synthesize observableMostFrequentLocation;
 
 @end

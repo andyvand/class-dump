@@ -11,19 +11,17 @@
 @interface PhotosUICore.PostAssetsToSharedCollectionAction : PXAssetsAction
 {
     id sharedCollection;
-    id comment;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)xHKT{: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;
-@property(nonatomic, readonly) NSString *actionNameLocalizationKey;
 
 @end
 

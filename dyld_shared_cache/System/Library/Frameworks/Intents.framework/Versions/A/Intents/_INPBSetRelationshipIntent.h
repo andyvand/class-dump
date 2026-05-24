@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBModifyRelationship;
+@class NSArray;
 
 @interface _INPBSetRelationshipIntent
 {
     struct _has;
-    NSArray *_contactIdentifiers;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBModifyRelationship *_targetRelationship;
 }
 
 + (Class);
@@ -25,13 +22,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)gResult"8Q16^B24;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ath:(id)arg1 /System/Library/PrivateFrameworks/HomeKit.framework/HomeKit;
 - (id);
 - (id);
 - (void);
@@ -40,18 +37,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) unsigned long long contactIdentifiersCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetRelationship;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBModifyRelationship *targetRelationship; // @synthesize targetRelationship=_targetRelationship;
 
 @end
 

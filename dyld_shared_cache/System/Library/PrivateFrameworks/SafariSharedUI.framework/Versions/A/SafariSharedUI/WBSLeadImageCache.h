@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, WBSSiteMetadataImageCache;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class WBSSiteMetadataImageCache;
 
 @interface WBSLeadImageCache
 {
     WBSSiteMetadataImageCache *_imageCache;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_urlStringToRequestSets;
-    NSMutableSet *_urlStringsWithFailedDownloads;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 - (void);
@@ -33,18 +28,7 @@
 - (void),N,V_supplementaryAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

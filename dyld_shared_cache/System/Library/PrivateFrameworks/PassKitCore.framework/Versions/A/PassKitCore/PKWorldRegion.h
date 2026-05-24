@@ -9,21 +9,10 @@
 @interface PKWorldRegion
 {
     unsigned long long _muid;
-    int _resultProviderIdentifier;
-    unsigned long long _type;
-    double _latitude;
-    double _longitude;
-    double _latitudeDelta;
-    double _longitudeDelta;
-    NSString *_localizedName;
-    NSString *_localeIdentifier;
-    PKWorldRegion *_parentRegion;
-    NSString *_identifier;
-    NSString *_abbreviationCode;
 }
 
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (void);
 - (void);
@@ -35,35 +24,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
+- (unsigned long long)?	;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)h;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)clearWci2Counters;
+- (void)_;
 - (void);
 - (void);
 - (id);
 - (void)ryInformation"8;
 - (CDStruct_2b0c6e0b)rdIsInWallet:'%@';  /* Error: Ran out of types for this method. */;
-- (void)roducibility;
+- (void)Reproducibility;
 - (id)s.sync.secure;
-- (id)ttonTitle;
-- (void)tIssuerProvisioningCertificatesResponseC;
+- (id)businessChatButtonTitle;
+- (void)So47PKPaymentIssuerProvisioningCertificatesResponseC;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abbreviationCode; // @synthesize abbreviationCode=_abbreviationCode;
-@property(nonatomic) CDStruct_2b0c6e0b displayRegion;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(retain, nonatomic) PKWorldRegion *parentRegion; // @synthesize parentRegion=_parentRegion;
-@property(nonatomic) int resultProviderIdentifier; // @synthesize resultProviderIdentifier=_resultProviderIdentifier;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

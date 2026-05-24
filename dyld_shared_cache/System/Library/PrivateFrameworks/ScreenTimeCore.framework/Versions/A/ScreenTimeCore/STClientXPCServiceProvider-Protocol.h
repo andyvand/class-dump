@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol STPasscodeAuthenticationProviderService, STPasscodeProviderService;
+
 @protocol STClientXPCServiceProvider
+- (id <STPasscodeProviderService>)en, keep_local, keep_local_status FROM album_artist;
+- (id <STPasscodeAuthenticationProviderService>),representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM album_artist;
 @end
 

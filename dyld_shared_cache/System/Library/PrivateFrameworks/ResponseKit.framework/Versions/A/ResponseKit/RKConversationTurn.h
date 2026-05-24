@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface RKConversationTurn
 {
     NSString *_text;
-    NSString *_senderId;
-    NSDate *_timestamp;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dR;
 
 // Remaining properties
-@property(readonly) NSString *senderId; // @synthesize senderId=_senderId;
 @property(readonly) NSString *text; // @synthesize text=_text;
-@property(readonly) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

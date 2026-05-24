@@ -6,16 +6,12 @@
 
 #import <SiriUI/SiriUIReusableFooterView.h>
 
-@class NSButton, NSString, SiriUIKeyline, SiriUISnippetViewController;
+@class NSButton;
 @protocol SiriUIActionableFooterViewDelegate;
 
 @interface SiriUIActionableFooterView : SiriUIReusableFooterView
 {
     NSButton *_button;
-    SiriUIKeyline *_keyline;
-    _Bool _hasKeyline;
-    SiriUISnippetViewController *_snippetViewController;
-    id <SiriUIActionableFooterViewDelegate> _delegate;
 }
 
 + (double);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (id);
 - (void);
 - (void);
@@ -36,8 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SiriUIActionableFooterViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasKeyline; // @synthesize hasKeyline=_hasKeyline;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

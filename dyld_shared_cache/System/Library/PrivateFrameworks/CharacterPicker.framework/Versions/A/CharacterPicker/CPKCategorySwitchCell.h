@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface CPKCategorySwitchCell : CPKBaseMatrixCell
 {
     _Bool _usingPDF;
-    double _customImageOffset;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)R$;
+- (void);
 - (void);
 - (double);
 - (long long);
 - (void);
 
 // Remaining properties
-@property double customImageOffset; // @synthesize customImageOffset=_customImageOffset;
 @property(nonatomic) _Bool usingPDF; // @synthesize usingPDF=_usingPDF;
 
 @end

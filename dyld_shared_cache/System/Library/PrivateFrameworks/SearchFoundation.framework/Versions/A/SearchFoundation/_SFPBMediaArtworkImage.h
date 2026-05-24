@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBMediaArtworkImage
 {
     int _mediaEntityType;
-    NSString *_persistentID;
-    NSString *_spotlightIdentifier;
-    NSString *_universalLibraryID;
 }
 
 - (id);
@@ -21,31 +18,20 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)contentKeySession:externalProtectionStatusDidChangeForContentKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)performCancellableChanges:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)ying content editing output also changing original resource choice to %@;
 - (id);
 - (id);
 - (void)8@"SFMediaMetadata"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaEntityType; // @synthesize mediaEntityType=_mediaEntityType;
 @property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *spotlightIdentifier; // @synthesize spotlightIdentifier=_spotlightIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalLibraryID; // @synthesize universalLibraryID=_universalLibraryID;
 
 @end
 

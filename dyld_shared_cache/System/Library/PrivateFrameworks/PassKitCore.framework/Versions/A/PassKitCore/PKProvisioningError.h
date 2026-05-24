@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary;
 
 @interface PKProvisioningError
 {
     NSMutableDictionary *_userInfo;
-    NSMutableArray *_internalDebugDescriptions;
-    _Bool _hasLocalizedTitleAndMessage;
-    unsigned long long _severity;
-    NSError *_underlyingError;
 }
 
 + (id);
@@ -21,15 +17,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)!;
 + (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)_	k�;
 - (id);
 - (id);
 - (void);
@@ -37,27 +33,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id));
+- (void)initWithAccountKey:(id)arg1 deviceKey: /* Error: Ran out of types for this method. */;
+- (void)_durationBeforeDowngrade;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)NSuffix;
-- (id)nation;
+- (void)invalidSSNSuffix;
+- (id)submissionDestination;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *displayableError;
-@property(nonatomic) _Bool hasLocalizedTitleAndMessage; // @synthesize hasLocalizedTitleAndMessage=_hasLocalizedTitleAndMessage;
-@property(retain, nonatomic) NSString *localizedMessage;
-@property(retain, nonatomic) NSString *localizedRecoveryDescription;
-@property(retain, nonatomic) NSString *localizedTitle;
-@property(retain, nonatomic) NSURL *recoveryUrl;
 @property(readonly, nonatomic) unsigned long long severity; // @synthesize severity=_severity;
-@property(retain, nonatomic) NSError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

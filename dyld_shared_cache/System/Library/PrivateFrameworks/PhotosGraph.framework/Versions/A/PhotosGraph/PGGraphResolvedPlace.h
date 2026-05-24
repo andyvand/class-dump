@@ -9,24 +9,15 @@
 @interface PGGraphResolvedPlace
 {
     NSString *_placeInterestType;
-    double _confidence;
 }
 
-- (id);
-- (id);
-- (double);
-- (void);
+- (id)_NSZone=}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)setFocusChains:(id)arg1;
+- (double);
+- (void)positiveSignificantPartsOfDay;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *placeInterestType; // @synthesize placeInterestType=_placeInterestType;
-@property(readonly) Class superclass;
 
 @end
 

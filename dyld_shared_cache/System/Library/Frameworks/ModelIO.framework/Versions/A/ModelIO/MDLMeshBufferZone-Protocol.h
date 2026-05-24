@@ -7,10 +7,10 @@
 @protocol MDLMeshBufferAllocator;
 
 @protocol MDLMeshBufferZone
+- (unsigned long long)7;
 - (id <MDLMeshBufferAllocator>)24Q32q40@48;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MDLMeshBufferAllocator> allocator;
 @property(readonly, nonatomic) unsigned long long capacity;
 @end
 

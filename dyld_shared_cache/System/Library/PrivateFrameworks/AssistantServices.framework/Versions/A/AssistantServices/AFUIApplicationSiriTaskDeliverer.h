@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriTaskmaster, AFWatchdogTimer, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class AFSiriTaskmaster, NSString;
 
 @interface AFUIApplicationSiriTaskDeliverer
 {
     NSString *_appBundleIdentifier;
-    AFWatchdogTimer *_assertionTimer;
-    NSObject<OS_dispatch_group> *_bKSAssertionSetupGroup;
-    NSObject<OS_dispatch_queue> *_queue;
-    AFSiriTaskmaster *_taskmaster;
 }
 
 - (id);
@@ -25,18 +20,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)er:Device check in success:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)criteria;
+- (void)_criteria;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak AFSiriTaskmaster *taskmaster; // @synthesize taskmaster=_taskmaster;
 
 @end

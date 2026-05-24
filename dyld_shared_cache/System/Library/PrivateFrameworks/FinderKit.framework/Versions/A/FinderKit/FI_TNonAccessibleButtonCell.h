@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)setProviderDelegate: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @protocol PLBackgroundJobWorkerCoordinatorDelegate
-- (id)geNotification";
+- (BOOL)geNotification";
 @end
 

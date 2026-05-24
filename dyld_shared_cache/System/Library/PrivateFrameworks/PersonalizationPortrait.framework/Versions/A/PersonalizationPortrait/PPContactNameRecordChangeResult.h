@@ -9,26 +9,24 @@
 @interface PPContactNameRecordChangeResult
 {
     _Bool _changesTruncated;
-    NSArray *_changes;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)son:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)_testStrokeFromPoints:(id)arg1 length:ink: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ib;
+- (id)"NSAttributedString",R,V_firmwareWarningText;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *changes; // @synthesize changes=_changes;
-@property(readonly, nonatomic) _Bool changesTruncated; // @synthesize changesTruncated=_changesTruncated;
 
 @end
 

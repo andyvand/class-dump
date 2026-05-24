@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DODMLASRSchemaDODMLASRTranscriptMetadata, NSData;
+@class DODMLASRSchemaDODMLASRTranscriptMetadata;
 
 @interface DODMLASRSchemaDODMLASRTranscriptionMetrics : SISchemaInstrumentationMessage
 {
     DODMLASRSchemaDODMLASRTranscriptMetadata *_train;
-    DODMLASRSchemaDODMLASRTranscriptMetadata *_dev;
-    DODMLASRSchemaDODMLASRTranscriptMetadata *_test;
-    DODMLASRSchemaDODMLASRTranscriptMetadata *_external;
-    _Bool _hasTrain;
-    _Bool _hasDev;
-    _Bool _hasTest;
-    _Bool _hasExternal;
 }
 
 - (void);
@@ -27,17 +20,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)IAPAppAccessoryOOBBTPairingConnectionIDKey;
+- (id)nfcd.exceptions.seRestrictedModeExitEvent;
 - (void);
 - (void);
 - (unsigned long long);
@@ -47,20 +40,12 @@
 - (id);
 - (id)b1};
 - (id)_hasCurrentHome;
-- (id)estStarted;
+- (id)ORCHSchemaORCHPommesRequestStarted;
 - (id)¬KèK;
 - (void)w%;
 - (id),;
 
 // Remaining properties
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRTranscriptMetadata *dev; // @synthesize dev=_dev;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRTranscriptMetadata *external; // @synthesize external=_external;
-@property(nonatomic) _Bool hasDev; // @synthesize hasDev=_hasDev;
-@property(nonatomic) _Bool hasExternal; // @synthesize hasExternal=_hasExternal;
-@property(nonatomic) _Bool hasTest; // @synthesize hasTest=_hasTest;
-@property(nonatomic) _Bool hasTrain; // @synthesize hasTrain=_hasTrain;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) DODMLASRSchemaDODMLASRTranscriptMetadata *test; // @synthesize test=_test;
 @property(retain, nonatomic) DODMLASRSchemaDODMLASRTranscriptMetadata *train; // @synthesize train=_train;
 
 @end

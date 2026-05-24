@@ -7,24 +7,20 @@
 @interface SPCoreSpotlightExtensionsTask
 {
     CDUnknownBlockType _filterBlock;
-    CDUnknownBlockType _performBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
+- (void)handleForIdentifier:(id)arg1 error:(CDUnknownBlockType)arg2;
 - (void);
+- (CDUnknownBlockType)der value:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
-@property(copy, nonatomic) CDUnknownBlockType performBlock; // @synthesize performBlock=_performBlock;
 
 @end
 

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputePublisherClient, BMComputePublisherServer, BMComputePublisherStorage, BMComputeSourceServer, BMComputeSubscriptionSubstreamManager, NSMutableDictionary, NSObject, NSString;
-@protocol BMViewEventReporter, OS_dispatch_queue;
+@class BMComputePublisherStorage, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BMDaemon
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    BMComputePublisherStorage *_systemBookmarkStorage;
-    BMComputePublisherStorage *_userBookmarkStorage;
-    BMComputeSubscriptionSubstreamManager *_subscriptionSubstreamManager;
-    NSMutableDictionary *_activeSystemSubscriptionIdentifiers;
-    NSMutableDictionary *_subscribedSystemStreams;
-    BMComputePublisherClient *_systemStreamsPublisherClient;
-    NSObject<OS_dispatch_queue> *_queue;
-    BMComputeSourceServer *_userSourceServer;
-    BMComputeSourceServer *_systemSourceServer;
-    BMComputePublisherServer *_userPublisherServer;
-    BMComputePublisherServer *_systemPublisherServer;
-    id <BMViewEventReporter> _eventReporter;
 }
 
 + (void);
@@ -30,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)_wrmCachedCount;
 + (void);
 + (id);
 + (void);
@@ -49,18 +37,18 @@
 × ;
 + (void)ÿ¶¹Øÿ;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)k;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)_averagePacketLossRate;
 - (void);
-- (void);
+- (void):(id)arg1 8B16;
 - (id);
 - (void);
 - (id);
@@ -78,25 +66,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activeSystemSubscriptionIdentifiers; // @synthesize activeSystemSubscriptionIdentifiers=_activeSystemSubscriptionIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <BMViewEventReporter> eventReporter; // @synthesize eventReporter=_eventReporter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *subscribedSystemStreams; // @synthesize subscribedSystemStreams=_subscribedSystemStreams;
-@property(readonly, nonatomic) BMComputeSubscriptionSubstreamManager *subscriptionSubstreamManager; // @synthesize subscriptionSubstreamManager=_subscriptionSubstreamManager;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) BMComputePublisherStorage *systemBookmarkStorage; // @synthesize systemBookmarkStorage=_systemBookmarkStorage;
-@property(readonly, nonatomic) BMComputePublisherServer *systemPublisherServer; // @synthesize systemPublisherServer=_systemPublisherServer;
-@property(readonly, nonatomic) BMComputeSourceServer *systemSourceServer; // @synthesize systemSourceServer=_systemSourceServer;
-@property(retain, nonatomic) BMComputePublisherClient *systemStreamsPublisherClient; // @synthesize systemStreamsPublisherClient=_systemStreamsPublisherClient;
-@property(readonly, nonatomic) BMComputePublisherStorage *userBookmarkStorage; // @synthesize userBookmarkStorage=_userBookmarkStorage;
-@property(readonly, nonatomic) BMComputePublisherServer *userPublisherServer; // @synthesize userPublisherServer=_userPublisherServer;
-@property(readonly, nonatomic) BMComputeSourceServer *userSourceServer; // @synthesize userSourceServer=_userSourceServer;
 
 @end
 

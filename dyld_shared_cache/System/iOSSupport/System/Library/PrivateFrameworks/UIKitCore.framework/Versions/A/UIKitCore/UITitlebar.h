@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSToolbar, NSURL, UIScene, UIView, _UINavigationBarNSToolbarProxy;
-@protocol UINSWindow;
+@class UIScene, _UINavigationBarNSToolbarProxy;
 
 __attribute__((visibility("hidden")))
 @interface UITitlebar
 {
     UIScene *_scene;
-    id <UINSWindow> _hostWindow;
-    long long _titleVisibility;
-    _Bool _autoHidesToolbarInFullScreen;
-    _Bool _drawsBottomDividerWhenTransparent;
-    NSToolbar *_toolbar;
-    long long _toolbarStyle;
-    long long _userInterfaceStyle;
-    NSURL *_representedURL;
-    _UINavigationBarNSToolbarProxy *_navigationBarProxy;
-    UIView *_currentBottomPaletteView;
-    CDUnknownBlockType _representedDragItemsProvider;
-    long long _separatorStyle;
 }
 
 + (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)an error here (%@);
+- (void)name:%@   groupID:%@ originalGroupID:%@ lastAddressedHandle %@ lastAddressedSIMID %@ /* Error: Ran out of types for this method. */;
+- (void)d;
+- (void)our allowed list ;
+- (void)S Relay, However we already have this device in our allowed list ;
+- (void)ages zone;
+- (void)e & last sync date after received user deleted zone error;
+- (void)anges from message zone.;
+- (void)mberOfBatches:(id)arg1 %@;
+- (void)g;
+- (void)%@, updatedPurgeableState:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)uldMarkAllMessagesAsNeedingSync %@;
+- (CDUnknownBlockType)isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -52,9 +39,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (long long);
+- (long long)easyTouchButtonWithType: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ViewControllerAfterTransition: /* Error: Ran out of types for this method. */;
+- (id)set_shouldFocusViewControllerAfterTransition: /* Error: Ran out of types for this method. */;
 - (void)\Q;
 - (id)wÿF;
 - (void)È¨b;
@@ -65,22 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UINavigationBarNSToolbarProxy *_navigationBarProxy;
-@property(copy, nonatomic, setter=_setRepresentedDragItemsProvider:) CDUnknownBlockType _representedDragItemsProvider; // @synthesize _representedDragItemsProvider;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(nonatomic) _Bool autoHidesToolbarInFullScreen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *representedURL;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property long long titleVisibility;
-@property(retain, nonatomic) NSToolbar *toolbar;
-@property(nonatomic) long long toolbarStyle;
-@property(nonatomic) long long userInterfaceStyle;
 
 @end
 

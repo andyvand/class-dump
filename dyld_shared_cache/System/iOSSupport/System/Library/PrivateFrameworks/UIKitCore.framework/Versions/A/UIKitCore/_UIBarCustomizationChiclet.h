@@ -6,44 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UILabel, UIPointerInteraction, _UIBarCustomizationChicletAnchorView, _UIBarCustomizationItem;
-
 __attribute__((visibility("hidden")))
 @interface _UIBarCustomizationChiclet : UIView
 {
     _Bool _platterVisible;
-    _Bool _labelVisible;
-    _Bool _minimized;
-    long long _chicletSize;
-    _UIBarCustomizationChicletAnchorView *_anchorView;
-    _UIBarCustomizationItem *_representedItem;
-    UIView *_contentWrapperView;
-    UIView *_rootItemView;
-    NSArray *_subitemViews;
-    UIView *_platterView;
-    UILabel *_label;
-    UIPointerInteraction *_pointerInteraction;
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)v24@0:8@"<IMDRelayPushHandlerListener>"16 /* Error: Ran out of types for this method. */;
+- (void)setPendingChatBotHandleToAlternateID:(id)arg1;
+- (void)sendRelayReachabilityRequest:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)nalSecurity:(id)arg1 isJunkReportedToCarrier:reportReason:context: /* Error: Ran out of types for this method. */;
+- (void)reportMOCDebuggingErrorWithString:(_Bool)arg1 internalOnly: /* Error: Ran out of types for this method. */;
+- (void)pagedHistoryQuery:(_Bool)arg1 chatID:services:numberOfMessagesBefore:numberOfMessagesAfter:finishedWithResult:hasMessagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
+- (void)indexingDelegate;
+- (id)conversationManager:didChangeConversationAdvertisement: /* Error: Ran out of types for this method. */;
+- (id)_sendAttachmentToPeerDevice:fileTransferGUID:messageGuid:fileURL:useLocalPeersFileAPI:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_reuploadLocalProfileVersionNumber;
+- (_Bool)_batchIdentifier;
 - (struct CGSize);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (double);
-- (_Bool);
+- (void)};
+- (void)task but was only expected to handle repeating tasks.;
+- (double)*** failed to create IMFileTransfer from IMDAttachmentRecordRef rowid:%lld, marking as failed to sync *** /* Error: Ran out of types for this method. */;
+- (_Bool)urity level and updating mic switch eligible on imagent launch;
 - (double);
 - (double);
 - (struct CGSize);
@@ -52,18 +39,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)glyphRangeForTextContainer:(struct CGSize)arg1;
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (void)fset;
-- (struct CGSize)ecodeSizeForKey: /* Error: Ran out of types for this method. */;
+- (void)maximumContentOffset;
+- (struct CGSize)decodeSizeForKey: /* Error: Ran out of types for this method. */;
 - (_Bool)Ä;
-- (id)HairlineWhite;
+- (id)TVAlert_DarkModeBackgroundHairlineWhite;
 - (id);
 - (void);
 - (id);
@@ -72,26 +59,7 @@ __attribute__((visibility("hidden")))
 - (void)T(ÿ¥Ü<d;
 
 // Remaining properties
-@property(nonatomic) __weak _UIBarCustomizationChicletAnchorView *anchorView; // @synthesize anchorView=_anchorView;
-@property(nonatomic) long long chicletSize; // @synthesize chicletSize=_chicletSize;
 @property(retain, nonatomic) UIView *contentWrapperView; // @synthesize contentWrapperView=_contentWrapperView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool fixed;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) _Bool labelVisible; // @synthesize labelVisible=_labelVisible;
-@property(nonatomic) _Bool minimized; // @synthesize minimized=_minimized;
-@property(retain, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic) _Bool platterVisible; // @synthesize platterVisible=_platterVisible;
-@property(retain, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(readonly, nonatomic) __weak _UIBarCustomizationItem *representedItem; // @synthesize representedItem=_representedItem;
-@property(retain, nonatomic) UIView *rootItemView; // @synthesize rootItemView=_rootItemView;
-@property(retain, nonatomic) NSArray *subitemViews; // @synthesize subitemViews=_subitemViews;
-@property(readonly) Class superclass;
 
 @end
 

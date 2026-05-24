@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)sset while performing periodic syncing with cloudkit;
 
 @end
 

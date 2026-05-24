@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, INSpeakableString, NSString;
+@class CLPlacemark, INSpeakableString, NSString;
 
 @protocol INSearchForNotebookItemsIntentExport
+- (long long);
+- (void)T8;
+- (id)";
 - (INSpeakableString *);
 - (CLPlacemark *)0@ù
 × ;
-- (NSString *)lues;
+- (NSString *)clearPayloadLongValues;
 - (long long);
 - (void)N';
-- (void);
 
 // Remaining properties
-@property(copy) NSString *content;
-@property long long dateSearchType;
-@property(copy) INDateComponentsRange *dateTime;
-@property(copy) INSpeakableString *groupName;
-@property _Bool includeAllNoteContents;
-@property long long itemType;
-@property(copy) CLPlacemark *location;
-@property long long locationSearchType;
-@property(copy) NSString *notebookItemIdentifier;
-@property long long status;
-@property long long taskPriority;
-@property unsigned long long temporalEventTriggerTypes;
 @property(copy) INSpeakableString *title;
 @end
 

@@ -6,13 +6,9 @@
 
 #import <NeutrinoCore/_NUAbstractBufferStorage.h>
 
-@class NSString, NUPixelFormat;
-
 @interface NUWrappedBufferStorage : _NUAbstractBufferStorage
 {
     long long _length;
-    long long _rowBytes;
-    void *_bytes;
 }
 
 - (long long);
@@ -26,18 +22,7 @@
 - (void *);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes; // @synthesize bytes=_bytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) void *mutableBytes;
-@property(readonly, nonatomic) long long rowBytes; // @synthesize rowBytes=_rowBytes;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

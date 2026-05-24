@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSPanel, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuAppearanceOverrideProvider
 {
     long long _currentOverride;
-    NSPanel *_customAccentPanel;
 }
 
 - (void);
-- (void);
+- (void);
+- (id)@0:8Q16@"NSError"24 /* Error: Ran out of types for this method. */;
 - (id);
+- (id)EGIN SSL RECORD DECODE:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)bundleIDToSearchableItemsDictionaryWithCreationDateInInterval:(id)arg1 limit:nextBatch:latestCreationDate:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSMenuItem *menuItem;
-@property(readonly) Class superclass;
 
 @end
 

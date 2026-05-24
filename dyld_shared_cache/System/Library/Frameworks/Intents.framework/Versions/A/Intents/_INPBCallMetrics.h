@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCallMetricsValue;
+@class _INPBCallMetricsValue;
 
 @interface _INPBCallMetrics
 {
     struct _has;
-    _INPBCallMetricsValue *_value;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)erviceRemoteServerInterface>"16@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)|;
+- (_Bool)WFRequestParameters"24@?<v@?@"NSError"@"NSDictionary">32;
+- (void)join status without scanResult for interface %@;
 - (id);
 - (id);
 - (id);
 - (void)rotationSpeed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _INPBCallMetricsValue *value; // @synthesize value=_value;
 
 @end

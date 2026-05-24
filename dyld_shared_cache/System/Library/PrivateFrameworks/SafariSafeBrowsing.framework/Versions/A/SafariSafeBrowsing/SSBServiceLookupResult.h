@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SSBServiceLookupResult
 {
@@ -12,16 +12,16 @@
 }
 
 + (_Bool);
+- (id)tension;
+- (id)g provision violated for ;
+- (id)getControlTemplates(;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)getAppIntentsXPCListenerEndpoint;
+- (_Bool)stem Version is not supported;
+- (_Bool)be rebuilt;
+- (_Bool)LaunchServices DB may need to be rebuilt;
+- (_Bool)le version did not match; LaunchServices DB may need to be rebuilt;
+- (id)iveWidget;
 - (id);
 - (id);
 - (void);
@@ -30,17 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isGlobalCache) _Bool globalCache;
-@property(readonly, nonatomic, getter=isKnownToBeUnsafe) _Bool knownToBeUnsafe;
-@property(readonly, nonatomic) NSURL *learnMoreURL;
-@property(readonly, nonatomic) NSString *localizedProviderDisplayName;
-@property(readonly, nonatomic) NSString *localizedProviderShortName;
-@property(readonly, nonatomic, getter=isMalware) _Bool malware;
-@property(readonly, nonatomic) NSString *malwareDetailsBaseURLString;
-@property(readonly, nonatomic, getter=isPhishing) _Bool phishing;
 @property(readonly, nonatomic) NSString *provider;
-@property(readonly, nonatomic) NSString *reportAnErrorBaseURLString;
-@property(readonly, nonatomic, getter=isUnwantedSoftware) _Bool unwantedSoftware;
 
 @end
 

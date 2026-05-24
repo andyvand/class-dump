@@ -7,7 +7,6 @@
 @interface NewsArticles.ShareArticleViewerFeatureVisibilityProvider
 {
     id featureAvailability;
-    id paidAccessChecker;
 }
 
 @end

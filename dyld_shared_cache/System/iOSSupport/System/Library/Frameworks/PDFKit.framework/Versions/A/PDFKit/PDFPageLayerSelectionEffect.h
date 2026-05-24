@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dictionary;
 - (void);
 - (void);
 

@@ -6,15 +6,11 @@
 
 #import <DistributionKit/PKPredicateRequirements.h>
 
-@class NSDictionary, NSPredicate;
+@class NSPredicate;
 
 @interface PKGraphicsHardwareRequirements : PKPredicateRequirements
 {
     NSPredicate *_requiredGLPredicate;
-    NSPredicate *_requiredCLPredicate;
-    NSPredicate *_requiredMetalPredicate;
-    _Bool _requireSingleDevice;
-    NSDictionary *_symbolTable;
 }
 
 - (void);
@@ -35,10 +31,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool requireSingleDevice; // @synthesize requireSingleDevice=_requireSingleDevice;
-@property(retain) NSPredicate *requiredCLPredicate; // @synthesize requiredCLPredicate=_requiredCLPredicate;
 @property(retain) NSPredicate *requiredGLPredicate; // @synthesize requiredGLPredicate=_requiredGLPredicate;
-@property(retain) NSPredicate *requiredMetalPredicate; // @synthesize requiredMetalPredicate=_requiredMetalPredicate;
 
 @end
 

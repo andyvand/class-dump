@@ -7,7 +7,7 @@
 @class NSOperation;
 
 @protocol UINSActivityItemSource
-- (NSOperation *)Active: /* Error: Ran out of types for this method. */;
+- (NSOperation *)setScenesWeSlammedToBackgroundFromForegroundActive: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperation *operation;

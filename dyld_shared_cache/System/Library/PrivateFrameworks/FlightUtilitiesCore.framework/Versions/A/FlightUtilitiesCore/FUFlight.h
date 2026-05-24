@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUAirline, FUFlightStep, NSArray, NSDate, NSString;
+@class FUAirline, NSString;
 
 @interface FUFlight
 {
     NSString *_queriedAirlineTitle;
-    FUAirline *_displayAirline;
-    unsigned long long _displayFlightNumber;
-    FUAirline *_airline;
-    unsigned long long _flightNumber;
-    FUAirline *_operatorAirline;
-    unsigned long long _operatorFlightNumber;
-    NSString *_flightIdentifier;
-    NSString *_cancellationMessage;
-    NSArray *_legs;
-    NSArray *_allLegs;
-    NSString *_identifier;
-    unsigned long long _departureLegIndex;
-    unsigned long long _arrivalLegIndex;
-    NSDate *_expirationDate;
-    NSString *_rawResponse;
 }
 
 + (id);
@@ -33,30 +18,30 @@
 - (void);
 - (void);
 - (void);
+- (void)(B9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)߈(;
+- (void)߈;
+- (id)pJ;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long)H;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)6;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -67,44 +52,22 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)!';
 - (id);
 - (double);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ng all pages;
 - (long long);
-- (id);
-- (id);
+- (id)_supplementaryViewHeightConstraints;
+- (id)dShowSaveButton=l,r&&(this.inlineNode=this.inlineNodeWithTag(r,t,o,i,s,e,a)),this.originalNode=o,this.cidURL=e,this.contentID=t,this.filename=i,this.currentNode=this.inlineNode&&s?this.inlineNode:h,this.displayNode=this.currentNode,this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)}var MUIWebAttachmentDisplayState=Object.freeze({automatic:0,inline:1,icon:2});MUIWebAttachmentController.prototype.tearDown=function(){this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1);var e=MUIWebDocumentDisplayController_sharedInstance.attachmentControllers.indexOf(this);MUIWebDocumentDisplayController_sharedInstance.attachmentControllers.splice(e,1)},MUIWebAttachmentController.prototype.removed=function(){this.tearDown()},MUIWebAttachmentController.prototype.handleEvent=function(e){"DOMNodeRemovedFromDocument"===e.type&&this.removed()},MUIWebAttachmentController.prototype.deleteAttachment=function(){this.currentNode.parentNode.removeChild(this.currentNode)},MUIWebAttachmentController.prototype.setImageScale=function(e){var t=this.displayNode.classList;t.remove("Apple-small-image"),t.remove("Apple-medium-image"),t.remove("Apple-large-image"),t.add(e)},MUIWebAttachmentController.prototype.setHidden=function(e){this.displayNode.style.display=e?"none":null},MUIWebAttachmentController.prototype.prepareForWebDocument=function(){var e=this.getObjectNode(),t=this.currentNode;t===e||(t===this.displayNode&&this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1),t.parentNode.replaceChild(e,t),this.currentNode=e)},MUIWebAttachmentController.prototype.prepareForWebArchive=function(){this.currentNode===this.displayNode&&this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1);var e=this.getPlaceholderNode();this.currentNode.parentNode.replaceChild(e,this.currentNode),this.currentNode=e},MUIWebAttachmentController.prototype.prepareForDisplay=function(){this.currentNode!==this.displayNode&&(this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1),this.currentNode.parentNode.replaceChild(this.displayNode,this.currentNode),this.currentNode=this.displayNode)},MUIWebAttachmentController._packedNodesForCIDURL=function(e){var t=[];e=e.toUpperCase();for(var o=document.querySelectorAll("object, img, video, audio"),i=0;i<o.length;i++){var n=o[i];("OBJECT"===n.nodeName.toUpperCase()?n.data:n.src).toUpperCase()===e&&t.push(n)}return t},MUIWebAttachmentController._packedNodeForRemoteURL=function(e){var t=document.querySelector("div.x-apple-maildrop[data-url='"+e+"']");return t&&t.removeAttribute("style"),t},MUIWebAttachmentController.prototype.placeholderMarkup=function(){return'<div id="'+this.cidURL+'">&lt;'+this.filename+"&gt;</div>"},MUIWebAttachmentController._objectNodeForCIDURL=function(e){var t=document.createElement("object");return t.setAttribute("type","application/x-apple-msg-attachment"),t.setAttribute("data",e),t},MUIWebAttachmentController.prototype.getObjectNode=function(){return this.originalNode?this.objectNode=this.originalNode:this.objectNode=MUIWebAttachmentController._objectNodeForCIDURL(this.cidURL),this.objectNode},MUIWebAttachmentController.prototype.getPlaceholderNode=function(){var e;return this.placeholderNode||("IMG"===this.displayNode.nodeName.toUpperCase()?((e=this.displayNode.cloneNode(!0)).setAttribute("alt","<"+this.filename+">"),this.placeholderNode=e):((e=document.createElement("div")).innerHTML=this.placeholderMarkup(),this.placeholderNode=e.firstChild)),this.placeholderNode},MUIWebAttachmentController.prototype.showProgress=function(e,t){this.currentNode.style.opacity=1,this.iconNode.setAttribute("progress",e),this.iconNode.setAttribute("subtitle",t)},MUIWebAttachmentController.prototype.downloadFinished=function(){this.currentNode.style.opacity=1,this.iconNode.removeAttribute("progress"),this.iconNode.removeAttribute("subtitle"),1==this.shouldShowSaveButton&&this.iconNode.setAttribute("save","save")},MUIWebAttachmentController.prototype.handleDownloadError=function(e){this.currentNode.style.opacity=.5,this.currentNode.setAttribute("subtitle",e)},MUIWebAttachmentController.prototype.setDisplayState=function(e){switch(this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1),e){case MUIWebAttachmentDisplayState.automatic:this.inlineNode&&this.currentNode===this.iconNode&&(this.iconNode.parentNode.replaceChild(this.inlineNode,this.iconNode),this.inlineNode.src=this.cidURL,this.currentNode=this.inlineNode,this.displayNode=this.inlineNode);break;case MUIWebAttachmentDisplayState.inline:this.inlineNode?this.currentNode===this.iconNode&&(this.iconNode.parentNode.replaceChild(this.inlineNode,this.iconNode),this.inlineNode.src=this.cidURL,this.currentNode=this.inlineNode,this.displayNode=this.inlineNode):console.log("Error:can't make this type of attachment inline");break;case MUIWebAttachmentDisplayState.icon:this.currentNode===this.inlineNode&&(this.inlineNode.parentNode.replaceChild(this.iconNode,this.inlineNode),this.currentNode=this.iconNode,this.displayNode=this.iconNode)}this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.prototype.inlineNodeWithTag=function(e,t,o,i,n,r,s){var d=document.createElement(e);d.id=t,n&&(d.src=r),d.alt=i,"audio"!==e&&"video"!==e||(d.controls="controls"),"img"===e&&s>0&&d.setAttribute("WIDTH",s);for(var a=o.attributes,l=0;l<a.length;l++){var h=a[l],c=h.name.toUpperCase();"SRC"!==c&&"WIDTH"!==c&&"HEIGHT"!==c&&"ID"!==c&&"NAME"!==c&&"DATA"!==c&&d.setAttribute(h.name,h.value)}return i.toLowerCase().endsWith(".pdf")&&d.setAttribute("style","background-color:rgb(254,254,254); -apple-color-filter:none"),d.classList.add("Apple-web-attachment"),d},MUIWebAttachmentController.prototype.convertToInlineImage=function(){this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1),this.inlineNode=this.inlineNodeWithTag("img",this.contentID,this.originalNode,this.filename,!0,this.cidURL,0),this.currentNode===this.iconNode&&(this.iconNode.parentNode.replaceChild(this.inlineNode,this.iconNode),this.currentNode=this.inlineNode,this.displayNode=this.inlineNode),this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.registerAttachment=function(e,t,o,i,n,r,s,d,a,l){var h,c=[],p=[];return t&&(p=MUIWebAttachmentController._packedNodesForCIDURL(t)),e&&p.push(MUIWebAttachmentController._packedNodeForRemoteURL(e)),p.length||console.warn("Unable to find matching attachment for cidURL:"+t+" remoteURL:"+e),p.forEach(function(e){(h=new MUIWebAttachmentController(t,o,e,i,n,r,s,d,a,l))&&(c.push(h),e.parentNode.replaceChild(h.currentNode,e))}),c}; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) FUAirline *airline; // @synthesize airline=_airline;
-@property(retain, nonatomic) NSArray *allLegs; // @synthesize allLegs=_allLegs;
-@property(readonly) FUFlightStep *arrival;
-@property unsigned long long arrivalLegIndex; // @synthesize arrivalLegIndex=_arrivalLegIndex;
-@property(retain) NSString *cancellationMessage; // @synthesize cancellationMessage=_cancellationMessage;
-@property(readonly) FUFlightStep *departure;
-@property unsigned long long departureLegIndex; // @synthesize departureLegIndex=_departureLegIndex;
 @property(retain) FUAirline *displayAirline; // @synthesize displayAirline=_displayAirline;
-@property(readonly) NSString *displayFlightCode;
-@property unsigned long long displayFlightNumber; // @synthesize displayFlightNumber=_displayFlightNumber;
-@property(readonly) double duration;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) NSString *flightCode;
-@property(retain) NSString *flightIdentifier; // @synthesize flightIdentifier=_flightIdentifier;
-@property unsigned long long flightNumber; // @synthesize flightNumber=_flightNumber;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSArray *legs; // @synthesize legs=_legs;
-@property(retain) FUAirline *operatorAirline; // @synthesize operatorAirline=_operatorAirline;
-@property(readonly) NSString *operatorFlightCode;
-@property unsigned long long operatorFlightNumber; // @synthesize operatorFlightNumber=_operatorFlightNumber;
-@property(retain) NSString *queriedAirlineTitle; // @synthesize queriedAirlineTitle=_queriedAirlineTitle;
-@property(retain) NSString *rawResponse; // @synthesize rawResponse=_rawResponse;
-@property(readonly) long long status;
 
 @end
 

@@ -6,25 +6,17 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisparityRefinement : CIFilter
 {
     CIImage *inputDisparityImage;
-    CIImage *inputImage;
-    NSNumber *inputPropagateKernel;
-    NSNumber *inputSmoothSigma;
-    NSNumber *inputPropagateMinWeightSum;
-    NSNumber *inputPropagateSigmaLuma;
-    NSNumber *inputPropagateSigmaChma;
-    NSNumber *inputScale;
-    CIVector *inputOriginalSize;
 }
 
-+ (id);
++ (id)R;
 - (id);
-- (id);
+- (id)9h;
 - (void);
 - (void);
 - (void);
@@ -35,21 +27,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -59,14 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) CIImage *inputDisparityImage; // @synthesize inputDisparityImage;
-@property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy) CIVector *inputOriginalSize; // @synthesize inputOriginalSize;
-@property(copy) NSNumber *inputPropagateKernel; // @synthesize inputPropagateKernel;
-@property(copy) NSNumber *inputPropagateMinWeightSum; // @synthesize inputPropagateMinWeightSum;
-@property(copy) NSNumber *inputPropagateSigmaChma; // @synthesize inputPropagateSigmaChma;
-@property(copy) NSNumber *inputPropagateSigmaLuma; // @synthesize inputPropagateSigmaLuma;
-@property(copy) NSNumber *inputScale; // @synthesize inputScale;
-@property(copy) NSNumber *inputSmoothSigma; // @synthesize inputSmoothSigma;
 
 @end
 

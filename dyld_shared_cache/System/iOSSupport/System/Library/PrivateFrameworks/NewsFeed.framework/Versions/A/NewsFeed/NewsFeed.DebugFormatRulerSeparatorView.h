@@ -7,12 +7,10 @@
 @interface NewsFeed.DebugFormatRulerSeparatorView
 {
     id separator;
-    id isSelected;
-    id label;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)led with NULL _reachabilityRef;
 - (id)!Ü@ùñþð1Â0@ù
 × ;
 - (void);

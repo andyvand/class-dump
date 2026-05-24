@@ -9,17 +9,13 @@
 @interface MCDrawInput : MCKeyboardInput
 {
     _Bool _shouldResample;
-    int _drawHand;
-    RefPtr_54d74a7c _keyboardLayout;
-    RefPtr_54d74a7c _rescaleKeyboardLayout;
-    struct PathResampler _resampler;
 }
 
-+ (RefPtr_54d74a7c);
-- (_Bool);
++ (RefPtr_5f7b2550);
+- (_Bool)RTTEmergencyCloudRelayNumberKey;
 - (id);
 - (void);
-- (RefPtr_54d74a7c);
+- (RefPtr_5f7b2550);
 - (void *);
 - (id);
 - (id);
@@ -27,30 +23,23 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (RefPtr_54d74a7c);
-- (_Bool);
-- (id);
+- (RefPtr_5f7b2550)ents:] /* Error: Ran out of types for this method. */;
+- (_Bool)smartStyleLearnedCoefficients;
+- (id)updateStatusIsInWatchList:watchListItemWithIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)!DFùiÐ1Â0@ù
 × ;
-- (_Bool)uencies:forTokenClass: /* Error: Ran out of types for this method. */;
+- (_Bool)filterTokenFrequencies:forTokenClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int drawHand; // @synthesize drawHand=_drawHand;
-@property(readonly, nonatomic) _Bool isComplete;
-@property(readonly, nonatomic) _Bool isCompleting;
-@property(readonly, nonatomic) _Bool isDrawing;
-@property(readonly, nonatomic) RefPtr_54d74a7c keyboardLayout; // @synthesize keyboardLayout=_keyboardLayout;
 @property(readonly, nonatomic) void *resampler; // @synthesize resampler=_resampler;
-@property(readonly, nonatomic) RefPtr_54d74a7c rescaleKeyboardLayout; // @synthesize rescaleKeyboardLayout=_rescaleKeyboardLayout;
-@property(readonly, nonatomic) _Bool shouldResample; // @synthesize shouldResample=_shouldResample;
 
 @end
 

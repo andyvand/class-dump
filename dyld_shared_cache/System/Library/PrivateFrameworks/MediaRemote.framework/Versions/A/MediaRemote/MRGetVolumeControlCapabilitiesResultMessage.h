@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (unsigned long long);
-- (unsigned int);
+- (unsigned long long)oupsChanged:error:) /* Error: Ran out of types for this method. */;
+- (unsigned int)AFClockAlarm::alarmURL /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int capabilities;

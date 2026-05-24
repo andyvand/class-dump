@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!Fùq°1Â0@ù
 × ;
-- (id);
+- (id)_didBeginDismissalAnimation;
 
 // Remaining properties
 @property(retain, nonatomic) NSView<VRXVisualResponse> *rootView; // @synthesize rootView=_rootView;

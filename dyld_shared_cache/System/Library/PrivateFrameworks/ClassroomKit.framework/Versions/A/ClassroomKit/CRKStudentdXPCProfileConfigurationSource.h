@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKNonCatalystStudentDaemonProxy, NSObject, NSString;
-@protocol CRKConfigurationSource, OS_dispatch_queue;
+@class CRKNonCatalystStudentDaemonProxy, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CRKStudentdXPCProfileConfigurationSource
 {
     NSObject<OS_dispatch_queue> *mCallbackQueue;
-    id <CRKConfigurationSource> mPlaceholderFileConfigurationSource;
-    CRKNonCatalystStudentDaemonProxy *_studentDaemonProxy;
 }
 
 - (id);
@@ -24,14 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CRKNonCatalystStudentDaemonProxy *studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
-@property(readonly) Class superclass;
 
 @end
 

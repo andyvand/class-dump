@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _PFTempNestedSnapshot
 {
     NSKnownKeysDictionary *_snapshot;
-    unsigned long long _version;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (const id *);
-- (id);
+- (id)dictionaryWithCapacity:(id)arg1;
 - (id);
 
 @end

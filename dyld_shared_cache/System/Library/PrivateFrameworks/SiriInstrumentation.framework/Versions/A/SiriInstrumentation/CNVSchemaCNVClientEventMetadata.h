@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_cnvId;
-    NSString *_resultCandidateId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasCnvId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)p;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,23 +45,13 @@
 - (_Bool);
 - (id);
 - (id)okenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
-- (id)aIFTQueryStep;
+- (id)IFTSchemaIFTQueryStep;
 - (id)8Î;
 - (void)l³ÿ½'®Æ&;
 - (id)Ér,;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *cnvId; // @synthesize cnvId=_cnvId;
-@property(nonatomic) _Bool hasCnvId; // @synthesize hasCnvId=_hasCnvId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

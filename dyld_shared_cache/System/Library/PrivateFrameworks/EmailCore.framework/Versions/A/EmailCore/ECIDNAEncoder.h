@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)nternal.SetRangeTemperatureValueResponseHandler;
 + (_Bool);
 
 @end

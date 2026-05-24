@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface QLMockGenerator
 {
     NSString *_identifier;
-    NSArray *_supportedTypes;
-    NSString *_displayBundleID;
-    NSString *_location;
 }
 
 - (void);
@@ -26,10 +23,7 @@
 - (void)o should be an array;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayBundleID; // @synthesize displayBundleID=_displayBundleID;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSArray *supportedTypes; // @synthesize supportedTypes=_supportedTypes;
 
 @end
 

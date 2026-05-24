@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, NSString, NSUUID, _HMContext;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _HMAutomationBuilder
 {
     struct os_unfair_lock_s _lock;
-    HMHome *_home;
-    NSUUID *_uniqueIdentifier;
-    _HMContext *_context;
 }
 
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)ssModeIndicatorEnabled;
 - (id)ate of updated user listening history update control via merge:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

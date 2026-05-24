@@ -7,7 +7,6 @@
 @interface NewsUI2.SavedFeedPool
 {
     id savedHeadlines;
-    id remainingArticleIDs;
 }
 
 @end

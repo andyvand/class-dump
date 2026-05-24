@@ -7,19 +7,10 @@
 @interface RemindersUICore.TTRMDebugDropIndicatorView
 {
     id currentDropContext;
-    id line;
-    id infoContainer;
-    id info;
-    id lineYPositionInTargetViewConstraint;
-    id constraintsForInfoContainerAboveLine;
-    id constraintsForInfoContainerBelowLine;
-    id constraintsForActiveDropTargetView;
-    id activeDropTargetView;
-    id shouldPositionInfoContainerAboveLine;
 }
 
 - (id);
-- (void);
+- (void)j;
 - (id);
 - (void)e21TTRConfirmationDialogP;
 - (void)odelSource update error {error:%s, dataModelSource:%s} /* Error: Ran out of types for this method. */;

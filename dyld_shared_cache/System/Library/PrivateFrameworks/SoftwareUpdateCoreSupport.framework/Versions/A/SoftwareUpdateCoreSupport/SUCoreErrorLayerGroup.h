@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SUCoreErrorLayerGroup
 {
     long long _errorLayer;
-    NSString *_domain;
-    long long _minCode;
-    long long _maxCode;
-    long long _indications;
-    NSString *_keyMatchTrue;
-    NSDictionary *_keyMatchTrueMap;
 }
 
 - (id);
@@ -35,13 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) long long errorLayer; // @synthesize errorLayer=_errorLayer;
-@property(nonatomic) long long indications; // @synthesize indications=_indications;
-@property(retain, nonatomic) NSString *keyMatchTrue; // @synthesize keyMatchTrue=_keyMatchTrue;
-@property(retain, nonatomic) NSDictionary *keyMatchTrueMap; // @synthesize keyMatchTrueMap=_keyMatchTrueMap;
-@property(readonly, nonatomic) long long maxCode; // @synthesize maxCode=_maxCode;
-@property(readonly, nonatomic) long long minCode; // @synthesize minCode=_minCode;
 
 @end
 

@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayAttributes, CADisplayMode, CADisplayPreferences, CADisplayPreset, NSArray, NSString;
+@class NSArray;
 
 @interface CADisplay
 {
     void *_impl;
 }
 
-- (struct CGSize);
+- (struct CGSize);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -34,18 +34,18 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)brc_ciconiaWorkDirForCurrentPersona;
 - (struct CAFrameRateRange);
 - (float);
 - (id);
-- (_Bool);
-- (struct CAFrameRateRange);
-- (id);
+- (_Bool)initWithLog: /* Error: Ran out of types for this method. */;
+- (struct CAFrameRateRange)containerIDForContainerIdentifier:(float)arg1;
+- (id)assetInfoForOperation:recordID:recordKey:arrayIndex: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (double);
+- (double)on counter with token %d:status %u /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (_Bool);
-- (_Bool);
+- (_Bool)?V;
+- (_Bool)Ba;
 - (void);
 - (void);
 - (void);
@@ -57,104 +57,53 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (float);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (double);
 - (struct __CFDictionary *);
 - (void);
-- (id);
+- (id)lRelaxNGParse:could not load %s
+ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (struct CGSize);
-- (id);
+- (id):8@"NSUUID"16 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (double);
+- (double)passwordContentCheck:forRecordName:error: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (long long);
+- (id)themeGraphicsClass;
+- (int)",C,N,V_name;
+- (_Bool)kCUIWidgetSourceListBackgroundGradientStart;
 - (id);
-- (int);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)0;
 - (id)nd sid:0x%x purpleGfxMem:%d /* Error: Ran out of types for this method. */;
 - (void)fc reply:(_Bool)arg1 %x
 ;
 - (double)er nextDrawable] returning nil because allocation failed.;
-- (_Bool)RE_MACH_SEND_ERRORS;
-- (_Bool)er_fetch;
-- (int)ensity;
+- (_Bool)CA_IGNORE_MACH_SEND_ERRORS;
+- (_Bool)fc_framebuffer_fetch;
+- (int)ambientIntensity;
 - (unsigned int);
 
 // Remaining properties
-@property _Bool allowsVirtualModes;
-@property(readonly, nonatomic) float autoLuminanceBoost;
 @property(readonly, nonatomic) NSArray *availableModes;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic, getter=isCloned) _Bool cloned;
-@property(readonly, nonatomic, getter=isCloning) _Bool cloning;
-@property(readonly, nonatomic, getter=isCloningSupported) _Bool cloningSupported;
-@property(copy, nonatomic) NSString *colorMode;
-@property(readonly, nonatomic) unsigned int connectionSeed;
-@property(readonly, nonatomic) NSString *containerId;
-@property(retain, nonatomic) CADisplayMode *currentMode;
-@property(readonly, nonatomic) NSString *currentOrientation;
-@property(retain, nonatomic) CADisplayPreset *currentPreset;
-@property(readonly, nonatomic) NSString *deviceName;
-@property(readonly, nonatomic) unsigned int displayId;
-@property(readonly, nonatomic) long long displayType;
-@property(readonly, nonatomic, getter=isExternal) _Bool external;
-@property(readonly, nonatomic) CADisplayAttributes *externalDisplayAttributes;
-@property(nonatomic, getter=isForceFixedRateLinksEnabled) _Bool forceFixedRateLinksEnabled;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) _Bool hasNativeFrameRateRequest;
-@property(readonly, nonatomic) double heartbeatRate;
-@property(readonly, nonatomic) _Bool isReference;
-@property(readonly, nonatomic) _Bool isReferenceLimited;
-@property(nonatomic) double latency;
-@property(readonly, nonatomic) int linkQuality;
-@property(readonly, nonatomic) struct CGSize logicalScale;
-@property(readonly, nonatomic) double maximumLogicalScale;
-@property(readonly, nonatomic) long long minimumFrameDuration;
-@property(readonly, nonatomic) double minimumLogicalScale;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *nativeOrientation;
-@property(readonly, nonatomic) struct CGSize nativeSize;
-@property(readonly, nonatomic) unsigned int odLUTVersion;
-@property(copy, nonatomic) NSString *overscanAdjustment;
-@property(readonly, nonatomic) double overscanAmount;
-@property(readonly, nonatomic) struct CGSize overscanAmounts;
-@property(readonly, nonatomic, getter=isOverscanned) _Bool overscanned;
-@property(readonly, nonatomic) struct CGSize physicalSize;
-@property(readonly, nonatomic) unsigned long long pointScale;
-@property(copy, nonatomic) CADisplayPreferences *preferences;
-@property(readonly, nonatomic) CADisplayMode *preferredMode;
-@property(readonly, nonatomic) int processId;
-@property(readonly, nonatomic) NSString *productName;
-@property(readonly, nonatomic) double refreshRate;
-@property(readonly, nonatomic) struct CGRect safeBounds;
-@property(readonly, nonatomic) unsigned int seed;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported;
-@property(readonly, nonatomic) _Bool supportsExtendedColors;
-@property(readonly, nonatomic) _Bool supportsVariableFrameDuration;
-@property(readonly, nonatomic) long long tag;
-@property(readonly, nonatomic) NSString *transportType;
-@property(readonly, nonatomic) NSString *uniqueId;
 
 @end
 

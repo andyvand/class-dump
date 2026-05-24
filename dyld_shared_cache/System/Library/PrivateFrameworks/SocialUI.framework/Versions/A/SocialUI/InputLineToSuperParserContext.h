@@ -6,13 +6,11 @@
 
 #import <SocialUI/AppKitToSuperParserContext.h>
 
-@class IMHandle, NSMutableArray;
+@class IMHandle;
 
 @interface InputLineToSuperParserContext : AppKitToSuperParserContext
 {
     IMHandle *_handle;
-    NSMutableArray *_localURLsToArchiveAndSend;
-    _Bool _finished;
 }
 
 - (id);

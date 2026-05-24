@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol CKVAdminServiceProvider, OS_dispatch_queue;
+@protocol CKVAdminServiceProvider;
 
 @interface CKVAdministratorFactory
 {
     NSObject<CKVAdminServiceProvider> *_serviceProvider;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);

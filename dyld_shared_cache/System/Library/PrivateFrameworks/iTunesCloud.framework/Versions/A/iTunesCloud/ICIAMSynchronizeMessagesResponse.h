@@ -23,11 +23,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)onary;
+- (id)5;
+- (id);
+- (void)ICPAAudioQualityDictionary;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *applicationMessageSyncResponses; // @synthesize applicationMessageSyncResponses=_applicationMessageSyncResponses;

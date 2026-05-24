@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface VGOEMExtensionConnectionBroker
 {
     NSMapTable *_extensionMap;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 

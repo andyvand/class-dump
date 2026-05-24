@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCRecipeRecordSource, NSArray;
+@class FCRecipeRecordSource;
 
 @interface FCRecipeItemFactory
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCRecipeRecordSource *recipeRecordSource; // @synthesize recipeRecordSource=_recipeRecordSource;
-@property(readonly, nonatomic) NSArray *requiredRecipeKeys;
 
 @end
 

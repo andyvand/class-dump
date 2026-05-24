@@ -7,20 +7,16 @@
 @interface KGGraphPath
 {
     unsigned long long _sourceNodeIdentifier;
-    unsigned long long _targetNodeIdentifier;
-    unsigned long long _numberOfPaths;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfPaths; // @synthesize numberOfPaths=_numberOfPaths;
 @property(readonly, nonatomic) unsigned long long sourceNodeIdentifier; // @synthesize sourceNodeIdentifier=_sourceNodeIdentifier;
-@property(readonly, nonatomic) unsigned long long targetNodeIdentifier; // @synthesize targetNodeIdentifier=_targetNodeIdentifier;
 
 @end
 

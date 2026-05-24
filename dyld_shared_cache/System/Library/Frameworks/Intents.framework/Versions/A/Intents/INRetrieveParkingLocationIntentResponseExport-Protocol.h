@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSString;
-
 @protocol INRetrieveParkingLocationIntentResponseExport
-- (long long)ackSpeedUnsupportedReason;
+- (long long)hasPlayMediaIntentPlaybackSpeedUnsupportedReason;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) CLPlacemark *parkingLocation;
-@property(copy) NSString *parkingNote;
 @end
 

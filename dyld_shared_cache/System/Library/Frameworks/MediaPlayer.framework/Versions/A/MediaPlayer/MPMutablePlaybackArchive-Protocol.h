@@ -5,6 +5,7 @@
 //
 
 @protocol MPMutablePlaybackArchive
+- (void);
 - (void)tITLibRequestClass(void)_block_invoke;
 @end
 

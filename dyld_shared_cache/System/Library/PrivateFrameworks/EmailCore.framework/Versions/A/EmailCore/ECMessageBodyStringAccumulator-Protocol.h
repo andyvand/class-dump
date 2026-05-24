@@ -7,11 +7,16 @@
 @class NSNumberFormatter, NSString;
 
 @protocol ECMessageBodyStringAccumulator
-- (void)ss;
+- (void)SampleBufferDisplayLayer Render Size changed:(struct _NSRange)arg1 %@;
+- (void)AVPictureInPictureContentSourceTypeUnknown;
+- (void)pleBufferDisplayLayer;
+- (void)r;
+- (NSString *)ition while one was already active. Ignoring. %@;
+- (NSNumberFormatter *)@9kA;
+- (void);
+- (void)_simpleAddress;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accumulatedString;
-@property(readonly, nonatomic) NSNumberFormatter *currencyFormatter;
 @property(readonly, nonatomic) _Bool isFull;
 @end
 

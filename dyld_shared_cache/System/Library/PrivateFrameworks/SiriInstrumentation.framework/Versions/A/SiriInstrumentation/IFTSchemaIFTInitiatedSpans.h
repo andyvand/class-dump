@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTInitiatedSpans : SISchemaInstrumentationMessage
 {
     int _participant;
-    unsigned long long _spanId;
-    struct {
-        unsigned int participant:1;
-        unsigned int spanId:1;
-    } _has;
 }
 
 - (void);
@@ -40,11 +33,7 @@
 - (id)4;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParticipant;
-@property(nonatomic) _Bool hasSpanId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int participant; // @synthesize participant=_participant;
-@property(nonatomic) unsigned long long spanId; // @synthesize spanId=_spanId;
 
 @end
 

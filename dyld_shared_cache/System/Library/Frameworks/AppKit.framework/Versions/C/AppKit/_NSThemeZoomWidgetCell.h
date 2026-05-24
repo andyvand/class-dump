@@ -6,44 +6,35 @@
 
 #import <AppKit/_NSThemeWidgetCell.h>
 
-@class NSMenu, NSString, NSTrackingArea, NSWindow;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface _NSThemeZoomWidgetCell : _NSThemeWidgetCell
 {
     struct CGPoint _mouseLocation;
-    unsigned int _performedHandoff:1;
-    unsigned int _stoppedTracking:1;
-    unsigned int _eligibleForHandoff:1;
-    unsigned int _trackingMouse:1;
-    unsigned int _trackingPopupMenu:1;
-    unsigned int _isMouseInside:1;
-    NSWindow *_trackedWindow;
-    NSMenu *_contextMenu;
-    NSTrackingArea *_exitTrackingArea;
 }
 
++ (void)readFrame;
++ (void)r;
 + (void);
-+ (void);
-+ (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void)RT3;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
+- (void)fully deleted gestalt cache;
+- (void)Qo16CQ;
+- (void)2zyzecwSf2ZYRpB3tuQhOQ;
+- (int)m4UsCAgXhbdnwLebiyKMiw;
+- (void)y2UFoMOjPA;
 - (_Bool);
 - (void);
 - (void);
@@ -63,25 +54,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)%{public}@ Deallocating;
+- (void)nd received server trust, marking as secure;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ogress;
+- (void)isOptimizationInProgress;
 - (void)¨;
 - (void)nHandler:]_block_invoke_6 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSTrackingArea *exitTrackingArea; // @synthesize exitTrackingArea=_exitTrackingArea;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak NSWindow *trackedWindow; // @synthesize trackedWindow=_trackedWindow;
 
 @end
 

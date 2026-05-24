@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionQueryItem.h>
 
-@class CHTextCheckingQueryItem, NSArray;
+@class CHTextCheckingQueryItem;
 
 @interface PKProofreadingQueryItem : PKDetectionQueryItem
 {
@@ -16,19 +16,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int)!ÔBù(ð1Â0@ù
 × ;
 - (void)lorPickerController>",&,N,V_colorPickerController;
 
 // Remaining properties
 @property(retain, nonatomic) CHTextCheckingQueryItem *coreHandwritingTextCheckingQueryItem; // @synthesize coreHandwritingTextCheckingQueryItem=_coreHandwritingTextCheckingQueryItem;
-@property(readonly, nonatomic) NSArray *replacementStrings;
-@property(readonly, nonatomic) int resultType;
 
 @end
 

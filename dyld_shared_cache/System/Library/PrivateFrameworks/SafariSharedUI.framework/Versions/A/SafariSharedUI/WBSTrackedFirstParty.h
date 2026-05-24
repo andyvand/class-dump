@@ -11,22 +11,19 @@
 @interface WBSTrackedFirstParty : WBSTrackingCapableFirstParty
 {
     NSArray *_blockedTrackers;
-    NSArray *_preventedTrackers;
 }
 
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void)etries;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *blockedTrackers; // @synthesize blockedTrackers=_blockedTrackers;
-@property(copy, nonatomic) NSArray *preventedTrackers; // @synthesize preventedTrackers=_preventedTrackers;
-@property(readonly, copy, nonatomic) NSArray *trackers;
 
 @end
 

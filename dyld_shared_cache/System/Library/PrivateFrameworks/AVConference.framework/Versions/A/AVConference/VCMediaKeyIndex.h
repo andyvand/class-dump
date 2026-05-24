@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaKeyIndex
 {
     unsigned char _MKI[16];
-    unsigned int _activeSize;
-    unsigned long long _uniquePrefixLength;
 }
 
 + (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned int);
-- (const char *);
+- (const char *));
 - (void);
 - (id);
 - (unsigned long long);
@@ -34,7 +32,6 @@ __attribute__((visibility("hidden")))
 - (id)u);
 
 // Remaining properties
-@property(readonly) unsigned int activeSize;
 @property unsigned long long uniquePrefixLength; // @synthesize uniquePrefixLength=_uniquePrefixLength;
 
 @end

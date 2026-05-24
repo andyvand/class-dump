@@ -7,9 +7,6 @@
 @interface AppleMediaServices.MetricsConsumerIDRotateActor
 {
     id $defaultActor;
-    id accountProvider;
-    id requester;
-    id store;
 }
 
 @end

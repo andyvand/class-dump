@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXPresentationAttributes
 {
     _Bool _fadeInComponents;
-    _Bool _useTransparentToolbar;
-    _Bool _enableViewportDebugging;
-    _Bool _testingConditionEnabled;
-    NSString *_contentSizeCategory;
-    unsigned long long _presentationMode;
-    double _contentScaleFactor;
-    struct CGSize _canvasSize;
 }
 
 - (_Bool);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (struct CGSize);
 - (id);
 - (id);
@@ -37,20 +28,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)Þ!ÄBù1ïÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;
-@property(nonatomic) double contentScaleFactor; // @synthesize contentScaleFactor=_contentScaleFactor;
-@property(retain, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(nonatomic) _Bool enableViewportDebugging; // @synthesize enableViewportDebugging=_enableViewportDebugging;
-@property(nonatomic) _Bool fadeInComponents; // @synthesize fadeInComponents=_fadeInComponents;
-@property(nonatomic) unsigned long long presentationMode; // @synthesize presentationMode=_presentationMode;
-@property(nonatomic) _Bool testingConditionEnabled; // @synthesize testingConditionEnabled=_testingConditionEnabled;
-@property(nonatomic) _Bool useTransparentToolbar; // @synthesize useTransparentToolbar=_useTransparentToolbar;
 
 @end
 

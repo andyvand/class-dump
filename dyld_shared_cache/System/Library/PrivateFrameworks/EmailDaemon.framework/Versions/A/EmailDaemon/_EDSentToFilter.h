@@ -9,13 +9,11 @@
 @interface _EDSentToFilter
 {
     EFBloomFilter *_firstFilter;
-    EFBloomFilter *_secondFilter;
-    EFBloomFilter *_thirdFilter;
 }
 
 - (unsigned long long);
 - (void);
-- (id);
+- (id)UsoEntityBuilder_common_DateTimeRangeQualifier;
 - (void);
 - (void)ON CONFLICT(mailbox, remote_id)
     DO UPDATE SET mail_status = 'BODY', mail_remote_status = 'BODY';

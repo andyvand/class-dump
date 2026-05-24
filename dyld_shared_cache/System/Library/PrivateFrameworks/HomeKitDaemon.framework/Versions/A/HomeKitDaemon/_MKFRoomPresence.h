@@ -6,33 +6,20 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFRoomPresenceDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFRoom;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFRoomPresence : _MKFModel
 {
 }
 
-+ (id);
-+ (id);
-- (id);
++ (id)#;
++ (id)A;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFRoomPresenceDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly, retain, nonatomic) id <MKFRoom> room; // @dynamic room;
-@property(copy, nonatomic) NSNumber *state; // @dynamic state;
-@property(copy, nonatomic) NSDate *stateChangedTimestamp; // @dynamic stateChangedTimestamp;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
+@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
 
 @end
 

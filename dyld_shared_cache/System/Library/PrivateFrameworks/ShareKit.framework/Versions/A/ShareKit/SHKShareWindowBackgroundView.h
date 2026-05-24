@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSTextField, NSTextView, NSView;
+@class NSTextView;
 
 @interface SHKShareWindowBackgroundView
 {
     NSTextView *_messageTextView;
-    NSTextField *_charactersCountTextField;
-    NSView *_partsSeparatorTopView;
-    NSView *_partsSeparatorBottomView;
-    int _textureStyle;
-    _Bool _hasLinesOfNonDefaultHeight;
-    NSColor *_backgroundFillColor;
-    _Bool _doNotDrawThirdSeparationLine;
 }
 
 + (id);
@@ -31,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)R_;
 - (id);
 - (_Bool);
 - (int);
@@ -40,11 +33,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)__auth_ptr;
 
 // Remaining properties
-@property(copy) NSColor *backgroundFillColor;
-@property(nonatomic) _Bool doNotDrawThirdSeparationLine; // @synthesize doNotDrawThirdSeparationLine=_doNotDrawThirdSeparationLine;
 @property int textureStyle; // @synthesize textureStyle=_textureStyle;
 
 @end

@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSURL;
-
 @interface SKMountParams
 {
     _Bool _readOnly;
-    _Bool _noBrowse;
-    _Bool _recursive;
-    _Bool _force;
-    _Bool _raidTraverse;
-    NSURL *_mountPoint;
-    NSSet *_allParams;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)_maxScreenCaptureSize;
+- (void)rom cache;
+- (id)_VCAudioReceiver_SwitchStreamConfigs;
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)b;
 - (_Bool);
-- (void);
-- (void);
+- (void)P;
+- (void)powerOn;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allParams; // @synthesize allParams=_allParams;
-@property(nonatomic) _Bool force; // @synthesize force=_force;
-@property(copy, nonatomic) NSURL *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(nonatomic) _Bool noBrowse; // @synthesize noBrowse=_noBrowse;
-@property(nonatomic) _Bool raidTraverse; // @synthesize raidTraverse=_raidTraverse;
-@property(nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property(nonatomic) _Bool recursive; // @synthesize recursive=_recursive;
 
 @end

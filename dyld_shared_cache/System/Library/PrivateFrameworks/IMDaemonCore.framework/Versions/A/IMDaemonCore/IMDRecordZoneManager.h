@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, CKRecordZone, CKRecordZoneID, IMDCKDatabaseManager, NSString;
+@class CKRecordZoneID, IMDCKDatabaseManager;
 
 @interface IMDRecordZoneManager
 {
     CKRecordZoneID *_chatRecordZoneID;
-    CKRecordZone *_chatRecordZone;
-    CKRecordZoneID *_chat1RecordZoneID;
-    CKRecordZone *_chat1RecordZone;
-    CKRecordZoneID *_attachmentRecordZoneID;
-    CKRecordZone *_attachmentRecordZone;
-    CKRecordZoneID *_messageRecordZoneID;
-    CKRecordZone *_messageRecordZone;
-    CKRecordZoneID *_updateRecordZoneID;
-    CKRecordZone *_updateRecordZone;
-    CKRecordZoneID *_analyticRecordZoneID;
-    CKRecordZone *_analyticRecordZone;
-    CKRecordZoneID *_deDupeSaltZoneID;
-    CKRecordZone *_deDupeSaltRecordZone;
-    CKRecordZoneID *_metricZoneID;
-    CKRecordZoneID *_recoverableMessageRecordZoneID;
-    CKRecordZone *_recoverableMessageRecordZone;
-    CKRecordZoneID *_scheduledMessageRecordZoneID;
-    CKRecordZone *_scheduledMessageRecordZone;
-    CKRecordZoneID *_chatBotMessageRecordZoneID;
-    CKRecordZone *_chatBotMessageRecordZone;
-    CKRecordZoneID *_chatBotAttachmentRecordZoneID;
-    CKRecordZone *_chatBotAttachmentRecordZone;
-    CKRecordZoneID *_chatBotRecoverableMessageRecordZoneID;
-    CKRecordZone *_chatBotRecoverableMessageRecordZone;
-    IMDCKDatabaseManager *_dataBaseManager;
-    APSConnection *_pushConnection;
 }
 
 + (id), but has higher priority work;
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -50,39 +24,40 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)__objc_protolist__DATA_CONST;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)_rapRecordChanges;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)messageChannelFor: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id);
+- (id);
+- (void);
+- (id)	K)
+j;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)XVALUE ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)@;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -91,7 +66,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -99,11 +74,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void)× ;
-- (void)iledWithGUID:(id)arg1 errorCode:(id)arg2;
+- (void)markItemFailedWithGUID:(id)arg1 errorCode:(id)arg2;
 - (void);
-- (id)hResult:limit: /* Error: Ran out of types for this method. */;
+- (id)frequentRepliesQuery:chatID:services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¼;
 - (void)ts with new acknowledgment for sent message; sender:'%@':'%@' /* Error: Ran out of types for this method. */;
@@ -112,40 +87,7 @@
 - (void)this build;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecordZone *analyticRecordZone; // @synthesize analyticRecordZone=_analyticRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *analyticRecordZoneID; // @synthesize analyticRecordZoneID=_analyticRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *attachmentRecordZone; // @synthesize attachmentRecordZone=_attachmentRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *attachmentRecordZoneID; // @synthesize attachmentRecordZoneID=_attachmentRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *chat1RecordZone; // @synthesize chat1RecordZone=_chat1RecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *chat1RecordZoneID; // @synthesize chat1RecordZoneID=_chat1RecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *chatBotAttachmentRecordZone; // @synthesize chatBotAttachmentRecordZone=_chatBotAttachmentRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *chatBotAttachmentRecordZoneID; // @synthesize chatBotAttachmentRecordZoneID=_chatBotAttachmentRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *chatBotMessageRecordZone; // @synthesize chatBotMessageRecordZone=_chatBotMessageRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *chatBotMessageRecordZoneID; // @synthesize chatBotMessageRecordZoneID=_chatBotMessageRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *chatBotRecoverableMessageRecordZone; // @synthesize chatBotRecoverableMessageRecordZone=_chatBotRecoverableMessageRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *chatBotRecoverableMessageRecordZoneID; // @synthesize chatBotRecoverableMessageRecordZoneID=_chatBotRecoverableMessageRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *chatRecordZone; // @synthesize chatRecordZone=_chatRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *chatRecordZoneID; // @synthesize chatRecordZoneID=_chatRecordZoneID;
 @property(retain, nonatomic) IMDCKDatabaseManager *dataBaseManager; // @synthesize dataBaseManager=_dataBaseManager;
-@property(readonly, nonatomic) CKRecordZone *deDupeSaltRecordZone; // @synthesize deDupeSaltRecordZone=_deDupeSaltRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *deDupeSaltZoneID; // @synthesize deDupeSaltZoneID=_deDupeSaltZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKRecordZone *messageRecordZone; // @synthesize messageRecordZone=_messageRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *messageRecordZoneID; // @synthesize messageRecordZoneID=_messageRecordZoneID;
-@property(readonly, nonatomic) CKRecordZoneID *metricZoneID; // @synthesize metricZoneID=_metricZoneID;
-@property(retain, nonatomic) APSConnection *pushConnection; // @synthesize pushConnection=_pushConnection;
-@property(readonly, nonatomic) CKRecordZone *recoverableMessageRecordZone; // @synthesize recoverableMessageRecordZone=_recoverableMessageRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *recoverableMessageRecordZoneID; // @synthesize recoverableMessageRecordZoneID=_recoverableMessageRecordZoneID;
-@property(readonly, nonatomic) CKRecordZone *scheduledMessageRecordZone; // @synthesize scheduledMessageRecordZone=_scheduledMessageRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *scheduledMessageRecordZoneID; // @synthesize scheduledMessageRecordZoneID=_scheduledMessageRecordZoneID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CKRecordZone *updateRecordZone; // @synthesize updateRecordZone=_updateRecordZone;
-@property(readonly, nonatomic) CKRecordZoneID *updateRecordZoneID; // @synthesize updateRecordZoneID=_updateRecordZoneID;
 
 @end
 

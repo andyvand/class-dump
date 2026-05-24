@@ -7,9 +7,6 @@
 @interface ChronoServices.RelevanceCache
 {
     id content;
-    id files;
-    id transactionCount;
-    id location;
 }
 
 @end

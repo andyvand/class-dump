@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, NSArray, NSDictionary, NSMutableDictionary, NSPredicate, NSString;
+@class ABAddressBook;
 
 @interface ABPersonEntriesFetcher
 {
     ABAddressBook *_addressBook;
-    NSArray *_affectedStores;
-    NSPredicate *_fetchPredicate;
-    _Bool _includeGroups;
-    _Bool _includeLinkedPeople;
-    _Bool _unifyPeople;
-    NSString *_displayedProperty;
-    NSPredicate *_displayedPropertyFilterPredicate;
-    NSMutableDictionary *_entriesByUID;
-    ABAccount *_account;
 }
 
 - (_Bool);
@@ -29,12 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -46,16 +37,7 @@
 × ;
 
 // Remaining properties
-@property(retain) ABAccount *account; // @synthesize account=_account;
 @property(retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(copy) NSArray *affectedStores; // @synthesize affectedStores=_affectedStores;
-@property(copy) NSString *displayedProperty; // @synthesize displayedProperty=_displayedProperty;
-@property(copy) NSPredicate *displayedPropertyFilterPredicate; // @synthesize displayedPropertyFilterPredicate=_displayedPropertyFilterPredicate;
-@property(copy) NSPredicate *fetchPredicate; // @synthesize fetchPredicate=_fetchPredicate;
-@property _Bool includeGroups; // @synthesize includeGroups=_includeGroups;
-@property _Bool includeLinkedPeople; // @synthesize includeLinkedPeople=_includeLinkedPeople;
-@property(readonly, copy) NSDictionary *resultEntriesByUID;
-@property _Bool unifyPeople; // @synthesize unifyPeople=_unifyPeople;
 
 @end
 

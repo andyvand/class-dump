@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSNumber;
-
 @interface VNDetectContoursRequest : VNImageBasedRequest
 {
 }
@@ -17,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,20 +25,13 @@
 - (id);
 - (float);
 - (void);
-- (void);
+- (void);
 - (_Bool)§TÀg	;
-- (id)ntName;
+- (id)JointName;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) float contrastAdjustment;
-@property(retain, nonatomic) NSNumber *contrastPivot;
-@property(nonatomic) _Bool detectDarkOnLight;
-@property(nonatomic) _Bool detectsDarkOnLight;
 @property(nonatomic) _Bool forceUseInputCVPixelBufferDirectly;
-@property(nonatomic) _Bool inHierarchy;
-@property(nonatomic) unsigned long long maximumImageDimension;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

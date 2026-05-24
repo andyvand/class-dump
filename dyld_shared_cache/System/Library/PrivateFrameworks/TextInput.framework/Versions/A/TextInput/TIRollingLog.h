@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TIRollingLog
 {
     NSMutableArray *_entries;
-    unsigned long long _nextIndex;
-    unsigned long long _count;
-    unsigned long long _maxCount;
 }
 
 - (id);
@@ -29,9 +26,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) NSArray *currentEntries;
-@property(readonly, nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
 
 @end
 

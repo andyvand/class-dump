@@ -7,7 +7,6 @@
 @interface NewsUI2.TagViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

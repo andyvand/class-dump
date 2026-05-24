@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSFont;
+@class NSFont;
 
 @protocol WFSlotTemplateTextEntry
+- (void);
+- (NSFont *)Ϙ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedText;
 @property(nonatomic) _Bool clearsZeroWhenTyping;
-@property(readonly, nonatomic) NSFont *font;
-@property(nonatomic) struct _NSRange selectedRange;
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CNUIDataCollectionSearchSession
 {
     _Bool _pendingResults;
-    _Bool _pendingSuggestionsResults;
 }
 
 + (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool pendingResults; // @synthesize pendingResults=_pendingResults;
-@property(nonatomic) _Bool pendingSuggestionsResults; // @synthesize pendingSuggestionsResults=_pendingSuggestionsResults;
 
 @end
 

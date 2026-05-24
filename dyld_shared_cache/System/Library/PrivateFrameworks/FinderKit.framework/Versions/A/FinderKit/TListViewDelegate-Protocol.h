@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserViewDataSource, FI_TListNameCellView, NSEvent;
+@class FI_TListHeaderRowView;
 
 @protocol TListViewDelegate
+- (void);
+- (unsigned long long);
+- (FI_TListHeaderRowView *)ce = WebCore::Node] /* Error: Ran out of types for this method. */;
 - (_Bool)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) FI_TBrowserViewDataSource *dataSource;
-@property(nonatomic, getter=isEditing) _Bool editing;
 @property(nonatomic, getter=isGrouping) _Bool grouping;
-@property(retain, nonatomic) NSEvent *mouseDownEventForDrag;
-@property(nonatomic) struct TFENode nodeBeingReloaded;
-@property(retain, nonatomic) FI_TListNameCellView *originalEditedNameCellView;
 @end
 

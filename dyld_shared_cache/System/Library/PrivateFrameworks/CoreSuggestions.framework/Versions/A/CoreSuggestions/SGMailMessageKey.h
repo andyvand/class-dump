@@ -9,7 +9,6 @@
 @interface SGMailMessageKey
 {
     NSString *_source;
-    NSString *_messageId;
 }
 
 + (_Bool);
@@ -22,11 +21,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
 @property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
 
 @end

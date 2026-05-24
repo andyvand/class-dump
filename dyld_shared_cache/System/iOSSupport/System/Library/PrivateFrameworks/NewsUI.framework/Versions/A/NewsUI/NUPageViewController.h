@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NUPageViewControllerScrollView, UIViewController;
-@protocol NUPageViewControllerDataSource, NUPageViewControllerDelegate, OS_dispatch_group;
+@class NUPageViewControllerScrollView;
 
 @interface NUPageViewController
 {
     _Bool _cancelScrollViewDidScroll;
-    _Bool _isTransitioning;
-    _Bool _scrollViewStartedScrolling;
-    id <NUPageViewControllerDataSource> _dataSource;
-    id <NUPageViewControllerDelegate> _delegate;
-    UIViewController *_visibleViewController;
-    NUPageViewControllerScrollView *_scrollView;
-    NSObject<OS_dispatch_group> *_idleDispatchGroup;
-    UIViewController *_managedForViewController;
-    UIViewController *_previousViewController;
-    UIViewController *_nextViewController;
-    UIViewController *_possibleNextViewController;
-    UIViewController *_originalVisibleViewController;
-    UIViewController *_appearingViewController;
-    UIViewController *_disappearingViewController;
-    NSMutableArray *_replayViewTransitions;
-    struct CGSize _transitioningSize;
 }
 
 - (void);
@@ -59,13 +42,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -79,15 +62,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (id);
+- (id)_currentModelEnumerator;
 - (void);
-- (void);
+- (void)TSCHChartSeriesTrendLineRSquaredOffsetYProperty;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)channelGroupBaselineMultipliers;
 - (void);
 - (void);
 - (struct CGSize);
@@ -97,7 +80,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)innerTintColor;
 - (void);
 - (id);
 - (void);
@@ -107,32 +90,7 @@
 - (void)"16@?0@"<TFResolver>"8;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *appearingViewController; // @synthesize appearingViewController=_appearingViewController;
-@property(nonatomic) _Bool cancelScrollViewDidScroll; // @synthesize cancelScrollViewDidScroll=_cancelScrollViewDidScroll;
-@property(nonatomic) __weak id <NUPageViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NUPageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIViewController *disappearingViewController; // @synthesize disappearingViewController=_disappearingViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *idleDispatchGroup; // @synthesize idleDispatchGroup=_idleDispatchGroup;
-@property(readonly, nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
-@property(retain, nonatomic) UIViewController *managedForViewController; // @synthesize managedForViewController=_managedForViewController;
-@property(retain, nonatomic) UIViewController *nextViewController; // @synthesize nextViewController=_nextViewController;
-@property(retain, nonatomic) UIViewController *originalVisibleViewController; // @synthesize originalVisibleViewController=_originalVisibleViewController;
-@property(readonly, nonatomic) struct CGSize pageSize;
-@property(nonatomic) _Bool pagingEnabled;
-@property(retain, nonatomic) UIViewController *possibleNextViewController; // @synthesize possibleNextViewController=_possibleNextViewController;
-@property(retain, nonatomic) UIViewController *previousViewController; // @synthesize previousViewController=_previousViewController;
-@property(retain, nonatomic) NSMutableArray *replayViewTransitions; // @synthesize replayViewTransitions=_replayViewTransitions;
 @property(readonly, nonatomic) NUPageViewControllerScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) _Bool scrollViewStartedScrolling; // @synthesize scrollViewStartedScrolling=_scrollViewStartedScrolling;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize transitioningSize; // @synthesize transitioningSize=_transitioningSize;
-@property(retain, nonatomic) UIViewController *visibleViewController; // @synthesize visibleViewController=_visibleViewController;
 
 @end
 

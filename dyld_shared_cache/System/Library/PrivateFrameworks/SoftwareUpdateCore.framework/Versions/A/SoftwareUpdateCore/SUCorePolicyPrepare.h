@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyPrepare
 {
     _Bool _skipPhase;
-    long long _specifiedFields;
-    NSDictionary *_basePrepareOptions;
-    NSDictionary *_additionalOptions;
 }
 
 + (_Bool);
@@ -26,17 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)r"24;
+- (id)_lowFidelitySnapshotFromHighFidelitySnapshot: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *basePrepareOptions; // @synthesize basePrepareOptions=_basePrepareOptions;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

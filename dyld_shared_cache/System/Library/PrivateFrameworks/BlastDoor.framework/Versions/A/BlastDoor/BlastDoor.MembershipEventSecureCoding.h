@@ -10,11 +10,11 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)ssSharingSpecializedMessage;
+- (void)WalletPassSharingSpecializedMessage;
 
 @end
 

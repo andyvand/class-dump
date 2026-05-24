@@ -9,16 +9,15 @@
 @interface BMPBSocialMediaHandle
 {
     NSString *_bundleId;
-    NSString *_handle;
 }
 
 - (id);
-- (void);
+- (void))0;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -30,10 +29,7 @@
 - (void)YO1ð²Úÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
 @property(readonly, nonatomic) _Bool hasBundleId;
-@property(readonly, nonatomic) _Bool hasHandle;
 
 @end
 

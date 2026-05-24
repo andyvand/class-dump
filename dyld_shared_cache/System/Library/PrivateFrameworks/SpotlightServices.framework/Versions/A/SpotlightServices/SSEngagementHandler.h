@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)@?0@"LPLinkMetadata"8@"NSError"16;
++ (void)ge=}40@0:(id)arg1 8@16q24q32;
 
 @end
 

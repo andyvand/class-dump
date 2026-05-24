@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol SUCoreConnectClientDelegate;
+@class NSSet;
 
 @interface SUCoreConnectClientPolicy
 {
     _Bool _usesPersistentXPCConnections;
-    int _clientProcessIdentifier;
-    NSString *_serviceName;
-    id <SUCoreConnectClientDelegate> _clientDelegate;
-    NSString *_clientID;
-    NSString *_clientIDRaw;
-    NSSet *_proxyObjectClasses;
 }
 
-+ (void);
++ (void)processDecryptionTimeoutSettingChange;
++ (id)AVCVirtualTTYDevice:(id)arg1 notified client %p of didStart started[%d];
 + (id);
 + (id);
-+ (id);
 + (void);
 + (id);
 + (void);
 + (void);
-- (id);
-- (id);
+- (id)ure date) to arrive on time via transit. Plural hour.;
+- (id)_packetCountBytesInNetworkQueue;
+- (void)VCVideoPlayer_CollectVideoPlayerStatsForReporting;
 - (void);
-- (void);
+- (id)�;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)VCSPDownlinkBitrates;
 - (id);
 - (void);
 - (int);
@@ -41,20 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <SUCoreConnectClientDelegate> clientDelegate; // @synthesize clientDelegate=_clientDelegate;
-@property(readonly, retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, retain, nonatomic) NSString *clientIDRaw; // @synthesize clientIDRaw=_clientIDRaw;
-@property(readonly, nonatomic) int clientProcessIdentifier; // @synthesize clientProcessIdentifier=_clientProcessIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSSet *proxyObjectClasses; // @synthesize proxyObjectClasses=_proxyObjectClasses;
-@property(readonly, retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesPersistentXPCConnections; // @synthesize usesPersistentXPCConnections=_usesPersistentXPCConnections;
 
 @end
 

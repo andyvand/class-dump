@@ -4,18 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBEncoderSet;
+@class NSData;
 
 @protocol RBEncoderDelegate
+
+@optional
+- (NSData *)2;
+- (NSData *)modifier combination:(CDStruct_27041886)arg1 base64 xor;
+- (NSData *);
+- (unsigned int)C;
+- (_Bool)V';
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int deploymentFormat;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) RBEncoderSet *encoderSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RBEncoderSet",?,R,N
 
 @end
 

@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHTokenizedMathResult, CHTokenizedResult, NSArray, NSDictionary, NSString;
+@class CHDrawing, NSArray;
 
 @interface CHStrokeGroupRecognitionResult
 {
     CHDrawing *_inputDrawing;
-    NSArray *_inputDrawingCutPoints;
-    NSDictionary *_languageFitnessByLocale;
-    NSArray *_orderedLocales;
-    unsigned long long _processing;
-    NSArray *_inputStrokeIdentifiers;
-    NSDictionary *_recognitionResultsByLocale;
-    NSDictionary *_errorsByLocale;
-    CHTokenizedMathResult *_mathResult;
 }
 
 + (id);
++ (id)a;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)_ignoreWindowUpdates;
 - (id);
-- (void);
+- (void)J);
 - (id);
 - (unsigned long long);
 - (id);
@@ -57,19 +49,7 @@
 - (void)4;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *errorsByLocale; // @synthesize errorsByLocale=_errorsByLocale;
-@property(readonly, nonatomic) _Bool hasTextResult;
-@property(retain, nonatomic) CHDrawing *inputDrawing;
-@property(readonly, copy, nonatomic) NSArray *inputDrawingCutPoints;
-@property(readonly, copy, nonatomic) NSArray *inputStrokeIdentifiers; // @synthesize inputStrokeIdentifiers=_inputStrokeIdentifiers;
-@property(readonly, nonatomic) _Bool isCandidateMathGroup;
-@property(readonly, copy, nonatomic) NSDictionary *languageFitnessByLocale;
-@property(readonly, copy, nonatomic) CHTokenizedMathResult *mathResult; // @synthesize mathResult=_mathResult;
 @property(readonly, copy, nonatomic) NSArray *orderedLocales;
-@property(readonly, copy, nonatomic) CHTokenizedResult *preferredTokenizedResult;
-@property(readonly, copy, nonatomic) NSString *preferredTranscription;
-@property(readonly, nonatomic) unsigned long long processing;
-@property(readonly, copy, nonatomic) NSDictionary *recognitionResultsByLocale; // @synthesize recognitionResultsByLocale=_recognitionResultsByLocale;
 
 @end
 

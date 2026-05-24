@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface VNClusteringLogger
 {
     _Bool _logEnabled;
-    NSURL *_logFolderURL;
-    NSURL *_logFileURL;
-    NSString *_fileNameBase;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)( A9;
 - (void);
 - (void);
 - (void);
@@ -32,12 +29,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ANFRv4MD2HomeApp;
 
 // Remaining properties
-@property(readonly) NSString *fileNameBase; // @synthesize fileNameBase=_fileNameBase;
-@property(readonly) _Bool logEnabled; // @synthesize logEnabled=_logEnabled;
-@property(readonly) NSURL *logFileURL; // @synthesize logFileURL=_logFileURL;
 @property(readonly) NSURL *logFolderURL; // @synthesize logFolderURL=_logFolderURL;
 
 @end

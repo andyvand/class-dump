@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMSecurityTimeLimitsDeclaration_TimeLimits, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecurityTimeLimitsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadFamilyControlsEnabled;
-    CEMSecurityTimeLimitsDeclaration_TimeLimits *_payloadTimeLimits;
 }
 
 + (id);
@@ -30,20 +29,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)ck language.;
+- (id)ltsStreamProviderP;
+- (void)nt:%ld (seconds) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadFamilyControlsEnabled; // @synthesize payloadFamilyControlsEnabled=_payloadFamilyControlsEnabled;
-@property(copy, nonatomic) CEMSecurityTimeLimitsDeclaration_TimeLimits *payloadTimeLimits; // @synthesize payloadTimeLimits=_payloadTimeLimits;
-@property(readonly) Class superclass;
 
 @end
 

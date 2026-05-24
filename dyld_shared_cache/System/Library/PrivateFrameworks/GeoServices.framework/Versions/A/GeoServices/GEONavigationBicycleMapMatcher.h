@@ -9,7 +9,6 @@
 @interface GEONavigationBicycleMapMatcher : GEONavigationMapMatcher
 {
     unsigned long long _numProgressionsOffRoute;
-    _Bool _useMatchedCoordinateForMatching;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (double);
 - (CDStruct_c3b9c2ee);
 - (double);
-- (_Bool);
+- (_Bool)sharedCache;
 - (int)¢<4;
 
 // Remaining properties

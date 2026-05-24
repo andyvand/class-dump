@@ -6,28 +6,25 @@
 
 #import <GeoServices/GEOMapEdgeBuilder.h>
 
-@class GEOVectorTile;
-
 __attribute__((visibility("hidden")))
 @interface GEOMapEdgeRoadBuilder : GEOMapEdgeBuilder
 {
     struct deque<GEORoadEdge *, std::allocator<GEORoadEdge *>> _edges;
-    GEOVectorTile *_retainedTile;
 }
 
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (Matrix_8746f91e);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (Matrix_8746f91e);
+- (id)sendNextTimestampFromQueue:(id)arg1 toObserver:(CDStruct_c3b9c2ee)arg2 untilCanceled:(double)arg3 scheduler: /* Error: Ran out of types for this method. */;
+- (_Bool)resumedSchedulerWithScheduler: /* Error: Ran out of types for this method. */;
+- (_Bool)resumedConnectionForServiceName:remoteObjectInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (unsigned long long)offMainThreadSchedulerWithBackgroundScheduler: /* Error: Ran out of types for this method. */;
+- (id)observableOnDarwinNotificationCenterWithName: /* Error: Ran out of types for this method. */;
+- (id)isObject:kindOfClass:andEqualToObject:withBlocks: /* Error: Ran out of types for this method. */;
+- (Matrix_ce64fbd0)isObject:kindOfClass:andEqualToObject:withBlocks: /* Error: Ran out of types for this method. */;
+- (_Bool)isEqualToDictionary:(id)arg1;
+- (_Bool)isEqual:(id)arg1;
+- (unsigned long long)initWithSections:(id)arg1 lastCharacter:(struct GeoCodecsVectorTilePoint *)arg2 firstCharacterAfterLanguage:(Matrix_ce64fbd0)arg3;
+- (void)initWithBackgroundScheduler:mainThreadScheduler:inlineScheduler:immediateScheduler:serialSchedulerProvider:workloopSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (Matrix_ce64fbd0);
 - (void);
 - (id);
 - (void)«83;

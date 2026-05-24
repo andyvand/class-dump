@@ -4,65 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResource, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOStaleResource
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOResource *_desiredResource;
-    GEOResource *_fallbackResource;
-    double _originalTimestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_originalTimestamp:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_desiredResource:1;
-        unsigned int read_fallbackResource:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Version:(id)arg1;
++ (_Bool)setMaskedplateGeneratorValidatorVersion:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (_Bool)clientScheduler;
+- (_Bool)e;
+- (id)m (%{public}ld %{public}s);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)7k1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)addSamples:(id)arg1 numSamples: /* Error: Ran out of types for this method. */;
+- (id)+	;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)68@0:(struct _NSZone *)arg1 8i16d20d28@36@44@52@60;
-- (id)nt;
-- (id)ultiSegmentRoadFinder;
-- (id)ionBody;
+- (id)hasLibraryPlacesWithNoteCount;
+- (id)GEOMapFeatureMultiSegmentRoadFinder;
+- (id)suggestionBody;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOResource *desiredResource;
-@property(retain, nonatomic) GEOResource *fallbackResource;
 @property(readonly, nonatomic) _Bool hasDesiredResource;
-@property(readonly, nonatomic) _Bool hasFallbackResource;
-@property(nonatomic) _Bool hasOriginalTimestamp;
-@property(nonatomic) double originalTimestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

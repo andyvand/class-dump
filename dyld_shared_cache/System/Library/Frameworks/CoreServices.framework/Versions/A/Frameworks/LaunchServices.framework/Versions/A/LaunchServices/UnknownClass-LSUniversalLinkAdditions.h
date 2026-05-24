@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (LSUniversalLinkAdditions)
-- (id);
+- (id)4;
 @end
 

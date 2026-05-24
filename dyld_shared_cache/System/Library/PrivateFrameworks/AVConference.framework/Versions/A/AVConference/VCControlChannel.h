@@ -6,28 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCControlChannel : VCObject
 {
     id _messageReceivedDelegate;
-    id _dataReceivedDelegate;
-    int _bytesSent;
-    int _lastProcessedBytesSent;
-    int _bytesSentToReport;
-    int _maxSentRate;
-    int _minSentRate;
-    int _bytesReceived;
-    int _lastProcessedBytesReceived;
-    int _bytesReceivedToReport;
-    int _maxReceivedRate;
-    int _minReceivedRate;
-    double _lastUpdateTimestamp;
-    unsigned int _reliableMessageResendInterval;
-    NSMutableArray *_optionalTopics;
-    NSObject<OS_dispatch_queue> *_asyncProcessingQueue;
 }
 
 - (void);
@@ -39,20 +21,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) id dataReceivedDelegate;
 @property(nonatomic) id messageReceivedDelegate; // @synthesize messageReceivedDelegate=_messageReceivedDelegate;
-@property(readonly, nonatomic) unsigned int reliableMessageResendInterval; // @synthesize reliableMessageResendInterval=_reliableMessageResendInterval;
 
 @end
 

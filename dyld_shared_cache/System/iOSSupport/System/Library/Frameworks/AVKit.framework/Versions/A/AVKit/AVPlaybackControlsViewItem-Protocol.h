@@ -5,16 +5,11 @@
 //
 
 @protocol AVPlaybackControlsViewItem
-- (void)eContentView;
-- (_Bool)SerializationProtocol;
+- (_Bool);
+- (void)_frameForActiveContentView;
+- (_Bool)AVAirSerializationProtocol;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
 @property(nonatomic) struct CGSize extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance;
-@property(nonatomic, getter=isIncluded) _Bool included;
-@property(nonatomic, getter=isRemoved) _Bool removed;
 @end
 

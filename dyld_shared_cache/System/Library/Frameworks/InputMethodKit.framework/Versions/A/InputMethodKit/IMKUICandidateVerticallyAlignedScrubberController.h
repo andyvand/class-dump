@@ -12,7 +12,7 @@
 
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)T	;
 - (double);
 - (double)voked;
 

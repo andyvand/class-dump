@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorContactMessage_ContactInfo, NSString;
+@class NSString;
 
 @interface BlastDoorContactMessage
 {
@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorContactMessage_ContactInfo *contactInfo;
 @property(nonatomic, readonly) NSString *description;
 
 @end

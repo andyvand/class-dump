@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID;
-
 @interface _DPModelInfoRecord
 {
     _Bool _submitted;
-    short _majorVersion;
-    short _minorVersion;
-    double _creationDate;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
@@ -21,8 +15,8 @@
 × ;
 - (_Bool);
 - (id);
-- (void);
-- (double);
+- (void)P;
+- (double)file will be ignored;
 - (id);
 - (id);
 - (_Bool);
@@ -34,22 +28,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)setPowerAssertion:(short)arg1 forIdentifierDomain: /* Error: Ran out of types for this method. */;
+- (void)buildAndLogCheckedSUCoreError:(double)arg1 underlying:description: /* Error: Ran out of types for this method. */;
 - (id);
 - (short);
 - (void);
 - (short);
-- (void);
+- (void)_updateRemoteWindowForUserNameOrPasswordChange;
 - (id)±.Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(nonatomic) short majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(nonatomic) short minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

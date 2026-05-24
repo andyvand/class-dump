@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPictureInPictureController, AVPictureInPicturePlaybackState, AVSampleBufferDisplayLayerPlaybackDelegateAdapter, AVValueTiming;
-@protocol AVPictureInPictureSampleBufferPlaybackDelegate;
+@class AVPictureInPicturePlaybackState, AVValueTiming;
 
 __attribute__((visibility("hidden")))
 @interface AVSampleBufferDisplayLayerPlayerController
 {
     AVValueTiming *_timing;
-    _Bool _pictureInPictureAvailable;
-    _Bool _paused;
-    _Bool _oldPictureInPictureAvailableState;
-    long long _status;
-    long long _timeControlStatus;
-    AVPictureInPicturePlaybackState *_playbackState;
-    AVPictureInPictureController *_pictureInPictureController;
-    id <AVPictureInPictureSampleBufferPlaybackDelegate> _playbackDelegate;
-    AVObservationController *_sbdlObservationController;
-    AVSampleBufferDisplayLayerPlaybackDelegateAdapter *_playbackDelegateAdapter;
-    long long _oldAVPlayControllerStatus;
-    struct CGSize _enqueuedBufferDimensions;
-    CDStruct_e83c9415 _contentTimeRange;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)h;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)l;
 + (id);
-+ (id);
-+ (id);
-+ (id)s;
++ (id)animations;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
@@ -56,56 +42,44 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (void);
-- (struct CGSize);
-- (CDStruct_e83c9415);
+- (struct CGSize),;
+- (CDStruct_3c1748cc);
 - (void);
 - (void);
 - (void);
 - (double);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_198678f7);
+- (void).Dataclass.Account;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)peed;
 - (void);
+- (long long),V_dynamicLabelSamplingRate;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (double);
 - (long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (long long);
 - (double);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (double)eyPathsForValuesAffectingVideoScaled;
-- (double)llowsVolumeAdjustment;
-- (struct CGSize)ryControlSkipInterval;
+- (double)keyPathsForValuesAffectingVideoScaled;
+- (double)allowsVolumeAdjustment;
+- (struct CGSize)_backwardSecondaryControlSkipInterval;
 - (_Bool)ionary",R,N,V_requestedImageTimeToCMTimeMap;
 - (void)troller.hasLiveStreamingContent;
 - (_Bool)ì|;
 
 // Remaining properties
-@property(nonatomic) CDStruct_e83c9415 contentTimeRange; // @synthesize contentTimeRange=_contentTimeRange;
-@property(nonatomic) struct CGSize enqueuedBufferDimensions; // @synthesize enqueuedBufferDimensions=_enqueuedBufferDimensions;
-@property(nonatomic) long long oldAVPlayControllerStatus; // @synthesize oldAVPlayControllerStatus=_oldAVPlayControllerStatus;
-@property(nonatomic) _Bool oldPictureInPictureAvailableState; // @synthesize oldPictureInPictureAvailableState=_oldPictureInPictureAvailableState;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic, getter=isPictureInPictureAvailable) _Bool pictureInPictureAvailable; // @synthesize pictureInPictureAvailable=_pictureInPictureAvailable;
-@property(nonatomic) __weak AVPictureInPictureController *pictureInPictureController; // @synthesize pictureInPictureController=_pictureInPictureController;
-@property(nonatomic) __weak id <AVPictureInPictureSampleBufferPlaybackDelegate> playbackDelegate; // @synthesize playbackDelegate=_playbackDelegate;
-@property(retain, nonatomic) AVSampleBufferDisplayLayerPlaybackDelegateAdapter *playbackDelegateAdapter; // @synthesize playbackDelegateAdapter=_playbackDelegateAdapter;
 @property(copy, nonatomic) AVPictureInPicturePlaybackState *playbackState; // @synthesize playbackState=_playbackState;
-@property(retain, nonatomic) AVObservationController *sbdlObservationController; // @synthesize sbdlObservationController=_sbdlObservationController;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) long long timeControlStatus; // @synthesize timeControlStatus=_timeControlStatus;
 
 @end
 

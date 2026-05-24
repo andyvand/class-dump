@@ -13,11 +13,11 @@
 
 + (const struct MPSLibraryInfo *);
 - (unsigned long long);
-- (void);
+- (void)<_;
+- (id)qK;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (id);
 

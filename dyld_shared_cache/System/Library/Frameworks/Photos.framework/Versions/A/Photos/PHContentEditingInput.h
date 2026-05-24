@@ -4,57 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, CLLocation, NSDate, NSImage, NSMutableArray, NSNumber, NSObject, NSString, NSURL, PHAdjustmentData, PHLivePhoto, UTType;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PHContentEditingInput
 {
     NSObject<OS_dispatch_queue> *_avAssetIsolationQueue;
-    NSMutableArray *_sandboxExtensionHandles;
-    int _fullSizeImageOrientation;
-    AVAsset *_avAsset;
-    long long _mediaType;
-    unsigned long long _mediaSubtypes;
-    NSDate *_creationDate;
-    CLLocation *_location;
-    NSString *_uniformTypeIdentifier;
-    long long _playbackStyle;
-    PHAdjustmentData *_adjustmentData;
-    NSImage *_displaySizeImage;
-    NSURL *_fullSizeImageURL;
-    PHLivePhoto *_livePhoto;
-    long long _baseVersion;
-    NSNumber *_originalResourceChoice;
-    NSURL *_videoURL;
-    NSURL *_overCapturePhotoURL;
-    NSURL *_overCaptureVideoURL;
-    NSURL *_frontSwappingImageRenderURL;
-    NSURL *_backSwappingImageRenderURL;
-    NSURL *_frontSwappingVideoRenderURL;
-    NSURL *_backSwappingVideoRenderURL;
-    PHAdjustmentData *_originalAdjustmentData;
-    NSURL *_adjustmentSecondaryDataURL;
-    NSString *_accessibilityDescription;
-    NSURL *_appropriateURLForDerivingRenderedContentURLs;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)  @L!@;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)bA9;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (unsigned long long);
@@ -63,8 +37,8 @@
 - (id);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)M;
 - (void);
 - (id);
 - (id);
@@ -82,7 +56,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -94,41 +68,15 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)ryText:queryEmbedding:matchedPersonUUIDs:matchedScenes:queryId: /* Error: Ran out of types for this method. */;
-- (void)er:(id)arg1 filterContactIDs:homeLocations:isOnTrip: /* Error: Ran out of types for this method. */;
-- (void)ngedIdentifiers:(long long)arg1 unknownMergeEvent: /* Error: Ran out of types for this method. */;
+- (id)queryMatchDetailsForSearchResults:queryText:queryEmbedding:matchedPersonUUIDs:matchedScenes:queryId: /* Error: Ran out of types for this method. */;
+- (void)initWithLibraryScopeIdentifier:(id)arg1 filterContactIDs:homeLocations:isOnTrip: /* Error: Ran out of types for this method. */;
+- (void)initWithFetchResult:(long long)arg1 currentFetchResult:changedIdentifiers:unknownMergeEvent: /* Error: Ran out of types for this method. */;
 - (id)avAssetProxyForFullSizeAllowReadFromFile: /* Error: Ran out of types for this method. */;
 - (void)ntLinkedAgainst",&,N,V_clientLinkedAgainst;
 - (void)|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(retain, nonatomic) PHAdjustmentData *adjustmentData; // @synthesize adjustmentData=_adjustmentData;
-@property(copy, nonatomic) NSURL *adjustmentSecondaryDataURL; // @synthesize adjustmentSecondaryDataURL=_adjustmentSecondaryDataURL;
-@property(readonly, copy, nonatomic) NSURL *appropriateURLForDerivingRenderedContentURLs; // @synthesize appropriateURLForDerivingRenderedContentURLs=_appropriateURLForDerivingRenderedContentURLs;
-@property(readonly) AVAsset *audiovisualAsset; // @synthesize audiovisualAsset=_avAsset;
-@property(readonly) AVAsset *avAsset;
-@property(copy, nonatomic) NSURL *backSwappingImageRenderURL; // @synthesize backSwappingImageRenderURL=_backSwappingImageRenderURL;
-@property(copy, nonatomic) NSURL *backSwappingVideoRenderURL; // @synthesize backSwappingVideoRenderURL=_backSwappingVideoRenderURL;
-@property(nonatomic) long long baseVersion; // @synthesize baseVersion=_baseVersion;
-@property(readonly, copy) UTType *contentType;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSImage *displaySizeImage; // @synthesize displaySizeImage=_displaySizeImage;
-@property(copy, nonatomic) NSURL *frontSwappingImageRenderURL; // @synthesize frontSwappingImageRenderURL=_frontSwappingImageRenderURL;
-@property(copy, nonatomic) NSURL *frontSwappingVideoRenderURL; // @synthesize frontSwappingVideoRenderURL=_frontSwappingVideoRenderURL;
-@property(nonatomic) int fullSizeImageOrientation; // @synthesize fullSizeImageOrientation=_fullSizeImageOrientation;
-@property(copy, nonatomic) NSURL *fullSizeImageURL; // @synthesize fullSizeImageURL=_fullSizeImageURL;
-@property(retain, nonatomic) PHLivePhoto *livePhoto; // @synthesize livePhoto=_livePhoto;
-@property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic) unsigned long long mediaSubtypes; // @synthesize mediaSubtypes=_mediaSubtypes;
 @property(nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) PHAdjustmentData *originalAdjustmentData; // @synthesize originalAdjustmentData=_originalAdjustmentData;
-@property(retain, nonatomic) NSNumber *originalResourceChoice; // @synthesize originalResourceChoice=_originalResourceChoice;
-@property(copy, nonatomic) NSURL *overCapturePhotoURL; // @synthesize overCapturePhotoURL=_overCapturePhotoURL;
-@property(copy, nonatomic) NSURL *overCaptureVideoURL; // @synthesize overCaptureVideoURL=_overCaptureVideoURL;
-@property(nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
-@property(copy, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

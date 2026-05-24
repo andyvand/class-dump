@@ -6,28 +6,26 @@
 
 #import <Geode/PALoadRequest.h>
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface PADiscreteFileLoadRequest : PALoadRequest
 {
     NSURL *_url;
-    NSData *_fileData;
 }
 
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (void)_parentCollectionChildInfos;
+- (id)_normalizeRect:coordinateSystem: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)$;
 - (void);
 
 // Remaining properties
-@property(retain) NSData *fileData; // @synthesize fileData=_fileData;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -13,10 +13,10 @@
     NSString *_messageBody;
 }
 
-+ (_Bool);
++ (_Bool)lastKnownWindow;
 - (_Bool);
 - (id);
-- (id);
+- (id)-time,%.3lf;
 - (id);
 - (id);
 - (unsigned long long);

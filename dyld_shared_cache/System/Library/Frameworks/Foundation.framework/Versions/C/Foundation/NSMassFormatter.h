@@ -6,12 +6,11 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSNumberFormatter, NSString, NSUnitFormatter;
+@class NSUnitFormatter;
 
 @interface NSMassFormatter : NSFormatter
 {
     NSUnitFormatter *_unitFormatter;
-    _Bool _isForPersonMassUse;
 }
 
 - (id);
@@ -19,33 +18,24 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void))A;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id)24;
 - (id);
-- (void)ntAttribute;
+- (void)ByteCountAttribute;
 - (long long)¶$g9å/k$Q,;
 - (void)éÿy¹9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isForPersonMassUse) _Bool forPersonMassUse; // @synthesize forPersonMassUse=_isForPersonMassUse;
 @property(readonly) unsigned long long hash;
-@property(copy) NSNumberFormatter *numberFormatter;
-@property(readonly) Class superclass;
-@property long long unitStyle;
 
 @end
 

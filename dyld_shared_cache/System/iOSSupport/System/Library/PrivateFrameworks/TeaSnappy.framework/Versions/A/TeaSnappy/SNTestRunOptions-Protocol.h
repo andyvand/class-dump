@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long orientation;
-@property(readonly, nonatomic) _Bool waitForCommitToFinish;
 @end
 

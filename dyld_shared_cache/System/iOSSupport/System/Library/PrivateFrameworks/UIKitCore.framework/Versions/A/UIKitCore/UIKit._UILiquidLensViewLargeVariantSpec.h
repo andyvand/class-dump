@@ -10,7 +10,7 @@
 {
 }
 
-- (void)thFrame: /* Error: Ran out of types for this method. */;
+- (void)_setInitialProgressWithFrame: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

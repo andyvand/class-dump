@@ -5,5 +5,6 @@
 //
 
 @protocol BMConnectionProxyable
+- (void)b;
 @end
 

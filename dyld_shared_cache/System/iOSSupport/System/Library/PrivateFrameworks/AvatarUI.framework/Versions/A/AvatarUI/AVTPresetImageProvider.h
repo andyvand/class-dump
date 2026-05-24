@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarConfigurationImageRenderer, AVTRenderingScope, NSObject, NSString;
-@protocol AVTDeviceResourceConsumerDelegate, AVTImageCache, AVTTaskScheduler, AVTUILogger, OS_dispatch_queue;
+@protocol AVTDeviceResourceConsumerDelegate, AVTImageCache;
 
 @interface AVTPresetImageProvider
 {
     id <AVTDeviceResourceConsumerDelegate> _consumerDelegate;
-    id <AVTImageCache> _cache;
-    id <AVTUILogger> _logger;
-    AVTAvatarConfigurationImageRenderer *_renderer;
-    id <AVTTaskScheduler> _renderingScheduler;
-    NSObject<OS_dispatch_queue> *_presetQueue;
-    NSObject<OS_dispatch_queue> *_colorQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    AVTRenderingScope *_colorScope;
-    AVTRenderingScope *_defaultScope;
 }
 
 + (id);
@@ -40,29 +30,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):8@?<v@?@"NSString">16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)an avatar if you don't give me one;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTImageCache> cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *colorQueue; // @synthesize colorQueue=_colorQueue;
-@property(readonly, nonatomic) AVTRenderingScope *colorScope; // @synthesize colorScope=_colorScope;
-@property(nonatomic) __weak id <AVTDeviceResourceConsumerDelegate> consumerDelegate; // @synthesize consumerDelegate=_consumerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) AVTRenderingScope *defaultScope; // @synthesize defaultScope=_defaultScope;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *presetQueue; // @synthesize presetQueue=_presetQueue;
-@property(readonly, nonatomic) AVTAvatarConfigurationImageRenderer *renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) id <AVTTaskScheduler> renderingScheduler; // @synthesize renderingScheduler=_renderingScheduler;
-@property(readonly) Class superclass;
 
 @end
 

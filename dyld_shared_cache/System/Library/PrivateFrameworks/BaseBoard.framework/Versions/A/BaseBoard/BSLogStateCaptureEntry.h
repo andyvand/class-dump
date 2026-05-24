@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface BSLogStateCaptureEntry
 {
     NSString *_title;
-    CDUnknownBlockType _captureBlock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType captureBlock; // @synthesize captureBlock=_captureBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

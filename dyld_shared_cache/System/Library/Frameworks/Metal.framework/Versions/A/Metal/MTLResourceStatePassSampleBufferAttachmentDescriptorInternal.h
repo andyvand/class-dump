@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (const struct MTLResourceStatePassSampleBufferAttachmentDescriptorPrivate *)Arg;
+- (const struct MTLResourceStatePassSampleBufferAttachmentDescriptorPrivate *)MeshArg;
 
 @end
 

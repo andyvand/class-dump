@@ -31,47 +31,20 @@ struct ExtensionIdentityBuf {
     unsigned char _field1[1];
 };
 
-struct ExtensionIdentityBufBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
-struct FlatBufferBuilder;
-
 struct IntentReferenceBuf {
     unsigned char _field1[1];
-};
-
-struct IntentReferenceBufBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
 };
 
 struct RelevanceCacheBuf {
     unsigned char _field1[1];
 };
 
-struct RelevanceCacheBufBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
 struct WidgetRelevanceBuf {
     unsigned char _field1[1];
 };
 
-struct WidgetRelevanceBufBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
 struct WidgetRelevancePropertiesBuf {
     unsigned char _field1[1];
-};
-
-struct WidgetRelevancePropertiesBufBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
 };
 
 struct os_unfair_lock_s {

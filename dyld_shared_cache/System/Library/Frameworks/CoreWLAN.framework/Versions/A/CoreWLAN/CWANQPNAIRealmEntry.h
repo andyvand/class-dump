@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWANQPNAIRealmEntry
 {
     long long _encodingType;
-    NSString *_realmName;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);;
 
 // Remaining properties
 @property(nonatomic) long long encodingType; // @synthesize encodingType=_encodingType;
-@property(copy, nonatomic) NSString *realmName; // @synthesize realmName=_realmName;
 
 @end
 

@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFDBStorage, NSObject, NSURL;
-@protocol OS_dispatch_queue;
-
 @interface FCFeedDatabase
 {
     unsigned short _version;
-    NSURL *_parentDirectoryURL;
-    long long _usage;
-    long long _endpoint;
-    NSObject<OS_dispatch_queue> *_initQueue;
-    FCFDBStorage *_storage;
 }
 
-+ (id);
++ (id)setPluginSemaphore:(long long)arg1;
 - (void);
 - (void);
 - (unsigned short);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)imageNamed:(id)arg1 inBundle:(id)arg2;
 - (long long);
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
+- (id)de or Update for %@;
 - (id);
-- (id);
-- (id)WithValidTitleEmbeddingsEventCount:(id)arg1;
+- (id)setHeadlinesWithValidTitleEmbeddingsEventCount:(id)arg1;
 - (void)clusterID:articleVersion:readDate:] /* Error: Ran out of types for this method. */;
 - (void)_Ýÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, copy, nonatomic) NSURL *parentDirectoryURL; // @synthesize parentDirectoryURL=_parentDirectoryURL;
 @property(readonly, nonatomic) long long usage;
-@property(readonly, nonatomic) unsigned short version; // @synthesize version=_version;
 
 @end
 

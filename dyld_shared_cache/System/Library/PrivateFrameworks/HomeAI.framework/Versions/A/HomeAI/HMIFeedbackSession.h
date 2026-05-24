@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIHomeKitClient, NSOperationQueue, NSString, NSURLSession;
+@class HMIHomeKitClient;
 
 __attribute__((visibility("hidden")))
 @interface HMIFeedbackSession
 {
     HMIHomeKitClient *_homeKitClient;
-    NSOperationQueue *_operationQueue;
-    NSURLSession *_session;
-    NSString *_feedbackServiceHost;
 }
 
 + (id)Ï;
@@ -21,21 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)initWithStartOffset:endOffset: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *feedbackServiceHost; // @synthesize feedbackServiceHost=_feedbackServiceHost;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMIHomeKitClient *homeKitClient; // @synthesize homeKitClient=_homeKitClient;
-@property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

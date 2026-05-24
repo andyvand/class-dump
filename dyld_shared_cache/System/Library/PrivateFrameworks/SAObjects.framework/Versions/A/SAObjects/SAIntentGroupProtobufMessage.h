@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAIntentGroupProtobufMessage : AceObject
 {
@@ -16,24 +16,15 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)ionToken> tokenName=%@, start=%f, silenceStart=%f, end=%f, confidence=%f, hasSpaceAfter=%d, hasSpaceBefore=%d, phoneSeq=%@, ipaPhoneSeq=%@, appendedAutoPunctuation=%d, prependedAutoPunctuation=%d, isModifiedByAutoPunctuation=%d, graphCost=%f, acousticCost=%f, startSamples=%@, silenceStartSamples=%@, endSamples=%@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)onds;
+- (id)adjustmentInMilliseconds;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugString;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeName;
 
 @end
 

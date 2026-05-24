@@ -7,9 +7,6 @@
 @interface Accelerate.BNNSGraph.Context
 {
     id graph;
-    id context;
-    id graphContextEnableNanAndInfChecks;
-    id _streamingAdvanceCount;
 }
 
 @end

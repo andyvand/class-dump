@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADFill, OADStroke, OADTableCell3DProperties;
+@class OADStroke;
 
 __attribute__((visibility("hidden")))
 @interface OADTableCellProperties
 {
     OADStroke *mLeftStroke;
-    OADStroke *mRightStroke;
-    OADStroke *mTopStroke;
-    OADStroke *mBottomStroke;
-    OADStroke *mTopLeftToBottomRightStroke;
-    OADStroke *mBottomLeftToTopRightStroke;
-    OADTableCell3DProperties *mThreeDProperties;
-    OADFill *mFill;
-    float mLeftMargin;
-    _Bool mIsLeftMarginOverridden;
-    float mRightMargin;
-    _Bool mIsRightMarginOverridden;
-    float mTopMargin;
-    _Bool mIsTopMarginOverridden;
-    float mBottomMargin;
-    _Bool mIsBottomMarginOverridden;
-    unsigned char mTextFlow;
-    _Bool mIsTextFlowOverridden;
-    unsigned char mTextAnchor;
-    _Bool mIsTextAnchorOverridden;
-    _Bool mTextAnchorCenter;
-    _Bool mIsTextAnchorCenterOverridden;
-    unsigned char mTextHorizontalOverflow;
-    _Bool mIsTextHorizontalOverflowOverridden;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (unsigned char);
@@ -43,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -62,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (void);
@@ -73,11 +50,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)28TetheringControllerInterface;
 - (float);
 - (id);
-- (float);
-- (float);
+- (float)mediaLibrary;
+- (float)parser:didEndMappingPrefix: /* Error: Ran out of types for this method. */;
 - (float)brary/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSULRUCache.m;
 - (void)À.¨A;
 

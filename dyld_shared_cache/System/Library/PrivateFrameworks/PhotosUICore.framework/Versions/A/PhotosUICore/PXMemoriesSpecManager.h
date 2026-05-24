@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXMemoriesSpec;
-
 @interface PXMemoriesSpecManager
 {
     unsigned long long _style;
@@ -14,12 +12,11 @@
 - (Class);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) PXMemoriesSpec *spec; // @dynamic spec;
 @property(readonly, nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end

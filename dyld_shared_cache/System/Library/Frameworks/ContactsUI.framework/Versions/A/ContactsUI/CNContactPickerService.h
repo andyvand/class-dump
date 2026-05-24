@@ -5,18 +5,16 @@
 //
 
 @class CNContactPickerXPCRelay;
-@protocol CNContactPickerInternalSetup><CNContactPickerViewController;
 
 @interface CNContactPickerService
 {
     CNContactPickerXPCRelay *_relay;
-    id <CNContactPickerInternalSetup><CNContactPickerViewController> _viewController;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
-- (void);
+- (void)LogValidationErrors;
 - (void);
 
 // Remaining properties

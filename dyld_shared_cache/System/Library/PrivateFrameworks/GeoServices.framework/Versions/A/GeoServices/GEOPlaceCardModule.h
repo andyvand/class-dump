@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPlaceCardModule
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _contents;
-    NSString *_metadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_contents:1;
-        unsigned int read_metadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tIsCallFailed:(id)arg1;
++ (_Bool)setIsCallFailed:(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
+- (int)r:(unsigned long long)arg1;
+- (id);
 - (int);
-- (id);
-- (int);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)lastVoiceTriggerScores;
+- (void)irPods are in hijackable state, ignore AOP trigger notification;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -48,13 +34,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)6b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24@32;
-- (void)t;
-- (id)olor;
+- (void)displayText;
+- (id)_systemColor;
 - (int)äu	dy;
 - (id)°klÈlmÐm;
-- (void)p_minor_ver;
+- (void)requesting_app_minor_ver;
 - (int *)called once per object;
 - (id)ordinate=If}8{PolylineCoordinate=If}16d24d32;
 - (id)¨¦$;
@@ -66,13 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *metadata;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

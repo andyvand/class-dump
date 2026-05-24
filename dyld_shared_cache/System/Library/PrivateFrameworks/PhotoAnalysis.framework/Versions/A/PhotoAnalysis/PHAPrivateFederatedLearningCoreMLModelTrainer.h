@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLArrayBatchProvider, MLProgramTrainer, NSSet;
+@class MLArrayBatchProvider;
 
 @interface PHAPrivateFederatedLearningCoreMLModelTrainer
 {
     MLArrayBatchProvider *_trainingData;
-    MLProgramTrainer *_programTrainer;
-    NSSet *_evaluationMetricNames;
 }
 
 + (unsigned long long);
@@ -22,11 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void)edLocations;
+- (void)associatedLocations;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *evaluationMetricNames; // @synthesize evaluationMetricNames=_evaluationMetricNames;
-@property(readonly, nonatomic) MLProgramTrainer *programTrainer; // @synthesize programTrainer=_programTrainer;
 @property(readonly, nonatomic) MLArrayBatchProvider *trainingData; // @synthesize trainingData=_trainingData;
 
 @end

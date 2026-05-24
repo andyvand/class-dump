@@ -4,11 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
+@class IDSIncomingBatchMessage, NSData;
 
 @protocol IDSDaemonListenerProtocol
 
 @optional
-- (void)hIdentifier:(long long)arg1 error:(NSData *)arg2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)8ԙT;
+- (void);
+- (void)B;
+- (void);
+- (void)standardKeepAliveController_SetProperty(CMBaseObjectRef, CFStringRef, CFTypeRef);
+- (void)block
+;
+- (void)us session_invalidateInternal(void *);
+- (void)t has already been canceled client-side;
+- (void)getDataValue;
+- (void)";
+- (void)?;
+- (void);
+- (void)initWithServiceIdentifier:(long long)arg1 queryReason:uriCount:preventQuery: /* Error: Ran out of types for this method. */;
+- (void)ProtoPluginControlIndication",&,N,V_plugincontrolIndication;
+- (void)d:(IDSIncomingBatchMessage *)arg1 %s;
+- (void)type %04x failed message-integrity check for %@;
+- (void)IsUserDisabled;
+- (void)IDSSysdiagnoseLogCollectorErrorDomain;
+- (void)quicConnectionId;
+- (void)cancelOpportunisticDataWithIdentifier:(long long)arg1 error:(NSData *)arg2;
 @end
 

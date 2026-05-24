@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _OSLogCollectionReference, _OSLogEventStoreMetadata;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogIndex
 {
     NSMutableArray *_fileq;
-    _OSLogCollectionReference *_lcr;
-    NSString *_file;
-    CDStruct_42ec109f _metadata;
-    _Bool _metadataValid;
-    _OSLogEventStoreMetadata *_metadata2;
-    struct _os_timesync_db_s *_tsdb;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (struct _os_timesync_db_s *);
+- (struct _os_timesync_db_s *);
 - (_Bool);
 - (void);
 - (void);
@@ -30,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)@24@32;
+- (void)setScanProgressDone:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -39,14 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long endWalltime;
-@property(readonly, nonatomic) unsigned long long persistStartWalltime;
-@property(readonly, nonatomic) unsigned long long specialStartWalltime;
 @property(readonly, nonatomic) struct _os_timesync_db_s *timesync; // @synthesize timesync=_tsdb;
 
 @end

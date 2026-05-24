@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)UsoTaskBuilder_unhide_common_PhotoMemory;
 - (id);
 - (void)called before database setup is complete;
 

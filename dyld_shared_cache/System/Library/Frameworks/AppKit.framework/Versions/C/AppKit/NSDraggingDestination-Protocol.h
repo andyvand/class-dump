@@ -5,5 +5,10 @@
 //
 
 @protocol NSDraggingDestination
+
+@optional
+- (_Bool)h;
+- (unsigned long long);
+- (void)!;
 @end
 

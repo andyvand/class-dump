@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRHashtagAssociationInteractor
 {
     id isBusy;
-    id store;
-    id backgroundTaskPerformer;
 }
 
 @end

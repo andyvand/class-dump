@@ -7,23 +7,21 @@
 @interface FACommunicationSafety
 {
     _Bool enabled;
-    _Bool strictPolicy;
 }
 
-+ (_Bool);
-- (_Bool);
-- (void);
++ (_Bool);
+- (_Bool)confirmationOptions;
+- (void)StartSpeech;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)v@?@"NSError">24;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled;
-@property(nonatomic) _Bool strictPolicy; // @synthesize strictPolicy;
 
 @end
 

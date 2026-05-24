@@ -7,13 +7,6 @@
 @interface NewsSubscription.SubscriptionStatusChecker
 {
     id inAppSubscriptionStatusChecker;
-    id webSubscriptionStatusChecker;
-    id purchaseManager;
-    id checkBlocker;
-    id didCompleteFinishLaunching;
-    id featureAvailability;
-    id userSignedInAtSessionStart;
-    id dynamicViewControllerDelegate;
 }
 
 - (void);

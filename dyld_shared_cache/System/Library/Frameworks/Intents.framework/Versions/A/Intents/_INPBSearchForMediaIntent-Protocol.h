@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBMediaSearch, _INPBPrivateSearchForMediaIntentData;
+@class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBSearchForMediaIntent
-- (_Bool)tartCallIntentContactsConfirmationReason;
+- (NSArray *);
+- (_INPBIntentMetadata *);
+- (_Bool)hasStartCallIntentContactsConfirmationReason;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateSearchForMediaIntentData;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch;
-@property(retain, nonatomic) _INPBPrivateSearchForMediaIntentData *privateSearchForMediaIntentData;
 @end
 

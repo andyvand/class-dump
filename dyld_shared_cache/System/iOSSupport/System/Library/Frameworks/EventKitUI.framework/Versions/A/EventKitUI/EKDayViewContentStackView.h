@@ -11,9 +11,9 @@
     NSMutableDictionary *_currentItems;
 }
 
-- (void);
+- (void)s;
 - (id);
-- (void)ges:withAction: /* Error: Ran out of types for this method. */;
+- (void)registerForTraitChanges:withAction: /* Error: Ran out of types for this method. */;
 
 @end
 

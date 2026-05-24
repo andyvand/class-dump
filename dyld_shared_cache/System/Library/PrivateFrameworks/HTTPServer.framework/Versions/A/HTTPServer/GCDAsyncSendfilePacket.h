@@ -11,12 +11,10 @@
 @interface GCDAsyncSendfilePacket : GCDAsyncWritePacket
 {
     NSFileHandle *file;
-    long long offset;
-    long long length;
 }
 
 - (id);
-- (void);
+- (void)?;
 
 @end
 

@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSUUID;
+@class NSIndexPath;
 
 @interface _NSGenericCollectionViewUpdateItem
 {
     NSIndexPath *_initialIndexPath;
-    NSIndexPath *_finalIndexPath;
-    long long _action;
-    _Bool _isAppendingSectionInsert;
-    _Bool _shouldReconfigure;
-    NSUUID *_identifier;
 }
 
 - (id);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
-- (id);
+- (id)`B;
 - (id);
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)D;
 - (id);
 - (id);
 - (void)qã3Ð1Â0@ù
 × ;
 - (_Bool)× ;
 - (void)ectionController"b1"fullScreenSidebarUsesWithinWindowBlending"b1"tabbedFullHeightSidebarsAreIndependent"b1"hasCreatedUndoManager"b1"orderingSuppressedForFullScreenTransition"b1"orderOutSuppressedForWindowTransformAnimation"b1"wiringNibConnections"b1"pendingMinimizeViaRestoration"b1"disableSheetParentDimming"b1"forceSheetTransparency"b1"disableSheetAnimation"b1"propertySpecifiedCornerRadius"b1"propertySpecifiedCornerPath"b1"validateSecurityOfSuperlayers"b1"skipNextDocumentAnimation"b1"allowEdgeResizingCursorsInInactiveApp"b1"observingGameControllerNavigationSession"b1};
-- (id)entStateAndClose;
-- (id)tent;
+- (id)flushPersistentStateAndClose;
+- (id)_preferAlternateContent;
 - (id)zR;
 - (long long)Ü;
-- (_Bool);
-- (void)tableDictionary;
+- (_Bool)NSTouchBarWorkTemplate;
+- (void)NSMutableDictionary;
 
 // Remaining properties
-@property(readonly) long long action; // @synthesize action=_action;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=_indexPath) NSIndexPath *indexPath;
-@property(readonly) NSIndexPath *indexPathAfterUpdate; // @synthesize indexPathAfterUpdate=_finalIndexPath;
 @property(readonly) NSIndexPath *indexPathBeforeUpdate; // @synthesize indexPathBeforeUpdate=_initialIndexPath;
-@property(nonatomic) _Bool isAppendingSectionInsert; // @synthesize isAppendingSectionInsert=_isAppendingSectionInsert;
-@property(readonly, getter=_isSectionOperation) _Bool isSectionOperation;
-@property(retain, nonatomic, getter=_newIndexPath, setter=_setNewIndexPath:) NSIndexPath *newIndexPath;
-@property(nonatomic, getter=_shouldReconfigure, setter=_setShouldReconfigure:) _Bool shouldReconfigure; // @synthesize shouldReconfigure=_shouldReconfigure;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSPopUpButton;
+@class NSButton;
 
 @interface QCDirectoryScannerUI : QCInspector
 {
     NSButton *recursiveButton;
-    NSPopUpButton *typeMenu;
 }
 
 + (id);

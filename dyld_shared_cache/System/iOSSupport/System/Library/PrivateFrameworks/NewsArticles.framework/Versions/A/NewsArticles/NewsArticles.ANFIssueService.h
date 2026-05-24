@@ -7,7 +7,6 @@
 @interface NewsArticles.ANFIssueService
 {
     id issueArticleService;
-    id personalizationService;
 }
 
 @end

@@ -10,13 +10,10 @@
 {
 }
 
-+ (id);
++ (id)SignpostSupportAnimationGraceTimeController;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(nonatomic) _Bool hasTriggerEvent; // @dynamic hasTriggerEvent;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
-@property(nonatomic) int triggerEvent; // @dynamic triggerEvent;
 
 @end
 

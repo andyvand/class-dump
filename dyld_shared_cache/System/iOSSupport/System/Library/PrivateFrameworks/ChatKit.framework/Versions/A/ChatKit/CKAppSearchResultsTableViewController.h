@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol CKBrowserAppManagerViewControllerDelegate;
+@class NSArray;
 
 @interface CKAppSearchResultsTableViewController
 {
     NSArray *_allPlugins;
-    id <CKBrowserAppManagerViewControllerDelegate> _delegate;
-    NSArray *_searchResults;
 }
 
-- (void);
-- (void);
+- (void)u;
+- (void)n;
 - (_Bool);
 - (id);
 - (id);
@@ -32,16 +29,7 @@
 - (void)9tjy<;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allPlugins; // @synthesize allPlugins=_allPlugins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserAppManagerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(readonly) Class superclass;
 
 @end
 

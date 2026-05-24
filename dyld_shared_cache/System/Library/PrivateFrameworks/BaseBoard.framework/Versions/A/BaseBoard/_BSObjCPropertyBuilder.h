@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCValue, NSString;
+@class NSString;
 
 @interface _BSObjCPropertyBuilder
 {
     _Bool optional;
-    NSString *name;
-    BSObjCValue *value;
-    long long associationPolicy;
-    NSString *getterName;
-    NSString *setterName;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (id);
 - (long long);
@@ -27,16 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)+;
 - (void);
 
 // Remaining properties
-@property long long associationPolicy; // @synthesize associationPolicy;
-@property(retain) NSString *getterName; // @synthesize getterName;
 @property(retain) NSString *name; // @synthesize name;
-@property _Bool optional; // @synthesize optional;
-@property(retain) NSString *setterName; // @synthesize setterName;
-@property(retain) BSObjCValue *value; // @synthesize value;
 
 @end
 

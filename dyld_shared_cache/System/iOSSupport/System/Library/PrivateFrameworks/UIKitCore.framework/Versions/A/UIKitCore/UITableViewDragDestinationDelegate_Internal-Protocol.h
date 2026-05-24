@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView;
+
 @protocol UITableViewDragDestinationDelegate_Internal
+
+@optional
+- (NSIndexPath *)storeRecoverableMessagePartWithBody:(UITableView *)arg1 forMessageWithGUID:(NSIndexPath *)arg2 deleteDate:(NSIndexPath *)arg3;
 @end
 

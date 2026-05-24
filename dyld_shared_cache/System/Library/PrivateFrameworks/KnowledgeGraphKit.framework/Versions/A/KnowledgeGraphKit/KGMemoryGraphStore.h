@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGMutableDirectedBinaryAdjacency, NSMutableDictionary, NSString, NSURL, NSUUID;
-
 @interface KGMemoryGraphStore
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_graphIdentifier;
-    unsigned long long _graphVersion;
-    NSURL *_url;
-    unsigned long long _nextNodeIdentifier;
-    NSMutableDictionary *_memoryNodeByIdentifier;
-    NSMutableDictionary *_nodeIdentifiersByLabel;
-    unsigned long long _nextEdgeIdentifier;
-    NSMutableDictionary *_memoryEdgeByIdentifier;
-    NSMutableDictionary *_edgeIdentifiersByLabel;
-    KGMutableDirectedBinaryAdjacency *_edgeIdentifiersBySourceNodeIdentifier;
-    KGMutableDirectedBinaryAdjacency *_edgeIdentifiersByTargetNodeIdentifier;
 }
 
 + (id);
@@ -34,40 +21,40 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
+- (id)(;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)";
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id)totalUnitCount;
+- (id)insertSplitViewItem:(id)arg1 atIndex:(unsigned long long)arg2;
+- (id)TornDown;
+- (id)kShareInvitationStatus;
+- (id);
+- (_Bool);
+- (_Bool)allable_details15callable_holderIZN29TDisableScreenUpdatesInWindow4MakeEP8NSWindowRK6CGRectNSt3__16chrono8durationIdNS8_5ratioILl1ELl1EEEEEE3$_0vJEEE;
+- (id)dge16TitleViewBadgeIDEEE;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -77,64 +64,47 @@
 - (id);
 - (id);
 - (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool));
+- (_Bool)bB;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)nsSet.has(a)||n.has(a))break;t.ControlClassification=o,t.ControlOrderedParts=[a],n.add(a),i.push(t)}return i}identifyDateFields(e){let t,o,r,n=!1;for(let i of e)if(i.ControlLooksLikeDayField){if(t)return[!1,null,null,null];t=i,n=!0}else if(i.ControlLooksLikeMonthField){if(o)return[!1,null,null,null];o=i,n=!0}else if(i.ControlLooksLikeYearField){if(r)return[!1,null,null,null];r=i,n=!0}return[n,r,o,t]}canonicalizedDateTemplate(e){if(e&&(e=e.replace(/\s/g,"")).length&&!/[^dmyDMY\/.-]/g.test(e))return e=(e=(e=e.replace(/D/g,"d")).replace(/m/g,"M")).replace(/Y/g,"y")}classifyDateFields(e,t,o,r,n,i,a){if(e.length>3)return!1;if(a||(a=navigator.language),1===e.length){if(!e[0].ControlIsTextField)return!1;let i=e[0].ControlRequiredFormatForDateTimeInput;if(!i){const t=new Date(1999,11,30);let o=this.#r(e[0]),r=this.canonicalizedDateTemplate(e[0].ControlPlaceholder),s="";if(r?.length){const e=datePlaceholderParser(r);e&&(s=new Intl.DateTimeFormat(a,e).format(t),i=referenceDateToDateFormat(s))}if(!s||s.length>o){const e=n?[{year:(id)arg1 "numeric",month:(id *)arg2 "2-digit",day:"2-digit"},{year:"2-digit",month:"2-digit",day:"2-digit"}]:[{year:"2-digit",month:"2-digit"}];for(const r of e)if(s=new Intl.DateTimeFormat(a,r).format(t),i=referenceDateToDateFormat(s),s.length<=o)break}if(s.length>o)return!1}const s=[];for(const e of i){let t;"y"===e?t=o:"M"===e?t=r:"d"===e&&(t=n),t&&!s.includes(t)&&s.push(t)}return e[0].ControlClassification=t,e[0].ControlOrderedParts=s,e[0].ControlRequiredFormatForDateTimeInput=i,!0}let[s,d,l,c]=this.identifyDateFields(e);if(!s)return!1;if(c&&!l)return!1;let C=0;for(const a of e)a.ControlClassification=t,a.ControlContinuationID=i,a.ControlContinuationIndex=C++,a===c?a.ControlOrderedParts=[n]:a===l?a.ControlOrderedParts=[r]:a===d&&(a.ControlOrderedParts=[o]);return!0}static specifierForAutocompleteTokensAndAddressBookLabel(e,t){if(e){if(!Array.isArray(e))throw new Error("Expected an array of autocomplete tokens");for(let t of e){const e=new JSFieldLabelPatternMatcher(FormMetadataJSController.autocompleteTokenMapDFA(),t).exactMatch();if(void 0!==e)return FormMetadataJSController.getValueSpecifiers(e)}}if(t){const e=new JSFieldLabelPatternMatcher(FormMetadataJSController.fieldLabelMapDFA(),t).exactMatch();if(void 0!==e)return FormMetadataJSController.getValueSpecifiers(e)}return null}classify(e){const t=e.FormControls,o=t.length,r=e.AutoFillFormType===WBSAutoFillFormTypeNewAccount,n=e.AutoFillFormType===WBSAutoFillFormTypeChangePassword,i=e.UsernameElementUniqueID,a=e.PasswordElementUniqueID,s=e.OldPasswordElementUniqueID,d=e.ConfirmPasswordElementUniqueID;for(let e of t)(e.AutocompleteTokens||e.AddressBookLabel)&&(e.AddressBookValueSpecifier=FormMetadataClassification.specifierForAutocompleteTokensAndAddressBookLabel(e.AutocompleteTokens,e.AddressBookLabel));let l=!1,c=!1,C=!1,f=!1,h=!1,u=0;for(let S=0,k=1;S<o;S+=k,k=1){const o=t[S];if(o.ControlLooksLikeIgnoredDataTypeField){o.ControlClassification=WBSIgnoredClassificationToken;continue}const T=o.ControlUniqueID;if(T===a||T===d){o.ControlClassification=r||n?WBSCredentialNewPasswordClassificationToken:WBSCredentialCurrentPasswordClassificationToken;continue}if(T===s){o.ControlClassification=WBSCredentialCurrentPasswordClassificationToken;continue}const B=o.AddressBookValueSpecifier?.classification;if(B===WBSContactEmailClassificationToken){o.ControlClassification=WBSContactEmailClassificationToken;continue}if(T===i){o.ControlClassification=WBSCredentialUsernameClassificationToken;continue}if(!c&&o.ControlLooksLikeCreditCardCardholderField){if(c=!0,B&&WBSNameOrderedPartTokensSet.has(B)){const e=this.classifyControlsRelatedToNameParts(t,S,WBSCreditCardHolderNameClassificationToken);if(e.length>1){let t=++u,o=0;for(let r of e)r.ControlContinuationID=t,r.ControlContinuationIndex=o++}k=e.length;continue}o.ControlClassification=WBSCreditCardHolderNameClassificationToken,o.ControlOrderedParts=WBSCreditCardHolderNameClassificationDefaultOrderedParts;continue}if(!l&&o.ControlLooksLikeCreditCardNumberField){l=!0;const e=this.continuingFieldsInFormControls(t,S,!0,!1);let o=0,r=e.length>1?++u:0;for(let t of e)t.ControlClassification=WBSCreditCardNumberClassificationToken,t.ControlContinuationID=r,t.ControlContinuationIndex=o++;k=e.length;continue}const P=this.fieldLooksLikeDateField(o)||o.ControlLooksLikeCreditCardCompositeExpirationDateField;if(!C&&P){let e=f||c||l;if(e||=!o.ControlLooksLikeOneTimeCodeField&&1===t.filter((e=>AllowedControlTagsForStandaloneCreditCardCompositeExpirationControl.has(e.ControlTagName.toLowerCase()))).length,e){C=!0;const e=this.continuingFieldsInFormControls(t,S,!1,!0);let o=e.length>1?++u:0;this.classifyDateFields(e,WBSCreditCardExpirationClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,void 0,o,WBSLocaleForCreditCardExpirationDate),k=e.length;continue}}if(h||!o.ControlLooksLikeCreditCardSecurityCodeField)if(f||!o.ControlLooksLikeCreditCardTypeField)if(B){const r=o.AddressBookValueSpecifier.classificationHint;if(B===WBSContactNameClassificationToken){o.ControlClassification=B,o.ControlOrderedParts=WBSContactNameClassificationDefaultOrderedParts;continue}if(WBSNameOrderedPartTokensSet.has(B)){const e=this.classifyControlsRelatedToNameParts(t,S,WBSContactNameClassificationToken);if(e.length>1){let t=++u,o=0;for(let r of e)r.ControlContinuationID=t,r.ControlContinuationIndex=o++}k=e.length;continue}if(B===WBSContactPostalCodeClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!1);let o=e.length>1?++u:0,r=0;for(let t of e)t.ControlClassification=WBSContactPostalCodeClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=r++;k=e.length;continue}if(B===WBSContactStreetAddressClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!0);let o=e.length>1?++u:0,r=0;for(let t of e)t.ControlClassification=WBSContactStreetAddressClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=r++;if(1===e.length){let t=e[0];t.ControlOrderedParts=this.#n(t)}else 2===e.length?(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken,WBSContactStreetAddressLine3OrderedPartToken]):e.length>=3&&(e[0].ControlOrderedParts=[WBSContactStreetAddressLine1OrderedPartToken],e[1].ControlOrderedParts=[WBSContactStreetAddressLine2OrderedPartToken],e[2].ControlOrderedParts=[WBSContactStreetAddressLine3OrderedPartToken]);k=e.length;continue}if(B===WBSContactInstantMessageClassificationToken){const e=this.continuingFieldsInFormControls(t,S,!0,!0);1===e.length&&(e[0].ControlClassification=WBSContactInstantMessageClassificationToken,r&&(e[0].ControlClassificationHints=[r])),k=e.length;continue}if(B.startsWith(WBSContactTelephoneClassificationToken)){const e=this.continuingFieldsInFormControls(t,S,!0,!1);if(1==e.length){e[0].ControlClassification=WBSContactTelephoneClassificationToken,e[0].ControlOrderedParts=WBSTelephoneDefaultOrderedParts,r&&(e[0].ControlClassificationHints=[r]);continue}let o=++u,n=0;for(let t of e)t.ControlClassification=WBSContactTelephoneClassificationToken,t.ControlContinuationID=o,t.ControlContinuationIndex=n++,r&&(t.ControlClassificationHints=[r]);2===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken,WBSTelephoneLocalSuffixOrderedPartToken]):3===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):4===e.length?(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken],e[4].ControlOrderedParts=[WBSTelephoneExtensionOrderedPartToken]),k=e.length;continue}if(B===WBSContactBirthdayClassificationToken){const o=this.continuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
+0; /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)B;
+- (id);
+- (id);
+- (id);
+- (id)#;
 - (_Bool);
+- (id)J;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)Jk;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)PredicateFactory";
 - (id);
 - (struct os_unfair_lock_s);
-- (void);
+- (void)apple.menuextra.clock;
 - (id);
 - (id);
-- (void)ledgeGraphKit1;
+- (void)KnowledgeGraphKit1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *edgeIdentifiersByLabel; // @synthesize edgeIdentifiersByLabel=_edgeIdentifiersByLabel;
-@property(readonly, nonatomic) KGMutableDirectedBinaryAdjacency *edgeIdentifiersBySourceNodeIdentifier; // @synthesize edgeIdentifiersBySourceNodeIdentifier=_edgeIdentifiersBySourceNodeIdentifier;
-@property(readonly, nonatomic) KGMutableDirectedBinaryAdjacency *edgeIdentifiersByTargetNodeIdentifier; // @synthesize edgeIdentifiersByTargetNodeIdentifier=_edgeIdentifiersByTargetNodeIdentifier;
-@property(readonly, nonatomic) NSUUID *graphIdentifier; // @synthesize graphIdentifier=_graphIdentifier;
-@property(nonatomic) unsigned long long graphVersion; // @synthesize graphVersion=_graphVersion;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSMutableDictionary *memoryEdgeByIdentifier; // @synthesize memoryEdgeByIdentifier=_memoryEdgeByIdentifier;
-@property(readonly, nonatomic) NSMutableDictionary *memoryNodeByIdentifier; // @synthesize memoryNodeByIdentifier=_memoryNodeByIdentifier;
-@property(nonatomic) unsigned long long nextEdgeIdentifier; // @synthesize nextEdgeIdentifier=_nextEdgeIdentifier;
-@property(nonatomic) unsigned long long nextNodeIdentifier; // @synthesize nextNodeIdentifier=_nextNodeIdentifier;
-@property(readonly, nonatomic) NSMutableDictionary *nodeIdentifiersByLabel; // @synthesize nodeIdentifiersByLabel=_nodeIdentifiersByLabel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

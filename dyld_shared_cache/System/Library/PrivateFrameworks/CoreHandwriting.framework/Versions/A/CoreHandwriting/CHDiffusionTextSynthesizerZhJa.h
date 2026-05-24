@@ -11,7 +11,8 @@
     struct unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineZhJa, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipelineZhJa>> _pipeline;
 }
 
-+ (id);
++ (id)P
+;
 - (id);
 - (id);
 - (id);
@@ -21,7 +22,7 @@
 - (id);
 - (id);
 - (shared_ptr_c5865da5);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

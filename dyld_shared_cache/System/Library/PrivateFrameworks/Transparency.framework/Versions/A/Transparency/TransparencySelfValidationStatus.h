@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 @interface TransparencySelfValidationStatus
 {
     unsigned long long _status;
-    NSData *_pushToken;
-    NSArray *_loggableDatas;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)accessibilityDescriptionMetadataBehavior;
 - (void);
 - (id);
 - (void);
@@ -27,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *loggableDatas; // @synthesize loggableDatas=_loggableDatas;
-@property(retain) NSData *pushToken; // @synthesize pushToken=_pushToken;
 @property unsigned long long status; // @synthesize status=_status;
 
 @end

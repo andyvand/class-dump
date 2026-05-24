@@ -15,7 +15,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *affectedStores;
-@property(readonly) unsigned long long requestType;
 
 @end
 

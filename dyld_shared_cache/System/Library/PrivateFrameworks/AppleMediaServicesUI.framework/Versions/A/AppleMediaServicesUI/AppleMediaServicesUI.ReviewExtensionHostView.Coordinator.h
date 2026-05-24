@@ -7,13 +7,12 @@
 @interface AppleMediaServicesUI.ReviewExtensionHostView.Coordinator
 {
     id parent;
-    id identity;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)t:error: /* Error: Ran out of types for this method. */;
+- (void)resolveWithResult:error: /* Error: Ran out of types for this method. */;
 
 @end
 

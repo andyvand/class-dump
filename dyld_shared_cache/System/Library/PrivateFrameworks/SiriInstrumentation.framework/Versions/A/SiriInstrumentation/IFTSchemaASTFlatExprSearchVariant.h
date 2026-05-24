@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface IFTSchemaASTFlatExprSearchVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_linkId;
-    _Bool _isLowConfidenceKnowledge;
-    struct {
-        unsigned int exists:1;
-        unsigned int isLowConfidenceKnowledge:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -38,10 +29,10 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setMapCache: /* Error: Ran out of types for this method. */;
 - (id)à°1Â0@ù
 × ;
-- (id)d:(id)arg1;
+- (id)setContextStatementIdsReported:(id)arg1;
 - (id)dÒ<ÓÔdÔDÕÕlÖD×´ØDÙhÚ°ÚÛÜðÜÝ`Þ8ß\à4á¸äØå|æÄæhç`é@êTë4ì|ì\í¤í¬ïôïÔð¬ñLôôpõ¸õöàöÀ÷øèø0ùTúäú(üpüPýý¬;
 - (_Bool)fÛ!;
 - (void)ÛÄ¯ëº#;
@@ -50,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasIsLowConfidenceKnowledge;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool isLowConfidenceKnowledge; // @synthesize isLowConfidenceKnowledge=_isLowConfidenceKnowledge;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end
 

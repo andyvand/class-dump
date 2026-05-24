@@ -6,52 +6,44 @@
 
 #import <EventKitUI/EKCalendarItemEditItem.h>
 
-@class EKUITableViewCell, NSString;
+@class EKUITableViewCell;
 @protocol EKUITitleTableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKCalendarItemTitleInlineEditItem : EKCalendarItemEditItem
 {
     EKUITableViewCell<EKUITitleTableViewCell> *_titleCell;
-    _Bool _drawsOwnRowSeparators;
 }
 
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)"&s;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)K*s;
 - (_Bool);
+- (void)s;
+- (id)s;
+- (void);
+- (_Bool);
 - (_Bool);
+- (void);
+- (void)4;
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (unsigned long long)__objc_protorefs__DATA_CONST;
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void)hesExceededLimit;
+- (void)numberOfMatchesExceededLimit;
 - (double)ë¼_þ	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool drawsOwnRowSeparators; // @synthesize drawsOwnRowSeparators=_drawsOwnRowSeparators;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

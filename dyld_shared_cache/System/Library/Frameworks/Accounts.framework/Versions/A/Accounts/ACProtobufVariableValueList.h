@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSSet;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufVariableValueList
@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_values;
 }
 
-+ (Class);
++ (Class);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)K;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -35,13 +35,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)AùQ²2Ð1Â0@ù
 × ;
-- (void)er:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)mDataclasses;
+- (void)accountWithIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)_supportedEnumDataclasses;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *array;
-@property(copy, nonatomic) NSSet *set;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

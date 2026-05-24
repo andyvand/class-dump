@@ -6,14 +6,12 @@
 
 #import <TextInput_ja/TIKeyboardInputManager_ja.h>
 
-@class NSMutableArray, NSString, TIMathSymbolPunctuationController;
+@class NSMutableArray;
 
 @interface TIKeyboardInputManager_ja_Romaji : TIKeyboardInputManager_ja
 {
     NSMutableArray *_externalIndexToInternalIndexMappingArray;
     unsigned long long _externalInputIndex;
-    NSString *_externalString;
-    TIMathSymbolPunctuationController *_mathSymbolPunctuationController;
 }
 
 + (id);
@@ -34,20 +32,20 @@
 - (id);
 - (id);
 - (struct _NSRange);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)#;
 - (void);
 - (id);
-- (unsigned int);
-- (unsigned int);
 - (void);
+- (void);
+- (id)t;
+- (unsigned int);
+- (unsigned int);
+- (void)m%mA9	;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)= 0x7fffffff;
 - (void);
 - (_Bool);
 - (void);

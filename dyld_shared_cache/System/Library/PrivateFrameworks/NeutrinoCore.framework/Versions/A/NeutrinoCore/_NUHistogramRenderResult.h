@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString, NUImageHistogram;
-@protocol NURenderStatistics;
+@class NUImageHistogram;
 
 @interface _NUHistogramRenderResult : _NURenderResult
 {
@@ -20,15 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NUImageHistogram *histogram; // @synthesize histogram=_histogram;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

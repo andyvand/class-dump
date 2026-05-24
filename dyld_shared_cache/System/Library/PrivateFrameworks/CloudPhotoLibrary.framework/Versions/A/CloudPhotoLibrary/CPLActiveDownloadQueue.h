@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface CPLActiveDownloadQueue
 {
     NSMutableArray *_transferTasks;
-    NSMutableArray *_transportTasks;
-    _Bool _FIFOQueue;
-    NSString *_name;
-    unsigned long long _type;
-    unsigned long long _maximumBatchSize;
-    long long _coalescingInterval;
-    CDUnknownBlockType _groupConstructor;
-    unsigned long long _maximumConcurrentTransportTasks;
 }
 
 - (CDUnknownBlockType);
@@ -25,37 +17,26 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void)d24Q32;
-- (unsigned long long)requiredStateAtEndOfSyncSession;
-- (unsigned long long);
-- (void)¨ýÐñEù@ùè;
-- (unsigned long long)ö;
-- (id)ôO¾©ý{©ýC;
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (void)¡Âð!àDù1Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFIFOQueue) _Bool FIFOQueue; // @synthesize FIFOQueue=_FIFOQueue;
-@property(readonly, nonatomic) NSArray *allTransferTasks;
-@property(readonly, nonatomic) long long coalescingInterval; // @synthesize coalescingInterval=_coalescingInterval;
-@property(readonly, nonatomic) unsigned long long countOfTransferTasks;
-@property(readonly, nonatomic) unsigned long long countOfTransferTasksInTransportTasks;
-@property(readonly, nonatomic) unsigned long long countOfTransportTasks;
-@property(readonly, nonatomic) CDUnknownBlockType groupConstructor; // @synthesize groupConstructor=_groupConstructor;
-@property(readonly, nonatomic) _Bool isHighPriority;
-@property(readonly, nonatomic) unsigned long long maximumBatchSize; // @synthesize maximumBatchSize=_maximumBatchSize;
-@property(readonly, nonatomic) unsigned long long maximumConcurrentTransportTasks; // @synthesize maximumConcurrentTransportTasks=_maximumConcurrentTransportTasks;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

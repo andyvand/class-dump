@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface EventImportData
 {
     _Bool _prefersManagedCalendar;
-    int _requestedAction;
-    NSString *_title;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSURL *_URL;
-    NSString *_notes;
-    NSData *_icsData;
-    NSString *_uniqueId;
-    EKStructuredLocation *_structuredLocation;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (void);
++ (_Bool);
++ (_Bool);
++ (void)s;
 + (id);
 + (id);
++ (id)%s;
 + (id);
++ (id))s;
++ (id)v)s;
++ (id)%s;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)~+s;
+- (void)%s;
+- (void)py+s;
+- (_Bool);
 - (int);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
@@ -56,16 +47,7 @@
 - (void){CGRect={CGPoint=dd}{CGSize=dd}}16;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSData *icsData; // @synthesize icsData=_icsData;
-@property(retain, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(nonatomic) _Bool prefersManagedCalendar; // @synthesize prefersManagedCalendar=_prefersManagedCalendar;
-@property(nonatomic) int requestedAction; // @synthesize requestedAction=_requestedAction;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) EKStructuredLocation *structuredLocation; // @synthesize structuredLocation=_structuredLocation;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

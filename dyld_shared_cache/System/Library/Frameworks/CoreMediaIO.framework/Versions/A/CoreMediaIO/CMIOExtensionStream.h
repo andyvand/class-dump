@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionDevice, CMIOExtensionStreamCustomClockConfiguration, NSArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol CMIOExtensionStreamSource, OS_dispatch_source;
+@class NSArray;
 
 @interface CMIOExtensionStream
 {
     struct os_unfair_lock_s _changedPropertiesLock;
-    NSMutableDictionary *_changedProperties;
-    unsigned long long _sequenceNumber;
-    unsigned long long _audioSequenceNumber;
-    unsigned long long _metadataSequenceNumber;
-    CDStruct_1b6d18a9 _statsLastSampleTime;
-    unsigned int _statsMediaType;
-    unsigned int _statsSubType;
-    CDStruct_1b6d18a9 _statsTotalDuration;
-    unsigned long long _statsTotalSampleCount;
-    struct {
-        int width;
-        int height;
-    } _statsDimensions;
-    NSObject<OS_dispatch_source> *_statsTimer;
-    NSMutableDictionary *_streamingClientsMap;
-    struct os_unfair_lock_s _streamingClientsLock;
-    NSArray *_streamingClients;
-    CMIOExtensionDevice *_parent;
-    id <CMIOExtensionStreamSource> _source;
-    NSString *_description;
-    NSString *_localizedName;
-    NSUUID *_streamID;
-    long long _direction;
-    long long _clockType;
-    CMIOExtensionStreamCustomClockConfiguration *_customClockConfiguration;
 }
 
 + (id);
@@ -44,39 +18,32 @@
 - (id);
 - (id);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (void);
+- (void)7;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)8);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)j(8ijh8	;
 - (id);
 - (void);
+- (void)֚;
+- (id),N,V_trainResult;
+- (id)SensitiveDateClassifierBypassDistanceCheck;
+- (id);
+- (id);
+- (void));
 - (long long);
-- (void);
+- (void)a6pf;
 
 // Remaining properties
-@property(readonly) long long clockType; // @synthesize clockType=_clockType;
-@property(readonly) CMIOExtensionStreamCustomClockConfiguration *customClockConfiguration; // @synthesize customClockConfiguration=_customClockConfiguration;
-@property(readonly) long long direction; // @synthesize direction=_direction;
-@property(readonly, copy) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) __weak CMIOExtensionDevice *parent; // @synthesize parent=_parent;
-@property(readonly) __weak id <CMIOExtensionStreamSource> source; // @synthesize source=_source;
-@property(readonly, copy) NSUUID *streamID; // @synthesize streamID=_streamID;
 @property(copy) NSArray *streamingClients;
 
 @end

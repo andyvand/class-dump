@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, SCNOrderedDictionary, UIColor;
-
 @interface SCNMaterialProperty
 {
     unsigned int _isPresentationInstance:1;
-    unsigned int _isCommonProfileProperty:1;
-    unsigned int _sRGB:1;
-    unsigned int _preventWarmup:1;
-    BOOL _propertyType;
-    id _parent;
-    NSString *_customSlotName;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    UIColor *_borderColor;
-    id _contents;
-    unsigned char _contentType;
-    long long _mappingChannel;
-    unsigned char _minificationFilter;
-    unsigned char _magnificationFilter;
-    unsigned char _mipFilter;
-    unsigned char _wrapS;
-    unsigned char _wrapT;
-    unsigned char _textureComponents;
-    float _intensity;
-    float _maxAnisotropy;
-    struct __C3DEffectSlot *_customSlot;
-    struct __C3DImage *_c3dImage;
-    struct SCNMatrix4 *_contentTransform;
-    id _runtimeResolvedPath;
 }
 
 + (id);
@@ -48,7 +21,7 @@
 + (struct __C3DImage *);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ionController setStrongPasswordElements:viewableIfAppropriate:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 
 @end
 

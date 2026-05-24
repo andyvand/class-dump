@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)wledgementHandler:) /* Error: Ran out of types for this method. */;
 - (long long);
 - (id)¼^;
 

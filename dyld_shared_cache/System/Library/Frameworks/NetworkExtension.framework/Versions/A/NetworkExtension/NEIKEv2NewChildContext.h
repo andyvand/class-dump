@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void)tication;
+- (void)shouldPromptForLocalAuthentication;
 - (int);
 
 @end

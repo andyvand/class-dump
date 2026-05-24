@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)TF;
+- (id)h'M ;
 
 @end
 

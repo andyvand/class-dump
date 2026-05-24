@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSNNFilterNode;
 @protocol MPSHandle;
 
 @interface MPSNNStateNode
 {
     id <MPSHandle> _handle;
-    MPSNNFilterNode *_parent;
-    unsigned long long _clientCount;
-    _Bool _synchronize;
-    _Bool _exportFromGraph;
-    _Bool _initializedWithParent;
 }
 
 - (_Bool);
@@ -23,15 +17,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (id)darray_max_swEdge_4x4_1;
+- (id)MPSCNNPooling_new_tex2darray_tex2darray_max_swEdge_4x4_1;
 - (void)øt;
 
 // Remaining properties
-@property(nonatomic) _Bool exportFromGraph; // @synthesize exportFromGraph=_exportFromGraph;
 @property(retain, nonatomic) id <MPSHandle> handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool synchronizeResource; // @synthesize synchronizeResource=_synchronize;
 
 @end
 

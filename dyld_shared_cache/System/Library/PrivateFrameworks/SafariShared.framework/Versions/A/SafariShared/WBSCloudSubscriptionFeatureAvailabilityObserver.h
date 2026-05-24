@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CloudFeatureObject, FeatureChangeObserver, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSCloudSubscriptionFeatureAvailabilityObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_featureIdentifier;
-    FeatureChangeObserver *_changeObserverToken;
-    CloudFeatureObject *_featureObject;
-    _Bool _isEligible;
 }
 
 + (id);
@@ -21,10 +17,10 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)ia;
 - (void);
 - (void);
-- (void);
-- (id)ptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)clearBookmarksWithOptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void) 
 ;
 

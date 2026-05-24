@@ -10,14 +10,14 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void);
 - (id);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)s/Assignables/Models/Documents/Common/CapsuleAsset.swift;
+- (unsigned long long)A;
+- (id)CKInlineReplyChatControllerAccessibility;
 
 @end
 

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPButtonForFeedback;
+@class NSArray, _CPSearchResultForFeedback;
 
 @protocol _CPResultSectionForFeedback
+- (void);
+- (_CPSearchResultForFeedback *)(;
+- (unsigned long long)rowAtPoint: /* Error: Ran out of types for this method. */;
+- (void)initWithURL: /* Error: Ran out of types for this method. */;
 - (double)× ;
 - (void);
-- (void)gBlock:(_Bool)arg1;
+- (void)enumerateObjectsUsingBlock:(_Bool)arg1;
 - (unsigned int)^¿;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(copy, nonatomic) NSData *fallbackResultSection;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool isInitiallyHidden;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int knownBundleIdentifier;
-@property(nonatomic) double rankingScore;
 @property(copy, nonatomic) NSArray *results;
-@property(retain, nonatomic) _CPButtonForFeedback *titleButtonItem;
-@property(nonatomic) unsigned int totalAvailableResults;
-@property(readonly, nonatomic) unsigned long long whichBundleid;
 @end
 

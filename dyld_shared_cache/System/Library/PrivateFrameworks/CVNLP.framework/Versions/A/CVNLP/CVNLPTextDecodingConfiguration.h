@@ -11,7 +11,7 @@
 
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)'1;
 - (void);
 - (id);
 - (CDUnknownBlockType);

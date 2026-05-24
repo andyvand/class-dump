@@ -7,10 +7,6 @@
 @interface UARPAssetTag
 {
     BOOL _char1;
-    BOOL _char2;
-    BOOL _char3;
-    BOOL _char4;
-    unsigned int _tag;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 - (BOOL);
 - (id);
 - (id);
-- (id);
+- (id)AMSDeviceGeneratedIdentifierAnomalyDetector;
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(readonly) BOOL char1; // @synthesize char1=_char1;
-@property(readonly) BOOL char2; // @synthesize char2=_char2;
-@property(readonly) BOOL char3; // @synthesize char3=_char3;
-@property(readonly) BOOL char4; // @synthesize char4=_char4;
-@property(readonly) unsigned int tag; // @synthesize tag=_tag;
 
 @end
 

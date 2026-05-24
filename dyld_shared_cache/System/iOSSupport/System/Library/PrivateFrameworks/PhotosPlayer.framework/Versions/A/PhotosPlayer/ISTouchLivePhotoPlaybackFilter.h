@@ -6,24 +6,19 @@
 
 #import <PhotosPlayer/ISLivePhotoPlaybackFilter.h>
 
-@class ISDisplayLink, NSDate;
-
 @interface ISTouchLivePhotoPlaybackFilter : ISLivePhotoPlaybackFilter
 {
     _Bool _touchActive;
-    long long __playbackRequestID;
-    ISDisplayLink *__displayLink;
-    NSDate *__playbackStartDate;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (void);
+- (_Bool)_documentColumnLayout;
+- (void)_accessibilityBoundsForRange:(id)arg1;
+- (void)_absoluteContentViewFrame;
+- (id),V_contentInset;
+- (long long)omponentContentInset=BBBBB},R,N,V_contentInset;
+- (long long)eInsets=dddd},N,V_contentInsets;
+- (void)iptionStatus;
+- (void)blum uses library scope:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setDisplayLink:) ISDisplayLink *_displayLink; // @synthesize _displayLink=__displayLink;
 @property(nonatomic, setter=_setPlaybackReaquestID:) long long _playbackRequestID; // @synthesize _playbackRequestID=__playbackRequestID;
-@property(retain, nonatomic, setter=_setPlaybackStartDate:) NSDate *_playbackStartDate; // @synthesize _playbackStartDate=__playbackStartDate;
-@property(nonatomic, getter=isTouchActive) _Bool touchActive; // @synthesize touchActive=_touchActive;
 
 @end
 

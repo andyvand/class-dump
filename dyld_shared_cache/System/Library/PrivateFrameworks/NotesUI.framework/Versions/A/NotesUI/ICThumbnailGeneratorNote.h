@@ -12,24 +12,20 @@
 @interface ICThumbnailGeneratorNote : ICThumbnailGenerator
 {
     double _maximumWidth;
-    double _margin;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id)_populationSliceNumber;
 - (void);
-- (double);
-- (void)displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)sets:(double)arg1;
+- (double)AXPAttributeFirstContainedElement;
+- (void)authenticateCustomPasswordWithPrompt:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_setAutomaticallyAdjustsContentInsets:(double)arg1;
 - (double)d for attachment %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(nonatomic) double margin; // @synthesize margin=_margin;
-@property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
 
 @end
 

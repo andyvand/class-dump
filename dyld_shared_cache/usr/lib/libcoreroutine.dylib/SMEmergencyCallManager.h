@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, TUCallCenter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMEmergencyCallManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    TUCallCenter *_callCenter;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)FDictionary=};
+- (void)a}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (void)ttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (_Bool)setIdentityToCurrent:complete: /* Error: Ran out of types for this method. */;
+- (id)cellular link monitor %@.;
 - (void);
 - (id);
 - (void);
@@ -36,8 +34,6 @@
 - (void)istrationProtocol)];
 
 // Remaining properties
-@property(retain, nonatomic) TUCallCenter *callCenter; // @synthesize callCenter=_callCenter;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

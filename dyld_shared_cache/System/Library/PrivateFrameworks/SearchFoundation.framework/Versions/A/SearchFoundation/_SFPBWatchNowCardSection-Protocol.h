@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBWatchListItem;
+@class NSArray, NSData;
 
 @protocol _SFPBWatchNowCardSection
-- (int)treet;
+- (_Bool)setStartDate: /* Error: Ran out of types for this method. */;
+- (_Bool)setRequiredApplicationContextBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_cancelLoadingContextForCatalogUUID:(int)arg1 withLoadingURL:No loading context for url=%@ /* Error: Ran out of types for this method. */;
+- (void)FLExtensionHostContextInterface;
+- (NSData *)nous,V_synchronous;
+- (int)street;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(copy, nonatomic) NSString *sectionTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) _SFPBWatchListItem *watchListItem;
 @end
 

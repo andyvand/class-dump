@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsPredictor
+- (_Bool);
 @end
 

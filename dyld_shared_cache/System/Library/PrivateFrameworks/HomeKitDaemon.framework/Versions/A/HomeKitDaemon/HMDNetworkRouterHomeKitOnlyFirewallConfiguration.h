@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterHomeKitOnlyFirewallConfiguration : HMDNetworkRouterFirewallRuleConfiguration
 {
     _Bool _isFiltered;
-    _Bool _useFallbackForRTP;
-    _Bool _useFallbackForHDS;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)(;
 - (id);
 
 @end

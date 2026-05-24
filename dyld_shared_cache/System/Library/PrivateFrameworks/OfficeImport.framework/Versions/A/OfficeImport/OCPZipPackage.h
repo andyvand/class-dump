@@ -6,20 +6,19 @@
 
 #import <OfficeImport/OCPPackage.h>
 
-@class NSMutableDictionary, OISFUZipArchive;
+@class OISFUZipArchive;
 
 __attribute__((visibility("hidden")))
 @interface OCPZipPackage : OCPPackage
 {
     OISFUZipArchive *mArchive;
-    NSMutableDictionary *mParts;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_UNNotificationContentExtensionVendorSizingView;
 - (void);
 
 @end

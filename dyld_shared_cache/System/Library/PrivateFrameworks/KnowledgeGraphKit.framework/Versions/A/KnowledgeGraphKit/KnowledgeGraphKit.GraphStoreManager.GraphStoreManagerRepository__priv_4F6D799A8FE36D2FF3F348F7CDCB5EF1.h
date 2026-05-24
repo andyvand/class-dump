@@ -7,7 +7,6 @@
 @interface KnowledgeGraphKit.GraphStoreManager.GraphStoreManagerRepository__priv_4F6D799A8FE36D2FF3F348F7CDCB5EF1
 {
     id $defaultActor;
-    id graphStoreManagerByURL;
 }
 
 @end

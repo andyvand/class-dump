@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, NSIndexSet, NSObject, NSString;
-@protocol NSCollectionLayoutContainer, _NSCollectionLayoutFramesQueryResult;
+@class NSCollectionLayoutSection, NSIndexSet, NSObject, _NSCollectionLayoutSolveParameters;
+@protocol NSCollectionLayoutContainer, _NSCollectionLayoutFramesQueryResult, _NSCollectionLayoutSolveResult, _NSCollectionPreferredSizes;
 
 @protocol _NSCollectionLayoutSectionSolver
+- (void);
+- (void)eChangeNotificationsWithRequest:(struct CGPoint)arg1 options:responseHandler:] /* Error: Ran out of types for this method. */;
+- (id <_NSCollectionLayoutSolveResult>)sendEvent:(_NSCollectionLayoutSolveParameters *)arg1 eventDictionary:(id <_NSCollectionPreferredSizes>)arg2;
+- (void)*;
 - (struct CGVector)lts";
-- (void)ge:(_Bool)arg1 style:parsingType: /* Error: Ran out of types for this method. */;
-- (id <_NSCollectionLayoutFramesQueryResult>)ditionalModifiers;
+- (void)initWithElement:(_Bool)arg1 color:range:style:parsingType: /* Error: Ran out of types for this method. */;
+- (id <_NSCollectionLayoutFramesQueryResult>)hotKeyAdditionalModifiers;
 - (double) $;
 - (_Bool)ickerProtocols.h;
 - (id <NSCollectionLayoutContainer>)performActivateDeactivateTestUsingTestName:completionHandler:] /* Error: Ran out of types for this method. */;
 - (NSIndexSet *)agicAppleMenuStatus:] /* Error: Ran out of types for this method. */;
 - (NSObject *)/AppKit/Accessibility.subproj/NSAccessibilityAPIBridge.m;
-- (void)Type;
-- (NSString *);
+- (void)NSSliderType;
 - (long long)h	;
 - (struct CGSize)½hñ'ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) struct CGRect effectiveContentFrame;
-@property(readonly, nonatomic) long long frameCount;
-@property(readonly, nonatomic) int layoutAxis;
-@property(readonly, nonatomic) _Bool layoutRTL;
 @property(readonly, nonatomic) NSCollectionLayoutSection *layoutSection;
-@property(nonatomic) struct CGPoint orthogonalOffset;
-@property(readonly, nonatomic) struct CGVector orthogonalScrollingPrefetchingUnitVector;
-@property(readonly, nonatomic) NSIndexSet *pinnedSupplementaryIndexes;
-@property(nonatomic) _Bool shouldAdjustContentSizeForPartialLastGroupSolution;
-@property(readonly, nonatomic) NSObject *traitCollection;
 @end
 

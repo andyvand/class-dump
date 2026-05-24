@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewInProcessProgressAnimating
+- (void)$;
 @end
 

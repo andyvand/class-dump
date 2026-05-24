@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICTTMergeableStringUndoEditCommand
 {
     void *_deleteRanges;
-    void *_insertStrings;
 }
 
 - (void);
 - (void *);
 - (_Bool);
-- (void *);
+- (void *);
 - (void);
 - (_Bool);
 - (void);
@@ -24,15 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) void *deleteRanges; // @synthesize deleteRanges=_deleteRanges;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) void *insertStrings; // @synthesize insertStrings=_insertStrings;
-@property(readonly) Class superclass;
 
 @end
 

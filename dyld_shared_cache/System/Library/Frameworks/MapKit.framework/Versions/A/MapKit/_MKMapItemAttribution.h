@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, NSArray, NSString;
+@class GEOMapItemAttribution, NSString;
 
 @interface _MKMapItemAttribution
 {
@@ -12,30 +12,22 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)ccumulatedEnergy=%f, lastReportedTotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
+- (id)g completion block with totalAccumulatedEnergy=%f, lastReportedTotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
+- (id)C;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool):8@16B24 /* Error: Ran out of types for this method. */;
+- (_Bool)B24;
+- (id)setRSSI: /* Error: Ran out of types for this method. */;
+- (id)0x%lX, value = %@, notifying = %@>;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id)addressBookDomainName;
+- (void)setIsActionBarMoreMenu: /* Error: Ran out of types for this method. */;
 - (id)er",R,W,N,G_presentationViewController,V_presentationViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) NSArray *attributionApps;
-@property(readonly, nonatomic) NSArray *attributionURLs;
-@property(readonly, nonatomic) NSString *captionDisplayName;
 @property(readonly, nonatomic) NSString *providerID;
-@property(readonly, nonatomic) NSString *providerName;
-@property(readonly, nonatomic) _Bool requiresAttributionInCallout;
-@property(readonly, nonatomic) _Bool requiresAttributionInDeveloperPlaceCard;
-@property(readonly, nonatomic) _Bool shouldOpenInAppStore;
 
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface TSPSaveMeasurements
 {
     unsigned long long _saveStandardChunksStartTimestampMCT;
-    _Bool _didClientRequestEndTimestamp;
-    _Bool _didPrevClientSaveOverlapWithEndTimestamp;
-    unsigned long long _request_id;
-    NSMutableDictionary *_timeSpentByPhases;
-    double _tailspinDurationSecs;
-    double _ratioTimePeriodCovered;
-    double _requestProcessingLatencySecs;
-    NSString *_prevExecName;
-    double _lostTimePeriodAtStartSecs;
-    NSString *_filePath;
-    long long _fileSizeBytes;
-    unsigned long long _numEvents;
 }
 
 - (id);
@@ -54,7 +40,7 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)*;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -64,6 +50,9 @@
 - (void);
 - (id);
 - (void);
+
+// Remaining properties
+@property(readonly, nonatomic) unsigned long long request_id; // @synthesize request_id=_request_id;
 
 @end
 

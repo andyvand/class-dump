@@ -12,20 +12,20 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)s getBCUImageRenderContextClass(void)_block_invoke;
 - (struct CGPoint);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)textualSearchResults;
+- (id);
 - (void);
 
 // Remaining properties

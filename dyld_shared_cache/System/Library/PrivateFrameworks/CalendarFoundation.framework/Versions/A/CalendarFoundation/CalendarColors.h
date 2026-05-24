@@ -15,13 +15,13 @@
 + (id);
 + (int);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
++ (id)X;
 + (id);
 + (void);
++ (void);
++ (id);
++ (id);
++ (void);
 
 @end
 

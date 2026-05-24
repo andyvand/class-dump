@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarCompactLayout : UnifiedTabBarLayout
 {
     unsigned long long _numberOfUnpinnedInactiveTabs;
-    unsigned long long _numberOfUnpinnedInactiveInterTabButtonSpacings;
-    double _cumulativeInterUnpinnedTabButtonSpacing;
-    double _totalExtraInterTabBarButtonSpacingForUnpinnedActiveTab;
-    double _unpinnedActiveTabButtonWidth;
 }
 
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (double);
 - (double);
@@ -28,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (double);
 - (double);

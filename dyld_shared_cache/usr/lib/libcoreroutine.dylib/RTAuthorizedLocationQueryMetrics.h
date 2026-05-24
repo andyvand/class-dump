@@ -4,37 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTAuthorizedLocationQueryMetrics
 {
     _Bool _responseValue;
-    _Bool _isHistoricallyALowDiversityLocation;
-    _Bool _isLocationRequestedPeriodically;
-    float _daemonResponseLatencyMs;
-    float _userTimeOffsetHours;
-    int _loiFamiliarityRank;
-    int _numFamiliarLois;
-    float _visitDwellMinutes;
-    float _normalizedDistanceToCentroid;
-    int _rejectionReasonCode;
-    int _technologyAvailability;
-    int _locationAgeMinutes;
-    int _historicalRejectionReasonCode;
-    float _historicalRejectionSpeedMps;
-    int _authorizedLocationConfirmationTriggerReason;
-    int _lastConfirmationRejectionReasonCode;
-    double _timeSinceLastPeriodicLocRequest;
-    double _durationBetweenTwoConfirmationAlgoScheduling_s;
-    double _timeSincePreviousXPCSchedule;
-    double _timeSinceLastUserQuery;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (float);
 - (float);
-- (double);
+- (double);
 - (double);
 - (int);
 - (void);
@@ -56,20 +33,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (_Bool);
 - (int);
 - (float);
 - (int);
-- (int);
-- (int);
-- (_Bool);
-- (float);
-- (int);
-- (void);
-- (double);
-- (float);
-- (int);
+- (int)v32@0:8@"NSString"16@?<v@?B@"NSError">24 /* Error: Ran out of types for this method. */;
+- (int){_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (float)record, needs rpd;
+- (int)ion:%@, PID:%@ /* Error: Ran out of types for this method. */;
+- (void)ball;
+- (double)ability;
+- (float)) operation %@;
+- (int)SObjectChaining;
 - (void);
 - (int);
 - (double);
@@ -77,34 +54,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lu:(id)arg1 Data object passed is not an NSData;
 - (void)üu`w$x;
-- (void)upZoneAndShareCreateRecordsWithParticipants;
+- (void)SMInitializationSequenceSetupZoneAndShareCreateRecordsWithParticipants;
 - (void)e not already run.;
 
 // Remaining properties
-@property int authorizedLocationConfirmationTriggerReason; // @synthesize authorizedLocationConfirmationTriggerReason=_authorizedLocationConfirmationTriggerReason;
 @property float daemonResponseLatencyMs; // @synthesize daemonResponseLatencyMs=_daemonResponseLatencyMs;
-@property double durationBetweenTwoConfirmationAlgoScheduling_s; // @synthesize durationBetweenTwoConfirmationAlgoScheduling_s=_durationBetweenTwoConfirmationAlgoScheduling_s;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property int historicalRejectionReasonCode; // @synthesize historicalRejectionReasonCode=_historicalRejectionReasonCode;
-@property float historicalRejectionSpeedMps; // @synthesize historicalRejectionSpeedMps=_historicalRejectionSpeedMps;
-@property _Bool isHistoricallyALowDiversityLocation; // @synthesize isHistoricallyALowDiversityLocation=_isHistoricallyALowDiversityLocation;
-@property _Bool isLocationRequestedPeriodically; // @synthesize isLocationRequestedPeriodically=_isLocationRequestedPeriodically;
-@property int lastConfirmationRejectionReasonCode; // @synthesize lastConfirmationRejectionReasonCode=_lastConfirmationRejectionReasonCode;
-@property int locationAgeMinutes; // @synthesize locationAgeMinutes=_locationAgeMinutes;
-@property int loiFamiliarityRank; // @synthesize loiFamiliarityRank=_loiFamiliarityRank;
-@property float normalizedDistanceToCentroid; // @synthesize normalizedDistanceToCentroid=_normalizedDistanceToCentroid;
-@property int numFamiliarLois; // @synthesize numFamiliarLois=_numFamiliarLois;
-@property int rejectionReasonCode; // @synthesize rejectionReasonCode=_rejectionReasonCode;
-@property _Bool responseValue; // @synthesize responseValue=_responseValue;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property int technologyAvailability; // @synthesize technologyAvailability=_technologyAvailability;
-@property double timeSinceLastPeriodicLocRequest; // @synthesize timeSinceLastPeriodicLocRequest=_timeSinceLastPeriodicLocRequest;
-@property double timeSinceLastUserQuery; // @synthesize timeSinceLastUserQuery=_timeSinceLastUserQuery;
-@property double timeSincePreviousXPCSchedule; // @synthesize timeSincePreviousXPCSchedule=_timeSincePreviousXPCSchedule;
-@property float userTimeOffsetHours; // @synthesize userTimeOffsetHours=_userTimeOffsetHours;
-@property float visitDwellMinutes; // @synthesize visitDwellMinutes=_visitDwellMinutes;
 
 @end
 

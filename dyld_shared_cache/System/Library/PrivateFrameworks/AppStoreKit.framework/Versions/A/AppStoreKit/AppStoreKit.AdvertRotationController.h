@@ -7,19 +7,6 @@
 @interface AppStoreKit.AdvertRotationController
 {
     id visibilityCalculatorTracksOcclusions;
-    id objectGraph;
-    id managedCell;
-    id adverts;
-    id currentAdvert;
-    id advertIterator;
-    id viewControllerIsResident;
-    id onscreenTracker;
-    id visibilityCalculator;
-    id strategy;
-    id rotationPerforming;
-    id lifecycleMetricsReporter;
-    id rotationOpportunities;
-    id scrollObserverTokens;
 }
 
 @end

@@ -10,9 +10,9 @@
 {
 }
 
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)AMSDelegatePurchasePaymentDialogTask;
 
 @end
 

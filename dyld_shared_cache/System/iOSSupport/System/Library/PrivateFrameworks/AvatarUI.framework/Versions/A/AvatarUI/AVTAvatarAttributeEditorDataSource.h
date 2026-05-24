@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, NSArray, NSMutableDictionary, NSString;
-@protocol AVTTaskScheduler;
+@class NSArray;
 
 @interface AVTAvatarAttributeEditorDataSource
 {
     unsigned long long _currentCategoryIndex;
-    NSArray *_categories;
-    NSMutableDictionary *_sectionControllers;
-    NSMutableDictionary *_sectionCoordinatorsByProvider;
-    AVTUIEnvironment *_environment;
-    id <AVTTaskScheduler> _renderingScheduler;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (long long);
 - (id);
 - (id);
@@ -43,27 +37,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)A;
 - (id);
-- (id);
-- (void);
+- (id)e_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mAudioCaptureOptions"{AudioCaptureOptions="mExclaveAudioCapturePoints"I}"mDSPBypass"B};
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(nonatomic) unsigned long long currentCategoryIndex; // @synthesize currentCategoryIndex=_currentCategoryIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTTaskScheduler> renderingScheduler; // @synthesize renderingScheduler=_renderingScheduler;
-@property(retain, nonatomic) NSMutableDictionary *sectionControllers; // @synthesize sectionControllers=_sectionControllers;
-@property(retain, nonatomic) NSMutableDictionary *sectionCoordinatorsByProvider; // @synthesize sectionCoordinatorsByProvider=_sectionCoordinatorsByProvider;
-@property(readonly) Class superclass;
 
 @end
 

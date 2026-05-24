@@ -5,5 +5,8 @@
 //
 
 @protocol GEOServiceRequesterOperation
+
+@optional
+- (void)"24@"NSURL"32;
 @end
 

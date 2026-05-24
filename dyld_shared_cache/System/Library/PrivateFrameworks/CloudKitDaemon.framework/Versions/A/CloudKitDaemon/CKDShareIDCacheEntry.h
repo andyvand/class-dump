@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CKDShareIDCacheEntry
 {
     NSNumber *_rowID;
-    NSString *_recordName;
-    NSNumber *_zoneRowID;
 }
 
-- (id);
+- (id)R);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%llu...
+;
 - (id)nfo;
 - (void)$;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
 @property(retain, nonatomic) NSNumber *rowID; // @synthesize rowID=_rowID;
-@property(retain, nonatomic) NSNumber *zoneRowID; // @synthesize zoneRowID=_zoneRowID;
 
 @end
 

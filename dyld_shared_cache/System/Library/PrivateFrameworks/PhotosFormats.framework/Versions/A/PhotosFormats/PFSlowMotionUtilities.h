@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
++ (id)R;
 + (_Bool);
 + (id);
 + (void);
 + (id);
-+ (CDStruct_e83c9415);
-+ (CDStruct_e83c9415);
++ (CDStruct_3c1748cc);
++ (CDStruct_3c1748cc);
 + (id);
 + (id);
 + (id);

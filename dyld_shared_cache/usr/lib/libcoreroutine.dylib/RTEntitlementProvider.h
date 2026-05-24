@@ -9,17 +9,16 @@
 @interface RTEntitlementProvider
 {
     Protocol *_protocol;
-    NSDictionary *_entitlementsDictionary;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)ecovery is set;
++ (id)info_flags;
 + (id);
 + (id)(Ð!0DùqC,°1Â0@ù
 × ;
 - (_Bool);
-- (id);
+- (id)tionForLocalAddress:request for endpoints %@->%@, sessionID:%@:not implemented /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *entitlementsDictionary; // @synthesize entitlementsDictionary=_entitlementsDictionary;
-@property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

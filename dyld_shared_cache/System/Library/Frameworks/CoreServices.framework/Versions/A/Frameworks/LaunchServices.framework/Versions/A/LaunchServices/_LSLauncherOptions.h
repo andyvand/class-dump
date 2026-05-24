@@ -10,18 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _LSLauncherOptions
 {
     NSData *_launcherAuditTokenData;
-    _Bool _launcherInSandboxChecked;
-    _Bool _launcherInSandbox;
-    _Bool _launcherShouldBeTreatedAsIfInSandbox;
-    unsigned int _launcherPlatform;
-    unsigned int _launcherSDKVersion;
-    NSString *_launcherBundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)ion>"16@"MTLFunctionDescriptor"24@?<v@?@"NSError">32;
 - (void);
-- (void);
-- (void);
+- (void)
+iSJ}S?	;
+- (void)@9h;
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
@@ -33,22 +28,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)( ;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) const CDStruct_4c969caf *launcherAuditToken;
 @property(readonly) NSString *launcherBundleIdentifier; // @synthesize launcherBundleIdentifier=_launcherBundleIdentifier;
-@property(readonly) _Bool launcherInSandbox;
-@property(readonly) int launcherPID;
-@property(nonatomic) unsigned int launcherPlatform; // @synthesize launcherPlatform=_launcherPlatform;
-@property(nonatomic) unsigned int launcherSDKVersion; // @synthesize launcherSDKVersion=_launcherSDKVersion;
-@property _Bool launcherShouldBeTreatedAsIfInSandbox; // @synthesize launcherShouldBeTreatedAsIfInSandbox=_launcherShouldBeTreatedAsIfInSandbox;
 
 @end
 

@@ -9,20 +9,12 @@
 @interface UIKit.UIRBDirectionalLightEffectView : UIView
 {
     id alongsideAnimation;
-    id isAnimationRunning;
-    id unionEffectDuration;
-    id animationStartTime;
-    id autorepeatsAnimation;
-    id drawingView;
-    id displayLink;
-    id completionBlock;
-    id alongsideAnimationCurve;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)neCarPlaySessionTouchpadFeedbackAction;
-- (void)itled;
+- (id)_UISceneCarPlaySessionTouchpadFeedbackAction;
+- (void)Untitled;
 - (void)L©l;
 - (void)ÐÊ)ÿ>~ÍòÍw;
 

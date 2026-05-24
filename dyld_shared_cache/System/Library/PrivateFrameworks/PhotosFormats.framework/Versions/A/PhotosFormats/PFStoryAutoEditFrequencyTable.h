@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber;
-@protocol PFRandomNumberGenerator;
+@class NSArray;
 
 @interface PFStoryAutoEditFrequencyTable
 {
     NSArray *_baseTable;
-    NSMutableArray *_workingElements;
-    id <PFRandomNumberGenerator> _randomNumberGenerator;
-    NSNumber *_fallbackValue;
 }
 
-- (id);
-- (id);
+- (id)mework/Versions/A/BiomeLibrary;
+- (id)works/BiomeLibrary.framework/Versions/A/BiomeLibrary;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)?;
+- (void)_pipActionSkipInterval: /* Error: Ran out of types for this method. */;
 
 @end
 

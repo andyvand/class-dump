@@ -9,7 +9,7 @@
     id checker;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)ispatch_queueCGAQGAJGG!$GGADG;

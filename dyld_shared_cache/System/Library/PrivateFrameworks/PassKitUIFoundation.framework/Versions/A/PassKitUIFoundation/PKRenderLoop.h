@@ -9,44 +9,29 @@
 @interface PKRenderLoop
 {
     id <PKRenderLoopDelegate> _delegate;
-    _Bool _drawing;
-    _Bool _invalidated;
-    struct __CVDisplayLink *_displayLink;
-    _Bool _delegateObservesEffectivePaused;
-    _Bool _delegateObservesRunnable;
-    _Bool _paused;
-    _Bool _effectivePaused;
-    _Bool _runnable;
-    unsigned int _displayID;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)lsController";
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak id <PKRenderLoopDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic, getter=isDrawing) _Bool drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic, getter=effectiveIsPaused) _Bool effectivePaused; // @synthesize effectivePaused=_effectivePaused;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, nonatomic, getter=isRunnable) _Bool runnable; // @synthesize runnable=_runnable;
 
 @end
 

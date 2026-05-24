@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate;
 
 @interface AMSTreatment
 {
     NSDate *_endDate;
-    NSString *_identifier;
-    NSDate *_startDate;
-    long long _participationType;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (id)";
+- (_Bool)lper"16@0:(id)arg1 8;
+- (void)MRSendVoiceInputMessage;
 - (id);
 - (long long);
 - (id);
@@ -29,11 +26,7 @@
 - (void)ûïõ	Q1GÄ©êrkÉÊ2{F'.	öóüxË.÷#e|é;
 
 // Remaining properties
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property long long participationType; // @synthesize participationType=_participationType;
-@property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

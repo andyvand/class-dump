@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface TransparencyIDSRegistrationRequestData
 {
     NSString *_application;
-    NSData *_tbsKTIDSRegistrationData;
-    NSData *_pushToken;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_temporaryOutputFileURL;
 - (void);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain) NSString *application; // @synthesize application=_application;
-@property(retain) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain) NSData *tbsKTIDSRegistrationData; // @synthesize tbsKTIDSRegistrationData=_tbsKTIDSRegistrationData;
 
 @end
 

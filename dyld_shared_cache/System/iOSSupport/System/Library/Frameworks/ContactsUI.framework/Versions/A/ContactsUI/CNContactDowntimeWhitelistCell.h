@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
-- (id);
+- (id)g=}24^{__CFString=}32;
 - (_Bool);
 - (void)ÑsÐ1Â0@ù
 × ;

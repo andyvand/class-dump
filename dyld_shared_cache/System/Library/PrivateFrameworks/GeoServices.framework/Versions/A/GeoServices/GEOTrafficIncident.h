@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)te:(id)arg1;
++ (_Bool)setMerchantState:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithAssetManager:(id)arg1 withUAFAssetManager:withUAFDownloadMonitor:withLanguageCodeUpdateMonitor:withAssetOverrideFlag:withOverrideAssetPath:disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
-- (id)sTouristInfo;
-- (id)ep;
-- (id)euing_directions;
+- (id)hasTouristInfo;
+- (id)GEOETAStep;
+- (id)supports_banner_queuing_directions;
 
 @end
 

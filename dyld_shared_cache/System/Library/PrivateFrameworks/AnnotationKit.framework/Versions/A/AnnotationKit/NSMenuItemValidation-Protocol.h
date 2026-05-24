@@ -5,6 +5,6 @@
 //
 
 @protocol NSMenuItemValidation
-- (_Bool)dAndTail;
+- (_Bool)p_validateHeadAndTail;
 @end
 

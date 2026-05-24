@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INArchivedObject, NSArray, NSNumber, NSString;
-
 @interface INRunWorkflowIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)initWithFileAtURL:(long long)arg1 size:minimumDimension:scale:iconMode:error: /* Error: Ran out of types for this method. */;
++ (long long)iconsByType;
++ (_Bool)generateThumbnailForRequest:(long long)arg1 updateHandler:statusHandler:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (id);
@@ -34,33 +32,19 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)initWithVersionedFileIdentifier:(id)arg1 size:scale:iconMode:flavor:wantsBaseline:minimumDimension:requestedTypes: /* Error: Ran out of types for this method. */;
+- (id)__objc_const;
+- (id)internalValueChangedHandler;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)using PEM CA cert:%s /* Error: Ran out of types for this method. */;
+- (void)__objc_ivar;
+- (void)sist notification was dismissed (network=%{public}@, userDidJoin=%{public}s), ;
 - (id);
 - (id);
 - (long long)esults;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *continueRunning;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *requestsIntentExecution;
-@property(copy) NSArray *steps;
-@property(readonly) Class superclass;
-@property(copy) INArchivedObject *underlyingIntent;
-@property(copy) INArchivedObject *underlyingIntentResponse;
-@property(copy) NSString *utterance;
-@property(copy) NSNumber *waitingForResume;
 
 @end
 

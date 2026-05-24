@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, CKConversation, CKConversationListCellLayout, NSObject, NSString, UIButton;
-@protocol CKConversationListCellDelegate;
+@class CKConversation;
 
 @interface CKConversationListNewMessageCell
 {
     CKConversation *_conversation;
-    CKConversationListCellLayout *_cellLayout;
-    UIButton *_closeButton;
-    NSObject<CKConversationListCellDelegate> *_delegate;
-    CKAvatarView *_avatarView;
 }
 
-+ (id)sationList;
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (id)alwaysShowSelectionInConversationList;
+- (void)app_addChildWindow:(id)arg1 ordered: /* Error: Ran out of types for this method. */;
+- (void)aboutLockedNotesInfoAlert;
+- (void)_webView:(id)arg1 requestGeolocationPermissionForFrame:decisionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setDisplayingAttributedSnippet: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (void);
-- (void);
+- (void)alyticsTrackerOperations;
+- (void)false;
 - (id);
-- (void);
+- (void)4;
 - (_Bool);
 - (void);
 - (void);
@@ -36,23 +31,12 @@
 - (id);
 - (void);
 - (id);
-- (id)URL:(long long)arg1 options:(id)arg2;
+- (id)addResourceWithType:(long long)arg1 fileURL:(id)arg2 options: /* Error: Ran out of types for this method. */;
 - (_Bool)$¨ÿ;
 - (void)xÿÿÿuh1¤ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CKConversationListCellLayout *cellLayout; // @synthesize cellLayout=_cellLayout;
-@property(readonly, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<CKConversationListCellDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

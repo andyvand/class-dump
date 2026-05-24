@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCell, NSString, NSTableView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (NSString *);
+- (double);
+- (NSCell *);
+- (_Bool)didReceiveResponse:(NSTableView *)arg1;
+- (void)0@"<ECEmailAddressConvertible>"8;
 @end
 

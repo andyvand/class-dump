@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface MUDelegateProxy
 {
     id _firstDelegate;
-    id _secondDelegate;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak id firstDelegate; // @synthesize firstDelegate=_firstDelegate;
-@property __weak id secondDelegate; // @synthesize secondDelegate=_secondDelegate;
 
 @end
 

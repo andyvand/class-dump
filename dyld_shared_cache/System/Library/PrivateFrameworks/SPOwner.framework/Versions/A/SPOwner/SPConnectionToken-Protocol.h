@@ -7,11 +7,9 @@
 @class NSData, NSDateInterval;
 
 @protocol SPConnectionToken
+- (NSDateInterval *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *address;
-@property(readonly, copy, nonatomic) NSData *commandKey;
-@property(readonly, copy, nonatomic) NSData *connectionToken;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval;
 @end
 

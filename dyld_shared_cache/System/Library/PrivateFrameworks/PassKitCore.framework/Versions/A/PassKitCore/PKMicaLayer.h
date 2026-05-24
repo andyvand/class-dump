@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSDictionary, NSString;
+@class CALayer;
 
 @interface PKMicaLayer
 {
     CALayer *_rootLayer;
-    NSDictionary *_publishedColorLayers;
-    NSDictionary *_publishedColorShapeLayers;
 }
 
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
@@ -22,20 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void)dReporingDiscoveryAnalytics;
+- (void)endReporingDiscoveryAnalytics;
 - (void)uggestion"8@"PKNumericSuggestion"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *publishedColorLayers; // @synthesize publishedColorLayers=_publishedColorLayers;
-@property(readonly, nonatomic) NSDictionary *publishedColorShapeLayers; // @synthesize publishedColorShapeLayers=_publishedColorShapeLayers;
 @property(readonly, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDUserPresenceFeedSessionDelegate
+- (void)_line;
 @end
 

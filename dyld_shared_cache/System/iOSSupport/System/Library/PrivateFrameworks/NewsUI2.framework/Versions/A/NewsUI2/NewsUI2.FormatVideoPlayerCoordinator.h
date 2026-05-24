@@ -7,11 +7,6 @@
 @interface NewsUI2.FormatVideoPlayerCoordinator
 {
     id analyticsDataProvider;
-    id sessionManager;
-    id tracker;
-    id channelDataFactory;
-    id articleDataFactory;
-    id exposureStartTime;
 }
 
 @end

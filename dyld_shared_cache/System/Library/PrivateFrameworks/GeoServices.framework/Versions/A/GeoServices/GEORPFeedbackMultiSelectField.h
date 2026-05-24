@@ -9,40 +9,30 @@
 @interface GEORPFeedbackMultiSelectField
 {
     PBDataReader *_reader;
-    NSMutableArray *_options;
-    NSMutableArray *_selecteds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_options:1;
-        unsigned int read_selecteds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)_CNCombineLatestObservable;
 + (Class);
-+ (Class);
-+ (_Bool)rings:(id)arg1;
++ (_Bool)setKeyStrings:(id)arg1;
+- (void);
+- (unsigned long long)setPersistentStoreCoordinators: /* Error: Ran out of types for this method. */;
+- (id)@"NSString",C,D;
+- (id)T@"NSPersistentStoreCoordinator",&,N,V_coordinator;
+- (unsigned long long)StoreBuilder removePersistentStoreAtPath:]:storeUrl is nil /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)speakAudio:withScaleFactor:outASBD:playbackStarted:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)m@;
 - (id);
 - (_Bool);
 - (id);
@@ -50,12 +40,11 @@
 - (id)rote_anyField"b1};
 - (id)autoupdatingCurrentLocale;
 - (id)d$8% &ô&,';
-- (id)s_button;
+- (id)include_dismiss_button;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *options;
-@property(retain, nonatomic) NSMutableArray *selecteds;
 
 @end
 

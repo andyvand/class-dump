@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol UIResponderStandardEditActions;
 
 __attribute__((visibility("hidden")))
@@ -17,18 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_attachmentParts;
 - (void)So26UIListContentConfigurationCG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <UIResponderStandardEditActions> editResponder; // @synthesize editResponder=_editResponder;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

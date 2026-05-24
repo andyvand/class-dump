@@ -11,26 +11,22 @@
 @interface PKPaymentAuthorizationErrorStateParam : PKPaymentAuthorizationStateParam
 {
     _Bool _clientFailure;
-    _Bool _paymentOffersError;
-    NSError *_error;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)"b1"forceRoamHasChannelsCnt"b1"forceRoamHasNoChannel"b1"infraDisconnectedCount"b1"missingAWStartEventCount"b1"peerInfraChannel"b1"peerInfraChannelFlags"b1"psfEnabledCount"b1"roamOutOfOtherCount"b1"roamOutOfOtherFailure"b1"roamOutOfOtherSuccess"b1"routablePeerCount"b1"selfInfraChannel"b1"selfInfraChannelFlags"b1"senderPlatform"b1"sequenceNumberNotUpdatedCount"b1"serverModeDuration"b1"splitModeDuration"b1"startingRSSI"b1"totalDuration"b1"totalPeerCount"b1"csaDuringDfspMode"b1"csaToDfsChannel"b1"dfsProxyMode"b1"inRetroMode"b1"peerIsSDB"b1"selfIsSDB"b1};
 - (void)%@'; ;
 
 // Remaining properties
-@property(nonatomic, getter=isClientFailure) _Bool clientFailure; // @synthesize clientFailure=_clientFailure;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic, getter=isPaymentOffersError) _Bool paymentOffersError; // @synthesize paymentOffersError=_paymentOffersError;
 
 @end
 

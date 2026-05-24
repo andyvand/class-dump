@@ -11,16 +11,14 @@
 @interface SKAPFSSnapshotDisk : SKAPFSDisk
 {
     NSString *_apfsUUID;
-    NSString *_snapshotName;
-    long long _sealStatus;
 }
 
-- (void);
+- (void)D;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *apfsUUID;
-@property long long sealStatus; // @synthesize sealStatus=_sealStatus;
 @property(retain) NSString *snapshotName; // @synthesize snapshotName=_snapshotName;
-@property(readonly) NSString *snapshotUUID;
 
 @end
 

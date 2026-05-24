@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, WAMessageAWD;
-
 @interface WAField
 {
     id _value;
-    NSString *_typeInfoForRepeatableSubmessage;
-    _Bool _isRepeatable;
-    long long _type;
-    NSString *_key;
 }
 
 + (_Bool);
@@ -22,20 +16,20 @@
 - (void);
 - (unsigned int);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)clearRoutineWithHandler:(long long)arg1;
 - (id);
 - (void);
+- (id)f:%p, orderedSet.count:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)isBasePunctuationGroup:(_Bool)arg1;
 - (id);
 - (void);
-- (void);
+- (void)bjectShaderPass];
 - (void);
 - (id);
 - (void);
@@ -55,37 +49,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (float);
+- (id)widthCalculationMethod;
+- (float)ql;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)(%;
+- (void)a;
+- (void)H!;
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)h;
 - (void)@~öÿf«nX;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @dynamic boolValue;
-@property(retain, nonatomic) NSData *bytesValue; // @dynamic bytesValue;
-@property(nonatomic) double doubleValue; // @dynamic doubleValue;
-@property(nonatomic) float floatValue; // @dynamic floatValue;
-@property(nonatomic) int int32Value; // @dynamic int32Value;
-@property(nonatomic) long long int64Value; // @dynamic int64Value;
-@property(nonatomic) _Bool isRepeatable; // @synthesize isRepeatable=_isRepeatable;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSMutableArray *repeatableValues; // @dynamic repeatableValues;
-@property(retain, nonatomic) NSString *stringValue; // @dynamic stringValue;
-@property(retain, nonatomic) WAMessageAWD *subMessageValue; // @dynamic subMessageValue;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned int uint32Value; // @dynamic uint32Value;
-@property(nonatomic) unsigned long long uint64Value; // @dynamic uint64Value;
 
 @end
 

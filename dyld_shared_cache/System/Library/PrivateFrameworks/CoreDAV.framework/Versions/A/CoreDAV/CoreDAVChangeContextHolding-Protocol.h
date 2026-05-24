@@ -5,6 +5,7 @@
 //
 
 @protocol CoreDAVChangeContextHolding
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id changeContext;

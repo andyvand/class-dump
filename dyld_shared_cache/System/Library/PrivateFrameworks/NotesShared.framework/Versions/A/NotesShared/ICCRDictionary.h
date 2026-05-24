@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, NSMapTable, NSString;
+@class ICCRDocument, NSMapTable;
 
 @interface ICCRDictionary
 {
     ICCRDocument *_document;
-    NSMapTable *_contents;
-    long long _removeClock;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)hed downloading;
+- (id)ownload of %lu products, assets:(id)arg1 %lu;
+- (id)_%@.%@;
+- (void)stem/Library/PrivateFrameworks/MiniSoftwareUpdate.framework/Versions/A/MiniSoftwareUpdate;
+- (void)mework/Versions/A/Security;
 - (void);
 - (long long);
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -34,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (_Bool);
 - (id);
 - (id);
@@ -50,16 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *contents; // @synthesize contents=_contents;
-@property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long removeClock; // @synthesize removeClock=_removeClock;
-@property(readonly) Class superclass;
 
 @end
 

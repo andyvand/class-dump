@@ -8,7 +8,6 @@
 {
     id group;
     id flushManager;
-    id loggingEventProcessor;
 }
 
 @end

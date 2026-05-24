@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SICSchemaSICInvocationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)A;
+- (unsigned long long)blic}@;
 - (_Bool);
-- (_Bool);
+- (_Bool)ETE FROM message WHERE (OLD.associated_message_guid IS NULL AND associated_message_guid IS NOT NULL AND guid = OLD.associated_message_guid); END;
 - (id);
 - (id);
 - (id)clearLanguageConfidenceArrays;
 - (id),V_recognizedTokensStartIndex;
-- (_Bool)ASUSMULTITURNTRIGGERERROR_UNKNOWN;
+- (_Bool)PEGASUSMULTITURNTRIGGERERROR_UNKNOWN;
 - (_Bool)edStatementResults.outcome.parameterDisambiguation.items.value.entity.typeIdentifier.custom.bundleId;
 - (void)0éÿ¿;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

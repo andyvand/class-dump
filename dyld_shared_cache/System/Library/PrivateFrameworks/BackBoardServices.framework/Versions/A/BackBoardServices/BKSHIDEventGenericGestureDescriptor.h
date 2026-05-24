@@ -9,17 +9,16 @@
 @interface BKSHIDEventGenericGestureDescriptor : BKSHIDEventDescriptor
 {
     _Bool _isWildcard;
-    unsigned int _genericGestureType;
 }
 
-+ (id);
++ (id)h;
 + (id);
 + (_Bool);
 - (id);
 - (unsigned int);
-- (id);
-- (id);
-- (_Bool);
+- (id)setWidgetBudgetIdentifier:(id)arg1;
+- (id)type="table" AND name="INDEX0";;
+- (_Bool)f (((typeof (IDSSendMessageOptionPeerResponseIdentifierKey) (*)(void))0)()) getIDSSendMessageOptionPeerResponseIdentifierKey(void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

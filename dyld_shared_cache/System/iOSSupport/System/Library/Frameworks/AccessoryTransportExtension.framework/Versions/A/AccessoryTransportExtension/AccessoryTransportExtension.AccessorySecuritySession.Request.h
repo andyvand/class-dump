@@ -7,6 +7,7 @@
 @interface AccessoryTransportExtension.AccessorySecuritySession.Request
 {
     id session;
+    id;
 }
 
 @end

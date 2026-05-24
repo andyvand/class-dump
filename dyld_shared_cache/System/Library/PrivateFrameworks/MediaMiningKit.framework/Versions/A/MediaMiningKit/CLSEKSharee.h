@@ -9,27 +9,21 @@
 @interface CLSEKSharee
 {
     _Bool _isCurrentUserForSharing;
-    _Bool _isCurrentUserForScheduling;
-    NSString *_emailAddress;
-    NSString *_name;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
+- (id)`+;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)#;
+- (_Bool)H;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly) _Bool isCurrentUserForScheduling; // @synthesize isCurrentUserForScheduling=_isCurrentUserForScheduling;
-@property(readonly) _Bool isCurrentUserForSharing; // @synthesize isCurrentUserForSharing=_isCurrentUserForSharing;
-@property(readonly) NSString *name; // @synthesize name=_name;
 
 @end
 

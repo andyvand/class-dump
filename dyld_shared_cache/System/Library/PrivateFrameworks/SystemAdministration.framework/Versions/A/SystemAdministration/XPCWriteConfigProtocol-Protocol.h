@@ -5,5 +5,10 @@
 //
 
 @protocol XPCWriteConfigProtocol
+
+@optional
+- (oneway void);
+- (oneway void)R";
+- (oneway void)?;
 @end
 

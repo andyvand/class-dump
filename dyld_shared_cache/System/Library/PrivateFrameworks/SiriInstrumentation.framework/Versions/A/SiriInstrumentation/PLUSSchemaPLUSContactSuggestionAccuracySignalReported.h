@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggestionAccuracySignal, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactSuggestionAccuracySignalReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalPlusId;
-    SISchemaUUID *_suggestionId;
-    PLUSSchemaPLUSSuggestionAccuracySignal *_accuracySignal;
-    _Bool _hasOriginalPlusId;
-    _Bool _hasSuggestionId;
-    _Bool _hasAccuracySignal;
 }
 
 - (void);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (id);
@@ -38,22 +33,16 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Deleted | Parts:(id)arg1 Finished writing restored part to message GUID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
-- (id)l;
+- (id)_hasSortedScoreModelFinal;
 - (id)hedUrl;
 - (void)lowPluginInputContext;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSSuggestionAccuracySignal *accuracySignal; // @synthesize accuracySignal=_accuracySignal;
-@property(nonatomic) _Bool hasAccuracySignal; // @synthesize hasAccuracySignal=_hasAccuracySignal;
-@property(nonatomic) _Bool hasOriginalPlusId; // @synthesize hasOriginalPlusId=_hasOriginalPlusId;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalPlusId; // @synthesize originalPlusId=_originalPlusId;
-@property(retain, nonatomic) SISchemaUUID *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end
 

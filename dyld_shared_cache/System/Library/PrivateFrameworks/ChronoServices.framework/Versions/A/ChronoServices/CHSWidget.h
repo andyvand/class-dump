@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, CHSIntentReference, NSString;
+@class CHSIntentReference;
 
 @interface CHSWidget
 {
     CHSIntentReference *_intentReference;
-    CHSExtensionIdentity *_extensionIdentity;
-    NSString *_kind;
-    NSString *_personaIdentifier;
-    long long _family;
-    NSString *_activityIdentifier;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCollectionViewLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
 @property(readonly, nonatomic) long long family; // @synthesize family=_family;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CHSIntentReference *intentReference; // @synthesize intentReference=_intentReference;
-@property(readonly, nonatomic) NSString *kind;
-@property(readonly, copy, nonatomic) NSString *personaIdentifier; // @synthesize personaIdentifier=_personaIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

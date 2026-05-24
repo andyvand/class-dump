@@ -13,13 +13,6 @@ __attribute__((visibility("hidden")))
 
 
 // Remaining properties
-@property _Bool filledCyclesInstructions; // @dynamic filledCyclesInstructions;
-@property _Bool filledDispatchQueue; // @dynamic filledDispatchQueue;
 @property _Bool filledName; // @dynamic filledName;
-@property _Bool filledScheduling; // @dynamic filledScheduling;
-@property _Bool filledSnapshot; // @dynamic filledSnapshot;
-@property _Bool filledSwiftTask; // @dynamic filledSwiftTask;
-@property _Bool filledUserStack; // @dynamic filledUserStack;
-@property _Bool needsExclave; // @dynamic needsExclave;
 @end
 

@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDictionary;
-
 @interface SASMultilingualSpeechRecognized : SABaseClientBoundCommand
 {
 }
@@ -18,13 +16,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool multilingualDisabled;
-@property(copy, nonatomic) NSDictionary *speechRecognizedByLanguage;
 
 @end
 

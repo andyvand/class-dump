@@ -8,10 +8,11 @@
 @protocol MTLDevice;
 
 @protocol MTLCommandEncoder
+- (void)C;
+- (id <MTLDevice>)asmallkatakanahalfwidth;
 - (void)set:(NSString *)arg1;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(copy) NSString *label;
 @end
 

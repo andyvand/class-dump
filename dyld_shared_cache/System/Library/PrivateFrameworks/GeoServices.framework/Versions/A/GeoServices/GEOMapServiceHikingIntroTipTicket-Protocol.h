@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol GEOMapServiceHikingIntroTipTicket
+- (GEOMapServiceTraits *)};
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

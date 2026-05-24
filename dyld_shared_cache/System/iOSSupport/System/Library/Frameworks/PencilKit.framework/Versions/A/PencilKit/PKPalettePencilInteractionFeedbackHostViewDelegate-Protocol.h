@@ -5,5 +5,7 @@
 //
 
 @protocol PKPalettePencilInteractionFeedbackHostViewDelegate
+- (double);
+- (double);
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFAccessibilityWorkflow;
+@class WFAccessibilityWorkflow;
 
 @interface UAShortcutWorkflow
 {
     WFAccessibilityWorkflow *__wfWorkflow;
-    NSString *__identifier;
 }
 
 + (id);
-+ (id);
-+ (void);
-+ (id);
-- (id);
-- (void);
++ (id)hemaGATLoadScreenContentEventFailed";
++ (void)LOWSmsAttachmentMetadata";
++ (id)"FLOWSchemaFLOWMediaPlayerPlaylistContext";
+- (id)entTypeUnion";
+- (void)ingEventFailed";
 - (id);
 - (void);
 - (id);
@@ -27,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *_identifier; // @synthesize _identifier=__identifier;
 @property(retain, nonatomic) WFAccessibilityWorkflow *_wfWorkflow; // @synthesize _wfWorkflow=__wfWorkflow;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *name;
 
 @end
 

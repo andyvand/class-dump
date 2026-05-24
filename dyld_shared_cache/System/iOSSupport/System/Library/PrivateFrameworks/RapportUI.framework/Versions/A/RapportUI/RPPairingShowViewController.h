@@ -10,10 +10,6 @@
 {
     CDUnknownBlockType _dismissHandler;
     NSString *_password;
-    UIButton *_cancelButton;
-    UILabel *_titleLabel;
-    UILabel *_subTitleLabel;
-    UILabel *_verificationCodeLabel;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -33,15 +29,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ibswiftCoreAudio.dylib;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(retain, nonatomic) UILabel *subTitleLabel; // @synthesize subTitleLabel=_subTitleLabel;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UILabel *verificationCodeLabel; // @synthesize verificationCodeLabel=_verificationCodeLabel;
 
 @end
 

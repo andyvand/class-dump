@@ -11,7 +11,6 @@
 @interface CHDataDetectorQuery : CHQuery
 {
     DDScannerServiceConfiguration *_dataDetectorConfiguration;
-    NSArray *_foundItems;
 }
 
 - (void);

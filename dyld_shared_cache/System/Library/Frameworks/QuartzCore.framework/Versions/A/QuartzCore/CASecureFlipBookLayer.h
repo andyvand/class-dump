@@ -6,21 +6,15 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface CASecureFlipBookLayer : CALayer
 {
     struct SILStateMachine *_machine;
-    NSString *_type;
-    NSString *_currentState;
-    NSString *_nextState;
-    unsigned short _currentFrame;
-    unsigned short _commitedFrame;
-    NSArray *_states;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)J0;
 + (_Bool);
 - (_Bool);
 - (id);
@@ -33,18 +27,12 @@
 - (void *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *currentState;
-@property(readonly) NSString *nextState;
 @property(readonly) NSArray *states; // @synthesize states=_states;
-@property(readonly) NSString *type;
-@property(readonly) NSDictionary *userInfo;
-@property(readonly) NSArray *validDynamicPositions;
-@property(readonly) NSArray *validPositions;
 
 @end
 

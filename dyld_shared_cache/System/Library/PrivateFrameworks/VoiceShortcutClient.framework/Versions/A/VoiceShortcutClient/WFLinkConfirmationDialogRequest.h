@@ -6,47 +6,33 @@
 
 #import <VoiceShortcutClient/WFLinkSnippetDialogRequest.h>
 
-@class LNConfirmationSystemStyle, NSString, WFDialogButton, WFParameterKeyValuePair;
+@class NSString;
 
 @interface WFLinkConfirmationDialogRequest : WFLinkSnippetDialogRequest
 {
     _Bool _isDestructive;
-    _Bool _isContinueInAppRequest;
-    _Bool _requestConfirmation;
-    NSString *_title;
-    WFDialogButton *_yesButton;
-    WFDialogButton *_noButton;
-    WFParameterKeyValuePair *_parameterInfo;
-    LNConfirmationSystemStyle *_systemStyle;
 }
 
-+ (_Bool);
++ (_Bool)__objc_stubs;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)z;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)0<;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isContinueInAppRequest; // @synthesize isContinueInAppRequest=_isContinueInAppRequest;
-@property(readonly, nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;
-@property(readonly, copy, nonatomic) WFDialogButton *noButton; // @synthesize noButton=_noButton;
-@property(readonly, nonatomic) WFParameterKeyValuePair *parameterInfo; // @synthesize parameterInfo=_parameterInfo;
-@property(nonatomic) _Bool requestConfirmation; // @synthesize requestConfirmation=_requestConfirmation;
-@property(readonly, nonatomic) LNConfirmationSystemStyle *systemStyle; // @synthesize systemStyle=_systemStyle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) WFDialogButton *yesButton; // @synthesize yesButton=_yesButton;
 
 @end
 

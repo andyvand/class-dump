@@ -10,7 +10,7 @@
 
 + (void);
 + (void);
-+ (void);
++ (void)"NSTextCheckingResult"8Q16^B24;
 
 @end
 

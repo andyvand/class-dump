@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBGradient;
+@class NSString;
 
 @interface UIKBEdgeEffect
 {
     NSString *_colorName;
-    unsigned long long _edges;
-    double _weight;
-    UIKBGradient *_gradient;
-    double _opacity;
-    struct UIEdgeInsets _insets;
 }
 
 + (id)Eù1[ð1Â0@ù
 × ;
-+ (id)amp;
++ (id)scrollTimestamp;
 - (_Bool);
 - (id);
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)Connection: /* Error: Ran out of types for this method. */;
-- (void)ssalHandler:(id)arg1;
-- (struct UIEdgeInsets)ferredHeightForTraitCollection: /* Error: Ran out of types for this method. */;
-- (_Bool)arButtonSystemItem:(id)arg1 menu: /* Error: Ran out of types for this method. */;
-- (id)teSpace: /* Error: Ran out of types for this method. */;
-- (void)Entry;
-- (double)ertySource;
+- (_Bool)stronglyRetainForConnection: /* Error: Ran out of types for this method. */;
+- (void)setDismissalHandler:(id)arg1;
+- (struct UIEdgeInsets)preferredHeightForTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBarButtonSystemItem:(id)arg1 menu: /* Error: Ran out of types for this method. */;
+- (id)convertRect:toCoordinateSpace: /* Error: Ran out of types for this method. */;
+- (void)_timeEntry;
+- (double)_orderedPropertySource;
 - (id)@"_UIFocusMapRect",R,N,G_searchArea,V_searchArea;
-- (id)arTransitionAnimator;
+- (id)_UITabSidebarTransitionAnimator;
 - (void)ion; configuration = %@;
 - (double)than 2 touches that are not ended or cancelled, so it cannot be used to start a drag;
 - (void)moving to foreground:(double)arg1 %@;
@@ -42,21 +37,7 @@
 - (void)p>g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long edges; // @synthesize edges=_edges;
-@property(retain, nonatomic) UIKBGradient *gradient; // @synthesize gradient=_gradient;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;
-@property(readonly, nonatomic) _Bool isValid;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) _Bool renderUnder;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesRGBColors;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

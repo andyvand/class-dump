@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSSheetManager, UIResponder, UISheetPresentationController;
+@class UINSSheetManager;
 
 __attribute__((visibility("hidden")))
 @interface _UISheetHostManagerMac
 {
     _Bool _appkitDidPresent;
-    _Bool _appkitDidDismiss;
-    _Bool _uikitTransitionDidEnd;
-    _Bool _lastTransitionWasPresentation;
-    UINSSheetManager *_uinsSheetManager;
-    UIResponder *_originalParentFirstResponder;
-    UISheetPresentationController *_presentationController;
-    CDUnknownBlockType _presentationCompletionBlock;
-    CDUnknownBlockType _dismissCompletionBlock;
 }
 
+- (id);
+- (void);
+- (void);
+- (_Bool)R`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (CDUnknownBlockType)@"NSString"24;
+- (_Bool)requestNetworkDataAvailability;
+- (struct CGSize)%@ being moved to recently deleted.;
+- (void)'t support it. File a radar-------*/;
+- (_Bool)chived messages with CKError %@ completionBlockCalledWhenFetchFailed %@;
 - (CDUnknownBlockType);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (_Bool);
-- (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
@@ -50,26 +42,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)editorNotesWithStyle: /* Error: Ran out of types for this method. */;
 - (void)­13HÏqþ;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool appkitDidDismiss; // @synthesize appkitDidDismiss=_appkitDidDismiss;
-@property(nonatomic) _Bool appkitDidPresent; // @synthesize appkitDidPresent=_appkitDidPresent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissCompletionBlock; // @synthesize dismissCompletionBlock=_dismissCompletionBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool lastTransitionWasPresentation; // @synthesize lastTransitionWasPresentation=_lastTransitionWasPresentation;
-@property(nonatomic) __weak UIResponder *originalParentFirstResponder; // @synthesize originalParentFirstResponder=_originalParentFirstResponder;
-@property(copy, nonatomic) CDUnknownBlockType presentationCompletionBlock; // @synthesize presentationCompletionBlock=_presentationCompletionBlock;
-@property(nonatomic) __weak UISheetPresentationController *presentationController; // @synthesize presentationController=_presentationController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool uikitTransitionDidEnd; // @synthesize uikitTransitionDidEnd=_uikitTransitionDidEnd;
 @property(retain, nonatomic) UINSSheetManager *uinsSheetManager; // @synthesize uinsSheetManager=_uinsSheetManager;
 
 @end

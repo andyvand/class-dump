@@ -4,41 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, OSLaunchdJobExitStatus;
-@protocol OS_xpc_object;
-
 @interface OSLaunchdJobInfo
 {
     _Bool _removing;
-    int _pid;
-    int _lastSpawnError;
-    long long _state;
-    OSLaunchdJobExitStatus *_lastExitStatus;
-    NSObject<OS_xpc_object> *_additionalPropertiesDictionary;
-    NSUUID *_instance;
-    NSString *_program;
 }
 
-- (int);
-- (id);
-- (id);
+- (int)�H;
+- (id);
+- (id)Metadata_SecureObjectDetectionConfiguration;
 - (_Bool);
-- (id);
+- (id)Sb;
 - (long long);
 - (id);
 - (int);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *additionalPropertiesDictionary; // @synthesize additionalPropertiesDictionary=_additionalPropertiesDictionary;
-@property(readonly, nonatomic) NSUUID *instance; // @synthesize instance=_instance;
-@property(readonly, nonatomic) OSLaunchdJobExitStatus *lastExitStatus; // @synthesize lastExitStatus=_lastExitStatus;
-@property(readonly, nonatomic) int lastSpawnError; // @synthesize lastSpawnError=_lastSpawnError;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, copy, nonatomic) NSString *program; // @synthesize program=_program;
-@property(readonly, nonatomic) _Bool removing; // @synthesize removing=_removing;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

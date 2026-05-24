@@ -7,8 +7,6 @@
 @interface AppStoreKit.ShareSheetData
 {
     id url;
-    id shortUrl;
-    id metadata;
 }
 
 @end

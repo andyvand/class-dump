@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface BWMultiCamConfiguration
 {
     NSArray *_portTypesPrioritizedForCameraControls;
-    NSArray *_unsynchronizedActiveStreamsPortTypes;
-    NSArray *_synchronizedActiveStreamsGroupsPortTypes;
-    _Bool _stereoVideoCaptureEnabled;
 }
 
-+ (id);
++ (id);
 + (id)ocid:(id)arg1 %{public}d]:emit:1, fll:%{public}d, exp:%{public}d, d:%{public}d, mss:%{public}d, e:%{public}d (%{public}lld) /* Error: Ran out of types for this method. */;
 + (void)s;
 - (id);

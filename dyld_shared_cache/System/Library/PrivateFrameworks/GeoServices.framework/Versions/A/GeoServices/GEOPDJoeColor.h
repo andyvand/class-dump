@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDJoeColor
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_backgroundColor;
-    NSString *_primaryTextColor;
-    NSString *_quaternaryTextColor;
-    NSString *_secondaryTextColor;
-    NSString *_tertiaryTextColor;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _curated;
-    struct {
-        unsigned int has_curated:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_backgroundColor:1;
-        unsigned int read_primaryTextColor:1;
-        unsigned int read_quaternaryTextColor:1;
-        unsigned int read_secondaryTextColor:1;
-        unsigned int read_tertiaryTextColor:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -40,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)PDChildPlaceLookupByCategoryParameters";
-- (id)idance;
+- (id)_excludeGuidance;
 - (id)h3;
 - (void)Tã¥Ä @eâX·?;
 

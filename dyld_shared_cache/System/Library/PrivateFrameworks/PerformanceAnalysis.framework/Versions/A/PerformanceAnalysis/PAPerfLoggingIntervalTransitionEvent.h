@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface PAPerfLoggingIntervalTransitionEvent
 {
     double _transitionTimeInSec;
-    NSString *_startTransitionCauseIntervalType;
-    int _transitionType;
-    NSDictionary *_context;
 }
 
 + (id);
@@ -27,11 +22,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly) NSDictionary *context; // @synthesize context=_context;
 @property(readonly) double transitionTimeInSec; // @synthesize transitionTimeInSec=_transitionTimeInSec;
-@property(readonly) int transitionType; // @synthesize transitionType=_transitionType;
-@property(readonly) NSString *transitionTypeString;
-@property(readonly) NSString *transitioningIntervalType; // @synthesize transitioningIntervalType=_startTransitionCauseIntervalType;
 
 @end
 

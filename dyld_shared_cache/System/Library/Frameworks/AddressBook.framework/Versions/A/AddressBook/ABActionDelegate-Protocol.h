@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol ABActionDelegate
+- (NSString *);
 - (NSString *)× ;
 
 // Remaining properties

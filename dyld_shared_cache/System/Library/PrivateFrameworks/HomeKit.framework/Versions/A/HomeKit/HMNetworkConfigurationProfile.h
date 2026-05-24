@@ -6,7 +6,6 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class HMAccessoryNetworkAccessViolation, NSArray, NSString;
 @protocol HMNetworkConfigurationProfileDelegate;
 
 @interface HMNetworkConfigurationProfile : HMAccessoryProfile
@@ -14,7 +13,7 @@
     id <HMNetworkConfigurationProfileDelegate> _delegate;
 }
 
-+ (id)ndorMetadataProductDictionaryKey;
++ (id)kVendorMetadataProductDictionaryKey;
 - (long long);
 - (_Bool);
 - (void);
@@ -32,26 +31,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setMachName:(id)arg1;
 - (id);
-- (long long);
+- (long long);
 - (void)4O;
 
 // Remaining properties
-@property(readonly) HMAccessoryNetworkAccessViolation *accessViolation;
-@property(readonly) NSArray *allowedHosts;
-@property(readonly) long long credentialType;
-@property(readonly) long long currentProtectionMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMNetworkConfigurationProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isNetworkAccessRestricted) _Bool networkAccessRestricted;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsWiFiReconfiguration;
 @property(readonly) long long targetProtectionMode;
 
 @end

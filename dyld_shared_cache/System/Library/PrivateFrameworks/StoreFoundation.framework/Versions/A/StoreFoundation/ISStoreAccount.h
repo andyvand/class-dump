@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSTimer;
+@class NSTimer;
 
 @interface ISStoreAccount
 {
     NSTimer *_tokenInvalidTimer;
-    _Bool _isSignedIn;
-    _Bool _isManagedStudent;
-    _Bool _primary;
-    long long _touchIDState;
-    NSNumber *_dsID;
-    NSString *_identifier;
-    long long _kind;
-    NSString *_creditString;
-    NSString *_storeFront;
-    NSString *_password;
-    NSString *_token;
-    long long _URLBagType;
-    NSDate *_tokenIssuedDate;
-    NSTimer *_tokenExpirationTimer;
 }
 
 + (id);
@@ -54,7 +40,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -69,20 +55,6 @@
 - (id);
 
 // Remaining properties
-@property long long URLBagType; // @synthesize URLBagType=_URLBagType;
-@property(readonly, getter=isAuthenticated) _Bool authenticated;
-@property(copy) NSString *creditString; // @synthesize creditString=_creditString;
-@property(copy) NSNumber *dsID; // @synthesize dsID=_dsID;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isManagedStudent; // @synthesize isManagedStudent=_isManagedStudent;
-@property _Bool isSignedIn; // @synthesize isSignedIn=_isSignedIn;
-@property long long kind; // @synthesize kind=_kind;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(readonly, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
-@property(retain) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(copy) NSString *token; // @synthesize token=_token;
-@property(retain) NSTimer *tokenExpirationTimer; // @synthesize tokenExpirationTimer=_tokenExpirationTimer;
-@property(retain) NSDate *tokenIssuedDate; // @synthesize tokenIssuedDate=_tokenIssuedDate;
 @property long long touchIDState; // @synthesize touchIDState=_touchIDState;
 
 @end

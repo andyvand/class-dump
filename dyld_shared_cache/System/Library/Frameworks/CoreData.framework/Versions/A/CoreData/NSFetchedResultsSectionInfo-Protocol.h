@@ -7,11 +7,10 @@
 @class NSArray, NSString;
 
 @protocol NSFetchedResultsSectionInfo
+- (unsigned long long);
+- (NSArray *)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *indexTitle;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long numberOfObjects;
-@property(readonly, nonatomic) NSArray *objects;
 @end
 

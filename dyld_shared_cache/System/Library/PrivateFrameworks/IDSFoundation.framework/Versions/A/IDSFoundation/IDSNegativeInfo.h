@@ -7,17 +7,15 @@
 @interface IDSNegativeInfo
 {
     double _time;
-    long long _count;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
-- (long long)D:type: /* Error: Ran out of types for this method. */;
+- (long long)requestPathMTUEvaluationForLocalAddress:remoteAddress:sessionID:type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) double time; // @synthesize time=_time;
 
 @end

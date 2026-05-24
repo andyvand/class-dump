@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface PKAsyncOperationState
 {
     struct os_unfair_lock_s _actionLock;
-    NSMutableArray *_cancelActions;
-    struct os_unfair_lock_s _lock;
-    _Bool _canceled;
-    _Bool _invalidated;
 }
 
 - (void);
@@ -21,18 +15,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ityProofingDisplayMessageActionTypeUnknown;
+- (_Bool)PKIdentityProofingDisplayMessageActionTypeUnknown;
 - (void)messageServiceURL;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCanceled) _Bool canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

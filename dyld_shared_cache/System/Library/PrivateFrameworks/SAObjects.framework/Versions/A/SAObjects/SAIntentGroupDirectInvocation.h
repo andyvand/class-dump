@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAIntentGroupDirectInvocation : AceObject
 {
@@ -17,19 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *invocationIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

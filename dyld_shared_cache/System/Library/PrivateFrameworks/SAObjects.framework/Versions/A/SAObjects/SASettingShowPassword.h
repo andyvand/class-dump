@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASettingCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SASettingShowPassword : SASettingCommand
 {
@@ -28,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSString *appOrWebsiteName;
-@property(copy, nonatomic) NSNumber *shouldPromptForAuthentication;
-@property(copy, nonatomic) NSString *spokenAppOrWebsiteName;
 
 @end
 

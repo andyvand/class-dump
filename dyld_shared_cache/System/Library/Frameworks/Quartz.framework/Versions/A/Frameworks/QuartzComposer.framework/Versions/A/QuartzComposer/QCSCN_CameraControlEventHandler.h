@@ -25,12 +25,12 @@
 - (_Bool);
 - (struct _SCNVector3);
 - (_Bool);
-- (struct _SCNVector3);
+- (struct _SCNVector3)qa;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (struct _SCNVector3);
+- (struct _SCNVector3)@;
 - (_Bool);
 - (float);
 - (void);
@@ -49,27 +49,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)composer_order_section, genre_id, genre_order, genre_order_section, IFNULL(disc_number, 0), IFNULL(track_number, 0), IFNULL(episode_sort_id, 0), base_location_id, remote_location_id, exclude_from_shuffle, keep_local, keep_local_status, in_my_library, is_compilation, date_added, IFNULL(show_composer, 0) FROM item;
 - (_Bool);
-- (_Bool)xtSetNextFrameTime;
+- (_Bool)C3DEngineContextSetNextFrameTime;
 - (void)th name "%@";
-- (double)butor17domAuthoring_toolE;
+- (double)N8domAsset14domContributor17domAuthoring_toolE;
 - (_Bool);
 
 // Remaining properties
-@property _Bool automaticCameraTarget;
-@property struct _SCNVector3 cameraTarget;
-@property _Bool enableInertia;
-@property double friction;
 @property _Bool gimbalLockMode;
-@property struct _SCNVector3 gimbalLockVector;
 
 @end
 

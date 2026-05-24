@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSData, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface CILocalLightMapPrepare : CIFilter
 {
     NSData *inputLightMap;
-    NSNumber *inputLightMapWidth;
-    NSNumber *inputLightMapHeight;
-    CIImage *inputGuideImage;
 }
 
 + (id);

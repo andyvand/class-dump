@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, IOGPUMetalResource, NSString;
-@protocol MTLDevice;
+@class IOGPUMetalResource, NSString;
 
 @interface IOGPUMetalHeap
 {
     IOGPUMetalResource *_resource;
-    IOGPUMetalDevice<MTLDevice> *_device;
-    unsigned long long _size;
-    struct MTLRangeAllocator _allocator;
-    struct _opaque_pthread_mutex_t _mutex;
-    long long _maxCompatiblePlacementSparsePageSize;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)Z;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -31,11 +25,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!@y?	;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)propertiesToExpand;
 - (void);
 - (id);
 - (id);
@@ -45,20 +39,7 @@
 - (unsigned long long)DynamicLibrary>"32@0:8@"<MTLLibrary>"16^@24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long cpuCacheMode; // @dynamic cpuCacheMode;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned long long hazardTrackingMode; // @dynamic hazardTrackingMode;
 @property(copy) NSString *label; // @dynamic label;
-@property(readonly) long long maxCompatiblePlacementSparsePageSize; // @synthesize maxCompatiblePlacementSparsePageSize=_maxCompatiblePlacementSparsePageSize;
-@property(readonly, nonatomic) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions; // @dynamic resourceOptions;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long storageMode; // @dynamic storageMode;
-@property(readonly) long long type; // @dynamic type;
-@property(readonly) unsigned long long unfilteredResourceOptions; // @dynamic unfilteredResourceOptions;
-@property(readonly) unsigned long long usedSize;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFContentItem;
+@class NSString;
 
 @interface WFContentItemChangeTransaction
 {
     NSString *_mode;
-    WFContentItem *_contentItem;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WFContentItem *contentItem; // @synthesize contentItem=_contentItem;
 @property(copy, nonatomic) NSString *mode; // @synthesize mode=_mode;
 
 @end

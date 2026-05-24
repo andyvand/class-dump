@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSWindow, PDFDocument;
+@class NSLayoutConstraint;
 
 @interface PDFEncryptionOptionsViewer
 {
     id _observerCookie;
-    struct NSDirectionalEdgeInsets _deferredContentEdgeInsets;
-    _Bool _haveDeferredContentEdgeInsets;
-    PDFDocument *_document;
-    unsigned long long _controlSize;
-    NSWindow *_windowForSheet;
-    CDUnknownBlockType _performEditBlock;
-    NSLayoutConstraint *_stackViewLeadingConstraint;
-    NSLayoutConstraint *_stackViewTrailingConstraint;
-    NSLayoutConstraint *_stackViewTopConstraint;
-    NSLayoutConstraint *_stackViewBottomConstraint;
-    NSImageView *_allowsPrintingIndicator;
-    NSImageView *_allowsCopyingIndicator;
-    NSImageView *_allowsDocumentChangesIndicator;
-    NSImageView *_allowsDocumentAssemblyIndicator;
-    NSImageView *_allowsCommentingIndicator;
-    NSImageView *_allowsContentAccessibilityIndicator;
-    NSImageView *_allowsFormFieldEntryIndicator;
-    NSTextField *_encryptionStatusText;
-    NSBox *_unlockAsOwnerDivider;
-    NSStackView *_unlockAsOwnerStackView;
-    NSButton *_unlockAsOwnerButton;
-    NSString *_ownerPassword;
 }
 
 + (void);
@@ -78,39 +56,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)Settings;
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)H;
 - (void);
-- (void);
+- (void)ons/A/QuartzCore;
 - (id);
 - (void)ae!Eùqä1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSImageView *allowsCommentingIndicator; // @synthesize allowsCommentingIndicator=_allowsCommentingIndicator;
-@property(retain) NSImageView *allowsContentAccessibilityIndicator; // @synthesize allowsContentAccessibilityIndicator=_allowsContentAccessibilityIndicator;
-@property(retain) NSImageView *allowsCopyingIndicator; // @synthesize allowsCopyingIndicator=_allowsCopyingIndicator;
-@property(retain) NSImageView *allowsDocumentAssemblyIndicator; // @synthesize allowsDocumentAssemblyIndicator=_allowsDocumentAssemblyIndicator;
-@property(retain) NSImageView *allowsDocumentChangesIndicator; // @synthesize allowsDocumentChangesIndicator=_allowsDocumentChangesIndicator;
-@property(retain) NSImageView *allowsFormFieldEntryIndicator; // @synthesize allowsFormFieldEntryIndicator=_allowsFormFieldEntryIndicator;
-@property(retain) NSImageView *allowsPrintingIndicator; // @synthesize allowsPrintingIndicator=_allowsPrintingIndicator;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentEdgeInsets;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(nonatomic) __weak PDFDocument *document; // @synthesize document=_document;
-@property(retain) NSTextField *encryptionStatusText; // @synthesize encryptionStatusText=_encryptionStatusText;
-@property(copy) NSString *ownerPassword; // @synthesize ownerPassword=_ownerPassword;
-@property(copy) CDUnknownBlockType performEditBlock; // @synthesize performEditBlock=_performEditBlock;
-@property(retain) NSLayoutConstraint *stackViewBottomConstraint; // @synthesize stackViewBottomConstraint=_stackViewBottomConstraint;
 @property(retain) NSLayoutConstraint *stackViewLeadingConstraint; // @synthesize stackViewLeadingConstraint=_stackViewLeadingConstraint;
-@property(retain) NSLayoutConstraint *stackViewTopConstraint; // @synthesize stackViewTopConstraint=_stackViewTopConstraint;
-@property(retain) NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
-@property(retain) NSButton *unlockAsOwnerButton; // @synthesize unlockAsOwnerButton=_unlockAsOwnerButton;
-@property(retain) NSBox *unlockAsOwnerDivider; // @synthesize unlockAsOwnerDivider=_unlockAsOwnerDivider;
-@property(retain) NSStackView *unlockAsOwnerStackView; // @synthesize unlockAsOwnerStackView=_unlockAsOwnerStackView;
-@property __weak NSWindow *windowForSheet; // @synthesize windowForSheet=_windowForSheet;
 
 @end
 

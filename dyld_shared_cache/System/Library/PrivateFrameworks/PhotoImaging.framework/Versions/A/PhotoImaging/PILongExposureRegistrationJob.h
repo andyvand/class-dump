@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, VNImageHomographicAlignmentObservation;
+@class CIImage;
 
 @interface PILongExposureRegistrationJob
 {
     CIImage *_stillImage;
-    VNImageHomographicAlignmentObservation *_observation;
-    CDStruct_996ac03c _guideExtent;
 }
 
 - (id);
 - (void);
 - (id);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,14 +25,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)filterEdgeIdentifiersForPropertyName:(id)arg1 rangeValue1:rangeValue2:comparator:edgeIdentifiers:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)setHeadroomInfillQualified: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDStruct_996ac03c guideExtent; // @synthesize guideExtent=_guideExtent;
-@property(retain, nonatomic) VNImageHomographicAlignmentObservation *observation; // @synthesize observation=_observation;
-@property(retain, nonatomic) CIImage *stillImage; // @synthesize stillImage=_stillImage;
+@property(nonatomic) CDStruct_0973877e guideExtent; // @synthesize guideExtent=_guideExtent;
 
 @end
 

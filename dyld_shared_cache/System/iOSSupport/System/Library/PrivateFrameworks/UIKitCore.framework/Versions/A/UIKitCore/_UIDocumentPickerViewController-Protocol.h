@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
+@class NSArray, UIColor, _UIDocumentPickerNSURLWrapper;
 
 @protocol _UIDocumentPickerViewController
+- (void)0:8@16C24^@28 /* Error: Ran out of types for this method. */;
+- (void)abilities:(_UIDocumentPickerNSURLWrapper *)arg1 maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)subCategory;
+- (void)setRequiresProtectionClass:(NSArray *)arg1;
+- (void)replicatedFallbackHistory;
+- (void)fetchIncomingPendingMessagesFromHandlesIDs:(void (^)(struct CGSize))arg1;
+- (void)IMDXPCEventStreamHandler;
 - (void)tIfNeeded:(UIColor *)arg1 %d;
 @end
 

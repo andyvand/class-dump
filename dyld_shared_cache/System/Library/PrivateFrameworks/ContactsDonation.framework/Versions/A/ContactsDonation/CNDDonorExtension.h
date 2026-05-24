@@ -5,26 +5,23 @@
 //
 
 @class NSExtension;
-@protocol CNDonationExtensionLogger;
 
 @interface CNDDonorExtension
 {
     NSExtension *_extension;
-    id <CNDonationExtensionLogger> _logger;
 }
 
-- (void);
-- (void);
+- (void)T#,R;
+- (void)ICRemoteCameraDeviceProtocol;
+- (id)ICCameraFile;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)_initWithData:error: /* Error: Ran out of types for this method. */;
+- (id)/lib/libc++.1.dylib;
 
 // Remaining properties
 @property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) id <CNDonationExtensionLogger> logger; // @synthesize logger=_logger;
 
 @end
 

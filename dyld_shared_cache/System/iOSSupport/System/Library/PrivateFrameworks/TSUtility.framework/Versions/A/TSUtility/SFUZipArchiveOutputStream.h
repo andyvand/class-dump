@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, SFUCryptoKey, SFUMoveableFileOutputStream, SFUZipFreeSpaceEntry, SFUZipOutputEntry;
-@protocol SFUOutputStream;
+@class SFUMoveableFileOutputStream;
 
 @interface SFUZipArchiveOutputStream
 {
     SFUMoveableFileOutputStream *mOutputStream;
-    SFUCryptoKey *mCryptoKey;
-    NSData *mPassphraseHint;
-    NSData *mEncryptedDocumentUuid;
-    NSMutableArray *mEntries;
-    SFUZipOutputEntry *mCurrentEntry;
-    SFUZipOutputEntry *mLastEntryInFile;
-    id <SFUOutputStream> mEntryOutputStream;
-    char *mBuffer;
-    NSMutableArray *mFreeList;
-    SFUZipFreeSpaceEntry *mCurrentFreeSpace;
-    unsigned long long mFreeBytes;
 }
 
 + (unsigned long long);
@@ -36,13 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -53,13 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

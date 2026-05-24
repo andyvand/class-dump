@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPassEntitlementsComposerEntryNode.h>
 
-@class PKDisplayablePassEntitlement, PKPassSharedEntitlement;
+@class PKDisplayablePassEntitlement;
 
 @interface PKPassEntitlementsComposerEntitlementEntryNode : PKPassEntitlementsComposerEntryNode
 {
     PKDisplayablePassEntitlement *_displayableEntitlement;
-    PKPassSharedEntitlement *_sharedEntitlement;
 }
 
 - (id);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKDisplayablePassEntitlement *displayableEntitlement; // @synthesize displayableEntitlement=_displayableEntitlement;
-@property(retain, nonatomic) PKPassSharedEntitlement *sharedEntitlement; // @synthesize sharedEntitlement=_sharedEntitlement;
 
 @end
 

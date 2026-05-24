@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAppColor, _SFPBCalendarColor, _SFPBColor, _SFPBGradientColor, _SFPBGraphicalFloat, _SFPBImageDerivedColor, _SFPBWeatherColor;
+@class NSData, _SFPBCalendarColor, _SFPBGradientColor, _SFPBGraphicalFloat;
 
 @protocol _SFPBColor
+- (void);
+- (_SFPBGradientColor *)/;
+- (_SFPBGraphicalFloat *)favoritePlaylistWithPersistentID:globalID:time:completionHandler: /* Error: Ran out of types for this method. */;
+- (_SFPBGraphicalFloat *)setDisplayText: /* Error: Ran out of types for this method. */;
+- (NSData *)PHAssetPhotoIrisProperties;
 - (_SFPBCalendarColor *)SecondaryHeaderEmphasizedCardSection;
-- (_SFPBGraphicalFloat *)finition;
+- (_SFPBGraphicalFloat *)_SFPBRFTableSpacerColumnDefinition;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBGraphicalFloat *alphaComponent;
-@property(retain, nonatomic) _SFPBAppColor *appColor;
-@property(retain, nonatomic) _SFPBGraphicalFloat *blueComponent;
-@property(retain, nonatomic) _SFPBCalendarColor *calendarColor;
-@property(nonatomic) int colorTintStyle;
-@property(retain, nonatomic) _SFPBColor *darkModeColor;
-@property(retain, nonatomic) _SFPBGradientColor *gradientColor;
-@property(retain, nonatomic) _SFPBGraphicalFloat *greenComponent;
-@property(retain, nonatomic) _SFPBImageDerivedColor *imageDerivedColor;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBGraphicalFloat *redComponent;
-@property(retain, nonatomic) _SFPBWeatherColor *weatherColor;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

@@ -14,13 +14,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)loadParsedFactorPackWithId:(id)arg1 namespaceName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)LostEvents;
 - (void);
 - (void)E:(id)arg1 unexpected exec event for %{public}@ after %f seconds - hoping it is a delayed xpcproxy exec notification;
 

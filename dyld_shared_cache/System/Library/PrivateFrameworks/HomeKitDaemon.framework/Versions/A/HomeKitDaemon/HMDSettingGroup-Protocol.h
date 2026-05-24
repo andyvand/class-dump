@@ -7,11 +7,10 @@
 @class NSArray, NSString;
 
 @protocol HMDSettingGroup
-- (NSArray *)MonitorRetryTimerMaximumTimeInterval;
+- (NSString *);
+- (NSArray *)remoteDeviceMonitorRetryTimerMaximumTimeInterval;
 
 // Remaining properties
-@property(readonly, copy) NSArray *groups;
-@property(readonly, copy) NSString *keyPath;
 @property(readonly, copy) NSArray *settings;
 @end
 

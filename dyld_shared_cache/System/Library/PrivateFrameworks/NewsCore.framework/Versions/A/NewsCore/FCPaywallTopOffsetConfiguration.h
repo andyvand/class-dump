@@ -7,9 +7,6 @@
 @interface FCPaywallTopOffsetConfiguration
 {
     double _compactPortraitTopOffsetRatio;
-    double _compactLandscapeTopOffsetRatio;
-    double _regularPortraitTopOffsetRatio;
-    double _regularLandscapeTopOffsetRatio;
 }
 
 - (id);
@@ -21,10 +18,7 @@
 - (id)H$uÄÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double compactLandscapeTopOffsetRatio; // @synthesize compactLandscapeTopOffsetRatio=_compactLandscapeTopOffsetRatio;
 @property(readonly, nonatomic) double compactPortraitTopOffsetRatio; // @synthesize compactPortraitTopOffsetRatio=_compactPortraitTopOffsetRatio;
-@property(readonly, nonatomic) double regularLandscapeTopOffsetRatio; // @synthesize regularLandscapeTopOffsetRatio=_regularLandscapeTopOffsetRatio;
-@property(readonly, nonatomic) double regularPortraitTopOffsetRatio; // @synthesize regularPortraitTopOffsetRatio=_regularPortraitTopOffsetRatio;
 
 @end
 

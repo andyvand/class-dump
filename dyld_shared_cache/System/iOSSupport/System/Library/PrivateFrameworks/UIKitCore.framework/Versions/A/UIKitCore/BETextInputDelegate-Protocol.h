@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol BETextInput;
+
 @protocol BETextInputDelegate
+- (_Bool){;
+- (void);
+- (void)persistenceContainer:(id <BETextInput>)arg1 %@;
 @end
 

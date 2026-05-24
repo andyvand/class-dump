@@ -7,8 +7,6 @@
 @interface CalendarUIKit.TimeZoneDataModel
 {
     id _filteredResult;
-    id _allData;
-    id _$observationRegistrar;
 }
 
 @end

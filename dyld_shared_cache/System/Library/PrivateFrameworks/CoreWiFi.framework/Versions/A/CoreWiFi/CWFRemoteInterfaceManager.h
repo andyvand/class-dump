@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFInterface, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CWFInterface;
 
 @interface CWFRemoteInterfaceManager
 {
     CWFInterface *_interface;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    NSObject<OS_dispatch_source> *_interfaceDeactivationTimer;
-    unsigned long long _requestsInProgress;
 }
 
 + (id);
@@ -24,12 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void)ô$ð!ôAù±(°1Â0@ù
@@ -39,9 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CWFInterface *interface; // @synthesize interface=_interface;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *interfaceDeactivationTimer; // @synthesize interfaceDeactivationTimer=_interfaceDeactivationTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *requestQueue; // @synthesize requestQueue=_requestQueue;
-@property(nonatomic) unsigned long long requestsInProgress; // @synthesize requestsInProgress=_requestsInProgress;
 
 @end
 

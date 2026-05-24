@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PKInkFunction
 {
     unsigned long long _inkProperty;
-    unsigned long long _inkInput;
-    unsigned long long _inputMask;
-    unsigned long long _deviceMask;
-    unsigned long long _math;
-    NSMutableArray *_inputPoints;
-    NSMutableArray *_minOutputPoints;
-    NSMutableArray *_maxOutputPoints;
-    NSMutableArray *_outputPoints;
-    unsigned long long _functionType;
-    NSMutableArray *_controlPoints;
-    NSMutableArray *_maxInputPoints;
 }
 
 - (double);
@@ -27,7 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)
+;
 - (void);
 - (id);
 - (id);
@@ -53,18 +41,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *controlPoints; // @synthesize controlPoints=_controlPoints;
-@property(nonatomic) unsigned long long deviceMask; // @synthesize deviceMask=_deviceMask;
-@property(nonatomic) unsigned long long functionType; // @synthesize functionType=_functionType;
-@property(nonatomic) unsigned long long inkInput; // @synthesize inkInput=_inkInput;
 @property(nonatomic) unsigned long long inkProperty; // @synthesize inkProperty=_inkProperty;
-@property(nonatomic) unsigned long long inputMask; // @synthesize inputMask=_inputMask;
-@property(retain, nonatomic) NSMutableArray *inputPoints; // @synthesize inputPoints=_inputPoints;
-@property(nonatomic) unsigned long long math; // @synthesize math=_math;
-@property(retain, nonatomic) NSMutableArray *maxInputPoints; // @synthesize maxInputPoints=_maxInputPoints;
-@property(retain, nonatomic) NSMutableArray *maxOutputPoints; // @synthesize maxOutputPoints=_maxOutputPoints;
-@property(retain, nonatomic) NSMutableArray *minOutputPoints; // @synthesize minOutputPoints=_minOutputPoints;
-@property(retain, nonatomic) NSMutableArray *outputPoints; // @synthesize outputPoints=_outputPoints;
 
 @end
 

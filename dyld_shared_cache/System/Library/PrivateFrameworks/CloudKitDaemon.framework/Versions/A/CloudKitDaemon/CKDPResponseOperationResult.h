@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPResponseOperationResultError;
-
 @interface CKDPResponseOperationResult
 {
     int _code;
-    CKDPResponseOperationResultError *_error;
-    CDStruct_9ab06576 _has;
 }
 
-- (id);
+- (id)core_StreetAddress;
 - (void);
 - (int);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)AE [%{ptr}] %s[0x%04X] Flushing audio engine
+;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)+;
 - (id);
-- (void);
+- (void)c;
 - (id);
 - (id);
-- (int)asReferenceValue;
+- (int)hasReferenceValue;
 - (void);
 - (void)-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$;
 - (_Bool)cipant %@. Bailing.;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(retain, nonatomic) CKDPResponseOperationResultError *error; // @synthesize error=_error;
 @property(nonatomic) _Bool hasCode;
-@property(readonly, nonatomic) _Bool hasError;
 
 @end
 

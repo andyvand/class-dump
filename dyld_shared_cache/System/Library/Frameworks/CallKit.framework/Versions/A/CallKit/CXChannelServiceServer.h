@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceConnectionListener, CXChannelServiceDefinition, CXTransactionGroup, CXTransactionManager, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol CXChannelServiceServerDelegate, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CXChannelServiceServer
 {
     struct os_unfair_lock_s _accessorLock;
-    id <CXChannelServiceServerDelegate> _delegate;
-    BSServiceConnection *_connection;
-    CXChannelServiceDefinition *_definition;
-    NSMutableDictionary *_identifierToClient;
-    BSServiceConnectionListener *_listener;
-    NSObject<OS_dispatch_queue> *_queue;
-    CXTransactionManager *_transactionManager;
-    CXTransactionGroup *_uncommittedTransactionGroup;
 }
 
 - (void);
@@ -28,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h error:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (struct os_unfair_lock_s);
@@ -42,38 +31,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)pecialSeekBackwardCommand;
+- (id)ching to command handlers [was pending dispatch];
+- (void)x;
 - (id);
 - (void);
+- (void)16Q24;
+- (id);
+- (id);
+- (id)setWithPin: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)veDate;
+- (void)leaveDate;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, nonatomic) NSArray *clients;
-@property(readonly, nonatomic) BSServiceConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) CXChannelServiceDefinition *definition; // @synthesize definition=_definition;
-@property(nonatomic) __weak id <CXChannelServiceServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *identifierToClient; // @synthesize identifierToClient=_identifierToClient;
-@property(readonly, nonatomic) BSServiceConnectionListener *listener; // @synthesize listener=_listener;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CXTransactionManager *transactionManager; // @synthesize transactionManager=_transactionManager;
-@property(retain, nonatomic) CXTransactionGroup *uncommittedTransactionGroup; // @synthesize uncommittedTransactionGroup=_uncommittedTransactionGroup;
 
 @end
 

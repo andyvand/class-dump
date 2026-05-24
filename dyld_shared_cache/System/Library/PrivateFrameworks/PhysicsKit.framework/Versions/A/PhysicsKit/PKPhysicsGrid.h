@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKQuadTree;
-
 @interface PKPhysicsGrid
 {
     shared_ptr_c9c6a83f grid;
-    PKQuadTree *quadTree;
 }
 
 + (id);
@@ -18,18 +15,16 @@
 - (void);
 - (id);
 - (id);
-- (shared_ptr_2aaf3a07);
+- (shared_ptr_05ccfe2f);
 - (_Bool);
 - (unsigned char);
 - (shared_ptr_c9c6a83f);
 - (int);
-- (id);
+- (id))*[;
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) shared_ptr_c9c6a83f gridPtr;
-@property(readonly, nonatomic) int height;
 @property(readonly, nonatomic) int width;
 
 @end

@@ -6,12 +6,9 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSString;
-
 @interface RTMotionActivityManagerNotificationVehicleConnected : RTNotification
 {
     unsigned long long _vehicleConnectedState;
-    NSString *_deviceId;
 }
 
 - (unsigned long long);
@@ -20,7 +17,6 @@
 - (void)side and use last point, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
 @property(readonly, nonatomic) unsigned long long vehicleConnectedState; // @synthesize vehicleConnectedState=_vehicleConnectedState;
 
 @end

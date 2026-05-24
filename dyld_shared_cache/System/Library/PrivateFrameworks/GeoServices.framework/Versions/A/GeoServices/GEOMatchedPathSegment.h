@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOMapFeatureRoad;
+@class GEOComposedRoute;
 
 @interface GEOMatchedPathSegment
 {
     GEOComposedRoute *_route;
-    GEOMapFeatureRoad *_road;
-    struct vector<std::pair<GEOLocationCoordinate3D, geo::PolylineCoordinate>, std::allocator<std::pair<GEOLocationCoordinate3D, geo::PolylineCoordinate>>> _coordinates;
-    GEOPolylineCoordinateRange_1706676a _roadRange;
-    _Bool _isPartialStart;
-    _Bool _isPartialEnd;
-    _Bool _isDivergentSegment;
-    _Bool _isFailedSegment;
 }
 
 - (id);
-- (struct PolylineCoordinate);
+- (struct PolylineCoordinate)H;
 - (CDStruct_39925896);
 - (void);
 - (struct PolylineCoordinate);
@@ -27,7 +20,7 @@
 - (id);
 - (CDStruct_39925896);
 - (CDStruct_39925896);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -36,30 +29,18 @@
 - (CDStruct_39925896);
 - (struct PolylineCoordinate);
 - (pair_cb14b7b7);
-- (_Bool);
+- (_Bool)sharedInstanceForAddressBook;
 - (unsigned long long);
 - (id);
+- (id)teXPC connection get failed;
 - (id);
-- (id);
-- (struct GEOPolylineCoordinateRange);
+- (struct GEOPolylineCoordinateRange)URLHandler:setRegionWithCenter:altitude: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)h2;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_39925896 endLocationCoordinate;
-@property(readonly, nonatomic) struct PolylineCoordinate endRouteCoordinate;
 @property(nonatomic) _Bool isDivergentSegment; // @synthesize isDivergentSegment=_isDivergentSegment;
-@property(readonly, nonatomic) _Bool isFailedSegment; // @synthesize isFailedSegment=_isFailedSegment;
-@property(readonly, nonatomic) _Bool isPartialEnd; // @synthesize isPartialEnd=_isPartialEnd;
-@property(readonly, nonatomic) _Bool isPartialStart; // @synthesize isPartialStart=_isPartialStart;
-@property(readonly, nonatomic) unsigned long long pointCount;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_3ad5eabb range;
-@property(readonly, nonatomic) GEOMapFeatureRoad *road; // @synthesize road=_road;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_3ad5eabb roadRange; // @synthesize roadRange=_roadRange;
-@property(readonly, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(readonly, nonatomic) CDStruct_39925896 startLocationCoordinate;
-@property(readonly, nonatomic) struct PolylineCoordinate startRouteCoordinate;
 
 @end
 

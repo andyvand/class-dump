@@ -4,53 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, _NSServiceEntry;
-
 @interface _NSServiceFilter
 {
     unsigned long long desiredFilterMask;
-    unsigned int wordLimit;
-    unsigned int characterLimit;
-    _NSServiceEntry *entry;
-    id bundleIdentifier;
-    id textScript;
-    id textLanguage;
-    NSArray *linkSchemes;
-    NSArray *nonstandardContentTypes;
-    NSSet *menuLocations;
-    struct {
-        unsigned int contentTypeWebURL:1;
-        unsigned int contentTypeAnyURL:1;
-        unsigned int contentTypeDate:1;
-        unsigned int contentTypeAddress:1;
-        unsigned int contentTypeFilePath:1;
-        unsigned int contentTypeRadar:1;
-        unsigned int contentTypeEmail:1;
-        unsigned int contentTypePhoneNumber:1;
-        unsigned int contentTypeTransitInformation:1;
-        unsigned int requiresCJKInputSource:1;
-        unsigned int requiresAnyCharacterBeHalfWidth:1;
-        unsigned int requiresAnyCharacterBeFullWidth:1;
-        unsigned int requiresNonIdentityTraditionalToSimpleConversion:1;
-        unsigned int requiresNonIdentitySimpleToTraditionalConversion:1;
-        unsigned int disqualified:1;
-        unsigned int sense:1;
-        unsigned int reserved:16;
-    } flags;
 }
 
-+ (_Bool);
++ (_Bool)llowsAnyHTTPSCertificate:forHost: /* Error: Ran out of types for this method. */;
+- (_Bool)�;
 - (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (id);
+- (void)__objc_data;
+- (id)backgroundAVAssetDownloadTask:didReceiveDownloadToken: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)A;
 
 @end
 

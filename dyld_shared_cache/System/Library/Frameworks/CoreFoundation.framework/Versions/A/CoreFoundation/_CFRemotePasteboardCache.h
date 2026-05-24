@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     int _state;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);

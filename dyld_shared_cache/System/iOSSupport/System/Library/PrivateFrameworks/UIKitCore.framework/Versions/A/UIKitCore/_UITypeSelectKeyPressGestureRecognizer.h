@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UITypeSelectKeyPressGestureRecognizer : UIGestureRecognizer
 {
     NSMutableSet *_presses;
-    NSMutableString *_inputString;
-    NSString *_programmaticInput;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)interpretMessageItem:(id)arg1 inChat: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Â0@ù
 × ;

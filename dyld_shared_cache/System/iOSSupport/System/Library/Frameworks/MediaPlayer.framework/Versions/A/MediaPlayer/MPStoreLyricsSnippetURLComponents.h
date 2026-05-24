@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPStoreLyricsSnippetURLComponents
 {
     double _startTime;
-    double _endTime;
-    long long _songAdamID;
-    NSString *_language;
-    NSString *_countryCode;
-    NSString *_signature;
 }
 
 - (long long);
+- (id)4;
 - (id);
-- (id);
-- (void);
+- (void)currentTime;
 - (double);
 - (double);
+- (id)D;
+- (id)_statusValue;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)orITLibRequestFromRequestIdentifiers:modelKind: /* Error: Ran out of types for this method. */;
+- (void)_allowedIdentifiersForITLibRequestFromRequestIdentifiers:modelKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) NSString *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) long long songAdamID; // @synthesize songAdamID=_songAdamID;
 @property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end

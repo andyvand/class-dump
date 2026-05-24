@@ -11,11 +11,10 @@
 @interface ECIMAPFlagChangeActionReplayer : ECLocalActionReplayer
 {
     id <ECIMAPServerInterface> serverInterface;
-    id <ECIMAPLocalActionReplayerDelegate> delegate;
 }
 
-- (void);
-- (id);
+- (void)or:(id)arg1 liveEdgeContentTagView should only be set once on an AVMobileChromelessControlsView.;
+- (id)n:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate; // @synthesize delegate;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface; // @synthesize serverInterface;
 
 @end
 

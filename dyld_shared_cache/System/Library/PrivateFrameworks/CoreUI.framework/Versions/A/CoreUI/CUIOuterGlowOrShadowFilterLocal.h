@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIOuterGlowOrShadowFilterLocal
 {
     CIImage *inputImage;
-    CIVector *inputOffset;
-    NSNumber *inputRange;
-    NSNumber *inputSize;
-    NSNumber *inputSpread;
-    CIColor *inputColor;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
+- (id)G;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -38,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputOffset; // @synthesize inputOffset;
-@property(retain, nonatomic) NSNumber *inputRange; // @synthesize inputRange;
-@property(retain, nonatomic) NSNumber *inputSize; // @synthesize inputSize;
-@property(retain, nonatomic) NSNumber *inputSpread; // @synthesize inputSpread;
 
 @end
 

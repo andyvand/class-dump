@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLDevice, MTLFunction;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface CIMetalConverter
 {
     id <MTLDevice> _device;
-    id <MTLFunction> _convertToTexture;
-    id <MTLFunction> _convertToBuffer;
 }
 
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);

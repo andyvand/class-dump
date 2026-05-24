@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UNUserNotificationCenter, WBSPasswordWarningTopFraudTargetsManager;
+@class UNUserNotificationCenter;
 
 @interface WBSPasswordBreachNotificationManager
 {
     UNUserNotificationCenter *_notificationCenter;
-    WBSPasswordWarningTopFraudTargetsManager *_topFraudTargetsManager;
 }
 
 + (_Bool);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)e;
 
 @end

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Workaround)
-- (void);
-- (void);
+- (void)}@] Invalid account type identifier. accountTypeIdentifier = %{public}@ error = %{public}@;
+- (void). accountStore = %{public}@ | defaultMediaType = %{public}@;
 @end
 

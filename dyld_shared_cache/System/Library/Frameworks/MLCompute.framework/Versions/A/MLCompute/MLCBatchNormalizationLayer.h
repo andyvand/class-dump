@@ -6,19 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCTensor, MLCTensorParameter;
-
 @interface MLCBatchNormalizationLayer : MLCLayer
 {
     float _varianceEpsilon;
-    float _momentum;
-    unsigned long long _featureChannelCount;
-    MLCTensor *_mean;
-    MLCTensor *_variance;
-    MLCTensor *_beta;
-    MLCTensor *_gamma;
-    MLCTensorParameter *_betaParameter;
-    MLCTensorParameter *_gammaParameter;
 }
 
 - (void);
@@ -26,8 +16,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)* ;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -40,19 +30,11 @@
 - (float);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)    !!!!""""####$$$$%%%%&&&&''''(((())))****++++,,,,----....////0000111122223333444455556666777788889999::::;;;;<<<<====>>>>???? /* Error: Ran out of types for this method. */;
+- (void)e.;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MLCTensor *beta; // @synthesize beta=_beta;
-@property(readonly, retain, nonatomic) MLCTensorParameter *betaParameter; // @synthesize betaParameter=_betaParameter;
 @property(readonly, nonatomic) unsigned long long featureChannelCount; // @synthesize featureChannelCount=_featureChannelCount;
-@property(readonly, retain, nonatomic) MLCTensor *gamma; // @synthesize gamma=_gamma;
-@property(readonly, retain, nonatomic) MLCTensorParameter *gammaParameter; // @synthesize gammaParameter=_gammaParameter;
-@property(readonly, retain, nonatomic) MLCTensor *mean; // @synthesize mean=_mean;
-@property(readonly, nonatomic) float momentum; // @synthesize momentum=_momentum;
-@property(readonly, retain, nonatomic) MLCTensor *variance; // @synthesize variance=_variance;
-@property(readonly, nonatomic) float varianceEpsilon; // @synthesize varianceEpsilon=_varianceEpsilon;
 
 @end
 

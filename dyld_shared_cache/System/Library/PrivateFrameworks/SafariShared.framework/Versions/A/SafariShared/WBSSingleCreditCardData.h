@@ -7,25 +7,21 @@
 @interface WBSSingleCreditCardData
 {
     _Bool _isVirtualCard;
-    id _value;
-    long long _type;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (_Bool);
+- (id)FilterBrowser;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isVirtualCard; // @synthesize isVirtualCard=_isVirtualCard;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end

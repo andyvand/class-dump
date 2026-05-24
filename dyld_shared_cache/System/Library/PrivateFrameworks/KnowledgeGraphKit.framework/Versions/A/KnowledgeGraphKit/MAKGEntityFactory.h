@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_TtC13ControlCenter19ControlCenterModule;
 
 // Remaining properties
 @property(readonly, nonatomic) MAGraphSpecification *specification; // @synthesize specification=_specification;

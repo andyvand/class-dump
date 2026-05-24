@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIImageView;
+@class UIImageView;
 
 @interface PKDrawingAdjustmentKnob
 {
     UIImageView *_knobView;
-    UIImage *_knobImage;
-    UIImage *_knobImageFlipped;
 }
 
 + (double);
-- (id);
+- (id);
 - (void);
 - (void)T;
 

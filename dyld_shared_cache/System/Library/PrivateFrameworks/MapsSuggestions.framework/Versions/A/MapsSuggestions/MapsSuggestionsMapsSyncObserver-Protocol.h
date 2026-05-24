@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsMapsSyncObserver
+- (void);
 @end
 

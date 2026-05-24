@@ -7,8 +7,6 @@
 @interface AppStoreKit.TopShelf
 {
     id style;
-    id promotionItem;
-    id items;
 }
 
 @end

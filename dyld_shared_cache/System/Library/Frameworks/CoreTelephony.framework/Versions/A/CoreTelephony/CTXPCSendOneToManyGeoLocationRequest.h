@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestinationList, CTLazuliMessageGeoLocationPush, CTLazuliMessageID;
+@class CTLazuliDestinationList;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendOneToManyGeoLocationRequest : CTXPCSubscriptionContextRequest
@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id)];
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)FBSceneUpdateContext;
 - (int);
-- (id)sallowedPolicies;
-- (id)ModelPreferencesSetValue;
+- (id)kCUPolicyKeyDisallowedPolicies;
+- (id)kSettingsModelPreferencesSetValue;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestinationList *destinationList;
-@property(readonly, nonatomic) CTLazuliMessageID *messageID;
-@property(readonly, nonatomic) CTLazuliMessageGeoLocationPush *push;
 
 @end
 

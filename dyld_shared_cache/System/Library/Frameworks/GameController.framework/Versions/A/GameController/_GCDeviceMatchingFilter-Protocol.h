@@ -5,5 +5,6 @@
 //
 
 @protocol _GCDeviceMatchingFilter
+- (_Bool);
 @end
 

@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
-
 @interface _CDXPCEventSubscriber
 {
     unsigned int _uid;
-    unsigned long long _token;
-    NSObject<OS_xpc_object> *_descriptor;
-    NSString *_streamName;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (unsigned int);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)variable_nonce_included_in_record_;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientIdentifier;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
 @property(readonly, nonatomic) unsigned long long token; // @synthesize token=_token;
-@property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end
 

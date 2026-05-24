@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNAutocompleteSupplementalGroup
 {
     NSString *_identifier;
-    NSString *_title;
-    NSArray *_groupMembers;
 }
 
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *groupMembers; // @synthesize groupMembers=_groupMembers;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

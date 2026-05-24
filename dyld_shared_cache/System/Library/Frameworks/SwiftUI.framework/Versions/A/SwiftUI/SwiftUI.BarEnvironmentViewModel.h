@@ -7,8 +7,6 @@
 @interface SwiftUI.BarEnvironmentViewModel
 {
     id _visibility;
-    id _colorScheme;
-    id _labelStyle;
 }
 
 @end

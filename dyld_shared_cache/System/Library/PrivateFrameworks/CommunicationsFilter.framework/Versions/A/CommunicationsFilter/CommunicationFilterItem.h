@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CommunicationFilterItem
 {
     struct __CFPhoneNumber *_phoneNumber;
-    NSString *_emailAddress;
 }
 
 - (id);
 - (_Bool);
+- (_Bool)8;
+- (id)D;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)G;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)alid value for %@ nor %@ keys, ignoring;
 - (struct __CFPhoneNumber *);
 - (id);
 - (id);
@@ -32,9 +29,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(readonly, nonatomic) struct __CFPhoneNumber *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly, nonatomic) NSString *unformattedID;
 
 @end
 

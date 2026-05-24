@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UIUserNotificationAction
 {
     _Bool _authenticationRequired;
-    _Bool _destructive;
-    NSString *_activationModeString;
-    NSString *_behaviorString;
-    NSString *_identifier;
-    NSString *_title;
-    unsigned long long _behavior;
-    NSDictionary *_parameters;
-    unsigned long long _activationMode;
 }
 
 + (_Bool)rInColumn:layout:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)isDeletingIncomingMessages;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)eduled. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)riteria do not allow enablement on attempt %d, will not enable, won't try again.;
 - (id);
 - (void);
 - (_Bool);
@@ -37,28 +29,20 @@
 - (id)qY°1Â0@ù
 × ;
 - (unsigned long long)or"b1"hasCustomizedTextAlignment"b1"hasCustomizedLineBreakMode"b1"hasCustomizedNumberOfLines"b1"hasCustomizedAdjustsFontSizeToFitWidth"b1"hasCustomizedMinimumScaleFactor"b1"hasCustomizedAllowsDefaultTighteningForTruncation"b1"hasCustomizedAdjustsFontForContentSizeCategory"b1};
-- (_Bool)nmentConstraint:(id)arg1;
-- (void)dden;
-- (void)eferenceCorner;
-- (void)withAttributes:(id)arg1 paragraphStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)setContentViewControllerContainerViewTopAlignmentConstraint:(id)arg1;
+- (void)isInputViewsHidden;
+- (void)_referenceCorner;
+- (void)_defaultAttributesForApplyingFormattingModification:(id)arg1 withAttributes:paragraphStyle: /* Error: Ran out of types for this method. */;
 - (id)viceSessionActivityProviding>",W,N,V_lastActivityProvider;
 - (void)n",R,N,V_settingsButton;
 - (id)xþDÿÿx;
 - (id)we're snapshotting then just ignore fence requests - we'll synchronize anyway so that'll have to be close enough;
-- (id)ketContainerModel;
+- (id)_UIHideScrollPocketContainerModel;
 - (void);
 - (void)|´ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activationMode; // @synthesize activationMode=_activationMode;
-@property(readonly, nonatomic) NSString *activationModeString; // @synthesize activationModeString=_activationModeString;
-@property(nonatomic, getter=isAuthenticationRequired) _Bool authenticationRequired; // @synthesize authenticationRequired=_authenticationRequired;
-@property(nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;
-@property(readonly, nonatomic) NSString *behaviorString; // @synthesize behaviorString=_behaviorString;
-@property(nonatomic, getter=isDestructive) _Bool destructive; // @synthesize destructive=_destructive;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

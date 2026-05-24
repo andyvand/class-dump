@@ -5,13 +5,10 @@
 //
 
 @class NSNumber;
-@protocol PXAudioCueSource;
 
 @protocol PXAppleMusicAssetProperties
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAudioCueSource> cueSource;
 @property(readonly, copy, nonatomic) NSNumber *loudnessMainPeak;
-@property(readonly, copy, nonatomic) NSNumber *loudnessMainValue;
 @end
 

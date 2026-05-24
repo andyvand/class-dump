@@ -5,5 +5,7 @@
 //
 
 @protocol SWNavigationManager
+- (_Bool);
+- (void)=;
 @end
 

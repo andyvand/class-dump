@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlacecardURL
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)tionIntent";
-- (id)rentLocationIndex:options: /* Error: Ran out of types for this method. */;
+- (id)_mapItemsFromDirectionsAction:hasCurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
 - (id)Â
 Ã
 tÃ

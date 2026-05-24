@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryServer, HMDAccessoryNetworkCredential, HMDAccessoryPairingEvent, HMDHome, NSUUID;
-@protocol MKFAccessory;
+@class HAPAccessoryServer;
 
 __attribute__((visibility("hidden")))
 @interface HMDNewPairedAccessoryServerInfo
 {
     HAPAccessoryServer *_server;
-    NSUUID *_primaryAccessoryUUID;
-    id <MKFAccessory> _hostAccessory;
-    long long _certificationStatus;
-    HMDAccessoryNetworkCredential *_networkCredential;
-    HMDAccessoryPairingEvent *_pairingEvent;
-    HMDHome *_home;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@0:8 /* Error: Ran out of types for this method. */;
+- (id)service:account:receivedGroupSessionParticipantUpdate: /* Error: Ran out of types for this method. */;
+- (id)ting connection retries;
 - (id);
 - (long long);
 - (id);
@@ -32,12 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)DEFGHIJKLMNOPQRSTUVWXYZ0123456789_.;
 
 // Remaining properties
-@property(readonly) long long certificationStatus; // @synthesize certificationStatus=_certificationStatus;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) id <MKFAccessory> hostAccessory; // @synthesize hostAccessory=_hostAccessory;
-@property(readonly) HMDAccessoryNetworkCredential *networkCredential; // @synthesize networkCredential=_networkCredential;
-@property(readonly) HMDAccessoryPairingEvent *pairingEvent; // @synthesize pairingEvent=_pairingEvent;
-@property(readonly) NSUUID *primaryAccessoryUUID; // @synthesize primaryAccessoryUUID=_primaryAccessoryUUID;
 @property(readonly) HAPAccessoryServer *server; // @synthesize server=_server;
 
 @end

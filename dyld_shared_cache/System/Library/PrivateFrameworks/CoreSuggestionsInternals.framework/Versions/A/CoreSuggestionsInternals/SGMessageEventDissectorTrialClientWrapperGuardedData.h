@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SGMessageEventDissectorTrialClientWrapperGuardedData
 {
     NSString *_trialEventExtractionAssetsPath;
-    NSString *_trialEventClassifierModelPath;
-    NSNumber *_trialEventClassifierThreshold;
-    NSNumber *_trialMessageProcessingLimit;
-    NSNumber *_trialRateLimitInterval;
 }
 
 - (void)ÄÈ;

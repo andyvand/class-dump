@@ -10,10 +10,6 @@
 @interface TRIDownloadOptions
 {
     _Bool _allowsCellularAccess;
-    _Bool _allowsBatteryUsage;
-    _Bool _boostPriority;
-    unsigned long long _discretionaryBehavior;
-    NSObject<OS_xpc_object> *_activity;
 }
 
 + (id);
@@ -23,16 +19,16 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)actionCompleted:(unsigned long long)arg1;
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)'t fetch moment uuids because input PHPhotoLibrary instance is nil;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_countUnigramMatchInRecipients;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -47,11 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(nonatomic) _Bool allowsBatteryUsage; // @synthesize allowsBatteryUsage=_allowsBatteryUsage;
-@property(nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(nonatomic) _Bool boostPriority; // @synthesize boostPriority=_boostPriority;
-@property(nonatomic) unsigned long long discretionaryBehavior; // @synthesize discretionaryBehavior=_discretionaryBehavior;
-@property(readonly, nonatomic) unsigned long long requiredCapability;
 
 @end
 

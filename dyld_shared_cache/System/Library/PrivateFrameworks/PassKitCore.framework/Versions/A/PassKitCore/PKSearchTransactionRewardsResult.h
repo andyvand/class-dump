@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKSearchTransactionRewardsResult
 {
     NSDecimalNumber *_rewardsValue;
-    unsigned long long _rewardsValueUnit;
 }
 
-+ (_Bool);
++ (_Bool)__objc_ivar;
 - (void);
 - (void);
 - (unsigned long long);
@@ -20,21 +19,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (void)TITLE;
+- (void)_peerRssi5G;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_FOUR_MONTHS_TITLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDecimalNumber *rewardsValue; // @synthesize rewardsValue=_rewardsValue;
-@property(nonatomic) unsigned long long rewardsValueUnit; // @synthesize rewardsValueUnit=_rewardsValueUnit;
-@property(readonly) Class superclass;
 
 @end
 

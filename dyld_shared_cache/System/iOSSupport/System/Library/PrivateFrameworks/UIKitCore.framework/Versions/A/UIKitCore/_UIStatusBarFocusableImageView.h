@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     UIColor *_focusedImageTintColor;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void)erViewBottomConstraint;
 - (void);

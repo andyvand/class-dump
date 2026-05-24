@@ -7,14 +7,13 @@
 @interface WidgetKit.ControlsConfigurationXPCContainer
 {
     id controls;
-    id tokens;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)staticFlag:(id)arg1 isDOTBiasChangePossible:isMounted:isZUPT:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

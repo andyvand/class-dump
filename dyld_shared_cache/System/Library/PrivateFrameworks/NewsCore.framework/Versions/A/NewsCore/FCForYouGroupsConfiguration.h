@@ -9,8 +9,6 @@
 @interface FCForYouGroupsConfiguration
 {
     NSString *_configuration;
-    double _weekendGreatStoriesYouMissedTimeRange;
-    NSDictionary *_groupConfigurationsByIdentifier;
 }
 
 + (id);
@@ -21,15 +19,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)h;
+- (id);
+- (id)%@ (saved exLTID);
 - (void);
-- (void)erLiveCoverageModifiedDate;
+- (void)publisherLiveCoverageModifiedDate;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *groupConfigurationsByIdentifier; // @synthesize groupConfigurationsByIdentifier=_groupConfigurationsByIdentifier;
-@property(readonly, nonatomic) double weekendGreatStoriesYouMissedTimeRange; // @synthesize weekendGreatStoriesYouMissedTimeRange=_weekendGreatStoriesYouMissedTimeRange;
 
 @end
 

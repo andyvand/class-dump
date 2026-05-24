@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVTaskManager, NSObject, NSString, NSXPCListener;
-@protocol CKVAdminServiceProvider, OS_dispatch_queue;
+@class NSObject, NSXPCListener;
+@protocol OS_dispatch_queue;
 
 @interface CKVDispatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCListener *_adminServiceListener;
-    NSObject<CKVAdminServiceProvider> *_adminServiceProvider;
-    CKVTaskManager *_taskManager;
-    NSXPCListener *_donateServiceListener;
 }
 
 + (id);
-- (void);
+- (void)stringValue;
 - (void);
 - (_Bool);
 - (void);
@@ -29,20 +25,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCListener *adminServiceListener; // @synthesize adminServiceListener=_adminServiceListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSXPCListener *donateServiceListener; // @synthesize donateServiceListener=_donateServiceListener;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

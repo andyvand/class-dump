@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPhysicsBody;
-
 @interface PKPhysicsJoint
 {
     _Bool _inUse;
-    _Bool _implicit;
-    struct b2Joint *_baseJoint;
-    PKPhysicsBody *_bodyA;
-    PKPhysicsBody *_bodyB;
 }
 
 
 // Remaining properties
 @property(nonatomic) struct b2Joint *_joint;
-@property(readonly, nonatomic) struct b2JointDef *_jointDef;
-@property(retain, nonatomic) PKPhysicsBody *bodyA; // @synthesize bodyA=_bodyA;
-@property(retain, nonatomic) PKPhysicsBody *bodyB; // @synthesize bodyB=_bodyB;
-@property(readonly, nonatomic) struct CGVector reactionForce;
-@property(readonly, nonatomic) double reactionTorque;
 @end
 

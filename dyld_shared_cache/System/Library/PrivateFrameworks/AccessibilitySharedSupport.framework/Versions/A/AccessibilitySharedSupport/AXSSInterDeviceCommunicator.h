@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSInterDeviceSecurityHelper, IDSService, MCNearbyServiceAdvertiser, MCNearbyServiceBrowser, MCPeerID, MCSession, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSTimer;
-@protocol AXSSInterDeviceActionReceiver, AXSSInterDeviceConnectionListener, AXSSInterDeviceHearingAidsMessagesObserver, AXSSInterDeviceSearchObserver;
+@class IDSService;
 
 @interface AXSSInterDeviceCommunicator
 {
     _Bool _excludeMultiPeerConnectivity;
-    id <AXSSInterDeviceConnectionListener> _connectionListener;
-    id <AXSSInterDeviceActionReceiver> _actionReceiver;
-    id <AXSSInterDeviceSearchObserver> _searchObserver;
-    id <AXSSInterDeviceHearingAidsMessagesObserver> _hearingAidsMessagesObserver;
-    IDSService *_service;
-    long long _state;
-    MCPeerID *_localPeerID;
-    MCSession *_session;
-    MCNearbyServiceBrowser *_browser;
-    MCNearbyServiceAdvertiser *_advertiser;
-    NSMutableArray *_availableDevices;
-    NSMutableDictionary *_deviceTypesByPeerID;
-    MCPeerID *_receiver;
-    MCPeerID *_forwarder;
-    unsigned long long _switchEventIndex;
-    NSTimer *_dummyPacketTimer;
-    unsigned long long _numberOfBurstPacketsRemaining;
-    AXSSInterDeviceSecurityHelper *_securityHelper;
 }
 
 - (unsigned long long);
@@ -41,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -57,7 +38,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -67,7 +48,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -86,10 +67,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -104,17 +85,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)NSError"24;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)v;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)g ICS recurrence until date:(id)arg1 untilDate=%@ remEndDate=%@);
 - (void);
 - (void);
 - (void);
@@ -122,39 +103,7 @@
 - (_Bool)ô;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXSSInterDeviceActionReceiver> actionReceiver; // @synthesize actionReceiver=_actionReceiver;
-@property(retain, nonatomic) MCNearbyServiceAdvertiser *advertiser; // @synthesize advertiser=_advertiser;
-@property(retain, nonatomic) NSMutableArray *availableDevices; // @synthesize availableDevices=_availableDevices;
-@property(retain, nonatomic) MCNearbyServiceBrowser *browser; // @synthesize browser=_browser;
-@property(readonly, nonatomic) _Bool canSearch;
-@property(nonatomic) __weak id <AXSSInterDeviceConnectionListener> connectionListener; // @synthesize connectionListener=_connectionListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *deviceTypesByPeerID; // @synthesize deviceTypesByPeerID=_deviceTypesByPeerID;
-@property(retain, nonatomic) NSTimer *dummyPacketTimer; // @synthesize dummyPacketTimer=_dummyPacketTimer;
-@property(nonatomic) _Bool excludeMultiPeerConnectivity; // @synthesize excludeMultiPeerConnectivity=_excludeMultiPeerConnectivity;
-@property(retain, nonatomic) MCPeerID *forwarder; // @synthesize forwarder=_forwarder;
-@property(readonly, nonatomic) _Bool hasPeers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AXSSInterDeviceHearingAidsMessagesObserver> hearingAidsMessagesObserver; // @synthesize hearingAidsMessagesObserver=_hearingAidsMessagesObserver;
-@property(readonly, nonatomic) _Bool isForwardingSwitchEvents;
-@property(readonly, nonatomic) _Bool isIdle;
-@property(readonly, nonatomic) _Bool isReceivingSwitchEvents;
-@property(readonly, nonatomic) _Bool isSearching;
-@property(readonly, nonatomic) MCPeerID *localPeerID; // @synthesize localPeerID=_localPeerID;
-@property(nonatomic) unsigned long long numberOfBurstPacketsRemaining; // @synthesize numberOfBurstPacketsRemaining=_numberOfBurstPacketsRemaining;
-@property(retain, nonatomic) MCPeerID *receiver; // @synthesize receiver=_receiver;
-@property(nonatomic) __weak id <AXSSInterDeviceSearchObserver> searchObserver; // @synthesize searchObserver=_searchObserver;
-@property(readonly, nonatomic) NSArray *searchResults;
-@property(retain, nonatomic) AXSSInterDeviceSecurityHelper *securityHelper; // @synthesize securityHelper=_securityHelper;
 @property(readonly, nonatomic) IDSService *service; // @synthesize service=_service;
-@property(retain, nonatomic) MCSession *session; // @synthesize session=_session;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long switchEventIndex; // @synthesize switchEventIndex=_switchEventIndex;
 
 @end
 

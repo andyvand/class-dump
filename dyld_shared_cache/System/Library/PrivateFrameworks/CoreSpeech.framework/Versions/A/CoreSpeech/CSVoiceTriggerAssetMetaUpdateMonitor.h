@@ -7,11 +7,9 @@
 @interface CSVoiceTriggerAssetMetaUpdateMonitor
 {
     int _notifyToken;
-    int _gibraltarMacNotifyToken;
-    int _darwinNotifyToken;
 }
 
-+ (id)dFeaturesAtEndpoint;
++ (id)_osdFeaturesAtEndpoint;
 - (void);
 - (id);
 - (void);

@@ -8,11 +8,15 @@
 
 @optional
 - (void);
+- (void)1;
+- (void)thLocalSubnetsOnly:(id)arg1 withLogClientIdentity:withParents:withParentSelectionPolicy:withPeerFilterRanges:withPeerListenRanges:withPeerLocalSubnetsOnly:withPort:withPublicRanges: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)library pin kind;
+- (void);
 - (void)APoint3D=ddd}{CGPoint=dd}{CGAffineTransform=dddddd}d}144{?=QQddq}272;
-- (void)ifierForInitialRequest:(id)arg1 fromDataSource: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 identifierForInitialRequest:fromDataSource: /* Error: Ran out of types for this method. */;
 - (void)utSwitcherView.top;
 - (void)24@?0@"UIKeyboardTaskExecutionContext"8@?<v@?@"UIKeyboardTaskExecutionContext">16;
-- (void);
 - (void);
 - (void)¼L\;
 - (void)»\;

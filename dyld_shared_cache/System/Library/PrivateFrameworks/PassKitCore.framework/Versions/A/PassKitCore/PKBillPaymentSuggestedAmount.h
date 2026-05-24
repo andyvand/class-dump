@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKBillPaymentSuggestedAmount
 {
     NSString *_title;
-    NSString *_message;
-    unsigned long long _category;
-    NSDecimalNumber *_amount;
-    long long _priority;
-    long long _merchantCategory;
 }
 
 + (id);
@@ -22,27 +17,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!@9_;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)hasElsewhereCount;
+- (unsigned long long)`;
 - (void);
 - (id)
 × ;
-- (void)msIdentifier:(unsigned long long)arg1;
-- (long long)ery;
+- (void)setTermsIdentifier:(unsigned long long)arg1;
+- (long long)_query;
 - (id)8É;
-- (void)Date;
+- (void)InterestMessageCooldownExpirationDate;
 - (long long)d¾×ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned long long category; // @synthesize category=_category;
-@property(nonatomic) long long merchantCategory; // @synthesize merchantCategory=_merchantCategory;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCodeServiceImplementation, CKContainer, NSString, NSURL;
+@class CKContainer;
 
 @interface CKCodeService
 {
     CKContainer *_container;
-    CKCodeServiceImplementation *_implementation;
 }
 
 - (id);
@@ -20,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id)ngesSet;
+- (id)_inFlightDatabaseChangesSet;
 - (void)C,N,V_machServiceName;
 - (void)ö;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak CKContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) CKCodeServiceImplementation *implementation; // @synthesize implementation=_implementation;
-@property(readonly, copy, nonatomic) NSURL *serviceInstanceURL;
-@property(readonly, copy, nonatomic) NSString *serviceName;
 
 @end
 

@@ -6,33 +6,11 @@
 
 #import <UXKit/UXBar.h>
 
-@class NSArray, NSImage, NSMutableArray, NSView, UXNavigationItem, _UXNavigationItemContainerView;
-@protocol UXNavigationBarDelegate;
+@class NSMutableArray;
 
 @interface UXNavigationBar : UXBar
 {
     _Bool _needsRecalculateWindowKeyViewLoop;
-    _Bool _recalculatingKeyViewLoop;
-    _Bool _translucent;
-    _Bool _recalculatingWindowKeyViewLoop;
-    _Bool _alternateTitleEnabled;
-    _Bool _detached;
-    id <UXNavigationBarDelegate> _delegate;
-    NSView *_titleCenteringTrackedView;
-    NSArray *_items;
-    NSImage *_backIndicatorImage;
-    NSView *_globalTrailingView;
-    double _globalTrailingViewWidthMultiplier;
-    NSMutableArray *_internalItems;
-    _UXNavigationItemContainerView *_topItemContainer;
-    long long _currentOperation;
-    UXNavigationItem *_transitioningItem;
-    NSView *_alternateTitleView;
-    NSView *_alternateCondensedTitleView;
-    double _leftInteritemSpacing;
-    double _rightInteritemSpacing;
-    double _centerYOffset;
-    struct NSEdgeInsets _edgeInsets;
 }
 
 - (id);
@@ -46,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void):(double)arg1 8{CGPoint=dd}16@"SXViewport"32;
 - (void);
 - (id);
 - (void);
@@ -85,7 +63,7 @@
 - (struct NSEdgeInsets);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -97,37 +75,16 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void)³;
 - (void);
 - (void);
 - (void)8@16@24;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *alternateCondensedTitleView; // @synthesize alternateCondensedTitleView=_alternateCondensedTitleView;
-@property(nonatomic) _Bool alternateTitleEnabled; // @synthesize alternateTitleEnabled=_alternateTitleEnabled;
-@property(retain, nonatomic) NSView *alternateTitleView; // @synthesize alternateTitleView=_alternateTitleView;
-@property(retain, nonatomic) NSImage *backIndicatorImage; // @synthesize backIndicatorImage=_backIndicatorImage;
-@property(readonly, nonatomic) UXNavigationItem *backItem;
-@property(nonatomic) double centerYOffset; // @synthesize centerYOffset=_centerYOffset;
-@property(nonatomic) long long currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(nonatomic) __weak id <UXNavigationBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isDetached) _Bool detached; // @synthesize detached=_detached;
-@property(nonatomic) struct NSEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(retain, nonatomic) NSView *globalTrailingView; // @synthesize globalTrailingView=_globalTrailingView;
-@property(nonatomic) double globalTrailingViewWidthMultiplier; // @synthesize globalTrailingViewWidthMultiplier=_globalTrailingViewWidthMultiplier;
 @property(retain, nonatomic) NSMutableArray *internalItems; // @synthesize internalItems=_internalItems;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) double leftInteritemSpacing; // @synthesize leftInteritemSpacing=_leftInteritemSpacing;
-@property(nonatomic) _Bool recalculatingWindowKeyViewLoop; // @synthesize recalculatingWindowKeyViewLoop=_recalculatingWindowKeyViewLoop;
-@property(nonatomic) double rightInteritemSpacing; // @synthesize rightInteritemSpacing=_rightInteritemSpacing;
-@property(nonatomic) __weak NSView *titleCenteringTrackedView; // @synthesize titleCenteringTrackedView=_titleCenteringTrackedView;
-@property(readonly, nonatomic) UXNavigationItem *topItem;
-@property(retain, nonatomic) _UXNavigationItemContainerView *topItemContainer; // @synthesize topItemContainer=_topItemContainer;
-@property(retain, nonatomic) UXNavigationItem *transitioningItem; // @synthesize transitioningItem=_transitioningItem;
-@property(nonatomic, getter=isTranslucent) _Bool translucent; // @synthesize translucent=_translucent;
 
 @end
 

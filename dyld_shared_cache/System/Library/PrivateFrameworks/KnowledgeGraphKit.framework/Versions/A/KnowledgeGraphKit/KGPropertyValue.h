@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol KGPropertyTypeProtocol;
-
 @interface KGPropertyValue
 {
 }
@@ -15,11 +13,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)}};
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dataType;
-@property(readonly, nonatomic) id <KGPropertyTypeProtocol> kgPropertyValue;
 
 @end
 

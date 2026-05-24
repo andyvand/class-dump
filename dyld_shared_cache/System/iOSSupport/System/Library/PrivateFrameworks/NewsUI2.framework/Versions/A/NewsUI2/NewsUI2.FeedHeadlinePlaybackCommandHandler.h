@@ -7,10 +7,6 @@
 @interface NewsUI2.FeedHeadlinePlaybackCommandHandler
 {
     id playbackConductor;
-    id readingHistory;
-    id commandCenter;
-    id audioPlaybackContext;
-    id navigator;
 }
 
 - (void);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface REMMembership
 {
     _Bool _isObsolete;
-    NSUUID *_memberIdentifier;
-    NSUUID *_groupIdentifier;
-    NSDate *_modifiedOn;
 }
 
 + (_Bool);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, nonatomic) _Bool isObsolete; // @synthesize isObsolete=_isObsolete;
 @property(readonly, nonatomic) NSUUID *memberIdentifier; // @synthesize memberIdentifier=_memberIdentifier;
-@property(readonly, nonatomic) NSDate *modifiedOn; // @synthesize modifiedOn=_modifiedOn;
 
 @end
 

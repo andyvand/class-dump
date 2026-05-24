@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, WBSWebExtensionData, WBSWebExtensionsController, WKWebExtensionAction, WKWebView;
+@class WBSWebExtensionData;
 
 @interface WBSWebExtensionToolbarItem
 {
     _Bool _enabled;
-    WBSWebExtensionsController *_extensionsController;
-    _Bool _showingExtensionPopup;
-    WBSWebExtensionData *_webExtension;
-    WKWebExtensionAction *_webKitAction;
-    WKWebView *_popupWebView;
-    NSString *_label;
-    NSImage *_image;
 }
 
 - (id);
+- (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool)	;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ueue;
+- (id)?;
+- (void)_appBundleValidationQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) WKWebView *popupWebView; // @synthesize popupWebView=_popupWebView;
-@property(readonly, nonatomic) _Bool showingExtensionPopup; // @synthesize showingExtensionPopup=_showingExtensionPopup;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak WBSWebExtensionData *webExtension; // @synthesize webExtension=_webExtension;
-@property(retain, nonatomic) WKWebExtensionAction *webKitAction; // @synthesize webKitAction=_webKitAction;
 
 @end
 

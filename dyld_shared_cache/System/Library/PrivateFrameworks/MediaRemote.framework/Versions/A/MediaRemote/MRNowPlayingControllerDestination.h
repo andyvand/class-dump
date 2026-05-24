@@ -11,24 +11,21 @@
 @interface MRNowPlayingControllerDestination : MRDestination
 {
     _Bool _isEndpointSet;
-    MRPlayerPath *_unresolvedPlayerPath;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
-- (void);
+- (void)apple.Messages.IMMetricsCollectorEventDidConfirmExpressiveText;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)ier;
 
 // Remaining properties
-@property(nonatomic) _Bool isEndpointSet; // @synthesize isEndpointSet=_isEndpointSet;
-@property(retain, nonatomic) MRPlayerPath *resolvedPlayerPath;
 @property(retain, nonatomic) MRPlayerPath *unresolvedPlayerPath; // @synthesize unresolvedPlayerPath=_unresolvedPlayerPath;
 
 @end

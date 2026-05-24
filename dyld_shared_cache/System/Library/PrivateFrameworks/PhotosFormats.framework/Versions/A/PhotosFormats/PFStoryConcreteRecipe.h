@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-@protocol PFStoryRecipeSongAsset, PFStoryRecipeStyle;
+@class NSArray, NSString;
 
 @interface PFStoryConcreteRecipe
 {
     NSString *_contentIdentifier;
-    long long _majorVersion;
-    long long _minorVersion;
-    NSArray *_libraries;
-    NSArray *_assets;
-    NSArray *_presentations;
-    CDStruct_5d4c7ed3 _overallDurationInfo;
-    id <PFStoryRecipeStyle> _currentStyle;
-    NSString *_currentStyleIdentifier;
-    NSDictionary *_autoEditDecisionLists;
-    NSDictionary *_seedSongIdentifiersByCatalog;
 }
 
 - (id);
 - (id);
 - (id);
-- (CDStruct_5d4c7ed3);
-- (long long);
+- (CDStruct_9ee4859c)rivateFrameworks/SpotlightKnowledge.framework/Versions/A/SpotlightKnowledge;
+- (long long)/A/LoggingSupport;
 - (id);
 - (_Bool);
-- (id);
+- (id)_TtCO10Accelerate4BNNS16ConvolutionLayer;
 - (void);
 - (id);
+- (id)T;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)u;
+- (id);
+- (id);
+- (id);
+- (long long)i;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)B;
 - (long long);
 - (id);
 - (id);
@@ -53,20 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSDictionary *autoEditDecisionLists; // @synthesize autoEditDecisionLists=_autoEditDecisionLists;
-@property(readonly, copy, nonatomic) NSString *contentIdentifier; // @synthesize contentIdentifier=_contentIdentifier;
-@property(readonly, copy, nonatomic) id <PFStoryRecipeStyle> currentStyle; // @synthesize currentStyle=_currentStyle;
-@property(readonly, copy, nonatomic) id <PFStoryRecipeSongAsset> currentStyleSongAsset;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, copy, nonatomic) NSArray *libraries; // @synthesize libraries=_libraries;
-@property(readonly, nonatomic) long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly, nonatomic) long long numberOfAssets;
-@property(readonly, nonatomic) long long numberOfPresentations;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 overallDurationInfo; // @synthesize overallDurationInfo=_overallDurationInfo;
-@property(readonly, copy, nonatomic) NSArray *presentations; // @synthesize presentations=_presentations;
-@property(readonly, copy, nonatomic) NSDictionary *seedSongIdentifiersByCatalog; // @synthesize seedSongIdentifiersByCatalog=_seedSongIdentifiersByCatalog;
 
 @end
 

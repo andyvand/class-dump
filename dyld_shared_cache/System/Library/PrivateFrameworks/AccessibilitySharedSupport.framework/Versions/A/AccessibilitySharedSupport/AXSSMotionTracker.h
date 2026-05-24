@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSMotionTrackingExpressionConfiguration, AXSSMotionTrackingInputConfiguration, AXSSMotionTrackingState, AXSSRateLimitingLogger, NSValue, NSXPCConnection;
-@protocol AXSSMotionTrackerDelegate, AXSSMotionTrackingDaemonProtocol;
+@protocol AXSSMotionTrackingDaemonProtocol;
 
 @interface AXSSMotionTracker
 {
     _Bool _debugOverlayEnabled;
-    _Bool __tracking;
-    _Bool __hasBeenStarted;
-    unsigned long long _motionTrackingMode;
-    double _sensitivity;
-    double _joystickModeMovementThreshold;
-    AXSSMotionTrackingInputConfiguration *_inputConfiguration;
-    AXSSMotionTrackingExpressionConfiguration *_expressionConfiguration;
-    AXSSMotionTrackingState *_state;
-    id <AXSSMotionTrackerDelegate> _delegate;
-    NSXPCConnection *__motionTrackingDaemonConnection;
-    AXSSRateLimitingLogger *__loggingRateLimiter;
 }
 
 + (id);
@@ -42,7 +30,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -53,34 +41,20 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)K;
+- (id)h;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)!!;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)ce;
 
 // Remaining properties
-@property(nonatomic) _Bool _hasBeenStarted; // @synthesize _hasBeenStarted=__hasBeenStarted;
-@property(retain, nonatomic) AXSSRateLimitingLogger *_loggingRateLimiter; // @synthesize _loggingRateLimiter=__loggingRateLimiter;
 @property(readonly, nonatomic) id <AXSSMotionTrackingDaemonProtocol> _motionTrackingDaemon;
-@property(retain, nonatomic) NSXPCConnection *_motionTrackingDaemonConnection; // @synthesize _motionTrackingDaemonConnection=__motionTrackingDaemonConnection;
-@property(nonatomic) _Bool _tracking; // @synthesize _tracking=__tracking;
-@property(nonatomic) _Bool debugOverlayEnabled; // @synthesize debugOverlayEnabled=_debugOverlayEnabled;
-@property(nonatomic) __weak id <AXSSMotionTrackerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) AXSSMotionTrackingExpressionConfiguration *expressionConfiguration; // @synthesize expressionConfiguration=_expressionConfiguration;
-@property(copy, nonatomic) AXSSMotionTrackingInputConfiguration *inputConfiguration; // @synthesize inputConfiguration=_inputConfiguration;
-@property(nonatomic) double joystickModeMovementThreshold; // @synthesize joystickModeMovementThreshold=_joystickModeMovementThreshold;
-@property(retain, nonatomic) NSValue *lookAtPoint;
-@property(nonatomic) unsigned long long motionTrackingMode; // @synthesize motionTrackingMode=_motionTrackingMode;
-@property(nonatomic) double sensitivity; // @synthesize sensitivity=_sensitivity;
-@property(copy, nonatomic) AXSSMotionTrackingState *state; // @synthesize state=_state;
-@property(readonly, nonatomic, getter=isTracking) _Bool tracking;
 
 @end
 

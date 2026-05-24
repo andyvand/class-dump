@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, TUNearbyDeviceHandle;
+@class TUNearbyDeviceHandle;
 
 @interface TUContinuitySessionInfo
 {
     _Bool _isDedicatedSession;
-    TUNearbyDeviceHandle *_device;
-    NSArray *_calls;
-    NSArray *_activeConversations;
-    NSArray *_recentCalls;
-    NSDictionary *_recentCallsContacts;
-    NSArray *_favorites;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -30,18 +24,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)essageController: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (void)setBatchQuerySearchiMessageController: /* Error: Ran out of types for this method. */;
+- (id)forwardInvocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activeConversations; // @synthesize activeConversations=_activeConversations;
-@property(readonly, nonatomic) NSArray *calls; // @synthesize calls=_calls;
 @property(readonly, nonatomic) TUNearbyDeviceHandle *device; // @synthesize device=_device;
-@property(readonly, nonatomic) NSArray *favorites; // @synthesize favorites=_favorites;
-@property(readonly, nonatomic) _Bool isDedicatedSession; // @synthesize isDedicatedSession=_isDedicatedSession;
-@property(readonly, nonatomic) NSArray *recentCalls; // @synthesize recentCalls=_recentCalls;
-@property(readonly, nonatomic) NSDictionary *recentCallsContacts; // @synthesize recentCallsContacts=_recentCallsContacts;
 
 @end
 

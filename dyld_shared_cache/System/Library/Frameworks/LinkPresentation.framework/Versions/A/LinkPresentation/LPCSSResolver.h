@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPTheme, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface LPCSSResolver
 {
     NSMutableDictionary *_localVariables;
-    LPTheme *_theme;
 }
 
 - (id);
@@ -19,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *localVariables; // @synthesize localVariables=_localVariables;
-@property(readonly, nonatomic) LPTheme *theme; // @synthesize theme=_theme;
 
 @end
 

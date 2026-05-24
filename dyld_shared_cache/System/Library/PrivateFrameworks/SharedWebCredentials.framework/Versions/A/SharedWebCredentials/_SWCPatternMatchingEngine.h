@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _SWCPatternList, _SWCSubstitutionVariableList;
+@class _SWCPatternList;
 
 @interface _SWCPatternMatchingEngine
 {
     _SWCPatternList *_patternList;
-    _SWCSubstitutionVariableList *_subVarList;
 }
 
 + (id);
+- (id)1;
+- (id)FE;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id).;
 - (void);
 
 @end

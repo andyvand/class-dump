@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id)tWrapper"8Q16^B24;
 + (_Bool)inverse '%@' but is not using a cascade delete rule .;
-+ (Class)ype;
++ (Class)NSCountResultType;
 + (id);
 - (const char *);
 - (void);

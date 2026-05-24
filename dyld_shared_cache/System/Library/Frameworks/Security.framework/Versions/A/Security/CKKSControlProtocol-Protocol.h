@@ -5,5 +5,8 @@
 //
 
 @protocol CKKSControlProtocol
+- (void);
+- (void);
+- (void)旀;
 @end
 

@@ -7,9 +7,6 @@
 @interface AppStoreKit.GuidedSearchPresenter
 {
     id pendingRequest;
-    id tokens;
-    id queryStore;
-    id onTokensDidChange;
 }
 
 @end

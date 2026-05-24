@@ -9,15 +9,13 @@
 @interface _INPBWorkoutCustomization
 {
     struct _has;
-    NSString *_environment;
-    NSString *_focus;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -28,20 +26,10 @@
 - (id);
 - (void);
 - (id)e"16B24I28Q32^@40;
-- (void)efault;
+- (void)default;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(copy, nonatomic) NSString *focus; // @synthesize focus=_focus;
-@property(readonly, nonatomic) _Bool hasEnvironment;
-@property(readonly, nonatomic) _Bool hasFocus;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

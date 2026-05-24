@@ -11,13 +11,13 @@
     NSMutableArray *_channels;
 }
 
-- (void);
+- (void)localeWithLocaleIdentifier:(id)arg1;
+- (id)landscapeUserAdjustedTitleLabelHeightOffset;
+- (void)isSyndicationOriginated;
+- (void);
+- (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)Type in settings;
 - (void);
 - (void)0@ù
 × ;

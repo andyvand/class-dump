@@ -6,16 +6,12 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSString, UIButton, UILabel;
+@class NSString, UIButton;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionTableIndexOverlaySelectionViewCollectionViewCell : UICollectionViewCell
 {
     UIButton *_button;
-    double _rightMargin;
-    _Bool _rightMarginAdjusted;
-    id _tapTarget;
-    SEL _tapAction;
 }
 
 - (void);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)icatorView;
+- (id)_backIndicatorView;
 - (double)ectorAssertion;
 - (void)hÿ¼ÿ;
 - (void)st assign a non-nil value to the coordinator's decorationContainerView property.;
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)I÷þÒ\;
 
 // Remaining properties
-@property(readonly) UIButton *button; // @synthesize button=_button;
-@property(readonly) UILabel *label;
-@property(nonatomic) double rightMargin;
 @property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
 
 @end
 

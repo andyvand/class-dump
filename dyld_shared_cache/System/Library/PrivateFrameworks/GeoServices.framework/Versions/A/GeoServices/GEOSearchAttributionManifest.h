@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOSearchAttributionManifest
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_actionComponentMapEntries;
-    NSMutableArray *_searchAttributionSources;
-    NSString *_sourceURL;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionComponentMapEntries:1;
-        unsigned int read_searchAttributionSources:1;
-        unsigned int read_sourceURL:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)CSHearstSecondPassRequest;
 - (unsigned long long);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)`n;
 - (void)
 × ;
 - (id)entPredExTrainingData";
@@ -49,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSourceURL;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sourceURL;
-@property(nonatomic) double timestamp;
 
 @end
 

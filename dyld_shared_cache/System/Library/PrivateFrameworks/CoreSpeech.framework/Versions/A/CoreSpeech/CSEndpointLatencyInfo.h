@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CSEndpointLatencyInfo
 {
     double _firstPktLatency;
-    NSString *_requestMHUUID;
-    NSMutableArray *_trailingPktSpeechLatencies;
-    NSMutableArray *_trailingPktLatencies;
-    unsigned long long _numOfAudioPackets;
-    unsigned long long _numOfValidTrailingPackets;
-    unsigned long long _numOfValidTrailingSpeechPackets;
 }
 
 - (id);
@@ -23,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)k;
 - (id);
 - (void);
 - (void);
@@ -36,15 +30,9 @@
 - (id);
 - (void)!xFùÑ*°1Â0@ù
 × ;
-- (void)er:hasLPCMBufferAvailable:hostTime: /* Error: Ran out of types for this method. */;
+- (void)commandControlListener:hasLPCMBufferAvailable:hostTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double firstPktLatency; // @synthesize firstPktLatency=_firstPktLatency;
-@property(nonatomic) unsigned long long numOfAudioPackets; // @synthesize numOfAudioPackets=_numOfAudioPackets;
-@property(nonatomic) unsigned long long numOfValidTrailingPackets; // @synthesize numOfValidTrailingPackets=_numOfValidTrailingPackets;
-@property(nonatomic) unsigned long long numOfValidTrailingSpeechPackets; // @synthesize numOfValidTrailingSpeechPackets=_numOfValidTrailingSpeechPackets;
-@property(retain, nonatomic) NSString *requestMHUUID; // @synthesize requestMHUUID=_requestMHUUID;
-@property(retain, nonatomic) NSMutableArray *trailingPktLatencies; // @synthesize trailingPktLatencies=_trailingPktLatencies;
 @property(retain, nonatomic) NSMutableArray *trailingPktSpeechLatencies; // @synthesize trailingPktSpeechLatencies=_trailingPktSpeechLatencies;
 
 @end

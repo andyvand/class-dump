@@ -19,11 +19,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)qA;
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (int);
 - (int);

@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+@class NSObject, TSDRep;
 @protocol TSDMutableContainerInfo;
 
 @protocol TSDMutableContainerRep
+- (void)routeSubtype;
+- (void)quest timed out;
+- (NSObject<TSDMutableContainerInfo> *)ing state restoration] - identifier: /* Error: Ran out of types for this method. */;
+- (void)appedPlaybackDidEnd:(TSDRep *)arg1 cancelled:(TSDRep *)arg2;
+- (void)playbackWaitingToPlay:(TSDRep *)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<TSDMutableContainerInfo> *mutableContainerInfo;

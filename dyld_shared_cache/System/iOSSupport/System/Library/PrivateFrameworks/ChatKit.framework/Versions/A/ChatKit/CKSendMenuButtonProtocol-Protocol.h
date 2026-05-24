@@ -7,17 +7,19 @@
 @class CAFilter, UIButton, UIColor;
 
 @protocol CKSendMenuButtonProtocol
+- (void)oteHTMLEditorViewScriptMessageHandler";
+- (void)ewActionDelegate>";
+- (void)textViewportLayoutController;
+- (void)textStorageWithoutCreating;
+- (void)textStorageForCellAtColumnIndex:(double)arg1 rowIndex:undoTarget:undoManager: /* Error: Ran out of types for this method. */;
+- (void)textStorageForCellAtColumnIndex:(double)arg1 rowIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)script:hasShownAlertKey:minimumNotesVersion:completion: /* Error: Ran out of types for this method. */;
+- (double)participants;
+- (UIColor *)parseHTMLStringFromEvernoteContentString:completionBlock: /* Error: Ran out of types for this method. */;
+- (CAFilter *);
 - (UIButton *)$À;
 
 // Remaining properties
-@property(nonatomic) double backgroundBlurRadiusDarkMode;
-@property(nonatomic) double backgroundBlurRadiusLightMode;
-@property(nonatomic) double backgroundBlurRasterizationPercentage;
-@property(nonatomic, retain) CAFilter *backgroundCompositingFilterForDarkMode;
-@property(nonatomic, retain) CAFilter *backgroundCompositingFilterForLightMode;
 @property(nonatomic, readonly) UIButton *button;
-@property(nonatomic, retain) UIColor *plusButtonBackgroundColor;
-@property(nonatomic) double plusSymbolOpacity;
-@property(nonatomic) _Bool sendMenuButtonEnabled;
 @end
 

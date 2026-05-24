@@ -8,10 +8,10 @@
 {
 }
 
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)esetHistory=%d;
+- (void)quenceNumber may not be nil!!! Aborting processing message for _sessionID='%d', participantID='%@';
+- (void)d', participantID='%@';
+- (void)be nil!!! Aborting processing message for _sessionID='%d', participantID='%@';
 - (id);
 
 @end

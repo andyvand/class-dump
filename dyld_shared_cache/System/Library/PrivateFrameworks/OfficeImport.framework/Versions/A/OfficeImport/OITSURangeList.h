@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)!A;
+- (void)C;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (struct _NSRange);

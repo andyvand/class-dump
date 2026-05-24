@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigDepthDataCaptureConnectionConfiguration, FigMetadataObjectCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration;
+@class FigDepthDataCaptureConnectionConfiguration;
 
 @interface FigCaptureSessionParsedDepthDataSinkConfiguration
 {
     FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_videoDataConnectionConfiguration;
-    FigMetadataObjectCaptureConnectionConfiguration *_metadataObjectConnectionConfiguration;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)URLForDirectory:inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
+- (id)ing *, BOOL);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) FigDepthDataCaptureConnectionConfiguration *depthDataConnectionConfiguration; // @synthesize depthDataConnectionConfiguration=_depthDataConnectionConfiguration;
-@property(readonly, nonatomic) FigMetadataObjectCaptureConnectionConfiguration *metadataObjectConnectionConfiguration; // @synthesize metadataObjectConnectionConfiguration=_metadataObjectConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoDataConnectionConfiguration; // @synthesize videoDataConnectionConfiguration=_videoDataConnectionConfiguration;
 
 @end
 

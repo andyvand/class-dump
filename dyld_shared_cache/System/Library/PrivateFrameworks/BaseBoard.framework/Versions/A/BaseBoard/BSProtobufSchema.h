@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableData, NSString;
-
 @interface BSProtobufSchema
 {
     Class _rootClass;
-    BSProtobufSchema *_superSchema;
-    long long _fieldCount;
-    long long _autotagIndex;
-    struct _BSProtobufFieldEntry *_entries;
-    NSMutableData *_memoryData;
-    BSProtobufSchema *_allowedConcreteSubclassesSchema;
-    NSArray *_allowedConcreteSubclassesClasses;
-    _Bool _respondsToDidFinishProtobufDecodingWithError;
-    _Bool _respondsToInitForProtobufDecoding;
-    _Bool _respondsToInitProtobufTranslatorForObject;
 }
 
 - (void);
@@ -33,13 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

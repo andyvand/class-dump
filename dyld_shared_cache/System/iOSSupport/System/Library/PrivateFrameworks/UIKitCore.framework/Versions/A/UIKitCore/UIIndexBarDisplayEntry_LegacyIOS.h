@@ -12,15 +12,11 @@ __attribute__((visibility("hidden")))
 @interface UIIndexBarDisplayEntry_LegacyIOS : UIIndexBarDisplayEntry
 {
     UIImage *_image;
-    id _line;
-    struct CGPoint _baselinePoint;
-    struct CGRect _bounds;
-    struct CGRect _typeBounds;
 }
 
 - (struct CGRect);
-- (void);
-- (void);
+- (void)path %@ with error domain '%@' code:(struct CGRect)arg1 %ld;
+- (void)y:(struct CGPoint)arg1 (Repaired Participant For Chat ID Handle ID Mismatch:%{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -28,16 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ð1Â0@ù
 × ;
-- (struct CGRect)eyboard;
-- (void)ew;
+- (struct CGRect)userTapsOnKeyboard;
+- (void)_alertControllerView;
 - (void)QéËªÿh;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint baselinePoint; // @synthesize baselinePoint=_baselinePoint;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) id line; // @synthesize line=_line;
-@property(nonatomic) struct CGRect typeBounds; // @synthesize typeBounds=_typeBounds;
 
 @end
 

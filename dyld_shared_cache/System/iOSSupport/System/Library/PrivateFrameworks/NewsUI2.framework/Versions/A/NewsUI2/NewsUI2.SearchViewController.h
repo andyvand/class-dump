@@ -7,27 +7,13 @@
 @interface NewsUI2.SearchViewController
 {
     id searchBar;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id sceneStateManager;
-    id origination;
-    id searchAction;
-    id clearAction;
-    id sharingActivityProviderFactory;
-    id refreshQueryParam;
-    id refreshRecentSearch;
-    id tipManager;
-    id featureAvailability;
-    id offlineProvider;
-    id filterProvider;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);

@@ -6,22 +6,13 @@
 
 #import <Safari/RemoteNotificationCenterRequest.h>
 
-@class NSArray, NSDictionary, NSOperationQueue, NSString, NSURL, NSURLSession;
+@class NSDictionary;
 @protocol RemoteNotificationVerificationRequestProxyDelegate;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationVerificationRequestProxy : RemoteNotificationCenterRequest
 {
     id <RemoteNotificationVerificationRequestProxyDelegate> _delegate;
-    NSURL *_referrerURL;
-    NSURL *_apiURL;
-    NSString *_bundleDownloadPath;
-    NSURLSession *_remoteBundleDownloadSession;
-    NSOperationQueue *_remoteBundleVerificationOperationQueue;
-    _Bool _performingVerificationTest;
-    NSDictionary *_queryParameters;
-    unsigned long long _requestID;
-    NSArray *_allowedDomains;
 }
 
 - (void);
@@ -31,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)D;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -48,13 +39,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (void)utConfirming:(unsigned long long)arg1;
+- (void)closeTabOrWindowWithoutConfirming:(unsigned long long)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedDomains; // @synthesize allowedDomains=_allowedDomains;
 @property(copy, nonatomic) NSDictionary *queryParameters; // @synthesize queryParameters=_queryParameters;
-@property(nonatomic) unsigned long long requestID; // @synthesize requestID=_requestID;
 
 @end
 

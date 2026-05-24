@@ -7,6 +7,6 @@
 @protocol HMDXPCListener, HMXPCConnection;
 
 @protocol HMDXPCListenerDelegate
-- (_Bool)eration:(id <HMDXPCListener>)arg1 linkType:(id <HMXPCConnection>)arg2 retries:shouldWake:operationBlock:errorBlock:activity: /* Error: Ran out of types for this method. */;
+- (_Bool)_retrieveHAPAccessoryToPerformOperation:(id <HMDXPCListener>)arg1 linkType:(id <HMXPCConnection>)arg2 retries:shouldWake:operationBlock:errorBlock:activity: /* Error: Ran out of types for this method. */;
 @end
 

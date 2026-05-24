@@ -12,12 +12,12 @@
 }
 
 + (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void);
+- (id)F;
+- (unsigned long long)fetchAccountWideSettingsWithForceFetch:arguments:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)), created:%@, static rep:(%@%@ data bytes), crop:%@, dirty:%@, current:%@ } /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

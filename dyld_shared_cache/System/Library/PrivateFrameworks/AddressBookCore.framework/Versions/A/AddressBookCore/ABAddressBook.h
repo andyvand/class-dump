@@ -4,58 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBookImpl, ABDistributedNotificationListener, ABMetadataOperationController, ABPersistentStoreCoordinatorCache, NSMutableDictionary, NSString, NSTimer;
-@protocol CNCDIOSLegacyIdentifierRegistration;
+@class ABAddressBookImpl;
 
 @interface ABAddressBook
 {
     id _reserved8;
-    void *_reserved2;
-    void *_reserved3;
-    NSMutableDictionary *_recordCache;
-    NSMutableDictionary *_tableSchemas;
-    NSMutableDictionary *_reserved5;
-    void *_converterPort;
-    NSTimer *_inactivityTimer;
-    id _reserved;
-    id _reserved1;
-    void *_reserved6;
-    void *_reserved7;
-    struct __ABBookflags {
-        unsigned int hasUnsavedChanges:1;
-        unsigned int readOnly:1;
-        unsigned int importMe:1;
-        unsigned int needConversion:1;
-        unsigned int cleanedUp:1;
-        unsigned int importTips:1;
-        unsigned int restoreFromMetaData:1;
-        unsigned int prefsNeedSync:1;
-        unsigned int waitingForReset:1;
-        unsigned int enforcesConstraints:1;
-        unsigned int tracksAllSources:1;
-        unsigned int _reserved:21;
-    } _flags;
-    id <CNCDIOSLegacyIdentifierRegistration> _iOSLegacyIdentifierRegistrar;
-    ABDistributedNotificationListener *_distributedListener;
-    ABMetadataOperationController *_metadataOperationController;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfGroups;
-@property(readonly, nonatomic) unsigned long long countOfPeople;
-@property(readonly, nonatomic) unsigned long long countOfRecords;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) ABDistributedNotificationListener *distributedListener; // @synthesize distributedListener=_distributedListener;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNCDIOSLegacyIdentifierRegistration> iOSLegacyIdentifierRegistrar; // @synthesize iOSLegacyIdentifierRegistrar=_iOSLegacyIdentifierRegistrar;
 @property(retain, nonatomic) ABAddressBookImpl *impl; // @synthesize impl=_reserved8;
-@property __weak ABMetadataOperationController *metadataOperationController; // @synthesize metadataOperationController=_metadataOperationController;
-@property(retain) ABPersistentStoreCoordinatorCache *persistentStoreCoordinatorCache;
-@property(readonly) Class superclass;
 @end
 

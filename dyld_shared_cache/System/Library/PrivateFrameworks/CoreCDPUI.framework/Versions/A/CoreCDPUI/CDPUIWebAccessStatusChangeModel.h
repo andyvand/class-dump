@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
-@protocol CDPStateUIProvider, CDPWalrusStatusProvider, CDPWebAccessStatusProvider, CDPWebAccessStatusUpdater;
+@protocol CDPWebAccessStatusProvider;
 
 @interface CDPUIWebAccessStatusChangeModel
 {
     id <CDPWebAccessStatusProvider> _webAccessStatusProvider;
-    id <CDPWebAccessStatusUpdater> _webAccessStatusUpdater;
-    id <CDPWalrusStatusProvider> _walrusStatusProvider;
-    unsigned long long _targetStatus;
 }
 
 - (unsigned long long);
@@ -21,26 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CDPContext *authenticatedContext;
-@property(readonly, nonatomic) NSString *cancelButtonText;
-@property(readonly, nonatomic) CDPContext *cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *messageText;
-@property(readonly, nonatomic) NSString *primaryButtonText;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long targetStatus; // @synthesize targetStatus=_targetStatus;
-@property(readonly, nonatomic) NSString *titleText;
-@property(readonly, nonatomic) id <CDPStateUIProvider> uiProvider;
 
 @end
 

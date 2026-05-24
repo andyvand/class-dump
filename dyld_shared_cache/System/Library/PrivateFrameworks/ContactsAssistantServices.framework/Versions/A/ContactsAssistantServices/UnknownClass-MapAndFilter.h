@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MapAndFilter)
-- (id);
+- (id)conversionMultiplier;
 - (id);
 @end
 

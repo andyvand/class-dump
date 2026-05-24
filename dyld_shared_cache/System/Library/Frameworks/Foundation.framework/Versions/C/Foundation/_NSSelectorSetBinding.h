@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _NSSelectorSetBinding : NSKeySetBinding
 {
     SEL setSel;
-    CDUnknownFunctionPointerType setMethod;
-    CDUnknownFunctionPointerType set;
 }
 
-- (void);
+- (void)3;
 - (_Bool);
 - (id);
 

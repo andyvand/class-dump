@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNDetectRectanglesRequestConfiguration : VNImageBasedRequestConfiguration
 {
     float _minimumAspectRatio;
-    float _maximumAspectRatio;
-    float _quadratureTolerance;
-    float _minimumSize;
-    float _minimumConfidence;
-    unsigned long long _requiredVersion;
-    unsigned long long _maximumObservations;
 }
 
 - (float);
@@ -29,19 +23,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (float);
+- (float)C;
 - (float);
 - (id);
 - (void);
 - (id)>:(Class)arg1;
 
 // Remaining properties
-@property(nonatomic) float maximumAspectRatio; // @synthesize maximumAspectRatio=_maximumAspectRatio;
-@property(nonatomic) unsigned long long maximumObservations; // @synthesize maximumObservations=_maximumObservations;
-@property(nonatomic) float minimumAspectRatio; // @synthesize minimumAspectRatio=_minimumAspectRatio;
-@property(nonatomic) float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
-@property(nonatomic) float minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(nonatomic) float quadratureTolerance; // @synthesize quadratureTolerance=_quadratureTolerance;
 @property(nonatomic) unsigned long long requiredVersion; // @synthesize requiredVersion=_requiredVersion;
 
 @end

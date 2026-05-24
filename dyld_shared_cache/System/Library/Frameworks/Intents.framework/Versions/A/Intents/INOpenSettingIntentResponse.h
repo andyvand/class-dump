@@ -6,45 +6,34 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INOpenSettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setMetadata:(long long)arg1;
++ (int)decodeFloatForKey:(long long)arg1;
++ (long long)canMostRecentClientsGenerateThumbnailsForUTI:(int)arg1;
++ (_Bool)arrayWithObjects:(long long)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)(;
 - (void);
 - (id);
 - (id);
 - (id);
+- (long long)9	;
+- (id);
 - (long long);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (id);
+- (id)acceptClient:(id)arg1 onConnection:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)swift;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)supportedReason: /* Error: Ran out of types for this method. */;
+- (long long)StringAsDeleteTasksIntentTaskListUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *punchoutUrl;
-@property(readonly) Class superclass;
 
 @end
 

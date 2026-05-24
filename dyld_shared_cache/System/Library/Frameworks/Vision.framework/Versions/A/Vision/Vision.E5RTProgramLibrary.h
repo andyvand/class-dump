@@ -7,10 +7,6 @@
 @interface Vision.E5RTProgramLibrary
 {
     id url;
-    id programLibraryHandle;
-    id compilationOptions;
-    id lazyName;
-    id lazyFunctionNames;
 }
 
 @end

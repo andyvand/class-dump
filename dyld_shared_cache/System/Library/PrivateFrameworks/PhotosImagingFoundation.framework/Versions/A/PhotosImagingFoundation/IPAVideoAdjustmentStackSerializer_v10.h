@@ -10,10 +10,10 @@
 {
 }
 
+- (id)SaySo34AVVideoCompositionLayerInstructionCG;
+- (id)So25AVMutableVideoCompositionC;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)AVFoundation;
 - (id);
 
 @end

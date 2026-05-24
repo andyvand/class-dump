@@ -7,9 +7,6 @@
 @interface AppStoreKit.AccountLinks
 {
     id links;
-    id id;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

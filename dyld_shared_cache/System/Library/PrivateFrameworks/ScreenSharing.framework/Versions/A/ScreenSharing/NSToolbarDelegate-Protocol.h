@@ -5,5 +5,9 @@
 //
 
 @protocol NSToolbarDelegate
+
+@optional
+- (void);
+- (_Bool)J;
 @end
 

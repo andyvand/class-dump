@@ -54,8 +54,8 @@ struct CWhitePoint {
 };
 
 struct shared_ptr<CRawImage> {
-    struct CRawImage *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct CRawImage *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct vector<double, std::allocator<double>> {
@@ -70,7 +70,7 @@ struct vector<double, std::allocator<double>> {
 
 // Template types
 typedef struct shared_ptr<CRawImage> {
-    struct CRawImage *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_c492eedd;
+    struct CRawImage *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_64a5effa;
 

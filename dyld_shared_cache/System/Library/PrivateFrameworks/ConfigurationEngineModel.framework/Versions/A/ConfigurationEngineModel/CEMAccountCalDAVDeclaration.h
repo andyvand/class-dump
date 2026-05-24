@@ -6,19 +6,14 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountCalDAVDeclaration : CEMConfigurationBase
 {
     NSString *_payloadCalDAVAccountDescription;
-    NSString *_payloadCalDAVHostName;
-    NSString *_payloadCalDAVPrincipalURL;
-    NSNumber *_payloadCalDAVUseSSL;
-    NSNumber *_payloadCalDAVPort;
-    NSString *_payloadCalDAVCredentials;
 }
 
-+ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
@@ -40,26 +35,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCalDAVAccountDescription; // @synthesize payloadCalDAVAccountDescription=_payloadCalDAVAccountDescription;
-@property(copy, nonatomic) NSString *payloadCalDAVCredentials; // @synthesize payloadCalDAVCredentials=_payloadCalDAVCredentials;
-@property(copy, nonatomic) NSString *payloadCalDAVHostName; // @synthesize payloadCalDAVHostName=_payloadCalDAVHostName;
-@property(copy, nonatomic) NSNumber *payloadCalDAVPort; // @synthesize payloadCalDAVPort=_payloadCalDAVPort;
-@property(copy, nonatomic) NSString *payloadCalDAVPrincipalURL; // @synthesize payloadCalDAVPrincipalURL=_payloadCalDAVPrincipalURL;
-@property(copy, nonatomic) NSNumber *payloadCalDAVUseSSL; // @synthesize payloadCalDAVUseSSL=_payloadCalDAVUseSSL;
-@property(readonly) Class superclass;
 
 @end
 

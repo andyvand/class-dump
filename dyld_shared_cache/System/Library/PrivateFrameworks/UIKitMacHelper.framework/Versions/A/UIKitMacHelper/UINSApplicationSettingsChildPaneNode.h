@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)APPLICATIONS;
 - (void);
 - (void)Q'Ð1Â0@ù
 × ;

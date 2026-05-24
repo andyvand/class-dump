@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsDataSource, NSArray, NSString, UICollectionView, UICollectionViewDiffableDataSource, _UIDiffableDataSourceOutlineSectionController;
+@class CNAccountsAndGroupsDataSource;
 @protocol CNContactGroupPickerViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactGroupPickerViewController
 {
     id <CNContactGroupPickerViewControllerDelegate> _delegate;
-    CNAccountsAndGroupsDataSource *_accountsAndGroupsDataSource;
-    NSArray *_sourceAccountExternalIdentifiers;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_diffableDataSource;
-    _UIDiffableDataSourceOutlineSectionController *_sectionController;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)q`;
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
@@ -42,8 +37,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)pdatePreviewForSelectedItem;
-- (void)iewHierarchy:(id)arg1;
+- (id)updatePreviewForSelectedItem;
+- (void)setHasSetupViewHierarchy:(id)arg1;
 - (id)_isPerformingMerge;
 - (void)NSString",R,N,V_label;
 - (void)øGG'øGACySiSgGG_Qo_Sg;
@@ -51,18 +46,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNAccountsAndGroupsDataSource *accountsAndGroupsDataSource; // @synthesize accountsAndGroupsDataSource=_accountsAndGroupsDataSource;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactGroupPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UICollectionViewDiffableDataSource *diffableDataSource; // @synthesize diffableDataSource=_diffableDataSource;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIDiffableDataSourceOutlineSectionController *sectionController; // @synthesize sectionController=_sectionController;
-@property(retain, nonatomic) NSArray *sourceAccountExternalIdentifiers; // @synthesize sourceAccountExternalIdentifiers=_sourceAccountExternalIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

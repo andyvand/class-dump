@@ -5,12 +5,14 @@
 //
 
 @protocol SGDSuggestManagerInternalProtocol
-- (void)zid;
+- (void);
+- (void);
+- (void)tzid;
 - (void)EAL,handle BLOB, eventId INTEGER);
 - (void)sh, extractionType);
 - (void)y != nil;
-- (void)ionId;
-- (void)Engagement;
+- (void)getFlightReferencesAndReservationId;
+- (void)positiveEngagement;
 - (void)d{;
 @end
 

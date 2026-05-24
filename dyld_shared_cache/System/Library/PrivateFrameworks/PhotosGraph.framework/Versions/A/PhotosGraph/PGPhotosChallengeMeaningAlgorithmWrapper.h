@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneTaxonomyHierarchy, CLSServiceManager, PGGraph, PHPhotoLibrary;
+@class CLSSceneTaxonomyHierarchy, PHPhotoLibrary;
 
 @interface PGPhotosChallengeMeaningAlgorithmWrapper
 {
     CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
-    CLSServiceManager *_serviceManager;
-    PHPhotoLibrary *_photoLibrary;
-    PGGraph *_graph;
 }
 
 - (unsigned short);
-- (id);
-- (id);
+- (id)eventTapManager:(id)arg1 passivelyTappedMouseEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)%@
 ;
 - (id);
 - (id)locationFrequency;
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end

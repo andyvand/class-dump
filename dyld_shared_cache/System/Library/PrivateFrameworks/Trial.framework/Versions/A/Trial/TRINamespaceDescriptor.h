@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL, TRIAppContainer;
+@class NSString;
 
 @interface TRINamespaceDescriptor
 {
     _Bool _optedOutOfDefaults;
-    _Bool _expensiveNetworkingAllowed;
-    _Bool _enableFetchDuringSetupAssistant;
-    _Bool _availableToRootUser;
-    unsigned int _downloadNCV;
-    int _cloudKitContainerId;
-    int _purgeabilityLevel;
-    NSString *_namespaceName;
-    NSURL *_factorsURL;
-    TRIAppContainer *_appContainer;
-    NSSet *_upgradeNCVs;
-    NSString *_resourceAttributionIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)requestAVAssetWithResultHandler:(id)arg1;
 + (_Bool);
 + (void);
 + (id);
@@ -33,8 +22,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
+- (id)isCommunicationSafetyNotificationEnabled;
+- (int)ad5,4;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -56,18 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) TRIAppContainer *appContainer; // @synthesize appContainer=_appContainer;
-@property(readonly, nonatomic) _Bool availableToRootUser; // @synthesize availableToRootUser=_availableToRootUser;
-@property(readonly, nonatomic) int cloudKitContainerId; // @synthesize cloudKitContainerId=_cloudKitContainerId;
-@property(readonly, nonatomic) unsigned int downloadNCV; // @synthesize downloadNCV=_downloadNCV;
-@property(readonly, nonatomic) _Bool enableFetchDuringSetupAssistant; // @synthesize enableFetchDuringSetupAssistant=_enableFetchDuringSetupAssistant;
-@property(readonly, nonatomic) _Bool expensiveNetworkingAllowed; // @synthesize expensiveNetworkingAllowed=_expensiveNetworkingAllowed;
-@property(readonly, nonatomic) NSURL *factorsURL; // @synthesize factorsURL=_factorsURL;
 @property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly, nonatomic) _Bool optedOutOfDefaults; // @synthesize optedOutOfDefaults=_optedOutOfDefaults;
-@property(readonly, nonatomic) int purgeabilityLevel; // @synthesize purgeabilityLevel=_purgeabilityLevel;
-@property(readonly, nonatomic) NSString *resourceAttributionIdentifier; // @synthesize resourceAttributionIdentifier=_resourceAttributionIdentifier;
-@property(readonly, nonatomic) NSSet *upgradeNCVs; // @synthesize upgradeNCVs=_upgradeNCVs;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDestinationResolver, MRNowPlayingControllerConfiguration, MRNowPlayingControllerDestination, MRNowPlayingControllerHelper, MRNowPlayingPlayerResponse, MSVVariableIntervalTimer, NSDate, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MRDestinationResolver, MRNowPlayingControllerHelper;
 
 @interface MRV3NowPlayingController
 {
     MRNowPlayingControllerHelper *_helper;
-    _Bool _registeredForNotifications;
-    _Bool _isUpdating;
-    _Bool _isResolving;
-    _Bool _requestingQueue;
-    MRDestinationResolver *_destinationResolver;
-    MRNowPlayingPlayerResponse *_response;
-    MRNowPlayingControllerConfiguration *_configuration;
-    NSMutableArray *_deferredContentItemsToMerge;
-    NSDate *_lastQueueRequestDate;
-    NSObject<OS_dispatch_queue> *_queue;
-    MSVVariableIntervalTimer *_loadRetryTimer;
 }
 
 - (void);
@@ -40,12 +28,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -54,10 +42,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@24;
 - (void);
 - (id);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -66,21 +55,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))86;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)nterruptedAudioPlaybackIfNeeded]_block_invoke;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -90,26 +78,7 @@
 - (void)bilities notifications for legacy clients because new device added:(id)arg1 %@;
 
 // Remaining properties
-@property(copy, nonatomic) MRNowPlayingControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *deferredContentItemsToMerge; // @synthesize deferredContentItemsToMerge=_deferredContentItemsToMerge;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) MRNowPlayingControllerDestination *destination;
 @property(retain, nonatomic) MRDestinationResolver *destinationResolver; // @synthesize destinationResolver=_destinationResolver;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MRNowPlayingControllerHelper *helper;
-@property(nonatomic) _Bool isResolving; // @synthesize isResolving=_isResolving;
-@property(nonatomic) _Bool isUpdating; // @synthesize isUpdating=_isUpdating;
-@property(retain, nonatomic) NSDate *lastQueueRequestDate; // @synthesize lastQueueRequestDate=_lastQueueRequestDate;
-@property(retain, nonatomic) MSVVariableIntervalTimer *loadRetryTimer; // @synthesize loadRetryTimer=_loadRetryTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool registeredForNotifications; // @synthesize registeredForNotifications=_registeredForNotifications;
-@property(nonatomic) _Bool requestingQueue; // @synthesize requestingQueue=_requestingQueue;
-@property(copy, nonatomic) MRNowPlayingPlayerResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

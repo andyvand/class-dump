@@ -4,6 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FMDLocalFindableAccessory, NSData;
+
 @protocol FMDFMMProtocol
+- (oneway void)2@0:(NSData *)arg1 8@16{CGAffineTransform=dddddd}24;
+- (void)d}{CGSize=dd}}24;
+- (oneway void)v56@0:(NSData *)arg1 8@"CHVisualizationManager"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (oneway void)ataDetectorController";
+- (oneway void)@32@0:(void (^)(_Bool, NSError *))arg1 8^{CGPath=}16@?24;
+- (oneway void)ntPoint}}};
+- (oneway void)qq}32@168;
+- (oneway void)ffineTransform=dddddd}32@?80;
+- (oneway void)@0:(void (^)(_Bool, NSError *))arg1 8^{CGPath=}16;
+- (void)leQueryDelegate>";
+- (void)SSSSSfS}16d52;
+- (oneway void)=ff}ffSSSSSSfS}120@0:(void (^)(_Bool, NSError *))arg1 8{_PKStrokePoint=d{CGPoint=dd}ddddddddd}16d112;
+- (oneway void)ntrl_"^{__shared_weak_count}};
+- (oneway void)ointsShared>=^{PKStrokePathPointsShared}^{__shared_weak_count}}{vector<unsigned char, std:(void (^)(NSDictionary *, NSError *))arg1:allocator<unsigned char>>=**{?=*}}}16Q56q64@72B80B84d88{shared_ptr<PKProtobufUnknownFields>=^{PKProtobufUnknownFields}^{__shared_weak_count}}96 /* Error: Ran out of types for this method. */;
+- (oneway void)KRulerView";
+- (void)rm=dddddd}16{CGPoint=dd}64;
+- (oneway void)}16;
+- (oneway void)b1b1b1b1b1b1b1}}16r^{_PKStrokePoint=d{CGPoint=dd}ddddddddd}24;
+- (void)KStrokeID=I[16C]I}32@0:(FMDLocalFindableAccessory *)arg1 8r^{StrokeID=^^?QQQ{?=b1b1b1}}16@24;
+- (oneway void)16@24@32@40q48d56B64@68;
+- (oneway void)S"d"minValue"d"maxValue"d"limit"d"lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
 @end
 

@@ -11,10 +11,6 @@
 @interface PKInputPointPredictionFilter : PKInputPointBaseFilter
 {
     PKInputPointPredictor *_predictor;
-    CDStruct_4cc01785 _fullPredictionTimeIntervalPoint;
-    CDStruct_4cc01785 _halfPredictionTimeIntervalPoint;
-    _Bool _useHalfPredictionTimeInterval;
-    double _predictionTimeInterval;
 }
 
 - (_Bool);
@@ -26,7 +22,6 @@
 - (void)ènxr{;
 
 // Remaining properties
-@property(nonatomic) double predictionTimeInterval; // @synthesize predictionTimeInterval=_predictionTimeInterval;
 @property(nonatomic) _Bool useHalfPredictionTimeInterval; // @synthesize useHalfPredictionTimeInterval=_useHalfPredictionTimeInterval;
 
 @end

@@ -6,36 +6,32 @@
 
 #import <AppKit/NSCollectionViewItem.h>
 
-@class _NSQuickActionTouchBarItemDataSource;
 @protocol _NSQuickActionTouchBarItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarItem : NSCollectionViewItem
 {
     id <_NSQuickActionTouchBarItemDelegate> _delegate;
-    _Bool _isObserving;
-    void *_observationInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)Since:subclass should implement /* Error: Ran out of types for this method. */;
 + (_Bool)J;
-- (id);
+- (id)pending syscfg key (0x%X):%@ from %@ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id)TE;
 - (void);
 - (void);
 - (void);
-- (void)ngType;
+- (void)parsingType;
 - (void)i;
 - (void *);
-- (void)Window;
+- (void)_NSTabBarTabTextColorForMainWindow;
 
 // Remaining properties
 @property __weak id <_NSQuickActionTouchBarItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _NSQuickActionTouchBarItemDataSource *representedDataSource;
 
 @end
 

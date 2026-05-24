@@ -11,28 +11,23 @@
 @interface CKDUploadMergeableDeltasURLRequest : CKDURLRequest
 {
     NSArray *_deltas;
-    NSArray *_replacementRequests;
-    CDUnknownBlockType _perDeltaCompletionBlock;
-    CDUnknownBlockType _perReplaceDeltasRequestCompletionBlock;
-    NSMutableDictionary *_deltasByRequestID;
-    NSMutableDictionary *_replacementRequestsByRequestID;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)9	;
 - (id);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
 - (id)4Û;
 - (void)PT ;
-- (id)KRecordsDeleted;
+- (id)CKRecordsDeleted;
 - (id)c}@, "tearDownResourcesAndReleaseTheZoneLocks";
 - (void)hange watcher cannot have nil registration token, skipping the registration;
 - (void)g item data anyway since it isn't a zone PCS.;
@@ -42,12 +37,7 @@
 - (_Bool)event:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deltas; // @synthesize deltas=_deltas;
 @property(retain, nonatomic) NSMutableDictionary *deltasByRequestID; // @synthesize deltasByRequestID=_deltasByRequestID;
-@property(copy, nonatomic) CDUnknownBlockType perDeltaCompletionBlock; // @synthesize perDeltaCompletionBlock=_perDeltaCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perReplaceDeltasRequestCompletionBlock; // @synthesize perReplaceDeltasRequestCompletionBlock=_perReplaceDeltasRequestCompletionBlock;
-@property(readonly, copy, nonatomic) NSArray *replacementRequests; // @synthesize replacementRequests=_replacementRequests;
-@property(retain, nonatomic) NSMutableDictionary *replacementRequestsByRequestID; // @synthesize replacementRequestsByRequestID=_replacementRequestsByRequestID;
 
 @end
 

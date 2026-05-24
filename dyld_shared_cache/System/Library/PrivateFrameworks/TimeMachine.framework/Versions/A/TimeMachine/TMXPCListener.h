@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface TMXPCListener
 {
     NSString *_serviceName;
-    _Bool _isLegacyConnection;
-    NSObject<OS_xpc_object> *_connection;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _errorHandler;
-    NSString *_messageLoggingKey;
 }
 
 - (void);
@@ -29,22 +23,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (CDUnknownBlockType);
+- (void)5;
 - (void);
-- (void);
-- (void);
+- (void)AAQuotaDepletionAlert;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) _Bool isLegacyConnection; // @synthesize isLegacyConnection=_isLegacyConnection;
-@property(copy) CDUnknownBlockType messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(copy) NSString *messageLoggingKey; // @synthesize messageLoggingKey=_messageLoggingKey;
 @property(readonly) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

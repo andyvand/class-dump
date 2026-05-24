@@ -6,7 +6,7 @@
 
 #import <WeatherFoundation/WFResponse.h>
 
-@class NSURL, NWPathEvaluator;
+@class NSURL;
 
 @interface WFReachabilityConfigurationResponse : WFResponse
 {
@@ -22,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NWPathEvaluator *pathEvaluator;
 @property(copy, nonatomic) NSURL *reachabilityHostURL; // @synthesize reachabilityHostURL=_reachabilityHostURL;
 
 @end

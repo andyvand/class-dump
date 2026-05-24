@@ -9,19 +9,17 @@
 @interface PKDiscoveryCallToActionURL
 {
     _Bool _isSensitive;
-    NSURL *_url;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasTimeTillResumeAccumulatedMsec;
 - (id);
-- (void)endingSummaryViewYearlyButton;
+- (void)spendingSummaryViewYearlyButton;
 
 // Remaining properties
-@property(nonatomic) _Bool isSensitive; // @synthesize isSensitive=_isSensitive;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

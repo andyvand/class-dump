@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteItem : NSCollectionViewItem
 {
     NSLayoutConstraint *_maxTextWidthConstraint;
-    double _paletteScaleFactor;
-    NSLayoutConstraint *_textSpacingConstraint;
 }
 
 - (id);
@@ -24,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void)s;
+- (void)flags;
 - (void)ÿÿÿÿx;
 - (id);
 - (id);

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSMutableArray, NSMutableDictionary, NSTableView, NSTextField, NSUserDefaults;
+@class NSMutableArray, NSUserDefaults;
 
 @interface SSFileTransferWindowController
 {
     NSMutableArray *fileTransferArray;
-    long long rowPlusOneToMakeVisibleInAwakeFromNib;
-    NSMutableDictionary *iconCacheDict;
-    NSUserDefaults *iconCacheUserDefaults;
-    NSTableView *_tableView;
-    NSTextField *_transferCountTextField;
-    NSButton *_cancelAllButton;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -40,24 +34,20 @@
 - (id);
 - (id);
 - (long long);
+- (void)e"q"timescale"i"flags"I"epoch"q}};
 - (void);
-- (void);
-- (oneway void);
-- (void);
+- (oneway void)progressBlock:error: /* Error: Ran out of types for this method. */;
+- (void)BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Enrich/Enrichment Profile/PGDefaultEnrichmentProfile.m;
 - (id);
 - (void);
 - (void);
-- (void)inThreadIntWrapper: /* Error: Ran out of types for this method. */;
-- (void)CRemoteVideoClientDelegate;
+- (void)mainThreadIntWrapper: /* Error: Ran out of types for this method. */;
+- (void)AVCRemoteVideoClientDelegate;
 - (void);
-- (id)lperListenerThread;
+- (id)SSPasteboardHelperListenerThread;
 
 // Remaining properties
-@property NSButton *cancelAllButton; // @synthesize cancelAllButton=_cancelAllButton;
-@property(retain) NSMutableDictionary *iconCacheDict; // @synthesize iconCacheDict;
 @property(retain) NSUserDefaults *iconCacheUserDefaults; // @synthesize iconCacheUserDefaults;
-@property NSTableView *tableView; // @synthesize tableView=_tableView;
-@property NSTextField *transferCountTextField; // @synthesize transferCountTextField=_transferCountTextField;
 
 @end
 

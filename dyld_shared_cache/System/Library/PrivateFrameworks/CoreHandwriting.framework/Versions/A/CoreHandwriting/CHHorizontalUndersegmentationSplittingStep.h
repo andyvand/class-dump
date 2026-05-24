@@ -11,7 +11,7 @@
     CDUnknownBlockType _additionalRecognitionBlock;
 }
 
-- (id);
+- (id)1J1;
 - (id);
 - (void);
 

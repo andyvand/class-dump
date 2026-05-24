@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface PKPassEntitlementCapabilitySet
 {
     _Bool _intraAccountSharingEnabled;
-    _Bool _isOwner;
-    NSString *_localizedName;
-    unsigned long long _shareability;
-    unsigned long long _manageability;
-    unsigned long long _visibility;
-    NSNumber *_capabilityRoleValue;
 }
 
 + (id);
@@ -26,28 +18,22 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long)elementNamespace;
+- (unsigned long long)_elementNamespace;
 - (id)luetoothOn;
 - (void)entBaseRequest"8@"NSURL"16@"NSError"24;
 - (void)~ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *capabilityRoleValue; // @synthesize capabilityRoleValue=_capabilityRoleValue;
-@property(nonatomic) _Bool intraAccountSharingEnabled; // @synthesize intraAccountSharingEnabled=_intraAccountSharingEnabled;
-@property(readonly, nonatomic) _Bool isOwner; // @synthesize isOwner=_isOwner;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) unsigned long long manageability; // @synthesize manageability=_manageability;
 @property(nonatomic) unsigned long long shareability; // @synthesize shareability=_shareability;
-@property(nonatomic) unsigned long long visibility; // @synthesize visibility=_visibility;
 
 @end
 

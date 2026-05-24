@@ -7,9 +7,6 @@
 @interface NetworkExtension.NEAppExtensionConfiguration
 {
     id appex;
-    id xpcConnection;
-    id extensionXPCProtocol;
-    id extensionHostXPCProtocol;
 }
 
 - (void);

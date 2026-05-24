@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NSPPrivacyProxyAuxiliaryAuthInfo
 {
     int _authType;
-    NSMutableArray *_contentLists;
-    NSString *_label;
 }
 
 + (Class);
@@ -24,25 +20,22 @@
 - (id);
 - (id);
 - (void);
+- (void)D9;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)a;
+- (void)";
 - (id);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) int authType; // @synthesize authType=_authType;
-@property(retain, nonatomic) NSMutableArray *contentLists; // @synthesize contentLists=_contentLists;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

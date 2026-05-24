@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface FLOWSchemaFLOWSmsAttachmentMetadata : SISchemaInstrumentationMessage
 {
     int _smsAttachmentType;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int smsAttachmentType:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (int);
@@ -25,13 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)objectForKeyedSubscript:(id)arg1;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)b~;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,10 +34,6 @@
 - (void)¼øÀÿÌ¬òÍ$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSmsAttachmentType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(nonatomic) int smsAttachmentType; // @synthesize smsAttachmentType=_smsAttachmentType;
 
 @end

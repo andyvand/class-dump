@@ -9,29 +9,23 @@
 @interface GEOOfflineMetadata
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _dataVersion;
-    unsigned int _regulatoryRegionId;
-    struct {
-        unsigned int has_dataVersion:1;
-        unsigned int has_regulatoryRegionId:1;
-    } _flags;
 }
 
-+ (_Bool)y:(id)arg1;
++ (_Bool)setHasUseAuthProxy:(id)arg1;
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)ionTask"24@"NSHTTPURLResponse"32;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)setTime:(_Bool)arg1 _withAuthorization: /* Error: Ran out of types for this method. */;
+- (void)numberOfMatchesInString:(id)arg1 options:range: /* Error: Ran out of types for this method. */;
+- (void)bled:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -44,11 +38,7 @@
 - (void)k::42 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long dataVersion;
 @property(nonatomic) _Bool hasDataVersion;
-@property(nonatomic) _Bool hasRegulatoryRegionId;
-@property(nonatomic) unsigned int regulatoryRegionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

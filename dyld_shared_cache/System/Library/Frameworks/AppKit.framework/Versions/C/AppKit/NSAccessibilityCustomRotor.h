@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NSAccessibilityCustomRotorItemSearchDelegate, NSAccessibilityElementLoading;
-
 @interface NSAccessibilityCustomRotor
 {
     long long _type;
-    NSString *_label;
-    id <NSAccessibilityCustomRotorItemSearchDelegate> _itemSearchDelegate;
-    id <NSAccessibilityElementLoading> _itemLoadingDelegate;
 }
 
 @end

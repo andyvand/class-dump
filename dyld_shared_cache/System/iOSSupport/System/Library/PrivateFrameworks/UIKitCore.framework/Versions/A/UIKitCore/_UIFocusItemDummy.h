@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIFocusEffect, UIView;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
+@protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusItemDummy
@@ -20,50 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (struct CGRect)uldLayoutSubviews: /* Error: Ran out of types for this method. */;
-- (id)lastPanGestureEndTime;
-- (void)IUpdateLinkTracking;
+- (struct CGRect)setShouldLayoutSubviews: /* Error: Ran out of types for this method. */;
+- (id)_lastPanGestureEndTime;
+- (void)_UIUpdateLinkTracking;
 - (void)SideTop;
 - (_Bool)TR0;
 - (void)WÔ\Û[;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) UIFocusEffect *focusEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFocusEffect",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long focusGroupPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) long long focusItemDeferralMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTransparentFocusItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment; // @synthesize parentFocusEnvironment=_parentFocusEnvironment;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(readonly) Class superclass;
 
 @end
 

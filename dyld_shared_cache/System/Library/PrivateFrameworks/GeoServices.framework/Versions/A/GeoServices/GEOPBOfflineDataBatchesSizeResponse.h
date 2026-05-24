@@ -8,16 +8,9 @@ __attribute__((visibility("hidden")))
 @interface GEOPBOfflineDataBatchesSizeResponse
 {
     unsigned long long _compressedSizeBytes;
-    unsigned long long _sizeBytes;
-    unsigned int _batchCount;
-    struct {
-        unsigned int has_compressedSizeBytes:1;
-        unsigned int has_sizeBytes:1;
-        unsigned int has_batchCount:1;
-    } _flags;
 }
 
-+ (_Bool)n:(id)arg1;
++ (_Bool)setHasUserInteractedWithNotification:(id)arg1;
 - (unsigned long long);
 - (void);
 - (void);
@@ -28,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)#;
 - (unsigned int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ock_invoke;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -45,12 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)e);;
 
 // Remaining properties
-@property(nonatomic) unsigned int batchCount;
-@property(nonatomic) unsigned long long compressedSizeBytes;
 @property(nonatomic) _Bool hasBatchCount;
-@property(nonatomic) _Bool hasCompressedSizeBytes;
-@property(nonatomic) _Bool hasSizeBytes;
-@property(nonatomic) unsigned long long sizeBytes;
 
 @end
 

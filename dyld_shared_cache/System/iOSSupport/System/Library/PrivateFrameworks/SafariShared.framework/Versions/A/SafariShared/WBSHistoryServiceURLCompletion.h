@@ -10,15 +10,13 @@
 @interface WBSHistoryServiceURLCompletion
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct URLCompletionEntryMap _map;
-    struct unordered_multimap<NSString *, NSString *, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, NSString *>>> _redirectSources;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B?;
 - (id);
 - (id);
 - (void)0¨;

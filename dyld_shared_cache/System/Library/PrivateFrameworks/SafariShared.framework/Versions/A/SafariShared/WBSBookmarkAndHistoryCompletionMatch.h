@@ -11,7 +11,6 @@
 @interface WBSBookmarkAndHistoryCompletionMatch : WBSURLCompletionMatch
 {
     RefPtr_95c86671 _match;
-    _Bool _isSynthesized;
 }
 
 - (_Bool);
@@ -23,23 +22,22 @@
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (float);
+- (float);
 - (id)
 × ;
 - (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSURLCompletionMatchData> data;
-@property(readonly, nonatomic) float weight;
 
 @end
 

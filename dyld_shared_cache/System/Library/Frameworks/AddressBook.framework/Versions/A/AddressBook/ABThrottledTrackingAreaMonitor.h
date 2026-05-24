@@ -7,7 +7,6 @@
 @interface ABThrottledTrackingAreaMonitor
 {
     CDUnknownBlockType _updateHandler;
-    _Bool _mouseInTrackingArea;
 }
 
 - (void);

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol LPAudioPlayer;
+
 @protocol LPComponentViewHost
+- (long long);
+- (id <LPAudioPlayer>)X;
+- (_Bool)$[;
 @end
 

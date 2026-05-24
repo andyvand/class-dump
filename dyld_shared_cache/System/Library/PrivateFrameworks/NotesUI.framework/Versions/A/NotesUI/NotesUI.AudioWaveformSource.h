@@ -7,11 +7,6 @@
 @interface NotesUI.AudioWaveformSource
 {
     id started;
-    id url;
-    id processingBuffer;
-    id targetSampleRate;
-    id samplesPerWaveformSlice;
-    id progressThreshold;
 }
 
 @end

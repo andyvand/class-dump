@@ -11,27 +11,23 @@
 @interface STAskForTimeApprovedResponseReceivedUserNotificationContext : STUserNotificationContext
 {
     NSString *_parentName;
-    NSString *_requestedResourceName;
-    double _amountGranted;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)pp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (void)tatus INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (void)yed INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (id)re_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)ork WHERE item_pid = representative_item_pid), '');
+- (id)TEXT NOT NULL DEFAULT '', artwork_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type));
+- (void)nt INTEGER NOT NULL DEFAULT 0, UNIQUE(container_pid, media_type));
+- (double)G(item_pid) JOIN base_location USING(base_location_id) WHERE is_streaming_quality = 1 AND path = 'CloudAssets');
 - (id);
-- (id);
-- (id);
 - (void);
-- (double);
-- (id);
-- (void);
-- (void);
+- (void)mework/Versions/A/CryptoKit;
 
 // Remaining properties
-@property(nonatomic) double amountGranted; // @synthesize amountGranted=_amountGranted;
 @property(copy, nonatomic) NSString *parentName; // @synthesize parentName=_parentName;
-@property(copy, nonatomic) NSString *requestedResourceName; // @synthesize requestedResourceName=_requestedResourceName;
 
 @end
 

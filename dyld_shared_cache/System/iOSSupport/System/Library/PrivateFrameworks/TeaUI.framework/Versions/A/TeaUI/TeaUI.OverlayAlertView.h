@@ -7,14 +7,11 @@
 @interface TeaUI.OverlayAlertView
 {
     id backdropView;
-    id image;
-    id titleLabel;
-    id subtitleLabel;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)titleEmbeddingConfiguration;
+- (id)setThumbnailHQMetadata:(struct CGRect)arg1;
 - (void)Dÿÿ<þÿ;
 
 @end

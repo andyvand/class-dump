@@ -10,8 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *mainBackgroundColor;
-@property(readonly, nonatomic) long long statusBarStyle;
-@property(readonly, nonatomic) long long topBackgroundStatusBarStyle;
-@property(readonly, nonatomic) UIColor *topContentColor;
 @end
 

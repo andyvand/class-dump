@@ -9,28 +9,24 @@
 @interface CWFHotspotFamilyMember
 {
     long long _sharingMode;
-    NSString *_displayName;
-    NSString *_identifier;
 }
 
 + (_Bool);
 - (long long);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)TLS_DHE_PSK_WITH_AES_128_CBC_SHA256;
 - (id);
 - (id);
 - (void)",C,D,N;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long sharingMode; // @synthesize sharingMode=_sharingMode;
 
 @end
 

@@ -9,22 +9,20 @@
 @interface PKAliroHomeAuxiliaryCapabilityDescriptor
 {
     NSData *_readerGroupIdentifier;
-    NSData *_readerGroupPublicKey;
 }
 
 + (_Bool)î%ð1Â0@ù
 × ;
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)%;
 - (void)v32@?0@"PKFPANCardDescriptor"8@"PKAutoFillCardCredential"16@"NSError"24;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *readerGroupIdentifier; // @synthesize readerGroupIdentifier=_readerGroupIdentifier;
-@property(readonly, copy, nonatomic) NSData *readerGroupPublicKey; // @synthesize readerGroupPublicKey=_readerGroupPublicKey;
 
 @end
 

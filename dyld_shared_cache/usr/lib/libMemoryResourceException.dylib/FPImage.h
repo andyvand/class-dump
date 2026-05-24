@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FPImage
 {
     unsigned char _segment;
-    unsigned long long _start;
-    unsigned long long _size;
-    NSString *_name;
-    NSString *_ownerPath;
 }
 
-- (void);
+- (void)X;
 
 @end
 

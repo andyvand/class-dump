@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSSet, NSString, PXRecipientTransport;
+@class NSString;
 
 @interface PXRecipient
 {
     NSString *_firstName;
-    NSString *_lastName;
-    NSSet *_allEmails;
-    NSSet *_allPhones;
-    NSSet *_unformattedAllPhones;
-    NSString *_phoneNumberString;
-    NSString *_emailAddressString;
-    PXRecipientTransport *_suggestedTransport;
-    NSString *_localizedName;
-    CNContact *_contact;
-    NSString *_invalidAddressString;
 }
 
 + (id);
@@ -32,40 +22,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)V;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setWrapT: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)8;
-- (id)er:(struct _NSZone *)arg1;
+- (id)selectionSnapshotForBrowserSummaryController:(struct _NSZone *)arg1;
 - (id)ô;
 - (id)not supported in PXSharedLibraryIncludedPeopleDataSourceManager.;
 - (void)[
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allEmails; // @synthesize allEmails=_allEmails;
-@property(readonly, nonatomic) NSSet *allPhones; // @synthesize allPhones=_allPhones;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *emailAddressString; // @synthesize emailAddressString=_emailAddressString;
-@property(readonly, copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *invalidAddressString; // @synthesize invalidAddressString=_invalidAddressString;
-@property(readonly, copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) NSString *phoneNumberString; // @synthesize phoneNumberString=_phoneNumberString;
-@property(retain, nonatomic) PXRecipientTransport *suggestedTransport; // @synthesize suggestedTransport=_suggestedTransport;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *unformattedAllPhones; // @synthesize unformattedAllPhones=_unformattedAllPhones;
+@property(readonly, nonatomic) NSString *emailAddressString;
 
 @end
 

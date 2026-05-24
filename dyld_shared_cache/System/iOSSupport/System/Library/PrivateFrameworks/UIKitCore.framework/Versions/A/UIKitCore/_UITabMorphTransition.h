@@ -7,14 +7,6 @@
 @interface _UITabMorphTransition
 {
     id hostingContainerView;
-    id groupCompletion;
-    id contentAlongsideAnimation;
-    id activeViewContext;
-    id activeViewContexts;
-    id currentRopeAnimation;
-    id magicMorphView;
-    id intermediateShapeView;
-    id traitObserver;
 }
 
 - (void);

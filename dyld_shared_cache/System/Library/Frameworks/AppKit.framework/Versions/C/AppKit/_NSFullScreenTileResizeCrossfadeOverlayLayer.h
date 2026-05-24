@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, _NSFullScreenTileResizeCrossfadeOverlayWindow;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileResizeCrossfadeOverlayLayer
 {
     unsigned long long _tileID;
-    unsigned long long _parentSpaceID;
-    _NSFullScreenTileResizeCrossfadeOverlayWindow *_window;
-    _Bool _active;
-    CALayer *_windowContentLayer;
-    _Bool _includeBorder;
-    struct CGRect _tileFrame;
 }
 
 - (unsigned long long);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)VzDQ+g085l8w;
 - (id);
 - (void);
 - (void);

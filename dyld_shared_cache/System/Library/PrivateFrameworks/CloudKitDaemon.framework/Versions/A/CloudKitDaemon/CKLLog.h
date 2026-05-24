@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, OSLogEventLiveStream, OSLogEventStream;
-
 @interface CKLLog
 {
     _Bool _wantsSimulatorLogs;
-    _Bool _onlyTestLogs;
-    _Bool _colorOutput;
-    double _startTimeOffset;
-    NSDate *_absoluteStartDate;
-    NSString *_processName;
-    unsigned long long _source;
-    OSLogEventStream *_logEventStream;
-    OSLogEventLiveStream *_liveStream;
-    NSMutableArray *_streamObservers;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
 + (id);
 - (_Bool);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)';
 - (_Bool);
 - (id);
 - (id);
+- (id)Җ;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (id);
 - (double);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)!l!X%;
 - (id);
 - (void);
 - (void);
@@ -54,17 +42,7 @@
 - (void)%p%;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *absoluteStartDate; // @synthesize absoluteStartDate=_absoluteStartDate;
-@property(nonatomic) _Bool colorOutput; // @synthesize colorOutput=_colorOutput;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) OSLogEventLiveStream *liveStream; // @synthesize liveStream=_liveStream;
-@property(retain, nonatomic) OSLogEventStream *logEventStream; // @synthesize logEventStream=_logEventStream;
-@property(nonatomic) _Bool onlyTestLogs; // @synthesize onlyTestLogs=_onlyTestLogs;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
 @property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(nonatomic) double startTimeOffset; // @synthesize startTimeOffset=_startTimeOffset;
-@property(retain, nonatomic) NSMutableArray *streamObservers; // @synthesize streamObservers=_streamObservers;
-@property(nonatomic) _Bool wantsSimulatorLogs; // @synthesize wantsSimulatorLogs=_wantsSimulatorLogs;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)_ambientColorTemperature;
 + (void);
 - (id);
 

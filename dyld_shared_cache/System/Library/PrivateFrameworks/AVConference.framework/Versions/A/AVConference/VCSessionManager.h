@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionManager
 {
     NSMutableDictionary *_sessions;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    _Bool _sharingEnabled;
-    _Bool _screenAndCameraMixingEnabled;
 }
 
 + (id);
@@ -22,6 +17,18 @@ __attribute__((visibility("hidden")))
 + (id)1Config:screenConfiguration:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(x;
+- (void);
+- (void);
+- (void)T;
+- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -32,19 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -62,16 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)õ0èf%;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool screenAndCameraMixingEnabled; // @synthesize screenAndCameraMixingEnabled=_screenAndCameraMixingEnabled;
 @property(readonly, nonatomic) NSMutableDictionary *sessions; // @synthesize sessions=_sessions;
-@property(nonatomic) _Bool sharingEnabled; // @synthesize sharingEnabled=_sharingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

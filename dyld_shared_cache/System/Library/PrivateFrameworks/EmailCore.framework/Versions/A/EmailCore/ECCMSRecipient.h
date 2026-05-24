@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ECCMSRecipient
 {
     NSString *_address;
-    struct __SecCertificate *_certificate;
-    NSArray *_capabilities;
 }
 
-- (id);
+- (id)rward instead;
 - (void);
 - (struct __SecCertificate *);
+- (id)pathExists;
 - (id);
-- (id);
-- (void);
+- (void)pple.icloud.findmymacd;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy, nonatomic) NSArray *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) struct __SecCertificate *certificate; // @synthesize certificate=_certificate;
 
 @end
 

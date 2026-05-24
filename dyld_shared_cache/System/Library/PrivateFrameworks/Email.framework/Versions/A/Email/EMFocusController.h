@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFocus, NSHashTable;
-@protocol EFAssertableScheduler, EFCancelable;
+@class NSHashTable;
 
 @interface EMFocusController
 {
     NSHashTable *_observers;
-    id <EFAssertableScheduler> _observationScheduler;
-    id <EFCancelable> _observationToken;
-    EMFocus *_currentFocus;
-    struct os_unfair_lock_s _lock;
-    id <EFCancelable> _stateCancelable;
 }
 
 + (id);

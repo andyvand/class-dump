@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteMemoryEntity
 {
     long long _databaseID;
-    NSMutableDictionary *_propertyValues;
-    NSMutableDictionary *_externalPropertyValues;
 }
 
 + (id);
@@ -21,29 +17,27 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (void);
+- (void)7;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)log data payload to disk:path is nil /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)rsationManager"16@"TUConversation"24;
 - (long long);
 - (id);
 - (void)JÖ%·Nº)!°<´ uäP÷ØdEÓbòI·fÖ±þ¥3øhì|Ül»IàP¿-GØkTÛôcåþ1QLcgËQ¡DYïÚi;´&ö/pKkCËDÖÚÜÊâèó®!¯YùÊ°e¶ç×ÐLÒÖÆôÊÍþØuË§$3å,'üüN-{Ubj·@º¸©ÎÕ2<$ÎzþV©îäÀ~Ç?k=Ï¶mËlrh£Wî,Ã	óÓ2mGN±Í>Hª x3Ûßm£Ã^®ºe cî\v?¥ ô:¨îV,pCL%òF§Ëh¡Ïò£µ>õ¡j"­dÂG~c»ôÂ2à#¹Ù*¿H /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy, nonatomic) NSDictionary *externalPropertyValues; // @synthesize externalPropertyValues=_externalPropertyValues;
-@property(readonly, copy, nonatomic) NSDictionary *propertyValues; // @synthesize propertyValues=_propertyValues;
 
 @end
 

@@ -7,23 +7,6 @@
 @interface PhotosUICore.LemonadePickerRootViewModel
 {
     id photoLibrary;
-    id imageProvider;
-    id shelvesViewModel;
-    id fallbackNavigator;
-    id viewResetCoordinator;
-    id photoLibraryContext;
-    id zoomLevel;
-    id cellSpecs;
-    id _scrollToTopSignal;
-    id _scrollTargetIdentifier;
-    id _scrollAnimationDuration;
-    id verticalMargin;
-    id __containerSafeAreaInsets;
-    id __containerSize;
-    id __horizontalSizeClass;
-    id __verticalSizeClass;
-    id __orientation;
-    id _$observationRegistrar;
 }
 
 @end

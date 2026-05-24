@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)DURATION_FORMAT_HOURS;
+- (id));
 
 // Remaining properties
 @property(retain, nonatomic) id delegate; // @synthesize delegate;

@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id)ta_EncodedContent;
+- (id)encodedAppData_EncodedContent;
 - (void)ØÌÿõHµÃÿÜÉÿØÉÿõ0ryÿÅÔÌÿ%äÌÿµÃÿ%ìÌÿ;
 
 // Remaining properties

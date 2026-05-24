@@ -9,21 +9,19 @@
 @interface HMUserCloudShareRepairInfo
 {
     NSUUID *_identifier;
-    long long _version;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)utAction;
+- (id)N3fst8internal14ReplaceFstImplINS_6ArcTplINS_17TropicalWeightTplIfEEEENS_24DefaultReplaceStateTableIS5_lEENS_17DefaultCacheStoreIS5_EEEE;
+- (void)HMShortcutAction;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) long long version; // @synthesize version=_version;
 
 @end
 

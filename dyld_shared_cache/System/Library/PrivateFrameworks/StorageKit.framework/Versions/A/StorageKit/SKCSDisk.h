@@ -11,16 +11,11 @@
 @interface SKCSDisk : SKDisk
 {
     _Bool _isEncrypted;
-    _Bool _isConverting;
-    _Bool _isDisallowedForCSOperations;
-    NSString *_csDiskUUID;
-    NSString *_csLVGUUID;
-    NSString *_csFamilyUUID;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (id);
 - (void);
@@ -32,27 +27,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)�;
+- (id);
+- (id);
+- (_Bool)<;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)(;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -64,18 +59,6 @@
 
 // Remaining properties
 @property(retain) NSString *csDiskUUID; // @synthesize csDiskUUID=_csDiskUUID;
-@property(retain) NSString *csFamilyUUID; // @synthesize csFamilyUUID=_csFamilyUUID;
-@property(retain) NSString *csLVGUUID; // @synthesize csLVGUUID=_csLVGUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isConverting; // @synthesize isConverting=_isConverting;
-@property _Bool isDisallowedForCSOperations; // @synthesize isDisallowedForCSOperations=_isDisallowedForCSOperations;
-@property _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(readonly) Class superclass;
 
 @end
 

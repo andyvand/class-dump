@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, UICollectionView, UIMultiSelectInteraction, UIMultiSelectInteractionState;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewMultiSelectController
 {
     long long _computedAxisConstraint;
-    struct {
-        unsigned int visibleCellsDirtied:1;
-        unsigned int prewarmingCellCache:1;
-        unsigned int updatingSelection:1;
-    } _flags;
-    UICollectionView *_collectionView;
-    UIMultiSelectInteraction *_multiSelectInteraction;
-    UIMultiSelectInteractionState *_selectionState;
-    NSMapTable *_contentMaskCache;
 }
 
 - (_Bool);
@@ -26,22 +17,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)4;
+- (void);
+- (long long)obiledevice.passwordpolicy;
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (id)_shadowContainer;
+- (id)_do_foreground_requests;
+- (id)completionRequests:(id)arg1 %@;
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
+- (void)getITLibAlbumClass(void)_block_invoke;
+- (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool)
 × ;
@@ -60,12 +51,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)6@24@32o^@40;
 - (id)int=dd}{CGSize=dd}}48{CGPoint=dd}80@96;
-- (id)llBeginHighlighterGesture;
-- (void)sWithBlock: /* Error: Ran out of types for this method. */;
-- (id)rectedQuery:(id)arg1;
-- (void)quiredGestureRecognizerCompletedOrWasUnrelated:(id)arg1;
-- (void);
-- (void)cy;
+- (id)willBeginHighlighterGesture;
+- (void)enumerateEdgesWithBlock: /* Error: Ran out of types for this method. */;
+- (id)emojiSearchDidReceiveResults:(id)arg1 forExactQuery:(id)arg2 autocorrectedQuery: /* Error: Ran out of types for this method. */;
+- (void)_requiredGestureRecognizerCompletedOrWasUnrelated:(id)arg1;
+- (void)_DUIAccessibilityDragStatus;
+- (void)UICollectionViewFocusDelegate_Legacy;
 - (void)D);
 - (id)
 ;
@@ -75,7 +66,7 @@ now has:%@ /* Error: Ran out of types for this method. */;
 - (id)ugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long)<_UIMenuLeafAlternateOrCommandAlternate>"8;
-- (void)tionDidStartNotification;
+- (void)_NSTextInputContextDictationDidStartNotification;
 - (_Bool)able. Use a designated initializer instead.;
 - (_Bool)28_UISceneDestructionConditionCG;
 - (void)æüÿ_p;
@@ -101,18 +92,6 @@ now has:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) NSMapTable *contentMaskCache; // @synthesize contentMaskCache=_contentMaskCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInMultiselectInteraction) _Bool inMultiselectInteraction;
-@property(retain, nonatomic) UIMultiSelectInteraction *multiSelectInteraction; // @synthesize multiSelectInteraction=_multiSelectInteraction;
-@property(retain, nonatomic) UIMultiSelectInteractionState *selectionState; // @synthesize selectionState=_selectionState;
-@property(readonly) Class superclass;
 
 @end
 

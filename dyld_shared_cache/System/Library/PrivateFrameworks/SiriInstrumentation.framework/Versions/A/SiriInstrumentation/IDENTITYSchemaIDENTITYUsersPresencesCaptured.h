@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IDENTITYSchemaIDENTITYUsersPresencesCaptured : SISchemaInstrumentationMessage
 {
@@ -17,16 +17,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)q;
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__AUTH;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithFromHandle:toHandle:requestId: /* Error: Ran out of types for this method. */;
 - (id)!LCùàð1Â0@ù
 × ;
 - (id)riSchemaODDwatchOSAssistantProperties",&,N,V_watchOSAssistant;
@@ -34,7 +34,6 @@
 - (void)Êÿb½¬IØ#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *usersPresences; // @synthesize usersPresences=_usersPresences;
 
 @end

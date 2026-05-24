@@ -6,21 +6,11 @@
 
 #import <PassKitCore/PKPaymentRequest.h>
 
-@class NSString, NSURL, PKAccount, PKBankAccountInformation, PKCurrencyAmount, PKPaymentPass, PKPeerPaymentAccount;
+@class NSString;
 
 @interface PKAccountServiceTransferRequest : PKPaymentRequest
 {
     unsigned long long _featureIdentifier;
-    PKCurrencyAmount *_currencyAmount;
-    _Bool _userWasShownAPCTransferSpeed;
-    NSString *_accountIdentifier;
-    NSURL *_accountBaseURL;
-    PKBankAccountInformation *_defaultBankAccount;
-    PKAccount *_account;
-    unsigned long long _transferType;
-    PKPeerPaymentAccount *_peerPaymentAccount;
-    PKPaymentPass *_peerPaymentPass;
-    unsigned long long _initialAction;
 }
 
 + (_Bool)X"ð!xAùî%ð1Â0@ù
@@ -32,35 +22,27 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
+- (id)R
+;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_watchPresent;
 - (void);
 - (id)møÿ;
 - (void)oningCarKeyStepStartAccept];
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSURL *accountBaseURL; // @synthesize accountBaseURL=_accountBaseURL;
 @property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) PKBankAccountInformation *defaultBankAccount; // @synthesize defaultBankAccount=_defaultBankAccount;
-@property(nonatomic) unsigned long long initialAction; // @synthesize initialAction=_initialAction;
-@property(readonly, nonatomic) PKPeerPaymentAccount *peerPaymentAccount; // @synthesize peerPaymentAccount=_peerPaymentAccount;
-@property(readonly, nonatomic) PKPaymentPass *peerPaymentPass; // @synthesize peerPaymentPass=_peerPaymentPass;
-@property(readonly, nonatomic) _Bool supportsSplitPayment;
-@property(readonly, nonatomic) unsigned long long transferType; // @synthesize transferType=_transferType;
-@property(nonatomic) _Bool userWasShownAPCTransferSpeed; // @synthesize userWasShownAPCTransferSpeed=_userWasShownAPCTransferSpeed;
 
 @end
 

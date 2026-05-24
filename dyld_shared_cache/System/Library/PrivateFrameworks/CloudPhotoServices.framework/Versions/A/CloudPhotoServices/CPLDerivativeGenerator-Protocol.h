@@ -5,5 +5,6 @@
 //
 
 @protocol CPLDerivativeGenerator
++ (_Bool);
 @end
 

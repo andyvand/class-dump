@@ -9,9 +9,6 @@
 @interface VNFaceScreenGaze
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    struct CGPoint _screenGaze;
-    float _lookingAtDevice;
-    float _notLookingAtDevice;
 }
 
 + (_Bool);
@@ -20,19 +17,16 @@
 - (float);
 - (float);
 - (float);
-- (id);
+- (id)createTempThumbnailURLForVersion:(id)arg1 appropriateForURL:itemIdentifier:isFromData:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)ypeEspressoCPU;
+- (void)VNFaceprintGeneratorTypeEspressoCPU;
 
 // Remaining properties
-@property(readonly) float difficultToSay;
 @property(readonly) float lookingAtDevice; // @synthesize lookingAtDevice=_lookingAtDevice;
-@property(readonly) float notLookingAtDevice; // @synthesize notLookingAtDevice=_notLookingAtDevice;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
 
 @end
 

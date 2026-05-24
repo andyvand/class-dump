@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)rVisualStyle;
+- (id)_UITabBarControllerVisualStyle;
 
 @end
 

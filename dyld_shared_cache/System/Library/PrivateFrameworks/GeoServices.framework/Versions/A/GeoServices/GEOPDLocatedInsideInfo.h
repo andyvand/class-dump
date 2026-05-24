@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDLocatedInsideInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    int _featureType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_featureType:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)tionParameters"b1"read_exploreGuidesLookupParameters"b1"read_extendedGeoLookupParameters"b1"read_externalTransitLookupParameters"b1"read_featureIdGeocodingParameters"b1"read_geocodingParameters"b1"read_groundViewLabelParameters"b1"read_guidesHomeParameters"b1"read_ipGeoLookupParameters"b1"read_locationDirectedSearchParameters"b1"read_mapsHomeParameters"b1"read_mapsIdentifierPlaceLookupParameters"b1"read_mapsSearchHomeParameters"b1"read_merchantLookupParameters"b1"read_nearbySearchParameters"b1"read_offlineRegionNameParameters"b1"read_placeCollectionLookupParameter"b1"read_placeDescriptorResolutionParameters"b1"read_placeLookupParameters"b1"read_placeQuestionnaireLookupParameters"b1"read_placeRefinementParameters"b1"read_placecardEnrichmentParameters"b1"read_poiAtAddressLookupParameters"b1"read_popularNearbySearchParameters"b1"read_publisherViewParameters"b1"read_queryUnderstandingParameters"b1"read_refreshIdLookUpParameters"b1"read_reverseGeocodingParameters"b1"read_searchCapabilitiesParameters"b1"read_searchFieldPlaceholderParameters"b1"read_searchParameters"b1"read_searchZeroKeywordCategorySuggestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)iarRouteProvider;
+- (id)_familiarRouteProvider;
 - (id)ÜÊ4Ë;
 - (void)ìQ¸Ä¦@;
 

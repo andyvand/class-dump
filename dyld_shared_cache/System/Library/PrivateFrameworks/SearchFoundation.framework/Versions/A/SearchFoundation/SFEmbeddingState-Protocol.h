@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFSpotlightEmbeddingState;
-
 @protocol SFEmbeddingState
+- (void);
+- (void)nnn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool hasEmbeddingResults;
-@property(nonatomic) _Bool hasHybridResults;
-@property(nonatomic) _Bool hasKeywordResults;
-@property(nonatomic) _Bool hasMetadataResults;
-@property(nonatomic) _Bool hasQueryEmbedding;
-@property(nonatomic) _Bool hasResults;
-@property(nonatomic) _Bool hasSuppressedResults;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int queryStatus;
-@property(retain, nonatomic) SFSpotlightEmbeddingState *spotlightEmbeddingState;
 @end
 

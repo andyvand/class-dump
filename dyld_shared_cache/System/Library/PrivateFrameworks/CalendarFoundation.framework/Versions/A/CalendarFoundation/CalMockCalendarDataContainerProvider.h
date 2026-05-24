@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface CalMockCalendarDataContainerProvider
 {
     NSURL *_calendarDataContainerURL;
-    NSDictionary *_accountsWithSpecificContainers;
-    NSDictionary *_personaIDsByContainer;
 }
 
 + (_Bool);
@@ -19,23 +17,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)to refresh interval, failed to fetch task. { taskID=%s, refreshInterval=%f };
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)processPixelWithPixelControl_V1:(id)arg1 Output: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

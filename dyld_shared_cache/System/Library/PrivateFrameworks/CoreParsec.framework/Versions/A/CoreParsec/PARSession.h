@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreParsec.PARSearchClient, NSString, NSXPCConnection, PARBag, PARSessionConfiguration, PARSessionSwiftInternal;
-@protocol PARSessionDelegate;
+@class PARBag, PARSessionSwiftInternal;
 
 @interface PARSession
 {
@@ -15,21 +14,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (void);
+- (void);
+- (id)B;
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)	?׿;
 - (void);
 - (void);
 - (void);
@@ -44,22 +43,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void)aB;
+- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -68,7 +67,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)senderIdentityShortName;
 - (void);
 - (void);
 - (id);
@@ -81,26 +80,15 @@
 × ;
 - (void)16@0:(id)arg1 8;
 - (void)v24@0:(id)arg1 8@"_CPSearchResultForFeedback"16;
-- (void)ce;
-- (void)rtImmediately:(id)arg1;
-- (void)hown;
+- (void)visualEvidence;
+- (void)sessionWithConfiguration:(id)arg1 delegate:startImmediately: /* Error: Ran out of types for this method. */;
+- (void)isFilterBarShown;
 - (void)onlist.restoredsearchcompletion;
 - (void)L;
 - (void)@³;
 
 // Remaining properties
 @property(readonly) PARBag *bag; // @dynamic bag;
-@property(readonly, nonatomic) CoreParsec.PARSearchClient *client; // @dynamic client;
-@property(retain) PARSessionConfiguration *configuration; // @dynamic configuration;
-@property(readonly, nonatomic) NSXPCConnection *connection; // @dynamic connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <PARSessionDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

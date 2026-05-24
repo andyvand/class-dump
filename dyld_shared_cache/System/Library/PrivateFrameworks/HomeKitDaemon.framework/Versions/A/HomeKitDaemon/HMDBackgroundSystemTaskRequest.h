@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BGRepeatingSystemTaskRequest, NSString;
+@class BGRepeatingSystemTaskRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundSystemTaskRequest
 {
     _Bool _requiresInexpensiveNetworkConnectivity;
-    _Bool _requiresSignificantUserInactivity;
-    NSString *_identifier;
-    double _interval;
-    double _minDurationBetweenInstances;
 }
 
 - (id);
@@ -32,11 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(nonatomic) double minDurationBetweenInstances; // @synthesize minDurationBetweenInstances=_minDurationBetweenInstances;
-@property(nonatomic) _Bool requiresInexpensiveNetworkConnectivity; // @synthesize requiresInexpensiveNetworkConnectivity=_requiresInexpensiveNetworkConnectivity;
-@property(nonatomic) _Bool requiresSignificantUserInactivity; // @synthesize requiresSignificantUserInactivity=_requiresSignificantUserInactivity;
 @property(readonly) BGRepeatingSystemTaskRequest *taskRequest;
 
 @end

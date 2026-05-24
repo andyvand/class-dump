@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface VSIdentityProviderStorefrontMetadata
 {
     _Bool _isFeatured;
-    NSString *_storefrontTwoCharCode;
-    NSNumber *_sortOrdinal;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)U;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isFeatured; // @synthesize isFeatured=_isFeatured;
-@property(retain, nonatomic) NSNumber *sortOrdinal; // @synthesize sortOrdinal=_sortOrdinal;
 @property(retain, nonatomic) NSString *storefrontTwoCharCode; // @synthesize storefrontTwoCharCode=_storefrontTwoCharCode;
 
 @end

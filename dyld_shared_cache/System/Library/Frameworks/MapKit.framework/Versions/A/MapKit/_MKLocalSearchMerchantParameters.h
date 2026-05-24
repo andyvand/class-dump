@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface _MKLocalSearchMerchantParameters
 {
     NSString *_merchantCode;
-    NSString *_rawMerchantCode;
-    NSString *_paymentNetwork;
-    NSString *_industryCategory;
-    NSNumber *_industryCode;
-    NSDate *_transactionDate;
-    CLLocation *_transactionLocation;
 }
 
-- (void);
+- (void)clearBatchedTaskCachePPS;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)peak;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)setBleAppleManufacturerData: /* Error: Ran out of types for this method. */;
+- (id)pairingGenerateOOBDataWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)leteDevice;
+- (id)eOOBMode;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)us: /* Error: Ran out of types for this method. */;
+- (void)setHoveringOnInnerRadius: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *industryCategory; // @synthesize industryCategory=_industryCategory;
-@property(retain, nonatomic) NSNumber *industryCode; // @synthesize industryCode=_industryCode;
 @property(copy, nonatomic) NSString *merchantCode; // @synthesize merchantCode=_merchantCode;
-@property(copy, nonatomic) NSString *paymentNetwork; // @synthesize paymentNetwork=_paymentNetwork;
-@property(copy, nonatomic) NSString *rawMerchantCode; // @synthesize rawMerchantCode=_rawMerchantCode;
-@property(retain, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
-@property(retain, nonatomic) CLLocation *transactionLocation; // @synthesize transactionLocation=_transactionLocation;
 
 @end
 

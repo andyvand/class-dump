@@ -4,47 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HistStatLinkedListNode;
-
 @interface HistBasedToneMapping
 {
     void *_hist;
-    char *_histBuff;
-    unsigned long long _histBuffSize;
-    const char *_histDataPtr;
-    long long _streamId;
-    int _minHistBin;
-    int _maxHistBin;
-    unsigned long long _sumHist;
-    float *_binCenter;
-    float *_hlgBinCenterInPQ;
-    int *_fullRangeBinIdx;
-    unsigned char _histMinMaxBinCenter;
-    unsigned char _histPrintData;
-    unsigned long long _frameNumber;
-    struct __sFILE *_fpHistDump;
-    struct __sFILE *_fpStatDump;
-    struct __sFILE *_fpAplDump;
-    unsigned long long _maxMasteringNits;
-    float _minMasteringNits;
-    _Bool _isDataValid;
-    _Bool _isSceneChanged;
-    unsigned short _bufSize;
-    float _minVal;
-    float _maxVal;
-    float _avgVal;
-    float _stdVal;
-    int _numPrct;
-    float _avgPixelLevel;
-    int _tempMode;
-    float *_normHistHeight;
-    float *_histBinCentroidInPQ;
-    float *_histBinCentroidInLinear;
-    float *_pcntVal;
-    float *_prctVal;
-    HistStatLinkedListNode *_statLinkedListHead;
-    HistStatLinkedListNode *_statLinkedListTail;
-    HistStatLinkedListNode *_statLinkedListCurr;
 }
 
 - (_Bool);
@@ -80,7 +42,7 @@
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (long long);
 - (void);
@@ -102,24 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) float avgPixelLevel; // @synthesize avgPixelLevel=_avgPixelLevel;
-@property(readonly) float avgVal; // @synthesize avgVal=_avgVal;
-@property(readonly) unsigned short bufSize; // @synthesize bufSize=_bufSize;
-@property(readonly) float *histBinCentroidInLinear; // @synthesize histBinCentroidInLinear=_histBinCentroidInLinear;
-@property(readonly) float *histBinCentroidInPQ; // @synthesize histBinCentroidInPQ=_histBinCentroidInPQ;
-@property(readonly) _Bool isDataValid; // @synthesize isDataValid=_isDataValid;
-@property(readonly) _Bool isSceneChanged; // @synthesize isSceneChanged=_isSceneChanged;
-@property(readonly) float maxVal; // @synthesize maxVal=_maxVal;
-@property(readonly) float minVal; // @synthesize minVal=_minVal;
 @property(readonly) float *normHistHeight; // @synthesize normHistHeight=_normHistHeight;
-@property(readonly) int numPrct; // @synthesize numPrct=_numPrct;
-@property(readonly) float *pcntVal; // @synthesize pcntVal=_pcntVal;
-@property(readonly) float *prctVal; // @synthesize prctVal=_prctVal;
-@property(readonly) HistStatLinkedListNode *statLinkedListCurr; // @synthesize statLinkedListCurr=_statLinkedListCurr;
-@property(readonly) HistStatLinkedListNode *statLinkedListHead; // @synthesize statLinkedListHead=_statLinkedListHead;
-@property(readonly) HistStatLinkedListNode *statLinkedListTail; // @synthesize statLinkedListTail=_statLinkedListTail;
-@property(readonly) float stdVal; // @synthesize stdVal=_stdVal;
-@property(readonly) int tempMode; // @synthesize tempMode=_tempMode;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface XQueryParsedModule
 {
     NSString *_version;
-    NSArray *_prologItems;
-    id _body;
 }
 
 + (id);

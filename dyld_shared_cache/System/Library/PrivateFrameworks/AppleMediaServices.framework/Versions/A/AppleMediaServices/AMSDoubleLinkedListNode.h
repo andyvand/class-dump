@@ -10,18 +10,15 @@ __attribute__((visibility("hidden")))
 @interface AMSDoubleLinkedListNode
 {
     AMSDoubleLinkedListNode *_previous;
-    id _object;
-    AMSDoubleLinkedListNode *_next;
-    NSString *_listIdentifier;
 }
 
 - (id);
+- (void);
+- (id);
+- (void)ryType"b1"hasSchemaCategoryType"b1};
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id)¦§TöS²v&GÐf_?	Ä(.îâ×ñþRèÔOa¹ÛÞïÖ$YWºA{EkÎÿp±°zÏUÕJûúrÜ®òMXxðÁIVH¯<oK|·+^¡u=@Ø/9ælýÂ øÍdÒ«¾78¢´ô~0á}-hä©ª»Ëó!6½;ÓÃ£QCíë¨'¿qåm15¼Ç"3ùÉiP³bÊ*ßÑ÷¶µL¤ãeÈF jZúÃ ñþ¢¦/T±
 &ß7pö[ÕY¹LBd%¥.¨@P0w:(id)arg1 9(X`²;´,âvÂÐ~x3k^÷A8ªuÿnQ£rî¾û-¤«1'gícRÚÅÛ<¯O=aÞËë2æ®ÓK¼üØï$¸ÍÄ)ÒèÖò*HM|E·Êé\ÆFÙhiáø]lã"#åµÔCõÌ¬4ÇeÀ!bmÁ{GÜW»½}qDç¶ðù§IÈ+SºV?U6×	o5°_ì>àÏêf©sÑz­ÉyäJ¿Nt;
 - (void)Sã¢ª±	]­³öH3ªö+&/NzÑë[W;
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSString *listIdentifier; // @synthesize listIdentifier=_listIdentifier;
-@property(retain) AMSDoubleLinkedListNode *next; // @synthesize next=_next;
-@property(retain) id object; // @synthesize object=_object;
-@property __weak AMSDoubleLinkedListNode *previous; // @synthesize previous=_previous;
 
 @end
 

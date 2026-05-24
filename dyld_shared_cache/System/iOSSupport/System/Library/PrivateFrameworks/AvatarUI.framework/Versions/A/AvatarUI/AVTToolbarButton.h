@@ -9,16 +9,14 @@
 @interface AVTToolbarButton
 {
     _Bool _isDefault;
-    NSString *_title;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDefault; // @synthesize isDefault=_isDefault;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

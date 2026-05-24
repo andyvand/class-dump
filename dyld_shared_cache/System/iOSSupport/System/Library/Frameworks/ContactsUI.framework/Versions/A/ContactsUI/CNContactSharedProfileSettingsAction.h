@@ -6,39 +6,29 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContactStore, NSString;
-@protocol CNContactSharedProfileSettingsActionDelegate;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNContactSharedProfileSettingsAction : CNContactAction
 {
     CNContactStore *_contactStore;
-    id <CNContactSharedProfileSettingsActionDelegate> _sharedProfileSettingsActionDelegate;
 }
 
 + (id);
-- (void);
+- (void)T(;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void)d,N,V_photoMinTopMargin;
-- (void)ianBirthday;
+- (void)nonGregorianBirthday;
 - (id)Áðÿ!pT;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNContactSharedProfileSettingsActionDelegate> sharedProfileSettingsActionDelegate; // @synthesize sharedProfileSettingsActionDelegate=_sharedProfileSettingsActionDelegate;
-@property(readonly) Class superclass;
 
 @end
 

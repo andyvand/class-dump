@@ -6,17 +6,12 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class SXConvertiblePoint, UIColor;
-
 @interface SXComponentShadow : SXJSONObject
 {
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *color; // @dynamic color;
-@property(readonly, nonatomic) SXConvertiblePoint *offset; // @dynamic offset;
-@property(readonly, nonatomic) double opacity; // @dynamic opacity;
 @property(readonly, nonatomic) struct _SXConvertibleValue radius; // @dynamic radius;
 @end
 

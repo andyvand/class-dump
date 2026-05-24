@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoSourceTokenManager
 {
     VCVideoSourceTokenManager *_tokenManager;
-    NSMutableDictionary *_videoSourceTokens;
-    NSMutableDictionary *_sourceNames;
-    unsigned long long _identifierSeeds[4];
-    NSObject<OS_dispatch_queue> *_tokenManagerQueue;
 }
 
 + (id)aptureServer [%s] %s:%d Stream input capture source already registered. newCaptureSourceID=%@ /* Error: Ran out of types for this method. */;

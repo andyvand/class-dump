@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _NSTouchBarSpacePreviewView : NSView
 {
     CALayer *_dotsLayer;
-    NSView *_backgroundView;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)validate;
 - (id)68@0:(struct CGRect)arg1 8q16{CGRect={CGPoint=dd}{CGSize=dd}}24@56B64;
 - (void)in setCollectionViewLayout: /* Error: Ran out of types for this method. */;
 

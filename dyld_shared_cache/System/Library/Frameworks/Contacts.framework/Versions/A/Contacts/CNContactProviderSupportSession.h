@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSProgress, NSString;
+@class NSProgress, NSString;
 
 @interface CNContactProviderSupportSession
 {
     NSString *_synchronizationReason;
-    NSProgress *_progress;
-    NSString *_displayName;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -19,23 +16,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)?;
+- (id)nFork:no remote status /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)ns;
+- (id);
 - (id);
 - (void);
 - (void)ityAlert";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSString *synchronizationReason; // @synthesize synchronizationReason=_synchronizationReason;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

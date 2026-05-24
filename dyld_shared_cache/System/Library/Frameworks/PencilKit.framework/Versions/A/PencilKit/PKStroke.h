@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBezierPath, NSUUID, PKInk, PKStrokePath, PKStrokeRenderMask;
+@class PKStrokeRenderMask;
 
 @interface PKStroke
 {
@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (long long);
-+ (struct _PKStrokePoint);
++ (struct _PKStrokePoint);
 + (id);
 + (void);
 + (struct PKCompressedStrokePoint);
@@ -44,7 +44,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,17 +59,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
@@ -152,10 +152,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)initWithBytesNoCopy:(const void *)arg1 length:(id *)arg2 encoding:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (struct CGRect);
+- (void)ModelPropertyPodcastEpisodeSeasonNumber;
+- (struct CGRect)MPModelPropertyAlbumStaticTallEditorialArtwork;
 - (struct CGPoint);
 - (unsigned int);
 - (double);
@@ -165,50 +165,33 @@
 - (struct CGRect);
 - (double);
 - (void);
-- (CDStruct_3593b622);
+- (CDStruct_b73f67e6);
 - (struct CGAffineTransform);
-- (id);
+- (id)TLAlertTopicTextMessageAcknowledgmentHaHa;
 - (_Bool);
-- (struct CGAffineTransform);
-- (id);
+- (struct CGAffineTransform)fetchActiveLibraryScopeWithOptions: /* Error: Ran out of types for this method. */;
+- (id)PHImportUrlSource;
 - (unsigned long long);
 - (double);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_text_4s;
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_eventLogTime;
 - (double);
 - (_Bool);
-- (id)dDescriptionForStrokes:(id)arg1;
-- (id)drawingPixelSize;
+- (id)_uuidDescriptionForStrokes:(id)arg1;
+- (id)_drawingPixelSize;
 - (double)?dÚêÿuÈ?Úêÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setBounds:) struct CGRect _bounds;
-@property(nonatomic, getter=_isInProgressScribbleStroke, setter=_setIsInProgressScribbleStroke:) _Bool _isInProgressScribbleStroke;
-@property(readonly, nonatomic) _Bool _isInternal;
-@property(nonatomic, getter=_isNewCopy, setter=_setIsNewCopy:) _Bool _isNewCopy;
 @property(copy, nonatomic, setter=_setRenderMask:) PKStrokeRenderMask *_renderMask;
-@property(retain, nonatomic) PKStrokePath *_strokeData;
-@property(readonly, nonatomic) NSUUID *_strokeDataUUID;
-@property(nonatomic, setter=_setTransform:) struct CGAffineTransform _transform;
-@property(readonly, nonatomic) struct CGRect _untransformedBounds;
-@property(readonly, nonatomic) double endTimestamp;
-@property(retain, nonatomic) PKInk *ink;
-@property(readonly, nonatomic) NSBezierPath *mask;
-@property(readonly, nonatomic) NSArray *maskedPathRanges;
-@property(readonly, nonatomic) PKStrokePath *path;
-@property(readonly, nonatomic) unsigned int randomSeed;
-@property(readonly, nonatomic) struct CGRect renderBounds;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) struct CGAffineTransform transform;
 
 @end
 

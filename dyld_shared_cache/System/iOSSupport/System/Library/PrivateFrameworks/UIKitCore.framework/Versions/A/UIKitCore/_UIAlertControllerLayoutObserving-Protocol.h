@@ -5,5 +5,11 @@
 //
 
 @protocol _UIAlertControllerLayoutObserving
+- (void)"NSSet"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)128@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120 /* Error: Ran out of types for this method. */;
+- (void)initWithEnvironmentName:namedDelegatePort:queue: /* Error: Ran out of types for this method. */;
+- (void)initWithChatStatus:chat:style:displayName:groupID:lastAddressedHandle:handleInfo: /* Error: Ran out of types for this method. */;
+- (void)groupParticipantVersion;
+- (void)_relayMessageDict:command:messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:extraOptions:requiredCapabilities: /* Error: Ran out of types for this method. */;
 @end
 

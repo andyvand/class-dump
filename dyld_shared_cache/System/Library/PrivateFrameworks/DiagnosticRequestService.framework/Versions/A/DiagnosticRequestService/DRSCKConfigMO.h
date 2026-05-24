@@ -9,12 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)canChangeLayoutOrientation;
 
 // Remaining properties
 @property(nonatomic) short containerEnvironment; // @dynamic containerEnvironment;
-@property(nonatomic) _Bool overridesDefault; // @dynamic overridesDefault;
-@property(nonatomic) short rapidEnvironment; // @dynamic rapidEnvironment;
 
 @end
 

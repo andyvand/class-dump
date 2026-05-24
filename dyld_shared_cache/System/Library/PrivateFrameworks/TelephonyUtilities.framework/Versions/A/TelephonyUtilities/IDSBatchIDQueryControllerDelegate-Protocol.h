@@ -5,5 +5,9 @@
 //
 
 @protocol IDSBatchIDQueryControllerDelegate
+- (void);
+
+@optional
+- (void)qA;
 @end
 

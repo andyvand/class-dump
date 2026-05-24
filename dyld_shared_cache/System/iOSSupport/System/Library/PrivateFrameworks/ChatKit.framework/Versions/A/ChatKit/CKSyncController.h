@@ -7,26 +7,22 @@
 @interface CKSyncController
 {
     _Bool _restoring;
-    int _restoreStateChangedToken;
-    int _attachmentRestoredToken;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
+- (void)unregisterForRemoteControlEvents;
+- (void)ic_preferredFontForTitleTextWithContentSizeCategory:(_Bool)arg1 isForPrint:isReducedSize: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForTitleTextWithContentSizeCategory:(int)arg1 isForPrint:isReducedSize: /* Error: Ran out of types for this method. */;
+- (void)boundingRectWithSize:(int)arg1 options:context: /* Error: Ran out of types for this method. */;
+- (int)_scaleImageToIconSize;
+- (void)rHeadingRename;
+- (void)hmentID;
 - (_Bool);
 - (int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int attachmentRestoredToken; // @synthesize attachmentRestoredToken=_attachmentRestoredToken;
-@property(nonatomic) int restoreStateChangedToken; // @synthesize restoreStateChangedToken=_restoreStateChangedToken;
 @property(nonatomic, getter=isRestoring) _Bool restoring; // @synthesize restoring=_restoring;
 
 @end

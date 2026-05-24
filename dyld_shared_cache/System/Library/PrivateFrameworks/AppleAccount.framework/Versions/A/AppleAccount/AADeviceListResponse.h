@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)overyContact:hasRecoveryKey: /* Error: Ran out of types for this method. */;
+- (void)initWithHasRecoveryContact:hasRecoveryKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;

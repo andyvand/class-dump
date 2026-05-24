@@ -7,7 +7,6 @@
 @interface ChronoKit.ReloadTaskCancellable
 {
     id cancellable;
-    id _description;
 }
 
 @end

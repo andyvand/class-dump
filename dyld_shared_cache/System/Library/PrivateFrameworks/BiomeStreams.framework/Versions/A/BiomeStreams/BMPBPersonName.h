@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBNameComponents, NSString;
+@class NSString;
 
 @interface BMPBPersonName
 {
     NSString *_name;
-    BMPBNameComponents *_nameComponents;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)i;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)fetchPropertiesWithOptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasNameComponents;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) BMPBNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
 
 @end
 

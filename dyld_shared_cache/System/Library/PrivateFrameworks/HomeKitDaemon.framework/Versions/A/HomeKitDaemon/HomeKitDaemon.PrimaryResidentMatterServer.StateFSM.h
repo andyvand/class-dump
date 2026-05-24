@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.PrimaryResidentMatterServer.StateFSM
 {
     id $defaultActor;
-    id state;
-    id serialWorkloop;
 }
 
 @end

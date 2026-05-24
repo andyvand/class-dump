@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKCurrencyAmount
 {
     NSDecimalNumber *_amount;
-    NSString *_currency;
-    long long _exponent;
-    NSString *_preformattedString;
 }
 
 + (id);
@@ -20,13 +17,13 @@
 × ;
 - (void);
 - (id);
+- (id)L;
+- (id);
+- (id);
+- (_Bool)A;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)x;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -36,29 +33,26 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasRxGoodPlcps;
 - (void);
 - (id);
 - (id);
-- (id)ers;
+- (id)_publishedColorShapeLayers;
 - (void)MM-dd'T'HH:mmZZZZZ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(nonatomic) long long exponent; // @synthesize exponent=_exponent;
-@property(copy, nonatomic) NSString *preformattedString; // @synthesize preformattedString=_preformattedString;
 
 @end
 

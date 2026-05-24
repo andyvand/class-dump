@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)stopPictureInPicture;
 
 // Remaining properties
 @property(readonly) unsigned int securityDomain; // @synthesize securityDomain=_securityDomain;

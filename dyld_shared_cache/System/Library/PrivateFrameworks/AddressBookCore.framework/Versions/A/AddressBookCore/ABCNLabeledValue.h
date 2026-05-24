@@ -5,15 +5,13 @@
 //
 
 @class ABCNLabelValuePair, NSString;
-@protocol NSCopying><NSSecureCoding;
 
 @interface ABCNLabeledValue
 {
     NSString *_identifier;
-    ABCNLabelValuePair *_labelValuePair;
 }
 
-+ (id);
++ (id)`;
 + (CDUnknownBlockType);
 + (id);
 + (_Bool);
@@ -25,29 +23,26 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)s;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (void)8t;
 - (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)@;
+- (unsigned long long)hasSecureBackupNumericPassphraseLength;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P<;
 
 // Remaining properties
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *label;
 @property(readonly) ABCNLabelValuePair *labelValuePair; // @synthesize labelValuePair=_labelValuePair;
-@property(readonly, copy) id <NSCopying><NSSecureCoding> value;
 
 @end
 

@@ -4,52 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
-
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _CGSDisplayModeDescription {
-    int displayModeNumber;
-    int flags;
-    int width;
-    int height;
-    int depth;
-    int rowBytes;
-    int bitsPerPixel;
-    int bitsPerSample;
-    int samplesPerPixel;
-    int refreshRate;
-    int horizontalResolution;
-    int verticalResolution;
-    char encoding[129];
-    int version;
-    int length;
-    int fixPtRefreshRate;
-    int ioModeInfoFlags;
-    int ioDisplayModeNumber;
-    int pixelsWide;
-    int pixelsHigh;
-    float resolution;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    int _field5;
+    int _field6;
+    int _field7;
+    int _field8;
+    int _field9;
+    int _field10;
+    int _field11;
+    int _field12;
+    char _field13[129];
+    int _field14;
+    int _field15;
+    int _field16;
+    int _field17;
+    int _field18;
+    int _field19;
+    int _field20;
+    float _field21;
 };
 

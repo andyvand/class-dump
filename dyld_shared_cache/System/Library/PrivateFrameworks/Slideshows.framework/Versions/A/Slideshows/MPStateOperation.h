@@ -11,7 +11,6 @@
 @interface MPStateOperation : MPAction
 {
     NSString *_operation;
-    NSString *_stateKey;
 }
 
 + (id);
@@ -25,11 +24,10 @@
 - (void);
 - (id)copyTexts: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)lViewMatrix;
+- (void)modelViewMatrix;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *operation; // @synthesize operation=_operation;
-@property(copy, nonatomic) NSString *stateKey; // @synthesize stateKey=_stateKey;
 
 @end
 

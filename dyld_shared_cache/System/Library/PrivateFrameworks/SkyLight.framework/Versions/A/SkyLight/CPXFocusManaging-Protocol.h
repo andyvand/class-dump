@@ -4,14 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CPXFocusControlling;
+@protocol BSInvalidatable, CPXFocusControlling;
 
 @protocol CPXFocusManaging
+- (id <BSInvalidatable>)posite %@ is not.;
+- (void)mErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (unsigned int)ormResetZoneRequest:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)redata.cloudkit.zone.reset;
+- (_Bool)ortFinishedWithResult:(struct CPSProcessRec *)arg1 exporter:] /* Error: Ran out of types for this method. */;
+- (_Bool)offendingPredicate;
+- (struct CPSProcessRec *)@;;
+- (struct CPSProcessRec *)EW.%@ AND (%@)) WHERE %@ = NEW.%@;;
+- (void)rString/;
+- (id <CPXFocusControlling>)mportOperationsAndAccumulateRecordsWithManagedObjectContext:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CPXFocusControlling> focusController;
-@property(readonly, nonatomic) struct CPSProcessRec *frontVisibleProcess;
 @property(readonly, nonatomic) struct CPSProcessRec *frontmostProcess;
-@property(readonly, nonatomic) unsigned int keyThiefConnectionID;
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLFingerprintContext, CPLPlatformObject, NSArray, NSString;
-@protocol CPLSharedRecordPropertyMapping;
+@class CPLPlatformObject, NSArray;
 
 @interface CPLEngineTransport
 {
     CPLPlatformObject *_platformObject;
-    CPLEngineLibrary *_engineLibrary;
 }
 
 + (id);
+- (id)y %{public}@ (known folders:%{public}@), for %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,8 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)R";
 - (_Bool);
 - (id);
 - (id);
@@ -56,21 +54,21 @@
 - (id);
 - (id);
 - (id);
+- (id)A;
 - (id);
 - (id);
-- (id)aseFullSize_;
-- (id)M;
-- (id)µ°y¹uj(øè@ù©÷)ñEù)@ù?ëA	;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)';
+- (id);
+- (id)_;
 - (id);
 - (id);
-- (id)ÐñEù@ù¨ø;
-- (id)à­à­à@ù*ÚýªZ¸ö;
-- (id)ñEù@ùè;
-- (id)ªR+àø;
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -80,8 +78,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)e;
+- (_Bool)r;
 - (void);
 - (id);
 - (id);
@@ -101,27 +99,27 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)serr = %s;
 - (id);
 - (void);
-- (id);
+- (id)n';
 - (void);
 - (id)°!ØGù±1Â0@ù
 × ;
 - (id)Ð!;
 - (void);
 - (id)B40B48@52^@60;
-- (id)aredCloudScopedIdentifier:(id)arg1 trustRecordChangeData:(id)arg2;
-- (id);
-- (id)QueuePerResourceTypeAndTransferIntent;
+- (id)targetForRecordWithSharedCloudScopedIdentifier:(id)arg1 trustRecordChangeData:(id)arg2;
+- (id)hasValidSystemBudget;
+- (id)_lowPriorityQueuePerResourceTypeAndTransferIntent;
 - (id)fiedType;
-- (id)iption;
+- (id)cplQueryCursorSimpleDescription;
 - (void)V_resourceCopyFromScopedIdentifier;
 - (void)k space;
 - (void)olibrary/Framework/Sources/CPLErrors.m;
@@ -132,20 +130,7 @@
 - (id)æ½;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(readonly) CPLFingerprintContext *fingerprintContext;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *involvedProcesses;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) id <CPLSharedRecordPropertyMapping> propertyMapping;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Class transportGroupClass;
-@property(readonly, nonatomic) Class userIdentifierClass;
 
 @end
 

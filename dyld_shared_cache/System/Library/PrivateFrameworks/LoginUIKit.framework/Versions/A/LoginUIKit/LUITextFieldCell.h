@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 - (void)0@0:8@"NSCollectionView"16@"NSURL"24@"NSIndexSet"32 /* Error: Ran out of types for this method. */;

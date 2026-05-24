@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface SFSharablePassword
 {
     NSString *_username;
-    NSString *_password;
-    NSString *_displayName;
-    NSString *_highLevelDomain;
-    NSArray *_additionalSites;
-    NSURL *_otpAuthURL;
-    NSString *_notesEntry;
-    NSString *_customTitle;
-    NSArray *_protectionSpaces;
-    NSData *_passkeyCredentialID;
-    NSData *_passkeyCredential;
-    NSString *_passkeyRelyingPartyID;
 }
 
 + (id);
@@ -27,24 +16,24 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)inputLowCurvatureThreshold;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`@�bB@9O;
 - (id);
 - (_Bool);
 - (id);
@@ -59,28 +48,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)actDisplayName;
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *additionalSites; // @synthesize additionalSites=_additionalSites;
-@property(readonly, copy, nonatomic) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) _Bool hasAnyCredentialData;
-@property(readonly, nonatomic) _Bool hasPasswordWithConflicts;
-@property(readonly, copy, nonatomic) NSString *highLevelDomain; // @synthesize highLevelDomain=_highLevelDomain;
-@property(readonly, copy, nonatomic) NSString *notesEntry; // @synthesize notesEntry=_notesEntry;
-@property(readonly, copy, nonatomic) NSURL *otpAuthURL; // @synthesize otpAuthURL=_otpAuthURL;
-@property(readonly, copy, nonatomic) NSData *passkeyCredential; // @synthesize passkeyCredential=_passkeyCredential;
-@property(readonly, copy, nonatomic) NSData *passkeyCredentialID; // @synthesize passkeyCredentialID=_passkeyCredentialID;
-@property(readonly, copy, nonatomic) NSString *passkeyRelyingPartyID; // @synthesize passkeyRelyingPartyID=_passkeyRelyingPartyID;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, nonatomic) NSURL *passwordManagerURL;
-@property(readonly, copy, nonatomic) NSArray *protectionSpaces; // @synthesize protectionSpaces=_protectionSpaces;
-@property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

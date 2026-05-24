@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ppearanceCallbacksWhenScrolling;
-- (void)tInsets;
-- (void)chHighlighting;
+- (void)_shouldGenerateAppearanceCallbacksWhenScrolling;
+- (void)_baseContentInsets;
+- (void)suspendInstantTouchHighlighting;
 - (void);
 - (void)H¨ÿ;
 

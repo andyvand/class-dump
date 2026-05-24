@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelFileAsset, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPCAssetLoadPropertiesLocalFileEvaluation
 {
     _Bool _fileMatchesRequiredFileFormat;
-    _Bool _fileMatchesRequiredQuality;
-    _Bool _fileIsDownloaded;
-    _Bool _fileIsCached;
-    _Bool _fileIsHLS;
-    MPModelFileAsset *_fileAsset;
-    long long _status;
-    long long _recommendation;
-    long long _fileAssetType;
-    long long _expectedAssetType;
-    long long _fileQualityType;
-    long long _expectedQualityType;
-    NSString *_filePath;
-    long long _HLSContentPolicy;
 }
 
 - (void);
@@ -60,21 +45,6 @@ __attribute__((visibility("hidden")))
 - (void){public}@ %{public}@;
 
 // Remaining properties
-@property(nonatomic) long long HLSContentPolicy; // @synthesize HLSContentPolicy=_HLSContentPolicy;
-@property(nonatomic) long long expectedAssetType; // @synthesize expectedAssetType=_expectedAssetType;
-@property(nonatomic) long long expectedQualityType; // @synthesize expectedQualityType=_expectedQualityType;
-@property(readonly, copy, nonatomic) MPModelFileAsset *fileAsset; // @synthesize fileAsset=_fileAsset;
-@property(nonatomic) long long fileAssetType; // @synthesize fileAssetType=_fileAssetType;
-@property(nonatomic) _Bool fileIsCached; // @synthesize fileIsCached=_fileIsCached;
-@property(nonatomic) _Bool fileIsDownloaded; // @synthesize fileIsDownloaded=_fileIsDownloaded;
-@property(nonatomic) _Bool fileIsHLS; // @synthesize fileIsHLS=_fileIsHLS;
-@property(readonly, nonatomic) _Bool fileIsValid;
-@property(nonatomic) _Bool fileMatchesRequiredFileFormat; // @synthesize fileMatchesRequiredFileFormat=_fileMatchesRequiredFileFormat;
-@property(nonatomic) _Bool fileMatchesRequiredQuality; // @synthesize fileMatchesRequiredQuality=_fileMatchesRequiredQuality;
-@property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(nonatomic) long long fileQualityType; // @synthesize fileQualityType=_fileQualityType;
-@property(readonly, nonatomic) _Bool fileShouldBeUpdated;
-@property(nonatomic) long long recommendation; // @synthesize recommendation=_recommendation;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

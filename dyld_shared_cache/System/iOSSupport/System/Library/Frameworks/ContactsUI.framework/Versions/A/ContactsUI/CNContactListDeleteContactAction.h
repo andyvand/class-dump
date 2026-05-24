@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, CNUICoreRecentsManager, NSString;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListDeleteContactAction
 {
     CNContact *_contact;
-    NSString *_containerIdentifier;
-    CNUICoreRecentsManager *_recentsManager;
-    CNContactStore *_contactStore;
 }
 
 + (id)ÁDð!D@ùqt°1Â0@ù
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)CoreCDPUI;
 - (id);
 - (void);
 - (id);
@@ -34,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(retain, nonatomic) CNUICoreRecentsManager *recentsManager; // @synthesize recentsManager=_recentsManager;
 
 @end
 

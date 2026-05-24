@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)@;
 - (_Bool);
-- (id);
+- (id)safeUIViewForKey: /* Error: Ran out of types for this method. */;
 
 @end
 

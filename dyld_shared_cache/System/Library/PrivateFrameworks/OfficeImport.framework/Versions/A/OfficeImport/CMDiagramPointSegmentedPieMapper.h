@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramPointSegmentedPieMapper : CMDiagramPointMapper
 {
     double mStartAngle;
-    double mStopAngle;
-    _Bool mDrawArrows;
-    unsigned long long mSegmentIndex;
-    unsigned long long mSegmentCount;
 }
 
 - (id);

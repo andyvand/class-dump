@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKSource, NSString;
+@class EKSource;
 
 @interface EKNotificationCollectionOptions
 {
     EKSource *_source;
-    NSString *_externalID;
-    NSString *_externalIDTag;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tion for loading modelUUID=%@;
 - (id);
 - (void)Á#!Gùq2'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(readonly, nonatomic) NSString *externalIDTag; // @synthesize externalIDTag=_externalIDTag;
 @property(readonly, nonatomic) EKSource *source; // @synthesize source=_source;
 
 @end

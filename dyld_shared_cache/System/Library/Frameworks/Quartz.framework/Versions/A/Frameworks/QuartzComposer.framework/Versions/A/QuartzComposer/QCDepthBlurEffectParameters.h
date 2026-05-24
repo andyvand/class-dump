@@ -6,20 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCNumberPort, QCStringPort, QCStructurePort;
+@class QCStructurePort;
 
 @interface QCDepthBlurEffectParameters : QCPatch
 {
     QCStructurePort *inputImages;
-    QCImagePort *outputImage;
-    QCImagePort *outputDisparityImage;
-    QCImagePort *outputAlphaMatteImage;
-    QCNumberPort *outputFocusRectOriginX;
-    QCNumberPort *outputFocusRectOriginY;
-    QCNumberPort *outputFocusRectSizeWidth;
-    QCNumberPort *outputFocusRectSizeHeight;
-    QCStringPort *outputMetadata;
-    QCStructurePort *outputFacialLandmarks;
 }
 
 + (_Bool);

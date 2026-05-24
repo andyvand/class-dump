@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKParticipant, NSArray, NSDate, NSMutableArray, UIActivityIndicatorView;
+@class EKParticipant, NSMutableArray;
 
 @interface EKUIAvailabilityRowView
 {
     NSMutableArray *_spanViews;
-    UIActivityIndicatorView *_activityIndicator;
-    NSDate *_startOfDay;
-    NSMutableArray *_spans;
-    _Bool _isLoading;
-    EKParticipant *_participant;
 }
 
 + (double);
 + (double);
-- (void);
+- (void)&s;
 - (struct CGRect);
 - (double);
+- (void)Y%s;
 - (void);
-- (void);
-- (void);
+- (void);&s;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void):event: /* Error: Ran out of types for this method. */;
+- (void)sortEKParticipantsIgnoringNonHumans:event: /* Error: Ran out of types for this method. */;
 - (_Bool)lic}@; externalId = %@);
 
 // Remaining properties
-@property(readonly) _Bool isLoading; // @synthesize isLoading=_isLoading;
 @property(readonly) EKParticipant *participant; // @synthesize participant=_participant;
-@property(readonly) NSArray *spans;
 
 @end
 

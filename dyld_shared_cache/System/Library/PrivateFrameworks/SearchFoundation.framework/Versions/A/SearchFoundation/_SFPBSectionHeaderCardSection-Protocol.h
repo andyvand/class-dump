@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBRichText;
+@class NSArray, NSData;
 
 @protocol _SFPBSectionHeaderCardSection
-- (int);
+- (void);
+- (_Bool)setCompletedUnitCount: /* Error: Ran out of types for this method. */;
+- (_Bool)setBagProfileVersion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (NSData *)ppingVideoRenderURL;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *text;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -12,12 +12,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)A9k`	;
+- (id)p;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)domination;
 
 // Remaining properties
 @property(readonly) unsigned long long sleepWakeState; // @synthesize sleepWakeState=_sleepWakeState;

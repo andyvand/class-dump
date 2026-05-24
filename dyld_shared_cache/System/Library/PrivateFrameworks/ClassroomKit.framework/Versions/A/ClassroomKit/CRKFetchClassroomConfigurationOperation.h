@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteTaskOperation, NSDictionary;
 @protocol CRKFeatureFlags, CRKRequestPerformingProtocol;
 
 @interface CRKFetchClassroomConfigurationOperation
 {
     id <CRKRequestPerformingProtocol> mStudentDaemonProxy;
-    NSDictionary *mSourcesByType;
-    CATRemoteTaskOperation *mFetchConfigurationOperation;
-    id <CRKFeatureFlags> _featureFlags;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void)StudentTargets;
+- (void)startBrowsingForStudentTargets;
 - (_Bool)@5¹;
 
 // Remaining properties

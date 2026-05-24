@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _LSBindingForLog
 {
     _LSDatabase *_db;
-    struct LSBinding _binding;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 
 @end

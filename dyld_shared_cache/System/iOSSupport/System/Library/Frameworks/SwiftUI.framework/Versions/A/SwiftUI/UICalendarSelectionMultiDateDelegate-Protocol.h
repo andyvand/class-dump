@@ -5,5 +5,7 @@
 //
 
 @protocol UICalendarSelectionMultiDateDelegate
+- (void);
+- (void)R;
 @end
 

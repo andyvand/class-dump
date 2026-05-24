@@ -9,29 +9,25 @@
 @interface PKIdentityProvisioningSupplementalData
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_accountKeyIdentifier;
 }
 
 + (id);
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)activeRequestTimeoutWithLocationServiceEnabledRoutineDisabled;
 - (id);
 - (void)ies:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountKeyIdentifier; // @synthesize accountKeyIdentifier=_accountKeyIdentifier;
-@property(retain, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

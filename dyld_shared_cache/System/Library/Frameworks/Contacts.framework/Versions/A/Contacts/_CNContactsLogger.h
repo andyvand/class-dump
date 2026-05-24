@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _CNContactsLogger
@@ -15,14 +15,14 @@
 - (void);
 - (void);
 - (void);
+- (void)fo"8@"NSError"16;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -31,6 +31,7 @@
 - (id);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -41,6 +42,20 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)rovidingResponse"@"NSError">32;
+- (void)@16B24@?28;
+- (void)substringFromIndex:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ANGROVE CoreGraphicsXPCServices:(CDUnknownBlockType)arg1 CGXPC_RegisterCallbacksAndBringAirDisplayOnline received display 0x%x status = %d;
+- (void)rt-circuit:(CDUnknownBlockType)arg1 setting some outputs in totality (no others except what we set here) and exit;
 - (void);
 - (void);
 - (void);
@@ -48,22 +63,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,14 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
 
 @end
 

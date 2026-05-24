@@ -7,33 +7,12 @@
 @interface WiFiAnalyticsAWDWiFiDPSNotification
 {
     unsigned long long _timestamp;
-    unsigned int _cca;
-    unsigned int _problemAC;
-    int _symptom;
-    unsigned int _txBETrId;
-    unsigned int _txBKTrId;
-    unsigned int _txVITrId;
-    unsigned int _txVOTrId;
-    _Bool _facetimeCallInProgress;
-    _Bool _isNANEnabled;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int cca:1;
-        unsigned int problemAC:1;
-        unsigned int symptom:1;
-        unsigned int txBETrId:1;
-        unsigned int txBKTrId:1;
-        unsigned int txVITrId:1;
-        unsigned int txVOTrId:1;
-        unsigned int facetimeCallInProgress:1;
-        unsigned int isNANEnabled:1;
-    } _has;
 }
 
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -42,20 +21,20 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)x-;
+- (_Bool)@;
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void)`;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)n CodableObject contents;
+- (void)XPCReceivedMessage;
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -64,7 +43,7 @@
 - (_Bool);
 - (int);
 - (int);
-- (id);
+- (id)bject with includeConcealedObjects=YES and we can only return nil deletion key {objectID:%{public}@, modelObject:%{public}@, clientID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -73,36 +52,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_	;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)st [T = float, N = 1];
 - (id);
 - (unsigned int)ploymentAnalyzer _updateCoverageIfNeededForNetwork:newCoverage:pastWeekUsage:] /* Error: Ran out of types for this method. */;
-- (void)s_TxDutyCycle_pct_;
+- (void)DiffcontrollerStats_impedingFunctions_TxDutyCycle_pct_;
 
 // Remaining properties
-@property(nonatomic) unsigned int cca; // @synthesize cca=_cca;
-@property(nonatomic) _Bool facetimeCallInProgress; // @synthesize facetimeCallInProgress=_facetimeCallInProgress;
-@property(nonatomic) _Bool hasCca;
-@property(nonatomic) _Bool hasFacetimeCallInProgress;
-@property(nonatomic) _Bool hasIsNANEnabled;
-@property(nonatomic) _Bool hasProblemAC;
-@property(nonatomic) _Bool hasSymptom;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTxBETrId;
-@property(nonatomic) _Bool hasTxBKTrId;
-@property(nonatomic) _Bool hasTxVITrId;
-@property(nonatomic) _Bool hasTxVOTrId;
-@property(nonatomic) _Bool isNANEnabled; // @synthesize isNANEnabled=_isNANEnabled;
-@property(nonatomic) unsigned int problemAC; // @synthesize problemAC=_problemAC;
-@property(nonatomic) int symptom; // @synthesize symptom=_symptom;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int txBETrId; // @synthesize txBETrId=_txBETrId;
-@property(nonatomic) unsigned int txBKTrId; // @synthesize txBKTrId=_txBKTrId;
-@property(nonatomic) unsigned int txVITrId; // @synthesize txVITrId=_txVITrId;
-@property(nonatomic) unsigned int txVOTrId; // @synthesize txVOTrId=_txVOTrId;
 
 @end
 

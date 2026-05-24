@@ -6,21 +6,9 @@
 
 #import <UIKitCore/UILabel.h>
 
-@class NSCalendar, NSDate, NSString, UIFont;
-
 @interface UIDateLabel : UILabel
 {
     _Bool _forceTimeOnly;
-    NSDate *_date;
-    _Bool _boldForAllLocales;
-    NSDate *_yesterday;
-    NSDate *_today;
-    NSDate *_noon;
-    NSDate *_tomorrow;
-    NSDate *_weekdayFormatCutoff;
-    NSCalendar *_calendar;
-    _Bool _shouldRecomputeText;
-    double _paddingFromTimeToDesignator;
 }
 
 + (id);
@@ -30,14 +18,14 @@
 × ;
 + (id)ÿ;
 + (id)ÞÄÉ`õr;
-- (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
+- (struct CGSize)style is not supported %hhu;
+- (id)t appears to need recovery but style is not supported %hhu;
+- (id)s and GUID %s;
+- (_Bool)stener Client %d connection invalidated;
+- (void)d with given data. This is bad.;
+- (void)AUTOMATION_HOOK_SNAPNotificationSent;
+- (void)hoto/video URL:(_Bool)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
+- (double)eating account id:%@    defaults:%@    on service:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -66,23 +54,12 @@
 - (void)rtView",&,N,V_bottomLeft;
 - (id)gate",&,N,V_selectableDelegate;
 - (void);
-- (struct CGSize)erfaceStyle;
-- (id)ebugIdentifierLabelSceneComponentKey;
+- (struct CGSize)glassUserInterfaceStyle;
+- (id)_UIDebugIdentifierLabelSceneComponentKey;
 - (void)L´h;
 - (double)\¡jþH1Ñî·j;
 
 // Remaining properties
-@property(nonatomic) _Bool boldForAllLocales; // @synthesize boldForAllLocales=_boldForAllLocales;
-@property(retain, nonatomic) NSDate *date;
-@property(readonly, nonatomic, getter=_dateString) NSString *dateString;
-@property(nonatomic) _Bool forceTimeOnly; // @synthesize forceTimeOnly=_forceTimeOnly;
-@property(nonatomic) double paddingFromTimeToDesignator; // @synthesize paddingFromTimeToDesignator=_paddingFromTimeToDesignator;
-@property(nonatomic) _Bool shouldRecomputeText; // @synthesize shouldRecomputeText=_shouldRecomputeText;
-@property(readonly, nonatomic) NSString *timeDesignator;
-@property(readonly, nonatomic) _Bool timeDesignatorAppearsBeforeTime;
-@property(readonly, nonatomic) UIFont *timeDesignatorFont;
-@property(readonly, nonatomic) struct CGSize timeDesignatorSize;
-@property(nonatomic) double timeInterval;
 @property(readonly, nonatomic) _Bool use24HourTime;
 
 @end

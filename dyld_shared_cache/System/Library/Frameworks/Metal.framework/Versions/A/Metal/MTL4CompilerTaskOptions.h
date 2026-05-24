@@ -17,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *lookupArchives; // @synthesize lookupArchives=_lookupArchives;

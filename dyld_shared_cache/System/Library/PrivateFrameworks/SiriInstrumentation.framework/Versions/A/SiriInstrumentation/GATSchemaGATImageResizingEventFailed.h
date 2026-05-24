@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATError, NSData;
-
 @interface GATSchemaGATImageResizingEventFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    GATSchemaGATError *_error;
-    CDStruct_7b2c8649 _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -23,13 +17,13 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)_splatRestoreVersionPlistContents;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)s;
+- (id)@;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_setChildrenToneClassicsPickerItems: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -45,13 +39,7 @@
 - (int)a +;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATError *error; // @synthesize error=_error;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

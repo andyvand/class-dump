@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLRecordChange, NSString;
-
 @interface CPLRecordStatus
 {
     union {
@@ -23,57 +21,42 @@
         } status;
         unsigned int packedStatus;
     } _status;
-    CPLRecordChange *_record;
-    unsigned long long _generation;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)f;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (_Bool)assetFlag;
-- (void)àRàW@ù} ÃÑR
-àªxàªvàªtý{R©ôOQ©öWP©ø_O©üoN©é#MmÿÃÿ_Öó;
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (void)!ìDùÑÐ1Â0@ù
 × ;
 - (id)identifier %@ to a cloud identifier after records have been rejected;
 
 // Remaining properties
-@property(nonatomic, getter=isConfirmed) _Bool confirmed;
 @property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(nonatomic, getter=isQuarantined) _Bool quarantined;
-@property(readonly, nonatomic) CPLRecordChange *record; // @synthesize record=_record;
-@property(nonatomic, getter=isResetting) _Bool resetting;
-@property(nonatomic, getter=isShared) _Bool shared;
-@property(readonly, nonatomic) NSString *statusDescription;
-@property(nonatomic, getter=isUnknown) _Bool unknown;
-@property(nonatomic, getter=isUpdating) _Bool updating;
-@property(nonatomic, getter=isUploaded) _Bool uploaded;
-@property(nonatomic, getter=isUploading) _Bool uploading;
-@property(nonatomic, getter=isWaitingForUpdate) _Bool waitingForUpdate;
-@property(nonatomic, getter=isWaitingForUpload) _Bool waitingForUpload;
 
 @end
 

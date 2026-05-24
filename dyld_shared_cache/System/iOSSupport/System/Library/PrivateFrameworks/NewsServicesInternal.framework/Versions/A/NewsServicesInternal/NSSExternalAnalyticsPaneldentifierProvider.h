@@ -9,7 +9,6 @@
 @interface NSSExternalAnalyticsPaneldentifierProvider
 {
     NSString *_panelIdentifier;
-    NSArray *_hostNames;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *hostNames; // @synthesize hostNames=_hostNames;
-@property(readonly, nonatomic) NSString *panelIdentifier; // @synthesize panelIdentifier=_panelIdentifier;
 
 @end
 

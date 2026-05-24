@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface USOSerializedIdentifier
 {
     unsigned long long _nodeIndex;
-    NSString *_value;
-    NSString *_appBundleId;
-    NSString *_namespaceString;
-    NSNumber *_probability;
-    NSNumber *_sourceComponent;
-    NSNumber *_groupIndex;
-    NSNumber *_interpretationGroup;
 }
 
 + (_Bool);
@@ -33,19 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)logy.UsoTaskBuilder_repeat_common_RecipeStep;
 
 // Remaining properties
-@property(readonly) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(readonly) NSNumber *groupIndex; // @synthesize groupIndex=_groupIndex;
-@property(readonly) NSNumber *interpretationGroup; // @synthesize interpretationGroup=_interpretationGroup;
-@property(readonly) NSString *namespaceString; // @synthesize namespaceString=_namespaceString;
 @property unsigned long long nodeIndex; // @synthesize nodeIndex=_nodeIndex;
-@property(readonly) NSNumber *probability; // @synthesize probability=_probability;
-@property(readonly) NSNumber *sourceComponent; // @synthesize sourceComponent=_sourceComponent;
-@property(readonly) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol DDSTrialManagerDelegate
+- (void)�;
 @end
 

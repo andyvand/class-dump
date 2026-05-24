@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface PGMeaningActionCriteria
 {
     NSString *_actionName;
-    long long _actionValue;
-    NSDictionary *_highPrecisionThresholdByMediaAnalysisVersion;
-    NSDictionary *_highRecallThresholdByMediaAnalysisVersion;
-    NSArray *_descendingSortedMediaAnalysisVersion;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)T+;
++ (id);
++ (id);
 + (id);
 + (id);
 + (double);
-- (void);
+- (void)__DATA;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)extPosition",&,N,V_currentPosition;
+- (id)_button;
 - (id);
 - (long long);
 - (double);
 - (void);
-- (id);
-- (void);
+- (id)anticMapping.framework/Versions/A/LatentSemanticMapping;
+- (void)2;
 - (id);
 - (_Bool);
-- (void)SPeoplePortraitReason;
+- (void)WSPeoplePortraitReason;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(nonatomic) long long actionValue; // @synthesize actionValue=_actionValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSArray *descendingSortedMediaAnalysisVersion; // @synthesize descendingSortedMediaAnalysisVersion=_descendingSortedMediaAnalysisVersion;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *highPrecisionThresholdByMediaAnalysisVersion; // @synthesize highPrecisionThresholdByMediaAnalysisVersion=_highPrecisionThresholdByMediaAnalysisVersion;
-@property(retain, nonatomic) NSDictionary *highRecallThresholdByMediaAnalysisVersion; // @synthesize highRecallThresholdByMediaAnalysisVersion=_highRecallThresholdByMediaAnalysisVersion;
-@property(readonly) Class superclass;
 
 @end
 

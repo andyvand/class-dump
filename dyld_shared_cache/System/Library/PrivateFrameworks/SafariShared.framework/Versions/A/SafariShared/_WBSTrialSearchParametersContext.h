@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSTrialSearchParameters;
+@class WBSTrialSearchParameters;
 
 @interface _WBSTrialSearchParametersContext
 {
     WBSTrialSearchParameters *_searchParameters;
-    NSArray *_topHits;
-    NSArray *_historyAndBookmarkMatches;
 }
 
 - (void);
@@ -20,13 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)40@0:8@16Q24@32 /* Error: Ran out of types for this method. */;
 - (void)L;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *historyAndBookmarkMatches; // @synthesize historyAndBookmarkMatches=_historyAndBookmarkMatches;
 @property(retain, nonatomic) WBSTrialSearchParameters *searchParameters; // @synthesize searchParameters=_searchParameters;
-@property(copy, nonatomic) NSArray *topHits; // @synthesize topHits=_topHits;
 
 @end
 

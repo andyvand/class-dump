@@ -10,18 +10,16 @@
 @interface PXStoryPHMemoryPersistableRecipeWriter
 {
     PHMemory *_memory;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)eDescriptor;
+- (id)o;
+- (void)PhotoStyleViewModelChangeDescriptor;
 
 // Remaining properties
-@property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -9,11 +9,10 @@
 @interface TSDTrackingAreaAction
 {
     _Bool _replacedByNewAction;
-    TSDTrackingArea *_trackingArea;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)URLs feature disabled;
 - (void);
 - (void);
 - (void);
@@ -31,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool replacedByNewAction; // @synthesize replacedByNewAction=_replacedByNewAction;
 @property(nonatomic) TSDTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end

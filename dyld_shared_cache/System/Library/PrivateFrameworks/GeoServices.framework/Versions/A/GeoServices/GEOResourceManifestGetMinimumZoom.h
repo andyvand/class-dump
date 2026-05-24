@@ -6,31 +6,22 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOResourceManifestGetMinimumZoom : GEOXPCRequest
 {
     int _style;
 }
 
-+ (Class);
++ (Class)odyInputStream";
 - (int);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)ne_filter_protocol_input_finished;
 - (void);
-- (void)eIncidents:(id)arg1;
+- (void)setEnableIncidents:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

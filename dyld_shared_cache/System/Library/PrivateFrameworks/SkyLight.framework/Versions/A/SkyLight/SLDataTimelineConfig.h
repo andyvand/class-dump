@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SLDataTimelineConfig
 {
     NSString *_name;
-    CDUnknownBlockType _updateBlock;
-    NSObject<OS_dispatch_queue> *_updateBlockQueue;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSMutableSet *_infoOptions;
-    NSMutableDictionary *_reportIntervals;
-    NSMutableDictionary *_sampleIntervals;
 }
 
-+ (id);
++ (id)AND %@;;
+- (id)supportsRecordSharing;
+- (void)already a pending request of type '%@'.;
+- (void)occurred while configuring migration functions in the SQLite database.;
+- (void)s - %lld, historyPages - %lld;
+- (id)of deferred schema migration statements;
+- (id)n bindings:%qu, %qu, %qu, %qu /* Error: Ran out of types for this method. */;
+- (void)error.;
+- (id)oreData.SQLiteDebugSynchronous;
+- (id)n :(id)arg1 %@;
+- (void)ROM %@ WHERE %@ = OLD.%@;;
+- (id)COUNT(*) FROM %@ T1 where T1.%@ = T0.%@ and T1.%@ != OLD.Z_PK));
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (id)of input while parsing format specifier precision;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly, nonatomic) NSMutableSet *infoOptions; // @synthesize infoOptions=_infoOptions;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSMutableDictionary *reportIntervals; // @synthesize reportIntervals=_reportIntervals;
-@property(readonly, nonatomic) NSMutableDictionary *sampleIntervals; // @synthesize sampleIntervals=_sampleIntervals;
-@property(readonly, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
-@property(copy, nonatomic) NSObject<OS_dispatch_queue> *updateBlockQueue; // @synthesize updateBlockQueue=_updateBlockQueue;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol MCTaskManager
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool hasActivity;

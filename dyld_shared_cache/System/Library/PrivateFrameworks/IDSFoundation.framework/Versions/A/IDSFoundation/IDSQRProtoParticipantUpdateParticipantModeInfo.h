@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoMaterial;
-
 @interface IDSQRProtoParticipantUpdateParticipantModeInfo
 {
     unsigned long long _participantId;
-    IDSQRProtoMaterial *_clientContextBlob;
-    int _mode;
-    struct {
-        unsigned int participantId:1;
-        unsigned int mode:1;
-    } _has;
 }
 
 - (void);
@@ -24,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int));
 - (int);
 - (id);
 - (void);
@@ -33,21 +25,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)8C16r^{BluetoothDeviceAddress=[6C]}20;
 - (void);
-- (void);
-- (id);
+- (void)eSession _hearbeatTimer];
+- (id)a;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterial *clientContextBlob; // @synthesize clientContextBlob=_clientContextBlob;
-@property(readonly, nonatomic) _Bool hasClientContextBlob;
-@property(nonatomic) _Bool hasMode;
 @property(nonatomic) _Bool hasParticipantId;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned long long participantId; // @synthesize participantId=_participantId;
 
 @end
 

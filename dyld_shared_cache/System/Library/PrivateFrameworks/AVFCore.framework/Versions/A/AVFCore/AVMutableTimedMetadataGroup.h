@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVTimedMetadataGroup.h>
 
-@class AVTimedMetadataGroupInternal, NSArray;
+@class AVTimedMetadataGroupInternal;
 
 @interface AVMutableTimedMetadataGroup : AVTimedMetadataGroup
 {
@@ -15,13 +15,12 @@
 
 - (id);
 - (void);
+- (id)clientMetadata;
 - (id);
-- (id);
-- (void);
+- (void)setObject:(id)arg1 forKey:forApplication:withCompletion: /* Error: Ran out of types for this method. */;
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *items;
 @property(nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

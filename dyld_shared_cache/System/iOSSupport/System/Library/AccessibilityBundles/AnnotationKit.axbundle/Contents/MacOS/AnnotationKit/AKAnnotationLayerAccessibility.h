@@ -21,9 +21,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)rson must be of type CNMutableContact.;
 - (unsigned long long);
-- (id);
+- (id)ime.video.button.label;
 
 @end
 

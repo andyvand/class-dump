@@ -9,15 +9,14 @@
 @interface WBSMutableOrderedSet
 {
     NSMutableOrderedSet *_mutableOrderedSet;
-    unsigned long long _maximumCount;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)er %{public}@. err=%{public}@;
 - (_Bool);
 - (void);
 - (id);

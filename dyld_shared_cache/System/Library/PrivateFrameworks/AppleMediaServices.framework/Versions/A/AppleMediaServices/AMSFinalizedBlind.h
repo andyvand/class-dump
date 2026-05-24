@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface AMSFinalizedBlind
 {
     void finalizedData;
-    void privateInput;
-    void timestamp;
-    void adamId;
-    void publicKey;
-    void certificate;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)animatedImageCacheURLFromExtension;
 - (id);
 - (id);
 - (id);
@@ -29,12 +24,7 @@ K$@<xVH+zò /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *adamId;
-@property(nonatomic, copy) NSString *certificate;
 @property(nonatomic, readonly) NSData *finalizedData;
-@property(nonatomic, readonly) NSData *privateInput;
-@property(nonatomic, readonly) NSData *publicKey;
-@property(nonatomic, readonly) NSString *timestamp;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PTToggleTestRecipe : PTTestRecipe
 {
     _Bool _on;
-    CDUnknownBlockType _toggleAction;
 }
 
 + (id);
@@ -22,10 +21,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)es/com.apple.loginwindow.plist;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isOn) _Bool on; // @synthesize on=_on;
 @property(copy, nonatomic) CDUnknownBlockType toggleAction; // @synthesize toggleAction=_toggleAction;
 
 @end

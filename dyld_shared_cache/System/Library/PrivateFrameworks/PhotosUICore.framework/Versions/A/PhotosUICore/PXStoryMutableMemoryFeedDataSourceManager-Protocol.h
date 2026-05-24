@@ -5,10 +5,10 @@
 //
 
 @protocol PXStoryMutableMemoryFeedDataSourceManager
+- (void);
 - (void)ûþÍ¶Ôb)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;
-@property(nonatomic) _Bool wantsFavoritesOnly;
 @end
 

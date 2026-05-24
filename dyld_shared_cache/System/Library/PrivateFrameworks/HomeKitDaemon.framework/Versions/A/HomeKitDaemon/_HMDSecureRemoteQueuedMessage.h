@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteMessage, HMFTimer, NSArray, NSString;
+@class HMDRemoteMessage;
 
 __attribute__((visibility("hidden")))
 @interface _HMDSecureRemoteQueuedMessage
 {
     HMDRemoteMessage *_message;
-    HMFTimer *_timer;
 }
 
 - (id);
-- (id);
+- (id)tem/Library/Frameworks/AppKit.framework/Versions/C/AppKit;
 - (id);
 - (id);
 - (id);
@@ -22,25 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)lastCatalogUpdate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HMDRemoteMessage *message; // @synthesize message=_message;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
 
 @end
 

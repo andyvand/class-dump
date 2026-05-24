@@ -6,37 +6,15 @@
 
 #import <OfficeImport/OADGraphic.h>
 
-@class CHDDefaultTextProperties, CHDLegend, CHDPlotArea, CHDTitle, CHDView3D, EDSheet, EDWorkbook, NSMutableArray, NSString, OADGraphicProperties, OADThemeOverrides;
+@class EDSheet;
 
 __attribute__((visibility("hidden")))
 @interface CHDChart : OADGraphic
 {
     EDSheet *mSheet;
-    int mStyleId;
-    _Bool mAutoTitleDeleted;
-    _Bool mPlotVisibleCellsOnly;
-    _Bool mMSGraph;
-    _Bool mHasSharedXValues;
-    _Bool mDirectionChanged;
-    _Bool mHasVisibleSeriesNames;
-    int mDisplayBlankCellsAs;
-    CHDPlotArea *mPlotArea;
-    CHDView3D *mView3D;
-    CHDTitle *mTitle;
-    CHDLegend *mLegend;
-    EDWorkbook *mExternalData;
-    OADGraphicProperties *mChartAreaGraphicProperties;
-    OADGraphicProperties *mBackWallGraphicProperties;
-    OADGraphicProperties *mSideWallGraphicProperties;
-    OADGraphicProperties *mFloorGraphicProperties;
-    CHDDefaultTextProperties *mDefaultTextProperties;
-    int mChartDirection;
-    struct CGRect mLogicalBounds;
-    NSMutableArray *mDrawables;
-    OADThemeOverrides *mThemeOverrides;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -59,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)P;
+- (unsigned long long)H;
 - (void);
-- (unsigned long long);
-- (void);
 - (id);
+- (id));
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -76,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)K;
 - (int);
 - (id);
 - (id);
@@ -98,30 +76,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)webView:(id)arg1 didReceiveAuthenticationChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)bottomInset;
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (int);
+- (int)`;
 - (void);
-- (id)extTypeForRegularTextType: /* Error: Ran out of types for this method. */;
+- (id)textBoxTextTypeForRegularTextType: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

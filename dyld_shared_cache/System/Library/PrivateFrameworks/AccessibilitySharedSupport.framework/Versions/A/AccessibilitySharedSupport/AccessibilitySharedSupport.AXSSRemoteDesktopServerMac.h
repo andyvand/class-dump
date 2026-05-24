@@ -9,13 +9,6 @@
 @interface AccessibilitySharedSupport.AXSSRemoteDesktopServerMac : AccessibilitySharedSupport.AXSSRemoteDesktopServerBase
 {
     id _zoomEnabler;
-    id _voiceOverEnabler;
-    id _controlEnabled;
-    id _savedIncreaseContrastValue;
-    id _savedReduceMotionValue;
-    id _savedDifferentiateWithoutColorValue;
-    id _savedReduceTransparencyValue;
-    id _savedToolbarButtonShapesValue;
 }
 
 @end

@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSView, NSWindow, _NSFindIndicatorOverlayView, _NSTextFinderImpl;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface NSTextFinderIndicatorManager
 {
     NSMapTable *_findIndicators;
-    _NSTextFinderImpl *_textFinderImpl;
-    _Bool _isVisible;
-    _Bool _updating;
-    NSView *_contentView;
-    NSWindow *_overlayWindow;
-    _NSFindIndicatorOverlayView *_overlayView;
-    unsigned long long _disabledScreenUpdatesToken;
-    _Bool _needsUpdate;
-    _Bool *_updateCancel;
-    _Bool *_pulseCancel;
-    NSMutableArray *_indicatorsToPulse;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)NSURLProtocol"16@"NSData"24;
+- (void)_deallocInternalCFCachedURLResponse;
 - (id);
+- (void)ableUploadState:(_Bool)arg1 cannot initWithResumeData with unknown body type;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_allowsResponseMonitoringDuringBodyTranmission;
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (_Bool)ide Tab Bar;

@@ -5,5 +5,6 @@
 //
 
 @protocol PXDisplayAssetContentViewDelegate
+- (void);
 @end
 

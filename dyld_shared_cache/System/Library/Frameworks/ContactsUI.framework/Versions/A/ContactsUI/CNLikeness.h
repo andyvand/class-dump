@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PRLikeness;
-
 @interface CNLikeness
 {
     _Bool _hasBeenPersisted;
-    _Bool _isEditable;
-    _Bool _hasBeenEdited;
-    _Bool _hasPictureDataBeenEdited;
-    PRLikeness *_personaLikeness;
-    NSString *_contactIdentifier;
-    NSString *_sourceContainerName;
-    NSString *_sourceContainerIdentifier;
-    NSData *_memojiMetadata;
-    struct CGImage *_originalLikenessImage;
-    struct CGRect _originalLikenessCropRect;
 }
 
 - (id);
@@ -47,18 +35,7 @@
 - (_Bool)"<QLPreviewItem>"40@0:8@"NSMenuItem"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) _Bool hasBeenEdited; // @synthesize hasBeenEdited=_hasBeenEdited;
-@property(nonatomic) _Bool hasBeenPersisted; // @synthesize hasBeenPersisted=_hasBeenPersisted;
-@property(nonatomic) _Bool hasPictureDataBeenEdited; // @synthesize hasPictureDataBeenEdited=_hasPictureDataBeenEdited;
-@property(readonly, nonatomic) _Bool isEditable; // @synthesize isEditable=_isEditable;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
-@property(readonly, nonatomic) PRLikeness *originalLikeness;
-@property(nonatomic) struct CGRect originalLikenessCropRect; // @synthesize originalLikenessCropRect=_originalLikenessCropRect;
 @property(nonatomic) struct CGImage *originalLikenessImage; // @synthesize originalLikenessImage=_originalLikenessImage;
-@property(retain, nonatomic) PRLikeness *personaLikeness; // @synthesize personaLikeness=_personaLikeness;
-@property(retain, nonatomic) NSString *sourceContainerIdentifier; // @synthesize sourceContainerIdentifier=_sourceContainerIdentifier;
-@property(retain, nonatomic) NSString *sourceContainerName; // @synthesize sourceContainerName=_sourceContainerName;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PKPeerPaymentPreferencesNotification
 {
     _Bool _value;
-    NSString *_altDSID;
-    unsigned long long _notificationType;
 }
 
 + (_Bool)qî%°1Â0@ù
@@ -18,24 +16,22 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)@;
+- (id)%;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)tmEssTerminationIncluded"b1"btmHasPreferredCandidateList"b1"btmTerminationDuration"b1"btmValidityInterval"b1"categoryCode"b1"dialogToken"b1"environmentType"b1"frameType"b1"status"b1};
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id)sEnabled:(id)arg1 isSetup:status:isSyncEnabled:syncToken:lastSyncDate:didFinishInitialSync:isAccountManateeCapable:isDeviceManateeCapable:isManateeEnabled: /* Error: Ran out of types for this method. */;
+- (id)initWithIsEnabled:(id)arg1 isSetup:status:isSyncEnabled:syncToken:lastSyncDate:didFinishInitialSync:isAccountManateeCapable:isDeviceManateeCapable:isManateeEnabled: /* Error: Ran out of types for this method. */;
 - (void)h length:'%lu';  /* Error: Ran out of types for this method. */;
-- (id)erPaymentSenderUtilities;
+- (id)NearbyPeerPaymentSenderUtilities;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) unsigned long long notificationType; // @synthesize notificationType=_notificationType;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

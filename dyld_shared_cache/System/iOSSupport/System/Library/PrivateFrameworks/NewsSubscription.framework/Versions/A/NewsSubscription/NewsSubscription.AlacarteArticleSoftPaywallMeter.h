@@ -7,9 +7,6 @@
 @interface NewsSubscription.AlacarteArticleSoftPaywallMeter
 {
     id paywallShownCountSetting;
-    id paywallShownDateSetting;
-    id appConfigurationManager;
-    id paywallShownEntriesManager;
 }
 
 @end

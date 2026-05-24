@@ -7,9 +7,6 @@
 @interface Network.QUICDatagramFlow
 {
     id flowID;
-    id contextID;
-    id logIDString;
-    id usableDatagramSize;
 }
 
 @end

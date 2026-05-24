@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
     double _endHeight;
 }
 
+- (double)updateSyndicatedMessageWithMessageItem:newRange: /* Error: Ran out of types for this method. */;
+- (void)handler:(double)arg1 receivedPriorityMessageCommand:fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
-- (double);
-- (void);
+- (void)˟;
 
 // Remaining properties
 @property(nonatomic) double endHeight; // @synthesize endHeight=_endHeight;

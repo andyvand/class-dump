@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (Utils)
-- (id);
-- (id);
-- (id);
+- (id)setHasCheckerHSRejectBeforeActivationCount:(id)arg1;
+- (id)setHasCheckUndoResponse:(id)arg1;
+- (id)setHasCdmDelegatedUserDialogActTier1:(id)arg1;
 @end
 

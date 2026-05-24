@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItemArtwork : MPMediaItemArtwork
 {
     MPArtworkCatalog *_catalog;
-    struct CGRect _bounds;
 }
 
-- (id);
-- (id);
+- (id)svfopCurrentSchema;
+- (id)svfopCurrentCatalog;
 - (id);
 - (struct CGRect);
-- (void)sCloud;
+- (void)isCloud;
 
 // Remaining properties
 @property(readonly, nonatomic) MPArtworkCatalog *artworkCatalog;

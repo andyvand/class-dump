@@ -7,6 +7,10 @@
 @class CDPContext;
 
 @protocol CDPDSecureBackupProxy
+- (void);
+- (_Bool)|;
+- (void)
+;
 
 // Remaining properties
 @property(retain, nonatomic) CDPContext *cdpContext;

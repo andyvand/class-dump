@@ -7,13 +7,6 @@
 @interface AppleMediaServices.CachedBagCore__priv_DB210F3D31AA4C5BFE8754B925F1C106.BagLoader
 {
     id queue;
-    id bagProvider;
-    id bagTask;
-    id currentBag;
-    id profile;
-    id version;
-    id processInfo;
-    id $__lazy_storage_$_amsBag;
 }
 
 @end

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIView *_hostedUIView;
 }
 
-- (id);
-- (id);
-- (void)Highlighters;
+- (id)sendCounterProposalToPerson:properties:conference: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_activeHighlighters;
 - (void)7v;
 
 // Remaining properties

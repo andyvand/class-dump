@@ -11,15 +11,14 @@
     id alert;
 }
 
+- (id)db;
+- (id)(A@9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ctionNoLongerAvailableAlertMessage;
+- (id)TASectionNoLongerAvailableAlertMessage;
 - (void)p¦þ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *message;
 @property(nonatomic, readonly) NSString *title;
 
 @end

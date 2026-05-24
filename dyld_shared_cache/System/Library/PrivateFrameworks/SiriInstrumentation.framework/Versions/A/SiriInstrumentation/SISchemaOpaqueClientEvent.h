@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaComponentIdentifier;
+@class NSData;
 
 @interface SISchemaOpaqueClientEvent : SISchemaTopLevelUnionType
 {
     NSData *_anyEventPayload;
-    SISchemaComponentIdentifier *_componentId;
-    _Bool _hasAnyEventPayload;
-    _Bool _hasComponentId;
 }
 
 - (void);
@@ -31,25 +28,20 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)tCount;
+- (_Bool)DonationStoreClass(void)_block_invoke;
+- (_Bool)NTEGER REFERENCES message (ROWID) ON DELETE CASCADE, PRIMARY KEY (chat_id, message_id));;
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (id)ContactFirstNamePhoneticScore;
+- (id)deleteContactFirstNamePhoneticScore;
 - (id)_entityPartialAppCount1Hr;
-- (int)ier1;
-- (void)TFORMATCODEC_QUALCOMM;
+- (int)PEGASUSSchemaPEGASUSKGQAQualifierTier1;
+- (void)MWTFORMATCODEC_QUALCOMM;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *anyEventPayload; // @synthesize anyEventPayload=_anyEventPayload;
-@property(retain, nonatomic) SISchemaComponentIdentifier *componentId; // @synthesize componentId=_componentId;
 @property(nonatomic, readonly) int componentName;
-@property(nonatomic) _Bool hasAnyEventPayload; // @synthesize hasAnyEventPayload=_hasAnyEventPayload;
-@property(nonatomic) _Bool hasComponentId; // @synthesize hasComponentId=_hasComponentId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

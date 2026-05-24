@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)g the user if they want to allow a website to show a wallet order;
 - (id);
 
 @end

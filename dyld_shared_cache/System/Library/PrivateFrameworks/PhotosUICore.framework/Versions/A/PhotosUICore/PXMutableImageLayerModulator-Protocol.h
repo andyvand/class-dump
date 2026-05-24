@@ -7,15 +7,15 @@
 @class CALayer;
 
 @protocol PXMutableImageLayerModulator
+- (void);
+- (void)#;
+- (float)R;
+- (_Bool)?;
+- (_Bool)@;
 - (CALayer *)e;
 - (void)ConcreteAutoEditClip"8Q16^B24;
 
 // Remaining properties
-@property(nonatomic) _Bool displayingOpaqueContent;
-@property(nonatomic) _Bool displayingVideoComplement;
-@property(nonatomic) struct CGImage *gainMapImage;
-@property(nonatomic) float gainMapValue;
 @property(retain, nonatomic) CALayer *layer;
-@property(nonatomic) _Bool revealsGainMapImage;
 @end
 

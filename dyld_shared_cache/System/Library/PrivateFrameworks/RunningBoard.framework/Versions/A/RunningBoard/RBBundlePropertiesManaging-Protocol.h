@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol RBBundleProperties;
+
 @protocol RBBundlePropertiesManaging
+- (id <RBBundleProperties>)enum_kMDItemAcquisitionModel_QueryTermsNum_Mean_Prefix;
 @end
 

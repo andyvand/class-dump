@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INNumericSettingValue, INSettingMetadata, INTemporalEventTrigger;
+@class INSettingMetadata, INTemporalEventTrigger;
 
 @protocol INSetNumericSettingIntentExport
+- (INTemporalEventTrigger *);
 - (void)Q¾(Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property long long action;
-@property long long boundedValue;
-@property(copy) INNumericSettingValue *numericValue;
 @property(copy) INSettingMetadata *settingMetadata;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
 @end
 

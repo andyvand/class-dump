@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (void);
-+ (void);
++ (void)<v@?@"NSError">24;
++ (id)Vv32@0:(id *)arg1 8q16@?24;
++ (void)xpcObject;
++ (void)updatedContextWithSerializedContextByKey:(id *)arg1 metadata: /* Error: Ran out of types for this method. */;
 
 @end
 

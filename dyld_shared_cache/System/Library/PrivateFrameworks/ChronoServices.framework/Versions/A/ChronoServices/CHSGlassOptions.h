@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSGlassOptions
 {
     _Bool _wantsSubduedGlass;
-    _Bool _wantsWhitePointBoost;
-    NSString *_backdropGroupName;
-    _Bool _wantsHighlightsDisplayAngle;
 }
 
++ (id)j?;
 + (id);
-+ (id);
-+ (_Bool);
-- (_Bool);
++ (_Bool)setCacheIsValid: /* Error: Ran out of types for this method. */;
+- (_Bool)qj?;
 - (_Bool);
 - (id);
 - (id);
@@ -26,24 +21,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)=;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsHighlightsDisplayAngle; // @synthesize wantsHighlightsDisplayAngle=_wantsHighlightsDisplayAngle;
 @property(readonly, nonatomic) _Bool wantsSubduedGlass; // @synthesize wantsSubduedGlass=_wantsSubduedGlass;
-@property(readonly, nonatomic) _Bool wantsWhitePointBoost; // @synthesize wantsWhitePointBoost=_wantsWhitePointBoost;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SAMatchingSpan : AceObject
 {
@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (long long);
+- (long long)td::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::set<std::string>>=(?=c{set<std::string, std::less<std::string>, std::allocator<std::string>>={__tree<std::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::set<std::string>>=(?=c{set<std::string, std::less<std::string>, std::allocator<std::string>>={__tree<std::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -24,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSURL *domainObjectIdentifier;
-@property(nonatomic) long long endIndex;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long startIndex;
-@property(readonly) Class superclass;
 
 @end
 

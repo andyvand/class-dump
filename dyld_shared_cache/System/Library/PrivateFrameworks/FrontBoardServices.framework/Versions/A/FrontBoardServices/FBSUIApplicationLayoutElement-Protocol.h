@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol FBSUIApplicationLayoutElement
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isUIApplicationElement) _Bool UIApplicationElement;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) _Bool hasKeyboardFocus;
 @end
 

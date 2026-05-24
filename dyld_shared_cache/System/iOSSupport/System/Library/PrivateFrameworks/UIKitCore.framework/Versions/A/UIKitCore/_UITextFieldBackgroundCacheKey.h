@@ -10,19 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UITextFieldBackgroundCacheKey
 {
     NSString *_className;
-    double _scale;
-    double _cornerRadius;
-    double _lineWidth;
-    struct CGColor *_strokeColor;
-    struct CGColor *_fillColor;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool)ize";
-- (_Bool)entSizeCategory:(id)arg1 carPlay: /* Error: Ran out of types for this method. */;
-- (id)backingScrollView;
+- (_Bool)initWithContentSizeCategory:(id)arg1 carPlay: /* Error: Ran out of types for this method. */;
+- (id)_backingScrollView;
 - (void)g÷¾7y_8õ¾7SgG;
 
 @end

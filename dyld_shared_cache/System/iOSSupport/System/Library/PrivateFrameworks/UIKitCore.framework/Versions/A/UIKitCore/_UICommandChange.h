@@ -10,14 +10,15 @@ __attribute__((visibility("hidden")))
     id _anchor;
 }
 
-+ (_Bool)itCodingFlavor;
-- (void);
++ (_Bool)UITextViewTextKitCodingFlavor;
+- (void)/Frameworks/SharedWithYou.framework/SharedWithYou;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool)verlayView:(id)arg1;
-- (void)e:(id)arg1 UUID:applyDelta: /* Error: Ran out of types for this method. */;
+- (unsigned long long))}
+)5IJ(}AHJ;
+- (_Bool)setTransitionOverlayView:(id)arg1;
+- (void)rangeOfSuggestionWithRange:(id)arg1 UUID:applyDelta: /* Error: Ran out of types for this method. */;
 - (id)KeyboardViewController",R,N,V_numericKeyboardViewController;
 - (void);
 - (id);

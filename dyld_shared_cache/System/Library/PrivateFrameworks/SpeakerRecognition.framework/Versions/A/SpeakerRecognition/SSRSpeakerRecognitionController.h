@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SSRSpeakerRecognitionContext, SSRSpeakerRecognitionOrchestrator;
-@protocol SSRSpeakerRecognitionControllerDelegate;
+@class SSRSpeakerRecognitionContext;
 
 @interface SSRSpeakerRecognitionController
 {
     SSRSpeakerRecognitionContext *_context;
-    id <SSRSpeakerRecognitionControllerDelegate> _delegate;
-    SSRSpeakerRecognitionOrchestrator *_orchestrator;
-    NSDictionary *_lastScoreCard;
 }
 
 - (void);
@@ -30,21 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SSRSpeakerRecognitionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRSpeakerRecognitionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *lastScoreCard; // @synthesize lastScoreCard=_lastScoreCard;
-@property(retain, nonatomic) SSRSpeakerRecognitionOrchestrator *orchestrator; // @synthesize orchestrator=_orchestrator;
-@property(readonly) Class superclass;
 
 @end
 

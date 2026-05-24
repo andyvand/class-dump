@@ -6,19 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class CAGradientLayer, LUI2NoAnimationLayer, LUI2WallpaperController, NSImage;
+@class LUI2NoAnimationLayer;
 
 @interface LUI2BackgroundViewController : LUI2ViewController
 {
     LUI2NoAnimationLayer *_imageLayer;
-    LUI2NoAnimationLayer *_darkenSourceOver;
-    LUI2NoAnimationLayer *_lightenSourceOver;
-    CAGradientLayer *_gradient;
-    LUI2WallpaperController *_wallpaperController;
-    long long _backgroundViewStyle;
-    id _target;
-    SEL _action;
-    CDUnknownBlockType _wallpaperUpdatedHandler;
 }
 
 - (CDUnknownBlockType);
@@ -34,27 +26,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (SEL);
 - (void);
 - (void);
 - (void)ectionView"16@"<NSDraggingInfo>"24@"NSIndexPath"32q40;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
 @property long long backgroundViewStyle;
-@property(retain) NSImage *image;
-@property id target; // @synthesize target=_target;
-@property _Bool usesDesktopLayer;
-@property(copy) CDUnknownBlockType wallpaperUpdatedHandler; // @synthesize wallpaperUpdatedHandler=_wallpaperUpdatedHandler;
 
 @end
 

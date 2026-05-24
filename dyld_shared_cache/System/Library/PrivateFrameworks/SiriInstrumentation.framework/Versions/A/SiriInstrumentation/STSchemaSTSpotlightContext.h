@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTSpotlightRequestEnded, STSchemaSTSpotlightRequestFailed, STSchemaSTSpotlightRequestStarted;
+@class STSchemaSTSpotlightRequestStarted;
 
 @interface STSchemaSTSpotlightContext : SISchemaInstrumentationMessage
 {
     STSchemaSTSpotlightRequestStarted *_startedOrChanged;
-    STSchemaSTSpotlightRequestEnded *_ended;
-    STSchemaSTSpotlightRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -37,25 +31,18 @@
 - (id);
 - (id);
 - (void);
+- (_Bool)RAND_get_rand_method;
+- (unsigned long long)type;
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)s for is_madrid.;
 - (id);
 - (id);
-- (id)Tier1;
-- (id)dMediaEntityAdamId;
-- (void)enceToggled;
+- (id)deleteMetadataTier1;
+- (id)_hasSelectedMediaEntityAdamId;
+- (void)isAppleIntelligenceToggled;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTSpotlightRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTSpotlightRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTSpotlightRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol HMBLocalZoneDelegate
+
+@optional
+- (void);
 @end
 

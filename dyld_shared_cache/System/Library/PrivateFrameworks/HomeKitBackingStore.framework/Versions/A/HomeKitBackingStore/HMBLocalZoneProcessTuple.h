@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalSQLQueryTable, HMBLocalZoneProcessModelContext, HMBModel, NSArray, NSData, NSNumber, NSString, NSUUID;
+@class HMBLocalZoneProcessModelContext;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneProcessTuple
 {
     HMBLocalZoneProcessModelContext *_previousContext;
-    HMBLocalZoneProcessModelContext *_mergedContext;
-    HMBModel *_updateModel;
-    HMBModel *_outputModel;
-    NSNumber *_outputBlockRow;
-    unsigned long long _recordRow;
-    unsigned long long _itemRow;
-    NSData *_externalID;
-    NSUUID *_modelSchema;
-    NSString *_modelType;
-    HMBLocalSQLQueryTable *_queryTable;
-    NSArray *_encodedQueryableColumns;
 }
 
 - (id);
@@ -39,18 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *encodedQueryableColumns; // @synthesize encodedQueryableColumns=_encodedQueryableColumns;
-@property(readonly, nonatomic) NSData *externalID; // @synthesize externalID=_externalID;
-@property(readonly, nonatomic) unsigned long long itemRow; // @synthesize itemRow=_itemRow;
-@property(readonly, nonatomic) HMBLocalZoneProcessModelContext *mergedContext; // @synthesize mergedContext=_mergedContext;
-@property(readonly, nonatomic) NSUUID *modelSchema; // @synthesize modelSchema=_modelSchema;
-@property(readonly, nonatomic) NSString *modelType; // @synthesize modelType=_modelType;
-@property(readonly, copy, nonatomic) NSNumber *outputBlockRow; // @synthesize outputBlockRow=_outputBlockRow;
-@property(readonly, copy, nonatomic) HMBModel *outputModel; // @synthesize outputModel=_outputModel;
 @property(readonly, nonatomic) HMBLocalZoneProcessModelContext *previousContext; // @synthesize previousContext=_previousContext;
-@property(readonly, nonatomic) HMBLocalSQLQueryTable *queryTable; // @synthesize queryTable=_queryTable;
-@property(readonly, nonatomic) unsigned long long recordRow; // @synthesize recordRow=_recordRow;
-@property(readonly, copy, nonatomic) HMBModel *updateModel; // @synthesize updateModel=_updateModel;
 
 @end
 

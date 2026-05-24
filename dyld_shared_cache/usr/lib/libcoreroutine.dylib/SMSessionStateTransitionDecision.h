@@ -7,10 +7,9 @@
 @interface SMSessionStateTransitionDecision
 {
     _Bool _isAllowed;
-    CDUnknownBlockType _actionBlock;
 }
 
-- (void);
+- (void)j;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -18,7 +17,6 @@
 - (void):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
 @property _Bool isAllowed; // @synthesize isAllowed=_isAllowed;
 
 @end

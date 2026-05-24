@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _NSLineBreakerNodeDictionary
 {
     unsigned long long _firstClass;
-    struct _WLNode *_firstNode;
-    struct __CFDictionary *_dict;
 }
 
-- (void);
+- (void);
 
 @end
 

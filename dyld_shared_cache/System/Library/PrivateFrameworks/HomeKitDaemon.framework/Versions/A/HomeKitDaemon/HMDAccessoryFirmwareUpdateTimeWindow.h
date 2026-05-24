@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateTimeWindow
 {
     NSDateComponents *_startTimeComponents;
-    NSDateComponents *_endTimeComponents;
 }
 
 + (id)ñB;
 - (id);
-- (id);
+- (id)RZ;
 - (id);
 - (void)O¡ÔI=;
 - (id)UuÿÅ÷
@@ -23,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)²B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDateComponents *endTimeComponents; // @synthesize endTimeComponents=_endTimeComponents;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSDateComponents *startTimeComponents; // @synthesize startTimeComponents=_startTimeComponents;
-@property(readonly) Class superclass;
 
 @end
 

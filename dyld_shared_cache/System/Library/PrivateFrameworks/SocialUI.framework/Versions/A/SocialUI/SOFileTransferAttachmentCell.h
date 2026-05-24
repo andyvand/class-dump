@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, PKPass;
-
 @interface SOFileTransferAttachmentCell
 {
     _Bool _hidden;
-    _Bool _isMovie;
-    _Bool _isAudioMessage;
-    NSAttributedString *_baseString;
-    NSImage *_baseImage;
-    PKPass *_pass;
 }
 
 - (void);
@@ -22,12 +15,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)s"d"shadows"d"highlights"d"black"d"rawHighlights"d"localLight"d};
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_providesExplicitSizeSnapshot;
 - (struct CGSize);
 - (id);
 - (id);
@@ -39,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *baseImage; // @synthesize baseImage=_baseImage;
-@property(retain, nonatomic) NSAttributedString *baseString; // @synthesize baseString=_baseString;
 @property(getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic) _Bool isAudioMessage; // @synthesize isAudioMessage=_isAudioMessage;
-@property(nonatomic) _Bool isMovie; // @synthesize isMovie=_isMovie;
-@property(nonatomic) PKPass *pass; // @synthesize pass=_pass;
 
 @end
 

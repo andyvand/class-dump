@@ -6,13 +6,11 @@
 
 #import <iTunesCloud/ICRadioContentReference.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ICRadioLibraryArtistContentReference : ICRadioContentReference
 {
     NSString *_artistName;
-    NSNumber *_representativeCloudIdentifier;
-    NSNumber *_storeIdentifier;
 }
 
 + (_Bool);
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artistName; // @synthesize artistName=_artistName;
-@property(copy, nonatomic) NSNumber *representativeCloudIdentifier; // @synthesize representativeCloudIdentifier=_representativeCloudIdentifier;
-@property(copy, nonatomic) NSNumber *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

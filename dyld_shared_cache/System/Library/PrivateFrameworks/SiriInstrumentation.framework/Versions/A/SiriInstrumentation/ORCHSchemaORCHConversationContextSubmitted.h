@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHConversationContextSubmitted : SISchemaInstrumentationMessage
 {
     _Bool _contextUpdateReceived;
-    _Bool _contextUpdateError;
-    struct {
-        unsigned int contextUpdateReceived:1;
-        unsigned int contextUpdateError:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,22 +22,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)ext;
+- (id)_assistantDaemonAudioRecordingFirstBufferContext;
 - (id)es",&,N,V_response;
 
 // Remaining properties
-@property(nonatomic) _Bool contextUpdateError; // @synthesize contextUpdateError=_contextUpdateError;
 @property(nonatomic) _Bool contextUpdateReceived; // @synthesize contextUpdateReceived=_contextUpdateReceived;
-@property(nonatomic) _Bool hasContextUpdateError;
-@property(nonatomic) _Bool hasContextUpdateReceived;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

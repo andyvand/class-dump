@@ -14,14 +14,14 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (void)A;
 + (void);
++ (id)toryServer;
++ (id)resetNoticeboardCatalogCheckTimestamp;
++ (id);
++ (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (_Bool);
++ (_Bool)h;
 
 @end
 

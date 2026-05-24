@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _LSLazyPropertyList;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _LSStringsFileContent
 {
     NSString *_stringsFile;
-    NSMutableDictionary *_stringsFileContent;
-    _LSLazyPropertyList *_loctable;
-    struct {
-        unsigned int hasLookedForLoctable:1;
-        unsigned int isInfoPlist:1;
-    } _flags;
 }
 
 + (id);

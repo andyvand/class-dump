@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBImage, _SFPBPunchout, _SFPBText;
+@class NSData, NSString;
 
 @protocol _SFPBMediaItem
+- (void)R;
+- (void)expiryDate;
+- (void) ;
+- (NSData *)ortDescriptor;
+- (id)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buyOptions;
-@property(copy, nonatomic) NSString *contentAdvisory;
-@property(retain, nonatomic) _SFPBImage *contentAdvisoryImage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBImage *overlayImage;
-@property(retain, nonatomic) _SFPBPunchout *punchout;
-@property(retain, nonatomic) _SFPBImage *reviewGlyph;
-@property(copy, nonatomic) NSString *reviewText;
-@property(copy, nonatomic) NSArray *subtitleCustomLineBreakings;
-@property(retain, nonatomic) _SFPBText *subtitleText;
-@property(retain, nonatomic) _SFPBImage *thumbnail;
 @property(copy, nonatomic) NSString *title;
 @end
 

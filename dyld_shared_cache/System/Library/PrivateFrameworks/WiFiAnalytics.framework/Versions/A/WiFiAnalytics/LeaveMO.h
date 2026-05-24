@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) double assocDuration; // @dynamic assocDuration;
-@property(nonatomic) _Bool isInVoluntary; // @dynamic isInVoluntary;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol GEOCompletionGroup
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool enableMapsSuggestServerReranking;
-@property(readonly, nonatomic) _Bool enforceServerResultsOrder;
-@property(readonly, nonatomic) NSArray *excludedClientResultTypes;
-@property(readonly, nonatomic) NSArray *includedClientResultTypes;
-@property(readonly, nonatomic) _Bool isSectionForClientOnlyResults;
 @property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) NSString *localizedSectionHeader;
-@property(readonly, nonatomic) _Bool shouldInterleaveClientResults;
 @end
 

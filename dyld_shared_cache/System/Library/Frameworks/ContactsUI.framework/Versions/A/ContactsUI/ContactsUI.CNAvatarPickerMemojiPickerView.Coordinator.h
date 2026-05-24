@@ -7,18 +7,15 @@
 @interface ContactsUI.CNAvatarPickerMemojiPickerView.Coordinator
 {
     id didSelectItem;
-    id didRequestMemojiEditor;
-    id didDeleteAvatarForSetupUser;
-    id didCreateAvatarForSetupUser;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 

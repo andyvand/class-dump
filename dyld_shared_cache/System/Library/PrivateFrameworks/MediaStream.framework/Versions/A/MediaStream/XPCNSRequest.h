@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, XPCRequest;
+@class XPCRequest;
 @protocol NSCoding;
 
 @interface XPCNSRequest
 {
     id <NSCoding> _message;
-    NSData *_data;
-    XPCRequest *_request;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, retain, nonatomic) id <NSCoding> message; // @synthesize message=_message;
 @property(readonly, retain, nonatomic) XPCRequest *request; // @synthesize request=_request;
 
 @end

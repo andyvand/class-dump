@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPrivateMediaIntentData, NSArray, NSData, NSNumber, NSString;
+@class INPrivateMediaIntentData;
 
 @interface INPrivateSearchForMediaIntentData
 {
     INPrivateMediaIntentData *_privateMediaIntentData;
-    NSArray *_audioSearchResults;
-    NSArray *_internalSignals;
-    NSNumber *_appInferred;
-    NSData *_pegasusMetaData;
 }
 
 + (id);
@@ -22,37 +18,26 @@
 - (id);
 - (id);
 - (id);
+- (id)D;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)deviceWithDescription:(id)arg1 creator: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)homeTypeForNetworkName:(id)arg1;
+- (void)assetd ready - proceeding with asset tracking;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)ssQueryResultTypeToConfirm:(unsigned long long)arg1;
+- (id)R;
+- (id);
+- (id)confirmationRequiredWithWellnessQueryResultTypeToConfirm:(unsigned long long)arg1;
 - (void);
 - (id)4ÀÙÿ;
 
 // Remaining properties
-@property(readonly, copy) NSNumber *appInferred; // @synthesize appInferred=_appInferred;
-@property(readonly, copy) NSArray *audioSearchResults; // @synthesize audioSearchResults=_audioSearchResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, copy) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(readonly, copy) INPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

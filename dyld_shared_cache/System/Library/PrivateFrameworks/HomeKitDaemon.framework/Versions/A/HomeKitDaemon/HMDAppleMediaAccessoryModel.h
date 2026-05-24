@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDMediaAccessoryModel.h>
 
-@class HMDDevice, HMDDeviceAddress, HMFPairingIdentity, HMFSoftwareVersion, HMFWiFiNetworkInfo, NSData, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryModel : HMDMediaAccessoryModel
 {
@@ -19,27 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessoryCapabilities; // @dynamic accessoryCapabilities;
-@property(retain, nonatomic) NSString *appleMediaAccessoryChangeTag; // @dynamic appleMediaAccessoryChangeTag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDDevice *device; // @dynamic device;
-@property(retain, nonatomic) HMDDeviceAddress *deviceAddress; // @dynamic deviceAddress;
-@property(retain, nonatomic) NSData *deviceIRKData; // @dynamic deviceIRKData;
-@property(retain, nonatomic) NSString *deviceUUID; // @dynamic deviceUUID;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(retain, nonatomic) NSData *loggedInAccount; // @dynamic loggedInAccount;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(retain, nonatomic) NSNumber *productColor; // @dynamic productColor;
-@property(retain, nonatomic) HMFSoftwareVersion *softwareVersion; // @dynamic softwareVersion;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *supportedStereoPairVersions; // @dynamic supportedStereoPairVersions;
-@property(retain, nonatomic) NSNumber *variant; // @dynamic variant;
-@property(retain, nonatomic) HMFWiFiNetworkInfo *wifiNetworkInfo; // @dynamic wifiNetworkInfo;
 
 @end
 

@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKDDeferredRelinquishPlaceholder
 {
     long long _qualityOfService;
-    NSString *_underlyingCKShortDescription;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)9;
 - (id);
 - (void)onBundleIDs=%@, discoverable=%ld;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *underlyingCKShortDescription; // @synthesize underlyingCKShortDescription=_underlyingCKShortDescription;
 
 @end
 

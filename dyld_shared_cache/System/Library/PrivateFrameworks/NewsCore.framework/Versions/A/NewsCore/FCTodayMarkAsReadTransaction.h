@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCTodayMarkAsReadTransaction
 {
     NSString *_articleID;
-    NSString *_clusterID;
-    long long _articleVersion;
-    NSDate *_readDate;
 }
 
 + (_Bool);
@@ -19,24 +16,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)bestTimeRangeForPreferredDuration:min:max: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ingDimension;
-- (void)erBoostForIssueOpenClickValue;
+- (id)_fullBodyEmbeddingDimension;
+- (void)publisherBoostForIssueOpenClickValue;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(nonatomic) long long articleVersion; // @synthesize articleVersion=_articleVersion;
-@property(copy, nonatomic) NSString *clusterID; // @synthesize clusterID=_clusterID;
-@property(copy, nonatomic) NSDate *readDate; // @synthesize readDate=_readDate;
 
 @end
 

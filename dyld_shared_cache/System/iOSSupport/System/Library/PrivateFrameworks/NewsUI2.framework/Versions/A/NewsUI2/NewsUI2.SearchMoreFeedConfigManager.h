@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchMoreFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

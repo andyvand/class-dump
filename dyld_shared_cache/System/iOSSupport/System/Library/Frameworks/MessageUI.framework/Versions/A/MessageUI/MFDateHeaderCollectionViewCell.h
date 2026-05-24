@@ -10,7 +10,7 @@
 
 + (id);
 - (void);
-- (id);
+- (id)TableType;
 
 @end
 

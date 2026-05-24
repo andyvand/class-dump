@@ -5,5 +5,8 @@
 //
 
 @protocol MontrealNNDescriptionProtocol
+
+@optional
+- (void);
 @end
 

@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)SkipUserConsent;
+- (void)shouldSkipUserConsent;
 
 // Remaining properties
 @property(retain, nonatomic) HAPAccessoryServerIP *server; // @synthesize server=_server;

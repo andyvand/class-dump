@@ -4,47 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VESuperResolutionParameters, VTFrameProcessorFrame, VTFrameProcessorOpticalFlow;
+@class VESuperResolutionParameters, VTFrameProcessorFrame;
 
 @interface VTSuperResolutionScalerParameters
 {
     VESuperResolutionParameters *_veParameters;
-    VTFrameProcessorFrame *_sourceFrame;
-    VTFrameProcessorFrame *_previousFrame;
-    VTFrameProcessorFrame *_previousOutputFrame;
-    VTFrameProcessorOpticalFlow *_opticalFlow;
-    long long _submissionMode;
-    VTFrameProcessorFrame *_destinationFrame;
 }
 
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)7K@9	;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) VTFrameProcessorFrame *destinationFrame; // @synthesize destinationFrame=_destinationFrame;
-@property(readonly, nonatomic) NSArray *destinationFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) VTFrameProcessorOpticalFlow *opticalFlow; // @synthesize opticalFlow=_opticalFlow;
-@property(readonly, nonatomic) VTFrameProcessorFrame *previousFrame; // @synthesize previousFrame=_previousFrame;
-@property(readonly, nonatomic) VTFrameProcessorFrame *previousOutputFrame; // @synthesize previousOutputFrame=_previousOutputFrame;
 @property(readonly, nonatomic) VTFrameProcessorFrame *sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(readonly, nonatomic) long long submissionMode; // @synthesize submissionMode=_submissionMode;
-@property(readonly) Class superclass;
 
 @end
 

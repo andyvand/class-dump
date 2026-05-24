@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDStorefrontPresentation, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDStorefrontBundle
 {
     PBDataReader *_reader;
-    NSMutableArray *_faces;
-    unsigned long long _identifier;
-    unsigned long long _matchedMuid;
-    GEOPDStorefrontPresentation *_presentation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_matchedMuid:1;
-        unsigned int read_faces:1;
-        unsigned int read_presentation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)IndexAndOffsets:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIndexAndOffsets:(id)arg1;
+- (void)_URLIsSourceSpecific:(id)arg1;
+- (void)nfos;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -39,9 +25,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)activeTestRecipeID;
+- (id)getInstalledAssetofType:forLocale:completion: /* Error: Ran out of types for this method. */;
+- (void)duration %lf seconds;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,8 +35,8 @@
 - (void);
 - (void);
 - (id)ersions";
-- (void)iteSet:(id)arg1;
-- (id)revisionMetadata;
+- (void)setHasMapFeatureIsTransitFavoriteSet:(id)arg1;
+- (id)_revisionMetadata;
 - (id)ÿÿ¼;
 - (unsigned long long)
 ¨
@@ -77,8 +63,8 @@
 ;
 - (id)Üi;
 - (_Bool)\ht´h´Ôh´h°´thÄ´tÍhØ´4ih´Di|´i´`i°´.iÄ´ü3iØ´´5iì´@Vk;
-- (id);
-- (void)8;
+- (id)CREATE_CUSTOM_ROUTE;
+- (void)48;
 - (void)%è/ôÆI@;
 - (id)ization (2.addr_obj.LocalizationProto0
 fingerprints (2.addr_obj.FingerprintProto1
@@ -144,13 +130,7 @@ VenueField
 - (void)6;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *faces;
 @property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasMatchedMuid;
-@property(readonly, nonatomic) _Bool hasPresentation;
-@property(nonatomic) unsigned long long identifier;
-@property(nonatomic) unsigned long long matchedMuid;
-@property(retain, nonatomic) GEOPDStorefrontPresentation *presentation;
 
 @end
 

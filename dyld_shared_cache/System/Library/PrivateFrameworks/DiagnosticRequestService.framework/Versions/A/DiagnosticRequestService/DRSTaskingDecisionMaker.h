@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSConfigPersistedStore, DRSTaskingCloudKitHelper, DRSTaskingLimitingParameters, NSDate, NSString, NSTimeZone;
+@class NSDate;
 
 @interface DRSTaskingDecisionMaker
 {
     _Bool _enforceDate;
-    _Bool _enforceBuild;
-    _Bool _enforceSampling;
-    _Bool _enforceTeamHysteresis;
-    _Bool _enforceGlobalHysteresisAndCap;
-    _Bool _allowRefreshLimitingParameters;
-    NSTimeZone *_deviceTimezone;
-    DRSTaskingLimitingParameters *_limitingParameters;
-    NSString *_dbWorkingDirectoryPath;
-    DRSConfigPersistedStore *_configStore;
-    DRSTaskingCloudKitHelper *_cloudKitHelper;
-    NSDate *_currentReceivedDate;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,10 +21,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)_read_comments selected tags:(id)arg1 %@ %@.;
+- (id)TTRMSectionPasteboardItem;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -60,18 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowRefreshLimitingParameters; // @synthesize allowRefreshLimitingParameters=_allowRefreshLimitingParameters;
-@property(readonly, nonatomic) DRSTaskingCloudKitHelper *cloudKitHelper; // @synthesize cloudKitHelper=_cloudKitHelper;
-@property(readonly, nonatomic) DRSConfigPersistedStore *configStore; // @synthesize configStore=_configStore;
 @property(retain, nonatomic) NSDate *currentReceivedDate; // @synthesize currentReceivedDate=_currentReceivedDate;
-@property(readonly, nonatomic) NSString *dbWorkingDirectoryPath; // @synthesize dbWorkingDirectoryPath=_dbWorkingDirectoryPath;
-@property(readonly, nonatomic) NSTimeZone *deviceTimezone; // @synthesize deviceTimezone=_deviceTimezone;
-@property(readonly, nonatomic) _Bool enforceBuild; // @synthesize enforceBuild=_enforceBuild;
-@property(readonly, nonatomic) _Bool enforceDate; // @synthesize enforceDate=_enforceDate;
-@property(readonly, nonatomic) _Bool enforceGlobalHysteresisAndCap; // @synthesize enforceGlobalHysteresisAndCap=_enforceGlobalHysteresisAndCap;
-@property(readonly, nonatomic) _Bool enforceSampling; // @synthesize enforceSampling=_enforceSampling;
-@property(readonly, nonatomic) _Bool enforceTeamHysteresis; // @synthesize enforceTeamHysteresis=_enforceTeamHysteresis;
-@property(readonly, nonatomic) DRSTaskingLimitingParameters *limitingParameters; // @synthesize limitingParameters=_limitingParameters;
 
 @end
 

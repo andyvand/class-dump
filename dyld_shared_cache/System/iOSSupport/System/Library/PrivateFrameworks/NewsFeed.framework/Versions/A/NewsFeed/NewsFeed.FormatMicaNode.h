@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatMicaNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id content;
-    id mediaTiming;
-    id _runMode;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id flex;
 }
 
 @end

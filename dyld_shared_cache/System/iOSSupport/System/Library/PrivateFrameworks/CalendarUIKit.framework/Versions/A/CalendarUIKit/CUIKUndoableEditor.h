@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKEditingManager, NSString;
-@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKUndoDelegate;
+@class CUIKEditingManager;
+@protocol CUIKDecisionDelegate;
 
 @interface CUIKUndoableEditor
 {
     CUIKEditingManager *_editingManager;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    id <CUIKActionDelegate> _actionDelegate;
-    id <CUIKUndoDelegate> _undoDelegate;
-    id <CUIKCommitDelegate> _commitDelegate;
 }
 
 - (_Bool);
@@ -31,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (_Bool);
@@ -41,27 +37,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)_shouldExpandBottomAttachmentForDragAndDrop;
+- (void)span;
 
 // Remaining properties
-@property(nonatomic) __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(nonatomic) __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <CUIKUndoDelegate> undoDelegate; // @synthesize undoDelegate=_undoDelegate;
 
 @end
 

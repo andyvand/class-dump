@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentBackgroundDownloadRecord.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPaymentBackgroundRegisterCredentialRecord : PKPaymentBackgroundDownloadRecord
 {
     NSString *_credentialIdentifier;
-    NSData *_responseData;
 }
 
 + (_Bool);
@@ -21,12 +20,11 @@
 - (id);
 - (void);
 - (id)tion:] /* Error: Ran out of types for this method. */;
-- (void)oupIdentifier;
+- (void)secureElementReservationGroupIdentifier;
 - (void)t$;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(copy, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;
 
 @end
 

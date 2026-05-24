@@ -9,21 +9,12 @@
 @interface MLCTensorDescriptor
 {
     _Bool _sortedSequences;
-    _Bool _variableLengthSequences;
-    int _dataType;
-    NSArray *_shape;
-    NSArray *_stride;
-    unsigned long long _tensorAllocationSizeInBytes;
-    NSArray *_sequenceLengths;
-    NSArray *_batchSizePerSequenceStep;
-    unsigned long long _fanIn;
-    unsigned long long _fanOut;
 }
 
 + (unsigned long long);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)?#;
 + (id);
 + (id);
 + (id);
@@ -37,13 +28,13 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)i�;
+- (id)?D;
 - (_Bool);
 - (void);
 - (id);
@@ -60,18 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *batchSizePerSequenceStep; // @synthesize batchSizePerSequenceStep=_batchSizePerSequenceStep;
-@property(readonly, nonatomic) int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) unsigned long long dimensionCount;
-@property(readonly, nonatomic) unsigned long long fanIn; // @synthesize fanIn=_fanIn;
-@property(readonly, nonatomic) unsigned long long fanOut; // @synthesize fanOut=_fanOut;
-@property(readonly, nonatomic) _Bool isFloatingPoint;
-@property(readonly, copy, nonatomic) NSArray *sequenceLengths; // @synthesize sequenceLengths=_sequenceLengths;
-@property(readonly, copy, nonatomic) NSArray *shape; // @synthesize shape=_shape;
-@property(readonly, nonatomic) _Bool sortedSequences; // @synthesize sortedSequences=_sortedSequences;
 @property(copy, nonatomic) NSArray *stride; // @synthesize stride=_stride;
-@property(nonatomic) unsigned long long tensorAllocationSizeInBytes; // @synthesize tensorAllocationSizeInBytes=_tensorAllocationSizeInBytes;
-@property(readonly, nonatomic) _Bool variableLengthSequences; // @synthesize variableLengthSequences=_variableLengthSequences;
 
 @end
 

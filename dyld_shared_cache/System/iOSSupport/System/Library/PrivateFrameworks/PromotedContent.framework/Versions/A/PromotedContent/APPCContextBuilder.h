@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCContext, NSArray, NSString, NSUUID, PromotedContent.NewsSupplementalContext;
-@protocol APPCPromotableContentDepiction;
+@class NSUUID;
 
 @interface APPCContextBuilder
 {
     void identifier;
-    struct CGSize maxSize;
-    id <APPCPromotableContentDepiction> current;
-    void next;
-    void requestedAd;
-    PromotedContent.NewsSupplementalContext *newsContext;
-    id resourceLock;
-    id adjacentInternal;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)interactiveCanvasController:adjustViewScale: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -35,20 +27,13 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);;
 - (void);
 - (id)o§ÿÿ;
 - (id);½|ùÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *adjacent;
-@property(nonatomic, readonly) APPCContext *context;
-@property(nonatomic, retain) id <APPCPromotableContentDepiction> current; // @synthesize current;
 @property(nonatomic, copy) NSUUID *identifier;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize;
-@property(nonatomic, retain) PromotedContent.NewsSupplementalContext *newsContext; // @synthesize newsContext;
-@property(nonatomic, copy) NSArray *next;
-@property(nonatomic, copy) NSString *requestedAd;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface MAXpcConnection
 {
     NSObject<OS_xpc_object> *_connection;
-    NSString *_connectionId;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSString *connectionId; // @synthesize connectionId=_connectionId;
 
 @end
 

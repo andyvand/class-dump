@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResultTableView, CNAutocompleteStore, NSArray, NSLayoutConstraint, NSMutableIndexSet, NSScrollView, NSString, NSView, NSVisualEffectView;
+@class NSVisualEffectView;
 @protocol CNAutocompleteResultWindowDelegate;
 
 @interface CNAutocompleteResultWindowBase
 {
     id <CNAutocompleteResultWindowDelegate> _autocompleteDelegate;
-    _Bool _allowsEmptySelection;
-    _Bool _disableOriginAdjustment;
-    _Bool _shouldNotifyDelegateOfResultsDisplayed;
-    NSArray *_results;
-    CNAutocompleteStore *_store;
-    NSView *_headerView;
-    NSVisualEffectView *_effectView;
-    CNAutocompleteResultTableView *_table;
-    NSScrollView *_scrollView;
-    NSLayoutConstraint *_maxScrollHeight;
-    NSLayoutConstraint *_scrollHeight;
-    NSLayoutConstraint *_tableWidth;
-    NSLayoutConstraint *_windowWidth;
-    NSLayoutConstraint *_maxWindowWidth;
-    long long _maxDisplayedRows;
-    long long _maxResults;
-    NSMutableIndexSet *_displayedResultsIndex;
 }
 
 + (struct CGPoint);
-- (id);
+- (id)=;
 - (id);
 - (void);
 - (id);
@@ -61,12 +44,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)\;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)r from a ContentWorld (id=%llu) that does not exist.;
+- (id)sistence::%s:Index %{public}s created /* Error: Ran out of types for this method. */;
+- (void)onst void *>, Extractor = WTF:(long long)arg1:KeyValuePairKeyExtractor<WTF::KeyValuePair<API::Object *, const void *>>, HashFunctions = WTF::DefaultHash<API::Object *>, Traits = WTF::HashMap<API::Object *, const void *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<API::Object *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (id);
@@ -77,7 +60,7 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)	;
 - (_Bool);
 - (float);
 - (void);
@@ -90,46 +73,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)K;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (void);
-- (id)Areas;
+- (id)updateTrackingAreas;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmptySelection; // @synthesize allowsEmptySelection=_allowsEmptySelection;
-@property(nonatomic) __weak id <CNAutocompleteResultWindowDelegate> autocompleteDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableOriginAdjustment; // @synthesize disableOriginAdjustment=_disableOriginAdjustment;
-@property(retain, nonatomic) NSMutableIndexSet *displayedResultsIndex; // @synthesize displayedResultsIndex=_displayedResultsIndex;
 @property(retain, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSView *headerView; // @synthesize headerView=_headerView;
-@property(readonly, nonatomic) double leftContentInset;
-@property(nonatomic) long long maxDisplayedRows; // @synthesize maxDisplayedRows=_maxDisplayedRows;
-@property(nonatomic) long long maxResults; // @synthesize maxResults=_maxResults;
-@property(retain, nonatomic) NSLayoutConstraint *maxScrollHeight; // @synthesize maxScrollHeight=_maxScrollHeight;
-@property(retain, nonatomic) NSLayoutConstraint *maxWindowWidth; // @synthesize maxWindowWidth=_maxWindowWidth;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) NSLayoutConstraint *scrollHeight; // @synthesize scrollHeight=_scrollHeight;
-@property(retain, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) _Bool shouldNotifyDelegateOfResultsDisplayed; // @synthesize shouldNotifyDelegateOfResultsDisplayed=_shouldNotifyDelegateOfResultsDisplayed;
-@property(retain, nonatomic) CNAutocompleteStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNAutocompleteResultTableView *table; // @synthesize table=_table;
-@property(retain, nonatomic) NSLayoutConstraint *tableWidth; // @synthesize tableWidth=_tableWidth;
-@property(retain, nonatomic) NSLayoutConstraint *windowWidth; // @synthesize windowWidth=_windowWidth;
 
 @end
 

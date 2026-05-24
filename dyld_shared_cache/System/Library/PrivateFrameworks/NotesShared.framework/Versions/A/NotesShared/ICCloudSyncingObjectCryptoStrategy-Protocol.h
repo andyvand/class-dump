@@ -4,19 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSString;
+@class ICCloudSyncingObject, ICEncryptionObject, NSString;
 
 @protocol ICCloudSyncingObjectCryptoStrategy
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)erver '%@' from locale '%@';
+- (_Bool)' to locale failed:%@ (%d) /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (NSString *);
+- (ICCloudSyncingObject *)C;
+- (_Bool)E;
+- (ICEncryptionObject *)deleteDataFiles;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
 @property(readonly, nonatomic) __weak ICCloudSyncingObject *object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
 @end
 

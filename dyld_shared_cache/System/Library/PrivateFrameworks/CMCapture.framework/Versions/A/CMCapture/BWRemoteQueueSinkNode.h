@@ -6,74 +6,18 @@
 
 #import <CMCapture/BWSinkNode.h>
 
-@class BWMovieLevelMetadataForProResRaw, BWSceneStabilityMonitor, BWVideoDataOutputAnalyticsPayload, CMCaptureFrameSenderService, FigCaptureFrameCounter, FigCaptureTrie, NSArray, NSDictionary, NSString;
 @protocol BWRemoteQueueSinkNodeDelegate;
 
 @interface BWRemoteQueueSinkNode : BWSinkNode
 {
     _Bool _mediaTypeIsVideo;
-    _Bool _mediaTypeIsPointCloud;
-    _Bool _mediaTypeIsAudio;
-    struct localQueueOpaque *_localQueue;
-    unsigned int _numberOfMediaBuffersLocallyEnqueued;
-    unsigned int _numberOfMediaBuffersLocallyDequeued;
-    id <BWRemoteQueueSinkNodeDelegate> _delegate;
-    NSString *_captureDeviceUniqueID;
-    int _clientVideoRetainedBufferCount;
-    _Bool _discardsLateSampleBuffers;
-    _Bool _attachPanoramaMetadata;
-    _Bool _attachInternalMetadata;
-    _Bool _sentDiagnosticMetadataForPanorama;
-    _Bool _disableFlatDictionaryVDOMetadata;
-    struct OpaqueFigFlatDictionaryKeySpec *_makerNoteKeySpec;
-    _Bool _cameraSupportsFlash;
-    _Bool _attachDetectedObjectsInfo;
-    _Bool _removeCameraIntrinsicMatrixAttachment;
-    struct opaqueCMFormatDescription *_cachedFormatDescription;
-    CDStruct_1b6d18a9 _lastPTS;
-    _Bool _panoramaRequiresLTMLocking;
-    BWSceneStabilityMonitor *_stabilityMonitor;
-    FigCaptureTrie *_requestedBufferAttachmentsTrie;
-    _Bool _moveCMIOExensionMetadataToTransportLayerAttachment;
-    CMCaptureFrameSenderService *_frameSender;
-    _Bool _frameSenderSupportEnabled;
-    NSString *_clientApplicationID;
-    long long _totalNumberOfFrames;
-    long long _totalNumberOfFramesDropped;
-    long long _totalNumberOfISPFramesDropped;
-    FigCaptureFrameCounter *_frameCounter;
-    BWVideoDataOutputAnalyticsPayload *_analyticsPayload;
-    CDStruct_1b6d18a9 _firstPTS;
-    _Bool _proresVideo;
-    _Bool _proresRawVideo;
-    BWMovieLevelMetadataForProResRaw *_movieLevelMetadataForProResRaw;
-    NSDictionary *_cameraInfoByPortType;
-    struct OpaqueFigSimpleMutex *_stateMutex;
-    _Bool _didNotifyFirstFrame;
-    _Bool _videoHDRImageStatisticsEnabled;
-    _Bool _panoRecordingInProgress;
-    _Bool _panoRecordingAlreadyInProgress;
-    float _accumulatedAbsTranslationX;
-    float _accumulatedAbsTranslationY;
-    NSString *_panoPortType;
-    float _panoScalingFactor;
-    float _minAbsTranslationX;
-    float _minAbsTranslationY;
-    float _maxAbsTranslationX;
-    float _maxAbsTranslationY;
-    float _initialFocusDistance;
-    float _initialExposureTime;
-    float _minLux;
-    float _maxLux;
-    float _accumulatedLux;
-    int _numFrames;
 }
 
 + (void)iteBuffer:forInputIndex:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)NSFastEnumeration;
 - (_Bool);
-- (void);
-- (void);
+- (void)AS;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -97,12 +41,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id){S!;
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)1Â0@ù
 × ;
-- (void)entifier:(CDStruct_4c969caf)arg1;
+- (void)bundleWithIdentifier:(CDStruct_4c969caf)arg1;
 - (void)rmediates;
 - (void)¡·¹ÿ©·¸ÿ°·¹ÿ·¸¼ÿ½¸¿ÿÃ¸ÂÿÊ¹ÅÿÑ¹ÇÿØ¹Éÿß¹ËÿæºÍÿíºÏÿ½Óÿ½Óÿ!¾Óÿ$¾Óÿ(¾Óÿ.¾Óÿ3¾Òÿ9¾Òÿ?¾ÑÿI¿ÎÿP¿ÍÿWÀÌÿ^ÀËÿfÀÉÿoÀÇÿwÀÆÿÀÄÿÀÂÿÀÀÿÀ¾ÿ¢À¼ÿªÀ»ÿ±À¼ÿ¸Á½ÿ¾Á¿ÿÄÁÂÿËÂÄÿÒÂÇÿÙÂÉÿàÂËÿæÂÌÿîÃÎÿ%ÇÒÿ'ÇÒÿ)ÇÒÿ,ÇÑÿ0ÇÑÿ5ÇÑÿ:(id)arg1 ÇÐÿ?ÇÐÿEÇÏÿLÈÎÿSÈÍÿZÈÌÿaÈËÿhÈÊÿqÈÈÿyÈÆÿÈÅÿÈÃÿÈÂÿÈÀÿ£È¿ÿªÈ¾ÿ±È¾ÿ¹É¿ÿ¿ÉÀÿÅÉÂÿÌÊÄÿÓÊÆÿÚÊÈÿáÊÊÿçÊÌÿïÊÍÿ,ÏÑÿ-ÏÑÿ/ÏÑÿ2ÏÑÿ5ÏÑÿ:(id)arg2 ÏÑÿ>ÏÐÿDÐÐÿIÐÏÿPÐÎÿVÐÍÿ]ÐÌÿdÐËÿkÐÊÿtÐÉÿ{ÐÇÿÐÆÿÐÅÿÐÃÿÐÂÿ¤ÐÁÿ«ÐÀÿ²ÐÀÿºÑÁÿÀÑÂÿÆÑÃÿÍÑÅÿÔÒÆÿÛÒÈÿáÒÊÿèÒÌÿðÒÍÿ2×Ñÿ4×Ñÿ5×Ñÿ8×Ñÿ;×Ñÿ?×ÑÿCØÐÿHØÐÿNØÏÿTØÎÿZØÍÿaØÍÿhØÌÿnØËÿwØÉÿ~ØÈÿØÇÿØÆÿØÅÿØÄÿ¥ØÃÿ¬ØÂÿ³ØÂÿ»ØÂÿÁÙÃÿÇÙÄÿÎÙÅÿÕÙÇÿÛÚÈÿâÚÊÿéÚËÿðÚÍÿ:àÑÿ;àÑÿ=àÑÿ?àÑÿBáÑÿEáÐÿIáÐÿNáÐÿSáÏÿYáÎÿ_áÎÿeáÍÿkáÌÿráËÿzáÊÿáÉÿáÈÿáÇÿáÆÿáÅÿ¦áÅÿ­áÄÿ´áÄÿ¼áÄÿÂáÅÿÉâÅÿÏâÆÿÖâÈÿÜâÉÿãâÊÿéãËÿñãÍÿ@èÑÿBèÑÿCèÑÿEèÑÿHéÑÿKéÐÿOéÐÿSéÐÿXéÏÿ]éÏÿcéÎÿiéÍÿoéÍÿuéÌÿ}éËÿéÊÿéÉÿéÈÿéÈÿ¡éÇÿ¨éÆÿ¯éÆÿµéÆÿ½éÆÿÃéÆÿÊéÇÿÐêÇÿ×êÈÿÝêÉÿäêËÿêêÌÿòêÍÿGðÑÿHðÑÿIðÑÿKðÑÿMñÑÿQñÐÿTñÐÿXñÐÿ\ñÏÿbñÏÿgñÎÿmñÎÿsñÍÿyñÌÿñÌÿñËÿñÊÿñÉÿñÉÿ¢ñÈÿ©ñÈÿ°ñÇÿ·ñÇÿ¾ñÇÿÅñÈÿËñÈÿÑñÉÿØñÉÿÞòÊÿäòËÿëòÌÿóòÍÿMøÑÿNøÑÿOøÑÿQøÑÿSøÑÿVøÑÿYùÐÿ]ùÐÿaùÐÿfùÏÿkùÏÿqùÎÿvùÎÿ|ùÍÿùÌÿùÌÿùËÿùËÿùÊÿ¤ùÉÿ«ùÉÿ±ùÉÿ¸ùÉÿ¿ùÉÿÆùÉÿÌùÉÿÒùÊÿÙùÊÿßùËÿåùÌÿìùÍÿòùÍÿTÿÑÿUÿÑÿVÿÑÿXÿÑÿYÿÑÿ\ÿÑÿ_ÿÑÿcÿÐÿgÿÐÿkÿÐÿpÿÏÿuÿÏÿzÿÎÿÿÎÿÿÍÿÿÌÿÿÌÿÿËÿ ÿËÿ¦ÿÊÿ­ÿÊÿ³ÿÊÿºÿÊÿÁÿÊÿÇÿÊÿÍÿÊÿÔÿÊÿÚÿËÿàÿÌÿçÿÌÿíÿÍÿòÿÍÿ /* Error: Ran out of types for this method. */;
 - (void)6 Àÿ6 Àÿ6Àÿ6Àÿ@ÀÿKÁÿUÂÿ_ Ãÿi Äÿs Åÿ}¡Åÿ¡Æÿ¢Æÿ£Çÿ¤¤Æÿ­¦Æÿ´§Çÿ¼¨ÈÿÃ©ÉÿÊ©ÊÿÏ§ÊÿÕ¥ÊÿÙ¤ÊÿÝ¢ÊÿÞ¡ÉÿÞÉÿAªÃÿAªÃÿAªÃÿAªÃÿAªÃÿAªÃÿAªÃÿ@©Âÿ@©Âÿ@©ÂÿG©ÂÿQ©ÃÿZªÄÿcªÅÿnªÆÿw«Çÿ«Çÿ¬Èÿ¬Éÿ­Éÿ§®Éÿ¯°Éÿ·±Éÿ¿²ÊÿÆ³ËÿÌ³ÌÿÑ²Ìÿ×±ÌÿÜ¯Ìÿà®Ìÿá­Ìÿá«ÌÿK´ÅÿK´ÅÿK´ÅÿK³ÅÿK³ÅÿK³ÅÿK³ÅÿK³ÅÿK³ÄÿK²ÄÿN²ÄÿW³Åÿ`³Æÿj´Æÿt´Çÿ|µÈÿµÉÿ¶Êÿ¶Ëÿ ·Ëÿ©¸Ìÿ²¹ÌÿººÌÿÂ¼ÌÿÈ½ÍÿÏ¾ÎÿÔ½ÏÿÚ¼Ïÿß»ÏÿãºÏÿå¸Ïÿå·ÏÿV½ÈÿV½ÈÿV½ÇÿV½ÇÿV½ÇÿV½ÇÿV½ÇÿV½ÇÿV¼ÇÿV¼ÇÿV¼Æÿ_¼Çÿh½Èÿq½Èÿ{¾Éÿ¿Êÿ¿ËÿÀËÿÁÌÿ¦ÂÍÿ®ÂÎÿ¶ÃÏÿ½ÄÏÿÆÆÐÿÌÇÐÿÒÈÑÿ×ÈÒÿÝÇÓÿâÇÓÿæÆÓÿéÅÓÿéÄÓÿ_ÅÊÿ_ÅÊÿ_ÅÉÿ_ÅÉÿ_ÅÉÿ_ÄÉÿ_ÄÉÿ_ÄÉÿ_ÄÉÿ_ÄÉÿ_ÄÉÿdÄÉÿmÅÉÿvÅÊÿÆËÿÇÌÿÇÌÿÈÍÿ¤ÉÎÿ¬ÊÏÿ´ËÐÿ»ÌÑÿÂÍÒÿÉÎÓÿÐÐÔÿÕÑÕÿÙÑÕÿßÑÖÿåÑÖÿéÑ×ÿìÐ×ÿíÏÖÿgÌÌÿgÌÌÿgÌËÿgÌËÿgÌËÿgÌËÿgËËÿgËËÿgËËÿgËËÿgËËÿhËËÿqÌËÿ{ÌÌÿÍÍÿÎÎÿÏÏÿÐÐÿ©ÑÑÿ±ÒÒÿ¹ÓÓÿÁÔÔÿÈÕÕÿÏÖÖÿÕ××ÿÙÙÙÿÝÙÙÿâÚÚÿèÚÚÿíÚÚÿðÚÚÿñÚÚÿlÑÍÿlÑÍÿlÑÍÿlÑÍÿlÑÍÿlÑÍÿlÑÌÿlÑÌÿlÑÌÿlÑÌÿlÑÌÿlÐÌÿsÑÌÿ|ÒÍÿÓÎÿÔÏÿÕÐÿ¢ÖÑÿ¬×Òÿ´ØÔÿ¼ÙÕÿÄÚÖÿËÛØÿÒÝÙÿØÞÛÿÜßÜÿááÝÿæâÞÿëâÞÿðãÞÿóãÞÿôãÝÿq×Îÿq×Îÿq×Îÿq×Îÿq×Îÿq×Îÿq×Îÿq×ÎÿqÖÎÿqÖÎÿqÖÍÿqÖÍÿsÖÍÿ|×ÎÿØÏÿÙÑÿÚÒÿ£ÛÓÿ­ÝÔÿ¶ÞÖÿ¾ß×ÿÆáÙÿÍãÛÿÔäÝÿÚæÞÿßçßÿäéàÿêêáÿïëáÿóìáÿöíáÿ÷íáÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿuÛÏÿ{ÛÏÿÜÐÿÝÑÿßÓÿ£àÔÿ­áÖÿ¶ã×ÿ¿åÚÿÇçÜÿÎèÝÿÖêßÿÜìàÿâíâÿçïâÿíñãÿòòãÿöóãÿùóãÿúôãÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÐÿxÞÏÿxÞÏÿyÞÏÿßÑÿàÒÿâÓÿ¡ãÕÿ¬å×ÿ¶çÚÿ¾éÛÿÆëÝÿÎìÞÿÖîàÿÝðâÿãòãÿéóäÿïõäÿô÷äÿøøäÿûùäÿûùäÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿyàÐÿáÐÿâÒÿãÓÿåÕÿªæÖÿ´éÚÿ½ëÜÿÅíÝÿÍîßÿÖðáÿÝòâÿãôãÿéöäÿïøäÿõúäÿùûäÿûûäÿüüäÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÐÿzàÏÿzàÏÿzàÏÿzàÏÿáÐÿãÒÿäÓÿ¥æÕÿ°éÙÿ¹ëÛÿÂìÜÿËîÞÿÓðßÿÛòáÿâôâÿèöãÿïøãÿôúãÿùûãÿûüãÿüüâÿ;
@@ -113,9 +57,7 @@
 - (_Bool)äx%;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *captureDeviceUniqueID; // @synthesize captureDeviceUniqueID=_captureDeviceUniqueID;
 @property(nonatomic) id <BWRemoteQueueSinkNodeDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *movieLevelMetadata;
 
 @end
 

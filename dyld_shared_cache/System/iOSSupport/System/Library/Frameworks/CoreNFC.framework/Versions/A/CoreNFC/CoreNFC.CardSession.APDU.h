@@ -8,10 +8,6 @@
 {
     id deinitHandler;
     id sendHandler;
-    id sequenceNumber;
-    id hasResponded;
-    id payloadHash;
-    id payload;
 }
 
 @end

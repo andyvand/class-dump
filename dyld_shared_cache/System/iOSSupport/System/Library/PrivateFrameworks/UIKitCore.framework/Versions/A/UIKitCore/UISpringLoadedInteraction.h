@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDelayedAction, UISpringLoadedInteractionContextImpl, UIView;
-@protocol UISpringLoadedInteractionBehavior, UISpringLoadedInteractionEffect;
+@class UIView;
 
 @interface UISpringLoadedInteraction
 {
     UIView *_view;
-    double _possibleStateDuration;
-    id <UISpringLoadedInteractionBehavior> _interactionBehavior;
-    id <UISpringLoadedInteractionEffect> _interactionEffect;
-    UISpringLoadedInteractionContextImpl *_context;
-    CDUnknownBlockType _handler;
-    UIDelayedAction *_emphasizeAction;
-    UIDelayedAction *_activateAction;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)ishedSearching;
-- (id);
++ (id)_finishedSearching;
+- (id)`;
+- (void)setPayloadEAPFASTProvisionPAC:(id)arg1;
+- (id)nstallationEnabled;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
+- (double)eryMutableSectionInfo";
 - (id);
 - (void);
 - (id);
@@ -46,12 +38,12 @@
 - (void)Á°!Aùb°1Â0@ù
 × ;
 - (id)pearanceChanged"b1"doneAppearanceChanged"b1"denyPointerInteractions"b1"effectiveLayoutHasCriticalGroup"b1};
-- (id)isExemptFromChecker: /* Error: Ran out of types for this method. */;
-- (void)des;
-- (void)umPredictionsAtIndex:(double)arg1 hardLimit: /* Error: Ran out of types for this method. */;
+- (id)setString:isExemptFromChecker: /* Error: Ran out of types for this method. */;
+- (void)_setUpFocusContainerGuides;
+- (void)_numPredictionsAtIndex:(double)arg1 hardLimit: /* Error: Ran out of types for this method. */;
 - (void)Path",&,N,V_destinationIndexPath;
 - (CDUnknownBlockType)tureRecognizer;
-- (id)ITouchObservingLongPress;
+- (id)_UITouchObservingLongPress;
 - (_Bool)k;
 - (void)(inline);
 - (void)ageURL is nil in Open or Move mode.;
@@ -59,20 +51,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setPossibleStateDuration:) double _possibleStateDuration; // @synthesize _possibleStateDuration;
-@property(retain, nonatomic) UIDelayedAction *activateAction; // @synthesize activateAction=_activateAction;
-@property(retain, nonatomic) UISpringLoadedInteractionContextImpl *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDelayedAction *emphasizeAction; // @synthesize emphasizeAction=_emphasizeAction;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <UISpringLoadedInteractionBehavior> interactionBehavior; // @synthesize interactionBehavior=_interactionBehavior;
-@property(readonly, nonatomic) id <UISpringLoadedInteractionEffect> interactionEffect; // @synthesize interactionEffect=_interactionEffect;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore.TransitionState : MediaPlaybackCore.State
 {
     id startItem;
-    id steps;
-    id metadata;
 }
 
 @end

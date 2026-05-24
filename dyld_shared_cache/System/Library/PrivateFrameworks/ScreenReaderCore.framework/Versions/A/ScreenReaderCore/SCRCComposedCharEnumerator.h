@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SCRCComposedCharEnumerator
 {
     _Bool _done;
-    NSString *_string;
-    unsigned long long _indexOfCurrentComposedCharacter;
 }
 
 - (id);
+- (id)ManagedObject;
 - (id);
-- (id);
-- (void);
+- (void)initiateFirmwareUpdateForAllEligibleBeaconsWithCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

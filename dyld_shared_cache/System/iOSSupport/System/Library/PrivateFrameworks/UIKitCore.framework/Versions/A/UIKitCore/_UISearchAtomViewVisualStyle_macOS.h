@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (id);
+- (id)storeAttachment:associateWithMessageWithGUID: /* Error: Ran out of types for this method. */;
 - (double)e.UIKit.UIActivityIndicatorViewGearImagesCache;
 
 @end

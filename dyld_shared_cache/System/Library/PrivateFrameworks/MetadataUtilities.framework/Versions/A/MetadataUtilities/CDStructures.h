@@ -54,9 +54,9 @@ struct malloc_introspection_t;
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int embeddedReference;
-    unsigned char type;
-} CDStruct_aeabb2c7;
+    unsigned int _field1;
+    unsigned char _field2;
+} CDStruct_51293ebd;
 
 typedef struct {
     unsigned long long _field1;
@@ -73,12 +73,6 @@ typedef struct {
     unsigned long long _field1[32];
     id _field2;
 } CDStruct_bcaf8faf;
-
-typedef struct {
-    char *containerBytes;
-    unsigned long long containerLength;
-    CDStruct_aeabb2c7 reference;
-} CDStruct_ab85f6a0;
 
 typedef struct {
     struct __CFDictionary *_field1;

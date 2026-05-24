@@ -4,60 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol SLSSpaceWindowManagerDelegate;
-
 @interface SLSSpaceWindowManager
 {
     _Bool _valid;
-    _Bool _displaysHaveSeparateSpaces;
-    _Bool _beganBatch;
-    unsigned int _connectionID;
-    unsigned long long _capabilities;
-    id <SLSSpaceWindowManagerDelegate> _delegate;
-    NSMutableDictionary *_spaces;
-    NSMutableDictionary *_displayCurrentSpaces;
-    NSMutableDictionary *_displaySpaceList;
-    long long _nestedCalloutCount;
 }
 
+- (id)%@-%@-%@;
 - (id);
+- (void)MirroringDelegate _requestAbortedNotInitialized:(id)arg1 ];
+- (void)formMetadataResetRequest:(long long)arg1 ]_block_invoke;
+- (void)block_invoke;
+- (void)t Export;
+- (void)cloudkit.export;
+- (void)loudKitMirroringDelegate _importFinishedWithResult:(id)arg1 importer:] /* Error: Ran out of types for this method. */;
+- (void)a.cloudkit.setup;
+- (void)bclasses instead.;
+- (void)dn't register a handler for the import activity. There is another instance of this persistent store actively syncing with CloudKit in this process.;
+- (void)NSCloudKitMirroringDelegateLastHistoryTokenKey;
+- (long long)of:NSLessThanPredicateOperatorType,
+NSLessThanOrEqualToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType /* Error: Ran out of types for this method. */;
+- (void)the relationship identified by the keyPath.;
+- (_Bool)@ IS NULL) OR (NEW.%@ != OLD.%@));
+- (id)needsRecoveryFromUserPurge;
+- (_Bool)%lu>;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)s/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringRequestManager.m;
+- (_Bool)ed %d;
+- (void)bl_name IN %@;
+- (void)SELECT ENTITYID, PRIMEKEY, TYPE,  group_concat(ATTRIBUTENAME) FROM %@ GROUP BY ENTITYID, PRIMEKEY;
+- (id)DISTINCT ENTITYID, PRIMEKEY FROM %@;
+- (void)(SELECT 0 FROM %@ LIMIT 1);
+- (void)unt(*) FROM ;
+- (void)olation;
+- (void)keys for batch insert;
+- (void)6^B24;
+- (void)eDictionary"8;
+- (id).apple.coredata.schemamigrator:(unsigned long long)arg1 lightweight migration from model with digest { %@ }%@;
+- (void)= %@;
+- (void)>= 16000;
+- (void)ADD Z%@ INTEGER;;
+- (void)Unable to determine if tombstones for change table - %s;
+- (void)sqlite_master where name = '%@';
+- (void)ent:%@ /* Error: Ran out of types for this method. */;
+- (id)E VARCHAR;
 - (unsigned int);
 - (void);
 - (void);
@@ -72,15 +65,6 @@
 - (void),D;
 
 // Remaining properties
-@property(nonatomic) _Bool beganBatch; // @synthesize beganBatch=_beganBatch;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) unsigned int connectionID; // @synthesize connectionID=_connectionID;
-@property(nonatomic) __weak id <SLSSpaceWindowManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableDictionary *displayCurrentSpaces; // @synthesize displayCurrentSpaces=_displayCurrentSpaces;
-@property(retain, nonatomic) NSMutableDictionary *displaySpaceList; // @synthesize displaySpaceList=_displaySpaceList;
-@property(nonatomic) _Bool displaysHaveSeparateSpaces; // @synthesize displaysHaveSeparateSpaces=_displaysHaveSeparateSpaces;
-@property(nonatomic) long long nestedCalloutCount; // @synthesize nestedCalloutCount=_nestedCalloutCount;
-@property(retain, nonatomic) NSMutableDictionary *spaces; // @synthesize spaces=_spaces;
 @property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end

@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)_completedSiriAppTaskCount;
++ (id)_commandExecutionStartTimeInNs;
++ (id)_assistantDaemonAudioRecordingFailureInsufficientPriority;
++ (id)_appUsageCount7Days;
++ (id)_appLaunchRequired;
++ (id)_announceNotifications;
++ (void)Score;
++ (id)Type;
 
 @end
 

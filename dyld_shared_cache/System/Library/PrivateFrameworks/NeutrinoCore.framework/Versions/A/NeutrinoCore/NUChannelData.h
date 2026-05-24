@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NUChannelFormat;
+@class NSNumber, NUChannelFormat;
 
 @interface NUChannelData
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -37,13 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *cardinality;
-@property(readonly, nonatomic) NSString *compactDescription;
-@property(readonly, nonatomic) NUChannelFormat *format; // @synthesize format=_format;
-@property(readonly, nonatomic) _Bool isBoolean;
-@property(readonly, nonatomic) _Bool isNull;
-@property(readonly, nonatomic) _Bool isNumber;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) id value;
 
 @end
 

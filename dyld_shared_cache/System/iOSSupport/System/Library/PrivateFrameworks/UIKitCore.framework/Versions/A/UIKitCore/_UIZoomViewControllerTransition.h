@@ -6,36 +6,32 @@
 
 #import <UIKitCore/UIViewControllerTransition.h>
 
-@class UIViewController, UIZoomTransitionOptions;
+@class UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIZoomViewControllerTransition : UIViewControllerTransition
 {
     CDUnknownBlockType __viewProvider;
-    UIZoomTransitionOptions *__options;
-    UIViewController *__associatedViewController;
 }
 
++ (id)essage disagrees with the "from me" attribute, creating a new message ID;
 + (id);
-+ (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (long long);
+- (void);
+- (void)NSError"8;
+- (CDUnknownBlockType)ry"16;
+- (id)shouldRetractSubject;
+- (long long)_mergedChatsForChat:cache: /* Error: Ran out of types for this method. */;
+- (_Bool)performQueryRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (id);
-- (void);
+- (void)n %s. Aborting sync, downloading all attachments!;
 - (id)entStorageURL is nil in Open or Move mode.;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *_associatedViewController; // @synthesize _associatedViewController=__associatedViewController;
-@property(retain, nonatomic) UIZoomTransitionOptions *_options; // @synthesize _options=__options;
-@property(copy, nonatomic) CDUnknownBlockType _viewProvider; // @synthesize _viewProvider=__viewProvider;
 
 @end
 

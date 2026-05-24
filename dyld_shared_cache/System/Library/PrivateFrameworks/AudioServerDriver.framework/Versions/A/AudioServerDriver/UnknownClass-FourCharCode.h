@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (FourCharCode)
-- (_Bool);
+- (_Bool)0
+;
 @end
 

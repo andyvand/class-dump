@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTStateModelEntryExit, RTStateModelLocation;
+@class RTStateModelLocation;
 
 @interface RTStateModelOneVisit
 {
     RTStateModelLocation *_location;
-    NSUUID *_identifier;
-    RTStateModelEntryExit *_EntryExit_s;
-    long long _numOfDataPts;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (void)cingVersion3-%@-%@.db;
+- (id)(PID:%@), and was unrecoverable, account may need another repair or RPD before SetupIdentities will continue /* Error: Ran out of types for this method. */;
+- (id);
+- (id)task for %ld links...;
+- (id)@;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id)ceInstanceWithIdentifier:uiPlacement:assistanceType:assistanceValue: /* Error: Ran out of types for this method. */;
+- (id)y;
+- (id)_submitFMCAssistanceInstanceWithIdentifier:uiPlacement:assistanceType:assistanceValue: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)@, %@, input contextLocation, %{sensitive}@;
 - (_Bool)map item, %{sensitive}@;
 - (void)%P;
 
 // Remaining properties
-@property(retain, nonatomic) RTStateModelEntryExit *EntryExit_s; // @synthesize EntryExit_s=_EntryExit_s;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) RTStateModelLocation *location; // @synthesize location=_location;
-@property(nonatomic) long long numOfDataPts; // @synthesize numOfDataPts=_numOfDataPts;
 
 @end
 

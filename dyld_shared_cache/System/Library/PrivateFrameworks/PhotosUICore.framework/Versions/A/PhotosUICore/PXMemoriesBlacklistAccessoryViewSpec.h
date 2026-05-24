@@ -7,8 +7,6 @@
 @interface PXMemoriesBlacklistAccessoryViewSpec
 {
     unsigned long long _type;
-    struct CGRect _contentViewFrame;
-    struct CGRect _accessoryViewFrame;
 }
 
 + (id);
@@ -19,8 +17,6 @@
 - (void)xedDuration;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect accessoryViewFrame; // @synthesize accessoryViewFrame=_accessoryViewFrame;
-@property(readonly, nonatomic) struct CGRect contentViewFrame; // @synthesize contentViewFrame=_contentViewFrame;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

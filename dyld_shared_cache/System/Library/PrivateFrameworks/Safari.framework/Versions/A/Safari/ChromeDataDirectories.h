@@ -23,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *bookmarksFileURL;
-@property(readonly, nonatomic) NSURL *historyDatabaseURL;
-@property(readonly, nonatomic) NSURL *loginDatabaseURL;
 
 @end
 

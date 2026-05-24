@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)8@"NSArray"16@"NSError"24;
 

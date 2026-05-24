@@ -6,20 +6,16 @@
 
 #import <UIFoundation/NSTextAttachment.h>
 
-@class NSAttributedString, NSStringDrawingContext;
+@class NSStringDrawingContext;
 
 __attribute__((visibility("hidden")))
 @interface _NSTruncationTokenAttachment : NSTextAttachment
 {
     NSStringDrawingContext *stringDrawingContext;
-    struct __CTRunDelegate *_runDelegate;
-    double _width;
-    NSAttributedString *_attributedString;
-    struct __CTLine *_lineRef;
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 

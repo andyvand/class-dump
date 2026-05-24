@@ -6,28 +6,18 @@
 
 #import <Network/NWURLSessionTask.h>
 
-@class NSData, NSMutableArray, NSURLResponse, NWURLError;
-
 @interface NWURLSessionWebSocketTask : NWURLSessionTask
 {
     _Bool _receiving;
-    unsigned short _pingSeed;
-    long long _maximumMessageSize;
-    long long _closeCode;
-    NSData *_closeReason;
-    NSURLResponse *_storedResponse;
-    NSMutableArray *_pendingWork;
-    NWURLError *_pendingReceiveError;
-    NSMutableArray *_pendingReceiveCompletionHandlers;
 }
 
-+ (_Bool);
++ (_Bool)ogress:(Class)arg1 ];
 - (void);
-- (_Bool);
+- (_Bool)qC;
 - (void);
-- (id);
+- (id)teViewMarshal matchBootstrapFrameOfWindow:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)ClassVertical:%d memoryClass:%lu graphicsClass:%lu] [%s:%d] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -36,12 +26,10 @@
 - (_Bool)°>;
 - (long long)e, ignoring., dumping backtrace:%{public}s /* Error: Ran out of types for this method. */;
 - (void)for %{public}@;
-- (long long)terfaceSubtype;
+- (long long)requiredInterfaceSubtype;
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long closeCode;
-@property(readonly, copy, nonatomic) NSData *closeReason;
 @property(nonatomic) long long maximumMessageSize; // @synthesize maximumMessageSize=_maximumMessageSize;
 
 @end

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SMPathStats;
+
 @protocol SMPathEnumerationProtocol
+- (SMPathStats *);
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool supportsFastEnumeration;

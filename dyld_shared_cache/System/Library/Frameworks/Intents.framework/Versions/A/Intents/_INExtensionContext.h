@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol INIntentDelivering, INIntentHandlerProvidingPrivate, OS_dispatch_queue;
+@protocol INIntentHandlerProvidingPrivate;
 
 @interface _INExtensionContext
 {
     _Bool _isPrivateExtension;
-    id _handlerForIntent;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <INIntentDelivering> _intentDeliverer;
-    id <INIntentHandlerProvidingPrivate> _extensionHandler;
 }
 
 + (id);
@@ -21,15 +16,15 @@
 + (void)W;
 - (oneway void);
 - (oneway void);
-- (void);
+- (void),;
 - (oneway void);
 - (oneway void);
-- (void);
-- (oneway void);
+- (void)works/CoreServices.framework/Versions/A/CoreServices;
+- (oneway void)d not find pilot configuration;
 - (id);
 - (oneway void);
 - (oneway void);
-- (id);
+- (id)H;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -51,13 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <INIntentHandlerProvidingPrivate> _extensionHandler; // @synthesize _extensionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

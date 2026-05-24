@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVVideoComposition, CAShapeLayer, NSObject, UXImageView, UXView, _PXLivePhotoTrimScrubberLoupeViewImageRequest;
-@protocol OS_dispatch_queue;
+@class UXView;
 
 @interface PXLivePhotoTrimScrubberLoupeView
 {
     UXView *_container;
-    CAShapeLayer *_maskLayer;
-    UXImageView *_imageView;
-    _Bool _imageIsValid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _PXLivePhotoTrimScrubberLoupeViewImageRequest *_currentImageRequest;
-    CDStruct_1b6d18a9 _frameTime;
-    CAShapeLayer *_borderLayer;
-    _Bool _playheadIsValid;
-    double _needleWidth;
-    _Bool _forceDarkUserInterfaceStyle;
-    unsigned long long _playheadStyle;
-    AVAsset *_asset;
-    AVVideoComposition *_videoComposition;
-    double _aspectRatio;
-    UXView *_playerView;
-    double _verticalInset;
-    double _outerCornerRadius;
-    double _innerCornerRadius;
 }
 
 - (double);
@@ -62,24 +43,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)2;
 - (void);
 - (void);
-- (void)aysVideosInline;
+- (void)_activityEntryFeedAutoplaysVideosInline;
 - (id).CPAnalytics.sharedLibrary.suggestionsBanner.dismissed;
 - (void)¤.èÑÝ¶@¢;
 - (double)¢>;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) CDStruct_1b6d18a9 frameTime; // @synthesize frameTime=_frameTime;
-@property(nonatomic) double innerCornerRadius; // @synthesize innerCornerRadius=_innerCornerRadius;
-@property(nonatomic) double outerCornerRadius; // @synthesize outerCornerRadius=_outerCornerRadius;
-@property(retain, nonatomic) UXView *playerView; // @synthesize playerView=_playerView;
 @property(readonly, nonatomic) unsigned long long playheadStyle; // @synthesize playheadStyle=_playheadStyle;
-@property(nonatomic) double verticalInset; // @synthesize verticalInset=_verticalInset;
-@property(readonly, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
 
 @end
 

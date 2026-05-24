@@ -7,7 +7,6 @@
 #import <WebKitLegacy/DOMObject.h>
 
 @class DOMNode;
-@protocol DOMNodeFilter;
 
 @interface DOMNodeIterator : DOMObject
 {
@@ -15,22 +14,17 @@
 
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)Hd;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)count %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool expandEntityReferences;
-@property(readonly) id <DOMNodeFilter> filter;
-@property(readonly) _Bool pointerBeforeReferenceNode;
-@property(readonly) DOMNode *referenceNode;
 @property(readonly) DOMNode *root;
-@property(readonly) unsigned int whatToShow;
 
 @end
 

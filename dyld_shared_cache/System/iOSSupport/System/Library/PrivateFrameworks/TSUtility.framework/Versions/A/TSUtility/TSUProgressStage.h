@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSUProgressContext;
-
 @interface TSUProgressStage
 {
     double m_currentPosition;
-    double m_totalSteps;
-    double m_stepsInParent;
-    double m_startInParent;
-    double m_nextSubStageParentSize;
-    TSUProgressStage *m_parentStage;
-    TSUProgressContext *m_context;
 }
 
 - (void);
@@ -25,7 +17,7 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)=;
 - (double);
 - (id);
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol NSRolloverButtonDelegate
+
+@optional
+- (void);
 @end
 

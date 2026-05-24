@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDRapportMessagingReceiverContext
 {
     CDUnknownBlockType _requestHandler;
-    NSMutableArray *_requestQueue;
 }
 
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)_debugColorAnalysisBuffer;
+- (CDUnknownBlockType);
 - (id);
 - (void)le.homed.hh2-upgrade;
 - (id)is missing required files;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType requestHandler; // @synthesize requestHandler=_requestHandler;
-@property(retain, nonatomic) NSMutableArray *requestQueue; // @synthesize requestQueue=_requestQueue;
 
 @end
 

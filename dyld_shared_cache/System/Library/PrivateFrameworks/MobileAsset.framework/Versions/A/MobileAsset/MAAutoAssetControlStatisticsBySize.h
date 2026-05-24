@@ -7,19 +7,16 @@
 @interface MAAutoAssetControlStatisticsBySize
 {
     long long _patchedAssets;
-    long long _patchedBytes;
-    long long _fullAssets;
-    long long _fullBytes;
 }
 
 + (_Bool);
+- (id)ectedLinkID %d, linkUUID %@, reason:(long long)arg1 %d;
+- (id);
+- (void)setSendFailedTimer:(long long)arg1;
+- (id)te:(id)arg1;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)t verify motion and location consistency.;
 - (long long);
 - (long long);
 - (long long);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long fullAssets; // @synthesize fullAssets=_fullAssets;
-@property(nonatomic) long long fullBytes; // @synthesize fullBytes=_fullBytes;
 @property(nonatomic) long long patchedAssets; // @synthesize patchedAssets=_patchedAssets;
-@property(nonatomic) long long patchedBytes; // @synthesize patchedBytes=_patchedBytes;
 
 @end
 

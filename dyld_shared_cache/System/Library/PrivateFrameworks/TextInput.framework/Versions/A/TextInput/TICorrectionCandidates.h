@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TIKeyboardCandidate;
+@class TIKeyboardCandidate;
 
 @interface TICorrectionCandidates
 {
     _Bool _autocorrectionBlocked;
-    TIKeyboardCandidate *_autocorrection;
-    NSArray *_alternateCorrections;
 }
 
 + (_Bool);
@@ -19,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)photoSharingOriginalFilenameForAsset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)²
@@ -28,9 +26,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternateCorrections; // @synthesize alternateCorrections=_alternateCorrections;
 @property(readonly, nonatomic) TIKeyboardCandidate *autocorrection; // @synthesize autocorrection=_autocorrection;
-@property(readonly, nonatomic) _Bool autocorrectionBlocked; // @synthesize autocorrectionBlocked=_autocorrectionBlocked;
 
 @end
 

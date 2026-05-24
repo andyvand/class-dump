@@ -6,16 +6,10 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLModelConfiguration, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplN : NLModelImpl
 {
     void *_nlModel;
-    void *_modelContainer;
-    NLModelConfiguration *_configuration;
-    NSDictionary *_labelMap;
-    unsigned long long _numberOfTrainingInstances;
 }
 
 - (id);
@@ -27,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addRepresentationsForAsset:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)_customRestartNotificationText;
 - (void);
 
 @end

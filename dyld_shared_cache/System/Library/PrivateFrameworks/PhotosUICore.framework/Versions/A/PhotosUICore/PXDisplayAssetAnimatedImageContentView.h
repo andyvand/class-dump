@@ -6,17 +6,11 @@
 
 #import <PhotosUICore/PXDisplayAssetContentView.h>
 
-@class ISAnimatedImageView, PHAnimatedImage, UXImageView, UXView;
-@protocol PXDisplayAsset;
+@class UXView;
 
 @interface PXDisplayAssetAnimatedImageContentView : PXDisplayAssetContentView
 {
     UXView *_contentContainerView;
-    UXImageView *_placeholderImageView;
-    ISAnimatedImageView *_animatedImageView;
-    id <PXDisplayAsset> _animatedImageAsset;
-    double _animatedImageLoadingProgress;
-    PHAnimatedImage *_animatedImage;
 }
 
 - (void);
@@ -35,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -48,12 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) PHAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(retain, nonatomic) id <PXDisplayAsset> animatedImageAsset; // @synthesize animatedImageAsset=_animatedImageAsset;
-@property(nonatomic) double animatedImageLoadingProgress; // @synthesize animatedImageLoadingProgress=_animatedImageLoadingProgress;
-@property(readonly, nonatomic) ISAnimatedImageView *animatedImageView; // @synthesize animatedImageView=_animatedImageView;
 @property(readonly, nonatomic) UXView *contentContainerView; // @synthesize contentContainerView=_contentContainerView;
-@property(readonly, nonatomic) UXImageView *placeholderImageView; // @synthesize placeholderImageView=_placeholderImageView;
 
 @end
 

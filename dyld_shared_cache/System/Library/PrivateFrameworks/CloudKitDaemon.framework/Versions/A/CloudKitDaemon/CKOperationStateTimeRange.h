@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface CKOperationStateTimeRange
 {
     unsigned long long _operationState;
-    NSDate *_startDate;
-    double _duration;
 }
 
 - (id);
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)setRxFifo0OvflOverDecodingErrors: /* Error: Ran out of types for this method. */;
 - (double);
 - (long long);
 - (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (long long);
 - (double);
-- (unsigned long long)Domain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (unsigned long long)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 - (void)<¶¶;
 
 // Remaining properties
-@property(readonly) double absoluteStart;
-@property(readonly) double absoluteStop;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) double executing;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long operationState; // @synthesize operationState=_operationState;
-@property(readonly) double queueing;
-@property(readonly) double relativeStart;
-@property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,16 +7,13 @@
 @interface AVCaptureDeskViewApplication
 {
     struct os_unfair_lock_s _completionHandlerLock;
-    CDUnknownBlockType _completionHandler;
-    int _appForegroundedToken;
-    int _appSetUpCompletedToken;
 }
 
 + (void)reDevice_Tundra observePanWithTranslationForDeviceID:handler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ctivity;
 - (id);
 
 @end

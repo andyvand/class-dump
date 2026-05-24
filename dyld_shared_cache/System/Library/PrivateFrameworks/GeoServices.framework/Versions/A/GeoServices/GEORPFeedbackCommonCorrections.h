@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackCommonCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_comments;
-    NSMutableArray *_imageIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_comments:1;
-        unsigned int read_imageIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)sSprMap:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIsSprMap:(id)arg1;
+- (void)>24;
+- (void)ct",R,D,N;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)	k;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setMyriadPreventingTwoShotFeedback: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -48,16 +36,13 @@
 - (id);
 - (void);
 - (id)ead_timezone"b1"read_titles"b1"wrote_anyField"b1};
-- (id)ddTextureChecksum: /* Error: Ran out of types for this method. */;
+- (id)addTextureChecksum: /* Error: Ran out of types for this method. */;
 - (id)ÔÝ;
-- (id)ightDistance;
+- (id)highlightDistance;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comments;
 @property(readonly, nonatomic) _Bool hasComments;
-@property(retain, nonatomic) NSMutableArray *imageIds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

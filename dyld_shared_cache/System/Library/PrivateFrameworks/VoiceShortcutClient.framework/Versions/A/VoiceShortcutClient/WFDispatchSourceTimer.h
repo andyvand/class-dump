@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RBSAssertion;
-@protocol OS_dispatch_source;
-
 @interface WFDispatchSourceTimer
 {
     _Bool _preventSuspension;
-    _Bool _hasFired;
-    NSObject<OS_dispatch_source> *_source;
-    RBSAssertion *_assertion;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,17 +19,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)initWithAttributedTitle:lowerBound:upperBound:gridlinePositions:valueDescriptionProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_parentAction;
 
 // Remaining properties
-@property(retain, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;
 @property(nonatomic) _Bool hasFired; // @synthesize hasFired=_hasFired;
-@property(nonatomic) _Bool preventSuspension; // @synthesize preventSuspension=_preventSuspension;
-@property(readonly, nonatomic) NSObject<OS_dispatch_source> *source; // @synthesize source=_source;
 
 @end
 

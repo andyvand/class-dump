@@ -9,8 +9,6 @@
 @interface GCDeviceAdaptiveTriggersStatusPayload
 {
     NSNumber *_status;
-    NSNumber *_armPosition;
-    NSNumber *_mode;
 }
 
 + (_Bool);
@@ -21,14 +19,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)(;
 - (id);
-- (id);
+- (id)c;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *armPosition; // @synthesize armPosition=_armPosition;
-@property(readonly, nonatomic) NSNumber *mode; // @synthesize mode=_mode;
 @property(readonly, nonatomic) NSNumber *status; // @synthesize status=_status;
 
 @end

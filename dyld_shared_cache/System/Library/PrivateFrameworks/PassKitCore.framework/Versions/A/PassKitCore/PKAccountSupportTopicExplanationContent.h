@@ -9,8 +9,6 @@
 @interface PKAccountSupportTopicExplanationContent
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_systemImageName;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void)Failed to encode payment request;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

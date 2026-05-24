@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSString;
 
 @interface CKDPCSKeySyncCoreAnalytics
 {
     NSString *_serviceName;
-    NSNumber *_shouldThrottle;
-    NSNumber *_isManatee;
-    NSString *_keySyncResult;
-    NSString *_overallResult;
-    NSNumber *_keySyncDurationSec;
-    NSNumber *_throttledDurationSec;
-    NSString *_context;
-    NSString *_bundleID;
-    NSNumber *_KRSReturnedExistingIdentity;
-    NSError *_error;
 }
 
 - (id);
@@ -33,8 +23,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)common_MediaCaptureMode_ScreenRecording;
+- (id)UsoTaskBuilder_previous_common_Communication;
 - (id);
 - (void);
 - (void);
@@ -46,17 +36,7 @@
 - (void)kit.PILSQueue;
 
 // Remaining properties
-@property(nonatomic) NSNumber *KRSReturnedExistingIdentity; // @synthesize KRSReturnedExistingIdentity=_KRSReturnedExistingIdentity;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSNumber *isManatee; // @synthesize isManatee=_isManatee;
-@property(retain, nonatomic) NSNumber *keySyncDurationSec; // @synthesize keySyncDurationSec=_keySyncDurationSec;
-@property(copy) NSString *keySyncResult; // @synthesize keySyncResult=_keySyncResult;
-@property(retain, nonatomic) NSString *overallResult; // @synthesize overallResult=_overallResult;
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) NSNumber *shouldThrottle; // @synthesize shouldThrottle=_shouldThrottle;
-@property(retain, nonatomic) NSNumber *throttledDurationSec; // @synthesize throttledDurationSec=_throttledDurationSec;
 
 @end
 

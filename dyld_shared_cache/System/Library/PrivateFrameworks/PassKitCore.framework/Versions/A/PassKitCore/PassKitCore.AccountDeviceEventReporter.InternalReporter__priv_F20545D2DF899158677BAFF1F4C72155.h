@@ -7,8 +7,6 @@
 @interface PassKitCore.AccountDeviceEventReporter.InternalReporter__priv_F20545D2DF899158677BAFF1F4C72155
 {
     id reportingTaskQueue;
-    id pendingReports;
-    id assessmentManager;
 }
 
 @end

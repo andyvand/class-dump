@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface HMIVideoNode
 {
     long long _status;
-    NSError *_error;
 }
 
 - (id);
@@ -17,7 +14,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(readonly) long long status;
 
 @end

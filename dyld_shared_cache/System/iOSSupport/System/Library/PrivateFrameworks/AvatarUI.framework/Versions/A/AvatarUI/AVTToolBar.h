@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView, UIVisualEffectView;
-@protocol AVTToolBarDelegate;
+@class NSArray;
 
 @interface AVTToolBar
 {
     _Bool _isAnimating;
-    id <AVTToolBarDelegate> _delegate;
-    NSArray *_buttons;
-    UIView *_border;
-    UIVisualEffectView *_visualEffectView;
 }
 
 + (double);
@@ -27,22 +22,18 @@
 - (void);
 - (void);
 - (void);
+- (id)h;
+- (void)HUPolicyPrevPeTlc;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)v20@?0i8I12i16;
+- (void)pairedVolume;
 - (_Bool);
 - (double);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *border; // @synthesize border=_border;
 @property(retain, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) __weak id <AVTToolBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end
 

@@ -6,17 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSArray, NSString, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaPodcastMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
 + (id);
@@ -24,33 +18,27 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void)ler (%p) being created;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)edCardRenderer (%p:%ld):could not load metalness texture. /* Error: Ran out of types for this method. */;
+- (_Bool)[;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id)=;
-- (void)edMessageRange;
+- (void)associatedMessageRange;
 - (void);
 - (id)&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

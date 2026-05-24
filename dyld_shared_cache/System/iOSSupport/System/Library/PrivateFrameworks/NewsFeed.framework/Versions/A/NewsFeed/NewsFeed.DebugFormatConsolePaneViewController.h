@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatConsolePaneViewController
 {
     id editor;
-    id styler;
-    id logViewController;
-    id debuggerPaneViewController;
-    id separatorView;
 }
 
 - (id);

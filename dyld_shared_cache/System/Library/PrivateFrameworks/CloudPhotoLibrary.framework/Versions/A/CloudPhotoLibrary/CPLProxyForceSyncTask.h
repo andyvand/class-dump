@@ -13,8 +13,8 @@
     CPLProxyLibraryManager *_proxyLibraryManager;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)pple.mobileaddressbook.contact;
 - (id);
 - (void);
 

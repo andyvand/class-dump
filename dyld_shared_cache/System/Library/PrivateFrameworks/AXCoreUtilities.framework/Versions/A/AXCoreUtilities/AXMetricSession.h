@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface AXMetricSession
 {
     _Bool _measurementsEnabled;
-    NSString *_name;
-    NSMutableArray *_childMetrics;
-    NSArray *_enabledByEnvironmentVariables;
 }
 
 + (_Bool);
@@ -24,27 +21,17 @@
 - (void);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)hb;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)D;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *childMetrics; // @synthesize childMetrics=_childMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *enabledByEnvironmentVariables; // @synthesize enabledByEnvironmentVariables=_enabledByEnvironmentVariables;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool measurementsEnabled; // @synthesize measurementsEnabled=_measurementsEnabled;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

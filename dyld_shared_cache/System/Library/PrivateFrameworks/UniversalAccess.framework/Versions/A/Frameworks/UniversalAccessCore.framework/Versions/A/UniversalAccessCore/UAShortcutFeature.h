@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXKAlertWindowController, NSString, NSWindow;
+@class NSString;
 
 @interface UAShortcutFeature
 {
     _Bool _userInterfaceEnabled;
-    _Bool _currentFeatureState;
-    _Bool __needToSyncSystemStatus;
-    _Bool _runAlertModalIfNecessary;
-    NSString *_localizedName;
-    AXKAlertWindowController *__alertController;
-    unsigned long long __featureID;
-    NSString *__featureName;
-    NSWindow *_windowForSheets;
 }
 
 + (id);
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)* @9)$@9;
 - (void);
 - (void);
 - (void);
@@ -38,15 +30,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)q`;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (void);
 - (id);
@@ -56,26 +48,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)s;
 
 // Remaining properties
-@property(retain, nonatomic) AXKAlertWindowController *_alertController; // @synthesize _alertController=__alertController;
-@property(readonly, nonatomic) _Bool _allowedToBeShown;
-@property(readonly, nonatomic) unsigned long long _categoryID;
-@property(nonatomic) unsigned long long _featureID; // @synthesize _featureID=__featureID;
-@property(copy, nonatomic) NSString *_featureName; // @synthesize _featureName=__featureName;
-@property _Bool _needToSyncSystemStatus; // @synthesize _needToSyncSystemStatus=__needToSyncSystemStatus;
-@property(nonatomic) _Bool currentFeatureState; // @synthesize currentFeatureState=_currentFeatureState;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *keyboardShortcut;
 @property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) _Bool runAlertModalIfNecessary; // @synthesize runAlertModalIfNecessary=_runAlertModalIfNecessary;
-@property(readonly, nonatomic) double symbolFontSize;
-@property(readonly, nonatomic) double symbolFontWeight;
-@property(readonly, copy, nonatomic) NSString *symbolName;
-@property(nonatomic) _Bool userInterfaceEnabled; // @synthesize userInterfaceEnabled=_userInterfaceEnabled;
-@property(nonatomic) __weak NSWindow *windowForSheets; // @synthesize windowForSheets=_windowForSheets;
 
 @end
 

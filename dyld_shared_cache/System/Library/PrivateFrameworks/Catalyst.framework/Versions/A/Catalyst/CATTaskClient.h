@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATStateMachine, CATTransport, NSDictionary, NSHashTable, NSMapTable, NSMutableArray, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol CATTaskClientDelegate, OS_dispatch_group;
+@class CATStateMachine, NSUUID;
 
 @interface CATTaskClient
 {
     CATStateMachine *mFSM;
-    CATTransport *mTransport;
-    NSMutableSet *mActiveRemoteTaskOperations;
-    NSMapTable *mRemoteTaskByUUID;
-    NSMutableArray *mEnqueuedMessages;
-    NSMutableArray *mEnqueuedTaskUUIDs;
-    NSHashTable *mOrphanedTransports;
-    CATTaskClient *mStrongSelf;
-    NSObject<OS_dispatch_group> *mSessionDidInvalidateGroup;
-    _Bool mIsStarting;
-    NSUUID *_sessionUUID;
-    id <CATTaskClientDelegate> _delegate;
-    NSDictionary *_userInfo;
-    NSDictionary *_serverUserInfo;
 }
 
 - (id);
@@ -33,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
@@ -41,10 +27,23 @@
 - (id);
 - (void);
 - (id);
+- (void)willBeRemovedFromSuperlayer;
+- (void)_separator;
+- (void)1;
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)tices;
+- (void);
+- (void);
+- (void);
+- (void)ɪ;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -57,21 +56,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)Z\;
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -84,18 +70,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CATTaskClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *serverUserInfo; // @synthesize serverUserInfo=_serverUserInfo;
 @property(retain, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CATTransport *transport; // @synthesize transport=mTransport;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

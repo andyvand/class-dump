@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)Iza;
 - (_Bool);
 - (long long);
 - (long long);
-- (long long);
+- (long long)A8;
 - (_Bool);
-- (void);
+- (void)P;
 - (struct __CVPixelBufferPool *);
 - (id);
 - (void);

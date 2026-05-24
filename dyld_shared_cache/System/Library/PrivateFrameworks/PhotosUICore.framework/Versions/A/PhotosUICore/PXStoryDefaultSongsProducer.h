@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PXStoryConfiguration, PXStoryPhotoKitAssetContainer;
-@protocol OS_dispatch_queue, OS_os_log, PXStoryMusicCurationProvider;
+@class NSObject;
+@protocol OS_dispatch_queue, OS_os_log;
 
 @interface PXStoryDefaultSongsProducer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <PXStoryMusicCurationProvider> _curationProvider;
-    PXStoryConfiguration *_configuration;
-    unsigned long long logContext;
-    PXStoryPhotoKitAssetContainer *_assetContainer;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)lidateAXSpriteIndexes;
+- (void)_invalidateAXSpriteIndexes;
 - (id)shelves:order changed /* Error: Ran out of types for this method. */;
 - (void)xêiÿÀêiÿÙÉ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryPhotoKitAssetContainer *assetContainer; // @synthesize assetContainer=_assetContainer;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) unsigned long long logContext; // @synthesize logContext;
 
 @end
 

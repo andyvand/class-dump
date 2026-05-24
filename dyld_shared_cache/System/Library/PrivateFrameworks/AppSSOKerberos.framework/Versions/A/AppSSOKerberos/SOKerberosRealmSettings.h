@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSMutableArray, NSNumber, NSObject, NSString, NSUUID, NSUserDefaults;
-@protocol OS_dispatch_semaphore;
+@class NSMutableArray;
 
 @interface SOKerberosRealmSettings
 {
     int _notifyToken;
-    NSObject<OS_dispatch_semaphore> *_platformSSOLoginSemaphore;
-    NSMutableArray *_siteCodeCache;
-    NSUserDefaults *_defaults;
-    NSString *_realm;
-    NSString *_notificationName;
 }
 
 - (id);
@@ -77,13 +71,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)NTEGER NOT NULL,noEngagement INTEGER NOT NULL,positiveEngagement INTEGER NOT NULL,blockedWarningCount INTEGER NOT NULL);
 - (void);
-- (id);
+- (id)attachStabilizedOutputCameraTrajectory;
+- (void)_deviceMotionActivityDetector;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
 - (void);
@@ -91,41 +85,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Intent(INSExtensionService) _handleIntentWithExtensionProxy:onQueue:processIntentCompleted:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *credentialUUID; // @dynamic credentialUUID;
-@property(retain, nonatomic) NSDate *dateADPasswordCanChange; // @dynamic dateADPasswordCanChange;
-@property(retain, nonatomic) NSDate *dateADPasswordLastChangedWhenSynced; // @dynamic dateADPasswordLastChangedWhenSynced;
-@property(retain, nonatomic) NSDate *dateExpirationChecked; // @dynamic dateExpirationChecked;
-@property(retain, nonatomic) NSDate *dateExpirationNotificationSent; // @dynamic dateExpirationNotificationSent;
-@property(retain, nonatomic) NSDate *dateLastLogin; // @dynamic dateLastLogin;
-@property(retain, nonatomic) NSDate *dateLocalPasswordLastChanged; // @dynamic dateLocalPasswordLastChanged;
-@property(retain, nonatomic) NSDate *dateLocalPasswordLastChangedWhenSynced; // @dynamic dateLocalPasswordLastChangedWhenSynced;
-@property(retain, nonatomic) NSDate *dateLoginCancelled; // @dynamic dateLoginCancelled;
-@property(retain, nonatomic) NSDate *dateNextPacRefresh;
-@property(retain, nonatomic) NSDate *datePasswordExpires; // @dynamic datePasswordExpires;
-@property(retain, nonatomic) NSDate *datePasswordLastChanged; // @dynamic datePasswordLastChanged;
-@property(retain, nonatomic) NSDate *datePasswordLastChangedAtLogin;
-@property(retain, nonatomic) NSDate *dateUserSignedOut; // @dynamic dateUserSignedOut;
-@property(readonly, nonatomic) NSNumber *daysUntilExpiration; // @dynamic daysUntilExpiration;
-@property(retain) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(nonatomic) _Bool delayUserSetupCleared; // @dynamic delayUserSetupCleared;
-@property(nonatomic) _Bool networkAvailable; // @dynamic networkAvailable;
-@property(retain, nonatomic) NSString *networkHomeDirectory; // @dynamic networkHomeDirectory;
-@property(retain, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property int notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(nonatomic) _Bool passwordChangeInProgress; // @dynamic passwordChangeInProgress;
-@property(nonatomic) _Bool passwordNeverExpires; // @dynamic passwordNeverExpires;
-@property(retain, nonatomic) NSData *pkinitPersistentRef; // @dynamic pkinitPersistentRef;
-@property(nonatomic) _Bool platformSSOLoginInProgress; // @dynamic platformSSOLoginInProgress;
-@property(readonly) NSObject<OS_dispatch_semaphore> *platformSSOLoginSemaphore; // @synthesize platformSSOLoginSemaphore=_platformSSOLoginSemaphore;
-@property(retain) NSString *realm; // @synthesize realm=_realm;
 @property(retain, nonatomic) NSMutableArray *siteCodeCache; // @synthesize siteCodeCache=_siteCodeCache;
-@property(retain, nonatomic) NSString *smartCardTokenID; // @dynamic smartCardTokenID;
-@property(nonatomic) _Bool userCancelledLogin; // @dynamic userCancelledLogin;
-@property(retain, nonatomic) NSString *userName; // @dynamic userName;
-@property(retain, nonatomic) NSString *userPrincipalName; // @dynamic userPrincipalName;
 
 @end
 

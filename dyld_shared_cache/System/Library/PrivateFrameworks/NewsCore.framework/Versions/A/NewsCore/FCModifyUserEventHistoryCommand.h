@@ -12,8 +12,8 @@
 
 - (id);
 - (_Bool);
-- (id);
-- (id)rationSet:(id)arg1;
+- (id)PathingDuration;
+- (id)transformationWithPersonalizer:(id)arg1 configurationSet:(id)arg2;
 
 @end
 

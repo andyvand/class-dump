@@ -5,5 +5,6 @@
 //
 
 @protocol AKAppleIDAuthenticationSurrogateUIProvider
+- (id)LPlacemark",&,V_placemark;
 @end
 

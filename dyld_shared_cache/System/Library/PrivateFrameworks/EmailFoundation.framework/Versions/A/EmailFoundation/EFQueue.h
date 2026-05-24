@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol EFQueueingStrategy;
+@class NSMutableArray;
 
 @interface EFQueue
 {
     NSMutableArray *_buffer;
-    id <EFQueueingStrategy> _strategy;
 }
 
 + (id);
@@ -31,13 +29,10 @@
 - (id);
 - (id);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)ef_quotePairsForLanguages: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allObjects;
 @property(readonly, nonatomic) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) id <EFQueueingStrategy> strategy; // @synthesize strategy=_strategy;
 
 @end
 

@@ -6,33 +6,25 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKPassShare, PKSharingChannelHandle, PKSharingMessage;
+@class PKSharingChannelHandle;
 
 @interface PKStatefulTransferCredential : PKPaymentCredential
 {
     PKSharingChannelHandle *_handle;
-    PKSharingMessage *_invitation;
-    PKPassShare *_share;
-    NSString *_originalShareURL;
-    NSString *_accountAttestationAnonymizationSalt;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id);
 - (void)KDataAccessor updateSettings:] /* Error: Ran out of types for this method. */;
 - (id)ü;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountAttestationAnonymizationSalt; // @synthesize accountAttestationAnonymizationSalt=_accountAttestationAnonymizationSalt;
 @property(readonly, nonatomic) PKSharingChannelHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) PKSharingMessage *invitation; // @synthesize invitation=_invitation;
-@property(retain, nonatomic) NSString *originalShareURL; // @synthesize originalShareURL=_originalShareURL;
-@property(readonly, nonatomic) PKPassShare *share; // @synthesize share=_share;
 
 @end
 

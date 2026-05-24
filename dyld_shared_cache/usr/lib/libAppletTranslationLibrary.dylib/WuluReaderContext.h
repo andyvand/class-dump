@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface WuluReaderContext
 {
     unsigned int _localRecordFormat;
-    NSData *_file15;
-    NSData *_file17;
-    NSMutableArray *_file18;
-    NSMutableArray *_file1E;
-    NSMutableArray *_file1A;
-    NSNumber *_balance;
-    NSNumber *_overdraft;
-    NSMutableArray *_localRecords;
 }
 
 + (id);
@@ -50,15 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *balance; // @synthesize balance=_balance;
 @property(retain, nonatomic) NSData *file15; // @synthesize file15=_file15;
-@property(retain, nonatomic) NSData *file17; // @synthesize file17=_file17;
-@property(retain, nonatomic) NSMutableArray *file18; // @synthesize file18=_file18;
-@property(retain, nonatomic) NSMutableArray *file1A; // @synthesize file1A=_file1A;
-@property(retain, nonatomic) NSMutableArray *file1E; // @synthesize file1E=_file1E;
-@property unsigned int localRecordFormat; // @synthesize localRecordFormat=_localRecordFormat;
-@property(retain, nonatomic) NSMutableArray *localRecords; // @synthesize localRecords=_localRecords;
-@property(retain, nonatomic) NSNumber *overdraft; // @synthesize overdraft=_overdraft;
 
 @end
 

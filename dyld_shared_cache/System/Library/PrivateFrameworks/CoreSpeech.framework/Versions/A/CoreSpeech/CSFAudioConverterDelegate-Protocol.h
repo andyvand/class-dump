@@ -5,5 +5,6 @@
 //
 
 @protocol CSFAudioConverterDelegate
+- (void);
 @end
 

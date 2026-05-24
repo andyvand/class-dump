@@ -6,52 +6,23 @@
 
 #import <MLCompute/MLCGPUDeviceOps.h>
 
-@class NSArray, NSMutableArray;
-
 @interface MLCMHAGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _mhaHasBias;
-    _Bool _mhaHasAttnBias;
-    _Bool _mhaHasZeroAttention;
-    _Bool _mhaHasKeyMask;
-    _Bool _mhaHasAttentionMask;
-    unsigned long long _mhaHeadCount;
-    unsigned long long _mhaModelDimension;
-    NSMutableArray *_mhaSourcesQKV;
-    NSMutableArray *_mhaInputProjResults;
-    NSMutableArray *_mhaMatMulSourcesQKV;
-    id _mhaQKSoftmaxResultMatrix;
-    id _mhaMaskSoftmaxForwardKernel;
-    id _mhaMaskSoftmaxFastForwardKernel;
-    id _mhaSoftmaxGradientKernel;
-    id _mhaMatMulKernel;
-    id _mhaMatMulKernelWithScale;
-    id _mhaBiasAddKernel;
-    NSMutableArray *_mhaMatrixDescriptors;
-    NSMutableArray *_mhaNDArrayDescriptors;
-    NSMutableArray *_mhaMatrixDescriptorsForBias;
-    NSMutableArray *_mhaNDArrayDescriptorsForBias;
-    NSArray *_mhaReduceSumKernels;
-    NSArray *_mhaAttentionBiasTensors;
-    id _mhaDropoutForwardKernel;
-    id _mhaDropoutGradientKernel;
-    id _mhaDropoutSource;
-    id _mhaDropoutState;
-    id _mhaMultiGPUChildOps;
 }
 
 + (id);
+- (void);
+- (void)-;
+- (void);
+- (void)kj;
+- (void);
+- (void)n;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -68,6 +39,13 @@
 - (void);
 - (void);
 - (id);
+- (id)#;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -75,13 +53,6 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -98,37 +69,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)newMatrixMultiplicationWithTransposeLeft:transposeRight:resultRows:resultColumns:interiorColumns:alpha:beta: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *mhaAttentionBiasTensors; // @synthesize mhaAttentionBiasTensors=_mhaAttentionBiasTensors;
-@property(retain, nonatomic) id mhaBiasAddKernel; // @synthesize mhaBiasAddKernel=_mhaBiasAddKernel;
-@property(retain, nonatomic) id mhaDropoutForwardKernel; // @synthesize mhaDropoutForwardKernel=_mhaDropoutForwardKernel;
-@property(retain, nonatomic) id mhaDropoutGradientKernel; // @synthesize mhaDropoutGradientKernel=_mhaDropoutGradientKernel;
-@property(retain, nonatomic) id mhaDropoutSource; // @synthesize mhaDropoutSource=_mhaDropoutSource;
-@property(retain, nonatomic) id mhaDropoutState; // @synthesize mhaDropoutState=_mhaDropoutState;
-@property(nonatomic) _Bool mhaHasAttentionMask; // @synthesize mhaHasAttentionMask=_mhaHasAttentionMask;
-@property(nonatomic) _Bool mhaHasAttnBias; // @synthesize mhaHasAttnBias=_mhaHasAttnBias;
-@property(nonatomic) _Bool mhaHasBias; // @synthesize mhaHasBias=_mhaHasBias;
-@property(nonatomic) _Bool mhaHasKeyMask; // @synthesize mhaHasKeyMask=_mhaHasKeyMask;
-@property(nonatomic) _Bool mhaHasZeroAttention; // @synthesize mhaHasZeroAttention=_mhaHasZeroAttention;
 @property(nonatomic) unsigned long long mhaHeadCount; // @synthesize mhaHeadCount=_mhaHeadCount;
-@property(retain, nonatomic) NSMutableArray *mhaInputProjResults; // @synthesize mhaInputProjResults=_mhaInputProjResults;
-@property(retain, nonatomic) id mhaMaskSoftmaxFastForwardKernel; // @synthesize mhaMaskSoftmaxFastForwardKernel=_mhaMaskSoftmaxFastForwardKernel;
-@property(retain, nonatomic) id mhaMaskSoftmaxForwardKernel; // @synthesize mhaMaskSoftmaxForwardKernel=_mhaMaskSoftmaxForwardKernel;
-@property(retain, nonatomic) id mhaMatMulKernel; // @synthesize mhaMatMulKernel=_mhaMatMulKernel;
-@property(retain, nonatomic) id mhaMatMulKernelWithScale; // @synthesize mhaMatMulKernelWithScale=_mhaMatMulKernelWithScale;
-@property(retain, nonatomic) NSMutableArray *mhaMatMulSourcesQKV; // @synthesize mhaMatMulSourcesQKV=_mhaMatMulSourcesQKV;
-@property(retain, nonatomic) NSMutableArray *mhaMatrixDescriptors; // @synthesize mhaMatrixDescriptors=_mhaMatrixDescriptors;
-@property(retain, nonatomic) NSMutableArray *mhaMatrixDescriptorsForBias; // @synthesize mhaMatrixDescriptorsForBias=_mhaMatrixDescriptorsForBias;
-@property(nonatomic) unsigned long long mhaModelDimension; // @synthesize mhaModelDimension=_mhaModelDimension;
-@property(retain, nonatomic) id mhaMultiGPUChildOps; // @synthesize mhaMultiGPUChildOps=_mhaMultiGPUChildOps;
-@property(retain, nonatomic) NSMutableArray *mhaNDArrayDescriptors; // @synthesize mhaNDArrayDescriptors=_mhaNDArrayDescriptors;
-@property(retain, nonatomic) NSMutableArray *mhaNDArrayDescriptorsForBias; // @synthesize mhaNDArrayDescriptorsForBias=_mhaNDArrayDescriptorsForBias;
-@property(retain, nonatomic) id mhaQKSoftmaxResultMatrix; // @synthesize mhaQKSoftmaxResultMatrix=_mhaQKSoftmaxResultMatrix;
-@property(retain, nonatomic) NSArray *mhaReduceSumKernels; // @synthesize mhaReduceSumKernels=_mhaReduceSumKernels;
-@property(retain, nonatomic) id mhaSoftmaxGradientKernel; // @synthesize mhaSoftmaxGradientKernel=_mhaSoftmaxGradientKernel;
-@property(retain, nonatomic) NSMutableArray *mhaSourcesQKV; // @synthesize mhaSourcesQKV=_mhaSourcesQKV;
 
 @end
 

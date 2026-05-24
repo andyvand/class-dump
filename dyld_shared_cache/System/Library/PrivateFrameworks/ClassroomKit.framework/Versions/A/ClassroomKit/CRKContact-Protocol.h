@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol CRKContact
-- (NSString *)n;
-- (NSString *)s: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *)mOperation;
+- (NSString *)arrayByParsingAndRemovingArgumentFlags: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *familyName;
-@property(readonly, copy, nonatomic) NSString *givenName;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *nickname;
-@property(readonly, copy, nonatomic) NSString *phoneticFamilyName;
-@property(readonly, copy, nonatomic) NSString *phoneticGivenName;
-@property(readonly, copy, nonatomic) NSData *thumbnailImageData;
 @end
 

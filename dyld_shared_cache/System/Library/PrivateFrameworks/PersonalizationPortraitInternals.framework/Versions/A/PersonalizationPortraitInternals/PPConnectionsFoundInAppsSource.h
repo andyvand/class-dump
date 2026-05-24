@@ -6,7 +6,6 @@
 
 #import <PersonalizationPortraitInternals/PPConnectionsSource.h>
 
-@class NSString;
 @protocol SGSuggestionsServiceURLsProtocol;
 
 @interface PPConnectionsFoundInAppsSource : PPConnectionsSource
@@ -14,21 +13,15 @@
     id <SGSuggestionsServiceURLsProtocol> _fiaURLService;
 }
 
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)initWithPlacemark: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id)name %@ using DB %@;
 - (id);
-- (id);
-- (void)xTimestampSec;
+- (void)unixTimestampSec;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

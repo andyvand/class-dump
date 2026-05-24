@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol HMDStatusChannelProtocolV2
+- (void)MSPShareETASupportedReceivingTransportTypesKey;
 - (_Bool)angeObserverDelegate>",N,W,Vdelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isConnected;
-@property(readonly, nonatomic) NSData *metadataForChannel;
 @end
 

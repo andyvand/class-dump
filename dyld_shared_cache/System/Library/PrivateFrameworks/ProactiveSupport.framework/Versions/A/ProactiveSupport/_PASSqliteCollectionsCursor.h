@@ -7,20 +7,18 @@
 @interface _PASSqliteCollectionsCursor
 {
     _Bool _foundOutputRow;
-    _Bool _eof;
-    id _collection;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)rams:] /* Error: Ran out of types for this method. */;
++ (_Bool)ssetTag:(_Bool)arg1 outVector:] /* Error: Ran out of types for this method. */;
++ (_Bool)izationVectorForAccessory:(_Bool)arg1 assetTag:outVector:] /* Error: Ran out of types for this method. */;
++ (id)write to superbinary payload data index %lu at %@; %@;
 + (const char *);
-+ (_Bool);
++ (_Bool)isEqualToSimpleTimeRange:(_Bool)arg1;
 + (id);
-+ (const char *);
++ (const char *)CGRect={CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 + (id);
-+ (double);
++ (double)y. Instead, it is class %@;
 + (_Bool);
 + (double);
 - (id);
@@ -29,16 +27,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S	;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)rence XPC client:(int)arg1 Establishing session failed:(id)arg2 %s!;
+- (void)fterPruning;
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)UINSPopupButtonCell;
+- (_Bool)ensaver settings;
+- (void)x_apple_alternative_due_date_for_calendar;
+- (id);
 - (void);
 
 // Remaining properties

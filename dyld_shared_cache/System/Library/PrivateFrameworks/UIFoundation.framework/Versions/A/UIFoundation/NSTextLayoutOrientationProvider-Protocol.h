@@ -5,7 +5,7 @@
 //
 
 @protocol NSTextLayoutOrientationProvider
-- (long long)densed;
+- (long long)NSCTFontUIFontDesignCondensed;
 
 // Remaining properties
 @property(readonly) long long layoutOrientation;

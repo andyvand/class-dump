@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface WFDeferredMenuItem
 {
     WFDeferredMenuElementGroup *_group;
-    _Bool _startedLoading;
-    _Bool _forceShowState;
 }
 
-- (id);
+- (id)*T;
 - (void);
 - (void);
 

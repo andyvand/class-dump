@@ -7,16 +7,6 @@
 @interface AppStoreKit.LegacyAppStateController
 {
     id allDataSources;
-    id nonBetaDataSources;
-    id betaOnlyDataSources;
-    id purchaseHistoryOnlyDataSources;
-    id stateMachines;
-    id stateTransitionRules;
-    id stateMachineAccessQueue;
-    id dataSourceRefreshQueue;
-    id loadedAccessQueue;
-    id loadedCallbacks;
-    id loadState;
 }
 
 @end

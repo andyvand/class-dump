@@ -12,10 +12,10 @@
 
 - (id);
 - (id);
-- (long long);
+- (long long).;
 - (id);
-- (id);
-- (id)amingQuestion;
+- (id)removePageURLString:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGNamingQuestion;
 
 @end
 

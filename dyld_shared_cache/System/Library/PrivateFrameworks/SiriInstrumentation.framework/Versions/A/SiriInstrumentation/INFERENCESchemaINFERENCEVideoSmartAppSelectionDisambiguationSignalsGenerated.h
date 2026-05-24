@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppGroundTruthGenerated, INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationIndependentSignals, NSArray, NSData;
+@class INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppGroundTruthGenerated;
 
 @interface INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationSignalsGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppGroundTruthGenerated *_playOnThirdPartyAppSignals;
-    INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationIndependentSignals *_independentSignal;
-    NSArray *_dependentSignals;
-    _Bool _hasPlayOnThirdPartyAppSignals;
-    _Bool _hasIndependentSignal;
 }
 
 - (void);
@@ -25,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -33,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -43,16 +39,11 @@
 - (id);
 - (id)
 × ;
-- (id)tring;
-- (id)adingDialogReportedTier1;
+- (id)hasAdamIdString;
+- (id)RFSchemaRFGradingDialogReportedTier1;
 - (void)è)Ýÿ#h­4";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *dependentSignals; // @synthesize dependentSignals=_dependentSignals;
-@property(nonatomic) _Bool hasIndependentSignal; // @synthesize hasIndependentSignal=_hasIndependentSignal;
-@property(nonatomic) _Bool hasPlayOnThirdPartyAppSignals; // @synthesize hasPlayOnThirdPartyAppSignals=_hasPlayOnThirdPartyAppSignals;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationIndependentSignals *independentSignal; // @synthesize independentSignal=_independentSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppGroundTruthGenerated *playOnThirdPartyAppSignals; // @synthesize playOnThirdPartyAppSignals=_playOnThirdPartyAppSignals;
 
 @end

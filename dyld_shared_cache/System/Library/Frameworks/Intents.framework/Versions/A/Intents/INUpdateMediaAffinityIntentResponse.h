@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INUpdateMediaAffinityIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
++ (int)shouldProvideFoldedGenericIcon;
++ (long long)setRepresentationTypes:(int)arg1;
++ (_Bool)setIoSurfaceBlock:(long long)arg1;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void)R3;
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (id);
+- (id)16@"NSString"24^v32;
+- (id);
+- (void)orewifi] AUTO-JOIN:(id)arg1 [internal] Applying defaults override for [CWFAutoJoinTriggerAssociatedToNetworkRetry :CWFAutoJoinTriggerAWDLRealTimeModeEnded] throttle interval (default=%lus, override=%lus) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)teredFare;
+- (long long)usesMeteredFare;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 + (void);
 - (void);
 - (id);
@@ -22,16 +22,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$+;
 - (void);
 - (id);
-- (id);
+- (id)criptionContext",R,N,V_context;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)agreement error, but IPSec is enabled;
 - (_Bool);
-- (void);
-- (void);
+- (void)T;
+- (void),V_wrappedKeyString;
 - (id);
 - (void);
 - (unsigned long long);

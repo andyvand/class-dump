@@ -5,15 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface ATLTimer
 {
     NSObject<OS_dispatch_source> *_src;
-    CDUnknownBlockType _block;
-    double _delay;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

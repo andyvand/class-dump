@@ -7,64 +7,38 @@
 @interface ML3MigrationDirectives
 {
     _Bool _needsToRecreateIndexes;
-    _Bool _needsToRecreateTriggers;
-    _Bool _needsToRemoveLocationsForItemsMissingAssets;
-    _Bool _needsToReloadStoreBookmarkMetadataIdentifiers;
-    _Bool _needsToReloadContainerMediaTypes;
-    _Bool _needsToReloadCollectionRepresentativeItems;
-    _Bool _needsAnalyze;
-    _Bool _needsToAutogenerateArtworkVariants;
-    _Bool _needsToPerformColorAnalysisForCollectionArtwork;
-    _Bool _needsToUpdateSortMap;
-    _Bool _forceUpdateOriginals;
-    _Bool _needsToMarkArtworkPurgeable;
-    int _originalUserVersion;
-    int _currentUserVersion;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)_albumsMatchingPredicate:(_Bool)arg1 expectedResultCount:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)_albumsEligibleForSearchIndexing;
+- (void)_albumUnviewedAssetCount;
+- (void)_albumTitle;
+- (void)_albumRecordsWithContainerChange;
+- (void)_albumRecords;
+- (void)_albumOrderMatchesFrom:(_Bool)arg1 inDestination: /* Error: Ran out of types for this method. */;
+- (void)_albumListWithType:(_Bool)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)_albumInserts;
+- (void)_albumHandlerBlocks;
+- (void)_addAsset:(_Bool)arg1 toAssetChanges:isInsert:seenAssetUuid: /* Error: Ran out of types for this method. */;
+- (void)_acquireSpotlightSandboxExtensionWithPathManager:(int)arg1;
+- (int)itialPrefetchDateIntervalBeforeNow;
+- (_Bool)Tq,N,V_ptpTrashedState;
+- (_Bool),N,V_prefetchOptimizeMode;
+- (_Bool)photosGraphVersion;
+- (_Bool)ingShareCount;
+- (_Bool)V_packedBoundingBox;
+- (_Bool)alue;
+- (_Bool)Tq,N,V_numberOfVideos;
+- (_Bool)CreationDateWithin;
+- (_Bool)ViewedDateWithin;
+- (_Bool),V_mediaType;
+- (_Bool)PerBatch;
+- (id)Count;
+- (_Bool)Iris;
+- (void)T@"NSMutableArray",&,N,V_socialGroupChanges;
 - (int);
 
 // Remaining properties
-@property(nonatomic) int currentUserVersion; // @synthesize currentUserVersion=_currentUserVersion;
-@property(nonatomic) _Bool forceUpdateOriginals; // @synthesize forceUpdateOriginals=_forceUpdateOriginals;
-@property(nonatomic) _Bool needsAnalyze; // @synthesize needsAnalyze=_needsAnalyze;
-@property(nonatomic) _Bool needsToAutogenerateArtworkVariants; // @synthesize needsToAutogenerateArtworkVariants=_needsToAutogenerateArtworkVariants;
-@property(nonatomic) _Bool needsToMarkArtworkPurgeable; // @synthesize needsToMarkArtworkPurgeable=_needsToMarkArtworkPurgeable;
-@property(nonatomic) _Bool needsToPerformColorAnalysisForCollectionArtwork; // @synthesize needsToPerformColorAnalysisForCollectionArtwork=_needsToPerformColorAnalysisForCollectionArtwork;
-@property(nonatomic) _Bool needsToRecreateIndexes; // @synthesize needsToRecreateIndexes=_needsToRecreateIndexes;
-@property(nonatomic) _Bool needsToRecreateTriggers; // @synthesize needsToRecreateTriggers=_needsToRecreateTriggers;
-@property(nonatomic) _Bool needsToReloadCollectionRepresentativeItems; // @synthesize needsToReloadCollectionRepresentativeItems=_needsToReloadCollectionRepresentativeItems;
-@property(nonatomic) _Bool needsToReloadContainerMediaTypes; // @synthesize needsToReloadContainerMediaTypes=_needsToReloadContainerMediaTypes;
-@property(nonatomic) _Bool needsToReloadStoreBookmarkMetadataIdentifiers; // @synthesize needsToReloadStoreBookmarkMetadataIdentifiers=_needsToReloadStoreBookmarkMetadataIdentifiers;
-@property(nonatomic) _Bool needsToRemoveLocationsForItemsMissingAssets; // @synthesize needsToRemoveLocationsForItemsMissingAssets=_needsToRemoveLocationsForItemsMissingAssets;
-@property(nonatomic) _Bool needsToUpdateSortMap; // @synthesize needsToUpdateSortMap=_needsToUpdateSortMap;
 @property(readonly, nonatomic) int originalUserVersion; // @synthesize originalUserVersion=_originalUserVersion;
 
 @end

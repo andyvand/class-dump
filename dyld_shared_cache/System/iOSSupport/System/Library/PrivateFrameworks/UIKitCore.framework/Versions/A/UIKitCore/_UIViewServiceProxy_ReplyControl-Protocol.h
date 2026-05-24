@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewServiceProxy_ReplyControl
+- (id)$;
 @end
 

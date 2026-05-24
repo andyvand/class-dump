@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (double);
+- (double)SString"52@"IMMessageItem"60;
 - (id)24B28;
 
 @end

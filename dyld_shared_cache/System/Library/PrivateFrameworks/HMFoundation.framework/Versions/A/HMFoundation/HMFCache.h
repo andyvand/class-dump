@@ -11,19 +11,17 @@
 @interface HMFCache : HMFObject
 {
     _Bool _exists;
-    NSURL *_URL;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)p;
 - (id);
+- (id)+;
 - (id);
-- (id);
-- (void);
+- (void)';
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, getter=isExists) _Bool exists; // @synthesize exists=_exists;
 
 @end
 

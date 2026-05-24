@@ -10,6 +10,7 @@
 }
 
 - (void);
+- (void)hjh8?;
 - (void);
 - (void);
 - (void);
@@ -19,8 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)"NSData",&,N,V_data;
 - (void)1,ð1Â0@ù
 × ;
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSFinderOpenSavePanelHostProtocol
+- (void)#;
 @end
 

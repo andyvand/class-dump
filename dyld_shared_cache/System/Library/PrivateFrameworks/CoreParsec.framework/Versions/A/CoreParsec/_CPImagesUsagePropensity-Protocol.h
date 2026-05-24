@@ -4,17 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPImagesUsagePropensity
+- (int)ebKit::WebNotification>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>>, WTF::DefaultHash<WTF::UUID>, WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, WTF::HashTraits<UUID>>::validateKey(const ValueType &) [Key = WTF::UUID, Value = WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)iterationDuration;
+- (void)WebProcessProxy>>>:(float)arg1:validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebProcessProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebProcessProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(float)arg1 HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebProcessProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebProcessProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (float)aultHash<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)WebKit:(float)arg1:UIGamepadProvider::platformGamepadDisconnected(PlatformGamepad &) /* Error: Ran out of types for this method. */;
+- (float)ys: /* Error: Ran out of types for this method. */;
+- (float)raits = WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)onst ValueType &) [Key = double, Value = double, Extractor = WTF:(float)arg1:IdentityExtractor, HashFunctions = WTF::DefaultHash<double>, Traits = WTF::HashTraits<double>, KeyTraits = WTF::HashTraits<double>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id);
+- (float)lls on the system so early returning since ICS shouldn't show any UI;
 
 // Remaining properties
-@property(nonatomic) float image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float other;
-@property(nonatomic) float querySuggestion;
-@property(nonatomic) float recentResult;
-@property(nonatomic) int totalEngagements;
 @property(nonatomic) float zkw;
 @end
 

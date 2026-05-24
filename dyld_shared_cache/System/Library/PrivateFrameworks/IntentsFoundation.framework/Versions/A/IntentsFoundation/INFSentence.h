@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFGrammarCollection, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface INFSentence
 {
     NSString *_identifier;
-    NSString *_format;
-    NSSet *_placeholders;
-    NSMutableDictionary *_relationships;
-    NSMutableDictionary *_placeholdersToTokens;
-    INFGrammarCollection *_collection;
 }
 
-+ (id);
++ (id)N;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
@@ -36,22 +31,16 @@
 - (id);
 - (id);
 - (id);
+- (id)(`;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)responseFromRequest:statusCode:headerFields:body: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ontext;
+- (void)_context;
 
 // Remaining properties
-@property(nonatomic) __weak INFGrammarCollection *collection; // @synthesize collection=_collection;
-@property(copy, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSSet *placeholders; // @synthesize placeholders=_placeholders;
-@property(retain, nonatomic) NSMutableDictionary *placeholdersToTokens; // @synthesize placeholdersToTokens=_placeholdersToTokens;
 @property(retain, nonatomic) NSMutableDictionary *relationships; // @synthesize relationships=_relationships;
-@property(readonly, nonatomic) NSString *resolvedSentence;
 
 @end
 

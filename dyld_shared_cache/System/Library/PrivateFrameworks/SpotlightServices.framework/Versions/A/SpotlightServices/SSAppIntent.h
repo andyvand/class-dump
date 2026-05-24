@@ -11,17 +11,17 @@
 }
 
 + (id)shness;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)?<v@?q@"NSURLCredential">40;
+- (id)setLeading:(id)arg1;
+- (id)setButtonIgnoresTextSafeAreaInsets: /* Error: Ran out of types for this method. */;
+- (id)labelColor;
+- (id)isRedditURL:(id)arg1;
+- (id)isKnownApplication:(id)arg1;
+- (id)invalidateIntrinsicContentSize;
 - (id);
 - (void);
-- (id);
-- (_Bool)tBundleID;
+- (id)>L;
+- (_Bool)_kMDItemClientBundleID;
 
 @end
 

@@ -6,42 +6,34 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSEvent, NSForceClickMonitor;
-
 @interface NSImmediateActionGestureRecognizer : NSGestureRecognizer
 {
     long long _flags;
-    struct CGPoint _location;
-    struct CGPoint _startLocation;
-    long long _style;
-    NSEvent *_startEvent;
-    NSForceClickMonitor *_forceClickMonitor;
-    id _animationController;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)ave matching bundle identifier (%{public}@) and application identifier entitlement (%{public}@) value.;
+- (id)`;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (long long);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)DULKLMaGvCDUCsg/Library/Caches/com.apple.xbs/TemporaryDirectory.gSxiDP/Sources/UniformTypeIdentifiers/Framework/UTType.mm:(id)arg1 886:91)] /* Error: Ran out of types for this method. */;
+- (void)_cgContextRef;
 - (void);
 - (id);
 - (id);
@@ -53,7 +45,7 @@
 - (void)nge=QQ}24^{_NSRange=QQ}32;
 - (void)wÿNô;
 - (id);
-- (void);
+- (void)8wH;
 
 @end
 

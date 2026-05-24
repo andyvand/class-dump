@@ -7,11 +7,6 @@
 @interface AWDSafariActivatedHomeScreenQuickActionEvent
 {
     unsigned long long _timestamp;
-    int _quickAction;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int quickAction:1;
-    } _has;
 }
 
 - (void);
@@ -25,20 +20,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasQuickAction;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int quickAction; // @synthesize quickAction=_quickAction;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, ResourceLoader;
+@class ResourceLoader;
 
 @interface DEDImageResourceManager
 {
     ResourceLoader *_loader;
-    NSMutableDictionary *_imageCache;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)updateCollectionViewLayout:(id)arg1 containerSize:environment:forExtended:withSlider:numberOfItems: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)^;
+- (void)Library/Frameworks/CoreData.framework/Versions/A/CoreData;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *imageCache; // @synthesize imageCache=_imageCache;
 @property(retain) ResourceLoader *loader; // @synthesize loader=_loader;
 
 @end

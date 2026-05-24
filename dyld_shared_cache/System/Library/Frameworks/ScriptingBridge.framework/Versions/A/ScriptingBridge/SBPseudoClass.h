@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (unsigned int);
++ (unsigned int)e.cl/;
 + (id);
 
 @end

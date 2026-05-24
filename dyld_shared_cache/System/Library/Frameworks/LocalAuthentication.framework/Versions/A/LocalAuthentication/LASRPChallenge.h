@@ -9,7 +9,6 @@
 @interface LASRPChallenge
 {
     void salt;
-    void publicKeyB;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *publicKeyB;
 @property(nonatomic, readonly) NSData *salt;
 
 @end

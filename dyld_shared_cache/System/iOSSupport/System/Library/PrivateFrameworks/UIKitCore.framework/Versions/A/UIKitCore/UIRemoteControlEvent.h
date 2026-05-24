@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     long long _subtype;
 }
 
-- (void);
+- (void)ithTitle: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long)=dd}}16@"UIPDFAnnotationController"48;
-- (void)EvaluatedObject;
+- (void)topEvaluatedObject;
 - (id)oller while curled %@.;
 - (long long);
 - (void)@ÿ¹üÊ`Mc;

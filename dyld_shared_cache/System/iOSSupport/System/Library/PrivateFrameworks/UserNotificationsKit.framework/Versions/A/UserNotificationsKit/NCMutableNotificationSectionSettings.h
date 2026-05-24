@@ -6,39 +6,28 @@
 
 #import <UserNotificationsKit/NCNotificationSectionSettings.h>
 
-@class NSDictionary, NSSet, NSString, UIImage;
-@protocol NCNotificationMuteAssertion;
+@class NSString;
 
 @interface NCMutableNotificationSectionSettings : NCNotificationSectionSettings
 {
 }
 
+- (void)PHAssetCollection;
+- (void)_block_invoke;
+- (void)ary) deleteCategoriesPosingAsFolders]_block_invoke;
+- (void)Library;
+- (void)lesystem.;
+- (void)on that's already in the tree;
+- (void));
+- (void)utput Name);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)kWithURL:(id)arg1 workflowID:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(nonatomic) _Bool hasProvisionalAuthorization; // @dynamic hasProvisionalAuthorization;
-@property(nonatomic) _Bool isAppClip; // @dynamic isAppClip;
-@property(nonatomic) _Bool isDeliveredQuietly; // @dynamic isDeliveredQuietly;
-@property(nonatomic) id <NCNotificationMuteAssertion> muteAssertion; // @dynamic muteAssertion;
 @property(copy, nonatomic) NSString *sectionIdentifier; // @dynamic sectionIdentifier;
-@property(copy, nonatomic) NSDictionary *settings; // @dynamic settings;
-@property(retain, nonatomic) UIImage *settingsIcon; // @dynamic settingsIcon;
-@property(nonatomic) _Bool showsCustomSettingsLink; // @dynamic showsCustomSettingsLink;
 @property(copy, nonatomic) NSString *subSectionIdentifier; // @dynamic subSectionIdentifier;
-@property(copy, nonatomic) NSSet *subSectionSettings; // @dynamic subSectionSettings;
-@property(nonatomic, getter=isUserConfigurable) _Bool userConfigurable; // @dynamic userConfigurable;
 
 @end
 

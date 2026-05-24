@@ -11,22 +11,18 @@
 @interface PGFeaturedMemoryGenerator : PGMemoryGenerator
 {
     _Bool _usesLowRequirements;
-    _Bool _oldMemory;
-    NSDate *_upperBoundLocalDate;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)tioOfAssetsWithPositiveScenes;
+- (void)r"16@"NSArray"24;
+- (void)FTextRange"16;
+- (void)set_suppressionCheckbox:(_Bool)arg1;
+- (_Bool)isValid;
+- (void)minimumRatioOfAssetsWithPositiveScenes;
 
 // Remaining properties
-@property(nonatomic) _Bool oldMemory; // @synthesize oldMemory=_oldMemory;
 @property(retain, nonatomic) NSDate *upperBoundLocalDate; // @synthesize upperBoundLocalDate=_upperBoundLocalDate;
-@property(nonatomic) _Bool usesLowRequirements; // @synthesize usesLowRequirements=_usesLowRequirements;
 
 @end
 

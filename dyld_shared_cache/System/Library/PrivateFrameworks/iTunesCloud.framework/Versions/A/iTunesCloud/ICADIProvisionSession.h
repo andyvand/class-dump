@@ -7,7 +7,6 @@
 @interface ICADIProvisionSession
 {
     unsigned long long _accountID;
-    unsigned int _sessionID;
 }
 
 - (_Bool);

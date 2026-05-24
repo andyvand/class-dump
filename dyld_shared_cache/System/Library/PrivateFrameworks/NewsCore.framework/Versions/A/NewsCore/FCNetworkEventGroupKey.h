@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCNetworkEventGroupKey
 {
     int _eventType;
-    unsigned long long _sessionID;
-    NSString *_respondingPOP;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)izationValue;
+- (void)useRelativePersonalizationValue;
 
 @end
 

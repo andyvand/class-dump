@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, SAMPPodcastCollection;
+@class NSString;
 
 @interface SAMPSubscribeToPodcastCollection : SADomainCommand
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetInfo;
-@property(copy, nonatomic) NSString *hashedRouteUID;
-@property(retain, nonatomic) SAMPPodcastCollection *podcastCollection;
 
 @end
 

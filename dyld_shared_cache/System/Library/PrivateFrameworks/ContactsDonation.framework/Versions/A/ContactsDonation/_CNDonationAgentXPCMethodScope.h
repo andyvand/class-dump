@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPromise;
 @protocol DonationAgentProtocol;
 
 @interface _CNDonationAgentXPCMethodScope
 {
     id <DonationAgentProtocol> _proxy;
-    CNPromise *_promise;
 }
 
+- (id)lCommandQueue;
+- (id)ies;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)andler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNPromise *promise; // @synthesize promise=_promise;
 @property(readonly, nonatomic) id <DonationAgentProtocol> proxy; // @synthesize proxy=_proxy;
 
 @end

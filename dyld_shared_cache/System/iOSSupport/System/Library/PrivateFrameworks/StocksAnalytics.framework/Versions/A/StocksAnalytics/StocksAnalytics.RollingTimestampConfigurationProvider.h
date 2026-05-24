@@ -8,9 +8,6 @@
 {
     id jitterFactory;
     id configRollFrequency;
-    id configLock;
-    id lastConfig;
-    id lastConfigRollDate;
 }
 
 @end

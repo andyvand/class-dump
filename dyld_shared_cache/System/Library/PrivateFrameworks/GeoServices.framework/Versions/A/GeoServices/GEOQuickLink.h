@@ -9,31 +9,21 @@
 @interface GEOQuickLink
 {
     NSString *_title;
-    NSString *_urlString;
-    NSString *_bundleID;
-    NSString *_appAdamID;
-    NSString *_imageName;
-    long long _type;
 }
 
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id)ance: /* Error: Ran out of types for this method. */;
+- (id)setHasShouldDisableActionMenuAffordance: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¾L@;
 - (id)@	ù g¸@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URLString;
-@property(readonly, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) NSString *bundleID;
-@property(readonly, nonatomic) NSString *imageName;
 @property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) long long type;
 
 @end
 

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     FI_TValidatingDateFormatter *_timeOnlyFormatter;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)itWithReceiverServerNode:(id)arg1 nodesToSend:requestSource:]ENK3$_3clEvEUlvE_vJEEE /* Error: Ran out of types for this method. */;
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMEMessageDatagramServerDelegate
+- (void);
 @end
 

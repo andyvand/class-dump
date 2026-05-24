@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)for handoff for Completed smart list;
 
 @end
 

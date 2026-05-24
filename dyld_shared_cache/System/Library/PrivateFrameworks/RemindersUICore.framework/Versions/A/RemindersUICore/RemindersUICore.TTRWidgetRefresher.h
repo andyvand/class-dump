@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRWidgetRefresher
 {
     id widgetCenter;
-    id subscription;
 }
 
 @end

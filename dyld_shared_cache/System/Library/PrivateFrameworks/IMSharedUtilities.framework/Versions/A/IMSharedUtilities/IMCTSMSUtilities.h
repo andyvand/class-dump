@@ -20,13 +20,13 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
 + (_Bool);
 + (_Bool);
 + (double);
 + (int);
-+ (int);
++ (int);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -34,9 +34,9 @@
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)5;
 + (_Bool);
 + (_Bool);
 + (int);
@@ -45,7 +45,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 
 @end
 

@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, CLLocationManagerStateTracker, CLSilo, CLTimer, NSData, NSMutableSet, NSString;
-@protocol CLLocationManagerDelegate;
+@class NSString;
 
 @interface CLLocationManagerInternal
 {
     struct __CLClient *fClient;
-    id <CLLocationManagerDelegate> fDelegate;
-    CLLocationManager *fManager;
-    CLLocationManagerStateTracker *fState;
-    double fDesiredAccuracy;
-    CDStruct_c8010d5f fLocation;
-    NSString *fLocationEventType;
-    CLTimer *fLocationRequestTimer;
-    double fLocationRequestTimeout;
-    int fHeadingOrientation;
-    NSMutableSet *fRangedRegions;
-    NSMutableSet *fRangedConstraints;
-    CDUnknownBlockType fPlaceInferenceHandler;
-    unsigned long long fFidelityPolicy;
-    CLTimer *fPlaceInferenceTimer;
-    NSMutableSet *fIdentifiableClients;
-    CLSilo *fSilo;
-    NSString *_clientKeyForIdentityValidation;
-    NSData *_monitorLedgerAccessKey;
 }
 
-- (void);
-- (int);
+- (void)** ERROR:missing 'MAIN' marker
+ /* Error: Ran out of types for this method. */;
+- (int)copyImageBlockSetInterlaced;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)l;
 - (void);
 - (id);
 - (void);
@@ -47,7 +29,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
@@ -56,11 +38,6 @@
 
 // Remaining properties
 @property(retain) NSString *clientKeyForIdentityValidation; // @synthesize clientKeyForIdentityValidation=_clientKeyForIdentityValidation;
-@property(nonatomic) __weak id <CLLocationManagerDelegate> delegate; // @synthesize delegate=fDelegate;
-@property(nonatomic) __weak CLLocationManager *manager; // @synthesize manager=fManager;
-@property(retain) NSData *monitorLedgerAccessKey; // @synthesize monitorLedgerAccessKey=_monitorLedgerAccessKey;
-@property(readonly, nonatomic) NSMutableSet *rangedConstraints; // @synthesize rangedConstraints=fRangedConstraints;
-@property(readonly, nonatomic) NSMutableSet *rangedRegions; // @synthesize rangedRegions=fRangedRegions;
 
 @end
 

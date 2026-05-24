@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow, QCPatchEditorView, QCPatchManagerView;
+@class NSWindow;
 
 @interface QCCompositionEditor
 {
     NSWindow *window;
-    QCPatchEditorView *editorView;
-    QCPatchManagerView *managerView;
 }
 
 + (void);
@@ -19,7 +17,7 @@
 + (void);
 + (id);
 + (long long);
-+ (void)t;
++ (void)input;
 - (id);
 - (void)fresnelExponent;
 

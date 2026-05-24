@@ -9,7 +9,7 @@
 }
 
 + (id)ock:actionBlock: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol FBSSceneComponent
+
+@optional
+- (void)�A;
 @end
 

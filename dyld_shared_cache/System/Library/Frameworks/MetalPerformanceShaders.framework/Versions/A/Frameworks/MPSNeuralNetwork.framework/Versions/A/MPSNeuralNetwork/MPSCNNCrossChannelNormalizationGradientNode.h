@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (void *);
+- (void *)s";
 - (unsigned long long);
 - (id);
-- (id);
+- (id)T(;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long kernelSize; // @synthesize kernelSize=_kernelSize;

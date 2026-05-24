@@ -7,7 +7,6 @@
 @interface PhotosUICore.GenerativeStoryAppleMusicUnavailableHandler
 {
     id log;
-    id $__lazy_storage_$_tccStatusProvider;
 }
 
 @end

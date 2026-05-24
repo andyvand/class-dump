@@ -9,35 +9,26 @@
 @interface INContactRelationship
 {
     NSString *_name;
-    NSString *_relation;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 - (id);
-- (id);
+- (id)GCPlayerIndicatorXPCProxyServiceRemoteServerInterface;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__connectedAPUpdateForClientID:(id)arg1 predicateData:updateCounter: /* Error: Ran out of types for this method. */;
+- (void)f178-d474-11eb-a269-f45c89abb0d9;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)nnouncements;
-- (void)onsCollectionForUpdateAlarm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_payloadAnnouncements;
+- (void)provideOperationOptionsCollectionForUpdateAlarm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)¦7Nm/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *relation; // @synthesize relation=_relation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentSlotValue;
+@class _INPBIntentSlotValue;
 
 @interface _INPBProperty
 {
     struct _has;
-    _INPBIntentSlotValue *_payload;
-    NSString *_role;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)_withProxyForwardingForMessage:perform:errorHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)listen;
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)antifier;
+- (id)hasAllQuantifier;
 - (void)ouldCheckForSiriEnabled:shouldIgnoreLaunchId:requireTrustCheck:completion:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)OccurrencesOptionsCollectionForDeleteEvent:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDeleteAllOccurrencesOptionsCollectionForDeleteEvent:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(readonly, nonatomic) _Bool hasRole;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentSlotValue *payload; // @synthesize payload=_payload;
-@property(copy, nonatomic) NSString *role; // @synthesize role=_role;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSString;
-
 @interface RTNavigationManagerRouteSummaryNotification : RTNotification
 {
     double _originLatitude;
-    double _originLongitude;
-    NSString *_destinationName;
-    double _destinationLatitude;
-    double _destinationLongitude;
-    unsigned long long _transportType;
 }
 
 - (void);
@@ -25,21 +18,16 @@
 - (void);
 - (double);
 - (id);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
+- (double)accountEligibleForMBRestoreForDSID:error: /* Error: Ran out of types for this method. */;
+- (double)accountAccessTelemetryOptInForAccount: /* Error: Ran out of types for this method. */;
+- (double)ity %@ with pref %@ to current;
+- (id)d to deserialize PCSManateeShareableIdentity;
+- (id)tunUINT64Attribute:for header, remainingLength:%zd < 2 /* Error: Ran out of types for this method. */;
 - (void)ot learned, Home count, %lu, Work count, %lu;
 - (unsigned long long)st;
 
 // Remaining properties
-@property(nonatomic) double destinationLatitude; // @synthesize destinationLatitude=_destinationLatitude;
-@property(nonatomic) double destinationLongitude; // @synthesize destinationLongitude=_destinationLongitude;
-@property(retain, nonatomic) NSString *destinationName; // @synthesize destinationName=_destinationName;
 @property(nonatomic) double originLatitude; // @synthesize originLatitude=_originLatitude;
-@property(nonatomic) double originLongitude; // @synthesize originLongitude=_originLongitude;
-@property(readonly, nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

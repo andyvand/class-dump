@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, RBSProcessMonitor;
-
 @interface BKSApplicationStateMonitor
 {
     struct os_unfair_lock_s _lock;
-    RBSProcessMonitor *_monitor;
-    NSArray *_interestedAssertionReasons;
-    _Bool _elevatedPriority;
-    unsigned int _interestedStates;
-    NSArray *_interestedBundleIDs;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (void);
 - (id);
 - (unsigned int);
-- (id);
-- (void);
+- (id)filterZKWPeopleSuggestions:(int)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)kMDItemUserModifiedDate;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);
 - (_Bool);
 - (void);
+- (void)3;
+- (_Bool)maxKernelDiameter;
+- (id)?;
 - (void);
-- (_Bool);
+- (void);
+- (void)yTensor:(id)arg1 tertiaryTensor:(unsigned int)arg2 resultTensor:params:sizeOfParams:pipelineState:deviceIndex: /* Error: Ran out of types for this method. */;
+- (id)failed to create units for layer=%@;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (unsigned int);
+- (CDUnknownBlockType)c.featureChannels - info->primarySourceFeatureChannelOffset) <=                    (info->dest.featureChannels - destinationFeatureChannelOffset) failed;
+- (unsigned int)`;
 - (void);
 - (id);
 - (unsigned int);
@@ -49,10 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool elevatedPriority; // @synthesize elevatedPriority=_elevatedPriority;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSArray *interestedBundleIDs; // @synthesize interestedBundleIDs=_interestedBundleIDs;
-@property(readonly, nonatomic) unsigned int interestedStates; // @synthesize interestedStates=_interestedStates;
 
 @end
 

@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface MPPConditionalPredicate
 {
     MPPMediaPredicate *_conditionalPredicate;
-    MPPMediaPredicate *_elsePredicate;
-    MPPMediaPredicate *_thenPredicate;
 }
 
 - (id);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (_Bool);
@@ -26,21 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)scanString:inRange:withScanner:options:block: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)PING_MISSING__;
+- (void)__MPModelPropertyPlaylistReleaseDateComponents__MAPPING_MISSING__;
 
 // Remaining properties
-@property(retain, nonatomic) MPPMediaPredicate *conditionalPredicate; // @synthesize conditionalPredicate=_conditionalPredicate;
-@property(retain, nonatomic) MPPMediaPredicate *elsePredicate; // @synthesize elsePredicate=_elsePredicate;
 @property(readonly, nonatomic) _Bool hasConditionalPredicate;
-@property(readonly, nonatomic) _Bool hasElsePredicate;
-@property(readonly, nonatomic) _Bool hasThenPredicate;
-@property(retain, nonatomic) MPPMediaPredicate *thenPredicate; // @synthesize thenPredicate=_thenPredicate;
 
 @end
 

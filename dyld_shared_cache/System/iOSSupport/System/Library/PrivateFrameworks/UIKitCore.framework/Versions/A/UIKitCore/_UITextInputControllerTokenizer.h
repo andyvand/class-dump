@@ -12,13 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputControllerTokenizer : UITextInputStringTokenizer
 {
     UITextInputController *_textInput;
-    struct __CFStringTokenizer *_tokenizer;
-    CDStruct_627e0f85 _tokenizerRange;
-    int _tokenizerType;
-    _Bool _tokenizerIsInvalid;
-    struct __CFStringTokenizer *_wordTokenizer;
-    CDStruct_627e0f85 _wordTokenizerRange;
-    _Bool _wordTokenizerIsInvalid;
 }
 
 - (void);
@@ -29,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (id)× ;
 - (void)ÔÐ!ÄCùÑ]1Â0@ù
 × ;
-- (id)ificationTypes:(id)arg1;
-- (struct __CFStringTokenizer *)eFragmentRect;
-- (CDStruct_912cb5d2)tifier;
-- (void)er;
-- (_Bool)mageConfiguration;
+- (id)registerForRemoteNotificationTypes:(id)arg1;
+- (struct __CFStringTokenizer *)extraLineFragmentRect;
+- (CDStruct_912cb5d2)_uniqueIdentifier;
+- (void)_errorHandler;
+- (_Bool)_childIndicatorSymbolImageConfiguration;
 - (void)`;
 - (long long)morph from a view that is not in the hierarchy.;
 - (void)o create a presenter after the scene has been dealloced :(int)arg1 manager=%@ identifier=%@;
-- (void)nBarButtonCSo17UITraitCollectionCIeggg_;
+- (void)So18_UIButtonBarButtonCSo17UITraitCollectionCIeggg_;
 
 @end
 

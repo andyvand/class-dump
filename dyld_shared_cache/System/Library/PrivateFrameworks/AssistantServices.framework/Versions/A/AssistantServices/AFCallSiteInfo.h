@@ -9,38 +9,29 @@
 @interface AFCallSiteInfo
 {
     NSString *_imagePath;
-    NSString *_symbolName;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)DecimalNumber",&,N,V_transactionAmount;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)8@0:(id)arg1 8@16f24;
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)InfoMutating;
+- (void)AFAudioSessionCoordinationDeviceInfoMutating;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *imagePath; // @synthesize imagePath=_imagePath;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

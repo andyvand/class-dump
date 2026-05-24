@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNUIAAfamilyMember
 {
     _Bool _isMe;
-    NSString *_appleID;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 + (id);
@@ -22,19 +19,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (_Bool)?=Q}24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id)!<AùÑt1Â0@ù
 × ;
-- (void)OptionsSheetDidSelectAddNewContact: /* Error: Ran out of types for this method. */;
+- (void)addContactsToWhitelistOptionsSheetDidSelectAddNewContact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 
 @end
 

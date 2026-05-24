@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLite, NSArray, NSMutableArray, NSString;
+@class CKSQLite;
 
 @interface CKSQLiteEnumerator
 {
     CKSQLite *_database;
-    NSArray *_columns;
-    NSString *_tableName;
-    NSString *_whereSQL;
-    NSArray *_bindings;
-    NSArray *_orderBy;
-    NSMutableArray *_objects;
-    unsigned long long _index;
-    unsigned long long _fetchOffset;
-    CDUnknownBlockType _objectTranslator;
 }
 
-- (void);
+- (void)n;
 - (CDUnknownBlockType);
 - (id);
 - (id);

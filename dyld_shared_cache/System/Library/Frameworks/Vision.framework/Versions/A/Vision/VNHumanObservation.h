@@ -11,7 +11,6 @@
 @interface VNHumanObservation : VNDetectedObjectObservation
 {
     VNTorsoprint *_torsoprint;
-    _Bool _upperBodyOnly;
 }
 
 + (id);
@@ -22,15 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)enumeratorForQuery:(id)arg1 providerDomainID:desiredNumberOfResults:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)roup_gorelegs;
+- (void)animal_joint_group_gorelegs;
 
 // Remaining properties
 @property(readonly, nonatomic) VNTorsoprint *torsoprint; // @synthesize torsoprint=_torsoprint;
-@property(readonly, nonatomic) _Bool upperBodyOnly; // @synthesize upperBodyOnly=_upperBodyOnly;
 
 @end
 

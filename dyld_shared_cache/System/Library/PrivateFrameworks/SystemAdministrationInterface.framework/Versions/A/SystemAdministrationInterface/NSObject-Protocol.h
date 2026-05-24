@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (NSString *);
+- (_Bool)Y=;
+- (_Bool)(s;
+- (_Bool)2@?0@"NSColor"8Q16^B24;
+
+@optional
+- (NSString *)ameraReader output image width to %ld, below minimum width of %d.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

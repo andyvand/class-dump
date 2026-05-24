@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)�`b;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_labeledValueUnificationThreshold;
 - (void);
-- (void)rintAndAttributes;
+- (void)FaceprintAndAttributes;
 
 // Remaining properties
 @property(retain, nonatomic) VNMPContext *context; // @synthesize context=_context;

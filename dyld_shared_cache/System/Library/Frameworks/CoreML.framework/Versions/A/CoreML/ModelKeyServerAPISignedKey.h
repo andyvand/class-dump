@@ -12,22 +12,21 @@ __attribute__((visibility("hidden")))
     NSData *_data;
 }
 
-- (id);
-- (void);
+- (id)nal/escaping.cc;
+- (void)}H;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)%@ to %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) _Bool hasData;
 
 @end

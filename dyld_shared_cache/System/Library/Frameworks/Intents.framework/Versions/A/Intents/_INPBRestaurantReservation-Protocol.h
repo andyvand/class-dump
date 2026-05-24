@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDateTimeRange, _INPBInteger, _INPBLocation, _INPBReservation;
+@class _INPBInteger;
 
 @protocol _INPBRestaurantReservation
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPartySize;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservationDuration;
-@property(readonly, nonatomic) _Bool hasRestaurantLocation;
 @property(retain, nonatomic) _INPBInteger *partySize;
-@property(retain, nonatomic) _INPBReservation *reservation;
-@property(retain, nonatomic) _INPBDateTimeRange *reservationDuration;
-@property(retain, nonatomic) _INPBLocation *restaurantLocation;
 @end
 

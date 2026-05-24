@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SWDatastore, WKUserScript;
+@class SWDatastore;
 
 @interface SWDatastoreSetupScript
 {
@@ -21,17 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SWDatastore *datastore; // @synthesize datastore=_datastore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *executableScript;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKUserScript *userScript;
 
 @end
 

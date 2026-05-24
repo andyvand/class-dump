@@ -5,6 +5,7 @@
 //
 
 @protocol CNUILikenessBadgeTypeProvider
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeType;

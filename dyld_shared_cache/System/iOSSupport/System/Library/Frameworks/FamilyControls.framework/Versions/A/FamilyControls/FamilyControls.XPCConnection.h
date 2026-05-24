@@ -7,6 +7,7 @@
 @interface FamilyControls.XPCConnection
 {
     id connection;
+    id;
 }
 
 - (id);

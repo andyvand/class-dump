@@ -9,23 +9,9 @@
 @interface GEOLogMsgStateOffline
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _routingOdsVersion;
-    unsigned long long _searchOdsVersion;
-    unsigned int _numberOfDownloadedRegions;
-    _Bool _isMapsInOfflineMode;
-    _Bool _isNetworkConnected;
-    _Bool _isOnlyUseOffline;
-    struct {
-        unsigned int has_routingOdsVersion:1;
-        unsigned int has_searchOdsVersion:1;
-        unsigned int has_numberOfDownloadedRegions:1;
-        unsigned int has_isMapsInOfflineMode:1;
-        unsigned int has_isNetworkConnected:1;
-        unsigned int has_isOnlyUseOffline:1;
-    } _flags;
 }
 
-+ (_Bool)rtsAdvancedMap:(id)arg1;
++ (_Bool)setHasSupportsAdvancedMap:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -46,8 +32,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)s/C/Foundation;
+- (_Bool)ontactsMetrics;
 - (_Bool);
 - (void);
 - (id);
@@ -55,13 +41,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)veyResponseAtIndex:(struct _NSZone *)arg1;
-- (id)tTilesAbExperimentAssignment: /* Error: Ran out of types for this method. */;
+- (void)_object>"8;
+- (id)surveyResponseAtIndex:(struct _NSZone *)arg1;
+- (id)setTilesAbExperimentAssignment: /* Error: Ran out of types for this method. */;
 - (id)avigationSessionState:%d transportType:%d /* Error: Ran out of types for this method. */;
 - (id)¼;
 - (_Bool);
@@ -69,18 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsMapsInOfflineMode;
-@property(nonatomic) _Bool hasIsNetworkConnected;
-@property(nonatomic) _Bool hasIsOnlyUseOffline;
-@property(nonatomic) _Bool hasNumberOfDownloadedRegions;
-@property(nonatomic) _Bool hasRoutingOdsVersion;
-@property(nonatomic) _Bool hasSearchOdsVersion;
-@property(nonatomic) _Bool isMapsInOfflineMode;
-@property(nonatomic) _Bool isNetworkConnected;
-@property(nonatomic) _Bool isOnlyUseOffline;
-@property(nonatomic) unsigned int numberOfDownloadedRegions;
-@property(nonatomic) unsigned long long routingOdsVersion;
-@property(nonatomic) unsigned long long searchOdsVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

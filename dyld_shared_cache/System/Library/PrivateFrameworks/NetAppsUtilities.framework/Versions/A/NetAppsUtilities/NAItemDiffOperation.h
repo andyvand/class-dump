@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
-
 @interface NAItemDiffOperation
 {
     unsigned long long _type;
-    id _item;
-    NSIndexPath *_fromIndexPath;
-    NSIndexPath *_toIndexPath;
 }
 
 + (id);
@@ -31,18 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSIndexPath *fromIndexPath; // @synthesize fromIndexPath=_fromIndexPath;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id item; // @synthesize item=_item;
-@property(readonly, copy, nonatomic) NSString *operationDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSIndexPath *toIndexPath; // @synthesize toIndexPath=_toIndexPath;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

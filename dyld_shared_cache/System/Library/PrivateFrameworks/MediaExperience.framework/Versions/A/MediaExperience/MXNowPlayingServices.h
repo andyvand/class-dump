@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MXNowPlayingServices
 {
     NSMutableArray *mCanBeNowPlayingAppCache;
-    NSMutableSet *mNowPlayingAppCache;
-    NSLock *mLock;
-    NSDictionary *mBrowserNPToHelperBundleID;
 }
 
 + (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ka;
 - (id);
 - (void);
 - (void);

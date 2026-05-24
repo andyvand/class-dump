@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDMLResult, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface DDResultCluster
 {
     NSMutableArray *_DDResults;
-    DDMLResult *_MLResult;
-    CDStruct_627e0f85 _DDRange;
 }
 
 + (id);
 - (void);
 - (struct __DDResult *);
 - (void);
-- (void);
+- (void)fetchRemotePasteboardStatus: /* Error: Ran out of types for this method. */;
 
 @end
 

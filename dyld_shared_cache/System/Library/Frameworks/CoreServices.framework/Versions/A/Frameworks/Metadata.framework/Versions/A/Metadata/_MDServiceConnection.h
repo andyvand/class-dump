@@ -4,56 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface _MDServiceConnection
 {
     struct __CFString *_name;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct __CFDictionary *_bindings;
-    struct __CFDictionary *_msgLists;
-    struct __CFDictionary *_recvLists;
-    _Bool _didSendGreeting;
-    unsigned long long _timeConnect;
-    unsigned long long _timeDown;
-    unsigned long long _timeUp;
-    NSObject<OS_xpc_object> *_unconnectError;
-    struct __sFILE {
-        char *_field1;
-        int _field2;
-        int _field3;
-        short _field4;
-        short _field5;
-        struct __sbuf _field6;
-        int _field7;
-        void *_field8;
-        CDUnknownFunctionPointerType _field9;
-        CDUnknownFunctionPointerType _field10;
-        CDUnknownFunctionPointerType _field11;
-        CDUnknownFunctionPointerType _field12;
-        struct __sbuf _field13;
-        struct __sFILEX *_field14;
-        int _field15;
-        unsigned char _field16[3];
-        unsigned char _field17[1];
-        struct __sbuf _field18;
-        int _field19;
-        long long _field20;
-    } *_logFile;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)converting JSON data to CKContainerOptions:(id)arg1 %@;
+- (void)tions to JSON:(id)arg1 %@;
+- (void)fier '%@' with error:%@ /* Error: Ran out of types for this method. */;
+- (void)ng for store access authorization.;
+- (void)rning synthetic contact.;
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Visible:%s					ExtraDataSize:[%d bytes]
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);

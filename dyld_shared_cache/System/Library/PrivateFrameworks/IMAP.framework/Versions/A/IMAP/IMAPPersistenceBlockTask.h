@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPPersistenceBlockOperation;
 @protocol IMAPMessageDataSource;
 
 @interface IMAPPersistenceBlockTask
 {
     id <IMAPMessageDataSource> _dataSource;
-    CDUnknownBlockType _block;
-    IMAPPersistenceBlockOperation *_operation;
 }
 
 - (id);
@@ -21,16 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e rule of unexpected type:%@ (expected 'nullify' or 'cascade') /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (void)ration"16@"NSArray"24;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly, nonatomic) id <IMAPMessageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) IMAPPersistenceBlockOperation *operation; // @synthesize operation=_operation;
 
 @end
 

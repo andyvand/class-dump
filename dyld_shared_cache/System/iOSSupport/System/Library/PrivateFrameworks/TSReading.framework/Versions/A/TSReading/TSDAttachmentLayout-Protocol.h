@@ -5,6 +5,7 @@
 //
 
 @protocol TSDAttachmentLayout
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool attachmentLayoutDisplacedByDropCap;

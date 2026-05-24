@@ -10,7 +10,6 @@
 @interface PKLRUCacheKey
 {
     NSObject<NSCopying> *_key;
-    long long _scaleFactor;
 }
 
 - (unsigned long long);
@@ -18,13 +17,12 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void)etPreferredContentSize:(long long)arg1;
-- (void)nt;
+- (void)setPreferredContentSize:(long long)arg1;
+- (void)_toolVariant;
 - (void)TðXÄY;
 
 // Remaining properties
 @property(copy, nonatomic) NSObject<NSCopying> *key; // @synthesize key=_key;
-@property(nonatomic) long long scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

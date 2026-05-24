@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (_Bool);
++ (id)_notifyObserversOfRingtoneChange;
+- (_Bool)qa;
 - (void);
 - (void);
 - (void);

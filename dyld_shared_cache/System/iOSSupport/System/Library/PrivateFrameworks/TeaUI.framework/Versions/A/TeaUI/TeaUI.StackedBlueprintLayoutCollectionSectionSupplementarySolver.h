@@ -7,7 +7,6 @@
 @interface TeaUI.StackedBlueprintLayoutCollectionSectionSupplementarySolver
 {
     id layoutDirection;
-    id layoutOptions;
 }
 
 @end

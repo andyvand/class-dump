@@ -16,17 +16,17 @@
 + (id);
 + (_Bool);
 - (id);
+- (id)@16Q24Q32Q40@48@?56;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)18CPMLMemoryIterator;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)DEventDeliveryObserver;
+- (void);
+- (id)BKHIDEventDeliveryObserver;
 
 @end
 

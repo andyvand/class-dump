@@ -5,6 +5,7 @@
 //
 
 @protocol MTLAllocation
+- (unsigned long long)`8;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

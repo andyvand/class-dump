@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADCachedTextStyle
 {
     struct OADCachedTextStyleData mData;
-    unsigned long long mHash;
 }
 
 - (id);

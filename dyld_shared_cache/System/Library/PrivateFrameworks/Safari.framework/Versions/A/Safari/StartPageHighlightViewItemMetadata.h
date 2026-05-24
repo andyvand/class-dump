@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, SLAttributionView, SLHighlight;
+@class LPLinkMetadata;
 
 __attribute__((visibility("hidden")))
 @interface StartPageHighlightViewItemMetadata
 {
     LPLinkMetadata *_linkMetadata;
-    SLHighlight *_highlight;
-    SLAttributionView *_attributionView;
 }
 
 - (void);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SLAttributionView *attributionView; // @synthesize attributionView=_attributionView;
-@property(retain, nonatomic) SLHighlight *highlight; // @synthesize highlight=_highlight;
 @property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 
 @end

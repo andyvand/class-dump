@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)DER_CANCELED;
+- (id)c;
+- (void)NEARBY_ERROR_SENDER_CANCELED;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *authorizationToken; // @synthesize authorizationToken=_authorizationToken;

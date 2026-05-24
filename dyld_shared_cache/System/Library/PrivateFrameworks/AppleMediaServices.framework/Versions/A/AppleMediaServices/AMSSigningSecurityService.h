@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 + (id)e>"@"NSError">16;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ignOutService;
+- (id)AMSAccountSignOutService;
 - (id)ores WHERE cross_device=1);;
 - (void)Da-g/9¾lÅé1ï1ø;¥Õ;
 

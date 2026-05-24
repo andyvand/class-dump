@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.AXMigratingEncoder
 {
     id codingPath;
-    id userInfo;
-    id data;
 }
 
 @end

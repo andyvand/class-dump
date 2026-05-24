@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
+@protocol CRKFileSystemNode;
 
 @protocol CRKFileSystemNode
+- (id <CRKFileSystemNode>);
+- (long long)N5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRiEEEvNS4_10RTLogLevelEPKcDpOT_EUlvE_JEEE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *children;
-@property(readonly, copy, nonatomic) NSData *content;
 @property(copy, nonatomic) NSString *fileName;
-@property(readonly, nonatomic) long long type;
 @end
 

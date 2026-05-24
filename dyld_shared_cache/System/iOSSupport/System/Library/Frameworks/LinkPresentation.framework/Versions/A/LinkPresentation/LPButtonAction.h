@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPButtonAction
 {
     _Bool _selected;
-    _Bool _header;
-    NSString *_title;
-    NSString *_visibleTitle;
-    LPImage *_image;
-    LPImage *_visibleImage;
-    CDUnknownBlockType _handler;
 }
 
-+ (id);
++ (id)showCatalystSuggestionPopover:(id)arg1 atLeadingOffset:(id)arg2;
+- (id)tableView:heightForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (id)tableView:heightForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (void)switchSubscriptionCellForIndexPathRow:(id)arg1;
+- (void)swipeToReplyShowIndicatorThreshold;
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)L*;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)$;
 - (void);
-- (_Bool)DestinationAddress;
+- (_Bool)_directionsDestinationAddress;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic, getter=isHeader) _Bool header; // @synthesize header=_header;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) LPImage *visibleImage; // @synthesize visibleImage=_visibleImage;
-@property(copy, nonatomic) NSString *visibleTitle; // @synthesize visibleTitle=_visibleTitle;
 
 @end
 

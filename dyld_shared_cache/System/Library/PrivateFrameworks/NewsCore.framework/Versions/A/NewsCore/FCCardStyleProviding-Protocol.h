@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, FCColorGradient;
+@class FCColor;
 
 @protocol FCCardStyleProviding
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCColor *cardBackgroundColor;
-@property(readonly, copy, nonatomic) FCColor *cardForegroundColor;
-@property(readonly, copy, nonatomic) FCColor *ctaBackgroundColor;
-@property(readonly, copy, nonatomic) FCColor *ctaForegroundColor;
-@property(readonly, copy, nonatomic) FCColor *eyebrowForegroundColor;
-@property(readonly, copy, nonatomic) FCColorGradient *sauceGradient;
 @property(readonly, copy, nonatomic) FCColor *titleForegroundColor;
 @end
 

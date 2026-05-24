@@ -14,13 +14,13 @@
 }
 
 + (_Bool);
+- (id)|;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)h:(id)arg1 y;
 - (unsigned long long);
 - (_Bool);
 - (void);

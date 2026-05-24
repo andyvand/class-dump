@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPPropertySet, MPSectionedCollection, NSString;
-@protocol MPObjectDatabase, MPObjectDatabaseProgressiveContext;
+@class MPSectionedCollection;
 
 @interface MPCModelStorePlaybackItemsRequestAccumulation
 {
     MPSectionedCollection *_progressiveResults;
-    MPPropertySet *_fullObjectPropertySet;
-    id <MPObjectDatabase> _sod;
-    id <MPObjectDatabaseProgressiveContext> _sodFullObjectContext;
-    id <MPObjectDatabase> _lod;
-    id <MPObjectDatabaseProgressiveContext> _lodFullObjectContext;
-    id <MPObjectDatabaseProgressiveContext> _lodPersonalizationContext;
-    id <MPObjectDatabaseProgressiveContext> _lodMissingObjectsContext;
-    struct os_unfair_lock_s _lock;
-    _Bool _invalid;
-    CDUnknownBlockType _onInvalidate;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
 }
 
 - (id);
@@ -39,17 +27,7 @@
 - (void)ublic}@ %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(copy, nonatomic) CDUnknownBlockType onInvalidate;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
 @property(readonly, copy, nonatomic) MPSectionedCollection *results;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIAlertController, WebUIAlert;
+@class UIAlertController;
 
 @interface WBUSheetController
 {
     UIAlertController *_alertController;
-    WebUIAlert *_alert;
-    NSMutableArray *_alertInvocationQueue;
-    id _delegate;
 }
 
-+ (id);
++ (id)ManagedAnimationCandidate;
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)leStrokePoint}""{?="__cap_"^{PKMetalParticleStrokePoint}}};
+- (void);
 
 @end
 

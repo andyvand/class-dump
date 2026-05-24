@@ -7,6 +7,8 @@
 @protocol HMDPrimaryResidentDiscoveryManagerDelegate;
 
 @protocol HMDPrimaryResidentDiscoveryManager
+- (void)_clearConnection;
+- (id <HMDPrimaryResidentDiscoveryManagerDelegate>)?;
 
 // Remaining properties
 @property __weak id <HMDPrimaryResidentDiscoveryManagerDelegate> delegate;

@@ -5,5 +5,16 @@
 //
 
 @protocol SCUIMoreHelpMenuDelegate
+
+@optional
+- (void)recordChangeTag;
+- (void)jectContext;
+- (void)SManagedObjectContext",R,N,V_workerManagedObjectContext;
+- (void)gedObjectContext",&,N,V_handwritingRecognitionContext;
+- (void)WidthConstraint;
+- (void)V_webViewBottomConstraint;
+- (void)int;
+- (void);
+- (void)i;
 @end
 

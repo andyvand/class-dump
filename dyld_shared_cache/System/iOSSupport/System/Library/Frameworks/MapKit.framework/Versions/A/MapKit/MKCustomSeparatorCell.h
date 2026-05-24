@@ -9,29 +9,24 @@
 @interface MKCustomSeparatorCell : MKTableViewCell
 {
     double _leftSeparatorInset;
-    double _rightSeparatorInset;
 }
 
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (struct CGRect);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double leadingSeparatorInset;
-@property(nonatomic) double leftSeparatorInset; // @synthesize leftSeparatorInset=_leftSeparatorInset;
-@property(nonatomic) double rightSeparatorInset; // @synthesize rightSeparatorInset=_rightSeparatorInset;
 @property(nonatomic, getter=isSeparatorHidden) _Bool separatorHidden;
-@property(nonatomic) double trailingSeparatorInset;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSystemDiskRecordingDeclaration : CEMConfigurationBase
 {
     NSString *_payloadBurnSupport;
-    NSNumber *_payloadProhibitBurn;
 }
 
 + (id);
@@ -22,28 +21,20 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)k;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)BaB`W;
 - (id);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)ubscribe to a non-siri voice.;
+- (id)lXX;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadBurnSupport; // @synthesize payloadBurnSupport=_payloadBurnSupport;
-@property(copy, nonatomic) NSNumber *payloadProhibitBurn; // @synthesize payloadProhibitBurn=_payloadProhibitBurn;
-@property(readonly) Class superclass;
 
 @end
 

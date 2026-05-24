@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASVSchemaASVUserIntentDetected : SISchemaInstrumentationMessage
 {
     int _userIntentType;
-    float _userIntentVolume;
-    _Bool _isPermanentOffsetEnabled;
-    float _permanentOffsetFactor;
-    CDStruct_69c2200a _has;
 }
 
 - (void);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)lrS;
 - (void);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)B48@0:8@16@24@32q40 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -49,15 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPermanentOffsetEnabled;
-@property(nonatomic) _Bool hasPermanentOffsetFactor;
-@property(nonatomic) _Bool hasUserIntentType;
-@property(nonatomic) _Bool hasUserIntentVolume;
-@property(nonatomic) _Bool isPermanentOffsetEnabled; // @synthesize isPermanentOffsetEnabled=_isPermanentOffsetEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
 @property(nonatomic) int userIntentType; // @synthesize userIntentType=_userIntentType;
-@property(nonatomic) float userIntentVolume; // @synthesize userIntentVolume=_userIntentVolume;
 
 @end
 

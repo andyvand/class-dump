@@ -5,15 +5,14 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_queue_attr;
+@protocol OS_dispatch_queue_attr;
 
 @interface BSDispatchQueueAttributes
 {
     NSObject<OS_dispatch_queue_attr> *_attrs;
-    NSObject<OS_dispatch_queue> *_targetQueue;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);

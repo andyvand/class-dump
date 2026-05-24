@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFollowUpController, NSObject;
-@protocol OS_dispatch_queue;
+@class AAFollowUpController;
 
 @interface AAAccountNotificationFollowUpController
 {
     AAFollowUpController *_followUpController;
-    NSObject<OS_dispatch_queue> *_childOrTeenConnectRemovalQueue;
-    NSObject<OS_dispatch_queue> *_ageMigrationCFURemovalQueue;
 }
 
-+ (id);
++ (id)m;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)>m;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)({;
+- (void)e;
 - (_Bool);
 - (void);
 

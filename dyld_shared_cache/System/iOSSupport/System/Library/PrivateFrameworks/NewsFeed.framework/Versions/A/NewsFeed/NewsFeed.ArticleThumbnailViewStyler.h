@@ -7,7 +7,6 @@
 @interface NewsFeed.ArticleThumbnailViewStyler
 {
     id issueCoverColorPalette;
-    id colorPaletteProvider;
 }
 
 @end

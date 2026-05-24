@@ -6,60 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class DIMSchemaDIMDataSharingSettings, DIMSchemaDIMWatchDeviceAttributes, DIMSchemaEntitySyncSettings, NSArray, NSData, NSString, SISchemaISOLocale, SISchemaVoiceSettings;
-
 @interface DIMSchemaDIMDeviceFixedContext : SISchemaInstrumentationMessage
 {
     int _systemLocale;
-    int _siriInputLocale;
-    SISchemaVoiceSettings *_siriVoiceSettings;
-    int _dataSharingOptInState;
-    NSString *_timezoneOffset;
-    int _countryCode;
-    NSString *_deviceType;
-    NSString *_systemBuild;
-    _Bool _isStoreDemoMode;
-    double _timeIntervalSince1970;
-    DIMSchemaDIMWatchDeviceAttributes *_watchDeviceAttributes;
-    _Bool _isLowPowerModeEnabled;
-    SISchemaISOLocale *_systemLocaleV2;
-    SISchemaISOLocale *_siriInputLocaleV2;
-    int _programCode;
-    NSString *_dataCollectionId;
-    NSString *_effectiveSystemLanguage;
-    NSArray *_preferredLanguages;
-    int _homeKitConfiguration;
-    DIMSchemaEntitySyncSettings *_entitySyncSettings;
-    DIMSchemaDIMDataSharingSettings *_dataSharingSettings;
-    unsigned int _availableDictationKeyboards;
-    int _searchDataOptOutState;
-    _Bool _isLongLivedIDUploadDisabled;
-    struct {
-        unsigned int systemLocale:1;
-        unsigned int siriInputLocale:1;
-        unsigned int dataSharingOptInState:1;
-        unsigned int countryCode:1;
-        unsigned int isStoreDemoMode:1;
-        unsigned int timeIntervalSince1970:1;
-        unsigned int isLowPowerModeEnabled:1;
-        unsigned int programCode:1;
-        unsigned int homeKitConfiguration:1;
-        unsigned int availableDictationKeyboards:1;
-        unsigned int searchDataOptOutState:1;
-        unsigned int isLongLivedIDUploadDisabled:1;
-    } _has;
-    _Bool _hasSiriVoiceSettings;
-    _Bool _hasTimezoneOffset;
-    _Bool _hasDeviceType;
-    _Bool _hasSystemBuild;
-    _Bool _hasWatchDeviceAttributes;
-    _Bool _hasSystemLocaleV2;
-    _Bool _hasSiriInputLocaleV2;
-    _Bool _hasDataCollectionId;
-    _Bool _hasEffectiveSystemLanguage;
-    _Bool _hasEntitySyncSettings;
-    _Bool _hasDataSharingSettings;
-    unsigned long long _whichDeviceattributes;
 }
 
 - (unsigned long long);
@@ -88,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -131,7 +80,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -166,20 +115,20 @@
 - (int);
 - (void);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (int);
+- (int)aseType:%@|HasSemiSplatActive:%@) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)bs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_mpi.c;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)find/create a chat for handle[%@] and roomname[%@] for legacy messageID[%d]. Skipping this message.;
 - (_Bool);
 - (void);
 - (void);
@@ -189,64 +138,16 @@
 - (_Bool)Code;
 - (int)V_hasAppleNeuralEngineCompilationContext;
 - (id)ncRequested",&,N,V_companionSyncPluginSyncRequested;
-- (id)ageDisambiguationUISelected;
+- (id)MTSchemaMTLanguageDisambiguationUISelected;
 - (id)®;
 - (id);
-- (void)CONNECTIONTYPE_INFRAWIFI;
+- (void)HALCONNECTIONTYPE_INFRAWIFI;
 - (void)è×%;
 - (double)A&;
 - (void)®±½9-;
 
 // Remaining properties
-@property(nonatomic) unsigned int availableDictationKeyboards; // @synthesize availableDictationKeyboards=_availableDictationKeyboards;
-@property(nonatomic) int countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *dataCollectionId; // @synthesize dataCollectionId=_dataCollectionId;
-@property(nonatomic) int dataSharingOptInState; // @synthesize dataSharingOptInState=_dataSharingOptInState;
-@property(retain, nonatomic) DIMSchemaDIMDataSharingSettings *dataSharingSettings; // @synthesize dataSharingSettings=_dataSharingSettings;
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(copy, nonatomic) NSString *effectiveSystemLanguage; // @synthesize effectiveSystemLanguage=_effectiveSystemLanguage;
-@property(retain, nonatomic) DIMSchemaEntitySyncSettings *entitySyncSettings; // @synthesize entitySyncSettings=_entitySyncSettings;
-@property(nonatomic) _Bool hasAvailableDictationKeyboards;
-@property(nonatomic) _Bool hasCountryCode;
-@property(nonatomic) _Bool hasDataCollectionId; // @synthesize hasDataCollectionId=_hasDataCollectionId;
-@property(nonatomic) _Bool hasDataSharingOptInState;
-@property(nonatomic) _Bool hasDataSharingSettings; // @synthesize hasDataSharingSettings=_hasDataSharingSettings;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasEffectiveSystemLanguage; // @synthesize hasEffectiveSystemLanguage=_hasEffectiveSystemLanguage;
-@property(nonatomic) _Bool hasEntitySyncSettings; // @synthesize hasEntitySyncSettings=_hasEntitySyncSettings;
-@property(nonatomic) _Bool hasHomeKitConfiguration;
-@property(nonatomic) _Bool hasIsLongLivedIDUploadDisabled;
-@property(nonatomic) _Bool hasIsLowPowerModeEnabled;
-@property(nonatomic) _Bool hasIsStoreDemoMode;
-@property(nonatomic) _Bool hasProgramCode;
-@property(nonatomic) _Bool hasSearchDataOptOutState;
-@property(nonatomic) _Bool hasSiriInputLocale;
-@property(nonatomic) _Bool hasSiriInputLocaleV2; // @synthesize hasSiriInputLocaleV2=_hasSiriInputLocaleV2;
-@property(nonatomic) _Bool hasSiriVoiceSettings; // @synthesize hasSiriVoiceSettings=_hasSiriVoiceSettings;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool hasSystemLocale;
-@property(nonatomic) _Bool hasSystemLocaleV2; // @synthesize hasSystemLocaleV2=_hasSystemLocaleV2;
-@property(nonatomic) _Bool hasTimeIntervalSince1970;
-@property(nonatomic) _Bool hasTimezoneOffset; // @synthesize hasTimezoneOffset=_hasTimezoneOffset;
-@property(nonatomic) _Bool hasWatchDeviceAttributes; // @synthesize hasWatchDeviceAttributes=_hasWatchDeviceAttributes;
-@property(nonatomic) int homeKitConfiguration; // @synthesize homeKitConfiguration=_homeKitConfiguration;
-@property(nonatomic) _Bool isLongLivedIDUploadDisabled; // @synthesize isLongLivedIDUploadDisabled=_isLongLivedIDUploadDisabled;
-@property(nonatomic) _Bool isLowPowerModeEnabled; // @synthesize isLowPowerModeEnabled=_isLowPowerModeEnabled;
-@property(nonatomic) _Bool isStoreDemoMode; // @synthesize isStoreDemoMode=_isStoreDemoMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(nonatomic) int programCode; // @synthesize programCode=_programCode;
-@property(nonatomic) int searchDataOptOutState; // @synthesize searchDataOptOutState=_searchDataOptOutState;
-@property(nonatomic) int siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
-@property(retain, nonatomic) SISchemaISOLocale *siriInputLocaleV2; // @synthesize siriInputLocaleV2=_siriInputLocaleV2;
-@property(retain, nonatomic) SISchemaVoiceSettings *siriVoiceSettings; // @synthesize siriVoiceSettings=_siriVoiceSettings;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 @property(nonatomic) int systemLocale; // @synthesize systemLocale=_systemLocale;
-@property(retain, nonatomic) SISchemaISOLocale *systemLocaleV2; // @synthesize systemLocaleV2=_systemLocaleV2;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
-@property(copy, nonatomic) NSString *timezoneOffset; // @synthesize timezoneOffset=_timezoneOffset;
-@property(retain, nonatomic) DIMSchemaDIMWatchDeviceAttributes *watchDeviceAttributes; // @synthesize watchDeviceAttributes=_watchDeviceAttributes;
-@property(readonly, nonatomic) unsigned long long whichDeviceattributes; // @synthesize whichDeviceattributes=_whichDeviceattributes;
 
 @end
 

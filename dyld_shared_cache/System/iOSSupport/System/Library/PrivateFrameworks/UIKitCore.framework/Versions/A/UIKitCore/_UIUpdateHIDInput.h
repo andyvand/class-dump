@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 - (struct __IOHIDEvent *);
 - (void);
-- (id);
-- (void)aleStrength;
+- (id)mmcs_base64_encode_cfdata_to_cstring;
+- (void)UISolariumStackedImageContainerModifyInnerParallaxScaleStrength;
 - (void)GAIy»¢.3yÝ¾7GGG_$Û.3Qo__«¾7Qo_;
 
 @end

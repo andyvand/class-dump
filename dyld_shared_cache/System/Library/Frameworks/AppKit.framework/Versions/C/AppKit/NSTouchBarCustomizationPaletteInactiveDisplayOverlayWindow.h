@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)idateChildIndex;
+- (id)dropCandidateChildIndex;
 
 @end
 

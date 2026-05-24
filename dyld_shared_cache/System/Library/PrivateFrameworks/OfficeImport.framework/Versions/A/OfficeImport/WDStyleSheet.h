@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, WDCharacterProperties, WDDocument, WDParagraphProperties, WDStyle;
+@class NSMutableDictionary, WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDStyleSheet
 {
     NSMutableDictionary *mStyleDictionary;
-    WDCharacterProperties *mDefaultCharacterProperties;
-    WDParagraphProperties *mDefaultParagraphProperties;
-    WDStyle *mDefaultParagraphStyle;
-    WDStyle *mDefaultCharacterStyle;
-    WDStyle *mDefaultTableStyle;
-    WDStyle *mDefaultListStyle;
-    NSMutableArray *mStylesInOrder;
-    NSMutableDictionary *mIdDictionaryForName;
-    WDDocument *mDocument;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -31,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (void);
@@ -50,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUZipInflateInputStream.m;
 - (id);
 - (void)(´;
-- (id)rdListFormatOverrideTable;
+- (id)26WrdListFormatOverrideTable;
 
 // Remaining properties
 @property(readonly) __weak WDDocument *document; // @synthesize document=mDocument;

@@ -9,72 +9,52 @@
 @interface NTPBUserOnboardingChannelPickerComplete
 {
     NSMutableArray *_channelIds;
-    int _channelPickerPresentationReason;
-    NSMutableArray *_topicIds;
-    int _totalChannelSelections;
-    int _totalTopicSelections;
-    _Bool _fromPersonalizeNews;
-    struct {
-        unsigned int channelPickerPresentationReason:1;
-        unsigned int totalChannelSelections:1;
-        unsigned int totalTopicSelections:1;
-        unsigned int fromPersonalizeNews:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
-- (int);
-- (int);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (int);
-- (int);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
++ (Class)assetCollectionActionPerformerDelegate;
++ (Class)_powerAssertionStartTime;
+- (int)initWithUUID:mediaType:mediaSubtypes:spatialMediaType:isSpatialPresentation:playbackStyle:pixelWidth:pixelHeight:duration:hdrGain:focalLength:focalLengthIn35mm:photoIrisStillDisplayTime:photoIrisVideoDuration:localizedGeoDescription:creationDate: /* Error: Ran out of types for this method. */;
+- (int)initWithURL:resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithType:revealMode:asset:assetCollection: /* Error: Ran out of types for this method. */;
+- (void)initWithRootMemory:(int)arg1 avoidMemoriesWithLocalIdentifiers:targetUpNextMemoryCount:musicCurationParameters: /* Error: Ran out of types for this method. */;
+- (void)onfiguration:(int)arg1;
+- (void)initWithColor:(_Bool)arg1 type: /* Error: Ran out of types for this method. */;
+- (void)initWithCollectionsDataSource:(_Bool)arg1 lockStatePerCollection:outlineObject: /* Error: Ran out of types for this method. */;
+- (void)identifierOfSegmentClosestToSegmentWithIdentifier:(_Bool)arg1 inTimeline: /* Error: Ran out of types for this method. */;
+- (void)hasUserDefaultsOverrides;
+- (void)gridViewDidAppear;
+- (void)formattedCameraModel;
+- (void)formScrollView;
+- (_Bool)expandListItem:hintIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)exitingDataSourceManagerForPhotoLibrary:type: /* Error: Ran out of types for this method. */;
+- (_Bool)didUpdateClipLayout:frame: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteInvitations:presentationEnvironment:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)dateForKey: /* Error: Ran out of types for this method. */;
+- (void)currentDataSourceManager;
+- (id)crossfadeDuration;
+- (id)cropVerticalContentMode;
+- (id)azeAreaRect:(unsigned long long)arg1 isDenormalized: /* Error: Ran out of types for this method. */;
+- (void)createDefaultAnimationForCurrentContext;
+- (void)countOfPeopleHomePeopleForPhotoLibrary:(id)arg1;
+- (int)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
+- (int)contentSpriteNormalizedFrameOverrideCoordinateSystem;
+- (id)contentPrivacyEnabledNumberForTesting;
+- (void)confirmButton;
+- (unsigned long long)confirmBlacklistingUserAction:viewSpec: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)"start"{?="value"q"timescale"i"flags"I"epoch"q}"duration"{?="value"q"timescale"i"flags"I"epoch"q}};
+- (_Bool)t may not index during migration.;
+- (_Bool)due minimumRequiredVersion {Record:(id)arg1 %@, readingVersion:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)icationSettingsScreenView";
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *channelIds; // @synthesize channelIds=_channelIds;
-@property(nonatomic) int channelPickerPresentationReason; // @synthesize channelPickerPresentationReason=_channelPickerPresentationReason;
-@property(nonatomic) _Bool fromPersonalizeNews; // @synthesize fromPersonalizeNews=_fromPersonalizeNews;
-@property(nonatomic) _Bool hasChannelPickerPresentationReason;
-@property(nonatomic) _Bool hasFromPersonalizeNews;
 @property(nonatomic) _Bool hasTotalChannelSelections;
-@property(nonatomic) _Bool hasTotalTopicSelections;
-@property(retain, nonatomic) NSMutableArray *topicIds; // @synthesize topicIds=_topicIds;
-@property(nonatomic) int totalChannelSelections; // @synthesize totalChannelSelections=_totalChannelSelections;
-@property(nonatomic) int totalTopicSelections; // @synthesize totalTopicSelections=_totalTopicSelections;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)multiWindowEnabled;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ngData";
-- (id)rkForSuggestedRoute:decoderData: /* Error: Ran out of types for this method. */;
+- (id)_populateArtworkForSuggestedRoute:decoderData: /* Error: Ran out of types for this method. */;
 - (id)R;
 - (void)îw(
 ôgH@;

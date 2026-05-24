@@ -9,11 +9,6 @@
 @interface PhotoAnalysis.ResourcesDirector
 {
     id $defaultActor;
-    id resourceHolderIdentifiersByResourceIdentifier;
-    id resourceManagerCreationTaskByIdentifier;
-    id knownResources;
-    id logger;
-    id stateHolder;
 }
 
 - (id);

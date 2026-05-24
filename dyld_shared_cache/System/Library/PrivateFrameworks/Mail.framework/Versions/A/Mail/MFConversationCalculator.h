@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDConversationPersistence;
-@protocol EDMessageChangeHookResponder;
-
 @interface MFConversationCalculator
 {
     _Bool _logConversationCalculationPerformance;
-    _Bool _logConversationCalculationTrace;
-    _Bool _logConversationCalculationSubjectPrefixTrace;
-    _Bool _forceConversationSplits;
-    _Bool _alwaysValidateConversations;
-    _Bool _recordConversationCalculationPerformanceMetrics;
-    EDConversationPersistence *_conversationPersistence;
-    id <EDMessageChangeHookResponder> _hookResponder;
 }
 
-+ (_Bool);
++ (_Bool)h;
 + (id);#yÛ7,)G;
 - (_Bool);
 - (void);
@@ -38,11 +28,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)qA;
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -52,14 +42,7 @@
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysValidateConversations; // @synthesize alwaysValidateConversations=_alwaysValidateConversations;
-@property(nonatomic) __weak EDConversationPersistence *conversationPersistence; // @synthesize conversationPersistence=_conversationPersistence;
-@property(nonatomic) _Bool forceConversationSplits; // @synthesize forceConversationSplits=_forceConversationSplits;
-@property(nonatomic) __weak id <EDMessageChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
 @property(nonatomic) _Bool logConversationCalculationPerformance; // @synthesize logConversationCalculationPerformance=_logConversationCalculationPerformance;
-@property(nonatomic) _Bool logConversationCalculationSubjectPrefixTrace; // @synthesize logConversationCalculationSubjectPrefixTrace=_logConversationCalculationSubjectPrefixTrace;
-@property(nonatomic) _Bool logConversationCalculationTrace; // @synthesize logConversationCalculationTrace=_logConversationCalculationTrace;
-@property(nonatomic) _Bool recordConversationCalculationPerformanceMetrics; // @synthesize recordConversationCalculationPerformanceMetrics=_recordConversationCalculationPerformanceMetrics;
 
 @end
 

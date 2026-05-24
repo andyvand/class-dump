@@ -5,5 +5,11 @@
 //
 
 @protocol NISessionDelegate
+
+@optional
+- (void);
+- (void),;
+- (void)TZC;
+- (void);
 @end
 

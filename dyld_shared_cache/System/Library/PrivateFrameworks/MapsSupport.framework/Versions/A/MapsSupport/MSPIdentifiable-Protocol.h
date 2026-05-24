@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol MSPIdentifiable
+- (NSUUID *)@"HMIFaceCrop";
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *storageIdentifier;

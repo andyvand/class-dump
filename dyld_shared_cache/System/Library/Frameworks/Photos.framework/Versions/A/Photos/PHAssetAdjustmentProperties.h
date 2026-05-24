@@ -11,22 +11,18 @@
 @interface PHAssetAdjustmentProperties : PHAssetPropertySet
 {
     NSString *_formatIdentifier;
-    NSString *_formatVersion;
-    unsigned long long _originalResourceChoice;
 }
 
-+ (id);
++ (id);
 + (id)PAnalyticsCachedPropertyProvider init];
 - (unsigned long long);
 - (id);
 - (id);
-- (void)eRequest;
+- (void)PHQuestionChangeRequest;
 - (id)u, length:(id)arg1 %tu, count:(id)arg2 %tu;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *formatIdentifier; // @synthesize formatIdentifier=_formatIdentifier;
-@property(readonly, nonatomic) NSString *formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(readonly, nonatomic) unsigned long long originalResourceChoice; // @synthesize originalResourceChoice=_originalResourceChoice;
 
 @end
 

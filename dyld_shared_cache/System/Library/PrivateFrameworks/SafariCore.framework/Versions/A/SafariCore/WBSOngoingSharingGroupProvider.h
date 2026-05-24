@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSOngoingSharingGroupProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_subscribers;
-    NSArray *_cachedGroups;
-    NSArray *_cachedInvitations;
-    NSString *_cachedCurrentUserParticipantID;
-    NSString *_test_overrideCurrentUserParticipantID;
-    id _keybagLockStatusObserverToken;
 }
 
 + (id);
@@ -29,28 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_reinsertAnnotation;
 - (id);
-- (void);
+- (void)_draggedAnnotationsMinTopEdge;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *cachedGroups;
-@property(readonly, nonatomic) NSArray *cachedInvitations;
-@property(readonly, nonatomic) NSString *currentUserParticipantID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLoadedGroups;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

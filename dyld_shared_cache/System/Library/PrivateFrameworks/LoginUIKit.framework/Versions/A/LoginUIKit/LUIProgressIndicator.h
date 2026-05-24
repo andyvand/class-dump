@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableArray;
-
 @interface LUIProgressIndicator
 {
     _Bool _isSpinning;
-    _Bool _isHeartBeatInstalled;
-    unsigned long long _controlSize;
-    unsigned long long _animationFrame;
-    unsigned long long _prevAnimationFrame;
-    NSMutableArray *_images;
-    NSImage *_image;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)R;
+- (id);
 - (void);
-- (unsigned long long);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)kDiagnosisEventTypeRoamed;
+- (struct CGSize)UploadAfterReset;
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)WatchForUserAttributeChanges;
+- (void);
+- (void);
+- (void)_beginWatchForUserAttributeChanges;
 
 @end
 

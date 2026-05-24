@@ -6,8 +6,6 @@
 
 #import <AppKit/NSCollectionViewLayout.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, _NSFlowLayoutInfo;
-
 @interface NSCollectionViewFlowLayout : NSCollectionViewLayout
 {
     struct {
@@ -31,61 +29,37 @@
         unsigned int collapsesSectionsToFirstItem:1;
         unsigned int suppressGapOpening:1;
     } _gridLayoutFlags;
-    double _interitemSpacing;
-    double _lineSpacing;
-    struct CGSize _itemSize;
-    struct CGSize _estimatedItemSize;
-    struct CGSize _headerReferenceSize;
-    struct CGSize _footerReferenceSize;
-    struct NSEdgeInsets _sectionInset;
-    _NSFlowLayoutInfo *_data;
-    struct CGSize _currentLayoutSize;
-    NSMutableDictionary *_insertedItemsAttributesDict;
-    NSMutableDictionary *_insertedSectionHeadersAttributesDict;
-    NSMutableDictionary *_insertedSectionFootersAttributesDict;
-    NSMutableDictionary *_deletedItemsAttributesDict;
-    NSMutableDictionary *_deletedSectionHeadersAttributesDict;
-    NSMutableDictionary *_deletedSectionFootersAttributesDict;
-    long long _scrollDirection;
-    NSDictionary *_rowAlignmentsOptionsDictionary;
-    struct CGPoint _contentOffsetAdjustment;
-    struct CGSize _contentSizeAdjustment;
-    NSMutableArray *_indexPathsToValidate;
-    NSMutableIndexSet *_collapsedSectionIndexes;
-    NSMutableDictionary *_collapsedSectionScrollOffsets;
-    struct CGRect _previousInteractiveBounds;
-    _Bool _interactiveBoundsChanged;
 }
 
-+ (_Bool);
++ (_Bool)f will initiate stall recovery;
 + (Class);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct NSEdgeInsets);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (double)defaultTaskGroup;
+- (double)defaultCenter;
+- (id)_systemClientOfPrivateAccessTokens;
+- (id)_suspendCount;
+- (id)_strictTrustEvaluate:(struct CGPoint)arg1 queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_streamsCaptured;
+- (id)_store;
+- (id)_storagePartition;
+- (id)_startedUserInitiated;
+- (id)_startTimeoutTimer;
+- (id)_startTime;
+- (id)Tq,V_expiredDNSBehavior;
+- (id)Tq,V_countOfBytesExpectedToReceive;
+- (id)tesClientExpectsToReceive;
 - (id);
 - (id);
 - (id);
@@ -94,45 +68,52 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGSize);
+- (void)etCurrent() unexpectedly returned NULL;
+- (void)NSURLSessionTaskStateCompleted;
+- (void)rect;
+- (void)ntry<@%p>;
+- (void)0123456789abcdef;
+- (_Bool)storage_policy=%q, partition=%q									 WHERE entry_ID=%q;;
+- (struct CGSize)CFNETWORK_PIPELINE_PACK;
+- (_Bool)NSErrorPeerCertificateChainKey;
+- (void)NSURLDownloadBinHexResourceForkBytesRemaining;
+- (void)NSURLDownloadBinHexCRC;
+- (void)_nsurlsessiondErrorDomain;
+- (double)WINDOW_UPDATE;
+- (void)me<length=%ld, flags=0x%x, stream_id=%d> error_code=%d;
 - (void);
 - (void);
+- (void)===)=8=AA
+AAAA)A8A__
+____)_8_bb
+bbbb)b8bd	dd(df	ff(fg	gg(gh	hh(hdd
+dddd)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (_Bool);
+- (double);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)^;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
+- (_Bool)@;
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -149,11 +130,11 @@
 - (id);
 - (struct CGSize);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -165,19 +146,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (struct CGSize);
+- (id);
+- (struct CGSize)iqueNameProc"^?"fVersion"i"fEventHandler"@?};
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void)0@ù
 × ;
-- (long long)entCellBaseDrawWithFrame:inView:characterIndex:layoutManager: /* Error: Ran out of types for this method. */;
+- (long long)_textAttachmentCellBaseDrawWithFrame:inView:characterIndex:layoutManager: /* Error: Ran out of types for this method. */;
 - (struct CGSize)@Y;
-- (_Bool)torC;
-- (id)acyScrollerRolloverFadeOutDuration;
-- (void)plitViewItemAutomaticMaximumThickness;
+- (_Bool)So19NSProgressIndicatorC;
+- (id)NSLegacyScrollerRolloverFadeOutDuration;
+- (void)NSSplitViewItemAutomaticMaximumThickness;
 - (_Bool)nsion %@ (for controller %@) ignoring observer notification from %@ with keyPath %@;
 - (void)ýÕhpÚÿÖh4ÚÿÖh<ÛÿÖhTÚÿÖh Úÿ5ÖhTÚÿÕÕh8ÛÿÝÕh(ÛÿµÕh8ÚÿÖhTÚÿÕhPÚÿÕh@ÚÿÝÕhlÚÿÖhôÚÿåÕhdÚÿ;
 - (void)Íÿq;
@@ -185,18 +166,7 @@
 - (id)ä¾wÿ« 	PÎI;
 
 // Remaining properties
-@property struct CGSize estimatedItemSize;
 @property(readonly, nonatomic, getter=_estimatesSizes) _Bool estimatesSizes;
-@property struct CGSize footerReferenceSize;
-@property struct CGSize headerReferenceSize;
-@property struct CGSize itemSize;
-@property double minimumInteritemSpacing; // @synthesize minimumInteritemSpacing=_interitemSpacing;
-@property double minimumLineSpacing; // @synthesize minimumLineSpacing=_lineSpacing;
-@property long long scrollDirection;
-@property _Bool sectionFootersPinToVisibleBounds;
-@property _Bool sectionHeadersPinToVisibleBounds;
-@property struct NSEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
-@property(readonly, getter=_suppressGapOpening) _Bool suppressGapOpening;
 
 @end
 

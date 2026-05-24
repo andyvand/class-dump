@@ -9,23 +9,19 @@
 @interface UIWebPDFLinkAction
 {
     int type;
-    NSString *title;
-    CDUnknownBlockType handler;
 }
 
-- (void);
+- (void)pression id;
 - (int)!pFù±eÐ1Â0@ù
 × ;
-- (void)saryForDelivery:(CDUnknownBlockType)arg1 inContext:completion: /* Error: Ran out of types for this method. */;
-- (void)orItemForDragItem:(id)arg1;
+- (void)_updateVisualizationForProofreadingSuggestionsIfNecessaryForDelivery:(CDUnknownBlockType)arg1 inContext:completion: /* Error: Ran out of types for this method. */;
+- (void)_dropCoordinatorItemForDragItem:(id)arg1;
 - (CDUnknownBlockType)UIMenu",R,N,V_overrideMenu;
 - (void)ìç$é;
-- (id)ewControllerSceneContextSystemDisplayIdentifier;
+- (id)_UIRemoteViewControllerSceneContextSystemDisplayIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler;
 @property(copy, nonatomic) NSString *title; // @synthesize title;
-@property(nonatomic) int type; // @synthesize type;
 
 @end
 

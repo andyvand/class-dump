@@ -13,7 +13,7 @@
 + (id);
 + (unsigned short);
 + (unsigned short);
-- (id);
+- (id)AMSPushRegisterTask;
 
 @end
 

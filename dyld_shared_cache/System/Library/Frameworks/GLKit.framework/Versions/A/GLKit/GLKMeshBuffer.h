@@ -4,52 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLKMeshBufferAllocator, GLKMeshBufferZone, NSString;
-@protocol MDLMeshBufferZone;
-
 @interface GLKMeshBuffer
 {
     unsigned int _mapCount;
-    void *_mapPtr;
-    unsigned int _target;
-    GLKMeshBufferZone *_zone;
-    unsigned int _glBufferName;
-    unsigned long long _length;
-    GLKMeshBufferAllocator *_allocator;
-    unsigned long long _offset;
-    unsigned long long _type;
 }
 
 - (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)deviceList;
+- (id)dataLength;
+- (id)complianceList;
+- (id)DRTaskBurnDisappearedNotification;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id).framework/Versions/A/Network;
 
 // Remaining properties
-@property(readonly, nonatomic) GLKMeshBufferAllocator *allocator; // @synthesize allocator=_allocator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int glBufferName; // @synthesize glBufferName=_glBufferName;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) id <MDLMeshBufferZone> zone; // @synthesize zone=_zone;
 
 @end
 

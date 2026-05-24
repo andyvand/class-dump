@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMontage, MPDocument, MRSnapshotter;
-@protocol MZMediaManagement;
+@class MPDocument;
 
 @interface MERenderer
 {
     MPDocument *_document;
-    MCMontage *_montage;
-    struct CGSize _size;
-    MRSnapshotter *_snapshotter;
-    id <MZMediaManagement> _assetManagementDelegate;
 }
 
-- (void);
+- (void)csEnvelopeStore init];
 - (id);
 - (unsigned int);
 - (void);
@@ -25,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int bytesPerRow;
 @property(readonly, nonatomic) struct CGColorSpace *colorSpace;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

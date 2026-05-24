@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ASRSchemaASROneBestTranscriptTier1 : SISchemaInstrumentationMessage
 {
     NSString *_rawRecognition;
-    NSString *_postItn;
-    _Bool _hasRawRecognition;
-    _Bool _hasPostItn;
 }
 
 - (void);
@@ -27,22 +24,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)]G;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)urationInNs;
+- (id)n.framework/Versions/A/CoreFoundation;
+- (id)textProcessingDurationInNs;
 - (id)üülü¸HÌ8È¨8¨8¨d@`<  ¨¡ð¡ì¢4£¤\¤<¥Ì¥¨à¨ªäªä¬,­®ä®Ä¯°ì°4±²ì²¨´ð´¬¶ô¶Ô·¬¸Ô¹ºüºD»$¼l¼½¸¾tÀ¼À,ÂtÂüÃDÄhÅ°ÅTÆÆ@ÇÇüÈDÉPËËtÌLÍ¼ÎLÏÒÌÒ¬ÓÔ¨ÕðÕÐÖ×ø×@ØdÙôÙ;
 - (id)<;
 - (void)ºæ&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPostItn; // @synthesize hasPostItn=_hasPostItn;
-@property(nonatomic) _Bool hasRawRecognition; // @synthesize hasRawRecognition=_hasRawRecognition;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *postItn; // @synthesize postItn=_postItn;
 @property(copy, nonatomic) NSString *rawRecognition; // @synthesize rawRecognition=_rawRecognition;
 
 @end

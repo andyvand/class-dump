@@ -6,27 +6,25 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedChatRecordBatch : IMDExportedRecordBatch
 {
     void batchIterationKeys;
-    void records;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)N,V_exportedInterface;
 - (id);
-- (id);
-- (void);
+- (void)@@;
 - (id);
 - (void)user_info, attribution_info, hide_attachment, ck_sync_state, ck_server_change_token_blob, ck_record_id, original_guid, is_commsafety_sensitive, emoji_image_content_identifier, emoji_image_short_description, preview_generation_state FROM attachment WHERE ck_sync_state == 1 AND transfer_state == 5 AND ck_server_change_token_blob != '' AND ck_server_change_token_blob NOT NULL ORDER BY created_date ASC LIMIT ? OFFSET ?;;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *batchIterationKeys;
-@property(nonatomic, readonly) NSArray *records;
 
 @end
 

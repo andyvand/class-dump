@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFindIndicator, NSView;
-@protocol RVPresenterHighlightDelegate;
+@class NSView;
 
 @interface RVPresentingContext
 {
     NSView *_view;
-    id <RVPresenterHighlightDelegate> _highlightDelegate;
-    struct CGRect _itemRectInView;
-    NSFindIndicator *_highlight;
-    NSArray *_itemRectsInView;
-    struct CGPoint _pointerLocationInView;
 }
 
 - (void);
 - (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (struct CGRect);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (id);
@@ -39,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <RVPresenterHighlightDelegate> highlightDelegate; // @synthesize highlightDelegate=_highlightDelegate;
 @property(readonly) struct CGRect itemRectInView;
-@property(readonly) NSArray *itemRectsInView; // @synthesize itemRectsInView=_itemRectsInView;
-@property(readonly) struct CGPoint pointerLocationInView; // @synthesize pointerLocationInView=_pointerLocationInView;
-@property(readonly) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

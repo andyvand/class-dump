@@ -6,33 +6,25 @@
 
 #import <PhotosFormats/PFStoryConcreteRecipeAsset.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PFStoryConcreteRecipeDisplayAsset : PFStoryConcreteRecipeAsset
 {
     long long _category;
-    NSString *_scheme;
-    NSString *_cloudIdentifier;
 }
 
 + (_Bool);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)_TtCO10Accelerate4BNNS11ResizeLayer;
+- (id)_TtCO10Accelerate4BNNS19FullyConnectedLayer;
+- (id);
 - (_Bool);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *cloudIdentifier; // @synthesize cloudIdentifier=_cloudIdentifier;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long kind;
 @property(readonly, nonatomic) NSString *scheme; // @synthesize scheme=_scheme;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

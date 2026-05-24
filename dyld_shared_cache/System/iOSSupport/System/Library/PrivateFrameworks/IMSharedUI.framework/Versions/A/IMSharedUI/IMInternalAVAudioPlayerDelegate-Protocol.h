@@ -5,5 +5,8 @@
 //
 
 @protocol IMInternalAVAudioPlayerDelegate
+
+@optional
+- (void);
 @end
 

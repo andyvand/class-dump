@@ -6,7 +6,7 @@
 
 #import <TextRecognition/CRCompositeOutputRegion.h>
 
-@class CRListItemMarker, NSString;
+@class CRListItemMarker;
 
 @interface CRListItemOutputRegion : CRCompositeOutputRegion
 {
@@ -20,21 +20,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)P;
 - (struct _NSRange);
 - (unsigned long long);
 - (void)SOrderedSet";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) struct _NSRange markerRange;
-@property(readonly) long long markerType;
-@property(readonly) Class superclass;
 
 @end
 

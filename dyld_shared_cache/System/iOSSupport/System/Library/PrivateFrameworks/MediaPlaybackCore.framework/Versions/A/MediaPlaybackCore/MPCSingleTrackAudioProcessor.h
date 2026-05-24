@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine;
-@protocol MPCSingleTrackAudioProcessing;
-
 __attribute__((visibility("hidden")))
 @interface MPCSingleTrackAudioProcessor
 {
     struct opaqueMTAudioProcessingTap *_audioProcessingTap;
-    id <MPCSingleTrackAudioProcessing> _selfRef;
-    MPCPlaybackEngine *_playbackEngine;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)isKindOfClass:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -35,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct opaqueMTAudioProcessingTap *audioProcessingTap;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(retain, nonatomic) id <MPCSingleTrackAudioProcessing> selfRef; // @synthesize selfRef=_selfRef;
 
 @end
 

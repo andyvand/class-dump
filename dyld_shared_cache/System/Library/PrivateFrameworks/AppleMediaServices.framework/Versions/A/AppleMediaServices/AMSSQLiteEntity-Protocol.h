@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol AMSSQLiteEntity
++ (NSString *);
 + (NSString *)PÔ;
+- (id);
 @end
 

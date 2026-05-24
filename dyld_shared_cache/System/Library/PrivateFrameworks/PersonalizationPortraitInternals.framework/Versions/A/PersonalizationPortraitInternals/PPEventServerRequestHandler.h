@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager;
+@class NSString;
 @protocol PPEventClientProtocol;
 
 @interface PPEventServerRequestHandler
 {
     id <PPEventClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
 }
 
-- (void);
+- (void)%u,;
 - (void);
 - (void);
 - (void);
@@ -25,7 +23,7 @@
 - (void);
 - (void):8@16@24@32@40@?48 /* Error: Ran out of types for this method. */;
 - (void)8;
-- (void)k;
+- (void)rank;
 - (void)ÆæÿW@~;
 - (id);
 

@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStoreAccount, NSString;
+@class NSString;
 
 @interface CKStoreClient
 {
     NSString *_clientIdentifier;
-    long long _serverType;
-    CKStoreAccount *_account;
-    NSString *__appName;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (_Bool);
 + (_Bool);
 + (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (id);
++ (void);
++ (id);
++ (id);
++ (_Bool);
++ (id)i;
 - (id);
 - (id);
 - (id);
@@ -44,19 +41,19 @@
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id)ne now. Asset uuid:%{public}@ /* Error: Ran out of types for this method. */;
+- (long long)urce:%@, asset:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (id);
 - (id);
@@ -66,15 +63,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_appName; // @synthesize _appName=__appName;
-@property(readonly, nonatomic) NSString *_appVersion;
-@property(readonly, nonatomic) NSString *_preferencesDomain;
-@property(readonly, nonatomic) CKStoreAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSString *accountMediaType;
-@property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) long long serverType; // @synthesize serverType=_serverType;
-@property(readonly) NSString *storeSecureURLScheme;
-@property(readonly) NSString *storeURLScheme;
-@property(readonly, nonatomic) NSString *storefrontIdentifier;
 
 @end
 

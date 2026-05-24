@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWifiHardwareVersion
 {
     unsigned long long _timestamp;
-    NSString *_hardwareVersion;
-    CDStruct_b5306035 _has;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (id);
-- (id);
-- (void);
+- (id)8;
+- (void)A;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -26,16 +22,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *hardwareVersion; // @synthesize hardwareVersion=_hardwareVersion;
-@property(readonly, nonatomic) _Bool hasHardwareVersion;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

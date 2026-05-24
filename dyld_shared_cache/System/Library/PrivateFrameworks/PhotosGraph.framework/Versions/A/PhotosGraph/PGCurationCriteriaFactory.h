@@ -4,15 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneTaxonomyHierarchy, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PGCurationCriteriaFactory
 {
     NSMutableDictionary *_holidayServiceByLocale;
-    CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
 }
 
 - (id);
+- (id)A9h  `d;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)c;
+- (id);
+- (id);
+- (id)computeRelativeSize:(unsigned long long)arg1 referenceSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -22,21 +33,12 @@
 - (id);
 - (id);
 - (id);
+- (id)J
+j
+KMEQ:(unsigned long long)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)1"
+F;
 - (id);
 - (id);
 - (id);
@@ -51,8 +53,8 @@
 - (id)T@"CLSServiceManager",R;
 - (id)de.;
 - (id)this point!;
-- (id)WinterSport;
-- (void)e;
+- (id)MeaningWinterSport;
+- (void)message;
 
 @end
 

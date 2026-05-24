@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIKBTouchState, UIKBTree;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardTouchInfo
 {
     NSMutableArray *_touchHistory;
-    unsigned long long _processedTouchCount;
-    UIKBTree *_key;
-    UIKBTree *_keyplane;
-    UIKBTree *_slidOffKey;
-    struct CGPoint _initialPoint;
-    struct CGPoint _initialDragPoint;
-    _Bool _dragged;
-    int _stage;
-    int _fingerID;
-    _Bool _maySuppressUpAction;
-    int _initialKeyState;
-    long long _continuousPathState;
-    _Bool _delayed;
-    _Bool _didPlayKeyFeedback;
 }
 
-- (id);
-- (id);
+- (id)@;
+- (id)SystemTaskThroughputMetricsCAASH17IMSharedUtilitiesyHCg_G;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (void);
+- (unsigned long long)uid %@;
+- (_Bool)rite after fetching messages;
+- (struct CGPoint)identifier:%lld /* Error: Ran out of types for this method. */;
+- (_Bool)ing disconnect;
+- (void)imMessageItemDict;
 - (int);
 - (_Bool);
 - (int);
@@ -50,33 +36,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (struct CGPoint);
+- (struct CGPoint)__MPModelPropertyTVSeasonDownloadedDate__MAPPING_MISSING__;
 - (id);
-- (void);
+- (void);
 - (id)1Â0@ù
 × ;
-- (void)Options:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)changeGuideAnimationOptions:(id)arg1 duration: /* Error: Ran out of types for this method. */;
 - (void)¬Õa;
 - (void)+ýÙ´êe;
 - (id)üzþ(ß;
 - (id)ÄåîÿLÀ0;
 
 // Remaining properties
-@property(nonatomic) long long continuousPathState; // @synthesize continuousPathState=_continuousPathState;
-@property(nonatomic) _Bool delayed; // @synthesize delayed=_delayed;
-@property(nonatomic) _Bool didPlayKeyFeedback; // @synthesize didPlayKeyFeedback=_didPlayKeyFeedback;
-@property(nonatomic) _Bool dragged; // @synthesize dragged=_dragged;
-@property(nonatomic) int fingerID; // @synthesize fingerID=_fingerID;
-@property(nonatomic) struct CGPoint initialDragPoint; // @synthesize initialDragPoint=_initialDragPoint;
-@property(nonatomic) int initialKeyState; // @synthesize initialKeyState=_initialKeyState;
-@property(nonatomic) struct CGPoint initialPoint; // @synthesize initialPoint=_initialPoint;
-@property(retain, nonatomic) UIKBTree *key; // @synthesize key=_key;
-@property(retain, nonatomic) UIKBTree *keyplane; // @synthesize keyplane=_keyplane;
-@property(nonatomic) _Bool maySuppressUpAction; // @synthesize maySuppressUpAction=_maySuppressUpAction;
-@property(nonatomic) unsigned long long processedTouchCount; // @synthesize processedTouchCount=_processedTouchCount;
-@property(retain, nonatomic) UIKBTree *slidOffKey; // @synthesize slidOffKey=_slidOffKey;
-@property(nonatomic) int stage; // @synthesize stage=_stage;
-@property(readonly, nonatomic) UIKBTouchState *touch;
 @property(readonly, nonatomic) NSMutableArray *touchHistory; // @synthesize touchHistory=_touchHistory;
 
 @end

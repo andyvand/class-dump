@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSColor, NSStackView, NSTextField, NSView;
+@class NSColor, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverResultCollectionViewCellActionButton
 {
     NSTextField *_titleField;
-    NSStackView *_contentStackView;
-    NSView *_gradientOverlayView;
-    CAGradientLayer *_gradient;
-    NSColor *_fontColor;
-    NSColor *_textColor;
-    NSColor *_buttonColor;
 }
 
 + (id);
@@ -23,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize)|;
 - (id)
 × ;
 - (id)¥1Â0@ù
@@ -35,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *buttonColor; // @synthesize buttonColor=_buttonColor;
 @property(retain, nonatomic) NSColor *fontColor; // @synthesize fontColor=_fontColor;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

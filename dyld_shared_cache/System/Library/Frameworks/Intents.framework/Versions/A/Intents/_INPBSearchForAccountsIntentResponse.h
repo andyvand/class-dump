@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForAccountsIntentResponse
 {
     struct _has;
-    NSArray *_accounts;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)k;
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)FailureNotFound;
+- (void)INDeleteTimerIntentResponseCodeFailureNotFound;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(readonly, nonatomic) unsigned long long accountsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

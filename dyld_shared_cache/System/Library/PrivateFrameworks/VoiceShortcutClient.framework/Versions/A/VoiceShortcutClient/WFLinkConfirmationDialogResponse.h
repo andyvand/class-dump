@@ -6,21 +6,18 @@
 
 #import <VoiceShortcutClient/WFLinkSnippetDialogResponse.h>
 
-@class LNValue;
-
 @interface WFLinkConfirmationDialogResponse : WFLinkSnippetDialogResponse
 {
     unsigned long long _requestResponseCode;
-    LNValue *_value;
 }
 
 + (_Bool);
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
+- (id)z;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long requestResponseCode; // @synthesize requestResponseCode=_requestResponseCode;
-@property(readonly, nonatomic) LNValue *value; // @synthesize value=_value;
 
 @end
 

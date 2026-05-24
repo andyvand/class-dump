@@ -9,28 +9,22 @@
 @interface ASDLogFileOptions
 {
     NSString *_logDirectoryPath;
-    NSString *_logFileBaseName;
-    unsigned long long _maxLogFileSize;
-    long long _maxNumberOfLogFiles;
 }
 
-- (unsigned long long);
+- (unsigned long long)R";
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)setNumberOfLegs: /* Error: Ran out of types for this method. */;
+- (id)NavigationServiceLocalProxy navigationSessionManager:(struct _NSZone *)arg1 didUpdateRouteWithNewRideSelection:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *logDirectoryPath; // @synthesize logDirectoryPath=_logDirectoryPath;
-@property(copy, nonatomic) NSString *logFileBaseName; // @synthesize logFileBaseName=_logFileBaseName;
-@property(nonatomic) unsigned long long maxLogFileSize; // @synthesize maxLogFileSize=_maxLogFileSize;
-@property(nonatomic) long long maxNumberOfLogFiles; // @synthesize maxNumberOfLogFiles=_maxNumberOfLogFiles;
 
 @end
 

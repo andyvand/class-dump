@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
+@class NSArray, UIColor;
 
 @protocol _UIDocumentPickerExtensionViewController
+- (void)trackingContexts;
+- (void)setRequestIDToResultMap:(NSArray *)arg1;
+- (void)fileTransferCenter;
+- (void)IMScheduledMessageUpdatePipelineParameter;
 - (void)rmitted:(UIColor *)arg1 %d; for window:%p; forcingUpdate:%d; consideringCurrentKeyboard:%d; updateFocusedSceneIdentityStringOrIdentifierIfNil:%d; updateProxyFocusContext:%d; notifyViewServiceHostIfNeeded:%d /* Error: Ran out of types for this method. */;
 @end
 

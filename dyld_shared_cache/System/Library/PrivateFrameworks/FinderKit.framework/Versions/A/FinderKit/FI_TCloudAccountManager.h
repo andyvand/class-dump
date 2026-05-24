@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TCloudAccountManager
 {
     struct TriStateBool fLoggedIntoICloud;
-    struct TriStateBool fICloudDriveEnabled;
-    struct TriStateBool fICloudSynchingDesktop;
-    struct TriStateBool fICloudSynchingDocuments;
-    struct unordered_map<unsigned long, NSString *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, NSString *>>> _currentDetachedNodeDomains;
-    optional_fa411df8 fFPFSMigrationExpectedState;
-    struct TFENode _providersContainer;
-    struct TFENode _desktopInHome;
-    struct TFENode _documentsInHome;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _homeObserver;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _providersObserver;
-    TNSWeakPtr_db0eab6c _dataSeparatedRetryToken;
 }
 
 + (_Bool);
@@ -32,13 +19,13 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)H;
 + (_Bool);
-+ (void);
++ (void)49;
 + (id);
-+ (optional_fa411df8);
++ (optional_cbf409b7);
 + (id);
-- (pair_b499046c);
+- (pair_5f6a4f40);
 - (void);
 - (void);
 - (void);
@@ -46,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -56,21 +43,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (optional_fa411df8);
+- (void);
+- (id)LL, flagged INTEGER NOT NULL, draft INTEGER NOT NULL, forwarded INTEGER NOT NULL, redirected INTEGER NOT NULL, junk_level_set_by_user INTEGER NOT NULL, junk_level INTEGER NOT NULL, flag_color INTEGER NOT NULL, remote_id INTEGER NOT NULL);;
+- (optional_cbf409b7);
 - (void);
 - (id);
 - (void),¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

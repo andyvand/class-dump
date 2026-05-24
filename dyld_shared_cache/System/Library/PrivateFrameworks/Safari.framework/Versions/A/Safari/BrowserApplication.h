@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppControllerTouchBarProvider, NSObject, NSString, NSTouchBar, PPTController;
-
 __attribute__((visibility("hidden")))
 @interface BrowserApplication
 {
     _Bool _isClosingAllWindows;
-    _Bool _isDockBouncingSuppressed;
-    NSObject *_terminateSender;
-    SEL _currentAction;
-    AppControllerTouchBarProvider *_touchBarProvider;
-    long long _activeWindowRestorationCount;
-    _Bool _sentDidBeginTerminationNotification;
-    PPTController *_pptController;
-    _Bool _tryingToTerminate;
 }
 
 - (void);
@@ -39,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (void);
@@ -59,23 +49,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)taggerFrom;
+- (void)8@?<v@?BQ>16;
+- (_Bool)overrideFrameToStaggerFrom;
 - (void);
 - (_Bool);
 - (id)×eÇL¤/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isRestoringWindows) _Bool restoringWindows;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(nonatomic, getter=isTryingToTerminate) _Bool tryingToTerminate; // @synthesize tryingToTerminate=_tryingToTerminate;
 
 @end
 

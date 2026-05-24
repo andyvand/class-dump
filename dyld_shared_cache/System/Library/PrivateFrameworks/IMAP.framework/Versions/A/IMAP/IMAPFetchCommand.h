@@ -6,17 +6,14 @@
 
 #import <IMAP/IMAPSingleCommand.h>
 
-@class NSIndexSet, NSMutableArray;
-@protocol IMAPFetchResponseHandler;
+@class NSIndexSet;
 
 @interface IMAPFetchCommand : IMAPSingleCommand
 {
     NSIndexSet *_messageNumbers;
-    NSMutableArray *_dataItems;
-    id <IMAPFetchResponseHandler> _responseHandler;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -31,24 +28,21 @@
 - (void);
 - (struct _NSRange);
 - (id);
-- (_Bool);
+- (_Bool)7$(;
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (CDStruct_f792af56);
+- (id)ist. It should have been created by upgradedb. (%@);
+- (CDStruct_4bcfbbae);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *dataItems; // @synthesize dataItems=_dataItems;
 @property(copy) NSIndexSet *messageNumbers; // @synthesize messageNumbers=_messageNumbers;
-@property CDStruct_f792af56 range;
-@property(retain) id <IMAPFetchResponseHandler> responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

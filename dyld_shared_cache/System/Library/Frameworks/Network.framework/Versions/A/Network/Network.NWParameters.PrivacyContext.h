@@ -7,7 +7,6 @@
 @interface Network.NWParameters.PrivacyContext
 {
     id lock;
-    id _proxyConfigurations;
 }
 
 @end

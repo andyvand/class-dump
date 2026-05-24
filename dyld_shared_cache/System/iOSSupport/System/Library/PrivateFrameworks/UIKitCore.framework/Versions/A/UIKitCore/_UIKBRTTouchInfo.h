@@ -6,29 +6,17 @@
 
 #import <UIKitCore/_UIKBRTObject.h>
 
-@class NSObject, _UIKBRTTimerBlock;
-@protocol OS_dispatch_queue;
+@class _UIKBRTTimerBlock;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBRTTouchInfo : _UIKBRTObject
 {
     BOOL _currentTouchState;
-    BOOL _preRuleTouchState;
-    double _originalTimestamp;
-    double _maximumRadius;
-    double _currentTimestamp;
-    double _originalZGradient;
-    double _currentZGradient;
-    id _touchIdentifier;
-    _UIKBRTTimerBlock *_timer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    struct CGPoint _originalTouchPoint;
-    struct CGPoint _currentTouchPoint;
 }
 
-+ (id);
-+ (id);
-+ (void);
++ (id)%lu transfers, too many for one message;
++ (id)e:%llu number after:%llu thread identifier:%@ /* Error: Ran out of types for this method. */;
++ (void)s an empty string, rejecting edit;
 + (id);
 - (_Bool);
 - (void);
@@ -36,43 +24,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)0:8q16@24 /* Error: Ran out of types for this method. */;
+- (BOOL)TUConversationManager"16@"TUConversation"24@"NSSet"32;
+- (double)umber"16@"NSDictionary"24@"NSString"32;
 - (id);
-- (BOOL);
+- (double)telemetryReporter;
+- (id)richCardOriginalGuid;
+- (void)has_associatedPositionIntent;
+- (double)autoReplier:sendDeliveredQuietlyReceiptForMessages:forIncomingMessageFromIDSID:inChat:withWillSendToDestinationsHandler: /* Error: Ran out of types for this method. */;
+- (BOOL)autoDonationBehavior;
+- (struct CGPoint)autoDeletionPreference;
 - (double);
-- (id);
-- (double);
-- (id);
 - (void);
-- (double);
-- (BOOL);
-- (struct CGPoint);
-- (double);
-- (void);
-- (double);
+- (double);
 - (void);
 - (id);
 - (struct CGPoint)e°1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (id)defaultFocusedDeleteImageForCell:inTableView: /* Error: Ran out of types for this method. */;
+- (id)_prewarmEngineOnQueueWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)%t43Î;
 - (void)qÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTimestamp; // @synthesize currentTimestamp=_currentTimestamp;
-@property(readonly, nonatomic) struct CGPoint currentTouchPoint; // @synthesize currentTouchPoint=_currentTouchPoint;
-@property(nonatomic) BOOL currentTouchState; // @synthesize currentTouchState=_currentTouchState;
-@property(readonly, nonatomic) double currentZGradient; // @synthesize currentZGradient=_currentZGradient;
-@property(readonly, nonatomic) double maximumRadius; // @synthesize maximumRadius=_maximumRadius;
-@property(readonly, nonatomic) _UIKBRTTouchInfo *nextTouch;
-@property(readonly, nonatomic) double originalTimestamp; // @synthesize originalTimestamp=_originalTimestamp;
-@property(readonly, nonatomic) struct CGPoint originalTouchPoint; // @synthesize originalTouchPoint=_originalTouchPoint;
-@property(readonly, nonatomic) double originalZGradient; // @synthesize originalZGradient=_originalZGradient;
-@property(nonatomic) BOOL preRuleTouchState; // @synthesize preRuleTouchState=_preRuleTouchState;
-@property(readonly, nonatomic) _UIKBRTTouchInfo *previousTouch;
 @property(readonly, nonatomic) _UIKBRTTimerBlock *timer; // @synthesize timer=_timer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *timerQueue; // @synthesize timerQueue=_timerQueue;
-@property(readonly, nonatomic) id touchIdentifier; // @synthesize touchIdentifier=_touchIdentifier;
 
 @end
 

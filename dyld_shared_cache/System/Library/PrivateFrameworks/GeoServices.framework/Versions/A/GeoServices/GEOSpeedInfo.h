@@ -9,12 +9,6 @@
 @interface GEOSpeedInfo
 {
     PBUnknownFields *_unknownFields;
-    double _freeflowSpeedMps;
-    double _speedLimitMps;
-    struct {
-        unsigned int has_freeflowSpeedMps:1;
-        unsigned int has_speedLimitMps:1;
-    } _flags;
 }
 
 + (_Bool)setMapsWidgetsInteractionSession:(id)arg1;
@@ -23,33 +17,29 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (void);
+- (_Bool)initWithObjectsAndKeys: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCDNote",&,D,N;
+- (double)So13CNCDContainerCSg;
+- (void)$;
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)accessorySiriClientBehaviorMonitor:(id)arg1 willStartStreamWithContext:option:forAccessory: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)eKey"b1"read_vehicleTypeKey"b1"wrote_anyField"b1};
-- (id)idgetRequest;
-- (id)hrottler;
-- (id)onEnum;
+- (id)hasIsWidgetRequest;
+- (id)_GEOThrottler;
+- (id)iconEnum;
 - (void)ÅÚÇ
 àP@;
 
 // Remaining properties
-@property(nonatomic) double freeflowSpeedMps;
-@property(nonatomic) _Bool hasFreeflowSpeedMps;
 @property(nonatomic) _Bool hasSpeedLimitMps;
-@property(nonatomic) double speedLimitMps;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

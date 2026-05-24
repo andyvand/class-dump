@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate;
 
 @interface UsageSummaryRecords
 {
@@ -15,18 +15,6 @@
 // Remaining properties
 @property(nonatomic) double billLastPeriod; // @dynamic billLastPeriod;
 @property(nonatomic, copy) NSDate *creationDate; // @dynamic creationDate;
-@property(nonatomic, copy) NSString *currency; // @dynamic currency;
-@property(nonatomic, copy) NSDate *end; // @dynamic end;
-@property(nonatomic, copy) NSData *items; // @dynamic items;
-@property(nonatomic, copy) NSString *recordID; // @dynamic recordID;
-@property(nonatomic, copy) NSDate *sourceTime; // @dynamic sourceTime;
-@property(nonatomic, copy) NSDate *start; // @dynamic start;
-@property(nonatomic, copy) NSString *subscriptionID; // @dynamic subscriptionID;
-@property(nonatomic) long long totalConsumptionUnit; // @dynamic totalConsumptionUnit;
-@property(nonatomic) double totalConsumptionValue; // @dynamic totalConsumptionValue;
-@property(nonatomic, copy) NSString *usageSummaryID; // @dynamic usageSummaryID;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
-@property(nonatomic, copy) NSString *zoneName; // @dynamic zoneName;
 
 @end
 

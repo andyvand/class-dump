@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUIPronunciationSnippet : SAUISnippet
 {
@@ -14,10 +14,10 @@
 
 + (id);
 + (id);
+- (void)J(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)o+;
 - (void);
 - (id);
 - (id);
@@ -31,11 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cancelCommands;
-@property(copy, nonatomic) NSString *interactionId;
-@property(copy, nonatomic) NSString *orthography;
-@property(copy, nonatomic) NSArray *pronunciations;
-@property(copy, nonatomic) NSArray *selectNoneCommands;
-@property(copy, nonatomic) NSString *selectNoneText;
 
 @end
 

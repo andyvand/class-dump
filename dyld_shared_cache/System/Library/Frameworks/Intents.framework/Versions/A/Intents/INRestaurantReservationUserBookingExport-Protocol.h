@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurantGuest, INRestaurantOffer, NSDate, NSString;
+@class INRestaurantGuest;
 
 @protocol INRestaurantReservationUserBookingExport
+- (void);
+- (void)ue|monopoli|scrabble|battaglia navale|domino|pictionary|scarabeo|risiko|taboo);
 
 // Remaining properties
-@property(copy) NSString *advisementText;
-@property(copy) NSDate *dateStatusModified;
 @property(copy) INRestaurantGuest *guest;
-@property(copy) NSString *guestProvidedSpecialRequestText;
-@property(copy) INRestaurantOffer *selectedOffer;
-@property unsigned long long status;
 @end
 

@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol PodcastsUI.JSPropertiesExport__priv_B82EBEF5FC5E5389356B7A70C34D127B
+- (NSDictionary *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *clientFeatures;

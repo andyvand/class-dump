@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, OISFUCryptoKey, OISFUDataRepresentation;
-@protocol SFUZipArchiveDataRepresentation;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipArchive
 {
     NSMutableDictionary *mEntries;
-    OISFUDataRepresentation<SFUZipArchiveDataRepresentation> *mDataRepresentation;
-    NSData *mPassphraseVerifier;
-    NSString *mPassphraseHint;
-    OISFUCryptoKey *mCryptoKey;
-    NSData *mEncryptedDocumentUuid;
 }
 
 + (_Bool);
@@ -25,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct SFUZipEndOfCentralDirectory);
+- (struct SFUZipEndOfCentralDirectory);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (id);
 - (id);
@@ -40,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)0@0:(id)arg1 8@?16@?24@?32;
 - (void);
 - (_Bool);
 

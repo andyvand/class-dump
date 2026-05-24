@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMWeakReference, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class IMWeakReference;
 
 @interface IDSBaseSocketPairConnection
 {
     IMWeakReference *_delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_outgoingDataArray;
-    NSObject<OS_dispatch_queue> *_readQueue;
-    NSObject<OS_dispatch_source> *_readSource;
-    NSObject<OS_dispatch_source> *_writeSource;
-    int _connectedSocket;
-    double _lastDateCheck;
-    long long _bytesReceived;
-    double _prevBPS;
-    _Bool _writeSourceIsResumed;
 }
 
 - (id);

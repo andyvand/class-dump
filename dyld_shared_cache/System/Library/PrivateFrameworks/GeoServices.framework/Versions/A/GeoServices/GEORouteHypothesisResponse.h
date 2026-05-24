@@ -4,62 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsResponse, GEOETAResponse, PBDataReader;
+@class PBDataReader;
 
 @interface GEORouteHypothesisResponse
 {
     PBDataReader *_reader;
-    GEODirectionsResponse *_directionsResponse;
-    GEOETAResponse *_etaResponse;
-    double _updatedTimeStamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_updatedTimeStamp:1;
-        unsigned int read_directionsResponse:1;
-        unsigned int read_etaResponse:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)CyclingVoiceSettings:(id)arg1;
++ (_Bool)setMapSettingsCyclingVoiceSettings:(id)arg1;
 - (double);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)C;
+- (_Bool)g",C,Videntifier;
+- (_Bool)lic}@ %{public}@;
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)6@0:(id)arg1 8;
+- (id);
+- (void)_injectionCompletionNotifyBlocks;
+- (void)all settings in AFPreferences;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)2;
 - (_Bool);
 - (id);
 - (void);
 - (id)>, std:(struct _NSZone *)arg1:equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (id)ies:mapsResults: /* Error: Ran out of types for this method. */;
-- (id)gorySuggestionParameters;
-- (id)OCATION;
+- (id)guideLocationsForEntries:mapsResults: /* Error: Ran out of types for this method. */;
+- (id)GEOPDSearchZeroKeywordCategorySuggestionParameters;
+- (id)POI_NON_STARTING_LOCATION;
 - (void)p`r£È}P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsResponse *directionsResponse;
-@property(retain, nonatomic) GEOETAResponse *etaResponse;
 @property(readonly, nonatomic) _Bool hasDirectionsResponse;
-@property(readonly, nonatomic) _Bool hasEtaResponse;
-@property(nonatomic) _Bool hasUpdatedTimeStamp;
-@property(nonatomic) double updatedTimeStamp;
 
 @end
 

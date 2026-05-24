@@ -13,7 +13,7 @@
 + (unsigned long long);
 - (CDStruct_f52b1b8f);
 - (CDStruct_f52b1b8f);
-- (CDStruct_129fbded);
+- (CDStruct_129fbded)_	k,;
 - (CDStruct_129fbded);
 - (CDStruct_f52b1b8f);
 - (CDStruct_f52b1b8f);
@@ -29,16 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_129fbded primaryDilationRates;
-@property(readonly, nonatomic) unsigned long long primaryEdgeMode;
-@property(readonly, nonatomic) CDStruct_129fbded primaryKernelSizes;
 @property(readonly, nonatomic) CDStruct_f52b1b8f primaryOffsets;
-@property(readonly, nonatomic) CDStruct_f52b1b8f primaryStrides;
-@property(readonly, nonatomic) CDStruct_129fbded secondaryDilationRates;
-@property(readonly, nonatomic) unsigned long long secondaryEdgeMode;
-@property(readonly, nonatomic) CDStruct_129fbded secondaryKernelSizes;
-@property(readonly, nonatomic) CDStruct_f52b1b8f secondaryOffsets;
-@property(readonly, nonatomic) CDStruct_f52b1b8f secondaryStrides;
 
 @end
 

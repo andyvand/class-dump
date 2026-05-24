@@ -7,13 +7,12 @@
 @interface UnknownClass (NSBrowserIndexPath)
 + (id);
 + (id);
-- (_Bool);
-- (id);
+- (_Bool)_onqueue_setupNextEffectiveConfigurationWithCompletionHandler:(id)arg1;
+- (id)d (0x%x) length %d (0x%x) invalid - encrypted?;
 - (long long);
 - (long long)}{CGSize=dd}}16q48q56q64@72q80@88B96q100;
 
 // Remaining properties
 @property(readonly) long long item;
-@property(readonly) long long section;
 @end
 

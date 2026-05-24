@@ -4,66 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSNumber, UIView, _UIPageCurlState;
-
 @interface _UIPageCurl
 {
     long long _spineLocation;
-    struct CGRect _contentRect;
-    UIView *_contentView;
-    _UIPageCurlState *_manualPageCurlState;
-    NSMutableArray *_pendingStateQueue;
-    NSMutableArray *_activeStateQueue;
-    NSMutableSet *_completedStates;
-    double _delayBetweenSuccessiveAnimations;
-    double _pageDiagonalAngle;
-    double _pageDiagonalLength;
-    double _manualPageCurlMaxDAngle;
 }
 
-- (id);
-- (long long);
+- (id)et";
+- (long long)_shouldBroadcastSendFailures;
+- (void)_saveKeychainPassword;
+- (void)_lastReplicationSinceLoadDate;
+- (void)_enforceCacheLimit;
+- (long long)createChatBotRecoverableMessageZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)oftlink:(struct CGPoint)arg1 r:(long long)arg2 path:/System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)}};
+- (id)<;
 - (double);
 - (_Bool);
 - (_Bool);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)l notification center to post badge string %@;
+- (void)nsAllowSync %@;
+- (void)le MiC by default:(long long)arg1 failed to get exit record attempt %d, done;
+- (void)alid receipt sender:(struct CGPoint)arg1 played receipts must be sent by self (%@) for messages not from self. However, receipt was sent from (%@). Ignoring played receipt.;
 - (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (struct CGRect);
-- (id);
-- (_Bool);
+- (double)than or equal to zero, disabling;
+- (void)ing (%@);
+- (void)essing;
+- (void)HandleRegistry;
+- (void)ipants than its iMessage sibling, but it is backed by a group server. We must fork 🍴;
+- (void)RecordRef:(id)arg1 %@[outgoing:(id)arg2 %{BOOL}d sender=%@; service=%@; encrypted=%{BOOL}d; handle=%@; destinationCallerID= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:%lld GUID:'%@' sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (double)efers to messagePartGUID %@ that was retracted. Deleting the associated message item.;
+- (id)Nicknames - We had a problem writing a transitioned list update with key %@ -  %@;
+- (void)led on object %@ %@;
+- (struct CGRect)nil for transferName (%@) and transfer:(_Bool)arg1 %@;
+- (id)es not exist, so creating it before resubmitting metric.;
+- (_Bool)iMessage chat (%@) on reception of SMS message.;
 - (void);
 - (void);
 - (void)@¹;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isManualPageCurlInProgressAndUncommitted) _Bool _manualPageCurlInProgressAndUncommitted;
-@property(nonatomic, setter=_setManualPageCurlMaxDAngle:) double _manualPageCurlMaxDAngle; // @synthesize _manualPageCurlMaxDAngle;
 @property(readonly, nonatomic) long long _spineLocation; // @synthesize _spineLocation;
-@property(readonly, nonatomic) NSNumber *_wrappedManualPageCurlDirection;
 
 @end
 

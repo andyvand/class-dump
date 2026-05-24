@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureSessionPreviewSinkPipeline : FigCapturePreviewSinkPipeline
 {
     _Bool _imageQueueUpdatedNotificationSent;
-    _Bool _previewSinkEnabled;
-    _Bool _previewRunning;
-    _Bool _providesBuffersForPreviewTap;
-    long long _previewRunningHostTime;
 }
 
 - (_Bool);
@@ -28,10 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool imageQueueUpdatedNotificationSent; // @synthesize imageQueueUpdatedNotificationSent=_imageQueueUpdatedNotificationSent;
-@property(nonatomic) _Bool previewRunning; // @synthesize previewRunning=_previewRunning;
-@property(readonly, nonatomic) long long previewRunningHostTime; // @synthesize previewRunningHostTime=_previewRunningHostTime;
-@property(nonatomic) _Bool previewSinkEnabled; // @synthesize previewSinkEnabled=_previewSinkEnabled;
-@property(nonatomic) _Bool providesBuffersForPreviewTap; // @synthesize providesBuffersForPreviewTap=_providesBuffersForPreviewTap;
 
 @end
 

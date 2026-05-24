@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementTime
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isSelected;
-    _Bool _usedNextDayForFilteration;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_isSelected:1;
-        unsigned int has_usedNextDayForFilteration:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_metadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void);
+- (id)accessorySiriClientBehaviorMonitor:didStopStream:reason:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)8;
-- (id)ineMetadata;
+- (id)_offlineMetadata;
 - (id)$à;
 - (void);
 

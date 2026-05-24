@@ -7,7 +7,6 @@
 @interface ABShadowTextView
 {
     _Bool _overrideAllowsSelection;
-    _Bool _allowsOnlyPastedInput;
 }
 
 - (void);
@@ -31,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)configPerformPreflightSnapshotCheck;
 - (_Bool);
 - (void)Ì<@¸$ðx;
 - (void)ÿÒ0¸Y;

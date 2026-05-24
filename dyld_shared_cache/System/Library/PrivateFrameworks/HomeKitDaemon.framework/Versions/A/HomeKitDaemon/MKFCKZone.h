@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKHome, NSDate, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKZone : MKFCKHomeObject
@@ -14,19 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)hasCurrentWaypointIndex;
+- (_Bool)ility fetcher to check existing blocked statuses;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *rooms; // @dynamic rooms;
-@property(retain, nonatomic) NSSet *rooms2; // @dynamic rooms2;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NSAccessibilityElement, NSSecureCoding><NSObject;
+@protocol NSAccessibilityElement;
 
 @interface NSAccessibilityCustomRotorItemResult
 {
     id <NSAccessibilityElement> _targetElement;
-    struct _NSRange _targetRange;
-    NSString *_customLabel;
-    id <NSSecureCoding><NSObject> _itemLoadingToken;
 }
 
 - (struct _NSRange);
 - (id);
+- (id)_ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask;
 - (id);
-- (id);
-- (id);
+- (id)th identifier %@ outstanding auth tasks %@;
 - (void);
 - (void);
-- (id);
-- (void)es;
+- (id)getInteractionMechanismForContentUTI:typeTree: /* Error: Ran out of types for this method. */;
+- (void)NSConcurrentViewClasses;
 - (void)³/E;
 - (id)ÿ.pÄG;
 
 // Remaining properties
-@property(copy) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(readonly) id <NSSecureCoding><NSObject> itemLoadingToken; // @synthesize itemLoadingToken=_itemLoadingToken;
 @property(readonly) __weak id <NSAccessibilityElement> targetElement;
-@property struct _NSRange targetRange; // @synthesize targetRange=_targetRange;
 
 @end
 

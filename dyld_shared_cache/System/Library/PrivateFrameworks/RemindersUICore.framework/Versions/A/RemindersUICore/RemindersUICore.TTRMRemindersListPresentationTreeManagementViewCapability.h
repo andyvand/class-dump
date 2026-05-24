@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListPresentationTreeManagementViewCapability
 {
     id observableIntermediateCellViewModels;
-    id cachedPresentationTree;
 }
 
 @end

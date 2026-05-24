@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)pg_query__alter_default_privileges_stmt__get_packed_size;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e, %{public}@, maxCount, %{public}@;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)rror:(id)arg1 %u;
 - (id);
 - (id);
 - (void)`ÿùÿlÿùÿ,;

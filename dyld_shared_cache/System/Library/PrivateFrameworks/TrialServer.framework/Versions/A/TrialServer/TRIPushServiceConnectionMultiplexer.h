@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TRIServerContext, _PASLock;
-@protocol OS_dispatch_queue, TRIPushServiceChannelSubscribing, TRIPushServiceConnectionCreating, TRIPushServiceConnectionDelegate;
+@class TRIServerContext;
+@protocol TRIPushServiceConnectionCreating;
 
 @interface TRIPushServiceConnectionMultiplexer
 {
     TRIServerContext *_context;
-    _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_subscriptionQueue;
-    id <TRIPushServiceConnectionCreating> _connectionCreator;
-    id <TRIPushServiceChannelSubscribing> _currentConnection;
-    id <TRIPushServiceConnectionDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ProvidingP;
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void)dd}68{CGSize=dd}84o^@100;
+- (_Bool)4;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)!8";
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <TRIPushServiceConnectionCreating> connectionCreator; // @synthesize connectionCreator=_connectionCreator;
-@property(readonly, nonatomic) id <TRIPushServiceChannelSubscribing> currentConnection; // @synthesize currentConnection=_currentConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <TRIPushServiceConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

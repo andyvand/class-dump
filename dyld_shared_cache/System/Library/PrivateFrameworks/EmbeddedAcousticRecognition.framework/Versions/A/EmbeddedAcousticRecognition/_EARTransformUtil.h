@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)__objc_intobj;
 + (id);
 
 @end

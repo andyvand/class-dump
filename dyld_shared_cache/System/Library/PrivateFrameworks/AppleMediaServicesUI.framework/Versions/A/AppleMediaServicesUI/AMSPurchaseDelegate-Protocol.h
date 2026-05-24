@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSPurchase;
+
 @protocol AMSPurchaseDelegate
+- (void)scene:(AMSPurchase *)arg1 %llu);
+- (void)season;
+- (void)privateEncryptedComputeMUID;
+
+@optional
+- (void)PLStickerSuggestionDominantSceneAreaMaxThreshold;
+- (void)PLStickerSuggestionDominantSceneAreaMinThreshold;
 @end
 

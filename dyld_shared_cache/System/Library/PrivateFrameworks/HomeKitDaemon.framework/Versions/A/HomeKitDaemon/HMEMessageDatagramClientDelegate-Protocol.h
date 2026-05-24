@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMEMessageDatagramClient, NSUUID;
+
 @protocol HMEMessageDatagramClientDelegate
+- (void)ints), optional (location:(HMEMessageDatagramClient *)arg1 %@);
+- (NSUUID *)y have one;
+- (void)er not creating state, no delegate;
+- (void)removed:(HMEMessageDatagramClient *)arg1 %lu %{private}@;
 - (void);
 @end
 

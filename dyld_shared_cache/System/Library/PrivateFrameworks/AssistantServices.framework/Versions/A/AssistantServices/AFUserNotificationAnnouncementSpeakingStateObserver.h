@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCConnection;
-@protocol AFUserNotificationAnnouncementSpeakingStateDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFUserNotificationAnnouncementSpeakingStateObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <AFUserNotificationAnnouncementSpeakingStateDelegate> _delegate;
-    NSMutableSet *_observingNotifications;
-    _Bool _observeAllNotifications;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -23,30 +19,24 @@
 - (void);
 - (void);
 - (void);
+- (void)A:(id)arg1 !;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)actions:%@ /* Error: Ran out of types for this method. */;
+- (void)ns;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)deDuration:completion: /* Error: Ran out of types for this method. */;
-- (void)Value3;
+- (void);
+- (void)updateRequest:volume:fadeDuration:completion: /* Error: Ran out of types for this method. */;
+- (void)_defaultValue3;
 - (id)edAdvertising:] /* Error: Ran out of types for this method. */;
 - (void).apple.siri.SiriStarted.Speech;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

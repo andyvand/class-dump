@@ -5,5 +5,7 @@
 //
 
 @protocol NFPeerPaymentSessionInterface
+- (oneway void)CNContactHandleValue;
+- (oneway void)CNContactPhoneticMiddleNameKey;
 @end
 

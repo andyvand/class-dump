@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface AMSContentInfo
 {
     NSString *_cacheKey;
-    NSDate *_created;
-    NSDate *_expires;
-    NSString *_path;
-    NSString *_version;
 }
 
 + (_Bool);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(retain) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(retain) NSDate *created; // @synthesize created=_created;
-@property(retain) NSDate *expires; // @synthesize expires=_expires;
-@property(retain) NSString *path; // @synthesize path=_path;
-@property(retain) NSString *version; // @synthesize version=_version;
 
 @end
 

@@ -9,19 +9,18 @@
 @interface CKDPCodeFunctionInvokeRequestProtectedCloudComputeMetadataCryptoSession
 {
     NSData *_routingToken;
-    NSData *_wrappedInvocationKey;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)convertTopupsToHistory:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)re Start;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,10 +29,7 @@
 - (void)zone changes in %@ in the shared database when using anonymous to server share participants;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRoutingToken;
 @property(readonly, nonatomic) _Bool hasWrappedInvocationKey;
-@property(retain, nonatomic) NSData *routingToken; // @synthesize routingToken=_routingToken;
-@property(retain, nonatomic) NSData *wrappedInvocationKey; // @synthesize wrappedInvocationKey=_wrappedInvocationKey;
 
 @end
 

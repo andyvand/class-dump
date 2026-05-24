@@ -4,6 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSString;
+@protocol MFQueuePlayerItem, MFTimeStamp;
+
 @protocol MFPlaybackStackControllerDelegate
+- (void);
+- (void);
+- (void);
+- (void)__objc_const;
+- (void)__objc_selrefs;
+- (void)__objc_imageinfo__DATA_CONST;
+- (void)__DATA_CONST;
+- (void)__TEXT;
+- (void)Le;
+- (void)enumerateObjectsUsingBlock:(id <MFTimeStamp>)arg1;
+- (void)completion:(id <MFTimeStamp>)arg1;
+- (void)letion:(id <MFQueuePlayerItem>)arg1;
+- (void)tore;
+- (void)storeProxy;
+- (void)ted;
+- (void)V_userDefaults;
+- (void)aa_mapNullable:(id <MFQueuePlayerItem>)arg1;
+- (void)AADeviceModelHelper;
+- (void).;
+- (void)is removed.;
+- (void)oved for dataclass %@;
+- (void)lasses:(NSString *)arg1 %@;
+- (void)o not verify our account save.;
+- (void)P;
+- (void);
+- (void)6;
+- (void);
+- (void)ateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation;
+- (void)verifyCredentialsForAccount:(id <MFQueuePlayerItem>)arg1 accountStore:(NSString *)arg2 completion:(id <MFTimeStamp>)arg3;
+- (void)supportsAccountType:(double)arg1;
+- (void)performSelector:(float)arg1 withObject:(id <MFQueuePlayerItem>)arg2;
+- (void)hash;
+- (void)credentialForAccount:(_Bool)arg1 client:(id <MFQueuePlayerItem>)arg2;
+- (void)autorelease;
+- (void)ACDAccountAuthenticationPlugin;
+- (void)ount:(long long)arg1 is not supported for CloudKit Accounts;
+- (void)ntStore"28@"ACAccount"36;
+- (void)tore"28@"ACAccount"36;
+- (void)CAccount"16@"ACDAccountStore"24;
+- (void)Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void)ement;
+- (void)works/DeviceManagement.framework/Versions/A/DeviceManagement;
+- (void)class;
+- (void)_isRestrictedForDataclass:(id <MFQueuePlayerItem>)arg1 account:(NSError *)arg2;
+- (void)_isDataclassSupportedForCurrentRegion:(id <MFQueuePlayerItem>)arg1;
+- (void):(float)arg1 %@;
+- (void)ted app.;
+- (void)emoved.;
+- (void)estricted or removed for dataclass %@;
+- (void)r account:(id <MFQueuePlayerItem>)arg1 %@;
 @end
 

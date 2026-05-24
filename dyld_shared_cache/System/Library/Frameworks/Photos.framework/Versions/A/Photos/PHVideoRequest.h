@@ -6,18 +6,16 @@
 
 #import <Photos/PHMediaRequest.h>
 
-@class PHImageDisplaySpec, PHVideoRequestBehaviorSpec, PHVideoResult;
+@class PHImageDisplaySpec, PHVideoResult;
 
 @interface PHVideoRequest : PHMediaRequest
 {
     PHVideoResult *_videoResult;
-    PHImageDisplaySpec *_displaySpec;
-    PHVideoRequestBehaviorSpec *_behaviorSpec;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (void);
@@ -25,11 +23,10 @@
 - (void);
 - (id);
 - (void);
-- (void)cancelActiveAssetResourceRequests;
+- (void)_cancelActiveAssetResourceRequests;
 - (_Bool)ibrary-assets;
 
 // Remaining properties
-@property(readonly, nonatomic) PHVideoRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
 @property(readonly, nonatomic) PHImageDisplaySpec *displaySpec; // @synthesize displaySpec=_displaySpec;
 
 @end

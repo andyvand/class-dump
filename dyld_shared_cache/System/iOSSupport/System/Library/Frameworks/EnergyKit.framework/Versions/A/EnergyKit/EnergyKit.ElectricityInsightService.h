@@ -7,6 +7,7 @@
 @interface EnergyKit.ElectricityInsightService
 {
     id $defaultActor;
+    id;
 }
 
 @end

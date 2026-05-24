@@ -9,7 +9,6 @@
 @interface FPTag
 {
     int _color;
-    NSString *_label;
 }
 
 + (_Bool);
@@ -19,9 +18,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (int);
-- (_Bool);
+- (_Bool)wn stack ;
 - (void);
 - (_Bool);
 - (id);
@@ -29,7 +28,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) int color; // @synthesize color=_color;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

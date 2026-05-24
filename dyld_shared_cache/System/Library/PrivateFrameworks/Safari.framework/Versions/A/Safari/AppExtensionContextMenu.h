@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSUUID;
+@class NSMutableArray, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface AppExtensionContextMenu
 {
     NSMutableArray *_contextMenuItems;
-    NSMutableDictionary *_userInfo;
-    NSUUID *_extensionUUID;
 }
 
 - (id);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contextMenuItems; // @synthesize contextMenuItems=_contextMenuItems;
 @property(retain, nonatomic) NSUUID *extensionUUID; // @synthesize extensionUUID=_extensionUUID;
 
 @end

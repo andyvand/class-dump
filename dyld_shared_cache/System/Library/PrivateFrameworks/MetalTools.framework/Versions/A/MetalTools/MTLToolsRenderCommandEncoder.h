@@ -6,7 +6,6 @@
 
 #import <MetalTools/MTLToolsCommandEncoder.h>
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface MTLToolsRenderCommandEncoder : MTLToolsCommandEncoder
@@ -14,6 +13,8 @@
 }
 
 - (void);
+- (void);
+- (void)kI;
 - (void);
 - (void);
 - (void);
@@ -35,11 +36,14 @@
 - (void);
 - (void);
 - (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,11 +55,14 @@
 - (void);
 - (void);
 - (void);
+- (void)C9(;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -66,9 +73,12 @@
 - (void);
 - (void);
 - (void);
+- (void)�9;
 - (void);
 - (void);
+- (void)0;
 - (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -77,6 +87,7 @@
 - (void);
 - (void);
 - (void);
+- (void)u&;
 - (void);
 - (void);
 - (void);
@@ -96,19 +107,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -118,6 +117,7 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -147,13 +147,15 @@
 - (void);
 - (void);
 - (void);
+- (void)arisa/grimoire/trie/header.h:(const id *)arg1 26:(struct _NSRange)arg2 MARISA_FORMAT_ERROR:!test_header(buf) /* Error: Ran out of types for this method. */;
+- (void)soCXqs57ewYWDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/agent.cc:(const id *)arg1 36:(unsigned long long)arg2 MARISA_STATE_ERROR:(unsigned long long)arg3 state_.get() != NULL;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q;
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -166,10 +168,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (unsigned long long);
@@ -189,7 +188,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -200,21 +199,11 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)rsectionFunctionTable:(float)arg1 atBufferIndex: /* Error: Ran out of types for this method. */;
-- (void)FunctionData;
+- (void)setIntersectionFunctionTable:(float)arg1 atBufferIndex: /* Error: Ran out of types for this method. */;
+- (void)_tileFunctionData;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long tileHeight;
-@property(readonly) unsigned long long tileWidth;
 
 @end
 

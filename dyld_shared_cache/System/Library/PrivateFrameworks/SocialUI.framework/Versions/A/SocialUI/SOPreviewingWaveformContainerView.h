@@ -6,25 +6,23 @@
 
 #import <SocialUI/SOAbstractWaveFormView.h>
 
-@class NSTextField, SOPreviewingWaveformView;
+@class SOPreviewingWaveformView;
 
 @interface SOPreviewingWaveformContainerView : SOAbstractWaveFormView
 {
     SOPreviewingWaveformView *_waveformView;
-    NSTextField *_timeStamp;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)0:8f16@?20 /* Error: Ran out of types for this method. */;
+- (void)ISTouchingGestureRecognizer;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSTextField *timeStamp; // @synthesize timeStamp=_timeStamp;
 @property(retain, nonatomic) SOPreviewingWaveformView *waveformView; // @synthesize waveformView=_waveformView;
 
 @end

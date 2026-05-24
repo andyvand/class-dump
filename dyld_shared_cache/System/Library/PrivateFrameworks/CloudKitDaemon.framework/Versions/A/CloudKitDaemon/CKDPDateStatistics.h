@@ -9,17 +9,16 @@
 @interface CKDPDateStatistics
 {
     CKDPDate *_creation;
-    CKDPDate *_modification;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)dumpAllFiles;
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)errorCode;
+- (unsigned long long)AudioEngineRef);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,13 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (void)erCryptoFeatureRequirementsMinimumSchemaVersion;
+- (void)HigherCryptoFeatureRequirementsMinimumSchemaVersion;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPDate *creation; // @synthesize creation=_creation;
 @property(readonly, nonatomic) _Bool hasCreation;
-@property(readonly, nonatomic) _Bool hasModification;
-@property(retain, nonatomic) CKDPDate *modification; // @synthesize modification=_modification;
 
 @end
 

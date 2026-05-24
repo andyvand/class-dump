@@ -12,10 +12,10 @@
 }
 
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id)RenderedLayerSurfaceRenderingQueue;
+- (id)_NSCGSWindowLocallyRenderedLayerSurfaceRenderingQueue;
 - (id)orBusiness;
 - (void)¸$bÿÏµðZE;
 

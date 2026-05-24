@@ -4,88 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, _DPPrivacyBudget, _DPValueRange;
-
 @interface _DPKeyProperties
 {
     _Bool _directUpload;
-    _Bool _approvedForNonDNU;
-    _Bool _telemetryAllowed;
-    NSString *_propertiesName;
-    _DPValueRange *_possibleRange;
-    NSNumber *_acceptableError;
-    _DPValueRange *_trimmedScale;
-    NSString *_noiseDistribution;
-    _DPPrivacyBudget *_budget;
-    NSNumber *_privacyParameter;
-    NSString *_serverAlgorithmString;
-    NSDictionary *_parameterDictionary;
-    unsigned long long _submissionPriority;
-    NSString *_namespaceName;
-    unsigned long long _transparencyLogLifetime;
-    NSString *_transparencyLogReportName;
-    NSString *_dataSource;
-    unsigned long long _dataAlgorithm;
-    unsigned long long _privatizationAlgorithm;
-    unsigned long long _transport;
-    NSString *_huffmanTableClass;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)_ASWebsiteNameDictionary;
 + (id);
 + (id);
 + (void);
+- (unsigned long long)JK	;
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
+- (id)IHJ;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)safeDictionaryForKey:fromBase:withKeyDescription: /* Error: Ran out of types for this method. */;
+- (id)_updateInterimScanResultForSlowReleaseWithPrimary:secondary:error: /* Error: Ran out of types for this method. */;
+- (id)idwtB2V2;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_setUpCompletionListViewControllerWithSetUpCompletionListViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *acceptableError; // @synthesize acceptableError=_acceptableError;
-@property(readonly, nonatomic) _Bool approvedForNonDNU; // @synthesize approvedForNonDNU=_approvedForNonDNU;
-@property(readonly, nonatomic) _DPPrivacyBudget *budget; // @synthesize budget=_budget;
 @property(readonly, nonatomic) unsigned long long dataAlgorithm; // @synthesize dataAlgorithm=_dataAlgorithm;
-@property(readonly, nonatomic) NSString *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool directUpload; // @synthesize directUpload=_directUpload;
-@property(readonly, nonatomic) NSString *huffmanTableClass; // @synthesize huffmanTableClass=_huffmanTableClass;
-@property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly, copy, nonatomic) NSString *noiseDistribution; // @synthesize noiseDistribution=_noiseDistribution;
-@property(readonly, nonatomic) NSDictionary *parameterDictionary; // @synthesize parameterDictionary=_parameterDictionary;
-@property(readonly, nonatomic) _DPValueRange *possibleRange; // @synthesize possibleRange=_possibleRange;
-@property(readonly, nonatomic) NSNumber *privacyParameter; // @synthesize privacyParameter=_privacyParameter;
-@property(readonly, nonatomic) unsigned long long privatizationAlgorithm; // @synthesize privatizationAlgorithm=_privatizationAlgorithm;
-@property(readonly, copy, nonatomic) NSString *propertiesName; // @synthesize propertiesName=_propertiesName;
-@property(readonly, copy, nonatomic) NSString *serverAlgorithmString; // @synthesize serverAlgorithmString=_serverAlgorithmString;
-@property(readonly, nonatomic) unsigned long long submissionPriority; // @synthesize submissionPriority=_submissionPriority;
-@property(readonly, nonatomic) _Bool telemetryAllowed; // @synthesize telemetryAllowed=_telemetryAllowed;
-@property(readonly, nonatomic) unsigned long long transparencyLogLifetime; // @synthesize transparencyLogLifetime=_transparencyLogLifetime;
-@property(readonly, nonatomic) NSString *transparencyLogReportName; // @synthesize transparencyLogReportName=_transparencyLogReportName;
-@property(readonly, nonatomic) unsigned long long transport; // @synthesize transport=_transport;
-@property(readonly, nonatomic) _DPValueRange *trimmedScale; // @synthesize trimmedScale=_trimmedScale;
 
 @end
 

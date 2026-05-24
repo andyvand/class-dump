@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGCurationTrait
 {
     double _minimumScore;
 }
 
-- (void);
+- (void)accessibilityValueAsFloat;
 - (double);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id)rMomentNode: /* Error: Ran out of types for this method. */;
+- (id)insertShareParticipantsAsAuthors:forMomentNode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive; // @dynamic isActive;
-@property(readonly, nonatomic) _Bool isMatchingRequired; // @dynamic isMatchingRequired;
 @property(nonatomic) double minimumScore; // @synthesize minimumScore=_minimumScore;
-@property(readonly) NSString *niceDescription;
 
 @end
 

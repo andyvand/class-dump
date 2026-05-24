@@ -6,34 +6,29 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSString, NSURL, SFRichText;
+@class NSString, NSURL;
 
 @interface SSApplicationResultBuilder : SSResultBuilder
 {
     NSString *_bundleId;
-    NSString *_name;
-    NSString *_matchedAlternateName;
-    NSArray *_alternateNames;
-    SFRichText *_highlightedAlternateName;
-    NSURL *_appURL;
 }
 
-+ (id);
++ (id)audioPlayer:(id)arg1 didTransitionToState:(id)arg2;
 + (_Bool);
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Action"24@"WKWebpagePreferences"32@?<v@?q@"WKWebpagePreferences">40;
+- (id)setThumbnail: /* Error: Ran out of types for this method. */;
+- (_Bool)setSourceBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)presentationPropertiesForTransformer: /* Error: Ran out of types for this method. */;
+- (id)presentationProperties;
+- (id)preferredFontForTextStyle:options: /* Error: Ran out of types for this method. */;
+- (id)parentDocument;
+- (id)overrideSubtitle;
+- (id)overrideAllowOpeningSensitiveURLs;
+- (id)numberWithUnsignedInt: /* Error: Ran out of types for this method. */;
+- (id)initWithHost:(id)arg1 properties:style: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -42,18 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)oEmbedding;
+- (void)dcHasQueryPhotoEmbedding;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternateNames; // @synthesize alternateNames=_alternateNames;
 @property(retain, nonatomic) NSURL *appURL; // @synthesize appURL=_appURL;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) SFRichText *highlightedAlternateName; // @synthesize highlightedAlternateName=_highlightedAlternateName;
-@property(retain, nonatomic) NSString *matchedAlternateName; // @synthesize matchedAlternateName=_matchedAlternateName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

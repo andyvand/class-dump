@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSString, NSTimer;
 
 @interface PTParameterRecordsPersistenceManager
 {
     NSTimer *_writeTimer;
-    NSObject<OS_dispatch_queue> *_parameterRecordsArchiveQueue;
-    NSString *_path;
 }
 
 - (void);
-- (id);
+- (id)9h;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)dsAuthMethodStandard:dsAuthReadSecureHash /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;

@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSCoreDataXPCMessage
 {
     unsigned long long _messageCode;
-    _Bool _allowAncillary;
-    NSData *_messageBody;
-    NSString *_token;
-    NSString *_contextName;
-    NSString *_contextTransactionAuthor;
-    NSString *_processName;
 }
 
 + (_Bool);

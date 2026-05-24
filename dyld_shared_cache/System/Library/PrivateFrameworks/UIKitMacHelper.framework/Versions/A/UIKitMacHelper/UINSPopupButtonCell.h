@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)deoc_iphone_80;
 - (void);
 - (id);
 - (void);

@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionConfirmationSystemStyle, NSData;
-
 @interface IFTSchemaIFTActionConfirmation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    _Bool _confirmed;
-    long long _selectedInDisambiguation;
-    _Bool _denied;
-    IFTSchemaIFTActionConfirmationSystemStyle *_systemStyle;
-    CDStruct_b33ad018 _has;
-    _Bool _hasConfirmed;
-    _Bool _hasSelectedInDisambiguation;
-    _Bool _hasDenied;
-    _Bool _hasSystemStyle;
-    unsigned long long _whichOneof_Promptselection;
 }
 
 - (unsigned long long);
@@ -31,8 +19,8 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -46,13 +34,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)d48B56;
 - (id)At!$Aùà1Â0@ù
 × ;
 - (id)rainSummary;
@@ -63,18 +52,7 @@
 - (void)2*;
 
 // Remaining properties
-@property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(nonatomic) _Bool denied; // @synthesize denied=_denied;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasConfirmed; // @synthesize hasConfirmed=_hasConfirmed;
-@property(nonatomic) _Bool hasDenied; // @synthesize hasDenied=_hasDenied;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasSelectedInDisambiguation; // @synthesize hasSelectedInDisambiguation=_hasSelectedInDisambiguation;
-@property(nonatomic) _Bool hasSystemStyle; // @synthesize hasSystemStyle=_hasSystemStyle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long selectedInDisambiguation; // @synthesize selectedInDisambiguation=_selectedInDisambiguation;
-@property(retain, nonatomic) IFTSchemaIFTActionConfirmationSystemStyle *systemStyle; // @synthesize systemStyle=_systemStyle;
-@property(readonly, nonatomic) unsigned long long whichOneof_Promptselection; // @synthesize whichOneof_Promptselection=_whichOneof_Promptselection;
 
 @end
 

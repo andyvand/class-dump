@@ -9,36 +9,28 @@
 @interface BMPBAlarmEvent
 {
     NSString *_alarmID;
-    int _eventType;
-    int _lastEventType;
-    _Bool _isSleepAlarm;
-    struct {
-        unsigned int eventType:1;
-        unsigned int lastEventType:1;
-        unsigned int isSleepAlarm:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)D;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)5m;
+- (void)_modificationDate;
 - (id);
 - (_Bool);
 - (id);
@@ -50,14 +42,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *alarmID; // @synthesize alarmID=_alarmID;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasAlarmID;
-@property(nonatomic) _Bool hasEventType;
 @property(nonatomic) _Bool hasIsSleepAlarm;
-@property(nonatomic) _Bool hasLastEventType;
-@property(nonatomic) _Bool isSleepAlarm; // @synthesize isSleepAlarm=_isSleepAlarm;
-@property(nonatomic) int lastEventType; // @synthesize lastEventType=_lastEventType;
 
 @end
 

@@ -10,13 +10,12 @@
 @interface _FIBrowseAirDropView
 {
     id <_FIBrowseAirDropViewDelegate> _delegate;
-    FIBrowseAirDropGutsController *_controller;
 }
 
 + (void);
 + (_Bool);
 - (id);
-- (id);
+- (id)em_userDefaults;
 - (void);
 - (void);
 - (void);
@@ -26,13 +25,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)ScreenForPreviewItem: /* Error: Ran out of types for this method. */;
+- (id)seamlessCloserSourceFrameOnScreenForPreviewItem: /* Error: Ran out of types for this method. */;
 - (void)°;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) FIBrowseAirDropGutsController *controller; // @synthesize controller=_controller;
-@property id <_FIBrowseAirDropViewDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

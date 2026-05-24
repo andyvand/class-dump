@@ -6,9 +6,9 @@
 
 @interface UnknownClass (NSSpeechSynthesizerExtensions)
 + (id);
++ (void);
 + (void);
-+ (void);
-+ (id);
++ (id)(;
 + (id);
 + (void);
 + (void);

@@ -6,69 +6,17 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSArray, NSDictionary, NSNumber, NSObject, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CIRAWFilterImpl : CIFilter
 {
     struct CGImageSource *_inputImageSource;
-    NSArray *_inputImageAndProperties;
-    CIImage *_inputImage;
-    struct CGSize _nativeSize;
-    _Bool _isRawSource;
-    _Bool _calledDealloc;
-    NSString *_matteOption;
-    NSDictionary *_baseImageProperties;
-    NSDictionary *_rawDictionary;
-    NSDictionary *_rawReconstructionDefaultsDictionary;
-    NSArray *_supportedSushiModes;
-    NSArray *_supportedDecoderVersions;
-    NSArray *_filters;
-    NSObject *_typeIdentifierHint;
-    NSNumber *_defaultOrientation;
-    NSString *inputRequestedSushiMode;
-    NSNumber *inputNeutralChromaticityX;
-    NSNumber *inputNeutralChromaticityY;
-    NSNumber *inputNeutralTemperature;
-    NSNumber *inputNeutralTint;
-    CIVector *inputNeutralLocation;
-    NSNumber *inputEV;
-    NSNumber *inputBoost;
-    NSNumber *inputDraftMode;
-    NSNumber *inputScaleFactor;
-    NSNumber *inputIgnoreOrientation;
-    NSNumber *inputImageOrientation;
-    NSNumber *inputEnableSharpening;
-    NSNumber *inputEnableNoiseTracking;
-    NSNumber *inputEnableVendorLensCorrection;
-    NSNumber *inputNoiseReductionAmount;
-    NSNumber *inputLuminanceNoiseReductionAmount;
-    NSNumber *inputColorNoiseReductionAmount;
-    NSNumber *inputNoiseReductionSharpnessAmount;
-    NSNumber *inputNoiseReductionContrastAmount;
-    NSNumber *inputNoiseReductionDetailAmount;
-    NSNumber *inputMoireAmount;
-    NSString *inputDecoderVersion;
-    NSNumber *inputBoostShadowAmount;
-    NSNumber *inputBias;
-    NSNumber *inputBaselineExposure;
-    NSNumber *inputDisableGamutMap;
-    NSNumber *inputDisableHighlightRecovery;
-    NSNumber *inputHueMagMR;
-    NSNumber *inputHueMagRY;
-    NSNumber *inputHueMagYG;
-    NSNumber *inputHueMagGC;
-    NSNumber *inputHueMagCB;
-    NSNumber *inputHueMagBM;
-    CIFilter *inputLinearSpaceFilter;
-    NSNumber *inputEnableEDRMode;
-    NSNumber *inputLocalToneMapAmount;
-    NSNumber *inputReturnDemosaiced;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)8h;
 + (id);
 + (id);
 + (id);
@@ -87,11 +35,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -99,8 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -130,12 +78,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -146,9 +96,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -165,17 +113,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)9h;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)8h;
 - (id);
 - (id);
 - (id);
@@ -184,32 +132,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)Y;
 - (id);
 - (void);
+- (void);
+- (id);
+- (id)`;
+- (id);
+- (void)ؠ!bH;
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)threadExecutionWidth;
 - (id)l}}elgsb_Wc^^Z^^^Y^E[Rcoppp{{{{cusw=_VnikfkmmmmiqoszzzzooooiiiiZeaihkiofstukqpsmmkpqqqqrrrrnnnnnnnnrrrrxxxx}}}}~|{~jyw¤¤¤¤¤¤¤¤drnvYYLeNbWlLbWqbdYmzzyzcurwT^SgWbYkhzz|¤¤¤¤¥¥¥¥¢¢¢¢Wpi~kxtttttPbYj\jcmrrrrhial_f\ivvvvvIf_uzzzzuuuu4I:_*F6YbbabkkkkhoktZxv¬¬¬¬©©©©zzzzPd\jQd]lnnnn[a\addddssssqqqqlmmmrrrrwwww{|{dvvx|||P^WfN[Q\ffffmpkqOja|d~g|ybpj|djflec\efmisUniz]aXgKRD[P[Q^iiiijjjjIZNfNe\q{{yWsoVng{cnht\ibossss||||||||wwwwoyyy¨¨¨¨¨¨©©¢¥¥{stmxutmu}}{}vvvvdwu­­­­¡¤¥¥}nur~xxxxffffGM@R>I9Tllhprql}klerrrrrzzxz|Rmg{ppkpooooakfnTe_qcmixlxymmmm7PE]bd^gs{{|{v~b}{u~}ozy}orprFYNa:TG]hhehPh`s[le~\mfvP`WgW_W`M[Q_O[PesmesV_Ve8OCZhhhhyyyy||||||||x}pppplllloppp[olpfd]kM`Xmttttuuuuttttzzzz||||AbYvKe[vszw|}~¤¤¤¤¦¨¨¦¦¦¦byuzzzzhomsooooaaaa8E8N:F9Neeeev{{{e{{xxxxRe_j[gbkzzzzmsq{ewu}|ttttppppmpmqutqu||||o{x~bvp{}weyzcuoIZLe@N>U+E5R>RE_nurywwwwAL?T#6#EJPCSjjjjyyyy|}||||uuuu?`VqIkb{¦¦¦¦­­­­¨¨¨¨ ££ /* Error: Ran out of types for this method. */;
 - (void)d8 + 0.17643*(d7 + d9) + 0.04445*d3 + 0.01801*(d2 + d4) + 0.00900*(d6 + d10); float mag = sqrt(fx*fx + fy*fy); float angle = atan(fy, fx) + 1.5707963; angle = compare(mag - 0.0001, 1.5707963, angle); angle = compare(angle, angle + 6.2831853, angle); float norm = compare(mag - 0.00001, 0.0, 1.0 / mag); fx *= norm; fy *= norm; return vec4(fx, fy, mag, angle); };
 
 // Remaining properties
-@property(readonly, retain) NSArray *filters;
-@property(readonly) _Bool isRawSource;
-@property(readonly) struct CGSize nativeSize;
 @property(readonly, retain) NSDictionary *rawDictionary;
-@property(readonly) int rawMajorVersion;
-@property(readonly, retain) NSDictionary *rawReconstructionDefaultsDictionary;
-@property(readonly) int subsampling;
-@property(readonly, retain) NSNumber *sushiMode;
 
 @end
 

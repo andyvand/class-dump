@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)8ԀL;
 - (id);
 - (id);
 - (void);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)ceManager;
+- (id)makeDefaultServiceManager;
 - (id)T@"NSString",&,N,V_transportType;
-- (void);
+- (void)remoteDeviceMonitorRetryTimerMaximumTimeInterval;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *changedEvents; // @synthesize changedEvents=_changedEvents;

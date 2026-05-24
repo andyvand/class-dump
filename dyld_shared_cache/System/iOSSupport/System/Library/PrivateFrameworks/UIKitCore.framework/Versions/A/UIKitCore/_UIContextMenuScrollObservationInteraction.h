@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol _UIContextMenuScrollObservationInteractionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuScrollObservationInteraction
 {
     struct CGPoint _currentTranslation;
-    struct CGPoint _consumedTranslation;
-    struct CGPoint _currentLocation;
-    _Bool _isActive;
-    UIView *_view;
-    id <_UIContextMenuScrollObservationInteractionDelegate> _delegate;
 }
 
 + (id);
-- (void);
+- (void)ng to get highlight for url:(struct CGPoint)arg1 %@, error:(struct CGPoint)arg2 %@;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_valueForPropertyKey:(id)arg1 source:context: /* Error: Ran out of types for this method. */;
+- (_Bool)_universalCloudLibraryID;
 - (id);
 - (_Bool)Ô!°!4Dù1]ð1Â0@ù
 × ;
 - (void)!	ð!àFùQeÐ1Â0@ù
 × ;
 - (struct CGPoint)@?0@"NSDictionary"8{_NSRange=QQ}16^B32;
-- (_Bool)nView:(id)arg1;
+- (_Bool)_addworkaroundForPropertyAnimator:(id)arg1 inView: /* Error: Ran out of types for this method. */;
 - (id),N,V_textContainer;
 - (void)appliesBackgroundFromView;
-- (void);
+- (void)radarEntry;
 - (void)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIContextMenuScrollObservationInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

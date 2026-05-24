@@ -7,10 +7,6 @@
 @interface NewsFeed.AccessoryViewContainer__priv_B3216C832986877D01E235539593604B
 {
     id identifier;
-    id height;
-    id containerEdgeInsets;
-    id accessoryView;
-    id heightConstraint;
 }
 
 - (id);

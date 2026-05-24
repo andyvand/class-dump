@@ -20,8 +20,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)edbackCalculatorWithPhotoLibrary: /* Error: Ran out of types for this method. */;
-- (int)gCalculator;
+- (void)_userFeedbackCalculatorWithPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (int)embeddingCalculator;
 
 @end
 

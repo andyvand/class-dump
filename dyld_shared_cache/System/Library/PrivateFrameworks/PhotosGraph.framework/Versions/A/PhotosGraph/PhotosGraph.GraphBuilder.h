@@ -7,7 +7,6 @@
 @interface PhotosGraph.GraphBuilder
 {
     id photoLibrary;
-    id graphManager;
 }
 
 @end

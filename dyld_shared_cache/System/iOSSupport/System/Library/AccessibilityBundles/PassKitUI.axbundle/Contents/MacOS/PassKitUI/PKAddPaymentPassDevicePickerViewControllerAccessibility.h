@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)d;
++ (id)pawprint.fill;
 + (void);
 - (void);
 - (id);

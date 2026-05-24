@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSArray;
+@class NSArray;
 
 @protocol INSearchForMessagesIntentExport
-- (NSArray *)eCodableDescriptionPlaceholderKey;
+- (NSArray *);
+- (void)x@JJ}@	
+
+J	;
+- (void);
+- (NSArray *)ueue;
+- (id);
+- (unsigned long long);
+- (NSArray *)__INTypeCodableDescriptionPlaceholderKey;
 - (NSArray *)ÔA;
 
 // Remaining properties
-@property unsigned long long attributes;
-@property(copy) NSArray *conversationIdentifiers;
-@property(copy) INDateComponentsRange *dateTimeRange;
-@property(copy) NSArray *identifiers;
-@property(copy) NSArray *notificationIdentifiers;
 @property(copy) NSArray *recipients;
-@property(copy) NSArray *searchTerms;
-@property(copy) NSArray *senders;
-@property(copy) NSArray *speakableGroupNames;
 @end
 

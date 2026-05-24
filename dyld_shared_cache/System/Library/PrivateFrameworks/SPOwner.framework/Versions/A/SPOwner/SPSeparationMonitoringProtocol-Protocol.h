@@ -5,6 +5,11 @@
 //
 
 @protocol SPSeparationMonitoringProtocol
+- (void);
+- (void);
+- (void)=;
+- (void);
+- (void);
 - (void)Ô ;
 @end
 

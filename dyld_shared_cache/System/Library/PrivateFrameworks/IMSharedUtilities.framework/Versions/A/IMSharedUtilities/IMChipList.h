@@ -9,31 +9,28 @@
 @interface IMChipList
 {
     void chipList;
-    _Bool replied;
 }
 
-+ (id);
++ (id)G;
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ssbook.payment.pnr.present.suspended-lost-mode;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)PhotosFormats.framework/PhotosFormats;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *chipList;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool replied; // @synthesize replied;
 
 @end
 

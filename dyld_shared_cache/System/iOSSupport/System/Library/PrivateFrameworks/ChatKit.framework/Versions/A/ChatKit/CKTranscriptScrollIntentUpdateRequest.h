@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKScrollViewAnimationProperties;
-
 @interface CKTranscriptScrollIntentUpdateRequest
 {
     _Bool _wantsDeferredScrollIntentEnforcement;
-    long long _intent;
-    CKScrollViewAnimationProperties *_animationProperties;
 }
 
 - (_Bool);
@@ -18,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)@;
 - (void)@"NSString"8@"IMServiceForSendingResult"16B24q28;
 
 // Remaining properties
-@property(readonly, nonatomic) CKScrollViewAnimationProperties *animationProperties; // @synthesize animationProperties=_animationProperties;
 @property(readonly, nonatomic) long long intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) _Bool wantsDeferredScrollIntentEnforcement; // @synthesize wantsDeferredScrollIntentEnforcement=_wantsDeferredScrollIntentEnforcement;
 
 @end
 

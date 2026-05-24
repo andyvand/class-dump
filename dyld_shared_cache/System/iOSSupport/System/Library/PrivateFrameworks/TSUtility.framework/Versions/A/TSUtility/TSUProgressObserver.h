@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface TSUProgressObserver
 {
     double mValueInterval;
-    NSObject<OS_dispatch_queue> *mQueue;
-    CDUnknownBlockType mHandler;
-    double mLastHandledValue;
-    _Bool mLastHandledIndeterminate;
 }
 
 - (double);

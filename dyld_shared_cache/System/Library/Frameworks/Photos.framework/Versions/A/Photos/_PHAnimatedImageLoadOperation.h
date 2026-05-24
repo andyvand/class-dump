@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, PHAnimatedImage;
+@class PHAnimatedImage;
 
 @interface _PHAnimatedImageLoadOperation
 {
     long long _cacheStrategy;
-    _Bool _useSharedImageDecoding;
-    NSURL *_animatedImageURL;
-    PHAnimatedImage *_animatedImage;
 }
 
 + (long long);
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)6u;
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)for update on CloudOrganizationSettings failed with:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)_clearLastSharedDate;
 
 // Remaining properties

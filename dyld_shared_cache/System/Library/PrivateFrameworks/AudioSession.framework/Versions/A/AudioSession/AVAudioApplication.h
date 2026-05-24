@@ -7,39 +7,38 @@
 @interface AVAudioApplication
 {
     struct unique_ptr<caulk::synchronized<avas::client::AVAudioApplicationImpl>, std::default_delete<caulk::synchronized<avas::client::AVAudioApplicationImpl>>> _impl;
-    _Bool _inputMuted;
 }
 
+- (_Bool)NEFilterPluginManager;
+- (_Bool)NEIKEv2AddressList;
+- (_Bool)NEIKEv2PacketTunnelProvider;
+- (_Bool)NEIKEv2FollowupKEPacket;
+- (void)NEIKEv2ASN1DNIdentifier;
+- (long long)NEIKEv2IntegrityProtocol;
+- (int)NEHotspotHelperResponse;
+- (int)NEDNSSettingsBundle;
+- (_Bool)NEPrivateLTENetwork;
+- (_Bool)NENexusFlowDivertFlow;
+- (_Bool)NEFlowMetaData;
+- (_Bool)NEFilterVerdict;
+- (int)NEFilterNewFlowVerdict;
+- (int)NEFilterSource;
+- (_Bool)NEFilterReport;
+- (void)NEFilterSocketFlow;
+- (void)NEFilterBrowserFlow;
+- (tuple_010809ef)NEEthernetTunnelNetworkSettings;
+- (sync_guard_efa19b1d)NEFilterExtensionProviderHostContext;
+- (tuple_402069fb)NEFilterExtensionProviderContext;
+- (tuple_010809ef)NEFilterDataProvider;
+- (void)NEExtensionAppPushProviderHostContext;
+- (_Bool)NEFilterDataSavedMessageHandler;
+- (id)NEFilterDataExtensionProviderHostProtocol;
+- (long long)NEFlowDivertPluginDriver;
+- (id)_TtC16NetworkExtension44NEURLFilterControlProviderHostExportedObject;
+- (id)_TtC16NetworkExtension44NEURLFilterControlProviderHostExportedObject;
+- (id)_TtP16NetworkExtension41NEURLFilterControlProviderHostXPCProtocol_;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (tuple_010809ef);
-- (sync_guard_efa19b1d);
-- (tuple_6d7417c9);
-- (tuple_010809ef);
-- (void);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)panionLinkManager decodeEvent:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -49,9 +48,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int clientID;
-@property(readonly, nonatomic, getter=isInputMuted) _Bool inputMuted; // @synthesize inputMuted=_inputMuted;
-@property(readonly) long long microphoneInjectionPermission;
-@property(readonly) long long recordPermission;
 
 @end
 

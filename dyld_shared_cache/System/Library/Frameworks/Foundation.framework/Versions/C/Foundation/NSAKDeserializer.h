@@ -10,17 +10,17 @@ __attribute__((visibility("hidden")))
     id ds;
 }
 
+- (id)?;
 - (id);
 - (id);
 - (id);
+- (id)S;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)G;
+- (id);
 - (id);
 - (id);
 - (id);

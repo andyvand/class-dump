@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NSMutableDictionary;
+@class FCKeyValueStore;
 
 @interface FCPurchaseLookUpEntriesManager
 {
     FCKeyValueStore *_localStore;
-    NSMutableDictionary *_entriesByTagID;
 }
 
 - (void)ilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCheckDraftContentAccessOperation.m;

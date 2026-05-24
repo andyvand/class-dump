@@ -6,17 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSBiometricsSignatureResult, AMSDelegateAuthenticateRequest, AMSURLSession, NSDictionary, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSDelegateAuthenticateTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSDictionary *_formData;
-    AMSDelegateAuthenticateRequest *_request;
-    AMSBiometricsSignatureResult *_signatureResult;
-    AMSURLSession *_session;
 }
 
 + (id);
@@ -37,10 +31,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)L;
 - (void);
 - (id);
 - (void)",R,V_loadedBagPartialIdentifier;
@@ -50,18 +44,6 @@
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *formData; // @synthesize formData=_formData;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSDelegateAuthenticateRequest *request; // @synthesize request=_request;
-@property(readonly) AMSURLSession *session; // @synthesize session=_session;
-@property(retain) AMSBiometricsSignatureResult *signatureResult; // @synthesize signatureResult=_signatureResult;
-@property(readonly) Class superclass;
 
 @end
 

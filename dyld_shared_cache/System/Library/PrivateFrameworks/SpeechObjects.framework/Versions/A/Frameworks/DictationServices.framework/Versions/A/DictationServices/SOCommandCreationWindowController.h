@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSView, SOCommandEditingViewController;
+@class NSView;
 
 @interface SOCommandCreationWindowController
 {
     NSView *_editingViewContainer;
-    NSButton *_saveButton;
-    SOCommandEditingViewController *_editingViewController;
 }
 
 + (id);
@@ -19,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)etrics"32;
 - (void)ÔÁLð!xDùÑÐ1Â0@ù
 × ;
 

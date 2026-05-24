@@ -5,5 +5,17 @@
 //
 
 @protocol SUUpdateService
+- (void);
+- (void)W;
+- (void)lW;
+- (void);
+- (void)^;
+- (void);
+- (void)1?;
+- (void);
+- (void)4l;
+- (void)R;
+- (void)I;
+- (void);
 @end
 

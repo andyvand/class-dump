@@ -4,61 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TXRTexture;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface GLKTextureTXR
 {
     unsigned int _loadTarget;
-    TXRTexture *_texture;
-    unsigned long long _API;
-    _Bool _hasAlpha;
-    _Bool _lossyCompressedSource;
-    unsigned int _GLTextureName;
-    unsigned int _target;
-    unsigned int _mipmapLevelCount;
-    unsigned int _arrayLength;
-    unsigned int _width;
-    unsigned int _height;
-    unsigned int _depth;
-    NSString *_label;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool)P;
+- (unsigned int);
+- (void);
+- (unsigned int);
+- (void);
+- (id);
+- (void);
+- (unsigned int);
 - (unsigned int);
 - (void);
-- (unsigned int);
 - (void);
-- (id);
+- (void)signalFractional;
 - (void);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int GLTextureName; // @synthesize GLTextureName=_GLTextureName;
-@property(nonatomic) unsigned int arrayLength; // @synthesize arrayLength=_arrayLength;
-@property(nonatomic) unsigned int depth; // @synthesize depth=_depth;
-@property(nonatomic) _Bool hasAlpha; // @synthesize hasAlpha=_hasAlpha;
-@property(nonatomic) unsigned int height; // @synthesize height=_height;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool lossyCompressedSource; // @synthesize lossyCompressedSource=_lossyCompressedSource;
-@property(nonatomic) unsigned int mipmapLevelCount; // @synthesize mipmapLevelCount=_mipmapLevelCount;
-@property(nonatomic) unsigned int target; // @synthesize target=_target;
-@property(nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

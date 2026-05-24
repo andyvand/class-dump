@@ -7,11 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBSportsSubscriptionRequestItem
+- (NSData *)tions;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *leagueIdentifier;
-@property(copy, nonatomic) NSString *sportIdentifier;
 @end
 

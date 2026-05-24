@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)OfClass:[FBSDerivedSettingsExtension class]] /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties

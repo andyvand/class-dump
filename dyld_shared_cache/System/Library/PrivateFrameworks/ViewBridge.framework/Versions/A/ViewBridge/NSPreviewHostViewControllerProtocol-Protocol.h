@@ -5,5 +5,8 @@
 //
 
 @protocol NSPreviewHostViewControllerProtocol
+- (void);
+- (void);
+- (void)T`FC�1;
 @end
 

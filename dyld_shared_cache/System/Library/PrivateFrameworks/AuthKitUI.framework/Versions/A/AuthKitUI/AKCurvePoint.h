@@ -7,40 +7,29 @@
 @interface AKCurvePoint
 {
     double _x;
-    double _y;
-    double _roundness;
-    double _smoothness;
-    struct CGPoint _leftTangentPoint;
-    struct CGPoint _rightTangentPoint;
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)A;
 - (id);
 - (double);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)publisherWithSpansMeetingMinimumDuration: /* Error: Ran out of types for this method. */;
 - (double)Q4(°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint CGPoint;
-@property(nonatomic) struct CGPoint leftTangentPoint; // @synthesize leftTangentPoint=_leftTangentPoint;
-@property(nonatomic) struct CGPoint rightTangentPoint; // @synthesize rightTangentPoint=_rightTangentPoint;
-@property(nonatomic) double roundness; // @synthesize roundness=_roundness;
-@property(nonatomic) double smoothness; // @synthesize smoothness=_smoothness;
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

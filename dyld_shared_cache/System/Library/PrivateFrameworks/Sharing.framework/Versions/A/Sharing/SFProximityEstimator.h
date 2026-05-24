@@ -7,11 +7,6 @@
 @interface SFProximityEstimator
 {
     int _rssiEnter;
-    int _rssiExit;
-    int _rssiImmediate;
-    int _rssiNear;
-    int _rssiFar;
-    int _estimatedRSSI;
 }
 
 + (id);

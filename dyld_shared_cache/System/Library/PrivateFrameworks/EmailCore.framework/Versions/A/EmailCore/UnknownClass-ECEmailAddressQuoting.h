@@ -4,47 +4,71 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEmailAddress, NSString;
+@class NSString;
 
 @interface UnknownClass (ECEmailAddressQuoting)
 + (id);
-+ (id);
++ (id);
 + (void);
+- (id)elessControlsView.;
+- (id)roundView should only be set once on an AVMobileChromelessControlsView.;
+- (id)once on an AVMobileChromelessControlsView.;
+- (id)uxiliaryControlsView should only be set once on an AVMobileChromelessControlsView.;
+- (id)ler with playbackState:%@ /* Error: Ran out of types for this method. */;
+- (id)@ before creating playback controls view!;
+- (unsigned int)Presented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (id)OnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (id)ictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (_Bool)teracting:%d
+	isPictureInPictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (_Bool)aybackControlsVisible:%d
+	isUserInteracting:%d
+	isPictureInPictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (_Bool)shouldShowPlaybackControls:%d {
+	wantsPlaybackControlsVisible:%d
+	isUserInteracting:%d
+	isPictureInPictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (_Bool)*;
+- (_Bool)y while hosted in view service. ***;
+- (_Bool)cannot update status bar visibility while hosted in view service. ***;
+- (_Bool)%@;
+- (_Bool)r playerController %{public}@;
+- (_Bool)s %{public}@:EndEncountered /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)prepareSectionForL1Ranking: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool ec_isHorizontalSeparator;
-@property(readonly, copy) NSString *ec_messageIDSubstring;
-@property(readonly, copy, nonatomic) NSString *ecemailaddress_trimmedAndQuotedDisplayName;
 @property(readonly, copy, nonatomic) NSString *ecemailaddress_trimmedAndQuotedLocalPart;
-@property(readonly, copy, nonatomic) NSString *ecemailaddress_uniquedDomain;
-@property(readonly, nonatomic) ECEmailAddress *emailAddressValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *stringValue;
-@property(readonly) Class superclass;
 @end
 

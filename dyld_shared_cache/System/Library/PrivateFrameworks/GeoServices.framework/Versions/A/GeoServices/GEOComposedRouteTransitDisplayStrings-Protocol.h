@@ -7,12 +7,10 @@
 @protocol GEOServerFormattedString;
 
 @protocol GEOComposedRouteTransitDisplayStrings
+- (id <GEOServerFormattedString>);
+- (id <GEOServerFormattedString>)cachingPreparerWrappingPreparer:timeProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> pickingDurationFormatString;
-@property(readonly, nonatomic) id <GEOServerFormattedString> planningDescriptionFormatString;
 @property(readonly, nonatomic) id <GEOServerFormattedString> previewDurationFormatString;
-@property(readonly, nonatomic) id <GEOServerFormattedString> transitDescriptionFormatString;
-@property(readonly, nonatomic) id <GEOServerFormattedString> transitRouteBadge;
 @end
 

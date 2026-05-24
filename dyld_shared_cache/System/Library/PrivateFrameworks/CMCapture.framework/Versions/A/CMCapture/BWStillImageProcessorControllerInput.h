@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWStillImageCaptureSettings, BWStillImageCaptureStreamSettings, BWStillImageProcessingSettings, BWStillImageSettings, FigCaptureStillImageSettings, NSMutableDictionary, NSString;
+@class BWStillImageSettings;
 @protocol BWStillImageProcessorControllerInputUpdatesDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorControllerInput
 {
     BWStillImageSettings *_settings;
-    BWStillImageCaptureStreamSettings *_captureStreamSettings;
-    NSMutableDictionary *_outputSampleBufferRoutersByBufferType;
-    id <BWStillImageProcessorControllerInputUpdatesDelegate> _delegate;
 }
 
 - (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)EBContentFormat;
 - (id);
 - (id);
 - (id);
@@ -31,17 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)±öTÿ¶öVÿ½÷XÿÃ÷YÿÉ÷ZÿÎ÷\ÿÕø]ÿÛø^ÿâø_ÿèø`ÿìùaÿlü@ÿlü@ÿmü@ÿnüAÿoüAÿqüBÿsüBÿvýCÿxýDÿ|ýEÿýFÿýGÿýHÿýJÿþKÿþMÿþNÿþOÿ£þQÿ©ÿRÿ®ÿTÿ³ÿUÿ¹ÿWÿ¿ÿYÿÅÿZÿËÿ[ÿÐÿ]ÿ×ÿ^ÿÝÿ_ÿãÿ`ÿêÿaÿìÿbÿ;
-- (id);
+- (id)stillImageGDCSourceMode;
 
 // Remaining properties
-@property(readonly, nonatomic) BWStillImageCaptureSettings *captureSettings;
-@property(readonly, nonatomic) BWStillImageCaptureStreamSettings *captureStreamSettings;
 @property(retain, nonatomic) id <BWStillImageProcessorControllerInputUpdatesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isMaster;
-@property(readonly, nonatomic) NSString *portType;
-@property(readonly, nonatomic) BWStillImageProcessingSettings *processingSettings;
-@property(readonly, nonatomic) FigCaptureStillImageSettings *settings;
-@property(readonly, nonatomic) BWStillImageSettings *stillImageSettings;
 
 @end
 

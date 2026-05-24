@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
 @protocol PXDisplayAsset;
 
 @protocol PXRegionOfInterestImage
@@ -12,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset;
-@property(readonly, nonatomic) NSImage *image;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)vert favorites entries to property list, cannot save favorites, error:%@ /* Error: Ran out of types for this method. */;
 @end
 

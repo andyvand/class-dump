@@ -9,14 +9,13 @@
 @interface GEOPDSSessionUserActionMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_userActionMetadataElements;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
-- (id);
-- (id);
-- (void);
++ (_Bool)setIncludeTrafficIncidents:(id)arg1;
+- (id)primitivePhoneticOrganization;
+- (id)primitivePhoneticFirstName;
+- (void)maxContainerSequenceNumberInUse;
 - (void);
 - (unsigned long long);
 - (void);
@@ -25,20 +24,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tivate audio session for reason %{public}@ because the scheduled token %{public}@ does not match the current token %{public}@.;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (void);
 - (id):(struct _NSZone *)arg1 8;
-- (id)questerList;
+- (id)_pendingRequesterList;
 - (id)\¢¢8¤ ¦¦;
-- (id)SULTS_STATUS_UNDEFINED;
+- (id)EXTENDED_GEO_LOOKUP_RESULTS_STATUS_UNDEFINED;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(retain, nonatomic) NSMutableArray *userActionMetadataElements;
 
 @end

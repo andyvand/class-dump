@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDDiagnosticsStore, NSMutableArray, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface IDDiagnosticsServer
 {
     _Bool _installFinished;
-    NSXPCListener *_listener;
-    NSMutableArray *_clientConnections;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    IDDiagnosticsStore *_store;
 }
 
 + (id);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (_Bool);
 - (void);
@@ -39,18 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(retain) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool installFinished; // @synthesize installFinished=_installFinished;
 @property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain) IDDiagnosticsStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

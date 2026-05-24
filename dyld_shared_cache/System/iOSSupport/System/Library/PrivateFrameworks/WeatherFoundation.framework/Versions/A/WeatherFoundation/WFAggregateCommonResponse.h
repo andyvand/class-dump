@@ -6,21 +6,11 @@
 
 #import <WeatherFoundation/WFResponse.h>
 
-@class NSArray, NSData, WFAirQualityConditions, WFNextHourPrecipitation, WFWeatherConditions;
+@class WFAirQualityConditions;
 
 @interface WFAggregateCommonResponse : WFResponse
 {
     _Bool _responseWasFromCache;
-    WFAirQualityConditions *_airQualityObservations;
-    WFWeatherConditions *_currentObservations;
-    NSArray *_lastTwentyFourHoursOfObservations;
-    NSArray *_hourlyForecastedConditions;
-    NSArray *_dailyForecastedConditions;
-    NSArray *_dailyPollenForecastedConditions;
-    NSArray *_changeForecasts;
-    NSArray *_severeWeatherEvents;
-    WFNextHourPrecipitation *_nextHourPrecipitation;
-    NSData *_rawAPIData;
 }
 
 + (_Bool);
@@ -44,25 +34,15 @@
 - (id);
 - (id);
 - (id);
+- (id)@56@64@72;
+- (id)ImageRequest";
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFAirQualityConditions *airQualityObservations; // @synthesize airQualityObservations=_airQualityObservations;
-@property(retain, nonatomic) NSArray *changeForecasts; // @synthesize changeForecasts=_changeForecasts;
-@property(retain, nonatomic) WFWeatherConditions *currentObservations; // @synthesize currentObservations=_currentObservations;
-@property(retain, nonatomic) NSArray *dailyForecastedConditions; // @synthesize dailyForecastedConditions=_dailyForecastedConditions;
-@property(retain, nonatomic) NSArray *dailyPollenForecastedConditions; // @synthesize dailyPollenForecastedConditions=_dailyPollenForecastedConditions;
-@property(retain, nonatomic) NSArray *hourlyForecastedConditions; // @synthesize hourlyForecastedConditions=_hourlyForecastedConditions;
-@property(retain, nonatomic) NSArray *lastTwentyFourHoursOfObservations; // @synthesize lastTwentyFourHoursOfObservations=_lastTwentyFourHoursOfObservations;
-@property(retain, nonatomic) WFNextHourPrecipitation *nextHourPrecipitation; // @synthesize nextHourPrecipitation=_nextHourPrecipitation;
-@property(retain, nonatomic) NSData *rawAPIData; // @synthesize rawAPIData=_rawAPIData;
-@property(nonatomic) _Bool responseWasFromCache; // @synthesize responseWasFromCache=_responseWasFromCache;
-@property(retain, nonatomic) NSArray *severeWeatherEvents; // @synthesize severeWeatherEvents=_severeWeatherEvents;
 
 @end
 

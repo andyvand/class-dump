@@ -6,21 +6,9 @@
 
 #import <Metal/MTLBVHGeometryDescriptor.h>
 
-@class NSArray;
-@protocol MTLBuffer;
-
 @interface MTLBVHPolygonGeometryDescriptor : MTLBVHGeometryDescriptor
 {
     unsigned long long _polygonType;
-    NSArray *_vertexBuffers;
-    unsigned long long _vertexStride;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _vertexFormat;
-    id <MTLBuffer> _transformationMatrixBuffer;
-    unsigned long long _transformationMatrixOffsetBuffer;
-    long long _transformationMatrixLayout;
 }
 
 - (void);
@@ -28,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -48,16 +36,7 @@
 - (id)RGB10_444_2P;
 
 // Remaining properties
-@property(nonatomic) __weak id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
 @property(nonatomic) unsigned long long polygonType; // @synthesize polygonType=_polygonType;
-@property(nonatomic) __weak id <MTLBuffer> transformationMatrixBuffer; // @synthesize transformationMatrixBuffer=_transformationMatrixBuffer;
-@property(nonatomic) unsigned long long transformationMatrixBufferOffset; // @synthesize transformationMatrixBufferOffset=_transformationMatrixOffsetBuffer;
-@property(nonatomic) long long transformationMatrixLayout; // @synthesize transformationMatrixLayout=_transformationMatrixLayout;
-@property(nonatomic) __weak NSArray *vertexBuffers; // @synthesize vertexBuffers=_vertexBuffers;
-@property(nonatomic) unsigned long long vertexFormat; // @synthesize vertexFormat=_vertexFormat;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

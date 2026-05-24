@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, NSData, NSString;
-
 @interface CTBinarySMS
 {
     int _portAddressingScheme;
-    int _srcPort;
-    int _dstPort;
-    int _smsType;
-    NSData *_payload;
-    NSString *_destinationAddress;
-    NSString *_smscAddress;
-    CTXPCServiceSubscriptionContext *_context;
 }
 
 - (id);
@@ -29,25 +20,18 @@
 - (void);
 - (int);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool)objectIdentifiers;
+- (id)vendorId;
+- (id));
+- (void)=;
 - (id);
 - (void);
 - (void)!LEù±ª)ð1Â0@ù
 × ;
-- (void)tReset;
+- (void)kCellularAccountReset;
 
 // Remaining properties
-@property(copy, nonatomic) CTXPCServiceSubscriptionContext *context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(nonatomic) int dstPort; // @synthesize dstPort=_dstPort;
-@property(copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
 @property(nonatomic) int portAddressingScheme; // @synthesize portAddressingScheme=_portAddressingScheme;
-@property(nonatomic) int smsType; // @synthesize smsType=_smsType;
-@property(copy, nonatomic) NSString *smscAddress; // @synthesize smscAddress=_smscAddress;
-@property(nonatomic) int srcPort; // @synthesize srcPort=_srcPort;
 
 @end
 

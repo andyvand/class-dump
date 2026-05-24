@@ -15,7 +15,7 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)effectiveBirthYear;
 - (unsigned long long);
 
 // Remaining properties

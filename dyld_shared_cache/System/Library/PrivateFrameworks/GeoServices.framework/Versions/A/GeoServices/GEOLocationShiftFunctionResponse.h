@@ -7,29 +7,23 @@
 @interface GEOLocationShiftFunctionResponse
 {
     CDStruct_2c43369c _originalCoordinate;
-    double _params[9];
-    double _radius;
-    _Bool _shouldUsePolyShiftFunction;
-    unsigned int _version;
 }
 
 + (_Bool)uteDetails does not at least 2 waypoints:%@ %{public}p /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (CDStruct_c3b9c2ee);
 - (CDStruct_c3b9c2ee);
 - (_Bool);
 - (id);
-- (id);
+- (id)downstreamScheduler;
 - (unsigned int);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
-- (double)onitorWithSource:toDestination:traceName:traits:routeAttributes:clientInfo: /* Error: Ran out of types for this method. */;
+- (double)monitorWithSource:toDestination:traceName:traits:routeAttributes:clientInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c3b9c2ee originalCoordinate; // @synthesize originalCoordinate=_originalCoordinate;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

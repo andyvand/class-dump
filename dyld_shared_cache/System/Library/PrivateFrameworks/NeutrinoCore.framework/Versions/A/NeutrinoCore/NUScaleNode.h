@@ -9,13 +9,11 @@
 @interface NUScaleNode : NUAbstractScaleNode
 {
     long long _sampleMode;
-    CDStruct_1e2b2e48 _targetScale;
-    CDStruct_1e2b2e48 _effectiveScale;
 }
 
 - (CDStruct_912cb5d2);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,7 +23,6 @@
 - (CDStruct_912cb5d2);
 
 // Remaining properties
-@property(readonly) CDStruct_912cb5d2 effectiveScale; // @synthesize effectiveScale=_effectiveScale;
 @property(readonly) CDStruct_912cb5d2 targetScale; // @synthesize targetScale=_targetScale;
 
 @end

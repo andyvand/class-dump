@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface NSError
 {
     void *_reserved;
-    long long _code;
-    NSString *_domain;
-    NSDictionary *_userInfo;
 }
 
 @end

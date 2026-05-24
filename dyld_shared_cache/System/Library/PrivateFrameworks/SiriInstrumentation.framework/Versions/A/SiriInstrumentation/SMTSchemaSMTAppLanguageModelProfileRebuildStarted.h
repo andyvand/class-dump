@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SMTSchemaSMTAppLanguageModelProfileRebuildStarted : SISchemaInstrumentationMessage
 {
     NSString *_appBundleId;
-    _Bool _hasAppBundleId;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)recordMetricsEventsForType:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABBookGroupAddMembersCommand;
+- (_Bool)IMDIndexing_CoreSpotlightMessageBodyIndexer;
 - (id);
 - (id);
 - (void);
-- (id)waysRequired;
-- (id)arityScores;
-- (id)UserId;
-- (void);
+- (id)deleteIsGenAIConfirmationAlwaysRequired;
+- (id)clearJrEntitySimilarityScores;
+- (id)_hasLoggableMultiUserSharedUserId;
+- (void)isCarPlayMuted;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

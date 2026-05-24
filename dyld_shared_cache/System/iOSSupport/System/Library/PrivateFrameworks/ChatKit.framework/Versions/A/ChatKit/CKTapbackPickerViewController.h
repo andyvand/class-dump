@@ -9,29 +9,12 @@
 @interface CKTapbackPickerViewController
 {
     id contentProvider;
-    void tapbackPickerViewControllerDelegate;
-    id tapbackPickerViewControllerEmojiKeyboardCellDelegate;
-    id tapbackPickerItems;
-    id selectedTapbackItemIdentifier;
-    id selectedTapbackBackgroundColor;
-    id _xPointForBoundaryBetweenSections;
-    id ckChatItem;
-    id gradientReferenceView;
-    id needsPresentationAnimation;
-    id $__lazy_storage_$_collectionView;
-    id $__lazy_storage_$_collectionViewLayout;
-    id $__lazy_storage_$_collectionViewDataSource;
-    id collectionViewTopConstraint;
-    id collectionViewBottomConstraint;
-    id sectionForPreferredContentSize;
-    id numberOfClassicItemsShown;
-    id numberOfItemsToPeek;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)setDisplayingTitle:(id)arg1;
+- (id)setDisclaimerHeightConstraint: /* Error: Ran out of types for this method. */;
+- (void)setDidShowExceededStorageQuotaAlert:(id)arg1 forNoteWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)inlineAttachmentFromObject:(id)arg1 createIfNecessary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

@@ -7,8 +7,6 @@
 @interface BlastDoor.XPCDecoder
 {
     id dataDecodingStrategy;
-    id uuidDecodingStrategy;
-    id userInfo;
 }
 
 @end

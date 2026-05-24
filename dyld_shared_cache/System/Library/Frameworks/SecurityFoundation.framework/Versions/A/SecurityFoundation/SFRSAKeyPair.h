@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     id _rsaKeyPairInternal;
 }
 
-- (id);
+- (id)r( ;
 - (id);
 - (void);
 

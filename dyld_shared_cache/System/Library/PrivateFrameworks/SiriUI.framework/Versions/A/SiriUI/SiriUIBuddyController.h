@@ -4,52 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceInfo, GMAnalyticsProvider, NSDictionary, NSImageView, NSLayoutConstraint, NSSet, NSString, NSView, NSViewController, OBTemplateView, SSRVoiceProfile, SiriUIBuddyAppleIntelligenceController, SiriUIBuddyChooseLanguageController, SiriUIBuddyChooseVoiceController, SiriUIBuddyEnableSiriController, SiriUIBuddyImproveSiriController, SiriUIBuddySummarizationController, SiriUIBuddyVoiceTriggerController, SiriUIBuddyVoiceTriggerIntroController, SiriUIBuddyVoiceTriggerOutroController, SiriUIRemoteDeviceBrowser;
-@protocol SiriUIBuddyDelegate, SiriUIBuddyInteractingHost, SiriUIBuddySubviewController, UNNotificationOnboardingViewModel;
+@class GMAnalyticsProvider, NSDictionary;
 
 @interface SiriUIBuddyController
 {
     GMAnalyticsProvider *_analyticsProvider;
-    long long _state;
-    NSViewController<SiriUIBuddySubviewController> *_currentPanelController;
-    SiriUIBuddyAppleIntelligenceController *_appleIntelligenceController;
-    SiriUIBuddySummarizationController *_summarizationController;
-    SiriUIBuddyEnableSiriController *_enableSiriController;
-    SiriUIBuddyChooseLanguageController *_chooseLanguageController;
-    SiriUIBuddyChooseVoiceController *_chooseVoiceController;
-    SiriUIBuddyVoiceTriggerController *_voiceTriggerController;
-    SiriUIBuddyVoiceTriggerIntroController *_voiceTriggerIntroController;
-    SiriUIBuddyVoiceTriggerOutroController *_voiceTriggerOutroController;
-    SiriUIBuddyImproveSiriController *_improveSiriController;
-    OBTemplateView *_templateView;
-    long long _voiceTrainingIntroSubstate;
-    _Bool _buddyShouldShowGreymatter;
-    _Bool _buddyShouldShowSummarization;
-    _Bool _buddyShouldShowSiri;
-    _Bool _paneTransitioning;
-    _Bool _enableSiri;
-    _Bool _skippedVoiceTrigger;
-    _Bool _shouldPresentDisclosureForCompactVoiceTrigger;
-    _Bool _isGMOnboardingFlow;
-    _Bool _isGMVelvetRopeFlow;
-    NSString *_userChosenSiriLanguageCode;
-    NSString *_effectiveSiriLanguageCode;
-    id <SiriUIBuddyDelegate> _delegate;
-    id <SiriUIBuddyInteractingHost> _host;
-    id <UNNotificationOnboardingViewModel> _notificationOnboardingViewModel;
-    NSDictionary *_userInfo;
-    NSLayoutConstraint *_viewHeightConstraint;
-    SSRVoiceProfile *_voiceProfileForTraining;
-    SiriUIRemoteDeviceBrowser *_remoteDeviceBrowser;
-    NSSet *_connectedDeviceIdentifiers;
-    AFVoiceInfo *_userChosenVoice;
 }
 
 + (id);
-+ (void)mand:completion: /* Error: Ran out of types for this method. */;
++ (void)_performGenericAceCommand:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,7 +56,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)*	;
 - (id);
 - (_Bool);
 - (id);
@@ -102,7 +68,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
@@ -122,13 +88,13 @@
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id)u;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (id);
-- (id);
+- (id)textBalloonViewAllowedLayoutActionForTextBalloonView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -144,31 +110,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *connectedDeviceIdentifiers; // @synthesize connectedDeviceIdentifiers=_connectedDeviceIdentifiers;
-@property(readonly) _Bool dataSharingPreviouslySpecified;
-@property __weak id <SiriUIBuddyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSString *effectiveSiriLanguageCode; // @synthesize effectiveSiriLanguageCode=_effectiveSiriLanguageCode;
-@property _Bool enableSiri; // @synthesize enableSiri=_enableSiri;
-@property(readonly) _Bool gmOptedIn;
-@property(readonly) __weak id <SiriUIBuddyInteractingHost> host; // @synthesize host=_host;
-@property(readonly) _Bool isGMOnboardingFlow; // @synthesize isGMOnboardingFlow=_isGMOnboardingFlow;
-@property(readonly) _Bool isGMVelvetRopeFlow; // @synthesize isGMVelvetRopeFlow=_isGMVelvetRopeFlow;
-@property(readonly) _Bool needsExtraWideContent;
-@property __weak id <UNNotificationOnboardingViewModel> notificationOnboardingViewModel; // @synthesize notificationOnboardingViewModel=_notificationOnboardingViewModel;
-@property(readonly) NSImageView *orbImageView;
-@property(retain, nonatomic) SiriUIRemoteDeviceBrowser *remoteDeviceBrowser; // @synthesize remoteDeviceBrowser=_remoteDeviceBrowser;
-@property(readonly) _Bool shouldPresentDisclosureForCompactVoiceTrigger; // @synthesize shouldPresentDisclosureForCompactVoiceTrigger=_shouldPresentDisclosureForCompactVoiceTrigger;
-@property(readonly) _Bool siriEnabled;
-@property(readonly) _Bool siriNewlyEnabled;
-@property(readonly) _Bool siriPreviouslyEnabled;
-@property _Bool skippedVoiceTrigger; // @synthesize skippedVoiceTrigger=_skippedVoiceTrigger;
-@property(readonly) OBTemplateView *templateView;
-@property(readonly) NSView *topContentOrbImageView;
-@property(retain) NSString *userChosenSiriLanguageCode; // @synthesize userChosenSiriLanguageCode=_userChosenSiriLanguageCode;
-@property(retain) AFVoiceInfo *userChosenVoice; // @synthesize userChosenVoice=_userChosenVoice;
 @property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property __weak NSLayoutConstraint *viewHeightConstraint; // @synthesize viewHeightConstraint=_viewHeightConstraint;
-@property(retain, nonatomic) SSRVoiceProfile *voiceProfileForTraining; // @synthesize voiceProfileForTraining=_voiceProfileForTraining;
 
 @end
 

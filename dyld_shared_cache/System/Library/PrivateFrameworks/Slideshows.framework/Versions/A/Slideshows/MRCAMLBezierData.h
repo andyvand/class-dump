@@ -7,15 +7,10 @@
 @interface MRCAMLBezierData
 {
     double ax;
-    double bx;
-    double cx;
-    double ay;
-    double by;
-    double cy;
 }
 
-- (double);
-- (double);
+- (double)initWithDirectoryAtPath:(double)arg1 preferredAssetPathExtension:(double)arg2;
+- (double)initWithDelegate:(double)arg1;
 - (double);
 - (double);
 - (double);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)C;
 
 @end
 

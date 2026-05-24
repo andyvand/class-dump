@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPDFPageView;
-
 @protocol UIPDFSelectionWidget
+- (struct CGRect);
+- (struct CGPoint);
 - (void)ìw;
 - (void)ed=%ld;
 - (void)RÉþÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;
 @property(readonly, nonatomic) struct CGPoint initialSelectionPointOnPage;
-@property(nonatomic) UIPDFPageView *pageView;
 @end
 

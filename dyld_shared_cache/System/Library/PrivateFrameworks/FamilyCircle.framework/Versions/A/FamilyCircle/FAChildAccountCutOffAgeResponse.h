@@ -10,15 +10,14 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)[S/;
 - (long long);
 - (id);
-- (id);
+- (id)setNearbyInfoV2InvitationCounter:(id)arg1;
 
 // Remaining properties
-@property(nonatomic, readonly) long long childCutOffAge;
 @property(nonatomic, readonly) NSString *childCutOffAgeLocalized;
 
 @end

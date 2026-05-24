@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface PLCPUEnergySnapshot
 {
     unsigned long long _cpuEnergy;
-    unsigned long long _cpuEnergyBilledToMe;
-    unsigned long long _cpuEnergyBilledToOthers;
-    NSMutableDictionary *_mockData;
 }
 
 + (void);
@@ -29,22 +24,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double)!;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)orts:(unsigned long long)arg1 %@.;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property unsigned long long cpuEnergy; // @synthesize cpuEnergy=_cpuEnergy;
-@property unsigned long long cpuEnergyBilledToMe; // @synthesize cpuEnergyBilledToMe=_cpuEnergyBilledToMe;
-@property unsigned long long cpuEnergyBilledToOthers; // @synthesize cpuEnergyBilledToOthers=_cpuEnergyBilledToOthers;
-@property(retain) NSMutableDictionary *mockData; // @synthesize mockData=_mockData;
 
 @end
 

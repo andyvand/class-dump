@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol _SGDSuggestManagerMetricsProtocol
+- (void);
 - (void)_findExistingSaltError:(NSString *)arg1;
 @end
 

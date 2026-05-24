@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSLock;
+@class NSLock;
 
 @interface _CDLastInFirstOutLock
 {
     NSLock *_workLock;
-    NSLock *_stateLock;
-    NSIndexPath *_requestStack;
-    unsigned long long _nextRequestId;
 }
 
 - (id);

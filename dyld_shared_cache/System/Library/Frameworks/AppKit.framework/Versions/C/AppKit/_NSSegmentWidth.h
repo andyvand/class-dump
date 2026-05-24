@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSegmentWidth
 {
     unsigned long long _index;
-    double _width;
-    double _temporaryWidth;
 }
 
 - (double);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long index; // @synthesize index=_index;
-@property double temporaryWidth; // @synthesize temporaryWidth=_temporaryWidth;
-@property double width; // @synthesize width=_width;
 
 @end
 

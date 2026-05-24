@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSValue;
+@class CIImage;
 
 @interface DGVignetteFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputIntensity;
-    NSNumber *inputType;
-    NSValue *inputExtent;
 }
 
 + (id);

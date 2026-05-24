@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, NSOrderedSet, _NSDiffableDataSourceSectionSnapshotState;
+@class _NSDiffableDataSourceSectionSnapshotState;
 
 @interface NSDiffableDataSourceSectionSnapshot
 {
     _NSDiffableDataSourceSectionSnapshotState *_state;
-    NSMutableArray *_expandedItemsUpdates;
-    NSMutableArray *_collapsedItemsUpdates;
 }
 
+- (id)e update, but it was not from one of our own devices From:%@, ID:%@ /* Error: Ran out of types for this method. */;
+- (id)a nickname update from:(id)arg1 %@, with message:(_Bool)arg2 %@;
+- (id)localized description:(id)arg1 %@;
+- (void)FilterMessagePipeline;
+- (id)InitialMessageSyncInitiated;
+- (void)isEligibleForTruthZoneOverride;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)u8;
 - (long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)|3;
 - (void);
 - (id);
-- (id);
+- (id)z;
 - (void);
 - (id);
 - (void);
@@ -43,15 +41,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)serverChatTotalCount;
+- (_Bool)AttachmentError;
 - (void);
 - (void);
 - (id);
@@ -59,9 +57,9 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool)ousSpellCheckingEnabled;
-- (id)ndaryAuxiliarySwitchState:(id)arg1;
-- (id)initWithMode:visiblePath:backgroundColor: /* Error: Ran out of types for this method. */;
+- (_Bool)continuousSpellCheckingEnabled;
+- (id)_setSecondaryAuxiliarySwitchState:(id)arg1;
+- (id)_initWithMode:visiblePath:backgroundColor: /* Error: Ran out of types for this method. */;
 - (id)sImpl;
 - (id)(0;
 - (void);
@@ -72,16 +70,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *_itemsOrderedSet;
-@property(readonly, nonatomic) NSArray *_rootItems;
 @property(readonly, nonatomic) _NSDiffableDataSourceSectionSnapshotState *_state;
-@property(readonly, nonatomic) NSIndexSet *_visibleIndexes;
-@property(readonly, nonatomic) NSOrderedSet *_visibleItemsOrderedSet;
-@property(readonly, nonatomic) NSArray *collapsedItemsUpdates;
-@property(readonly, nonatomic) NSArray *expandedItemsUpdates;
-@property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) NSArray *rootItems;
-@property(readonly, nonatomic) NSArray *visibleItems;
 
 @end
 

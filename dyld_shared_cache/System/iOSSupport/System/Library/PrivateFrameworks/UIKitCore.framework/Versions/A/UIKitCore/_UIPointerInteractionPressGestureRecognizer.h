@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)0@ù
 × ;
-- (_Bool);
-- (_Bool)dPasteboardTypesForTypes:(id)arg1;
-- (_Bool)gInViewsOfScaleChange;
-- (_Bool)OverflowedButtons;
+- (_Bool)startIgnoringData;
+- (_Bool)_detectedPasteboardTypesForTypes:(id)arg1;
+- (_Bool)_notifyPlugInViewsOfScaleChange;
+- (_Bool)overflowContainsOverflowedButtons;
 
 @end
 

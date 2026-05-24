@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface EDChartSheet : EDSheet
 {
     CHDChart *mMainChart;
-    _Bool mIsBoundsSet;
-    struct CGRect mBounds;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGRect);
 - (void);

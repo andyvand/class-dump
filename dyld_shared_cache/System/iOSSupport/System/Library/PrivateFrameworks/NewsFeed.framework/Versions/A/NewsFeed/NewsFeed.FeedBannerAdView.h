@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedBannerAdView
 {
     id bannerView;
-    id $__lazy_storage_$_debugView;
 }
 
 - (id);

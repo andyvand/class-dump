@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCMediaStreamNegotiatorSettingsRemoteCamera : AVCMediaStreamNegotiatorSettings
 {
     long long _captureSource;
-    _Bool _isDisparityPixelFormat;
 }
 
 + (_Bool);

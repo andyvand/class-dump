@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CDPDNetworkObserver
 {
     _Bool _networkIsReachable;
-    NSLock *_clientsLock;
-    NSMutableDictionary *_clientsByUUID;
-    struct __SCNetworkReachability *_networkReach;
-    NSObject<OS_dispatch_queue> *_eventQueue;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
++ (id)%;
+- (void)TitleAndStackViewController;
+- (id)RoundedWindow;
+- (void)PasswordsExporter;
 - (void);
 - (id);
 - (void);

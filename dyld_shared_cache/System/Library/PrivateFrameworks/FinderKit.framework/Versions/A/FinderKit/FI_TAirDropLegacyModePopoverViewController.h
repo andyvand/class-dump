@@ -6,26 +6,21 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TAirDropDiscoveryController, FI_TButton, FI_TPopoverController, FI_TTextField, NSString;
+@class FI_TAirDropDiscoveryController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropLegacyModePopoverViewController : FI_TViewController
 {
     FI_TAirDropDiscoveryController *_discoveryController;
-    struct TKeyValueObserver _legacyModeEnabledObserver;
-    struct TKeyValueObserver _legacyMachineObserver;
-    FI_TPopoverController *_popoverController;
-    FI_TTextField *_messageTextField;
-    FI_TButton *_toggleLegacyModeButton;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)6;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setHasBeenCollected: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -36,10 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *buttonTitle;
 @property(readonly) FI_TAirDropDiscoveryController *discoveryController; // @synthesize discoveryController=_discoveryController;
-@property(readonly, nonatomic) _Bool isButtonEnabled;
-@property(readonly, retain, nonatomic) NSString *messageText;
 
 @end
 

@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (_Bool);
+- (id)4;
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)ojiFoundation.framework/Versions/A/EmojiFoundation;
+- (id)"16q24q32d40;
+- (unsigned long long)ansportControlsWidth;
+- (void)equest to Jingle for %@ is in-flight.;
 - (_Bool);
 - (void);
 - (id);

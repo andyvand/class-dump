@@ -7,7 +7,8 @@
 @protocol CAAnimatableValue
 
 @optional
-- (double)ary;
+- (id)|%;
+- (double)infoDictionary;
 - (id)TB,GisInstalled;
 @end
 

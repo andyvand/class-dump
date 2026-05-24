@@ -9,12 +9,6 @@
 @interface MacMigrationDaemonCoreAdditions
 {
     NSXPCListener *_selectSourceListener;
-    NSXPCListener *_customizeListener;
-    NSXPCListener *_progressListener;
-    NSXPCListener *_debugListener;
-    NSXPCListener *_odUtilsListener;
-    NSXPCListener *_pairingListener;
-    NSXPCListener *_managementListener;
 }
 
 - (void);
@@ -40,12 +34,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSXPCListener *customizeListener; // @synthesize customizeListener=_customizeListener;
-@property(retain) NSXPCListener *debugListener; // @synthesize debugListener=_debugListener;
-@property(retain) NSXPCListener *managementListener; // @synthesize managementListener=_managementListener;
-@property(retain) NSXPCListener *odUtilsListener; // @synthesize odUtilsListener=_odUtilsListener;
-@property(retain) NSXPCListener *pairingListener; // @synthesize pairingListener=_pairingListener;
-@property(retain) NSXPCListener *progressListener; // @synthesize progressListener=_progressListener;
 @property(retain) NSXPCListener *selectSourceListener; // @synthesize selectSourceListener=_selectSourceListener;
 
 @end

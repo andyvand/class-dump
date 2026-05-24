@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRShowRemindersInListMonitorableDataView
 {
     id list;
-    id showCompleted;
-    id countCompleted;
-    id sortingStyle;
-    id remindersToPrefetchCount;
 }
 
 @end

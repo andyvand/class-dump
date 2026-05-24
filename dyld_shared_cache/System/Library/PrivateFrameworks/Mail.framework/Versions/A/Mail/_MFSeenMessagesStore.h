@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSPersistentStoreCoordinator, NSString;
+@class NSPersistentStoreCoordinator;
 
 @interface _MFSeenMessagesStore
 {
     NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSString *_persistentStorePath;
-    NSEntityDescription *_accountEntity;
-    NSEntityDescription *_seenMessageEntity;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)modificationSequence;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSEntityDescription *accountEntity; // @synthesize accountEntity=_accountEntity;
 @property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(readonly, copy, nonatomic) NSString *persistentStorePath; // @synthesize persistentStorePath=_persistentStorePath;
-@property(retain, nonatomic) NSEntityDescription *seenMessageEntity; // @synthesize seenMessageEntity=_seenMessageEntity;
 
 @end
 

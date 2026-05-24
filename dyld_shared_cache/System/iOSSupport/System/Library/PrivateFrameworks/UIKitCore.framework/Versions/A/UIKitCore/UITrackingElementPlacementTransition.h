@@ -4,62 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewAnimationStyle, UIInputViewSetNotificationInfo, UIInputViewSetPlacement;
-@protocol NSObject, UIInputViewAnimationController;
+@class UIInputViewSetPlacement;
 
 __attribute__((visibility("hidden")))
 @interface UITrackingElementPlacementTransition
 {
     _Bool cancelled;
-    int animationState;
-    UIInputViewSetPlacement *fromPlacement;
-    UIInputViewSetPlacement *toPlacement;
-    UIInputViewAnimationStyle *animationStyle;
-    UIInputViewSetNotificationInfo *notificationInfo;
-    unsigned long long notifications;
-    id <NSObject> animationContext;
-    id <UIInputViewAnimationController> animationController;
-    struct CGRect lastKnownKeyboardFrame;
 }
 
 + (id);
 + (id);
 - (void);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)@;
 - (int);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)lic}@:(id)arg1 setupPlaybackInfo called without an asset loaded;
+- (id)ld;
 - (void);
 - (void);
 - (_Bool);
 - (void)\ð1Â0@ù
 × ;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (id)eLabel;
-- (id)rterHeightWhenCompactVertically: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)teGesture:(id)arg1;
+- (id)titleViewChangedHeight: /* Error: Ran out of types for this method. */;
+- (id)timeLabel;
+- (id)setDismissActionUsesShorterHeightWhenCompactVertically: /* Error: Ran out of types for this method. */;
+- (id)initialState;
+- (void)completeGesture:(id)arg1;
 - (id);
 - (void)nt for %@. To control the document created for %@, implement -[UIDocumentBrowserViewControllerDelegate documentBrowser:(_Bool)arg1 didRequestDocumentCreationWithHandler:]. /* Error: Ran out of types for this method. */;
 - (void);êÿ #þ(þÿ;
-- (void)rastChangedNotification;
+- (void)UIAccessibilityEnhanceBackgroundContrastChangedNotification;
 - (void)Xÿ¨ÿQáô;
 - (unsigned long long)!a;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> animationContext; // @synthesize animationContext;
-@property(retain, nonatomic) id <UIInputViewAnimationController> animationController; // @synthesize animationController;
-@property(nonatomic) int animationState; // @synthesize animationState;
-@property(retain, nonatomic) UIInputViewAnimationStyle *animationStyle; // @synthesize animationStyle;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled;
 @property(retain, nonatomic) UIInputViewSetPlacement *fromPlacement; // @synthesize fromPlacement;
-@property(nonatomic) struct CGRect lastKnownKeyboardFrame; // @synthesize lastKnownKeyboardFrame;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *notificationInfo; // @synthesize notificationInfo;
-@property(nonatomic) unsigned long long notifications; // @synthesize notifications;
-@property(retain, nonatomic) UIInputViewSetPlacement *toPlacement; // @synthesize toPlacement;
 
 @end
 

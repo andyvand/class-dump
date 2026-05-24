@@ -7,6 +7,7 @@
 @class UIImage;
 
 @protocol TSSharedImageCacheType
+- (void)_TtC17MediaPlaybackCore19BookmarkingConsumer;
 - (UIImage *);
 @end
 

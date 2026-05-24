@@ -10,8 +10,8 @@
 {
 }
 
-+ (void);
-+ (void)rView;
++ (void);
++ (void)_UINSColorPickerView;
 - (void);
 - (void);
 - (void)_FBSDisplayConfigurationConnected:(long long)arg1 andNotify:forceMain: /* Error: Ran out of types for this method. */;

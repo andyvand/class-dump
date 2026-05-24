@@ -9,21 +9,19 @@
 @interface AVTUIStyle
 {
     UIColor *_backgroundColor;
-    UIColor *_textColor;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)&,V_flags;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

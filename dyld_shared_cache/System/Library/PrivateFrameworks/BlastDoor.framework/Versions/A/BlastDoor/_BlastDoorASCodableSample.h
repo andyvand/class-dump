@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _BlastDoorASCodableSample
 {
     double _endDate;
-    double _startDate;
-    NSData *_uuid;
-    struct {
-        unsigned int endDate:1;
-        unsigned int startDate:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)cancelAttentionTimer;
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void);
+- (id)!c;
 - (id);
-- (id);
-- (id)sharingInvitationData;
+- (id)_sharingInvitationData;
 - (void);
 - (void);
 - (_Bool);
@@ -41,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool hasEndDate;
-@property(nonatomic) _Bool hasStartDate;
 @property(readonly, nonatomic) _Bool hasUuid;
-@property(nonatomic) double startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSData *uuid; // @synthesize uuid=_uuid;
 
 @end
 

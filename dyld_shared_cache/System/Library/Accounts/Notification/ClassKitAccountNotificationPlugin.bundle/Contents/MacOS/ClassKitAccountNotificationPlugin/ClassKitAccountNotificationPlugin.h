@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSEndpointConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CLSEndpointConnection;
 
 @interface ClassKitAccountNotificationPlugin
 {
     CLSEndpointConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (id);
+- (id)pSjn;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

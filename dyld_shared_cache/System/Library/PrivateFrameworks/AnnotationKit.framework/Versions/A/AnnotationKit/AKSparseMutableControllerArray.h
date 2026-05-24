@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (id);
+- (void)ace=}32@40;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (void);
 - (void);

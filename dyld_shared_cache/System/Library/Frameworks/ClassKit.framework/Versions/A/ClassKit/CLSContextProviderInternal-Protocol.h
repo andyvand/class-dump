@@ -5,5 +5,8 @@
 //
 
 @protocol CLSContextProviderInternal
+- (void);
+- (void)exit
+;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMUserInviteInformation.h>
 
-@class HMRestrictedGuestHomeAccessSettings, NSString;
+@class HMRestrictedGuestHomeAccessSettings;
 
 @interface HMMutableUserInviteInformation : HMUserInviteInformation
 {
@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy) HMRestrictedGuestHomeAccessSettings *restrictedGuestHomeAccessSettings; // @dynamic restrictedGuestHomeAccessSettings;
-@property(copy) NSString *userID; // @dynamic userID;
 
 @end
 

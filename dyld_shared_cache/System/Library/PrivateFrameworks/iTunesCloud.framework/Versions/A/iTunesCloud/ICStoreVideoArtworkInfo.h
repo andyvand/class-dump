@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICStoreVideoArtworkInfo
 {
     NSDictionary *_aspectRatioToCRABSVideoDictionaries;
-    NSDictionary *_aspectRatioToHLSVideoURL;
-    NSDictionary *_aspectRatioToPreviewFrameArtworkInfo;
-    NSString *_stringRepresentation;
-    NSDictionary *_responseDictionary;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ring"32;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void)md5;
@@ -34,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, copy, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
 
 @end
 

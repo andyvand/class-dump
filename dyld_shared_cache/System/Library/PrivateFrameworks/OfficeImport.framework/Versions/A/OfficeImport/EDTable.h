@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDReference, EDResources, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDTable
 {
     EDResources *mResources;
-    unsigned long long mStyleIndex;
-    unsigned long long mHeaderRowDxfIndex;
-    unsigned long long mTotalsRowDxfIndex;
-    unsigned long long mDataAreaDxfIndex;
-    unsigned long long mHeaderRowBorderDxfIndex;
-    unsigned long long mTotalsRowBorderDxfIndex;
-    unsigned long long mDataAreaBorderDxfIndex;
-    unsigned long long mTableBorderDxfIndex;
-    NSString *mName;
-    NSString *mDisplayName;
-    EDReference *mTableRange;
-    NSString *mStyleName;
-    unsigned long long mHeaderRowCount;
-    unsigned long long mTotalsRowCount;
-    _Bool mShowFirstColumn;
-    _Bool mShowLastColumn;
-    _Bool mShowRowStripes;
-    _Bool mShowColumnStripes;
-    EDCollection *mTableColumns;
-    EDCollection *mColumnFilters;
 }
 
 + (id);
@@ -37,58 +17,58 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)	;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (_Bool));
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (void);
+- (void);
+- (void)*	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)SavePasswordDisabled;
 - (id);
 - (void);
-- (void)eIndex:(id)arg1;
+- (void)setStyleIndex:(id)arg1;
 - (void);
 
 @end

@@ -9,11 +9,6 @@
 @interface MLCEmbeddingDescriptor
 {
     _Bool _scalesGradientByFrequency;
-    NSNumber *_embeddingCount;
-    NSNumber *_embeddingDimension;
-    NSNumber *_paddingIndex;
-    NSNumber *_maximumNorm;
-    NSNumber *_pNorm;
 }
 
 + (id);
@@ -21,9 +16,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)�;
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,11 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *embeddingCount; // @synthesize embeddingCount=_embeddingCount;
-@property(readonly, nonatomic) NSNumber *embeddingDimension; // @synthesize embeddingDimension=_embeddingDimension;
-@property(readonly, nonatomic) NSNumber *maximumNorm; // @synthesize maximumNorm=_maximumNorm;
-@property(readonly, nonatomic) NSNumber *pNorm; // @synthesize pNorm=_pNorm;
-@property(readonly, nonatomic) NSNumber *paddingIndex; // @synthesize paddingIndex=_paddingIndex;
-@property(readonly, nonatomic) _Bool scalesGradientByFrequency; // @synthesize scalesGradientByFrequency=_scalesGradientByFrequency;
 
 @end
 

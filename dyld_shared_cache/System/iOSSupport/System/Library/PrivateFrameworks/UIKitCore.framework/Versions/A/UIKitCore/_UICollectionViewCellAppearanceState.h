@@ -8,21 +8,18 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionViewCellAppearanceState
 {
     _Bool _hasLifted;
-    _Bool _hasBeganCancelling;
-    _Bool _prefersGhostedDraggedAppearance;
-    int _dragState;
 }
 
 - (void);
+- (void):(_Bool)arg1 notificationBody:draftTitle:problemDescription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
+- (void)runUntilDate:(_Bool)arg1;
+- (void)richBody;
+- (_Bool)DMap;
+- (_Bool)numberWithChar: /* Error: Ran out of types for this method. */;
+- (_Bool)V_activeNicknameRecords;
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
@@ -39,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (int)16@?20;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long appearance;
 @property(nonatomic) int dragState; // @synthesize dragState=_dragState;
-@property(readonly, nonatomic) _Bool enrouteToOrReachedTerminalState;
-@property(nonatomic) _Bool hasBeganCancelling; // @synthesize hasBeganCancelling=_hasBeganCancelling;
-@property(readonly, nonatomic) _Bool hasBeganDroppingInto;
-@property(nonatomic) _Bool hasLifted; // @synthesize hasLifted=_hasLifted;
-@property(nonatomic) _Bool prefersGhostedDraggedAppearance; // @synthesize prefersGhostedDraggedAppearance=_prefersGhostedDraggedAppearance;
 
 @end
 

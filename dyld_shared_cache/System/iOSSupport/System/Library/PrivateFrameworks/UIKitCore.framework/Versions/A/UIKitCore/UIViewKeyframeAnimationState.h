@@ -6,27 +6,20 @@
 
 #import <UIKitCore/UIViewAnimationState.h>
 
-@class NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface UIViewKeyframeAnimationState : UIViewAnimationState
 {
     double _frameDuration;
-    double _frameStartTime;
-    long long _calculationMode;
-    NSMutableSet *_keyframeLayers;
-    NSMutableDictionary *_keyframeLayersForCurrentKeyFrameDict;
-    _Bool _inFrame;
 }
 
-- (_Bool);
+- (_Bool)"24@0:8@"UISplitViewController"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id)sWindowSupportedAndPreferredOrientationsChanged"b1"delegateSupportsDeprecatedWindowSupportedOrientationsChanged"b1};
 - (void)code path is a UIKit bug.;
-- (id)nizedTextInfo;
+- (id)recognizedTextInfo;
 - (void)tÕ_;
 - (void)e;
 

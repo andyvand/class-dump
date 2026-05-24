@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSURLDirectoryEnumerator : NSDirectoryEnumerator
 {
     struct __CFURLEnumerator *_enumerator;
-    CDUnknownBlockType _errorHandler;
-    _Bool shouldContinue;
-    _Bool isPostOrderDirectory;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id)r;
+- (id)observer;
 - (id);
 - (CDUnknownBlockType);
 - (unsigned long long);

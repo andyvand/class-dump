@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UITextViewSearchableObject;
+@class NSTextRange, _UITextViewSearchableObject;
 
 @protocol _UITextLayoutControllerInternal
+- (NSTextRange *);
 - (_UITextViewSearchableObject *)iew does not support multi-level capture dependents;
 @end
 

@@ -7,7 +7,8 @@
 @class HAPKeychainItem, NSArray, NSDictionary;
 
 @protocol HAPSystemKeychainStore
-- (NSArray *)completion:(NSDictionary *)arg1;
+- (HAPKeychainItem *);
+- (NSArray *)writeSetupEndPoint:(NSDictionary *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool)apshot but it was nil;
 - (NSArray *)sory %@ already used in another media system %@;
 - (_Bool)UUID is absent in bulletin context:(HAPKeychainItem *)arg1 %@;

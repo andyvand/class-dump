@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol HAP2EncodedCharacteristicRequest
+- (NSArray *)|;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *characteristics;

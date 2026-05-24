@@ -9,7 +9,6 @@
 @interface IKImageEditFrameToolbar
 {
     NSView *_buttonContainer;
-    id _delegate;
 }
 
 - (id);

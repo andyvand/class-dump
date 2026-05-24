@@ -7,21 +7,10 @@
 @interface AWDWRMAntSelPolicyStats
 {
     unsigned long long _timestamp;
-    unsigned int _issueBand;
-    unsigned int _issueType;
-    _Bool _hasAntConstraint;
-    _Bool _isCoexBand;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int issueBand:1;
-        unsigned int issueType:1;
-        unsigned int hasAntConstraint:1;
-        unsigned int isCoexBand:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,11 +23,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -51,16 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasAntConstraint; // @synthesize hasAntConstraint=_hasAntConstraint;
-@property(nonatomic) _Bool hasHasAntConstraint;
-@property(nonatomic) _Bool hasIsCoexBand;
-@property(nonatomic) _Bool hasIssueBand;
-@property(nonatomic) _Bool hasIssueType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isCoexBand; // @synthesize isCoexBand=_isCoexBand;
-@property(nonatomic) unsigned int issueBand; // @synthesize issueBand=_issueBand;
-@property(nonatomic) unsigned int issueType; // @synthesize issueType=_issueType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

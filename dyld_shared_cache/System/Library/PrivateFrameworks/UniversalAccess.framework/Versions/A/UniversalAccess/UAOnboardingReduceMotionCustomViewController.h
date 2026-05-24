@@ -4,59 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSImageView, UAOnboardingReduceMotionPlayButtonView;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingReduceMotionCustomViewController
 {
     _Bool _shouldDisplayReduceMotionAnimation;
-    NSImage *__oneDotImage;
-    NSImage *__movingDotsImage;
-    NSImageView *__dotImageView;
-    NSImageView *__movingDotsImageView;
-    NSImageView *__reduceMotionBackgroundView;
-    NSButton *__playButton;
-    UAOnboardingReduceMotionPlayButtonView *__playButtonView;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)pe"b1"score"b1};
+- (void)";
+- (void)ent";
+- (void)ent";
+- (void)ientEvent";
+- (void)Event";
+- (void)t";
+- (id)d"b1"responseTokensCount"b1"kbPerSecond"b1"responseKbCount"b1"imagePerSecond"b1"imageCount"b1"timeToFirstTokenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (void)ted";
+- (void)emaGATRichFormatResponseMetadataCaptured";
+- (void)GATSchemaGATPresentConfirmationSnippetEvent";
+- (void)ATSchemaGATRegisterMediaContext";
+- (id)"promptStatus"b1};
+- (void)ionResolutionState"b1};
+- (id)maFLTaskOutcome";
+- (id)ction";
+- (id)ionEnded";
 - (id);
+- (id)n";
+- (void)FLActionEvaluationEnded";
+- (void)extContentMetadata";
+- (id)na"b1"isSummarized"b1"summarySourceType"b1};
+- (void)SenderShortCode"b1"isLongMessage"b1"isReply"b1"appendingActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)'K
+;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *_dotImageView; // @synthesize _dotImageView=__dotImageView;
-@property(retain, nonatomic) NSImage *_movingDotsImage; // @synthesize _movingDotsImage=__movingDotsImage;
-@property(retain, nonatomic) NSImageView *_movingDotsImageView; // @synthesize _movingDotsImageView=__movingDotsImageView;
 @property(retain, nonatomic) NSImage *_oneDotImage; // @synthesize _oneDotImage=__oneDotImage;
-@property(retain, nonatomic) NSButton *_playButton; // @synthesize _playButton=__playButton;
-@property(retain, nonatomic) UAOnboardingReduceMotionPlayButtonView *_playButtonView; // @synthesize _playButtonView=__playButtonView;
-@property(retain, nonatomic) NSImageView *_reduceMotionBackgroundView; // @synthesize _reduceMotionBackgroundView=__reduceMotionBackgroundView;
-@property(nonatomic) _Bool shouldDisplayReduceMotionAnimation; // @synthesize shouldDisplayReduceMotionAnimation=_shouldDisplayReduceMotionAnimation;
 
 @end
 

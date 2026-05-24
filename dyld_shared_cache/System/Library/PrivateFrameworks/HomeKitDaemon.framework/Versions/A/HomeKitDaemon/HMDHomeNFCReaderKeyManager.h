@@ -4,26 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDHome, HMDHomeWalletKeyAccessoryManager, HMFMessageDispatcher, NAFuture, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol HAPSystemKeychainStore, HMDHomeWalletDataSource, OS_dispatch_queue;
+@class HMDHomeWalletKeyAccessoryManager, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeNFCReaderKeyManager
 {
     HMDHomeWalletKeyAccessoryManager *_accessoryManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HAPSystemKeychainStore> _keychainStore;
-    NSUUID *_uuid;
-    HMDHome *_home;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDHomeWalletDataSource> _dataSource;
-    NAFuture *_createKeychainItemFuture;
-    NSMutableSet *_keyIdentifiersAlreadyUpdated;
 }
 
 + (double);
 + (id)bí;
 - (void);
+- (void)dTripCapabilityFetchingQueue"16@"NSDictionary"24;
+- (void)instanceMethodForSelector:(id)arg1;
+- (void)departuresAreVehicleSpecific;
+- (id)deleteHistorySyncedMarkerFile;
+- (void)dataWithPropertyList:(id)arg1 format:(id)arg2 options:(CDUnknownBlockType)arg3 error: /* Error: Ran out of types for this method. */;
+- (void)artworkSourceTypeAsString:(id)arg1;
+- (id)_fetchSharingIdentityWithCompletion:(id)arg1;
+- (void)@"NSUUID",C,N;
+- (id)rage;
+- (id)mory pressure?). Perform an initial load and postpone the access.;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,35 +39,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)dictionaryWithStyle: /* Error: Ran out of types for this method. */;
+- (id)bk;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id)!Gù°1Â0@ù
 × ;
-- (void)xpiredActionSetPrimaryStateUpdates;
+- (void)_clearExpiredActionSetPrimaryStateUpdates;
 - (id)nt selection - Received initial Resident Status Channel state.;
 - (id)led to update Core Data with settings model, error:%@ /* Error: Ran out of types for this method. */;
 - (void)PAccessory);
@@ -68,27 +60,6 @@ __attribute__((visibility("hidden")))
 - (void)àA;
 
 // Remaining properties
-@property(readonly) HMDHomeWalletKeyAccessoryManager *accessoryManager; // @synthesize accessoryManager=_accessoryManager;
-@property(retain) NAFuture *createKeychainItemFuture; // @synthesize createKeychainItemFuture=_createKeychainItemFuture;
-@property(readonly) id <HMDHomeWalletDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(retain) NSMutableSet *keyIdentifiersAlreadyUpdated; // @synthesize keyIdentifiersAlreadyUpdated=_keyIdentifiersAlreadyUpdated;
-@property(readonly) id <HAPSystemKeychainStore> keychainStore; // @synthesize keychainStore=_keychainStore;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) HMDDevice *primaryResidentDevice;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

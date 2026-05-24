@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityBurstsPlugin
 {
     id name;
-    id timeSource;
-    id interval;
 }
 
 @end

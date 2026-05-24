@@ -5,5 +5,9 @@
 //
 
 @protocol UISplitViewControllerDelegatePrivate
+
+@optional
+- (void)Rʈ;
+- (_Bool);
 @end
 

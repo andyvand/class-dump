@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)imestamp"b1"txAMPDUDensity"b1"txCompBytes"b1"txCompPkts"b1"txDelayBytes"b1"txExpectedAMPDUDensity"b1"txFails"b1"txFrames"b1"txLowFrameCountFalse"b1"txLowFrameCountTrue"b1"txOutputBelowExpectedFalse"b1"txOutputBelowExpectedTrue"b1"txOutputBelowInputFalse"b1"txOutputBelowInputTrue"b1"txPhyRate"b1"txQueueFullFalse"b1"txQueueFullTrue"b1"txRetries"b1"txSubBytes"b1"txSubPkts"b1};
+- (void)setRxcrsglitch:(id)arg1;
 - (id);
-- (id)haringDict:(id)arg1 displayInformation: /* Error: Ran out of types for this method. */;
+- (id)initWithFormat:(id)arg1 type:genericSharingDict:appleSharingDict:displayInformation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long recipientData; // @synthesize recipientData=_recipientData;

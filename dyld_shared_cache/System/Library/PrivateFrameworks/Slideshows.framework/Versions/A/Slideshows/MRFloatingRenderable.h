@@ -11,21 +11,9 @@
 @interface MRFloatingRenderable : MUPoolObject
 {
     MRSlideProvider *provider;
-    MRImage *slide;
-    struct CGSize size;
-    double shadowWidth;
-    double shadowHeight;
-    unsigned long long vboOffsetPlain;
-    unsigned long long vboOffsetSoft;
-    unsigned long long vboOffsetShadow;
-    double aspectRatio;
-    double scale;
-    struct CGPoint bottomLeft;
-    struct CGPoint topRight;
-    MRFloatingRenderable *next;
 }
 
-+ (CDStruct_32b7e343 *);
++ (CDStruct_32b7e343 *);
 + (void)ÈG;
 - (void);
 - (void);

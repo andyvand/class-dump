@@ -5,6 +5,6 @@
 //
 
 @protocol CKModifyRecordZonesOperationCallbacks
-- (void)t;
+- (void)CKSignpost;
 @end
 

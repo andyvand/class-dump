@@ -6,16 +6,12 @@
 
 #import <OnBoardingKit/OBPrivacyCombinedController.h>
 
-@class NSArray, UIStackView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface OBPrivacyCombinedController_Catalyst : OBPrivacyCombinedController
 {
     _Bool _isUnifiedAbout;
-    _Bool _presentingUnifiedAbout;
-    NSArray *_bundles;
-    NSArray *_privacyFlowGroups;
-    UIStackView *_stackView;
 }
 
 - (void);
@@ -29,24 +25,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)f>;
+- (void);
+- (id)"D;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)bPrivacy:%@ /* Error: Ran out of types for this method. */;
+- (void)) (%{public}lu %{public}s) in %{public}s world;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)40;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bundles; // @synthesize bundles=_bundles;
-@property _Bool isUnifiedAbout; // @synthesize isUnifiedAbout=_isUnifiedAbout;
-@property _Bool presentingUnifiedAbout; // @synthesize presentingUnifiedAbout=_presentingUnifiedAbout;
-@property(retain) NSArray *privacyFlowGroups; // @synthesize privacyFlowGroups=_privacyFlowGroups;
-@property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

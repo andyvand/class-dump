@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLBuffer;
 
 @interface MTKTextureIOBuffer
@@ -14,20 +13,13 @@
 
 - (id);
 - (id);
+- (id)ntInCompact;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)insertedRows;
+- (id)g;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

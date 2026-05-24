@@ -9,7 +9,6 @@
 @interface CRKASMAtomicRosterConstraint
 {
     NSUUID *_identifier;
-    CDUnknownBlockType _rosterEvaluator;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDUnknownBlockType rosterEvaluator; // @synthesize rosterEvaluator=_rosterEvaluator;
 
 @end
 

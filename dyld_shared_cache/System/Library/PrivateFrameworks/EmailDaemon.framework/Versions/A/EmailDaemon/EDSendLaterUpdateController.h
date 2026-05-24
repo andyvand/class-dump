@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDOutgoingMessageRepository, EDQueryCreator, EFXPCAlarm, NSDate, NSObject, NSString;
-@protocol EDMessageChangeHookResponder, EDSendLaterUpdateControllerAlarmDateProvider, OS_dispatch_queue;
+@class EDMessagePersistence, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EDSendLaterUpdateController
 {
     NSObject<OS_dispatch_queue> *_alarmQueue;
-    EDMessagePersistence *_messagePersistence;
-    EDOutgoingMessageRepository *_outgoingRepository;
-    id <EDMessageChangeHookResponder> _hookResponder;
-    EDQueryCreator *_sendLaterQueryCreator;
-    id <EDSendLaterUpdateControllerAlarmDateProvider> _alarmDateProvider;
-    EFXPCAlarm *_xpcAlarm;
 }
 
 + (id);
+- (id)C;
+- (void);
+- (void)SError"16;
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)setRxStartOverDecodingAttemptsPercentage:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (void)dPersistence_StatementCache preparedStatementForQueryString:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDSendLaterUpdateControllerAlarmDateProvider> alarmDateProvider; // @synthesize alarmDateProvider=_alarmDateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <EDMessageChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(retain, nonatomic) NSDate *nextAlarmDate;
-@property(readonly, nonatomic) EDOutgoingMessageRepository *outgoingRepository; // @synthesize outgoingRepository=_outgoingRepository;
-@property(retain, nonatomic) EDQueryCreator *sendLaterQueryCreator; // @synthesize sendLaterQueryCreator=_sendLaterQueryCreator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) EFXPCAlarm *xpcAlarm; // @synthesize xpcAlarm=_xpcAlarm;
 
 @end
 

@@ -7,21 +7,17 @@
 @interface ProcessMonitorStats
 {
     _Bool _shared_cache_reslid;
-    unsigned long long _cpu_time;
-    unsigned long long _cpu_time_diff;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
 @property unsigned long long cpu_time; // @synthesize cpu_time=_cpu_time;
-@property unsigned long long cpu_time_diff; // @synthesize cpu_time_diff=_cpu_time_diff;
-@property _Bool shared_cache_reslid; // @synthesize shared_cache_reslid=_shared_cache_reslid;
 
 @end
 

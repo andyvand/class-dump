@@ -8,23 +8,17 @@ __attribute__((visibility("hidden")))
 @interface AVPanGestureIncrement
 {
     _Bool _hasMultipleTouches;
-    double _timestamp;
-    struct CGPoint _translation;
-    struct CGPoint _velocity;
 }
 
-+ (id);
++ (id)3;
 - (_Bool);
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
-- (id);
+- (id)initWithParticipantClientIdentifier:lookupInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMultipleTouches; // @synthesize hasMultipleTouches=_hasMultipleTouches;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) struct CGPoint translation; // @synthesize translation=_translation;
-@property(readonly, nonatomic) struct CGPoint velocity; // @synthesize velocity=_velocity;
 
 @end
 

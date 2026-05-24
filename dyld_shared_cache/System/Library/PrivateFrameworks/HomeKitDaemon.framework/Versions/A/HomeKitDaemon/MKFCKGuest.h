@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, HAPPairingIdentity, MKFCKHome, NSArray, NSDate, NSSet, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKGuest : MKFCKHomeObject
@@ -15,42 +15,22 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
++ (id)der data:(id)arg1 %@;
++ (id)nitialized device authentication session!;
 + (id);
-+ (id);
-+ (id);
+- (_Bool)etaController:(id)arg1 sharedTripDidBecomeUnavailable:(id)arg2;
+- (_Bool)Y] Did send message {identifier:(id)arg1 %{public}@, success:(id)arg2 %@, error:(id)arg3 %@ context %@};
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountHandle; // @dynamic accountHandle;
-@property(retain, nonatomic) NSSet *allowedAccessories; // @dynamic allowedAccessories;
-@property(nonatomic) long long announceAccessLevel; // @dynamic announceAccessLevel;
-@property(retain, nonatomic) NSSet *automations; // @dynamic automations;
-@property(nonatomic) long long camerasAccessLevel; // @dynamic camerasAccessLevel;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSString *homeAccessCode; // @dynamic homeAccessCode;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSString *idsMergeIdentifier; // @dynamic idsMergeIdentifier;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(retain, nonatomic) HAPPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(nonatomic) long long privilege; // @dynamic privilege;
-@property(nonatomic) _Bool remoteAccessAllowed; // @dynamic remoteAccessAllowed;
-@property(retain, nonatomic) CKRecordID *reverseShareID; // @dynamic reverseShareID;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken; // @dynamic reverseShareToken;
-@property(nonatomic) long long uniqueIDForAccessories; // @dynamic uniqueIDForAccessories;
-@property(retain, nonatomic) NSArray *weekDayScheduleRules; // @dynamic weekDayScheduleRules;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
-@property(retain, nonatomic) NSArray *yearDayScheduleRules; // @dynamic yearDayScheduleRules;
 
 @end
 

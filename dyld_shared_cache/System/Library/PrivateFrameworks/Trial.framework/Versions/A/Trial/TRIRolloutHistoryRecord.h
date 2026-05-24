@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-@protocol TRIFactorPackSetId;
+@class NSDate;
 
 @interface TRIRolloutHistoryRecord
 {
     unsigned char _eventType;
-    int _deploymentId;
-    NSDate *_eventLogTime;
-    NSString *_rolloutId;
-    NSString *_rampId;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
-    NSArray *_namespaces;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,7 +28,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)itialSelectedIndex;
 - (id);
 - (id);
 - (id);
@@ -46,13 +39,7 @@
 - (id)PackSetId" (expected %@, decoded %@);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(readonly, nonatomic) NSDate *eventLogTime; // @synthesize eventLogTime=_eventLogTime;
-@property(readonly, nonatomic) unsigned char eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSString *rampId; // @synthesize rampId=_rampId;
-@property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
 
 @end
 

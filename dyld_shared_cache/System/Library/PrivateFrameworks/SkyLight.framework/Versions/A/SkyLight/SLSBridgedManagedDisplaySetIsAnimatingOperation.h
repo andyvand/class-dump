@@ -11,12 +11,11 @@
 @interface SLSBridgedManagedDisplaySetIsAnimatingOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     _Bool _isAnimating;
-    NSString *_displayIdentifier;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)(*I!;
+- (void)ot found for entity;
+- (id)e:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *displayIdentifier; // @synthesize displayIdentifier=_displayIdentifier;
-@property(readonly) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
 
 @end
 

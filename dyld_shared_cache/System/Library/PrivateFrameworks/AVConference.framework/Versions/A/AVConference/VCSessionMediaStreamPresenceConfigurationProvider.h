@@ -10,18 +10,15 @@ __attribute__((visibility("hidden")))
 @interface VCSessionMediaStreamPresenceConfigurationProvider
 {
     NSDictionary *_configuration;
-    NSSet *_streamInputConfigurations;
-    NSSet *_streamGroupConfigurations;
-    NSDictionary *_streamGroupToStreamInputMapping;
 }
 
 + (id);
 + (unsigned int);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ki;
 + (id);
 + (unsigned int);
 + (unsigned int);
@@ -45,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned short);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -65,7 +62,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *streamGroupConfigurations; // @synthesize streamGroupConfigurations=_streamGroupConfigurations;
 @property(readonly, nonatomic) NSSet *streamInputConfigurations; // @synthesize streamInputConfigurations=_streamInputConfigurations;
 
 @end

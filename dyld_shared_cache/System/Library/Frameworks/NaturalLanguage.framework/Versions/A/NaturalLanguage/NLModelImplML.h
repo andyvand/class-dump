@@ -6,15 +6,12 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class MLModel, NLModelConfiguration, NSString;
+@class MLModel;
 
 __attribute__((visibility("hidden")))
 @interface NLModelImplML : NLModelImpl
 {
     MLModel *_mlModel;
-    NLModelConfiguration *_configuration;
-    NSString *_inputName;
-    NSString *_outputName;
 }
 
 - (id);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_criticalUpdateShouldNotifyAfterInstall;
 - (void);
 
 @end

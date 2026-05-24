@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKHIDEventDeliveryManager, BKHIDEventDeliveryObserverService, _WSSLSToHIDEventTranslator;
-@protocol BSInvalidatable;
+@class BKHIDEventDeliveryManager;
 
 __attribute__((visibility("hidden")))
 @interface WSEventDeliveryManager
 {
     BKHIDEventDeliveryManager *_deliveryManager;
-    id <BSInvalidatable> _dispatchingAssertion;
-    _WSSLSToHIDEventTranslator *_translator;
 }
 
-+ (unsigned int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
++ (unsigned int)tion of insert migration statements;
+- (_Bool)mum of 32,768 elements.  parameter was %lu;
+- (id)MirroringDelegate managedObjectContextSaved:(struct SLSEventRecord *)arg1 ];
+- (id)to interim location failed:(id)arg1 %@;
+- (id)transformedValue;
+- (id)changeTypeNum;
 - (void);
 - (id);
 - (id);
@@ -33,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) BKHIDEventDeliveryManager *bkDeliveryManager;
-@property(readonly, nonatomic) BKHIDEventDeliveryObserverService *bkEventDeliveryObserverService;
 
 @end
 

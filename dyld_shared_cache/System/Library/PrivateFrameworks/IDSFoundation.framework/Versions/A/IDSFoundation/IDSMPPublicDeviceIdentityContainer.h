@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPPublicLegacyIdentity, IDSNGMPublicDeviceIdentity, NSNumber;
+@class IDSMPPublicLegacyIdentity;
 @protocol IDSSyncQueue;
 
 @interface IDSMPPublicDeviceIdentityContainer
 {
     IDSMPPublicLegacyIdentity *_legacyPublicIdentity;
-    NSNumber *_ngmVersion;
-    IDSNGMPublicDeviceIdentity *_ngmPublicDeviceIdentity;
-    id <IDSSyncQueue> _queue;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)64;
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)qK;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)8^{CGImage=}16^{CGImageProvider=}24@32;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)queryWithNode:(id)arg1 forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,9 +37,6 @@
 - (_Bool)Yé­àWD	;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSMPPublicLegacyIdentity *legacyPublicIdentity; // @synthesize legacyPublicIdentity=_legacyPublicIdentity;
-@property(readonly, nonatomic) IDSNGMPublicDeviceIdentity *ngmPublicDeviceIdentity; // @synthesize ngmPublicDeviceIdentity=_ngmPublicDeviceIdentity;
-@property(readonly, nonatomic) NSNumber *ngmVersion; // @synthesize ngmVersion=_ngmVersion;
 @property(retain, nonatomic) id <IDSSyncQueue> queue; // @synthesize queue=_queue;
 
 @end

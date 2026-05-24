@@ -6,29 +6,24 @@
 
 #import <ConfigurationEngineModel/CEMPredicateBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMPredicateWeeklyTimeRange : CEMPredicateBase
 {
     NSString *_payloadCalendarIdentifier;
-    NSNumber *_payloadStartDay;
-    NSString *_payloadStartTime;
-    NSNumber *_payloadEndDay;
-    NSString *_payloadEndTime;
-    NSArray *_payloadNotificationTimes;
 }
 
 + (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
-+ (id);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -38,22 +33,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)gacy renegotiation disabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCalendarIdentifier; // @synthesize payloadCalendarIdentifier=_payloadCalendarIdentifier;
-@property(copy, nonatomic) NSNumber *payloadEndDay; // @synthesize payloadEndDay=_payloadEndDay;
-@property(copy, nonatomic) NSString *payloadEndTime; // @synthesize payloadEndTime=_payloadEndTime;
-@property(copy, nonatomic) NSArray *payloadNotificationTimes; // @synthesize payloadNotificationTimes=_payloadNotificationTimes;
-@property(copy, nonatomic) NSNumber *payloadStartDay; // @synthesize payloadStartDay=_payloadStartDay;
-@property(copy, nonatomic) NSString *payloadStartTime; // @synthesize payloadStartTime=_payloadStartTime;
-@property(readonly) Class superclass;
 
 @end
 

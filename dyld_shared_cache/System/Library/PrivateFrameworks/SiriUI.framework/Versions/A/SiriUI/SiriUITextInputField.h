@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-@protocol SiriUINCBreakOutDelegate, SiriUITextInputCommonDelegate><NSSearchFieldDelegate, SiriUITextInputViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SiriUITextInputField
 {
     _Bool _dragging;
-    _Bool _windowWasMoved;
-    id <SiriUITextInputViewDelegate> _inputDelegate;
-    id <SiriUINCBreakOutDelegate> _ncBreakOutDelegate;
-    NSView *_backgroundView;
-    struct CGPoint _dragOffset;
 }
 
 + (Class);
@@ -29,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -42,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (id);
+- (id):(struct CGPoint)arg1 8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionAnimating>"32;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,20 +49,14 @@ __attribute__((visibility("hidden")))
 - (void)Q°1Â0@ù
 × ;
 - (id)Ô ;
-- (void)EndDisplayingReusableHeaderView:(id)arg1;
-- (void)lDelayedActionCommandsByIdentifier;
+- (void)didEndDisplayingReusableHeaderView:(id)arg1;
+- (void)_dismissalDelayedActionCommandsByIdentifier;
 - (id)etRepeatablePhrases:,V_repeatablePhrases /* Error: Ran out of types for this method. */;
 - (void)ished training %u;
 - (void);
 
 // Remaining properties
-@property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property __weak id <SiriUITextInputCommonDelegate><NSSearchFieldDelegate> delegate;
-@property struct CGPoint dragOffset; // @synthesize dragOffset=_dragOffset;
 @property _Bool dragging; // @synthesize dragging=_dragging;
-@property(nonatomic) __weak id <SiriUITextInputViewDelegate> inputDelegate; // @synthesize inputDelegate=_inputDelegate;
-@property(nonatomic) __weak id <SiriUINCBreakOutDelegate> ncBreakOutDelegate; // @synthesize ncBreakOutDelegate=_ncBreakOutDelegate;
-@property _Bool windowWasMoved; // @synthesize windowWasMoved=_windowWasMoved;
 
 @end
 

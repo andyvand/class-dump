@@ -11,19 +11,18 @@
 @interface GEOComposedStringArgument_Duration : GEOComposedStringArgument
 {
     NSMeasurement *_defaultValue;
-    NSMeasurement *_overrideValue;
 }
 
 + (_Bool)orary path "%@" - %@;
 - (void);
-- (double);
-- (id);
+- (double)@"<CNObserver>"24;
+- (id)t create secure temporary directory %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)eviceDisplayLanguage:(struct _NSZone *)arg1;
+- (id)setDeviceDisplayLanguage:(struct _NSZone *)arg1;
 - (void)Z¥5;
 
 // Remaining properties

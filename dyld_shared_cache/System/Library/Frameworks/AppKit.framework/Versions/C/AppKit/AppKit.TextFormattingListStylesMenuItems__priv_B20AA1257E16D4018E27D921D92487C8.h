@@ -7,12 +7,6 @@
 @interface AppKit.TextFormattingListStylesMenuItems__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id titleImage;
-    id listStyleItems;
-    id customItem;
-    id customItemSeparator;
-    id moreItem;
-    id moreItemSeparator;
-    id discDecimalOnly;
 }
 
 @end

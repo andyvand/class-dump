@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _loadingHandler;
 }
 
-- (id);
+- (id)setNeedsMessageReindexingWithContext:(id)arg1 completion:(CDUnknownBlockType)arg2;
 - (void);
 - (void);
 

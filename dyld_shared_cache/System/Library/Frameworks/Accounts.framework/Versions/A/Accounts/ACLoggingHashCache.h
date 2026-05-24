@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ACLoggingHashCache
 {
     struct os_unfair_lock_s _cacheLock;
-    NSMutableDictionary *_cacheDictionary;
-    NSMutableArray *_oldestKeys;
-    unsigned long long _maxCapacity;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

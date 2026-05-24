@@ -11,24 +11,21 @@
 @interface PGGraphHolidayMetricEvent : PGAbstractMetricEvent
 {
     NSDictionary *_payload;
-    NSString *_holidayName;
-    unsigned long long _numberOfCelebrations;
 }
 
 + (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)_descriptionForAttributedString:forContainingElement:type:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)fInvalidQuestions;
+- (void)numberOfInvalidQuestions;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *holidayName; // @synthesize holidayName=_holidayName;
-@property(nonatomic) unsigned long long numberOfCelebrations; // @synthesize numberOfCelebrations=_numberOfCelebrations;
 
 @end
 

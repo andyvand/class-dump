@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)mapTemplate:selectedPreviewForTrip:usingRouteChoice: /* Error: Ran out of types for this method. */;
++ (id)MX;
 + (void);
 - (id);
 - (_Bool);

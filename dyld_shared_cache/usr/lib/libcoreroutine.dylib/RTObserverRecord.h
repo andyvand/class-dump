@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface RTObserverRecord
 {
     id _observer;
-    SEL _selector;
 }
 
 - (id);
-- (SEL)ucketed;
+- (SEL)median_daily_visits_weekdays_work_bucketed;
 - (void)its, %lu;
 - (void), dwell time, %.2f, percentage dwell time, %.2f;
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id observer; // @synthesize observer=_observer;
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
 
 @end
 

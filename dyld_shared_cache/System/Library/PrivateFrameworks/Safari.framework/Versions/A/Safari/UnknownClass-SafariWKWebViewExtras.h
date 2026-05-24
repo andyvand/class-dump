@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, WebViewController;
+@class WebViewController;
 
 @interface UnknownClass (SafariWKWebViewExtras)
 - (void);
@@ -21,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BrowserViewController *safari_owningBrowserViewController;
 @property(readonly, nonatomic) WebViewController *safari_owningWebViewController;
-@property(readonly, copy, nonatomic) NSString *safari_profileIdentifier;
 @end
 

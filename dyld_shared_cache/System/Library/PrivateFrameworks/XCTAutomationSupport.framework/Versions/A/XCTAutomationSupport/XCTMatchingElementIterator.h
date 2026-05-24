@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSSet, NSString, XCElementSnapshot;
-@protocol XCTElementSetTransformer;
+@class NSEnumerator, XCElementSnapshot;
 
 @interface XCTMatchingElementIterator
 {
     NSEnumerator *_outputEnumerator;
-    XCElementSnapshot *_input;
-    id <XCTElementSetTransformer> _transformer;
-    XCElementSnapshot *_currentMatch;
-    NSSet *_currentRelatedElements;
 }
 
 - (void);
@@ -27,17 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) XCElementSnapshot *currentMatch; // @synthesize currentMatch=_currentMatch;
-@property(retain) NSSet *currentRelatedElements; // @synthesize currentRelatedElements=_currentRelatedElements;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) XCElementSnapshot *input; // @synthesize input=_input;
-@property(readonly) Class superclass;
-@property(readonly) id <XCTElementSetTransformer> transformer; // @synthesize transformer=_transformer;
 
 @end
 

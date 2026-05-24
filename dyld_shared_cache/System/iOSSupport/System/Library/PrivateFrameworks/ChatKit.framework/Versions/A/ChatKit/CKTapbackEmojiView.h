@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTapbackViewDelegate;
-
 @interface CKTapbackEmojiView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    id emoji;
-    _Bool isSelected;
-    void delegate;
-    id contentView;
-    id frameSize;
-    id displayScale;
 }
 
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),C,N,V_htmlStringToLoad;
+- (struct UIEdgeInsets)eightConstraint;
+- (void)eController;
+- (void)ectContextChangeController",&,N,V_managedObjectChangeController;
+- (void)arrayWithArray: /* Error: Ran out of types for this method. */;
+- (void)G;
 - (double);
 - (void);
 - (void);
@@ -32,15 +23,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_delegateDidDropItemsWithDropSession:(struct CGRect)arg1;
 - (void)Ä¯#ÿ);
 - (_Bool))j°"æÿ)j gæÿ)j4gÄÿ)jôÄÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

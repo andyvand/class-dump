@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, VFX.VFXEffect, VFX.VFXScene, VFXView;
 @protocol MTLDevice;
 
 @interface WBSScribbleEffectView
 {
     id <MTLDevice> _device;
-    CALayer *_imageLayer;
-    _Bool _sceneIsSetUp;
-    VFX.VFXEffect *_vfxEffect;
-    VFX.VFXScene *_vfxScene;
-    VFXView *_vfxView;
 }
 
 + (_Bool);
@@ -24,7 +18,7 @@
 0; /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (id);

@@ -7,7 +7,6 @@
 @interface CloudKit.CKSessionAcquirerXPCProxy
 {
     id sessionAcquirer;
-    id taskUUID;
 }
 
 + (id);

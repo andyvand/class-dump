@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)known (%d);
 - (_Bool);
 - (void);
 

@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface HMDSiriAccessoryInfo
 {
     _Bool _supportsDragonSiri;
-    id _targetsAccessory;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)D;
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (void)DCameraRecordingFragmentRecordingReasonDoorbell;
+- (_Bool)Q16@?<v@?@"NSError">24;
+- (void)HMDCameraRecordingFragmentRecordingReasonDoorbell;
 
 // Remaining properties
-@property(nonatomic) _Bool supportsDragonSiri; // @synthesize supportsDragonSiri=_supportsDragonSiri;
 @property(nonatomic) __weak id targetsAccessory; // @synthesize targetsAccessory=_targetsAccessory;
 
 @end

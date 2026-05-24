@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AMSRatingsStoreFront
 {
     NSString *_defaultLanguage;
-    unsigned long long _mediaType;
-    NSString *_name;
-    NSArray *_ratingSystems;
-    NSString *_storeFront;
-    NSString *_storeFrontID;
-    NSArray *_supportedLanguages;
 }
 
 + (id);
@@ -23,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id)ents;
+- (unsigned long long)bject:deleteTransferCallback:createItemCallback:fromMessageItem: /* Error: Ran out of types for this method. */;
+- (id)ary for encoding!;
+- (id);
+- (id)_monitorsLifecycleEvents;
 - (id)ssKitCore.framework/PassKitCore;
 - (void)aíH<-^î²aJÅÅGÏ*o¡%@;
 - (id)ªÇ%«Ç%¦´Ç%<µÇ%¶Ç%D·Ç%ÿ°Ç%É±Ç%r²Ç%±³Ç%
@@ -35,12 +29,6 @@ K$@<xVH+zò /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *defaultLanguage; // @synthesize defaultLanguage=_defaultLanguage;
-@property(readonly) unsigned long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSArray *ratingSystems; // @synthesize ratingSystems=_ratingSystems;
-@property(readonly) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(readonly) NSString *storeFrontID; // @synthesize storeFrontID=_storeFrontID;
-@property(readonly) NSArray *supportedLanguages; // @synthesize supportedLanguages=_supportedLanguages;
 
 @end
 

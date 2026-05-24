@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNResult, NSString;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNContactStoreFetchExecutor
 {
     CNContactStore *_store;
-    CNResult *_result;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)setSendPush:(id)arg1;
+- (id)kSuppServicesProvCallForwardRules;
 - (id);
 - (void);
+- (id);
+- (id)to one of several TDM classes;
+- (id);
+- (id);
+- (void)e;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) CNResult *result; // @synthesize result=_result;
 @property(readonly) CNContactStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

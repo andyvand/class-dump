@@ -6,13 +6,12 @@
 
 #import <NaturalLanguage/NLTokenIDConverter.h>
 
-@class NLLanguageModel, NLTagger;
+@class NLLanguageModel;
 
 __attribute__((visibility("hidden")))
 @interface NLLMTokenIDConverter : NLTokenIDConverter
 {
     NLLanguageModel *_languageModel;
-    NLTagger *_tagger;
 }
 
 - (unsigned int);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NLLanguageModel *languageModel; // @synthesize languageModel=_languageModel;
-@property(readonly, retain, nonatomic) NLTagger *tagger; // @synthesize tagger=_tagger;
 
 @end
 

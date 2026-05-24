@@ -12,11 +12,11 @@
 {
 }
 
+- (id)d;
+- (struct CGSize)e;
+- (id)d;
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (unsigned long long)gItem:session: /* Error: Ran out of types for this method. */;
+- (unsigned long long)textDraggableView:dragPreviewForLiftingItem:session: /* Error: Ran out of types for this method. */;
 - (id)~ÿ¡Üi2;
 
 // Remaining properties

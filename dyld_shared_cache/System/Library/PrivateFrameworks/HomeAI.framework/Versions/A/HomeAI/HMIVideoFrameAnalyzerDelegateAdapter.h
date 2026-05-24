@@ -7,20 +7,18 @@
 @interface HMIVideoFrameAnalyzerDelegateAdapter
 {
     CDUnknownBlockType _frameAnalyzerDidAnalyzeFrame;
-    CDUnknownBlockType _frameAnalyzerDidProduceAnalysisStateUpdate;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType frameAnalyzerDidAnalyzeFrame; // @synthesize frameAnalyzerDidAnalyzeFrame=_frameAnalyzerDidAnalyzeFrame;
-@property(copy) CDUnknownBlockType frameAnalyzerDidProduceAnalysisStateUpdate; // @synthesize frameAnalyzerDidProduceAnalysisStateUpdate=_frameAnalyzerDidProduceAnalysisStateUpdate;
 
 @end
 

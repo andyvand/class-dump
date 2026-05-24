@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, PRSRankingItemRanker, SFStartLocalSearchFeedback, SPSearchQueryContext;
-@protocol OS_os_activity, SFFeedbackListener, SPKQueryDelegate;
+@class NSMutableArray;
 
 @interface SPKQuery
 {
     NSMutableArray *_childQueries;
-    NSObject<OS_os_activity> *_activity;
-    int _queryState;
-    double _startTime;
-    _Bool _wantsSuggestions;
-    _Bool _extensionQuery;
-    unsigned long long _queryOptions;
-    id <SFFeedbackListener> _feedbackListener;
-    unsigned long long _querySignpostId;
-    unsigned long long _queryId;
-    unsigned long long _queryGroupId;
-    NSString *_userQueryString;
-    NSString *_trimmedUserQueryString;
-    NSObject<SPKQueryDelegate> *_delegate;
-    PRSRankingItemRanker *_ranker;
-    SPKQuery *_parentQuery;
-    double _queryStartTime;
-    SPSearchQueryContext *_queryContext;
-    NSObject *_logOwner;
-    unsigned long long _logToken;
-    CDUnknownBlockType _clientResponseHandler;
-    NSString *_internalUnmodifiedUserQueryString;
-    SFStartLocalSearchFeedback *_startLocalSearchFeedback;
 }
 
 + (int);
-+ (unsigned int);
++ (unsigned int);
 + (_Bool);
 - (id);
 - (id);
@@ -46,16 +23,16 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (double)erator"16@"LPLinkMetadata"24;
+- (id)4@0:8@"NSKeyedArchiver"16 /* Error: Ran out of types for this method. */;
+- (_Bool)showQuoteIndicator;
+- (id)shouldAllowHighlightToRecognizeSimultaneouslyWithGesture: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)localizedStandardCompare: /* Error: Ran out of types for this method. */;
+- (id)loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithPresentationProperties:(id)arg1 URL:document: /* Error: Ran out of types for this method. */;
+- (void)initWithData:encoding: /* Error: Ran out of types for this method. */;
+- (void)emailCompatibleMargin;
+- (id)disabledButtonOpacity;
 - (id);
 - (void);
 - (_Bool);
@@ -71,7 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -80,25 +57,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)@16d24@32;
+- (void);
 - (id);
-- (void);
+- (void)media:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)SAPAStyleHIDEvent;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ning activity;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -107,43 +84,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)es;
-- (void)_mobilemail_LLMQUIntentFlightEvent;
-- (id)iesWeighted_Max_Prefix;
+- (_Bool)recentSimilarIntentEngagementDates;
+- (void)com_apple_mobilemail_LLMQUIntentFlightEvent;
+- (id)kMDItemRecipients_TermFrequenciesWeighted_Max_Prefix;
 - (void)åÿ;
 
 // Remaining properties
-@property(readonly, getter=isApplicationQuery) _Bool applicationQuery;
-@property(readonly, getter=isCalculatorQuery) _Bool calculatorQuery;
-@property(readonly) NSArray *childQueries;
-@property(copy) CDUnknownBlockType clientResponseHandler; // @synthesize clientResponseHandler=_clientResponseHandler;
-@property(readonly, getter=isCoreSpotlightQuery) _Bool coreSpotlightQuery;
-@property(nonatomic) __weak NSObject<SPKQueryDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, getter=isDictionaryQuery) _Bool dictionaryQuery;
-@property(readonly, getter=isDocumentQuery) _Bool documentQuery;
-@property(readonly, getter=isExtensionQuery) _Bool extensionQuery; // @synthesize extensionQuery=_extensionQuery;
-@property(nonatomic) __weak id <SFFeedbackListener> feedbackListener; // @synthesize feedbackListener=_feedbackListener;
-@property(retain) NSString *internalUnmodifiedUserQueryString; // @synthesize internalUnmodifiedUserQueryString=_internalUnmodifiedUserQueryString;
-@property(retain, nonatomic) NSObject *logOwner; // @synthesize logOwner=_logOwner;
-@property(nonatomic) unsigned long long logToken; // @synthesize logToken=_logToken;
-@property __weak SPKQuery *parentQuery; // @synthesize parentQuery=_parentQuery;
-@property(readonly, getter=isParsecQuery) _Bool parsecQuery;
-@property(readonly) SPSearchQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property(readonly) unsigned long long queryGroupId; // @synthesize queryGroupId=_queryGroupId;
-@property(readonly) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property unsigned long long queryOptions; // @synthesize queryOptions=_queryOptions;
-@property unsigned long long querySignpostId; // @synthesize querySignpostId=_querySignpostId;
-@property double queryStartTime; // @synthesize queryStartTime=_queryStartTime;
 @property int queryState;
-@property(readonly) PRSRankingItemRanker *ranker; // @synthesize ranker=_ranker;
-@property(readonly) CDUnknownBlockType responseHandler;
-@property(retain) SFStartLocalSearchFeedback *startLocalSearchFeedback; // @synthesize startLocalSearchFeedback=_startLocalSearchFeedback;
-@property(readonly) _Bool supportsRefinement;
-@property(readonly) NSString *trimmedUserQueryString; // @synthesize trimmedUserQueryString=_trimmedUserQueryString;
-@property(retain) NSString *unmodifiedUserQueryString;
-@property(readonly, getter=isURLQuery) _Bool urlQuery;
-@property(readonly) NSString *userQueryString; // @synthesize userQueryString=_userQueryString;
-@property(nonatomic) _Bool wantsSuggestions; // @synthesize wantsSuggestions=_wantsSuggestions;
 
 @end
 

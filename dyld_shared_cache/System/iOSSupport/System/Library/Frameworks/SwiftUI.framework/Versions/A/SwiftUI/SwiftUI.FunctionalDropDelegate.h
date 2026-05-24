@@ -7,9 +7,6 @@
 @interface SwiftUI.FunctionalDropDelegate
 {
     id requestedContentTypes;
-    id isTargeted;
-    id action;
-    id proposal;
 }
 
 @end

@@ -6,13 +6,9 @@
 
 #import <Navigation/MNIPCMessage.h>
 
-@class NSString;
-
 @interface MNIPCShieldInfoMessage : MNIPCMessage
 {
     int _shieldID;
-    NSString *_shieldStringID;
-    NSString *_shieldText;
 }
 
 - (id);
@@ -21,14 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)d for control:(id)arg1 %{public}@;
 - (void)6@"MNDisplayETAInfo"24@"MNRouteDistanceInfo"32@"MNBatteryChargeInfo"40;
 - (id)þ9ySo10MNLocationC_G;
 
 // Remaining properties
 @property(nonatomic) int shieldID; // @synthesize shieldID=_shieldID;
-@property(copy, nonatomic) NSString *shieldStringID; // @synthesize shieldStringID=_shieldStringID;
-@property(copy, nonatomic) NSString *shieldText; // @synthesize shieldText=_shieldText;
 
 @end
 

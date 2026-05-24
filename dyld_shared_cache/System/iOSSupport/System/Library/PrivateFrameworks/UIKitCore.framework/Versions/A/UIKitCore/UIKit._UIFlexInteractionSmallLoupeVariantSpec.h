@@ -10,7 +10,7 @@
 {
 }
 
-- (void)rovider: /* Error: Ran out of types for this method. */;
+- (void)_setInternalAppIntentsIntelligenceProvider: /* Error: Ran out of types for this method. */;
 - (id)ÿ­9ËXák;
 
 @end

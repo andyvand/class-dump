@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (void);
+- (void)deleteAttachmentsDirectWithPredicate:(id)arg1;
 
 @end
 

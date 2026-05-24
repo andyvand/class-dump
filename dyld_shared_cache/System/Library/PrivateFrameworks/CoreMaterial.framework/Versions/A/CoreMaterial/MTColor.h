@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -25,7 +25,7 @@
 - (struct CAColorMatrix);
 - (id);
 - (id);
-- (id);
+- (id)relativePath;
 
 @end
 

@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface KTValidatePeersQuery
 {
     _Bool _fetchNow;
-    NSDictionary *_uriToVerificationInfo;
-    NSString *_application;
-    NSString *_traceUUID;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)NSTimeZone",R,V_creationDateTimeZone;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *application; // @synthesize application=_application;
-@property _Bool fetchNow; // @synthesize fetchNow=_fetchNow;
-@property(retain) NSString *traceUUID; // @synthesize traceUUID=_traceUUID;
-@property(retain) NSDictionary *uriToVerificationInfo; // @synthesize uriToVerificationInfo=_uriToVerificationInfo;
 
 @end
 

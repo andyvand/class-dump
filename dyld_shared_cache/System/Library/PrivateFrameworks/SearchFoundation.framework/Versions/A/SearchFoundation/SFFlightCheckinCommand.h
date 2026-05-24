@@ -6,42 +6,26 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
-
 @interface SFFlightCheckinCommand : SFCommand
 {
     CDStruct_7128b0cb _has;
-    _Bool _placeHolderProperty;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setCacheLimit:(id)arg1 forCacheIdentifier:requestingContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)dler %{public}s.;
+- (id)eredSet"16;
+- (id)PHAssetCollectionTypeCollectionShare;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
 @property(nonatomic) _Bool placeHolderProperty; // @synthesize placeHolderProperty=_placeHolderProperty;
-@property(readonly) Class superclass;
 
 @end
 

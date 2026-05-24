@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol CRKClassKitClass
+- (NSString *);
 - (_Bool)
 × ;
-- (NSString *)ersistentIds;
+- (NSString *)trustedCertificatePersistentIds;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *className;
-@property(readonly, nonatomic) NSDate *dateCreated;
-@property(retain, nonatomic) NSString *displayName;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-@property(copy, nonatomic) NSString *iconID;
-@property(copy, nonatomic) NSString *locationID;
 @property(readonly, copy, nonatomic) NSString *objectID;
 @end
 

@@ -6,19 +6,18 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary;
+@class NSDictionary;
 
 @interface AALoginDelegatesRequest : AARequest
 {
     NSDictionary *_loginParameters;
-    ACAccount *_account;
 }
 
 + (Class);
 - (id);
 - (id);
-- (void)rateToPrimaryAccountSignInState;
-- (id)ARY_DETAILS;
+- (void)migrateToPrimaryAccountSignInState;
+- (id)MY_BENEFICIARY_DETAILS;
 
 @end
 

@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ng 'labl';
 
 // Remaining properties
 @property(readonly, nonatomic) TKSEPKey *key; // @synthesize key=_key;

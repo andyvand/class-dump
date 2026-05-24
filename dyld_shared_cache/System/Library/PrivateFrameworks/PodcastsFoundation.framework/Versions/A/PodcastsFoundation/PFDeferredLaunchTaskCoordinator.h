@@ -7,10 +7,6 @@
 @interface PFDeferredLaunchTaskCoordinator
 {
     id _adminQueue;
-    id _workQueue;
-    id _tasks;
-    id _deferring;
-    id _timeoutScheduled;
 }
 
 + (id)ÀSUy_áTUy_ACy_.UUy_ßSUy_ÐVUyúeU)8;

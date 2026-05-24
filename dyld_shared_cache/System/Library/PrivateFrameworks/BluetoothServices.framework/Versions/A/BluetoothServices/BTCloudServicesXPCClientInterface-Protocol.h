@@ -4,6 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BTCloudDeviceSupportInformation, BTCloudSoundProfileRecord, BTMagicPairingSettings, NSArray, NSString, NSUUID;
+
 @protocol BTCloudServicesXPCClientInterface
+- (void)wf_stringByTrimmingLeadingWhitespaceAndNewlineCharacters;
+- (void)wf_stringByTrimmingLeadingCharactersInSet:(BTMagicPairingSettings *)arg1;
+- (void)wf_stringByReplacingCharactersInSet:(BTCloudDeviceSupportInformation *)arg1 withString:(void (^)(NSError *))arg2;
+- (void)wf_sharedSession;
+- (void)wf_securelyArchivedDataWithRootObject:(void (^)(NSArray *, NSError *))arg1 fileCoder: /* Error: Ran out of types for this method. */;
+- (void)wf_relationshipToDirectoryAtURL:(void (^)(BTCloudSoundProfileRecord *, NSError *))arg1;
+- (void)wf_linkMetadataObjectClass;
+- (void)wf_isUserCancelledError;
+- (void)wf_isUnsupportedUserInterfaceError;
+- (void)wf_isLinkEnabled;
+- (void)wf_initWithDaysBeforeAndAfterCurrentDate:(void (^)(NSError *))arg1;
+- (void)wf_initWithDaysAfterCurrentDate:(NSString *)arg1;
+- (void)meZone:(NSString *)arg1 locale:(void (^)(NSError *))arg2;
+- (void)wf_formattedStringWithDateStyle:(NSString *)arg1 timeStyle:(void (^)(NSError *))arg2 relativeDateStyle:customDateFormat:includeTimeForISO8601:timeZone:locale: /* Error: Ran out of types for this method. */;
+- (void)wf_filenameTruncatedToMaximumLengthWithSuffix:(BTCloudSoundProfileRecord *)arg1;
+- (void)wf_filenameTruncatedToMaximumLengthWithFormat:(BTMagicPairingSettings *)arg1;
+- (void)wf_filenameTruncatedToMaximumLength;
+- (void)wf_fileIsShortcutsOwned;
+- (void)wf_fileHasExtendedAttribute:(NSUUID *)arg1;
+- (void)wfSerializedRepresentationWithPrivateItemIdentifiers;
+
+@optional
+- (void)wf_unarchiveRootObjectAndFinishWithAllowedClasses:(NSArray *)arg1;
+- (void)wf_teamIdentifier;
 @end
 

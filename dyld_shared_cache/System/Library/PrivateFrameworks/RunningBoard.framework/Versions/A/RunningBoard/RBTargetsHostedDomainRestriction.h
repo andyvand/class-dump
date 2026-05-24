@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)V_curFrameLifetimeBegin;
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)for A/B testing;
 - (id);
 - (void);
 

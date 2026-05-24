@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, _NSCollectionPreferredSizes;
 @protocol _NSCollectionLayoutSectionSolver;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionSectionSolutionBookmark
 {
     id <_NSCollectionLayoutSectionSolver> _solution;
-    NSCollectionLayoutSection *_section;
-    struct CGRect _globalFrame;
-    struct CGSize _contentSize;
-    _NSCollectionPreferredSizes *_preferredSizes;
 }
 
 - (struct CGSize);
@@ -23,24 +18,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (struct CGRect);
 - (id)¡ê/ð! FùQß3Ð1Â0@ù
 × ;
 - (id)
 × ;
-- (void);
+- (void)strokeWidth;
 - (id)Ý?;
 - (struct CGSize)Í@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) struct CGRect globalFrame; // @synthesize globalFrame=_globalFrame;
-@property(readonly, nonatomic) struct CGRect orthogonalContentLayoutFrame;
-@property(readonly, nonatomic) struct CGSize orthogonalContentSize;
-@property(readonly, nonatomic) struct CGSize orthogonalContentSizeAdjustedForContentInsets;
-@property(readonly, nonatomic) _NSCollectionPreferredSizes *preferredSizes; // @synthesize preferredSizes=_preferredSizes;
-@property(readonly, nonatomic) NSCollectionLayoutSection *section; // @synthesize section=_section;
 @property(readonly, nonatomic) id <_NSCollectionLayoutSectionSolver> solution; // @synthesize solution=_solution;
 
 @end

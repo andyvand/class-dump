@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFGuestAccessCodeDatabaseID, NSNumber, NSString, NSUUID;
+@class NSUUID;
 @protocol MKFHome;
 
 @protocol MKFGuestAccessCode
+- (void)#;
 - (id <MKFHome>);
 - (void)eated cloud zone;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFGuestAccessCodeDatabaseID *databaseID;
 @property(copy, nonatomic) NSUUID *hh2ModelID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *userUniqueIDForAccessories;
 @end
 

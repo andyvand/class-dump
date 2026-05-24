@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSMutableSet, NSURL;
-@protocol AMSBagProtocol;
+@class NSMutableSet;
 
 @interface AMSOpenURL
 {
     NSMutableSet *_attemptedTargets;
-    NSURL *_URL;
-    AMSProcessInfo *_clientInfo;
-    id <AMSBagProtocol> _bag;
 }
 
 + (id);
@@ -22,12 +18,12 @@
 + (_Bool);
 + (unsigned long long);
 + (id);
-+ (_Bool);
++ (_Bool)#;
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)�;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -45,10 +41,7 @@ $äåô^]L]ösì(k
 lvc&D}b!¥éY?1ÄþüÇ#±²Û8_E>åÊ[~.L WYYcÓèâ°Óú	 í'°·éè¼I°ÙMW®ø#BïW¯Þ'ö­'K7$×Ö§"%!{Uô|ÜêØKM1|äÉÙnqëÚp8z¾o_]DBEBKéÕÌp}ÜãòÏ±×¨ë"%±>/8â;5Zö_ÈHÿu²Uÿõv÷ã >$-ÔñiÔx¢Aò-²µfÏ^'9]§ôÉV¢Æ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) NSMutableSet *attemptedTargets; // @synthesize attemptedTargets=_attemptedTargets;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 
 @end
 

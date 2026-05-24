@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCompoundAssertion, BSServiceDispatchQueue, BSXPCServiceConnection, NSArray, NSString, RBSAssertion, _BSNSXPCCallbackTracking;
-@protocol BSNSXPCSending;
+@class BSXPCServiceConnection;
 
 @interface BSNSXPCTransport
 {
     BSXPCServiceConnection *_connection;
-    NSString *_explanation;
-    NSArray *_perMessageAttributes;
-    BSCompoundAssertion *_refCounter;
-    RBSAssertion *_refCountedAssertion;
-    CDUnknownBlockType _assertionProvider;
-    id <BSNSXPCSending> _sendingQueue;
-    BSServiceDispatchQueue *_queue;
-    _BSNSXPCCallbackTracking *_callbackTracking;
-    struct os_unfair_lock_s _lock;
-    unsigned char _messageOptions;
-    _Bool _activateOnResume;
-    _Bool _faultOnSuspend;
-    _Bool _lock_faultedOnSuspend;
-    _Bool _lock_cancelEnqueued;
-    _Bool _lock_cancelProcessed;
 }
 
 - (void);
@@ -32,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -44,11 +28,11 @@
 - (int);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)	;
+- (void);
+- (void)determine architecture of the kernel;
+- (void)calendarRangeWithDictionary:context: /* Error: Ran out of types for this method. */;
+- (id)keyline;
 - (int);
 - (unsigned int);
 - (void);
@@ -56,13 +40,7 @@
 - (unsigned int)Ä-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

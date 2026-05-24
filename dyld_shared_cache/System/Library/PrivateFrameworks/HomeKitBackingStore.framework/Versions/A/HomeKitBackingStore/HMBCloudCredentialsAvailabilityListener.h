@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, HMFTimer, NAFuture, NSNotificationCenter, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMBCloudCredentialsAvailabilityListener
 {
     struct hmf_unfair_data_lock_s _lock;
-    CKContainer *_container;
-    NSNotificationCenter *_notificationCenter;
-    NAFuture *_accountAvailabilityFuture;
-    NAFuture *_keychainAvailabilityFuture;
-    HMFTimer *_keychainAvailabilityTimer;
-    CDUnknownBlockType _keychainAvailabilityTimerFactory;
 }
 
 + (id)versionString;
-- (id);
+- (id)applicationWithBundleID:canSyncUsingVersion:forContainerID: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (id);
-- (void);
+- (void)d-usernotfier;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType keychainAvailabilityTimerFactory; // @synthesize keychainAvailabilityTimerFactory=_keychainAvailabilityTimerFactory;
-@property(readonly) Class superclass;
 
 @end
 

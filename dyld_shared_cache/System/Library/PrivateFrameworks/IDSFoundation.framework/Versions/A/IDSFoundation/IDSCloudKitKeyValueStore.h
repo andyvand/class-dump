@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKContainer, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSCloudKitKeyValueStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    IDSCKContainer *_container;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 - (void)Ê;
 
 // Remaining properties
-@property(retain, nonatomic) IDSCKContainer *container; // @synthesize container=_container;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <iLifeMediaBrowser/ILMediaManager.h>
 
-@class NSLock, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ILFolderPluginSDK : ILMediaManager
 {
     NSMutableArray *_folderPaths;
-    NSLock *_folderPathsLock;
-    NSString *_currentLoadPath;
-    _Bool _shouldAbortCurrentLoad;
-    id _reserved4;
-    id _reserved5;
-    id _reserved6;
 }
 
 + (id);
@@ -56,8 +50,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)C;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -77,12 +71,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)tion;
+- (id)ILMediaBrowserImageSplitViewPosition;
 
 @end
 

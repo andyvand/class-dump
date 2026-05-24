@@ -7,12 +7,6 @@
 @interface UIKit.TextLineWaveAnimator
 {
     id targetedPreview;
-    id view;
-    id progress;
-    id waveProgressProperty;
-    id animationLineRadius;
-    id animationLineOffsetY;
-    id animationEasingFunc;
 }
 
 @end

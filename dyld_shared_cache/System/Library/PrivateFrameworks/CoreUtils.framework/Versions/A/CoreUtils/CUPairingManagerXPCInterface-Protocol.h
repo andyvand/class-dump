@@ -5,5 +5,9 @@
 //
 
 @protocol CUPairingManagerXPCInterface
+
+@optional
+- (void),C,N,V_bundleName;
+- (void);;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDFetchController, EDPersistence, NSString;
-@protocol EDServerRemoteClientsProvider, EFScheduler, EMDiagnosticInfoProvidingXPC;
+@protocol EMDiagnosticInfoProvidingXPC;
 
 @interface EDDiagnosticInfoGatherer
 {
     id <EMDiagnosticInfoProvidingXPC> _diagnosticInfoProvider;
-    id <EDServerRemoteClientsProvider> _remoteClientsProvider;
-    EDFetchController *_fetchController;
-    id <EFScheduler> _gathererQueue;
-    EDPersistence *_persistence;
 }
 
 + (id);
@@ -31,32 +26,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4/;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void)m_apple_mail_phone_numbers;
+- (void)com_apple_mail_phone_numbers;
 - (id)ôÎ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <EMDiagnosticInfoProvidingXPC> diagnosticInfoProvider; // @synthesize diagnosticInfoProvider=_diagnosticInfoProvider;
-@property(readonly, nonatomic) EDFetchController *fetchController; // @synthesize fetchController=_fetchController;
-@property(retain, nonatomic) id <EFScheduler> gathererQueue; // @synthesize gathererQueue=_gathererQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EDPersistence *persistence; // @synthesize persistence=_persistence;
-@property(retain, nonatomic) id <EDServerRemoteClientsProvider> remoteClientsProvider; // @synthesize remoteClientsProvider=_remoteClientsProvider;
-@property(readonly) Class superclass;
 
 @end
 

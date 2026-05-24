@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface INCExtensionPlugInBundleManager
 {
     NSMutableDictionary *_intentsSupported;
-    NSObject<OS_dispatch_queue> *_intentsSupportedQueue;
-    NSDictionary *_pluginsPlistDictionary;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);

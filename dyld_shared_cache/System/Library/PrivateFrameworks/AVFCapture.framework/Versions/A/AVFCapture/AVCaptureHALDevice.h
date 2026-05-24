@@ -6,31 +6,18 @@
 
 #import <AVFCapture/AVCaptureDevice_Tundra.h>
 
-@class AVCaptureDeviceFormat_Tundra, AVCaptureDeviceInputSource_Tundra, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureHALDevice : AVCaptureDevice_Tundra
 {
     NSString *_uniqueID;
-    unsigned int _connectionID;
-    NSString *_localizedName;
-    NSString *_modelID;
-    NSString *_manufacturer;
-    _Bool _hidden;
-    NSArray *_formats;
-    AVCaptureDeviceFormat_Tundra *_activeFormat;
-    NSArray *_inputSources;
-    AVCaptureDeviceInputSource_Tundra *_activeInputSource;
-    struct os_unfair_lock_s _propertiesLock;
-    struct AudioStreamBasicDescription *_physicalASBDs;
-    struct OpaqueCMClock *_deviceClock;
-    int _transportType;
 }
 
-+ (void);
++ (void)MSVLyricsTTMLParserErrorDomain;
 + (void);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (_Bool);
@@ -39,49 +26,49 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)ColorsWheelContext_computeColorComponent;
 + (id);
 + (void);
++ (id);
 + (void);
 + (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (unsigned int);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (void);
+- (void)] error=%{public}@;
+- (void)lues:%@ /* Error: Ran out of types for this method. */;
+- (id)TRANSACTION;
+- (long long).apple.da;
+- (unsigned int)nthesize %s=%@;;
+- (_Bool)parameter;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned int);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (unsigned int);
+- (void)actionMessageWithCommand:account:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)_currentRecordingStateSettingsID;
 - (_Bool);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (struct OpaqueCMClock *)ityCaptureCamera;
-- (_Bool)ime:(id)arg1 duration:bounds: /* Error: Ran out of types for this method. */;
-- (id)eVideoHDREnabledForDevice:forceResetVideoHDRSuspended: /* Error: Ran out of types for this method. */;
-- (id)QualityFactors;
-- (int)eviceColorspaceChangeMonitorConfigure;
+- (struct OpaqueCMClock *)isContinuityCaptureCamera;
+- (_Bool)initWithObjectID:(id)arg1 time:duration:bounds: /* Error: Ran out of types for this method. */;
+- (id)_updateVideoHDREnabledForDevice:forceResetVideoHDRSuspended: /* Error: Ran out of types for this method. */;
+- (id)_initDegradedCaptureQualityFactors;
+- (int)_deviceColorspaceChangeMonitorConfigure;
 - (_Bool)orted;
 - (id);
 - (void);

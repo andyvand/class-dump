@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)MPStoreItemMetadataParentStoreItemMetadata;
 - (id);
 - (void);
 - (void);

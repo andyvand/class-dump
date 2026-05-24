@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long);
++ (long long)payloadDateTimeRangeValuesCount;
 - (id);
-- (id)CallRecordFilterSlotValueTransformer;
+- (id)INIntentCallRecordFilterSlotValueTransformer;
 
 @end
 

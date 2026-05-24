@@ -9,14 +9,13 @@
 @interface _ANESharedEvents
 {
     NSArray *_signalEvents;
-    NSArray *_waitEvents;
 }
 
-+ (id);
++ (id)utationFlags="isDirty"b1"hasGeneration"b1"hasContextData"b1"hasContextFetchDelay"b1};
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *signalEvents; // @synthesize signalEvents=_signalEvents;
-@property(retain, nonatomic) NSArray *waitEvents; // @synthesize waitEvents=_waitEvents;
 
 @end
 

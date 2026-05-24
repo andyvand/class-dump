@@ -6,31 +6,12 @@
 
 #import <CalendarUI/CalUILayerBackedView.h>
 
-@class CalDrawOccurrenceColor, CalDrawOccurrenceColorImage, CalDrawTileOptions, CalUIBoxOccurrenceTravelTimeView, EKEvent, NSArray, NSDate, NSLayoutConstraint, NSString, NSView;
-@protocol CalUIBoxOccurrenceContentViewDelegate, OccurrenceView;
+@class NSLayoutConstraint;
+@protocol CalUIBoxOccurrenceContentViewDelegate;
 
 @interface CalUIBoxOccurrenceContentView : CalUILayerBackedView
 {
     NSLayoutConstraint *_contentSpecificHeightConstraint;
-    NSLayoutConstraint *_contentPinnedToBottomConstraint;
-    NSLayoutConstraint *_contentPinnedToTopConstraint;
-    NSLayoutConstraint *_colorBarPinnedToTopConstraint;
-    NSView *_colorBarView;
-    NSView<OccurrenceView> *_contentView;
-    CalDrawTileOptions *_cachedTileOptions;
-    _Bool _showsTravelTime;
-    _Bool _visibleHeightLocked;
-    EKEvent *_displayEvent;
-    id <CalUIBoxOccurrenceContentViewDelegate> _delegate;
-    double _travelTimeHeight;
-    double _visibleHeight;
-    double _currentFontSize;
-    NSArray *_allEvents;
-    unsigned long long _layoutType;
-    CalDrawOccurrenceColor *_color;
-    CalDrawOccurrenceColorImage *_backgroundImage;
-    CalUIBoxOccurrenceTravelTimeView *_travelTimeView;
-    struct CGSize _singleLineTitleSize;
 }
 
 + (id);
@@ -41,27 +22,27 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)߈	;
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)T	;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)y;
 - (void);
 - (int);
 - (void);
@@ -73,14 +54,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (_Bool);
@@ -98,27 +79,27 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (id);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)	;
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void)0@ù
@@ -127,34 +108,7 @@
 - (_Bool)@"EKCalendar"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allEvents; // @synthesize allEvents=_allEvents;
-@property(retain) CalDrawOccurrenceColorImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) CalDrawOccurrenceColor *color; // @synthesize color=_color;
-@property double currentFontSize; // @synthesize currentFontSize=_currentFontSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CalUIBoxOccurrenceContentViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EKEvent *displayEvent; // @synthesize displayEvent=_displayEvent;
-@property(readonly, nonatomic) NSDate *end;
-@property(readonly, nonatomic) double enoughHeightForOneLine;
-@property(readonly, nonatomic) NSString *eventIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideTravelTime;
-@property(nonatomic) unsigned long long layoutType; // @synthesize layoutType=_layoutType;
-@property(nonatomic) _Bool showsTravelTime; // @synthesize showsTravelTime=_showsTravelTime;
-@property(nonatomic) struct CGSize singleLineTitleSize; // @synthesize singleLineTitleSize=_singleLineTitleSize;
-@property(readonly, nonatomic) NSDate *start;
-@property(readonly, nonatomic) NSDate *startWithTravelTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double travelTimeHeight; // @synthesize travelTimeHeight=_travelTimeHeight;
-@property(retain) CalUIBoxOccurrenceTravelTimeView *travelTimeView; // @synthesize travelTimeView=_travelTimeView;
-@property struct CGRect unPinnedViewFrame;
-@property(readonly, nonatomic) double viewMaxNaturalTextHeight;
-@property(nonatomic) double visibleHeight; // @synthesize visibleHeight=_visibleHeight;
-@property _Bool visibleHeightLocked; // @synthesize visibleHeightLocked=_visibleHeightLocked;
 
 @end
 

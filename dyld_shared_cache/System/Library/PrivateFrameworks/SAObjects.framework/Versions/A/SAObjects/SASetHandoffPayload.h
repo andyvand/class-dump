@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)implement search(for:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <SAHandoffPayload> handoffPayload;

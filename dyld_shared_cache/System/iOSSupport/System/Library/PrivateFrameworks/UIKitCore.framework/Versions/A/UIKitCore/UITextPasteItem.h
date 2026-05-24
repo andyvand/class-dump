@@ -4,58 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSItemProvider, NSString, UITextPasteCoordinator;
+@class NSItemProvider;
 
 __attribute__((visibility("hidden")))
 @interface UITextPasteItem
 {
     _Bool _forcesDefaultAttributes;
-    NSItemProvider *_itemProvider;
-    id _localObject;
-    NSDictionary *_defaultAttributes;
-    UITextPasteCoordinator *_coordinator;
-    NSArray *_supportedPasteConfigurationClasses;
-    NSDictionary *_documentOptions;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)fetchRecordZoneChangesCompletionBlock;
+- (void)_uploadToMMCSForItem:(id)arg1 transfer:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_updateSpamFilteringState:(id)arg1;
+- (void)_isConnectedOverBT: /* Error: Ran out of types for this method. */;
+- (void)_URIFromCanonicalizedPhoneNumber;
+- (void)syncReportDictionaryForAttempt:(id)arg1 withSuccess:duration:completion: /* Error: Ran out of types for this method. */;
+- (void)essionDelegates;
+- (void)edString",R,N,V_messageBodyWithNativeAttributes;
+- (void)initWithServiceName:(id)arg1 ckRecordID: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
+- (id)support hqp:(id)arg1 %@, hqp enabled:(id)arg2 %@;
+- (id)hQualityPhotoUploadForNetworkConditions:(id)arg1 (%@), isWifiUsable:(id)arg2 (%@), hasLTE:(id)arg3 (%@);
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
-- (void);
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)tivate:(id)arg1 constraintsToDeactivate: /* Error: Ran out of types for this method. */;
+- (void)addLayoutViews:(id)arg1 layoutGuides:constraintsToActivate:constraintsToDeactivate: /* Error: Ran out of types for this method. */;
 - (id)°;
 - (id);
 - (void)M;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPasteCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSDictionary *defaultAttributes; // @synthesize defaultAttributes=_defaultAttributes;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *documentOptions; // @synthesize documentOptions=_documentOptions;
-@property(nonatomic) _Bool forcesDefaultAttributes; // @synthesize forcesDefaultAttributes=_forcesDefaultAttributes;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(retain, nonatomic) id localObject; // @synthesize localObject=_localObject;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedPasteConfigurationClasses; // @synthesize supportedPasteConfigurationClasses=_supportedPasteConfigurationClasses;
 
 @end
 

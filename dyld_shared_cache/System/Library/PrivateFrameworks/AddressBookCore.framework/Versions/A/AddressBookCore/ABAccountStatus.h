@@ -7,9 +7,6 @@
 @interface ABAccountStatus
 {
     id _target;
-    SEL _action;
-    unsigned long long _state;
-    struct CGRect _frameForAccessoryViews;
 }
 
 + (id);
@@ -19,10 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly) SEL action; // @synthesize action=_action;
 @property(readonly) struct CGRect frameForAccessoryViews; // @synthesize frameForAccessoryViews=_frameForAccessoryViews;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) id target; // @synthesize target=_target;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIRenderInfo, CIRenderTask, NUCVPixelBuffer, NUColorSpace, NUPixelFormat;
+@class CIImage, NUCVPixelBuffer;
 
 @interface _PIParallaxRenderCacheEntry
 {
     NUCVPixelBuffer *_pixelBuffer;
-    CIImage *_image;
-    NUPixelFormat *_pixelFormat;
-    NUColorSpace *_colorSpace;
-    CIRenderTask *_renderTask;
-    CIRenderInfo *_renderInfo;
-    CIImage *_cachedImage;
 }
 
 - (_Bool);
@@ -25,20 +19,14 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nearestDeepParentLocationNodesWithLabel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)CGRect={CGPoint=dd}{CGSize=dd}}64@?96;
-- (id):error: /* Error: Ran out of types for this method. */;
+- (id)accumulate:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CIImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(readonly, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
 @property(readonly, nonatomic) CIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(retain) CIRenderInfo *renderInfo; // @synthesize renderInfo=_renderInfo;
-@property(retain) CIRenderTask *renderTask; // @synthesize renderTask=_renderTask;
-@property(readonly, nonatomic) unsigned long long sizeInBytes;
 
 @end
 

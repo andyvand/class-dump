@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIAppleSmithGossettScale : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputScale;
 }
 
 + (id);

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel;
-
 @interface MLModelVisionFeaturePrintInfo
 {
     unsigned long long _version;
-    id _featureExtractorParameters;
-    MLModel *_postVisionFeaturePrintModel;
 }
 
-- (void);
+- (void)privateFunctions;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void)pdated model to %@;
 
 // Remaining properties
 @property(retain, nonatomic) id featureExtractorParameters; // @synthesize featureExtractorParameters=_featureExtractorParameters;
-@property(retain, nonatomic) MLModel *postVisionFeaturePrintModel; // @synthesize postVisionFeaturePrintModel=_postVisionFeaturePrintModel;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

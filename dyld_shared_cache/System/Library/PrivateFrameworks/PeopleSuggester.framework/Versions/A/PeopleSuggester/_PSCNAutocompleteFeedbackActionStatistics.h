@@ -7,25 +7,19 @@
 @interface _PSCNAutocompleteFeedbackActionStatistics
 {
     long long _countTimesVendedSuggestions;
-    long long _countVendedSuggestions;
-    long long _countTappedSuggestions;
-    long long _countUsedSuggestions;
 }
 
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
+- (void)_countFactoryAssets;
+- (void)_countAttributeUnigramPrefixMatch;
+- (void)_countAttributeUnigramMatch;
+- (long long)tDaemonLoadedTimestampInNs;
+- (long long)appTimeSpentInSec;
+- (long long)N,R;
+- (long long)EventType;
+- (void)ay;
 
 // Remaining properties
-@property(nonatomic) long long countTappedSuggestions; // @synthesize countTappedSuggestions=_countTappedSuggestions;
 @property(nonatomic) long long countTimesVendedSuggestions; // @synthesize countTimesVendedSuggestions=_countTimesVendedSuggestions;
-@property(nonatomic) long long countUsedSuggestions; // @synthesize countUsedSuggestions=_countUsedSuggestions;
-@property(nonatomic) long long countVendedSuggestions; // @synthesize countVendedSuggestions=_countVendedSuggestions;
 
 @end
 

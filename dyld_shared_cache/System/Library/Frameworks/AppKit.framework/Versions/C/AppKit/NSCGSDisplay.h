@@ -4,59 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface NSCGSDisplay
 {
     int _displayID;
-    unsigned int _depth;
-    double _backingPixelsPerPoint;
-    double _maxHDRValue;
-    double _maxPotentialHDRValue;
-    double _maxReferenceHDRValue;
-    double _revealedMenuBarHeight;
-    NSUUID *_UUID;
-    struct CGColorSpace *_colorSpace;
-    unsigned long long _capabilities;
-    struct CGSize _devicePixelCounts;
-    struct CGRect _frame;
-    struct CGRect _notchFrame;
 }
 
-- (double);
-- (struct CGRect);
-- (double);
-- (double);
-- (double);
+- (double)"NSURLCredential">32;
+- (struct CGRect)_initWithReference:index: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGSize);
+- (struct CGSize)alt_service entries before date %@;
 - (double);
 - (void);
-- (id);
+- (id)standardUserDefaults;
 - (struct CGColorSpace *);
 - (struct CGRect)
 × ;
 - (id)willDisplayOutlineCell"b1"dontRedisplayOnFrameChange"b1"enableExpandNotifications"b1"isSpringLoadingFlashing"b1"numberOfRowsDataExpandEntered"b1"reloadingData"b1"selectionAdjustmentDisabled"b1"sourceListIndentationMode"b2"stronglyReferencesItems"b1"subclassOverrides_collapseItem_collapseChildren"b1"subclassOverrides_expandItem_expandChildren"b1"subclassOverrides_frameOfOutlineCellAtRow"b1"subclassOverrides_rowForItem"b1"isBatchExpanding"b1};
-- (unsigned long long)5StringTokenizer;
+- (unsigned long long)_TtC6AppKit15StringTokenizer;
 - (int);
 - (void)°±íÿ;
 - (unsigned int)¾T;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) double backingPixelsPerPoint; // @synthesize backingPixelsPerPoint=_backingPixelsPerPoint;
-@property(readonly) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly) unsigned int depth; // @synthesize depth=_depth;
-@property(readonly) struct CGSize devicePixelCounts; // @synthesize devicePixelCounts=_devicePixelCounts;
 @property(readonly) int displayID; // @synthesize displayID=_displayID;
-@property(readonly) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) double maxHDRValue; // @synthesize maxHDRValue=_maxHDRValue;
-@property(readonly) double maxPotentialHDRValue; // @synthesize maxPotentialHDRValue=_maxPotentialHDRValue;
-@property(readonly) double maxReferenceHDRValue; // @synthesize maxReferenceHDRValue=_maxReferenceHDRValue;
-@property(readonly) struct CGRect notchFrame; // @synthesize notchFrame=_notchFrame;
-@property(readonly) double revealedMenuBarHeight; // @synthesize revealedMenuBarHeight=_revealedMenuBarHeight;
 
 @end
 

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUReachabilityMonitor, MAAsset, NSDictionary, NSMutableDictionary, NSObject, NSString, NSURL;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceAssetManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    MAAsset *_deviceAssetManagement;
-    CUReachabilityMonitor *_reachabilityMonitor;
-    NSDictionary *_productTypesMappingTable;
-    NSDictionary *_cachedProductMappingsTable;
-    NSURL *_cacheDirectory;
-    NSMutableDictionary *_cachedQueryPaths;
-    _Bool _useProcessLocalCache;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_networkStatus;
 }
 
 - (void);
@@ -33,13 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)y;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (void);
 - (id);
@@ -51,14 +39,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,9 +56,7 @@
 - (id)W4Xõÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
 @property(retain, nonatomic) NSString *networkStatus; // @synthesize networkStatus=_networkStatus;
-@property(nonatomic) _Bool useProcessLocalCache; // @synthesize useProcessLocalCache=_useProcessLocalCache;
 
 @end
 

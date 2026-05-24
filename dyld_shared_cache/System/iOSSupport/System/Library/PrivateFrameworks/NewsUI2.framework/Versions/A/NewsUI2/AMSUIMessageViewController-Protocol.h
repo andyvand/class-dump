@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBinaryPromise;
-
 @protocol AMSUIMessageViewController
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long engagementImpressionsReportingFrequency;
-@property(nonatomic) unsigned long long impressionsReportingFrequency;
-@property(retain, nonatomic) AMSBinaryPromise *loadPromise;
-@property(nonatomic) _Bool shouldAutomaticallyReportMetrics;
 @end
 

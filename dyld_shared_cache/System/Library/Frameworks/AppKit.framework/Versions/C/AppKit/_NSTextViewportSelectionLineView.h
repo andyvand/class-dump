@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)propertyAsNumber: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Size=dd}}16^{CGRect={CGPoint=dd}{CGSize=dd}}24^{CGRect={CGPoint=dd}{CGSize=dd}}32{CGRect={CGPoint=dd}{CGSize=dd}}40@72;
 

@@ -4,37 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFView, UIColor, UITraitCollection;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFRenderingProperties
 {
     PDFView *_pdfView;
-    long long _displayBox;
-    _Bool _shouldAntiAlias;
-    double _greekingThreshold;
-    long long _interpolationQuality;
-    double _lineWidthThreshold;
-    UIColor *_pageColor;
-    UITraitCollection *_userInterfaceStyle;
-    _Bool _darkMode;
-    UIColor *_pageBackgroundColor;
-    _Bool _enableRoundPageCorners;
-    _Bool _enablePageShadows;
-    _Bool _enableTileEdgeColoring;
-    _Bool _enableAccessibilityDrawing;
-    _Bool _enableTileUpdates;
-    _Bool _enableBackgroundImages;
-    _Bool _isUsingPDFExtensionView;
-    struct CGColorSpace *_deviceColorSpace;
-    UITraitCollection *_traitCollection;
-    long long _appearanceStyle;
-    UIColor *_darkModePageBackgroundColor;
 }
 
 + (struct CGMatrixFilter);
 + (struct CAColorMatrix);
-+ (_Bool);
++ (_Bool)newCommandQueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (void);
@@ -47,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (double);
@@ -67,8 +47,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (void);
-- (long long);
+- (void)_ObjCRelayGroupDisplayNameMutationEnvelopeWrapper;
+- (long long)_ObjCEmojiImageAttachmentInfoWrapper;
 - (_Bool);
 - (void);
 - (id);
@@ -80,25 +60,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;
-@property(readonly, nonatomic, getter=isDarkMode) _Bool darkMode;
-@property(retain, nonatomic) UIColor *darkModePageBackgroundColor; // @synthesize darkModePageBackgroundColor=_darkModePageBackgroundColor;
-@property(nonatomic) struct CGColorSpace *deviceColorSpace;
-@property(nonatomic) long long displayBox;
-@property(nonatomic) _Bool enableBackgroundImages;
-@property(nonatomic) _Bool enablePageShadows;
-@property(nonatomic) _Bool enableRoundPageCorners;
-@property(nonatomic) _Bool enableTileUpdates;
-@property(nonatomic) double greekingThreshold;
-@property(nonatomic) long long interpolationQuality;
-@property(nonatomic) _Bool isUsingPDFExtensionView;
-@property(nonatomic) double lineWidthThreshold;
-@property(readonly, nonatomic) UIColor *pageBackgroundColor;
-@property(retain, nonatomic) UIColor *pageColor;
-@property(readonly) double pageCornerRadius;
 @property(nonatomic, setter=setPDFView:) __weak PDFView *pdfView;
-@property(nonatomic) _Bool shouldAntiAlias;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

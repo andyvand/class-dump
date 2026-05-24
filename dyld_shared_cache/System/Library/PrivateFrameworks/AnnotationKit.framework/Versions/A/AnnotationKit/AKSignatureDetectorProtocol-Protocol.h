@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 @protocol AKSignatureDetectorProtocol
 
 // Remaining properties
 @property double baselinePosition;
-@property double borderWidth;
-@property(readonly) NSImage *testImage;
 @end
 

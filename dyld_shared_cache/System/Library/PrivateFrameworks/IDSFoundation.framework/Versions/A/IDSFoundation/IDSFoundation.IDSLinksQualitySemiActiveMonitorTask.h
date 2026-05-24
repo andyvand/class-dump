@@ -7,10 +7,6 @@
 @interface IDSFoundation.IDSLinksQualitySemiActiveMonitorTask
 {
     id name;
-    id state;
-    id minimumUpdateCycle;
-    id defaultUpdateCycle;
-    id timeSource;
 }
 
 @end

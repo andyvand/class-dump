@@ -5,5 +5,8 @@
 //
 
 @protocol GKNATObserverDelegate
+
+@optional
+- (void);
 @end
 

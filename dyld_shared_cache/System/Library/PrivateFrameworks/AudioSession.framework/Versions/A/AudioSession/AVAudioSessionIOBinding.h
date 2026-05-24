@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSArray;
+@class AVAudioSession;
 
 @interface AVAudioSessionIOBinding
 {
     AVAudioSession *_session;
-    NSArray *_streams;
 }
 
+- (id)NEExtensionAppProxyProviderContext;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id)tringEEEEEE;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSArray *streams; // @synthesize streams=_streams;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id):(struct CGAffineTransform)arg1 ]_block_invoke;
+- (id)the configuration will be ignored.;
 - (id);
 - (unsigned long long);
 - (id);

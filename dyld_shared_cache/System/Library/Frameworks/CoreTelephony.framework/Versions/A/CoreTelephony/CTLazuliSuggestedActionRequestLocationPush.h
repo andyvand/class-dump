@@ -9,16 +9,16 @@
     _Bool _sendPush;
 }
 
-+ (_Bool);
++ (_Bool)t:%ld bytesDownloadedCount:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool)ؗL;
 - (_Bool);
+- (id);
+- (id)J;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)authenticationBiometricsMethod:(id)arg1 didReceiveFeedback: /* Error: Ran out of types for this method. */;
+- (id)~;
 
 // Remaining properties
 @property(nonatomic) _Bool sendPush; // @synthesize sendPush=_sendPush;

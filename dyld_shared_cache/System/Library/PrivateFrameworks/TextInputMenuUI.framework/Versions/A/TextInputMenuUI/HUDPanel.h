@@ -9,16 +9,13 @@
 @interface HUDPanel
 {
     _Bool fIsEventCaptureOurs;
-    _Bool fIgnoreNextFlagChangedEvent;
-    struct CGPoint _globalMousePositionOnOpeningPanel;
-    NSTimer *_orderOutWatchdogTimer;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);
@@ -38,9 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint globalMousePositionOnOpeningPanel; // @synthesize globalMousePositionOnOpeningPanel=_globalMousePositionOnOpeningPanel;
-@property _Bool ignoreNextFlagChangedEvent; // @synthesize ignoreNextFlagChangedEvent=fIgnoreNextFlagChangedEvent;
-@property _Bool isEventCaptureOurs; // @synthesize isEventCaptureOurs=fIsEventCaptureOurs;
 @property(retain, nonatomic) NSTimer *orderOutWatchdogTimer; // @synthesize orderOutWatchdogTimer=_orderOutWatchdogTimer;
 
 @end

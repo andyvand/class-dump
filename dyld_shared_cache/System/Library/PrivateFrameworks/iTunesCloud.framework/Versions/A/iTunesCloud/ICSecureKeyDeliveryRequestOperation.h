@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ICSecureKeyDeliveryRequestOperation : ICAsyncOperation
 {
     ICSecureKeyDeliveryRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
@@ -28,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) ICSecureKeyDeliveryRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

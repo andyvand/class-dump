@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
-
 @interface EKVirtualConferenceExtensionContext
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)ArtworkChangedNotification for content items %@.;
+- (id)Controller] <%@> processing PlaybackQueueContentItemsArtworkChangedNotification for content items %@.;
+- (void)ailed to enter critical section. error:(_Bool)arg1 %@;
 - (id);
-- (id);
-- (void);
-- (id);
-- (int)sForEntityType: /* Error: Ran out of types for this method. */;
+- (int)calendarsForEntityType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URLForInvalidation;
-@property(readonly, nonatomic) NSURL *URLForRenewal;
-@property(readonly, nonatomic) NSDate *renewalDate;
 @property(readonly, nonatomic) int requestType;
-@property(readonly, nonatomic) NSString *roomTypeIdentifier;
 
 @end
 

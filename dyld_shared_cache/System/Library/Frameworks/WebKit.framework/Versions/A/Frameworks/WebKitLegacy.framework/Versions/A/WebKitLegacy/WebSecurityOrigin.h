@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WebQuotaManager;
-
 @interface WebSecurityOrigin
 {
     struct WebSecurityOriginPrivate *_private;
-    id <WebQuotaManager> _databaseQuotaManager;
 }
 
 + (id);
-- (id);
+- (id);
 - (void *);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)getLastCachedDataUpdateDate;
+- (void)ialize APS. %{public}@;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned short);
+- (unsigned short);
 - (id);
 - (id);
 - (void);

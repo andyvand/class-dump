@@ -7,6 +7,7 @@
 @class BSSettings;
 
 @protocol FBSSettingsSubclass
++ (Class)#;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) BSSettings *otherSettings;

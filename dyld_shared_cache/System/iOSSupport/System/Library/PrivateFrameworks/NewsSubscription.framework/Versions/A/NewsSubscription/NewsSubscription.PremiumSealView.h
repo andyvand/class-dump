@@ -7,10 +7,6 @@
 @interface NewsSubscription.PremiumSealView
 {
     id outerTintColor;
-    id innerTintColor;
-    id isHidingSeal;
-    id outerImageView;
-    id innerImageView;
 }
 
 - (id);

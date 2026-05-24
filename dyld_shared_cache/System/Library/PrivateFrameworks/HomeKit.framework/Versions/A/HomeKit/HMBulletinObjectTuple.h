@@ -9,7 +9,6 @@
 @interface HMBulletinObjectTuple
 {
     NSString *_queryName;
-    NSString *_uuidString;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *queryName; // @synthesize queryName=_queryName;
-@property(readonly, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGConsolidatedAddress, PGGraphPublicEventNode;
+@class PGGraphPublicEventNode;
 
 @interface PGResolvablePublicEventBusinessItem
 {
     PGGraphPublicEventNode *_publicEventNode;
-    PGConsolidatedAddress *_consolidatedAddress;
-    unsigned long long _businessItemMuid;
 }
 
-- (id);
-- (id);
+- (id)plicationManager";
+- (id)AXKApplicationContentAccessorBase;
 - (id);
 - (unsigned long long);
-- (void)ent;
+- (void)Equipment;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long businessItemMuid; // @synthesize businessItemMuid=_businessItemMuid;
-@property(readonly, nonatomic) PGConsolidatedAddress *consolidatedAddress; // @synthesize consolidatedAddress=_consolidatedAddress;
 @property(readonly, nonatomic) PGGraphPublicEventNode *publicEventNode; // @synthesize publicEventNode=_publicEventNode;
 
 @end

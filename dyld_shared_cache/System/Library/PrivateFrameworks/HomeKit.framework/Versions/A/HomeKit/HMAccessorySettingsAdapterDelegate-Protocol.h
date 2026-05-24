@@ -5,5 +5,6 @@
 //
 
 @protocol HMAccessorySettingsAdapterDelegate
+- (void);
 @end
 

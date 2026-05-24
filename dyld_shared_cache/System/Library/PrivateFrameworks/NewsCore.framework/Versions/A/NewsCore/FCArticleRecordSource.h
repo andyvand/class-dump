@@ -6,66 +6,58 @@
 
 #import <NewsCore/FCRecordSource.h>
 
-@class NFUnfairLock, NSArray, NSString;
+@class NFUnfairLock, NSArray;
 
 @interface FCArticleRecordSource : FCRecordSource
 {
     NSArray *_engagementRecordKeys;
-    NSArray *_conversionRecordKeys;
-    NSArray *_topicFlagsRecordKeys;
-    NSArray *_articleTagMetadataRecordKeys;
-    NSArray *_embeddingRecordKeys;
-    NFUnfairLock *_experimentalFieldsLock;
-    unsigned long long _desiredArticleRecordFieldOptions;
-    NSString *_engagementCohortsExpField;
-    NSString *_conversionCohortsExpField;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)P;
 + (id);
 + (_Bool);
-+ (id);
++ (id)iner,l=c.endContainer,o===l)this.insertNodeWithParentAndNextSibling(f,o,a),c.setStartAfter(f),d?c.setEndBefore(d):c.setEndAfter(s),this.deleteRange(c);else if((e=c.commonAncestorContainer)===l){for(this.deleteRange(c),n=d;n&&n.parentNode!==e;)n=n.parentNode;this.insertNodeWithParentAndNextSibling(f,e,n)}else if(e===o)this.deleteRange(c),this.insertNodeWithParentAndOffset(f,e,c.startOffset);else{if(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),f=r.mf_createMessageQuoteElement(),(m=c.cloneContents())&&f.appendChild(m),f.mf_containsOnlySelectionMarkers()&&f.mf_appendBlockPlaceholder(),"blockquote"===(e=c.commonAncestorContainer).nodeName.toLowerCase())c.setStart(e,0),n=undefined,this.deleteRange(c);else{let t=c.endContainer;for(let n=t.parentElement;n!==e;n=n.parentElement)t=n;n=t.nextSibling,this.deleteRange(c),t.parentElement===e&&(n=t)}this.insertNodeWithParentAndNextSibling(f,e,n)}document.undoManager&&(()=>{const e=[f],n=u;document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}else if(-1===e){let e,n,o,r,l,a;for(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),e=c.mf_lastNode(),o=c.mf_firstNode(),l=!1;!l&&o;)(r=(n=o).mf_highestContainingBlockQuote())||(r=n.mf_firstDescendantBlockQuote()),r?(l=e.mf_isDescendantOfNode(r),o=r.mf_nextSiblingOrAunt(),a=this.removeBlockQuoteFromTree(r),i=!0):(l=e.mf_isDescendantOfNode(n)||n.mf_isDescendantOfNode(e),o=n.mf_nextSiblingOrAunt());document.undoManager&&a&&u&&(()=>{const e=a,n=[u];document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}return f&&f.parentNode&&this.temporaryEndingSelectionMarker()===f.lastChild&&f.parentNode.insertBefore(this.temporaryEndingSelectionMarker(),f.nextSibling),this.restoreSelectionFromTemporaryMarkers(),i},BodyField.prototype.convertInternalImagesToAttachments=function(e,t,n){let i={},o=document.isInlineGenmojiEnabled?"img, picture > source":"img";for(let e of document.querySelectorAll(o)){let o=e instanceof HTMLSourceElement?e.srcset:e.src;if(!o||!o.startsWith("cid:"))continue;let r=t[o];if(!r)continue;let l=e instanceof HTMLSourceElement?"srcset":"src";e.removeAttribute(l),i[HTMLAttachmentElement.getAttachmentIdentifier(e)]=safeNSURL(o),n&&n(e,r)}return i},BodyField.prototype.replacePlaceholderWithAttachment=function(e,t){let n;if(t.isImage){let t=document.createElement("img");e.replaceWith(t),n=HTMLAttachmentElement.getAttachmentIdentifier(t)}else{let t=document.createElement("attachment");e.replaceWith(t),n=t.uniqueIdentifier}return n},BodyField.prototype.convertSourceElementsToAttachmentElements=function(e,t){return document.isInlineGenmojiEnabled?this.convertElementsToAttachmentElements("picture > source",e,t):{}},BodyField.prototype.convertObjectElementsToAttachmentElements=function(e,t){return this.convertElementsToAttachmentElements("object[type='application/x-apple-msg-attachment']",e,t)},BodyField.prototype.convertElementsToAttachmentElements=function(e,t,n){let i={};for(let o of t.querySelectorAll(e)){let e=o.getAttribute("data"),t=safeNSURL(e);if(!t)continue;let r=n[e];r&&(i[this.replacePlaceholderWithAttachment(o,r)]=t)}return i},BodyField.prototype.replaceRangeWithNode=function(e,t){e.deleteContents(),e.insertNode(t)},BodyField.prototype.stripCustomBodyIdentifiers=function(){this.bodyInputController.stripCustomBodyIdentifiers()},BodyField.prototype.remoteContentEnabled=function(e){document.remoteContentEnabled=e},BodyField.prototype.enableQuickReply=function(e){document.mf_quickReplyDisplayHiddenNodes(!e)};let previousQuickReplyComputedHeight=0;BodyField.prototype.enableSmartReply=function(e){e?postShowSmartReplySuggestionsMessageIfNecessary(document,window):(showSmartReplySuggestions=!1,window.webkit.messageHandlers.ShowSmartReplySuggestions.postMessage(showSmartReplySuggestions))}; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
-- (id);
+- (id)actActivity:(id)arg1 ];
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (id)dataWithContentsOfURL:(id)arg1 options:(id)arg2 error:(id)arg3;
+- (unsigned long long)clientToRemovabilityMetadataMap;
+- (void);
+- (id);
+- (void);
+- (id):Adding sparsebundles:Creating system of type [SMSystem_Daemon_TMSparseBundle] for %@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)Emoji",bigEmojiFontSize="-webkit-xxx-large",defaultEmojiFontSize="-apple-system-body",maxNumberBigEmoji=3,largeInheritedFontSize=7;;
 - (id)@"FCSportsEventController";
 - (void)viderType>"16@0:(id)arg1 8;
 - (unsigned long long)_metadataJSONAssetHandle;
-- (id)dleChannelIDsByPurchaseID;
+- (id)_bundleChannelIDsByPurchaseID;
 - (id)ÿÿÿÿp;
 - (unsigned long long)ppActivityMonitor:backgroundTaskable:] /* Error: Ran out of types for this method. */;
-- (void)ningPercentageThreshold;
-- (void)ackFinished;
+- (void)audioPlaylistSweepListeningPercentageThreshold;
+- (void)trackFinished;
 - (id)p config allows cleanup to v3 (secure subscription);
 - (id);
 - (id)ÿ§Epµ;
@@ -74,15 +66,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *articleTagMetadataRecordKeys; // @synthesize articleTagMetadataRecordKeys=_articleTagMetadataRecordKeys;
-@property(retain, nonatomic) NSString *conversionCohortsExpField; // @synthesize conversionCohortsExpField=_conversionCohortsExpField;
-@property(retain, nonatomic) NSArray *conversionRecordKeys; // @synthesize conversionRecordKeys=_conversionRecordKeys;
-@property(nonatomic) unsigned long long desiredArticleRecordFieldOptions; // @synthesize desiredArticleRecordFieldOptions=_desiredArticleRecordFieldOptions;
-@property(retain, nonatomic) NSArray *embeddingRecordKeys; // @synthesize embeddingRecordKeys=_embeddingRecordKeys;
-@property(retain, nonatomic) NSString *engagementCohortsExpField; // @synthesize engagementCohortsExpField=_engagementCohortsExpField;
-@property(retain, nonatomic) NSArray *engagementRecordKeys; // @synthesize engagementRecordKeys=_engagementRecordKeys;
 @property(retain, nonatomic) NFUnfairLock *experimentalFieldsLock; // @synthesize experimentalFieldsLock=_experimentalFieldsLock;
-@property(retain, nonatomic) NSArray *topicFlagsRecordKeys; // @synthesize topicFlagsRecordKeys=_topicFlagsRecordKeys;
 
 @end
 

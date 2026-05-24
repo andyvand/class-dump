@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UINSEwmaFilter;
-
 __attribute__((visibility("hidden")))
 @interface UINSScrollState
 {
     double _velocityLastTimestamp;
-    UINSEwmaFilter *_velocityFilterX;
-    UINSEwmaFilter *_velocityFilterY;
-    unsigned int _contextId;
-    unsigned long long _gesturePhase;
-    unsigned long long _momentumPhase;
-    unsigned long long _relativePhase;
-    NSTimer *_relativeTimer;
 }
 
 - (void);
@@ -25,23 +16,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (struct CGPoint);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (void);
 - (void)e;
 - (unsigned int)creation completion(s) for sceneID:%{public}@  persistentID:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) unsigned long long gesturePhase; // @synthesize gesturePhase=_gesturePhase;
-@property(nonatomic) unsigned long long momentumPhase; // @synthesize momentumPhase=_momentumPhase;
-@property(readonly, nonatomic) struct CGPoint momentumVelocity;
-@property(nonatomic) unsigned long long relativePhase; // @synthesize relativePhase=_relativePhase;
-@property(retain, nonatomic) NSTimer *relativeTimer; // @synthesize relativeTimer=_relativeTimer;
 
 @end
 

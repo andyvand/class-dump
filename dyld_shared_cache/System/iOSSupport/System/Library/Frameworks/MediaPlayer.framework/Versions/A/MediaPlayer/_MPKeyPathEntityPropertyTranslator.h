@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MPKeyPathEntityPropertyTranslator
 {
     NSArray *_sourceKeyPaths;
-    CDUnknownBlockType _valueTransformBlock;
-    CDUnknownFunctionPointerType _valueTransformFunction;
 }
 
 + (id);
@@ -20,19 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)L;
+- (void)_contentURL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *sourceKeyPaths; // @synthesize sourceKeyPaths=_sourceKeyPaths;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType valueTransformBlock; // @synthesize valueTransformBlock=_valueTransformBlock;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType valueTransformFunction; // @synthesize valueTransformFunction=_valueTransformFunction;
 
 @end
 

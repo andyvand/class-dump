@@ -13,9 +13,9 @@
     PKPeerPaymentPreferences *_peerPaymentPreferences;
 }
 
+- (id)h;
 - (id);
-- (id);
-- (void)bleDocuments;
+- (void)acceptableDocuments;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentPreferences *peerPaymentPreferences; // @synthesize peerPaymentPreferences=_peerPaymentPreferences;

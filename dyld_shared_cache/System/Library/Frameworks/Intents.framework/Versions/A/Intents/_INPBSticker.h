@@ -9,11 +9,6 @@
 @interface _INPBSticker
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    NSString *_appBundleID;
-    NSString *_avatarDescriptor;
-    NSString *_emoji;
-    NSString *_stickerDescription;
 }
 
 + (_Bool);
@@ -30,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)`&;
 - (int);
 - (_Bool);
 - (void);
@@ -39,30 +34,14 @@
 - (void);
 - (id);
 - (int);
-- (id)arSystem;
-- (_Bool)AsString: /* Error: Ran out of types for this method. */;
-- (void)tanceList;
-- (void)und;
+- (id)hasCalendarSystem;
+- (_Bool)reasonAsString: /* Error: Ran out of types for this method. */;
+- (void)_INPBDistanceList;
+- (void)INSearchForContactIntentResponseCodeFailurePhoneNumberNotFound;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(copy, nonatomic) NSString *avatarDescriptor; // @synthesize avatarDescriptor=_avatarDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
-@property(readonly, nonatomic) _Bool hasAppBundleID;
-@property(readonly, nonatomic) _Bool hasAvatarDescriptor;
-@property(readonly, nonatomic) _Bool hasEmoji;
-@property(readonly, nonatomic) _Bool hasStickerDescription;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *stickerDescription; // @synthesize stickerDescription=_stickerDescription;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

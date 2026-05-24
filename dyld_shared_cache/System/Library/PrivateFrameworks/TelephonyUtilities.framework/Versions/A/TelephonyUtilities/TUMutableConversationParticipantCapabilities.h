@@ -12,19 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic, getter=isGFTDowngradeToOneToOneAvailable) _Bool gftDowngradeToOneToOneAvailable; // @dynamic gftDowngradeToOneToOneAvailable;
-@property(nonatomic, getter=isGondolaCallingAvailable) _Bool gondolaCallingAvailable; // @dynamic gondolaCallingAvailable;
 @property(nonatomic, getter=isMomentsAvailable) _Bool momentsAvailable; // @dynamic momentsAvailable;
-@property(nonatomic, getter=isPersonaAvailable) _Bool personaAvailable; // @dynamic personaAvailable;
-@property(nonatomic, getter=isPhotosSharePlayAvailable) _Bool photosSharePlayAvailable; // @dynamic photosSharePlayAvailable;
-@property(nonatomic, getter=isScreenSharingAvailable) _Bool screenSharingAvailable; // @dynamic screenSharingAvailable;
-@property(nonatomic) unsigned long long sharePlayProtocolVersion; // @dynamic sharePlayProtocolVersion;
-@property(nonatomic) _Bool supportsLeaveContext; // @dynamic supportsLeaveContext;
-@property(nonatomic) _Bool supportsRequestToScreenShare; // @dynamic supportsRequestToScreenShare;
-@property(nonatomic, getter=isTranslationAvailable) _Bool translationAvailable; // @dynamic translationAvailable;
-@property(nonatomic, getter=isUPlusNDowngradeAvailable) _Bool uPlusNDowngradeAvailable; // @dynamic uPlusNDowngradeAvailable;
-@property(nonatomic, getter=isUPlusOneAVLessAvailable) _Bool uPlusOneAVLessAvailable; // @dynamic uPlusOneAVLessAvailable;
-@property(nonatomic, getter=isUPlusOneScreenShareAvailable) _Bool uPlusOneScreenShareAvailable;
-@property(nonatomic, getter=isUPlusOneVisionToVisionAvailable) _Bool uPlusOneVisionToVisionAvailable; // @dynamic uPlusOneVisionToVisionAvailable;
 @end
 

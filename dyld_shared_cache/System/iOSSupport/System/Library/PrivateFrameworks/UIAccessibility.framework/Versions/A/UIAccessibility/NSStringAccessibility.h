@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class)4;
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)2SGtcG;
 - (id);
 - (id);
 - (id);

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _SFAuthenticatedEncryptionOperation, _SFECDHOperation;
-@protocol SFDigestOperation;
-
 __attribute__((visibility("hidden")))
 @interface SFIESOperation_Ivars
 {
     long long curve;
-    _SFECDHOperation *diffieHellmanOperation;
-    _SFAuthenticatedEncryptionOperation *encryptionOperation;
-    id <SFDigestOperation> digestOperation;
 }
 
 - (void);

@@ -21,15 +21,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (unsigned long long);
+- (id)c cert not for key agreement;
+- (unsigned long long)buildWithIdentifier:withAllowDriverDoNotDisturbModifications: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *formattedTextItems; // @synthesize formattedTextItems=_formattedTextItems;
-@property(readonly) _Bool hasContent;
-@property(readonly) _Bool hasOnlyImage;
 
 @end
 

@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSData, NSError, NSString, NSURL;
+@class CKRecordZoneID;
 
 @interface CKAssetRereferenceInfo
 {
     CKRecordZoneID *_sourceZoneID;
-    NSURL *_contentBaseURL;
-    NSString *_owner;
-    NSString *_requestor;
-    NSData *_assetKey;
-    NSData *_referenceSignature;
-    NSString *_downloadToken;
-    unsigned long long _downloadTokenExpiration;
-    NSError *_error;
-    NSString *_destinationFieldName;
 }
 
 
 // Remaining properties
-@property(copy) NSData *assetKey; // @synthesize assetKey=_assetKey;
-@property(copy) NSURL *contentBaseURL; // @synthesize contentBaseURL=_contentBaseURL;
-@property(copy) NSString *destinationFieldName; // @synthesize destinationFieldName=_destinationFieldName;
-@property(copy) NSString *downloadToken; // @synthesize downloadToken=_downloadToken;
-@property unsigned long long downloadTokenExpiration; // @synthesize downloadTokenExpiration=_downloadTokenExpiration;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(copy) NSString *owner; // @synthesize owner=_owner;
-@property(copy) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
-@property(copy) NSString *requestor; // @synthesize requestor=_requestor;
 @property(readonly, copy, nonatomic) CKRecordZoneID *sourceZoneID; // @synthesize sourceZoneID=_sourceZoneID;
 @end
 

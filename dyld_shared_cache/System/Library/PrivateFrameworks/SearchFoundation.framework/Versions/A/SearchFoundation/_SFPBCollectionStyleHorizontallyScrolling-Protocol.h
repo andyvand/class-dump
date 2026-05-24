@@ -7,9 +7,10 @@
 @class NSData;
 
 @protocol _SFPBCollectionStyleHorizontallyScrolling
+- (NSData *)PHAssetCameraCaptureDeviceProperties;
+- (id)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long numberOfRows;
 @end
 

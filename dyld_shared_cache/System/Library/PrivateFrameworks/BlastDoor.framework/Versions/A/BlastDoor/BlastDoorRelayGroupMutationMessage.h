@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorGroupID, BlastDoorRelayGroupMutationWrapper, NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorRelayGroupMutationMessage
 {
@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)16Q24@32;
+- (id)wController";
+- (id)@"NSData";
 - (_Bool);
 - (id);
 - (id);
@@ -26,15 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *destinationCallerID;
-@property(nonatomic, readonly) _Bool fromMe;
-@property(nonatomic, readonly) BlastDoorGroupID *groupID;
-@property(nonatomic, readonly) NSUUID *guid;
-@property(nonatomic, readonly) BlastDoorRelayGroupMutationWrapper *mutation;
-@property(nonatomic, readonly) BlastDoorGroupID *originalGroupID;
-@property(nonatomic, readonly) NSString *sender;
-@property(nonatomic, readonly) NSString *service;
-@property(nonatomic, readonly) _Bool unattributed;
 
 @end
 

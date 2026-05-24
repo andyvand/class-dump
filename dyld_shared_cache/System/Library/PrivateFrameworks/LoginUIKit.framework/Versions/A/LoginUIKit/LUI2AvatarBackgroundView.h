@@ -6,12 +6,11 @@
 
 #import <LoginUIKit/LUI2View.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface LUI2AvatarBackgroundView : LUI2View
 {
     NSString *_backgroundColorDescription;
-    NSMutableArray *_backgroundLayers;
 }
 
 - (void);
@@ -26,12 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property(retain) NSString *backgroundColorDescription; // @synthesize backgroundColorDescription=_backgroundColorDescription;
-@property(retain) NSMutableArray *backgroundLayers; // @synthesize backgroundLayers=_backgroundLayers;
-@property(copy) NSString *colorDescription;
 
 @end
 

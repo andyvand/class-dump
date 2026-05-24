@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDiffusionTextSynthesizerKo, CHDiffusionTextSynthesizerLatin, CHDiffusionTextSynthesizerZhJa, CHFastPathTextSynthesizer, CHSynthesisStyleInventory, NSString;
+@class CHDiffusionTextSynthesizerLatin;
 
 @interface CHMultiScriptTextSynthesizer
 {
     CHDiffusionTextSynthesizerLatin *_diffusionSynthesizerLatn;
-    CHDiffusionTextSynthesizerZhJa *_diffusionSynthesizerZhJa;
-    CHDiffusionTextSynthesizerKo *_diffusionSynthesizerKo;
-    CHFastPathTextSynthesizer *_fastPathSynthesizer;
-    CHSynthesisStyleInventory *_styleInventory;
-    struct map<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>>> preprocessors;
-    struct map<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>>>> postprocessors;
 }
 
 + (int);
@@ -26,14 +20,14 @@
 + (id);
 + (id);
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -43,13 +37,7 @@
 - (void)è#;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPPINEntryView, UIActivityIndicatorView, UIButton, UILabel;
+@class NSObject, UIButton, UILabel;
 @protocol OS_dispatch_source;
 
 @interface RPPairingPromptViewController
 {
     NSObject<OS_dispatch_source> *_retryTimer;
     unsigned long long _retryDeadlineTicks;
-    CDUnknownBlockType _dismissHandler;
-    CDUnknownBlockType _tryPasswordHandler;
-    UIButton *_cancelButton;
-    UILabel *_titleLabel;
-    UILabel *_subTitleLabel;
-    RPPINEntryView *_pinEntryView;
-    UIActivityIndicatorView *_progressSpinner;
-    UILabel *_progressLabel;
 }
 
 + (id);
@@ -42,19 +34,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)Frameworks/ImageIO.framework/Versions/A/ImageIO;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(retain, nonatomic) RPPINEntryView *pinEntryView; // @synthesize pinEntryView=_pinEntryView;
-@property(retain, nonatomic) UILabel *progressLabel; // @synthesize progressLabel=_progressLabel;
-@property(retain, nonatomic) UIActivityIndicatorView *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(retain, nonatomic) UILabel *subTitleLabel; // @synthesize subTitleLabel=_subTitleLabel;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy, nonatomic) CDUnknownBlockType tryPasswordHandler; // @synthesize tryPasswordHandler=_tryPasswordHandler;
 
 @end
 

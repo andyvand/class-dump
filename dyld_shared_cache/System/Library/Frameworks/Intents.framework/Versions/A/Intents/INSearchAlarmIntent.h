@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INAlarmSearch, NSArray, NSString;
+@class INAlarmSearch;
 
 @interface INSearchAlarmIntent : INIntent
 {
@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)qa;
 - (void);
-- (long long);
-- (void);
+- (long long)];
+- (void)removeObjectsForKeys:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -34,15 +34,6 @@
 
 // Remaining properties
 @property(readonly, copy) INAlarmSearch *alarmSearch;
-@property(readonly) long long alarmSearchType;
-@property(readonly, copy) NSArray *alarms;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

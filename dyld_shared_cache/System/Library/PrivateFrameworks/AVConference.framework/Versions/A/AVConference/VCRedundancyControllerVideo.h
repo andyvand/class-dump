@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCStatisticsCollector, NSArray, NSString;
-@protocol VCRedundancyControlAlgorithm;
-
 __attribute__((visibility("hidden")))
 @interface VCRedundancyControllerVideo
 {
     id _redundancyControllerDelegate;
-    AVCStatisticsCollector *_statisticsCollector;
-    int _mode;
-    id <VCRedundancyControlAlgorithm> _algorithm;
-    unsigned int _currentRedundancyPercentage;
-    int _forceRedundancyPercentage;
-    double _lastDefaultSettingLoadingTime;
-    unsigned char _mediaControlInfoFECFeedbackVersion;
-    int _type;
-    unsigned long long _statisticsID;
-    _Bool _isNWConnectionEnabled;
-    unsigned int _btNotificationMonitorToken;
-    _Bool _isUsingInternalStatisticsCollector;
-    NSArray *_fecLevelPerFrameSizeVector;
 }
 
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,23 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int currentRedundancyPercentage; // @synthesize currentRedundancyPercentage=_currentRedundancyPercentage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *fecLevelPerFrameSizeVector; // @synthesize fecLevelPerFrameSizeVector=_fecLevelPerFrameSizeVector;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
 @property(nonatomic) unsigned long long statisticsID; // @synthesize statisticsID=_statisticsID;
-@property(readonly) Class superclass;
 
 @end
 

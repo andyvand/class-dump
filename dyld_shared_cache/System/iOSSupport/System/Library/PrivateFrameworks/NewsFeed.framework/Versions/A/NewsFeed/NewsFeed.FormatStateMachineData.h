@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatStateMachineData
 {
     id definition;
-    id output;
 }
 
 @end

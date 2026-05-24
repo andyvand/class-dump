@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBPrivateDataControllerSyncState
 {
     unsigned long long _version;
-    NSMutableArray *_recordStates;
-    NSMutableArray *_zoneStates;
-    CDStruct_f20694ce _has;
 }
 
 @end

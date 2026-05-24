@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSNetServiceBrowser;
+
 @protocol NSNetServiceBrowserDelegate
+
+@optional
+- (void)works for NFSession;
+- (void)ernalSession;
+- (void)ssion"8@"NSError"16;
+- (void)postConfirmUpdateOffers;
+- (void)ngType:(NSNetServiceBrowser *)arg1 property:(NSDictionary *)arg2;
+- (void)_;
 @end
 

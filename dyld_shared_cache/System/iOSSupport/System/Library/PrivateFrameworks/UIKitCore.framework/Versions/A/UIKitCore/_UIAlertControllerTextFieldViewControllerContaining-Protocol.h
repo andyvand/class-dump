@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol _UIAlertControllerTextFieldViewControllerContaining
+- (UIView *);
+- (_Bool)onController";
+- (void)joinChat:style:joinProperties: /* Error: Ran out of types for this method. */;
 @end
 

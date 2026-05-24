@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, BSSettings, NSError, NSString;
+@class BSSettings;
 
 @interface BSActionResponse
 {
     BSSettings *_info;
-    NSError *_error;
-    BSAuditToken *_auditToken;
 }
 
 + (id);
@@ -19,13 +17,13 @@
 + (void);
 - (id);
 - (void);
+- (id)cM;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)cd;
 - (void);
 - (unsigned long long);
 - (id);
@@ -38,16 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) BSSettings *info; // @synthesize info=_info;
-@property(readonly) Class superclass;
 
 @end
 

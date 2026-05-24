@@ -6,16 +6,16 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SASRecognition;
+@class NSArray;
 
 @interface SAUIRevealRecognizedSpeech : SABaseClientBoundCommand
 {
 }
 
-- (id);
+- (id)Լ;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)8;
 - (id);
 - (id);
 - (void);
@@ -26,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *asrAlternatives;
-@property(copy, nonatomic) NSString *overriddenSpeech;
-@property(retain, nonatomic) SASRecognition *recognition;
-@property(copy, nonatomic) NSString *speechRecognizedAceId;
 
 @end
 

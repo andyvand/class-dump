@@ -6,21 +6,19 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MPDelegateAccountCommandEvent : MPRemoteCommandEvent
 {
     NSString *_delegateAccountDataType;
-    NSData *_delegateAccountData;
 }
 
-- (id);
+- (id)atDisableRowSecurity;
 - (id);
 - (id);
 - (void)T@"NSDictionary",C,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *delegateAccountData; // @synthesize delegateAccountData=_delegateAccountData;
 @property(readonly, nonatomic) NSString *delegateAccountDataType; // @synthesize delegateAccountDataType=_delegateAccountDataType;
 
 @end

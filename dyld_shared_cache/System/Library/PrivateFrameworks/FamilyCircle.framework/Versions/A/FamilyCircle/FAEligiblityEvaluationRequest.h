@@ -11,18 +11,16 @@
 @interface FAEligiblityEvaluationRequest : FAFamilyCircleRequest
 {
     NSString *_propertyName;
-    NSString *_bundleID;
 }
 
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)shouldSkipExecution;
+- (id)%@;
+- (unsigned long long)s;
+- (id);
+- (id)_receivedBatchWithUpdatedItems:deletedItemsIdentifiers:forceFlush:dropForReplacedPlaceholders: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(readonly, copy, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <TimeSync/TSClock.h>
 
-@class NSPointerArray, TSDCKernelClock;
+@class TSDCKernelClock;
 
 @interface TSKernelClock : TSClock
 {
     TSDCKernelClock *_impl;
-    NSPointerArray *_clients;
-    struct os_unfair_lock_s _clientLock;
-    CDUnknownBlockType _interruptionHandler;
 }
 
 + (id);
@@ -28,17 +25,17 @@
 - (id);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)Z8_;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -54,7 +51,7 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (int);
 - (void);
 - (void);

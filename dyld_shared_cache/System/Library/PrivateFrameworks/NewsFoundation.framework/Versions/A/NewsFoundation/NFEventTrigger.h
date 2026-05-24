@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface NFEventTrigger
 {
     _Bool _fireOnce;
-    _Bool _fireOnAny;
-    NSString *_key;
-    NSSet *_events;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)SMB nor AFP;
 - (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy, nonatomic) NSSet *events; // @synthesize events=_events;
-@property(readonly, nonatomic) _Bool fireOnAny; // @synthesize fireOnAny=_fireOnAny;
-@property(readonly, nonatomic) _Bool fireOnce; // @synthesize fireOnce=_fireOnce;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

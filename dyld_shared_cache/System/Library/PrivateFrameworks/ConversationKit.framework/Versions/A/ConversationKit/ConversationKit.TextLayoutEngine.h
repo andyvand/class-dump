@@ -7,8 +7,6 @@
 @interface ConversationKit.TextLayoutEngine
 {
     id storage;
-    id container;
-    id manager;
 }
 
 @end

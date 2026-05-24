@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDMapsIdentifier, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExploreGuidesLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _supportedPunchoutTypes;
-    NSString *_airportCode;
-    GEOPDMapsIdentifier *_cityMapsId;
-    NSString *_city;
-    GEOLatLng *_referenceLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_supportedPunchoutTypes:1;
-        unsigned int read_airportCode:1;
-        unsigned int read_cityMapsId:1;
-        unsigned int read_city:1;
-        unsigned int read_referenceLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);

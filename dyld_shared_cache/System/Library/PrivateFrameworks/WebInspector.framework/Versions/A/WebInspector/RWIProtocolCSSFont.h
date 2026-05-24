@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolCSSFont : RWIProtocolJSONObject
 {
@@ -24,9 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName;
-@property(nonatomic) _Bool synthesizedBold;
-@property(nonatomic) _Bool synthesizedOblique;
-@property(copy, nonatomic) NSArray *variationAxes;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface PIParallaxColorAnalysisRequest
 {
     _Bool _analyzeBackground;
-    _Bool _analyzeHeadroom;
-    id <NUImageBuffer> _segmentationMatte;
-    long long _maxDominantColors;
-    double _dominanceThreshold;
-    double _chromaThreshold;
-    struct CGRect _normalizedClipRect;
 }
 
 - (void);
@@ -29,22 +23,16 @@
 - (long long);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void)InputForegroundImage: /* Error: Ran out of types for this method. */;
+- (void)setInputForegroundImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool analyzeBackground; // @synthesize analyzeBackground=_analyzeBackground;
-@property(nonatomic) _Bool analyzeHeadroom; // @synthesize analyzeHeadroom=_analyzeHeadroom;
-@property(nonatomic) double chromaThreshold; // @synthesize chromaThreshold=_chromaThreshold;
-@property(nonatomic) double dominanceThreshold; // @synthesize dominanceThreshold=_dominanceThreshold;
-@property(nonatomic) long long maxDominantColors; // @synthesize maxDominantColors=_maxDominantColors;
-@property(nonatomic) struct CGRect normalizedClipRect; // @synthesize normalizedClipRect=_normalizedClipRect;
 @property(retain, nonatomic) id <NUImageBuffer> segmentationMatte; // @synthesize segmentationMatte=_segmentationMatte;
 
 @end

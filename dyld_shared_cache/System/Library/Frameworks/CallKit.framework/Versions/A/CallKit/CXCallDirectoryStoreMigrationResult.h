@@ -7,14 +7,11 @@
 @interface CXCallDirectoryStoreMigrationResult
 {
     _Bool _requiresExtensionDisablement;
-    _Bool _requiresExtensionSynchronization;
-    long long _startingSchemaVersion;
-    long long _endingSchemaVersion;
 }
 
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -22,9 +19,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long endingSchemaVersion; // @synthesize endingSchemaVersion=_endingSchemaVersion;
-@property(nonatomic) _Bool requiresExtensionDisablement; // @synthesize requiresExtensionDisablement=_requiresExtensionDisablement;
-@property(nonatomic) _Bool requiresExtensionSynchronization; // @synthesize requiresExtensionSynchronization=_requiresExtensionSynchronization;
 @property(nonatomic) long long startingSchemaVersion; // @synthesize startingSchemaVersion=_startingSchemaVersion;
 
 @end

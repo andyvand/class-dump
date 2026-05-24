@@ -9,21 +9,19 @@
 @interface CKContextCountedString
 {
     NSString *_string;
-    unsigned long long _count;
 }
 
-+ (id);
++ (id)nting feedurl=%{public}s;
 + (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (void);
-- (void);
+- (void)__MPModelPropertyAlbumArtwork__MAPPING_MISSING__;
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

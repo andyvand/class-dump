@@ -6,23 +6,13 @@
 
 #import <AVConference/VCMediaStreamReceiveGroup.h>
 
-@class NSMutableDictionary, VCAudioStreamGroupCommon;
+@class VCAudioStreamGroupCommon;
 @protocol VCMediaStreamSyncSource;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamReceiveGroup : VCMediaStreamReceiveGroup
 {
     VCAudioStreamGroupCommon *_common;
-    struct tagVCAudioStreamGroupPriorityInfo _mediaPriorityInfo;
-    CDUnknownFunctionPointerType _didPullSamplesCallback;
-    void *_didPullSamplesCallbackContext;
-    _Bool _receivingEndToEndStream;
-    float _averageOutputPower;
-    unsigned long long _speakerProcsCalled;
-    unsigned long long _syncTargetCalled;
-    NSMutableDictionary *_syncGroupIdToOverlayTokenMap;
-    unsigned int _currentOverlayToken;
-    _Bool _isVADFilteringEnabled;
 }
 
 - (id);
@@ -38,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (int);
-- (void);
+- (void)N;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -53,23 +43,16 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void)tesInFlight;
 - (_Bool)-[VCVideoStream handleVTPSendFailedWithData:] /* Error: Ran out of types for this method. */;
-- (id);
+- (id)_VTP_SocketWithRealSocketFromFVDList;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioChannelIndex;
-@property(readonly, nonatomic) int deviceRole;
-@property(nonatomic, setter=setMuted:) _Bool isMuted;
-@property(setter=setPowerSpectrumEnabled:) _Bool isPowerSpectrumEnabled;
-@property(nonatomic, setter=setVADFilteringEnabled:) _Bool isVADFilteringEnabled; // @synthesize isVADFilteringEnabled=_isVADFilteringEnabled;
-@property(readonly, nonatomic) int operatingMode;
-@property(nonatomic) unsigned long long spatialAudioSourceID;
 @property(readonly) id <VCMediaStreamSyncSource> syncSource;
 
 @end

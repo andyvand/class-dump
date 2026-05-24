@@ -7,12 +7,6 @@
 @interface AppStoreKit.FramedMedia
 {
     id hasRoundedCorners;
-    id isFullWidth;
-    id ordinal;
-    id caption;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

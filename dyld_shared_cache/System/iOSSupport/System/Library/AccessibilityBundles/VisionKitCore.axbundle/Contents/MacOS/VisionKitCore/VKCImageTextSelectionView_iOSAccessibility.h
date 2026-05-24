@@ -17,10 +17,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id),C,V_activeControllerDevices;
+- (long long)Handlers;
 - (_Bool);
-- (id);
+- (id));
 - (unsigned long long);
 - (id);
 

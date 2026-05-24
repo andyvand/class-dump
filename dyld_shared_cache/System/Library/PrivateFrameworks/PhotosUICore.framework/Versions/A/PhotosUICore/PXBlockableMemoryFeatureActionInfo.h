@@ -9,18 +9,16 @@
 @interface PXBlockableMemoryFeatureActionInfo
 {
     NSString *_actionType;
-    NSString *_localizedTitle;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)Ü?ÊÙÅ¸°Â;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

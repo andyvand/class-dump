@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _CLPlaceInference;
+@class NSDate;
 
 @interface CLVisit
 {
     NSDate *_arrivalDate;
-    NSDate *_departureDate;
-    double _horizontalAccuracy;
-    NSDate *_detectionDate;
-    _CLPlaceInference *__placeInference;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 + (_Bool);
@@ -25,23 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void):invalid JP2:numberOfComponents == %d
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (struct CLLocationCoordinate2D);
-- (id);
-- (double)tionMessageCompensationKey;
+- (id)setPipelineDataSetSerializer:(struct _NSZone *)arg1;
+- (double)kCLConnectionMessageCompensationKey;
 
 // Remaining properties
-@property(readonly, nonatomic) _CLPlaceInference *_placeInference; // @synthesize _placeInference=__placeInference;
-@property(readonly, copy, nonatomic) NSDate *arrivalDate; // @synthesize arrivalDate=_arrivalDate;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy, nonatomic) NSDate *departureDate; // @synthesize departureDate=_departureDate;
-@property(readonly, copy, nonatomic) NSDate *detectionDate; // @synthesize detectionDate=_detectionDate;
 @property(readonly, nonatomic) _Bool hasArrivalDate;
-@property(readonly, nonatomic) _Bool hasDepartureDate;
-@property(readonly, nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
 
 @end
 

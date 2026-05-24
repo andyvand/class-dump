@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface NWActivityClientMetricStatistics
 {
     NSUUID *_activityUUID;
-    NSUUID *_externallyVisibleActivityUUID;
-    NSString *_bundleID;
-    NSDictionary *_dictionaryRepresentation;
-    NSData *_metricData;
-    struct nw_activity_client_metric_report_s _report;
 }
 
 - (void);
@@ -21,14 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -38,14 +33,6 @@
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSDictionary *clientMetric;
-@property(retain, nonatomic) NSString *clientMetricName;
-@property(retain, nonatomic) NSString *clientMetricString;
-@property(retain, nonatomic) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(retain, nonatomic) NSUUID *externallyVisibleActivityUUID; // @synthesize externallyVisibleActivityUUID=_externallyVisibleActivityUUID;
-@property(retain, nonatomic) NSData *metricData; // @synthesize metricData=_metricData;
 @property(nonatomic) struct nw_activity_client_metric_report_s report; // @synthesize report=_report;
 
 @end

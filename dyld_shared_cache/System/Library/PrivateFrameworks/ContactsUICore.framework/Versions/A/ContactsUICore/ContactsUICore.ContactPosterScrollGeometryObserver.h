@@ -7,8 +7,6 @@
 @interface ContactsUICore.ContactPosterScrollGeometryObserver
 {
     id _contentOffset;
-    id _contentInsets;
-    id _$observationRegistrar;
 }
 
 @end

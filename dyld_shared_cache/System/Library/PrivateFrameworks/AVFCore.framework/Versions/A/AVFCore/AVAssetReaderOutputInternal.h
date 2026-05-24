@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVRunLoopCondition, AVWeakReference, NSArray;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderOutputInternal
 {
     AVWeakReference *weakReference;
-    _Bool alwaysCopiesSampleData;
-    _Bool supportsRandomAccess;
-    NSArray *currentTimeRanges;
-    AVWeakReference *weakReferenceToAssetReader;
-    struct OpaqueFigAssetReader *figAssetReader;
-    int extractionID;
-    AVRunLoopCondition *sampleBufferAvailabilityCondition;
-    _Bool currentConfigurationIsFinal;
-    _Bool extractionCompleteForCurrentConfiguration;
-    int finished;
-    _Bool maximizePowerEfficiency;
-    _Bool disablesMultithreadedAndAsyncVideoDecompression;
-    _Bool hasProvider;
 }
 
 @end

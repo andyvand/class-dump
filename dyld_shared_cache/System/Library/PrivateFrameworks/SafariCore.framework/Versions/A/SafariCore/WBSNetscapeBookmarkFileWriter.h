@@ -9,8 +9,6 @@
 @interface WBSNetscapeBookmarkFileWriter
 {
     NSMutableString *_indentation;
-    _Bool _readingList;
-    NSFileHandle *_fileHandle;
 }
 
 - (_Bool);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (void)!¸Aù±Xð1Â0@ù
 × ;
-- (id)count: /* Error: Ran out of types for this method. */;
+- (id)removeHideWarningMarkerForSavedAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;

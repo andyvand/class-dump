@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessage, MCMessageHeaders, MFDeliveryAccount, NSString;
-@protocol MCMessageDataSource, MFMessageDelivererDelegate;
+@class MFDeliveryAccount;
+@protocol MFMessageDelivererDelegate;
 
 @interface MFMessageDeliverer
 {
     MFDeliveryAccount *_account;
-    id <MCMessageDataSource> _messageStore;
-    _Bool _askForReadReceipt;
-    id <MFMessageDelivererDelegate> _delegate;
-    MCMessage *_message;
-    long long _deliveryStatus;
 }
 
-+ (_Bool);
++ (_Bool)K;
 + (id);
 + (_Bool);
 + (id)box_k,)8metadatat;
@@ -27,36 +22,20 @@
 - (long long);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
+- (id)unscheduleFromRunLoop:forMode: /* Error: Ran out of types for this method. */;
+- (void)@;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)L@);
+- (void)CGMagicZoomWindowInfo";
 - (id);
 - (void)Ìÿüÿ4;
 - (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) MFDeliveryAccount *account;
-@property(nonatomic) _Bool askForReadReceipt; // @synthesize askForReadReceipt=_askForReadReceipt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MFMessageDelivererDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long deliveryStatus; // @synthesize deliveryStatus=_deliveryStatus;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MCMessageHeaders *headersForDelivery;
-@property(retain, nonatomic) MCMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

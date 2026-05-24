@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class APSConnection, NSString;
 
 @interface CKDPushConnection
 {
     NSString *_apsEnvironmentString;
-    APSConnection *_apsConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_completionBlocks;
 }
 
 + (id);
 - (void);
+- (void)reportedSubreason;
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)A;
 - (void)0@ù
 × ;
-- (id)Tuple: /* Error: Ran out of types for this method. */;
+- (id)appContainerAccountMetadataForAppContainerAccountTuple: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)KDPSubscriptionCreateRequest",&,N;
 - (void)¤R;
@@ -89,9 +85,6 @@ create table if not exists DSIDMap (
 
 // Remaining properties
 @property(retain, nonatomic) APSConnection *apsConnection; // @synthesize apsConnection=_apsConnection;
-@property(retain, nonatomic, setter=setAPSEnvironmentString:) NSString *apsEnvironmentString; // @synthesize apsEnvironmentString=_apsEnvironmentString;
-@property(retain, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

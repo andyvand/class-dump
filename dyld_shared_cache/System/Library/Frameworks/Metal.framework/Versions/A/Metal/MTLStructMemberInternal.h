@@ -6,25 +6,16 @@
 
 #import <Metal/MTLStructMember.h>
 
-@class MTLType, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MTLStructMemberInternal : MTLStructMember
 {
     NSString *_name;
-    unsigned long long _offset;
-    unsigned int _dataType:16;
-    id _details;
-    unsigned long long _pixelFormat;
-    unsigned long long _aluType;
-    unsigned long long _argumentIndex;
-    unsigned long long _render_target;
-    unsigned long long _raster_order_group;
-    MTLType *_typeInfo;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -43,14 +34,11 @@ __attribute__((visibility("hidden")))
 - (id)@0:8@"MTLFunctionDescriptor"16@"<MTLLibrary>"24^@32 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long)for buffers and textures;
-- (id)ssellationPartitionMode;
+- (id)tessellationPartitionMode;
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long aluType; // @synthesize aluType=_aluType;
 @property(readonly) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly) unsigned long long raster_order_group; // @synthesize raster_order_group=_raster_order_group;
-@property(readonly) unsigned long long render_target; // @synthesize render_target=_render_target;
 
 @end
 

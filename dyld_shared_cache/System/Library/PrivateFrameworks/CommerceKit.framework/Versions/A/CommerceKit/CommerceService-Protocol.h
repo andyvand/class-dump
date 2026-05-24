@@ -5,5 +5,10 @@
 //
 
 @protocol CommerceService
+- (void);
+- (void);
+- (void)a;
+- (void)#9�H;
+- (void);
 @end
 

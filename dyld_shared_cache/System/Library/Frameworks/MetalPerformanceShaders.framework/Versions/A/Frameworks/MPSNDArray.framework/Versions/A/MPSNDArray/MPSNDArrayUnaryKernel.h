@@ -9,16 +9,12 @@
 @interface MPSNDArrayUnaryKernel : MPSNDArrayMultiaryKernel
 {
     unsigned long long _edgeMode;
-    CDStruct_f52b1b8f _offsets;
-    CDStruct_129fbded _kernelSizes;
-    CDStruct_f52b1b8f _strides;
-    CDStruct_129fbded _dilationRates;
 }
 
 + (unsigned long long);
 - (void);
 - (void);
-- (CDStruct_129fbded);
+- (CDStruct_129fbded);
 - (id);
 - (CDStruct_129fbded);
 - (void);
@@ -34,11 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDStruct_129fbded dilationRates; // @synthesize dilationRates=_dilationRates;
-@property(nonatomic) unsigned long long edgeMode; // @synthesize edgeMode=_edgeMode;
-@property(nonatomic) CDStruct_129fbded kernelSizes; // @synthesize kernelSizes=_kernelSizes;
 @property(nonatomic) CDStruct_f52b1b8f offsets; // @synthesize offsets=_offsets;
-@property(nonatomic) CDStruct_f52b1b8f strides; // @synthesize strides=_strides;
 
 @end
 

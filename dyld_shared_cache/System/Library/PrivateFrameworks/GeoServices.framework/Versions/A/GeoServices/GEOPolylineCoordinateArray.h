@@ -7,15 +7,14 @@
 @interface GEOPolylineCoordinateArray
 {
     struct vector<geo::PolylineCoordinate, std::allocator<geo::PolylineCoordinate>> _polylineCoordinates;
-    unsigned long long _mutationsCount;
 }
 
 + (_Bool)etsCount;
-- (struct PolylineCoordinate);
+- (struct PolylineCoordinate);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long)Ä ;
 - (void)p«BA0¡ÃÖK@;

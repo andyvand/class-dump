@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSURL, PKPrintJobRequest, PKPrinterBrowseInfo, PKPrinterDescription, PKiCloudPrinter;
+@class PKPrinterDescription;
 
 @interface PKPrinter
 {
     _Bool _supportsColor;
-    _Bool _supportsDuplex;
-    PKPrinterBrowseInfo *_browseInfo;
-    long long _accessState;
-    PKPrinterDescription *_printerDescription;
-    PKiCloudPrinter *_iCloudPrinter;
-    NSDate *_printerDescriptionTime;
-    PKPrintJobRequest *_job_request;
 }
 
 + (void);
@@ -23,22 +16,22 @@
 + (void);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)j;
+- (long long);
+- (void);
+- (void)A9;
+- (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)5c;
 - (id);
 - (void);
 - (void);
@@ -50,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (id);
@@ -60,7 +53,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -71,59 +64,33 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)R`;
 - (long long);
 - (id);
 - (void);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id)L
++;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)cE;
+- (void)t;
 
 // Remaining properties
-@property(readonly) long long accessState; // @synthesize accessState=_accessState;
-@property(readonly) NSString *bonjourDisplayName;
-@property(readonly) PKPrinterBrowseInfo *browseInfo; // @synthesize browseInfo=_browseInfo;
-@property(readonly) NSString *description;
-@property(readonly) NSString *displayName;
-@property(readonly) _Bool hasIdentifyPrinterOp;
-@property(readonly) _Bool hasPrintInfoSupported;
-@property(retain) PKiCloudPrinter *iCloudPrinter; // @synthesize iCloudPrinter=_iCloudPrinter;
-@property(readonly) _Bool isiCloudPrinter;
-@property(readonly) long long jobAccountIDSupport;
-@property(readonly) unsigned long long jobTypesSupported;
-@property(retain) PKPrintJobRequest *job_request; // @synthesize job_request=_job_request;
-@property(readonly) long long kind;
-@property(readonly) NSDate *lastUsedDate;
-@property(readonly) NSString *location;
-@property(readonly) NSString *makeAndModel;
-@property(readonly) NSString *name;
-@property(readonly) NSURL *nearbyURL;
-@property(readonly) NSDictionary *printInfoSupported;
 @property(retain) PKPrinterDescription *printerDescription; // @synthesize printerDescription=_printerDescription;
-@property(retain) NSDate *printerDescriptionTime; // @synthesize printerDescriptionTime=_printerDescriptionTime;
-@property(readonly) NSData *printerImageData;
-@property(readonly) NSURL *printerURL;
-@property(readonly) _Bool supportsColor; // @synthesize supportsColor=_supportsColor;
-@property(readonly) _Bool supportsDuplex; // @synthesize supportsDuplex=_supportsDuplex;
-@property(readonly) _Bool supportsJobAccountID;
-@property(readonly) long long type;
-@property(readonly) NSString *uuid;
 
 @end
 

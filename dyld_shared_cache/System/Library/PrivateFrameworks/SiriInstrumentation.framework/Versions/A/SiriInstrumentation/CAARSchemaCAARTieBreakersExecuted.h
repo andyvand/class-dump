@@ -6,14 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface CAARSchemaCAARTieBreakersExecuted : SISchemaInstrumentationMessage
 {
     NSArray *_tiebreakers;
 }
 
-- (unsigned long long);
+- (unsigned long long)z;
 - (id);
 - (id);
 - (void);
@@ -22,18 +22,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)umActionDisambiguationsLastTwentyEightDays"b1"numActionDisambiguationsLastInfinity"b1"numSelectedActionDisambiguationsLastTwoMinutes"b1"numSelectedActionDisambiguationsLastTenMinutes"b1"numSelectedActionDisambiguationsLastOneHour"b1"numSelectedActionDisambiguationsLastSixHours"b1"numSelectedActionDisambiguationsLastOneDay"b1"numSelectedActionDisambiguationsLastSevenDays"b1"numSelectedActionDisambiguationsLastTwentyEightDays"b1"numSelectedActionDisambiguationsLastInfinity"b1"minutesSinceLastDisambiguationSameActions"b1"minutesSinceLastActionDisambiguationForThisAction"b1"wasActionSelectedInLastDisambiguation"b1"minutesSinceLastDisambiguationForSameActions"b1};
-- (id)ttonInteractionDetected;
+- (id)ACTVSchemaACTVButtonInteractionDetected;
 - (id)$ÎöÿHÎöÿlÎöÿÎöÿ´ÎöÿØÎöÿüÎöÿ ÏöÿDÏöÿhÏöÿÏöÿ°ÏöÿÔÏöÿøÏöÿÐöÿ@ÐöÿdÐöÿÐöÿ¬ÐöÿÐÐöÿôÐöÿÑöÿ<Ñöÿ`ÑöÿÑöÿ¨ÑöÿÌÑöÿðÑöÿÒöÿ8Òöÿ\ÒöÿÒöÿ¤ÒöÿÈÒöÿìÒöÿÓöÿ4ÓöÿXÓöÿ|Óöÿ ÓöÿÄÓöÿèÓöÿÔöÿ0ÔöÿTÔöÿxÔöÿÔöÿÀÔöÿäÔöÿÕöÿ,ÕöÿPÕöÿtÕöÿÕöÿ¼ÕöÿàÕöÿÖöÿ(ÖöÿLÖöÿpÖöÿÖöÿ¸ÖöÿÜÖöÿ;
 - (void)í°Õ&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tiebreakers; // @synthesize tiebreakers=_tiebreakers;
 
 @end

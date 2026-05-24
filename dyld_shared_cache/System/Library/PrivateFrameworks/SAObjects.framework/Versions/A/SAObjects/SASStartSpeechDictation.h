@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASStartSpeech.h>
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface SASStartSpeechDictation : SASStartSpeech
 {
@@ -37,48 +37,29 @@
 - (void);
 - (id);
 - (void);
+- (void)er}^{__shared_weak_count}},R,N,V_pmBuilder;
 - (void);
 - (void);
-- (void);
+- (id)?Q;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void)der:(_Bool)arg1;
-- (void)layExpiryCommands:(id)arg1;
+- (void);
+- (_Bool)10CFReleaserIPK9__CFArrayE;
 - (id);
+- (void)setMsgSender:(_Bool)arg1;
+- (void)setDelayExpiryCommands:(id)arg1;
+- (id)setAceHostHeader: /* Error: Ran out of types for this method. */;
 - (void)cancelCurrentAudioPlayBack;
 - (id)¨C;
-- (id)iriKitIntent;
+- (id)siriKitIntent;
 - (id)ûÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *activationToken;
-@property(copy, nonatomic) NSString *applicationName;
-@property(copy, nonatomic) NSString *applicationVersion;
-@property(nonatomic) _Bool autoPunctuation;
-@property(nonatomic) _Bool censorSpeech;
-@property(copy, nonatomic) NSString *fieldId;
-@property(copy, nonatomic) NSString *fieldLabel;
-@property(copy, nonatomic) NSArray *inlineItemList;
-@property(copy, nonatomic) NSString *interactionId;
-@property(copy, nonatomic) NSString *keyboardIdentifier;
-@property(copy, nonatomic) NSString *keyboardReturnKey;
-@property(copy, nonatomic) NSString *keyboardType;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSArray *languages;
-@property(copy, nonatomic) NSString *postfixText;
-@property(copy, nonatomic) NSString *prefixText;
-@property(copy, nonatomic) NSString *region;
-@property(nonatomic) _Bool saveRequestAudio;
-@property(copy, nonatomic) NSString *selectedText;
-@property(nonatomic) _Bool speakerIndependentRecognition;
 
 @end
 

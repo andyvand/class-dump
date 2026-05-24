@@ -7,15 +7,6 @@
 @interface PhotosUICore.PhotosCollectionPreviewPlayer
 {
     id _isVisible;
-    id priority;
-    id collection;
-    id desiredInlinePlayState;
-    id onPlaybackFinished;
-    id _sharedPlayer;
-    id _isLoadingSharedPlayer;
-    id onSharedPlayerChange;
-    id _effectivePlayer;
-    id _$observationRegistrar;
 }
 
 @end

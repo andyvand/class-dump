@@ -13,7 +13,8 @@
 
 - (id);
 - (void);
-- (id);
+- (id)yTrace-
+;
 
 // Remaining properties
 @property(nonatomic) IMKCandidateController *controller; // @synthesize controller=_controller;

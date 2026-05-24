@@ -9,10 +9,6 @@
 @interface MapsSuggestions.MapsSuggestionsEventKitStreamer : MapsSuggestions.MapsSuggestionsEventStreamer
 {
     id _eventKit;
-    id _keyListenerBlock;
-    id _resourceDepot;
-    id _eventKitObserver;
-    id _eventKitChangedCanKicker;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void)g;
+- (void)walletCategoryStyling;
 
 @end
 

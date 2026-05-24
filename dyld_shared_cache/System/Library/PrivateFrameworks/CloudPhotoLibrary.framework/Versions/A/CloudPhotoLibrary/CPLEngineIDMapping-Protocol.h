@@ -7,6 +7,6 @@
 @class CPLScopedIdentifier;
 
 @protocol CPLEngineIDMapping
-- (CPLScopedIdentifier *)uRB©(ºÐ9¹àªÎ jvø´j6øÇh@ù;
+- (CPLScopedIdentifier *);
 @end
 

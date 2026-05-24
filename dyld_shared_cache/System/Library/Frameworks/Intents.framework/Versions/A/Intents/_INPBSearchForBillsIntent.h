@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBillPayeeValue, _INPBDateTimeRange, _INPBIntentMetadata;
+@class _INPBBillPayeeValue;
 
 @interface _INPBSearchForBillsIntent
 {
     CDStruct_c8e9def3 _has;
-    int _billType;
-    int _status;
-    _INPBBillPayeeValue *_billPayee;
-    _INPBDateTimeRange *_dueDateRange;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDateTimeRange *_paymentDateRange;
 }
 
 + (_Bool);
@@ -37,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)|;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,31 +41,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)PayloadIntegerValue:(_Bool)arg1;
+- (void)addPayloadIntegerValue:(_Bool)arg1;
 - (_Bool)g;
-- (int)TO_MIN_VALUE;
+- (int)SET_TO_MIN_VALUE;
 - (void)%@OptionsCollectionFor%@:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBillPayeeValue *billPayee; // @synthesize billPayee=_billPayee;
-@property(nonatomic) int billType; // @synthesize billType=_billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDateTimeRange *dueDateRange; // @synthesize dueDateRange=_dueDateRange;
-@property(readonly, nonatomic) _Bool hasBillPayee;
-@property(nonatomic) _Bool hasBillType;
-@property(readonly, nonatomic) _Bool hasDueDateRange;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPaymentDateRange;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDateTimeRange *paymentDateRange; // @synthesize paymentDateRange=_paymentDateRange;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

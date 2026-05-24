@@ -9,19 +9,17 @@
 @interface LPYouTubeURLComponents
 {
     NSString *_videoID;
-    double _startTime;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
-- (id);
-- (double);
++ (id)smsComposeControllerDataInserted:(double)arg1;
++ (_Bool)shouldBreadcrumbHideAppIcon;
+- (void)transcriptCollectionViewControllerDidInsertAssociatedChatItem:(id)arg1;
+- (id)suggestionsDidChange;
+- (double)audibleDRMGroupID;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(copy, nonatomic) NSString *videoID; // @synthesize videoID=_videoID;
 
 @end

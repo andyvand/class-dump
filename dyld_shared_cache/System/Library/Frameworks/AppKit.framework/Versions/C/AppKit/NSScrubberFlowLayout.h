@@ -9,20 +9,19 @@
 @interface NSScrubberFlowLayout : NSScrubberLayout
 {
     id _support;
-    double _itemSpacing;
-    struct CGSize _itemSize;
 }
 
 - (struct CGSize);
-- (void);
+- (void)%s:(id)arg1 not valid;
+- (id)@;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (double);
+- (double)s"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml" Target="../docProps/meta.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/></Relationships> /* Error: Ran out of types for this method. */;
 - (void);
 - (void)qá3°1Â0@ù
 × ;
@@ -31,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property struct CGSize itemSize;
 @property double itemSpacing;
 
 @end

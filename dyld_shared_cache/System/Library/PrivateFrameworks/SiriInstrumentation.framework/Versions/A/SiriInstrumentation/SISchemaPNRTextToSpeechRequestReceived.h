@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaPNRTextToSpeechRequestReceived : SISchemaInstrumentationMessage
 {
     NSString *_voiceAssetKey;
-    NSString *_voiceResourceAssetKey;
-    _Bool _isWarmStart;
-    _Bool _isSynthesisCached;
-    int _sourceOfTTS;
-    int _speechError;
-    struct {
-        unsigned int isWarmStart:1;
-        unsigned int isSynthesisCached:1;
-        unsigned int sourceOfTTS:1;
-        unsigned int speechError:1;
-    } _has;
-    _Bool _hasVoiceAssetKey;
-    _Bool _hasVoiceResourceAssetKey;
 }
 
 - (id);
@@ -38,18 +25,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -58,29 +45,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_backgroundAssetMetadata;
+- (_Bool)ABPersonView;
+- (_Bool)TE INDEX message_idx_handle_id ON message(handle_id);;
 - (id);
 - (id);
-- (id)ntextualEntityCollectionTriggered;
-- (id)etrics;
-- (void)RMATLAYOUT_MPEG_5_0_D;
+- (id)deleteContextualEntityCollectionTriggered;
+- (id)_evaluationMetrics;
+- (void)MWTFORMATLAYOUT_MPEG_5_0_D;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSynthesisCached;
-@property(nonatomic) _Bool hasIsWarmStart;
-@property(nonatomic) _Bool hasSourceOfTTS;
-@property(nonatomic) _Bool hasSpeechError;
-@property(nonatomic) _Bool hasVoiceAssetKey; // @synthesize hasVoiceAssetKey=_hasVoiceAssetKey;
-@property(nonatomic) _Bool hasVoiceResourceAssetKey; // @synthesize hasVoiceResourceAssetKey=_hasVoiceResourceAssetKey;
-@property(nonatomic) _Bool isSynthesisCached; // @synthesize isSynthesisCached=_isSynthesisCached;
-@property(nonatomic) _Bool isWarmStart; // @synthesize isWarmStart=_isWarmStart;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int sourceOfTTS; // @synthesize sourceOfTTS=_sourceOfTTS;
-@property(nonatomic) int speechError; // @synthesize speechError=_speechError;
 @property(copy, nonatomic) NSString *voiceAssetKey; // @synthesize voiceAssetKey=_voiceAssetKey;
-@property(copy, nonatomic) NSString *voiceResourceAssetKey; // @synthesize voiceResourceAssetKey=_voiceResourceAssetKey;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol HMFSystemInfoProductInfoDataSource
+- (long long)	M	0	9	;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *modelIdentifier;
-@property(readonly, nonatomic) long long productClass;
 @property(readonly, nonatomic) long long productPlatform;
-@property(readonly, nonatomic) long long productVariant;
 @end
 

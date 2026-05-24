@@ -11,15 +11,14 @@
     NSString *_name;
 }
 
+- (id)ication;
 - (id);
-- (id);
-- (void);
+- (void)urlRequestForClientID:(long long)arg1 redirectURI:scope:username:authRequestURL: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)ý·;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long state;
 
 @end
 

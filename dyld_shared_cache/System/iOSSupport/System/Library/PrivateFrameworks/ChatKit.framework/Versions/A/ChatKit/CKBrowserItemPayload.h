@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, NSDictionary, NSString, NSURL, UIViewController;
-@protocol CKPluginEntryViewController;
-
 @interface CKBrowserItemPayload
 {
     _Bool _requiresValidation;
-    _Bool _useDirectSend;
-    NSURL *_videoComplementFileURL;
-    UIViewController<CKPluginEntryViewController> *_photoShelfViewController;
-    NSURL *_fileURL;
-    NSString *_filename;
-    NSDictionary *_attributionInfo;
-    CKMediaObject *_mediaObject;
 }
 
++ (id)JY;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool)figureWithContact: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool);
++ (_Bool)configureWithContact: /* Error: Ran out of types for this method. */;
+- (id),V_searchResults;
+- (_Bool)achmentObjectID;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,20 +24,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)So14ICTTAttachment_p;
+- (_Bool)b;
+- (id)c;
+- (id)esult:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)nticated with prompt {prompt:%@, result:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id))x;
 - (_Bool);
 - (void);
 - (id)
@@ -59,15 +49,7 @@
 - (id)¢5;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(retain, nonatomic) UIViewController<CKPluginEntryViewController> *photoShelfViewController; // @synthesize photoShelfViewController=_photoShelfViewController;
-@property(nonatomic) _Bool requiresValidation; // @synthesize requiresValidation=_requiresValidation;
 @property(readonly, nonatomic) _Bool shouldStageAsEmbeddedTextAttachment;
-@property(nonatomic) _Bool useDirectSend; // @synthesize useDirectSend=_useDirectSend;
-@property(retain, nonatomic) NSURL *videoComplementFileURL; // @synthesize videoComplementFileURL=_videoComplementFileURL;
 
 @end
 

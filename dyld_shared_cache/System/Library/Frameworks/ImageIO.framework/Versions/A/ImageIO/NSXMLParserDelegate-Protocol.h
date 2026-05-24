@@ -5,5 +5,22 @@
 //
 
 @protocol NSXMLParserDelegate
+
+@optional
+- (void)qH;
+- (void);
+- (void)!ԣN;
+- (void)Hz ;
+- (void);
+- (void)le(b, samplerTransform(b, dc + p.yz));
+  c += sample(b, samplerTransform(b, dc + p.zw));
+  c += sample(b, samplerTransform(b, dc + p.wx));
+  c += sample(b, samplerTransform(b, dc + p.yx));
+  c += sample(b, samplerTransform(b, dc + p.zy));
+  c += sample(b, samplerTransform(b, dc + p.wz));
+  c += sample(b, samplerTransform(b, dc + p.xw));
+  return c / 3.200000e+01;
+}
+;
 @end
 

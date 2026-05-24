@@ -6,21 +6,27 @@
 
 #import <SafariServices/_SFWebProcessPlugInPageController.h>
 
-@class NSString, WKWebProcessPlugInScriptWorld, _SFFormMetadataController, _WKRemoteObjectInterface;
+@class _SFFormMetadataController, _WKRemoteObjectInterface;
 
 __attribute__((visibility("hidden")))
 @interface _SFWebProcessPlugInAutoFillPageController : _SFWebProcessPlugInPageController
 {
     _WKRemoteObjectInterface *_activityControllerInterface;
-    _WKRemoteObjectInterface *_autoFillerInterface;
-    WKWebProcessPlugInScriptWorld *_isolatedWorld;
-    _SFFormMetadataController *_formMetadataController;
 }
 
 - (void);
+- (void);
+- (void)essageFileUnpacker;
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)SafePathComponentValidator;
 - (void);
 - (id);
 - (void);
@@ -30,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)anonymousDownload;
 - (void);
 - (void);
 - (void);
@@ -50,14 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _SFFormMetadataController *formMetadataController; // @synthesize formMetadataController=_formMetadataController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

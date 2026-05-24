@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SASyncAnchor;
+@class SASyncAnchor;
 
 @interface SASyncChunkDenied : SABaseClientBoundCommand
 {
@@ -17,28 +17,16 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)file;
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (long long)Identifiers;
-- (id)uthenticationRequirement;
+- (long long)scriptIdentifiers;
+- (id)CheckAuthenticationRequirement;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSString *appId; // @dynamic appId;
-@property(copy, nonatomic) NSArray *callbacks; // @dynamic callbacks;
 @property(retain, nonatomic) SASyncAnchor *current;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long errorCode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

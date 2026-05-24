@@ -9,25 +9,20 @@
 @interface CKDModifyRecordsOperationReReferenceBatchKey
 {
     NSString *_owner;
-    _Bool _isClone;
-    _Bool _isPackageSection;
-    long long _databaseScope;
 }
 
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)dBlob:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
-- (void)meStatistics;
+- (long long)__DATA;
+- (void)timeStatistics;
 - (id)Örÿû=;
 
 // Remaining properties
 @property(readonly) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly) _Bool isClone; // @synthesize isClone=_isClone;
-@property(readonly) _Bool isPackageSection; // @synthesize isPackageSection=_isPackageSection;
 
 @end
 

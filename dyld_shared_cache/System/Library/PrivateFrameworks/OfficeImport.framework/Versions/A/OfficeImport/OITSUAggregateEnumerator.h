@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)updateTextureMapping:(id)arg1 mode:indirectBuffer:indirectBufferOffset: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

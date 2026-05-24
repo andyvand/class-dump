@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSArray;
+@class NSArray;
 
 @protocol GEOMapServiceSpatialEventLookupTicket
-- (NSArray *)es: /* Error: Ran out of types for this method. */;
+- (void)"b1"edgeInsetsAreExplicit"b1"locationPropagationEnabled"b1"userInteractionPausesLocationUpdates"b1"locationPulseEnabled"b1"shouldSplitRouteLine"b1"shouldAnimatePositionWithRouteMatch"b1"clearUserLocationOnLocationReset"b1"showsCurrentEnvironmentName"b1"processingUserLocationUpdate"b1"changingMapType"b1"userRotatedAwayFromVerticalYaw"b1"goingToDefaultLocation"b1"isDraggingAnnotationView"b1"shouldLoadFallbackTiles"b1"iconPixelAlignmentExplicitlyDisabled"b1"userDidRotateDuringCurrentRegionChange"b1"useLayoutMargins"b1"delegateDidChangeUserTrackingMode"b1};
+- (void);
+- (NSArray *)mapItemStorageForPlaceData:detourInfo:userValues: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *parameters;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 @end
 

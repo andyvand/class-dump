@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ASRSchemaASRIntermediateUtteranceInfoTier1 : SISchemaInstrumentationMessage
 {
     NSString *_unrepairedPostItn;
-    NSString *_phoneticMatchInput;
-    NSString *_phoneticMatchOutput;
-    NSString *_loggableSharedUserId;
-    NSString *_loggableUserIdHash;
-    _Bool _hasUnrepairedPostItn;
-    _Bool _hasPhoneticMatchInput;
-    _Bool _hasPhoneticMatchOutput;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasLoggableUserIdHash;
 }
 
 - (id);
@@ -30,14 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -48,28 +39,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)#;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)y;
 - (id);
-- (id)me;
+- (id)startToToolsRetrievedTime;
 - (id)¨EôE;
 - (id);
 - (void)Üý¨ÿo³ù&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasLoggableUserIdHash; // @synthesize hasLoggableUserIdHash=_hasLoggableUserIdHash;
-@property(nonatomic) _Bool hasPhoneticMatchInput; // @synthesize hasPhoneticMatchInput=_hasPhoneticMatchInput;
-@property(nonatomic) _Bool hasPhoneticMatchOutput; // @synthesize hasPhoneticMatchOutput=_hasPhoneticMatchOutput;
-@property(nonatomic) _Bool hasUnrepairedPostItn; // @synthesize hasUnrepairedPostItn=_hasUnrepairedPostItn;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(copy, nonatomic) NSString *phoneticMatchInput; // @synthesize phoneticMatchInput=_phoneticMatchInput;
-@property(copy, nonatomic) NSString *phoneticMatchOutput; // @synthesize phoneticMatchOutput=_phoneticMatchOutput;
 @property(copy, nonatomic) NSString *unrepairedPostItn; // @synthesize unrepairedPostItn=_unrepairedPostItn;
 
 @end

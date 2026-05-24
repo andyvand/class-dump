@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPSharedCache, NSArray, NSDictionary, NSMutableArray, NSString;
-
 @interface FPProcess
 {
     int _pid;
-    _Bool _is64bit;
-    _Bool _isTranslated;
-    int _idleExitStatus;
-    int _priority;
-    FPSharedCache *_sharedCache;
-    NSMutableArray *_errors;
-    NSMutableArray *_warnings;
-    NSMutableArray *_globalErrors;
-    _Bool _hiddenFromDisplay;
-    NSString *_name;
-    NSArray *_memoryRegions;
-    NSString *_displayString;
-    unsigned long long _pageSize;
 }
 
 + (id);
@@ -42,24 +27,25 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)TLKHeaderView",&,V_headerView;
+- (void)P;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
+- (id);
+- (int)@
+;
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -72,21 +58,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxData;
-@property(readonly, nonatomic) _Bool breakDownPhysFootprint;
-@property(retain, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(nonatomic) _Bool hiddenFromDisplay; // @synthesize hiddenFromDisplay=_hiddenFromDisplay;
-@property(readonly, nonatomic) int idleExitStatus; // @synthesize idleExitStatus=_idleExitStatus;
 @property(nonatomic) _Bool is64bit; // @synthesize is64bit=_is64bit;
-@property(nonatomic) _Bool isTranslated; // @synthesize isTranslated=_isTranslated;
-// Error: Property attributes should begin with the type ('T') attribute, property name: memoryRegions
-// Property attributes: (null)
-
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long pageSize; // @synthesize pageSize=_pageSize;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) FPSharedCache *sharedCache; // @synthesize sharedCache=_sharedCache;
 
 @end
 

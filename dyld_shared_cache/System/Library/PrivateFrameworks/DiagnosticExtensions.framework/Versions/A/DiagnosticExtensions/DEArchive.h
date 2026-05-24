@@ -9,9 +9,6 @@
 @interface DEArchive
 {
     struct archive *_archive;
-    _Bool _hasClosedArchive;
-    NSURL *_tarGzUrl;
-    NSURL *_sourceDir;
 }
 
 - (id);
@@ -27,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *sourceDir; // @synthesize sourceDir=_sourceDir;
 @property(retain) NSURL *tarGzUrl; // @synthesize tarGzUrl=_tarGzUrl;
 
 @end

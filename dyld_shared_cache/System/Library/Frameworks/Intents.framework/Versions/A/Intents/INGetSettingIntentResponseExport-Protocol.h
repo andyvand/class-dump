@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol INGetSettingIntentResponseExport
-- (long long)PartySizeOptionsSelectionPrompt;
+- (NSArray *);
+- (long long)hasAvailablePartySizeOptionsSelectionPrompt;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *errorDetail;
-@property(copy) NSArray *settingResponseDatas;
 @end
 

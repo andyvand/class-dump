@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCEndpointConnection, NSString, NSURL;
-@protocol FCCoreConfigurationManager;
+@class FCEndpointConnection;
 
 @interface FCNewsletterEndpointConnection
 {
     FCEndpointConnection *_endpointConnection;
-    FCAsyncSerialQueue *_serialQueue;
-    id <FCCoreConfigurationManager> _configurationManager;
-    NSURL *_baseURL;
 }
 
 - (void);
@@ -21,31 +17,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)I;
+- (void)led to get placeholder disposition from %@ :(id)arg1 %@;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void)Record";
-- (void)eOfDeviceAbandoned;
+- (void)accessRestrictedBecauseOfDeviceAbandoned;
 - (void)widgetSystemReloadJitterMaxHoneymoon;
 - (void)~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCTagMetadata.m;
-- (void)marterFetchEnabledForESL;
+- (void)isSmarterFetchEnabledForESL;
 - (id)p5ÁÿX:ÁÿT?ÁÿUÁÿ(aÁÿ0eÁÿ¤n´ÿ¼ÐÁÿÖÁÿøÚÁÿèÞÁÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) FCEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCAsyncSerialQueue *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

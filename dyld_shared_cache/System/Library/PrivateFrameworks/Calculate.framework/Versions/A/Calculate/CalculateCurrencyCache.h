@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSLock, NSMutableDictionary, NSMutableString, NSNumber, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CalculateCurrencyCache
 {
     unsigned long long _uuid;
-    NSDate *_lastRefreshDate;
-    double _refreshInterval;
-    double _timeout;
-    NSDictionary *_currencyData;
-    NSString *_currentCurrency;
-    NSNumber *_currentRate;
-    NSMutableString *_currentString;
-    NSMutableDictionary *_mutableCurrencyCache;
-    NSObject<OS_dispatch_queue> *_serializer;
-    double _lastRefreshTimeInternal;
-    NSLock *_lock;
 }
 
 + (id)WµÎÅÀê}»`ü;
@@ -28,9 +17,9 @@
 - (void);
 - (_Bool);
 - (double);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -38,7 +27,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)qH;
 - (void);
 - (void);
 - (id);
@@ -61,22 +50,7 @@ d9¯VFÔ­WÃ?³üÙ£Ý­ð«ôaêä½[7ìWòm:dð×=(;¦
 - (void)?óQÓ:(id)arg1 {©ªóþw7Oâkª|âúpÀ¹Ê	$4:ïg0ÿú¢¦{3AIÐhªõ¯*×.¨ÞØÌÇseAëa<1)m	F8\ä÷Ä]#}Ô¶·Ú":ª.ßªñfÐÑ²x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *currencyData; // @synthesize currencyData=_currencyData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastRefreshDate;
-@property(nonatomic) double lastRefreshTimeInternal; // @synthesize lastRefreshTimeInternal=_lastRefreshTimeInternal;
-@property(retain, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) _Bool needsRefresh;
-@property(nonatomic) double refreshInterval; // @synthesize refreshInterval=_refreshInterval;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serializer; // @synthesize serializer=_serializer;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(readonly) unsigned long long uuid; // @synthesize uuid=_uuid;
 
 @end
 

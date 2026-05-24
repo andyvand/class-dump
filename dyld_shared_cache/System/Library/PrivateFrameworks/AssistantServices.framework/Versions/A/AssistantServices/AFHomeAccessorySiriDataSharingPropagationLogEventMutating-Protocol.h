@@ -5,5 +5,7 @@
 //
 
 @protocol AFHomeAccessorySiriDataSharingPropagationLogEventMutating
+- (void);
+- (void)ingsWidgetKitExtension;
 @end
 

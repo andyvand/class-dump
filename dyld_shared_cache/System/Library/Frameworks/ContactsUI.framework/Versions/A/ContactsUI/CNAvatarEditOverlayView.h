@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSImageView, NSTextField;
+@class NSTextField;
 
 @interface CNAvatarEditOverlayView
 {
     NSTextField *_label;
-    NSImageView *_arrowImage;
-    CAGradientLayer *_gradientLayer;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)) ;
 - (void);
 - (_Bool);
 - (void);
@@ -24,12 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ۥ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *arrowImage; // @synthesize arrowImage=_arrowImage;
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
 @property(retain, nonatomic) NSTextField *label; // @synthesize label=_label;
 
 @end

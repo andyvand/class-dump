@@ -6,35 +6,31 @@
 
 #import <AddressBook/ABPersonSearchConfiguration.h>
 
-@class ABAddressBook, NSOperationQueue;
-@protocol ABContactSearching, ABPersonListHeadlining;
+@protocol ABContactSearching;
 
 @interface ABQuerySearchConfiguration : ABPersonSearchConfiguration
 {
     id <ABContactSearching> _searchNode;
-    ABAddressBook *_addressBook;
-    NSOperationQueue *_searchQueue;
-    id <ABPersonListHeadlining> _headliner;
 }
 
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)?;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)edge;
 - (void)
 × ;
 - (void);

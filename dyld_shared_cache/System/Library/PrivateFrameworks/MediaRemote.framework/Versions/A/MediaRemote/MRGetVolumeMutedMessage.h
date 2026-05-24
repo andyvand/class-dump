@@ -12,8 +12,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)filterSubcategoryCustomKey;
+- (unsigned long long)ged:) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

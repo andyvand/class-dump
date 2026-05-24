@@ -11,7 +11,6 @@
 @interface TSDPartitionedPartialLayout : TSDLayout
 {
     struct CGRect mBounds;
-    TSDDefaultPartitioner *mPartitioner;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=mBounds;
 @property(readonly, nonatomic) TSDDefaultPartitioner *partitioner; // @synthesize partitioner=mPartitioner;
 
 @end

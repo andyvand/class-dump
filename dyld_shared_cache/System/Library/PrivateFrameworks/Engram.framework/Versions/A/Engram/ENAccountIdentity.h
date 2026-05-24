@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ENAccountKey, ENDeviceKey;
+@protocol ENAccountKey;
 
 @interface ENAccountIdentity
 {
     id <ENAccountKey> _accountKey;
-    id <ENDeviceKey> _deviceKey;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (void);
 - (id);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (void);
+- (void)ȡ;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <ENAccountKey> accountKey; // @synthesize accountKey=_accountKey;
-@property(retain, nonatomic) id <ENDeviceKey> deviceKey; // @synthesize deviceKey=_deviceKey;
 
 @end
 

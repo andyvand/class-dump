@@ -4,63 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, _PASLock, _PASNotificationTracker;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSString;
 
 @interface _PASAsset2
 {
     NSString *_assetTypeIdentifier;
-    NSString *_defaultBundlePathBackup;
-    NSDictionary *_requiredMobileAssetProperties;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_os_log> *_logHandle;
-    int _installNotificationToken;
-    int _metadataNotificationToken;
-    _PASNotificationTracker *_updateNotificationTracker;
-    _PASLock *_lock;
-    unsigned long long _compatibilityVersion;
 }
 
 - (void);
 - (id);
+- (void)puted deselectedCalendarIdentifiers:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (unsigned long long)indexPositionTable;
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id)unning reconcile;
+- (void);
+- (unsigned long long)R;
 - (id);
 - (id);
-- (_Bool);
+- (void)hActivationRecord caching error:(CDUnknownBlockType)arg1 %@;
+- (void);
+- (id)s/4~CNqLugDeO74yC6P4BXCqU2t86IJeTYdbBp4TQ6c/Library/Caches/com.apple.xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1922
+;
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)scheduleAgentFromICSString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)before maximum size;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetType;
-@property(readonly, nonatomic) unsigned long long assetVersion;
-@property(readonly, nonatomic) unsigned long long bestAssetVersionObserved;
 @property(readonly, nonatomic) NSString *bundlePath;
-@property(readonly, nonatomic) unsigned long long compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
 
 @end
 

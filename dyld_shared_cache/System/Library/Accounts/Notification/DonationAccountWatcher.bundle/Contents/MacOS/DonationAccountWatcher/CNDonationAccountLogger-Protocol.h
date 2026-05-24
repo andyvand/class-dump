@@ -5,5 +5,10 @@
 //
 
 @protocol CNDonationAccountLogger
+- (void)o;
+- (void);
+- (void)0;
+- (void)ationRequestConfig=i};
+- (void);
 @end
 

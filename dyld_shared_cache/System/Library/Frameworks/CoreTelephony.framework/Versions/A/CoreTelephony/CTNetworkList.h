@@ -9,15 +9,14 @@
 @interface CTNetworkList
 {
     _Bool _moreComing;
-    NSMutableArray *_networks;
 }
 
-+ (_Bool);
++ (_Bool)sampleBuffer != NULL;
 - (void);
-- (_Bool);
+- (_Bool)ѵ";
 - (id);
 - (id);
-- (void);
+- (void)enumerateKeysAndObjectsUsingBlock:(id)arg1;
 - (id);
 - (void)&!pEùqª)ð1Â0@ù
 × ;
@@ -25,7 +24,6 @@
 - (id)¼Fá;
 
 // Remaining properties
-@property(nonatomic) _Bool moreComing; // @synthesize moreComing=_moreComing;
 @property(retain, nonatomic) NSMutableArray *networks; // @synthesize networks=_networks;
 
 @end

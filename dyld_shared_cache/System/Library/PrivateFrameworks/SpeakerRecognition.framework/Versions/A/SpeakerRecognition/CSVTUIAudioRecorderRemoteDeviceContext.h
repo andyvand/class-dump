@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CSVTUIAudioRecorderRemoteDeviceContext
 {
     unsigned long long _remoteTrainingDeviceType;
-    NSArray *_remoteTrainingDeviceUUIDList;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)C;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long remoteTrainingDeviceType; // @synthesize remoteTrainingDeviceType=_remoteTrainingDeviceType;
-@property(readonly, copy, nonatomic) NSArray *remoteTrainingDeviceUUIDList; // @synthesize remoteTrainingDeviceUUIDList=_remoteTrainingDeviceUUIDList;
 
 @end
 

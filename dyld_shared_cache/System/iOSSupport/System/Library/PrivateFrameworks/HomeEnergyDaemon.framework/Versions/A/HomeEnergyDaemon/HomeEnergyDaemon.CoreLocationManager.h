@@ -8,10 +8,6 @@
 {
     id $defaultActor;
     id locationManager;
-    id delegate;
-    id useRealCoreLocation;
-    id keepLoopingForMockLocations;
-    id mockLocation;
 }
 
 @end

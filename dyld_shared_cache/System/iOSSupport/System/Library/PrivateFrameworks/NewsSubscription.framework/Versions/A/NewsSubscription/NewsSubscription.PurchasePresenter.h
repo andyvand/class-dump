@@ -7,27 +7,10 @@
 @interface NewsSubscription.PurchasePresenter
 {
     id purchaseStarter;
-    id familySharingLandingPageLauncher;
-    id purchasingSpinnerViewControllerFactory;
-    id $__lazy_storage_$_spinnerViewController;
-    id urlHandler;
-    id purchaseController;
-    id bundleSubscriptionManager;
-    id postPurchaseOnboardingManager;
-    id bundleSubscriptionDetectionManager;
-    id offerManager;
-    id router;
-    id networkReachability;
-    id isPresenting;
-    id onboardingPrewarmer;
-    id featureAvailability;
-    id configurationManager;
-    id osloAbandonmentUpsellManager;
-    id purchaseContext;
 }
 
 - (void);
-- (id);
+- (id)TSDBrushStrokeLoader;
 - (void);
 - (void);
 

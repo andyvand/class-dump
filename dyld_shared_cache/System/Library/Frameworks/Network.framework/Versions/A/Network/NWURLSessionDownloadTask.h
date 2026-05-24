@@ -12,10 +12,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)rgetForAction:(Class)arg1 sender:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id)Csi8Csi9Csi=CsiACsi_CsibCsidCsifCsigCsihCsilCsimCsinCsipCsirCsiu*si;
 

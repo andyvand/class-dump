@@ -7,44 +7,33 @@
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
 @class BPSPassThroughSubject;
-@protocol BPSSubscriber;
 
 @interface _BPSInnerConduit : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _released;
-    BPSPassThroughSubject *_parent;
-    id <BPSSubscriber> _downstream;
-    long long _demand;
-    long long _identity;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)TA;
 - (id);
 - (_Bool);
-- (void);
+- (void)ate in XPC Inbound;
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)astore.m;
 
 // Remaining properties
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) long long identity; // @synthesize identity=_identity;
 @property(retain, nonatomic) BPSPassThroughSubject *parent; // @synthesize parent=_parent;
-@property(nonatomic) _Bool released; // @synthesize released=_released;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface HMDAccountChangeObserver
 {
     id notificationCenter;
-    id isHomePod;
-    id isSharediPad;
-    id eventSubscriber;
-    void delegate;
 }
 
 - (id);

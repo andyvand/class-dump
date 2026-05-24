@@ -12,10 +12,10 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id)yCircleUI34ScreentimePasscodeListenerDelegateP;
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

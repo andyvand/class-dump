@@ -4,53 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AASigningSession, ACAccount, NSDate, NSOperationQueue, NSString;
+@class NSOperationQueue, NSString;
 
 @interface AASetupAssistantService
 {
     NSOperationQueue *_requesterQueue;
-    NSString *_appleID;
-    NSString *_password;
-    NSString *_emailChoice;
-    ACAccount *_account;
-    struct OpaqueCFHTTPCookieStorage *_cookieStorage;
-    AASigningSession *_signingSession;
-    NSDate *_signingSessionCreationDate;
 }
 
-+ (void);
++ (void)erAccount:policy info contains unexpected data /* Error: Ran out of types for this method. */;
 + (id);
+- (void)are.System.add-to-iphoto;
+- (void)e.Twitter.set-profile-image;
+- (void)k.post;
+- (void)ugInKitManagement:(CDUnknownBlockType)arg1 Denying plugin:%s because Family Controls rejected due to reason:%d /* Error: Ran out of types for this method. */;
+- (void)oad:(id)arg1 %s;
+- (void)Config:(id)arg1 Device Enrollment activation profile fetch done;
+- (id)ned inProgress:(id)arg1 %d  registered:(id)arg2 %d;
+- (id)converting dict policy to string error = %s (%ld);
+- (void)y to string;
+- (void)nComplexChars status error = %d;
+- (void)minComplexChars;
+- (void)singPayload profile archiver was NULL;
+- (void)indServerUsingPayload data len = %d;
+- (void)urned %d (%d);
+- (id)er:Failed to fdopendir for %s:%s /* Error: Ran out of types for this method. */;
+- (void)ss = %s;
 - (void);
 - (void);
+- (id)s;
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)__objc_data;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)metryEventWithAccount:forIdentifier:success:error: /* Error: Ran out of types for this method. */;
+- (void)sendPostCFUTelemetryEventWithAccount:forIdentifier:success:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSString *emailChoice; // @synthesize emailChoice=_emailChoice;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTaskRequest, NSString;
+@class NSString;
 
 @interface CRKRemoteDeviceRequest
 {
     NSString *_deviceIdentifier;
-    CATTaskRequest *_remoteRequest;
 }
 
 + (Class);
@@ -19,12 +18,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)B24@0:8#16 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) CATTaskRequest *remoteRequest; // @synthesize remoteRequest=_remoteRequest;
 
 @end
 

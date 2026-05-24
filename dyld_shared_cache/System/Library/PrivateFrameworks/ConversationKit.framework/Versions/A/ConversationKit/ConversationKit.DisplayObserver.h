@@ -7,8 +7,6 @@
 @interface ConversationKit.DisplayObserver
 {
     id display;
-    id expectedUniqueID;
-    id displayUniqueIDDidChange;
 }
 
 - (void);

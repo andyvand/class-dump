@@ -5,23 +5,24 @@
 //
 
 @class NSArray, NSCoder, NSString, UIBarButtonItem, UIBlurEffect, UIDimmingView, UIResponder, UISplitViewController, UITraitCollection, UIView, UIViewController;
-@protocol UIActivityItemsConfigurationReading, UIContentContainer, UISplitViewControllerDelegate;
+@protocol UIActivityItemsConfigurationReading, UIContentContainer;
 
 @protocol UISplitViewControllerImpl
 - (void)1Â0@ù
 × ;
 - (void)Ð!ÈDùað1Â0@ù
 × ;
-- (void)ateShouldCenterSelectionRect:(NSCoder *)arg1;
-- (_Bool);
-- (void)endViewWillTransitionToSize;
-- (NSArray *)essInputViewDuringPresentation;
-- (UIView *)terIndicatorColor;
-- (void)ionOffset:forTimeInterval:min:max:decelerationFactor:decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
+- (void)webViewRotateShouldCenterSelectionRect:(NSCoder *)arg1;
+- (_Bool)m_body;
+- (void)_unspecifiedStyleChildViewControllersToSendViewWillTransitionToSize;
+- (NSArray *)_suppressInputViewDuringPresentation;
+- (UIView *)_pageControlPlatterIndicatorColor;
+- (void)_getStandardDecelerationOffset:forTimeInterval:min:max:decelerationFactor:decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
 - (_Bool)ngDecorationViewOffset;
-- (void):(UITraitCollection *)arg1 color:size: /* Error: Ran out of types for this method. */;
+- (void)decorationWithImage:(UITraitCollection *)arg1 color:size: /* Error: Ran out of types for this method. */;
 - (void)ð7;
-- (_Bool)ionBarTitleTransitionBackIndicatorMaskSymbol;
+- (UIViewController *);
+- (_Bool)UINavigationBarTitleTransitionBackIndicatorMaskSymbol;
 - (void)0;
 - (void)id _queue_ensureExistenceOfKnownSceneSessionMap(void);
 - (void)replacement;
@@ -29,22 +30,22 @@
 - (void)ect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40;
 - (id)ERLINE;
 - (void)buttonLocation = (%f,%f);
-- (void)IKBColorWildcatBarActiveGradient;
-- (void)Lock;
-- (struct UIEdgeInsets)eyInteractionTypeHandwriting;
+- (void)UIKBColorWildcatBarActiveGradient;
+- (void)UIKBKeyInteractionTypeCapsLock;
+- (struct UIEdgeInsets)UIKBKeyInteractionTypeHandwriting;
 - (void)zero.;
-- (void)bilityConfigurationsKey;
-- (void)Capacity;
+- (void)UINibAccessibilityConfigurationsKey;
+- (void)MaxCapacity;
 - (long long)taSourceUpdate, const _UIMapIndex, const _UIDataSourceModel, const _UIDataSourceModel, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
 - (void)ttings.colorTintMaskImage must be backed by a CGImage:%@ /* Error: Ran out of types for this method. */;
-- (NSString *)or;
+- (NSString *)systemDarkLightGrayTintColor;
 - (void)erPath *path = [UIBezierPath new];
 ;
 - (id <UIActivityItemsConfigurationReading>)iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m;
 - (long long)UIHIDEventSenderDescriptor.m;
 - (void)ght.to.left;
-- (void)cuments;
-- (_Bool)HighlightPurple;
+- (void)Documents;
+- (_Bool)UITextFormattingViewControllerHighlightPurple;
 - (long long)ger init] is unavailable for use.;
 - (_Bool)ne+UIApp.m;
 - (void)Environment.focusItemContainer == scrollableContainer;
@@ -54,18 +55,18 @@
 - (void)w changed must match the window being tracked.;
 - (_Bool)e "%@" nib but didn't get a UITableView.;
 - (struct CGSize)rong, UIView *__strong, BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
-- (void)kerControllerAllowsEditing;
-- (long long)imumTouchDuration;
+- (void)UIImagePickerControllerAllowsEditing;
+- (long long)LongPressClickInteractionDriverClickMinimumTouchDuration;
 - (_Bool)16;
 - (_Bool)Identifier (%@). Please file a bug against UICollectionView.;
 - (double)>"8;
 - (_Bool)re are only %ld sections after the update;
-- (NSArray *)ectionViewCellPrototypeNibExternalObjects;
+- (NSArray *)UICollectionViewCellPrototypeNibExternalObjects;
 - (NSArray *)eyWritingToolsUI(void);
 - (_Bool)tion view;
 - (void)SectionFixedSolver.m;
 - (NSArray *)entInsets (%@) do not result in a negative effectiveContentSize when applied to size:%@. /* Error: Ran out of types for this method. */;
-- (_Bool)lPreferredSizes;
+- (_Bool)finalPreferredSizes;
 - (unsigned long long)removed:%@; Background view:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)but still preserving false transition state!;
 - (_Bool)d and UIControlStateDisabled. state = %d is interpreted as UIControlStateSelected. Linking with a current SDK causes custom text attributes for UIControlStateHighlighted to be respected separately.;
@@ -84,11 +85,11 @@
 - (void)Çþÿ;
 - (UISplitViewController *)w/3y»¾7y¾7_GSg¾7G;
 - (long long)50_UISceneConnectionOptionDefinitionStorageInvokableP;
-- (void)AreaCornerInsetConcreteResolverC;
+- (void)So43_UISceneSafeAreaCornerInsetConcreteResolverC;
 - (NSArray *)GGÏ.3yAByAByy¬;
 - (_Bool)14TransactionKeyP;
 - (long long)SnySiG;
-- (_Bool)ButtonConfigurationC;
+- (_Bool)So21UIButtonConfigurationC;
 - (long long)ìèoþ;
 - (void)ojiFoundation.framework/EmojiFoundation;
 - (_Bool)åÐâ>¶óý¼;
@@ -97,17 +98,17 @@
 ×£p=ZA@¸ëQ¸@ /* Error: Ran out of types for this method. */;
 - (UIViewController *)Ô<À7;
 - (void)ViewRepresentableAdaptor;
-- (void)n;
+- (void)RotationDirection;
 - (double)²­;
-- (void)ator;
-- (UIResponder *)e;
+- (void)Iterator;
+- (UIResponder *)DidChangeMessage;
 - (void)xlR0;
 - (void)è23D^£þè23ÔTþyè23^£þ;
-- (UIDimmingView *)iguration;
+- (UIDimmingView *)Configuration;
 - (struct CGRect);
 - (_Bool);
-- (void)ableValue;
-- (void)ext;
+- (void)UIAnimatableValue;
+- (void)_UIUserInterfaceSemanticContext;
 - (_Bool)ho;
 - (long long)3¬&tþ;
 - (void)XB[;
@@ -122,30 +123,6 @@
 - (void)inPlacementsIfNecessaryFrom, intermediate 1:(id <UIContentContainer>)arg1 %@, intermediate 2:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets;
-@property(nonatomic, setter=_setColumnSeparatorsExtendToTitlebar:) _Bool _columnSeparatorsExtendToTitlebar;
-@property(copy, nonatomic, setter=_setDisplayModeButtonItemTitle:) NSString *_displayModeButtonItemTitle;
-@property(nonatomic, setter=_setPrimaryOffscreenGestureMode:) long long _primaryOffscreenGestureMode;
-@property(nonatomic, setter=_setWantsFloatingSidebar:) _Bool _wantsFloatingSidebar;
-@property(readonly, nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(nonatomic) __weak id <UISplitViewControllerDelegate> delegate;
-@property(nonatomic) float gutterWidth;
-@property(nonatomic) _Bool hidesMasterViewInPortrait;
-@property(readonly, nonatomic) _Bool inCollapsingToProposedTopColumnCallback;
-@property(readonly, nonatomic) _Bool inExpandingToProposedDisplayModeCallback;
-@property(readonly, nonatomic) _Bool lockedForDelegateCallback;
-@property(nonatomic) double maximumPrimaryColumnWidth;
-@property(nonatomic) double minimumPrimaryColumnWidth;
-@property(nonatomic) long long preferredDisplayMode;
-@property(nonatomic) double preferredPrimaryColumnWidthFraction;
-@property(nonatomic) _Bool prefersOverlayInRegularWidthPhone;
-@property(nonatomic) _Bool presentsWithGesture;
-@property(nonatomic) long long primaryBackgroundStyle;
-@property(nonatomic) long long primaryEdge;
 @property(readonly, nonatomic) UISplitViewController *splitViewController;
-@property(readonly, nonatomic) long long style;
-@property(nonatomic) _Bool usesDeviceOverlayPreferences;
-@property(nonatomic, getter=_usesExtraWidePrimaryColumn, setter=_setUsesExtraWidePrimaryColumn:) _Bool usesExtraWidePrimaryColumn;
-@property(copy, nonatomic) NSArray *viewControllers;
 @end
 

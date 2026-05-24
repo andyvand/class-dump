@@ -6,38 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class CUIKPhoneNumberDescriptionGenerator, CalUISuggestionsField, EKAutocompleter, EKSyncStatusChangeListener, EKUIAttendeesControlContainer, EKUIEditingField, EKUIErrorButton, EKUIPlusButton, EKUITextButton, EKUITokenField, NSDate, NSDictionary, NSLayoutConstraint, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSProgressIndicator, NSSet, NSStackView, NSString, NSView;
+@class EKSyncStatusChangeListener, EKUIAttendeesControlContainer;
 
 @interface EKUIAttendeesGadget : EKUISingleViewGadget
 {
     EKSyncStatusChangeListener *_syncStatusChangeListener;
-    NSSet *_blockedParticipants;
-    _Bool _sortAttendeeTokensOnNextUpdate;
-    _Bool _canShowAvailabilityButton;
-    EKUIAttendeesControlContainer *_controlContainer;
-    NSStackView *_stackView;
-    EKUITokenField *_attendeesField;
-    double _lastAttendeesFieldWidth;
-    NSView *_editingView;
-    EKUIEditingField *_editingField;
-    NSLayoutConstraint *_editingFieldLeadingConstraint;
-    NSProgressIndicator *_progressIndicator;
-    NSView *_separatorView;
-    NSView *_separatorView2;
-    NSMutableDictionary *_cachedFreeBusyInfo;
-    EKUIPlusButton *_plusButton;
-    EKUITextButton *_linkButton;
-    EKUIErrorButton *_errorButton;
-    NSMutableSet *_attendeesAddedInCurrentSession;
-    NSDictionary *_viewMetrics;
-    EKAutocompleter *_autocompleter;
-    NSString *_lastEventID;
-    CUIKPhoneNumberDescriptionGenerator *_phoneNumberDescriptionGenerator;
-    CDUnknownBlockType _suggestionsUpdatedBlock;
-    NSOperationQueue *_availabilityRequestsQueue;
-    NSSet *_lastAttendeesForAvailability;
-    NSDate *_lastAvailabiltyStart;
-    NSDate *_lastAvailabiltyEnd;
 }
 
 + (id);
@@ -60,34 +33,34 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)v;
+- (id)q@;
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)	;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)W;
 - (id);
 - (unsigned long long);
 - (id);
+- (id)@;
+- (void)߈);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -102,27 +75,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)T;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)@;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)q;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -134,7 +107,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -151,7 +124,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
 - (void);
@@ -160,7 +133,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -168,7 +141,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (_Bool);
@@ -188,49 +161,16 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (_Bool)
 × ;
-- (_Bool)ew;
+- (_Bool)repeatView;
 
 // Remaining properties
-@property(retain) NSMutableSet *attendeesAddedInCurrentSession; // @synthesize attendeesAddedInCurrentSession=_attendeesAddedInCurrentSession;
-@property(retain) EKUITokenField *attendeesField; // @synthesize attendeesField=_attendeesField;
-@property(retain) EKAutocompleter *autocompleter; // @synthesize autocompleter=_autocompleter;
-@property(retain, nonatomic) NSOperationQueue *availabilityRequestsQueue; // @synthesize availabilityRequestsQueue=_availabilityRequestsQueue;
-@property(retain) NSMutableDictionary *cachedFreeBusyInfo; // @synthesize cachedFreeBusyInfo=_cachedFreeBusyInfo;
-@property _Bool canShowAvailabilityButton; // @synthesize canShowAvailabilityButton=_canShowAvailabilityButton;
 @property(retain) EKUIAttendeesControlContainer *controlContainer; // @synthesize controlContainer=_controlContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) EKUIEditingField *editingField; // @synthesize editingField=_editingField;
-@property(retain) NSLayoutConstraint *editingFieldLeadingConstraint; // @synthesize editingFieldLeadingConstraint=_editingFieldLeadingConstraint;
-@property(retain) NSView *editingView; // @synthesize editingView=_editingView;
-@property(retain) EKUIErrorButton *errorButton; // @synthesize errorButton=_errorButton;
-@property(readonly) unsigned long long hash;
-@property double lastAttendeesFieldWidth; // @synthesize lastAttendeesFieldWidth=_lastAttendeesFieldWidth;
-@property(retain, nonatomic) NSSet *lastAttendeesForAvailability; // @synthesize lastAttendeesForAvailability=_lastAttendeesForAvailability;
-@property(retain, nonatomic) NSDate *lastAvailabiltyEnd; // @synthesize lastAvailabiltyEnd=_lastAvailabiltyEnd;
-@property(retain, nonatomic) NSDate *lastAvailabiltyStart; // @synthesize lastAvailabiltyStart=_lastAvailabiltyStart;
-@property(retain) NSString *lastEventID; // @synthesize lastEventID=_lastEventID;
-@property(retain) EKUITextButton *linkButton; // @synthesize linkButton=_linkButton;
-@property(readonly, nonatomic) CUIKPhoneNumberDescriptionGenerator *phoneNumberDescriptionGenerator; // @synthesize phoneNumberDescriptionGenerator=_phoneNumberDescriptionGenerator;
-@property(retain) EKUIPlusButton *plusButton; // @synthesize plusButton=_plusButton;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(retain) NSView *separatorView; // @synthesize separatorView=_separatorView;
-@property(retain) NSView *separatorView2; // @synthesize separatorView2=_separatorView2;
-@property _Bool sortAttendeeTokensOnNextUpdate; // @synthesize sortAttendeeTokensOnNextUpdate=_sortAttendeeTokensOnNextUpdate;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(copy) CDUnknownBlockType suggestionsUpdatedBlock; // @synthesize suggestionsUpdatedBlock=_suggestionsUpdatedBlock;
-@property(readonly) Class superclass;
-@property(readonly) CalUISuggestionsField *textField;
-@property(retain) NSDictionary *viewMetrics; // @synthesize viewMetrics=_viewMetrics;
 
 @end
 

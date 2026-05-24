@@ -9,18 +9,16 @@
 @interface NewsUI2.MockHeadline
 {
     id _date;
-    id _isIssueOnly;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)microUpdatesNotSupported;
 - (void);
 - (void)qÍ^xdªþQÍ^çþYÍ^4æMÿIÍ^Leªþ;
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *displayDate;
-@property(nonatomic, readonly) _Bool issueOnly;
 
 @end
 

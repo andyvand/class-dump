@@ -15,7 +15,7 @@
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)C;
 + (Class);
 + (unsigned int);
 + (id);

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCSportsEventLiveStreamVideo, NSArray, NSDate, NSDictionary, NSString;
-@protocol FCSportsProviding;
+@class NSArray, NSDate, NSDictionary, NSString;
 
 @protocol FCSportsEventProviding
+- (_Bool)t to fetch the speech model in state '%@');
+- (NSDate *)dugAS3CXkVJ9yc9nOWpDQK4dEFa08NNIA5T4/Library/Caches/com.apple.xbs/TemporaryDirectory.4Xq50a/Sources/ConversationKit/ConversationKit/Logger.swift;
+- (NSArray *)2;
+- (NSDictionary *)LocalParticipantViewCameraControls;
+- (NSString *);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eventArticleListID;
 @property(readonly, nonatomic) NSArray *eventCompetitorTags;
-@property(readonly, nonatomic) id <FCSportsProviding> eventLeagueTag;
-@property(readonly, nonatomic) _Bool isDeprecated;
-@property(readonly, nonatomic) _Bool isRouteable;
-@property(readonly, nonatomic) FCSportsEventLiveStreamVideo *liveStreamVideo;
-@property(readonly, copy, nonatomic) NSString *primaryLiveActivityID;
-@property(readonly, nonatomic) NSDictionary *rosterResourceIDs;
-@property(readonly, copy, nonatomic) NSArray *secondaryLiveActivityIDs;
-@property(readonly, copy, nonatomic) NSDate *sportsEventStartTime;
-@property(readonly, nonatomic) _Bool supportsLiveActivity;
 @end
 

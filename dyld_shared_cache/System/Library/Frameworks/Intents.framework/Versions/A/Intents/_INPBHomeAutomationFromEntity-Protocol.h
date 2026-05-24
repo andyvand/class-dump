@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class NSString;
 
 @protocol _INPBHomeAutomationFromEntity
-- (NSString *)oadLongListType;
+- (int)(	;
+- (NSString *)payloadLongListType;
 - (_Bool)tionDocument",R,N,V_sent;
 - (void)ileLockeds;
 
 // Remaining properties
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValue;
 @property(nonatomic) int type;
-@property(retain, nonatomic) _INPBString *value;
 @end
 

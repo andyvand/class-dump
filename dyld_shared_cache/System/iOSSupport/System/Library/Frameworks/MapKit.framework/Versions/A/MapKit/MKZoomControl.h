@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, MKModernControlAppearanceHelper, NSString, UIButton, UIHoverGestureRecognizer, UIImageView, UIVisualEffectView;
+@class MKModernControlAppearanceHelper;
 
 @interface MKZoomControl
 {
     MKModernControlAppearanceHelper *_appearanceHelper;
-    int _zoomState;
-    UIHoverGestureRecognizer *_hoverRecognizer;
-    _Bool _hovering;
-    MKMapView *_mapView;
-    UIButton *_minusButton;
-    UIButton *_plusButton;
-    UIImageView *_minusImageView;
-    UIImageView *_plusImageView;
-    UIVisualEffectView *_effectView;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�h;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
@@ -40,32 +31,19 @@
 - (_Bool);
 - (void);
 - (void);
+- (struct CGSize)kh;
 - (struct CGSize);
-- (struct CGSize);
-- (void);
+- (void)account:conference:peerID:propertiesUpdated: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (id);
-- (void)etion: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)dMapSnapshotter;
-- (void)ntTicket;
+- (void)fullURLForShortenedURL:completion: /* Error: Ran out of types for this method. */;
+- (id)_setPresentationCourse: /* Error: Ran out of types for this method. */;
+- (void)MKAnnotatedMapSnapshotter;
+- (void)MKMapServiceWalletMerchantTicket;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool hovering; // @synthesize hovering=_hovering;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(retain, nonatomic) UIButton *minusButton; // @synthesize minusButton=_minusButton;
-@property(retain, nonatomic) UIImageView *minusImageView; // @synthesize minusImageView=_minusImageView;
-@property(retain, nonatomic) UIButton *plusButton; // @synthesize plusButton=_plusButton;
-@property(retain, nonatomic) UIImageView *plusImageView; // @synthesize plusImageView=_plusImageView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL, PKContent, PKDataAccessor, PKDisplayProfile, PKDisplayTraitCollection, PKImageSet;
+@class NSString;
 
 @interface PKObject
 {
     struct os_unfair_lock_s _lock;
-    PKContent *_content;
-    PKImageSet *_imageSets[9];
-    PKDisplayTraitCollection *_preferredDisplayTraits;
-    _Bool _initializedViaInitWithCoder;
-    NSString *_uniqueID;
-    NSData *_manifestHash;
-    PKDataAccessor *_dataAccessor;
-    PKDisplayProfile *_displayProfile;
-    NSURL *_webServiceURL;
-    NSString *_authenticationToken;
-    NSDate *_signingDate;
-    unsigned long long _settings;
-    long long _shareCount;
-    double _preferredImageScale;
-    NSString *_preferredImageSuffix;
 }
 
 + (id);
++ (id)9?;
 + (id);
-+ (id);
-+ (id);
++ (id)p7)t;
 + (id);
 + (id);
 + (id);
 + (Class);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
-+ (Class);
++ (Class)hh8);
 + (_Bool);
 + (_Bool)0@ù
 × ;
@@ -46,12 +31,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -68,64 +53,52 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (void)48`;
+- (void)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)?!;
+- (_Bool))g;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)}l;
 - (id);
+- (void)$h i@j;
+- (unsigned long long)windowWillReturnFieldEditor:toObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)establishment_success;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)!Y"ð!Aùð%ð1Â0@ù
 × ;
 - (void);
 - (void)PSConnection"16@"NSData"24@"NSString"32@"NSString"40;
 - (id);
 - (void)ates in "W3C date time stamp format", either "Complete date plus hours and minutes" or "Complete date plus hours, minutes and seconds". For example, 1980-05-07T10:30-05:00. /* Error: Ran out of types for this method. */;
-- (id)FamilySetupPrompt;
-- (void)PassCG6passes_t;
+- (id)PKSharedCacheDismissedAppleCardCashFamilySetupPrompt;
+- (void)SaySo19PKSecureElementPassCG6passes_t;
 - (id)%j8Ù;
 - (id)w;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authenticationToken; // @synthesize authenticationToken=_authenticationToken;
-@property(retain, nonatomic) PKDataAccessor *dataAccessor; // @synthesize dataAccessor=_dataAccessor;
-@property(retain, nonatomic) PKDisplayProfile *displayProfile; // @synthesize displayProfile=_displayProfile;
-@property(readonly, nonatomic) _Bool initializedViaInitWithCoder; // @synthesize initializedViaInitWithCoder=_initializedViaInitWithCoder;
-@property(copy, nonatomic) NSData *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(retain, nonatomic) PKDisplayTraitCollection *preferredDisplayTraits; // @dynamic preferredDisplayTraits;
-@property(nonatomic) double preferredImageScale; // @synthesize preferredImageScale=_preferredImageScale;
-@property(retain, nonatomic) NSString *preferredImageSuffix; // @synthesize preferredImageSuffix=_preferredImageSuffix;
-@property(nonatomic) unsigned long long settings; // @synthesize settings=_settings;
-@property(nonatomic) long long shareCount; // @synthesize shareCount=_shareCount;
-@property(copy, nonatomic) NSDate *signingDate; // @synthesize signingDate=_signingDate;
 @property(copy, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(copy, nonatomic) NSURL *webServiceURL; // @synthesize webServiceURL=_webServiceURL;
 
 @end
 

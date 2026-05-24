@@ -7,14 +7,12 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFTableHeaderCardSection
-- (NSArray *)ber: /* Error: Ran out of types for this method. */;
+- (void)bled;
+- (NSArray *)__MPModelPropertyTVEpisodeExplicitRating__MAPPING_MISSING__;
+- (NSData *)ring",&,N,V_commentText;
+- (NSArray *)setNumber: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cells;
 @property(copy, nonatomic) NSArray *columns;
-@property(copy, nonatomic) NSArray *compact_cells;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int should_repeat_header_in_flow_layout;
-@property(nonatomic) int vertical_alignment;
 @end
 

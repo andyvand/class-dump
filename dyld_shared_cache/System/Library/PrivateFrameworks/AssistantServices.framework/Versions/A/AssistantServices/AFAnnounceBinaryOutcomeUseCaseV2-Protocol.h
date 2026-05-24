@@ -5,7 +5,7 @@
 //
 
 @protocol AFAnnounceBinaryOutcomeUseCaseV2
-- (id)D: /* Error: Ran out of types for this method. */;
+- (id)setExpectedSpeakerSharedUserID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long type;

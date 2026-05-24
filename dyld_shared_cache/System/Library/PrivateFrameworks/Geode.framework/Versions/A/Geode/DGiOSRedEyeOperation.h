@@ -11,14 +11,13 @@
 @interface DGiOSRedEyeOperation : IPAOperation
 {
     NSArray *_redEyeCorrections;
-    NSArray *_autoRedEyeCorrections;
 }
 
-+ (id);
++ (id)p;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,7 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoRedEyeCorrections; // @synthesize autoRedEyeCorrections=_autoRedEyeCorrections;
 @property(copy, nonatomic) NSArray *redEyeCorrections; // @synthesize redEyeCorrections=_redEyeCorrections;
 
 @end

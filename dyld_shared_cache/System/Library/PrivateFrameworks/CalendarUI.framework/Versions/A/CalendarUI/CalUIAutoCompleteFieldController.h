@@ -12,7 +12,7 @@
 
 - (id);
 - (_Bool);
-- (_Bool)pandingButtonWithTitle:(id)arg1 image:(id)arg2 target:(SEL)arg3 action:minimumSize: /* Error: Ran out of types for this method. */;
+- (_Bool)expandingButtonWithTitle:(id)arg1 image:(id)arg2 target:(SEL)arg3 action:minimumSize: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CRKIDSMessageNotificationInfo
 {
     NSDictionary *_message;
-    NSString *_senderAppleID;
-    NSString *_senderAddress;
 }
 
 + (id);
@@ -22,10 +20,7 @@
 - (id)arget browser requesting studentd transport;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, copy, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(readonly, copy, nonatomic) NSString *senderAppleID; // @synthesize senderAppleID=_senderAppleID;
 
 @end
 

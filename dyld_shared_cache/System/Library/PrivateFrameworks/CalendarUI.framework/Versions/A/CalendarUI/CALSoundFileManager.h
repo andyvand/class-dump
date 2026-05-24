@@ -11,8 +11,8 @@
     NSMutableArray *_soundFiles;
 }
 
-+ (id);
-+ (void)requency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end: /* Error: Ran out of types for this method. */;
++ (id)h;
++ (void)initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

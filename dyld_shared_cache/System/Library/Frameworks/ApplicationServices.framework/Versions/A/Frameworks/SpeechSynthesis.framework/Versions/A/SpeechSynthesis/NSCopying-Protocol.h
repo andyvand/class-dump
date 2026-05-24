@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)ISO88594;
 @end
 

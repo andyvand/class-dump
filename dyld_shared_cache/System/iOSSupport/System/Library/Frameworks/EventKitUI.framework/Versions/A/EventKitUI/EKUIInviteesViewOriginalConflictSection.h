@@ -4,102 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKInviteeAlternativeTimeSearcher, NSArray, NSDate, NSMutableSet, NSString, NSTimeZone;
+@class NSDate;
 
 @interface EKUIInviteesViewOriginalConflictSection
 {
     _Bool _checked;
-    _Bool _conflictFound;
-    NSString *_title;
-    NSTimeZone *_timeZone;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_busyParticipants;
-    NSMutableSet *_rowsShowingAllParticipants;
-    NSString *_cachedCellReuseIdentifier;
-    unsigned long long _reuseIdentifierVersion;
-    CDUnknownBlockType _tableViewCellHook;
-    CDUnknownBlockType _newTimeChosen;
-    CDUnknownBlockType _showPreviewOfEventAtTime;
-    EKInviteeAlternativeTimeSearcher *_availabilitySearcher;
 }
 
 - (id);
 - (CDUnknownBlockType);
+- (_Bool)w+s;
+- (CDUnknownBlockType);
+- (void)s;
+- (void)s;
+- (void);
+- (void)%s;
+- (void)+s;
+- (void)s;
+- (void)&s;
+- (void)&s;
 - (_Bool);
+- (id)s;
+- (unsigned long long)+s;
+- (void);
+- (void)%s;
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (double);
-- (double);
+- (double)ج&s;
+- (double)+s;
 - (long long);
-- (id);
+- (id)s;
 - (_Bool);
-- (void);
+- (void)X%s;
 - (void);
 - (id);
+- (_Bool)X%s;
 - (_Bool);
-- (_Bool);
+- (id)s;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)X%s;
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (_Bool)<o;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)trailingOffsetToMarginForTextFieldClearButtonAlignment;
 - (void);
 - (id)I: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) EKInviteeAlternativeTimeSearcher *availabilitySearcher; // @synthesize availabilitySearcher=_availabilitySearcher;
-@property(retain, nonatomic) NSArray *busyParticipants; // @synthesize busyParticipants=_busyParticipants;
-@property(retain, nonatomic) NSString *cachedCellReuseIdentifier; // @synthesize cachedCellReuseIdentifier=_cachedCellReuseIdentifier;
-@property(nonatomic) _Bool checked; // @synthesize checked=_checked;
-@property(nonatomic) _Bool conflictFound; // @synthesize conflictFound=_conflictFound;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType newTimeChosen; // @synthesize newTimeChosen=_newTimeChosen;
-@property(nonatomic) unsigned long long reuseIdentifierVersion; // @synthesize reuseIdentifierVersion=_reuseIdentifierVersion;
-@property(retain, nonatomic) NSMutableSet *rowsShowingAllParticipants; // @synthesize rowsShowingAllParticipants=_rowsShowingAllParticipants;
-@property(copy, nonatomic) CDUnknownBlockType showPreviewOfEventAtTime; // @synthesize showPreviewOfEventAtTime=_showPreviewOfEventAtTime;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType tableViewCellHook; // @synthesize tableViewCellHook=_tableViewCellHook;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

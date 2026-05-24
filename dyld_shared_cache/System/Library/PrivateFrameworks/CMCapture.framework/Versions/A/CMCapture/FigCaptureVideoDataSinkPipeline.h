@@ -6,28 +6,16 @@
 
 #import <CMCapture/FigCaptureRemoteQueueSinkPipeline.h>
 
-@class BWBackgroundBlurNode, BWFigVideoCaptureDevice, BWNodeOutput, BWPipelineStage, BWPixelTransferNode, BWSmartCropNode, BWStreamingFilterNode, FigCaptureVISPipeline, NSString;
+@class BWFigVideoCaptureDevice;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureVideoDataSinkPipeline : FigCaptureRemoteQueueSinkPipeline
 {
     BWFigVideoCaptureDevice *_captureDevice;
-    FigCaptureVISPipeline *_visPipeline;
-    BWPipelineStage *_visPipelineStage;
-    BWStreamingFilterNode *_filterNode;
-    BWPixelTransferNode *_videoDataConverterRotatorNode;
-    BWPixelTransferNode *_videoDataCopierNode;
-    BWSmartCropNode *_lowLatencyStabilizationNode;
-    BWNodeOutput *_faceTrackingVideoCaptureOutput;
-    BWNodeOutput *_offlineVISMotionDataCaptureOutput;
-    NSString *_sourceID;
-    int _sourceDeviceType;
-    _Bool _optimizedForPreview;
-    BWBackgroundBlurNode *_backgroundBlurNode;
 }
 
-+ (void)aKeyGroups;
-- (void);
++ (void)AvailableMetadataKeyGroups;
+- (void)lementPrefix;
 - (void);
 
 @end

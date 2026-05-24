@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (sgLogging)
-+ (id);
++ (id)webView:(id)arg1 authenticationChallenge:shouldAllowDeprecatedTLS: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)webLoginViewControllerForAccount: /* Error: Ran out of types for this method. */;
 @end
 

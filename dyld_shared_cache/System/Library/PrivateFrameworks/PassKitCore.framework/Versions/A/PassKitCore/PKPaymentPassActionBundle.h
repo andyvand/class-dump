@@ -9,7 +9,6 @@
 @interface PKPaymentPassActionBundle
 {
     NSArray *_actions;
-    NSArray *_actionGroups;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void)ssbook.webservices.error.severe_push_rate_abuse;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actionGroups; // @synthesize actionGroups=_actionGroups;
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 
 @end

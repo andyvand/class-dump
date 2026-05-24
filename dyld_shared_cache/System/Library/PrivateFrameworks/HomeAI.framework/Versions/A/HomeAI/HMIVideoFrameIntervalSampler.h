@@ -6,28 +6,18 @@
 
 #import <HomeAI/HMIVideoFrameSampler.h>
 
-@class NSString;
-
 @interface HMIVideoFrameIntervalSampler : HMIVideoFrameSampler
 {
     CDStruct_1b6d18a9 _interval;
-    CDStruct_1b6d18a9 _firstPTS;
-    long long _lastSampledIntervalIndex;
 }
 
 + (id)õ;
 - (void);
 - (id);
-- (id);
+- (id)unionFrameForItemsInColumns:(CDStruct_1b6d18a9)arg1 rows:inBounds: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

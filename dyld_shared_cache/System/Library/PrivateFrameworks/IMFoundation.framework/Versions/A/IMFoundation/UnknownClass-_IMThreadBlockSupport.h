@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (_IMThreadBlockSupport)
-+ (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (void)anionLinkManager";
+- (void)@"NSCloudKitMirroringDelegateOptions";
+- (void)enceMigrator";
+- (void)rsistentStoreDescription";
+- (void)24;
+- (void)estMonitor";
+- (void)16@"NSError"24;
 @end
 

@@ -6,8 +6,6 @@
 
 #import <ChronoServices/CHSWatchComplicationsCurvedLabelMetrics.h>
 
-@class BSColor, CHSBezierPath;
-
 @interface CHSMutableWatchComplicationsCurvedLabelMetrics : CHSWatchComplicationsCurvedLabelMetrics
 {
 }
@@ -27,18 +25,7 @@
 - (void){public}s;
 
 // Remaining properties
-@property(nonatomic) struct CGSize accessoryMaxSize; // @dynamic accessoryMaxSize;
-@property(nonatomic) double accessoryPadding; // @dynamic accessoryPadding;
-@property(nonatomic) unsigned long long accessoryPlacement; // @dynamic accessoryPlacement;
-@property(retain, nonatomic) CHSBezierPath *bezierPath; // @dynamic bezierPath;
-@property(nonatomic) double centerAngle; // @dynamic centerAngle;
 @property(nonatomic) struct CGPoint circleCenter; // @dynamic circleCenter;
-@property(nonatomic) double circleRadius; // @dynamic circleRadius;
-@property(nonatomic) double fontSize; // @dynamic fontSize;
-@property(nonatomic) _Bool interior; // @dynamic interior;
-@property(nonatomic) double maximumAngularWidth; // @dynamic maximumAngularWidth;
-@property(retain, nonatomic) BSColor *textColor; // @dynamic textColor;
-@property(nonatomic) double tracking; // @dynamic tracking;
 
 @end
 

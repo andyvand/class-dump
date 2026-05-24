@@ -5,5 +5,9 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (void)NJ;
+- (_Bool);
 @end
 

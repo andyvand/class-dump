@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface SPBTRSSIResult
 {
     NSUUID *_beaconIdentifier;
-    NSDate *_timestamp;
-    long long _bucket;
-    long long _rssi;
 }
 
-+ (_Bool);
++ (_Bool)";
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)MessagesOrderedCorrectly;
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, nonatomic) long long bucket; // @synthesize bucket=_bucket;
-@property(readonly, nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

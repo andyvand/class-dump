@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.LoadEventManager
 {
     id coordinator;
+    id;
 }
 
 @end

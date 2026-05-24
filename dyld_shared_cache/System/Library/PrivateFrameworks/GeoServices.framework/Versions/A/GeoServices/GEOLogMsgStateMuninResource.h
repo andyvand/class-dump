@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMuninResource
 {
     PBUnknownFields *_unknownFields;
-    NSString *_assetBucket;
-    unsigned int _levelOfDetail;
-    struct {
-        unsigned int has_levelOfDetail:1;
-    } _flags;
 }
 
-+ (_Bool)portStructuredRapAffordance:(id)arg1;
++ (_Bool)setHasSupportStructuredRapAffordance:(id)arg1;
 - (_Bool);
 - (void);
+- (id)(;
 - (id);
-- (id);
+- (void),;
 - (void);
-- (void);
-- (void);
+- (void)vailable:(_Bool)arg1 forChannel:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -31,22 +26,18 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)_clampedCoordinateRegionForCoordinateRegion: /* Error: Ran out of types for this method. */;
+- (_Bool)`b;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)ser;
-- (id)houldUseConditionalRequest: /* Error: Ran out of types for this method. */;
+- (void)geNesting < 0x100;
+- (id)supportsMultiUser;
+- (id)setShouldUseConditionalRequest: /* Error: Ran out of types for this method. */;
 - (id)sionID to 0;
 - (id)ÿÿ;
 - (void)Y3;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetBucket;
 @property(readonly, nonatomic) _Bool hasAssetBucket;
-@property(nonatomic) _Bool hasLevelOfDetail;
-@property(nonatomic) unsigned int levelOfDetail;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

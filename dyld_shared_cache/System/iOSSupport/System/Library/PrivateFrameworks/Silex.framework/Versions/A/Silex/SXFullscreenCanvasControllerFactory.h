@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXFullscreenCaptionViewFactory, SXMediaSharingPolicyProvider, SXPresentationAttributesProvider;
+@protocol SXFullscreenCaptionViewFactory;
 
 @interface SXFullscreenCanvasControllerFactory
 {
     id <SXFullscreenCaptionViewFactory> _captionViewFactory;
-    id <SXPresentationAttributesProvider> _presentationAttributesProvider;
-    id <SXMediaSharingPolicyProvider> _mediaSharingPolicyProvider;
 }
 
 - (id);
@@ -23,15 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXFullscreenCaptionViewFactory> captionViewFactory; // @synthesize captionViewFactory=_captionViewFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXMediaSharingPolicyProvider> mediaSharingPolicyProvider; // @synthesize mediaSharingPolicyProvider=_mediaSharingPolicyProvider;
-@property(readonly, nonatomic) id <SXPresentationAttributesProvider> presentationAttributesProvider; // @synthesize presentationAttributesProvider=_presentationAttributesProvider;
-@property(readonly) Class superclass;
 
 @end
 

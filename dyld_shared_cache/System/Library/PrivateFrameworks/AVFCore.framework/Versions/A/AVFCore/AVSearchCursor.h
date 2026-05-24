@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSearchMatchDescription, AVSearchPredicate;
+@class AVSearchPredicate;
 
 @interface AVSearchCursor
 {
     AVSearchPredicate *_predicate;
 }
 
-- (long long);
-- (id);
+- (long long)_setProfileContainers:(long long)arg1 muxIds: /* Error: Ran out of types for this method. */;
+- (id)lInfo;
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
-- (unsigned long long);
+- (id)�;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVSearchMatchDescription *matchDescription;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 presentationTimeStamp;
 
 @end

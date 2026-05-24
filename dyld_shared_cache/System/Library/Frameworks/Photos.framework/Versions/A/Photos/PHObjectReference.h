@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PHObjectReference
 {
     NSString *_representedType;
-    NSString *_localIdentifier;
-    NSURL *_libraryURL;
 }
 
 @end

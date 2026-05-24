@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MLBatchedTensorsHolder
 {
     NSDictionary *_batchedTensors;
-    unsigned long long _numberOfTensors;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *batchedTensors; // @synthesize batchedTensors=_batchedTensors;
-@property(readonly, nonatomic) unsigned long long numberOfTensors; // @synthesize numberOfTensors=_numberOfTensors;
 
 @end
 

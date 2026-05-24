@@ -6,15 +6,11 @@
 
 #import <OnBoardingKit/OBWelcomeController.h>
 
-@class NSArray, NSLayoutConstraint, UIView;
+@class UIView;
 
 @interface OBWelcomeFullCenterContentController : OBWelcomeController
 {
     UIView *_centerContentView;
-    NSLayoutConstraint *_contentViewOptionalHeightAnchor;
-    double _contentViewMaxHeight;
-    NSArray *_floatingConstraintGroup;
-    NSArray *_pinnedConstraintGroup;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
@@ -31,17 +27,13 @@
 - (double);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)%;
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *centerContentView; // @synthesize centerContentView=_centerContentView;
-@property(nonatomic) double contentViewMaxHeight; // @synthesize contentViewMaxHeight=_contentViewMaxHeight;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewOptionalHeightAnchor; // @synthesize contentViewOptionalHeightAnchor=_contentViewOptionalHeightAnchor;
-@property(retain, nonatomic) NSArray *floatingConstraintGroup; // @synthesize floatingConstraintGroup=_floatingConstraintGroup;
-@property(retain, nonatomic) NSArray *pinnedConstraintGroup; // @synthesize pinnedConstraintGroup=_pinnedConstraintGroup;
 
 @end
 

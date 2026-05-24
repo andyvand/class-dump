@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_os_log;
 
 @interface PGPublicEventCriteria
 {
     NSObject<OS_os_log> *_loggingConnection;
-    _Bool _allowsExpandingTimeAttendance;
-    _Bool _promoteToHighConfidenceBasedOnCategory;
-    NSString *_eventCategory;
-    double _minimumTimeAttendance;
-    double _maximumDistance;
-    long long _minimumAttendance;
-    NSArray *_disambiguationCriteria;
-    NSArray *_highConfidenceCriteria;
-    NSArray *_prohibitedCriteria;
 }
 
 - (void);
@@ -27,19 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)7L;
+- (_Bool);
 - (id);
 - (double);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)sentenceTokenizerWithString:(id)arg1 locale: /* Error: Ran out of types for this method. */;
+- (id)_updateViewVisibility;
+- (_Bool)_thirdPartyMenuExtraIsOpen:controller:initialVisibleWindowCount: /* Error: Ran out of types for this method. */;
+- (id)reen",&,N,V__previousCursorScreen;
+- (_Bool).3%@;
+- (_Bool)J;
+- (id)a;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,16 +41,7 @@
 - (void)ht Group;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExpandingTimeAttendance; // @synthesize allowsExpandingTimeAttendance=_allowsExpandingTimeAttendance;
-@property(retain, nonatomic) NSArray *disambiguationCriteria; // @synthesize disambiguationCriteria=_disambiguationCriteria;
 @property(retain, nonatomic) NSString *eventCategory; // @synthesize eventCategory=_eventCategory;
-@property(readonly, nonatomic) _Bool hasMinimumAttendance;
-@property(retain, nonatomic) NSArray *highConfidenceCriteria; // @synthesize highConfidenceCriteria=_highConfidenceCriteria;
-@property(nonatomic) double maximumDistance; // @synthesize maximumDistance=_maximumDistance;
-@property(nonatomic) long long minimumAttendance; // @synthesize minimumAttendance=_minimumAttendance;
-@property(nonatomic) double minimumTimeAttendance; // @synthesize minimumTimeAttendance=_minimumTimeAttendance;
-@property(retain, nonatomic) NSArray *prohibitedCriteria; // @synthesize prohibitedCriteria=_prohibitedCriteria;
-@property(nonatomic) _Bool promoteToHighConfidenceBasedOnCategory; // @synthesize promoteToHighConfidenceBasedOnCategory=_promoteToHighConfidenceBasedOnCategory;
 
 @end
 

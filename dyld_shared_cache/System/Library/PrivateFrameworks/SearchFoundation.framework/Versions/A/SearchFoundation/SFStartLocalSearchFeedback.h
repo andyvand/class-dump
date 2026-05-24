@@ -6,21 +6,9 @@
 
 #import <SearchFoundation/SFStartSearchFeedback.h>
 
-@class NSString, SFIndexState, SFPerformEntityQueryCommand;
-
 @interface SFStartLocalSearchFeedback : SFStartSearchFeedback
 {
     _Bool _isPhotosScopedSearch;
-    _Bool _isSemanticSearchEligible;
-    int _coreSpotlightIndexUsed;
-    int _spotlightInitialPageType;
-    int _spotlightBrowsingSearchScope;
-    unsigned long long _indexType;
-    NSString *_originatingApp;
-    SFPerformEntityQueryCommand *_entityQueryCommand;
-    SFIndexState *_indexState;
-    unsigned long long _inputCharCount;
-    unsigned long long _inputWordCount;
 }
 
 + (_Bool);
@@ -28,23 +16,23 @@
 - (_Bool);
 - (id);
 - (int);
+- (id)volumeControllerDataSource:(id)arg1 didChangeEUVolumeLimit: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id))A;
+- (id)C;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)audioSessionReporterID;
+- (void)blyNonSilentToneForInvalidPersistedValue:(unsigned long long)arg1;
+- (id)mport Source Value;
+- (_Bool)H;
 - (unsigned long long);
 - (id);
 - (int);
 - (unsigned long long);
 - (id);
-- (void)ilAddresses;
+- (void)hasCountNgramMatchInAuthorEmailAddresses;
 - (void)°;
 - (void)5íÿK^+ñ;
 - (void)êÿvOÅ*;
@@ -58,17 +46,7 @@
 - (int)l¨Âÿ;
 
 // Remaining properties
-@property(nonatomic) int coreSpotlightIndexUsed; // @synthesize coreSpotlightIndexUsed=_coreSpotlightIndexUsed;
-@property(copy, nonatomic) SFPerformEntityQueryCommand *entityQueryCommand; // @synthesize entityQueryCommand=_entityQueryCommand;
-@property(retain, nonatomic) SFIndexState *indexState; // @synthesize indexState=_indexState;
 @property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) unsigned long long inputCharCount; // @synthesize inputCharCount=_inputCharCount;
-@property(nonatomic) unsigned long long inputWordCount; // @synthesize inputWordCount=_inputWordCount;
-@property(nonatomic) _Bool isPhotosScopedSearch; // @synthesize isPhotosScopedSearch=_isPhotosScopedSearch;
-@property(nonatomic) _Bool isSemanticSearchEligible; // @synthesize isSemanticSearchEligible=_isSemanticSearchEligible;
-@property(copy, nonatomic) NSString *originatingApp; // @synthesize originatingApp=_originatingApp;
-@property(nonatomic) int spotlightBrowsingSearchScope; // @synthesize spotlightBrowsingSearchScope=_spotlightBrowsingSearchScope;
-@property(nonatomic) int spotlightInitialPageType; // @synthesize spotlightInitialPageType=_spotlightInitialPageType;
 
 @end
 

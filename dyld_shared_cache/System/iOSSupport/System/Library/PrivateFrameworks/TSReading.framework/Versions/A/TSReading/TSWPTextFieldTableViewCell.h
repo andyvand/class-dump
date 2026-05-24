@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextField;
+@class UITextField;
 
 @interface TSWPTextFieldTableViewCell
 {
     UITextField *_textField;
 }
 
-- (void);
+- (void)eady to play status] event=;
 - (void);
 - (id);
-- (id);
+- (id)
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;
 
 @end

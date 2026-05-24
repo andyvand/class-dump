@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol CDPKeychainCircleProxy
+- (_Bool)_TtC6Safari33SidebarTableSectionHeaderCellView;
+- (NSData *)NSCollectionViewElement;
+- (NSData *)ButtonFunctionBarItem;
+- (_Bool)__AUTH;
 @end
 

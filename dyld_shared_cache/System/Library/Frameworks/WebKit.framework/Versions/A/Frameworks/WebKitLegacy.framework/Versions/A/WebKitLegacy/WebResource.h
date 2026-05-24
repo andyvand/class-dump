@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, WebResourcePrivate;
+@class NSData, WebResourcePrivate;
 
 @interface WebResource
 {
@@ -12,33 +12,30 @@
 }
 
 - (id);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)^e*M;
 - (reference_wrapper_29335631);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)allow-list :%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)HJ
+;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType;
-@property(readonly, nonatomic) NSURL *URL;
 @property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) NSString *frameName;
-@property(readonly, copy, nonatomic) NSString *textEncodingName;
 
 @end
 

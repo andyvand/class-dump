@@ -4,39 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBulletin, AFRequestInfo, AFSpeechRequestOptions, NSDictionary, NSNumber, NSString, NSURL, NSUUID, SASPronunciationContext;
-
 @interface SiriUIRequestOptions
 {
     _Bool _pronunciationRequest;
-    _Bool _initialBringUp;
-    _Bool _useAutomaticEndpointing;
-    _Bool _useStreamingDictation;
-    _Bool _acousticIdEnabled;
-    _Bool _releaseAudioSessionOnRecordingCompletion;
-    _Bool _forListenAfterSpeaking;
-    long long _requestSource;
-    NSString *_activationDeviceIdentifier;
-    AFBulletin *_bulletin;
-    NSString *_appBundleIdentifier;
-    NSDictionary *_messagesDirectActionContext;
-    long long _directActionEvent;
-    NSString *_serverCommandId;
-    SASPronunciationContext *_pronunciationContext;
-    NSString *_text;
-    NSURL *_speechFileURL;
-    double _expectedTimestamp;
-    double _timestamp;
-    double _buttonDownTimestamp;
-    double _buttonUpTimestamp;
-    long long _suggestionRequestType;
-    NSNumber *_homeButtonUpFromBeep;
-    NSDictionary *_continuityInfo;
-    AFRequestInfo *_requestInfo;
-    AFSpeechRequestOptions *_speechRequestOptions;
-    long long _listenAfterSpeakingOriginalRequestSource;
-    NSUUID *_previousTurnIdentifier;
-    long long _serviceProvider;
 }
 
 + (_Bool);
@@ -62,7 +32,7 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
@@ -88,8 +58,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
+- (long long)P;
+- (id)Z;
 - (_Bool);
 - (id);
 - (id);
@@ -97,58 +67,28 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)@;
+- (void)didLongPressMentionForTextView:(id)arg1 characterIndex:isLongPress: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (double)};
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (id);
+- (void);
+- (void);
+- (long long)eFrameworks/VisionKitCore.framework/Versions/A/VisionKitCore;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool acousticIdEnabled; // @synthesize acousticIdEnabled=_acousticIdEnabled;
-@property(copy, nonatomic) NSString *activationDeviceIdentifier; // @synthesize activationDeviceIdentifier=_activationDeviceIdentifier;
-@property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(retain, nonatomic) AFBulletin *bulletin; // @synthesize bulletin=_bulletin;
-@property(nonatomic) double buttonDownTimestamp; // @synthesize buttonDownTimestamp=_buttonDownTimestamp;
-@property(nonatomic) double buttonUpTimestamp; // @synthesize buttonUpTimestamp=_buttonUpTimestamp;
-@property(copy, nonatomic) NSDictionary *continuityInfo; // @synthesize continuityInfo=_continuityInfo;
-@property(nonatomic) long long directActionEvent; // @synthesize directActionEvent=_directActionEvent;
-@property(nonatomic) double expectedTimestamp; // @synthesize expectedTimestamp=_expectedTimestamp;
-@property(nonatomic) _Bool forListenAfterSpeaking; // @synthesize forListenAfterSpeaking=_forListenAfterSpeaking;
-@property(readonly, nonatomic, getter=isForSpeechRequest) _Bool forSpeechRequest;
-@property(retain, nonatomic) NSNumber *homeButtonUpFromBeep; // @synthesize homeButtonUpFromBeep=_homeButtonUpFromBeep;
-@property(nonatomic, getter=isInitialBringUp) _Bool initialBringUp; // @synthesize initialBringUp=_initialBringUp;
-@property(readonly, nonatomic) long long inputType;
-@property(nonatomic) long long listenAfterSpeakingOriginalRequestSource; // @synthesize listenAfterSpeakingOriginalRequestSource=_listenAfterSpeakingOriginalRequestSource;
-@property(copy, nonatomic) NSDictionary *messagesDirectActionContext; // @synthesize messagesDirectActionContext=_messagesDirectActionContext;
-@property(retain, nonatomic) NSUUID *previousTurnIdentifier; // @synthesize previousTurnIdentifier=_previousTurnIdentifier;
-@property(retain, nonatomic) SASPronunciationContext *pronunciationContext; // @synthesize pronunciationContext=_pronunciationContext;
-@property(nonatomic, getter=isPronunciationRequest) _Bool pronunciationRequest; // @synthesize pronunciationRequest=_pronunciationRequest;
-@property(nonatomic) _Bool releaseAudioSessionOnRecordingCompletion; // @synthesize releaseAudioSessionOnRecordingCompletion=_releaseAudioSessionOnRecordingCompletion;
-@property(retain, nonatomic) AFRequestInfo *requestInfo; // @synthesize requestInfo=_requestInfo;
 @property(nonatomic) long long requestSource; // @synthesize requestSource=_requestSource;
-@property(copy, nonatomic) NSString *serverCommandId; // @synthesize serverCommandId=_serverCommandId;
-@property(nonatomic) long long serviceProvider; // @synthesize serviceProvider=_serviceProvider;
-@property(copy, nonatomic) NSURL *speechFileURL; // @synthesize speechFileURL=_speechFileURL;
-@property(retain, nonatomic) AFSpeechRequestOptions *speechRequestOptions; // @synthesize speechRequestOptions=_speechRequestOptions;
-@property(nonatomic) long long suggestionRequestType; // @synthesize suggestionRequestType=_suggestionRequestType;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool useAutomaticEndpointing; // @synthesize useAutomaticEndpointing=_useAutomaticEndpointing;
-@property(nonatomic) _Bool useStreamingDictation; // @synthesize useStreamingDictation=_useStreamingDictation;
 
 @end
 

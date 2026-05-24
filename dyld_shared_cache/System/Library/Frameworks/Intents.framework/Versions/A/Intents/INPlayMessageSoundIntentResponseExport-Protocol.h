@@ -5,7 +5,7 @@
 //
 
 @protocol INPlayMessageSoundIntentResponseExport
-- (long long)Id;
+- (long long)hasLaunchId;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INBillPayee, INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
+@class INBillPayee;
 
 @interface INPayBillIntent : INIntent
 {
@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,36 +28,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)setAdditionURL:(id)arg1;
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) INBillPayee *billPayee;
-@property(readonly) long long billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INDateComponentsRange *dueDate;
-@property(readonly, copy) INPaymentAccount *fromAccount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) INPaymentAmount *transactionAmount;
-@property(readonly, copy) NSString *transactionNote;
-@property(readonly, copy) INDateComponentsRange *transactionScheduledDate;
 
 @end
 

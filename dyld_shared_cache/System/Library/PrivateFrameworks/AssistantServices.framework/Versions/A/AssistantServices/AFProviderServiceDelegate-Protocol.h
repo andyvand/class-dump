@@ -5,5 +5,9 @@
 //
 
 @protocol AFProviderServiceDelegate
+- (oneway void)*@9_A;
+- (oneway void)C91;
+- (oneway void);
+- (oneway void)%@y=;
 @end
 

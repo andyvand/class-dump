@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _UIStoryboardUnwindChain
 {
     NSMutableArray *_viewControllers;
-    unsigned long long _commonAncestorIdx;
-    unsigned long long _modalAncestorContainingSourceIdx;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)tiQueue";
 - (id)ethod should never be called. We use the async menuForConfiguration:suggestedActions:method instead. /* Error: Ran out of types for this method. */;
 - (void)";
 

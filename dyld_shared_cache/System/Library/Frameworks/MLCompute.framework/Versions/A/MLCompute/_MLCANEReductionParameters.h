@@ -11,8 +11,8 @@
     NSDictionary *_reductionParams;
 }
 
-+ (id);
-- (id);
++ (id)`m;
+- (id)T;
 - (id);
 - (void);
 

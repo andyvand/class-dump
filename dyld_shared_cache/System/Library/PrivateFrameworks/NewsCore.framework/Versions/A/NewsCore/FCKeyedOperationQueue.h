@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSOrderedSet;
-@protocol FCKeyedOperationQueueDelegate, OS_dispatch_group, OS_dispatch_queue, OS_os_log;
+@protocol FCKeyedOperationQueueDelegate;
 
 @interface FCKeyedOperationQueue
 {
     _Bool _suspended;
-    id <FCKeyedOperationQueueDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_executionQueue;
-    NSObject<OS_os_log> *_log;
-    NSMutableOrderedSet *_mutableKeyQueue;
-    NSMutableSet *_keysForExecutingOperations;
-    long long _maxConcurrentOperationCount;
-    NSMutableDictionary *_cancelHandlersByKey;
-    NSObject<OS_dispatch_group> *_operationExecutionGroup;
 }
 
 - (void);
@@ -26,20 +17,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)RP;
 - (void);
 - (void);
-- (id);
-- (id)ioCloseIdlePlayerAfterTime;
-- (void)ion_CK;
+- (id)J;
+- (id)audioCloseIdlePlayerAfterTime;
+- (void)Subscription_CK;
 - (void)ithout a fetch group;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <FCKeyedOperationQueueDelegate> delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *executionQueue; // @synthesize executionQueue=_executionQueue;
-@property(copy, nonatomic) NSOrderedSet *keyQueue;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

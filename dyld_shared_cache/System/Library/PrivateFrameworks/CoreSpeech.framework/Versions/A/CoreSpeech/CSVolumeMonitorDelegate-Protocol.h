@@ -5,5 +5,10 @@
 //
 
 @protocol CSVolumeMonitorDelegate
+
+@optional
+- (void);
+- (void);
+- (void)__objc_intobj;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface BWMetadataTimeMachine
 {
     NSString *_name;
-    int _capacity;
-    CDUnknownBlockType _addHandler;
-    NSObject<OS_dispatch_queue> *_metadataHandlingQueue;
-    NSMutableArray *_metadata;
-    NSMutableArray *_requests;
-    CDStruct_1b6d18a9 _earliestAllowedPTS;
-    int _numberOfConsecutiveFlushes;
 }
 
 + (void)tionID:input:] /* Error: Ran out of types for this method. */;
@@ -26,14 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\#;
 - (void);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
 
 // Remaining properties
-@property CDStruct_1b6d18a9 earliestAllowedPTS;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

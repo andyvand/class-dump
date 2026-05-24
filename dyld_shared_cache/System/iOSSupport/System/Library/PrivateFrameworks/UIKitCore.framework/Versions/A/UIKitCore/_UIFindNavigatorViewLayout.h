@@ -6,22 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIButton, UIColor, UIFont, UIImageSymbolConfiguration;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorViewLayout : UIView
 {
     _Bool _replaceFieldVisible;
-    _Bool _usesAssistantBarHeight;
-    _Bool _usesSymbolForDoneButton;
-    _Bool _usesNextAndPreviousArrows;
-    UIButton *_nextResultButton;
-    UIButton *_previousResultButton;
-    UIButton *_doneButton;
-    UIButton *_replaceButton;
-    UIView *_searchTextField;
-    UIView *_replaceTextField;
-    long long _assistantBarStyle;
 }
 
 - (_Bool);
@@ -35,56 +25,37 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)simulateMessageReceive:serviceName:groupID:handles:sender: /* Error: Ran out of types for this method. */;
+- (_Bool)showInvalidCertNotificationForAccount: /* Error: Ran out of types for this method. */;
+- (id)shouldTrackForRequery;
+- (id)setConfiguration: /* Error: Ran out of types for this method. */;
+- (void)sendResourceAtURL:metadata:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (double)sendNotificationMessageIfNeededForIncomingMessageFromChatIdentifier: /* Error: Ran out of types for this method. */;
+- (id)sendNicknameInfoToChatID: /* Error: Ran out of types for this method. */;
+- (id)sendLocationSharingInfo:toID:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)sendEditedScheduledMessage:previousMessage:partIndex:editType:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
+- (id)sendDeliveryReceiptForMessageID:toID:deliveryContext:needsDeliveryReceipt:callerID:account: /* Error: Ran out of types for this method. */;
+- (double)sendDeliveredQuietlyReceiptForMessage:forIncomingMessageFromIDSID:toChatGuid:identifier:style:withWillSendToDestinationsHandler: /* Error: Ran out of types for this method. */;
+- (id)postHubbleDownloadFinishedIfNeededForTransfer: /* Error: Ran out of types for this method. */;
+- (id)re;
+- (id)e;
+- (id)_recordsWritten;
+- (void)IMRecoverJunkCommandPipelineParameter;
 - (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
 - (struct CGSize)ù
 × ;
-- (_Bool)eatment:(id)arg1;
-- (id)ggingDidEnd;
+- (_Bool)supportedMonochromaticTreatment:(id)arg1;
+- (id)__viewServiceSheetInteractionDraggingDidEnd;
 - (long long)Ä;
 - (void)\;
 - (void)(v];
 
 // Remaining properties
-@property(nonatomic) long long assistantBarStyle; // @synthesize assistantBarStyle=_assistantBarStyle;
-@property(retain, nonatomic) UIButton *doneButton; // @synthesize doneButton=_doneButton;
 @property(retain, nonatomic) UIButton *nextResultButton; // @synthesize nextResultButton=_nextResultButton;
-@property(readonly, nonatomic) struct CGSize preferredContentSize;
-@property(readonly, nonatomic) double preferredCornerRadius;
-@property(readonly, nonatomic) double preferredHorizontalPadding;
-@property(readonly, nonatomic) NSString *preferredMaximumContentSizeCategory;
-@property(readonly, nonatomic) UIColor *preferredOpaqueBackgroundColor;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfigurationForImageForTextFields;
-@property(readonly, nonatomic) UIFont *preferredTextFieldFont;
-@property(readonly, nonatomic) double preferredVerticalPadding;
-@property(retain, nonatomic) UIButton *previousResultButton; // @synthesize previousResultButton=_previousResultButton;
-@property(retain, nonatomic) UIButton *replaceButton; // @synthesize replaceButton=_replaceButton;
-@property(nonatomic) _Bool replaceFieldVisible; // @synthesize replaceFieldVisible=_replaceFieldVisible;
-@property(retain, nonatomic) UIView *replaceTextField; // @synthesize replaceTextField=_replaceTextField;
-@property(retain, nonatomic) UIView *searchTextField; // @synthesize searchTextField=_searchTextField;
-@property(readonly, nonatomic) _Bool showsReplaceInOptionsMenu;
-@property(nonatomic) _Bool usesAssistantBarHeight; // @synthesize usesAssistantBarHeight=_usesAssistantBarHeight;
-@property(readonly, nonatomic) _Bool usesNextAndPreviousArrows; // @synthesize usesNextAndPreviousArrows=_usesNextAndPreviousArrows;
-@property(readonly, nonatomic) _Bool usesSymbolForDoneButton; // @synthesize usesSymbolForDoneButton=_usesSymbolForDoneButton;
 
 @end
 

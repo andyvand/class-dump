@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class CLPlacemark, NSString;
-
 @interface INDeleteParkingLocationIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_issueFileExtensionForURL:(long long)arg1;
++ (int)QLThumbnailAddition;
 + (long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -27,24 +25,15 @@
 - (void);
 - (id);
 - (id);
+- (id)GCControllerDirectionPad",R,N,V_dpad;
+- (id);
+- (void)a-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)tributeObjectTypeNamespace;
+- (long long)__INCodableCustomObjectAttributeObjectTypeNamespace;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CLPlacemark *parkingLocation;
-@property(copy) NSString *parkingNote;
-@property(readonly) Class superclass;
 
 @end
 

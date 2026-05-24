@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)CA9	a;
 + (id);
 + (void);
 - (void);

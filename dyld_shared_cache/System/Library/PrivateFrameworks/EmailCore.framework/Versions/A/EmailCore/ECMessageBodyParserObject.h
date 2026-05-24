@@ -7,13 +7,19 @@
 @interface ECMessageBodyParserObject
 {
     double _timeoutTime;
-    _Bool _shouldAbort;
-    _Bool _didTimeout;
-    double _timeoutInterval;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)neWithCompletionHandler must be called on the main thread.;
+- (void)s:(id)arg1 %d {
+	wantsPlaybackControlsVisible:%d
+	isUserInteracting:%d
+	isPictureInPictureActive:%d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double)a

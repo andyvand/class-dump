@@ -10,26 +10,20 @@
 @interface HAPSuspendedAccessory
 {
     NSString *_name;
-    NSString *_identifier;
-    unsigned long long _type;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (void);
+- (void)ServerError;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)WU;
 - (id);
 - (void)PAccessCodeCharacterSetWrapper";
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

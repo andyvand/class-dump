@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NFInternalConfigurationSessionInterface
+- (oneway void)\s* (?:(NSArray *)arg1 \@ (?:(NSArray *)arg2 (\d+) | (\w+) ))? (?# $9=priorityValue $10=priorityName);
+- (oneway void)ProfilesKey(void);
+- (oneway void)CUSTOM_POPUP;
+- (oneway void)STATIC_IDENTITY_VERIFIED_BADGED_ACCESSIBILITY_DESCRIPTION;
+- (oneway void)l, %@;
+- (oneway void)T_Y_TOP, AB_CARDVIEW_MINIMUM_WIDTH, AB_CARDVIEW_SEPARATOR_INSET_FROM_HEADER, AB_NAMEVIEW_PHOTO_NAME_SPACING, AB_NAMEVIEW_NAME_INSET_TRAILING, AB_NAMEVIEW_COMPANYCHECKBOX_HEIGHT, AB_HEADERVIEW_PRIVACY_LABEL_INSET_TRAILING, AB_CARDVIEW_COLLECTION_INSET_TRAILING, AB_COLLECTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)ionViewItem"8;
+- (oneway void)ightLibrary(void);
+- (oneway void);
 @end
 

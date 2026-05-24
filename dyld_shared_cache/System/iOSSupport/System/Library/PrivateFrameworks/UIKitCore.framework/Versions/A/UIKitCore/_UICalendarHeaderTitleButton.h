@@ -6,27 +6,25 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class NSString, UIImageView, _UIDatePickerLinkedLabel;
+@class NSString, _UIDatePickerLinkedLabel;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarHeaderTitleButton : UIButton
 {
     _UIDatePickerLinkedLabel *_monthYearLabel;
-    UIImageView *_chevron;
-    NSString *_fontDesign;
 }
 
 - (void);
-- (void);
+- (void)isAssociatedMessageItem;
 - (struct CGAffineTransform);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (id);
+- (struct CGSize)updateResultWithTitle:(struct CGSize)arg1 secondaryTitle:image:detached:useCompactMode:truncateMiddle: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_applyAppearanceDefaults;
 - (void)4¶Ø·t¹¼;
 - (void)ØZ¯ÿ
 Ù[ø^;

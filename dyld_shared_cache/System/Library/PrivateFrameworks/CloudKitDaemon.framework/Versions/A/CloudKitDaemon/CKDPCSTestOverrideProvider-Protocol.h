@@ -5,5 +5,8 @@
 //
 
 @protocol CKDPCSTestOverrideProvider
+- (id);
+- (_Bool)txVIDroppedPerc;
+- (_Bool)&,N,V_hudTimestamps;
 @end
 

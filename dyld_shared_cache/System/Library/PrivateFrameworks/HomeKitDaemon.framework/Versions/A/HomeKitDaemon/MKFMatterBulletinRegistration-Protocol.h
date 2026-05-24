@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMatterBulletinRegistrationDatabaseID, NSArray;
-@protocol MKFHome;
+@class NSArray;
+@protocol MKFHome, MKFMatterPath;
 
 @protocol MKFMatterBulletinRegistration
+- (id <MKFMatterPath>)waypointLocation;
+- (void)rivate}@;
 - (id <MKFHome>)áàÐ!ÀCùqð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFMatterBulletinRegistrationDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(readonly, retain, nonatomic) NSArray *matterPaths;
 @end
 

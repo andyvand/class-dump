@@ -7,9 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.XMoreViewModel
 {
     id id;
-    id events;
-    id xMoreHeight;
-    id visible;
 }
 
 @end

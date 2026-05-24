@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVBlockGuard, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCDeferrableTask
 {
     _Bool _finished;
-    _Bool _deallocating;
-    struct os_unfair_lock_s _lock;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    MSVBlockGuard *_guard;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)__TEXT;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)$%&'()*+,-./0123456789:;<=>? /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (struct os_unfair_lock_s)¬;
 - (void)BOOL}u - numberFrames:%ld - numberFramesOut:%ld - startOfStream:%{BOOL}u - endOfStream:%{BOOL}u /* Error: Ran out of types for this method. */;
-- (void)ion;
+- (void)MPCPlayActivityUtilitiesPlayEndNotification;
 - (void)exist;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) _Bool deallocating; // @synthesize deallocating=_deallocating;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(retain, nonatomic) MSVBlockGuard *guard; // @synthesize guard=_guard;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

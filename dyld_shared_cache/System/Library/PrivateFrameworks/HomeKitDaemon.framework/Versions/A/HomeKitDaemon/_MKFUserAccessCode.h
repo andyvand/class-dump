@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeAccessCode.h>
 
-@class MKFUserAccessCodeDatabaseID, NSDate, NSString, NSUUID;
-@protocol MKFGuest, MKFHome, MKFUser;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFUserAccessCode : _MKFHomeAccessCode
@@ -18,35 +17,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-- (id);
-- (id);
+- (id)originalIdentifierForObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (id)Cv4L;;
 - (id);
 - (id)Aá°!ÌEùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessCode;
-@property(readonly, copy, nonatomic) MKFUserAccessCodeDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFGuest> guest; // @dynamic guest;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user; // @dynamic user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

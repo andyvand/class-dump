@@ -7,10 +7,6 @@
 @interface TextToSpeech.BufferedAudioQueue
 {
     id executor;
-    id queue;
-    id maxBufferedFrames;
-    id frameCountContinuation;
-    id bufferedFrames;
 }
 
 @end

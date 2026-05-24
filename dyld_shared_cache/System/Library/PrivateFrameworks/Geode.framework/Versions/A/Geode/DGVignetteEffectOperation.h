@@ -11,8 +11,6 @@
 @interface DGVignetteEffectOperation : DGOperation
 {
     NSNumber *_inputIntensity;
-    NSNumber *_inputFalloff;
-    NSNumber *_inputRadius;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_photosDetailsHeaderTile;
 - (void);
 - (void);
 - (id);
@@ -35,9 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputFalloff; // @synthesize inputFalloff=_inputFalloff;
 @property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
-@property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end
 

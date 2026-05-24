@@ -5,20 +5,18 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface PALauncher
 {
     NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSObject<OS_dispatch_group> *_launchGroup;
-    unsigned long long _state;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)(G;
+- (void)*;
+- (id)X�;
 - (id);
 - (void);
 

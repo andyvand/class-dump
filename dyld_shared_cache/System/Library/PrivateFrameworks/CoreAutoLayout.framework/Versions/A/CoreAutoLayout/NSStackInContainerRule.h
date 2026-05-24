@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutRect, NSString;
+@class NSArray, NSLayoutRect;
 
 @interface NSStackInContainerRule
 {
     NSArray *_stackedRects;
-    NSLayoutRect *_containingRect;
-    double _spacing;
-    long long _orientation;
 }
 
 + (id);
@@ -21,29 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MLModelAssetDescriptionLoader;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
-- (double);
+- (id)@;
+- (double);
 
 // Remaining properties
 @property(readonly, copy) NSLayoutRect *containingRect; // @synthesize containingRect=_containingRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly) double spacing; // @synthesize spacing=_spacing;
-@property(readonly, copy) NSArray *stackedRects; // @synthesize stackedRects=_stackedRects;
-@property(readonly) Class superclass;
 
 @end
 

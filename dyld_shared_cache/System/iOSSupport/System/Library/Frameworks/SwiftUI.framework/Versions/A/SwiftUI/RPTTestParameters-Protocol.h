@@ -11,10 +11,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler;
-@property(readonly, nonatomic) _Bool managesTestStartAndEnd;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) NSString *testName;
 @end
 

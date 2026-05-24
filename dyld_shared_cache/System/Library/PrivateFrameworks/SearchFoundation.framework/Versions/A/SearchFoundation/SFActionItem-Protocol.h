@@ -4,48 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL, SFImage, SFLatLng, SFPunchout;
+@class NSArray, NSString, NSURL, SFPunchout;
 
 @protocol SFActionItem
+- (NSString *)p ;
+- (void);
+- (_Bool);
+- (NSString *)_;
+- (SFPunchout *)R%;
+- (NSArray *)rter execute:time:arguments:] /* Error: Ran out of types for this method. */;
+- (void)@:(NSArray *)arg1 Using fragment shader for YCbCr -> RGBA conversion;
+- (NSString *)setHTTPCookieAcceptPolicy: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)];
+- (_Bool)itum.caf;
+- (NSURL *)requestGraphModelResultWithOptions:progress:completion: /* Error: Ran out of types for this method. */;
+- (NSString *)_useSharedImageDecoding;
 - (void)!ðFù§°1Â0@ù
 × ;
 - (void)onCardSection;
 - (double)dÙ;
-- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFImage *baseIcon;
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(retain, nonatomic) SFPunchout *customDirectionsPunchout;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int directionsMode;
-@property(copy, nonatomic) NSString *email;
-@property(retain, nonatomic) SFImage *icon;
-@property(copy, nonatomic) NSString *interactionContentType;
-@property(nonatomic) _Bool isITunes;
-@property(nonatomic) _Bool isOverlay;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *labelForLocalMedia;
-@property(copy, nonatomic) NSString *labelITunes;
-@property(nonatomic) double latitude;
-@property(copy, nonatomic) NSString *localMediaIdentifier;
-@property(retain, nonatomic) SFLatLng *location;
-@property(nonatomic) double longitude;
-@property(copy, nonatomic) NSData *mapsData;
-@property(nonatomic) int mediaEntityType;
-@property(copy, nonatomic) NSString *messageIdentifier;
-@property(copy, nonatomic) NSURL *messageURL;
-@property(copy, nonatomic) NSString *offerType;
-@property(copy, nonatomic) NSString *persistentID;
-@property(copy, nonatomic) NSString *phoneNumber;
-@property(copy, nonatomic) NSString *provider;
-@property(retain, nonatomic) SFPunchout *punchout;
-@property(nonatomic) _Bool requiresLocalMedia;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
-@property(copy, nonatomic) NSArray *storeIdentifiers;
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *universalLibraryID;
 @end
 

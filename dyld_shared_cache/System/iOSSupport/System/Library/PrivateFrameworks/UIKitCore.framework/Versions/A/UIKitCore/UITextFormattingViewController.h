@@ -6,73 +6,54 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIColorPickerViewController, UIFontPickerViewController, UINavigationBar, UIStackView, UITextFormattingViewControllerConfiguration, UITextFormattingViewControllerFormattingDescriptor, UIView, _TFTextFormattingContentViewController, _UIKBVisualEffectViewForTextFormatting;
-@protocol UIResponderStandardEditActions, UITextFormattingViewControllerDelegate, _UITextFormattingViewControllerInternalDelegate;
+@class UIView;
+@protocol _UITextFormattingViewControllerInternalDelegate;
 
 @interface UITextFormattingViewController : UIViewController
 {
     UIView *_containerView;
-    UIView *_contentView;
-    UIStackView *_contentStackView;
-    UINavigationBar *_navBar;
-    _UIKBVisualEffectViewForTextFormatting *_backdropView;
-    double _keyboardSpace;
-    UIViewController *_preferredFontPickerPresentationViewController;
-    UIViewController *_preferredColorPickerPresentationViewController;
-    _Bool _shouldSkipStoppingKeyboardSuppressionOnDidDisappear;
-    double _selectedFontSize;
-    UIColorPickerViewController *_colorPicker;
-    UIFontPickerViewController *_fontPicker;
-    _TFTextFormattingContentViewController *_contentViewController;
-    UITextFormattingViewControllerConfiguration *_configuration;
-    UITextFormattingViewControllerFormattingDescriptor *_formattingDescriptor;
-    id <UITextFormattingViewControllerDelegate> _delegate;
-    UIViewController *_remoteViewController;
-    id <_UITextFormattingViewControllerInternalDelegate> _internalDelegate;
-    CDUnknownBlockType __conversionHandler;
-    id <UIResponderStandardEditActions> __editResponder;
 }
 
+- (void)groups;
+- (void);
+- (void)error %@;
+- (void)systemDidLeaveFirstDataProtection;
+- (_Bool)ProcessingPipelineComponent> Assigning account %@ service session %@ (replication source:(struct CGSize)arg1 %@);
+- (_Bool)message, dropping;
+- (_Bool)ndAccountProcessingPipelineComponent> Failed to find service session for replicated message with source service %@ replicating account %@, but is SOS, permitting on received iMessage account session instead;
+- (void)t identifier %@ doesn't match requested identifier %@, may have changed due to inconsistent properties;
+- (void)ifier for chat:%@ /* Error: Ran out of types for this method. */;
+- (void)' session %@;
+- (void)atted handle (%@) were not equal - TU canonical:(id)arg1 (%@) TU unformatted:(%@) /* Error: Ran out of types for this method. */;
+- (void)guid %@. newRange:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (void)oing to load personal nickname, feature is disabled;
+- (void)nicknames with multiple numbers.;
+- (void).iMessageReceivedPlayedReceipt;
+- (void)essage (%@), error:%@ /* Error: Ran out of types for this method. */;
+- (void)rocessing mark as unread request for message (%@), error:%@ /* Error: Ran out of types for this method. */;
+- (void)mark unread request fromID:%@,  /* Error: Ran out of types for this method. */;
+- (void)ad ***;
+- (void)iled guid conversion;
+- (void)wid:%lld, marking as failed to upload *** /* Error: Ran out of types for this method. */;
+- (void)it's guid %@ (rowid %@);
+- (void)ng attachment as failed to upload, as we could not update it's guid %@ (rowid %@);
+- (void)wnload;
+- (void)found in active subscriptions but message must be sent because it is an SOS message.;
+- (void)@];
+- (void)junk-mmcs-upload-timeout of %ld seconds;
+- (void)UID %@, calling provider with nil;
+- (void)ed chat command as it is not from me for chats:(id)arg1 %@;
+- (void)essagePipelineParameter %p> { guid:(id)arg1 %@, replacementGUID:%@ } /* Error: Ran out of types for this method. */;
+- (void)KAttachmentSyncController;
+- (void)d *SharedWithYouLibrary(void);
 - (void);
 - (void);
+- (void)S;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
+- (void);
+- (double);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -88,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)o;
 - (void);
 - (id);
 - (void);
@@ -99,7 +80,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (id)1Â0@ù
 × ;
 - (void)á°! Aù_°1Â0@ù
@@ -110,11 +91,11 @@
 × ;
 - (_Bool){_UIPressTrigger=qqdB}16;
 - (void)ncoding>"16;
-- (void)xpandItemHandler:(id)arg1 willExpandItemHandler:shouldCollapseItemHandler:willCollapseItemHandler:snapshotForExpandingParentItemHandler: /* Error: Ran out of types for this method. */;
-- (void)mplete;
+- (void)initWithShouldExpandItemHandler:(id)arg1 willExpandItemHandler:shouldCollapseItemHandler:willCollapseItemHandler:snapshotForExpandingParentItemHandler: /* Error: Ran out of types for this method. */;
+- (void)_customNavigationInteractiveTransitionPercentComplete;
 - (void)llectionView",W,N,V_collectionView;
 - (id)iveTimeout;
-- (void);
+- (void)alternate;
 - (void);
 - (void);
 - (id)c_Û,à];
@@ -127,20 +108,7 @@
 Êh;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType _conversionHandler; // @synthesize _conversionHandler=__conversionHandler;
-@property(nonatomic, setter=_setEditResponder:) __weak id <UIResponderStandardEditActions> _editResponder; // @synthesize _editResponder=__editResponder;
 @property(nonatomic, setter=_setInternalDelegate:) __weak id <_UITextFormattingViewControllerInternalDelegate> _internalDelegate; // @synthesize _internalDelegate;
-@property(retain, nonatomic, setter=_setChildViewController:) UIViewController *_remoteViewController; // @synthesize _remoteViewController;
-@property(readonly, copy, nonatomic) UITextFormattingViewControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UITextFormattingViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) UITextFormattingViewControllerFormattingDescriptor *formattingDescriptor; // @synthesize formattingDescriptor=_formattingDescriptor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

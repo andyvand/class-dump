@@ -10,9 +10,9 @@
 {
 }
 
-- (double);
-- (void);
-- (id);
+- (double)propertyList:isValidForFormat: /* Error: Ran out of types for this method. */;
+- (void)_preventsDirectWiFiAccess;
+- (id)hh8;
 - (id)_shouldReserveSpaceForLabel;
 
 // Remaining properties

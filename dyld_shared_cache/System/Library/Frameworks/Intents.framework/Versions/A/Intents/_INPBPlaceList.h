@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBPlaceList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_places;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class)À
 D;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)ConnectionWithError:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)IPFeatureScanResultTypeEventFilteredOutNotAcceptableTimeRangeForEventType;
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
-- (void)ropertyQualifier;
+- (void)_payloadFilePropertyQualifier;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *places; // @synthesize places=_places;
-@property(readonly, nonatomic) unsigned long long placesCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)setAvailabilitySubscriptionService: /* Error: Ran out of types for this method. */;
+- (_Bool)Completed conversation manager setup for imagent;
 - (void);
-- (_Bool);
-- (void);
-- (struct CGSize);
-- (id)uctivelyResignFirstResponder;
+- (struct CGSize)X;
+- (id)_nonDestructivelyResignFirstResponder;
 - (void)®.3GGGGG;
 
 // Remaining properties

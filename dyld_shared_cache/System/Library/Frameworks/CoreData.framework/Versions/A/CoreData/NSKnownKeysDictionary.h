@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)Q;
 + (id)ith data bytes:(struct _NSZone *)arg1 %@;
 + (id);
 - (void);
@@ -20,10 +20,10 @@
 - (id);
 - (void);
 - (const id *);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)@#;
 - (id)class %s, property %@).  This will be an error in the future.;
 
 // Remaining properties

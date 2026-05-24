@@ -7,21 +7,19 @@
 @interface PKPaymentSetupProductRegionDataCoordinate
 {
     double _latitude;
-    double _longitude;
 }
 
 + (_Bool)áW"ð!Eùqî%Ð1Â0@ù
 × ;
+- (id);
+- (id)q;
+- (void)transmissions;
 - (id);
-- (id);
-- (void);
-- (id);
-- (double)veValueForKey:passUniqueID: /* Error: Ran out of types for this method. */;
+- (double)_removeValueForKey:passUniqueID: /* Error: Ran out of types for this method. */;
 - (double)tÿÿÿÿÿp;
 
 // Remaining properties
 @property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

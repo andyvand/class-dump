@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableSet, WBSUserDefinedContentBlockerSQLiteStore;
+@class WBSUserDefinedContentBlockerSQLiteStore;
 
 @interface WBSUserDefinedContentBlockerManager
 {
     WBSUserDefinedContentBlockerSQLiteStore *_dataStore;
-    NSMutableSet *_hostsWithLoadedPerSiteContentBlockers;
-    NSArray *_cachedGlobalContentBlockerActions;
-    NSHashTable *_observers;
-    _Bool _didLoadGlobalContentBlockerActions;
-    _Bool _hasContentBlockerWithActions;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cachedGlobalContentBlockerActions; // @synthesize cachedGlobalContentBlockerActions=_cachedGlobalContentBlockerActions;
 @property(readonly, nonatomic) _Bool didLoadGlobalContentBlockerActions; // @synthesize didLoadGlobalContentBlockerActions=_didLoadGlobalContentBlockerActions;
-@property(readonly, nonatomic) _Bool hasContentBlockerWithActions; // @synthesize hasContentBlockerWithActions=_hasContentBlockerWithActions;
 @end
 

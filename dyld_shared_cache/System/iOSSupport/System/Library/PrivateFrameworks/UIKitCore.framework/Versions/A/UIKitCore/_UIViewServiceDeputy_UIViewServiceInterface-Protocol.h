@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewServiceDeputy_UIViewServiceInterface
+- (void)task;
 @end
 

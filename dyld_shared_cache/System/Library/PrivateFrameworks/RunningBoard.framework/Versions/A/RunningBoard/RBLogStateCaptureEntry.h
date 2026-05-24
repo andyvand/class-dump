@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RBLogStateCaptureEntry
 {
     NSString *_title;
-    CDUnknownBlockType _captureBlock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

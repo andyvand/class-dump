@@ -4,58 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSInlineButtonContentStyle
 {
     _Bool _emphasized;
-    long long _state;
-    long long _value;
-    long long _presentationState;
 }
 
 - (id);
 - (struct CGImage *);
 - (id);
-- (void);
+- (void)ed, cannot verify kFDRTag_inst property;
 - (int);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)URLSession:avAssetDownloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)/libarchive.2.dylib;
 - (void);
 - (void);
-- (long long);
+- (long long)initNSTypedFilenamesPboardType;
 - (_Bool);
 - (void);
-- (id)atterOfObject:(struct _NSZone *)arg1;
-- (id)erateObjectsWithOptions:usingBlock: /* Error: Ran out of types for this method. */;
-- (long long)g;
+- (id)formatterOfObject:(struct _NSZone *)arg1;
+- (id)enumerateObjectsWithOptions:usingBlock: /* Error: Ran out of types for this method. */;
+- (long long)_stopObserving;
 - (_Bool);
 - (void)ðdÿ°@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(readonly) NSColor *equivalentForegroundColorForTemplateImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) int outputBlendModeForTemplateContent;
-@property long long presentationState; // @synthesize presentationState=_presentationState;
 @property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy) NSColor *tintColor;
-@property long long value; // @synthesize value=_value;
 
 @end
 

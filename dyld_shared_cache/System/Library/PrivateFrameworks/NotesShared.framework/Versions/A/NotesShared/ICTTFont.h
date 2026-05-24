@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICTTFont
 {
     unsigned int _fontHints;
-    NSString *_fontName;
-    double _pointSize;
-    id _nativeFont;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int fontHints; // @synthesize fontHints=_fontHints;
-@property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
 @property(retain, nonatomic) id nativeFont; // @synthesize nativeFont=_nativeFont;
-@property(readonly, nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
 @end
 

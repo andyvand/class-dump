@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkStateChangeEvent
 {
     long long _eventType;
-    long long _eventValue;
 }
 
-- (id);
+- (id)_updateActiveSharingHandles:(long long)arg1 serviceNames:(unsigned long long)arg2;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) long long eventValue; // @synthesize eventValue=_eventValue;
 
 @end
 

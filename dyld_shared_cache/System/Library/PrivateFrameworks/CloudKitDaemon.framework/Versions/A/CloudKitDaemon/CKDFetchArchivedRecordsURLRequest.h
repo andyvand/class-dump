@@ -6,25 +6,18 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSArray;
 
 @interface CKDFetchArchivedRecordsURLRequest : CKDURLRequest
 {
     _Bool _shouldFetchAssetContent;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    NSSet *_desiredAssetKeys;
-    CDUnknownBlockType _recordFetchedBlock;
-    NSMutableDictionary *_zoneIDsByRequestOperationUUID;
-    NSMutableDictionary *_requestResultsByRecordZoneID;
-    NSMutableDictionary *_nodeErrorsByZoneID;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bably stale or incorrect %@ self.dnsServers is probably stale or incorrect %@;
 - (void);
 - (id);
 - (void);
@@ -35,12 +28,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id)r;
+- (id)CKDPZoneRetrieveAncestorsResponseZoneAncestor;
 - (id)4Ì;
 - (id).zonesharing.;
-- (void)c;
+- (void)ttlSec;
 - (id)t destination fileURL;
 - (CDUnknownBlockType)þïÿÿüÆüÿ;
 - (id)count found on missing identities context.;
@@ -51,23 +44,7 @@
 - (void)ÜÀëÿfÄ1;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *desiredAssetKeys; // @synthesize desiredAssetKeys=_desiredAssetKeys;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *nodeErrorsByZoneID; // @synthesize nodeErrorsByZoneID=_nodeErrorsByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
 @property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(retain, nonatomic) NSMutableDictionary *requestResultsByRecordZoneID; // @synthesize requestResultsByRecordZoneID=_requestResultsByRecordZoneID;
-@property(readonly, nonatomic) NSDictionary *resultsByRecordZoneID;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *zoneErrorsByZoneID;
-@property(retain, nonatomic) NSMutableDictionary *zoneIDsByRequestOperationUUID; // @synthesize zoneIDsByRequestOperationUUID=_zoneIDsByRequestOperationUUID;
 
 @end
 

@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_LineProgression : _GEORouteMatchUpdater
 {
     GEOComposedTransitTripRouteStep *_boardStep;
-    GEOComposedTransitTripRouteStep *_alightStep;
-    struct PolylineCoordinate _startRouteCoordinate;
 }
 
 - (_Bool);

@@ -7,7 +7,6 @@
 @interface TeaCharts.LineSeriesView
 {
     id defaultLineView;
-    id zoneLineViews;
 }
 
 - (id);

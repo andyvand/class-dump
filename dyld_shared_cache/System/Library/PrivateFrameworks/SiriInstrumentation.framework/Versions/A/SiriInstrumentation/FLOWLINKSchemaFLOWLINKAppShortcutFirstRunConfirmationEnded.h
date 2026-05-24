@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded : SISchemaInstrumentationMessage
 {
     _Bool _isUserResponseAffirmative;
-    struct {
-        unsigned int isUserResponseAffirmative:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)$;
 - (id)hones"b1"isSpokenNotificationsControlCenterModuleEnabled"b1"isCarPlayMuted"b1"carPlayStatus"b1};
 - (id)fiers",&,N,V_ephemeralIdentifiers;
 - (id)ã¼ã;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsUserResponseAffirmative;
 @property(nonatomic) _Bool isUserResponseAffirmative; // @synthesize isUserResponseAffirmative=_isUserResponseAffirmative;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

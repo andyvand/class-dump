@@ -5,5 +5,6 @@
 //
 
 @protocol WiFiP2PXPCProtocol
+- (void);
 @end
 

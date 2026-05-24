@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CKDPProtectionInfoKeysToRemove
 {
     NSMutableArray *_keysToRemoves;
-    NSString *_protectionInfoTag;
 }
 
 + (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (void);
@@ -22,21 +21,20 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)withTransceiver:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)oteMediaTimestamp %lu, maxTimestampToPrepare %lu, maxTicks %s, count %u, maxAudioBurst %u, maxTimestampToPrepareAboveLow %lu, audioPrepared %lu, minAudioToPrepare %lu, audiblePlaybackStarted %s
+;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)Ivdi8/KiIgfQogICAgICAgIF0sCiAgICAgICAgImFsd2F5c0VuYWJsZWQiOiB0cnVlCiAgICAgIH0KICAgIF0KICB9Cn0K;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasProtectionInfoTag;
 @property(retain, nonatomic) NSMutableArray *keysToRemoves; // @synthesize keysToRemoves=_keysToRemoves;
-@property(retain, nonatomic) NSString *protectionInfoTag; // @synthesize protectionInfoTag=_protectionInfoTag;
 
 @end
 

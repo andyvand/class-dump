@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, REMChangeToken, REMObjectID;
+@class NSDate;
 
 @interface REMChangeTransaction
 {
     NSDate *_timestamp;
-    NSArray *_changes;
-    REMObjectID *_accountID;
-    NSString *_storeID;
-    NSString *_author;
-    REMChangeToken *_token;
 }
 
 + (_Bool);
@@ -30,12 +25,7 @@
 - (id)à0;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, nonatomic) NSArray *changes; // @synthesize changes=_changes;
-@property(readonly, nonatomic) NSString *storeID; // @synthesize storeID=_storeID;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) REMChangeToken *token; // @synthesize token=_token;
 
 @end
 

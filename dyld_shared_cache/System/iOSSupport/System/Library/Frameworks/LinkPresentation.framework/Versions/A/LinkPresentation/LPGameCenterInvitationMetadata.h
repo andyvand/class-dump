@@ -6,39 +6,32 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPGameCenterInvitationMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfPlayers;
-    unsigned int _minimumNumberOfPlayers;
-    unsigned int _maximumNumberOfPlayers;
-    NSString *_game;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
 + (id);
 + (_Bool);
+- (void)tableView:(unsigned int)arg1 willSelectRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:(unsigned int)arg1 willDisplayContextMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)tableView:(unsigned int)arg1 titleForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 heightForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)switcherViewControllerDidSelectAppManager:(id)arg1 shouldRestoreAppSwitcher: /* Error: Ran out of types for this method. */;
+- (id)switcherViewControllerDidFinishSwitching:(id)arg1 toViewController: /* Error: Ran out of types for this method. */;
+- (id)switcherViewController:(id)arg1 hasUpdatedLastTouchDate: /* Error: Ran out of types for this method. */;
+- (void)switcherView:(id)arg1 indexPathOfModelWithIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned int)supportsSkinToneVariants;
+- (unsigned int)supportsOrbPreviewsInConversationList;
+- (id)summaryOfVCard:error: /* Error: Ran out of types for this method. */;
+- (id)stringGUIDForObject: /* Error: Ran out of types for this method. */;
+- (_Bool)stewieTranscriptEmergencyServiceAttributes;
+- (void)showTranscriptTimestamps;
+- (unsigned int)showHintWithReason: /* Error: Ran out of types for this method. */;
+- (id)showConversationAndMessageForChatGUID:messageGUID:withInlineReplyOverlay:animate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)windowWillUseStandardFrame:(id)arg1 defaultFrame: /* Error: Ran out of types for this method. */;
+- (void)cesfully retrieved client sessionId:(id)arg1 %{public}@;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -49,19 +42,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *game; // @synthesize game=_game;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned int maximumNumberOfPlayers; // @synthesize maximumNumberOfPlayers=_maximumNumberOfPlayers;
-@property(nonatomic) unsigned int minimumNumberOfPlayers; // @synthesize minimumNumberOfPlayers=_minimumNumberOfPlayers;
-@property(nonatomic) unsigned int numberOfPlayers; // @synthesize numberOfPlayers=_numberOfPlayers;
-@property(readonly) Class superclass;
 
 @end
 

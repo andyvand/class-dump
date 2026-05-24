@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, CHSServerSubscription, CHSWidgetExtensionProviderOptions, NSHashTable, NSMapTable, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CHSChronoServicesConnection
 {
     NSString *_machServiceName;
-    NSObject<OS_dispatch_queue> *_queue;
-    BSServiceConnection *_queue_connection;
-    _Bool _queue_connectionIsActive;
-    NSHashTable *_queue_observers;
-    NSMapTable *_queue_extensionProviderOptionsByClient;
-    NSMutableDictionary *_queue_widgetHostsByHostIdentifier;
-    CHSWidgetExtensionProviderOptions *_queue_currentExtensionSubscriptionProviderOptions;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
-    int _serverStartupToken;
-    NSSet *_notQueue_subscriptions;
-    CHSServerSubscription *_notQueue_extensionsSubscription;
-    CHSServerSubscription *_notQueue_timelineEntryRelevanceSubscription;
-    CHSServerSubscription *_notQueue_remoteDevicesSubscription;
-    CHSServerSubscription *_notQueue_widgetRelevanceSubscription;
-    CHSServerSubscription *_notQueue_activityServiceSubscription;
 }
 
 + (id);
-+ (void)8Ô§ïàªRâ;
++ (void);
 + (id);
 - (oneway void);
 - (oneway void);
@@ -43,7 +27,7 @@
 - (_Bool);
 - (oneway void);
 - (void);
-- (void);
+- (void)�=;
 - (_Bool);
 - (oneway void);
 - (id);
@@ -82,8 +66,8 @@
 - (id);
 - (oneway void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)w.icloud.com/settings/#customdomain;
 - (id);
 - (void);
 - (void);
@@ -91,13 +75,7 @@
 - (void)$Ý;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

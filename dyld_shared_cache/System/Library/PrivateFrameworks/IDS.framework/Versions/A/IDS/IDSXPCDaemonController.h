@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCConnection, NSMapTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class IDSXPCConnection;
 
 @interface IDSXPCDaemonController
 {
     IDSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_collaboratorPromiseDictionary;
-    _Bool _sync;
-    NSMutableDictionary *_syncCollaboratorDictionary;
-    NSMapTable *_interruptionHandlerByTarget;
 }
 
 + (id);
@@ -23,11 +17,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *collaboratorPromiseDictionary; // @synthesize collaboratorPromiseDictionary=_collaboratorPromiseDictionary;
 @property(retain, nonatomic) IDSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSMapTable *interruptionHandlerByTarget; // @synthesize interruptionHandlerByTarget=_interruptionHandlerByTarget;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *syncCollaboratorDictionary; // @synthesize syncCollaboratorDictionary=_syncCollaboratorDictionary;
 
 @end
 

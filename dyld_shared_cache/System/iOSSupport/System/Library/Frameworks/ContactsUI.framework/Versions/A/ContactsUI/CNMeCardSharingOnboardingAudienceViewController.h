@@ -6,17 +6,15 @@
 
 #import <ContactsUI/CNMeCardSharingOnboardingViewController.h>
 
-@class CNMeCardSharingAudienceDataSource, CNMeCardSharingOnboardingHeaderViewController, NSString;
+@class CNMeCardSharingAudienceDataSource;
 @protocol CNMeCardSharingOnboardingAudienceViewControllerDelegate;
 
 @interface CNMeCardSharingOnboardingAudienceViewController : CNMeCardSharingOnboardingViewController
 {
     id <CNMeCardSharingOnboardingAudienceViewControllerDelegate> _delegate;
-    CNMeCardSharingAudienceDataSource *_sharingAudienceDataSource;
-    CNMeCardSharingOnboardingHeaderViewController *_headerViewController;
 }
 
-+ (id);
++ (id)T)5@9?	;
 - (id);
 - (void);
 - (id);
@@ -27,26 +25,17 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)initWithGlobalRecordIdentifier:(id)arg1 entityName:(long long)arg2 attributes: /* Error: Ran out of types for this method. */;
+- (void)n accepting the record %@;
 - (void);
 - (id);
 - (id);
+- (void)G;
 - (void);
-- (void);
-- (void)tion:previewForDismissingToItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_dci_collectionView:contextMenuConfiguration:previewForDismissingToItemAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingOnboardingAudienceViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNMeCardSharingOnboardingHeaderViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
 @property(retain, nonatomic) CNMeCardSharingAudienceDataSource *sharingAudienceDataSource; // @synthesize sharingAudienceDataSource=_sharingAudienceDataSource;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScene;
+@protocol _UISceneUIWindowHosting;
+
 @protocol _UISceneUIWindowHostingProviding
+- (UIScene<_UISceneUIWindowHosting> *);
 @end
 

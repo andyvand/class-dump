@@ -5,5 +5,37 @@
 //
 
 @protocol _UIViewServiceViewControllerOperator_RemoteViewControllerInterface
+- (void);
+- (void);
+- (void);
+- (void)timeConsumed;
+- (void)ranges;
+- (void)or;
+- (void)requestHandlers;
+- (void)aliasToCNIDMapUnavailable;
+- (void)Index;
+- (void)hashTable;
+- (void)Indices;
+- (void)handle;
+- (void)azy_storage_$_blockedHandles;
+- (void)orage_$_persistenceContainer;
+- (void)RawValue;
+- (void)indexingDelegate;
+- (void)suspensionError;
+- (void)task;
+- (void)noChatFound;
+- (void)nicknameEntries;
+- (void)configuration;
+- (void)cancellables;
+- (void)coordinator;
+- (void)ltActor;
+- (void)missingMatchingLivePhotoComponent;
+- (void)eventStreamRef;
+- (void)createFlags;
+- (void)processedChatGUIDs;
+- (void)r;
+- (void)tActor;
+- (void)conversationManager;
+- (void)8;
 @end
 

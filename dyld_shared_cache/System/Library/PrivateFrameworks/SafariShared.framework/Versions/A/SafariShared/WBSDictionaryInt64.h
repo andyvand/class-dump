@@ -16,7 +16,7 @@
 - (id);
 - (const void *);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)8¤;

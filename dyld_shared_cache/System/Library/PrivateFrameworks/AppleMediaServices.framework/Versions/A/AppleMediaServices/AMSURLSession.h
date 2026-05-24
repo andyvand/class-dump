@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSURLDelegateProxy, AMSURLSecurityPolicy, NSOperationQueue, NSString, NSURLSession, NSURLSessionConfiguration;
-@protocol AMSRequestEncoding, AMSResponseDecoding, AMSURLHandling, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class AMSURLDelegateProxy, NSURLSessionConfiguration;
 
 @interface AMSURLSession
 {
     NSURLSessionConfiguration *_configuration;
-    AMSURLDelegateProxy *_delegateProxy;
-    NSOperationQueue *_delegateQueue;
-    id <AMSURLHandling> _protocolHandler;
-    id <AMSResponseDecoding> _responseDecoder;
-    NSURLSession *_session;
-    struct os_unfair_lock_s _propertiesLock;
-    _Bool _invalidated;
-    _Bool _useFallbackBag;
-    id <AMSRequestEncoding> _requestEncoder;
-    AMSURLSecurityPolicy *_securityPolicy;
 }
 
 + (id);
 + (id);
++ (id)ation.type.other;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ivation"b1"hasIsSiriAutoPrompt"b1"hasIsFlexibleFollowup"b1"hasUserTypedInSiri"b1"hasModeOverrideValue"b1"hasIsDeviceUnlocked"b1"hasIsDeviceScreenON"b1"hasIsInitialBringUp"b1"hasIsUserEngagedWithDevice"b1};
++ (id)ot allowed with id = "Speaker"!;
 + (id);
 + (id);
 + (_Bool)QL/½}¶«²ÔäYýkvä$÷/ u¨Ó~PØ!Ifº àçô¾«ùç±·&Í[Aüµz/¹÷ýº!j­]  «³âm»²ñKÔÇ\qÜ;
@@ -38,41 +27,41 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
+- (id);
+- (id)signatureWithObjCTypes: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)sions:(id)arg1 );
+- (void)l:(id)arg1 %d};
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)2B76B80@84;
+- (void)ing initialized.;
+- (id)_availableOnLockScreen;
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (id)setTotalTrackCount: /* Error: Ran out of types for this method. */;
+- (id)MRSetHiliteModeMessage;
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)Z;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)t;
 - (void);
 - (id);
 - (id);
@@ -80,31 +69,14 @@
 - (void);
 - (id)0@ù
 × ;
-- (void)ns:(id)arg1 error:(id)arg2;
+- (void)attachmentWithIdentifier:(id)arg1 URL:(id)arg2 options:(id)arg3 error:(CDUnknownBlockType)arg4;
 - (void)¬Lþÿ;
 - (_Bool)êî©;
 - (void)EYO}ù£% MîaJª«ç×¬m­r©ûkéD.mû"­Cñ
 à­ =² É{5CmPøÝ^/käºFÈÔþ/Þ8=b7ýB~;
 
 // Remaining properties
-@property(readonly) NSURLSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> delegate;
 @property(retain) AMSURLDelegateProxy *delegateProxy; // @synthesize delegateProxy=_delegateProxy;
-@property(readonly) NSOperationQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(retain) id <AMSURLHandling> protocolHandler;
-@property(retain) id <AMSRequestEncoding> requestEncoder; // @synthesize requestEncoder=_requestEncoder;
-@property(retain) id <AMSResponseDecoding> responseDecoder;
-@property(retain) AMSURLSecurityPolicy *securityPolicy; // @synthesize securityPolicy=_securityPolicy;
-@property(readonly) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property _Bool useFallbackBag; // @synthesize useFallbackBag=_useFallbackBag;
 
 @end
 

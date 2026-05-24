@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSData, NSString, UINibDecoder;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINibStorage
 {
     NSString *bundleResourceName;
-    NSString *bundleDirectoryName;
-    NSBundle *bundle;
-    NSString *identifierForStringsFile;
-    NSData *archiveData;
-    UINibDecoder *nibDecoder;
-    _Bool instantiatingForSimulator;
-    _Bool captureImplicitLoadingContextOnDecode;
 }
 
+- (void);
+- (void);
+- (void)h;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)timal path. payload=%{sensitive}@ reachability results=%@;
+- (_Bool)lets go for it;
+- (id)tIdentifiers:%@ onServices:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)finding new account based on phone number IDS account based on parameters shouldFilter %@ requestProxy %@;
+- (id)truth zone before attempting to sync;
+- (void)|;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)MPSectionedIdentifierListAnnotationDelegate;
 - (id)pËþÿÚÁþÿØÁþÿ;
 - (void)h%e;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *archiveData; // @synthesize archiveData;
-@property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle;
-@property(copy, nonatomic) NSString *bundleDirectoryName; // @synthesize bundleDirectoryName;
 @property(copy, nonatomic) NSString *bundleResourceName; // @synthesize bundleResourceName;
-@property _Bool captureImplicitLoadingContextOnDecode; // @synthesize captureImplicitLoadingContextOnDecode;
-@property(copy, nonatomic) NSString *identifierForStringsFile; // @synthesize identifierForStringsFile;
-@property(nonatomic) _Bool instantiatingForSimulator; // @synthesize instantiatingForSimulator;
-@property(retain, nonatomic) UINibDecoder *nibDecoder; // @synthesize nibDecoder;
 
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIPersistedNetworkBehavior;
-
 @interface TRIScheduleFetchExperimentNotificationsPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostSupportLoggingSupportArchiveEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNetworkBehavior; // @dynamic hasNetworkBehavior;
-@property(nonatomic) _Bool hasRollbacksOnly; // @dynamic hasRollbacksOnly;
-@property(retain, nonatomic) TRIPersistedNetworkBehavior *networkBehavior; // @dynamic networkBehavior;
 @property(nonatomic) _Bool rollbacksOnly; // @dynamic rollbacksOnly;
 
 @end

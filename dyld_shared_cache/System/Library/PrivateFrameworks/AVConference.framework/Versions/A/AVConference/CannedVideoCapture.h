@@ -6,15 +6,10 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class NSObject, NSString, VCCannedVideoCaptureSource;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CannedVideoCapture : VCVideoCapture
 {
     struct CannedVideoCapturePrivate *_pimpl;
-    NSObject<OS_dispatch_queue> *_captureSessionQueue;
-    VCCannedVideoCaptureSource *_captureSource;
 }
 
 + (int);
@@ -40,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Queue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)providerGetBytesAtPositionCallback_2C0f_surface;
 - (struct objc_ivar *)Hÿ4(;
 
 @end

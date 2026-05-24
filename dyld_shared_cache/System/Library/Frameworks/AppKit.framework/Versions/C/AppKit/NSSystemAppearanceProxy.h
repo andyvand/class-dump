@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSObject, NSString;
+@class NSAppearance;
 @protocol NSAppearanceCustomization;
 
 __attribute__((visibility("hidden")))
 @interface NSSystemAppearanceProxy
 {
     NSAppearance *_appearance;
-    NSObject<NSAppearanceCustomization> *_menuBarProxy;
 }
 
 + (id);
-+ (id);
++ (id)tworkTaskMetrics:%@ (error %@) /* Error: Ran out of types for this method. */;
+- (id);
+- (void)getResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ot initWithResumeData with nil upload file;
+- (void)upload data;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)_kCFNTimingDataTCPInfoAtStop;
+- (void)HTTP2MetaNetStreamInfoForwarder;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)/;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) id <NSAppearanceCustomization> _effectiveAppearanceParent;
-@property(retain) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSAppearance *effectiveAppearance;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<NSAppearanceCustomization> *menuBarProxy; // @synthesize menuBarProxy=_menuBarProxy;
-@property(readonly) Class superclass;
 
 @end
 

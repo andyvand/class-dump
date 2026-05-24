@@ -6,27 +6,25 @@
 
 #import <AVConference/VCMediaRecorder.h>
 
-@class NSString, VCAudioIO, VCMediaRecorderConfiguration;
+@class VCMediaRecorderConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaRecorderLocal : VCMediaRecorder
 {
     VCMediaRecorderConfiguration *_configuration;
-    VCAudioIO *_audioIO;
-    unsigned int _audioSessionId;
 }
 
-- (void);
+- (void)#;
 - (int);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)RL;
 - (id);
 - (void);
-- (struct tagVCAudioIOConfiguration);
+- (struct tagVCAudioIOConfiguration);
 - (_Bool);
 - (id);
 - (void);
@@ -37,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

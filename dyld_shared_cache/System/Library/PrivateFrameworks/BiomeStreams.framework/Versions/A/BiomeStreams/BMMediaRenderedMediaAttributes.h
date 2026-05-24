@@ -15,7 +15,7 @@
 
 + (id);
 - (unsigned int);
-- (id);
+- (id)&;
 - (void);
 - (id);
 - (id);
@@ -26,14 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

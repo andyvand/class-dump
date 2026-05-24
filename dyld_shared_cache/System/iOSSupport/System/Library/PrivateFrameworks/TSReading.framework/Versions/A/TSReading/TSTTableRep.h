@@ -6,92 +6,46 @@
 
 #import <TSReading/TSWPTextHostRep.h>
 
-@class CALayer, CAShapeLayer, NSMutableArray, NSSet, NSString, TSDCanvasView, TSDEditorController, TSDKnobTracker, TSDTilingLayer, TSTAnimation, TSTCellRegion, TSTEditingState, TSTLayout, TSTMasterLayout, TSTSearchReference, TSTSelectionDragController, TSTTableCellTextEditingRep, TSTTableInfo, TSTTableModel, TSTTableReferences, TSTTableSelection, TSWPHyperlinkField, TSWPStorage, TSWPTextEditing;
-@protocol TSTCanvasReferenceController, TSTTableAnimationController, TSTTableChromeProvider, TSTTableKnobTrackerVisitorProtocol, TSTTableRepDelegate;
+@class TSTSelectionDragController;
 
 @interface TSTTableRep : TSWPTextHostRep
 {
     struct CGRect mCanvasVisibleRect;
-    struct CGRect mSearchSelectionBounds;
-    TSDTilingLayer *mOverlayTableName;
-    TSDTilingLayer *mOverlayFrozenHeaderCorner;
-    TSDTilingLayer *mOverlayFrozenHeaderRows;
-    TSDTilingLayer *mOverlayFrozenHeaderColumns;
-    CALayer *mOverlayFrozenHeaderRowsMask;
-    CALayer *mOverlayFrozenHeaderColumnsMask;
-    CALayer *mOverlayFrozenHeaderTableBodyMask;
-    CALayer *mOverlayFrozenHeaderTableNameMask;
-    double mCurrentScreenScale;
-    CDStruct_5f1f7aa9 mDirtyCellRange;
-    _Bool mRecursivelyDrawingInContext;
-    NSMutableArray *mAnimationStack;
-    id <TSTTableAnimationController> mAnimationController;
-    TSTTableCellTextEditingRep *mContainedTextEditingRep;
-    TSWPTextEditing *mTableNameTextEditing;
-    CDStruct_0441cfb5 mControlCellID;
-    CDStruct_0441cfb5 mRatingsDragCellID;
-    id <TSTTableChromeProvider> mTableChrome;
-    TSTTableReferences *mReferences;
-    CAShapeLayer *mHighlightedHyperlinkLayer;
-    _Bool mIsAspectOperationInProgress;
-    _Bool mIsZoomOperationInProgress;
-    _Bool mIsZoomToEditOperationInProgress;
-    CDStruct_5f1f7aa9 mZoomToEditVisibleCellRange;
-    CAShapeLayer *mFindSelectionHighlightLayer;
-    TSTTableSelection *mSourceFillSelection;
-    TSTTableSelection *mTargetFillSelection;
-    _Bool mWPEndedTableNameEditing;
-    _Bool _settingSelection;
-    TSTSelectionDragController *mCellDragController;
-    _Bool mDragByHandleOnly;
-    _Bool mSelectionUsesBezierPath;
-    _Bool mSelectsCellOnInitialTap;
-    _Bool mUsesWholeChromeResizer;
-    id <TSTCanvasReferenceController> mCanvasReferenceController;
-    id <TSTTableRepDelegate> mDelegate;
-    TSDKnobTracker<TSTTableKnobTrackerVisitorProtocol> *mVisitorKnobTracker;
-    NSSet *mVisibleFillKnobs;
-    CDStruct_0441cfb5 mEditingHyperlinkCellID;
-    TSWPStorage *mHyperlinkParentStorage;
-    _Bool mHyperlinkModified;
-    _Bool mInspectingHyperlinkInEditingStorage;
-    TSWPHyperlinkField *mHyperlinkField;
-    CAShapeLayer *mCellEditingMaskLayer;
 }
 
 + (Class);
+- (id)UnauthorizedDevice;
+- (void)host mismatch;
+- (void)ription asset [first asset requires online keys];
+- (void)Item.m;
+- (void)me sharing asset;
+- (void)Timed out while attempting to load home sharing asset;
+- (void)o load local file of specified quality;
+- (void)"NSError"16;
+- (void)group: /* Error: Ran out of types for this method. */;
+- (void)equest is not for the paginated operation;
+- (void)ttempting to populate items for non model object:%@ /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)bscriptionAssetLoadOperation execute]_block_invoke;
+- (struct CGAffineTransform)hase bundle dictionary;
+- (id)le.MediaPlaybackCore.playbackSession-v4.opack;
+- (id)that has no dataSourceState:sectionID=%@ /* Error: Ran out of types for this method. */;
+- (_Bool)et-type;
+- (_Bool)player-operation-reason;
+- (void)given;
+- (void)finalNetworkType;
+- (void)ID:(id)arg1 %@;
+- (void)inuation;
+- (id)known current item to start playback;
+- (void);
+- (CDStruct_bd4d8e6b)est to complete a silent playback failure event for a non-failure event ;
+- (void)player state ;
+- (void)ayerController - Loaded duration: /* Error: Ran out of types for this method. */;
+- (id)ity while fetching transition info;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (CDStruct_0441cfb5);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGPath *);
-- (void);
-- (void);
-- (id);
+- (struct CGPath *)vs Queue mismatch] - User Queue:(id)arg1;
+- (void)t up yet.;
+- (void)haviorPodcasts-loadAdditionalUpcomingItems;
+- (id).apple.MediaPlaybackCore/Unimplemented;
 - (struct CGRect);
 - (id);
 - (struct CGPath *);
@@ -110,18 +64,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (struct CGRect);
+- (id)AssetSlidingQueue;
 - (id);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
+- (void);
+- (id);
 - (struct CGRect);
-- (_Bool);
+- (id);
+- (struct CGRect);
+- (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -160,35 +114,7 @@
 - (void)·h;
 
 // Remaining properties
-@property(retain, nonatomic) TSTSearchReference *activeSearchReference; // @dynamic activeSearchReference;
-@property(nonatomic) id <TSTTableAnimationController> animationController; // @synthesize animationController=mAnimationController;
-@property(readonly, nonatomic) id <TSTCanvasReferenceController> canvasReferenceController; // @synthesize canvasReferenceController=mCanvasReferenceController;
-@property(readonly, nonatomic) TSDCanvasView *canvasView;
-@property(readonly, nonatomic) struct CGRect canvasVisibleRect;
 @property(nonatomic) TSTSelectionDragController *cellDragController; // @synthesize cellDragController=mCellDragController;
-@property(readonly, nonatomic) TSTAnimation *currentAnimation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <TSTTableRepDelegate> delegate; // @synthesize delegate=mDelegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TSTEditingState *editingState;
-@property(readonly, nonatomic) TSDEditorController *editorController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isZoomToEditOperationInProgress; // @synthesize isZoomToEditOperationInProgress=mIsZoomToEditOperationInProgress;
-@property(readonly, nonatomic) CALayer *layerForRep;
-@property(readonly, nonatomic) TSTMasterLayout *masterLayout;
-@property(nonatomic) CDStruct_0441cfb5 ratingsDragCellID; // @synthesize ratingsDragCellID=mRatingsDragCellID;
-@property(readonly, nonatomic) TSTCellRegion *selectionRegion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <TSTTableChromeProvider> tableChrome; // @synthesize tableChrome=mTableChrome;
-@property(readonly, nonatomic) TSTTableInfo *tableInfo;
-@property(readonly, nonatomic) TSTLayout *tableLayout;
-@property(readonly, nonatomic) TSTTableModel *tableModel;
-@property(readonly, nonatomic) struct CGAffineTransform transformFromCanvas;
-@property(readonly, nonatomic) struct CGAffineTransform transformToCanvas;
-@property(readonly, nonatomic) TSDKnobTracker<TSTTableKnobTrackerVisitorProtocol> *visitorKnobTracker; // @synthesize visitorKnobTracker=mVisitorKnobTracker;
 
 @end
 

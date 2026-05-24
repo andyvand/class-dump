@@ -6,14 +6,9 @@
 
 #import <NotesUI/ICNoteSectionIdentifier.h>
 
-@class NSDate, NSString;
-
 @interface ICNoteTimelineSectionIdentifier : ICNoteSectionIdentifier
 {
     long long _timelineSectionType;
-    NSDate *_referenceDate;
-    NSString *_sectionTitle;
-    unsigned long long _sortOrder;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)7;
 - (void);
 - (id);
 - (id);
@@ -32,13 +27,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void)ermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_webView:requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(copy, nonatomic) NSString *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
-@property(nonatomic) unsigned long long sortOrder; // @synthesize sortOrder=_sortOrder;
 @property(nonatomic) long long timelineSectionType; // @synthesize timelineSectionType=_timelineSectionType;
 
 @end

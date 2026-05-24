@@ -11,26 +11,22 @@
 @interface PHCollectionListReference : PHCollectionReference
 {
     long long _collectionListType;
-    long long _collectionListSubtype;
-    NSArray *_transientCollectionReferences;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
-- (id);
+- (long long)y;
+- (id)a;
 - (void)T@"NSURL",C,N,V_fullSizeImageURL;
 - (_Bool)ror"16;
 
 // Remaining properties
-@property(readonly, nonatomic) long long collectionListSubtype; // @synthesize collectionListSubtype=_collectionListSubtype;
-@property(readonly, nonatomic) long long collectionListType; // @synthesize collectionListType=_collectionListType;
 @property(readonly, copy, nonatomic) NSArray *transientCollectionReferences; // @synthesize transientCollectionReferences=_transientCollectionReferences;
 
 @end

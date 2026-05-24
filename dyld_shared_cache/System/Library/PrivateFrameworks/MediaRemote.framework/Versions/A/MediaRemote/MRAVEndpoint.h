@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVOutputDevice, MRDeviceInfo, MRExternalDevice, MRGroupSessionInfo, MROrigin, MROutputContextDataSource, NSArray, NSDictionary, NSString, _MRAVEndpointDescriptorProtobuf;
+@class NSString;
 
 @interface MRAVEndpoint
 {
     _Bool _outputDevicesDidChangeNotificationScheduled;
-    MROutputContextDataSource *_outputContextDataSource;
-    _Bool _isEligibleForHostingGroupSessionExcludingAcknowledgements;
-    long long _connectionType;
-    NSString *_localizedName;
-    NSString *_uniqueIdentifier;
 }
 
 + (void);
@@ -42,7 +37,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)System/Library/Frameworks/CoreAudio.framework/CoreAudio;
 + (void);
 + (void);
 + (void);
@@ -66,7 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -83,7 +78,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -94,48 +89,48 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8;
+- (id)_;
 - (id);
+- (_Bool)hh8;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)q;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -147,8 +142,8 @@
 - (long long);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
@@ -160,78 +155,33 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)setEnableDragAndDrop:(id)arg1;
+- (void)_availableAnnouncementRequestTypes;
+- (id)ȍ;
+- (_Bool)loadInfoForVoicesWithLanguageCode:] /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)6;
 - (void);
 - (id);
 - (_Bool)perationQueue";
-- (_Bool)ject:userInfo: /* Error: Ran out of types for this method. */;
-- (void)n;
+- (_Bool)postNotificationName:object:userInfo: /* Error: Ran out of types for this method. */;
+- (void)calculatedDuration;
 - (void)eInPictureEnabled;
 - (_Bool)oint.Connect succeded with no origin;
 - (id)­ú;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canModifyGroupMembership;
-@property(readonly, nonatomic) _Bool canStartNativePlayback; // @dynamic canStartNativePlayback;
-@property(readonly, nonatomic, getter=isCompanionEndpoint) _Bool companionEndpoint;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) long long connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, nonatomic) NSString *debugName;
-@property(readonly, nonatomic) _MRAVEndpointDescriptorProtobuf *descriptor;
-@property(readonly, nonatomic) MRAVOutputDevice *designatedGroupLeader;
-@property(readonly, nonatomic) MRAVOutputDevice *designatedProxyGroupLeader;
-@property(readonly, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly, nonatomic) _Bool discoveredIsPlaying;
-@property(readonly, nonatomic) NSArray *discoveredOutputDevices;
-@property(readonly, nonatomic) NSArray *effectiveOutputDevices;
-@property(retain, nonatomic) MRExternalDevice *externalDevice;
-@property(readonly, nonatomic) _Bool groupContainsDiscoverableGroupLeader;
-@property(readonly, nonatomic) MRAVOutputDevice *groupLeader;
-@property(readonly, nonatomic) _Bool groupLeaderIsPlaceholder;
-@property(readonly, nonatomic) MRGroupSessionInfo *groupSessionInfo;
-@property(readonly, nonatomic, getter=isGroupable) _Bool groupable; // @dynamic groupable;
-@property(readonly, nonatomic) _Bool isCarPlayVideoActive;
-@property(readonly, nonatomic) _Bool isCarPlayVideoAllowed;
-@property(readonly, nonatomic) _Bool isEligibleForHostingGroupSessionExcludingAcknowledgements; // @synthesize isEligibleForHostingGroupSessionExcludingAcknowledgements=_isEligibleForHostingGroupSessionExcludingAcknowledgements;
-@property(readonly, nonatomic) _Bool isGroupLeaderGroupable;
-@property(readonly, nonatomic) _Bool isMyDiscoverableUndiscoverableGroupLeader;
-@property(readonly, nonatomic) _Bool isMyGroupLeader;
-@property(readonly, nonatomic) NSDictionary *jsonEncodableDictionaryRepresentation;
-@property(readonly, nonatomic, getter=isLocalEndpoint) _Bool localEndpoint;
 @property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) unsigned long long logicalOutputDeviceCount;
-@property(readonly, nonatomic) MROrigin *origin;
-@property(retain, nonatomic) MROutputContextDataSource *outputContextDataSource;
-@property(readonly, nonatomic) NSArray *outputDeviceUIDs;
-@property(readonly, nonatomic) NSArray *outputDevices;
-@property(readonly, nonatomic) NSArray *personalOutputDevices;
-@property(readonly, nonatomic) MRAVOutputDevice *predictedOutputDevice;
-@property(readonly, nonatomic) NSArray *predictedOutputDeviceUIDs;
-@property(readonly, nonatomic, getter=isProxyGroupPlayer) _Bool proxyGroupPlayer; // @dynamic proxyGroupPlayer;
-@property(readonly, nonatomic) NSArray *resolvedOutputDevices;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(readonly, nonatomic) _Bool supportsVisualProxyGroupPlayer;
-@property(readonly, nonatomic) NSArray *syncedOutputDevices;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic, getter=isVisualProxyGroupPlayer) _Bool visualProxyGroupPlayer; // @dynamic visualProxyGroupPlayer;
-@property(readonly, nonatomic) float volume;
-@property(readonly, nonatomic) unsigned int volumeCapabilities;
-@property(readonly, nonatomic, getter=isVolumeMuted) _Bool volumeMuted;
 
 @end
 

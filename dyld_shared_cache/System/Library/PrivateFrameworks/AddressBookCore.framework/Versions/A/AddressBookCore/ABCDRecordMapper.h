@@ -9,12 +9,6 @@
 @interface ABCDRecordMapper
 {
     NSKnownKeysDictionary *__ABKeysForProperties;
-    NSKnownKeysDictionary *__ABPropertiesForKeys;
-    NSKnownKeysDictionary *__ABEntitiesForKeys;
-    NSKnownKeysDictionary *__ABEntitiesMainKeys;
-    struct __CFDictionary *__ABEntitiesValueWithEntitySelector;
-    struct __CFDictionary *__ABEntitiesEntityWithValueSelector;
-    NSKnownKeysDictionary *__ABEntitiesConverterKeys;
 }
 
 + (id)0@ù

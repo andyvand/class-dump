@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface UnknownClass (CNAccountDescription)
 - (_Bool);
@@ -12,27 +12,12 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)rsions/A/CoreGraphics;
 - (id);
 - (id);
 - (_Bool)vAð;
 
 // Remaining properties
-@property(readonly, copy) NSURL *baseURL;
-@property(readonly, copy) NSArray *childAccounts;
-@property(readonly) ABCDContainer *containerRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *dsid;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isChildAccount;
-@property(readonly) _Bool isEnabled;
-@property(readonly) _Bool isPersistent;
-@property(readonly) NSURL *persistentStoreURL;
-@property(readonly) Class superclass;
 @end
 

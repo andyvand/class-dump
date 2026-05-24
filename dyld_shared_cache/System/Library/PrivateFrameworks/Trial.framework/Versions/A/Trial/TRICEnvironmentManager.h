@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)T;
 + (int);
 + (const struct passwd *);
 + (id);

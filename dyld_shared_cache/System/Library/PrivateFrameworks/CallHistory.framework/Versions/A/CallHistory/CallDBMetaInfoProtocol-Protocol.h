@@ -5,5 +5,7 @@
 //
 
 @protocol CallDBMetaInfoProtocol
+- (_Bool));
+- (_Bool)er is not 8 or source pixel buffer is not video range for PSNR calculation;
 @end
 

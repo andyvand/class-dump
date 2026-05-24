@@ -11,7 +11,7 @@
     _Bool _hidden;
 }
 
-+ (id);
++ (id)";
 + (id);
 - (_Bool);
 - (void);

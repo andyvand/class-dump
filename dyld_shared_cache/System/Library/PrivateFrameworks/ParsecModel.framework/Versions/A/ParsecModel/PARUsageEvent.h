@@ -11,19 +11,11 @@
 }
 
 - (id);
-- (void);
+- (void)';
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool activeDays; // @dynamic activeDays;
 @property(nonatomic) int clientIntVal; // @dynamic clientIntVal;
-@property(nonatomic) _Bool invokedDays; // @dynamic invokedDays;
-@property(nonatomic) int numSearchEngagements; // @dynamic numSearchEngagements;
-@property(nonatomic) _Bool searchedDays; // @dynamic searchedDays;
-@property(nonatomic) _Bool suggestionOrAppleResultEngagedDays; // @dynamic suggestionOrAppleResultEngagedDays;
-@property(nonatomic) _Bool voiceSearchDays; // @dynamic voiceSearchDays;
-@property(nonatomic) _Bool webEngagedDays; // @dynamic webEngagedDays;
-@property(nonatomic) _Bool zkwEngagedDays; // @dynamic zkwEngagedDays;
 
 @end
 

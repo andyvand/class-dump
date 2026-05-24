@@ -7,7 +7,6 @@
 @interface PHFeatureAvailabilityReadOptions
 {
     _Bool _useJustInTimeGraphAvailability;
-    _Bool _validateSpotlightAvailability;
 }
 
 - (_Bool);
@@ -15,11 +14,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)isPermittedToUseBluetoothAccessories;
 
 // Remaining properties
 @property(nonatomic) _Bool useJustInTimeGraphAvailability; // @synthesize useJustInTimeGraphAvailability=_useJustInTimeGraphAvailability;
-@property(nonatomic) _Bool validateSpotlightAvailability; // @synthesize validateSpotlightAvailability=_validateSpotlightAvailability;
 
 @end
 

@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaISOLocale, SISchemaUUID;
-
 @interface SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceDetected : SISchemaInstrumentationMessage
 {
     unsigned int _pageNumber;
-    SISchemaUUID *_audioId;
-    int _triggerPhrase;
-    SISchemaISOLocale *_siriInputLocale;
-    unsigned long long _enrollmentDate;
-    _Bool _utteranceEnrollSuccess;
-    struct {
-        unsigned int pageNumber:1;
-        unsigned int triggerPhrase:1;
-        unsigned int enrollmentDate:1;
-        unsigned int utteranceEnrollSuccess:1;
-    } _has;
-    _Bool _hasAudioId;
-    _Bool _hasSiriInputLocale;
 }
 
 - (_Bool);
@@ -46,42 +31,30 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)';
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)P;
 - (unsigned int);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)/MacOS/CoreSpotlight;
+- (_Bool)e_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE c.guid = ?  AND m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
-- (id)ortsCount;
+- (id)cohortsCount;
 - (id)son;
-- (void)rainingIndependentSignals;
+- (void)inferenceWorkoutsAppSelectionTrainingIndependentSignals;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *audioId; // @synthesize audioId=_audioId;
-@property(nonatomic) unsigned long long enrollmentDate; // @synthesize enrollmentDate=_enrollmentDate;
-@property(nonatomic) _Bool hasAudioId; // @synthesize hasAudioId=_hasAudioId;
-@property(nonatomic) _Bool hasEnrollmentDate;
-@property(nonatomic) _Bool hasPageNumber;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(nonatomic) _Bool hasTriggerPhrase;
-@property(nonatomic) _Bool hasUtteranceEnrollSuccess;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
-@property(nonatomic) int triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
-@property(nonatomic) _Bool utteranceEnrollSuccess; // @synthesize utteranceEnrollSuccess=_utteranceEnrollSuccess;
 
 @end
 

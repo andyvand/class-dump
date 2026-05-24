@@ -5,5 +5,6 @@
 //
 
 @protocol AuthorizationSheetViewControllerDelegate
+- (void);
 @end
 

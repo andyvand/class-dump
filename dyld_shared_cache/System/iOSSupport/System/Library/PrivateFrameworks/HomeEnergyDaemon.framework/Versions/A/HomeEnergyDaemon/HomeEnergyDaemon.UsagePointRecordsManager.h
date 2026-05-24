@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id usagePoint;
-    id sharedContext;
 }
 
 @end

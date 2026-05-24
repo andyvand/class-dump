@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PHPhotoLibrary, _PHDictionaryKeyValueWrapper;
+@class NSDictionary, PHPhotoLibrary;
 
 @interface PHPropertyFetchingHelper
 {
     NSDictionary *_fetchedPropertyNamesByEntityName;
-    NSDictionary *_propertyValuesByOID;
-    struct os_unfair_lock_s _lock;
-    _PHDictionaryKeyValueWrapper *_lock_dictionaryWrapper;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);

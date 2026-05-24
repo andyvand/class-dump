@@ -12,18 +12,14 @@ __attribute__((visibility("hidden")))
 @interface NSDraggingDestinationView : NSView
 {
     NSColor *_color;
-    long long _feedbackStyle;
-    long long _draggingDestinationStyle;
-    long long _backgroundStyle;
-    _Bool _flashing;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (long long);
-- (long long);
+- (_Bool)_initWithCFURLCredentialStorage: /* Error: Ran out of types for this method. */;
+- (long long)_collectTimingDataWithOptions: /* Error: Ran out of types for this method. */;
+- (long long)propertyForKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -32,16 +28,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)á3Ð1Â0@ù
 × ;
 - (void)dicatorFillView";
-- (id)enuUpdateFlags;
-- (void)sorRects;
+- (id)currentMenuUpdateFlags;
+- (void)NSDebugCursorRects;
 - (long long)`à°C;
 
 // Remaining properties
-@property long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
 @property(copy) NSColor *color; // @synthesize color=_color;
-@property long long draggingDestinationStyle; // @synthesize draggingDestinationStyle=_draggingDestinationStyle;
-@property long long feedbackStyle; // @synthesize feedbackStyle=_feedbackStyle;
-@property _Bool flashing;
 
 @end
 

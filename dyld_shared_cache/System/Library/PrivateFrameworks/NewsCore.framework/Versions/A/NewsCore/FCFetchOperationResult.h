@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSSet;
+@class NSSet;
 
 @interface FCFetchOperationResult
 {
     id _fetchedObject;
-    unsigned long long _status;
-    unsigned long long _fetchResult;
-    NSError *_error;
-    NSSet *_missingObjectDescriptions;
 }
 
-+ (id);
++ (id)setBorderLayer:(unsigned long long)arg1;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)canMigrateRootUser;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)>;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool anyMissingObjects;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(readonly, nonatomic) id fetchedObject; // @synthesize fetchedObject=_fetchedObject;
 @property(copy, nonatomic) NSSet *missingObjectDescriptions; // @synthesize missingObjectDescriptions=_missingObjectDescriptions;
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

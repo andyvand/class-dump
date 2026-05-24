@@ -9,7 +9,6 @@
 @interface PKApplicationMessageIcon
 {
     PKImageDescriptor *_image;
-    long long _style;
 }
 
 + (struct CGSize);
@@ -21,13 +20,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)eventsWithLocation;
 - (void);
-- (void)erity;
+- (void)PKErrorSeverity;
 
 // Remaining properties
 @property(readonly, nonatomic) PKImageDescriptor *image; // @synthesize image=_image;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

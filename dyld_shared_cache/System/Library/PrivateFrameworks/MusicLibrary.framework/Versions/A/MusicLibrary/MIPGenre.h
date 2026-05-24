@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MIPGenre
 {
     long long _persistentId;
-    long long _storeId;
-    NSString *_name;
-    struct {
-        unsigned int persistentId:1;
-        unsigned int storeId:1;
-    } _has;
 }
 
+- (void)dsPhotosKnowledgeGraph;
 - (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (void)setSearchIndexSceneTaxonomySHA:(_Bool)arg1;
+- (long long)@"NSString",R,V_logPrefix;
+- (_Bool)ecords;
+- (_Bool)geConversionServiceClient;
 - (void);
 - (long long);
 - (id);
@@ -31,21 +23,16 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)initWithName:(id)arg1 fireDate:timeZone:recurrence: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
+- (id)tring",C,V_displayName;
 - (id);
-- (id);
-- (void);
+- (void)_updateMetadataHelperForUpload:(id)arg1 query: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPersistentId;
 @property(nonatomic) _Bool hasStoreId;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long persistentId; // @synthesize persistentId=_persistentId;
-@property(nonatomic) long long storeId; // @synthesize storeId=_storeId;
 
 @end
 

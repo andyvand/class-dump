@@ -9,21 +9,18 @@
 @interface CalUIListViewCell
 {
     CalUILayerBackedView *_divider;
-    _Bool _dragPreview;
-    _Bool _selected;
-    _Bool _dimmed;
-    _Bool _drawDivider;
-    EKEvent *_event;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)T?;
+- (id)
+
+,;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)33SubscriberTrackerFactoryInterface;
 - (void)0@ù
 × ;
 - (_Bool)Ô!6 ð!¤DùQÄ#1Â0@ù
@@ -31,11 +28,7 @@
 - (_Bool)he trust for a certificate error [%@] with userInfo [%@].;
 
 // Remaining properties
-@property(nonatomic) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(readonly, nonatomic) _Bool dragPreview; // @synthesize dragPreview=_dragPreview;
-@property(nonatomic) _Bool drawDivider; // @synthesize drawDivider=_drawDivider;
 @property(readonly, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

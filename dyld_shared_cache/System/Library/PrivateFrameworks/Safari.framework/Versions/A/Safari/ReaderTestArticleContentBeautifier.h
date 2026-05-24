@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSContext, JSValue;
+@class JSContext;
 
 __attribute__((visibility("hidden")))
 @interface ReaderTestArticleContentBeautifier
 {
     JSContext *_context;
-    JSValue *_beautifyJSFunction;
 }
 
 - (id);

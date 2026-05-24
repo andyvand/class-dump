@@ -9,23 +9,19 @@
 @interface UIIndexBarDisplayEntry
 {
     UIIndexBarEntry *_entry;
-    long long _entryIndex;
-    long long _displayEntryIndex;
 }
 
-- (void);
+- (void). Device Conditions suitable to write:(long long)arg1 %@;
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id)CEMSystemTimeServerDeclaration;
 - (id);
 - (void);
 - (void)xÍg;
 
 // Remaining properties
-@property(nonatomic) long long displayEntryIndex; // @synthesize displayEntryIndex=_displayEntryIndex;
 @property(retain, nonatomic) UIIndexBarEntry *entry; // @synthesize entry=_entry;
-@property(nonatomic) long long entryIndex; // @synthesize entryIndex=_entryIndex;
 
 @end
 

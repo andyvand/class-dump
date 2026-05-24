@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAUIPhotoPickerRequest : SABaseClientBoundCommand
 {
@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)conds;
 - (id);
 - (id);
 - (void);
@@ -24,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *directInvocationBundleIdentifier;
-@property(copy, nonatomic) NSString *searchQuery;
-@property(copy, nonatomic) NSNumber *selectionLimit;
 
 @end
 

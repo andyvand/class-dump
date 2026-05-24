@@ -9,32 +9,23 @@
 @interface _INPBIntentType
 {
     struct _has;
-    NSString *_type;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)hip;
-- (void)iriAudioRoute;
+- (_Bool)__INCodableAttributeRelationship;
+- (void)heySiriAudioRoute;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

@@ -9,21 +9,12 @@
 @interface FBSDisplayIdentity
 {
     NSString *_uniqueIdentifier;
-    FBSDisplayIdentity *_rootIdentity;
-    long long _type;
-    long long _connectionType;
-    unsigned int _displayID;
-    unsigned int _connectionSeed;
-    int _pid;
-    _Bool _mainLike;
-    _Bool _external;
-    _Bool _secure;
 }
 
-+ (_Bool);
++ (_Bool)AVCFMediaSelection_DefaultSelection;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (int);
 - (_Bool);
@@ -32,20 +23,20 @@
 - (id);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)L;
+- (id)P;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -53,24 +44,10 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (_Bool)undleVersion;
+- (_Bool)_bundleVersion;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isUIKitMainLike) _Bool UIKitMainLike; // @synthesize UIKitMainLike=_mainLike;
-@property(readonly, nonatomic, getter=isCarDisplay) _Bool carDisplay;
-@property(readonly, nonatomic, getter=isCarInstrumentsDisplay) _Bool carInstrumentsDisplay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExternal) _Bool external; // @synthesize external=_external;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRootIdentity;
-@property(readonly, nonatomic, getter=isMainDisplay) _Bool mainDisplay;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, copy, nonatomic) FBSDisplayIdentity *rootIdentity;
-@property(readonly) Class superclass;
 
 @end
 

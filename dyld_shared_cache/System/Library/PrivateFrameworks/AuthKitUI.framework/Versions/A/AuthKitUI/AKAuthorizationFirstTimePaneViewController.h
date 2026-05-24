@@ -13,21 +13,21 @@
     AKAuthorizationViewController *_authorizationViewController;
 }
 
-- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)H;
 
 // Remaining properties
 @property(nonatomic) __weak AKAuthorizationViewController *authorizationViewController; // @synthesize authorizationViewController=_authorizationViewController;

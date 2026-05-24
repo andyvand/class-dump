@@ -16,9 +16,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)CGSize=dd}}64@0:(id)arg1 8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (void);
-- (id)CG9forAssets_t;
+- (id)SaySo7PHAssetCG9forAssets_t;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;

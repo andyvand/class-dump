@@ -9,7 +9,6 @@
 @interface PETStringPairs
 {
     NSArray *_keys;
-    NSArray *_values;
 }
 
 - (id);
@@ -22,9 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

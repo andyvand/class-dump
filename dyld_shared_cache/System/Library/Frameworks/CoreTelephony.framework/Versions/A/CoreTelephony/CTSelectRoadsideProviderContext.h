@@ -9,15 +9,15 @@
     long long _providerId;
 }
 
-+ (_Bool);
++ (_Bool)annot already be attached to an AVAssetReader.;
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)initWithUUID:(id)arg1 contextRef: /* Error: Ran out of types for this method. */;
+- (id)@;
 
 // Remaining properties
 @property(nonatomic) long long providerId; // @synthesize providerId=_providerId;

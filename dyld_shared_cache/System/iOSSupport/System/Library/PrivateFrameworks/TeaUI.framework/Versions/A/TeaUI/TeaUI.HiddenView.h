@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)setSubscriptionOnlyArticle:(struct CGRect)arg1;
 
 @end
 

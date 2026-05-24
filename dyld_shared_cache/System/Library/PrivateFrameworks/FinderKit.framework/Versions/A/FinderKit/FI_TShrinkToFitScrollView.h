@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     struct TNotificationCenterObserver _stfTextViewFrameChangedObvserver;
 }
 
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)tableView:updateDraggingItemsForDrag: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)@9*;
 - (void);
 - (void);
 - (void)artObservingGlobalPrefChanges:]E3$_1FvP14NSNotificationEEE /* Error: Ran out of types for this method. */;

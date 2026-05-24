@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class PKBankAccountInformation, PKCurrencyAmount;
+@class PKBankAccountInformation;
 
 @interface PKBankAccountDataItem : PKPaymentDataItem
 {
     _Bool _showPeerPaymentBalance;
-    PKCurrencyAmount *_peerPaymentBalance;
-    PKBankAccountInformation *_PKBankAccountInformation;
 }
 
 + (long long);
@@ -30,9 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKBankAccountInformation *PKBankAccountInformation; // @synthesize PKBankAccountInformation=_PKBankAccountInformation;
-@property(readonly, nonatomic) PKBankAccountInformation *bankAccountInformation;
-@property(retain, nonatomic) PKCurrencyAmount *peerPaymentBalance; // @synthesize peerPaymentBalance=_peerPaymentBalance;
-@property(nonatomic) _Bool showPeerPaymentBalance; // @synthesize showPeerPaymentBalance=_showPeerPaymentBalance;
 
 @end
 

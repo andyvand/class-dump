@@ -13,24 +13,23 @@
 
 + (id);
 - (id);
+- (void)parseTransit:(id)arg1 fileTrans:into: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)bufferedAudioEngine_audioHoseRegistrarRegisterProtocolDriverHoseInternal;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (Class)bscriptionsBlock;
-- (void)hedBlock;
-- (_Bool)n:mergeableValueIDs:previousContinuationTokens: /* Error: Ran out of types for this method. */;
-- (void)QLiteDBs;
+- (id);
+- (id)_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]}16;
+- (Class)errorFetchingAllSubscriptionsBlock;
+- (void)_recordZoneFetchedBlock;
+- (_Bool)initWithOperation:mergeableValueIDs:previousContinuationTokens: /* Error: Ran out of types for this method. */;
+- (void)SQLiteDBs;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUuid;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

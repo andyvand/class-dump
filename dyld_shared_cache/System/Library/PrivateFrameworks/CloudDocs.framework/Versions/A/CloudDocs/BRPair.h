@@ -7,13 +7,12 @@
 @interface BRPair
 {
     id _left;
-    id _right;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id left; // @synthesize left=_left;
-@property(readonly, nonatomic) id right; // @synthesize right=_right;
 
 @end
 

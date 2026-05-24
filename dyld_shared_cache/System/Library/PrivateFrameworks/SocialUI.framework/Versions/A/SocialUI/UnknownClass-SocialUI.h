@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *primaryBrandColor;
-@property(readonly, nonatomic) NSColor *secondaryBrandColor;
 @end
 

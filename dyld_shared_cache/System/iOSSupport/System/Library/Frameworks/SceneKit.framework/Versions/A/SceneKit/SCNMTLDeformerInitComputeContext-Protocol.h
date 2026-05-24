@@ -8,9 +8,10 @@
 @protocol MTLBlitCommandEncoder;
 
 @protocol SCNMTLDeformerInitComputeContext
+- (id <MTLBlitCommandEncoder>);
+- (MTLStageInputOutputDescriptor *)@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBlitCommandEncoder> currentBlitEncoder;
-@property(readonly, nonatomic) MTLStageInputOutputDescriptor *stageInputDescriptor;
 @end
 

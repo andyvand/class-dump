@@ -5,6 +5,6 @@
 //
 
 @protocol SKValidateProtocol
-- (id)quiredSizeForRecoveryMove;
+- (id)_requiredSizeForRecoveryMove;
 @end
 

@@ -7,26 +7,10 @@
 @interface PHAPromptSuggestionCachingTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id priority;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id taskProductivityReporter;
-    id maxTimeoutRetryCount;
-    id validationTimeoutSec;
-    id searchTimeoutSec;
-    id log;
-    id logger;
-    id graphManager;
-    id $__lazy_storage_$_promptSuggestionFetcher;
-    id photoLibrary;
 }
 
 - (id);
-- (void)orFingerprintVersion:options:error: /* Error: Ran out of types for this method. */;
+- (void)_fetchObjectsForFingerprintVersion:options:error: /* Error: Ran out of types for this method. */;
 
 @end
 

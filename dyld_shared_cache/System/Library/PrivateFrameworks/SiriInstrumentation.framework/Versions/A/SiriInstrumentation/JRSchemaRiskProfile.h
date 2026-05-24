@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRiskProfile : SISchemaInstrumentationMessage
 {
@@ -30,11 +30,10 @@
 - (id)!PEù±ßÐ1Â0@ù
 × ;
 - (id)T@"ODDSiriSchemaODDAssistantCarPlayDigestReported",&,N,V_assistantCarPlayDigestReported;
-- (id)GeneralSearchEndedTier1;
+- (id)STSchemaSTGeneralSearchEndedTier1;
 - (void))";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tuples; // @synthesize tuples=_tuples;
 
 @end

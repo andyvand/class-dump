@@ -15,7 +15,7 @@
 
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)handleNotificationsLoadedNotification;
 - (id);
 - (void)@"CNChangeHistoryDeleteGroupEvent"16;
 

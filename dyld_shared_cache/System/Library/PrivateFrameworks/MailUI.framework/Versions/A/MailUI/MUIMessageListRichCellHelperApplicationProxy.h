@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUIAddressListFormatter, NSString;
 @protocol EFCancelable;
 
 @interface MUIMessageListRichCellHelperApplicationProxy
 {
     _Bool _showToCCIndicators;
-    id <EFCancelable> _showToCCToken;
 }
 
 + (id);
@@ -23,19 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ocusFilters;
+- (void)reselectFocusFilters;
 
 // Remaining properties
-@property(readonly, nonatomic) MUIAddressListFormatter *addressListFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool showToCCIndicators; // @synthesize showToCCIndicators=_showToCCIndicators;
 @property(retain, nonatomic) id <EFCancelable> showToCCToken; // @synthesize showToCCToken=_showToCCToken;
-@property(readonly) Class superclass;
 
 @end
 

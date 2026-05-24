@@ -6,17 +6,11 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVMetricMediaResourceRequestEvent, NSString, NSURL;
+@class NSURL;
 
 @interface AVMetricHLSMediaSegmentRequestEvent : AVMetricEvent
 {
     NSURL *_indexFileURL;
-    struct _NSRange _byteRange;
-    _Bool _isMapSegment;
-    NSString *_mediaType;
-    double _segmentDuration;
-    AVMetricMediaResourceRequestEvent *_mediaResourceRequestEvent;
-    NSURL *_url;
 }
 
 + (_Bool);
@@ -34,12 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) struct _NSRange byteRange;
-@property(readonly) NSURL *indexFileURL;
-@property(readonly) _Bool isMapSegment;
-@property(readonly) AVMetricMediaResourceRequestEvent *mediaResourceRequestEvent;
-@property(readonly) NSString *mediaType;
-@property(readonly) double segmentDuration;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

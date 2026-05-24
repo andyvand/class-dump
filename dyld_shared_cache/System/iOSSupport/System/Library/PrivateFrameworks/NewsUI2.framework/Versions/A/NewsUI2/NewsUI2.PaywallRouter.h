@@ -7,9 +7,6 @@
 @interface NewsUI2.PaywallRouter
 {
     id resolver;
-    id navigator;
-    id configurationManager;
-    id paywallType;
 }
 
 @end

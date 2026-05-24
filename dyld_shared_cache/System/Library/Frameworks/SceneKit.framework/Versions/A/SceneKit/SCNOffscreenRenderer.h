@@ -11,7 +11,6 @@
 @interface SCNOffscreenRenderer : SCNRenderer
 {
     id <_SCNSceneRendererDelegate><_SCNSceneRendererDelegateSPI> _sceneRendererDelegate;
-    CDStruct_8da4f401 _sceneRendererDelegateDelegationConformance;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 + (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -36,8 +35,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(nonatomic) struct CGSize size;
 @property(readonly, nonatomic) unsigned int textureID;
 
 @end

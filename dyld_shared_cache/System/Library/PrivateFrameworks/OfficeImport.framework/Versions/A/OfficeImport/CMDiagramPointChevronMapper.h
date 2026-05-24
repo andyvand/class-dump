@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramPointChevronMapper : CMDiagramPointMapper
 {
     _Bool mPlaceholder;
-    _Bool mHomePlate;
 }
 
 - (void);

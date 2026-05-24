@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface PKPaymentSetupMoreInfoItem
 {
     _Bool _hideAlternativeAction;
-    NSString *_nextActionOverride;
-    NSString *_doneActionOverride;
-    NSString *_alternativeActionOverride;
-    _Bool _hasAlternativeAction;
-    NSString *_title;
-    NSString *_body;
-    NSString *_linkText;
-    NSURL *_linkURL;
-    long long _type;
-    NSString *_nextAction;
-    NSString *_doneAction;
-    NSString *_alternativeAction;
-    NSDictionary *_reportingMetadata;
-    NSURL *_imageURL;
-    NSData *_imageData;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -41,27 +26,16 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void);
+- (void)	;
+- (id)setHasNetworkScore: /* Error: Ran out of types for this method. */;
+- (void)TI,N,V_rc2Duration;
 - (id);
 - (id)etcherDelegate>",W,N,V_delegate;
-- (void)isoningController;
-- (id)NAGED_APPLE_ID_BODY;
+- (void)ProvisoningController;
+- (id)PASS_ERROR_MANAGED_APPLE_ID_BODY;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *alternativeAction; // @synthesize alternativeAction=_alternativeAction;
-@property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy, nonatomic) NSString *doneAction; // @synthesize doneAction=_doneAction;
-@property(readonly, nonatomic) _Bool hasAlternativeAction; // @synthesize hasAlternativeAction=_hasAlternativeAction;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, copy, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, copy, nonatomic) NSString *linkText; // @synthesize linkText=_linkText;
-@property(readonly, copy, nonatomic) NSURL *linkURL; // @synthesize linkURL=_linkURL;
-@property(readonly, copy, nonatomic) NSString *nextAction; // @synthesize nextAction=_nextAction;
-@property(readonly, copy, nonatomic) NSDictionary *reportingMetadata; // @synthesize reportingMetadata=_reportingMetadata;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

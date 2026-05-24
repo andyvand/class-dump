@@ -7,6 +7,7 @@
 @interface StocksAnalytics.TrackerConfiguration
 {
     id appConfigurationManager;
+    id;
 }
 
 @end

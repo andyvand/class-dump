@@ -12,10 +12,10 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)s;
+- (id)k;
+- (id)widthAnchor;
 
 // Remaining properties
 @property(readonly, nonatomic) INPerson *person;

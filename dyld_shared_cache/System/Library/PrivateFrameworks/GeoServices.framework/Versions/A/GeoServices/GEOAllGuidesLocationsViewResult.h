@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAllGuidesLocationsViewResult, NSArray, NSString;
+@class GEOPDAllGuidesLocationsViewResult, NSString;
 
 @interface GEOAllGuidesLocationsViewResult
 {
     GEOPDAllGuidesLocationsViewResult *_viewResult;
-    NSArray *_mapsResults;
 }
 
-- (id);
+- (id)cure temporary directory %{public}@:(id)arg1 %{public}@;
 - (id)hasAddressType;
 - (id);
 - (void)HÃÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *sections;
 @property(readonly, nonatomic) NSString *title;
 
 @end

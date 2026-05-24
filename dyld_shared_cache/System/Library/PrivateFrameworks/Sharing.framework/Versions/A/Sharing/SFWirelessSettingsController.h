@@ -9,18 +9,9 @@
 @interface SFWirelessSettingsController
 {
     id _delegate;
-    _Bool _wifiEnabled;
-    _Bool _airplaneModeEnabled;
-    _Bool _bluetoothEnabled;
-    _Bool _deviceSupportsWAPI;
-    _Bool _isAirDropMDMRestricted;
-    _Bool _firstCallbackCompleted;
-    _Bool _wirelessCarPlayEnabled;
-    _Bool _wirelessAccessPointEnabled;
-    struct __SFOperation *_information;
 }
 
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,14 +31,7 @@
 - (_Bool)haresheetrecipients;
 
 // Remaining properties
-@property(getter=isAirplaneModeEnabled) _Bool airplaneModeEnabled;
-@property(getter=isBluetoothEnabled) _Bool bluetoothEnabled;
 @property __weak id <SFWirelessSettingsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool deviceSupportsWAPI;
-@property(readonly) _Bool isAirDropMDMRestricted; // @synthesize isAirDropMDMRestricted=_isAirDropMDMRestricted;
-@property(getter=isWifiEnabled) _Bool wifiEnabled;
-@property(getter=isWirelessAccessPointEnabled) _Bool wirelessAccessPointEnabled;
-@property(readonly, getter=isWirelessCarPlayEnabled) _Bool wirelessCarPlayEnabled;
 
 @end
 

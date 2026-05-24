@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-
 @interface WPPeerTrackingRequest
 {
     unsigned char _clientType;
-    NSUUID *_peerUUID;
-    NSDictionary *_peerTrackingDictionary;
 }
 
 + (_Bool);
@@ -19,19 +15,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)8@y;
 - (void);
 - (void);
-- (unsigned char)Bool: /* Error: Ran out of types for this method. */;
+- (unsigned char)numberWithBool: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned char clientType; // @synthesize clientType=_clientType;
-@property(retain) NSDictionary *peerTrackingDictionary; // @synthesize peerTrackingDictionary=_peerTrackingDictionary;
-@property(retain) NSUUID *peerUUID; // @synthesize peerUUID=_peerUUID;
 
 @end
 

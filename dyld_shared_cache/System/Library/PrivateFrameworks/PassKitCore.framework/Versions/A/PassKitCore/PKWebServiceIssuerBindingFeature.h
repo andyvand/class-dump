@@ -11,7 +11,7 @@
     _Bool _enabled;
 }
 
-- (_Bool)URL;
+- (_Bool)_bagPolicyURL;
 - (id);
 
 // Remaining properties

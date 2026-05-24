@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInput, AVCaptureInputPort, AVCaptureSession, AVCaptureVideoDataOutput, AVCaptureVideoPreviewLayer, CALayer, NSString;
-@protocol AVCaptureVideoDataOutputSampleBufferDelegate;
+@class AVCaptureSession;
 
 @interface CRDefaultCaptureSessionManager
 {
     _Bool _enableMetadataOutput;
-    _Bool _exposureAdjustmentInProgress;
-    _Bool _runningManualExposure;
-    float _maxISO;
-    float _minISO;
-    int _exposureAdjustmentInProgressTimeoutCount;
-    long long _cameraPosition;
-    NSString *_cameraMode;
-    long long _whiteBalanceMode;
-    long long _focusMode;
-    long long _exposureMode;
-    long long _torchMode;
-    id <AVCaptureVideoDataOutputSampleBufferDelegate> _captureSessionDelegate;
-    NSString *_currentDeviceID;
-    long long _targetFocusDistance;
-    AVCaptureSession *_captureSession;
-    AVCaptureVideoPreviewLayer *_avfPreviewLayer;
-    AVCaptureDeviceInput *_deviceInput;
-    AVCaptureVideoDataOutput *_captureVideoDataOutput;
-    id _inputPortFormatObserver;
-    AVCaptureInputPort *_inputPortFormatSender;
-    CDStruct_7012203e *_exposure_table;
-    struct CGSize _cameraResolution;
-    CDStruct_1b6d18a9 _highISOThresholdDuration;
 }
 
 - (_Bool);
 - (void);
 - (int);
 - (long long);
-- (_Bool);
+- (_Bool)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
@@ -48,21 +31,14 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -71,15 +47,15 @@
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
-- (CDStruct_7012203e *);
+- (CDStruct_7012203e *);
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGRect);
+- (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (id);
@@ -92,7 +68,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (id);
@@ -105,7 +81,7 @@
 - (float);
 - (struct CGPoint);
 - (long long);
-- (void);
+- (void)A;
 - (long long);
 - (void);
 - (float);
@@ -114,41 +90,10 @@
 - (long long);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)systemBlueColor;
 
 // Remaining properties
-@property(retain, nonatomic) AVCaptureVideoPreviewLayer *avfPreviewLayer; // @synthesize avfPreviewLayer=_avfPreviewLayer;
-@property(copy, nonatomic) NSString *cameraMode; // @synthesize cameraMode=_cameraMode;
-@property(nonatomic) long long cameraPosition; // @synthesize cameraPosition=_cameraPosition;
-@property struct CGSize cameraResolution; // @synthesize cameraResolution=_cameraResolution;
 @property(retain, nonatomic) AVCaptureSession *captureSession; // @synthesize captureSession=_captureSession;
-@property __weak id <AVCaptureVideoDataOutputSampleBufferDelegate> captureSessionDelegate; // @synthesize captureSessionDelegate=_captureSessionDelegate;
-@property(retain, nonatomic) AVCaptureVideoDataOutput *captureVideoDataOutput; // @synthesize captureVideoDataOutput=_captureVideoDataOutput;
-@property(retain) NSString *currentDeviceID; // @synthesize currentDeviceID=_currentDeviceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVCaptureDeviceInput *deviceInput; // @synthesize deviceInput=_deviceInput;
-@property _Bool enableMetadataOutput; // @synthesize enableMetadataOutput=_enableMetadataOutput;
-@property _Bool exposureAdjustmentInProgress; // @synthesize exposureAdjustmentInProgress=_exposureAdjustmentInProgress;
-@property int exposureAdjustmentInProgressTimeoutCount; // @synthesize exposureAdjustmentInProgressTimeoutCount=_exposureAdjustmentInProgressTimeoutCount;
-@property(nonatomic) long long exposureMode; // @synthesize exposureMode=_exposureMode;
-@property CDStruct_7012203e *exposure_table; // @synthesize exposure_table=_exposure_table;
-@property(nonatomic) long long focusMode; // @synthesize focusMode=_focusMode;
-@property(readonly) unsigned long long hash;
-@property CDStruct_1b6d18a9 highISOThresholdDuration; // @synthesize highISOThresholdDuration=_highISOThresholdDuration;
-@property(retain) id inputPortFormatObserver; // @synthesize inputPortFormatObserver=_inputPortFormatObserver;
-@property(nonatomic) __weak AVCaptureInputPort *inputPortFormatSender; // @synthesize inputPortFormatSender=_inputPortFormatSender;
-@property float maxISO; // @synthesize maxISO=_maxISO;
-@property float minISO; // @synthesize minISO=_minISO;
-@property(readonly, nonatomic) CALayer *previewLayer;
-@property _Bool runningManualExposure; // @synthesize runningManualExposure=_runningManualExposure;
-@property(readonly) Class superclass;
-@property long long targetFocusDistance; // @synthesize targetFocusDistance=_targetFocusDistance;
-@property(nonatomic) long long torchMode; // @synthesize torchMode=_torchMode;
-@property(nonatomic) long long whiteBalanceMode; // @synthesize whiteBalanceMode=_whiteBalanceMode;
 
 @end
 

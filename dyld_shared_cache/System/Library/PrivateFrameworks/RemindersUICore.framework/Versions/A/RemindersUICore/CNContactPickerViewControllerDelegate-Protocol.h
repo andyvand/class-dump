@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContact, CNContactPickerViewController;
+
 @protocol CNContactPickerViewControllerDelegate
+
+@optional
+- (void)_setPreviousPercentComplete:(CNContactPickerViewController *)arg1;
+- (void)_setObject:(CNContactPickerViewController *)arg1 inDictionary:forKind:indexPath: /* Error: Ran out of types for this method. */;
+- (void)_setNeedsVisibleCellsUpdate:(CNContactPickerViewController *)arg1 withLayoutAttributes:(CNContact *)arg2;
 @end
 

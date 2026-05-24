@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)Data",R,N,V_stringClosingTagData;
 
 @end
 

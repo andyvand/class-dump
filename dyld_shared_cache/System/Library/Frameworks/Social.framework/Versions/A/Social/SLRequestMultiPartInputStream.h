@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, SLRequestMultiPart;
+@class SLRequestMultiPart;
 
 __attribute__((visibility("hidden")))
 @interface SLRequestMultiPartInputStream
 {
     SLRequestMultiPart *_multiPart;
-    unsigned long long _streamStatus;
-    unsigned long long _bytesReadInState;
-    unsigned long long _totalBytesRead;
-    NSData *_srcData;
-    int _currentState;
 }
 
 - (unsigned long long);
@@ -22,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_diffuseColorLoc;
 
 @end
 

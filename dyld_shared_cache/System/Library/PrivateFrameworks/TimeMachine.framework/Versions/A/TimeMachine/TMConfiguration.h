@@ -7,15 +7,11 @@
 @interface TMConfiguration
 {
     long long _outstandingChanges;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _outstandingChangesLock;
 }
 
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)B;
++ (id)z!;
 + (id);
 + (id);
 + (_Bool);

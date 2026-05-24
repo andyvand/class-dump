@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ICMusicRestoreBagConfiguration
 {
     _Bool _shouldGZip;
-    NSArray *_allowedKinds;
-    NSArray *_allowedMatchStatus;
-    NSURL *_restoreURL;
 }
 
 - (_Bool);
@@ -20,13 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ListeningConnectionClientProtocol;
+- (void)ICSharedListeningConnectionClientProtocol;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allowedKinds; // @synthesize allowedKinds=_allowedKinds;
-@property(readonly, copy, nonatomic) NSArray *allowedMatchStatus; // @synthesize allowedMatchStatus=_allowedMatchStatus;
-@property(readonly, copy, nonatomic) NSURL *restoreURL; // @synthesize restoreURL=_restoreURL;
-@property(readonly, nonatomic) _Bool shouldGZip; // @synthesize shouldGZip=_shouldGZip;
 
 @end
 

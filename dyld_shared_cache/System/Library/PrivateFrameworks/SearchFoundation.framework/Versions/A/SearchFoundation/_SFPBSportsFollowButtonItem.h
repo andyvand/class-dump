@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBSportsItem, _SFPBToggleButtonConfiguration;
+@class _SFPBSportsItem;
 
 @interface _SFPBSportsFollowButtonItem
 {
     _SFPBSportsItem *_sportsItem;
-    _SFPBToggleButtonConfiguration *_toggleButtonConfiguration;
-    NSString *_fallbackTitle;
-    unsigned long long _uniqueId;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (void)_;
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)setCachedHash:(id)arg1;
+- (id)sync:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ð!ðBùñ¦ð1Â0@ù
@@ -35,18 +32,7 @@
 - (void)pEntityParameterCommand"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fallbackTitle; // @synthesize fallbackTitle=_fallbackTitle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsItem *sportsItem; // @synthesize sportsItem=_sportsItem;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration; // @synthesize toggleButtonConfiguration=_toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _MXExtensionContainingAppProxy
 {
     NSMutableSet *_extensionUIIdentifiers;
-    NSMutableSet *_extensionNonUIIdentifiers;
-    NSString *_containingAppIdentifer;
 }
 
-- (void);
-- (void);
+- (void)cretionaryEnergyMonitor";
+- (void)0:(id)arg1 8@16@24B32;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)dDisplayNoResults;
+- (void)shouldDisplayNoResults;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *containingAppIdentifer; // @synthesize containingAppIdentifer=_containingAppIdentifer;
-@property(retain, nonatomic) NSMutableSet *extensionNonUIIdentifiers; // @synthesize extensionNonUIIdentifiers=_extensionNonUIIdentifiers;
-@property(retain, nonatomic) NSMutableSet *extensionUIIdentifiers; // @synthesize extensionUIIdentifiers=_extensionUIIdentifiers;
 
 @end
 

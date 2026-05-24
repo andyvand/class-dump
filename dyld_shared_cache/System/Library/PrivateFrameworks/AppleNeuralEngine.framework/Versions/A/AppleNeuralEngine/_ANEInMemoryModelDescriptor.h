@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface _ANEInMemoryModelDescriptor
 {
     _Bool _isMILModel;
-    NSString *_networkTextHash;
-    NSString *_weightsHash;
-    NSString *_optionsPlistHash;
-    NSData *_networkText;
-    NSDictionary *_weights;
-    NSData *_optionsPlist;
 }
 
 + (id);
-+ (id);
++ (id)nnection] Writing %llu bytes to device=%{public}@(%{public}@) destination=%{public}@, session=%{public}@;
 + (id);
 - (id);
 - (id);
@@ -28,7 +22,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)g"16@?<v@?@"NSString"@"NSError">24;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -36,13 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMILModel; // @synthesize isMILModel=_isMILModel;
-@property(readonly, copy, nonatomic) NSData *networkText; // @synthesize networkText=_networkText;
 @property(readonly, copy, nonatomic) NSString *networkTextHash; // @synthesize networkTextHash=_networkTextHash;
-@property(readonly, nonatomic) NSData *optionsPlist; // @synthesize optionsPlist=_optionsPlist;
-@property(readonly, nonatomic) NSString *optionsPlistHash; // @synthesize optionsPlistHash=_optionsPlistHash;
-@property(readonly, nonatomic) NSDictionary *weights; // @synthesize weights=_weights;
-@property(readonly, copy, nonatomic) NSString *weightsHash; // @synthesize weightsHash=_weightsHash;
 
 @end
 

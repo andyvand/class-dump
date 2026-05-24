@@ -6,18 +6,16 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectSnapshotTitle : MREffect
 {
     MRTextRenderer *mTextRenderer0;
-    MRImage *mImage0;
-    MRCroppingSprite *mTextSprite0;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)countForObject:(double)arg1;
+- (_Bool)envelopeSubmissionDate;
+- (_Bool)oke;
 - (id);
 - (struct CGSize);
 - (long long);

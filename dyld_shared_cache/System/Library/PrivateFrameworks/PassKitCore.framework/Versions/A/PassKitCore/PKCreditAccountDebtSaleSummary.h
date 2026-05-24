@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKCreditAccountDebtSaleSummary
 {
     NSString *_buyerName;
-    NSString *_buyerPhone;
-    NSURL *_buyerURL;
 }
 
 + (_Bool);
@@ -22,18 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasPassiveCaptivityIncorrectDetection;
 - (void);
 - (id);
-- (id)ostalCode;
+- (id)_postalCode;
 - (void)rConnection/IOPMrootDomain;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buyerName; // @synthesize buyerName=_buyerName;
-@property(copy, nonatomic) NSString *buyerPhone; // @synthesize buyerPhone=_buyerPhone;
-@property(copy, nonatomic) NSURL *buyerURL; // @synthesize buyerURL=_buyerURL;
 
 @end
 

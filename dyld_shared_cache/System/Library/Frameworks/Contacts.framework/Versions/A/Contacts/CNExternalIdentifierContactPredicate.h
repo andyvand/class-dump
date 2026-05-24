@@ -6,7 +6,7 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNExternalIdentifierContactPredicate : CNPredicate
@@ -17,26 +17,19 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (_Bool);
 - (id);
+- (id)rapping-uicc@;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
-- (void);
+- (void)P;
 - (void);
 - (id);
-- (id);
+- (id)mHandlingP;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *externalIdentifiers; // @synthesize externalIdentifiers=_externalIdentifiers;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

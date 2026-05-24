@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BBAction, NSMutableSet, NSString;
+@class BBAction, NSMutableSet;
 
 @interface AFBulletinAction
 {
     BBAction *_bbAction;
-    NSString *_bbActionID;
-    NSMutableSet *_titleVariants;
 }
 
 - (id);
@@ -19,12 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)AFMyriadSessionMutability;
 
 // Remaining properties
-@property(readonly, nonatomic) BBAction *bbAction; // @synthesize bbAction=_bbAction;
-@property(readonly, copy, nonatomic) NSString *bbActionID; // @synthesize bbActionID=_bbActionID;
 @property(retain, nonatomic) NSMutableSet *titleVariants; // @synthesize titleVariants=_titleVariants;
 
 @end

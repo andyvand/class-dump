@@ -18,11 +18,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)CNAutocompleteResultPresentationUsesSMS;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;

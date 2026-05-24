@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface IMAPResponse
 {
     _Bool _wasHandled;
-    NSString *_tag;
-    NSError *_error;
 }
 
 + (id);
@@ -26,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool isUntagged;
-@property(copy, nonatomic) NSString *tag; // @synthesize tag=_tag;
 @property(nonatomic) _Bool wasHandled; // @synthesize wasHandled=_wasHandled;
 
 @end

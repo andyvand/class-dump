@@ -6,42 +6,28 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSArray, NSString;
-@protocol MTLDevice, MTLPipelineCache;
+@class NSString;
 
 @interface MTLToolsPipelineLibrary : MTLToolsObject
 {
 }
 
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h ;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property _Bool disableRunTimeCompilation;
-@property(readonly, nonatomic) id <MTLPipelineCache> functionCache;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(readonly) NSArray *metallibPaths;
-@property(readonly, nonatomic) id <MTLPipelineCache> pipelineCache;
-@property(readonly) NSArray *pipelineNames;
-@property(readonly) Class superclass;
 
 @end
 

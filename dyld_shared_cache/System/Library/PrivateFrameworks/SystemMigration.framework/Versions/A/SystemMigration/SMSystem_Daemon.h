@@ -6,42 +6,11 @@
 
 #import <SystemMigration/SMSystem.h>
 
-@class NSArray, NSDictionary, NSImage, NSMutableDictionary, NSObject, NSString, NSURL, SMCollectIncompatibleApps, SMDBAccess, SMODDBAccess, SMPathsUserHomeSizer;
-@protocol SMNRemoteProxy, SMSystem_FileManagerProtocol;
+@class NSArray;
 
 @interface SMSystem_Daemon : SMSystem
 {
     _Bool selected;
-    _Bool forceNonDVEnumeration;
-    _Bool _ineligible;
-    _Bool _forceUnlock;
-    _Bool _systemPrepared;
-    _Bool _isFileProviderBusy;
-    NSString *systemName;
-    NSArray *users;
-    NSArray *groups;
-    NSString *systemVersion;
-    NSString *modelID;
-    NSString *modelUTI;
-    NSString *productVersion;
-    NSString *buildVersion;
-    unsigned long long state;
-    NSString *daDiskID;
-    NSImage *volumeIcon;
-    NSURL *remoteDiskID;
-    SMCollectIncompatibleApps *incompatibleAppsListedPaths;
-    unsigned long long _filesystemType;
-    NSString *_ineligibleReasonKey;
-    NSString *_volumeName;
-    id <SMNRemoteProxy> _remoteProxy;
-    NSObject<SMSystem_FileManagerProtocol> *_fileSystem;
-    double _recordedTransferRate;
-    SMPathsUserHomeSizer *_userHomeSizer;
-    NSMutableDictionary *_exlongTermIdentifier;
-    long long _enrolledBetaProgram;
-    id _generatedByScannerPlugin;
-    SMDBAccess *_dsdb;
-    SMODDBAccess *_oddb;
 }
 
 + (Class);
@@ -63,7 +32,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -76,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -99,7 +68,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -107,12 +76,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -134,7 +103,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -155,7 +124,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)9;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -175,7 +144,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Є;
 - (id);
 - (_Bool);
 - (void);
@@ -183,18 +152,18 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)MapsSuggestionsEKEventStoreStreamerLookAheadPeriodKey;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -205,13 +174,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)T;
+- (id)erOutputTransitionOptions"24@?<v@?B>32;
 - (unsigned long long);
 - (void)
 × ;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)P:infrastructureSample: /* Error: Ran out of types for this method. */;
+- (id)setSettings: /* Error: Ran out of types for this method. */;
+- (id)session:benchmarkedSoftAP:infrastructureSample: /* Error: Ran out of types for this method. */;
 - (void)nnection",&,V_pdfXPCConnection;
 - (id)ero. Exit Status:%d /* Error: Ran out of types for this method. */;
 - (_Bool)MRulesEngineDBClient dealloc];
@@ -219,50 +188,7 @@
 - (void)ryptor.;
 
 // Remaining properties
-@property(readonly) NSString *buildVersion; // @synthesize buildVersion;
-@property(readonly, getter=isCaseSensitive) _Bool caseSensitive;
-@property(readonly) NSArray *childSystems;
-@property(copy) NSString *daDiskID; // @synthesize daDiskID;
-@property(readonly, getter=isDefaultEffaceable) _Bool defaultEffaceable;
-@property(readonly) NSImage *displayIcon;
-@property(retain) SMDBAccess *dsdb; // @synthesize dsdb=_dsdb;
-@property(readonly) _Bool enabled;
-@property(readonly, getter=isEncrypted) _Bool encrypted;
-@property long long enrolledBetaProgram; // @synthesize enrolledBetaProgram=_enrolledBetaProgram;
-@property(readonly) _Bool enumeratesDirectlyFromDatavolume;
-@property(readonly) double estimatedTransferRate;
-@property(retain) NSMutableDictionary *exlongTermIdentifier; // @synthesize exlongTermIdentifier=_exlongTermIdentifier;
-@property(retain) NSObject<SMSystem_FileManagerProtocol> *fileSystem; // @synthesize fileSystem=_fileSystem;
-@property(readonly) unsigned long long filesystemType; // @synthesize filesystemType=_filesystemType;
-@property(readonly, getter=isFilevault) _Bool filevault;
-@property _Bool forceNonDVEnumeration; // @synthesize forceNonDVEnumeration;
-@property _Bool forceUnlock; // @synthesize forceUnlock=_forceUnlock;
-@property(retain) id generatedByScannerPlugin; // @synthesize generatedByScannerPlugin=_generatedByScannerPlugin;
-@property(retain) NSArray *groups; // @synthesize groups;
-@property(retain) SMCollectIncompatibleApps *incompatibleAppsListedPaths; // @synthesize incompatibleAppsListedPaths;
-@property _Bool ineligible; // @synthesize ineligible=_ineligible;
-@property(retain) NSString *ineligibleReasonKey; // @synthesize ineligibleReasonKey=_ineligibleReasonKey;
-@property _Bool isFileProviderBusy; // @synthesize isFileProviderBusy=_isFileProviderBusy;
-@property(readonly) NSDictionary *longTermIdentifier;
-@property(retain) NSString *modelID; // @synthesize modelID;
-@property(readonly) NSImage *modelIcon;
-@property(retain) NSString *modelUTI; // @synthesize modelUTI;
-@property(retain) SMODDBAccess *oddb; // @synthesize oddb=_oddb;
-@property(readonly) NSString *productVersion; // @synthesize productVersion;
-@property double recordedTransferRate; // @synthesize recordedTransferRate=_recordedTransferRate;
-@property(retain) NSURL *remoteDiskID; // @synthesize remoteDiskID;
-@property(readonly) id <SMNRemoteProxy> remoteProxy; // @synthesize remoteProxy=_remoteProxy;
-@property(readonly) _Bool selectableSystem;
-@property _Bool selected; // @synthesize selected;
-@property(readonly) _Bool systemAndDataMounted;
-@property(readonly) NSString *systemName; // @synthesize systemName;
-@property _Bool systemPrepared; // @synthesize systemPrepared=_systemPrepared;
-@property(readonly) NSString *systemVersion; // @synthesize systemVersion;
-@property(retain) SMPathsUserHomeSizer *userHomeSizer; // @synthesize userHomeSizer=_userHomeSizer;
 @property(retain) NSArray *users; // @synthesize users;
-@property(readonly) NSImage *volumeIcon; // @synthesize volumeIcon;
-@property(retain) NSString *volumeName; // @synthesize volumeName=_volumeName;
-@property(readonly) NSImage *warningBadge;
 
 @end
 

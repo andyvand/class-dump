@@ -16,9 +16,9 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)shFunctions = WTF:(id)arg1:DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void)ALLOCATOR = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings, A = vi_onefixedsize_disk_allocator];
 - (void);
 - (void);
 

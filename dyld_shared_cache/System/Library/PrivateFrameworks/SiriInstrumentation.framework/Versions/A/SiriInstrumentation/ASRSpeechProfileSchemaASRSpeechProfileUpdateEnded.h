@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSpeechProfileSchemaASRSpeechProfileEntityCleanupMetrics, ASRSpeechProfileSchemaASRSpeechProfileEntityExtractionMetrics, NSArray, NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileUpdateEnded : SISchemaInstrumentationMessage
 {
     unsigned int _totalNumEntitiesReceived;
-    ASRSpeechProfileSchemaASRSpeechProfileEntityCleanupMetrics *_entityCleanupMetrics;
-    ASRSpeechProfileSchemaASRSpeechProfileEntityExtractionMetrics *_entityExtractionMetrics;
-    NSArray *_entityMetrics;
-    struct {
-        unsigned int totalNumEntitiesReceived:1;
-    } _has;
-    _Bool _hasEntityCleanupMetrics;
-    _Bool _hasEntityExtractionMetrics;
 }
 
 - (unsigned int);
@@ -36,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -44,26 +34,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id),;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ttributes;
+- (id)watchDeviceAttributes;
 - (id)	
 ;
 - (id)÷ÿ;
 - (void)¹³&;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileEntityCleanupMetrics *entityCleanupMetrics; // @synthesize entityCleanupMetrics=_entityCleanupMetrics;
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileEntityExtractionMetrics *entityExtractionMetrics; // @synthesize entityExtractionMetrics=_entityExtractionMetrics;
-@property(copy, nonatomic) NSArray *entityMetrics; // @synthesize entityMetrics=_entityMetrics;
-@property(nonatomic) _Bool hasEntityCleanupMetrics; // @synthesize hasEntityCleanupMetrics=_hasEntityCleanupMetrics;
-@property(nonatomic) _Bool hasEntityExtractionMetrics; // @synthesize hasEntityExtractionMetrics=_hasEntityExtractionMetrics;
-@property(nonatomic) _Bool hasTotalNumEntitiesReceived;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int totalNumEntitiesReceived; // @synthesize totalNumEntitiesReceived=_totalNumEntitiesReceived;
 
 @end

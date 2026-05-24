@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDateInterval, NSNumber;
+@class NSData;
 
 @protocol SPConnectionMaterial
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *address;
-@property(readonly, copy, nonatomic) NSData *connectionToken;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, copy, nonatomic) NSNumber *primaryIndex;
-@property(readonly, copy, nonatomic) NSNumber *secondaryIndex;
-@property(readonly, nonatomic) long long type;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ABSaveRequestCommand
+- (void)#;
 @end
 

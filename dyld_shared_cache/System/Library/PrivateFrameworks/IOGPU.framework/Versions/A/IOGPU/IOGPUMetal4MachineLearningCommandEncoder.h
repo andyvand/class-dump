@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t:(id)arg1 [%@];
 - (long long);
 
 @end

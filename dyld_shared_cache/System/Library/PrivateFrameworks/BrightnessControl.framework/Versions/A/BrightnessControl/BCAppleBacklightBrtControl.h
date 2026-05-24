@@ -9,22 +9,6 @@
 @interface BCAppleBacklightBrtControl : BCBrtControl
 {
     unsigned int _backlightService;
-    unsigned int _dispService;
-    double _minUser;
-    double _maxUser;
-    double _minMilliAmps;
-    double _maxMilliAmps;
-    double _maxNitsEDR;
-    _Bool _isDFR;
-    _Bool _isDCP;
-    _Bool _override;
-    _Bool _energySaving;
-    unsigned long long _thermalMitigation;
-    struct {
-        CDUnknownBlockType _field1;
-    } *_terminationCallback;
-    struct IONotificationPort *_terminationNotifPort;
-    unsigned int _terminationIterator;
 }
 
 + (id);
@@ -43,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)ownDuration;
+- (unsigned long long)rampDownDuration;
 
 // Remaining properties
 @property(readonly) unsigned long long registryID;

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSString;
 
 @interface INExtensionContext
 {
     unsigned int _audioSessionID;
-    NSString *_recordRoute;
-    NSUUID *_recordDeviceUID;
-    NSString *_recordDeviceIdentifier;
-    NSArray *_airPlayRouteIdentifiers;
 }
 
 + (_Bool);
@@ -26,15 +22,11 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (void);
-- (void)peOptionsForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)e>",R;
+- (void)45c89abb0d9;
+- (void)provideDestinationTypeOptionsForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAirPlayRouteIdentifiers:) NSArray *_airPlayRouteIdentifiers; // @synthesize _airPlayRouteIdentifiers;
-@property(nonatomic, setter=_setAudioSessionID:) unsigned int _audioSessionID; // @synthesize _audioSessionID;
-@property(copy, nonatomic, setter=_setRecordDeviceIdentifier:) NSString *_recordDeviceIdentifier; // @synthesize _recordDeviceIdentifier;
-@property(copy, nonatomic, setter=_setRecordDeviceUID:) NSUUID *_recordDeviceUID; // @synthesize _recordDeviceUID;
 @property(copy, nonatomic, setter=_setRecordRoute:) NSString *_recordRoute; // @synthesize _recordRoute;
 
 @end

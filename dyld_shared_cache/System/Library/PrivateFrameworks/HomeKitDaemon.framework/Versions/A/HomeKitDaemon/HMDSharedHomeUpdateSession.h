@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, HMFTimer, NSDictionary, NSObject, NSString, NSUUID;
-@protocol HMDSharedHomeUpdateSessionDelegate, OS_dispatch_queue;
+@class NSString, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedHomeUpdateSession
 {
     NSUUID *_sessionID;
-    id <HMDSharedHomeUpdateSessionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHome *_home;
-    NSDictionary *_messagePayload;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMFTimer *_timer;
-    unsigned long long _retryCount;
-    double _currentTimerValue;
 }
 
 + (id)_ÿÏLB;
-- (id);
+- (id)navigationListenerRouteUpdated:(id)arg1;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ySensorManager: /* Error: Ran out of types for this method. */;
+- (id)messageDispatcherForAppleMediaAccessorySensorManager: /* Error: Ran out of types for this method. */;
 - (void)racteristicChanges:(id)arg1 characteristic update for HMCharacteristicTypeFirmwareVersion;
-- (void)eChangeDate;
+- (void)currentAccessModeChangeDate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HMDSharedHomeUpdateSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *homeIdentifier;
-@property(readonly, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
 
 @end
 

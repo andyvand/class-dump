@@ -9,11 +9,9 @@
 @interface FigMetadataItemCaptureConnectionConfiguration : FigCaptureConnectionConfiguration
 {
     struct opaqueCMFormatDescription *_formatDescription;
-    struct OpaqueCMClock *_clock;
-    int _sourceSubType;
 }
 
-- (void);
+- (void)formula;
 - (void);
 - (id);
 - (void);
@@ -27,9 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) struct OpaqueCMClock *clock; // @synthesize clock=_clock;
 @property(retain, nonatomic) struct opaqueCMFormatDescription *formatDescription; // @synthesize formatDescription=_formatDescription;
-@property(nonatomic) int sourceSubType; // @synthesize sourceSubType=_sourceSubType;
 
 @end
 

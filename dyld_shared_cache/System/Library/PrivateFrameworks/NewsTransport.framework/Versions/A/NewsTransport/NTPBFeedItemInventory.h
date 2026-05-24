@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBDate;
-
 @interface NTPBFeedItemInventory
 {
     unsigned long long _scoringVersion;
-    unsigned int _feedItemVersion;
-    NSMutableArray *_feedItems;
-    unsigned int _inventoryVersion;
-    NTPBDate *_lastRefreshed;
-    NSString *_tabiVersion;
-    struct {
-        unsigned int scoringVersion:1;
-        unsigned int feedItemVersion:1;
-        unsigned int inventoryVersion:1;
-    } _has;
 }
 
-+ (Class);
-- (id);
++ (Class)_previousOffsetInvalid;
+- (id)destinationSnapshot;
+- (void)currentRecords;
+- (void)copyPropertiesFromPhotoKitOptions:(id)arg1;
+- (void)control:(unsigned int)arg1 textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (void)composeRecipients;
+- (void)chromeControllerPromise;
+- (void)changedObjects;
+- (void)cacheTableForIdentifier:(unsigned int)arg1;
+- (id)approximateAssetsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (unsigned int)appendTokenString:contact:address:kind: /* Error: Ran out of types for this method. */;
+- (_Bool)allSubscribersForAlbum: /* Error: Ran out of types for this method. */;
+- (_Bool)adjustedForOrientation: /* Error: Ran out of types for this method. */;
+- (_Bool)_zoomLevelPinchSignificantScaleDelta;
+- (_Bool)_widgetRefreshTimeInterval;
+- (_Bool)_visibleRectOriginForScrollOffset: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_updateShouldFinish;
+- (id)_updateShouldCountDown;
+- (void)_updateImportURLSource: /* Error: Ran out of types for this method. */;
+- (void)_updateAutoCurationProducer;
+- (void)_unselectedCheckmarkView;
+- (unsigned int)_timelineContentUpdateFlags;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -57,17 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int feedItemVersion; // @synthesize feedItemVersion=_feedItemVersion;
-@property(retain, nonatomic) NSMutableArray *feedItems; // @synthesize feedItems=_feedItems;
-@property(nonatomic) _Bool hasFeedItemVersion;
 @property(nonatomic) _Bool hasInventoryVersion;
-@property(readonly, nonatomic) _Bool hasLastRefreshed;
-@property(nonatomic) _Bool hasScoringVersion;
-@property(readonly, nonatomic) _Bool hasTabiVersion;
-@property(nonatomic) unsigned int inventoryVersion; // @synthesize inventoryVersion=_inventoryVersion;
-@property(retain, nonatomic) NTPBDate *lastRefreshed; // @synthesize lastRefreshed=_lastRefreshed;
-@property(nonatomic) unsigned long long scoringVersion; // @synthesize scoringVersion=_scoringVersion;
-@property(retain, nonatomic) NSString *tabiVersion; // @synthesize tabiVersion=_tabiVersion;
 
 @end
 

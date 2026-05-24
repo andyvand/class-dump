@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBSoftWakeDisplayDelegate
 {
     NSObject<OS_os_log> *_logHandle;
-    long long _state;
-    struct __DisplayFactorFade _fade;
 }
 
 + (_Bool);

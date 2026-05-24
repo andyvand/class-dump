@@ -5,7 +5,7 @@
 //
 
 @protocol INSkipAnnouncementIntentResponseExport
-- (long long)t;
+- (long long)initForPlugInKit;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -7,30 +7,6 @@
 @interface PhotosUICore.LemonadeNavigationContext
 {
     id rootDestination;
-    id rootParticipant;
-    id photoLibraryContext;
-    id _detailsContext;
-    id presentationContext;
-    id overrideEnableNavigationStack;
-    id _dismissSignal;
-    id _presentingNavigationContext;
-    id _isPresentationScheduled;
-    id _isDismissalScheduled;
-    id _navigationPath;
-    id _presentedSheet;
-    id _presentedPopover;
-    id _sidebarAvailable;
-    id _sidebarVisible;
-    id _presentedSheetContent;
-    id _presentedFullScreenCover;
-    id _hostViewController;
-    id _scrollToTopSignal;
-    id _scrollAnimationDuration;
-    id isCoveredTimer;
-    id __isCovered;
-    id __isCoveredForSomeTime;
-    id _navigationRequests;
-    id _$observationRegistrar;
 }
 
 @end

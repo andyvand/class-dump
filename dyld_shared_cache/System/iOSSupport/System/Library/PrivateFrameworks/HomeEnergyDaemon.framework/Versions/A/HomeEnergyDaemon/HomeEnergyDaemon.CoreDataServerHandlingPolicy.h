@@ -8,9 +8,9 @@
 {
 }
 
-- (id);
+- (id),U;
 - (_Bool);
-- (id);
+- (id)HUControlHostView;
 - (id);
 - (id);
 - (id);

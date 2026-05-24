@@ -7,10 +7,6 @@
 @interface NewsUI2.NowPlayingPresenter
 {
     id navigator;
-    id playbackConductor;
-    id audioPlaybackTracker;
-    id commandCenter;
-    id audioHeadlineConverter;
 }
 
 @end

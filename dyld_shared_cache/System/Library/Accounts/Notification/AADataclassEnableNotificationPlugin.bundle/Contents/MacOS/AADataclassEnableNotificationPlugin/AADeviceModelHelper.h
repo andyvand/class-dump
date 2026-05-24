@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)z;
++ (_Bool);
 
 @end
 

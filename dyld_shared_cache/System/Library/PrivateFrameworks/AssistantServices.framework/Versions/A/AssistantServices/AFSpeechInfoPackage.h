@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceCommandDebugInfo, AFVoiceCommandGrammarParsePackage;
+@class AFVoiceCommandGrammarParsePackage;
 
 @interface AFSpeechInfoPackage
 {
     AFVoiceCommandGrammarParsePackage *_commandGrammarParsePackage;
-    AFVoiceCommandDebugInfo *_debugInfo;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)�c;
 - (id);
 - (id);
-- (id);
-- (void)dvertiseSlowdown;
+- (void)_advertiseSlowdown;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AFVoiceCommandGrammarParsePackage *commandGrammarParsePackage; // @synthesize commandGrammarParsePackage=_commandGrammarParsePackage;
-@property(readonly, copy, nonatomic) AFVoiceCommandDebugInfo *debugInfo; // @synthesize debugInfo=_debugInfo;
 
 @end
 

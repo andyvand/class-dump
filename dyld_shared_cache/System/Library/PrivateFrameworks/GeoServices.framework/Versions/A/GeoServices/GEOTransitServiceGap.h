@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSDate, NSString, PBUnknownFields;
-@protocol GEOServerFormattedString;
+@class NSDate, PBUnknownFields;
 
 @interface GEOTransitServiceGap
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_displayMessage;
-    unsigned int _absEndTime;
-    unsigned int _absStartTime;
-    unsigned int _appearsBeforeSuggestedRouteIndex;
-    struct {
-        unsigned int has_absEndTime:1;
-        unsigned int has_absStartTime:1;
-        unsigned int has_appearsBeforeSuggestedRouteIndex:1;
-    } _flags;
 }
 
 + (_Bool)setNavigabilityInfo:(id)arg1;
@@ -30,56 +20,37 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (_Bool)16@24^@32;
+- (_Bool)stringByExpandingTildeInPath;
+- (_Bool)setValue:forExtendedAttribute:atURL: /* Error: Ran out of types for this method. */;
+- (id)entityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)entitlementVerifier;
+- (unsigned int);
+- (unsigned int)e’ must be nonnull;
+- (unsigned int)tor created with no stores;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)logMHAssistantDaemonAudioPrepareContextWithMHUUID:(id)arg1 withPrepareStarted: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)H;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (id)seString:locale: /* Error: Ran out of types for this method. */;
+- (id)initWithBaseString:locale: /* Error: Ran out of types for this method. */;
 - (id)"GEOAddress",&,N,V_address;
-- (id)TENSION_SUPPORT_OFFER_APP;
+- (id)EXTENSION_SUPPORT_OFFER_APP;
 - (void)0-êÜEQ@;
 
 // Remaining properties
-@property(nonatomic) unsigned int absEndTime;
-@property(nonatomic) unsigned int absStartTime;
-@property(nonatomic) unsigned int appearsBeforeSuggestedRouteIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <GEOServerFormattedString> displayMessagFormatString;
-@property(retain, nonatomic) GEOFormattedString *displayMessage;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(nonatomic) _Bool hasAbsEndTime;
-@property(nonatomic) _Bool hasAbsStartTime;
-@property(nonatomic) _Bool hasAppearsBeforeSuggestedRouteIndex;
-@property(readonly, nonatomic) _Bool hasDisplayMessage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long routeListInsertBeforeIndex;
 @property(readonly, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

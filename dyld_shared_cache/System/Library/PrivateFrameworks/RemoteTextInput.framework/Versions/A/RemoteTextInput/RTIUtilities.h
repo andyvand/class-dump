@@ -10,16 +10,16 @@
 
 + (void);
 + (id);
++ (id)NO_ISOLATION;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)f;
++ (id)setDefaultWindingRule:(id)arg1;
 + (void);
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 
 @end

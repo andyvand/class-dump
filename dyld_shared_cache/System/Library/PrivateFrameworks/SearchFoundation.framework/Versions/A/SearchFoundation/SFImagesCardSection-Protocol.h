@@ -7,12 +7,11 @@
 @class NSArray, NSData, NSDictionary, NSString;
 
 @protocol SFImagesCardSection
+- (NSArray *);
+- (NSData *)t	$	;
+- (NSDictionary *);
 
 // Remaining properties
-@property(nonatomic) _Bool borderless;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores, NSMutableArray, NSString, NTPBFeedItem;
-
 @interface NTPBNotificationItem
 {
     long long _targetMinNewsVersion;
-    NSString *_algoID;
-    NSString *_canonicalID;
-    NSString *_clusterID;
-    NTPBFeedItem *_feedItem;
-    NSString *_identifier;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores *_notabilityScores;
-    int _source;
-    NSMutableArray *_suppressIfFollowingTagIDs;
-    unsigned int _targetDeviceTypes;
-    struct {
-        unsigned int targetMinNewsVersion:1;
-        unsigned int source:1;
-        unsigned int targetDeviceTypes:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)animateTile:toGeometry:userData:withOptions:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

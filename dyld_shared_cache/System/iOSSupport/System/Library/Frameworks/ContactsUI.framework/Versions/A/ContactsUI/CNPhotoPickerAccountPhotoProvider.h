@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVisualIdentity, NSString;
+@class CNVisualIdentity;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerAccountPhotoProvider
 {
     _Bool _includeUnifiedContactImages;
-    NSString *identifier;
-    CNVisualIdentity *_visualIdentity;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,18 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)raints;
+- (void)_headerConstraints;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(nonatomic) _Bool includeUnifiedContactImages; // @synthesize includeUnifiedContactImages=_includeUnifiedContactImages;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

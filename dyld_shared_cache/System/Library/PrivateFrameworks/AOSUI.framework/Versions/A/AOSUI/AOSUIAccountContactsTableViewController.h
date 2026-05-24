@@ -6,37 +6,18 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class AOSUIAccountRecoveryContext, NSArray, NSButton, NSScrollView, NSString, NSTableView, NSTextField, iCloudAccountDetailsWebTabView;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIAccountContactsTableViewController : AOSUISpyglassBaseViewController
 {
     _Bool _shouldHideTableIfEmpty;
-    _Bool _shouldHideAddButton;
-    _Bool _shouldHidePlusButton;
-    _Bool _shouldShowDetailsButton;
-    _Bool _appleDataRecoveryEnabled;
-    NSString *_tableTitle;
-    NSString *_tableDetailText;
-    NSString *_linkLabel;
-    NSString *_linkURL;
-    NSString *_addButtonTitle;
-    CDUnknownBlockType _addAction;
-    NSArray *_contacts;
-    long long _contactTypeForDetailView;
-    NSTextField *_tableTitleTextField;
-    NSTextField *_tableDetailTextField;
-    NSScrollView *_tableViewContainer;
-    NSTableView *_tableView;
-    NSButton *_addButton;
-    NSButton *_plusButton;
-    AOSUIAccountRecoveryContext *_context;
-    iCloudAccountDetailsWebTabView *_webView;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)		K
+Y13;
 - (id);
 - (id);
 - (_Bool);
@@ -47,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)(a	3;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))3;
 - (void);
 - (void);
 - (void);
@@ -66,9 +47,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)elegate>"24^@32;
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
@@ -88,44 +69,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)wupView;
+- (void)followupView;
 - (id)%@;
 - (void)¼Ò;
 - (id)ÿo½¢Ý;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType addAction; // @synthesize addAction=_addAction;
-@property __weak NSButton *addButton; // @synthesize addButton=_addButton;
-@property(copy) NSString *addButtonTitle; // @synthesize addButtonTitle=_addButtonTitle;
-@property _Bool appleDataRecoveryEnabled; // @synthesize appleDataRecoveryEnabled=_appleDataRecoveryEnabled;
-@property long long contactTypeForDetailView; // @synthesize contactTypeForDetailView=_contactTypeForDetailView;
-@property(retain) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain) AOSUIAccountRecoveryContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *linkLabel; // @synthesize linkLabel=_linkLabel;
-@property(copy) NSString *linkURL; // @synthesize linkURL=_linkURL;
-@property __weak NSButton *plusButton; // @synthesize plusButton=_plusButton;
-@property _Bool shouldHideAddButton; // @synthesize shouldHideAddButton=_shouldHideAddButton;
-@property _Bool shouldHidePlusButton; // @synthesize shouldHidePlusButton=_shouldHidePlusButton;
-@property _Bool shouldHideTableIfEmpty; // @synthesize shouldHideTableIfEmpty=_shouldHideTableIfEmpty;
-@property(nonatomic) _Bool shouldShowDetailsButton; // @synthesize shouldShowDetailsButton=_shouldShowDetailsButton;
-@property(readonly) Class superclass;
-@property(copy) NSString *tableDetailText; // @synthesize tableDetailText=_tableDetailText;
-@property __weak NSTextField *tableDetailTextField; // @synthesize tableDetailTextField=_tableDetailTextField;
-@property(copy) NSString *tableTitle; // @synthesize tableTitle=_tableTitle;
 @property __weak NSTextField *tableTitleTextField; // @synthesize tableTitleTextField=_tableTitleTextField;
-@property __weak NSTableView *tableView; // @synthesize tableView=_tableView;
-@property __weak NSScrollView *tableViewContainer; // @synthesize tableViewContainer=_tableViewContainer;
-@property(retain) iCloudAccountDetailsWebTabView *webView; // @synthesize webView=_webView;
 
 @end
 

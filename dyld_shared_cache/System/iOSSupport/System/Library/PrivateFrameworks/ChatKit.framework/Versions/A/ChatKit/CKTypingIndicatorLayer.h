@@ -4,77 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAReplicatorLayer, CKTypingIndicatorPunchOutLayer, ChatKit.CKTypingIndicatorVisualConfiguration, NSString, UIColor, UITraitCollection;
+@class UIColor;
 
 @interface CKTypingIndicatorLayer
 {
     _Bool _hasDarkBackground;
-    _Bool _highlighted;
-    _Bool _isPulsing;
-    id _iconImage;
-    double _transcriptBackgroundLuminance;
-    UIColor *_thinkingDotColor;
-    UITraitCollection *_traitCollection;
-    double _bubbleOpacity;
-    double _thinkingDotOpacity;
-    ChatKit.CKTypingIndicatorVisualConfiguration *_visualConfiguration;
-    UIColor *_customBubbleColor;
-    CKTypingIndicatorPunchOutLayer *_punchOutLayer;
-    CKTypingIndicatorPunchOutLayer *_vibrantStrokePunchOutLayer;
-    NSString *_currentAnimationID;
-    CALayer *_thinkingDotContainer;
-    CALayer *_thinkingDot;
-    CAReplicatorLayer *_thinkingDots;
-    CALayer *_iconImageLayer;
-    CALayer *_captureLayer;
-    CALayer *_backgroundLayer;
-    CALayer *_vibrancyLayer;
 }
 
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize)Z;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)curityOrigin"24@"WKFrameInfo"32@?<v@?q>40;
+- (double)webView:didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (void)scheduleCallHandler;
+- (void)saveSelectionDuringBlock:(id)arg1 affinity: /* Error: Ran out of types for this method. */;
+- (void)saveSelectionDuringBlock:(id)arg1;
+- (void)rowAtIndex:(id)arg1 rowRange: /* Error: Ran out of types for this method. */;
+- (void)removeShareIfNeededWithOwnedObjectID:(double)arg1 countParticipants:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)objectForManagedObjectIDURI:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)isCustomFolder;
+- (void)ic_setImageWithSystemImageName:(id)arg1 symbolFont:symbolScale: /* Error: Ran out of types for this method. */;
+- (void)ic_isLegacyAccountType;
+- (void)currentIndexForGlyphIndex:(id)arg1 numberOfGlyphs:timeIndex:isFinished: /* Error: Ran out of types for this method. */;
+- (id)attachmentPreviewImageLoader;
+- (_Bool),V_pieLayer;
+- (id)F;
+- (id);
+- (void)red;
+- (id);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (double);
 - (id);
 - (double);
@@ -83,15 +63,15 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);;
+- (id)F;
 - (void);
 - (void)found for chat, arbitrarily selecting the first one;
 - (void)xt view without a text layout manager.;
@@ -102,38 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *backgroundLayer;
-@property(nonatomic) double bubbleOpacity; // @synthesize bubbleOpacity=_bubbleOpacity;
-@property(retain, nonatomic) CALayer *captureLayer;
-@property(retain, nonatomic) NSString *currentAnimationID; // @synthesize currentAnimationID=_currentAnimationID;
-@property(copy, nonatomic) UIColor *customBubbleColor; // @synthesize customBubbleColor=_customBubbleColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) UIColor *defaultBubbleColor;
-@property(readonly, nonatomic) double defaultBubbleOpacity;
-@property(readonly, nonatomic) UIColor *defaultThinkingDotColor;
-@property(readonly, nonatomic) double defaultThinkingDotOpacity;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDarkBackground; // @synthesize hasDarkBackground=_hasDarkBackground;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) id iconImage; // @synthesize iconImage=_iconImage;
-@property(retain, nonatomic) CALayer *iconImageLayer;
-@property(nonatomic) _Bool isPulsing; // @synthesize isPulsing=_isPulsing;
-@property(retain, nonatomic) CKTypingIndicatorPunchOutLayer *punchOutLayer; // @synthesize punchOutLayer=_punchOutLayer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CALayer *thinkingDot;
-@property(copy, nonatomic) UIColor *thinkingDotColor; // @synthesize thinkingDotColor=_thinkingDotColor;
-@property(retain, nonatomic) CALayer *thinkingDotContainer;
-@property(nonatomic) double thinkingDotOpacity; // @synthesize thinkingDotOpacity=_thinkingDotOpacity;
-@property(retain, nonatomic) CAReplicatorLayer *thinkingDots;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(nonatomic) double transcriptBackgroundLuminance; // @synthesize transcriptBackgroundLuminance=_transcriptBackgroundLuminance;
-@property(retain, nonatomic) CALayer *vibrancyLayer;
-@property(retain, nonatomic) CKTypingIndicatorPunchOutLayer *vibrantStrokePunchOutLayer; // @synthesize vibrantStrokePunchOutLayer=_vibrantStrokePunchOutLayer;
-@property(retain, nonatomic) ChatKit.CKTypingIndicatorVisualConfiguration *visualConfiguration; // @synthesize visualConfiguration=_visualConfiguration;
 
 @end
 

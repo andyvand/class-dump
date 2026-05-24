@@ -4,65 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class NSString;
 
 @interface NUFeedTitleViewUpdate
 {
     NSString *_accessibilityTitle;
-    unsigned long long _type;
-    unsigned long long _updateType;
-    unsigned long long _storyCount;
-    NSString *_feedName;
-    NSAttributedString *_attributedText;
-    UIImage *_feedImage;
-    double _lingerTimeInterval;
 }
 
 + (id);
 + (id);
++ (id)tint;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@, ad=%{public}@, request=%{public}@;
 + (id);
 + (id);
 + (id);
 + (id);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)h;
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (id)؇;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_supportsLiveActivities;
+- (void)MetricsProviderType;
 - (void);
 - (id);
 - (unsigned long long);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) UIImage *feedImage; // @synthesize feedImage=_feedImage;
-@property(copy, nonatomic) NSString *feedName; // @synthesize feedName=_feedName;
-@property(nonatomic) double lingerTimeInterval; // @synthesize lingerTimeInterval=_lingerTimeInterval;
-@property(nonatomic) unsigned long long storyCount; // @synthesize storyCount=_storyCount;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long updateType; // @synthesize updateType=_updateType;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CPXHIDEventDeferringResolutionProtocol;
-
 __attribute__((visibility("hidden")))
 @interface _CPXKeyDownDestination
 {
     unsigned int window;
-    unsigned long long regionID;
-    id <CPXHIDEventDeferringResolutionProtocol> destination;
 }
 
 - (void)¤ä#;

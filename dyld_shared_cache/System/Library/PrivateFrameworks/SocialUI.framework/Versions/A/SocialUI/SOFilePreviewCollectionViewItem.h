@@ -13,12 +13,12 @@
 
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)howexpanded;
 - (void);
 - (void);
 - (void)¥(;

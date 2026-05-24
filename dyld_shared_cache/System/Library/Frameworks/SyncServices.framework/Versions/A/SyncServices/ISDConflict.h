@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ISDConflict
 {
     NSString *_recordId;
-    NSString *_entityName;
-    NSString *_dataClassName;
-    NSArray *_identityKeys;
-    NSMutableArray *_propertyConflicts;
-    NSArray *_propertyDependencies;
-    NSMutableDictionary *_deletedRecordMap;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -40,9 +34,9 @@
 - (void);
 - (id);
 - (void);
+- (id)b;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id)tuples when I created the unformatted relationship %@.%@;

@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)S;
++ (void);
 
 @end
 

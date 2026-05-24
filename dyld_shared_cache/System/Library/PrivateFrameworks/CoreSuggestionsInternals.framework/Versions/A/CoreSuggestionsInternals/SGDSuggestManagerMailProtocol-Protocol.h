@@ -9,10 +9,10 @@
 @protocol SGDSuggestManagerMailProtocol
 - (void)Aù1m$ð1Â0@ù
 × ;
-- (void)Range:(CSSearchableItem *)arg1;
-- (void):(long long)arg1 storageEvent:(NSString *)arg2;
-- (void)ligence_saliency;
-- (void)nTypePreviousModel;
+- (void)indexSetWithIndexesInRange:(CSSearchableItem *)arg1;
+- (void)bindStatementsForCommit:(long long)arg1 storageEvent:(NSString *)arg2;
+- (void)mailIntelligence_saliency;
+- (void)SGMFoundInMailSupervisionTypePreviousModel;
 - (void)ags);
 - (void)SUUWWYY[[]]__aacceeggiikkmmooqqssuuwwzz||~¡¡££¥¥¨¨ª«­­°°´´¶¶¹º½¿ÆÆÉÉÌÌÎÎÐÐÒÒÔÔÖÖØØÚÚÜÝßßááããååççééëëííïðóóõõùùûûýýÿÿ		!!##%%''))++--//1139<<?@BBGGIIKKMMO¯qqssww{}¬ÎÐÑÕ×ÙÙÛÛÝÝßßááããååççééëëííïóõõøøûü0_aacceeggiikkmmooqqssuuwwyy{{}}¡¡££¥¥§§©©««­­¯¯±±³³µµ··¹¹»»½½¿¿ÂÂÄÄÆÆÈÈÊÊÌÌÎÏÑÑÓÓÕÕ××ÙÙÛÛÝÝßßááããååççééëëííïïññóóõõ÷÷ùùûûýýÿÿ		!!##%%''a;
 - (void)6

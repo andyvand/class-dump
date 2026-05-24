@@ -14,7 +14,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)@;
 
 @end
 

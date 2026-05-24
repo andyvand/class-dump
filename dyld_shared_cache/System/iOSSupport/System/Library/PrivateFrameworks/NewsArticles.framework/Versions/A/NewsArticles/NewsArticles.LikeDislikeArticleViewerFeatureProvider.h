@@ -7,9 +7,6 @@
 @interface NewsArticles.LikeDislikeArticleViewerFeatureProvider
 {
     id visibilityProvider;
-    id commandCenter;
-    id tracker;
-    id tipSourceManager;
 }
 
 @end

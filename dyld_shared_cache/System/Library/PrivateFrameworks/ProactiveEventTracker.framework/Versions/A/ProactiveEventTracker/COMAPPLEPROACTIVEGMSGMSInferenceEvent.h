@@ -7,49 +7,6 @@
 @interface COMAPPLEPROACTIVEGMSGMSInferenceEvent
 {
     double _assetLoadAndTtftCombinedMillis;
-    double _extendInferenceMillis;
-    double _inferenceTimeMillis;
-    long long _inputTokensCount;
-    long long _outputTokensCount;
-    long long _sdDraftModelInferenceCallCount;
-    double _sdDraftModelTotalLatencyMillis;
-    long long _sdDraftOutputTokensCount;
-    double _sdDraftTokenAcceptanceRate;
-    double _sdSpeculationSuccessRate;
-    long long _sdTargetModelInferenceCallCount;
-    double _sdTargetModelTotalLatencyMillis;
-    long long _sdTinyModelInferenceCallCount;
-    double _sdTinyModelTotalLatencyMillis;
-    double _sdTinyTokenAcceptanceRate;
-    long long _sdTotalOutputTokensCount;
-    double _timeToFirstTokenMillis;
-    double _tokensPerSecond;
-    double _totalLatencyMillis;
-    long long _version;
-    int _requestType;
-    struct {
-        unsigned int assetLoadAndTtftCombinedMillis:1;
-        unsigned int extendInferenceMillis:1;
-        unsigned int inferenceTimeMillis:1;
-        unsigned int inputTokensCount:1;
-        unsigned int outputTokensCount:1;
-        unsigned int sdDraftModelInferenceCallCount:1;
-        unsigned int sdDraftModelTotalLatencyMillis:1;
-        unsigned int sdDraftOutputTokensCount:1;
-        unsigned int sdDraftTokenAcceptanceRate:1;
-        unsigned int sdSpeculationSuccessRate:1;
-        unsigned int sdTargetModelInferenceCallCount:1;
-        unsigned int sdTargetModelTotalLatencyMillis:1;
-        unsigned int sdTinyModelInferenceCallCount:1;
-        unsigned int sdTinyModelTotalLatencyMillis:1;
-        unsigned int sdTinyTokenAcceptanceRate:1;
-        unsigned int sdTotalOutputTokensCount:1;
-        unsigned int timeToFirstTokenMillis:1;
-        unsigned int tokensPerSecond:1;
-        unsigned int totalLatencyMillis:1;
-        unsigned int version:1;
-        unsigned int requestType:1;
-    } _has;
 }
 
 - (double);
@@ -60,16 +17,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,7 +49,7 @@
 - (long long);
 - (double);
 - (double);
-- (long long);
+- (long long);
 - (double);
 - (double);
 - (long long);
@@ -104,6 +61,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,9 +77,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
+- (double)q ;
 - (double);
 - (double);
 - (void);
@@ -131,7 +88,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -143,54 +100,13 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void)__objc_imageinfo__DATA_CONST;
 - (void);
 - (int);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double assetLoadAndTtftCombinedMillis; // @synthesize assetLoadAndTtftCombinedMillis=_assetLoadAndTtftCombinedMillis;
-@property(nonatomic) double extendInferenceMillis; // @synthesize extendInferenceMillis=_extendInferenceMillis;
-@property(nonatomic) _Bool hasAssetLoadAndTtftCombinedMillis;
-@property(nonatomic) _Bool hasExtendInferenceMillis;
-@property(nonatomic) _Bool hasInferenceTimeMillis;
-@property(nonatomic) _Bool hasInputTokensCount;
-@property(nonatomic) _Bool hasOutputTokensCount;
 @property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasSdDraftModelInferenceCallCount;
-@property(nonatomic) _Bool hasSdDraftModelTotalLatencyMillis;
-@property(nonatomic) _Bool hasSdDraftOutputTokensCount;
-@property(nonatomic) _Bool hasSdDraftTokenAcceptanceRate;
-@property(nonatomic) _Bool hasSdSpeculationSuccessRate;
-@property(nonatomic) _Bool hasSdTargetModelInferenceCallCount;
-@property(nonatomic) _Bool hasSdTargetModelTotalLatencyMillis;
-@property(nonatomic) _Bool hasSdTinyModelInferenceCallCount;
-@property(nonatomic) _Bool hasSdTinyModelTotalLatencyMillis;
-@property(nonatomic) _Bool hasSdTinyTokenAcceptanceRate;
-@property(nonatomic) _Bool hasSdTotalOutputTokensCount;
-@property(nonatomic) _Bool hasTimeToFirstTokenMillis;
-@property(nonatomic) _Bool hasTokensPerSecond;
-@property(nonatomic) _Bool hasTotalLatencyMillis;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double inferenceTimeMillis; // @synthesize inferenceTimeMillis=_inferenceTimeMillis;
-@property(nonatomic) long long inputTokensCount; // @synthesize inputTokensCount=_inputTokensCount;
-@property(nonatomic) long long outputTokensCount; // @synthesize outputTokensCount=_outputTokensCount;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
-@property(nonatomic) long long sdDraftModelInferenceCallCount; // @synthesize sdDraftModelInferenceCallCount=_sdDraftModelInferenceCallCount;
-@property(nonatomic) double sdDraftModelTotalLatencyMillis; // @synthesize sdDraftModelTotalLatencyMillis=_sdDraftModelTotalLatencyMillis;
-@property(nonatomic) long long sdDraftOutputTokensCount; // @synthesize sdDraftOutputTokensCount=_sdDraftOutputTokensCount;
-@property(nonatomic) double sdDraftTokenAcceptanceRate; // @synthesize sdDraftTokenAcceptanceRate=_sdDraftTokenAcceptanceRate;
-@property(nonatomic) double sdSpeculationSuccessRate; // @synthesize sdSpeculationSuccessRate=_sdSpeculationSuccessRate;
-@property(nonatomic) long long sdTargetModelInferenceCallCount; // @synthesize sdTargetModelInferenceCallCount=_sdTargetModelInferenceCallCount;
-@property(nonatomic) double sdTargetModelTotalLatencyMillis; // @synthesize sdTargetModelTotalLatencyMillis=_sdTargetModelTotalLatencyMillis;
-@property(nonatomic) long long sdTinyModelInferenceCallCount; // @synthesize sdTinyModelInferenceCallCount=_sdTinyModelInferenceCallCount;
-@property(nonatomic) double sdTinyModelTotalLatencyMillis; // @synthesize sdTinyModelTotalLatencyMillis=_sdTinyModelTotalLatencyMillis;
-@property(nonatomic) double sdTinyTokenAcceptanceRate; // @synthesize sdTinyTokenAcceptanceRate=_sdTinyTokenAcceptanceRate;
-@property(nonatomic) long long sdTotalOutputTokensCount; // @synthesize sdTotalOutputTokensCount=_sdTotalOutputTokensCount;
-@property(nonatomic) double timeToFirstTokenMillis; // @synthesize timeToFirstTokenMillis=_timeToFirstTokenMillis;
-@property(nonatomic) double tokensPerSecond; // @synthesize tokensPerSecond=_tokensPerSecond;
-@property(nonatomic) double totalLatencyMillis; // @synthesize totalLatencyMillis=_totalLatencyMillis;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

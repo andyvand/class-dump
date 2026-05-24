@@ -7,8 +7,10 @@
 @protocol CalUIResizingTextFieldDelegate
 
 @optional
+- (void);
+- (void);
 - (void)ùÄ#°1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)suggestionsField;
 @end
 

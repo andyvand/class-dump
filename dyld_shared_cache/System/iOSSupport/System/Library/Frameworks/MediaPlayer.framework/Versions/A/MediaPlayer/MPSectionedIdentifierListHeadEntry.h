@@ -6,55 +6,36 @@
 
 #import <MediaPlayer/MPSectionedIdentifierListEntry.h>
 
-@class MPSectionedIdentifierListItemEntry, MPSectionedIdentifierListTailEntry, NSMutableDictionary, NSString;
-@protocol MPSectionedIdentifierListDataSource;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListHeadEntry : MPSectionedIdentifierListEntry
 {
     _Bool _shuffledHead;
-    NSMutableDictionary *_identifiersItemEntryMap;
-    MPSectionedIdentifierListTailEntry *_tailEntry;
-    MPSectionedIdentifierListItemEntry *_lastItemEntry;
-    id <MPSectionedIdentifierListDataSource> _dataSource;
 }
 
-+ (id);
++ (id)tabase finished adding virtual table with name %@;
 + (_Bool);
 - (id);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)G;
+- (id)IMDMessageRecordCopyMessagesForGUIDs;
 - (long long);
 - (id);
 - (id);
+- (void)ClientReadResult_CLAP;
 - (void);
-- (void);
-- (void)lFileAsset__MAPPING_MISSING__;
+- (void)__MPModelRelationshipMovieLocalFileAsset__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long branchDepth;
-@property(retain, nonatomic) id <MPSectionedIdentifierListDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *identifiersItemEntryMap; // @synthesize identifiersItemEntryMap=_identifiersItemEntryMap;
-@property(retain, nonatomic) MPSectionedIdentifierListItemEntry *lastItemEntry; // @synthesize lastItemEntry=_lastItemEntry;
-@property(readonly, nonatomic) NSString *sectionIdentifier;
-@property(nonatomic, getter=isShuffledHead) _Bool shuffledHead; // @synthesize shuffledHead=_shuffledHead;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MPSectionedIdentifierListTailEntry *tailEntry; // @synthesize tailEntry=_tailEntry;
 
 @end
 

@@ -5,7 +5,8 @@
 //
 
 @interface UnknownClass (CATShifting)
-- (void);
+- (void)`
+;
 - (void);
 - (void);
 - (void);

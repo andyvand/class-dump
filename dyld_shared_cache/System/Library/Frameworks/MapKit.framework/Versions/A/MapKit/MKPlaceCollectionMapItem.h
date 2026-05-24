@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPlaceCollectionItem, GEOQuickLink, MKMapItem;
+@class MKMapItem;
 
 @interface MKPlaceCollectionMapItem
 {
     MKMapItem *_mapItem;
-    GEOPlaceCollectionItem *_placeCollectionItem;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)w;
+- (id)SectionIndices;
+- (id);
+- (void)maxItemsPerRow;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOQuickLink *appClip;
 @property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) GEOPlaceCollectionItem *placeCollectionItem; // @synthesize placeCollectionItem=_placeCollectionItem;
 
 @end
 

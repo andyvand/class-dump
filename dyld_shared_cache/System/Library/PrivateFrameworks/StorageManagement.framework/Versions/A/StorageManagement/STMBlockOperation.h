@@ -11,10 +11,10 @@
     CDUnknownBlockType _block;
 }
 
+- (id)y",&,D,N;
+- (void)of length:%lu. Prompt coverage mask:%@. Personalized samples used:%@. Script:%@. Sample count for script:%lu. Total sample count:%lu /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)(;
 - (CDUnknownBlockType);
 - (void);
 

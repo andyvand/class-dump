@@ -9,11 +9,6 @@
 @interface PKBankAccountInformation
 {
     NSString *_accountNumber;
-    NSString *_routingNumber;
-    NSString *_bankName;
-    NSString *_identifier;
-    unsigned long long _status;
-    long long _type;
 }
 
 + (Class);
@@ -23,20 +18,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id){;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)";
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (long long);
+- (id)i;
+- (_Bool)I;
+- (long long)_readAnnotationsFromDataProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -44,15 +39,10 @@
 - (void);
 - (id)±î%Ð1Â0@ù
 × ;
-- (id)thorizeParamaters;
+- (id)PKInAppPaymentSessionAuthorizeParamaters;
 - (void)com.apple.passkit.planupdate.received;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(copy, nonatomic) NSString *bankName; // @synthesize bankName=_bankName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

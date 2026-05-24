@@ -8,15 +8,11 @@
 
 @protocol QLPreviewItem
 
+@optional
+- (NSString *)?;
+- (id)H;
+
 // Remaining properties
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(readonly) NSString *previewItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 @property(readonly) NSURL *previewItemURL;
 @end
 

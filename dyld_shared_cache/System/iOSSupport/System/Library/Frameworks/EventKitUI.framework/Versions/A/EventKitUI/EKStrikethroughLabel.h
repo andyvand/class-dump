@@ -7,22 +7,18 @@
 @interface EKStrikethroughLabel
 {
     _Bool _drawsStrikethrough;
-    double _firstLineHeadIndent;
-    double _hyphenationFactor;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)&s;
 - (void);
-- (double);
+- (double){;
 - (void);
 - (double)e;
 - (void)or a nonexistent row.  Giving back a fresh cell.  Row:(double)arg1 [%@].  Number of rows:[%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsStrikethrough; // @synthesize drawsStrikethrough=_drawsStrikethrough;
-@property(nonatomic) double firstLineHeadIndent; // @synthesize firstLineHeadIndent=_firstLineHeadIndent;
-@property(nonatomic) double hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
 
 @end
 

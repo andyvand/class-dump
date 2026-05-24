@@ -6,46 +6,37 @@
 
 #import <AudioServerDriver/ASDControl.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ASDStereoPanControl : ASDControl
 {
     float _value;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    unsigned int _leftPanChannel;
-    unsigned int _rightPanChannel;
-    _Bool _settable;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int).;
 - (unsigned int);
 - (void);
-- (float);
+- (float)numFactoryBad;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)da_accountsWithAccountTypeIdentifiers:(const struct AudioObjectPropertyAddress *)arg1;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)tlement issue %@ will be reported, nextAction=%@
+;
+- (_Bool)ut.cat;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int leftPanChannel; // @dynamic leftPanChannel;
-@property(nonatomic) unsigned int rightPanChannel; // @dynamic rightPanChannel;
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
 @property(nonatomic) float value; // @dynamic value;
 
 @end

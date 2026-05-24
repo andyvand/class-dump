@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)fc_dictionaryWithKeyBlock:(id)arg1;
 
 @end
 

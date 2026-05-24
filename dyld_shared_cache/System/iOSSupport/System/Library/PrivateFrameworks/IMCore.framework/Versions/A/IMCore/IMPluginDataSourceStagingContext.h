@@ -9,7 +9,6 @@
 @interface IMPluginDataSourceStagingContext
 {
     _Bool _isEmbeddedInTextView;
-    NSString *_transientIdentifier;
 }
 
 + (id);
@@ -17,12 +16,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void)»;
 
 // Remaining properties
-@property(nonatomic) _Bool isEmbeddedInTextView; // @synthesize isEmbeddedInTextView=_isEmbeddedInTextView;
 @property(retain, nonatomic) NSString *transientIdentifier; // @synthesize transientIdentifier=_transientIdentifier;
 
 @end

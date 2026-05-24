@@ -11,15 +11,15 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (unsigned long long);
++ (id);
++ (unsigned long long);
 + (id);
 + (id);
 

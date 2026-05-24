@@ -6,13 +6,11 @@
 
 #import <ViewBridge/NSRemoteViewControllerParametersForService.h>
 
-@class NSString, NSUUID, NSXPCListenerEndpoint;
+@class NSString;
 
 @interface NSRemoteViewControllerParameters : NSRemoteViewControllerParametersForService
 {
     NSString *_serviceBundleIdentifier;
-    NSXPCListenerEndpoint *_serviceListenerEndpoint;
-    NSUUID *_serviceInstanceIdentifier;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(copy) NSString *serviceBundleIdentifier; // @synthesize serviceBundleIdentifier=_serviceBundleIdentifier;
-@property(retain) NSUUID *serviceInstanceIdentifier; // @synthesize serviceInstanceIdentifier=_serviceInstanceIdentifier;
-@property(retain) NSXPCListenerEndpoint *serviceListenerEndpoint; // @synthesize serviceListenerEndpoint=_serviceListenerEndpoint;
 
 @end
 

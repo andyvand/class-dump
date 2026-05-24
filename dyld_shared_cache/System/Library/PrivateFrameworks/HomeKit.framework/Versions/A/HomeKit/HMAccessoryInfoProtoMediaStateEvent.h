@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMAccessoryInfoProtoMediaStateEvent
 {
     long long _playbackState;
-    long long _repeatState;
-    long long _shuffleState;
-    double _volume;
-    NSString *_mediaIdentifier;
-    struct {
-        unsigned int playbackState:1;
-        unsigned int repeatState:1;
-        unsigned int shuffleState:1;
-        unsigned int volume:1;
-    } _has;
 }
 
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (void);
@@ -39,8 +27,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)!;
+- (_Bool)demerara;
 - (void);
 - (double);
 - (id);
@@ -48,21 +36,12 @@
 - (void);
 - (void)!<Gù±Y1Â0@ù
 × ;
-- (_Bool)eyPaths: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAccessoryUUID:keyPaths: /* Error: Ran out of types for this method. */;
 - (void)pdateMediaState muted changed from %@ to %@;
 - (_Bool)@) is invalid;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMediaIdentifier;
 @property(nonatomic) _Bool hasPlaybackState;
-@property(nonatomic) _Bool hasRepeatState;
-@property(nonatomic) _Bool hasShuffleState;
-@property(nonatomic) _Bool hasVolume;
-@property(retain, nonatomic) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) long long repeatState; // @synthesize repeatState=_repeatState;
-@property(nonatomic) long long shuffleState; // @synthesize shuffleState=_shuffleState;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
 
 @end
 

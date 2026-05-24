@@ -7,7 +7,6 @@
 @interface Vision.FaceDetectorPerformingOperation
 {
     id requests;
-    id options;
 }
 
 @end

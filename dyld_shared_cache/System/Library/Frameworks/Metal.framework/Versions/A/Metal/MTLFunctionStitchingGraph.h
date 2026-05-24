@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionStitchingFunctionNode, NSArray, NSString;
+@class NSString;
 
 @interface MTLFunctionStitchingGraph
 {
     NSString *_functionName;
-    NSArray *_nodes;
-    MTLFunctionStitchingFunctionNode *_outputNode;
-    NSArray *_attributes;
 }
 
 - (void);
@@ -22,20 +19,17 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)	?֠;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id)e;
+- (id)enable;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
 @property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
-@property(retain, nonatomic) MTLFunctionStitchingFunctionNode *outputNode; // @synthesize outputNode=_outputNode;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ё@;
 - (void);
-- (id);
+- (id)/usr/lib/libCheckFix.dylib;
 - (id);
 - (void)`ø,ÄL;
 
